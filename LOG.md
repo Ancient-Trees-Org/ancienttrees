@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-14 night run 16:20 UTC: deploy fixed, one note read
+
+Rung 2. Build and deploy had been red since 11:43: qa refused an orphan vendored file, `bcn_061-the-olive-of-the-historic-botanical-garden-gate-500.jpg` (nothing points at it; the tree's photo url is the shorter name). Removed it with git rm, preflight 0 problems, pushed. A reader note on the Istanbul Nettle Tree (ist_013) says the 4.1 m girth looks too big; read, left visible, marked seen. The register's 411 cm stays, and the story's "145 centimetres across" is a different measure, so it is not settled. For Hidde: the run's token cannot dispatch deploy.yml (HTTP 403), so the fix goes live on the next push-triggered or scheduled build. The iOS app run of 11-14 failed after 2h8m (probably the runner's timeout); app work is a session's, not touched. Nothing published; the shelf is under its floor (919 leads need only a source) and I stopped here, no verify pass dispatched.
+
 ## 2026-11-14 Istanbul reader's three photographs live (session)
 
 - **A reader's morning walk through Gülhane, three trees in half an hour, now on the pages.** The Gülhane London Plane (ist_012) and the Gülhane Nettle Tree (ist_013) had no photograph and now lead with theirs; the Taşlı Çınar (ist_004) takes theirs as the lead and keeps the old one in the strip. Their note on ist_013 ("the girth is recorded as 4.1m but that appears an over-estimate") is live as a tree note; the 411 cm figure is unchanged until a source or a second reader says otherwise. The "your photos are live" mail is pending for the next knock.
