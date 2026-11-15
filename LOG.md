@@ -2,6 +2,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 daily publish (scheduled task): queue empty
+
+- **Daily publish: queue empty.** Today's four builders (build_write_2026_11_15, b, c, d: Chicago chi_059 to 064, Philadelphia, Key West, Tulsa) are all on main except the two kept out on purpose (phl_010 Grumblethorpe Ginkgo for access, tsa_003 Tulsa English oak unmeasured), neither held for the pace. The Grazalema REDIAM trees (sgz_001, 002, 004) are live as gzm_001 to 003. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes now put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-15 late evening session: the rest of the reader inbox
 
 - **Product**: two more reader trees live (app first): the Fairchild Oak in Bulow Creek State Park near Ormond Beach, Florida (obc_001; over 400 years by Wikipedia, almost 500 by the state park list, about 600 by the reader, 2,000 on its plaque; GPS fix confirmed) and the cedar of Lebanon in Norwich Cathedral's close (nwc_001; no age found, hand pin approximate). First reader photographs for two Groningen trees (the Mespilifolia oak gro_016, the Martinikerkhof oak gro_007) and a reader's lead for the Nieuwe Kerkhof beeches (gro_014).
