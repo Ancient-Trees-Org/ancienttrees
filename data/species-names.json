@@ -1310,6 +1310,18 @@
    }
   },
   {
+   "common": "Black Maple",
+   "latin": "Acer nigrum",
+   "names": {
+    "fr": [
+     "Érable noir"
+    ],
+    "ja": [
+     "クロカエデ"
+    ]
+   }
+  },
+  {
    "common": "Black Mulberry",
    "latin": "Morus nigra",
    "names": {
@@ -4594,6 +4606,15 @@
     ],
     "ja": [
      "ヨーロッパダケカンバ"
+    ]
+   }
+  },
+  {
+   "common": "Downy Hawthorn",
+   "latin": "Crataegus mollis",
+   "names": {
+    "es": [
+     "Acerolo rojo"
     ]
    }
   },
@@ -13121,6 +13142,27 @@
    }
   },
   {
+   "common": "Slippery Elm",
+   "latin": "Ulmus rubra",
+   "names": {
+    "en": [
+     "red elm"
+    ],
+    "nl": [
+     "Rode iep"
+    ],
+    "de": [
+     "Rot-Ulme"
+    ],
+    "fr": [
+     "Orme rouge"
+    ],
+    "ja": [
+     "アカニレ"
+    ]
+   }
+  },
+  {
    "common": "Small-leaved Lime",
    "latin": "Tilia cordata",
    "names": {
@@ -16236,19 +16278,6 @@
    "mapped": false
   },
   {
-   "common": "Black maple",
-   "latin": "Acer nigrum",
-   "mapped": false,
-   "names": {
-    "fr": [
-     "Érable noir"
-    ],
-    "ja": [
-     "クロカエデ"
-    ]
-   }
-  },
-  {
    "common": "Schwedler Norway Maple",
    "latin": "Acer platandides",
    "mapped": false
@@ -17197,6 +17226,24 @@
    "mapped": false
   },
   {
+   "common": "Geiger Tree",
+   "latin": "Cordia sebestena",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Broadleaf",
+     "largeleaf geigertree"
+    ],
+    "nl": [
+     "Sebestenboom"
+    ],
+    "ja": [
+     "アカバナチシャノキ",
+     "アメリカチシャノキ"
+    ]
+   }
+  },
+  {
    "common": "Kou",
    "latin": "Cordia subcordata",
    "mapped": false,
@@ -17417,16 +17464,6 @@
     ],
     "ja": [
      "セイヨウサンザシ"
-    ]
-   }
-  },
-  {
-   "common": "Downy hawthorn",
-   "latin": "Crataegus mollis",
-   "mapped": false,
-   "names": {
-    "es": [
-     "Acerolo rojo"
     ]
    }
   },
@@ -18252,6 +18289,20 @@
    "names": {
     "en": [
      "tawnyberry holly"
+    ]
+   }
+  },
+  {
+   "common": "American Holly",
+   "latin": "Ilex opaca",
+   "mapped": false,
+   "names": {
+    "fr": [
+     "Houx americain"
+    ],
+    "ja": [
+     "アメリカヒイラギ",
+     "アメリカヒイラギモチ"
     ]
    }
   },
@@ -20691,28 +20742,6 @@
    "names": {
     "en": [
      "Texas cedar elm"
-    ]
-   }
-  },
-  {
-   "common": "Slippery elm",
-   "latin": "Ulmus rubra",
-   "mapped": false,
-   "names": {
-    "en": [
-     "red elm"
-    ],
-    "nl": [
-     "Rode iep"
-    ],
-    "de": [
-     "Rot-Ulme"
-    ],
-    "fr": [
-     "Orme rouge"
-    ],
-    "ja": [
-     "アカニレ"
     ]
    }
   },

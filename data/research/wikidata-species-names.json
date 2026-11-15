@@ -10635,6 +10635,36 @@
    "Cordia boissieri"
   ]
  },
+ "Cordia sebestena": {
+  "en": [
+   "Broadleaf",
+   "Cordia sebestena",
+   "Geiger Tree",
+   "largeleaf geigertree"
+  ],
+  "ja": [
+   "アカバナチシャノキ",
+   "アメリカチシャノキ"
+  ],
+  "de": [
+   "Cordia sebestena"
+  ],
+  "es": [
+   "Cordia sebestena"
+  ],
+  "fr": [
+   "Cordia sebestena"
+  ],
+  "it": [
+   "Cordia sebestena"
+  ],
+  "nl": [
+   "Sebestenboom"
+  ],
+  "pt": [
+   "Cordia sebestena"
+  ]
+ },
  "Cordia subcordata": {
   "en": [
    "Cordia subcordata",
@@ -19189,6 +19219,37 @@
   ],
   "pt": [
    "Ilex montana"
+  ]
+ },
+ "Ilex opaca": {
+  "en": [
+   "American Holly",
+   "American holly",
+   "Ilex opaca"
+  ],
+  "fr": [
+   "Houx americain",
+   "Houx américain",
+   "Ilex opaca"
+  ],
+  "ja": [
+   "アメリカヒイラギ",
+   "アメリカヒイラギモチ"
+  ],
+  "de": [
+   "Ilex opaca"
+  ],
+  "es": [
+   "Ilex opaca"
+  ],
+  "it": [
+   "Ilex opaca"
+  ],
+  "nl": [
+   "Ilex opaca"
+  ],
+  "pt": [
+   "Ilex opaca"
   ]
  },
  "Ilex rotunda": {
