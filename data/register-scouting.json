@@ -42,7 +42,8 @@
    "place": "Allentown",
    "country": "United States",
    "status": "stalled",
-   "note": "SCOUTED 2026-10-16 on scout_next.py --target (#372). One search: no Allentown (Lehigh County, PA) notable or heritage tree register. Only the statewide Pennsylvania Forestry Association champion registry (PAbigtrees.com), whose terms and coordinates were not checked. Next angle: PAbigtrees.com Lehigh County entries (licence and coordinates), Cedar Crest College and Trexler Park old trees as hand leads."
+   "retried": "2026-11-15",
+   "note": "SCOUTED 2026-10-16, RETRIED 2026-11-15. No city register. PA Big Trees (Pennsylvania Forestry Association, pabigtrees.com) has 10 Lehigh County rows (public JSON at /api/trees, coordinates on all; terms of use not found; nominator names and emails sit in that JSON and are never copied), measured 2004 to 2018, no champions, mostly street addresses; two rows have coordinates in Arkansas and Alabama. One tree delivered flagged (all_001, cottonwood in public Lehigh Parkway, register only, alive unconfirmed); six kept as leads in data/leads/allentown.json, two blocked. No Cedar Crest College or Trexler Park tree found named in any source (Curtis Arboretum 140 species, no individual trees). Stalled after this: next angle only an Allentown Parks or Curtis Arboretum tree inventory, or a reader's photograph of the Center Valley sycamore (742 cm girth, no address)."
   },
   {
    "place": "Phoenix",

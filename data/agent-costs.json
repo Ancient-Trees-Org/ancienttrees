@@ -4,6 +4,14 @@
     "2026-11-15": [
       {
         "date": "2026-11-15",
+        "kind": "scout",
+        "target": "allentown",
+        "tokens": 130000,
+        "trees": 0,
+        "note": "one flagged cottonwood (alive unconfirmed) held back, six leads; still stalled; estimate"
+      },
+      {
+        "date": "2026-11-15",
         "kind": "verify",
         "target": "philadelphia",
         "tokens": 95000,

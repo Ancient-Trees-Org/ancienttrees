@@ -1,0 +1,95 @@
+{
+ "city": "allentown",
+ "leads": [
+  {
+   "name": "Eastern Cottonwood near Cedarbrook",
+   "species": "Eastern Cottonwood (Populus deltoides)",
+   "lat": 40.5772436,
+   "lng": -75.5433298,
+   "register_location": "260 S Cedarbrook Rd, Allentown, PA 18104 (near a home for the elderly)",
+   "girth_cm": 584,
+   "height_m": 33.5,
+   "register_status": "PA Big Trees, measured 2004, 368 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Measured 2004, institutional address, public access unknown, alive unchecked.",
+   "status": "open"
+  },
+  {
+   "name": "American Sycamore, Center Valley",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "lat": 40.5294058,
+   "lng": -75.3936935,
+   "register_location": "Center Valley (no street address)",
+   "girth_cm": 742,
+   "height_m": 30.5,
+   "register_status": "PA Big Trees, measured 2009, 420 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Largest Lehigh County entry. No address; ownership and public access unknown, alive unchecked. Worth an OSM or aerial check of the pin.",
+   "status": "open"
+  },
+  {
+   "name": "American Sycamore, Riverbend Rd",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "lat": 40.5476114,
+   "lng": -75.5122109,
+   "register_location": "Riverbend Rd, Allentown (street address, possibly a home: not copied as an address)",
+   "girth_cm": 554,
+   "height_m": 36.6,
+   "register_status": "PA Big Trees, measured 2018, 360 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Most recent Lehigh measurement (2018). Residential address, public access unknown, hard rule 10 until viewing from public ground is shown.",
+   "status": "open"
+  },
+  {
+   "name": "Silver Maple, Coplay",
+   "species": "Silver Maple (Acer saccharinum)",
+   "lat": 40.6859383,
+   "lng": -75.5457971,
+   "register_location": "Scheidys Rd, Coplay",
+   "girth_cm": 678,
+   "height_m": 22.9,
+   "register_status": "PA Big Trees, measured 2007, 371 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Street address, likely private, alive unchecked.",
+   "status": "open"
+  },
+  {
+   "name": "White Oak, Macungie",
+   "species": "White Oak (Quercus alba)",
+   "lat": 40.5148607,
+   "lng": -75.5470681,
+   "register_location": "Buckeye Rd, Macungie",
+   "girth_cm": 478,
+   "height_m": 36.6,
+   "register_status": "PA Big Trees, measured 2007, 330 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Street address, likely private, alive unchecked. The only oak among Lehigh entries.",
+   "status": "open"
+  },
+  {
+   "name": "Black Walnut, Jordan Creek Pkwy",
+   "species": "Black Walnut (Juglans nigra)",
+   "lat": 40.5978173,
+   "lng": -75.4616001,
+   "register_location": "Jordan Creek Pkwy, Allentown",
+   "girth_cm": 417,
+   "height_m": 27.4,
+   "register_status": "PA Big Trees, measured 2012, 272 points",
+   "sources": ["https://www.pabigtrees.com/"],
+   "source": "Pennsylvania Forestry Association champion register. Jordan Creek Parkway is a county park road; tree modest for a champion list, alive unchecked, no recognition basis.",
+   "status": "open"
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Northern Catalpa and Black Walnut, 'White Hall Pkwy'",
+   "reason": "Register coordinates for both land in Arkansas and Alabama, not Lehigh County; location unusable.",
+   "sources": ["https://www.pabigtrees.com/"]
+  },
+  {
+   "name": "Eastern Redbud, 126 Fox Street, Emmaus",
+   "reason": "Residential address, 127 points, a small multi-stemmed redbud; not remarkable and likely a home.",
+   "sources": ["https://www.pabigtrees.com/"]
+  }
+ ]
+}
