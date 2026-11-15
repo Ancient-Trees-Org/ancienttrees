@@ -1236,7 +1236,23 @@
       "official_register": {
         "name": "Dansk Traeregister (Dansk Dendrologisk Forening), no. 1531",
         "url": "https://www.dendron.dk/dtr/detaljer.asp?Individual_id=1531"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_026-the-fern-leaved-beech-of-the-national-gallery-40d6b9ff.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+          "sighting_id": "40d6b9ff-509f-488b-9e02-4f507e7f889a",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "cop_027",

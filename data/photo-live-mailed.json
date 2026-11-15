@@ -468,6 +468,15 @@
      "city_slug": "buenos-aires",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "40d6b9ff-509f-488b-9e02-4f507e7f889a",
+     "tree_id": "cop_026",
+     "tree_name": "The Fern-leaved Beech of the National Gallery",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []
