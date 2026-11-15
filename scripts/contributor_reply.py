@@ -52,7 +52,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 SENT_PATH = os.path.join(ROOT, "data", "outreach-sent.json")
-DAILY_CAP = int(os.environ.get("OUTREACH_DAILY_CAP", "50"))
 
 
 HEALTH_PATH = os.path.join(ROOT, "data", "mail-health.json")
@@ -371,7 +370,6 @@ def main():
     except Exception:
         sent_log = {"sent": []}
     today = datetime.date.today().isoformat()
-    sent_today = sum(1 for s in sent_log["sent"] if s.get("date") == today)
     dnc = {a.lower().strip() for a in sent_log.get("do_not_contact", [])}
 
     try:
@@ -528,9 +526,9 @@ def main():
         if low in dnc or ("@" + low.split("@")[-1]) in dnc:
             print("SKIP %s: on the do-not-contact list, never overridden" % low)
             continue
-        if sent_today >= DAILY_CAP:
-            print("HOLD %s: daily cap of %d reached" % (low, DAILY_CAP))
-            break
+        # No daily cap here (Hidde, 2026-11-15: "de limiet moet niet staan voor
+        # interne mails alleen voor outreach"). Every mail in this script
+        # answers something the reader sent us; the cap is outreach_send.py's.
         if not really:
             print("DRY  would send %r to %s (then set %s on row %s)"
                   % (subject, low, stamp, r["id"]))
@@ -559,7 +557,6 @@ def main():
                   "If this is a 535 BadCredentials, the app password in the "
                   "environment is wrong or has spaces in it.")
             return 0
-        sent_today += 1
         _note_transport(None)
         now = datetime.datetime.now(datetime.timezone.utc).isoformat()
         # Stamp every row of this address needing this stamp, so the

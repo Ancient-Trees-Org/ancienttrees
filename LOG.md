@@ -10,6 +10,8 @@
 - Fixed: ambassador.py linked Media's list to a 404 (a place of app-only trees has no page); it now links the explore map at the place. tree_approved.py greets a generated profile name ("Rooted Ash 4451") as "Hi there", lowers a name typed in capitals, and asks one missing fact as a plain question.
 - Fourteen replies to tips no script mails (drafts/reply-reader-*-2026-11-15.md), sent on Hidde's "Ja, verstuur" through contributor_reply.py with reply_text and outcome set per row; the daily cap of 50 was lifted to 110 for those runs only (OUTREACH_DAILY_CAP in the environment, nothing changed in code), since 71 of the day's 93 logged mails were Hidde's own from Gmail and Resend stayed far under its 100.
 - Every reader tree of the day is congratulated except edi_022, whose reader had two already today: tree_approved.py now sends one mail per person (several trees bundled) and holds anyone congratulated that day for the next knock, and no longer asks an existing ambassador to take on another place.
+- The daily mail cap is now outreach only (Hidde: "de limiet moet niet staan voor interne mails alleen voor outreach"): contributor_reply.py has none, outreach_send.py counts only its own first-contact mails (new `via` field) and never holds a reply in a thread. qa `check_no_daily_cap_on_reader_mail()` refuses a cap in the reader-mail scripts (tested red with one put back).
+- Still coming in after this session's sweep: submissions 756 to 783 (8 tree tips, 3 pin moves, 17 feedback rows); the knock pulls their photographs into the queue.
 - The Isparta tree's slug lost its dotless i (plane-of-cnar-sokak); cosmetic, the page works.
 
 ## 2026-11-15 session: Yahoo blocks the welcome mail

@@ -1017,6 +1017,29 @@ def check_a_photo_is_a_visit_on_every_surface():
     return out
 
 
+def check_no_daily_cap_on_reader_mail():
+    """The daily mail cap is for outreach only (Hidde, 2026-11-15: "de limiet
+    moet niet staan voor interne mails alleen voor outreach"). On the Guardian
+    day the cap in contributor_reply.py, which counted every logged mail of the
+    day, held fourteen answers to readers. The scripts that answer what a
+    reader sent us, or tell them their tree or photo is live, carry no cap;
+    outreach_send.py keeps one and counts only its own first-contact mails.
+    Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent / "scripts"
+    out = []
+    for name in ("contributor_reply.py", "tree_approved.py", "ambassador.py",
+                 "sightings_publish.py", "tree_notes.py"):
+        p = root / name
+        if p.exists() and re.search(r"DAILY_CAP|daily cap of", p.read_text(encoding="utf-8")):
+            out.append("%s carries a daily mail cap; the cap is for outreach only "
+                       "(outreach_send.py)" % name)
+    src = (root / "outreach_send.py").read_text(encoding="utf-8")
+    if '"via": "outreach_send"' not in src or 's.get("via") == "outreach_send"' not in src:
+        out.append("outreach_send.py's daily cap must count only its own first-contact mails "
+                   "(the `via` field), not every mail in the send log")
+    return out
+
+
 def check_a_given_photo_records_the_yes():
     """A photograph somebody gave us by mail goes up only with their yes on file.
 
@@ -3954,6 +3977,7 @@ def main():
         DIST = args.dist.resolve()
 
     SOURCE_ONLY = [
+        check_no_daily_cap_on_reader_mail,
         check_run_prompt_forbids_compound_commands,
         check_run_prompt_carries_no_expression,
         check_workflows_carry_no_empty_expression,

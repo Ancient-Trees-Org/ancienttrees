@@ -111,7 +111,15 @@ def main():
     batch = json.load(open(batch_path))
     sent_log = load_sent()
     today = datetime.date.today().isoformat()
-    sent_today = sum(1 for s in sent_log["sent"] if s["date"] == today)
+    # THE CAP IS FOR OUTREACH ONLY (Hidde, 2026-11-15: "de limiet moet niet
+    # staan voor interne mails alleen voor outreach"). The log also holds
+    # replies to readers, congratulations, ambassador answers and what Hidde
+    # sent by hand; on the Guardian day those filled the 50 by themselves and
+    # held fourteen reader replies. Counted: first-contact mails this script
+    # sent today (`via`, from 2026-11-15), never a reply in a thread.
+    sent_today = sum(1 for s in sent_log["sent"]
+                     if s["date"] == today and s.get("via") == "outreach_send"
+                     and not s.get("in_reply_to"))
     already = {s["to"].lower() for s in sent_log["sent"]}
     dnc = {a.lower().strip() for a in sent_log.get("do_not_contact", [])}
 
@@ -245,7 +253,7 @@ def main():
             results.append(f"SKIP  {label}: {to} is on the do-not-contact list, "
                            f"which is never overridden")
             continue
-        if sent_today >= DAILY_CAP:
+        if sent_today >= DAILY_CAP and not m.get("in_reply_to"):
             results.append(f"HOLD  {label}: daily cap of {DAILY_CAP} reached, "
                            f"re-run tomorrow")
             continue
@@ -288,9 +296,11 @@ def main():
         if server is None:
             server = mailer.connect(creds, timeout=30)
         server.send_message(msg, recent_ok=recent_ok or None)
-        sent_today += 1
+        if not m.get("in_reply_to"):
+            sent_today += 1
         record = {"date": today, "to": to, "outlet": label,
-                  "subject": m["subject"], "batch": batch.get("batch")}
+                  "subject": m["subject"], "batch": batch.get("batch"),
+                  "via": "outreach_send"}
         if (m.get("resend_reason") or "").strip():
             record["resend_reason"] = m["resend_reason"].strip()
         if m.get("in_reply_to"):
