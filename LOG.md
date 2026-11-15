@@ -2,6 +2,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 session: Yahoo blocks the welcome mail
+
+- Broken: Supabase sends its auth mails through Hidde's Gmail as info@ancienttrees.app (SMTP set 2026-09, drafts/auth-mails.md). Gmail signs for gmail.com, so Yahoo refuses them ("550 5.7.9 ... requires this sender to authenticate with DKIM"). On the Guardian day 6 email sign-ups on Yahoo addresses (8 bounces) never got their welcome mail and stayed unconfirmed; Gmail, Outlook and the rest arrive.
+- Sent with Hidde's yes: one mail to each of the 6 through Resend (signed for our domain), with a fresh sign-in link from Supabase's generate_link, saying from tomorrow Yahoo mail works again. Logged as batch yahoo-signin-2026-11-15.
+- Not chosen: moving Supabase's SMTP to Resend. Resend is on the free plan (100 a day) and the day had 71 email sign-ups in four hours, so on a press day every email sign-up would fail past the hundredth. Resend Pro ($20 a month) is too dear for Hidde.
+- Built, NOT live: supabase/functions/send-email/index.ts, a Send Email hook that routes Yahoo-family addresses (Yahoo, AOL, Verizon and the rest on Yahoo's servers) through Resend and everyone else through Gmail SMTP on 465 (Edge Functions block 25 and 587), each falling back to the other. For Hidde tonight: deploy in the dashboard, four secrets, Auth > Hooks > Send Email on, test with a Gmail and a Yahoo address. Copy the dashboard's current templates in first if they differ from drafts/auth-mails.md. The mail promised the 6 "from tomorrow".
+
 ## 2026-11-15 session, part 3: the Guardian afternoon wave
 
 - Seven reader trees with a GPS fix live as tree pages: ngs_001 the A-bombed camphors of Sannō Shrine (Nagasaki), mbw_001 a veteran yew at Market Bosworth, hth_001 Kett's Oak (Hethersett), ots_001 the pine of Ukimidō (Ōtsu, 400 years by the reader), lon_052 a hollow beech on Hampstead Heath, grn_001 a buttressed giant near Mount Horne (Grenada, species uncertain and said so), edi_022 a Wheatley elm in west Edinburgh ("widest in Scotland" is the reader's claim). Five new one-tree places.
