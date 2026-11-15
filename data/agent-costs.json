@@ -81,6 +81,22 @@
         "tokens": 70000,
         "trees": 0,
         "note": "US/UK-first write pass found nothing writable: every named US/UK file already live; the ~20 real pending rows all held (access, cannot be told apart, no sighting since 2019), duplicates, or all_001 left held (alive unconfirmed since 2009); estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "scout",
+        "target": "zurich",
+        "tokens": 102778,
+        "trees": 0,
+        "note": "Stadt Zuerich Geschuetzte Einzelbaeume is CC0 but 27 rows with no girth/age and mostly private plots; stalled, 0 verified"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "session",
+        "target": "reader photographs + 2 reader-found AU trees",
+        "tokens": 0,
+        "trees": 2,
+        "note": "session work: 8 reader photos judged, mvv_001 Moss Vale and ads_001 Adelaide published from reader photos"
       }
     ],
     "2026-11-14": [

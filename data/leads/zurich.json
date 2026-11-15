@@ -1,0 +1,30 @@
+{
+ "leads": [
+  {
+   "name": "Zurich protected trees: Erismannstrasse 45-55, u.a.",
+   "location": {
+    "address": "Erismannstrasse 45-55, u.a."
+   },
+   "reason": "Seven lindens and beeches within 40 m (lat 47.3771 lon 8.5177), protected 2016 (STRB 640). Looks like the Seebahn/Erismannhof housing courts in Kreis 4; a developer page for the neighbouring Seebahn-Hoefe says large protected trees stand in a publicly accessible courtyard, but nothing confirms this address. Best cluster lead: needs a source for access and a size. No photo or exact pin evidence in reach; register id range in data/registers/zurich-geschuetzte-einzelbaeume.json.",
+   "source": "https://data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume"
+  },
+  {
+   "name": "Zurich protected trees: Binzmuehlestrasse 370",
+   "location": {
+    "address": "Binzmuehlestrasse 370"
+   },
+   "reason": "Eight trees (oaks, walnut, beeches) within 60 m, protected 2012 (STRB 1426), Oerlikon (lat 47.4140 lon 8.5234). No source found on what stands there or whether it is open. No photo or exact pin evidence in reach; register id range in data/registers/zurich-geschuetzte-einzelbaeume.json.",
+   "source": "https://data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume"
+  },
+  {
+   "name": "Zurich protected trees: Restelbergstrasse 60/64, Susenbergstrasse 161, Gladbachstrasse 90, Schloesslistrasse 9, Asternweg 5, Toblerstrasse 98, Zehntenhausstrasse 16, Grabenwies 2, Toedistrasse 26, Rainstrasse 21",
+   "location": {
+    "address": "Restelbergstrasse 60/64, Susenbergstrasse 161, Gladbachstrasse 90, Schloesslistrasse 9, Asternweg 5, Toblerstrasse 98, Zehntenhausstrasse 16, Grabenwies 2, Toedistrasse 26, Rainstrasse 21"
+   },
+   "reason": "Single protected trees at residential addresses (Zuerichberg villa streets and elsewhere). No evidence of public access or view from the street; hard rule 10 holds them. No photo or exact pin evidence in reach; register id range in data/registers/zurich-geschuetzte-einzelbaeume.json.",
+   "source": "https://data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume"
+  }
+ ],
+ "blocked": [],
+ "notes": "Zurich scouting pass 2026-11-15. Register data/registers/zurich-geschuetzte-einzelbaeume.json (27 rows, CC0, no dimensions). Nothing verified: no row has a girth, age or access statement, and none reaches the two-source or access bar in a 40 minute pass."
+}

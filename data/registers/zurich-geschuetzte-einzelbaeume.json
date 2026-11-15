@@ -1,0 +1,284 @@
+{
+ "source": "Stadt Zuerich, Geschuetzte Einzelbaeume (trees formally protected under par. 203 Abs. 1 lit. f PBG)",
+ "endpoint": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Geschuetzte_Einzelbaeume (TYPENAME geschuetzteeinzelbaeume, outputFormat GeoJSON, srsName EPSG:4326); dataset page https://data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume",
+ "licence": "Creative Commons CCZero (CC0)",
+ "licence_proof": "data.stadt-zuerich.ch CKAN API package_show id=geo_geschuetzte_einzelbaeume, fetched 2026-11-15: license_id \"cc-zero\", license_title \"Creative Commons CCZero\". Gap: a search summary says opendata.swiss shows a different code (NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired) on some Zurich tree pages; not seen on a fetched page. CC0 is the city portal own record.",
+ "designation": "Stadtratsbeschluss protection of valuable trees and tree groups; excludes trees protected by Sonderbauvorschriften, Gestaltungsplaene or the garden inventory (GDP)",
+ "country": "Switzerland",
+ "attribution": "Stadt Zuerich (not required under CC0, recommended)",
+ "fetched": "2026-11-15",
+ "scope": "all 27 rows",
+ "caveat": "No girth, height, age or vitality fields. Addresses are mostly private plots (villas, housing estates, a farm-like site); no access field. Coordinates are one point per tree but unconfirmed against a crown. A register row does not say the tree still stands.",
+ "entries": [
+  {
+   "register_id": "geschuetzteeinzelbaeume.1",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377093,
+   "longitude": 8.517724,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.2",
+   "species_latin": "Quercus robur",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.414108,
+   "longitude": 8.523354,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.3",
+   "species_latin": "Fagus sylvatica f. pendula",
+   "address": "Schlösslistrasse 9",
+   "protected_on": "25.03.2020",
+   "protection_basis": "Stadtratsbeschluss 259",
+   "latitude": 47.384615,
+   "longitude": 8.556302,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.4",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377549,
+   "longitude": 8.518039,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.5",
+   "species_latin": "Juglans regia",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.413936,
+   "longitude": 8.523885,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.6",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Toblerstrasse 98",
+   "protected_on": "18.12.2013",
+   "protection_basis": "Stadtratsbeschluss 1162",
+   "latitude": 47.377062,
+   "longitude": 8.562434,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.7",
+   "species_latin": "Fagus sylvatica",
+   "address": "Asternweg 5",
+   "protected_on": "21.02.1990",
+   "protection_basis": "Stadtratsbeschluss",
+   "latitude": 47.404541,
+   "longitude": 8.545196,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.8",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377228,
+   "longitude": 8.517622,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.9",
+   "species_latin": "Fagus sylvatica f. pendula",
+   "address": "Zehntenhausstrasse 16",
+   "protected_on": "24.06.2015",
+   "protection_basis": "Stadtratsbeschluss 577",
+   "latitude": 47.420208,
+   "longitude": 8.507312,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.10",
+   "species_latin": "Fagus sylvatica",
+   "address": "Gladbachstrasse 90",
+   "protected_on": "10.04.2013",
+   "protection_basis": "Stadtratsbeschluss 317",
+   "latitude": 47.379271,
+   "longitude": 8.555293,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.11",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377257,
+   "longitude": 8.517544,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.12",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377339,
+   "longitude": 8.517491,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.13",
+   "species_latin": "Fagus sylvatica f. pendula",
+   "address": "Asternweg 5",
+   "protected_on": "21.02.1990",
+   "protection_basis": "Stadtratsbeschluss",
+   "latitude": 47.404506,
+   "longitude": 8.545133,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.14",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377173,
+   "longitude": 8.51778,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.15",
+   "species_latin": "Pinus nigra",
+   "address": "Restelbergstrasse 64",
+   "protected_on": "26.04.2012",
+   "protection_basis": "Stadtratsbeschluss 503",
+   "latitude": 47.383197,
+   "longitude": 8.555632,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.16",
+   "species_latin": "Fagus sylvatica",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.413699,
+   "longitude": 8.52374,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.17",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377201,
+   "longitude": 8.517688,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.18",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Susenbergstrasse 161",
+   "protected_on": "18.05.2011",
+   "protection_basis": "Stadtratsbeschluss 528",
+   "latitude": 47.385275,
+   "longitude": 8.557895,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.19",
+   "species_latin": "Quercus robur",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.414117,
+   "longitude": 8.523309,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.20",
+   "species_latin": "Quercus robur",
+   "address": "Rainstrasse 21",
+   "protected_on": "17.05.2006",
+   "protection_basis": "Stadtratsbeschluss 531",
+   "latitude": 47.34231,
+   "longitude": 8.528378,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.21",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Grabenwies 2",
+   "protected_on": "13.07.2011",
+   "protection_basis": "Stadtratsbeschluss 886",
+   "latitude": 47.401549,
+   "longitude": 8.537006,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.22",
+   "species_latin": "Fagus sylvatica 'Atropunicea'",
+   "address": "Tödistrasse 26",
+   "protected_on": "18.05.2011",
+   "protection_basis": "Stadtratsbeschluss 2145",
+   "latitude": 47.365854,
+   "longitude": 8.535102,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.23",
+   "species_latin": "Fagus sylvatica",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.413949,
+   "longitude": 8.523717,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.24",
+   "species_latin": "Quercus petraea",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.414086,
+   "longitude": 8.523415,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.25",
+   "species_latin": "Pinus nigra",
+   "address": "Restelbergstrasse 60",
+   "protected_on": "26.04.2012",
+   "protection_basis": "Stadtratsbeschluss 503",
+   "latitude": 47.383156,
+   "longitude": 8.555667,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.26",
+   "species_latin": "Quercus robur",
+   "address": "Binzmühlestrasse 370",
+   "protected_on": "07.11.2012",
+   "protection_basis": "Stadtratsbeschluss 1426",
+   "latitude": 47.414109,
+   "longitude": 8.523374,
+   "precision": "approximate"
+  },
+  {
+   "register_id": "geschuetzteeinzelbaeume.27",
+   "species_latin": "Tilia platyphyllos",
+   "address": "Erismannstrasse 45-55, u.a.",
+   "protected_on": "24.08.2016",
+   "protection_basis": "Stadtratsbeschluss 640",
+   "latitude": 47.377177,
+   "longitude": 8.517488,
+   "precision": "approximate"
+  }
+ ]
+}

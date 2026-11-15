@@ -1229,6 +1229,12 @@
    "country": "Spain",
    "status": "imported",
    "note": "SCOUTED 2026-11-08, NO NEW SUPPLY. Already imported (data/registers/castilla-leon-arboles-notables.json, Junta de Castilla y Leon, licence free use with attribution, commercial branch of IGCYL-NC, proof in file header) and the city is already published with 6 trees (5 from the register). 13 register rows in Segovia province: 6 published; within about 30 km only AS-SG-22 (El Espinar sequoia, about 23 km, fenced forestry house, access unconfirmed) remains, kept as a lead in data/leads/segovia.json; the other six are 34 km or more out. Riofrio wood and Guadarrama gave no named trees. Open problem for a session: AS-SG-09 is blocked as probable felled in leads yet published as seg_003 in data/cities/segovia.json. Notes in data/research/segovia-scout-2026-11-08.md."
+  },
+  {
+   "place": "Zurich",
+   "country": "Switzerland",
+   "status": "stalled",
+   "note": "SCOUTED 2026-11-15. Stadt Zuerich Geschuetzte Einzelbaeume (data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume), licence CC0 per the portal CKAN record, WFS https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Geschuetzte_Einzelbaeume TYPENAME geschuetzteeinzelbaeume. Imported as data/registers/zurich-geschuetzte-einzelbaeume.json: only 27 trees, species, address, protection date, no girth/height/age, mostly private plots; clusters at Erismannstrasse 45-55 (7 trees) and Binzmuehlestrasse 370 (8 trees). Nothing verified (no access or size evidence), leads in data/leads/zurich.json. Baumkataster (CC0, WFS baumkataster_baumstandorte) and Bauminventar are bulk city-tree inventories with pflanzjahr and crown diameter but no girth or designation: not a supply source. Kanton Zuerich Natur- und Heimatschutzinventar (GIS-ZH 127.10/127.20, 1980) not checked for single trees. Next angle: confirm Erismannstrasse 45-55 and Binzmuehlestrasse 370 on site descriptions; Zurich still wants hand leads (Lindenhof, Zuerich Botanical Garden, Friedhof Sihlfeld, Zuerich famous trees: Marthalen and Boezberg already day-trip famous leads)."
   }
  ],
  "out_of_focus": {

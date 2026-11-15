@@ -2221,6 +2221,10 @@ discovery, SITG WFS schema exploration, licence-page fetch, PDF extraction
 attempts that did not pan out, one full 205-row import with pitfall
 checks).
 
+### Zurich, scouted 2026-11-15: CC0 but thin (27 trees), nothing verified
+
+Licence first: the Stadt Zurich portal's CKAN record for `geo_geschuetzte_einzelbaeume` (fetched 2026-11-15) reads `license_id: cc-zero`, "Creative Commons CCZero". Gap: a search summary says opendata.swiss shows a different code on some Zurich tree pages; not seen on a fetched page. Data via WFS `https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Geschuetzte_Einzelbaeume`, TYPENAME `geschuetzteeinzelbaeume` (the geodaten download links return an HTML shell to curl; the WFS works with a browser user agent). Imported whole to `data/registers/zurich-geschuetzte-einzelbaeume.json`: 27 trees under par. 203 PBG, fields species, address, protection date, council decision; no girth, height, age or vitality, mostly private plots. Clusters: Erismannstrasse 45-55 (7 lindens and beeches), Binzmuehlestrasse 370 (8 trees). The Baumkataster (CC0, `baumkataster_baumstandorte`) and Bauminventar are bulk city-tree inventories (pflanzjahr, crown diameter), not designations: never a supply source. Kanton Zurich's 1980 Natur- und Heimatschutzinventar not checked. Nothing met the access or size bar; leads in `data/leads/zurich.json`.
+
 ## Greece: not reached this pass
 
 Out of the time budget for this register-scouting session (roughly 45
