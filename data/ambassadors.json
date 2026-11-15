@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-10T13:56Z",
+  "synced": "2026-11-15T12:04Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,15 +20,6 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "guimaraes",
-      "place_name": "Guimaraes",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -59,6 +50,24 @@
       "profile_public": true
     },
     {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "guimaraes",
+      "place_name": "Guimaraes",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
+      "place_slug": "pamplona",
+      "place_name": "Pamplona",
+      "public": true,
+      "since": "2026-11-02",
+      "display_name": "Mikel B.",
+      "profile_public": true
+    },
+    {
       "user_id": "154c94b7-0841-4161-bcab-47405b9a8051",
       "place_slug": "paris",
       "place_name": "Paris",
@@ -77,15 +86,6 @@
       "profile_public": true
     },
     {
-      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
-      "place_slug": "pamplona",
-      "place_name": "Pamplona",
-      "public": true,
-      "since": "2026-11-02",
-      "display_name": "Mikel B.",
-      "profile_public": true
-    },
-    {
       "user_id": "873a220d-e03b-49ac-9bae-7061e05ee39b",
       "place_slug": "leuven",
       "place_name": "Leuven",
@@ -101,6 +101,33 @@
       "public": true,
       "since": "2026-11-10",
       "display_name": "Tall Ginkgo 7498",
+      "profile_public": true
+    },
+    {
+      "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Joanne P.",
+      "profile_public": true
+    },
+    {
+      "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
+      "place_slug": "london",
+      "place_name": "London",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Golden Fig 0074",
+      "profile_public": true
+    },
+    {
+      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
+      "place_slug": "media-pennsylvania",
+      "place_name": "Media",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "JOEY R.",
       "profile_public": true
     },
     {
@@ -305,6 +332,76 @@
       "date": "2026-11-14",
       "trees": [],
       "note": "Storie di Pianura reader (Villa Salina oak): never asked to be an ambassador. Her mail of 2026-11-13 asked to contribute now and then without becoming the area's ambassador, and Hidde answered yes, no commitment."
+    },
+    {
+      "user_id": "p_4c6d780bd118980f5c6e58c6",
+      "place_slug": "adelaide",
+      "place_name": "Adelaide",
+      "date": "2026-11-15",
+      "trees": [
+        "The Red Gum of the Rostrevor Creek"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_8c9d4367614fc26d12dff403",
+      "place_slug": "argyroupoli",
+      "place_name": "Argyroupoli",
+      "date": "2026-11-15",
+      "trees": [
+        "The Plane of the Five Virgins"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_67dc9f8ab6c8751acc616710",
+      "place_slug": "brecon",
+      "place_name": "Brecon",
+      "date": "2026-11-15",
+      "trees": [
+        "The Cedar of Brecon Cathedral"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_185d898c7855df9e68eaf269",
+      "place_slug": "dunkeld",
+      "place_name": "Dunkeld",
+      "date": "2026-11-15",
+      "trees": [
+        "The Sitka Spruce at Scone Palace"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b72de4c8041ff509cd6e5acf",
+      "place_slug": "geelong",
+      "place_name": "Geelong",
+      "date": "2026-11-15",
+      "trees": [
+        "The Geelong Ginkgo"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_185d898c7855df9e68eaf269",
+      "place_slug": "lytham",
+      "place_name": "Lytham",
+      "date": "2026-11-15",
+      "trees": [
+        "The Lytham Sweet Chestnut"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c04ed68243689ce22381722a",
+      "place_slug": "moss-vale",
+      "place_name": "Moss Vale",
+      "date": "2026-11-15",
+      "trees": [
+        "The Canary Pine of Leighton Gardens"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -492,6 +589,27 @@
       "place_name": "Amsterdam",
       "date": null,
       "note": "ours"
+    },
+    {
+      "row": 695,
+      "user_id": "p_a4b77c8300df276a3d8fa40d",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "date": "2026-11-15"
+    },
+    {
+      "row": 718,
+      "user_id": "p_da7895b84b01465ba109bb82",
+      "place_slug": "london",
+      "place_name": "London",
+      "date": "2026-11-15"
+    },
+    {
+      "row": 743,
+      "user_id": "p_3bb2d9b77f839015a3f92de9",
+      "place_slug": "media-pennsylvania",
+      "place_name": "Media",
+      "date": "2026-11-15"
     }
   ],
   "told": {

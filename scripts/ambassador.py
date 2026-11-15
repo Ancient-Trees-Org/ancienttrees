@@ -430,6 +430,34 @@ def _tree_urls():
     return _FEED_URLS
 
 
+def _list_link(slug):
+    """The link a mail gives for a place's list. A place whose trees are all
+    app-only (APP FIRST, 2026-11-05) has no page, so /<slug> is a 404: the
+    Media request of 2026-11-15 would have been sent there. Then the explore
+    map at the place, where those trees stand as pins (APP_ONLY_PINS)."""
+    url = f"{BASE_URL}/{slug}"
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "AncientTreesBot/1.0"})
+        with urllib.request.urlopen(req, timeout=30):
+            return url
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            return url
+    except Exception:
+        return url
+    try:
+        with open(os.path.join(ROOT, "data", "cities", slug + ".json"), encoding="utf-8") as fh:
+            pts = [((t.get("location") or {}).get("latitude"), (t.get("location") or {}).get("longitude"))
+                   for t in json.load(fh).get("trees") or []]
+        pts = [(a, b) for a, b in pts if a is not None and b is not None]
+        lat = sum(a for a, _ in pts) / len(pts)
+        lng = sum(b for _, b in pts) / len(pts)
+    except Exception:
+        return url
+    # the same form as exploreAt() in site/src/lib/place-page.ts, one zoom out
+    return f"{BASE_URL}/explore#map=13/{lat:.5f}/{lng:.5f}"
+
+
 def _address(user_id):
     try:
         u = _req(f"/auth/v1/admin/users/{user_id}")
@@ -487,7 +515,7 @@ def invite_scan(send):
         links = "\n".join(BASE_URL + urls[tid] for _, tid in pairs)
         count = _collected(uid, slug, len(pairs)) if KEY else f"{len(pairs)} trees"
         body = INVITE_BODY.format(what=what, place=place, itis=itis, links=links, count=count,
-                                  listlink=f"{BASE_URL}/{slug}")
+                                  listlink=_list_link(slug))
         subject = INVITE_SUBJECT.format(place=place)
         if mailcheck_ok:
             ok, why = mailcheck_ok(body, app_user=True)
@@ -633,7 +661,7 @@ def requests_scan(send):
             continue
         place = place_name(slug)
         subject = REQUEST_SUBJECT.format(place=place)
-        body = REQUEST_BODY.format(place=place, listlink=f"{BASE_URL}/{slug}")
+        body = REQUEST_BODY.format(place=place, listlink=_list_link(slug))
         if mailcheck_ok:
             ok, why = mailcheck_ok(body, app_user=True)
             if not ok:
@@ -809,7 +837,7 @@ def heads_up(send):
         no_link, appline = True, ""
         body = HEADS_UP_BODY.format(place=place, what=what, links=links,
                                     them="it" if len(live) == 1 else "them",
-                                    listlink=f"{BASE_URL}/{slug}", appline=appline)
+                                    listlink=_list_link(slug), appline=appline)
         subject = HEADS_UP_SUBJECT.format(place=place)
         if mailcheck_ok:
             # Somebody on mailcheck's own no-app list is judged as the person

@@ -105,9 +105,18 @@ def display_name(user_id):
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             rows = json.loads(r.read()) or []
-        return (rows[0].get("display_name") or "").strip() or None if rows else None
+        name = (rows[0].get("display_name") or "").strip() if rows else ""
     except Exception:
         return None
+    # A generated tree name ("Rooted Ash 4451", supabase/profile-at-signup.sql)
+    # is not what anybody is called: "Hi there" instead (2026-11-15). Same
+    # pattern as Profiles.isGeneratedName in the app.
+    if not name or re.fullmatch(r"[A-Z][a-z]+ [A-Z][a-z]+ [0-9]{4}", name):
+        return None
+    # "MARK T." reads as shouting; a name typed in capitals gets ordinary case.
+    if name.isupper():
+        name = name.title()
+    return name
 
 
 def full_note(sid):
@@ -194,7 +203,10 @@ def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False):
                               ("story", "a story about it")) if not gave.get(k)]
     if missing:
         wants = ", ".join(missing[:-1]) + (" or " if len(missing) > 1 else "") + missing[-1]
-        ask = (f"Do you know more about it, {wants}? Just reply to this mail and it goes on the page.")
+        # One thing missing reads as a plain question ("Do you know a story
+        # about it?"); "more about it, a story about it" said it twice.
+        lead = "Do you know " if len(missing) == 1 else "Do you know more about it, "
+        ask = (f"{lead}{wants}? Just reply to this mail and it goes on the page.")
     else:
         # The way they used, so the ask is one they can do (2026-11-14: a
         # website sender who works from a desktop was told to use the app).
