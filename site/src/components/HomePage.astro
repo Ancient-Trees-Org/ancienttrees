@@ -352,7 +352,10 @@ const favShelf =
 // here only what each tree looks like, for the trees that carry a visitor's
 // photograph. A tree without a page of its own (app-first.ts) opens its
 // place's map on its card, or the explore map where the place has no page.
-const visitorCards: Record<string, { n: string; c: string; u: string; p: string }> = {};
+// `s` maps each visitor's photograph (by its sightings row) to its own small
+// copy, so the tile shows the picture that visitor sent and not the tree's
+// lead (Hidde, 2026-11-15: "waarom toont hij niet altijd de gebruikers foto").
+const visitorCards: Record<string, { n: string; c: string; u: string; p: string; s: Record<string, string> }> = {};
 for (const c of (await getCollection("cities")).filter(cityIsOnMap)) {
   const slugs = treeSlugsForCity(c);
   const placePage = placeHasPage(c.id, renderableTrees(c).length);
@@ -366,7 +369,12 @@ for (const c of (await getCollection("cities")).filter(cityIsOnMap)) {
       : placePage
         ? `${cityHref(lang, c.id)}#tree=${encodeURIComponent(t.id)}`
         : exploreAt(t.location.latitude, t.location.longitude);
-    visitorCards[t.id] = { n: t.name, c: c.data.city, u: href, p: thumbUrl(ph.url, 500) };
+    const s: Record<string, string> = {};
+    for (const p of all as any[]) {
+      const sid = String(p?.sighting_id ?? "").toLowerCase().match(/^[0-9a-f-]{36}/)?.[0];
+      if (p?.source === "contributor" && p?.url && sid && !s[sid]) s[sid] = thumbUrl(p.url, 500);
+    }
+    visitorCards[t.id] = { n: t.name, c: c.data.city, u: href, p: thumbUrl(ph.url, 500), s };
   }
 }
 const visitorsData = JSON.stringify(visitorCards).replace(/</g, "\\u003c");

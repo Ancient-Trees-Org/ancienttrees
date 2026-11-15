@@ -20,6 +20,7 @@ import datetime
 import glob
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -49,10 +50,23 @@ def wanted():
         for t in city.get("trees") or []:
             shots = [t.get("photo") or {}] + [p for p in (t.get("photos") or []) if p]
             for p in shots:
-                sid = p.get("sighting_id")
+                sid = sighting_row_id(p.get("sighting_id"))
                 if p.get("source") == "contributor" and sid:
-                    out[sid] = t["id"]
+                    out.setdefault(sid, t["id"])
     return out
+
+
+UUID = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}")
+
+
+def sighting_row_id(sid):
+    """The sightings row a photograph's sighting_id names, or None. A mailed
+    tip ("tip-692") has no row, and a second frame from one sighting carries
+    "<uuid>-extra-1": its row is the uuid. Either one in an id=in.() list made
+    the whole query a 400, so from the first of them (2026-11) no reader's new
+    tree was linked and none reached New from visitors (found 2026-11-15)."""
+    m = UUID.match(str(sid or "").lower())
+    return m.group(0) if m else None
 
 
 def main(argv):

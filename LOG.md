@@ -2,6 +2,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 20:00 session: New from visitors stood still
+
+- **Product**: the homepage's New from visitors row now carries readers' new trees (Humboldt's Tall Tree, Manaccan, Lytham, Glasgow, Lewes and others were missing), and each tile shows the photograph that visitor sent, not the tree's older lead.
+- **Cause**: sightings_link.py asks Supabase about every reader photograph in one query; mailed tips ("tip-692") and second frames ("…-extra-1") made it a 400, hidden by the knock's continue-on-error. So 45 sightings never got linked: no readers' new tree in the row, and in the app they could stand as a second "your tree" card and were never ticked as collected. Fixed, run once by hand (45 linked, 26 collected ticks, 28 marked added); qa `check_sightings_link_asks_only_for_real_rows()`, escaped bug recorded.
+- **Open**: the iOS row also shows the tree's lead, not the visitor's photo; needs the visitor's photo in the feed and an app build.
+
 ## 2026-11-15 19:00 session: the wrong photo on small copies
 
 - **Product**: twelve trees whose lead is a reader's photograph showed an OLDER photograph wherever a small copy loads (cards, the Seasons tiles, the app's thumbnails). Hidde saw it on the Birnam Oak: the Autumn tile showed the July Geograph frame instead of the reader's November photo. Also the Totteridge Yew, the Royal Oak (Richmond), Ravenscourt tree of heaven, Windrush Square plane, Stevenson's yew (Edinburgh), the Land Boat Pine (Kyoto), the Atsuta camphor, the Piazza Marina ficus, the York hornbeam, the Istanbul plane (ist_004) and the Porto ginkgo (whose small copy was a Commons photo no longer on the tree; removed). Live with the deploy of commit 67ef69160.

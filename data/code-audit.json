@@ -352,6 +352,17 @@
    "status": "open",
    "found_by": "hidde",
    "test": "preflight check_a_vendored_copy_is_the_same_picture()"
+  },
+  {
+   "id": "ESC-2026-11-15-new-from-visitors-never-showed-readers-n",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/sightings_link.py",
+   "summary": "New from visitors never showed readers' new trees: sightings_link.py's query failed on tip- and -extra- ids, and tiles showed the tree's lead instead of the visitor's photo",
+   "first_seen": "2026-11-15",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "qa.py check_sightings_link_asks_only_for_real_rows"
   }
  ]
 }

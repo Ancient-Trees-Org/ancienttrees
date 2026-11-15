@@ -61,7 +61,7 @@ export function visitorsRowJs(visitorWord: string): string {
       var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>';
       html.push('<div class="shelf-card nfv-card">' +
         '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="home-visitors" data-detail="' + esc(r.tree_id) + '">' +
-        '<span class="shelf-ph"><img src="' + esc(c.p) + '" alt="" loading="lazy"></span>' +
+        '<span class="shelf-ph"><img src="' + esc((c.s && c.s[r.sighting_id]) || c.p) + '" alt="" loading="lazy"></span>' +
         '<b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' +
         (real
           ? (r.author_id

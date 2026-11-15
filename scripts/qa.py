@@ -969,6 +969,24 @@ def check_a_sign_in_ends_where_the_tap_was_going():
     return out
 
 
+def check_sightings_link_asks_only_for_real_rows():
+    """sightings_link.py puts every contributor photograph's sighting id in one
+    id=in.() query. A mailed tip ("tip-692") or a second frame ("<uuid>-extra-1")
+    made that query a 400, the knock's continue-on-error hid it, and no reader's
+    new tree reached New from visitors or got linked in the app (Hidde,
+    2026-11-15: "waarom is de lijst dan nog zo t zelfde"). Every id it asks
+    for must be a bare uuid. Removing this check needs Hidde."""
+    import re
+    import sys as _sys
+    root = Path(__file__).resolve().parent.parent
+    _sys.path.insert(0, str(root / "scripts"))
+    import sightings_link
+    bad = [s for s in sightings_link.wanted()
+           if not re.fullmatch(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", s)]
+    return ["sightings_link.py would ask Supabase for %d id(s) that are no sightings row (%s), "
+            "which fails the whole link (2026-11-15)" % (len(bad), ", ".join(bad[:3]))] if bad else []
+
+
 def check_a_photo_is_a_visit_on_every_surface():
     """A photograph of one of our trees ticks it as collected, on every surface.
 
@@ -4252,6 +4270,7 @@ def main():
     failures += check_a_given_photo_records_the_yes()
     failures += check_web_add_photo_is_shared()
     failures += check_a_photo_is_a_visit_on_every_surface()
+    failures += check_sightings_link_asks_only_for_real_rows()
     failures += check_a_sign_in_ends_where_the_tap_was_going()
     failures += check_an_escaped_bug_has_a_test()
     failures += check_every_reader_photo_reaches_hidde()
