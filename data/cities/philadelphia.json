@@ -352,6 +352,80 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "phl_011",
+      "name": "The Penn Treaty Elm on College Green",
+      "species": "American Elm (Ulmus americana)",
+      "age_estimate": "about 130 years",
+      "age_min": 125,
+      "age_max": 135,
+      "location": {
+        "address": "College Green, in front of College Hall, University of Pennsylvania, Philadelphia, PA 19104",
+        "latitude": 39.9515,
+        "longitude": -75.1928,
+        "neighbourhood": "University City"
+      },
+      "location_site": {
+        "name": "College Green, University of Pennsylvania",
+        "radius_m": 50
+      },
+      "story": "William Penn is said to have made his treaty with the Lenape under a great elm in Kensington. A storm brought that tree down in 1810. The University of Pennsylvania has kept the name alive on its own lawn ever since 1896.\n\nThat year Penn planted an American elm on College Green, in front of College Hall, and called it the Penn Treaty Elm. The university's sustainability office now calls it the oldest and most famous tree on campus. At about 130 years it is not ancient, but unlike most old trees its planting year is written down.\n\nThe name is the interesting part, and also the uncertain one. A Penn Treaty clone of the original is traced to a graft made at Haverford in 1840, and Penn is reported to describe its own tree as a descendant. None of the university pages we could read spells out that line of descent, so treat it as a reputed descendant, named for the Treaty Elm, rather than a proven child of it.\n\nIt went in during the campus greening of the late 1800s, and it has watched the university build up around the lawn since. Elms in America live under the shadow of Dutch elm disease, and this one is no exception.\n\nGetting to it costs nothing. College Green is open lawn between College Hall and 34th Street, reached from Locust Walk. The pin is approximate, set on the green rather than on the trunk.",
+      "how_to_recognise": "You can recognise it as the old American elm on College Green, Penn's oldest campus tree. It stands on the lawn in front of College Hall, between the hall and 34th Street, off Locust Walk.",
+      "verified_sources": [
+        "https://penntoday.upenn.edu/news/stories-trees-tell",
+        "https://www.sustainability.upenn.edu/news/five-facts-know-about-penns-trees-arbor-day",
+        "https://penntoday.upenn.edu/features/the-history-of-penn-s-green-tree-filled-campus"
+      ],
+      "access": "Free. College Green is open campus lawn between College Hall and 34th Street, reached from Locust Walk; no entry needed.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "Penn Today 'The stories trees tell' (2021-04-20, fetched): '1896: Year the University's Penn Treaty elm was planted'. Penn Sustainability page (fetched): 'the Penn Treaty Elm, our oldest and most famous tree on campus'; its photo caption places it in College Green. Penn Today history feature (2017-10-11, fetched) says the 'iconic Treaty Elm' was planted in front of College Green in the late 1800s/early 1900s greening. Planting date documented for THIS specimen, so about 130 years (range 125-135). Lineage: the name refers to the Shackamaxon/Penn Treaty Elm (under which William Penn is said to have treated with the Lenape; original felled in a storm in 1810 at Penn Treaty Park, Kensington). Wikipedia's cultivar article (fetched) says the 'Penn Treaty' clone came from an 1840 Haverford graft of the original; it does NOT say how Penn's 1896 tree descends, and a search summary (not a fetched page) says Penn calls it a descendant: state as named for / reputed descendant, no more. Dutch elm disease is an ongoing risk per a search summary of Penn (not fetched). Alive: Penn pages from 2021 and later list it standing; no dated trunk observation, lifecheck not run. No girth/height found (monumentaltrees has a record, not used). Pin: College Hall (OSM way 51367353, 39.9515,-75.1938) shifted to the green east of it; NOT tree-level, approximate. Flagged: approximate pin, lineage unsourced on Penn's side. Cluster: about 1.2 km from The Woodlands (phl_006), about 3 km from Bartram's Garden (phl_001, phl_005) (straight-line estimates).",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "phl_020",
+      "name": "The Weeping European Beech at Morris Arboretum",
+      "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+      "age_estimate": "over a century",
+      "age_min": 117,
+      "age_max": 200,
+      "location": {
+        "address": "Morris Arboretum & Gardens of the University of Pennsylvania, 100 E Northwestern Ave, Philadelphia, PA 19118",
+        "latitude": 40.0882721,
+        "longitude": -75.2212804,
+        "neighbourhood": "Chestnut Hill"
+      },
+      "story": "The tree that started this weeping beech is dead, and it is still lying in the middle. What stands around it is the same tree, rooted again.\n\nWeeping beeches let their branches hang to the ground, and where a branch touches soil it can put down roots and send up a trunk of its own. Over a century at Morris Arboretum that has turned one planting into a ring. A member of the arboretum's staff has written that the trunks you see are rooted layers of a single mother tree, and that the dead log at the centre is what is left of her.\n\nThe Morris family planted it before 1909, on the estate that became the arboretum. That makes it at least about 117 years old. How long before 1909 it went in, nobody has said.\n\nUp close the bark is smooth and grey, the elephant hide the arboretum compares it to, and dotted with small holes where sap-feeding birds have drilled for a drink. In autumn the leaves turn from red to gold. The arboretum counts it among its Great Trees.\n\nIt grows across from George Rickey's kinetic sculpture Two Lines, which stands on the site of the old Morris mansion near the main entrance. Entry to the arboretum is paid, and the pin marks the arboretum rather than the ring, so head for the sculpture.",
+      "how_to_recognise": "You can recognise it as a ring of weeping beech trunks around a dead central log. It stands across from George Rickey's kinetic sculpture Two Lines, near the main entrance.",
+      "verified_sources": [
+        "https://morrisarboretum.org/gardens-trees/great-trees",
+        "https://www.morrisarboretum.org/blog/morris-hidden-gems"
+      ],
+      "access": "Paid entry to Morris Arboretum; open daily, check morrisarboretum.org for hours and the free-with-admission Great Trees tour dates.",
+      "transport": "SEPTA Chestnut Hill West line to Chestnut Hill West station, then about 15 to 20 minutes on foot or by SEPTA bus; the Meadowbrook Avenue pedestrian gate is on the Fort Washington side.",
+      "best_time": {
+        "months": [
+          10,
+          11
+        ],
+        "kind": "autumn colour",
+        "label": "October and November, when the hanging leaves turn from red to gold"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "Morris Arboretum (the ground's owner) lists it among its Great Trees: native to Europe, planted by the Morrises before 1909 (so at least about 117 years; the planting date is the page's, no upper bound given, age_max is a loose bound, not sourced). Branches droop and root where they touch the ground so new rings of trees form as the original dies; smooth grey elephant-hide bark, red to golden autumn colour, small sap-feeder holes from birds in the trunk. A staff member in the Morris 'hidden gems' post says its trunks are rooted layers of one original mother tree and a dead log in the middle is the original's remains. Location: across the way from George Rickey's kinetic sculpture 'Two Lines' (site of the former Morris mansion, near the main entrance); no coordinate published, pin at arboretum level only, no OSM tree node found (Overpass returned nothing). recognise: a ring of weeping beech trunks around a dead central log, opposite the Two Lines sculpture. Alive: the Morris pages describe it in the present tense, no dated observation; lifecheck at the arboretum RECENT (2025-08-11, generic). Flag: one source (owner), no dated tree-specific alive evidence, pin approximate. No Commons or iNaturalist photo identity checked. Do not bridge 'before 1909' to a specific year.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

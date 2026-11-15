@@ -12,7 +12,9 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-15 night run (window from 01:29 UTC): 9 trees for the app (Chicago 6, Key West 2, Tulsa 1)
+## 2026-11-15 night run (window from 01:29 UTC): 11 trees for the app (Chicago 6, Key West 2, Tulsa 1, Philadelphia 2)
+
+Philadelphia: the Penn Treaty Elm on College Green (phl_011, 1896, "named for" the original, never claimed as its descendant) and the Morris Arboretum weeping beech (phl_020, verified by an earlier pass and never merged). The Grumblethorpe Ginkgo (phl_010, c. 1830, "one of the oldest female ginkgoes in America") was written and kept out: its sources give appointment or second-Saturday access, which preflight reads as hard rule 10's no; it stays in data/research/philadelphia-verified.json for a session that finds a view from Germantown Avenue. penntoday.upenn.edu answers curl with a Cloudflare challenge (WebFetch reads it); not added to the blocklist.
 
 Tulsa: the Woodward Park arboretum's state-champion Dawn Redwood (tsa_002, a 1964 planting, measured 2023). Its neighbour tsa_003 (English oak, "state champion" on 2015 measurements, no figures in the register, about 60 years old) was written but kept out: preflight's young-and-unmeasured note counted it, so it waits as a lead until someone measures it; story stays in data/research/tulsa-verified.json. The best Tulsa tree, the 200-year Hanging Tree bur oak by the BOK Center, has no usable pin or access evidence (check aerial imagery near 36.154, -95.995).
 

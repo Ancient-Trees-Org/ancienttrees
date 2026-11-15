@@ -1,0 +1,66 @@
+[
+  {
+    "id": "phl_010",
+    "name": "The Grumblethorpe Ginkgo",
+    "species": "Ginkgo (Ginkgo biloba)",
+    "age_estimate": "roughly 190 years",
+    "age_min": 175,
+    "age_max": 240,
+    "location": {
+      "address": "Grumblethorpe, 5267 Germantown Avenue, Philadelphia, PA 19144",
+      "latitude": 40.03222,
+      "longitude": -75.16833,
+      "neighbourhood": "Germantown"
+    },
+    "verified_sources": [
+      "https://www.philalandmarks.org/grumblethorpe",
+      "https://www.phillyorchards.org/2020/11/19/spotlight-on-ginkgo-pretty-edible-historic/"
+    ],
+    "access": "Grumblethorpe is run by the Philadelphia Society for the Preservation of Landmarks. Search-result summaries of PhilaLandmarks, Historic Germantown and Schuylkill River Greenways pages give open hours noon to 4 pm on the second Saturday of the month (April or May to October), garden hours 10 am to 12 pm in August to October, tours by appointment, general admission about $10; the sources disagree on months and fee, check philalandmarks.org/contact-visit or 215-843-4820 (hours not read from a fetched page). Whether the ginkgo is seen from Germantown Avenue is not established.",
+    "location_precision": "approximate",
+    "location_site": {
+      "name": "Grumblethorpe house and gardens",
+      "radius_m": 40
+    },
+    "curation_status": "flagged",
+    "verify_notes": "Owner source (PhilaLandmarks Grumblethorpe page, fetched 2026-11-15): 'the massive fruiting Ginkgo tree that towers over the property. Dating to around 1830, we believe this is one of the oldest female Ginkgo trees in America.' Second source Philadelphia Orchard Project blog (2020-11-19, fetched): 'Circa 1830, Charles Wister Sr. planted a female ginkgo at Grumblethorpe, which may be the oldest known living female ginkgo in the US' and 'The oldest known North American female ginkgo is at Grumblethorpe'; same post has a photo captioned ginkgo leaf drop at Grumblethorpe (alive 2019/2020, owner page current). The two are not fully independent on the date (both 'circa 1830'). Date conflicts, NOT fetched, seen only in a search summary so treat as leads: Colonial Gardens of Philadelphia storymap says about 1845, a Hometress guide says 1785 (contradicts the owner and the Wister planting). Age broad 175 to 240 to cover circa 1830 to 1845 and uncertainty; no girth or height found. A separate PhilaLandmarks line (search summary only) says a ginkgo on the property is reputed to be from an English seedling of 1754; not linked to this tree, ignore. Claim is 'oldest female', hedged by the owner ('one of'); the Bartram's Garden male (phl_001, 1785) is the oldest ginkgo overall. Grumblethorpe: John Wister's 1744 house, Wister family botanists (Wisteria is named for the family per the owner); NRHP 1972, Colonial Germantown Historic District (NHL) (Wikipedia). Coordinate is the house (Wikipedia 40 01 56 N 75 10 06 W), not the trunk; the ginkgo's spot in the grounds is unknown. lifecheck not run. Flagged: approximate pin, one owner source plus a derivative blog, access hours unconfirmed, no tree-level coordinate.",
+    "story": "The people who run Grumblethorpe believe the ginkgo behind it is one of the oldest female ginkgoes in America.\n\nGinkgoes come as separate male and female trees, and only the females fruit. Philadelphia's famous one, at Bartram's Garden, is a male planted in 1785. This is the other half of the story. The Philadelphia Society for the Preservation of Landmarks, which owns the house, calls it a massive fruiting ginkgo that towers over the property and dates it to around 1830. The Philadelphia Orchard Project names the man who planted it, Charles Wister Sr., and goes a step further, saying it may be the oldest known living female ginkgo in the country.\n\nBoth accounts say circa 1830, and other dates circulate, so take roughly 190 years as an estimate rather than a record. Nobody has published its girth or height.\n\nThe tree grew up with a family of gardeners. John Wister built the house in 1744, later Wisters were botanists, and by the owner's account the climbing wisteria is named for them. Grumblethorpe now sits inside the Colonial Germantown Historic District.\n\nSeeing it takes planning. The house opens on a limited schedule, and the published hours, months and admission fee do not agree with each other, so check with the Landmarks society before you go. The pin marks the house, not the trunk, and it is not established whether the tree can be seen from Germantown Avenue.",
+    "how_to_recognise": "You can recognise it by its size, a fruiting ginkgo that towers over the whole property, with fan-shaped leaves. It stands in the grounds of Grumblethorpe, the 1744 Wister house at 5267 Germantown Avenue.",
+    "best_time": {
+      "months": [
+        11
+      ],
+      "kind": "autumn colour",
+      "label": "November, when the fan-shaped leaves turn gold; check the grounds are open"
+    }
+  },
+  {
+    "id": "phl_011",
+    "name": "The Penn Treaty Elm on College Green",
+    "species": "American Elm (Ulmus americana)",
+    "age_estimate": "about 130 years",
+    "age_min": 125,
+    "age_max": 135,
+    "location": {
+      "address": "College Green, in front of College Hall, University of Pennsylvania, Philadelphia, PA 19104",
+      "latitude": 39.9515,
+      "longitude": -75.1928,
+      "neighbourhood": "University City"
+    },
+    "verified_sources": [
+      "https://penntoday.upenn.edu/news/stories-trees-tell",
+      "https://www.sustainability.upenn.edu/news/five-facts-know-about-penns-trees-arbor-day",
+      "https://penntoday.upenn.edu/features/the-history-of-penn-s-green-tree-filled-campus"
+    ],
+    "access": "Free. College Green is open campus lawn between College Hall and 34th Street, reached from Locust Walk; no entry needed.",
+    "location_precision": "approximate",
+    "location_site": {
+      "name": "College Green, University of Pennsylvania",
+      "radius_m": 50
+    },
+    "curation_status": "flagged",
+    "verify_notes": "Penn Today 'The stories trees tell' (2021-04-20, fetched): '1896: Year the University's Penn Treaty elm was planted'. Penn Sustainability page (fetched): 'the Penn Treaty Elm, our oldest and most famous tree on campus'; its photo caption places it in College Green. Penn Today history feature (2017-10-11, fetched) says the 'iconic Treaty Elm' was planted in front of College Green in the late 1800s/early 1900s greening. Planting date documented for THIS specimen, so about 130 years (range 125-135). Lineage: the name refers to the Shackamaxon/Penn Treaty Elm (under which William Penn is said to have treated with the Lenape; original felled in a storm in 1810 at Penn Treaty Park, Kensington). Wikipedia's cultivar article (fetched) says the 'Penn Treaty' clone came from an 1840 Haverford graft of the original; it does NOT say how Penn's 1896 tree descends, and a search summary (not a fetched page) says Penn calls it a descendant: state as named for / reputed descendant, no more. Dutch elm disease is an ongoing risk per a search summary of Penn (not fetched). Alive: Penn pages from 2021 and later list it standing; no dated trunk observation, lifecheck not run. No girth/height found (monumentaltrees has a record, not used). Pin: College Hall (OSM way 51367353, 39.9515,-75.1938) shifted to the green east of it; NOT tree-level, approximate. Flagged: approximate pin, lineage unsourced on Penn's side. Cluster: about 1.2 km from The Woodlands (phl_006), about 3 km from Bartram's Garden (phl_001, phl_005) (straight-line estimates).",
+    "story": "William Penn is said to have made his treaty with the Lenape under a great elm in Kensington. A storm brought that tree down in 1810. The University of Pennsylvania has kept the name alive on its own lawn ever since 1896.\n\nThat year Penn planted an American elm on College Green, in front of College Hall, and called it the Penn Treaty Elm. The university's sustainability office now calls it the oldest and most famous tree on campus. At about 130 years it is not ancient, but unlike most old trees its planting year is written down.\n\nThe name is the interesting part, and also the uncertain one. A Penn Treaty clone of the original is traced to a graft made at Haverford in 1840, and Penn is reported to describe its own tree as a descendant. None of the university pages we could read spells out that line of descent, so treat it as a reputed descendant, named for the Treaty Elm, rather than a proven child of it.\n\nIt went in during the campus greening of the late 1800s, and it has watched the university build up around the lawn since. Elms in America live under the shadow of Dutch elm disease, and this one is no exception.\n\nGetting to it costs nothing. College Green is open lawn between College Hall and 34th Street, reached from Locust Walk. The pin is approximate, set on the green rather than on the trunk.",
+    "how_to_recognise": "You can recognise it as the old American elm on College Green, Penn's oldest campus tree. It stands on the lawn in front of College Hall, between the hall and 34th Street, off Locust Walk."
+  }
+]

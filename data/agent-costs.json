@@ -5,6 +5,22 @@
       {
         "date": "2026-11-15",
         "kind": "verify",
+        "target": "philadelphia",
+        "tokens": 95000,
+        "trees": 2,
+        "note": "Penn Treaty Elm and Grumblethorpe Ginkgo; ginkgo withheld (appointment access, rule 10); weeping beech phl_020 from an earlier pass merged too; estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "write",
+        "target": "philadelphia",
+        "tokens": 45000,
+        "trees": 2,
+        "note": "phl_011 and phl_020 merged; phl_010 written but kept out; estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "verify",
         "target": "tulsa",
         "tokens": 130000,
         "trees": 1,
