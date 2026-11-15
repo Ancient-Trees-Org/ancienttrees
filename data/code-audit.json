@@ -349,9 +349,10 @@
    "file": "",
    "summary": "A reader's lead photo showed an older photo of the tree on cards, season tiles and app thumbnails (Birnam Oak autumn tile showed the July Geograph frame; 12 trees)",
    "first_seen": "2026-11-15",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "preflight check_a_vendored_copy_is_the_same_picture()"
+   "test": "preflight check_a_vendored_copy_is_the_same_picture()",
+   "fixed_in": "67ef69160"
   },
   {
    "id": "ESC-2026-11-15-new-from-visitors-never-showed-readers-n",
@@ -360,9 +361,10 @@
    "file": "scripts/sightings_link.py",
    "summary": "New from visitors never showed readers' new trees: sightings_link.py's query failed on tip- and -extra- ids, and tiles showed the tree's lead instead of the visitor's photo",
    "first_seen": "2026-11-15",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "qa.py check_sightings_link_asks_only_for_real_rows"
+   "test": "qa.py check_sightings_link_asks_only_for_real_rows",
+   "fixed_in": "1b10a5975"
   }
  ]
 }
