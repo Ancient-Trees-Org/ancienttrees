@@ -2,6 +2,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 evening session: the rest of the Guardian day's inbox
+
+- **Product**: eight more reader trees live, app first: the fig in Manaccan's church wall (mnc_002), the Giant Tree and the Tall Tree in Humboldt Redwoods (hum_001, hum_002; coast redwoods, the readers called them giant sequoias), the Glynburn Road red gum (Adelaide, ads_002), the Southover Grange mulberry (Lewes, lew_001), the Conishead Priory cedar and Douglas fir (Ulverston, ulv_001, ulv_002) and the Metrosideros of A Coruna (acr_001). First reader photos for the Anseman and Suicide Oaks (New Orleans), more for Wistman's Wood and the Schwanenbruecke beech. Cork's Monterey pine to a reader's hand placement. Husalle Lindens: a reader could not tell which tree; recognition line now says it is the avenue, and the 300-360 years removed (it bridged the garden's planting era to the trees). Deploy dispatched.
+- **Broke**: this session and the 16:45 window judged the same 15 reader photos in parallel; my commit was dropped and only the 6 the window had not done were applied. The window also judged the photos kept for Hidde (Bromley night shots, signs, two duplicates) and added them; the two duplicates (Amalienburg 1d81ebf6, Fortingall 216338b4, same frame as photos already in the strip) were taken out again. The ANWB linden photo (df0d3965) is a weeping beech and a wingnut, not the linden: kept for tomorrow as a possible new tree.
+- **Congratulation mails** for the eight trees go with the next knock (tree_approved.py), one per person per day.
+- **For Hidde**: three reply drafts wait for his yes: drafts/reply-reader-786 (Tree Council tip), -813 (Coldwaltham, thumbnail), -802 (Lusnizza oak, asks for a photo). Still open leads: Holborn (photos show planes), Norwich Cathedral cedar, the tree at 47.69,16.84 (two identical photos), Waitangi Norfolk pine, Melbourne jacaranda, Malmo beech, Marton Oak, Lincoln elm, Worthing sequoia.
+
 ## 2026-11-15 window 16:45 UTC: reader photographs (rung 1)
 
 - **Product**: King Jan's Linden (Warsaw, war_007) has its first photograph, a reader's; the Copenhagen beech photo was already in its strip. Of the 9 untied sightings, 6 now have a verdict: the Linton Yew (Herefordshire, 950 cm girth, church yew) and a large Monterey cypress (Cornwall) are worth pages, to verify and publish as new trees; the Giant Tree and Tall Tree plaque (Rockefeller Forest, Humboldt) wait on the register; the church-corner fig and a young Melbourne jacaranda held. Three tip trees with no coordinate (tip-807, 817, 818) still have no verdict.
