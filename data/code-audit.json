@@ -326,7 +326,8 @@
    "file": "",
    "summary": "Tip trees with no reader photo (La Morra cedar, Telavi plane) had no page while their place page linked to them: zod stripped found_by_reader, so the web's app-only rule disagreed with findable.py",
    "first_seen": "2026-11-15",
-   "status": "open",
+   "status": "fixed",
+   "fixed_in": "97b1138f7",
    "found_by": "hidde",
    "test": "preflight check_app_first_fields_reach_the_site(): every tree key app-first.ts reads is named in treeSchema"
   },

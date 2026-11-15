@@ -136,6 +136,10 @@
     "2026-11-05": {
       "note": "WebGL errors: all 22 reports are from builds b421729 and f1f5d4b, both before 6289d4585 (atCanMap guard, deployed 2026-11-04 19:52 CET); none from a guarded build, the red ages out of the 24h window.",
       "at": "2026-11-05T17:53:00+00:00"
+    },
+    "2026-11-15": {
+      "note": "Web errors read: the red rows are injected by other software, not our code (window.ethereum from wallet extensions, __firefox__ from Firefox iOS reader mode, __gCrWeb from Chrome iOS, DarkReader, extension sendMessage, ResizeObserver missing in old browsers). Our own: window.atDownsize not a function, 2 reports, one page; not spreading. No site change.",
+      "at": "2026-11-15T15:05:36+00:00"
     }
   }
 }

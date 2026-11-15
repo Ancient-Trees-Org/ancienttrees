@@ -2,6 +2,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 night window 15:00 UTC: reader photographs and rung 2
+
+- **Product**: 20 reader photographs looked at in pixels (rung 1). 18 are on their trees' pages: the Valdemārpils linden (vld_001) now has its first photograph (three views), and the rest sit in the strips of Warsaw, York, Munich, Buenos Aires, Seville, Fortingall, London (Bromley Oak), Nara, Dresden and Palermo trees. Three pins moved to the reader's GPS fix (yor_003 88 m, lon_046, dre_019). Held: the Witch Tree of Fanal frame (fog, several similar laurels). Two untied sightings held with reasons: a giant sequoia with no coordinate or place (tip-709) and a Toronto dawn redwood in what looks like a private garden. Three tree notes read, none hidden.
+- Housekeeping: the code-audit BUG row for tip trees without a page closed (fixed 97b1138f7, its preflight check already in). Web errors red rows read: all injected by extensions and in-app browsers, none ours; the one of ours (`atDownsize`, 1 page) is not spreading.
+- Broke: `judgement.py --scan` stubs only trees still in the queue, so after `sightings_publish.py` empties it, preflight wants stubs that no longer exist; I wrote them with a script (out/tmp/judge-stub.py). Next time run `--scan` before publishing.
+- Not done: no new trees this window so far; 8 READY leads, shelf says refill (913 leads need only a source).
+
 ## 2026-11-15 session: the Guardian day's first minute
 
 - **Product**: the app now measures a pin tap (`pin_tapped`, tree id or `own`) and the first finger move on the map per launch (`map_moved`), iOS and Android, in the next build of each (commit 5f8a7dfcd). Nothing visible changes.
