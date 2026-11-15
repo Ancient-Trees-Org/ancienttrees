@@ -4147,3 +4147,18 @@ Hidde, 2026-11-12: "als ik bomen bookmark dan krijgen de pins geen icoon op de k
 **Looked at, not read (2026-11-12, Hidde: "heb je google maps of airbnb gecheckt").** Google Maps web, Frankfurt Grüneburgpark, signed out: every place is a coloured disc with a FILLED white symbol inside and nothing in its corners; a chosen place becomes one big red teardrop. Saved places take their list's icon as that symbol (help pages above), so Google swaps the symbol rather than adding a badge. Airbnb web, Frankfurt, signed out: price pills, the chosen pill inverts, the heart lives on the card, not on the pill; a saved pill could not be seen without an account. Lesson: a 15 px corner makes any line icon look thin next to a filled one (Hidde: "het vinkje is heel dun vs bookmark"); inside the pin at 18 px the bold check matches the species line. Third set shown: 1 the symbol swaps (bookmark or tick instead of the tree, done wins, ticket to the card), 2 the same on a pale pin, 3 one big corner.
 
 **Built (2026-11-12, Hidde: "Ja, bouw het"):** all three corners a white disc with a shadow and a filled icon (moss bookmark, moss check-circle, blue ticket), on the web city map and the iPhone pin; a saved tree takes its full pin first and is never a dot (city-map-script.ts updatePins; TreeMap.swift priority -200000, never `mini`). Android follows before its first release.
+
+## The words somebody types with a photograph (2026-11-15, looked up)
+
+Hidde, after finding that the text readers send with a photo shows nowhere as a note: "wat doen concurrenten wat is beter". Our app has two fields: the text with a photo (sightings.note, read by us, quoted into stories) and the note field on the payoff after collecting (tree_notes, public under "From people who stood here"). The 2026-10-24 entry above meant them to be one ("At collect time ... 'What did you see?', the same note"); built, they are two.
+
+| Product | Text typed with a photo | Where it shows | Read |
+|---|---|---|---|
+| Google Maps | a caption on the photo (since April 2026 Gemini drafts one, a custom caption stays possible), or the photo inside a written review | public, with the photo or as the review, under the name | techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai; support.google.com/maps/answer/9678350 |
+| komoot | after an activity it asks per Highlight for a rating and, optionally, "a tip or photo" in one step | the tip public on the Highlight with the name, the photo public on the map | support.komoot.com/hc/articles/10364710659994; komoot.com/help/highlights |
+| AllTrails | photos to the gallery carry no caption; text goes in a review, which may carry photos | the review public on the trail | support.alltrails.com articles 360019244491 and 360018930652 |
+| iNaturalist | the observation's description ("notes") | public on the observation beside the photos | inaturalist.org/terminology/description |
+
+What they share: words typed with a photo are never private; they appear as the person's public text on the place. None keeps a second, hidden field.
+
+Undecided by Hidde as of this date. The nearest fit for ours (one note per person per tree, the komoot tip shape): the text with a photo of a tree we already map becomes that person's note on it unless they already have one; on a new tree the words stay the quote in the story, so the page does not say them twice; and the field says plainly that what is typed shows on the page.
