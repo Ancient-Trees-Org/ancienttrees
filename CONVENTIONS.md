@@ -4069,6 +4069,15 @@ Hidde, on the design page (drafts/invite-and-share-design.html): "voorstel b lij
 - **Conclusion**: no reference puts a share control between a text field and its submit button. The field and its button stay together, and sharing comes after.
 - **Ours now** (Hidde: "Ja, verplaats hem"): the note field, then Done or Add note, then the grey Share this tree 12 points under it.
 
+## Taking a tree off Want to visit from the list itself (2026-11-15, looked up, not built)
+
+A reader collected Tāne Mahuta and could not find how to take it off Want to visit (submission 756). The way exists, the filled bookmark on the tree's page (SaveHeart.swift, at once with undo), but the Want to visit tiles carry the share disc where every other list card carries the bookmark (see "A tree in a list" above, and "Sharing a tree from a saved list"), so the list itself offers no remove.
+- **Google Maps**: the place's Saved button opens the lists with checkmarks, untick Want to go; in the list, the place's overflow menu has Remove; on desktop, Edit list, then Remove beside each place (support.google.com/maps/answer/3184808, support.google.com/maps/answer/7280933).
+- **AllTrails**: the filled save icon on the trail toggles it off (support.alltrails.com 360018931172); no swipe-to-remove found.
+- **Airbnb** wishlists: the filled heart on each card in the wishlist removes it (recalled, not re-checked).
+- Not found anywhere: a visited or completed item leaving the want list by itself (Google Maps keeps them separate).
+- Open question for Hidde: the filled bookmark back on the Want to visit tile (top right, as on every card) with share moved beside it, or an overflow menu with Remove and Share.
+
 ## Measuring shares, and the share when a contribution goes live (2026-10-30)
 
 Hidde: "wat kunnen wij doen dat onze gebruikers meer gaan zorgen dat andere deze app ook gaan gebruiken", then "ja" to measuring first plus the pride moment.
