@@ -2,6 +2,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 write pass (US/UK first): nothing writable
+
+- Nothing published. Every US and UK file named in the brief (us-photo-batch-1, washington-dc-2, wales-yews, somerset-dorset-yews, new-york-3, wisconsin, boston-*) is already live; passcheck's 391 is mostly stale rows. The true shelf is about 20 trees, and each carries a reason: held for access (brd_001 Brindisi figs, frk_027 Frankfurt mulberry, sgz_005 Zurraque holm oak, inn_007 Innsbruck lime, not_002/not_003 Noto, tmt_001 Tremiti ombu), cannot be told apart (asp_001/asp_002 Aspromonte beeches, ssb_002/ssb_003 Serre firs, cbu_001 Acerone), no sighting after 2019 (dmr_002 Meavy Oak), duplicates of live trees (sfo_012, sfo_014, sfo_015, and the !! rows in cardiff, wolverhampton, new-york, washington-dc), or left as the night run held it (all_001 Allentown cottonwood, alive unconfirmed since its 2009 measurement). The writing lane needs a verify pass before it has work again.
+
 ## 2026-11-15 07:00 run
 
 - Rung 1 empty (no sightings). Rung 2: iOS run of 11-14 failed on one test of 274 (`NameTests.testNoAnswerFromTheServerAsksNobody`, signal abrt), the same crash seen 10-26 and read then as a simulator flake; app untouched, watch the next run. Web errors orange: one `window.ethereum` error, a wallet browser extension, not ours. `gh workflow run deploy.yml` was refused (HTTP 403), so the live site stays behind main until a deploy runs.

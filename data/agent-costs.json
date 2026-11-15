@@ -73,6 +73,14 @@
         "tokens": 45000,
         "trees": 6,
         "note": "chi_059-064 stories merged; coffeetree Latin set to dioica; estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "write",
+        "target": "pending-shelf (all cities)",
+        "tokens": 70000,
+        "trees": 0,
+        "note": "US/UK-first write pass found nothing writable: every named US/UK file already live; the ~20 real pending rows all held (access, cannot be told apart, no sighting since 2019), duplicates, or all_001 left held (alive unconfirmed since 2009); estimate"
       }
     ],
     "2026-11-14": [
