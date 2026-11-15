@@ -226,6 +226,7 @@ fun TreeMapView(
                 map.addOnMapClickListener { point ->
                     val at = map.projection.toScreenLocation(point)
                     mineAt(map, at, context)?.let { id ->
+                        app.ancienttrees.account.Measure.event("pin_tapped", mapOf("tree" to "own"))
                         latestOnMine(id)
                         return@addOnMapClickListener true
                     }
@@ -241,6 +242,8 @@ fun TreeMapView(
                         holder.redraw()
                     }
                     // A pin SELECTS; a tap on the map itself lets the tree go.
+                    // A pin tap is a tree seen (TreeMap.swift, 2026-11-15).
+                    if (tree != null) app.ancienttrees.account.Measure.event("pin_tapped", mapOf("tree" to tree.id))
                     latestSelect(tree)
                     true
                 }

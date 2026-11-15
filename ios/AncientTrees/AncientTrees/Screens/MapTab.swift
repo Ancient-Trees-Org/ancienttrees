@@ -36,6 +36,8 @@ struct MapTab: View {
     @State private var mapIdle = false
 
     @State private var selected: Tree?
+    /// Whether map_moved went out since the app started (see onUserMove).
+    private static var movedThisLaunch = false
     /// Set when the tapped pin is one of YOUR trees, so its card wears your
     /// photograph and opens your tree's own page (Hidde, 2026-10-20).
     @State private var selectedMine: UUID?
@@ -516,7 +518,15 @@ struct MapTab: View {
                     // A FINGER ENDS THE SEARCH (Hidde, 2026-11-06, Airbnb's
                     // map: a search shows that place only, until you move the
                     // map yourself; then the map area again, everything).
-                    onUserMove: { if focusPlace != nil { focusPlace = nil } },
+                    onUserMove: {
+                        if focusPlace != nil { focusPlace = nil }
+                        // Once per launch: did a first visit touch the map at
+                        // all (2026-11-15, measuring the first minute).
+                        if !Self.movedThisLaunch {
+                            Self.movedThisLaunch = true
+                            Measure.event("map_moved")
+                        }
+                    },
                     focus: .init(latitude: origin.lat, longitude: origin.lng),
                     // So the map can tell a fix from Dam square and retake its
                     // opening shot when the phone finally answers. See

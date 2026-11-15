@@ -752,12 +752,17 @@ struct TreeMap: UIViewRepresentable {
                }),
                let raw = hit.attribute(forKey: MapLayers.idKey) as? String,
                let id = UUID(uuidString: raw) {
+                Measure.event("pin_tapped", ["tree": "own"])
                 parent.onSelectMine?(id)
                 return
             }
             if let hit = treeHits.first,
                let id = hit.attribute(forKey: MapLayers.idKey) as? String,
                let tree = parent.trees.first(where: { $0.id == id }) {
+                // A PIN TAP IS A TREE SEEN (2026-11-15, the Guardian day: 41%
+                // of new phones never reached tree_opened, which only fires on
+                // the full page, while a pin already shows the tree's card).
+                Measure.event("pin_tapped", ["tree": tree.id])
                 if let open = parent.onSelectTree {
                     open(tree.id)
                 } else {

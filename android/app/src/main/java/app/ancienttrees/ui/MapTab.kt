@@ -352,7 +352,14 @@ fun MapTab(
             dot = showDot,
             recentre = recentre,
             onView = { region = it },
-            onUserMove = { if (focusPlace != null) focusPlace = null },
+            onUserMove = {
+                if (focusPlace != null) focusPlace = null
+                // Once per launch, as MapTab.swift does (2026-11-15).
+                if (!MapMoved.sent) {
+                    MapMoved.sent = true
+                    app.ancienttrees.account.Measure.event("map_moved")
+                }
+            },
             topCover = chromeBottom,
             bottomCover = minOf(stopCoverage, sheet.halfPx.takeIf { it > 0 } ?: stopCoverage),
             moveTo = moveTo,
@@ -995,3 +1002,6 @@ fun PlainResultRow(
         }
     }
 }
+
+/** Whether map_moved went out since the app started (MapTab.swift, 2026-11-15). */
+internal object MapMoved { var sent = false }
