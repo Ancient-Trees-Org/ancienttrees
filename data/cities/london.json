@@ -297,7 +297,23 @@
       "curation_status": "ai_generated",
       "notes": "Species corrected 2026-07-22: original data said Pedunculate Oak (Quercus robur), but Fulham Palace's own site and independent photo captions identify it as Holm Oak (Quercus ilex), possibly the oldest in Britain. Photo now found. Location corrected 2026-07-28: a geocode audit flagged the stored coordinate as roughly 1km from Fulham Palace itself; Nominatim's own geocode agrees on two separate queries (51.4704-51.4705, -0.2152 to -0.2154), one of them matching this entry's own postcode (SW6 6EA) exactly. Moved onto the palace grounds; still confirmed since the palace itself, not just a neighbourhood, is now correctly pinpointed.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by its evergreen leaves, a Mediterranean holm oak still in leaf when its neighbours are bare, and by the low base it was once coppiced to. It stands in Fulham Palace Gardens, free and open daily."
+      "how_to_recognise": "You can recognise it by its evergreen leaves, a Mediterranean holm oak still in leaf when its neighbours are bare, and by the low base it was once coppiced to. It stands in Fulham Palace Gardens, free and open daily.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_007-the-fulham-palace-oak-d8994b07.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+          "sighting_id": "d8994b07-93c9-41a0-ae09-ab417f322b93",
+          "note": "Photographed by a reader and sent through the app (2026-10-03); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "lon_009",
@@ -414,7 +430,23 @@
       "curation_status": "flagged",
       "notes": "Coordinates updated 2026-07-22 from the EXIF geotag on a CC BY 4.0 photo captioned 'Barney of Barn Elms' (Matt Brown, May 2026). A second independent source found 2026-07-26: Open Plaques records a Great Trees of London commemorative plaque for this exact tree ('the oldest in London... platanus x hispanica') at 51.47441, -0.23106, about 9 metres from the EXIF position, close enough to be the same tree. Location precision upgraded on that agreement. Story rewritten 2026-07-28 to reach the standard word count, grounded entirely in facts already established above, no new claims added.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the small Great Trees of London plaque at its foot, which calls it simply the oldest plane in London. It stands at Barn Elms, on the edge of the land beside the London Wetland Centre."
+      "how_to_recognise": "You can recognise it by the small Great Trees of London plaque at its foot, which calls it simply the oldest plane in London. It stands at Barn Elms, on the edge of the land beside the London Wetland Centre.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_008-barney-the-plane-6f2cee0c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+          "sighting_id": "6f2cee0c-369d-4da5-a2e3-6e08f138a29f",
+          "note": "Photographed by a reader and sent through the app (2026-09-12); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "lon_011",
@@ -681,7 +713,23 @@
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the swollen, knobbled trunk under a crown far too small for it. It stands south of the lower grassy area in Ravenscourt Park, near the elm avenue, about 150 metres from the park's tree of heaven."
+      "how_to_recognise": "You can recognise it by the swollen, knobbled trunk under a crown far too small for it. It stands south of the lower grassy area in Ravenscourt Park, near the elm avenue, about 150 metres from the park's tree of heaven.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_018-the-ravenscourt-park-baobab-plane-eb811a74.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 899,
+          "height": 1599,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+          "sighting_id": "eb811a74-663f-476f-bf0f-349d058508e0",
+          "note": "Photographed by a reader and sent through the app (2026-07-12); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "lon_019",
