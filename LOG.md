@@ -2,6 +2,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 session: the Guardian day's first minute
+
+- **Product**: the app now measures a pin tap (`pin_tapped`, tree id or `own`) and the first finger move on the map per launch (`map_moved`), iOS and Android, in the next build of each (commit 5f8a7dfcd). Nothing visible changes.
+- Why: of 2,314 new phones by 14:45, 41% never fired `tree_opened`; 722 of those sent only `app_open` and `location` (allowed in 6 s). No technical pattern (same iOS versions, same allow rate, 37 to 44% in every hour); a tree within 5 km still left 36% without one, beyond 50 km 51%. Those who did open a tree took a median 44 s to reach it. `tree_opened` fires only on the full page, while a pin already shows the card, so 41% is a ceiling. The first screen is Hidde's design call; nothing changed there.
+- Not done: the iOS CI was already red on main before this; this change does not touch it.
+
 ## 2026-11-15 session: the rest of the Guardian inbox, and the mails
 
 - Ten more reader trees live: dnk_010 the King of the Forest (Muirward Wood, Scone; largest Scots pine girth on record per the Forestry Commission, 2002), gsh_001 the Geashill sequoia, wtn_001 a big sycamore at the Crum Creek bridge (Willistown, PA), isp_001 the 800-year plane of Cinar Street (Isparta, the municipality's plaque), krn_001 Mariam Dearit, the baobab chapel of Keren, okb_001 Old Knobbley (Mistley), wyo_001 Wyndham's Oak (Silton), pin_001 Pine Island (Connemara, pinned at the viewing spot), vzy_001 the Fau de Saint-Basle (Faux de Verzy) and zaa_006 the Zaandam wingnut. The three reader photos with a hand-placed pin ship as approximate, not held: the 10-21 rule. Old Knobbley, Wyndham's Oak, Pine Island and Verzy carry Commons photographs (the readers' were screenshots, small in frame, or absent).
