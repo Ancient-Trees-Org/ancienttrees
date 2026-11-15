@@ -1,0 +1,79 @@
+{
+  "city": "Mistley",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Mistley, on the Stour estuary beside Manningtree in Essex, has Old Knobbley in the wood on Furze Hill: an English oak with a trunk about 9.5 metres round, thought to be around 800 years old. It came second in England's first Tree of the Year vote in 2014, and the parish council, which has owned Furze Hill since after the Second World War, looks after it. Mistley station is a few minutes' walk away.",
+  "meta_description": "Old Knobbley, Mistley: an 800-year-old Essex oak with a 9.5 m trunk, runner-up in England's first Tree of the Year.",
+  "hero_tree_id": "okb_001",
+  "oldest_tree_id": "okb_001",
+  "trees": [
+    {
+      "id": "okb_001",
+      "name": "Old Knobbley",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 800 years, by local accounts",
+      "age_min": 600,
+      "age_max": 800,
+      "age_basis": "source",
+      "location": {
+        "address": "Furze Hill woodland, Mistley, near Manningtree, Essex",
+        "latitude": 51.93903,
+        "longitude": 1.08132,
+        "neighbourhood": "Furze Hill"
+      },
+      "story": "In 2014 England held its first Tree of the Year vote, and this squat Essex oak lost to Sherwood's Major Oak, the most famous tree in the country, by 465 votes. Its own website gives a trunk about 9.5 metres round on a tree just 4.3 metres high, and calls it 800 years old; others say 600, maybe 800. Either way it has the shape of a very old oak that has lost most of its height and kept its girth.\n\nThe name describes it. The trunk is a mass of burrs, lumps and hollows, and a few long limbs reach out sideways from a short, broken top. A wildlife writer who walked here with a group saw elephants, a moose and a stag in them.\n\nIt has had a hard time. Its website records that it was set on fire in 2018. The land around it belonged to big estates until the 1940s, when the army built huts on the hill; Mistley Parish Council bought Furze Hill after the Second World War and still looks after it.\n\nIt stands in a clearing in the wood, on bare ground with a low wooden rail and a bench. The reader who sent it to us added only that it has its own website, which says something about how loved it is.",
+      "how_to_recognise": "A short, enormously thick oak in a clearing in the Furze Hill wood, its trunk covered in burrs and hollows, a few long limbs reaching out sideways, a low wooden rail and a green bench nearby.",
+      "verified_sources": [
+        "https://oldknobbley.com",
+        "https://oldknobbley.com/about-old-knobbley/",
+        "https://www.chrisgibsonwildlife.co.uk/wildessexwalks-mistley-furze-hill-and-old-knobbley/",
+        "https://oldwinteramble.blogspot.com/2010/08/tendring-sentinels.html",
+        "https://commons.wikimedia.org/wiki/File:Old_Knobbley_-_geograph.org.uk_-_7535581.jpg",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app (tip-727, girth 950, 'Has his own website'). The two pictures they attached are phone screenshots of a gallery app showing a photograph of the oak; we cannot tell they are the reader's own photograph, so neither ships; a Commons photograph is the lead instead. oldknobbley.com: 800-year-old English oak, trunk circumference about 9.5 m, 4.3 m high, Furze Hill woodland, parking at the Village Hall, Mistley station a few minutes' walk; about page: Mistley Parish Council bought Furze Hills after WWII, army huts c.1945, set on fire in 2018, second in England's first Tree of the Year 2014, 465 votes behind the Major Oak. Chris Gibson (wildlife writer): 'at least' 800 years, limbs like elephants, a moose or a stag. 2010 blog: 600, maybe 800. Pin: the Commons/geograph file's depicted-place coordinate (51.939025, 1.081317), camera 30 m east looking west; kept approximate.",
+      "access": "Free, in the public Furze Hill woodland owned by Mistley Parish Council; parking at Mistley Village Hall, a few minutes' walk from Mistley station.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Old_Knobbley_-_geograph.org.uk_-_7535581.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Chris Holifield, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:Old_Knobbley_-_geograph.org.uk_-_7535581.jpg",
+        "status": "approved",
+        "width": 4032,
+        "height": 3024,
+        "taken_month": 7
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "Wikimedia Commons",
+        "date": "2026-11-15",
+        "note": "The depicted-place coordinate of the geograph photograph 7535581 (camera geotag 30 m east, facing west)."
+      }
+    }
+  ],
+  "question_meta": "Old Knobbley in Mistley, Essex: how old the oak is, how big, and how to find it on Furze Hill.",
+  "question_answer": "Old Knobbley is an English oak in the Furze Hill woodland at Mistley, near Manningtree in Essex. Its own website says it is about 800 years old with a trunk about 9.5 metres round, and it came second in England's first Tree of the Year vote in 2014. It is free to visit.",
+  "question_context": "Old Knobbley stands in a clearing in the wood on Furze Hill in Mistley, on the Stour estuary. Its website gives a trunk circumference of about 9.5 metres on a tree only 4.3 metres high, and an age of 800 years; other local writers say 600, maybe 800. It is named for its lumpy, burred trunk. In 2014 it was runner-up in England's first Tree of the Year vote, 465 votes behind the Major Oak in Sherwood Forest. The land was part of large estates until the 1940s, when the army built huts on the hill, and Mistley Parish Council bought Furze Hill after the Second World War. The tree was set on fire in 2018 and survived. There is parking at the Village Hall, and Mistley station is a few minutes' walk away. The tree is reached on foot along the main woodland path through the Furze Hill wood, and it stands in an open clearing with a low wooden rail and a bench beside it.",
+  "faq": [
+    {
+      "q": "How old is Old Knobbley?",
+      "a": "About 800 years, by its own website; other local accounts say 600 to 800."
+    },
+    {
+      "q": "How big is it?",
+      "a": "Its trunk is about 9.5 metres round, but the tree is only about 4.3 metres high."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In the Furze Hill woodland at Mistley, near Manningtree in Essex."
+    },
+    {
+      "q": "How do you get there?",
+      "a": "Park at Mistley Village Hall or walk a few minutes from Mistley station, then follow the main woodland path."
+    }
+  ]
+}

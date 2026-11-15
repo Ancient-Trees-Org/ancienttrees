@@ -1,0 +1,75 @@
+{
+  "city": "Isparta",
+  "country": "Turkey",
+  "status": "needs_curation",
+  "intro": "Isparta, the rose-growing city of south-west Turkey, keeps an old oriental plane on Çınar Sokak, Plane Tree Street, a short pedestrian street of cafés in the Kutlubey quarter. A brass plaque from Isparta Municipality on its trunk gives its age as 800 years and records that the city restored it in 2008. A reader photographed the plaque and sent the tree to us; the pin marks the street, so look for the brass plate on a pale, patched trunk.",
+  "meta_description": "The old oriental plane on Çınar Sokak, Isparta: 800 years old by the municipality's plaque, restored by the city in 2008.",
+  "hero_tree_id": "isp_001",
+  "oldest_tree_id": "isp_001",
+  "trees": [
+    {
+      "id": "isp_001",
+      "name": "The Plane of Çınar Sokak",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "age_estimate": "800 years by the municipality's plaque",
+      "age_min": 800,
+      "age_max": 800,
+      "age_basis": "source",
+      "girth_cm": 400,
+      "location": {
+        "address": "Çınar Sokak, Kutlubey Mahallesi (Kafeler), Isparta",
+        "latitude": 37.76584,
+        "longitude": 30.55514,
+        "neighbourhood": "Kutlubey"
+      },
+      "story": "Isparta Municipality has screwed a brass plaque to this plane's trunk, and it gives the tree's age as 800 years. The plaque calls it one of the meaningful witnesses of the city's history and says the municipality restored it on 19 August 2008.\n\nNobody we have read explains how the 800 was reached, and plaque ages on Turkish planes are usually tradition rather than a ring count, so treat it as the city's figure. The reader who photographed it measured the trunk at about 4 metres round.\n\nThe photograph shows what the restoration left. The trunk is pale and patched where old wounds have healed over, it opens into several heavy limbs, and a chain runs between two of them high up to hold the crown together. The street it stands on is Çınar Sokak, and çınar is simply Turkish for plane tree. It is a short pedestrian street of cafés, so this is a tree to sit under with a glass of tea.\n\nThe pin marks the street, not the exact trunk. Look for the brass plaque.",
+      "how_to_recognise": "A pale, patched oriental plane trunk with a brass Isparta Municipality plaque reading YAŞI: 800 and a chain between the upper limbs, on Çınar Sokak.",
+      "verified_sources": [
+        "Isparta Municipality's plaque on the trunk (Platanus orientalis, Doğu Çınarı, age 800, restored 19/08/2008), seen in a reader's photograph through the app, 2026-11-15",
+        "https://www.openstreetmap.org/way/127610225"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-717",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app as 'Ancient eastern plane tree on Çınar Street', note 'Dates at up to 800 years old', girth 400 cm, one photograph and no coordinates. The photograph shows Isparta Belediyesi's brass plaque: Platanaceae, Platanus orientalis, Türkçe adı Doğu Çınarı, Yaşı 800, 'Tarihimizin anlamlı şahitlerinden olan asırlık Çınar ağacımız Isparta Belediyesi tarafından restore edilmiştir 19/08/2008'. The owner of the ground (the municipality) is the source for species and age. Pin: OSM has one Çınar Sokak in central Isparta (way 127610225, pedestrian, Kafeler, Kutlubey Mahallesi), about 100 m long; pin at its midpoint, approximate. A travel guide (turna.com, search excerpt only, page refused us) mentions an 800-year-old historic plane in Isparta's centre with tea places around it, which fits the café street. Not to be confused with the Sultanbaba plane (also given as about 800, near the Baba Sultan tomb on a road, per an SDU journal search excerpt) or Yalvaç's 825-year plane in another town. Risk: if the reader's 'Çınar Street' is a different street, the pin is wrong; the plaque and café-street fit make this the likeliest reading. The photograph is 906 x 1287, cropped by the sender but a camera photo, not a screenshot. The tree's exact position on the street is not confirmed.",
+      "access": "Free, on a public pedestrian street of cafés in the centre of Isparta.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/isp_001-plane-of-cinar-street.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 906,
+        "height": 1287,
+        "source": "contributor",
+        "contributor_user_id": "p_5042b06d69feca58aa5e2553",
+        "sighting_id": "tip-717",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the patched trunk and lower limbs with the municipality's plaque, in leaf, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap street",
+        "date": "2026-11-15",
+        "note": "Midpoint of Çınar Sokak (OSM way 127610225), the street the reader named; the tree is on this short street, its exact spot not mapped."
+      }
+    }
+  ],
+  "question_meta": "The old oriental plane on Çınar Sokak in Isparta: 800 years by the municipality's plaque, restored in 2008. Where to find it.",
+  "question_answer": "Isparta's old plane on Çınar Sokak is an oriental plane that Isparta Municipality's plaque dates to 800 years. The city restored it on 19 August 2008. It stands on the short pedestrian café street of the same name in the Kutlubey quarter, free to visit.",
+  "question_context": "The tree is known to us from a reader's photograph of the brass plaque Isparta Municipality fixed to its trunk. The plaque names it Platanus orientalis, the doğu çınarı or eastern plane, gives its age as 800, calls it one of the meaningful witnesses of the city's history and records a restoration by the municipality on 19 August 2008. How the age was reached is not stated, so it is the city's figure rather than a measurement. The reader measured the trunk at about 4 metres round. A chain between the upper limbs helps hold the crown together. Çınar Sokak, the street it stands on, is a short pedestrian street of cafés in central Isparta, and its name simply means Plane Tree Street. The street is about a hundred metres long and OpenStreetMap does not mark the trunk itself, so the pin sits in the middle of the street rather than on the tree. Isparta has other old planes with large ages attached, among them the Sultanbaba plane and the plane at Yalvaç, so this page covers only the one with the municipality's plaque on Çınar Sokak.",
+  "faq": [
+    {
+      "q": "How old is the plane on Çınar Sokak?",
+      "a": "800 years, by the plaque Isparta Municipality fixed to its trunk. How that figure was reached is not stated."
+    },
+    {
+      "q": "When was it restored?",
+      "a": "On 19 August 2008, by Isparta Municipality, according to the same plaque."
+    },
+    {
+      "q": "Where is it?",
+      "a": "On Çınar Sokak, the short pedestrian café street in the Kutlubey quarter of central Isparta. Look for the brass plaque."
+    }
+  ]
+}

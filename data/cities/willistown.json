@@ -1,0 +1,87 @@
+{
+  "city": "Willistown",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek. A reader sent us a big American sycamore that stands by the old stone bridge where White Horse Road crosses the creek, closer to Paoli than to Media. They measured it at about 6.5 metres round. Nothing has been written about it that we can find, so its age is unknown; look from the road side, as the ground may be private.",
+  "meta_description": "A big American sycamore by the stone bridge where White Horse Road crosses Crum Creek, Willistown, Pennsylvania, sent in by a reader.",
+  "hero_tree_id": "wtn_001",
+  "oldest_tree_id": "wtn_001",
+  "trees": [
+    {
+      "id": "wtn_001",
+      "name": "The Sycamore at the Crum Creek Bridge",
+      "species": "American Sycamore (Platanus occidentalis)",
+      "girth_cm": 650,
+      "location": {
+        "address": "Beside White Horse Road at its bridge over Crum Creek, Willistown Township, Chester County, PA",
+        "latitude": 40.01408,
+        "longitude": -75.47552,
+        "neighbourhood": "Willistown Township"
+      },
+      "story": "A reader put a tape round this sycamore and got about 6.5 metres. That is a big trunk for any tree in Pennsylvania, and the American sycamore is counted among the largest broadleaf trees of the eastern United States. They like exactly this kind of place, a creek bank with water close to the roots.\n\nThe reader who sent it called it \"so massive and robust\" and placed it \"near an old stone bridge over Crum Creek, Willistown Township, closer to Paoli, not very near Media\". Their pin lands on the spot where White Horse Road crosses the creek. Nobody we have read has written about this tree, so we do not know its age, who planted it, or whether it was planted at all. A sycamore this broad by a creek is often a seedling that simply found good ground.\n\nTheir photographs, taken in autumn sun, show the pale upper limbs that give the species away, the mottled grey bark lower down, and a base that flares out over a grassy bank beside a split-rail fence. If you go, look from the road side and leave the fences alone; we do not know who owns the ground it grows on. If you know its history, or have measured it yourself, tell us.",
+      "how_to_recognise": "A broad sycamore with pale, almost white upper limbs and mottled grey bark, its base flaring over a grassy bank beside a split-rail fence, by the stone bridge where White Horse Road crosses Crum Creek.",
+      "verified_sources": [
+        "A reader's photographs and note through the app, 2026-11-15, with a pin they placed by hand at the White Horse Road bridge over Crum Creek"
+      ],
+      "found_by_reader": {
+        "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app with two photographs (whole tree in autumn colour, trunk base), girth 650 cm by their measure, note: near an old stone bridge over Crum Creek, Willistown Township, closer to Paoli, not very near Media. Pin placed by hand, no GPS fix; it reverse-geocodes (Nominatim) exactly onto the White Horse Road bridge over Crum Creek (OSM way 74635054, bridge=yes), which matches the note; a stone wall at the right edge of the first photograph fits a bridge parapet. No written source found (searches for the bridge, the township, the Willistown Conservation Trust; not in the Pennsylvania champion lists we hold). Species from the photographs: pale upper limbs, plane-type bark and leaves; the reader also named it American sycamore. Ownership of the ground not known; access line tells visitors to look from the road. Published on Hidde's rule that a stranger's good photograph of a tree worth the walk is not held for a written source; precision approximate because the pin was placed by hand. Not the Tyler Arboretum trees in media-pennsylvania (about 9.6 km south-east).",
+      "access": "Free to see from White Horse Road by the bridge, by the reader's account. Ownership of the ground is not known, so stay on the road side and do not cross fences; take care with traffic.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wtn_001-sycamore-at-the-crum-creek-bridge.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole sycamore from below in autumn colour, trunk filling the frame, bright daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wtn_001-sycamore-at-the-crum-creek-bridge-2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+          "note": "Same sighting, second photograph: the base of the trunk with its old healed wound, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader placed the pin by hand",
+        "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+        "date": "2026-11-15",
+        "note": "Placed by hand on the map by the reader, with no fix from the phone; it sits on the White Horse Road bridge over Crum Creek that their note names, so the tree is near, not exactly here."
+      }
+    }
+  ],
+  "question_meta": "A big American sycamore by the White Horse Road bridge over Crum Creek in Willistown, PA: what a reader measured and how to see it.",
+  "question_answer": "A reader sent us an American sycamore by the old stone bridge where White Horse Road crosses Crum Creek in Willistown Township, Chester County. They measured it at about 650 cm round. No age has been published. See it from the road.",
+  "question_context": "The tree came to us from a reader through the app in November 2026, with two photographs and a girth of about 650 cm by their own measure. They placed it near an old stone bridge over Crum Creek in Willistown Township, closer to Paoli than to Media, and their pin falls on the White Horse Road crossing. We have found nothing written about it, so its age and history are unknown. The American sycamore is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. The ground it grows on may be private, so look from the road and leave the fences alone. The reader's pin was placed by hand on the map rather than taken from the phone, so it marks the bridge they described; the tree stands close by, its base on a grassy bank beside a split-rail fence. Their photographs show pale upper limbs and mottled grey bark, the marks of the species.",
+  "faq": [
+    {
+      "q": "How big is it?",
+      "a": "About 650 cm round, by the measure of the reader who sent it. Nobody else has published a figure."
+    },
+    {
+      "q": "How old is it?",
+      "a": "Nobody has published an age. If you know its history, tell us."
+    },
+    {
+      "q": "Where is it?",
+      "a": "Beside White Horse Road at its stone bridge over Crum Creek in Willistown Township, Chester County, nearer Paoli than Media. The pin is approximate."
+    }
+  ]
+}

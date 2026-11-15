@@ -1,0 +1,74 @@
+{
+  "city": "Connemara",
+  "country": "Ireland",
+  "status": "needs_curation",
+  "intro": "Connemara, the rocky west of County Galway, has one stand of trees that almost every visitor stops for: Pine Island, a small island of Scots pines in Derryclare Lough with the Twelve Bens rising behind it. It is seen from the shore beside the N59 between Recess and the Inagh valley, and it is one of the most photographed views in Ireland.",
+  "meta_description": "Pine Island, Derryclare Lough: a crown of Scots pines on a small island under the Twelve Bens, seen from the N59 in Connemara.",
+  "hero_tree_id": "pin_001",
+  "oldest_tree_id": "pin_001",
+  "trees": [
+    {
+      "id": "pin_001",
+      "name": "Pine Island, Derryclare Lough",
+      "species": "Scots Pine (Pinus sylvestris)",
+      "location": {
+        "address": "Shore of Derryclare Lough beside the N59, near Recess, Connemara, County Galway",
+        "latitude": 53.46306,
+        "longitude": -9.7961,
+        "neighbourhood": "Derryclare Lough"
+      },
+      "story": "In a bare valley of bog, rock and water, one small island in Derryclare Lough carries a whole crown of Scots pines, tall bare trunks topped with flat dark heads, and behind them the Twelve Bens rise into the cloud. It is among the most photographed islands in Ireland, a stop for nearly everyone who drives through Connemara.\n\nOfficial maps call it Man's Island; everyone else calls it Pine Island. The trees are Scots pines, a pine native to Ireland, and they stand out because almost nothing else of their height grows in the open bog around the lake. Nobody we have read says how old they are or who, if anyone, planted them, so we do not guess.\n\nThis is a place to look from rather than walk to. The usual view is from the lakeshore beside the N59, where the island sits across a narrow arm of water with the mountains framed behind it, and that is where our pin stands. The ground between road and water is soft bog, so come in boots after rain.\n\nThe reader who sent it to us called them \"the picture card perfect pines in Connemara\", with a \"picturesque setting and mature trees\", and that is a fair account of what you see.",
+      "how_to_recognise": "A low island in the lake carrying a dense stand of tall Scots pines with bare trunks and flat, dark crowns, the only clump of tall trees in the open bog, with the Twelve Bens behind it.",
+      "verified_sources": [
+        "https://connemara.ie/listing/pine-island-derryclare-lake-connemara/",
+        "https://www.ballynahinch-castle.com/de/must-sees/pine-island--inagh-valley/76-176/",
+        "https://commons.wikimedia.org/wiki/File:Pines_Island_in_Derryclare_Lough_-_geograph.org.uk_-_6122199.jpg",
+        "https://commons.wikimedia.org/wiki/File:Pine_island_in_Lough_Derryclare,_Connemara_(2014).jpg",
+        "A reader's tip and photograph through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app (tip-749, 'The picture card perfect pines in Connamara', 'Picturesque setting and mature trees'). An ensemble: the island of pines is the destination and there is one place to stand, the shore by the N59. connemara.ie: Scots pines, one of the most photographed islands in Ireland, OSI label Man's Island, Twelve Bens backdrop, photo stop on the N59. Ballynahinch Castle page title calls it Ireland's most photographed spot. No source gives age, planting or measurements, so none stated. Pin: the viewing place on the N59 shore, where two independent Commons geotags agree within 20 m (geograph 6122199, 2019: 53.463084,-9.796393; JoachimKohler-HB 2014: 53.463063,-9.796108); it marks where you stand, not the trees (across the water), so approximate. The reader's attached photograph (1400x927, no EXIF, a wide landscape where the island fills a small part of the frame) is not used; a Commons photograph is the lead.",
+      "access": "Free, seen from the lakeshore beside the N59; the island itself is across the water. Soft, boggy ground between road and shore.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pines_Island_in_Derryclare_Lough_-_geograph.org.uk_-_6122199.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Gareth James, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:Pines_Island_in_Derryclare_Lough_-_geograph.org.uk_-_6122199.jpg",
+        "status": "approved",
+        "width": 5053,
+        "height": 3789,
+        "taken_month": 4
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "Wikimedia Commons",
+        "date": "2026-11-15",
+        "note": "The viewing place on the N59 shore, where two Commons photographs of the island were taken (geotags within 20 m of each other); the trees stand across the water."
+      }
+    }
+  ],
+  "question_meta": "Pine Island on Derryclare Lough in Connemara: what the trees are and where to see them from.",
+  "question_answer": "Pine Island is a small island of Scots pines in Derryclare Lough, Connemara, County Galway, with the Twelve Bens behind it. It is seen for free from the lakeshore beside the N59 near Recess and is one of the most photographed views in Ireland.",
+  "question_context": "Derryclare Lough lies in the Inagh valley in Connemara, among the Twelve Bens. One small island in it, labelled Man's Island on official maps, carries a dense stand of tall Scots pines, a pine native to Ireland, with bare trunks and flat crowns. Because almost nothing else of that height grows in the open bog around it, the island stands out against the mountains, and it has become one of the most photographed views in the country. No source we have found gives the age of the trees or says whether they were planted. The usual viewpoint is the lakeshore beside the N59 between Recess and the turn for the Inagh valley; the ground there is soft bog. The island sits across a narrow arm of the lake from the road, so this is a view to stop for and look at rather than a tree to touch. Visitors come in every season, and the scene changes with the weather moving over the mountains behind it.",
+  "faq": [
+    {
+      "q": "What trees grow on Pine Island?",
+      "a": "Scots pines, a pine native to Ireland."
+    },
+    {
+      "q": "Where do you see it from?",
+      "a": "From the lakeshore beside the N59 near Recess, looking across Derryclare Lough to the Twelve Bens."
+    },
+    {
+      "q": "How old are the pines?",
+      "a": "No source we have found gives their age."
+    },
+    {
+      "q": "What is its official name?",
+      "a": "Official maps label it Man's Island."
+    }
+  ]
+}

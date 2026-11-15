@@ -1,0 +1,70 @@
+{
+  "city": "Verzy",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "The state forest of Verzy, on the Montagne de Reims south of Reims, holds the largest gathering of twisted beeches in the world, around a thousand faux whose trunks and branches bend, knot and droop to the ground. A marked trail from the Parking des Faux leads past the named ones; we have mapped the Fau de Saint-Basle, a few minutes along it.",
+  "meta_description": "The Fau de Saint-Basle, one of the twisted beeches of Verzy near Reims: about a thousand faux, a protected site since 1932.",
+  "hero_tree_id": "vzy_001",
+  "oldest_tree_id": "vzy_001",
+  "trees": [
+    {
+      "id": "vzy_001",
+      "name": "Fau de Saint-Basle",
+      "species": "Twisted Beech (Fagus sylvatica var. tortuosa)",
+      "location": {
+        "address": "Forêt domaniale de Verzy, Site des Faux, above Verzy (Marne)",
+        "latitude": 49.1327493,
+        "longitude": 4.161938,
+        "neighbourhood": "Forêt domaniale de Verzy"
+      },
+      "story": "A beech is supposed to grow straight. The faux of Verzy do not. Their trunks bend and knot, their branches twist back on themselves and droop to the ground, and the whole tree stays low, four or five metres, under an umbrella of leaves. About a thousand of them grow in this forest on the Montagne de Reims, the largest concentration anywhere, and the site has been protected nationally since 1932.\n\nThe Fau de Saint-Basle is one of the few with a name of its own, the name of Saint Basle, whose abbey's cartularies already mention the faux in the sixth century, by the account French Wikipedia gives, and legend has monks spreading them, or a curse making them. A genetic study by INRAE and the forest service between 2018 and 2022 found them close kin to the ordinary beeches around them.\n\nThe reader who sent us Verzy wrote of \"several very old, beautiful trees that have grown in strange shapes\". We chose this one because it stands near the start of the marked trail from the Parking des Faux, before the Chêne Fau, a twisted oak. Log barriers keep visitors off the roots, which the forest put in after crowds began to harm the trees.",
+      "how_to_recognise": "A low beech with a leaning, corkscrewed trunk and branches that twist back and hang towards the ground, behind log barriers beside the trail near the Parking des Pins.",
+      "verified_sources": [
+        "https://fr.wikipedia.org/wiki/Fau_de_Verzy",
+        "https://www.openstreetmap.org/node/5579023360",
+        "https://www.visorando.com/randonnee-les-faux-de-verzy/",
+        "https://www.lalibre.be/lifestyle/2022/12/11/les-faux-de-verzy-une-rarete-spectaculaire-IUDKZEZXDFE3DNYV4CSNIG7WXM/",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader (submission 720, text only): 'Faux de Verzy, near Reims: several very old, beautiful trees that have grown in strange shapes.' The site is a forest of about 1,000 faux, so per the collectible-point rule we mapped one named tree, the Fau de Saint-Basle, rather than the whole site. Chosen because it has an OSM natural=tree node (5579023360, 'Fau de Saint-Basle', 49.1327493, 4.161938) and openly licensed photographs, and walking guides (visorando, search excerpt) route the trail from the Parking des Faux past the Fau Saint-Basle and then the Chêne Fau. La Libre (2022, search excerpt) names the Fau de Saint-Basle among the trees with traditional names. fr.wikipedia Fau de Verzy: Fagus sylvatica var. tortuosa, 4 to 5 m tall, about a thousand individuals, largest concentration in the world, site classé 1932, cartularies of the abbey of Saint-Basle from the 6th century, log barriers, INRAE/ONF genetic study 2018-2022. The better-known Fau de la Demoiselle (Joan of Arc legend) was struck by lightning in summer 2017 (search excerpt), so not chosen. No age for this individual is published; faux are not dated. Pin from OSM natural=tree: confirmed. Photograph CC0 by Vassil, Commons, 23 October 2011, titled as this tree; not geotagged, identity rests on the title.",
+      "access": "Free, in the state forest. A marked trail from the Parking des Faux (a free car park) passes it; stay behind the log barriers.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Fau_de_Saint_Basle_Verzy_23_10_2011_1.jpg",
+        "license": "CC0",
+        "attribution": "Vassil, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:Fau_de_Saint_Basle_Verzy_23_10_2011_1.jpg",
+        "status": "approved",
+        "width": 1777,
+        "height": 2676,
+        "taken_month": 10
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-15",
+        "note": "OSM node 5579023360, a tree tagged Fau de Saint-Basle."
+      }
+    }
+  ],
+  "question_meta": "The faux of Verzy near Reims: what makes these beeches twist, how many there are, and where the Fau de Saint-Basle stands.",
+  "question_answer": "The faux of Verzy are twisted beeches, Fagus sylvatica var. tortuosa, in the state forest on the Montagne de Reims south of Reims. About a thousand grow there, the largest concentration in the world, and the site has been protected since 1932. A free marked trail from the Parking des Faux passes the Fau de Saint-Basle.",
+  "question_context": "A fau is the old French word for a beech, and the faux of Verzy are beeches whose trunks and branches bend, twist and droop instead of growing straight; they stay four to five metres tall under a dense umbrella of leaves. Around a thousand grow in the state forest of Verzy, more than anywhere else, and smaller groups exist in Germany's Süntel, at Dalby in Sweden, in Denmark and in Lorraine. The cartularies of the abbey of Saint-Basle mention them from the sixth century. Heavy visiting once threatened them, so the trail was rerouted and log barriers now keep people off the roots. A genetic study by INRAE with the forest service between 2018 and 2022 found them close relatives of the straight beeches around them. The Fau de Saint-Basle, which shares the abbey's name, stands near the start of the marked trail, before the Chêne Fau, a twisted oak.",
+  "faq": [
+    {
+      "q": "What are the faux de Verzy?",
+      "a": "Twisted beeches, Fagus sylvatica var. tortuosa, whose trunks and branches bend and droop. About a thousand grow in the state forest of Verzy, the largest concentration in the world."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. The forest is public and the Parking des Faux is free; follow the marked trail and stay behind the log barriers."
+    },
+    {
+      "q": "How old are the faux?",
+      "a": "Individual trees are not dated. The abbey of Saint-Basle's records mention faux at Verzy from the sixth century."
+    }
+  ]
+}

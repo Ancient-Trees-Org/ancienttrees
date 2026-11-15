@@ -1,0 +1,75 @@
+{
+  "city": "Keren",
+  "country": "Eritrea",
+  "status": "needs_curation",
+  "intro": "Keren, Eritrea's second city, has a chapel inside a tree. Mariam Dearit is a Catholic shrine to the Virgin Mary set into the split trunk of a huge baobab north of the town centre, and a pilgrimage site. By the accounts repeated in Keren, Italian soldiers sheltered in the tree from British aircraft in 1941, the tree was hit, and they survived.",
+  "meta_description": "Mariam Dearit, Keren, Eritrea: a shrine to the Virgin Mary inside a split baobab, where soldiers sheltered from a bomb in 1941.",
+  "hero_tree_id": "krn_001",
+  "oldest_tree_id": "krn_001",
+  "trees": [
+    {
+      "id": "krn_001",
+      "name": "Mariam Dearit",
+      "species": "Baobab (Adansonia digitata)",
+      "girth_cm": 700,
+      "location": {
+        "address": "Mariam Dearit shrine, Keren, Anseba region",
+        "latitude": 15.7944966,
+        "longitude": 38.4684671,
+        "neighbourhood": "Dearit"
+      },
+      "story": "In 1941, by the account told in Keren and recorded on Wikimedia Commons, Italian soldiers took shelter inside this baobab from British aircraft, and the tree was hit. The soldiers survived, and so did the shrine inside it. The reader who sent it to us tells it the same way, that \"the bomb landed among them but did not explode enhancing the tree's reputation as a holy place\". Keren was the scene of a key battle between Italian and British forces that spring.\n\nThe tree is the chapel. The trunk has split open, and inside the split is a small Catholic shrine to the Virgin Mary, Mariam Dearit, with a curtain across the opening and candles on a stand beside it. Wikipedia lists it among Keren's sights as the chapel lying in a baobab tree, and OpenStreetMap marks the tree itself. Pilgrims come to it, and the shoes left on the ground in the reader's photograph suggest that visitors take them off before going in.\n\nThe reader measured the trunk at about 7 metres round. Nobody has counted its rings; baobabs grow hollow with age, which makes them notoriously hard to date. Visit quietly, as you would any church.",
+      "how_to_recognise": "A massive grey baobab trunk split open in the middle, with a curtained shrine inside the split, candles on a stand beside it, and a paved path leading up to the opening.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Keren,_Eritrea",
+        "https://commons.wikimedia.org/wiki/File:Mariam_Dearit_Madonna_of_the_Baobab.jpg",
+        "https://www.openstreetmap.org/node/3255370312",
+        "https://www.wikidata.org/wiki/Q124605454",
+        "https://www.lonelyplanet.com/points-of-interest/mariam-dearit-shrine/1559754",
+        "A reader's photograph and note through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-751",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app (Mariam Dearit, 'Madonna of the Baobab'), girth 700 cm, note on the WW2 refuge and the bomb that did not explode, one photograph, no coordinates. The photograph is the reader's own camera photo (1200 x 1600, people's shoes in the foreground, no screen chrome), not a copy of the Commons file (different angle and season). Wikipedia (Keren, Eritrea, Attractions): 'the St Maryam Deari chapel, lying in a baobab tree'; also the 1941 Battle of Keren. Commons file description (SBereket, CC BY-SA 3.0): in 1941 Italian soldiers took refuge in the tree from British planes; the tree was hit but the Italians and the shrine survived. Lonely Planet (read only as a search excerpt, page body not served to us): small Catholic shrine to the Virgin Mary in a baobab said to be 500 years old or more, festival 29 May; not used on the page. The 'did not explode' detail is the reader's and a blog's, so it is quoted as the reader's. Pin: OSM node 3255370312, natural=tree 'St. Mariam Dearit', inside the OSM religious area 'Mariam Dearit Shrine' (way 529701692): confirmed. A paler tree wrapping the right side of the trunk in the photograph may be a fig; not stated. Out-of-focus rule for Africa does not apply: a reader's tree.",
+      "access": "Free; a shrine and place of pilgrimage just north of central Keren. Dress and behave as for a church.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/krn_001-mariam-dearit.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9dfcbc9fd964b4dac31308c3",
+        "sighting_id": "tip-751",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the split baobab trunk with the curtained shrine, candles and paved path, in leaf, bright daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-15",
+        "note": "OSM node 3255370312, a tree tagged St. Mariam Dearit inside the shrine's grounds."
+      }
+    }
+  ],
+  "question_meta": "Mariam Dearit in Keren, Eritrea: the shrine inside a baobab, its 1941 story, and how to visit.",
+  "question_answer": "Mariam Dearit is a Catholic shrine to the Virgin Mary built into the split trunk of a huge baobab in Keren, Eritrea. By local accounts Italian soldiers sheltered in it from British aircraft in 1941; the tree was hit and they survived. It is a pilgrimage site, free to visit.",
+  "question_context": "Keren, about 90 km north-west of Asmara, was the scene of the Battle of Keren between Italian and British forces in February and March 1941. The story told at Mariam Dearit, and recorded with a photograph on Wikimedia Commons, is that Italian soldiers took refuge inside the baobab from British aircraft and that the tree was struck, yet the soldiers and the shrine survived; the reader who sent it adds that the bomb did not explode. Wikipedia lists the chapel lying in a baobab tree among Keren's sights. The shrine sits in the split of the trunk, curtained, with candles beside it. The reader measured the trunk at about 7 metres round; nobody has published a dated age, and baobabs, which grow hollow as they age, are hard to date at all. OpenStreetMap marks the tree inside the shrine's grounds, a little north of the town centre. It remains a working place of worship, so visitors come as guests, quietly, and the shoes left outside in the reader's photograph suggest that people take them off before stepping up to the shrine.",
+  "faq": [
+    {
+      "q": "What is Mariam Dearit?",
+      "a": "A Catholic shrine to the Virgin Mary set inside the split trunk of a baobab in Keren, Eritrea, and a place of pilgrimage."
+    },
+    {
+      "q": "What happened there in 1941?",
+      "a": "By the local account, Italian soldiers sheltered in the tree from British aircraft; the tree was hit and the soldiers and the shrine survived."
+    },
+    {
+      "q": "How old is the baobab?",
+      "a": "Nobody has published a dated age. The reader who sent it measured the trunk at about 7 metres round."
+    }
+  ]
+}

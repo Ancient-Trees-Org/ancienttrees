@@ -1,0 +1,75 @@
+{
+  "city": "Silton",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Silton is a small village near Gillingham in north Dorset, and in the field behind its church of St Nicholas stands Wyndham's Oak, said to be up to 1,000 years old and the oldest tree in Dorset. It is named after Sir Hugh Wyndham, a 17th-century judge who owned the manor and is said to have sat in its shade. A footpath from the churchyard leads to it.",
+  "meta_description": "Wyndham's Oak, Silton: said to be the oldest tree in Dorset, up to 1,000 years old, in the field behind St Nicholas' church.",
+  "hero_tree_id": "wyo_001",
+  "oldest_tree_id": "wyo_001",
+  "trees": [
+    {
+      "id": "wyo_001",
+      "name": "Wyndham's Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "up to about 1,000 years, by common account",
+      "age_basis": "source",
+      "location": {
+        "address": "Field behind St Nicholas' Church, Silton, near Gillingham, Dorset",
+        "latitude": 51.063153,
+        "longitude": -2.309385,
+        "neighbourhood": "Silton"
+      },
+      "story": "When it was measured in April 2008, the trunk of this oak was 12 metres round, about the width of a small room, and the hollow bole stood almost 8 metres high. It is said to be up to 1,000 years old and the oldest tree in Dorset, which is what the reader who sent it to us called it too.\n\nIt is named after Sir Hugh Wyndham, a judge of the Common Pleas who bought the manor of Silton soon after 1660 and is said to have sat in its shade while he thought over his cases. Darker stories cling to it as well. It was reputedly used as a gallows for rebels convicted after the Monmouth Rebellion of 1685. Long before either, it was one of the oaks that marked the boundary between Selwood Forest and the royal hunting forest of Gillingham.\n\nIt was engraved in the reign of George III, and in 2018 it was one of ten trees in the Woodland Trust's vote for England's Tree of the Year.\n\nToday it stands in a meadow on a private farm just behind St Nicholas' church, where a memorial to the judge hangs inside. The local walking route reaches it on a footpath and leaves by a gate beside the churchyard wall.",
+      "how_to_recognise": "A huge, low-domed oak alone in the meadow behind St Nicholas' churchyard, its short, grey, hollow trunk swollen and fissured beneath a broad green crown.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Wyndham%27s_Oak",
+        "https://gillinghamdorset-tc.gov.uk/wp-content/uploads/2023/03/WAW_Judge_Wyndams_D7_hr-2-1.pdf",
+        "https://thestreettree.com/2011/10/30/wyndham%E2%80%99s-oak-is-a-great-survivor/",
+        "A reader's tip through the app, 2026-11-15 (submission 747)"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader (submission 747, text only: 'the oldest tree in Dorset, over 1000 years'). Wikipedia: pedunculate oak, Silton; boundary oak between Selwood and Gillingham forests; up to 1,000 years, oldest in Dorset; April 2008 trunk 38 ft (12 m) circumference, bole 26 ft (7.9 m); named for Sir Hugh Wyndham, Judge of the Common Pleas (bought the manor soon after 1660); reputedly a gallows after the Monmouth Rebellion; engraved under George III; one of ten in the Woodland Trust's England's Tree of the Year 2018; ground part of a privately owned farm (Sept 2019). Gillingham Town Council walk leaflet (Judge Wyndham's walk): footpath to the oak, then a gate to the right of the churchyard wall, round the church and out through a wrought iron gate. Street Tree blog 2011: through the churchyard into the field beyond. Wikipedia's Wyndham memorial is inside the church (search summary). Pin: Wikipedia's coordinate for the tree; approximate. Photo: Commons, Sheila Wiggins, 6 Oct 2018, viewed: the whole oak in leaf, daylight. girth_cm not set (Wikipedia, not a register).",
+      "access": "Free, on a footpath across a privately owned farm field behind St Nicholas' churchyard; keep to the path and close gates.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Wyndham%27s_Oak%2C_Silton%2C_Dorset_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Sheila Wiggins, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:Wyndham%27s_Oak,_Silton,_Dorset_01.jpg",
+        "status": "approved",
+        "width": 4000,
+        "height": 2248,
+        "taken_month": 10
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "Wikipedia",
+        "date": "2026-11-15",
+        "note": "The coordinate on Wikipedia's Wyndham's Oak article, in the field behind St Nicholas' church."
+      }
+    }
+  ],
+  "question_meta": "Wyndham's Oak in Silton, Dorset: how old it is, why it is named after a judge, and how to walk to it.",
+  "question_answer": "Wyndham's Oak is a pedunculate oak in a field behind St Nicholas' church in Silton, near Gillingham in Dorset. It is said to be up to 1,000 years old and the oldest tree in Dorset, and in 2008 its trunk measured 12 metres round. A footpath from the churchyard reaches it.",
+  "question_context": "The oak takes its name from Sir Hugh Wyndham, a judge of the Common Pleas who bought the manor of Silton soon after 1660 and is said to have sat in its shade to consider his cases. Tradition also says rebels convicted after the Monmouth Rebellion were hanged from it. It was one of the oaks that marked the boundary between Selwood Forest and the royal forest of Gillingham. In April 2008 its hollow trunk measured 12 metres in circumference, with a bole almost 8 metres high. It was engraved in the reign of George III and was one of ten candidates for England's Tree of the Year in 2018. It stands on a privately owned farm, reached by a footpath from the churchyard of St Nicholas. Its hollow trunk, swollen and fissured, now carries a broad, rounded crown that is still green every summer. A memorial to Sir Hugh Wyndham is inside the church, and Gillingham's local walking route passes the oak.",
+  "faq": [
+    {
+      "q": "How old is Wyndham's Oak?",
+      "a": "It is said to be up to 1,000 years old, which would make it the oldest tree in Dorset. No exact age has been established."
+    },
+    {
+      "q": "Who was Wyndham?",
+      "a": "Sir Hugh Wyndham, a 17th-century judge of the Common Pleas who owned the manor of Silton and is said to have sat under the oak."
+    },
+    {
+      "q": "How big is it?",
+      "a": "In April 2008 its trunk measured 12 metres round."
+    },
+    {
+      "q": "Can you visit it?",
+      "a": "Yes. It stands in a farm field behind St Nicholas' church, reached on a footpath from the churchyard."
+    }
+  ]
+}

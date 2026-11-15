@@ -1108,6 +1108,9 @@
       "Národní park Congaree",
       "Nacionalni park Congaree"
     ],
+    "connemara": [
+      "Conamara"
+    ],
     "coos-bay": [
       "Baia di Coos"
     ],
@@ -1585,6 +1588,9 @@
       "Dantsic",
       "Gdansko",
       "Gdański"
+    ],
+    "geashill": [
+      "Géisill"
     ],
     "geelong": [
       "Džilongas",
@@ -2169,6 +2175,10 @@
       "Inbhir Nis",
       "Innerness"
     ],
+    "isparta": [
+      "Esparta",
+      "Ysparta"
+    ],
     "istanbul": [
       "Estambul",
       "Istambul",
@@ -2300,6 +2310,10 @@
       "Qefalonia",
       "Cephalonia",
       "Cephallenia"
+    ],
+    "keren": [
+      "Cheren",
+      "Sanhit"
     ],
     "key-west": [
       "Cayo Hueso",
@@ -4868,6 +4882,9 @@
       "Weryń",
       "Verîn"
     ],
+    "verzy": [
+      "Faux de Verzy"
+    ],
     "vico-del-gargano": [
       "Castrum Vici",
       "Vico d'u Gargano",
@@ -5328,6 +5345,7 @@
     "compton-dundon": "Compton Dundon",
     "concoret": "Concoret",
     "congaree-national-park": "Congaree National Park",
+    "connemara": "Connemara",
     "coos-bay": "Coos Bay",
     "copenhagen": "Copenhagen",
     "coppell": "Coppell, Texas",
@@ -5413,6 +5431,7 @@
     "galenbeck": "Galenbeck",
     "garmen": "Garmen",
     "gdansk": "Gdańsk",
+    "geashill": "Geashill",
     "geelong": "Geelong",
     "geneva": "Geneva",
     "genoa": "Genoa",
@@ -5512,6 +5531,7 @@
     "innimond": "Innimond",
     "innsbruck": "Innsbruck",
     "inverness": "Inverness",
+    "isparta": "Isparta",
     "istanbul": "Istanbul",
     "itchen-abbas": "Itchen Abbas",
     "ito": "Itō, Shizuoka",
@@ -5542,6 +5562,7 @@
     "kawazu": "Kawazu, Shizuoka",
     "kefalonia": "Cephalonia",
     "kemble": "Kemble, Gloucestershire",
+    "keren": "Keren, Eritrea",
     "key-west": "Key West",
     "killarney": "Killarney",
     "kimotsuki": "Kimotsuki, Kagoshima",
@@ -5671,6 +5692,7 @@
     "minneapolis": "Minneapolis",
     "minobu": "Minobu, Yamanashi",
     "miriam-vale": "Miriam Vale",
+    "mistley": "Mistley",
     "mito": "Mito, Ibaraki",
     "miyazaki": "Miyazaki Prefecture",
     "mobile": "Mobile, Alabama",
@@ -5893,6 +5915,7 @@
     "shokawa": "Shokawa",
     "sila": "Sila National Park",
     "silale": "Šilalė",
+    "silton": "Silton",
     "simsbury": "Simsbury, Connecticut",
     "singapore": "Singapore",
     "sintra": "Sintra",
@@ -6005,6 +6028,7 @@
     "vernole": "Vernole",
     "verona": "Verona",
     "veryn": "Veryn",
+    "verzy": "Verzy",
     "vico-del-gargano": "Vico del Gargano",
     "vienna": "Vienna",
     "vieques": "Vieques, Puerto Rico",
@@ -6022,6 +6046,7 @@
     "wessobrunn": "Wessobrunn",
     "westerlo": "Westerlo",
     "westonbirt": "Westonbirt Arboretum",
+    "willistown": "Willistown Township, Chester County, Pennsylvania",
     "wilmington-delaware": "Wilmington, Delaware",
     "wimborne-st-giles": "Wimborne St Giles",
     "windsor": "Windsor",
@@ -6161,6 +6186,7 @@
     "meikleour": "Meikleour",
     "mendaza": "Mendaza",
     "miriam-vale": "Miriam Vale",
+    "mistley": "Mistley",
     "moss-vale": "Moss Vale",
     "mottisfont": "Mottisfont",
     "msecke-zehrovice": "Mšecké Žehrovice",
@@ -6202,6 +6228,7 @@
     "sedona": "Sedona, Arizona",
     "shinkamigoto": "Shin-Kamigotō",
     "shokawa": "Shokawa",
+    "silton": "Silton",
     "simsbury": "Simsbury, Connecticut",
     "sintra": "Sintra",
     "solon-springs": "Solon Springs, Wisconsin",
@@ -6231,6 +6258,7 @@
     "vorden": "Vorden",
     "walpole": "Walpole, Western Australia",
     "wessobrunn": "Wessobrunn",
+    "willistown": "Willistown",
     "wimborne-st-giles": "Wimborne St Giles",
     "wolfheze": "Wolfheze",
     "woolland": "Woolland",

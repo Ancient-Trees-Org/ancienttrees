@@ -1,0 +1,79 @@
+{
+  "city": "Geashill",
+  "country": "Ireland",
+  "status": "needs_curation",
+  "intro": "Geashill, in County Offaly between Tullamore and Portarlington, is a planned estate village laid out by the Digby family around a triangular green. In the middle of that green stands a giant sequoia, planted in 1859 by a reader's account, now the tallest thing in the village. The green is open to everyone, with picnic tables and benches under the trees.",
+  "meta_description": "The giant sequoia on Geashill village green, Co. Offaly: a Californian giant planted in 1859, by a reader's account, in a Digby estate village.",
+  "hero_tree_id": "gsh_001",
+  "oldest_tree_id": "gsh_001",
+  "trees": [
+    {
+      "id": "gsh_001",
+      "name": "The Geashill Sequoia",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "age_estimate": "about 167 years, planted 1859 by a reader's account",
+      "age_min": 166,
+      "age_max": 167,
+      "age_basis": "source",
+      "location": {
+        "address": "Village green, Geashill, County Offaly",
+        "latitude": 53.23481,
+        "longitude": -7.32069,
+        "neighbourhood": "Geashill"
+      },
+      "story": "A tree from the mountains of California has stood in the middle of an Irish village green since 1859, by the account of the reader who sent it to us. They add that it was \"likely bought as a seedling from Toole's Nursery, Dublin\", along with the other trees on the green. Giant sequoias were still a novelty then, a species that had reached these islands as seed only a few years before.\n\nGeashill itself was built to a plan. The Digby family, who owned more than 34,000 acres around it, developed it as an estate village, and in 1837 it had 87 mostly thatched houses set around a triangular green. Edward Digby, the 9th Baron, inherited the estate in 1856 and evicted a large number of families; in the 1860s and 1870s he rebuilt much of the village, and many of the buildings around the green date from then. The sequoia was planted in the middle of those years.\n\nToday it rises above the limes around it, a dark spire with a thick, reddish trunk. The reader calls the green \"a lovely spot for young and old alike, with picnic tables and the Geashill Cauldron\". Nobody we have read gives its height or girth, so a tape round the trunk would be welcome.",
+      "how_to_recognise": "The tallest tree on the village green: a dark, conical evergreen with a thick, reddish, fibrous trunk, standing alone on the mown grass between rows of broadleaved limes, a small information board near its foot.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Geashill",
+        "A reader's photograph and note through the app, 2026-11-15, with a pin placed by hand on the village green"
+      ],
+      "found_by_reader": {
+        "sighting_id": "3580ef91-02e7-45a1-bd3d-c8b5673e1a72",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app as 'Giant sequoia in the heart of Geashill', planted 1859, probably bought as a seedling from Toole's Nursery, Dublin (reader's note; its wording reads like the information board visible in the photograph, but we have not seen the board). Photograph looked at 2026-11-15: a giant sequoia alone on a mown green, sunny daylight, the whole tree in frame; species clear from the bark and habit. Wikipedia (Geashill): Digby planned estate village, 87 houses around a triangular green in 1837 (Samuel Lewis), Edward Digby 9th Baron inherited 1856, evictions, rebuilding in the 1860s and 1870s. No register entry, no measurement, no written source for the tree itself: published on the reader's photograph (Hidde, 2026-10-12 and 2026-10-21). Pin placed by hand by the reader and nudged 12 m; it falls on the L5030 at the edge of the green, so approximate.",
+      "access": "Free, on the public village green; picnic tables and benches nearby.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gsh_001-the-geashill-sequoia.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7b25aaf5b4d62109ab46ba2c",
+        "sighting_id": "3580ef91-02e7-45a1-bd3d-c8b5673e1a72",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole sequoia on the green, bright daylight, framed between limes. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader hand-placed pin",
+        "sighting_id": "3580ef91-02e7-45a1-bd3d-c8b5673e1a72",
+        "date": "2026-11-15",
+        "note": "Placed by hand on the map by the reader, not taken from the phone's location, so approximate. It sits on the green, nudged 12 m by the reader."
+      }
+    }
+  ],
+  "question_meta": "The giant sequoia on Geashill village green in County Offaly: when it was planted and how to see it.",
+  "question_answer": "Geashill's best-known tree is the giant sequoia in the middle of its village green, planted in 1859 by a reader's account, which makes it about 167 years old. It stands on open public grass in the Digby estate village and is free to visit.",
+  "question_context": "Geashill was developed by the Digby family as a planned estate village around a triangular green; Samuel Lewis counted 87 mostly thatched houses there in 1837. Edward Digby, the 9th Baron, inherited the estate in 1856, evicted many families, and rebuilt much of the village in the 1860s and 1870s. A reader who sent us the tree says the giant sequoia on the green dates from 1859 and was probably bought as a seedling from Toole's Nursery in Dublin, with the other trees planted on the green. It now stands above the limes around it as a dark conical spire with a thick reddish trunk. Its height and girth have not been published. The green has picnic tables and is open to everyone. The sequoia is the species from the Sierra Nevada of California, and it was still new to Irish and British gardens when this one went in. Today it is the tallest tree on the green, standing alone on the mown grass between rows of limes, with a small information board near its foot.",
+  "faq": [
+    {
+      "q": "How old is the Geashill sequoia?",
+      "a": "About 167 years. A reader who sent it to us says it was planted in 1859."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In the middle of the village green in Geashill, County Offaly, between Tullamore and Portarlington."
+    },
+    {
+      "q": "Can you visit it?",
+      "a": "Yes, for free. It stands on the open public green, with picnic tables nearby."
+    },
+    {
+      "q": "How tall is it?",
+      "a": "Nobody has published a height or girth for it yet."
+    }
+  ]
+}

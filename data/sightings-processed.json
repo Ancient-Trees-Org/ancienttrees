@@ -1200,8 +1200,10 @@
    "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
   },
   "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "wtn_001",
+   "reason": "Big American sycamore by the Crum Creek bridge on White Horse Road, Willistown; the reader's photo is the lead, their second photo in the strip; hand-placed pin, approximate"
   },
   "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5": {
    "outcome": "published",
@@ -1210,12 +1212,16 @@
    "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
   },
   "3580ef91-02e7-45a1-bd3d-c8b5673e1a72": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gsh_001",
+   "reason": "Whole sequoia on the village green, bright daylight, species clear from bark and habit."
   },
   "fda250f8-3d69-4814-98fe-d2aa828e3ac9": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "dnk_010",
+   "reason": "Whole multi-stemmed Scots pine from foot to crown, person at the trunk for scale, daylight."
   },
   "3f2218ef-f368-4ec1-95b5-a1ea20e4b7c5": {
    "outcome": "rejected",
@@ -1223,8 +1229,10 @@
    "reason": "Screenshot duplicate of fda250f8 from a second account."
   },
   "tip-717": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "isp_001",
+   "reason": "Isparta oriental plane on Cinar Sokak; the reader's photo of the municipality's plaque is the lead; street pin, approximate"
   },
   "tip-727": {
    "outcome": "lead",
@@ -1243,8 +1251,10 @@
    "date": "2026-11-15"
   },
   "tip-751": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "krn_001",
+   "reason": "Mariam Dearit baobab shrine, Keren; the reader's own photo is the lead; OSM tree pin, confirmed"
   },
   "216f76c5-a63d-49dd-a65f-c844261a125e": {
    "outcome": "published",

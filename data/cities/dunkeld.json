@@ -426,6 +426,55 @@
         "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
       },
       "paid_entry": true
+    },
+    {
+      "id": "dnk_010",
+      "name": "The King of the Forest",
+      "species": "Scots Pine (Pinus sylvestris)",
+      "age_estimate": "about 400 years, by a reader's estimate",
+      "age_min": 400,
+      "age_max": 400,
+      "age_basis": "source",
+      "location": {
+        "address": "Muirward Wood, on the north-east edge of Scone, Perth and Kinross",
+        "latitude": 56.44188,
+        "longitude": -3.39572,
+        "neighbourhood": "Scone"
+      },
+      "story": "In 2002 the Forestry Commission named this Scots pine in Muirward Wood as the one with the largest girth ever recorded for the species, 20 feet round, and gave its height as 102 feet. Its people call it the King of the Forest.\n\nIt has been watched for a long time. The reader who sent it to us says it was \"measured by J D Urquhart in 1883 and Jim Paterson in 1993\", and puts its girth at 660 centimetres and its age at about 400 years. A local walking guide gives the 1883 record as a trunk about 16 feet round and 80 feet tall, already a curiosity in Victorian Perthshire.\n\nPart of the reason for that girth shows in the photographs. A couple of metres up, the trunk splits into several great stems, each the size of a big tree on its own, that climb together through a plantation of straight young pines. Stand at the foot and the difference between it and its neighbours is plain.\n\nMuirward Wood lies on the edge of Scone, crossed by flat forest tracks, with smaller paths over drainage ditches. Our pin is where a reader placed it in the wood, not a measured spot, so look for the one pine that is far wider than the rest.",
+      "how_to_recognise": "A Scots pine far wider than the straight plantation pines around it, its trunk splitting a couple of metres above the ground into several massive orange-barked stems.",
+      "verified_sources": [
+        "https://cdn.forestresearch.gov.uk/2002/03/fcms105.pdf",
+        "https://www.geocaching.com/geocache/GCNJV0_king-of-the-forest",
+        "https://www.openstreetmap.org/relation/14931873",
+        "A reader's photographs and note through the app, 2026-11-15, with a pin placed by hand in Muirward Wood"
+      ],
+      "found_by_reader": {
+        "sighting_id": "fda250f8-3d69-4814-98fe-d2aa828e3ac9",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app as 'The King of the Forest', Scots pine, girth 660 cm, age 400, measured by J D Urquhart 1883 and Jim Paterson 1993 (reader). Sighting 3f2218ef from a second account is a duplicate. Forestry Commission, Scotland's Trees, Woods and Forests (2002, fcms105, p. 39): 'The King of the Forest is a majestic Scots pine in Muirward Wood near Scone. It has the largest girth ever recorded for this species (20 feet) and stands 102 feet high.' Geocache GCNJV0 (Perth walking cache): 1883 trunk diameter 155 cm (16 ft girth), 24.4 m, 400 cubic feet; now 20 ft girth, 31 m; forks into three trunks about 2 m up; flat forest track, muddy side paths over drainage ditches. Monumental Trees lists it in Muirward Wood, Scone (facts only, not used for text or pin). Pin: the reader's hand-placed pin, which OSM puts inside Muirward Wood (relation 14931873); a later reader moved the pin 1.1 km to an unknown spot, so the position in the wood is not settled: approximate. Photographs looked at 2026-11-15: lead shows the whole multi-stemmed pine with a person at its foot for scale, daylight; extra-1 looks up the trunk. girth_cm not set (sources disagree on measuring height and units). Filed in dunkeld.json because the Scone Palace trees live here.",
+      "access": "Free, in Muirward Wood on the edge of Scone, on forest tracks; side paths cross drainage ditches and can be muddy.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dnk_010-the-king-of-the-forest.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_e8661eafe6305849ea0e24d7",
+        "sighting_id": "fda250f8-3d69-4814-98fe-d2aa828e3ac9",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole pine from its foot to the crown, a person standing at the trunk for scale, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader hand-placed pin",
+        "sighting_id": "fda250f8-3d69-4814-98fe-d2aa828e3ac9",
+        "date": "2026-11-15",
+        "note": "Placed by hand on the map by the reader, not taken from the phone's location, so approximate. It falls inside Muirward Wood."
+      }
     }
   ]
 }

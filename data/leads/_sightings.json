@@ -1931,8 +1931,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "2026-11-15: Big American sycamore near Crum Creek, Willistown: good photo but the pin was placed by hand, not a GPS fix, and no source names it; waits for a fix or a source.",
+   "status": "published",
+   "why": "published 2026-11-15 as wtn_001 in Willistown: the reader's two photographs, pin placed by hand at the White Horse Road bridge over Crum Creek they named (approximate)",
    "seen": "2026-11-15"
   },
   {
@@ -1983,8 +1983,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "2026-11-15: Giant sequoia on Geashill village green, 1859 by the reader: good photo, pin placed by hand; needs a written source before it ships.",
+   "status": "published",
+   "why": "published 2026-11-15 as gsh_001 in Geashill: the reader's photograph on the village green; pin hand-placed, approximate; 1859 and Toole's Nursery stated as the reader's account",
    "seen": "2026-11-15"
   },
   {
@@ -2013,8 +2013,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "2026-11-15: The King of the Forest, a big Scots pine near Scone measured in 1883 and 1993 by the reader's account: good photo, pin placed by hand and moved 1.1 km by a reader; needs a source and a settled pin.",
+   "status": "published",
+   "why": "published 2026-11-15 as dnk_010 (Dunkeld file, Scone): the reader's photograph; Muirward Wood near Scone per Forestry Commission 2002 (largest recorded Scots pine girth, 20 ft, 102 ft); hand pin inside the wood, approximate",
    "seen": "2026-11-15"
   },
   {
@@ -2061,8 +2061,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "2026-11-15: Isparta plane on Cinar Street: the photo shows Isparta Municipality's plaque, age 800, restored 2008; needs a pin.",
+   "status": "published",
+   "why": "published 2026-11-15 as isp_001 in Isparta: the reader's photograph of Isparta Municipality's plaque (age 800, restored 2008); pin at the middle of Cinar Sokak (approximate)",
    "seen": "2026-11-15"
   },
   {
@@ -2085,8 +2085,8 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "2026-11-15: Old Knobbley, Mistley: famous oak with its own website; the photo is a phone screenshot; needs sources and a pin.",
+   "status": "published",
+   "why": "published 2026-11-15 as okb_001 in Mistley with a Commons photograph (Chris Holifield, CC BY-SA 2.0); the reader's attachments are gallery screenshots, not shipped as theirs",
    "seen": "2026-11-15"
   },
   {
@@ -2132,8 +2132,8 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "2026-11-15: Emmanuel College oriental plane, Cambridge: famous, layered branches; must check the Fellows' Garden is open to visitors (hard rule 10).",
+   "status": "held",
+   "why": "2026-11-15: the Fellows' Garden is private by the college's own pages, no regular public access (hard rule 10); same hold as data/leads/cambridge.json",
    "seen": "2026-11-15"
   },
   {
@@ -2154,8 +2154,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "2026-11-15: Pine Island, Derryclare Lough, Connemara: an ensemble seen from the road; needs a pin at the viewing place and sources.",
+   "status": "published",
+   "why": "published 2026-11-15 as pin_001 in Connemara: ensemble seen from the N59 shore, pin on the viewing place, approximate; Commons photograph (Gareth James, CC BY-SA 2.0); reader's image not used (no EXIF, island small in frame)",
    "seen": "2026-11-15"
   },
   {
@@ -2176,8 +2176,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "2026-11-15: Mariam Dearit baobab shrine near Keren, Eritrea: reader's tree, so Africa's focus rule does not block it; needs sources and a pin.",
+   "status": "published",
+   "why": "published 2026-11-15 as krn_001 in Keren: the reader's own photograph; pin from OSM tree node 3255370312 (confirmed)",
    "seen": "2026-11-15"
   }
  ]

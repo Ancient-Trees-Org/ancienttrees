@@ -2,8 +2,8 @@
   "city": "Zaanstad",
   "country": "Netherlands",
   "status": "needs_curation",
-  "intro": "Zaanstad is seven Zaan villages fused into one municipality, powered for three centuries by more windmills than anywhere in Europe, grinding paint, oil and timber long before factories existed elsewhere. Its three verified trees are scattered across that history rather than gathered in one park: a disputed-age copper beech in a Zaandam cemetery, a plane that has outlived the industrial waterfront beside it, and an ailing horse chestnut in Westzaan. All three rest on a single register, honestly flagged as single-sourced.",
-  "meta_description": "Zaanstad's oldest tree is a disputed-age copper beech in a Zaandam cemetery. Three verified trees across the Zaan villages, honestly flagged.",
+  "intro": "Zaanstad is seven Zaan villages fused into one municipality, powered for three centuries by more windmills than anywhere in Europe, grinding paint, oil and timber long before factories existed elsewhere. Its four trees are scattered across that history rather than gathered in one park: a disputed-age copper beech in a Zaandam cemetery, a plane that has outlived the industrial waterfront beside it, an ailing horse chestnut in Westzaan, and a wingnut planted in 1960 that came third in the Dutch Tree of the Year vote in 2023. Each rests on a single source, honestly flagged.",
+  "meta_description": "Zaanstad's oldest tree is a disputed-age copper beech in a Zaandam cemetery. Four trees across the Zaan villages, honestly flagged.",
   "question_answer": "Zaanstad's oldest verified tree is a copper beech in the burial ground off the Zuiddijk in Zaandam, roughly 140 years old by the national register's planting band, though the register's own note disputes that figure and may make the tree younger. It stands in the middle of the cemetery grounds, one of what was once a larger set of copper beeches planted along the avenues there.",
   "question_meta": "A disputed-age copper beech in a Zaandam cemetery, roughly 140 years old, is Zaanstad's oldest tree. Where to find it and two more.",
   "question_context": "The age comes from the national monumental-trees register, and its own file cannot agree with itself: the register's planting band puts the beech in the 1880s, while a separate note says the cemetery itself only dates from the early twentieth century and implies the tree is younger. Neither figure has been reconciled, so the honest age is a range rather than a single date, and it may run either way. The register also records that the beech was planted as one of a set: several more copper beeches once lined the burial ground's avenues, and five of them still stand further east under their own register entries, so this tree has close relatives within walking distance. Copper beech is a colour mutation of the ordinary green beech, its purple pigment masking the chlorophyll beneath, and it grows a shade slower than a green tree as a result, which is why almost every mature specimen exists because somebody deliberately grafted and planted one. The cemetery sits off the Zuiddijk in Zaandam and stays open to the public in daylight.",
@@ -14,7 +14,7 @@
     },
     {
       "q": "Are Zaanstad's ancient trees free to visit?",
-      "a": "Yes. All three stand on public land: a cemetery, a public square and a village green, none of them ticketed or gated."
+      "a": "Yes. All four stand on public land: a cemetery, two public squares and a village green, none of them ticketed or gated."
     },
     {
       "q": "Is the horse chestnut in Westzaan's Kerkbuurt safe to visit?",
@@ -146,6 +146,42 @@
       },
       "girth_cm": 337,
       "height_m": 18
+    },
+    {
+      "id": "zaa_006",
+      "name": "The Wingnut of the Talmaplein",
+      "species": "Caucasian Wingnut (Pterocarya fraxinifolia)",
+      "age_estimate": "about 65 years, planted in 1960",
+      "age_min": 65,
+      "age_max": 66,
+      "age_basis": "source",
+      "location": {
+        "address": "A.S. Talmaplein, Rosmolenbuurt, Zaandam",
+        "latitude": 52.44143,
+        "longitude": 4.83017,
+        "neighbourhood": "Rosmolenbuurt"
+      },
+      "story": "In the autumn of 2023 this wingnut came third in the vote for the Dutch Tree of the Year, with 688 votes, behind the Marialinde of Oisterwijk and a copper beech in IJsselstein. For a tree squeezed between houses and roads on a small square in Zaandam, that is a lot of people who care about it.\n\nIt is not old. De Orkaan, the Zaandam local paper, gives its planting year as 1960, so it is about 65. The reader who sent it to us said as much. What it has is size. The paper calls it an enormous tree that has stayed big and healthy, and quotes the alderman saying it shapes the look of the streets around it and brings air and green into a crowded neighbourhood. In 2015 the paper had already called it a jewel of a tree.\n\nA Caucasian wingnut grows fast and wide, often on several stems, with long ash-like leaves. In summer it hangs out green catkins up to half a metre long, strung with small winged nuts, which is where the name comes from.\n\nIt stands on the A.S. Talmaplein in the Rosmolenbuurt. The pin marks the square rather than the trunk, but on a square this size you cannot miss it.",
+      "how_to_recognise": "The one enormous, broad-crowned tree hemmed in by houses and roads on the small A.S. Talmaplein, with long ash-like leaves and, in summer, long hanging strings of winged nuts.",
+      "verified_sources": [
+        "https://www.deorkaan.nl/vleugelnoot-treurt-slechts-bomen-brons/",
+        "https://www.deorkaan.nl/pterocarya-fraxinifolia-boom/",
+        "https://www.openstreetmap.org/way/1532677920",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader (submission 721, text only): the Zaandam wingnut, third in the Dutch Tree of the Year 2023, source deorkaan.nl tag vleugelnootboom; the reader says it is not ancient. De Orkaan 17 October 2023: Pterocarya fraxinifolia on the A.S. Talmaplein, Zaandam, won bronze in the vote for the Nederlandse Boom van het Jaar with 688 votes; winner Marialinde Oisterwijk 7,076, second a copper beech in IJsselstein 4,906; planted 1960; 'enorme boom', 'helemaal ingeklemd tussen huizen en wegen'; alderman Breunesse quoted on its role in the neighbourhood. De Orkaan 5 September 2023 recalls a 2015 piece calling it 'een juweel van een boom'. One publication (local press) plus the reader: flagged single source. Not in the national register (LRMB) we hold. Pin: centroid of the A.S. Talmaplein (OSM way 1532677920, Nominatim); trunk not mapped (Overpass unreachable): approximate. No measurements published. Reason for a page: a sourced, beloved Tree of the Year finalist, not age.",
+      "access": "Free, on a public square.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate"
     }
   ]
 }
