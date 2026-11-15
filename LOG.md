@@ -2,6 +2,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 08:44 window: readers' photographs and two new reader-found trees
+
+- Rung 1: eight photographs looked at and applied. Coldwaltham Yew (the St Giles sign) and the Belvoir Oak (hollow veteran trunk) get their first photograph; Fulham Palace holm oak, Barney the Plane, the Argyle Street Ash, El Drago Milenario and the Ravenscourt baobab plane gain a strip picture; a duplicate Argyle Street upload came out. The Belvoir pin went confirmed on a "reader fix" that was the tree's own published coordinate, so I put it back to approximate. Two reader trees from Australia are live: mvv_001 the Canary Pine of Leighton Gardens (Moss Vale, planting date 1905 is the reader's account) and ads_001 the River Red Gum of Rostrevor (Adelaide, 200 years is their estimate), each a new one-tree file. Held: the Burnside red gum (the photograph is an archival State Library print, not theirs; plaque text kept as a lead) and a veteran lime tip with no coordinate. Five tree notes read, none hidden.
+- Rung 2: web error `window.ethereum` and an injected base64-SVG image rejection are browser extensions (nothing in site/src touches either); web-errors-js.ts now ignores both. iOS: `NameTests.testNoAnswerFromTheServerAsksNobody` aborted again on 11-14, twice (also 10-26); the code under test is a three-line early return, so it is the host app crashing in the simulator, and I cannot read the xcresult from this runner. Needs a Mac session to open the crash report.
+
 ## 2026-11-15 retry window: shelf is dry, walls up
 
 - Leipzig's 5 READY leads were all declined earlier (cadastre-only, no life check, one on a private allotment); leads.py still lists them READY because block-reasons.json lacks their phrasings (widening needs Hidde). Potsdam: 0 new trees, 6 more leads held. Rothenburg claimed and released unworked. Bamberg gave 2 app-only trees. Staged focus cities Portland, Munich, Porto, Salzburg are full. Next: Zurich register scout.
