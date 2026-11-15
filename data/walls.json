@@ -222,11 +222,6 @@
       "released_at": "2026-11-13T07:12:13+00:00"
     },
     {
-      "slug": "fort-worth",
-      "kind": "verify",
-      "released_at": "2026-11-13T07:13:40+00:00"
-    },
-    {
       "slug": "coimbra",
       "kind": "verify",
       "released_at": "2026-11-13T07:13:41+00:00"
@@ -275,6 +270,11 @@
       "slug": "rothenburg-ob-der-tauber",
       "kind": "verify",
       "released_at": "2026-11-15T07:16:27+00:00"
+    },
+    {
+      "slug": "fort-worth",
+      "kind": "verify",
+      "released_at": "2026-11-15T07:17:51+00:00"
     }
   ]
 }
