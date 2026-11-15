@@ -2,6 +2,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 session: the rest of the Guardian inbox, and the mails
+
+- Ten more reader trees live: dnk_010 the King of the Forest (Muirward Wood, Scone; largest Scots pine girth on record per the Forestry Commission, 2002), gsh_001 the Geashill sequoia, wtn_001 a big sycamore at the Crum Creek bridge (Willistown, PA), isp_001 the 800-year plane of Cinar Street (Isparta, the municipality's plaque), krn_001 Mariam Dearit, the baobab chapel of Keren, okb_001 Old Knobbley (Mistley), wyo_001 Wyndham's Oak (Silton), pin_001 Pine Island (Connemara, pinned at the viewing spot), vzy_001 the Fau de Saint-Basle (Faux de Verzy) and zaa_006 the Zaandam wingnut. The three reader photos with a hand-placed pin ship as approximate, not held: the 10-21 rule. Old Knobbley, Wyndham's Oak, Pine Island and Verzy carry Commons photographs (the readers' were screenshots, small in frame, or absent).
+- Held: the Emmanuel College plane (Fellows' Garden private by the college's own pages). Not new: the Tule tree (tul_001). Still held from earlier: Majesty Oak, Hanoi banyan, Holborn, Burnside red gum, Worthing sequoia, Waitangi pine.
+- Mail: ambassador answers sent to Edinburgh, London and Media (badges on). Eight "your tree is on Ancient Trees" mails sent; the afternoon wave's and these ten go when their pages reach the live feed. One reader (Scone spruce and Lytham chestnut) got two congratulations minutes apart: tree_approved does not bundle two trees of one person.
+- Fixed: ambassador.py linked Media's list to a 404 (a place of app-only trees has no page); it now links the explore map at the place. tree_approved.py greets a generated profile name ("Rooted Ash 4451") as "Hi there", lowers a name typed in capitals, and asks one missing fact as a plain question.
+- Seven reply drafts for tips no script mails (drafts/reply-reader-*-2026-11-15.md: Master Oak and Monfalletto/Telavi live; Majesty Oak, Hanoi, Holborn, Burnside, Worthing held), waiting for Hidde's yes.
+
 ## 2026-11-15 session: Yahoo blocks the welcome mail
 
 - Broken: Supabase sends its auth mails through Hidde's Gmail as info@ancienttrees.app (SMTP set 2026-09, drafts/auth-mails.md). Gmail signs for gmail.com, so Yahoo refuses them ("550 5.7.9 ... requires this sender to authenticate with DKIM"). On the Guardian day 6 email sign-ups on Yahoo addresses (8 bounces) never got their welcome mail and stayed unconfirmed; Gmail, Outlook and the rest arrive.
