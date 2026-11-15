@@ -1862,6 +1862,204 @@
       },
       "curation_status": "flagged",
       "location_precision": "confirmed"
+    },
+    {
+      "id": "chi_059",
+      "name": "The Third-Ranked Black Maple of Dan Ryan Woods North",
+      "species": "Black Maple (Acer nigrum)",
+      "age_estimate": "not documented",
+      "girth_cm": 180,
+      "height_m": 12.2,
+      "location": {
+        "address": "Dan Ryan Woods North, Forest Preserves of Cook County, Beverly, Chicago, Illinois",
+        "latitude": 41.743421,
+        "longitude": -87.680371,
+        "neighbourhood": "Beverly"
+      },
+      "story": "This black maple is wider than it is tall. The Forest Preserves of Cook County measured its crown at 55 feet in both directions, about 16.8 metres, on a tree that stands 12.2 metres high.\n\nIt ranks third among the black maples on the county's land, and it grows inside Chicago's city limits, in Dan Ryan Woods North by Beverly. You can reach a county champion here without leaving the city.\n\nThe surveyors came on 19 July 2024. They recorded a trunk 180 centimetres round at chest height, about 57 centimetres across, and a crown that came out the same width both ways, 55 by 55 feet, a neat circle on paper. The county ranks its trees on a score that combines girth, height and crown, and this maple scored 124.6.\n\nThat July visit is also the latest evidence we have that it stands. We found no more recent sighting near the pin, so if you go, a photograph would help the next visitor.\n\nThe pin is the register's own GPS fix at the trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest, so check those before you set out.\n\nThe register gives no age, and nobody has dated this maple. If you know how old it is, tell us.",
+      "how_to_recognise": "You can recognise it by the crown, about 16.8 metres across on a maple only 12.2 metres tall, over a trunk 180 centimetres round. It stands at the register's GPS point in Dan Ryan Woods North, by Beverly.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D244&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "ai_generated",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "chi_060",
+      "name": "The Third-Ranked Black Cherry of Callahan Grove",
+      "species": "Black Cherry (Prunus serotina)",
+      "age_estimate": "not documented",
+      "girth_cm": 263,
+      "height_m": 21.9,
+      "location": {
+        "address": "Callahan Grove, Forest Preserves of Cook County, Cook County, Illinois",
+        "latitude": 41.848759,
+        "longitude": -87.824415,
+        "neighbourhood": "Callahan Grove"
+      },
+      "story": "Its trunk is 2.63 metres round, and that still only makes it the third-biggest black cherry on Cook County's forest preserve land.\n\nThe Forest Preserves of Cook County list it in their champion tree register at 72 feet, or 21.9 metres, tall, with a trunk about 84 centimetres across at chest height and a crown spreading 40 feet one way and 35 the other. Its score of 185.0 puts it behind the county's champion, the black cherry of Camp Ground Road Woods, which measures 132 inches round, about 3.35 metres, and stands 96 feet tall.\n\nThere is a gap in this record. The register gives no date for when the tree was measured. The entry was last edited in December 2025, the newest date on it, and we found no recent sighting at the pin to show the cherry still stands. If you visit, tell us what you find, whether it is there or not.\n\nCallahan Grove sits close to two more of our trees. The chinkapin oak and the cottonwood of National Grove stand about 900 metres away, which makes the three a reasonable outing for one afternoon.\n\nThe pin is the register's own GPS fix at the trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest.\n\nThe register gives no age, and nobody has dated this cherry. If you know how old it is, tell us.",
+      "how_to_recognise": "You can recognise it by the trunk, 2.63 metres round on a black cherry 21.9 metres tall. It stands at the register's GPS point in Callahan Grove, about 900 metres from the National Grove chinkapin oak.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D172&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "chi_061",
+      "name": "The Third-Ranked Kentucky Coffeetree of Belleau Lake",
+      "species": "Kentucky Coffeetree (Gymnocladus dioica)",
+      "age_estimate": "not documented",
+      "girth_cm": 167,
+      "height_m": 19.5,
+      "location": {
+        "address": "Belleau Lake, Forest Preserves of Cook County, Cook County, Illinois",
+        "latitude": 42.030479,
+        "longitude": -87.86696,
+        "neighbourhood": "Belleau Lake"
+      },
+      "story": "Half a kilometre from Cook County's champion black cherry stands a Kentucky coffeetree the county ranks third of its kind.\n\nThe Forest Preserves of Cook County measured it at Belleau Lake on 16 May 2024. Their champion tree register gives it 64 feet of height, 19.5 metres, a trunk 167 centimetres round at chest height, about 53 centimetres across, and a crown of 55 feet by 56, roughly 17 metres either way. That crown is nearly as broad as the tree is tall. The county ranks its trees on a score that combines girth, height and crown, and this one scored 143.8.\n\nThe two coffeetrees ranked above it both grow far to the north-west, at Ned Brown Meadow and Jens Jensen Grassland. The one at Ned Brown Meadow has a trunk 72.2 inches round, about 183 centimetres, only 16 centimetres more than this one. Neither is on our map.\n\nWhat Belleau Lake offers is company. The champion black cherry of Camp Ground Road Woods, 132 inches round and 96 feet tall, is about 500 metres away, so two ranked trees fit into one short visit.\n\nThe 2024 measurement is the latest evidence we have that the coffeetree stands. The pin is the register's GPS fix at the trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest.\n\nThe register gives no age, and nobody has dated this tree. If you know how old it is, tell us.",
+      "how_to_recognise": "You can recognise it by the crown, about 17 metres across on a Kentucky coffeetree 19.5 metres tall, over a trunk 167 centimetres round. It stands at the register's GPS point at Belleau Lake.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D130&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "ai_generated",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "chi_062",
+      "name": "The Second-Ranked Slippery Elm of Hidden Pond Woods",
+      "species": "Slippery Elm (Ulmus rubra)",
+      "age_estimate": "not documented",
+      "girth_cm": 137,
+      "height_m": 9.8,
+      "location": {
+        "address": "Hidden Pond Woods, Forest Preserves of Cook County, Cook County, Illinois",
+        "latitude": 41.720819,
+        "longitude": -87.848768,
+        "neighbourhood": "Hidden Pond Woods"
+      },
+      "story": "The second-biggest slippery elm on Cook County's forest preserve land is less than ten metres tall.\n\nThe Forest Preserves of Cook County measured it in Hidden Pond Woods on 11 July 2024 and recorded 32 feet of height, 9.8 metres. Its crown is another matter. It spreads 50 feet one way, about 15 metres, and 34 feet the other, so the tree is half again as wide as it is tall. The trunk is 137 centimetres round at chest height, about 43 centimetres across.\n\nNobody should come here expecting a giant. This is a broad, low elm that earns its rank on a score combining girth, height and crown, 96.5 in its case. The only slippery elm the county ranks above it grows at Green Lake Woods, far to the south.\n\nWhat makes the trip worth it is the neighbour. The swamp white oak of Spears Woods, another of our trees, stands about half a kilometre away, close enough to see both on one outing.\n\nThe July 2024 measurement is the latest evidence we have that the elm stands. The pin is the register's own GPS fix at the trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest.\n\nThe register gives no age, and nobody has dated this elm. If you know how old it is, tell us.",
+      "how_to_recognise": "You can recognise it by its shape, a short elm 9.8 metres tall under a crown about 15 metres wide, on a trunk 137 centimetres round. It stands at the register's GPS point in Hidden Pond Woods.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D221&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "ai_generated",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "chi_063",
+      "name": "The Champion Downy Hawthorn of Bunker Hill Woods",
+      "species": "Downy Hawthorn (Crataegus mollis)",
+      "age_estimate": "not documented",
+      "girth_cm": 161,
+      "height_m": 6.1,
+      "location": {
+        "address": "Bunker Hill Woods, Forest Preserves of Cook County, Niles, Illinois",
+        "latitude": 42.002388,
+        "longitude": -87.78337,
+        "neighbourhood": "Bunker Hill Woods"
+      },
+      "story": "Cook County's champion downy hawthorn is barely six metres tall, and the one remark its surveyors added to the record was \"Lumpy bark\".\n\nThe Forest Preserves of Cook County measured it in Bunker Hill Woods on 22 August 2024 and ranked it first among the downy hawthorns on their land. The numbers are small beside the oaks and maples on the same register, 20 feet of height and a crown 25 feet by 29, about 7.6 by 8.8 metres. The trunk is the surprise. It measures 161 centimetres round at chest height, about 51 centimetres across, which is a great deal of wood for a hawthorn. The register says nothing about how many stems it has, so we do not either.\n\nSomeone recorded a sighting close to the pin in September 2026. We cannot say it was this trunk, but it is the most recent sign of life near it.\n\nBunker Hill Woods holds more of our ranked trees. The champion blue ash and its runner-up stand about 600 metres away, and the third-ranked sugar maple, the second-ranked bitternut hickory and the champion red maple about 700 metres away.\n\nThe pin is the register's own GPS fix at the trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest.\n\nThe register gives no age, and nobody has dated this hawthorn. If you know how old it is, tell us.",
+      "how_to_recognise": "You can recognise it by the lumpy bark the county's surveyors noted, on a trunk 161 centimetres round under a crown only 6.1 metres high. It stands at the register's GPS point in Bunker Hill Woods.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D314&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "ai_generated",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "chi_064",
+      "name": "The Champion Blue Ash of Bunker Hill Woods",
+      "species": "Blue Ash (Fraxinus quadrangulata)",
+      "age_estimate": "not documented",
+      "girth_cm": 136,
+      "height_m": 17.1,
+      "location": {
+        "address": "Bunker Hill Woods, Forest Preserves of Cook County, Niles, Illinois",
+        "latitude": 41.998579,
+        "longitude": -87.779159,
+        "neighbourhood": "Bunker Hill Woods"
+      },
+      "story": "Cook County's two biggest blue ashes stand about 25 metres apart, and the county measured both on the same spring day.\n\nThe Forest Preserves of Cook County surveyed them in Bunker Hill Woods on 8 April 2026. The champion came out at 56 feet, 17.1 metres, tall, with a trunk 136 centimetres round at chest height, about 43 centimetres across, and a crown of roughly 7.8 by 8.1 metres. Its runner-up, about 25 metres to the west, reached the same height on a trunk of 128 centimetres. Eight centimetres of girth is the whole difference between first and second place. The county ranks its trees on a score that combines girth, height and crown, and the champion scored 123.9.\n\nThat April measurement means both were standing in spring 2026, and someone recorded a sighting close to the pin in late October 2026, though we cannot say it was one of these two trunks. The register keeps sizes, not health, so we can tell you nothing about their condition.\n\nOne stop shows you both. The county's champion downy hawthorn stands about 600 metres away in the same preserve, with three more of our ranked trees a little beyond it.\n\nThe pin is the register's own GPS fix at the champion's trunk. Entry to the preserve is free. We have not confirmed the hours or which trail passes closest.\n\nThe register gives no age for either tree, and nobody has dated them. If you know, tell us.",
+      "how_to_recognise": "You can recognise it as the eastern of two blue ashes of the same 17.1 metre height about 25 metres apart, the one with the thicker trunk, 136 centimetres round. It stands in Bunker Hill Woods.",
+      "verified_sources": [
+        "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D349&outFields=*&f=json",
+        "https://fpdcc.com/nature/champion-tree-register/"
+      ],
+      "official_register": {
+        "name": "Forest Preserves of Cook County Champion Tree Register",
+        "url": "https://fpdcc.com/nature/champion-tree-register/"
+      },
+      "access": "Forest preserve, free; the register lists Public_Access = Yes. Trail approach and hours not checked (fpdcc.com is behind a bot challenge).",
+      "location_precision": "confirmed",
+      "curation_status": "ai_generated",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

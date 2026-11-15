@@ -552,7 +552,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_061 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Red maple",
@@ -630,7 +630,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "beyond the day-trip boundary 2026-11-15 (Sand Ridge Nature Center, South Holland / Calumet area, far south Cook County)"
   },
   {
    "name": "Sycamore",
@@ -706,7 +706,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_060 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Sassafras",
@@ -751,7 +751,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "beyond the day-trip boundary 2026-11-15 (Green Lake Woods, far south Cook County, #1 slippery elm, 226 cm)"
   },
   {
    "name": "Slippery elm",
@@ -766,7 +766,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_062 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Chinkapin oak",
@@ -856,7 +856,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_059 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Northern pin/Hill's oak",
@@ -886,7 +886,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "beyond the day-trip boundary 2026-11-15 (Sand Ridge Nature Center, South Holland / Calumet area, far south Cook County)"
   },
   {
    "name": "Boxelder",
@@ -901,7 +901,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "not picked 2026-11-15: #3 boxelder at Camp Sullivan (Oak Forest), far south, no walkable cluster; register facts kept"
   },
   {
    "name": "Black maple",
@@ -916,7 +916,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "beyond the day-trip boundary 2026-11-15 (Sand Ridge Nature Center, South Holland / Calumet area, far south Cook County)"
   },
   {
    "name": "Sugar maple",
@@ -1066,7 +1066,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_063 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Redbud",
@@ -1142,7 +1142,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_064 (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Blue ash",
@@ -1157,7 +1157,7 @@
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0"
    ],
    "source": "Forest Preserves of Cook County champion tree register (government). No licence stated: use the facts for layer 1, never republish the dataset. Circumference assumed inches; check against the DBH field.",
-   "status": "open"
+   "status": "delivered chi_064 (folded twin) (data/research/chicago-verified.json, 2026-11-15)"
   },
   {
    "name": "Eastern wahoo",
@@ -1246,6 +1246,19 @@
    "reason": "Register objectid 172, circumference 103.62 in (263 cm), height 72 ft (21.9 m); no measurement date. Third-ranked, modest height; held back this pass.",
    "sources": [
     "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D172&outFields=*&f=json"
+   ]
+  },
+  {
+   "name": "Boxelder",
+   "species": "Boxelder (Acer negundo)",
+   "lat": 41.988624,
+   "lng": -87.76847,
+   "register_location": "Edgebrook Golf Course",
+   "girth_cm": 275,
+   "height_m": 16.8,
+   "status": "delivered chi_058 (data/research/chicago-verified.json, 2026-11-15), flagged: golf course interior",
+   "sources": [
+    "https://services2.arcgis.com/I5Or36sMcO7Y9vQ3/arcgis/rest/services/Forest_Preserve_Champion_Tree_Public_view/FeatureServer/0/query?where=OBJECTID%3D333&outFields=*&f=json"
    ]
   }
  ],
@@ -1344,5 +1357,6 @@
  },
  "pass_2026_10_02_verify": "Chicago deepen pass, 0 verified. Graceland Tree Tour PDF is a map image, unreadable by curl/WebFetch, no named specimen text reachable; search only says labeled arboretum with a large bald cypress near the lake (lead, no source). UChicago: Maroon piece names only a ~100-year bur oak by Bartlett Gym (too young, not a collectible); facilities oaks article 302s to intranet; Lab School oak unchanged. Lincoln Park / Garfield Park cycads: only travel-blog and Wikipedia generic ('some cycads over 200 years old'), indoor plants, no individual dated specimen, not trees. IBTR 2025-26 additions near Chicago (Wheeling HS elm, Midway Woods witch hazel, St James at Sag Bridge slippery elm, South Suburban College serviceberry) are suburban, outside day-trip boundary. No Chicago Tree Initiative or Park District heritage-tree list found.",
  "pass_2026_10_03_pin_photo": "Pin-and-photo pass: nothing placeable. Old Treaty Elm (Sauganash) fell 1934; Lincoln Park Zoo bur oak felled 2023-05-02 (both dead, do not publish). Forest Preserves of Cook County Champion Tree Register and map 403 to fetchers and no public FeatureServer found at gis12/gis.cookcountyil.gov (empty responses); Morton PP_Trees_Cook_County layer has no species or coordinates of named trees. Existing leads (UChicago quad stand, Graceland, Lab School oak) have no single trunk or no recoverable text.",
- "pass_2026_11_04_verify": "Verify pass 2026-11-04: delivered chi_040..chi_044 to data/research/chicago-2026-11-verified.json (4 Forest Preserves champions: McClaughrey sycamore, Swallow Cliff black cherry and white pine, Schiller pin oak; plus Northwestern's bur oak by 1835 Hinman in Evanston). Morton Arboretum Millennium Landmark Tree, Rate Field cottonwood, Chicago Botanic Garden oak, Rosehill, Washington/Garfield/Humboldt/Lincoln Park individual trees: no placeable tree or no source, see leads. Evanston gave one shippable tree, so no Evanston place."
+ "pass_2026_11_04_verify": "Verify pass 2026-11-04: delivered chi_040..chi_044 to data/research/chicago-2026-11-verified.json (4 Forest Preserves champions: McClaughrey sycamore, Swallow Cliff black cherry and white pine, Schiller pin oak; plus Northwestern's bur oak by 1835 Hinman in Evanston). Morton Arboretum Millennium Landmark Tree, Rate Field cottonwood, Chicago Botanic Garden oak, Rosehill, Washington/Garfield/Humboldt/Lincoln Park individual trees: no placeable tree or no source, see leads. Evanston gave one shippable tree, so no Evanston place.",
+ "pass_2026_11_15_verify": "Verify pass 2026-11-15: delivered chi_058 to chi_064 (7 champion-register rows: Edgebrook boxelder, Dan Ryan Woods black maple, Callahan Grove black cherry, Belleau Lake coffeetree, Hidden Pond slippery elm, Bunker Hill hawthorn and blue ash pair). Remaining open rows are small or Sand Ridge / Green Lake / Camp Sullivan (far south)."
 }

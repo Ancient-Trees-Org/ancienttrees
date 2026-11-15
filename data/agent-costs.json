@@ -1,6 +1,24 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-15": [
+      {
+        "date": "2026-11-15",
+        "kind": "verify",
+        "target": "chicago",
+        "tokens": 110000,
+        "trees": 6,
+        "note": "7 Cook County champion rows delivered (chi_058-064); chi_058 folded as duplicate of chi_004, 6 new; estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "write",
+        "target": "chicago",
+        "tokens": 45000,
+        "trees": 6,
+        "note": "chi_059-064 stories merged; coffeetree Latin set to dioica; estimate"
+      }
+    ],
     "2026-11-14": [
       {
         "date": "2026-11-14",
