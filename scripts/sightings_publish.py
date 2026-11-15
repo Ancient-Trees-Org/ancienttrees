@@ -16,7 +16,10 @@ photograph's GPS fix when our pin says approximate; see move_pin().
 
 Input: a JSON array of {sighting_id, verdict, reason, species_seen,
 species_match, description_seen, description_match}, verdict one of
-approve, hold, reject.
+approve, add, strip, hold, reject. STRIP (2026-11-15) puts a photograph that
+belongs on the page but must not lead it (the tree's sign, a close-up of bark
+or leaves) behind the lead in the gallery: never reject a reader's photo of
+the tree's own sign.
 
 WHO CHECKS: the viewing pass, never the reader (Hidde, 2026-09-11: "i dont
 want the user to input the species though they can if they want... i want
@@ -825,7 +828,12 @@ def main():
     processed = load(PROCESSED, {"done": {}})
     done = processed.setdefault("done", {})
     today = datetime.date.today().isoformat()
-    counts = {"approve": 0, "add": 0, "hold": 0, "reject": 0}
+    # STRIP (Hidde, 2026-11-15: "een foto van het bordje is toch een prima
+    # tweede foto voor in de gallerij"): a photograph that belongs on the page
+    # but must not lead it (the tree's sign, a close-up of bark or leaves)
+    # goes behind the lead in the gallery and leaves the lead alone. `add`
+    # would make it the lead (READER FIRST); a reject threw it away.
+    counts = {"approve": 0, "add": 0, "strip": 0, "hold": 0, "reject": 0}
     published = []
     for r in rows:
         sid, verdict, reason = r.get("sighting_id"), r.get("verdict"), (r.get("reason") or "")
@@ -836,7 +844,7 @@ def main():
         if not entry:
             print(f"  {sid}: not in the queue, skipped (run sightings_inbox.py first)")
             continue
-        if verdict not in ("approve", "add"):
+        if verdict not in ("approve", "add", "strip"):
             done[sid] = {"outcome": "held" if verdict == "hold" else "rejected",
                          "date": today, "tree_id": entry["tree_id"], "reason": reason[:300]}
             counts[verdict] += 1
@@ -874,7 +882,7 @@ def main():
         # own 30-day bundling would catch most of these; this catches all.
         entry["_was_in_strip"] = bool(in_strip(entry))
         # An extra needs a name of its own or it would overwrite the lead's file.
-        extra = verdict == "add"
+        extra = verdict in ("add", "strip")
         if extra and in_strip(entry):
             # Already where `add` would put it (live first at the knock): the
             # verdict only closes the entry.
@@ -893,7 +901,7 @@ def main():
             print(f"  {sid}: could not write the image ({e.__class__.__name__}: {str(e)[:80]})")
             continue
         block = photo_block(entry, w, h, reason, today, fname=fname)
-        old_url = apply_to_city(entry, block, as_extra=extra)
+        old_url = apply_to_city(entry, block, as_extra=verdict == "add", as_strip=verdict == "strip")
         dropped = drop_vendored(old_url) if old_url and old_url != block["url"] else 0
         done[sid] = {"outcome": "added" if extra else "published", "date": today,
                      "tree_id": entry["tree_id"], "city_slug": entry["city_slug"], "file": fname, "reason": reason[:300],
@@ -903,7 +911,7 @@ def main():
         done[sid]["pin_checked"] = today
         if pin:
             print(f"  {pin}")
-        counts["add" if extra else "approve"] += 1
+        counts[verdict] += 1
         mark_status(sid, verdict, really)
         published.append(entry)
         print(f"  {'ADDED' if extra else 'PUBLISHED'} {entry['tree_id']} {entry['tree_name'][:40]}: {fname} {w}x{h}"
@@ -921,7 +929,8 @@ def main():
     save(PROCESSED, processed)
     print(f"sightings publish: {counts['approve']} published, {counts['add']} added "
           f"beside an existing photograph, {counts['hold']} held, "
-          f"{counts['reject']} rejected, {len(qdoc['queue'])} still waiting")
+          f"{counts['reject']} rejected, {counts['strip']} into the gallery behind the lead, "
+          f"{len(qdoc['queue'])} still waiting")
     if published:
         print("Now: python3 scripts/preflight.py, then commit data/cities, site/public/photos, "
               "data/photo-manifest.json, data/sighting-queue.json and data/sightings-processed.json together.")

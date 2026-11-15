@@ -54,6 +54,14 @@ it is roughly this tree (species and setting fit), the verdict is `add`, so it
 stays in the strip, even when the frame is wider or weaker than the lead. Hold
 only for doubt about which tree; a worse picture than the lead is not doubt.
 
+**A reader's photo of the tree's own sign or plaque is a gallery photo, never a
+reject (Hidde, 2026-11-15: "een foto van het bordje is toch een prima tweede
+foto voor in de gallerij").** The verdict is `strip`: it goes behind the lead
+and never becomes it. Same for a close-up of bark, leaves or flowers of this
+tree. In `species_seen` write what the sign names; `description_seen` says it
+is this tree's sign. Reject only a sign of a different tree or one nobody can
+read.
+
 For each approval, write the photo url, exact licence and attribution into the
 tree's `photo` block in its city file (status `approved`). A candidate that
 might show the wrong tree is `held`, never approved. A tree whose candidates

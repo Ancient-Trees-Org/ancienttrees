@@ -1811,6 +1811,30 @@
    "reason": "add: The Atlas sculpture holding the limb settles it is the Gomero; daylight, the tree's limbs and crown fill the top."
   },
   {
+   "id": "sight:47a3d6a9-6da2-47dd-aea3-de69e5c34613",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Tāne Mahuta",
+   "city": "Waipoua Forest",
+   "photo": "out/sightings/47a3d6a9-6da2-47dd-aea3-de69e5c34613.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "strip: The Department of Conservation sign at Tane Mahuta: name, the story of Tane, height 51.5 m, girth 13.8 m; daylight, sharp and readable. A gallery photo, not the lead."
+  },
+  {
+   "id": "sight:90cb7c6f-5086-4111-aaa1-3ffaf5816746",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Ashbrittle Yew",
+   "city": "Ashbrittle",
+   "photo": "out/sightings/90cb7c6f-5086-4111-aaa1-3ffaf5816746.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "strip: The Ashbrittle Yew's cast plaque (Taxus baccata, reputed to be over 3000 years old), photographed at dusk but readable. A gallery photo, not the lead."
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",

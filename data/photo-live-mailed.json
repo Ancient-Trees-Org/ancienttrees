@@ -646,6 +646,24 @@
      "city_slug": "fortingall",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "47a3d6a9-6da2-47dd-aea3-de69e5c34613",
+     "tree_id": "wai_001",
+     "tree_name": "Tāne Mahuta",
+     "city": "Waipoua Forest",
+     "city_slug": "waipoua-forest",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "90cb7c6f-5086-4111-aaa1-3ffaf5816746",
+     "tree_id": "asb_001",
+     "tree_name": "Ashbrittle Yew",
+     "city": "Ashbrittle",
+     "city_slug": "ashbrittle",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []
