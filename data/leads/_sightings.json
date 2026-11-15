@@ -1399,8 +1399,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as ads_001 in Adelaide: whole tree in daylight, reader's GPS fix at the tree, reader's own account stated as theirs",
    "seen": "2026-11-15"
   },
   {
@@ -1425,8 +1425,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as mvv_001 in Moss Vale: whole tree in daylight, reader's GPS fix at the tree, reader's own account stated as theirs",
    "seen": "2026-11-15"
   },
   {
@@ -1452,7 +1452,7 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "why": "held 2026-11-15: the photograph is an archival State Library print, not the reader's own; the plaque text (300 years, 29 m, 10.4 m girth, Glynburn Road, Kensington Gardens) is a lead to verify against the Burnside heritage listing. Waits for their own photograph.",
    "seen": "2026-11-15"
   },
   {
@@ -1460,7 +1460,7 @@
    "user_id": "p_661451df9068526bb1585984",
    "mine": false,
    "name": "Veteran Lime (Linden) Tree",
-   "species": null,
+   "species": "Lime (Tilia sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -1474,8 +1474,9 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "why": "held 2026-11-15: photograph of a handsome veteran lime, but the tip carries no coordinate or place name; waits for where it stands.",
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   }
  ]
 }

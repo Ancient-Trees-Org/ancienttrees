@@ -1,0 +1,78 @@
+{
+  "city": "Moss Vale",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Moss Vale's best-known tree stands in Leighton Gardens, the small green beside the railway station in the Southern Highlands of New South Wales. It is a Canary Island pine, a straight red-brown column of plated bark with a wide, flat-topped crown that rises above the shopfronts across Argyle Street. A reader who sent us its photograph says it was planted as a seedling in December 1905, which would make it about 120 years old. It is free to see, in a public park in the town centre, with an old field gun on the lawn in front.",
+  "meta_description": "The Canary Island pine of Leighton Gardens in Moss Vale: a landmark beside the railway station, planted in 1905 by a reader's account.",
+  "hero_tree_id": "mvv_001",
+  "oldest_tree_id": "mvv_001",
+  "trees": [
+    {
+      "id": "mvv_001",
+      "name": "The Canary Pine of Leighton Gardens",
+      "species": "Canary Pine (Pinus canariensis)",
+      "age_estimate": "about 120 years, planted 1905 by a reader's account",
+      "age_min": 120,
+      "age_max": 121,
+      "age_basis": "source",
+      "location": {
+        "address": "Leighton Gardens, beside Moss Vale railway station, Argyle Street, Moss Vale NSW",
+        "latitude": -34.5487416666667,
+        "longitude": 150.371933333333,
+        "neighbourhood": "Town centre"
+      },
+      "story": "In the small park beside Moss Vale railway station, a Canary Island pine stands over an old field gun on the lawn and the street beyond. A reader who photographed it for us says it was planted as a seedling on 7 December 1905 in Leighton Gardens, the green beside the station, and points to a newspaper report of a civic reception in the town as the record. On that account it is about 120 years old, and they put the trunk at roughly three metres around, by a reader's estimate.\n\nThe photograph shows a straight column of deeply plated, red-brown bark rising without much taper, then a broad crown that spreads out flat-topped above the shopfronts, with long needles held in dense tufts at the branch tips. The species comes from the Canary Islands, where thick bark helps it survive fire. Here it has grown into a landmark of its own, taller than the buildings across the road, beside the little red-roofed shelter in the park.\n\nIt is a young tree beside most on this site, and the reason to stop is its place in the town. If you go, a tape round the trunk would settle the girth.",
+      "how_to_recognise": "A tall Canary Island pine with a straight, deeply plated red-brown trunk, standing in the park beside Moss Vale station, with an old field gun on the lawn in front.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph (sighting 2733129b, GPS fix at the tree) on Hidde's 2026-10-21 ruling that a good reader photograph with a GPS fix goes live. Species, age and any measure are the reader's, stated as theirs. No register entry within 100 m and no encyclopaedia article within 300 m; no girth tape.",
+      "access": "Free, in a public park beside the railway station.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mvv_001-the-canary-island-pine-of-leighton-gardens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c04ed68243689ce22381722a",
+        "sighting_id": "2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: the whole tree in daylight and colour at the reader's GPS fix. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "girth_cm": 300
+    }
+  ],
+  "question_meta": "The Canary Island pine of Leighton Gardens in Moss Vale, about 120 years old by a reader's account. Where it stands and how to see it.",
+  "question_answer": "The best-known tree in Moss Vale's Leighton Gardens is a Canary Island pine (Pinus canariensis) beside the railway station. A reader who photographed it for us says it was planted as a seedling on 7 December 1905, which makes it about 120 years old. It is free to see, in a public park in the town centre.",
+  "question_context": "The age is a reader's account and no council or heritage register has been checked for it. The reader who photographed the tree for us says it was planted as a seedling on 7 December 1905 in Leighton Gardens, the green beside Moss Vale railway station, and points to a newspaper report of a civic reception in the town as the record of the day. On that account the tree is about 120 years old. They put the trunk at roughly three metres around, which is also their estimate; nobody has published a tape measurement. The species, Pinus canariensis, comes from the Canary Islands, where its thick bark and its habit of resprouting help it survive fire, and it was widely planted in Australian towns and gardens as a shade and landmark tree. What the photograph shows is a tall, straight trunk of deeply plated red-brown bark, a broad crown above the buildings, and the old gun and the small shelter in the park beside it. It is a young tree next to most on this site, and its claim is its place in the town.",
+  "faq": [
+    {
+      "q": "How old is the pine in Leighton Gardens?",
+      "a": "About 120 years by a reader's account, planted as a seedling on 7 December 1905 beside Moss Vale railway station."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "A Canary Island pine (Pinus canariensis), with a straight, deeply plated red-brown trunk and long needles in tufts."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. It stands in Leighton Gardens, a public park beside the station, with no ticket."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "In Leighton Gardens beside Moss Vale railway station, near the old field gun on the lawn, facing Argyle Street."
+    }
+  ]
+}

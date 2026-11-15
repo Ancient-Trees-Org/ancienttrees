@@ -79,6 +79,18 @@
       "Castelo de Achnacarry",
       "Achadh na Cairidh"
     ],
+    "adelaide": [
+      "Adelaida",
+      "Adelaidopolis",
+      "Adalet",
+      "Adelaid",
+      "Adelaidi",
+      "Adelajdo",
+      "Atelaite",
+      "Tarntanya",
+      "ma tomo Atele",
+      "Ātaraita"
+    ],
     "aga": [
       "Aga Machi"
     ],
@@ -5088,6 +5100,7 @@
     "aarhus": "Aarhus",
     "aberford": "Aberford",
     "achnacarry": "Achnacarry",
+    "adelaide": "Adelaide",
     "adlestrop": "Adlestrop",
     "aga": "Aga, Niigata",
     "agrigento": "Agrigento",
@@ -5605,6 +5618,7 @@
     "monterey": "Monterey, California",
     "montreal": "Montreal",
     "morioka": "Morioka",
+    "moss-vale": "Moss Vale",
     "motosu": "Motosu, Gifu",
     "mottisfont": "Mottisfont",
     "msecke-zehrovice": "Mšecké Žehrovice",
@@ -6079,6 +6093,7 @@
     "meikleour": "Meikleour",
     "mendaza": "Mendaza",
     "miriam-vale": "Miriam Vale",
+    "moss-vale": "Moss Vale",
     "mottisfont": "Mottisfont",
     "msecke-zehrovice": "Mšecké Žehrovice",
     "nedvedice": "Nedvědice",

@@ -40,8 +40,8 @@
     "score": null,
     "note": "nothing measurable about River Red Gum"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: whole tree in daylight at the reader's GPS fix.",
    "hidde": null,
    "agreed": null
   },
@@ -68,8 +68,8 @@
     "score": null,
     "note": "nothing measurable about Canary Pine"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: whole tree in daylight at the reader's GPS fix.",
    "hidde": null,
    "agreed": null
   },
@@ -96,8 +96,8 @@
     "score": null,
     "note": "nothing measurable about River Red Gum"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "The photograph is an archival State Library print (accession mark in the margin), not the reader's own, so it cannot ship; the heritage-plaque text in their note is useful. Waits for a photograph of the tree itself.",
    "hidde": null,
    "agreed": null
   },
@@ -120,8 +120,8 @@
     "score": null,
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "Handsome veteran lime, but the tip carries no coordinate and no place; waits for where it stands.",
    "hidde": null,
    "agreed": null
   },
@@ -3043,6 +3043,32 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Canary Pine, Moss Vale",
+   "city": null,
+   "photo": "",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Whole tree in daylight at the reader's GPS fix; their planting account stated as theirs; went live as mvv_001 in a new Moss Vale file",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:45ea816d-259f-4437-ac86-d3499f0269a4",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum, Rostrevor",
+   "city": null,
+   "photo": "",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Whole trunk in daylight at the reader's GPS fix; their 200-year estimate stated as theirs; went live as ads_001 in a new Adelaide file",
    "hidde": null,
    "agreed": null
   }

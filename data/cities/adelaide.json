@@ -1,0 +1,77 @@
+{
+  "city": "Adelaide",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "A River Red Gum stands with its roots at the edge of a shallow stream in Rostrevor, in Adelaide's eastern suburbs. A reader who sent us its photograph puts it at about 200 years old, which is their estimate and not a ring count. The trunk is broad and straight, flaring at the foot into knuckled roots that grip the bank, with clear water running over the stones in front. It is free to see from the creek bank, on public ground close to Wandilla Drive.",
+  "meta_description": "A River Red Gum at the water's edge in Rostrevor, Adelaide, about 200 years old by a reader's estimate.",
+  "hero_tree_id": "ads_001",
+  "oldest_tree_id": "ads_001",
+  "trees": [
+    {
+      "id": "ads_001",
+      "name": "The Red Gum of the Rostrevor Creek",
+      "species": "River Red Gum (Eucalyptus camaldulensis)",
+      "age_estimate": "about 200 years by a reader's estimate",
+      "age_min": 200,
+      "age_max": 200,
+      "age_basis": "source",
+      "location": {
+        "address": "Wandilla Drive, Rostrevor, South Australia",
+        "latitude": -34.89688,
+        "longitude": 138.692671666667,
+        "neighbourhood": "Rostrevor"
+      },
+      "story": "A River Red Gum stands with its roots at the edge of a shallow stream at Rostrevor, in the eastern suburbs of Adelaide. A reader who photographed it for us puts it at about 200 years old. That is their estimate, not a ring count.\n\nThe photograph shows why it is worth the walk. The trunk is broad and straight, flaring at the foot into thick, knuckled roots that grip the bank, and the clear water runs over the stones of the stream bed just in front of them. Part way up, a long wound has healed into a rolled lip of bark, leaving the ridged wood bare in the middle. Paler gums lean over the grass behind.\n\nRiver red gum, Eucalyptus camaldulensis, is the tree of Australian watercourses, and it is often found like this, with its feet at the water's edge. The species is known for living a very long time. Whether this one is two centuries old is for a tape and a specialist to say. What the picture settles is that it is a big, old-looking tree in a setting a visitor can walk to and stand in front of.\n\nIf you go, take shoes you do not mind getting wet.",
+      "how_to_recognise": "A broad River Red Gum with knuckled roots at the edge of a shallow, stony stream and a long healed wound up its trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "45ea816d-259f-4437-ac86-d3499f0269a4",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph (sighting 45ea816d, GPS fix at the tree) on Hidde's 2026-10-21 ruling that a good reader photograph with a GPS fix goes live. Species, age and any measure are the reader's, stated as theirs. No register entry within 100 m and no encyclopaedia article within 300 m; no girth tape.",
+      "access": "Free, on public ground at the edge of a stream; the bank is uneven and the water shallow.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ads_001-the-red-gum-of-the-rostrevor-creek.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4c6d780bd118980f5c6e58c6",
+        "sighting_id": "45ea816d-259f-4437-ac86-d3499f0269a4",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: the whole tree in daylight and colour at the reader's GPS fix. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "45ea816d-259f-4437-ac86-d3499f0269a4",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
+    }
+  ],
+  "question_meta": "A River Red Gum in Rostrevor, Adelaide, about 200 years old by a reader's estimate. Where it stands and how to see it.",
+  "question_answer": "A reader-found River Red Gum (Eucalyptus camaldulensis) stands beside a shallow stream in Rostrevor, in Adelaide's eastern suburbs. The reader who photographed it for us puts it at about 200 years old. It is free to see from the creek bank.",
+  "question_context": "The age is a reader's estimate. No register lists the tree and no encyclopaedia article describes it, so nothing has been checked against a record, and nobody has published a tape measurement. The reader who photographed it for us gives the species as River Red Gum, Eucalyptus camaldulensis, the tree of Australian watercourses, which is often found standing with its roots at the water's edge as this one does. The photograph shows a broad, straight trunk flaring into thick roots over a stony stream bed, and a long wound part way up the trunk that has healed into a rolled lip of bark around bare, ridged wood. Paler gums lean over the grass behind it. River red gums are known for reaching great ages, but whether this one is two centuries old is for a tape and a specialist to say. What the picture settles is that it is a big, old-looking tree in a place a visitor can reach and stand in front of. The pin is the reader's own GPS fix at the tree.",
+  "faq": [
+    {
+      "q": "How old is this red gum?",
+      "a": "About 200 years by a reader's estimate. No ring count or register gives an age."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "A River Red Gum (Eucalyptus camaldulensis), the tree of Australian watercourses."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes, it can be seen from the creek bank with no ticket."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "At the edge of a shallow stream at Rostrevor, close to Wandilla Drive, in Adelaide's eastern suburbs."
+    }
+  ]
+}
