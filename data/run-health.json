@@ -2,42 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-09T21:57:42+00:00",
-   "date": "2026-09-09",
-   "run_id": "34409702050",
-   "minutes": 112.8,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 402,
-   "denials": 61,
-   "denials_source": "permission_denials: Bash, Bash(cat), Bash(cd), Bash(curl), Bash(echo), Bash(env), Bash(for), Bash(gh), Bash(git), Bash(if), Bash(ls), Bash(mkdir), Bash(pip), Bash(printenv), Bash(python3), Bash(rm), Bash(sed), Bash(which)",
-   "ended": "success",
-   "tokens": 27335838,
-   "claims_held": [],
-   "commits": 9,
-   "cities_touched": 4,
-   "cities": [
-    {
-     "city": "leeuwarden",
-     "trees": 8
-    },
-    {
-     "city": "valencia",
-     "trees": 3
-    },
-    {
-     "city": "milan",
-     "trees": 1
-    },
-    {
-     "city": "florence",
-     "trees": 0
-    }
-   ],
-   "trees": 12,
-   "logged": true
-  },
-  {
    "started": "2026-09-09T23:52:00+00:00",
    "date": "2026-09-10",
    "run_id": "34410358787",
@@ -21019,6 +20983,56 @@
     }
    ],
    "trees": 3,
+   "logged": true
+  },
+  {
+   "started": "2026-11-15T08:44:23+00:00",
+   "date": "2026-11-15",
+   "run_id": "43695862167",
+   "minutes": 11.9,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 152,
+   "denials": 0,
+   "denials_source": "permission_denials: no names in the record",
+   "ended": "success",
+   "tokens": 211925,
+   "claims_held": [
+    "coimbra"
+   ],
+   "commits": 9,
+   "cities_touched": 7,
+   "cities": [
+    {
+     "city": "adelaide",
+     "trees": 1
+    },
+    {
+     "city": "moss-vale",
+     "trees": 1
+    },
+    {
+     "city": "belfast",
+     "trees": 0
+    },
+    {
+     "city": "coldwaltham",
+     "trees": 0
+    },
+    {
+     "city": "glasgow",
+     "trees": 0
+    },
+    {
+     "city": "london",
+     "trees": 0
+    },
+    {
+     "city": "tenerife",
+     "trees": 0
+    }
+   ],
+   "trees": 2,
    "logged": true
   }
  ],
