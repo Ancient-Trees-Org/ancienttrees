@@ -39,6 +39,9 @@ const photoFields = z
     // thin_pages.unique_photo(). Missing here it broke the build.
     source: z.enum(["contributor", "mine", "mail"]).nullable().optional(),
     contributor_user_id: z.string().nullable().optional(),
+    // The sightings row a reader's photograph came from: New from visitors
+    // shows that visitor's own picture on the tile (HomePage.astro, 2026-11-15).
+    sighting_id: z.string().nullable().optional(),
     // Set when the account behind a published photograph was deleted
     // (2026-09-04). The picture stays under the licence in /terms and the
     // person comes off it, so this is the state where a contributor photo
