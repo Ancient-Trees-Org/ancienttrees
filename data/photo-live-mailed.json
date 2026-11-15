@@ -914,19 +914,15 @@
    "sent": []
   },
   "p_b4394ae41139d013921d623e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "8335e815-9828-4129-a977-f7e5c1d4487c",
      "tree_id": "kly_001",
-     "tree_name": "The Muckross Abbey Yew",
-     "city": "Killarney",
-     "city_slug": "killarney",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_4a3e8be0cafb822ba00b39d3": {
    "last": null,
@@ -944,19 +940,15 @@
    "sent": []
   },
   "p_f5deee9b833aca72c8b2854c": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d100ece6-decf-4d6e-b031-b80a81f0e0db",
      "tree_id": "scz_002",
-     "tree_name": "The Fremont Tree",
-     "city": "Santa Cruz",
-     "city_slug": "santa-cruz",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_856cd2e3820af4b001f6554a": {
    "last": null,
@@ -974,34 +966,26 @@
    "sent": []
   },
   "p_46eb99793fa60c6d1e5a07ed": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "eb13d715-dd45-415b-aeb6-2a986565e5fb",
      "tree_id": "hil_001",
-     "tree_name": "The Oriental Plane of Landgoed Bantam",
-     "city": "Hilversum",
-     "city_slug": "hilversum",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_23fcf021138e007ac2500300": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b",
      "tree_id": "rom_028",
-     "tree_name": "The Hackberry of the Mura Latine",
-     "city": "Rome",
-     "city_slug": "rome",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_19b3a0778e462c16dcceacf1": {
    "last": null,

@@ -591,6 +591,46 @@
         "The Conishead Priory Cedar"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d0f732765fbf1515400b0ff7",
+      "place_slug": "carmarthen",
+      "place_name": "Carmarthen",
+      "date": "2026-11-15",
+      "trees": [
+        "The Library Ginkgo of Carmarthen"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_48178e92fdea8f66a594fb70",
+      "place_slug": "colchester",
+      "place_name": "Colchester",
+      "date": "2026-11-15",
+      "trees": [
+        "The Oak of Clingoe Hill"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_856cd2e3820af4b001f6554a",
+      "place_slug": "elleholm",
+      "place_name": "Elleholm",
+      "date": "2026-11-15",
+      "trees": [
+        "Elleholmseken (The Oak of Elleholm)"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_28a591396b4ab1941a5729a8",
+      "place_slug": "wantisden",
+      "place_name": "Wantisden",
+      "date": "2026-11-15",
+      "trees": [
+        "The Pollard Oaks of Wantisden"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
