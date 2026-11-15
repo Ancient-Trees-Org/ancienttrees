@@ -2015,10 +2015,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "1306c000-ed52-40f3-ad73-c6f414c5dbff": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "91f2f869-b590-4465-8512-c49c7ca04a54": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2088,10 +2084,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "57a70549-ac95-452e-894b-3bf467dc26ae": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2129,31 +2121,76 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ads_002",
-   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
+   "pin_checked": "2026-11-15"
   },
   "64e94530-a55e-4174-b649-85eda345db92": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "hum_002",
-   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
+   "pin_checked": "2026-11-15"
   },
   "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "mnc_002",
-   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
+   "pin_checked": "2026-11-15"
   },
   "7547cfa4-55b8-4f9e-acab-06372df4a337": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "lnt_001",
-   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
+   "pin_checked": "2026-11-15"
   },
   "b27e5e37-779c-4373-872e-6da86d1c3024": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "mnc_001",
-   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
+   "pin_checked": "2026-11-15"
+  },
+  "ed0a19ed-93e1-42e9-8a50-fcaa0420bda1": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "a6d28625-b0fb-469f-8653-84ff735dad85": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "bf30b7a2-fe72-4e2f-beeb-7757e1e9174b": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "2186bb95-6054-4154-b6d9-c75cb1fca187": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "c7dca666-5183-4987-b585-0f10639b5cb3": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "b2b14047-08e5-447f-a435-3a4f137809b0": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "0b0d29fa-bc94-48a7-8014-4d103452c16d": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "d8edd734-1e64-45cb-afe4-47a85a4d804a": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "4b1e4321-165c-4742-b645-6ec065f3094c": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-839": {
+   "outcome": "lead",
+   "date": "2026-11-15"
   }
  }
 }

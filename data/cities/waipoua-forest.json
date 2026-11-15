@@ -141,7 +141,23 @@
       "official_register": {
         "name": "New Zealand Tree Register, Notable Tree NR/0802, no. NR/0802",
         "url": "https://www.treeregister.nz/tree/view/802"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-ab926a56.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1206,
+          "height": 1195,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_4a3e8be0cafb822ba00b39d3",
+          "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     }
   ]
 }
