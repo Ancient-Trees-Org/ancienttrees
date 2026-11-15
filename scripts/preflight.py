@@ -3512,6 +3512,37 @@ def check_park_count_promises():
     return out
 
 
+def check_a_vendored_copy_is_the_same_picture():
+    """A photograph on our own domain that borrows a tree-named width set shows
+    the same picture in it (Hidde, 2026-11-15, the Birnam Oak's autumn tile
+    showed the strip's July Geograph frame for a reader's November lead; twelve
+    trees had it). Pixels, through vendor_photos.same_picture()."""
+    try:
+        from vendor_photos import same_picture
+        import PIL  # noqa: F401
+    except ImportError:
+        return []
+    try:
+        with open(os.path.join("data", "photo-manifest.json"), encoding="utf-8") as fh:
+            man = json.load(fh).get("photos", {})
+    except (OSError, ValueError):
+        return []
+    photos = os.path.join("site", "public", "photos")
+    out = []
+    for url, rec in man.items():
+        if "ancienttrees.app/photos/" not in url or not url.endswith(".jpg"):
+            continue
+        own = url.rsplit("/", 1)[-1][:-4]
+        if rec["base"] == own or not rec.get("widths"):
+            continue
+        a = os.path.join(photos, "%s-%d.jpg" % (rec["base"], rec["widths"][0]))
+        b = os.path.join(photos, own + ".jpg")
+        if os.path.exists(a) and os.path.exists(b) and not same_picture(a, b):
+            out.append("data/photo-manifest.json gives %s the widths of %s, another picture: cards and season "
+                       "tiles show the wrong photograph (python3 scripts/vendor_photos.py --manifest)" % (own, rec["base"]))
+    return out
+
+
 def check_no_orphan_photos():
     """Every file in site/public/photos is one something points at.
 
@@ -3873,6 +3904,7 @@ def main():
                 + check_park_words_match()
                 + check_park_count_promises()
                 + check_no_orphan_photos()
+                + check_a_vendored_copy_is_the_same_picture()
                 + check_photo_fields_reach_the_site()
                 + check_app_first_fields_reach_the_site()
                 + check_every_us_place_has_a_state()

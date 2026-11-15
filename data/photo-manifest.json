@@ -2100,7 +2100,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/dnk_002-the-birnam-oak-d9a75ee5.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/4/44/The_Birnam_Oak_%28geograph_7532835%29.jpg": {
    "base": "dnk_002-the-birnam-oak",
    "widths": [
     500
@@ -2185,7 +2185,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/edi_017-robert-louis-stevenson-s-yew-6a88ea1a.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert_Louis_Stevenson%27s_Tree%2C_Colinton_-_geograph.org.uk_-_1407534.jpg": {
    "base": "edi_017-robert-louis-stevenson-s-yew",
    "widths": [
     500
@@ -3251,7 +3251,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/ist_004-the-ta-l-nar-ef41d971.jpg": {
+  "https://inaturalist-open-data.s3.amazonaws.com/photos/669764992/large.jpg": {
    "base": "ist_004-the-ta-l-nar",
    "widths": [
     500
@@ -3587,7 +3587,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/kyo_002-the-land-boat-pine-6a0bf0dd.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/4/4f/Rikushu-no-matsu_pine_tree_in_Rokuonji_Temple.JPG": {
    "base": "kyo_002-the-land-boat-pine",
    "widths": [
     500
@@ -4147,13 +4147,13 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-de5a4012.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/2/28/Totteridge_Yew%2C_St_Andrew%27s_church%2C_Totteridge.jpg": {
    "base": "lon_001-the-totteridge-yew",
    "widths": [
     500
    ]
   },
-  "https://ancienttrees.app/photos/lon_002-the-royal-oak-13cd8329.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/d/d7/Richmond_Park%2C_The_Royal_Oak_%281%29.jpg": {
    "base": "lon_002-the-royal-oak",
    "widths": [
     500
@@ -4237,7 +4237,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/lon_023-the-ravenscourt-park-tree-of-heaven-9f053596.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/9/97/Ravenscourt_Park_Tree_of_Heaven_%282%29.jpg": {
    "base": "lon_023-the-ravenscourt-park-tree-of-heaven",
    "widths": [
     500
@@ -4339,7 +4339,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/lon_044-the-windrush-square-plane-9b7fd3c7.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tate_Plane%2C_Brixton.jpg": {
    "base": "lon_044-the-windrush-square-plane",
    "widths": [
     500
@@ -5212,7 +5212,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/ngy_002-the-camphor-of-atsuta-shrine-553ee5be.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camphor_Tree_in_Atsuta-jingu_Shrine_Keidai%2C_Jingu_1-chome_Atsuta_Ward_Nagoya_2023.jpg": {
    "base": "ngy_002-the-camphor-of-atsuta-shrine",
    "widths": [
     500
@@ -5730,7 +5730,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/pal_001-the-ficus-of-piazza-marina-d8741ffa.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/9/90/Fico_magnolioide%2C_Piazza_Marina%2C_Palermo.jpg": {
    "base": "pal_001-the-ficus-of-piazza-marina",
    "widths": [
     500
@@ -6114,13 +6114,6 @@
     500,
     1000,
     1280
-   ]
-  },
-  "https://ancienttrees.app/photos/por_018-ginkgo-of-parque-das-virtudes.jpg": {
-   "base": "por_018-the-ginkgo-of-the-jardim-das-virtudes",
-   "widths": [
-    500,
-    1000
    ]
   },
   "https://ancienttrees.app/photos/por_019-bunya-bunya-of-jardim-da-cordoaria.jpg": {
@@ -8421,7 +8414,7 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/yor_002-the-cut-leaved-hornbeam-308bdeb2.jpg": {
+  "https://upload.wikimedia.org/wikipedia/commons/0/0f/A_tree_in_the_Museum_Gardens%2C_York_-_geograph.org.uk_-_8293960.jpg": {
    "base": "yor_002-the-cut-leaved-hornbeam",
    "widths": [
     500

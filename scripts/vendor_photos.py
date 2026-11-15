@@ -178,6 +178,28 @@ def fetch(url, tries=3):
     return None
 
 
+def same_picture(a, b):
+    """Do these two files show the same photograph? A 24 by 24 grey thumbnail,
+    mean difference under 12 of 255 (measured 2026-11-15: matching pairs come
+    out under 3, the twelve wrong ones between 40 and 75). Without Pillow, or
+    a file to read, the answer is no: the original then serves, which is heavy
+    but never the wrong picture."""
+    try:
+        from PIL import Image
+        sa = list(Image.open(a).convert("L").resize((24, 24)).getdata())
+        sb = list(Image.open(b).convert("L").resize((24, 24)).getdata())
+    except Exception:
+        return False
+    return sum(abs(x - y) for x, y in zip(sa, sb)) / len(sa) < 12
+
+
+def has_own_photo(t):
+    """Only a tree whose photographs are ours loses a stale tree-named set:
+    an external photograph's widths are main()'s business (made_from)."""
+    shots = [t.get("photo") or {}] + list(t.get("photos") or [])
+    return bool(shots) and all("ancienttrees.app/photos/" in ((p or {}).get("url") or "") for p in shots if (p or {}).get("url"))
+
+
 def write_manifest():
     """Map each original photo URL to its vendored basename.
 
@@ -209,10 +231,34 @@ def write_manifest():
                        if "ancienttrees.app/photos/" in url and url.endswith(".jpg") else None)
                 for base in [b for b in (own, tree_base) if b and b not in claimed]:
                     widths = [w for w in KNOWN_WIDTHS if "%s-%d.jpg" % (base, w) in on_disk]
-                    if widths:
-                        man[url] = {"base": base, "widths": widths}
-                        claimed.add(base)
-                        break
+                    if not widths:
+                        continue
+                    # THE TREE'S NAME IS NOT THE PHOTOGRAPH'S (Hidde,
+                    # 2026-11-15, the Birnam Oak: "hier gaat duidelijk iets
+                    # mis"). A reader's photograph became the lead and took the
+                    # tree-named widths, which were made from the Geograph frame
+                    # now in the strip, so the autumn tile, every card and the
+                    # app's thumbnail showed July's picture for November's.
+                    # Twelve trees had it. A photograph on our own domain sits
+                    # here whole, so the tree-named copy goes to it only when
+                    # the pixels say it is the same picture.
+                    if own and base == tree_base and not same_picture(
+                            os.path.join(OUT, "%s-%d.jpg" % (base, widths[0])), os.path.join(OUT, own + ".jpg")):
+                        continue
+                    man[url] = {"base": base, "widths": widths}
+                    claimed.add(base)
+                    break
+            # Tree-named widths no photograph on the tree is (an old lead that
+            # left the tree, the Porto ginkgo's Commons frame): nothing may
+            # show them, and preflight refuses a file nothing points at.
+            if tree_base not in claimed and not any(
+                    "/photos/%s" % tree_base in ((p or {}).get("url") or "")
+                    for p in [t.get("photo") or {}] + list(t.get("photos") or [])):
+                for w in KNOWN_WIDTHS:
+                    stale = os.path.join(OUT, "%s-%d.jpg" % (tree_base, w))
+                    if os.path.exists(stale) and has_own_photo(t):
+                        os.remove(stale)
+                        print("   removed %s-%d.jpg: no photograph on %s is that picture" % (tree_base, w, t["id"]))
     out = os.path.join(ROOT, "data", "photo-manifest.json")
     with open(out, "w", encoding="utf-8") as fh:
         json.dump({"_note": "Original photo URL -> the vendored copy under "
