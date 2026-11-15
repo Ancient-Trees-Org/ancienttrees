@@ -2,40 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-09T16:31:22+00:00",
-   "date": "2026-09-09",
-   "run_id": "34377222686",
-   "minutes": 54.8,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 322,
-   "denials": 40,
-   "denials_source": "permission_denials: Bash, Bash(cat), Bash(cd), Bash(curl), Bash(echo), Bash(for), Bash(gh), Bash(git), Bash(ls), Bash(mkdir), Bash(python3), Bash(rm)",
-   "ended": "success",
-   "tokens": 8548655,
-   "claims_held": [
-    "leeuwarden"
-   ],
-   "commits": 12,
-   "cities_touched": 3,
-   "cities": [
-    {
-     "city": "helsinki",
-     "trees": 2
-    },
-    {
-     "city": "sliven",
-     "trees": 1
-    },
-    {
-     "city": "tallinn",
-     "trees": 1
-    }
-   ],
-   "trees": 4,
-   "logged": true
-  },
-  {
    "started": "2026-09-09T18:55:01+00:00",
    "date": "2026-09-09",
    "run_id": "34391884182",
@@ -21010,6 +20976,44 @@
    "cities_touched": 0,
    "cities": [],
    "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-15T01:29:13+00:00",
+   "date": "2026-11-15",
+   "run_id": "43663256335",
+   "minutes": 25.7,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 167,
+   "denials": 2,
+   "denials_source": "permission_denials: Bash(cat ; import ; ? ; ? ...)",
+   "ended": "success",
+   "tokens": 334701,
+   "claims_held": [
+    "san-francisco"
+   ],
+   "commits": 10,
+   "cities_touched": 4,
+   "cities": [
+    {
+     "city": "chicago",
+     "trees": 6
+    },
+    {
+     "city": "key-west",
+     "trees": 2
+    },
+    {
+     "city": "philadelphia",
+     "trees": 2
+    },
+    {
+     "city": "tulsa",
+     "trees": 1
+    }
+   ],
+   "trees": 11,
    "logged": true
   }
  ],
