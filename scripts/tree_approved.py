@@ -170,6 +170,12 @@ def seat_open(uid, slug):
     doc = load(AMBASSADORS, {})
     if any(e.get("place_slug") == slug for e in doc.get("ambassadors", [])):
         return False
+    # Somebody who is already an ambassador somewhere is not asked again in a
+    # P.S. (2026-11-15: Media's new ambassador added a tree in Willistown the
+    # same afternoon and the draft asked them to look after Willistown too).
+    raw = people.uid(uid) if str(uid).startswith("p_") else uid
+    if any(e.get("user_id") in (uid, raw) for e in doc.get("ambassadors", [])):
+        return False
     ref = people.ref(uid)
     for i in doc.get("invited", []):
         if people.ref(i.get("user_id")) == ref and i.get("place_slug") in (slug, "*"):

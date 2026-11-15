@@ -442,6 +442,46 @@
         "The A-bombed Camphors of Sannō Shrine"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e8661eafe6305849ea0e24d7",
+      "place_slug": "dunkeld",
+      "place_name": "Dunkeld",
+      "date": "2026-11-15",
+      "trees": [
+        "The King of the Forest"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7b25aaf5b4d62109ab46ba2c",
+      "place_slug": "geashill",
+      "place_name": "Geashill",
+      "date": "2026-11-15",
+      "trees": [
+        "The Geashill Sequoia"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5042b06d69feca58aa5e2553",
+      "place_slug": "isparta",
+      "place_name": "Isparta",
+      "date": "2026-11-15",
+      "trees": [
+        "The Plane of Çınar Sokak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9dfcbc9fd964b4dac31308c3",
+      "place_slug": "keren",
+      "place_name": "Keren",
+      "date": "2026-11-15",
+      "trees": [
+        "Mariam Dearit"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [

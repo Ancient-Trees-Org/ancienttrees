@@ -8,7 +8,9 @@
 - Held: the Emmanuel College plane (Fellows' Garden private by the college's own pages). Not new: the Tule tree (tul_001). Still held from earlier: Majesty Oak, Hanoi banyan, Holborn, Burnside red gum, Worthing sequoia, Waitangi pine.
 - Mail: ambassador answers sent to Edinburgh, London and Media (badges on). Eight "your tree is on Ancient Trees" mails sent; the afternoon wave's and these ten go when their pages reach the live feed. One reader (Scone spruce and Lytham chestnut) got two congratulations minutes apart: tree_approved does not bundle two trees of one person.
 - Fixed: ambassador.py linked Media's list to a 404 (a place of app-only trees has no page); it now links the explore map at the place. tree_approved.py greets a generated profile name ("Rooted Ash 4451") as "Hi there", lowers a name typed in capitals, and asks one missing fact as a plain question.
-- Seven reply drafts for tips no script mails (drafts/reply-reader-*-2026-11-15.md: Master Oak and Monfalletto/Telavi live; Majesty Oak, Hanoi, Holborn, Burnside, Worthing held), waiting for Hidde's yes.
+- Fourteen replies to tips no script mails (drafts/reply-reader-*-2026-11-15.md), sent on Hidde's "Ja, verstuur" through contributor_reply.py with reply_text and outcome set per row; the daily cap of 50 was lifted to 110 for those runs only (OUTREACH_DAILY_CAP in the environment, nothing changed in code), since 71 of the day's 93 logged mails were Hidde's own from Gmail and Resend stayed far under its 100.
+- Every reader tree of the day is congratulated except edi_022, whose reader had two already today: tree_approved.py now sends one mail per person (several trees bundled) and holds anyone congratulated that day for the next knock, and no longer asks an existing ambassador to take on another place.
+- The Isparta tree's slug lost its dotless i (plane-of-cnar-sokak); cosmetic, the page works.
 
 ## 2026-11-15 session: Yahoo blocks the welcome mail
 
