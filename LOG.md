@@ -2,6 +2,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 window 16:45 UTC: reader photographs (rung 1)
+
+- **Product**: King Jan's Linden (Warsaw, war_007) has its first photograph, a reader's; the Copenhagen beech photo was already in its strip. Of the 9 untied sightings, 6 now have a verdict: the Linton Yew (Herefordshire, 950 cm girth, church yew) and a large Monterey cypress (Cornwall) are worth pages, to verify and publish as new trees; the Giant Tree and Tall Tree plaque (Rockefeller Forest, Humboldt) wait on the register; the church-corner fig and a young Melbourne jacaranda held. Three tip trees with no coordinate (tip-807, 817, 818) still have no verdict.
+- Broke again: `judgement.py --scan` cannot stub a sighting once `sightings_publish.py` has emptied the queue; stubbed by hand (out/tmp/stub1115.py).
+
 ## 2026-11-15 night window 15:00 UTC: reader photographs and rung 2
 
 - **Product**: 20 reader photographs looked at in pixels (rung 1). 18 are on their trees' pages: the Valdemārpils linden (vld_001) now has its first photograph (three views), and the rest sit in the strips of Warsaw, York, Munich, Buenos Aires, Seville, Fortingall, London (Bromley Oak), Nara, Dresden and Palermo trees. Three pins moved to the reader's GPS fix (yor_003 88 m, lon_046, dre_019). Held: the Witch Tree of Fanal frame (fog, several similar laurels). Two untied sightings held with reasons: a giant sequoia with no coordinate or place (tip-709) and a Toronto dawn redwood in what looks like a private garden. Three tree notes read, none hidden.
