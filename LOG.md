@@ -12,7 +12,9 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-15 night run (window from 01:29 UTC): 8 trees for the app (Chicago 6, Key West 2)
+## 2026-11-15 night run (window from 01:29 UTC): 9 trees for the app (Chicago 6, Key West 2, Tulsa 1)
+
+Tulsa: the Woodward Park arboretum's state-champion Dawn Redwood (tsa_002, a 1964 planting, measured 2023). Its neighbour tsa_003 (English oak, "state champion" on 2015 measurements, no figures in the register, about 60 years old) was written but kept out: preflight's young-and-unmeasured note counted it, so it waits as a lead until someone measures it; story stays in data/research/tulsa-verified.json. The best Tulsa tree, the 200-year Hanging Tree bur oak by the BOK Center, has no usable pin or access evidence (check aerial imagery near 36.154, -95.995).
 
 Reader inbox and notes empty. Chicago: six Cook County champion-register trees (chi_059 to chi_064, GNSS-confirmed pins, no photographs, no ages); chi_058 was a duplicate of chi_004 and was dropped. Key West: the Kapok Tree (1900 vs 1905 stated as open) and the Cosgrove House banyan (view-only from the sidewalk), kyw_003 and kyw_004; its species is "Fig (Ficus sp.)" because rule 9 allows one common name and the other cities use Fig. All app-only under APP FIRST. Preflight 0 problems. 7-day visits line not printed by prepare.py today.
 

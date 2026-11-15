@@ -63,6 +63,55 @@
         "name": "National Register of Historic Places (NRIS), no. 76001576",
         "url": "https://www.loc.gov/item/ok0081/"
       }
+    },
+    {
+      "id": "tsa_002",
+      "name": "Woodward Park Dawn Redwood",
+      "species": "Dawn Redwood (Metasequoia glyptostroboides)",
+      "age_estimate": "planted in 1964",
+      "age_min": 55,
+      "age_max": 65,
+      "age_basis": "source",
+      "girth_cm": 80,
+      "height_m": 25.9,
+      "location": {
+        "address": "Tulsa Arboretum, Woodward Park, 2435 S Peoria Ave, Tulsa, OK 74114",
+        "latitude": 36.12877,
+        "longitude": -95.97172,
+        "neighbourhood": "Midtown"
+      },
+      "location_site": {
+        "name": "Tulsa Arboretum, Woodward Park",
+        "radius_m": 50
+      },
+      "story": "Until 1941 this species was known only from fossils. Then living trees turned up in China, and twenty-three years later Tulsa planted one in its new arboretum.\n\nThat makes this a young tree, and it is worth saying so plainly. The Tulsa Garden Center, which looks after the arboretum in Woodward Park, lists the dawn redwood among its original 1964 plantings, so it is about sixty years old. What it has instead of age is size. When Oklahoma Forestry Services measured it on 27 June 2023 it stood 85 feet, about 26 metres, with a crown 54.5 feet across and a trunk recorded at 31.6 inches round at chest height. The state lists it as a champion, the largest of its species on Oklahoma's register.\n\nIt is also a conifer that behaves like an oak. In autumn the needles turn coppery red and then drop, and for the winter it stands bare among the evergreens.\n\nIt has come through six decades of Oklahoma weather, including the February 2021 freeze that killed the arboretum's water oak, which the Garden Center records as lost. The redwood is not on that list.\n\nThe arboretum is a three-acre part of the park between 21st and 24th Streets, east of Peoria Avenue, and the pin marks it rather than the trunk itself. Entry is free. We have not confirmed the park's opening hours, so check before an early or late visit.",
+      "how_to_recognise": "You can recognise it as the 85-foot conifer that turns coppery red in autumn and stands bare in winter. It stands in the Tulsa Arboretum, about 40 metres east of the English oak.",
+      "verified_sources": [
+        "https://www.tulsagardencenter.org/tulsa-arboretum",
+        "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+      ],
+      "official_register": {
+        "name": "Oklahoma Forestry Services champion tree register (Champion_Status Yes, measured 2023-06-27)",
+        "url": "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+      },
+      "access": "Free. Woodward Park is open to walk through daily 5am to 11pm per the Tulsa Garden Center park rules page (hours seen in a search summary of that page, not fetched; confirm). The Arboretum is a 3 acre part of the park, east of S Peoria Ave and west of S Rockford Ave, between 21st and 24th Streets. AERO bus rapid transit runs along Peoria to the park.",
+      "best_time": {
+        "months": [
+          10,
+          11
+        ],
+        "kind": "autumn colour",
+        "label": "late autumn, when the needles turn coppery red before they fall"
+      },
+      "location_precision": "approximate",
+      "curation_status": "ai_generated",
+      "verify_notes": "Two sources: Oklahoma Forestry Services register row (OBJECTID 284, Common_Name Dawn redwood, Champion_Status Yes, inspector Riley Coy, DON 2023-06-27; Circ 31.6 in = 80 cm, Ht 85 ft = 25.9 m, crown 54.5 ft; no owner or address fields kept) and the Tulsa Garden Center's own Arboretum page (owner/manager of the ground), which says the Dawn Redwood is one of the original 1964 plantings, an Oklahoma State Champion, and turns coppery red in autumn then drops its needles. Alive: measured by the state in mid 2023; Garden Center page current in 2026 (copyright 2026) and updates entries when trees die (it records the Water Oak lost in Feb 2021 freeze), and does not list the redwood as lost. Register coordinate falls inside the arboretum but is not shown to land on one crown, so approximate, with the 3 acre arboretum as the small site; no sign or tag evidence read. Age is a documented planting year for the arboretum plantings (page says it is an original planting), about 60 years: a champion by size, not an old tree; the species was known only from fossils until rediscovered in China in 1941 (Garden Center page), which is the hook. Girth is at the register's breast-height circumference as recorded. Nearest neighbours in the same arboretum (lead, see tsa_003): English Oak 40 m west.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

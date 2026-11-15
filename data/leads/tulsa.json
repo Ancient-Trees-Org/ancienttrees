@@ -44,7 +44,8 @@
     "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
    ],
    "source": "Oklahoma Forestry Services champion tree register (state government). Rows marked dead or not found blocked; many rows wait for a remeasure (To_Do). Owner and reporter fields NEVER copied; an address may be a home, hard rule 10.",
-   "status": "open"
+   "status": "blocked",
+   "reason": "street address in a residential block (Yorktown), no evidence of public ground; 2026-11-15 pass did not reopen"
   },
   {
    "name": "Pin Oak",
@@ -59,7 +60,8 @@
     "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
    ],
    "source": "Oklahoma Forestry Services champion tree register (state government). Rows marked dead or not found blocked; many rows wait for a remeasure (To_Do). Owner and reporter fields NEVER copied; an address may be a home, hard rule 10.",
-   "status": "open"
+   "status": "blocked",
+   "reason": "register coordinate 36.13983,-95.95887 reverse-geocodes to the Office Depot at 1530 S Lewis Ave (private commercial land); register address is a PO box; not publicly accessible (2026-11-15 pass)"
   },
   {
    "name": "Dawn redwood",
@@ -74,7 +76,45 @@
     "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
    ],
    "source": "Oklahoma Forestry Services champion tree register (state government). Rows marked dead or not found blocked; many rows wait for a remeasure (To_Do). Owner and reporter fields NEVER copied; an address may be a home, hard rule 10.",
-   "status": "open"
+   "status": "verified",
+   "note": "delivered as tsa_002 in data/research/tulsa-verified.json (Tulsa Arboretum, Woodward Park)"
+  },
+  {
+   "name": "Tulsa Hanging Tree (Creek Hanging Tree)",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "lat": null,
+   "lng": null,
+   "girth_cm": 518,
+   "source": "Tulsa People \"Phantom limbs\" (2018, updated 2020): bur oak at 3 N Lawton Ave, between the NW bend of the Inner Dispersal Loop and the BOK Center, about 200 years old, behind a barbed wire fence guarding Oktoberfest bleachers and festival equipment; Connect Paranormal (2026-10-19): over 200 years, 216 per Teri French 2010, 1977 forestry sample over 185 years, trunk over 17 ft around per a 1998 City of Tulsa Board of Adjustment record; Wikipedia List of hanging trees (200-year-old bur oak, cites Daily Oklahoman 2002); yogisden.us 2011 post places it across from the BOK Center beside the IDL.",
+   "status": "open",
+   "reason": "strong tree (about 200 years, 17+ ft girth, alive per 2026 blog and 2018/2020 article) but no exact pin in reach and access unclear: fenced festival ground, not shown to be viewable from public ground. Nominatim puts \"3 N Lawton Ave\" in Crosbie Heights, 1.5 km west, so the address is no pin. Needs a geotagged photo or aerial look at the NW bend of the IDL (about 36.154,-95.995, unchecked), and a source saying it can be seen from the street. Hanging history is local lore (Teri French book)."
+  },
+  {
+   "name": "Japanese Pagoda Tree, Tulsa Arboretum",
+   "species": "Japanese Pagoda Tree (Styphnolobium japonicum)",
+   "lat": null,
+   "lng": null,
+   "source": "tulsagardencenter.org/tulsa-arboretum: 1964 planting, Oklahoma State Champion, 69 ft tall in 2015. No coordinate, no register row found.",
+   "status": "open",
+   "reason": "one source, no coordinate; Arboretum is a small site so could ship with location_site plus a recognition line if a pass finds the arboretum map"
+  },
+  {
+   "name": "Yellow Fruited American Holly, Tulsa Arboretum",
+   "species": "American Holly (Ilex opaca f. xanthocarpa)",
+   "lat": null,
+   "lng": null,
+   "source": "tulsagardencenter.org/tulsa-arboretum: 1964 planting, Oklahoma State Champion, 47 ft tall and nearly 30 ft spread in 2015.",
+   "status": "open",
+   "reason": "one source, no coordinate"
+  },
+  {
+   "name": "Black Oak, Tulsa Arboretum",
+   "species": "Black Oak (Quercus velutina)",
+   "lat": null,
+   "lng": null,
+   "source": "tulsagardencenter.org/tulsa-arboretum: one of two trees that predate the 1964 arboretum, so the oldest tree there; no age or size given.",
+   "status": "open",
+   "reason": "no coordinate, no measurement; look for it on the arboretum map. Also: NewsOn6 reported axe throwers damaging one of Woodward Park oldest oaks (older report, not fetched)."
   }
  ],
  "blocked": [

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "tsa_002",
+    "name": "Woodward Park Dawn Redwood",
+    "species": "Dawn Redwood (Metasequoia glyptostroboides)",
+    "age_estimate": "planted in 1964",
+    "age_min": 55,
+    "age_max": 65,
+    "age_basis": "source",
+    "girth_cm": 80,
+    "height_m": 25.9,
+    "location": {
+      "address": "Tulsa Arboretum, Woodward Park, 2435 S Peoria Ave, Tulsa, OK 74114",
+      "latitude": 36.12877,
+      "longitude": -95.97172,
+      "neighbourhood": "Midtown"
+    },
+    "verified_sources": [
+      "https://www.tulsagardencenter.org/tulsa-arboretum",
+      "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+    ],
+    "official_register": {
+      "name": "Oklahoma Forestry Services champion tree register (Champion_Status Yes, measured 2023-06-27)",
+      "url": "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+    },
+    "access": "Free. Woodward Park is open to walk through daily 5am to 11pm per the Tulsa Garden Center park rules page (hours seen in a search summary of that page, not fetched; confirm). The Arboretum is a 3 acre part of the park, east of S Peoria Ave and west of S Rockford Ave, between 21st and 24th Streets. AERO bus rapid transit runs along Peoria to the park.",
+    "location_precision": "approximate",
+    "location_site": {"name": "Tulsa Arboretum, Woodward Park", "radius_m": 50},
+    "curation_status": "ai_generated",
+    "story": "Until 1941 this species was known only from fossils. Then living trees turned up in China, and twenty-three years later Tulsa planted one in its new arboretum.\n\nThat makes this a young tree, and it is worth saying so plainly. The Tulsa Garden Center, which looks after the arboretum in Woodward Park, lists the dawn redwood among its original 1964 plantings, so it is about sixty years old. What it has instead of age is size. When Oklahoma Forestry Services measured it on 27 June 2023 it stood 85 feet, about 26 metres, with a crown 54.5 feet across and a trunk recorded at 31.6 inches round at chest height. The state lists it as a champion, the largest of its species on Oklahoma's register.\n\nIt is also a conifer that behaves like an oak. In autumn the needles turn coppery red and then drop, and for the winter it stands bare among the evergreens.\n\nIt has come through six decades of Oklahoma weather, including the February 2021 freeze that killed the arboretum's water oak, which the Garden Center records as lost. The redwood is not on that list.\n\nThe arboretum is a three-acre part of the park between 21st and 24th Streets, east of Peoria Avenue, and the pin marks it rather than the trunk itself. Entry is free. We have not confirmed the park's opening hours, so check before an early or late visit.",
+    "how_to_recognise": "You can recognise it as the 85-foot conifer that turns coppery red in autumn and stands bare in winter. It stands in the Tulsa Arboretum, about 40 metres east of the English oak.",
+    "best_time": {"months": [10, 11], "kind": "autumn colour", "label": "late autumn, when the needles turn coppery red before they fall"},
+    "verify_notes": "Two sources: Oklahoma Forestry Services register row (OBJECTID 284, Common_Name Dawn redwood, Champion_Status Yes, inspector Riley Coy, DON 2023-06-27; Circ 31.6 in = 80 cm, Ht 85 ft = 25.9 m, crown 54.5 ft; no owner or address fields kept) and the Tulsa Garden Center's own Arboretum page (owner/manager of the ground), which says the Dawn Redwood is one of the original 1964 plantings, an Oklahoma State Champion, and turns coppery red in autumn then drops its needles. Alive: measured by the state in mid 2023; Garden Center page current in 2026 (copyright 2026) and updates entries when trees die (it records the Water Oak lost in Feb 2021 freeze), and does not list the redwood as lost. Register coordinate falls inside the arboretum but is not shown to land on one crown, so approximate, with the 3 acre arboretum as the small site; no sign or tag evidence read. Age is a documented planting year for the arboretum plantings (page says it is an original planting), about 60 years: a champion by size, not an old tree; the species was known only from fossils until rediscovered in China in 1941 (Garden Center page), which is the hook. Girth is at the register's breast-height circumference as recorded. Nearest neighbours in the same arboretum (lead, see tsa_003): English Oak 40 m west."
+  },
+  {
+    "id": "tsa_003",
+    "name": "Woodward Park Arboretum English Oak",
+    "species": "English Oak (Quercus robur)",
+    "age_estimate": "planted in 1964",
+    "age_min": 55,
+    "age_max": 65,
+    "age_basis": "source",
+    "location": {
+      "address": "Tulsa Arboretum, Woodward Park, 2435 S Peoria Ave, Tulsa, OK 74114",
+      "latitude": 36.12882,
+      "longitude": -95.97216,
+      "neighbourhood": "Midtown"
+    },
+    "verified_sources": [
+      "https://www.tulsagardencenter.org/tulsa-arboretum",
+      "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+    ],
+    "official_register": {
+      "name": "Oklahoma Forestry Services champion tree register (row ID 631, To_Do Remeasure, status Undefined)",
+      "url": "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0"
+    },
+    "access": "Free. Same as tsa_002: Woodward Park daily 5am to 11pm per the Tulsa Garden Center park rules page (summary only, confirm). Arboretum is about 40 m west of the Dawn Redwood.",
+    "location_precision": "approximate",
+    "location_site": {"name": "Tulsa Arboretum, Woodward Park", "radius_m": 50},
+    "curation_status": "flagged",
+    "story": "The Tulsa Garden Center calls this oak an Oklahoma state champion. The state's own register is less sure.\n\nThe Garden Center, which runs the arboretum in Woodward Park, lists the English oak among its original 1964 plantings and calls it one of Oklahoma's champion trees, based on measurements taken in 2015. The Oklahoma Forestry Services register still has a row for it at this spot, but its girth, height and crown fields are empty, its status reads undefined, and it is marked for remeasuring. So the title may still hold, or it may belong to 2015. No source we found gives a current figure for the trunk.\n\nThe age is clearer. Planted in 1964, it is about sixty years old, a young tree by any oak's standards. Quercus robur is native to Europe, North Africa and western Asia, where it has long been planted as a windbreak.\n\nThe arboretum has lost trees in that time. The Garden Center records a water oak killed in the February 2021 freeze; this one still stands on its list of living trees. If you want the oldest tree on the site, the Garden Center says a black oak was here before the arboretum was planted, though nobody gives its age.\n\nThe pin marks the register's spot inside the arboretum, not a surveyed trunk. Entry is free; we have not confirmed the park's hours. If you have put a tape round this oak, tell us what it said.",
+    "how_to_recognise": "You can recognise it by its rounded leaf lobes, unlike the bristle-tipped leaves of the arboretum's black oak. It stands in the Tulsa Arboretum, about 40 metres west of the dawn redwood.",
+    "verify_notes": "FLAGGED, one source plus a register row without figures. Tulsa Garden Center Arboretum page: English Oak is one of the original 1964 plantings and 'one of the Oklahoma State Champion Trees, based on 2015 measurements'; native to Europe, N Africa, W Asia; often planted as windbreak. State register row ID 631 has the coordinate (36.12882, -95.97216, inside the arboretum, 40 m from the redwood) but circumference, height and crown are 0 and the status is Undefined with To_Do Remeasure: the register no longer lists it as a champion, so the Garden Center's champion claim rests on 2015 measurements and may be out of date. No girth or height given by any source, none recorded. Alive: Garden Center page is current (2026) and lists it among live trees; no dated observation of the trunk itself. The same register row carries a street address on Charles Page Blvd that is not the park address; it was not used, and the pin is the coordinate only. Earlier blocked as a home (hard rule 10) in data/leads/tulsa.json; this pass finds the coordinate inside the public arboretum, so the block should be lifted for this one. Same-site neighbours with champion claims but no coordinate: Japanese Pagoda Tree (champion, 69 ft in 2015), Yellow Fruited American Holly (champion, 47 ft in 2015), Black Oak (predates the 1964 arboretum, the older tree there, no age given)."
+  }
+]
