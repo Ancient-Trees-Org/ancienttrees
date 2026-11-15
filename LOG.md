@@ -2,6 +2,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 retry window: shelf is dry, walls up
+
+- Leipzig's 5 READY leads were all declined earlier (cadastre-only, no life check, one on a private allotment); leads.py still lists them READY because block-reasons.json lacks their phrasings (widening needs Hidde). Potsdam: 0 new trees, 6 more leads held. Rothenburg claimed and released unworked. Bamberg gave 2 app-only trees. Staged focus cities Portland, Munich, Porto, Salzburg are full. Next: Zurich register scout.
+
 ## 2026-11-15 write pass: two Bamberg trees for the app
 
 - Two new trees in the app (app-only, no web page until a reader adds to them): bam_010 the Vollandseiche of Steppach, a pedunculate oak 7.50 m round growing on top of a beer cellar (confirmed pin on the roadside viewing point, age 200 to 300 or about 300 stated as a dispute), and bam_011 the churchyard lime of Hohenpoelz, 6.50 m round over the wall of a fortified churchyard (approximate pin, churchyard as site, best_time June flowers). Both flagged: no dated image since 2017 and 2010, and both stories ask readers to confirm they stand.
