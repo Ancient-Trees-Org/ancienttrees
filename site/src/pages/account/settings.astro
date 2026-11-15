@@ -207,7 +207,7 @@ const crumbItems: [string, string | null][] = [
     </div>
   </Sheet>
 </main>
-<Fragment slot="scripts" set:html={COUNTRY_JS + `
+<Fragment slot="scripts" set:html={COUNTRY_JS + DOWNSIZE_JS + `
 <script>
 (function() {
   var SB = "${SUPABASE_URL}", KEY = "${SUPABASE_KEY}";
