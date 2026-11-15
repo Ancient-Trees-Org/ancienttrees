@@ -2,6 +2,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 night run (22:24): reader photograph inbox, rung 1
+
+- **Product**: five reader-found trees live, app first: the Bowthorpe Oak (Lincolnshire, bow_001, 13 m girth, private farm with pre-booked tours), the Crowhurst Yew (East Sussex, crh_001; the reader labelled it "near Wilmington"), the Doveridge Yew (dvr_001), a twisted sweet chestnut in Greenwich Park (lon_053) and the Methuselah redwood on Skyline Boulevard (wdd_001, new place Woodside; figures the reader's, the trust's article would not open). Six first photographs live on photo-less trees (Ardkinglas silver and grand fir, Library Park Fig, Coevorden maple, Granada Parador cypresses, Xemxija carob), three pins moved to the reader's fix.
+- **Taken down / refused**: seven live-first strip photographs out (people dominating: Grimston's Oak, the Kelvin redwood x2; wrong tree: a plane tagged to the Hampstead beech, a meadow tagged Wistman's Wood, a bare tree tagged Crom Yews, museum giants at Palma). Rejected: a quad with no redwoods (Boole), a weeping cedar tagged as the Glasnevin strawberry tree. Held: a strangler fig tagged as the Chiang Mai yang na (2.2 km from its pin).
+- **Left as leads**: Moreton Bay fig at Petrie Terrace, Brisbane, Lumbini bodhi, Cannock Chase birch, three trunk close-ups (Sēja, Przybudki, Sweden), a roadside palm near Chiang Mai, the two tips (Villa Smeraldo, Molinazzo); the Wollaton Arbour Oak still has no coordinate. Slip caught before commit: a blanket prefix rename briefly renamed Coldwaltham's cwh_001 files; restored. Preflight 0 problems.
+
 ## 2026-11-15 night run (20:19): the reader photograph inbox, rung 1
 
 - **Product**: nine reader-found trees live (app first, no web page until a reader adds to them), each on the reader's photograph and GPS fix with their words and figures kept as theirs: the pollard oaks of Wantisden, Suffolk (wnt_001, "4,000 oaks", 400 to 800 years, their path and parking note); Elleholmseken, Blekinge (elh_001, girth 785 cm, their Swedish lichen note quoted and translated); the baobab-shaped London plane of Penenden Heath, Maidstone (mdb_001, girth 700 cm); the oak of Clingoe Hill, Colchester (cls_001, girth 600 cm; the reader's label said near Mistley but the fix is in Colchester); the library ginkgo of Carmarthen (cmt_001, their age reasoning from 1842); and four more in the Préfargier park, La Tène (prf_002 sequoia, prf_003 dawn redwood, prf_004 weeping beeches, prf_005 large-leaved lime).
