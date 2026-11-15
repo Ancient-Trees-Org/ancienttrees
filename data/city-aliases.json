@@ -51,6 +51,18 @@
     "ieper": "ypres"
   },
   "search_names": {
+    "a-coruna": [
+      "La Corogne",
+      "La Coruña",
+      "Corunha",
+      "La Corunya",
+      "La Korunja",
+      "Akoruņa",
+      "Coruña",
+      "Korunga",
+      "Korunjo",
+      "La Coronha"
+    ],
     "aachen": [
       "Aken",
       "Aix-la-Chapelle",
@@ -2604,6 +2616,10 @@
       "Lovanium",
       "Leuve"
     ],
+    "lewes": [
+      "Luisas",
+      "Lūisa"
+    ],
     "lexington-kentucky": [
       "Lexington",
       "Lexington i Kentucky",
@@ -3299,6 +3315,12 @@
     "nisia-floresta": [
       "Nísia Floresta Brasileira Augusta",
       "Dionysia Gonçalves Pinto"
+    ],
+    "norwich": [
+      "Noridžas",
+      "Noridža",
+      "Nordovicum",
+      "Noric"
     ],
     "noto": [
       "Nuotu",
@@ -5193,6 +5215,7 @@
     ]
   },
   "wikipedia_titles": {
+    "a-coruna": "A Coruña",
     "aachen": "Aachen",
     "aarhus": "Aarhus",
     "aberford": "Aberford",
@@ -5643,6 +5666,7 @@
     "les-clayes-sous-bois": "Les Clayes-sous-Bois",
     "letenye": "Letenye",
     "leuven": "Leuven",
+    "lewes": "Lewes",
     "lexington-kentucky": "Lexington, Kentucky",
     "liernu": "Liernu",
     "lima": "Lima",
@@ -5769,6 +5793,7 @@
     "nikaho": "Nikaho, Akita",
     "nishio": "Nishio",
     "nisia-floresta": "Nísia Floresta",
+    "norwich": "Norwich",
     "noto": "Noto",
     "nova-ves-pod-plesi": "Nová Ves pod Pleší",
     "novi-ligure": "Novi Ligure",
@@ -5792,6 +5817,7 @@
     "oostkapelle": "Oostkapelle",
     "orebic": "Orebić",
     "orlando": "Orlando, Florida",
+    "ormond-beach": "Ormond Beach, Florida",
     "oroville": "Oroville, California",
     "osaka": "Osaka",
     "oslo": "Oslo",
@@ -6035,6 +6061,7 @@
     "uda": "Uda, Nara",
     "ueda": "Ueda, Nagano",
     "ueki": "Ueki, Kumamoto",
+    "ulverston": "Ulverston",
     "unnan": "Unnan",
     "untermerzbach": "Untermerzbach",
     "urvaste": "Urvaste",
@@ -6231,6 +6258,7 @@
     "niedenstein": "Niedenstein",
     "nova-ves-pod-plesi": "Nová Ves pod Pleší",
     "nuenen": "Nuenen",
+    "ormond-beach": "Ormond Beach, Florida",
     "otari-wiltons-bush": "Ōtari-Wilton's Bush",
     "painswick": "Painswick",
     "parry-kauri-park": "Warkworth & District Museum",
@@ -6284,6 +6312,7 @@
     "tolpuddle": "Tolpuddle",
     "trollskogen": "Trollskogen",
     "ueki": "Ueki, Kumamoto",
+    "ulverston": "Ulverston",
     "untermerzbach": "Untermerzbach",
     "valentin-tineo": "Valentin",
     "vales": "Vales",

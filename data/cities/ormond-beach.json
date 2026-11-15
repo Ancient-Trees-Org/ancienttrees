@@ -1,0 +1,88 @@
+{
+  "city": "Ormond Beach",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Ormond Beach lies on Florida's Atlantic coast north of Daytona Beach. Just north of the town, Bulow Creek State Park keeps one of the largest stands of southern live oak left on Florida's east coast, and among them the Fairchild Oak, a live oak several centuries old with a plaque that claims two thousand years. A reader sent it to us with their own photographs.",
+  "meta_description": "The Fairchild Oak in Bulow Creek State Park near Ormond Beach, Florida: a live oak over 400 years old, among the largest in the southern United States.",
+  "hero_tree_id": "obc_001",
+  "oldest_tree_id": "obc_001",
+  "trees": [
+    {
+      "id": "obc_001",
+      "name": "The Fairchild Oak",
+      "species": "Southern Live Oak (Quercus virginiana)",
+      "age_estimate": "over 400 years by the park sources, about 600 by a reader's estimate; the plaque at the tree says 2,000",
+      "age_min": 400,
+      "age_max": 600,
+      "age_basis": "source",
+      "location": {
+        "address": "Bulow Creek State Park, Old Dixie Highway, north of Ormond Beach, Florida",
+        "latitude": 29.38822,
+        "longitude": -81.13101,
+        "neighbourhood": "Bulow Creek State Park"
+      },
+      "story": "A bronze plaque on a boulder beside this live oak says it \"has gladdened man's heart for 2000 years\". The figures written down elsewhere are smaller. The Wikipedia page on Bulow Creek State Park calls it over four centuries old and among the largest of its kind in the southern United States, and the list of Florida's state parks gives almost 500 years. The reader who sent it to us puts it at about 600. Nobody has published a ring count, so the honest answer is several centuries, with the plaque as its most generous telling.\n\nThe plaque was set there by the Union Portland Cement Company, and it dedicates the tree to the memory of Dr. David Fairchild, the American botanist it credits with bringing the soybean and many other useful plants to the United States. A Florida Park Service sign beside it says the oak has withstood hurricane winds, fires, droughts and wars for centuries.\n\nThe reader's photographs show why people stop here. A short, deeply furrowed trunk splits into limbs that run out sideways for metres, hung with grey moss and furred with ferns, one of them dipping to the ground before it climbs again. It stands in a sandy clearing ringed by saw palmettos, at the start of the Wahlin Trail, a short loop through the woods behind the tree.",
+      "how_to_recognise": "A huge live oak in a sandy clearing, its limbs spreading sideways and hung with moss, with a bronze plaque set in a boulder beside it and a brown Florida Park Service sign.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Bulow_Creek_State_Park",
+        "https://en.wikipedia.org/wiki/List_of_Florida_state_parks",
+        "https://commons.wikimedia.org/wiki/File:Ormond_Beach_FL_Bulow_Creek_SP_Fairchild_Oak_plaque01.jpg",
+        "https://commons.wikimedia.org/wiki/File:Ormond_Beach_FL_Bulow_Creek_SP_Fairchild_Oak_sign01.jpg",
+        "A reader's photographs through the app, 2026-11-15, with a GPS fix"
+      ],
+      "found_by_reader": {
+        "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 evening session: sent by a reader through the app as 'Southern Live Oak', no note, three photographs with the photo's own location 29.38822, -81.13101 (submission 832). The boulder plaque and the brown park sign in the photographs are the Fairchild Oak's, matching Commons photographs by Ebyabe (plaque01, sign01, CC BY-SA 3.0). Plaque text read from Commons plaque01: dedicated by the Union Portland Cement Company to the memory of Dr. David Fairchild, the American botanist who introduced the soybean and many other valuable forms of plant life to the U.S.; 'as this tree has gladdened man's heart for 2000 years'. Sign (sign01): withstood hurricane winds, fires, droughts, wars for centuries; asks visitors not to climb. Wikipedia Bulow Creek State Park: the park's star, over four centuries old, among the largest of its kind in the southern US; Wahlin Trail a 0.3-mile loop through the woods behind the oak; open 8 a.m. to sundown. List of Florida state parks: almost 500 years. The reader gave age 600 (girth 32, not usable); age stored 400 to 600 with the reader's 600 named as theirs; the plaque's 2,000 quoted as the plaque's. Pin: the photo's GPS fix, which OSM puts at the head of the Skip Wahlin Nature Trail, confirmed. The same reader then dragged the pin 221 m south (submission 831) onto Jones Island Road, a track away from the trailhead; not followed, the GPS fix agrees with the trail's position behind the oak. Not on our map before (nearest tree 60 km, St Augustine).",
+      "access": "In Bulow Creek State Park off Old Dixie Highway, open daily from 8 a.m. to sundown; the oak stands in a clearing by the parking area at the start of the Wahlin Trail.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+        "date": "2026-11-15",
+        "note": "The location stored in the reader's photograph, at the head of the Wahlin Trail beside the oak."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_456665b8a773124350ec9019",
+        "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+        "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole oak from the clearing, moss-hung limbs spreading over the trunk, the plaque boulder at its foot, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-limbs.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_456665b8a773124350ec9019",
+          "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2",
+          "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the trunk at right with one long limb reaching across the clearing, the plaque boulder below, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The Fairchild Oak near Ormond Beach, Florida: how old it is and where it stands.",
+  "question_answer": "The Fairchild Oak is a southern live oak in Bulow Creek State Park, just north of Ormond Beach, Florida. It is over 400 years old by the park's Wikipedia page and almost 500 by the list of Florida state parks and about 600 by a reader's estimate; the plaque beside it says 2,000.",
+  "question_context": "The Fairchild Oak is a southern live oak in Bulow Creek State Park, a Florida state park on Old Dixie Highway about five miles north of Ormond Beach, near the Atlantic coast. The park holds one of the largest stands of southern live oak remaining on Florida's east coast, and the Fairchild Oak is its best-known tree, called among the largest of its kind in the southern United States. Its age is told three ways: over four centuries by the park's Wikipedia page, almost 500 years by the list of Florida state parks, and 2,000 years on the plaque beside it. The reader who sent it to us put it at about 600. No ring count has been published. The plaque, set in a boulder by the Union Portland Cement Company, dedicates the tree to the memory of David Fairchild, the American botanist it credits with bringing the soybean to the United States. A park service sign says it has come through hurricanes, fires, droughts and wars. The Wahlin Trail, a loop of about half a kilometre, runs through the woods behind it. The park is open every day from 8 a.m. to sundown.",
+  "faq": [
+    {
+      "q": "How old is the Fairchild Oak?",
+      "a": "Over 400 years by Wikipedia's page on the park, almost 500 by the list of Florida state parks. The plaque beside it says 2,000 years; no ring count has been published."
+    },
+    {
+      "q": "Where is the Fairchild Oak?",
+      "a": "In Bulow Creek State Park off Old Dixie Highway, north of Ormond Beach, at the start of the Wahlin Trail."
+    }
+  ]
+}

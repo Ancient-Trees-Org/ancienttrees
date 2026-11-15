@@ -882,10 +882,6 @@
    "lon": 28.9800221104096,
    "pin_checked": "2026-11-14"
   },
-  "aac60386-7889-4a79-831d-3b506278d45b": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "tip-680": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -1973,14 +1969,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "64e94530-a55e-4174-b649-85eda345db92": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "fc04d59e-bb37-4b00-b069-2a4d28ebcf05": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -2091,6 +2079,81 @@
    "lat": 48.158025,
    "lon": 11.4995166666667,
    "pin_checked": "2026-11-15"
+  },
+  "8e99752e-a501-45c2-8247-ab981c960467": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "460c96b9-89e2-41ac-a829-ec911be11ef7": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "57a70549-ac95-452e-894b-3bf467dc26ae": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gro_016",
+   "city_slug": "groningen",
+   "file": "gro_016-the-mespilifolia-oak-of-noorderplantsoen.jpg",
+   "reason": "Looked 2026-11-15 evening: the whole broad loose crown of the Mespilifolia oak on the east edge of the Noorderplantsoen, grey daylight, houses of Werfstraat behind; app match 18 m. First photograph of this tree. Species seen: a broad loose oak crown in autumn colour with narrow, textured leaves and ",
+   "lat": 53.2209583333333,
+   "lon": 6.555505,
+   "pin_checked": "2026-11-15"
+  },
+  "62eb3e8f-66ef-4dcb-9069-fac45b46797c": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gro_007",
+   "city_slug": "groningen",
+   "file": "gro_007-the-oak-of-martinikerkhof.jpg",
+   "reason": "Looked 2026-11-15 evening: the Martinikerkhof oak from its foot, trunk and thinning crown against a grey sky, as its recognition line describes; app match 13 m. Shot looking up, but it is this tree and its first photograph. Species seen: oak: deeply furrowed bark, crooked spreading limbs, lobed brow",
+   "lat": 53.22012,
+   "lon": 6.569195,
+   "pin_checked": "2026-11-15"
+  },
+  "b9cab82b-f47c-4dc3-bb04-b96abd73163c": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "gro_014",
+   "city_slug": "groningen",
+   "file": "gro_014-the-green-beeches-of-the-nieuwe-kerkhof-b9cab82b.jpg",
+   "reason": "Looked 2026-11-15 evening: a big beech in autumn leaf on the lawn beside the Nieuwe Kerk, daylight; app match 64 m. A reader's photograph leads (READER FIRST). Species seen: beech: smooth grey trunk, dense crown of oval leaves turning yellow, low sweeping branches. Fits the description: a big beech ",
+   "lat": 53.223305,
+   "lon": 6.56068,
+   "pin_checked": "2026-11-15"
+  },
+  "aac60386-7889-4a79-831d-3b506278d45b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "ads_002",
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+  },
+  "64e94530-a55e-4174-b649-85eda345db92": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "hum_002",
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+  },
+  "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mnc_002",
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+  },
+  "7547cfa4-55b8-4f9e-acab-06372df4a337": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lnt_001",
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
+  },
+  "b27e5e37-779c-4373-872e-6da86d1c3024": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mnc_001",
+   "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice."
   }
  }
 }

@@ -2690,8 +2690,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "held",
+   "why": "2026-11-15 evening, for Hidde: a contorted pagoda tree or robinia (pinnate leaves, knotted twisting limbs) seen looking straight up the trunk, GPS fix at the Mexikopusztai Betero inn, Fertoujlak, Hungary (Fertő-Hanság). No note, no name, no size; a striking tree but the frame shows no whole tree to recognise.",
    "seen": "2026-11-15"
   },
   {
@@ -2716,8 +2716,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "duplicate",
+   "why": "2026-11-15: the same photograph as e1144bea, sent again 27 seconds later.",
    "seen": "2026-11-15"
   },
   {
@@ -2742,8 +2742,92 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as nwc_001 (norwich.json): a big cedar of Lebanon in Norwich Cathedral's close, reader-found, hand pin approximate, no age",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "8e99752e-a501-45c2-8247-ab981c960467",
+   "user_id": "p_f1c3b912410e4fb008ba4100",
+   "mine": false,
+   "name": "English Hawthorn",
+   "species": "English Hawthorn (Crataegus laevigata)",
+   "age": "200",
+   "girth_cm": 50,
+   "girth_hugs": null,
+   "note": "It is unusual tall and large.",
+   "latitude": 39.4079133333333,
+   "longitude": -9.18772,
+   "photo": "p_f1c3b912410e4fb008ba4100/8E99752E-A501-45C2-8247-AB981C960467.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/8e99752e-a501-45c2-8247-ab981c960467-extra-1.jpg",
+    "out/sightings/8e99752e-a501-45c2-8247-ab981c960467-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "2026-11-15 evening: a hawthorn in full white blossom on a slope near Caldas da Rainha, Portugal, with a GPS fix; the reader calls it unusually tall and large, but it reads as a big bush, no age or measurement. Kept as a lead; a season row candidate, not a page.",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "460c96b9-89e2-41ac-a829-ec911be11ef7",
+   "user_id": "p_7a9ce110d7a1e1c831941fa0",
+   "mine": false,
+   "name": "A tree near Edinburgh",
+   "species": null,
+   "age": "320",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law",
+   "latitude": 56.0506471666667,
+   "longitude": -2.70704666666667,
+   "photo": "p_7a9ce110d7a1e1c831941fa0/460C96B9-89E2-41AC-A829-EC911BE11EF7.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "2026-11-15 evening, for Hidde: North Berwick Law with Exmoor ponies; the reader says a few trees planted for the 1707 Act of Union remain there, but the trees are small and far off in the frame, which tree is meant is unclear, and no written source for the Union planting found yet. The reader moved the pin 485 m (submission 826, 56.048197, -2.713510).",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+   "user_id": "p_456665b8a773124350ec9019",
+   "mine": false,
+   "name": "Southern Live Oak",
+   "species": "Southern Live Oak",
+   "age": "600",
+   "girth_cm": 32,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 29.3882216666667,
+   "longitude": -81.1310055,
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-1.jpg",
+    "out/sightings/0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "published 2026-11-15 as obc_001 (ormond-beach.json): the Fairchild Oak in Bulow Creek State Park, recognised by its plaque boulder and park sign; GPS fix confirmed; the reader's later 221 m drag (submission 831) onto a track not followed",
    "seen": "2026-11-15"
   }
  ]

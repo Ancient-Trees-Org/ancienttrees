@@ -499,7 +499,35 @@
   },
   "p_c7a4ca5cb6b3ec857ef912cc": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "57a70549-ac95-452e-894b-3bf467dc26ae",
+     "tree_id": "gro_016",
+     "tree_name": "The Mespilifolia Oak of Noorderplantsoen",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "62eb3e8f-66ef-4dcb-9069-fac45b46797c",
+     "tree_id": "gro_007",
+     "tree_name": "The Oak of Martinikerkhof",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "b9cab82b-f47c-4dc3-bb04-b96abd73163c",
+     "tree_id": "gro_014",
+     "tree_name": "The Green Beeches of the Nieuwe Kerkhof",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",

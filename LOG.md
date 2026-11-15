@@ -2,6 +2,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 late evening session: the rest of the reader inbox
+
+- **Product**: two more reader trees live (app first): the Fairchild Oak in Bulow Creek State Park near Ormond Beach, Florida (obc_001; over 400 years by Wikipedia, almost 500 by the state park list, about 600 by the reader, 2,000 on its plaque; GPS fix confirmed) and the cedar of Lebanon in Norwich Cathedral's close (nwc_001; no age found, hand pin approximate). First reader photographs for two Groningen trees (the Mespilifolia oak gro_016, the Martinikerkhof oak gro_007) and a reader's lead for the Nieuwe Kerkhof beeches (gro_014).
+- **Decided, not done**: the King of the Forest pin (dnk_010) stays. The same reader moved it 1.1 km (submission 744), but the new spot is by a road 600 m outside Muirward Wood, the photos carry no geotag, and their first pin, a second phone's sighting and the Forestry Commission all put it in the wood. Same for the Fairchild Oak: the reader's later 221 m drag (831) lands on a track, the GPS fix at the trailhead matches Wikipedia's "trail behind the oak".
+- **Closed**: reply draft 813 (Coldwaltham "Hawthorne" thumbnail) withdrawn: the reader took it back four minutes later (816: it is the photographer's name). Five queue photos that were already their reader tree's own lead closed.
+- **Held for Hidde**: North Berwick Law (trees for the 1707 Act of Union, per the reader; trees too small in the frame, no source), a contorted pagoda tree or robinia at an inn in Fertoujlak, Hungary (shot up the trunk, no note; sent twice), a flowering hawthorn near Caldas da Rainha (a big bush, a lead). The ANWB linden photo (df0d3965) stays in the queue as the earlier session left it.
+
 ## 2026-11-15 evening: a reader's words about the tree they add become their note
 
 - **Product**: what a reader writes about a tree they add becomes their note on its page once it is live, under their profile name, the Google Maps and komoot way (Hidde: "Ja, bouw het", "zeg dus ook dat het openbaar wordt", "Profielnaam, belofte aanpassen"). The website form says so under "Why is it remarkable?" ("Shows on the tree's page with your profile name."), no longer asks for a name, and no longer promises none is shown; the privacy page says it. `scripts/reader_text_notes.py --write` runs at every knock; words typed before the field said so stay private.

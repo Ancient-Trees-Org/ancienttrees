@@ -2936,6 +2936,267 @@
    "reason": "add: The weeping beech behind its rope fence by the Schwanenbrücke, late autumn, limbs whitened, visitors in front. A different frame from the two reader photos already on the page."
   },
   {
+   "id": "sight:a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig in Manaccan Church Wall",
+   "city": "Manaccan",
+   "species": "Common Fig (Ficus carica)",
+   "photo": "out/sightings/a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b-extra-3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as mnc_002: Historic England's listing calls it a very old fig and the parish puts it at 200 years or more, which answers the earlier hold; the reader's GPS fix sits at the wall, tower-and-wall photograph as lead, three more in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:64e94530-a55e-4174-b649-85eda345db92",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree",
+   "city": "Humboldt Redwoods State Park",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/64e94530-a55e-4174-b649-85eda345db92-extra-1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as hum_002: the trunk looking up is the lead, the 1957 sign in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-807",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Southover Grange Mulberry",
+   "city": "Lewes",
+   "species": "Mulberry (Morus sp.)",
+   "photo": "out/sightings/tip-807.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as lew_001: the whole railed mulberry in daylight, Parks and Gardens gives over 350 years; species left open, the reader's black mulberry quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-817",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Conishead Priory Cedar",
+   "city": "Ulverston",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/tip-817.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_001: the whole double-trunked cedar in daylight, Woodland Trust names cedar among the priory's specimen trees; pin at the priory, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-818",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Conishead Priory Douglas Fir",
+   "city": "Ulverston",
+   "species": "Douglas Fir (Pseudotsuga menziesii)",
+   "photo": "out/sightings/tip-818.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_002: the straight furrowed trunk in daylight, Woodland Trust names Douglas fir among the priory's specimen trees; the first-in-Britain belief stays the reader's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:df0d3965-9232-4870-95fe-5ec6d504830f",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The ANWB Linden of Wilhelminakade",
+   "city": "Groningen",
+   "species": "Common Lime (Tilia x europaea)",
+   "photo": "out/sightings/df0d3965-9232-4870-95fe-5ec6d504830f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 21,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Common Lime (Tilia x europaea)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e1144bea-fd53-4cc6-a71f-d523c763f64f",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_14d68ebe05b368493091ea08/E1144BEA-FD53-4CC6-A71F-D523C763F64F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Looked 2026-11-15: a contorted pagoda tree or robinia shot straight up the trunk at an inn in Fertoujlak, Hungary; no note, no size, no whole tree to recognise. For Hidde.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fbcb3c91-41f0-48d9-b573-f37e63ad0145",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_14d68ebe05b368493091ea08/FBCB3C91-41F0-48D9-B573-F37E63AD0145.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Duplicate of e1144bea, the same photograph sent again.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1306c000-ed52-40f3-ad73-c6f414c5dbff",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon near Hethersett",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
+   "reader_note": "In the grounds of Norwich Cathedral",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: a big cedar of Lebanon in Norwich Cathedral's close with the east end and spire behind, daylight; hand pin by the east end. Published as nwc_001 (Norwich), no age.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:8e99752e-a501-45c2-8247-ab981c960467",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "English Hawthorn",
+   "city": null,
+   "species": "English Hawthorn (Crataegus laevigata)",
+   "photo": "p_f1c3b912410e4fb008ba4100/8E99752E-A501-45C2-8247-AB981C960467.jpg",
+   "reader_note": "It is unusual tall and large.",
+   "reader_girth_cm": 50,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Hawthorn (Crataegus laevigata)"
+   },
+   "verdict": "lead",
+   "reason": "Looked 2026-11-15: a hawthorn in full blossom near Caldas da Rainha, reads as a big bush; the reader's 200 years and 50 cm girth do not make it big for its species. Lead, season row candidate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:460c96b9-89e2-41ac-a829-ec911be11ef7",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Edinburgh",
+   "city": null,
+   "species": null,
+   "photo": "p_7a9ce110d7a1e1c831941fa0/460C96B9-89E2-41AC-A829-EC911BE11EF7.jpg",
+   "reader_note": "There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Looked 2026-11-15: North Berwick Law with ponies in front; the trees the reader means (planted for the 1707 Act of Union) are small and far off, which one is unclear, and no written source yet. For Hidde.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Southern Live Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 32,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the Fairchild Oak in Bulow Creek State Park, its plaque boulder and park sign in frame, daylight, GPS fix at the Wahlin trailhead. Published as obc_001 (Ormond Beach): over 400 years by Wikipedia, almost 500 by the state park list, about 600 by the reader, 2,000 on the plaque.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -5766,82 +6027,134 @@
    "agreed": null
   },
   {
-   "id": "sight:a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
    "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Fig in Manaccan Church Wall",
-   "city": "Manaccan",
-   "species": "Common Fig (Ficus carica)",
-   "photo": "out/sightings/a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b-extra-3.jpg",
+   "kind": "a tree we do not map",
+   "tree": "The Fairchild Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
    "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
+   "reader_girth_cm": 32,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
    "verdict": "publish",
-   "reason": "Published as mnc_002: Historic England's listing calls it a very old fig and the parish puts it at 200 years or more, which answers the earlier hold; the reader's GPS fix sits at the wall, tower-and-wall photograph as lead, three more in the strip.",
+   "reason": "Looked 2026-11-15: the whole moss-hung oak with the plaque boulder, daylight, lead photograph of obc_001.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:64e94530-a55e-4174-b649-85eda345db92",
+   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2",
    "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Tall Tree",
-   "city": "Humboldt Redwoods State Park",
-   "species": "Coast Redwood (Sequoia sempervirens)",
-   "photo": "out/sightings/64e94530-a55e-4174-b649-85eda345db92-extra-1.jpg",
+   "kind": "a tree we do not map",
+   "tree": "The Fairchild Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
    "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
+   "reader_girth_cm": 32,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
    "verdict": "publish",
-   "reason": "Published as hum_002: the trunk looking up is the lead, the 1957 sign in the strip.",
+   "reason": "Looked 2026-11-15: the trunk with one long limb across the clearing, daylight, in the strip of obc_001.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:tip-807",
+   "id": "sight:1306c000-ed52-40f3-ad73-c6f414c5dbff",
    "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Southover Grange Mulberry",
-   "city": "Lewes",
-   "species": "Mulberry (Morus sp.)",
-   "photo": "out/sightings/tip-807.jpg",
-   "reader_note": "",
+   "kind": "a tree we do not map",
+   "tree": "The Norwich Cathedral Cedar",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
+   "reader_note": "In the grounds of Norwich Cathedral",
    "reader_girth_cm": null,
-   "measure": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
    "verdict": "publish",
-   "reason": "Published as lew_001: the whole railed mulberry in daylight, Parks and Gardens gives over 350 years; species left open, the reader's black mulberry quoted.",
+   "reason": "Looked 2026-11-15: the whole cedar with the cathedral behind, daylight, lead photograph of nwc_001.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:tip-817",
+   "id": "sight:57a70549-ac95-452e-894b-3bf467dc26ae",
    "seen": "2026-11-15",
    "kind": "photo of a tree we map",
-   "tree": "The Conishead Priory Cedar",
-   "city": "Ulverston",
-   "species": "Cedar of Lebanon (Cedrus libani)",
-   "photo": "out/sightings/tip-817.jpg",
+   "tree": "The Mespilifolia Oak of Noorderplantsoen",
+   "city": "Groningen",
+   "species": "Sessile Oak \"Mespilifolia\" (Quercus petraea \"Mespilifolia\")",
+   "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
    "verdict": "publish",
-   "reason": "Published as ulv_001: the whole double-trunked cedar in daylight, Woodland Trust names cedar among the priory's specimen trees; pin at the priory, approximate.",
+   "reason": "Looked 2026-11-15: the whole broad crown of the oak on the park's east edge, narrow autumn leaves, grey daylight; app match 18 m. First photograph of gro_016.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:tip-818",
+   "id": "sight:62eb3e8f-66ef-4dcb-9069-fac45b46797c",
    "seen": "2026-11-15",
    "kind": "photo of a tree we map",
-   "tree": "The Conishead Priory Douglas Fir",
-   "city": "Ulverston",
-   "species": "Douglas Fir (Pseudotsuga menziesii)",
-   "photo": "out/sightings/tip-818.jpg",
+   "tree": "The Oak of Martinikerkhof",
+   "city": "Groningen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
    "verdict": "publish",
-   "reason": "Published as ulv_002: the straight furrowed trunk in daylight, Woodland Trust names Douglas fir among the priory's specimen trees; the first-in-Britain belief stays the reader's.",
+   "reason": "Looked 2026-11-15: the oak from its foot, trunk and thinning crown, as its recognition line says; app match 13 m. First photograph of gro_007.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b9cab82b-f47c-4dc3-bb04-b96abd73163c",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Green Beeches of the Nieuwe Kerkhof",
+   "city": "Groningen",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: a big beech in autumn leaf beside the Nieuwe Kerk, daylight; app match 64 m. Added as the lead of gro_014 (reader first).",
    "hidde": null,
    "agreed": null
   }
