@@ -179,7 +179,23 @@
       "official_register": {
         "name": "Elenco degli alberi monumentali d'Italia (MASAF), Sicilia, no. 36/G273/PA/19",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pal_003-the-ficus-of-the-orto-botanico-61ca336b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_1b307984d390c70572636421",
+          "sighting_id": "61ca336b-c1eb-4f2a-8709-bcb29e63a2c6",
+          "note": "Photographed by a reader and sent through the app (2026-10-28); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "pal_004",

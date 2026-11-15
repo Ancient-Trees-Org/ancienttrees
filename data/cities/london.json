@@ -1884,7 +1884,37 @@
         "taken_month": 5
       },
       "story": "When Bromley built The Glades shopping centre in the 1980s, this oak was reprieved. It now stands beside Kentish Way, a veteran on the grass at the edge of a mall that opened in 1991.\n\nIt was here long before any of that. The Bromley Civic Society says the oak first stood on the corner of the grounds of Bromley Lodge, where they met Love Lane.\n\nHow long it has stood there is disputed. The Civic Society calls it over 500 years old; the 2010 Time Out guide to the Great Trees of London says about 400. Neither figure comes with a measurement behind it, and nobody has published a girth or a height, so read it as somewhere between four and five centuries and more than a little uncertain. If you have measured it, tell us.\n\nIt is one of the original 41 Great Trees of London, chosen when the list was first drawn up, and it is a strange thing to meet among the shoppers. If the Civic Society is right, it was already growing before Henry VIII broke with Rome. Recent reports of it are thin. If you pass it, tell us how it looks.\n\nIt is free to see from the pavement, eight minutes' walk from Bromley North station.",
-      "how_to_recognise": "You can recognise it as the lone veteran oak on the grass beside the road. It stands beside Kentish Way, on the edge of The Glades shopping centre grounds."
+      "how_to_recognise": "You can recognise it as the lone veteran oak on the grass beside the road. It stands beside Kentish Way, on the edge of The Glades shopping centre grounds.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_046-the-bromley-oak-cc260294.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_1a2207af288500d1031c52f6",
+          "sighting_id": "cc260294-0437-4efb-8c0f-5bf73fb0adf3",
+          "note": "Photographed by a reader and sent through the app (2026-10-01); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_046-the-bromley-oak-4fa5c2bb.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_1a2207af288500d1031c52f6",
+          "sighting_id": "4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800",
+          "note": "Photographed by a reader and sent through the app (2026-10-01); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "lon_047",

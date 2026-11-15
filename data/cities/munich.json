@@ -567,7 +567,23 @@
       "official_register": {
         "name": "Naturdenkmal (Landeshauptstadt München, LfU Bayern), no. ND-01978",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/muc_011-the-copper-beech-of-the-badenburg-a1e5696d.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "a1e5696d-07f6-4ad8-b33d-af8a195ee53a",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "muc_012",
@@ -618,7 +634,37 @@
         "url": null
       },
       "girth_cm": 420,
-      "height_m": 19
+      "height_m": 19,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/muc_012-the-leaning-lime-of-the-badenburger-see-f9aef0f0.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "f9aef0f0-825b-43a6-80c6-bdae5f77ce0d",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/muc_012-the-leaning-lime-of-the-badenburger-see-31f72d8f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "31f72d8f-0bcc-4df5-88a8-46c14bbbb5cf",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "muc_013",
@@ -682,6 +728,20 @@
           "width": 1650,
           "height": 2200,
           "taken_month": 8
+        },
+        {
+          "url": "https://ancienttrees.app/photos/muc_013-the-fern-leaved-beech-of-the-amalienburg-1d81ebf6.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "1d81ebf6-cb4f-4e67-80de-8f8122af0b3d",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
         }
       ]
     },

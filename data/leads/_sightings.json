@@ -2395,6 +2395,36 @@
    "status": "held",
    "why": "2026-11-15, for Hidde tomorrow: weeping beech in Magistratsparken, Malmo; superb photo but no GPS and no written source; needs an OSM or Malmo tree-map pin, or a GPS photo from the reader",
    "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+   "user_id": "p_a30725b92f30d3f70303155e",
+   "mine": false,
+   "name": "Dawn Redwood in Toronto",
+   "species": "Dawn Redwood",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 43.6670494088592,
+   "longitude": -79.2972264339565,
+   "photo": "p_a30725b92f30d3f70303155e/FE8FC7E4-9E16-48B5-96C0-E8C2AF7A020B.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b-extra-1.jpg",
+    "out/sightings/fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b-extra-2.jpg",
+    "out/sightings/fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b-extra-3.jpg"
+   ],
+   "nearest_published_m": 265,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-15"
   }
  ]
 }

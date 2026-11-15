@@ -74,7 +74,23 @@
         "url": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1465011.3205"
       },
       "girth_cm": 864,
-      "height_m": 18
+      "height_m": 18,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/war_001-dab-mieszko-i-king-mieszko-i-s-oak-5b8c4e7a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 8,
+          "source": "contributor",
+          "contributor_user_id": "p_3ede14c55de0e0de9b87562a",
+          "sighting_id": "5b8c4e7a-86a1-4b3f-a434-83e7a0945553",
+          "note": "Photographed by a reader and sent through the app (2026-08-02); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "war_002",

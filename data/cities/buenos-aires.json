@@ -80,6 +80,20 @@
           "width": 3456,
           "height": 2304,
           "taken_month": 5
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bai_001-the-gomero-de-la-recoleta-3325a9bc.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+          "sighting_id": "3325a9bc-9642-4364-8475-8f89d62e834d",
+          "note": "Photographed by a reader and sent through the app (2014-10-10); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
         }
       ],
       "pin_source": {

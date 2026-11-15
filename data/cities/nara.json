@@ -103,7 +103,23 @@
       "girth_cm": 720.0,
       "height_m": 22,
       "verify_notes": "Girth and height from the Environment Ministry's giant-tree database (巨樹・巨木林データベース), the only record for スギ (春日大社の大杉) at 春日大社, surveyed 2000年6月21日. Survey figures, so the tree has grown since.",
-      "how_to_recognise": "You can recognise it by the second tree growing from its base, reaching toward the neighbouring hall through a hole cut in the roof. It stands beside the Naoraiden, near Kasuga Taisha's inner gate."
+      "how_to_recognise": "You can recognise it by the second tree growing from its base, reaching toward the neighbouring hall through a hole cut in the roof. It stands beside the Naoraiden, near Kasuga Taisha's inner gate.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nra_002-the-great-cedar-of-kasuga-taisha-221f1245.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1067,
+          "taken_month": 4,
+          "source": "contributor",
+          "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+          "sighting_id": "221f1245-c4b5-4b97-a777-879f9f8bd9e7",
+          "note": "Photographed by a reader and sent through the app (2024-04-21); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "nra_003",

@@ -1447,25 +1447,29 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "cns_001",
-   "reason": "reader photo + GPS; council exceptional tree (Cairns Local News 2026-05-26)"
+   "reason": "reader photo + GPS; council exceptional tree (Cairns Local News 2026-05-26)",
+   "pin_checked": "2026-11-15"
   },
   "03075f0d-fbc2-4688-a90c-d8b21b484634": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "zak_001",
-   "reason": "reader photos + GPS; the old olive of Exo Chora, reader's age 2000 on the page"
+   "reason": "reader photos + GPS; the old olive of Exo Chora, reader's age 2000 on the page",
+   "pin_checked": "2026-11-15"
   },
   "95787cb8-c8c0-479f-896c-364441d93e93": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ilg_001",
-   "reason": "reader photo + GPS on a public trail; Ficus sp., the page asks"
+   "reason": "reader photo + GPS on a public trail; Ficus sp., the page asks",
+   "pin_checked": "2026-11-15"
   },
   "224b5518-e50e-4c58-a616-a79cddc0db23": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "alg_001",
-   "reason": "reader photos + GPS; Tarzan film story stated as legend"
+   "reason": "reader photos + GPS; Tarzan film story stated as legend",
+   "pin_checked": "2026-11-15"
   },
   "b6c42a88-4f55-4e46-89f5-1acdf5703851": {
    "outcome": "lead",
@@ -1475,7 +1479,8 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "zps_001",
-   "reason": "reader photo + GPS in the Helia Bravo Hollis botanical garden; Beaucarnea sp."
+   "reason": "reader photo + GPS in the Helia Bravo Hollis botanical garden; Beaucarnea sp.",
+   "pin_checked": "2026-11-15"
   },
   "tip-763": {
    "outcome": "lead",
@@ -1744,6 +1749,10 @@
    "lat": 50.9838333333333,
    "lon": -3.35166666666667,
    "pin_checked": "2026-11-15"
+  },
+  "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b": {
+   "outcome": "lead",
+   "date": "2026-11-15"
   }
  }
 }
