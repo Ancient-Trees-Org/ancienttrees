@@ -2,6 +2,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 evening: a reader's words about the tree they add become their note
+
+- **Product**: what a reader writes about a tree they add becomes their note on its page once it is live, under their profile name, the Google Maps and komoot way (Hidde: "Ja, bouw het", "zeg dus ook dat het openbaar wordt", "Profielnaam, belofte aanpassen"). The website form says so under "Why is it remarkable?" ("Shows on the tree's page with your profile name."), no longer asks for a name, and no longer promises none is shown; the privacy page says it. `scripts/reader_text_notes.py --write` runs at every knock; words typed before the field said so stay private.
+- **App**: the same line under "What makes this tree special?" (TreeDetail.swift), looked at in the simulator. It reaches people with the next build; `APP_SINCE` in reader_text_notes.py stays None until that build is in the App Store (the releasing session sets it). Android copies it before its next release.
+- Correction to what I told Hidde earlier: photo text was never turned into notes; only the note field after collecting is.
+
 ## 2026-11-15 20:00 session: New from visitors stood still
 
 - **Product**: the homepage's New from visitors row now carries readers' new trees (Humboldt's Tall Tree, Manaccan, Lytham, Glasgow, Lewes and others were missing), and each tile shows the photograph that visitor sent, not the tree's older lead.
