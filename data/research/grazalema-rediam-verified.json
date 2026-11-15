@@ -97,56 +97,6 @@
     "how_to_recognise": "You can recognise it by the hollow trunk, 5.40 metres round, with bark patterned like braid, a broad oak among planted maritime pines. It stands at the Puerto de los Acebuches, where the Llanos del Rabel trail starts."
   },
   {
-    "id": "sgz_003",
-    "register_id": "rediam_744",
-    "name": "The Wild Olive of Ocuri",
-    "species": "Wild Olive (Olea europaea var. sylvestris)",
-    "age_estimate": null,
-    "age_min": null,
-    "age_max": null,
-    "age_basis": null,
-    "girth_cm": 430,
-    "height_m": 10.5,
-    "location": {
-      "address": "Roman ruins of Ocuri, Salto de la Mora, Ubrique, Cadiz",
-      "latitude": 36.68724,
-      "longitude": -5.447097,
-      "neighbourhood": "Ubrique"
-    },
-    "location_precision": "approximate",
-    "location_site": {
-      "name": "Roman city of Ocuri (forum area)",
-      "radius_m": 50
-    },
-    "pin_evidence": "Register coordinate only; no photograph of the tree found. Sheet places it beside the ruins of the old farmhouse of the 18th-century landowner who looked after the ruins.",
-    "verified_sources": [
-      "http://www.juntadeandalucia.es/medioambiente/BIO/DOC/ARB_SING/PDFs/Arb_744.pdf",
-      "https://www.andalucia.com/province/cadiz/ubrique/roman-city-ocuri",
-      "https://www.ugr.es/universidad/noticias/foro-romano-ocuri-ubrique-trabajo-arqueologico-ugr"
-    ],
-    "official_register": {
-      "name": "Arboles y arboledas singulares de Andalucia (REDIAM)",
-      "url": "http://www.juntadeandalucia.es/medioambiente/BIO/DOC/ARB_SING/PDFs/Arb_744.pdf",
-      "id": "rediam_744"
-    },
-    "access": "Guided visits only, booked in advance, Tuesday to Sunday with times by season; about 1 km on foot from the entry gate. Check the site's booking page.",
-    "transport": "About 1 km north of Ubrique on the A-374; park at the Venta Ocuris visitor centre. Ubrique is roughly 20 to 25 km from Grazalema by road.",
-    "alive_evidence": "No dated evidence for this tree. Hispanopedia (a Wikipedia mirror) says an acebuche over 700 years old stands in the old forum, unsourced; not used as an age.",
-    "facts": [
-      "Sheet: girth 4.30 m at 1.30 m, 9.00 m at the base, height 10.5 m, trunk short and straight (1.8 m), partly hollow and debarked, irregular crown 8.0 by 9.7 m. Source: sheet PDF.",
-      "Sheet: listed for trunk size and its setting among the ruins of the Roman city of Ocuri; the hollow, stripped trunk and irregular crown give it an archaic look. Source: sheet PDF.",
-      "Sheet: it grows on the hill Salto de la Mora in the Sierra de Benalfi, right by the ruins of the house of Juan Vegazo, the farmer who bought the land in the late 18th century and spent his time caring for the ruins. Source: sheet PDF.",
-      "University of Granada excavations (2024 news) identified the Roman forum of Ocuri at this hill, confirming an 18th-century hypothesis of the local scholar Juan Vegazo. Source: UGR news URL.",
-      "Visit: guided tours only; the site is about 1 km north of Ubrique. Source: andalucia.com URL."
-    ],
-    "photo_leads": [],
-    "verify_notes": "Register-only for the tree itself (the andalucia.com and UGR pages are about the site, not the tree). Unsourced '700 years' claim in Hispanopedia not carried as age. Access: bookable guided tour counts as public. Which olive on the hill is not settled beyond the register point and the sheet's 'beside the Vegazo house ruins' clue. No photo, no confirmed pin: needs one to ship.",
-    "curation_status": "flagged",
-    "story": "This wild olive grows among the ruins of a Roman city, beside the ruined house of the man who first argued the city's forum was here. Juan Vegazo was a farmer who bought this hill above Ubrique in the late eighteenth century and spent his time looking after its ruins. In 2024 excavations by the University of Granada identified the forum of Ocuri on the hill and confirmed his hypothesis, a little over two centuries late.\n\nThe olive is an acebuche, the wild form, and an archaic-looking one. The Junta de Andalucia's register measures a girth of 4.30 metres at chest height and 9 metres at the base, on a short, straight trunk that is partly hollow and stripped of its bark, under an irregular crown. It is 10.5 metres tall and listed for that trunk and for where it stands.\n\nHow old it is, nobody has shown. A figure of over 700 years circulates online with no source behind it, and the register gives no age at all. If you know of a real estimate, tell us.\n\nOcuri can only be visited on a guided tour booked in advance, with about a kilometre on foot from the entry gate on the hill called Salto de la Mora, just north of Ubrique. No photograph of this tree has been published, so ask the guide which olive stands by the Vegazo house.",
-    "how_to_recognise": "You can recognise it by the short, partly hollow trunk stripped of bark, 9 metres round at the base, under an irregular crown. It stands among the ruins of Ocuri, beside the remains of Juan Vegazo's farmhouse.",
-    "hold": "guided visit only, booked in advance; preflight (hard rule 10) reads a booked tour as needing permission, so it waits until the site opens for free visits or Hidde rules on booked visits (2026-11-03)"
-  },
-  {
     "id": "sgz_004",
     "register_id": "rediam_740",
     "name": "The Pinsapo of El Taramal",
