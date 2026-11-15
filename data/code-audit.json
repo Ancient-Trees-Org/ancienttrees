@@ -329,6 +329,17 @@
    "status": "open",
    "found_by": "hidde",
    "test": "preflight check_app_first_fields_reach_the_site(): every tree key app-first.ts reads is named in treeSchema"
+  },
+  {
+   "id": "APP-UX-remove-from-want-to-visit",
+   "surface": "APP",
+   "kind": "UX",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Home.swift:711",
+   "summary": "A tree cannot be taken off Want to visit from the list: the tiles carry the share disc where every other list card carries the bookmark, so removing means opening the tree first. A reader who collected Tane Mahuta could not find it (submission 756, 2026-11-15).",
+   "fix": "Either the filled bookmark back on the tile (top right, as on every card; Airbnb wishlists, AllTrails) with share beside it, or an overflow menu with Remove and Share (Google Maps lists). Web and Android the same. CONVENTIONS.md 'Taking a tree off Want to visit from the list itself'.",
+   "first_seen": "2026-11-15",
+   "status": "open",
+   "note": "Hidde, 2026-11-15: \"bewaar deze vraag op de backlog voor n later moment\". His call which of the two; not a run's."
   }
  ]
 }
