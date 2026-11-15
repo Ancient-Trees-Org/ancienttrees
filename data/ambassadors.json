@@ -482,6 +482,36 @@
         "Mariam Dearit"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f1fa71dcb9e46093382f0068",
+      "place_slug": "algiers",
+      "place_name": "Algiers",
+      "date": "2026-11-15",
+      "trees": [
+        "The Tarzan Tree"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d7137f4f3088b38a72b82400",
+      "place_slug": "cairns",
+      "place_name": "Cairns",
+      "date": "2026-11-15",
+      "trees": [
+        "The Toogood Road Fig"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7c3ed65ef79fcc37ae268850",
+      "place_slug": "ilha-grande",
+      "place_name": "Ilha Grande",
+      "date": "2026-11-15",
+      "trees": [
+        "The Fig on the Abraãozinho Trail"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [

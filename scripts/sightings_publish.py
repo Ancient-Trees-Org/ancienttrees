@@ -487,7 +487,14 @@ def mail_for(trees, first, display_name=None):
     HIS_VOICE.md 2026-10-20). Signed Ancient Trees, never as Hidde."""
     name = (display_name or "").strip()
     hi = f"Hi {name}," if name else "Hi,"
-    pages = [(t["tree_name"], t["city"], page_url(t)) for t in trees]
+    # One line per tree, however many of its photographs went live (2026-11-15:
+    # two photos of the Coldwaltham Yew listed the yew twice).
+    seen, unique = set(), []
+    for t in trees:
+        if t.get("tree_id") not in seen:
+            seen.add(t.get("tree_id"))
+            unique.append(t)
+    pages = [(t["tree_name"], t["city"], page_url(t)) for t in unique]
     if len(pages) == 1:
         tree, city, page = pages[0]
         subject = f"Your photo is on the page of {tree}"
@@ -525,6 +532,15 @@ def queue_mail(entry, today):
 def flush_mail(really, today):
     """Send what is due: a first mail at once, a bundle once the gap has passed."""
     doc = load(MAILED, {"readers": {}})
+    # ONE MAIL A DAY FROM US, WHATEVER THE ROUTE (2026-11-15, the Guardian
+    # day: readers who had a congratulation, a reply or an ambassador answer
+    # that afternoon were about to get this one as well). Somebody in the send
+    # log today waits for tomorrow's knock.
+    try:
+        log = json.load(open(os.path.join(ROOT, "data", "outreach-sent.json"), encoding="utf-8"))
+        mailed_today = {str(s.get("to") or "").lower() for s in log.get("sent", []) if s.get("date") == today}
+    except (OSError, ValueError):
+        mailed_today = set()
     for ref, r in doc["readers"].items():
         if not r["pending"] or ours.is_ours(ref):
             continue
@@ -536,6 +552,9 @@ def flush_mail(really, today):
         addr = address_of(people.uid(ref))
         if not addr:
             print(f"  mail {ref}: no address resolved (no service key, or account gone)")
+            continue
+        if addr.lower() in mailed_today:
+            print(f"  mail {ref}: mailed by us today already, tomorrow's knock")
             continue
         subject, body = mail_for(r["pending"], first=not r["last"],
                                  display_name=r["pending"][-1].get("display_name"))

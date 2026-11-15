@@ -217,11 +217,26 @@ def pull():
     r = remote()
     if not r:
         sys.exit("private_store: the table is empty or unreachable; refusing to continue (no send may run)")
+    # A PULL NEVER THROWS AWAY A LOCAL CHANGE THAT WAS NOT PUSHED (2026-11-15:
+    # a reply was mailed, the log line was written here, then a pull before the
+    # push overwrote it, and the one-mail-a-day guard no longer knew that
+    # reader had been mailed). A file changed on disk since the last pull is
+    # merged with the remote, the way push merges, and the next push sends it.
+    snap = _snapshot() or {}
+    kept = 0
     for path, content in r.items():
         dest = os.path.join(ROOT, path)
+        if snap and os.path.exists(dest):
+            with open(dest, encoding="utf-8") as fh:
+                here = fh.read()
+            if here != content and snap.get(path) is not None and _hash(here) != snap.get(path):
+                content = merged(path, here, content)
+                kept += 1
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as fh:
             fh.write(content)
+    if kept:
+        print(f"private_store: kept {kept} local change(s) not pushed yet, merged; push them")
     _save_snapshot({p: _hash(c) for p, c in r.items()})
     print(f"private_store: pulled {len(r)} file(s)")
 

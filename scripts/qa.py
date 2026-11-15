@@ -1017,6 +1017,53 @@ def check_a_photo_is_a_visit_on_every_surface():
     return out
 
 
+def check_a_pull_keeps_unpushed_send_lines():
+    """private_store.py pull never throws away a send-log line written here
+    and not pushed yet (2026-11-15: a reply's line was lost that way, and the
+    one-mail-a-day guard stopped knowing the reader had been mailed). Runs
+    pull() in a temp folder against a fake remote: a local line survives, and
+    with no local change the remote still wins. Removing this check needs Hidde."""
+    import tempfile
+    import importlib
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    try:
+        ps = importlib.import_module("private_store")
+    except Exception as e:
+        return ["private_store.py does not import (%s)" % str(e)[:80]]
+    saved = {k: getattr(ps, k) for k in ("ROOT", "_snapshot", "_save_snapshot", "remote")}
+    out = []
+    try:
+        tmp = tempfile.mkdtemp()
+        ps.ROOT = tmp
+        path = "data/outreach-sent.json"
+        os.makedirs(os.path.join(tmp, "data"))
+        base = json.dumps({"sent": [{"date": "d", "to": "a"}]}, indent=1) + "\n"
+        remote_txt = json.dumps({"sent": [{"date": "d", "to": "a"}, {"date": "d", "to": "b"}]}, indent=1) + "\n"
+        ps._snapshot = lambda: {path: ps._hash(base)}
+        ps._save_snapshot = lambda s: None
+        ps.remote = lambda keys=None: {path: remote_txt}
+        with open(os.path.join(tmp, path), "w") as fh:
+            fh.write(json.dumps({"sent": [{"date": "d", "to": "a"}, {"date": "d", "to": "local"}]}, indent=1) + "\n")
+        import contextlib
+        import io
+        with contextlib.redirect_stdout(io.StringIO()):
+            ps.pull()
+        got = {s["to"] for s in json.load(open(os.path.join(tmp, path)))["sent"]}
+        if got != {"a", "b", "local"}:
+            out.append("private_store.py pull overwrote a send-log line that was not pushed (%s)" % sorted(got))
+        with open(os.path.join(tmp, path), "w") as fh:
+            fh.write(base)
+        with contextlib.redirect_stdout(io.StringIO()):
+            ps.pull()
+        got = {s["to"] for s in json.load(open(os.path.join(tmp, path)))["sent"]}
+        if got != {"a", "b"}:
+            out.append("private_store.py pull no longer takes the remote when nothing changed here (%s)" % sorted(got))
+    finally:
+        for k, v in saved.items():
+            setattr(ps, k, v)
+    return out
+
+
 def check_no_daily_cap_on_reader_mail():
     """The daily mail cap is for outreach only (Hidde, 2026-11-15: "de limiet
     moet niet staan voor interne mails alleen voor outreach"). On the Guardian
@@ -3978,6 +4025,7 @@ def main():
 
     SOURCE_ONLY = [
         check_no_daily_cap_on_reader_mail,
+        check_a_pull_keeps_unpushed_send_lines,
         check_run_prompt_forbids_compound_commands,
         check_run_prompt_carries_no_expression,
         check_workflows_carry_no_empty_expression,

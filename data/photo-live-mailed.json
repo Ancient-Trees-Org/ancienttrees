@@ -66,106 +66,66 @@
    ]
   },
   "p_e8dba228047f1ba460227fd8": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d8994b07-93c9-41a0-ae09-ab417f322b93",
      "tree_id": "lon_007",
-     "tree_name": "The Fulham Palace Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "6f2cee0c-369d-4da5-a2e3-6e08f138a29f",
      "tree_id": "lon_008",
-     "tree_name": "Barney the Plane",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "eb811a74-663f-476f-bf0f-349d058508e0",
      "tree_id": "lon_018",
-     "tree_name": "The Ravenscourt Park Baobab Plane",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "de5a4012-4b39-4c52-a609-17cfdf464496",
      "tree_id": "lon_001",
-     "tree_name": "The Totteridge Yew",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "9f053596-3d72-460c-9c2a-bcd702cea329",
      "tree_id": "lon_023",
-     "tree_name": "The Ravenscourt Park Tree of Heaven",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "13cd8329-6443-4201-9f70-3476e77735db",
      "tree_id": "lon_002",
-     "tree_name": "The Royal Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "9b7fd3c7-4236-4ea1-bfa7-c49c49b9766f",
      "tree_id": "lon_044",
-     "tree_name": "The Windrush Square Plane",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f7e53d17b9a7a7c4a1afc72f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c62d8c77-f078-478f-babf-1c12d2426ef4",
      "tree_id": "gla_005",
-     "tree_name": "The Argyle Street Ash",
-     "city": "Glasgow",
-     "city_slug": "glasgow",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "fa4a82fc-0a92-44c1-9e79-af7c190e6c26",
      "tree_id": "gla_005",
-     "tree_name": "The Argyle Street Ash",
-     "city": "Glasgow",
-     "city_slug": "glasgow",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "d1f0b3c4-247f-4f5b-8b34-f2e44c765fef",
      "tree_id": "tfe_001",
-     "tree_name": "El Drago Milenario",
-     "city": "Tenerife",
-     "city_slug": "tenerife",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_1a2207af288500d1031c52f6": {
    "last": null,
@@ -192,34 +152,26 @@
    "sent": []
   },
   "p_4e1fe1fc8bd36786c2e5a60d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b6de562f-6088-4028-8282-6efdc39559b1",
      "tree_id": "bfs_001",
-     "tree_name": "The Belvoir Oak",
-     "city": "Belfast",
-     "city_slug": "belfast",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_29ac2d9e89855bf4d66c133c": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "df49a8de-865b-4c64-b7c1-31f1a48aba30",
      "tree_id": "kef_001",
-     "tree_name": "The Plane of Saint Gerasimos, Omala",
-     "city": "Kefalonia",
-     "city_slug": "kefalonia",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_19c6a1525dd9489be783caa4": {
    "last": null,
@@ -261,19 +213,15 @@
    "sent": []
   },
   "p_20f572b893cc30e44a00d316": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "60a694a0-639f-46e3-bebb-7a3d1a8edcff",
      "tree_id": "azo_001",
-     "tree_name": "Giant Australian Rubber Tree of Jardim Antonio Borges",
-     "city": "Azores",
-     "city_slug": "azores",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_9f7b25dda38d08dabcad19bf": {
    "last": null,
@@ -333,19 +281,15 @@
    "sent": []
   },
   "p_01e51ab3c21b629be200e5b1": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "83ca6e1f-93af-48de-82a5-698ce992b7bc",
      "tree_id": "bri_016",
-     "tree_name": "The Bundle-planted Sessile Oak, Bishops Knoll",
-     "city": "Bristol",
-     "city_slug": "bristol",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_e3c1300149c1256c54642733": {
    "last": null,
@@ -363,19 +307,15 @@
    "sent": []
   },
   "p_f1ffab703af7193c41011b93": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "16e3ea1f-de46-43eb-b9da-8741d5212cd6",
      "tree_id": "mtn_001",
-     "tree_name": "Stara Maslina (Old Olive Tree of Mirovica)",
-     "city": "Bar",
-     "city_slug": "bar",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_5329d52ff075fc126d002f6b": {
    "last": null,
@@ -408,58 +348,42 @@
    "sent": []
   },
   "p_e330bf07c42b65d7f56108c1": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d8741ffa-ffe6-42a8-ae19-7d788689baa5",
      "tree_id": "pal_001",
-     "tree_name": "The Ficus of Piazza Marina",
-     "city": "Palermo",
-     "city_slug": "palermo",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_53e5eeacd2e1f82aeabf0d49": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "885730b7-88ca-40a6-9a30-0f36ad6990c0",
      "tree_id": "dnk_002",
-     "tree_name": "The Birnam Oak",
-     "city": "Dunkeld",
-     "city_slug": "dunkeld",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e",
      "tree_id": "dnk_002",
-     "tree_name": "The Birnam Oak",
-     "city": "Dunkeld",
-     "city_slug": "dunkeld",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_a34305df524a02846d85ddf5": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "308bdeb2-c35d-42ec-9bad-357b10a5f0b5",
      "tree_id": "yor_002",
-     "tree_name": "The Cut-Leaved Hornbeam",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f1fa71dcb9e46093382f0068": {
    "last": null,
@@ -513,118 +437,78 @@
    "sent": []
   },
   "p_bf0eb996e2b54d6b87dae9bf": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
      "tree_id": "lon_045",
-     "tree_name": "The Lewisham Elm",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "dd4f855b-da7e-4514-81ee-19b1e3bc7991",
      "tree_id": "lon_010",
-     "tree_name": "The Evelyn Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_c7a4ca5cb6b3ec857ef912cc": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",
      "tree_id": "gro_014",
-     "tree_name": "The Green Beeches of the Nieuwe Kerkhof",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "50c5d727-3dc2-417e-bf7b-68ed8571acfc",
      "tree_id": "gro_020",
-     "tree_name": "The Pollarded Lindens of the Pepergasthuis",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_33b43ae363d99d9b3112f7f6": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "29a3d214-ea17-429e-91f2-0e64ba8b92af",
      "tree_id": "muc_014",
-     "tree_name": "The Weeping Beech of the Schwanenbrücke",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "2b68eb5f-caed-4885-a608-0a681ac247df",
      "tree_id": "muc_014",
-     "tree_name": "The Weeping Beech of the Schwanenbrücke",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "89d27221-8722-4d67-8d33-7abe587c972e",
      "tree_id": "muc_013",
-     "tree_name": "The Fern-leaved Beech of the Amalienburg",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "f6fa1119-6000-4eb8-8b15-f5d3048aeb7c",
      "tree_id": "muc_007",
-     "tree_name": "The Oak of the Dörfchen, Nymphenburg",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "6baa97c2-a63b-4601-972b-b6174e4f4220",
      "tree_id": "muc_007",
-     "tree_name": "The Oak of the Dörfchen, Nymphenburg",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_67f40f008448bb6d82520a6c": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d03263bf-a5fc-41cf-8e93-4193c708bee9",
      "tree_id": "bhm_002",
-     "tree_name": "The Brace Elm",
-     "city": "Brighton",
-     "city_slug": "brighton",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_492afbdde23d69af867aff0f": {
    "last": null,
@@ -669,19 +553,15 @@
    "sent": []
   },
   "p_5791f5ba6aa18b7e63864c15": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b5a91a45-8cfd-41d6-b9a6-8cd069d98237",
      "tree_id": "mtf_001",
-     "tree_name": "Great Plane of Mottisfont",
-     "city": "Mottisfont",
-     "city_slug": "mottisfont",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_3bb2d9b77f839015a3f92de9": {
    "last": null,
