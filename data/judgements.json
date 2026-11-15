@@ -120,8 +120,8 @@
     "score": null,
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
-   "verdict": "hold",
-   "reason": "This is the Linford Lime of Great Linford Manor Park, already live as mkn_001 with a photograph; nothing new to publish.",
+   "verdict": "publish",
+   "reason": "Merged into mkn_001 the Linford Lime (same tree: Milton Keynes, pollarded veteran lime, 2015 shortlisting); photo in the strip.",
    "hidde": null,
    "agreed": null
   },
@@ -3286,6 +3286,22 @@
    "measure": null,
    "verdict": "publish",
    "reason": "In the strip of lon_023: the whole tree of heaven above the Ravenscourt Park lawn on a sunny day.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-680",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Linford Lime",
+   "city": "Milton Keynes",
+   "species": "Common Lime (Tilia x europaea)",
+   "photo": "out/sightings/tip-680.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "In the strip of mkn_001.",
    "hidde": null,
    "agreed": null
   }
