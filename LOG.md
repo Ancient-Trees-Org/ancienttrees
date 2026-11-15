@@ -5,6 +5,7 @@
 ## 2026-11-15 window 16:45 UTC: reader photographs (rung 1)
 
 - **Product**: King Jan's Linden (Warsaw, war_007) has its first photograph, a reader's; the Copenhagen beech photo was already in its strip. Of the 9 untied sightings, 6 now have a verdict: the Linton Yew (Herefordshire, 950 cm girth, church yew) and a large Monterey cypress (Cornwall) are worth pages, to verify and publish as new trees; the Giant Tree and Tall Tree plaque (Rockefeller Forest, Humboldt) wait on the register; the church-corner fig and a young Melbourne jacaranda held. Three tip trees with no coordinate (tip-807, 817, 818) still have no verdict.
+- Then published both worthy ones as new reader trees, app-first: The Linton Yew (lnt_001, Herefordshire; 1,500 years stated as the Friends of Linton Yews' and the reader's figure, the concrete stilts only as the reader's report) and a Monterey cypress at Carne, Manaccan (mnc_001, Cornwall). Preflight 0 problems; write pass about 129k tokens (session-style).
 - Broke again: `judgement.py --scan` cannot stub a sighting once `sightings_publish.py` has emptied the queue; stubbed by hand (out/tmp/stub1115.py).
 
 ## 2026-11-15 night window 15:00 UTC: reader photographs and rung 2
