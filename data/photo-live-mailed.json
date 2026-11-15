@@ -676,139 +676,95 @@
    "sent": []
   },
   "p_3ede14c55de0e0de9b87562a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "5b8c4e7a-86a1-4b3f-a434-83e7a0945553",
      "tree_id": "war_001",
-     "tree_name": "Dab Mieszko I (King Mieszko I's Oak)",
-     "city": "Warsaw",
-     "city_slug": "warsaw",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "770b668b-0152-47a4-9822-70e04183b599",
      "tree_id": "sev_044",
-     "tree_name": "The Cardón of the Expo",
-     "city": "Seville",
-     "city_slug": "seville",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_750f04647522883bc20e3a13": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "56342639-17a9-44b9-a876-bfe3cfa658dc",
      "tree_id": "yor_003",
-     "tree_name": "The Pear-Barked Beech",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "b24fa509-4aa6-42fc-9fda-04282a20e481",
      "tree_id": "yor_002",
-     "tree_name": "The Cut-Leaved Hornbeam",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f2672ab7bbb88b12a4928f3e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "89fa82ed-c931-4070-a67b-e17d62682c1e",
      "tree_id": "mdr_005",
-     "tree_name": "The Witch Tree of Fanal",
-     "city": "Madeira",
-     "city_slug": "madeira",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_d00d72ab54e49aca19cb8386": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "cfcad2b9-4ce3-49f8-bf53-a03f156c8794",
      "tree_id": "dre_019",
-     "tree_name": "The Weeping Beech of Helfenberg Park",
-     "city": "Dresden",
-     "city_slug": "dresden",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "90aa5d92-64b3-439f-b2b3-a56cc8b41136",
      "tree_id": "dre_005",
-     "tree_name": "The Kaditzer Linde",
-     "city": "Dresden",
-     "city_slug": "dresden",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_1b307984d390c70572636421": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "61ca336b-c1eb-4f2a-8709-bcb29e63a2c6",
      "tree_id": "pal_003",
-     "tree_name": "The Ficus of the Orto Botanico",
-     "city": "Palermo",
-     "city_slug": "palermo",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_89503f3702c2ed81ce8725f5": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1087f3e1-a05d-4055-a4b1-f87b31408478",
      "tree_id": "vld_001",
-     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
-     "city": "Valdemārpils",
-     "city_slug": "valdemarpils",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "70750b4c-9722-4eba-9a2f-d6e681674c27",
      "tree_id": "vld_001",
-     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
-     "city": "Valdemārpils",
-     "city_slug": "valdemarpils",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "288a3a8f-8645-44cd-ac41-f14e5e827531",
      "tree_id": "vld_001",
-     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
-     "city": "Valdemārpils",
-     "city_slug": "valdemarpils",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   }
  }
 }
