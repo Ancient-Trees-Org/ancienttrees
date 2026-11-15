@@ -1835,6 +1835,435 @@
    "reason": "strip: The Ashbrittle Yew's cast plaque (Taxus baccata, reputed to be over 3000 years old), photographed at dusk but readable. A gallery photo, not the lead."
   },
   {
+   "id": "sight:5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Toogood Road Fig",
+   "city": "Cairns",
+   "photo": "out/sightings/5ebfb2e9-b400-49f6-9383-68ed78f7a7a9.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree, looked at 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:03075f0d-fbc2-4688-a90c-d8b21b484634",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Old Olive of Exo Chora",
+   "city": "Zakynthos",
+   "photo": "out/sightings/03075f0d-fbc2-4688-a90c-d8b21b484634.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree, looked at 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:95787cb8-c8c0-479f-896c-364441d93e93",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig on the Abraaozinho Trail",
+   "city": "Ilha Grande",
+   "photo": "out/sightings/95787cb8-c8c0-479f-896c-364441d93e93.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree, looked at 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:224b5518-e50e-4c58-a616-a79cddc0db23",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Tarzan Tree",
+   "city": "Algiers",
+   "photo": "out/sightings/224b5518-e50e-4c58-a616-a79cddc0db23.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree, looked at 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e229a150-5543-4042-992c-6f98125afa85",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Elephant's Foot of Zapotitlan",
+   "city": "Zapotitlan Salinas",
+   "photo": "out/sightings/e229a150-5543-4042-992c-6f98125afa85.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree, looked at 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1d81ebf6-cb4f-4e67-80de-8f8122af0b3d",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fern-leaved Beech of the Amalienburg",
+   "city": "Munich",
+   "species": "Fern-leaved Beech (Fagus sylvatica f. asplenifolia)",
+   "photo": "out/sightings/1d81ebf6-cb4f-4e67-80de-8f8122af0b3d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 16,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fern-leaved Beech (Fagus sylvatica f. asplenifolia)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:216338b4-a159-48ae-a60a-676e2a9122fb",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fortingall Yew",
+   "city": "Fortingall",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/216338b4-a159-48ae-a60a-676e2a9122fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 9,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cc260294-0437-4efb-8c0f-5bf73fb0adf3",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Bromley Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/cc260294-0437-4efb-8c0f-5bf73fb0adf3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Bromley Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:221f1245-c4b5-4b97-a777-879f9f8bd9e7",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Cedar of Kasuga Taisha",
+   "city": "Nara",
+   "species": "Japanese Cedar (Cryptomeria japonica)",
+   "photo": "out/sightings/221f1245-c4b5-4b97-a777-879f9f8bd9e7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Cedar (Cryptomeria japonica)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:89fa82ed-c931-4070-a67b-e17d62682c1e",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Witch Tree of Fanal",
+   "city": "Madeira",
+   "species": "Til / Stinkwood (Ocotea foetens)",
+   "photo": "out/sightings/89fa82ed-c931-4070-a67b-e17d62682c1e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Til / Stinkwood (Ocotea foetens)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3325a9bc-9642-4364-8475-8f89d62e834d",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Gomero de la Recoleta",
+   "city": "Buenos Aires",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/3325a9bc-9642-4364-8475-8f89d62e834d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:53809b69-6932-4e7a-8637-7dc24938117d",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Marton Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_492afbdde23d69af867aff0f/53809B69-6932-4E7A-8637-7DC24938117D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "hold",
+   "reason": "For Hidde tomorrow: the Marton Oak (plaque in the reader's photo) stands on private land, owner's permission needed to view per Wikipedia; ships if it is plainly visible from Oak Lane. Photos ready.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Weeping Fig",
+   "city": null,
+   "species": "Weeping Fig",
+   "photo": "p_d7137f4f3088b38a72b82400/5EBFB2E9-B400-49F6-9383-68ED78F7A7A9.jpg",
+   "reader_note": "This magnificent fig tree, identified as a Ficus Benjamina by a local arborist, stands on Toogood Road, Cairns. Its enormous canopy spans approximately 34 metres, with a trunk girth of 7.5 meters in 2026 and a height of 18 metres. Recognised by Cairns Regional Council as an “Exceptional tree”, it remains remarkably healthy, with a vigorous canopy and strong structure. A treasured local landmark, it provides extensive shade, wildlife habitat and an important connection to the area’s natural herit",
+   "reader_girth_cm": 754,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 2.856,
+    "via": "girth",
+    "note": "286% of the genus reference (264 cm, n=1, max 264)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as The Toogood Road Fig (Cairns): the reader's photograph and GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:03075f0d-fbc2-4688-a90c-d8b21b484634",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Olive",
+   "city": null,
+   "species": "Olive",
+   "photo": "p_7c3ed65ef79fcc37ae268850/03075F0D-FBC2-4688-A90C-D8B21B484634.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive"
+   },
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as The Old Olive of Exo Chora (Zakynthos): the reader's photograph and GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:95787cb8-c8c0-479f-896c-364441d93e93",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_7c3ed65ef79fcc37ae268850/95787CB8-C8C0-479F-896C-364441D93E93.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as The Fig on the Abraaozinho Trail (Ilha Grande): the reader's photograph and GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:224b5518-e50e-4c58-a616-a79cddc0db23",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Tarzan Tree",
+   "city": null,
+   "species": "Moreton Bay Fig",
+   "photo": "p_f1fa71dcb9e46093382f0068/224B5518-E50E-4C58-A616-A79CDDC0DB23.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig"
+   },
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as The Tarzan Tree (Algiers): the reader's photograph and GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b6c42a88-4f55-4e46-89f5-1acdf5703851",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "American Elm",
+   "city": null,
+   "species": "American Elm",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/B6C42A88-4F55-4E46-89F5-1ACDF5703851.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm"
+   },
+   "verdict": "hold",
+   "reason": "For Hidde tomorrow: American elm on a public trail in Lincoln NE with a GPS fix, but the one photo looks straight up the trunk and nothing says it is big or old. Written and ready in out/tmp/held-lincoln/.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e229a150-5543-4042-992c-6f98125afa85",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Ponytail Palm / Elephant's Foot",
+   "city": null,
+   "species": "Ponytail Palm / Elephant's Foot",
+   "photo": "p_f1fa71dcb9e46093382f0068/E229A150-5543-4042-992C-6F98125AFA85.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ponytail Palm / Elephant's Foot"
+   },
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as The Elephant's Foot of Zapotitlan (Zapotitlan Salinas): the reader's photograph and GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-763",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Malmö",
+   "city": null,
+   "species": null,
+   "photo": "p_fc14e72a5774c09d7ee8ace0/fb15cfeb-8524-4156-b736-b8218bd6acc6.jpg",
+   "reader_note": "Majestic Hängbok, (Fagus sylvatica 'Pendula'), Magistratsparken, Malmö, Sweden.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "For Hidde tomorrow: superb weeping beech in Magistratsparken, Malmo, but no GPS fix and no written source to place the trunk.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",

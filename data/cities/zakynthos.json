@@ -1,0 +1,106 @@
+{
+  "city": "Zakynthos",
+  "country": "Greece",
+  "status": "needs_curation",
+  "intro": "Zakynthos, the Ionian island, has an olive on the village square of Exo Chora that a local guide calls a thousand years old and a reader puts at two thousand, its trunk split into hollow, twisted ribs. Exo Chora is a quiet village of fewer than a hundred people between Agios Leon and Maries, and the olive shares its square with an old plane tree and a field of family wells from the early 1900s. Nothing here costs anything to see.",
+  "meta_description": "The old olive of Exo Chora, Zakynthos: a hollow, twisting trunk on the village square, a thousand years old or more.",
+  "hero_tree_id": "zak_001",
+  "oldest_tree_id": "zak_001",
+  "trees": [
+    {
+      "id": "zak_001",
+      "name": "The Old Olive of Exo Chora",
+      "species": "Olive (Olea europaea)",
+      "age_estimate": "about 2,000 years by a reader's estimate; a local guide calls it over a thousand years old",
+      "age_min": 1000,
+      "age_max": 2000,
+      "age_basis": "source",
+      "location": {
+        "address": "Village square, Exo Chora, Zakynthos",
+        "latitude": 37.80141,
+        "longitude": 20.6842,
+        "neighbourhood": "Exo Chora"
+      },
+      "story": "Nobody has dated the olive on the square at Exo Chora, but the village has always treated it as ancient. A local guide to Zakynthos calls it a \"millenary olive tree\", and the reader who photographed it puts it at 2,000 years. Either way it is far older than anything else in this hill village between Agios Leon and Maries, where fewer than a hundred people live and many stone houses have stood empty since the earthquake of 1953.\n\nThe trunk is the reason to come. It has split and twisted into separate ribs of wood, hollow at the heart, so you can look into the tree through the gaps, and the reader's close photographs show the grain swirling round the openings like poured metal. Above all that, the crown is fully green, its leaves silver underneath on long grey arms.\n\nA small sign beside it reads \"Old Olive Tree\". It shares the square with a plane tree the same guide calls a hundred years old, and just behind it, among the olive groves, are 33 wells dug in the early 1900s, each one for a single family. You can walk all the way round it on the paved square.",
+      "how_to_recognise": "A massive split and hollow olive trunk on the paved village square, ringed by low posts, with a green sign reading \"Old Olive Tree\" beside it.",
+      "verified_sources": [
+        "https://welcometozante.com/en/what-to-do-exo-chora-zakynthos",
+        "https://www.itaka.pl/nasze-kierunki/grecja/atrakcje/exo-chora-pomnik-przyrody",
+        "A reader's photographs through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "verify_notes": "2026-11-15: sent by a reader through the app, three photographs (whole tree with the 'Old Olive Tree' sign, crown, hollow trunk) and a GPS fix in Exo Chora; reader's age 2000. welcometozante.com: 'millenary olive tree' in the centre of the village on the main square, beside a centenary plane; 33 wells from the early 1900s behind it, each for one family; fewer than 100 residents; houses abandoned since the 1953 earthquake. No scientific dating found; both ages are claims.",
+      "access": "Free, on the village square of Exo Chora in north-west Zakynthos.",
+      "found_by_reader": {
+        "sighting_id": "03075f0d-fbc2-4688-a90c-d8b21b484634",
+        "date": "2026-11-15"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7c3ed65ef79fcc37ae268850",
+        "sighting_id": "03075f0d-fbc2-4688-a90c-d8b21b484634",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole twisted trunk and green crown on the paved square, sign beside it, bright daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7c3ed65ef79fcc37ae268850",
+          "sighting_id": "03075f0d-fbc2-4688-a90c-d8b21b484634",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora-extra2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7c3ed65ef79fcc37ae268850",
+          "sighting_id": "03075f0d-fbc2-4688-a90c-d8b21b484634",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "03075f0d-fbc2-4688-a90c-d8b21b484634",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The old olive tree of Exo Chora, Zakynthos: how old it is said to be and where to find it.",
+  "question_answer": "The old olive of Exo Chora stands on the village square of Exo Chora in north-west Zakynthos. A local guide calls it over a thousand years old and a reader puts it at 2,000 years; it has never been dated. It is free to see.",
+  "question_context": "Exo Chora is a small hill village in north-west Zakynthos, between Agios Leon and Maries, with fewer than a hundred residents and many stone houses left empty after the 1953 earthquake. On its main square stands an olive with a sign reading Old Olive Tree. A local visitor guide calls it a millenary olive tree; a reader who photographed it in 2026 gives it 2,000 years. No scientific dating has been published, so both figures are claims. The trunk has split into hollow, twisted sections while the crown stays green. A plane tree the guide calls a hundred years old shares the square, and behind it among the olive groves are 33 wells from the early 1900s, each built for one family. The village also has the 17th-century church of Saint Nikolaos and a small Venetian tower looking over the west coast, which makes the square an easy stop on a drive round the north of the island.",
+  "faq": [
+    {
+      "q": "How old is the olive tree of Exo Chora?",
+      "a": "It has never been dated. A local guide calls it over a thousand years old and a reader puts it at 2,000 years."
+    },
+    {
+      "q": "Where is it?",
+      "a": "On the main village square of Exo Chora, in north-west Zakynthos between Agios Leon and Maries."
+    },
+    {
+      "q": "Does it cost anything to see?",
+      "a": "No, it stands on the public square."
+    },
+    {
+      "q": "What else is nearby?",
+      "a": "A plane tree on the same square and, behind the olive, 33 family wells from the early 1900s."
+    }
+  ]
+}

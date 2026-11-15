@@ -1,0 +1,94 @@
+{
+  "city": "Cairns",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Cairns, in tropical far north Queensland, has a huge weeping fig on Toogood Road in Woree that the city council counts as an exceptional tree and has refused to let a developer remove. A reader sent it to us with an arborist's figures. It stands by the road on community-zoned land in a southern suburb of the city, a low dome of glossy leaves over a mown lawn with a bench in its shade, and anyone walking along Toogood Road can stop beside it.",
+  "meta_description": "The Toogood Road fig in Woree, Cairns: a council exceptional tree, 34 m across by a reader's measure, kept from the chainsaw in 2026.",
+  "hero_tree_id": "cns_001",
+  "oldest_tree_id": "cns_001",
+  "trees": [
+    {
+      "id": "cns_001",
+      "name": "The Toogood Road Fig",
+      "species": "Weeping Fig (Ficus benjamina)",
+      "age_estimate": "about 35 years by a reader's estimate",
+      "age_min": 35,
+      "age_max": 35,
+      "age_basis": "source",
+      "location": {
+        "address": "Toogood Road, Woree, Cairns, Queensland",
+        "latitude": -16.9574,
+        "longitude": 145.738,
+        "neighbourhood": "Woree"
+      },
+      "story": "In February 2026 Cairns Regional Council told a developer that removing this fig \"is not supported\". It stands on community-zoned land on Toogood Road in Woree, where an application seeks to turn two lots into 49 house blocks, and the council classes it as an exceptional tree under its policy for trees on council-controlled land. Its own arborists wrote of a \"full, vigorous canopy\" and a \"strong root system\". In May 2026 the council was still waiting for more information before deciding.\n\nThe reader who sent it described it in their own words. It was \"identified as a Ficus Benjamina by a local arborist\", with \"a trunk girth of 7.5 meters in 2026 and a height of 18 metres\", and its canopy \"spans approximately 34 metres\". They put its age at about 35 years and called it \"a treasured local landmark\".\n\nFrom the road you see a low dome of glossy leaves over a mown lawn, with pale grey limbs reaching out almost level. Look at the base and you can see where roots have grown down from the branches and merged into the trunk. A bench sits in the shade beneath it.",
+      "how_to_recognise": "A single huge fig on the open lawn beside Toogood Road, its dome of glossy leaves wider than it is tall, pale grey limbs held almost level, a bench under it.",
+      "verified_sources": [
+        "https://www.cairnslocalnews.com.au/fight-over-fig-tree-and-land-2026-05-26",
+        "https://www.cairns.qld.gov.au/__data/assets/pdf_file/0019/700291/Exceptional-trees-factsheet.pdf",
+        "A reader's photographs and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "verify_notes": "2026-11-15: sent by a reader through the app with two photographs, a GPS fix on Toogood Road and a note: Ficus benjamina per a local arborist, girth 7.5 m (2026), height 18 m, canopy about 34 m, a council 'Exceptional tree'; reader's age 35 years. Cairns Local News 2026-05-26: the fig on the 85-111 Toogood Road development site, Woree, classed by council as an exceptional tree; council's 13 February information request said removal 'is not supported'; council arborists: 'full, vigorous canopy', 'strong root system'; council awaiting further information. Species, girth, height and age are the reader's. The lawn is part of the development site; the tree stands by the road and is plainly seen from the footpath (reader's second photo is from across the road).",
+      "access": "Seen from the footpath of Toogood Road, Woree; the lawn around it is part of a development site.",
+      "found_by_reader": {
+        "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+        "date": "2026-11-15"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cns_001-the-toogood-road-fig.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1280,
+        "height": 960,
+        "source": "contributor",
+        "contributor_user_id": "p_d7137f4f3088b38a72b82400",
+        "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole fig from the lawn, trunk, fused roots and spreading limbs, soft daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cns_001-the-toogood-road-fig-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d7137f4f3088b38a72b82400",
+          "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The Toogood Road fig in Woree, Cairns: what it is, why the council protects it, and where to see it.",
+  "question_answer": "The Toogood Road fig is a large weeping fig beside Toogood Road in Woree, Cairns. Cairns Regional Council classes it as an exceptional tree and in 2026 told a developer its removal is not supported. It is easy to see from the footpath.",
+  "question_context": "The fig stands on community-zoned land on Toogood Road in Woree, a southern suburb of Cairns in far north Queensland. A development application for the site sought to reconfigure two lots into 49 residential lots, and in a February 2026 information request the council said removing the tree is not supported, asking for plans that keep it. The council classes it as an exceptional tree, a category its policy uses for trees of special size, age, character or heritage. A reader who photographed it says a local arborist identified it as Ficus benjamina, with a girth of 7.5 metres, a height of 18 metres and a canopy about 34 metres across, and gave its age as about 35 years. Those figures are the reader's. The tree is plainly visible from the road, with a bench beneath it. Residents' groups, including Toogood Community Heritage and the Tree Action Group, have spoken up for keeping the fig and the community land around it.",
+  "faq": [
+    {
+      "q": "What kind of tree is the Toogood Road fig?",
+      "a": "A weeping fig, Ficus benjamina, according to a local arborist quoted by the reader who sent it."
+    },
+    {
+      "q": "Is the tree protected?",
+      "a": "Cairns Regional Council classes it as an exceptional tree and in 2026 said its removal is not supported."
+    },
+    {
+      "q": "How big is it?",
+      "a": "By a reader's figures, 18 metres tall with a 7.5 metre girth and a canopy about 34 metres across."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes, it is easily seen from the footpath of Toogood Road in Woree."
+    }
+  ]
+}

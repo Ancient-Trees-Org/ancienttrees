@@ -1,0 +1,91 @@
+{
+  "city": "Algiers",
+  "country": "Algeria",
+  "status": "needs_curation",
+  "intro": "Algiers has the Jardin d'Essai du Hamma, a botanical garden founded in 1832, and in it a fig known as the Tarzan tree, hung with curtains of aerial roots. A reader photographed it and sent it to us. The name comes from a story that it was part of a Tarzan film set, which no film record confirms. The garden itself, 32 hectares in the Belouizdad district, holds avenues of ficus, dragon trees and palms and makes a full afternoon.",
+  "meta_description": "The Tarzan tree of the Jardin d'Essai du Hamma, Algiers: a fig hung with aerial roots, and the film legend behind its name.",
+  "hero_tree_id": "alg_001",
+  "oldest_tree_id": "alg_001",
+  "trees": [
+    {
+      "id": "alg_001",
+      "name": "The Tarzan Tree",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "location": {
+        "address": "Jardin d'Essai du Hamma, Belouizdad, Algiers",
+        "latitude": 36.74606,
+        "longitude": 3.07706,
+        "neighbourhood": "Belouizdad"
+      },
+      "story": "Visitors to the Jardin d'Essai du Hamma know this fig as the Tarzan tree, and the story told about it is that it was part of the set for a Tarzan film starring Johnny Weissmuller. We could not find that in any film record. The first Weissmuller Tarzan, Tarzan the Ape Man of 1932, was shot in California with stock footage from Africa added, so take the name as the garden's legend rather than film history.\n\nThe tree does not need the legend. A broad trunk rises from a bank of stones, and from its spreading limbs hundreds of thin aerial roots hang straight down. Some still swing in the air, others have reached the ground and thickened into new trunks, so the crown seems to stand on poles. The reader who sent it named it a Moreton Bay fig.\n\nThe garden was founded in 1832 and covers 32 hectares in the Belouizdad district, below the Musée National des Beaux-Arts. It is counted among the most important acclimatisation gardens in the world, with an avenue of ficus, an avenue of dragon trees and a French garden lined with Washingtonia palms, so you can make an afternoon of it.",
+      "how_to_recognise": "A broad fig rising from a bank of rocks beside a path, with curtains of thin aerial roots hanging from every limb and several rooted into extra trunks.",
+      "verified_sources": [
+        "https://fr.wikipedia.org/wiki/Jardin_d%27essai_du_Hamma",
+        "https://www.360cities.net/image/tarzan-tree-botanical-garden-hamma-algiers-algeria",
+        "https://en.wikipedia.org/wiki/Tarzan_the_Ape_Man_(1932_film)",
+        "A reader's photographs through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "verify_notes": "2026-11-15: sent by a reader through the app as 'The Tarzan Tree', Moreton Bay Fig, four photographs and a GPS fix inside the Jardin d'Essai du Hamma. Main and extra-1 show the same tree and are used; extra-2 is a duplicate file of extra-1; extra-3 shows a different-looking fig with a label and is left out. 360cities names a 'Tarzan tree' in the Hamma garden, said to have been part of a Tarzan film set with Weissmuller; not confirmed by any film record, and Tarzan the Ape Man (1932) was shot in California (Wikipedia), so the story is given as legend. Garden facts from French Wikipedia (1832, 32 ha, avenues). Species is the reader's identification. Algeria is out of focus for our own research, but this is a reader's tree.",
+      "access": "Inside the Jardin d'Essai du Hamma in Belouizdad, which keeps opening hours.",
+      "found_by_reader": {
+        "sighting_id": "224b5518-e50e-4c58-a616-a79cddc0db23",
+        "date": "2026-11-15"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/alg_001-the-tarzan-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "224b5518-e50e-4c58-a616-a79cddc0db23",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole fig with its curtain of aerial roots, against the light in the garden. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/alg_001-the-tarzan-tree-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+          "sighting_id": "224b5518-e50e-4c58-a616-a79cddc0db23",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "224b5518-e50e-4c58-a616-a79cddc0db23",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The Tarzan tree in the Jardin d'Essai du Hamma, Algiers: the film story, the tree, and where to find it.",
+  "question_answer": "The Tarzan tree is a large fig hung with aerial roots in the Jardin d'Essai du Hamma, the botanical garden of Algiers founded in 1832. It is said to have been part of a Tarzan film set, but no film record confirms it.",
+  "question_context": "The Jardin d'Essai du Hamma is a botanical garden of 32 hectares in the Belouizdad district of Algiers, laid out in 1832 below the Musée National des Beaux-Arts and counted among the most important acclimatisation gardens in the world. Among its avenues of ficus, dragon trees and palms stands a fig with hundreds of aerial roots, some of them grown into new trunks, known as the Tarzan tree. The story is that it was part of the set for a Tarzan film starring Johnny Weissmuller. No film record we found confirms it, and the first Weissmuller Tarzan film of 1932 was shot in California. The reader who sent the tree identified it as a Moreton Bay fig. The garden lies between rue Mohamed-Belouizdad and rue Hassiba-Ben-Bouali, with a small zoo at the north end of its avenue of dragon trees and an English garden with a little lake to the south-east.",
+  "faq": [
+    {
+      "q": "Why is it called the Tarzan tree?",
+      "a": "The garden's story is that it was part of a Tarzan film set with Johnny Weissmuller. No film record we found confirms it."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "A fig, identified by the reader who sent it as a Moreton Bay fig."
+    },
+    {
+      "q": "Where is it?",
+      "a": "Inside the Jardin d'Essai du Hamma in the Belouizdad district of Algiers."
+    },
+    {
+      "q": "How old is the garden?",
+      "a": "It was founded in 1832."
+    }
+  ]
+}

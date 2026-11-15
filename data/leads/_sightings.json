@@ -2205,8 +2205,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "held",
+   "why": "2026-11-15, for Hidde tomorrow: the Marton Oak (plaque in the reader's photo), not on the map. Wikipedia: on private land, permission needed to view. Hard rule 10 unless it is plainly visible from Oak Lane; photos ready.",
    "seen": "2026-11-15"
   },
   {
@@ -2233,8 +2233,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as cns_001 Cairns: council exceptional tree on Toogood Road, seen from the footpath",
    "seen": "2026-11-15"
   },
   {
@@ -2262,8 +2262,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as zak_001 Zakynthos: the old olive on the square at Exo Chora",
    "seen": "2026-11-15"
   },
   {
@@ -2288,8 +2288,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as ilg_001 Ilha Grande: fig over boulders on the Abraaozinho trail, species unknown",
    "seen": "2026-11-15"
   },
   {
@@ -2318,8 +2318,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as alg_001 Algiers: the Tarzan tree, Jardin d'Essai du Hamma",
    "seen": "2026-11-15"
   },
   {
@@ -2344,8 +2344,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "held",
+   "why": "2026-11-15, for Hidde tomorrow: American elm on the Wilderness Park Trail, Lincoln NE; public trail and GPS fix, but the only photo looks straight up the trunk and nothing says it is big or old. Written and ready in out/tmp/held-lincoln/ (lne_001, us-states needs lincoln-nebraska: Nebraska).",
    "seen": "2026-11-15"
   },
   {
@@ -2370,8 +2370,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as zps_001 Zapotitlan Salinas: Beaucarnea in the Helia Bravo Hollis garden",
    "seen": "2026-11-15"
   },
   {
@@ -2392,8 +2392,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "held",
+   "why": "2026-11-15, for Hidde tomorrow: weeping beech in Magistratsparken, Malmo; superb photo but no GPS and no written source; needs an OSM or Malmo tree-map pin, or a GPS photo from the reader",
    "seen": "2026-11-15"
   }
  ]

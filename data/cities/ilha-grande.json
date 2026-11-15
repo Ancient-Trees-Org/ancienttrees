@@ -1,0 +1,72 @@
+{
+  "city": "Ilha Grande",
+  "country": "Brazil",
+  "status": "needs_curation",
+  "intro": "Ilha Grande, the forested island off the coast of Rio de Janeiro state, has a fig beside the trail from Vila do Abraão to Abraãozinho beach whose roots pour over a pile of granite boulders. A reader found it and sent it to us. It stands about a kilometre and a half east of the village where the boats come in, on a public footpath through the forest along the shore, and nobody has yet named its species. If you walk the trail, look for the boulders.",
+  "meta_description": "A fig on the Abraãozinho trail, Ilha Grande: roots draped over granite boulders beside the forest path from Abraão.",
+  "hero_tree_id": "ilg_001",
+  "oldest_tree_id": "ilg_001",
+  "trees": [
+    {
+      "id": "ilg_001",
+      "name": "The Fig on the Abraãozinho Trail",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Trilha Abraãozinho, east of Vila do Abraão, Ilha Grande, Angra dos Reis",
+        "latitude": -23.139,
+        "longitude": -44.15495,
+        "neighbourhood": "Abraão"
+      },
+      "story": "Somebody walking the trail from Vila do Abraão to Abraãozinho beach on Ilha Grande stopped here and sent us this tree with no name and no note, only a photograph and the spot where they stood. It is worth the stop. A pale trunk rises out of a jumble of granite boulders, and from its foot a net of roots pours down over the rocks, wrapping the nearest boulder almost entirely before it reaches the soil.\n\nRoots that grip stone and grow round whatever they meet are typical of figs, and the smooth grey bark fits too, so we have written it as a fig. Nobody has named the species, and nobody has measured it. If you know what it is, or have stood beside it with a tape, tell us on this page.\n\nIlha Grande lies off the coast of Rio de Janeiro state, and Abraão is the village where the boats come in. The trail east to Abraãozinho runs through forest along the shore, and this tree stands beside it about a kilometre and a half from the village. Look for the boulders first; the roots draped over them are hard to miss.",
+      "how_to_recognise": "A pale grey trunk rising from a pile of large granite boulders right by the trail, its roots spread over the rocks like a net.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/242711879",
+        "https://en.wikipedia.org/wiki/Ilha_Grande",
+        "A reader's photograph through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "verify_notes": "2026-11-15: sent by a reader through the app with one photograph, no name, species or note, and a GPS fix on the Trilha Abraãozinho (OSM way 242711879), about 1.4 km east of Vila do Abraão. Photo shows a large tree with a root mat over granite boulders, smooth grey bark, by a trail; written as Ficus sp. from the photograph only, species unknown. No written source names this tree.",
+      "access": "Free, beside the forest trail from Vila do Abraão to Abraãozinho beach, about 1.5 km east of the village.",
+      "found_by_reader": {
+        "sighting_id": "95787cb8-c8c0-479f-896c-364441d93e93",
+        "date": "2026-11-15"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ilg_001-the-fig-on-the-abraaozinho-trail.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7c3ed65ef79fcc37ae268850",
+        "sighting_id": "95787cb8-c8c0-479f-896c-364441d93e93",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: trunk and roots draped over granite boulders in forest light. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "95787cb8-c8c0-479f-896c-364441d93e93",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The fig on the Abraãozinho trail, Ilha Grande: what it is and how to find it from Vila do Abraão.",
+  "question_answer": "The fig on the Abraãozinho trail grows out of granite boulders beside the forest path from Vila do Abraão to Abraãozinho beach on Ilha Grande, about 1.5 km east of the village. Its species has not been named. It is free to see.",
+  "question_context": "Ilha Grande is a large forested island in the municipality of Angra dos Reis, off the coast of Rio de Janeiro state, and Vila do Abraão is its main village. A footpath runs east from Abraão through the forest along the shore to Abraãozinho beach. About a kilometre and a half along it, a reader photographed a tree whose trunk rises from a heap of granite boulders and whose roots spread down over the rocks like a net. That habit and its smooth grey bark suggest a fig, but no one has named the species or measured the tree, and no written source describes it. The pin is where the reader stood with a GPS fix. Ilha Grande is reached by boat from the mainland. Footpaths link its beaches and villages, and the walk out to Abraãozinho and back fits easily into an afternoon. If you know the species, or have measured the trunk, you can add it on the page.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "It looks like a fig, but its species has not been named. If you know it, tell us on the page."
+    },
+    {
+      "q": "How do I get there?",
+      "a": "Walk east from Vila do Abraão on the trail to Abraãozinho beach; it stands by the path about 1.5 km out."
+    },
+    {
+      "q": "Does it cost anything?",
+      "a": "No, it is beside a public trail."
+    }
+  ]
+}
