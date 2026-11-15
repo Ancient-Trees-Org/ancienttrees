@@ -1981,14 +1981,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "b27e5e37-779c-4373-872e-6da86d1c3024": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "7547cfa4-55b8-4f9e-acab-06372df4a337": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "fc04d59e-bb37-4b00-b069-2a4d28ebcf05": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -2025,6 +2017,79 @@
    "reason": "Fern-leaved beech in autumn colour, gnarled base and wide crown; roughly this tree, goes in the strip beside the lead (embrace reader content). Species seen: beech: fine twigs, copper-yellow autumn leaves, gnarled buttressed base. Fits the description: large spreading crown beside a modern stone bui",
    "lat": 55.6887883333333,
    "lon": 12.5795416666667,
+   "pin_checked": "2026-11-15"
+  },
+  "e1144bea-fd53-4cc6-a71f-d523c763f64f": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "fbcb3c91-41f0-48d9-b573-f37e63ad0145": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "1306c000-ed52-40f3-ad73-c6f414c5dbff": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "91f2f869-b590-4465-8512-c49c7ca04a54": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "nol_002",
+   "city_slug": "new-orleans",
+   "file": "nol_002-the-anseman-oak.jpg",
+   "reason": "Tree has no photograph; a massive burled live oak trunk with Spanish moss and resurrection fern in City Park, the reader's GPS 92 m inside the entrance the pin marks. Basis is the reader's pick plus GPS; the grove holds many old oaks. Species seen: Southern live oak: blocky dark bark, Spanish moss, ",
+   "lat": 29.9832735053098,
+   "lon": -90.0989529901734,
+   "pin_checked": "2026-11-15"
+  },
+  "7f51f1b1-9ce0-4127-9f48-a373a6e9f91d": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "nol_005",
+   "city_slug": "new-orleans",
+   "file": "nol_005-the-suicide-oak.jpg",
+   "reason": "Lead is only a held stand-in; this is a big hollow live oak with one limb on the right running down to the ground, 140 m from an approximate junction pin. Basis is the reader's pick plus GPS plus the low limb. Species seen: Southern live oak: narrow entire evergreen leaves, blocky grey bark, resurre",
+   "lat": 29.9878158324148,
+   "lon": -90.0997840479621,
+   "pin_checked": "2026-11-15"
+  },
+  "c07c7ae8-48d1-4406-9571-1d8e4a7ed0da": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dmr_001",
+   "city_slug": "dartmoor",
+   "file": "dmr_001-wistman-s-wood-c07c7ae8.jpg",
+   "reason": "Wistman's Wood itself: twisted mossy oaks over granite boulders in summer daylight (a dog among the boulders). Wood-wide frame, which is what the entry is. Species seen: Pedunculate oak: lobed oak leaves, moss- and fern-covered limbs. Fits the description: Low twisted oaks among mossy granite boulde",
+   "lat": 50.57617,
+   "lon": -3.96112833333333,
+   "pin_checked": "2026-11-15"
+  },
+  "9ddf843f-f9a1-4926-b112-74f4a904f502": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dmr_001",
+   "city_slug": "dartmoor",
+   "file": "dmr_001-wistman-s-wood-9ddf843f.jpg",
+   "reason": "Wistman's Wood: twisted mossy oaks and boulders in summer daylight, a slightly different frame from c07c7ae8 (dog in the centre). Different view, both kept. Species seen: Pedunculate oak: lobed oak leaves, mossy limbs. Fits the description: Low twisted oaks among granite boulders.",
+   "lat": 50.5762283333333,
+   "lon": -3.96118333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "706b5ee4-c79c-4a61-8c3a-6bdf8def1e18": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "dmr_001",
+   "reason": "Duplicate of 9ddf843f (byte-identical photograph and extras)."
+  },
+  "d2406863-a22d-466f-9fc8-2fb3e760c364": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_014",
+   "city_slug": "munich",
+   "file": "muc_014-the-weeping-beech-of-the-schwanenbr-cke-d2406863.jpg",
+   "reason": "The weeping beech behind its rope fence by the Schwanenbrücke, late autumn, limbs whitened, visitors in front. A different frame from the two reader photos already on the page. Species seen: Weeping beech: pendulous limbs to the ground, dry brown beech leaves. Fits the description: Limbs arching dow",
+   "lat": 48.158025,
+   "lon": 11.4995166666667,
    "pin_checked": "2026-11-15"
   }
  }

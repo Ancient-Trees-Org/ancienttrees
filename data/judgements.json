@@ -2752,6 +2752,190 @@
    "agreed": null
   },
   {
+   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Linton Yew",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
+   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
+   "reader_girth_cm": 950,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: whole yew beside the church porch, daylight, lead photograph of lnt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337-extra-1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Linton Yew",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
+   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
+   "reader_girth_cm": 950,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the hollow split bole of the same yew, daylight, in the strip of lnt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Cypress",
+   "city": null,
+   "species": "Monterey Cypress",
+   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
+   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: whole Monterey cypress over the creek, daylight, lead photograph of mnc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024-extra-1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Cypress",
+   "city": null,
+   "species": "Monterey Cypress",
+   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
+   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: a second frame of the same cypress trunk and limbs, daylight, in the strip of mnc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:91f2f869-b590-4465-8512-c49c7ca04a54",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Anseman Oak",
+   "city": "New Orleans",
+   "photo": "out/sightings/91f2f869-b590-4465-8512-c49c7ca04a54.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "approve: Tree has no photograph; a massive burled live oak trunk with Spanish moss and resurrection fern in City Park, the reader's GPS 92 m inside the entrance the pin marks. Basis is the reader's pick plus GPS; the grove holds many old oaks."
+  },
+  {
+   "id": "sight:7f51f1b1-9ce0-4127-9f48-a373a6e9f91d",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Suicide Oak",
+   "city": "New Orleans",
+   "photo": "out/sightings/7f51f1b1-9ce0-4127-9f48-a373a6e9f91d.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "approve: Lead is only a held stand-in; this is a big hollow live oak with one limb on the right running down to the ground, 140 m from an approximate junction pin. Basis is the reader's pick plus GPS plus the low limb."
+  },
+  {
+   "id": "sight:c07c7ae8-48d1-4406-9571-1d8e4a7ed0da",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Wistman's Wood",
+   "city": "Dartmoor",
+   "photo": "out/sightings/c07c7ae8-48d1-4406-9571-1d8e4a7ed0da.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "add: Wistman's Wood itself: twisted mossy oaks over granite boulders in summer daylight (a dog among the boulders). Wood-wide frame, which is what the entry is."
+  },
+  {
+   "id": "sight:9ddf843f-f9a1-4926-b112-74f4a904f502",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Wistman's Wood",
+   "city": "Dartmoor",
+   "photo": "out/sightings/9ddf843f-f9a1-4926-b112-74f4a904f502.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "add: Wistman's Wood: twisted mossy oaks and boulders in summer daylight, a slightly different frame from c07c7ae8 (dog in the centre). Different view, both kept."
+  },
+  {
+   "id": "sight:706b5ee4-c79c-4a61-8c3a-6bdf8def1e18",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Wistman's Wood",
+   "city": "Dartmoor",
+   "photo": "out/sightings/706b5ee4-c79c-4a61-8c3a-6bdf8def1e18.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "reject: Duplicate of 9ddf843f (byte-identical photograph and extras)."
+  },
+  {
+   "id": "sight:d2406863-a22d-466f-9fc8-2fb3e760c364",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Weeping Beech of the Schwanenbrücke",
+   "city": "Munich",
+   "photo": "out/sightings/d2406863-a22d-466f-9fc8-2fb3e760c364.jpg",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "add: The weeping beech behind its rope fence by the Schwanenbrücke, late autumn, limbs whitened, visitors in front. A different frame from the two reader photos already on the page."
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -5578,118 +5762,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Linton Yew",
-   "city": null,
-   "species": "European Yew",
-   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
-   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
-   "reader_girth_cm": 950,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Yew"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: whole yew beside the church porch, daylight, lead photograph of lnt_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337-extra-1",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Linton Yew",
-   "city": null,
-   "species": "European Yew",
-   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
-   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
-   "reader_girth_cm": 950,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Yew"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the hollow split bole of the same yew, daylight, in the strip of lnt_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "Monterey Cypress",
-   "city": null,
-   "species": "Monterey Cypress",
-   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
-   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Monterey Cypress"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: whole Monterey cypress over the creek, daylight, lead photograph of mnc_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024-extra-1",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "Monterey Cypress",
-   "city": null,
-   "species": "Monterey Cypress",
-   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
-   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Monterey Cypress"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: a second frame of the same cypress trunk and limbs, daylight, in the strip of mnc_001.",
    "hidde": null,
    "agreed": null
   }

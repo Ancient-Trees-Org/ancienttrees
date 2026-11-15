@@ -766,7 +766,7 @@
       "access": "Free, public park, open daily (the palace, Amalienburg and Badenburg interiors charge separate admission)",
       "transport": "Tram 17 to Schloss Nymphenburg, then about 15 min walk northwest through the park",
       "photo": {
-        "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke-2b68eb5f.jpg",
+        "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke-d2406863.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -775,8 +775,8 @@
         "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
-        "sighting_id": "2b68eb5f-caed-4885-a608-0a681ac247df",
-        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Same tree from the path side, showing the closed dome of falling limbs; second photo from the same visit, goes in the strip. Species seen: Weeping beech, arching limbs falling to the ground, whitewashed bark, brown beech leaves.. Fits the description: Dome of hanging limbs behind a rope fence with an information sign, gravel path in front; same tree as 29a3d214... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "sighting_id": "d2406863-a22d-466f-9fc8-2fb3e760c364",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The weeping beech behind its rope fence by the Schwanenbrücke, late autumn, limbs whitened, visitors in front. A different frame from the two reader photos already on the page. Species seen: Weeping beech: pendulous limbs to the ground, dry brown beech leaves. Fits the description: Limbs arching down to the ground, the bridge railing at the right, fenced on the path.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Age undated and no second source beyond the ordinance itself, so flagged. The 120-200 range is bracketed from the cultivar's introduction date and Sckell's 1799-1823 landscaping, not measured; baumkunde.de has no entry for this tree. Photo deliberately left missing rather than filled. Three candidates exist on Wikimedia Commons and all three were checked: the register-linked 'Haengebuche im Schlosspark Nymphenburg.jpg' was viewed directly at 1280px and fails the Cadiz standard, being a close-up shot looking up into the canopy with no trunk base, no whole-tree shape and no sense of scale, plus a painted red heart on one limb; the other two ('Unter der Haengebuche', 'Laub der Haengebuche') are by the same photographer and are respectively an under-canopy and a foliage close-up, failing the same way. An honest gap beats a mediocre photo. Worth re-hunting when someone photographs this tree whole.",
@@ -787,6 +787,19 @@
         "url": null
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke-2b68eb5f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "2b68eb5f-caed-4885-a608-0a681ac247df",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Same tree from the path side, showing the closed dome of falling limbs; second photo from the same visit, goes in the strip. Species seen: Weeping beech, arching limbs falling to the ground, whitewashed bark, brown beech leaves.. Fits the description: Dome of hanging limbs behind a rope fence with an information sign, gravel path in front; same tree as 29a3d214... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",

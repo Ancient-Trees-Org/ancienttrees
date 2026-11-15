@@ -157,8 +157,8 @@
       "age_max": 100,
       "location": {
         "address": "Western Road entrance, University College Cork, Cork",
-        "latitude": 51.8938,
-        "longitude": -8.4886,
+        "latitude": 51.893669,
+        "longitude": -8.488584,
         "neighbourhood": "University College Cork"
       },
       "story": "Every graduation procession through University College Cork's ceremonial Western Road gates since 1929 has walked beneath this pine, which makes it the most photobombed tree in Cork: it stands in the background of a century of family photographs without ever being the subject. The species has one of the strangest stories in forestry. In the wild the Monterey Pine survives on a few kilometres of Californian coast and two Mexican islands, and is formally listed as endangered there, yet planted forestry made it one of the most cultivated trees on earth, the backbone of timber industries from New Zealand to Chile and a fair share of Ireland's own plantations. So the endangered Californian at the front gates is also a quiet joke about globalisation, thriving further from home than almost any tree on campus. UCC's arboretum staff list it among their top ten campus trees for the way its dark, wind-shaped crown frames the entrance. It is free to see at any hour, on the main bus corridor into the city, and the gates beside it are the best-looking way to enter the campus arboretum anyway.",
@@ -176,7 +176,14 @@
       },
       "curation_status": "ai_generated",
       "location_precision": "approximate",
-      "how_to_recognise": "You can recognise it by the dark, wind-shaped crown framing the gateway. It stands at University College Cork's ceremonial Western Road gates, on the main bus corridor into the city."
+      "how_to_recognise": "You can recognise it by the dark, wind-shaped crown framing the gateway. It stands at University College Cork's ceremonial Western Road gates, on the main bus corridor into the city.",
+      "pin_source": {
+        "kind": "reader placed by hand",
+        "submission": 799,
+        "moved_m": 14,
+        "date": "2026-11-15",
+        "note": "A reader moved the pin on the map; a hand placement, so it stays approximate."
+      }
     },
     {
       "id": "cor_005",

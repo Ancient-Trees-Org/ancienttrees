@@ -551,6 +551,15 @@
      "city_slug": "munich",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "d2406863-a22d-466f-9fc8-2fb3e760c364",
+     "tree_id": "muc_014",
+     "tree_name": "The Weeping Beech of the Schwanenbrücke",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": [
@@ -784,6 +793,54 @@
      "mailed": "2026-11-15"
     }
    ]
+  },
+  "p_802261c7cf0cd9b255100c55": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
+     "tree_id": "nol_002",
+     "tree_name": "The Anseman Oak",
+     "city": "New Orleans",
+     "city_slug": "new-orleans",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "7f51f1b1-9ce0-4127-9f48-a373a6e9f91d",
+     "tree_id": "nol_005",
+     "tree_name": "The Suicide Oak",
+     "city": "New Orleans",
+     "city_slug": "new-orleans",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_071683a079961a9398789c42": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c07c7ae8-48d1-4406-9571-1d8e4a7ed0da",
+     "tree_id": "dmr_001",
+     "tree_name": "Wistman's Wood",
+     "city": "Dartmoor",
+     "city_slug": "dartmoor",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "9ddf843f-f9a1-4926-b112-74f4a904f502",
+     "tree_id": "dmr_001",
+     "tree_name": "Wistman's Wood",
+     "city": "Dartmoor",
+     "city_slug": "dartmoor",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
   }
  }
 }

@@ -2667,6 +2667,84 @@
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
+  },
+  {
+   "sighting_id": "e1144bea-fd53-4cc6-a71f-d523c763f64f",
+   "user_id": "p_14d68ebe05b368493091ea08",
+   "mine": false,
+   "name": "A tree I found",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 47.693445,
+   "longitude": 16.8423783333333,
+   "photo": "p_14d68ebe05b368493091ea08/E1144BEA-FD53-4CC6-A71F-D523C763F64F.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "fbcb3c91-41f0-48d9-b573-f37e63ad0145",
+   "user_id": "p_14d68ebe05b368493091ea08",
+   "mine": false,
+   "name": "A tree I found",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 47.693445,
+   "longitude": 16.8423783333333,
+   "photo": "p_14d68ebe05b368493091ea08/FBCB3C91-41F0-48D9-B573-F37E63AD0145.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
+   "user_id": "p_19b3a0778e462c16dcceacf1",
+   "mine": false,
+   "name": "Cedar of Lebanon near Hethersett",
+   "species": "Cedar of Lebanon",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "In the grounds of Norwich Cathedral",
+   "latitude": 52.6319209766881,
+   "longitude": 1.30194879280909,
+   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-15"
   }
  ]
 }

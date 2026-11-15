@@ -71,8 +71,8 @@
       "age_max": 900,
       "location": {
         "address": "City Park, just inside the Anseman Avenue entrance, on City Park Avenue opposite North Alexander Street",
-        "latitude": 29.984,
-        "longitude": -90.0994,
+        "latitude": 29.983274,
+        "longitude": -90.098953,
         "neighbourhood": "City Park"
       },
       "story": "Victor Anseman was a florist who retired and then gave the last fifteen years of his life to a park. In 1891 he pulled together the business and political people of the city into the City Park Improvement Association, which is the reason there is a park here at all rather than a subdivision. He died in 1904 and they named this oak after him.\n\nIt is a good choice of monument. The tree is given the same range as the McDonogh Oak, five hundred to nine hundred years, and some accounts make it the older of the two. Neither has been cored, so the order between them is a matter of who is doing the estimating.\n\nIt stands at the western end of the same high strip of ground, just inside the entrance that also carries his name. The pin here marks the entrance rather than the trunk, because the grove holds hundreds of old oaks and pretending to know which metre is the one would be a promise this page cannot keep. Walk in from City Park Avenue opposite North Alexander and look for the biggest thing standing.",
@@ -84,14 +84,28 @@
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Enter from City Park Avenue at the Anseman Avenue entrance.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nol_002-the-anseman-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_802261c7cf0cd9b255100c55",
+        "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Tree has no photograph; a massive burled live oak trunk with Spanish moss and resurrection fern in City Park, the reader's GPS 92 m inside the entrance the pin marks. Basis is the reader's pick plus GPS; the grove holds many old oaks. Species seen: Southern live oak: blocky dark bark, Spanish moss, resurrection fern on the limbs, palmettos below. Fits the description: A very large, very old live oak with a huge buttressed trunk and wide limbs, just inside the City Park Avenue entrance by the reader's GPS.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "A very large spreading live oak just inside the entrance, at the western end of the old grove along City Park Avenue.",
       "curation_status": "flagged",
-      "location_precision": "approximate"
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
+        "moved_m": 92,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "nol_003",
@@ -179,8 +193,8 @@
       "age_max": null,
       "location": {
         "address": "City Park, on Victory Avenue near Marconi Drive",
-        "latitude": 29.9885,
-        "longitude": -90.101,
+        "latitude": 29.987816,
+        "longitude": -90.099784,
         "neighbourhood": "City Park"
       },
       "story": "The name is the reason most people come and it is worth stating plainly: sixteen men took their own lives under this tree over about twelve years, from the 1890s into the 1900s, when this corner of the park was a quiet distance from the city. The newspapers named it and the name stuck.\n\nWhat you stand in front of is one of three named survivors of the forest that covered this ground before New Orleans existed, the others being the McDonogh Oak and the Anseman Oak a few hundred metres south. One low branch does the thing live oaks do when nobody prunes them. It leaves the trunk, bends the whole way down to the grass, frames the walkway and rises again on the far side. Two giant limbs came off in the 1980s and one of them still lies underneath.\n\nNobody publishes an age for this one. The accounts that group it with the McDonogh and the Anseman put those two somewhere between seven and nine hundred years, and we have found no measurement of this trunk at all, so the honest answer is that it is old and undated. If you know a girth figure, or a survey that covers it, tell us and it goes on the page.",
@@ -193,18 +207,35 @@
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Canal Streetcar to City Park / Museum, then twenty minutes northwest through the park, or park on Victory Avenue.",
       "photo": {
+        "url": "https://ancienttrees.app/photos/nol_005-the-suicide-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1197,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_802261c7cf0cd9b255100c55",
+        "sighting_id": "7f51f1b1-9ce0-4127-9f48-a373a6e9f91d",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Lead is only a held stand-in; this is a big hollow live oak with one limb on the right running down to the ground, 140 m from an approximate junction pin. Basis is the reader's pick plus GPS plus the low limb. Species seen: Southern live oak: narrow entire evergreen leaves, blocky grey bark, resurrection fern in the fork. Fits the description: Old hollow live oak with a limb bending down to the ground at the right edge, in the west of City Park by GPS.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "how_to_recognise": "You can recognise it by the one low branch that leaves the trunk, bends to the ground across the walkway and rises again on the far side. It stands on Victory Avenue near Marconi Drive, in the west of the park.",
+      "verify_notes": "Added 2026-09-23. Location is the junction two Advocate pieces name, Victory Avenue by Marconi Drive, not a coordinate: nobody publishes one, so the pin is placed at that junction and marked approximate. No age and no girth found in any source; left empty rather than derived, because there is nothing to derive from. Species is City Park's own live oak and the sources call it one; no binomial is published for this individual. Sources were read through search result summaries: this sandbox cannot fetch the pages themselves, so a later pass should open all four and tighten the pin.",
+      "photo_replaced": {
         "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429839803/medium.jpeg",
         "license": "CC0",
         "attribution": "no rights reserved, via iNaturalist",
-        "status": "held",
-        "note": "live oak by a road and gate, nothing ties it to the Suicide Oak; 465px",
-        "width": 465,
-        "height": 500
+        "status": "held"
       },
-      "curation_status": "flagged",
-      "location_precision": "approximate",
-      "how_to_recognise": "You can recognise it by the one low branch that leaves the trunk, bends to the ground across the walkway and rises again on the far side. It stands on Victory Avenue near Marconi Drive, in the west of the park.",
-      "verify_notes": "Added 2026-09-23. Location is the junction two Advocate pieces name, Victory Avenue by Marconi Drive, not a coordinate: nobody publishes one, so the pin is placed at that junction and marked approximate. No age and no girth found in any source; left empty rather than derived, because there is nothing to derive from. Species is City Park's own live oak and the sources call it one; no binomial is published for this individual. Sources were read through search result summaries: this sandbox cannot fetch the pages themselves, so a later pass should open all four and tighten the pin."
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7f51f1b1-9ce0-4127-9f48-a373a6e9f91d",
+        "moved_m": 140,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "nol_006",

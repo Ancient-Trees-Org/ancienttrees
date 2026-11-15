@@ -174,9 +174,6 @@
       "id": "cop_004",
       "name": "The Husalle Lindens",
       "species": "Small-leaved Lime (Tilia cordata)",
-      "age_estimate": "around 300-360 years",
-      "age_min": 300,
-      "age_max": 360,
       "location": {
         "address": "Husalle, Kongens Have, Copenhagen",
         "latitude": 55.685078,
@@ -207,7 +204,8 @@
         "label": "June to July, when it flowers",
         "kind": "flowers"
       },
-      "how_to_recognise": "Not one tree but the Husalle avenue itself, running parallel to the main axis further north than the two clipped alleys nearest the castle."
+      "how_to_recognise": "Not one tree but the avenue: the lindens lining Husallé, one of the three lime avenues of Kongens Have laid out from 1664. Walk it end to end; the widest, most gnarled trunks are the old ones.",
+      "verify_notes": "2026-11-15: a reader could not tell which tree is meant (submission 805). Age range removed: it came from the garden's planting era, not from a dated record of these trees; cores from Kavalergangen gave about 165 years (NNU 1996)."
     },
     {
       "id": "cop_005",
