@@ -3368,6 +3368,35 @@ def check_a_by_licence_names_its_author():
     return out
 
 
+def check_app_first_fields_reach_the_site():
+    """Every tree key site/src/lib/app-first.ts reads (`t?.<key>`) is named in
+    the site's treeSchema, or zod strips it and the web decides app-only on
+    less than scripts/findable.py sees.
+
+    2026-11-15: `found_by_reader` was not in treeSchema, so readerSignal()
+    never saw a stranger's `tip`. Two tip trees with Commons photographs (La
+    Morra, Telavi) stayed off the web while their place pages linked to them,
+    QA stopped the deploy, and Hidde found the dead links first. Same family
+    as check_photo_fields_reach_the_site().
+    """
+    cfg = os.path.join("site", "src", "content.config.ts")
+    lib = os.path.join("site", "src", "lib", "app-first.ts")
+    try:
+        src = open(cfg, encoding="utf-8").read()
+        reads = set(re.findall(r"\bt\?\.([a-z_]+)", open(lib, encoding="utf-8").read()))
+    except OSError:
+        return []
+    start = src.find("export const treeSchema = z.object(")
+    end = src.find("\n});", start)
+    if start < 0 or end < 0:
+        return ["FAIL content.config.ts: treeSchema was not found, so nothing checks that the keys "
+                "app-first.ts reads survive the schema. Fix check_app_first_fields_reach_the_site()."]
+    named = set(re.findall(r"^ {2}([a-z_]+): ", src[start:end], re.M))
+    return ["FAIL content.config.ts: app-first.ts reads tree key `%s`, but treeSchema does not name it, "
+            "so zod strips it and the web's app-only rule disagrees with findable.py. Declare it." % k
+            for k in sorted(reads - named)]
+
+
 def check_photo_fields_reach_the_site():
     """Every key a photo record carries is either named in the site's schema
     or known bookkeeping the site never draws.
@@ -3845,6 +3874,7 @@ def main():
                 + check_park_count_promises()
                 + check_no_orphan_photos()
                 + check_photo_fields_reach_the_site()
+                + check_app_first_fields_reach_the_site()
                 + check_every_us_place_has_a_state()
                 + check_register_leads_carry_no_contact_data()
                 + check_thin_confirmation_is_no_hold()

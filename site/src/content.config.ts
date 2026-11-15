@@ -169,6 +169,19 @@ export const treeSchema = z.object({
   // het via formulier niet meer doen nooit". A person's name is not ours to
   // publish, whatever channel it arrived through.
   submitted_by: z.string().optional(),
+  // Where a reader-found tree came from: an app sighting, or a stranger's
+  // public tip (a thread, a mail, the contribute form). Declared because zod
+  // strips what it does not know, and readerSignal() in ./lib/app-first.ts
+  // reads `tip`: without this a tip tree with no reader photograph stayed
+  // app-only on the web while its place page linked to it, and QA stopped the
+  // 2026-11-15 10:50 deploy on La Morra and Telavi. scripts/findable.py's
+  // reader_added() always saw it, so the two rules disagreed.
+  found_by_reader: z.object({
+    sighting_id: z.string().optional(),
+    date: z.string().optional(),
+    tip: z.string().optional(),
+    thread: z.string().optional(),
+  }).optional(),
 });
 
 const cities = defineCollection({
