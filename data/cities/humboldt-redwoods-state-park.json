@@ -1,0 +1,130 @@
+{
+  "city": "Humboldt Redwoods State Park",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Humboldt Redwoods State Park in northern California holds Rockefeller Forest, the largest remaining continuous old-growth coast redwood forest in the world. Two of its named giants stand in the Big Tree Area on Bull Creek: the Giant Tree, national champion coast redwood in 1991 at 363 feet, and the Tall Tree, 359 feet when measured in 1957. Both are free to walk to on short trails.",
+  "meta_description": "The Giant Tree and the Tall Tree in Rockefeller Forest, Humboldt Redwoods State Park: two coast redwoods over 109 metres tall, free to visit.",
+  "hero_tree_id": "hum_002",
+  "oldest_tree_id": "hum_001",
+  "trees": [
+    {
+      "id": "hum_001",
+      "name": "The Giant Tree",
+      "species": "Coast Redwood (Sequoia sempervirens)",
+      "location": {
+        "address": "Big Trees Loop, Big Tree Area, Bull Creek, Rockefeller Forest, Humboldt Redwoods State Park, California",
+        "latitude": 40.344778,
+        "longitude": -123.996166,
+        "neighbourhood": "Rockefeller Forest"
+      },
+      "story": "In November 1991 the American Forestry Association named this coast redwood the national champion of its species, and the park's sign beside it still gives the figures. It is 363 feet tall, about 110 metres, with a trunk 53.2 feet round, about 16 metres, and an average crown spread of 62 feet. Save the Redwoods League explains that the title goes to the best combination of height, trunk and crown, not to height alone.\n\nIt stands in Rockefeller Forest, the part of Humboldt Redwoods State Park that holds the largest remaining continuous old-growth coast redwood forest in the world. Settlers began felling the redwoods here in the 1850s and the timber industry followed. The park began in 1921, when Save the Redwoods League bought land largely from the Pacific Lumber Company, and only about five percent of the old coast redwood forest survives anywhere.\n\nNobody has published an age for it. The reader who sent it to us filed it as a giant sequoia, but the park's own sign names it Sequoia sempervirens, the coast redwood. It is on the Big Trees Loop by the Big Tree Area parking on Bull Creek, in the same grove as the Tall Tree, and it costs nothing to stand at its foot and look up.",
+      "how_to_recognise": "You can recognise it by the black park sign in front of it naming it the Giant Tree, national champion coast redwood. It stands on the Big Trees Loop by the Big Tree Area parking on Bull Creek.",
+      "verified_sources": [
+        "https://www.hmdb.org/m.asp?m=165464",
+        "https://savetheredwoods.org/blog/giant-tree-defiant-redwood-of-the-week",
+        "https://www.mdvaden.com/redwood_giant_tree.shtml",
+        "https://en.wikipedia.org/wiki/Humboldt_Redwoods_State_Park",
+        "A reader's photographs through the app, 2026-11-15, one of them the park's sign"
+      ],
+      "found_by_reader": {
+        "sighting_id": "ed5bd210-4a52-4fe2-90a8-f121559ef711",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): sent by a reader through the app as 'Giant Tree', species given as Giant Sequoia, girth 1615 cm, note pointing to famousredwoods.com/giant_tree. The park's sign in their second photograph (and the HMdb marker): national champion coast redwood, Sequoia sempervirens, recognised by the American Forestry Association November 1991, height 363 ft, circumference 53.2 ft, average crown spread 62 ft. girth_cm and height_m are the sign's figures converted (53.2 ft = 1622 cm, 363 ft = 110.6 m). Save the Redwoods League: champion for the best combination of height, diameter and crown. Wikipedia: Rockefeller Forest is the world's largest remaining contiguous old-growth coast redwood forest; park founded 1921 by Save the Redwoods League largely from Pacific Lumber land; about 5% of old coast redwood forest remains. The Rockefeller money and the 10,000-acre figure were not in Wikipedia and are not stated. Photographs: the main one shows a recognisable person at the trunk and is not published; the other is the sign only, which would become the hero on a photo-less page, so it is not published either. Pin: the reader's own hand-moved pin (submission 803), 664 m from their GPS fix; approximate. No age.",
+      "access": "Free, on a short loop trail from the Big Tree Area day-use parking in the state park.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "girth_cm": 1622,
+      "height_m": 110.6,
+      "pin_source": {
+        "kind": "reader hand placement",
+        "date": "2026-11-15",
+        "note": "Where the reader moved the pin by hand (submission 803); the phone's own position was 664 m away. Approximate."
+      }
+    },
+    {
+      "id": "hum_002",
+      "name": "The Tall Tree",
+      "species": "Coast Redwood (Sequoia sempervirens)",
+      "location": {
+        "address": "Bull Creek Flat, Rockefeller Forest, Humboldt Redwoods State Park, California",
+        "latitude": 40.35135,
+        "longitude": -123.992288333333,
+        "neighbourhood": "Rockefeller Forest"
+      },
+      "story": "When this coast redwood was measured in February 1957 it stood 359.3 feet tall, about 109.5 metres, and the sign the park put beside it still says so. The same sign gives a trunk 42 feet round at breast height, almost 13 metres, and 13.4 feet across. Redwood writers call it the Rockefeller Tall Tree and say it once held the title of the world's tallest known tree, a title it has long since lost.\n\nIt grows on Bull Creek Flat in Rockefeller Forest, part of Humboldt Redwoods State Park, which holds the largest remaining continuous old-growth coast redwood forest in the world. Its neighbour in the grove, the Giant Tree, is the taller by about four feet on its own sign, though the two were measured 34 years apart. Neither has a published age.\n\nA reader sent us two photographs. One is the sign, half hidden behind sword ferns. The other looks straight up the trunk, a column of grey, deeply furrowed bark with dark scars low down, rising past the crowns of smaller trees into a pale sky. The reader filed it as a giant sequoia; the sign and every source call it coast redwood. It costs nothing to visit, on the trails of the Big Tree Area off Bull Creek.",
+      "how_to_recognise": "You can recognise it by the wooden sign at its foot reading Tall Tree, measured February 1957. It stands on Bull Creek Flat in Rockefeller Forest, in the same grove as the Giant Tree.",
+      "verified_sources": [
+        "A reader's photograph of the park's sign through the app, 2026-11-15",
+        "https://americansouthwest.net/california/humboldt_redwoods/sites.html",
+        "https://mdvaden.com/redwood_rockefeller.shtml",
+        "https://en.wikipedia.org/wiki/Humboldt_Redwoods_State_Park"
+      ],
+      "found_by_reader": {
+        "sighting_id": "64e94530-a55e-4174-b649-85eda345db92",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): sent by a reader through the app as 'Rockefeller - Tall Tree', species given as Giant Sequoia, girth 1280 cm. The park's sign in their photograph: B.H. circumference 42 feet, B.H. diameter 13.4 feet, height 359.3 feet, measured February 1957 (girth_cm 1280 and height_m 109.5 are the sign's figures converted). americansouthwest.net: Tall Tree 359 ft and Giant Tree 363 ft, in the same grove. mdvaden.com: also called the Rockefeller coast redwood, Upper Bull Creek Flat, once a holder of the world's tallest title. Photographs viewed: the sign behind sword ferns, and a look straight up a furrowed redwood trunk in daylight; the trunk photograph is the lead. Pin: the reader's GPS fix, confirmed.",
+      "access": "Free, on the trails of the Big Tree Area in the state park.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "girth_cm": 1280,
+      "height_m": 109.5,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "64e94530-a55e-4174-b649-85eda345db92",
+        "date": "2026-11-15",
+        "note": "The reader's GPS fix with their photographs of the tree and its sign."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_492afbdde23d69af867aff0f",
+        "sighting_id": "64e94530-a55e-4174-b649-85eda345db92",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the furrowed trunk looking straight up into the crown, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-sign.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 320,
+          "height": 480,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "64e94530-a55e-4174-b649-85eda345db92",
+          "note": "The same reader's photograph of the park's Tall Tree sign (measured February 1957), looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The Giant Tree and the Tall Tree in Humboldt Redwoods State Park: how tall they are and where to find them on Bull Creek.",
+  "question_answer": "The Giant Tree is a coast redwood 363 feet tall, named national champion of its species in 1991, and the Tall Tree measured 359.3 feet in 1957. Both stand in Rockefeller Forest in the Big Tree Area on Bull Creek, free to visit.",
+  "question_context": "Rockefeller Forest, in Humboldt Redwoods State Park in northern California, is the largest remaining continuous old-growth coast redwood forest in the world. The park began in 1921, when Save the Redwoods League bought land largely from the Pacific Lumber Company. In the Big Tree Area on Bull Creek, the park's own signs give the measurements of two named trees. The Giant Tree was recognised by the American Forestry Association in November 1991 as the national champion coast redwood, 363 feet tall and 53.2 feet round, with an average crown spread of 62 feet. The Tall Tree was measured in February 1957 at 359.3 feet, with a trunk 42 feet round, and redwood writers say it once held the title of the world's tallest known tree. Neither tree has a published age. A reader photographed both and the Tall Tree's sign, and filed them as giant sequoias; the signs name them coast redwoods.",
+  "faq": [
+    {
+      "q": "How tall is the Giant Tree?",
+      "a": "363 feet, about 110 metres, by the park's sign, from its 1991 measurement as national champion coast redwood."
+    },
+    {
+      "q": "Are these giant sequoias?",
+      "a": "No. Both are coast redwoods, Sequoia sempervirens, as the park's signs say."
+    },
+    {
+      "q": "Does it cost anything to see them?",
+      "a": "No. Both are on short trails from the Big Tree Area parking on Bull Creek."
+    }
+  ]
+}

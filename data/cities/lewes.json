@@ -1,0 +1,69 @@
+{
+  "city": "Lewes",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Lewes is the county town of East Sussex, on the River Ouse below the South Downs. In Southover Grange Gardens, the public garden in the middle of town, a mulberry thought to be more than 350 years old sprawls inside its railings, its heavy limbs resting along the grass. A reader sent it to us with a photograph taken under a rainbow. The garden is free to walk into every day, and the tree is seen from the path.",
+  "meta_description": "The Southover Grange mulberry in Lewes, thought to be more than 350 years old, in a free public garden in the middle of town.",
+  "hero_tree_id": "lew_001",
+  "oldest_tree_id": "lew_001",
+  "trees": [
+    {
+      "id": "lew_001",
+      "name": "The Southover Grange Mulberry",
+      "species": "Mulberry (Morus sp.)",
+      "age_estimate": "more than 350 years by the Parks and Gardens record and a reader",
+      "age_min": 350,
+      "age_basis": "source",
+      "location": {
+        "address": "Southover Grange Gardens, Southover Road, Lewes, East Sussex",
+        "latitude": 50.870629,
+        "longitude": 0.007758,
+        "neighbourhood": "Southover"
+      },
+      "story": "Southover Grange Gardens in Lewes keep a mulberry that is thought to be more than 350 years old. That is the figure the Parks and Gardens record of the garden gives, and the reader who sent it to us repeats it. If it holds, the tree was already growing while Charles II was on the throne.\n\nIt is not a tidy tree. The reader's photograph, taken when it stood bare with a rainbow over it, shows a short, leaning trunk that breaks into heavy limbs, several of which have come down to rest along the grass, with a tangle of thin branches above all of it. Black railings run round the whole tree, and a sign asks people to keep off.\n\nIn the reader's words, it is a \"beautiful old black mulberry tree believed to be around 350 years old.\" The records we found say only mulberry, so the page leaves the exact species open until someone with a leaf in hand can confirm it. It stands near the terrace by the Ainsworth Room, in a public garden in the middle of town that is free to walk into every day.",
+      "how_to_recognise": "You can recognise it by the black railings round it and the heavy limbs lying along the grass. It stands near the terrace by the Ainsworth Room in Southover Grange Gardens.",
+      "verified_sources": [
+        "https://www.parksandgardens.org/places/southover-grange",
+        "https://www.geograph.org.uk/photo/3893086",
+        "A reader's website tip with a photograph, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): a reader's website tip (807) named 'Black Mulberry', note 'Beautiful old black mulberry tree believed to be around 350 years old', with one photograph and a Google Maps pin. Parks and Gardens UK: a mulberry in Southover Grange gardens thought to be over 350 years old. Geograph 3893086: the mulberry near the Ainsworth Room terrace. Sources say mulberry, not which species; the photograph is leafless, so the species stays Morus sp. with the reader's 'black mulberry' quoted. Photograph viewed: the whole sprawling tree inside railings, bare, with fallen-to-rest limbs and a keep-off sign, rainbow, daylight. Pin: the reader's Google Maps pin inside the gardens (OSM way 31529151), approximate. Gardens: municipal (Lewes District Council), open daily dawn till dusk; the record says 'around 350' in one place and 'over 350' in another; house built 1571/72; Lewes Priory stone in the walls; early tulip tree over 18 m.",
+      "access": "Free, in a public town garden open daily from dawn till dusk; the tree is railed off, seen from the path.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader map pin",
+        "date": "2026-11-15",
+        "note": "The reader's Google Maps pin, inside Southover Grange Gardens; approximate."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lew_001-the-southover-grange-mulberry.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1205,
+        "source": "contributor",
+        "contributor_user_id": "p_3011dc2d7e92f70e598b79d2",
+        "sighting_id": "tip-807",
+        "note": "Photographed by a reader and sent through the website; looked at 2026-11-15: the whole railed mulberry, bare, in daylight with a rainbow. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The old mulberry in Southover Grange Gardens, Lewes: how old it is and where to find it.",
+  "question_answer": "The mulberry in Southover Grange Gardens, Lewes, is thought to be more than 350 years old. It stands railed off near the terrace by the Ainsworth Room, in a public garden that is free to visit every day.",
+  "question_context": "The Parks and Gardens record of Southover Grange gives the mulberry an age of more than 350 years, and the reader who sent it to us says the same. Nobody has published a ring count or a measurement. The reader calls it a black mulberry; the records name only a mulberry, so the species is left open. The tree leans and sprawls, and several heavy limbs have come down to rest along the grass inside black railings, with a sign asking people to keep off. It stands near the terrace by the Ainsworth Room. Southover Grange Gardens are the town's public garden, run by the district council and open daily from dawn till dusk. The garden lies beside Southover Grange, a house of the 1570s, and its internal walls have arches made from the stone of Lewes Priory. Among its other specimen trees is a very early tulip tree more than 18 metres tall, and the Winterbourne stream runs through it. The record gives the mulberry's age as around 350 years in one place and over 350 in another.",
+  "faq": [
+    {
+      "q": "How old is the Lewes mulberry?",
+      "a": "More than 350 years by the Parks and Gardens record of the garden; it has not been dated by a ring count."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. Southover Grange Gardens are a free public garden open every day; the tree is railed off and seen from the path."
+    }
+  ]
+}

@@ -96,8 +96,8 @@
     "score": null,
     "note": "nothing measurable about River Red Gum"
    },
-   "verdict": "hold",
-   "reason": "The photograph is an archival State Library print (accession mark in the margin), not the reader's own, so it cannot ship; the heritage-plaque text in their note is useful. Waits for a photograph of the tree itself.",
+   "verdict": "publish",
+   "reason": "Published as ads_002 from the Burnside council page and the big-tree register, GPS fix at the tree; the archival print stays unused, so the page waits for a photograph.",
    "hidde": null,
    "agreed": null
   },
@@ -2496,8 +2496,8 @@
     "score": null,
     "note": "nothing measurable about Giant Sequoia"
    },
-   "verdict": "lead",
-   "reason": "Giant redwood trunk with a person for scale; verify against the Humboldt register, then publish.",
+   "verdict": "publish",
+   "reason": "Published as hum_001 from the park's champion sign and Save the Redwoods sources; no photograph published, the main one shows a recognisable person and the other is only the sign.",
    "hidde": null,
    "agreed": null
   },
@@ -2524,8 +2524,8 @@
     "score": null,
     "note": "nothing measurable about Giant Sequoia"
    },
-   "verdict": "lead",
-   "reason": "Plaque of the Tall Tree, trunk barely in frame; verified together with the Giant Tree.",
+   "verdict": "publish",
+   "reason": "Published as hum_002: the trunk looking up is the lead, the 1957 sign in the strip.",
    "hidde": null,
    "agreed": null
   },
@@ -2552,8 +2552,8 @@
     "score": null,
     "note": "nothing measurable about Common Fig"
    },
-   "verdict": "hold",
-   "reason": "Fig on a church tower corner, shrub-sized; hold until an age source.",
+   "verdict": "publish",
+   "reason": "Published as mnc_002: Historic England's listing calls it a very old fig and the parish puts it at 200 years or more, which answers the earlier hold; the reader's GPS fix sits at the wall, tower-and-wall photograph as lead, three more in the strip.",
    "hidde": null,
    "agreed": null
   },
@@ -2660,8 +2660,8 @@
     "score": null,
     "note": "nothing measurable about Mulberry (Morus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as lew_001: the whole railed mulberry in daylight, Parks and Gardens gives over 350 years; species left open, the reader's black mulberry quoted.",
    "hidde": null,
    "agreed": null
   },
@@ -2684,8 +2684,8 @@
     "score": null,
     "note": "nothing measurable about Cedar (Cedrus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_001: the whole double-trunked cedar in daylight, Woodland Trust names cedar among the priory's specimen trees; pin at the priory, approximate.",
    "hidde": null,
    "agreed": null
   },
@@ -2708,8 +2708,8 @@
     "score": null,
     "note": "nothing measurable about Fir (Abies sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_002: the straight furrowed trunk in daylight, Woodland Trust names Douglas fir among the priory's specimen trees; the first-in-Britain belief stays the reader's.",
    "hidde": null,
    "agreed": null
   },
@@ -5762,6 +5762,86 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig in Manaccan Church Wall",
+   "city": "Manaccan",
+   "species": "Common Fig (Ficus carica)",
+   "photo": "out/sightings/a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b-extra-3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as mnc_002: Historic England's listing calls it a very old fig and the parish puts it at 200 years or more, which answers the earlier hold; the reader's GPS fix sits at the wall, tower-and-wall photograph as lead, three more in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:64e94530-a55e-4174-b649-85eda345db92",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree",
+   "city": "Humboldt Redwoods State Park",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/64e94530-a55e-4174-b649-85eda345db92-extra-1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as hum_002: the trunk looking up is the lead, the 1957 sign in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-807",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Southover Grange Mulberry",
+   "city": "Lewes",
+   "species": "Mulberry (Morus sp.)",
+   "photo": "out/sightings/tip-807.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as lew_001: the whole railed mulberry in daylight, Parks and Gardens gives over 350 years; species left open, the reader's black mulberry quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-817",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Conishead Priory Cedar",
+   "city": "Ulverston",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/tip-817.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_001: the whole double-trunked cedar in daylight, Woodland Trust names cedar among the priory's specimen trees; pin at the priory, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-818",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Conishead Priory Douglas Fir",
+   "city": "Ulverston",
+   "species": "Douglas Fir (Pseudotsuga menziesii)",
+   "photo": "out/sightings/tip-818.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as ulv_002: the straight furrowed trunk in daylight, Woodland Trust names Douglas fir among the priory's specimen trees; the first-in-Britain belief stays the reader's.",
    "hidde": null,
    "agreed": null
   }

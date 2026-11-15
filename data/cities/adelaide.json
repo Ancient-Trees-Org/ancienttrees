@@ -2,10 +2,10 @@
   "city": "Adelaide",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "A River Red Gum stands with its roots at the edge of a shallow stream in Rostrevor, in Adelaide's eastern suburbs. A reader who sent us its photograph puts it at about 200 years old, which is their estimate and not a ring count. The trunk is broad and straight, flaring at the foot into knuckled roots that grip the bank, with clear water running over the stones in front. It is free to see from the creek bank, on public ground close to Wandilla Drive.",
-  "meta_description": "A River Red Gum at the water's edge in Rostrevor, Adelaide, about 200 years old by a reader's estimate.",
+  "intro": "Adelaide's eastern suburbs keep two old river red gums on this map. On Glynburn Road in Kensington Gardens a heritage-listed gum stands on the verge, more than 250 years old by the national big-tree register and 30 metres tall; the council closed the road in 2024 to prune it. In Rostrevor another stands with its roots at the edge of a shallow stream, about 200 years old by a reader's estimate. Both are free to see from public ground.",
+  "meta_description": "Two river red gums in Adelaide's eastern suburbs: the heritage-listed gum on Glynburn Road, Kensington Gardens, and a creekside gum in Rostrevor.",
   "hero_tree_id": "ads_001",
-  "oldest_tree_id": "ads_001",
+  "oldest_tree_id": "ads_002",
   "trees": [
     {
       "id": "ads_001",
@@ -51,6 +51,50 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
+    },
+    {
+      "id": "ads_002",
+      "name": "The Red Gum of Glynburn Road",
+      "species": "River Red Gum (Eucalyptus camaldulensis)",
+      "age_estimate": "more than 250 years by the big-tree register; about 300 by a 1984 council plaque; 300 to 500 by a reader's estimate",
+      "age_min": 250,
+      "age_max": 500,
+      "age_basis": "source",
+      "location": {
+        "address": "Road reserve beside 364 Glynburn Road, Kensington Gardens, South Australia",
+        "latitude": -34.9124929674741,
+        "longitude": 138.682987506559,
+        "neighbourhood": "Kensington Gardens"
+      },
+      "story": "In February 2024 an aerial inspection found cavities and hollowing inside this river red gum, and the City of Burnside closed Glynburn Road so that arborists could cut back its crown. The council calls it a heritage-listed tree.\n\nIts age is a matter of several estimates. A plaque the council placed beside it in September 1984, quoted in Burnside's list of state heritage places, says the \"old gum tree\" was a mature tree long before the colonisation of Australia, and gives it about 300 years, 29 metres of height and a girth of 10.4 metres. The National Register of Big Trees lists a remnant river red gum on Glynburn Road in Kensington Gardens at more than 250 years, 30.5 metres tall and 8.45 metres round, with a crown 18 metres wide. That entry gives no street number, so we take it to be this tree. The two girths do not agree, and we give both. The reader who sent it to us puts it at 300 to 500 years, by their estimate.\n\nIt stands on the road reserve beside 364 Glynburn Road in Kensington Gardens and is seen from the footpath. We have no photograph of it yet. If you pass, one taken from the path would give it a face here.",
+      "how_to_recognise": "You can recognise it by its size, a river red gum about 30 metres tall and more than 8 metres round. It stands on the eastern verge of Glynburn Road, beside number 364.",
+      "verified_sources": [
+        "https://www.burnside.sa.gov.au/Latest-News/Homepage-Latest-News/Major-tree-pruning-364-Glynburn-Road",
+        "https://www.nationalregisterofbigtrees.com.au/listing/158.pdf",
+        "A reader's note through the app, 2026-11-15, quoting Burnside's list of state heritage places, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "aac60386-7889-4a79-831d-3b506278d45b",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): sent by a reader through the app as River Red Gum, age '300-500 years', girth 1040 cm, with a note copying Burnside's State Heritage Places entry: road reserve adjacent 364 Glynburn Road, Kensington Gardens, eastern verge, and a September 1984 council plaque (300 years approx, height 29 m, width at base 3.3 m, girth 10.4 m, 'a mature tree long before the colonization of Australia'). The note copies a council text, so it is quoted as the council's, not the reader's words. Their photograph is an archival State Library print, not theirs, and is not used. City of Burnside news page: heritage-listed river red gum at 364 Glynburn Road, February 2024 aerial inspection found cavities and internal hollowing, major pruning with road closure. National Register of Big Trees listing 158: Glynburn Rd, Kensington Gardens, remnant, 250+ years, circumference 8.45 m, height 30.5 m, crown 18 m; no street number, so the match to this tree is inferred from road, suburb and species. girth_cm and height_m are that register's. Pin: the reader's GPS fix, confirmed.",
+      "access": "Free, seen from the footpath on the eastern side of Glynburn Road.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "girth_cm": 845,
+      "height_m": 30.5,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "aac60386-7889-4a79-831d-3b506278d45b",
+        "date": "2026-11-15",
+        "note": "The reader's GPS fix at the tree on the Glynburn Road verge."
+      }
     }
   ],
   "question_meta": "A River Red Gum in Rostrevor, Adelaide, about 200 years old by a reader's estimate. Where it stands and how to see it.",
@@ -72,6 +116,10 @@
     {
       "q": "Where exactly is it?",
       "a": "At the edge of a shallow stream at Rostrevor, close to Wandilla Drive, in Adelaide's eastern suburbs."
+    },
+    {
+      "q": "Where is the heritage red gum on Glynburn Road?",
+      "a": "On the road reserve beside 364 Glynburn Road in Kensington Gardens, seen from the footpath."
     }
   ]
 }

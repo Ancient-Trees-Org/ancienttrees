@@ -1,0 +1,63 @@
+{
+  "city": "A Coruña",
+  "country": "Spain",
+  "status": "needs_curation",
+  "intro": "A Coruña is the port city at the north-west corner of Galicia. Its oldest tree is not Spanish at all: a pohutukawa from New Zealand, more than two hundred years old, with a crown about 30 metres across, in the gardens of the Policía Local headquarters in Monte Alto. It is listed in Galicia's catalogue of outstanding trees and was a candidate for Spain's Tree of the Year 2026.",
+  "meta_description": "The bicentenary metrosideros of A Coruña: a New Zealand pohutukawa more than 200 years old in the Policía Local gardens, Rúa Tui 21, Monte Alto.",
+  "hero_tree_id": "acr_001",
+  "oldest_tree_id": "acr_001",
+  "trees": [
+    {
+      "id": "acr_001",
+      "name": "The Metrosideros of A Coruña",
+      "species": "Pohutukawa (Metrosideros excelsa)",
+      "age_estimate": "more than 200 years, by local sources and a reader",
+      "age_min": 200,
+      "age_basis": "source",
+      "location": {
+        "address": "Gardens of the Policía Local headquarters, Rúa Tui 21, Monte Alto, A Coruña",
+        "latitude": 43.3764131,
+        "longitude": -8.3965813,
+        "neighbourhood": "Monte Alto"
+      },
+      "story": "The oldest tree in A Coruña comes from the other side of the world. It is a pohutukawa, Metrosideros excelsa, the New Zealand Christmas tree, and it has grown for more than two hundred years in what are now the gardens of the Policía Local headquarters in Monte Alto. Galicia's catalogue of outstanding trees lists it under code 63A, and in November 2025 the city presented it as a candidate for Spain's Tree of the Year 2026.\n\nHow the species reached Galicia is the story locals like best. One hypothesis, taken up by the writer Winston Cowie in a book on New Zealand's history, is that pohutukawa came with Spanish sailors in the sixteenth century, after the Pacific voyages. Nobody has proved it, and this tree is not claimed to be that old.\n\nThe reader who sent it gave its measure in a sentence, in Spanish: \"More than 200 years, 20 metres tall, almost 8 metres round the trunk and a crown about 30 metres across.\" Those match the figures published when it entered the contest. The crown is the thing to see, far wider than the tree is tall.\n\nIt can be visited in the gardens of the police barracks at Rúa Tui 21, near Orillamar. We have no photograph of it yet, and one would be welcome.",
+      "how_to_recognise": "You can recognise it by its crown, about 30 metres across and far wider than the tree is tall. It stands in the gardens of the Policía Local headquarters at Rúa Tui 21 in Monte Alto.",
+      "verified_sources": [
+        "https://planomato.com/es/a-coruna/n/metrosidero-bicentenario-coruna-arbol-ano",
+        "https://minerva.usc.gal/bitstreams/183d5150-9dbe-4aa6-8cac-b1c870022855/download",
+        "A reader's website tip, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): a reader's website tip (submission 820), no photograph: 'Mas de 200 años, 20 metros de altura, casi 8 metros de perímetro de tronco y una copa de unos 30 metros de diámetro', quoted in English translation as theirs. Planomato, 2025-11-17: Metrosideros excelsa, oldest tree in the city, more than two centuries, about 20 m tall, trunk almost 8 m round, crown about 30 m; in the Catálogo Galego de Árbores Senlleiras as 63A; candidate for Árbol del Año en España 2026 (Bosques Sin Fronteras), presented by councillor Noemí Díaz; hypothesis (Winston Cowie, 'Nueva Zelanda, un puzle histórico') that the species reached Galicia with Spanish sailors in the 16th century; can be visited in the gardens of the Policía Local barracks, calle Tui 21, Monte Alto, near Orillamar. Contest result not checked, so not stated. USC monograph has a chapter on the tree (not reread). Measurements are a press article's and the reader's, kept out of girth_cm and height_m. Pin: OpenStreetMap address point for Rúa Tui 21, approximate.",
+      "access": "In the gardens of the Policía Local headquarters at Rúa Tui 21, which the city says can be visited.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-15",
+        "note": "OSM address point for Rúa Tui 21; the tree stands in the gardens there."
+      }
+    }
+  ],
+  "question_meta": "What is the oldest tree in A Coruña? The bicentenary metrosideros in Monte Alto, and where to see it.",
+  "question_answer": "The oldest tree in A Coruña is a pohutukawa, Metrosideros excelsa, more than 200 years old, in the gardens of the Policía Local headquarters at Rúa Tui 21 in Monte Alto. Its crown is about 30 metres across.",
+  "question_context": "The tree is a Metrosideros excelsa, the pohutukawa or New Zealand Christmas tree, and local sources describe it as the oldest tree in the city, more than two centuries old. It is about 20 metres tall, its trunk almost 8 metres round, and its crown about 30 metres across, figures the reader who sent it to us also gave. It is in the Catálogo Galego de Árbores Senlleiras, Galicia's catalogue of outstanding trees, as 63A. In November 2025 the city presented it as a candidate for Spain's Tree of the Year 2026. One hypothesis, taken up by the writer Winston Cowie, holds that the species reached Galicia with Spanish sailors in the sixteenth century; it is unproven. The tree stands in the gardens of the police barracks at Rúa Tui 21, near Orillamar, where it can be visited. The vote, run by the conservation group Bosques Sin Fronteras, sends Spain's winner on to the European Tree of the Year.",
+  "faq": [
+    {
+      "q": "What kind of tree is the A Coruña metrosideros?",
+      "a": "A pohutukawa, Metrosideros excelsa, the New Zealand Christmas tree."
+    },
+    {
+      "q": "Where can I see it?",
+      "a": "In the gardens of the Policía Local headquarters at Rúa Tui 21, Monte Alto."
+    }
+  ]
+}

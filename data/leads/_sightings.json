@@ -1451,8 +1451,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "held 2026-11-15: the photograph is an archival State Library print, not the reader's own; the plaque text (300 years, 29 m, 10.4 m girth, Glynburn Road, Kensington Gardens) is a lead to verify against the Burnside heritage listing. Waits for their own photograph.",
+   "status": "published",
+   "why": "published 2026-11-15 as ads_002 in Adelaide: council and big-tree register sources, GPS fix; the archival print is not used",
    "seen": "2026-11-15"
   },
   {
@@ -2451,8 +2451,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked 2026-11-15: a person sitting at the base of a giant coast redwood on a boardwalk, Rockefeller Forest, Humboldt Redwoods; the reader's note points to famousredwoods.com/giant_tree. A real giant; verify against the Humboldt Redwoods register and publish as a new tree if the Giant Tree is confirmed.",
+   "status": "published",
+   "why": "published 2026-11-15 as hum_001 in Humboldt Redwoods State Park: the park's champion sign; no photograph published (the main one shows a recognisable person)",
    "seen": "2026-11-15"
   },
   {
@@ -2479,8 +2479,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked 2026-11-15: the plaque of the Tall Tree (measured 1957), not the trunk. It goes to the Giant Tree/Tall Tree verification with ed5bd210; the sign is the proof of the tree's measurements, never a reason to reject it.",
+   "status": "published",
+   "why": "published 2026-11-15 as hum_002 in Humboldt Redwoods State Park: trunk photograph as lead, the 1957 sign in the strip",
    "seen": "2026-11-15"
   },
   {
@@ -2509,8 +2509,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked 2026-11-15: a fig growing from a church tower corner, shrub-sized crown; a curiosity but not yet a tree worth the walk. Hold until a source for its age or a better frame.",
+   "status": "published",
+   "why": "published 2026-11-15 as mnc_002 in Manaccan: four photographs, Historic England and parish sources, the reader's GPS fix at the wall",
    "seen": "2026-11-15"
   },
   {
@@ -2617,8 +2617,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as lew_001 in Lewes: reader's photograph, Parks and Gardens source",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
@@ -2640,8 +2640,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as ulv_001 in Ulverston: reader's photograph, Woodland Trust source",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
@@ -2663,8 +2663,8 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as ulv_002 in Ulverston: reader's photograph, Woodland Trust source",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
   },

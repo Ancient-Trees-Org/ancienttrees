@@ -2,10 +2,10 @@
   "city": "Manaccan",
   "country": "United Kingdom",
   "status": "needs_curation",
-  "intro": "Manaccan is a village on the Lizard side of the Helford River in Cornwall, and the creeks below it run into some of the mildest, most sheltered woodland in England. Near the hamlet of Carne a Monterey cypress leans out over the water from the creek path, its long limbs framing the tide. A bench beside it makes it a place to stop rather than pass.",
-  "meta_description": "A big Monterey cypress over a tidal creek near Carne, Manaccan, on the Helford River in Cornwall, with a bench beside it.",
+  "intro": "Manaccan is a village on the Lizard side of the Helford River in Cornwall, and the creeks below it run into some of the mildest, most sheltered woodland in England. In the village itself a fig at least 200 years old grows straight out of the twelfth-century south wall of the parish church. Down near the hamlet of Carne a Monterey cypress leans out over the water from the creek path, its long limbs framing the tide, with a bench beside it.",
+  "meta_description": "A fig growing out of Manaccan's church wall for at least 200 years, and a Monterey cypress over a tidal creek near Carne, on the Helford River in Cornwall.",
   "hero_tree_id": "mnc_001",
-  "oldest_tree_id": "mnc_001",
+  "oldest_tree_id": "mnc_002",
   "trees": [
     {
       "id": "mnc_001",
@@ -64,6 +64,93 @@
           "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: a second frame of the same trunk and limbs, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
+    },
+    {
+      "id": "mnc_002",
+      "name": "The Fig in Manaccan Church Wall",
+      "species": "Common Fig (Ficus carica)",
+      "age_estimate": "at least 200 years by the parish's account; 200 to 400 by a reader's estimate",
+      "age_min": 200,
+      "age_max": 400,
+      "age_basis": "source",
+      "location": {
+        "address": "Church of St Manaccus and St Dunstan, Vicarage Lane, Manaccan, Cornwall",
+        "latitude": 50.0830830637018,
+        "longitude": -5.12726351929844,
+        "neighbourhood": "Manaccan churchyard"
+      },
+      "story": "A fig tree has been growing out of the wall of Manaccan's church for at least 200 years, and nobody knows how it got there. Historic England's listing of the building mentions it in passing. The lower part of the south wall is twelfth-century work, and \"from the left-hand corner grows a very old fig tree\".\n\nThe church of St Manaccus and St Dunstan is Grade I listed and far older than its fig. The village first appears in a charter of King Edgar in 960, and the tower went up in the fourteenth and fifteenth centuries. A gardening writer who went to look explained how a tree can live in a wall at all. The wall is two faces of stone with rubble packed between them, and the roots have found their way into that core.\n\nThe reader who sent us its photographs puts it at 200 to 400 years old, by their estimate. In their words, \"The old fig tree is growing out of the walls of Manaccan Church.\" Their pictures show a gnarled, knuckled base wedged into the masonry above head height, where the south wall meets the tower, and a thicket of grey stems carrying a dome of big lobed leaves against the old stone. It is free to see from the churchyard.",
+      "how_to_recognise": "You can recognise it by the dome of big lobed fig leaves sprouting from the stonework above head height. It grows out of the church's south wall, at the corner where the wall meets the tower.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/St_Manaccus_and_St_Dunstan_Church",
+        "https://britishlistedbuildings.co.uk/101328590-church-of-saint-manacca-manaccan",
+        "https://roys-roy.blogspot.com/2013/10/curious-church-horticulture.html",
+        "A reader's photographs and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): sent by a reader through the app as Common Fig, age '200 to 400', four photographs; their later note (submission): 'The old fig tree is growing out of the walls of Manaccan Church'. Wikipedia (citing Cornwall Online Parish Clerks): a fig at least 200 years old grows out of the western part of the south wall; charter of King Edgar 960; tower 14th to 15th century; Grade I. Historic England listing: lower south wall C12, 'from the left-hand corner grows a very old fig tree'. roys-roy blog 2013: wall of two faces with rubble core, origin unknown. Photographs viewed: fig rooted in the masonry at the junction of the south wall and the tower, crown of lobed leaves, daylight. Pin: the reader's GPS fix, kept and confirmed. OSM's outline of the church (way 158587050) runs 50.08312 to 50.08333 N, -5.12724 to -5.12690 E; the fix sits a few metres off its south-west corner, which is where the south wall meets the tower and where Wikipedia and the photographs put the fig. The reader's later hand-moved pin (50.083246, -5.126540) lands about 25 m east of the church's east end, off the building, so it was not used. An earlier hold (shrub-sized, no age source) is answered by the listing and parish sources.",
+      "access": "Free, from the churchyard of the parish church.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+        "date": "2026-11-15",
+        "note": "The reader's GPS fix, a few metres off the south-west corner of the church where the south wall meets the tower and the fig grows."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_071683a079961a9398789c42",
+        "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the tower and south wall with the fig growing from the corner, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-crown.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_071683a079961a9398789c42",
+          "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+          "note": "The same reader's photograph of the fig's crown against the tower, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-stems.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_071683a079961a9398789c42",
+          "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+          "note": "The same reader's photograph up into the fig's stems, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-base.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_071683a079961a9398789c42",
+          "sighting_id": "a0f1f73d-ff2f-4a30-b958-2bb1acf20a1b",
+          "note": "The same reader's close photograph of the base rooted in the masonry, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ],
   "question_meta": "The Monterey cypress over the creek near Carne, Manaccan, on the Helford River: what it looks like and where it stands.",
@@ -77,6 +164,10 @@
     {
       "q": "How old is it?",
       "a": "We do not know. No source we found gives an age or a measurement."
+    },
+    {
+      "q": "Is there really a tree growing out of Manaccan church?",
+      "a": "Yes. A fig at least 200 years old grows out of the south wall, at the corner by the tower, and can be seen free from the churchyard."
     }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "city": "Ulverston",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Ulverston is a market town on the Furness peninsula in Cumbria. Just south of it, the grounds of Conishead Priory, a Gothic Revival house that has been a Buddhist centre since 1976, hold old specimen conifers. Readers have sent us two of them: a double-trunked cedar, open grown, and a Douglas fir they believe was among the first planted in Britain.",
+  "meta_description": "A double-trunked cedar and an old Douglas fir in the grounds of Conishead Priory near Ulverston, Cumbria, sent to us by a reader.",
+  "hero_tree_id": "ulv_001",
+  "oldest_tree_id": "ulv_001",
+  "trees": [
+    {
+      "id": "ulv_001",
+      "name": "The Conishead Priory Cedar",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "location": {
+        "address": "Grounds of Conishead Priory, Priory Road, near Ulverston, Cumbria",
+        "latitude": 54.1735751,
+        "longitude": -3.0676725,
+        "neighbourhood": "Conishead Priory"
+      },
+      "story": "Two massive trunks rise from a single base in the grounds of Conishead Priory, near Ulverston, and hold up the flat, layered shelves of a cedar. The reader who found it measured the girth at 755 centimetres, which is their tape, not a register's, and summed it up in four words: \"Old open grown Veteran Tree\". Open grown means it grew with room on every side rather than crowded in woodland, and the photograph shows what that does to a cedar. The two trunks lean apart from their shared foot, fork again into long pale limbs, and spread the crown wide over a bare slope lit by low winter sun.\n\nConishead Priory is a large Gothic Revival house on the Furness peninsula, home to a Buddhist community since 1976. The Woodland Trust, which cares for the woods beside it, names cedar among the fine specimen trees there, with Douglas fir, coast redwood, beech and oak.\n\nNobody has published a date for this tree, and we found it in no register, so its age is an open question. The reader calls it a cedar of Lebanon. If you know when the priory's cedars were planted, tell us. The grounds are open to visitors; we have not pinned the exact spot, so look for the double trunk on open ground.",
+      "how_to_recognise": "You can recognise it by its two massive trunks leaning apart from one base under flat, layered shelves of cedar foliage. It stands on open ground in the grounds of Conishead Priory.",
+      "verified_sources": [
+        "https://woodlandtrust.org.uk/visiting-woods/woods/conishead-priory",
+        "https://en.wikipedia.org/wiki/Conishead_Priory",
+        "A reader's website tip with a photograph, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): a reader's website tip (817) named 'Cedar of Lebanon', girth 755 cm, note 'Old open grown Veteran Tree', one photograph. Photograph viewed: a cedar with two massive trunks from one base, tiered flat crown, open ground, winter daylight; the habit fits Cedrus libani but the species is the reader's, so flagged. Woodland Trust: Conishead Priory wood with fine specimen trees including Douglas fir, coast redwood, cedar, beech and oak, open to visit. Wikipedia: Gothic Revival house on the Furness peninsula near Ulverston, Buddhist community since 1976. Girth is the reader's tape, kept out of girth_cm. No age, no register entry found. Pin: the priory itself (54.1735751, -3.0676725), approximate; the tree's spot in the grounds is not known.",
+      "access": "In the grounds of Conishead Priory, which are open to visitors; the Woodland Trust wood beside them is free to walk.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "place",
+        "date": "2026-11-15",
+        "note": "Conishead Priory itself; the tree stands somewhere in its grounds."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ulv_001-the-conishead-priory-cedar.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 902,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_740a972d9054940ff076c309",
+        "sighting_id": "tip-817",
+        "note": "Photographed by a reader and sent through the website; looked at 2026-11-15: the whole double-trunked cedar on open ground, winter daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "ulv_002",
+      "name": "The Conishead Priory Douglas Fir",
+      "species": "Douglas Fir (Pseudotsuga menziesii)",
+      "location": {
+        "address": "Grounds of Conishead Priory, Priory Road, near Ulverston, Cumbria",
+        "latitude": 54.1735751,
+        "longitude": -3.0676725,
+        "neighbourhood": "Conishead Priory"
+      },
+      "story": "The reader who sent this Douglas fir from the grounds of Conishead Priory believes it is \"most likely one of the first Douglas firs to be introduced in the UK\". That is their belief, and we found no record to test it against, so it stays theirs until a planting date turns up.\n\nWhat can be looked at is what they measured and photographed. They put its girth at 582 centimetres. Their picture, taken in low winter sun, shows a single straight trunk of deeply furrowed red-brown bark rising clear between two ivy-wrapped neighbours, its first long branches sweeping out well above head height and the crown climbing out of the frame. The Woodland Trust names Douglas fir among the fine specimen trees at Conishead, beside coast redwood, cedar, beech and oak.\n\nThe grounds around it have had a crowded life. The house became a spa hotel in 1878, with its own railway station, then a convalescent home for Durham miners from 1930, and it treated some 8,000 wounded servicemen in the Second World War. Nobody has dated this tree within that story. If you know when the conifers here were planted, tell us. The grounds are open to visitors, and the exact spot is not yet on our map, so look for the straight, furrowed trunk among the ivy.",
+      "how_to_recognise": "You can recognise it by the single straight trunk of deeply furrowed red-brown bark, its first long branches well above head height. It stands between ivy-covered trees in the grounds of Conishead Priory.",
+      "verified_sources": [
+        "https://woodlandtrust.org.uk/visiting-woods/woods/conishead-priory",
+        "https://en.wikipedia.org/wiki/Conishead_Priory",
+        "A reader's website tip with a photograph, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session (c): a reader's website tip (818) named 'Douglas fir', girth 582 cm, note 'Most likely one of the first Douglas firs to be introduced in the UK, considered to be a notable tree bei ATF.' Only the first clause is quoted, as theirs. 'ATF' probably means the Ancient Tree Forum or the Ancient Tree Inventory; not looked up in the ATI this session, so no listing is claimed. Photograph viewed: a straight furrowed conifer trunk between ivy-covered trees, winter sun; consistent with Douglas fir but the species is the reader's, so flagged. Woodland Trust: Douglas fir among Conishead's specimen trees. Wikipedia: spa hotel from 1878 with its own station (Bardsea loop, 1883), Durham Miners' convalescent home from 1930, about 8,000 wounded servicemen in the Second World War, Buddhist community since 1976. Pin: the priory, approximate.",
+      "access": "In the grounds of Conishead Priory, which are open to visitors; the Woodland Trust wood beside them is free to walk.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "place",
+        "date": "2026-11-15",
+        "note": "Conishead Priory itself; the tree stands somewhere in its grounds."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ulv_002-the-conishead-priory-douglas-fir.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 902,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_740a972d9054940ff076c309",
+        "sighting_id": "tip-818",
+        "note": "Photographed by a reader and sent through the website; looked at 2026-11-15: the straight furrowed trunk and lower crown, winter daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The old cedar and Douglas fir at Conishead Priory near Ulverston: what they are and how to see them.",
+  "question_answer": "In the grounds of Conishead Priory, just south of Ulverston, stand a double-trunked cedar about 7.5 metres round and a Douglas fir about 5.8 metres round, by a reader's tape. The grounds are open to visitors.",
+  "question_context": "Conishead Priory is a large Gothic Revival house on the Furness peninsula near Ulverston. It became a spa hotel in 1878, a convalescent home for Durham miners in 1930, and has been home to a Buddhist community since 1976. The Woodland Trust, which cares for the woods beside it, names cedar, Douglas fir, coast redwood, beech and oak among the fine specimen trees there. A reader sent two of them with their own measurements: a cedar with two massive trunks from one base, 755 centimetres round, and a Douglas fir of 582 centimetres that they believe is one of the first in the country. The priory's name means King's Hill Priory, and a priory stood on these grounds in the twelfth century. During the Second World War the house treated about 8,000 wounded servicemen. Neither tree has a published age, and the species are the reader's. The priory grounds are open to visitors.",
+  "faq": [
+    {
+      "q": "Can I visit the trees at Conishead Priory?",
+      "a": "Yes. The priory grounds are open to visitors, and the Woodland Trust wood beside them is free to walk."
+    },
+    {
+      "q": "How old are they?",
+      "a": "Nobody has published an age for either tree. If you know when they were planted, tell us."
+    }
+  ]
+}
