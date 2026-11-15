@@ -2642,6 +2642,13 @@
       "Castelul Linderhof",
       "Linderhofo rūmai"
     ],
+    "linton-herefordshire": [
+      "Herefordshire",
+      "Herefordšyras",
+      "Herefordšīra",
+      "Swydd Henffordd",
+      "Herefordiensis comitatus"
+    ],
     "lipany": [
       "Héthárs",
       "Lipanai",
@@ -2863,6 +2870,9 @@
     ],
     "mamhilad": [
       "Mamheilad"
+    ],
+    "manaccan": [
+      "Manahan"
     ],
     "manchester": [
       "Mančesteris",
@@ -5638,7 +5648,7 @@
     "lima": "Lima",
     "limmersdorf": "Thurnau",
     "linderhof": "Linderhof Palace",
-    "linton-herefordshire": "Linton, Herefordshire",
+    "linton-herefordshire": "Herefordshire",
     "lipany": "Lipany",
     "lisbon": "Lisbon",
     "liskiava": "Liškiava",
