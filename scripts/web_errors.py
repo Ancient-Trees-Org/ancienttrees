@@ -60,12 +60,33 @@ def _when(iso):
     return datetime.datetime.fromisoformat(iso)
 
 
+# Errors thrown by software that is not ours, inside the visitor's browser:
+# wallet extensions (window.ethereum), Firefox iOS reader mode (__firefox__),
+# Chrome iOS's injected bridge (__gCrWeb), DarkReader, extension messaging.
+# They arrive from the page's "inline" source because the injected script runs
+# in the page. Read 2026-11-15, when 36 window.ethereum reports on 15 pages
+# lit the quality line red for a fault no change of ours could fix.
+FOREIGN = re.compile(
+    r"window\.ethereum|__firefox__|__gCrWeb|DarkReader|runtime\.sendMessage"
+    r"|Unable to load image data:image/svg\+xml|Can't find variable: ResizeObserver"
+    # a fetch that died on the visitor's own connection (offline, tab closed,
+    # a request cancelled by navigation), the same in every browser's words
+    r"|NetworkError when attempting to fetch resource|^TypeError: (Failed to fetch|Load failed)$",
+    re.I)
+
+
+def is_foreign(message):
+    return bool(FOREIGN.search(message or ""))
+
+
 def group(rows, now=None):
     """One dict per type: last-24h reports and pages, the week before, newest."""
     now = now or datetime.datetime.now(datetime.timezone.utc)
     cut = now - datetime.timedelta(hours=24)
     types = {}
     for r in rows:
+        if is_foreign(r.get("message")):
+            continue
         k = (r.get("message") or "", r.get("source") or "")
         t = types.setdefault(k, {"message": k[0], "source": k[1], "day": 0, "pages": set(),
                                  "before": 0, "browsers": set(), "last": ""})
