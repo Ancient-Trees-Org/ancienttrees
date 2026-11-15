@@ -103,5 +103,67 @@
     "verify_notes": "Register (one official source) plus two Commons photographs dated 11 Sept 2023, so alive as of 2023-09. Photograph geotag (49.90913-49.90914, 10.99555) is the camera position about 36 m south-west of the register point (49.90946, 10.99578), so the exact trunk is not fixed: kept approximate, not confirmed. Register gives genus only (Linde), no girth, height or age. Photograph in reach: Commons category above. Weak on remarkability: a protected rise-top linden with no sourced story; flagged. The register has no vitality field.",
     "story": "Bavaria's register gives directions to this lime the way a farmer would: on the high ground between Pödeldorf and Naisa, about 50 metres east of the edge of the village. It is natural monument ND-03734, number 46 on the Bamberg district's list, on land parcel 105.\n\nThat sentence of directions is most of what the register says. It names the tree only as a lime, with no species, no girth, no height and no age, and no source we found tells its history. What it has is a place: open ground, just where the village stops and the fields toward Naisa begin.\n\nThe proof of life is recent enough to trust. Two photographs on Wikimedia Commons, taken on 11 September 2023 and titled with its register number, show it standing. The camera that took them stood about 36 metres south-west of the register's point, though, which means neither the photographs nor the register fix the exact trunk, and our pin is marked approximate for that reason.\n\nPödeldorf is about four kilometres east of Bamberg's centre, close enough to make this a short outing from the city. No source confirms a path to the tree, so expect to view it from the field edge.\n\nNobody has published an age or the species of this lime. If you walk up to it and know which lime it is, or have a tape measure in your pocket, tell us.",
     "how_to_recognise": "You can recognise it as the lime on the rise between Pödeldorf and Naisa, about 50 metres east of where the houses of Pödeldorf end."
+  },
+  {
+    "id": "bam_010",
+    "name": "The Vollandseiche of Steppach",
+    "species": "Pedunculate Oak (Quercus robur)",
+    "age_estimate": "roughly 300 years",
+    "age_min": 200,
+    "age_max": 300,
+    "girth_cm": 750,
+    "height_m": 23,
+    "location": {
+      "address": "Road from Steppach to Stolzenroth (St 2260), south-west edge of the village, on a beer-cellar terrace above the road, Steppach, Pommersfelden",
+      "latitude": 49.77113,
+      "longitude": 10.80212,
+      "neighbourhood": "Steppach (Pommersfelden)"
+    },
+    "verified_sources": [
+      "https://www.monumentale-eichen.de/bayern/steppach/ (Rainer Lippert, measured 2016: Stieleiche, girth 7.50 m, height 23 m, crown 20 m, about 300 years, coordinates 49.771122, 10.802345; page updated 2017-07)",
+      "https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_im_Landkreis_Bamberg (reproduces the Landkreis Bamberg ordinance: Pommersfelden, Steppach, '1 Eiche', 'Vollandseiche genannt', 49.77113, 10.80212, south-western village exit towards Stolzenroth above cellar buildings)",
+      "https://de.wikipedia.org/wiki/Steppach_(Pommersfelden) (section Vollandseiche: protected Stieleiche, 7.50 m 2016, stands directly above a 19th-century beer cellar built by A. Volland)"
+    ],
+    "official_register": {
+      "name": "Landkreis Bamberg Naturdenkmal list (as reproduced on de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_im_Landkreis_Bamberg"
+    },
+    "access": "Free to see from the public road (Staatsstrasse 2260 between Steppach and Stolzenroth). The oak stands on a wall and cellar terrace 3 m above the road with no bare ground on the road side, so it is a view from the roadside; the ground behind is a private plot. Do not enter. Not checked against OSM tags.",
+    "location_precision": "confirmed",
+    "curation_status": "flagged",
+    "verify_notes": "Register plus Lippert (independent measurer, 2016). Pin: register coordinate and Lippert's GPS differ by about 15 m and the tree is a single crown on a distinctive cellar wall at the road edge, so confirmed is defensible; pin on the roadside viewing point. Age: Lippert says about 300 years, Wikipedia list gives 200 to 300 (monumentale-eichen derived, no documented planting). Alive: Lippert 2016 says vitality 'recht gut', trunk undamaged, cylindrical; strongest road-side limb cut at 5 m height and some crown limbs shortened 'vor kurzem' (before 2016). Commons photographs of 2012 exist (Eiche Steppach 1 and 2). lifecheck returned NONE, so no dated image after 2017 found: flagged, page should ask readers to confirm it still stands. What makes it remarkable: one of the most unusual oak sites Lippert knows. It stands directly on top of a beer cellar with side rooms, one carved 1717; over 20 such Bierkeller in the village; A. Volland (source of the name) had cellar and garden wall built along the road about 1843; roots spread far into the plot behind, no soil on the road side, cellar stones bare. Trunk splits at 3 to 4 m into near-vertical limbs. Lippert: the hardest oak he knows to measure (steps down into the cellar directly under the trunk). Lippert also notes a second oak in the village on a steep slope, girth 5.45 m (not delivered). About 21 km from Bamberg centre (Pommersfelden); public transport not checked, do not claim a time."
+  },
+  {
+    "id": "bam_011",
+    "name": "The Churchyard Linden of Hohenpoelz",
+    "species": "Summer Linden (Tilia platyphyllos)",
+    "age_estimate": "over 250 years",
+    "age_min": 250,
+    "age_max": 400,
+    "girth_cm": 650,
+    "height_m": 18,
+    "location": {
+      "address": "North-east corner of the churchyard wall, St. Laurentius und Heinrich, Hohenpoelz, Heiligenstadt i.OFr.",
+      "latitude": 49.90925,
+      "longitude": 11.14592,
+      "neighbourhood": "Hohenpoelz"
+    },
+    "verified_sources": [
+      "https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_im_Landkreis_Bamberg (Heiligenstadt i.OFr., Hohenpoelz, ND-Nr. 19, 'Friedhoflinde Hohenpoelz', at the north corner of the Kirchhof, 49.90925, 11.14592)",
+      "https://de.wikipedia.org/wiki/Liste_markanter_und_alter_Baumexemplare_in_Bayern (row Friedhoflinde Hohenpoelz: Sommerlinde, girth 6.50 m (2015), height 18 m, age >250, cites the Baumkunde register no. 2042)",
+      "https://de.wikipedia.org/wiki/St._Laurentius_und_Heinrich_(Hohenp%C3%B6lz) (the churchyard wall is overtopped in its north-east corner by a linden several hundred years old)"
+    ],
+    "official_register": {
+      "name": "Landkreis Bamberg Naturdenkmal list, ND-Nr. 19 (as reproduced on de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_im_Landkreis_Bamberg"
+    },
+    "access": "Free. Stands at the wall of the village churchyard around the fortified church (Wehrkirche) on a hill; the churchyard is the village's public churchyard. Hours of the gate not published; not checked against OSM tags.",
+    "location_precision": "approximate",
+    "location_site": {
+      "name": "Churchyard of St. Laurentius und Heinrich, Hohenpoelz",
+      "radius_m": 30
+    },
+    "curation_status": "flagged",
+    "verify_notes": "Register-level pin (the list's coordinate and the ordinance wording 'an der Nordecke des Kirchhofs'), so approximate with the churchyard as small site; what tells it apart: the one big linden whose crown overtops the churchyard wall in the north-east corner (church article, Commons file names 'Kirchenlinde Hohenpoelz', 'Linde und St. Laurentius'). Girth 6.50 m (2015) and height 18 m, age >250 as given on the Bavaria list of notable trees, which cites Baumkunde; I did not fetch the Baumkunde page (Cloudflare challenge), so these figures rest on the de.wikipedia list. A search summary gave other figures (6.58 m, 300 to 500 years); not recorded because not seen on a page. Age is a vague source repeated vaguely: no documented planting. Alive: weak. Commons photographs 2006, 2007, 2010 (Kirchenlinde Hohenpoelz 02 is geotagged 49.909249 near the register point); lifecheck RECENT 2024-03-31 was a drone photo of the church, which proves nothing about the tree. Flag and ask readers to confirm. Interest: a fortified church (Wehrkirche) on a hill, with loopholes re-exposed in the churchyard wall some years ago; the Hohenpoelz Grabhuegelfeld (ND) and the Heroldstein rock lie within about 1 km (separate register entries). About 12 km east of Bamberg centre (Heiligenstadt i.OFr.); public transport not checked, do not claim a time."
   }
 ]
