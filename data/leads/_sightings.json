@@ -3452,7 +3452,7 @@
    "user_id": "p_64aded5e0bdd8d60b3e78790",
    "mine": false,
    "name": "Il cipresso calvo di Villa Smeraldi",
-   "species": null,
+   "species": "Cypress (Cupressus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -3470,14 +3470,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-875",
    "user_id": "p_64aded5e0bdd8d60b3e78790",
    "mine": false,
    "name": "Quercia di Molinazzo",
-   "species": null,
+   "species": "Oak (Quercus sp.)",
    "age": null,
    "girth_cm": 460,
    "girth_hugs": null,
@@ -3495,7 +3496,8 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   }
  ]
 }

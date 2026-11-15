@@ -449,11 +449,11 @@
       "age_basis": "source",
       "location": {
         "address": "South Pasadena Public Library, 1100 Oxley Street (west side), Library Park, South Pasadena, CA 91030",
-        "latitude": 34.11458,
-        "longitude": -118.15599,
+        "latitude": 34.114353,
+        "longitude": -118.156289,
         "neighbourhood": "South Pasadena"
       },
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "verified_sources": [
         "https://southpasadenan.com/south-pasadenas-newest-landmark-moreton-fig-library-tree/",
         "https://www.inaturalist.org/observations/133549102",
@@ -471,10 +471,24 @@
       "story": "South Pasadena's Landmark No. 55 is not a house or a storefront. It is a fig planted by a man from the city's street department. The city council added the Moreton Bay fig beside the public library to its Historic Landmark Register in December 2018.\n\nThe South Pasadenan dates the planting to 1930, which would make the fig about 95 years old. The sources do not quite line up. A second piece in the same paper, from 2011, said only that it went in about 80 years earlier, which lands in the same years, while one writer guessed at a century without saying why. The 1930 date has the better footing.\n\nThat makes it a young tree by the standards of this page. The Earley fig in Pasadena, a few kilometres north, is half a century older. What the two share is a city's formal protection. This one stands in Library Park, a public park open to everyone, on the west side of the library building.\n\nNobody has published its height or girth. If you have measured it, tell us.\n\nAccess is free and there is no gate. The pin comes from a visitor's GPS record in the park rather than the trunk itself, so walk round to the west side of the library and look for the big fig there.",
       "how_to_recognise": "You can recognise it as the large fig on the west side of the South Pasadena Public Library. It stands in Library Park, beside the library building.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lax_031-library-park-fig.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_a52c97c9ecd3468c7f9a998f",
+        "sighting_id": "8fcb5cde-944b-4d35-a9bd-79412712a8db",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Moreton Bay-type fig with buttress roots beside the Burbank library building, daylight. Species seen: large Ficus with buttress roots and glossy leaves. Fits the description: big fig beside the library.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "8fcb5cde-944b-4d35-a9bd-79412712a8db",
+        "moved_m": 37,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

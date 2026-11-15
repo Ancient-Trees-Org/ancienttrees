@@ -2329,6 +2329,209 @@
   "tip-875": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "cnx_001",
+   "reason": "Photo shows a strangler fig with exposed roots, not a Dipterocarpus; the fix is 2.2 km from our pin. Doubt is a hold."
+  },
+  "c8d04675-2b33-4799-8579-159c24813e0b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "akw_002",
+   "city_slug": "ardkinglas",
+   "file": "akw_002-ardkinglas-silver-fir-the-mightiest-conifer.jpg",
+   "reason": "Multi-stemmed silver fir with the 'Europe's highest tree?' plaque at its foot, daylight and colour. Species seen: silver fir, fissured plated bark, candelabra stems. Fits the description: huge multi-stem trunk with the Europe's Highest Tree sign.",
+   "lat": 56.25042,
+   "lon": -4.94147833333333,
+   "pin_checked": "2026-11-15"
+  },
+  "6d6d0f62-5fa6-47eb-b618-614103ad8ff0": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "akw_001",
+   "city_slug": "ardkinglas",
+   "file": "akw_001-ardkinglas-grand-fir.jpg",
+   "reason": "Towering grand fir with its name plate at the base and a person for scale; backlit sky but the trunk and plate read clearly. Species seen: grand fir, straight tall trunk, plate on trunk. Fits the description: very tall straight conifer with plaque.",
+   "lat": 56.2501216666667,
+   "lon": -4.941555,
+   "pin_checked": "2026-11-15"
+  },
+  "8fcb5cde-944b-4d35-a9bd-79412712a8db": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lax_031",
+   "city_slug": "los-angeles",
+   "file": "lax_031-library-park-fig.jpg",
+   "reason": "Moreton Bay-type fig with buttress roots beside the Burbank library building, daylight. Species seen: large Ficus with buttress roots and glossy leaves. Fits the description: big fig beside the library.",
+   "lat": 34.1143527833333,
+   "lon": -118.156288883333,
+   "pin_checked": "2026-11-15"
+  },
+  "fe3a6f40-1a19-41ab-86b2-7121b889e003": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "cor_003",
+   "reason": "Shows a college quad and sky; no redwoods in frame. Wrong subject."
+  },
+  "c82eb35c-e51c-40af-9225-927ebed2f0cb": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "emm_008",
+   "city_slug": "emmen",
+   "file": "emm_008-the-variegated-maple-of-coevorden-castle.jpg",
+   "reason": "Large broad-crowned maple in leaf in the castle grounds, buildings behind. Species seen: broad maple crown, light green leaves. Fits the description: big spreading tree by the castle buildings.",
+   "lat": 52.6623383333333,
+   "lon": 6.74214666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "dub_017",
+   "reason": "A weeping conifer (cedar-like) arch, not a strawberry tree with peeling bark."
+  },
+  "1dde934f-5b8b-415c-9b32-febb864eac2a": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gra_007",
+   "city_slug": "granada",
+   "file": "gra_007-the-twin-cypresses-of-the-parador.jpg",
+   "reason": "Two tall cypresses against the Parador wall, twisted bark, daylight. Species seen: Mediterranean cypress, fluted grey trunks. Fits the description: twin cypresses by the church wall.",
+   "lat": 37.1757883333333,
+   "lon": -3.58717166666667,
+   "pin_checked": "2026-11-15"
+  },
+  "1bdff60c-6ea7-4323-9cf5-fe703f69a248": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mlt_001",
+   "city_slug": "malta",
+   "file": "mlt_001-xemxija-old-carob-tree.jpg",
+   "reason": "Gnarled old carob behind a wall with the plaque, small file but the tree is plain. Species seen: old carob, twisted trunk, glossy leaves. Fits the description: old gnarled tree with plaque.",
+   "lat": 35.9485038,
+   "lon": 14.380459,
+   "pin_checked": "2026-11-15"
+  },
+  "36bfbe9f-0328-43ce-a828-eb1001119352": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "lon_042",
+   "reason": "Two recognisable people fill the frame; the oak is background. Out of the strip for privacy."
+  },
+  "9c93b205-3812-4c19-9040-a4efe3511170": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "lon_052",
+   "reason": "A huge London plane, 10.7 km from the Hampstead beech it was tagged to: wrong tree. Kept as a lead for a new tree."
+  },
+  "8b7f5345-ac50-432e-bc87-7f9fb01f07e1": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "dmr_001",
+   "reason": "A meadow with a car and a conifer plantation; not Wistman's Wood."
+  },
+  "cc8de006-3714-424d-90ed-29ddd0adac6c": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "bfs_003",
+   "reason": "A crowd of people at a graduation fills the frame; the redwood is a distant background."
+  },
+  "2da20219-c708-4cfc-a74b-ad7f0915edab": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "bfs_003",
+   "reason": "Same crowd shot, cropped; people dominate."
+  },
+  "aa29f45d-e14e-4faa-8f21-9b38e5e269c5": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "crm_001",
+   "reason": "Ruins and a backlit bare tree; cannot tell it is a yew."
+  },
+  "e67ce516-1f9b-4a80-81a0-9bdad8739ea2": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "plm_001",
+   "reason": "Museum giants figures, no tree."
+  },
+  "3b39d16a-da7e-41df-b566-3345170189b9": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "bat_003",
+   "city_slug": "bath",
+   "file": "bat_003-the-plane-trees-of-the-circus-3b39d16a.jpg",
+   "reason": "Three bare planes before the Circus; a person in the corner. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 51.3855366666667,
+   "lon": -2.36398333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "b724f1db-2429-4905-a291-fa1bf50132cd": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "bos_013",
+   "city_slug": "boston",
+   "file": "bos_013-endicott-pear-tree-b724f1db.jpg",
+   "reason": "Pear tree in leaf behind the railing. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 42.548305,
+   "lon": -70.930145,
+   "pin_checked": "2026-11-15"
+  },
+  "79e27623-4f57-4e8b-93ed-5809952ad465": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "cdb_001",
+   "city_slug": "cordoba",
+   "file": "cdb_001-the-olive-of-the-orange-courtyard-79e27623.jpg",
+   "reason": "The old olive left of the fountain, under the blue sky; people around. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 37.8796366666667,
+   "lon": -4.779895,
+   "pin_checked": "2026-11-15"
+  },
+  "505b0039-de16-410f-817e-55e31e93c41a": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "cdb_002",
+   "city_slug": "cordoba",
+   "file": "cdb_002-the-orange-courtyard-of-the-mezquita-505b0039.jpg",
+   "reason": "The orange trees of the courtyard under the arch with the Mezquita behind. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 37.8795883333333,
+   "lon": -4.78012166666667,
+   "pin_checked": "2026-11-15"
+  },
+  "bcde1019-cccf-445a-a2ab-81b2bdbb8809": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "mob_003",
+   "city_slug": "mobile",
+   "file": "mob_003-jackson-s-oak-bcde1019.jpg",
+   "reason": "The great live oak with its sign and the boardwalk. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 30.6280783333333,
+   "lon": -87.9144966666667,
+   "pin_checked": "2026-11-15"
+  },
+  "513c935b-b7e0-4b76-93c2-6a8223d8274b": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "plm_001",
+   "city_slug": "palma-de-mallorca",
+   "file": "plm_001-s-olivera-de-cort-513c935b.jpg",
+   "reason": "The old olive in its ring of railings on the square. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 39.5695533333333,
+   "lon": 2.649895,
+   "pin_checked": "2026-11-15"
+  },
+  "9689a5aa-c566-41e5-a674-f26dd189e7cc": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "snd_001",
+   "city_slug": "sunderland-massachusetts",
+   "file": "snd_001-the-sunderland-buttonball-tree-9689a5aa.jpg",
+   "reason": "Huge sycamore with the house and marker stone. Species seen: as recorded. Fits the description: the tree named on the page.",
+   "lat": 42.4689533333333,
+   "lon": -72.5781033333333,
+   "pin_checked": "2026-11-15"
   }
  }
 }

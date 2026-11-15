@@ -40,8 +40,8 @@
       "height_m": 64.8,
       "location": {
         "address": "Ardkinglas Woodland Garden (the Pinetum), Cairndow, Argyll PA26 8BG",
-        "latitude": 56.2498,
-        "longitude": -4.9409,
+        "latitude": 56.250122,
+        "longitude": -4.941555,
         "neighbourhood": "Cairndow"
       },
       "story": "For a number of years this was the tallest tree in Britain, the Ardkinglas estate says. The grand fir went into the lower woodland garden, the Pinetum, as a sapling around 1875. By 2002 it was recorded at 203 feet. A climber measured it at 64.28 metres in 2010, a walk report in 2014 gave 63.4, and the estate's own figure, from July 2025, is 64.8 metres. Different methods give different answers at this height, so call it around 64 metres.\n\nThe title has since moved north. The estate itself credits a Douglas fir in Reelig Glen, near Inverness, measured at 66.4 metres, with taking it, and says the record changed hands three times in a single year. Ardkinglas keeps the grand fir on its list of champion trees all the same.\n\nThe trunk was about 17 feet round in 2014, a little over five metres. We found no storm report for it, and the estate listed it as standing in 2025.\n\nYou reach it along the Window Walk, a path high above the water, a few minutes from the lochan and the bridge over the weir to the old mill. The path is hilly, with steep steps and roots. The garden is open in daylight all year, and we could not find the admission price, so check with the estate before you go. Our pin marks the garden, not the trunk.",
@@ -58,14 +58,28 @@
       "access": "Woodland garden open all year in daylight hours (2014 visitor account); hilly path with steep steps and roots on the Window Walk. Admission price not found on the fetched pages: check ardkinglas.com or the estate office, 01499 600261.",
       "transport": "Cairndow on the A83 at the head of Loch Fyne; no practical public transport from Glasgow beyond the Citylink Glasgow to Campbeltown coach stopping at Cairndow, check timetable. Car park at the woodland garden.",
       "how_to_recognise": "You can recognise it as the tallest conifer in the lower woodland garden, the Pinetum, about 64 metres high and five metres round. It stands along the Window Walk above the water, a few minutes from the lochan and the weir bridge.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Pin is the centre of the OSM leisure=garden way 'Ardkinglas Woodland Garden' (Nominatim), NOT the trunk; no published GPS or OSM tree node found. Estate page: grand fir in the lower woodland garden known as the Pinetum, planted as a sapling around 1875 (estate and 2014 glasgowwestend walk both say 1875). Estate page says it was Britain's tallest tree for a number of years but has been overtaken (title said to have changed hands three times in the last year; Douglas fir at Reelig Glen Wood near Inverness 66.4 m by David Alderman and Chic Henderson, year not stated). Heights: 64.8 m as of July 2025 (estate page), 64.28 m when climbed 2010, 63.4 m (210 ft 11 in) in a 2014 walk report, 203 ft in 2002 (redwoodworld). Girth about 17 ft (glasgowwestend 2014). Reached via the Window Walk, a path high above the water, a few minutes' walk from the lochan and the bridge over the weir to the old mill. A forum comment says its top is frequently blown out; no storm-fell report found for Arwen, Eunice or Eowyn, and the estate page lists it as standing in 2025. Dates conflict slightly (planting 1875 vs height gain), heights vary by method; state as 'around 64 m'. Exact tree spot within the Pinetum unconfirmed, so approximate. Heights figures from estate page seen on fetched page.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/akw_001-ardkinglas-grand-fir.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 808,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_2fb168cd887679f3b6633670",
+        "sighting_id": "6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
+        "note": "Photographed by a reader and sent through the app (2018-09-22); a viewing pass approved it on 2026-11-15: Towering grand fir with its name plate at the base and a person for scale; backlit sky but the trunk and plate read clearly. Species seen: grand fir, straight tall trunk, plate on trunk. Fits the description: very tall straight conifer with plaque.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
+        "moved_m": 54,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
@@ -79,8 +93,8 @@
       "girth_cm": 940,
       "location": {
         "address": "Ardkinglas Woodland Garden, Cairndow, Argyll PA26 8BG",
-        "latitude": 56.2498,
-        "longitude": -4.9409,
+        "latitude": 56.25042,
+        "longitude": -4.941478,
         "neighbourhood": "Cairndow"
       },
       "story": "The Ardkinglas estate calls this the mightiest conifer in Europe, and the trunk makes the case. It is a silver fir with a girth of nearly ten metres by the estate's measure, over 31 feet by Wikipedia's. The name is not new. It was given, the estate says, by the 10th Duke of Argyll more than a hundred years ago.\n\nThe estate puts it at about 250 years old. That is the owner's figure, and the only one we have, so read it as a claim rather than a count. Accounts describe the trunk dividing into several great stems, so expect a mass of timber rather than a single column.\n\nWhat is missing is just as plain. No height is published. The estate does not say where in the garden it stands, so our pin marks the garden, not the tree. We found it in no storm report, and the estate still lists it among its champion trees.\n\nArdkinglas sits at the head of Loch Fyne, at Cairndow on the A83. The woodland garden is open in daylight all year; we could not find the admission price, so check with the estate first. The grand fir that was once Britain's tallest tree grows in the same garden, in the Pinetum.",
@@ -96,14 +110,28 @@
       "access": "Woodland garden open all year in daylight hours (2014 visitor account). Admission price not found: check ardkinglas.com or the estate office, 01499 600261.",
       "transport": "Cairndow on the A83 at the head of Loch Fyne; car park at the woodland garden.",
       "how_to_recognise": "You can recognise it by the trunk, nearly ten metres round, which splits into several large stems. It stands in the Ardkinglas woodland garden; the estate does not publish the spot, so our pin marks the garden.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Estate page: 'the mightiest conifer in Europe', girth nearly 10 m, described as 250 years old, name given by the 10th Duke of Argyll more than 100 years ago. Wikipedia (Ardkinglas): girth over 31 ft (9.4 m). Trees and Shrubs Online (search snippet only, not fetched): divides into four giant ascending stems; Pakenham's Meetings with Remarkable Trees confirmed its status (unverified, snippet). Girth recorded as 940 cm (Wikipedia 9.4 m; estate 'nearly 10 m'). Age 250 is the estate's figure; it predates the 1860s-70s arboretum by the Callander family so it is probably a relic of an earlier planting; derived from a single owner claim, flagged. Spot in garden not published; pin is garden centre, approximate. Not seen in any storm report.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/akw_002-ardkinglas-silver-fir-the-mightiest-conifer.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_2fb168cd887679f3b6633670",
+        "sighting_id": "c8d04675-2b33-4799-8579-159c24813e0b",
+        "note": "Photographed by a reader and sent through the app (2018-09-22); a viewing pass approved it on 2026-11-15: Multi-stemmed silver fir with the 'Europe's highest tree?' plaque at its foot, daylight and colour. Species seen: silver fir, fissured plated bark, candelabra stems. Fits the description: huge multi-stem trunk with the Europe's Highest Tree sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c8d04675-2b33-4799-8579-159c24813e0b",
+        "moved_m": 78,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

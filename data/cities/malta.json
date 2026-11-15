@@ -48,10 +48,17 @@
       "how_to_recognise": "You can recognise it by the many-stemmed trunk, 7.25 metres round, over a dry-stone wall with a poem on it. It stands on the Xemxija Heritage Trail directly in front of the rock-carved Roman apiary.",
       "age_basis": "source",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mlt_001-xemxija-old-carob-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 365,
+        "height": 547,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f9a2c5e54ba586d5faf7f49b",
+        "sighting_id": "1bdff60c-6ea7-4323-9cf5-fe703f69a248",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Gnarled old carob behind a wall with the plaque, small file but the tree is plain. Species seen: old carob, twisted trunk, glossy leaves. Fits the description: old gnarled tree with plaque.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

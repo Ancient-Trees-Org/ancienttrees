@@ -307,10 +307,17 @@
       "access": "Free to look at. The maple stands on open ground at Kasteel Coevorden, which is now a hotel, and is in full view from the forecourt.",
       "transport": "In the centre of Coevorden, a short walk from the bus station, and about 15 km southeast of Emmen.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/emm_008-the-variegated-maple-of-coevorden-castle.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "c82eb35c-e51c-40af-9225-927ebed2f0cb",
+        "note": "Photographed by a reader and sent through the app (2026-08-17); a viewing pass approved it on 2026-11-15: Large broad-crowned maple in leaf in the castle grounds, buildings behind. Species seen: broad maple crown, light green leaves. Fits the description: big spreading tree by the castle buildings.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the leaves, splashed and streaked with cream rather than plain green. It is the maple on the open ground in front of Kasteel Coevorden.",
       "curation_status": "flagged",

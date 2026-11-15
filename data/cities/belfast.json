@@ -141,37 +141,7 @@
         ],
         "kind": "autumn colour",
         "label": "late October into November, when the needles turn rust orange and drop, which is not what a conifer is supposed to do"
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/bfs_003-the-dawn-redwood-by-the-kelvin-statue-cc8de006.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 6,
-          "source": "contributor",
-          "contributor_user_id": "p_b4394ae41139d013921d623e",
-          "sighting_id": "cc8de006-3714-424d-90ed-29ddd0adac6c",
-          "note": "Photographed by a reader and sent through the app (2025-06-26); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/bfs_003-the-dawn-redwood-by-the-kelvin-statue-2da20219.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 738,
-          "height": 1600,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_b4394ae41139d013921d623e",
-          "sighting_id": "2da20219-c708-4cfc-a74b-ad7f0915edab",
-          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        }
-      ]
+      }
     },
     {
       "id": "bfs_004",

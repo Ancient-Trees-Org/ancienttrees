@@ -109,8 +109,8 @@
       "age_max": 210,
       "location": {
         "address": "The Circus, Bath BA1 2ET",
-        "latitude": 51.3862,
-        "longitude": -2.3638,
+        "latitude": 51.385537,
+        "longitude": -2.363983,
         "neighbourhood": "City centre"
       },
       "story": "The Circus is three curved terraces of Grade I listed townhouses arranged into a full circle, John Wood the Elder's answer to the Colosseum and one of the defining images of Georgian Bath. For its first decades the ring at the centre was paved stone setts sitting over a reservoir that supplied the surrounding houses with water. In 1800 the residents enclosed that centre as a private garden, grassed it over, and planted five London Planes, reportedly to cut down on the dust that horse-drawn carriages kicked up on the surrounding road. Those five trees, believed to date to around 1820, have since grown enormous, their canopies now higher than the roofline of the houses they were planted to shield, and they have become inseparable enough from the Circus's identity that Bath and North East Somerset Council names them as one of the features contributing to the whole ensemble's Grade I listing. Stand in the centre of the green today and the five trunks, the curving stone facades and the sky framed between them make one of the most photographed views in a city that has no shortage of them.",
@@ -131,7 +131,7 @@
       },
       "curation_status": "flagged",
       "notes": "Presented as a single ensemble entry per CLAUDE.md's collectible-point test: five trees in one compact, famous, self-contained green with one obvious place to stand, the same pattern as the Lomanstraat tunnel and Meiji Jingu Gaien avenue precedents. Planting date ('around 1820') is Wikipedia's figure, citing Bath & North East Somerset Council and Bath Preservation Trust records directly (both primary-ish sources, inaccessible to direct fetch this run but independently corroborated by multiple secondary summaries). No single-tree girth or height figures found; flagged for that reason, not for doubt about the trees' existence or age bracket.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "Five planes on the enclosed green at the centre of the circle, their crowns now higher than the roofline of the terraces around them.",
       "photos": [
         {
@@ -148,7 +148,14 @@
           "note": "Photographed by a reader and sent through the app (2026-02-07); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
         }
-      ]
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "3b39d16a-da7e-41df-b566-3345170189b9",
+        "moved_m": 75,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "bat_004",

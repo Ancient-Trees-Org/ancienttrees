@@ -1703,23 +1703,7 @@
         "width": 2509,
         "height": 2721,
         "taken_month": 5
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/lon_042-grimston-s-oak-36bfbe9f.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1600,
-          "height": 1200,
-          "taken_month": 8,
-          "source": "contributor",
-          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
-          "sighting_id": "36bfbe9f-0328-43ce-a828-eb1001119352",
-          "note": "Photographed by a reader and sent through the app (2026-08-22); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        }
-      ]
+      }
     },
     {
       "id": "lon_043",
@@ -2210,23 +2194,7 @@
         "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath-9c93b205.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 9,
-          "source": "contributor",
-          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
-          "sighting_id": "9c93b205-3812-4c19-9040-a4efe3511170",
-          "note": "Photographed by a reader and sent through the app (2026-09-12); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        }
-      ]
+      }
     }
   ]
 }

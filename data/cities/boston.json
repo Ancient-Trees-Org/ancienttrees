@@ -509,8 +509,8 @@
       "girth_cm": null,
       "location": {
         "address": "North Shore Medical Center, 100 Endicott Street, Danvers, Massachusetts",
-        "latitude": 42.54823,
-        "longitude": -70.93002,
+        "latitude": 42.548305,
+        "longitude": -70.930145,
         "neighbourhood": "Danvers (about 25 km north of Boston)"
       },
       "verified_sources": [
@@ -521,7 +521,7 @@
       ],
       "access": "Free. Stands behind a fence beside a hospital parking lot; viewed from the 2011 historic marker at the viewing level over the lot and from the medical centre's public lobby display. Not enterable.",
       "transport": "Danvers, roughly 35 to 45 minutes by car from central Boston; by public transport commuter rail to Salem or Beverly plus a local bus or taxi, 75 minutes or more (not route-checked).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "- Oldest living cultivated fruit tree in North America per enwiki; planted 1632 to about 1640 by John Endecott (spelled Endicott on the tree), governor of Massachusetts Bay Colony. Only survivor of his orchard.\n- Alive: search result dates a May 2025 photograph, and a Dec 2024 article says it still bears fruit. I did not open those pages; treat as one soft dated source.\n- 1770 storm survived; 1964 vandals hacksawed the branches and trunk down to about 6 ft; chain-link and barbed wire fence then installed. 1952 CBS-Hytron plant and parking lot left it nearly hidden. 2009 lobby display, 2011 marker by Colonial Dames. Reported 80 ft by 1875 (not today). Fruit is a Bon Chretien sugar pear.\n- Owner 2004: North Shore Medical Center; maintained with Danvers Tree and Grounds.\n- Pin: Wikidata 42.548238,-70.930013 and OSM node 2510773452 (42.548227,-70.930052) agree, but probably share a source and the tree is tucked beside a lot, so left approximate.\n- Commons photo is a 1997 USDA photo, public domain: old, check it still shows the tree as it is.",
       "story": "The oldest living cultivated fruit tree in North America grows beside a hospital car park in Danvers, about 25 kilometres north of Boston. It is a pear, planted sometime between 1632 and about 1640 by John Endecott, governor of the Massachusetts Bay Colony, and it is the only survivor of his orchard.\n\nIt has had a hard four centuries. It came through a storm in 1770. In 1952 a CBS-Hytron plant and its parking lot went up around it until it was nearly hidden. In 1964 vandals took a hacksaw to its branches and trunk and cut it down to about six feet. It grew back. A chain-link fence with barbed wire went up afterwards, and a fence is still what you see it through. The tree once stood about 80 feet tall, by an account from 1875. It is far smaller now.\n\nIt still fruits. A December 2024 article reports that it bears pears, a Bon Chrétien sugar pear, and a photograph dated May 2025 shows it standing. If you have seen it since, tell us how it looks.\n\nYou cannot walk up to it. The North Shore Medical Center owns it and looks after it with the town, a 2011 marker overlooks it from beside the lot, and a display in the hospital lobby tells its story. From central Boston this is a car trip, or well over an hour by train and bus.",
@@ -559,6 +559,13 @@
         ],
         "label": "late April, when the Endicott Pear is covered in white blossom",
         "kind": "flowers"
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b724f1db-2429-4905-a291-fa1bf50132cd",
+        "moved_m": 13,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

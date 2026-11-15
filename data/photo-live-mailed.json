@@ -1006,6 +1006,15 @@
      "city_slug": "belfast",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
+     "tree_id": "gra_007",
+     "tree_name": "The Twin Cypresses of the Parador",
+     "city": "Granada",
+     "city_slug": "granada",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": [
@@ -1059,7 +1068,17 @@
   },
   "p_46eb99793fa60c6d1e5a07ed": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "c82eb35c-e51c-40af-9225-927ebed2f0cb",
+     "tree_id": "emm_008",
+     "tree_name": "The Variegated Maple of Coevorden Castle",
+     "city": "Emmen",
+     "city_slug": "emmen",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "eb13d715-dd45-415b-aeb6-2a986565e5fb",
@@ -1145,6 +1164,60 @@
      "tree_name": "S'Olivera de Cort",
      "city": "Palma de Mallorca",
      "city_slug": "palma-de-mallorca",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_2fb168cd887679f3b6633670": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c8d04675-2b33-4799-8579-159c24813e0b",
+     "tree_id": "akw_002",
+     "tree_name": "Ardkinglas Silver Fir, the Mightiest Conifer",
+     "city": "Ardkinglas",
+     "city_slug": "ardkinglas",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
+     "tree_id": "akw_001",
+     "tree_name": "Ardkinglas Grand Fir",
+     "city": "Ardkinglas",
+     "city_slug": "ardkinglas",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_a52c97c9ecd3468c7f9a998f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "8fcb5cde-944b-4d35-a9bd-79412712a8db",
+     "tree_id": "lax_031",
+     "tree_name": "Library Park Fig",
+     "city": "Los Angeles",
+     "city_slug": "los-angeles",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_f9a2c5e54ba586d5faf7f49b": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1bdff60c-6ea7-4323-9cf5-fe703f69a248",
+     "tree_id": "mlt_001",
+     "tree_name": "Xemxija Old Carob Tree",
+     "city": "Malta",
+     "city_slug": "malta",
      "display_name": null,
      "live": "2026-11-15"
     }

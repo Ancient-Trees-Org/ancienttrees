@@ -241,8 +241,8 @@
       "age_max": 200,
       "location": {
         "address": "Parador de Granada, Real de la Alhambra s/n, 18009 Granada",
-        "latitude": 37.1758,
-        "longitude": -3.5873,
+        "latitude": 37.175788,
+        "longitude": -3.587172,
         "neighbourhood": "Alhambra"
       },
       "story": "Two centenarian cypresses flank what was once the entrance to a set of royal tombs, inside a garden that has spent the last five centuries as a Franciscan convent, then a hotel. The Parador de Granada occupies the former Convento de San Francisco, built in the 15th century within the Alhambra's own walls, on ground the Catholic Monarchs Ferdinand and Isabella briefly chose as their own burial place before their remains moved to the Royal Chapel in the city below. The garden that grew up around the convent later became a botanical showcase laid out with identifying labels for each species, mixing Mediterranean natives, lavender, thyme, rosemary, with the pines, figs and cypresses planted for height and structure, these two flanking the site's most historically loaded doorway. The Parador remains a working hotel, and its garden sits technically on private grounds, but the café and restaurant terrace opens directly onto it, meaning any visitor willing to buy a coffee can walk the same paths past the same trees that once shaded a monarch's intended tomb.",
@@ -253,15 +253,29 @@
       "access": "Free via the public cafe/restaurant terrace (Parador hotel grounds)",
       "transport": "Alhambra bus (C30/C32) or 25 min walk uphill from the city centre",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gra_007-the-twin-cypresses-of-the-parador.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_b4394ae41139d013921d623e",
+        "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
+        "note": "Photographed by a reader and sent through the app (2026-05-23); a viewing pass approved it on 2026-11-15: Two tall cypresses against the Parador wall, twisted bark, daylight. Species seen: Mediterranean cypress, fluted grey trunks. Fits the description: twin cypresses by the church wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Both sources are from the same publisher (wastemagazine.es, two separate dedicated articles); treated as closer to single-sourced for this specific pair's age and exact positioning, though the Parador's history and garden layout are independently documented by the hotel's own listings. No individual planting date found; age left as a broad centenarian estimate. No usable photo found.",
-      "location_precision": "approximate",
-      "how_to_recognise": "You can recognise them by the pair, two cypresses standing one on either side of a doorway. They flank what was once the entrance to the royal tombs, in the Parador garden reached from the cafe and restaurant terrace."
+      "location_precision": "confirmed",
+      "how_to_recognise": "You can recognise them by the pair, two cypresses standing one on either side of a doorway. They flank what was once the entrance to the royal tombs, in the Parador garden reached from the cafe and restaurant terrace.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
+        "moved_m": 11,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "gra_008",
