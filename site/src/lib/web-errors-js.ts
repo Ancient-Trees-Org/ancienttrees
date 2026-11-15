@@ -64,10 +64,17 @@ export const WEB_ERRORS_JS = `
   function foreign(text) {
     return /(chrome|moz|safari|safari-web|ms-browser)-extension:\\/\\//.test(text || '');
   }
+  function injected(message) {
+    // Wallet and other extensions that write into the page: a script of theirs
+    // fails with our page's address as its file, so the file test cannot tell.
+    // Nothing in site/src touches window.ethereum or builds a base64 SVG image.
+    return /window\\.ethereum|Unable to load image data:image\\/svg\\+xml;base64/.test(message || '');
+  }
   function report(message, source, line) {
     try {
       if (sent >= 3) return;
       message = String(message || '').slice(0, 300);
+      if (injected(message)) return;
       var key = message + '|' + source + '|' + line;
       if (seen[key]) return;
       seen[key] = 1;
