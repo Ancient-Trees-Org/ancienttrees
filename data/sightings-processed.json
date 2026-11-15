@@ -1167,49 +1167,57 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ngs_001",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "0a0cbd5b-d255-4748-a4f8-13cad39a04d7": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "mbw_001",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "hth_001",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "f3f121f2-3ffa-4cc5-8a06-d06dff70f739": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ots_001",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "cfd86b34-8abd-47e1-b301-a3501dfa4a31": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "lon_052",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "34c8442d-a040-44ec-8182-989d8d9f1fc5": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "grn_001",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "wtn_001",
-   "reason": "Big American sycamore by the Crum Creek bridge on White Horse Road, Willistown; the reader's photo is the lead, their second photo in the strip; hand-placed pin, approximate"
+   "reason": "Big American sycamore by the Crum Creek bridge on White Horse Road, Willistown; the reader's photo is the lead, their second photo in the strip; hand-placed pin, approximate",
+   "pin_checked": "2026-11-15"
   },
   "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "edi_022",
-   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
   },
   "3580ef91-02e7-45a1-bd3d-c8b5673e1a72": {
    "outcome": "published",
@@ -1254,7 +1262,8 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "krn_001",
-   "reason": "Mariam Dearit baobab shrine, Keren; the reader's own photo is the lead; OSM tree pin, confirmed"
+   "reason": "Mariam Dearit baobab shrine, Keren; the reader's own photo is the lead; OSM tree pin, confirmed",
+   "pin_checked": "2026-11-15"
   },
   "216f76c5-a63d-49dd-a65f-c844261a125e": {
    "outcome": "published",
@@ -1461,6 +1470,248 @@
   "tip-763": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "fcdce151-c9a5-4421-8781-585b038bb4a3": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "boi_002",
+   "city_slug": "boise",
+   "file": "boi_002-the-moved-giant-sequoia-of-fort-boise-park.jpg",
+   "reason": "This tree, whole, in daylight; closes a gap (no photo yet). Species seen: Dense scale-leaved conical crown with a single tapering spire, thick red-brown fibrous trunk flaring at the base: giant sequoia.. Fits the description: Lone huge sequoia behind a split-rail fence with the hospital building bes",
+   "lat": 43.6144633333333,
+   "lon": -116.191811666667,
+   "pin_checked": "2026-11-15"
+  },
+  "0c794f38-8f66-4856-8a22-20b91972520b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lon_045",
+   "city_slug": "london",
+   "file": "lon_045-the-lewisham-elm.jpg",
+   "reason": "This tree in summer daylight with its sign at the foot; closes a gap. Species seen: Tall rounded crown of small ovate serrated leaves on hanging shoots, dark ridged trunk: elm.. Fits the description: Big elm beside a riverside park path with an interpretation sign at its base, copper-leaved tree bes",
+   "lat": 51.4503666666667,
+   "lon": -0.0243111666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "11cb5879-efd5-4575-b18b-9e3b967fd9dc": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gro_014",
+   "city_slug": "groningen",
+   "file": "gro_014-the-green-beeches-of-the-nieuwe-kerkhof.jpg",
+   "reason": "A big beech on the church lawn in autumn daylight; closes a gap. Species seen: Smooth grey trunk, broad domed crown of oval leaves turning yellow-brown: European beech.. Fits the description: Single large beech on a lawn ringed by townhouses, as on the Nieuwe Kerkhof; GPS 18 m from the pin. The scar",
+   "lat": 53.2231758223183,
+   "lon": 6.56141637436714,
+   "pin_checked": "2026-11-15"
+  },
+  "29a3d214-ea17-429e-91f2-0e64ba8b92af": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "muc_014",
+   "city_slug": "munich",
+   "file": "muc_014-the-weeping-beech-of-the-schwanenbr-cke.jpg",
+   "reason": "This tree from the bridge, autumn daylight; closes a gap. Species seen: Weeping beech: limbs arching over and hanging to the ground, whitewashed bark on the upper limbs, copper beech leaves.. Fits the description: Bridge railing in the left foreground and the canal below, the beech's limbs falling t",
+   "lat": 48.1575861666667,
+   "lon": 11.49938,
+   "pin_checked": "2026-11-15"
+  },
+  "2b68eb5f-caed-4885-a608-0a681ac247df": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_014",
+   "city_slug": "munich",
+   "file": "muc_014-the-weeping-beech-of-the-schwanenbr-cke-2b68eb5f.jpg",
+   "reason": "Same tree from the path side, showing the closed dome of falling limbs; second photo from the same visit, goes in the strip. Species seen: Weeping beech, arching limbs falling to the ground, whitewashed bark, brown beech leaves.. Fits the description: Dome of hanging limbs behind a rope fence with a",
+   "lat": 48.1576123056659,
+   "lon": 11.4994939769544,
+   "pin_checked": "2026-11-15"
+  },
+  "50c5d727-3dc2-417e-bf7b-68ed8571acfc": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gro_020",
+   "city_slug": "groningen",
+   "file": "gro_020-the-pollarded-lindens-of-the-pepergasthuis.jpg",
+   "reason": "The courtyard limes in daylight; closes a gap. Species seen: Pollarded limes with knuckled heads, heart-shaped yellowing leaves: Tilia.. Fits the description: Row of pollarded limes in a brick almshouse courtyard with a hollow in the front trunk, as the Pepergasthuis courtyard..",
+   "lat": 53.2172522795757,
+   "lon": 6.5717944650762,
+   "pin_checked": "2026-11-15"
+  },
+  "d03263bf-a5fc-41cf-8e93-4193c708bee9": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "bhm_002",
+   "city_slug": "brighton",
+   "file": "bhm_002-the-brace-elm.jpg",
+   "reason": "Unmistakably this tree: the iron bands and padlocks; trunk fills the frame with the fork and crown above. Closes a gap. Species seen: Thick ridged elm trunk forking into several stems, serrated ovate elm leaves above.. Fits the description: Two iron bands round the trunk and masses of padlocks hooke",
+   "lat": 50.8228,
+   "lon": -0.1382,
+   "pin_checked": "2026-11-15"
+  },
+  "d8b996ea-fdbf-4d4b-9db7-ceffd5957f1f": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "wai_001",
+   "city_slug": "waipoua-forest",
+   "file": "wai_001-t-ne-mahuta-d8b996ea.jpg",
+   "reason": "Plainly Tane Mahuta: the classic view from the platform, and the same reader's sign photo from the same day places them there; the 6.8 km is the fix, not the tree. Daylight, colour, dim forest light. Species seen: Massive pale grey columnar trunk with knobby scale-shed bark and epiphyte-laden crown:",
+   "lat": -35.6371583333333,
+   "lon": 173.588133333333,
+   "pin_checked": "2026-11-15"
+  },
+  "dd4f855b-da7e-4514-81ee-19b1e3bc7991": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_010",
+   "city_slug": "london",
+   "file": "lon_010-the-evelyn-mulberry-dd4f855b.jpg",
+   "reason": "This tree in summer daylight, whole crown in frame. Species seen: Low leaning gnarled trunk, broad heart-shaped toothed leaves: mulberry.. Fits the description: Sprawling propped mulberry inside a circular iron fence with a stone at its base, in a small park..",
+   "lat": 51.484745,
+   "lon": -0.0307055,
+   "pin_checked": "2026-11-15"
+  },
+  "ce314a69-e2f3-45dd-a694-e4c18d6c2c59": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "bhg_001",
+   "city_slug": "bad-homburg",
+   "file": "bhg_001-the-cedars-of-the-konigsflugel-ce314a69.jpg",
+   "reason": "This cedar in summer daylight with the palace and the church towers behind. Species seen: Massive trunk with near-horizontal limbs of tufted short needles: cedar.. Fits the description: Huge cedar with long horizontal limbs, the palace wing to the left and the Erloeserkirche towers behind, on the la",
+   "lat": 50.22757,
+   "lon": 8.61158333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "ca81ce44-21da-4740-b57c-fa1b8e342495": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "oxf_004",
+   "city_slug": "oxford",
+   "file": "oxf_004-the-pococke-plane-ca81ce44.jpg",
+   "reason": "This tree in spring daylight, bluebells beneath. Species seen: Mottled flaking bark, sprawling sinuous limbs held on props, hanging seed balls: plane.. Fits the description: Enormous sprawling plane with limbs resting on posts, walled garden behind, as the Pococke Plane..",
+   "lat": 51.7497533333333,
+   "lon": -1.25426666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "b5a91a45-8cfd-41d6-b9a6-8cd069d98237": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "mtf_001",
+   "city_slug": "mottisfont",
+   "file": "mtf_001-great-plane-of-mottisfont-b5a91a45.jpg",
+   "reason": "The plane across the stream from the house, winter daylight; framed by willow trunks but the plane is the subject. Species seen: Huge pale mottled trunk and wide-flung limbs, bare: London plane.. Fits the description: Vast plane spreading in front of Mottisfont house across the water, the huge plane",
+   "lat": 51.0406221666667,
+   "lon": -1.533875,
+   "pin_checked": "2026-11-15"
+  },
+  "89d27221-8722-4d67-8d33-7abe587c972e": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_013",
+   "city_slug": "munich",
+   "file": "muc_013-the-fern-leaved-beech-of-the-amalienburg-89d27221.jpg",
+   "reason": "This beech at the path fork in autumn daylight. Species seen: Smooth grey beech trunk, beech crown with late copper leaves; the ribbon leaves are not readable at this distance.. Fits the description: Lone tall beech where gravel paths fork, with a signpost right behind it, in parkland: the path fork",
+   "lat": 48.1554611666667,
+   "lon": 11.5002533333333,
+   "pin_checked": "2026-11-15"
+  },
+  "f349a906-bd22-4262-9fba-4f455b40a2ed": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "cop_005",
+   "city_slug": "copenhagen",
+   "file": "cop_005-the-temple-tree-of-landboh-jskolens-have-f349a906.jpg",
+   "reason": "This ginkgo in autumn daylight. Species seen: Fan-shaped leaves turning yellow, deeply furrowed trunk: ginkgo.. Fits the description: Big ginkgo growing out of a rock mound in the garden, the largest in frame; matches the stone mound..",
+   "lat": 55.6807333333333,
+   "lon": 12.54275,
+   "pin_checked": "2026-11-15"
+  },
+  "5576cb37-4278-4d5b-8a77-33f2564c1e20": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "tfe_001",
+   "city_slug": "tenerife",
+   "file": "tfe_001-el-drago-milenario-5576cb37.jpg",
+   "reason": "The Drago, whole, in daylight. Species seen: Thick fibrous trunk dividing into hundreds of branches ending in rosettes of sword leaves: dragon tree.. Fits the description: The vast umbrella-crowned drago standing alone in a garden on the hillside, as at Icod..",
+   "lat": 28.3667033333333,
+   "lon": -16.7219866666667,
+   "pin_checked": "2026-11-15"
+  },
+  "f6fa1119-6000-4eb8-8b15-f5d3048aeb7c": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_007",
+   "city_slug": "munich",
+   "file": "muc_007-the-oak-of-the-d-rfchen-nymphenburg-f6fa1119.jpg",
+   "reason": "This oak looking up the trunk, autumn daylight, cottage behind. Species seen: Straight ridged trunk, lobed brown oak leaves: pedunculate oak.. Fits the description: Tall oak beside the white rustic cottages of the Doerfchen..",
+   "lat": 48.155389000878,
+   "lon": 11.4986602561932,
+   "pin_checked": "2026-11-15"
+  },
+  "6baa97c2-a63b-4601-972b-b6174e4f4220": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_007",
+   "city_slug": "munich",
+   "file": "muc_007-the-oak-of-the-d-rfchen-nymphenburg-6baa97c2.jpg",
+   "reason": "This oak whole, autumn daylight, with the Doerfchen buildings. Species seen: Tall straight oak trunk, crown of brown lobed leaves: pedunculate oak.. Fits the description: Oak on the lawn among the white cottages of the Doerfchen in Nymphenburg..",
+   "lat": 48.155389000878,
+   "lon": 11.4986602561932,
+   "pin_checked": "2026-11-15"
+  },
+  "327c2230-b107-4210-b34f-3238035d1efd": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "for_001",
+   "city_slug": "fortingall",
+   "file": "for_001-the-fortingall-yew-327c2230.jpg",
+   "reason": "The Fortingall stems in daylight. Species seen: Flat dark-green needles in sprays, fluted red-brown stems: yew.. Fits the description: Several separate gnarled stems within a stone wall, as the split Fortingall Yew inside its 1785 wall..",
+   "lat": 56.5981666666667,
+   "lon": -4.05083333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "a695aa1e-9437-4959-aba2-5d53e6780997": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "cwh_001",
+   "city_slug": "coldwaltham",
+   "file": "cwh_001-coldwaltham-yew-a695aa1e.jpg",
+   "reason": "This yew's bole in daylight; a trunk frame, but the bole is what this tree is about. Species seen: Red flaking fluted bark, flat yew needles: European yew.. Fits the description: Enormous fluted, buttressed bole with stems rising from it, in a churchyard lawn; matches the very large bole and fluted ",
+   "lat": 50.939222,
+   "lon": -0.544992,
+   "pin_checked": "2026-11-15"
+  },
+  "664dff11-706d-432f-9f80-08a751b4f55c": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "tul_001",
+   "city_slug": "santa-maria-del-tule",
+   "file": "tul_001-el-rbol-del-tule-664dff11.jpg",
+   "reason": "El Tule's trunk in daylight, filling the frame. Species seen: Hugely buttressed, lobed trunk, feathery drooping foliage: Montezuma cypress.. Fits the description: The massive lobed trunk behind its iron fence with the church at left and crowds around, as in the churchyard of Santa Maria del Tule..",
+   "lat": 17.04662,
+   "lon": -96.63346,
+   "pin_checked": "2026-11-15"
+  },
+  "c23e144f-d6a9-4473-8b17-e39cc9bc7050": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "wtn_001",
+   "city_slug": "willistown",
+   "file": "wtn_001-the-sycamore-at-the-crum-creek-bridge-c23e144f.jpg",
+   "reason": "This sycamore's trunk in daylight with a bike against it; crown cut off, goes in the strip. Species seen: Mottled grey flaking bark, large lobed sycamore leaves: American sycamore.. Fits the description: Broad flared base on a grassy bank right beside a split-rail fence, as the recognition line desc",
+   "lat": 40.01408,
+   "lon": -75.47552,
+   "pin_checked": "2026-11-15"
+  },
+  "24e1a766-4ff4-4c15-8cac-f080514deced": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "bai_001",
+   "city_slug": "buenos-aires",
+   "file": "bai_001-the-gomero-de-la-recoleta-24e1a766.jpg",
+   "reason": "The Atlas sculpture holding the limb settles it is the Gomero; daylight, the tree's limbs and crown fill the top. Species seen: Smooth pale grey limbs, leathery oval leaves: Moreton Bay fig.. Fits the description: The car-parts Atlas holding up a long branch of the fig on the paved square, exactly t",
+   "lat": -34.5875866666667,
+   "lon": -58.3910416666667,
+   "pin_checked": "2026-11-15"
   }
  }
 }

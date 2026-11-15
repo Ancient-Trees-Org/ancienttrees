@@ -49,19 +49,34 @@
       "transport": "Nearest station Dunbridge, about 1.5 km (1 mile) from the house; Winchester to Dunbridge by train needs a change and is probably over 30 minutes (timetable not checked). Day trip, honestly labelled Mottisfont, not Winchester.",
       "how_to_recognise": "You can recognise it as the huge London plane close to the house, the tree mapped by name as the Great Plane of Mottisfont.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ancient_tree%2C_Mottisfont_Abbey_-_geograph.org.uk_-_3848338.jpg",
-        "license": "CC BY-SA 2.0",
-        "attribution": "David Martin",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Ancient_tree,_Mottisfont_Abbey_-_geograph.org.uk_-_3848338.jpg",
+        "url": "https://ancienttrees.app/photos/mtf_001-great-plane-of-mottisfont-b5a91a45.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 427,
-        "height": 640,
-        "taken_month": 2
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 2,
+        "source": "contributor",
+        "contributor_user_id": "p_5791f5ba6aa18b7e63864c15",
+        "sighting_id": "b5a91a45-8cfd-41d6-b9a6-8cd069d98237",
+        "note": "Photographed by a reader and sent through the app (2026-02-14); a viewing pass approved it on 2026-11-15: The plane across the stream from the house, winter daylight; framed by willow trunks but the plane is the subject. Species seen: Huge pale mottled trunk and wide-flung limbs, bare: London plane.. Fits the description: Vast plane spreading in front of Mottisfont house across the water, the huge plane close to the house... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Existence and pin: OSM natural=tree node 1416934939 named 'Great Plane of Mottisfont', species Platanus acerifolia, tagged height 30 (m) and denotation landmark; a node on a named tree is a pin on that crown. Wikipedia (Mottisfont Abbey) says the estate has the largest specimen of a London plane in Britain. Search results (summary only, pages NOT fetched, so NOT recorded as facts): Ancient Tree Forum Wessex 2019 visit report calls it UK champion with about 12 m circumference and 36 m height by drone; planted c1740 or 300 to 350 years old; National Plane Collection with 14 other mature planes at Mottisfont. Hosts that failed: hampshire-history.com (DNS), ancienttreeforum.org.uk PDF (returned 239-byte error), nationaltrust.org.uk (empty shell for curl), monumentaltrees.com 403. OSM 'diameter 4500' tag is implausible (45 m) and ignored. No dated recent observation seen: flagged. Needs a second source (ATF PDF or NT page via a browser) before girth and age go on the page. Outside the 30-minute public-transport limit from Winchester as far as known; lead-quality for the Winchester page, but a strong standalone tree. Moved 2026-11-03 from Winchester to its own place, Mottisfont (id was wnc_001): it stands in the Test valley near Romsey, beyond the 30-minute day-trip line from Winchester. Photo pass 2026-11-04 (approved): Commons file titled Ancient tree, Mottisfont Abbey (Geograph import), 3 m from the pin; the huge mottled plane trunk and limbs fill the frame with the abbey behind, daylight.",
-      "paid_entry": true
+      "paid_entry": true,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ancient_tree%2C_Mottisfont_Abbey_-_geograph.org.uk_-_3848338.jpg",
+          "license": "CC BY-SA 2.0",
+          "attribution": "David Martin",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Ancient_tree,_Mottisfont_Abbey_-_geograph.org.uk_-_3848338.jpg",
+          "status": "approved",
+          "width": 427,
+          "height": 640,
+          "taken_month": 2
+        }
+      ]
     }
   ]
 }

@@ -51,13 +51,17 @@
       "access": "Free. Stands inside the churchyard, behind a low wall erected in 1785 to protect it from souvenir-taking; the gate in the wall is kept locked so it cannot be touched, but it is easily viewed and photographed from the churchyard path, which is open in daylight hours.",
       "transport": "No station; Fortingall is a small village about 8 miles / 20-25 minutes by car west of Aberfeldy, Perthshire. No regular public bus serves the village itself.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2011_Schotland_venijnboom_Fortingall_ommuurd_6-06-2011_18-43-30.jpg",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Paul Hermans, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/for_001-the-fortingall-yew-327c2230.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4288,
-        "height": 2848,
-        "taken_month": 6
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_492afbdde23d69af867aff0f",
+        "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd",
+        "note": "Photographed by a reader and sent through the app (2013-09-07); a viewing pass approved it on 2026-11-15: The Fortingall stems in daylight. Species seen: Flat dark-green needles in sprays, fluted red-brown stems: yew.. Fits the description: Several separate gnarled stems within a stone wall, as the split Fortingall Yew inside its 1785 wall... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -78,7 +82,18 @@
         "source_name": "Fortingall Yew",
         "qid": "Q1003148",
         "views": 5099
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2011_Schotland_venijnboom_Fortingall_ommuurd_6-06-2011_18-43-30.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Paul Hermans, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4288,
+          "height": 2848,
+          "taken_month": 6
+        }
+      ]
     }
   ]
 }

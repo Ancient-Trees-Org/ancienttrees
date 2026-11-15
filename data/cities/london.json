@@ -415,18 +415,33 @@
       "access": "Free, public park",
       "transport": "Deptford or Deptford Bridge station, 5 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mulberry_tree%2C_Sayes_Court_Park_-_geograph.org.uk_-_6124238.jpg",
-        "license": "CC BY-SA 2.0",
-        "attribution": "Robin Webster, via Geograph Britain and Ireland / Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_010-the-evelyn-mulberry-dd4f855b.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1024,
-        "height": 768,
-        "taken_month": 4
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_bf0eb996e2b54d6b87dae9bf",
+        "sighting_id": "dd4f855b-da7e-4514-81ee-19b1e3bc7991",
+        "note": "Photographed by a reader and sent through the app (2024-07-21); a viewing pass approved it on 2026-11-15: This tree in summer daylight, whole crown in frame. Species seen: Low leaning gnarled trunk, broad heart-shaped toothed leaves: mulberry.. Fits the description: Sprawling propped mulberry inside a circular iron fence with a stone at its base, in a small park... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Source URLs backfilled 2026-07-28: Atlas Obscura and Morus Londinium (a Woodland Trust/academic mulberry-mapping project) both corroborate the Evelyn garden, the tree's age and the Peter the Great story; both also independently note historians doubt Peter himself planted it, consistent with this entry's own careful phrasing ('may have survived even that') rather than crediting him with planting it. Location corrected the same pass: the stored coordinate was about 700m from Sayes Court Street itself, whose Nominatim geocode (51.484, -0.031) agrees closely with the independently found Sayes Court Park coordinate from a parks-data source (51.4848, -0.0310). Moved onto the actual street/park cluster.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the fence around it and the stone marker at its base telling the wheelbarrow story about Peter the Great. It stands propped in Sayes Court Park in Deptford, where nothing else of the garden survives."
+      "how_to_recognise": "You can recognise it by the fence around it and the stone marker at its base telling the wheelbarrow story about Peter the Great. It stands propped in Sayes Court Park in Deptford, where nothing else of the garden survives.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mulberry_tree%2C_Sayes_Court_Park_-_geograph.org.uk_-_6124238.jpg",
+          "license": "CC BY-SA 2.0",
+          "attribution": "Robin Webster, via Geograph Britain and Ireland / Wikimedia Commons",
+          "status": "approved",
+          "width": 1024,
+          "height": 768,
+          "taken_month": 4
+        }
+      ]
     },
     {
       "id": "lon_008",
@@ -1797,8 +1812,8 @@
       "age_estimate": "not documented",
       "location": {
         "address": "Ladywell Fields, riverside path, middle field, Lewisham SE13",
-        "latitude": 51.450645,
-        "longitude": -0.024501,
+        "latitude": 51.450367,
+        "longitude": -0.024311,
         "neighbourhood": "Ladywell"
       },
       "verified_sources": [
@@ -1808,17 +1823,31 @@
       ],
       "access": "Free. Public park, open at all times.",
       "transport": "Ladywell station (Southeastern), about 5 minutes' walk.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "recognise": "On the riverside path in the middle field, just after the spiral bridge from the northern field, near the dawn redwood; the only tree in the park with its own sign.",
       "verify_notes": "One of the original 41 Great Trees of London. Thought to be the only remaining specimen in Britain of the cultivar its plaque names, and one of very few mature elms left in London after Dutch elm disease (about 20 million English elms killed, Ladywell Live 4 Mar 2021). Species disputed: the council sign says Ulmus x hollandica 'Klemmer' (Flanders elm); Wikipedia's Great Trees list, citing the Tree Register, gives European white elm (Ulmus laevis), and the Ladywell Fields blog notes some experts think so too. Species written as European White Elm, flag. Ladywell Live: the mature tree could live another 200 years; two saplings grown from its seed (collected May 2018) were agreed for planting in the park. No girth, height or age on any fetched page. Pin from the Great Trees list coordinate 51.450645,-0.024501 (no OSM tree node there), approximate. Alive: iNaturalist observation 2026-05-29 within lifecheck radius (https://www.inaturalist.org/observations/366307628), Ladywell Live 2021. Two sources are local community sites, hence flagged. Photo candidate: Wikipedia list file 'Lewisham_Dutch_Elm.jpg'.",
       "story": "Dutch elm disease killed some 20 million English elms. This elm in a Lewisham park, which local reporting calls the borough's great survivor, is still standing. It is one of very few mature elms left in London, and if its plaque is right, it may be the last of its kind in Britain.\n\nThe plaque is where the argument starts. The council sign names it as a Flanders elm, Ulmus x hollandica 'Klemmer', and it is thought to be the only remaining specimen of that cultivar in Britain. The Tree Register, quoted on Wikipedia's Great Trees of London list, says it is something else, a European white elm, Ulmus laevis, and the Ladywell Fields tree walk notes that some experts agree. We list it as a European white elm and keep the question open. If you know elms well enough to settle it, tell us.\n\nWhatever it is, it was one of the original 41 Great Trees of London, and it is the only tree in Ladywell Fields with a sign of its own. Nobody has published its age, height or girth. Local reporting in 2021 said the tree could live another 200 years. A local resident had grown two saplings from seed collected in May 2018, and the council agreed they could be planted in the park.\n\nThe park is free and open at all times, five minutes from Ladywell station. Follow the riverside path into the middle field.",
       "how_to_recognise": "You can recognise it by its sign, the only tree in the park with one. It stands on the riverside path in the middle field, just past the spiral bridge from the northern field, near the dawn redwood.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lon_045-the-lewisham-elm.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_bf0eb996e2b54d6b87dae9bf",
+        "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
+        "note": "Photographed by a reader and sent through the app (2022-05-19); a viewing pass approved it on 2026-11-15: This tree in summer daylight with its sign at the foot; closes a gap. Species seen: Tall rounded crown of small ovate serrated leaves on hanging shoots, dark ridged trunk: elm.. Fits the description: Big elm beside a riverside park path with an interpretation sign at its base, copper-leaved tree beside it, open field in front... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
+        "moved_m": 34,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

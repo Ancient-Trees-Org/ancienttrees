@@ -178,6 +178,15 @@
      "city_slug": "coldwaltham",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "a695aa1e-9437-4959-aba2-5d53e6780997",
+     "tree_id": "cwh_001",
+     "tree_name": "Coldwaltham Yew",
+     "city": "Coldwaltham",
+     "city_slug": "coldwaltham",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []
@@ -304,6 +313,15 @@
    "pending": [
     {
      "sighting_id": "216f76c5-a63d-49dd-a65f-c844261a125e",
+     "tree_id": "oxf_004",
+     "tree_name": "The Pococke Plane",
+     "city": "Oxford",
+     "city_slug": "oxford",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "ca81ce44-21da-4740-b57c-fa1b8e342495",
      "tree_id": "oxf_004",
      "tree_name": "The Pococke Plane",
      "city": "Oxford",
@@ -437,6 +455,240 @@
      "tree_name": "The Cut-Leaved Hornbeam",
      "city": "York",
      "city_slug": "york",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_f1fa71dcb9e46093382f0068": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "fcdce151-c9a5-4421-8781-585b038bb4a3",
+     "tree_id": "boi_002",
+     "tree_name": "The Moved Giant Sequoia of Fort Boise Park",
+     "city": "Boise",
+     "city_slug": "boise",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "ce314a69-e2f3-45dd-a694-e4c18d6c2c59",
+     "tree_id": "bhg_001",
+     "tree_name": "The Cedars of the Konigsflugel",
+     "city": "Bad Homburg",
+     "city_slug": "bad-homburg",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "f349a906-bd22-4262-9fba-4f455b40a2ed",
+     "tree_id": "cop_005",
+     "tree_name": "The Temple Tree of Landbohøjskolens Have",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "5576cb37-4278-4d5b-8a77-33f2564c1e20",
+     "tree_id": "tfe_001",
+     "tree_name": "El Drago Milenario",
+     "city": "Tenerife",
+     "city_slug": "tenerife",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "664dff11-706d-432f-9f80-08a751b4f55c",
+     "tree_id": "tul_001",
+     "tree_name": "El Árbol del Tule",
+     "city": "Santa María del Tule",
+     "city_slug": "santa-maria-del-tule",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_bf0eb996e2b54d6b87dae9bf": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
+     "tree_id": "lon_045",
+     "tree_name": "The Lewisham Elm",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "dd4f855b-da7e-4514-81ee-19b1e3bc7991",
+     "tree_id": "lon_010",
+     "tree_name": "The Evelyn Mulberry",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_c7a4ca5cb6b3ec857ef912cc": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",
+     "tree_id": "gro_014",
+     "tree_name": "The Green Beeches of the Nieuwe Kerkhof",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "50c5d727-3dc2-417e-bf7b-68ed8571acfc",
+     "tree_id": "gro_020",
+     "tree_name": "The Pollarded Lindens of the Pepergasthuis",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_33b43ae363d99d9b3112f7f6": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "29a3d214-ea17-429e-91f2-0e64ba8b92af",
+     "tree_id": "muc_014",
+     "tree_name": "The Weeping Beech of the Schwanenbrücke",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "2b68eb5f-caed-4885-a608-0a681ac247df",
+     "tree_id": "muc_014",
+     "tree_name": "The Weeping Beech of the Schwanenbrücke",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "89d27221-8722-4d67-8d33-7abe587c972e",
+     "tree_id": "muc_013",
+     "tree_name": "The Fern-leaved Beech of the Amalienburg",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "f6fa1119-6000-4eb8-8b15-f5d3048aeb7c",
+     "tree_id": "muc_007",
+     "tree_name": "The Oak of the Dörfchen, Nymphenburg",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "6baa97c2-a63b-4601-972b-b6174e4f4220",
+     "tree_id": "muc_007",
+     "tree_name": "The Oak of the Dörfchen, Nymphenburg",
+     "city": "Munich",
+     "city_slug": "munich",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_67f40f008448bb6d82520a6c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d03263bf-a5fc-41cf-8e93-4193c708bee9",
+     "tree_id": "bhm_002",
+     "tree_name": "The Brace Elm",
+     "city": "Brighton",
+     "city_slug": "brighton",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_492afbdde23d69af867aff0f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d8b996ea-fdbf-4d4b-9db7-ceffd5957f1f",
+     "tree_id": "wai_001",
+     "tree_name": "Tāne Mahuta",
+     "city": "Waipoua Forest",
+     "city_slug": "waipoua-forest",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd",
+     "tree_id": "for_001",
+     "tree_name": "The Fortingall Yew",
+     "city": "Fortingall",
+     "city_slug": "fortingall",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_5791f5ba6aa18b7e63864c15": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b5a91a45-8cfd-41d6-b9a6-8cd069d98237",
+     "tree_id": "mtf_001",
+     "tree_name": "Great Plane of Mottisfont",
+     "city": "Mottisfont",
+     "city_slug": "mottisfont",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_3bb2d9b77f839015a3f92de9": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
+     "tree_id": "wtn_001",
+     "tree_name": "The Sycamore at the Crum Creek Bridge",
+     "city": "Willistown",
+     "city_slug": "willistown",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_7c3ed65ef79fcc37ae268850": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "24e1a766-4ff4-4c15-8cac-f080514deced",
+     "tree_id": "bai_001",
+     "tree_name": "The Gomero de la Recoleta",
+     "city": "Buenos Aires",
+     "city_slug": "buenos-aires",
      "display_name": null,
      "live": "2026-11-15"
     }

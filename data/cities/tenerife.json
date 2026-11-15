@@ -52,13 +52,17 @@
       "access": "Paid entry to Parque del Drago, the 3-hectare botanical park around the tree: adults 5 euros, students and pensioners 3, children 6 to 11 2.50, under 6 free (Canary residents pay less). Open daily, 09:00 to 20:00 April to October and 09:00 to 18:00 November to March. The tree is partly visible from outside the park; the full view of the crown and base is from inside.",
       "transport": "Central Icod de los Vinos, a few minutes on foot from the town's main square. A car is the realistic way to reach the town, roughly 20 km west of Puerto de la Cruz.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dragon%27s_blood_tree_%28%D0%94%D0%A0%D0%90%D0%9A%D0%9E%D0%9D%D0%9E%D0%92%D0%9E_%D0%94%D0%95%D0%A0%D0%95%D0%92%D0%9E%29_-_panoramio_%282%29.jpg",
-        "license": "CC BY 3.0",
-        "attribution": "Андрей Колычев, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/tfe_001-el-drago-milenario-5576cb37.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1818,
-        "height": 1228,
-        "taken_month": 1
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "5576cb37-4278-4d5b-8a77-33f2564c1e20",
+        "note": "Photographed by a reader and sent through the app (2020-11-07); a viewing pass approved it on 2026-11-15: The Drago, whole, in daylight. Species seen: Thick fibrous trunk dividing into hundreds of branches ending in rosettes of sword leaves: dragon tree.. Fits the description: The vast umbrella-crowned drago standing alone in a garden on the hillside, as at Icod... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Age is a genuine, unresolved disagreement and is deliberately left unresolved. es.wikipedia cites a current scientific estimate of approximately 700 years with a margin of error of 100-150 years (roughly 550-850); popular and tourist sources claim 800-1,000+, and folklore claims up to 3,000 are unconfirmed and not used as a bound. Dracaena draco has no annual growth rings, so it cannot be dated dendrologically and no girth-based derivation was attempted for this species. Height 18m (es.wikipedia) to 21m (other sources); trunk perimeter about 20m at base (girth_cm 2000, an unusually wide multi-stemmed base typical of the species rather than a single narrow trunk); crown diameter about 20m; over 300 primary branches. Declared a Spanish national monument in 1917. Underwent 'profound sanitation' in 1985 (internal ventilation installed against fungal rot); the road past it was relocated in 1993. No evidence of recent storm damage or a lost branch; status per sources is protected and stable, with a health study run Oct 2023-Mar 2024 per eldiario.es informing conservation work.",
@@ -71,6 +75,15 @@
       },
       "height_m": 18,
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dragon%27s_blood_tree_%28%D0%94%D0%A0%D0%90%D0%9A%D0%9E%D0%9D%D0%9E%D0%92%D0%9E_%D0%94%D0%95%D0%A0%D0%95%D0%92%D0%9E%29_-_panoramio_%282%29.jpg",
+          "license": "CC BY 3.0",
+          "attribution": "Андрей Колычев, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1818,
+          "height": 1228,
+          "taken_month": 1
+        },
         {
           "url": "https://ancienttrees.app/photos/tfe_001-el-drago-milenario-d1f0b3c4.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",

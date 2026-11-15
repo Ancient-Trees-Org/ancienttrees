@@ -58,7 +58,7 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://ancienttrees.app/photos/cwh_001-coldwaltham-yew.jpg",
+        "url": "https://ancienttrees.app/photos/cwh_001-coldwaltham-yew-a695aa1e.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -67,8 +67,8 @@
         "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_1a2207af288500d1031c52f6",
-        "sighting_id": "12692037-2dbe-4031-a6ec-5fa426532725",
-        "note": "Photographed by a reader and sent through the app (2026-11-12); a viewing pass approved it on 2026-11-15: Yew crown and trunk behind the St Giles sign naming it one of the 12 oldest in the country; daylight, colour Species seen: yew foliage with red arils, fluted multi-stem trunk. Fits the description: ancient churchyard yew with the preservation-order sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "sighting_id": "a695aa1e-9437-4959-aba2-5d53e6780997",
+        "note": "Photographed by a reader and sent through the app (2026-11-12); a viewing pass approved it on 2026-11-15: This yew's bole in daylight; a trunk frame, but the bole is what this tree is about. Species seen: Red flaking fluted bark, flat yew needles: European yew.. Fits the description: Enormous fluted, buttressed bole with stems rising from it, in a churchyard lawn; matches the very large bole and fluted branches... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "pin_source": {
         "kind": "reader GPS fix",
@@ -76,7 +76,22 @@
         "moved_m": 47,
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cwh_001-coldwaltham-yew.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_1a2207af288500d1031c52f6",
+          "sighting_id": "12692037-2dbe-4031-a6ec-5fa426532725",
+          "note": "Photographed by a reader and sent through the app (2026-11-12); a viewing pass approved it on 2026-11-15: Yew crown and trunk behind the St Giles sign naming it one of the 12 oldest in the country; daylight, colour Species seen: yew foliage with red arils, fluted multi-stem trunk. Fits the description: ancient churchyard yew with the preservation-order sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

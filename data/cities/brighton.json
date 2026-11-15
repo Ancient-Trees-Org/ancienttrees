@@ -91,14 +91,28 @@
       "access": "Free, public garden, open year-round",
       "transport": "Brighton railway station, 15 min walk; central Brighton, many bus routes to Old Steine/North Street",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bhm_002-the-brace-elm.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_67f40f008448bb6d82520a6c",
+        "sighting_id": "d03263bf-a5fc-41cf-8e93-4193c708bee9",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Unmistakably this tree: the iron bands and padlocks; trunk fills the frame with the fork and crown above. Closes a gap. Species seen: Thick ridged elm trunk forking into several stems, serrated ovate elm leaves above.. Fits the description: Two iron bands round the trunk and masses of padlocks hooked into a cavity and onto the fence, exactly the recognition line... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
-      "notes": "Species string normalised at write time from the research file's \"English Elm (Ulmus minor 'Atinia')\" to the site's canonical \"English Elm (Ulmus procera)\", which four live trees already use (Boston, Melbourne, New York, Portland). Same taxon under two treatments; hard rule 9 makes the common name canonical so the species page groups. Brighton's own sources use Atinia."
+      "location_precision": "confirmed",
+      "notes": "Species string normalised at write time from the research file's \"English Elm (Ulmus minor 'Atinia')\" to the site's canonical \"English Elm (Ulmus procera)\", which four live trees already use (Boston, Melbourne, New York, Portland). Same taxon under two treatments; hard rule 9 makes the common name canonical so the species page groups. Brighton's own sources use Atinia.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d03263bf-a5fc-41cf-8e93-4193c708bee9",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "bhm_003",

@@ -412,12 +412,19 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "verify_notes": "Register (netherlands-lrmb nr 1680042) records a pair (n_trees: 2) of green (ordinary, non-copper) beeches on the Nieuwe Kerkhof, the public square beside the Nieuwe Kerk (1660, Rijksmonument church) in the Hortusbuurt/Binnenstad-Noord area. Register planted_band 1860-1870, so roughly 150-160 years as of 2026 (widened to 150-166 for the band edges). One tree stands in front of the church with a long healed wound; the other stands beside the church with an old broken-limb wound now used by woodpeckers, and a self-seeded oak has established beside that wound. Condition rated ample/sufficient (\"ruim voldoende\") for both beeldbepalende (image-defining) old beeches. This register pin is one point representing a pair rather than one exact trunk, so location_precision is approximate; a visitor will find both trees on the lawn beside the church, not necessarily at these exact coordinates. Second source: general web search independently confirms mature beeches (described elsewhere as part of a larger stand of roughly 32 green beeches on the Nieuwe Kerkhof lawn) are a known feature of this specific square, corroborating existence and location though not this exact pairs individual wounds/condition, which comes from the register alone.",
-      "story": "A parked lawn beside a seventeenth century church holds one of Groningen's largest stands of old beeches, roughly thirty of them by some counts, and the Dutch national monumental tree register singles out two as genuinely exceptional: one standing in front of the Nieuwe Kerk with a long-healed wound in its trunk, the other beside the church carrying an old broken-limb scar that woodpeckers have since hollowed out and that a self-seeded oak has taken root beside.\n\nThe Nieuwe Kerk itself, a protected national monument, was completed in 1660, and the register dates these beeches to the 1860s, roughly two centuries younger than the building they stand beside but old enough to have shaded the square through most of its life as a public space. European beech left unclipped and given room, as these two were, grows a dense, smooth-barked canopy that can live for centuries longer still.\n\nBecause the register records this pair as one entry rather than two separately pinned trunks, the coordinates here mark the general spot on the church lawn rather than one exact tree; both stand within easy sight of each other. Free, open square, a short walk from the city centre.",
+      "story": "A parked lawn beside a seventeenth century church holds one of Groningen's largest stands of old beeches, roughly thirty of them by some counts, and the Dutch national monumental tree register singles out two as genuinely exceptional. One stands in front of the Nieuwe Kerk with a long-healed wound in its trunk; the other, beside the church, carries an old broken-limb scar that woodpeckers have since hollowed out and that a self-seeded oak has taken root beside.\n\nThe Nieuwe Kerk itself, a protected national monument, was completed in 1660, and the register dates these beeches to the 1860s, roughly two centuries younger than the building they stand beside but old enough to have shaded the square through most of its life as a public space. European beech left unclipped and given room, as these two were, grows a dense, smooth-barked canopy that can live for centuries longer still.\n\nBecause the register records this pair as one entry rather than two separately pinned trunks, the coordinates here mark the general spot on the church lawn rather than one exact tree; both stand within easy sight of each other. Free, open square, a short walk from the city centre.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gro_014-the-green-beeches-of-the-nieuwe-kerkhof.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+        "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: A big beech on the church lawn in autumn daylight; closes a gap. Species seen: Smooth grey trunk, broad domed crown of oval leaves turning yellow-brown: European beech.. Fits the description: Single large beech on a lawn ringed by townhouses, as on the Nieuwe Kerkhof; GPS 18 m from the pin. The scars are not visible from this side... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "best_time": {
         "months": [
@@ -687,6 +694,19 @@
       "official_register": {
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1680046",
         "url": null
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gro_020-the-pollarded-lindens-of-the-pepergasthuis.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+        "sighting_id": "50c5d727-3dc2-417e-bf7b-68ed8571acfc",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The courtyard limes in daylight; closes a gap. Species seen: Pollarded limes with knuckled heads, heart-shaped yellowing leaves: Tilia.. Fits the description: Row of pollarded limes in a brick almshouse courtyard with a hollow in the front trunk, as the Pepergasthuis courtyard... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {

@@ -50,13 +50,17 @@
       "access": "Paid: 25 pesos for adults to enter the roped-off churchyard area, generally open 8:00 to 20:00; the tree can also be seen from outside the fence for free.",
       "transport": "Second-class buses run every 10 minutes from Oaxaca city's second-class bus station direct to Santa María del Tule; also reachable by a roughly half-hour bike ride or short taxi/collectivo from Oaxaca city centre.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2000_A%C3%91OS_TIENE_%2C%29_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attribution": "boskimano, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/tul_001-el-rbol-del-tule-664dff11.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1024,
-        "height": 768,
-        "taken_month": 2
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 12,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "664dff11-706d-432f-9f80-08a751b4f55c",
+        "note": "Photographed by a reader and sent through the app (2018-12-23); a viewing pass approved it on 2026-11-15: El Tule's trunk in daylight, filling the frame. Species seen: Hugely buttressed, lobed trunk, feathery drooping foliage: Montezuma cypress.. Fits the description: The massive lobed trunk behind its iron fence with the church at left and crowds around, as in the churchyard of Santa Maria del Tule... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -69,7 +73,18 @@
         "qid": "Q252182",
         "views": 3177
       },
-      "paid_entry": true
+      "paid_entry": true,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2000_A%C3%91OS_TIENE_%2C%29_-_panoramio.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "boskimano, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1024,
+          "height": 768,
+          "taken_month": 2
+        }
+      ]
     }
   ]
 }

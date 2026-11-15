@@ -358,13 +358,17 @@
       "access": "Free, public park (the palace interior and botanical garden charge separate admission)",
       "transport": "5 min walk from Schloss Nymphenburg tram stop (line 17)",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Naturdenkmal_Stieleiche_im_Winter_Schlosspark_Nymphenburg_M%C3%BCnchen.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Peterf, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/muc_007-the-oak-of-the-d-rfchen-nymphenburg-6baa97c2.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2560,
-        "height": 3744,
-        "taken_month": 4
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+        "sighting_id": "6baa97c2-a63b-4601-972b-b6174e4f4220",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: This oak whole, autumn daylight, with the Doerfchen buildings. Species seen: Tall straight oak trunk, crown of brown lobed leaves: pedunculate oak.. Fits the description: Oak on the lawn among the white cottages of the Doerfchen in Nymphenburg... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "No source gives this specific oak a documented age; 'unique in size within the city area' is the register's own claim about scale, not age, and is presented as such. Photo found via the city's own Naturdenkmal list, whose Commons category and filename explicitly name this exact tree. Viewed directly: shows a tall, thick-trunked oak with a gnarled, moss-covered lower crown, budding in early spring, next to a rustic tiled-roof building, consistent with the Dörfchen's farm-style setting. Approved. Pin corrected 2026-07-27, about 550m, using German Wikipedia's Naturdenkmäler list coordinates (see muc_002 for the cross-check that validated this table).",
@@ -373,7 +377,31 @@
       "official_register": {
         "name": "Naturdenkmal (Landeshauptstadt München, LfU Bayern), no. ND-07034",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/muc_007-the-oak-of-the-d-rfchen-nymphenburg-f6fa1119.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "f6fa1119-6000-4eb8-8b15-f5d3048aeb7c",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: This oak looking up the trunk, autumn daylight, cottage behind. Species seen: Straight ridged trunk, lobed brown oak leaves: pedunculate oak.. Fits the description: Tall oak beside the white rustic cottages of the Doerfchen... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Naturdenkmal_Stieleiche_im_Winter_Schlosspark_Nymphenburg_M%C3%BCnchen.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Peterf, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2560,
+          "height": 3744,
+          "taken_month": 4
+        }
+      ]
     },
     {
       "id": "muc_008",
@@ -615,13 +643,17 @@
       "access": "Free, public park, open daily (the palace, Amalienburg and Badenburg interiors charge separate admission)",
       "transport": "Tram 17 to Schloss Nymphenburg, then about 10 min walk west through the park",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Schlosspark_Nymphenburg_Naturdenkmal_Farnblaettrige_Buche-1.jpg",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Rufus46, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/muc_013-the-fern-leaved-beech-of-the-amalienburg-89d27221.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1650,
-        "height": 2200,
-        "taken_month": 8
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+        "sighting_id": "89d27221-8722-4d67-8d33-7abe587c972e",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: This beech at the path fork in autumn daylight. Species seen: Smooth grey beech trunk, beech crown with late copper leaves; the ribbon leaves are not readable at this distance.. Fits the description: Lone tall beech where gravel paths fork, with a signpost right behind it, in parkland: the path fork south of the Amalienburg; GPS 24 m... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Named 'of the Amalienburg' deliberately: muc_006 is already 'The Fern-leaved Beech', in the Englischer Garten, and two entries cannot share a name. Same species, different tree, roughly 7 km apart. The 180-year figure and the vitality note come from baumkunde.de register entry 4055, a community-compiled German register, used as a lead and attributed in the story rather than treated as authority; the city ordinance carries no age column. Its coordinates (48.15538, 11.50030) fall about 15 m from the ordinance's, independently corroborating the pin, and its 2019 condition note is the only vitality evidence available for any tree in this cluster. Photo viewed directly at 1280px before approval: daylight, colour, the tree fills the frame with the smooth silvery trunk running the full height and the finely cut foliage readable, path and boulders at the base for scale. Survives a wide card crop, trunk squarely in the centre band. Approved.",
@@ -640,7 +672,18 @@
         ],
         "label": "October to November: copper and russet leaves",
         "kind": "colour"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Schlosspark_Nymphenburg_Naturdenkmal_Farnblaettrige_Buche-1.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Rufus46, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1650,
+          "height": 2200,
+          "taken_month": 8
+        }
+      ]
     },
     {
       "id": "muc_014",
@@ -663,10 +706,17 @@
       "access": "Free, public park, open daily (the palace, Amalienburg and Badenburg interiors charge separate admission)",
       "transport": "Tram 17 to Schloss Nymphenburg, then about 15 min walk northwest through the park",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke-2b68eb5f.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+        "sighting_id": "2b68eb5f-caed-4885-a608-0a681ac247df",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Same tree from the path side, showing the closed dome of falling limbs; second photo from the same visit, goes in the strip. Species seen: Weeping beech, arching limbs falling to the ground, whitewashed bark, brown beech leaves.. Fits the description: Dome of hanging limbs behind a rope fence with an information sign, gravel path in front; same tree as 29a3d214... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Age undated and no second source beyond the ordinance itself, so flagged. The 120-200 range is bracketed from the cultivar's introduction date and Sckell's 1799-1823 landscaping, not measured; baumkunde.de has no entry for this tree. Photo deliberately left missing rather than filled. Three candidates exist on Wikimedia Commons and all three were checked: the register-linked 'Haengebuche im Schlosspark Nymphenburg.jpg' was viewed directly at 1280px and fails the Cadiz standard, being a close-up shot looking up into the canopy with no trunk base, no whole-tree shape and no sense of scale, plus a painted red heart on one limb; the other two ('Unter der Haengebuche', 'Laub der Haengebuche') are by the same photographer and are respectively an under-canopy and a foliage close-up, failing the same way. An honest gap beats a mediocre photo. Worth re-hunting when someone photographs this tree whole.",
@@ -675,7 +725,22 @@
       "official_register": {
         "name": "Naturdenkmal (Bayern LfU), no. ND-07035",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/muc_014-the-weeping-beech-of-the-schwanenbr-cke.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_33b43ae363d99d9b3112f7f6",
+          "sighting_id": "29a3d214-ea17-429e-91f2-0e64ba8b92af",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: This tree from the bridge, autumn daylight; closes a gap. Species seen: Weeping beech: limbs arching over and hanging to the ground, whitewashed bark on the upper limbs, copper beech leaves.. Fits the description: Bridge railing in the left foreground and the canal below, the beech's limbs falling to the water: just south of the Schwanenbruecke... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "muc_019",

@@ -30,19 +30,32 @@
       "verify_notes": "2026-11-15: sent by a reader through the app with two photographs (whole tree in autumn colour, trunk base), girth 650 cm by their measure, note: near an old stone bridge over Crum Creek, Willistown Township, closer to Paoli, not very near Media. Pin placed by hand, no GPS fix; it reverse-geocodes (Nominatim) exactly onto the White Horse Road bridge over Crum Creek (OSM way 74635054, bridge=yes), which matches the note; a stone wall at the right edge of the first photograph fits a bridge parapet. No written source found (searches for the bridge, the township, the Willistown Conservation Trust; not in the Pennsylvania champion lists we hold). Species from the photographs: pale upper limbs, plane-type bark and leaves; the reader also named it American sycamore. Ownership of the ground not known; access line tells visitors to look from the road. Published on Hidde's rule that a stranger's good photograph of a tree worth the walk is not held for a written source; precision approximate because the pin was placed by hand. Not the Tyler Arboretum trees in media-pennsylvania (about 9.6 km south-east).",
       "access": "Free to see from White Horse Road by the bridge, by the reader's account. Ownership of the ground is not known, so stay on the road side and do not cross fences; take care with traffic.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/wtn_001-sycamore-at-the-crum-creek-bridge.jpg",
+        "url": "https://ancienttrees.app/photos/wtn_001-the-sycamore-at-the-crum-creek-bridge-c23e144f.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "taken_month": 11,
+        "taken_month": 6,
         "source": "contributor",
         "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
-        "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
-        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole sycamore from below in autumn colour, trunk filling the frame, bright daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
+        "note": "Photographed by a reader and sent through the app (2022-06-10); a viewing pass approved it on 2026-11-15: This sycamore's trunk in daylight with a bike against it; crown cut off, goes in the strip. Species seen: Mottled grey flaking bark, large lobed sycamore leaves: American sycamore.. Fits the description: Broad flared base on a grassy bank right beside a split-rail fence, as the recognition line describes... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wtn_001-sycamore-at-the-crum-creek-bridge.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+          "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole sycamore from below in autumn colour, trunk filling the frame, bright daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
         {
           "url": "https://ancienttrees.app/photos/wtn_001-sycamore-at-the-crum-creek-bridge-fbdff0d4.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -58,12 +71,13 @@
         }
       ],
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "pin_source": {
-        "kind": "reader placed the pin by hand",
-        "sighting_id": "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+        "kind": "reader GPS fix",
+        "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
+        "moved_m": 0,
         "date": "2026-11-15",
-        "note": "Placed by hand on the map by the reader, with no fix from the phone; it sits on the White Horse Road bridge over Crum Creek that their note names, so the tree is near, not exactly here."
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ],

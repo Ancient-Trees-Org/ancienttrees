@@ -38,8 +38,8 @@
       "girth_cm": 2199,
       "location": {
         "address": "Av. Pres. Manuel Quintana 596, Plazoleta Juan XXIII, Recoleta",
-        "latitude": -34.5876,
-        "longitude": -58.3913,
+        "latitude": -34.587587,
+        "longitude": -58.391042,
         "neighbourhood": "Recoleta"
       },
       "verified_sources": [
@@ -49,24 +49,46 @@
       ],
       "access": "Free, standing in a public plazoleta a few metres from the Recoleta Cemetery gate, open at all hours",
       "transport": "About 10-15 minutes' walk from Subte Line D, Callao station; several bus lines (17, 60, 92, 130, 152) stop nearby",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "story": "One branch of this fig reaches thirty metres out from the trunk and is over a metre thick where it leaves it. Since 2014 a sculpture of Atlas, welded from car parts by the Uruguayan artist Joaquin Arbiza Brianza, has stood underneath it appearing to take the weight. The city government calls this the oldest tree in Buenos Aires, and nobody agrees on how it got here. One account has the Recoleto friars planting it around 1718. Another credits the agronomist Martin Jose de Altolaguirre, who kept an orchard of exotic species on this ground around 1781. Either version puts it here before Argentina was a country, a few metres from the gate of the Recoleta cemetery, watching two centuries of the city arrive to bury its dead.\n\nThe species is disputed as well. Porteños call it a gomero, a loose word attached to several big figs in Argentina. The city's own register describes Ficus macrophylla, the Moreton Bay fig, and its account of the leaves and fruit fits that; Wikidata files the same tree as Ficus elastica, the rubber tree. We have gone with the register and flagged the disagreement rather than settling it.\n\nThe measurements need reading carefully too. The seven metres quoted across its trunk is the buttressed, fused mass a strangler fig builds over time, not a single round stem, so the girth figure here is far larger than any ordinary waistline.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/A_tree_near_Necropolis_%28Recoleta%29.jpg",
-        "license": "CC BY 3.0",
-        "attribution": "Anastasiya Lvova, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bai_001-the-gomero-de-la-recoleta-24e1a766.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3456,
-        "height": 2304,
-        "taken_month": 5
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 1,
+        "source": "contributor",
+        "contributor_user_id": "p_7c3ed65ef79fcc37ae268850",
+        "sighting_id": "24e1a766-4ff4-4c15-8cac-f080514deced",
+        "note": "Photographed by a reader and sent through the app (2024-01-01); a viewing pass approved it on 2026-11-15: The Atlas sculpture holding the limb settles it is the Gomero; daylight, the tree's limbs and crown fill the top. Species seen: Smooth pale grey limbs, leathery oval leaves: Moreton Bay fig.. Fits the description: The car-parts Atlas holding up a long branch of the fig on the paved square, exactly the recognition line... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "The huge fig with a car-parts sculpture of Atlas appearing to hold up one long branch, a few metres from the Recoleta Cemetery gate.",
       "official_register": {
         "name": "Arbopedia, Arbol Historico (Gobierno de la Ciudad de Buenos Aires)",
         "url": "https://buenosaires.gob.ar/gcaba_historico/espaciopublicoehigieneurbana/gestion-comunal/arbopedia/gomero-de-la-recoleta"
       },
-      "height_m": 18
+      "height_m": 18,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/A_tree_near_Necropolis_%28Recoleta%29.jpg",
+          "license": "CC BY 3.0",
+          "attribution": "Anastasiya Lvova, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3456,
+          "height": 2304,
+          "taken_month": 5
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "24e1a766-4ff4-4c15-8cac-f080514deced",
+        "moved_m": 24,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "bai_002",
