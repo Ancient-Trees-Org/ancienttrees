@@ -2602,7 +2602,7 @@
    "user_id": "p_3011dc2d7e92f70e598b79d2",
    "mine": false,
    "name": "Black Mulberry",
-   "species": null,
+   "species": "Mulberry (Morus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -2617,14 +2617,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-817",
    "user_id": "p_740a972d9054940ff076c309",
    "mine": false,
    "name": "Cedar of Lebanon",
-   "species": null,
+   "species": "Cedar (Cedrus sp.)",
    "age": null,
    "girth_cm": 755,
    "girth_hugs": null,
@@ -2639,14 +2640,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-818",
    "user_id": "p_740a972d9054940ff076c309",
    "mine": false,
    "name": "Douglas fir",
-   "species": null,
+   "species": "Fir (Abies sp.)",
    "age": null,
    "girth_cm": 582,
    "girth_hugs": null,
@@ -2661,7 +2663,8 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   }
  ]
 }

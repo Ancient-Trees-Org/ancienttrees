@@ -686,7 +686,17 @@
   },
   "p_3ede14c55de0e0de9b87562a": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "4e397a21-45e7-4e26-94b6-e90424547c63",
+     "tree_id": "war_007",
+     "tree_name": "King Jan's Linden",
+     "city": "Warsaw",
+     "city_slug": "warsaw",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "5b8c4e7a-86a1-4b3f-a434-83e7a0945553",

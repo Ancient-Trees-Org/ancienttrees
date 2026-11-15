@@ -292,10 +292,17 @@
       "access": "Paid entry to the Wilanow palace park grounds",
       "transport": "Bus to Wilanow, short walk into the palace park grounds",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/war_007-king-jan-s-linden.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_3ede14c55de0e0de9b87562a",
+        "sighting_id": "4e397a21-45e7-4e26-94b6-e90424547c63",
+        "note": "Photographed by a reader and sent through the app (2026-07-25); a viewing pass approved it on 2026-11-15: Old linden with a heavy leaning trunk and a protected-tree plaque on the bark, daylight, colour, tree fills the frame; the first photograph this tree has. Species seen: linden: broad heart-shaped leaves, deeply ridged dark bark. Fits the description: old leaning trunk with a national-protection plaque, palace behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Register + Wilanow's own monument-tree inventory (27 of 28 living, none matching this description as the dead one) confirm the tree is alive and protected. The Sobieski-planting legend is named but not dated to this specific tree (bridge-claim avoided): no source ties this individual specimen to his tenure, so age stays undocumented. A reported girth 'over 4m' could not be independently confirmed this pass (the specific subpage 404'd); treat as unconfirmed.",

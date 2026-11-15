@@ -2004,6 +2004,28 @@
   "tip-818": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "4e397a21-45e7-4e26-94b6-e90424547c63": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "war_007",
+   "city_slug": "warsaw",
+   "file": "war_007-king-jan-s-linden.jpg",
+   "reason": "Old linden with a heavy leaning trunk and a protected-tree plaque on the bark, daylight, colour, tree fills the frame; the first photograph this tree has. Species seen: linden: broad heart-shaped leaves, deeply ridged dark bark. Fits the description: old leaning trunk with a national-protection plaq",
+   "lat": 52.1650971666667,
+   "lon": 21.0883778333333,
+   "pin_checked": "2026-11-15"
+  },
+  "40d6b9ff-509f-488b-9e02-4f507e7f889a": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "cop_026",
+   "city_slug": "copenhagen",
+   "file": "cop_026-the-fern-leaved-beech-of-the-national-gallery-40d6b9ff.jpg",
+   "reason": "Fern-leaved beech in autumn colour, gnarled base and wide crown; roughly this tree, goes in the strip beside the lead (embrace reader content). Species seen: beech: fine twigs, copper-yellow autumn leaves, gnarled buttressed base. Fits the description: large spreading crown beside a modern stone bui",
+   "lat": 55.6887883333333,
+   "lon": 12.5795416666667,
+   "pin_checked": "2026-11-15"
   }
  }
 }
