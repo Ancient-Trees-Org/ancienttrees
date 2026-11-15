@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-15 night run (window from 01:29 UTC): 8 trees for the app (Chicago 6, Key West 2)
+
+Reader inbox and notes empty. Chicago: six Cook County champion-register trees (chi_059 to chi_064, GNSS-confirmed pins, no photographs, no ages); chi_058 was a duplicate of chi_004 and was dropped. Key West: the Kapok Tree (1900 vs 1905 stated as open) and the Cosgrove House banyan (view-only from the sidewalk), kyw_003 and kyw_004; its species is "Fig (Ficus sp.)" because rule 9 allows one common name and the other cities use Fig. All app-only under APP FIRST. Preflight 0 problems. 7-day visits line not printed by prepare.py today.
+
+Breakage, separate: iOS app has failed twice in a row (11-14 11:59 and 21:05), both on the same test, `testNoAnswerFromTheServerAsksNobody` in NameTests.swift, "Test crashed with signal abrt", while no ios/ file changed since the last green run (11-13 22:22). The test and Profiles.ensureName read fine, so this looks like a runner or runtime change, not our code; the xcresult artifact (xcresult-43640952064) would say. For a session on the Mac. Web errors orange: one `window.ethereum` TypeError on one page, a wallet extension, not ours; no action.
+
 ## 2026-11-15 night run (window from 00:58 UTC): nothing published
 
 Reader inbox empty. health.py: iOS app red (run 43640952064, 273 passed 1 failed; the failing test is only named in the xcresult artifact, unreadable on Linux, left for a session), web errors orange (one new inline-script TypeError), 6 of 12 knocks delivered. San Francisco: an eighth verify pass found the register exhausted, and a write pass found sfo_012/014/015 are duplicates of live sfo_004/003/006. The claim is not released (release refuses while those rows sit in the verified file). For a session: live sfo_005 and sfo_013 look like one Moreton Bay fig (3555 Cesar Chavez, about 80 m apart; check the trunk, then retire sfo_005); sfo_006's pin says confirmed but the register point was never checked; sfo_004's recognition line says "spongy to the touch", which the notes do not support and which invites touching the tree; sfo_015's alive check concerned a different plant.

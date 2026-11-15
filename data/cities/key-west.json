@@ -101,6 +101,72 @@
         "height": 4000,
         "taken_month": 12
       }
+    },
+    {
+      "id": "kyw_003",
+      "name": "The Kapok Tree",
+      "species": "Kapok (Ceiba pentandra)",
+      "age_estimate": "over a century",
+      "age_min": 100,
+      "age_max": 130,
+      "girth_cm": 914,
+      "location": {
+        "address": "Whitehead Street at Jackson Square (marked 502 Whitehead St), Key West, FL 33040",
+        "latitude": 24.5547564,
+        "longitude": -81.8038174,
+        "neighbourhood": "Old Town"
+      },
+      "story": "The trunk of the Kapok Tree on Whitehead Street measures more than 30 feet around, and with its buttresses that figure is a floor, not a ceiling. It stands on the lawn at Jackson Square beside Monroe County's historic courthouse, and a white sign marks the spot, in case the size does not.\n\nIts birth year depends on who you ask. WLRN, reporting in 2024, says a kapok was planted at Jackson Square in 1900. Another account puts the planting at 1905, but we could not read that survey ourselves, so treat those five years as an open question. Either way, the Florida Keys tourism board's estimate of more than a hundred years holds.\n\nIt has spent that century next to the county's courthouse. When WLRN reported on the work to harden the old building against hurricanes, it noted that the construction would not disturb the tree. The station also says it draws people in for photographs every day, and the tourism board calls it one of the country's most famous kapoks.\n\nCome in spring or summer and the crown carries pink and white flowers. The rest of the year the trunk does the talking on its own. If you know for certain whether it went into the ground in 1900 or 1905, tell us.",
+      "how_to_recognise": "You can recognise it by the buttressed trunk, more than 30 feet round, and the white sign that marks it. It stands on the lawn at Jackson Square, beside the courthouse on Whitehead Street.",
+      "verified_sources": [
+        "https://www.wlrn.org/history/2024-04-01/monroe-county-historic-courthouse-key-west-hardening-hurricane",
+        "https://visitfloridakeys.com/plan-your-trip/plan-book/itineraries/great-walks/whitehead-street",
+        "https://www.openstreetmap.org/node/9395545457"
+      ],
+      "access": "Free, street-side lawn on Whitehead Street beside the courthouse; a white sign marks the spot.",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "verify_notes": "Pin: OSM natural=tree node 9395545457 named 'The Kapok Tree' (24.5547564,-81.8038174); the OSM address point 502 Whitehead St sits about 40 m north, so the pin is the tree node, not the address. Age: WLRN (2024-04-01, courthouse hardening story) says 'In 1900, a kapok tree was planted at Jackson Square. The giant, beautiful tree still stands today and draws people in for photos daily' and that it will not be disturbed by construction. Florida Keys tourism board (Whitehead Street walk page): trunk circumference 'more than 30 feet' (girth_cm 914 is that figure, a lower bound; buttressed trunk), 'estimated to be more than 100 years old', 'one of the country's most famous Kapok trees', pink and white flowers spring and summer, a sign marks the spot. A search summary claimed a 2018 survey dates it 1905; that PDF (williamvdavidson.com, The Kapoks of Key West 2018) could not be read, so it is NOT used; 1900 vs 1905 is an unresolved possible discrepancy. Alive: lifecheck RECENT, iNaturalist observation 2026-11-10 at the pin (https://www.inaturalist.org/observations/414403808). Two sources plus OSM. Same walk as kyw_004 (about 250 m).",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "kyw_004",
+      "name": "The Cosgrove House Banyan",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "about 120 years",
+      "age_min": 100,
+      "age_max": 130,
+      "location": {
+        "address": "323 Whitehead Street (front yard of the Cosgrove House, Banyan Resort), Key West, FL 33040",
+        "latitude": 24.5571058,
+        "longitude": -81.8052548,
+        "neighbourhood": "Old Town"
+      },
+      "location_site": {
+        "name": "Cosgrove House front yard, 323 Whitehead St",
+        "radius_m": 30
+      },
+      "story": "A captain's wife planted this banyan for shade, and a century later it overshadows her house. Myrtle Cosgrove, wife of Captain Cosgrove, put it in the front yard of 323 Whitehead Street in the early 1900s, at a time when Key West was not lush and fresh water came out of cisterns.\n\nThe Key West Historic Marker Tour says without softening that the Cosgrove House is literally overshadowed by a landscaping decision she made a hundred years ago. The Banyan Resort, which owns the house today, tells the same story of the planting on its own history page, and adds that this is one of two expansive banyans on the property. The other, which the resort calls the largest, grows in the gardens behind, out of sight from the street.\n\nNeither source names the species beyond banyan, a strangling fig of the genus Ficus, so that is how we list it. Nobody has published its girth or its height either. If you have measured it, or know which fig it is, tell us.\n\nThis one is a tree to look at, not to walk under. The yard belongs to a private hotel, so stand on the public sidewalk of Whitehead Street and look in rather than stepping onto the grounds. The Kapok Tree at Jackson Square is about 250 metres away, which makes the two an easy pair on one short walk.",
+      "how_to_recognise": "You can recognise it as the banyan in the front yard of the Cosgrove House, 323 Whitehead Street, seen from the public sidewalk. The resort's larger banyan stands in the back gardens, out of view.",
+      "verified_sources": [
+        "http://www.keywesthistoricmarkertour.org/marker/35",
+        "https://thebanyanresort.com/our-history"
+      ],
+      "access": "View-only from the public sidewalk on Whitehead Street; the yard belongs to the Banyan Resort, a private hotel. Do not enter the property.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "Age: Key West Historic Marker Tour (marker at 323 Whitehead, page copyright 2018): the house is 'literally overshadowed by a landscaping decision Myrtle Cosgrove, the Captain's wife, made a century ago'; she planted a banyan for shade when Key West was not lush and fresh water came from cisterns. The Banyan Resort's own history page: the front yard contains 'one of the two expansive Banyan Trees on this property which was planted in the early 1900s by Captain Cosgrove's wife, Myrtle'; a second, 'the largest Banyan Tree on the property', stands in the gardens behind (not assessed). The two sources agree on planting by Myrtle Cosgrove in the early 1900s (the resort is the owner of the ground; the marker tour is independent). Species given only as 'banyan' (a strangling fig, genus Ficus), not narrowed. Alive: lifecheck RECENT, iNaturalist observation 2026-05-31 near the address (https://www.inaturalist.org/observations/367213402). Pin is the OSM address point for 323 Whitehead, not the trunk; stays approximate; small-site rule (hotel front yard seen from the street). No girth or height found. About 250 m from the Kapok Tree.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

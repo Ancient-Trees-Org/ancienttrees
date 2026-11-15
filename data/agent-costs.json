@@ -5,6 +5,22 @@
       {
         "date": "2026-11-15",
         "kind": "verify",
+        "target": "key-west",
+        "tokens": 150000,
+        "trees": 2,
+        "note": "kapok (1900 vs 1905 open) and Cosgrove banyan (view-only); estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "write",
+        "target": "key-west",
+        "tokens": 30000,
+        "trees": 2,
+        "note": "kyw_003, kyw_004 merged; banyan species set to Fig (Ficus sp.) for rule 9; estimate"
+      },
+      {
+        "date": "2026-11-15",
+        "kind": "verify",
         "target": "chicago",
         "tokens": 110000,
         "trees": 6,
