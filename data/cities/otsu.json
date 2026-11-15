@@ -1,0 +1,79 @@
+{
+  "city": "Ōtsu",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Ōtsu lies on the shore of Lake Biwa, a short train ride from Kyoto. In its Katata district a Japanese black pine leans over the bridge to Ukimidō, the hall of Mangetsu-ji that stands on posts in the lake and appears in Hiroshige's Eight Views of Ōmi. A reader who photographed it puts the pine at about 400 years old and says it is less big than it is part of the scene.",
+  "meta_description": "The pine of Ukimidō in Katata, Ōtsu: a Japanese black pine over the bridge to the floating hall on Lake Biwa, about 400 years old by a reader's estimate.",
+  "hero_tree_id": "ots_001",
+  "oldest_tree_id": "ots_001",
+  "trees": [
+    {
+      "id": "ots_001",
+      "name": "The Pine of Ukimidō",
+      "species": "Japanese Black Pine (Pinus thunbergii)",
+      "location": {
+        "address": "Mangetsu-ji (Ukimidō), Katata, Ōtsu, Shiga",
+        "latitude": 35.11,
+        "longitude": 135.9212,
+        "neighbourhood": "Katata"
+      },
+      "story": "The reader who photographed this pine was honest about it: \"Whilst it is not a particularly large pine, it creates a scene that is an integral part of Ukimi-dō.\" That is the reason to come. It stands on the landward side of the little bridge that leads out to Ukimidō, the hall of Mangetsu-ji that sits on posts in Lake Biwa, and its branches reach out over the bridge you walk across.\n\nUkimidō is one of the Eight Views of Ōmi. Hiroshige drew it in the print known as the wild geese returning home at Katata, and the hall you see now was built in 1937. Look up from under the pine and you get what the reader got: thick plated bark, a trunk twisting into heavy limbs, a timber crutch under one of them, and the needles in tufts against the sky.\n\nThe reader puts it at about 400 years old, by their estimate; nobody has published its size, and we have not found a record of when it was planted. Katata is about twenty-five minutes from Kyoto on the JR Kosei Line, and a bus or a short walk brings you to the temple.",
+      "how_to_recognise": "A Japanese black pine on the shore side of the bridge out to Ukimidō, its twisting limbs reaching over the bridge, one of them resting on a timber prop.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Mangetsu-ji",
+        "A reader's photograph and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "f3f121f2-3ffa-4cc5-8a06-d06dff70f739",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 728), note quoted. Wikipedia (Mangetsu-ji): Ukimidō, one of the Eight Views of Ōmi (Hiroshige, wild geese returning home at Katata); Ukimidō building dated 1937; bus from Katata Station. Species is the reader's (Japanese Black Pine). No size or age. Own place file (Otsu); first written into the Kyoto file as a day trip (JR Kosei Line Kyoto to Katata about 25 minutes, from timetable knowledge, not a fetched page). The reader gave an age of 400 years, stated as their estimate.",
+      "access": "Inside the grounds of Mangetsu-ji (Ukimidō) in Katata, Ōtsu; check the temple for opening hours and any entry fee. About 25 minutes from Kyoto on the JR Kosei Line to Katata, then a bus or a walk.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ots_001-the-pine-of-ukimido.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "f3f121f2-3ffa-4cc5-8a06-d06dff70f739",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: looking up through the pine's plated trunk and limbs against a blue sky, a prop at one side. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f3f121f2-3ffa-4cc5-8a06-d06dff70f739",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      },
+      "age_estimate": "about 400 years, by a reader's estimate",
+      "age_min": 400,
+      "age_max": 400,
+      "age_basis": "source"
+    }
+  ],
+  "question_meta": "The pine at Ukimidō in Katata, Ōtsu: what it is, how old, and how to get there from Kyoto.",
+  "question_answer": "Ōtsu's pine at Ukimidō is a Japanese black pine (Pinus thunbergii) beside the bridge to the floating hall of Mangetsu-ji in Katata, on Lake Biwa. A reader puts it at about 400 years old, by their estimate. Katata is about 25 minutes from Kyoto by train.",
+  "question_context": "Ukimidō is the hall of the Zen temple Mangetsu-ji that stands on posts out in Lake Biwa at Katata, joined to the shore by a short bridge. It is one of the Eight Views of Ōmi, the set of lake scenes Hiroshige drew, in the print of wild geese returning home at Katata; the present hall dates from 1937. On the landward side of the bridge a Japanese black pine stretches its limbs out over the walkway, one of them resting on a timber prop. The reader who photographed it estimates it at about 400 years and was clear that it is not especially large: its value is the way it frames the hall. We have found no published age, girth or planting record, so the age is theirs. Katata is about 25 minutes from Kyoto on the JR Kosei Line, and a bus or a walk of some minutes reaches the temple, which sets its own hours and any fee.",
+  "faq": [
+    {
+      "q": "How old is the pine at Ukimidō?",
+      "a": "About 400 years, by the estimate of the reader who photographed it. No published age has been found."
+    },
+    {
+      "q": "What is Ukimidō?",
+      "a": "The hall of Mangetsu-ji that stands on posts in Lake Biwa at Katata, one of Hiroshige's Eight Views of Ōmi."
+    },
+    {
+      "q": "Where exactly is the pine?",
+      "a": "On the shore side of the bridge out to Ukimidō, its branches reaching over the walkway."
+    },
+    {
+      "q": "How do I get there from Kyoto?",
+      "a": "Take the JR Kosei Line to Katata, about 25 minutes, then a bus or a short walk to Mangetsu-ji."
+    }
+  ]
+}

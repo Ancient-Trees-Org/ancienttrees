@@ -88,19 +88,34 @@
       "access": "Paid entry to Kinkaku-ji: 500 yen adult, 300 yen primary and middle school. Open daily 9:00 to 17:00; hours and fee can change for special exhibitions.",
       "transport": "Kyoto City Bus 101/205 to Kinkakuji-michi, 3 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Rikushu-no-matsu_pine_tree_in_Rokuonji_Temple.JPG",
-        "license": "CC BY-SA 4.0",
-        "attribution": "そらみみ (Soramimi), Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/kyo_002-the-land-boat-pine-6a0bf0dd.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3205,
-        "height": 2404,
-        "taken_month": 10
+        "width": 1067,
+        "height": 1600,
+        "taken_month": 1,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "6a0bf0dd-540d-4452-9c83-80da96a2a7eb",
+        "note": "Photographed by a reader and sent through the app (2024-01-28); a viewing pass approved it on 2026-11-15: The land boat pine on its bamboo frame beside the Kinkaku-ji hall, clipped low and long like a hull. The building dominates the frame, so this is for the strip, not the lead. Species seen: Five-needle pine: short soft blue-green needle tufts, clipped dense pads. Fits the description: Pine trained flat and long on a bamboo trellis and posts in front of the temple hall at Kinkaku-ji, the known setting of Rikushu-no-matsu.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "OpenStreetMap carries a contributor-mapped, survey-sourced node named \"陸舟の松\" (Rikushu Pine) at this spot, matching the tree's own name exactly. Photo URL fixed 2026-07-28: the stored thumb path (commons/thumb/8/8e/...) 404'd, caught by a full site-wide hash-path check against Commons' API; the real current path is 4/4f. Fetched and viewed directly, the same boat-shaped trained pine beside Kinkaku-ji's roofline, before swapping.",
       "location_precision": "confirmed",
       "paid_entry": true,
-      "how_to_recognise": "You can recognise it by its trunk and branches clipped into the shape of a sailing ship, bow pointed west. It stands beside the Kyoko-chi pond at Kinkaku-ji."
+      "how_to_recognise": "You can recognise it by its trunk and branches clipped into the shape of a sailing ship, bow pointed west. It stands beside the Kyoko-chi pond at Kinkaku-ji.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Rikushu-no-matsu_pine_tree_in_Rokuonji_Temple.JPG",
+          "license": "CC BY-SA 4.0",
+          "attribution": "そらみみ (Soramimi), Wikimedia Commons",
+          "status": "approved",
+          "width": 3205,
+          "height": 2404,
+          "taken_month": 10
+        }
+      ]
     },
     {
       "id": "kyo_003",

@@ -17,8 +17,8 @@
       "age_basis": "source",
       "location": {
         "address": "Beside a surfaced path north of the South Park estate, Lytham, Lancashire",
-        "latitude": 53.7439416666667,
-        "longitude": -2.97403333333333,
+        "latitude": 53.743709,
+        "longitude": -2.974043,
         "neighbourhood": "South Park, Lytham"
       },
       "story": "At the heart of this sweet chestnut stands a pale, dead stem, bleached and stripped of bark, while the living tree carries on around it in a ring of younger limbs. That is how old chestnuts age. The original trunk dies back and the tree keeps going from its edges.\n\nA reader found it in Lytham and sent us its photograph from the spot. They put it at 300 to 400 years old and about seven metres round the trunk, both by a reader's estimate. No register we checked lists it, so those numbers are theirs until somebody brings a tape and a record. Seven metres would make it a big chestnut by any measure, and the swollen, burred base in the photograph does not argue with them.\n\nIt stands on mown grass beside a surfaced path, in a wide canopy of fresh green leaves, with woodland behind. Sweet chestnut was planted across English estates from the Tudors onward, and Lytham was one, but nothing we have read says who planted this one or when.\n\nIf you know its history, or the ground it stands on, tell us.",
@@ -45,10 +45,11 @@
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "e731e63c-5e9a-4490-ba4c-b47f30aa22e3",
+        "kind": "reader moved the pin",
+        "submission": 708,
+        "moved_m": 26,
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+        "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: reader GPS fix."
       },
       "girth_cm": 700
     }

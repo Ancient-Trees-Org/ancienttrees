@@ -1162,6 +1162,263 @@
    "lat": 51.4608616666667,
    "lon": -0.115291666666667,
    "pin_checked": "2026-11-15"
+  },
+  "60daa5db-07e5-48d7-be3d-04c5684d70a7": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "ngs_001",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "0a0cbd5b-d255-4748-a4f8-13cad39a04d7": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mbw_001",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "hth_001",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "f3f121f2-3ffa-4cc5-8a06-d06dff70f739": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "ots_001",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "cfd86b34-8abd-47e1-b301-a3501dfa4a31": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lon_052",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "34c8442d-a040-44ec-8182-989d8d9f1fc5": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "grn_001",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "edi_022",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree."
+  },
+  "3580ef91-02e7-45a1-bd3d-c8b5673e1a72": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "fda250f8-3d69-4814-98fe-d2aa828e3ac9": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "3f2218ef-f368-4ec1-95b5-a1ea20e4b7c5": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "reason": "Screenshot duplicate of fda250f8 from a second account."
+  },
+  "tip-717": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-727": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-740": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-748": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-749": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-751": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "216f76c5-a63d-49dd-a65f-c844261a125e": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "oxf_004",
+   "city_slug": "oxford",
+   "file": "oxf_004-the-pococke-plane.jpg",
+   "reason": "The Pococke Plane in spring, its long sprawling limbs resting on green props over a bluebell lawn inside the college wall. The tree fills the frame in daylight; the extra view from the other side is the stronger card but only the main file publishes. Species seen: Plane: pale flaking mottled bark, h",
+   "lat": 51.75,
+   "lon": -1.25388333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "5419e3e3-fe95-4937-8f7e-bfc23bcdd505": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "gro_014",
+   "reason": "A big beech on the church lawn beside the Nieuwe Kerk, but its trunk is hidden behind low branches so neither register scar can be seen, and the lawn holds about thirty beeches. Cannot tell it is one of the pair."
+  },
+  "83ca6e1f-93af-48de-82a5-698ce992b7bc": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "bri_016",
+   "city_slug": "bristol",
+   "file": "bri_016-the-bundle-planted-sessile-oak-bishops-knoll.jpg",
+   "reason": "A broad old oak crown of heavy twisting limbs, photographed 19 metres from the pin among younger trees. Daylight, in leaf, the tree fills the frame. Species seen: Oak: lobed oak leaves, deeply fissured grey-brown bark on thick sinuous limbs; sessile versus pedunculate not separable from this view. F",
+   "lat": 51.4739083333333,
+   "lon": -2.64420333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "137b17f1-9f95-420c-a56a-47dc3894ad22": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "sal_001",
+   "city_slug": "santalfio",
+   "file": "sal_001-the-hundred-horse-chestnut.jpg",
+   "reason": "The Hundred-Horse Chestnut behind its rope fence, the ancient split trunk with a pale dead limb at the centre and chestnut burrs in the foreground. The extra file is the better view of the stems but only the main file publishes. Species seen: Sweet chestnut: long serrated lanceolate leaves, spiny gr",
+   "lat": 37.7502716666667,
+   "lon": 15.1301945,
+   "pin_checked": "2026-11-15"
+  },
+  "5568e36a-d957-4799-9ca6-bd3345160d04": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "sal_001",
+   "reason": "Duplicate upload: byte-identical files to sighting 137b17f1 of the same tree, which is approved."
+  },
+  "bf041a80-69e5-46b7-b32b-256193485efc": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "mtn_001",
+   "reason": "Duplicate upload: the same image as sighting 16e3ea1f of the Stara Maslina, which is approved."
+  },
+  "16e3ea1f-de46-43eb-b9da-8741d5212cd6": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mtn_001",
+   "city_slug": "bar",
+   "file": "mtn_001-stara-maslina-old-olive-tree-of-mirovica.jpg",
+   "reason": "The Stara Maslina in full, its hollow, charred and many-stemmed trunk under a grey-green crown in its stone-benched park. Daylight under cloud; extras are a second tree view plus the park's sign and age certificate (BAR17), which confirm the tree. Species seen: Olive: narrow grey-green leaves, gnarl",
+   "lat": 42.080025,
+   "lon": 19.1293778333333,
+   "pin_checked": "2026-11-15"
+  },
+  "58e7b5f6-025f-4687-b50b-e55a25e3d5d2": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "mtn_001",
+   "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved."
+  },
+  "f794c1b9-76cf-449c-bc8f-d2db151c4eea": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "mtn_001",
+   "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved."
+  },
+  "1b533cdf-ddaf-459a-a771-f9c1d8702d78": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "gro_004",
+   "reason": "This is not a ginkgo: smooth grey columnar trunk and a fine crown of small oval leaves, with beech leaves on the path, so most likely a beech near the ginkgo. Wrong tree for this entry."
+  },
+  "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "frn_001",
+   "city_slug": "farnham",
+   "file": "frn_001-waverley-abbey-yew.jpg",
+   "reason": "The Waverley Abbey Yew's base: many stems rising from a mound of roots arching over the ground, under the yew's crown. Daylight, colour, the tree is the whole subject. Species seen: Yew: flat dark-green needles in two ranks, reddish flaking bark on fluted stems and roots. Fits the description: Multi",
+   "lat": 51.200181,
+   "lon": -0.759694,
+   "pin_checked": "2026-11-15"
+  },
+  "c2491ee0-e011-490f-9f9a-42e8c90f9f92": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gor_001",
+   "city_slug": "gort",
+   "file": "gor_001-the-autograph-tree.jpg",
+   "reason": "The Autograph Tree at Coole: the beech inside its tall iron cage with the plaque at its base. Note the leaves read green, not purple, in this spring light; worth a check of the copper beech label. Species seen: European beech: smooth grey bark with moss, beech leaves on fine twigs; leaves look green",
+   "lat": 53.09508,
+   "lon": -8.8361,
+   "pin_checked": "2026-11-15"
+  },
+  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "kan_003",
+   "reason": "A snow-covered Japanese black pine in Kenrokuen with props and yukitsuri ropes, but taken 95 metres from the pin and without the pond or the low wide spread over the water that marks the Karasaki pine. The garden rigs hundreds of pines; cannot tell this is that one."
+  },
+  "553ee5be-96b8-4e88-a48a-c7d66825dd68": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "ngy_002",
+   "city_slug": "nagoya",
+   "file": "ngy_002-the-camphor-of-atsuta-shrine-553ee5be.jpg",
+   "reason": "The Atsuta camphor with its mossy burl at the base, shimenawa rope and shide, sign and wooden fence. A fine full-height view for the strip. Species seen: Camphor: glossy oval evergreen leaves, rough fissured grey-brown bark heavy with moss and ferns. Fits the description: Huge trunk with a green mos",
+   "lat": 35.125278,
+   "lon": 136.908611,
+   "pin_checked": "2026-11-15"
+  },
+  "d8741ffa-ffe6-42a8-ae19-7d788689baa5": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "pal_001",
+   "city_slug": "palermo",
+   "file": "pal_001-the-ficus-of-piazza-marina-d8741ffa.jpg",
+   "reason": "The Piazza Marina fig's colonnade of aerial-root trunks with iron railings and the square's stone buildings behind. Small file but clearly this tree. Species seen: Ficus: smooth pale grey trunks, hanging and fused aerial roots, large leathery leaves. Fits the description: Thicket of secondary trunks",
+   "lat": 38.117539,
+   "lon": 13.369553,
+   "pin_checked": "2026-11-15"
+  },
+  "885730b7-88ca-40a6-9a30-0f36ad6990c0": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dnk_002",
+   "city_slug": "dunkeld",
+   "file": "dnk_002-the-birnam-oak-885730b7.jpg",
+   "reason": "The Birnam Oak's hollow trunk, burrs and ferns, looking up into the crown beside the riverside path. A strong trunk portrait for the strip. Species seen: Oak: lobed oak leaves, deeply ridged bark, burrs, polypody ferns on limbs. Fits the description: Very large hollow trunk with a tall opening at it",
+   "lat": 56.56134,
+   "lon": -3.5757,
+   "pin_checked": "2026-11-15"
+  },
+  "d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dnk_002",
+   "city_slug": "dunkeld",
+   "file": "dnk_002-the-birnam-oak-d9a75ee5.jpg",
+   "reason": "Looking up the Birnam Oak's trunk into its crown, the long lower limb reaching out at left; a different view from the reader's other upload. Weaker as a card, fine in the strip. Species seen: Oak: lobed oak leaves against blue sky, ridged bark with an old wound. Fits the description: Thick old oak t",
+   "lat": 56.56134,
+   "lon": -3.5757,
+   "pin_checked": "2026-11-15"
+  },
+  "6a0bf0dd-540d-4452-9c83-80da96a2a7eb": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "kyo_002",
+   "city_slug": "kyoto",
+   "file": "kyo_002-the-land-boat-pine-6a0bf0dd.jpg",
+   "reason": "The land boat pine on its bamboo frame beside the Kinkaku-ji hall, clipped low and long like a hull. The building dominates the frame, so this is for the strip, not the lead. Species seen: Five-needle pine: short soft blue-green needle tufts, clipped dense pads. Fits the description: Pine trained fl",
+   "lat": 35.0394604,
+   "lon": 135.7290207,
+   "pin_checked": "2026-11-15"
+  },
+  "308bdeb2-c35d-42ec-9bad-357b10a5f0b5": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "yor_002",
+   "city_slug": "york",
+   "file": "yor_002-the-cut-leaved-hornbeam-308bdeb2.jpg",
+   "reason": "The cut-leaved hornbeam's hollow fluted trunk and its long low arching limb in the Museum Gardens, with the old stone wall behind. Good daylight view. Species seen: Hornbeam: grey fluted muscular bark, serrated pleated leaves. Fits the description: Hollow split trunk, a limb curving low toward the g",
+   "lat": 53.961063,
+   "lon": -1.0870183,
+   "pin_checked": "2026-11-15"
   }
  }
 }

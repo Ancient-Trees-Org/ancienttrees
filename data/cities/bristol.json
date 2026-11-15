@@ -611,8 +611,8 @@
       "girth_cm": 700,
       "location": {
         "address": "Bishops Knoll Wood, Bramble Lane entrance, Stoke Bishop, Bristol BS9 1JH",
-        "latitude": 51.47408,
-        "longitude": -2.64426,
+        "latitude": 51.473908,
+        "longitude": -2.644203,
         "neighbourhood": "Stoke Bishop"
       },
       "verified_sources": [
@@ -621,15 +621,29 @@
       ],
       "access": "Free. Woodland Trust wood, open access, entrance on Bramble Lane; the oak is the first big tree on entering (Woodland Trust).",
       "transport": "Nearest bus stop Julian Road, 1 km walk on pavement (Woodland Trust).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "how_to_recognise": "You can recognise it by the several fused stems that make one broad trunk, seven metres round. It stands close to the Bramble Lane entrance among apple and other fruit trees, partly screened by young ash.",
       "story": "This oak may be six trees pretending to be one. The Woodland Trust thinks it was planted as a bundle, six or so young oaks set in a single hole, which over the centuries fused into one trunk. That would explain why it is so portly, seven metres round. The Bristol Tree Forum agrees it may have been a bundle planting, noting that its several stems do not appear to grow from an old pollard cut, the other usual reason an oak ends up with many trunks.\n\nHow old it is depends on whom you ask. The Woodland Trust, which owns the wood, says it could be as much as 600 years old and probably dates from the medieval deer park that once covered this ground. The Forum puts it at 700. Both are estimates from the size of a tree whose size may be the work of six. Either way it was growing here centuries before The Knoll, the Victorian mansion whose grounds became this wood, and long before the Monterey cypress a short walk away.\n\nThe two sources also disagree on how easy it is to spot. The Trust describes it looming through apple and other fruit trees as the first thing to catch the eye when you come in from Bramble Lane. The Forum says it is disguised by young ash trees and not easy to find. Look near the entrance, among the fruit trees, for a broad oak made of several fused stems.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bri_016-the-bundle-planted-sessile-oak-bishops-knoll.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 6,
+        "source": "contributor",
+        "contributor_user_id": "p_01e51ab3c21b629be200e5b1",
+        "sighting_id": "83ca6e1f-93af-48de-82a5-698ce992b7bc",
+        "note": "Photographed by a reader and sent through the app (2025-06-08); a viewing pass approved it on 2026-11-15: A broad old oak crown of heavy twisting limbs, photographed 19 metres from the pin among younger trees. Daylight, in leaf, the tree fills the frame. Species seen: Oak: lobed oak leaves, deeply fissured grey-brown bark on thick sinuous limbs; sessile versus pedunculate not separable from this view. Fits the description: A very large old oak with several massive limbs from a broad base, partly screened by young trees (a maple at left) in a wooded setting.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "83ca6e1f-93af-48de-82a5-698ce992b7bc",
+        "moved_m": 19,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

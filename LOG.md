@@ -2,6 +2,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 session, part 3: the Guardian afternoon wave
+
+- Seven reader trees with a GPS fix live as tree pages: ngs_001 the A-bombed camphors of Sannō Shrine (Nagasaki), mbw_001 a veteran yew at Market Bosworth, hth_001 Kett's Oak (Hethersett), ots_001 the pine of Ukimidō (Ōtsu, 400 years by the reader), lon_052 a hollow beech on Hampstead Heath, grn_001 a buttressed giant near Mount Horne (Grenada, species uncertain and said so), edi_022 a Wheatley elm in west Edinburgh ("widest in Scotland" is the reader's claim). Five new one-tree places.
+- A photo-judge pass on 19 reader photos: first photographs for the Pococke Plane, the Bishops Knoll oak, the Hundred-Horse Chestnut, the Stara Maslina, the Waverley Abbey Yew and the Autograph Tree (record says copper beech, the photo looks green: worth a check); six more strip/lead photos (Atsuta camphor, Piazza Marina fig, Birnam Oak x2, Land Boat Pine, Cut-Leaved Hornbeam); four byte-identical duplicates out; held: Groningen beeches (scars not visible), the Noorderplantsoen ginkgo photo (it is a beech), the Karasaki pine (95 m off, no pond).
+- Reader pin moves applied by hand (no script handles them): Redford redwood, Stevenson's Yew, Lytham chestnut, York pear-barked beech.
+- Leads waiting for a source or a real pin: Geashill sequoia, King of the Forest (pin placed by hand, then moved 1.1 km by a reader), Media sycamore (hand pin), and the tips Isparta plane, Old Knobbley, Emmanuel College plane (access to check), Pine Island Connemara, Mariam Dearit (Eritrea, a reader's tree so focus does not block it), Waitangi pine; no-photo tips Faux de Verzy, Zaandam wingnut, Tule tree, Wyndham's Oak.
+- Mail: the Linford Lime is marked not-to-congratulate (it was already on the map). The knock's `tree_approved.py --send` sends the "your tree is on Ancient Trees" mails for every reader tree once its page is in the live feed; Hidde asked for these to go.
+
 ## 2026-11-15 session, part 2: the holds re-read, two tips live
 
 - Two trees a reader tipped (submission 702) are live: lmr_001 the Cedar of Monfalletto, La Morra (planted for a Falletti wedding, 1856 per langhe.net or 1875 per FAI, both stated; Commons photographs) and tlv_001 the Giant Plane of Telavi, Georgia (more than 900 years by the sign at the tree; height on the sign left out, a visitor doubted it).

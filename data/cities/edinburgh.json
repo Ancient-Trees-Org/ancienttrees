@@ -681,8 +681,8 @@
       "girth_cm": 351,
       "location": {
         "address": "Colinton Parish Church and Manse, Spylaw Street, Colinton",
-        "latitude": 55.908847,
-        "longitude": -3.255463,
+        "latitude": 55.908682,
+        "longitude": -3.255945,
         "neighbourhood": "Colinton"
       },
       "story": "The remains of Robert Louis Stevenson's childhood swing still hang from a limb of this yew, according to the City of Edinburgh Council. Stevenson spent much of his boyhood at Colinton Manse, played in the tree, and later put it into A Child's Garden of Verses, the book of poems about being small that he wrote as a grown man, in the same years he was writing Treasure Island and Kidnapped.\n\nThe council puts the yew at 300 to 400 years old and names it among Scotland's top 100 heritage trees. Yews keep their age to themselves, so take that as an estimate rather than a birth date. Either end of it means the tree was already old when the boy found it. The two measurements on record do not quite agree. The Ancient Yew Group has it at 351 centimetres round, while the council's figure, a trunk 116 centimetres across, works out a little larger, and neither says at what height the tape went on.\n\nThe tree stands in the manse garden, which is private. The council's own advice is to look at it from the churchyard of Colinton Parish Church next door, which is open, and the view over the wall is the one to come for. Colinton village is a short bus ride from the centre.\n\nThe records and photographs we found are some years old. If you have stood here recently, tell us how it looks.",
@@ -727,11 +727,11 @@
         }
       ],
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f",
-        "moved_m": 73,
+        "kind": "reader moved the pin",
+        "submission": 701,
+        "moved_m": 35,
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+        "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: reader GPS fix."
       }
     },
     {
@@ -861,8 +861,8 @@
       "age_max": 120,
       "location": {
         "address": "Redford Wood, off Redford Road by Redford Bridge, Colinton",
-        "latitude": 55.904137,
-        "longitude": -3.240895,
+        "latitude": 55.904155,
+        "longitude": -3.241092,
         "neighbourhood": "Colinton / Dreghorn"
       },
       "story": "A prince of Siam is said to have planted this giant sequoia when he finished his military training at the barracks next to Redford Wood. That is how the City of Edinburgh Council told it on its heritage tree list, around 2012, putting the planting at approximately a hundred years before. A walker's account from 2017 gives the year as 1909. Neither cites a document, so treat the prince and the date as the story the tree carries rather than a record, and the age as somewhere around 100 to 120 years.\n\nIt is not alone. Redford Wood holds several giant redwoods of similar girth, along with veteran oak, beech, lime, ash, sycamore and yew. The council picked this one out as a particularly fine specimen, and the 2017 account says it is the only redwood here tied to the person who planted it. The one you want stands in the open ground at the southern end of the wood, north-west of Dreghorn Barracks.\n\nThe wood is free and open, entered from Redford Road next to Redford Bridge, with good paths round it. Our pin marks the wood, not the trunk, so walk to the southern end and look for the redwood standing clear of the others. The barracks beside it are due to be sold, which may change the ground around the tree.",
@@ -894,11 +894,55 @@
         "note": "Photographed by a reader and sent through the app (2026-07-25); a viewing pass approved it on 2026-11-15: Giant sequoia trunk in daylight at the reader's GPS fix at the southern end of Redford Wood; the tree had no photograph. Second frame (trunk by the path) in the strip. Species seen: deeply furrowed fibrous red-brown bark, flared base, scale-leaved drooping sprays. Fits the description: a big redwood at the southern end of Redford Wood, at the reader's fix 115 m from our approximate pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba",
-        "moved_m": 109,
+        "kind": "reader moved the pin",
+        "submission": 698,
+        "moved_m": 12,
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+        "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: reader GPS fix."
+      }
+    },
+    {
+      "id": "edi_022",
+      "name": "The Wheatley Elm of Balgreen",
+      "species": "Wheatley Elm (Ulmus minor 'Sarniensis')",
+      "location": {
+        "address": "Street verge, Balgreen area, west Edinburgh",
+        "latitude": 55.941133,
+        "longitude": -3.251053,
+        "neighbourhood": "Balgreen / Saughtonhall"
+      },
+      "story": "Dutch elm disease killed most of Britain's elms, and Edinburgh has fought for years to keep the ones it has. This is one of the survivors, a tall, dense elm on a grass verge in west Edinburgh, a street tree that has outgrown the houses around it.\n\nThe reader who sent it to us says it is the widest Wheatley elm in Scotland. We have not found a record that confirms it; the tree registers we read name a large Wheatley elm in Warriston Cemetery, about three metres round in 2017, and put the national champion in Brighton. So the claim is theirs, and we would welcome a tape measurement to settle it.\n\nWheatley elms are a form of field elm, also called the Guernsey elm, planted in towns for their narrow, upright crowns. In the reader's photograph this one has a dark, deeply ridged trunk and a tall green crown much fuller than the narrow shape the variety is known for, which may be what a century or more of space does. It stands at the edge of the pavement, so you can walk right up to it.",
+      "how_to_recognise": "A tall, dense elm with a dark, ridged trunk on a grass verge at the edge of the pavement, taller than the houses beside it.",
+      "verified_sources": [
+        "https://www.braidburnvalleypark.org.uk/wp-content/uploads/2008/02/Wheatley-Elms.pdf",
+        "https://en.wikipedia.org/wiki/Guernsey_Elm",
+        "A reader's photograph and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 746, 'Widest Wheatley Elm in Scotland'), pin then nudged 8 m by the same reader (745). Claim not confirmed: Wikipedia (Guernsey Elm) gives Warriston Cemetery specimen 3 m girth 2017 and the national champion in Blakers Park, Brighton. Species is the reader's. No girth.",
+      "access": "Free, on a public street verge beside the pavement.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/edi_022-the-wheatley-elm-of-balgreen.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_185d898c7855df9e68eaf269",
+        "sighting_id": "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole elm on its verge, overcast daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
+        "date": "2026-11-15",
+        "note": "The reader's GPS fix, then nudged 8 m by the same reader on the map (submission 745)."
       }
     }
   ]

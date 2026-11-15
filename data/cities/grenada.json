@@ -1,0 +1,74 @@
+{
+  "city": "Grenada",
+  "country": "Grenada",
+  "status": "needs_curation",
+  "intro": "Inland on Grenada, in the forest of Saint Andrew near Mount Horne, a reader found the biggest tree they had seen on the island and photographed it for us with a person standing between its buttresses for scale. Its smooth grey trunk rises out of great plank roots like a kapok's. Nothing else we have found records it, so this page is a start, and readers who know the forest can help finish it.",
+  "meta_description": "A giant buttressed rainforest tree near Mount Horne, Grenada, found and photographed by a reader: the widest and tallest they saw on the island.",
+  "hero_tree_id": "grn_001",
+  "oldest_tree_id": "grn_001",
+  "trees": [
+    {
+      "id": "grn_001",
+      "name": "The Giant of Mount Horne",
+      "species": "Kapok (Ceiba sp.)",
+      "location": {
+        "address": "Forest near Mount Horne, Saint Andrew, Grenada",
+        "latitude": 12.1532,
+        "longitude": -61.65988,
+        "neighbourhood": "Saint Andrew"
+      },
+      "story": "The person standing between the buttresses of this tree comes up to about where the first one starts to flare. The reader who photographed it in the forest of Saint Andrew, inland on Grenada, sent it to us for one reason: \"Its size. Widest and tallest I've seen in Grenada.\"\n\nThe photograph shows a smooth, pale grey trunk rising out of great plank buttresses that run out across the forest floor, with lianas hanging down its face. That shape is typical of the kapok, the silk-cotton tree of the Caribbean, but we are reading it from one picture and could be wrong, so the species on this page is a guess to be checked.\n\nNothing we have found records this tree, its age or its size, and we do not know the path the reader took to reach it, only where they stood. If you know its name or how to find it, tell us, and if you go, take someone who knows the forest.",
+      "how_to_recognise": "A huge rainforest tree with smooth pale grey bark and tall plank buttresses spreading across the forest floor, lianas hanging down its trunk.",
+      "verified_sources": [
+        "A reader's photograph and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "34c8442d-a040-44ec-8182-989d8d9f1fc5",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 732) as 'A tree I found', note quoted. Fix in forest near Mount Horne, Saint Andrew, from the photograph's own location. Species read from the buttress shape as Ceiba sp., uncertain; the page says so. No register or source found.",
+      "access": "In forest near Mount Horne, Saint Andrew, where a reader stood to photograph it. We do not know the path or who owns the land; go with a local guide.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/grn_001-the-giant-of-mount-horne.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_97a54c815334d451d929b481",
+        "sighting_id": "34c8442d-a040-44ec-8182-989d8d9f1fc5",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the buttressed trunk with a person for scale, forest daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "34c8442d-a040-44ec-8182-989d8d9f1fc5",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "A giant buttressed tree in the forest near Mount Horne, Grenada: what it is and what we know.",
+  "question_answer": "A reader found a giant buttressed tree in the forest near Mount Horne in Saint Andrew, Grenada, and called it the widest and tallest they had seen on the island. It looks like a kapok (Ceiba), but the species is unconfirmed and no source records it.",
+  "question_context": "Everything on this page starts with one reader's photograph and a GPS fix. They were walking in the forest of Saint Andrew parish, inland near Mount Horne, and stopped at a tree they described as the widest and tallest they had seen in Grenada. The photograph shows a person standing among its buttresses: great plank roots spreading out across the forest floor from a smooth, pale grey trunk, with lianas hanging down its face. That form is typical of the kapok or silk-cotton tree, Ceiba pentandra, which grows across the Caribbean and is often left standing when forest is cleared, but we cannot confirm the species from a single picture. No register, guide or article we found mentions this tree, so its age and size are unknown. We also do not know the route to it or who owns the land, only where the reader stood. Anyone who knows the tree, its local name or the path to it can tell us.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "It looks like a kapok (Ceiba), from its buttresses and smooth grey bark, but the species has not been confirmed."
+    },
+    {
+      "q": "How big is it?",
+      "a": "Nobody has measured it. The reader called it the widest and tallest tree they had seen in Grenada."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In forest near Mount Horne in Saint Andrew parish, at the point on the map where the reader stood."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "We do not know the path or who owns the land. Go with someone who knows the forest."
+    }
+  ]
+}

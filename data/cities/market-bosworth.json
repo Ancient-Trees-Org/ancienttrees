@@ -1,0 +1,74 @@
+{
+  "city": "Market Bosworth",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Market Bosworth, the Leicestershire market town best known for the battlefield of 1485 nearby, has a veteran yew in the woodland at its edge that a reader found and photographed for us. Its trunk is a cluster of twisting, fused stems with long limbs bending down to the ground. Nobody has published its age or girth, so the page asks anyone who knows.",
+  "meta_description": "A veteran yew in the woods at Market Bosworth, Leicestershire: dozens of fused, twisting stems from one ancient base, found by a reader.",
+  "hero_tree_id": "mbw_001",
+  "oldest_tree_id": "mbw_001",
+  "trees": [
+    {
+      "id": "mbw_001",
+      "name": "The Market Bosworth Yew",
+      "species": "European Yew (Taxus baccata)",
+      "location": {
+        "address": "Woodland at The Park, Market Bosworth, Leicestershire",
+        "latitude": 52.62588,
+        "longitude": -1.39732,
+        "neighbourhood": "Bosworth Park"
+      },
+      "story": "This yew has spent so long growing in on itself that its trunk is less a column than a knot. Dozens of stems rise out of one base, twist, fuse and lean out again, and some of its oldest limbs have come down to rest on the leaf litter around it, as yews do when they are very old.\n\nA reader found it in the woods at the edge of Market Bosworth and sent us the photograph from where they stood. They gave no name, age or measurement, and no register we checked lists it, so we cannot say how old it is. Yews this shape and this wide are usually centuries old, but a yew's age is hard to read even with a tape in hand, and we would rather leave the number open than guess.\n\nWhat the photograph does show is worth the walk on its own. It is a grove's worth of trunks from one tree, propped and bent and still green above. If you know its history, or have measured it, tell us, and we will put it on the page.",
+      "how_to_recognise": "A broad old yew in woodland, its trunk a cluster of twisting, fused stems with long limbs bending out and down to the ground.",
+      "verified_sources": [
+        "A reader's photograph through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "0a0cbd5b-d255-4748-a4f8-13cad39a04d7",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 724) with no name or note; GPS fix in woodland by The Park, Market Bosworth, beside Bosworth Country Park. No register entry within 100 m. Published on the 2026-10-21 rule: a stranger's good photograph with a GPS fix goes live. Whose ground the wood is on is not confirmed.",
+      "access": "In woodland at the edge of Market Bosworth by the country park, where a reader stood to photograph it. We have not confirmed that the ground is open to the public.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mbw_001-the-market-bosworth-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_af21cce41a45f566fbeb2637",
+        "sighting_id": "0a0cbd5b-d255-4748-a4f8-13cad39a04d7",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole multi-stemmed trunk and spreading limbs in woodland, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0a0cbd5b-d255-4748-a4f8-13cad39a04d7",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The veteran yew in the woods at Market Bosworth, Leicestershire: what it looks like and where it stands.",
+  "question_answer": "Market Bosworth has a veteran yew (Taxus baccata) in the woodland by The Park, near the country park, found and photographed by a reader. Its trunk is a knot of fused, twisting stems. No age or girth has been published.",
+  "question_context": "A reader sent us this yew with a GPS fix from the woodland at the edge of Market Bosworth, beside The Park and the town's country park. The photograph shows the shape of a very old yew: not one trunk but many stems rising from a single base, twisting and fusing, with heavy limbs that have bent out and come to rest on the ground around it. No tree register we checked lists it, and the reader gave no name, age or measurement. Yews are notoriously hard to date, because their trunks hollow and their growth slows, so even a measured girth would only give a rough range. We have left its age open rather than guess. We have also not confirmed who owns the woodland, so check the paths before you go. Market Bosworth itself is a small market town in western Leicestershire, a few kilometres from the site of the Battle of Bosworth in 1485.",
+  "faq": [
+    {
+      "q": "How old is the Market Bosworth yew?",
+      "a": "Nobody has published an age. Its shape suggests a very old tree, but yews are hard to date and we have left it open."
+    },
+    {
+      "q": "What does it look like?",
+      "a": "A broad yew whose trunk is a cluster of twisting, fused stems, with long limbs bending down to the ground."
+    },
+    {
+      "q": "Who found it?",
+      "a": "A reader, who photographed it with a GPS fix and sent it through the app."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It stands in woodland at the edge of the town by the country park. We have not confirmed the ground is open, so check the paths first."
+    }
+  ]
+}

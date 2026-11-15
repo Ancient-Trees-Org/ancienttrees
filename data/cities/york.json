@@ -71,7 +71,7 @@
       "location": {
         "address": "York Museum Gardens, Museum Street, York YO1 7FR",
         "latitude": 53.961063,
-        "longitude": -1.0870183,
+        "longitude": -1.087018,
         "neighbourhood": "York city centre"
       },
       "story": "The Cut-Leaved Hornbeam's trunk is hollow, its canopy hangs low enough to brush the grass, and the whole tree curls into itself rather than growing straight up, more contorted shrub than the neat street tree hornbeams usually become. That shape earned it a place on the Tree Register's list of Yorkshire county champions, the largest recorded example of its cultivar in the county. Ordinary hornbeam wood is famously hard, historically turned into butchers' blocks and mallets because almost nothing else in an English wood could take that kind of daily battering, and this specimen's finely cut, deeply serrated leaves are the whole reason a gardener chose this cultivar over the plain species when the Yorkshire Philosophical Society was planting out its new grounds around the ruins of St Mary's Abbey in the nineteenth century. In autumn its leaves turn a rich golden brown, and the hollow trunk, rather than weakening the tree, has become one of its most photographed features, a reminder that hollowing out is something old trees do to survive, not a sign they are dying. It stands among the garden's roughly 80 to 150 year old champions, part of a small cluster of record-holding trees inside a single city garden.",
@@ -83,20 +83,42 @@
       "access": "Free, no ticket needed (York Museums Trust asks for donations). Main gardens open daily 9am to 6pm; the Artists' Garden 10:30am to 4:30pm. No toilets in the gardens.",
       "transport": "10 min walk from York railway station",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/A_tree_in_the_Museum_Gardens%2C_York_-_geograph.org.uk_-_8293960.jpg",
-        "license": "CC BY-SA 2.0",
-        "attribution": "habiloid, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/yor_002-the-cut-leaved-hornbeam-308bdeb2.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2032,
-        "height": 2535,
-        "taken_month": 4
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_a34305df524a02846d85ddf5",
+        "sighting_id": "308bdeb2-c35d-42ec-9bad-357b10a5f0b5",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The cut-leaved hornbeam's hollow fluted trunk and its long low arching limb in the Museum Gardens, with the old stone wall behind. Good daylight view. Species seen: Hornbeam: grey fluted muscular bark, serrated pleated leaves. Fits the description: Hollow split trunk, a limb curving low toward the grass, planted bed and the medieval wall of York Museum Gardens behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Same two-source basis as the Willow-Leaved Ash. Coordinates: the only 'Hornbeam' record in the Woodland Trust's Ancient Tree Inventory within the garden's footprint sits at this point (girth 2.5m, in the range of the champion's measured 2.14m); a plausible lead, not a confirmed identification, hence approximate. A CC-BY iNaturalist Carpinus betulus photo taken just south of the garden was checked and declined: its leaves are the ordinary, uncut form, not this cultivar's deeply incised leaves, so it is a different tree.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by a hollow trunk and a low, curling canopy that brushes the grass, with finely cut, deeply serrated leaves. It stands among York Museum Gardens' cluster of champion trees.",
       "girth_cm": 214,
-      "height_m": 13
+      "height_m": 13,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/A_tree_in_the_Museum_Gardens%2C_York_-_geograph.org.uk_-_8293960.jpg",
+          "license": "CC BY-SA 2.0",
+          "attribution": "habiloid, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2032,
+          "height": 2535,
+          "taken_month": 4
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "308bdeb2-c35d-42ec-9bad-357b10a5f0b5",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "yor_003",
@@ -107,8 +129,8 @@
       "age_max": 150,
       "location": {
         "address": "York Museum Gardens, Museum Street, York YO1 7FR",
-        "latitude": 53.9613,
-        "longitude": -1.0865,
+        "latitude": 53.960836,
+        "longitude": -1.086686,
         "neighbourhood": "York city centre"
       },
       "story": "Halfway up the trunk of this beech, at almost exactly two metres, the bark changes: rough and fissured like a pear tree's below the line, smooth and grey like an ordinary beech's above it. That is because it is not one tree but two, grafted together when the Yorkshire Philosophical Society was filling York Museum Gardens with botanical curiosities, and the join has held long enough that the tree now stands nineteen metres tall with a trunk almost three metres round, one of Yorkshire's six Tree Register champions inside these ten acres. Pear bark grafted onto beech rootstock, or the other way round (records from the planting era do not say which), was the kind of horticultural party trick Victorian garden designers liked to show off, proof that a garden could out-engineer nature as easily as display it. Two centuries on, most visitors walk past the graft line without noticing it is there at all, distracted by the ruins of St Mary's Abbey behind it or the river beyond the lawn. Look for the seam in the bark at head height and the whole two-tree history becomes obvious in a way no plaque could improve on.",
@@ -141,7 +163,14 @@
       },
       "how_to_recognise": "You can recognise it by the graft line at about two metres up, rough pear bark below and smooth grey beech bark above. It stands in York Museum Gardens, near the ruins of St Mary's Abbey.",
       "girth_cm": 289,
-      "height_m": 19
+      "height_m": 19,
+      "pin_source": {
+        "kind": "reader moved the pin",
+        "submission": 731,
+        "moved_m": 53,
+        "date": "2026-11-15",
+        "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: published coordinate."
+      }
     },
     {
       "id": "yor_004",

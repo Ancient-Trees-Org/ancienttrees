@@ -277,6 +277,168 @@
      "city_slug": "tamba",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "553ee5be-96b8-4e88-a48a-c7d66825dd68",
+     "tree_id": "ngy_002",
+     "tree_name": "The Camphor of Atsuta Shrine",
+     "city": "Nagoya",
+     "city_slug": "nagoya",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "6a0bf0dd-540d-4452-9c83-80da96a2a7eb",
+     "tree_id": "kyo_002",
+     "tree_name": "The Land Boat Pine",
+     "city": "Kyoto",
+     "city_slug": "kyoto",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_ef526568ae6019eb8bd62688": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "216f76c5-a63d-49dd-a65f-c844261a125e",
+     "tree_id": "oxf_004",
+     "tree_name": "The Pococke Plane",
+     "city": "Oxford",
+     "city_slug": "oxford",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_01e51ab3c21b629be200e5b1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "83ca6e1f-93af-48de-82a5-698ce992b7bc",
+     "tree_id": "bri_016",
+     "tree_name": "The Bundle-planted Sessile Oak, Bishops Knoll",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_e3c1300149c1256c54642733": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "137b17f1-9f95-420c-a56a-47dc3894ad22",
+     "tree_id": "sal_001",
+     "tree_name": "The Hundred-Horse Chestnut",
+     "city": "Sant'Alfio",
+     "city_slug": "santalfio",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_f1ffab703af7193c41011b93": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "16e3ea1f-de46-43eb-b9da-8741d5212cd6",
+     "tree_id": "mtn_001",
+     "tree_name": "Stara Maslina (Old Olive Tree of Mirovica)",
+     "city": "Bar",
+     "city_slug": "bar",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_5329d52ff075fc126d002f6b": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76",
+     "tree_id": "frn_001",
+     "tree_name": "Waverley Abbey Yew",
+     "city": "Farnham",
+     "city_slug": "farnham",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_347edd6d240a141462bb5d4a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c2491ee0-e011-490f-9f9a-42e8c90f9f92",
+     "tree_id": "gor_001",
+     "tree_name": "The Autograph Tree",
+     "city": "Gort",
+     "city_slug": "gort",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_e330bf07c42b65d7f56108c1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d8741ffa-ffe6-42a8-ae19-7d788689baa5",
+     "tree_id": "pal_001",
+     "tree_name": "The Ficus of Piazza Marina",
+     "city": "Palermo",
+     "city_slug": "palermo",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_53e5eeacd2e1f82aeabf0d49": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "885730b7-88ca-40a6-9a30-0f36ad6990c0",
+     "tree_id": "dnk_002",
+     "tree_name": "The Birnam Oak",
+     "city": "Dunkeld",
+     "city_slug": "dunkeld",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e",
+     "tree_id": "dnk_002",
+     "tree_name": "The Birnam Oak",
+     "city": "Dunkeld",
+     "city_slug": "dunkeld",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_a34305df524a02846d85ddf5": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "308bdeb2-c35d-42ec-9bad-357b10a5f0b5",
+     "tree_id": "yor_002",
+     "tree_name": "The Cut-Leaved Hornbeam",
+     "city": "York",
+     "city_slug": "york",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []

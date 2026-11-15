@@ -57,14 +57,28 @@
       "transport": "Rural: about 4 km from Gort by road; Bus Eireann route 434 / Gort town then taxi or car; roughly 50-70 min door to door from Galway city (Aug 2026 check in CURATION-2026-08).",
       "how_to_recognise": "You can recognise it by the initials carved into its bark and the plaque at its base that names them. It is the purple-leaved beech just beyond the red gates of the walled garden.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gor_001-the-autograph-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 681,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_347edd6d240a141462bb5d4a",
+        "sighting_id": "c2491ee0-e011-490f-9f9a-42e8c90f9f92",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The Autograph Tree at Coole: the beech inside its tall iron cage with the plaque at its base. Note the leaves read green, not purple, in this spring light; worth a check of the copper beech label. Species seen: European beech: smooth grey bark with moss, beech leaves on fine twigs; leaves look green rather than copper here. Fits the description: Beech trunk enclosed in a protective circular railing with a plaque at its base, on a gravel path by a lawn, as the Autograph Tree is.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "ai_generated",
-      "verify_notes": "Species: coolepark.ie says mature copper beech already mature when Yeats carved his initials in 1898 at Lady Gregory's request; Wikipedia: initials of Yeats, Edward Martyn, Shaw, Synge, Rossi, Sean O'Casey. thisisgalway.ie (23 Apr 2025, updated 5 Feb 2026) lists Yeats, Synge, O'Casey, Shaw, Spicer-Simson, Countess of Cromartie, Elinor Monsell, Jack B. Yeats, Lady Gregory; calls it about 200 years old and 'just beyond the red gates of the Walled Garden'. Age: no figure from the owner; register band 150-200 in 2009 (so roughly 165-215 now); the 160 vs 200 year figures in popular pages are unsourced. Alive: Coole page modified 2026-03-17 still presents it; thisisgalway.ie article 2025/2026; an unverified older page mentions a protective fence around the trunk (not confirmed by the park page; enclosure open/closed unknown, treat access as 'view from the fence if needed'). A plaque at the base helps identify the carvings; some are fading as the bark heals (coolepark.ie). Pin: register record 221 at 53.09508,-8.8361 (precision 100 m) lies 20 m from the NIAH walled garden centroid (Reg 30412205, ITM-converted 53.09527,-8.83628), so it is the walled-garden beech; NIAH lists 'Autograph Tree' inside the garden. Discover Ireland's map link (53.09256,-8.83795) is the visitor centre, not the tree. No tree girth/height published. Recognition line candidate: the purple-leaved beech inside the walled garden whose bark holds the carved initials of Irish Revival writers, with a plaque at its base. Story hooks: Yeats carved first in 1898; the signatures are history, never an invitation to carve or touch. Also in walled garden (not separate trees): row of upright Irish yews (female clones) sheltering hothouses. Official source = owner of ground (NPWS). Fully free; 'flagged' not needed."
+      "verify_notes": "Species: coolepark.ie says mature copper beech already mature when Yeats carved his initials in 1898 at Lady Gregory's request; Wikipedia: initials of Yeats, Edward Martyn, Shaw, Synge, Rossi, Sean O'Casey. thisisgalway.ie (23 Apr 2025, updated 5 Feb 2026) lists Yeats, Synge, O'Casey, Shaw, Spicer-Simson, Countess of Cromartie, Elinor Monsell, Jack B. Yeats, Lady Gregory; calls it about 200 years old and 'just beyond the red gates of the Walled Garden'. Age: no figure from the owner; register band 150-200 in 2009 (so roughly 165-215 now); the 160 vs 200 year figures in popular pages are unsourced. Alive: Coole page modified 2026-03-17 still presents it; thisisgalway.ie article 2025/2026; an unverified older page mentions a protective fence around the trunk (not confirmed by the park page; enclosure open/closed unknown, treat access as 'view from the fence if needed'). A plaque at the base helps identify the carvings; some are fading as the bark heals (coolepark.ie). Pin: register record 221 at 53.09508,-8.8361 (precision 100 m) lies 20 m from the NIAH walled garden centroid (Reg 30412205, ITM-converted 53.09527,-8.83628), so it is the walled-garden beech; NIAH lists 'Autograph Tree' inside the garden. Discover Ireland's map link (53.09256,-8.83795) is the visitor centre, not the tree. No tree girth/height published. Recognition line candidate: the purple-leaved beech inside the walled garden whose bark holds the carved initials of Irish Revival writers, with a plaque at its base. Story hooks: Yeats carved first in 1898; the signatures are history, never an invitation to carve or touch. Also in walled garden (not separate trees): row of upright Irish yews (female clones) sheltering hothouses. Official source = owner of ground (NPWS). Fully free; 'flagged' not needed.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c2491ee0-e011-490f-9f9a-42e8c90f9f92",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     }
   ]
 }

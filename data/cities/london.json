@@ -2087,6 +2087,48 @@
         "date": "2026-11-15",
         "note": "Ancient Tree Inventory grid reference TQ15499260, converted to WGS84."
       }
+    },
+    {
+      "id": "lon_052",
+      "name": "The Gnarled Beech of Hampstead Heath",
+      "species": "European Beech (Fagus sylvatica)",
+      "location": {
+        "address": "Hampstead Heath, London NW3",
+        "latitude": 51.5635667,
+        "longitude": -0.17213,
+        "neighbourhood": "Hampstead"
+      },
+      "story": "The base of this beech has split open into a dark hollow you could crouch inside, and above it the trunk rises fluted and buttressed into a fan of heavy limbs. A reader standing at it on Hampstead Heath in autumn sent it to us with three words: \"Amazing gnarley trunk\". The photograph backs them up.\n\nOld beeches age like this. Their bark stays smooth but the wood inside rots away, the base opens up, and the tree carries on as a shell, often for a long time. This one still has a full crown turning gold, and the ground around it is deep in its own leaves.\n\nWe have no name for it, no age and no measurement, and no register we checked lists it. The Heath has many veteran beeches, so look for the hollow at the foot and the low rope fence around it, at the point on the map where the reader stood. The Heath is free and open every day. If you know this tree's story, or have put a tape round it, tell us.",
+      "how_to_recognise": "A veteran beech in woodland on Hampstead Heath with a large dark hollow split open at its base, a fluted grey trunk and a low rope fence around it.",
+      "verified_sources": [
+        "A reader's photograph through the app, 2026-11-15, with a GPS fix standing at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 733) as 'European Beech in London', note 'Amazing gnarley trunk', GPS standing at the tree on Hampstead Heath. No register entry within 100 m. Published on the 2026-10-21 rule.",
+      "access": "Free, on Hampstead Heath, open every day.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ba79d4e725f3f8a59bf76f41",
+        "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole beech with its hollow base in autumn colour, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
     }
   ]
 }

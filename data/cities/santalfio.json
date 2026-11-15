@@ -52,10 +52,17 @@
       "access": "Free, no entry cost, open all year (comune.santalfio.ct.it, last updated 2026-03-26). Some steps at the entrance may not suit wheelchair users.",
       "transport": "On Etna's eastern slope above Sant'Alfio, about 30km from Catania and 19km from Taormina. Roughly 45 minutes to an hour by car via the SP59/mountain roads; no practical public transport connection, so a car or taxi is the realistic way to reach it.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_e3c1300149c1256c54642733",
+        "sighting_id": "137b17f1-9f95-420c-a56a-47dc3894ad22",
+        "note": "Photographed by a reader and sent through the app (2026-09-09); a viewing pass approved it on 2026-11-15: The Hundred-Horse Chestnut behind its rope fence, the ancient split trunk with a pale dead limb at the centre and chestnut burrs in the foreground. The extra file is the better view of the stems but only the main file publishes. Species seen: Sweet chestnut: long serrated lanceolate leaves, spiny green burrs, deeply furrowed spiralling bark. Fits the description: Enormous broken multi-stemmed trunk inside a rope fence on a dry slope with a path and a paling fence, as at Sant'Alfio.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "location_precision": "confirmed",

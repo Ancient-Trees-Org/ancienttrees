@@ -170,11 +170,11 @@
       "age_max": 390,
       "location": {
         "address": "Pococke Garden, Christ Church, St Aldate's, Oxford OX1 1DP",
-        "latitude": 51.750426,
-        "longitude": -1.255422,
+        "latitude": 51.75,
+        "longitude": -1.253883,
         "neighbourhood": "City centre"
       },
-      "story": "Edward Pococke spent years in Aleppo and Constantinople as an Oxford scholar sent to master Arabic manuscripts, and returned in 1636 to become the university's first Regius Professor of Hebrew and Laudian Professor of Arabic. Tradition holds that he brought back more than languages: a seed of Oriental Plane, a species barely known in England at the time, which he planted in what is now Christ Church's Pococke Garden. The tree that stands there today has a girth approaching nine metres, by most measures the thickest and, by extension, oldest Oriental Plane recorded in Britain. Its own growth pattern complicates the story it is credited with, though: the shape and growth rate documented since the early 1900s suggest the visible tree may actually be a rooted layer, a branch that touched the ground, took root, and grew into what looks like a separate trunk, dating from around the mid-18th century rather than being Pococke's original 1636 planting itself. Whether it is the original tree or its own regrown descendant standing in the same spot, it has anchored the same corner of the garden for at least two and a half centuries. Lewis Carroll, an Oxford mathematics don for most of his career, is thought to have drawn on it for the Tumtum tree in his poem Jabberwocky, the one the Jabberwock supposedly rests beneath.",
+      "story": "Edward Pococke spent years in Aleppo and Constantinople as an Oxford scholar sent to master Arabic manuscripts, and returned in 1636 to become the university's first Regius Professor of Hebrew and Laudian Professor of Arabic. Tradition holds that he brought back more than languages. He brought a seed of Oriental Plane, a species barely known in England at the time, which he planted in what is now Christ Church's Pococke Garden. The tree that stands there today has a girth approaching nine metres, by most measures the thickest and, by extension, oldest Oriental Plane recorded in Britain. Its own growth pattern complicates the story it is credited with, though. The shape and growth rate documented since the early 1900s suggest the visible tree may actually be a rooted layer, a branch that touched the ground, took root, and grew into what looks like a separate trunk, dating from around the mid-18th century rather than being Pococke's original 1636 planting itself. Whether it is the original tree or its own regrown descendant standing in the same spot, it has anchored the same corner of the garden for at least two and a half centuries. Lewis Carroll, an Oxford mathematics don for most of his career, is thought to have drawn on it for the Tumtum tree in his poem Jabberwocky, the one the Jabberwock supposedly rests beneath.",
       "verified_sources": [
         "https://www.treesandshrubsonline.org/articles/platanus/platanus-orientalis/",
         "https://www.monumentaltrees.com/en/gbr/england/oxfordshire/9347_christchurchcollege/"
@@ -182,15 +182,29 @@
       "access": "Paid admission to Christ Church (Pococke Garden viewable as part of the college visit)",
       "transport": "12 min walk from Oxford railway station",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/oxf_004-the-pococke-plane.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 4,
+        "source": "contributor",
+        "contributor_user_id": "p_ef526568ae6019eb8bd62688",
+        "sighting_id": "216f76c5-a63d-49dd-a65f-c844261a125e",
+        "note": "Photographed by a reader and sent through the app (2023-04-19); a viewing pass approved it on 2026-11-15: The Pococke Plane in spring, its long sprawling limbs resting on green props over a bluebell lawn inside the college wall. The tree fills the frame in daylight; the extra view from the other side is the stronger card but only the main file publishes. Species seen: Plane: pale flaking mottled bark, hanging round seed balls, twisting heavy limbs; consistent with oriental plane. Fits the description: Massive low trunk with limbs layering outwards on many timber props, in a walled garden corner with old stone college buildings behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Treesandshrubsonline.org (International Dendrology Society's reference site, an independent authoritative horticultural source) corroborates the Pococke planting legend, the 'oldest Oriental Plane in the UK' claim, and the layered-regrowth theory in the same terms as secondary tourism summaries, giving genuine independent corroboration beyond monumentaltrees.com (checked for verification only per hard rule 1, never copied: girth 8.42m at 60cm height, measured 2014). Age range reflects the honest uncertainty over which planting event the standing tree dates to: 270 years (mid-18th-century regrowth theory) to 390 years (1636 original, if the regrowth theory is wrong). The Lewis Carroll/Jabberwocky connection is presented as attributed tradition, not fact, consistent with how the project treats similar literary legends elsewhere.",
-      "location_precision": "approximate",
-      "how_to_recognise": "You can recognise it by the trunk, approaching nine metres round, the thickest oriental plane recorded in Britain. It anchors its own corner of the Pococke Garden."
+      "location_precision": "confirmed",
+      "how_to_recognise": "You can recognise it by the trunk, approaching nine metres round, the thickest oriental plane recorded in Britain. It anchors its own corner of the Pococke Garden.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "216f76c5-a63d-49dd-a65f-c844261a125e",
+        "moved_m": 116,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "oxf_005",

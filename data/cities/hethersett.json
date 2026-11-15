@@ -1,0 +1,77 @@
+{
+  "city": "Hethersett",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Hethersett, a village just south-west of Norwich, has Kett's Oak on the verge of the old road to Wymondham. By tradition the brothers Robert and William Kett addressed their followers under it in 1549, at the start of Kett's Rebellion. It is one of the Tree Council's 50 Great British Trees, held together by iron bands and a timber prop, and free to see from the verge.",
+  "meta_description": "Kett's Oak, Hethersett: where Robert Kett is said to have rallied the rebels of 1549, one of the 50 Great British Trees.",
+  "hero_tree_id": "hth_001",
+  "oldest_tree_id": "hth_001",
+  "trees": [
+    {
+      "id": "hth_001",
+      "name": "Kett's Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "location": {
+        "address": "Verge of the B1172 between Hethersett and Wymondham, Norfolk",
+        "latitude": 52.58776,
+        "longitude": 1.15615,
+        "neighbourhood": "Hethersett"
+      },
+      "story": "In 1549, by tradition under this oak, the brothers Robert and William Kett spoke to the men who would follow them into Kett's Rebellion, a rising against the enclosure of common land and the cost of living. The rebels went on to take Norwich. The rebellion failed, and both brothers were hanged.\n\nThe reader who sent it to us put it in their own words. This is where the Ketts \"addressed their followers in 1549 ahead of what became Kett's Rebellion\". The Norfolk Heritage Explorer records it as a veteran oak reputed locally to be that tree, and in 2002 the Tree Council chose it as one of the 50 Great British Trees for the Queen's Golden Jubilee. Whether this trunk is the very one the Ketts stood under, nobody can prove, and nobody has published its age.\n\nIt has had help staying up. A split in the trunk was filled with cement, iron bands hold it together, a timber prop takes the weight of a long limb, and in 2020 Norfolk County Council treated its roots with biochar. It stands behind railings on the grass verge of the old road, easy to see as you pass, with fields beyond.",
+      "how_to_recognise": "A broad, leaning oak behind black railings on the verge of the B1172, one long limb held up by a timber A-frame prop, with an information board at its foot.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Kett%27s_Oak",
+        "https://nhe.esdm.co.uk/Monument/MNF9451",
+        "https://en.wikipedia.org/wiki/Great_British_Trees",
+        "A reader's photograph and note through the app, 2026-11-15, with a GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submissions 723 and 725, same account, same fix; 725 carried the photograph, 723 the note). Wikipedia: English oak beside the B1172 between Wymondham and Hethersett, one of the 50 Great British Trees, traditional site of the Ketts' address in 1549; poor condition, split filled with cement, iron bands (Norfolk Heritage Explorer), biochar applied to the roots by Norfolk County Council in August 2020. NHER 9451: veteran oak reputed locally to be the tree. No age published.",
+      "access": "Free, on the grass verge of the B1172 behind railings; take care with traffic.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hth_001-ketts-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_664d50650493d694066a41f5",
+        "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole oak on its verge with railings and prop, overcast daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "Kett's Oak near Hethersett, Norfolk: the 1549 rebellion story, its condition, and where to see it.",
+  "question_answer": "Kett's Oak is a veteran English oak on the B1172 verge between Hethersett and Wymondham in Norfolk. By tradition Robert and William Kett addressed their followers there in 1549, beginning Kett's Rebellion. It is free to see from the roadside.",
+  "question_context": "Kett's Rebellion of 1549 was a rising in Norfolk against the enclosure of common land and the rising cost of living. Local tradition holds that the brothers Robert and William Kett addressed the men who joined them under this oak on the road between Wymondham and Hethersett, before the rebels marched on Norwich. The rebellion was crushed and both brothers were hanged. The Norfolk Heritage Explorer records the tree as a veteran oak reputed locally to be the one, and in 2002 the Tree Council named it among the 50 Great British Trees for the Queen's Golden Jubilee. No age has been published, and there is no proof this is the original tree. It is in poor condition: a split in the trunk has been filled with cement, iron bands bind it, a timber prop supports a long limb, and Norfolk County Council treated its roots with biochar in 2020. It stands behind railings on the grass verge, beside a busy road.",
+  "faq": [
+    {
+      "q": "Why is it called Kett's Oak?",
+      "a": "By tradition Robert and William Kett addressed their followers under it in 1549, at the start of Kett's Rebellion."
+    },
+    {
+      "q": "How old is Kett's Oak?",
+      "a": "No age has been published, and nobody can prove it is the original 1549 tree."
+    },
+    {
+      "q": "Is it a Great British Tree?",
+      "a": "Yes. The Tree Council chose it as one of the 50 Great British Trees in 2002."
+    },
+    {
+      "q": "Where is it?",
+      "a": "On the grass verge of the B1172 between Hethersett and Wymondham, behind railings."
+    }
+  ]
+}

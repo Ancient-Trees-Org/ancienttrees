@@ -50,15 +50,17 @@
       "access": "Free, public square (Piazza Marina / Giardino Garibaldi)",
       "transport": "15 min walk from Palermo Centrale station, near the historic harbour",
       "photo": {
-        "url": "https://ancienttrees.app/photos/pal_001-the-ficus-of-piazza-marina.jpg",
-        "license": "Ancient Trees' own photograph, all rights reserved",
+        "url": "https://ancienttrees.app/photos/pal_001-the-ficus-of-piazza-marina-d8741ffa.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
-        "height": 1600,
-        "taken_month": 10,
-        "source": "mine",
-        "note": "Our own photograph, taken 2026-10-15 from the pavement outside the railings, a person in front for scale; Hidde says it is this tree (2026-10-24, 'just add it'). No GPS in the file. Looked at: daylight, colour, the crown and the aerial-root trunk fill the frame. Uncredited, never named. The Commons photograph that led before moved into the strip."
+        "width": 579,
+        "height": 833,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_e330bf07c42b65d7f56108c1",
+        "sighting_id": "d8741ffa-ffe6-42a8-ae19-7d788689baa5",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The Piazza Marina fig's colonnade of aerial-root trunks with iron railings and the square's stone buildings behind. Small file but clearly this tree. Species seen: Ficus: smooth pale grey trunks, hanging and fused aerial roots, large leathery leaves. Fits the description: Thicket of secondary trunks and aerial roots under a broad crown, inside the garden railings in the piazza.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Location taken directly from Italy's official AMI national monumental-trees register (read with a purpose-built binary XLS parser), confirmed. Age and history corroborated by Italian Wikipedia and Il Post's March 2026 report on the tree's declining health, which is the source for the disease details in the story; this is a live, evolving situation, worth a status recheck on future passes. The circumference figure is genuinely disputed between sources (20m vs 36m), presented as such rather than picking one. The 'largest tree in Europe' superlative sometimes attached to this tree is deliberately not used here per hard rule 8, since the Orto Botanico's own ficus (pal_003) carries a more specifically sourced canopy-area superlative that would conflict with it. Photo viewed directly: an unmistakable mature Ficus macrophylla with a dense forest of aerial roots and secondary trunks behind an ornamental iron fence, matching the square and story exactly.",
@@ -72,6 +74,17 @@
         "url": null
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pal_001-the-ficus-of-piazza-marina.jpg",
+          "license": "Ancient Trees' own photograph, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 10,
+          "source": "mine",
+          "note": "Our own photograph, taken 2026-10-15 from the pavement outside the railings, a person in front for scale; Hidde says it is this tree (2026-10-24, 'just add it'). No GPS in the file. Looked at: daylight, colour, the crown and the aerial-root trunk fill the frame. Uncredited, never named. The Commons photograph that led before moved into the strip."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fico_magnolioide%2C_Piazza_Marina%2C_Palermo.jpg",
           "license": "CC BY-SA 4.0",

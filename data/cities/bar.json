@@ -56,10 +56,17 @@
       "curation_status": "flagged",
       "verify_notes": "Day trip from Kotor, about 1 h by road; label as Bar / Mirovica. Headline tree of Montenegro. Age: Istanbul University forestry scientists estimate about 2,247 years (Olive Oil Times); Novosti says 2,248; RFE/RL Jan 2024 says 'more than 2,200'; Wikipedia and tourist pages say 'over 2,000' (tradition). Treat as an estimate, olives hollow and cannot be ring-counted. Girth about 10 m (Novosti, myguidemontenegro); Nova.rs search snippet said 11 m, not seen on a fetched page. Protection: Novosti says protected in 1963 under the former SFRJ and in early January 2021 declared a Monument of Nature, category 'group of very old trees'; the decision text and issuing body were not found, so the official register link is not recorded (flagged: no official document seen). Condition: in 2023 the municipality found parts of the crown drying; cause argued over (high groundwater, concrete ring and walls round the roots per the Bar Olive Growers Association, Alkovic); expert commission formed Aug 2023, drainage works under way (Novosti, RFE/RL 2024). One side of the trunk burnt, folklore says by a dropped match (Wikipedia, citation needed). Pin: OSM natural=tree node 2269422377 named Stara Maslina at 42.0801656, 19.1294078, matches the Wikipedia coordinate 42 04 48 N 19 07 46 E; single enclosed tree, one clear crown. Alive: lifecheck.py reports RECENT, iNaturalist observation 2026-10-23. Entry fee reported 1 EUR by a travel guide (secondary), say 'about'.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mtn_001-stara-maslina-old-olive-tree-of-mirovica.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 4,
+        "source": "contributor",
+        "contributor_user_id": "p_f1ffab703af7193c41011b93",
+        "sighting_id": "16e3ea1f-de46-43eb-b9da-8741d5212cd6",
+        "note": "Photographed by a reader and sent through the app (2026-04-22); a viewing pass approved it on 2026-11-15: The Stara Maslina in full, its hollow, charred and many-stemmed trunk under a grey-green crown in its stone-benched park. Daylight under cloud; extras are a second tree view plus the park's sign and age certificate (BAR17), which confirm the tree. Species seen: Olive: narrow grey-green leaves, gnarled pitted and hollowed trunk. Fits the description: Huge multi-stemmed olive trunk with burnt, hollowed sections, alone in a small fenced park with curved stone seating; the sign reads Stara Maslina.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

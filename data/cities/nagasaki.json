@@ -1,0 +1,81 @@
+{
+  "city": "Nagasaki",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Nagasaki's best-known trees are the two camphors at Sannō Shrine in Sakamoto, which the atomic bomb of 9 August 1945 stripped bare, scorched and split. They grew back, and the city made them a natural monument in 1969. They stand on either side of the shrine steps, their crowns meeting overhead, a short uphill walk from Urakami Station. Seeing them costs nothing.",
+  "meta_description": "The A-bombed camphor trees of Sannō Shrine, Nagasaki: stripped by the 1945 bomb, alive again, a natural monument since 1969.",
+  "hero_tree_id": "ngs_001",
+  "oldest_tree_id": "ngs_001",
+  "trees": [
+    {
+      "id": "ngs_001",
+      "name": "The A-bombed Camphors of Sannō Shrine",
+      "species": "Camphor Tree (Cinnamomum camphora)",
+      "location": {
+        "address": "Sannō Shrine, 2-6-56 Sakamoto, Nagasaki",
+        "latitude": 32.7674833,
+        "longitude": 129.86775,
+        "neighbourhood": "Sakamoto, Urakami"
+      },
+      "story": "On 9 August 1945 the atomic bomb that fell on Nagasaki stripped these two camphor trees of every leaf, scorched them and cracked their trunks. They stand on either side of the stone steps up to Sannō Shrine, and they did not die. Within a couple of years new shoots came, and today their crowns meet over the steps again.\n\nThe reader who photographed them for us wrote that the trees, left on the brink of death, came back \"to encourage the atomic bomb survivors as they worked towards reconstruction from the scorched wasteland\", and that they are \"beloved as a symbol of peace and regeneration\". Nagasaki City made them a natural monument on 15 February 1969 because they survived the bombing.\n\nHow old they are is less certain. Published estimates run from 400 to 600 years and none of them comes from an official survey, so take several centuries as the honest answer. Look closely at the trunk of the larger tree and you can still see where it split.\n\nThe shrine is a few minutes on foot from Urakami Station, uphill from the hypocentre, and the steps between the two trees are free to climb.",
+      "how_to_recognise": "Two huge camphor trees on either side of the stone steps up to Sannō Shrine, a straw rope hung between them, their crowns meeting over the stairs.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Sann%C5%8D_Shrine",
+        "https://www.discover-nagasaki.com/en/sightseeing/62276",
+        "https://artsandculture.google.com/asset/%E5%B1%B1%E7%8E%8B%E7%A5%9E%E7%A4%BE/swE1KgpP4Jm7-g",
+        "A reader's photograph and note through the app, 2026-11-15, with a GPS fix at the steps"
+      ],
+      "found_by_reader": {
+        "sighting_id": "60daa5db-07e5-48d7-be3d-04c5684d70a7",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 722) with a long note on the bombing and recovery, quoted in part. Wikipedia: natural monument of Nagasaki City since 1969-02-15, two large camphors scorched and stripped by the blast. Discover Nagasaki: designated natural monument; 2-6-56 Sakamoto; 10 minutes on foot from JR Urakami. Google Arts & Culture: 400 to 500 years, over 20 m tall, diameter 8 m and 6 m (likely crown or misread girth; not used). A 2018 blog says 500 to 600 years. Age left as a range of published estimates.",
+      "access": "Free, at the foot of the steps up to Sannō Shrine, about ten minutes on foot from Urakami Station.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ngs_001-the-a-bombed-camphors-of-sanno-shrine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "60daa5db-07e5-48d7-be3d-04c5684d70a7",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the two camphors over the shrine steps with the straw rope between them, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "60daa5db-07e5-48d7-be3d-04c5684d70a7",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      },
+      "age_estimate": "several centuries; published estimates run from 400 to 600 years",
+      "age_min": 400,
+      "age_max": 600,
+      "age_basis": "source"
+    }
+  ],
+  "question_meta": "The A-bombed camphor trees of Sannō Shrine in Nagasaki: what happened in 1945, how old they are, and how to find them.",
+  "question_answer": "The famous trees of Nagasaki are the two camphor trees at Sannō Shrine in Sakamoto, in the Urakami valley. The atomic bomb of 9 August 1945 stripped and scorched them, but they recovered and have been a natural monument of Nagasaki City since 1969. They are free to visit.",
+  "question_context": "When the atomic bomb exploded over the Urakami valley on 9 August 1945, the blast and heat stripped every leaf from the two great camphor trees that flank the steps of Sannō Shrine, scorched their bark and split their trunks. They were expected to die. Instead new shoots appeared within a few years, and the trees became a sign of recovery for the people rebuilding the city around them. Nagasaki City designated them a natural monument on 15 February 1969 because they survived the bombing. Their age is not settled: published estimates range from 400 to 600 years, none from an official survey. The trees stand at the foot of the stone stairs up to the shrine in Sakamoto, a walk of about ten minutes from JR Urakami Station, and their crowns now meet again above the steps. There is no fee to see them. Look for the split still visible in the trunk of the larger tree.",
+  "faq": [
+    {
+      "q": "What happened to the camphor trees in 1945?",
+      "a": "The atomic bomb stripped them of their leaves, scorched them and split their trunks. They recovered over the following years."
+    },
+    {
+      "q": "How old are the Sannō Shrine camphors?",
+      "a": "Several centuries. Published estimates run from 400 to 600 years, with no official survey behind them."
+    },
+    {
+      "q": "Are they protected?",
+      "a": "Yes. Nagasaki City designated them a natural monument on 15 February 1969."
+    },
+    {
+      "q": "How do I get there?",
+      "a": "Walk about ten minutes from JR Urakami Station to Sannō Shrine in Sakamoto; the trees flank the steps."
+    }
+  ]
+}

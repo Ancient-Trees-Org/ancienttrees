@@ -107,13 +107,17 @@
       "access": "Free, shrine grounds open daily",
       "transport": "Meitetsu Jingu-mae or subway Jingu-nishi, about 5 minutes on foot",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camphor_Tree_in_Atsuta-jingu_Shrine_Keidai%2C_Jingu_1-chome_Atsuta_Ward_Nagoya_2023.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Tomio344456, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/ngy_002-the-camphor-of-atsuta-shrine-553ee5be.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1500,
-        "height": 1500,
-        "taken_month": 2
+        "width": 1070,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "553ee5be-96b8-4e88-a48a-c7d66825dd68",
+        "note": "Photographed by a reader and sent through the app (2026-09-13); a viewing pass approved it on 2026-11-15: The Atsuta camphor with its mossy burl at the base, shimenawa rope and shide, sign and wooden fence. A fine full-height view for the strip. Species seen: Camphor: glossy oval evergreen leaves, rough fissured grey-brown bark heavy with moss and ferns. Fits the description: Huge trunk with a green moss-covered burl at the foot, old scars, sacred rope, behind a shrine fence among the precinct's woods.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -122,7 +126,18 @@
       "official_register": {
         "name": "Giant Tree and Giant Forest Database (Ministry of the Environment)",
         "url": "https://kyoju.biodic.go.jp/?_action=gtsearchdetail&report_id=79211&branch_number=1"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camphor_Tree_in_Atsuta-jingu_Shrine_Keidai%2C_Jingu_1-chome_Atsuta_Ward_Nagoya_2023.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Tomio344456, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1500,
+          "height": 1500,
+          "taken_month": 2
+        }
+      ]
     },
     {
       "id": "ngy_003",

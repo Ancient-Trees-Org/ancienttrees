@@ -53,12 +53,18 @@
       "access": "Free. English Heritage manages Waverley Abbey and admits visitors at any reasonable time during daylight hours, no entrance fee. A roughly 350m walk across a field (uneven ground, a kissing gate, and grazing cattle) leads to the ruins where the yew stands; small on-site car park.",
       "transport": "About a 5 minute walk from the on-site car park; Farnham railway station is roughly 3km away, with the abbey otherwise reached by car or bus plus a short walk.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/frn_001-waverley-abbey-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_5329d52ff075fc126d002f6b",
+        "sighting_id": "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76",
+        "note": "Photographed by a reader and sent through the app (2021-07-27); a viewing pass approved it on 2026-11-15: The Waverley Abbey Yew's base: many stems rising from a mound of roots arching over the ground, under the yew's crown. Daylight, colour, the tree is the whole subject. Species seen: Yew: flat dark-green needles in two ranks, reddish flaking bark on fluted stems and roots. Fits the description: Multi-stemmed yew with a spectacular skirt of raised roots spreading over the ground in open grassland, as described.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "curation_status": "flagged",
       "location_precision": "confirmed"
     }

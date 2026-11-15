@@ -787,6 +787,432 @@
    "agreed": null
   },
   {
+   "id": "lead:60daa5db-07e5-48d7-be3d-04c5684d70a7",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Camphor Tree",
+   "city": null,
+   "species": "Camphor Tree",
+   "photo": "p_9f7b25dda38d08dabcad19bf/60DAA5DB-07E5-48D7-BE3D-04C5684D70A7.jpg",
+   "reader_note": "This massive camphor tree stands firmly rooted at the entrance to the grounds of Sannō Shrine, surrounded by a variety of trees. Its lush, verdant foliage and powerfully towering trunk are truly striking.\n\nIn August 1945 (Shōwa 20), the atomic bomb that detonated over Nagasaki City caused cracks to form in the trunk of this great camphor tree; its branches and leaves were blown away, and it was scorched by the heat rays, leaving it on the brink of death. However, it subsequently miraculously spr",
+   "reader_girth_cm": 658,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.645,
+    "via": "girth",
+    "note": "164% of the genus reference (400 cm, n=1, max 400)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Published as ngs_001, the A-bombed camphors of Sanno Shrine, Nagasaki: reader's photo at their fix; natural monument per Wikipedia and Discover Nagasaki.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0a0cbd5b-d255-4748-a4f8-13cad39a04d7",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_af21cce41a45f566fbeb2637/0A0CBD5B-D255-4748-A4F8-13CAD39A04D7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as mbw_001, a veteran multi-stemmed yew at Market Bosworth: reader's photo at their fix; no age stated.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_664d50650493d694066a41f5/C3BC464B-C6E2-4EF3-8E24-471E4E4E92C1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as hth_001 Kett's Oak, Hethersett: reader's photo at their fix; Great British Tree, NHER 9451.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f3f121f2-3ffa-4cc5-8a06-d06dff70f739",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Japanese Black Pine near Kyoto",
+   "city": null,
+   "species": "Japanese Black Pine",
+   "photo": "p_9f7b25dda38d08dabcad19bf/F3F121F2-3FFA-4CC5-8A06-D06DFF70F739.jpg",
+   "reader_note": "The pine tree at Ukimi-dō stands on the landward side of the bridge leading to the hall, its branches overhanging the bridge. Whilst it is not a particularly large pine, it creates a scene that is an integral part of Ukimi-dō.",
+   "reader_girth_cm": 390,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Black Pine"
+   },
+   "verdict": "publish",
+   "reason": "Published as ots_001, the pine of Ukimido (Katata, Otsu): reader's photo at their fix and their note quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in London",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_ba79d4e725f3f8a59bf76f41/CFD86B34-8ABD-47E1-B301-A3501DFA4A31.jpg",
+   "reader_note": "Amazing gnarley trunk",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Published as lon_052, a hollow veteran beech on Hampstead Heath: reader's photo, GPS standing at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:34c8442d-a040-44ec-8182-989d8d9f1fc5",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_97a54c815334d451d929b481/34C8442D-A040-44EC-8182-989D8D9F1FC5.jpg",
+   "reader_note": "Its size. Widest and tallest I’ve seen in Grenada",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as grn_001, a giant buttressed tree near Mount Horne, Grenada: reader's photo at their fix; species uncertain and said so.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fbdff0d4-6a3b-4bdc-9e85-3a5af160d7df",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore near Media",
+   "city": null,
+   "species": "American Sycamore",
+   "photo": "p_3bb2d9b77f839015a3f92de9/FBDFF0D4-6A3B-4BDC-9E85-3A5AF160D7DF.jpg",
+   "reader_note": "So massive and robust, near an old stone bridge over Crum Creek, Willistown Township, closer to Paoli, not very near Media",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore"
+   },
+   "verdict": "lead",
+   "reason": "Big American sycamore near Crum Creek, Willistown: good photo but the pin was placed by hand, not a GPS fix, and no source names it; waits for a fix or a source.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Wheatley Elm in Edinburgh",
+   "city": null,
+   "species": "Wheatley Elm",
+   "photo": "p_185d898c7855df9e68eaf269/45248B7C-02B4-4B01-BF83-0DD8B4C6FDD5.jpg",
+   "reader_note": "Widest Wheatley Elm in Scotland",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Wheatley Elm"
+   },
+   "verdict": "publish",
+   "reason": "Published as edi_022, a Wheatley elm on a west Edinburgh verge: reader's photo at their fix; 'widest in Scotland' stated as theirs, not confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:3580ef91-02e7-45a1-bd3d-c8b5673e1a72",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Giant sequoia in the heart of Geashill",
+   "city": null,
+   "species": "Giant sequoia (Sequiadendron giganteum)",
+   "photo": "p_7b25aaf5b4d62109ab46ba2c/3580EF91-02E7-45A1-BD3D-C8B5673E1A72.jpg",
+   "reader_note": "Positioned in the heart of the village Green this giant sequoia dates back to 1859.\nAlong with other trees, the Giant Sequoia was likely bought as a seedling from Toole's Nursery, Dublin.\nAlong with enhancing the appearance of the village, the trees planted in the green reduce traffic noise, help purify the air and provide foraging and nesting places for birds.\nIt is also a lovely spot for young and old alike, with picnic tables and the Geashill Cauldron",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant sequoia (Sequiadendron giganteum)"
+   },
+   "verdict": "lead",
+   "reason": "Giant sequoia on Geashill village green, 1859 by the reader: good photo, pin placed by hand; needs a written source before it ships.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fda250f8-3d69-4814-98fe-d2aa828e3ac9",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The King of the Forest",
+   "city": null,
+   "species": "Scots Pine",
+   "photo": "p_e8661eafe6305849ea0e24d7/FDA250F8-3D69-4814-98FE-D2AA828E3AC9.jpg",
+   "reader_note": "One of the largest girthed Scots Pines in the UK. Measured by J D Urquhart in 1883 and Jim Paterson in 1993.",
+   "reader_girth_cm": 660,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Scots Pine"
+   },
+   "verdict": "lead",
+   "reason": "The King of the Forest, a big Scots pine near Scone measured in 1883 and 1993 by the reader's account: good photo, pin placed by hand and moved 1.1 km by a reader; needs a source and a settled pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:3f2218ef-f368-4ec1-95b5-a1ea20e4b7c5",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Scots Pine in Dunkeld",
+   "city": null,
+   "species": "Scots Pine",
+   "photo": "p_b6fef8ab5c2b928985d7f0ce/3F2218EF-F368-4EC1-95B5-A1EA20E4B7C5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 660,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Scots Pine"
+   },
+   "verdict": "hold",
+   "reason": "A phone screenshot of the same photograph as fda250f8 (King of the Forest), from a second account; duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-717",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Ancient eastern plane tree on Çınar Street",
+   "city": null,
+   "species": null,
+   "photo": "p_5042b06d69feca58aa5e2553/27c3c39f-cb36-4804-a025-ea4f7930c3c2.jpg",
+   "reader_note": "Dates at up to 800 years old",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Isparta plane on Cinar Street: the photo shows Isparta Municipality's plaque, age 800, restored 2008; needs a pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-727",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Old Knobbley",
+   "city": null,
+   "species": null,
+   "photo": "p_11d20bd463ba1e2c919aed2f/8dce5c08-b0a2-44e3-ac21-3b7735efa231.jpg",
+   "reader_note": "Has his own website",
+   "reader_girth_cm": 950,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Old Knobbley, Mistley: famous oak with its own website; the photo is a phone screenshot; needs sources and a pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-740",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Tree in Waitangi",
+   "city": null,
+   "species": null,
+   "photo": "p_15a20d1340684e4033e131cd/42ed831e-ade2-4ed9-942b-1d5a7b28bcaf.jpg",
+   "reader_note": "Huge",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Norfolk Island pine on a lawn at Waitangi: fine photo but nothing old or sourced about it and no pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-748",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Great Oriental Plane Tree, Emmanuel College",
+   "city": null,
+   "species": null,
+   "photo": "p_91f2bfb867b1664b26521ade/bcdcdc2a-6e4f-43f9-a0f5-4978d36be9df.jpg",
+   "reader_note": "Huge plane tree tree in Emmanuel College Fellows' Garden with a ring where the branches have reached down to the ground and taken root. Probably planted in either 1802 or 1836. Performances sometimes held under the tree. There is a book about it available on the college website: https://apps.emma.cam.ac.uk/college/publications/files/OrientalPlane.pdf",
+   "reader_girth_cm": 478,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Emmanuel College oriental plane, Cambridge: famous, layered branches; must check the Fellows' Garden is open to visitors (hard rule 10).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-749",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The picture card perfect pines in Connamara",
+   "city": null,
+   "species": null,
+   "photo": "p_347edd6d240a141462bb5d4a/bb5118c8-d976-4dcc-b1ba-a75273e799f6.jpg",
+   "reader_note": "Picturesque setting and mature trees",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Pine Island, Derryclare Lough, Connemara: an ensemble seen from the road; needs a pin at the viewing place and sources.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-751",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Mariam Dearit (also known as the Madonna of the Baobab)",
+   "city": null,
+   "species": null,
+   "photo": "p_9dfcbc9fd964b4dac31308c3/57b5f825-89df-4f23-8ae5-190452958acf.jpg",
+   "reader_note": "Beautiful huge baobab? With a large split and open interior that has become a monastery attracting pilgrims. During ww2 Italian soldiers took refuge in the tree which was struck by a bomb. The bomb landed among them but did not explode enhancing the tree’s reputation as a holy place.",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "lead",
+   "reason": "Mariam Dearit baobab shrine near Keren, Eritrea: reader's tree, so Africa's focus rule does not block it; needs sources and a pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -3613,6 +4039,280 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:60daa5db-07e5-48d7-be3d-04c5684d70a7",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The A-bombed Camphors of Sanno Shrine",
+   "city": "Nagasaki",
+   "photo": "out/sightings/60daa5db-07e5-48d7-be3d-04c5684d70a7.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0a0cbd5b-d255-4748-a4f8-13cad39a04d7",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Market Bosworth Yew",
+   "city": "Market Bosworth",
+   "photo": "out/sightings/0a0cbd5b-d255-4748-a4f8-13cad39a04d7.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Kett's Oak",
+   "city": "Hethersett",
+   "photo": "out/sightings/c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f3f121f2-3ffa-4cc5-8a06-d06dff70f739",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Pine of Ukimido",
+   "city": "Kyoto",
+   "photo": "out/sightings/f3f121f2-3ffa-4cc5-8a06-d06dff70f739.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Gnarled Beech of Hampstead Heath",
+   "city": "London",
+   "photo": "out/sightings/cfd86b34-8abd-47e1-b301-a3501dfa4a31.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:34c8442d-a040-44ec-8182-989d8d9f1fc5",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Giant of Mount Horne",
+   "city": "Grenada",
+   "photo": "out/sightings/34c8442d-a040-44ec-8182-989d8d9f1fc5.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Wheatley Elm of Balgreen",
+   "city": "Edinburgh",
+   "photo": "out/sightings/45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5.jpg",
+   "verdict": "publish",
+   "reason": "Lead photograph of the reader's own new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:216f76c5-a63d-49dd-a65f-c844261a125e",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/216f76c5-a63d-49dd-a65f-c844261a125e.jpg",
+   "verdict": "publish",
+   "reason": "The Pococke Plane in spring, its long sprawling limbs resting on green props over a bluebell lawn inside the college wall. The tree fills the frame in daylight; the extra view from the other side is the stronger card but only the main file publishes.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5419e3e3-fe95-4937-8f7e-bfc23bcdd505",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/5419e3e3-fe95-4937-8f7e-bfc23bcdd505.jpg",
+   "verdict": "hold",
+   "reason": "A big beech on the church lawn beside the Nieuwe Kerk, but its trunk is hidden behind low branches so neither register scar can be seen, and the lawn holds about thirty beeches. Cannot tell it is one of the pair.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:83ca6e1f-93af-48de-82a5-698ce992b7bc",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/83ca6e1f-93af-48de-82a5-698ce992b7bc.jpg",
+   "verdict": "publish",
+   "reason": "A broad old oak crown of heavy twisting limbs, photographed 19 metres from the pin among younger trees. Daylight, in leaf, the tree fills the frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:137b17f1-9f95-420c-a56a-47dc3894ad22",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/137b17f1-9f95-420c-a56a-47dc3894ad22.jpg",
+   "verdict": "publish",
+   "reason": "The Hundred-Horse Chestnut behind its rope fence, the ancient split trunk with a pale dead limb at the centre and chestnut burrs in the foreground. The extra file is the better view of the stems but only the main file publishes.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5568e36a-d957-4799-9ca6-bd3345160d04",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/5568e36a-d957-4799-9ca6-bd3345160d04.jpg",
+   "verdict": "hold",
+   "reason": "Duplicate upload: byte-identical files to sighting 137b17f1 of the same tree, which is approved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bf041a80-69e5-46b7-b32b-256193485efc",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/bf041a80-69e5-46b7-b32b-256193485efc.jpg",
+   "verdict": "hold",
+   "reason": "Duplicate upload: the same image as sighting 16e3ea1f of the Stara Maslina, which is approved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:16e3ea1f-de46-43eb-b9da-8741d5212cd6",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/16e3ea1f-de46-43eb-b9da-8741d5212cd6.jpg",
+   "verdict": "publish",
+   "reason": "The Stara Maslina in full, its hollow, charred and many-stemmed trunk under a grey-green crown in its stone-benched park. Daylight under cloud; extras are a second tree view plus the park's sign and age certificate (BAR17), which confirm the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:58e7b5f6-025f-4687-b50b-e55a25e3d5d2",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/58e7b5f6-025f-4687-b50b-e55a25e3d5d2.jpg",
+   "verdict": "hold",
+   "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f794c1b9-76cf-449c-bc8f-d2db151c4eea",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/f794c1b9-76cf-449c-bc8f-d2db151c4eea.jpg",
+   "verdict": "hold",
+   "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1b533cdf-ddaf-459a-a771-f9c1d8702d78",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/1b533cdf-ddaf-459a-a771-f9c1d8702d78.jpg",
+   "verdict": "hold",
+   "reason": "This is not a ginkgo: smooth grey columnar trunk and a fine crown of small oval leaves, with beech leaves on the path, so most likely a beech near the ginkgo. Wrong tree for this entry.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5b6f9f17-f09e-4c50-abaa-a5126f6ffb76",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/5b6f9f17-f09e-4c50-abaa-a5126f6ffb76.jpg",
+   "verdict": "publish",
+   "reason": "The Waverley Abbey Yew's base: many stems rising from a mound of roots arching over the ground, under the yew's crown. Daylight, colour, the tree is the whole subject.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c2491ee0-e011-490f-9f9a-42e8c90f9f92",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/c2491ee0-e011-490f-9f9a-42e8c90f9f92.jpg",
+   "verdict": "publish",
+   "reason": "The Autograph Tree at Coole: the beech inside its tall iron cage with the plaque at its base. Note the leaves read green, not purple, in this spring light; worth a check of the copper beech label.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0942bd2b-6e73-4443-a4b2-de9c6b4f3028",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/0942bd2b-6e73-4443-a4b2-de9c6b4f3028.jpg",
+   "verdict": "hold",
+   "reason": "A snow-covered Japanese black pine in Kenrokuen with props and yukitsuri ropes, but taken 95 metres from the pin and without the pond or the low wide spread over the water that marks the Karasaki pine. The garden rigs hundreds of pines; cannot tell this is that one.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:553ee5be-96b8-4e88-a48a-c7d66825dd68",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/553ee5be-96b8-4e88-a48a-c7d66825dd68.jpg",
+   "verdict": "publish",
+   "reason": "The Atsuta camphor with its mossy burl at the base, shimenawa rope and shide, sign and wooden fence. A fine full-height view for the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d8741ffa-ffe6-42a8-ae19-7d788689baa5",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/d8741ffa-ffe6-42a8-ae19-7d788689baa5.jpg",
+   "verdict": "publish",
+   "reason": "The Piazza Marina fig's colonnade of aerial-root trunks with iron railings and the square's stone buildings behind. Small file but clearly this tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:885730b7-88ca-40a6-9a30-0f36ad6990c0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/885730b7-88ca-40a6-9a30-0f36ad6990c0.jpg",
+   "verdict": "publish",
+   "reason": "The Birnam Oak's hollow trunk, burrs and ferns, looking up into the crown beside the riverside path. A strong trunk portrait for the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e.jpg",
+   "verdict": "publish",
+   "reason": "Looking up the Birnam Oak's trunk into its crown, the long lower limb reaching out at left; a different view from the reader's other upload. Weaker as a card, fine in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6a0bf0dd-540d-4452-9c83-80da96a2a7eb",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/6a0bf0dd-540d-4452-9c83-80da96a2a7eb.jpg",
+   "verdict": "publish",
+   "reason": "The land boat pine on its bamboo frame beside the Kinkaku-ji hall, clipped low and long like a hull. The building dominates the frame, so this is for the strip, not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:308bdeb2-c35d-42ec-9bad-357b10a5f0b5",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "photo": "out/sightings/308bdeb2-c35d-42ec-9bad-357b10a5f0b5.jpg",
+   "verdict": "publish",
+   "reason": "The cut-leaved hornbeam's hollow fluted trunk and its long low arching limb in the Museum Gardens, with the old stone wall behind. Good daylight view.",
    "hidde": null,
    "agreed": null
   }
