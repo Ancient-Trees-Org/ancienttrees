@@ -2,6 +2,221 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:45ea816d-259f-4437-ac86-d3499f0269a4",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum",
+   "city": null,
+   "species": "River Red Gum",
+   "photo": "p_4c6d780bd118980f5c6e58c6/45EA816D-259F-4437-AC86-D3499F0269A4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Canary Pine",
+   "city": null,
+   "species": "Canary Pine",
+   "photo": "p_c04ed68243689ce22381722a/2733129B-FA14-4FE4-9F30-7BA889CA94C3.jpg",
+   "reader_note": "On 7 December 1905, a Canary Island Pine seedling was planted at Leighton Gardens, adjacent to Moss Vale railway station in the Southern Highlands of NSW. Newspaper extract: \"Moss Vale was on fete on Thursday on the occasion of the visit of Lord Jersey to the town, and the residents of Moss Vale and the surrounding district turned out in large numbers to accord a welcome to the distinguished visitor. Lord Jersey arrived by the mid-day train. He was met by the Mayor, Dr. Leighton-Jones, and an ex",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Canary Pine"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:aac60386-7889-4a79-831d-3b506278d45b",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum",
+   "city": null,
+   "species": "River Red Gum",
+   "photo": "p_4c6d780bd118980f5c6e58c6/AAC60386-7889-4A79-831D-3B506278D45B.jpg",
+   "reader_note": "STATE HERITAGE PLACES OF BURNSIDE\n\nADDRESS: Road Reserve adjacent 364 Glynburn Road, Kensington Gardens\n\nDETAILS: River Red Gum Tree (Eucalyptus camaldulensis). This tall River Red Gum stands on the eastern verge of Glynburn Road. \n\nA plaque placed alongside by the Burnside Council in September, 1984, states the following: \"This ‘old gum tree' ... was a mature tree long before the colonization of Australia. Age: 300 years (approx.); Height: 29 metres; Width at Base: 3.3 metres; Girth: 10.4 metre",
+   "reader_girth_cm": 1040,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-680",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Veteran Lime (Linden) Tree",
+   "city": null,
+   "species": "Lime (Tilia sp.)",
+   "photo": "p_661451df9068526bb1585984/72d6b794-e6f7-42ae-875e-650ce58dfb58.jpg",
+   "reader_note": "Thought to be 300 to 500 years old. Was shortlisted in 2015 by the Woodland Trust for their Tree of the Year award",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lime (Tilia sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:12692037-2dbe-4031-a6ec-5fa426532725",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Coldwaltham Yew",
+   "city": "Coldwaltham",
+   "photo": "out/sightings/12692037-2dbe-4031-a6ec-5fa426532725.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Coldwaltham yew behind the St Giles sign, daylight, matches the record; leads the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b6de562f-6088-4028-8282-6efdc39559b1",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Belvoir Oak",
+   "city": "Belfast",
+   "photo": "out/sightings/b6de562f-6088-4028-8282-6efdc39559b1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Hollow veteran oak trunk, rough frame but this tree and the tree had no photograph; pin stays approximate (the sighting position was the tree's own published coordinate)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d8994b07-93c9-41a0-ae09-ab417f322b93",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fulham Palace Oak",
+   "city": "London",
+   "photo": "out/sightings/d8994b07-93c9-41a0-ae09-ab417f322b93.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Holm oak with propped limbs, strip photograph beside the lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6f2cee0c-369d-4da5-a2e3-6e08f138a29f",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Barney the Plane",
+   "city": "London",
+   "photo": "out/sightings/6f2cee0c-369d-4da5-a2e3-6e08f138a29f.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Burred plane trunk with a person for scale, strip photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c62d8c77-f078-478f-babf-1c12d2426ef4",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Argyle Street Ash",
+   "city": "Glasgow",
+   "photo": "out/sightings/c62d8c77-f078-478f-babf-1c12d2426ef4.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Argyle Street ash above the terrace, overcast but readable, strip photograph; the twin upload was a duplicate and came out",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d1f0b3c4-247f-4f5b-8b34-f2e44c765fef",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "El Drago Milenario",
+   "city": "Tenerife",
+   "photo": "out/sightings/d1f0b3c4-247f-4f5b-8b34-f2e44c765fef.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Dragon tree crown at dusk, strip photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:eb811a74-663f-476f-bf0f-349d058508e0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Ravenscourt Park Baobab Plane",
+   "city": "London",
+   "photo": "out/sightings/eb811a74-663f-476f-bf0f-349d058508e0.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Plane in open grass, whole tree in daylight, strip photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -42,22 +257,6 @@
    "reason": "The Taşlı Çınar whole from the pavement: the massive burled pollard trunk with the hollow in the upper left limb, the Alemdar mosque dome and tram wires behind, daylight and colour. Stronger than the current lead; becomes the lead.",
    "hidde": "all 3 trees live",
    "agreed": true
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
-   "hidde": null,
-   "agreed": null
   },
   {
    "id": "lead:tip-668",

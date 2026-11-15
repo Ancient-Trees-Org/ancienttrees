@@ -35,8 +35,8 @@
       "girth_cm": 1049,
       "location": {
         "address": "St Giles's Church, Coldwaltham, West Sussex",
-        "latitude": 50.93888,
-        "longitude": -0.545398,
+        "latitude": 50.939222,
+        "longitude": -0.544992,
         "neighbourhood": "Coldwaltham"
       },
       "location_site": {
@@ -55,13 +55,27 @@
       "access": "Free. It stands in the public churchyard of St Giles's, Coldwaltham, in the care of the parish church. No ticket or gate fee.",
       "transport": "Pulborough station is about 3 km to the north-east in a straight line, further by road. Check Traveline for buses.",
       "how_to_recognise": "You can recognise it by the very large, completely hollow bole with two straight fluted branches rising from it, and a notice naming it among the oldest yews. It stands north-west of St Giles's church.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cwh_001-coldwaltham-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_1a2207af288500d1031c52f6",
+        "sighting_id": "12692037-2dbe-4031-a6ec-5fa426532725",
+        "note": "Photographed by a reader and sent through the app (2026-11-12); a viewing pass approved it on 2026-11-15: Yew crown and trunk behind the St Giles sign naming it one of the 12 oldest in the country; daylight, colour Species seen: yew foliage with red arils, fluted multi-stem trunk. Fits the description: ancient churchyard yew with the preservation-order sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "12692037-2dbe-4031-a6ec-5fa426532725",
+        "moved_m": 47,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

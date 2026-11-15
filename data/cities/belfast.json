@@ -52,10 +52,17 @@
       "access": "Free. Forest Service NI managed forest park, open 24 hours, car park off the Outer Ring Road (A55); also reachable via the Lagan towpath from Shaw's Bridge or the Galwally Avenue entrance.",
       "transport": "Galwally rail halt (Lagan Valley line) approx 15 min walk; several Translink bus routes serve Outer Ring Road / Milltown Road nearby.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bfs_001-the-belvoir-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 888,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_4e1fe1fc8bd36786c2e5a60d",
+        "sighting_id": "b6de562f-6088-4028-8282-6efdc39559b1",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Hollow, decayed veteran oak trunk among ferns and birch, at the pin; rough frame but this tree, and the tree has no photograph Species seen: gnarled hollow veteran trunk with oak foliage above. Fits the description: a huge decayed oak stump, the ancient remains.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",

@@ -897,6 +897,89 @@
   "tip-680": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "12692037-2dbe-4031-a6ec-5fa426532725": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "cwh_001",
+   "city_slug": "coldwaltham",
+   "file": "cwh_001-coldwaltham-yew.jpg",
+   "reason": "Yew crown and trunk behind the St Giles sign naming it one of the 12 oldest in the country; daylight, colour Species seen: yew foliage with red arils, fluted multi-stem trunk. Fits the description: ancient churchyard yew with the preservation-order sign.",
+   "lat": 50.9392216666667,
+   "lon": -0.544991666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "b6de562f-6088-4028-8282-6efdc39559b1": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "bfs_001",
+   "city_slug": "belfast",
+   "file": "bfs_001-the-belvoir-oak.jpg",
+   "reason": "Hollow, decayed veteran oak trunk among ferns and birch, at the pin; rough frame but this tree, and the tree has no photograph Species seen: gnarled hollow veteran trunk with oak foliage above. Fits the description: a huge decayed oak stump, the ancient remains.",
+   "lat": 54.5575,
+   "lon": -5.928,
+   "pin_checked": "2026-11-15"
+  },
+  "d8994b07-93c9-41a0-ae09-ab417f322b93": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_007",
+   "city_slug": "london",
+   "file": "lon_007-the-fulham-palace-oak-d8994b07.jpg",
+   "reason": "Holm oak with great sprawling limbs resting on props, person for scale, daylight Species seen: evergreen holly-like leaves, dark furrowed bark, huge layered limbs. Fits the description: vast spreading old holm oak with propped limbs.",
+   "lat": 51.4694333333333,
+   "lon": -0.214691666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "6f2cee0c-369d-4da5-a2e3-6e08f138a29f": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_008",
+   "city_slug": "london",
+   "file": "lon_008-barney-the-plane-6f2cee0c.jpg",
+   "reason": "Massive burred plane trunk with person for scale, daylight Species seen: mottled flaking plane bark, burrs, palmate leaves. Fits the description: very large old plane with burred trunk.",
+   "lat": 51.4741966666667,
+   "lon": -0.231061666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "c62d8c77-f078-478f-babf-1c12d2426ef4": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "gla_005",
+   "city_slug": "glasgow",
+   "file": "gla_005-the-argyle-street-ash-c62d8c77.jpg",
+   "reason": "Street ash standing above the tenement terrace, whole tree in frame, overcast but readable Species seen: pinnate leaves, ash crown, tall single trunk. Fits the description: lone tall ash rising from the pavement of a Glasgow terrace.",
+   "lat": 55.865667,
+   "lon": -4.287583,
+   "pin_checked": "2026-11-15"
+  },
+  "fa4a82fc-0a92-44c1-9e79-af7c190e6c26": {
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "gla_005",
+   "reason": "Identical image to the one approved in c62d8c77; duplicate"
+  },
+  "d1f0b3c4-247f-4f5b-8b34-f2e44c765fef": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "tfe_001",
+   "city_slug": "tenerife",
+   "file": "tfe_001-el-drago-milenario-d1f0b3c4.jpg",
+   "reason": "Dragon tree umbrella crown at dusk over a terrace; the tree fills the frame, backlit but clear Species seen: dragon tree umbrella crown with spiky rosettes. Fits the description: huge umbrella crown of El Drago Milenario.",
+   "lat": 28.3666394,
+   "lon": -16.7221922,
+   "pin_checked": "2026-11-15"
+  },
+  "eb811a74-663f-476f-bf0f-349d058508e0": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_018",
+   "city_slug": "london",
+   "file": "lon_018-the-ravenscourt-park-baobab-plane-eb811a74.jpg",
+   "reason": "Whole tree in daylight on open grass, wide bole, maple-like plane leaves Species seen: plane leaves, swollen bole. Fits the description: fat-trunked plane in an open park.",
+   "lat": 51.4967,
+   "lon": -0.2386,
+   "pin_checked": "2026-11-15"
   }
  }
 }
