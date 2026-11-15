@@ -11,7 +11,12 @@
 - Fourteen replies to tips no script mails (drafts/reply-reader-*-2026-11-15.md), sent on Hidde's "Ja, verstuur" through contributor_reply.py with reply_text and outcome set per row; the daily cap of 50 was lifted to 110 for those runs only (OUTREACH_DAILY_CAP in the environment, nothing changed in code), since 71 of the day's 93 logged mails were Hidde's own from Gmail and Resend stayed far under its 100.
 - Every reader tree of the day is congratulated except edi_022, whose reader had two already today: tree_approved.py now sends one mail per person (several trees bundled) and holds anyone congratulated that day for the next knock, and no longer asks an existing ambassador to take on another place.
 - The daily mail cap is now outreach only (Hidde: "de limiet moet niet staan voor interne mails alleen voor outreach"): contributor_reply.py has none, outreach_send.py counts only its own first-contact mails (new `via` field) and never holds a reply in a thread. qa `check_no_daily_cap_on_reader_mail()` refuses a cap in the reader-mail scripts (tested red with one put back).
-- Still coming in after this session's sweep: submissions 756 to 783 (8 tree tips, 3 pin moves, 17 feedback rows); the knock pulls their photographs into the queue.
+- Waiting for tomorrow (Hidde: "laten we morgen rustig door de rest gaan"); the inbox was fetched at 14:35 and nothing in it judged yet:
+  - 31 reader photographs in data/sighting-queue.json: 7 first photos for trees that have none (Boise moved sequoia, Lewisham Elm, the Groningen beeches and pollarded lindens, two of the Schwanenbruecke weeping beech, the Brace Elm), 24 on trees that have one (Fortingall Yew x2, Bromley Oak x2, Tane Mahuta x2 matched 6.8 km off, Gomero de la Recoleta x2, Nymphenburg oak x2, Amalienburg beech x2 and more).
+  - 8 new tree leads in data/leads/_sightings.json (submissions 760 Astbury, 762, 763 Malmoe weeping beech in Magistratsparken, 766, 767, 778, 781, 782), plus Worthing still held.
+  - Pin moves by readers: 761 Marton Oak (10 m, ours confirmed), 764 Brace Elm (48 m), 768 "could not tell which tree" at the Gomero (bai_001): a recognition line.
+  - 756 is an app bug: a reader cannot take Tane Mahuta off Want to go after collecting it. Check in the app before calling it one; if it is, `escaped.py --add`.
+  - Old open rows still without an outcome: ambassador requests 607 New Orleans, 611 Pamplona, 618 Leuven (all granted earlier, only the row is open), 627 Prefargier cedars, 668 Villa Salina (live as bol_013).
 - The Isparta tree's slug lost its dotless i (plane-of-cnar-sokak); cosmetic, the page works.
 
 ## 2026-11-15 session: Yahoo blocks the welcome mail
