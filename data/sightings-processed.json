@@ -2152,42 +2152,6 @@
    "reason": "Already this reader tree's own photograph (it made the page); closed so it is not judged twice.",
    "pin_checked": "2026-11-15"
   },
-  "ed0a19ed-93e1-42e9-8a50-fcaa0420bda1": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "a6d28625-b0fb-469f-8653-84ff735dad85": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "bf30b7a2-fe72-4e2f-beeb-7757e1e9174b": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "2186bb95-6054-4154-b6d9-c75cb1fca187": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "c7dca666-5183-4987-b585-0f10639b5cb3": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "b2b14047-08e5-447f-a435-3a4f137809b0": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "0b0d29fa-bc94-48a7-8014-4d103452c16d": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "d8edd734-1e64-45cb-afe4-47a85a4d804a": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "4b1e4321-165c-4742-b645-6ec065f3094c": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "tip-839": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -2309,6 +2273,62 @@
    "lat": 29.3882216666667,
    "lon": -81.1310055,
    "pin_checked": "2026-11-15"
+  },
+  "2ec0418a-ac10-4c61-9daf-a287193ae994": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "f1faa5f9-5750-4863-8920-2ce31bf5d01a": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "d291140e-1665-4036-a4cb-e826d8ff6328": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "20d04dfd-e398-4533-a42d-b1385d2a6f50": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "c476f81b-3871-4273-9e0a-f4f21ae2b5e1": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "1215c9ad-3b03-438c-a3c4-74f631633f9a": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "340d13e5-d031-448e-9595-daff201bbb9e": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "f249d2ac-4e34-4bdf-9919-626a212de102": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "24c1e280-6404-4056-af86-c3ac625d6e16": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "7ff97b69-76b5-4905-80c2-7c7e901c31c0": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-871": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-875": {
+   "outcome": "lead",
+   "date": "2026-11-15"
   }
  }
 }

@@ -73,7 +73,23 @@
         "width": 640,
         "height": 480,
         "taken_month": 3
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/crm_001-the-crom-yews-aa29f45d.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_b4394ae41139d013921d623e",
+          "sighting_id": "aa29f45d-e14e-4faa-8f21-9b38e5e269c5",
+          "note": "Photographed by a reader and sent through the app (2025-05-07); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     }
   ]
 }

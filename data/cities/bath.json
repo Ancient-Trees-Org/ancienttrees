@@ -132,7 +132,23 @@
       "curation_status": "flagged",
       "notes": "Presented as a single ensemble entry per CLAUDE.md's collectible-point test: five trees in one compact, famous, self-contained green with one obvious place to stand, the same pattern as the Lomanstraat tunnel and Meiji Jingu Gaien avenue precedents. Planting date ('around 1820') is Wikipedia's figure, citing Bath & North East Somerset Council and Bath Preservation Trust records directly (both primary-ish sources, inaccessible to direct fetch this run but independently corroborated by multiple secondary summaries). No single-tree girth or height figures found; flagged for that reason, not for doubt about the trees' existence or age bracket.",
       "location_precision": "approximate",
-      "how_to_recognise": "Five planes on the enclosed green at the centre of the circle, their crowns now higher than the roofline of the terraces around them."
+      "how_to_recognise": "Five planes on the enclosed green at the centre of the circle, their crowns now higher than the roofline of the terraces around them.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bat_003-the-plane-trees-of-the-circus-3b39d16a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 2,
+          "source": "contributor",
+          "contributor_user_id": "p_b4394ae41139d013921d623e",
+          "sighting_id": "3b39d16a-da7e-41df-b566-3345170189b9",
+          "note": "Photographed by a reader and sent through the app (2026-02-07); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "bat_004",

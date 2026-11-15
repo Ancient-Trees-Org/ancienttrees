@@ -536,7 +536,22 @@
         "width": 769,
         "height": 573
       },
-      "photos": [],
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bos_013-endicott-pear-tree-b724f1db.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1080,
+          "height": 988,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "b724f1db-2429-4905-a291-fa1bf50132cd",
+          "note": "Photographed by a reader and sent through the app (2018-06-09); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ],
       "best_time": {
         "months": [
           4,

@@ -76,7 +76,37 @@
         "name": "Catàleg d'Arbres Singulars de les Illes Balears (Govern de les Illes Balears), no. 646",
         "url": "https://www.caib.es/sites/proteccioespecies/es/n/olivera_de_cort-21560es/"
       },
-      "height_m": 6
+      "height_m": 6,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/plm_001-s-olivera-de-cort-e67ce516.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 3,
+          "source": "contributor",
+          "contributor_user_id": "p_b4394ae41139d013921d623e",
+          "sighting_id": "e67ce516-1f9b-4a80-81a0-9bdad8739ea2",
+          "note": "Photographed by a reader and sent through the app (2026-03-20); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/plm_001-s-olivera-de-cort-513c935b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b",
+          "note": "Photographed by a reader and sent through the app (2025-10-05); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-15"
+        }
+      ]
     },
     {
       "id": "plm_002",

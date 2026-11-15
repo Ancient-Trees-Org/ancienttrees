@@ -67,7 +67,26 @@
   },
   "p_e8dba228047f1ba460227fd8": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "9c93b205-3812-4c19-9040-a4efe3511170",
+     "tree_id": "lon_052",
+     "tree_name": "The Gnarled Beech of Hampstead Heath",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "36bfbe9f-0328-43ce-a828-eb1001119352",
+     "tree_id": "lon_042",
+     "tree_name": "Grimston's Oak",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "d8994b07-93c9-41a0-ae09-ab417f322b93",
@@ -915,7 +934,80 @@
   },
   "p_b4394ae41139d013921d623e": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "8b7f5345-ac50-432e-bc87-7f9fb01f07e1",
+     "tree_id": "dmr_001",
+     "tree_name": "Wistman's Wood",
+     "city": "Dartmoor",
+     "city_slug": "dartmoor",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "3b39d16a-da7e-41df-b566-3345170189b9",
+     "tree_id": "bat_003",
+     "tree_name": "The Plane Trees of the Circus",
+     "city": "Bath",
+     "city_slug": "bath",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "505b0039-de16-410f-817e-55e31e93c41a",
+     "tree_id": "cdb_002",
+     "tree_name": "The Orange Courtyard of the Mezquita",
+     "city": "Cordoba",
+     "city_slug": "cordoba",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "aa29f45d-e14e-4faa-8f21-9b38e5e269c5",
+     "tree_id": "crm_001",
+     "tree_name": "The Crom Yews",
+     "city": "Crom",
+     "city_slug": "crom",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "cc8de006-3714-424d-90ed-29ddd0adac6c",
+     "tree_id": "bfs_003",
+     "tree_name": "The Dawn Redwood by the Kelvin Statue",
+     "city": "Belfast",
+     "city_slug": "belfast",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "e67ce516-1f9b-4a80-81a0-9bdad8739ea2",
+     "tree_id": "plm_001",
+     "tree_name": "S'Olivera de Cort",
+     "city": "Palma de Mallorca",
+     "city_slug": "palma-de-mallorca",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "79e27623-4f57-4e8b-93ed-5809952ad465",
+     "tree_id": "cdb_001",
+     "tree_name": "The Olive of the Orange Courtyard",
+     "city": "Cordoba",
+     "city_slug": "cordoba",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "2da20219-c708-4cfc-a74b-ad7f0915edab",
+     "tree_id": "bfs_003",
+     "tree_name": "The Dawn Redwood by the Kelvin Statue",
+     "city": "Belfast",
+     "city_slug": "belfast",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "8335e815-9828-4129-a977-f7e5c1d4487c",
@@ -1011,6 +1103,48 @@
      "tree_name": "The Fairchild Oak",
      "city": "Ormond Beach",
      "city_slug": "ormond-beach",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_d0011595a0e9b807c2d7281e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc",
+     "tree_id": "snd_001",
+     "tree_name": "The Sunderland Buttonball Tree",
+     "city": "Sunderland, Massachusetts",
+     "city_slug": "sunderland-massachusetts",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "bcde1019-cccf-445a-a2ab-81b2bdbb8809",
+     "tree_id": "mob_003",
+     "tree_name": "Jackson's Oak",
+     "city": "Mobile",
+     "city_slug": "mobile",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "b724f1db-2429-4905-a291-fa1bf50132cd",
+     "tree_id": "bos_013",
+     "tree_name": "Endicott Pear Tree",
+     "city": "Boston",
+     "city_slug": "boston",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b",
+     "tree_id": "plm_001",
+     "tree_name": "S'Olivera de Cort",
+     "city": "Palma de Mallorca",
+     "city_slug": "palma-de-mallorca",
      "display_name": null,
      "live": "2026-11-15"
     }
