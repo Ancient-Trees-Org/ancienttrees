@@ -121,7 +121,7 @@
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
    "verdict": "hold",
-   "reason": "Handsome veteran lime, but the tip carries no coordinate and no place; waits for where it stands.",
+   "reason": "This is the Linford Lime of Great Linford Manor Park, already live as mkn_001 with a photograph; nothing new to publish.",
    "hidde": null,
    "agreed": null
   },
@@ -213,6 +213,137 @@
    "reader_note": "",
    "verdict": "publish",
    "reason": "Plane in open grass, whole tree in daylight, strip photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Canary Pine, Moss Vale",
+   "city": null,
+   "photo": "",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Whole tree in daylight at the reader's GPS fix; their planting account stated as theirs; went live as mvv_001 in a new Moss Vale file",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:45ea816d-259f-4437-ac86-d3499f0269a4",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum, Rostrevor",
+   "city": null,
+   "photo": "",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Whole trunk in daylight at the reader's GPS fix; their 200-year estimate stated as theirs; went live as ads_001 in a new Adelaide file",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Sessile Oak near London",
+   "city": null,
+   "species": "Sessile Oak",
+   "photo": "p_5b3aac020b64250d61a4e162/BC20D71A-11EA-4180-AD6F-78EC11B24D6B.jpg",
+   "reader_note": "Oldest oak in Tottenham",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sessile Oak"
+   },
+   "verdict": "publish",
+   "reason": "Published as lon_050 The Bruce Castle Oak: four photographs, one in leaf showing the whole propped trunk; Haringey Council and press give about 500 years and Tree of the Year runner-up 2018.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1c15666f-2956-4ff6-a73d-ee3a44045c82",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Endangered Dawn Redwood in Holborn, legal district",
+   "city": null,
+   "species": "Dawn Redwood",
+   "photo": "p_1ec0fe8da4a7eac443e9bf91/1C15666F-2956-4FF6-A73D-EE3A44045C82.jpg",
+   "reader_note": "A stunning collection of Dawn Redeoods in the legal district of Holborn",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Dawn Redwood"
+   },
+   "verdict": "hold",
+   "reason": "Both photographs show London planes in Lincoln's Inn, while the note names a collection of dawn redwoods; waits for a photograph of the redwoods or word that the plane was meant.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6ace68f9-6ca3-470c-9511-7e55975fb2f0",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon near Defynnog",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_67dc9f8ab6c8751acc616710/6ACE68F9-6CA3-470C-9511-7E55975FB2F0.jpg",
+   "reader_note": "Next to Brecon Cathedral. Wonderful view of hills in distance.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Published as brk_001 The Cedar of Brecon Cathedral: whole tree in daylight, GPS fix beside it, the reader's note quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-692",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Ancient Lappa plane tree",
+   "city": null,
+   "species": null,
+   "photo": "p_8c9d4367614fc26d12dff403/9858151f-3ad8-4f25-a59f-6d0bc661f311.jpg",
+   "reader_note": "This plane tree of Argiroupolis is located in the Roman cemetery of Ancient Lappa and below the chapel of the Five Virgins (Pente Parthenes) in Argyroupoli. Below the plane tree there is a cool spring with five taps, symbolizing the Five Virgins that were killed here by the Turks. This plane tree has been declared as a natural monument due to its size and its location in the historical necropolis of Lappa.",
+   "reader_girth_cm": 2000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Published as agy_001 The Plane of the Five Virgins: natural monument per Crete sources, OpenStreetMap pin, the reader's four photographs.",
    "hidde": null,
    "agreed": null
   },
@@ -3047,28 +3178,114 @@
    "agreed": null
   },
   {
-   "id": "sight:2733129b-fa14-4fe4-9f30-7ba889ca94c3",
+   "id": "sight:bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
    "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "Canary Pine, Moss Vale",
-   "city": null,
-   "photo": "",
+   "kind": "photo of a tree we map",
+   "tree": "The Bruce Castle Oak",
+   "city": "London",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "out/sightings/bc20d71a-11ea-4180-ad6f-78ec11b24d6b.jpg",
    "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
    "verdict": "publish",
-   "reason": "Whole tree in daylight at the reader's GPS fix; their planting account stated as theirs; went live as mvv_001 in a new Moss Vale file",
+   "reason": "The in-leaf photograph is the lead of lon_050 and the winter one sits in its strip; the dusk view across the park was not used.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:45ea816d-259f-4437-ac86-d3499f0269a4",
+   "id": "sight:6ace68f9-6ca3-470c-9511-7e55975fb2f0",
    "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "River Red Gum, Rostrevor",
-   "city": null,
-   "photo": "",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Brecon Cathedral",
+   "city": "Brecon",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/6ace68f9-6ca3-470c-9511-7e55975fb2f0.jpg",
    "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
    "verdict": "publish",
-   "reason": "Whole trunk in daylight at the reader's GPS fix; their 200-year estimate stated as theirs; went live as ads_001 in a new Adelaide file",
+   "reason": "Lead of brk_001; the view out under its branches to the hills is in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-692",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of the Five Virgins",
+   "city": "Argyroupoli",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/tip-692.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Lead of agy_001 plus three in the strip: the burred bole and twisting limbs in leaf, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3b6d1dd0-7d29-4b98-b44e-c849565d8c36",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Giant Norfolk Island Pine of Lagoa das Furnas",
+   "city": "Azores",
+   "species": "Norfolk Island Pine (Araucaria heterophylla)",
+   "photo": "out/sightings/3b6d1dd0-7d29-4b98-b44e-c849565d8c36.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of azo_005: the tall tiered pine above palms and tree ferns on the Furnas walk, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:df49a8de-865b-4c64-b7c1-31f1a48aba30",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Saint Gerasimos, Omala",
+   "city": "Kefalonia",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/df49a8de-865b-4c64-b7c1-31f1a48aba30.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of kef_001: the whitewashed plane trunk in the Omala square, daylight, a person for scale.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:de5a4012-4b39-4c52-a609-17cfdf464496",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Totteridge Yew",
+   "city": "London",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/de5a4012-4b39-4c52-a609-17cfdf464496.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "In the strip of lon_001: the spreading churchyard yew at Totteridge with a reader under it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9f053596-3d72-460c-9c2a-bcd702cea329",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Ravenscourt Park Tree of Heaven",
+   "city": "London",
+   "species": "Tree of Heaven (Ailanthus altissima)",
+   "photo": "out/sightings/9f053596-3d72-460c-9c2a-bcd702cea329.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "In the strip of lon_023: the whole tree of heaven above the Ravenscourt Park lawn on a sunny day.",
    "hidde": null,
    "agreed": null
   }

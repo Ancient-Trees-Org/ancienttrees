@@ -1,0 +1,113 @@
+{
+  "city": "Argyroupoli",
+  "country": "Greece",
+  "status": "needs_curation",
+  "intro": "Argyroupoli is a hill village of springs and water mills south of Rethymno in western Crete, built over the ancient city of Lappa. Below the village, in the old Roman cemetery, a rock-cut chapel remembers five martyred women, and beneath it a huge oriental plane stands over a spring with five spouts. The tree is a declared natural monument, reached on foot through the cemetery, and a reader sent us its photographs.",
+  "meta_description": "The Plane of the Five Virgins in Argyroupoli, Crete: a natural monument over a five-spouted spring in the cemetery of ancient Lappa.",
+  "hero_tree_id": "agy_001",
+  "oldest_tree_id": "agy_001",
+  "trees": [
+    {
+      "id": "agy_001",
+      "name": "The Plane of the Five Virgins",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "age_estimate": "said locally to be 2,000 years old, unmeasured",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Ancient Lappa cemetery, below the chapel of the Five Virgins (Pente Parthenes), Argyroupoli, Rethymno, Crete",
+        "latitude": 35.2930823,
+        "longitude": 24.3427513,
+        "neighbourhood": "Ancient Lappa necropolis"
+      },
+      "story": "Below the chapel of the Five Virgins, a small church cut into a Roman tomb in the old cemetery of Lappa, a huge oriental plane leans over a spring. The water runs from five spouts, one for each of the five women the chapel remembers, and the tree has been declared a natural monument for its size and for where it stands, in the burial ground of an ancient city that lies under today's village of Argyroupoli, south of Rethymno.\n\nGuidebooks repeat that it is 2,000 years old. Nobody has counted it, and planes this size are hard to date, so take that as the village's figure rather than a measurement. One account says the trunk was split decades ago so that the path could pass through.\n\nThe reader who sent us its photographs shows a short bole of burrs and hollows, half hidden in ivy and its own young shoots, from which a few enormous pale-barked limbs twist up into the canopy, with a stone-paved path running past its foot. It is reached on foot by the path through the ancient cemetery, free to visit.",
+      "how_to_recognise": "A huge, hollow-burred oriental plane with pale twisting limbs, beside the five-spouted spring below the rock-cut chapel of the Five Virgins.",
+      "verified_sources": [
+        "https://www.cretanbeaches.com/en/flora/monumental-trees/pente-parthenes-plane-tree",
+        "https://www.meetcrete.com/ancient-lappa-the-church-of-the-holy-five-virgins-ancient-cemetery/",
+        "https://www.openstreetmap.org/node/1784412563",
+        "A reader's website tip with four photographs, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session: a reader's website tip (submission 692) with four photographs; their text repeats cretanbeaches.com word for word, so it is a source, not their words, and is not quoted. cretanbeaches: in the Roman cemetery of Ancient Lappa below the chapel of the Five Virgins, spring with five taps, declared a natural monument for its size and location. Lonely Planet: 'said to be 2000 years old'. A travel source: split decades ago for the path. Pin: OpenStreetMap node 1784412563 'Πλάτανος Πέντε Παρθένων', 22 m from cretanbeaches' own map point; approximate. The reader's '2000 cm' girth is not used.",
+      "access": "Free, on the footpath through the ancient cemetery below the village.",
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-15",
+        "note": "OSM node 1784412563, agreeing within 22 m with cretanbeaches.com's point."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_8c9d4367614fc26d12dff403",
+        "sighting_id": "tip-692",
+        "note": "Photographed by a reader and sent through the website; looked at 2026-11-15: the whole burred bole and the twisting limbs in leaf, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_8c9d4367614fc26d12dff403",
+          "sighting_id": "tip-692",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_8c9d4367614fc26d12dff403",
+          "sighting_id": "tip-692",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_8c9d4367614fc26d12dff403",
+          "sighting_id": "tip-692",
+          "note": "The same reader's further photograph, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The Plane of the Five Virgins in Argyroupoli, Crete: a natural monument over a five-spouted spring in the cemetery of ancient Lappa.",
+  "question_answer": "Argyroupoli's great tree is an oriental plane (Platanus orientalis) below the chapel of the Five Virgins, in the Roman cemetery of ancient Lappa. It has been declared a natural monument, and a spring with five spouts runs beneath it. It is free to visit on foot.",
+  "question_context": "The plane stands in the old cemetery of Lappa, the ancient city under today's village of Argyroupoli, about 27 km south of Rethymno in western Crete. Above it is a small chapel cut into a Roman tomb and dedicated to five martyred women, the Five Virgins, and the spring beneath the tree runs from five spouts, one for each of them. Crete travel sources say the tree was declared a natural monument for its size and its place in the necropolis. Guidebooks repeat that it is 2,000 years old, but no ring count or published measurement backs that figure, so we give it as the village's claim, not a fact. One travel account says the trunk was split some decades ago so that the path could pass through it. A reader sent us four photographs of the tree in leaf: a short bole of burrs and hollows, half hidden in ivy and young shoots, with a few enormous pale limbs twisting up into the canopy over a stone-paved path. The cemetery is reached on foot from the village, and there is no ticket.",
+  "faq": [
+    {
+      "q": "How old is the plane tree at Argyroupoli?",
+      "a": "It is said locally to be 2,000 years old. Nobody has measured it, so that is a claim, not a count."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "Below the rock-cut chapel of the Five Virgins in the Roman cemetery of ancient Lappa, beside a five-spouted spring."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. It is reached on foot by the path through the ancient cemetery below the village."
+    }
+  ]
+}

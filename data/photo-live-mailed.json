@@ -94,6 +94,24 @@
      "city_slug": "london",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "de5a4012-4b39-4c52-a609-17cfdf464496",
+     "tree_id": "lon_001",
+     "tree_name": "The Totteridge Yew",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "9f053596-3d72-460c-9c2a-bcd702cea329",
+     "tree_id": "lon_023",
+     "tree_name": "The Ravenscourt Park Tree of Heaven",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []
@@ -155,6 +173,36 @@
      "tree_name": "The Belvoir Oak",
      "city": "Belfast",
      "city_slug": "belfast",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_29ac2d9e89855bf4d66c133c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "df49a8de-865b-4c64-b7c1-31f1a48aba30",
+     "tree_id": "kef_001",
+     "tree_name": "The Plane of Saint Gerasimos, Omala",
+     "city": "Kefalonia",
+     "city_slug": "kefalonia",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_19c6a1525dd9489be783caa4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3b6d1dd0-7d29-4b98-b44e-c849565d8c36",
+     "tree_id": "azo_005",
+     "tree_name": "Giant Norfolk Island Pine of Lagoa das Furnas",
+     "city": "Azores",
+     "city_slug": "azores",
      "display_name": null,
      "live": "2026-11-15"
     }

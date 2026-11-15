@@ -1477,6 +1477,118 @@
    "why": "held 2026-11-15: photograph of a handsome veteran lime, but the tip carries no coordinate or place name; waits for where it stands.",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
+  },
+  {
+   "sighting_id": "bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+   "user_id": "p_5b3aac020b64250d61a4e162",
+   "mine": false,
+   "name": "Sessile Oak near London",
+   "species": "Sessile Oak",
+   "age": "450 years +",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Oldest oak in Tottenham",
+   "latitude": 51.6009166666667,
+   "longitude": -0.0727916666666667,
+   "photo": "94bc545d-358b-46ad-8a4e-00d154e79394/BC20D71A-11EA-4180-AD6F-78EC11B24D6B.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/bc20d71a-11ea-4180-ad6f-78ec11b24d6b-extra-1.jpg",
+    "out/sightings/bc20d71a-11ea-4180-ad6f-78ec11b24d6b-extra-2.jpg",
+    "out/sightings/bc20d71a-11ea-4180-ad6f-78ec11b24d6b-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "published 2026-11-15 as lon_050 in London: four photographs including a daylight view of the whole tree, council and press sources",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "1c15666f-2956-4ff6-a73d-ee3a44045c82",
+   "user_id": "p_1ec0fe8da4a7eac443e9bf91",
+   "mine": false,
+   "name": "Endangered Dawn Redwood in Holborn, legal district",
+   "species": "Dawn Redwood",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "A stunning collection of Dawn Redeoods in the legal district of Holborn",
+   "latitude": 51.5163583333333,
+   "longitude": -0.11305,
+   "photo": "d98002aa-85be-4ca3-8aa2-3931cabd28c7/1C15666F-2956-4FF6-A73D-EE3A44045C82.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/1c15666f-2956-4ff6-a73d-ee3a44045c82-extra-1.jpg"
+   ],
+   "nearest_published_m": 496,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "held 2026-11-15: both photographs show London planes in Lincoln's Inn, but the note names a collection of dawn redwoods; waits for a photograph of the redwoods or word that the plane was meant",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "6ace68f9-6ca3-470c-9511-7e55975fb2f0",
+   "user_id": "p_67dc9f8ab6c8751acc616710",
+   "mine": false,
+   "name": "Cedar of Lebanon near Defynnog",
+   "species": "Cedar of Lebanon",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Next to Brecon Cathedral. Wonderful view of hills in distance.",
+   "latitude": 51.9510116991173,
+   "longitude": -3.3926687797598,
+   "photo": "cf5b4523-429c-4cc4-8f54-53344cdd35f7/6ACE68F9-6CA3-470C-9511-7E55975FB2F0.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/6ace68f9-6ca3-470c-9511-7e55975fb2f0-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "published 2026-11-15 as brk_001 in Brecon: whole tree in daylight, GPS fix beside it, reader's own words quoted",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "tip-692",
+   "user_id": "p_8c9d4367614fc26d12dff403",
+   "mine": false,
+   "name": "Ancient Lappa plane tree",
+   "species": null,
+   "age": null,
+   "girth_cm": 2000,
+   "girth_hugs": null,
+   "note": "This plane tree of Argiroupolis is located in the Roman cemetery of Ancient Lappa and below the chapel of the Five Virgins (Pente Parthenes) in Argyroupoli. Below the plane tree there is a cool spring with five taps, symbolizing the Five Virgins that were killed here by the Turks. This plane tree has been declared as a natural monument due to its size and its location in the historical necropolis of Lappa.",
+   "latitude": null,
+   "longitude": null,
+   "photo": "80cda673-79b8-407f-97f6-547d36e2a0c1/9858151f-3ad8-4f25-a59f-6d0bc661f311.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/tip-692-extra-1.jpg",
+    "out/sightings/tip-692-extra-2.jpg",
+    "out/sightings/tip-692-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": null,
+   "status": "published",
+   "why": "published 2026-11-15 as agy_001 in Argyroupoli: reader's photographs, natural monument sources, OpenStreetMap pin",
+   "seen": "2026-11-15"
   }
  ]
 }

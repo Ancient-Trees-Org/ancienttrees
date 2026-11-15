@@ -246,6 +246,9 @@
     "argoules": [
       "Argoule"
     ],
+    "argyroupoli": [
+      "Argirópolis"
+    ],
     "arita": [
       "Arita Chō"
     ],
@@ -678,6 +681,11 @@
       "Bratislawa",
       "Bratislawah",
       "Bratisluavu"
+    ],
+    "brecon": [
+      "Aberhonddu",
+      "HMS Brecon",
+      "Brekona"
     ],
     "bregenz": [
       "Brégence",
@@ -5129,6 +5137,7 @@
     "aracena": "Sierra de Aracena",
     "ardkinglas": "Ardkinglas",
     "argoules": "Argoules",
+    "argyroupoli": "Argyroupoli, Rethymno",
     "arita": "Arita, Saga",
     "armagh": "Armagh",
     "arnhem": "Arnhem",
@@ -5199,6 +5208,7 @@
     "bracon": "Arbois",
     "braga": "Braga",
     "bratislava": "Bratislava",
+    "brecon": "Brecon",
     "breda": "Breda",
     "bregenz": "Bregenz",
     "breukelen": "Breukelen",

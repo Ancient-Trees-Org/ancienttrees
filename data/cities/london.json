@@ -48,13 +48,17 @@
       "access": "Free, open access, churchyard",
       "transport": "15 min walk from Totteridge & Whetstone station (Northern Line)",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Totteridge_Yew%2C_St_Andrew%27s_church%2C_Totteridge.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Philafrenzy, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-de5a4012.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3723,
-        "height": 3438,
-        "taken_month": 7
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+        "sighting_id": "de5a4012-4b39-4c52-a609-17cfdf464496",
+        "note": "Photographed by a reader and sent through the app (2026-11-14); a viewing pass approved it on 2026-11-15: A reader standing under a big spreading yew in a churchyard, tombs and path beside it, in daylight; tagged in the app 18 m from our pin. Species seen: yew: flat dark needles in two rows, red arils, dense spreading crown. Fits the description: a large old yew in a churchyard beside graves and a path, as at St Andrew's, Totteridge.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Was single-sourced to monumentaltrees.com, which CLAUDE.md's own research workflow says to use for verification only, not as a citable source; London's single most prominent claim (\"the oldest living thing in London\") stood on one non-citable link. Added exploring-london.com as a genuine independent second source, checked directly: it corroborates the age range (1,000-2,000 years), the girth (25ft, matching this entry's \"nearly eight metres\"), the tree's Great Trees of London listing, and the 2008 Conservation Foundation/Ancient Yew Group/Barnet Council survey that named it possibly London's oldest tree.",
@@ -68,7 +72,18 @@
         "label": "September to November: red arils on female trees, the only part that is not poisonous",
         "kind": "fruit"
       },
-      "how_to_recognise": "You can recognise it by the hollow trunk, propped up and nearly eight metres round, cut back hard by repeated pollarding. It stands in St Andrew's churchyard at Totteridge, older by a thousand years than the church beside it."
+      "how_to_recognise": "You can recognise it by the hollow trunk, propped up and nearly eight metres round, cut back hard by repeated pollarding. It stands in St Andrew's churchyard at Totteridge, older by a thousand years than the church beside it.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Totteridge_Yew%2C_St_Andrew%27s_church%2C_Totteridge.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Philafrenzy, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3723,
+          "height": 3438,
+          "taken_month": 7
+        }
+      ]
     },
     {
       "id": "lon_002",
@@ -903,15 +918,30 @@
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ravenscourt_Park_Tree_of_Heaven_%282%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_023-the-ravenscourt-park-tree-of-heaven-9f053596.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 7
+        "width": 899,
+        "height": 1599,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+        "sighting_id": "9f053596-3d72-460c-9c2a-bcd702cea329",
+        "note": "Photographed by a reader and sent through the app (2026-07-11); a viewing pass approved it on 2026-11-15: The whole tree standing tall over the park lawn on a sunny day, tagged at our pin. Species seen: tree of heaven: long pinnate leaves, smooth grey trunk, seed clusters in the crown. Fits the description: a very tall single-trunked tree by the open lawn and play area of Ravenscourt Park, houses behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by the circular green plaque at its foot naming it a Great Tree of London and one of the largest of its species in the country. It stands by the sports area and playground in Ravenscourt Park."
+      "how_to_recognise": "You can recognise it by the circular green plaque at its foot naming it a Great Tree of London and one of the largest of its species in the country. It stands by the sports area and playground in Ravenscourt Park.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ravenscourt_Park_Tree_of_Heaven_%282%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 7
+        }
+      ]
     },
     {
       "id": "lon_024",
@@ -1919,6 +1949,114 @@
       },
       "story": "In 1832 a visitor named Glynne, writing up St Mary's church in Downe, called its yew 'a very fine yew'. A church note published by the Kent Archaeological Society goes further and records 'one very ancient Yew tree to the south of the church porch'. It is still there, in the churchyard of the village where Charles Darwin made his home at Down House.\n\nWhat neither note gives is a number. Nobody has published a measured girth or a dated age for this tree. Bigger claims for both circulate online, but none we have found comes with a source we trust, so we leave the age blank rather than borrow one. If you know of a measurement, or you have one, tell us.\n\nWhat we can say is that it was one of the original 41 Great Trees of London, the list Trees for Cities drew up of the capital's remarkable trees, and that it appears to be alive. A naturalist's record from October 2025, made close by, may well be this tree. Downe looks like a Kent village and feels a long way from London, but it sits inside the London Borough of Bromley, which is how a country churchyard yew ends up on a list of the city's trees.\n\nThe churchyard is free and open to visitors. There is no station in the village. Take a train to Orpington or Bromley South and a local bus from there, and combine it with Down House, a short walk away.",
       "how_to_recognise": "You can recognise it as the ancient yew just south of the church porch. It stands in the churchyard of St Mary the Virgin, Downe."
+    },
+    {
+      "id": "lon_050",
+      "name": "The Bruce Castle Oak",
+      "species": "Sessile Oak (Quercus petraea)",
+      "age_estimate": "about 450 to 500 years, by the council's and a reader's estimates",
+      "age_min": 450,
+      "age_max": 500,
+      "age_basis": "source",
+      "location": {
+        "address": "Bruce Castle Park, Lordship Lane, Tottenham, London N17 8NU",
+        "latitude": 51.6009166666667,
+        "longitude": -0.0727916666666667,
+        "neighbourhood": "Tottenham, North London"
+      },
+      "story": "Tottenham's oldest oak has had a hard few years. In November 2021 someone lit fires against its trunk three times in one week, and the council fenced it off while the Friends of Bruce Castle Park said it was already in a fragile state. Haringey Council believes the tree is about 500 years old, and in 2018 it came second in the Woodland Trust's England Tree of the Year.\n\nIt stands on the northern side of Bruce Castle Park, the green round the old manor house that is now Haringey's museum. The reader who sent us its photographs calls it the oldest oak in Tottenham and puts it at more than 450 years, and a local walk in 2023 said at least 450. Those are estimates from its character, not a ring count.\n\nTheir photographs show why people fight for it. The trunk is short and stout, and the great limbs leave it almost sideways, running out so long and so low that timber props now hold them up. In winter the whole crooked frame shows against the sky; in May it closes into one wide, low dome over a ring of wood chip. It is free to see, in a park open every day.",
+      "how_to_recognise": "A short, stout oak whose huge low limbs reach out sideways and rest on timber props, inside a ring of wood chip on the northern side of Bruce Castle Park.",
+      "verified_sources": [
+        "https://www.haringey.gov.uk/leisure-parks-culture/parks-greenspaces/parks-facilities-haringey/bruce-castle-park",
+        "https://haringeycommunitypress.co.uk/2021/12/10/log-fires-endanger-ancient-oak-tree/",
+        "https://harringayonline.com/events/ancient-oaks-of-bruce-castle-park-walk-and-talk",
+        "A reader's photographs through the app, 2026-11-15, with a GPS fix in the park"
+      ],
+      "found_by_reader": {
+        "sighting_id": "bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session: sent by a reader through the app as 'Sessile Oak near London', note 'Oldest oak in Tottenham', age '450 years +', four photographs. Haringey Council's park page: 'believed to be about 500 years old', runner up England Tree of the Year 2018, 'dominates the northern side of the park'. Haringey Community Press 2021-12-10: 'an historic sessile oak', about 500 years, three fires in a week, fenced. Harringay Online 2023 walk listing: at least 450. No girth published. Pin: the reader's GPS fix in the park, confirmed by the GPS rule (Hidde, 2026-10-14).",
+      "access": "Free, in a public park open every day.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_050-the-bruce-castle-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_5b3aac020b64250d61a4e162",
+        "sighting_id": "bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole trunk and its long propped limbs in leaf, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix in Bruce Castle Park while photographing this tree."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_050-the-bruce-castle-oak-bc20d71a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_5b3aac020b64250d61a4e162",
+          "sighting_id": "bc20d71a-11ea-4180-ad6f-78ec11b24d6b",
+          "note": "The same reader's winter photograph, looked at 2026-11-15: the bare crooked frame, the props and the fence in daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    },
+    {
+      "id": "lon_051",
+      "name": "The Master Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "at least 350 years by a local account; legend says an acorn under Henry VIII",
+      "age_min": 350,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Bentley Priory Nature Reserve, near Summerhouse Lake, Stanmore, Harrow HA7",
+        "latitude": 51.6204265,
+        "longitude": -0.3331037,
+        "neighbourhood": "Stanmore, Harrow"
+      },
+      "story": "Two local writers call this the oldest tree in old Middlesex, and a reader sent it to us under that title, with the story that it was an acorn in the reign of Henry VIII. Nobody has counted its rings. One of those writers says it is certainly 350 years old and may be much older, and the county's crown has a rival in the Minchenden Oak in Southgate, so take the title as Stanmore's claim rather than a settled fact.\n\nWhat has been measured is its girth. The Woodland Trust's Ancient Tree Inventory records the trunk at 7.28 metres round, taken at 0.9 metres above the ground, and lists it as an ancient pedunculate oak and a tree of national special interest. That is a very big oak by any British standard, and it is the reason to make the walk.\n\nIt stands in Bentley Priory Nature Reserve on the Stanmore side of Harrow, close to Summerhouse Lake, on ground the inventory records as open to the public. We have no photograph of it yet. If you go, one taken from the path would give it a face here.",
+      "how_to_recognise": "A huge pedunculate oak more than seven metres round near Summerhouse Lake in Bentley Priory Nature Reserve.",
+      "verified_sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=12849",
+        "https://stephenliddell.co.uk/2020/05/18/the-master-oak-the-greatest-and-oldest-tree-in-middlesex/",
+        "https://www.theunfinishedcity.co.uk/2025/04/master-oak-oldest-tree-in-middlesex.html"
+      ],
+      "found_by_reader": {
+        "tip": "website, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15 session: a reader's website tip (submission 685): 'The oldest tree in Middlesex, thought to date back to Henry VIII', pointing to stephenliddell.co.uk. Ancient Tree Inventory record 12849: Pedunculate oak, ancient, TNSI, girth 7.28 m at 0.90 m, grid reference TQ15499260 (converted to WGS84 with pyproj), public open access, last visited 2013-08-15. Blogs place it in Bentley Priory Nature Reserve near Summerhouse Lake. Age unmeasured; the Minchenden Oak (Southgate) is a rival claimant for oldest in Middlesex. No photograph. Pin approximate: the inventory point, not a fix at the trunk.",
+      "access": "Free, on footpaths in Bentley Priory Nature Reserve.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "girth_cm": 728,
+      "official_register": {
+        "name": "Ancient Tree Inventory (Woodland Trust)",
+        "url": "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=12849"
+      },
+      "pin_source": {
+        "kind": "register",
+        "date": "2026-11-15",
+        "note": "Ancient Tree Inventory grid reference TQ15499260, converted to WGS84."
+      }
     }
   ]
 }

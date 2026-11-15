@@ -51,10 +51,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kef_001-the-plane-of-saint-gerasimos-omala.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_29ac2d9e89855bf4d66c133c",
+        "sighting_id": "df49a8de-865b-4c64-b7c1-31f1a48aba30",
+        "note": "Photographed by a reader and sent through the app (2016-09-16); a viewing pass approved it on 2026-11-15: The massive whitewashed trunk and spreading crown in a paved open square, daylight and colour; a person beside it gives the scale. Species seen: oriental plane: palmate deeply lobed leaves, mottled bark on the limbs. Fits the description: a very wide plane trunk in an open paved square with whitewashed benches on the Omala plateau.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

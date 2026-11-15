@@ -882,14 +882,6 @@
    "lon": 28.9800221104096,
    "pin_checked": "2026-11-14"
   },
-  "45ea816d-259f-4437-ac86-d3499f0269a4": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "2733129b-fa14-4fe4-9f30-7ba889ca94c3": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "aac60386-7889-4a79-831d-3b506278d45b": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -979,6 +971,80 @@
    "reason": "Whole tree in daylight on open grass, wide bole, maple-like plane leaves Species seen: plane leaves, swollen bole. Fits the description: fat-trunked plane in an open park.",
    "lat": 51.4967,
    "lon": -0.2386,
+   "pin_checked": "2026-11-15"
+  },
+  "bc20d71a-11ea-4180-ad6f-78ec11b24d6b": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "1c15666f-2956-4ff6-a73d-ee3a44045c82": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "6ace68f9-6ca3-470c-9511-7e55975fb2f0": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-692": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "45ea816d-259f-4437-ac86-d3499f0269a4": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "ads_001",
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
+  },
+  "2733129b-fa14-4fe4-9f30-7ba889ca94c3": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "mvv_001",
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
+  },
+  "de5a4012-4b39-4c52-a609-17cfdf464496": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_001",
+   "city_slug": "london",
+   "file": "lon_001-the-totteridge-yew-de5a4012.jpg",
+   "reason": "A reader standing under a big spreading yew in a churchyard, tombs and path beside it, in daylight; tagged in the app 18 m from our pin. Species seen: yew: flat dark needles in two rows, red arils, dense spreading crown. Fits the description: a large old yew in a churchyard beside graves and a path,",
+   "lat": 51.63233,
+   "lon": -0.200455,
+   "pin_checked": "2026-11-15"
+  },
+  "9f053596-3d72-460c-9c2a-bcd702cea329": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_023",
+   "city_slug": "london",
+   "file": "lon_023-the-ravenscourt-park-tree-of-heaven-9f053596.jpg",
+   "reason": "The whole tree standing tall over the park lawn on a sunny day, tagged at our pin. Species seen: tree of heaven: long pinnate leaves, smooth grey trunk, seed clusters in the crown. Fits the description: a very tall single-trunked tree by the open lawn and play area of Ravenscourt Park, houses behind",
+   "lat": 51.49633,
+   "lon": -0.237089,
+   "pin_checked": "2026-11-15"
+  },
+  "df49a8de-865b-4c64-b7c1-31f1a48aba30": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "kef_001",
+   "city_slug": "kefalonia",
+   "file": "kef_001-the-plane-of-saint-gerasimos-omala.jpg",
+   "reason": "The massive whitewashed trunk and spreading crown in a paved open square, daylight and colour; a person beside it gives the scale. Species seen: oriental plane: palmate deeply lobed leaves, mottled bark on the limbs. Fits the description: a very wide plane trunk in an open paved square with whitewas",
+   "lat": 38.1697533333333,
+   "lon": 20.5856583333333,
+   "pin_checked": "2026-11-15"
+  },
+  "3b6d1dd0-7d29-4b98-b44e-c849565d8c36": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "azo_005",
+   "city_slug": "azores",
+   "file": "azo_005-giant-norfolk-island-pine-of-lagoa-das-furnas.jpg",
+   "reason": "A tall tiered conifer rising above palms and tree ferns over a garden path, daylight; tagged 23 m from our pin. Species seen: Norfolk Island pine: tiered branches of soft scale-leaved shoots, straight dark trunk. Fits the description: a very tall tiered conifer rising above everything around it on t",
+   "lat": 37.75095,
+   "lon": -25.3385466666667,
    "pin_checked": "2026-11-15"
   }
  }
