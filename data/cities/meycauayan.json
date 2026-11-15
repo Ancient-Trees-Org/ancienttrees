@@ -1,0 +1,62 @@
+{
+  "city": "Meycauayan",
+  "country": "Philippines",
+  "status": "needs_curation",
+  "intro": "In the patio of Meycauayan's Parish Church of St. Francis of Assisi stand three rain trees, and one of them is the tree a young Manuel L. Quezon played under in 1890, when he worked as the church's sexton. He went on to become president of the Philippines. The Tree Preservation Foundation of the Philippines marked the tree in 1982. The parish dates from 1578, and the town is about 20 kilometres north of Manila.",
+  "meta_description": "The Meycauayan Tree: a rain tree in a Bulacan church patio where a young Manuel L. Quezon played in 1890, marked as a heritage tree in 1982.",
+  "hero_tree_id": "mcy_001",
+  "oldest_tree_id": "mcy_001",
+  "question_meta": "Meycauayan's best-known old tree is the rain tree in the patio of St. Francis of Assisi church, put at almost 150 years. Where it is and what it saw.",
+  "question_answer": "The best-known old tree in Meycauayan is the Meycauayan Tree, a rain tree in the patio of the Parish Church of St. Francis of Assisi, which Wikipedia puts at almost a century and a half. It is one of three rain trees in front of the church facade, in the town centre about 20 kilometres north of Manila.",
+  "question_context": "The age rests on one source, the Wikipedia article on the tree, which gives it almost a century and a half. No girth, ring count or planting record stands behind that figure, so it puts the tree somewhere around the 1870s by estimate only. Nobody recorded who planted the three rain trees in the patio, and the sources do not say which of the three is the honoured one. Locally they are called acacias, though the species is Samanea saman, the rain tree. What is recorded is the tree's place in local history. Manuel L. Quezon, later president of the Philippines, played under it as a young sexton in 1890, and the Tree Preservation Foundation of the Philippines recognised it in 1982. Its marker was stolen in 2004 and replaced in 2014. The church itself is older than any of this, a parish founded in 1578 with a belfry from 1800. The newest dated photographs of the tree that we know of were taken in 2016, so if you have seen it lately, tell us whether it still stands and which trunk carries the marker.",
+  "faq": [
+    {
+      "q": "What kind of tree is the Meycauayan Tree?",
+      "a": "A rain tree, Samanea saman, though locally it is called an acacia."
+    },
+    {
+      "q": "Why is it famous?",
+      "a": "Manuel L. Quezon, later president of the Philippines, played under it in 1890 as a young sexton at the church. It was recognised by the Tree Preservation Foundation of the Philippines in 1982."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "In the patio in front of the Parish Church of St. Francis of Assisi in Meycauayan, Bulacan. It is one of three rain trees there."
+    }
+  ],
+  "trees": [
+    {
+      "id": "mcy_001",
+      "name": "Meycauayan Tree",
+      "species": "Rain Tree (Samanea saman)",
+      "age_estimate": "about 150 years",
+      "age_min": 120,
+      "age_max": 180,
+      "location": {
+        "address": "Patio of the Parish Church of St. Francis of Assisi, Meycauayan, Bulacan",
+        "latitude": 14.7347,
+        "longitude": 120.9571,
+        "neighbourhood": "Poblacion, Meycauayan"
+      },
+      "story": "A future president of the Philippines played under this tree. In 1890 Manuel L. Quezon was a young sexton at the church behind it, according to the Wikipedia article on the tree.\n\nLocally it is called an acacia, but the species is the rain tree, Samanea saman. It is one of three that stand in the patio of the Parish Church of St. Francis of Assisi in Meycauayan, a parish founded in 1578, with a belfry built in 1800. Nobody recorded who planted them. Wikipedia gives the tree almost a century and a half, which would put its planting somewhere around the 1870s. That figure comes from one source, with no girth or ring count behind it, so read it as an estimate.\n\nIn 1982 the Tree Preservation Foundation of the Philippines recognised the tree and put up a marker. Somebody stole the marker in 2004. It was replaced in 2014.\n\nThe newest dated photographs we know of were taken in 2016, so we cannot promise more recent news than that. If you have been to Meycauayan lately, tell us whether it still stands, and which of the three trees the marker belongs to. The patio is open churchyard ground in front of the facade, in the town centre about 20 kilometres north of Manila along MacArthur Highway.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Meycauayan_Tree",
+        "https://commons.wikimedia.org/wiki/Category:Meycauayan_Tree"
+      ],
+      "access": "Stands in the open churchyard patio in front of the church facade; churchyard ground, no fee known. Hours not confirmed.",
+      "location_site": {
+        "name": "Patio of the Parish Church of St. Francis of Assisi, Meycauayan",
+        "radius_m": 40
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "how_to_recognise": "You can recognise it as one of the three big rain trees in the patio in front of the church facade. Which of the three is the honoured one is not recorded, so look for the marker, replaced in 2014.",
+      "verify_notes": "- Sources: only en.wikipedia (and a Wikidata item Q18344292) hold the facts. Wikipedia: one of three acacia (Samanea saman) trees in the church patio, planted by an unknown person, 'almost a century and a half' old, i.e. roughly 1870s (derived from the article, not a measurement). Search snippets mention an Esquire PH 2019 piece and a Wikivoyage entry listing it; both unreadable/unread here (Esquire 403), so not counted as sources.\n- Remarkable: Manuel L. Quezon, later Philippine president, played under it as a young sexton in 1890 (Wikipedia). Tree Preservation Foundation of the Philippines recognised it in 1982 and set a marker; marker stolen 2004, replaced 2014 (Wikipedia). Church founded 1578; belfry 1800.\n- Species caveat: Wikipedia calls them 'acacia (Samanea saman)'; Samanea saman is the rain tree, so the species is the rain tree and 'acacia' is the common local label.\n- ALIVE IS THIN: lifecheck returned NONE at the Wikipedia coordinate. Newest dated evidence is the Commons photo set from 2016-03-11 (30+ files). A search summary claimed 'remains a landmark as of July 2026' but that is a summary, not seen on a page. Deliver flagged, ask the reader to confirm it still stands. Three trees are in the patio and it is not established which of them is the marked one.\n- Pin: Wikipedia coordinate is church-level; approximate.\n- Girth/height: none recorded. Age basis is one source; no growth-rate estimate possible without girth.\n- Weak on 'worth the walk': a heritage-marked rain tree in a town churchyard. Publishable under the single-famous-tree test only if the Quezon link is judged enough; writer or Hidde to decide, not a blocker.\n- Writing pass 2026-11-15: merged as mcy_001 (research id phl_003 clashed with Philadelphia's phl_003). Location site is the church patio; the recognition line says plainly which-of-three is not recorded.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ]
+}

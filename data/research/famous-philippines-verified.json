@@ -65,28 +65,5 @@
       "attribution": null,
       "status": "missing"
     }
-  },
-  {
-    "id": "phl_003",
-    "name": "Meycauayan Tree",
-    "species": "Rain Tree (Samanea saman)",
-    "age_estimate": "about 150 years",
-    "age_min": 120,
-    "age_max": 180,
-    "location": {
-      "address": "Patio of the Parish Church of St. Francis of Assisi, Meycauayan, Bulacan",
-      "latitude": 14.7347,
-      "longitude": 120.9571,
-      "neighbourhood": "Poblacion, Meycauayan"
-    },
-    "verified_sources": [
-      "https://en.wikipedia.org/wiki/Meycauayan_Tree",
-      "https://commons.wikimedia.org/wiki/Category:Meycauayan_Tree"
-    ],
-    "access": "Stands in the open churchyard patio in front of the church facade; churchyard ground, no fee known. Hours not confirmed.",
-    "transport": "Meycauayan city centre, about 20 km north of Manila; reached by bus or jeepney on MacArthur Highway. Walk time from the stop not confirmed.",
-    "location_precision": "approximate",
-    "curation_status": "flagged",
-    "verify_notes": "- Sources: only en.wikipedia (and a Wikidata item Q18344292) hold the facts. Wikipedia: one of three acacia (Samanea saman) trees in the church patio, planted by an unknown person, 'almost a century and a half' old, i.e. roughly 1870s (derived from the article, not a measurement). Search snippets mention an Esquire PH 2019 piece and a Wikivoyage entry listing it; both unreadable/unread here (Esquire 403), so not counted as sources.\n- Remarkable: Manuel L. Quezon, later Philippine president, played under it as a young sexton in 1890 (Wikipedia). Tree Preservation Foundation of the Philippines recognised it in 1982 and set a marker; marker stolen 2004, replaced 2014 (Wikipedia). Church founded 1578; belfry 1800.\n- Species caveat: Wikipedia calls them 'acacia (Samanea saman)'; Samanea saman is the rain tree, so the species is the rain tree and 'acacia' is the common local label.\n- ALIVE IS THIN: lifecheck returned NONE at the Wikipedia coordinate. Newest dated evidence is the Commons photo set from 2016-03-11 (30+ files). A search summary claimed 'remains a landmark as of July 2026' but that is a summary, not seen on a page. Deliver flagged, ask the reader to confirm it still stands. Three trees are in the patio and it is not established which of them is the marked one.\n- Pin: Wikipedia coordinate is church-level; approximate.\n- Girth/height: none recorded. Age basis is one source; no growth-rate estimate possible without girth.\n- Weak on 'worth the walk': a heritage-marked rain tree in a town churchyard. Publishable under the single-famous-tree test only if the Quezon link is judged enough; writer or Hidde to decide, not a blocker."
   }
 ]
