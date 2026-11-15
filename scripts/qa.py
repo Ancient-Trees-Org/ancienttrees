@@ -1035,6 +1035,37 @@ def check_a_photo_is_a_visit_on_every_surface():
     return out
 
 
+def check_a_readers_words_go_public_only_after_the_field_said_so():
+    """scripts/reader_text_notes.py turns the words a reader typed with the
+    tree they sent into their note on its page (Hidde, 2026-11-15: "Ja, bouw
+    het", "maar zeg dus ook dat het openbaar wordt"). Words typed before the
+    field said they show on the page stay private; a bare link is not a note;
+    a surface with no date set publishes nothing. Removing this check needs Hidde."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import importlib
+    try:
+        rtn = importlib.import_module("reader_text_notes")
+    except Exception as e:
+        return [f"reader_text_notes.py does not import: {e}"]
+    errs = []
+    since = "2026-11-15T21:00:00+00:00"
+    if rtn.eligible("A huge old oak", "2026-11-15T20:59:00+00:00", since) is not None:
+        errs.append("words typed before the field said they are public would be published")
+    if rtn.eligible("A huge old oak", "2026-11-16T09:00:00+00:00", since) != "A huge old oak":
+        errs.append("words typed after the field said so are not published")
+    if rtn.eligible("famousredwoods.com/giant_tree/", "2026-11-16T09:00:00+00:00", since) is not None:
+        errs.append("a bare link would become a note")
+    if rtn.eligible("A huge old oak", "2026-11-16T09:00:00+00:00", None) is not None:
+        errs.append("a surface whose field does not say so yet would publish")
+    for line in ("Shows on the tree's page",):
+        if line not in Path("site/src/pages/contribute.astro").read_text(encoding="utf-8"):
+            errs.append(f"the website's form no longer says '{line}' under its words field")
+    if "Shows on the tree's page" not in Path(
+            "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift").read_text(encoding="utf-8"):
+        errs.append("the app's 'What makes this tree special?' no longer says it shows on the page")
+    return errs
+
+
 def check_a_pull_keeps_unpushed_send_lines():
     """private_store.py pull never throws away a send-log line written here
     and not pushed yet (2026-11-15: a reply's line was lost that way, and the
@@ -4043,6 +4074,7 @@ def main():
 
     SOURCE_ONLY = [
         check_no_daily_cap_on_reader_mail,
+        check_a_readers_words_go_public_only_after_the_field_said_so,
         check_a_pull_keeps_unpushed_send_lines,
         check_run_prompt_forbids_compound_commands,
         check_run_prompt_carries_no_expression,

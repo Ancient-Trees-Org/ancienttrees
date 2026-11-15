@@ -30,7 +30,7 @@ const headExtra = ldScript(graph);
   <p class="answer-first">This map is missing far more cities than it has, and the trees that matter most are the ones locals already know about. If you know your city's remarkable old trees, you can put them on the map.</p>
   <div class="prose-block">
     <p>You know the trees we miss: the one on the corner everyone in the neighbourhood walks past, the one with a story only people who live there know.</p>
-    <p>We check every tree you send, and the location above all, because a wrong pin is worse than a missing tree. We do not publish your name anywhere on the site, and you don't need to give it.</p>
+    <p>We check every tree you send, and the location above all, because a wrong pin is worse than a missing tree. What you write about it shows on its page with your profile name, like a note.</p>
   </div>
 
   {/* THE ACCOUNT IS ASKED FOR BEFORE THE TYPING, not after it (2026-09-24).
@@ -69,7 +69,7 @@ const headExtra = ldScript(graph);
     <label>Where does it stand? <span class="sg-hint">A street, a park, or a Google Maps link. The single most useful thing you can give us.</span>
       <input type="text" id="sg-where" placeholder="Domplein, next to the cathedral entrance">
     </label>
-    <label>Why is it remarkable?
+    <label>Why is it remarkable? <span class="sg-hint">Shows on the tree's page with your profile name.</span>
       <textarea id="sg-why" rows="3" placeholder="Old, huge, a story attached, or simply the tree everyone knows"></textarea>
     </label>
     <label>How far round is the trunk? <span class="sg-hint">Optional. In metres, at chest height. One hug is about 1.5 m.</span>
@@ -94,9 +94,6 @@ const headExtra = ldScript(graph);
       <input id="sg-pic" type="file" accept="image/*" multiple hidden />
       <span id="sg-pic-name" class="sg-hint"></span>
     </div>
-    <label>Your name <span class="sg-hint">Optional. Never shown on the site.</span>
-      <input type="text" id="sg-name" placeholder="First name is fine">
-    </label>
     <button type="submit" class="go-btn">Send it in</button>
     <p class="sg-note" id="sg-note"></p>
   </form>
@@ -127,7 +124,7 @@ const headExtra = ldScript(graph);
   var f = document.getElementById('suggest'), note = document.getElementById('sg-note');
   var done = document.getElementById('sg-done');
   if (!f) return;
-  var FIELDS = ['sg-kind', 'sg-city', 'sg-tree', 'sg-where', 'sg-why', 'sg-girth', 'sg-name'];
+  var FIELDS = ['sg-kind', 'sg-city', 'sg-tree', 'sg-where', 'sg-why', 'sg-girth'];
   // "4.2", "4,2", "4.2 m" and "420 cm" are the same trunk; a bare number under
   // 30 is metres. The same rule as Sightings.girthCm(parsing:) in the app, and
   // the same range as the database's own check.
@@ -340,7 +337,6 @@ const headExtra = ldScript(graph);
       tree: document.getElementById('sg-tree').value.trim(),
       location_hint: document.getElementById('sg-where').value.trim(),
       why: document.getElementById('sg-why').value.trim(),
-      name: document.getElementById('sg-name').value.trim(),
       page: document.referrer || null
     };
     // Only when there is one: a column the database does not know yet would

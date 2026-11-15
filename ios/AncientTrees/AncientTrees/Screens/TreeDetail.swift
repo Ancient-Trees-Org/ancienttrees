@@ -1420,7 +1420,15 @@ struct TreeDetail: View {
         /// method: metres, at 1.5 m up, and a hug is about 1.5 m for somebody
         /// standing there without a tape (CONVENTIONS.md, 2026-09-11).
         var hint: String? {
-            self == .girth ? "In metres, at chest height. One hug is about 1.5 m." : nil
+            switch self {
+            case .girth: "In metres, at chest height. One hug is about 1.5 m."
+            // Said where it is typed (Hidde, 2026-11-15: "zeg dus ook dat het
+            // openbaar wordt"): once the tree is live these words become your
+            // note on its page (scripts/reader_text_notes.py; CONVENTIONS.md,
+            // "The words somebody types with a photograph").
+            case .story: "Shows on the tree's page with your profile name."
+            default: nil
+            }
         }
 
         /// Long answers get room; a species or an age is one line.
