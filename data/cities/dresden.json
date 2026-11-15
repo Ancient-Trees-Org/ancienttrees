@@ -917,7 +917,7 @@
       ],
       "access": "Free. The park south of the manor house is crossed by the Elbhangwanderweg, a public walking route.",
       "transport": "About 9 km east of the Altstadt. Bus 98B (Borsberg to Niederpoyritz via Schönfeld) is the only public transport in Helfenberg; we have not timed the walk from its stop.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Naturdenkmal_H%C3%A4ngebuchen_im_Helfenberger_Park_01.JPG",
@@ -957,7 +957,14 @@
         "name": "Naturdenkmal Dresden (Kurzdokumentation Schutzgebiete nach Naturschutzrecht, ND 78), no. ND 78",
         "url": "https://stadtplan.dresden.de/project/cm3/Detail/umwelt_formblatt_detail.aspx?ID=9484&THEMA=UW_NATSCHR&CARDOMAP_TH_TITLE=Schutzgebiete+nach+Naturschutzrecht&CARDOMAP_TH_ID=6.1591&CARDOMAP_TH_ALIAS=UW_NATSCHR&CARDOMAP_L_ID=L1232"
       },
-      "height_m": 20
+      "height_m": 20,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "cfcad2b9-4ce3-49f8-bf53-a03f156c8794",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "dre_020",

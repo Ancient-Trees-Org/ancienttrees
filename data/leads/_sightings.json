@@ -1725,7 +1725,7 @@
    "user_id": "p_37416ead21cbdc89843773fd",
    "mine": false,
    "name": "A giant sequoia",
-   "species": null,
+   "species": "Giant Sequoia (Sequoiadendron sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -1738,9 +1738,10 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "held",
+   "why": "looked at 2026-11-15: a giant sequoia seen trunk-up, a fine tree, but no coordinate and no place named (the note only says an urban park, a former house's grounds), so it cannot be placed honestly; waits for a GPS photo or the park's name.",
+   "seen": "2026-11-15",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "60daa5db-07e5-48d7-be3d-04c5684d70a7",
@@ -2422,8 +2423,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "held",
+   "why": "looked at 2026-11-15: a healthy dawn redwood in summer leaf with a GPS fix (Toronto east end), but a modest trunk in what looks like a garden or yard, no note, no age or size; not clearly public ground (hard rule 10) and no reason a visitor would walk to it. Waits for a note on where it stands and why it matters.",
    "seen": "2026-11-15"
   }
  ]

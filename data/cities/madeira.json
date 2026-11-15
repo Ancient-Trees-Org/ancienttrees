@@ -230,23 +230,7 @@
         "url": "https://www.openstreetmap.org/node/11893400096",
         "date": "2026-10-10",
         "moved_m": 0
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-89fa82ed.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1019,
-          "height": 1124,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_f2672ab7bbb88b12a4928f3e",
-          "sighting_id": "89fa82ed-c931-4070-a67b-e17d62682c1e",
-          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        }
-      ]
+      }
     },
     {
       "id": "mdr_006",

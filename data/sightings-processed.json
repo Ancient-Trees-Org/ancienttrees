@@ -1753,6 +1753,221 @@
   "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "1087f3e1-a05d-4055-a4b1-f87b31408478": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "vld_001",
+   "city_slug": "valdemarpils",
+   "file": "vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice.jpg",
+   "reason": "whole tree, daylight, manor behind; tree had no photograph Species seen: old linden, twisted trunk, long moss-covered limbs. Fits the description: whole veteran tree beside the manor.",
+   "lat": 57.37889,
+   "lon": 22.60033,
+   "pin_checked": "2026-11-15"
+  },
+  "70750b4c-9722-4eba-9a2f-d6e681674c27": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "vld_001",
+   "city_slug": "valdemarpils",
+   "file": "vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-70750b4c.jpg",
+   "reason": "close-up of the hollow trunk, belongs in the strip Species seen: linden bark and hollow. Fits the description: hollow in the old trunk.",
+   "lat": 57.37889,
+   "lon": 22.60033,
+   "pin_checked": "2026-11-15"
+  },
+  "288a3a8f-8645-44cd-ac41-f14e5e827531": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "vld_001",
+   "city_slug": "valdemarpils",
+   "file": "vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-288a3a8f.jpg",
+   "reason": "second wide view, same trunk Species seen: linden trunk and spreading limbs. Fits the description: trunk and limbs beside manor.",
+   "lat": 57.37889,
+   "lon": 22.60033,
+   "pin_checked": "2026-11-15"
+  },
+  "5b8c4e7a-86a1-4b3f-a434-83e7a0945553": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "war_001",
+   "city_slug": "warsaw",
+   "file": "war_001-dab-mieszko-i-king-mieszko-i-s-oak-5b8c4e7a.jpg",
+   "reason": "roughly this oak, in leaf Species seen: pedunculate oak, split trunk with steel support. Fits the description: veteran oak with steel scaffold.",
+   "lat": 52.1410471666667,
+   "lon": 21.0705555,
+   "pin_checked": "2026-11-15"
+  },
+  "56342639-17a9-44b9-a876-bfe3cfa658dc": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "yor_003",
+   "city_slug": "york",
+   "file": "yor_003-the-pear-barked-beech-56342639.jpg",
+   "reason": "the tree in autumn colour Species seen: beech, smooth trunk in autumn leaf. Fits the description: mature beech with unusual bark.",
+   "lat": 53.961445595023,
+   "lon": -1.0875351179479,
+   "pin_checked": "2026-11-15"
+  },
+  "a1e5696d-07f6-4ad8-b33d-af8a195ee53a": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_011",
+   "city_slug": "munich",
+   "file": "muc_011-the-copper-beech-of-the-badenburg-a1e5696d.jpg",
+   "reason": "the tree, autumn colour Species seen: copper beech in rust autumn leaf. Fits the description: large copper beech by the palace.",
+   "lat": 48.1537102548245,
+   "lon": 11.4937640220253,
+   "pin_checked": "2026-11-15"
+  },
+  "3325a9bc-9642-4364-8475-8f89d62e834d": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "bai_001",
+   "city_slug": "buenos-aires",
+   "file": "bai_001-the-gomero-de-la-recoleta-3325a9bc.jpg",
+   "reason": "the fig in daylight Species seen: Ficus macrophylla, buttress roots, wide limbs. Fits the description: great fig behind a fence.",
+   "lat": -34.5876,
+   "lon": -58.3913,
+   "pin_checked": "2026-11-15"
+  },
+  "1d81ebf6-cb4f-4e67-80de-8f8122af0b3d": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_013",
+   "city_slug": "munich",
+   "file": "muc_013-the-fern-leaved-beech-of-the-amalienburg-1d81ebf6.jpg",
+   "reason": "the tree in autumn Species seen: beech, tall straight trunk, autumn. Fits the description: tall beech by the path.",
+   "lat": 48.1554228775761,
+   "lon": 11.5004504601167,
+   "pin_checked": "2026-11-15"
+  },
+  "770b668b-0152-47a4-9822-70e04183b599": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "sev_044",
+   "city_slug": "seville",
+   "file": "sev_044-the-card-n-of-the-expo-770b668b.jpg",
+   "reason": "the cardon in blue sky Species seen: giant cardon cactus, many arms. Fits the description: tall multi-armed cactus in a car park.",
+   "lat": 37.4091633333333,
+   "lon": -6.00325833333333,
+   "pin_checked": "2026-11-15"
+  },
+  "f9aef0f0-825b-43a6-80c6-bdae5f77ce0d": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_012",
+   "city_slug": "munich",
+   "file": "muc_012-the-leaning-lime-of-the-badenburger-see-f9aef0f0.jpg",
+   "reason": "the leaning lime at dusk Species seen: old linden leaning over the lake. Fits the description: leaning lime by the lake.",
+   "lat": 48.1545349853042,
+   "lon": 11.4933903998809,
+   "pin_checked": "2026-11-15"
+  },
+  "31f72d8f-0bcc-4df5-88a8-46c14bbbb5cf": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "muc_012",
+   "city_slug": "munich",
+   "file": "muc_012-the-leaning-lime-of-the-badenburger-see-31f72d8f.jpg",
+   "reason": "weaker light, kept behind the lead Species seen: old linden over the lake. Fits the description: leaning lime, lake and dusk light.",
+   "lat": 48.1546055,
+   "lon": 11.4933033333333,
+   "pin_checked": "2026-11-15"
+  },
+  "216338b4-a159-48ae-a60a-676e2a9122fb": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "for_001",
+   "city_slug": "fortingall",
+   "file": "for_001-the-fortingall-yew-216338b4.jpg",
+   "reason": "the yew, daylight Species seen: yew, twisted fluted trunks, churchyard wall. Fits the description: Fortingall yew trunks beside churchyard wall.",
+   "lat": 56.5981666666667,
+   "lon": -4.05083333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "b24fa509-4aa6-42fc-9fda-04282a20e481": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "yor_002",
+   "city_slug": "york",
+   "file": "yor_002-the-cut-leaved-hornbeam-b24fa509.jpg",
+   "reason": "the tree in autumn Species seen: hornbeam, bare crown with autumn leaf. Fits the description: wide-crowned hornbeam in a park.",
+   "lat": 53.9609824181858,
+   "lon": -1.08705966701934,
+   "pin_checked": "2026-11-15"
+  },
+  "cc260294-0437-4efb-8c0f-5bf73fb0adf3": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_046",
+   "city_slug": "london",
+   "file": "lon_046-the-bromley-oak-cc260294.jpg",
+   "reason": "the oak, lit at night Species seen: oak, massive twin trunks, night. Fits the description: Bromley Oak by the road at night.",
+   "lat": 51.403414,
+   "lon": 0.018598,
+   "pin_checked": "2026-11-15"
+  },
+  "4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_046",
+   "city_slug": "london",
+   "file": "lon_046-the-bromley-oak-4fa5c2bb.jpg",
+   "reason": "second night view Species seen: oak, forked trunk, night. Fits the description: Bromley Oak by the road at night.",
+   "lat": 51.403414,
+   "lon": 0.018598,
+   "pin_checked": "2026-11-15"
+  },
+  "221f1245-c4b5-4b97-a777-879f9f8bd9e7": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "nra_002",
+   "city_slug": "nara",
+   "file": "nra_002-the-great-cedar-of-kasuga-taisha-221f1245.jpg",
+   "reason": "trunk and shrine, behind the lead Species seen: Japanese cedar trunk with shimenawa beside the shrine. Fits the description: cedar trunk at Kasuga Taisha.",
+   "lat": 34.6814044,
+   "lon": 135.8482731,
+   "pin_checked": "2026-11-15"
+  },
+  "cfcad2b9-4ce3-49f8-bf53-a03f156c8794": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dre_019",
+   "city_slug": "dresden",
+   "file": "dre_019-the-weeping-beech-of-helfenberg-park-cfcad2b9.jpg",
+   "reason": "the tree in summer leaf Species seen: weeping beech, wide fluted trunk. Fits the description: weeping beech trunk and pendant branches.",
+   "lat": 51.036222,
+   "lon": 13.863639,
+   "pin_checked": "2026-11-15"
+  },
+  "61ca336b-c1eb-4f2a-8709-bcb29e63a2c6": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "pal_003",
+   "city_slug": "palermo",
+   "file": "pal_003-the-ficus-of-the-orto-botanico-61ca336b.jpg",
+   "reason": "the fig in daylight Species seen: Ficus macrophylla, aerial roots forming many trunks. Fits the description: banyan-like fig with pillar roots.",
+   "lat": 38.111042,
+   "lon": 13.374717,
+   "pin_checked": "2026-11-15"
+  },
+  "90aa5d92-64b3-439f-b2b3-a56cc8b41136": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "dre_005",
+   "city_slug": "dresden",
+   "file": "dre_005-the-kaditzer-linde-90aa5d92.jpg",
+   "reason": "the lime in leaf Species seen: large-leaved linden, multi-stem trunk, bench. Fits the description: ancient lime with hollow trunk.",
+   "lat": 51.0833473,
+   "lon": 13.6714672,
+   "pin_checked": "2026-11-15"
+  },
+  "89fa82ed-c931-4070-a67b-e17d62682c1e": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "mdr_005",
+   "reason": "Fanal's laurels look alike in fog; the frame cannot settle which trunk is the Witch Tree"
   }
  }
 }

@@ -56,14 +56,48 @@
       "access": "Free; publicly accessible, at the edge of Valdemārpils in the Sasmaka manor park.",
       "transport": "Sasmaka manor park on the edge of Valdemārpils, Talsi Municipality.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-288a3a8f.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1068,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_89503f3702c2ed81ce8725f5",
+        "sighting_id": "288a3a8f-8645-44cd-ac41-f14e5e827531",
+        "note": "Photographed by a reader and sent through the app (2026-05-04); a viewing pass approved it on 2026-11-15: second wide view, same trunk Species seen: linden trunk and spreading limbs. Fits the description: trunk and limbs beside manor.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "curation_status": "ai_generated",
-      "location_precision": "confirmed"
+      "location_precision": "confirmed",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1068,
+          "height": 1600,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_89503f3702c2ed81ce8725f5",
+          "sighting_id": "1087f3e1-a05d-4055-a4b1-f87b31408478",
+          "note": "Photographed by a reader and sent through the app (2026-05-04); a viewing pass approved it on 2026-11-15: whole tree, daylight, manor behind; tree had no photograph Species seen: old linden, twisted trunk, long moss-covered limbs. Fits the description: whole veteran tree beside the manor.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-70750b4c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1068,
+          "height": 1600,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_89503f3702c2ed81ce8725f5",
+          "sighting_id": "70750b4c-9722-4eba-9a2f-d6e681674c27",
+          "note": "Photographed by a reader and sent through the app (2026-05-04); a viewing pass approved it on 2026-11-15: close-up of the hollow trunk, belongs in the strip Species seen: linden bark and hollow. Fits the description: hollow in the old trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

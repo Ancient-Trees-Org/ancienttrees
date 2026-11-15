@@ -143,8 +143,8 @@
       "age_max": 150,
       "location": {
         "address": "York Museum Gardens, Museum Street, York YO1 7FR",
-        "latitude": 53.960836,
-        "longitude": -1.086686,
+        "latitude": 53.961446,
+        "longitude": -1.087535,
         "neighbourhood": "York city centre"
       },
       "story": "Halfway up the trunk of this beech, at almost exactly two metres, the bark changes: rough and fissured like a pear tree's below the line, smooth and grey like an ordinary beech's above it. That is because it is not one tree but two, grafted together when the Yorkshire Philosophical Society was filling York Museum Gardens with botanical curiosities, and the join has held long enough that the tree now stands nineteen metres tall with a trunk almost three metres round, one of Yorkshire's six Tree Register champions inside these ten acres. Pear bark grafted onto beech rootstock, or the other way round (records from the planting era do not say which), was the kind of horticultural party trick Victorian garden designers liked to show off, proof that a garden could out-engineer nature as easily as display it. Two centuries on, most visitors walk past the graft line without noticing it is there at all, distracted by the ruins of St Mary's Abbey behind it or the river beyond the lawn. Look for the seam in the bark at head height and the whole two-tree history becomes obvious in a way no plaque could improve on.",
@@ -166,7 +166,7 @@
       },
       "curation_status": "ai_generated",
       "notes": "Same two-source basis as the Willow-Leaved Ash. No distinguishing Ancient Tree Inventory or iNaturalist record identifies this specific specimen among York's several beeches, so its coordinate is only the garden's general location, not tree-level; marked approximate.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "best_time": {
         "months": [
           10,
@@ -179,11 +179,11 @@
       "girth_cm": 289,
       "height_m": 19,
       "pin_source": {
-        "kind": "reader moved the pin",
-        "submission": 731,
-        "moved_m": 53,
+        "kind": "reader GPS fix",
+        "sighting_id": "56342639-17a9-44b9-a876-bfe3cfa658dc",
+        "moved_m": 88,
         "date": "2026-11-15",
-        "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: published coordinate."
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       },
       "photos": [
         {

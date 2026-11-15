@@ -776,6 +776,39 @@
     }
    ],
    "sent": []
+  },
+  "p_89503f3702c2ed81ce8725f5": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1087f3e1-a05d-4055-a4b1-f87b31408478",
+     "tree_id": "vld_001",
+     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
+     "city": "Valdemārpils",
+     "city_slug": "valdemarpils",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "70750b4c-9722-4eba-9a2f-d6e681674c27",
+     "tree_id": "vld_001",
+     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
+     "city": "Valdemārpils",
+     "city_slug": "valdemarpils",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "288a3a8f-8645-44cd-ac41-f14e5e827531",
+     "tree_id": "vld_001",
+     "tree_name": "Elku Linden of Valdemārpils (Linden of Sacrifice)",
+     "city": "Valdemārpils",
+     "city_slug": "valdemarpils",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
   }
  }
 }
