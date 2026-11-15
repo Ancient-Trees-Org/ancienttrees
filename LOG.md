@@ -2,6 +2,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 19:00 session: the wrong photo on small copies
+
+- **Product**: twelve trees whose lead is a reader's photograph showed an OLDER photograph wherever a small copy loads (cards, the Seasons tiles, the app's thumbnails). Hidde saw it on the Birnam Oak: the Autumn tile showed the July Geograph frame instead of the reader's November photo. Also the Totteridge Yew, the Royal Oak (Richmond), Ravenscourt tree of heaven, Windrush Square plane, Stevenson's yew (Edinburgh), the Land Boat Pine (Kyoto), the Atsuta camphor, the Piazza Marina ficus, the York hornbeam, the Istanbul plane (ist_004) and the Porto ginkgo (whose small copy was a Commons photo no longer on the tree; removed). Live with the deploy of commit 67ef69160.
+- **Cause**: vendor_photos.py --manifest gave a tree's FIRST photograph the tree-named small copies; when a reader's photo became the lead, it took over the copies made from the old lead. Now an own-domain photo gets them only when the pixels match; preflight `check_a_vendored_copy_is_the_same_picture()` guards it; escaped bug recorded with that test.
+
 ## 2026-11-15 evening session: the rest of the Guardian day's inbox
 
 - **Product**: eight more reader trees live, app first: the fig in Manaccan's church wall (mnc_002), the Giant Tree and the Tall Tree in Humboldt Redwoods (hum_001, hum_002; coast redwoods, the readers called them giant sequoias), the Glynburn Road red gum (Adelaide, ads_002), the Southover Grange mulberry (Lewes, lew_001), the Conishead Priory cedar and Douglas fir (Ulverston, ulv_001, ulv_002) and the Metrosideros of A Coruna (acr_001). First reader photos for the Anseman and Suicide Oaks (New Orleans), more for Wistman's Wood and the Schwanenbruecke beech. Cork's Monterey pine to a reader's hand placement. Husalle Lindens: a reader could not tell which tree; recognition line now says it is the avenue, and the 300-360 years removed (it bridged the garden's planting era to the trees). Deploy dispatched.
