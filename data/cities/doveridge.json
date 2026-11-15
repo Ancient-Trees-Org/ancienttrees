@@ -1,0 +1,65 @@
+{
+  "city": "Doveridge",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Doveridge is a village in Derbyshire, and the churchyard of St Cuthbert's holds an old yew that a reader puts at about fourteen hundred years. A new oak frame carries the path under its lowest limbs, so that you walk beneath the twisting branches. A local legend says Robin Hood and Maid Marian were married under it. The reader sent it with a photograph of that frame.",
+  "meta_description": "The Doveridge Yew: where it stands and what is known about it.",
+  "hero_tree_id": "dvr_001",
+  "oldest_tree_id": "dvr_001",
+  "trees": [
+    {
+      "id": "dvr_001",
+      "name": "The Doveridge Yew",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "about 1400 years",
+      "age_basis": "source",
+      "location": {
+        "address": "St Cuthbert's Church, Doveridge, Derbyshire",
+        "latitude": 52.90422,
+        "longitude": -1.83152166666667,
+        "neighbourhood": "St Cuthbert's churchyard"
+      },
+      "story": "A reader sent this yew as \"The Old Yew Tree, St Cuthberts\" and gave it an age of 1,400 years. It stands in the churchyard of St Cuthbert's at Doveridge in Derbyshire, and the photograph shows how the village looks after it, with a new oak frame carries the path under its lowest limbs, so that you walk beneath a roof of twisting red-brown branches, with the broad, fluted trunk standing just beyond the posts.\n\nWikipedia's page for Doveridge gives no age or girth for the tree. Its only mention is a legend that Robin Hood and Maid Marian were married under the old yew in the churchyard, and it says the church itself is more than nine centuries old. The 1,400 years is the reader's figure, and no ring count backs it, so treat it as an estimate.\n\nThe tree is in an open churchyard beside the path. Look for the timber frame over the gravel and the old gravestones leaning around the trunk. If you know its measurements or its history, tell us on this page.",
+      "how_to_recognise": "A broad fluted yew trunk with twisting branches, a new oak timber frame over the gravel path beneath it, gravestones around.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Doveridge"
+      ],
+      "found_by_reader": {
+        "sighting_id": "c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting c476f81b). Photograph viewed: Old yew over the path under a timber frame, churchyard, daylight. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
+      "access": "In the churchyard of St Cuthbert's, seen from the path.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dvr_001-the-doveridge-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_e4cf35da312b73472f8b6291",
+        "sighting_id": "c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Old yew over the path under a timber frame, churchyard, daylight.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The Doveridge Yew: where it stands and what is known about it.",
+  "question_answer": "The Doveridge Yew stands at St Cuthbert's Church, Doveridge, Derbyshire. In the churchyard of St Cuthbert's, seen from the path.",
+  "question_context": "A reader sent this yew as \"The Old Yew Tree, St Cuthberts\" and gave it an age of 1,400 years. It stands in the churchyard of St Cuthbert's at Doveridge in Derbyshire, and the photograph shows how the village looks after it, with a new oak frame carries the path under its lowest limbs, so that you walk beneath a roof of twisting red-brown branches, with the broad, fluted trunk standing just beyond the posts. Wikipedia's page for Doveridge gives no age or girth for the tree. Its only mention is a legend that Robin Hood and Maid Marian were married under the old yew in the churchyard, and it says the church itself is more than nine centuries old. The 1,400 years is the reader's figure, and no ring count backs it, so treat it as an estimate. The tree is in an open churchyard beside the path. Look for the timber frame over the gravel and the old gravestones leaning around the trunk. If you know its measurements or its history, tell us on this page.",
+  "faq": [
+    {
+      "q": "Can I visit The Doveridge Yew?",
+      "a": "In the churchyard of St Cuthbert's, seen from the path."
+    }
+  ]
+}

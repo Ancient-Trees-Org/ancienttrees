@@ -1,0 +1,69 @@
+{
+  "city": "Woodside",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Woodside is a town on the San Francisco Peninsula, and its hills run up to Skyline Boulevard, where a coast redwood called the Methuselah Tree stands. A reader calls it nearly two thousand years old and forty-four feet around, and says it is easy to reach from the road. They sent a photograph of its furrowed, burled and hollowed trunk, and the Peninsula Open Space Trust has written about it.",
+  "meta_description": "The Methuselah Tree: where it stands and what is known about it.",
+  "hero_tree_id": "wdd_001",
+  "oldest_tree_id": "wdd_001",
+  "trees": [
+    {
+      "id": "wdd_001",
+      "name": "The Methuselah Tree",
+      "species": "Coast Redwood (Sequoia sempervirens)",
+      "age_estimate": "over 1800 years",
+      "age_min": 1800,
+      "age_max": 2000,
+      "age_basis": "source",
+      "location": {
+        "address": "Skyline Boulevard, San Mateo County, California",
+        "latitude": 37.4130060224733,
+        "longitude": -122.318238433769,
+        "neighbourhood": "Skyline Boulevard"
+      },
+      "story": "\"This is the Methuselah tree, a local landmark on the San Francisco Bay peninsula,\" a reader wrote. \"Nearly 2,000 years old, 44 feet around. Easily accessible from Skyline Boulevard.\" Their photograph shows the base, a vast reddish trunk with deeply furrowed bark, burls and a dark hollow, rising out of green redwood sprays.\n\nThe reader linked a Peninsula Open Space Trust article on old-growth redwood, which we could not open, so the figures here are theirs. Forty-four feet is about 13.4 metres. A coast redwood that wide and close to two thousand years old would be among the old survivors of a forest that was almost entirely logged in the nineteenth century, which is why a single trunk like this gets its own name.\n\nThe tree stands near Skyline Boulevard, and the reader says it is easy to reach from the road. A fence at the edge of the frame suggests a viewing path, but we do not know where exactly to park, so check the trust's own guidance before you go. If you have visited, tell us on this page how you reached it.",
+      "how_to_recognise": "A vast furrowed redwood trunk with burls and a dark hollow near the base, a wooden railing at the bottom right.",
+      "verified_sources": [
+        "https://openspacetrust.org/blog/old-growth-redwood/",
+        "A reader's photograph and note through the app, 2026-11-15, GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting 2ec0418a). Photograph viewed: Base of a huge redwood trunk, daylight, GPS fix at the tree. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
+      "access": "Reached from Skyline Boulevard, according to the reader; check the Peninsula Open Space Trust for parking and opening.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9cc31350702533ff4614483d",
+        "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Base of a huge redwood trunk, daylight, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "girth_cm": 1340
+    }
+  ],
+  "question_meta": "The Methuselah Tree: where it stands and what is known about it.",
+  "question_answer": "The Methuselah Tree stands at Skyline Boulevard, San Mateo County, California. Reached from Skyline Boulevard, according to the reader; check the Peninsula Open Space Trust for parking and opening.",
+  "question_context": "\"This is the Methuselah tree, a local landmark on the San Francisco Bay peninsula,\" a reader wrote. \"Nearly 2,000 years old, 44 feet around. Easily accessible from Skyline Boulevard.\" Their photograph shows the base, a vast reddish trunk with deeply furrowed bark, burls and a dark hollow, rising out of green redwood sprays. The reader linked a Peninsula Open Space Trust article on old-growth redwood, which we could not open, so the figures here are theirs. Forty-four feet is about 13.4 metres. A coast redwood that wide and close to two thousand years old would be among the old survivors of a forest that was almost entirely logged in the nineteenth century, which is why a single trunk like this gets its own name. The tree stands near Skyline Boulevard, and the reader says it is easy to reach from the road. A fence at the edge of the frame suggests a viewing path, but we do not know where exactly to park, so check the trust's own guidance before you go. If you have visited, tell us on this page how you reached it.",
+  "faq": [
+    {
+      "q": "Can I visit The Methuselah Tree?",
+      "a": "Reached from Skyline Boulevard, according to the reader; check the Peninsula Open Space Trust for parking and opening."
+    }
+  ]
+}

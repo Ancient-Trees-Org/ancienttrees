@@ -2195,6 +2195,51 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
       }
+    },
+    {
+      "id": "lon_053",
+      "name": "The Twisted Sweet Chestnut of Greenwich Park",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "about 360 years",
+      "age_basis": "source",
+      "location": {
+        "address": "Greenwich Park, London SE10",
+        "latitude": 51.4797666666667,
+        "longitude": 0.00456388333333333,
+        "neighbourhood": "Greenwich Park"
+      },
+      "story": "A reader sent this sweet chestnut from Greenwich Park with an age of 360 years, and its twisted, split trunk in low autumn sun explains the interest. The trunk spirals and opens into a hollow, with a rounded crown of gold leaves above it, standing beside a tarmac path on open grass.\n\nThe reader tells how Charles II, after taking the throne in 1660, set out a grand plan for the park and planted formal avenues of trees in the French style, and that many of those trees still stand. Sweet chestnut was a common choice for such avenues in the park, but we have no record naming this individual tree as one of them, and the 360 years is the reader's estimate rather than a count. A 360-year-old tree would date from about the 1660s, which fits the story but does not prove it.\n\nGreenwich Park is a Royal Park, open daily and free to enter. The tree stands beside a path in the open, so it is easy to find and to walk round. If you know more about its planting, tell us on this page.",
+      "how_to_recognise": "A twisted, hollowed chestnut trunk with a broad rounded crown, beside a tarmac path on open grass.",
+      "verified_sources": [
+        "A reader's photograph and note through the app, 2026-11-15, GPS fix at the tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting 24c1e280). Photograph viewed: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
+      "access": "Free, in Greenwich Park, which is open daily; the tree stands beside a path.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+        "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
     }
   ]
 }

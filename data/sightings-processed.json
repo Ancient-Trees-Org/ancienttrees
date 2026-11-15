@@ -2533,5 +2533,60 @@
    "lon": -72.5781033333333,
    "pin_checked": "2026-11-15"
   }
+ },
+ "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
+  "outcome": "added",
+  "date": "2026-11-15",
+  "tree_id": "bow_001",
+  "city_slug": "bowthorpe",
+  "file": "bow_001-the-bowthorpe-oak.jpg",
+  "reason": "A vast hollow oak trunk with the crown above it, daylight, inside its fenced ring.",
+  "lat": 52.7273075112087,
+  "lon": -0.424423238216235,
+  "pin_checked": "2026-11-15"
+ },
+ "7ff97b69-76b5-4905-80c2-7c7e901c31c0": {
+  "outcome": "added",
+  "date": "2026-11-15",
+  "tree_id": "crh_001",
+  "city_slug": "crowhurst",
+  "file": "crh_001-the-crowhurst-yew.jpg",
+  "reason": "Whole yew with railings and information board, daylight.",
+  "lat": 50.8833950973315,
+  "lon": 0.496318211269852,
+  "pin_checked": "2026-11-15"
+ },
+ "c476f81b-3871-4273-9e0a-f4f21ae2b5e1": {
+  "outcome": "added",
+  "date": "2026-11-15",
+  "tree_id": "dvr_001",
+  "city_slug": "doveridge",
+  "file": "dvr_001-the-doveridge-yew.jpg",
+  "reason": "Old yew over the path under a timber frame, churchyard, daylight.",
+  "lat": 52.90422,
+  "lon": -1.83152166666667,
+  "pin_checked": "2026-11-15"
+ },
+ "24c1e280-6404-4056-af86-c3ac625d6e16": {
+  "outcome": "added",
+  "date": "2026-11-15",
+  "tree_id": "lon_053",
+  "city_slug": "london",
+  "file": "lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+  "reason": "Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.",
+  "lat": 51.4797666666667,
+  "lon": 0.00456388333333333,
+  "pin_checked": "2026-11-15"
+ },
+ "2ec0418a-ac10-4c61-9daf-a287193ae994": {
+  "outcome": "added",
+  "date": "2026-11-15",
+  "tree_id": "wdd_001",
+  "city_slug": "woodside",
+  "file": "wdd_001-the-methuselah-tree.jpg",
+  "reason": "Base of a huge redwood trunk, daylight, GPS fix at the tree.",
+  "lat": 37.4130060224733,
+  "lon": -122.318238433769,
+  "pin_checked": "2026-11-15"
  }
 }

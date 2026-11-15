@@ -3133,8 +3133,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as wdd_001 (woodside.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3271,8 +3271,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as dvr_001 (doveridge.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3383,8 +3383,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as lon_053 (london.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3413,8 +3413,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as bow_001 (bowthorpe.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3443,8 +3443,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as crh_001 (crowhurst.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {

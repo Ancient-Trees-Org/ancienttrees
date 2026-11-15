@@ -1,0 +1,69 @@
+{
+  "city": "Bowthorpe",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "The Bowthorpe Oak stands on Bowthorpe Park Farm at Manthorpe, near Bourne in Lincolnshire. Its hollow trunk is about thirteen metres round, which makes it one of the widest oaks in Britain, and the Tree Council named it among the 50 Great British Trees in 2002. A reader sent it to us with a photograph of the great barrel of a trunk, and the farm takes pre-booked tours.",
+  "meta_description": "The Bowthorpe Oak: where it stands and what is known about it.",
+  "hero_tree_id": "bow_001",
+  "oldest_tree_id": "bow_001",
+  "trees": [
+    {
+      "id": "bow_001",
+      "name": "The Bowthorpe Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "1000 years",
+      "age_min": 1000,
+      "age_max": 1300,
+      "age_basis": "source",
+      "location": {
+        "address": "Bowthorpe Park Farm, Manthorpe, near Bourne, Lincolnshire",
+        "latitude": 52.7273075112087,
+        "longitude": -0.424423238216235,
+        "neighbourhood": "Bowthorpe Park Farm"
+      },
+      "story": "A reader sent us this oak with a girth of 1,330 centimetres and an age of 1,000 to 1,300 years, and the photograph shows why. The trunk is a vast, hollow barrel of dark ridged bark, with the crown rising from it like a green dome and a fence set back to keep feet off the roots.\n\nIt stands at Bowthorpe Park Farm in Manthorpe, near Bourne in Lincolnshire. Wikipedia gives its circumference as about 13 metres, which makes it the second widest individual tree in Britain, behind the Marton Oak in Cheshire. The Tree Council chose it as one of the 50 Great British Trees in 2002, for the Queen's Golden Jubilee, and a BBC headline has called it a thousand years old. No ring count backs any age, so the honest range is the reader's, and a thousand years is the number most often repeated.\n\nIt is on private farmland. The farm takes pre-booked tours, and that is the way to see it up close; the reader's own photograph shows it from the edge of its fenced ring. If you have been, tell us on this page how you got in and what you saw.",
+      "how_to_recognise": "A very wide, hollow oak trunk inside a low fence on open farm grass, the crown spreading from the top of the barrel.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Bowthorpe_Oak"
+      ],
+      "found_by_reader": {
+        "sighting_id": "a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting a7751610). Photograph viewed: A vast hollow oak trunk with the crown above it, daylight, inside its fenced ring. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
+      "access": "On private farmland at Bowthorpe Park Farm; the farm offers pre-booked tours, which is the way in.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bow_001-the-bowthorpe-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_b88d0387be93737c1e25f04f",
+        "sighting_id": "a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: A vast hollow oak trunk with the crown above it, daylight, inside its fenced ring.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "girth_cm": 1300,
+      "paid_entry": true
+    }
+  ],
+  "question_meta": "The Bowthorpe Oak: where it stands and what is known about it.",
+  "question_answer": "The Bowthorpe Oak stands at Bowthorpe Park Farm, Manthorpe, near Bourne, Lincolnshire. On private farmland at Bowthorpe Park Farm; the farm offers pre-booked tours, which is the way in.",
+  "question_context": "A reader sent us this oak with a girth of 1,330 centimetres and an age of 1,000 to 1,300 years, and the photograph shows why. The trunk is a vast, hollow barrel of dark ridged bark, with the crown rising from it like a green dome and a fence set back to keep feet off the roots. It stands at Bowthorpe Park Farm in Manthorpe, near Bourne in Lincolnshire. Wikipedia gives its circumference as about 13 metres, which makes it the second widest individual tree in Britain, behind the Marton Oak in Cheshire. The Tree Council chose it as one of the 50 Great British Trees in 2002, for the Queen's Golden Jubilee, and a BBC headline has called it a thousand years old. No ring count backs any age, so the honest range is the reader's, and a thousand years is the number most often repeated. It is on private farmland. The farm takes pre-booked tours, and that is the way to see it up close; the reader's own photograph shows it from the edge of its fenced ring. If you have been, tell us on this page how you got in and what you saw.",
+  "faq": [
+    {
+      "q": "Can I visit The Bowthorpe Oak?",
+      "a": "On private farmland at Bowthorpe Park Farm; the farm offers pre-booked tours, which is the way in."
+    }
+  ]
+}

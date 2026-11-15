@@ -4201,8 +4201,8 @@
     "score": null,
     "note": "nothing measurable about Coast Redwood"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: Base of a huge redwood trunk, daylight, GPS fix at the tree.",
    "hidde": null,
    "agreed": null
   },
@@ -4329,8 +4329,8 @@
     "score": null,
     "note": "nothing measurable about European Yew"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: Old yew over the path under a timber frame, churchyard, daylight.",
    "hidde": null,
    "agreed": null
   },
@@ -4441,8 +4441,8 @@
     "score": null,
     "note": "nothing measurable about Sweet Chestnut"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.",
    "hidde": null,
    "agreed": null
   },
@@ -4470,8 +4470,8 @@
     "via": "girth",
     "note": "339% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: A vast hollow oak trunk with the crown above it, daylight, inside its fenced ring.",
    "hidde": null,
    "agreed": null
   },
@@ -4498,8 +4498,8 @@
     "score": null,
     "note": "nothing measurable about European Yew"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published 2026-11-15 as a new tree: Whole yew with railings and information board, daylight.",
    "hidde": null,
    "agreed": null
   },
@@ -7522,6 +7522,86 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Viewed: a weeping conifer, not a strawberry tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Bowthorpe Oak",
+   "city": "Bowthorpe",
+   "species": null,
+   "photo": "out/sightings/a7751610-e6bc-4dc1-96f6-63005ef4f2dc.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7ff97b69-76b5-4905-80c2-7c7e901c31c0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Crowhurst Yew",
+   "city": "Crowhurst",
+   "species": null,
+   "photo": "out/sightings/7ff97b69-76b5-4905-80c2-7c7e901c31c0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Doveridge Yew",
+   "city": "Doveridge",
+   "species": null,
+   "photo": "out/sightings/c476f81b-3871-4273-9e0a-f4f21ae2b5e1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:24c1e280-6404-4056-af86-c3ac625d6e16",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Sweet Chestnut of Greenwich Park",
+   "city": "London",
+   "species": null,
+   "photo": "out/sightings/24c1e280-6404-4056-af86-c3ac625d6e16.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2ec0418a-ac10-4c61-9daf-a287193ae994",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Methuselah Tree",
+   "city": "Woodside",
+   "species": null,
+   "photo": "out/sightings/2ec0418a-ac10-4c61-9daf-a287193ae994.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
    "hidde": null,
    "agreed": null
   }

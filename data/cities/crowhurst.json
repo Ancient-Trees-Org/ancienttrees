@@ -1,0 +1,68 @@
+{
+  "city": "Crowhurst",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Crowhurst is a small village in East Sussex, and its church of St George holds a yew that estimates place anywhere between thirteen hundred and four thousand years old. A split, rust-red trunk stands behind iron railings, held together with steel wires, and a legend ties it to the Saxon King Harold. A reader sent it to us with their own photograph, and it is seen from the churchyard path.",
+  "meta_description": "The Crowhurst Yew: where it stands and what is known about it.",
+  "hero_tree_id": "crh_001",
+  "oldest_tree_id": "crh_001",
+  "trees": [
+    {
+      "id": "crh_001",
+      "name": "The Crowhurst Yew",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "1300 to 4000 years",
+      "age_min": 1300,
+      "age_max": 4000,
+      "age_basis": "source",
+      "location": {
+        "address": "St George's Church, Crowhurst, East Sussex",
+        "latitude": 50.8833950973315,
+        "longitude": 0.496318211269852,
+        "neighbourhood": "St George's churchyard"
+      },
+      "story": "A reader labelled this yew \"near Wilmington\" and gave it a girth of 1,030 centimetres and an age of 4,000 years. The pin they dropped lies in the churchyard of St George's at Crowhurst in East Sussex, and the photograph fits, with a huge, split, rust-red trunk behind iron railings, with an information board at the fence.\n\nWikipedia says the tree's age is uncertain, with estimates from 1,300 to 4,000 years, and that the railings and steel wires keep it from collapsing. A legend says the Reeve of the Saxon King Harold was hanged from it for refusing to reveal where Harold's treasure lay. We have found no measurement of our own, so the girth and the top end of the age are the reader's.\n\nThe trunk is a mass of fused stems, pale where the old wood has opened, and low branches sweep out over the path. It stands in a churchyard, and the railings keep you a few steps back, so look from the path. Do not confuse it with the Crowhurst yew in Surrey, which is another tree. If you know more about its age, tell us on this page.",
+      "how_to_recognise": "A huge split yew trunk behind black iron railings beside the path, with a wooden information board on the fence.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Crowhurst,_East_Sussex"
+      ],
+      "found_by_reader": {
+        "sighting_id": "7ff97b69-76b5-4905-80c2-7c7e901c31c0",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting 7ff97b69). Photograph viewed: Whole yew with railings and information board, daylight. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
+      "access": "In the churchyard of St George's; seen from the path, behind railings.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7ff97b69-76b5-4905-80c2-7c7e901c31c0",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/crh_001-the-crowhurst-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b88d0387be93737c1e25f04f",
+        "sighting_id": "7ff97b69-76b5-4905-80c2-7c7e901c31c0",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole yew with railings and information board, daylight.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "girth_cm": 1030
+    }
+  ],
+  "question_meta": "The Crowhurst Yew: where it stands and what is known about it.",
+  "question_answer": "The Crowhurst Yew stands at St George's Church, Crowhurst, East Sussex. In the churchyard of St George's; seen from the path, behind railings.",
+  "question_context": "A reader labelled this yew \"near Wilmington\" and gave it a girth of 1,030 centimetres and an age of 4,000 years. The pin they dropped lies in the churchyard of St George's at Crowhurst in East Sussex, and the photograph fits, with a huge, split, rust-red trunk behind iron railings, with an information board at the fence. Wikipedia says the tree's age is uncertain, with estimates from 1,300 to 4,000 years, and that the railings and steel wires keep it from collapsing. A legend says the Reeve of the Saxon King Harold was hanged from it for refusing to reveal where Harold's treasure lay. We have found no measurement of our own, so the girth and the top end of the age are the reader's. The trunk is a mass of fused stems, pale where the old wood has opened, and low branches sweep out over the path. It stands in a churchyard, and the railings keep you a few steps back, so look from the path. Do not confuse it with the Crowhurst yew in Surrey, which is another tree. If you know more about its age, tell us on this page.",
+  "faq": [
+    {
+      "q": "Can I visit The Crowhurst Yew?",
+      "a": "In the churchyard of St George's; seen from the path, behind railings."
+    }
+  ]
+}
