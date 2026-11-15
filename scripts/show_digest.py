@@ -246,7 +246,25 @@ def readers_in_full(day):
                          words, [stars] if stars else [], "public on the App Store"))
     except BaseException as e:  # asc_auth raises SystemExit without its keys
         rows.append(("", "App Store reviews", "-", "unreadable (%s)" % str(e)[:60], [], ""))
-    head = "**Everything readers sent since %s, in full** (word for word; names and addresses left out)" % day
+    try:
+        # The Plus question, idea and "something else" text word for word
+        # (Hidde, 2026-11-15: "staan al die plus opmerkingen ook automatisch
+        # in de daily digest", then "Ja, toevoegen"). Until then the digest
+        # only counted them and pointed at plus_answers.py, so a typed idea
+        # never reached him whole. plus_answers holds no account, so there is
+        # nothing to filter as ours.
+        from plus_answers import LABELS as PLUS_LABELS
+        for r in inbox.get("/rest/v1/plus_answers?select=created_at,surface,city,opened_from,choices,idea,other_text"
+                           "&created_at=gte.%s&order=created_at.asc" % since, key) or []:
+            idea, other = (r.get("idea") or "").strip(), (r.get("other_text") or "").strip()
+            words = " / ".join(w for w in (idea, ("something else: " + other) if other else "") if w)
+            picked = [PLUS_LABELS.get(c, "something else" if c == "other" else c) for c in (r.get("choices") or [])]
+            extra = ["picked: " + ", ".join(picked)] if picked else []
+            rows.append((r["created_at"], "Plus answer (%s, from %s)" % (r.get("surface") or "?", r.get("opened_from") or "?"),
+                         r.get("city") or "-", words, extra, "an answer, no reply needed"))
+    except Exception as e:
+        rows.append(("", "Plus answers", "-", "database unreadable (%s)" % str(e)[:60], [], ""))
+    head ="**Everything readers sent since %s, in full** (word for word; names and addresses left out)" % day
     if not rows:
         return head + "\n\nNothing."
     out = [head, "", "| When (UTC) | What | Tree or place | Their words, in full | Also | Status |",

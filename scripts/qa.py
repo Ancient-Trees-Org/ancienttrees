@@ -787,7 +787,9 @@ def check_everything_sent_reaches_hidde():
             "def mark_seen(": "the --seen mark",
             "tree_notes?select": "notes on trees",
             "sightings?select": "app-photo notes",
-            "submissions?select": "submissions"}
+            "submissions?select": "submissions",
+            # Hidde, 2026-11-15: the Plus ideas were only counted ("Ja, toevoegen").
+            "plus_answers?select": "the Plus answers and ideas"}
     return ["scripts/show_digest.py lost %s: the digest page must show everything readers sent since "
             "Hidde last looked (Hidde, 2026-10-25)." % why for frag, why in need.items() if frag not in show]
 
