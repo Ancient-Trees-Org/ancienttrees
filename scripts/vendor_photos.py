@@ -263,6 +263,17 @@ def main():
             if not ok:
                 skipped.append((t["id"], why))
                 continue
+            # A photograph on our own domain whose widths already sit beside it
+            # under its OWN name is done, whatever the tree is called now: the
+            # manifest reads the own name first (write_manifest). Without this a
+            # renamed tree (bcn_061 became "...the Historic Botanical Garden
+            # Gate") got a second, orphaned -500 file every run, and preflight
+            # stopped the push and the deploy on it (2026-11-15).
+            own = (url.rsplit("/", 1)[-1][:-4]
+                   if "ancienttrees.app/photos/" in url and url.endswith(".jpg") else None)
+            if own and all(os.path.exists(os.path.join(OUT, "%s-%d.jpg" % (own, w))) for w in WIDTHS):
+                have += 1
+                continue
             base = "%s-%s" % (t["id"], slugify(t.get("name")))
             old = made_from.get(base)
             if old and old != url and ("/photos/%s" % base) not in url:
