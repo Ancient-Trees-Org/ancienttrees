@@ -30,7 +30,7 @@ Web half: the last 24 hours were Buffalo and Bamberg trees (app-only, no pages b
 - WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Ninth review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
 - WARN site/dist/contribute.html (source site/src/pages/contribute.astro) still says "verified against independent sources before it goes live". False since "Good reader input IS the source" (2026-10-12). Twentieth review. Replacement: "We read every submission before it is kept."
 
-App half: pending.
+App half (iPhone SE, collect flow: intro, place, identify, compare, describe, ticked): looked at all six. APP NOTE: collect-describe has a large empty block above the title "A tree in Amsterdam" where the photograph would sit, with only back and overflow buttons in it; a person with a photo would see it, but verify the sweep's fixture does not hide a real no-photo state. Otherwise nothing a person would notice is wrong; copy reads honestly.
 
 ## 2026-11-14
 
