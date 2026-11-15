@@ -1,0 +1,89 @@
+{
+  "city": "La Morra",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "La Morra, in the Barolo wine country of the Langhe, has one tree everybody can point to: the cedar of Lebanon alone on top of Monfalletto hill near Annunziata. It was planted by a newly married couple of the Falletti family, in 1856 or 1875 depending on the source, and its flat, wind-shaped crown is visible from far across the vineyards. A short walk up a track closed to cars brings you under it, with the Alps on the horizon.",
+  "meta_description": "The cedar of Lebanon on Monfalletto hill, La Morra: planted for a Falletti wedding in the 1800s, alone above the Barolo vineyards.",
+  "hero_tree_id": "lmr_001",
+  "oldest_tree_id": "lmr_001",
+  "trees": [
+    {
+      "id": "lmr_001",
+      "name": "The Cedar of Monfalletto",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "age_estimate": "about 150 to 170 years, planted 1856 or 1875",
+      "age_min": 150,
+      "age_max": 170,
+      "age_basis": "source",
+      "location": {
+        "address": "Top of Monfalletto hill, beside Via Annunziata, frazione Annunziata, La Morra (CN)",
+        "latitude": 44.6417124,
+        "longitude": 7.9616348,
+        "neighbourhood": "Annunziata"
+      },
+      "story": "A young couple planted this cedar of Lebanon on the top of Monfalletto hill to mark their wedding, and it has stood there alone ever since, a dark flat-topped crown above rows of Nebbiolo vines. The Langhe tourism board names them as Costanzo Falletti of Rodello and Eulalia Della Chiesa of Cervignasco and gives the year as 1856. The FAI, Italy's national trust, also credits Costanzo Falletti on his wedding day but says 1875. Either way the tree is somewhere between 150 and 170 years old.\n\nWind has shaped it. Its long branches reach out sideways rather than up, so from the valley it looks like a hand held flat over the hill, and it can be picked out from roads and villages all across the Barolo country.\n\nThe hill sits beside the Cordero di Montezemolo estate, whose family descends from the Falletti. A short dirt track to the top is closed to cars, so you walk the last stretch. A low net keeps people off the roots, but you can stand close beneath it and look out over the vineyards to the Alps. A reader who sent it to us called it an astonishing cedar, and the view from its foot is the reason to climb.",
+      "how_to_recognise": "The only tree on the top of Monfalletto hill: a broad cedar of Lebanon with long, flat, sideways branches, ringed by a low net, above rows of vines.",
+      "verified_sources": [
+        "https://langhe.net/en/sight/cedar-of-lebanon",
+        "https://fondoambiente.it/luoghi/azienda-agricola-monfalletto",
+        "https://www.openstreetmap.org/node/1557677108",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app (submission 702, 'an astonishing Libanon Cedar' at Monfalletto, Annunziata di La Morra). langhe.net: planted 1856 by newlyweds Costanzo Falletti of Rodello and Eulalia Della Chiesa of Cervignasco; dirt road to the top closed to traffic; low net prevents direct access but it can be seen up close; always open. FAI (Azienda Agricola Monfalletto): planted 1875 by Costanzo Falletti on his wedding day, at the summit of Monfalletto. Planting year disputed between the two, both stated. Commons photographs 2018 and 2022 show it standing. Pin: OSM node 1557677108 (natural=tree, Cedro del Libano), 120 m from a 2022 Commons geotag taken below the hill.",
+      "access": "Free. A short dirt track to the hilltop is closed to cars, so the last stretch is on foot; a low net keeps visitors off the roots.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cedro_del_Libano_La_Morra.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Davide Tomatis, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:Cedro_del_Libano_La_Morra.jpg",
+        "status": "approved",
+        "width": 4608,
+        "height": 2944,
+        "taken_month": 8
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cedro_del_Libano_di_La_Morra.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Einaz80, via Wikimedia Commons",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Cedro_del_Libano_di_La_Morra.jpg",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 7
+        }
+      ],
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-15",
+        "note": "OSM node 1557677108, a tree tagged Cedro del Libano on the hilltop."
+      }
+    }
+  ],
+  "question_meta": "The cedar of Lebanon on Monfalletto hill in La Morra: how old it is, who planted it, and how to walk up to it.",
+  "question_answer": "La Morra's best-known tree is the cedar of Lebanon on top of Monfalletto hill near Annunziata, planted by Costanzo Falletti at his wedding. The Langhe tourism board dates it to 1856 and the FAI to 1875, so it is about 150 to 170 years old. It is free to walk up to.",
+  "question_context": "Two sources tell the same story with different years. The Langhe tourism site says newlyweds Costanzo Falletti of Rodello and Eulalia Della Chiesa of Cervignasco planted the cedar in 1856 to mark their marriage. The FAI, Italy's national trust, records Costanzo Falletti planting it on his wedding day in 1875. Both put it at the summit of Monfalletto, the hill beside the Cordero di Montezemolo estate, whose family descends from the Falletti. The tree stands alone among Nebbiolo vineyards, its long branches pushed sideways by the wind into a broad, flat crown that can be seen from much of the Barolo area. Nobody we have read gives its girth or height. The dirt track to the top is closed to cars and a low net protects the roots, but visitors can stand close beneath it, and the hilltop looks out over the Langhe and Roero to the Alps. A reader who tipped it to us called it astonishing.",
+  "faq": [
+    {
+      "q": "How old is the cedar of La Morra?",
+      "a": "About 150 to 170 years. The Langhe tourism board says it was planted in 1856, the FAI says 1875."
+    },
+    {
+      "q": "Who planted it?",
+      "a": "Costanzo Falletti, at his wedding; the tourism board names his bride as Eulalia Della Chiesa of Cervignasco."
+    },
+    {
+      "q": "Can you visit it?",
+      "a": "Yes, for free. Walk up the short dirt track, which is closed to cars; a low net keeps you off the roots."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "On the top of Monfalletto hill near the Annunziata hamlet of La Morra, beside the Cordero di Montezemolo estate."
+    }
+  ]
+}

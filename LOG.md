@@ -2,7 +2,11 @@
 
 <!-- archive-index -->
 
-## 2026-11-15 session: every reader submission since 11-13 has a verdict
+## 2026-11-15 session, part 2: the holds re-read, two tips live
+
+- Two trees a reader tipped (submission 702) are live: lmr_001 the Cedar of Monfalletto, La Morra (planted for a Falletti wedding, 1856 per langhe.net or 1875 per FAI, both stated; Commons photographs) and tlv_001 the Giant Plane of Telavi, Georgia (more than 900 years by the sign at the tree; height on the sign left out, a visitor doubted it).
+- Breakage: my 11:06 deploy failed on `"photos": null` for dnk_009 and lyt_001 (the schema wants a list or no key). Fixed and pushed; preflight now refuses a null photos list at the push.
+- Holds re-read, all still held: Holborn (two ordinary planes in Lincoln's Inn, the note names dawn redwoods), Burnside red gum (the SA heritage register refuses our fetch and no other source names it; waits for their own photograph), Majesty Oak (private), Worthing sequoia (no fix, no source), second Azores fig (no fix), Hanoi banyan (not shown visible from the street), 691 (no photo arrived). Four 10-30 uploads from our own account got written verdicts matching their lead notes.
 
 - New reader trees live: glg_001 the Geelong Ginkgo (planted 1859, Victoria's Tree of the Year 2026 per Time Out and the gardens' sign; four reader photographs), lyt_001 the Lytham Sweet Chestnut (veteran with a dead central stem; 300 to 400 years and 7 m girth are the reader's), dnk_009 the Sitka Spruce at Scone Palace (reader's fix in the palace grounds, a different tree from the Douglas fir 67 m away; species is theirs). Geelong and Lytham are one-tree places, so tree pages only.
 - Reader photographs: first photograph for the Redford Wood Redwood (pin to the reader's fix, confirmed), the Azores Borges fig (matched to the Commons view of the same split trunk) and the Kyushaku-fuji of Byakugo-ji (in bloom, lit at night; the tree had none). Strip photographs for Stevenson's Yew, the Royal Oak and the Windrush Square Plane. Held: a second Azores fig photo (a different tree with hanging roots, no fix).

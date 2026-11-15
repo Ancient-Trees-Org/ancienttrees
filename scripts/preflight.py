@@ -103,6 +103,11 @@ def check_city(path):
             if k in t and not isinstance(t[k], str):
                 out.append("%s/%s: %s is %r, the build wants a string or no key at all"
                            % (slug, t.get("id"), k, t[k]))
+        # Same schema for the strip: an array or no key. "photos": null on
+        # dnk_009 and lyt_001 stopped the 2026-11-15 10:07 deploy.
+        if "photos" in t and not isinstance(t["photos"], list):
+            out.append("%s/%s: photos is %r, the build wants a list or no key at all"
+                       % (slug, t.get("id"), t["photos"]))
 
     intro =(d.get("intro") or "").strip()
     if not intro:

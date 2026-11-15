@@ -1,0 +1,79 @@
+{
+  "city": "Telavi",
+  "country": "Georgia",
+  "status": "needs_curation",
+  "intro": "Telavi, the main town of Georgia's Kakheti wine region, keeps a giant oriental plane in its old centre, close to the Batonis Tsikhe fortress. The sign beside it says it is more than 900 years old, with a trunk 12 metres round, and it looks out over the Alazani Valley. It is free to walk up to, inside a low stone ring beside the lane, and the town is having it pruned and braced to keep it standing.",
+  "meta_description": "The giant plane of Telavi, Georgia: more than 900 years old by the town's sign, 12 metres round, near the Batonis Tsikhe fortress.",
+  "hero_tree_id": "tlv_001",
+  "oldest_tree_id": "tlv_001",
+  "trees": [
+    {
+      "id": "tlv_001",
+      "name": "The Giant Plane of Telavi",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "age_estimate": "more than 900 years, by the sign at the tree",
+      "age_min": 900,
+      "age_max": 1000,
+      "age_basis": "source",
+      "location": {
+        "address": "Chadri Street, near Batonis Tsikhe, central Telavi, Kakheti",
+        "latitude": 41.91673,
+        "longitude": 45.47808,
+        "neighbourhood": "Old centre"
+      },
+      "story": "The sign beside this oriental plane says it is more than 900 years old and that it looks down on the Alazani Valley. Travel guides to Telavi repeat the figure, and georgia.to calls it the largest tree in Georgia. Nobody has published a ring count or a core, so take 900 as the town's long-held estimate rather than a measured age.\n\nThe same hand-painted board gives a trunk 12 metres round, 3.6 metres across, and a height of 46 metres. The girth is believable from any photograph, the trunk a wide dark column inside a ring of stone. The height less so; a visitor who photographed it in 2008 noted that it looks much shorter than the board claims.\n\nAge has caught up with it. georgia.to describes a rehabilitation project in which a German specialist examines the tree, the crown is pruned to take weight off, and supporting belts go in, with Telavi's twin town Biberach paying most of the cost.\n\nIt stands in the heart of town, a short walk from the Batonis Tsikhe fortress and the monument to King Erekle II, and you can walk right up to the stone wall around it. A reader tipped it to us as one of the oldest planes alive.",
+      "how_to_recognise": "A huge oriental plane with a broad dark trunk inside a low ring of stone, beside a sloping lane near the Batonis Tsikhe fortress, with a painted sign giving its age and size.",
+      "verified_sources": [
+        "https://georgia.to/places-to-go/kakheti/telavi/giant-plane-tree",
+        "https://eurasia.travel/georgia/telavi/plane-tree/",
+        "https://www.reinisfischer.com/node/629",
+        "https://commons.wikimedia.org/wiki/File:The_platan-Tree,_telavi.jpg",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-15: tipped by a reader in the app (submission 702, 'the gigantic plane of Telavi in Georgia, one of the oldest plane alive'). georgia.to: over 900 years, 46 m, 12 m wide, in the heart of Telavi near Batonis Tsikhe and the Erekle II monument; rehabilitation project with a German specialist, pruning and supporting belts, twin town Biberach paying 90 per cent of GEL 35,000; calls it the largest tree in Georgia. eurasia.travel and reinisfischer.com agree on about 900 years. Sign at the tree (Commons 2008 photograph): more than 900 years, height 46 m, diameter 3.6 m, girth 12 m, crown 36 m; the photographer notes the height looks nearer 15 m. Height left out for that reason; girth from the sign. A search summary said it became Georgia's first Protected Tree of Local Importance in January 2024, but the page was not read, so it is not on the page. Pin: geotag of a 2010 Commons photograph taken beside the tree, approximate.",
+      "access": "Free, in the town centre beside a public lane; you can walk up to the stone wall around the trunk.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/900_year_old_Platanus_Orientalis_in_Telavi%2C_Georgia.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Daniel-tbs, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:900_year_old_Platanus_Orientalis_in_Telavi,_Georgia.jpg",
+        "status": "approved",
+        "width": 800,
+        "height": 533,
+        "taken_month": 11
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "Commons geotag",
+        "date": "2026-11-15",
+        "note": "Geotag of a 2010 Commons photograph taken beside the tree."
+      },
+      "girth_cm": 1200
+    }
+  ],
+  "question_meta": "The giant plane of Telavi, Georgia: how old it is, how big, and where to find it near the Batonis Tsikhe fortress.",
+  "question_answer": "Telavi's famous tree is the giant oriental plane (Platanus orientalis) in the old centre near the Batonis Tsikhe fortress. The sign beside it says it is more than 900 years old and 12 metres round, and it is free to walk up to.",
+  "question_context": "The age comes from the town: a hand-painted sign at the tree says the plane is more than 900 years old and has witnessed many historical events, and travel guides to Telavi repeat that figure. No ring count or core has been published. The same sign gives a girth of 12 metres, a trunk 3.6 metres across, a crown 36 metres wide and a height of 46 metres, though a visitor who photographed it in 2008 judged it far shorter than that. georgia.to calls it the largest tree in Georgia and describes a rehabilitation project: a German specialist assesses its health, the crown is pruned to relieve its weight, and supporting belts are fitted, with Telavi's German twin town Biberach paying most of the cost. The tree stands beside a lane in the centre, a short walk from the Batonis Tsikhe fortress and the monument to King Erekle II, and looks out over the Alazani Valley.",
+  "faq": [
+    {
+      "q": "How old is the Telavi plane tree?",
+      "a": "More than 900 years, according to the sign at the tree and Telavi's travel guides. No core or ring count has been published."
+    },
+    {
+      "q": "How big is it?",
+      "a": "The sign gives a trunk 12 metres round. Its claimed height of 46 metres has been doubted by visitors."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In the centre of Telavi, near the Batonis Tsikhe fortress and the monument to King Erekle II."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. It stands beside a public lane, and you can walk up to the stone wall around the trunk."
+    }
+  ]
+}

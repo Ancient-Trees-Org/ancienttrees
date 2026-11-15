@@ -2451,6 +2451,10 @@
       "La Crosse",
       "LaCrosse"
     ],
+    "la-morra": [
+      "Murra",
+      "La Mora"
+    ],
     "la-palma": [
       "Isla de La Palma"
     ],
@@ -4523,6 +4527,11 @@
     "tata": [
       "Tata i Ungarn"
     ],
+    "telavi": [
+      "Telawi",
+      "Telavis",
+      "Thelavi"
+    ],
     "telgte": [
       "Telligte",
       "Telqte"
@@ -5533,6 +5542,7 @@
     "la-adrada": "La Adrada",
     "la-crosse": "La Crosse, Wisconsin",
     "la-crosse-florida": "LaCrosse, Florida",
+    "la-morra": "La Morra",
     "la-palma": "La Palma",
     "la-tene": "La Tène (archaeological site)",
     "lafayette-louisiana": "Lafayette, Louisiana",
@@ -5907,6 +5917,7 @@
     "tata": "Tata, Hungary",
     "tatobity": "Tatobity",
     "tavira": "Tavira",
+    "telavi": "Telavi",
     "teleci": "Telecí",
     "telgte": "Telgte",
     "tenerife": "Tenerife",
