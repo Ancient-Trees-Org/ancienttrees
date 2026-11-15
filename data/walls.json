@@ -187,11 +187,6 @@
       "released_at": "2026-11-06T20:23:43+00:00"
     },
     {
-      "slug": "miami",
-      "kind": "verify",
-      "released_at": "2026-11-07T13:34:21+00:00"
-    },
-    {
       "slug": "key-west",
       "kind": "verify",
       "released_at": "2026-11-07T13:39:07+00:00"
@@ -270,6 +265,11 @@
       "slug": "london",
       "kind": "verify",
       "released_at": "2026-11-13T19:11:33+00:00"
+    },
+    {
+      "slug": "miami",
+      "kind": "verify",
+      "released_at": "2026-11-15T01:03:07+00:00"
     }
   ]
 }
