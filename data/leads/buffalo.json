@@ -1,0 +1,29 @@
+{
+  "leads": [
+    {
+      "name": "Mighty Oak, Delaware Park (white oak)",
+      "species": "White Oak (Quercus alba)",
+      "reason": "no exact pin in reach: Buffalo Olmsted Parks Conservancy (bfloparks.org/?p=10797) says it pre-dates Olmsted's park design but gives no spot, age or size; Dan Cadzow's 1700 date (WKBW) comes from an online age calculator. Next: Conservancy tree inventory map or a geotagged photo.",
+      "sources": ["https://bfloparks.org/?p=10797", "https://www.wkbw.com/news/local-news/local-archaeologist-believes-buffalo-may-have-a-new-oldest-tree"],
+      "found": "2026-11-15"
+    },
+    {
+      "name": "Delaware Park TREEventure trees (13: bur oak, red oak, white pine, European beech, London plane and others)",
+      "reason": "no coordinates in the page text (positions only on its interactive map), no age or girth for the actual specimens, species-generic figures only; not shown to be old or remarkable.",
+      "sources": ["https://www.bfloparks.org/?p=10449"],
+      "found": "2026-11-15"
+    },
+    {
+      "name": "Forest Lawn Cemetery old trees",
+      "reason": "no named tree or champion listing found in two searches; cemetery is a candidate small site but nothing individual to verify.",
+      "found": "2026-11-15"
+    },
+    {
+      "name": "NY DEC Big Tree Register, Erie County champions",
+      "reason": "register is two statewide PDFs (by scientific and common name) with no county filter; PDF could not be parsed in this pass (no PDF tooling) and the page states no reuse terms (links to dec.ny.gov/about/website-usage-and-policies, unread). Treat as a finding aid until read. Next: parse the PDF locally, filter Erie, check terms. Hosts: Erie County DEC sites showed Buckhorn Island, Zoar Valley, Hunters Creek Gorge treesdb.org location pages only, outside the city.",
+      "sources": ["https://dec.ny.gov/nature/animals-fish-plants/plants/big-tree-register", "https://dec.ny.gov/sites/default/files/2025-01/champsscientificname.pdf"],
+      "found": "2026-11-15"
+    }
+  ],
+  "blocked": []
+}

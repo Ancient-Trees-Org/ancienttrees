@@ -36,7 +36,8 @@
    "place": "Buffalo",
    "country": "United States",
    "status": "stalled",
-   "note": "SCOUTED 2026-10-16 on scout_next.py --target (#375). One search: no Buffalo (NY) heritage or champion tree register found. Only the city's 130,000-tree street tree inventory (open data, full inventory, not a designated-remarkable register) and the Buffalo Olmsted Parks Conservancy's 11,000-tree park inventory (no public download seen). Next angle: NY Big Tree Register (DEC) Erie County entries, Forest Lawn Cemetery and Delaware Park old trees as hand leads."
+   "retried": "2026-11-15",
+   "note": "SCOUTED 2026-10-16 on scout_next.py --target (#375): no Buffalo (NY) heritage or champion tree register; only the city's 130,000-tree street inventory (full inventory) and the Olmsted Parks Conservancy's 11,000-tree park inventory (no download seen). RETRIED 2026-11-15: still no register, but one hand tree verified (Franklin Street sycamore, Buffalo's plaqued oldest tree, GPS-confirmed, alive 2026-03; data/research/buffalo-verified.json buf_001, flagged). Leads in data/leads/buffalo.json: Delaware Park Mighty Oak (no pin), Forest Lawn (nothing named). NY DEC Big Tree Register is two statewide PDFs with no county filter and no stated reuse terms; not parsed (no PDF tooling in the run). Next angle: parse that PDF locally for Erie entries and read dec.ny.gov/about/website-usage-and-policies; Conservancy tree inventory map for the Mighty Oak pin."
   },
   {
    "place": "Allentown",

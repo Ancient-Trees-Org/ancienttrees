@@ -1,0 +1,30 @@
+[
+  {
+    "id": "buf_001",
+    "name": "Buffalo's Oldest Tree (Franklin Street Sycamore)",
+    "species": "American Sycamore (Platanus occidentalis)",
+    "age_estimate": "roughly 300 years",
+    "age_min": 250,
+    "age_max": 350,
+    "age_basis": "source",
+    "girth_cm": 575,
+    "location": {
+      "address": "Franklin Street just north of Edward Street (listed as 400-404 Franklin Street), Allentown, Buffalo, NY",
+      "latitude": 42.89622,
+      "longitude": -78.8734,
+      "neighbourhood": "Allentown"
+    },
+    "verified_sources": [
+      "https://www.waymarking.com/waymarks/WM1807_Oldest_Tree_in_Buffalo",
+      "https://www.btpm.org/local/2017-10-02/experts-work-to-save-buffalos-oldest-tree",
+      "https://www.wkbw.com/news/checking-in-on-health-of-buffalos-oldest-tree",
+      "https://wyrk.com/buffalos-oldest-tree-do-you-know-where-it-is/",
+      "https://buffaloah.com/a/franklin/404/tree",
+      "https://api.inaturalist.org/v1/observations/345317218"
+    ],
+    "access": "Free. Stands on public ground between Franklin Street and the sidewalk; view from the pavement.",
+    "location_precision": "confirmed",
+    "curation_status": "flagged",
+    "verify_notes": "FLAGGED: one-source-type age (no ring count), no official register. Facts: American sycamore (WKBW and WBFO name the species) on the verge of Franklin Street just north of Edward Street, Allentown; address varies by source (400, 402, 404 Franklin). Commemorative plaque placed 1960 by the Buffalo Lumber Exchange (est. 1880) for National Forest Products Week, Oct 16-22 1960; plaque says the tree is believed to be the city's oldest, 'over 250 years old' (WYRK) / 'about 250 years old in 1960' (buffaloah.com caption), city forestry assessment per a search pointer only (not read on a page). Press since: roughly 300 years (WBFO 2017, WKBW, Waymarking). WYRK 2016 author claims planted 1690, unsourced, not used. Girth: WBFO 2017 says the tree is 'more than six feet across'; 6 ft = 183 cm diameter x pi = about 575 cm, a minimum and loose, so treat as indicative. Waymarking notes little damage in the Oct 2006 storm. Health: anthracnose (leaf and twig fungus, rarely deadly) found 2017; Arborjet, SiteOne and Draves Tree Service of Darien donated trunk injections (pilot holes, about three dozen septum plugs, fall treatment, spring follow-up), city forester Ross Hassinger quoted; WKBW follow-up says free treatments continued and the tree responded well, harsh spring made the season outcome unclear (undated). City Deputy Commissioner of Parks Andy Rabb commented. Dispute: WKBW (undated) reports local archaeologist Dan Cadzow, using an online tree-age calculator, says a Delaware Park white oak may date to 1700 and the Franklin Street tree to 1710 (308 years), so the 'oldest' title is contested; Cadzow himself notes only a core can date a tree. Alive: lifecheck RECENT, iNaturalist observation 345317218, 2026-03-25, GPS accuracy 12 m, observer's note 'Oldest (or second-oldest?) tree in Buffalo!', licence cc-by-nc (photo not usable for us). iNat fix 42.89621,-78.87340 matches Waymarking 42.89622,-78.8734 to about 1 m: GPS at the tree, hence confirmed. No OSM check (Overpass refused, 406). Superlative to be stated with source: the city's plaque, a 1960 belief."
+  }
+]

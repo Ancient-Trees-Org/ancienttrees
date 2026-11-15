@@ -1,0 +1,63 @@
+{
+  "city": "Buffalo",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Buffalo's tree on this map is an American sycamore on a street verge in Allentown, between Franklin Street and the sidewalk just north of Edward Street. A 1960 plaque from the Buffalo Lumber Exchange called it the city's oldest and over 250 years old; local press has said roughly 300 since. A local archaeologist thinks a Delaware Park white oak may be a few years older, so the title is contested, and nobody has cored either tree.",
+  "meta_description": "Buffalo's oldest tree, by a 1960 plaque: an American sycamore on Franklin Street in Allentown, roughly 300 years old and more than six feet across.",
+  "question_meta": "By a 1960 plaque, Buffalo's oldest tree is the Franklin Street sycamore in Allentown, roughly 300 years old. A Delaware Park white oak may rival it.",
+  "question_answer": "By the plaque the Buffalo Lumber Exchange placed in 1960, Buffalo's oldest tree is the American sycamore on Franklin Street just north of Edward Street, in Allentown. Local press puts it at roughly 300 years, but nobody has counted its rings and the title is contested.",
+  "question_context": "The 1960 plaque, placed by the Buffalo Lumber Exchange for National Forest Products Week that October, said the sycamore was believed to be the city's oldest and over 250 years old. Since then WBFO, WKBW and Waymarking have all put it at roughly 300 years, though none of them reports a ring count, and no official register lists the tree. Sources give its address as 400, 402 or 404 Franklin Street. WBFO reported in 2017 that its trunk is more than six feet across. Dan Cadzow, a local archaeologist, used an online tree-age calculator and told WKBW that a white oak in Delaware Park may date to 1700, against 1710 for the sycamore; he added that only a core can date a tree. In 2017 the sycamore was treated for anthracnose, a leaf and twig fungus that rarely kills, with trunk injections donated by three companies, and WKBW later reported that it responded well. It stands on public ground between Franklin Street and the sidewalk, free to see from the pavement.",
+  "hero_tree_id": "buf_001",
+  "oldest_tree_id": "buf_001",
+  "faq": [
+    {
+      "q": "Where is Buffalo's oldest tree?",
+      "a": "On the verge of Franklin Street just north of Edward Street, in Allentown, between the street and the sidewalk. Sources give the address as 400, 402 or 404 Franklin Street."
+    },
+    {
+      "q": "How old is the Franklin Street sycamore?",
+      "a": "A 1960 plaque said over 250 years, and local press has said roughly 300 since. Nobody has counted its rings, so it is an estimate."
+    },
+    {
+      "q": "Is it really the oldest tree in Buffalo?",
+      "a": "It is contested. A local archaeologist estimates a Delaware Park white oak at about 1700 and this sycamore at about 1710, using an online calculator, and says only a core can settle it."
+    }
+  ],
+  "trees": [
+    {
+      "id": "buf_001",
+      "name": "Buffalo's Oldest Tree (Franklin Street Sycamore)",
+      "species": "American Sycamore (Platanus occidentalis)",
+      "age_estimate": "roughly 300 years",
+      "age_min": 250,
+      "age_max": 350,
+      "age_basis": "source",
+      "girth_cm": 575,
+      "location": {
+        "address": "Franklin Street just north of Edward Street (listed as 400-404 Franklin Street), Allentown, Buffalo, NY",
+        "latitude": 42.89622,
+        "longitude": -78.8734,
+        "neighbourhood": "Allentown"
+      },
+      "story": "Buffalo's oldest tree grows on a street verge in Allentown, between Franklin Street and the sidewalk. At least, that is what the Buffalo Lumber Exchange believed in 1960, when it marked this American sycamore with a plaque for National Forest Products Week and called it over 250 years old.\n\nLocal press has said roughly 300 years since, and WBFO reported in 2017 that the trunk is more than six feet across. Nobody has counted its rings and no official register lists it, so the age rests on that plaque and the reporting that followed it.\n\nThe title has a rival. Dan Cadzow, a local archaeologist, ran an online tree-age calculator and told WKBW that a white oak in Delaware Park may date to 1700, against 1710 for this sycamore. He also said that only a core can date a tree, which leaves the question exactly where it was.\n\nWhat is documented is how it has been looked after. It came through the October 2006 storm with little damage, according to Waymarking. In 2017 it was found to have anthracnose, a leaf and twig fungus that rarely kills, and Arborjet, SiteOne and Draves Tree Service donated trunk injections, about three dozen plugs in all. WKBW later reported that it responded well. A visitor logged it standing in March 2026.\n\nYou see it from the pavement, just north of Edward Street. If you know of an older tree in Buffalo, tell us.",
+      "verified_sources": [
+        "https://www.waymarking.com/waymarks/WM1807_Oldest_Tree_in_Buffalo",
+        "https://www.btpm.org/local/2017-10-02/experts-work-to-save-buffalos-oldest-tree",
+        "https://www.wkbw.com/news/checking-in-on-health-of-buffalos-oldest-tree",
+        "https://wyrk.com/buffalos-oldest-tree-do-you-know-where-it-is/",
+        "https://buffaloah.com/a/franklin/404/tree",
+        "https://api.inaturalist.org/v1/observations/345317218"
+      ],
+      "access": "Free. Stands on public ground between Franklin Street and the sidewalk; view from the pavement.",
+      "how_to_recognise": "You can recognise it by the trunk, more than six feet across, on a sycamore growing in the street verge. It stands between Franklin Street and the sidewalk, just north of Edward Street in Allentown.",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ]
+}
