@@ -2,29 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-09T18:55:01+00:00",
-   "date": "2026-09-09",
-   "run_id": "34391884182",
-   "minutes": 24.7,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 208,
-   "denials": 51,
-   "denials_source": "permission_denials: Bash(cat), Bash(curl), Bash(echo), Bash(for), Bash(gh), Bash(git), Bash(grep), Bash(if), Bash(mkdir), Bash(pdftotext), Bash(pip), Bash(printenv), Bash(python3), Bash(wc), Bash(which)",
-   "ended": "success",
-   "tokens": 1042290,
-   "claims_held": [
-    "arnhem",
-    "alicante",
-    "krakow"
-   ],
-   "commits": 5,
-   "cities_touched": 0,
-   "cities": [],
-   "trees": 0,
-   "logged": false
-  },
-  {
    "started": "2026-09-09T21:57:42+00:00",
    "date": "2026-09-09",
    "run_id": "34409702050",
@@ -21014,6 +20991,34 @@
     }
    ],
    "trees": 11,
+   "logged": true
+  },
+  {
+   "started": "2026-11-15T06:56:33+00:00",
+   "date": "2026-11-15",
+   "run_id": "43687651693",
+   "minutes": 20.5,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 94,
+   "denials": 4,
+   "denials_source": "permission_denials: Bash(cd ; cat ; import ; def ...), Bash(cd ; mkdir ; curl ; wc ...), Bash(cd ; mkdir ; for ; do ...), Bash(curl ; echo ; ls | head)",
+   "ended": "success",
+   "tokens": 1020825,
+   "claims_held": [],
+   "commits": 18,
+   "cities_touched": 2,
+   "cities": [
+    {
+     "city": "bamberg",
+     "trees": 2
+    },
+    {
+     "city": "buffalo",
+     "trees": 1
+    }
+   ],
+   "trees": 3,
    "logged": true
   }
  ],
