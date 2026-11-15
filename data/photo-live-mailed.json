@@ -112,6 +112,24 @@
      "city_slug": "london",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "13cd8329-6443-4201-9f70-3476e77735db",
+     "tree_id": "lon_002",
+     "tree_name": "The Royal Oak",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "9b7fd3c7-4236-4ea1-bfa7-c49c49b9766f",
+     "tree_id": "lon_044",
+     "tree_name": "The Windrush Square Plane",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": []
@@ -203,6 +221,60 @@
      "tree_name": "Giant Norfolk Island Pine of Lagoa das Furnas",
      "city": "Azores",
      "city_slug": "azores",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_185d898c7855df9e68eaf269": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba",
+     "tree_id": "edi_021",
+     "tree_name": "The Redford Wood Redwood",
+     "city": "Edinburgh",
+     "city_slug": "edinburgh",
+     "display_name": null,
+     "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f",
+     "tree_id": "edi_017",
+     "tree_name": "Robert Louis Stevenson's Yew",
+     "city": "Edinburgh",
+     "city_slug": "edinburgh",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_20f572b893cc30e44a00d316": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "60a694a0-639f-46e3-bebb-7a3d1a8edcff",
+     "tree_id": "azo_001",
+     "tree_name": "Giant Australian Rubber Tree of Jardim Antonio Borges",
+     "city": "Azores",
+     "city_slug": "azores",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_9f7b25dda38d08dabcad19bf": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",
+     "tree_id": "tmb_002",
+     "tree_name": "The Kyushaku-fuji of Byakugo-ji",
+     "city": "Tamba",
+     "city_slug": "tamba",
      "display_name": null,
      "live": "2026-11-15"
     }

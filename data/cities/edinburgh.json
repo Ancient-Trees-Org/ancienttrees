@@ -681,8 +681,8 @@
       "girth_cm": 351,
       "location": {
         "address": "Colinton Parish Church and Manse, Spylaw Street, Colinton",
-        "latitude": 55.90949,
-        "longitude": -3.2557,
+        "latitude": 55.908847,
+        "longitude": -3.255463,
         "neighbourhood": "Colinton"
       },
       "story": "The remains of Robert Louis Stevenson's childhood swing still hang from a limb of this yew, according to the City of Edinburgh Council. Stevenson spent much of his boyhood at Colinton Manse, played in the tree, and later put it into A Child's Garden of Verses, the book of poems about being small that he wrote as a grown man, in the same years he was writing Treasure Island and Kidnapped.\n\nThe council puts the yew at 300 to 400 years old and names it among Scotland's top 100 heritage trees. Yews keep their age to themselves, so take that as an estimate rather than a birth date. Either end of it means the tree was already old when the boy found it. The two measurements on record do not quite agree. The Ancient Yew Group has it at 351 centimetres round, while the council's figure, a trunk 116 centimetres across, works out a little larger, and neither says at what height the tape went on.\n\nThe tree stands in the manse garden, which is private. The council's own advice is to look at it from the churchyard of Colinton Parish Church next door, which is open, and the view over the wall is the one to come for. Colinton village is a short bus ride from the centre.\n\nThe records and photographs we found are some years old. If you have stood here recently, tell us how it looks.",
@@ -698,18 +698,40 @@
       "access": "The yew is in the private garden of Colinton Manse. Look at it from the churchyard of Colinton Parish Church next door, which is open to the public.",
       "transport": "Lothian bus to Colinton village (Spylaw Street), then a few minutes on foot.",
       "how_to_recognise": "You can recognise it as the broad old yew just over the wall from Colinton Parish Church's churchyard, about 3.5 metres round. It stands in the manse garden, and one limb still carries what is left of Stevenson's swing.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Council heritage page: Robert Louis Stevenson spent much of his childhood at Colinton Manse, played in the yew and refers to it in A Child's Garden of Verses; remains of his swing still on a limb; trunk diameter 116 cm (about 364 cm girth); thought 300-400 years old; identified as one of Scotland's top 100 heritage trees. Ancient Yew Group database: girth 351 cm (height of measurement not recorded), age note 300-400 years, earliest mention 2002. Geograph 1407534 geotag 55.90937,-3.2545, about 70 m from the database point, so the pin is approximate: the tree is in the manse garden. Alive: the photo is from about 2009 and the council page is old; lifecheck not run, treat as flagged. Not the same as the private-grounds yew listing on forestryandland.gov.scot (same tree per name). Photo (writing pass 2026-11-03): approved after viewing the pixels; the yew fills the frame in summer daylight, building behind, survives a centre crop; photo_light WEAK, not POOR. Geotag 70 m from the database point, title names the tree. curation_status set to flagged per the alive caveat in these notes.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert_Louis_Stevenson%27s_Tree%2C_Colinton_-_geograph.org.uk_-_1407534.jpg",
-        "license": "CC BY-SA 2.0",
-        "attribution": "Kim Traynor, via Geograph/Wikimedia Commons",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson%27s_Tree,_Colinton_-_geograph.org.uk_-_1407534.jpg",
+        "url": "https://ancienttrees.app/photos/edi_017-robert-louis-stevenson-s-yew-6a88ea1a.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 480,
-        "height": 640,
-        "taken_month": 7
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 4,
+        "source": "contributor",
+        "contributor_user_id": "p_185d898c7855df9e68eaf269",
+        "sighting_id": "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f",
+        "note": "Photographed by a reader and sent through the app (2026-04-25); a viewing pass approved it on 2026-11-15: The manse-garden yew beside Colinton Manse (white house, red door) in daylight; strip photograph beside the Commons lead. Species seen: dense dark yew foliage, reddish fluted trunk. Fits the description: broad old yew in the manse garden next to Colinton Parish Church.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert_Louis_Stevenson%27s_Tree%2C_Colinton_-_geograph.org.uk_-_1407534.jpg",
+          "license": "CC BY-SA 2.0",
+          "attribution": "Kim Traynor, via Geograph/Wikimedia Commons",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson%27s_Tree,_Colinton_-_geograph.org.uk_-_1407534.jpg",
+          "status": "approved",
+          "width": 480,
+          "height": 640,
+          "taken_month": 7
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f",
+        "moved_m": 73,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
@@ -839,8 +861,8 @@
       "age_max": 120,
       "location": {
         "address": "Redford Wood, off Redford Road by Redford Bridge, Colinton",
-        "latitude": 55.9049,
-        "longitude": -3.2398,
+        "latitude": 55.904137,
+        "longitude": -3.240895,
         "neighbourhood": "Colinton / Dreghorn"
       },
       "story": "A prince of Siam is said to have planted this giant sequoia when he finished his military training at the barracks next to Redford Wood. That is how the City of Edinburgh Council told it on its heritage tree list, around 2012, putting the planting at approximately a hundred years before. A walker's account from 2017 gives the year as 1909. Neither cites a document, so treat the prince and the date as the story the tree carries rather than a record, and the age as somewhere around 100 to 120 years.\n\nIt is not alone. Redford Wood holds several giant redwoods of similar girth, along with veteran oak, beech, lime, ash, sycamore and yew. The council picked this one out as a particularly fine specimen, and the 2017 account says it is the only redwood here tied to the person who planted it. The one you want stands in the open ground at the southern end of the wood, north-west of Dreghorn Barracks.\n\nThe wood is free and open, entered from Redford Road next to Redford Bridge, with good paths round it. Our pin marks the wood, not the trunk, so walk to the southern end and look for the redwood standing clear of the others. The barracks beside it are due to be sold, which may change the ground around the tree.",
@@ -855,14 +877,28 @@
       "access": "Free, open woodland. Enter from Redford Road next to Redford Bridge; paths run round the wood.",
       "transport": "Lothian bus along Colinton Road or Redford Road, then walk; the nearest stop is not confirmed.",
       "how_to_recognise": "You can recognise it as the giant redwood standing in the open at the southern end of Redford Wood, north-west of Dreghorn Barracks; the wood's other redwoods stand among the trees.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Council: a good collection of veteran trees (oak, beech, lime, ash, sycamore, yew) and several giant redwoods; the one in the open ground at the southern end is 'a particularly fine specimen' planted by the Prince of Siam on finishing training at the nearby barracks, 'approximately 100 years ago' (council, c.2012). A personal Blipfoto post (1 May 2017) gives 1909 and says it is the only redwood positively tied to a visitor, others of similar girth, no measurements. Conflict-free but both soft; the planting date is as reported, not documented. Pin is the Blipfoto map point for the wood, not the trunk: low confidence. Wood is a collection, but the council singles out this tree. No photo found; Dreghorn/Redford barracks are earmarked for disposal, so the surroundings may change.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/edi_021-the-redford-wood-redwood.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_185d898c7855df9e68eaf269",
+        "sighting_id": "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba",
+        "note": "Photographed by a reader and sent through the app (2026-07-25); a viewing pass approved it on 2026-11-15: Giant sequoia trunk in daylight at the reader's GPS fix at the southern end of Redford Wood; the tree had no photograph. Second frame (trunk by the path) in the strip. Species seen: deeply furrowed fibrous red-brown bark, flared base, scale-leaved drooping sprays. Fits the description: a big redwood at the southern end of Redford Wood, at the reader's fix 115 m from our approximate pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba",
+        "moved_m": 109,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

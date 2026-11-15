@@ -1,0 +1,15 @@
+{
+  "leads": [
+    {
+      "name": "The Giant Plane of Telavi",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "lat": null,
+      "lng": null,
+      "reason": "Reader's tip 2026-11-15 (submission 702): 'the gigantic plane of Telavi in Georgia, one of the oldest plane alive'. Not yet verified: needs two sources for age and size and a pin in Telavi town.",
+      "found_by_reader": {
+        "submission": 702,
+        "date": "2026-11-15"
+      }
+    }
+  ]
+}

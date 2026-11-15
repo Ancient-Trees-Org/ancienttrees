@@ -1586,6 +1586,14 @@
       "Gdansko",
       "Gdański"
     ],
+    "geelong": [
+      "Džilongas",
+      "Džīlonga",
+      "Celonq",
+      "Djelong",
+      "Hironga",
+      "Sielong"
+    ],
     "geneva": [
       "Genève",
       "Genf",
@@ -2724,6 +2732,9 @@
       "Lioni",
       "Liono",
       "Liun"
+    ],
+    "lytham": [
+      "Lytham St Annes"
     ],
     "maastricht": [
       "Mastrichtas",
@@ -5366,6 +5377,7 @@
     "galenbeck": "Galenbeck",
     "garmen": "Garmen",
     "gdansk": "Gdańsk",
+    "geelong": "Geelong",
     "geneva": "Geneva",
     "genoa": "Genoa",
     "gent": "Ghent",
@@ -5574,6 +5586,7 @@
     "luxembourg-city": "Luxembourg City",
     "lyon": "Lyon",
     "lytchett-matravers": "Lytchett Matravers",
+    "lytham": "Lytham St Annes",
     "maastricht": "Maastricht",
     "machov": "Machov",
     "macon": "Macon, Belgium",

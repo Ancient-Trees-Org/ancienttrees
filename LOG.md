@@ -2,6 +2,15 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 session: every reader submission since 11-13 has a verdict
+
+- New reader trees live: glg_001 the Geelong Ginkgo (planted 1859, Victoria's Tree of the Year 2026 per Time Out and the gardens' sign; four reader photographs), lyt_001 the Lytham Sweet Chestnut (veteran with a dead central stem; 300 to 400 years and 7 m girth are the reader's), dnk_009 the Sitka Spruce at Scone Palace (reader's fix in the palace grounds, a different tree from the Douglas fir 67 m away; species is theirs). Geelong and Lytham are one-tree places, so tree pages only.
+- Reader photographs: first photograph for the Redford Wood Redwood (pin to the reader's fix, confirmed), the Azores Borges fig (matched to the Commons view of the same split trunk) and the Kyushaku-fuji of Byakugo-ji (in bloom, lit at night; the tree had none). Strip photographs for Stevenson's Yew, the Royal Oak and the Windrush Square Plane. Held: a second Azores fig photo (a different tree with hanging roots, no fix).
+- Held or leads: the Majesty Oak, Fredville (private land, no public access; hard rule 10); the Worthing sequoia in Lyons Farm Open Space (no fix, no source); the Hanoi banyan at Nhan Dan (still blocked, not shown visible from the street); new leads la-morra (Monfalletto cedar) and telavi (giant plane) from one reader's message.
+- Submission 691: an app tree with a photo location in Gisborne, NZ, but no sighting row and no photograph arrived. Either still queued on the phone or the upload failed; watch whether it turns up.
+- Edinburgh ambassador request (695): the answer mail with the badge is ready and goes with the next knock (`ambassador.py --requests --send` in nightly.yml).
+- Two Tamba story sentences rewritten (colon reveals) now that the page carries a reader photo. The inbox re-queued the three new trees' own lead photographs; marked processed by hand.
+
 ## 2026-11-15 08:44 window: readers' photographs and two new reader-found trees
 
 - Rung 1: eight photographs looked at and applied. Coldwaltham Yew (the St Giles sign) and the Belvoir Oak (hollow veteran trunk) get their first photograph; Fulham Palace holm oak, Barney the Plane, the Argyle Street Ash, El Drago Milenario and the Ravenscourt baobab plane gain a strip picture; a duplicate Argyle Street upload came out. The Belvoir pin went confirmed on a "reader fix" that was the tree's own published coordinate, so I put it back to approximate. Two reader trees from Australia are live: mvv_001 the Canary Pine of Leighton Gardens (Moss Vale, planting date 1905 is the reader's account) and ads_001 the River Red Gum of Rostrevor (Adelaide, 200 years is their estimate), each a new one-tree file. Held: the Burnside red gum (the photograph is an archival State Library print, not theirs; plaque text kept as a lead) and a veteran lime tip with no coordinate. Five tree notes read, none hidden.

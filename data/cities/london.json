@@ -107,13 +107,17 @@
       "access": "Free. Richmond Park's pedestrian gates are open 24 hours a day, so the oak near Pen Ponds can be reached on foot at any time; vehicle gates 7am to 6:30pm.",
       "transport": "Bus or car to Richmond Park, then on foot near Pen Ponds",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Richmond_Park%2C_The_Royal_Oak_%281%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "AndyScott, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_002-the-royal-oak-13cd8329.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3000,
-        "height": 1999,
-        "taken_month": 10
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+        "sighting_id": "13cd8329-6443-4201-9f70-3476e77735db",
+        "note": "Photographed by a reader and sent through the app (2026-08-08); a viewing pass approved it on 2026-11-15: The Royal Oak in Richmond Park behind the bracken and rail, the hollow split pollard trunk clear, sunny daylight; a visitor in front. Strip photograph beside the lead. Species seen: oak crown, gnarled grey limbs, hollow trunk. Fits the description: huge hollow split pollard trunk in Richmond Park bracken.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Coordinates taken from the tree's own Woodland Trust Ancient Tree Inventory entry (ID 40404), grid reference TQ1938873126, converted from OSGB36 to WGS84. The ATI page carries no language obscuring or rounding this location (unlike some sensitive ATI entries), and the tree is a well-known, publicly signposted landmark, so the precise grid reference is used directly rather than the previous general \"near Pen Ponds\" estimate.",
@@ -126,7 +130,18 @@
         "label": "September to October: acorns drop, and a good mast year buries the ground in them",
         "kind": "fruit"
       },
-      "how_to_recognise": "You can recognise it by the huge hollow pollard trunk, split and gnarled and wide enough to shelter a small football team. It stands near Pen Ponds in Richmond Park, usually with fallow deer grazing around it."
+      "how_to_recognise": "You can recognise it by the huge hollow pollard trunk, split and gnarled and wide enough to shelter a small football team. It stands near Pen Ponds in Richmond Park, usually with fallow deer grazing around it.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Richmond_Park%2C_The_Royal_Oak_%281%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "AndyScott, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3000,
+          "height": 1999,
+          "taken_month": 10
+        }
+      ]
     },
     {
       "id": "lon_003",
@@ -1748,17 +1763,32 @@
       "pin_source": "OSM natural=tree node 703286419 (genus Platanus, London plane), 4 m from the Great Trees of London list coordinate 51.461049,-0.115331; the only species-tagged tree within 45 m and the lone centrepiece of the square",
       "verify_notes": "One of the Great Trees of London (added in the 2008 tranche, named in a public poll of London's 20 favourite trees, Nov 2008, per Brixton Buzz). Lambeth Council (owner) calls it 'a large mature London Plane tree at its heart'. Brixton Buzz: in the centre of Brixton for 'around a hundred years' (no source given); survived the 1940 bomb strike that wiped out Brixton Theatre; the plot was Brixton Oval, garden laid out 1905, library built 1893, redesigned 1965-66 with the plane preserved as a central feature, paved over again in the mid-late 2000s redevelopment (Windrush Square). Street Tree substack 31 Aug 2025: 'Victorian London plane', 'one of the finest planes in town' (paywalled, no figures). Alive: Substack post Aug 2025, Lambeth page current. Age is vague-sourced: 'around a hundred years' vs Victorian; kept broad, no girth found. Wikipedia list says its entry is from Paul Wood's Great Trees of London Map (2020). Lifecheck NONE (no iNat), alive from the Aug 2025 post. Photo candidates: Wikipedia list uses Commons 'Tate Plane, Brixton.jpg' (licence not yet checked).",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tate_Plane%2C_Brixton.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Paulitzer, via Wikimedia Commons",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Tate_Plane,_Brixton.jpg",
+        "url": "https://ancienttrees.app/photos/lon_044-the-windrush-square-plane-9b7fd3c7.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1080,
-        "height": 771,
-        "taken_month": 3
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+        "sighting_id": "9b7fd3c7-4236-4ea1-bfa7-c49c49b9766f",
+        "note": "Photographed by a reader and sent through the app (2026-08-10); a viewing pass approved it on 2026-11-15: The lone plane in the paved Windrush Square, whole crown in summer daylight with Brixton's shops and buses behind. Strip photograph beside the lead. Species seen: maple-like leaves, mottled plane bark, broad crown. Fits the description: one huge plane alone in a paved square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "story": "In 1940 a bomb destroyed the Brixton Theatre. The plane tree at the centre of what is now Windrush Square came through the same strike, and since then it has come through something almost as risky for a city tree, two redesigns of the ground around it.\n\nThe plot has a long paper trail. The plot was Brixton Oval, with the Tate Library built in 1893 and a garden laid out in 1905. In 1965 and 1966 the space was redesigned with the plane kept as its central feature. In the redevelopment of the late 2000s it was paved over once more, and the plane was kept once more. Lambeth Council, which looks after the square, describes it simply as the large mature London plane at its heart.\n\nHow old it is, nobody has pinned down. A local history piece says it has stood in the centre of Brixton for around a hundred years; a 2025 tree writer calls it Victorian and one of the finest planes in town. Somewhere past a century is as far as the sources go, and no one has published a girth. If you know more, tell us.\n\nIn 2008 it joined the Great Trees of London, named in a public poll of the city's twenty favourite trees. It stands alone in the middle of a paved square between the library and the Ritzy, free and open at all hours, five minutes from Brixton station.",
-      "how_to_recognise": "You can recognise it as the one huge plane standing alone at the heart of the paved square. It stands in Windrush Square, between the Tate Library and the Ritzy cinema."
+      "how_to_recognise": "You can recognise it as the one huge plane standing alone at the heart of the paved square. It stands in Windrush Square, between the Tate Library and the Ritzy cinema.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tate_Plane%2C_Brixton.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Paulitzer, via Wikimedia Commons",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Tate_Plane,_Brixton.jpg",
+          "status": "approved",
+          "width": 1080,
+          "height": 771,
+          "taken_month": 3
+        }
+      ]
     },
     {
       "id": "lon_045",

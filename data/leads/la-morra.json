@@ -1,0 +1,15 @@
+{
+  "leads": [
+    {
+      "name": "The Cedar of Monfalletto, Annunziata di La Morra",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "lat": null,
+      "lng": null,
+      "reason": "Reader's tip 2026-11-15 (submission 702): 'an astonishing Libanon Cedar' on the hill of Monfalletto at Annunziata, La Morra, in the Langhe. Not yet verified: needs a source, a pin and whether it stands on the Monfalletto wine estate open to visitors or only in view from the road.",
+      "found_by_reader": {
+        "submission": 702,
+        "date": "2026-11-15"
+      }
+    }
+  ]
+}

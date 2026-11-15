@@ -1612,8 +1612,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as dnk_009 in Dunkeld (Scone Palace grounds): whole tree at the reader's GPS fix, a different tree from dnk_006; species stated as the reader's",
    "seen": "2026-11-15"
   },
   {
@@ -1642,8 +1642,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as glg_001 in Geelong: whole tree in daylight at the reader's GPS fix; Tree of the Year 2026 confirmed by Time Out and the gardens' sign",
    "seen": "2026-11-15"
   },
   {
@@ -1668,8 +1668,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-15 as lyt_001 in Lytham: whole tree in daylight at the reader's GPS fix; age and girth stated as the reader's",
    "seen": "2026-11-15"
   },
   {
@@ -1694,8 +1694,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "duplicate",
+   "why": "duplicate 2026-11-15: the same photograph and fix as e731e63c, now lyt_001",
    "seen": "2026-11-15"
   },
   {
@@ -1711,6 +1711,28 @@
    "latitude": null,
    "longitude": null,
    "photo": "p_97a728f6903571f5015c79ae/5622b9e5-3966-439c-9551-d3b8443470cd.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": null,
+   "status": "blocked",
+   "why": "held 2026-11-15: the Majesty Oak stands in Fredville Park on private land with no public access (nonington.org.uk; Kent Heritage Trees: not visible from public access); hard rule 10. The photograph looks like a cropped screenshot, not the reader's own.",
+   "seen": "2026-11-15"
+  },
+  {
+   "sighting_id": "tip-709",
+   "user_id": "p_37416ead21cbdc89843773fd",
+   "mine": false,
+   "name": "A giant sequoia",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Huge redwood in the middle of an urban park, planted in the gardens of a former house in its grounds.",
+   "latitude": null,
+   "longitude": null,
+   "photo": "p_37416ead21cbdc89843773fd/3a5fb958-9479-44f0-8a72-9f80e924673d.jpg",
    "sign_photo": null,
    "sign_file": null,
    "extra_files": [],

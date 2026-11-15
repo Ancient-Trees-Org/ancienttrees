@@ -82,8 +82,8 @@
       "girth_cm": null,
       "location": {
         "address": "709 Byakugoji, Ichijima-cho, Tamba City, Hyogo Prefecture 669-4334",
-        "latitude": 35.1961105,
-        "longitude": 135.0939921,
+        "latitude": 35.196453,
+        "longitude": 135.093353,
         "neighbourhood": "Byakugo-ji temple"
       },
       "verified_sources": [
@@ -93,9 +93,9 @@
       ],
       "access": "Paid entry, 300 yen per person. Temple grounds open 9:00-17:00 (until 21:00 during the wisteria's night illumination period in late April/early May). Best reached by taxi (about 8 minutes) from JR Fukuchiyama Line's Ichijima Station; no bus route or safe walking distance from the station, and the temple runs no shuttle.",
       "transport": "JR Fukuchiyama Line, Ichijima Station, then approx. 8 minutes by taxi (about 5km). By car, 10 minutes from the Kasuga IC on the Maizuru-Wakasa Expressway.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "The longest flower chain recorded on this wisteria measured 180 centimetres. The name promises more. Kyushaku-fuji reads as nine-shaku wisteria, about 2.7 metres, and the temple's own head priest has gone on record correcting visitors who take it as a measurement: it is the cultivar name, Noda Naga-fuji, a plant bred for unusually long racemes.\n\nOne plant, one root, trained along 120 metres of trellis in the grounds of Byakugo-ji, a Tendai temple in the hills of Tamba founded by tradition in 705. That date belongs to the temple and says nothing about the vine. Nothing else does either: no source checked, the temple's own site included, gives a planting date, an age or a trunk measurement. If you know when it went in, tell us.\n\nWhat is documented is the flowering. Early May brings the Kyushaku-fuji festival, and through late April and early May the trellis is lit after dark, with the grounds staying open until nine instead of five. Entry is 300 yen.\n\nGetting there is the awkward part. The last five kilometres from Ichijima station are a taxi ride of about eight minutes: no bus runs it, the temple operates no shuttle, and the road is not one to walk.",
+      "story": "The longest flower chain recorded on this wisteria measured 180 centimetres. The name promises more. Kyushaku-fuji reads as nine-shaku wisteria, about 2.7 metres, and the temple's own head priest has gone on record correcting visitors who take it as a measurement. It is the cultivar name, Noda Naga-fuji, a plant bred for unusually long racemes.\n\nOne plant, one root, trained along 120 metres of trellis in the grounds of Byakugo-ji, a Tendai temple in the hills of Tamba founded by tradition in 705. That date belongs to the temple and says nothing about the vine. Nothing else does either. No source checked, the temple's own site included, gives a planting date, an age or a trunk measurement. If you know when it went in, tell us.\n\nWhat is documented is the flowering. Early May brings the Kyushaku-fuji festival, and through late April and early May the trellis is lit after dark, with the grounds staying open until nine instead of five. Entry is 300 yen.\n\nGetting there is the awkward part. The last five kilometres from Ichijima station are a taxi ride of about eight minutes. No bus runs it, the temple operates no shuttle, and the road is not one to walk.",
       "how_to_recognise": "You can recognise it by the trellis it covers, one vine trained along 120 metres of frame, with flower chains up to 180 centimetres in early May. It is the only structure of that length in the grounds of Byakugo-ji.",
       "best_time": {
         "months": [
@@ -105,7 +105,27 @@
         "kind": "flowers",
         "label": "late April into early May, when the racemes hang and the trellis is lit after dark"
       },
-      "paid_entry": true
+      "paid_entry": true,
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tmb_002-the-kyushaku-fuji-of-byakugo-ji.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 4,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",
+        "note": "Photographed by a reader and sent through the app (2024-04-30); a viewing pass approved it on 2026-11-15: The Byakugo-ji wisteria in full bloom, long flower chains hanging from the trellis, at the reader's fix 69 m from our pin; lit at night, but it is this tree at its peak and the tree had no photograph. Species seen: pendant racemes of violet pea flowers, pinnate leaves, trellis posts. Fits the description: flower chains hanging along a long trellis frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",
+        "moved_m": 69,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     }
   ]
 }

@@ -985,13 +985,15 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ads_001",
-   "reason": "the lead photograph of the reader-found tree it created"
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
   },
   "2733129b-fa14-4fe4-9f30-7ba889ca94c3": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "mvv_001",
-   "reason": "the lead photograph of the reader-found tree it created"
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
   },
   "de5a4012-4b39-4c52-a609-17cfdf464496": {
    "outcome": "added",
@@ -1037,21 +1039,11 @@
    "lon": -25.3385466666667,
    "pin_checked": "2026-11-15"
   },
-  "ffa15eb0-3701-46b0-9f53-84281b66b9c9": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "e65d75dd-6d74-40dc-8840-a803969430e2": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "e731e63c-5e9a-4490-ba4c-b47f30aa22e3": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "71f93157-aef9-41a4-af61-e1ad9755f9b1": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "rejected",
+   "date": "2026-11-15",
+   "tree_id": "lyt_001",
+   "reason": "Duplicate of e731e63c, the same photograph and fix."
   },
   "tip-703": {
    "outcome": "lead",
@@ -1061,13 +1053,115 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "lon_050",
-   "reason": "the lead photograph of the reader-found tree it created"
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
   },
   "6ace68f9-6ca3-470c-9511-7e55975fb2f0": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "brk_001",
-   "reason": "the lead photograph of the reader-found tree it created"
+   "reason": "the lead photograph of the reader-found tree it created",
+   "pin_checked": "2026-11-15"
+  },
+  "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "edi_021",
+   "city_slug": "edinburgh",
+   "file": "edi_021-the-redford-wood-redwood.jpg",
+   "reason": "Giant sequoia trunk in daylight at the reader's GPS fix at the southern end of Redford Wood; the tree had no photograph. Second frame (trunk by the path) in the strip. Species seen: deeply furrowed fibrous red-brown bark, flared base, scale-leaved drooping sprays. Fits the description: a big redwood",
+   "lat": 55.9041366666667,
+   "lon": -3.240895,
+   "pin_checked": "2026-11-15"
+  },
+  "60a694a0-639f-46e3-bebb-7a3d1a8edcff": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "azo_001",
+   "city_slug": "azores",
+   "file": "azo_001-giant-australian-rubber-tree-of-jardim-antonio-borges.jpg",
+   "reason": "Same tree as the Commons view of the Ficus macrophylla in Jardim Antonio Borges: split trunk with the torn scar, buttress roots, stone wall behind; the tree had no photograph. Species seen: smooth grey fig bark, huge snaking buttress roots, leathery dark leaves. Fits the description: colossal fig wi",
+   "lat": 37.7434267,
+   "lon": -25.6755293,
+   "pin_checked": "2026-11-15"
+  },
+  "abb593f0-9a90-47cd-8138-1040de6f803c": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "azo_001",
+   "reason": "A different fig from azo_001: curtains of hanging aerial roots, a street fence and parked cars behind, where azo_001 is the buttress-rooted tree in the sender's other photograph. Sent from the page with no device fix, so it cannot be placed; kept as a lead."
+  },
+  "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "edi_017",
+   "city_slug": "edinburgh",
+   "file": "edi_017-robert-louis-stevenson-s-yew-6a88ea1a.jpg",
+   "reason": "The manse-garden yew beside Colinton Manse (white house, red door) in daylight; strip photograph beside the Commons lead. Species seen: dense dark yew foliage, reddish fluted trunk. Fits the description: broad old yew in the manse garden next to Colinton Parish Church.",
+   "lat": 55.9088466666667,
+   "lon": -3.25546333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "tip-709": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "ffa15eb0-3701-46b0-9f53-84281b66b9c9": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "dnk_009",
+   "file": "dnk_009-the-sitka-spruce-at-scone-palace.jpg",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
+  },
+  "e731e63c-5e9a-4490-ba4c-b47f30aa22e3": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lyt_001",
+   "file": "lyt_001-the-lytham-sweet-chestnut.jpg",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
+  },
+  "e65d75dd-6d74-40dc-8840-a803969430e2": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "glg_001",
+   "file": "glg_001-the-geelong-ginkgo.jpg",
+   "reason": "The reader's own new tree: this photograph is its lead, published with the tree.",
+   "pin_checked": "2026-11-15"
+  },
+  "ca9fc102-0921-422a-ab13-5d1712d2e630": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "tmb_002",
+   "city_slug": "tamba",
+   "file": "tmb_002-the-kyushaku-fuji-of-byakugo-ji.jpg",
+   "reason": "The Byakugo-ji wisteria in full bloom, long flower chains hanging from the trellis, at the reader's fix 69 m from our pin; lit at night, but it is this tree at its peak and the tree had no photograph. Species seen: pendant racemes of violet pea flowers, pinnate leaves, trellis posts. Fits the descri",
+   "lat": 35.1964533333333,
+   "lon": 135.093352833333,
+   "pin_checked": "2026-11-15"
+  },
+  "13cd8329-6443-4201-9f70-3476e77735db": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_002",
+   "city_slug": "london",
+   "file": "lon_002-the-royal-oak-13cd8329.jpg",
+   "reason": "The Royal Oak in Richmond Park behind the bracken and rail, the hollow split pollard trunk clear, sunny daylight; a visitor in front. Strip photograph beside the lead. Species seen: oak crown, gnarled grey limbs, hollow trunk. Fits the description: huge hollow split pollard trunk in Richmond Park br",
+   "lat": 51.4446666666667,
+   "lon": -0.283278333333333,
+   "pin_checked": "2026-11-15"
+  },
+  "9b7fd3c7-4236-4ea1-bfa7-c49c49b9766f": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "lon_044",
+   "city_slug": "london",
+   "file": "lon_044-the-windrush-square-plane-9b7fd3c7.jpg",
+   "reason": "The lone plane in the paved Windrush Square, whole crown in summer daylight with Brixton's shops and buses behind. Strip photograph beside the lead. Species seen: maple-like leaves, mottled plane bark, broad crown. Fits the description: one huge plane alone in a paved square.",
+   "lat": 51.4608616666667,
+   "lon": -0.115291666666667,
+   "pin_checked": "2026-11-15"
   }
  }
 }

@@ -354,6 +354,51 @@
         "kind": "autumn colour",
         "label": "late October into November, when the 30 metre wall of beech turns copper and russet"
       }
+    },
+    {
+      "id": "dnk_009",
+      "name": "The Sitka Spruce at Scone Palace",
+      "species": "Sitka Spruce (Picea sitchensis)",
+      "location": {
+        "address": "Scone Palace grounds, Old Scone, Perth, Perth and Kinross",
+        "latitude": 56.423234598964,
+        "longitude": -3.43346971902839,
+        "neighbourhood": "Scone"
+      },
+      "story": "This tall spruce rises in a broad spire of drooping branches in the grounds of Scone Palace, about seventy metres from the palace's famous Douglas fir. A reader photographed it for us and named it a Sitka spruce. We have not been able to check that against a label or a record, so the species is theirs.\n\nIf they are right, it stands in fitting company. David Douglas, the plant collector who was born in the village of Scone and trained as a gardener in these grounds, is credited with bringing the Sitka spruce to Britain, and it became the backbone of Scottish forestry. Nothing we have read says this tree was grown from his seed, so take that as the reason it belongs here, not as its birth certificate.\n\nThe grounds hold a Victorian collection of conifers gathered by the Earls of Mansfield, and the palace counts some of them among the giants of their kind. This one has no published height or girth and no planting date. If you visit, a tape round the trunk, or a look at a label at its foot, would settle what it is and how big.",
+      "how_to_recognise": "A tall spruce about seventy metres from the palace's labelled Douglas fir, a broad spire of drooping, blue-green branches that sweep almost to the ground around a thick base.",
+      "verified_sources": [
+        "https://www.scone-palace.co.uk/pinetum",
+        "A reader's photograph through the app, 2026-11-15, with a GPS fix in the palace grounds"
+      ],
+      "found_by_reader": {
+        "sighting_id": "ffa15eb0-3701-46b0-9f53-84281b66b9c9",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app as 'Sitka Spruce in Dunkeld' with a GPS fix in Scone Palace grounds, 67 m from dnk_006 the Douglas fir (compared with the Commons photograph of dnk_006: a different tree). Species is the reader's; not checked against a label. Scone Palace's pinetum page names hemlocks, noble firs and sequoias among its giants; David Douglas introduced Sitka spruce to Britain (Countryfile, Undiscovered Scotland). No register entry within 100 m. No measurement.",
+      "access": "Paid entry to Scone Palace gardens and grounds; opening times and prices on scone-palace.co.uk.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dnk_009-the-sitka-spruce-at-scone-palace.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_185d898c7855df9e68eaf269",
+        "sighting_id": "ffa15eb0-3701-46b0-9f53-84281b66b9c9",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole tree from the ground up, a tall broad spire of drooping branches over a wide base, overcast daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": null,
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ffa15eb0-3701-46b0-9f53-84281b66b9c9",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      },
+      "paid_entry": true
     }
   ]
 }

@@ -1,0 +1,119 @@
+{
+  "city": "Geelong",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Geelong's most celebrated tree is a ginkgo in the Geelong Botanic Gardens, planted from Chinese seed in 1859 by the gardens' first curator. In November 2026 the National Trust named it Victoria's Tree of the Year and called it the largest ginkgo in the state. Its burred grey trunk is hung with lumps of wood like stalactites, rare on a ginkgo this young, and it is a female tree that fruits each year. The gardens are free to walk into, beside Eastern Beach.",
+  "meta_description": "The Geelong ginkgo: planted in 1859, Victoria's Tree of the Year 2026, its trunk hung with stalactite-like growths in the Botanic Gardens.",
+  "hero_tree_id": "glg_001",
+  "oldest_tree_id": "glg_001",
+  "trees": [
+    {
+      "id": "glg_001",
+      "name": "The Geelong Ginkgo",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "about 167 years, planted 1859",
+      "age_min": 166,
+      "age_max": 167,
+      "age_basis": "source",
+      "location": {
+        "address": "Geelong Botanic Gardens, Eastern Park, Geelong VIC",
+        "latitude": -38.1504471666667,
+        "longitude": 144.37877,
+        "neighbourhood": "Eastern Park"
+      },
+      "story": "Hanging from the trunk of this ginkgo are lumps of wood shaped like stalactites, and the gardens' own sign says they are rarely seen on a ginkgo this young. In November 2026 the National Trust in Victoria named it the state's Tree of the Year, and the Trust calls it the largest of its kind in Victoria, possibly in cultivation anywhere in Australia.\n\nAccording to the Geelong Botanic Gardens sign beside it, the first curator, Daniel Bunce, planted it in 1859 after the Geelong politician James Strachan gave the gardens seed from China. The Australasian measured it at about nine metres in 1897; the sign now puts it at more than twenty. That makes it about 167 years old, a young age for a species that can pass a thousand, which is why the hanging growths surprise people.\n\nIt is a female tree and fruits heavily each year, and the fallen fruit smells as bad as ginkgo fruit always does. The sign adds a small mystery. Old notes call the tree largely female, some branches behave differently, and nobody can document whether a male branch was ever grafted on.\n\nIt stands among palms and dark conifers in the Geelong Botanic Gardens, which are free to walk into. Look for the burred grey trunk with the framed sign in front of it, and for fresh leaves sprouting straight from the bark.",
+      "how_to_recognise": "A ginkgo with a thick, burred grey trunk hung with pale lumps of wood like stalactites, fan-shaped leaves, and a framed Tree of the Year sign standing at its foot.",
+      "verified_sources": [
+        "https://www.timeout.com/melbourne/news/this-167-year-old-tree-in-geelong-has-just-been-crowned-victorias-tree-of-the-year-110826",
+        "https://nationaltrust.org.au/treeoftheyear",
+        "https://vhd.heritagecouncil.vic.gov.au/places/71090",
+        "The Geelong Botanic Gardens sign at the tree, photographed by a reader through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app as 'Ginkgo', age '167 years', note on Tree of the Year 2026 and the stalactites, four photographs and a GPS fix in the gardens. Time Out Melbourne 2026-11-08: planted from seed in 1859, crowned Victorian Tree of the Year 2026 by National Trust Victoria with 27 per cent of 4,435 votes; largest of its kind in Victoria and potentially in Australia. The gardens' sign (reader's photograph): Daniel Bunce planted it in 1859 from seed James Strachan donated from China; The Australasian gave 30 feet in 1897; more than 20 m today; aerial roots rare at this age; female, fruits; a male graft undocumented. Victorian Heritage Database 71090 lists a Ginkgo biloba (page refused our fetch, 403). No girth published.",
+      "access": "Free, in the Geelong Botanic Gardens, open daily.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b72de4c8041ff509cd6e5acf",
+        "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole tree in leaf, its burred trunk and the Tree of the Year sign, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-e65d75dd.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1078,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_b72de4c8041ff509cd6e5acf",
+          "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+          "note": "The same reader's photograph of the trunk with a visitor for scale, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-sign.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_b72de4c8041ff509cd6e5acf",
+          "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+          "note": "The same reader's photograph of the gardens' Tree of the Year sign against the trunk, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-leaves.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_b72de4c8041ff509cd6e5acf",
+          "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+          "note": "The same reader's close view of fresh leaves sprouting from the bark, looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e65d75dd-6d74-40dc-8840-a803969430e2",
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+      }
+    }
+  ],
+  "question_meta": "The Geelong ginkgo: planted in 1859, Victoria's Tree of the Year 2026. How old it is and where to find it in the Botanic Gardens.",
+  "question_answer": "Geelong's best-known tree is the ginkgo (Ginkgo biloba) in the Geelong Botanic Gardens, planted from seed in 1859 by the first curator, Daniel Bunce, and named Victoria's Tree of the Year 2026 by the National Trust. That makes it about 167 years old. The gardens are free to visit.",
+  "question_context": "The gardens' own sign at the tree says Daniel Bunce planted it in 1859 after the Geelong politician James Strachan gave the gardens seed from China, and that The Australasian reported it at about nine metres tall in 1897. The sign now gives more than twenty metres. Time Out Melbourne reported in November 2026 that it won the National Trust's Victorian Tree of the Year vote with 27 per cent of 4,435 votes, and the Trust calls it the largest of its kind in Victoria and possibly in cultivation in Australia. Its trunk carries hanging growths like stalactites, which the sign says are rare on a ginkgo of this age. It is a female tree and fruits each year. The sign also records a small mystery. Old notes describe the tree as largely female, some of its branches behave differently, and nobody has documented whether a male branch was ever grafted on. It stands among palms and conifers in the gardens, with a framed sign at its foot.",
+  "faq": [
+    {
+      "q": "How old is the Geelong ginkgo?",
+      "a": "About 167 years. The gardens' sign says it was planted from seed in 1859."
+    },
+    {
+      "q": "Why is it famous?",
+      "a": "The National Trust named it Victoria's Tree of the Year in 2026 and calls it the largest ginkgo in the state, with stalactite-like growths hanging from its trunk."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. It stands in the Geelong Botanic Gardens, which are free to enter."
+    },
+    {
+      "q": "Does it have fruit?",
+      "a": "Yes. It is a female tree and fruits each year, and the fallen fruit has the strong smell ginkgo fruit is known for."
+    }
+  ]
+}
