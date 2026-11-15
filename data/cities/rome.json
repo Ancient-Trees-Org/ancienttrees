@@ -1145,10 +1145,17 @@
       "access": "Free, on a public street beside the Aurelian Walls",
       "transport": "By Porta Latina, about 100 metres from the Parco degli Scipioni entrance at Via di Porta Latina 16; roughly 20 to 25 minutes' walk from Circo Massimo (Metro B)",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rom_028-the-hackberry-of-the-mura-latine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_23fcf021138e007ac2500300",
+        "sighting_id": "c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Hackberry crowns beside the Aurelian wall tower; rough but it is the tree and the place. Species seen: Hackberry: serrated ovate leaves, broad crown. Fits the description: big crowns against the Mura Latine tower.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

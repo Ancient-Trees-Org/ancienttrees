@@ -45,18 +45,31 @@
         "note": "The location stored in the reader's photograph, at the head of the Wahlin Trail beside the oak."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak.jpg",
+        "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-0adac3f1.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 5,
         "source": "contributor",
         "contributor_user_id": "p_456665b8a773124350ec9019",
         "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
-        "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole oak from the clearing, moss-hung limbs spreading over the trunk, the plaque boulder at its foot, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "note": "Photographed by a reader and sent through the app (2026-05-10); a viewing pass approved it on 2026-11-15: The Fairchild Oak with its plaque stone, moss and Spanish moss, daylight. Species seen: Live oak: spreading limbs, Spanish moss, resurrection fern. Fits the description: huge spreading live oak with memorial stone.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_456665b8a773124350ec9019",
+          "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+          "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole oak from the clearing, moss-hung limbs spreading over the trunk, the plaque boulder at its foot, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-limbs.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",

@@ -66,8 +66,8 @@
       "age_estimate": "not documented, an old-growth redwood",
       "location": {
         "address": "Redwood Grove Loop Trail, stop 8, Henry Cowell Redwoods State Park, Felton, Santa Cruz County",
-        "latitude": 37.0359,
-        "longitude": -122.0595,
+        "latitude": 37.035447,
+        "longitude": -122.059656,
         "neighbourhood": "Henry Cowell Redwoods State Park, Felton"
       },
       "story": "General John C. Fremont was asked in 1888 whether he had really slept inside this redwood, and he declined to spoil it. \"It makes a great story, let it stand,\" he said, according to the California State Parks guide to the Redwood Grove loop. So the claim that he spent a night here in 1846 remains exactly that, a good claim its own subject refused to confirm.\n\nThe tree does not need him. Fire hollowed out the base and it went on living. The park describes it as a still-living tree and invites you to explore the inside, so you can stand in the room that may or may not have housed a general. Dated observations from 2022, 2025 and 2026 show it still here.\n\nNo girth, height or age has been published for it. It is simply an old-growth redwood with a burnt heart and a better publicist than most. If you know its age, tell us.\n\nIt is stop 8 on the loop, in Henry Cowell Redwoods State Park at Felton, right after The Giant. There is a state park day-use fee.",
@@ -82,13 +82,27 @@
       "access": "Stop 8 on the signed Redwood Grove self-guided loop; visitors can step inside the hollow base. State park day-use fee applies; check parks.ca.gov for hours.",
       "transport": "By car to Henry Cowell Redwoods State Park in Felton, about 10 km north of Santa Cruz; bus routes not checked.",
       "how_to_recognise": "You can recognise it by the burnt-out, hollow base that you can step inside. It stands at stop 8 on the signed Redwood Grove loop, just past The Giant.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/scz_002-the-fremont-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 3,
+        "source": "contributor",
+        "contributor_user_id": "p_f5deee9b833aca72c8b2854c",
+        "sighting_id": "d100ece6-decf-4d6e-b031-b80a81f0e0db",
+        "note": "Photographed by a reader and sent through the app (2026-03-25); a viewing pass approved it on 2026-11-15: Giant redwood trunk and crown from below, daylight, fits the Fremont Tree. Species seen: Coast redwood: fibrous furrowed bark, feathery crown. Fits the description: tall straight redwood trunk rising out of a grove.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d100ece6-decf-4d6e-b031-b80a81f0e0db",
+        "moved_m": 52,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

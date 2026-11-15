@@ -55,10 +55,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_856cd2e3820af4b001f6554a",
+        "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The huge hollow veteran oak behind its fence in warm light. Species seen: Oak: ancient hollow trunk, gnarled bare limbs. Fits the description: enormous broken veteran oak in a fenced meadow.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its hollow, steel-banded trunk, now down to a single branch still carrying leaves. It stands inside Kvills nature reserve, near Rumskulla.",
       "best_time": {

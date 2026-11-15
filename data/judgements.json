@@ -3032,8 +3032,8 @@
     "score": null,
     "note": "nothing measurable about Common Lime (Tilia x europaea)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Looked at it: the weeping linden by the water, daylight, fits the ANWB Linden.",
    "hidde": null,
    "agreed": null
   },
@@ -3193,6 +3193,509 @@
    },
    "verdict": "publish",
    "reason": "Looked 2026-11-15: the Fairchild Oak in Bulow Creek State Park, its plaque boulder and park sign in frame, daylight, GPS fix at the Wahlin trailhead. Published as obc_001 (Ormond Beach): over 400 years by Wikipedia, almost 500 by the state park list, about 600 by the reader, 2,000 on the plaque.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Fairchild Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 32,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the whole moss-hung oak with the plaque boulder, daylight, lead photograph of obc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Fairchild Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 32,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the trunk with one long limb across the clearing, daylight, in the strip of obc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1306c000-ed52-40f3-ad73-c6f414c5dbff",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Norwich Cathedral Cedar",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
+   "reader_note": "In the grounds of Norwich Cathedral",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the whole cedar with the cathedral behind, daylight, lead photograph of nwc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:57a70549-ac95-452e-894b-3bf467dc26ae",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Mespilifolia Oak of Noorderplantsoen",
+   "city": "Groningen",
+   "species": "Sessile Oak \"Mespilifolia\" (Quercus petraea \"Mespilifolia\")",
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the whole broad crown of the oak on the park's east edge, narrow autumn leaves, grey daylight; app match 18 m. First photograph of gro_016.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:62eb3e8f-66ef-4dcb-9069-fac45b46797c",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak of Martinikerkhof",
+   "city": "Groningen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the oak from its foot, trunk and thinning crown, as its recognition line says; app match 13 m. First photograph of gro_007.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b9cab82b-f47c-4dc3-bb04-b96abd73163c",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Green Beeches of the Nieuwe Kerkhof",
+   "city": "Groningen",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: a big beech in autumn leaf beside the Nieuwe Kerk, daylight; app match 64 m. Added as the lead of gro_014 (reader first).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ed0a19ed-93e1-42e9-8a50-fcaa0420bda1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_28a591396b4ab1941a5729a8/ED0A19ED-93E1-42E9-8A50-FCAA0420BDA1.jpg",
+   "reader_note": "There are 4,000 oak trees at this location. Early in their lives they were pollarded, and so now they have an amazing appearance. \nThe landowner allows people to walk through, but please respect this by keeping to the path. \nPark cars at the nearby Burley Corner car park (free).",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a6d28625-b0fb-469f-8653-84ff735dad85",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Métaséquoia in La Tène",
+   "city": null,
+   "species": "Métaséquoia",
+   "photo": "p_2e79bf68318b596d2c9298dc/A6D28625-B0FB-469F-8653-84FF735DAD85.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 250,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Métaséquoia"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bf30b7a2-fe72-4e2f-beeb-7757e1e9174b",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree in La Tène",
+   "city": null,
+   "species": null,
+   "photo": "p_2e79bf68318b596d2c9298dc/BF30B7A2-FE72-4E2F-BEEB-7757E1E9174B.jpg",
+   "reader_note": "3 hêtres pleureurs",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2186bb95-6054-4154-b6d9-c75cb1fca187",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Giant Sequoia in La Tène",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_2e79bf68318b596d2c9298dc/2186BB95-6054-4154-B6D9-C75CB1FCA187.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 705,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c7dca666-5183-4987-b585-0f10639b5cb3",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Large-leaved Lime in La Tène",
+   "city": null,
+   "species": "Large-leaved Lime",
+   "photo": "p_2e79bf68318b596d2c9298dc/C7DCA666-5183-4987-B585-0F10639B5CB3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Large-leaved Lime"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b2b14047-08e5-447f-a435-3a4f137809b0",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Elleholmseken (The Oak of Elleholm)",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_856cd2e3820af4b001f6554a/B2B14047-08E5-447F-A435-3A4F137809B0.jpg",
+   "reader_note": "Elleholmseken. På eken växer rödlistade arter som gammalekslav, grå skärelav och matt pricklav. Vissa år syns också oxtungsvampens fruktkroppar.",
+   "reader_girth_cm": 785,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 2.003,
+    "via": "girth",
+    "note": "200% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0b0d29fa-bc94-48a7-8014-4d103452c16d",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "London Plane",
+   "city": null,
+   "species": "London Plane",
+   "photo": "p_48178e92fdea8f66a594fb70/0B0D29FA-BC94-48A7-8014-4D103452C16D.jpg",
+   "reader_note": "A type of Baobab London Plane tree that must be at least 200 years old. The scale of it in person is jaw dropping…",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.367,
+    "via": "girth",
+    "note": "137% of the genus reference (512 cm, n=2, max 512)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d8edd734-1e64-45cb-afe4-47a85a4d804a",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Mistley",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_48178e92fdea8f66a594fb70/D8EDD734-1E64-45CB-AFE4-47A85A4D804A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 600,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.531,
+    "via": "girth",
+    "note": "153% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4b1e4321-165c-4742-b645-6ec065f3094c",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_d0f732765fbf1515400b0ff7/4B1E4321-165C-4742-B645-6EC065F3094C.jpg",
+   "reader_note": "This tree sits in the garden of the library of the Carmarthen Campus of the University of Wales Trinity Saint David. The library has large glass windows that look onto the garden, and in Autumn this tree shines its glory through those windows. \n\nAs the campus was opened in 1842 then three is likely to be around 180 years old.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-839",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Arbour Oak",
+   "city": null,
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_050a7df1343144bf3f82d0f0/c77f3aca-d6df-4536-bf0e-a21923d05518.jpg",
+   "reader_note": "The Arbour Oak on Arbour Hill in Wollaton Park is a magnificent Oak tree with a girth of nearly 7 meters and a spread of 40 meters. It is estimated to be over 550 years old, making it the oldest tree in the park. \n\nIt is a hybrid between an English Oak and Sessile Oak (Quercus x rosacea), the RHS use the common name the Rose Oak.It is thought to have started life in the 1460s, making it older than Wollaton Hall, which was built in 1588.\n\nThe tree was pollarded in the 17th century, which means th",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:eb13d715-dd45-415b-aeb6-2a986565e5fb",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Oriental Plane of Landgoed Bantam",
+   "city": "Hilversum",
+   "species": "Oriental Plane",
+   "photo": "out/sightings/eb13d715-dd45-415b-aeb6-2a986565e5fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at it: burred oriental plane trunk in daylight, fits.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Hackberry of the Mura Latine",
+   "city": "Rome",
+   "species": "Hackberry",
+   "photo": "out/sightings/c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at it: hackberry crowns by the Mura Latine tower; rough frame but this tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:405d389a-e777-4df3-a844-31fee2556e58",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Rumskullaeken (the Kvill Oak)",
+   "city": "Rumskulla",
+   "species": "Pedunculate Oak",
+   "photo": "out/sightings/405d389a-e777-4df3-a844-31fee2556e58.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at it: the Kvill Oak, fenced hollow veteran in warm light.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d100ece6-decf-4d6e-b031-b80a81f0e0db",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Fremont Tree",
+   "city": "Santa Cruz",
+   "species": "Coast Redwood",
+   "photo": "out/sightings/d100ece6-decf-4d6e-b031-b80a81f0e0db.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at it: redwood trunk and crown from below, daylight, fits.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ab926a56-7355-4115-aaeb-20715143d5c0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Te Matua Ngahere",
+   "city": "Waipoua Forest",
+   "species": "Kauri",
+   "photo": "out/sightings/ab926a56-7355-4115-aaeb-20715143d5c0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at it: Te Matua Ngahere, vast pale trunk; fits.",
    "hidde": null,
    "agreed": null
   },
@@ -6023,138 +6526,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Fairchild Oak",
-   "city": null,
-   "species": "Southern Live Oak",
-   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
-   "reader_note": "",
-   "reader_girth_cm": 32,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Southern Live Oak"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole moss-hung oak with the plaque boulder, daylight, lead photograph of obc_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Fairchild Oak",
-   "city": null,
-   "species": "Southern Live Oak",
-   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
-   "reader_note": "",
-   "reader_girth_cm": 32,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Southern Live Oak"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the trunk with one long limb across the clearing, daylight, in the strip of obc_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:1306c000-ed52-40f3-ad73-c6f414c5dbff",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Norwich Cathedral Cedar",
-   "city": null,
-   "species": "Cedar of Lebanon",
-   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
-   "reader_note": "In the grounds of Norwich Cathedral",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Cedar of Lebanon"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole cedar with the cathedral behind, daylight, lead photograph of nwc_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:57a70549-ac95-452e-894b-3bf467dc26ae",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Mespilifolia Oak of Noorderplantsoen",
-   "city": "Groningen",
-   "species": "Sessile Oak \"Mespilifolia\" (Quercus petraea \"Mespilifolia\")",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole broad crown of the oak on the park's east edge, narrow autumn leaves, grey daylight; app match 18 m. First photograph of gro_016.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:62eb3e8f-66ef-4dcb-9069-fac45b46797c",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Oak of Martinikerkhof",
-   "city": "Groningen",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the oak from its foot, trunk and thinning crown, as its recognition line says; app match 13 m. First photograph of gro_007.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:b9cab82b-f47c-4dc3-bb04-b96abd73163c",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Green Beeches of the Nieuwe Kerkhof",
-   "city": "Groningen",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: a big beech in autumn leaf beside the Nieuwe Kerk, daylight; app match 64 m. Added as the lead of gro_014 (reader first).",
    "hidde": null,
    "agreed": null
   }

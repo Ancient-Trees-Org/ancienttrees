@@ -2191,6 +2191,124 @@
   "tip-839": {
    "outcome": "lead",
    "date": "2026-11-15"
+  },
+  "d100ece6-decf-4d6e-b031-b80a81f0e0db": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "scz_002",
+   "city_slug": "santa-cruz",
+   "file": "scz_002-the-fremont-tree.jpg",
+   "reason": "Giant redwood trunk and crown from below, daylight, fits the Fremont Tree. Species seen: Coast redwood: fibrous furrowed bark, feathery crown. Fits the description: tall straight redwood trunk rising out of a grove.",
+   "lat": 37.0354471666667,
+   "lon": -122.0596555,
+   "pin_checked": "2026-11-15"
+  },
+  "405d389a-e777-4df3-a844-31fee2556e58": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "rkm_001",
+   "city_slug": "rumskulla",
+   "file": "rkm_001-rumskullaeken-the-kvill-oak.jpg",
+   "reason": "The huge hollow veteran oak behind its fence in warm light. Species seen: Oak: ancient hollow trunk, gnarled bare limbs. Fits the description: enormous broken veteran oak in a fenced meadow.",
+   "lat": 57.7345716666667,
+   "lon": 15.6286216666667,
+   "pin_checked": "2026-11-15"
+  },
+  "df0d3965-9232-4870-95fe-5ec6d504830f": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "gro_018",
+   "city_slug": "groningen",
+   "file": "gro_018-the-anwb-linden-of-wilhelminakade.jpg",
+   "reason": "Large weeping linden by the water in autumn; the reader stands at the trunk for scale. Species seen: Weeping lime: pendulous crown, heart-shaped leaves. Fits the description: broad weeping crown beside a canal.",
+   "lat": 53.219975,
+   "lon": 6.55358666666667,
+   "pin_checked": "2026-11-15"
+  },
+  "eb13d715-dd45-415b-aeb6-2a986565e5fb": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "hil_001",
+   "city_slug": "hilversum",
+   "file": "hil_001-the-oriental-plane-of-landgoed-bantam.jpg",
+   "reason": "Knobbled plane trunk with peeling bark, daylight. Species seen: Oriental plane: flaking bark, burly trunk, lobed leaves. Fits the description: massive burred plane trunk.",
+   "lat": 52.2574116666667,
+   "lon": 5.13866116666667,
+   "pin_checked": "2026-11-15"
+  },
+  "c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "rom_028",
+   "city_slug": "rome",
+   "file": "rom_028-the-hackberry-of-the-mura-latine.jpg",
+   "reason": "Hackberry crowns beside the Aurelian wall tower; rough but it is the tree and the place. Species seen: Hackberry: serrated ovate leaves, broad crown. Fits the description: big crowns against the Mura Latine tower.",
+   "lat": 41.876361,
+   "lon": 12.502667,
+   "pin_checked": "2026-11-15"
+  },
+  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "ank_001",
+   "reason": "A multi-stemmed plane tree in a car park, not a yew; wrong tree for the Ankerwycke Yew."
+  },
+  "58c5695b-4cbb-431d-b01e-9b7474bf4767": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "ank_001",
+   "reason": "Same plane tree photo as e7bef8af; not the yew."
+  },
+  "1265f8c2-ab0a-4128-8358-2c7c8063323d": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "ank_001",
+   "reason": "Same plane tree photo as e7bef8af; not the yew."
+  },
+  "19e0931d-42c8-47d4-b051-87188d4d663e": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "ank_001",
+   "reason": "Same plane tree photo as e7bef8af; not the yew."
+  },
+  "8335e815-9828-4129-a977-f7e5c1d4487c": {
+   "outcome": "held",
+   "date": "2026-11-15",
+   "tree_id": "kly_001",
+   "reason": "Three people in the cloister; the yew trunk shows only at the top left. Wrong subject."
+  },
+  "ab926a56-7355-4115-aaeb-20715143d5c0": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "wai_002",
+   "city_slug": "waipoua-forest",
+   "file": "wai_002-te-matua-ngahere-ab926a56.jpg",
+   "reason": "Te Matua Ngahere rising out of the forest, a small visitor at the foot for scale. Species seen: Kauri: pale smooth mottled trunk, huge bole. Fits the description: vast pale columnar trunk in forest.",
+   "lat": -35.6075,
+   "lon": 173.52861,
+   "pin_checked": "2026-11-15"
+  },
+  "1306c000-ed52-40f3-ad73-c6f414c5dbff": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "nwc_001",
+   "city_slug": "norwich",
+   "file": "nwc_001-the-norwich-cathedral-cedar-1306c000.jpg",
+   "reason": "The cedar beside the cathedral spire, hazy light but clearly the tree. Species seen: Cedar: layered flat boughs, dark needles. Fits the description: large cedar with the cathedral spire behind.",
+   "lat": 52.6319209766881,
+   "lon": 1.30194879280909,
+   "pin_checked": "2026-11-15"
+  },
+  "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68": {
+   "outcome": "added",
+   "date": "2026-11-15",
+   "tree_id": "obc_001",
+   "city_slug": "ormond-beach",
+   "file": "obc_001-the-fairchild-oak-0adac3f1.jpg",
+   "reason": "The Fairchild Oak with its plaque stone, moss and Spanish moss, daylight. Species seen: Live oak: spreading limbs, Spanish moss, resurrection fern. Fits the description: huge spreading live oak with memorial stone.",
+   "lat": 29.3882216666667,
+   "lon": -81.1310055,
+   "pin_checked": "2026-11-15"
   }
  }
 }

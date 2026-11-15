@@ -82,65 +82,7 @@
       "official_register": {
         "name": "Ancient Tree Inventory (Woodland Trust)",
         "url": "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=2121"
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/ank_001-the-ankerwycke-yew-e7bef8af.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 10,
-          "source": "contributor",
-          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
-          "sighting_id": "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
-          "note": "Photographed by a reader and sent through the app (2024-10-27); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/ank_001-the-ankerwycke-yew-58c5695b.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 10,
-          "source": "contributor",
-          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
-          "sighting_id": "58c5695b-4cbb-431d-b01e-9b7474bf4767",
-          "note": "Photographed by a reader and sent through the app (2024-10-27); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/ank_001-the-ankerwycke-yew-1265f8c2.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 10,
-          "source": "contributor",
-          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
-          "sighting_id": "1265f8c2-ab0a-4128-8358-2c7c8063323d",
-          "note": "Photographed by a reader and sent through the app (2024-10-27); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/ank_001-the-ankerwycke-yew-19e0931d.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 10,
-          "source": "contributor",
-          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
-          "sighting_id": "19e0931d-42c8-47d4-b051-87188d4d663e",
-          "note": "Photographed by a reader and sent through the app (2024-10-27); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-15"
-        }
-      ]
+      }
     }
   ]
 }

@@ -625,12 +625,19 @@
       "transport": "About a 15 minute walk from Groningen Centraal station, west of Noorderplantsoen",
       "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "The organisation this tree was planted for was not yet fifty years old when it got its own tree, whatever the sign says. Groningen planted a line of lindens along the Wilhelminakade in 1928 to honour the ANWB, then still a cyclists' union rather than the roadside-assistance name it later became, and the register calls it the union's fiftieth anniversary. The ANWB itself dates its founding to 1883, which makes 1928 the forty fifth year, not the fiftieth. Nobody has explained the gap, and this page will not invent one.\n\nThe tree itself is plainer than its arithmetic problem. It is a common lime on a street corner, healthy apart from one dead branch, its base ringed with dozens of small knobbly regrowth points where the city has repeatedly cut back suckering growth over the better part of a century. That kind of pollarding scar is usually the surest sign of a genuinely old street tree: a young one has not been cut back often enough to show it.\n\nFree to see, on the public corner of Wilhelminakade and Oranjesingel, no gate involved.",
+      "story": "The organisation this tree was planted for was not yet fifty years old when it got its own tree, whatever the sign says. Groningen planted a line of lindens along the Wilhelminakade in 1928 to honour the ANWB, then still a cyclists' union rather than the roadside-assistance name it later became, and the register calls it the union's fiftieth anniversary. The ANWB itself dates its founding to 1883, which makes 1928 the forty fifth year, not the fiftieth. Nobody has explained the gap, and this page will not invent one.\n\nThe tree itself is plainer than its arithmetic problem. It is a common lime on a street corner, healthy apart from one dead branch, its base ringed with dozens of small knobbly regrowth points where the city has repeatedly cut back suckering growth over the better part of a century. That kind of pollarding scar is usually the surest sign of a genuinely old street tree, since a young one has not been cut back often enough to show it.\n\nFree to see, on the public corner of Wilhelminakade and Oranjesingel, no gate involved.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gro_018-the-anwb-linden-of-wilhelminakade.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+        "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Large weeping linden by the water in autumn; the reader stands at the trunk for scale. Species seen: Weeping lime: pendulous crown, heart-shaped leaves. Fits the description: broad weeping crown beside a canal.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "best_time": {
         "months": [

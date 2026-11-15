@@ -13,8 +13,8 @@
       "species": "Cedar of Lebanon (Cedrus libani)",
       "location": {
         "address": "The Close, Norwich Cathedral, Norwich NR1 4DD, by the east end of the cathedral",
-        "latitude": 52.63192,
-        "longitude": 1.30195,
+        "latitude": 52.631921,
+        "longitude": 1.301949,
         "neighbourhood": "Cathedral Close"
       },
       "story": "A reader sent us this cedar of Lebanon with one line, \"In the grounds of Norwich Cathedral\", and a photograph that explains why it stopped them. The tree stands beside a gravel path in the cathedral close, its dark, layered branches sweeping out low over the grass, and behind it rise the rounded Norman east end of the cathedral and its stone spire, half lost in mist.\n\nThe cathedral was begun in 1096. Its spire, built in 1480, is the second tallest in England at 96 metres. The cedar is far younger than either, but we have found no record of when it was planted or how big its trunk is, so this page gives it no age rather than guess one.\n\nWhat the photograph does show is a broad, heavy tree with a straight dark trunk and great flat tiers of needles, standing on its own in the grass of the close, with a pale stone sculpture of a mother and child a few steps away. The close is open to walk through, and the tree is seen from the path. If you know when it was planted, or have put a tape round its trunk, tell us on this page.",
@@ -30,25 +30,41 @@
       "verify_notes": "2026-11-15 evening session: sent by a reader through the app as 'Cedar of Lebanon', note 'In the grounds of Norwich Cathedral', one photograph, pin placed by hand at 52.63192, 1.30195 (submission 823; the app's place label said Hethersett, wrong). The pin falls by the east end of the cathedral near Edith Cavell's grave (Commons geotags). Photograph viewed: a large cedar in the close, the apse of the cathedral and the spire behind it in mist, a gravel path, a pale stone mother-and-child sculpture at right, daylight, autumn colour on the trees behind. Species from the reader and the habit (flat tiers, cedar needles); no source for planting date or size found (Commons and Wikipedia searches), so no age. Cathedral facts from Wikipedia (begun 1096, spire 1480, 96 m, second tallest in England). Published under the reader-found rule: a good photograph of a big tree in a public place; hand pin, approximate.",
       "access": "Free, in Norwich Cathedral's close, open to walk through; the tree is seen from the path.",
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "pin_source": {
-        "kind": "reader hand-placed pin",
+        "kind": "reader GPS fix",
         "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
+        "moved_m": 0,
         "date": "2026-11-15",
-        "note": "Placed by hand on the map by the reader, by the east end of the cathedral; approximate."
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/nwc_001-the-norwich-cathedral-cedar.jpg",
+        "url": "https://ancienttrees.app/photos/nwc_001-the-norwich-cathedral-cedar-1306c000.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_19b3a0778e462c16dcceacf1",
         "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
-        "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole cedar beside the path with the cathedral's east end and spire behind in mist, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "note": "Photographed by a reader and sent through the app (2026-11-09); a viewing pass approved it on 2026-11-15: The cedar beside the cathedral spire, hazy light but clearly the tree. Species seen: Cedar: layered flat boughs, dark needles. Fits the description: large cedar with the cathedral spire behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nwc_001-the-norwich-cathedral-cedar.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_19b3a0778e462c16dcceacf1",
+          "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
+          "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole cedar beside the path with the cathedral's east end and spire behind in mist, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "The cedar in Norwich Cathedral's close: where it stands and what is known about it.",

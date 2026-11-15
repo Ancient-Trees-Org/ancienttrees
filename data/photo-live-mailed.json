@@ -526,6 +526,15 @@
      "city_slug": "groningen",
      "display_name": null,
      "live": "2026-11-15"
+    },
+    {
+     "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f",
+     "tree_id": "gro_018",
+     "tree_name": "The ANWB Linden of Wilhelminakade",
+     "city": "Groningen",
+     "city_slug": "groningen",
+     "display_name": null,
+     "live": "2026-11-15"
     }
    ],
    "sent": [
@@ -928,6 +937,96 @@
      "tree_name": "Te Matua Ngahere",
      "city": "Waipoua Forest",
      "city_slug": "waipoua-forest",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_f5deee9b833aca72c8b2854c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d100ece6-decf-4d6e-b031-b80a81f0e0db",
+     "tree_id": "scz_002",
+     "tree_name": "The Fremont Tree",
+     "city": "Santa Cruz",
+     "city_slug": "santa-cruz",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_856cd2e3820af4b001f6554a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
+     "tree_id": "rkm_001",
+     "tree_name": "Rumskullaeken (the Kvill Oak)",
+     "city": "Rumskulla",
+     "city_slug": "rumskulla",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_46eb99793fa60c6d1e5a07ed": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "eb13d715-dd45-415b-aeb6-2a986565e5fb",
+     "tree_id": "hil_001",
+     "tree_name": "The Oriental Plane of Landgoed Bantam",
+     "city": "Hilversum",
+     "city_slug": "hilversum",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_23fcf021138e007ac2500300": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c85a4f1d-5464-4fb7-890d-2bab8e8a8b2b",
+     "tree_id": "rom_028",
+     "tree_name": "The Hackberry of the Mura Latine",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_19b3a0778e462c16dcceacf1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
+     "tree_id": "nwc_001",
+     "tree_name": "The Norwich Cathedral Cedar",
+     "city": "Norwich",
+     "city_slug": "norwich",
+     "display_name": null,
+     "live": "2026-11-15"
+    }
+   ],
+   "sent": []
+  },
+  "p_456665b8a773124350ec9019": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
+     "tree_id": "obc_001",
+     "tree_name": "The Fairchild Oak",
+     "city": "Ormond Beach",
+     "city_slug": "ormond-beach",
      "display_name": null,
      "live": "2026-11-15"
     }
