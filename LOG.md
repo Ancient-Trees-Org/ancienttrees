@@ -2,6 +2,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 write pass: two Bamberg trees for the app
+
+- Two new trees in the app (app-only, no web page until a reader adds to them): bam_010 the Vollandseiche of Steppach, a pedunculate oak 7.50 m round growing on top of a beer cellar (confirmed pin on the roadside viewing point, age 200 to 300 or about 300 stated as a dispute), and bam_011 the churchyard lime of Hohenpoelz, 6.50 m round over the wall of a fortified churchyard (approximate pin, churchyard as site, best_time June flowers). Both flagged: no dated image since 2017 and 2010, and both stories ask readers to confirm they stand.
+- bam_011 species written as the canonical Large-leaved Lime (Tilia platyphyllos), not the verify file's "Summer Linden". The Bamberg page copy keeps saying nine, since the web still shows nine; the Germany intro no longer says Bamberg has "five trees with no age" (it had nine, one dated by legend). Bamberg claim released.
+
 ## 2026-11-15 write pass (US/UK first): nothing writable
 
 - Nothing published. Every US and UK file named in the brief (us-photo-batch-1, washington-dc-2, wales-yews, somerset-dorset-yews, new-york-3, wisconsin, boston-*) is already live; passcheck's 391 is mostly stale rows. The true shelf is about 20 trees, and each carries a reason: held for access (brd_001 Brindisi figs, frk_027 Frankfurt mulberry, sgz_005 Zurraque holm oak, inn_007 Innsbruck lime, not_002/not_003 Noto, tmt_001 Tremiti ombu), cannot be told apart (asp_001/asp_002 Aspromonte beeches, ssb_002/ssb_003 Serre firs, cbu_001 Acerone), no sighting after 2019 (dmr_002 Meavy Oak), duplicates of live trees (sfo_012, sfo_014, sfo_015, and the !! rows in cardiff, wolverhampton, new-york, washington-dc), or left as the night run held it (all_001 Allentown cottonwood, alive unconfirmed since its 2009 measurement). The writing lane needs a verify pass before it has work again.
