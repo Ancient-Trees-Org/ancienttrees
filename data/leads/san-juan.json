@@ -1,0 +1,21 @@
+{
+ "city": "San Juan",
+ "country": "United States",
+ "city_slug": "san-juan",
+ "note": "Retry scout 2026-11-15. No naming body found for San Juan, Puerto Rico (no DRNA, municipal or heritage tree list surfaced). Nothing verified.",
+ "leads": [
+  {
+   "name": "Three African cloth-bark figs, 65th Infantry Avenue and Vallejo Street",
+   "species": "African Cloth-Bark Fig (Ficus nekbuda)",
+   "location": {"address": "65th Infantry Avenue (Route 3) at Vallejo Street, Rio Piedras, San Juan", "latitude": null, "longitude": null, "neighbourhood": "Rio Piedras"},
+   "source": "https://www.tclf.org/sites/default/files/microsites/everytree/ficuses.html",
+   "reason": "One advocacy source (TCLF Landslide 2010) which says about 50 ft tall, 20 ft trunk diameter, '70-year-old', USFS Champion Trees recognised but no champion record seen; no coordinates; alive status unknown after 2010; stands in a seven-lane highway setting, access unproven. No photo or exact pin in reach."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Ceiba of Parque de la Ceiba, Ponce",
+   "reason": "Not San Juan (about 70 km); the historic ceiba died, last branch fell (Primera Hora)."
+  }
+ ]
+}

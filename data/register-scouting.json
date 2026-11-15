@@ -30,7 +30,8 @@
    "place": "San Juan",
    "country": "United States",
    "status": "stalled",
-   "note": "SCOUTED 2026-10-16 on scout_next.py --target (#376). One search (Spanish): no DRNA or municipal register of notable San Juan (Puerto Rico) trees, no coordinates. Results were Old San Juan NRHP building records and San Juan, Argentina. Next angle: DRNA arboles protegidos / Programa de Forestacion Urbana, municipal planning documents, Luquillo ceiba plates (outside San Juan)."
+   "retried": "2026-11-15",
+   "note": "SCOUTED 2026-10-16, RETRIED 2026-11-15 (0 verified). Retry: en/es Wikipedia API and web searches (no San Juan article on any individual tree; Ponce Parque de la Ceiba is dead and 70 km away; Vieques and Ceiba ceibas are out of range), USFS IITF 'Los arboles campeones de Puerto Rico 2002' PDF (compressed, unreadable by fetch, no pdf tool on the runner), Wikidata dump already in repo (no San Juan municipality entry), Overpass (timed out on two mirrors). Only candidate found: three Ficus nekbuda at 65th Infantry Ave and Vallejo St, Rio Piedras (TCLF Landslide 2010, one advocacy source, ~70 years in 2010, stand in a seven-lane highway median, no safe access): lead only. No DRNA or municipal register of notable trees surfaced. Next angles: download the USFS champion PDF and read it with a PDF tool (San Juan-area champions), UPR Rio Piedras tree inventory (Senado Academico CSA-102 2023-2024 proposes updating it), Overpass natural=tree retry with name filter, El Nuevo Dia 'removal of about 50 trees near El Morro' article."
   },
   {
    "place": "Buffalo",

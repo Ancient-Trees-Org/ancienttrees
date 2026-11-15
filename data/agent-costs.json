@@ -92,6 +92,14 @@
       },
       {
         "date": "2026-11-15",
+        "kind": "scout",
+        "target": "san-juan",
+        "tokens": 77129,
+        "trees": 0,
+        "note": "retry: no DRNA or municipal list; one Rio Piedras fig lead with no coordinate or access; stalled, next angle PDF tool for the 2002 USFS champion list"
+      },
+      {
+        "date": "2026-11-15",
         "kind": "session",
         "target": "reader photographs + 2 reader-found AU trees",
         "tokens": 0,
