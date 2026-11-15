@@ -2852,9 +2852,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "wantisden/wnt_001"
   },
   {
    "sighting_id": "a6d28625-b0fb-469f-8653-84ff735dad85",
@@ -2878,9 +2879,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "la-tene/prf_003"
   },
   {
    "sighting_id": "bf30b7a2-fe72-4e2f-beeb-7757e1e9174b",
@@ -2904,9 +2906,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "la-tene/prf_004"
   },
   {
    "sighting_id": "2186bb95-6054-4154-b6d9-c75cb1fca187",
@@ -2932,9 +2935,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "la-tene/prf_002"
   },
   {
    "sighting_id": "c7dca666-5183-4987-b585-0f10639b5cb3",
@@ -2958,9 +2962,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "la-tene/prf_005"
   },
   {
    "sighting_id": "b2b14047-08e5-447f-a435-3a4f137809b0",
@@ -2986,9 +2991,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "elleholm/elh_001"
   },
   {
    "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d",
@@ -3016,9 +3022,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "maidstone/mdb_001"
   },
   {
    "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
@@ -3045,9 +3052,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "colchester/cls_001"
   },
   {
    "sighting_id": "4b1e4321-165c-4742-b645-6ec065f3094c",
@@ -3071,9 +3079,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-15, looked at: published as a reader-found tree on the reader's GPS fix, their words and figures kept as theirs. See data/judgements.json.",
+   "seen": "2026-11-15",
+   "published_as": "carmarthen/cmt_001"
   },
   {
    "sighting_id": "tip-839",

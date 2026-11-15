@@ -1,0 +1,74 @@
+{
+  "city": "Carmarthen",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Carmarthen, in Carmarthenshire, Wales, has one tree on our map: a ginkgo in the garden of the library at the Carmarthen campus of the University of Wales Trinity Saint David on College Road. A reader photographed it in its autumn gold, in the rain, and says the library's large windows look straight onto it. They put its age at about 180 years, reasoning that the campus opened in 1842. It is a guess rather than a record, and the gold is brief.",
+  "meta_description": "A ginkgo at the Carmarthen campus of the University of Wales Trinity Saint David: a reader's photograph and where it stands.",
+  "hero_tree_id": "cmt_001",
+  "oldest_tree_id": "cmt_001",
+  "trees": [
+    {
+      "id": "cmt_001",
+      "name": "The Library Ginkgo of Carmarthen",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "about 180 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "College Road, Johnstown, Carmarthen",
+        "latitude": 51.85855,
+        "longitude": -4.3274,
+        "neighbourhood": "Johnstown"
+      },
+      "story": "A ginkgo in the garden of the library at the Carmarthen campus of the University of Wales Trinity Saint David turns a deep gold each autumn, and a reader sent us a photograph of it in the rain. The library has large glass windows that look onto the garden, and the reader says that in autumn the tree “shines its glory through those windows.”\n\nIn the photograph two crowns rise together out of one mass of leaves, every one the same bright yellow, against a grey sky. A white balcony and a slope of roof sit at the left edge of the frame, the grass below is green, and a few leaves are already on the ground.\n\nThe reader adds a guess at the age. The campus opened in 1842, and if the tree is as old as the campus it is about 180 years. That is their reasoning, not a record, and we have found no planting date or measurement for it.\n\nGinkgo leaves drop within a few days of turning, so the gold is brief.",
+      "how_to_recognise": "A tall ginkgo in the garden beside the campus library, its two crowns turning one bright yellow in autumn.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "4b1e4321-165c-4742-b645-6ec065f3094c",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting 4b1e4321) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows a ginkgo in full autumn yellow beside a building. The reader's note says it stands in the library garden of the Carmarthen campus of the University of Wales Trinity Saint David, and that the campus opened in 1842, so the tree is likely about 180 years old; the age is theirs, by their reasoning. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access is not confirmed: a university campus, no opening terms found; the pin and photograph are from a visitor on foot. Rule 10 schools clause: no evidence of open grounds, so access says to follow signs.",
+      "access": "The tree stands in the garden beside the library on the university's Carmarthen campus. We found no published opening terms for the grounds, so follow any signs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cmt_001-the-library-ginkgo-of-carmarthen.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_d0f732765fbf1515400b0ff7",
+        "sighting_id": "4b1e4321-165c-4742-b645-6ec065f3094c",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a ginkgo in full yellow autumn leaf, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4b1e4321-165c-4742-b645-6ec065f3094c",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      }
+    }
+  ],
+  "question_meta": "A ginkgo turns gold in the library garden of the Carmarthen campus. Where it is and what a reader says about it.",
+  "question_answer": "A reader photographed a ginkgo (Ginkgo biloba) in the garden of the library at the Carmarthen campus of the University of Wales Trinity Saint David. They estimate it at about 180 years, as old as the campus, which opened in 1842.",
+  "question_context": "Everything this page says comes from one reader's photograph and note, sent through the app with a GPS fix taken where they stood. The age of about 180 years is the reader's reasoning from the campus opening in 1842, not a record, and we have found no planting date, girth or height for the tree. The photograph shows a ginkgo whose crown is made of two tall stems rising together, every leaf the same bright yellow, against a grey sky, with a white balcony and a slope of roof at the left edge of the frame. The tree stands in the garden beside the library, on a university campus, and we found no published opening terms for the grounds, so follow any signs. If you know when the tree was planted, or have measured it, tell us on the page and it goes into this answer. We would also like to know its height, if anyone can say.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "A ginkgo (Ginkgo biloba) that turns bright yellow in autumn."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In the garden of the library on the Carmarthen campus of the University of Wales Trinity Saint David, College Road."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader guesses about 180 years from the campus's opening in 1842. We have found no planting date."
+    }
+  ]
+}

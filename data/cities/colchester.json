@@ -1,0 +1,75 @@
+{
+  "city": "Colchester",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Colchester, in Essex, has one tree on our map: a very large pedunculate oak on Clingoe Hill in Greenstead, on the east side of the town, that a reader photographed in a dry late summer. They put its girth at 600 centimetres and its age at about 300 years. The crown is a full dome of dark leaves above a short, wide, hollowed trunk, and the two people standing at its foot look small beside it. The oak stands alone in open grass.",
+  "meta_description": "A large oak on Clingoe Hill in Colchester: a reader's photograph, their figures and where it stands.",
+  "hero_tree_id": "cls_001",
+  "oldest_tree_id": "cls_001",
+  "trees": [
+    {
+      "id": "cls_001",
+      "name": "The Oak of Clingoe Hill",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Clingoe Hill, Greenstead, Colchester, Essex",
+        "latitude": 51.8795133333333,
+        "longitude": 0.949016666666667,
+        "neighbourhood": "Greenstead"
+      },
+      "story": "A reader photographed a great pedunculate oak in an open field on Clingoe Hill in Greenstead, on the east side of Colchester. Their app listed it as an oak near Mistley, but the GPS fix puts it in Colchester, and we have placed it there. They gave a girth of 600 centimetres and an age of about 300 years.\n\nThe photograph shows a tree that fills the frame. The crown is a full, rounded dome of dark green leaves, and under it a short, wide trunk with deep hollows and burrs at head height. Two people stand at its foot, one with arms spread wide against the bark, and they look small. The grass around it is dry and pale, the crown still green, so the picture was taken in a dry late summer.\n\nWe found no register entry or survey for this oak, so the girth and the age are the reader's figures. A girth of six metres is large for a pedunculate oak.\n\nIf you stand with your arms out against it, you can tell us how many hugs it takes.",
+      "how_to_recognise": "A huge domed oak standing alone in open dry grass, its short wide trunk hollowed and burred, with a few trees behind it.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting d8edd734) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows one very large rounded oak standing alone in a dry field, two visitors at its foot for scale. The reader's own label was 'Pedunculate Oak near Mistley', girth 600 cm, age 300 years; the GPS fix is on Clingoe Hill, Colchester, about 10 km from Mistley, so the page names Colchester and the verify note records the difference. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access: the tree stands in open grass in the photograph; no source of ours says who owns the ground.",
+      "access": "The oak stands in open grassland on Clingoe Hill. We found no published access terms for the land, so follow any signs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+        "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a huge domed oak alone in open grass, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "girth_cm": 600
+    }
+  ],
+  "question_meta": "A very large oak stands on Clingoe Hill in Colchester. Where it is and what a reader says about it.",
+  "question_answer": "A reader found a very large pedunculate oak (Quercus robur) on Clingoe Hill, Greenstead, Colchester, with a girth of about 600 cm and an age of about 300 years by their estimate.",
+  "question_context": "Everything this page says comes from one reader's photograph and figures, sent through the app with a GPS fix taken where they stood. The reader's own label placed the oak near Mistley, but the fix is on Clingoe Hill in Greenstead, Colchester, about ten kilometres away, so that is where we have put it. We found no register entry or published survey for the tree, so the girth of about 600 centimetres and the age of about 300 years are the reader's. The photograph shows a single oak with a rounded crown, a short trunk with deep hollows and burrs at head height, and two people at its foot, one with arms spread against the bark. We found no published terms for access to the land, so follow any signs. If you have measured the trunk or know the tree's history, tell us on the page and it goes into this answer.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "A pedunculate oak (Quercus robur) standing alone in open grass."
+    },
+    {
+      "q": "Where is it?",
+      "a": "On Clingoe Hill, Greenstead, on the east side of Colchester."
+    },
+    {
+      "q": "How big is it?",
+      "a": "A reader gave a girth of about 600 centimetres. We have found no survey to compare."
+    }
+  ]
+}

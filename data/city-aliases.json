@@ -941,6 +941,13 @@
       "Kadif",
       "Kardiff"
     ],
+    "carmarthen": [
+      "Caerfyrddin",
+      "Karmardenas",
+      "Karmārtena",
+      "Moridunum Demetarum",
+      "Karvyrdhin"
+    ],
     "cascais": [
       "Cascais Kommune",
       "Kaškaišas"
@@ -1078,6 +1085,12 @@
       "Coinvra",
       "Koimbr",
       "Koimbro"
+    ],
+    "colchester": [
+      "Kolčesteris",
+      "Kolčestera",
+      "Camulodunum",
+      "Colneceaster"
     ],
     "college-station": [
       "College Station",
@@ -2847,6 +2860,11 @@
     ],
     "maibara": [
       "Maibara-chhī"
+    ],
+    "maidstone": [
+      "Meidstonas",
+      "Meidstona",
+      "Meydston"
     ],
     "malacky": [
       "Malacka",
@@ -5356,6 +5374,7 @@
     "capeni": "Baraolt",
     "cara": "Čara",
     "cardiff": "Cardiff",
+    "carmarthen": "Carmarthen",
     "cascais": "Cascais",
     "caserta": "Caserta",
     "castellammare-di-stabia": "Castellammare di Stabia",
@@ -5383,6 +5402,7 @@
     "cinovec": "Dubí",
     "cleveland": "Cleveland",
     "coimbra": "Coimbra",
+    "colchester": "Colchester",
     "coldwaltham": "Coldwaltham",
     "colindres": "Colindres",
     "college-station": "College Station, Texas",
@@ -5441,6 +5461,7 @@
     "eichigt": "Eichigt",
     "eindhoven": "Eindhoven",
     "ekero": "Ekerö",
+    "elleholm": "Elleholm",
     "emmen": "Emmen, Netherlands",
     "emo": "Emo",
     "enniskerry": "Enniskerry",
@@ -5709,6 +5730,7 @@
     "maebashi": "Maebashi",
     "magescq": "Magescq",
     "maibara": "Maibara, Shiga",
+    "maidstone": "Maidstone",
     "malacky": "Malacky",
     "malaga": "Málaga",
     "mallorca": "Mallorca",
@@ -6098,6 +6120,7 @@
     "vorden": "Vorden",
     "waipoua-forest": "Waipoua Forest",
     "walpole": "Walpole, Western Australia",
+    "wantisden": "Wantisden",
     "waremme": "Waremme",
     "warsaw": "Warsaw",
     "washington-dc": "Washington, D.C.",
@@ -6187,6 +6210,7 @@
     "effeltrich": "Effeltrich",
     "eichigt": "Eichigt",
     "ekero": "Ekerö",
+    "elleholm": "Elleholm",
     "estry": "Estry",
     "farnham": "Farnham",
     "felsomocsolad": "Felsőmocsolád",
@@ -6320,6 +6344,7 @@
     "vir": "Vír",
     "vorden": "Vorden",
     "walpole": "Walpole, Western Australia",
+    "wantisden": "Wantisden",
     "wessobrunn": "Wessobrunn",
     "willistown": "Willistown",
     "wimborne-st-giles": "Wimborne St Giles",

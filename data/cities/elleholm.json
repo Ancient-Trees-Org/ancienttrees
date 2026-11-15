@@ -1,0 +1,75 @@
+{
+  "city": "Elleholm",
+  "country": "Sweden",
+  "status": "needs_curation",
+  "intro": "Elleholm, a place in Karlshamn municipality in Blekinge, southern Sweden, has one tree on our map: Elleholmseken, a broad pedunculate oak that a reader photographed in a clearing in spring. They gave it a girth of 785 centimetres and an age of about 300 years, and their note says that red-listed lichens grow on its bark, among them old-oak lichen, and that the fruiting bodies of the beefsteak fungus show on it in some years. A path leads to the clearing.",
+  "meta_description": "Elleholmseken, a large oak at Elleholm in Blekinge, Sweden: a reader's photograph, their note and how to find it.",
+  "hero_tree_id": "elh_001",
+  "oldest_tree_id": "elh_001",
+  "trees": [
+    {
+      "id": "elh_001",
+      "name": "Elleholmseken (The Oak of Elleholm)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Elleholm, Karlshamn municipality, Blekinge",
+        "latitude": 56.1600138333333,
+        "longitude": 14.7415616666667,
+        "neighbourhood": "Elleholm"
+      },
+      "story": "Elleholmseken stands alone in a clearing near Elleholm in Blekinge, Sweden, a broad pedunculate oak whose crown spreads in a wide dark web of branches. A reader photographed it in spring, when the first leaves were only a green haze on the twigs, and gave us a girth of 785 centimetres and an age of 300 years.\n\nTheir note is in Swedish. “På eken växer rödlistade arter som gammalekslav, grå skärelav och matt pricklav. Vissa år syns också oxtungsvampens fruktkroppar.” In English, red-listed species grow on the oak, among them old-oak lichen, a grey lichen and a dull pin lichen, and in some years the fruiting bodies of the beefsteak fungus show on it.\n\nWe found no register entry or survey for this tree, so the girth and the age are the reader's figures. A trunk of nearly eight metres round is a big one for an oak, and lichens that are on a red list tell their own story of a tree that has stood a long time in the light.\n\nA path leads to the clearing, and a waymarker post stands beside the trunk.",
+      "how_to_recognise": "A broad, many-limbed oak standing alone in a grassy clearing, a waymarker post beside its trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b2b14047-08e5-447f-a435-3a4f137809b0",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting b2b14047) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows a single large spreading oak in a clearing in spring leaf, with a post at its foot. The reader gave a girth of 785 cm, an age of 300 years and a note in Swedish about red-listed lichens and the beefsteak fungus, quoted unnamed and translated. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access: a path and a waymarker are visible; no source of ours states ownership or opening terms.",
+      "access": "A path leads to the oak in a clearing near Elleholm. We found no published access terms for the land, so follow any signs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/elh_001-elleholmseken-the-oak-of-elleholm.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_856cd2e3820af4b001f6554a",
+        "sighting_id": "b2b14047-08e5-447f-a435-3a4f137809b0",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a large spreading oak in its clearing, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b2b14047-08e5-447f-a435-3a4f137809b0",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "girth_cm": 785
+    }
+  ],
+  "question_meta": "Elleholmseken is a large oak at Elleholm in Blekinge, Sweden. Where it stands and what grows on it.",
+  "question_answer": "A reader photographed Elleholmseken, a pedunculate oak (Quercus robur) at Elleholm in Blekinge, and gave a girth of 785 cm and an age of about 300 years. Their note says red-listed lichens grow on the oak.",
+  "question_context": "Everything this page says comes from one reader's photograph, figures and note, sent through the app with a GPS fix taken where they stood. We found no register entry or published survey for the tree, so the girth of 785 centimetres and the age of about 300 years are the reader's. Their note, written in Swedish, says that red-listed species grow on the oak, among them old-oak lichen (gammalekslav), a grey lichen (grå skärelav) and a dull pin lichen (matt pricklav), and that in some years the fruiting bodies of the beefsteak fungus (oxtungssvamp) show on it. The photograph shows a single large oak with a wide, many-limbed crown in an open clearing, just coming into leaf, with a waymarker post beside its trunk. We found no published terms for access to the land, so follow any signs. If you have measured the trunk or know the tree's history, tell us on the page and it goes into this answer.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "A pedunculate oak (Quercus robur) known to the reader as Elleholmseken."
+    },
+    {
+      "q": "Where is it?",
+      "a": "In a clearing at Elleholm, Karlshamn municipality, Blekinge, Sweden."
+    },
+    {
+      "q": "How big is it?",
+      "a": "A reader measured a girth of 785 centimetres. We have found no register entry to compare."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "city": "Wantisden",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Wantisden, a hamlet in East Suffolk, has one place on our map: an oak wood of old pollards that a reader walked through and photographed. They say about 4,000 oaks grow here, cut for wood early in their lives and shaped by it ever since, and they put the age of the trees at 400 to 800 years. The landowner lets people walk through the wood and asks visitors to keep to the path. There is free parking at the nearby Burley Corner car park.",
+  "meta_description": "A wood of old pollarded oaks at Wantisden, Suffolk: a reader's photograph, what they said about it and how to visit.",
+  "hero_tree_id": "wnt_001",
+  "oldest_tree_id": "wnt_001",
+  "trees": [
+    {
+      "id": "wnt_001",
+      "name": "The Pollard Oaks of Wantisden",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "400 to 800 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Oak wood off Woodbridge Road, Wantisden, East Suffolk",
+        "latitude": 52.1043971666667,
+        "longitude": 1.44383,
+        "neighbourhood": "Wantisden"
+      },
+      "story": "A reader walked into an oak wood at Wantisden in Suffolk and sent us a photograph from among the trunks. Short, thick, twisted oaks stand in a sea of bracken, many of them with a broad base and a crown of sprawling limbs set high on a stub, the shape of trees that were cut for wood long ago.\n\nThe reader's note is the story. “There are 4,000 oak trees at this location. Early in their lives they were pollarded, and so now they have an amazing appearance.” They put the age at 400 to 800 years. We have found no survey that counts these trees or dates them, so the number of trees and the age are theirs, and a pollard that old is hard to date without a tape and a core.\n\nThe reader also asks for care. The landowner lets people walk through, and visitors are asked to keep to the path. There is free parking at the nearby Burley Corner car park.\n\nThe photograph looks along a row of these stubby trunks, the biggest at the left edge of the frame. If you walk here, take a tape round one and tell us what you find.",
+      "how_to_recognise": "A wood of short, thick pollarded oaks, their crowns sprawling from high stubs, standing in bracken with a path through them.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "ed0a19ed-93e1-42e9-8a50-fcaa0420bda1",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting ed0a19ed) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows a stand of old pollarded oaks in bracken. The count of 4,000 trees and the age of 400 to 800 years are the reader's own, quoted, not ours. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access is the reader's account (a path the landowner lets people walk, free car park); no source of ours confirms it, so access says so.",
+      "access": "A path runs through the wood. The reader says the landowner allows people to walk through and asks that you keep to the path; there is free parking at the nearby Burley Corner car park. We found no published opening terms, so follow any signs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wnt_001-the-pollard-oaks-of-wantisden.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_28a591396b4ab1941a5729a8",
+        "sighting_id": "ed0a19ed-93e1-42e9-8a50-fcaa0420bda1",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a row of old pollard oaks in bracken, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ed0a19ed-93e1-42e9-8a50-fcaa0420bda1",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      }
+    }
+  ],
+  "question_meta": "Old pollarded oaks stand in a wood at Wantisden, Suffolk. Where they are and how to visit.",
+  "question_answer": "A reader found a wood of old pollarded oaks (Quercus robur) at Wantisden, East Suffolk. They put the age at 400 to 800 years and the number of trees at about 4,000. A path runs through; the landowner allows walking and asks visitors to keep to it.",
+  "question_context": "Everything this page says comes from one reader's photograph and note, sent through the app with a GPS fix taken where they stood. No tree register we hold lists these oaks and we found no published survey that counts or dates them, so the number of trees, about 4,000, and the age of 400 to 800 years are the reader's, quoted as theirs. The photograph shows short, thick oaks with broad bases and sprawling crowns set on high stubs, standing in bracken beside a path, which is the look of trees that were pollarded long ago. The reader asks visitors to respect the landowner by keeping to the path, and says there is free parking at the Burley Corner car park nearby. We have not confirmed those terms. If you know of a survey, or have put a tape round one of the trunks, tell us on the page and it goes into this answer.",
+  "faq": [
+    {
+      "q": "What kind of trees are they?",
+      "a": "Pedunculate oaks (Quercus robur), pollarded early in their lives, according to the reader who photographed them."
+    },
+    {
+      "q": "Where are they?",
+      "a": "In an oak wood at Wantisden, East Suffolk, off Woodbridge Road."
+    },
+    {
+      "q": "How old are they?",
+      "a": "A reader puts them at 400 to 800 years. We have found no survey that dates them."
+    }
+  ]
+}

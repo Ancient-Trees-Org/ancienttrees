@@ -1,0 +1,75 @@
+{
+  "city": "Maidstone",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Maidstone, the county town of Kent, has one tree on our map: a very thick London plane at Penenden Heath that a reader likens to a baobab. They put its girth at 700 centimetres and its age at about 250 years, and say that the scale of it in person is jaw dropping. The trunk divides near the ground into a few stout, knobbled stems, and the tree stands in a raised bed of ivy at the edge of a gravel car park off Ashford Road.",
+  "meta_description": "A baobab-like London plane at Penenden Heath, Maidstone: a reader's photographs, their figures and where it stands.",
+  "hero_tree_id": "mdb_001",
+  "oldest_tree_id": "mdb_001",
+  "trees": [
+    {
+      "id": "mdb_001",
+      "name": "The Baobab Plane of Penenden Heath",
+      "species": "London Plane (Platanus x acerifolia)",
+      "age_estimate": "about 250 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Ashford Road, Penenden Heath, Maidstone, Kent",
+        "latitude": 51.2708666666667,
+        "longitude": 0.537438333333333,
+        "neighbourhood": "Penenden Heath"
+      },
+      "story": "A reader stopped at a huge London plane on the western edge of Maidstone and wrote that it is “a type of Baobab London Plane tree that must be at least 200 years old. The scale of it in person is jaw dropping.” They gave a girth of 700 centimetres and an age of 250 years.\n\nThe photographs show why. The trunk splits close to the ground into a few thick, knobbled stems, each wider than a person, and the bark is dark and burred where it is old and flaking pale where it is not. Above them the limbs fork again and again into a high leafy crown. The tree stands in a raised bed of ivy at the edge of a gravel car park, a low block wall around its foot and a floodlight fixed to one limb.\n\nWe found no register entry or survey for this plane, so the girth and age are the reader's. A plane tree does not often grow this thick a trunk, and one with the shape of a baobab is rarer still.\n\nMeasure it if you pass, and tell us what you find.",
+      "how_to_recognise": "A very thick, knobbled London plane splitting into several stout stems, standing in a raised ivy bed at the edge of a gravel car park.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting 0b0d29fa) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photographs show one very thick multi-stemmed London plane in a raised ivy bed beside a gravel car park, with a floodlight on a limb. The reader gave a girth of 700 cm and an age of 250 years. The same reader's photographs had first been sent to the Ankerwycke Yew page, where they were held as the wrong tree. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Ownership of the car park is not known; access says so and shows where the tree stands. The tree is clearly seen from the road verge in the photograph's background, but we could not confirm the ground is public.",
+      "access": "The tree stands in a raised bed at the edge of a gravel car park off Ashford Road. We do not know who the car park belongs to or whether it is open to the public, so look for signs before you go in.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+        "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a very thick multi-stemmed plane in daylight, a visitor at the foot for scale. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d",
+        "moved_m": 0,
+        "date": "2026-11-15",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "girth_cm": 700
+    }
+  ],
+  "question_meta": "A very thick London plane stands at Penenden Heath, Maidstone. Where it is and what a reader says about it.",
+  "question_answer": "A reader found a very thick London plane (Platanus x acerifolia) at Penenden Heath, Maidstone, with a girth of about 700 cm and an age of about 250 years by their estimate. It stands in a raised bed at the edge of a gravel car park off Ashford Road.",
+  "question_context": "Everything this page says comes from one reader's photographs, figures and note, sent through the app with a GPS fix taken where they stood. We found no register entry or published survey for the tree, so the girth of 700 centimetres and the age of about 250 years are the reader's, and their word baobab describes the shape. The photographs show a single London plane whose trunk divides close to the ground into several thick stems with burred, knobbled bark, with a high crown of lobed leaves above, standing in a raised bed of ivy behind a low block wall. A floodlight is fixed to one limb and the ground around it is gravel. We do not know who owns the car park or whether it is open to the public, so look for signs before you go in. If you have measured the trunk or know the tree's history, tell us on the page and it goes into this answer.",
+  "faq": [
+    {
+      "q": "What kind of tree is it?",
+      "a": "A London plane (Platanus x acerifolia) with a trunk that splits into several thick stems."
+    },
+    {
+      "q": "Where is it?",
+      "a": "At the edge of a gravel car park off Ashford Road, Penenden Heath, Maidstone."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader puts it at about 250 years. We have found no survey that dates it."
+    }
+  ]
+}
