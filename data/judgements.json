@@ -2581,7 +2581,7 @@
     "note": "nothing measurable about Monterey Cypress"
    },
    "verdict": "publish",
-   "reason": "Large old Monterey cypress, looked at the photo; publish as new tree.",
+   "reason": "Looked 2026-11-15: large old Monterey cypress over a tidal creek near Carne, Manaccan (Cornwall), daylight, whole tree, GPS fix. Published as mnc_001, no age or girth stated.",
    "hidde": null,
    "agreed": null
   },
@@ -2609,7 +2609,7 @@
     "note": "nothing measurable about European Yew"
    },
    "verdict": "publish",
-   "reason": "Ancient churchyard yew, looked at the photo; verify age then publish as new tree.",
+   "reason": "Looked 2026-11-15: the whole ancient yew beside the church porch, daylight, GPS fix at the tree. Published as lnt_001 (Linton, Herefordshire), girth over 9 m by the Ancient Tree Forum, age up to 1,500 by the Friends of Linton Yews and the reader.",
    "hidde": null,
    "agreed": null
   },
@@ -5578,6 +5578,118 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Linton Yew",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
+   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
+   "reader_girth_cm": 950,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: whole yew beside the church porch, daylight, lead photograph of lnt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7547cfa4-55b8-4f9e-acab-06372df4a337-extra-1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Linton Yew",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_132ebf0689f60e21b9c8902c/7547CFA4-55B8-4F9E-ACAB-06372DF4A337.jpg",
+   "reader_note": "The venerable Linton Yew stands hard by the porch of St Mary’s Church, Linton Herefordshire. One mighty limb is supported on concrete stilts (presumably to protect the church if it breaks).\n\nShe shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998 that caused extensive damage, but has regenerated wonderfully.",
+   "reader_girth_cm": 950,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: the hollow split bole of the same yew, daylight, in the strip of lnt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Cypress",
+   "city": null,
+   "species": "Monterey Cypress",
+   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
+   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: whole Monterey cypress over the creek, daylight, lead photograph of mnc_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b27e5e37-779c-4373-872e-6da86d1c3024-extra-1",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Cypress",
+   "city": null,
+   "species": "Monterey Cypress",
+   "photo": "p_071683a079961a9398789c42/B27E5E37-779C-4373-872E-6DA86D1C3024.jpg",
+   "reader_note": "Spectacular tree hanging over the creek, lovely bench to sit and ponder",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress"
+   },
+   "verdict": "publish",
+   "reason": "Looked 2026-11-15: a second frame of the same cypress trunk and limbs, daylight, in the strip of mnc_001.",
    "hidde": null,
    "agreed": null
   }

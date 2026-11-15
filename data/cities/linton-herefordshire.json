@@ -1,0 +1,90 @@
+{
+  "city": "Linton, Herefordshire",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Linton is a village in east Herefordshire near Ross-on-Wye, and its church of St Mary keeps one of the great yews of the Welsh Marches. The Friends of Linton Yews say it could be up to 1,500 years old. It stands beside the porch, scarred by a deliberate fire in 1998 and growing again. A second old yew shares the churchyard, and younger yews stand around both.",
+  "meta_description": "The Linton Yew, Herefordshire: over 9 metres round and said to be up to 1,500 years old, beside the porch of St Mary's church.",
+  "hero_tree_id": "lnt_001",
+  "oldest_tree_id": "lnt_001",
+  "trees": [
+    {
+      "id": "lnt_001",
+      "name": "The Linton Yew",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "up to about 1,500 years, by the Friends of Linton Yews and a reader's estimate",
+      "age_min": 800,
+      "age_max": 1500,
+      "age_basis": "source",
+      "girth_cm": 950,
+      "location": {
+        "address": "St Mary's Church, Linton, near Ross-on-Wye, Herefordshire HR9 7RX",
+        "latitude": 51.9254948,
+        "longitude": -2.4952484,
+        "neighbourhood": "Linton"
+      },
+      "story": "The Friends of Linton Yews say this tree could be up to 1,500 years old and a strong contender for the oldest tree in England. Its girth is over 9 metres, and the Ancient Tree Forum notes that it is certainly well past the 800 years at which a yew counts as ancient. A reader who sent it to us gave the same 1,500. Nobody can date it exactly, because the heart has rotted away and there are no rings to count.\n\nIt stands hard by the porch of St Mary's church, which is twelfth century with Anglo-Saxon roots, and the yew may be older than the building. The Friends add that its girth has not changed since it was measured in the early 1800s.\n\nIn 1998 somebody set it alight on purpose and it was severely damaged. It has recovered well, with new growth away from the burnt parts of the trunk. The reader's photographs show a hollow, split bole of red-brown bark opening into many stems, and the reader reports that one heavy limb now rests on concrete stilts. A second old yew grows in the same churchyard, among younger ones.",
+      "how_to_recognise": "A vast hollow yew with a split red-brown bole and many stems beside the porch of St Mary's church, one heavy limb propped on concrete stilts.",
+      "verified_sources": [
+        "https://www.ancienttreeforum.org.uk/ancient-trees/ancient-tree-sites-to-visit/midlands/the-linton-yew/",
+        "https://lintonvillage.com/linton-clubs-and-societies/folys/",
+        "A reader's photographs and note through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "sighting_id": "7547cfa4-55b8-4f9e-acab-06372df4a337",
+        "date": "2026-11-15"
+      },
+      "verify_notes": "2026-11-15: sent by a reader through the app with a GPS fix at the tree: 'The venerable Linton Yew stands hard by the porch of St Mary's Church, Linton Herefordshire. One mighty limb is supported on concrete stilts. She shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998', girth 950 cm, age 1500. Ancient Tree Forum site page (St Mary's Church, Linton HR9 7RX): girth over 9 metres, 'the largest of two old yews in St Mary's churchyard', deliberately set on fire in 1998 and severely damaged, recovered well 16 years on, certainly older than the 800-year ancient threshold, no rings to count. Friends of Linton Yews (lintonvillage.com): thought to be up to 1,500 years old, a strong contender for the oldest tree in England, girth unchanged since the early 1800s, new growth away from the fire damage. A search summary of the Ancient Yew Group survey and Tree Register give about 9.86 m (not read first-hand, so girth_cm is the reader's 950). Other sources cite 4,000 years; we state the 1,500 as the Friends' figure only. The concrete stilts are the reader's report, not found in a source. Photograph: the reader's, viewed, a misty daylight frame of the whole tree beside the churchyard path; a second shows the hollow bole with a keep-out sign. Pin: reader's GPS fix, confirmed.",
+      "access": "Free, in the churchyard of St Mary's Church beside the porch; keep out of the hollow trunk and off the roots.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "date": "2026-11-15",
+        "note": "The reader's GPS fix at the tree, taken in the churchyard by the porch of St Mary's church."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lnt_001-the-linton-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_132ebf0689f60e21b9c8902c",
+        "sighting_id": "7547cfa4-55b8-4f9e-acab-06372df4a337",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: the whole yew beside the church porch and path, misty daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lnt_001-the-linton-yew-2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_132ebf0689f60e21b9c8902c",
+          "sighting_id": "7547cfa4-55b8-4f9e-acab-06372df4a337-extra-1",
+          "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: the hollow, split bole close up, in daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The Linton Yew in Herefordshire: how old it is, how big, and where it stands in St Mary's churchyard.",
+  "question_answer": "The Linton Yew is a European yew beside the porch of St Mary's church in Linton, Herefordshire. Its girth is over 9 metres and the Friends of Linton Yews say it could be up to 1,500 years old. It was set on fire in 1998 and has regrown.",
+  "question_context": "The yew is the larger of two old yews in the churchyard of St Mary's church, which is twelfth century with Anglo-Saxon origins. Yews hollow with age and have no rings to count, so no one can fix its age exactly; the Ancient Tree Forum says it is certainly older than the 800 years at which a yew counts as ancient, and the Friends of Linton Yews put it at up to 1,500. In 1998 it was deliberately set on fire and severely damaged, and it has since put out new growth away from the burnt parts. The Friends of Linton Yews add that its girth has not changed since it was measured in the early 1800s. A reader who visited reports that one heavy limb is held up on concrete stilts, and that a second ancient yew and several younger ones grow in the same churchyard. The church stands in the village of Linton, in east Herefordshire near Ross-on-Wye, and the yew grows beside its porch.",
+  "faq": [
+    {
+      "q": "How old is the Linton Yew?",
+      "a": "The Friends of Linton Yews say up to 1,500 years. It cannot be dated exactly, because the hollow trunk has no rings."
+    },
+    {
+      "q": "How big is it?",
+      "a": "Its girth is over 9 metres, according to the Ancient Tree Forum."
+    },
+    {
+      "q": "What happened to it in 1998?",
+      "a": "It was deliberately set on fire and severely damaged. It has recovered well, with new growth away from the burnt areas."
+    }
+  ]
+}

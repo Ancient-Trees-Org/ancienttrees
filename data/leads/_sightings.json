@@ -2537,8 +2537,9 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked 2026-11-15: large old Monterey cypress with a sculpted trunk over the creek, daylight, whole tree; worth a page. Pin from the reader's GPS fix (Helford area, Cornwall); publish as a new tree.",
+   "status": "published",
+   "tree_id": "mnc_001",
+   "why": "Looked 2026-11-15: large old Monterey cypress with a sculpted trunk over the creek, daylight, whole tree; worth a page. Pin from the reader's GPS fix near Carne, Manaccan (Helford River, Cornwall). PUBLISHED 2026-11-15 as mnc_001 (app first), species Monterey Cypress, no age.",
    "seen": "2026-11-15"
   },
   {
@@ -2565,8 +2566,9 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked 2026-11-15: ancient yew beside a church porch in mist, a big hollow-trunked tree with a 950 cm girth and 1500-year claim from the reader; worth a page. Verify the age against the Ancient Yew Group, then publish as a new tree (Linton, Herefordshire).",
+   "status": "published",
+   "tree_id": "lnt_001",
+   "why": "Looked 2026-11-15: ancient yew beside a church porch in mist, a big hollow-trunked tree with a 950 cm girth and 1500-year claim from the reader; worth a page. Age checked: Friends of Linton Yews say up to 1,500; Ancient Tree Forum says over 9 m and older than 800. PUBLISHED 2026-11-15 as lnt_001 (app first).",
    "seen": "2026-11-15"
   },
   {
