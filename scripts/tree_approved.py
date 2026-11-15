@@ -233,13 +233,39 @@ def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False):
     return subject, body
 
 
+def bundle_for(name, items):
+    """ONE MAIL PER PERSON (2026-11-15, the Guardian day: one reader added three
+    trees and got three congratulations within the hour, another got two). Every
+    tree with its link, one ask for all of them, and the P.S. for the first place
+    that still has a seat."""
+    lines = "\n".join(f"{t['name']} in {c}:\n{p}" for _, _, t, c, _, p in items)
+    count = "both trees" if len(items) == 2 else f"the {len(items)} trees"
+    subject = "Your trees are on Ancient Trees"
+    body = (
+        f"Hi {name or 'there'},\n\n"
+        f"Congratulations: {count} you added have been approved and are now "
+        f"on Ancient Trees for everybody to find:\n\n{lines}\n\n"
+        f"You stood in front of them and sent them to us, and now other people can go and see them too.\n\n"
+        f"If you know more about any of them, just reply to this mail and it goes on the page.\n\n"
+        f"Ancient Trees\n{BASE_URL}\n"
+    )
+    return subject, body
+
+
 def main(argv):
     really = "--send" in argv
     mailed = load(MAILED, {"mailed": {}})
     done = mailed.setdefault("mailed", {})
+    today = datetime.date.today().isoformat()
+    all_trees = approved_trees()
+    who_of = {sid: uid for sid, uid, _, _, _ in all_trees}
+    # Someone congratulated today waits for tomorrow's knock, so a person who
+    # adds trees all afternoon gets one mail a day, not one per tree.
+    mailed_today = {who_of.get(s) for s, rec in done.items() if rec.get("date") == today and who_of.get(s)}
     sent = 0
     urls = None
-    for sid, uid, tree, city_name, city_slug in approved_trees():
+    ready = {}
+    for sid, uid, tree, city_name, city_slug in all_trees:
         if sid in done:
             continue
         if not uid or ours.is_ours(uid):
@@ -250,17 +276,31 @@ def main(argv):
         if not page:
             print(f"  {tree['id']}: not in the live feed yet, waits for the deploy")
             continue
+        if uid in mailed_today:
+            print(f"  {tree['id']}: this reader was congratulated today already, tomorrow's knock")
+            continue
+        ready.setdefault(uid, []).append((sid, uid, tree, city_name, city_slug, page))
+    for uid, items in ready.items():
         addr = address_of(people.uid(uid))
         if not addr:
-            print(f"  {tree['id']}: no address for the account (no service key, or the account is gone)")
+            print(f"  {items[0][2]['id']}: no address for the account (no service key, or the account is gone)")
             continue
-        seat = seat_open(uid, city_slug)
-        subject, body = mail_for(display_name(people.uid(uid)), tree, city_name, page,
-                                 what_they_gave(sid), seat=seat, web=sid.startswith("tip-"))
-        if send_mail(addr, subject, body, really, sid):
-            done[sid] = {"tree_id": tree["id"], "date": datetime.date.today().isoformat()}
-            if seat:
-                note_invited(uid, city_slug, city_name, tree["name"])
+        name = display_name(people.uid(uid))
+        seat_at = next((it for it in items if seat_open(uid, it[4])), None)
+        if len(items) == 1:
+            sid, _, tree, city_name, city_slug, page = items[0]
+            subject, body = mail_for(name, tree, city_name, page, what_they_gave(sid),
+                                     seat=bool(seat_at), web=sid.startswith("tip-"))
+        else:
+            subject, body = bundle_for(name, items)
+            if seat_at:
+                body += (f"\nP.S. {seat_at[3]} is still looking for an ambassador, somebody who adds "
+                         f"photos and keeps an eye on the list. Let us know if you're interested.\n")
+        if send_mail(addr, subject, body, really, items[0][0]):
+            for sid, _, tree, _, _, _ in items:
+                done[sid] = {"tree_id": tree["id"], "date": today}
+            if seat_at:
+                note_invited(uid, seat_at[4], seat_at[3], seat_at[2]["name"])
             sent += 1
     if really:
         save(MAILED, mailed)

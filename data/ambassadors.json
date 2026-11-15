@@ -402,6 +402,46 @@
         "The Canary Pine of Leighton Gardens"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_97a54c815334d451d929b481",
+      "place_slug": "grenada",
+      "place_name": "Grenada",
+      "date": "2026-11-15",
+      "trees": [
+        "The Giant of Mount Horne"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_664d50650493d694066a41f5",
+      "place_slug": "hethersett",
+      "place_name": "Hethersett",
+      "date": "2026-11-15",
+      "trees": [
+        "Kett's Oak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_af21cce41a45f566fbeb2637",
+      "place_slug": "market-bosworth",
+      "place_name": "Market Bosworth",
+      "date": "2026-11-15",
+      "trees": [
+        "The Market Bosworth Yew"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9f7b25dda38d08dabcad19bf",
+      "place_slug": "nagasaki",
+      "place_name": "Nagasaki",
+      "date": "2026-11-15",
+      "trees": [
+        "The A-bombed Camphors of Sannō Shrine"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
