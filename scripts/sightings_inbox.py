@@ -166,6 +166,16 @@ def save(path, doc):
         fh.write("\n")
 
 
+def coded_path(path):
+    """A storage path with its first part, the owner's account id, as a code."""
+    if not path:
+        return path
+    head, sep, tail = str(path).partition("/")
+    if not sep or people.is_ref(head):
+        return path
+    return people.ref(head) + "/" + tail
+
+
 def fetch_photo(path, dest):
     if os.path.exists(dest) and os.path.getsize(dest) > 0:
         return True
@@ -752,11 +762,15 @@ def main():
                     "latitude": row.get("lat"), "longitude": row.get("lng"),
                     # No taken_at: this file is public, and the time a reader
                     # stood somewhere stays in Supabase (2026-10-19 audit).
-                    "photo": row.get("photo"),
+                    # Coded: a storage path starts with the account id and
+                    # this file is public (qa's reader-traces check stopped
+                    # the 2026-11-15 deploy on four of these). fetch_photo
+                    # turns the code back when it downloads.
+                    "photo": coded_path(row.get("photo")),
                     # THE SIGN beside it, when they photographed one: the
                     # cheapest second source a lead can have. Downloaded so a
                     # judge can read it; evidence only, never published.
-                    "sign_photo": row.get("sign_photo"),
+                    "sign_photo": coded_path(row.get("sign_photo")),
                     "sign_file": fetch_sign(row),
                     "extra_files": fetch_extras(row),
                     "nearest_published_m": dist,

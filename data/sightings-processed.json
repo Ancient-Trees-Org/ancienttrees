@@ -973,15 +973,7 @@
    "lon": -0.2386,
    "pin_checked": "2026-11-15"
   },
-  "bc20d71a-11ea-4180-ad6f-78ec11b24d6b": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "1c15666f-2956-4ff6-a73d-ee3a44045c82": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "6ace68f9-6ca3-470c-9511-7e55975fb2f0": {
    "outcome": "lead",
    "date": "2026-11-15"
   },
@@ -993,15 +985,13 @@
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "ads_001",
-   "reason": "the lead photograph of the reader-found tree it created",
-   "pin_checked": "2026-11-15"
+   "reason": "the lead photograph of the reader-found tree it created"
   },
   "2733129b-fa14-4fe4-9f30-7ba889ca94c3": {
    "outcome": "published",
    "date": "2026-11-15",
    "tree_id": "mvv_001",
-   "reason": "the lead photograph of the reader-found tree it created",
-   "pin_checked": "2026-11-15"
+   "reason": "the lead photograph of the reader-found tree it created"
   },
   "de5a4012-4b39-4c52-a609-17cfdf464496": {
    "outcome": "added",
@@ -1046,6 +1036,38 @@
    "lat": 37.75095,
    "lon": -25.3385466666667,
    "pin_checked": "2026-11-15"
+  },
+  "ffa15eb0-3701-46b0-9f53-84281b66b9c9": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "e65d75dd-6d74-40dc-8840-a803969430e2": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "e731e63c-5e9a-4490-ba4c-b47f30aa22e3": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "71f93157-aef9-41a4-af61-e1ad9755f9b1": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "tip-703": {
+   "outcome": "lead",
+   "date": "2026-11-15"
+  },
+  "bc20d71a-11ea-4180-ad6f-78ec11b24d6b": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "lon_050",
+   "reason": "the lead photograph of the reader-found tree it created"
+  },
+  "6ace68f9-6ca3-470c-9511-7e55975fb2f0": {
+   "outcome": "published",
+   "date": "2026-11-15",
+   "tree_id": "brk_001",
+   "reason": "the lead photograph of the reader-found tree it created"
   }
  }
 }
