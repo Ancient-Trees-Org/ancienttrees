@@ -823,28 +823,20 @@
    ]
   },
   "p_802261c7cf0cd9b255100c55": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-15",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
      "tree_id": "nol_002",
-     "tree_name": "The Anseman Oak",
-     "city": "New Orleans",
-     "city_slug": "new-orleans",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     },
     {
      "sighting_id": "7f51f1b1-9ce0-4127-9f48-a373a6e9f91d",
      "tree_id": "nol_005",
-     "tree_name": "The Suicide Oak",
-     "city": "New Orleans",
-     "city_slug": "new-orleans",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-15"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_071683a079961a9398789c42": {
    "last": null,

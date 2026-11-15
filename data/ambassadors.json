@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-15T12:04Z",
+  "synced": "2026-11-15T20:19Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -128,6 +128,15 @@
       "public": true,
       "since": "2026-11-15",
       "display_name": "JOEY R.",
+      "profile_public": true
+    },
+    {
+      "user_id": "7f9fe18b-1b1c-42c0-b11d-4be425f0cfd0",
+      "place_slug": "auckland",
+      "place_name": "Auckland",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Natty Ice",
       "profile_public": true
     },
     {
@@ -512,6 +521,76 @@
         "The Fig on the Abraãozinho Trail"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_492afbdde23d69af867aff0f",
+      "place_slug": "humboldt-redwoods-state-park",
+      "place_name": "Humboldt Redwoods State Park",
+      "date": "2026-11-15",
+      "trees": [
+        "The Tall Tree"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3011dc2d7e92f70e598b79d2",
+      "place_slug": "lewes",
+      "place_name": "Lewes",
+      "date": "2026-11-15",
+      "trees": [
+        "The Southover Grange Mulberry"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_132ebf0689f60e21b9c8902c",
+      "place_slug": "linton-herefordshire",
+      "place_name": "Linton, Herefordshire",
+      "date": "2026-11-15",
+      "trees": [
+        "The Linton Yew"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_071683a079961a9398789c42",
+      "place_slug": "manaccan",
+      "place_name": "Manaccan",
+      "date": "2026-11-15",
+      "trees": [
+        "The Monterey Cypress over the Creek"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_19b3a0778e462c16dcceacf1",
+      "place_slug": "norwich",
+      "place_name": "Norwich",
+      "date": "2026-11-15",
+      "trees": [
+        "The Norwich Cathedral Cedar"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_456665b8a773124350ec9019",
+      "place_slug": "ormond-beach",
+      "place_name": "Ormond Beach",
+      "date": "2026-11-15",
+      "trees": [
+        "The Fairchild Oak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_740a972d9054940ff076c309",
+      "place_slug": "ulverston",
+      "place_name": "Ulverston",
+      "date": "2026-11-15",
+      "trees": [
+        "The Conishead Priory Cedar"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -719,6 +798,13 @@
       "user_id": "p_3bb2d9b77f839015a3f92de9",
       "place_slug": "media-pennsylvania",
       "place_name": "Media",
+      "date": "2026-11-15"
+    },
+    {
+      "row": 842,
+      "user_id": "p_4a3e8be0cafb822ba00b39d3",
+      "place_slug": "auckland",
+      "place_name": "Auckland",
       "date": "2026-11-15"
     }
   ],
@@ -1270,6 +1356,17 @@
         "mdp_001",
         "mdp_002",
         "mdp_003"
+      ],
+      "since": "2026-11-15",
+      "mailed": []
+    },
+    "auckland": {
+      "trees": [
+        "akl_001",
+        "akl_002",
+        "akl_003",
+        "akl_004",
+        "akl_005"
       ],
       "since": "2026-11-15",
       "mailed": []
