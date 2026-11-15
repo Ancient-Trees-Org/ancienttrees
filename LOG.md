@@ -2,6 +2,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-15 07:00 run
+
+- Rung 1 empty (no sightings). Rung 2: iOS run of 11-14 failed on one test of 274 (`NameTests.testNoAnswerFromTheServerAsksNobody`, signal abrt), the same crash seen 10-26 and read then as a simulator flake; app untouched, watch the next run. Web errors orange: one `window.ethereum` error, a wallet browser extension, not ours. `gh workflow run deploy.yml` was refused (HTTP 403), so the live site stays behind main until a deploy runs.
+- Write pass (US/UK): nothing writable, every pending tree held, duplicate or a lone city; phl_010 (Grumblethorpe Ginkgo) hold-noted (hard rule 10). San Francisco verify, ninth pass: nothing new, wall for 48h.
+- Scout RETRY Buffalo: one tree verified and written, buf_001 Franklin Street sycamore (confirmed pin, flagged, age disputed, stated on the page), new data/cities/buffalo.json. Leads: Delaware Park Mighty Oak, NY DEC Big Tree Register PDFs (needs a PDF tool, next angle). Not pushed (credential); the Run health step pushes.
+
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
 
 - [2026-11](archive/LOG-2026-11.md)
