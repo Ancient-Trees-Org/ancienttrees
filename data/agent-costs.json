@@ -17,6 +17,14 @@
         "tokens": 175000,
         "trees": 11,
         "note": "all 31 photos viewed; 11 reader-found trees live (cnk_004, bne_022, 9 new places), 20 leads with a reason; preflight 0"
+      },
+      {
+        "date": "2026-11-16",
+        "kind": "write",
+        "target": "pending shelf (allentown, aspromonte, brindisi, castelbuono, dartmoor, frankfurt, grazalema-rediam, innsbruck, isole-tremiti, noto, san-francisco, serra-san-bruno, taiwan)",
+        "tokens": 60000,
+        "trees": 0,
+        "note": "nothing writable: all 15 pending rows carry a standing hold with no new evidence since the 11-15 pass (access, cannot be told apart, no sighting, sfo_012 duplicate of sfo_004); taiwan holds only a _notes row; all_001 given its hold in the file; estimate"
       }
     ],
     "2026-11-15": [

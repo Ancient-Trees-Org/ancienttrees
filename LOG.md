@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 write pass: nothing writable, again
+
+- Nothing published. The 15 pending rows in allentown, aspromonte, brindisi, castelbuono, dartmoor, frankfurt, grazalema-rediam, innsbruck, isole-tremiti, noto, san-francisco and serra-san-bruno are the same shelf the 11-15 pass found, each with a standing hold and no new evidence: access unproven (brd_001, frk_027, sgz_005, inn_007, not_002, not_003, tmt_001), cannot be told apart in a wood (asp_001, asp_002, ssb_002, ssb_003), location not statable (cbu_001), no sighting since 2019 (dmr_002), duplicate of live sfo_004 (sfo_012). taiwan-verified.json holds only a _notes row. all_001 (Allentown cottonwood) now carries its hold in the file. passcheck `--pending` still counts held rows as needing a story; this lane needs a verify pass (sightings, GPS, access) before it has work.
+
 ## 2026-11-16 session: one mail route rule (Yahoo and first mails signed, the rest through Gmail)
 
 - Every mail now picks its route by recipient and kind (scripts/mailer.py, `wants_resend()`): Resend for addresses on Yahoo's servers and for first mails to strangers (outreach_send.py, `mailer.FIRST`); Gmail for mail people asked for or expect (contributor_reply, sightings_publish, ambassador: `mailer.EXPECTED`); either route takes over when the other refuses or cannot be reached. Builds on the Gmail fallback below. Tested against fake servers (scripts/test_mailer.py, nine cases); no real mail sent by this change.
