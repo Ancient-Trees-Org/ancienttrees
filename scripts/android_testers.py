@@ -16,7 +16,8 @@ at least 12 testers have been opted in to the closed test for 14 days
     python3 scripts/android_testers.py --set <email> <status>
     python3 scripts/android_testers.py --emails            # opted-in-able addresses, comma separated, for Play's tester list
 
- is somebody worth asking who has not been offered the test yet. A session that offers the test in a mail adds the person as `asked`; their
+`to_ask` is somebody worth asking who has not been offered the test yet.
+A session that offers the test in a mail adds the person as `asked`; their
 yes makes it `yes`; the day the opt-in link goes out, `invited`; once Play
 shows them opted in, `joined`.
 """
