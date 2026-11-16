@@ -95,9 +95,9 @@ def _ensure_request(token, state):
     return req_id
 
 
-def _ensure_report(token, state, request_id):
-    if state.get("report_id"):
-        return state["report_id"]
+def _ensure_report(token, state, request_id, name=REPORT_NAME, key="report_id"):
+    if state.get(key):
+        return state[key]
     data = _get("%s/analyticsReportRequests/%s/reports" % (API, request_id),
                 token, params={"limit": 50})
     reports = list(data.get("data", []))
@@ -107,12 +107,12 @@ def _ensure_report(token, state, request_id):
         reports += data.get("data", [])
         next_url = data.get("links", {}).get("next")
     for row in reports:
-        if row["attributes"].get("name") == REPORT_NAME:
-            state["report_id"] = row["id"]
+        if row["attributes"].get("name") == name:
+            state[key] = row["id"]
             _save_state(state)
             return row["id"]
     raise SystemExit("No %r report found under request %s (Apple may not "
-                      "have attached it yet)" % (REPORT_NAME, request_id))
+                      "have attached it yet)" % (name, request_id))
 
 
 def _daily_instances(token, report_id, limit=14):
@@ -194,6 +194,45 @@ def download_rows(days=14):
                 newest[day] = (processed, day_rows)
     out = [(day, row) for day in sorted(newest) for row in newest[day][1]]
     return out, None
+
+
+DELETION_REPORT = "App Store Installation and Deletion Standard"
+
+
+def daily_deletions(days=9):
+    """{date: deletions} from Apple's installation and deletion report
+    (Hidde, 2026-11-16: "heb ik ook een uninstall metric?"). Apple counts only
+    phones that share analytics with developers, and leaves out days whose
+    numbers are too small to show, so a missing day is not a zero and the
+    count is a share, never all deletions. Same overlap rule as
+    download_rows(): each day from the newest instance that carries it. A
+    fresh token per instance, because a slow segment can outlive one."""
+    token = bearer_token()
+    state = _load_state()
+    request_id = _ensure_request(token, state)
+    report_id = _ensure_report(token, state, request_id, DELETION_REPORT, "deletion_report_id")
+    newest = {}
+    for inst in _daily_instances(token, report_id, limit=days):
+        processed = inst["attributes"].get("processingDate") or ""
+        rows = None
+        for _attempt in range(3):
+            try:
+                rows = _segment_rows(bearer_token(), inst["id"])
+                break
+            except (urllib.error.URLError, OSError):
+                continue
+        if rows is None:
+            continue
+        per_day = {}
+        for row in rows:
+            day = _col(row, "date", default=processed)
+            per_day.setdefault(day, 0)
+            if _col(row, "event").lower() == "delete":
+                per_day[day] += _count(row)
+        for day, n in per_day.items():
+            if day not in newest or processed > newest[day][0]:
+                newest[day] = (processed, n)
+    return {day: n for day, (_p, n) in newest.items()}
 
 
 def _dedupe_selftest():

@@ -2110,7 +2110,7 @@ def day_by_day_section(today):
     days = [(today - datetime.timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
     cols = collections.OrderedDict((k, None) for k in (
         "Visitors", "New accounts", "Saves", "Android waitlist", "App downloads",
-        "App phones", "Trees opened in the app", "Trees collected",
+        "App deletions", "App phones", "Trees opened in the app", "Trees collected",
         "Trees sent", "Feedback", "Ambassador asks", "Website photos", "iPhone photos",
         "Android photos", "Tree notes",
         "App Store reviews"))
@@ -2190,6 +2190,16 @@ def day_by_day_section(today):
                 pending["App downloads"] = {d for d in days if d > through}
     except Exception as e:
         print("day_by_day downloads: %s" % str(e)[:100])
+    # Deletions (Hidde, 2026-11-16: "heb ik ook een uninstall metric?"). Apple
+    # leaves out a day whose numbers are too small to show, so a day with no
+    # row at all is "–", never 0.
+    try:
+        import asc_downloads
+        gone = asc_downloads.daily_deletions(days=9)
+        fill("App deletions", gone.items())
+        pending["App deletions"] = {d for d in days if d not in gone}
+    except BaseException as e:  # asc_auth raises SystemExit without its keys
+        print("day_by_day deletions: %s" % str(e)[:100])
     # Written App Store reviews, a count only: DATA.md is public, the words
     # are on the local digest page (show_digest.readers_in_full).
     try:
@@ -2244,6 +2254,10 @@ def day_by_day_section(today):
     if any(pending.values()):
         out.append("- – means the source has not reported that day yet (Apple's downloads "
                    "arrive a day or two late), not zero.")
+    if cols.get("App deletions") is not None:
+        out.append("- App deletions count only phones that share analytics with developers, "
+                   "and Apple leaves out days too small to show: read it against the "
+                   "installs of the same day, not as a total.")
     out += feedback_lines(feedback, days)
     return "\n".join(out)
 
