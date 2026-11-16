@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: how often the app really ends on screen
+
+- **Why**: MetricKit reported one store crash from ~4,000 new phones over the Guardian weekend. It only reports from phones that share analytics and never reports memory kills; meanwhile 58 of 4,183 phones reopened the app within two minutes, 53 of those reopens right after a tree page (spread over many trees, all iOS versions, median 48 s after opening).
+- **Product (next iOS build, and Android before its release)**: every run that ends on screen now sends one `app_exit_abnormal` event to PostHog with the last event and tree (Kit/ExitWatch.swift, the Crashlytics-style unclean-shutdown flag; Android reads ApplicationExitInfo). Apple's daily foreground exit counts (memory, bad access, watchdog) go in as `app_exit_counts` instead of being thrown away. Photos are decoded at most 2048 px (ImageIO thumbnail decode): 1,172 feed photos are Wikimedia originals of 20 to 50 MP, about 100 MB each in memory the old way; no visible change. PhotoMemoryTests green; Android compiles.
+- **Not proven**: big originals are not over-represented before the reopens (69% vs 64% of all tree opens), so they are a risk removed, not the confirmed cause. The new events will say after the build is out.
+
 ## 2026-11-16 session: three more readers' trees live (Hidde: "doe ze nu")
 
 - **Product**: three readers' trees live, app first: a giant blackbutt by Bird Tree Road in Middle Brother National Park, NSW (mbr_001, new sighting, GPS fix; the reader's 11 m girth and 300 years match the state's and the National Trust's Bird Tree, but no source puts that name at the fix, so the page leaves it open); the Arbour Oak of Wollaton Park, Nottingham (ntm_001, tip-839, pinned from the Friends of Wollaton Park's uMap tree survey, 1460s per their leaflet); the Oak of Molinazzo, Poggio Renatico (pgr_001, tip-875, MASAF register 01/G768/FE/08, 461 cm, 23 m, register pin approximate).
