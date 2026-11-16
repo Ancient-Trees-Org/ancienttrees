@@ -44,8 +44,14 @@ public enum Measure {
     /// Write-only and public by design: it can send events in and cannot read
     /// anything out, which is why it sits in the repo like the Supabase
     /// publishable key and the Cloudflare token do.
-    private static let key = "phc_nSwWiqWesJZmLMypTZDaeR3MDpcpBwcMpWRy7eUSUpTm"
+    static let key = "phc_nSwWiqWesJZmLMypTZDaeR3MDpcpBwcMpWRy7eUSUpTm"
     private static let host = "https://eu.i.posthog.com/i/v0/e/"
+    /// The same project's base address, for the crash reporter (Kit/CrashReporter.swift).
+    static let projectHost = "https://eu.i.posthog.com"
+    /// Whether this copy measures at all; the crash reporter follows the same line.
+    static var isOn: Bool { enabled }
+    /// The install id, so a crash can be read beside the events before it.
+    static var install: String { installId }
 
     /// Only the real app measures, the same rule the website runs on: its
     /// beacon checks the hostname so the smoke test's headless Chrome is not

@@ -118,6 +118,10 @@ dependencies {
     implementation("org.maplibre.gl:android-sdk:13.7.1")
     // Google Play's in-app review card (ui/ReviewAsk.kt; Hidde, 2026-11-10: "prima doe dat").
     implementation("com.google.android.play:review:2.0.2")
+    // Crash reports into the PostHog project the app already measures into
+    // (account/CrashReporter.kt; Hidde, 2026-11-16: "laten we dat pad volgen
+    // zet het in de volgende build en ook android"). Only its crash handler is on.
+    implementation("com.posthog:posthog-android:3.77.1")
     // The iPhone's frosted glass behind the tab bar and the photo buttons: a
     // backdrop blur on Android 12+ (ui/Glass.kt). 1.7.2 is the release built
     // against this app's Compose 1.10 and Kotlin 2.2.21 (hard list 5).

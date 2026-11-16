@@ -1,5 +1,5 @@
 {
-  "originHash" : "e70d3525c8e2819a8b34f22909815dab5c700c25a06c32388f3930f7b3627768",
+  "originHash" : "057edf1e33a7d619abb408dfc6c72a3ad278a6fee17a7b2f5b2ca591b30bffbd",
   "pins" : [
     {
       "identity" : "maplibre-gl-native-distribution",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "5ee345ca5d65238a6fce29bba87816204be7df20",
         "version" : "6.28.0"
+      }
+    },
+    {
+      "identity" : "posthog-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PostHog/posthog-ios.git",
+      "state" : {
+        "revision" : "8db6e5dcaa52365257d2f443cf50bfc438f3dd6d",
+        "version" : "3.97.2"
       }
     }
   ],

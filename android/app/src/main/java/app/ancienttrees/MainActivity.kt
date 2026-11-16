@@ -85,6 +85,8 @@ class MainActivity : ComponentActivity() {
     private var link by mutableStateOf<Uri?>(null)
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // First, so a crash anywhere after this line is caught (account/CrashReporter.kt).
+        app.ancienttrees.account.CrashReporter.start(this)
         // The system splash, then the app's theme (themes.xml Theme.AncientTrees.Starting).
         androidx.core.splashscreen.SplashScreen.Companion.run { installSplashScreen() }
         super.onCreate(savedInstanceState)

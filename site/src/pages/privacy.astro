@@ -57,6 +57,7 @@ const canonical = `${BASE_URL}/privacy`;
 
     <h2>When the app or the site breaks</h2>
     <p>The app asks iOS for a report when it has crashed or frozen, using Apple's own MetricKit, and sends it to the same EU database. That report contains what went wrong, the app version and the iOS version, and <strong>nothing that says whose phone it came from</strong>. It is used to fix the app and for nothing else.</p>
+    <p>When the app crashes, on iPhone or Android, it also sends a crash report to PostHog, the analytics service above, on servers in the EU (Frankfurt), the next time you open it. That report contains where in the app's code it went wrong, the app version, the phone model and system version, and the same random number made on your phone at install as the app-use records. Never your email address, your name or your location. It is used to fix the app and for nothing else.</p>
     <p>When a script on this site fails, the page sends the same database the error message, the file and line it came from, the page address without anything after the question mark, your browser's name and version number, and the date. No account, no IP address, no cookie. These reports are deleted after 90 days.</p>
 
     <h2>Mail</h2>
@@ -64,7 +65,7 @@ const canonical = `${BASE_URL}/privacy`;
     <p><strong>If we wrote to you first</strong>, we found your address on your own website or that of your organisation, and we keep your name, organisation, address and that page in a private list, only to write to you about Ancient Trees. Tell us you would rather not hear from us and we stop and take you off the list.</p>
 
     <h2>Who handles the data for us</h2>
-    <p>Supabase (accounts and everything stored with them, EU), PostHog (app use, EU), Google (Analytics after you accept, sign-in with Google, and our mail inbox), Apple (sign-in with Apple and crash reports), Resend and ImprovMX (mail), GitHub (hosting the site, and an encrypted weekly backup of the database kept for 90 days) and OpenFreeMap (map tiles). Where one of them works outside the EU, it does so under the EU-US Data Privacy Framework or the European Commission's standard contractual clauses.</p>
+    <p>Supabase (accounts and everything stored with them, EU), PostHog (app use and crash reports, EU), Google (Analytics after you accept, sign-in with Google, and our mail inbox), Apple (sign-in with Apple and crash reports), Resend and ImprovMX (mail), GitHub (hosting the site, and an encrypted weekly backup of the database kept for 90 days) and OpenFreeMap (map tiles). Where one of them works outside the EU, it does so under the EU-US Data Privacy Framework or the European Commission's standard contractual clauses.</p>
 
     <h2>Why we may use it</h2>
     <p>Your account, profile, collection, sightings, notes and the mails about them: because you asked for the service, and these terms are how it works. Google Analytics: only with your consent, which you can withdraw. App use, crash and error reports, mail to people whose address their organisation publishes, and backups: our legitimate interest in running a working service and telling people about it, kept as small as the job allows. Anything we must keep by law: because the law says so.</p>

@@ -47,7 +47,9 @@ import java.util.UUID
 object Measure {
 
     /** Write-only and public by design (Measure.swift): it can send events in and read nothing out. */
-    private const val KEY = "phc_nSwWiqWesJZmLMypTZDaeR3MDpcpBwcMpWRy7eUSUpTm"
+    internal const val KEY = "phc_nSwWiqWesJZmLMypTZDaeR3MDpcpBwcMpWRy7eUSUpTm"
+    /** The same project's base address, for the crash reporter (account/CrashReporter.kt). */
+    internal const val PROJECT_HOST = "https://eu.i.posthog.com"
     private const val HOST = "https://eu.i.posthog.com/i/v0/e/"
 
     private const val ID_KEY = "measure.install.v1"
