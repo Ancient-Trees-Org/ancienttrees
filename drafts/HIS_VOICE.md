@@ -483,3 +483,7 @@ My draft stated the fix as done and closed the matter ("now stand on the map at 
 ## 2026-11-16: someone who wrote to us first already knows who we are (Diana Popa, Place Imaginarium)
 
 She found the project, liked it and asked about working together. My draft opened with the Baarn intro and what Ancient Trees is. His verdict: **"why the hell would you say this she already knows thats why she mails"**. The intro is for a first mail from us, or for somebody who asked who we are (Stacey, Bauer). Someone who wrote first gets the answer to what they asked and the question. mailcheck: INTRO TO SOMEONE WHO WROTE FIRST (reply drafts from 2026-11-16; `intro-asked: <their words>` in the notes when they did ask).
+
+## 2026-11-16: a loss they mention is met plainly (Elsa Kögel, Alte Bäume der Heide)
+
+She wrote that her husband, the photographer behind the project, died last year. My draft said "mein herzliches Beileid zum Tod Ihres Mannes". His version: **"Im sorry to hear about the loss of your husband sounds better"**, since formal condolences can read strange when the death may be a while ago. So: "I'm sorry to hear about the loss of ..." (DE "Es tut mir sehr leid, vom Verlust Ihres Mannes zu hören"), one sentence, then on.
