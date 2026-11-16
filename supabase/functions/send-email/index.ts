@@ -28,7 +28,7 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 // check_one_mail_route_rule() keeps them equal). Every mail this hook sends is
 // one the person asked for, so only these addresses go through Resend.
 const YAHOO_FAMILY = ["yahoo", "ymail", "rocketmail", "aol", "aim", "verizon", "att",
-  "sbcglobal", "bellsouth", "frontier"];
+  "sbcglobal", "bellsouth", "frontier", "sky"];
 const onYahoo = (addr: string) =>
   YAHOO_FAMILY.includes(addr.trim().toLowerCase().split("@").pop()!.split(".")[0]);
 

@@ -77,7 +77,7 @@ def last_sent(addr, days=RECENT_DAYS):
 # here and in the hook; qa's check_one_mail_route_rule() keeps them equal.
 FIRST, EXPECTED = "first", "expected"
 YAHOO_FAMILY = ("yahoo", "ymail", "rocketmail", "aol", "aim", "verizon", "att",
-                "sbcglobal", "bellsouth", "frontier")
+                "sbcglobal", "bellsouth", "frontier", "sky")
 
 
 def on_yahoo(addr):
