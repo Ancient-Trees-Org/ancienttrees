@@ -55,6 +55,18 @@ object NewFromVisitors {
         return tree.shots.firstOrNull { it.sighting == id }
     }
 
+    /**
+     * The tiles the row shows: only a tree whose feed already carries this visitor's
+     * photograph, the website's rule (Hidde, 2026-11-16: the newest tiles stood empty until
+     * the next deploy). NewFromVisitors.tiles in ios Kit/NewFromVisitors.swift.
+     */
+    fun tiles(rows: List<Row>, tree: (String) -> app.ancienttrees.feed.Tree?): List<Triple<Row, app.ancienttrees.feed.Tree, app.ancienttrees.feed.Photo>> =
+        rows.mapNotNull { r ->
+            val t = tree(r.treeId) ?: return@mapNotNull null
+            val s = shot(r, t) ?: return@mapNotNull null
+            Triple(r, t, s)
+        }
+
     suspend fun load(token: String?): List<Row> {
         val r = Supa.send("/rest/v1/rpc/new_from_visitors", token = token, body = JSONObject().put("n", 12).toString())
         return if (r.ok) parse(r.body) else emptyList()

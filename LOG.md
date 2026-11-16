@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: "New from visitors" in the apps shows only tiles with the visitor's photograph
+
+Hidde: in the iOS app the first four tiles of "New from visitors" had no photograph, on the web every tile had one. Cause: the server names a reader's photograph the moment it is published (bri_018, bos_047, bil_004, lef_001, all today 11:39 to 13:12), the feed only after the next deploy; those four trees had no photograph in the live feed yet. The website skips a tree its build does not know; the apps drew the tree without a picture. Now both apps use the website's rule: a tile only when the feed already carries that visitor's photograph (`NewFromVisitors.tiles` in Kit/NewFromVisitors.swift and account/Visitors.kt). Reaches phones with the next iOS and Android builds; the four tiles appear with their photographs after the deploy now running. iOS compiled locally; Android left to CI (no SDK on the Mac).
+
 ## 2026-11-16 session: Android pins wear the saved, collected and ticket corners
 
 - **Android's map now marks your trees as the iPhone and the website do** (follow-up of 2026-11-12, Hidde: "Ja, doe Android"): a saved tree wears the moss bookmark top right, a collected one the moss tick bottom right, a paid one the blue ticket bottom left, each a white disc with a soft shadow; a saved tree takes the first full pin and is never thinned out. Before, Android drew only the ticket and did not know which trees you had saved or collected. Looked at side by side with the iPhone over Amsterdam (5 saved, 2 collected): the same. In the next Android build.

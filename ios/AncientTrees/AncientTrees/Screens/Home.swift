@@ -858,7 +858,7 @@ struct HomeView: View {
         // creator line). Second on the page, right under the season's trees,
         // so a newcomer sees people adding before the cities and lists. From
         // four tiles, so it never stands half empty (Kit/NewFromVisitors).
-        let fresh = visitorRows.compactMap { r in catalogue.tree(r.tree_id).map { (row: r, tree: $0) } }
+        let fresh = NewFromVisitors.tiles(visitorRows) { catalogue.tree($0) }
         if fresh.count >= NewFromVisitors.minimum {
             section("New from visitors") {
                 shelf {
@@ -866,7 +866,7 @@ struct HomeView: View {
                         VStack(alignment: .leading, spacing: 7) {
                             NavigationLink(value: Route.tree(f.tree.id)) {
                                 CollectedTile(kind: .ours(f.tree), city: f.tree.city,
-                                              shot: NewFromVisitors.shot(f.row, in: f.tree))
+                                              shot: f.shot)
                                     .frame(width: Self.tileWidth).clipShape(Self.tileShape)
                             }
                             .buttonStyle(.plain)

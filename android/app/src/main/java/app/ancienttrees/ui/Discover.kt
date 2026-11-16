@@ -315,7 +315,7 @@ private fun keyIndex(deck: Shelves, rows: List<NewFromVisitors.Row>, c: Catalogu
     val keys = ArrayList<String>()
     keys += "discover-top"
     if (deck.best.size >= 3) keys += "best"
-    if (rows.count { c.tree(it.treeId) != null } >= NewFromVisitors.MINIMUM) keys += "visitors"
+    if (NewFromVisitors.tiles(rows) { c.tree(it) }.size >= NewFromVisitors.MINIMUM) keys += "visitors"
     keys += "cities"
     deck.here?.let { (slug, _) -> if (c.ambassadors(slug).isEmpty() && !c.seated(slug)) keys += "ambassador" }
     if (deck.records.size == 3) keys += "records"
@@ -391,14 +391,14 @@ private fun LazyListScope.discoverContent(
     }
 
     // NEW FROM VISITORS (Hidde, 2026-11-06): one tile per tree, the person under it.
-    val fresh = visitorRows.mapNotNull { r -> c.tree(r.treeId)?.let { r to it } }
+    val fresh = NewFromVisitors.tiles(visitorRows) { c.tree(it) }
     if (fresh.size >= NewFromVisitors.MINIMUM) {
         block("visitors") {
             Section(stringResource(R.string.discover_visitors)) {
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
-                    items(fresh, key = { it.first.sightingId }) { (row, tree) ->
+                    items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = NewFromVisitors.shot(row, tree)) { act.openTree(tree) }
+                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot) { act.openTree(tree) }
                             VisitorLine(row, openVisitor)
                         }
                     }

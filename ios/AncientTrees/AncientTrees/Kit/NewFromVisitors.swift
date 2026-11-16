@@ -43,4 +43,18 @@ enum NewFromVisitors {
         let id = row.sighting_id.uuidString.lowercased()
         return tree.shots.first { $0.sighting == id }
     }
+
+    /// The tiles the row shows: only a tree whose feed already carries this
+    /// visitor's photograph. The server names a photograph the moment it is
+    /// published, the feed only after the next deploy; in between the tile
+    /// stood empty, or showed somebody else's picture over this visitor's name
+    /// (Hidde, 2026-11-16: "bij ios missen de eerste 4 een foto, bij web
+    /// allemaal wel"). The website's rule (visitors-row-js.ts skips a tree its
+    /// build does not know); the tile appears with the next feed.
+    static func tiles(_ rows: [Row], tree: (String) -> Tree?) -> [(row: Row, tree: Tree, shot: Photo)] {
+        rows.compactMap { r in
+            guard let t = tree(r.tree_id), let s = shot(r, in: t) else { return nil }
+            return (row: r, tree: t, shot: s)
+        }
+    }
 }
