@@ -1,4 +1,4 @@
-To: Joey Ryan <postinello@icloud.com> (reply in his thread)
+To: Joey Ryan (reply in his thread)
 Subject: Re: (his thread)
 
 Notes for Hidde:
