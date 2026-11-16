@@ -2731,10 +2731,6 @@
    "outcome": "lead",
    "date": "2026-11-16"
   },
-  "e0402f44-1b12-431a-9901-7974f79ccb2f": {
-   "outcome": "lead",
-   "date": "2026-11-16"
-  },
   "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f": {
    "outcome": "added",
    "date": "2026-11-16",
@@ -2745,10 +2741,6 @@
    "lat": 60.3680225548025,
    "lon": 6.18613024169611,
    "pin_checked": "2026-11-16"
-  },
-  "f91bd966-db25-4276-91ce-9fb1c5806347": {
-   "outcome": "lead",
-   "date": "2026-11-16"
   },
   "tip-908": {
    "outcome": "lead",
@@ -3045,7 +3037,31 @@
    "lon": -0.424423238216235,
    "pin_checked": "2026-11-16"
   },
-  "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa": {
+  "5784282e-f1a8-4516-ab2e-cce4d2f0f3be": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "68515bbd-0bdc-475a-bb16-5e8e324db9c9": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "bfc89932-0e03-486f-9857-72e11af25298": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "b4902ef7-a641-4d4d-86c4-98b316da873d": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "tip-947": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "tip-951": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "tip-959": {
    "outcome": "lead",
    "date": "2026-11-16"
   }

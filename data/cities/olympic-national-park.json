@@ -142,7 +142,23 @@
         "width": 4080,
         "height": 3072,
         "taken_month": 9
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/oly_003-the-tree-of-life-d8212c9e.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_1eb12dc79856c2f3c36b83bd",
+          "sighting_id": "d8212c9e-e921-4b28-b931-44a7ff01fec4",
+          "note": "Photographed by a reader and sent through the app (2022-06-06); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "oly_004",
@@ -183,7 +199,23 @@
       "official_register": {
         "name": "NPS Places, Olympic National Park (Quinault Big Sitka Spruce Tree)",
         "url": "https://www.nps.gov/places/000/quinault-big-sitka-spruce-tree.htm"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/oly_004-the-quinault-big-spruce-d21fa973.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_1eb12dc79856c2f3c36b83bd",
+          "sighting_id": "d21fa973-8906-4f73-81f7-c7e4036c2fd2",
+          "note": "Photographed by a reader and sent through the app (2022-06-06); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,9 @@
 {
  "_note": "Readers' own words written as their note on the tree they sent: (code|tree_id) -> date. Codes, never ids; the words stay in Supabase. scripts/reader_text_notes.py.",
- "written": {}
+ "written": {
+  "p_2488e74029ba86d35cd03b06|akr_001": "2026-11-16",
+  "p_4cefec9f5644f57abdf55de5|cdl_003": "2026-11-16",
+  "p_64aded5e0bdd8d60b3e78790|pgr_001": "2026-11-16",
+  "p_050a7df1343144bf3f82d0f0|ntm_001": "2026-11-16"
+ }
 }

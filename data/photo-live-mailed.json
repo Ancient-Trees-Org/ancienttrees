@@ -1052,7 +1052,17 @@
   },
   "p_ccfec79b6fd8ef4fe71357b4": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "3cf4d1ae-05de-4dff-b168-0c0815960fd3",
+     "tree_id": "bwd_001",
+     "tree_name": "The Borrowdale Yews (the Fraternal Four)",
+     "city": "Borrowdale",
+     "city_slug": "borrowdale",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
@@ -1244,6 +1254,54 @@
      "tree_name": "Millennium Tree of Balete Park",
      "city": "Maria Aurora",
      "city_slug": "maria-aurora",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_1eb12dc79856c2f3c36b83bd": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d21fa973-8906-4f73-81f7-c7e4036c2fd2",
+     "tree_id": "oly_004",
+     "tree_name": "The Quinault Big Spruce",
+     "city": "Olympic National Park",
+     "city_slug": "olympic-national-park",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "d8212c9e-e921-4b28-b931-44a7ff01fec4",
+     "tree_id": "oly_003",
+     "tree_name": "The Tree of Life",
+     "city": "Olympic National Park",
+     "city_slug": "olympic-national-park",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_7b2115b8e39fa3b6538f86e3": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1b2096fe-4e2d-41f0-9517-b288ef04b372",
+     "tree_id": "bri_016",
+     "tree_name": "The Bundle-planted Sessile Oak, Bishops Knoll",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "a3b445ba-ddaf-4c9f-a94e-a77968edb6a3",
+     "tree_id": "bri_016",
+     "tree_name": "The Bundle-planted Sessile Oak, Bishops Knoll",
+     "city": "Bristol",
+     "city_slug": "bristol",
      "display_name": null,
      "live": "2026-11-16"
     }
