@@ -2,8 +2,8 @@
   "city": "Hanoi",
   "country": "Vietnam",
   "status": "needs_curation",
-  "intro": "Hanoi has the place where Vietnam's heritage tree list began. In 2010 the first Vietnam Heritage Tree recognition went to nine muom, a wild mango, at Voi Phuc Temple, and only one is reported alive now. By West Lake, Tran Quoc Pagoda keeps a bodhi tree planted in 1959 by India's president, a cutting from Bodh Gaya. Many more recognised heritage trees stand in the villages around the city.",
-  "meta_description": "Hanoi's heritage trees: the last muom of Voi Phuc Temple and the 1959 bodhi of Tran Quoc Pagoda, where each stands and how to visit.",
+  "intro": "Hanoi has the place where Vietnam's heritage tree list began. In 2010 the first Vietnam Heritage Tree recognition went to nine muom, a wild mango, at Voi Phuc Temple, and only one is reported alive now. By West Lake, Tran Quoc Pagoda keeps a bodhi tree planted in 1959 by India's president, a cutting from Bodh Gaya. Beside Hoan Kiem Lake, a banyan put at over 300 years shades the courtyard of the Nhan Dan newspaper, and its crown shows from the street. Many more recognised heritage trees stand in the villages around the city.",
+  "meta_description": "Hanoi's old trees: the last muom of Voi Phuc Temple, the 1959 bodhi of Tran Quoc Pagoda and the Nhan Dan banyan by Hoan Kiem Lake.",
   "question_meta": "Hanoi's notable trees include Vietnam's first heritage trees at Voi Phuc Temple and Tran Quoc Pagoda's 1959 bodhi.",
   "question_answer": "Two of Hanoi's notable trees are the last surviving muom, a wild mango, at Voi Phuc Temple on Kim Ma street, part of the group that received Vietnam's first Heritage Tree recognition in 2010, and the bodhi tree at Tran Quoc Pagoda on West Lake, planted on 24 March 1959 by Rajendra Prasad, President of India.",
   "question_context": "The Vietnam Heritage Tree title is given by VACNE, the national nature association, and has been awarded since 2010. The nine muom at Voi Phuc were put at about 700 years, the age of the temple, without a stated basis. By 2014 only four were alive, and by 2021 the press reported one, a count repeated in 2025; no source says which trunk survives, so the pin marks the temple. It opens daily from 08:00 to 20:00 by its map listing. The bodhi at Tran Quoc was a cutting from the tree at Bodh Gaya, given in return for a tree Ho Chi Minh had given India, and Hanoi calls it the diplomacy tree. Its planting is one of the few recorded dates on this map, though no source says where in the grounds it stands. The pagoda is free, open daily from 08:00 to 16:00, with a city bus stop at the gate on Thanh Nien road. Many more recognised heritage trees stand in villages 20 to 40 kilometres outside the city.",
@@ -95,6 +95,48 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "hni_003",
+      "name": "The banyan of Nhan Dan, 71 Hang Trong",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "over 300 years (press figure); over 400 by a reader's estimate",
+      "age_min": 300,
+      "age_max": 450,
+      "age_basis": "source",
+      "location": {
+        "address": "Courtyard of Bao Nhan Dan, 71 Hang Trong, seen from the pavement of Le Thai To, Hoan Kiem, Hanoi",
+        "latitude": 21.0298,
+        "longitude": 105.8513,
+        "neighbourhood": "Hoan Kiem Lake, west shore"
+      },
+      "story": "A newspaper has worked under this banyan since October 1954, when Nhan Dan, the Communist Party daily, moved into 71 Hang Trong about ten days after it came to Hanoi. Its own pages put the tree at over 300 years, and VietnamPlus gives the same figure. Nobody has published a measurement, but Nhan Dan wrote in 2022 that it takes dozens of people to reach round the trunk. A reader who told us about it puts it at over 400 years. Neither number comes with a basis, so take them as an estimate, not a count of rings.\n\nThe ground has had several lives around it. Nhan Dan writes that this corner of the old Ho Dinh quarter once held the school of the scholar Vu Tong Phan, and that the French later built a villa here, known as the residence of the deputy governor-general. Generations of journalists have rested and talked in its shade, and the paper recalls a visiting Soviet delegation turning into the courtyard just to look at it.\n\nThe courtyard belongs to the newspaper, not to a park. The reader who sent it tells us the tree can be seen from the pavement on Le Thai To, the street along the west shore of Hoan Kiem Lake. Since September 2026 the paper has also held free evening shows beneath it, with light projected onto the trunk. If you know which banyan species it is, tell us.",
+      "how_to_recognise": "The huge old banyan rising over the courtyard of the Nhan Dan newspaper building, between Hang Trong and Le Thai To on the west side of Hoan Kiem Lake; its crown shows from the Le Thai To pavement.",
+      "verified_sources": [
+        "https://nhandan.vn/nhung-goc-da-trong-tam-tri-nguoi-ha-noi-post686633.html",
+        "https://nhandan.vn/noi-day-toa-soan-bao-nhan-dan-post660512.html",
+        "https://www.vietnamplus.vn/bao-nhan-dan-bien-goc-da-tram-tuoi-thanh-khong-gian-nghe-thuat-cong-dong-post1137098.vnp",
+        "https://nhandan.vn/tin-hieu-vui-tu-cay-da-hang-trong-post947197.html",
+        "A reader's tip through the app, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-15"
+      },
+      "verify_notes": "2026-11-16: tipped by a reader in the app (submission 700, 'Over 400 year old tree, a beloved landmark', with a Google Maps link to 'Cay da toa bao Nhan dan, 12 P. Le Thai To'). Earlier blocked as a lead (courtyard of a newspaper HQ, hard rule 10). The reader answered our question by mail on 2026-11-16: 'visible from the sidewalk', which clears it under Hidde's 2026-11-04 ruling (El Pino: clearly seen from public ground). Age: 'hon 300 tuoi' in Nhan Dan 23 Feb 2022 (author's claim, no basis) and 10 Mar 2026, and VietnamPlus Sep 2026 ('cay da hon 300 nam tuoi'); reader says over 400. Size: 'hang chuc nguoi om moi xue' (Nhan Dan 2022), no girth or height published. History: Nhan Dan 19 Aug 2021 (Dang Minh Phuong): paper moved from Son Tay 14 Oct 1954, to 71 Hang Trong about ten days later; site of Vu Tong Phan's school, later French villa (deputy governor-general's residence, Gauthier villa); Soviet delegation came in to look at the tree. Tan Da Show, free, 3D mapping on the tree, first 19 Sep 2026 (VietnamPlus). Species not named in any source: genus only, asked on the page. Pin: on the Le Thai To pavement beside the building (OSM relation 21394540, bbox 21.02923-21.03032, 105.85027-105.85117); trunk position in the courtyard unknown, so approximate.",
+      "access": "The courtyard belongs to the Nhan Dan newspaper and is not a public garden; the tree can be seen from the pavement on Le Thai To (a reader's account). Free evening shows are sometimes held beneath it.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-16",
+        "note": "Pavement of Le Thai To at the east edge of OSM relation 21394540 (Bao Nhan Dan, 71 Hang Trong), where the reader's map link and her mail place the view."
       }
     }
   ]
