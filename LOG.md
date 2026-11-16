@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the old yew of Vigeois live; two readers asked back
+
+- **New tree, Vigeois (Corrèze)**: vgs_001 The Old Yew of Vigeois (https://ancienttrees.app/vigeois/old-yew-of-vigeois), from a reader's website tip (tip-959, '1 Rue Du Vieil If'). Ancient Yew Group tree 5617: 915 cm, access public, by the school playground; its coordinate is the pin (approximate). No photograph: theirs carries the signature 'krapo arboricole'. One tree, so no place page.
+- **Replies sent** (Hidde's yes on the text, contributor_reply.py): tip 959 got the link plus "is that you? may we put it on the tree's page?"; tip 947 (Tassili cypress, no place) got "where exactly does it stand, or the original photo from your phone". Their answers come to info@.
+
 ## 2026-11-16 session: Nathalie (Auckland ambassador) answered
 
 - **Mail**: Hidde's own reply sent in her thread on his "Verstuur" (drafts/batches/reply-nathalie-2026-11-16.json): she asked how to send trees from around the world; the app is easiest (iOS live, Android being built), otherwise email; suggestions on features and trees welcome. She has trees on file for the coming week: each one that comes is a tree to finish.
