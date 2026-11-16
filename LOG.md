@@ -30,7 +30,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Product**: the Big Tree of Cathedral Grove (cgv_001, MacMillan Provincial Park, Vancouver Island) is live as a lone tree page: a Coast Douglas-fir over 9 m round and about 76 m tall, 800+ years by BC Parks and the park sign. Sources BC Parks, Wikipedia, the HMDB marker; pin confirmed from the OSM tree node and komoot's highlight (within 15 m, south of Highway 4). A reader's tip by mail (`found_by_reader.tip`), so it gets its page under APP FIRST. No place page (one tree).
 - **Photo**: none shown. Gillian's "Biggest Tree" names this trunk but scores POOR (blown sky); Aaron Carlson's grove shot is in good light but geotagged 1.6 km off, so `held`. A photo of this trunk is still wanted.
-- **Mail**: the reply to the reader (drafts/reply-jonathan-king-2026-11-16.md) now says it is on the map, with the link; it waits for Hidde's yes. His words are not quoted: a mail needs their yes first.
+- **Mail**: the reply to the reader (drafts/reply-jonathan-king-2026-11-16.md), saying it is on the map with the link, was sent in his thread on Hidde's "Verstuur", after the page loaded. His words are not quoted: a mail needs their yes first.
 
 ## 2026-11-16 session: Joey is ambassador for Willistown
 
