@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the Guardian on the about page
+
+- **Product**: /about shows "Featured in" with the Guardian and Wilder logos under the photo, each linking to its article (Guardian 2026-11-15, Wilder 2026-10-23); the "was in Wilder in October 2026" line under the signature is gone. Reference Polarsteps' featured-in strip; under the photo because a block under the title broke the letter (Hidde: "het loopt gewoon niet zo"). On a phone it sits between photo and title, 48px above it. Logos in site/public/press/ (Guardian wordmark SVG; Wilder's own full logo, unchanged, trimmed to its ink at 3x).
+- **Broke and fixed**: the photo's img rule also styled the logos (300px tall) for one deploy; scoped to `.about-photo > img`. On an 800px laptop the logos sat below the fold under the sticky photo, so the photo column now narrows on low screens (3:4 kept, uncropped).
+- Hidde chose names without months ("dan blijft het actueel"); recorded in drafts/PITCH_VOICE.md.
+
 ## 2026-11-16 session: the 18 reader trees without a verdict, judged
 
 - **New tree, Essaouira**: ess_001 The Ombu of the Essaouira Medina, a reader's app photo plus GPS fix of the ombu in a café courtyard ("Oldest tree in Morocco inside the ombu cafe", quoted); age 250 and girth 10 m stated as theirs. One tree, so a tree page and no place page.
