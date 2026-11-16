@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: mistyped email addresses (web live, apps with their next builds)
+
+- Website, live with this deploy: under the sign-in email field, "Did you mean <address>?" when the part after the @ is a letter or two off a known provider (data/email-domains.json, 91 domains; outlook.co, gmial.com, hotmial.com, yaho.co.uk caught; mail.com, me.com, company domains left alone). The first Send holds once so the line is seen, the second sends as typed. The check-your-inbox step has "Use a different address"; /account shows the whole address instead of a masked one. The "expires in 15 minutes" line is gone in all eight languages (links last 24 hours).
+- iPhone and Android: the same rule and list (Kit/EmailSuggest.swift, account/EmailSuggest.kt), the check-your-email step names the address and offers "Use a different address" (Android in its eight languages). Both build; the iPhone step was looked at in the simulator, the suggestion line and Android only in code (simctl cannot type, no emulator ran). Ships with the next builds.
+- qa `check_one_email_domain_list()` keeps the app copies equal to data/email-domains.json. CONVENTIONS.md "A mistyped email address". Not done (Hidde's call): moving bounces out of his inbox.
+- Seen: a reader's tip address had a domain that does not exist; no layer catches that.
+
 ## 2026-11-16 Guimaraes write pass: gui_010 live in the app
 
 - **Product**: gui_010 The Camellia of Casa de Margaride is in data/cities/guimaraes.json (now 10 trees): 246-word story leading with the 2024 Portuguese Tree of the Year vote, age dispute kept (about 300 by Wilder, over 100 by the decree, 130 by ICNF), recognition line separating it from the taller Casa de Fresco camellia, best_time March flowers, paid_entry true, no photo. APP FIRST: app feed only, no web page. Species set to the canonical Common Camellia (five cities use it). Access gains one sentence ("Anyone can book a visit through the association's published contact; the garden is not open without one."), so preflight reads the appointment as a public booking; the price stays "confirm". Merged with scripts/build_write_2026_11_16b.py; preflight 0 problems.
