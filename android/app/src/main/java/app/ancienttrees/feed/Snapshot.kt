@@ -14,7 +14,9 @@ import java.io.DataOutputStream
 import java.io.File
 
 object Snapshot {
-    private const val MAGIC = 0x41545332 // "ATS2"; bump when Tree changes shape.
+    // "ATS3"; bump when Tree changes shape. ATS3 (2026-11-16): Photo.sighting, which
+    // ATS2 dropped, so after a restart New from visitors lost the visitor's photo.
+    private const val MAGIC = 0x41545333
 
     fun write(file: File, key: String, version: String, trees: List<Tree>) {
         val tmp = File(file.path + ".tmp")
@@ -79,6 +81,7 @@ object Snapshot {
         p.frame?.let { writeDouble(it) }
         opt(p.season)
         optInt(p.takenMonth)
+        opt(p.sighting)
     }
 
     private fun DataInputStream.photo(): Photo {
@@ -93,7 +96,8 @@ object Snapshot {
         val curl = opt()
         val frame = if (readBoolean()) readDouble() else null
         val season = opt()
-        return Photo(url, license, attribution, short, thumb, hero, credit, line, curl, frame, season, optInt())
+        val taken = optInt()
+        return Photo(url, license, attribution, short, thumb, hero, credit, line, curl, frame, season, taken, sighting = opt())
     }
 
     private fun DataOutputStream.tree(t: Tree) {
