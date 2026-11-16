@@ -905,14 +905,18 @@
       "id": "edi_022",
       "name": "The Wheatley Elm of Balgreen",
       "species": "Wheatley Elm (Ulmus minor 'Sarniensis')",
+      "age_estimate": "About 150 years, by a reader's estimate",
+      "age_min": 150,
+      "age_max": 150,
+      "age_basis": "source",
       "location": {
         "address": "Street verge, Balgreen area, west Edinburgh",
         "latitude": 55.941133,
         "longitude": -3.251053,
         "neighbourhood": "Balgreen / Saughtonhall"
       },
-      "story": "Dutch elm disease killed most of Britain's elms, and Edinburgh has fought for years to keep the ones it has. This is one of the survivors, a tall, dense elm on a grass verge in west Edinburgh, a street tree that has outgrown the houses around it.\n\nThe reader who sent it to us says it is the widest Wheatley elm in Scotland. We have not found a record that confirms it; the tree registers we read name a large Wheatley elm in Warriston Cemetery, about three metres round in 2017, and put the national champion in Brighton. So the claim is theirs, and we would welcome a tape measurement to settle it.\n\nWheatley elms are a form of field elm, also called the Guernsey elm, planted in towns for their narrow, upright crowns. In the reader's photograph this one has a dark, deeply ridged trunk and a tall green crown much fuller than the narrow shape the variety is known for, which may be what a century or more of space does. It stands at the edge of the pavement, so you can walk right up to it.",
-      "how_to_recognise": "A tall, dense elm with a dark, ridged trunk on a grass verge at the edge of the pavement, taller than the houses beside it.",
+      "story": "Dutch elm disease killed most of Britain's elms, and Edinburgh has fought for years to keep the ones it has. This is one of the survivors, a tall, dense elm on a grass verge in west Edinburgh, a street tree that has outgrown the houses around it.\n\nThe reader who sent it to us says it is likely the second widest Wheatley elm in Britain, that the dendrologist Owen Johnson has verified it, and that it is one of six Wheatley elms along this avenue. They put its age at about 150 years, by a reader's estimate. We have not seen the measurement in a record we can read; the registers we read put the national champion in Blakers Park, Brighton. So the ranking is theirs, a local account.\n\nWheatley elms are a form of field elm, also called the Guernsey elm, planted in towns for their narrow, upright crowns. In the reader's photograph this one has a dark, deeply ridged trunk and a tall green crown much fuller than the narrow shape the variety is known for, which may be what a century or more of space does. It stands at the edge of the pavement, so you can walk right up to it.",
+      "how_to_recognise": "A tall, dense elm with a dark, ridged trunk on a grass verge at the edge of the pavement, taller than the houses beside it. It is one of six Wheatley elms along the avenue; the pin marks this one.",
       "verified_sources": [
         "https://www.braidburnvalleypark.org.uk/wp-content/uploads/2008/02/Wheatley-Elms.pdf",
         "https://en.wikipedia.org/wiki/Guernsey_Elm",
@@ -922,7 +926,7 @@
         "sighting_id": "45248b7c-02b4-4b01-bf83-0dd8b4c6fdd5",
         "date": "2026-11-15"
       },
-      "verify_notes": "2026-11-15: sent by a reader through the app (submission 746, 'Widest Wheatley Elm in Scotland'), pin then nudged 8 m by the same reader (745). Claim not confirmed: Wikipedia (Guernsey Elm) gives Warriston Cemetery specimen 3 m girth 2017 and the national champion in Blakers Park, Brighton. Species is the reader's. No girth.",
+      "verify_notes": "2026-11-15: sent by a reader through the app (submission 746, 'Widest Wheatley Elm in Scotland'), pin then nudged 8 m by the same reader (745). Claim not confirmed: Wikipedia (Guernsey Elm) gives Warriston Cemetery specimen 3 m girth 2017 and the national champion in Blakers Park, Brighton. Species is the reader's. No girth. 2026-11-16: the same reader replied to the congratulation mail: likely Britain's second widest Wheatley elm (replaces their earlier 'widest in Scotland'), verified by dendrologist Owen Johnson (not checked: no Tree Register record we can read), one of six on the avenue, age about 150 by their best estimate. Put on the page as their account.",
       "access": "Free, on a public street verge beside the pavement.",
       "photo": {
         "url": "https://ancienttrees.app/photos/edi_022-the-wheatley-elm-of-balgreen.jpg",

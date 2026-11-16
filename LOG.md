@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Ross's facts on the Wheatley Elm of Balgreen
+
+The reader who added the Edinburgh Wheatley elm (edi_022) answered the congratulation mail: about 150 years old, likely Britain's second widest Wheatley elm, verified by Owen Johnson, one of six on the avenue. All on the page as his account (age as a reader's estimate, recognition line says the pin marks this one of six). Reply drafted in drafts/reply-ross-edinburgh-2026-11-16.md, waits for Hidde's yes.
+
 ## 2026-11-16 session: worth-it votes counted apart from trees and photos
 
 - **Rule** (Hidde: "kun je vanaf nu nooit meer worth it stemmen en boominzendingen onder 1 kap gooien dit zijn hele andere dingen"): `daily_digest.is_vote()` decides what a vote is. The headline's "Readers' contributions" now counts trees, photos, corrections and ambassador asks only, with a new "Worth-it votes" row beside it; the day table's Feedback row leaves votes out and they get their own row. qa `check_votes_never_count_as_contributions()` (green as built, red with the old lumped label put back).
