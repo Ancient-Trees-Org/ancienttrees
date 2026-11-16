@@ -475,3 +475,7 @@ He cut my compliment on her photo ("Es gefällt mir sehr, die alte Platane hinte
 ## 2026-11-16: a new ambassador asks how the trees were gathered (Martin Winn, London)
 
 He rewrote my draft. What changed: he opens person to person ("Nice to meet you, fellow tree enthusiast. I'm looking forward to your trees") instead of thanking for the reply; the Baarn line went (a new ambassador asking how is not asking who we are); "AI helps me bring them together" went; and he added that he visited some trees himself and that most of the work comes from the internet and local enthusiasts he is in contact with. So to a volunteer asking how the list was made: greet them as a fellow fan, answer with the people and the sources, and do not put AI or where he lives in it unless they asked.
+
+## 2026-11-16: a reader who corrected our pins (Nick, Bristol)
+
+My draft stated the fix as done and closed the matter ("now stand on the map at the Bristol Tree Forum's grid references"). He rewrote it: "We've fixed the location - are they correct now? Apologies if we sent you the wrong way :)". And the invitation became a question rather than our wish: "Would you be interested in being our ambassador for Bristol" instead of "We would love to make you our ambassador". So to somebody who caught our mistake: say it is fixed, hand the check back to them (they know where the tree stands, we do not), one light sorry with a smile for what the mistake cost them (a walk to the wrong spot), and ask whether they want the role rather than announcing that we want them in it.

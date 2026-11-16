@@ -846,6 +846,19 @@
         "The Big Totara of Lillburn Monowai Road"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7b2115b8e39fa3b6538f86e3",
+      "place_slug": "bristol",
+      "place_name": "Bristol",
+      "date": "2026-11-16",
+      "trees": [
+        "The Cedar of Lebanon at Blaise Castle",
+        "The Monterey Cypress at Bishops Knoll",
+        "The Bundle-planted Sessile Oak, Bishops Knoll",
+        "The Wellingtonias by the Lower Pond, Combe Dingle"
+      ],
+      "note": "invited by Hidde's own mail (reply to his Blaise pin notes), not the automatic invitation"
     }
   ],
   "requested": [
