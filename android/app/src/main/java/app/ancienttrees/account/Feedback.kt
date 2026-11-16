@@ -140,8 +140,13 @@ class MyVotes {
         // submissions, where the server's trigger moves them across; until that
         // SQL is pasted the table answers 404 and the rows read above stand.
         standingVotes(token)?.let { byTree = it } ?: run { byTree = found }
-        reports = said
-        detailed = saidMore
+        // WorthIt.swift's standingReports: your reports live in tree_reports
+        // since step 2 (supabase/tree-reports.sql), the follow-up filled in
+        // place. Still sent to submissions, where the trigger moves them; until
+        // that SQL is pasted the table answers 404 and the rows above stand.
+        val mine = standingReports(token)
+        reports = mine?.first ?: said
+        detailed = mine?.second ?: saidMore
     }
 
     companion object {
@@ -156,6 +161,30 @@ class MyVotes {
                 (0 until a.length()).map { a.getJSONObject(it) }
                     .filter { it.optString("vote") == "up" || it.optString("vote") == "down" }
                     .associate { it.optString("tree_id") to it.optString("vote") }
+            }.getOrNull()
+        }
+
+        /** WorthIt.swift's notAChip: a moved pin, a far collect, a merge, a typed correction. */
+        val NOT_A_CHIP = setOf("pin moved", "collected far", "merged", "correction")
+
+        /** Per tree the newest report's reason and whether its follow-up was written, or null when tree_reports cannot answer. */
+        suspend fun standingReports(token: String): Pair<Map<String, String>, Set<String>>? {
+            val r = Supa.send("/rest/v1/tree_reports?select=tree_id,reason,detail&order=created_at.asc", method = "GET", token = token)
+            if (!r.ok) return null
+            return runCatching {
+                val a = JSONArray(r.body)
+                val reasons = HashMap<String, String>()
+                val detailed = HashSet<String>()
+                // Oldest first, so the newest report on a tree is the one that stands.
+                for (i in 0 until a.length()) {
+                    val row = a.getJSONObject(i)
+                    val tree = if (row.isNull("tree_id")) "" else row.optString("tree_id")
+                    val reason = row.optString("reason")
+                    if (tree.isEmpty() || reason in NOT_A_CHIP) continue
+                    reasons[tree] = reason
+                    if (!row.isNull("detail") && row.optString("detail").isNotEmpty()) detailed.add(tree) else detailed.remove(tree)
+                }
+                Pair<Map<String, String>, Set<String>>(reasons, detailed)
             }.getOrNull()
         }
     }

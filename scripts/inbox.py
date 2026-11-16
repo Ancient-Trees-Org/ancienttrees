@@ -73,15 +73,26 @@ def main():
     if not a.all:
         q += "&outcome=is.null"
     rows = get(q, key)
+    # Reports and moved pins live in tree_reports (supabase/tree-reports.sql);
+    # until that SQL is pasted the table answers 404 and only submissions is read.
+    import tree_reports
+    reps = tree_reports.rows(lambda p: get(p, key), since + "T00:00:00")
+    if reps is not None and not a.all:
+        kept = tree_reports.Reports(r for r in reps if not r.get("outcome"))
+        kept.copied = reps.copied
+        reps = kept
+    rows = tree_reports.merged(rows, reps)
     shown = 0
     for r in rows:
         if not a.ours and ours.is_ours(r.get("user_id")):
             continue
         shown += 1
         print("=" * 72)
-        print("id %s   %s   kind %s   outcome %s" % (
+        print("%sid %s   %s   kind %s   outcome %s" % (
+            "tree_reports " if r.get("_table") == "tree_reports" else "",
             r.get("id"), (r.get("created_at") or "")[:16], r.get("kind"), r.get("outcome")))
-        for f in ("city", "tree", "tree_id", "species", "latitude", "longitude", "photo_url"):
+        for f in ("city", "tree", "tree_id", "species", "latitude", "longitude", "photo_url",
+                  "location_hint"):
             if r.get(f) not in (None, ""):
                 print("  %-9s %s" % (f, r[f]))
         why = (r.get("why") or "").strip()

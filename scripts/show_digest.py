@@ -169,10 +169,17 @@ def readers_in_full(day):
     # "why is this still showing up in the daily digest double").
     by_sighting = {}
     try:
-        for r in inbox.get("/rest/v1/submissions?select=id,created_at,kind,city,tree,page,why,"
-                           "location_hint,girth_cm,photo,outcome,reply_text,user_id"
-                           "&created_at=gte.%s&order=created_at.asc" % since, key) or []:
-            if r.get("id") in TEST_SUBMISSION_IDS or is_ours(r.get("user_id")):
+        subs = inbox.get("/rest/v1/submissions?select=id,created_at,kind,city,tree,page,why,"
+                         "location_hint,girth_cm,photo,outcome,reply_text,user_id"
+                         "&created_at=gte.%s&order=created_at.asc" % since, key) or []
+        # Reports and moved pins live in tree_reports (supabase/tree-reports.sql),
+        # a follow-up in the same row as its report; before that SQL is pasted
+        # the table answers 404 and only submissions is read.
+        import tree_reports
+        for r in tree_reports.merged(subs, tree_reports.rows(lambda p: inbox.get(p, key), since_iso)):
+            if r.get("_table") != "tree_reports" and r.get("id") in TEST_SUBMISSION_IDS:
+                continue
+            if is_ours(r.get("user_id")):
                 continue
             extra = []
             if r.get("location_hint"):
@@ -195,7 +202,9 @@ def readers_in_full(day):
                     extra.append(page)
             if sid:
                 by_sighting[sid] = len(rows)
-            rows.append((r["created_at"], "%s (#%s, %s)" % (r.get("kind") or "?", r["id"], r.get("page") or "web"),
+            kind = ("report, %s" % r.get("reason") if r.get("_table") == "tree_reports"
+                    else r.get("kind") or "?")
+            rows.append((r["created_at"], "%s (#%s, %s)" % (kind, r["id"], r.get("page") or "web"),
                          label, r.get("why") or "", extra, status))
     except Exception as e:
         rows.append(("", "submissions", "-", "database unreadable (%s)" % str(e)[:60], [], ""))

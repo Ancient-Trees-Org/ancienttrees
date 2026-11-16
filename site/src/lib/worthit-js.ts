@@ -139,20 +139,42 @@ export const WORTHIT_JS = `
       }) : { known: false }; })
       .catch(function() { return { known: false }; });
   }
+  // YOUR REPORTS LIVE IN tree_reports since step 2 (supabase/tree-reports.sql):
+  // one row per report, its follow-up words filled in place. Reports are still
+  // POSTED to submissions, where the server's trigger moves them across. Until
+  // that SQL is pasted the table answers 404 and the reports are read out of
+  // submissions the old way, below. A moved pin is a row there too, but not
+  // an answer to "Something's wrong", so it is left out here.
+  var NOT_A_CHIP = { 'pin moved': 1, 'collected far': 1, 'merged': 1, 'correction': 1 };
+  function loadReports(tree, s) {
+    return fetch('${SUPABASE_URL}/rest/v1/tree_reports?select=reason,detail&order=created_at.desc'
+                 + '&tree_id=eq.' + encodeURIComponent(tree),
+      { headers: { 'apikey': '${SUPABASE_KEY}', 'Authorization': 'Bearer ' + s.access_token } })
+      .then(function(r) { return r.ok ? r.json().then(function(rows) {
+        var chips = (rows || []).filter(function(x) { return !NOT_A_CHIP[x.reason]; });
+        return { known: true, newest: chips[0] || null };
+      }) : { known: false }; })
+      .catch(function() { return { known: false }; });
+  }
   function load(box) {
     var s = session();
     if (!s) return Promise.resolve();
     var tree = box.dataset.tree;
-    var mineVote = loadVote(tree, s);
+    var mineVote = loadVote(tree, s), mineReports = loadReports(tree, s);
     return fetch('${SUPABASE_URL}/rest/v1/submissions?select=why&order=created_at.desc'
                  + '&tree=like.' + encodeURIComponent(tree + '%'),
       { headers: { 'apikey': '${SUPABASE_KEY}', 'Authorization': 'Bearer ' + s.access_token } })
       .then(function(r) { return r.ok ? r.json() : []; })
-      .then(function(rows) { return mineVote.then(function(v) { return [rows, v]; }); })
-      .then(function(both) {
-        var rows = both[0], v = both[1];
+      .then(function(rows) { return Promise.all([rows, mineVote, mineReports]); })
+      .then(function(all) {
+        var rows = all[0], v = all[1], rep = all[2];
         var st = state(tree), seenReport = false;
         if (v.known) st.vote = v.vote || false;
+        if (rep.known && rep.newest) {
+          st.reported = true;
+          st.detailed = !!rep.newest.detail;
+          st.reason = rep.newest.reason;
+        }
         (rows || []).forEach(function(row) {
           var why = String(row.why || '');
           // Newest first, so the FIRST vote-shaped row is the standing one.
@@ -167,7 +189,9 @@ export const WORTHIT_JS = `
           }
           // Newest first, so only the detail written AFTER the latest report
           // closes that report's question; an older one belonged to an
-          // earlier report (several per tree since 2026-10-21).
+          // earlier report (several per tree since 2026-10-21). Only read
+          // when tree_reports could not answer (the SQL not pasted yet).
+          if (rep.known) return;
           if (why.indexOf('report detail') === 0) {
             if (!seenReport) st.detailed = true;
           } else if (why.indexOf('report') === 0) { st.reported = true; seenReport = true; }

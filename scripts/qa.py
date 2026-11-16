@@ -672,6 +672,44 @@ def check_votes_never_count_as_contributions():
     return out
 
 
+def check_reports_are_read_from_their_own_table():
+    """Reports on a tree and moved pins are read from tree_reports.
+
+    Hidde, 2026-11-16: the one catch-all submissions table was "een troep";
+    votes moved to tree_votes (step 1), reports, their follow-ups and moved
+    pins to tree_reports (step 2, supabase/tree-reports.sql). A trigger moves
+    every report still posted to submissions across, so a reader of these rows
+    that only reads submissions sees them vanish the day the SQL is pasted:
+    the follow-up question would come back on every tree, the reply mailer
+    would never answer a report, and the knock would sleep through one.
+    Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    out = []
+    readers = {
+        "site/src/lib/worthit-js.ts": "your reports under the thumbs",
+        "ios/AncientTrees/AncientTrees/Kit/WorthIt.swift": "your reports in the iPhone app",
+        "android/app/src/main/java/app/ancienttrees/account/Feedback.kt": "your reports in the Android app",
+        "scripts/contributor_reply.py": "the reply to a report",
+        "scripts/daily_digest.py": "the digest's feedback counts",
+        "scripts/show_digest.py": "readers' words in full",
+        "scripts/inbox.py": "the session's inbox",
+        "scripts/reader_words.py": "a report's words for the page",
+        "scripts/claude_gate.py": "the knock's count of what arrived",
+    }
+    for rel, what in readers.items():
+        f = root / rel
+        if not f.exists():
+            continue
+        if "tree_reports" not in f.read_text(encoding="utf-8"):
+            out.append(f"{rel}: never reads tree_reports, so {what} misses every report sent "
+                       "since supabase/tree-reports.sql (Hidde, 2026-11-16).")
+    sql = root / "supabase/tree-reports.sql"
+    if not sql.exists() or "before insert on public.submissions" not in sql.read_text(encoding="utf-8"):
+        out.append("supabase/tree-reports.sql: the trigger that moves reports out of submissions "
+                   "is gone; every build out there still posts reports to submissions.")
+    return out
+
+
 def check_the_headline_never_judges_take_me_there():
     """The headline never grades a first day by Take me there, and "back" is 30 days.
 
@@ -4250,6 +4288,7 @@ def main():
         check_the_digest_never_shows_bots,
         check_the_headline_never_judges_take_me_there,
         check_votes_never_count_as_contributions,
+        check_reports_are_read_from_their_own_table,
         check_a_readers_tree_links_its_sighting,
         check_the_digest_page_shows_readers_words,
         check_a_deleted_account_keeps_its_photographs,
@@ -4461,6 +4500,7 @@ def main():
     failures += check_the_digest_never_shows_bots()
     failures += check_the_headline_never_judges_take_me_there()
     failures += check_votes_never_count_as_contributions()
+    failures += check_reports_are_read_from_their_own_table()
     failures += check_a_readers_tree_links_its_sighting()
     failures += check_the_digest_page_shows_readers_words()
     failures += check_a_deleted_account_keeps_its_photographs()

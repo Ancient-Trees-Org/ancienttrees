@@ -41,6 +41,7 @@ import re
 import smtplib
 
 import mailer
+import tree_reports
 import subprocess
 import sys
 import tempfile
@@ -383,7 +384,12 @@ def main():
         # select 400s; that is the expected state, not an error worth a red run.
         print("contributor_reply: submissions not readable yet (%s)" % str(e)[:80])
         return 0
-    rows = rows or []
+    # Reports and moved pins live in tree_reports since step 2 of the split
+    # (supabase/tree-reports.sql); read in the same row shape, each carrying
+    # `_table`, so every stamp below goes back to the table it came from.
+    # Before that SQL is pasted the table answers 404 and only submissions is
+    # read, as before.
+    rows = tree_reports.merged(rows or [], tree_reports.rows(lambda p: supa(p, key)))
 
     # The account IS the reply channel (2026-08-21 ruling): resolve user_id
     # to the account's email at send time, storing no second copy. The email
@@ -499,7 +505,7 @@ def main():
                       "hear about it.", ""]
             lines += ["Ancient Trees", "https://ancienttrees.app"]
             r["reply_text"] = "\n".join(lines) + "\n"
-            supa("/rest/v1/submissions?id=eq.%s" % r["id"], key, "PATCH",
+            supa(tree_reports.path(r), key, "PATCH",
                  {"reply_text": r["reply_text"]})
             print("AUTO composed a change confirmation for row %s" % r["id"])
         if r.get("reply_text") and not r.get("replied_at"):
@@ -563,12 +569,16 @@ def main():
         # double-submit's siblings are covered by the one mail. The address
         # may come from either column, so match rows by resolving each.
         if stamp == "thanked_at":
-            sibling_ids = [str(r2["id"]) for r2 in rows
-                           if address(r2).lower() == low and not r2.get("thanked_at")]
-            supa("/rest/v1/submissions?id=in.(%s)" % ",".join(sibling_ids),
-                 key, "PATCH", {"thanked_at": now})
+            # Per table: a submissions id and a tree_reports id may be equal.
+            by_table = {}
+            for r2 in rows:
+                if address(r2).lower() == low and not r2.get("thanked_at"):
+                    by_table.setdefault(r2.get("_table") or "submissions", []).append(str(r2["id"]))
+            for table, sibling_ids in by_table.items():
+                supa("/rest/v1/%s?id=in.(%s)" % (table, ",".join(sibling_ids)),
+                     key, "PATCH", {"thanked_at": now})
         else:
-            supa("/rest/v1/submissions?id=eq.%s" % r["id"], key, "PATCH",
+            supa(tree_reports.path(r), key, "PATCH",
                  {"replied_at": now})
         sent_log["sent"].append({"date": today, "to": addr,
                                  "outlet": "contributor",

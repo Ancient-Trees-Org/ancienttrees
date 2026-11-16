@@ -63,7 +63,20 @@ def fresh_submissions():
             rows = json.load(r)
     except Exception:
         return None
-    return sum(1 for r in rows if not (r.get("why") or "").startswith("vote undone"))
+    n = sum(1 for r in rows if not (r.get("why") or "").startswith("vote undone"))
+    # Reports and moved pins arrive in tree_reports since step 2 of the split
+    # (supabase/tree-reports.sql), never in submissions: count them too, by
+    # when they were sent or when their follow-up words came. A 404 (the SQL
+    # not pasted yet) counts nothing extra.
+    try:
+        req = urllib.request.Request(SUPA + "/rest/v1/tree_reports?select=id"
+                                     "&or=(created_at.gte.%s,detail_at.gte.%s)" % (since, since),
+                                     headers={"apikey": key, "Authorization": "Bearer " + key})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            n += len(json.load(r))
+    except Exception:
+        pass
+    return n
 
 
 def unread_notes():

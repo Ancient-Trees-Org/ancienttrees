@@ -99,7 +99,21 @@ def notes(key):
     # submissions.tree is "lis_015 (Name)" from the app, the tree's name from a
     # web page (whose path names it), or the sighting's id for a tree a reader
     # added in the app (found_by_reader.sighting_id on the published tree).
+    # Reports live in tree_reports (supabase/tree-reports.sql), their typed
+    # follow-up in `detail`; a submissions row copied there is read once, from
+    # there. Before that SQL is pasted the table answers 404: submissions only.
+    import tree_reports
+    reps = tree_reports.rows(lambda p: inbox.get(p, key))
+    for r in reps or []:
+        if ours.is_ours(r.get("user_id")) or r.get("kind") == "correction" or not r.get("detail"):
+            continue
+        tid = r.get("tree_id") or tree_of(r.get("tree") or "", r.get("page") or "")
+        if tid:
+            rows.append((tid, "report", r["id"], (r.get("created_at") or "")[:10], r["detail"]))
+    copied = tree_reports.copied(reps)
     for r in inbox.get("/rest/v1/submissions?select=id,user_id,kind,tree,page,why,created_at&why=neq.", key):
+        if r.get("id") in copied:
+            continue
         # A correction is an instruction to us ("the pin is wrong"), handled
         # on its own rung; it is not words for the page.
         if ours.is_ours(r.get("user_id")) or r.get("kind") == "correction" or "TEST ROW" in (r.get("why") or ""):

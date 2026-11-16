@@ -147,9 +147,45 @@ final class MyVotes {
         // there keep working. Until that SQL is pasted the table answers 404
         // and the votes read out of submissions above stand.
         if let standing = await Self.standingVotes(token: token) { found = standing }
+        // YOUR REPORTS LIVE IN tree_reports since step 2 (supabase/tree-reports.sql):
+        // one row per report, the follow-up words filled in place. Reports are
+        // still SENT to submissions, where the server's trigger moves them
+        // across; until that SQL is pasted the table answers 404 and the
+        // reports read out of submissions above stand.
+        if let mine = await Self.standingReports(token: token) {
+            said = mine.reasons
+            saidMore = mine.detailed
+        }
         byTree = found
         reports = said
         detailed = saidMore
+    }
+
+    /// Reasons that are not an answer to "Something's wrong": a moved pin, a
+    /// far collect, a merge, a typed correction. They live in tree_reports too.
+    static let notAChip: Set<String> = ["pin moved", "collected far", "merged", "correction"]
+
+    /// This account's reports from tree_reports, per tree the newest one's
+    /// reason and whether its follow-up was written; nil when the table
+    /// cannot answer (not created yet, or no network).
+    static func standingReports(token: String) async
+        -> (reasons: [String: String], detailed: Set<String>)? {
+        let r = Supa.request("/rest/v1/tree_reports?select=tree_id,reason,detail&order=created_at.asc",
+                             method: "GET", token: token)
+        guard let (data, response) = try? await Net.data(for: r),
+              (response as? HTTPURLResponse)?.statusCode == 200,
+              let rows = try? JSONSerialization.jsonObject(with: data) as? [[String: Any]]
+        else { return nil }
+        var reasons: [String: String] = [:], detailed: Set<String> = []
+        // Oldest first, so the newest report on a tree is the one that stands.
+        for row in rows {
+            guard let tree = row["tree_id"] as? String, !tree.isEmpty,
+                  let reason = row["reason"] as? String, !notAChip.contains(reason) else { continue }
+            reasons[tree] = reason
+            if let d = row["detail"] as? String, !d.isEmpty { detailed.insert(tree) }
+            else { detailed.remove(tree) }
+        }
+        return (reasons, detailed)
     }
 
     /// This account's standing votes from tree_votes, or nil when the table

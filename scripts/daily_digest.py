@@ -1420,6 +1420,24 @@ def _supa(path, key, timeout=30):
         return json.load(r), dict(r.headers)
 
 
+def _with_reports(rows, key, since=None, keep=None):
+    """Submissions rows plus the reports and moved pins that live in
+    tree_reports since step 2 of the split (supabase/tree-reports.sql), in
+    the submissions row shape (scripts/tree_reports.py), each report once.
+    `since` is YYYY-MM-DD or an ISO time; `keep` filters the report rows the
+    way the submissions query filtered its own. Before that SQL is pasted the
+    table answers 404 and the rows come back as they were."""
+    import tree_reports
+    if since and len(since) == 10:
+        since += "T00:00:00"
+    reps = tree_reports.rows(lambda p: _supa(p, key)[0], since)
+    if reps is not None and keep:
+        kept = tree_reports.Reports(r for r in reps if keep(r))
+        kept.copied = reps.copied
+        reps = kept
+    return tree_reports.merged(rows or [], reps)
+
+
 def _days_since(iso, today):
     """Whole days between an ISO timestamp and today, or None."""
     if not iso:
@@ -1659,6 +1677,7 @@ def product_section(today):
         # people, and the vote control carries no text to tell them apart.
         rows_, _ = _supa("/rest/v1/submissions?select=id,created_at,kind,city,"
                          "tree,why,user_id", key)
+        rows_ = _with_reports(rows_, key)
         subs_ = list(rows_ or [])   # kept: rows_ is reused for events below
         seen_sub = set()
         ours_n = {"trees": 0, "feedback": 0, "accounts": 0}
@@ -2205,6 +2224,7 @@ def day_by_day_section(today):
         try:
             subs, _ = _supa("/rest/v1/submissions?select=id,created_at,kind,why,user_id"
                             "&created_at=gte.%s" % since, key)
+            subs = _with_reports(subs, key, since)
             subs = [r for r in subs or [] if r.get("id") not in TEST_SUBMISSION_IDS
                     and not is_ours(r.get("user_id"))
                     and not (r.get("why") or "").startswith("vote undone")]
@@ -2462,6 +2482,8 @@ def readers_gave_section(today):
             rows, _ = _supa("/rest/v1/submissions?select=id,created_at,kind,city,tree,"
                             "user_id,outcome&outcome=eq.changed&created_at=gte.%sT00:00:00"
                             % since.isoformat(), key)
+            rows = _with_reports(rows, key, since.isoformat(),
+                                 keep=lambda r: r.get("outcome") == "changed")
             for r in rows or []:
                 if r.get("id") in TEST_SUBMISSION_IDS or is_ours(r.get("user_id")):
                     continue
@@ -2627,6 +2649,7 @@ def feedback_section(today):
     try:
         rows, _ = _supa("/rest/v1/submissions?select=id,created_at,kind,city,tree,why,"
                         "user_id,outcome&created_at=gte.%sT00:00:00&order=created_at.asc" % since, key)
+        rows = _with_reports(rows, key, since)
     except Exception as e:
         return "**What readers told us**: unreadable today (%s)" % str(e)[:60]
     rows = [r for r in (rows or []) if r.get("id") not in TEST_SUBMISSION_IDS]
@@ -3911,6 +3934,7 @@ def _hl_supabase(today):
     # (Hidde, 2026-11-16: "hele andere dingen"; is_vote).
     rows, _ = _supa("/rest/v1/submissions?select=id,created_at,why,user_id"
                     "&created_at=gte.%sT00:00:00" % since, key)
+    rows = _with_reports(rows, key, since)
     wk, votes = [0, 0], [0, 0]
     for r in rows or []:
         if r.get("id") in TEST_SUBMISSION_IDS or is_ours(r.get("user_id")):
