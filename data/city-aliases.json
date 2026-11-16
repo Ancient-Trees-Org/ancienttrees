@@ -1255,6 +1255,17 @@
       "Dartmoor Forest",
       "Park Kenedhlek Dartmoor"
     ],
+    "darwin": [
+      "Darwin i Australia",
+      "Darvinas",
+      "Dārvina",
+      "Darvin",
+      "Darvino",
+      "Dawin",
+      "Garramilla",
+      "Tāuini",
+      "Tāwini"
+    ],
     "deblin": [
       "Demblina"
     ],
@@ -2474,6 +2485,11 @@
       "Zamek Książ",
       "Castelul Książ"
     ],
+    "kvam": [
+      "Kvams kommun",
+      "Kvam herad",
+      "Kommun Kvam"
+    ],
     "kyoto": [
       "Kioto",
       "Quioto",
@@ -2782,6 +2798,12 @@
       "Luko"
     ],
     "lulin": [],
+    "lumbini": [
+      "Lumbinis",
+      "Lâm-tỳ-ni",
+      "Lumbini sal park",
+      "Lumbinio"
+    ],
     "luxembourg-city": [
       "Luxemburg",
       "Luxembourg",
@@ -5435,6 +5457,7 @@
     "dallas": "Dallas",
     "dartmoor": "Dartmoor",
     "daruvar": "Daruvar",
+    "darwin": "Darwin, Northern Territory",
     "deblin": "Dęblin",
     "defynnog": "Defynnog",
     "delft": "Delft",
@@ -5660,11 +5683,13 @@
     "kremnica": "Kremnica",
     "krka-national-park": "Krka National Park",
     "ksiaz": "Książ Castle",
+    "kvam": "Kvam Municipality",
     "kyoto": "Kyoto",
     "kyustendil": "Kyustendil",
     "la-adrada": "La Adrada",
     "la-crosse": "La Crosse, Wisconsin",
     "la-crosse-florida": "LaCrosse, Florida",
+    "la-lande-patry": "La Lande-Patry",
     "la-morra": "La Morra",
     "la-palma": "La Palma",
     "la-tene": "La Tène (archaeological site)",
@@ -5717,6 +5742,7 @@
     "lue": "Luë",
     "luis-correia": "Luís Correia",
     "lulin": "Lulin",
+    "lumbini": "Lumbini",
     "lun": "Lun, Croatia",
     "luxembourg-city": "Luxembourg City",
     "lyon": "Lyon",
@@ -5749,6 +5775,7 @@
     "matsumae": "Matsumae, Hokkaido",
     "maui": "Maui",
     "maxaranguape": "Maxaranguape",
+    "mbissel": "Mbissel",
     "mcely": "Mcely",
     "meikleour": "Meikleour",
     "melbourne": "Melbourne",
@@ -6076,6 +6103,7 @@
     "trieste": "Trieste",
     "trollskogen": "Trollskogen",
     "tsuruoka": "Tsuruoka",
+    "tuatapere": "Tuatapere",
     "tucson": "Tucson, Arizona",
     "tullamore": "Tullamore",
     "tulsa": "Tulsa, Oklahoma",
@@ -6152,6 +6180,7 @@
     "yosemite-national-park": "Yosemite National Park",
     "yoshida": "Yoshida",
     "ypres": "Ypres",
+    "yungaburra": "Yungaburra",
     "yvignac-la-tour": "Yvignac-la-Tour",
     "zaanstad": "Zaanstad",
     "zadar": "Zadar",
@@ -6249,6 +6278,7 @@
     "kozaki": "Kōzaki",
     "kozy": "Kozy",
     "krabi": "Krabi",
+    "la-lande-patry": "La Lande-Patry",
     "lanercost": "Lanercost",
     "lebec": "Lebec, California",
     "leesburg": "Leesburg, Virginia",
@@ -6270,6 +6300,7 @@
     "maria-aurora": "Maria Aurora, Aurora",
     "market-bosworth": "Market Bosworth",
     "maxaranguape": "Maxaranguape",
+    "mbissel": "Mbissel",
     "mcely": "Mcely",
     "meikleour": "Meikleour",
     "mendaza": "Mendaza",
@@ -6338,6 +6369,7 @@
     "tillamook": "Tillamook, Oregon",
     "tolpuddle": "Tolpuddle",
     "trollskogen": "Trollskogen",
+    "tuatapere": "Tuatapere",
     "ueki": "Ueki, Kumamoto",
     "ulverston": "Ulverston",
     "untermerzbach": "Untermerzbach",
@@ -6355,6 +6387,7 @@
     "woodside": "Woodside, California",
     "woolland": "Woolland",
     "wye-mills-maryland": "Wye Mills, Maryland",
+    "yungaburra": "Yungaburra",
     "zapotitlan-salinas": "Zapotitlán Salinas"
   },
   "unresolved_names": {
@@ -6381,6 +6414,7 @@
     "debina": "no article within 40 km, tried Dębina (Dębina, no coordinates, disambiguation page); Dębina, Poland; search: Poznań Dębina railway station; search: Hel, Poland; search: Sopot",
     "degsne": "no reliable article: Wikipedia matched the forest-stand name to the nearby city of Alytus (within 40km, wrong place), caught and reverted 2026-09-05 rather than shipped as a false alias",
     "discoed": "no article within 40 km, tried Discoed; Discoed, United Kingdom; search: History of disco; search: New York City; search: Together, Together",
+    "earlysville": "no article within 40 km, tried Earlysville; Earlysville, United States; search: Michie Tavern (Michie Tavern, title does not match); search: List of United States tornadoes from August to September 2020; search: Albemarle County, Virginia (Albemarle County, Virginia, title does not match)",
     "eisolzried": "no article within 40 km, tried Eisolzried; Eisolzried, Germany",
     "erdmannrode": "no article within 40 km, tried Erdmannrode; Erdmannrode, Germany",
     "ermita-de-belen": "no article within 40 km, tried Ermita de Belen; Ermita de Belen, Spain; search: Belén Rueda; search: Cáceres, Spain; search: Popayán",
@@ -6444,6 +6478,7 @@
     "reinborn": "no article within 40 km, tried Reinborn; Reinborn, Germany; search: List of mountains and hills of the Taunus",
     "reno-valdieu": "no article within 40 km, tried Réno-Valdieu; Réno-Valdieu, France; Rénovaldieu",
     "rukai": "no article within 40 km, tried Rukai, Skuodas district; Rukai, Skuodas district, Lithuania",
+    "sagole": "no article within 40 km, tried Sagole (Sągole, 8379 km away); Sagole, South Africa; search: Adansonia digitata; search: List of individual trees",
     "stokaiciai": "wrong match removed 2026-09-08: city_names.py matched the containing district (Tauragė District Municipality) rather than the village itself, which has no standalone Wikipedia article; kept unresolved rather than alias a one-tree page to a whole district's search terms.",
     "studena": "no article within 40 km, tried Studena (Studena, no coordinates, disambiguation page); Studena, Bulgaria; search: I-3 road (Bulgaria); search: Bulgarian rule of Macedonia, Morava Valley and Western Thrace (1941–1944); search: Yantra (river)",
     "tacoma": "no article within 40 km, tried Tacoma (Tacoma, no coordinates, disambiguation page); Tacoma, United States; search: List of United States cities by population; search: Tacoma; search: List of United States cities by crime rate",
