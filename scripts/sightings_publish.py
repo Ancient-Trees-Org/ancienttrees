@@ -779,7 +779,7 @@ def send_mail(addr, subject, body, really, sighting_id):
     msg["From"], msg["To"], msg["Subject"] = creds["FROM"], addr, subject
     msg.set_content(body)
     try:
-        with mailer.connect(creds, timeout=60) as server:
+        with mailer.connect(creds, timeout=60, kind=mailer.EXPECTED) as server:
             # A confirmation that what the reader just sent is live answers
             # their own action, so the week's rest does not hold it (Hidde,
             # 2026-11-14: "een bevestiging van het platform dat het live is

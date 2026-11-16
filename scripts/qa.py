@@ -1138,6 +1138,41 @@ def check_no_daily_cap_on_reader_mail():
     return out
 
 
+def check_one_mail_route_rule():
+    """Signed where it matters, Gmail for the rest (Hidde, 2026-11-16): Yahoo's
+    servers and first mails to strangers go through Resend, mail a person asked
+    for through Gmail, each route standing in for the other. The rule lives in
+    scripts/mailer.py and, for Supabase's sign-in and welcome mail, in
+    supabase/functions/send-email/index.ts. The Yahoo list is written in both
+    and must be the same list; and every script that mails a reader says it is
+    EXPECTED mail, so a press day never spends Resend's allowance on them.
+    Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    out = []
+    py = (root / "scripts" / "mailer.py").read_text(encoding="utf-8")
+    ts_path = root / "supabase" / "functions" / "send-email" / "index.ts"
+    m_py = re.search(r"YAHOO_FAMILY = \(([^)]*)\)", py)
+    if not m_py:
+        return ["mailer.py has no YAHOO_FAMILY list"]
+    if not ts_path.exists():
+        return ["supabase/functions/send-email/index.ts is missing (Supabase's mail hook)"]
+    m_ts = re.search(r"YAHOO_FAMILY = \[([^\]]*)\]", ts_path.read_text(encoding="utf-8"))
+    if not m_ts:
+        return ["the send-email hook has no YAHOO_FAMILY list"]
+    a = set(re.findall(r'"([a-z]+)"', m_py.group(1)))
+    b = set(re.findall(r'"([a-z]+)"', m_ts.group(1)))
+    if a != b:
+        out.append("the Yahoo list differs: mailer.py has %s, the hook has %s"
+                   % (sorted(a - b) or "-", sorted(b - a) or "-"))
+    for name in ("contributor_reply.py", "sightings_publish.py", "ambassador.py"):
+        src = (root / "scripts" / name).read_text(encoding="utf-8")
+        for call in re.findall(r"mailer\.connect\([^)]*\)", src):
+            if "mailer.EXPECTED" not in call:
+                out.append("%s calls %s without kind=mailer.EXPECTED (reader mail goes "
+                           "through Gmail, Resend only for Yahoo)" % (name, call))
+    return out
+
+
 def check_a_given_photo_records_the_yes():
     """A photograph somebody gave us by mail goes up only with their yes on file.
 
@@ -4076,6 +4111,7 @@ def main():
 
     SOURCE_ONLY = [
         check_no_daily_cap_on_reader_mail,
+        check_one_mail_route_rule,
         check_a_readers_words_go_public_only_after_the_field_said_so,
         check_a_pull_keeps_unpushed_send_lines,
         check_run_prompt_forbids_compound_commands,

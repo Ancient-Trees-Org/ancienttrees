@@ -24,7 +24,13 @@ import nodemailer from "npm:nodemailer@6.9.16";
 
 const FROM = "Ancient Trees <info@ancienttrees.app>";
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
-const YAHOO = /@(yahoo|ymail|rocketmail|aol|aim|verizon|att|sbcglobal|bellsouth|frontier)\.[a-z.]+$/i;
+// The same list as YAHOO_FAMILY in scripts/mailer.py (qa's
+// check_one_mail_route_rule() keeps them equal). Every mail this hook sends is
+// one the person asked for, so only these addresses go through Resend.
+const YAHOO_FAMILY = ["yahoo", "ymail", "rocketmail", "aol", "aim", "verizon", "att",
+  "sbcglobal", "bellsouth", "frontier"];
+const onYahoo = (addr: string) =>
+  YAHOO_FAMILY.includes(addr.trim().toLowerCase().split("@").pop()!.split(".")[0]);
 
 const gmail = nodemailer.createTransport({
   host: "smtp.gmail.com",
@@ -100,7 +106,7 @@ Deno.serve(async (req) => {
     `&type=${encodeURIComponent(kind)}&redirect_to=${encodeURIComponent(email_data.redirect_to || "")}`;
   const { subject, html } = render(kind, url);
   const to = user.email;
-  const [first, second] = YAHOO.test(to) ? [viaResend, viaGmail] : [viaGmail, viaResend];
+  const [first, second] = onYahoo(to) ? [viaResend, viaGmail] : [viaGmail, viaResend];
 
   try {
     await first(to, subject, html);

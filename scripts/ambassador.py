@@ -535,7 +535,7 @@ def invite_scan(send):
         msg["From"], msg["To"], msg["Subject"] = creds["FROM"], addr, subject
         msg.set_content(body)
         try:
-            with mailer.connect(creds, timeout=60) as server:
+            with mailer.connect(creds, timeout=60, kind=mailer.EXPECTED) as server:
                 server.send_message(msg)
         except Exception as e:
             print(f"invite {uid[:8]} / {slug}: transport failed ({e.__class__.__name__})")
@@ -685,7 +685,7 @@ def requests_scan(send):
             # day"). An answer to a request they just made is the exception
             # the one-week rest names (mailer.py), so a mail of ours in the
             # days before never holds it back.
-            with mailer.connect(creds, timeout=60) as server:
+            with mailer.connect(creds, timeout=60, kind=mailer.EXPECTED) as server:
                 server.send_message(msg, recent_ok="answer to their own ambassador request")
         except Exception as e:
             print(f"request {rid} / {slug}: transport failed ({e.__class__.__name__})")
@@ -858,7 +858,7 @@ def heads_up(send):
         msg["From"], msg["To"], msg["Subject"] = creds["FROM"], addr, subject
         msg.set_content(body)
         try:
-            with mailer.connect(creds, timeout=60) as server:
+            with mailer.connect(creds, timeout=60, kind=mailer.EXPECTED) as server:
                 server.send_message(msg)
         except Exception as ex:
             print(f"heads-up {slug} / {who}: transport failed ({ex.__class__.__name__})")

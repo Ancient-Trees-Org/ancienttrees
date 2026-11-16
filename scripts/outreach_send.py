@@ -294,7 +294,7 @@ def main():
         # link if her mail program guesses it is one.
         msg.add_alternative(html_twin(m["body"]), subtype="html")
         if server is None:
-            server = mailer.connect(creds, timeout=30)
+            server = mailer.connect(creds, timeout=30, kind=mailer.FIRST)
         server.send_message(msg, recent_ok=recent_ok or None)
         if not m.get("in_reply_to"):
             sent_today += 1

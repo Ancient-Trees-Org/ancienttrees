@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: one mail route rule (Yahoo and first mails signed, the rest through Gmail)
+
+- Every mail now picks its route by recipient and kind (scripts/mailer.py, `wants_resend()`): Resend for addresses on Yahoo's servers and for first mails to strangers (outreach_send.py, `mailer.FIRST`); Gmail for mail people asked for or expect (contributor_reply, sightings_publish, ambassador: `mailer.EXPECTED`); either route takes over when the other refuses or cannot be reached. Builds on the Gmail fallback below. Tested against fake servers (scripts/test_mailer.py, nine cases); no real mail sent by this change.
+- The Supabase hook (supabase/functions/send-email/index.ts) follows the same rule and the same Yahoo list; qa `check_one_mail_route_rule()` keeps the lists equal and reader scripts on EXPECTED. Rule in CLAUDE.md (Reader input), why in DECISIONS.md.
+- For Hidde: the hook is still NOT live. Until he deploys it in the Supabase dashboard, a Yahoo or AOL email sign-up still gets no welcome mail.
+
 ## 2026-11-16 session: mail goes through Gmail when Resend is full
 
 Resend warned at 80% of its free 100 a day. Reason: the Guardian wave. On 11-15, about 84 script mails went through Resend (59 photo-live, 15 replies, 6 Yahoo sign-ins, 4 ambassador). The 129 welcome mails went through Gmail, so they don't count. Past 100, Resend refused and the scripts retried a day later. Now (Hidde: "Yes, add fallback") scripts/mailer.py sends a mail Resend refuses, and the rest of that connection, through Gmail, as the Supabase sign-in hook already does. A dropped connection does not fall back (the mail may have left). Gmail mail is unsigned for our domain, so a Yahoo address still bounces on a full day. Tested against fake servers (refusal, unreachable, no Gmail route raises). Watch the month: the free plan stops at 3,000.

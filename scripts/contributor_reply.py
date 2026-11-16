@@ -546,7 +546,7 @@ def main():
         # be rewritten after the fact, since it reads yesterday.
         try:
             if server is None:
-                server = mailer.connect(creds, timeout=30)
+                server = mailer.connect(creds, timeout=30, kind=mailer.EXPECTED)
             # An answer to what this person just sent us, so not held by the
             # week's rest in mailer.py: that rest is against us writing first.
             server.send_message(msg, recent_ok="answer to their own submission")
@@ -588,7 +588,8 @@ def main():
         # we could answer a reader if one wrote to us right now.
         if really and all(creds.values()):
             try:
-                probe = mailer.connect(creds, timeout=30)
+                probe = mailer.connect(creds, timeout=30, kind=mailer.EXPECTED)
+                probe.check()
                 probe.quit()
                 _note_transport(None, sent=False)
                 print("contributor_reply: transport ok")
