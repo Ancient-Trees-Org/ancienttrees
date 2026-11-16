@@ -464,6 +464,10 @@ She wrote that she keeps following the project and asked his surname for the fan
 
 He had told me in chat that we would put her habitat-tree pages online "and then we can see whether it gets a reaction". I put that into the mail; he struck it: "dit hoef je niet tegen haar te zeggen". Why we try something, and that it is an experiment, stays with us. To someone offering her text and photos, the mail says only what we will do with them.
 
+## 2026-11-16: a contributor who asked for no commitment, and asked about Android (Genziana Ricci, Bologna)
+
+My draft answered her questions and closed "Whenever you feel like adding another one, it's more than welcome." He rewrote it warmer: "Thanks so much!" right after the link to her live tree; "I'm working very hard on the Android version these days!"; "I'd love to add you to the test group when it's finished?"; and out with "Looking forward to staying in touch and improving the trees :)". Lessons: thank them for the tree itself, beside its link; someone who asks about Android is offered a place in the Android test group (the same offer he made Angela the same morning), which is the activation for an Android user instead of a tree ask; close on keeping in touch and working on the trees together, not on what they may send.
+
 ## 2026-11-09: someone offers a smartphone photo (Hannah Mayr, Vienna)
 
 He cut my compliment on her photo ("Es gefällt mir sehr, die alte Platane hinter den Absperrungen": it told a photographer what her own picture shows) and added: "That's actually what we built the app for, currently only iOS but I'm working on the Android version as we speak. But email is also fine." So when somebody offers to take a photo with their phone, say the app is made for that, name the platforms honestly, and leave mail open. No store link needed.
