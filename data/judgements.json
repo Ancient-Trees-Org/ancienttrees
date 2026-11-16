@@ -733,8 +733,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a fine old totara trunk and crown, but the tip carries no coordinate or place name, so it cannot be placed.",
+   "verdict": "publish",
+   "reason": "The submission names Akaroa: DOC's Montgomery Park tōtara (8.5 m, may be 2,000 years) matches the reader's figures; pin from NZ Tree Register CR/1424, observed alive Dec 2025. Live as akr_001.",
    "hidde": null,
    "agreed": null
   },
@@ -757,8 +757,8 @@
     "score": null,
     "note": "nothing measurable about Olive (Olea sp.)"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a huge many-stemmed olive in a fenced lawn, but no coordinate or place name, so it cannot be placed yet.",
+   "verdict": "publish",
+   "reason": "The submission names Kaštel Štafilić: Mastrinka, Bioportal natural monument ps.4639 (pin), 1,500+ years and 6 m by the town; seen over the railing at the town's visitor point. Live as cdl_003.",
    "hidde": null,
    "agreed": null
   },
@@ -9747,6 +9747,51 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-908",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "akaroa/akr_001 The Giant Tōtara of Montgomery Park",
+   "city": null,
+   "species": null,
+   "photo": "p_2488e74029ba86d35cd03b06/59182a97-b834-4131-9a47-cf11595813b5.jpg",
+   "reader_note": "2,000 years old, with a massive measuring around 8.5 meters",
+   "reader_girth_cm": 850,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of akr_001: the trunk from its root flare into the crown, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-928",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "kastela/cdl_003 Mastrinka, the Olive of Kaštel Štafilić",
+   "city": null,
+   "species": "Olive (Olea sp.)",
+   "photo": "p_4cefec9f5644f57abdf55de5/8aaacc3b-25f0-4dda-91e0-4bada94ffb62.jpg",
+   "reader_note": "Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive (Olea sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of cdl_003: the whole twisted trunk and the crown above it, daylight, colour.",
    "hidde": null,
    "agreed": null
   }

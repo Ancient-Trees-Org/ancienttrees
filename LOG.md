@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the totara and the olive the run could not place
+
+- **Product**: two readers' website tips live, app first. The Giant Tōtara of Montgomery Park, Banks Peninsula (akr_001, new place Akaroa): DOC says it may be 2,000 years old and 8.5 m round, the reader's own figures; pin and 819 cm, 19.8 m from NZ Tree Register CR/1424 (observed Dec 2025). Mastrinka, the olive of Kaštel Štafilić (cdl_003, Kaštela now two trees, olive the hero): Bioportal natural monument ps.4639 pin, 1,500+ years, 6 m, 10 m from kastela-info.hr; access over the railing at the town's visitor point beside the Maslina kindergarten; the reader's note quoted.
+- **Found**: both were held as "no coordinate or place name", but the submission's city field named the place (Akaroa, Kaštel Štafilić). The night run reads the lead row, which has no city; inbox.py shows it. Preflight 0 problems.
+
 ## 2026-11-16 session: crash reports in PostHog, iPhone and Android
 
 - **Product (next iOS build, and Android before its release)**: every crash on every phone now reaches the PostHog project the app already measures into, through PostHog's own SDK with only its crash handler on (Kit/CrashReporter.swift, account/CrashReporter.kt; Hidde chose one tool over Sentry or Crashlytics). Screen views, lifecycle events, taps, session replay, flags and person profiles stay off; Measure's own events are unchanged. Library named per hard list 5: posthog-ios 3.56+ and posthog-android 3.77.1. Privacy page says it (crash report to PostHog, EU). Builds and unit tests green on iOS; Android compiles.

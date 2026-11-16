@@ -1,0 +1,73 @@
+{
+  "city": "Akaroa",
+  "country": "New Zealand",
+  "status": "needs_curation",
+  "intro": "Akaroa lies at the heart of Banks Peninsula, the old volcano east of Christchurch. On the way there, where the road reaches Hilltop, a short walk off the Summit Road leads into Montgomery Park Scenic Reserve, a patch of native bush run by the Department of Conservation. In it stands a forked tōtara 8.5 metres round that the Department of Conservation says may be 2,000 years old. A reader sent us its photograph.",
+  "meta_description": "The giant tōtara of Montgomery Park on Banks Peninsula, which DOC says may be 2,000 years old: where it stands and how to walk to it.",
+  "hero_tree_id": "akr_001",
+  "oldest_tree_id": "akr_001",
+  "trees": [
+    {
+      "id": "akr_001",
+      "name": "The Giant Tōtara of Montgomery Park",
+      "species": "Tōtara (Podocarpus totara)",
+      "age_estimate": "may be 2,000 years old (Department of Conservation)",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 819,
+      "height_m": 19.8,
+      "location": {
+        "address": "Montgomery Park Scenic Reserve, Summit Road, near Hilltop, Banks Peninsula",
+        "latitude": -43.74598913256011,
+        "longitude": 172.87012441760248,
+        "neighbourhood": "Montgomery Park Scenic Reserve"
+      },
+      "story": "The Department of Conservation says this tōtara may be 2,000 years old. It stands a few minutes' walk into the bush of Montgomery Park Scenic Reserve, just off the Summit Road at Hilltop, on the road from Christchurch to Akaroa across Banks Peninsula.\n\nDOC calls it a huge forked lowland tōtara, 8.5 metres round. The New Zealand Tree Register measured it at 819 centimetres, 19.8 metres tall, with a crown nearly 25 metres across, and describes two stems rising from one great flare of roots, much decayed inside, with an old scar where a large limb on the southern stem broke away. In this exposed spot, the register warns, more of it may fall one day.\n\nA reader who sent us its photograph stood at the foot of it. The trunk, ribbed and grey, spreads into roots that grip the path like fingers, and splits above head height into two stems that disappear into a dense, dark-green crown.\n\nPark in the small pull-off 200 metres along the Summit Road from Hilltop. DOC warns of ongaonga, the native tree nettle, along the track. It has a very strong sting, so keep to the path.",
+      "how_to_recognise": "A few minutes into the bush from the Summit Road: a huge grey ribbed trunk on a wide flare of roots across the path, forking above head height into two stems under a dense dark-green crown.",
+      "verified_sources": [
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/banks-peninsula-area/things-to-do/big-tree-walk-montgomery-scenic-reserve/",
+        "https://www.treeregister.nz/tree/view/1424"
+      ],
+      "official_register": {
+        "name": "New Zealand Tree Register, CR/1424",
+        "url": "https://www.treeregister.nz/tree/view/1424"
+      },
+      "found_by_reader": {
+        "sighting_id": "tip-908",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: a reader's website tip (submission 908, place 'Akaroa', '2,000 years old, with a massive measuring around 8.5 meters', a photograph, no coordinate). The run held it for want of a place; the submission's city field says Akaroa. DOC's Big Tree Walk page: huge forked lowland tōtara, 8.5 m round, may be 2,000 years old, park 200 m along Summit Road from Hilltop, ongaonga warning. NZ Tree Register CR/1424: Podocarpus totara, 819 cm at 1.4 m, 19.8 m, crown 24.8 m, two stems, internal decay, limb failure on the southern stem; last observed 16 Dec 2025 (alive); its coordinate is the pin. The reader's 8.5 m and 2,000 years are DOC's figures, so this is the same tree. Photograph viewed: trunk, root flare and crown, daylight, colour; 500 px wide.",
+      "access": "Department of Conservation reserve, open to walk: park in the small pull-off 200 m along the Summit Road from Hilltop and walk a few minutes into the bush.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "official register coordinate",
+        "source": "https://www.treeregister.nz/tree/view/1424",
+        "date": "2026-11-16",
+        "note": "The New Zealand Tree Register's coordinate for CR/1424, measured on site."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/akr_001-the-giant-totara-of-montgomery-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 500,
+        "height": 667,
+        "source": "contributor",
+        "contributor_user_id": "p_2488e74029ba86d35cd03b06",
+        "sighting_id": "tip-908",
+        "note": "Photographed by a reader and sent through the website with an account (2026-11-16); a viewing pass approved it on 2026-11-16: the trunk from its root flare into the crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The giant tōtara of Montgomery Park on Banks Peninsula, which DOC says may be 2,000 years old: where it stands and how to walk to it.",
+  "question_answer": "The Giant Tōtara of Montgomery Park stands at Montgomery Park Scenic Reserve, Summit Road, near Hilltop, Banks Peninsula. Department of Conservation reserve, open to walk: park in the small pull-off 200 m along the Summit Road from Hilltop and walk a few minutes into the bush.",
+  "question_context": "The Department of Conservation says this tōtara may be 2,000 years old. It stands a few minutes' walk into the bush of Montgomery Park Scenic Reserve, just off the Summit Road at Hilltop, on the road from Christchurch to Akaroa across Banks Peninsula. DOC calls it a huge forked lowland tōtara, 8.5 metres round. The New Zealand Tree Register measured it at 819 centimetres, 19.8 metres tall, with a crown nearly 25 metres across, and describes two stems rising from one great flare of roots, much decayed inside, with an old scar where a large limb on the southern stem broke away. In this exposed spot, the register warns, more of it may fall one day. A reader who sent us its photograph stood at the foot of it. The trunk, ribbed and grey, spreads into roots that grip the path like fingers, and splits above head height into two stems that disappear into a dense, dark-green crown. Park in the small pull-off 200 metres along the Summit Road from Hilltop. DOC warns of ongaonga, the native tree nettle, along the track. It has a very strong sting, so keep to the path.",
+  "faq": [
+    {
+      "q": "Can I visit The Giant Tōtara of Montgomery Park?",
+      "a": "Department of Conservation reserve, open to walk: park in the small pull-off 200 m along the Summit Road from Hilltop and walk a few minutes into the bush."
+    }
+  ]
+}

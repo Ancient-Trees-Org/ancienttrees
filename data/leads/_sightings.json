@@ -4030,10 +4030,11 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Photograph viewed: a fine old totara trunk and crown, but the tip carries no coordinate or place name, so it cannot be placed.",
+   "status": "published",
+   "why": "published 2026-11-16 as akr_001 (akaroa.json): the submission named Akaroa; DOC and NZ Tree Register CR/1424 match the reader's 8.5 m and 2,000 years",
    "seen": "2026-11-16",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "akaroa/akr_001"
   },
   {
    "sighting_id": "tip-928",
@@ -4055,11 +4056,12 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Photograph viewed: a huge many-stemmed olive in a fenced lawn, but no coordinate or place name, so it cannot be placed yet.",
+   "status": "published",
+   "why": "published 2026-11-16 as cdl_003 (kastela.json): the submission named Kaštel Štafilić; Bioportal ps.4639 pin, kastela-info.hr and dalmatia.hr",
    "seen": "2026-11-16",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "kastela/cdl_003"
   },
   {
    "sighting_id": "tip-930",

@@ -1,13 +1,13 @@
 {
   "city": "Kaštela",
   "country": "Croatia",
-  "intro": "Kaštela, the string of seven towns between Split and Trogir, protects a downy oak beside one of its oldest churches. In Kaštel Gomilica the oak grows at the side of the Romanesque church of St Cosmas and Damian, built between 1138 and 1160 over the remains of a late-antique basilica. Croatia has protected it as a natural monument since 1996, and the tourist board singles it out for its beauty and its size, though nobody has published a measurement or an age.",
-  "meta_description": "Kaštela's protected downy oak beside the 12th-century church of St Cosmas and Damian in Kaštel Gomilica, a natural monument since 1996.",
-  "question_meta": "Kaštela's protected tree is the downy oak by the church of St Cosmas and Damian in Kaštel Gomilica; its age is not recorded.",
-  "question_answer": "The protected tree to see in Kaštela is the downy oak beside the Romanesque church of St Cosmas and Damian in Kaštel Gomilica, a natural monument since 1996. Nobody has published its age, height or girth.",
-  "question_context": "The oak is entered in Croatia's register simply as the oak in Kaštel Gomilica, protected as a natural monument since 1996. Kaštela's tourist board singles it out for its beauty and its size and gives a number for neither. The church beside it is far better documented. St Cosmas and Damian was built between 1138 and 1160 over the remains of a late-antique basilica, in the Romanesque style. How long the oak has kept the church company, nobody we can find has written down. It is alive. A naturalist photographed it in November 2024 and logged it a few metres from the register's own point, which settles which tree the town means and confirms it is a downy oak. Kaštel Gomilica is one of the seven towns of Kaštela on the bay between Split and Trogir, on the local bus line that links the two, so the oak is an easy stop along the coast. No access terms are published, and the tree is seen free beside the church. If you visit, a photograph and a rough idea of its size would be welcome.",
-  "hero_tree_id": "cdl_002",
-  "oldest_tree_id": "cdl_002",
+  "intro": "Kaštela, the string of seven towns between Split and Trogir, protects two old trees as natural monuments. In Kaštel Štafilić grows Mastrinka, an olive the tourist board puts at more than 1,500 years old, its trunk 6 metres round, protected since 1990. In Kaštel Gomilica a downy oak stands beside the Romanesque church of St Cosmas and Damian, built between 1138 and 1160, protected since 1996. A reader sent us the photograph of the olive.",
+  "meta_description": "Kaštela's protected trees: Mastrinka, an olive over 1,500 years old in Kaštel Štafilić, and the oak by the 12th-century church in Kaštel Gomilica.",
+  "question_meta": "Kaštela's oldest tree is Mastrinka, the olive of Kaštel Štafilić, more than 1,500 years old by the tourist board.",
+  "question_answer": "The oldest tree in Kaštela is Mastrinka, the olive of Kaštel Štafilić, which the town's tourist board puts at more than 1,500 years old, with a trunk 6 metres round. Croatia has protected it as a natural monument since 1990.",
+  "question_context": "Kaštela's tourist board puts this olive at more than 1,500 years old. Locals call it Mastrinka, and it grows in Kaštel Štafilić, one of the seven little towns strung along the bay between Split and Trogir. Croatia has protected it as a natural monument since 1990. The town gives its trunk as 6 metres round, its crown as 22 metres across and its height as 10 metres, and says its roots reach out more than 100 metres. It still bears small olives of an oil variety. A reader who sent us its photograph wrote: \"Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans.\" Their picture shows why. The trunk is not one trunk but a knot of grey, ribbed columns twisted around a hollow heart, and from it limbs as thick as a body loop out and down before they climb again into a crown of silver-green leaves. It stands on a lawn behind a low railing, where the town has set up benches and information panels for visitors. Mastrinka grows beside the Maslina kindergarten, so if the gate is shut, look from the railing.",
+  "hero_tree_id": "cdl_003",
+  "oldest_tree_id": "cdl_003",
   "faq": [
     {
       "q": "Where is the old oak in Kaštela?",
@@ -61,6 +61,60 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "cdl_003",
+      "name": "Mastrinka, the Olive of Kaštel Štafilić",
+      "species": "Olive (Olea europaea)",
+      "age_estimate": "more than 1,500 years (Kaštela tourist board)",
+      "age_min": 1500,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 600,
+      "height_m": 10,
+      "location": {
+        "address": "Beside the Maslina kindergarten, Kaštel Štafilić, Kaštela",
+        "latitude": 43.55055,
+        "longitude": 16.335669,
+        "neighbourhood": "Kaštel Štafilić"
+      },
+      "story": "Kaštela's tourist board puts this olive at more than 1,500 years old. Locals call it Mastrinka, and it grows in Kaštel Štafilić, one of the seven little towns strung along the bay between Split and Trogir. Croatia has protected it as a natural monument since 1990.\n\nThe town gives its trunk as 6 metres round, its crown as 22 metres across and its height as 10 metres, and says its roots reach out more than 100 metres. It still bears small olives of an oil variety.\n\nA reader who sent us its photograph wrote: \"Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans.\" Their picture shows why. The trunk is not one trunk but a knot of grey, ribbed columns twisted around a hollow heart, and from it limbs as thick as a body loop out and down before they climb again into a crown of silver-green leaves. It stands on a lawn behind a low railing, where the town has set up benches and information panels for visitors.\n\nMastrinka grows beside the Maslina kindergarten, so if the gate is shut, look from the railing.",
+      "how_to_recognise": "A low, enormous olive on a lawn behind a railing: a knot of twisted grey columns around a hollow heart, with limbs thick as a body looping out and down before they rise into the crown.",
+      "verified_sources": [
+        "https://kastela-info.hr/en/natural-heritage",
+        "https://www.dalmatia.hr/attractions/the-old-olive",
+        "https://total-croatia-news.com/lifestyle/1500-year-old-olive-tree-in-kastel-stafilic-to-get-its-own-interpretive-point/"
+      ],
+      "official_register": {
+        "name": "Bioportal, Registar zaštićenih područja (spomenik prirode, ps.4639, protected 1990-04-01)",
+        "url": "https://services.bioportal.hr/inspire/geos1/ps/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ps1:ProtectedSite&outputFormat=application/json&srsName=EPSG:4326 (localId ps.4639, HR.MZOE.ZP)"
+      },
+      "found_by_reader": {
+        "sighting_id": "tip-928",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: a reader's website tip (submission 928, place 'Kaštel Štafilić', a photograph, no coordinate). The run held it for want of a place; the submission's city field names the town. Bioportal ps.4639 'MASLINA U KAŠTEL ŠTAFILIĆU', spomenik prirode since 1990-04-01, point geometry used as the pin (approximate). kastela-info.hr: Mastrinka, Olea europaea, more than 1500 years, trunk span 6 m, crown 22 m, height 10 m, roots over 100 m. dalmatia.hr: in the Maslina kindergarten courtyard, 1500 years, 6 m, 10 m. Total Croatia News: the town is building an interpretive point with nine benches and panels for visitors (Hidden Habitats project). Access under rule 10: a visitor point the town built, seen over a low railing in the reader's photograph; the kindergarten is named so nobody walks in. Alive: the reader's photograph, in leaf. Reader's note quoted.",
+      "access": "Seen over a low railing on the lawn beside the Maslina kindergarten, where the town has put benches and information panels for visitors. Do not enter the kindergarten grounds.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "official register coordinate",
+        "source": "https://services.bioportal.hr/inspire/geos1/ps/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=ps1:ProtectedSite&outputFormat=application/json&srsName=EPSG:4326 (localId ps.4639, HR.MZOE.ZP)",
+        "date": "2026-11-16",
+        "note": "Bioportal's point for natural monument ps.4639."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cdl_003-mastrinka-the-olive-of-kastel-stafilic.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4cefec9f5644f57abdf55de5",
+        "sighting_id": "tip-928",
+        "note": "Photographed by a reader and sent through the website with an account (2026-11-16); a viewing pass approved it on 2026-11-16: the whole twisted trunk and the crown above it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]
