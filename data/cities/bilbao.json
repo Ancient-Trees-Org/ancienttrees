@@ -61,7 +61,23 @@
         "height": 1944,
         "taken_month": 5
       },
-      "how_to_recognise": "The tall plane trees clustered around the 1892 Antonio Trueba statue, right in the middle of the small square."
+      "how_to_recognise": "The tall plane trees clustered around the 1892 Antonio Trueba statue, right in the middle of the small square.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bil_001-the-plane-trees-of-jardines-de-albia-ea9d0b2f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_c35c044ba2fb9ea5470abeae",
+          "sighting_id": "ea9d0b2f-f100-496d-a05c-6f492630635f",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "bil_002",

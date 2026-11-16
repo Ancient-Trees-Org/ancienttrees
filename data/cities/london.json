@@ -692,7 +692,23 @@
       },
       "curation_status": "ai_generated",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the information board beside it and by its size, the one very large plane in a small square. It stands in Brunswick Square Gardens in Bloomsbury, with the Foundling Museum on the far side."
+      "how_to_recognise": "You can recognise it by the information board beside it and by its size, the one very large plane in a small square. It stands in Brunswick Square Gardens in Bloomsbury, with the Foundling Museum on the far side.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_016-the-great-plane-of-brunswick-square-68f3ef55.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_f7cfa9c1a52c4f673663b74c",
+          "sighting_id": "68f3ef55-878f-4dad-846d-9582ed057c08",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "lon_017",

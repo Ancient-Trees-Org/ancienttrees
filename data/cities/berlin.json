@@ -739,7 +739,23 @@
       "official_register": {
         "name": "Naturdenkmal (Land Berlin, Senatsverwaltung), no. 4-26/B",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ber_016-the-lietzensee-plane-37223ae8.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 4,
+          "source": "contributor",
+          "contributor_user_id": "p_596e96656b665c71b8fd857e",
+          "sighting_id": "37223ae8-945a-4737-bd16-1cf8defb2ee1",
+          "note": "Photographed by a reader and sent through the app (2024-04-21); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "ber_017",

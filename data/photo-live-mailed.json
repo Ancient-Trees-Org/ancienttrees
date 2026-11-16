@@ -1310,7 +1310,17 @@
   },
   "p_c35c044ba2fb9ea5470abeae": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "ea9d0b2f-f100-496d-a05c-6f492630635f",
+     "tree_id": "bil_001",
+     "tree_name": "The Plane Trees of Jardines de Albia",
+     "city": "Bilbao",
+     "city_slug": "bilbao",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
@@ -1365,6 +1375,36 @@
      "tree_name": "Llanerfyl Yew",
      "city": "Llanerfyl",
      "city_slug": "llanerfyl",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_f7cfa9c1a52c4f673663b74c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "68f3ef55-878f-4dad-846d-9582ed057c08",
+     "tree_id": "lon_016",
+     "tree_name": "The Great Plane of Brunswick Square",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_596e96656b665c71b8fd857e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "37223ae8-945a-4737-bd16-1cf8defb2ee1",
+     "tree_id": "ber_016",
+     "tree_name": "The Lietzensee Plane",
+     "city": "Berlin",
+     "city_slug": "berlin",
      "display_name": null,
      "live": "2026-11-16"
     }
