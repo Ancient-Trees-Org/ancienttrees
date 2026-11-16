@@ -227,7 +227,16 @@ extension EnvironmentValues {
 /// still counts as still. The sheet's drag stamps this clock, and a tap that
 /// lands within a moment of a drag does nothing. A class, not state, so the
 /// stamp redraws nothing.
-final class SheetDragClock {
+///
+/// NONISOLATED, ON PURPOSE (2026-11-16). Under the project's default MainActor
+/// isolation this class's deinit went through Swift's back-deployed
+/// deinit-on-executor hop, and @State builds a fresh clock on every init of
+/// the sheet's struct and throws it away, so one is freed on nearly every
+/// redraw. That hop aborted the app in CI ("pointer being freed was not
+/// allocated" in TaskLocal::StopLookupScope, under SheetDragClock's deinit,
+/// AncientTrees-2026-11-16-152543.ips) and took a different unit test down
+/// in each red run. A clock with nothing but a date needs no actor to die on.
+nonisolated final class SheetDragClock {
     var lastMove = Date.distantPast
     var justDragged: Bool { Date().timeIntervalSince(lastMove) < 0.35 }
 }
