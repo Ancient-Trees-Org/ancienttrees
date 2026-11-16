@@ -33,6 +33,8 @@ struct AncientTreesApp: App {
     /// after it looked right, which is why it read as a mystery rather than a
     /// missing font.
     init() {
+        // Before anything writes: did the last run end on screen? (Kit/ExitWatch.swift)
+        ExitWatch.capture()
         ImageStore.prepareCache()
         BrandFont.register()
     }

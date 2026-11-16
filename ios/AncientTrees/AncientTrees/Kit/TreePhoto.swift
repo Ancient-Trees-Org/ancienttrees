@@ -38,6 +38,7 @@
 
 import SwiftUI
 import UIKit
+import ImageIO
 
 /// Four at a time, and the rest wait rather than fail.
 actor ImageGate {
@@ -123,6 +124,37 @@ final class ImageStore {
         return await task.value
     }
 
+    /// NEVER DECODED BIGGER THAN A SCREEN CAN SHOW (2026-11-16, after the
+    /// Guardian weekend: 53 quick reopens right after a tree page, and 1,172
+    /// photographs in the feed that are Wikimedia ORIGINALS, often 20 to 50
+    /// megapixels). UIImage(data:) decodes every pixel the file has: a 24
+    /// megapixel photograph is about 96 MB in memory to fill a 400 point
+    /// box, and iOS ends an app that holds a few of those without a crash
+    /// report. ImageIO's thumbnail decode is Apple's own answer (WWDC 2018,
+    /// "Image and Graphics Best Practices"): read the file at the size it
+    /// will be drawn. 2048 pixels on the long edge is more than the widest
+    /// iPhone's full screen hero (1320 pixels) needs; our own copies are 1600
+    /// already and pass through unchanged.
+    nonisolated static let maxPixels = 2048
+
+    nonisolated static func downsampled(_ data: Data) async -> UIImage? {
+        let options = [kCGImageSourceShouldCache: false] as CFDictionary
+        guard let source = CGImageSourceCreateWithData(data as CFData, options) else { return nil }
+        let thumb = [
+            kCGImageSourceCreateThumbnailFromImageAlways: true,
+            kCGImageSourceCreateThumbnailWithTransform: true,   // keeps the camera's rotation
+            kCGImageSourceShouldCacheImmediately: true,
+            kCGImageSourceThumbnailMaxPixelSize: maxPixels,
+        ] as CFDictionary
+        guard let cg = CGImageSourceCreateThumbnailAtIndex(source, 0, thumb) else {
+            // Something ImageIO will not read: the old path, as before.
+            guard let image = UIImage(data: data) else { return nil }
+            return await image.byPreparingForDisplay() ?? image
+        }
+        let image = UIImage(cgImage: cg)
+        return await image.byPreparingForDisplay() ?? image
+    }
+
     nonisolated private static func cost(of image: UIImage) -> Int {
         Int(image.size.width * image.scale * image.size.height * image.scale * 4)
     }
@@ -144,10 +176,7 @@ final class ImageStore {
                 if (200..<300).contains(code) {
                     // Decoded off the main thread and prepared for drawing, so
                     // a shelf does not decode eight JPEGs during a scroll.
-                    if let image = UIImage(data: data) {
-                        return await image.byPreparingForDisplay() ?? image
-                    }
-                    return nil
+                    return await downsampled(data)
                 }
                 // A 4xx that is not a rate limit will say the same thing three
                 // times, so stop asking.

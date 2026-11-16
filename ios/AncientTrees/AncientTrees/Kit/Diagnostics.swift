@@ -82,9 +82,28 @@ extension Diagnostics: MXMetricManagerSubscriber {
         }
     }
 
-    /// Required by the protocol and deliberately empty: the metric payloads are
-    /// aggregate performance figures, not faults, and sending them would be
-    /// collecting data nobody has asked a question of.
-    public func didReceive(_ payloads: [MXMetricPayload]) {}
+    /// THE EXIT COUNTS, and only those (Hidde, 2026-11-16: "Ja, uitzoeken").
+    /// This used to be empty because the metric payloads are mostly
+    /// performance figures nobody here reads. One part answers a question we
+    /// now have: how often iOS ended the app ON SCREEN, and why. Being killed
+    /// for memory, the watchdog and a bad access all land here and none of
+    /// them arrives as a crash diagnostic. Counts only, one PostHog event a
+    /// day, from the same phones that share analytics as the crashes above;
+    /// Kit/ExitWatch.swift counts every phone but cannot say why.
+    public func didReceive(_ payloads: [MXMetricPayload]) {
+        for p in payloads {
+            guard let f = p.applicationExitMetrics?.foregroundExitData else { continue }
+            let counts: [String: Int] = [
+                "normal": f.cumulativeNormalAppExitCount,
+                "memory": f.cumulativeMemoryResourceLimitExitCount,
+                "bad_access": f.cumulativeBadAccessExitCount,
+                "abnormal": f.cumulativeAbnormalExitCount,
+                "watchdog": f.cumulativeAppWatchdogExitCount,
+                "illegal_instruction": f.cumulativeIllegalInstructionExitCount,
+            ]
+            Measure.event("app_exit_counts", counts.mapValues(String.init)
+                .merging(["app_version": p.latestApplicationVersion]) { a, _ in a })
+        }
+    }
 }
 #endif

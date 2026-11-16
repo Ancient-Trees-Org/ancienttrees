@@ -136,6 +136,8 @@ public enum Measure {
     /// never surfaces an error: a measurement that costs somebody a spinner has
     /// cost more than it is worth.
     public static func event(_ name: String, _ props: [String: String] = [:]) {
+        // Where the app was, in case it ends on screen (Kit/ExitWatch.swift).
+        if name != "app_exit_abnormal" { ExitWatch.note(name, tree: props["tree"]) }
         guard enabled else { return }
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "?"
         var p: [String: Any] = props

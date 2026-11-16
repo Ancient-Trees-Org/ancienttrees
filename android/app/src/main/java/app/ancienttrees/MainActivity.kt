@@ -373,6 +373,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         Measure.start(context, launch.args)
         Measure.flush()
         Measure.event("app_open")
+        // Earlier runs that ended badly, as the iPhone's ExitWatch reports them.
+        app.ancienttrees.account.ExitWatch.report(context)
     }
     // Whether an account is signed in, and which, beside every event (Measure.swift).
     LaunchedEffect(signedIn, account.session?.userId) {

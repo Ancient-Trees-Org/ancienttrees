@@ -129,6 +129,11 @@
       "verdict": "device",
       "why": "This browser's answer to the cookie bar (ConsentBar.astro, 2026-10-12). Consent to cookies is given per browser by law and by convention, and it is asked before anybody has signed in; an account-wide copy would carry a yes to a browser that was never asked."
     },
+    "exit.foreground.v1": {
+      "verdict": "device",
+      "why": "Whether the app is on screen right now, with the build and the last event measured (an event name and a tree id): written when it comes to the front, removed when it goes to the back. A value still there at the next launch means the last run ended on screen (a crash, the memory killer or the watchdog), and that launch sends one app_exit_abnormal event (Hidde, 2026-11-16, \"Ja, uitzoeken\", after MetricKit reported one crash from 4,000 new phones). The app's own state, not something a person did: nothing to hang under an account. App: Kit/ExitWatch.swift.",
+      "off": "Nothing: removed every time the app leaves the screen, and gone with the app."
+    },
     "plus.answered.v1": {
       "verdict": "device",
       "why": "Whether this install answered the Ancient Trees Plus question, so its row on a city and in Settings goes away after the answer (Hidde, 2026-11-05: \"ja dit mag je wel lokkaal opslaan\", on \"should the help create ancient trees plus thing go away once a user has answered it?\"). Device by his word: the answer itself is anonymous (plus_answers has no account), so there is nothing on the server to hang it under, and like reviewPrompt.fired it is a question asked once per install. App: Screens/PlusAsk.swift.",
@@ -159,5 +164,10 @@
     "verdict": "device",
     "why": "The Android twin of plus.answered.v1 (ui/PlaceBox.kt AppSwitches): whether this install answered the Ancient Trees Plus question, so its row on a city goes once answered (Hidde, 2026-11-05: \"ja dit mag je wel lokkaal opslaan\"). The answer itself is anonymous (plus_answers has no account), so there is nothing on the server to hang it under.",
     "off": "Nothing: a flag on this install, gone with the app; a new install asks again."
+  },
+  "android:device/exit.reported.at": {
+    "verdict": "device",
+    "why": "The Android twin of exit.foreground.v1 (account/ExitWatch.kt): the time of the newest process exit already reported as app_exit_abnormal, so none is sent twice (Hidde, 2026-11-16, \"Ja, uitzoeken\"). The app's own bookkeeping, not something a person did.",
+    "off": "Nothing: a timestamp on this install, gone with the app."
   }
 }

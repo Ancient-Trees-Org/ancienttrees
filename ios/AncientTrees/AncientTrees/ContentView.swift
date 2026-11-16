@@ -995,6 +995,9 @@ struct ContentView: View {
         // one tries again, once, if the profile never arrived.
         .task { await AppSwitches.shared.refresh() }
         .onChange(of: scenePhase) { _, phase in
+            // On screen or not, for the unclean-exit count (Kit/ExitWatch.swift).
+            if phase == .active { ExitWatch.foreground() }
+            if phase == .background { ExitWatch.background() }
             // Switches from the server, at every return (Kit/AppSwitches.swift).
             if phase == .active { Task { await AppSwitches.shared.refresh() } }
             if phase == .active, account.isSignedIn, !profiles.meLoaded {
@@ -1041,6 +1044,8 @@ struct ContentView: View {
             Measure.signedIn = account.isSignedIn
             Measure.account = account.session?.userId
             Measure.event("app_open")
+            // A previous run that ended on screen (crash, memory, watchdog).
+            ExitWatch.report()
             // The thumbs' figures, once per launch and never per card: the
             // whole table is a few thousand short rows and a request inside a
             // scrolling list is a stutter.
