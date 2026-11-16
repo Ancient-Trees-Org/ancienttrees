@@ -1187,6 +1187,27 @@ def check_no_daily_cap_on_reader_mail():
     return out
 
 
+def check_a_website_tree_says_approved_on_my_trees():
+    """A tree a reader added on the website and we published reads "Approved"
+    on their own My trees page, mail or no mail (2026-11-16: the Arbour Oak's
+    reader signed in with Google on a dead domain, the congratulation bounced,
+    and their page still said "Sent", as it did for all twelve website trees).
+    tree_approved.py sets the submissions row's outcome, which my-trees-js.ts
+    reads. Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    src = (root / "scripts" / "tree_approved.py").read_text(encoding="utf-8")
+    js = (root / "site" / "src" / "lib" / "my-trees-js.ts").read_text(encoding="utf-8")
+    out = []
+    if "def mark_tip_published" not in src or "mark_tip_published(sid" not in src \
+            or '"outcome": "changed"' not in src or '"replied_at"' not in src:
+        out.append("tree_approved.py must mark a published website tree's submissions row "
+                   "(outcome changed, reply_text, replied_at) so My trees says Approved")
+    if "changed: 'published'" not in js:
+        out.append("my-trees-js.ts no longer maps outcome 'changed' to Approved; "
+                   "tree_approved.py's mark_tip_published relies on it")
+    return out
+
+
 def check_one_mail_route_rule():
     """Signed where it matters, Gmail for the rest (Hidde, 2026-11-16): Yahoo's
     servers and first mails to strangers go through Resend, mail a person asked
@@ -4185,6 +4206,7 @@ def main():
 
     SOURCE_ONLY = [
         check_no_daily_cap_on_reader_mail,
+        check_a_website_tree_says_approved_on_my_trees,
         check_one_mail_route_rule,
         check_one_email_domain_list,
         check_a_readers_words_go_public_only_after_the_field_said_so,

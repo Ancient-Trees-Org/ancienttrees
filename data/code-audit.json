@@ -365,6 +365,17 @@
    "found_by": "hidde",
    "test": "qa.py check_sightings_link_asks_only_for_real_rows",
    "fixed_in": "1b10a5975"
+  },
+  {
+   "id": "ESC-2026-11-16-a-tree-a-reader-added-on-the-website-sta",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/tree_approved.py",
+   "summary": "A tree a reader added on the website stayed 'Sent' on their My trees after it went live; tree_approved.py never set the submissions outcome",
+   "first_seen": "2026-11-16",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "qa.py check_a_website_tree_says_approved_on_my_trees"
   }
  ]
 }

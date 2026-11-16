@@ -258,6 +258,49 @@ def bundle_for(name, items):
     return subject, body
 
 
+def mark_tip_published(sid, tree, page, really):
+    """Tell the reader's own My trees page that a tree they added on the
+    WEBSITE is live, whether or not our mail reaches them.
+
+    Found 2026-11-16 on the Arbour Oak (tip-839): the reader signed in with a
+    Google account on the address of a magazine whose domain died years ago,
+    so the congratulation bounced and their account page was the one place
+    left to tell them. It said "Sent": this script mailed and recorded the
+    sighting id, but never touched the submissions row, and My trees
+    (site/src/lib/my-trees-js.ts) reads `outcome` from that row. All twelve
+    website trees congratulated until then still read "Sent". The app was
+    fine: its sightings rows read "published" (sightings_publish.py).
+
+    So the row gets outcome 'changed' (My trees: "Approved"), a one-line
+    reply_text that the card prints, and replied_at, so contributor_reply.py
+    does not mail a second "on the site now" to the same person."""
+    key = os.environ.get("SUPABASE_SERVICE_KEY")
+    row = sid[len("tip-"):]
+    if not row.isdigit():
+        return False
+    text = "On the site now as %s: %s\n" % (tree["name"], page)
+    if not really:
+        print(f"  {tree['id']}: would mark submission {row} approved on the reader's My trees")
+        return False
+    if not key:
+        return False
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    body = json.dumps({"outcome": "changed", "reply_text": text, "replied_at": now}).encode()
+    req = urllib.request.Request(f"{SUPA}/rest/v1/submissions?id=eq.{row}&outcome=is.null",
+                                 data=body, method="PATCH",
+                                 headers={"apikey": key, "Authorization": "Bearer " + key,
+                                          "Content-Type": "application/json",
+                                          "Prefer": "return=minimal"})
+    try:
+        with urllib.request.urlopen(req, timeout=30):
+            pass
+    except Exception as e:
+        print(f"  {tree['id']}: could not mark submission {row} ({e.__class__.__name__}), next knock")
+        return False
+    print(f"  {tree['id']}: submission {row} marked approved on the reader's My trees")
+    return True
+
+
 def main(argv):
     really = "--send" in argv
     mailed = load(MAILED, {"mailed": {}})
@@ -265,6 +308,18 @@ def main(argv):
     today = datetime.date.today().isoformat()
     all_trees = approved_trees()
     who_of = {sid: uid for sid, uid, _, _, _ in all_trees}
+    # WEBSITE TREES SAY "APPROVED" ON THE READER'S OWN PAGE, mail or no mail,
+    # and the ones congratulated before 2026-11-16 are caught up here too.
+    marked = mailed.setdefault("marked", {})
+    web_urls = None
+    for sid, uid, tree, _, _ in all_trees:
+        if not sid.startswith("tip-") or sid in marked or not uid or ours.is_ours(uid):
+            continue
+        if web_urls is None:
+            web_urls = live_urls()
+        page = web_urls.get(tree["id"])
+        if page and mark_tip_published(sid, tree, page, really):
+            marked[sid] = today
     # Someone congratulated today waits for tomorrow's knock, so a person who
     # adds trees all afternoon gets one mail a day, not one per tree.
     mailed_today = {who_of.get(s) for s, rec in done.items() if rec.get("date") == today and who_of.get(s)}

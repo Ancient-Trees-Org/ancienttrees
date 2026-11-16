@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: website-added trees now say "Approved" on the reader's My trees
+
+- Hidde saw the Arbour Oak congratulation bounce. Cause: the reader signed in with Google on the address of Natural Athlete Magazine, a domain dead since about 2019 and unregistered today; Google still calls it verified, so login works and mail cannot arrive. Nothing wrong on our side.
+- Found on the way: every tree a reader added through the website form kept reading "Sent" on their My trees after going live, because tree_approved.py never set the submissions row. The app was fine (all 60 sighting rows read published).
+- Fix: `mark_tip_published()` in tree_approved.py sets outcome changed, a one-line reply_text with the link (the card prints it) and replied_at (so contributor_reply.py sends no second mail), mail or no mail. Backfilled all 12 live website trees. qa `check_a_website_tree_says_approved_on_my_trees()`; escaped bug recorded with that test.
+
 ## 2026-11-16 session: worth-it votes get their own table (step 1 of splitting submissions)
 
 - **What changes** (Hidde: votes and tree submissions are "hele andere dingen", then "prima start maar"): supabase/tree-votes.sql makes `tree_votes`, one row per person per tree, deleted when taken back, own-rows RLS, cascade on account deletion, GRANT in the file. A trigger on `submissions` catches every vote posted there (every build out today posts there) and applies it to `tree_votes` instead, so no old app breaks and `submissions` keeps only what people write. The standing votes are copied across; old rows stay (nothing deleted). `tree_vote_counts()` now counts from `tree_votes`, same name, so the thumbs' numbers need no client change.
