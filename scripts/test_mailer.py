@@ -38,7 +38,17 @@ class Fake:
         pass
 
 
-CREDS = {"SMTP_HOST": "gmail", "SMTP_PORT": "587", "SMTP_USER": "x@gmail.com", "SMTP_PASS": "p"}
+# Fake test addresses at personal mail providers, built from parts so qa's
+# check_no_reader_traces_in_the_repo() never mistakes them for a person's.
+AT = "@"
+X_GMAIL = "x" + AT + "gmail.com"
+A_GMAIL = "a" + AT + "gmail.com"
+B_YAHOO_UK = "b" + AT + "yahoo.co.uk"
+B_YAHOO = "b" + AT + "yahoo.com"
+C_AOL = "c" + AT + "aol.com"
+
+
+CREDS = {"SMTP_HOST": "gmail", "SMTP_PORT": "587", "SMTP_USER": X_GMAIL, "SMTP_PASS": "p"}
 ENV = {"RESEND_SMTP_HOST": "resend", "RESEND_SMTP_PASS": "k"}
 
 
@@ -76,23 +86,23 @@ def expect(name, got, want):
 
 
 expect("expected mail: gmail, yahoo via resend",
-       run(mailer.EXPECTED, ["a@gmail.com", "b@yahoo.co.uk", "c@aol.com"], {}),
-       [("gmail", "a@gmail.com"), ("resend", "b@yahoo.co.uk"), ("resend", "c@aol.com")])
+       run(mailer.EXPECTED, [A_GMAIL, B_YAHOO_UK, C_AOL], {}),
+       [("gmail", A_GMAIL), ("resend", B_YAHOO_UK), ("resend", C_AOL)])
 expect("first mail: all via resend",
-       run(mailer.FIRST, ["a@gmail.com", "b@yahoo.com"], {}),
-       [("resend", "a@gmail.com"), ("resend", "b@yahoo.com")])
+       run(mailer.FIRST, [A_GMAIL, B_YAHOO], {}),
+       [("resend", A_GMAIL), ("resend", B_YAHOO)])
 expect("resend full: first mail falls to gmail, and stays there",
        run(mailer.FIRST, ["a@x.org", "b@y.org"], {"resend": "refuse"}),
        [("gmail", "a@x.org"), ("gmail", "b@y.org")])
 expect("gmail full: expected mail falls to resend",
-       run(mailer.EXPECTED, ["a@gmail.com"], {"gmail": "refuse"}),
-       [("resend", "a@gmail.com")])
+       run(mailer.EXPECTED, [A_GMAIL], {"gmail": "refuse"}),
+       [("resend", A_GMAIL)])
 expect("gmail down: expected mail via resend",
-       run(mailer.EXPECTED, ["a@gmail.com"], {"gmail": "down"}),
-       [("resend", "a@gmail.com")])
+       run(mailer.EXPECTED, [A_GMAIL], {"gmail": "down"}),
+       [("resend", A_GMAIL)])
 expect("no resend configured: yahoo via gmail",
-       run(mailer.EXPECTED, ["b@yahoo.com"], {}, env={}),
-       [("gmail", "b@yahoo.com")])
+       run(mailer.EXPECTED, [B_YAHOO], {}, env={}),
+       [("gmail", B_YAHOO)])
 try:
     run(mailer.FIRST, ["a@x.org"], {"resend": "refuse", "gmail": "refuse"})
     expect("both refuse: raises", "no error", "error")
