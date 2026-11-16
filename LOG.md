@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Android pins wear the saved, collected and ticket corners
+
+- **Android's map now marks your trees as the iPhone and the website do** (follow-up of 2026-11-12, Hidde: "Ja, doe Android"): a saved tree wears the moss bookmark top right, a collected one the moss tick bottom right, a paid one the blue ticket bottom left, each a white disc with a soft shadow; a saved tree takes the first full pin and is never thinned out. Before, Android drew only the ticket and did not know which trees you had saved or collected. Looked at side by side with the iPhone over Amsterdam (5 saved, 2 collected): the same. In the next Android build.
+
 ## 2026-11-16 session: mistyped email addresses (web live, apps with their next builds)
 
 - Website, live with this deploy: under the sign-in email field, "Did you mean <address>?" when the part after the @ is a letter or two off a known provider (data/email-domains.json, 91 domains; outlook.co, gmial.com, hotmial.com, yaho.co.uk caught; mail.com, me.com, company domains left alone). The first Send holds once so the line is seen, the second sends as typed. The check-your-inbox step has "Use a different address"; /account shows the whole address instead of a masked one. The "expires in 15 minutes" line is gone in all eight languages (links last 24 hours).
