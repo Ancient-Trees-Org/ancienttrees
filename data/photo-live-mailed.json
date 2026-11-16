@@ -913,7 +913,17 @@
   },
   "p_856cd2e3820af4b001f6554a": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "a04e6933-4b0d-4172-90d1-5d13dcfec0e5",
+     "tree_id": "elh_001",
+     "tree_name": "Elleholmseken (The Oak of Elleholm)",
+     "city": "Elleholm",
+     "city_slug": "elleholm",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
@@ -1114,6 +1124,84 @@
      "tree_name": "The Rhodes Bald Cypress",
      "city": "Richard Bong State Recreation Area",
      "city_slug": "richard-bong-state-recreation-area",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_2ff15d36a4a6c0a3289686e3": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "586a2d0f-096b-421c-97dc-62e612fd99b2",
+     "tree_id": "tul_001",
+     "tree_name": "El Árbol del Tule",
+     "city": "Santa María del Tule",
+     "city_slug": "santa-maria-del-tule",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "7fb05e54-cf36-4393-a549-92e3c17d96b3",
+     "tree_id": "for_001",
+     "tree_name": "The Fortingall Yew",
+     "city": "Fortingall",
+     "city_slug": "fortingall",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_8762d5eeaf614cc69438a40e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "96c47295-7fb6-40d8-b0da-3575f4b9b420",
+     "tree_id": "hir_001",
+     "tree_name": "The Willow Nearest the Hypocentre",
+     "city": "Hiroshima",
+     "city_slug": "hiroshima",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_697eb4a0c77311e0508c5fb0": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b8d96d31-883d-496e-8607-a353a8acab01",
+     "tree_id": "seq_001",
+     "tree_name": "General Sherman Tree",
+     "city": "Sequoia National Park",
+     "city_slug": "sequoia-national-park",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "9342233f-7ec8-4d72-b3d6-2f859d2c26c1",
+     "tree_id": "seq_004",
+     "tree_name": "Lincoln Tree",
+     "city": "Sequoia National Park",
+     "city_slug": "sequoia-national-park",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_d896707ada9895130ce0c366": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c86414b5-1884-40c9-aff2-724f25f8e1f4",
+     "tree_id": "ath_001",
+     "tree_name": "The Sacred Olive Tree of the Acropolis",
+     "city": "Athens",
+     "city_slug": "athens",
      "display_name": null,
      "live": "2026-11-16"
     }

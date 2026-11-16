@@ -74,7 +74,23 @@
       "official_register": {
         "name": "National Park Service, Sequoia & Kings Canyon: The General Sherman Tree",
         "url": "https://www.nps.gov/seki/learn/nature/sherman.htm"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/seq_001-general-sherman-tree-b8d96d31.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "b8d96d31-883d-496e-8607-a353a8acab01",
+          "note": "Photographed by a reader and sent through the app (2024-06-06); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "seq_002",
@@ -184,7 +200,23 @@
         "height": 3780,
         "taken_month": 7
       },
-      "paid_entry": true
+      "paid_entry": true,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/seq_004-lincoln-tree-9342233f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "9342233f-7ec8-4d72-b3d6-2f859d2c26c1",
+          "note": "Photographed by a reader and sent through the app (2024-06-06); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "seq_005",

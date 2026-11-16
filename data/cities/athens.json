@@ -69,7 +69,23 @@
         "taken_month": 4
       },
       "paid_entry": true,
-      "how_to_recognise": "You can recognise it by its trunk walled inside a small stone enclosure of its own. It stands against the west side of the Erechtheion, in the Pandroseion."
+      "how_to_recognise": "You can recognise it by its trunk walled inside a small stone enclosure of its own. It stands against the west side of the Erechtheion, in the Pandroseion.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ath_001-the-sacred-olive-tree-of-the-acropolis-c86414b5.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_d896707ada9895130ce0c366",
+          "sighting_id": "c86414b5-1884-40c9-aff2-724f25f8e1f4",
+          "note": "Photographed by a reader and sent through the app (2026-11-06); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "ath_002",

@@ -83,6 +83,20 @@
           "width": 1024,
           "height": 768,
           "taken_month": 2
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tul_001-el-rbol-del-tule-586a2d0f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 12,
+          "source": "contributor",
+          "contributor_user_id": "p_2ff15d36a4a6c0a3289686e3",
+          "sighting_id": "586a2d0f-096b-421c-97dc-62e612fd99b2",
+          "note": "Photographed by a reader and sent through the app (2024-12-13); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
         }
       ]
     }

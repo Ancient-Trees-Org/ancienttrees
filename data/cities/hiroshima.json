@@ -68,7 +68,23 @@
       "official_register": {
         "name": "Hiroshima City A-bombed trees (被爆樹木), city register, no. N03a1-01",
         "url": "https://www.city.hiroshima.lg.jp/atomicbomb-peace/fukko/1021101/1026920/1026922/1021004.html"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hir_001-the-willow-nearest-the-hypocentre-96c47295.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_8762d5eeaf614cc69438a40e",
+          "sighting_id": "96c47295-7fb6-40d8-b0da-3575f4b9b420",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "hir_002",
