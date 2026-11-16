@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 Guimaraes write pass: gui_010 live in the app
+
+- **Product**: gui_010 The Camellia of Casa de Margaride is in data/cities/guimaraes.json (now 10 trees): 246-word story leading with the 2024 Portuguese Tree of the Year vote, age dispute kept (about 300 by Wilder, over 100 by the decree, 130 by ICNF), recognition line separating it from the taller Casa de Fresco camellia, best_time March flowers, paid_entry true, no photo. APP FIRST: app feed only, no web page. Species set to the canonical Common Camellia (five cities use it). Access gains one sentence ("Anyone can book a visit through the association's published contact; the garden is not open without one."), so preflight reads the appointment as a public booking; the price stays "confirm". Merged with scripts/build_write_2026_11_16b.py; preflight 0 problems.
+
 ## 2026-11-16 Guimaraes verify pass: one tree delivered
 
 - **Product**: one verified entry, gui_010 The Camellia of Casa de Margaride (2024 Portuguese Tree of the Year, 4th in European Tree of the Year 2025, Despacho 837/2022), flagged, in data/research/guimaraes-verified.json. Its access, the block of two earlier passes, is settled by the Portuguese Historic Gardens Association's entry (paid entry by appointment, contact given) and the bookable-tour rule. Pin approximate (ICNF coordinate, front courtyard as small site); age kept broad 100 to 300 with the dispute in verify_notes.

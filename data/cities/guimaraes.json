@@ -402,6 +402,54 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "gui_010",
+      "name": "The Camellia of Casa de Margaride",
+      "species": "Common Camellia (Camellia japonica)",
+      "age_estimate": "over a century, possibly around 300 years",
+      "age_min": 100,
+      "age_max": 300,
+      "height_m": 6.15,
+      "location": {
+        "address": "Casa de Margaride / Villa Margaridi, Avenida Rio de Janeiro, Margaride, Mesao Frio, Guimaraes",
+        "latitude": 41.45045833,
+        "longitude": -8.276802778,
+        "neighbourhood": "Mesao Frio"
+      },
+      "location_site": {
+        "name": "Front courtyard (terreiro) of Casa de Margaride",
+        "radius_m": 50
+      },
+      "story": "Portugal's Tree of the Year for 2024 is a camellia barely more than six metres tall. It took 3,900 votes, beating the Sobreiro do Rei on 3,075. In 2023 it was Guimaraes' own Tree of the Year, and in 2025 it carried Portugal into the European contest and finished fourth.\n\nIt grows in the front courtyard of Casa de Margaride, a house documented since 1021 and held by the same family for 13 generations. The walled baroque garden behind it dates from around 1675 and runs through three spaces in turn. The state made house and garden a Monument of Public Interest in 2012, and in 2022 it classified the garden's trees as a group, this camellia among the three protected one by one.\n\nHow old it is depends on who you ask. The nature magazine Wilder says about 300 years. The decree's wording and a Jornal de Noticias report say over a hundred, and the forest service's record gave 130 at its last measurement. Somewhere between one and three centuries is the honest answer. Camellias reached Portugal with the sailors of the Discoveries, Wilder notes, but no source says when this one went in.\n\nDo not confuse it with the garden's Casa de Fresco, camellia grown about 15 metres tall inside a circle of box hedge, which is a separate planting.\n\nThe estate is private and cannot be seen from the road. Visits are booked with the owners and paid for, so confirm the price.",
+      "how_to_recognise": "You can recognise it by its bell-shaped crown, 6.3 metres across and about as tall. It stands in the front courtyard of the house, not in the box-hedge circle, whose much taller camellia is the Casa de Fresco.",
+      "verified_sources": [
+        "https://wilder.pt/historias/camelia-japoneira-de-guimaraes-eleita-a-arvore-do-ano-de-2024",
+        "https://guimaraesagora.pt/casa-de-margaride-jardins-historicos-admitidos-na-rota-europeia/",
+        "https://www.jardinshistoricos.pt/ad/412",
+        "https://www.cm-guimaraes.pt/areas-de-intervencao/ambiente-e-sustentabilidade/urbanismo/patrimonio-e-bens-classificados/arvores-e-arvoredo-de-interesse-publico"
+      ],
+      "official_register": {
+        "name": "ICNF Arvores de Interesse Publico, Casa de Margaride rows (Despacho n.o 837/2022)",
+        "url": "https://www.cm-guimaraes.pt/areas-de-intervencao/ambiente-e-sustentabilidade/urbanismo/patrimonio-e-bens-classificados/arvores-e-arvoredo-de-interesse-publico"
+      },
+      "access": "Private estate, garden open as paid entry by appointment: the Associacao Portuguesa dos Jardins Historicos lists it as 'Paid entry / Access by appointment' (contact on its page: casademaride@gmail.com, +351 932 671 231). Owner-led visits; an older press piece (evasoes.pt, c. 2022, seen only as a search summary, page blocked) gave 8 EUR per person with a tasting of the estate's wine, so confirm the price. No standing opening hours published. Garden joined the European Route of Historic Gardens in October 2026; the owner expects about 2,000 visitors in 2026. Not visible from the road. Anyone can book a visit through the association's published contact; the garden is not open without one.",
+      "paid_entry": true,
+      "best_time": {
+        "months": [
+          3
+        ],
+        "kind": "flowers",
+        "label": "March, the height of a camellia's late-winter flowering, when spent blooms drop whole under the crown"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

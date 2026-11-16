@@ -16717,6 +16717,14 @@
       "tokens": 90000,
       "trees": 1,
       "note": "Deepen: most coordinated leads already delivered or private; 1 new (Great Oak Leinestrasse, ND 101) found via city cadastre vs published set; 7 leads added; Rosental poster PDF unread (no PDF tool); token count estimated."
+    },
+    {
+      "date": "2026-11-16",
+      "kind": "write",
+      "target": "guimaraes",
+      "tokens": 60000,
+      "trees": 1,
+      "note": "gui_010 Casa de Margaride camellia, merged app-only; species to canonical Common Camellia, access sentence for public booking; token count estimated."
     }
   ]
 }
