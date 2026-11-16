@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 night run (window from 13:14 UTC): rung 1, 19 reader photographs looked at
+
+- **Product**: 19 reader photographs judged. 9 trees that had no picture now have one (Kamakura Tabunoki, Bilbao chestnut and bald cypress, Boston Public Garden ginkgo, bur oak and pagoda tree, Bristol Combe Dingle sequoias, Setubal sideways melaleuca, Llanerfyl yew); 7 more went into strips beside the lead (Quinault spruce, Tree of Life, Borrowdale yews, Bishops Knoll oak, Royal Hotel vine, Champion Lodgepole, Bird Tree Road blackbutt). Pins moved to readers' GPS fixes at Kamakura, Bilbao, Bristol and Olympic. 1 duplicate dropped.
+- **Held**: Bishops Knoll "Monterey cypress" (photo reads as a redwood, no railings) and the Public Garden "Bagheera beech" (furrowed bark, not a beech): species unsure, wrong tree possible.
+- **Fixed on the way**: a colon-reveal sentence in the Setubal melaleuca story and the Boston FAQ that promised "thirteen" for a city of sixteen. Preflight 0 problems.
+- **Seven unmapped tips** got a verdict in data/leads/_sightings.json. Strong, still to publish with a source: the Essaouira ombu (fix, huge), the Jelasnica oak in Serbia (fix), Den freda eika near Norheimsund (girth 706 cm, no coordinate yet). Held as leads: Prince Eugen's "oak" (photo is a maple), the Helmond plane avenue, the Tassili cypress (no pin), the Vigeois yew (photo credited to someone else, not usable).
+- **Found**: a kamakura_003 reader note says the tree stands in Hase-dera temple, slightly north of our pin; not acted on. judgement.py --scan only stubs trees still in the queue, so after sightings_publish the sight: verdict rows had to be written by hand (preflight refuses without them).
+- Health: green except 2 web-error types (getCurrentPosition in maplibre); no BLOCKER.
+
 ## 2026-11-16 session: the totara and the olive the run could not place
 
 - **Product**: two readers' website tips live, app first. The Giant Tōtara of Montgomery Park, Banks Peninsula (akr_001, new place Akaroa): DOC says it may be 2,000 years old and 8.5 m round, the reader's own figures; pin and 819 cm, 19.8 m from NZ Tree Register CR/1424 (observed Dec 2025). Mastrinka, the olive of Kaštel Štafilić (cdl_003, Kaštela now two trees, olive the hero): Bioportal natural monument ps.4639 pin, 1,500+ years, 6 m, 10 m from kastela-info.hr; access over the railing at the town's visitor point beside the Maslina kindergarten; the reader's note quoted.
