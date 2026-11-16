@@ -147,46 +147,30 @@
    ]
   },
   "p_1a2207af288500d1031c52f6": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "12692037-2dbe-4031-a6ec-5fa426532725",
      "tree_id": "cwh_001",
-     "tree_name": "Coldwaltham Yew",
-     "city": "Coldwaltham",
-     "city_slug": "coldwaltham",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "a695aa1e-9437-4959-aba2-5d53e6780997",
      "tree_id": "cwh_001",
-     "tree_name": "Coldwaltham Yew",
-     "city": "Coldwaltham",
-     "city_slug": "coldwaltham",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "cc260294-0437-4efb-8c0f-5bf73fb0adf3",
      "tree_id": "lon_046",
-     "tree_name": "The Bromley Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800",
      "tree_id": "lon_046",
-     "tree_name": "The Bromley Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_4e1fe1fc8bd36786c2e5a60d": {
    "last": "2026-11-15",
@@ -211,19 +195,15 @@
    ]
   },
   "p_19c6a1525dd9489be783caa4": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "3b6d1dd0-7d29-4b98-b44e-c849565d8c36",
      "tree_id": "azo_005",
-     "tree_name": "Giant Norfolk Island Pine of Lagoa das Furnas",
-     "city": "Azores",
-     "city_slug": "azores",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_185d898c7855df9e68eaf269": {
    "last": null,
@@ -261,70 +241,46 @@
    ]
   },
   "p_9f7b25dda38d08dabcad19bf": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",
      "tree_id": "tmb_002",
-     "tree_name": "The Kyushaku-fuji of Byakugo-ji",
-     "city": "Tamba",
-     "city_slug": "tamba",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "553ee5be-96b8-4e88-a48a-c7d66825dd68",
      "tree_id": "ngy_002",
-     "tree_name": "The Camphor of Atsuta Shrine",
-     "city": "Nagoya",
-     "city_slug": "nagoya",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "6a0bf0dd-540d-4452-9c83-80da96a2a7eb",
      "tree_id": "kyo_002",
-     "tree_name": "The Land Boat Pine",
-     "city": "Kyoto",
-     "city_slug": "kyoto",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "221f1245-c4b5-4b97-a777-879f9f8bd9e7",
      "tree_id": "nra_002",
-     "tree_name": "The Great Cedar of Kasuga Taisha",
-     "city": "Nara",
-     "city_slug": "nara",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_ef526568ae6019eb8bd62688": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "216f76c5-a63d-49dd-a65f-c844261a125e",
      "tree_id": "oxf_004",
-     "tree_name": "The Pococke Plane",
-     "city": "Oxford",
-     "city_slug": "oxford",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "ca81ce44-21da-4740-b57c-fa1b8e342495",
      "tree_id": "oxf_004",
-     "tree_name": "The Pococke Plane",
-     "city": "Oxford",
-     "city_slug": "oxford",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_01e51ab3c21b629be200e5b1": {
    "last": "2026-11-15",
@@ -338,19 +294,15 @@
    ]
   },
   "p_e3c1300149c1256c54642733": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "137b17f1-9f95-420c-a56a-47dc3894ad22",
      "tree_id": "sal_001",
-     "tree_name": "The Hundred-Horse Chestnut",
-     "city": "Sant'Alfio",
-     "city_slug": "santalfio",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f1ffab703af7193c41011b93": {
    "last": "2026-11-15",
@@ -364,34 +316,26 @@
    ]
   },
   "p_5329d52ff075fc126d002f6b": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76",
      "tree_id": "frn_001",
-     "tree_name": "Waverley Abbey Yew",
-     "city": "Farnham",
-     "city_slug": "farnham",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_347edd6d240a141462bb5d4a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c2491ee0-e011-490f-9f9a-42e8c90f9f92",
      "tree_id": "gor_001",
-     "tree_name": "The Autograph Tree",
-     "city": "Gort",
-     "city_slug": "gort",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_e330bf07c42b65d7f56108c1": {
    "last": "2026-11-15",
@@ -432,73 +376,45 @@
    ]
   },
   "p_f1fa71dcb9e46093382f0068": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "fcdce151-c9a5-4421-8781-585b038bb4a3",
      "tree_id": "boi_002",
-     "tree_name": "The Moved Giant Sequoia of Fort Boise Park",
-     "city": "Boise",
-     "city_slug": "boise",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "ce314a69-e2f3-45dd-a694-e4c18d6c2c59",
      "tree_id": "bhg_001",
-     "tree_name": "The Cedars of the Konigsflugel",
-     "city": "Bad Homburg",
-     "city_slug": "bad-homburg",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "f349a906-bd22-4262-9fba-4f455b40a2ed",
      "tree_id": "cop_005",
-     "tree_name": "The Temple Tree of Landbohøjskolens Have",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "5576cb37-4278-4d5b-8a77-33f2564c1e20",
      "tree_id": "tfe_001",
-     "tree_name": "El Drago Milenario",
-     "city": "Tenerife",
-     "city_slug": "tenerife",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "664dff11-706d-432f-9f80-08a751b4f55c",
      "tree_id": "tul_001",
-     "tree_name": "El Árbol del Tule",
-     "city": "Santa María del Tule",
-     "city_slug": "santa-maria-del-tule",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "3325a9bc-9642-4364-8475-8f89d62e834d",
      "tree_id": "bai_001",
-     "tree_name": "The Gomero de la Recoleta",
-     "city": "Buenos Aires",
-     "city_slug": "buenos-aires",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "40d6b9ff-509f-488b-9e02-4f507e7f889a",
      "tree_id": "cop_026",
-     "tree_name": "The Fern-leaved Beech of the National Gallery",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_bf0eb996e2b54d6b87dae9bf": {
    "last": "2026-11-15",
@@ -658,55 +574,35 @@
    ]
   },
   "p_492afbdde23d69af867aff0f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d8b996ea-fdbf-4d4b-9db7-ceffd5957f1f",
      "tree_id": "wai_001",
-     "tree_name": "Tāne Mahuta",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd",
      "tree_id": "for_001",
-     "tree_name": "The Fortingall Yew",
-     "city": "Fortingall",
-     "city_slug": "fortingall",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "47a3d6a9-6da2-47dd-aea3-de69e5c34613",
      "tree_id": "wai_001",
-     "tree_name": "Tāne Mahuta",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "90cb7c6f-5086-4111-aaa1-3ffaf5816746",
      "tree_id": "asb_001",
-     "tree_name": "Ashbrittle Yew",
-     "city": "Ashbrittle",
-     "city_slug": "ashbrittle",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "216338b4-a159-48ae-a60a-676e2a9122fb",
      "tree_id": "for_001",
-     "tree_name": "The Fortingall Yew",
-     "city": "Fortingall",
-     "city_slug": "fortingall",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_5791f5ba6aa18b7e63864c15": {
    "last": "2026-11-15",
@@ -720,34 +616,26 @@
    ]
   },
   "p_3bb2d9b77f839015a3f92de9": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
      "tree_id": "wtn_001",
-     "tree_name": "The Sycamore at the Crum Creek Bridge",
-     "city": "Willistown",
-     "city_slug": "willistown",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_7c3ed65ef79fcc37ae268850": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "24e1a766-4ff4-4c15-8cac-f080514deced",
      "tree_id": "bai_001",
-     "tree_name": "The Gomero de la Recoleta",
-     "city": "Buenos Aires",
-     "city_slug": "buenos-aires",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_3ede14c55de0e0de9b87562a": {
    "last": "2026-11-15",
@@ -867,70 +755,46 @@
    ]
   },
   "p_071683a079961a9398789c42": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c07c7ae8-48d1-4406-9571-1d8e4a7ed0da",
      "tree_id": "dmr_001",
-     "tree_name": "Wistman's Wood",
-     "city": "Dartmoor",
-     "city_slug": "dartmoor",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "9ddf843f-f9a1-4926-b112-74f4a904f502",
      "tree_id": "dmr_001",
-     "tree_name": "Wistman's Wood",
-     "city": "Dartmoor",
-     "city_slug": "dartmoor",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_48178e92fdea8f66a594fb70": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "58c5695b-4cbb-431d-b01e-9b7474bf4767",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "1265f8c2-ab0a-4128-8358-2c7c8063323d",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "19e0931d-42c8-47d4-b051-87188d4d663e",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_b4394ae41139d013921d623e": {
    "last": "2026-11-15",
@@ -1026,19 +890,15 @@
    ]
   },
   "p_4a3e8be0cafb822ba00b39d3": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
      "tree_id": "wai_002",
-     "tree_name": "Te Matua Ngahere",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f5deee9b833aca72c8b2854c": {
    "last": "2026-11-15",
@@ -1052,19 +912,15 @@
    ]
   },
   "p_856cd2e3820af4b001f6554a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
      "tree_id": "rkm_001",
-     "tree_name": "Rumskullaeken (the Kvill Oak)",
-     "city": "Rumskulla",
-     "city_slug": "rumskulla",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_46eb99793fa60c6d1e5a07ed": {
    "last": "2026-11-15",
@@ -1099,130 +955,90 @@
    ]
   },
   "p_19b3a0778e462c16dcceacf1": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
      "tree_id": "nwc_001",
-     "tree_name": "The Norwich Cathedral Cedar",
-     "city": "Norwich",
-     "city_slug": "norwich",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_456665b8a773124350ec9019": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
      "tree_id": "obc_001",
-     "tree_name": "The Fairchild Oak",
-     "city": "Ormond Beach",
-     "city_slug": "ormond-beach",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_d0011595a0e9b807c2d7281e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc",
      "tree_id": "snd_001",
-     "tree_name": "The Sunderland Buttonball Tree",
-     "city": "Sunderland, Massachusetts",
-     "city_slug": "sunderland-massachusetts",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "bcde1019-cccf-445a-a2ab-81b2bdbb8809",
      "tree_id": "mob_003",
-     "tree_name": "Jackson's Oak",
-     "city": "Mobile",
-     "city_slug": "mobile",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "b724f1db-2429-4905-a291-fa1bf50132cd",
      "tree_id": "bos_013",
-     "tree_name": "Endicott Pear Tree",
-     "city": "Boston",
-     "city_slug": "boston",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b",
      "tree_id": "plm_001",
-     "tree_name": "S'Olivera de Cort",
-     "city": "Palma de Mallorca",
-     "city_slug": "palma-de-mallorca",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_2fb168cd887679f3b6633670": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c8d04675-2b33-4799-8579-159c24813e0b",
      "tree_id": "akw_002",
-     "tree_name": "Ardkinglas Silver Fir, the Mightiest Conifer",
-     "city": "Ardkinglas",
-     "city_slug": "ardkinglas",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
      "tree_id": "akw_001",
-     "tree_name": "Ardkinglas Grand Fir",
-     "city": "Ardkinglas",
-     "city_slug": "ardkinglas",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_a52c97c9ecd3468c7f9a998f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "8fcb5cde-944b-4d35-a9bd-79412712a8db",
      "tree_id": "lax_031",
-     "tree_name": "Library Park Fig",
-     "city": "Los Angeles",
-     "city_slug": "los-angeles",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f9a2c5e54ba586d5faf7f49b": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1bdff60c-6ea7-4323-9cf5-fe703f69a248",
      "tree_id": "mlt_001",
-     "tree_name": "Xemxija Old Carob Tree",
-     "city": "Malta",
-     "city_slug": "malta",
-     "display_name": null,
-     "live": "2026-11-15"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   }
  }
 }

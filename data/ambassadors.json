@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-15T20:19Z",
+  "synced": "2026-11-16T04:23Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,15 +20,6 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "braga",
-      "place_name": "Braga",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -59,12 +50,12 @@
       "profile_public": true
     },
     {
-      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
-      "place_slug": "pamplona",
-      "place_name": "Pamplona",
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "braga",
+      "place_name": "Braga",
       "public": true,
-      "since": "2026-11-02",
-      "display_name": "Mikel B.",
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -83,6 +74,15 @@
       "public": true,
       "since": "2026-11-02",
       "display_name": "William G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
+      "place_slug": "pamplona",
+      "place_name": "Pamplona",
+      "public": true,
+      "since": "2026-11-02",
+      "display_name": "Mikel B.",
       "profile_public": true
     },
     {
@@ -137,6 +137,24 @@
       "public": true,
       "since": "2026-11-15",
       "display_name": "Natty Ice",
+      "profile_public": true
+    },
+    {
+      "user_id": "04e23b6d-749a-4f67-9508-bd0bb94cfba7",
+      "place_slug": "melbourne",
+      "place_name": "Melbourne",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "Kate A.",
+      "profile_public": true
+    },
+    {
+      "user_id": "003fead1-db2b-4f48-adef-4d7a14eb9a9d",
+      "place_slug": "toronto",
+      "place_name": "Toronto",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "Cher T.",
       "profile_public": true
     },
     {
@@ -631,6 +649,36 @@
         "The Pollard Oaks of Wantisden"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b88d0387be93737c1e25f04f",
+      "place_slug": "bowthorpe",
+      "place_name": "Bowthorpe",
+      "date": "2026-11-16",
+      "trees": [
+        "The Bowthorpe Oak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e4cf35da312b73472f8b6291",
+      "place_slug": "doveridge",
+      "place_name": "Doveridge",
+      "date": "2026-11-16",
+      "trees": [
+        "The Doveridge Yew"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9cc31350702533ff4614483d",
+      "place_slug": "woodside",
+      "place_name": "Woodside",
+      "date": "2026-11-16",
+      "trees": [
+        "The Methuselah Tree"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -846,6 +894,20 @@
       "place_slug": "auckland",
       "place_name": "Auckland",
       "date": "2026-11-15"
+    },
+    {
+      "row": 883,
+      "user_id": "p_b9ead67390290dbda0c4d2e0",
+      "place_slug": "melbourne",
+      "place_name": "Melbourne",
+      "date": "2026-11-16"
+    },
+    {
+      "row": 888,
+      "user_id": "p_8399a5cd215d167a81f5d68f",
+      "place_slug": "toronto",
+      "place_name": "Toronto",
+      "date": "2026-11-16"
     }
   ],
   "told": {
@@ -1409,6 +1471,40 @@
         "akl_005"
       ],
       "since": "2026-11-15",
+      "mailed": []
+    },
+    "melbourne": {
+      "trees": [
+        "mel_001",
+        "mel_002",
+        "mel_003",
+        "mel_004",
+        "mel_005",
+        "mel_006",
+        "mel_007",
+        "mel_008",
+        "mel_009",
+        "mel_010",
+        "mel_011",
+        "mel_012",
+        "mel_013",
+        "mel_014",
+        "mel_015",
+        "mel_016"
+      ],
+      "since": "2026-11-16",
+      "mailed": []
+    },
+    "toronto": {
+      "trees": [
+        "tro_001",
+        "tro_002",
+        "tro_003",
+        "tro_004",
+        "tro_005",
+        "tro_006"
+      ],
+      "since": "2026-11-16",
       "mailed": []
     }
   }
