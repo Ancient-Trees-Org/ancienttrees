@@ -32,7 +32,9 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 ## 2026-11-16 session: Ross's facts on the Wheatley Elm of Balgreen
 
-The reader who added the Edinburgh Wheatley elm (edi_022) answered the congratulation mail: about 150 years old, likely Britain's second widest Wheatley elm, verified by Owen Johnson, one of six on the avenue. All on the page as his account (age as a reader's estimate, recognition line says the pin marks this one of six). Reply drafted in drafts/reply-ross-edinburgh-2026-11-16.md, waits for Hidde's yes.
+The reader who added the Edinburgh Wheatley elm (edi_022) answered the congratulation mail: about 150 years old, likely Britain's second widest Wheatley elm, verified by Owen Johnson, one of six on the avenue. All on the page as his account (age as a reader's estimate, recognition line says the pin marks this one of six). Reply sent in his thread on Hidde's "Verstuur".
+
+Bug found by Hidde on Damien's profile: a reader's tree published without their photograph (his Glynburn Road gum, an archive print we did not use) never got its sighting linked, so the profile showed it twice and without Approved. sightings_link.py now links found_by_reader sightings too; ads_002 and hum_001 linked; qa check_a_readers_tree_links_its_sighting.
 
 ## 2026-11-16 session: worth-it votes counted apart from trees and photos
 
