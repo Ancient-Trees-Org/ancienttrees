@@ -151,6 +151,10 @@ export interface FeedPhoto {
   /** The season that month is where the tree stands, flipped south of the
    * equator (seasons.ts), or null. The app files the photograph under it. */
   season: Season | null;
+  /** The sightings row a visitor's photograph came from (bare uuid), else
+   * null. New from visitors shows the tile with the photograph that row is,
+   * not the tree's lead (Hidde, 2026-11-15). */
+  sighting: string | null;
 }
 
 export function feedTrees(cities: CityEntry[]): FeedTree[] {
@@ -286,6 +290,9 @@ function resolvePhoto(p: ReturnType<typeof usablePhoto>, lat: number, colour?: n
       // taken in the tree's best months (Hidde, 2026-10-13).
       taken_month: (p as any).taken_month ?? null,
       season: seasonOfMonth((p as any).taken_month, lat, colour),
+      sighting: (p as any).source === "contributor"
+        ? (String((p as any).sighting_id ?? "").toLowerCase().match(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/)?.[0] ?? null)
+        : null,
       }
     : null;
 }
