@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-16T10:08Z",
+  "synced": "2026-11-16T10:56Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -24,24 +24,6 @@
     },
     {
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "calvos",
-      "place_name": "Calvos",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "vales",
-      "place_name": "Vales",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "guimaraes",
       "place_name": "Guimaraes",
       "public": true,
@@ -53,6 +35,24 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "braga",
       "place_name": "Braga",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "calvos",
+      "place_name": "Calvos",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "vales",
+      "place_name": "Vales",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -164,6 +164,24 @@
       "public": true,
       "since": "2026-11-16",
       "display_name": "Laura T.",
+      "profile_public": true
+    },
+    {
+      "user_id": "0a819e62-0180-45de-8658-cbc56ec1c35d",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "Ross B.",
+      "profile_public": true
+    },
+    {
+      "user_id": "9577aee4-d231-453d-9a5a-944451418721",
+      "place_slug": "adelaide",
+      "place_name": "Adelaide",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "Damien C.",
       "profile_public": true
     },
     {
@@ -924,6 +942,22 @@
       "place_slug": "colchester",
       "place_name": "Colchester",
       "date": "2026-11-16"
+    },
+    {
+      "row": null,
+      "user_id": "p_185d898c7855df9e68eaf269",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "date": "2026-11-16",
+      "note": "said yes by mail to the P.S. of the congratulation mail"
+    },
+    {
+      "row": null,
+      "user_id": "p_4c6d780bd118980f5c6e58c6",
+      "place_slug": "adelaide",
+      "place_name": "Adelaide",
+      "date": "2026-11-16",
+      "note": "said yes by mail to the P.S. of the congratulation mail"
     }
   ],
   "told": {
