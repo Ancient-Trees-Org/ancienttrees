@@ -48,6 +48,14 @@ def wanted():
         with open(path, encoding="utf-8") as fh:
             city = json.load(fh)
         for t in city.get("trees") or []:
+            # The sighting a reader's tree grew from is linked even when its
+            # photograph is not on the page (Damien's Glynburn Road gum,
+            # 2026-11-16: an archive print we did not use, so the row kept
+            # tree_id null, showed beside the tree as his own and never got
+            # Approved on his profile).
+            found = sighting_row_id((t.get("found_by_reader") or {}).get("sighting_id"))
+            if found:
+                out.setdefault(found, t["id"])
             shots = [t.get("photo") or {}] + [p for p in (t.get("photos") or []) if p]
             for p in shots:
                 sid = sighting_row_id(p.get("sighting_id"))

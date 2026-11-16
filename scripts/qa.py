@@ -599,6 +599,30 @@ def check_the_digest_never_shows_bots():
     return out
 
 
+def check_a_readers_tree_links_its_sighting():
+    """Every reader-found tree links the sighting it grew from, photo used or not.
+
+    Damien's Glynburn Road gum (adelaide/ads_002, 2026-11-16): we published the
+    tree but not his photograph (an archive print), and sightings_link.wanted()
+    read only photographs, so his row kept tree_id null. His profile then showed
+    it as his own loose tree beside the real one, without Approved. Hidde: "why
+    is the second one not approved?". This runs wanted() over the city files and
+    fails on any found_by_reader sighting it leaves out.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import sightings_link
+    want = sightings_link.wanted()
+    out = []
+    root = Path(__file__).resolve().parent.parent
+    for path in sorted((root / "data/cities").glob("*.json")):
+        for t in json.loads(path.read_text(encoding="utf-8")).get("trees") or []:
+            sid = sightings_link.sighting_row_id((t.get("found_by_reader") or {}).get("sighting_id"))
+            if sid and want.get(sid) != t["id"]:
+                out.append(f"{path.stem}/{t['id']}: reader sighting {sid[:8]} is not linked to it by "
+                           "sightings_link.wanted(); the reader's profile shows it twice, without Approved.")
+    return out
+
+
 def check_votes_never_count_as_contributions():
     """A worth-it vote is never counted with trees, photos, corrections or notes.
 
@@ -4220,6 +4244,7 @@ def main():
         check_the_digest_never_shows_bots,
         check_the_headline_never_judges_take_me_there,
         check_votes_never_count_as_contributions,
+        check_a_readers_tree_links_its_sighting,
         check_the_digest_page_shows_readers_words,
         check_a_deleted_account_keeps_its_photographs,
         check_notes_are_read_before_they_are_marked_read,
@@ -4430,6 +4455,7 @@ def main():
     failures += check_the_digest_never_shows_bots()
     failures += check_the_headline_never_judges_take_me_there()
     failures += check_votes_never_count_as_contributions()
+    failures += check_a_readers_tree_links_its_sighting()
     failures += check_the_digest_page_shows_readers_words()
     failures += check_a_deleted_account_keeps_its_photographs()
     failures += check_notes_are_read_before_they_are_marked_read()

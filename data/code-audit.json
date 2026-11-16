@@ -377,6 +377,17 @@
    "found_by": "hidde",
    "test": "qa.py check_a_website_tree_says_approved_on_my_trees",
    "fixed_in": "dd5bc39cb"
+  },
+  {
+   "id": "ESC-2026-11-16-a-reader-s-tree-published-without-their-",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "",
+   "summary": "A reader's tree published without their photograph stayed unlinked: shown twice on their profile, without Approved (Damien, Adelaide ads_002)",
+   "first_seen": "2026-11-16",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "check_a_readers_tree_links_its_sighting"
   }
  ]
 }
