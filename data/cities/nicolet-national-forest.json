@@ -53,10 +53,17 @@
       "curation_status": "flagged",
       "verify_notes": "Register only. Tall for a white pine; the figure is a register measurement, not ours. Pin approximate. Note the brief asked for a tree visible from the road only, which this is; no walking route claimed. Register figures (nomination measurement, date not in the layer): circumference 156 in (396 cm), height 157 ft (47.9 m), crown spread [53, 49] ft, 325.75 champion points. Champion status is the state's largest-of-species record at nomination; vitality field none. Open-licence photo search (Commons geosearch 200 m) found no picture of this trunk.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nfw_001-the-huff-creek-road-white-pine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_765b23354f625ac28497e968",
+        "sighting_id": "9092ed9e-e2d2-432d-8123-bfcc162609ea",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Huge furrowed white pine trunk with a person for scale, daylight and colour. Species seen: Eastern white pine: deeply ridged grey bark, massive straight bole. Fits the description: very large old pine in woodland.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

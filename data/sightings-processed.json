@@ -3268,6 +3268,61 @@
   "tip-966": {
    "outcome": "lead",
    "date": "2026-11-16"
+  },
+  "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "bil_003",
+   "city_slug": "bilbao",
+   "file": "bil_003-the-centenary-trees-of-parque-de-la-misericordia.jpg",
+   "reason": "Tall Canary Island date palm in front of the San Mames building, backlit but clearly the tree; closes a photo gap. Species seen: Phoenix palm: tall straight trunk, pinnate crown. Fits the description: tall old palms of a park beside a historic building.",
+   "lat": 43.2651283333333,
+   "lon": -2.94675833333333,
+   "pin_checked": "2026-11-16"
+  },
+  "9092ed9e-e2d2-432d-8123-bfcc162609ea": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "nfw_001",
+   "city_slug": "nicolet-national-forest",
+   "file": "nfw_001-the-huff-creek-road-white-pine.jpg",
+   "reason": "Huge furrowed white pine trunk with a person for scale, daylight and colour. Species seen: Eastern white pine: deeply ridged grey bark, massive straight bole. Fits the description: very large old pine in woodland.",
+   "lat": 46.009999,
+   "lon": -88.699868,
+   "pin_checked": "2026-11-16"
+  },
+  "ea9d0b2f-f100-496d-a05c-6f492630635f": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "bil_001",
+   "city_slug": "bilbao",
+   "file": "bil_001-the-plane-trees-of-jardines-de-albia-ea9d0b2f.jpg",
+   "reason": "Planes of Albia in autumn light, forked trunk, daylight and colour; better than the held one. Species seen: London plane: mottled flaking bark, forked trunk. Fits the description: old plane trees in an urban garden square.",
+   "lat": 43.2629366666667,
+   "lon": -2.92887833333333,
+   "pin_checked": "2026-11-16"
+  },
+  "68f3ef55-878f-4dad-846d-9582ed057c08": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "lon_016",
+   "city_slug": "london",
+   "file": "lon_016-the-great-plane-of-brunswick-square-68f3ef55.jpg",
+   "reason": "Whole great plane in autumn colour against blue sky, in a park. Species seen: London plane: huge broad crown, leaf shape. Fits the description: enormous old plane in a London square.",
+   "lat": 51.524357208113,
+   "lon": -0.122389873038124,
+   "pin_checked": "2026-11-16"
+  },
+  "37223ae8-945a-4737-bd16-1cf8defb2ee1": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "ber_016",
+   "city_slug": "berlin",
+   "file": "ber_016-the-lietzensee-plane-37223ae8.jpg",
+   "reason": "Gnarled old plane by the lake with its whole structure in view. Species seen: London plane: burred trunk, spreading limbs, lake edge. Fits the description: old plane at a lakeside.",
+   "lat": 52.5075,
+   "lon": 13.28676,
+   "pin_checked": "2026-11-16"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

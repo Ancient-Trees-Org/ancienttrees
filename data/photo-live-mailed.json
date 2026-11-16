@@ -1319,6 +1319,15 @@
      "city_slug": "bilbao",
      "display_name": null,
      "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c",
+     "tree_id": "bil_003",
+     "tree_name": "The Centenary Trees of Parque de la Misericordia",
+     "city": "Bilbao",
+     "city_slug": "bilbao",
+     "display_name": null,
+     "live": "2026-11-16"
     }
    ],
    "sent": [
@@ -1405,6 +1414,21 @@
      "tree_name": "The Lietzensee Plane",
      "city": "Berlin",
      "city_slug": "berlin",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_765b23354f625ac28497e968": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "9092ed9e-e2d2-432d-8123-bfcc162609ea",
+     "tree_id": "nfw_001",
+     "tree_name": "The Huff Creek Road White Pine",
+     "city": "Nicolet National Forest",
+     "city_slug": "nicolet-national-forest",
      "display_name": null,
      "live": "2026-11-16"
     }

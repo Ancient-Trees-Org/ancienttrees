@@ -1815,6 +1815,165 @@
    "agreed": null
   },
   {
+   "id": "lead:c5a1fd34-70e8-4a81-9496-4e32edb80964",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Westonbirt Arboretum",
+   "city": null,
+   "species": null,
+   "photo": "p_c92bf27a9e9198550ba26f3e/C5A1FD34-70E8-4A81-9496-4E32EDB80964.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-966",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Leccio (Quercus Ilex) nel piazzale della stazione",
+   "city": "San Bonifacio",
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_c1b7d3b9e60e1b4fcc2f517e/46ea0680-a705-46a6-9fdf-f3c6fb686234.jpg",
+   "reader_note": "Ampiezza della chioma di 20 metri.",
+   "reader_girth_cm": 265,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:37223ae8-945a-4737-bd16-1cf8defb2ee1",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Lietzensee Plane",
+   "city": "Berlin",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/37223ae8-945a-4737-bd16-1cf8defb2ee1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Old burred plane at the Lietzensee, whole tree in daylight and colour, species matches. Added beside the existing photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ea9d0b2f-f100-496d-a05c-6f492630635f",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane Trees of Jardines de Albia",
+   "city": "Bilbao",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/ea9d0b2f-f100-496d-a05c-6f492630635f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Forked plane in Jardines de Albia in daylight and colour; GPS fix 46 m from our pin, so the pin is now confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Centenary Trees of Parque de la Misericordia",
+   "city": "Bilbao",
+   "species": "Canary Island Date Palm (Phoenix canariensis)",
+   "photo": "out/sightings/6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Canary Island Date Palm (Phoenix canariensis)"
+   },
+   "verdict": "publish",
+   "reason": "Tall Canary Island date palm before the San Mames building; closes a photo gap, GPS fix confirmed the pin. Backlit but clearly the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:68f3ef55-878f-4dad-846d-9582ed057c08",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Plane of Brunswick Square",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/68f3ef55-878f-4dad-846d-9582ed057c08.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Whole great plane in autumn colour against blue sky, same tree as the existing lead. Added beside it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9092ed9e-e2d2-432d-8123-bfcc162609ea",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Huff Creek Road White Pine",
+   "city": "Nicolet National Forest",
+   "species": "Eastern White Pine (Pinus strobus)",
+   "photo": "out/sightings/9092ed9e-e2d2-432d-8123-bfcc162609ea.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern White Pine (Pinus strobus)"
+   },
+   "verdict": "publish",
+   "reason": "Massive furrowed eastern white pine with a person for scale, daylight and colour; closes a photo gap.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:45ea816d-259f-4437-ac86-d3499f0269a4",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",
