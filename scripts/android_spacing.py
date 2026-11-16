@@ -445,13 +445,25 @@ def android_nodes(xml_text, density, screen_h_dp):
 
 # ---------------------------------------------------------------- comparing
 
+def counted(t):
+    """A row's name without the count it ends in: the species list's "Oriental
+    Plane Platanus orientalis 70" is "... 73" a few days later on the live feed,
+    and the row stopped pairing, so the header was held against the words inside
+    it (main's spacing check, red from 2026-11-15). Only a label of words ending
+    in a number; a lone number stays itself."""
+    m = re.match(r"^(.*\D)\s+\d+$", t or "")
+    return m.group(1).strip() if m and re.search(r"[a-z]{2}", m.group(1)) else ""
+
+
 def keys_ios(e):
     # A lone separator ("·") is a glyph inside a line, not a block on the page.
-    return [k for k in (("id", e["id"]), ("t", norm(e["label"]))) if k[1] and re.search(r"\w", k[1])]
+    t = norm(e["label"])
+    return [k for k in (("id", e["id"]), ("t", t), ("tn", counted(t))) if k[1] and re.search(r"\w", k[1])]
 
 
 def keys_android(n):
-    return [k for k in (("id", n["id"]), ("t", norm(n["text"])), ("t", norm(n["desc"])))
+    t, d = norm(n["text"]), norm(n["desc"])
+    return [k for k in (("id", n["id"]), ("t", t), ("t", d), ("tn", counted(t)), ("tn", counted(d)))
             if k[1] and re.search(r"\w", k[1])]
 
 
@@ -477,7 +489,8 @@ def match(ios_els, and_nodes):
     ios_els = dedupe(sorted(ios_els, key=lambda e: (e["y"], e["x"])), keys_ios)
     and_nodes = dedupe(sorted(and_nodes, key=lambda n: (n["y"], n["x"])), keys_android)
     pairs, used = [], set()
-    for kind in ("id", "t"):
+    # "tn" last: a name without its live count pairs only what nothing better did.
+    for kind in ("id", "t", "tn"):
         index = {}
         for n in and_nodes:
             for k in keys_android(n):
