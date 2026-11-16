@@ -25,6 +25,14 @@
         "tokens": 60000,
         "trees": 0,
         "note": "nothing writable: all 15 pending rows carry a standing hold with no new evidence since the 11-15 pass (access, cannot be told apart, no sighting, sfo_012 duplicate of sfo_004); taiwan holds only a _notes row; all_001 given its hold in the file; estimate"
+      },
+      {
+        "date": "2026-11-16",
+        "kind": "write",
+        "target": "pending (us/uk first)",
+        "tokens": 45000,
+        "trees": 0,
+        "note": "Nothing writable: the seven suggested files are fully published; the 15 pending entries all stand on holds set by the earlier 11-16 write pass (access, pin, life check) or are duplicates; token count estimated."
       }
     ],
     "2026-11-15": [

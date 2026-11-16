@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 write pass: nothing to write
+
+- **Product**: nothing new. The seven research files suggested for this pass (wisconsin, us-photo-batch-1, wales-yews, somerset-dorset-yews, southeast-england-yews, washington-dc-2, new-york-3) are fully published. `passcheck.py --pending` lists only the 15 entries the earlier write pass today judged as standing holds (all_001, asp_001/002, ssb_002/003, brd_001, cbu_001, dmr_002, det_001/002, frk_027, sgz_005, inn_007, tmt_001, not_002/003) or duplicates (sfo_012, taiwan a28_001); no new verified file since. No story written over a hold.
+- **Next**: the write shelf needs a verify pass first; US and UK verify targets from `city_queue.py --next`.
+
 ## 2026-11-16 later attempt: Coimbra verify found nothing
 
 - **Product**: nothing new. The shelf is nearly empty: of 19 pending verified entries only 2 shipped (see below); 17 stand on earlier holds. Coimbra verify pass (claimed, released, now a 48h wall): the open leads are private quintas, already live, or have no pin or current measurement; a lead for the Buçaco sequoia twins (bsc_010 or separate) and notes on the Botanical Garden Eucalyptus cornuta (1984 figures via Goes, no pin) were added to data/leads/coimbra.json. Next for a window: Guimaraes, Porto, Setubal, Stuttgart, or a register scout (Zurich, BUILD).
