@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Nathalie (Auckland ambassador) answered
+
+- **Mail**: Hidde's own reply sent in her thread on his "Verstuur" (drafts/batches/reply-nathalie-2026-11-16.json): she asked how to send trees from around the world; the app is easiest (iOS live, Android being built), otherwise email; suggestions on features and trees welcome. She has trees on file for the coming week: each one that comes is a tree to finish.
+- **Voice**: my first draft thanked her for the app photo she had sent the day before; he: "ze stuurt toch helemaal geen foto mee?". Recorded in HIS_VOICE.md (answer the mail in front of you).
+
 ## 2026-11-16 session: Cathedral Grove's Big Tree, from a reader's mail
 
 - **Product**: the Big Tree of Cathedral Grove (cgv_001, MacMillan Provincial Park, Vancouver Island) is live as a lone tree page: a Coast Douglas-fir over 9 m round and about 76 m tall, 800+ years by BC Parks and the park sign. Sources BC Parks, Wikipedia, the HMDB marker; pin confirmed from the OSM tree node and komoot's highlight (within 15 m, south of Highway 4). A reader's tip by mail (`found_by_reader.tip`), so it gets its page under APP FIRST. No place page (one tree).
