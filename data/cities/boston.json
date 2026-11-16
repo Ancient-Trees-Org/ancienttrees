@@ -18,7 +18,7 @@
     },
     {
       "q": "Are Boston's remarkable trees free to visit?",
-      "a": "All thirteen are free. Two stand on Boston Common and in the Public Garden, seven in the Arnold Arboretum (open free daily, Orange Line to Forest Hills), three across the river in Cambridge, and one, the Endicott Pear, in Danvers, where it is seen through its fence beside a hospital car park."
+      "a": "Yes, every one is free. They stand on Boston Common and in the Public Garden, in the Arnold Arboretum (open free daily, Orange Line to Forest Hills), across the river in Cambridge, and one, the Endicott Pear, in Danvers, where it is seen through its fence beside a hospital car park."
     },
     {
       "q": "What is a Franklinia and why does Boston have one?",
@@ -1015,10 +1015,17 @@
         "label": "August, when sprays of cream flowers open and almost no other tree is in bloom"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bos_047-the-public-garden-pagoda-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_5774dc8ff2d6e8e3fdb946d4",
+        "sighting_id": "77ce04ee-679c-4274-a27c-031a1bac3780",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Thick fissured multi-stem trunk, fine compound leaves, spreading crown, daylight. Species seen: compound leaves, fissured trunk (pagoda tree). Fits the description: broad spreading crown, thick fissured trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {
@@ -1179,10 +1186,17 @@
         "label": "November, when the whole crown turns butter gold and drops in a day or two"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bos_051-the-public-garden-ginkgo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_5774dc8ff2d6e8e3fdb946d4",
+        "sighting_id": "fd43b27f-e4a4-46c0-9e8a-9465077f80f8",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Big ginkgo, fan-shaped leaves, yellow-green crown, daylight. Species seen: ginkgo crown, fan leaves. Fits the description: largest ginkgo in the garden.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {
@@ -1217,10 +1231,17 @@
       "verify_notes": "One source only (city inventory DBH 53.1 in, girth about 424 cm), flagged one source. No age or planting date found. Grouped walk: pagoda tree, ginkgo and bur oak stand within about 40 m of each other (ids 56140, 56146, 56147). python3 scripts/lifecheck.py 2026-11-03: RECENT iNaturalist observation within the radius (not proven to be this trunk). City inventory file regenerated 2026-11-03.",
       "story": "Macrocarpa means big fruit, and this oak's acorns sit in cups edged with a shaggy fringe. It is the broadest of the Public Garden's six bur oaks, 53.1 inches across in the city's tree inventory, about 4.2 metres round. The next one down is 41.4.\n\nThat inventory is the only record of this tree's size. No register lists it and nothing published gives its history, so the figure stands on one good source. It is still a big oak by any standard for a city garden, and it has a lot of company. The Garden's biggest ginkgo stands about ten metres away and the state's second-largest Japanese pagoda tree a little further on, so this corner of the Arlington Street side packs three of the Garden's largest trees into a space you can cross in a minute.\n\nBur oak is a North American species, and its big, deeply lobed leaves are almost as distinctive as the acorns, which come down under the crown in autumn.\n\nNobody has published when this tree was planted, and its girth alone is not an honest guide to the age of an oak in a city garden. If you know its story, tell us. It is a three-minute walk from Arlington station.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bos_052-the-public-garden-bur-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_5774dc8ff2d6e8e3fdb946d4",
+        "sighting_id": "049c5bd7-8c08-41ab-8155-46368b1823a8",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Broad furrowed oak trunk with spreading limbs and a tree label on it, autumn daylight. Species seen: deeply ridged oak bark, spreading crown. Fits the description: broad-crowned oak, labelled trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {

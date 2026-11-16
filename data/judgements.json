@@ -1256,7 +1256,7 @@
     "note": "nothing measurable about Blackbutt"
    },
    "verdict": "publish",
-   "reason": "Lead photograph of mbr_001: the whole trunk from its foot up into the crown, boardwalk for scale, daylight, colour, GPS fix.",
+   "reason": "The great buttressed eucalypt rising above the boardwalk, as described.",
    "hidde": null,
    "agreed": null
   },
@@ -1332,7 +1332,7 @@
     "note": "nothing measurable about Lodgepole Pine"
    },
    "verdict": "publish",
-   "reason": "Lead photograph of bbl_001: the trunk into the lower crown, hikers at its foot for scale; the whole-tree view from the meadow in the strip.",
+   "reason": "Thick russet lodgepole trunk at a meadow edge, bare dead branches hanging.",
    "hidde": null,
    "agreed": null
   },
@@ -1360,7 +1360,457 @@
     "note": "nothing measurable about Grape"
    },
    "verdict": "publish",
-   "reason": "Lead photograph of gil_001: the whole vine from its twisted trunk to the leaf roof over the courtyard, daylight, colour.",
+   "reason": "Twisted grey grapevine trunk in the beer garden, canopy over the pergola.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-908",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "akaroa/akr_001 The Giant Tōtara of Montgomery Park",
+   "city": null,
+   "species": null,
+   "photo": "p_2488e74029ba86d35cd03b06/59182a97-b834-4131-9a47-cf11595813b5.jpg",
+   "reader_note": "2,000 years old, with a massive measuring around 8.5 meters",
+   "reader_girth_cm": 850,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of akr_001: the trunk from its root flare into the crown, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-928",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "kastela/cdl_003 Mastrinka, the Olive of Kaštel Štafilić",
+   "city": null,
+   "species": "Olive (Olea sp.)",
+   "photo": "p_4cefec9f5644f57abdf55de5/8aaacc3b-25f0-4dda-91e0-4bada94ffb62.jpg",
+   "reader_note": "Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive (Olea sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of cdl_003: the whole twisted trunk and the crown above it, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Phytolacca dioica",
+   "city": null,
+   "species": "Phytolacca dioica",
+   "photo": "p_85c2d43904a9511a0351ab47/5784282E-F1A8-4516-AB2E-CCE4D2F0F3BE.jpg",
+   "reader_note": "Oldest tree in Morocco inside the ombu cafe",
+   "reader_girth_cm": 1000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.917,
+    "via": "girth",
+    "note": "92% of the species reference (1090 cm, n=6, max 1090)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_a319dde81175eb8e4af7318f/68515BBD-0BDC-475A-BB16-5E8E324DB9C9.jpg",
+   "reader_note": "300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.",
+   "reader_girth_cm": 200,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.51,
+    "via": "girth",
+    "note": "51% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bfc89932-0e03-486f-9857-72e11af25298",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Prince Eugen's Oak",
+   "city": null,
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_dfdceb3527ac9b7eb918f7ae/BFC89932-0E03-486F-9857-72E11AF25298.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b4902ef7-a641-4d4d-86c4-98b316da873d",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Helmond",
+   "city": null,
+   "species": null,
+   "photo": "p_50e48aa35db2ec7f9d9cd265/B4902EF7-A641-4D4D-86C4-98B316DA873D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 92 m away (netherlands-lrmb): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 51.619343,
+      "lng": 5.545482,
+      "source": "netherlands-lrmb",
+      "designation": "",
+      "name": "Moeraseik",
+      "species": "",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 91.7
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-947",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "The Tassili cypress",
+   "city": "Tassili Plateau, Algeria",
+   "species": "Cypress (Cupressus sp.)",
+   "photo": "p_56b3c957f392ac896d07c586/2675fe92-fa09-42ea-918d-428dd3f3c3da.jpg",
+   "reader_note": "There are maybe 200 of these Sahara cypress left. None have been known to geminate in recent years",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cypress (Cupressus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-951",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Pendulate Oak",
+   "city": "Norheimsund",
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_1da733ab711af3a711a929ed/c38270fa-b4d6-4bc6-b7dd-28733041aad6.jpg",
+   "reader_note": "A hollow oak called \"Den freda eika\", and is one of Norways biggest oaks. In the 1950s, along with it officially being protectet, it was estimated to being 950 years old. In other words, it is now over a 1000 years old, and is still just as healthy. It was standing while the the vikings were still living in the area.",
+   "reader_girth_cm": 706,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-959",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Yew",
+   "city": "Vigeois",
+   "species": "Yew (Taxus sp.)",
+   "photo": "p_1d51f247b2edfb80a49fe6a5/0b9795a5-d7c0-4d5f-94f7-f6a26106572f.jpg",
+   "reader_note": "The millennial yew of Vigeois in Corrèze, France, is a magnificent 1,400-year-old tree planted during the abbey's 6th-century foundation and labeled a \"Remarkable Tree.\" Despite storm damage and internal decay, local arborists carefully prune and cable it to preserve this historic village landmark.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Yew (Taxus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "broad-leaved evergreen, knobbly grey trunk (Machilus)",
+   "photo": "out/sightings/a2c6c73e-e6b4-4f5f-9c99-da16d8c74875.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Gnarled evergreen trunk with hollowed limb beside the shrine buildings, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "bare spreading crown, dark furrowed trunk, chestnut-like",
+   "photo": "out/sightings/53335cb3-ead5-4c24-802b-b1f1c1db0aa1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Large bare horse chestnut in a park, daylight; the tree is not individually pinned, so a mature chestnut is all the record asks.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:40b57e0b-fc77-4f71-affd-50f82641ab10",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "tall tapering red-brown fibrous trunk, sequoia-like",
+   "photo": "out/sightings/40b57e0b-fc77-4f71-affd-50f82641ab10.jpg",
+   "reader_note": "",
+   "verdict": "hold",
+   "reason": "Looking up a tall reddish fibrous trunk: reads as a giant sequoia or redwood, not a Monterey cypress, and no iron railings in frame. Could be the wrong tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2632a81c-4101-44f9-b8f2-d6da60701515",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "ridged furrowed bark, spreading limbs",
+   "photo": "out/sightings/2632a81c-4101-44f9-b8f2-d6da60701515.jpg",
+   "reader_note": "",
+   "verdict": "hold",
+   "reason": "Trunk is ridged and furrowed, not smooth grey like a beech; the fountain behind is the only link. Species unsure.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fd43b27f-e4a4-46c0-9e8a-9465077f80f8",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "ginkgo crown, fan leaves",
+   "photo": "out/sightings/fd43b27f-e4a4-46c0-9e8a-9465077f80f8.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Big ginkgo, fan-shaped leaves, yellow-green crown, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:48e12498-8c41-4ce1-9e90-0b71c08d874a",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "giant sequoia, fibrous red bark, tall columnar trunk",
+   "photo": "out/sightings/48e12498-8c41-4ce1-9e90-0b71c08d874a.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Very tall tapering trunk with soft fibrous bark and a sequoia crown, in woodland.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:049c5bd7-8c08-41ab-8155-46368b1823a8",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "deeply ridged oak bark, spreading crown",
+   "photo": "out/sightings/049c5bd7-8c08-41ab-8155-46368b1823a8.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Broad furrowed oak trunk with spreading limbs and a tree label on it, autumn daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f696cf2f-53e9-4a97-b27a-fba78e23a118",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "melaleuca, low twisted domes",
+   "photo": "out/sightings/f696cf2f-53e9-4a97-b27a-fba78e23a118.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Low sprawling domes on twisted trunks by the water, exactly the sideways shape described.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:77ce04ee-679c-4274-a27c-031a1bac3780",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "compound leaves, fissured trunk (pagoda tree)",
+   "photo": "out/sightings/77ce04ee-679c-4274-a27c-031a1bac3780.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Thick fissured multi-stem trunk, fine compound leaves, spreading crown, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6fa67b16-2dfe-429c-a3c5-84f10d8c3c43",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "feathery russet foliage, buttressed base (bald cypress)",
+   "photo": "out/sightings/6fa67b16-2dfe-429c-a3c5-84f10d8c3c43.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Tall russet bald cypress with buttressed base at an institution gate, autumn colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:30ec18fe-46f9-4fb1-86d0-c09590a1826a",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "yew, red fluted trunks",
+   "photo": "out/sightings/30ec18fe-46f9-4fb1-86d0-c09590a1826a.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Multi-trunked yew inside a low wall in a churchyard, headstones around it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d21fa973-8906-4f73-81f7-c7e4036c2fd2",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "Sitka spruce bark and crown",
+   "photo": "out/sightings/d21fa973-8906-4f73-81f7-c7e4036c2fd2.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Looking up a huge furrowed spruce trunk; a good second view beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d8212c9e-e921-4b28-b931-44a7ff01fec4",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "spruce foliage on a root-held trunk",
+   "photo": "out/sightings/d8212c9e-e921-4b28-b931-44a7ff01fec4.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "The famous roots arching over the bluff gap, plainly this tree; stronger than the existing view.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3cf4d1ae-05de-4dff-b168-0c0815960fd3",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "yew needles, arils, fluted trunk",
+   "photo": "out/sightings/3cf4d1ae-05de-4dff-b168-0c0815960fd3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Massive fluted yew trunk with red arils, a close view beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1b2096fe-4e2d-41f0-9517-b288ef04b372",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": null,
+   "city": null,
+   "species": "oak branching, lobed leaves",
+   "photo": "out/sightings/1b2096fe-4e2d-41f0-9517-b288ef04b372.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Gnarled many-limbed oak in autumn, fused stems at the base.",
    "hidde": null,
    "agreed": null
   },
@@ -9747,51 +10197,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-908",
-   "seen": "2026-11-16",
-   "kind": "photo of a tree we map",
-   "tree": "akaroa/akr_001 The Giant Tōtara of Montgomery Park",
-   "city": null,
-   "species": null,
-   "photo": "p_2488e74029ba86d35cd03b06/59182a97-b834-4131-9a47-cf11595813b5.jpg",
-   "reader_note": "2,000 years old, with a massive measuring around 8.5 meters",
-   "reader_girth_cm": 850,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Lead photograph of akr_001: the trunk from its root flare into the crown, daylight, colour.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-928",
-   "seen": "2026-11-16",
-   "kind": "photo of a tree we map",
-   "tree": "kastela/cdl_003 Mastrinka, the Olive of Kaštel Štafilić",
-   "city": null,
-   "species": "Olive (Olea sp.)",
-   "photo": "p_4cefec9f5644f57abdf55de5/8aaacc3b-25f0-4dda-91e0-4bada94ffb62.jpg",
-   "reader_note": "Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans",
-   "reader_girth_cm": 650,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Olive (Olea sp.)"
-   },
-   "verdict": "publish",
-   "reason": "Lead photograph of cdl_003: the whole twisted trunk and the crown above it, daylight, colour.",
    "hidde": null,
    "agreed": null
   }

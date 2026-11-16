@@ -93,10 +93,17 @@
         "label": "November, when the needles turn copper and drop and the conifer stands bare"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bil_002-the-bald-cypress-of-deusto.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c35c044ba2fb9ea5470abeae",
+        "sighting_id": "6fa67b16-2dfe-429c-a3c5-84f10d8c3c43",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Tall russet bald cypress with buttressed base at an institution gate, autumn colour. Species seen: feathery russet foliage, buttressed base (bald cypress). Fits the description: swollen buttressed trunk at main building.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "A bare-looking conifer with a swollen, buttressed trunk at the University of Deusto's main entrance, facing the Guggenheim across the river."
     },
@@ -141,8 +148,8 @@
       "girth_cm": null,
       "location": {
         "address": "Parque de Doña Casilda de Iturrizar, 48013 Bilbao",
-        "latitude": 43.2658,
-        "longitude": -2.941,
+        "latitude": 43.264983,
+        "longitude": -2.939803,
         "neighbourhood": "Abando"
       },
       "verified_sources": [
@@ -151,7 +158,7 @@
       ],
       "access": "Free, open public park, Bilbao's largest and most central, accessible at all times.",
       "transport": "Indautxu or San Mames metro, about 5-10 minutes' walk; also served by several bus lines along Alameda de Recalde and Astarloa.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "story": "In a park stocked with trees from five continents, the specimen the guides keep naming is a horse chestnut. Parque de Doña Casilda de Iturrizar is Bilbao's largest central park, 115,200 square metres of ponds, pergola and imported botany begun in 1907, and its planting runs to dozens of species from all over the world. The one that gets singled out is Aesculus hippocastanum, a Balkan tree so common on northern European streets that children in four countries grow up throwing sticks at it, and here it is always described the same way: centenario, over a hundred years old.\n\nWorth knowing how thin that is. Two separately hosted travel pages make the claim, and they make it in almost the same words, un centenario castaño de Indias, which reads like both are repeating one municipal or tourist-board line rather than two people noticing the same tree. Take it as decent evidence that the tree is there and what species it is, and weaker evidence about its age. Nobody has measured it, and centenario is the only number anyone offers.\n\nNo source says where in the park it stands either, and 115,200 square metres is a lot of ground to sweep for one chestnut. May makes it easier. The crown goes up in white candles and there is no mistaking which tree you are looking at. If you find it, tell us where it is.",
       "best_time": {
@@ -162,12 +169,26 @@
         "label": "May, when the crown goes up in white candles and the tree is easy to pick out"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bil_004-the-centenary-horse-chestnut-of-parque-de-do-a-casilda.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c35c044ba2fb9ea5470abeae",
+        "sighting_id": "53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Large bare horse chestnut in a park, daylight; the tree is not individually pinned, so a mature chestnut is all the record asks. Species seen: bare spreading crown, dark furrowed trunk, chestnut-like. Fits the description: mature horse chestnut in the park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "Not individually pinned within the park; look for a mature horse chestnut among the imported specimens, easiest to spot in May when it flowers white."
+      "how_to_recognise": "Not individually pinned within the park; look for a mature horse chestnut among the imported specimens, easiest to spot in May when it flowers white.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
+        "moved_m": 133,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     }
   ]
 }

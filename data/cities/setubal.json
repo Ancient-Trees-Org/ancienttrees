@@ -166,7 +166,7 @@
         "longitude": -8.8912,
         "neighbourhood": "Waterfront"
       },
-      "story": "Two metres round the trunk, three and a half metres tall, and a crown eleven metres wide. Those numbers describe a tree that decided early on to spend its life going outwards rather than up, and the result in this waterfront garden is a low sprawling dome of long branches running almost horizontally from the base, which you walk under rather than look up at. The parish calls it a living monument, and it is the strangest thing on this page. Melaleuca armillaris comes from the coast of New South Wales, gets its name from the bracelet-like rings its cream flowers form along the stems, and has papery bark that peels in soft sheets. It is planted along the Sado waterfront because it tolerates salt wind, which is the same reason it grows low and wide: this is what the species does when it spends a century in the path of weather off the water. The register puts it at 150 years, which is high for its kind and which no other source confirms, so treat the number lightly and the tree seriously.",
+      "story": "Two metres round the trunk, three and a half metres tall, and a crown eleven metres wide. Those numbers describe a tree that decided early on to spend its life going outwards rather than up, and the result in this waterfront garden is a low sprawling dome of long branches running almost horizontally from the base, which you walk under rather than look up at. The parish calls it a living monument, and it is the strangest thing on this page. Melaleuca armillaris comes from the coast of New South Wales, gets its name from the bracelet-like rings its cream flowers form along the stems, and has papery bark that peels in soft sheets. It is planted along the Sado waterfront because it tolerates salt wind, and the same exposure keeps it low and wide, which is what the species does when it spends a century in the path of weather off the water. The register puts it at 150 years, which is high for its kind and which no other source confirms, so treat the number lightly and the tree seriously.",
       "verified_sources": [
         "https://si.icnf.pt/wfs/arv_class",
         "https://www.uf-setubal.pt/atividades/ambiente/projetos/377-roteiro-das-arvores-de-interesse-publico",
@@ -175,10 +175,17 @@
       "access": "Free, public waterfront garden",
       "transport": "On the Sado waterfront, about 10 min walk from the centre",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/stb_004-the-melaleuca-that-grows-sideways.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+        "sighting_id": "f696cf2f-53e9-4a97-b27a-fba78e23a118",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Low sprawling domes on twisted trunks by the water, exactly the sideways shape described. Species seen: melaleuca, low twisted domes. Fits the description: low sprawling dome of horizontal branches.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "The 150-year register figure at the 2016 measurement is the highest in Setubal and is unconfirmed anywhere else; the parish records no age at all for this tree. Published as a register claim with the range left wide rather than repeated as fact.",

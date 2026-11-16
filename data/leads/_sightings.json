@@ -4184,7 +4184,7 @@
    "user_id": "p_dfdceb3527ac9b7eb918f7ae",
    "mine": false,
    "name": "Prince Eugen's Oak",
-   "species": null,
+   "species": "Oak (Quercus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -4204,7 +4204,8 @@
    },
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "b4902ef7-a641-4d4d-86c4-98b316da873d",
@@ -4250,7 +4251,7 @@
    "user_id": "p_56b3c957f392ac896d07c586",
    "mine": false,
    "name": "The Tassili cypress",
-   "species": null,
+   "species": "Cypress (Cupressus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -4268,14 +4269,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-951",
    "user_id": "p_1da733ab711af3a711a929ed",
    "mine": false,
    "name": "Pendulate Oak",
-   "species": null,
+   "species": "Oak (Quercus sp.)",
    "age": null,
    "girth_cm": 706,
    "girth_hugs": null,
@@ -4293,14 +4295,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-959",
    "user_id": "p_1d51f247b2edfb80a49fe6a5",
    "mine": false,
    "name": "Yew",
-   "species": null,
+   "species": "Yew (Taxus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -4316,7 +4319,8 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   }
  ]
 }

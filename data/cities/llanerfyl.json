@@ -56,10 +56,17 @@
       "location_precision": "approximate",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lef_001-llanerfyl-yew.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_98370d76725d42a3fb5773cb",
+        "sighting_id": "30ec18fe-46f9-4fb1-86d0-c09590a1826a",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Multi-trunked yew inside a low wall in a churchyard, headstones around it. Species seen: yew, red fluted trunks. Fits the description: several trunks ringed by a low wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

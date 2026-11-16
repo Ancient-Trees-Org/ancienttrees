@@ -660,20 +660,6 @@
           "sighting_id": "1b2096fe-4e2d-41f0-9517-b288ef04b372",
           "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-16"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/bri_016-the-bundle-planted-sessile-oak-bishops-knoll-a3b445ba.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
-          "sighting_id": "a3b445ba-ddaf-4c9f-a94e-a77968edb6a3",
-          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-16"
         }
       ]
     },
@@ -719,8 +705,8 @@
       "girth_cm": 710,
       "location": {
         "address": "Combe Dingle, by the lower pond on the Trym, Blaise Castle Estate, Bristol BS10",
-        "latitude": 51.4973,
-        "longitude": -2.63955,
+        "latitude": 51.497095,
+        "longitude": -2.639347,
         "neighbourhood": "Coombe Dingle"
       },
       "verified_sources": [
@@ -728,15 +714,29 @@
       ],
       "access": "Free. Within the public Blaise Castle Estate (council-owned, Wikipedia); on the slope beside the stream near the lower pond.",
       "transport": "Not checked; Coombe Dingle suburb adjoins the estate. About 6.5 km north-west of the centre (computed).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "how_to_recognise": "You can recognise them as two very tall giant sequoias standing together, the thicker one, 7.1 metres round, on the stream side. They stand on the slope beside the stream near the lower pond in Combe Dingle.",
       "story": "Two Californian giants stand thirty metres apart at the bottom of a Bristol valley, beside a stream and a small pond. The thicker of the pair measures 7.1 metres round, which makes it, according to the Bristol Tree Forum, the largest of the three Wellingtonias on the Blaise Castle Estate. Its partner, about 30 metres away, is 6 metres round.\n\nWellingtonia is the British name for the giant sequoia, the species of the biggest trees on Earth in the Sierra Nevada, and in Britain it is a newcomer. The Forum's account is that seed reached the Veitch nursery in 1855. It dates the smaller of these two at about 150 years. That is an estimate from the species' arrival, not a planting record, so the pair are best thought of as somewhere between 150 and 170 years old.\n\nThat makes them young by the standards of this list, and by the standards of their own species, which can live for thousands of years in California. Here, beside the lower pond on the Trym, they are a century and a half into that. The third of the estate's Wellingtonias, 33 metres tall, stands near the house, about 900 metres away.\n\nWe have only the Forum's survey for these trees. If you know more about who planted them, tell us.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bri_018-the-wellingtonias-by-the-lower-pond-combe-dingle.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
+        "sighting_id": "48e12498-8c41-4ce1-9e90-0b71c08d874a",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Very tall tapering trunk with soft fibrous bark and a sequoia crown, in woodland. Species seen: giant sequoia, fibrous red bark, tall columnar trunk. Fits the description: tall giant sequoia.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "48e12498-8c41-4ce1-9e90-0b71c08d874a",
+        "moved_m": 27,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

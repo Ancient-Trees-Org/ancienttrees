@@ -1304,6 +1304,117 @@
      "city_slug": "bristol",
      "display_name": null,
      "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "48e12498-8c41-4ce1-9e90-0b71c08d874a",
+     "tree_id": "bri_018",
+     "tree_name": "The Wellingtonias by the Lower Pond, Combe Dingle",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_0289c91ba29e05d604583950": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+     "tree_id": "kmk_003",
+     "tree_name": "The Tabunoki of the Goryo Shrine at Sakanoshita",
+     "city": "Kamakura",
+     "city_slug": "kamakura",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_c35c044ba2fb9ea5470abeae": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
+     "tree_id": "bil_004",
+     "tree_name": "The Centenary Horse Chestnut of Parque de Doña Casilda",
+     "city": "Bilbao",
+     "city_slug": "bilbao",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "6fa67b16-2dfe-429c-a3c5-84f10d8c3c43",
+     "tree_id": "bil_002",
+     "tree_name": "The Bald Cypress of Deusto",
+     "city": "Bilbao",
+     "city_slug": "bilbao",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_5774dc8ff2d6e8e3fdb946d4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "fd43b27f-e4a4-46c0-9e8a-9465077f80f8",
+     "tree_id": "bos_051",
+     "tree_name": "The Public Garden Ginkgo",
+     "city": "Boston",
+     "city_slug": "boston",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "049c5bd7-8c08-41ab-8155-46368b1823a8",
+     "tree_id": "bos_052",
+     "tree_name": "The Public Garden Bur Oak",
+     "city": "Boston",
+     "city_slug": "boston",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "77ce04ee-679c-4274-a27c-031a1bac3780",
+     "tree_id": "bos_047",
+     "tree_name": "The Public Garden Pagoda Tree",
+     "city": "Boston",
+     "city_slug": "boston",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_dc0896ccc090a0d74571d474": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "f696cf2f-53e9-4a97-b27a-fba78e23a118",
+     "tree_id": "stb_004",
+     "tree_name": "The Melaleuca That Grows Sideways",
+     "city": "Setubal",
+     "city_slug": "setubal",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_98370d76725d42a3fb5773cb": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "30ec18fe-46f9-4fb1-86d0-c09590a1826a",
+     "tree_id": "lef_001",
+     "tree_name": "Llanerfyl Yew",
+     "city": "Llanerfyl",
+     "city_slug": "llanerfyl",
+     "display_name": null,
+     "live": "2026-11-16"
     }
    ],
    "sent": []

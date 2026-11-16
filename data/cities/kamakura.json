@@ -118,8 +118,8 @@
       "height_m": 20,
       "location": {
         "address": "Goryo Shrine, Sakanoshita 3-17, Kamakura 248-0021",
-        "latitude": 35.311033,
-        "longitude": 139.533027,
+        "latitude": 35.312558,
+        "longitude": 139.533767,
         "neighbourhood": "Sakanoshita"
       },
       "story": "The Enoden train runs across this shrine's approach. Goryo Shrine at Sakanoshita sits behind Hase, and the level crossing at its torii is one of the most photographed spots in Kamakura, because the little green and cream train passes within a couple of metres of the shrine steps. Most people are there for the train. The tabunoki behind it is 20 metres tall, a Kamakura City Natural Monument and one of the six Kamakura trees on Kanagawa's list of a hundred notable trees. Tabunoki is an evergreen of the laurel family that grows along warm coasts, and this is close to the sea; its new leaves come out bronze in spring before turning, which on a tree this size is a fortnight of the whole crown looking rusty. The shrine is dedicated to Kamakura Gongoro Kagemasa, a warrior who by the tale of the Later Three Year War took an arrow in the eye at sixteen, had it pulled out by a comrade who braced a foot on his face, and objected to the foot rather than the arrow. His festival in September involves masks and is one of the odder things in the Kamakura calendar. No age is published for the tree.",
@@ -131,18 +131,32 @@
       "access": "Free, shrine grounds open daily",
       "transport": "Enoden line to Hase, about 5 minutes on foot; the shrine approach crosses the railway",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kmk_003-the-tabunoki-of-the-goryo-shrine-at-sakanoshita.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_0289c91ba29e05d604583950",
+        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+        "note": "Photographed by a reader and sent through the app (2018-05-01); a viewing pass approved it on 2026-11-16: Gnarled evergreen trunk with hollowed limb beside the shrine buildings, daylight, colour. Species seen: broad-leaved evergreen, knobbly grey trunk (Machilus). Fits the description: old twisted trunk at the shrine gate.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "notes": "Kamakura City Natural Monument and one of Kanagawa's hundred notable trees; height 20 m from that list. No age or girth published. The pin is the shrine, not the trunk. The Kagemasa story is the shrine's own tradition.",
       "how_to_recognise": "You can recognise it as the big evergreen behind the shrine at the Enoden level crossing, 20 metres tall, its new leaves coming out bronze in spring before they turn.",
       "official_register": {
         "name": "Kamakura City Designated Natural Monument (鎌倉市指定天然記念物), no. Tabunoki (Machilus), 1 stem, Sakanoshita 152, Goryo Shrine; designated 1973-04-11",
         "url": null
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+        "moved_m": 182,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
