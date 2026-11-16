@@ -2,7 +2,7 @@
   "city": "La Tène",
   "country": "Switzerland",
   "status": "needs_curation",
-  "intro": "La Tène, the commune at the northern end of Lake Neuchâtel whose name was given to a whole period of Celtic Europe, has one place on our map: the park of the Préfargier estate at Marin-Epagnier. A reader walked through it and photographed five trees, three Atlas cedars grown into one crown, a giant sequoia, a dawn redwood, three weeping beeches and a large-leaved lime.",
+  "intro": "La Tène, the commune at the northern end of Lake Neuchâtel whose name was given to a whole period of Celtic Europe, has one place on our map: the park of the Préfargier estate at Marin-Epagnier. A reader walked through it and photographed five trees, three Atlas cedars grown into one crown, a tall cedar on the lawn, a dawn redwood, three weeping beeches and a large-leaved lime.",
   "meta_description": "Three Atlas cedars at Préfargier in La Tène, canton of Neuchâtel: a reader's photograph, where they stand and how to see them.",
   "hero_tree_id": "prf_001",
   "oldest_tree_id": "prf_001",
@@ -56,8 +56,8 @@
     },
     {
       "id": "prf_002",
-      "name": "The Giant Sequoia of Préfargier",
-      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "name": "The Tall Cedar of Préfargier",
+      "species": "Atlas Cedar (Cedrus atlantica)",
       "age_estimate": "not documented",
       "age_min": null,
       "age_max": null,
@@ -68,8 +68,8 @@
         "longitude": 7.01043888333333,
         "neighbourhood": "Préfargier, Marin-Epagnier"
       },
-      "story": "A giant sequoia stands on the lawn of the Préfargier park in La Tène, far from California, and a reader measured its girth at 705 centimetres. They photographed it twice, once from a distance and once close to the trunk.\n\nThe photograph shows a tall tree with one straight trunk, blue-green foliage in drooping sprays and a crown that narrows toward the top. The species is the reader's; we could not confirm it from the frame. We have found no register entry, planting date or height for it, so the girth is the reader's figure too. Seven metres round would be a large trunk for a tree in a European park.\n\nIt stands in the same park as the Three Atlas Cedars of Préfargier, a short walk across the lawns. Tell us what you find if you put a tape round it. If you can confirm the species, or give a height or a planting date, the page will take it.",
-      "how_to_recognise": "A tall dark giant sequoia with a straight trunk, standing on the lawn in the Préfargier park.",
+      "story": "A tall cedar stands on the lawn of the Préfargier park in La Tène, and a reader measured its girth at 705 centimetres. They photographed it twice, once from a distance and once close to the trunk.\n\nThe photograph shows one straight trunk, silvery blue-green needles in tufts along layered, level limbs and a crown that narrows toward the top, which is how an Atlas cedar looks. The reader called it a giant sequoia, but the frame does not show one, so we list it as a cedar and the species is open to correction. We have found no register entry, planting date or height for it, so the girth is the reader's figure. Seven metres round would be a large trunk for a tree in a European park.\n\nIt stands in the same park as the Three Atlas Cedars of Préfargier, a short walk across the lawns. Tell us what you find if you put a tape round it. If you can confirm the species, or give a height or a planting date, the page will take it.",
+      "how_to_recognise": "A tall, silvery blue-green cedar with a straight trunk and layered limbs, standing on the lawn in the Préfargier park.",
       "verified_sources": [],
       "found_by_reader": {
         "sighting_id": "2186bb95-6054-4154-b6d9-c75cb1fca187",
@@ -208,7 +208,7 @@
         "longitude": 7.00926945,
         "neighbourhood": "Préfargier, Marin-Epagnier"
       },
-      "story": "A large-leaved lime stands near the wall of the Préfargier park in La Tène, and a reader photographed it in late autumn when its leaves had turned yellow-green. They named the species and gave no measurements.\n\nThe crown is a wide, even dome, so full that it hides most of its own branches, and many slender stems rise straight up from the main limbs as if the tree had been cut back to a stool long ago. Ivy climbs the trunk. Behind it stands an old garden wall with a small brick fountain niche, and to the right the shuttered pale walls of a house.\n\nWe found no register entry, girth or planting date for the tree, so this page gives none. It makes a handsome pair of landmarks with the cedars and the sequoia of the same park.\n\nIf you have a tape, a girth would be welcome here.",
+      "story": "A large-leaved lime stands near the wall of the Préfargier park in La Tène, and a reader photographed it in late autumn when its leaves had turned yellow-green. They named the species and gave no measurements.\n\nThe crown is a wide, even dome, so full that it hides most of its own branches, and many slender stems rise straight up from the main limbs as if the tree had been cut back to a stool long ago. Ivy climbs the trunk. Behind it stands an old garden wall with a small brick fountain niche, and to the right the shuttered pale walls of a house.\n\nWe found no register entry, girth or planting date for the tree, so this page gives none. It makes a handsome pair of landmarks with the cedars of the same park.\n\nIf you have a tape, a girth would be welcome here, and so would a planting date from anyone who knows the estate's history.",
       "how_to_recognise": "A wide dome of yellow-green lime leaves with many upright shoots, ivy on its trunk, in front of an old garden wall with a brick fountain niche.",
       "verified_sources": [],
       "found_by_reader": {
@@ -242,12 +242,12 @@
     }
   ],
   "question_meta": "Three Atlas cedars grow together at Préfargier, La Tène, canton of Neuchâtel. Where they stand and how to see them.",
-  "question_answer": "A reader found five remarkable trees in the park of the Préfargier estate at Marin-Epagnier, in La Tène, canton of Neuchâtel: three Atlas cedars growing together, a giant sequoia, a dawn redwood, three weeping beeches and a large-leaved lime.",
+  "question_answer": "A reader found five remarkable trees in the park of the Préfargier estate at Marin-Epagnier, in La Tène, canton of Neuchâtel: three Atlas cedars growing together, a tall cedar, a dawn redwood, three weeping beeches and a large-leaved lime.",
   "question_context": "Everything this page says about the cedars comes from one reader's photograph and note, sent through the app on 5 November 2026 with a GPS fix taken where they stood. No tree register we hold lists them, we found no published survey of the Préfargier park that names them, and we have no girth, height or planting date. The photograph is the evidence. It shows three separate trunks a few metres apart on an open lawn, low limbs that sweep almost to the grass, and blue-green needles held in flat tiers, the look of the Atlas cedar, Cedrus atlantica, a conifer from the Atlas Mountains of Morocco and Algeria that is often grown in European parks. Together the three read as one broad dark pyramid against the woods behind. The park belongs to a health-care institution, the maison de santé de Préfargier, and we found no published opening hours for its grounds. The cedars stand beside a gravel footpath, and the reader's photograph shows another walker on it. If you know when they were planted, or have put a tape round one of the trunks, tell us on the page and it goes into this answer.",
   "faq": [
     {
       "q": "What kind of trees are they?",
-      "a": "Atlas cedars, a giant sequoia, a dawn redwood, weeping beeches and a large-leaved lime."
+      "a": "Atlas cedars, a tall cedar, a dawn redwood, weeping beeches and a large-leaved lime."
     },
     {
       "q": "Where are they?",
@@ -255,7 +255,7 @@
     },
     {
       "q": "How old are they?",
-      "a": "We have found no planting date or measurement for them except a reader's girths for the sequoia and the dawn redwood."
+      "a": "We have found no planting date or measurement for them except a reader's girths for the tall cedar and the dawn redwood."
     }
   ]
 }
