@@ -2055,6 +2055,51 @@ def ambassador_requests_section(today):
     return "\n".join(out)
 
 
+FEEDBACK_KINDS = ("Worth it", "Not worth it", "Pin moved", "Written feedback",
+                  "Report on a tree", "Could not tell which tree", "Collected far from our pin")
+
+
+def feedback_kind(why):
+    """Which of FEEDBACK_KINDS one feedback or correction row is, from its
+    words (Hidde, 2026-11-16: the day table's single Feedback row of 98 was
+    66 worth-it taps and 20 moved pins, "een aparte lijst ... dat zegt wat
+    meer"). Anything a person typed themselves is written feedback."""
+    w = (why or "").strip()
+    low = w.lower()
+    if low == "worth it":
+        return "Worth it"
+    if low == "not worth it":
+        return "Not worth it"
+    if low.startswith("moved the pin on the map"):
+        return "Pin moved"
+    if low.startswith("collected with a photograph"):
+        return "Collected far from our pin"
+    if low.startswith("could not tell which tree") or low.startswith("not clear which tree"):
+        return "Could not tell which tree"
+    if low.startswith("report:") or low.startswith("report detail:"):
+        return "Report on a tree"
+    return "Written feedback"
+
+
+def feedback_lines(subs, days):
+    """The feedback of the last day and of the week, by kind (see feedback_kind)."""
+    last = days[-1]
+    day, week = collections.Counter(), collections.Counter()
+    for r in subs:
+        k = feedback_kind(r.get("why"))
+        week[k] += 1
+        if str(r.get("created_at"))[:10] == last:
+            day[k] += 1
+    if not week:
+        return []
+    out = ["", "**Feedback by kind** (the Feedback row above, split; their words are in the readers-in-full block)", "",
+           "| Kind | %s | **7 days** |" % last[5:], "|---|---:|---:|"]
+    for k in FEEDBACK_KINDS:
+        if week[k]:
+            out.append("| %s | %d | **%d** |" % (k, day[k], week[k]))
+    return out
+
+
 def day_by_day_section(today):
     """The last seven days, one row a day, strangers only: the table Hidde
     keeps track by (2026-10-25: "ik mis het dagelijkse overzicht van de
@@ -2071,6 +2116,7 @@ def day_by_day_section(today):
         "App Store reviews"))
     totals = {}  # a row whose week is not the sum of its days
     pending = {}  # row -> days the source has not reported yet: "–", never 0
+    feedback = []  # the Feedback row's submissions, split by kind under the table
 
     def fill(name, pairs):
         c = cols[name] = collections.Counter()
@@ -2129,8 +2175,8 @@ def day_by_day_section(today):
                     and not (r.get("why") or "").startswith("vote undone")]
             fill("Trees sent", ((r["created_at"], 1) for r in subs if r.get("kind") in ("tree", "city")))
             fill("Ambassador asks", ((r["created_at"], 1) for r in subs if r.get("kind") == "ambassador"))
-            fill("Feedback", ((r["created_at"], 1) for r in subs
-                              if r.get("kind") not in ("tree", "city", "ambassador")))
+            feedback = [r for r in subs if r.get("kind") not in ("tree", "city", "ambassador")]
+            fill("Feedback", ((r["created_at"], 1) for r in feedback))
         except Exception as e:
             print("day_by_day submissions: %s" % str(e)[:100])
     try:
@@ -2198,6 +2244,7 @@ def day_by_day_section(today):
     if any(pending.values()):
         out.append("- – means the source has not reported that day yet (Apple's downloads "
                    "arrive a day or two late), not zero.")
+    out += feedback_lines(feedback, days)
     return "\n".join(out)
 
 
