@@ -87,9 +87,49 @@ def keep_copy(msg):
         print(f"mailer: sent, but no copy in Gmail's Sent folder ({type(e).__name__})")
 
 
+def _gmail_route(creds):
+    """The old route (OUTREACH_SMTP_*), or None when this machine has none."""
+    if not creds or not creds.get("SMTP_HOST") or not creds.get("SMTP_PASS"):
+        return None
+    return (creds["SMTP_HOST"], int(creds.get("SMTP_PORT") or 587), creds["SMTP_USER"], creds["SMTP_PASS"])
+
+
+def _open(host, port, user, pw, timeout):
+    smtp = smtplib.SMTP(host, port, timeout=timeout)
+    smtp.starttls()
+    smtp.login(user, pw)
+    return smtp
+
+
+# What Resend says when it will not take a mail (its free plan stops at 100 a
+# day): an SMTP refusal. A dropped connection is not on the list, because the
+# mail may have left and Gmail would send it twice.
+_REFUSED = (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused)
+
+
 class _Server:
-    def __init__(self, smtp, copy):
+    """GMAIL WHEN RESEND IS FULL (Hidde, 2026-11-16, "Yes, add fallback", after
+    the Guardian wave took Resend to 80% of its 100 a day). Resend's free plan
+    refuses mail past 100 a day; the scripts then retried a day later. Now a
+    refusal from Resend (or Resend unreachable at connect) sends that mail and
+    the rest of this connection through Gmail, the route every mail took before
+    2026-10-12: unsigned for our domain, so Yahoo bounces it, but everyone else
+    hears from us the same day. The Supabase sign-in hook does the same split."""
+
+    def __init__(self, smtp, copy, creds=None, timeout=30):
         self._smtp, self._copy = smtp, copy
+        self._creds, self._timeout = creds, timeout
+        self._gmail = None
+
+    def _via_gmail(self, msg, why):
+        route = _gmail_route(self._creds)
+        if not route:
+            return False
+        if self._gmail is None:
+            print(f"mailer: Resend refused ({why}); this mail and the rest go through Gmail")
+            self._gmail = _open(*route, self._timeout)
+        self._gmail.send_message(msg)  # Gmail files it in Sent by itself
+        return True
 
     def send_message(self, msg, recent_ok=None):
         if not recent_ok and not msg["In-Reply-To"]:
@@ -103,15 +143,27 @@ class _Server:
             msg["Date"] = formatdate(localtime=True)
         if not msg["Message-ID"]:
             msg["Message-ID"] = make_msgid(domain="ancienttrees.app")
-        self._smtp.send_message(msg)
+        if self._gmail is not None or self._smtp is None:
+            if self._via_gmail(msg, "Resend unreachable" if self._smtp is None else "earlier mail"):
+                return
+            raise smtplib.SMTPServerDisconnected("Resend unreachable and no Gmail route on this machine")
+        try:
+            self._smtp.send_message(msg)
+        except _REFUSED as e:
+            if not self._copy or not self._via_gmail(msg, f"{type(e).__name__} {str(e)[:120]}"):
+                raise
+            return
         if self._copy:
             keep_copy(msg)
 
     def quit(self):
-        try:
-            self._smtp.quit()
-        except Exception:  # noqa: BLE001
-            pass
+        for smtp in (self._smtp, self._gmail):
+            if smtp is None:
+                continue
+            try:
+                smtp.quit()
+            except Exception:  # noqa: BLE001
+                pass
 
     def __enter__(self):
         return self
@@ -122,7 +174,10 @@ class _Server:
 
 def connect(creds, timeout=30):
     host, port, user, pw, via_resend = _route(creds)
-    smtp = smtplib.SMTP(host, port, timeout=timeout)
-    smtp.starttls()
-    smtp.login(user, pw)
-    return _Server(smtp, via_resend)
+    try:
+        smtp = _open(host, port, user, pw, timeout)
+    except (smtplib.SMTPException, OSError):
+        if not via_resend or not _gmail_route(creds):
+            raise
+        smtp = None  # every send goes through Gmail (_Server.send_message)
+    return _Server(smtp, via_resend, creds, timeout)

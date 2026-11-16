@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: mail goes through Gmail when Resend is full
+
+Resend warned at 80% of its free 100 a day. Reason: the Guardian wave. On 11-15, about 84 script mails went through Resend (59 photo-live, 15 replies, 6 Yahoo sign-ins, 4 ambassador). The 129 welcome mails went through Gmail, so they don't count. Past 100, Resend refused and the scripts retried a day later. Now (Hidde: "Yes, add fallback") scripts/mailer.py sends a mail Resend refuses, and the rest of that connection, through Gmail, as the Supabase sign-in hook already does. A dropped connection does not fall back (the mail may have left). Gmail mail is unsigned for our domain, so a Yahoo address still bounces on a full day. Tested against fake servers (refusal, unreachable, no Gmail route raises). Watch the month: the free plan stops at 3,000.
+
 ## 2026-11-16 session: the red "Maximum call stack" web error is not ours
 
 - The quality line's red Web Live cell ("RangeError: Maximum call stack size exceeded.", 5 reports on 3 pages, 11-15) comes from one client, not our code. All 5 rows say Chrome 157, from two bursts (09:43 and 19:59 UTC) by the same client that also sent 7 "Failed to fetch" rows and an "Error: Na" that day. Lines 190 to 194 point at unrelated code on each page (a comment on /, an `if (!dlg) return` on /explore, a headers() builder on /bilbao); none of it can recurse. It is a script injected by an extension or automated browser, reported with our page as its file. /, /explore and /bilbao run without a console error in Chrome today.
