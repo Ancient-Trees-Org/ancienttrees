@@ -1,0 +1,80 @@
+{
+  "city": "Cathedral Grove",
+  "country": "Canada",
+  "status": "needs_curation",
+  "intro": "Cathedral Grove, in MacMillan Provincial Park on central Vancouver Island, is a stand of old-growth Douglas-firs on both sides of Highway 4 between Qualicum Beach and Port Alberni. Its Big Tree, more than nine metres round and about 76 metres tall, is the largest fir in the park, and BC Parks puts some of the grove's trees at more than 800 years old.",
+  "meta_description": "The Big Tree of Cathedral Grove, MacMillan Provincial Park, Vancouver Island: a Douglas-fir over nine metres round, about 76 metres tall, beside Highway 4.",
+  "hero_tree_id": "cgv_001",
+  "oldest_tree_id": "cgv_001",
+  "trees": [
+    {
+      "id": "cgv_001",
+      "name": "The Big Tree of Cathedral Grove",
+      "species": "Coast Douglas-fir (Pseudotsuga menziesii var. menziesii)",
+      "age_estimate": "more than 800 years",
+      "age_min": 800,
+      "age_basis": "source",
+      "girth_cm": 900,
+      "height_m": 76.0,
+      "location": {
+        "address": "Big Tree Trail, south side of Highway 4, MacMillan Provincial Park, 16 km east of Port Alberni, Vancouver Island, BC",
+        "latitude": 49.29049,
+        "longitude": -124.66186,
+        "neighbourhood": "MacMillan Provincial Park"
+      },
+      "story": "The Big Tree is the largest Douglas-fir in Cathedral Grove, more than nine metres round at the base and about 76 metres tall by the park's own sign, which also puts it at over 800 years old.\n\nThat it still stands is down to a lumberman. This timber belonged to H.R. MacMillan's export company, and after years of refusing public calls to spare it, MacMillan gave 136 hectares in 1944 \"for the perpetual enjoyment of the public\". Three years later the land became a provincial park.\n\nThe grove's worst day came on New Year's Day 1997, when a windstorm brought down hundreds of its trees. Some stretches of trail were so damaged they have never reopened. The Big Tree came through.\n\nThe park straddles Highway 4 between Qualicum Beach and Port Alberni. The largest firs stand on the south side of the road, where the Big Tree Trail leaves from the roadside parking and loops through the old growth to this trunk. Across the highway the trails run among western redcedars towards Cameron Lake. BC Parks asks visitors to stay off the trails on windy days, when branches can come down without warning.",
+      "how_to_recognise": "The widest trunk on the Big Tree Trail, south of the highway: a straight, deeply furrowed grey-brown Douglas-fir column more than nine metres round, a few steps from the trail's \"Nature's Cathedral\" information board.",
+      "verified_sources": [
+        "https://bcparks.ca/macmillan-park/",
+        "https://en.wikipedia.org/wiki/MacMillan_Provincial_Park",
+        "https://www.hmdb.org/m.asp?m=311179",
+        "https://www.openstreetmap.org/#map=19/49.29049/-124.66186",
+        "https://www.komoot.com/highlight/884153",
+        "A reader's tip by mail, 2026-11-15"
+      ],
+      "found_by_reader": {
+        "tip": "mail, 2026-11-15"
+      },
+      "verify_notes": "2026-11-16: tipped by a reader by mail (reply to our Tule tree answer; 'the only other place I visited often is Cathedral Grove, Vancouver Island, with Douglas fir'). Words not quoted: a mail needs their yes first. BC Parks: some trees more than 800 years old, largest Douglas fir more than 9 m in circumference, 136 ha donated by H.R. MacMillan in 1944, Class A park three years later, New Year's Day 1997 windstorm toppled hundreds of trees and closed some trail sections for good, largest firs on the south side, cedars by Cameron Lake on the north side, stay off trails on windy days. Wikipedia agrees on 800+ years, ~9 m circumference, 1944 donation after years of refusal, 1947 park. Height 76 m: the park's Big Tree marker as transcribed by HMDB (311179, which compares it with the 56 m Leaning Tower of Pisa; page 403 to our fetch, read through search) and the OSM tree node's height tag (76, circumference 9, start_date before 1200). Age 800+ is BC Parks' figure for the grove's oldest trees and the trailside sign's for this tree (HMDB, via search); kept as a minimum, no maximum. Pin: OSM node for the tree (49.2904865,-124.6618600, natural=tree, Pseudotsuga menziesii, height 76, circumference 9) and komoot's highlight 'The Big Tree (Douglas-fir)' (49.29037,-124.661789) agree within 15 m, south of Highway 4 (road at about 49.2914 there), on the Big Tree Trail side. Confirmed. Photo: Aaron Carlson, Commons, CC BY-SA 2.0, May 2010, described as Douglas firs at Cathedral Grove; its geotag (49.28147,-124.64264) is about 1.6 km from the Big Tree, so it shows the grove's firs and not necessarily this trunk: status held until a photo of this trunk is found. Parking fees not stated by BC Parks; not claimed.",
+      "access": "Free, in MacMillan Provincial Park, open to all. Roadside parking beside Highway 4; the Big Tree Trail starts there and runs south of the road through the old growth. Some trails are accessible. Cross the highway with care. Stay off the trails on windy days: branches and trees can fall without warning. Dogs on a leash.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/CathedralGrove-VancouverIsland.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Aaron Carlson, via Wikimedia Commons",
+        "attribution_url": "https://commons.wikimedia.org/wiki/File:CathedralGrove-VancouverIsland.jpg",
+        "status": "held",
+        "width": 2592,
+        "height": 3872,
+        "taken_month": 5
+      },
+      "curation_status": "ai_generated",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-16",
+        "note": "The OSM node for the Big Tree (height 76, circumference 9) and komoot's 'The Big Tree (Douglas-fir)' highlight agree within 15 m, on the Big Tree Trail south of Highway 4."
+      }
+    }
+  ],
+  "question_meta": "The Big Tree of Cathedral Grove on Vancouver Island: how big and how old it is, and how to find it.",
+  "question_answer": "The Big Tree of Cathedral Grove is a Coast Douglas-fir in MacMillan Provincial Park on Vancouver Island, more than nine metres round and about 76 metres tall, and by the park's figures over 800 years old. It stands on the Big Tree Trail, south of Highway 4, 16 km east of Port Alberni.",
+  "question_context": "Cathedral Grove is the old-growth heart of MacMillan Provincial Park on central Vancouver Island, a stand of Douglas-firs, western redcedars, western hemlocks and grand firs on both sides of Highway 4 between Qualicum Beach and Port Alberni. The timber belonged to H.R. MacMillan's export company until he donated 136 hectares in 1944, and the land became a Class A provincial park in 1947. On New Year's Day 1997 a windstorm toppled hundreds of trees in the grove, and some trail sections never reopened. The largest Douglas-firs stand on the south side of the highway, the Big Tree among them, reached on a short trail from the roadside parking; the north side runs among redcedars to the shore of Cameron Lake. BC Parks puts some of the trees at more than 800 years old. Entry is free. BC Parks advises keeping off the trails on windy days, because trees weakened by root disease can drop branches without warning.",
+  "faq": [
+    {
+      "q": "How big is the Big Tree in Cathedral Grove?",
+      "a": "More than nine metres round at the base and about 76 metres tall, the largest Douglas-fir in MacMillan Provincial Park."
+    },
+    {
+      "q": "How old is it?",
+      "a": "Over 800 years, by the park's own figures. Nobody has published a ring count."
+    },
+    {
+      "q": "Where is Cathedral Grove?",
+      "a": "On Highway 4 on central Vancouver Island, 16 km east of Port Alberni and 25 km west of Qualicum Beach."
+    },
+    {
+      "q": "Which side of the road is the Big Tree on?",
+      "a": "The south side, on the Big Tree Trail from the roadside parking."
+    }
+  ]
+}

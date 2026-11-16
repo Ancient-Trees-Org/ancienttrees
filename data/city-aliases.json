@@ -988,6 +988,12 @@
       "Katanio",
       "Kataniya"
     ],
+    "cathedral-grove": [
+      "MacMillan Provincial Park",
+      "Parc provincial MacMillan",
+      "Celli'r Gadeirlan",
+      "MacMillan Park"
+    ],
     "cazorla": [
       "Cazorla-bjergene",
       "Cazorlako mendilerroa"
@@ -5437,6 +5443,7 @@
     "castlepollard": "Castlepollard",
     "castlewellan": "Castlewellan",
     "catania": "Catania",
+    "cathedral-grove": "MacMillan Provincial Park",
     "cazorla": "Sierra de Cazorla",
     "cedar-breaks-national-monument": "Cedar Breaks National Monument",
     "cerro-veronese": "Cerro Veronese",
