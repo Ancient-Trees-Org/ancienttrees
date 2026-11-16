@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the red "Maximum call stack" web error is not ours
+
+- The quality line's red Web Live cell ("RangeError: Maximum call stack size exceeded.", 5 reports on 3 pages, 11-15) comes from one client, not our code. All 5 rows say Chrome 157, from two bursts (09:43 and 19:59 UTC) by the same client that also sent 7 "Failed to fetch" rows and an "Error: Na" that day. Lines 190 to 194 point at unrelated code on each page (a comment on /, an `if (!dlg) return` on /explore, a headers() builder on /bilbao); none of it can recurse. It is a script injected by an extension or automated browser, reported with our page as its file. /, /explore and /bilbao run without a console error in Chrome today.
+- No filter added: "Maximum call stack" in FOREIGN would hide a real loop of ours. The cell counts 24 hours and goes off by itself around 20:00 UTC on 11-16. If it comes back from more than one browser version, it is real.
+- `window.atDownsize is not a function` on /account/settings (3 reports, 3 browsers, 11-15) was already fixed in d0a57c1fd, live since 20:39 UTC; every report predates it.
+
 ## 2026-11-16 night run (04:21): reader photograph inbox, rung 1
 
 - **Product**: four first photographs live on photo-less trees from readers: the Becks Prime Augusta Live Oaks and the Old Pecan Tree (Houston), the Kapok Tree (Key West), the Rhodes Bald Cypress (Bong State Rec Area); two pins moved to the reader's fix, now confirmed. Four strip photographs kept behind the lead (the Fraternal Four's National Trust sign, the Angel Oak limbs, the Mexico City ahuehuete plaque and whole trunk). A colon reveal fixed in the Houston pecan story.
