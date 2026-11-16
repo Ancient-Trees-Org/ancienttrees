@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 daily publish
+
+- **Daily publish: queue empty.** Today's builders (build_write_2026_11_16, 16b: phl_010 Grumblethorpe Ginkgo, lpz_032 Papiermuehlstrasse horse chestnut, gui_010 Casa de Margaride camellia) are already on main; Allentown all_001 stays held for a life check, not the pace. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-16 session: the old yew of Vigeois live; two readers asked back
 
 - **New tree, Vigeois (Corrèze)**: vgs_001 The Old Yew of Vigeois (https://ancienttrees.app/vigeois/old-yew-of-vigeois), from a reader's website tip (tip-959, '1 Rue Du Vieil If'). Ancient Yew Group tree 5617: 915 cm, access public, by the school playground; its coordinate is the pin (approximate). No photograph: theirs carries the signature 'krapo arboricole'. One tree, so no place page.
