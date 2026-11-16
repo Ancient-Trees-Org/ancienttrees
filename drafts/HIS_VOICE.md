@@ -449,3 +449,25 @@ She photographs old trees across Germany and is writing a book on Munich's oldes
 ## Calibration 2026-11-05: asked how the project is financed (Dorit Zimmermann, BUND München, second mail)
 
 She asked whether it is volunteer or commercial and how we pick trees. My draft gave two short lines and the Bauer sentence. He wrote it himself, longer and warmer: built myself, in my free time, paid myself, "a bit of an uit de hand gelopen hobby"; hopes for a commercial layer so he can put in more time, maybe a Plus like AllTrails, trees and adding trees kept free, perhaps guided walks paid, "not sure yet, happy to hear if you have any ideas"; how we pick: several sources, AI helps, then local experts like her; the dream is every tree suggested by users, several photos per season. Lessons: to a peer who asks openly about money, answer openly and personally, say what is not decided, and turn it into a question for her ideas. Naming AI and the method is fine when she asked how. His wording on keeping trees free was his own call; do not write it for him.
+
+
+## 2026-11-09: a no from an expert is answered with the direction and a question, not a goodbye
+
+Dorit (BUND München) found errors and declined. My draft ended "I respect that you don't want to do this now, perhaps later". His version: "Without it this map would not exist at all, but AI is only a phase", "Nonetheless I completely understand that at this stage you don't want to be part of it", "Still curious what you think of this direction and what you wish would be different on the platform." Not too apologetic ("is het niet te apologetic"), no defence either, and end by asking what they would want different.
+
+
+## 2026-11-12: someone who keeps watching is invited again, broadly (Dorit, BUND München)
+
+She wrote that she keeps following the project and asked his surname for the fan. My reply gave the name and thanked her for the fan, no ask. He wrote his own: thanks for still wanting to look, the full name, then the door opened wide again: ideas on where the product should go, features or tree details she misses, walks to add, "Nog geen idee ergens? We horen het graag. Ik bouw het nog steeds elke dag aan." So an expert who stays involved after a no is not left with a thank-you: name the kinds of input that are welcome, and say the work goes on daily.
+
+## 2026-11-12: our test is not their business (Dorit, BUND München, habitat trees)
+
+He had told me in chat that we would put her habitat-tree pages online "and then we can see whether it gets a reaction". I put that into the mail; he struck it: "dit hoef je niet tegen haar te zeggen". Why we try something, and that it is an experiment, stays with us. To someone offering her text and photos, the mail says only what we will do with them.
+
+## 2026-11-09: someone offers a smartphone photo (Hannah Mayr, Vienna)
+
+He cut my compliment on her photo ("Es gefällt mir sehr, die alte Platane hinter den Absperrungen": it told a photographer what her own picture shows) and added: "That's actually what we built the app for, currently only iOS but I'm working on the Android version as we speak. But email is also fine." So when somebody offers to take a photo with their phone, say the app is made for that, name the platforms honestly, and leave mail open. No store link needed.
+
+## 2026-11-16: a new ambassador asks how the trees were gathered (Martin Winn, London)
+
+He rewrote my draft. What changed: he opens person to person ("Nice to meet you, fellow tree enthusiast. I'm looking forward to your trees") instead of thanking for the reply; the Baarn line went (a new ambassador asking how is not asking who we are); "AI helps me bring them together" went; and he added that he visited some trees himself and that most of the work comes from the internet and local enthusiasts he is in contact with. So to a volunteer asking how the list was made: greet them as a fellow fan, answer with the people and the sources, and do not put AI or where he lives in it unless they asked.
