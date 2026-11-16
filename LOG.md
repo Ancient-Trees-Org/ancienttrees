@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Joey is ambassador for Willistown
+
+- **Product**: Joey R. (Crum Creek sycamore, wtn_001) is ambassador for Willistown instead of Media, at his own ask ("just Willistown, where I live"); `ambassador.py --grant` willistown and `--revoke` media-pennsylvania, synced.
+- **Mail**: reply sent in his thread on Hidde's "Verstuur" (drafts/batches/reply-joey-willistown-2026-11-16b.json): yes to Willistown, and his two photos (a sycamore of 260 to 285 years with a 147 ft spread, and an oak) arrived without attachments, so he is asked to resend or add both in the app. When they come: new Willistown trees, his description quoted once the sycamore has a page.
+- **Broke**: Gmail refused IMAP ("too many simultaneous connections") because 13 `sent_drafts.py --quiet` processes from session starts had hung for up to 40 minutes; killed them. A hang guard on that script's IMAP (timeout) would stop it recurring.
+
 ## 2026-11-16 session: the Guardian on the about page
 
 - **Product**: /about shows "Featured in" with the Guardian and Wilder logos under the photo, each linking to its article (Guardian 2026-11-15, Wilder 2026-10-23); the "was in Wilder in October 2026" line under the signature is gone. Reference Polarsteps' featured-in strip; under the photo because a block under the title broke the letter (Hidde: "het loopt gewoon niet zo"). On a phone it sits between photo and title, 48px above it. Logos in site/public/press/ (Guardian wordmark SVG; Wilder's own full logo, unchanged, trimmed to its ink at 3x).
