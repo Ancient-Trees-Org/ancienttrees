@@ -30,7 +30,10 @@ Web half: the last 24 hours were the Hanoi banyan (hni_003, a reader's tip, visi
 - WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Tenth review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
 - WARN site/dist/contribute.html (source site/src/pages/contribute.astro) still says "verified against independent sources before it goes live". False since "Good reader input IS the source" (2026-10-12). Twenty-first review. Replacement: "We read every submission before it is kept."
 
-App half: pending.
+App half (iPhone SE: collect-voted, collection-tab, collection, contribute, directions): looked at all six.
+
+- WARN APP collection.png, the "Europe's Ancient Oaks" collection intro: "every coordinate verified". Not true of the data (1,715 pins are approximate, `location_precision` says so); hard rule 2 "faked precision" and Never cuttable list. The intro is machine-written text in data/collections/ and reaches web and app; replacement: "every entry is publicly accessible and every page links onward with a map", and grep other collection intros for "verified". Data fix, so a run may do it.
+- Nothing else a person would notice: vote sheet, sign-in sheet and directions sheet read honestly.
 
 ## 2026-11-15
 
