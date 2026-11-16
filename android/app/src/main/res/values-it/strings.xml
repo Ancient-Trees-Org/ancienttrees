@@ -6,6 +6,7 @@
     <string name="photo_credit">Foto: %1$s</string>
     <string name="back">Indietro</string>
     <string name="close">Chiudi</string>
+    <string name="photo_open">Apri la fotografia</string>
     <string name="location_off">Posizione disattivata</string>
     <string name="use_my_location">Usa la mia posizione</string>
     <string name="turn_on_location">Attiva la posizione</string>

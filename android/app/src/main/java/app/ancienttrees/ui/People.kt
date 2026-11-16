@@ -77,6 +77,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.ancienttrees.R
+import app.ancienttrees.feed.Photo
 import app.ancienttrees.account.Account
 import app.ancienttrees.account.DemoPeople
 import app.ancienttrees.account.EarlyAdopter
@@ -591,6 +592,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
     var early by remember { mutableStateOf(false) }
     var knownName by remember { mutableStateOf<String?>(null) }
     var lane by remember { mutableStateOf(0) }
+    var viewingAvatar by remember { mutableStateOf(false) }
 
     LaunchedEffect(userId) {
         val token = if (demo) null else host.account.fresh()?.accessToken
@@ -621,6 +623,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
         }
     }
 
+    Box(Modifier.fillMaxSize()) {
     Column(Modifier.fillMaxSize().background(brand.ground).testTag("person-profile")) {
         PushedBar("", onBack)
         Column(
@@ -628,7 +631,16 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
             modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(top = 8.dp, bottom = 40.dp),
         ) {
             Row(horizontalArrangement = Arrangement.spacedBy(14.dp), verticalAlignment = Alignment.CenterVertically) {
-                Avatar(profile?.avatarUrl, profile?.displayName ?: knownName, 60, initialSize = 24)
+                // A tap on their picture shows it full screen (Hidde, 2026-11-16;
+                // PersonProfile.swift viewingAvatar). A letter opens nothing.
+                val avatarUrl = profile?.avatarUrl
+                val openLabel = stringResource(R.string.photo_open)
+                Box(
+                    if (avatarUrl == null) Modifier else Modifier.clip(CircleShape)
+                        .clickable(role = Role.Button) { viewingAvatar = true }
+                        .semantics { contentDescription = openLabel }
+                        .testTag("person-avatar"),
+                ) { Avatar(avatarUrl, profile?.displayName ?: knownName, 60, initialSize = 24) }
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
                         Text(profile?.displayName ?: knownName ?: "", fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 22.sp,
@@ -677,6 +689,13 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                 }
             }
         }
+    }
+    // Their own picture: no licence, so no credit line (creditRequired false).
+    val face = profile?.avatarUrl
+    if (viewingAvatar && face != null) {
+        PhotoViewer(listOf(Photo(url = face, license = null, attribution = null, attributionShort = null, thumb = null,
+            hero = null, creditRequired = false, creditLine = null, creditUrl = null, frame = null)), 0) { viewingAvatar = false }
+    }
     }
 }
 

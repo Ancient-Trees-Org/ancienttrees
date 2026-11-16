@@ -44,7 +44,10 @@ public enum DemoPeople {
     public static func publicProfile(_ userId: String) -> Profiles.PublicProfile? {
         guard on, userId == all[0].user_id else { return nil }
         return Profiles.PublicProfile(
-            user_id: userId, display_name: "Marieke", avatar_url: nil, country: "NL",
+            // A picture (2026-11-16), so the sweep reaches the full-screen
+            // viewer a tap on it opens; one of our own photographs.
+            user_id: userId, display_name: "Marieke",
+            avatar_url: "https://ancienttrees.app/photos/lon_002-the-royal-oak-13cd8329.jpg", country: "NL",
             created_at: "2026-09-01T10:00:00Z", followers: 12, following: 4,
             ambassador: ["Amsterdam"],
             visited: ["brn_001", "brn_002", "brn_008", "brn_005"],

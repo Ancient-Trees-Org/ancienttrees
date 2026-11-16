@@ -449,7 +449,8 @@ object DemoPeople {
     fun publicProfile(args: List<String>, userId: String): Profiles.PublicProfile? {
         if (!on(args) || userId != all[0].userId) return null
         return Profiles.PublicProfile(
-            userId, "Marieke", null, "NL", "2026-09-01T10:00:00Z", 12, 4, listOf("Amsterdam"),
+            // A picture (2026-11-16), as DemoPeople.swift, so the sweep reaches the viewer it opens.
+            userId, "Marieke", "https://ancienttrees.app/photos/lon_002-the-royal-oak-13cd8329.jpg", "NL", "2026-09-01T10:00:00Z", 12, 4, listOf("Amsterdam"),
             listOf("brn_001", "brn_002", "brn_008", "brn_005"), listOf("brn_003", "brn_007"),
             // One tree she added that we took in, and one of her own (2026-11-12).
             approved = listOf("brn_001"),

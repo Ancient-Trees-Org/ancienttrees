@@ -33,6 +33,9 @@ struct PersonProfileView: View {
     @State private var signingIn = false
     /// The name the person already shows in People, for the private face.
     @State private var knownName: String?
+    /// Their picture, full screen (CONVENTIONS.md "Tapping somebody's
+    /// profile picture to see it bigger", 2026-11-16).
+    @State private var viewingAvatar = false
 
     private static let tileShape = RoundedRectangle(cornerRadius: 12, style: .continuous)
 
@@ -66,7 +69,13 @@ struct PersonProfileView: View {
             SignInSheet(reason: profile.map { .follow($0.display_name) } ?? .general)
         }
         .task { await load() }
+        .fullScreenCover(isPresented: $viewingAvatar) {
+            PhotoViewer(title: profile?.display_name ?? "", isPresented: $viewingAvatar,
+                        remote: avatarURL)
+        }
     }
+
+    private var avatarURL: URL? { profile?.avatar_url.flatMap { URL(string: $0) } }
 
     // MARK: - header, My trees' whoRow at the same numbers
 
@@ -86,7 +95,14 @@ struct PersonProfileView: View {
                 }
             }
             .frame(width: 60, height: 60)
-            .accessibilityHidden(true)
+            .accessibilityHidden(avatarURL == nil)
+            // Only a picture is a button; a letter opens nothing, as in every
+            // app that enlarges one.
+            .contentShape(.circle)
+            .onTapGesture { if avatarURL != nil { viewingAvatar = true } }
+            .accessibilityAddTraits(avatarURL == nil ? [] : .isButton)
+            .accessibilityLabel(avatarURL == nil ? "" : "Open the photograph")
+            .accessibilityIdentifier("person-avatar")
 
             VStack(alignment: .leading, spacing: 2) {
                 HStack(alignment: .center, spacing: 8) {

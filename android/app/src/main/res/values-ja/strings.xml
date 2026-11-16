@@ -6,6 +6,7 @@
     <string name="photo_credit">写真：%1$s</string>
     <string name="back">戻る</string>
     <string name="close">閉じる</string>
+    <string name="photo_open">写真を開く</string>
     <string name="location_off">位置情報オフ</string>
     <string name="use_my_location">現在地を使う</string>
     <string name="turn_on_location">位置情報をオンにする</string>

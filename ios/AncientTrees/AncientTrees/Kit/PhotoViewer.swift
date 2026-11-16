@@ -36,6 +36,11 @@ struct PhotoViewer: View {
     /// you stood in front of. Same viewer and same gestures; no credit, since
     /// nobody but you is being shown it.
     var local: UIImage? = nil
+    /// A picture by address alone, with no licence to credit: somebody's
+    /// profile picture, tapped on their profile (Hidde, 2026-11-16;
+    /// CONVENTIONS.md "Tapping somebody's profile picture to see it bigger",
+    /// WhatsApp's and Facebook's way). Same viewer, same gestures, no credit.
+    var remote: URL? = nil
     /// Set only for YOUR photograph of one of our trees (2026-10-12): a bin in
     /// the top bar, then one confirming sheet, the way Apple Photos and Google
     /// Maps ("More, Delete this photo") delete a picture of your own. Nil for
@@ -174,6 +179,10 @@ struct PhotoViewer: View {
         ZStack {
             if let local {
                 Image(uiImage: local).resizable().aspectRatio(contentMode: .fit)
+            } else if let remote {
+                TreePhoto(url: remote, contentMode: .fit) {
+                    ProgressView().tint(.white)
+                }
             } else if let photo = shown {
                 TreePhoto(url: photo.full, contentMode: .fit) {
                     ProgressView().tint(.white)

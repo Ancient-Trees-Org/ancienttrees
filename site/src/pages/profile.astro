@@ -26,10 +26,12 @@ import { myTreesMapScript, mapHead } from "../lib/map";
 import { icon } from "../lib/icons";
 import { SHEET_JS } from "../lib/sheet-js";
 import { EARLY_ADOPTER_UNTIL } from "../lib/early-adopter";
+import { ui } from "../lib/i18n";
 
 const canonical = `${BASE_URL}/profile`;
 const SEAL = icon("seal-check", "fill", "ic").replace(/\n/g, "").replace(/'/g, "");
 const LOCK = icon("lock-simple", "bold", "ic");
+const t = ui("en");
 ---
 <Base
   title="Profile"
@@ -81,6 +83,16 @@ const LOCK = icon("lock-simple", "bold", "ic");
   </section>
   </div>
   </aside>
+  {/* THE PICTURE, BIGGER (Hidde, 2026-11-16; CONVENTIONS.md "Tapping
+      somebody's profile picture to see it bigger"): WhatsApp's and Facebook's
+      way, the whole photograph on black in the viewer a tree photograph opens
+      in (the same .photo-view dialog, PhotoFigure.astro), X, Escape, a click
+      beside it or a drag down to close. No credit: it is their own picture.
+      A letter avatar is not a button and opens nothing. */}
+  <dialog class="photo-view pp-photo" id="pp-photo">
+    <button type="button" class="pv-close" id="pp-photo-close" aria-label={t.photoClose}>&times;</button>
+    <div class="pv-frame"><img id="pp-photo-img" alt="" /></div>
+  </dialog>
   <div class="stage">
     <div id="map" class="map"></div>
   </div>
@@ -89,6 +101,10 @@ const LOCK = icon("lock-simple", "bold", "ic");
   .pp-private { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 16px; color: var(--ink-mid); }
   .pp-private :global(svg) { width: 20px; height: 20px; flex: none; }
   .pp-empty { grid-column: 1 / -1; margin: 0; color: var(--ink-mid); font-size: 15px; }
+  /* No credit bar under a face, so the picture takes the whole height. */
+  .pp-photo .pv-frame { height: 100dvh; }
+  button.profile-avatar { border: 0; padding: 0; cursor: zoom-in; }
+  button.profile-avatar:focus-visible { outline: 3px solid var(--moss); outline-offset: 2px; }
 </style>
 <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + myTreesMapScript() + SHEET_JS + `
 <script>
@@ -97,6 +113,7 @@ const LOCK = icon("lock-simple", "bold", "ic");
   var SB = "${SUPABASE_URL}", KEY = "${SUPABASE_KEY}";
   var SEAL = '${SEAL}';
   var UNTIL = ${JSON.stringify(EARLY_ADOPTER_UNTIL)};
+  var OPEN = ${JSON.stringify(t.photoOpen)};
   function el(id) { return document.getElementById(id); }
   var uid = new URLSearchParams(location.search).get("u") || "";
   // The sheet's peek is one header tall and is measured on resize
@@ -119,7 +136,18 @@ const LOCK = icon("lock-simple", "bold", "ic");
     el("pp-lanes").hidden = false;
     el("pp-name").textContent = p.display_name;
     var av = el("pp-avatar");
-    if (p.avatar_url) av.style.backgroundImage = "url(" + String(p.avatar_url).replace(/[()'"]/g, "") + ")";
+    if (p.avatar_url) {
+      var src = String(p.avatar_url).replace(/[()'"]/g, "");
+      // The picture becomes the button that opens it; a letter stays a span.
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "profile-avatar";
+      b.id = "pp-avatar";
+      b.setAttribute("aria-label", OPEN);
+      b.style.backgroundImage = "url(" + src + ")";
+      av.replaceWith(b);
+      bigger(b, src, p.display_name);
+    }
     else av.textContent = p.display_name.charAt(0).toUpperCase();
     if (p.country && /^[A-Z]{2}$/.test(p.country)) {
       var img = el("pp-flag");
@@ -144,6 +172,30 @@ const LOCK = icon("lock-simple", "bold", "ic");
     follow(p);
     lists(p.visited || [], p.saves || [], p.approved || [], p.own || []);
     remeasure();
+  }
+
+  function bigger(btn, src, name) {
+    var d = el("pp-photo"), img = el("pp-photo-img");
+    d.setAttribute("aria-label", name);
+    img.alt = name;
+    btn.addEventListener("click", function() { if (!img.src) img.src = src; d.showModal(); });
+    el("pp-photo-close").addEventListener("click", function() { d.close(); });
+    // A click on the dialog itself is a click beside the picture.
+    d.addEventListener("click", function(e) { if (e.target === d || e.target.classList.contains("pv-frame")) d.close(); });
+    // Drag down to close, the gesture a thumb reaches for first (PhotoFigure).
+    var y0 = null;
+    d.addEventListener("touchstart", function(e) { y0 = e.touches[0].clientY; }, { passive: true });
+    d.addEventListener("touchmove", function(e) {
+      if (y0 === null) return;
+      var dy = e.touches[0].clientY - y0;
+      if (dy > 0) d.style.transform = "translateY(" + Math.min(dy, 240) + "px)";
+    }, { passive: true });
+    d.addEventListener("touchend", function(e) {
+      var dy = y0 === null ? 0 : e.changedTouches[0].clientY - y0;
+      d.style.transform = "";
+      y0 = null;
+      if (dy > 90) d.close();
+    }, { passive: true });
   }
 
   // FOLLOW, the app's PeopleView button on the web: a follows row written

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: a tap on somebody's profile picture shows it full screen
+
+- **What changed**: on a public profile (web /profile, iPhone, Android) a tap on the person's picture opens it full screen on black in the photo viewer tree photographs already use: the whole picture, X or swipe down to close (Escape and a click beside it on the web, system back on Android), pinch to zoom in the apps, no credit line. A letter avatar is not a button and opens nothing. Your own picture on My trees is unchanged. Benchmarked first (WhatsApp, Facebook, X, LinkedIn, Instagram, Strava) into CONVENTIONS.md "Tapping somebody's profile picture to see it bigger"; Hidde picked the whole-photo form over X's circle ("Yes, build it").
+- **Checked**: iPhone 17 simulator and Android emulator, tap opens, swipe down / back closes, same frame on both; web tested from the page's own code at 375 and desktop (opens, Escape, X, click beside it; the letter stays a span). No local Astro build on this Mac, so the deployed page is CI's to build. qa --source-only and preflight pass.
+- **New words**: none on the web (the existing photoOpen label); Android gets photo_open in all eight languages. The demo person (-people-demo) now has a picture so sweeps reach the viewer.
+- **For Hidde: next iOS build carries it.** No difference between iPhone and Android, so nothing in data/android-parity.json.
 ## 2026-11-16 session: an app crash in the sheet, readers' notes acted on, Nick asked to be Bristol's ambassador
 
 - **App crash fixed (next build)**: ios.yml went red twice today with a different unit test "crashed with signal abrt" each time. The crash report in the result bundle (AncientTrees-2026-11-16-152543.ips) shows the app itself aborting: "pointer being freed was not allocated" in Swift's back-deployed deinit-on-executor hop, under `SheetDragClock`'s deinit (BottomSheet.swift). Under default MainActor isolation the class's deinit hopped to the main actor, and @State throws a new clock away on nearly every sheet redraw. Now `nonisolated` (08f53480a). Could also hit people in the store build; whether it explains the 1.5% quick reopens shows once PostHog's crash capture ships in the same build. No unit test reproduces it on demand (a runtime race on dealloc); ios.yml is the check.
