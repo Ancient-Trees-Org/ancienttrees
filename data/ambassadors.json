@@ -706,6 +706,146 @@
         "The Methuselah Tree"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_2488e74029ba86d35cd03b06",
+      "place_slug": "akaroa",
+      "place_name": "Akaroa",
+      "date": "2026-11-16",
+      "trees": [
+        "The Giant Tōtara of Montgomery Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_697eb4a0c77311e0508c5fb0",
+      "place_slug": "big-bear-lake",
+      "place_name": "Big Bear Lake",
+      "date": "2026-11-16",
+      "trees": [
+        "The Champion Lodgepole Pine"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_149c896aeb5cc567f28e02af",
+      "place_slug": "brisbane",
+      "place_name": "Brisbane",
+      "date": "2026-11-16",
+      "trees": [
+        "The Fig of Neal Macrossan Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_af81b9aa2e88c08d839b36df",
+      "place_slug": "darwin",
+      "place_name": "Darwin",
+      "date": "2026-11-16",
+      "trees": [
+        "The Cavenagh Street Boab"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e7d96418675238ae7921276f",
+      "place_slug": "earlysville",
+      "place_name": "Earlysville",
+      "date": "2026-11-16",
+      "trees": [
+        "The Airport Oak of Earlysville"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_742ddcddb4933ac8924fbf8c",
+      "place_slug": "gilgandra",
+      "place_name": "Gilgandra",
+      "date": "2026-11-16",
+      "trees": [
+        "The Grapevine of the Royal Hotel"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_4cefec9f5644f57abdf55de5",
+      "place_slug": "kastela",
+      "place_name": "Kaštela",
+      "date": "2026-11-16",
+      "trees": [
+        "Mastrinka, the Olive of Kaštel Štafilić"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1da733ab711af3a711a929ed",
+      "place_slug": "kvam",
+      "place_name": "Kvam",
+      "date": "2026-11-16",
+      "trees": [
+        "The Old Oak at Tolo"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c7db806e95409673b62f1922",
+      "place_slug": "la-lande-patry",
+      "place_name": "La Lande-Patry",
+      "date": "2026-11-16",
+      "trees": [
+        "The Hollow Yew of La Lande-Patry"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_492afbdde23d69af867aff0f",
+      "place_slug": "lumbini",
+      "place_name": "Lumbini",
+      "date": "2026-11-16",
+      "trees": [
+        "The Bodhi Tree of Lumbini"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_cc5f6af96d4dfa465449b1c3",
+      "place_slug": "mbissel",
+      "place_name": "Mbissel",
+      "date": "2026-11-16",
+      "trees": [
+        "The Baobab of Mbissel"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ce572bcf48df4b25bb131b55",
+      "place_slug": "middle-brother-national-park",
+      "place_name": "Middle Brother National Park",
+      "date": "2026-11-16",
+      "trees": [
+        "The Blackbutt of Bird Tree Road"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_050a7df1343144bf3f82d0f0",
+      "place_slug": "nottingham",
+      "place_name": "Nottingham",
+      "date": "2026-11-16",
+      "trees": [
+        "The Arbour Oak of Wollaton Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_24edc9a8bd5f07a00e0b3133",
+      "place_slug": "tuatapere",
+      "place_name": "Tuatapere",
+      "date": "2026-11-16",
+      "trees": [
+        "The Big Totara of Lillburn Monowai Road"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -1560,6 +1700,14 @@
     "colchester": {
       "trees": [
         "cls_001"
+      ],
+      "since": "2026-11-16",
+      "mailed": []
+    },
+    "adelaide": {
+      "trees": [
+        "ads_001",
+        "ads_002"
       ],
       "since": "2026-11-16",
       "mailed": []

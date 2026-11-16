@@ -1131,28 +1131,20 @@
    "sent": []
   },
   "p_2ff15d36a4a6c0a3289686e3": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "586a2d0f-096b-421c-97dc-62e612fd99b2",
      "tree_id": "tul_001",
-     "tree_name": "El Árbol del Tule",
-     "city": "Santa María del Tule",
-     "city_slug": "santa-maria-del-tule",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "7fb05e54-cf36-4393-a549-92e3c17d96b3",
      "tree_id": "for_001",
-     "tree_name": "The Fortingall Yew",
-     "city": "Fortingall",
-     "city_slug": "fortingall",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_8762d5eeaf614cc69438a40e": {
    "last": null,
@@ -1233,19 +1225,15 @@
    "sent": []
   },
   "p_fbd1aced1b3b821984917ad5": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "91d6b7ac-a5a5-41b6-a4d1-db96231b2250",
      "tree_id": "sqj_001",
-     "tree_name": "Enchanted Balete Tree of Lazi",
-     "city": "Siquijor",
-     "city_slug": "siquijor",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_b850abab290eb2c9da2d91b2": {
    "last": null,
