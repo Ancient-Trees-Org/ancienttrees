@@ -16,7 +16,7 @@ at least 12 testers have been opted in to the closed test for 14 days
     python3 scripts/android_testers.py --set <email> <status>
     python3 scripts/android_testers.py --emails            # opted-in-able addresses, comma separated, for Play's tester list
 
-A session that offers the test in a mail adds the person as `asked`; their
+ is somebody worth asking who has not been offered the test yet. A session that offers the test in a mail adds the person as `asked`; their
 yes makes it `yes`; the day the opt-in link goes out, `invited`; once Play
 shows them opted in, `joined`.
 """
@@ -27,7 +27,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PATH = os.path.join(ROOT, "data", "outreach-android-testers.json")
-STATUSES = ["asked", "yes", "invited", "joined", "declined"]
+STATUSES = ["to_ask", "asked", "yes", "invited", "joined", "declined"]
 NEEDED = 12
 
 
@@ -49,7 +49,7 @@ def show(d):
     willing = count["yes"] + count["invited"] + count["joined"]
     print(f"Android test group: {willing} of {NEEDED} willing "
           f"({count['joined']} joined, {count['invited']} invited, {count['yes']} said yes), "
-          f"{count['asked']} asked and waiting, {count['declined']} declined.")
+          f"{count['asked']} asked and waiting, {count['to_ask']} still to ask, {count['declined']} declined.")
     print()
     for s in STATUSES:
         for r in rows:
