@@ -3103,9 +3103,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "why": "Photograph viewed: the whole oak in snow, a fine frame, but the tip carries no coordinate; a lead until Wollaton Park's Arbour Oak is pinned from a source.",
    "seen": "2026-11-15",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
@@ -3164,8 +3165,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "why": "Photograph viewed: a view straight up into a crown of twisting beech-like limbs, no trunk or whole tree in frame, so nothing yet to recognise it by.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "d291140e-1665-4036-a4cb-e826d8ff6328",
@@ -3190,8 +3192,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "why": "Photograph viewed: a close-up of a hollow, split trunk, no crown or setting, so the frame cannot show the tree to a walker; a lead.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
@@ -3216,8 +3219,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "why": "Photograph viewed: a big ridged trunk shot straight up from its foot, no crown or setting readable; a lead until a whole-tree photo comes.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "20d04dfd-e398-4533-a42d-b1385d2a6f50",
@@ -3242,8 +3246,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-15"
+   "why": "Photograph viewed: a young fan palm on a roadside verge, not old, big or remarkable enough for a page.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
@@ -3301,8 +3306,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as cnk_004 (cannock-chase.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3329,8 +3334,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as bne_022 (brisbane.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3357,8 +3362,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as lmb_001 (lumbini.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-15"
   },
   {
@@ -3469,9 +3474,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "why": "Photograph viewed: a bald cypress and a plane in Villa Smeraldi park, but no coordinate and the picture carries another photographer's signature, so it cannot be used.",
    "seen": "2026-11-15",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-875",
@@ -3495,9 +3501,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "why": "Photograph viewed: a broad lone oak at sunset by a field, no coordinate; the note names a regional register entry, so verify and pin from that register.",
    "seen": "2026-11-15",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d",
@@ -3524,8 +3531,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as ely_001 (earlysville.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3552,8 +3559,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as tua_001 (tuatapere.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3580,8 +3587,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as ybr_001 (yungaburra.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3610,8 +3617,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as llp_001 (la-lande-patry.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3637,8 +3644,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: one straight elm trunk in woodland, no crown and nothing that shows great size or age; a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "7b8b90c6-507c-46cc-9fe8-1366f7a953a3",
@@ -3663,8 +3671,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a cottonwood crown behind a person standing on the path in the centre of the frame; a lead, not a frame for the page.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "e34c7308-6fcc-45cf-afca-1a9cdbf20d76",
@@ -3689,8 +3698,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a cottonwood trunk partly hidden behind a younger tree in woodland, nothing showing great size; a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "cb8b4ebe-74ca-4641-a139-533b41a7e3f0",
@@ -3715,8 +3725,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a tall slender oak among others in woodland, nothing showing great size or age; a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "2c03d56e-6192-4fae-9a95-94e41b042e6b",
@@ -3741,8 +3752,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a tall red oak shot from its foot in autumn woodland, nothing showing great size or age; a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "47730065-758c-46dc-b4ba-e0e3e353c368",
@@ -3766,8 +3778,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as mbs_001 (mbissel.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3792,8 +3804,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as sgl_001 (sagole.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3822,8 +3834,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a fenced ginkgo at a temple, but the trunk is half behind the fence and a person stands in the centre of the frame; a lead until a clearer photo.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "de83aef2-d85e-4d38-b4ef-73e6365d2557",
@@ -3851,8 +3864,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as drw_001 (darwin.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3880,8 +3893,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a mangrove forest of many thin stems, not one tree; wrong subject for a tree page.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "92fac7a0-332e-4b6b-8d54-463b3e592c17",
@@ -3906,8 +3920,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a leaning black poplar with a person posing at the centre of the frame and a modest trunk (300 cm by their tape); a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "e0402f44-1b12-431a-9901-7974f79ccb2f",
@@ -3932,8 +3947,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: an old grapevine trained over a hotel beer garden, a vine rather than a tree; kept as a lead with their note.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
@@ -3957,8 +3973,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "status": "published",
+   "why": "published 2026-11-16 as kvm_001 (kvam.json): reader-found, GPS fix, photograph viewed",
    "seen": "2026-11-16"
   },
   {
@@ -3988,8 +4004,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a trunk close-up with dead limbs, a grove from a distance and a person in a meadow; the Champion Lodgepole Pine needs a whole-tree frame, a lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-908",
@@ -4010,15 +4027,16 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a fine old totara trunk and crown, but the tip carries no coordinate or place name, so it cannot be placed.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-928",
    "user_id": "p_4cefec9f5644f57abdf55de5",
    "mine": false,
    "name": "1500 old olive tree",
-   "species": null,
+   "species": "Olive (Olea sp.)",
    "age": null,
    "girth_cm": 650,
    "girth_hugs": null,
@@ -4034,15 +4052,17 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a huge many-stemmed olive in a fenced lawn, but no coordinate or place name, so it cannot be placed yet.",
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-930",
    "user_id": "p_4cefec9f5644f57abdf55de5",
    "mine": false,
    "name": "Linden tree next to the pond",
-   "species": null,
+   "species": "Lime (Tilia sp.)",
    "age": null,
    "girth_cm": 166,
    "girth_hugs": null,
@@ -4058,8 +4078,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a lime by a pond from a distance and its Slovenian natural-value sign (Mocile, NV 8628); no coordinate, so pin it from the register number.",
+   "seen": "2026-11-16",
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   }
  ]
 }

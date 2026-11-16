@@ -2291,16 +2291,37 @@
    "date": "2026-11-15"
   },
   "1215c9ad-3b03-438c-a3c4-74f631633f9a": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "cnk_004",
+   "city_slug": "cannock-chase",
+   "file": "cnk_004-the-plaited-birch-of-brocton.jpg",
+   "reason": "Whole lower trunk and first limbs of a gnarled birch, daylight, colour, GPS fix at the tree.",
+   "lat": 52.771545,
+   "lon": -2.04136666666667,
+   "pin_checked": "2026-11-16"
   },
   "340d13e5-d031-448e-9595-daff201bbb9e": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "bne_022",
+   "city_slug": "brisbane",
+   "file": "bne_022-the-fig-of-neal-macrossan-park.jpg",
+   "reason": "Whole trunk, roots and the base of the crown of a big fig, daylight, colour, GPS fix at the tree.",
+   "lat": -27.4624666666667,
+   "lon": 153.00970555,
+   "pin_checked": "2026-11-16"
   },
   "f249d2ac-4e34-4bdf-9919-626a212de102": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "lmb_001",
+   "city_slug": "lumbini",
+   "file": "lmb_001-the-bodhi-tree-of-lumbini.jpg",
+   "reason": "Whole tree, trunk and crown, visitors at its foot for scale, daylight, colour, GPS fix.",
+   "lat": 27.469225,
+   "lon": 83.275795,
+   "pin_checked": "2026-11-16"
   },
   "tip-871": {
    "outcome": "lead",
@@ -2514,20 +2535,48 @@
    "pin_checked": "2026-11-15"
   },
   "62a9482b-a105-4572-b6ca-15df5c73924d": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "ely_001",
+   "city_slug": "earlysville",
+   "file": "ely_001-the-airport-oak-of-earlysville.jpg",
+   "reason": "The whole tree from across a field, crown and trunk both readable, people at its foot for scale, daylight, colour, GPS fix.",
+   "lat": 38.1246502243517,
+   "lon": -78.4604887448675,
+   "pin_checked": "2026-11-16"
   },
   "51d98942-7dba-4d70-9ddd-17263958dd5d": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "tua_001",
+   "city_slug": "tuatapere",
+   "file": "tua_001-the-big-totara-of-lillburn-monowai-road.jpg",
+   "reason": "The full height of a massive trunk in its forest, daylight, colour, GPS fix at its foot.",
+   "lat": -45.8668116666667,
+   "lon": 167.633421666667,
+   "pin_checked": "2026-11-16"
   },
   "ff8f7eac-05bb-4474-a1bf-b44629a370cd": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "ybr_001",
+   "city_slug": "yungaburra",
+   "file": "ybr_001-the-curtain-fig-tree.jpg",
+   "reason": "The whole curtain of roots from crown to ground, from the boardwalk, daylight, colour, GPS fix.",
+   "lat": -17.2863716666667,
+   "lon": 145.573988333333,
+   "pin_checked": "2026-11-16"
   },
   "3dfeef4f-6a2a-474a-abaa-b0594c741084": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "llp_001",
+   "city_slug": "la-lande-patry",
+   "file": "llp_001-the-hollow-yew-of-la-lande-patry.jpg",
+   "reason": "Hollow yew trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.",
+   "lat": 48.76268,
+   "lon": -0.598013333333333,
+   "pin_checked": "2026-11-16"
   },
   "f81eaeaa-49a5-464a-b5fd-18cad1c749c7": {
    "outcome": "lead",
@@ -2550,20 +2599,41 @@
    "date": "2026-11-16"
   },
   "47730065-758c-46dc-b4ba-e0e3e353c368": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "mbs_001",
+   "city_slug": "mbissel",
+   "file": "mbs_001-the-baobab-of-mbissel.jpg",
+   "reason": "Whole baobab trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.",
+   "lat": 14.1740570802777,
+   "lon": -16.7786748498259,
+   "pin_checked": "2026-11-16"
   },
   "0269d848-f4e2-40db-9157-8f6f951a34c6": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "sgl_001",
+   "city_slug": "sagole",
+   "file": "sgl_001-the-sagole-baobab.jpg",
+   "reason": "The whole spreading tree in leaf, visitors beside it for scale, daylight, colour, GPS fix.",
+   "lat": -22.4881727052148,
+   "lon": 30.6305002213201,
+   "pin_checked": "2026-11-16"
   },
   "6bb3d492-ea79-4b08-8f63-a66610632b47": {
    "outcome": "lead",
    "date": "2026-11-16"
   },
   "de83aef2-d85e-4d38-b4ef-73e6365d2557": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "drw_001",
+   "city_slug": "darwin",
+   "file": "drw_001-the-cavenagh-street-boab.jpg",
+   "reason": "Whole boab, both trunks and the crown, daylight, colour, GPS fix at the tree.",
+   "lat": -12.46028,
+   "lon": 130.841325,
+   "pin_checked": "2026-11-16"
   },
   "42a31d57-d883-4e4e-9967-ec876a4c4036": {
    "outcome": "lead",
@@ -2666,8 +2736,15 @@
    "date": "2026-11-16"
   },
   "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "kvm_001",
+   "city_slug": "kvam",
+   "file": "kvm_001-the-old-oak-at-tolo.jpg",
+   "reason": "Whole low many-limbed oak filling the frame, daylight, colour, GPS fix at the tree.",
+   "lat": 60.3680225548025,
+   "lon": 6.18613024169611,
+   "pin_checked": "2026-11-16"
   },
   "f91bd966-db25-4276-91ce-9fb1c5806347": {
    "outcome": "lead",

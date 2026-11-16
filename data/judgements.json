@@ -128,8 +128,8 @@
     "score": null,
     "note": "nothing measurable about White Oak"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as ely_001: photograph viewed, the whole huge oak in a field by Earlysville Road (OSM 'Airport Oak'), people for scale; age as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -157,8 +157,8 @@
     "via": "girth",
     "note": "238% of the genus reference (349 cm, n=6, max 349)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as tua_001: photograph viewed, a massive totara trunk on the nature walk off Lillburn Monowai Road; age and girth as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -185,8 +185,8 @@
     "score": null,
     "note": "nothing measurable about Cunningham's Fig / White Fig"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as ybr_001: photograph viewed, the Curtain Fig Tree from its boardwalk; Wikipedia and the Queensland Heritage Register agree.",
    "hidde": null,
    "agreed": null
   },
@@ -213,8 +213,8 @@
     "score": null,
     "note": "nothing measurable about European Yew"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as llp_001 in La Lande-Patry (the app's 'near Estry' was the nearest place we had): photograph viewed, a hollow yew by the Rue de l'Eglise.",
    "hidde": null,
    "agreed": null
   },
@@ -241,8 +241,8 @@
     "score": null,
     "note": "nothing measurable about American Elm"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: one straight elm trunk in woodland, no crown and nothing that shows great size or age; a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -269,8 +269,8 @@
     "score": null,
     "note": "nothing measurable about Eastern Cottonwood"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a cottonwood crown behind a person standing on the path in the centre of the frame; a lead, not a frame for the page.",
    "hidde": null,
    "agreed": null
   },
@@ -297,8 +297,8 @@
     "score": null,
     "note": "nothing measurable about Eastern Cottonwood"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a cottonwood trunk partly hidden behind a younger tree in woodland, nothing showing great size; a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -325,8 +325,8 @@
     "score": null,
     "note": "nothing measurable about White Oak"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a tall slender oak among others in woodland, nothing showing great size or age; a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -353,8 +353,8 @@
     "score": null,
     "note": "nothing measurable about Northern Red Oak"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a tall red oak shot from its foot in autumn woodland, nothing showing great size or age; a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -381,8 +381,8 @@
     "score": null,
     "note": "nothing measurable about Baobab"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as mbs_001: photograph viewed, a huge ribbed baobab trunk by the Joal to Fimela road; 'largest in Senegal' quoted as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -409,8 +409,8 @@
     "score": null,
     "note": "nothing measurable about Baobab"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as sgl_001: photograph viewed, a colossal spreading baobab; the GPS fix is about 1 km from Wikipedia's Sagole Baobab point.",
    "hidde": null,
    "agreed": null
   },
@@ -437,8 +437,8 @@
     "score": null,
     "note": "nothing measurable about Ginkgo"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a fenced ginkgo at a temple, but the trunk is half behind the fence and a person stands in the centre of the frame; a lead until a clearer photo.",
    "hidde": null,
    "agreed": null
   },
@@ -465,8 +465,8 @@
     "score": null,
     "note": "nothing measurable about Boab"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as drw_001: photograph viewed, twin bottle trunks of a boab on Cavenagh Street, Darwin; their history quoted as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -490,8 +490,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a mangrove forest of many thin stems, not one tree; wrong subject for a tree page.",
    "hidde": null,
    "agreed": null
   },
@@ -571,8 +571,8 @@
     "via": "girth",
     "note": "59% of the species reference (507 cm, n=224, max 975)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a leaning black poplar with a person posing at the centre of the frame and a modest trunk (300 cm by their tape); a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -599,8 +599,8 @@
     "score": null,
     "note": "nothing measurable about Grape"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: an old grapevine trained over a hotel beer garden, a vine rather than a tree; kept as a lead with their note.",
    "hidde": null,
    "agreed": null
   },
@@ -627,8 +627,8 @@
     "score": null,
     "note": "nothing measurable about Oak"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as kvm_001: photograph viewed, a low many-limbed mossy oak above the Hardangerfjord at Tolo; age as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -655,8 +655,8 @@
     "score": null,
     "note": "nothing measurable about Lodgepole Pine"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a trunk close-up with dead limbs, a grove from a distance and a person in a meadow; the Champion Lodgepole Pine needs a whole-tree frame, a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -676,8 +676,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a fine old totara trunk and crown, but the tip carries no coordinate or place name, so it cannot be placed.",
    "hidde": null,
    "agreed": null
   },
@@ -700,8 +700,8 @@
     "score": null,
     "note": "nothing measurable about Olive (Olea sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a huge many-stemmed olive in a fenced lawn, but no coordinate or place name, so it cannot be placed yet.",
    "hidde": null,
    "agreed": null
   },
@@ -724,8 +724,8 @@
     "score": null,
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a lime by a pond from a distance and its Slovenian natural-value sign (Mocile, NV 8628); no coordinate, so pin it from the register number.",
    "hidde": null,
    "agreed": null
   },
@@ -968,6 +968,182 @@
    },
    "verdict": "publish",
    "reason": "Looked at the photograph: the olive in its stone enclosure against the Erechtheion, Caryatid porch behind; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1215c9ad-3b03-438c-a3c4-74f631633f9a",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Plaited Birch of Brocton",
+   "city": "Cannock Chase",
+   "species": "Birch (Betula sp.)",
+   "photo": "out/sightings/1215c9ad-3b03-438c-a3c4-74f631633f9a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole lower trunk and first limbs of a gnarled birch, daylight, colour, GPS fix at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:340d13e5-d031-448e-9595-daff201bbb9e",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig of Neal Macrossan Park",
+   "city": "Brisbane",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/340d13e5-d031-448e-9595-daff201bbb9e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole trunk, roots and the base of the crown of a big fig, daylight, colour, GPS fix at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f249d2ac-4e34-4bdf-9919-626a212de102",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Bodhi Tree of Lumbini",
+   "city": "Lumbini",
+   "species": "Bodhi Tree (Ficus religiosa)",
+   "photo": "out/sightings/f249d2ac-4e34-4bdf-9919-626a212de102.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole tree, trunk and crown, visitors at its foot for scale, daylight, colour, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:62a9482b-a105-4572-b6ca-15df5c73924d",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Airport Oak of Earlysville",
+   "city": "Earlysville",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/62a9482b-a105-4572-b6ca-15df5c73924d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. The whole tree from across a field, crown and trunk both readable, people at its foot for scale, daylight, colour, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:51d98942-7dba-4d70-9ddd-17263958dd5d",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Totara of Lillburn Monowai Road",
+   "city": "Tuatapere",
+   "species": "Totara (Podocarpus sp.)",
+   "photo": "out/sightings/51d98942-7dba-4d70-9ddd-17263958dd5d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. The full height of a massive trunk in its forest, daylight, colour, GPS fix at its foot.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ff8f7eac-05bb-4474-a1bf-b44629a370cd",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Curtain Fig Tree",
+   "city": "Yungaburra",
+   "species": "Cunningham's Fig / White Fig (Ficus virens)",
+   "photo": "out/sightings/ff8f7eac-05bb-4474-a1bf-b44629a370cd.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. The whole curtain of roots from crown to ground, from the boardwalk, daylight, colour, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3dfeef4f-6a2a-474a-abaa-b0594c741084",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Hollow Yew of La Lande-Patry",
+   "city": "La Lande-Patry",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/3dfeef4f-6a2a-474a-abaa-b0594c741084.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Hollow yew trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:47730065-758c-46dc-b4ba-e0e3e353c368",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Baobab of Mbissel",
+   "city": "Mbissel",
+   "species": "Baobab (Adansonia digitata)",
+   "photo": "out/sightings/47730065-758c-46dc-b4ba-e0e3e353c368.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole baobab trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0269d848-f4e2-40db-9157-8f6f951a34c6",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Sagole Baobab",
+   "city": "Sagole",
+   "species": "Baobab (Adansonia digitata)",
+   "photo": "out/sightings/0269d848-f4e2-40db-9157-8f6f951a34c6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. The whole spreading tree in leaf, visitors beside it for scale, daylight, colour, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:de83aef2-d85e-4d38-b4ef-73e6365d2557",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Cavenagh Street Boab",
+   "city": "Darwin",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/de83aef2-d85e-4d38-b4ef-73e6365d2557.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole boab, both trunks and the crown, daylight, colour, GPS fix at the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Old Oak at Tolo",
+   "city": "Kvam",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. Whole low many-limbed oak filling the frame, daylight, colour, GPS fix at the tree.",
    "hidde": null,
    "agreed": null
   },
@@ -4553,8 +4729,8 @@
     "score": null,
     "note": "nothing measurable about Oak (Quercus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: the whole oak in snow, a fine frame, but the tip carries no coordinate; a lead until Wollaton Park's Arbour Oak is pinned from a source.",
    "hidde": null,
    "agreed": null
   },
@@ -5180,8 +5356,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a view straight up into a crown of twisting beech-like limbs, no trunk or whole tree in frame, so nothing yet to recognise it by.",
    "hidde": null,
    "agreed": null
   },
@@ -5205,8 +5381,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a close-up of a hollow, split trunk, no crown or setting, so the frame cannot show the tree to a walker; a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -5230,8 +5406,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a big ridged trunk shot straight up from its foot, no crown or setting readable; a lead until a whole-tree photo comes.",
    "hidde": null,
    "agreed": null
   },
@@ -5255,8 +5431,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a young fan palm on a roadside verge, not old, big or remarkable enough for a page.",
    "hidde": null,
    "agreed": null
   },
@@ -5311,8 +5487,8 @@
     "score": null,
     "note": "nothing measurable about Birch"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as cnk_004: photograph viewed, a birch with a trunk foot twisted like plaited rope, daylight, GPS fix at the tree.",
    "hidde": null,
    "agreed": null
   },
@@ -5339,8 +5515,8 @@
     "score": null,
     "note": "nothing measurable about Moreton Bay Fig"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as bne_022: photograph viewed, a big fig with pale roots and buttresses spreading over the grass, GPS fix in Neal Macrossan Park.",
    "hidde": null,
    "agreed": null
   },
@@ -5367,8 +5543,8 @@
     "score": null,
     "note": "nothing measurable about Bodhi Tree"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Published as lmb_001: photograph viewed, a broad sacred fig on a brick platform at Lumbini with visitors under it; their note quoted.",
    "hidde": null,
    "agreed": null
   },
@@ -5476,8 +5652,8 @@
     "score": null,
     "note": "nothing measurable about Cypress (Cupressus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a bald cypress and a plane in Villa Smeraldi park, but no coordinate and the picture carries another photographer's signature, so it cannot be used.",
    "hidde": null,
    "agreed": null
   },
@@ -5500,8 +5676,8 @@
     "score": null,
     "note": "nothing measurable about Oak (Quercus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a broad lone oak at sunset by a field, no coordinate; the note names a regional register entry, so verify and pin from that register.",
    "hidde": null,
    "agreed": null
   },

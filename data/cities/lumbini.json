@@ -1,0 +1,65 @@
+{
+  "city": "Lumbini",
+  "country": "Nepal",
+  "status": "needs_curation",
+  "intro": "Lumbini, in the plains of southern Nepal, is honoured as the birthplace of the Buddha and draws pilgrims and visitors from across Asia and beyond. On open paved ground by the Mahadevi Temple Road stands a broad Bodhi tree, its grey trunk ringed by a low brick platform and one great limb leaning far out over the paving. A reader sent us its photograph, with visitors walking in its shade, and a note on why such trees matter.",
+  "meta_description": "The Bodhi tree at Lumbini, Nepal: a reader's photograph, where it stands and what is known about it.",
+  "hero_tree_id": "lmb_001",
+  "oldest_tree_id": "lmb_001",
+  "trees": [
+    {
+      "id": "lmb_001",
+      "name": "The Bodhi Tree of Lumbini",
+      "species": "Bodhi Tree (Ficus religiosa)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Mahadevi Temple Road, Lumbini, Rupandehi, Lumbini Province",
+        "latitude": 27.469225,
+        "longitude": 83.275795,
+        "neighbourhood": "Lumbini"
+      },
+      "story": "Lumbini, in the plains of southern Nepal, is honoured as the birthplace of the Buddha, and this broad fig stands on open ground there by the Mahadevi Temple Road, where a reader photographed it with a GPS fix. They wrote: “Lumbini, southern Nepal, is the birthplace of the Buddha. In northern India, to the south, he found enlightenment sitting under a Boddhi tree. There are many such trees at special places associated with the Buddha’s life.”\n\nThe photograph shows a tree with room around it. The trunk is a fused mass of grey stems inside a low round brick platform, and two great limbs lean out from it, one reaching far to the right over the paving. The crown is wide and leafy. Visitors in bright clothes walk past and stand in its shade, and a few things lie on a cloth at the foot of the platform.\n\nThe reader calls it a Bodhi tree, the sacred fig, Ficus religiosa. We have no age, girth or planting date for it, and we have not found a published record of this particular trunk, so this page states none. If you know its story, tell us here.\n\nLook for the brick platform and the long leaning limb.",
+      "how_to_recognise": "A broad fig on a low round brick platform, its grey trunk a fused mass of stems, with one great limb leaning far out to the right over the paving.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "f249d2ac-4e34-4bdf-9919-626a212de102",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting f249d2ac). Photograph viewed: Whole tree, trunk and crown, visitors at its foot for scale, daylight, colour, GPS fix. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix.",
+      "access": "On open paved ground where visitors walk, by the Mahadevi Temple Road.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f249d2ac-4e34-4bdf-9919-626a212de102",
+        "moved_m": 0,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lmb_001-the-bodhi-tree-of-lumbini.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_492afbdde23d69af867aff0f",
+        "sighting_id": "f249d2ac-4e34-4bdf-9919-626a212de102",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Whole tree, trunk and crown, visitors at its foot for scale, daylight, colour, GPS fix.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The Bodhi tree at Lumbini, Nepal: a reader's photograph, where it stands and what is known about it.",
+  "question_answer": "The Bodhi Tree of Lumbini stands at Mahadevi Temple Road, Lumbini, Rupandehi, Lumbini Province. On open paved ground where visitors walk, by the Mahadevi Temple Road.",
+  "question_context": "Lumbini, in the plains of southern Nepal, is honoured as the birthplace of the Buddha, and this broad fig stands on open ground there by the Mahadevi Temple Road, where a reader photographed it with a GPS fix. They wrote: “Lumbini, southern Nepal, is the birthplace of the Buddha. In northern India, to the south, he found enlightenment sitting under a Boddhi tree. There are many such trees at special places associated with the Buddha’s life.” The photograph shows a tree with room around it. The trunk is a fused mass of grey stems inside a low round brick platform, and two great limbs lean out from it, one reaching far to the right over the paving. The crown is wide and leafy. Visitors in bright clothes walk past and stand in its shade, and a few things lie on a cloth at the foot of the platform. The reader calls it a Bodhi tree, the sacred fig, Ficus religiosa. We have no age, girth or planting date for it, and we have not found a published record of this particular trunk, so this page states none. If you know its story, tell us here.",
+  "faq": [
+    {
+      "q": "Can I visit The Bodhi Tree of Lumbini?",
+      "a": "On open paved ground where visitors walk, by the Mahadevi Temple Road."
+    }
+  ]
+}

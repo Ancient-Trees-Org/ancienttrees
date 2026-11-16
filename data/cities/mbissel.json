@@ -1,0 +1,65 @@
+{
+  "city": "Mbissel",
+  "country": "Senegal",
+  "status": "needs_curation",
+  "intro": "Mbissel is a village in the M'bour department of Senegal, on the road that runs between Joal and Fimela near the coast south of Dakar. Beside that road stands a baobab whose trunk is a grey wall of swollen ribs and bulges, with roots snaking over bare sandy ground and people sitting in its shade. A reader sent us its photograph and calls it the largest baobab in Senegal, a claim the page gives as theirs.",
+  "meta_description": "A huge baobab by the Joal to Fimela road at Mbissel, Senegal: a reader's photograph, where it stands and what is known about it.",
+  "hero_tree_id": "mbs_001",
+  "oldest_tree_id": "mbs_001",
+  "trees": [
+    {
+      "id": "mbs_001",
+      "name": "The Baobab of Mbissel",
+      "species": "Baobab (Adansonia digitata)",
+      "age_estimate": "580 to 850 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Route Joal - Fimela, near Mbissel, M'bour department, Thiès region",
+        "latitude": 14.1740570802777,
+        "longitude": -16.7786748498259,
+        "neighbourhood": "Mbissel"
+      },
+      "story": "A reader sent this baobab with a GPS fix taken beside it, on the road between Joal and Fimela near Mbissel, in the M'bour department of Senegal, with one line: “This is the largest Baobab in Senegal.” They gave it an age of between 580 and 850 years.\n\nThe photograph shows why someone would say so. The trunk is not one column but a wall of them, grey and smooth and swollen, folded into great vertical ribs and bulges, with a knotted burr the size of a person near its foot. Roots snake out across the bare, sandy ground. Limbs as thick as ordinary trees leave the trunk at head height and spread into a leafy crown. In its shade a man sits on a chair, and a white plastic chair stands empty against the trunk, which dwarfs both.\n\nThe largest in Senegal is the reader's claim, and we have not yet checked it against a survey; the age is their estimate too, so read both as theirs. The tree is an African baobab, Adansonia digitata, as the trunk and its leaves show. If you have measured it, tell us here.\n\nLook for the ribbed grey wall by the road.",
+      "how_to_recognise": "A baobab trunk like a grey wall of swollen vertical ribs, with a knotted burr near its foot and roots snaking over bare sandy ground, by the Joal to Fimela road.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "47730065-758c-46dc-b4ba-e0e3e353c368",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting 47730065). Photograph viewed: Whole baobab trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix.",
+      "access": "Beside the road between Joal and Fimela, on open sandy ground where people sit in its shade.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "47730065-758c-46dc-b4ba-e0e3e353c368",
+        "moved_m": 0,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mbs_001-the-baobab-of-mbissel.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1067,
+        "source": "contributor",
+        "contributor_user_id": "p_cc5f6af96d4dfa465449b1c3",
+        "sighting_id": "47730065-758c-46dc-b4ba-e0e3e353c368",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Whole baobab trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "A huge baobab by the Joal to Fimela road at Mbissel, Senegal: a reader's photograph, where it stands and what is known about it.",
+  "question_answer": "The Baobab of Mbissel stands at Route Joal - Fimela, near Mbissel, M'bour department, Thiès region. Beside the road between Joal and Fimela, on open sandy ground where people sit in its shade.",
+  "question_context": "A reader sent this baobab with a GPS fix taken beside it, on the road between Joal and Fimela near Mbissel, in the M'bour department of Senegal, with one line: “This is the largest Baobab in Senegal.” They gave it an age of between 580 and 850 years. The photograph shows why someone would say so. The trunk is not one column but a wall of them, grey and smooth and swollen, folded into great vertical ribs and bulges, with a knotted burr the size of a person near its foot. Roots snake out across the bare, sandy ground. Limbs as thick as ordinary trees leave the trunk at head height and spread into a leafy crown. In its shade a man sits on a chair, and a white plastic chair stands empty against the trunk, which dwarfs both. The largest in Senegal is the reader's claim, and we have not yet checked it against a survey; the age is their estimate too, so read both as theirs. The tree is an African baobab, Adansonia digitata, as the trunk and its leaves show. If you have measured it, tell us here. Look for the ribbed grey wall by the road.",
+  "faq": [
+    {
+      "q": "Can I visit The Baobab of Mbissel?",
+      "a": "Beside the road between Joal and Fimela, on open sandy ground where people sit in its shade."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "city": "La Lande-Patry",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "La Lande-Patry is a village on the western edge of Flers, in the bocage country of the Orne in Normandy. On the Rue de l'Église stands a yew whose trunk has gone hollow, splitting into a ring of thick fluted columns with a tall dark doorway into its heart. A reader sent us its photograph and puts it at about a thousand years old. No register we hold lists it yet, so the page says what is known.",
+  "meta_description": "The hollow yew of La Lande-Patry, Orne: a reader's photograph, where it stands and what is known about it.",
+  "hero_tree_id": "llp_001",
+  "oldest_tree_id": "llp_001",
+  "trees": [
+    {
+      "id": "llp_001",
+      "name": "The Hollow Yew of La Lande-Patry",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "about 1,000 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Rue de l'Église, La Lande-Patry, Orne, Normandy",
+        "latitude": 48.76268,
+        "longitude": -0.598013333333333,
+        "neighbourhood": "Rue de l'Église"
+      },
+      "story": "A reader sent this yew with a GPS fix taken beside it on the Rue de l'Église in La Lande-Patry, a village next to Flers in the Orne, Normandy, and gave it an age of about a thousand years.\n\nThe photograph is taken close in, and it is all trunk. The yew is hollow. Its base has split into a ring of thick, fluted columns of red-brown and grey wood, and between two of them a tall opening runs from the ground to above head height, a dark doorway into the empty heart, its floor covered in bark chips. Twisting limbs spread above. Thin metal stakes stand at the foot of the trunk, a stone slab lies in front of it, and a stone monument stands on the grass behind.\n\nOld yews commonly go hollow and keep growing, so the opening is no sign the tree is failing. The age is the reader's estimate, and we have no girth, ring count or register entry for this tree, so read it as theirs. If you have measured it or know its history, tell us here.\n\nLook for the dark doorway in the trunk.",
+      "how_to_recognise": "A hollow yew whose base is a ring of thick fluted red-brown columns, with a tall dark opening between two of them, thin metal stakes at its foot and a stone slab in front.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting 3dfeef4f). Photograph viewed: Hollow yew trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix.",
+      "access": "Beside the Rue de l'Église, on open ground by the church, seen and reached on foot.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084",
+        "moved_m": 0,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/llp_001-the-hollow-yew-of-la-lande-patry.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c7db806e95409673b62f1922",
+        "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Hollow yew trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The hollow yew of La Lande-Patry, Orne: a reader's photograph, where it stands and what is known about it.",
+  "question_answer": "The Hollow Yew of La Lande-Patry stands at Rue de l'Église, La Lande-Patry, Orne, Normandy. Beside the Rue de l'Église, on open ground by the church, seen and reached on foot.",
+  "question_context": "A reader sent this yew with a GPS fix taken beside it on the Rue de l'Église in La Lande-Patry, a village next to Flers in the Orne, Normandy, and gave it an age of about a thousand years. The photograph is taken close in, and it is all trunk. The yew is hollow. Its base has split into a ring of thick, fluted columns of red-brown and grey wood, and between two of them a tall opening runs from the ground to above head height, a dark doorway into the empty heart, its floor covered in bark chips. Twisting limbs spread above. Thin metal stakes stand at the foot of the trunk, a stone slab lies in front of it, and a stone monument stands on the grass behind. Old yews commonly go hollow and keep growing, so the opening is no sign the tree is failing. The age is the reader's estimate, and we have no girth, ring count or register entry for this tree, so read it as theirs. If you have measured it or know its history, tell us here. Look for the dark doorway in the trunk.",
+  "faq": [
+    {
+      "q": "Can I visit The Hollow Yew of La Lande-Patry?",
+      "a": "Beside the Rue de l'Église, on open ground by the church, seen and reached on foot."
+    }
+  ]
+}
