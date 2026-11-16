@@ -128,10 +128,17 @@
       "curation_status": "flagged",
       "verify_notes": "Pin: OSM natural=tree node 9395545457 named 'The Kapok Tree' (24.5547564,-81.8038174); the OSM address point 502 Whitehead St sits about 40 m north, so the pin is the tree node, not the address. Age: WLRN (2024-04-01, courthouse hardening story) says 'In 1900, a kapok tree was planted at Jackson Square. The giant, beautiful tree still stands today and draws people in for photos daily' and that it will not be disturbed by construction. Florida Keys tourism board (Whitehead Street walk page): trunk circumference 'more than 30 feet' (girth_cm 914 is that figure, a lower bound; buttressed trunk), 'estimated to be more than 100 years old', 'one of the country's most famous Kapok trees', pink and white flowers spring and summer, a sign marks the spot. A search summary claimed a 2018 survey dates it 1905; that PDF (williamvdavidson.com, The Kapoks of Key West 2018) could not be read, so it is NOT used; 1900 vs 1905 is an unresolved possible discrepancy. Alive: lifecheck RECENT, iNaturalist observation 2026-11-10 at the pin (https://www.inaturalist.org/observations/414403808). Two sources plus OSM. Same walk as kyw_004 (about 250 m).",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kyw_003-the-kapok-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_f0fa897174bc50999a318322",
+        "sighting_id": "b9f7a4d7-2a41-4d1b-9794-955f39d4951a",
+        "note": "Photographed by a reader and sent through the app (2026-09-29); a viewing pass approved it on 2026-11-16: Kapok with buttress roots and its own sign, in front of the courthouse; fills the frame Species seen: Kapok (Ceiba pentandra), smooth grey trunk, big buttresses, palmate leaves. Fits the description: buttressed trunk beside the interpretive sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {

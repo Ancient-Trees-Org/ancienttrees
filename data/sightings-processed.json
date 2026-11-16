@@ -2568,6 +2568,94 @@
   "42a31d57-d883-4e4e-9967-ec876a4c4036": {
    "outcome": "lead",
    "date": "2026-11-16"
+  },
+  "99f05329-69a2-4b6e-95d9-e9fd600f1e95": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "hou_009",
+   "city_slug": "houston",
+   "file": "hou_009-the-becks-prime-augusta-live-oaks.jpg",
+   "reason": "Huge live oak with a patio beneath it, fills the frame, daylight, colour Species seen: Live oak, spreading limbs draped in resurrection fern. Fits the description: massive spreading crown over the restaurant deck.",
+   "lat": 29.7387833333333,
+   "lon": -95.481995,
+   "pin_checked": "2026-11-16"
+  },
+  "ba6554c4-009e-4b14-888a-bd41f6901099": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "hou_002",
+   "city_slug": "houston",
+   "file": "hou_002-the-old-pecan-tree.jpg",
+   "reason": "Old thick-trunked tree beside a trail marker, big arching limb, daylight and colour Species seen: Pecan trunk with flaking bark, large horizontal limb. Fits the description: old tree on a woodland path with a trail sign.",
+   "lat": 29.6345666666667,
+   "lon": -95.669,
+   "pin_checked": "2026-11-16"
+  },
+  "b9f7a4d7-2a41-4d1b-9794-955f39d4951a": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "kyw_003",
+   "city_slug": "key-west",
+   "file": "kyw_003-the-kapok-tree.jpg",
+   "reason": "Kapok with buttress roots and its own sign, in front of the courthouse; fills the frame Species seen: Kapok (Ceiba pentandra), smooth grey trunk, big buttresses, palmate leaves. Fits the description: buttressed trunk beside the interpretive sign.",
+   "lat": 24.5547564,
+   "lon": -81.8038174,
+   "pin_checked": "2026-11-16"
+  },
+  "50567b0d-1b7c-437c-afea-03cbaf003531": {
+   "outcome": "published",
+   "date": "2026-11-16",
+   "tree_id": "bng_001",
+   "city_slug": "richard-bong-state-recreation-area",
+   "file": "bng_001-the-rhodes-bald-cypress.jpg",
+   "reason": "Tall trunk with a carved Champion Bald Cypress sign, daylight, colour Species seen: Bald cypress, fluted trunk, feathery foliage. Fits the description: champion cypress with its sign.",
+   "lat": 42.64496,
+   "lon": -88.12943,
+   "pin_checked": "2026-11-16"
+  },
+  "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "bwd_001",
+   "city_slug": "borrowdale",
+   "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-b24f5c1e.jpg",
+   "reason": "The National Trust sign for the Fraternal Four, not the trunk; belongs in the gallery behind the lead Species seen: sign names Taxus baccata, the yews. Fits the description: interpretive board with the tree's history.",
+   "lat": 54.501955,
+   "lon": -3.18203666666667,
+   "pin_checked": "2026-11-16"
+  },
+  "27b65062-4209-44fa-ad20-a179dd1e974f": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "chs_001",
+   "city_slug": "charleston",
+   "file": "chs_001-the-angel-oak-27b65062.jpg",
+   "reason": "Angel Oak, a limb sweeping the ground and the crown above, daylight, colour; a second angle beside the lead Species seen: Live oak, massive horizontal limbs. Fits the description: enormous limbs resting on the ground.",
+   "lat": 32.71709,
+   "lon": -80.08043,
+   "pin_checked": "2026-11-16"
+  },
+  "3693bdc5-cbb5-4ff1-909e-745a397aaf76": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "mex_005",
+   "city_slug": "mexico-city",
+   "file": "mex_005-ahuehuete-de-parque-espana-3693bdc5.jpg",
+   "reason": "Plaque of 1921 at the foot of the ahuehuete, trunk only above it; gallery, not lead Species seen: Bark of a Taxodium, plaque says ahuehuete. Fits the description: centenary tree plaque.",
+   "lat": 19.4161225080949,
+   "lon": -99.170495987615,
+   "pin_checked": "2026-11-16"
+  },
+  "9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf": {
+   "outcome": "added",
+   "date": "2026-11-16",
+   "tree_id": "mex_005",
+   "city_slug": "mexico-city",
+   "file": "mex_005-ahuehuete-de-parque-espana-9d72943f.jpg",
+   "reason": "Whole tall forked trunk with weeping foliage and the plaque stone at its foot, daylight, colour Species seen: Ahuehuete (Taxodium mucronatum), drooping foliage, fibrous bark. Fits the description: forked trunk in a city park with the plaque.",
+   "lat": 19.4159390174488,
+   "lon": -99.1704638029335,
+   "pin_checked": "2026-11-16"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

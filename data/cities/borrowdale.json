@@ -38,8 +38,8 @@
       "girth_cm": 756,
       "location": {
         "address": "Hillside above Seathwaite, near Borrowdale, Cumbria, England (National Trust land)",
-        "latitude": 54.502923,
-        "longitude": -3.1828445,
+        "latitude": 54.501955,
+        "longitude": -3.182037,
         "neighbourhood": "Borrowdale, Lake District"
       },
       "story": "William Wordsworth called them \"those fraternal Four of Borrowdale, joined in one solemn and capacious grove,\" and for two centuries visitors have climbed the Cumbrian hillside above Seathwaite looking for exactly that number. They will find three. The fourth yew died at some point nobody recorded, its sex and its story lost with it.\n\nThe largest survivor, dated by dendrochronology to roughly 1,500 years old, measures about 7.5 metres round, more than the other two combined. It took a direct storm hit in 1998 and another in January 2005, which hollowed its crown, and it is now regrowing from the sections that survived; visitors have reportedly lit fires inside that hollow trunk since, adding fresh damage to old. Despite Wordsworth's masculine plural, at least three of the four, living and dead, are known or believed to be female. The National Trust, which owns the site, has fenced the grove against grazing sheep and otherwise left it alone, the same restraint it shows most of its ancient trees.\n\nFree to visit. From Seathwaite, cross the bridge over the River Derwent and follow the footpath roughly half a mile up the hillside; the ground is rough, not paved, and there is no public transport to the trailhead itself.",
@@ -60,7 +60,7 @@
         "taken_month": 5
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "verify_notes": "Ensemble entry, one collectible point (compact famous grove, one obvious place to stand): William Wordsworth's 'Fraternal Four' from his 1803-inspired poem 'Yew Trees', widely called the most famous yews in England. Only three of the original four survive. Girths per Ancient Yew Group (June 2002 Tim Hills survey): largest 752-756cm, second 506cm, third 447cm, fourth (the Lorton/riverbank yew, sometimes counted as a bonus fifth tree, not part of the historic Four) 330cm and in notably better health. Age: the largest tree's age was established by dendrochronology at roughly 1,500 years per Forestry Journal (2026); the other two are presumably younger but undated. Damage recorded rather than smoothed over: storms in 1998 and January 2005, now hollow and regrowing; visitors reportedly light fires inside the hollow trunk. Owned/managed by National Trust, fenced against livestock. Pin: grove-level coordinates from the Ancient Yew Group's own map point; approximate because the grove spans some distance up a hillside.",
       "how_to_recognise": "You are looking for three yews, not the four Wordsworth counted. The largest is 7.5 metres round, more than the other two combined, and its crown is hollowed. The grove is fenced against sheep above Seathwaite.",
       "best_time": {
@@ -87,7 +87,14 @@
           "note": "Photographed by a reader and sent through the app (2026-10-17); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-16"
         }
-      ]
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
+        "moved_m": 120,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     }
   ]
 }

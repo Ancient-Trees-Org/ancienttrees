@@ -75,7 +75,7 @@
         "longitude": -95.66917,
         "neighbourhood": "Sugar Land, Fort Bend County"
       },
-      "story": "There is a footpath in Sugar Land called Old Pecan Tree Trail, and it is named after exactly what you would hope. The tree is a pecan of 467 centimetres round and twenty eight metres tall, with a crown spreading twenty five metres, measured by the Texas A&M Forest Service in March 2026. Trail guides rank it among the twenty five largest trees in Texas, which is scored on trunk, height and crown together.\n\nPecan is the state tree, and it is one of the few state trees anywhere chosen for something other than looks: it feeds people. A tree this size drops a serious crop, and in a good year the ground beneath it is worth walking slowly across in October.\n\nThe trail is short, well under a kilometre, and the tree is the reason it exists. That is the useful thing about a path named for a tree: nobody has to explain where to go.\n\nNo age has been recorded. Pecans of this girth in the Brazos bottomlands are generally reckoned in centuries rather than decades, but nobody has counted the rings and this page is not going to guess.",
+      "story": "There is a footpath in Sugar Land called Old Pecan Tree Trail, and it is named after exactly what you would hope. The tree is a pecan of 467 centimetres round and twenty eight metres tall, with a crown spreading twenty five metres, measured by the Texas A&M Forest Service in March 2026. Trail guides rank it among the twenty five largest trees in Texas, which is scored on trunk, height and crown together.\n\nPecan is the state tree, and it is one of the few state trees anywhere chosen for something other than looks, because it feeds people. A tree this size drops a serious crop, and in a good year the ground beneath it is worth walking slowly across in October.\n\nThe trail is short, well under a kilometre, and the tree is the reason it exists. That is the useful thing about a path named for a tree: nobody has to explain where to go.\n\nNo age has been recorded. Pecans of this girth in the Brazos bottomlands are generally reckoned in centuries rather than decades, but nobody has counted the rings and this page is not going to guess.",
       "verified_sources": [
         "https://texasforestinfo.tamu.edu/BigTreeRegistry (Texas Big Tree Registry, Texas A&M Forest Service, measured March 2026)",
         "https://www.trailforks.com/trails/old-pecan-tree/"
@@ -83,10 +83,17 @@
       "access": "Free. Public hiking trail, open daylight hours.",
       "transport": "About 32 km southwest of downtown Houston, in Sugar Land. Drive.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hou_002-the-old-pecan-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_ab50071883c0a2df1b7a50bb",
+        "sighting_id": "ba6554c4-009e-4b14-888a-bd41f6901099",
+        "note": "Photographed by a reader and sent through the app (2023-05-26); a viewing pass approved it on 2026-11-16: Old thick-trunked tree beside a trail marker, big arching limb, daylight and colour Species seen: Pecan trunk with flaking bark, large horizontal limb. Fits the description: old tree on a woodland path with a trail sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "A tall, straight-trunked pecan standing well clear of the trees around it, on the short trail that carries its name.",
       "curation_status": "ai_generated",
@@ -312,8 +319,8 @@
       "age_max": 500,
       "location": {
         "address": "Becks Prime, 2615 Augusta Dr, Houston, TX 77057 (behind the restaurant)",
-        "latitude": 29.7388,
-        "longitude": -95.4824,
+        "latitude": 29.738783,
+        "longitude": -95.481995,
         "neighbourhood": "Uptown / Galleria"
       },
       "verified_sources": [
@@ -322,21 +329,34 @@
       ],
       "access": "Visible from the patio and the drive-through lane of a counter-service restaurant, listed as open daily from 11am to 10pm in 2026. These are a business's grounds rather than a park, so come during opening hours.",
       "transport": "Car or bus along the Westheimer Rd corridor near the Galleria; no rail; walk time not verified",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "age_basis": "source",
       "story": "Most restaurants buy land for the parking. The owners of this Becks Prime bought theirs in 1988, by a local news account, mainly for the trees. Two live oaks stand behind the building on Augusta Drive, each reported at about 70 feet tall, and the Heritage Society, Houston's history museum, estimates the oak it names at 400 to 500 years old. Another account has them sprouting around the 1620s. Neither figure comes with a ring count or a girth, so read both as estimates. Even the low end has these oaks standing well before Houston was founded in 1836.\n\nWhat makes them worth the detour is what the restaurant did around them. Their lower limbs had sunk until they rested on the ground, so a 210-ton crane lifted them back up onto wooden stilts, which still hold them today. The building is said to float 18 inches above the soil to keep its weight off the roots, and the drive-through lane that runs under the canopy is laid in pavers set by hand.\n\nThe sources do not agree on the count. The Heritage Society speaks of one oak, the local report of two colossal ones. Stand on the patio and count for yourself.\n\nThese are a business's grounds, not a park, so come while the restaurant is open. Our pin marks the address rather than the trunks.",
       "how_to_recognise": "You can recognise them by the limbs propped up on wooden stilts, with the drive-through lane running under the canopy. They stand behind the Becks Prime restaurant at 2615 Augusta Drive.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hou_009-the-becks-prime-augusta-live-oaks.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 4,
+        "source": "contributor",
+        "contributor_user_id": "p_ab50071883c0a2df1b7a50bb",
+        "sighting_id": "99f05329-69a2-4b6e-95d9-e9fd600f1e95",
+        "note": "Photographed by a reader and sent through the app (2021-04-17); a viewing pass approved it on 2026-11-16: Huge live oak with a patio beneath it, fills the frame, daylight, colour Species seen: Live oak, spreading limbs draped in resurrection fern. Fits the description: massive spreading crown over the restaurant deck.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "location_site": {
         "name": "Becks Prime restaurant grounds, 2615 Augusta Dr",
         "radius_m": 50.0
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "99f05329-69a2-4b6e-95d9-e9fd600f1e95",
+        "moved_m": 39,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

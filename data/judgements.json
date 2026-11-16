@@ -18,6 +18,536 @@
    "agreed": null
   },
   {
+   "id": "sight:b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Borrowdale Yews (the Fraternal Four)",
+   "city": "Borrowdale",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/b24f5c1e-b9c6-4f5a-af2e-c761fa60e614.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 120,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "National Trust sign in the strip, kept behind the lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3693bdc5-cbb5-4ff1-909e-745a397aaf76",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Ahuehuete de Parque Espana",
+   "city": "Mexico City",
+   "species": "Montezuma Cypress (Taxodium mucronatum)",
+   "photo": "out/sightings/3693bdc5-cbb5-4ff1-909e-745a397aaf76.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 17,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Montezuma Cypress (Taxodium mucronatum)"
+   },
+   "verdict": "publish",
+   "reason": "Centenary plaque of the ahuehuete, in the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Ahuehuete de Parque Espana",
+   "city": "Mexico City",
+   "species": "Montezuma Cypress (Taxodium mucronatum)",
+   "photo": "out/sightings/9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Montezuma Cypress (Taxodium mucronatum)"
+   },
+   "verdict": "publish",
+   "reason": "Whole forked trunk with plaque, in the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:27b65062-4209-44fa-ad20-a179dd1e974f",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Angel Oak",
+   "city": "Charleston",
+   "species": "Southern Live Oak (Quercus virginiana)",
+   "photo": "out/sightings/27b65062-4209-44fa-ad20-a179dd1e974f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak (Quercus virginiana)"
+   },
+   "verdict": "publish",
+   "reason": "Angel Oak limbs, daylight, in the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:62a9482b-a105-4572-b6ca-15df5c73924d",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Earlysville Oak",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_e7d96418675238ae7921276f/62A9482B-A105-4572-B6CA-15DF5C73924D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:51d98942-7dba-4d70-9ddd-17263958dd5d",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Podocarpus hallii",
+   "city": null,
+   "species": "Podocarpus hallii",
+   "photo": "p_24edc9a8bd5f07a00e0b3133/51D98942-7DBA-4D70-9DDD-17263958DD5D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 831,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 2.381,
+    "via": "girth",
+    "note": "238% of the genus reference (349 cm, n=6, max 349)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ff8f7eac-05bb-4474-a1bf-b44629a370cd",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Curtain Fig",
+   "city": null,
+   "species": "Cunningham's Fig / White Fig",
+   "photo": "p_24edc9a8bd5f07a00e0b3133/FF8F7EAC-05BB-4474-A1BF-B44629A370CD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cunningham's Fig / White Fig"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:3dfeef4f-6a2a-474a-abaa-b0594c741084",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "European Yew near Estry",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_c7db806e95409673b62f1922/3DFEEF4F-6A2A-474A-ABAA-B0594C741084.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f81eaeaa-49a5-464a-b5fd-18cad1c749c7",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "American Elm",
+   "city": null,
+   "species": "American Elm",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/F81EAEAA-49A5-464A-B5FD-18CAD1C749C7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7b8b90c6-507c-46cc-9fe8-1366f7a953a3",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Eastern Cottonwood",
+   "city": null,
+   "species": "Eastern Cottonwood",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/7B8B90C6-507C-46CC-9FE8-1366F7A953A3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern Cottonwood"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e34c7308-6fcc-45cf-afca-1a9cdbf20d76",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Eastern Cottonwood",
+   "city": null,
+   "species": "Eastern Cottonwood",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/E34C7308-6FCC-45CF-AFCA-1A9CDBF20D76.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern Cottonwood"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cb8b4ebe-74ca-4641-a139-533b41a7e3f0",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "White Oak",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/CB8B4EBE-74CA-4641-A139-533B41A7E3F0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2c03d56e-6192-4fae-9a95-94e41b042e6b",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Northern Red Oak",
+   "city": null,
+   "species": "Northern Red Oak",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/2C03D56E-6192-4FAE-9A95-94E41B042E6B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Northern Red Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:47730065-758c-46dc-b4ba-e0e3e353c368",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Baobab",
+   "city": null,
+   "species": "Baobab",
+   "photo": "p_cc5f6af96d4dfa465449b1c3/47730065-758C-46DC-B4BA-E0E3E353C368.jpg",
+   "reader_note": "This is the largest Baobab in Senegal",
+   "reader_girth_cm": 33,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Baobab"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0269d848-f4e2-40db-9157-8f6f951a34c6",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Baobab",
+   "city": null,
+   "species": "Baobab",
+   "photo": "p_cc5f6af96d4dfa465449b1c3/0269D848-F4E2-40DB-9157-8F6F951A34C6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 3400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Baobab"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6bb3d492-ea79-4b08-8f63-a66610632b47",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_697eb4a0c77311e0508c5fb0/6BB3D492-EA79-4B08-8F63-A66610632B47.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:de83aef2-d85e-4d38-b4ef-73e6365d2557",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Boab",
+   "city": null,
+   "species": "Boab",
+   "photo": "p_af81b9aa2e88c08d839b36df/DE83AEF2-D85E-4D38-B4EF-73E6365D2557.jpg",
+   "reader_note": "A Boab with a remarkable history\n\nStanding proudly in the heart of Darwin, this heritage-listed Boab is much more than an impressive tree. Planted in the late 1800s, it marks the site of Darwin’s first primary school and has witnessed generations of Territory history, including the later Darwin High School and Adult Education Centre.\n\nDuring World War II, the tree had an extraordinary brush with history when an unexploded ‘Daisy Cutter’ bomb lay beneath its canopy for several days before being d",
+   "reader_girth_cm": 940,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:42a31d57-d883-4e4e-9967-ec876a4c4036",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_ca8e58c3da3caefe11e2c006/42A31D57-D883-4E4E-9967-EC876A4C4036.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:99f05329-69a2-4b6e-95d9-e9fd600f1e95",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Becks Prime Augusta Live Oaks",
+   "city": "Houston",
+   "photo": "out/sightings/99f05329-69a2-4b6e-95d9-e9fd600f1e95.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Live oak over a restaurant deck, fills the frame, daylight, species matches, pin confirmed by the fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ba6554c4-009e-4b14-888a-bd41f6901099",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Old Pecan Tree",
+   "city": "Houston",
+   "photo": "out/sightings/ba6554c4-009e-4b14-888a-bd41f6901099.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Old pecan trunk on a trail beside its marker, daylight, colour, species matches",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b9f7a4d7-2a41-4d1b-9794-955f39d4951a",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Kapok Tree",
+   "city": "Key West",
+   "photo": "out/sightings/b9f7a4d7-2a41-4d1b-9794-955f39d4951a.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Kapok with buttresses beside its sign at the courthouse, daylight, species matches",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:50567b0d-1b7c-437c-afea-03cbaf003531",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Rhodes Bald Cypress",
+   "city": "Richard Bong State Recreation Area",
+   "photo": "out/sightings/50567b0d-1b7c-437c-afea-03cbaf003531.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Champion Bald Cypress with its carved sign, daylight, colour, species matches, pin confirmed",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:45ea816d-259f-4437-ac86-d3499f0269a4",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",
@@ -4552,6 +5082,230 @@
    "agreed": null
   },
   {
+   "id": "sight:6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Ardkinglas Grand Fir",
+   "city": "Ardkinglas",
+   "species": "Grand Fir",
+   "photo": "out/sightings/6d6d0f62-5fa6-47eb-b618-614103ad8ff0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: tall grand fir with name plate, person for scale, trunk clear against bright sky; GPS fix moved the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c8d04675-2b33-4799-8579-159c24813e0b",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Ardkinglas Silver Fir, the Mightiest Conifer",
+   "city": "Ardkinglas",
+   "species": "Silver Fir",
+   "photo": "out/sightings/c8d04675-2b33-4799-8579-159c24813e0b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: multi-stem silver fir beside the Europe's highest tree sign, daylight; GPS fix confirmed the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8fcb5cde-944b-4d35-a9bd-79412712a8db",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Library Park Fig",
+   "city": "Los Angeles",
+   "species": "Fig",
+   "photo": "out/sightings/8fcb5cde-944b-4d35-a9bd-79412712a8db.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: large fig with buttress roots beside the library, daylight; GPS fix confirmed the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c82eb35c-e51c-40af-9225-927ebed2f0cb",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Variegated Maple of Coevorden Castle",
+   "city": "Emmen",
+   "species": "Maple",
+   "photo": "out/sightings/c82eb35c-e51c-40af-9225-927ebed2f0cb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: big broad maple in leaf by the castle buildings, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1dde934f-5b8b-415c-9b32-febb864eac2a",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Twin Cypresses of the Parador",
+   "city": "Granada",
+   "species": "Cypress",
+   "photo": "out/sightings/1dde934f-5b8b-415c-9b32-febb864eac2a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: twin cypresses against the Parador wall, daylight; GPS fix confirmed the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1bdff60c-6ea7-4323-9cf5-fe703f69a248",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Xemxija Old Carob Tree",
+   "city": "Malta",
+   "species": "Carob",
+   "photo": "out/sightings/1bdff60c-6ea7-4323-9cf5-fe703f69a248.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: gnarled old carob beside the plaque; small file but the tree is plain.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "Yang Na of the City Pillar, Wat Chedi Luang",
+   "city": "Chiang Mai",
+   "species": "Yang Na",
+   "photo": "out/sightings/c1046494-aeff-40b3-81da-d0f3fc7ac3e4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Viewed: a strangler fig, not a Dipterocarpus, and the fix is 2.2 km from our pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fe3a6f40-1a19-41ab-86b2-7121b889e003",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Boole Library Redwoods",
+   "city": "Cork",
+   "species": "Redwood",
+   "photo": "out/sightings/fe3a6f40-1a19-41ab-86b2-7121b889e003.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Viewed: a quad and sky, no tree in frame; wrong subject.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Glasnevin Hybrid Strawberry Tree",
+   "city": "Dublin",
+   "species": "Hybrid Strawberry Tree",
+   "photo": "out/sightings/b59c4873-fd0a-4a92-a0d0-08074938e8f5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Viewed: a weeping conifer, not a strawberry tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Bowthorpe Oak",
+   "city": "Bowthorpe",
+   "species": null,
+   "photo": "out/sightings/a7751610-e6bc-4dc1-96f6-63005ef4f2dc.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7ff97b69-76b5-4905-80c2-7c7e901c31c0",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Crowhurst Yew",
+   "city": "Crowhurst",
+   "species": null,
+   "photo": "out/sightings/7ff97b69-76b5-4905-80c2-7c7e901c31c0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Doveridge Yew",
+   "city": "Doveridge",
+   "species": null,
+   "photo": "out/sightings/c476f81b-3871-4273-9e0a-f4f21ae2b5e1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:24c1e280-6404-4056-af86-c3ac625d6e16",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Sweet Chestnut of Greenwich Park",
+   "city": "London",
+   "species": null,
+   "photo": "out/sightings/24c1e280-6404-4056-af86-c3ac625d6e16.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2ec0418a-ac10-4c61-9daf-a287193ae994",
+   "seen": "2026-11-15",
+   "kind": "photo of a tree we map",
+   "tree": "The Methuselah Tree",
+   "city": "Woodside",
+   "species": null,
+   "photo": "out/sightings/2ec0418a-ac10-4c61-9daf-a287193ae994.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -7378,230 +8132,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:6d6d0f62-5fa6-47eb-b618-614103ad8ff0",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "Ardkinglas Grand Fir",
-   "city": "Ardkinglas",
-   "species": "Grand Fir",
-   "photo": "out/sightings/6d6d0f62-5fa6-47eb-b618-614103ad8ff0.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: tall grand fir with name plate, person for scale, trunk clear against bright sky; GPS fix moved the pin.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:c8d04675-2b33-4799-8579-159c24813e0b",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "Ardkinglas Silver Fir, the Mightiest Conifer",
-   "city": "Ardkinglas",
-   "species": "Silver Fir",
-   "photo": "out/sightings/c8d04675-2b33-4799-8579-159c24813e0b.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: multi-stem silver fir beside the Europe's highest tree sign, daylight; GPS fix confirmed the pin.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:8fcb5cde-944b-4d35-a9bd-79412712a8db",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "Library Park Fig",
-   "city": "Los Angeles",
-   "species": "Fig",
-   "photo": "out/sightings/8fcb5cde-944b-4d35-a9bd-79412712a8db.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: large fig with buttress roots beside the library, daylight; GPS fix confirmed the pin.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:c82eb35c-e51c-40af-9225-927ebed2f0cb",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Variegated Maple of Coevorden Castle",
-   "city": "Emmen",
-   "species": "Maple",
-   "photo": "out/sightings/c82eb35c-e51c-40af-9225-927ebed2f0cb.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: big broad maple in leaf by the castle buildings, daylight.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:1dde934f-5b8b-415c-9b32-febb864eac2a",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Twin Cypresses of the Parador",
-   "city": "Granada",
-   "species": "Cypress",
-   "photo": "out/sightings/1dde934f-5b8b-415c-9b32-febb864eac2a.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: twin cypresses against the Parador wall, daylight; GPS fix confirmed the pin.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:1bdff60c-6ea7-4323-9cf5-fe703f69a248",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "Xemxija Old Carob Tree",
-   "city": "Malta",
-   "species": "Carob",
-   "photo": "out/sightings/1bdff60c-6ea7-4323-9cf5-fe703f69a248.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: gnarled old carob beside the plaque; small file but the tree is plain.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "Yang Na of the City Pillar, Wat Chedi Luang",
-   "city": "Chiang Mai",
-   "species": "Yang Na",
-   "photo": "out/sightings/c1046494-aeff-40b3-81da-d0f3fc7ac3e4.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a strangler fig, not a Dipterocarpus, and the fix is 2.2 km from our pin.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:fe3a6f40-1a19-41ab-86b2-7121b889e003",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Boole Library Redwoods",
-   "city": "Cork",
-   "species": "Redwood",
-   "photo": "out/sightings/fe3a6f40-1a19-41ab-86b2-7121b889e003.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a quad and sky, no tree in frame; wrong subject.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:b59c4873-fd0a-4a92-a0d0-08074938e8f5",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Glasnevin Hybrid Strawberry Tree",
-   "city": "Dublin",
-   "species": "Hybrid Strawberry Tree",
-   "photo": "out/sightings/b59c4873-fd0a-4a92-a0d0-08074938e8f5.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a weeping conifer, not a strawberry tree.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:a7751610-e6bc-4dc1-96f6-63005ef4f2dc",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Bowthorpe Oak",
-   "city": "Bowthorpe",
-   "species": null,
-   "photo": "out/sightings/a7751610-e6bc-4dc1-96f6-63005ef4f2dc.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:7ff97b69-76b5-4905-80c2-7c7e901c31c0",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Crowhurst Yew",
-   "city": "Crowhurst",
-   "species": null,
-   "photo": "out/sightings/7ff97b69-76b5-4905-80c2-7c7e901c31c0.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:c476f81b-3871-4273-9e0a-f4f21ae2b5e1",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Doveridge Yew",
-   "city": "Doveridge",
-   "species": null,
-   "photo": "out/sightings/c476f81b-3871-4273-9e0a-f4f21ae2b5e1.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:24c1e280-6404-4056-af86-c3ac625d6e16",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Sweet Chestnut of Greenwich Park",
-   "city": "London",
-   "species": null,
-   "photo": "out/sightings/24c1e280-6404-4056-af86-c3ac625d6e16.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2ec0418a-ac10-4c61-9daf-a287193ae994",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Methuselah Tree",
-   "city": "Woodside",
-   "species": null,
-   "photo": "out/sightings/2ec0418a-ac10-4c61-9daf-a287193ae994.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Viewed: published as a new reader-found tree, whole tree in daylight at the reader's GPS fix.",
    "hidde": null,
    "agreed": null
   }
