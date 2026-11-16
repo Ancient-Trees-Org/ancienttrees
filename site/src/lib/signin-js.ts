@@ -674,10 +674,22 @@ export const SIGNIN_JS = `
     // A reopened sheet must not inherit where the last drag left it.
     dlg.addEventListener('close', rest);
   })();
+  var holdForSuggestion = window.atWireEmailSuggest ? window.atWireEmailSuggest('signin') : function() { return false; };
+  // Back from "check your inbox" to the field, the address still in it.
+  document.getElementById('signin-change').addEventListener('click', function() {
+    document.getElementById('signin-sent').hidden = true;
+    document.getElementById('signin-ask').hidden = false;
+    var rest = document.getElementById('signin-rest');
+    if (rest) rest.hidden = false;
+    var f = document.getElementById('signin-email');
+    f.focus();
+    f.select();
+  });
   document.getElementById('signin-form').addEventListener('submit', function(ev) {
     ev.preventDefault();
     var email = document.getElementById('signin-email').value.trim();
     if (!email) return;
+    if (holdForSuggestion()) return;
     fetch(SB + '/auth/v1/otp?redirect_to=' + encodeURIComponent(location.origin + location.pathname), {
       method: 'POST',
       headers: { 'apikey': SBK, 'Content-Type': 'application/json' },

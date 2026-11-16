@@ -84,7 +84,7 @@ const canonical = `${BASE_URL}/account`;
 
   <section id="st-sent" class="acct-card" hidden>
     <h1>Check your <em>inbox</em>.</h1>
-    <p class="acct-sub">We sent a sign-in link to <strong id="sent-to"></strong>. It works once and expires in 15 minutes.</p>
+    <p class="acct-sub">We sent a sign-in link to <strong id="sent-to"></strong>. It works once.</p>
     <p class="acct-actions">
       <button type="button" id="resend" class="go-btn ghost" disabled>Resend (<span id="cool">30</span>)</button>
       <button type="button" id="change" class="acct-link">Use a different address</button>
@@ -262,11 +262,13 @@ const canonical = `${BASE_URL}/account`;
     document.getElementById("saved").hidden = (id !== "st-in");
   }
   var lastEmail = "";
-  function mask(e) {
-    var at = e.indexOf("@");
-    if (at < 2) return e;
-    return e[0] + "•••" + e.slice(at - 1);
-  }
+  // The address is shown WHOLE (2026-11-16). It used to be masked
+  // (first letter, dots, last letter before the @), which hid exactly the typo
+  // the person needed to see:
+  // a mistake before the @ is caught only by their own eyes, on this step,
+  // with "Use a different address" beside it. It is their own address, on
+  // their own screen, typed a second ago.
+  function mask(e) { return e; }
   function sendLink(email, done) {
     fetch(SB + "/auth/v1/otp?redirect_to=" + encodeURIComponent(location.origin + location.pathname), {
       method: "POST",
@@ -318,10 +320,12 @@ const canonical = `${BASE_URL}/account`;
       if (s && s.expires_at > Date.now() / 1000) signedIn(s);
     } catch (e) {}
   }
+  var holdForSuggestion = window.atWireEmailSuggest ? window.atWireEmailSuggest("acct") : function() { return false; };
   document.getElementById("acct-form").addEventListener("submit", function(ev) {
     ev.preventDefault();
     var e = document.getElementById("acct-email").value.trim();
     if (!e) return;
+    if (holdForSuggestion()) return;
     lastEmail = e;
     sendLink(e, function(ok) {
       if (ok) {

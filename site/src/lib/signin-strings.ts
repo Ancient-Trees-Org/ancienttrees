@@ -24,8 +24,9 @@
 // the trees you save, the trees you photograph, and that continuing means
 // agreeing to the Terms and the Privacy notice. It is never softened,
 // shortened or turned into reassurance, and both anchors stay. `sentBody2`
-// carries three facts a person needs: the link works once, it expires in
-// fifteen minutes, and it brings them back where they were.
+// carries two facts a person needs: the link works once, and it brings them
+// back where they were. (It said "expires in 15 minutes" until 2026-11-16,
+// when links went to 24 hours; a duration is left out so it cannot go stale.)
 import type { Lang } from "./ui-strings";
 
 export interface SignInStrings {
@@ -84,6 +85,12 @@ export interface SignInStrings {
    *  language that puts the address before the verb splits it that way. */
   sentBody1: string;
   sentBody2: string;
+  /** Under the email field when the part after the @ is one or two letters
+   *  off a known provider (2026-11-16). %s is the corrected address, which
+   *  is the button that puts it in. */
+  suggest: string;
+  /** On the check-your-inbox step: back to the field to fix the address. */
+  change: string;
   /** Labels a screen reader gets, which were English on every page until
    *  2026-09-02. */
   close: string;
@@ -122,7 +129,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'By continuing you agree to the <a href="/terms">Terms</a> and the <a href="/privacy">Privacy</a> notice.',
     sentTitle: "Check your inbox",
     sentBody1: "We sent a sign-in link to ",
-    sentBody2: ". It works once, expires in 15 minutes, and brings you straight back here.",
+    sentBody2: ". It works once and brings you straight back here.",
+    suggest: "Did you mean %s?",
+    change: "Use a different address",
     close: "Close",
     emailLabel: "Email address",
   },
@@ -156,7 +165,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'Al continuar aceptas las <a href="/terms">Condiciones</a> y la <a href="/privacy">Privacidad</a>.',
     sentTitle: "Mira tu bandeja de entrada",
     sentBody1: "Hemos enviado un enlace de acceso a ",
-    sentBody2: ". Funciona una vez, caduca en 15 minutos y te trae de vuelta aquí.",
+    sentBody2: ". Funciona una vez y te trae de vuelta aquí.",
+    suggest: "¿Querías decir %s?",
+    change: "Usar otra dirección",
     close: "Cerrar",
     emailLabel: "Dirección de email",
   },
@@ -187,7 +198,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'Continuando accetti i <a href="/terms">Termini</a> e l\'informativa sulla <a href="/privacy">Privacy</a>.',
     sentTitle: "Controlla la posta",
     sentBody1: "Abbiamo inviato un link di accesso a ",
-    sentBody2: ". Funziona una volta sola, scade tra 15 minuti e ti riporta esattamente qui.",
+    sentBody2: ". Funziona una volta sola e ti riporta esattamente qui.",
+    suggest: "Intendevi %s?",
+    change: "Usa un altro indirizzo",
     close: "Chiudi",
     emailLabel: "Indirizzo email",
   },
@@ -218,7 +231,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'Als je doorgaat ga je akkoord met de <a href="/terms">Voorwaarden</a> en de <a href="/privacy">Privacyverklaring</a>.',
     sentTitle: "Kijk in je inbox",
     sentBody1: "We hebben een inloglink gestuurd naar ",
-    sentBody2: ". Hij werkt één keer, verloopt na 15 minuten en brengt je terug naar deze pagina.",
+    sentBody2: ". Hij werkt één keer en brengt je terug naar deze pagina.",
+    suggest: "Bedoel je %s?",
+    change: "Ander adres gebruiken",
     close: "Sluiten",
     emailLabel: "E-mailadres",
   },
@@ -249,7 +264,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'Wenn du fortfährst, stimmst du den <a href="/terms">AGB</a> und der <a href="/privacy">Datenschutzerklärung</a> zu.',
     sentTitle: "Schau in dein Postfach",
     sentBody1: "Wir haben einen Anmeldelink an ",
-    sentBody2: " geschickt. Er funktioniert einmal, läuft nach 15 Minuten ab und bringt dich direkt hierher zurück.",
+    sentBody2: " geschickt. Er funktioniert einmal und bringt dich direkt hierher zurück.",
+    suggest: "Meintest du %s?",
+    change: "Andere Adresse verwenden",
     close: "Schließen",
     emailLabel: "E-Mail-Adresse",
   },
@@ -280,7 +297,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'Ao continuares, aceitas os <a href="/terms">Termos</a> e a <a href="/privacy">Privacidade</a>.',
     sentTitle: "Vê a tua caixa de entrada",
     sentBody1: "Enviámos um link de acesso para ",
-    sentBody2: ". Funciona uma vez, expira em 15 minutos e traz-te de volta a esta página.",
+    sentBody2: ". Funciona uma vez e traz-te de volta a esta página.",
+    suggest: "Querias dizer %s?",
+    change: "Usar outro endereço",
     close: "Fechar",
     emailLabel: "Endereço de email",
   },
@@ -311,7 +330,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: 'En continuant, vous acceptez les <a href="/terms">Conditions</a> et la <a href="/privacy">Confidentialité</a>.',
     sentTitle: "Regardez votre boîte mail",
     sentBody1: "Nous avons envoyé un lien de connexion à ",
-    sentBody2: ". Il fonctionne une seule fois, expire dans 15 minutes et vous ramène directement ici.",
+    sentBody2: ". Il fonctionne une seule fois et vous ramène directement ici.",
+    suggest: "Vouliez-vous dire %s ?",
+    change: "Utiliser une autre adresse",
     close: "Fermer",
     emailLabel: "Adresse email",
   },
@@ -342,7 +363,9 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     fine: '続けると<a href="/terms">利用規約</a>と<a href="/privacy">プライバシー</a>に同意したことになる。',
     sentTitle: "受信トレイを確認する",
     sentBody1: "サインインのリンクを ",
-    sentBody2: " に送った。リンクは一度だけ使えて、15分で期限が切れ、いまいたページに戻る。",
+    sentBody2: " に送った。リンクは一度だけ使えて、いまいたページに戻る。",
+    suggest: "もしかして %s?",
+    change: "別のアドレスを使う",
     close: "閉じる",
     emailLabel: "メールアドレス",
   },

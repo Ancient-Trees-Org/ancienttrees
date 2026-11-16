@@ -11,6 +11,7 @@
 import { STYLE_HREF } from "../lib/asset-hash";
 import SignInModal from "../components/SignInModal.astro";
 import { SIGNIN_JS, SIGNIN_CATCH_JS } from "../lib/signin-js";
+import { EMAIL_SUGGEST_JS } from "../lib/email-suggest";
 import { WEB_ERRORS_JS } from "../lib/web-errors-js";
 import { OVERLAY_SHEET_JS } from "../lib/overlay-sheet-js";
 import { UNITS_JS } from "../lib/units-js";
@@ -166,6 +167,9 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
     rest. Last in the head, so a page's own headExtra cannot be pushed behind
     it, and first of all the scripts. */}
 <Fragment set:html={SIGNIN_CATCH_JS} />
+{/* "Did you mean ...?" for the email field (lib/email-suggest.ts), defined
+    before any page script so /account's own form can wire it too. */}
+<Fragment set:html={EMAIL_SUGGEST_JS} />
 {/* What breaks on a page, heard from the page (2026-11-04, the digest's
     quality line). Right after the sign-in catch so every later script is
     covered; no personal data, nothing stored on the device. web-errors-js. */}

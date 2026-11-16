@@ -61,6 +61,9 @@ const Heading = p === "signin" ? "h3" : "h1";
 <div id={`${p}-rest`} hidden>
   <form id={`${p}-form`} class="signin-form" autocomplete="email">
     <input type="email" id={`${p}-email`} placeholder={T.placeholder} aria-label={T.emailLabel} required>
+    {/* "Did you mean ...?" (lib/email-suggest.ts): filled and shown by script
+        when the part after the @ is a letter or two off a known provider. */}
+    <p class="signin-suggest" id={`${p}-suggest`} data-tpl={T.suggest} aria-live="polite" hidden></p>
     <button type="submit" class="oauth-btn oauth-quiet"><span>{T.send}</span></button>
   </form>
   <a class="signin-applink" href="/app" data-ev="app-cta">{T.app}</a>

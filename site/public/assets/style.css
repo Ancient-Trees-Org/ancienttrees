@@ -2334,6 +2334,17 @@ footer { border-top: 1px solid var(--cream-dark); }
 .signin-form input { font-family: inherit; font-size: 15px; padding: 1rem 1.1rem;
   border: 1.5px solid var(--cream-dark); border-radius: 999px; text-align: center; }
 #signin-rest { margin-top: 0.5rem; }
+/* "Did you mean ...?" under the field (2026-11-16, lib/email-suggest.ts), and
+   "Use a different address" on the check-your-inbox step. The corrected
+   address and the change are links in the weight and colour of
+   .signin-applink, the quiet text action this sheet already has. */
+.signin-suggest[hidden] { display: none; }
+.signin-suggest { margin: 0 !important; font-size: 13px; color: var(--ink-mid); text-align: center; }
+.signin-suggest-pick, .signin-change { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-mid);
+  background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+.signin-change-row { margin: 0.8rem 0 0 !important; }
+.signin-suggest-glue { white-space: nowrap; }
+.signin-suggest-glue .signin-suggest-pick { white-space: normal; overflow-wrap: anywhere; }
 /* The rule, with the word sitting in it. */
 /* Same trap as the buttons: display:flex beats the [hidden] attribute, so the
    rule stayed on screen where no app button exists to separate anything from

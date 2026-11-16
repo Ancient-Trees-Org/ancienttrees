@@ -1,0 +1,23 @@
+{
+  "why": "Hidde, 2026-11-16: 'can we give a warning before sending', after sign-up mails bounced on mistyped addresses (a reader typed outlook.co for outlook.com). The mail providers people actually use, so a domain one or two letters off one of them gets 'Did you mean ...?' under the field (the mailcheck.js convention, CONVENTIONS.md 'A mistyped email address'). Real domains that sit close to another (mail.com beside gmail.com, me.com) are listed so they are never 'corrected'. One list for the website (site/src/lib/email-suggest.ts reads this file), the iPhone app (Kit/EmailSuggest.swift) and Android (account/EmailSuggest.kt); qa's check_one_email_domain_list() keeps the copies equal.",
+  "domains": [
+    "gmail.com", "googlemail.com",
+    "outlook.com", "outlook.fr", "outlook.de", "outlook.es", "outlook.it", "outlook.pt",
+    "hotmail.com", "hotmail.co.uk", "hotmail.fr", "hotmail.de", "hotmail.es", "hotmail.it", "hotmail.nl", "hotmail.be",
+    "live.com", "live.co.uk", "live.nl", "live.fr", "live.be", "msn.com",
+    "yahoo.com", "yahoo.co.uk", "yahoo.fr", "yahoo.de", "yahoo.es", "yahoo.it", "yahoo.gr", "yahoo.com.au", "ymail.com", "rocketmail.com",
+    "icloud.com", "me.com", "mac.com",
+    "aol.com", "aol.co.uk",
+    "protonmail.com", "proton.me", "pm.me",
+    "gmx.com", "gmx.de", "gmx.net", "gmx.at", "gmx.ch", "web.de", "t-online.de", "freenet.de",
+    "mail.com", "zoho.com", "fastmail.com",
+    "btinternet.com", "sky.com", "virginmedia.com", "talktalk.net", "ntlworld.com",
+    "ziggo.nl", "kpnmail.nl", "xs4all.nl", "planet.nl", "home.nl", "hetnet.nl", "telenet.be", "skynet.be",
+    "orange.fr", "free.fr", "laposte.net", "sfr.fr", "wanadoo.fr",
+    "libero.it", "tiscali.it", "virgilio.it", "alice.it",
+    "sapo.pt", "telefonica.net",
+    "comcast.net", "verizon.net", "att.net", "sbcglobal.net", "bellsouth.net", "cox.net", "charter.net",
+    "bigpond.com", "optusnet.com.au", "shaw.ca", "rogers.com", "sympatico.ca",
+    "naver.com", "qq.com", "163.com", "yandex.com"
+  ]
+}
