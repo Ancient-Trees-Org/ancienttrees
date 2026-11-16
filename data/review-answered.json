@@ -140,6 +140,10 @@
     "2026-11-15": {
       "note": "Web errors read: the red rows are injected by other software, not our code (window.ethereum from wallet extensions, __firefox__ from Firefox iOS reader mode, __gCrWeb from Chrome iOS, DarkReader, extension sendMessage, ResizeObserver missing in old browsers). Our own: window.atDownsize not a function, 2 reports, one page; not spreading. No site change.",
       "at": "2026-11-15T15:05:36+00:00"
+    },
+    "2026-11-16": {
+      "note": "Deploy red was the personal address in guimaraes data, already fixed by the Casa de Maride commit and its deploy was running. iOS red (runs 43881121384, 43875951262): jobs never acquired a macOS runner, GitHub capacity, not an app fault; a queued run is pending.",
+      "at": "2026-11-16T14:37:19+00:00"
     }
   }
 }
