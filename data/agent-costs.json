@@ -1,6 +1,24 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-16": [
+      {
+        "date": "2026-11-16",
+        "kind": "photo",
+        "target": "sighting-queue 2026-11-16 (25 matched)",
+        "tokens": 200000,
+        "trees": 0,
+        "note": "4 first photos live, 7 strip kept, 13 already-lead closed, 1 hold (prf_002 corrected to Atlas cedar); sightings_publish.py already-lead and echoed-pin fixes"
+      },
+      {
+        "date": "2026-11-16",
+        "kind": "write",
+        "target": "sightings inbox (31 trees we do not map)",
+        "tokens": 175000,
+        "trees": 11,
+        "note": "all 31 photos viewed; 11 reader-found trees live (cnk_004, bne_022, 9 new places), 20 leads with a reason; preflight 0"
+      }
+    ],
     "2026-11-15": [
       {
         "date": "2026-11-15",
