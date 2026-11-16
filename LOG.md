@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the Champion Lodgepole Pine live
+
+- **Product**: the Champion Lodgepole Pine, south of Big Bear Lake, California (bbl_001, new place big-bear-lake, app first): a reader's sighting held this morning for want of a whole-tree frame. Looked again: the trunk frame with hikers at its foot reads as this tree and leads; their meadow shot of the whole tree goes in the strip. bigbearlake.net and NBC San Diego give 110+ ft, 22 ft trunk, 36 ft base; age about 450 from the visitor bureau. Pin from the reader's GPS fix.
+- **Looked at, not published**: the Slovenian lime (tip-930): its own Kolpa park sign says 166 cm and 16 m, registered but nothing to walk for. Holborn "dawn redwoods" (photos are planes), the Melbourne jacaranda (young), the Linton poplar (person at centre, 300 cm) and the Royal Hotel grapevine (not a tree) keep their holds. Tripped over: a strip photo named `…-2.jpg` reads to qa as a downscaled copy; named `…-f91bd966.jpg` instead.
+
 ## 2026-11-16 session: how often the app really ends on screen
 
 - **Why**: MetricKit reported one store crash from ~4,000 new phones over the Guardian weekend. It only reports from phones that share analytics and never reports memory kills; meanwhile 58 of 4,183 phones reopened the app within two minutes, 53 of those reopens right after a tree page (spread over many trees, all iOS versions, median 48 s after opening).
