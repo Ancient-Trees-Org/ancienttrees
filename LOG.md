@@ -124,7 +124,9 @@ The photo-judge pass viewed all 25 photographs matched to our trees: 4 first pho
 
 - **Product**: the homepage's New from visitors row now carries readers' new trees (Humboldt's Tall Tree, Manaccan, Lytham, Glasgow, Lewes and others were missing), and each tile shows the photograph that visitor sent, not the tree's older lead.
 - **Cause**: sightings_link.py asks Supabase about every reader photograph in one query; mailed tips ("tip-692") and second frames ("…-extra-1") made it a 400, hidden by the knock's continue-on-error. So 45 sightings never got linked: no readers' new tree in the row, and in the app they could stand as a second "your tree" card and were never ticked as collected. Fixed, run once by hand (45 linked, 26 collected ticks, 28 marked added); qa `check_sightings_link_asks_only_for_real_rows()`, escaped bug recorded.
-- **Open**: the iOS row also shows the tree's lead, not the visitor's photo; needs the visitor's photo in the feed and an app build.
+- **Apps (2026-11-16)**: the feed now names the sightings row behind each reader photograph (`sighting` on contributor photos, 305 live), and the iPhone and Android rows pick that photograph for the tile (NewFromVisitors.shot). Seen in the simulator: Palermo, Hiroshima, Maria Aurora with the visitors' own frames. Reaches people with the next iOS and Android builds; until then the old builds show the lead, as before.
+- **Also**: the web tile first still showed the lead because the content schema dropped `sighting_id` from photos (content.config.ts); fixed and checked live. The site deploy was blocked by scripts/test_mailer.py's fake mail addresses tripping the public-repo address check; they are now built from parts.
+- **Not mine, still red**: Android CI's spacing job fails on the species picker ("Growing near you first", 20 pt off), already red on 2026-11-15 before this change.
 
 ## 2026-11-15 19:00 session: the wrong photo on small copies
 
