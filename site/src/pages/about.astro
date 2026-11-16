@@ -96,7 +96,10 @@ const graph = [
 <style>
   .about { max-width: 1120px; margin: 0 auto; padding: calc(var(--header-h) + 2.25rem) 24px 4rem; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; align-items: start; }
   .about-photo { margin: 0; position: sticky; top: calc(var(--header-h) + 24px); }
-  .about-photo img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 18px; display: block; }
+  /* max-height: photo, caption and the press logos fit one screen under the
+     sticky top on a laptop (805px tall on an 800px screen without it); width
+     follows, so the photo shrinks uncropped. */
+  .about-photo > img { max-height: calc(100vh - var(--header-h) - 180px); max-width: 100%; width: auto; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 18px; display: block; }
   .about-photo figcaption { font-size: 13px; color: var(--ink-mid); margin-top: 10px; line-height: 1.4; }
   .about-words h1 { font-size: 46px; line-height: 1.05; margin: 0 0 24px; }
   .about-words .about-sign { color: var(--ink); font-weight: 500; }
@@ -114,7 +117,7 @@ const graph = [
   @media (max-width: 760px) {
     .about { grid-template-columns: minmax(0, 1fr); gap: 0; padding: var(--header-h) 0 3rem; }
     .about-photo { position: static; }
-    .about-photo img { border-radius: 0; aspect-ratio: 4 / 5; }
+    .about-photo > img { border-radius: 0; aspect-ratio: 4 / 5; width: 100%; max-height: none; }
     .about-photo figcaption { padding: 0 16px; }
     .about-press { margin: 24px 16px 24px; }
     .about-words { padding: 24px 16px 0; }
