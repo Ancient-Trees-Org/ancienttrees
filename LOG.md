@@ -44,6 +44,10 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - Fixed: `sightings_inbox.fetch_photo` (used by the inbox, reader_photos and inspect_readers) reads and fills the MAIN checkout's out/sightings when it runs in a worktree, so a photograph is downloaded once per Mac. Not done: an Actions cache for the runners' photos (the repo is public and private reader photos would sit in a cache other workflows can read).
 - Check: the usage page around 2026-11-20; under 165 MB a day is the aim. Delete the logs token when done.
 
+## 2026-11-16 session: iOS CI green again
+
+- The red ios.yml runs of today were the sheet's drag clock aborting the app process (fixed in BottomSheet.swift at 15:54 by another session), which took down a different unit test each time (last: PhotoMemoryTests.testNotAPictureGivesNothing, which passes on its own). The runs after the fix were cancelled or never got a GitHub Mac runner; run 43904601383, re-run once for runner capacity, is green: 277 passed, 0 failed. No code change needed.
+
 ## 2026-11-16 session: a tap on somebody's profile picture shows it full screen
 
 - **What changed**: on a public profile (web /profile, iPhone, Android) a tap on the person's picture opens it full screen on black in the photo viewer tree photographs already use: the whole picture, X or swipe down to close (Escape and a click beside it on the web, system back on Android), pinch to zoom in the apps, no credit line. A letter avatar is not a button and opens nothing. Your own picture on My trees is unchanged. Benchmarked first (WhatsApp, Facebook, X, LinkedIn, Instagram, Strava) into CONVENTIONS.md "Tapping somebody's profile picture to see it bigger"; Hidde picked the whole-photo form over X's circle ("Yes, build it").
