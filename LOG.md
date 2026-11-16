@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 later attempt: Coimbra verify found nothing
+
+- **Product**: nothing new. The shelf is nearly empty: of 19 pending verified entries only 2 shipped (see below); 17 stand on earlier holds. Coimbra verify pass (claimed, released, now a 48h wall): the open leads are private quintas, already live, or have no pin or current measurement; a lead for the Buçaco sequoia twins (bsc_010 or separate) and notes on the Botanical Garden Eucalyptus cornuta (1984 figures via Goes, no pin) were added to data/leads/coimbra.json. Next for a window: Guimaraes, Porto, Setubal, Stuttgart, or a register scout (Zurich, BUILD).
+- **Breakage**: Overpass answers 406 or times out from the runner.
+
 ## 2026-11-16 write pass: pending verified trees and the five READY Leipzig leads
 
 - **Product**: 2 trees into the app (app-only under APP FIRST, outside the pace). phl_010 the Grumblethorpe Ginkgo (Philadelphia, c. 1830, "one of the oldest female ginkgoes in America" by its owner): its hard-rule-10 hold is lifted because the owner's visit page (philalandmarks.org/contact-visit) now gives public hours (second Saturdays May to October, 12 to 4, garden mornings Aug to Oct, $10), so access, `paid_entry` and the last paragraph are written from that page. lpz_032 the Horse Chestnut of Papiermühlstrasse (Leipzig ND 34, cadastre N79444 re-read today: 354 cm, 14 m, planting class 1876, not felled; 96% of the horse-chestnut reference), best_time May flowers. The Commons file Rosskastanie_Lzg._Papiermühlstr.jpg is named on the ND list; not looked at, a photo pass can.
