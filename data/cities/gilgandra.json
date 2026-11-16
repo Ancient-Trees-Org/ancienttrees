@@ -1,0 +1,69 @@
+{
+  "city": "Gilgandra",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Gilgandra is a country town on the Castlereagh River in central New South Wales, on the Newell Highway north of Dubbo. On Miller Street stands the Royal Hotel, built in 1892 as the Bridge Hotel, and in its courtyard grows a grapevine that a reader tells us was already well established in 1904. Its trunk twists up from a brick bed and its leaves roof the whole beer garden.",
+  "meta_description": "The grapevine of the Royal Hotel, Gilgandra NSW: a vine over a century old that roofs the beer garden, where it is and what is known about it.",
+  "hero_tree_id": "gil_001",
+  "oldest_tree_id": "gil_001",
+  "trees": [
+    {
+      "id": "gil_001",
+      "name": "The Grapevine of the Royal Hotel",
+      "species": "Grapevine (Vitis sp.)",
+      "age_estimate": "about 130 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 300,
+      "location": {
+        "address": "Royal Hotel, 73 Miller Street, Gilgandra NSW 2827",
+        "latitude": -31.710560585107,
+        "longitude": 148.669757597052,
+        "neighbourhood": "Miller Street"
+      },
+      "story": "In the courtyard of the Royal Hotel on Miller Street, Gilgandra, one grapevine roofs the whole beer garden. A reader who sent us its photograph wrote: \"The Royal Hotel beer garden boasts the famous grape vine - believed to have been planted in the early 1900's as it was reported to be well established when the 1904 extensions were done. It still bares grapes each year and provides great cool, summer shade.\"\n\nThe hotel itself was built in 1892 as the Bridge Hotel, and it is a heritage-listed country pub. The reader puts the vine at about 130 years old and its trunk at 300 centimetres round; those are their figures, and we have found no other record of the vine yet.\n\nThe photograph shows why it is worth a stop. A single trunk, grey and twisted like a wrung rope, rises out of a brick bed between the benches, splits into thick dark arms and runs out along a frame of steel pipes until its leaves close over the courtyard from wall to wall. Drinkers at the high tables at the back sit in its shade.\n\nIf you know when it was planted, or have a photograph of it from the old days, tell us here.",
+      "how_to_recognise": "In the hotel's beer garden: one twisted grey trunk rising from a brick bed between the benches, its arms trained along steel pipes into a leaf roof over the whole courtyard.",
+      "verified_sources": [
+        "https://publocation.com.au/node/663"
+      ],
+      "found_by_reader": {
+        "sighting_id": "e0402f44-1b12-431a-9901-7974f79ccb2f",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: a reader's app sighting (e0402f44) with a GPS fix in the Royal Hotel courtyard (OpenStreetMap: Miller Street, Gilgandra). First held as 'a vine rather than a tree'; Hidde, same day: 'boeie het is blijkbaar de moeite - de cactus staat ook live'. Photograph viewed: the whole vine, trunk to pergola roof, daylight, colour; people small at the back. The hotel's 1892 build as the Bridge Hotel and its heritage listing from publocation.com.au; the vine's age, girth, planting and the 1904 extensions are the reader's, quoted. Species left as the genus.",
+      "access": "In the beer garden of the Royal Hotel, open to the public in the hotel's opening hours.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e0402f44-1b12-431a-9901-7974f79ccb2f",
+        "moved_m": 0,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this vine; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gil_001-the-grapevine-of-the-royal-hotel.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1206,
+        "height": 1592,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_742ddcddb4933ac8924fbf8c",
+        "sighting_id": "e0402f44-1b12-431a-9901-7974f79ccb2f",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: the whole vine from its twisted trunk to the leaf roof over the courtyard, daylight, colour, GPS fix. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The grapevine of the Royal Hotel, Gilgandra NSW: a vine over a century old that roofs the beer garden, where it is and what is known about it.",
+  "question_answer": "The Grapevine of the Royal Hotel grows at Royal Hotel, 73 Miller Street, Gilgandra NSW 2827. In the beer garden of the Royal Hotel, open to the public in the hotel's opening hours.",
+  "faq": [
+    {
+      "q": "Can I visit The Grapevine of the Royal Hotel?",
+      "a": "In the beer garden of the Royal Hotel, open to the public in the hotel's opening hours."
+    }
+  ],
+  "question_context": "In the courtyard of the Royal Hotel on Miller Street, Gilgandra, one grapevine roofs the whole beer garden. A reader who sent us its photograph wrote: \"The Royal Hotel beer garden boasts the famous grape vine - believed to have been planted in the early 1900's as it was reported to be well established when the 1904 extensions were done. It still bares grapes each year and provides great cool, summer shade.\" The hotel itself was built in 1892 as the Bridge Hotel, and it is a heritage-listed country pub. The reader puts the vine at about 130 years old and its trunk at 300 centimetres round; those are their figures, and we have found no other record of the vine yet. The photograph shows why it is worth a stop. A single trunk, grey and twisted like a wrung rope, rises out of a brick bed between the benches, splits into thick dark arms and runs out along a frame of steel pipes until its leaves close over the courtyard from wall to wall. Drinkers at the high tables at the back sit in its shade."
+}

@@ -656,10 +656,10 @@
     "score": null,
     "note": "nothing measurable about Grape"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: an old grapevine trained over a hotel beer garden, a vine rather than a tree; kept as a lead with their note.",
-   "hidde": null,
-   "agreed": null
+   "verdict": "publish",
+   "reason": "Hidde: a vine worth the walk counts, as the cactus does. The whole vine from its twisted trunk to the leaf roof over the Royal Hotel courtyard, GPS fix, the reader's note quoted. Live as gil_001.",
+   "hidde": "boeie het is blijkbaar de moeite - de cactus staat ook live",
+   "agreed": true
   },
   {
    "id": "lead:2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
@@ -1305,6 +1305,62 @@
    },
    "verdict": "publish",
    "reason": "Lead photograph of pgr_001: the lone oak in a field, trunk and crown readable, low sun behind it, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f91bd966-db25-4276-91ce-9fb1c5806347",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "big-bear-lake/bbl_001 The Champion Lodgepole Pine",
+   "city": null,
+   "species": "Lodgepole Pine",
+   "photo": "p_697eb4a0c77311e0508c5fb0/F91BD966-DB25-4276-91CE-9FB1C5806347.jpg",
+   "reader_note": "The Champion Lodgepole Pine is one of the largest recorded lodgepole pines (Pinus contorta) in California, located in the San Bernardino Mountains near Big Bear Lake and accessible via the mountain areas above Angelus Oaks.\n\nKey Details & History\n\n• Age: Estimated to have germinated around 1560 (over 440 years old), predating permanent European settlement in the region.\n• Dimensions: Stands over 110 feet tall, with a trunk circumference of about 22 feet and a bulbous base measuring roughly 36 fe",
+   "reader_girth_cm": 1100,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lodgepole Pine"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of bbl_001: the trunk into the lower crown, hikers at its foot for scale; the whole-tree view from the meadow in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e0402f44-1b12-431a-9901-7974f79ccb2f",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "gilgandra/gil_001 The Grapevine of the Royal Hotel",
+   "city": null,
+   "species": "Grape",
+   "photo": "p_742ddcddb4933ac8924fbf8c/E0402F44-1B12-431A-9901-7974F79CCB2F.jpg",
+   "reader_note": "The Royal Hotel beer garden boasts the famous grape vine - believed to have been planted in the early 1900’s as it was reported to be well established when the 1904 extensions were done. It still bares grapes each year and provides great cool, summer shade.",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Grape"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of gil_001: the whole vine from its twisted trunk to the leaf roof over the courtyard, daylight, colour.",
    "hidde": null,
    "agreed": null
   },
@@ -9691,34 +9747,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f91bd966-db25-4276-91ce-9fb1c5806347",
-   "seen": "2026-11-16",
-   "kind": "photo of a tree we map",
-   "tree": "big-bear-lake/bbl_001 The Champion Lodgepole Pine",
-   "city": null,
-   "species": "Lodgepole Pine",
-   "photo": "p_697eb4a0c77311e0508c5fb0/F91BD966-DB25-4276-91CE-9FB1C5806347.jpg",
-   "reader_note": "The Champion Lodgepole Pine is one of the largest recorded lodgepole pines (Pinus contorta) in California, located in the San Bernardino Mountains near Big Bear Lake and accessible via the mountain areas above Angelus Oaks.\n\nKey Details & History\n\n• Age: Estimated to have germinated around 1560 (over 440 years old), predating permanent European settlement in the region.\n• Dimensions: Stands over 110 feet tall, with a trunk circumference of about 22 feet and a bulbous base measuring roughly 36 fe",
-   "reader_girth_cm": 1100,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Lodgepole Pine"
-   },
-   "verdict": "publish",
-   "reason": "Lead photograph of bbl_001: the trunk into the lower crown, hikers at its foot for scale; the whole-tree view from the meadow in the strip.",
    "hidde": null,
    "agreed": null
   }

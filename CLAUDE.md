@@ -135,7 +135,7 @@ Depth (photos, pins, best_time) goes only to cities DATA.md's newest entry lists
 
 ## Which trees get a page
 
-The floor is a reason somebody standing there can see: big, tall or old for its species; a one-sentence story with a source; or visible spectacle. Protected or registered is not a reason. `python3 scripts/species_size.py` scores against the species worldwide (best of girth, sourced age, height; never summed); the cut is the city's target. People are a source: two accounts within 30 m, or one contributor plus a source, or one contributor whose photo shows a visibly big tree. Scarcity is a feature.
+The floor is a reason somebody standing there can see: big, tall or old for its species; a one-sentence story with a source; or visible spectacle. Protected or registered is not a reason. **"Not a tree" is never a reason**: an old vine, wisteria or giant cactus worth the walk ships like a tree (Hidde, 2026-11-16, the Royal Hotel grapevine: "boeie het is blijkbaar de moeite - de cactus staat ook live"). `python3 scripts/species_size.py` scores against the species worldwide (best of girth, sourced age, height; never summed); the cut is the city's target. People are a source: two accounts within 30 m, or one contributor plus a source, or one contributor whose photo shows a visibly big tree. Scarcity is a feature.
 
 ## Stories
 

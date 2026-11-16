@@ -3948,10 +3948,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Photograph viewed: an old grapevine trained over a hotel beer garden, a vine rather than a tree; kept as a lead with their note.",
+   "status": "published",
+   "why": "published 2026-11-16 as gil_001 (gilgandra.json) on Hidde's word that a vine worth the walk counts; reader's GPS fix, photograph viewed, their note quoted",
    "seen": "2026-11-16",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "gilgandra/gil_001"
   },
   {
    "sighting_id": "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",

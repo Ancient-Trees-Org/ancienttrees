@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the Royal Hotel grapevine live, and "not a tree" is no reason
+
+- **Product**: the grapevine of the Royal Hotel, Gilgandra NSW (gil_001, new place, app first): one twisted trunk roofing the whole beer garden on a steel pergola, a reader's photograph and GPS fix, their note quoted (planted early 1900s, well established by the 1904 extensions); the hotel's 1892 build as the Bridge Hotel from publocation.com.au.
+- **Rule**: held earlier today as "a vine rather than a tree"; Hidde: "boeie het is blijkbaar de moeite - de cactus staat ook live". CLAUDE.md "Which trees get a page" now says an old vine, wisteria or giant cactus worth the walk ships like a tree. Wisteria (Kasukabe, Tokyo, Florence) and cacti (Tucson, Seville) were already live. Preflight 0 problems.
+
 ## 2026-11-16 session: the Champion Lodgepole Pine live
 
 - **Product**: the Champion Lodgepole Pine, south of Big Bear Lake, California (bbl_001, new place big-bear-lake, app first): a reader's sighting held this morning for want of a whole-tree frame. Looked again: the trunk frame with hikers at its foot reads as this tree and leads; their meadow shot of the whole tree goes in the strip. bigbearlake.net and NBC San Diego give 110+ ft, 22 ft trunk, 36 ft base; age about 450 from the visitor bureau. Pin from the reader's GPS fix.
