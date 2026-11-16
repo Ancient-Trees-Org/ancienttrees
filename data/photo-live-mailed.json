@@ -1406,19 +1406,15 @@
    "sent": []
   },
   "p_596e96656b665c71b8fd857e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "37223ae8-945a-4737-bd16-1cf8defb2ee1",
      "tree_id": "ber_016",
-     "tree_name": "The Lietzensee Plane",
-     "city": "Berlin",
-     "city_slug": "berlin",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_765b23354f625ac28497e968": {
    "last": null,
