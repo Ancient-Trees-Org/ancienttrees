@@ -135,13 +135,29 @@ class MyVotes {
                 why == "not worth it" -> found[tree] = "down"
             }
         }
-        byTree = found
+        // WorthIt.swift's standingVotes: your votes live in tree_votes since
+        // 2026-11-16 (supabase/tree-votes.sql). Votes are still sent to
+        // submissions, where the server's trigger moves them across; until that
+        // SQL is pasted the table answers 404 and the rows read above stand.
+        standingVotes(token)?.let { byTree = it } ?: run { byTree = found }
         reports = said
         detailed = saidMore
     }
 
     companion object {
         fun treeId(field: String): String = field.split(" ", limit = 2).firstOrNull().orEmpty()
+
+        /** This account's standing votes from tree_votes, or null when the table cannot answer. */
+        suspend fun standingVotes(token: String): Map<String, String>? {
+            val r = Supa.send("/rest/v1/tree_votes?select=tree_id,vote", method = "GET", token = token)
+            if (!r.ok) return null
+            return runCatching {
+                val a = JSONArray(r.body)
+                (0 until a.length()).map { a.getJSONObject(it) }
+                    .filter { it.optString("vote") == "up" || it.optString("vote") == "down" }
+                    .associate { it.optString("tree_id") to it.optString("vote") }
+            }.getOrNull()
+        }
     }
 }
 

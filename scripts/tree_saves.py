@@ -19,6 +19,7 @@ import json
 import os
 import pathlib
 import sys
+import urllib.error
 import urllib.request
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -66,7 +67,19 @@ def worth_counts(key):
     Highlights order, site/src/lib/highlights.ts). A vote is a submissions row
     whose why is "worth it", "not worth it" or "vote undone: ...", newest
     first; the first of those per reader and tree is the one that stands
-    (worthit-js.ts reads it the same way). Our own accounts left out."""
+    (worthit-js.ts reads it the same way). Our own accounts left out.
+
+    Since 2026-11-16 the standing votes are rows of tree_votes
+    (supabase/tree-votes.sql), one per reader and tree; the submissions
+    reading below is only for before that SQL is pasted."""
+    try:
+        counts = {}
+        for r in fetch(key, "/rest/v1/tree_votes?select=tree_id,vote,user_id"):
+            if r.get("vote") == "up" and not ours.is_ours(r.get("user_id")):
+                counts[r["tree_id"]] = counts.get(r["tree_id"], 0) + 1
+        return counts
+    except urllib.error.HTTPError:
+        pass
     standing = {}
     for r in fetch(key, "/rest/v1/submissions?select=tree,why,user_id&kind=eq.feedback&order=created_at.desc"):
         uid, why = r.get("user_id"), str(r.get("why") or "")

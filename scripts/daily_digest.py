@@ -2059,6 +2059,33 @@ FEEDBACK_KINDS = ("Pin moved", "Written feedback",
                   "Report on a tree", "Could not tell which tree", "Collected far from our pin")
 
 
+def vote_rows(key, since):
+    """Worth-it votes cast since `since` (YYYY-MM-DD), strangers only, as rows
+    with created_at and vote ('up' or 'down').
+
+    Read from tree_votes (supabase/tree-votes.sql, 2026-11-16), where every
+    vote lives from the day Hidde pastes that SQL: one row per person per
+    tree, its created_at the day they first voted. Before the paste the table
+    answers 404 and the vote rows are read out of submissions instead."""
+    try:
+        rows, _ = _supa("/rest/v1/tree_votes?select=user_id,vote,created_at"
+                        "&created_at=gte.%sT00:00:00" % since, key)
+        return [r for r in rows or [] if not is_ours(r.get("user_id"))]
+    except urllib.error.HTTPError:
+        pass
+    rows, _ = _supa("/rest/v1/submissions?select=id,user_id,why,created_at&kind=eq.feedback"
+                    "&created_at=gte.%sT00:00:00" % since, key)
+    out = []
+    for r in rows or []:
+        if r.get("id") in TEST_SUBMISSION_IDS or is_ours(r.get("user_id")):
+            continue
+        low = (r.get("why") or "").strip().lower()
+        if low in ("worth it", "not worth it"):
+            out.append({"created_at": r.get("created_at"),
+                        "vote": "up" if low == "worth it" else "down"})
+    return out
+
+
 def is_vote(row):
     """A worth-it or not-worth-it tap, or the undo of one. NEVER counted with
     trees, photos, corrections or notes (Hidde, 2026-11-16: "kun je vanaf nu
@@ -2183,11 +2210,11 @@ def day_by_day_section(today):
                     and not (r.get("why") or "").startswith("vote undone")]
             fill("Trees sent", ((r["created_at"], 1) for r in subs if r.get("kind") in ("tree", "city")))
             fill("Ambassador asks", ((r["created_at"], 1) for r in subs if r.get("kind") == "ambassador"))
-            votes = [r for r in subs if is_vote(r)]
             feedback = [r for r in subs if r.get("kind") not in ("tree", "city", "ambassador")
                         and not is_vote(r)]
             fill("Feedback", ((r["created_at"], 1) for r in feedback))
-            fill("Worth-it votes", ((r["created_at"], 1) for r in votes))
+            # From tree_votes (vote_rows), where votes live since 2026-11-16.
+            fill("Worth-it votes", ((r["created_at"], 1) for r in vote_rows(key, since[:10])))
         except Exception as e:
             print("day_by_day submissions: %s" % str(e)[:100])
     try:
@@ -3893,10 +3920,16 @@ def _hl_supabase(today):
         w = _week_of(r.get("created_at"), today)
         if w is None:
             continue
-        if is_vote(r):
-            votes[w] += 1
-        else:
+        if not is_vote(r):   # old vote rows stay in submissions; never counted here
             wk[w] += 1
+    # Votes from tree_votes (vote_rows), where they live since 2026-11-16.
+    try:
+        for r in vote_rows(key, since):
+            w = _week_of(r.get("created_at"), today)
+            if w is not None:
+                votes[w] += 1
+    except Exception as e:
+        print("headline votes: %s" % str(e)[:100])
     out["votes"] = votes
     # Photographs by the day they reached us. This read sightings.created_at
     # until 2026-11-12, a column the table does not have: PostgREST refused

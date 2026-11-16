@@ -125,20 +125,39 @@ export const WORTHIT_JS = `
     if (!mine[tree]) mine[tree] = { vote: null, reported: false, detailed: false };
     return mine[tree];
   }
+  // YOUR VOTE LIVES IN tree_votes since 2026-11-16 (supabase/tree-votes.sql;
+  // Hidde: votes and submissions are "hele andere dingen"). One row per tree,
+  // gone when you take it back. A vote is still POSTED to submissions, where
+  // the server's trigger moves it across, so every build out there keeps
+  // working. Until that SQL is pasted the table answers 404 and the vote is
+  // read out of submissions the old way, below.
+  function loadVote(tree, s) {
+    return fetch('${SUPABASE_URL}/rest/v1/tree_votes?select=vote&tree_id=eq.' + encodeURIComponent(tree),
+      { headers: { 'apikey': '${SUPABASE_KEY}', 'Authorization': 'Bearer ' + s.access_token } })
+      .then(function(r) { return r.ok ? r.json().then(function(rows) {
+        return { known: true, vote: rows && rows[0] ? rows[0].vote : null };
+      }) : { known: false }; })
+      .catch(function() { return { known: false }; });
+  }
   function load(box) {
     var s = session();
     if (!s) return Promise.resolve();
     var tree = box.dataset.tree;
+    var mineVote = loadVote(tree, s);
     return fetch('${SUPABASE_URL}/rest/v1/submissions?select=why&order=created_at.desc'
                  + '&tree=like.' + encodeURIComponent(tree + '%'),
       { headers: { 'apikey': '${SUPABASE_KEY}', 'Authorization': 'Bearer ' + s.access_token } })
       .then(function(r) { return r.ok ? r.json() : []; })
-      .then(function(rows) {
+      .then(function(rows) { return mineVote.then(function(v) { return [rows, v]; }); })
+      .then(function(both) {
+        var rows = both[0], v = both[1];
         var st = state(tree), seenReport = false;
+        if (v.known) st.vote = v.vote || false;
         (rows || []).forEach(function(row) {
           var why = String(row.why || '');
           // Newest first, so the FIRST vote-shaped row is the standing one.
-          // "vote undone" first means the vote was taken back.
+          // "vote undone" first means the vote was taken back. Only read when
+          // tree_votes could not answer (the SQL not pasted yet).
           if (st.vote === null) {
             if (why === 'worth it' || why === 'not worth it') {
               st.vote = why === 'worth it' ? 'up' : 'down';

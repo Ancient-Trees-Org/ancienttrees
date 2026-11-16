@@ -1,3 +1,7 @@
+-- SUPERSEDED 2026-11-16 by tree-votes.sql, which redefines tree_vote_counts()
+-- over the tree_votes table. Do NOT paste this file again after that one: it
+-- would count from submissions, where new votes no longer arrive.
+--
 -- How many people said a tree was worth the visit, and how many said it was not.
 --
 -- Hidde, 2026-08-27: "1 person keeps this tree is een hele rare zin, zet gewoon

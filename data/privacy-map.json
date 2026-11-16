@@ -27,6 +27,7 @@
     "submission-photos.sql": {"phrase": "Suggestions, corrections and votes"},
     "suggested-people.sql": {"phrase": "We may suggest a public profile"},
     "tree-notes.sql": {"phrase": "note you write on a tree"},
+    "tree-votes.sql": {"phrase": "Suggestions, corrections and votes"},
     "visited.sql": {"phrase": "the trees you collect"},
     "vote-counts.sql": {"exempt": "public totals of votes per tree; names nobody"},
     "walks.sql": {"phrase": "walks you make"},

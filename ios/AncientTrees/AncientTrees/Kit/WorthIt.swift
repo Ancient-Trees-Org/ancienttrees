@@ -140,9 +140,33 @@ final class MyVotes {
             else if why == "worth it" { found[tree] = "up" }
             else if why == "not worth it" { found[tree] = "down" }
         }
+        // YOUR VOTES LIVE IN tree_votes since 2026-11-16 (supabase/tree-votes.sql;
+        // Hidde: votes and submissions are "hele andere dingen"): one row per
+        // tree, deleted when taken back. Votes are still SENT to submissions,
+        // where the server's trigger moves them across, so builds already out
+        // there keep working. Until that SQL is pasted the table answers 404
+        // and the votes read out of submissions above stand.
+        if let standing = await Self.standingVotes(token: token) { found = standing }
         byTree = found
         reports = said
         detailed = saidMore
+    }
+
+    /// This account's standing votes from tree_votes, or nil when the table
+    /// cannot answer (not created yet, or no network).
+    static func standingVotes(token: String) async -> [String: String]? {
+        let r = Supa.request("/rest/v1/tree_votes?select=tree_id,vote", method: "GET", token: token)
+        guard let (data, response) = try? await Net.data(for: r),
+              (response as? HTTPURLResponse)?.statusCode == 200,
+              let rows = try? JSONSerialization.jsonObject(with: data) as? [[String: Any]]
+        else { return nil }
+        var out: [String: String] = [:]
+        for row in rows {
+            guard let tree = row["tree_id"] as? String, let vote = row["vote"] as? String,
+                  vote == "up" || vote == "down" else { continue }
+            out[tree] = vote
+        }
+        return out
     }
 }
 

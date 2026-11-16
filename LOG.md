@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: worth-it votes get their own table (step 1 of splitting submissions)
+
+- **What changes** (Hidde: votes and tree submissions are "hele andere dingen", then "prima start maar"): supabase/tree-votes.sql makes `tree_votes`, one row per person per tree, deleted when taken back, own-rows RLS, cascade on account deletion, GRANT in the file. A trigger on `submissions` catches every vote posted there (every build out today posts there) and applies it to `tree_votes` instead, so no old app breaks and `submissions` keeps only what people write. The standing votes are copied across; old rows stay (nothing deleted). `tree_vote_counts()` now counts from `tree_votes`, same name, so the thumbs' numbers need no client change.
+- **Reading**: website (worthit-js.ts), iPhone (`MyVotes.standingVotes`) and Android (`MyVotes.standingVotes`) read your own vote from `tree_votes`, falling back to the old reading while the table is missing; the apps carry it in their next build. tree_saves.py and the digest's vote rows (`vote_rows()`) read `tree_votes` the same way. privacy-map maps the file to the existing "Suggestions, corrections and votes" sentence. vote-counts.sql carries a do-not-paste-again note.
+- **Step 2, later**: reports, report details and moved pins to their own table (they need a verdict and a reply, so they move together, not with the votes).
+- **For Hidde**: paste supabase/tree-votes.sql once into the Supabase SQL editor and run it. Nothing breaks before or after: until then everything reads the old way.
+
 ## 2026-11-16 session: Ross's facts on the Wheatley Elm of Balgreen
 
 The reader who added the Edinburgh Wheatley elm (edi_022) answered the congratulation mail: about 150 years old, likely Britain's second widest Wheatley elm, verified by Owen Johnson, one of six on the avenue. All on the page as his account (age as a reader's estimate, recognition line says the pin marks this one of six). Reply drafted in drafts/reply-ross-edinburgh-2026-11-16.md, waits for Hidde's yes.
