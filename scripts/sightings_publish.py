@@ -123,7 +123,11 @@ READER_PIN_MAX_M = 300
 # Hall Maple (2026-10-05) ran and still left rey_003 reading "missing": the
 # photograph sat in photos[] under a lead that did not exist. One test, read
 # by the vouched path and by the inbox's ranking.
-NO_LEAD = (None, "", "missing", "none")
+# A `held` lead is not shown (showable() in site/src/lib/images.ts), so the
+# page is photo-less and the strip's first picture becomes the hero: live first
+# put a reader's unlooked-at photograph at the top of Bilbao's bil_001 that way
+# (2026-11-16), and the judge offered `add` where `approve` was meant.
+NO_LEAD = (None, "", "missing", "none", "held")
 
 
 def has_lead(status):

@@ -1495,8 +1495,14 @@ def check_one_face_per_city():
             trees = json.loads(src.read_text(encoding="utf-8")).get("trees") or []
         except ValueError:
             continue
-        tree = next((t for t in trees if t.get("id") == face), None)
-        url = ((tree or {}).get("photo") or {}).get("url") or ""
+        tree = next((t for t in trees if t.get("id") == face), None) or {}
+        # The first SHOWN photograph, as usablePhoto() picks it: a held lead
+        # is skipped and the strip's first approved picture fronts the tree
+        # (bil_001, 2026-11-16: a held Commons lead made this check fail every
+        # deploy while the page and the app agreed).
+        shown = [p for p in [tree.get("photo")] + list(tree.get("photos") or [])
+                 if (p or {}).get("url") and (p or {}).get("status") in ("approved", "found_needs_check")]
+        url = shown[0]["url"] if shown else ""
         if not url:
             continue
         # Compare the photograph's identity, not the url: og:image is resized
