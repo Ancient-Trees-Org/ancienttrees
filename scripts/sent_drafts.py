@@ -41,6 +41,7 @@ import email
 import email.utils
 import glob
 import imaplib
+import signal
 import json
 import os
 import re
@@ -213,11 +214,18 @@ def mailbox(since, wanted_to, wanted_subj):
     day = datetime.date.fromisoformat(since)
     ok, data = d.search(None, "(SINCE %s)" % day.strftime("%d-%b-%Y"))
     hits = []
-    for i in (data[0].split() if ok == "OK" else []):
-        ok, hdr = d.fetch(i, "(BODY.PEEK[HEADER.FIELDS (TO CC BCC DATE SUBJECT)])")
-        if ok != "OK" or not hdr or not hdr[0]:
-            continue
-        h = email.message_from_bytes(hdr[0][1])
+    ids = data[0].split() if ok == "OK" else []
+    # One FETCH for all headers, not one round trip per message: per message it
+    # took 2m13s for a month of Sent mail, and every session start ran it, so on
+    # 2026-11-16 thirteen overlapping runs held Gmail's connection slots and
+    # IMAP refused the reply to Joey ("too many simultaneous connections").
+    parts = []
+    if ids:
+        ok, resp = d.fetch(b",".join(ids), "(BODY.PEEK[HEADER.FIELDS (TO CC BCC DATE SUBJECT)])")
+        if ok == "OK":
+            parts = [p for p in resp if isinstance(p, tuple) and len(p) > 1]
+    for part in parts:
+        h = email.message_from_bytes(part[1])
         try:
             subj = str(make_header(decode_header(h.get("Subject") or "")))
             when = email.utils.parsedate_to_datetime(h.get("Date")).date().isoformat()
@@ -257,11 +265,19 @@ def main():
     if "--no-mail" not in sys.argv:
         want_to = {a for v in open_.values() for a in v.get("to", [])}
         want_subj = {s for v in open_.values() for s in v.get("subjects", [])}
+        # A hard ceiling on the whole Sent-folder read: the socket timeout only
+        # covers one stalled step, never a slow run as a whole.
+        def _too_long(*_):
+            raise TimeoutError("Sent folder read took over 90 seconds")
+        signal.signal(signal.SIGALRM, _too_long)
+        signal.alarm(90)
         try:
             box = mailbox(since, want_to, want_subj)
         except Exception as e:
             if not quiet:
                 print("(Sent folder not read: %s)" % e)
+        finally:
+            signal.alarm(0)
         # Every script send through Gmail leaves a copy in Sent too, dated in
         # UTC where the log has the local day: a copy within a day of a logged
         # row to the same address is that row, not a second mail.

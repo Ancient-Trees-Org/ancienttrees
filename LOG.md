@@ -22,7 +22,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Product**: Joey R. (Crum Creek sycamore, wtn_001) is ambassador for Willistown instead of Media, at his own ask ("just Willistown, where I live"); `ambassador.py --grant` willistown and `--revoke` media-pennsylvania, synced.
 - **Mail**: reply sent in his thread on Hidde's "Verstuur" (drafts/batches/reply-joey-willistown-2026-11-16b.json): yes to Willistown, and his two photos (a sycamore of 260 to 285 years with a 147 ft spread, and an oak) arrived without attachments, so he is asked to resend or add both in the app. When they come: new Willistown trees, his description quoted once the sycamore has a page.
-- **Broke**: Gmail refused IMAP ("too many simultaneous connections") because 13 `sent_drafts.py --quiet` processes from session starts had hung for up to 40 minutes; killed them. A hang guard on that script's IMAP (timeout) would stop it recurring.
+- **Broke**: Gmail refused IMAP ("too many simultaneous connections") because 13 `sent_drafts.py --quiet` processes from session starts had hung for up to 40 minutes; killed them. Fixed: sent_drafts.py fetches all Sent headers in one IMAP request instead of one per message (2m13s to 16s) and stops reading Sent after 90 seconds, so overlapping session starts no longer pile up connections.
 
 ## 2026-11-16 session: the Guardian on the about page
 
