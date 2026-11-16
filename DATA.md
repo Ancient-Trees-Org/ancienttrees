@@ -18,6 +18,7 @@ event on the list is unaffected.
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
 
+- [2026-11](archive/DATA-2026-11.md)
 - [2026-10](archive/DATA-2026-10.md)
 - [2026-09](archive/DATA-2026-09.md)
 - [2026-08](archive/DATA-2026-08.md)
@@ -25,6 +26,1087 @@ event on the list is unaffected.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-15 (previous UTC day)
+
+**Today: 56 android waitlist signups arrived today (996 total); 113 tree submissions and an ambassador request for Auckland and an ambassador request for Edinburgh and an ambassador request for London and an ambassador request for Media and an ambassador request for Melbourne and an ambassador request for Toronto and 25 correction reports and 80 feedback reports arrived today (283 submissions of every kind in all); 27 accounts were opened today (456 accounts in all).**
+
+**North star: 118 people have uploaded a tree or photo of their own (+106 this week); 10 of them did it on more than one day (+6).**
+
+**The numbers that matter** (this week against the week before; strangers only)
+
+| Number | Why | This week | Week before |
+|---|---|---:|---:|
+| New website visitors | people | 1818 | 54 |
+| ... of which from search | every search engine | 48 | 21 |
+| ... from Google | Google's recovery | 38 | 16 |
+| ... from Bing | Bing | 1 | 2 |
+| Website visitors who came back | people who stay | 144 | 13 |
+| App downloads (first-time) | people | 14 | 23 |
+| New accounts | people | 369 | 7 |
+| Phones back within 30 days | people who stay | 4 of 16 | 4 of 7 |
+| Trees saved to Want to go | intent | 191 | 3 |
+| Trees collected | goal 1: stood at a tree | 3 | 7 |
+| Readers' contributions | data: trees, photos, corrections, votes | 301 | 6 |
+| Shares (app and web) | word of mouth, since 10-30 | 46 | 2 |
+| Visits from a shared link | what sharing brings | 34 | 0 |
+
+Website visitors are Google Analytics' count, so only people who accepted the cookie bar; a visitor who comes back on another browser or device counts as new, and GA cannot leave our own visits out, so read the came-back row as a direction, not a count. The 30-day row is the phones that arrived five weeks ago, so it moves slowly.
+
+**Quality**: Web red, iOS green, Android grey, Backup red. Backup: Hidde's one-time setup in BACKUP_RESTORE.md.
+
+| | Web | iOS | Android |
+|---|---|---|---|
+| Live | red: new error spreading: "RangeError: Maximum call stack size exceeded." in inline, 5 reports on 3 pages | green | grey: no checks wired yet |
+
+**Plus question** (7 answers, 7 new; 2 asked to be told; 4 wrote an idea, read them with `python3 scripts/plus_answers.py`; up to two each)
+
+| Choice | Picked by |
+|---|---:|
+| A richer log of every tree you've collected | 3 |
+| Download offline maps | 2 |
+| Recommended tree walks for a city trip | 2 |
+| Seasonal alerts when trees are at their best | 2 |
+| Something else | 2 |
+
+**Day by day, the last seven days** (strangers only; visitors are Google Analytics', so only people who accepted the cookie bar)
+
+| | 11-09 | 11-10 | 11-11 | 11-12 | 11-13 | 11-14 | 11-15 | **7 days** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Visitors | 9 | 11 | 0 | 3 | 5 | 3 | 1797 | **1828** |
+| New accounts | 0 | 1 | 0 | 1 | 0 | 2 | 365 | **369** |
+| Saves | 0 | 0 | 0 | 0 | 0 | 0 | 191 | **191** |
+| Android waitlist | 0 | 1 | 0 | 0 | 0 | 0 | 944 | **945** |
+| App downloads | 2 | 3 | 1 | 2 | 2 | 1 | – | **11** |
+| App phones | 7 | 5 | 6 | 5 | 5 | 8 | 3562 | **3588** |
+| Trees opened in the app | 5 | 14 | 3 | 3 | 4 | 18 | 7607 | **7654** |
+| Trees collected | 0 | 0 | 0 | 0 | 0 | 3 | 96 | **99** |
+| Trees sent | 0 | 0 | 0 | 0 | 1 | 0 | 98 | **99** |
+| Feedback | 0 | 0 | 0 | 0 | 0 | 0 | 98 | **98** |
+| Ambassador asks | 0 | 0 | 0 | 0 | 0 | 0 | 5 | **5** |
+| Website photos | 0 | 0 | 1 | 0 | 0 | 0 | 9 | **10** |
+| iPhone photos | 0 | 0 | 0 | 0 | 0 | 3 | 177 | **180** |
+| Android photos | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Tree notes | 0 | 0 | 0 | 0 | 0 | 1 | 15 | **16** |
+| App Store reviews | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+- – means the source has not reported that day yet (Apple's downloads arrive a day or two late), not zero.
+
+**Trees readers sent, for you to inspect** (234 you have not looked at; ours left out)
+
+| Judged | Reader | Tree | Where | Species | Their girth | Our verdict | Page |
+|---|---|---|---|---|---:|---|---|
+| 2026-11-16 | A | The Borrowdale Yews (the Fraternal Four) | Borrowdale | European Yew (Taxus baccata) | - | publish | [bwd_001](https://ancienttrees.app/borrowdale/borrowdale-yews-the-fraternal-four) |
+| 2026-11-16 | B | Ahuehuete de Parque Espana (2 photos) | Mexico City | Montezuma Cypress (Taxodium mu | - | publish | [mex_005](https://ancienttrees.app/mexico-city/ahuehuete-de-parque-espana) |
+| 2026-11-16 | C | The Angel Oak | Charleston | Southern Live Oak (Quercus vir | - | publish | [chs_001](https://ancienttrees.app/charleston/angel-oak) |
+| 2026-11-16 | D | Earlysville Oak | - | White Oak | - | open | - |
+| 2026-11-16 | E | Podocarpus hallii | - | Podocarpus hallii | 831 cm | open | - |
+| 2026-11-16 | E | Curtain Fig | - | Cunningham's Fig / White Fig | - | open | - |
+| 2026-11-16 | F | European Yew near Estry | - | European Yew | - | open | - |
+| 2026-11-16 | G | American Elm (2 photos) | - | American Elm | - | open | - |
+| 2026-11-16 | G | Eastern Cottonwood (2 photos) | - | Eastern Cottonwood | - | open | - |
+| 2026-11-16 | G | White Oak | - | White Oak | - | open | - |
+| 2026-11-16 | G | Northern Red Oak | - | Northern Red Oak | - | open | - |
+| 2026-11-16 | H | Baobab (2 photos) | - | Baobab | 33 cm | open | - |
+| 2026-11-16 | I | Ginkgo (3 photos) | - | Ginkgo | - | open | - |
+| 2026-11-16 | J | Boab | - | Boab | 940 cm | open | - |
+| 2026-11-16 | K | A tree I found (9 photos) | - | - | - | open | - |
+| 2026-11-16 | L | The Becks Prime Augusta Live Oaks | Houston | - | - | publish | [hou_009](https://ancienttrees.app/houston/becks-prime-augusta-live-oaks) |
+| 2026-11-16 | L | The Old Pecan Tree | Houston | - | - | publish | [hou_002](https://ancienttrees.app/houston/old-pecan-tree) |
+| 2026-11-16 | M | The Kapok Tree | Key West | - | - | publish | [kyw_003](https://ancienttrees.app/key-west/kapok-tree) |
+| 2026-11-16 | N | The Rhodes Bald Cypress | Richard Bong State Recreation Area | - | - | publish | [bng_001](https://ancienttrees.app/richard-bong-state-recreation-area/rhodes-bald-cypress) |
+| 2026-11-15 | O | River Red Gum (2 photos) | adelaide | River Red Gum | - | publish | [ads_001](https://ancienttrees.app/adelaide/red-gum-of-the-rostrevor-creek) |
+| 2026-11-15 | P | Canary Pine | moss-vale | Canary Pine | 300 cm | publish | [mvv_001](https://ancienttrees.app/moss-vale/canary-pine-of-leighton-gardens) |
+| 2026-11-15 | Q | Veteran Lime (Linden) Tree | milton-keynes | Lime (Tilia sp.) | - | publish | [mkn_001](https://ancienttrees.app/milton-keynes/linford-lime) |
+| 2026-11-15 | R | Coldwaltham Yew (2 photos) | Coldwaltham | - | - | publish | [cwh_001](https://ancienttrees.app/coldwaltham/coldwaltham-yew) |
+| 2026-11-15 | S | The Belvoir Oak | Belfast | - | - | publish | [bfs_001](https://ancienttrees.app/belfast/belvoir-oak) |
+| 2026-11-15 | T | The Fulham Palace Oak | London | - | - | publish | [lon_007](https://ancienttrees.app/london/fulham-palace-oak) |
+| 2026-11-15 | T | Barney the Plane | London | - | - | publish | [lon_008](https://ancienttrees.app/london/barney-the-plane) |
+| 2026-11-15 | U | The Argyle Street Ash | Glasgow | - | - | publish | [gla_005](https://ancienttrees.app/glasgow/argyle-street-ash) |
+| 2026-11-15 | U | El Drago Milenario (2 photos) | Tenerife | - | - | publish | [tfe_001](https://ancienttrees.app/tenerife/el-drago-milenario) |
+| 2026-11-15 | T | The Ravenscourt Park Baobab Plane | London | - | - | publish | [lon_018](https://ancienttrees.app/london/ravenscourt-park-baobab-plane) |
+| 2026-11-15 | P | Canary Pine, Moss Vale | moss-vale | - | - | publish | [mvv_001](https://ancienttrees.app/moss-vale/canary-pine-of-leighton-gardens) |
+| 2026-11-15 | O | River Red Gum, Rostrevor | adelaide | - | - | publish | [ads_001](https://ancienttrees.app/adelaide/red-gum-of-the-rostrevor-creek) |
+| 2026-11-15 | V | Sessile Oak near London | london | Sessile Oak | - | publish | [lon_050](https://ancienttrees.app/london/bruce-castle-oak) |
+| 2026-11-15 | W | Endangered Dawn Redwood in Holborn, legal di | - | Dawn Redwood | - | hold | - |
+| 2026-11-15 | X | Cedar of Lebanon near Defynnog | brecon | Cedar of Lebanon | - | publish | [brk_001](https://ancienttrees.app/brecon/cedar-of-brecon-cathedral) |
+| 2026-11-15 | Y | Ancient Lappa plane tree | argyroupoli | - | 2000 cm | publish | [agy_001](https://ancienttrees.app/argyroupoli/plane-of-the-five-virgins) |
+| 2026-11-15 | V | The Bruce Castle Oak | London | Sessile Oak (Quercus petraea) | - | publish | [lon_050](https://ancienttrees.app/london/bruce-castle-oak) |
+| 2026-11-15 | X | The Cedar of Brecon Cathedral | Brecon | Cedar of Lebanon (Cedrus liban | - | publish | [brk_001](https://ancienttrees.app/brecon/cedar-of-brecon-cathedral) |
+| 2026-11-15 | Y | The Plane of the Five Virgins | Argyroupoli | Oriental Plane (Platanus orien | - | publish | [agy_001](https://ancienttrees.app/argyroupoli/plane-of-the-five-virgins) |
+| 2026-11-15 | Z | Giant Norfolk Island Pine of Lagoa das Furna | Azores | Norfolk Island Pine (Araucaria | - | publish | [azo_005](https://ancienttrees.app/azores/giant-norfolk-island-pine-of-lagoa-das-furnas) |
+| 2026-11-15 | A1 | The Plane of Saint Gerasimos, Omala | Kefalonia | Oriental Plane (Platanus orien | - | publish | [kef_001](https://ancienttrees.app/kefalonia/plane-of-saint-gerasimos-omala) |
+| 2026-11-15 | T | The Totteridge Yew | London | European Yew (Taxus baccata) | - | publish | [lon_001](https://ancienttrees.app/london/totteridge-yew) |
+| 2026-11-15 | T | The Ravenscourt Park Tree of Heaven | London | Tree of Heaven (Ailanthus alti | - | publish | [lon_023](https://ancienttrees.app/london/ravenscourt-park-tree-of-heaven) |
+| 2026-11-15 | Q | Linford Lime | Milton Keynes | Common Lime (Tilia x europaea) | - | publish | [mkn_001](https://ancienttrees.app/milton-keynes/linford-lime) |
+| 2026-11-15 | B1 | The Redford Wood Redwood | Edinburgh | Giant Sequoia (Sequoiadendron  | - | publish | [edi_021](https://ancienttrees.app/edinburgh/redford-wood-redwood) |
+| 2026-11-15 | C1 | Giant Australian Rubber Tree of Jardim Anton (2 photos) | Azores | Moreton Bay Fig (Ficus macroph | - | hold | - |
+| 2026-11-15 | B1 | Robert Louis Stevenson's Yew | Edinburgh | European Yew (Taxus baccata) | - | publish | [edi_017](https://ancienttrees.app/edinburgh/robert-louis-stevensons-yew) |
+| 2026-11-15 | B1 | Sitka Spruce in Dunkeld | dunkeld | Sitka Spruce | - | publish | [dnk_009](https://ancienttrees.app/dunkeld/sitka-spruce-at-scone-palace) |
+| 2026-11-15 | B1 | Sweet Chestnut | lytham | Sweet Chestnut | 700 cm | publish | [lyt_001](https://ancienttrees.app/lytham/lytham-sweet-chestnut) |
+| 2026-11-15 | D1 | Deans Oak | - | - | 1200 cm | hold | - |
+| 2026-11-15 | E1 | A giant sequoia | - | - | - | lead | - |
+| 2026-11-15 | B1 | The Sitka Spruce at Scone Palace | Dunkeld | - | - | publish | [dnk_009](https://ancienttrees.app/dunkeld/sitka-spruce-at-scone-palace) |
+| 2026-11-15 | F1 | The Geelong Ginkgo | Geelong | - | - | publish | [glg_001](https://ancienttrees.app/geelong/geelong-ginkgo) |
+| 2026-11-15 | B1 | The Lytham Sweet Chestnut | Lytham | - | - | publish | [lyt_001](https://ancienttrees.app/lytham/lytham-sweet-chestnut) |
+| 2026-11-15 | T | The Royal Oak | London | - | - | publish | [lon_002](https://ancienttrees.app/london/royal-oak) |
+| 2026-11-15 | T | The Windrush Square Plane | London | - | - | publish | [lon_044](https://ancienttrees.app/london/windrush-square-plane) |
+| 2026-11-15 | G1 | The Kyushaku-fuji of Byakugo-ji | Tamba | - | - | publish | [tmb_002](https://ancienttrees.app/tamba/kyushaku-fuji-of-byakugo-ji) |
+| 2026-11-15 | G1 | Camphor Tree | nagasaki | Camphor Tree | 658 cm | publish | [ngs_001](https://ancienttrees.app/nagasaki/a-bombed-camphors-of-sanno-shrine) |
+| 2026-11-15 | G1 | Japanese Black Pine near Kyoto | otsu | Japanese Black Pine | 390 cm | publish | [ots_001](https://ancienttrees.app/otsu/pine-of-ukimido) |
+| 2026-11-15 | H1 | European Beech in London | london | European Beech | - | publish | [lon_052](https://ancienttrees.app/london/gnarled-beech-of-hampstead-heath) |
+| 2026-11-15 | I1 | American Sycamore near Media | willistown | American Sycamore | 650 cm | publish | [wtn_001](https://ancienttrees.app/willistown/sycamore-at-the-crum-creek-bridge) |
+| 2026-11-15 | B1 | Wheatley Elm in Edinburgh | edinburgh | Wheatley Elm | 400 cm | publish | [edi_022](https://ancienttrees.app/edinburgh/wheatley-elm-of-balgreen) |
+| 2026-11-15 | J1 | Giant sequoia in the heart of Geashill | geashill | Giant sequoia (Sequiadendron g | - | publish | [gsh_001](https://ancienttrees.app/geashill/geashill-sequoia) |
+| 2026-11-15 | K1 | The King of the Forest | dunkeld | Scots Pine | 660 cm | publish | [dnk_010](https://ancienttrees.app/dunkeld/king-of-the-forest) |
+| 2026-11-15 | L1 | Scots Pine in Dunkeld | - | Scots Pine | 660 cm | hold | - |
+| 2026-11-15 | M1 | Ancient eastern plane tree on Çınar Street | isparta | - | 400 cm | publish | [isp_001](https://ancienttrees.app/isparta/plane-of-cnar-sokak) |
+| 2026-11-15 | N1 | Old Knobbley | - | - | 950 cm | publish | - |
+| 2026-11-15 | O1 | Tree in Waitangi | - | - | - | lead | - |
+| 2026-11-15 | P1 | The Great Oriental Plane Tree, Emmanuel Coll | - | - | 478 cm | hold | - |
+| 2026-11-15 | Q1 | The picture card perfect pines in Connamara | - | - | - | publish | - |
+| 2026-11-15 | R1 | Mariam Dearit (also known as the Madonna of  | keren | - | 700 cm | publish | [krn_001](https://ancienttrees.app/keren/mariam-dearit) |
+| 2026-11-15 | G1 | The A-bombed Camphors of Sanno Shrine | Nagasaki | - | - | publish | [ngs_001](https://ancienttrees.app/nagasaki/a-bombed-camphors-of-sanno-shrine) |
+| 2026-11-15 | S1 | The Market Bosworth Yew | Market Bosworth | - | - | publish | [mbw_001](https://ancienttrees.app/market-bosworth/market-bosworth-yew) |
+| 2026-11-15 | T1 | Kett's Oak | Hethersett | - | - | publish | [hth_001](https://ancienttrees.app/hethersett/ketts-oak) |
+| 2026-11-15 | G1 | The Pine of Ukimido | Kyoto | - | - | publish | [ots_001](https://ancienttrees.app/otsu/pine-of-ukimido) |
+| 2026-11-15 | H1 | The Gnarled Beech of Hampstead Heath (2 photos) | London | - | - | publish | [lon_052](https://ancienttrees.app/london/gnarled-beech-of-hampstead-heath) |
+| 2026-11-15 | U1 | The Giant of Mount Horne | Grenada | - | - | publish | [grn_001](https://ancienttrees.app/grenada/giant-of-mount-horne) |
+| 2026-11-15 | B1 | The Wheatley Elm of Balgreen | Edinburgh | - | - | publish | [edi_022](https://ancienttrees.app/edinburgh/wheatley-elm-of-balgreen) |
+| 2026-11-15 | V1 | - | oxford | - | - | publish | [oxf_004](https://ancienttrees.app/oxford/pococke-plane) |
+| 2026-11-15 | W1 | - | - | - | - | hold | - |
+| 2026-11-15 | X1 | - | bristol | - | - | publish | [bri_016](https://ancienttrees.app/bristol/bundle-planted-sessile-oak-bishops-knoll) |
+| 2026-11-15 | Y1 | - | santalfio | - | - | publish | [sal_001](https://ancienttrees.app/santalfio/hundred-horse-chestnut) |
+| 2026-11-15 | Y1 | - | - | - | - | hold | - |
+| 2026-11-15 | Z1 | - | - | - | - | hold | - |
+| 2026-11-15 | Z1 | - | bar | - | - | publish | [mtn_001](https://ancienttrees.app/bar/stara-maslina-old-olive-tree-of-mirovica) |
+| 2026-11-15 | Z1 | - | - | - | - | hold | - |
+| 2026-11-15 | Z1 | - | - | - | - | hold | - |
+| 2026-11-15 | W1 | - | - | - | - | hold | - |
+| 2026-11-15 | A2 | - | farnham | - | - | publish | [frn_001](https://ancienttrees.app/farnham/waverley-abbey-yew) |
+| 2026-11-15 | Q1 | - | gort | - | - | publish | [gor_001](https://ancienttrees.app/gort/autograph-tree) |
+| 2026-11-15 | G1 | - | - | - | - | hold | - |
+| 2026-11-15 | G1 | - | nagoya | - | - | publish | [ngy_002](https://ancienttrees.app/nagoya/camphor-of-atsuta-shrine) |
+| 2026-11-15 | B2 | - | palermo | - | - | publish | [pal_001](https://ancienttrees.app/palermo/ficus-of-piazza-marina) |
+| 2026-11-15 | C2 | - | dunkeld | - | - | publish | [dnk_002](https://ancienttrees.app/dunkeld/birnam-oak) |
+| 2026-11-15 | C2 | - | dunkeld | - | - | publish | [dnk_002](https://ancienttrees.app/dunkeld/birnam-oak) |
+| 2026-11-15 | G1 | - | kyoto | - | - | publish | [kyo_002](https://ancienttrees.app/kyoto/land-boat-pine) |
+| 2026-11-15 | D2 | - | york | - | - | publish | [yor_002](https://ancienttrees.app/york/cut-leaved-hornbeam) |
+| 2026-11-15 | K1 | The King of the Forest | Dunkeld | - | - | publish | [dnk_010](https://ancienttrees.app/dunkeld/king-of-the-forest) |
+| 2026-11-15 | J1 | The Geashill Sequoia | Geashill | - | - | publish | [gsh_001](https://ancienttrees.app/geashill/geashill-sequoia) |
+| 2026-11-15 | M1 | The Plane of Cinar Street | Isparta | - | - | publish | [isp_001](https://ancienttrees.app/isparta/plane-of-cnar-sokak) |
+| 2026-11-15 | R1 | Mariam Dearit | Keren | - | - | publish | [krn_001](https://ancienttrees.app/keren/mariam-dearit) |
+| 2026-11-15 | I1 | The Sycamore at the Crum Creek Bridge (2 photos) | Willistown | - | - | publish | [wtn_001](https://ancienttrees.app/willistown/sycamore-at-the-crum-creek-bridge) |
+| 2026-11-15 | E2 | The Moved Giant Sequoia of Fort Boise Park | Boise | - | - | publish | [boi_002](https://ancienttrees.app/boise/moved-giant-sequoia-of-fort-boise-park) |
+| 2026-11-15 | F2 | The Lewisham Elm | London | - | - | publish | [lon_045](https://ancienttrees.app/london/lewisham-elm) |
+| 2026-11-15 | W1 | The Green Beeches of the Nieuwe Kerkhof (2 photos) | Groningen | - | - | publish | [gro_014](https://ancienttrees.app/groningen/green-beeches-of-the-nieuwe-kerkhof) |
+| 2026-11-15 | G2 | The Weeping Beech of the Schwanenbrücke (3 photos) | Munich | - | - | publish | [muc_014](https://ancienttrees.app/munich/weeping-beech-of-the-schwanenbrucke) |
+| 2026-11-15 | W1 | The Pollarded Lindens of the Pepergasthuis | Groningen | - | - | publish | [gro_020](https://ancienttrees.app/groningen/pollarded-lindens-of-the-pepergasthuis) |
+| 2026-11-15 | H2 | The Brace Elm | Brighton | - | - | publish | [bhm_002](https://ancienttrees.app/brighton/brace-elm) |
+| 2026-11-15 | I2 | Tāne Mahuta (2 photos) | Waipoua Forest | - | - | publish | [wai_001](https://ancienttrees.app/waipoua-forest/tane-mahuta) |
+| 2026-11-15 | F2 | The Evelyn Mulberry | London | - | - | publish | [lon_010](https://ancienttrees.app/london/evelyn-mulberry) |
+| 2026-11-15 | E2 | The Cedars of the Konigsflugel | Bad Homburg | - | - | publish | [bhg_001](https://ancienttrees.app/bad-homburg/cedars-of-the-konigsflugel) |
+| 2026-11-15 | V1 | The Pococke Plane | Oxford | - | - | publish | [oxf_004](https://ancienttrees.app/oxford/pococke-plane) |
+| 2026-11-15 | J2 | Great Plane of Mottisfont | Mottisfont | - | - | publish | [mtf_001](https://ancienttrees.app/mottisfont/great-plane-of-mottisfont) |
+| 2026-11-15 | G2 | The Fern-leaved Beech of the Amalienburg (2 photos) | Munich | - | - | publish | [muc_013](https://ancienttrees.app/munich/fern-leaved-beech-of-the-amalienburg) |
+| 2026-11-15 | E2 | The Temple Tree of Landbohøjskolens Have | Copenhagen | - | - | publish | [cop_005](https://ancienttrees.app/copenhagen/temple-tree-of-landbohojskolens-have) |
+| 2026-11-15 | G2 | The Oak of the Dörfchen, Nymphenburg (2 photos) | Munich | - | - | publish | [muc_007](https://ancienttrees.app/munich/oak-of-the-dorfchen-nymphenburg) |
+| 2026-11-15 | I2 | The Fortingall Yew (2 photos) | Fortingall | - | - | publish | [for_001](https://ancienttrees.app/fortingall/fortingall-yew) |
+| 2026-11-15 | E2 | El Árbol del Tule | Santa María del Tule | - | - | publish | [tul_001](https://ancienttrees.app/santa-maria-del-tule/el-arbol-del-tule) |
+| 2026-11-15 | K2 | The Gomero de la Recoleta (2 photos) | Buenos Aires | - | - | publish | [bai_001](https://ancienttrees.app/buenos-aires/gomero-de-la-recoleta) |
+| 2026-11-15 | I2 | Ashbrittle Yew | Ashbrittle | - | - | publish | [asb_001](https://ancienttrees.app/ashbrittle/ashbrittle-yew) |
+| 2026-11-15 | L2 | The Toogood Road Fig | Cairns | - | - | publish | [cns_001](https://ancienttrees.app/cairns/toogood-road-fig) |
+| 2026-11-15 | K2 | The Old Olive of Exo Chora | Zakynthos | - | - | publish | [zak_001](https://ancienttrees.app/zakynthos/old-olive-of-exo-chora) |
+| 2026-11-15 | K2 | The Fig on the Abraaozinho Trail | Ilha Grande | - | - | publish | [ilg_001](https://ancienttrees.app/ilha-grande/fig-on-the-abraaozinho-trail) |
+| 2026-11-15 | E2 | The Tarzan Tree | Algiers | - | - | publish | [alg_001](https://ancienttrees.app/algiers/tarzan-tree) |
+| 2026-11-15 | E2 | The Elephant's Foot of Zapotitlan | Zapotitlan Salinas | - | - | publish | [zps_001](https://ancienttrees.app/zapotitlan-salinas/elephants-foot-of-zapotitlan) |
+| 2026-11-15 | R | The Bromley Oak (2 photos) | London | Pedunculate Oak (Quercus robur | - | publish | [lon_046](https://ancienttrees.app/london/bromley-oak) |
+| 2026-11-15 | G1 | The Great Cedar of Kasuga Taisha | Nara | Japanese Cedar (Cryptomeria ja | - | publish | [nra_002](https://ancienttrees.app/nara/great-cedar-of-kasuga-taisha) |
+| 2026-11-15 | M2 | The Witch Tree of Fanal | Madeira | Til / Stinkwood (Ocotea foeten | - | open | - |
+| 2026-11-15 | I2 | Marton Oak | - | Pedunculate Oak | - | hold | - |
+| 2026-11-15 | L2 | Weeping Fig | cairns | Weeping Fig | 754 cm | publish | [cns_001](https://ancienttrees.app/cairns/toogood-road-fig) |
+| 2026-11-15 | K2 | Olive | zakynthos | Olive | - | publish | [zak_001](https://ancienttrees.app/zakynthos/old-olive-of-exo-chora) |
+| 2026-11-15 | E2 | The Tarzan Tree | algiers | Moreton Bay Fig | - | publish | [alg_001](https://ancienttrees.app/algiers/tarzan-tree) |
+| 2026-11-15 | E2 | Ponytail Palm / Elephant's Foot | zapotitlan-salinas | Ponytail Palm / Elephant's Foo | - | publish | [zps_001](https://ancienttrees.app/zapotitlan-salinas/elephants-foot-of-zapotitlan) |
+| 2026-11-15 | N2 | Malmö | - | - | - | hold | - |
+| 2026-11-15 | O2 | Dawn Redwood in Toronto | - | Dawn Redwood | - | open | - |
+| 2026-11-15 | P2 | whole veteran tree beside the manor | valdemarpils | old linden, twisted trunk, lon | - | publish | [vld_001](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 2026-11-15 | P2 | hollow in the old trunk | valdemarpils | linden bark and hollow | - | publish | [vld_001](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 2026-11-15 | P2 | trunk and limbs beside manor | valdemarpils | linden trunk and spreading lim | - | publish | [vld_001](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 2026-11-15 | Q2 | veteran oak with steel scaffold | warsaw | pedunculate oak, split trunk w | - | publish | [war_001](https://ancienttrees.app/warsaw/dab-mieszko-i-king-mieszko-is-oak) |
+| 2026-11-15 | R2 | mature beech with unusual bark | york | beech, smooth trunk in autumn  | - | publish | [yor_003](https://ancienttrees.app/york/pear-barked-beech) |
+| 2026-11-15 | G2 | large copper beech by the palace | munich | copper beech in rust autumn le | - | publish | [muc_011](https://ancienttrees.app/munich/copper-beech-of-the-badenburg) |
+| 2026-11-15 | Q2 | tall multi-armed cactus in a car park | seville | giant cardon cactus, many arms | - | publish | [sev_044](https://ancienttrees.app/seville/cardon-of-the-expo) |
+| 2026-11-15 | G2 | leaning lime by the lake | munich | old linden leaning over the la | - | publish | [muc_012](https://ancienttrees.app/munich/leaning-lime-of-the-badenburger-see) |
+| 2026-11-15 | G2 | leaning lime, lake and dusk light | munich | old linden over the lake | - | publish | [muc_012](https://ancienttrees.app/munich/leaning-lime-of-the-badenburger-see) |
+| 2026-11-15 | R2 | wide-crowned hornbeam in a park | york | hornbeam, bare crown with autu | - | publish | [yor_002](https://ancienttrees.app/york/cut-leaved-hornbeam) |
+| 2026-11-15 | S2 | weeping beech trunk and pendant branches | dresden | weeping beech, wide fluted tru | - | publish | [dre_019](https://ancienttrees.app/dresden/weeping-beech-of-helfenberg-park) |
+| 2026-11-15 | T2 | banyan-like fig with pillar roots | palermo | Ficus macrophylla, aerial root | - | publish | [pal_003](https://ancienttrees.app/palermo/ficus-of-the-orto-botanico) |
+| 2026-11-15 | S2 | ancient lime with hollow trunk | dresden | large-leaved linden, multi-ste | - | publish | [dre_005](https://ancienttrees.app/dresden/kaditzer-linde) |
+| 2026-11-15 | I2 | Giant Tree | - | Giant Sequoia | 1615 cm | publish | - |
+| 2026-11-15 | I2 | Rockefeller - Tall Tree | humboldt-redwoods-state-park | Giant Sequoia | 1280 cm | publish | [hum_002](https://ancienttrees.app/humboldt-redwoods-state-park/tall-tree) |
+| 2026-11-15 | U2 | Common Fig | manaccan | Common Fig | - | publish | [mnc_002](https://ancienttrees.app/manaccan/fig-in-manaccan-church-wall) |
+| 2026-11-15 | U2 | Monterey Cypress (3 photos) | manaccan | Monterey Cypress | - | publish | [mnc_001](https://ancienttrees.app/manaccan/monterey-cypress-over-the-creek) |
+| 2026-11-15 | V2 | The Linton Yew (3 photos) | linton-herefordshire | European Yew | 950 cm | publish | [lnt_001](https://ancienttrees.app/linton-herefordshire/linton-yew) |
+| 2026-11-15 | W2 | Blue Jacaranda in Melbourne | - | Blue Jacaranda | - | hold | - |
+| 2026-11-15 | X2 | Black Mulberry | lewes | Mulberry (Morus sp.) | - | publish | [lew_001](https://ancienttrees.app/lewes/southover-grange-mulberry) |
+| 2026-11-15 | Y2 | Cedar of Lebanon | ulverston | Cedar (Cedrus sp.) | 755 cm | publish | [ulv_001](https://ancienttrees.app/ulverston/conishead-priory-cedar) |
+| 2026-11-15 | Y2 | Douglas fir | ulverston | Fir (Abies sp.) | 582 cm | publish | [ulv_002](https://ancienttrees.app/ulverston/conishead-priory-douglas-fir) |
+| 2026-11-15 | Q2 | King Jan's Linden | Warsaw | Linden | - | publish | [war_007](https://ancienttrees.app/warsaw/king-jans-linden) |
+| 2026-11-15 | E2 | The Fern-leaved Beech of the National Galler | Copenhagen | Fern-leaved Beech | - | publish | [cop_026](https://ancienttrees.app/copenhagen/fern-leaved-beech-of-the-national-gallery) |
+| 2026-11-15 | Z2 | The Anseman Oak | New Orleans | - | - | publish | [nol_002](https://ancienttrees.app/new-orleans/anseman-oak) |
+| 2026-11-15 | Z2 | The Suicide Oak | New Orleans | - | - | publish | [nol_005](https://ancienttrees.app/new-orleans/suicide-oak) |
+| 2026-11-15 | U2 | Wistman's Wood (4 photos) | Dartmoor | - | - | publish | [dmr_001](https://ancienttrees.app/dartmoor/wistmans-wood) |
+| 2026-11-15 | U2 | The Fig in Manaccan Church Wall | Manaccan | Common Fig (Ficus carica) | - | publish | [mnc_002](https://ancienttrees.app/manaccan/fig-in-manaccan-church-wall) |
+| 2026-11-15 | I2 | The Tall Tree | Humboldt Redwoods State Park | Coast Redwood (Sequoia semperv | - | publish | [hum_002](https://ancienttrees.app/humboldt-redwoods-state-park/tall-tree) |
+| 2026-11-15 | X2 | The Southover Grange Mulberry | Lewes | Mulberry (Morus sp.) | - | publish | [lew_001](https://ancienttrees.app/lewes/southover-grange-mulberry) |
+| 2026-11-15 | Y2 | The Conishead Priory Cedar | Ulverston | Cedar of Lebanon (Cedrus liban | - | publish | [ulv_001](https://ancienttrees.app/ulverston/conishead-priory-cedar) |
+| 2026-11-15 | Y2 | The Conishead Priory Douglas Fir | Ulverston | Douglas Fir (Pseudotsuga menzi | - | publish | [ulv_002](https://ancienttrees.app/ulverston/conishead-priory-douglas-fir) |
+| 2026-11-15 | W1 | The ANWB Linden of Wilhelminakade | Groningen | Common Lime (Tilia x europaea) | - | publish | [gro_018](https://ancienttrees.app/groningen/anwb-linden-of-wilhelminakade) |
+| 2026-11-15 | A3 | Cedar of Lebanon near Hethersett | norwich | Cedar of Lebanon | - | publish | [nwc_001](https://ancienttrees.app/norwich/norwich-cathedral-cedar) |
+| 2026-11-15 | B3 | English Hawthorn | - | English Hawthorn (Crataegus la | 50 cm | lead | - |
+| 2026-11-15 | C3 | A tree near Edinburgh | - | - | - | hold | - |
+| 2026-11-15 | D3 | Southern Live Oak | ormond-beach | Southern Live Oak | 32 cm | publish | [obc_001](https://ancienttrees.app/ormond-beach/fairchild-oak) |
+| 2026-11-15 | D3 | The Fairchild Oak (2 photos) | ormond-beach | Southern Live Oak | 32 cm | publish | [obc_001](https://ancienttrees.app/ormond-beach/fairchild-oak) |
+| 2026-11-15 | A3 | The Norwich Cathedral Cedar | norwich | Cedar of Lebanon | - | publish | [nwc_001](https://ancienttrees.app/norwich/norwich-cathedral-cedar) |
+| 2026-11-15 | W1 | The Mespilifolia Oak of Noorderplantsoen | Groningen | Sessile Oak "Mespilifolia" (Qu | - | publish | [gro_016](https://ancienttrees.app/groningen/mespilifolia-oak-of-noorderplantsoen) |
+| 2026-11-15 | W1 | The Oak of Martinikerkhof | Groningen | Pedunculate Oak (Quercus robur | - | publish | [gro_007](https://ancienttrees.app/groningen/oak-of-martinikerkhof) |
+| 2026-11-15 | E3 | Pedunculate Oak (2 photos) | wantisden | Pedunculate Oak | - | open | [wnt_001](https://ancienttrees.app/wantisden/pollard-oaks-of-wantisden) |
+| 2026-11-15 | F3 | Métaséquoia in La Tène | la-tene | Métaséquoia | 250 cm | open | [prf_003](https://ancienttrees.app/la-tene/dawn-redwood-of-prefargier) |
+| 2026-11-15 | F3 | A tree in La Tène | la-tene | - | - | open | [prf_004](https://ancienttrees.app/la-tene/weeping-beeches-of-prefargier) |
+| 2026-11-15 | F3 | Giant Sequoia in La Tène | la-tene | Giant Sequoia | 705 cm | open | [prf_002](https://ancienttrees.app/la-tene/giant-sequoia-of-prefargier) |
+| 2026-11-15 | F3 | Large-leaved Lime in La Tène | la-tene | Large-leaved Lime | - | open | [prf_005](https://ancienttrees.app/la-tene/large-leaved-lime-of-prefargier) |
+| 2026-11-15 | G3 | Elleholmseken (The Oak of Elleholm) | elleholm | Pedunculate Oak | 785 cm | open | [elh_001](https://ancienttrees.app/elleholm/elleholmseken-the-oak-of-elleholm) |
+| 2026-11-15 | H3 | London Plane | maidstone | London Plane | 700 cm | open | [mdb_001](https://ancienttrees.app/maidstone/baobab-plane-of-penenden-heath) |
+| 2026-11-15 | H3 | Pedunculate Oak near Mistley | colchester | Pedunculate Oak | 600 cm | open | [cls_001](https://ancienttrees.app/colchester/oak-of-clingoe-hill) |
+| 2026-11-15 | I3 | Arbour Oak | - | Oak (Quercus sp.) | 700 cm | open | - |
+| 2026-11-15 | J3 | The Oriental Plane of Landgoed Bantam | Hilversum | Oriental Plane | - | publish | [hil_001](https://ancienttrees.app/hilversum/oriental-plane-of-landgoed-bantam) |
+| 2026-11-15 | K3 | The Hackberry of the Mura Latine | Rome | Hackberry | - | publish | [rom_028](https://ancienttrees.app/rome/hackberry-of-the-mura-latine) |
+| 2026-11-15 | G3 | Rumskullaeken (the Kvill Oak) | Rumskulla | Pedunculate Oak | - | publish | [rkm_001](https://ancienttrees.app/rumskulla/rumskullaeken-the-kvill-oak) |
+| 2026-11-15 | L3 | The Fremont Tree | Santa Cruz | Coast Redwood | - | publish | [scz_002](https://ancienttrees.app/santa-cruz/fremont-tree) |
+| 2026-11-15 | M3 | Te Matua Ngahere | Waipoua Forest | Kauri | - | publish | [wai_002](https://ancienttrees.app/waipoua-forest/te-matua-ngahere) |
+| 2026-11-15 | E3 | The Pollard Oaks of Wantisden | Wantisden | Pedunculate Oak | - | publish | [wnt_001](https://ancienttrees.app/wantisden/pollard-oaks-of-wantisden) |
+| 2026-11-15 | G3 | Elleholmseken (The Oak of Elleholm) | Elleholm | Pedunculate Oak | - | publish | [elh_001](https://ancienttrees.app/elleholm/elleholmseken-the-oak-of-elleholm) |
+| 2026-11-15 | H3 | The Baobab Plane of Penenden Heath | Maidstone | London Plane | - | publish | [mdb_001](https://ancienttrees.app/maidstone/baobab-plane-of-penenden-heath) |
+| 2026-11-15 | H3 | The Oak of Clingoe Hill | Colchester | Pedunculate Oak | - | publish | [cls_001](https://ancienttrees.app/colchester/oak-of-clingoe-hill) |
+| 2026-11-15 | N3 | The Library Ginkgo of Carmarthen | Carmarthen | Ginkgo | - | publish | [cmt_001](https://ancienttrees.app/carmarthen/library-ginkgo-of-carmarthen) |
+| 2026-11-15 | F3 | The Giant Sequoia of Préfargier | La Tène | Giant Sequoia | - | publish | [prf_002](https://ancienttrees.app/la-tene/giant-sequoia-of-prefargier) |
+| 2026-11-15 | F3 | The Dawn Redwood of Préfargier | La Tène | Dawn Redwood | - | publish | [prf_003](https://ancienttrees.app/la-tene/dawn-redwood-of-prefargier) |
+| 2026-11-15 | F3 | The Weeping Beeches of Préfargier | La Tène | Weeping Beech | - | publish | [prf_004](https://ancienttrees.app/la-tene/weeping-beeches-of-prefargier) |
+| 2026-11-15 | F3 | The Large-leaved Lime of Préfargier | La Tène | Large-leaved Lime | - | publish | [prf_005](https://ancienttrees.app/la-tene/large-leaved-lime-of-prefargier) |
+| 2026-11-15 | T | Grimston's Oak | London | Pedunculate Oak (Quercus robur | - | hold | - |
+| 2026-11-15 | O3 | The Plane Trees of the Circus | Bath | London Plane (Platanus x aceri | - | publish | [bat_003](https://ancienttrees.app/bath/plane-trees-of-the-circus) |
+| 2026-11-15 | O3 | The Orange Courtyard of the Mezquita | Cordoba | Bitter Orange (Citrus aurantiu | - | publish | [cdb_002](https://ancienttrees.app/cordoba/orange-courtyard-of-the-mezquita) |
+| 2026-11-15 | O3 | The Crom Yews | Crom | European Yew (Taxus baccata) | - | hold | - |
+| 2026-11-15 | P3 | The Sunderland Buttonball Tree | Sunderland, Massachusetts | American Sycamore (Platanus oc | - | publish | [snd_001](https://ancienttrees.app/sunderland-massachusetts/sunderland-buttonball-tree) |
+| 2026-11-15 | O3 | The Dawn Redwood by the Kelvin Statue (2 photos) | Belfast | Dawn Redwood (Metasequoia glyp | - | hold | - |
+| 2026-11-15 | O3 | S'Olivera de Cort (2 photos) | Palma de Mallorca | Olive (Olea europaea) | - | hold | - |
+| 2026-11-15 | P3 | Jackson's Oak | Mobile | Southern Live Oak (Quercus vir | - | publish | [mob_003](https://ancienttrees.app/mobile/jacksons-oak) |
+| 2026-11-15 | P3 | Endicott Pear Tree | Boston | European Pear (Pyrus communis) | - | publish | [bos_013](https://ancienttrees.app/boston/endicott-pear-tree) |
+| 2026-11-15 | O3 | The Olive of the Orange Courtyard | Cordoba | Olive (Olea europaea) | - | publish | [cdb_001](https://ancienttrees.app/cordoba/olive-of-the-orange-courtyard) |
+| 2026-11-15 | Q3 | Methuselah Tree (Coast Redwood) | woodside | Coast Redwood | - | publish | [wdd_001](https://ancienttrees.app/woodside/methuselah-tree) |
+| 2026-11-15 | R3 | A tree near Sēja | - | - | - | open | - |
+| 2026-11-15 | R3 | A tree near Przybudki | - | - | - | open | - |
+| 2026-11-15 | R3 | A tree near Chiang Mai | - | - | - | open | - |
+| 2026-11-15 | S3 | The Old Yew Tree, St Cuthberts | doveridge | European Yew | - | publish | [dvr_001](https://ancienttrees.app/doveridge/doveridge-yew) |
+| 2026-11-15 | S3 | Birch in Cannock Chase | - | Birch | - | open | - |
+| 2026-11-15 | T3 | Moreton Bay Fig in Brisbane | - | Moreton Bay Fig | - | open | - |
+| 2026-11-15 | I2 | Bodhi Tree at Buddha’s Birthplace | - | Bodhi Tree | - | open | - |
+| 2026-11-15 | U3 | Sweet Chestnut in London: a Woodland Trust t | london | Sweet Chestnut | - | publish | [lon_053](https://ancienttrees.app/london/twisted-sweet-chestnut-of-greenwich-park) |
+| 2026-11-15 | V3 | European Yew near Wilmington | crowhurst | European Yew | 1030 cm | publish | [crh_001](https://ancienttrees.app/crowhurst/crowhurst-yew) |
+| 2026-11-15 | W3 | Il cipresso calvo di Villa Smeraldi | - | Cypress (Cupressus sp.) | - | open | - |
+| 2026-11-15 | W3 | Quercia di Molinazzo | - | Oak (Quercus sp.) | 460 cm | open | - |
+| 2026-11-15 | X3 | Ardkinglas Grand Fir | Ardkinglas | Grand Fir | - | publish | [akw_001](https://ancienttrees.app/ardkinglas/ardkinglas-grand-fir) |
+| 2026-11-15 | X3 | Ardkinglas Silver Fir, the Mightiest Conifer | Ardkinglas | Silver Fir | - | publish | [akw_002](https://ancienttrees.app/ardkinglas/ardkinglas-silver-fir-the-mightiest-conifer) |
+| 2026-11-15 | Y3 | Library Park Fig | Los Angeles | Fig | - | publish | [lax_031](https://ancienttrees.app/los-angeles/library-park-fig) |
+| 2026-11-15 | J3 | The Variegated Maple of Coevorden Castle | Emmen | Maple | - | publish | [emm_008](https://ancienttrees.app/emmen/variegated-maple-of-coevorden-castle) |
+| 2026-11-15 | O3 | The Twin Cypresses of the Parador | Granada | Cypress | - | publish | [gra_007](https://ancienttrees.app/granada/twin-cypresses-of-the-parador) |
+| 2026-11-15 | Z3 | Xemxija Old Carob Tree | Malta | Carob | - | publish | [mlt_001](https://ancienttrees.app/malta/xemxija-old-carob-tree) |
+| 2026-11-15 | R3 | Yang Na of the City Pillar, Wat Chedi Luang | Chiang Mai | Yang Na | - | hold | - |
+| 2026-11-15 | O3 | The Boole Library Redwoods | Cork | Redwood | - | hold | - |
+| 2026-11-15 | R3 | The Glasnevin Hybrid Strawberry Tree | Dublin | Hybrid Strawberry Tree | - | hold | - |
+| 2026-11-15 | V3 | The Bowthorpe Oak | Bowthorpe | - | - | publish | [bow_001](https://ancienttrees.app/bowthorpe/bowthorpe-oak) |
+| 2026-11-15 | V3 | The Crowhurst Yew | Crowhurst | - | - | publish | [crh_001](https://ancienttrees.app/crowhurst/crowhurst-yew) |
+| 2026-11-15 | S3 | The Doveridge Yew | Doveridge | - | - | publish | [dvr_001](https://ancienttrees.app/doveridge/doveridge-yew) |
+| 2026-11-15 | U3 | The Twisted Sweet Chestnut of Greenwich Park | London | - | - | publish | [lon_053](https://ancienttrees.app/london/twisted-sweet-chestnut-of-greenwich-park) |
+| 2026-11-15 | Q3 | The Methuselah Tree | Woodside | - | - | publish | [wdd_001](https://ancienttrees.app/woodside/methuselah-tree) |
+- From 104 readers: reader E2 9, reader G1 9, reader B1 8, reader F3 8, reader I2 8, reader O3 8, reader T 8, reader W1 7, reader G2 6, reader R3 5, reader G 4, reader H3 4, reader K2 4, reader U2 4, reader Y2 4, reader Z1 4, reader G3 3, reader P2 3, reader P3 3, reader Q2 3, reader S3 3, reader V3 3, reader A3 2, reader C2 2, reader D3 2, reader E 2, reader E3 2, reader F2 2, reader H1 2, reader I1 2, reader J1 2, reader J3 2, reader K1 2, reader L 2, reader L2 2, reader M1 2, reader O 2, reader P 2, reader Q 2, reader Q1 2, reader Q3 2, reader R 2, reader R1 2, reader R2 2, reader S2 2, reader U 2, reader U3 2, reader V 2, reader V1 2, reader W3 2, reader X 2, reader X2 2, reader X3 2, reader Y 2, reader Y1 2, reader Z2 2, reader A 1, reader A1 1, reader A2 1, reader B 1, reader B2 1, reader B3 1, reader C 1, reader C1 1, reader C3 1, reader D 1, reader D1 1, reader D2 1, reader E1 1, reader F 1, reader F1 1, reader H 1, reader H2 1, reader I 1, reader I3 1, reader J 1, reader J2 1, reader K 1, reader K3 1, reader L1 1, reader L3 1, reader M 1, reader M2 1, reader M3 1, reader N 1, reader N1 1, reader N2 1, reader N3 1, reader O1 1, reader O2 1, reader P1 1, reader S 1, reader S1 1, reader T1 1, reader T2 1, reader T3 1, reader U1 1, reader V2 1, reader W 1, reader W2 1, reader X1 1, reader Y3 1, reader Z 1, reader Z3 1.
+- Photographs and the readers' own words: `python3 scripts/inspect_readers.py` (a local page, never in this public file). Your answer goes in with `python3 scripts/judgement.py --feedback <id> "..."`.
+
+**Waiting for you** (what the runs left for you since 2026-11-15)
+
+- 246 email addresses ready to mail (archive 0, nature 9, guide 8, press 135, source 58, council 16, society 7, tourism 5, other 5, garden 3); **the night run found no new contacts in two days**
+- the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes now put trees straight into the app, so nothing waits for it.
+- North Berwick Law (trees for the 1707 Act of Union, per the reader; trees too small in the frame, no source), a contorted pagoda tree or robinia at an inn in Fertoujlak, Hungary (shot up the trunk, no note; sent twice), 
+- three reply drafts wait for his yes: drafts/reply-reader-786 (Tree Council tip), -813 (Coldwaltham, thumbnail), -802 (Lusnizza oak, asks for a photo).
+
+**What readers gave us, and it went live**
+
+| Day | Reader | Tree | Where | What | Page |
+|---|---|---|---|---|---|
+| 11-14 | A4 | The Taşlı Çınar | Istanbul | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/istanbul/tasl-cnar) |
+| 11-14 | A4 | The Gülhane London Plane | Istanbul | a reader's photograph, published | [live](https://ancienttrees.app/istanbul/gulhane-london-plane) |
+| 11-14 | A4 | The Gülhane Nettle Tree | Istanbul | a reader's photograph, published | [live](https://ancienttrees.app/istanbul/gulhane-nettle-tree) |
+| 11-15 | R | Coldwaltham Yew | Coldwaltham | a reader's photograph, published | [live](https://ancienttrees.app/coldwaltham/coldwaltham-yew) |
+| 11-15 | S | The Belvoir Oak | Belfast | a reader's photograph, published | [live](https://ancienttrees.app/belfast/belvoir-oak) |
+| 11-15 | T | The Fulham Palace Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/fulham-palace-oak) |
+| 11-15 | T | Barney the Plane | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/barney-the-plane) |
+| 11-15 | U | The Argyle Street Ash | Glasgow | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/glasgow/argyle-street-ash) |
+| 11-15 | U | El Drago Milenario | Tenerife | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/tenerife/el-drago-milenario) |
+| 11-15 | T | The Ravenscourt Park Baobab Plane | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/ravenscourt-park-baobab-plane) |
+| 11-15 | O | The Red Gum of the Rostrevor Creek | Adelaide | a reader's photograph, published | [live](https://ancienttrees.app/adelaide/red-gum-of-the-rostrevor-creek) |
+| 11-15 | P | The Canary Pine of Leighton Gardens | Moss Vale | a reader's photograph, published | [live](https://ancienttrees.app/moss-vale/canary-pine-of-leighton-gardens) |
+| 11-15 | T | The Totteridge Yew | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/totteridge-yew) |
+| 11-15 | T | The Ravenscourt Park Tree of Heaven | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/ravenscourt-park-tree-of-heaven) |
+| 11-15 | A1 | The Plane of Saint Gerasimos, Omala | Kefalonia | a reader's photograph, published | [live](https://ancienttrees.app/kefalonia/plane-of-saint-gerasimos-omala) |
+| 11-15 | Z | Giant Norfolk Island Pine of Lagoa das Furnas | Azores | a reader's photograph, published | [live](https://ancienttrees.app/azores/giant-norfolk-island-pine-of-lagoa-das-furnas) |
+| 11-15 | V | The Bruce Castle Oak | London | a reader's photograph, published | [live](https://ancienttrees.app/london/bruce-castle-oak) |
+| 11-15 | X | The Cedar of Brecon Cathedral | Brecon | a reader's photograph, published | [live](https://ancienttrees.app/brecon/cedar-of-brecon-cathedral) |
+| 11-15 | B1 | The Redford Wood Redwood | Edinburgh | a reader's photograph, published | [live](https://ancienttrees.app/edinburgh/redford-wood-redwood) |
+| 11-15 | C1 | Giant Australian Rubber Tree of Jardim Antonio Borges | Azores | a reader's photograph, published | [live](https://ancienttrees.app/azores/giant-australian-rubber-tree-of-jardim-antonio-borges) |
+| 11-15 | B1 | Robert Louis Stevenson's Yew | Edinburgh | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/edinburgh/robert-louis-stevensons-yew) |
+| 11-15 | B1 | The Sitka Spruce at Scone Palace | Dunkeld | a reader's photograph, published | [live](https://ancienttrees.app/dunkeld/sitka-spruce-at-scone-palace) |
+| 11-15 | B1 | The Lytham Sweet Chestnut | Lytham | a reader's photograph, published | [live](https://ancienttrees.app/lytham/lytham-sweet-chestnut) |
+| 11-15 | F1 | The Geelong Ginkgo | Geelong | a reader's photograph, published | [live](https://ancienttrees.app/geelong/geelong-ginkgo) |
+| 11-15 | G1 | The Kyushaku-fuji of Byakugo-ji | Tamba | a reader's photograph, published | [live](https://ancienttrees.app/tamba/kyushaku-fuji-of-byakugo-ji) |
+| 11-15 | T | The Royal Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/royal-oak) |
+| 11-15 | T | The Windrush Square Plane | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/windrush-square-plane) |
+| 11-15 | G1 | The A-bombed Camphors of Sannō Shrine | Nagasaki | a reader's photograph, published | [live](https://ancienttrees.app/nagasaki/a-bombed-camphors-of-sanno-shrine) |
+| 11-15 | S1 | The Market Bosworth Yew | Market Bosworth | a reader's photograph, published | [live](https://ancienttrees.app/market-bosworth/market-bosworth-yew) |
+| 11-15 | T1 | Kett's Oak | Hethersett | a reader's photograph, published | [live](https://ancienttrees.app/hethersett/ketts-oak) |
+| 11-15 | G1 | The Pine of Ukimidō | Ōtsu | a reader's photograph, published | [live](https://ancienttrees.app/otsu/pine-of-ukimido) |
+| 11-15 | H1 | The Gnarled Beech of Hampstead Heath | London | a reader's photograph, published | [live](https://ancienttrees.app/london/gnarled-beech-of-hampstead-heath) |
+| 11-15 | U1 | The Giant of Mount Horne | Grenada | a reader's photograph, published | [live](https://ancienttrees.app/grenada/giant-of-mount-horne) |
+| 11-15 | I1 | The Sycamore at the Crum Creek Bridge | Willistown | a reader's photograph, published | [live](https://ancienttrees.app/willistown/sycamore-at-the-crum-creek-bridge) |
+| 11-15 | B1 | The Wheatley Elm of Balgreen | Edinburgh | a reader's photograph, published | [live](https://ancienttrees.app/edinburgh/wheatley-elm-of-balgreen) |
+| 11-15 | J1 | The Geashill Sequoia | Geashill | a reader's photograph, published | [live](https://ancienttrees.app/geashill/geashill-sequoia) |
+| 11-15 | K1 | The King of the Forest | Dunkeld | a reader's photograph, published | [live](https://ancienttrees.app/dunkeld/king-of-the-forest) |
+| 11-15 | M1 | The Plane of Çınar Sokak | Isparta | a reader's photograph, published | [live](https://ancienttrees.app/isparta/plane-of-cnar-sokak) |
+| 11-15 | R1 | Mariam Dearit | Keren | a reader's photograph, published | [live](https://ancienttrees.app/keren/mariam-dearit) |
+| 11-15 | V1 | The Pococke Plane | Oxford | a reader's photograph, published | [live](https://ancienttrees.app/oxford/pococke-plane) |
+| 11-15 | X1 | The Bundle-planted Sessile Oak, Bishops Knoll | Bristol | a reader's photograph, published | [live](https://ancienttrees.app/bristol/bundle-planted-sessile-oak-bishops-knoll) |
+| 11-15 | Y1 | The Hundred-Horse Chestnut | Sant'Alfio | a reader's photograph, published | [live](https://ancienttrees.app/santalfio/hundred-horse-chestnut) |
+| 11-15 | Z1 | Stara Maslina (Old Olive Tree of Mirovica) | Bar | a reader's photograph, published | [live](https://ancienttrees.app/bar/stara-maslina-old-olive-tree-of-mirovica) |
+| 11-15 | A2 | Waverley Abbey Yew | Farnham | a reader's photograph, published | [live](https://ancienttrees.app/farnham/waverley-abbey-yew) |
+| 11-15 | Q1 | The Autograph Tree | Gort | a reader's photograph, published | [live](https://ancienttrees.app/gort/autograph-tree) |
+| 11-15 | G1 | The Camphor of Atsuta Shrine | Nagoya | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/nagoya/camphor-of-atsuta-shrine) |
+| 11-15 | B2 | The Ficus of Piazza Marina | Palermo | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/palermo/ficus-of-piazza-marina) |
+| 11-15 | C2 | The Birnam Oak | Dunkeld | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dunkeld/birnam-oak) |
+| 11-15 | C2 | The Birnam Oak | Dunkeld | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dunkeld/birnam-oak) |
+| 11-15 | G1 | The Land Boat Pine | Kyoto | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/kyoto/land-boat-pine) |
+| 11-15 | D2 | The Cut-Leaved Hornbeam | York | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/york/cut-leaved-hornbeam) |
+| 11-15 | L2 | The Toogood Road Fig | Cairns | a reader's photograph, published | [live](https://ancienttrees.app/cairns/toogood-road-fig) |
+| 11-15 | K2 | The Old Olive of Exo Chora | Zakynthos | a reader's photograph, published | [live](https://ancienttrees.app/zakynthos/old-olive-of-exo-chora) |
+| 11-15 | K2 | The Fig on the Abraãozinho Trail | Ilha Grande | a reader's photograph, published | [live](https://ancienttrees.app/ilha-grande/fig-on-the-abraaozinho-trail) |
+| 11-15 | E2 | The Tarzan Tree | Algiers | a reader's photograph, published | [live](https://ancienttrees.app/algiers/tarzan-tree) |
+| 11-15 | E2 | The Elephant's Foot of Zapotitlán | Zapotitlán Salinas | a reader's photograph, published | [live](https://ancienttrees.app/zapotitlan-salinas/elephants-foot-of-zapotitlan) |
+| 11-15 | E2 | The Moved Giant Sequoia of Fort Boise Park | Boise | a reader's photograph, published | [live](https://ancienttrees.app/boise/moved-giant-sequoia-of-fort-boise-park) |
+| 11-15 | F2 | The Lewisham Elm | London | a reader's photograph, published | [live](https://ancienttrees.app/london/lewisham-elm) |
+| 11-15 | W1 | The Green Beeches of the Nieuwe Kerkhof | Groningen | a reader's photograph, published | [live](https://ancienttrees.app/groningen/green-beeches-of-the-nieuwe-kerkhof) |
+| 11-15 | G2 | The Weeping Beech of the Schwanenbrücke | Munich | a reader's photograph, published | [live](https://ancienttrees.app/munich/weeping-beech-of-the-schwanenbrucke) |
+| 11-15 | G2 | The Weeping Beech of the Schwanenbrücke | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/weeping-beech-of-the-schwanenbrucke) |
+| 11-15 | W1 | The Pollarded Lindens of the Pepergasthuis | Groningen | a reader's photograph, published | [live](https://ancienttrees.app/groningen/pollarded-lindens-of-the-pepergasthuis) |
+| 11-15 | H2 | The Brace Elm | Brighton | a reader's photograph, published | [live](https://ancienttrees.app/brighton/brace-elm) |
+| 11-15 | I2 | Tāne Mahuta | Waipoua Forest | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/waipoua-forest/tane-mahuta) |
+| 11-15 | F2 | The Evelyn Mulberry | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/evelyn-mulberry) |
+| 11-15 | E2 | The Cedars of the Konigsflugel | Bad Homburg | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/bad-homburg/cedars-of-the-konigsflugel) |
+| 11-15 | V1 | The Pococke Plane | Oxford | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/oxford/pococke-plane) |
+| 11-15 | J2 | Great Plane of Mottisfont | Mottisfont | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/mottisfont/great-plane-of-mottisfont) |
+| 11-15 | G2 | The Fern-leaved Beech of the Amalienburg | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/fern-leaved-beech-of-the-amalienburg) |
+| 11-15 | E2 | The Temple Tree of Landbohøjskolens Have | Copenhagen | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/copenhagen/temple-tree-of-landbohojskolens-have) |
+| 11-15 | E2 | El Drago Milenario | Tenerife | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/tenerife/el-drago-milenario) |
+| 11-15 | G2 | The Oak of the Dörfchen, Nymphenburg | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/oak-of-the-dorfchen-nymphenburg) |
+| 11-15 | G2 | The Oak of the Dörfchen, Nymphenburg | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/oak-of-the-dorfchen-nymphenburg) |
+| 11-15 | I2 | The Fortingall Yew | Fortingall | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/fortingall/fortingall-yew) |
+| 11-15 | R | Coldwaltham Yew | Coldwaltham | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/coldwaltham/coldwaltham-yew) |
+| 11-15 | E2 | El Árbol del Tule | Santa María del Tule | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/santa-maria-del-tule/el-arbol-del-tule) |
+| 11-15 | I1 | The Sycamore at the Crum Creek Bridge | Willistown | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/willistown/sycamore-at-the-crum-creek-bridge) |
+| 11-15 | K2 | The Gomero de la Recoleta | Buenos Aires | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/buenos-aires/gomero-de-la-recoleta) |
+| 11-15 | I2 | Tāne Mahuta | Waipoua Forest | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/waipoua-forest/tane-mahuta) |
+| 11-15 | I2 | Ashbrittle Yew | Ashbrittle | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/ashbrittle/ashbrittle-yew) |
+| 11-15 | P2 | Elku Linden of Valdemārpils (Linden of Sacrifice) | Valdemārpils | a reader's photograph, published | [live](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 11-15 | P2 | Elku Linden of Valdemārpils (Linden of Sacrifice) | Valdemārpils | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 11-15 | P2 | Elku Linden of Valdemārpils (Linden of Sacrifice) | Valdemārpils | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/valdemarpils/elku-linden-of-valdemarpils-linden-of-sacrifice) |
+| 11-15 | Q2 | Dab Mieszko I (King Mieszko I's Oak) | Warsaw | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/warsaw/dab-mieszko-i-king-mieszko-is-oak) |
+| 11-15 | R2 | The Pear-Barked Beech | York | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/york/pear-barked-beech) |
+| 11-15 | G2 | The Copper Beech of the Badenburg | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/copper-beech-of-the-badenburg) |
+| 11-15 | E2 | The Gomero de la Recoleta | Buenos Aires | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/buenos-aires/gomero-de-la-recoleta) |
+| 11-15 | G2 | The Fern-leaved Beech of the Amalienburg | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/fern-leaved-beech-of-the-amalienburg) |
+| 11-15 | Q2 | The Cardón of the Expo | Seville | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/seville/cardon-of-the-expo) |
+| 11-15 | G2 | The Leaning Lime of the Badenburger See | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/leaning-lime-of-the-badenburger-see) |
+| 11-15 | G2 | The Leaning Lime of the Badenburger See | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/leaning-lime-of-the-badenburger-see) |
+| 11-15 | I2 | The Fortingall Yew | Fortingall | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/fortingall/fortingall-yew) |
+| 11-15 | R2 | The Cut-Leaved Hornbeam | York | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/york/cut-leaved-hornbeam) |
+| 11-15 | R | The Bromley Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/bromley-oak) |
+| 11-15 | R | The Bromley Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/bromley-oak) |
+| 11-15 | G1 | The Great Cedar of Kasuga Taisha | Nara | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/nara/great-cedar-of-kasuga-taisha) |
+| 11-15 | S2 | The Weeping Beech of Helfenberg Park | Dresden | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dresden/weeping-beech-of-helfenberg-park) |
+| 11-15 | T2 | The Ficus of the Orto Botanico | Palermo | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/palermo/ficus-of-the-orto-botanico) |
+| 11-15 | S2 | The Kaditzer Linde | Dresden | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dresden/kaditzer-linde) |
+| 11-15 | Q2 | King Jan's Linden | Warsaw | a reader's photograph, published | [live](https://ancienttrees.app/warsaw/king-jans-linden) |
+| 11-15 | E2 | The Fern-leaved Beech of the National Gallery | Copenhagen | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/copenhagen/fern-leaved-beech-of-the-national-gallery) |
+| 11-15 | Z2 | The Anseman Oak | New Orleans | a reader's photograph, published | [live](https://ancienttrees.app/new-orleans/anseman-oak) |
+| 11-15 | Z2 | The Suicide Oak | New Orleans | a reader's photograph, published | [live](https://ancienttrees.app/new-orleans/suicide-oak) |
+| 11-15 | U2 | Wistman's Wood | Dartmoor | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dartmoor/wistmans-wood) |
+| 11-15 | U2 | Wistman's Wood | Dartmoor | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/dartmoor/wistmans-wood) |
+| 11-15 | G2 | The Weeping Beech of the Schwanenbrücke | Munich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/munich/weeping-beech-of-the-schwanenbrucke) |
+| 11-15 | W1 | The Mespilifolia Oak of Noorderplantsoen | Groningen | a reader's photograph, published | [live](https://ancienttrees.app/groningen/mespilifolia-oak-of-noorderplantsoen) |
+| 11-15 | W1 | The Oak of Martinikerkhof | Groningen | a reader's photograph, published | [live](https://ancienttrees.app/groningen/oak-of-martinikerkhof) |
+| 11-15 | W1 | The Green Beeches of the Nieuwe Kerkhof | Groningen | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/groningen/green-beeches-of-the-nieuwe-kerkhof) |
+| 11-15 | O | The Red Gum of Glynburn Road | Adelaide | a reader's photograph, published | [live](https://ancienttrees.app/adelaide/red-gum-of-glynburn-road) |
+| 11-15 | I2 | The Tall Tree | Humboldt Redwoods State Park | a reader's photograph, published | [live](https://ancienttrees.app/humboldt-redwoods-state-park/tall-tree) |
+| 11-15 | U2 | The Fig in Manaccan Church Wall | Manaccan | a reader's photograph, published | [live](https://ancienttrees.app/manaccan/fig-in-manaccan-church-wall) |
+| 11-15 | V2 | The Linton Yew | Linton, Herefordshire | a reader's photograph, published | [live](https://ancienttrees.app/linton-herefordshire/linton-yew) |
+| 11-15 | U2 | The Monterey Cypress over the Creek | Manaccan | a reader's photograph, published | [live](https://ancienttrees.app/manaccan/monterey-cypress-over-the-creek) |
+| 11-15 | L3 | The Fremont Tree | Santa Cruz | a reader's photograph, published | [live](https://ancienttrees.app/santa-cruz/fremont-tree) |
+| 11-15 | G3 | Rumskullaeken (the Kvill Oak) | Rumskulla | a reader's photograph, published | [live](https://ancienttrees.app/rumskulla/rumskullaeken-the-kvill-oak) |
+| 11-15 | W1 | The ANWB Linden of Wilhelminakade | Groningen | a reader's photograph, published | [live](https://ancienttrees.app/groningen/anwb-linden-of-wilhelminakade) |
+| 11-15 | J3 | The Oriental Plane of Landgoed Bantam | Hilversum | a reader's photograph, published | [live](https://ancienttrees.app/hilversum/oriental-plane-of-landgoed-bantam) |
+| 11-15 | K3 | The Hackberry of the Mura Latine | Rome | a reader's photograph, published | [live](https://ancienttrees.app/rome/hackberry-of-the-mura-latine) |
+| 11-15 | M3 | Te Matua Ngahere | Waipoua Forest | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/waipoua-forest/te-matua-ngahere) |
+| 11-15 | A3 | The Norwich Cathedral Cedar | Norwich | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/norwich/norwich-cathedral-cedar) |
+| 11-15 | D3 | The Fairchild Oak | Ormond Beach | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/ormond-beach/fairchild-oak) |
+| 11-15 | X3 | Ardkinglas Silver Fir, the Mightiest Conifer | Ardkinglas | a reader's photograph, published | [live](https://ancienttrees.app/ardkinglas/ardkinglas-silver-fir-the-mightiest-conifer) |
+| 11-15 | X3 | Ardkinglas Grand Fir | Ardkinglas | a reader's photograph, published | [live](https://ancienttrees.app/ardkinglas/ardkinglas-grand-fir) |
+| 11-15 | Y3 | Library Park Fig | Los Angeles | a reader's photograph, published | [live](https://ancienttrees.app/los-angeles/library-park-fig) |
+| 11-15 | J3 | The Variegated Maple of Coevorden Castle | Emmen | a reader's photograph, published | [live](https://ancienttrees.app/emmen/variegated-maple-of-coevorden-castle) |
+| 11-15 | O3 | The Twin Cypresses of the Parador | Granada | a reader's photograph, published | [live](https://ancienttrees.app/granada/twin-cypresses-of-the-parador) |
+| 11-15 | Z3 | Xemxija Old Carob Tree | Malta | a reader's photograph, published | [live](https://ancienttrees.app/malta/xemxija-old-carob-tree) |
+| 11-15 | O3 | The Plane Trees of the Circus | Bath | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/bath/plane-trees-of-the-circus) |
+| 11-15 | P3 | Endicott Pear Tree | Boston | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/boston/endicott-pear-tree) |
+| 11-15 | O3 | The Olive of the Orange Courtyard | Cordoba | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/cordoba/olive-of-the-orange-courtyard) |
+| 11-15 | O3 | The Orange Courtyard of the Mezquita | Cordoba | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/cordoba/orange-courtyard-of-the-mezquita) |
+| 11-15 | P3 | Jackson's Oak | Mobile | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/mobile/jacksons-oak) |
+| 11-15 | P3 | S'Olivera de Cort | Palma de Mallorca | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/palma-de-mallorca/solivera-de-cort) |
+| 11-15 | P3 | The Sunderland Buttonball Tree | Sunderland, Massachusetts | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/sunderland-massachusetts/sunderland-buttonball-tree) |
+| 11-16 | L | The Becks Prime Augusta Live Oaks | Houston | a reader's photograph, published | [live](https://ancienttrees.app/houston/becks-prime-augusta-live-oaks) |
+| 11-16 | L | The Old Pecan Tree | Houston | a reader's photograph, published | [live](https://ancienttrees.app/houston/old-pecan-tree) |
+| 11-16 | M | The Kapok Tree | Key West | a reader's photograph, published | [live](https://ancienttrees.app/key-west/kapok-tree) |
+| 11-16 | N | The Rhodes Bald Cypress | Richard Bong State Recreation Area | a reader's photograph, published | [live](https://ancienttrees.app/richard-bong-state-recreation-area/rhodes-bald-cypress) |
+| 11-16 | A | The Borrowdale Yews (the Fraternal Four) | Borrowdale | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/borrowdale/borrowdale-yews-the-fraternal-four) |
+| 11-16 | C | The Angel Oak | Charleston | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/charleston/angel-oak) |
+| 11-16 | B | Ahuehuete de Parque Espana | Mexico City | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/mexico-city/ahuehuete-de-parque-espana) |
+| 11-16 | B | Ahuehuete de Parque Espana | Mexico City | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/mexico-city/ahuehuete-de-parque-espana) |
+| 11-15 | B4 | Faux de Verzy | Reims | a reader's tree changed the page | - |
+| 11-15 | C4 | Wyndham's Oak | Gillingham, Dorset | a reader's tree changed the page | - |
+| 11-15 | Q1 | The picture card perfect pines in Connamara | Connamara | a reader's tree changed the page | - |
+| 11-15 | D4 | The Master Oak | Stanmore | a reader's tree changed the page | - |
+| 11-15 | Z | - | - | a reader's feedback changed the page | - |
+| 11-15 | E4 | The Zaandam wingnut | Zaandam | a reader's tree changed the page | - |
+| 11-15 | N1 | Old Knobbley | Essex, Mistley | a reader's tree changed the page | - |
+- From 73 readers: reader G2 10, reader E2 9, reader T 7, reader G1 6, reader I2 6, reader W1 6, reader B1 5, reader O3 4, reader P3 4, reader R 4, reader U2 4, reader A4 3, reader K2 3, reader P2 3, reader Q2 3, reader B 2, reader C2 2, reader F2 2, reader I1 2, reader J3 2, reader L 2, reader O 2, reader Q1 2, reader R2 2, reader S2 2, reader U 2, reader V1 2, reader X3 2, reader Z 2, reader Z2 2, reader A 1, reader A1 1, reader A2 1, reader A3 1, reader B2 1, reader B4 1, reader C 1, reader C1 1, reader C4 1, reader D2 1, reader D3 1, reader D4 1, reader E4 1, reader F1 1, reader G3 1, reader H1 1, reader H2 1, reader J1 1, reader J2 1, reader K1 1, reader K3 1, reader L2 1, reader L3 1, reader M 1, reader M1 1, reader M3 1, reader N 1, reader N1 1, reader P 1, reader R1 1, reader S 1, reader S1 1, reader T1 1, reader T2 1, reader U1 1, reader V 1, reader V2 1, reader X 1, reader X1 1, reader Y1 1, reader Y3 1, reader Z1 1, reader Z3 1.
+
+**What was sent in, and what we decided**
+
+| seen | what | where | size for its species | ours | Hidde |
+|---|---|---|---|---|---|
+| 2026-11-16 | Ahuehuete de Parque Espana | Mexico City | - | publish | - |
+| 2026-11-16 | Eastern Cottonwood | - | - | open | - |
+| 2026-11-16 | Baobab | - | - | open | - |
+| 2026-11-15 | River Red Gum | - | - | publish | - |
+| 2026-11-15 | Giant Australian Rubber Tree of Jardim | Azores | - | publish | - |
+| 2026-11-15 | A tree I found | - | - | hold | - |
+| 2026-11-15 | The Weeping Beech of the Schwanenbrück | Munich | - | publish | - |
+| 2026-11-15 | El Drago Milenario | Tenerife | - | publish | - |
+| 2026-11-15 | The Oak of the Dörfchen, Nymphenburg | Munich | - | publish | - |
+| 2026-11-15 | Coldwaltham Yew | Coldwaltham | - | publish | - |
+| 2026-11-15 | The Sycamore at the Crum Creek Bridge | Willistown | - | publish | - |
+| 2026-11-15 | Tāne Mahuta | Waipoua Forest | - | publish | - |
+| 2026-11-15 | The Fern-leaved Beech of the Amalienbu | Munich | - | publish | - |
+| 2026-11-15 | The Fortingall Yew | Fortingall | - | publish | - |
+| 2026-11-15 | The Bromley Oak | London | - | publish | - |
+
+35 waiting for a verdict. Disagree with one and the rule changes: `python3 scripts/judgement.py --feedback <id> "..."`, and `--learn` prints every verdict he has overruled.
+
+**Searched yesterday:** london (35 times), bristol (15 times), berlin (14 times), lond (14 times), lon (11 times), dublin (9 times), edinburgh (9 times), manchester (8 times), oxford (8 times), sheff (8 times), cambridge (7 times), cardiff (7 times), glasgow (7 times), norwich (7 times), paris (6 times), bath (5 times), chichester (5 times), edin (5 times), exeter (5 times), sheffield (5 times).
+
+**App crashes** (last 7 days, store builds; MetricKit, a sample)
+
+| Crashes | Kind | Build | Where | Phones | Last | Fix |
+|---:|---|---|---|---:|---|---|
+| 1 | crash | 1.0.4 (41) | (no AncientTrees frame) | 1 | 2026-11-15 | none |
+
+**Search**
+
+Google, the last 10 days it will give us (2-3 days behind; the newest row is still filling, so it reads better than it is):
+
+| Day | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| 11-06 | 1 | 35 | 2.9% | 36.6 |
+| 11-07 | 2 | 34 | 5.9% | 38.3 |
+| 11-08 | 25 | 1013 | 2.5% | 9.1 |
+| 11-09 | 28 | 1177 | 2.4% | 8.9 |
+| 11-10 | 8 | 196 | 4.1% | 13.0 |
+| 11-11 | 1 | 16 | 6.2% | 22.1 |
+| 11-12 | 1 | 28 | 3.6% | 31.4 |
+| 11-13 | 1 | 32 | 3.1% | 55.0 |
+| 11-14 | 0 | 51 | 0.0% | 57.7 |
+| 11-15 *partial* | 182 | 303 | 60.1% | 5.5 |
+| **window** | **249** | **2885** | **8.6%** | |
+- Top queries (10d): ancient trees app (i190, p1); ancient trees (i14, p30); ancient tree app (i1, p1); skovfogedegen (i1, p4); 2 quai saint bernard 75005 paris (i1, p91)
+**What Bing shows and sends** (last 7 days with data, Bing Webmaster Tools)
+
+| Day | Impressions | Clicks | CTR |
+|---|---:|---:|---:|
+| 11-07 | 80 | 7 | 8.8% |
+| 11-08 | 126 | 9 | 7.1% |
+| 11-09 | 151 | 4 | 2.6% |
+| 11-10 | 136 | 9 | 6.6% |
+| 11-11 | 97 | 7 | 7.2% |
+| 11-12 | 190 | 4 | 2.1% |
+| 11-13 | 125 | 5 | 4.0% |
+| **7 days** | **905** | **45** | **5.0%** |
+- **BING WATCHDOG:** impressions fell from 2953 to 905 week on week. That is the shape of a demotion; read the Bing Webmaster dashboard today.
+- Top Bing queries: oldest tree china (c8/i4, p12); platane du square des batignolles (c4/i2, p1); picture of the tree in helsinki city center that was preserved (c3/i2, p4); ancient trees app (c2/i8, p5); who planted the western red cedar tree in blarney ireland (c2/i8, p2); fig tree in square alicante (c2/i4, p4); palma del cile (c2/i2, p6); cipresso calvo indro montanelli milano (c2/i2, p8)
+- Bing alone, from Bing Webmaster Tools. DuckDuckGo and Yahoo draw on the same index and publish no numbers. Bing's data lags about two days.
+
+**Monday: the slow tables.** They rarely change a day's decision, so they come once a week.
+
+**Website actions, ever** (the events table begins 2026-08-01, when the funnel was repaired; a zero has never fired at all)
+
+| Action | Ever |
+|---|---:|
+| app-cta | 383 |
+| search-home | 176 |
+| waitlist-submit | 86 |
+| search-bar | 16 |
+| search-none-home | 16 |
+| home-country | 14 |
+| signin-open | 12 |
+| home-visitors | 11 |
+| search-explore | 11 |
+| home-fav | 11 |
+| search-bar-m | 9 |
+| app-open | 7 |
+| empty-place-add | 6 |
+| share_tapped | 6 |
+| home-oldest | 5 |
+| search-empty-home | 5 |
+| signin-oauth | 5 |
+| signin-done | 4 |
+| directions | 3 |
+| search-none-explore | 3 |
+| share_arrived | 2 |
+| suggestion-submit | 2 |
+| home-dir-city | 1 |
+| home-dir-collection | 1 |
+| home-park | 1 |
+| plus-open | 1 |
+| search-empty-bar | 1 |
+| search-empty-bar-m | 1 |
+| search-none-bar | 1 |
+| save | 0 |
+| signin-link-sent | 0 |
+| worthit-not worth it | 0 |
+| worthit-worth it | 0 |
+| **all** | **800** |
+
+**App events, ever** (measured since 2026-08-30)
+
+| What | Ever |
+|---|---:|
+| app_open | 5229 |
+| tab | 3091 |
+| tree_opened | 10332 |
+| directions | 262 |
+| tree_saved | 278 |
+| tree_visited | 145 |
+| sighting_recorded | 318 |
+| sync_skipped | 0 |
+| sync_failed | 0 |
+| location | 3899 |
+| share_tapped | 103 |
+| plus-open | 62 |
+| plus-answer | 3 |
+| plus-tellme | 1 |
+| **all** | **23723** |
+
+**What readers told us** (7 days, structure only; the words stay in the database)
+
+| Day | Tree | What | Note | From | Outcome |
+|---|---|---|---|---|---|
+| 11-13 | The Oak of Villa Salina Park | tree sent in | 1338 chars, read it in the database | 7e0c | - |
+| 11-15 | exe_002 (Kenn Yew) | worth it | - | 166b | - |
+| 11-15 | exe_001 (Heavitree Yew) | worth it | - | 166b | - |
+| 11-15 | dmr_001 (Wistman's Wood) | worth it | - | 166b | - |
+| 11-15 | Veteran Lime (Linden) Tree | tree sent in | 114 chars, read it in the database | 0493 | - |
+| 11-15 | 45EA816D-259F-4437-AC86-D3499F0269 | tree sent in | - | a926 | - |
+| 11-15 | 2733129B-FA14-4FE4-9F30-7BA889CA94 | tree sent in | 1504 chars, read it in the database | 9e00 | - |
+| 11-15 | cwh_001 (Coldwaltham Yew) | worth it | - | 90a6 | - |
+| 11-15 | AAC60386-7889-4A79-831D-3B506278D4 | tree sent in | 1036 chars, read it in the database | a926 | open_question |
+| 11-15 | The Master Oak | tree sent in | 201 chars, read it in the database | 6d34 | changed |
+| 11-15 | BC20D71A-11EA-4180-AD6F-78EC11B24D | tree sent in | 23 chars, read it in the database | 4e29 | - |
+| 11-15 | 6ACE68F9-6CA3-470C-9511-7E55975FB2 | tree sent in | - | 7159 | - |
+| 11-15 | 1C15666F-2956-4FF6-A73D-EE3A44045C | tree sent in | 71 chars, read it in the database | 4ade | open_question |
+| 11-15 | kef_001 (The Plane of Saint Gerasi | worth it | - | 7413 | - |
+| 11-15 | 24FDCCB3-A454-4556-8169-2BAD2FB36A | tree sent in | - | 1388 | - |
+| 11-15 | Ancient Lappa plane tree | tree sent in | 409 chars, read it in the database | e4c8 | - |
+| 11-15 | kly_001 (The Muckross Abbey Yew) | worth it | - | 7413 | - |
+| 11-15 | azo_005 (Giant Norfolk Island Pine | worth it | - | fc13 | - |
+| 11-15 | Edinburgh | ambassador request | - | d892 | - |
+| 11-15 | gnv_011 (The Bunya Pine of Villa G | worth it | - | fc13 | - |
+| 11-15 | edi_021 (The Redford Wood Redwood) | worth it | - | f924 | - |
+| 11-15 | The Redford Wood Redwood | correction sent in | 92 chars, read it in the database | f924 | - |
+| 11-15 | edi_017 (Robert Louis Stevenson's  | worth it | - | f924 | - |
+| 11-15 | The Old banyan at the office of Nh | tree sent in | 42 chars, read it in the database | da7c | open_question |
+| 11-15 | Robert Louis Stevenson's Yew | correction sent in | 91 chars, read it in the database | f924 | - |
+| 11-15 | - | Hello great app. I saw two magnifi | 203 chars | fc13 | changed |
+| 11-15 | Deans Oak | tree sent in | 176 chars, read it in the database | 4c15 | holds |
+| 11-15 | FFA15EB0-3701-46B0-9F53-84281B66B9 | tree sent in | - | f924 | - |
+| 11-15 | E65D75DD-6D74-40DC-8840-A803969430 | tree sent in | 181 chars, read it in the database | ecda | - |
+| 11-15 | E731E63C-5E9A-4490-BA4C-B47F30AA22 | tree sent in | - | f924 | - |
+| 11-15 | 71F93157-AEF9-41A4-AF61-E1AD9755F9 | tree sent in | - | f924 | - |
+| 11-15 | A tree I found | correction sent in | 89 chars, read it in the database | f924 | - |
+| 11-15 | A giant sequoia | tree sent in | 101 chars, read it in the database | 7091 | open_question |
+| 11-15 | ams_020 (The Leopold Maple of Wert | worth it | - | 05b3 | - |
+| 11-15 | lon_041 (The St Mary Magdalene Pla | worth it | - | d0cf | - |
+| 11-15 | lon_012 (The Amwell Street Fig) | worth it | - | d0cf | - |
+| 11-15 | lon_016 (The Great Plane of Brunsw | worth it | - | d0cf | - |
+| 11-15 | mcr_002 (Adam's Laburnum) | worth it | - | 5c93 | - |
+| 11-15 | mcr_004 (The Variegated Green Ash) | worth it | - | 5c93 | - |
+| 11-15 | tmb_002 (The Kyushaku-fuji of Byak | worth it | - | cd40 | - |
+| 11-15 | Ancient eastern plane tree on Çına | tree sent in | 28 chars, read it in the database | c208 | - |
+| 11-15 | London | ambassador request | - | c223 | - |
+| 11-15 | pal_001 (The Ficus of Piazza Marin | worth it | - | b349 | - |
+| 11-15 | Faux de Verzy | tree sent in | 68 chars, read it in the database | 3d7f | changed |
+| 11-15 | The Zaandam wingnut | tree sent in | 224 chars, read it in the database | 9bad | changed |
+| 11-15 | 60DAA5DB-07E5-48D7-BE3D-04C5684D70 | tree sent in | 774 chars, read it in the database | cd40 | - |
+| 11-15 | 8F172F80-82AD-44E0-B6D5-394C56C136 | tree sent in | 269 chars, read it in the database | c1c3 | - |
+| 11-15 | 0A0CBD5B-D255-4748-A4F8-13CAD39A04 | tree sent in | - | 3669 | - |
+| 11-15 | C3BC464B-C6E2-4EF3-8E24-471E4E4E92 | tree sent in | - | c1c3 | - |
+| 11-15 | frn_001 (Waverley Abbey Yew) | worth it | - | d177 | - |
+| 11-15 | Old Knobbley | tree sent in | 19 chars, read it in the database | 63b2 | changed |
+| 11-15 | F3F121F2-3FFA-4CC5-8A06-D06DFF70F7 | tree sent in | 226 chars, read it in the database | cd40 | - |
+| 11-15 | sal_001 (The Hundred-Horse Chestnu | worth it | - | e8ea | - |
+| 11-15 | mtn_001 (Stara Maslina (Old Olive  | worth it | - | a9fd | - |
+| 11-15 | The Pear-Barked Beech | correction sent in | 91 chars, read it in the database | 4b6f | - |
+| 11-15 | 34C8442D-A040-44EC-8182-989D8D9F1F | tree sent in | 49 chars, read it in the database | 7d11 | - |
+| 11-15 | CFD86B34-8ABD-47E1-B301-A3501DFA4A | tree sent in | 21 chars, read it in the database | 25b4 | - |
+| 11-15 | Tule Tree - cypress | tree sent in | 22 chars, read it in the database | 1fce | holds |
+| 11-15 | lgy_001 (The Llangernyw Yew) | worth it | - | 4d80 | - |
+| 11-15 | zur_002 (Alfred Escher's Giant Seq | worth it | - | 2494 | - |
+| 11-15 | D28A8330-7F37-49A3-AF29-B9CF48BB31 | tree sent in | 89 chars, read it in the database | 43af | - |
+| 11-15 | Giant sequoia in Geashill | correction sent in | 89 chars, read it in the database | 43af | - |
+| 11-15 | F754324B-C7EA-4A2A-A366-5BF9C3F220 | tree sent in | 464 chars, read it in the database | 43af | - |
+| 11-15 | Tree in Waitangi | tree sent in | 4 chars, read it in the database | 9014 | - |
+| 11-15 | FBDFF0D4-6A3B-4BDC-9E85-3A5AF160D7 | tree sent in | 122 chars, read it in the database | 3471 | - |
+| 11-15 | 3580EF91-02E7-45A1-BD3D-C8B5673E1A | tree sent in | 458 chars, read it in the database | 43af | - |
+| 11-15 | Media | ambassador request | - | 3471 | - |
+| 11-15 | The King of the Forest | correction sent in | 91 chars, read it in the database | fbfa | - |
+| 11-15 | Wheatley Elm in Edinburgh | correction sent in | 88 chars, read it in the database | f924 | - |
+| 11-15 | 45248B7C-02B4-4B01-BF83-0DD8B4C6FD | tree sent in | 31 chars, read it in the database | f924 | - |
+| 11-15 | Wyndham's Oak | tree sent in | 50 chars, read it in the database | e061 | changed |
+| 11-15 | The Great Oriental Plane Tree, Emm | tree sent in | 352 chars, read it in the database | 6594 | holds |
+| 11-15 | The picture card perfect pines in  | tree sent in | 36 chars, read it in the database | d431 | changed |
+| 11-15 | FDA250F8-3D69-4814-98FE-D2AA828E3A | tree sent in | 108 chars, read it in the database | fbfa | - |
+| 11-15 | Mariam Dearit (also known as the M | tree sent in | 284 chars, read it in the database | e00d | - |
+| 11-15 | sfo_001 (Uncle John's Tree) | worth it | - | 9646 | - |
+| 11-15 | oxf_004 (The Pococke Plane) | worth it | - | 4817 | - |
+| 11-15 | 3F2218EF-F368-4EC1-95B5-A1EA20E4B7 | tree sent in | - | 1ffd | - |
+| 11-15 | 4DDFAF86-EDD9-4511-9136-381775BC10 | tree sent in | - | e1ef | - |
+| 11-15 | - | I mistakenly added Tane Mahuta to  | - | e1ef | holds |
+| 11-15 | for_001 (The Fortingall Yew) | worth it | - | e1ef | - |
+| 11-15 | wai_001 (Tāne Mahuta) | worth it | - | e1ef | - |
+| 11-15 | asb_001 (Ashbrittle Yew) | worth it | - | e1ef | - |
+| 11-15 | 53809B69-6932-4E7A-8637-7DC2493811 | tree sent in | - | e1ef | - |
+| 11-15 | Marton Oak | correction sent in | 89 chars, read it in the database | e1ef | - |
+| 11-15 | 5EBFB2E9-B400-49F6-9383-68ED78F7A7 | tree sent in | - | 67f2 | - |
+| 11-15 | Malmö | tree sent in | 79 chars, read it in the database | bb13 | - |
+| 11-15 | The Brace Elm | correction sent in | 91 chars, read it in the database | 4546 | - |
+| 11-15 | bhm_002 (The Brace Elm) | worth it | - | 4546 | - |
+| 11-15 | 03075F0D-FBC2-4688-A90C-D8B21B4846 | tree sent in | - | 95e4 | - |
+| 11-15 | 95787CB8-C8C0-479F-896C-364441D93E | tree sent in | - | 95e4 | - |
+| 11-15 | 24E1A766-4FF4-4C15-8CAC-F080514DEC | correction sent in | 62 chars, read it in the database | 95e4 | - |
+| 11-15 | mtf_001 (Great Plane of Mottisfont | worth it | - | c1c2 | - |
+| 11-15 | cop_001 (The Mulberry of Proviantg | worth it | - | d91e | - |
+| 11-15 | cop_001 (The Mulberry of Proviantg | vote undone | worth it | d91e | - |
+| 11-15 | tul_001 (El Árbol del Tule) | worth it | - | d91e | - |
+| 11-15 | tfe_001 (El Drago Milenario) | worth it | - | d91e | - |
+| 11-15 | boi_002 (The Moved Giant Sequoia o | worth it | - | d91e | - |
+| 11-15 | cop_005 (The Temple Tree of Landbo | worth it | - | d91e | - |
+| 11-15 | cad_001 (The Ficus of Alameda Apod | worth it | - | 8f9e | - |
+| 11-15 | muc_013 (The Fern-leaved Beech of  | worth it | - | b26f | - |
+| 11-15 | 224B5518-E50E-4C58-A616-A79CDDC0DB | tree sent in | - | d91e | - |
+| 11-15 | bhg_001 (The Cedars of the Konigsf | worth it | - | d91e | - |
+| 11-15 | muc_007 (The Oak of the Dörfchen,  | worth it | - | b26f | - |
+| 11-15 | B6C42A88-4F55-4E46-89F5-1ACDF57038 | tree sent in | - | 1825 | - |
+| 11-15 | E229A150-5543-4042-992C-6F98125AFA | tree sent in | - | d91e | - |
+| 11-15 | bai_001 (The Gomero de la Recoleta | worth it | - | d91e | - |
+| 11-15 | muc_014 (The Weeping Beech of the  | worth it | - | b26f | - |
+| 11-15 | vld_001 (Elku Linden of Valdemārpi | worth it | - | 2aa4 | - |
+| 11-15 | - | In 2002, UK charity The Tree Counc | - | 2c2d | - |
+| 11-15 | yor_002 (The Cut-Leaved Hornbeam) | worth it | - | 3c01 | - |
+| 11-15 | dre_005 (The Kaditzer Linde) | worth it | - | c05d | - |
+| 11-15 | dre_005 (The Kaditzer Linde) | vote undone | worth it | c05d | - |
+| 11-15 | dre_005 (The Kaditzer Linde) | worth it | - | c05d | - |
+| 11-15 | FE8FC7E4-9E16-48B5-96C0-E8C2AF7A02 | tree sent in | - | 7009 | - |
+| 11-15 | Dawn Redwood in Toronto | correction sent in | 89 chars, read it in the database | 7009 | - |
+| 11-15 | pal_003 (The Ficus of the Orto Bot | worth it | - | 3fcf | - |
+| 11-15 | Dawn Redwood in Toronto | correction sent in | 89 chars, read it in the database | 7009 | - |
+| 11-15 | war_001 (Dab Mieszko I (King Miesz | worth it | - | c922 | - |
+| 11-15 | sev_044 (The Cardón of the Expo) | worth it | - | c922 | - |
+| 11-15 | The Monterey Pine at the Gates | correction sent in | 91 chars, read it in the database | 547d | - |
+| 11-15 | war_007 (King Jan's Linden) | worth it | - | c922 | - |
+| 11-15 | Oak tree, Quercus Robur. | tree sent in | 51 chars, read it in the database | 6d78 | - |
+| 11-15 | Giant Tree | correction sent in | 90 chars, read it in the database | e1ef | - |
+| 11-15 | ED5BD210-4A52-4FE2-90A8-F121559EF7 | tree sent in | 30 chars, read it in the database | e1ef | - |
+| 11-15 | The Husalle Lindens | correction sent in | 29 chars, read it in the database | d91e | - |
+| 11-15 | 64E94530-A55E-4174-B649-85EDA345DB | tree sent in | - | e1ef | - |
+| 11-15 | Black Mulberry | tree sent in | 70 chars, read it in the database | 9b0b | - |
+| 11-15 | 7547CFA4-55B8-4F9E-ACAB-06372DF4A3 | tree sent in | 378 chars, read it in the database | a4b2 | - |
+| 11-15 | A0F1F73D-FF2F-4A30-B958-2BB1ACF20A | tree sent in | - | 9f7b | - |
+| 11-15 | ank_001 (The Ankerwycke Yew) | worth it | - | a4b2 | - |
+| 11-15 | Common Fig | correction sent in | 89 chars, read it in the database | 9f7b | - |
+| 11-15 | cwh_001 (Coldwaltham Yew) | report | something else | 19a7 | - |
+| 11-15 | cwh_001 (Coldwaltham Yew) | report detail | 221 chars | 19a7 | - |
+| 11-15 | cwh_001 (Coldwaltham Yew) | report | something else | 19a7 | - |
+| 11-15 | B27E5E37-779C-4373-872E-6DA86D1C30 | tree sent in | 71 chars, read it in the database | 9f7b | - |
+| 11-15 | cwh_001 (Coldwaltham Yew) | report detail | 146 chars | 19a7 | - |
+| 11-15 | Cedar of Lebanon | tree sent in | 27 chars, read it in the database | 02da | - |
+| 11-15 | Douglas fir | tree sent in | 110 chars, read it in the database | 02da | - |
+| 11-15 | FC04D59E-BB37-4B00-B069-2A4D28EBCF | tree sent in | - | 19a7 | - |
+| 11-15 | Metrosideros (Metrosideros excelsu | tree sent in | 117 chars, read it in the database | 4bcd | - |
+| 11-15 | E1144BEA-FD53-4CC6-A71F-D523C763F6 | tree sent in | - | 6051 | - |
+| 11-15 | FBCB3C91-41F0-48D9-B573-F37E63AD01 | tree sent in | - | 6051 | - |
+| 11-15 | 1306C000-ED52-40F3-AD73-C6F414C5DB | tree sent in | 35 chars, read it in the database | 4136 | - |
+| 11-15 | nol_005 (The Suicide Oak) | worth it | - | dc5b | - |
+| 11-15 | 8E99752E-A501-45C2-8247-AB981C9604 | tree sent in | 29 chars, read it in the database | 88eb | - |
+| 11-15 | A tree near Edinburgh | correction sent in | 90 chars, read it in the database | ac28 | - |
+| 11-15 | 460C96B9-89E2-41AC-A829-EC911BE11E | tree sent in | 97 chars, read it in the database | ac28 | - |
+| 11-15 | bri_016 (The Bundle-planted Sessil | worth it | - | 2ce8 | - |
+| 11-15 | bri_016 (The Bundle-planted Sessil | vote undone | worth it | 2ce8 | - |
+| 11-15 | bri_016 (The Bundle-planted Sessil | worth it | - | 2ce8 | - |
+| 11-15 | Southern Live Oak | correction sent in | 90 chars, read it in the database | 8726 | - |
+| 11-15 | 0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC | tree sent in | - | 8726 | - |
+| 11-15 | A6D28625-B0FB-469F-8653-84FF735DAD | tree sent in | - | 6ec2 | - |
+| 11-15 | BF30B7A2-FE72-4E2F-BEEB-7757E1E917 | tree sent in | 18 chars, read it in the database | 6ec2 | - |
+| 11-15 | 2186BB95-6054-4154-B6D9-C75CB1FCA1 | tree sent in | - | 6ec2 | - |
+| 11-15 | C7DCA666-5183-4987-B585-0F10639B5C | tree sent in | - | 6ec2 | - |
+| 11-15 | ED0A19ED-93E1-42E9-8A50-FCAA0420BD | tree sent in | 279 chars, read it in the database | 7d27 | - |
+| 11-15 | hil_001 (The Oriental Plane of Lan | worth it | - | ed99 | - |
+| 11-15 | Arbour Oak | tree sent in | 564 chars, read it in the database | 30b8 | - |
+| 11-15 | scz_002 (The Fremont Tree) | worth it | - | ea37 | - |
+| 11-15 | wai_002 (Te Matua Ngahere) | worth it | - | 74c9 | - |
+| 11-15 | Auckland | ambassador request | - | 74c9 | - |
+| 11-15 | rkm_001 (Rumskullaeken (the Kvill  | worth it | - | 59bc | - |
+| 11-15 | ank_001 (The Ankerwycke Yew) | not worth it | - | 9b3c | - |
+| 11-15 | B2B14047-08E5-447F-A435-3A4F137809 | tree sent in | 144 chars, read it in the database | 59bc | - |
+| 11-15 | 0B0D29FA-BC94-48A7-8014-4D103452C1 | tree sent in | 114 chars, read it in the database | 9b3c | - |
+| 11-15 | 2AB16C0E-AEAA-401D-9120-B884E8C85E | tree sent in | - | 9b3c | - |
+| 11-15 | D8EDD734-1E64-45CB-AFE4-47A85A4D80 | tree sent in | - | 9b3c | - |
+| 11-15 | - | I was wondering if we could submit | - | acda | - |
+| 11-15 | Oliveira de Mouchão, oldest olive  | tree sent in | 226 chars, read it in the database | 05fb | - |
+| 11-15 | kly_001 (The Muckross Abbey Yew) | worth it | - | 27c8 | - |
+| 11-15 | kly_001 (The Muckross Abbey Yew) | vote undone | worth it | 27c8 | - |
+| 11-15 | akw_002 (Ardkinglas Silver Fir, th | worth it | - | 19ce | - |
+| 11-15 | 4B1E4321-165C-4742-B645-6EC065F309 | tree sent in | 327 chars, read it in the database | 7938 | - |
+| 11-15 | akw_001 (Ardkinglas Grand Fir) | worth it | - | 19ce | - |
+| 11-15 | 2EC0418A-AC10-4C61-9DAF-A287193AE9 | tree sent in | 217 chars, read it in the database | af61 | - |
+| 11-15 | F1FAA5F9-5750-4863-8920-2CE31BF5D0 | tree sent in | - | bf55 | - |
+| 11-15 | D291140E-1665-4036-A4CB-E826D8FF63 | tree sent in | - | bf55 | - |
+| 11-15 | A9F9EB8D-F3C2-4146-94A2-AFE4FE3291 | tree sent in | - | bf55 | - |
+| 11-15 | B59C4873-FD0A-4A92-A0D0-08074938E8 | correction sent in | 219 chars, read it in the database | bf55 | - |
+| 11-15 | Yang Na of the City Pillar, Wat Ch | correction sent in | 169 chars, read it in the database | bf55 | - |
+| 11-15 | 20D04DFD-E398-4533-A42D-B1385D2A6F | tree sent in | - | bf55 | - |
+| 11-15 | bos_013 (Endicott Pear Tree) | worth it | - | 7aae | - |
+| 11-15 | lnt_001 (The Linton Yew) | worth it | - | a4b2 | - |
+| 11-15 | snd_001 (The Sunderland Buttonball | worth it | - | 7aae | - |
+| 11-15 | mob_003 (Jackson's Oak) | worth it | - | 7aae | - |
+| 11-15 | C476F81B-3871-4273-9E0A-F4F21AE2B5 | tree sent in | - | ceea | - |
+| 11-15 | plm_001 (S'Olivera de Cort) | worth it | - | 7aae | - |
+| 11-15 | 1215C9AD-3B03-438C-A3C4-74F631633F | tree sent in | - | ceea | - |
+| 11-15 | Il cipresso calvo di Villa Smerald | tree sent in | 621 chars, read it in the database | 7e0c | - |
+| 11-15 | boz_001 (The Linden of Linn) | worth it | - | b593 | - |
+| 11-15 | 340D13E5-D031-448E-9595-DAFF201BBB | tree sent in | - | fc4b | - |
+| 11-15 | A7751610-E6BC-4DC1-96F6-63005EF4F2 | tree sent in | - | 7050 | - |
+| 11-15 | Quercia di Molinazzo | tree sent in | 1180 chars, read it in the database | 7e0c | - |
+| 11-15 | 7FF97B69-76B5-4905-80C2-7C7E901C31 | tree sent in | - | 7050 | - |
+| 11-15 | F249D2AC-4E34-4BDF-9919-626A212DE1 | tree sent in | 221 chars, read it in the database | e1ef | - |
+| 11-15 | 24C1E280-6404-4056-AF86-C3AC625D6E | tree sent in | 654 chars, read it in the database | 8ced | - |
+| 11-15 | it only works on Iphone | correction sent in | 39 chars, read it in the database | 34ff | - |
+| 11-15 | European Yew near Wilmington | correction sent in | 90 chars, read it in the database | 7050 | - |
+| 11-15 | Pedunculate Oak | correction sent in | 89 chars, read it in the database | 7050 | - |
+| 11-15 | 62A9482B-A105-4572-B6CA-15DF5C7392 | tree sent in | - | 934c | - |
+| 11-15 | Melbourne | ambassador request | - | c873 | - |
+| 11-15 | 51D98942-7DBA-4D70-9DDD-17263958DD | tree sent in | - | 3e41 | - |
+| 11-15 | C7962FE1-14DB-407A-B62F-CFA6175806 | tree sent in | 17 chars, read it in the database | 3e41 | - |
+| 11-15 | FF8F7EAC-05BB-4474-A1BF-B44629A370 | tree sent in | - | 3e41 | - |
+| 11-16 | kyw_003 (The Kapok Tree) | worth it | - | a5cf | - |
+| 11-16 | Toronto | ambassador request | - | e54e | - |
+| 11-16 | 3DFEEF4F-6A2A-474A-ABAA-B0594C7410 | tree sent in | - | 3fdc | - |
+| 11-16 | F81EAEAA-49A5-464A-B5FD-18CAD1C749 | tree sent in | - | 1825 | - |
+| 11-16 | 7B8B90C6-507C-46CC-9FE8-1366F7A953 | tree sent in | - | 1825 | - |
+| 11-16 | E34C7308-6FCC-45CF-AFCA-1A9CDBF20D | tree sent in | - | 1825 | - |
+| 11-16 | CB8B4EBE-74CA-4641-A139-533B41A7E3 | tree sent in | - | 1825 | - |
+| 11-16 | 2C03D56E-6192-4FAE-9A95-94E41B042E | tree sent in | - | 1825 | - |
+| 11-16 | 47730065-758C-46DC-B4BA-E0E3E353C3 | tree sent in | 37 chars, read it in the database | 6f92 | - |
+| 11-16 | hou_002 (The Old Pecan Tree) | worth it | - | ae40 | - |
+| 11-16 | hou_002 (The Old Pecan Tree) | vote undone | worth it | ae40 | - |
+| 11-16 | hou_002 (The Old Pecan Tree) | worth it | - | ae40 | - |
+| 11-16 | hou_009 (The Becks Prime Augusta L | worth it | - | ae40 | - |
+| 11-16 | 9CDC79F8-530A-48D5-B9EA-C51D1F28D5 | tree sent in | 67 chars, read it in the database | de08 | - |
+| 11-16 | 0269D848-F4E2-40DB-9157-8F6F951A34 | tree sent in | - | 6f92 | - |
+| 11-16 | Boab | correction sent in | 89 chars, read it in the database | de08 | - |
+| 11-16 | 6BB3D492-EA79-4B08-8F63-A66610632B | tree sent in | - | 24da | - |
+| 11-16 | DE83AEF2-D85E-4D38-B4EF-73E6365D25 | tree sent in | 1154 chars, read it in the database | de08 | - |
+| 11-16 | Boab | correction sent in | 89 chars, read it in the database | de08 | - |
+| 11-16 | Cat Island Bald Cypress | tree sent in | 118 chars, read it in the database | 360c | - |
+| 11-16 | 42A31D57-D883-4E4E-9967-EC876A4C40 | tree sent in | - | cc87 | - |
+| 11-16 | Ancient totara tree | tree sent in | 59 chars, read it in the database | 250e | - |
+| 11-16 | 92FAC7A0-332E-4B6B-8D54-463B3E592C | tree sent in | - | 9b3c | - |
+| 11-16 | elh_001 (Elleholmseken (The Oak of | worth it | - | 59bc | - |
+
+- 230 rows from 119 accounts.
+
+**App Store downloads** (Apple's own count, not PostHog)
+
+| Day | Downloads |
+|---|---:|
+| 2026-11-08 | 3 |
+| 2026-11-09 | 2 |
+| 2026-11-10 | 3 |
+| 2026-11-11 | 1 |
+| 2026-11-12 | 2 |
+| 2026-11-13 | 2 |
+| 2026-11-14 | 1 |
+| **7 days** | **14** |
+- First-time downloads only, which is what App Store Connect's Trends screen counts; redownloads and updates are not in this table.
+
+**Where the downloads came from** (7 days, Apple's attribution)
+
+| Came from | Via | Downloads |
+|---|---|---:|
+| App Store search | - | 9 |
+| Web referrer | - | 5 |
+| **window** | | **14** |
+- Countries: US (9); GB (2); AU (1); JP (1); NO (1)
+- Apple's own source split, first-time downloads only. "Web referrer" with our own domain is the site's app page; "App Store search" is somebody who typed into the store. "Unavailable" is Apple's word for a source it could not attribute.
+
+**Bing's index** (pages crawled and in index, Bing Webmaster Tools)
+
+| Day | Pages crawled | Pages in index |
+|---|---:|---:|
+| 11-07 | 209 | 4334 |
+| 11-08 | 194 | 4335 |
+| 11-09 | 369 | 4335 |
+| 11-10 | 263 | 4404 |
+| 11-11 | 269 | 4404 |
+| 11-12 | 229 | 4453 |
+| 11-13 | 217 | 4454 |
+- In index the week before: 4335.
+
+**Who they are** (full cut, Mondays)
+Audience, 28 days of search (339 clicks, 6510 impressions):
+- Countries: gbr c85/i542; usa c38/i1193; aus c23/i240; fra c21/i225; esp c20/i551
+- Devices: MOBILE c247/i3724; DESKTOP c79/i2685; TABLET c13/i101
+- Landing pages: / c201/i431; /de c4/i49; /seville c4/i97; /united-states/maryland c4/i32; /app c3/i43
+- Search language (top 100 named queries, crude match, most clicks are in queries Google withholds): English 56q c155/i328; unclassified 31q c4/i40; German 5q c1/i30; Spanish 5q c0/i28; Italian 2q c0/i2; French 1q c0/i1
+
+**Google Analytics** (last 7 days, visitors who accepted cookies)
+
+| Day | People | New | Returning | Visits | Pageviews | Engaged visits |
+|---|---:|---:|---:|---:|---:|---:|
+| 11-09 | 9 | 8 | 1 | 14 | 53 | 7 |
+| 11-10 | 11 | 7 | 4 | 18 | 36 | 8 |
+| 11-12 | 3 | 3 | 0 | 4 | 4 | 2 |
+| 11-13 | 5 | 5 | 0 | 5 | 24 | 5 |
+| 11-14 | 3 | 2 | 1 | 9 | 14 | 2 |
+| 11-15 | 1797 | 1793 | 4 | 2179 | 6031 | 1483 |
+| **window** | | **1818** | | **2229** | **6162** | **1507** |
+- People per day are not summed: one person on two days is one person, and GA counts them once per day.
+- Coming back (28 days): 178 returning against 2022 new, 8% of the people GA saw.
+
+| Page | Pageviews | People |
+|---|---:|---:|
+| / | 1757 | 1289 |
+| /explore | 827 | 555 |
+| /london | 165 | 110 |
+| /countries | 139 | 94 |
+| /cities | 112 | 85 |
+| /united-kingdom | 96 | 70 |
+| /contribute | 89 | 53 |
+| /bristol | 46 | 29 |
+| /edinburgh | 35 | 24 |
+| /amsterdam | 33 | 11 |
+
+| Came from | Visits | People |
+|---|---:|---:|
+| (direct) / (none) | 1251 | 1015 |
+| theguardian.com / referral | 827 | 708 |
+| (not set) / (not set) | 300 | 297 |
+| google / organic | 55 | 38 |
+| m.facebook.com / referral | 31 | 27 |
+| facebook.com / referral | 22 | 22 |
+| accounts.google.com / referral | 8 | 3 |
+| share / app | 6 | 4 |
+- GA sees only visitors who pressed Accept on the cookie bar; read it as a sample.
+
+Backlinks (watched pages):
+| Site | Links to | rel | First seen |
+|---|---|---|---|
+| getlisbon.com | /lisbon | followed | 2026-09-08 |
+| getlisbon.com | /pt/lisbon | followed | 2026-09-08 |
+| www.baumkunde.de | /copenhagen | followed | 2026-09-26 |
+| www.baumkunde.de | /rogalin/russ-oak | followed | 2026-09-26 |
+| wilder.pt | / | followed | 2026-10-24 |
+5 linking page(s), 5 followed. Checked by fetching the page: a link with rel="noreferrer" never appears in the referrer table, so these two lines measure different things and neither replaces the other. Unknown links stay a manual read of Search Console's Links report. This run read 8 of 12 fetched (4 unreachable), out of 28 watched pages.
+
+---
+
+**For the night run, not for you.** You can stop reading here.
+
+
+**What the machine did, the last 24 hours**
+
+| Started | Minutes | Trees | Commits | Refused | Cities |
+|---|---:|---:|---:|---:|---|
+| 11-15T06:56 | 20.5 | 3 | 18 | 4 | Bamberg +2, Buffalo +1 |
+| 11-15T08:44 | 11.9 | 2 | 9 | 0 | Adelaide +1, Moss Vale +1, Belfast, Coldwaltham, +3 more |
+| 11-15T14:59 | 10.4 | 2 | 8 | 0 | Grazalema +1, Meycauayan +1, Buenos Aires, Dresden, +9 more |
+| 11-15T16:45 | 7.4 | 2 | 10 | 2 | Linton Herefordshire +1, Manaccan +1, Copenhagen, Warsaw |
+| 11-15T20:19 | 9.5 | 9 | 7 | 0 | La Tene +4, Carmarthen +1, Colchester +1, Elleholm +1, +10 more |
+| 11-15T22:24 | 8.2 | 5 | 8 | 0 | Bowthorpe +1, Crowhurst +1, Doveridge +1, London +1, +12 more |
+| 11-16T04:21 | 3.6 | 0 | 6 | 0 | Borrowdale, Charleston, Houston, Key West, +2 more |
+| **7 runs** | **72** | **23** | **66** | | |
+
+- 1 of 7 produced no trees; 2 to 4 commands refused per run; last build that went live: 1h ago.
+
+**What they made**
+
+- Reader photographs: four trees get their first photograph (Houston x2, Key West, Bong), four strip verdicts; Houston story colon fixed
+- Photographs readers sent, queued for a look; vouched ones live
+- Record when each page last changed
+- Contributor replies and ambassador invitations sent, log updated
+- Five reader-found trees live (app first): Bowthorpe Oak, Crowhurst Yew, Doveridge Yew, Greenwich Park chestnut, Methuselah redwood; verdicts and leads
+- Reader photographs: 6 live on photo-less trees, 7 kept beside existing, 7 taken out of the strip (people in frame, wrong tree), 3 rejected or held; verdicts written
+- Photographs readers sent, queued for a look; vouched ones live
+- Record when each page last changed
+- Contributor replies and ambassador invitations sent, log updated
+- Settings: load the image downsizer, so changing a profile photo no longer throws atDownsize is not a function
+- Nine reader-found trees live (app first): Wantisden pollard oaks, Elleholmseken, Maidstone plane, Colchester oak, Carmarthen ginkgo, four more at Prefargier; verdicts, leads and log
+- Reader photographs: 5 live on photo-less trees, 3 added beside existing, 5 held (plane tree sent as Ankerwycke Yew, a group portrait); verdicts written
+- Photographs readers sent, queued for a look; vouched ones live
+- Record when each page last changed
+
+**Reader photographs in a strip, live first, not yet looked at** (32)
+
+| Day | Tree | Where | Undo |
+|---|---|---|---|
+| 11-15 | The Plane Trees of the Circus | Bath | `sightings_publish.py --unstrip 3b39d16a-da7e-41df-b566-3345170189b9` |
+| 11-16 | The Borrowdale Yews (the Fraternal Four) | Borrowdale | `sightings_publish.py --unstrip b24f5c1e-b9c6-4f5a-af2e-c761fa60e614` |
+| 11-15 | Endicott Pear Tree | Boston | `sightings_publish.py --unstrip b724f1db-2429-4905-a291-fa1bf50132cd` |
+| 11-15 | The Gomero de la Recoleta | Buenos Aires | `sightings_publish.py --unstrip 3325a9bc-9642-4364-8475-8f89d62e834d` |
+| 11-16 | The Angel Oak | Charleston | `sightings_publish.py --unstrip 27b65062-4209-44fa-ad20-a179dd1e974f` |
+| 11-15 | The Fern-leaved Beech of the National Gallery | Copenhagen | `sightings_publish.py --unstrip 40d6b9ff-509f-488b-9e02-4f507e7f889a` |
+| 11-15 | The Olive of the Orange Courtyard | Cordoba | `sightings_publish.py --unstrip 79e27623-4f57-4e8b-93ed-5809952ad465` |
+| 11-15 | The Orange Courtyard of the Mezquita | Cordoba | `sightings_publish.py --unstrip 505b0039-de16-410f-817e-55e31e93c41a` |
+| 11-15 | The Kaditzer Linde | Dresden | `sightings_publish.py --unstrip 90aa5d92-64b3-439f-b2b3-a56cc8b41136` |
+| 11-15 | The Weeping Beech of Helfenberg Park | Dresden | `sightings_publish.py --unstrip cfcad2b9-4ce3-49f8-bf53-a03f156c8794` |
+| 11-15 | The Argyle Street Ash | Glasgow | `sightings_publish.py --unstrip c62d8c77-f078-478f-babf-1c12d2426ef4` |
+| 11-15 | The Fulham Palace Oak | London | `sightings_publish.py --unstrip d8994b07-93c9-41a0-ae09-ab417f322b93` |
+| 11-15 | Barney the Plane | London | `sightings_publish.py --unstrip 6f2cee0c-369d-4da5-a2e3-6e08f138a29f` |
+| 11-15 | The Ravenscourt Park Baobab Plane | London | `sightings_publish.py --unstrip eb811a74-663f-476f-bf0f-349d058508e0` |
+| 11-15 | The Bromley Oak | London | `sightings_publish.py --unstrip cc260294-0437-4efb-8c0f-5bf73fb0adf3` |
+| 11-15 | The Bromley Oak | London | `sightings_publish.py --unstrip 4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800` |
+| 11-16 | Ahuehuete de Parque Espana | Mexico City | `sightings_publish.py --unstrip 3693bdc5-cbb5-4ff1-909e-745a397aaf76` |
+| 11-16 | Ahuehuete de Parque Espana | Mexico City | `sightings_publish.py --unstrip 9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf` |
+| 11-15 | Jackson's Oak | Mobile | `sightings_publish.py --unstrip bcde1019-cccf-445a-a2ab-81b2bdbb8809` |
+| 11-15 | The Copper Beech of the Badenburg | Munich | `sightings_publish.py --unstrip a1e5696d-07f6-4ad8-b33d-af8a195ee53a` |
+| 11-15 | The Leaning Lime of the Badenburger See | Munich | `sightings_publish.py --unstrip f9aef0f0-825b-43a6-80c6-bdae5f77ce0d` |
+| 11-15 | The Leaning Lime of the Badenburger See | Munich | `sightings_publish.py --unstrip 31f72d8f-0bcc-4df5-88a8-46c14bbbb5cf` |
+| 11-15 | The Great Cedar of Kasuga Taisha | Nara | `sightings_publish.py --unstrip 221f1245-c4b5-4b97-a777-879f9f8bd9e7` |
+| 11-15 | The Ficus of the Orto Botanico | Palermo | `sightings_publish.py --unstrip 61ca336b-c1eb-4f2a-8709-bcb29e63a2c6` |
+| 11-15 | S'Olivera de Cort | Palma de Mallorca | `sightings_publish.py --unstrip 513c935b-b7e0-4b76-93c2-6a8223d8274b` |
+| 11-15 | The Cardón of the Expo | Seville | `sightings_publish.py --unstrip 770b668b-0152-47a4-9822-70e04183b599` |
+| 11-15 | The Sunderland Buttonball Tree | Sunderland, Massachusetts | `sightings_publish.py --unstrip 9689a5aa-c566-41e5-a674-f26dd189e7cc` |
+| 11-15 | El Drago Milenario | Tenerife | `sightings_publish.py --unstrip d1f0b3c4-247f-4f5b-8b34-f2e44c765fef` |
+| 11-15 | Te Matua Ngahere | Waipoua Forest | `sightings_publish.py --unstrip ab926a56-7355-4115-aaeb-20715143d5c0` |
+| 11-15 | Dab Mieszko I (King Mieszko I's Oak) | Warsaw | `sightings_publish.py --unstrip 5b8c4e7a-86a1-4b3f-a434-83e7a0945553` |
+| 11-15 | The Cut-Leaved Hornbeam | York | `sightings_publish.py --unstrip b24fa509-4aa6-42fc-9fda-04282a20e481` |
+| 11-15 | The Pear-Barked Beech | York | `sightings_publish.py --unstrip 56342639-17a9-44b9-a876-bfe3cfa658dc` |
+
+Machine: 8 chain attempts yesterday, 8 got real work time (~126 min total). Dead-in-seconds attempts cost nothing; few get-throughs means the usage window was full or closed.
+
+**Search work lists**
+
+- Top pages (10d): / (c185/i332); /switzerland (c3/i13); /seville (c2/i51); /de (c2/i19); /app (c2/i18)
+- Content leads, biggest first. A lead is a query no page TITLE covers, so some are ranking problems on a page we have rather than a page to write ('vegas trees' against /las-vegas). Check before building:
+    - 'alte bäume in der nähe' (i5, p3)
+    - 'alte bäume karte' (i3, p7)
+    - 'acient tree' (i2, p14)
+    - 'angeloak' (i2, p79)
+    - 'ahornbäume in der nähe' (i1, p7)
+    - 'alberi di roma' (i1, p1)
+    - 'alter' (i1, p2)
+    - 'arbol tipico canario' (i1, p42)
+
+**Is enriching working** (indexed tree pages, last 10 days of Google; rich = register record, a measurement and concrete access)
+
+| Indexed tree pages | Pages | With an impression | Impressions | Per page | Clicks |
+|---|---:|---:|---:|---:|---:|
+| Rich | 142 | 16 | 48 | 0.34 | 1 |
+| Not yet rich | 174 | 20 | 210 | 1.21 | 0 |
+| Returned to Google's index in the last 7 days | 0 | 0 | 0 | 0.00 | 0 |
+
+- Google lags 2 to 3 days, so a page returned this week has had a few days at most. Compare the per-page numbers across weeks, not the totals across rows.
+
+**Depth is allowed on these cities** (10+ impressions in the window; photos, pins and best_time go here and nowhere else):
+
+| City | Clicks | Impressions | CTR | Position | Normal there | Biggest query, and where it really sits |
+|---|---:|---:|---:|---:|---:|---|
+| fortingall | 0 | 144 | 0.0% | 10.7 | 2.2% | fortingall yew (i117, p11) |
+| lisbon | 1 | 61 | 1.6% | 6.4 | 4.6% | historic giant plant of lisbon (i1, p12) |
+| seville | 2 | 57 | 3.5% | 5.1 | 6.8% | sevilla (i1, p1) |
+| berlin | 2 | 41 | 4.9% | 6.0 | 5.1% | berlin trees (i2, p5) |
+| fulufjallet | 0 | 41 | 0.0% | 9.4 | 2.8% | old tjikko (i22, p11) |
+| olympic-national-park | 0 | 32 | 0.0% | 13.8 | 1.4% | duncan cedar (i14, p10) |
+| tokyo | 0 | 32 | 0.0% | 5.4 | 6.2% | ginkgo sperm (i2, p11) |
+| malaga | 0 | 29 | 0.0% | 20.4 | 0.8% | árboles históricos de málaga (i5, p87) |
+| singapore | 0 | 29 | 0.0% | 9.0 | 3.0% | earpod tree (i3, p5) |
+| munich | 1 | 26 | 3.8% | 5.3 | 6.4% | ältester baum münchen (i1, p8) |
+| south-korea | 0 | 25 | 0.0% | 14.6 | 1.3% | ginkgo tree korea (i2, p5) |
+| paris | 1 | 24 | 4.2% | 5.9 | 5.2% | - |
+| kyoto | 1 | 24 | 4.2% | 4.0 | 8.1% | ginkgo tree kyoto (i1, p1) |
+| palermo | 0 | 24 | 0.0% | 9.0 | 3.0% | palermo tree (i1, p9) |
+| tenerife | 0 | 23 | 0.0% | 27.6 | 0.5% | el drago milenario (i2, p10) |
+| seoul | 1 | 22 | 4.5% | 8.3 | 3.3% | - |
+| monterey | 0 | 22 | 0.0% | 53.1 | 0.4% | lone cypress monterey (i5, p64) |
+| copenhagen | 2 | 21 | 9.5% | 11.0 | 2.2% | copenhagen trees (i3, p39) |
+| amsterdam | 0 | 21 | 0.0% | 8.7 | 3.1% | lomanstraat (i2, p19) |
+| united-states | 2 | 20 | 10.0% | 17.4 | 1.0% | oldest tree in oregon (i4, p10) |
+| london | 2 | 20 | 10.0% | 15.1 | 1.2% | barney london bridge is falling down (i1, p69) |
+| taiwan | 0 | 18 | 0.0% | 11.1 | 2.1% | oldest tree in taiwan (i3, p5) |
+| sequoia-national-park | 0 | 18 | 0.0% | 24.1 | 0.6% | washington tree (i9, p20) |
+| reykjavik | 0 | 18 | 0.0% | 5.8 | 5.3% | - |
+| venice | 2 | 16 | 12.5% | 4.0 | 8.0% | - |
+| austin | 0 | 16 | 0.0% | 17.2 | 1.0% | oldest tree in austin (i2, p12) |
+| barcelona | 0 | 16 | 0.0% | 9.8 | 2.6% | - |
+| germany | 1 | 15 | 6.7% | 6.1 | 4.9% | - |
+| san-francisco | 0 | 15 | 0.0% | 4.9 | 7.1% | old tree near me (i1, p4) |
+| kagoshima | 0 | 15 | 0.0% | 10.4 | 2.4% | oldest camphor tree (i1, p7) |
+| brisbane | 0 | 15 | 0.0% | 16.5 | 1.1% | banyan tree (i3, p10) |
+| oahu | 0 | 14 | 0.0% | 9.4 | 2.8% | hitachi tree (i2, p10) |
+| los-angeles | 0 | 14 | 0.0% | 7.8 | 3.6% | moreton bay fig tree beverly hills (i1, p9) |
+| milan | 0 | 14 | 0.0% | 5.4 | 6.3% | - |
+| prague | 0 | 14 | 0.0% | 4.9 | 7.1% | - |
+| switzerland | 3 | 13 | 23.1% | 7.7 | 3.7% | - |
+| porto | 1 | 13 | 7.7% | 2.2 | 14.1% | - |
+| edinburgh | 0 | 13 | 0.0% | 6.8 | 4.2% | - |
+| cambridge | 0 | 13 | 0.0% | 30.4 | 0.4% | isaac newton tree (i2, p22) |
+| athens | 0 | 13 | 0.0% | 5.5 | 6.1% | - |
+| dublin | 1 | 12 | 8.3% | 4.3 | 7.7% | - |
+| nara | 1 | 12 | 8.3% | 5.8 | 5.5% | - |
+| charleston | 0 | 12 | 0.0% | 24.3 | 0.6% | angeloak (i2, p79) |
+| kanazawa | 0 | 12 | 0.0% | 6.3 | 4.7% | - |
+| chishang | 0 | 11 | 0.0% | 6.5 | 4.5% | takeshi kaneshiro tree (i6, p7) |
+| fukuoka | 0 | 11 | 0.0% | 7.4 | 3.8% | dazaifu tenmangu (i1, p1) |
+| seattle | 0 | 11 | 0.0% | 9.0 | 3.0% | oldest tree in seattle (i1, p10) |
+| netherlands | 1 | 10 | 10.0% | 9.0 | 3.0% | dutch trees (i1, p39) |
+| bristol | 0 | 10 | 0.0% | 6.0 | 5.0% | - |
+| poland | 0 | 10 | 0.0% | 7.7 | 3.6% | trees in poland (i1, p8) |
+| segovia | 0 | 10 | 0.0% | 38.1 | 0.4% | - |
+| madrid | 0 | 10 | 0.0% | 6.5 | 4.5% | - |
+
+- Plus 211 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: bath, rome, new-york, brussels, vienna, alicante, cadiz, pamplona.
+
 ## 2026-11-14 (previous UTC day)
 
 **Today: 2 accounts were opened yesterday (64 accounts in all).**
@@ -3550,350 +4632,4 @@ What we did (context, proves nothing by itself): 3110 trees Google may index, 88
 | fukuoka | 0 | 10 | 0.0% | 9.0 | 3.0% | gingkosidi (i2, p26) |
 
 - Plus 238 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: amsterdam, barcelona, rome, oahu, munich, edinburgh, brussels, dublin.
-
-## 2026-11-01 (previous UTC day)
-
-**Today: an android waitlist signup arrived yesterday (46 total); an ambassador request for New Orleans arrived yesterday (55 total); 4 accounts were opened yesterday (53 total).**
-
-**The numbers that matter** (this week against the week before; strangers only)
-
-| Number | Why | This week | Week before |
-|---|---|---:|---:|
-| New website visitors | people | 62 | 85 |
-| ... of which from search | every search engine | 17 | 8 |
-| ... from Google | Google's recovery | 3 | 2 |
-| ... from Bing | Bing | 7 | 0 |
-| Website visitors who came back | people who stay | 12 | 17 |
-| App downloads (first-time) | people | 17 | 38 |
-| New accounts | people | 9 | 16 |
-| Phones back within 30 days | people who stay | 8 of 13 | 9 of 13 |
-| Trees saved to Want to go | intent | 1 | 19 |
-| Trees collected | goal 1: stood at a tree | 0 | 13 |
-| Readers' contributions | data: trees, photos, corrections, votes | 8 | 10 |
-| Shares (app and web) | word of mouth, since 10-30 | 1 | 0 |
-| Visits from a shared link | what sharing brings | 2 | 0 |
-
-Website visitors are Google Analytics' count, so only people who accepted the cookie bar; a visitor who comes back on another browser or device counts as new, and GA cannot leave our own visits out, so read the came-back row as a direction, not a count. The 30-day row is the phones that arrived five weeks ago, so it moves slowly.
-
-**Ambassador requests, open** (1 person, 1 place; each stays here until our mail with the questions has gone, or the badge is granted with `python3 scripts/ambassador.py --grant`)
-
-| Asked | Places | From | Our mail with the questions | Waiting on |
-|---|---|---|---|---|
-| 2026-11-01 | **New Orleans** | /new-orleans | not yet (next knock) | the mail |
-
-**Day by day, the last seven days** (strangers only; visitors are Google Analytics', so only people who accepted the cookie bar)
-
-| | 10-26 | 10-27 | 10-28 | 10-29 | 10-30 | 10-31 | 11-01 | **7 days** |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Visitors | 14 | 11 | 7 | 8 | 12 | 7 | 8 | **67** |
-| New accounts | 3 | 0 | 0 | 0 | 0 | 2 | 4 | **9** |
-| Saves | 0 | 0 | 0 | 0 | 0 | 0 | 1 | **1** |
-| Android waitlist | 5 | 1 | 0 | 1 | 0 | 0 | 1 | **8** |
-| App downloads | 2 | 1 | 1 | 1 | 2 | 2 | 0 | **9** |
-| App phones | 6 | 4 | 6 | 3 | 6 | 4 | 8 | **27** |
-| Trees opened in the app | 88 | 4 | 17 | 33 | 6 | 6 | 35 | **189** |
-| Trees collected | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Trees sent | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Feedback | 1 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
-| Ambassador asks | 6 | 0 | 0 | 0 | 0 | 0 | 1 | **7** |
-| App photos | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Tree notes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| App Store reviews | 0 | 1 | 0 | 0 | 1 | 0 | 0 | **2** |
-
-**Trees readers sent, for you to inspect:** none waiting. Every tree a stranger sent has your answer.
-
-**Waiting for you** (what the runs left for you since 2026-11-01)
-
-- 364 email addresses ready to mail (archive 9, nature 9, guide 5, press 234, source 67, council 17, tourism 7, society 7, other 6, garden 3); 7 found by the night run since 2026-11-01
-
-**What was sent in, and what we decided**
-
-| seen | what | where | size for its species | ours | Hidde |
-|---|---|---|---|---|---|
-| 2026-10-30 | The Town Hall Plane | - | - | open | - |
-| 2026-10-30 | A tree in Baarn | - | - | open | - |
-| 2026-10-30 | European Beech in Baarn | - | - | open | - |
-| 2026-10-30 | A tree in Baarn | - | - | open | - |
-
-4 waiting for a verdict. Disagree with one and the rule changes: `python3 scripts/judgement.py --feedback <id> "..."`, and `--learn` prints every verdict he has overruled.
-
-**Searched yesterday:** amorebieta, creswell, or, dallas.
-
-**Search**
-
-Google, the last 10 days it will give us (2-3 days behind; the newest row is still filling, so it reads better than it is):
-
-| Day | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| 10-23 | 0 | 48 | 0.0% | 55.1 |
-| 10-24 | 1 | 24 | 4.2% | 43.2 |
-| 10-25 | 3 | 55 | 5.5% | 50.2 |
-| 10-26 | 3 | 36 | 8.3% | 30.5 |
-| 10-27 | 0 | 25 | 0.0% | 28.5 |
-| 10-28 | 1 | 36 | 2.8% | 49.8 |
-| 10-29 | 0 | 38 | 0.0% | 28.4 |
-| 10-30 | 2 | 29 | 6.9% | 24.1 |
-| 10-31 | 0 | 38 | 0.0% | 21.5 |
-| 11-01 *partial* | 2 | 125 | 1.6% | 12.3 |
-| **window** | **12** | **454** | **2.6%** | |
-- Top queries (10d): 200 old tree trace (i1, p54); 600 year old ginkgo tree jeonju (i1, p55); ahuehuete madrid (i1, p95); ancient tree (i1, p76); ancient trees (i3, p81)
-**What Bing shows and sends** (last 7 days with data, Bing Webmaster Tools)
-
-| Day | Impressions | Clicks | CTR |
-|---|---:|---:|---:|
-| 10-25 | 83 | 3 | 3.6% |
-| 10-26 | 84 | 3 | 3.6% |
-| 10-27 | 132 | 3 | 2.3% |
-| 10-28 | 113 | 3 | 2.7% |
-| 10-29 | 113 | 7 | 6.2% |
-| 10-30 | 90 | 10 | 11.1% |
-| 10-31 | 90 | 4 | 4.4% |
-| **7 days** | **705** | **33** | **4.7%** |
-- Week before: 554 impressions, 24 clicks. No Bing demotion in sight.
-- Top Bing queries: oldest tree china (c8/i4, p12); picture of the tree in helsinki city center that was preserved (c3/i2, p4); fig tree in square alicante (c2/i4, p4); big trees of quebec city (c2/i1, p2); oldest sycamore tree in rotterdam (c1/i8, p2); how old are the trees in queen square bristol (c1/i4, p3); oak tree in zurich (c1/i4, p2); [ancienttrees.app/cork/witchs-yew] (c1/i4, p6)
-- Bing alone, from Bing Webmaster Tools. DuckDuckGo and Yahoo draw on the same index and publish no numbers. Bing's data lags about two days.
-
-**Monday: the slow tables.** They rarely change a day's decision, so they come once a week.
-
-**Website actions, ever** (the events table begins 2026-08-01, when the funnel was repaired; a zero has never fired at all)
-
-| Action | Ever |
-|---|---:|
-| signin-open | 217 |
-| app-cta | 168 |
-| search-home | 108 |
-| home-fav | 61 |
-| waitlist-submit | 31 |
-| signin-done | 28 |
-| signin-oauth | 28 |
-| app-open | 23 |
-| home-country | 22 |
-| search-bar | 16 |
-| search-explore | 16 |
-| home-dir-city | 12 |
-| ambassador-request | 9 |
-| directions | 8 |
-| search-bar-m | 8 |
-| signin-link-sent | 8 |
-| save | 4 |
-| search-empty-bar | 4 |
-| home-dir-collection | 3 |
-| home-dir-tree | 3 |
-| home-species | 3 |
-| share_arrived | 2 |
-| app-page-badge | 2 |
-| home-dir-species | 2 |
-| search-empty-home | 2 |
-| signout | 2 |
-| sponsor-open | 2 |
-| search-none-explore | 1 |
-| share_tapped | 1 |
-| tree-photo-sent | 1 |
-| search-empty-explore | 1 |
-| search-none-bar | 1 |
-| search-none-bar-m | 1 |
-| search-none-home | 1 |
-| worthit-report | 1 |
-| worthit-not worth it | 0 |
-| worthit-worth it | 0 |
-| **all** | **800** |
-
-**App events, ever** (measured since 2026-08-30)
-
-| What | Ever |
-|---|---:|
-| app_open | 538 |
-| tab | 476 |
-| tree_opened | 1993 |
-| directions | 68 |
-| tree_saved | 46 |
-| tree_visited | 35 |
-| sighting_recorded | 90 |
-| sync_skipped | 0 |
-| sync_failed | 0 |
-| location | 65 |
-| **all** | **3311** |
-
-**What readers told us** (7 days, structure only; the words stay in the database)
-
-| Day | Tree | What | Note | From | Outcome |
-|---|---|---|---|---|---|
-| 10-26 | Sintra | ambassador request | - | d1d9 | - |
-| 10-26 | por_011 (The Copper Beech of FAUP) | report | dead or gone | 6cff | changed |
-| 10-26 | Porto | ambassador request | - | 6cff | - |
-| 10-26 | Guimaraes | ambassador request | - | 6cff | - |
-| 10-26 | Braga | ambassador request | - | 6cff | - |
-| 10-26 | Calvos | ambassador request | - | 6cff | - |
-| 10-26 | Vales | ambassador request | - | 6cff | - |
-| 11-01 | New Orleans | ambassador request | - | c9cb | - |
-
-- 6 of the other 8 came from one account (6cff), which is one person rather than a pattern.
-
-**App Store downloads** (Apple's own count, not PostHog)
-
-| Day | Downloads |
-|---|---:|
-| 2026-10-24 | 23 |
-| 2026-10-25 | 8 |
-| 2026-10-26 | 2 |
-| 2026-10-27 | 1 |
-| 2026-10-28 | 1 |
-| 2026-10-29 | 1 |
-| 2026-10-30 | 2 |
-| 2026-10-31 | 2 |
-| **8 days** | **40** |
-- First-time downloads only, which is what App Store Connect's Trends screen counts; redownloads and updates are not in this table.
-
-**Where the downloads came from** (7 days, Apple's attribution)
-
-| Came from | Via | Downloads |
-|---|---|---:|
-| App Store search | - | 18 |
-| App referrer | - | 12 |
-| Web referrer | - | 10 |
-| **window** | | **40** |
-- Countries: PT (24); GB (5); US (3); BR (2); CA (1); CH (1)
-- Apple's own source split, first-time downloads only. "Web referrer" with our own domain is the site's app page; "App Store search" is somebody who typed into the store. "Unavailable" is Apple's word for a source it could not attribute.
-
-**Bing's index** (pages crawled and in index, Bing Webmaster Tools)
-
-| Day | Pages crawled | Pages in index |
-|---|---:|---:|
-| 10-25 | 235 | 3470 |
-| 10-28 | 343 | 3629 |
-| 10-29 | 474 | 3678 |
-| 10-30 | 221 | 3740 |
-- In index the week before: 3428.
-
-audience_section: failed today (name 'MARKERS' is not defined).
-
-**Google Analytics** (last 7 days, visitors who accepted cookies)
-
-| Day | People | New | Returning | Visits | Pageviews | Engaged visits |
-|---|---:|---:|---:|---:|---:|---:|
-| 10-26 | 14 | 14 | 0 | 19 | 138 | 14 |
-| 10-27 | 11 | 9 | 2 | 15 | 79 | 10 |
-| 10-28 | 7 | 6 | 1 | 10 | 36 | 9 |
-| 10-29 | 8 | 7 | 1 | 9 | 22 | 8 |
-| 10-30 | 12 | 11 | 1 | 14 | 37 | 9 |
-| 10-31 | 7 | 7 | 0 | 8 | 20 | 4 |
-| 11-01 | 8 | 8 | 0 | 12 | 26 | 8 |
-| **window** | | **62** | | **87** | **358** | **62** |
-- People per day are not summed: one person on two days is one person, and GA counts them once per day.
-- Coming back (28 days): 31 returning against 172 new, 15% of the people GA saw.
-
-| Page | Pageviews | People |
-|---|---:|---:|
-| / | 55 | 23 |
-| /about | 19 | 2 |
-| /lisbon | 18 | 11 |
-| /support | 13 | 2 |
-| /sources | 12 | 2 |
-| /porto | 10 | 3 |
-| /portugal | 10 | 5 |
-| /account/settings | 9 | 1 |
-| /countries | 7 | 6 |
-| /calvos | 6 | 2 |
-
-| Came from | Visits | People |
-|---|---:|---:|
-| (direct) / (none) | 42 | 34 |
-| google / organic | 8 | 3 |
-| bing / organic | 7 | 7 |
-| wilder.pt / referral | 7 | 6 |
-| accounts.google.com / referral | 6 | 2 |
-| ecosia.org / organic | 6 | 5 |
-| (not set) / (not set) | 3 | 3 |
-| chatgpt.com / ai-assistant | 2 | 2 |
-- GA sees only visitors who pressed Accept on the cookie bar; read it as a sample.
-
-Backlinks (watched pages):
-| Site | Links to | rel | First seen |
-|---|---|---|---|
-| getlisbon.com | /lisbon | followed | 2026-09-08 |
-| getlisbon.com | /pt/lisbon | followed | 2026-09-08 |
-| www.baumkunde.de | /copenhagen | followed | 2026-09-26 |
-| www.baumkunde.de | /rogalin/russ-oak | followed | 2026-09-26 |
-| wilder.pt | / | followed | 2026-10-24 |
-5 linking page(s), 5 followed. Checked by fetching the page: a link with rel="noreferrer" never appears in the referrer table, so these two lines measure different things and neither replaces the other. Unknown links stay a manual read of Search Console's Links report. This run read 12 of 12 fetched (0 unreachable), out of 28 watched pages.
-
----
-
-**For the night run, not for you.** You can stop reading here.
-
-
-**What the machine did, the last 24 hours**
-
-| Started | Minutes | Trees | Commits | Refused | Cities |
-|---|---:|---:|---:|---:|---|
-| 11-01T19:49 | 6.6 | 0 | 4 | 0 | - |
-| 11-01T21:36 | 6.3 | 1 | 6 | 0 | Porto +1 |
-| 11-02T01:11 | 11.9 | 0 | 6 | 0 | - |
-| **3 runs** | **25** | **1** | **16** | | |
-
-- 2 of 3 produced no trees; last build that went live: 5h ago.
-
-**What they made**
-
-- Night run 01:11: Madeira retry stalled, Porto enrich closed, SF wall, LOG
-- San Francisco deepen pass 2026-11-02: nothing new, register exhausted
-- Write pass: none merged (faro, frankfurt, innsbruck, new-york, san-francisco, cardiff held)
-- Photographs readers sent, queued for a look; vouched ones live
-- Record when each page last changed
-- Porto pt overlay: por_031 under 250 words
-- Porto pt overlay: por_031 story back under 250 words
-- Porto: 5 leads beyond the day-trip boundary, pass costs logged
-- Porto: write and merge por_031, the cork oak of the Capela de Santo Antonio (Maia)
-- Cardiff scouting retry: Bute Park champion table, 3 flagged trees staged, 3 leads
-- Coimbra verify pass: no new tree, Santa Comba pine kept as a lead, wall for 48h
-- Record when each page last changed
-- Record when each page last changed
-- Vendor 1 photograph file(s) onto our own domain
-
-Machine: 7 chain attempts yesterday, 3 got real work time (~40 min total). Dead-in-seconds attempts cost nothing; few get-throughs means the usage window was full or closed.
-
-**Search work lists**
-
-- Top pages (10d): / (c7/i18); /lisbon (c1/i7); /seville (c1/i4); /lisbon/giant-rubber-tree-of-mouraria (c1/i2); /montreal/mcgill-katsura (c1/i1)
-- Content leads, biggest first. A lead is a query no page TITLE covers, so some are ranking problems on a page we have rather than a page to write ('vegas trees' against /las-vegas). Check before building:
-    - 'comfort tree niagara' (i2, p75)
-    - '200 old tree trace' (i1, p54)
-    - 'bilder' (i1, p1)
-    - 'comfort tree' (i1, p13)
-    - 'die 10 ältesten bäume der welt' (i1, p1)
-    - 'drachenbaum auf teneriffa' (i1, p96)
-    - 'drago milenario tree' (i1, p42)
-
-**Google, from the new floor** (2026-10-01: ~50 impressions a day, 0 clicks; before 09-28: ~2,000 a day)
-
-What Google does, last 10 days:
-
-| Measure | Now |
-|---|---:|
-| Impressions | 432 |
-| Clicks | 12 |
-| Pages that got at least one impression | 269 |
-| Impressions on the proven cities | 278 |
-
-- 373 impressions from site: and operator searches left out (ours, not readers; every Google table below is without them).
-
-What we did (context, proves nothing by itself): 3097 trees Google may index, 863 kept out for lacking a photo and an exact pin, 7053 pages on the noindex list.
-
-**Is enriching working** (indexed tree pages, last 10 days of Google; rich = register record, a measurement and concrete access)
-
-| Indexed tree pages | Pages | With an impression | Impressions | Per page | Clicks |
-|---|---:|---:|---:|---:|---:|
-| Rich | 96 | 0 | 0 | 0.00 | 0 |
-| Not yet rich | 67 | 4 | 6 | 0.09 | 0 |
-| Returned to Google's index in the last 7 days | 0 | 0 | 0 | 0.00 | 0 |
-
-- Google lags 2 to 3 days, so a page returned this week has had a few days at most. Compare the per-page numbers across weeks, not the totals across rows.
-
-**Depth is allowed on these cities** (10+ impressions in the window; photos, pins and best_time go here and nowhere else):
-
-| City | Clicks | Impressions | CTR | Position | Normal there | Biggest query, and where it really sits |
-|---|---:|---:|---:|---:|---:|---|
-| sequoia-national-park | 0 | 14 | 0.0% | 67.9 | 0.4% | general sherman tree (i3, p77) |
-
-- Plus 258 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: singapore, lisbon, amsterdam, barcelona, seville, bath, tenerife, berlin.
 

@@ -4927,6 +4927,19 @@
    }
   },
   {
+   "common": "Elephant's Foot",
+   "latin": "Beaucarnea sp.",
+   "names": {
+    "es": [
+     "Pincenectitia"
+    ],
+    "fr": [
+     "Baucarnea",
+     "Pied d’éléphant"
+    ]
+   }
+  },
+  {
    "common": "Elm",
    "latin": "Ulmus sp.",
    "names": {
@@ -15241,6 +15254,49 @@
    }
   },
   {
+   "common": "Wheatley Elm",
+   "latin": "Ulmus minor 'Sarniensis'",
+   "names": {
+    "en": [
+     "Small-leaved Elm"
+    ],
+    "nl": [
+     "Engelse iep",
+     "Gladde iep",
+     "Veldiep"
+    ],
+    "de": [
+     "Feldulme",
+     "Feld-Ulme",
+     "Rot-Rüster",
+     "Ulmus-Minor"
+    ],
+    "es": [
+     "Olmo común",
+     "Olmo campestre",
+     "Olmo comun nominal",
+     "Olmo de Cornualles"
+    ],
+    "it": [
+     "Olmo campestre",
+     "Olmo comune"
+    ],
+    "fr": [
+     "Orme champêtre",
+     "Ormeau",
+     "Petit Orme"
+    ],
+    "pt": [
+     "negrilho",
+     "olmo",
+     "ulmeiro"
+    ],
+    "ja": [
+     "ヨーロッパニレ"
+    ]
+   }
+  },
+  {
    "common": "White Ash",
    "latin": "Fraxinus americana",
    "names": {
@@ -18040,6 +18096,11 @@
      "カシワバゴムノキ"
     ]
    }
+  },
+  {
+   "common": "African Cloth-Bark Fig",
+   "latin": "Ficus nekbuda",
+   "mapped": false
   },
   {
    "common": "Triangle Fig",
