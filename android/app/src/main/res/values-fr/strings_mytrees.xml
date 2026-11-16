@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">Quelle est la circonférence du tronc ?</string>
     <string name="ot_prompt_story">Qu\'est-ce qui rend cet arbre spécial ?</string>
     <string name="ot_girth_hint">En mètres, à hauteur de poitrine. Une étreinte fait environ 1,5 m.</string>
+    <string name="ot_story_hint">S\'affiche sur la page de l\'arbre, avec ton nom de profil.</string>
     <string name="ot_save">Enregistrer</string>
     <string name="ot_more">Plus</string>
     <string name="ot_change_name">Changer le nom</string>

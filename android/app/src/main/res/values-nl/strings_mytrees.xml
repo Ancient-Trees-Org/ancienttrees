@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">Hoe dik is de stam rondom?</string>
     <string name="ot_prompt_story">Wat maakt deze boom bijzonder?</string>
     <string name="ot_girth_hint">In meters, op borsthoogte. Eén knuffel is ongeveer 1,5 m.</string>
+    <string name="ot_story_hint">Komt op de pagina van de boom, met je profielnaam.</string>
     <string name="ot_save">Bewaar</string>
     <string name="ot_more">Meer</string>
     <string name="ot_change_name">Naam wijzigen</string>

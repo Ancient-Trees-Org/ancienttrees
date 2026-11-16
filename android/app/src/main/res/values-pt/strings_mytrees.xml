@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">Qual é o perímetro do tronco?</string>
     <string name="ot_prompt_story">O que torna esta árvore especial?</string>
     <string name="ot_girth_hint">Em metros, à altura do peito. Um abraço são cerca de 1,5 m.</string>
+    <string name="ot_story_hint">Aparece na página da árvore com o teu nome de perfil.</string>
     <string name="ot_save">Guardar</string>
     <string name="ot_more">Mais</string>
     <string name="ot_change_name">Mudar o nome</string>

@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">Quanto misura il tronco intorno?</string>
     <string name="ot_prompt_story">Cosa rende speciale questo albero?</string>
     <string name="ot_girth_hint">In metri, all\'altezza del petto. Un abbraccio è circa 1,5 m.</string>
+    <string name="ot_story_hint">Compare sulla pagina dell\'albero con il tuo nome del profilo.</string>
     <string name="ot_save">Salva</string>
     <string name="ot_more">Altro</string>
     <string name="ot_change_name">Cambia il nome</string>

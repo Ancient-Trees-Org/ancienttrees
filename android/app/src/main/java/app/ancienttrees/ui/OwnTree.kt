@@ -630,9 +630,18 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
                     }
                 },
             )
-            if (field == EditableField.GIRTH) {
+            // The iPhone's EditField.hint (TreeDetail.swift): girth explains the
+            // unit; the story says, where it is typed, that the words go public
+            // with the profile name once the tree is live (Hidde, 2026-11-15:
+            // "zeg dus ook dat het openbaar wordt"; scripts/reader_text_notes.py).
+            val hint = when (field) {
+                EditableField.GIRTH -> stringResource(R.string.ot_girth_hint)
+                EditableField.STORY -> stringResource(R.string.ot_story_hint)
+                else -> null
+            }
+            if (hint != null) {
                 Spacer(Modifier.height(12.dp))
-                Text(stringResource(R.string.ot_girth_hint), fontSize = 13.sp, color = brand.inkSoft)
+                Text(hint, fontSize = 13.sp, color = brand.inkSoft)
             }
             Spacer(Modifier.height(24.dp))
         }

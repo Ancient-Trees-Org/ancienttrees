@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">How far round is the trunk?</string>
     <string name="ot_prompt_story">What makes this tree special?</string>
     <string name="ot_girth_hint">In metres, at chest height. One hug is about 1.5 m.</string>
+    <string name="ot_story_hint">Shows on the tree\'s page with your profile name.</string>
     <string name="ot_save">Save</string>
     <string name="ot_more">More</string>
     <string name="ot_change_name">Change the name</string>

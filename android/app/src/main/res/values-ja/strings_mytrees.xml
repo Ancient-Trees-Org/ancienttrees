@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">幹回りはどれくらいですか？</string>
     <string name="ot_prompt_story">この木の特別なところは？</string>
     <string name="ot_girth_hint">メートルで、胸の高さで。ひと抱えは約1.5 mです。</string>
+    <string name="ot_story_hint">木のページにプロフィール名と一緒に表示されます。</string>
     <string name="ot_save">保存</string>
     <string name="ot_more">その他</string>
     <string name="ot_change_name">名前を変更</string>

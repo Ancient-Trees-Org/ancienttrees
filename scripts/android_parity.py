@@ -255,7 +255,11 @@ def page(frames, same=()):
     rows = []
     for name in frames:
         s = status.get(name, {})
-        diffs = "".join(f"<li>{html.escape(d)}</li>" for d in s.get("differences", [])) or "<li>none listed</li>"
+        # A difference is a sentence, or (since the parity rows grew a reason and
+        # a source) a dict; the page shows either.
+        diffs = "".join(
+            f"<li>{html.escape(d if isinstance(d, str) else ' / '.join(str(v) for v in d.values()))}</li>"
+            for d in s.get("differences", [])) or "<li>none listed</li>"
         sp = spacing.get(name)
         if not sp:
             cell, sp_html = "not measured", ""

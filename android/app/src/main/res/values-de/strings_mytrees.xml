@@ -30,6 +30,7 @@
     <string name="ot_prompt_girth">Wie dick ist der Stamm rundherum?</string>
     <string name="ot_prompt_story">Was macht diesen Baum besonders?</string>
     <string name="ot_girth_hint">In Metern, auf Brusthöhe. Eine Umarmung sind etwa 1,5 m.</string>
+    <string name="ot_story_hint">Erscheint auf der Seite des Baums, mit deinem Profilnamen.</string>
     <string name="ot_save">Sichern</string>
     <string name="ot_more">Mehr</string>
     <string name="ot_change_name">Namen ändern</string>
