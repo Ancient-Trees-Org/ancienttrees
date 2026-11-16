@@ -120,8 +120,8 @@
       "age_max": 270,
       "location": {
         "address": "Blaise Castle Estate, Kings Weston Road, Bristol BS10 7QS",
-        "latitude": 51.49917,
-        "longitude": -2.646262,
+        "latitude": 51.50548,
+        "longitude": -2.63181,
         "neighbourhood": "Henbury"
       },
       "story": "John Scandrett Harford, a wealthy Bristol banker, bought Blaise Castle Estate in 1789 and hired the two biggest names in English landscape design of the era, Humphry Repton and later John Nash, to remake it into a Picturesque parkland. Repton's method favoured framing views with carefully placed specimen trees rather than dense planting, and the Cedars of Lebanon he set out near Blaise Castle House are some of the estate's oldest surviving evidence of that design still growing where he placed it. Cedar of Lebanon was still a relatively novel import to English gardens at the time, prized for its wide, flat-tiered canopy and biblical associations, and a tree planted in Repton's era has now had well over two centuries to develop the broad, layered crown the species is known for. Bristol Corporation bought the estate in 1926, turning Harford's private grounds into a free public park, and the cedar has stood through that entire transition from private landscape statement to a tree thousands of Bristol families walk past on the way to the children's playground nearby.",
@@ -149,9 +149,11 @@
       },
       "curation_status": "flagged",
       "notes": "Girth (695cm) and age estimate (250 years) from the Bristol Tree Forum's veteran tree survey (grid reference ST5624 7869, 'Blaise House'); Bristol Museums' own history of the estate corroborates Repton and Nash's landscaping work for Harford from the 1790s and the 1926 sale to Bristol Corporation. No source gives an exact planting year for this specific cedar; age range reflects the Repton-era design period rather than a precise sourced date.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by the crown, broad and flat-tiered in layers the way a Cedar of Lebanon grows. It stands near Blaise Castle House where Repton placed it, close to the children's playground.",
-      "girth_cm": 695
+      "girth_cm": 695,
+      "pin_source": "Bristol Tree Forum veteran tree survey, OS grid reference ST 5624 7869 (10 m), converted OSGB36 to WGS84; a reader's tree note of 2026-11-16 said the old pin was in the wrong place and gave this reference",
+      "verify_notes": "2026-11-16: pin moved from 51.49917, -2.64626 (about 1 km west, wrong) to the Bristol Tree Forum's grid reference ST 5624 7869, after a reader's tree note pointed it out."
     },
     {
       "id": "bri_004",
@@ -673,8 +675,8 @@
       "girth_cm": 700,
       "location": {
         "address": "Meadow off Henbury Road, Blaise Castle Estate, Henbury, Bristol BS10 7QS",
-        "latitude": 51.50411,
-        "longitude": -2.64454,
+        "latitude": 51.50423,
+        "longitude": -2.63007,
         "neighbourhood": "Henbury"
       },
       "verified_sources": [
@@ -684,7 +686,7 @@
       ],
       "access": "Free. Blaise Castle Estate is a council-owned public park (Wikipedia); meadow off Henbury Road. No opening hours found.",
       "transport": "Bus to Henbury / Blaise Castle area; not checked. About 7 km north-west of the centre (computed).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "how_to_recognise": "You can recognise it by the vast horizontal limbs spreading from a trunk seven metres round. It stands in the meadow off Henbury Road on the Blaise Castle Estate, beside a sycamore that grows on five trunks.",
       "story": "If the Bristol Tree Forum's estimate is right, this chestnut was already around 300 years old when Humphry Repton came to Blaise to design the parkland. The Forum puts it at about 550 years, with a trunk seven metres round, and describes its vast horizontal branches reaching out across the meadow off Henbury Road.\n\nThat age is the Forum's own figure, worked out from a tree nobody has dated, and we have found no second written source for this particular chestnut. A girth of seven metres is in keeping with a sweet chestnut several centuries old, but treat 550 as an estimate. On the Forum's figure it would have been growing here through the late medieval centuries, the Civil War, and the years after 1789, when the banker John Scandrett Harford bought the estate and had Repton reshape the grounds into the Picturesque park that is now free for anyone to walk.\n\nThe chestnut does not have the meadow to itself, and its neighbours are part of the reason to come. The Forum lists a sycamore beside it that grows on five trunks, each about 2.8 metres round and seven metres around all together, and the stump of an old common lime that has rotted down and thrown up a thicket of thin new trunks from its base. Three trees in one field, each refusing to grow the way a tree in a textbook does.\n\nIf you know more about its history, tell us.",
@@ -693,7 +695,9 @@
         "license": null,
         "attribution": null,
         "status": "missing"
-      }
+      },
+      "pin_source": "Bristol Tree Forum veteran tree survey, OS grid reference ST 5636 7855 (10 m), converted OSGB36 to WGS84; a reader's tree note of 2026-11-16 said the old pin was in the wrong place and gave this reference",
+      "verify_notes": "2026-11-16: pin moved from 51.50411, -2.64454 (about 1 km west, wrong) to the Bristol Tree Forum's grid reference ST 5636 7855, after a reader's tree note pointed it out."
     },
     {
       "id": "bri_018",

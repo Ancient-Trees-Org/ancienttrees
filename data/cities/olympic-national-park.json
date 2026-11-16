@@ -126,13 +126,14 @@
       },
       "verified_sources": [
         "https://www.thekalalochlodge.com/explore/olympic-national-park/tree-of-life/",
-        "https://www.seattlemet.com/news-and-city-life/2025/07/tree-of-life-washington-kalaloch-olympic-peninsula-coast"
+        "https://www.seattlemet.com/news-and-city-life/2025/07/tree-of-life-washington-kalaloch-olympic-peninsula-coast",
+        "https://www.spokesman.com/stories/2025/jan/09/famous-tree-of-life-slumps-but-struggles-to-surviv/ (slumped about five feet into the gully, January 2025)"
       ],
       "access": "Free, within Olympic National Park; a short, flat walk (a few minutes) from the Kalaloch Campground day-use parking lot onto the beach.",
       "transport": "No public transit; on US-101, 34 miles south of Forks, WA. Parking at Kalaloch Campground.",
       "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "There is nothing under this tree. A creek has cut through the bluff beneath it and carried the soil away, and the Sitka spruce now hangs over the gap on an arch of its own exposed roots, with open air where the ground used to be. Locals call the hollow underneath the root cave.\n\nIt is one of the most photographed single trees on the Washington coast, and it has been a known sight for a long time. Staff at Kalaloch Lodge say people have been coming to look at it since at least the 1950s, and that it is probably much older than that. Nobody has dated it or measured it, so how old it really is stays an open question. If you know, tell us.\n\nWhat is known is that the clock is running. The erosion that made it famous has not stopped. A 2025 feature reported branches in decline, and the recurring line in everything written about it since is that no one knows how much longer it will stand. As of the most recent reports in 2026, it is still there, still alive, still holding on.\n\nFrom the Kalaloch Campground day-use parking, walk onto the beach, turn right and go a few hundred feet. The pin marks the campground rather than the trunk, but on this stretch of sand you will not miss it.",
+      "story": "There is nothing under this tree. A creek has cut through the bluff beneath it and carried the soil away, and the Sitka spruce now hangs over the gap on an arch of its own exposed roots, with open air where the ground used to be. Locals call the hollow underneath the root cave.\n\nIt is one of the most photographed single trees on the Washington coast, and it has been a known sight for a long time. Staff at Kalaloch Lodge say people have been coming to look at it since at least the 1950s, and that it is probably much older than that. Nobody has dated it or measured it, so how old it really is stays an open question. If you know, tell us.\n\nWhat is known is that the clock is running. The erosion that made it famous has not stopped. In January 2025, after storms, king tides and heavy rain, the tree slumped about five feet into the gully beneath it, and a feature that July reported branches in decline. In November 2026 a visitor who saw it in 2022 told us it is no longer standing; we have not yet seen that confirmed. If you have been there lately, tell us what you found.\n\nFrom the Kalaloch Campground day-use parking, walk onto the beach, turn right and go a few hundred feet. The pin marks the campground rather than the trunk, but on this stretch of sand you will not miss it.",
       "how_to_recognise": "You can recognise it by the trunk suspended over a gap in the bluff, held up by an arch of bare roots with a hollow beneath. It stands on the beach a few hundred feet to the right of the Kalaloch Campground access.",
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tree_of_Life_on_Kalaloch_Beach_in_Olympic_National_Park.jpg",
@@ -165,7 +166,8 @@
         "moved_m": 181,
         "date": "2026-11-16",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "verify_notes": "2026-11-16: a reader's tree note says it is 'sadly no more' (they visited in 2022). Searches found nothing after July 2025 (Seattle Met) confirming a fall; the story's unsourced line 'as of 2026 still there' is replaced by the January 2025 slump and the reader's report, stated as unconfirmed. Retire it once a second account or a photo confirms."
     },
     {
       "id": "oly_004",
