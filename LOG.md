@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: crash reports in PostHog, iPhone and Android
+
+- **Product (next iOS build, and Android before its release)**: every crash on every phone now reaches the PostHog project the app already measures into, through PostHog's own SDK with only its crash handler on (Kit/CrashReporter.swift, account/CrashReporter.kt; Hidde chose one tool over Sentry or Crashlytics). Screen views, lifecycle events, taps, session replay, flags and person profiles stay off; Measure's own events are unchanged. Library named per hard list 5: posthog-ios 3.56+ and posthog-android 3.77.1. Privacy page says it (crash report to PostHog, EU). Builds and unit tests green on iOS; Android compiles.
+- **For Hidde**: (1) create a PostHog personal API key with the scopes "error tracking write" and "organization read", so each build's dSYMs (iOS) and R8 mapping (Android) can be uploaded and crashes read as file and line; until then they arrive as addresses. (2) App Store Connect, App Privacy: check that Crash Data is declared (not linked to the person, used for app functionality). (3) PostHog, Billing: a limit of 0 on every product keeps it free.
+
 ## 2026-11-16 session: the Royal Hotel grapevine live, and "not a tree" is no reason
 
 - **Product**: the grapevine of the Royal Hotel, Gilgandra NSW (gil_001, new place, app first): one twisted trunk roofing the whole beer garden on a steel pergola, a reader's photograph and GPS fix, their note quoted (planted early 1900s, well established by the 1904 extensions); the hotel's 1892 build as the Bridge Hotel from publocation.com.au.
