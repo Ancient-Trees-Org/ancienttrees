@@ -4005,10 +4005,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Photograph viewed: a trunk close-up with dead limbs, a grove from a distance and a person in a meadow; the Champion Lodgepole Pine needs a whole-tree frame, a lead.",
+   "status": "published",
+   "why": "published 2026-11-16 as bbl_001 (big-bear-lake.json): reader's GPS fix, trunk photograph with hikers for scale as lead, whole-tree photograph in the strip; bigbearlake.net and NBC San Diego",
    "seen": "2026-11-16",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "big-bear-lake/bbl_001"
   },
   {
    "sighting_id": "tip-908",
@@ -4080,7 +4081,7 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "Photograph viewed: a lime by a pond from a distance and its Slovenian natural-value sign (Mocile, NV 8628); no coordinate, so pin it from the register number.",
+   "why": "Photograph viewed: the lime by a pond from a distance and its Kolpa Landscape Park sign (Močile - lipa, NV 8628), which gives girth 166 cm and height 16 m (2010): registered, but nothing a visitor would walk for. Stays a lead.",
    "seen": "2026-11-16",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
    "judged": "2026-11-16"

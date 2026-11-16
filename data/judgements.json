@@ -712,8 +712,8 @@
     "score": null,
     "note": "nothing measurable about Lodgepole Pine"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a trunk close-up with dead limbs, a grove from a distance and a person in a meadow; the Champion Lodgepole Pine needs a whole-tree frame, a lead.",
+   "verdict": "publish",
+   "reason": "Looked again: the trunk frame with hikers at its foot reads as this tree, and the second photograph shows the whole tree from the meadow; GPS fix, bigbearlake.net and NBC San Diego agree on 110+ ft and 22 ft. Live as bbl_001.",
    "hidde": null,
    "agreed": null
   },
@@ -782,7 +782,7 @@
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
    "verdict": "lead",
-   "reason": "Photograph viewed: a lime by a pond from a distance and its Slovenian natural-value sign (Mocile, NV 8628); no coordinate, so pin it from the register number.",
+   "reason": "Its own Kolpa park sign gives girth 166 cm and height 16 m (2010): registered as a natural value, but not big, old or striking enough to walk for. Stays a lead.",
    "hidde": null,
    "agreed": null
   },
@@ -1229,6 +1229,82 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: the whole blackbutt trunk from its foot on a boardwalk up into the crown, daylight, colour, GPS fix on Bird Tree Road in Middle Brother National Park; the reader's 11 m girth and 300 years match the state's and the National Trust's figures for the Bird Tree. Live as mbr_001; the two extra photographs show another trunk and stay off.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:657dd07e-f174-4cd5-8b89-cb0a88cd8eaa",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "middle-brother-national-park/mbr_001 The Blackbutt of Bird Tree Road",
+   "city": null,
+   "species": "Blackbutt",
+   "photo": "p_ce572bcf48df4b25bb131b55/657DD07E-F174-4CD5-8B89-CB0A88CD8EAA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1100,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Blackbutt"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of mbr_001: the whole trunk from its foot up into the crown, boardwalk for scale, daylight, colour, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-839",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "nottingham/ntm_001 The Arbour Oak of Wollaton Park",
+   "city": null,
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_050a7df1343144bf3f82d0f0/c77f3aca-d6df-4536-bf0e-a21923d05518.jpg",
+   "reader_note": "The Arbour Oak on Arbour Hill in Wollaton Park is a magnificent Oak tree with a girth of nearly 7 meters and a spread of 40 meters. It is estimated to be over 550 years old, making it the oldest tree in the park. \n\nIt is a hybrid between an English Oak and Sessile Oak (Quercus x rosacea), the RHS use the common name the Rose Oak.It is thought to have started life in the 1460s, making it older than Wollaton Hall, which was built in 1588.\n\nThe tree was pollarded in the 17th century, which means th",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of ntm_001: the whole oak in snow, trunk and crown readable, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-875",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "poggio-renatico/pgr_001 The Oak of Molinazzo",
+   "city": null,
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_64aded5e0bdd8d60b3e78790/90778e29-5152-468b-b59e-4b2f0d798f59.jpg",
+   "reader_note": "La quercia di Molinazzo è una monumentale farnia (Quercus robur L.) situata a Poggio Renatico (provincia di Ferrara), in via Molinazzo (località Possessione Malvasta - Strada Provinciale 50, km 8,500).\nDimensioni e caratteristiche: Censita storicamente con una circonferenza del fusto di circa 461 cm e un'altezza intorno ai 23 metri.\nÈ inserita tra gli alberi monumentali protetti ed è oggetto di monitoraggi periodici da parte del Comune e della Regione Emilia-Romagna (che includono analisi di sta",
+   "reader_girth_cm": 460,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of pgr_001: the lone oak in a field, trunk and crown readable, low sun behind it, colour.",
    "hidde": null,
    "agreed": null
   },
@@ -9619,14 +9695,14 @@
    "agreed": null
   },
   {
-   "id": "sight:657dd07e-f174-4cd5-8b89-cb0a88cd8eaa",
+   "id": "sight:f91bd966-db25-4276-91ce-9fb1c5806347",
    "seen": "2026-11-16",
    "kind": "photo of a tree we map",
-   "tree": "middle-brother-national-park/mbr_001 The Blackbutt of Bird Tree Road",
+   "tree": "big-bear-lake/bbl_001 The Champion Lodgepole Pine",
    "city": null,
-   "species": "Blackbutt",
-   "photo": "p_ce572bcf48df4b25bb131b55/657DD07E-F174-4CD5-8B89-CB0A88CD8EAA.jpg",
-   "reader_note": "",
+   "species": "Lodgepole Pine",
+   "photo": "p_697eb4a0c77311e0508c5fb0/F91BD966-DB25-4276-91CE-9FB1C5806347.jpg",
+   "reader_note": "The Champion Lodgepole Pine is one of the largest recorded lodgepole pines (Pinus contorta) in California, located in the San Bernardino Mountains near Big Bear Lake and accessible via the mountain areas above Angelus Oaks.\n\nKey Details & History\n\n• Age: Estimated to have germinated around 1560 (over 440 years old), predating permanent European settlement in the region.\n• Dimensions: Stands over 110 feet tall, with a trunk circumference of about 22 feet and a bulbous base measuring roughly 36 fe",
    "reader_girth_cm": 1100,
    "coords": [
     null,
@@ -9639,58 +9715,10 @@
    },
    "measure": {
     "score": null,
-    "note": "nothing measurable about Blackbutt"
+    "note": "nothing measurable about Lodgepole Pine"
    },
    "verdict": "publish",
-   "reason": "Lead photograph of mbr_001: the whole trunk from its foot up into the crown, boardwalk for scale, daylight, colour, GPS fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-839",
-   "seen": "2026-11-16",
-   "kind": "photo of a tree we map",
-   "tree": "nottingham/ntm_001 The Arbour Oak of Wollaton Park",
-   "city": null,
-   "species": "Oak (Quercus sp.)",
-   "photo": "p_050a7df1343144bf3f82d0f0/c77f3aca-d6df-4536-bf0e-a21923d05518.jpg",
-   "reader_note": "The Arbour Oak on Arbour Hill in Wollaton Park is a magnificent Oak tree with a girth of nearly 7 meters and a spread of 40 meters. It is estimated to be over 550 years old, making it the oldest tree in the park. \n\nIt is a hybrid between an English Oak and Sessile Oak (Quercus x rosacea), the RHS use the common name the Rose Oak.It is thought to have started life in the 1460s, making it older than Wollaton Hall, which was built in 1588.\n\nThe tree was pollarded in the 17th century, which means th",
-   "reader_girth_cm": 700,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Oak (Quercus sp.)"
-   },
-   "verdict": "publish",
-   "reason": "Lead photograph of ntm_001: the whole oak in snow, trunk and crown readable, daylight, colour.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-875",
-   "seen": "2026-11-16",
-   "kind": "photo of a tree we map",
-   "tree": "poggio-renatico/pgr_001 The Oak of Molinazzo",
-   "city": null,
-   "species": "Oak (Quercus sp.)",
-   "photo": "p_64aded5e0bdd8d60b3e78790/90778e29-5152-468b-b59e-4b2f0d798f59.jpg",
-   "reader_note": "La quercia di Molinazzo è una monumentale farnia (Quercus robur L.) situata a Poggio Renatico (provincia di Ferrara), in via Molinazzo (località Possessione Malvasta - Strada Provinciale 50, km 8,500).\nDimensioni e caratteristiche: Censita storicamente con una circonferenza del fusto di circa 461 cm e un'altezza intorno ai 23 metri.\nÈ inserita tra gli alberi monumentali protetti ed è oggetto di monitoraggi periodici da parte del Comune e della Regione Emilia-Romagna (che includono analisi di sta",
-   "reader_girth_cm": 460,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Oak (Quercus sp.)"
-   },
-   "verdict": "publish",
-   "reason": "Lead photograph of pgr_001: the lone oak in a field, trunk and crown readable, low sun behind it, colour.",
+   "reason": "Lead photograph of bbl_001: the trunk into the lower crown, hikers at its foot for scale; the whole-tree view from the meadow in the strip.",
    "hidde": null,
    "agreed": null
   }
