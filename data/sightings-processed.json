@@ -2274,10 +2274,6 @@
    "lon": -81.1310055,
    "pin_checked": "2026-11-15"
   },
-  "2ec0418a-ac10-4c61-9daf-a287193ae994": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "f1faa5f9-5750-4863-8920-2ce31bf5d01a": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -2294,10 +2290,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "c476f81b-3871-4273-9e0a-f4f21ae2b5e1": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "1215c9ad-3b03-438c-a3c4-74f631633f9a": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -2307,18 +2299,6 @@
    "date": "2026-11-15"
   },
   "f249d2ac-4e34-4bdf-9919-626a212de102": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "24c1e280-6404-4056-af86-c3ac625d6e16": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
-  "7ff97b69-76b5-4905-80c2-7c7e901c31c0": {
    "outcome": "lead",
    "date": "2026-11-15"
   },
@@ -2532,6 +2512,62 @@
    "lat": 42.4689533333333,
    "lon": -72.5781033333333,
    "pin_checked": "2026-11-15"
+  },
+  "62a9482b-a105-4572-b6ca-15df5c73924d": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "51d98942-7dba-4d70-9ddd-17263958dd5d": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "ff8f7eac-05bb-4474-a1bf-b44629a370cd": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "3dfeef4f-6a2a-474a-abaa-b0594c741084": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "f81eaeaa-49a5-464a-b5fd-18cad1c749c7": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "7b8b90c6-507c-46cc-9fe8-1366f7a953a3": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "e34c7308-6fcc-45cf-afca-1a9cdbf20d76": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "cb8b4ebe-74ca-4641-a139-533b41a7e3f0": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "2c03d56e-6192-4fae-9a95-94e41b042e6b": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "47730065-758c-46dc-b4ba-e0e3e353c368": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "0269d848-f4e2-40db-9157-8f6f951a34c6": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "6bb3d492-ea79-4b08-8f63-a66610632b47": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "de83aef2-d85e-4d38-b4ef-73e6365d2557": {
+   "outcome": "lead",
+   "date": "2026-11-16"
+  },
+  "42a31d57-d883-4e4e-9967-ec876a4c4036": {
+   "outcome": "lead",
+   "date": "2026-11-16"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

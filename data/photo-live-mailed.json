@@ -1039,6 +1039,60 @@
      "mailed": "2026-11-16"
     }
    ]
+  },
+  "p_ccfec79b6fd8ef4fe71357b4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
+     "tree_id": "bwd_001",
+     "tree_name": "The Borrowdale Yews (the Fraternal Four)",
+     "city": "Borrowdale",
+     "city_slug": "borrowdale",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_9d7a8a3b0067d110ffba1bea": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3693bdc5-cbb5-4ff1-909e-745a397aaf76",
+     "tree_id": "mex_005",
+     "tree_name": "Ahuehuete de Parque Espana",
+     "city": "Mexico City",
+     "city_slug": "mexico-city",
+     "display_name": null,
+     "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf",
+     "tree_id": "mex_005",
+     "tree_name": "Ahuehuete de Parque Espana",
+     "city": "Mexico City",
+     "city_slug": "mexico-city",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_e39e45c93adb2e443fb58c3b": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "27b65062-4209-44fa-ad20-a179dd1e974f",
+     "tree_id": "chs_001",
+     "tree_name": "The Angel Oak",
+     "city": "Charleston",
+     "city_slug": "charleston",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
   }
  }
 }

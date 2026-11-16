@@ -175,7 +175,37 @@
         "name": "Árboles Patrimoniales (SEDEMA Ciudad de México), no. 5",
         "url": null
       },
-      "height_m": 28
+      "height_m": 28,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mex_005-ahuehuete-de-parque-espana-3693bdc5.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_9d7a8a3b0067d110ffba1bea",
+          "sighting_id": "3693bdc5-cbb5-4ff1-909e-745a397aaf76",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mex_005-ahuehuete-de-parque-espana-9d72943f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_9d7a8a3b0067d110ffba1bea",
+          "sighting_id": "9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "mex_006",
