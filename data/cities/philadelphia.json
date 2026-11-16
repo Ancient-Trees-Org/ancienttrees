@@ -426,6 +426,48 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "phl_010",
+      "name": "The Grumblethorpe Ginkgo",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "roughly 190 years",
+      "age_min": 175,
+      "age_max": 240,
+      "location": {
+        "address": "Grumblethorpe, 5267 Germantown Avenue, Philadelphia, PA 19144",
+        "latitude": 40.03222,
+        "longitude": -75.16833,
+        "neighbourhood": "Germantown"
+      },
+      "location_site": {
+        "name": "Grumblethorpe house and gardens",
+        "radius_m": 40
+      },
+      "story": "The people who run Grumblethorpe believe the ginkgo in its grounds is one of the oldest female ginkgoes in America.\n\nGinkgoes come as separate male and female trees, and only the females fruit. Philadelphia's famous one, at Bartram's Garden, is a male planted in 1785. This is the other half of the story. The Philadelphia Society for the Preservation of Landmarks, which owns the house, calls it a massive fruiting ginkgo that towers over the property and dates it to around 1830. The Philadelphia Orchard Project names the man who planted it, Charles Wister Sr., and goes a step further, saying it may be the oldest known living female ginkgo in the country.\n\nBoth accounts say circa 1830, and other dates circulate, so take roughly 190 years as an estimate rather than a record. Nobody has published its girth or height.\n\nThe tree grew up with a family of gardeners. John Wister built the house in 1744, later Wisters were botanists, and by the owner's account the climbing wisteria is named for them. Grumblethorpe now sits inside the Colonial Germantown Historic District.\n\nSeeing it takes planning. The house opens to the public on the second Saturday of each month from May to October, noon to 4 pm, with garden mornings from August to October, and a ticket costs $10. Special events can cut hours, so email ahead. The pin marks the house, not the trunk, and it is not established whether the tree can be seen from Germantown Avenue.",
+      "how_to_recognise": "You can recognise it by its size, a fruiting ginkgo that towers over the whole property, with fan-shaped leaves. It stands in the grounds of Grumblethorpe, the 1744 Wister house at 5267 Germantown Avenue.",
+      "verified_sources": [
+        "https://www.philalandmarks.org/grumblethorpe",
+        "https://www.phillyorchards.org/2020/11/19/spotlight-on-ginkgo-pretty-edible-historic/",
+        "https://www.philalandmarks.org/contact-visit"
+      ],
+      "access": "Paid entry, open to the public on set days. Grumblethorpe, run by the Philadelphia Society for the Preservation of Landmarks, opens every second Saturday of the month from May to October, 12 to 4 pm; garden hours August to October, 10 am to 12 pm (owner's visit page, philalandmarks.org/contact-visit). General admission $10, students and seniors $8, families $25, free under 6. Open hours may be limited by special events, so email the society to check. Other visits are arranged with the society. Whether the ginkgo can be seen from Germantown Avenue is not established.",
+      "paid_entry": true,
+      "best_time": {
+        "months": [
+          10
+        ],
+        "kind": "autumn colour",
+        "label": "October, the last month the garden opens, as the fan-shaped leaves turn gold"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

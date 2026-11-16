@@ -1241,6 +1241,49 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "lpz_032",
+      "name": "The Horse Chestnut of Papiermühlstrasse",
+      "species": "Horse Chestnut (Aesculus hippocastanum)",
+      "age_estimate": "about 150 years, by the city cadastre's planting-year class",
+      "age_min": 130,
+      "age_max": 170,
+      "age_basis": "source",
+      "girth_cm": 354,
+      "height_m": 14,
+      "location": {
+        "address": "Papiermühlstrasse at the corner of Oststrasse, Leipzig",
+        "latitude": 51.32272,
+        "longitude": 12.42119,
+        "neighbourhood": "Stötteritz"
+      },
+      "story": "This street-corner chestnut in Stötteritz sits close to the top tenth of the 260 horse chestnuts we hold a measured girth for, anywhere. Leipzig's tree cadastre puts its trunk at 3.54 metres round and 1.13 metres through.\n\nIt is not a tall tree. The same record gives it 14 metres of height under a crown 12 metres wide, so it reads as broad and low rather than soaring. Leipzig protects it as natural monument number 34, under council resolution 601/96, together with a ring of 17 metres of ground around the trunk. It stands on a patch of public green where Papiermühlstrasse meets Oststrasse.\n\nNobody has published when it was planted. The cadastre files it under the planting year 1876, a figure the city gives to a whole class of trees rather than a record of this one, so read it as roughly 150 years and no tighter.\n\nHorse chestnuts are not native here. They came to central Europe from the Balkans in the sixteenth century and were planted for shade and show, and this one should do what the species is known for: upright white candles of flowers in May, shiny brown conkers in the autumn.\n\nThe latest word on it is the city's own tree register, which on 16 November 2026 still listed it as standing. If you pass the corner, tell us how it looks, and if you know who planted it, tell us that too.",
+      "how_to_recognise": "You can recognise it by the trunk, 3.54 metres round, under a crown about 12 metres wide and only 14 metres tall. It stands on the green at the corner of Papiermühlstrasse and Oststrasse.",
+      "verified_sources": [
+        "https://geodienste.leipzig.de/l3/OpenData/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeNames=OpenData:Baeume&outputFormat=application/json&CQL_FILTER=baumnummer%3D%27N79444%27",
+        "https://de.wikipedia.org/wiki/Liste_der_Naturdenkmale_in_Leipzig"
+      ],
+      "official_register": {
+        "name": "Stadt Leipzig Baumkataster (open data WFS), Naturdenkmal ND 34, tree N79444",
+        "url": "https://geodienste.leipzig.de/l3/OpenData/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeNames=OpenData:Baeume&outputFormat=application/json&CQL_FILTER=baumnummer%3D%27N79444%27"
+      },
+      "access": "Free, public city green at a street corner (cadastre area 'Grün- und Parkanlagen', Papiermühlstrasse/Oststrasse, Stötteritz).",
+      "best_time": {
+        "months": [
+          5
+        ],
+        "kind": "flowers",
+        "label": "May, when the crown carries the upright white flower candles of a horse chestnut"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

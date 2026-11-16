@@ -243,8 +243,8 @@
       "species": "Quercus robur",
       "lat": 51.29406,
       "lng": 12.33079,
-      "status": "lead",
-      "why": "2026-11-14 deepen pass: cadastre N78909 girth 370 cm, height 24 m (list 22 m), ground 'Kleingaerten' KGV Am Badeweg, Grosszschocher; Commons Stieleiche Lzg. Badeweg.jpg CC BY-SA 3.0, 2014 only. Stands inside an allotment colony: no source says it can be seen from public ground (hard rule 10), no recent life evidence (lifecheck NONE). Re-open if a street view or photograph shows it from the road."
+      "status": "held",
+      "why": "2026-11-16 write pass: cadastre re-read, ground 'Kleingaerten' (KGV Am Badeweg); inside an allotment colony, hard rule 10 until a source shows it from public ground. Earlier: 2026-11-14 deepen pass: cadastre N78909 girth 370 cm, height 24 m (list 22 m), ground 'Kleingaerten' KGV Am Badeweg, Grosszschocher; Commons Stieleiche Lzg. Badeweg.jpg CC BY-SA 3.0, 2014 only. Stands inside an allotment colony: no source says it can be seen from public ground (hard rule 10), no recent life evidence (lifecheck NONE). Re-open if a street view or photograph shows it from the road."
     },
     {
       "name": "Silberpappel Kolmstrasse (ND 107, N78879)",
@@ -259,32 +259,33 @@
       "species": "Aesculus hippocastanum",
       "lat": 51.32272,
       "lng": 12.42119,
-      "status": "lead",
-      "why": "2026-11-14 deepen pass: cadastre N79444 girth 354 cm, height only 14 m, planting-year class 1876; modest for a page; lifecheck NONE. Public green corner. Below the floor of a reason somebody can see."
+      "status": "published",
+      "why": "2026-11-16 write pass: published as lpz_032 (cadastre N79444 re-read today, not felled; ND 34 on the city list; 96% of the horse-chestnut reference). Earlier: 2026-11-14 deepen pass: cadastre N79444 girth 354 cm, height only 14 m, planting-year class 1876; modest for a page; lifecheck NONE. Public green corner. Below the floor of a reason somebody can see.",
+      "published_id": "lpz_032"
     },
     {
       "name": "Winterlinde Altes Dorf, Plausig (N78848)",
       "species": "Tilia cordata",
       "lat": 51.38604,
       "lng": 12.4495,
-      "status": "lead",
-      "why": "2026-11-14 deepen pass: cadastre N78848 girth 355 cm, height 14 m, street green, about 800 m from lpz_027. Unchecked beyond the cadastre, no photograph, lifecheck NONE; modest."
+      "status": "held",
+      "why": "2026-11-16 write pass: cadastre re-read (355 cm, 14 m, class 1866, Strassengruen, not felled); not on the ND list, cadastre only, 39% of the small-leaved lime reference. Below the floor; re-open with a second source or a reader. Earlier: 2026-11-14 deepen pass: cadastre N78848 girth 355 cm, height 14 m, street green, about 800 m from lpz_027. Unchecked beyond the cadastre, no photograph, lifecheck NONE; modest."
     },
     {
       "name": "Eiche Kleindoelzig (Q118105057)",
       "species": "Quercus robur",
       "lat": 51.35433,
       "lng": 12.22147,
-      "status": "lead",
-      "why": "2026-11-14 deepen pass: Wikidata natural monument in Saxony with a Commons image (Eiche Kleindoelzig - Ansicht von Sueden.jpg) but no measurement or source read; about 12 km west of the centre in Markranstaedt, outside the city cadastre. Needs a naming source and a travel time before it is a Leipzig day trip."
+      "status": "held",
+      "why": "2026-11-16 write pass: outside the Leipzig cadastre, no measurement and no source read; needs a verify pass first. Earlier: 2026-11-14 deepen pass: Wikidata natural monument in Saxony with a Commons image (Eiche Kleindoelzig - Ansicht von Sueden.jpg) but no measurement or source read; about 12 km west of the centre in Markranstaedt, outside the city cadastre. Needs a naming source and a travel time before it is a Leipzig day trip."
     },
     {
       "name": "Stieleiche Luetzowstrasse (N78911)",
       "species": "Quercus robur",
       "lat": 51.36269,
       "lng": 12.37267,
-      "status": "lead",
-      "why": "2026-11-14 deepen pass: cadastre N78911 girth 396 cm, height 23 m, street green, Gohlis-Sued, about 1 km from lpz_028. Not on the city Naturdenkmal list (the Luetzowstrasse entry there is a locust, ND 88) and no Commons photo or second source found, so existence as a notable tree rests on the cadastre alone; lifecheck NONE."
+      "status": "held",
+      "why": "2026-11-16 write pass: cadastre re-read (396 cm, 23 m, crown 18 m, class 1866, Strassengruen, not felled); not a natural monument, cadastre only, 48% of the pedunculate oak reference. Re-open with a second source or a reader. Earlier: 2026-11-14 deepen pass: cadastre N78911 girth 396 cm, height 23 m, street green, Gohlis-Sued, about 1 km from lpz_028. Not on the city Naturdenkmal list (the Luetzowstrasse entry there is a locust, ND 88) and no Commons photo or second source found, so existence as a notable tree rests on the cadastre alone; lifecheck NONE."
     },
     {
       "name": "Rosental veteran oaks poster (PDF not read)",
