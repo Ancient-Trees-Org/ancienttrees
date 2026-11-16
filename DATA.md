@@ -26,6 +26,88 @@ event on the list is unaffected.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## Weekly analysis 2026-11-16
+
+Sixteenth weekly analysis. Compares 11-09 to 11-15 with 11-02 to 11-08, read from the
+11-15 daily entry (7-day tables, Google and Bing rows). 11-15 is the Guardian day and
+carries most of the week; the other six days are at noise level. Google's 11-15 row is
+partial.
+
+**Scorecard**
+
+| Week | Impressions | Clicks | CTR | Avg position | Visitors (GA, new) | From Google | App downloads (first-time) | New accounts | Trees collected | Readers' contributions |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 11-02 to 11-08 | ~3,830 (11-08 now 1,013) | ~93 | ~2.5% | 8 to 10 on 4 days, 34 to 38 on 3 | 54 | 16 | 14 | 7 | 7 | 6 |
+| 11-09 to 11-15 | 1,803 (11-15 partial) | 221 | 12.3% | 5.5 to 9 on 11-08/09/15, 13 to 58 on the rest | 1,818 | 38 | 14 | 369 | 3 | 301 |
+
+Per day, 11-09 to 11-15: Google 1,177 / 196 / 16 / 28 / 32 / 51 / 303 impressions; 11-15
+has 182 clicks (60% CTR, position 5.5), almost all the brand query "ancient trees app"
+(i190 in the 10-day window). Bing, 7 days to 11-13: 905 impressions, 45 clicks (5.0%),
+80 to 190 a day; the "watchdog" line compares against the 11-01 spike (2,953) and is not
+news. 11-15 alone: 1,797 visitors, 365 new accounts, 191 saves, 944 Android waitlist
+signups (996 total), 98 feedback rows, 96 trees collected, 7,607 trees opened on 3,562
+phones. First-time downloads are not yet reported for 11-15 (Apple lags). Device split
+and per-visit ratios are not in the entry, so none is claimed.
+
+**Outreach yield** (data/mail-yield.json, mailbox read; weeks keyed by the Monday of our first mail; the week of 11-02 is the one old enough to read, 11-09 and 11-16 are not)
+
+| Group | Mailed, week of 11-02 | Answered of those | Mailed, total | Answered, total | Rate | Linked |
+|---|---:|---:|---:|---:|---:|---:|
+| archive | 10 | 2 | 27 | 5 | 19% | 0 |
+| nature | 16 | 2 | 81 | 6 | 7% | 1 |
+| guide | 19 | 0 | 37 | 1 | 3% | 1 |
+| source | 0 | 0 | 63 | 5 | 8% | 0 |
+| press | 23 | 0 | 126 | 9 | 7% | 0 |
+| tourism | 0 | 0 | 19 | 3 | 16% | 0 |
+| garden | 0 | 0 | 97 | 11 | 11% | 0 |
+| society | 0 | 0 | 148 | 25 | 17% | 1 |
+| council | 3 | 1 | 58 | 9 | 16% | 0 |
+| other | 19 | 4 | 366 | 61 | 17% | 2 |
+
+The week of 11-09 sent 196 mails (other 184, press 5, source 4, archive 2, guide 1,
+tourism 1) and 22 more went the week of 11-16; both too young to judge. Five links in
+all, none new this week.
+
+**What moved:**
+1. The Guardian piece on 11-15 moved the product numbers, not search: 1,797 visitors
+   against 3 to 11 a day, 365 accounts, 191 saves, 944 Android waitlist signups, 301
+   readers' contributions for the week against 6. It is one day; whether any of it
+   persists is not readable yet.
+2. Google search outside 11-15 is at noise level again: 16 to 51 impressions a day on
+   11-11 to 11-14 at position 22 to 58, after two days of about 1,000 (11-08, 11-09).
+   The 11-15 clicks are brand search from the article, not page recovery.
+3. Visitors from Google 38 against 16, from all search 48 against 21; the 11-02 to 11-08
+   comparison is a different regime and should not be read as growth.
+4. App first-time downloads 14 against 14 through 11-14 (11-15 not yet in); phones back
+   within 30 days 4 of 16. Trees collected 3 against 7 (99 across the days in the
+   day-by-day table, 96 on 11-15 alone, so read the 3 and the 99 as different counts).
+5. Quality: Web red, a RangeError "Maximum call stack size exceeded" in an inline script,
+   5 reports on 3 pages, on the day with the most visitors; Backup red (Hidde's setup).
+   Outreach: archive and council answer best by rate on small n; guide is 1 in 37.
+
+**Suggestions, ranked:**
+1. **[run]** Fix the RangeError (max call stack, inline script, 3 pages). It is rung-2
+   work and it hit the Guardian day; find the page paths in web_errors.py first.
+2. **[run]** Read the new-account and save cohort of 11-15 at day 7 and day 30 (accounts
+   still opening the app, saves turned into collects) before judging the Guardian day;
+   the 30-day phones row is the only retention number and it is 4 of 16 for older cohorts.
+3. **[sessie]** The 944 Android waitlist signups (996 total) are the largest asset of the
+   week. Android parity (data/android-parity.json) is the path; say in the waitlist
+   confirmation what happens next so the list stays warm.
+4. **[run]** Keep sourcing archive contacts for kept-set cities with photo gaps: archive
+   answers 5 of 27 (19%), the best of the coverage groups beside 7% for nature and 3% for
+   guide. Do not draft more guide mail until the week-of-11-02 batch's 19 mails have had
+   time (0 answers).
+5. **[FOR HIDDE]** 11-15 brand queries ("ancient trees app", position 1) earned 190
+   impressions in the window; Google ranks the site first for its own name but nowhere for
+   tree queries (position 22 to 58 on non-brand days). Decide whether press coverage is
+   the lane to repeat (Guardian, Bristol24/7, Wilder) since it is the only thing that has
+   moved traffic at scale; archive and nature outreach have produced no links this week.
+
+**Watch next week:** how many of the 11-15 accounts and visitors are still active on
+11-22 and 11-23 (visitors back to 3 to 11 a day would say the day was a spike), and
+whether the RangeError reports fall to zero.
+
 ## 2026-11-15 (previous UTC day)
 
 **Today: 56 android waitlist signups arrived today (996 total); 113 tree submissions and an ambassador request for Auckland and an ambassador request for Edinburgh and an ambassador request for London and an ambassador request for Media and an ambassador request for Melbourne and an ambassador request for Toronto and 25 correction reports and 80 feedback reports arrived today (283 submissions of every kind in all); 27 accounts were opened today (456 accounts in all).**
