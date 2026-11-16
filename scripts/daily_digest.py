@@ -2055,8 +2055,19 @@ def ambassador_requests_section(today):
     return "\n".join(out)
 
 
-FEEDBACK_KINDS = ("Worth it", "Not worth it", "Pin moved", "Written feedback",
+FEEDBACK_KINDS = ("Pin moved", "Written feedback",
                   "Report on a tree", "Could not tell which tree", "Collected far from our pin")
+
+
+def is_vote(row):
+    """A worth-it or not-worth-it tap, or the undo of one. NEVER counted with
+    trees, photos, corrections or notes (Hidde, 2026-11-16: "kun je vanaf nu
+    nooit meer worth it stemmen en boominzendingen onder 1 kap gooien dit zijn
+    hele andere dingen"). One tap from the sofa is not a tree somebody walked
+    to and photographed; every count of reader input asks this first.
+    qa check_votes_never_count_as_contributions."""
+    low = (row.get("why") or "").strip().lower()
+    return low in ("worth it", "not worth it") or low.startswith("vote undone")
 
 
 def feedback_kind(why):
@@ -2066,10 +2077,7 @@ def feedback_kind(why):
     meer"). Anything a person typed themselves is written feedback."""
     w = (why or "").strip()
     low = w.lower()
-    if low == "worth it":
-        return "Worth it"
-    if low == "not worth it":
-        return "Not worth it"
+    # Votes never reach this: they have their own row (is_vote).
     if low.startswith("moved the pin on the map"):
         return "Pin moved"
     if low.startswith("collected with a photograph"):
@@ -2111,7 +2119,7 @@ def day_by_day_section(today):
     cols = collections.OrderedDict((k, None) for k in (
         "Visitors", "New accounts", "Saves", "Android waitlist", "App downloads",
         "App deletions", "App phones", "Trees opened in the app", "Trees collected",
-        "Trees sent", "Feedback", "Ambassador asks", "Website photos", "iPhone photos",
+        "Trees sent", "Feedback", "Worth-it votes", "Ambassador asks", "Website photos", "iPhone photos",
         "Android photos", "Tree notes",
         "App Store reviews"))
     totals = {}  # a row whose week is not the sum of its days
@@ -2175,8 +2183,11 @@ def day_by_day_section(today):
                     and not (r.get("why") or "").startswith("vote undone")]
             fill("Trees sent", ((r["created_at"], 1) for r in subs if r.get("kind") in ("tree", "city")))
             fill("Ambassador asks", ((r["created_at"], 1) for r in subs if r.get("kind") == "ambassador"))
-            feedback = [r for r in subs if r.get("kind") not in ("tree", "city", "ambassador")]
+            votes = [r for r in subs if is_vote(r)]
+            feedback = [r for r in subs if r.get("kind") not in ("tree", "city", "ambassador")
+                        and not is_vote(r)]
             fill("Feedback", ((r["created_at"], 1) for r in feedback))
+            fill("Worth-it votes", ((r["created_at"], 1) for r in votes))
         except Exception as e:
             print("day_by_day submissions: %s" % str(e)[:100])
     try:
@@ -3868,19 +3879,25 @@ def _hl_supabase(today):
             wk[w] += 1
     out["saves"] = wk
     # Any feedback is a good sign (Hidde, 2026-10-19): every submission a
-    # stranger sends (a tree, a city, a correction, a worth-it vote, an
-    # ambassador ask) plus every photograph shared from the app.
+    # stranger sends (a tree, a city, a correction, an ambassador ask) plus
+    # every photograph shared from the app. Worth-it votes are their own row
+    # (Hidde, 2026-11-16: "hele andere dingen"; is_vote).
     rows, _ = _supa("/rest/v1/submissions?select=id,created_at,why,user_id"
                     "&created_at=gte.%sT00:00:00" % since, key)
-    wk = [0, 0]
+    wk, votes = [0, 0], [0, 0]
     for r in rows or []:
         if r.get("id") in TEST_SUBMISSION_IDS or is_ours(r.get("user_id")):
             continue
         if (r.get("why") or "").startswith("vote undone"):
             continue
         w = _week_of(r.get("created_at"), today)
-        if w is not None:
+        if w is None:
+            continue
+        if is_vote(r):
+            votes[w] += 1
+        else:
             wk[w] += 1
+    out["votes"] = votes
     # Photographs by the day they reached us. This read sightings.created_at
     # until 2026-11-12, a column the table does not have: PostgREST refused
     # the query, the except swallowed it, and no app photograph was ever
@@ -4018,7 +4035,8 @@ def headline_section(today):
         ("Phones back within 30 days", "people who stay", H.get("back30")),
         ("Trees saved to Want to go", "intent", H.get("saves")),
         ("Trees collected", "goal 1: stood at a tree", H.get("collected")),
-        ("Readers' contributions", "data: trees, photos, corrections, votes", H.get("contributions")),
+        ("Readers' contributions", "data: trees, photos, corrections", H.get("contributions")),
+        ("Worth-it votes", "one tap, not a contribution", H.get("votes")),
         ("Shares (app and web)", "word of mouth, since 10-30", _sum_weeks(H.get("shares_app"), H.get("shares_web"))),
         ("Visits from a shared link", "what sharing brings", H.get("share_visits")),
     ]

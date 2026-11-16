@@ -599,6 +599,55 @@ def check_the_digest_never_shows_bots():
     return out
 
 
+def check_votes_never_count_as_contributions():
+    """A worth-it vote is never counted with trees, photos, corrections or notes.
+
+    Hidde, 2026-11-16, after a session reported "84 submissions" of which 27
+    were worth-it taps: "kun je vanaf nu nooit meer worth it stemmen en
+    boominzendingen onder 1 kap gooien dit zijn hele andere dingen". One tap
+    from the sofa and a tree somebody walked to and photographed answer
+    different questions. So daily_digest.is_vote() decides what a vote is (run
+    here on sample rows), the headline's contributions count skips votes and
+    votes have their own headline row, and the day table's Feedback row skips
+    them beside its own Worth-it votes row. Removing this check needs Hidde.
+    """
+    out = []
+    root = Path(__file__).resolve().parent.parent
+    src = (root / "scripts/daily_digest.py").read_text(encoding="utf-8")
+    m = re.search(r"^def is_vote\(.*?(?=^def |\Z)", src, re.M | re.S)
+    if not m:
+        return ["scripts/daily_digest.py: is_vote() is gone; worth-it votes are never counted "
+                "with trees and photos (Hidde, 2026-11-16)."]
+    ns = {}
+    try:
+        exec(m.group(0), ns)
+    except Exception as e:
+        return [f"scripts/daily_digest.py: is_vote() does not run ({e})"]
+    for why, want in (("worth it", True), ("Not worth it", True), ("vote undone: worth it", True),
+                      ("Moved the pin on the map, 40 m", False), ("A huge oak by the church", False)):
+        if ns["is_vote"]({"why": why, "kind": "feedback"}) != want:
+            out.append(f"daily_digest.is_vote() calls {why!r} {'a vote' if not want else 'not a vote'}; "
+                       "votes and contributions are counted apart (Hidde, 2026-11-16).")
+    hl = re.search(r"^def _hl_supabase\(.*?(?=^def )", src, re.M | re.S)
+    if not hl or "is_vote(r)" not in hl.group(0) or 'out["votes"]' not in hl.group(0):
+        out.append("daily_digest._hl_supabase(): the contributions count must skip is_vote() rows "
+                   "and count them as out[\"votes\"] (Hidde, 2026-11-16).")
+    hs = re.search(r"^def headline_section\(.*?(?=^def )", src, re.M | re.S)
+    if hs:
+        body = hs.group(0)
+        row = re.search(r'\("Readers\' contributions",[^\n]*', body)
+        if not row or "vote" in row.group(0).lower():
+            out.append("daily_digest.headline_section(): the Readers' contributions row names votes; "
+                       "votes have their own row (Hidde, 2026-11-16).")
+        if '"Worth-it votes"' not in body:
+            out.append("daily_digest.headline_section(): no Worth-it votes row beside contributions.")
+    dd = re.search(r"^def day_by_day_section\(.*?(?=^def )", src, re.M | re.S)
+    if not dd or "not is_vote(r)" not in dd.group(0) or 'fill("Worth-it votes"' not in dd.group(0):
+        out.append("daily_digest.day_by_day_section(): the Feedback row must skip is_vote() rows, "
+                   "which fill their own Worth-it votes row (Hidde, 2026-11-16).")
+    return out
+
+
 def check_the_headline_never_judges_take_me_there():
     """The headline never grades a first day by Take me there, and "back" is 30 days.
 
@@ -4148,6 +4197,7 @@ def main():
         check_the_pages_run_before_they_go_live,
         check_the_digest_never_shows_bots,
         check_the_headline_never_judges_take_me_there,
+        check_votes_never_count_as_contributions,
         check_the_digest_page_shows_readers_words,
         check_a_deleted_account_keeps_its_photographs,
         check_notes_are_read_before_they_are_marked_read,
@@ -4357,6 +4407,7 @@ def main():
     failures += check_the_pages_run_before_they_go_live()
     failures += check_the_digest_never_shows_bots()
     failures += check_the_headline_never_judges_take_me_there()
+    failures += check_votes_never_count_as_contributions()
     failures += check_the_digest_page_shows_readers_words()
     failures += check_a_deleted_account_keeps_its_photographs()
     failures += check_notes_are_read_before_they_are_marked_read()

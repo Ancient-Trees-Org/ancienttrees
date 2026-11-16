@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: worth-it votes counted apart from trees and photos
+
+- **Rule** (Hidde: "kun je vanaf nu nooit meer worth it stemmen en boominzendingen onder 1 kap gooien dit zijn hele andere dingen"): `daily_digest.is_vote()` decides what a vote is. The headline's "Readers' contributions" now counts trees, photos, corrections and ambassador asks only, with a new "Worth-it votes" row beside it; the day table's Feedback row leaves votes out and they get their own row. qa `check_votes_never_count_as_contributions()` (green as built, red with the old lumped label put back).
+- **Open**: whether votes move out of the `submissions` table into a table of their own is Hidde's call (asked).
+
 ## 2026-11-16 night run (window from 14:32 UTC)
 
 - **Rung 1, reader photographs (5 on mapped trees, 2 on unmapped ones), all looked at.** Two trees got their first photograph: the Centenary palms of Parque de la Misericordia in Bilbao (pin also moved 139 m to the reader's GPS fix, now confirmed) and the Huff Creek Road White Pine in Nicolet National Forest. Three planes (Jardines de Albia, Brunswick Square, Lietzensee) were already in the strip; the Albia pin moved 46 m to the fix, confirmed. The two unmapped ones stay leads with a written verdict: the Westonbirt-labelled redwood (pin is south of Wotton-under-Edge, species and size unconfirmed) and the San Bonifacio holm oak (looks like a Street View screenshot, no GPS). The five verdicts had to be written by hand into the judgement file because `judgement.py --scan` reads only the queue and publishing had already emptied it.
