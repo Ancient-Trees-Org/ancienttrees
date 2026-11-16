@@ -23,6 +23,15 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16
+
+Web half: the last 24 hours were the Hanoi banyan (hni_003, a reader's tip, visible from the pavement, sources named), Leipzig and Philadelphia app-only trees, reader photographs into strips, sign-in "Did you mean" copy and the tree_votes table. No em dashes in the Hanoi built page.
+
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Tenth review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
+- WARN site/dist/contribute.html (source site/src/pages/contribute.astro) still says "verified against independent sources before it goes live". False since "Good reader input IS the source" (2026-10-12). Twenty-first review. Replacement: "We read every submission before it is kept."
+
+App half: pending.
+
 ## 2026-11-15
 
 Web half: the last 24 hours were Buffalo and Bamberg trees (app-only, no pages built, correct under APP FIRST), Potsdam and Fort Worth walls and data digests. No em dashes in the sampled built pages.
