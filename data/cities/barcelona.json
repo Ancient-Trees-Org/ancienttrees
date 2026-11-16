@@ -2591,6 +2591,71 @@
       "notes": "Sources are the Amics' mail of 2026-11-02 ('una olivera de mes de 8 metres', photograph) and the two booklets they sent: the AMB guide of 2009 (olive on the entrance plaza, grown freely for more than 70 years, natural form) and the 2017 itinerary (9 m, estimated 70 years in 2017, never pruned, 'conserva la forma originaria'). The chaste-tree cutting beside it is the 2009 guide's own statement. Not in data/registers/barcelona-ail.json (the register's 'Oliveres del Jardi Botanic de Barcelona' are two trees in the new garden, a different place). Pin approximate on the entrance plaza, derived from the OSM relation of the garden and its entrance node; no coordinate of its own. Flagged until a reader or a register confirms the spot.",
       "how_to_recognise": "You can recognise it by its height, nine metres on an olive that was never pruned, a single trunk rising into a tall narrow crown on the entrance plaza just inside the gate, with the group of cycads nearby.",
       "verify_notes": "2026-11-03: added from the Amics del Jardi Botanic's photographs and booklets; a lead in data/leads/barcelona.json since their first mail of 2026-11-01."
+    },
+    {
+      "id": "bcn_062",
+      "name": "The Plane of Carrer de Cantabria",
+      "species": "London Plane (Platanus x hispanica)",
+      "age_estimate": "about 110 years, planted around 1917",
+      "age_min": 105,
+      "age_max": 112,
+      "age_basis": "source",
+      "girth_cm": 300,
+      "height_m": 18,
+      "location": {
+        "address": "Carrer de Cantabria 72 bis, 08020 Barcelona",
+        "latitude": 41.423679494934156,
+        "longitude": 2.198834997506968,
+        "neighbourhood": "La Verneda i la Pau, Sant Marti"
+      },
+      "location_precision": "approximate",
+      "story": "Walk round this street tree and you can look straight into it. The trunk of the plane on Carrer de Cantabria has opened on one side into a hollow taller than a person, and the tree goes on standing on the wood that is left, two thick pillars of mottled bark meeting again above the cavity. A tree lives in its outer layers, just under the bark, so a plane can lose its heartwood and keep growing for decades. The city's green sign in the tree pit gives the year it was born as around 1917, more than a century of traffic, parking and pavement works around its roots. Barcelona catalogued it as a Tree of Local Interest in 1997, catalogue number 0129-10-97. The register measures it at 18 metres tall, with a crown 18 metres across and a trunk three metres round, the crown as wide as the tree is tall. In summer that crown shades the whole corner, a single plane in full leaf above parked cars, with a tall date palm beside it and the open trunk at street level for anyone who stops to look inside.",
+      "verified_sources": [
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/7052709e-1087-4ef3-862a-1a6c3e9a7200",
+        "Ajuntament de Barcelona sign at the tree (Arbre d'interes local, num. de cataleg 0129-10-97, any aproximat de naixement 1917), photographed by Ricard Llerins Bonet",
+        "Ricard Llerins Bonet, author of 100 arbres singulars de la ciutat de Barcelona, by mail 2026-11-15"
+      ],
+      "access": "Free, a street tree on the pavement of Carrer de Cantabria; always open.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bcn_062-the-plane-of-carrer-de-cantabria.jpg",
+        "license": "Used with permission from Ricard Llerins Bonet; credit required",
+        "source": "mail",
+        "attribution": "Ricard Llerins Bonet",
+        "status": "approved",
+        "width": 1249,
+        "height": 1665,
+        "permission": {
+          "words": "Et passo algun arbre, un en cada correu. (reply, with the photographs attached, to our ask 'Tindries fotos d'aquests arbres que poguessim fer servir, amb el teu nom al costat?')",
+          "date": "2026-11-15"
+        },
+        "note": "Sent by mail on 2026-11-15 by Ricard Llerins Bonet (tree book author, Barcelona) in answer to our photo ask of 2026-10-25, one tree per mail. Taken 29-06-2015. Looked at 2026-11-16: the whole tree in full leaf, the hollow trunk at the bottom, the date palm beside it and the green city sign in the pit, which matches the register entry. Daylight, colour. He offered a current photo in a few days."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bcn_062-the-plane-of-carrer-de-cantabria-trunk.jpg",
+          "license": "Used with permission from Ricard Llerins Bonet; credit required",
+          "source": "mail",
+          "attribution": "Ricard Llerins Bonet",
+          "status": "approved",
+          "width": 1249,
+          "height": 1665,
+          "permission": {
+            "words": "Et passo algun arbre, un en cada correu. (reply, with the photographs attached, to our ask 'Tindries fotos d'aquests arbres que poguessim fer servir, amb el teu nom al costat?')",
+            "date": "2026-11-15"
+          },
+          "note": "The hollow trunk with the city sign, 22-02-2014; same mail and permission as the lead."
+        }
+      ],
+      "how_to_recognise": "You can recognise it by the trunk, hollow and open on one side, with the city's green Arbre d'interes local sign (0129-10-97) in the tree pit and a tall date palm beside it.",
+      "official_register": {
+        "name": "Arbres d'interes local (Ajuntament de Barcelona), no. 99400454963",
+        "url": null
+      },
+      "found_by_reader": {
+        "tip": "mail, 2026-11-15"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-16: added from Ricard Llerins Bonet's mail of 2026-11-15 (four photographs: trunk and crown 22-02-2014, crown in leaf 29-06-2015, the sign 10-01-2015). He lives near it and writes that the tree has changed little. Register data/registers/barcelona-ail.json 99400454963: planted 1917, girth 3 m, height 18 m, crown 18 m, catalogued 1997. Pin is the register's coordinate, kept approximate until a GPS fix."
     }
   ],
   "oldest_tree_id": "bcn_001"

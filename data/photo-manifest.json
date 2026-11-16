@@ -587,6 +587,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bcn_062-the-plane-of-carrer-de-cantabria.jpg": {
+   "base": "bcn_062-the-plane-of-carrer-de-cantabria",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bcn_062-the-plane-of-carrer-de-cantabria-trunk.jpg": {
+   "base": "bcn_062-the-plane-of-carrer-de-cantabria-trunk",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/e/e9/BargischowKircheFranzosenlinde.jpg": {
    "base": "brc_001-franzosenlinde-bargischow",
    "widths": [

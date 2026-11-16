@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Ricard Llerins Bonet's first Barcelona tree is live
+
+- **New tree, Barcelona**: bcn_062 The Plane of Carrer de Cantabria (https://ancienttrees.app/barcelona/plane-of-carrer-de-cantabria), a hollow London plane of about 1917, Tree of Local Interest since 1997 (register 99400454963). Ricard (book author, answered our archive ask of 10-25 from his spam on 11-15) mailed four photos, one tree per mail he says; his 2015 summer photo leads, the 2014 hollow trunk in the strip, credited, `permission` with his words. Found by reader (mail), so it has a web page under APP FIRST; es overlay added (count 57 to 58).
+- **For Hidde**: the reply drafts/reply-ricard-llerins-2026-11-16.md (Catalan, no ask: he promised current photos and more trees). Next mails from him: one tree each, same route.
+
 ## 2026-11-16 session: Supabase egress after the Guardian weekend
 
 - Usage page (Hidde's paste): 7.48 GB of 5 this cycle (28 Oct to 28 Nov); grace until 2026-12-13, restriction only if the next cycle (from 28 Nov) also passes 5 GB, so about 165 MB a day. The 11-13 fix held (database egress fell to about 50 MB a day on 11-14); 11-15 was about 850 MB and 11-16 about 450, almost all storage.
