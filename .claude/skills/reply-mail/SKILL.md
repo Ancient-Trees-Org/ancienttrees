@@ -20,6 +20,8 @@ If they corrected us or gave us a tree, change the site first and reply "it is o
 
 Their own sentences about a tree go on its page as a quote, unnamed, never retold (Hidde, 2026-10-25: "shouldnt we use her literal words so that google loves us more than ai?"). Copy them into data/outreach-words.json (private; format in scripts/reader_words.py) before writing the reply, then quote them; `python3 scripts/reader_words.py` lists any still missing. Only their own words: a book they quote is named, not copied.
 
+A mail that offers the Android test group, or a person's yes to it, goes on the score in the same step it is sent: `python3 scripts/android_testers.py --add "<name>" <email> asked|yes "<their words or ours>" "<thread>"` (or `--set <email> yes`), then `private_store.py push` (Hidde, 2026-11-16).
+
 ## 3. The shape (four to six lines, under 150 words)
 
 1. Thanks and the answer in one line. Thank separately for each thing they gave; close with "Thanks again" when they gave a lot.

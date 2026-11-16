@@ -39,7 +39,7 @@ Elk punt hieronder staat met het antwoord in drafts/play-console-forms.md.
 ## 4. Gesloten test (verplicht voor een nieuw persoonlijk account)
 
 1. Testing > **Closed testing** > Create track (of de standaard "Alpha").
-2. **Testers**: maak een e-maillijst met minstens 12 Google-adressen (liever 15). Wie je zou kunnen vragen staat in de forms-draft; niemand is benaderd.
+2. **Testers**: maak een e-maillijst met minstens 12 Google-adressen (liever 15). Wie al ja zei of gevraagd is: `python3 scripts/android_testers.py` (de stand tegen de 12; `--emails` geeft de adressen om te plakken). Wie je nog zou kunnen vragen staat in de forms-draft.
 3. **Create new release**. Bij de eerste upload vraagt Play om **Play App Signing**: kies "Use Google-generated key" (de standaard). Upload `out/play/ancient-trees-0.1.0-1.aab`.
 4. Release name mag zo blijven; release notes: één regel, bijvoorbeeld `First test of Ancient Trees on Android.`
 5. **Review release** > **Start rollout to Closed testing**. Google keurt het eerst (uren tot een paar dagen).
