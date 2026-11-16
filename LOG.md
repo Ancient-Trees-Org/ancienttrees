@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 Guimaraes verify pass: one tree delivered
+
+- **Product**: one verified entry, gui_010 The Camellia of Casa de Margaride (2024 Portuguese Tree of the Year, 4th in European Tree of the Year 2025, Despacho 837/2022), flagged, in data/research/guimaraes-verified.json. Its access, the block of two earlier passes, is settled by the Portuguese Historic Gardens Association's entry (paid entry by appointment, contact given) and the bookable-tour rule. Pin approximate (ICNF coordinate, front courtyard as small site); age kept broad 100 to 300 with the dispute in verify_notes.
+- **Rejected / stays lead**: Casa da Covilha camellia (still no stated access), Moreira de Conegos pine (no access or exact pin), Casa da Ribeira (wood, no collectible point); all other register rows within 20 km are live, outside the day-trip boundary or belong to Braga, Paços de Ferreira and Santo Tirso.
+- **Breakage**: evasoes.pt (403 on the Margaride visit article, not archived) and the Overpass mirrors; the 8 EUR price is only a search summary and is flagged as to confirm.
+
 ## 2026-11-16 write pass: nothing to write
 
 - **Product**: nothing new. The seven research files suggested for this pass (wisconsin, us-photo-batch-1, wales-yews, somerset-dorset-yews, southeast-england-yews, washington-dc-2, new-york-3) are fully published. `passcheck.py --pending` lists only the 15 entries the earlier write pass today judged as standing holds (all_001, asp_001/002, ssb_002/003, brd_001, cbu_001, dmr_002, det_001/002, frk_027, sgz_005, inn_007, tmt_001, not_002/003) or duplicates (sfo_012, taiwan a28_001); no new verified file since. No story written over a hold.
