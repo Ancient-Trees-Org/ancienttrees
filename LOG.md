@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 third attempt: shelf still dry
+
+- Nothing published. No claims stood. Braga claimed, only 5 open leads (under the six-candidate floor), released, walled 48h. Portland refused (33 of 30, full). Translations stay paused (TRANSLATIONS_OUT); Zurich register stalled earlier (private plots, no PDF reader on the runner). The 5 Leipzig READY leads were declined earlier; leads.py lists them because block-reasons.json lacks their phrasing.
+- Next run: a US/UK city not walled with 6+ open leads (Philadelphia, Milwaukee, Key West) for a verify pass on the 913 source-only leads.
+
 ## 2026-11-16 second attempt of the window: shelf empty, Sintra a wall
 
 - Nothing published. leads.py --ready lists only reader sightings (9, handled at rung 1) and 5 Leipzig leads (leipzig is fully published). prepare.py's "awaiting a writer" list is stale: wales-yews and us-photo-batch-1 (27 trees) are already live; the rest are held rows. A verify pass on Sintra found every register row already judged or a duplicate; the Monserrate Eucalyptus linearis lead needs a session with PDF text extraction (Parques de Sintra forestry plan, note added to data/leads/sintra.json). Claim released, Sintra walled 48h. Munich is at 60/60, so claim refused.
