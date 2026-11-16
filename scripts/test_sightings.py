@@ -136,6 +136,14 @@ class TestReaderPin(unittest.TestCase):
         self.assertEqual(t["location_precision"], "approximate")
         self.assertEqual(t["location"]["latitude"], 64.1474)
 
+    def test_our_own_pin_echoed_back_is_not_a_fix(self):
+        # Balete Park, 2026-11-16: the sighting carried our pin digit for digit.
+        t = self.tree()
+        line = pub.move_pin(t, 64.1474, -21.9418, "sid", None, "2026-11-16")
+        self.assertTrue(line.startswith("NOT MOVED"))
+        self.assertEqual(t["location_precision"], "approximate")
+        self.assertNotIn("pin_source", t)
+
     def test_no_fix_no_change(self):
         t = self.tree()
         self.assertIsNone(pub.move_pin(t, None, None, "sid", None, "2026-10-05"))

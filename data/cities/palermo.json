@@ -707,10 +707,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/pal_016-the-embracing-fig-of-the-giardini-reali.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c07f879c59cb7e88c9feeb66",
+        "sighting_id": "a214560c-ed08-44cc-999a-ee3ffc9a3525",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Closes the gap: the whole buttressed fig fills the frame, daylight, colour. Species seen: huge buttressed trunk of fused aerial roots, pale smooth bark, large leathery oval leaves: Ficus macrophylla. Fits the description: a very large fig, roped off beside a garden path with palms, a dark older trunk visible inside the root cage; GPS 12 m from our confirmed pin in the Giardini Reali.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "story": "A stone pine in the Royal Gardens is slowly disappearing into a fig. Over the decades this Ficus macrophylla has grown around a large Pinus pinea beside it and taken part of it inside itself. The Sicilian Regional Assembly, which occupies the Palazzo dei Normanni above the garden, describes the fig as embracing the pine. An Italian nature writer, less diplomatically, called it a deadly embrace. Both are looking at the same thing.\n\nIt is the largest of the three Moreton Bay Figs in the Giardini Reali, ten metres round and twenty metres tall, and the register that recorded it rates its health as excellent. Its age is a dendrological estimate rather than a documented planting: roughly 135 years, which in honest terms means somewhere between about 115 and 155. That leaves it younger and far smaller than the fig in Piazza Marina, which is the one holding Palermo's records.\n\nWhat it grows on is the other half of the story. The Giardini Reali are a terraced garden on top of the walls of the Palazzo dei Normanni, the palace the Norman kings raised over the old city and which now houses the island's parliament. Against that the fig is a newcomer, and it is still the thing people stop for.\n\nThat is also the catch for a visitor. The gardens open on limited days around parliamentary business and charge an entry fee, so check the current hours before you cross town for this one.",
       "paid_entry": true,

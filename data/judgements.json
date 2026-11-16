@@ -548,6 +548,430 @@
    "agreed": null
   },
   {
+   "id": "lead:92fac7a0-332e-4b6b-8d54-463b3e592c17",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Populus nigra subsp. Betulifolia near Linton, Herefordshire",
+   "city": null,
+   "species": "Populus nigra subsp. Betulifolia",
+   "photo": "p_48178e92fdea8f66a594fb70/92FAC7A0-332E-4B6B-8D54-463B3E592C17.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.592,
+    "via": "girth",
+    "note": "59% of the species reference (507 cm, n=224, max 975)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e0402f44-1b12-431a-9901-7974f79ccb2f",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Grape",
+   "city": null,
+   "species": "Grape",
+   "photo": "p_742ddcddb4933ac8924fbf8c/E0402F44-1B12-431A-9901-7974F79CCB2F.jpg",
+   "reader_note": "The Royal Hotel beer garden boasts the famous grape vine - believed to have been planted in the early 1900’s as it was reported to be well established when the 1904 extensions were done. It still bares grapes each year and provides great cool, summer shade.",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Grape"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Oak",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_1da733ab711af3a711a929ed/2AF51C4D-954D-4EBF-AC1F-82DCD5EF4A7F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f91bd966-db25-4276-91ce-9fb1c5806347",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "The Champion Lodgepole Pine",
+   "city": null,
+   "species": "Lodgepole Pine",
+   "photo": "p_697eb4a0c77311e0508c5fb0/F91BD966-DB25-4276-91CE-9FB1C5806347.jpg",
+   "reader_note": "The Champion Lodgepole Pine is one of the largest recorded lodgepole pines (Pinus contorta) in California, located in the San Bernardino Mountains near Big Bear Lake and accessible via the mountain areas above Angelus Oaks.\n\nKey Details & History\n\n• Age: Estimated to have germinated around 1560 (over 440 years old), predating permanent European settlement in the region.\n• Dimensions: Stands over 110 feet tall, with a trunk circumference of about 22 feet and a bulbous base measuring roughly 36 fe",
+   "reader_girth_cm": 1100,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lodgepole Pine"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-908",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Ancient totara tree",
+   "city": null,
+   "species": null,
+   "photo": "p_2488e74029ba86d35cd03b06/59182a97-b834-4131-9a47-cf11595813b5.jpg",
+   "reader_note": "2,000 years old, with a massive measuring around 8.5 meters",
+   "reader_girth_cm": 850,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-928",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "1500 old olive tree",
+   "city": null,
+   "species": "Olive (Olea sp.)",
+   "photo": "p_4cefec9f5644f57abdf55de5/8aaacc3b-25f0-4dda-91e0-4bada94ffb62.jpg",
+   "reader_note": "Over 1500 years old, huge olive tree (Olea europaea), majestic, maybe planted by Romans",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive (Olea sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-930",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Linden tree next to the pond",
+   "city": null,
+   "species": "Lime (Tilia sp.)",
+   "photo": "p_4cefec9f5644f57abdf55de5/a9bf69d3-085f-4f43-85bf-f09e7c265bbd.jpg",
+   "reader_note": "Big linden tree with branched trunk that is part of Slovenian national heritage",
+   "reader_girth_cm": 166,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lime (Tilia sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2c98f48f-4b53-4323-a37c-443d57f3ccf7",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Aogiri of Peace Memorial Park",
+   "city": "Hiroshima",
+   "species": "Chinese Parasol Tree (Firmiana simplex)",
+   "photo": "out/sightings/2c98f48f-4b53-4323-a37c-443d57f3ccf7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 24,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Chinese Parasol Tree (Firmiana simplex)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the propped, fenced aogiri (Firmiana simplex, lobed leaves, seed pods) behind its A-bomb survivor panel, GPS 24 m from our pin; now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a214560c-ed08-44cc-999a-ee3ffc9a3525",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Embracing Fig of the Giardini Reali",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/a214560c-ed08-44cc-999a-ee3ffc9a3525.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the whole buttressed Moreton Bay fig in the Giardini Reali, GPS 12 m from our confirmed pin; now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:91d6b7ac-a5a5-41b6-a4d1-db96231b2250",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Enchanted Balete Tree of Lazi",
+   "city": "Siquijor",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/91d6b7ac-a5a5-41b6-a4d1-db96231b2250.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 3,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the balete over its spring pool with visitors' feet in the water, GPS 3 m from our pin; now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Millennium Tree of Balete Park",
+   "city": "Maria Aurora",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the giant balete's fused-root cage to crown, a group at its foot with faces masked; now the lead. Its coordinate is our own pin echoed back, so the pin stays approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:586a2d0f-096b-421c-97dc-62e612fd99b2",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "El Árbol del Tule",
+   "city": "Santa María del Tule",
+   "species": "Montezuma Cypress (Taxodium mucronatum)",
+   "photo": "out/sightings/586a2d0f-096b-421c-97dc-62e612fd99b2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 281,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Montezuma Cypress (Taxodium mucronatum)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the lobed Montezuma cypress trunk, unmistakable; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a04e6933-4b0d-4172-90d1-5d13dcfec0e5",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Elleholmseken (The Oak of Elleholm)",
+   "city": "Elleholm",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/a04e6933-4b0d-4172-90d1-5d13dcfec0e5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 27,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the same broad oak as the lead, close on its trunk and limbs in spring leaf; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:96c47295-7fb6-40d8-b0da-3575f4b9b420",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Willow Nearest the Hypocentre",
+   "city": "Hiroshima",
+   "species": "Weeping Willow (Salix babylonica)",
+   "photo": "out/sightings/96c47295-7fb6-40d8-b0da-3575f4b9b420.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 19,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping Willow (Salix babylonica)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the propped weeping willow with its survivor signs on the grass by the Youth Centre, at dusk but in colour; stays in the strip, its GPS fix now the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7fb05e54-cf36-4393-a549-92e3c17d96b3",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Fortingall Yew",
+   "city": "Fortingall",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/7fb05e54-cf36-4393-a549-92e3c17d96b3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 10,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the split yew stems inside the churchyard enclosure wall; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b8d96d31-883d-496e-8607-a353a8acab01",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "General Sherman Tree",
+   "city": "Sequoia National Park",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/b8d96d31-883d-496e-8607-a353a8acab01.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: General Sherman from the fenced viewing plaza, matching the Commons lead; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9342233f-7ec8-4d72-b3d6-2f859d2c26c1",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "Lincoln Tree",
+   "city": "Sequoia National Park",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/9342233f-7ec8-4d72-b3d6-2f859d2c26c1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the Lincoln Tree's burnt cavity between two burls, matching the Commons lead; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c86414b5-1884-40c9-aff2-724f25f8e1f4",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Sacred Olive Tree of the Acropolis",
+   "city": "Athens",
+   "species": "Olive (Olea europaea)",
+   "photo": "out/sightings/c86414b5-1884-40c9-aff2-724f25f8e1f4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive (Olea europaea)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the olive in its stone enclosure against the Erechtheion, Caryatid porch behind; stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:45ea816d-259f-4437-ac86-d3499f0269a4",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",

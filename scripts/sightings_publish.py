@@ -352,6 +352,12 @@ def move_pin(tree, lat, lon, sighting_id, taken_at, today):
     if loc.get("latitude") is None or loc.get("longitude") is None:
         return None
     d = metres(loc["latitude"], loc["longitude"], lat, lon)
+    # OUR OWN PIN ECHOED BACK (2026-11-16, Balete Park): a photograph with no
+    # location of its own arrives carrying the coordinate of the tree the
+    # reader picked, digit for digit. That is our approximate pin, not a fix,
+    # and calling it confirmed would be faked precision.
+    if d < 0.5:
+        return f"NOT MOVED {tree.get('id')}: the reader's coordinate is our own pin, not a GPS fix"
     if d > READER_PIN_MAX_M:
         return (f"NOT MOVED {tree.get('id')}: the reader stood {round(d)} m from our pin, "
                 f"over {READER_PIN_MAX_M} m; look before trusting it")
@@ -911,6 +917,24 @@ def main():
             counts["add"] += 1
             mark_status(sid, verdict, really)
             print(f"  KEPT    {entry['tree_id']} {entry['tree_name'][:40]}: already in the strip, stays")
+            continue
+        if is_lead(entry):
+            # ALREADY THE LEAD (2026-11-16): a reader-found tree went live with
+            # this very photograph as its lead, and the sighting stayed in the
+            # queue (fourteen of them that day). `add` would write it again
+            # under a second name and push its own twin into the strip;
+            # `approve` would rewrite the block, and for an accented name
+            # (Préfargier) under a new file name. The verdict only closes it.
+            lead = load(os.path.join(ROOT, "data", "cities", f"{entry['city_slug']}.json"), {"trees": []})
+            url = next(((t.get("photo") or {}).get("url") or "" for t in lead.get("trees", [])
+                        if t.get("id") == entry["tree_id"]), "")
+            done[sid] = {"outcome": "published", "date": today, "tree_id": entry["tree_id"],
+                         "city_slug": entry["city_slug"], "file": url.rsplit("/", 1)[-1],
+                         "reason": reason[:300], "already_lead": True,
+                         "lat": entry.get("latitude"), "lon": entry.get("longitude")}
+            counts[verdict] += 1
+            mark_status(sid, verdict, really)
+            print(f"  KEPT    {entry['tree_id']} {entry['tree_name'][:40]}: already the lead, stays")
             continue
         stem = f"{entry['tree_id']}-{slugify(entry['tree_name'])}"
         fname = f"{stem}-{entry['sighting_id'][:8]}.jpg" if extra else f"{stem}.jpg"

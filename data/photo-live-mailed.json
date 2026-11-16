@@ -1165,6 +1165,15 @@
      "city_slug": "hiroshima",
      "display_name": null,
      "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "2c98f48f-4b53-4323-a37c-443d57f3ccf7",
+     "tree_id": "hir_005",
+     "tree_name": "The Aogiri of Peace Memorial Park",
+     "city": "Hiroshima",
+     "city_slug": "hiroshima",
+     "display_name": null,
+     "live": "2026-11-16"
     }
    ],
    "sent": []
@@ -1202,6 +1211,51 @@
      "tree_name": "The Sacred Olive Tree of the Acropolis",
      "city": "Athens",
      "city_slug": "athens",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_c07f879c59cb7e88c9feeb66": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a214560c-ed08-44cc-999a-ee3ffc9a3525",
+     "tree_id": "pal_016",
+     "tree_name": "The Embracing Fig of the Giardini Reali",
+     "city": "Palermo",
+     "city_slug": "palermo",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_fbd1aced1b3b821984917ad5": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "91d6b7ac-a5a5-41b6-a4d1-db96231b2250",
+     "tree_id": "sqj_001",
+     "tree_name": "Enchanted Balete Tree of Lazi",
+     "city": "Siquijor",
+     "city_slug": "siquijor",
+     "display_name": null,
+     "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_b850abab290eb2c9da2d91b2": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7",
+     "tree_id": "mra_001",
+     "tree_name": "Millennium Tree of Balete Park",
+     "city": "Maria Aurora",
+     "city_slug": "maria-aurora",
      "display_name": null,
      "live": "2026-11-16"
     }

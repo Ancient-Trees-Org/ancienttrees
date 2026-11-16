@@ -52,10 +52,17 @@
       "access": "Pay-to-enter attraction, reported 20 pesos per person, fish-spa bait 50 to 100 pesos extra (insiquijor guide, updated March 2026; owner/municipal page not found). Hours unconfirmed. Public roadside tourist stop on the island's coastal road.",
       "transport": "Siquijor has no rail; reached by tricycle, motorbike or car from Lazi town or Siquijor town along the coastal road. Island tours stop here.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/sqj_001-enchanted-balete-tree-of-lazi.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 3,
+        "source": "contributor",
+        "contributor_user_id": "p_fbd1aced1b3b821984917ad5",
+        "sighting_id": "91d6b7ac-a5a5-41b6-a4d1-db96231b2250",
+        "note": "Photographed by a reader and sent through the app (2024-03-29); a viewing pass approved it on 2026-11-16: Closes the gap: the balete above its spring pool with visitors' feet in the water, the scene the page describes; daylight, colour. Species seen: curtains of aerial roots hanging from a massive strangler fig, glossy fig foliage: Ficus. Fits the description: the spring pool at the tree's foot with people sitting on the edge feet in the water for the fish, roadside garden setting; GPS 3 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

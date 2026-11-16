@@ -41,7 +41,7 @@
         "longitude": 121.4769,
         "neighbourhood": "Barangay Quirino, Maria Aurora"
       },
-      "story": "You can stand inside this tree. A balete is a strangler fig: it starts life as a seed in the branches of another tree, sends roots down around its host and slowly takes its place. Here the host is long gone, and what remains is a cage of fused roots around a hollow that one visitor in 2012 reckoned would hold about fifteen people.\n\nIt is billed locally as the largest balete in Asia and carries the title of the Philippines' Millennium Tree. We could not find a measurement behind either claim. The age has the same problem: about 600 years is the figure on Wikipedia, on a photographer's caption and on the travel blogs, and each of them repeats the others rather than counting anything. Treat it as tradition. If it is anywhere near right, this fig was already strangling its host before the first Spanish ships reached these islands.\n\nA blog says sixty people with linked arms could ring it, a number easier to repeat than to test. Folklore says engkanto, the spirits of Philippine tradition, live in it, and it turns up on lists of the country's haunted places.\n\nIt is very much alive, photographed for iNaturalist in 2023 and reviewed online by over a thousand visitors. Expect a small entrance fee, souvenir stalls and local guides offering a walk through the roots for a little extra. Nobody has settled the species: one observer says Ficus benjamina. If you know, tell us.",
+      "story": "You can stand inside this tree. A balete is a strangler fig. It starts life as a seed in the branches of another tree, sends roots down around its host and slowly takes its place. Here the host is long gone, and what remains is a cage of fused roots around a hollow that one visitor in 2012 reckoned would hold about fifteen people.\n\nIt is billed locally as the largest balete in Asia and carries the title of the Philippines' Millennium Tree. We could not find a measurement behind either claim. The age has the same problem: about 600 years is the figure on Wikipedia, on a photographer's caption and on the travel blogs, and each of them repeats the others rather than counting anything. Treat it as tradition. If it is anywhere near right, this fig was already strangling its host before the first Spanish ships reached these islands.\n\nA blog says sixty people with linked arms could ring it, a number easier to repeat than to test. Folklore says engkanto, the spirits of Philippine tradition, live in it, and it turns up on lists of the country's haunted places.\n\nIt is very much alive, photographed for iNaturalist in 2023 and reviewed online by over a thousand visitors. Expect a small entrance fee, souvenir stalls and local guides offering a walk through the roots for a little extra. Nobody has settled the species, though one observer says Ficus benjamina. If you know, tell us.",
       "verified_sources": [
         "https://en.wikipedia.org/wiki/Balete_tree",
         "https://www.marxtermind.com/the-old-balete-tree-and-the-ditumabo-falls-in-aurora/",
@@ -52,10 +52,17 @@
       "access": "Park with a small entrance fee (reported 30 pesos plus a 10 peso environmental fee, a 2012 blog says donation only; fee unconfirmed from the owner's own page). Reported open 24 hours. Pay toilets, souvenir stalls, local guides charge extra. Roughly 30 minutes by tricycle from Baler (2012 blog); 7 km from Maria Aurora town proper (search snippet of municipal page).",
       "transport": "No rail. Tricycle or car from Baler town, ~30 min per a 2012 blog; on the Pantabangan-Canili-Basal-Baler Road.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mra_001-millennium-tree-of-balete-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 656,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b850abab290eb2c9da2d91b2",
+        "sighting_id": "7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Closes the gap: the whole balete from cage of roots to crown, people at its foot for scale (faces masked), daylight, colour. Species seen: a cage of fused aerial roots rising into a broad fig crown: strangler Ficus. Fits the description: one giant balete standing alone on open ground, the fused-root trunk many times the height of the group in front; GPS on our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",

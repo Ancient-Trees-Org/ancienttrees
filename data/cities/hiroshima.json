@@ -40,8 +40,8 @@
       "age_max": null,
       "location": {
         "address": "Motomachi 14, west of the Hiroshima Youth Centre, Naka-ku, Hiroshima 730-0011",
-        "latitude": 34.3979,
-        "longitude": 132.4534,
+        "latitude": 34.397733,
+        "longitude": 132.453416,
         "neighbourhood": "Motomachi"
       },
       "story": "Three hundred and seventy metres. That is the whole of what makes this willow remarkable, and it is enough. No registered survivor in Hiroshima stood closer to the point the bomb went off. It is the first entry on the city's list, N03a1-01, and the code itself carries the facts. N for north of the hypocentre, 03 for the three hundred metre band, a for never transplanted. It is standing where it stood. A weeping willow is not a strong tree. It is fast, soft-wooded and short-lived, the sort of thing a city plants along a river because it grows quickly and looks well over water, and at this distance the heat and the blast took everything above ground. What survived was underground. The willow came back from its own roots, which is how most of the trees on this register survived, and the trunk you stand in front of grew after 1945 from a root system that did not. Nobody has published its age. The register does not carry one, because the register was built to record a distance rather than a life. It stands in the Chuo Park green space west of the Youth Centre, on ground that is now grass and paths and was, for a while after 1945, expected to grow nothing at all.",
@@ -62,7 +62,7 @@
         "taken_month": 11
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "notes": "Age, girth and height are not recorded: Hiroshima's A-bombed tree register carries species, address, owner and distance from the hypocentre only. The 370 m and the identification code N03a1-01 are the city's own. The pin is the west side of the Youth Centre as the register describes it, not a surveyed position for the trunk. The regrowth-from-the-roots account is the general pattern the city and its sources describe for trees at this distance rather than a statement sourced about this individual, and the story says so.",
       "how_to_recognise": "You can recognise it by the setting: a weeping willow standing alone on the grass west of the Youth Centre, 370 metres from the hypocentre. It stands in the Chuo Park green space at Motomachi 14.",
       "official_register": {
@@ -84,7 +84,14 @@
           "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-16, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-16"
         }
-      ]
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "96c47295-7fb6-40d8-b0da-3575f4b9b420",
+        "moved_m": 19,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "hir_002",
@@ -243,10 +250,17 @@
       "access": "Free, open public park",
       "transport": "Tram to Genbaku Dome-mae or Chuden-mae, in Peace Memorial Park",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hir_005-the-aogiri-of-peace-memorial-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_8762d5eeaf614cc69438a40e",
+        "sighting_id": "2c98f48f-4b53-4323-a37c-443d57f3ccf7",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Closes the gap: the propped, fenced aogiri behind its A-bomb survivor panel, daylight, colour, tree centred. Species seen: large palmately lobed leaves, smooth green-grey trunk, clusters of boat-shaped seed pods at the crown tips: Firmiana simplex. Fits the description: fenced aogiri on poles with the glass information panel and a small sign reading the A-bombed aogiri, park paths behind; GPS 24 m from our confirmed pin north of the museum.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
