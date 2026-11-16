@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -222,12 +223,13 @@ fun AppSheet(
         // A full sheet marks its top for scripts/android_spacing.py, which holds it
         // and the navigation row under it against the iPhone's (a point tall, in the
         // handle's slot, which Material lays at the top of the surface).
-        dragHandle = if (floating) dragHandle else ({
-            androidx.compose.foundation.layout.Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
-                Box(Modifier.size(1.dp).testTag("full-sheet-top"))
-                dragHandle?.invoke()
-            }
-        }),
+        // NO HANDLE SLOT (2026-11-16, the final parity round): Material 1.4 wraps
+        // whatever stands in its dragHandle slot in a clickable with a "Drag
+        // handle" tooltip, and on the emulator every sheet opened with the tooltip
+        // up and a grey focus column over the grabber. The iPhone's grabber is a
+        // mark, nothing to tap, so ours is drawn as the content's first row below
+        // (the same 48 of room, so nothing moves); the whole sheet still drags.
+        dragHandle = null,
         properties = properties,
         // The iPhone's dimming is light: white under it reads #D6D6DA, Material's 32
         // percent black reads #A8A8A8 (review 2026-11-11, row 124).
@@ -245,10 +247,26 @@ fun AppSheet(
         },
     ) {
         // A sheet opened from inside this one has its own owner.
+        // The handle row, where Material's slot stood. A full sheet marks its top
+        // for scripts/android_spacing.py, which holds it and the navigation row
+        // under it against the iPhone's (a point tall, above the handle).
+        val handleRow: @Composable () -> Unit = {
+            androidx.compose.foundation.layout.Column(
+                Modifier.fillMaxWidth(),
+                horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally,
+            ) {
+                if (!floating) Box(Modifier.size(1.dp).testTag("full-sheet-top"))
+                dragHandle?.invoke()
+            }
+        }
         CompositionLocalProvider(LocalSheetClose provides close, LocalSheetPresence provides null) {
             if (grows) {
-                androidx.compose.foundation.layout.Column(growth.modifier(scope)) { content() }
+                androidx.compose.foundation.layout.Column(growth.modifier(scope)) {
+                    handleRow()
+                    content()
+                }
             } else {
+                handleRow()
                 content()
             }
         }
