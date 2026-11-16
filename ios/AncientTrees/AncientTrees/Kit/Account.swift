@@ -435,6 +435,15 @@ public final class Account {
         state = .codeSent(email: clean)
     }
 
+    /// "Use a different address" on the check-your-email step (2026-11-16):
+    /// back to the address field. Only from that step; nothing is signed out,
+    /// because nothing was signed in.
+    public func useDifferentAddress() {
+        guard case .codeSent = state else { return }
+        problem = nil
+        state = .signedOut
+    }
+
     public func verify(code: String, email: String) async {
         let clean = code.filter(\.isNumber)
         guard clean.count >= 6 else {

@@ -19,6 +19,9 @@
     <string name="signin_open_gmail">Gmailを開く</string>
     <string name="signin_open_mail">メールを開く</string>
     <string name="signin_again">もう一度リンクを送る</string>
+    <string name="signin_check_sent_to">サインインのリンクを %1$s に送った。</string>
+    <string name="signin_suggest">もしかして %1$s?</string>
+    <string name="signin_change">別のアドレスを使う</string>
     <string name="signed_in">ログイン中</string>
     <string name="settings">設定</string>
     <string name="settings_sign_in">ログイン</string>

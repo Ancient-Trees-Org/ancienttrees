@@ -238,6 +238,21 @@ class Account(context: Context) {
         if (state is SignIn.LinkSent || state is SignIn.Working) state = SignIn.SignedOut
     }
 
+    /** The address "Use a different address" puts back in the field; read once by the sheet. */
+    var addressToFix by mutableStateOf<String?>(null)
+
+    /**
+     * "Use a different address" on the check-your-email step (Account.swift
+     * useDifferentAddress, 2026-11-16): back to the field with the address in
+     * it. Nothing is signed out, because nothing was signed in.
+     */
+    fun useDifferentAddress() {
+        val sent = state as? SignIn.LinkSent ?: return
+        problem = null
+        addressToFix = sent.email
+        state = SignIn.SignedOut
+    }
+
     // MARK: inside
 
     private var lastRefusal = false

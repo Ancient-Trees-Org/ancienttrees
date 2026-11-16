@@ -59,6 +59,7 @@ import androidx.compose.animation.animateContentSize
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
@@ -83,6 +84,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.ancienttrees.R
 import app.ancienttrees.account.Account
+import app.ancienttrees.account.EmailSuggest
 import app.ancienttrees.account.Problem
 import app.ancienttrees.account.SignIn
 import kotlinx.coroutines.launch
@@ -184,8 +186,15 @@ private fun Ask(account: Account, reason: SignInReason) {
     val context = LocalContext.current
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
-    var emailOpen by remember { mutableStateOf(false) }
-    var address by remember { mutableStateOf("") }
+    // "Use a different address" brings the field back open with the address in it.
+    val toFix = account.addressToFix
+    var emailOpen by remember { mutableStateOf(toFix != null) }
+    var address by remember { mutableStateOf(toFix ?: "") }
+    LaunchedEffect(toFix) { if (toFix != null) account.addressToFix = null }
+    // The address a "Did you mean ...?" was held for on a Send (EmailSuggest.kt):
+    // the first Send with a suggestion holds once, the second goes out as typed.
+    var heldFor by remember { mutableStateOf<String?>(null) }
+    var fieldFocused by remember { mutableStateOf(false) }
     val working = account.state is SignIn.Working
     val focus = remember { FocusRequester() }
 
@@ -219,7 +228,15 @@ private fun Ask(account: Account, reason: SignInReason) {
                 }
             } else {
                 LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
-                val send = { scope.launch { account.sendLink(address) }; Unit }
+                val suggestion = EmailSuggest.suggestion(address)
+                val send = {
+                    if (suggestion != null && heldFor != address.trim()) {
+                        heldFor = address.trim()
+                    } else {
+                        scope.launch { account.sendLink(address) }
+                    }
+                    Unit
+                }
                 BasicTextField(
                     value = address,
                     onValueChange = { address = it },
@@ -228,7 +245,8 @@ private fun Ask(account: Account, reason: SignInReason) {
                     cursorBrush = SolidColor(brand.moss),
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email, imeAction = ImeAction.Go, autoCorrectEnabled = false),
                     keyboardActions = KeyboardActions(onGo = { send() }),
-                    modifier = Modifier.fillMaxWidth().focusRequester(focus),
+                    modifier = Modifier.fillMaxWidth().focusRequester(focus)
+                        .onFocusChanged { fieldFocused = it.isFocused },
                     decorationBox = { inner ->
                         Box(
                             Modifier.fillMaxWidth().height(52.dp).background(brand.surfaceMuted, RoundedCornerShape(50)).padding(horizontal = 18.dp),
@@ -239,6 +257,25 @@ private fun Ask(account: Account, reason: SignInReason) {
                         }
                     },
                 )
+                // "Did you mean ...?" (SignIn.swift): once the person leaves the
+                // field or presses Send, never mid-typing; the address is the tap.
+                if (suggestion != null && (!fieldFocused || heldFor == address.trim())) {
+                    val words = stringResource(R.string.signin_suggest, suggestion)
+                    val at = words.indexOf(suggestion)
+                    val styled = buildAnnotatedString {
+                        append(words)
+                        if (at >= 0) addStyle(
+                            SpanStyle(fontWeight = FontWeight.Bold, textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline),
+                            at, at + suggestion.length,
+                        )
+                    }
+                    Text(
+                        styled, fontSize = 13.sp, color = brand.inkSoft, textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth()
+                            .clickable(role = Role.Button) { address = suggestion; heldFor = null }
+                            .testTag("signin-email-suggest"),
+                    )
+                }
                 val can = !working && '@' in address
                 Box(
                     Modifier.fillMaxWidth().height(52.dp).clip(RoundedCornerShape(50)).background(brand.moss.copy(alpha = if (can) 1f else 0.5f))
@@ -300,7 +337,17 @@ private fun CheckYourEmail(account: Account, to: String) {
             stringResource(R.string.signin_check_title), fontFamily = BrandFace, fontWeight = FontWeight.Bold,
             fontSize = 26.sp, lineHeight = 31.sp, color = brand.ink, textAlign = TextAlign.Center, style = headlineStyle(),
         )
-        Text(stringResource(R.string.signin_check_sub), fontSize = 15.sp, color = brand.inkSoft, textAlign = TextAlign.Center)
+        // THE WHOLE ADDRESS (SignIn.swift, 2026-11-16): a typo before the @
+        // only the person can catch, if the step names where the link went.
+        val sentTo = stringResource(R.string.signin_check_sent_to, to)
+        val at = sentTo.indexOf(to)
+        Text(
+            buildAnnotatedString {
+                append(sentTo)
+                if (at >= 0) addStyle(SpanStyle(fontWeight = FontWeight.Bold), at, at + to.length)
+            },
+            fontSize = 15.sp, color = brand.inkSoft, textAlign = TextAlign.Center,
+        )
     }
     account.problem?.let { Text(problemText(it), fontSize = 13.sp, color = Color(0xFFFF3B30)) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.padding(top = 4.dp)) {
@@ -311,6 +358,14 @@ private fun CheckYourEmail(account: Account, to: String) {
             scope.launch { account.sendLink(to) }
         })
     }
+    // Back to the field, the address still in it (SignIn.swift "Use a different address").
+    Text(
+        stringResource(R.string.signin_change), fontSize = 13.sp, fontWeight = FontWeight.SemiBold,
+        color = brand.inkSoft, textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline,
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth().clickable(role = Role.Button) { account.useDifferentAddress() }
+            .testTag("signin-change-address"),
+    )
 }
 
 /**

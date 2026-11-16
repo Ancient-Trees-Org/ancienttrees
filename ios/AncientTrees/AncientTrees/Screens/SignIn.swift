@@ -216,6 +216,29 @@ struct SignInSheet: View {
     }
 
     @State private var emailOpen = false
+    /// The address a "Did you mean ...?" was shown for on a Send (Kit/
+    /// EmailSuggest.swift). The first Send with a suggestion holds once so it
+    /// is seen; a second Send for the same address goes out as typed.
+    @State private var suggestionHeldFor: String?
+
+    private var trimmedAddress: String { address.trimmingCharacters(in: .whitespacesAndNewlines) }
+
+    /// Shown once the person leaves the field or presses Send, never while
+    /// they are still typing (a half-typed "gmail.c" is not a mistake yet).
+    private var shownSuggestion: String? {
+        guard let s = EmailSuggest.suggestion(for: address) else { return nil }
+        return (focus != .email || suggestionHeldFor == trimmedAddress) ? s : nil
+    }
+
+    private func send() {
+        if EmailSuggest.suggestion(for: address) != nil, suggestionHeldFor != trimmedAddress {
+            suggestionHeldFor = trimmedAddress
+            focus = nil
+            return
+        }
+        focus = nil
+        Task { await account.sendCode(to: address) }
+    }
 
     /// The third way in, closed until asked for.
     @ViewBuilder private var emailRoute: some View {
@@ -238,13 +261,29 @@ struct SignInSheet: View {
                 .autocorrectionDisabled()
                 .submitLabel(.go)
                 .focused($focus, equals: .email)
-                .onSubmit { Task { await account.sendCode(to: address) } }
+                .onSubmit { send() }
                 .padding(.horizontal, 18).frame(height: 52)
                 .background(Color(.secondarySystemBackground), in: .capsule)
 
+            // "Did you mean ...?", the corrected address the tap target, in
+            // the website's words and weight (signin-suggest).
+            if let s = shownSuggestion {
+                (Text("Did you mean ") + Text(s).bold().underline() + Text("?"))
+                    .font(.footnote).foregroundStyle(Brand.inkSoft)
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
+                    .contentShape(Rectangle())
+                    .onTapGesture {
+                        address = s
+                        suggestionHeldFor = nil
+                    }
+                    .accessibilityAddTraits(.isButton)
+                    .accessibilityLabel("Did you mean \(s)? Tap to use it.")
+                    .accessibilityIdentifier("signin-email-suggest")
+            }
+
             Button {
-                focus = nil
-                Task { await account.sendCode(to: address) }
+                send()
             } label: {
                 HStack(spacing: 8) {
                     if account.state == .working { ProgressView().tint(.white) }
@@ -291,9 +330,11 @@ struct SignInSheet: View {
                     .font(.brand(26, .bold, relativeTo: .title2))
                     .foregroundStyle(Brand.ink)
                     .multilineTextAlignment(.center)
-                Text(Launch.emailCode
-                     ? "We sent you a sign-in code."
-                     : "We sent you a sign-in link.")
+                // THE WHOLE ADDRESS (2026-11-16, CONVENTIONS.md "A mistyped
+                // email address"): a typo before the @ no list can catch, but
+                // the person can, if the step names where the link went.
+                (Text(Launch.emailCode ? "We sent a sign-in code to " : "We sent a sign-in link to ")
+                 + Text(to).bold() + Text("."))
                     .font(.subheadline).foregroundStyle(Brand.inkSoft)
                     .multilineTextAlignment(.center)
             }
@@ -360,6 +401,19 @@ struct SignInSheet: View {
                 .buttonStyle(SheetButtonStyle(kind: .secondary))
             }
             .padding(.top, 4)
+
+            // Back to the field, the address still in it, as the website's
+            // "Use a different address" on the same step.
+            Button("Use a different address") {
+                address = to
+                suggestionHeldFor = nil
+                emailOpen = true
+                account.useDifferentAddress()
+                focus = .email
+            }
+            .font(.footnote.weight(.semibold)).foregroundStyle(Brand.inkSoft)
+            .underline()
+            .accessibilityIdentifier("signin-change-address")
         }
         .onAppear { if Launch.emailCode { focus = .code } }
     }

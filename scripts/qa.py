@@ -1173,6 +1173,31 @@ def check_one_mail_route_rule():
     return out
 
 
+def check_one_email_domain_list():
+    """"Did you mean ...?" under the email field (Hidde, 2026-11-16; CONVENTIONS.md
+    "A mistyped email address") runs on three surfaces from one list,
+    data/email-domains.json: the website reads it at build time, the iPhone
+    (Kit/EmailSuggest.swift) and Android (account/EmailSuggest.kt) carry copies
+    between DOMAINS-BEGIN and DOMAINS-END. A copy that drifts would suggest a
+    different address on one surface than on another. Removing this check
+    needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    want = set(json.loads((root / "data" / "email-domains.json").read_text(encoding="utf-8"))["domains"])
+    out = []
+    for rel in ("ios/AncientTrees/AncientTrees/Kit/EmailSuggest.swift",
+                "android/app/src/main/java/app/ancienttrees/account/EmailSuggest.kt"):
+        p = root / rel
+        if not p.exists():
+            out.append("%s is missing (the app's copy of data/email-domains.json)" % rel)
+            continue
+        m = re.search(r"DOMAINS-BEGIN(.*?)DOMAINS-END", p.read_text(encoding="utf-8"), re.S)
+        got = set(re.findall(r'"([^"]+)"', m.group(1))) if m else set()
+        if got != want:
+            out.append("%s's domain list differs from data/email-domains.json (missing %s, extra %s); "
+                       "copy it in again" % (rel, sorted(want - got)[:5] or "-", sorted(got - want)[:5] or "-"))
+    return out
+
+
 def check_a_given_photo_records_the_yes():
     """A photograph somebody gave us by mail goes up only with their yes on file.
 
@@ -4112,6 +4137,7 @@ def main():
     SOURCE_ONLY = [
         check_no_daily_cap_on_reader_mail,
         check_one_mail_route_rule,
+        check_one_email_domain_list,
         check_a_readers_words_go_public_only_after_the_field_said_so,
         check_a_pull_keeps_unpushed_send_lines,
         check_run_prompt_forbids_compound_commands,

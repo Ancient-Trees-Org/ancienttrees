@@ -19,6 +19,9 @@
     <string name="signin_open_gmail">Ouvrir Gmail</string>
     <string name="signin_open_mail">Ouvrir Mail</string>
     <string name="signin_again">Renvoyer un lien</string>
+    <string name="signin_check_sent_to">Nous avons envoyé un lien de connexion à %1$s.</string>
+    <string name="signin_suggest">Vouliez-vous dire %1$s ?</string>
+    <string name="signin_change">Utiliser une autre adresse</string>
     <string name="signed_in">Connecté</string>
     <string name="settings">Réglages</string>
     <string name="settings_sign_in">Se connecter</string>

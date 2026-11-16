@@ -19,6 +19,9 @@
     <string name="signin_open_gmail">Gmail öffnen</string>
     <string name="signin_open_mail">Mail öffnen</string>
     <string name="signin_again">Neuen Link senden</string>
+    <string name="signin_check_sent_to">Wir haben einen Anmeldelink an %1$s geschickt.</string>
+    <string name="signin_suggest">Meintest du %1$s?</string>
+    <string name="signin_change">Andere Adresse verwenden</string>
     <string name="signed_in">Angemeldet</string>
     <string name="settings">Einstellungen</string>
     <string name="settings_sign_in">Anmelden</string>
