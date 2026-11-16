@@ -15,7 +15,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-16 session: the Nhan Dan banyan in Hanoi is live (a reader's tip)
 
 - New tree hni_003, the banyan of Nhan Dan at 71 Hang Trong, Hanoi (Hidde: "Yes, put it live"). It was blocked as a lead: it stands in a newspaper's courtyard. The reader who tipped it (submission 700) answered our question by mail: "visible from the sidewalk", which meets hard rule 10 under the El Pino ruling. Age over 300 years (Nhan Dan 2022 and 2026, VietnamPlus 2026), over 400 by the reader's estimate. No photo, so it carries a recognition line; species asked on the page (Ficus sp.). Approximate pin on the Le Thai To pavement. `found_by_reader.tip`, so it gets a web page under APP FIRST. Hanoi intro and meta grew with it; the lead left data/leads/hanoi.json.
-- Submission 700 set to `changed`. The reply with the link is in drafts/reply-reader-700-2026-11-16.md (mailcheck clean), for her mail thread; not sent.
+- Submission 700 set to `changed`. The reply with the link is in drafts/reply-reader-700-2026-11-16.md (mailcheck clean), sent the same afternoon by contributor_reply.py (Hidde: "Yes, send it").
 
 ## 2026-11-16 session: website-added trees now say "Approved" on the reader's My trees
 
