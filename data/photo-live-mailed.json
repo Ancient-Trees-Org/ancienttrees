@@ -1041,97 +1041,69 @@
    ]
   },
   "p_ccfec79b6fd8ef4fe71357b4": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
      "tree_id": "bwd_001",
-     "tree_name": "The Borrowdale Yews (the Fraternal Four)",
-     "city": "Borrowdale",
-     "city_slug": "borrowdale",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_9d7a8a3b0067d110ffba1bea": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "3693bdc5-cbb5-4ff1-909e-745a397aaf76",
      "tree_id": "mex_005",
-     "tree_name": "Ahuehuete de Parque Espana",
-     "city": "Mexico City",
-     "city_slug": "mexico-city",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "9d72943f-aba5-4ab8-a8da-ee9c3a21a1cf",
      "tree_id": "mex_005",
-     "tree_name": "Ahuehuete de Parque Espana",
-     "city": "Mexico City",
-     "city_slug": "mexico-city",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_e39e45c93adb2e443fb58c3b": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "27b65062-4209-44fa-ad20-a179dd1e974f",
      "tree_id": "chs_001",
-     "tree_name": "The Angel Oak",
-     "city": "Charleston",
-     "city_slug": "charleston",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_ab50071883c0a2df1b7a50bb": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "99f05329-69a2-4b6e-95d9-e9fd600f1e95",
      "tree_id": "hou_009",
-     "tree_name": "The Becks Prime Augusta Live Oaks",
-     "city": "Houston",
-     "city_slug": "houston",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     },
     {
      "sighting_id": "ba6554c4-009e-4b14-888a-bd41f6901099",
      "tree_id": "hou_002",
-     "tree_name": "The Old Pecan Tree",
-     "city": "Houston",
-     "city_slug": "houston",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f0fa897174bc50999a318322": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-16",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b9f7a4d7-2a41-4d1b-9794-955f39d4951a",
      "tree_id": "kyw_003",
-     "tree_name": "The Kapok Tree",
-     "city": "Key West",
-     "city_slug": "key-west",
-     "display_name": null,
-     "live": "2026-11-16"
+     "mailed": "2026-11-16"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_4ef71b74f814d07e898bb5c1": {
    "last": null,

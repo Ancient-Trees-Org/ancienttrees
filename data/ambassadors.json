@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-16T04:23Z",
+  "synced": "2026-11-16T10:08Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -155,6 +155,15 @@
       "public": true,
       "since": "2026-11-16",
       "display_name": "Cher T.",
+      "profile_public": true
+    },
+    {
+      "user_id": "88440c17-61af-4607-a533-7ff50753d1be",
+      "place_slug": "colchester",
+      "place_name": "Colchester",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "Laura T.",
       "profile_public": true
     },
     {
@@ -908,6 +917,13 @@
       "place_slug": "toronto",
       "place_name": "Toronto",
       "date": "2026-11-16"
+    },
+    {
+      "row": 914,
+      "user_id": "p_f0928aeb25ec62a35e302db8",
+      "place_slug": "colchester",
+      "place_name": "Colchester",
+      "date": "2026-11-16"
     }
   ],
   "told": {
@@ -1503,6 +1519,13 @@
         "tro_004",
         "tro_005",
         "tro_006"
+      ],
+      "since": "2026-11-16",
+      "mailed": []
+    },
+    "colchester": {
+      "trees": [
+        "cls_001"
       ],
       "since": "2026-11-16",
       "mailed": []
