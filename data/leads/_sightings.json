@@ -2423,9 +2423,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "looked at 2026-11-15: a healthy dawn redwood in summer leaf with a GPS fix (Toronto east end), but a modest trunk in what looks like a garden or yard, no note, no age or size; not clearly public ground (hard rule 10) and no reason a visitor would walk to it. Waits for a note on where it stands and why it matters.",
-   "seen": "2026-11-15"
+   "status": "lead",
+   "why": "Photograph viewed: a handsome flared dawn redwood on a lawn among garden shrubs, daylight. Dawn redwoods in North America date from after 1948, no size is given, and the setting reads as a garden whose public access we cannot confirm. A lead.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "ed5bd210-4a52-4fe2-90a8-f121559ef711",
@@ -4144,9 +4145,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-16: a huge multi-stemmed ombu (Phytolacca dioica) with a vast buttressed base, fenced inside a cafe courtyard in Essaouira; GPS fix at the tree, visibly big, species plausible. Worth the walk and a paid cafe is open to the public: ships as a reader-found tree once a source for the 250-year claim is checked; the claim stays the reader's until then.",
-   "seen": "2026-11-16"
+   "status": "published",
+   "why": "Photograph viewed: the whole ombu from its domed root flare into a crown over a walled café courtyard, daylight, colour, GPS fix in the Essaouira medina. Reader photo plus fix: live as essaouira/ess_001, their words quoted, age and girth as theirs.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16",
+   "published_as": "essaouira/ess_001"
   },
   {
    "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9",
@@ -4176,8 +4179,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "Looked at 2026-11-16: a broad old oak with a second veteran behind it on open ground, GPS fix at Jelasnica (Nis, Serbia), the reader says state-protected nature reserve and 300 years. Good photo plus a fix: publishable as a reader-found tree; check the Serbian protected-tree register for the name and girth before quoting 300 years.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: a handsome open-grown pedunculate oak with a second trunk behind, daylight, GPS in the Jelasnica reserve. But the reader's own tape says 200 cm, half the genus reference, and 'state protection' is not a reason; 300 years is unlikely at that girth. A lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "bfc89932-0e03-486f-9857-72e11af25298",
@@ -4202,10 +4206,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-16: a tall maple-shaped tree in full autumn colour, not an oak, so the name and species do not agree with the photograph. A fix on Djurgarden near Waldemarsudde. Lead only: ask the reader which tree it is before a page.",
+   "status": "held",
+   "why": "Photograph viewed: a tall tree in full orange autumn colour with lobed, maple-like leaves, not an oak, so not Prince Eugen's Oak. Could be the wrong tree; waits for a photograph of the oak itself.",
    "seen": "2026-11-16",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "b4902ef7-a641-4d4d-86c4-98b316da873d",
@@ -4243,8 +4248,9 @@
     ]
    },
    "status": "lead",
-   "why": "Looked at 2026-11-16: a long avenue of old plane trees along a war cemetery wall near Helmond, GPS fix; the Dutch register lists a Moeraseik 92 m away, which is a different tree. An avenue is not one collectible point; lead until the single best trunk and a register match are named.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: an avenue of London planes along a path beside a cemetery, no single trunk singled out and none of them big. The register's swamp oak 92 m away is not in frame. A lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-947",
@@ -4268,9 +4274,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "Looked at 2026-11-16: a multi-trunked old Saharan cypress (Cupressus dupreziana) in the Tassili desert, a real and rare species, but no coordinate, only the plateau. Not placeable honestly; lead until a pin or a named site exists.",
+   "why": "Photograph viewed: a fine many-stemmed Saharan cypress among sandstone, daylight, colour. Sent from the website with no coordinate and no place below 'Tassili Plateau', so it cannot be placed. A lead until a fix or a named site.",
    "seen": "2026-11-16",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-951",
@@ -4293,10 +4300,12 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Looked at 2026-11-16: a multi-stemmed hollow oak above a fjord, the reader names it Den freda eika near Norheimsund with a 706 cm girth and 950 years in the 1950s. Strong candidate: find its coordinate in Norway's register (Kulturminnesok or Miljodirektoratet) and publish.",
+   "status": "published",
+   "why": "Photograph viewed: the same photograph, from the same account, as the app sighting live today as kvam/kvm_001 (The Old Oak at Tolo). Folded in: its name Den freda eika, girth 706 cm and the 1950s protection, quoted as the reader's.",
    "seen": "2026-11-16",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16",
+   "published_as": "kvam/kvm_001"
   },
   {
    "sighting_id": "tip-959",
@@ -4318,9 +4327,10 @@
    "nearest_published_m": null,
    "register": null,
    "status": "lead",
-   "why": "Looked at 2026-11-16: an old yew with a railing beside it at Vigeois, Correze, matching the reader's description of the abbey yew. Photo credit reads krapo arboricole, so the picture is not the reader's own: do not use it. Lead; verify the tree and find an open-licence photo.",
+   "why": "Photograph viewed: the hollow churchyard yew of Vigeois, but the picture carries another photographer's signature ('krapo arboricole'), so it is not the reader's to give and cannot be used. Worth a verify pass with its own sources and pin.",
    "seen": "2026-11-16",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "c5a1fd34-70e8-4a81-9496-4e32edb80964",
@@ -4346,8 +4356,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "Looked at 2026-11-16: a tall straight-trunked conifer (redwood or giant sequoia type, species unconfirmed) in autumn beech woodland, good daylight frame. The pin is in woodland south of Wotton-under-Edge, not Westonbirt Arboretum, and no register or article within 300 m. Stays a lead: needs the species and a size or a source before a page.",
-   "seen": "2026-11-16"
+   "why": "Photograph viewed: the lower trunk of a big red-barked conifer in autumn woodland near Westonbirt, no crown, no note or name; nothing says which of the arboretum's many big conifers it is. A lead.",
+   "seen": "2026-11-16",
+   "judged": "2026-11-16"
   },
   {
    "sighting_id": "tip-966",
@@ -4368,10 +4379,12 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Looked at 2026-11-16: a large holm oak (Quercus ilex) on a roundabout lawn by San Bonifacio station, girth 265 cm and a 20 m crown per the reader. The picture looks like a Street View screenshot, not their own photograph, and there is no GPS. Stays a lead: needs a pin (a reader fix or the commune's tree list) and a photograph of their own.",
+   "status": "published",
+   "why": "Picture is a Google Street View capture, so not used. The national register lists this holm oak (MASAF 01/H783/VR/05, Piazza Stazione, 263 cm, 9 m), matching the reader's 265 cm. Live as verona/ver_009, a day trip from Verona, without a photograph; crown width as the reader's.",
    "seen": "2026-11-16",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-16",
+   "published_as": "verona/ver_009"
   }
  ]
 }

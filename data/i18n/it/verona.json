@@ -1,9 +1,9 @@
 {
  "_note": "it overlay for verona, written 2026-10-06 from data/cities/verona.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Verona",
- "title": "Alberi monumentali di Verona: gli 8 più notevoli",
+ "title": "Alberi monumentali di Verona: i 9 più notevoli",
  "meta_description": "Gli alberi più notevoli di Verona, dal cedro secolare appena salvato accanto all'Arena al viale di cipressi che conquistò Goethe nel 1786.",
- "intro": "Verona conta meno alberi monumentali censiti della vicina Bologna o di Napoli, appena tre nell'elenco nazionale entro i confini comunali, ma quelli che ha si raccolgono attorno a luoghi che tutti visitano già: il cedro che fa ombra alla piazza davanti all'Arena, il viale di cipressi di cui Goethe scrisse a casa, un platano che riempie da solo un intero giardino pubblico. La lista unisce quel breve elenco, il giardino rinascimentale sopravvissuto proprio all'albero che lo aveva reso famoso e alcuni esemplari che la città si è battuta per tenere in piedi. Sono otto, e ognuno ha una storia documentata.",
+ "intro": "Verona conta meno alberi monumentali censiti della vicina Bologna o di Napoli, appena tre nell'elenco nazionale entro i confini comunali, ma quelli che ha si raccolgono attorno a luoghi che tutti visitano già: il cedro che fa ombra alla piazza davanti all'Arena, il viale di cipressi di cui Goethe scrisse a casa, un platano che riempie da solo un intero giardino pubblico. La lista unisce quel breve elenco, il giardino rinascimentale sopravvissuto proprio all'albero che lo aveva reso famoso e alcuni esemplari che la città si è battuta per tenere in piedi. Sono otto in città, ognuno con una storia documentata, più un nono a un breve tragitto in treno verso est: il leccio davanti alla stazione di San Bonifacio.",
  "question_title": "Qual è l'albero più antico di Verona? (piantato nel 1873)",
  "question_meta": "L'albero più antico documentato di Verona è un cedro piantato nel 1873 in Piazza Bra, accanto all'Arena. La sua storia e altri sette alberi.",
  "question_answer": "L'albero di Verona con la data più precisamente documentata è il cedro del Libano di Piazza Bra, piantato nel 1873 nell'ambito del primo progetto di giardino della piazza e ancora in piedi accanto all'Arena romana, a circa 153 anni di età. Si visita gratuitamente nella piazza più grande e centrale della città.",
@@ -22,8 +22,8 @@
    "a": "Quasi tutti quelli in piazze e parchi pubblici sono gratuiti. Il Giardino Giusti chiede un biglietto d'ingresso, e il cedro dell'Himalaya di Villa Bersani cresce su una proprietà privata e si vede dall'angolo di strada su cui si affaccia, non dall'interno del giardino."
   },
   {
-   "q": "Perché in questa lista ci sono otto alberi e non dieci?",
-   "a": "Il patrimonio arboreo documentato ufficialmente a Verona è più piccolo di quello di diverse altre città italiane. Questa lista si ferma a otto alberi ben documentati; altri potranno aggiungersi quando emergeranno fonti migliori."
+   "q": "Perché in questa lista ci sono solo otto alberi in città?",
+   "a": "Il patrimonio arboreo documentato ufficialmente a Verona è più piccolo di quello di diverse altre città italiane. Questa lista si ferma a otto alberi ben documentati in città, più il leccio monumentale davanti alla stazione di San Bonifacio, a un breve tragitto in treno verso est; altri potranno aggiungersi quando emergeranno fonti migliori."
   }
  ],
  "trees": {
@@ -90,6 +90,14 @@
    "access": "Gratuito, parco pubblico",
    "transport": "15 minuti a piedi da Piazza delle Erbe, in salita verso Valdonega",
    "story": "Un grande gelso fa da perno a ciò che resta della collezione arborea di una tenuta privata: è uno degli esemplari più vecchi documentati nel Parco delle Colombare, un parco in collina passato di mano più volte prima che il Comune lo acquistasse nel 1967 e lo aprisse al pubblico. Il nome viene da Villa Colombari, costruita da un mercante che commerciava le terre ocra estratte nella proprietà. Un rilievo del 1946 contò circa 260 alberi d'alto fusto nella sola parte boscosa, accanto a una fascia agricola di viti, olivi, ciliegi, peri e cotogni che da allora è sbiadita ma ha lasciato una traccia nel paesaggio. Oltre al gelso, la collezione superstite comprende carpino, faggio, albero dei tulipani, ginkgo, una sterculia australiana, un cedro dell'incenso californiano e cipressi sia mediterranei sia del Kashmir: una varietà insolitamente ampia per una sola tenuta in collina. L'età dei singoli esemplari non è documentata oltre l'età generale della collezione, ma già la gamma delle specie la identifica come un vero arboreto privato fra Ottocento e primo Novecento, oggi gratuito e aperto a chiunque abbia voglia di salire sulla collina sopra il centro storico di Verona."
+  },
+  "ver_009": {
+   "name": "Il Leccio della Stazione di San Bonifacio",
+   "species": "Leccio (Quercus ilex)",
+   "age_estimate": "non datato",
+   "access": "Gratuito, sul prato pubblico del piazzale della stazione.",
+   "how_to_recognise": "L'unica quercia sempreverde, bassa e larga, sul prato del piazzale davanti alla stazione di San Bonifacio, con una chioma di circa 20 metri, molto più larga che alta.",
+   "story": "Scendete dal treno regionale a San Bonifacio, circa un quarto d'ora a est di Verona, e la prima cosa che vi trovate davanti è questo leccio, da solo sul prato del piazzale della stazione. È nell'Elenco degli alberi monumentali d'Italia, scheda 01/H783/VR/05.\n\nIl registro gli assegna una circonferenza di 263 centimetri e un'altezza di nove metri, che non è molto. Ciò che merita la sosta è la larghezza. Un lettore che ce lo ha segnalato dà alla chioma 20 metri di ampiezza, più del doppio dell'altezza dell'albero, e si allarga bassa, fitta e scura sull'erba del piazzale.\n\nIl leccio tiene le sue piccole foglie coriacee per tutto l'inverno, così a gennaio appare quasi come a luglio. Il registro non indica un'età e nessuna fonte in nostro possesso lo data, quindi questa pagina non ne inventa una. Se sapete quando fu piantato, scriveteci qui.\n\nPensatelo come una breve gita in treno da Verona, o una sosta sulla strada per Vicenza."
   }
  }
 }

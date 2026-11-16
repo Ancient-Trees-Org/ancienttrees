@@ -1433,8 +1433,24 @@
     "via": "girth",
     "note": "92% of the species reference (1090 cm, n=6, max 1090)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole ombu from its domed root flare into a crown over a walled café courtyard, daylight, colour, GPS fix in the Essaouira medina. Reader photo plus fix: live as essaouira/ess_001, their words quoted, age and girth as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
+   "seen": "2026-11-16",
+   "kind": "photo of a tree we map",
+   "tree": "The Ombu of the Essaouira Medina",
+   "city": "Essaouira",
+   "species": "Ombu (Phytolacca dioica)",
+   "photo": "out/inspect/5784282e-f1a8-4516-ab2e-cce4d2f0f3be.jpg",
+   "reader_note": "Oldest tree in Morocco inside the ombu cafe",
+   "reader_girth_cm": 1000,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Viewed: published as a new reader-found tree. The whole ombu from its domed root flare into the crown over a café courtyard, daylight, colour, GPS fix in the medina.",
    "hidde": null,
    "agreed": null
   },
@@ -1462,8 +1478,8 @@
     "via": "girth",
     "note": "51% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a handsome open-grown pedunculate oak with a second trunk behind, daylight, GPS in the Jelasnica reserve. But the reader's own tape says 200 cm, half the genus reference, and 'state protection' is not a reason; 300 years is unlikely at that girth. A lead.",
    "hidde": null,
    "agreed": null
   },
@@ -1490,8 +1506,8 @@
     "score": null,
     "note": "nothing measurable about Oak (Quercus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "Photograph viewed: a tall tree in full orange autumn colour with lobed, maple-like leaves, not an oak, so not Prince Eugen's Oak. Could be the wrong tree; waits for a photograph of the oak itself.",
    "hidde": null,
    "agreed": null
   },
@@ -1527,8 +1543,8 @@
     ]
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: an avenue of London planes along a path beside a cemetery, no single trunk singled out and none of them big. The register's swamp oak 92 m away is not in frame. A lead.",
    "hidde": null,
    "agreed": null
   },
@@ -1551,8 +1567,8 @@
     "score": null,
     "note": "nothing measurable about Cypress (Cupressus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a fine many-stemmed Saharan cypress among sandstone, daylight, colour. Sent from the website with no coordinate and no place below 'Tassili Plateau', so it cannot be placed. A lead until a fix or a named site.",
    "hidde": null,
    "agreed": null
   },
@@ -1575,8 +1591,8 @@
     "score": null,
     "note": "nothing measurable about Oak (Quercus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the same photograph, from the same account, as the app sighting live today as kvam/kvm_001 (The Old Oak at Tolo). Folded in: its name Den freda eika, girth 706 cm and the 1950s protection, quoted as the reader's.",
    "hidde": null,
    "agreed": null
   },
@@ -1599,8 +1615,8 @@
     "score": null,
     "note": "nothing measurable about Yew (Taxus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: the hollow churchyard yew of Vigeois, but the picture carries another photographer's signature ('krapo arboricole'), so it is not the reader's to give and cannot be used. Worth a verify pass with its own sources and pin.",
    "hidde": null,
    "agreed": null
   },
@@ -1834,8 +1850,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: the lower trunk of a big red-barked conifer in autumn woodland near Westonbirt, no crown, no note or name; nothing says which of the arboretum's many big conifers it is. A lead.",
    "hidde": null,
    "agreed": null
   },
@@ -1858,8 +1874,8 @@
     "score": null,
     "note": "nothing measurable about Oak (Quercus sp.)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Picture is a Google Street View capture, so not used. The national register lists this holm oak (MASAF 01/H783/VR/05, Piazza Stazione, 263 cm, 9 m), matching the reader's 265 cm. Live as verona/ver_009, a day trip from Verona, without a photograph; crown width as the reader's.",
    "hidde": null,
    "agreed": null
   },
@@ -4304,8 +4320,8 @@
     "score": null,
     "note": "nothing measurable about Til / Stinkwood (Ocotea foetens)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "Photograph viewed: a backlit til in fog with arm-like limbs, which could be the Witch Tree, but Fanal's tils look alike and the sighting's position is exactly our pin (no fix of its own), so the frame cannot settle which trunk. Held, as on 2026-11-15.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -4593,8 +4609,8 @@
     "score": null,
     "note": "nothing measurable about Dawn Redwood"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a handsome flared dawn redwood on a lawn among garden shrubs, daylight. Dawn redwoods in North America date from after 1948, no size is given, and the setting reads as a garden whose public access we cannot confirm. A lead.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -5959,8 +5975,8 @@
     "score": null,
     "note": "nothing measurable about Métaséquoia"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as la-tene/prf_003 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -5987,8 +6003,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as la-tene/prf_004 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6018,8 +6034,8 @@
     "score": null,
     "note": "nothing measurable about Giant Sequoia"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as la-tene/prf_002 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6049,8 +6065,8 @@
     "score": null,
     "note": "nothing measurable about Large-leaved Lime"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as la-tene/prf_005 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6081,8 +6097,8 @@
     "via": "girth",
     "note": "200% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as elleholm/elh_001 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6113,8 +6129,8 @@
     "via": "girth",
     "note": "137% of the genus reference (512 cm, n=2, max 512)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as maidstone/mdb_001 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6145,8 +6161,8 @@
     "via": "girth",
     "note": "153% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as colchester/cls_001 (added by the vouched/reader route on 2026-11-16); verdict written afterwards.",
    "hidde": null,
    "agreed": null,
    "shown": [

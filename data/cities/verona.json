@@ -3,7 +3,7 @@
   "country": "Italy",
   "face_tree_id": "ver_005",
   "status": "needs_curation",
-  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list draws on that short official register, the Renaissance garden that outlived the exact tree that made it famous, and a handful of specimens the city has fought to keep standing. Eight trees, honestly researched, rather than ten stretched thin.",
+  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, eight trees in all, plus a ninth a short train ride east, the holm oak in front of San Bonifacio station.",
   "meta_description": "Verona's most remarkable trees, from the century-old cedar just saved beside the Arena to the cypress avenue that captivated Goethe in 1786.",
   "question_answer": "Verona's oldest precisely documented tree is the Cedar of Lebanon in Piazza Bra, planted in 1873 as part of the square's original garden design and still standing beside the Roman Arena today, roughly 153 years old. It stands free to visit in the city's largest and most central square.",
   "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and seven more remarkable trees.",
@@ -22,8 +22,8 @@
       "a": "Most standing in public squares and parks are free. The Giardino Giusti charges an entry fee, and the Himalayan cedar of Villa Bersani grows on private property, visible from the street corner it overlooks rather than from inside the grounds."
     },
     {
-      "q": "Why does this list have eight trees instead of ten?",
-      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it stops at eight well-researched trees; more may be added as better sources turn up."
+      "q": "Why does this list have only eight trees in the city?",
+      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to eight well-researched trees in the city, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
     }
   ],
   "trees": [
@@ -341,6 +341,51 @@
         "kind": "fruit"
       },
       "how_to_recognise": "You can recognise it as the large mulberry of the old estate collection, standing among hornbeam, beech, tulip tree, ginkgo and cypress on the hillside."
+    },
+    {
+      "id": "ver_009",
+      "name": "The Holm Oak of San Bonifacio Station",
+      "species": "Holm Oak (Quercus ilex)",
+      "age_estimate": "undated",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 263,
+      "height_m": 9,
+      "location": {
+        "address": "Piazza Stazione, 37047 San Bonifacio (VR)",
+        "latitude": 45.402353,
+        "longitude": 11.274217,
+        "neighbourhood": "San Bonifacio, about a quarter of an hour east of Verona by regional train"
+      },
+      "story": "Step off the regional train at San Bonifacio, about a quarter of an hour east of Verona, and the first thing in front of you is this holm oak, alone on the lawn of the station square. It is on Italy's national list of monumental trees, the Elenco degli alberi monumentali d'Italia, as sheet 01/H783/VR/05.\n\nThe register gives it a girth of 263 centimetres and a height of nine metres, which is not tall. What makes it worth the stop is the width. A reader who sent it to us puts the crown at 20 metres across, more than twice the tree's height, and it spreads low, dense and dark over the grass of the square.\n\nHolm oaks keep their small, leathery leaves through the winter, so it looks much the same in January as in July. The register gives no age and no source we have dates it, so this page does not guess one. If you know when it was planted, tell us here.\n\nPlan it as a short train trip from Verona, or a stop on the way to Vicenza.",
+      "how_to_recognise": "The one low, wide evergreen oak on the lawn of the square in front of San Bonifacio station, its crown about 20 metres across and much wider than it is tall.",
+      "verified_sources": [
+        "Elenco degli alberi monumentali d'Italia (MASAF), sheet 01/H783/VR/05: Quercus ilex, Piazza Stazione, San Bonifacio, girth 263 cm, height 9 m (data/registers/italy-masaf.json)"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 01/H783/VR/05",
+        "url": null
+      },
+      "found_by_reader": {
+        "tip": "tip-966",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: a reader's website tip (submission 966, 'Leccio (Quercus Ilex) nel piazzale della stazione', San Bonifacio, girth 265 cm, 'Ampiezza della chioma di 20 metri'). Its picture is a Google Street View capture, so it cannot be used and the page has no photograph. The national register (MASAF) lists a Quercus ilex in Piazza Stazione, San Bonifacio, sheet 01/H783/VR/05, girth 263 cm, height 9 m, with a coordinate: the reader's 265 cm matches, so this is the same tree. Life check: the reader's tip of 2026-11-16 and the Street View capture show it standing. Pin is the register coordinate, kept approximate as register coordinates are by default. Crown width is the reader's.",
+      "access": "Free, on the public lawn of the station square.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "official register coordinate",
+        "source": "Elenco degli alberi monumentali d'Italia (MASAF), 01/H783/VR/05",
+        "date": "2026-11-16",
+        "note": "The national register's coordinate for this tree."
+      }
     }
   ],
   "oldest_tree_id": "ver_001"

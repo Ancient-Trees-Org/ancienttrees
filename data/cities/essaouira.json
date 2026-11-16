@@ -1,0 +1,65 @@
+{
+  "city": "Essaouira",
+  "country": "Morocco",
+  "status": "needs_curation",
+  "intro": "Essaouira is a walled port on Morocco's Atlantic coast, its medina a grid of whitewashed lanes inside eighteenth-century ramparts. In the courtyard of a café there grows an ombu, a tree of the South American pampas, whose trunk spreads over the ground in a broad smooth dome under a crown that fills the whole courtyard. A reader sent us its photograph and calls it the oldest tree in Morocco.",
+  "meta_description": "The ombu in a café courtyard in Essaouira's medina, which a reader calls the oldest tree in Morocco: where it grows and what we know about it.",
+  "hero_tree_id": "ess_001",
+  "oldest_tree_id": "ess_001",
+  "trees": [
+    {
+      "id": "ess_001",
+      "name": "The Ombu of the Essaouira Medina",
+      "species": "Ombu (Phytolacca dioica)",
+      "age_estimate": "about 250 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Café courtyard in the medina, Essaouira",
+        "latitude": 31.5117866666667,
+        "longitude": -9.7667,
+        "neighbourhood": "Medina"
+      },
+      "story": "\"Oldest tree in Morocco inside the ombu cafe,\" wrote the reader who sent this photograph from the medina of Essaouira, with a GPS fix taken at its foot.\n\nThe tree is an ombu, Phytolacca dioica, a native of the South American pampas, and the photograph shows why people stop for one. Its trunk does not so much rise from the ground as pour out over it, a broad smooth dome of root and wood ringed by a low rope rail. Out of that dome a dozen grey stems climb into a crown that fills the whole courtyard and leans over the whitewashed walls, and the café's tables stand around its edge in the shade.\n\nThe reader puts it at about 250 years old and its trunk at some ten metres round. Neither figure comes from a register or a measurement we have seen, so read them as theirs, and whether it is truly the oldest tree in Morocco we cannot say. If you know its history, or who planted it, tell us here.\n\nIt grows inside a café, so the way to see it is to sit down under it and order a mint tea.",
+      "how_to_recognise": "Fills a walled café courtyard in the medina: a broad smooth dome of trunk and root behind a low rope rail, a dozen grey stems rising from it into a crown over the tables.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: sent by a reader through the app with a GPS fix in the medina of Essaouira (sighting 5784282e), named Phytolacca dioica, age 250 years, girth 1000 cm, note 'Oldest tree in Morocco inside the ombu cafe'. Photograph viewed: the whole tree from its foot, the domed root flare typical of an ombu, many stems, a crown over a walled courtyard with café tables, daylight, colour. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); no register entry within 100 m. A web search found no written source naming the café or the tree; a 2011 Moroccan report of a two-century-old tree in a medina courtyard (communesmaroc.com) may or may not be this one, so it is not cited. Age, girth and the café's name are the reader's. Morocco is out of focus for our own research only, never for a reader's tree.",
+      "access": "Inside a café courtyard in the medina, open to customers during the café's hours.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
+        "moved_m": 0,
+        "date": "2026-11-16",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ess_001-the-ombu-of-the-essaouira-medina.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_85c2d43904a9511a0351ab47",
+        "sighting_id": "5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: the whole ombu from its domed foot into the crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The ombu in a café courtyard in Essaouira's medina, which a reader calls the oldest tree in Morocco: where it grows and what we know about it.",
+  "question_answer": "The Ombu of the Essaouira Medina grows in a café courtyard in the medina of Essaouira. It is open to customers during the café's hours.",
+  "question_context": "A reader who sent this photograph from the medina of Essaouira, with a GPS fix taken at its foot, calls it the oldest tree in Morocco. It grows in the courtyard of a café the reader names after it. The tree is an ombu, Phytolacca dioica, a native of the South American pampas, and the photograph shows why people stop for one. Its trunk does not so much rise from the ground as pour out over it, a broad smooth dome of root and wood ringed by a low rope rail. Out of that dome a dozen grey stems climb into a crown that fills the whole courtyard and leans over the whitewashed walls, and the café's tables stand around its edge in the shade. The reader puts it at about 250 years old and its trunk at some ten metres round. Neither figure comes from a register or a measurement we have seen, so they are the reader's, and whether it is truly the oldest tree in Morocco we cannot say. It grows inside a café, so the way to see it is to sit down under it during opening hours.",
+  "faq": [
+    {
+      "q": "Can I visit The Ombu of the Essaouira Medina?",
+      "a": "Yes. It grows in a café courtyard in the medina, open to customers during the café's hours."
+    }
+  ]
+}

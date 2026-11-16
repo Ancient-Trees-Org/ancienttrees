@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: the 18 reader trees without a verdict, judged
+
+- **New tree, Essaouira**: ess_001 The Ombu of the Essaouira Medina, a reader's app photo plus GPS fix of the ombu in a café courtyard ("Oldest tree in Morocco inside the ombu cafe", quoted); age 250 and girth 10 m stated as theirs. One tree, so a tree page and no place page.
+- **New tree, Verona (day trip)**: ver_009 The Holm Oak of San Bonifacio Station, from a reader's website tip; their picture was a Google Street View capture (not used), the MASAF register (01/H783/VR/05, 263 cm, 9 m) matches their 265 cm. No photograph, recognition line, approximate register pin. Intro, FAQ and the it overlay (title now 9) updated.
+- **Kvam kvm_001 enriched**: the reader's website tip (tip-951) is the same oak and photo as their app sighting live this morning; it adds the name Den freda eika, girth 706 cm and the 1950s protection, quoted as theirs.
+- **Verdicts written** for the other 15: 7 trees already live (La Tène x4, Elleholm, Maidstone, Colchester) got their publish verdict; leads: Jelasnica oak (200 cm by the reader's tape), Helmond plane avenue, Tassili cypress (no place), Vigeois yew (another photographer's watermark; worth a verify pass), Westonbirt conifer trunk, Toronto dawn redwood; holds: "Prince Eugen's Oak" (the photo shows a maple), Madeira Witch Tree (as 11-15).
+- **For Hidde**: preflight's note says a stranger's photo plus GPS is held back only for wrong tree, subject or frame; the leads above (and about 15 like them from 11-15/16) were kept back for lack of size or age, as earlier runs did. Your call whether those go live anyway.
+
 ## 2026-11-16 session: Ricard Llerins Bonet's first Barcelona tree is live
 
 - **New tree, Barcelona**: bcn_062 The Plane of Carrer de Cantabria (https://ancienttrees.app/barcelona/plane-of-carrer-de-cantabria), a hollow London plane of about 1917, Tree of Local Interest since 1997 (register 99400454963). Ricard (book author, answered our archive ask of 10-25 from his spam on 11-15) mailed four photos, one tree per mail he says; his 2015 summer photo leads, the 2014 hollow trunk in the strip, credited, `permission` with his words. Found by reader (mail), so it has a web page under APP FIRST; es overlay added (count 57 to 58).
