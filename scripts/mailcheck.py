@@ -571,10 +571,39 @@ def _old_check_app_link(path, text, body):
              "and ask what they think. " + APP_STORE_URL)]
 
 
+def check_intro_to_someone_who_wrote_first(path, text, body):
+    """A reply to somebody who wrote to us first does not say who we are
+    (Hidde, 2026-11-16, on the Place Imaginarium reply: "why the hell would
+    you say this she already knows thats why she mails"). She had found the
+    project and asked about building it; the draft opened with the Baarn
+    intro and what Ancient Trees is. The intro is for a first mail, or for
+    somebody who asked who we are (Stacey, Bauer): then the notes above the
+    --- carry a line "intro-asked: <their words>" and this check passes.
+    Reply drafts dated from 2026-11-16 only, so old ones stay untouched."""
+    if not BODY_SPLIT.search(text):
+        return []
+    dated = re.search(r"reply-.*?(\d{4}-\d{2}-\d{2})", os.path.basename(str(path)))
+    if not dated or dated.group(1) < "2026-11-16":
+        return []
+    notes = BODY_SPLIT.split(text, maxsplit=1)[0]
+    if re.search(r"^\s*-?\s*intro-asked:", notes, re.M | re.I):
+        return []
+    m = re.search(r"\bI live in Baarn\b|\bik woon in Baarn\b|"
+                  r"\bwork on Ancient Trees, a\b|\bI'm building Ancient Trees\b|"
+                  r"\bwerk aan Ancient Trees, een\b", body.replace("’", "'"), re.I)
+    if not m:
+        return []
+    return [("INTRO TO SOMEONE WHO WROTE FIRST", m.group(0),
+             "Hidde, 2026-11-16: they mailed us because they know who we are. "
+             "Answer what they asked; the intro only when they asked who we "
+             "are (then 'intro-asked: <their words>' in the notes).")]
+
+
 def check(path):
     text = open(path, encoding="utf-8").read()
     body = body_of(text)
     hits = list(check_reply_length(path, body))
+    hits += check_intro_to_someone_who_wrote_first(path, text, body)
     hits += check_app_link(path, text, body)
     hits += check_link_on_its_own_line(path, text, body)
     hits += check_no_unshipped_feature(path, body)

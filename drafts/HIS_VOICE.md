@@ -479,3 +479,7 @@ He rewrote my draft. What changed: he opens person to person ("Nice to meet you,
 ## 2026-11-16: a reader who corrected our pins (Nick, Bristol)
 
 My draft stated the fix as done and closed the matter ("now stand on the map at the Bristol Tree Forum's grid references"). He rewrote it: "We've fixed the location - are they correct now? Apologies if we sent you the wrong way :)". And the invitation became a question rather than our wish: "Would you be interested in being our ambassador for Bristol" instead of "We would love to make you our ambassador". So to somebody who caught our mistake: say it is fixed, hand the check back to them (they know where the tree stands, we do not), one light sorry with a smile for what the mistake cost them (a walk to the wrong spot), and ask whether they want the role rather than announcing that we want them in it.
+
+## 2026-11-16: someone who wrote to us first already knows who we are (Diana Popa, Place Imaginarium)
+
+She found the project, liked it and asked about working together. My draft opened with the Baarn intro and what Ancient Trees is. His verdict: **"why the hell would you say this she already knows thats why she mails"**. The intro is for a first mail from us, or for somebody who asked who we are (Stacey, Bauer). Someone who wrote first gets the answer to what they asked and the question. mailcheck: INTRO TO SOMEONE WHO WROTE FIRST (reply drafts from 2026-11-16; `intro-asked: <their words>` in the notes when they did ask).
