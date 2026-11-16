@@ -248,6 +248,16 @@ belongs in Helpful Details or nowhere.
 - NO: "grazie per la risposta così gentile, e per avermi detto di Storiedipianura. Hai un albero antico preferito..."
 - YES: "Thank you for the kind reply. In that case more to you as a person; Do you have a favourite old tree..."
 
+**dates make a press line age** (added 2026-11-16)
+
+- NO: "Ancient Trees was in The Guardian in November 2026 and in Wilder in October 2026."
+- YES: "Ancient Trees was in The Guardian and Wilder."
+
+**explaining the fix instead of a short thanks** (added 2026-11-16)
+
+- NO: "Ook dank voor de tip over de terms-pagina: die link stuurde je inderdaad naar het boomformulier. Vragen gaan nu gewoon naar info@ancienttrees.app."
+- YES: "Dank voor de bug tip! Als het goed is werkt het weer."
+
 ## What to do instead, in order
 
 1. **First sentence: the reader or the world, never us and never the market.**
