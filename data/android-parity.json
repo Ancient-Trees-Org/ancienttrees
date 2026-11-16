@@ -76,6 +76,7 @@
       "First launch reads the 11.5 MB catalogue in about ten seconds on the one-core emulator under a loaded Mac; later launches read a binary snapshot. Not yet measured on a real phone.",
       "Your own trees stand on the map in your own photograph and lead the Collected shelf (TreeMap.setMine, MineTile); the photograph comes from the account each launch, so a new install shows the plain mine pin until it has loaded (hard rule 11).",
       "Fixed 2026-11-10 from the side-by-side: the tab bar is opaque (it showed rows through it), the sheet is the iPhone's warm light grey, and a pin with paid entry wears the blue ticket mark bottom left (TreeMap.pin).",
+      "Fixed 2026-11-16 from the side-by-side over Amsterdam (5 saved, 2 collected): pins wear all three corners as the iPhone's since 2026-11-12, 15 white discs with a soft shadow, the moss bookmark of a saved tree top right, the moss check_circle of a collected one bottom right, the blue ticket bottom left; a saved tree takes the first full pin and is never thinned out (TreeMapView feature()).",
       "About 10 points less air above Highlights than the iPhone, at every stop (the section head's own padding is equal; the spacing measurer's to place)."
     ],
     "owner": null

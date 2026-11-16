@@ -367,6 +367,8 @@ fun MapTab(
             mine = mine,
             minePhoto = minePhoto,
             onMine = onMine,
+            collected = marks.collected,
+            favourites = marks.saved,
             modifier = Modifier.fillMaxSize().graphicsLayer { translationY = sheet.parallax() },
         )
 

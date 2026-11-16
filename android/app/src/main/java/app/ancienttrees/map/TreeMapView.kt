@@ -82,6 +82,9 @@ private class Spread(val spot: String, val at: Map<String, LatLng>)
 private class MapHolder {
     var trees: List<Tree> = emptyList()
     var spots: Map<String, List<Tree>> = emptyMap()
+    /** Your collected and saved trees, so their pins wear the tick and the bookmark. */
+    var collected: Set<String> = emptySet()
+    var favourites: Set<String> = emptySet()
     var spread: Spread? = null
     var style: Style? = null
     var userMoved = false
@@ -111,7 +114,7 @@ private class MapHolder {
         // Only on a style still in charge: MapLibre throws when a transition is set
         // while a newer style loads (caught by the flow walk, 2026-11-11).
         if (st.isFullyLoaded) st.transition = org.maplibre.android.style.layers.TransitionOptions(300, 0, false)
-        st.getSourceAs<GeoJsonSource>(SOURCE)?.setGeoJson(collection(trees, spots, spread))
+        st.getSourceAs<GeoJsonSource>(SOURCE)?.setGeoJson(collection(trees, spots, spread, collected, favourites))
         // THE FIRST PINS, timed from the process start: what a cold start costs a person.
         if (!firstPinsLogged && trees.isNotEmpty()) {
             firstPinsLogged = true
@@ -160,6 +163,9 @@ fun TreeMapView(
     quietSelect: String? = null,
     /** YOUR OWN TREES (TreeMap.setMine): drawn last, on top of ours, each in your photograph. */
     mine: List<app.ancienttrees.account.OwnSighting> = emptyList(),
+    /** Your collected and saved trees (TreeMap.collected, .favourites): the tick and the bookmark on their pins. */
+    collected: Set<String> = emptySet(),
+    favourites: Set<String> = emptySet(),
     minePhoto: suspend (String) -> ByteArray? = { null },
     onMine: (String) -> Unit = {},
 ) {
@@ -197,10 +203,10 @@ fun TreeMapView(
                 map.uiSettings.isCompassEnabled = false
                 map.setStyle(styleFromDisk(context, if (dark) STYLE_DARK else STYLE_LIGHT)) { style ->
                     // One image per shape, about fifteen, never one per species.
-                    for (shape in SpeciesIcons.icons.keys) {
-                        style.addImage(iconName(shape), pinBitmap(context, shape))
-                        style.addImage(iconName(shape) + "-t", pinBitmap(context, shape, ticket = true))
-                    }
+                    // Eight per shape: every mix of ticket, saved and collected.
+                    for (shape in SpeciesIcons.icons.keys) for (t in listOf(false, true))
+                        for (f in listOf(false, true)) for (c in listOf(false, true))
+                            style.addImage(iconName(shape, t, f, c), pinBitmap(context, shape, ticket = t, fav = f, seen = c))
                     for (n in 2..STACK_ICONS) style.addImage(stackName(n), stackBitmap(context, n))
                     installLayers(style)
                     style.addImage(MINE_ICON, minePinBitmap(context))
@@ -288,6 +294,14 @@ fun TreeMapView(
         holder.trees = trees
         holder.spots = Stacks.spots(trees)
         holder.spread = null
+        holder.redraw()
+    }
+    // A save or a tick changes the pin at once, without touching a spread pile.
+    LaunchedEffect(ready, collected, favourites) {
+        if (ready == null) return@LaunchedEffect
+        if (holder.collected == collected && holder.favourites == favourites) return@LaunchedEffect
+        holder.collected = collected
+        holder.favourites = favourites
         holder.redraw()
     }
 
@@ -443,33 +457,40 @@ private fun viewBox(map: MapLibreMap): ViewBox {
  * emptied the iPhone's map. One feature per spot; the first tree on a shared spot
  * carries the count, unless that pile is the one spread out.
  */
-private fun collection(trees: List<Tree>, spots: Map<String, List<Tree>>, spread: Spread?): FeatureCollection {
+private fun collection(trees: List<Tree>, spots: Map<String, List<Tree>>, spread: Spread?,
+                       collected: Set<String>, favourites: Set<String>): FeatureCollection {
     val features = ArrayList<Feature>(trees.size)
     for ((spot, group) in spots) {
         if (spread != null && spread.spot == spot) {
             for (t in group) {
                 val p = spread.at[t.id] ?: continue
-                features.add(feature(t, p.latitude, p.longitude, n = 1, spot = spot, spread = true))
+                features.add(feature(t, p.latitude, p.longitude, n = 1, spot = spot, spread = true, collected, favourites))
             }
         } else {
             val head = group.first()
-            features.add(feature(head, head.lat, head.lng, n = group.size, spot = spot, spread = false))
+            features.add(feature(head, head.lat, head.lng, n = group.size, spot = spot, spread = false, collected, favourites))
         }
     }
     return FeatureCollection.fromFeatures(features)
 }
 
-private fun feature(t: Tree, lat: Double, lng: Double, n: Int, spot: String, spread: Boolean): Feature =
-    Feature.fromGeometry(Point.fromLngLat(lng, lat)).apply {
+private fun feature(t: Tree, lat: Double, lng: Double, n: Int, spot: String, spread: Boolean,
+                    collected: Set<String>, favourites: Set<String>): Feature {
+    val loved = t.id in favourites
+    return Feature.fromGeometry(Point.fromLngLat(lng, lat)).apply {
         addStringProperty(KEY_ID, t.id)
-        addStringProperty("icon", iconName(SpeciesIcons.archetype(t.commonName)) + if (t.paidEntry) "-t" else "")
+        addStringProperty("icon", iconName(SpeciesIcons.archetype(t.commonName), t.paidEntry, loved, t.id in collected))
         addStringProperty("stack", if (n > 1) stackName(minOf(n, STACK_ICONS)) else "")
         addStringProperty("spot", spot)
         addNumberProperty("n", n)
-        addNumberProperty("pr", PinRules.priority(t.photo != null, t.saves))
-        addBooleanProperty("mini", t.mini)
+        // A TREE YOU SAVED takes its full pin before any other and is never thinned
+        // out far away, so it is never the dot under a neighbour (TreeMap.swift,
+        // Hidde 2026-11-12: four saved in Frankfurt and two showed).
+        addNumberProperty("pr", if (loved) -200_000 else PinRules.priority(t.photo != null, t.saves))
+        addBooleanProperty("mini", t.mini && !loved)
         addBooleanProperty("spread", spread)
     }
+}
 
 private fun installLayers(style: Style) {
     style.addSource(GeoJsonSource(SOURCE, FeatureCollection.fromFeatures(emptyList<Feature>())))
@@ -613,11 +634,16 @@ private fun stackBitmap(context: Context, n: Int): Bitmap {
 
 private fun iconName(shape: String) = "at-pin-$shape"
 
+/** The image for a shape and its corners: -t ticket, -f saved, -c collected (TreeMap.imageName). */
+private fun iconName(shape: String, ticket: Boolean, fav: Boolean, seen: Boolean) =
+    iconName(shape) + (if (ticket) "-t" else "") + (if (fav) "-f" else "") + (if (seen) "-c" else "")
+
 /**
  * The iPhone's pin: a moss disc, a white ring, and the species silhouette in
  * white, 20 points tall, so a ginkgo looks like a ginkgo before anyone taps it.
  */
-private fun pinBitmap(context: Context, shape: String, ticket: Boolean = false): Bitmap {
+private fun pinBitmap(context: Context, shape: String, ticket: Boolean = false,
+                      fav: Boolean = false, seen: Boolean = false): Bitmap {
     val metrics = context.resources.displayMetrics
     val density = metrics.density
     val size = (PinRules.PIN_SIZE * density).toInt()
@@ -643,38 +669,47 @@ private fun pinBitmap(context: Context, shape: String, ticket: Boolean = false):
     canvas.translate((size - glyph) / 2, (size - glyph) / 2)
     canvas.drawPath(SpeciesPath.fitted(shape, glyph, glyph), paint)
     canvas.restore()
-    // A TICKET, bottom left (TreeMap.pin, Hidde 2026-08-24/25): a white disc a
-    // little bigger than the collected tick, the system's ticket glyph in a light
-    // navy, never the Plus gold. Material's confirmation_number is Android's ticket.
-    if (ticket) {
-        val b = 17 * density
-        val left = 1 * density
-        val top = size - b - 1 * density
-        paint.alpha = 255
-        paint.color = Color.WHITE
-        canvas.drawCircle(left + b / 2, top + b / 2, b / 2, paint)
-        // ticket.fill at 9 pt bold is about 13 wide and 9.5 tall; the set's ticket
-        // fills 83 percent of its box across: a 12 dp box draws it 10 across inside the 17 disc, as the shots show.
-        val g = 12 * density
-        canvas.save()
-        canvas.translate(left + (b - g) / 2, top + (b - g) / 2)
-        // The set draws on 0 -960 960 960 (Symbols.kt), and a path taken out of
-        // its vector leaves the group's move behind: scale the grid, then move it
-        // into view. Scaled as a 24 grid it fell outside the disc, which drew empty
-        // (visual review 2026-11-11).
-        canvas.scale(g / 960f, g / 960f)
-        canvas.translate(0f, 960f)
-        paint.color = TICKET_BLUE
-        ticketPath()?.let { canvas.drawPath(it, paint) }
-        canvas.restore()
-    }
+    // THE THREE CORNERS (TreeMap.pin, 2026-11-12, Hidde: "trek ze allemaal eens
+    // naar de ticket stijl"): each a 15 white disc with the website's small
+    // shadow and a FILLED glyph in colour. Moss is what you did (top right the
+    // bookmark of a saved tree, bottom right the tick of a collected one), blue
+    // is about the place (bottom left the ticket, never the Plus gold).
+    // Material's bookmark, check_circle and confirmation_number are Android's
+    // bookmark.fill, checkmark.circle.fill and ticket.fill.
+    if (ticket) corner(canvas, paint, density, 1 * density, size - 16 * density, Sym.ConfirmationNumberFill, TICKET_BLUE, 10.5f)
+    if (fav) corner(canvas, paint, density, size - 16 * density, 1 * density, Sym.BookmarkFill, MOSS, 10f)
+    if (seen) corner(canvas, paint, density, size - 16 * density, size - 16 * density, Sym.CheckCircleFill, MOSS, 13f)
     return bitmap
 }
 
 private val TICKET_BLUE = Color.rgb(46, 107, 168)
 
-/** The set's confirmation_number glyph as a path on its own grid (0 -960 960 960). */
-private fun ticketPath(): android.graphics.Path? = runCatching {
+/** One corner: a 15 white disc at [left], [top] with a soft shadow, the glyph in [colour] [glyphDp] across. */
+private fun corner(canvas: Canvas, paint: Paint, density: Float, left: Float, top: Float,
+                   symbol: androidx.compose.ui.graphics.vector.ImageVector, colour: Int, glyphDp: Float) {
+    val b = 15 * density
+    paint.style = Paint.Style.FILL
+    paint.alpha = 255
+    paint.color = Color.WHITE
+    paint.setShadowLayer(2 * density, 0f, 0.75f * density, Color.argb(90, 26, 26, 20))
+    canvas.drawCircle(left + b / 2, top + b / 2, b / 2, paint)
+    paint.clearShadowLayer()
+    val g = glyphDp * density
+    canvas.save()
+    canvas.translate(left + (b - g) / 2, top + (b - g) / 2)
+    // The set draws on 0 -960 960 960 (Symbols.kt), and a path taken out of
+    // its vector leaves the group's move behind: scale the grid, then move it
+    // into view. Scaled as a 24 grid it fell outside the disc, which drew empty
+    // (visual review 2026-11-11).
+    canvas.scale(g / 960f, g / 960f)
+    canvas.translate(0f, 960f)
+    paint.color = colour
+    symbolPath(symbol)?.let { canvas.drawPath(it, paint) }
+    canvas.restore()
+}
+
+/** A symbol of the set as a path on its own grid (0 -960 960 960). */
+private fun symbolPath(symbol: androidx.compose.ui.graphics.vector.ImageVector): android.graphics.Path? = runCatching {
     val out = android.graphics.Path()
     fun add(group: androidx.compose.ui.graphics.vector.VectorGroup) {
         for (child in group) {
@@ -685,7 +720,7 @@ private fun ticketPath(): android.graphics.Path? = runCatching {
             }
         }
     }
-    add(Sym.ConfirmationNumberFill.root)
+    add(symbol.root)
     out
 }.getOrNull()
 
