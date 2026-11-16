@@ -66,9 +66,14 @@ public struct Photo: Codable, Hashable, Sendable {
     /// "autumn", "winter"), decided on the server (seasons.ts, 2026-10-31) so
     /// the Seasons row files a photograph exactly where the website does.
     public let season: String?
+    /// The sightings row a visitor's photograph came from (lowercase uuid),
+    /// nil for any other photograph or an older snapshot. New from visitors
+    /// shows the tile with this photograph, not the tree's lead (Hidde,
+    /// 2026-11-15: "waarom toont hij niet altijd de gebruikers foto").
+    public let sighting: String?
 
     enum CodingKeys: String, CodingKey {
-        case url, license, attribution, width, height, season
+        case url, license, attribution, width, height, season, sighting
         case takenMonth = "taken_month"
         case thumbRaw = "thumb"
         case heroRaw = "hero"

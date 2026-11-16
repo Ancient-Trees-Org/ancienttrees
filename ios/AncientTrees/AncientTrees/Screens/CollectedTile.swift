@@ -28,6 +28,9 @@ struct CollectedTile: View {
     /// top-left (Hidde, 2026-11-12; CONVENTIONS.md "Your own trees on a
     /// public profile").
     var approved: Bool = false
+    /// Which of the tree's photographs to show instead of its lead: New from
+    /// visitors passes the one that visitor sent (Hidde, 2026-11-15).
+    var shot: Photo? = nil
     @Environment(Sightings.self) private var sightings
 
     var body: some View {
@@ -54,7 +57,7 @@ struct CollectedTile: View {
         case .ours(let t):
             if let ownShot {
                 OwnThumb(sighting: ownShot, maxPixel: 500)
-            } else if let url = t.photo?.card {
+            } else if let url = (shot ?? t.photo)?.card {
                 TreePhoto(url: url) { Brand.surfaceMuted }
             } else {
                 named(t.name)

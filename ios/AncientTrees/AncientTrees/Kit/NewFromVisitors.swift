@@ -33,4 +33,14 @@ enum NewFromVisitors {
         var seen = Set<String>()
         return rows.filter { seen.insert($0.tree_id).inserted }
     }
+
+    /// The photograph this visitor sent, found among the tree's own by the
+    /// sightings row the feed names (Photo.sighting), so the tile shows their
+    /// picture and not the tree's lead (Hidde, 2026-11-15: "waarom toont hij
+    /// niet altijd de gebruikers foto"). Nil until the feed carries it, and the
+    /// tile then shows the lead as before.
+    static func shot(_ row: Row, in tree: Tree) -> Photo? {
+        let id = row.sighting_id.uuidString.lowercased()
+        return tree.shots.first { $0.sighting == id }
+    }
 }

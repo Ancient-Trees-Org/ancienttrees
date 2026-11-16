@@ -398,7 +398,7 @@ private fun LazyListScope.discoverContent(
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
                     items(fresh, key = { it.first.sightingId }) { (row, tree) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }) { act.openTree(tree) }
+                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = NewFromVisitors.shot(row, tree)) { act.openTree(tree) }
                             VisitorLine(row, openVisitor)
                         }
                     }
@@ -646,7 +646,7 @@ private fun GhostMark() {
 
 /** CollectedTile.swift (.ours): a photograph in a 3:4 tile and its tag, nothing else. */
 @Composable
-private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, onOpen: () -> Unit) {
+private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, shot: app.ancienttrees.feed.Photo? = null, onOpen: () -> Unit) {
     val brand = Brand.colors
     Box(
         modifier
@@ -655,7 +655,7 @@ private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, onOpen:
             .background(brand.surfaceMuted)
             .clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current, onClick = onOpen),
     ) {
-        val p = tree.photo
+        val p = shot ?: tree.photo
         if (p != null) {
             RemoteImage(p.card, null, Modifier.fillMaxSize())
         } else {

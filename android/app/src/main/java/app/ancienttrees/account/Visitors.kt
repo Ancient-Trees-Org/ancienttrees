@@ -44,6 +44,17 @@ object NewFromVisitors {
         rows.filter { seen.add(it.treeId) }
     }.getOrDefault(emptyList())
 
+    /**
+     * The photograph this visitor sent, among the tree's own by the sightings row the feed
+     * names (Photo.sighting), so the tile shows their picture and not the lead (Hidde,
+     * 2026-11-15). Null until the feed carries it; the tile then shows the lead.
+     * NewFromVisitors.shot in ios Kit/NewFromVisitors.swift.
+     */
+    fun shot(row: Row, tree: app.ancienttrees.feed.Tree): app.ancienttrees.feed.Photo? {
+        val id = row.sightingId.lowercase()
+        return tree.shots.firstOrNull { it.sighting == id }
+    }
+
     suspend fun load(token: String?): List<Row> {
         val r = Supa.send("/rest/v1/rpc/new_from_visitors", token = token, body = JSONObject().put("n", 12).toString())
         return if (r.ok) parse(r.body) else emptyList()

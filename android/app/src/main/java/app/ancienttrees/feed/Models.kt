@@ -27,6 +27,8 @@ data class Photo(
     val season: String? = null,
     /** The month the photograph was taken (1 to 12), where the file said (feed taken_month). */
     val takenMonth: Int? = null,
+    /** The sightings row a visitor's photograph came from (lowercase uuid), else null (feed sighting). */
+    val sighting: String? = null,
 ) {
     val card: String get() = thumb ?: url
     val full: String get() = hero ?: url

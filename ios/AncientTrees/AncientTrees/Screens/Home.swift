@@ -865,7 +865,8 @@ struct HomeView: View {
                     ForEach(fresh, id: \.row.id) { f in
                         VStack(alignment: .leading, spacing: 7) {
                             NavigationLink(value: Route.tree(f.tree.id)) {
-                                CollectedTile(kind: .ours(f.tree), city: f.tree.city)
+                                CollectedTile(kind: .ours(f.tree), city: f.tree.city,
+                                              shot: NewFromVisitors.shot(f.row, in: f.tree))
                                     .frame(width: Self.tileWidth).clipShape(Self.tileShape)
                             }
                             .buttonStyle(.plain)
