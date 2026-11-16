@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: Supabase egress after the Guardian weekend
+
+- Usage page (Hidde's paste): 7.48 GB of 5 this cycle (28 Oct to 28 Nov); grace until 2026-12-13, restriction only if the next cycle (from 28 Nov) also passes 5 GB, so about 165 MB a day. The 11-13 fix held (database egress fell to about 50 MB a day on 11-14); 11-15 was about 850 MB and 11-16 about 450, almost all storage.
+- The gateway logs (a 7-day read-only token Hidde made; logs keep one day on the free plan) say who: of 979 MB of storage reads in 24 h, about 935 MB were our own scripts (Python), 30 MB visitors' browsers and the apps. The Mac (one session at 05:00 UTC: 344 reader photographs, 310 MB, in a fresh worktree whose out/ was empty) and the night runs during the weekend's inbox (100 to 200 MB a knock while the queue was long; 2 photographs at the 14:31 knock). shared_thumbs is fine (it makes only the new ones).
+- Fixed: `sightings_inbox.fetch_photo` (used by the inbox, reader_photos and inspect_readers) reads and fills the MAIN checkout's out/sightings when it runs in a worktree, so a photograph is downloaded once per Mac. Not done: an Actions cache for the runners' photos (the repo is public and private reader photos would sit in a cache other workflows can read).
+- Check: the usage page around 2026-11-20; under 165 MB a day is the aim. Delete the logs token when done.
+
 ## 2026-11-16 session: a tap on somebody's profile picture shows it full screen
 
 - **What changed**: on a public profile (web /profile, iPhone, Android) a tap on the person's picture opens it full screen on black in the photo viewer tree photographs already use: the whole picture, X or swipe down to close (Escape and a click beside it on the web, system back on Android), pinch to zoom in the apps, no credit line. A letter avatar is not a button and opens nothing. Your own picture on My trees is unchanged. Benchmarked first (WhatsApp, Facebook, X, LinkedIn, Instagram, Strava) into CONVENTIONS.md "Tapping somebody's profile picture to see it bigger"; Hidde picked the whole-photo form over X's circle ("Yes, build it").

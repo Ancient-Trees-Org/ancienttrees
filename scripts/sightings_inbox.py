@@ -41,6 +41,8 @@ import glob
 import json
 import math
 import os
+import shutil
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -176,8 +178,39 @@ def coded_path(path):
     return people.ref(head) + "/" + tail
 
 
+def _main_twin(dest):
+    """The same out/ file in the MAIN checkout, when this run is in a worktree.
+
+    SUPABASE EGRESS (2026-11-16, the gateway logs): after the Guardian weekend
+    one Mac session in a fresh worktree downloaded 344 reader photographs
+    (310 MB) that the main checkout's out/sightings already held, and the
+    free plan allows about 165 MB a day across everything. A worktree's out/
+    starts empty, so every session there fetched the whole set again. Reading
+    and filling the main checkout's copy makes each photograph one download
+    per Mac. None on a GitHub runner (one checkout, nothing to share), where
+    the run downloads only what is still open.
+    """
+    try:
+        rel = os.path.relpath(os.path.abspath(dest), ROOT)
+        if rel.startswith(".."):
+            return None
+        common = subprocess.run(["git", "-C", ROOT, "rev-parse", "--path-format=absolute", "--git-common-dir"],
+                                capture_output=True, text=True, timeout=10).stdout.strip()
+        main = os.path.dirname(common) if common.endswith(".git") else None
+        if not main or os.path.abspath(main) == os.path.abspath(ROOT):
+            return None
+        return os.path.join(main, rel)
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def fetch_photo(path, dest):
     if os.path.exists(dest) and os.path.getsize(dest) > 0:
+        return True
+    twin = _main_twin(dest)
+    if twin and os.path.exists(twin) and os.path.getsize(twin) > 0:
+        os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
+        shutil.copyfile(twin, dest)
         return True
     # A stored path starts with the owner's account id; public files hold it
     # with the id as a code (people.ref, 2026-10-19), so turn it back here.
@@ -204,6 +237,13 @@ def fetch_photo(path, dest):
         os.makedirs(parent, exist_ok=True)
     with open(dest, "wb") as fh:
         fh.write(data)
+    if twin:
+        try:
+            os.makedirs(os.path.dirname(twin), exist_ok=True)
+            with open(twin, "wb") as fh:
+                fh.write(data)
+        except OSError:
+            pass
     return True
 
 
