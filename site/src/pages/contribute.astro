@@ -69,8 +69,16 @@ const headExtra = ldScript(graph);
     <label>Where does it stand? <span class="sg-hint">A street, a park, or a Google Maps link. The single most useful thing you can give us.</span>
       <input type="text" id="sg-where" placeholder="Domplein, next to the cathedral entrance">
     </label>
-    <label>Why is it remarkable? <span class="sg-hint">Shows on the tree's page with your profile name.</span>
+    <label><span id="sg-why-q">Why is it remarkable?</span> <span class="sg-hint" id="sg-why-hint">Shows on the tree's page with your profile name.</span>
       <textarea id="sg-why" rows="3" placeholder="Old, huge, a story attached, or simply the tree everyone knows"></textarea>
+    </label>
+    {/* A PRIVACY REQUEST IS A MESSAGE, NOT A TREE (a reader, 2026-11-16: the
+        terms page's "write to us" landed on a tree form). With kind=privacy the
+        script below hides the tree fields, drops the required city, and asks
+        for an address to answer when nobody is signed in: an anonymous request
+        we cannot answer is a promise on /privacy we cannot keep. */}
+    <label id="sg-email-row" hidden>Your email address <span class="sg-hint">So we can answer you.</span>
+      <input type="email" id="sg-email" placeholder="you@example.com">
     </label>
     <label>How far round is the trunk? <span class="sg-hint">Optional. In metres, at chest height. One hug is about 1.5 m.</span>
       <input type="text" inputmode="decimal" id="sg-girth" placeholder="4.2">
@@ -190,6 +198,19 @@ const headExtra = ldScript(graph);
                   privacy: 'Sending a privacy request. Say what you would like removed.'};
   var kn = kindNote[document.getElementById('sg-kind').value];
   if (kn) { var el = document.getElementById('sg-kindnote'); el.textContent = kn; el.hidden = false; }
+  if (document.getElementById('sg-kind').value === 'privacy') {
+    ['sg-tree', 'sg-city', 'sg-where', 'sg-girth'].forEach(function(id) {
+      var inp = document.getElementById(id);
+      inp.required = false;
+      inp.closest('label').hidden = true;
+    });
+    document.querySelector('.sg-photo').hidden = true;
+    document.getElementById('sg-why-q').textContent = 'What would you like removed, or what is your question?';
+    document.getElementById('sg-why-hint').hidden = true;
+    document.getElementById('sg-why').placeholder = '';
+    document.getElementById('sg-why').required = true;
+    document.getElementById('sg-email-row').hidden = !!session();
+  }
   // the page the reader came from already knows the city and the tree
   if (params.get('city')) { document.getElementById('sg-city').value = params.get('city'); }
   if (params.get('tree')) { document.getElementById('sg-tree').value = params.get('tree'); }
@@ -309,8 +330,8 @@ const headExtra = ldScript(graph);
     e.preventDefault();
     if (inFlight) return;
     var city = document.getElementById('sg-city').value.trim();
-    if (!city) return;
     var kindNow = document.getElementById('sg-kind').value;
+    if (!city && kindNow !== 'privacy') return;
     var s = session();
     // The gate (Hidde, 2026-08-21, the Google Maps convention): anyone can
     // see and fill the form, sending needs the account that lets us answer.
@@ -343,6 +364,8 @@ const headExtra = ldScript(graph);
     // refuse the whole row, and the tree matters more than the number.
     var girth = girthCm(document.getElementById('sg-girth').value);
     if (girth) body.girth_cm = girth;
+    var email = document.getElementById('sg-email').value.trim();
+    if (kindNow === 'privacy' && !s && email) body.email = email;
 
     // THE PICTURE FIRST, then the row, so a row never points at a file that
     // failed to arrive. And the tip goes either way: if the upload fails, or
