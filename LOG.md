@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 second attempt of the window: shelf empty, Sintra a wall
+
+- Nothing published. leads.py --ready lists only reader sightings (9, handled at rung 1) and 5 Leipzig leads (leipzig is fully published). prepare.py's "awaiting a writer" list is stale: wales-yews and us-photo-batch-1 (27 trees) are already live; the rest are held rows. A verify pass on Sintra found every register row already judged or a duplicate; the Monserrate Eucalyptus linearis lead needs a session with PDF text extraction (Parques de Sintra forestry plan, note added to data/leads/sintra.json). Claim released, Sintra walled 48h. Munich is at 60/60, so claim refused.
+- Next run: the refill pile (913 leads lacking only a source) is the real shelf; try a US/UK city not walled (Miami, Key West, Fort Lauderdale, Philadelphia, Milwaukee).
+
 ## 2026-11-16 write pass: nothing writable, again
 
 - Nothing published. The 15 pending rows in allentown, aspromonte, brindisi, castelbuono, dartmoor, frankfurt, grazalema-rediam, innsbruck, isole-tremiti, noto, san-francisco and serra-san-bruno are the same shelf the 11-15 pass found, each with a standing hold and no new evidence: access unproven (brd_001, frk_027, sgz_005, inn_007, not_002, not_003, tmt_001), cannot be told apart in a wood (asp_001, asp_002, ssb_002, ssb_003), location not statable (cbu_001), no sighting since 2019 (dmr_002), duplicate of live sfo_004 (sfo_012). taiwan-verified.json holds only a _notes row. all_001 (Allentown cottonwood) now carries its hold in the file. passcheck `--pending` still counts held rows as needing a story; this lane needs a verify pass (sightings, GPS, access) before it has work.
