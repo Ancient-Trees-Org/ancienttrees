@@ -516,7 +516,9 @@ def status():
           f"{len(leads)} of a tree we do not map")
     for l in leads:
         where = (f"{l.get('latitude'):.4f},{l.get('longitude'):.4f}"
-                 if l.get("latitude") is not None else "no coordinate")
+                 if l.get("latitude") is not None
+                 else (f"no coordinate, place given: {l['near']}" if l.get("near")
+                       else "no coordinate"))
         on_disk = os.path.exists(lead_file(l.get("sighting_id"))) if l.get("sighting_id") else False
         print(f"  {str(l.get('sighting_id'))[:8]}  NOT ON THE MAP  "
               f"{(l.get('name') or 'unnamed')[:34]}  {where}"
@@ -760,6 +762,12 @@ def main():
                     "girth_hugs": row.get("girth_hugs"),
                     "note": (row.get("note") or "")[:500],
                     "latitude": row.get("lat"), "longitude": row.get("lng"),
+                    # THE PLACE THEY TYPED, for a tip with no coordinate
+                    # (2026-11-16: the Akaroa totara and the Kaštel Štafilić
+                    # olive sat as "no coordinate or place name" for a day
+                    # because the form's city field never reached this row).
+                    # judgement.py reads it as `near`.
+                    "near": (row.get("city") or "").strip() or None,
                     # No taken_at: this file is public, and the time a reader
                     # stood somewhere stays in Supabase (2026-10-19 audit).
                     # Coded: a storage path starts with the account id and
