@@ -491,3 +491,11 @@ She asked whether she can email new trees. My draft opened by thanking her for a
 ## 2026-11-16: a loss they mention is met plainly (Elsa Kögel, Alte Bäume der Heide)
 
 She wrote that her husband, the photographer behind the project, died last year. My draft said "mein herzliches Beileid zum Tod Ihres Mannes". His version: **"Im sorry to hear about the loss of your husband sounds better"**, since formal condolences can read strange when the death may be a while ago. So: "I'm sorry to hear about the loss of ..." (DE "Es tut mir sehr leid, vom Verlust Ihres Mannes zu hören"), one sentence, then on.
+
+## 2026-11-16: asking whether a watermarked photo is theirs is fine (reader tip, Vigeois yew)
+
+A reader sent a photo with another name in the corner ("krapo arboricole"). I called "is that you? may we use it?" a suspicion and wanted to drop it. His verdict: **"het is niet heel gek om te vragen of het watermerk klopt en of we het online mogen zetten toch?"** Asking plainly whose photo it is and whether we may put it online is a normal permission question, not an accusation. Ask it, in one line.
+
+## 2026-11-16: the open door has no fence (Genziana Ricci, Ferrara)
+
+My closing line said "Whenever you come across another tree between Bologna and Ferrara, I'm always curious." His version: **"Whenever you come across another tree  I'm always curious."** Do not narrow an open invitation to the region we think they know; any tree they come across is welcome.
