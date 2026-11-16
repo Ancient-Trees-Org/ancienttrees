@@ -1,0 +1,62 @@
+{
+  "city": "Vigeois",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Vigeois is a small town in Corrèze, in central France, on the river Vézère between Uzerche and Brive. One of its streets, the Rue du Vieil If, is named after the old yew that stands beside it by the school playground. The Ancient Yew Group records it at 915 centimetres round, and a reader who sent it to us calls it the millennial yew of Vigeois.",
+  "meta_description": "The old yew of Vigeois in Corrèze, 915 cm round by the Ancient Yew Group's record, beside the street named after it: where it stands and what is known.",
+  "hero_tree_id": "vgs_001",
+  "oldest_tree_id": "vgs_001",
+  "trees": [
+    {
+      "id": "vgs_001",
+      "name": "The Old Yew of Vigeois",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "about 1,400 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 915,
+      "location": {
+        "address": "Rue du Vieil If, beside the school playground, 19410 Vigeois",
+        "latitude": 45.378856,
+        "longitude": 1.516614,
+        "neighbourhood": "Vigeois, Corrèze"
+      },
+      "story": "A street in Vigeois is named after this tree. The Rue du Vieil If, the street of the old yew, runs past the spot where it stands beside the school playground, in a small town in Corrèze in central France.\n\nThe Ancient Yew Group, which keeps a database of Europe's oldest yews, records its girth at 915 centimetres and notes that it is commonly said to be more than nine metres round. A reader who sent it to us calls it the millennial yew of Vigeois and puts it at 1,400 years, planted when the town's abbey was founded in the sixth century. No measurement we know of dates it, so read that figure as the reader's and the village's, not as ours.\n\nThe reader writes that it carries storm damage and decay inside, and that \"local arborists carefully prune and cable it\". Above a low skirt of dense, dark green shoots, the trunk parts into several great grey-brown stems that climb into the crown.\n\nIf you know more of its story, or when it was last measured, tell us here. Walk down the Rue du Vieil If and look for it by the playground railing.",
+      "how_to_recognise": "A huge many-stemmed yew beside the school playground on the Rue du Vieil If, its base hidden in a low skirt of dense dark green shoots, a metal railing beside it.",
+      "verified_sources": [
+        "https://www.ancient-yew.org/yew_tree_database/vigeois/",
+        "https://www.ancient-yew.org/yew_trees/vigeois/"
+      ],
+      "found_by_reader": {
+        "tip": "tip-959",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session: a reader's website tip (submission 959, 'Yew', Vigeois, place hint '1 Rue Du Vieil If'; note: 1,400 years, planted at the abbey's sixth-century foundation, labelled a Remarkable Tree, storm damage and decay, pruned and cabled by local arborists). Ancient Yew Group database, tree 5617 (recorded by Tim Hills / Bob Burrows): girth 915 cm, 'commonly acknowledged to be 9m+', grows by a school playground, access Public, responsibility local authority, coordinate 45.378856, 1.516614, earliest mention the Fondation Colas books of 1995. Nominatim puts the Rue du Vieil If at 45.3789, 1.5171, beside that coordinate. Age, the Remarkable Tree label and the cabling are the reader's and not otherwise sourced. The reader's photograph carries the signature 'krapo arboricole', so it is not used; the reply asks whether it is theirs. Hidde, 2026-11-16: 'zet die ene pagina zonder foto live'. Pin kept approximate: the database coordinate is not a surveyed trunk position.",
+      "access": "Public, per the Ancient Yew Group; it stands beside the school playground on the Rue du Vieil If.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "database coordinate",
+        "source": "https://www.ancient-yew.org/yew_tree_database/vigeois/",
+        "date": "2026-11-16",
+        "note": "The Ancient Yew Group's map coordinate for tree 5617, beside the Rue du Vieil If."
+      }
+    }
+  ],
+  "question_meta": "The old yew of Vigeois in Corrèze, 915 cm round by the Ancient Yew Group's record, beside the street named after it: where it stands and what is known.",
+  "question_answer": "The Old Yew of Vigeois stands beside the school playground on the Rue du Vieil If in Vigeois, Corrèze. The Ancient Yew Group lists its access as public.",
+  "question_context": "A street in Vigeois is named after this tree. The Rue du Vieil If, the street of the old yew, runs past the spot where it stands beside the school playground, in a small town in Corrèze in central France. The Ancient Yew Group, which keeps a database of Europe's oldest yews, records its girth at 915 centimetres and notes that it is commonly said to be more than nine metres round. A reader who sent it to us calls it the millennial yew of Vigeois and puts it at 1,400 years, planted when the town's abbey was founded in the sixth century. No measurement we know of dates it, so that figure is the reader's and the village's. The reader writes that it carries storm damage and decay inside, and that local arborists prune and cable it. Above a low skirt of dense, dark green shoots, the trunk parts into several great grey-brown stems that climb into the crown. Walk down the Rue du Vieil If and look for it by the playground railing.",
+  "faq": [
+    {
+      "q": "Can I visit The Old Yew of Vigeois?",
+      "a": "Yes. The Ancient Yew Group lists its access as public; it stands beside the school playground on the Rue du Vieil If."
+    }
+  ]
+}
