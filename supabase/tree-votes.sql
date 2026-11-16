@@ -82,6 +82,10 @@ from (
 ) last_word
 where why in ('worth it', 'not worth it')
   and tree_id <> ''
+  -- A deleted account's old rows keep its id in submissions, but the account
+  -- is gone from auth.users, so its votes have nothing to belong to and are
+  -- left behind (the first paste on 2026-11-16 stopped on exactly that).
+  and exists (select 1 from auth.users u where u.id = last_word.user_id)
 on conflict (user_id, tree_id) do nothing;
 
 -- Counts for every tree, from the votes table now. Same name and shape as
