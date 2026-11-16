@@ -2,6 +2,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-16 night run (04:21): reader photograph inbox, rung 1
+
+- **Product**: four first photographs live on photo-less trees from readers: the Becks Prime Augusta Live Oaks and the Old Pecan Tree (Houston), the Kapok Tree (Key West), the Rhodes Bald Cypress (Bong State Rec Area); two pins moved to the reader's fix, now confirmed. Four strip photographs kept behind the lead (the Fraternal Four's National Trust sign, the Angel Oak limbs, the Mexico City ahuehuete plaque and whole trunk). A colon reveal fixed in the Houston pecan story.
+- **Left open**: 24 reader photographs of trees we do not map (leads in data/leads/_sightings.json) still wait for a verdict; the other 14 queued rows are the five reader-found trees' own photographs, already live as their leads. Preflight 0 problems. Tripped over: `sightings_publish.py` wants the full sighting id, and a published row leaves the queue before `judgement.py --scan` can register it (verdict added by hand in data/judgements.json).
+
 ## 2026-11-15 night run (22:24): reader photograph inbox, rung 1
 
 - **Product**: five reader-found trees live, app first: the Bowthorpe Oak (Lincolnshire, bow_001, 13 m girth, private farm with pre-booked tours), the Crowhurst Yew (East Sussex, crh_001; the reader labelled it "near Wilmington"), the Doveridge Yew (dvr_001), a twisted sweet chestnut in Greenwich Park (lon_053) and the Methuselah redwood on Skyline Boulevard (wdd_001, new place Woodside; figures the reader's, the trust's article would not open). Six first photographs live on photo-less trees (Ardkinglas silver and grand fir, Library Park Fig, Coevorden maple, Granada Parador cypresses, Xemxija carob), three pins moved to the reader's fix.
