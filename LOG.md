@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-16 session: three more readers' trees live (Hidde: "doe ze nu")
+
+- **Product**: three readers' trees live, app first: a giant blackbutt by Bird Tree Road in Middle Brother National Park, NSW (mbr_001, new sighting, GPS fix; the reader's 11 m girth and 300 years match the state's and the National Trust's Bird Tree, but no source puts that name at the fix, so the page leaves it open); the Arbour Oak of Wollaton Park, Nottingham (ntm_001, tip-839, pinned from the Friends of Wollaton Park's uMap tree survey, 1460s per their leaflet); the Oak of Molinazzo, Poggio Renatico (pgr_001, tip-875, MASAF register 01/G768/FE/08, 461 cm, 23 m, register pin approximate).
+- **Not published**: the blackbutt reader's two extra photographs show a different, fire-hollowed trunk with a person in front. The morning run had already handled the other 21 open sightings (11 live, the rest leads with a reason); tips 908 (totara), 928 (olive) and 930 (Slovenian lime, NV 8628) still have no coordinate.
+- **Tripped over, again**: `judgement.py --verdict sight:<id>` cannot write a row the scan never stubbed, so the three photo rows were added by script (out/tmp/add_sight_rows.py); `verified_sources` must be plain URLs or preflight's register_ids crashes. Preflight 0 problems.
+
 ## 2026-11-16 third attempt: shelf still dry
 
 - Nothing published. No claims stood. Braga claimed, only 5 open leads (under the six-candidate floor), released, walled 48h. Portland refused (33 of 30, full). Translations stay paused (TRANSLATIONS_OUT); Zurich register stalled earlier (private plots, no PDF reader on the runner). The 5 Leipzig READY leads were declined earlier; leads.py lists them because block-reasons.json lacks their phrasing.

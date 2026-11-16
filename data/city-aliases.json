@@ -3029,6 +3029,10 @@
       "Miyami",
       "Mīamig"
     ],
+    "middle-brother-national-park": [
+      "Nationaal park Middle Brother",
+      "Middle-Brother-Nationalpark"
+    ],
     "miedzyzdroje": [
       "Meņdzizdroje",
       "Mizëzdroje"
@@ -3367,6 +3371,15 @@
       "Notas",
       "Netum",
       "Notu"
+    ],
+    "nottingham": [
+      "Notingamas",
+      "Notingema",
+      "Nottinghamia",
+      "Nottingem",
+      "Nottingxam",
+      "Nottinqem",
+      "Snotingahām"
     ],
     "novi-ligure": [
       "Novae",
@@ -3725,6 +3738,10 @@
     "plunge": [
       "Plongė",
       "Pluñhi"
+    ],
+    "poggio-renatico": [
+      "Podium Renaticum",
+      "Al Puz"
     ],
     "poleski-national-park": [
       "Nationaal Park Poleski",
@@ -5786,6 +5803,7 @@
     "mexico-city": "Mexico City",
     "meycauayan": "Meycauayan",
     "miami": "Miami",
+    "middle-brother-national-park": "Middle Brother National Park",
     "miedzyzdroje": "Międzyzdroje",
     "miharu": "Miharu, Fukushima",
     "milan": "Milan",
@@ -5845,6 +5863,7 @@
     "nisia-floresta": "Nísia Floresta",
     "norwich": "Norwich",
     "noto": "Noto",
+    "nottingham": "Nottingham",
     "nova-ves-pod-plesi": "Nová Ves pod Pleší",
     "novi-ligure": "Novi Ligure",
     "nuenen": "Nuenen",
@@ -5910,6 +5929,7 @@
     "pittsburgh": "Pittsburgh",
     "platteville": "Platteville, Wisconsin",
     "plunge": "Plungė",
+    "poggio-renatico": "Poggio Renatico",
     "polchow": "Pölchow",
     "poleski-national-park": "Polesian National Park",
     "port-renfrew": "Port Renfrew",

@@ -3102,11 +3102,12 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Photograph viewed: the whole oak in snow, a fine frame, but the tip carries no coordinate; a lead until Wollaton Park's Arbour Oak is pinned from a source.",
+   "status": "published",
+   "why": "published 2026-11-16 as ntm_001 (nottingham.json): pinned from the Friends of Wollaton Park tree survey, photograph viewed",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "nottingham/ntm_001"
   },
   {
    "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
@@ -3500,11 +3501,12 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Photograph viewed: a broad lone oak at sunset by a field, no coordinate; the note names a regional register entry, so verify and pin from that register.",
+   "status": "published",
+   "why": "published 2026-11-16 as pgr_001 (poggio-renatico.json): pinned from MASAF register 01/G768/FE/08, photograph viewed",
    "seen": "2026-11-15",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "published_as": "poggio-renatico/pgr_001"
   },
   {
    "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d",
@@ -4082,6 +4084,35 @@
    "seen": "2026-11-16",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
    "judged": "2026-11-16"
+  },
+  {
+   "sighting_id": "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa",
+   "user_id": "p_ce572bcf48df4b25bb131b55",
+   "mine": false,
+   "name": "Blackbutt",
+   "species": "Blackbutt",
+   "age": "300",
+   "girth_cm": 1100,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -31.6880866666667,
+   "longitude": 152.682296666667,
+   "photo": "p_ce572bcf48df4b25bb131b55/657DD07E-F174-4CD5-8B89-CB0A88CD8EAA.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/657dd07e-f174-4cd5-8b89-cb0a88cd8eaa-extra-1.jpg",
+    "out/sightings/657dd07e-f174-4cd5-8b89-cb0a88cd8eaa-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "published 2026-11-16 as mbr_001 (middle-brother-national-park.json): reader-found, GPS fix, photograph viewed; the two extra photographs show another trunk and stay off",
+   "seen": "2026-11-16"
   }
  ]
 }

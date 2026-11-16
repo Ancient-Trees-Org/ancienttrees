@@ -1,0 +1,68 @@
+{
+  "city": "Nottingham",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Nottingham's oldest tree stands in Wollaton Park, the public park around the Elizabethan Wollaton Hall on the city's western edge. The Friends of Wollaton Park count more than five hundred oaks of at least ten species there, planted singly and in avenues, and single out one as ancient: the Arbour Oak on Arbour Hill, south-east of the Hall, pollarded in the seventeenth century and thought to date from the 1460s. A reader sent us its photograph, taken after snow.",
+  "meta_description": "The Arbour Oak in Wollaton Park, Nottingham: a pollarded oak thought to date from the 1460s, where it stands and how to find it.",
+  "hero_tree_id": "ntm_001",
+  "oldest_tree_id": "ntm_001",
+  "trees": [
+    {
+      "id": "ntm_001",
+      "name": "The Arbour Oak of Wollaton Park",
+      "species": "Hybrid Oak (Quercus x rosacea)",
+      "age_estimate": "thought to date from the 1460s",
+      "age_min": 550,
+      "age_max": 570,
+      "age_basis": "source",
+      "girth_cm": 700,
+      "location": {
+        "address": "Arbour Hill, Wollaton Park, Wollaton Road, Nottingham NG8 2AE",
+        "latitude": 52.943362,
+        "longitude": -1.203791,
+        "neighbourhood": "Wollaton Park"
+      },
+      "story": "On Arbour Hill, south-east of Wollaton Hall, stands the oak the Friends of Wollaton Park think started life in the 1460s, more than a century before the Hall was built in 1588. Of the five hundred and more oaks in the park it is the one they single out as ancient.\n\nIt is a hybrid of the two native oaks, English and sessile, which the Friends name as Quercus x rosacea. In the seventeenth century it was pollarded: its branches were cut back again and again for wood, and the tree answered by throwing out the crowd of limbs it still carries.\n\nA reader who sent us its photograph gives the girth as nearly 7 metres and the spread of the crown as about 40 metres. Their picture was taken after snow. A short, swollen trunk splits a little above head height into a dozen heavy limbs that twist outwards and upwards, every one of them lined with snow, the low winter sun catching the bark at the top. A wooden fence and a stand of pines close in behind it.\n\nWollaton Park is the city's public park around the Hall, and the oak stands in it. If you have measured it yourself, tell us here.",
+      "how_to_recognise": "On the rise of Arbour Hill south-east of the Hall: a short, swollen pollard trunk that splits just above head height into a dozen heavy limbs twisting outwards, with a wooden fence and pines behind it.",
+      "verified_sources": [
+        "https://friendsofwollatonpark.org.uk/wp-content/uploads/2025/05/Wollaton-Park-Oak-Trees.pdf",
+        "https://umap.openstreetmap.fr/en/map/wollaton-park-trees_1104255"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-839",
+        "date": "2026-11-16"
+      },
+      "verify_notes": "2026-11-16 session (Hidde asked for the open reader inbox): a reader's website tip (tip-839) with a photograph, no coordinate. The Friends of Wollaton Park oak leaflet (2025) names the Arbour Oak on Arbour Hill, Quercus x rosacea, thought to date from the 1460s, pollarded in the 17th century; their uMap tree survey (Colin Robbins, 2023, updated 2024 and 2025, from an NCC database) has 'Hybrid Oak (Arbour Oak)' at 52.943362, -1.203791 in the Oak layer, not in its Felled / Dead layer, which is the pin and the life check. Girth nearly 7 m and spread 40 m are the reader's. The reader's note reads like the Friends' own text, so it is used for facts, not quoted. Photograph viewed: the whole tree in snow, trunk and crown, daylight, colour; 480 px wide.",
+      "access": "In Wollaton Park, the public park around Wollaton Hall on Nottingham's western edge; the oak stands on Arbour Hill, south-east of the Hall.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "published tree survey point",
+        "source": "https://umap.openstreetmap.fr/en/map/wollaton-park-trees_1104255",
+        "date": "2026-11-16",
+        "note": "The Friends of Wollaton Park's tree survey map marks 'Hybrid Oak (Arbour Oak)' at this point (what3words melon.craft.slate)."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ntm_001-the-arbour-oak-of-wollaton-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 480,
+        "height": 640,
+        "source": "contributor",
+        "contributor_user_id": "p_050a7df1343144bf3f82d0f0",
+        "sighting_id": "tip-839",
+        "note": "Photographed by a reader and sent through the website with an account; a viewing pass approved it on 2026-11-16: the whole oak in snow, trunk and crown readable, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "question_meta": "The Arbour Oak in Wollaton Park, Nottingham: a pollarded oak thought to date from the 1460s, where it stands and how to find it.",
+  "question_answer": "The Arbour Oak of Wollaton Park stands at Arbour Hill, Wollaton Park, Wollaton Road, Nottingham NG8 2AE. In Wollaton Park, the public park around Wollaton Hall on Nottingham's western edge; the oak stands on Arbour Hill, south-east of the Hall.",
+  "question_context": "On Arbour Hill, south-east of Wollaton Hall, stands the oak the Friends of Wollaton Park think started life in the 1460s, more than a century before the Hall was built in 1588. Of the five hundred and more oaks in the park it is the one they single out as ancient. It is a hybrid of the two native oaks, English and sessile, which the Friends name as Quercus x rosacea. In the seventeenth century it was pollarded: its branches were cut back again and again for wood, and the tree answered by throwing out the crowd of limbs it still carries. A reader who sent us its photograph gives the girth as nearly 7 metres and the spread of the crown as about 40 metres. Their picture was taken after snow. A short, swollen trunk splits a little above head height into a dozen heavy limbs that twist outwards and upwards, every one of them lined with snow, the low winter sun catching the bark at the top. A wooden fence and a stand of pines close in behind it. Wollaton Park is the city's public park around the Hall, and the oak stands in it.",
+  "faq": [
+    {
+      "q": "Can I visit The Arbour Oak of Wollaton Park?",
+      "a": "In Wollaton Park, the public park around Wollaton Hall on Nottingham's western edge; the oak stands on Arbour Hill, south-east of the Hall."
+    }
+  ]
+}
