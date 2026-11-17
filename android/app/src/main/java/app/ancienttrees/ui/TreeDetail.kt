@@ -1683,8 +1683,11 @@ private fun BarCircle(icon: ImageVector, label: String, on: Boolean = false, tin
 
 /** BrandButtonStyle: the primary capsule, 48 high, as wide as the bar allows. */
 @Composable
-internal fun BigButton(label: String, icon: ImageVector, modifier: Modifier = Modifier, onClick: () -> Unit) {
+internal fun BigButton(label: String, icon: ImageVector, modifier: Modifier = Modifier, fallback: String? = null, onClick: () -> Unit) {
     val brand = Brand.colors
+    // A label that does not fit (big text on a small phone: "Take me there · 18 mi"
+    // was cut to "Take me there ·") gives way to its short form, never a cut word.
+    var overflows by remember(label) { mutableStateOf(false) }
     Row(
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically,
@@ -1697,7 +1700,15 @@ internal fun BigButton(label: String, icon: ImageVector, modifier: Modifier = Mo
     ) {
         Icon(icon, null, tint = brand.onMoss, modifier = Modifier.size(21.dp)) // 16 semibold
         Spacer(Modifier.width(8.dp))
-        Text(label, fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = brand.onMoss, maxLines = 1)
+        Text(
+            if (overflows && fallback != null) fallback else label,
+            fontSize = 16.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = brand.onMoss,
+            maxLines = 1,
+            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+            onTextLayout = { if (!overflows && it.hasVisualOverflow) overflows = true },
+        )
     }
 }
 
@@ -1725,14 +1736,15 @@ private fun ActionBar(
             val collectIcon = if (collected) Sym.VerifiedFill else Sym.PhotoCameraSemibold
             val take = stringResource(R.string.take_me_there)
             if (standingHere) {
-                BigButton(collectLabel, collectIcon, Modifier.weight(1f), onCollect)
+                BigButton(collectLabel, collectIcon, Modifier.weight(1f), onClick = onCollect)
                 BarCircle(Sym.TurnUpRight, take, onClick = onDirections)
             } else {
                 BigButton(
                     if (kmAway != null) stringResource(R.string.take_me_there_far, farLabel(kmAway)) else take,
                     Sym.TurnUpRightSemibold,
                     Modifier.weight(1f),
-                    onDirections,
+                    fallback = take,
+                    onClick = onDirections,
                 )
                 BarCircle(collectIcon, collectLabel, on = collected, onClick = onCollect)
             }
