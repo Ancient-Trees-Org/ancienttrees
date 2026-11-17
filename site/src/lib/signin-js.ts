@@ -246,7 +246,11 @@ export const SIGNIN_JS = `
     try { s = JSON.parse(localStorage.getItem('ancienttrees_session')); } catch (e) { return; }
     if (!s || !s.refresh_token) return;
     if (s.expires_at > Date.now() / 1000 + 300) return;
-    fetch(SB + '/auth/v1/token?grant_type=refresh_token', {
+    // atRefreshing: the one door (collection-js verify) waits for this answer
+    // before it decides who is signed in. Without it the door ran first, saw
+    // the spent token, and kept "signed out" for the whole page: back after an
+    // hour, the bar said signed in and every save opened sign-in (2026-11-17).
+    window.atRefreshing = fetch(SB + '/auth/v1/token?grant_type=refresh_token', {
       method: 'POST',
       headers: { 'apikey': SBK, 'Content-Type': 'application/json' },
       body: JSON.stringify({ refresh_token: s.refresh_token })

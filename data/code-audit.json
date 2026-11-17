@@ -435,6 +435,28 @@
    "status": "open",
    "found_by": "hidde",
    "test": "scripts/test_mailcheck_walks.py"
+  },
+  {
+   "id": "ESC-2026-11-17-back-after-an-hour-a-signed-in-visitor-w",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/collection-js.ts",
+   "summary": "Back after an hour, a signed-in visitor was asked to sign in on save, collect, /contribute and /account: the one door decided before signin-js renewed the spent token",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_signed_in_is_never_asked_to_sign_in()"
+  },
+  {
+   "id": "ESC-2026-11-17-signed-in-with-no-signal-and-a-spent-tok",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
+   "summary": "Signed in with no signal and a spent token, writing a note, following, asking to be an ambassador or joining Plus opened the sign-in sheet instead of saying it did not go through",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_signed_in_is_never_asked_to_sign_in()"
   }
  ]
 }

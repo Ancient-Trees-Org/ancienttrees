@@ -94,6 +94,15 @@ window.atCollection = window.atCollection || (function() {
   var who = null;
   function verify() {
     if (verified) return verified;
+    // A spent token being renewed (signin-js refreshIfStale) is decided after
+    // the renewal, never before it (2026-11-17).
+    if (window.atRefreshing && !session()) {
+      return (verified = Promise.resolve(window.atRefreshing).catch(function() {}).then(function() {
+        window.atRefreshing = null;   // asked once; a failed renewal reads as signed out
+        verified = null;
+        return verify();
+      }));
+    }
     var s = session();
     if (!s) return (verified = Promise.resolve(false));
     verified = fetch(SB + '/auth/v1/user', { headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token } })

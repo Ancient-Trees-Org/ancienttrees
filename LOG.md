@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: two more ways a signed-in person was asked to sign in
+
+- **Web (Hidde: "kun je nagaan of er nog anders zon loop zit?")**: back on the site after more than an hour, the bar said signed in but save, collect, Add a tree (/contribute opened sign-in by itself) and /account asked to sign in. The access token lasts an hour; signin-js renews it on load, but the one door (collection-js verify) and those pages decided first and kept "signed out". Now signin-js exposes the renewal as `window.atRefreshing` and the door, /contribute, /account and /account/settings wait for it.
+- **App**: signed in with no signal and a spent token, writing a note, following someone (two screens), asking to be an ambassador or joining Plus opened the sign-in sheet. No signal is not a sign-out (Account.apply), so these now say it did not go through; only a real sign-out asks. In the next build.
+- qa `check_signed_in_is_never_asked_to_sign_in()` guards both (it flagged all five app places before the fix). Two escaped-bug rows, closed with it. Every other sign-in call on web and app was read and asks only when signed out.
+
 ## 2026-11-17 session: the reader system's holes closed
 
 - **Deploy unblocked**: every deploy since 12:53 failed QA on a reader's raw account id in data/leads/_sightings.json (a photo path written by a reader judge run); now coded with people.ref. `check_no_reader_traces_in_the_repo()` moved into qa's source-only checks, so it refuses the push, not the deploy an hour later. The raw id stays in git history (no force-push, hard rule 3); it is an opaque account id, no name or address.

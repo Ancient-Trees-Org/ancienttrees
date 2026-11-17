@@ -161,8 +161,18 @@ const headExtra = ldScript(graph);
   // knows who is holding it.
   var gate = document.getElementById('sg-gate');
   var gateBtn = document.getElementById('sg-gate-btn');
+  // A spent token with a refresh token beside it is still somebody signed in,
+  // renewed a moment later by signin-js (window.atRefreshing); the gate is
+  // drawn again once that answer is in (2026-11-17: back after an hour, this
+  // page opened sign-in for a signed-in person).
+  function renewing() {
+    try {
+      var s = JSON.parse(localStorage.getItem('ancienttrees_session'));
+      return !!(s && s.refresh_token && !(s.expires_at > Date.now() / 1000));
+    } catch (e) { return false; }
+  }
   function drawGate() {
-    var signedIn = !!session();
+    var signedIn = !!session() || renewing();
     var priv = document.getElementById('sg-kind').value === 'privacy';
     // A privacy request may always be anonymous, so telling that person to
     // sign in would be wrong as well as unwelcoming.
@@ -250,11 +260,17 @@ const headExtra = ldScript(graph);
   // did nothing. My harness could not see it either, because the stub in the
   // harness was defined ABOVE the script under test, which is kinder than the
   // real page. The load event fires once every inline script has run.
-  if (!gate.hidden) {
+  {
     var openGate = function() {
-      // quiet: shown by the page, not asked for by a tap, so it is not a
-      // signin-open event (see atOpenSignIn).
-      if (window.atOpenSignIn) window.atOpenSignIn(null, 'contribute', { quiet: true });
+      // After any token renewal: drawn again on its answer, and the sheet
+      // opens only if the gate still stands.
+      Promise.resolve(window.atRefreshing).catch(function() {}).then(function() {
+        drawGate();
+        if (gate.hidden) return;
+        // quiet: shown by the page, not asked for by a tap, so it is not a
+        // signin-open event (see atOpenSignIn).
+        if (window.atOpenSignIn) window.atOpenSignIn(null, 'contribute', { quiet: true });
+      });
     };
     if (document.readyState === 'complete') openGate();
     else window.addEventListener('load', openGate);
