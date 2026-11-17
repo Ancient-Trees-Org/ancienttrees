@@ -5886,6 +5886,66 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "cairo/cai_001"
+  },
+  {
+   "sighting_id": "58efdc92-c382-4b03-b495-c53f027b4e58",
+   "user_id": "p_4dd8dcf5578c7ea25c0f9159",
+   "mine": false,
+   "name": "Apple in Milton Keynes",
+   "unsure_among": null,
+   "species": "Apple",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 52.0584429471304,
+   "longitude": -0.761167815720341,
+   "near": null,
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/58EFDC92-C382-4B03-B495-C53F027B4E58.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: a row of old apple trees along the edge of a paved path, grey split and hollowed trunks all leaning out towards the path, green crowns, one branch reaching over the grass in the foreground; daylight, colour. Live as milton-keynes/mkn_003 under the closed list (Hidde, 2026-11-17); the same photograph sent twice, folded into one entry.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "milton-keynes/mkn_003"
+  },
+  {
+   "sighting_id": "4ea907d1-6637-4070-aa8a-9a9d66a71f91",
+   "user_id": "p_4dd8dcf5578c7ea25c0f9159",
+   "mine": false,
+   "name": "Apple in Milton Keynes",
+   "unsure_among": null,
+   "species": "Apple",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "A row of Old Apple trees possibly Bramley",
+   "latitude": 52.0583794112046,
+   "longitude": -0.760613487902489,
+   "near": null,
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/4EA907D1-6637-4070-AA8A-9A9D66A71F91.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: a row of old apple trees along the edge of a paved path, grey split and hollowed trunks all leaning out towards the path, green crowns, one branch reaching over the grass in the foreground; daylight, colour. Live as milton-keynes/mkn_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "milton-keynes/mkn_003"
   }
  ]
 }

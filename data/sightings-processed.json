@@ -4371,6 +4371,46 @@
    "lon": -0.0948811322451522,
    "pin_checked": "2026-11-17"
   },
+  "58efdc92-c382-4b03-b495-c53f027b4e58": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mkn_003",
+   "city_slug": "milton-keynes"
+  },
+  "4ea907d1-6637-4070-aa8a-9a9d66a71f91": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mkn_003",
+   "city_slug": "milton-keynes"
+  },
+  "e7f5f503-48a4-457e-bd7d-1cedae177b2d": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "rkm_001",
+   "city_slug": "rumskulla",
+   "file": "rkm_001-rumskullaeken-the-kvill-oak-e7f5f503.jpg",
+   "reason": "The Kvill Oak whole in late summer: the vast hollow, burred trunk inside its ring of stones and chain, steel bands round the stem, mostly bare dead limbs with one leafy side, a person beside it for scale; daylight, colour. A different season and a scale the current lead lacks. Species seen: Oak: dee",
+   "lat": 57.6842616666667,
+   "lon": 15.7345333333333,
+   "pin_checked": "2026-11-17"
+  },
+  "d73aaf2c-6f0c-4822-8e89-2989f918c04c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "eke_001",
+   "city_slug": "ekero",
+   "file": "eke_001-ekebyhovseken-d73aaf2c.jpg",
+   "reason": "Ekebyhovseken alone in a snowy meadow, the whole massive trunk and its broken, thinned crown against a grey sky, red farm buildings behind; daylight. Unique to a reader, winter. Species seen: Oak: rugged furrowed bark, twisting bare oak branching. Fits the description: a short, enormously thick trun",
+   "lat": 59.2797916666667,
+   "lon": 17.8194616666667,
+   "pin_checked": "2026-11-17"
+  },
+  "64d7a378-7c5e-4efd-b445-7e1b22ec2ea9": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "eke_001",
+   "reason": "Duplicate: the same photographs as d73aaf2c, sent twice by the same reader; that one goes on the page."
+  },
   "84c4d953-69b3-4eda-a5ed-32894e25217a": {
    "outcome": "rejected",
    "date": "2026-11-17",

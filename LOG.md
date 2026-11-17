@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (eighth pass): an apple row in Milton Keynes goes live; readers' photographs now lead the Kvill Oak and Ekebyhovseken
+
+- **New tree, milton-keynes/mkn_003, The Leaning Apple Row of Linford Wood** (sighting 4ea907d1, the same photograph also sent as 58efdc92 from 40 m along the path, so one entry): a line of old apple trees beside a public paved path off Foxhunter Drive (place from OpenStreetMap). Their trunks are grey, split and hollowed and all lean out over the path. The pin is the reader's GPS fix (confirmed). The story quotes their note ("possibly Bramley") as their own. There is no age, girth or source. Milton Keynes now has three trees, and its intro names the row.
+- **Kvill Oak (rumskulla/rkm_001)**: a second reader's late-summer photograph, with a person for scale, is added and now leads the page. The earlier reader's photo moves to the strip.
+- **Ekebyhovseken (ekero/eke_001)**: a reader's photograph of the whole trunk in a snowy field (February 2019) now leads the page in place of the Commons photo, which moves to the strip. The second copy (64d7a378) was the same file and is rejected as a duplicate.
+- **Feedback 1092** (an app user asking how to follow uploaders, edit a sent description and tag seasons): closed `needs_hidde`. The draft is drafts/reply-reader-1092-2026-11-17.md. One point is checked (the app has no season control, the date sets it); the other two are marked to check before any reply.
+- Seville sev_009 (84c4d953): the seventh pass rejected it (an all-black test frame from our own account); its verdict stands.
+- No open reports, and reader_words found nothing.
+- **Still open**: the same 16 photo-less tips as the fourth pass, for the reasons given there. None names a tree we already map. The pin catch-up hit an HTTPError again, which has no effect because every pin involved is a confirmed GPS fix.
+
 ## 2026-11-17 reader judge (seventh pass): one test frame rejected
 
 - **seville/sev_009** (sighting 84c4d953): rejected. The frame is all black, taken in the Netherlands by one of our own accounts, so it was a test. The sixth pass had already handled Cheapside, so this run kept main's version of that work.

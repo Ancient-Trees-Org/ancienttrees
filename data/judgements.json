@@ -3189,6 +3189,150 @@
    "reason": "Photograph viewed 2026-11-17: a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and iron railing, daylight, colour. Live as cairo/cai_001 under the closed list (Hidde, 2026-11-17)."
   },
   {
+   "id": "sight:0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cheapside Plane",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/0b4c9e0a-916e-4f6c-a11c-d6850563f822.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 192,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the Cheapside Plane in full leaf behind the churchyard railings at Wood Street and Cheapside, daylight and colour; added and now leads the page. Their GPS fix and report 1000072 moved our pin 190 m to the corner the story names.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e7f5f503-48a4-457e-bd7d-1cedae177b2d",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Rumskullaeken (the Kvill Oak)",
+   "city": "Rumskulla",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/e7f5f503-48a4-457e-bd7d-1cedae177b2d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8418,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Kvill Oak whole in late summer, a person beside it for scale; added beside the lead, the reader's becomes the lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d73aaf2c-6f0c-4822-8e89-2989f918c04c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ekebyhovseken",
+   "city": "Ekerö",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/d73aaf2c-6f0c-4822-8e89-2989f918c04c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 39,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Ekebyhovseken alone in a snowy meadow, whole trunk and broken crown; a reader's winter photograph now leads the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:64d7a378-7c5e-4efd-b445-7e1b22ec2ea9",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ekebyhovseken",
+   "city": "Ekerö",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/64d7a378-7c5e-4efd-b445-7e1b22ec2ea9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 39,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate of d73aaf2c, the same photographs sent twice; that one is on the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:58efdc92-c382-4b03-b495-c53f027b4e58",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Apple in Milton Keynes",
+   "city": null,
+   "species": "Apple",
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/58EFDC92-C382-4B03-B495-C53F027B4E58.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple"
+   },
+   "verdict": "publish",
+   "reason": "The same photograph as 4ea907d1 sent twice; folded into milton-keynes/mkn_003",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Apple in Milton Keynes",
+   "city": null,
+   "species": "Apple",
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/4EA907D1-6637-4070-AA8A-9A9D66A71F91.jpg",
+   "reader_note": "A row of Old Apple trees possibly Bramley",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple"
+   },
+   "verdict": "publish",
+   "reason": "A row of old leaning, hollowed apple trees beside a public path in Linford Wood, GPS fix; live as milton-keynes/mkn_003",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
@@ -14247,24 +14391,24 @@
    "agreed": null
   },
   {
-   "id": "sight:0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+   "id": "sight:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
    "seen": "2026-11-17",
    "kind": "photo of a tree we map",
-   "tree": "The Cheapside Plane",
-   "city": "London",
-   "species": "London Plane (Platanus x acerifolia)",
-   "photo": "out/sightings/0b4c9e0a-916e-4f6c-a11c-d6850563f822.jpg",
-   "reader_note": "",
+   "tree": "The Leaning Apple Row of Linford Wood",
+   "city": "Milton Keynes",
+   "species": "Apple (Malus domestica)",
+   "photo": "out/sightings/4ea907d1-6637-4070-aa8a-9a9d66a71f91.jpg",
+   "reader_note": "A row of Old Apple trees possibly Bramley",
    "reader_girth_cm": null,
    "match": "app",
-   "distance_m": 192,
+   "distance_m": 0,
    "current_photo": "approved",
    "measure": {
     "score": null,
-    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+    "note": "nothing measurable about Apple (Malus domestica)"
    },
    "verdict": "publish",
-   "reason": "Viewed: the Cheapside Plane in full leaf behind the churchyard railings at Wood Street and Cheapside, daylight and colour; added and now leads the page. Their GPS fix and report 1000072 moved our pin 190 m to the corner the story names.",
+   "reason": "The reader's own photograph of the tree they added leads milton-keynes/mkn_003: old leaning, hollowed apple trunks beside a public path, daylight",
    "hidde": null,
    "agreed": null
   }
