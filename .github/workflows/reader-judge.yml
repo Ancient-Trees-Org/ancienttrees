@@ -78,6 +78,19 @@ jobs:
           python3 scripts/fetch_waiting_photos.py
           python3 scripts/judgement.py --scan
           python3 scripts/tree_reports.py --auto
+          # A reader's GPS fix moves an approximate pin of ours (move_pin,
+          # 2026-10-05) in the same minutes, not at the next knock (Hidde,
+          # 2026-11-17: "pin move by reader ook toevoegen aan de reader judge").
+          # Arithmetic, no agent: committed here so it lands even when nothing
+          # else waits.
+          python3 scripts/sightings_publish.py --pins || true
+          if ! git diff --quiet -- data/cities; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/cities
+            git commit -q -m "reader judge: pins moved to readers' GPS fixes"
+            git pull -q --rebase --autostash origin main && git push -q || true
+          fi
 
       - name: Is anything waiting
         id: work
