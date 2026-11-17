@@ -12,20 +12,28 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-17 reader judge (evening): El Sargento, a weeping cedar at Glasnevin and a Chiang Mai fig go live; four readers' photos join their trees
+## 2026-11-17 reader judge (third pass, merged onto the second): three more reader photos go up
 
-- **Three new readers' trees, each live with the reader's photograph and a confirmed GPS pin:**
-  - **El Sargento (mexico-city/mex_011)**, the dead ahuehuete of Chapultepec. It died in 1969 and still stands tall and striking, so it ships under the Ochi rule and the page says plainly it is dead. Sources: Wikipedia, whose coordinates are within 16 m of the reader's fix, plus the Chapultepec and CDMX pages. The Mexico City intro and FAQ said "only living trees" and are rewritten in English and in the Spanish overlay, which gets the tree's own entry.
-  - **The Weeping Blue Cedar of Glasnevin (dublin/dub_020).** The reader was unsure which of our trees it was. It is none of them: the photo shows a weeping form, and our dub_012 is an upright cedar. Dublin's counts go to twenty.
-  - **The Fig that Swallowed a Stone (chiang-mai/cnx_002)**, a strangler fig with a boulder held in its roots, beside a park road in Suthep. It was sent for the Yang Na 2.2 km away. Chiang Mai now has two trees, so it gets a place page.
-- **Reader photos added to trees we already map:**
-  - The winter snow shot of **the Rhodes Bald Cypress (bng_001)** is now its lead. The sign close-up moves to the strip.
-  - A second view of the aerial roots joins the strip of **the Jardim António Borges fig (azo_001)**.
-  - Two photos were sent for the wrong tree (the Ankerwycke Yew, the Hampstead beech). Their GPS fixes put them at **the Baobab Plane of Penenden Heath (mdb_001)** and **Barney the Plane (lon_008)**, both already contributed by the same readers. Each main frame repeated a photo already on that tree's page, so the queue entry was pointed at the new frame (extra 1), which went into that tree's strip.
-- **Held:** a snowy Kenrokuen pine sent for the Karasaki Pine (kan_003). It is upright and rigged, with no pond in the frame, so it cannot say which of the garden's pines it is.
-- **Fix:** `sightings_publish.py` `to_lead()` copied the queue's photo path, which starts with the reader's raw account id, into _sightings.json. qa refused it. It now writes the reader's code in that slot, and the two rows it had written were corrected.
-- No open reports. Congratulation mails were a dry run here (no credentials) and wait for the deploy and the next knock. Earlier `hold` verdicts on five of today's leads were also written into judgements.json.
-- Still unjudged (`judgement.py --unjudged`): the photo-less tips from 11-15 to 11-17 (Heidelberg x3, Ho Chi Minh City, La Unión, Cat Island, Cape Town, Tsitsikamma, Kgalagadi, Sagole, Camaldoli, Lusnizza, A Coruña, Mouriscas). They are left for the next run, past this run's time.
+- A parallel pass judged the same queue and published El Sargento, the Glasnevin cedar and the Chiang Mai fig first. Its versions stand, and this pass's copies were dropped in the merge. Its Azores hold (abb593f0, `doubt_location`) also stands.
+- **Added on top of it:**
+  - **The Rhodes Bald Cypress (bng_001)** has the reader's winter snow photograph (017db4cf) as its lead. The sign close-up moves to the strip.
+  - The two "duplicate" sightings each carried a further frame the second pass did not use. The new trunk view of **the Baobab Plane of Penenden Heath (mdb_001, e7bef8af extra 1)** and the close trunk view of **Barney the Plane (lon_008, 9c93b205 extra 1)** are now in those trees' strips. sightings-processed and judgements say `added` and `publish` for these sightings.
+- The queue was already empty, so `judgement.py --scan` could not stub 017db4cf. Its `sight:` verdict was written into judgements.json by hand.
+- The photo-less tips listed by `judgement.py --unjudged` still wait for the next run.
+
+## 2026-11-17 session: the late-trees alarm counts from when a reader sent it
+
+- **Measured**: of 649 things strangers sent in the last 7 days, 94% had a verdict. Reports, notes, ambassador requests and written feedback 100%, app photos 98%, trees added 82%: 31 without a recorded verdict while reader_backlog.py said 3 were late.
+- **Fixed**: reader_backlog.py also checks every tree or city a stranger sent, by its own send time, against every place a verdict can live (`trees_without_a_verdict()`); it reports 17 late. judgement.py stubs an app tree whose sighting no longer exists as a tip (eight sat in no route: five were the same tree sent twice and are live via the second copy, rows closed `holds`; three are tips now: 691, 755 Waipoua, 885 Tasmania). tip:820 recorded as live (a-coruna/acr_001).
+- **Breakage, fixed**: the `other_tree` route copied the queue's raw photo path into the public leads file (account id where a code belongs); `to_lead()` now codes it (test), the five paths are coded, and the pre-push qa check had stopped it.
+- **Left for the reader judge (dispatched)**: 17 tips without a photograph from 11-15 to 11-17 (Mouchão olive, Cat Island bald cypress, Tsitsikamma big tree, Ferrara oak, Heidelberg x3, Chile's Fitzroya, Ho Chi Minh banyan, and others).
+
+## 2026-11-17 reader judge (second pass): El Sargento, a weeping cedar and a Chiang Mai fig go live
+
+- **Live (every photograph viewed, GPS fix at each)**: **El Sargento** (mexico-city/mex_011), Chapultepec's ahuehuete, dead since 1969 and still standing, under the standing-dead exception, sourced (Wikipedia, Chapultepec, CDMX tourism, Mexico Desconocido), with the Spanish overlay entry; the Mexico City intro and FAQ, which said it was not on the page, now say it is (English and Spanish). **The Weeping Cedar Tunnel of Glasnevin** (dublin/dub_020): the reader was unsure which of five trees it was, and it is none of them; Dublin's counts go from 19 to 20. **The Fig That Holds the Stones** (chiang-mai/cnx_002), a strangler fig west of the old city. This run also built the Morden mulberry, but the pass above had already published it as lon_054, so its version stands.
+- **Queue**: El Sargento and the Chiang Mai fig had been sent for mex_006 and cnx_001, so both became `other_tree` first. Two photos the 11-17 session listed as "worth a page" are exact copies of pictures already on our trees: e7bef8af is the Baobab Plane's lead (mdb_001), and 9c93b205 is in Barney's strip (lon_008). Both were rejected as duplicates. The Kanazawa snow pine (0942bd2b) is held: it does not show the Karasaki pine's low branches over the pond, and Kenrokuen has hundreds of rigged pines.
+- **Held**: the Azores aerial-root fig (abb593f0) is held as `doubt_location`. It was sent from azo_001's page, so its coordinate is our pin, and it is a different trunk from azo_001's lead photograph. **For a session**: our azo_001 recognition line ("mass of aerial roots") may fit this fig better than the lead photo does. Check which fig is the regional sheet's.
+- Not done: _famous-mexico.json still lists El Sargento as a lead (preflight note). This run's duplicate mulberry image was moved out of site/public/photos into out/tmp/ and never committed.
 
 ## 2026-11-17 reader judge: a burred mulberry in Morden Hall Park goes live; the Dujiangyan ginkgo's pin is now marked approximate
 

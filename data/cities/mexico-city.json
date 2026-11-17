@@ -3,11 +3,11 @@
   "country": "Mexico",
   "status": "needs_curation",
   "oldest_tree_id": "mex_002",
-  "intro": "Mexico City lost both of its famous old trees. The giant ahuehuete of Chapultepec dried up in 1969, and the tree Cortes is said to have wept under in 1520 is a ruin the city's own website calls one. So this page is about the survivors, and in 2025 the city finally named them: twelve Arboles Patrimoniales, declared in the official gazette with their trunks measured. Nine of them are here, with what still stands of El Sargento, and the trunks are the point. The one in Xochimilco measures more than eighteen metres around.",
+  "intro": "The giant ahuehuete of Chapultepec dried up in 1969, and the tree Cortes is said to have wept under in 1520 is a ruin the city's own website calls one. The Chapultepec trunk still stands, and it is on this page, but the rest is about the survivors, and in 2025 the city finally named them: twelve Arboles Patrimoniales, declared in the official gazette with their trunks measured. Nine of them are here, and the trunks are the point. The one in Xochimilco measures more than eighteen metres around.",
   "meta_description": "Mexico City's patrimonial trees, declared in 2025: ahuehuetes with trunks of ten and eighteen metres round, in Xochimilco, Tacuba and Coyoacan.",
   "question_answer": "The oldest tree in Mexico City is El Viejo del Agua, the ahuehuete of Santa Catarina in Azcapotzalco, which the city estimates at around 700 years, with a trunk 13.8 metres around. Treat that number as the city's own figure rather than a measured age: SEDEMA repeats it without publishing how it was reached, which is why we give it as a band of 500 to 700 years on the tree's own page.",
   "question_meta": "El Viejo del Agua in Azcapotzalco, an ahuehuete of around 700 years with a trunk 13.8 metres round, is Mexico City's oldest tree.",
-  "question_context": "Ahuehuete means old man of the water, and the Montezuma cypress is the tree the Aztecs planted beside springs and canals, which is why the survivors sit where water once ran rather than where the city grew. Almost none of them carries a documented age. The register that finally named them, SEDEMA's Arboles Patrimoniales declaration of 2025, measures trunks rather than years, so five of the ten trees on this page have no recorded age at all and we say so rather than filling the gap. The exception is the ahuehuete in Parque Espana, planted on 21 September 1921, a date precise to the day, which makes it the one fixed reference point on the page for how fast these trees actually thicken. Two famous ages circulate here and neither survives checking: the Xochimilco sabino is said locally to have been planted by Cuauhtemoc in 1521, and El Viejo del Agua is repeatedly called 700 years old. Both are traditions rather than measurements. The trunks, on the other hand, were measured this decade, and they are extraordinary.",
+  "question_context": "Ahuehuete means old man of the water, and the Montezuma cypress is the tree the Aztecs planted beside springs and canals, which is why the survivors sit where water once ran rather than where the city grew. Almost none of them carries a documented age. The register that finally named them, SEDEMA's Arboles Patrimoniales declaration of 2025, measures trunks rather than years, so five of the nine register trees on this page have no recorded age at all and we say so rather than filling the gap. The exception is the ahuehuete in Parque Espana, planted on 21 September 1921, a date precise to the day, which makes it the one fixed reference point on the page for how fast these trees actually thicken. Two famous ages circulate here and neither survives checking: the Xochimilco sabino is said locally to have been planted by Cuauhtemoc in 1521, and El Viejo del Agua is repeatedly called 700 years old. Both are traditions rather than measurements. The trunks, on the other hand, were measured this decade, and they are extraordinary.",
   "faq": [
     {
       "q": "What is the oldest tree in Mexico City?",
@@ -15,7 +15,7 @@
     },
     {
       "q": "Can I still see El Sargento or the Tree of the Sad Night?",
-      "a": "Not as living trees. El Sargento, the giant ahuehuete of Chapultepec, dried up in 1969, but its tall dead trunk still stands in the first section of the park and has its own page here. The Popotla tree tied to Cortes's retreat in 1520 is described as a ruin by the city's own venue page, and is not on this list."
+      "a": "El Sargento, yes, though not as a living tree: the giant ahuehuete of Chapultepec dried up in 1969 and its bare trunk still stands on the Calzada del Rey, and it is on this page. The Popotla tree tied to Cortes's retreat in 1520 is described as a ruin by the city's own venue page, and it is not on this list."
     },
     {
       "q": "Are these trees walkable from one another?",
@@ -395,21 +395,24 @@
       "id": "mex_011",
       "name": "El Sargento",
       "species": "Montezuma Cypress (Taxodium mucronatum)",
-      "age_estimate": "about 500 years when it died in 1969",
+      "age_estimate": "planted around 1460 by tradition; dead since 1969",
+      "age_min": null,
+      "age_max": null,
       "location": {
-        "address": "Primera Sección, Bosque de Chapultepec, Miguel Hidalgo, Mexico City",
+        "address": "Calzada del Rey, Bosque de Chapultepec, first section, Miguel Hidalgo, Mexico City",
         "latitude": 19.4194133333333,
         "longitude": -99.18087,
         "neighbourhood": "Bosque de Chapultepec"
       },
-      "how_to_recognise": "A tall, leafless grey trunk of a dead ahuehuete, split near the top into several broken stems, one bending out sideways like an arm, standing in a planted bed among the park's living trees.",
-      "access": "Free, in the first section of Bosque de Chapultepec, open daily except Mondays.",
+      "how_to_recognise": "Two tall, bleached grey trunks with no bark and no leaves, split and broken at the top, standing in a planted bed beside the Calzada del Rey among the living trees of the park.",
+      "access": "Free. In the first section of Bosque de Chapultepec, open daytime; the park closes on Mondays.",
       "verified_sources": [
-        "https://en.wikipedia.org/wiki/El_Sargento (El Sargento: a Montezuma cypress in Chapultepec said to have been planted by Nezahualcoyotl around 1460, about 500 years old when it died in 1969; the trunk stands about 50 feet tall; coordinates 19.4193, -99.1808)",
-        "https://www.chapultepec.org.mx/actividad/ahuehuete-de-moctezuma/?lang=en (Bosque de Chapultepec: El Sargento, about 500 years old by some specialists' estimate)",
-        "https://www.mexicocity.cdmx.gob.mx/venues/ahuehuete-el-sargento-chapultepec/ (Mexico City tourism: Ahuehuete El Sargento, said to have been planted around 1460)"
+        "https://en.wikipedia.org/wiki/El_Sargento (El Sargento: an ahuehuete in Chapultepec that lived about 500 years and died in 1969; its trunk still stands)",
+        "https://www.chapultepec.org.mx/en/espacio/ahuehuete-de-moctezuma/ (Bosque de Chapultepec: by tradition planted by Nezahualcoyotl at Moctezuma's request)",
+        "https://www.mexicocity.cdmx.gob.mx/venues/ahuehuete-el-sargento-chapultepec/ (Mexico City tourism: dried up in 1969, from lack of water and pollution; on the Calzada del Rey)",
+        "https://www.mexicodesconocido.com.mx/el-sargento-ahuehuete-chapultepec.html (Mexico Desconocido: named by the cadets of the Colegio Militar in Chapultepec Castle)"
       ],
-      "story": "This tree is dead, and has been since 1969, and people still walk across Chapultepec to stand under it. El Sargento, the Sergeant, is an ahuehuete, the Montezuma cypress that is Mexico's national tree, and tradition says the poet king Nezahualcoyotl planted it around 1460. Wikipedia and the park's own page put it at about 500 years old when it died; a plaque blames lack of water and pollution.\n\nWhat stands now is the trunk, roughly fifteen metres of it by Wikipedia's figure, grey and bare and split near the top into several broken stems, one bending out sideways like a raised arm. A reader sent us this photograph of it with a GPS fix taken in the park, and the picture shows how it holds its place, with the living trees of the forest all round it and the dead one still the tallest thing in the frame.\n\nIt stands in the first section of the Bosque de Chapultepec, in a planted bed you can walk around.\n\nGo round the full circle of the bed to see the trunk's ridges from every side.",
+      "story": "This tree is dead, and has been since 1969, and people still walk to it. El Sargento is the bare trunk of an ahuehuete, a Montezuma cypress, standing on the Calzada del Rey in Bosque de Chapultepec, and a reader sent us its photograph with a GPS fix taken in front of it.\n\nTradition says it was planted around 1460 by Nezahualcoyotl, the poet-king of Texcoco, at the request of Moctezuma, which is why it was long called Moctezuma's ahuehuete; the park's own page tells that story. Its later name came from the cadets of the Colegio Militar, quartered in Chapultepec Castle above it, who called it the Sergeant. Mexico City's tourism office says it dried up in 1969 from lack of water and pollution, after about five centuries.\n\nWhat stands now is still a monument. In the reader's photograph two great trunks rise side by side, stripped of bark and weathered to silver, split and broken at the top, one of them throwing out a last crooked limb like an arm. Around them the living park goes on in green, and the bed at their feet is planted with irises.\n\nCome in the morning light and walk all the way round. From the side, the two trunks open apart.",
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "fb383f1e-0383-4579-9603-21cca3aedd94",
@@ -424,7 +427,7 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-17 reader judge: sent by a reader (fb383f1e-0383-4579-9603-21cca3aedd94, 2025-11-08 photograph, sent 2026-11-17 through the app). Photograph viewed: the tall bare grey trunk of a dead ahuehuete, split into stems with broken tops, standing in a bed of low plants among the living trees of the park, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure on the page not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (fb383f1e-0383-4579-9603-21cca3aedd94, 2026-11-17, through the app). Photograph viewed: two tall bleached and split dead trunks of a Montezuma cypress rising out of a bed of irises, the park's live trees and people behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mex_011-el-sargento.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
@@ -435,7 +438,7 @@
         "source": "contributor",
         "contributor_user_id": "p_43296b4149990a775a24a4a6",
         "sighting_id": "fb383f1e-0383-4579-9603-21cca3aedd94",
-        "note": "Photographed by a reader and sent to Ancient Trees (2025-11-08 photograph, sent 2026-11-17 through the app); viewed and approved on 2026-11-17: the tall bare grey trunk of a dead ahuehuete, split into stems with broken tops, standing in a bed of low plants among the living trees of the park, daylight, colour. Not an open licence: ask before reuse elsewhere."
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: two tall bleached and split dead trunks of a Montezuma cypress rising out of a bed of irises, the park's live trees and people behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

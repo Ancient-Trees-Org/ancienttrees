@@ -125,15 +125,29 @@ def scan_tips(doc, known, today):
     except Exception as e:  # noqa: BLE001
         print("tips without a photograph: database unreadable (%s)" % str(e)[:80])
         return 0
+    uuid_re = r"[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}"
+    # A SIGHTING THAT IS GONE (2026-11-17): eight app trees of 11-15 and 11-16
+    # sat with no verdict because their row is named by a sighting that no
+    # longer exists (the sender deleted it, or the app sent the tree again
+    # under a new id). The photo route never sees them, so they are tips now.
+    named = [(r.get("tree") or "").strip().lower() for r in rows
+             if re.fullmatch(uuid_re, (r.get("tree") or "").strip())]
+    alive = set()
+    if named:
+        try:
+            got = inbox.get("/rest/v1/sightings?select=id&id=in.(%s)" % ",".join(named), key) or []
+            alive = {g["id"].lower() for g in got}
+        except Exception:  # noqa: BLE001
+            alive = set(named)          # unsure: leave them to the photo route
     added = 0
     for r in rows:
         if ours.is_ours(r.get("user_id")):
             continue
         # The app writes a submissions row beside every tree it sends with a
         # photograph, named by the sighting's uuid: that tree is judged on the
-        # photo route (sight:/lead:), so it is not a tip without a photograph.
-        if re.fullmatch(r"[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}",
-                        (r.get("tree") or "").strip()):
+        # photo route (sight:/lead:), so it is not a tip without a photograph,
+        # unless that sighting no longer exists (above).
+        if re.fullmatch(uuid_re, (r.get("tree") or "").strip()) and (r.get("tree") or "").strip().lower() in alive:
             continue
         jid = "tip:%s" % r["id"]
         if jid in known or ("lead:tip-%s" % r["id"]) in known:

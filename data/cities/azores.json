@@ -56,22 +56,7 @@
         "contributor_user_id": "p_20f572b893cc30e44a00d316",
         "sighting_id": "60a694a0-639f-46e3-bebb-7a3d1a8edcff",
         "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Same tree as the Commons view of the Ficus macrophylla in Jardim Antonio Borges: split trunk with the torn scar, buttress roots, stone wall behind; the tree had no photograph. Species seen: smooth grey fig bark, huge snaking buttress roots, leathery dark leaves. Fits the description: colossal fig with its roots roped off along a garden alley.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/azo_001-giant-australian-rubber-tree-of-jardim-antonio-borges-abb593f0.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_20f572b893cc30e44a00d316",
-          "sighting_id": "abb593f0-9a90-47cd-8138-1040de6f803c",
-          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-17: Same fig, a second view: the curtain of aerial roots the recognition line names, the botanical label on the trunk. Strip, the lead stays. Species seen: fig: glossy leathery leaves, dense hanging aerial roots. Fits the description: mass of aerial roots and the botanical label on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-        }
-      ]
+      }
     },
     {
       "id": "azo_002",

@@ -223,17 +223,7 @@
   },
   "p_20f572b893cc30e44a00d316": {
    "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "abb593f0-9a90-47cd-8138-1040de6f803c",
-     "tree_id": "azo_001",
-     "tree_name": "Giant Australian Rubber Tree of Jardim Antonio Borges",
-     "city": "Azores",
-     "city_slug": "azores",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "pending": [],
    "sent": [
     {
      "sighting_id": "60a694a0-639f-46e3-bebb-7a3d1a8edcff",

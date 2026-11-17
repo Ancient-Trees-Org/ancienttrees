@@ -312,7 +312,7 @@
    "latitude": null,
    "longitude": null,
    "coordinate_note": "The phone's fix is on the Supabase sightings row; not available locally. Pull it before this becomes a page.",
-   "photo": "site/public/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "photo": "p_b57d5685b57447b679154e55/public/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
    "status": "published",
    "why": "LOOKED at 2026-09-11: sent as the Sudajii of Omiya Gate (kyo_016) and is not it. Pale, smooth trunk shedding in long strips, fluted and burred, surface roots, simple toothed leaves, standing against a stone retaining wall beside a paved path. The ward's own Sudajii photograph (city.kyoto.lg.jp/kamigyo/page/0000012424.html) shows a broad dome on open gravel, and the Gyoen office's photograph of the named muku 大宮家の椋 (kyotogyoen.go.jp/highlights2/meiboku.html) shows a tall tree on open lawn: neither matches. No source found naming this trunk yet; Hidde wants it on the Kyoto page. PUBLISHED 2026-09-11 as kyo_019 on Hidde's ruling.",
    "seen": "2026-09-11",
@@ -5777,7 +5777,7 @@
     ]
    },
    "status": "published",
-   "why": "Photograph viewed 2026-11-17: a weeping blue cedar whose branches hang to the grass all round, a worn earth path leading in under the curtain to the leaning trunk, daylight, colour. Live as dublin/dub_020 under the closed list (Hidde, 2026-11-17).",
+   "why": "Photograph viewed 2026-11-17: a weeping blue cedar whose branches hang to the grass on every side, a bare-earth path leading in under the arch of its trunk and limbs, a bronze sculpture at the left edge, daylight, colour. Live as dublin/dub_020 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "dublin/dub_020"
@@ -5802,7 +5802,7 @@
    "nearest_published_m": 3962,
    "sent_for": "mex_006",
    "status": "published",
-   "why": "Photograph viewed 2026-11-17: the tall bare grey trunk of a dead ahuehuete, split into stems with broken tops, standing in a bed of low plants among the living trees of the park, daylight, colour. Live as mexico-city/mex_011 under the closed list (Hidde, 2026-11-17).",
+   "why": "Photograph viewed 2026-11-17: two tall bleached and split dead trunks of a Montezuma cypress rising out of a bed of irises, the park's live trees and people behind, daylight, colour. Live as mexico-city/mex_011 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "mexico-city/mex_011"
@@ -5827,10 +5827,35 @@
    "nearest_published_m": 2213,
    "sent_for": "cnx_001",
    "status": "published",
-   "why": "Photograph viewed 2026-11-17: a strangler fig beside a park road whose grey roots have grown into a lattice round a boulder held in the trunk, paths, stone seats and a pavilion behind, daylight, colour. Live as chiang-mai/cnx_002 under the closed list (Hidde, 2026-11-17).",
+   "why": "Photograph viewed 2026-11-17: a pale fig trunk made of fused roots that have grown round rounded brown lumps like boulders, a web of surface roots running over the ground to the kerb of a park road, daylight, colour. Live as chiang-mai/cnx_002 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "chiang-mai/cnx_002"
+  },
+  {
+   "sighting_id": "abb593f0-9a90-47cd-8138-1040de6f803c",
+   "user_id": "p_20f572b893cc30e44a00d316",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "latitude": 37.7434267,
+   "longitude": -25.6755293,
+   "near": "Azores",
+   "photo": "p_20f572b893cc30e44a00d316/abb593f0-9a90-47cd-8138-1040de6f803c.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 0,
+   "sent_for": "azo_001",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a big fig hung with curtains of aerial roots, a child for scale, a green railing and a street with cars behind; a different trunk from our lead photograph of azo_001 though sent from its page, so its coordinate is our pin, not where it was taken. Held until we know where in Jardim Antonio Borges (or elsewhere) it stands: the reply asks. Worth a session's look: our azo_001 recognition line ('mass of aerial roots') may fit this fig better than our lead photo.",
+   "seen": "2026-11-17",
+   "hold": "doubt_location",
+   "judged": "2026-11-17"
   }
  ]
 }

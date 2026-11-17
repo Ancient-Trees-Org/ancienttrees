@@ -170,6 +170,12 @@ class TestOneRoute(unittest.TestCase):
             l = leads[0]
             self.assertEqual((l["status"], l.get("hold"), l["sent_for"]), ("lead", None, "dub_017"))
             self.assertIn("matches no tree we map", l["why"])
+            # The photo path's first part is a code, never the account id.
+            raw = {"sighting_id": "s2", "tree_id": "dub_017",
+                   "photo_path": "12ea7b4f-1542-4216-b4af-909ffb0a4be8/S2.jpg"}
+            pub.to_lead(raw, "x", "2026-11-17")
+            l2 = [x for x in pub.load(tmp.name, {})["leads"] if x["sighting_id"] == "s2"][0]
+            self.assertTrue(l2["photo"].startswith("p_"), l2["photo"])
         finally:
             pub.LEADS = old
             os.unlink(tmp.name)
