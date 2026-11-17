@@ -24,6 +24,15 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17
+
+Web half: the last 24 hours were the Miami, Allentown, Aspromonte, Castelbuono, Serra San Bruno and Tremiti write passes (app-only, no web pages), reader photographs into Hobart and Takayama, seven new reader trees, Thailand and Philippines country intros. No em dashes and no banned words in the changed city and country files.
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html show a brief note to the writer as page text in the access line: "hours not fetched, writer must not invent any" (source data/cities/miami.json:260, data/cities/key-west.json:87). It leaks process as text ("public copy never narrates our process"). Replacement: "Free. Open access; opening hours not confirmed." A data fix a run may do; `grep -rn "writer must" data/cities` also hits miami `transport` x3, key-west `transport` and bamberg `notes` (transport is not shown, clean it with the rest). Worth a preflight check for "writer must" in `access` and `story`.
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Eleventh review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
+- WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-second review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
+- WARN data/collections/ancient-oaks-of-europe.json and data/collections/europes-most-remarkable-yews.json still say "every coordinate verified" (flagged 2026-11-16, unchanged). Many pins are approximate; hard rule 2 "faked precision". Replacement: "every entry is publicly accessible and links onward with a map".
+
 ## 2026-11-16
 
 Web half: the last 24 hours were the Hanoi banyan (hni_003, a reader's tip, visible from the pavement, sources named), Leipzig and Philadelphia app-only trees, reader photographs into strips, sign-in "Did you mean" copy and the tree_votes table. No em dashes in the Hanoi built page.
