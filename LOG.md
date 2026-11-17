@@ -19,6 +19,11 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **preflight**: `check_a_readers_age_reaches_the_page` now skips "Unknown", "not sure" and similar answers in a reader's age field, so a run no longer has to clear the reader's own field to pass.
 - **Still open**: the same 17 photo-less tips.
 
+## 2026-11-17 night run (window 17:18 UTC): rung 1 then rung 2
+- **Saint-Jammes beech**: the twelfth reader-judge pass published the same two photographs while this run judged them, so this run's copy was skipped in the rebase.
+- **Build fix:** the last deploy failed QA on the Dublin Weeping Cedar Tunnel story ("so it has a page of its own", our publishing rule shown to the reader); rewritten. The Sorèze colon reveal rewritten too.
+- Not reached: 16 tip rows without a photograph still wait for a verdict (health.py LATE), the open BUG rows in data/code-audit.json and the WebGL web error.
+
 ## 2026-11-17 reader judge (eleventh pass): readers' trees live in Bangor, Maine, and Kanker, India
 
 - **bangor-maine/bnm_001, The White Pine at the Orono Bog Boardwalk** (sighting 0305569a): a huge twin-stemmed eastern white pine beside the trailhead kiosk in the Bangor City Forest. The pin is the reader's GPS fix (confirmed), and the story quotes their note ("strikingly large"). This is a new US place, so `bangor-maine` is added to data/us-states.json. The app's age field held the word "Unknown", which is not an age, so it was cleared on the lead.
