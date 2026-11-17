@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a Daintree strangler fig is live; the Valley Forge sycamore's lead photo was not the sender's and is off
+
+- **Live: The Strangler Fig of the Daintree Discovery Centre (daintree/dtr_001, Queensland, Australia), sighting 4fe1cb00.** The photograph was viewed: from the boardwalk it looks up a column of fused, latticed fig roots climbing into the canopy among fan palms, with a visitor at the rail. The pin is the reader's GPS fix (confirmed). The reader's 500 to 600 years are stated as theirs. Only their sentence about the lost host tree is quoted, because the rest of their note reads like the centre's own description. Their second file is a 194 by 260 pixel thumbnail that may not be theirs, so it is not used. The species is "Fig (Ficus sp.)", matching Tilarán, because preflight allows one common name per species. Entry is paid. It is a new one-tree place (no place page), and "Daintree Rainforest" is now in city-aliases.
+- **Valley Forge sycamore (vfg_001).** The finder sent two more photographs of their tree, bare in November (455f464a, fd777c00). Then they wrote that the lead photograph from their first sighting (c4b5f1b1) **was not one they took** (report 1000077). That photograph is deleted from the site. Their own fd777c00 now leads, and 455f464a is in the gallery. They also measured the girth that day at 6.95 m (report 1000076): the story and FAQ now quote it as theirs (it was their 650 cm estimate), and `girth_cm` stays empty. The pin is unchanged. Both reports carry their own words, so they are closed `holds` with no mail. **For Hidde: a suggested reply is in drafts/reply-reader-1000077-2026-11-17.md.**
+- Nothing else was waiting: no tips, no feedback without a verdict, no other reports.
+
 ## 2026-11-17 reader judge: nothing new (a second run on the Lightning Ridge coolibah)
 
 - A second run picked up the coolibah (9620278d) at the same time as the one below and wrote it too. At push it found lightning-ridge/lri_001 already live and threw its copy away. Its one addition: Lightning Ridge is now looked up in data/city-aliases.json (no other names), which clears preflight's note. No other reader's tree, report, tip or feedback was waiting.

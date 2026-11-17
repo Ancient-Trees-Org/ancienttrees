@@ -2513,7 +2513,7 @@
    "hidde": null,
    "agreed": null,
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001."
+   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001. Later the same day the sender wrote that this photograph was not one they took (report 1000077): it came off the page and their own photograph fd777c00 leads."
   },
   {
    "id": "lead:5126ec15-4f8a-45ad-9fa1-996fe64483bc",
@@ -3913,6 +3913,90 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9620278d-6885-4b27-b86b-e5211e651a36",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Coolibah near Lightning Ridge",
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:455f464a-464b-476c-b634-b9bdc511f84c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/455f464a-464b-476c-b634-b9bdc511f84c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "The finder's own photo of the Pawling Farm sycamore, bare in November, limbs along the grass by the farm building: into the gallery (vfg_001).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fd777c00-bef5-4180-b214-8508313c12fb",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/fd777c00-bef5-4180-b214-8508313c12fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "The finder's own photo of the Pawling Farm sycamore, limbs touching the grass and rising again: now the lead, replacing a photo they said was not theirs (report 1000077).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Strangler Fig",
+   "city": null,
+   "species": "Strangler Fig",
+   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
+   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Strangler Fig"
+   },
+   "verdict": "publish",
+   "reason": "A great strangler fig on the Daintree Discovery Centre boardwalk, its fused root column climbing into the canopy, GPS fix beneath it: live as daintree/dtr_001, the reader's 500 to 600 years stated as theirs.",
    "hidde": null,
    "agreed": null
   },
@@ -14975,16 +15059,16 @@
    "agreed": null
   },
   {
-   "id": "sight:9620278d-6885-4b27-b86b-e5211e651a36",
+   "id": "sight:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
-   "tree": "Coolibah near Lightning Ridge",
-   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "tree": "The Strangler Fig of the Daintree Discovery Centre",
+   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
+   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a strangler fig's fused root column climbing into the rainforest canopy from the boardwalk, daylight, colour. Lead photograph of daintree/dtr_001."
   }
  ]
 }

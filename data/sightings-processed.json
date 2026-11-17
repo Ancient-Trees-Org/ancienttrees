@@ -4572,6 +4572,32 @@
   "9620278d-6885-4b27-b86b-e5211e651a36": {
    "outcome": "published",
    "date": "2026-11-17"
+  },
+  "4fe1cb00-e56f-42e1-8c89-ec11bc883f73": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "455f464a-464b-476c-b634-b9bdc511f84c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a.jpg",
+   "reason": "The same sprawling sycamore at Pawling Farm in November, bare: pale mottled limbs running out over leaf litter with the farm building behind; extras show the burred lower trunk and the crown from the lawn. Same reader who found it; the in-leaf lead stays (in leaf beats bare), these join the gallery.",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-17"
+  },
+  "fd777c00-bef5-4180-b214-8508313c12fb": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-fd777c00.jpg",
+   "reason": "The same sycamore from the open lawn, bare: one great limb arching up from limbs that touch the ground and turn back up, daylight, blue sky. Gallery, behind the in-leaf lead. Species seen: smooth white and grey mottled bark, bare crown with seed balls: American sycamore. Fits the description: limbs ",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -619,7 +619,26 @@
   },
   "p_3bb2d9b77f839015a3f92de9": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "fd777c00-bef5-4180-b214-8508313c12fb",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
