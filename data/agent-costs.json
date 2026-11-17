@@ -5,6 +5,14 @@
       {
         "date": "2026-11-17",
         "kind": "write",
+        "target": "countries: thailand+philippines",
+        "tokens": 45000,
+        "trees": 0,
+        "note": "page gap intros (Contract G) for Thailand (16 trees) and Philippines (3 trees), written from their own published trees; preflight 0 problems"
+      },
+      {
+        "date": "2026-11-17",
+        "kind": "write",
         "target": "miami+allentown+dartmoor+frankfurt+innsbruck+san-francisco+detroit+aspromonte+brindisi+castelbuono",
         "tokens": 95000,
         "trees": 2,
