@@ -13,6 +13,12 @@ name: Reader judge
 # not fifty. Revert: delete this file and drop the trigger in Supabase.
 
 on:
+  # Every 15 minutes a cheap poll (scripts/reader_poll.py: two id lists, no
+  # photographs) asks whether a reader sent anything new; only then does the
+  # rest run. Needs nothing from Hidde (2026-11-17). The repository_dispatch
+  # below is the optional faster path once the Supabase trigger is pasted.
+  schedule:
+    - cron: "7,22,37,52 * * * *"
   repository_dispatch:
     types: [reader-tree]
   workflow_dispatch: {}
@@ -51,7 +57,19 @@ jobs:
         id: start
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      - name: Did a reader send anything new
+        id: poll
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || python3 scripts/reader_poll.py; then
+            echo "new=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Read what readers sent and fetch every waiting photograph
+        if: steps.poll.outputs.new == 'yes'
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
@@ -62,6 +80,7 @@ jobs:
 
       - name: Is anything waiting
         id: work
+        if: steps.poll.outputs.new == 'yes'
         run: |
           leads=$(python3 scripts/fetch_waiting_photos.py --count)
           queue=$(python3 -c "import json;print(len(json.load(open('data/sighting-queue.json')).get('queue',[])))" 2>/dev/null || echo 0)
@@ -98,6 +117,7 @@ jobs:
             --max-turns 120
 
       - name: Deploy what went live
+        if: steps.work.outputs.go == 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
