@@ -132,6 +132,10 @@ For Hidde: compliance review, 1 point(s) wait for your word (data/compliance.jso
 - **Verify passes, both dead ends**: Zurich (27 register rows, no size, age or access evidence, all rejected as leads) and Miami (two paid-entry trees delivered to data/research/miami-verified.json and left unwritten, since Miami is already 46% behind a ticket). Both are walls for 48 h.
 - Health: iOS CI red 6 h ago (a session fixed the iOS 18 fault this morning, awaiting the next run); web error "Failed to initialize WebGL" is a browser without WebGL, not ours to fix.
 
+## 2026-11-17 session: Android looks like Android
+
+- On Hidde's word ("if you are sure about 1-6 than fix them all") the remaining iPhone forms on Android took Android's: short sheets dock to the bottom edge (full width, top corners rounded, handle, no X, closed by swipe or back); forms have an X left, the title left and Save right; pushed pages put the title left beside the back arrow; list rows lost their chevrons and section headers their capitals; form fields are outlined. Sign-in shows Google first on Android (Apple stays, second, for accounts made on an iPhone). A sharp adaptive icon and splash replaced the blown-up 192 px PNG; that change crashed the camera's sign-in sheet for an hour on his phone (fixed, escaped bug recorded, FlowWalk.collectGate catches it). FlowWalk 24 of 24 on the emulator. All in PR 64.
+
 ## 2026-11-17 session: Android gets Android's tab bar
 
 - Hidde on his Samsung: the floating capsule "voelt als iOS specifiek". Looked at AllTrails and Polarsteps on his phone: both dock a white bar to the bottom edge, 56 high, a word under every item, the chosen one coloured with a filled icon, no pill. On his word ("volg maar gewoon polarsteps en alltrails") Android's bar is now that: Map, Discover, My trees and the camera with "Collect" (eight languages). The iPhone keeps its capsule. Parity list and CONVENTIONS.md "A tab bar on Android" carry the why.
