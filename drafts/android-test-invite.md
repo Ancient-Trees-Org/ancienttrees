@@ -24,8 +24,13 @@ the build.** The order, once he says go:
 
 Every address goes onto Play's tester email list before its mail goes
 (Testing > Closed testing > Testers, a CSV of up to 2,000). The opt-in link
-is copied from that tab once the release is approved and replaces
-[OPT-IN LINK] below. Nothing is sent before Hidde says yes to this text.
+is already in the mail below (Play shows it before any release; it works once
+the release is approved). Set up in Play on 2026-11-17: closed test "Alpha"
+in all 178 countries, list "Ancient Trees testers" (Hidde only so far),
+feedback to info@ancienttrees.app; internal test with list "Ancient Trees
+team" (Hidde). Wave 1's 200 addresses are in out/play/wave1.csv on the Mac
+(gitignored, rebuilt by a session from the waitlist), not yet uploaded to
+Play. Nothing is sent before Hidde says "verstuur".
 
 The dates are Google's usual times for a new personal account: first review a
 few hours to about 7 days, 14 days with 12+ testers opted in, about 7 days to
@@ -40,7 +45,7 @@ Hey,
 Thanks for signing up for the Android app. We are working hard on it at the moment and are looking for people to test the first version. We expect a live version in 3 to 4 weeks.
 
 You can sign up to be a tester here, with the Google account of this email address:
-[OPT-IN LINK]
+https://play.google.com/apps/testing/app.ancienttrees.android
 
 Thanks so much for your help and your patience. Looking forward to hearing what you think!
 
