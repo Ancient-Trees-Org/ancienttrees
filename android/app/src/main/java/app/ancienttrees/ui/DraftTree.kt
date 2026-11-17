@@ -204,7 +204,7 @@ fun DraftTree(
         addExtra(raw)
     }
     val room = (Collector.MAX_EXTRAS - extras.size).coerceAtLeast(1)
-    val extraLibrary = rememberLauncherForActivityResult(ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, Collector.MAX_EXTRAS))) { uris ->
+    val extraLibrary = rememberGalleryPick(maxOf(2, Collector.MAX_EXTRAS)) { uris ->
         for (u in uris.take(room)) addExtra(runCatching { context.contentResolver.openInputStream(u)?.use { it.readBytes() } }.getOrNull())
     }
 
@@ -315,7 +315,7 @@ fun DraftTree(
                                         leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
-                                            extraLibrary.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+                                            extraLibrary()
                                         },
                                     )
                                 }

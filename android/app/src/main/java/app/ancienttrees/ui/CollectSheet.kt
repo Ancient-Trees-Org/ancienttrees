@@ -346,10 +346,8 @@ fun CollectSheet(
             if (jpeg != null) resolve(jpeg)
         }
     }
-    val library = rememberLauncherForActivityResult(
-        ActivityResultContracts.PickMultipleVisualMedia(1 + Collector.MAX_EXTRAS),
-    ) { uris ->
-        if (uris.isEmpty()) return@rememberLauncherForActivityResult
+    val library = rememberGalleryPick(1 + Collector.MAX_EXTRAS) { uris ->
+        if (uris.isEmpty()) return@rememberGalleryPick
         reading = true
         scope.launch {
             val all = uris.mapNotNull { Collector.read(context, it) }
@@ -375,7 +373,7 @@ fun CollectSheet(
             host.needsSignIn { }
             return
         }
-        library.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+        library()
     }
 
     // THE "I AM NOT SURE" ANSWER: no tick, the photograph and the shortlist go to us.

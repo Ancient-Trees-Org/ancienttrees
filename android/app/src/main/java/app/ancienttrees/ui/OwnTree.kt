@@ -493,7 +493,7 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
         add(raw)
     }
     val room = (MyTrees.MAX_EXTRAS - s.extras.size).coerceAtLeast(1)
-    val library = rememberLauncherForActivityResult(ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, room))) { uris ->
+    val library = rememberGalleryPick(maxOf(2, room)) { uris ->
         for (u in uris.take(room)) add(runCatching { context.contentResolver.openInputStream(u)?.use { it.readBytes() } }.getOrNull())
     }
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -530,7 +530,7 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
                             leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                             onClick = {
                                 menu = false
-                                library.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+                                library()
                             },
                         )
                     }

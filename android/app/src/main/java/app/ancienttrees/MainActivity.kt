@@ -277,12 +277,10 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     }
     // The same from the library: the flow reads the photograph's own place and date.
     var choosingFor by remember { mutableStateOf<Tree?>(null) }
-    val library = rememberLauncherForActivityResult(
-        ActivityResultContracts.PickMultipleVisualMedia(1 + Collector.MAX_EXTRAS),
-    ) { uris ->
+    val library = app.ancienttrees.ui.rememberGalleryPick(1 + Collector.MAX_EXTRAS) { uris ->
         val t = choosingFor
         choosingFor = null
-        if (uris.isEmpty() || t == null) return@rememberLauncherForActivityResult
+        if (uris.isEmpty() || t == null) return@rememberGalleryPick
         scope.launch {
             val p = Collector.read(context, uris.first()) ?: return@launch
             val more = uris.drop(1).mapNotNull { Collector.read(context, it)?.raw?.let { r -> Collector.downsized(r) } }
@@ -300,7 +298,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             return
         }
         choosingFor = t
-        library.launch(androidx.activity.result.PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+        library()
     }
     fun collect(t: Tree) {
         if (!signedInNow()) {

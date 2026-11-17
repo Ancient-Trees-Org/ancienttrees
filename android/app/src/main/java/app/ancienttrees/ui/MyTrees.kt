@@ -267,12 +267,16 @@ private fun MyTreesInner(
         MoveRequest(System.nanoTime(), box)
     }
     val ownAsTrees = remember(mine.version, shows) { ownTrees.associate { s -> s.asTree().id to s } }
-    val mapTrees = visited + ownAsTrees.values.map { it.asTree() }
     val navBottom = WindowInsets.navigationBars.getBottom(density).toFloat()
 
     Box(Modifier.fillMaxSize().background(Brand.colors.ground).testTag("collection-tab")) {
         TreeMapView(
-            trees = mapTrees,
+            // Ours as pins; YOUR OWN in your photograph, as the iPhone's TreeMap(mine:)
+            // and our Map tab draw them (Hidde 2026-11-17: "waarom zoveel grijs").
+            trees = visited,
+            mine = ownTrees,
+            minePhoto = { path -> mine.photoBytes(path) },
+            onMine = { id -> ownTrees.firstOrNull { it.id == id }?.let { selected = it.asTree() } },
             selected = selected,
             onSelect = { selected = it },
             origin = centre,
@@ -535,7 +539,10 @@ private fun WhoRow(signedIn: Boolean, email: String?, mine: MyTrees, actions: My
             Box(
                 Modifier
                     .offset(x = 4.dp)
-                    .size(44.dp)
+                    // The gear's size, so the two stand centre over centre (Hidde,
+                    // 2026-11-17: "zorg dat de settings-knop en de add friend-knop
+                    // uitgelijnd zijn"); the gear went to Polarsteps' 40 that day.
+                    .size(40.dp)
                     // iOS 26's white circle with its soft shadow (visual review 2026-11-11).
                     .shadow(8.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f))
                     .clip(CircleShape)

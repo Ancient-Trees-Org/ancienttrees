@@ -40,7 +40,13 @@ object Collector {
     /** A library file read with its own GPS and date, when the picker left them in. */
     suspend fun read(context: Context, uri: Uri): Picked? = withContext(Dispatchers.IO) {
         runCatching {
-            val raw = context.contentResolver.openInputStream(uri)?.use { it.readBytes() } ?: return@runCatching null
+            // The original, GPS included, where the gallery gave a MediaStore item and
+            // the place may be read (ui/GalleryPick.kt); otherwise the file as handed over.
+            val original = if (android.os.Build.VERSION.SDK_INT >= 29 && uri.authority == android.provider.MediaStore.AUTHORITY &&
+                app.ancienttrees.ui.mayReadPhotoPlace(context)
+            ) runCatching { android.provider.MediaStore.setRequireOriginal(uri) }.getOrNull() else null
+            val raw = (original?.let { o -> runCatching { context.contentResolver.openInputStream(o)?.use { it.readBytes() } }.getOrNull() })
+                ?: context.contentResolver.openInputStream(uri)?.use { it.readBytes() } ?: return@runCatching null
             val exif = ExifInterface(ByteArrayInputStream(raw))
             val ll = exif.latLong
             val taken = exif.getAttribute(ExifInterface.TAG_DATETIME_ORIGINAL)?.let {
