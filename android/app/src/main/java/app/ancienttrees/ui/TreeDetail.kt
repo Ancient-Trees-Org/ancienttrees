@@ -675,13 +675,13 @@ private fun TopButtons(glassState: dev.chrisbanes.haze.HazeState?, tree: Tree, o
     var menu by remember { mutableStateOf(false) }
     Row(
         // At the top of the safe area, as the iPhone's toolbar (BackButton {16, 62}).
-        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp),
+        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp).padding(top = TopRow.TOP),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         val back = stringResource(R.string.back)
         Box(
             Modifier
-                .size(44.dp)
+                .size(TopRow.SIZE)
                 .shadow(2.dp, CircleShape)
                 .clip(CircleShape)
                 .clickable(role = Role.Button, onClick = onBack)

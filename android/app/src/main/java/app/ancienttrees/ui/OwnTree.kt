@@ -527,13 +527,13 @@ private fun OwnTopButtons(glassState: dev.chrisbanes.haze.HazeState?, onBack: ()
     var menu by remember { mutableStateOf(false) }
     Row(
         // At the top of the safe area, as the iPhone's toolbar (BackButton {16, 62}).
-        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp),
+        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp).padding(top = TopRow.TOP),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         val back = stringResource(R.string.back)
         Box(
             // Glass circles tinted by the photograph, as the tree page's (review row 57).
-            Modifier.size(44.dp).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
+            Modifier.size(TopRow.SIZE).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
                 .clickable(role = Role.Button, onClick = onBack).semantics { contentDescription = back },
             contentAlignment = Alignment.Center,
         ) {
@@ -543,13 +543,11 @@ private fun OwnTopButtons(glassState: dev.chrisbanes.haze.HazeState?, onBack: ()
         val more = stringResource(R.string.ot_more)
         Box {
             Box(
-                Modifier.size(44.dp).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
+                Modifier.size(TopRow.SIZE).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
                     .clickable(role = Role.Button) { menu = true }.semantics { contentDescription = more },
                 contentAlignment = Alignment.Center,
             ) {
-                Box(Modifier.size(24.dp).border(1.6.dp, brand.moss, CircleShape), contentAlignment = Alignment.Center) {
-                    Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
-                }
+                Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
             }
             DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                 @Composable

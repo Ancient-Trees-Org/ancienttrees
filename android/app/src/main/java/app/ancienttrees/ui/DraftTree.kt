@@ -481,12 +481,12 @@ private fun DraftTopButtons(
     var menu by remember { mutableStateOf(false) }
     Row(
         // At the top of the safe area, as the iPhone's toolbar (BackButton {16, 62}).
-        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp),
+        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp).padding(top = TopRow.TOP),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         val back = stringResource(R.string.cf_back)
         Box(
-            Modifier.size(44.dp).softDisc()
+            Modifier.size(TopRow.SIZE).softDisc()
                 .clickable(role = Role.Button, onClick = onBack).semantics { contentDescription = back }.testTag("draft-back"),
             contentAlignment = Alignment.Center,
         ) {
@@ -496,13 +496,11 @@ private fun DraftTopButtons(
         val more = stringResource(R.string.ot_more)
         Box {
             Box(
-                Modifier.size(44.dp).softDisc()
+                Modifier.size(TopRow.SIZE).softDisc()
                     .clickable(role = Role.Button) { menu = true }.semantics { contentDescription = more }.testTag("mine-menu"),
                 contentAlignment = Alignment.Center,
             ) {
-                Box(Modifier.size(24.dp).border(1.6.dp, brand.moss, CircleShape), contentAlignment = Alignment.Center) {
-                    Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
-                }
+                Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
             }
             DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                 @Composable
