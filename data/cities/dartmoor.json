@@ -94,6 +94,41 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
+    },
+    {
+      "id": "dmr_002",
+      "name": "Meavy Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "said to be 800 to nearly 1,000 years",
+      "age_min": 800,
+      "age_max": 1000,
+      "location": {
+        "address": "Village green outside the Royal Oak Inn, in front of St Peter's churchyard wall, Meavy, Devon",
+        "latitude": 50.48552,
+        "longitude": -4.05656,
+        "neighbourhood": "Meavy"
+      },
+      "location_site": {
+        "name": "Meavy village green",
+        "radius_m": 40
+      },
+      "story": "Folklore says nine people once sat down to dinner inside this oak. The Meavy Oak stands on the village green at Meavy, on the south-west edge of Dartmoor, between the Royal Oak Inn and the wall of St Peter's churchyard. John Claudius Loudon described it in his Arboretum of 1838, and in 2017 it was shortlisted for the Woodland Trust's Tree of the Year.\n\nIts age depends on who is counting. The local paper says nearly 1,000 years, Wikipedia over 900, Dartmoor Links over 800, and local legend ties it to the reign of King John. Nobody has measured it in a way that settles the matter, so read all of these as tradition.\n\nThe rest has to be said plainly. In 2019 an arboricultural report found the oak in irreversible decline and at risk of collapse, and urgent pruning was planned to keep it standing. The parish has since grown saplings from its acorns as possible successors. We have found no news that it has fallen, but the latest photograph naming it on Geograph dates from 2015, so we cannot promise you a living tree.\n\nThe green is public and free, owned by the parish council, with the pub right beside it. If you have been to Meavy lately, tell us whether the old oak still stands.",
+      "how_to_recognise": "You can recognise it by the hollow trunk, propped by supports. It stands on the village green between the Royal Oak pub and the wall of St Peter's churchyard.",
+      "verified_sources": [
+        "https://tavistock-today.co.uk/news/ancient-meavy-oak-tree-in-irreversible-decline-422359",
+        "https://www.tavistock-today.co.uk/news/meavys-famous-oak-shortlisted-for-national-tree-of-the-year-419007",
+        "https://en.wikipedia.org/wiki/Meavy"
+      ],
+      "access": "Village green, public, free; Burrator Parish Council owns the green. Beside a pub and cars park nearby.",
+      "transport": "Meavy village on the south-west edge of Dartmoor, west of Burrator Reservoir; bus not verified.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

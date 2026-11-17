@@ -1,0 +1,61 @@
+{
+  "city": "Allentown",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Allentown's biggest recorded cottonwood grows in Lehigh Parkway, the 629-acre city park along Little Lehigh Creek, downstream of the Overhill Road interchange. The Pennsylvania Big Trees register measured it in 2009 at 5.46 metres round and 40.5 metres tall, about 133 feet, and scored it at 378 points. Nobody has reported on it since, and the register's point does not pick out one crown, so it waits for a visitor to say it still stands.",
+  "meta_description": "An eastern cottonwood 5.46 metres round and 40.5 metres tall in Allentown's Lehigh Parkway, on the Pennsylvania Big Trees register since 2009.",
+  "hero_tree_id": "all_001",
+  "oldest_tree_id": "all_001",
+  "trees": [
+    {
+      "id": "all_001",
+      "name": "Lehigh Parkway Eastern Cottonwood",
+      "species": "Eastern Cottonwood (Populus deltoides)",
+      "age_estimate": "not documented",
+      "girth_cm": 546,
+      "height_m": 40.5,
+      "location": {
+        "address": "Lehigh Parkway North, along Little Lehigh Creek downstream of the Overhill Rd interchange, Allentown, PA 18103",
+        "latitude": 40.5864776,
+        "longitude": -75.4852905,
+        "neighbourhood": "Lehigh Parkway"
+      },
+      "story": "In 2009 somebody ran a tape round this cottonwood beside the Little Lehigh Creek and read 215 inches. That is 5.46 metres of trunk, under a crown measured at 40.5 metres, about 133 feet. The Pennsylvania Big Trees register keeps both numbers and scores the tree at 378 points, which is big but not the state's biggest. It is not a champion, and nobody claims it is.\n\nEastern cottonwoods are the fast giants of American river bottoms. They put on wood quickly in wet ground and do not live long as great trees go, so a trunk this size speaks of a good floodplain rather than of centuries. Nobody has dated this one, and girth will not do it for a species that grows this fast.\n\nIt stands in Lehigh Parkway, a 629-acre city park that follows the Little Lehigh downstream of the Overhill Road interchange. The park is free and open every day.\n\nNow the honest part. The register's measurement is seventeen years old and we have found no report of the tree since, and iNaturalist holds no cottonwood within 150 metres of the register's point. The register's coordinate puts it on the parkway strip by the creek without picking out one crown, so read the pin as the right few hundred metres rather than the trunk.\n\nIf you walk the creek and find a cottonwood this size, tell us it still stands, and exactly where.",
+      "how_to_recognise": "You can recognise it by its size, a cottonwood 5.46 metres round and about 40 metres tall. It stands on the Lehigh Parkway strip beside Little Lehigh Creek, downstream of the Overhill Road interchange.",
+      "verified_sources": [
+        "https://www.pabigtrees.com/trees/along-little-lehigh-creek-downstream-from-overhill-rd-interchange",
+        "https://en.wikipedia.org/wiki/Lehigh_Parkway"
+      ],
+      "official_register": {
+        "name": "Pennsylvania Forestry Association champion tree register (PA Big Trees)",
+        "url": "https://www.pabigtrees.com/"
+      },
+      "access": "Free; Lehigh Parkway is a public city park of Allentown along Little Lehigh Creek, open daily",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ],
+  "question_meta": "No tree we map in Allentown has a published age. The biggest is a Lehigh Parkway cottonwood 5.46 metres round.",
+  "question_answer": "No tree we map in Allentown has a published age. The biggest is an eastern cottonwood in Lehigh Parkway beside Little Lehigh Creek, measured in 2009 at 5.46 metres round and 40.5 metres tall by the Pennsylvania Big Trees register.",
+  "question_context": "Eastern cottonwoods grow fast in wet ground and are short-lived as big trees go, so a trunk this size does not date the tree, and the register gives no age. What the Pennsylvania Big Trees register does give is the size, 215 inches round, which is 5.46 metres, and 133 feet tall, which is 40.5 metres, for a score of 378 points. That is big, but the register does not list it as a state or national champion. The measurement is from 2009, and we have found no later report of the tree and no iNaturalist record of a cottonwood within 150 metres of the register's point, so whether it still stands is an open question. The register places it on the Lehigh Parkway strip beside Little Lehigh Creek, downstream of the Overhill Road interchange, without picking out one crown, which makes our pin approximate. Lehigh Parkway is a free public park of 629 acres, open daily. If you find a cottonwood this size by the creek, tell us it still stands and where.",
+  "faq": [
+    {
+      "q": "Where is the big cottonwood in Lehigh Parkway?",
+      "a": "On the parkway strip beside Little Lehigh Creek, downstream of the Overhill Road interchange. The register's point is approximate, so look for a cottonwood about 5.5 metres round."
+    },
+    {
+      "q": "Is it a state champion?",
+      "a": "No. The Pennsylvania Big Trees register lists it at 378 points, but not as a state or national champion."
+    },
+    {
+      "q": "Is Lehigh Parkway free?",
+      "a": "Yes. It is a public city park of Allentown, open every day."
+    }
+  ]
+}

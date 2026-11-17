@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 write pass: ten held trees written into the app
+
+- **Changed in the product:** ten new trees, all app-only under APP FIRST (no web page, pace not counted): the Lehigh Parkway cottonwood (all_001, new place Allentown, PA), the Gornelle and Tre Aie beeches (asp_001, asp_002, new place Aspromonte), the Acerone of the Madonie (cbu_001, new place Castelbuono; species set to canonical Sycamore), the Meavy Oak (dmr_002, Dartmoor), the Zurraque holm oak (sgz_005, Grazalema), the San Nicola ombu (tmt_001, new place Isole Tremiti), the Santa Lucia di Mendola holm oak (not_003, Noto), and the Monte Pecoraro and Rosarella silver firs (ssb_002, ssb_003, Serra San Bruno). Their earlier holds were judgements (register point only, thin life evidence, which trunk in a wood), which CLAUDE.md says never block; each story states its gap plainly and asks the reader, and each has a recognition line. Meavy Oak: no news of a fall found, the 2019 decline report and the last Geograph photo (2015) are on the page. Merged with scripts/build_write_2026_11_17.py; allentown added to data/us-states.json. preflight 0 problems.
+- **Still held (hard rules, not judgement):** det_001 and det_002 Elmwood Cemetery (no coordinate at all, a pin is needed before either can ship, though both stories are written), brd_001 Brindisi hospital courtyard, frk_027 Frankfurt schoolyard mulberry (pin is in the schoolyard, not at a viewing place), inn_007 Innsbruck lime (pin on a private plot), not_002 Cava Candelaro carob (land tenure unknown): hard rule 10. sfo_012 is live sfo_004 (fold its DataSF pin and girth in by enrichment).
+
 ## 2026-11-17 06:37 night run: queue tidy, two Miami trees (rungs 1, 2, 5)
 
 - **Changed in the product:** two new Miami trees (the Pinecrest Gardens banyan, Vizcaya's pigeon-plum champion). The Miami intro no longer says "Only Vizcaya charges admission", which was false.

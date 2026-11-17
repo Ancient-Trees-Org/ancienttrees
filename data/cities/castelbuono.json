@@ -1,0 +1,66 @@
+{
+  "city": "Castelbuono",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Above Castelbuono, at about 1,600 metres in the Madonie mountains of Sicily, grows the Acerone, a sycamore 9.5 metres round and 20 metres tall that Italy's national register lists as monumental. It stands in a doline above Serra Circio, has lost its two biggest limbs, and was still alive at the last register update in December 2024. Estimates of its age run from several centuries to about 900 years. Reaching it is a mountain walk with no signed route.",
+  "meta_description": "The Acerone of the Madonie above Castelbuono: a sycamore 9.5 metres round at 1,600 metres, put at up to about 900 years old.",
+  "hero_tree_id": "cbu_001",
+  "oldest_tree_id": "cbu_001",
+  "trees": [
+    {
+      "id": "cbu_001",
+      "name": "The Acerone of the Madonie",
+      "species": "Sycamore (Acer pseudoplatanus)",
+      "age_estimate": "roughly 900 years",
+      "age_min": 450,
+      "age_max": 905,
+      "age_basis": "source",
+      "girth_cm": 950,
+      "height_m": 20,
+      "location": {
+        "address": "Piano Ciminnita - Serra Circio, Parco delle Madonie, Castelbuono",
+        "latitude": 37.90994,
+        "longitude": 14.04815,
+        "neighbourhood": "Madonie (1600 m)"
+      },
+      "story": "Its trunk is 9.5 metres round, and it is a maple. Italy's national register records a sycamore of that girth, 20 metres tall, at Piano Ciminnita and Serra Circio in the Madonie above Castelbuono, at about 1,600 metres. The independent Registro degli Alberi calls it the Acerone, the big maple, and puts it in a doline above Serra Circio with a view to the Aeolian Islands. The two are very probably the same tree, though no source ties the sheet number to the name.\n\nHow old it is depends on who you ask. The Registro degli Alberi estimates about 905 years, and a park route page says about 900. Neither figure comes from a measurement. A smaller maple on the same loop, the Ciminnita maple, is put at about 450 years, so somewhere between those two numbers is as honest as we can be.\n\nThe recorders describe a very wide base where the roots have fused, and a tree that has lost its two biggest limbs, one at least fourteen years ago and the other after 2014. It was still alive at the register's December 2024 update.\n\nGetting there is a mountain walk. A published loop called the Via dei Giganti, about 9.4 kilometres with 617 metres of climbing, starts at Piano Sempria and passes the Catagiddebbe and Ciminnita maples. The park signs no route to the Acerone itself, and snow is possible in winter.",
+      "how_to_recognise": "You can recognise it by the base, a huge spread of fused roots under a maple 9.5 metres round that has lost its two biggest limbs. It stands in a hollow, a doline, above Serra Circio.",
+      "verified_sources": [
+        "https://ilregistrodeglialberi.it/13205-acero-montano-castelbuono-palermo-sicilia",
+        "https://www.wikiloc.com/hiking-trails/madonie-la-via-dei-giganti-gli-agrifogli-di-piano-pomo-gli-aceri-di-catagiddebbe-e-ciminnita-lacero-100396054",
+        "https://www.wikiloc.com/hiking-trails/madonie-anello-piano-sempria-cozzo-luminario-piano-imperiale-pizzo-s-stefano-piano-pomo-105901653"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), sheet 10/C067/PA/19",
+        "url": "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf"
+      },
+      "access": "Open mountain land in the Parco delle Madonie, about 1600 m; reached on foot only. A published loop 'la via dei Giganti' (about 9.4 km, 617 m climb) starts at Piano Sempria and passes the Catagiddebbe and Ciminnita maples; a park route description says the park gives no signed directions to the Acerone itself. Mountain walk, not a stroll; snow possible in winter.",
+      "transport": "Rural; by car to Piano Sempria above Castelbuono (distance not checked), then on foot. No public transport.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ],
+  "question_meta": "The oldest tree above Castelbuono is the Acerone, a sycamore in the Madonie put at up to about 900 years. How sure that is.",
+  "question_answer": "The oldest tree we map near Castelbuono is the Acerone, a sycamore 9.5 metres round at about 1,600 metres in the Madonie. The Registro degli Alberi estimates about 905 years, and a park route page says about 900.",
+  "question_context": "Neither figure comes from a measurement or a ring count. A smaller maple on the same walk, the Ciminnita maple, is put at about 450 years, so somewhere between the two is the honest range. The national register lists a sycamore of the same girth at Piano Ciminnita and Serra Circio, very probably the same tree, though no source ties the sheet to the name. A published loop, the Via dei Giganti, about 9.4 kilometres from Piano Sempria, passes the Catagiddebbe and Ciminnita maples; the park signs no route to the Acerone itself. The people who recorded it describe a very wide base where the roots have fused, in a hollow with a view to the Aeolian Islands. It has lost its two biggest limbs, one at least fourteen years ago and the other after 2014, and the register still counted it alive at its December 2024 update. If you walk up and stand under it, tell us how it looks.",
+  "faq": [
+    {
+      "q": "How do I reach the Acerone?",
+      "a": "On foot only. The Via dei Giganti loop, about 9.4 kilometres with 617 metres of climbing, starts at Piano Sempria; the last stretch to the Acerone is not signed."
+    },
+    {
+      "q": "How big is it?",
+      "a": "Italy's national register gives 9.5 metres round and 20 metres tall."
+    },
+    {
+      "q": "Can I go in winter?",
+      "a": "It stands at about 1,600 metres and snow is possible in winter, so plan it as a mountain walk."
+    }
+  ]
+}

@@ -62,6 +62,74 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "ssb_002",
+      "name": "Silver Fir of Monte Pecoraro",
+      "species": "Silver Fir (Abies alba)",
+      "age_estimate": "not documented",
+      "girth_cm": 480,
+      "height_m": 45,
+      "location": {
+        "address": "Monte Pecoraro, Serre Calabresi (Serra San Bruno / Mongiana)",
+        "latitude": 38.541,
+        "longitude": 16.342672,
+        "neighbourhood": "Monte Pecoraro"
+      },
+      "story": "Italy's national register gives this silver fir a height of 45 metres, which is very tall for its species. It grows on Monte Pecoraro, at 1,423 metres the highest point of the Serre mountains of Calabria, and the register, on sheet 09/I639/VV/18, adds a trunk 4.80 metres round.\n\nLocal walkers have known the mountain for its firs for a while. A Serra San Bruno walking association that leads hikes up Monte Pecoraro described it in 2022 as the place where one of the largest silver firs in Europe stands, and a 2026 tour description speaks of firs of nearly 50 metres on the way to the summit, which carries an old lookout tower. Neither names a single trunk, so treat the European ranking as their pride rather than a measurement.\n\nThe way in is the park's Pecoraro to Lu Bellu trail, 7.5 kilometres and about three hours, starting at the old ANAS road house on the SS 110 and running through beech and fir wood. There are no facilities and no bus.\n\nHere is the gap. The register gives a point on the slope below the summit and no description, and none of the walkers' accounts says which fir is the registered one. In a fir wood that leaves you looking for the biggest trunk near the path. Do not confuse it with the fairy tree of Mongiana, which is a different tree.\n\nNobody has published an age. If you find it, tell us which one it is.",
+      "how_to_recognise": "You can recognise it by its size, a silver fir 4.80 metres round and some 45 metres tall, the biggest near the path. It stands on the slope below the summit of Monte Pecoraro, on the Pecoraro to Lu Bellu trail.",
+      "verified_sources": [
+        "https://www.lacnews24.it/ambiente/passeggiata-notturna-nei-boschi-del-vibonese-alla-scoperta-dellantico-albero-delle-fate-kh6ouybn",
+        "https://parcodelleserre.it/sentieri-naturalistici/pecoraro-lu-bellu/",
+        "https://www.calabria-tour.it/escursioni/serre/monte-pecoraro/"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), sheet 09/I639/VV/18",
+        "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260"
+      },
+      "access": "Free; forest tracks in the Parco Naturale Regionale delle Serre. Parco delle Serre trail Pecoraro-Lu Bellu (7.5 km, about 3 h, medium) starts at the ANAS cantoniera on SS 110 and runs through beech and fir woods; a guided hike to Monte Pecoraro was advertised for 24 Oct 2026 (Calabria Tour page). Walking only; no facilities.",
+      "transport": "By car to the ANAS cantoniera of Pecoraro on the SS 110 (Stilo / Mongiana side, about 1,300 m); no public transport found.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "ssb_003",
+      "name": "Silver Fir of Rosarella",
+      "species": "Silver Fir (Abies alba)",
+      "age_estimate": "not documented",
+      "girth_cm": 470,
+      "height_m": 30,
+      "location": {
+        "address": "Localita Rosarella, Serra San Bruno (VV)",
+        "latitude": 38.555506,
+        "longitude": 16.336256,
+        "neighbourhood": "Rosarella, Archiforo"
+      },
+      "story": "Serra San Bruno's registered firs are not all deep in the mountains. One stands at Rosarella, on the south-east edge of the town, where Italy's national register of monumental trees records a silver fir 4.70 metres round and 30 metres tall, on sheet 05/I639/VV/18.\n\nRosarella is where the park's Archiforo trail begins. The path starts at the car park by the Rosarella botanical garden and nursery and enters the Archiforo wood of fir and beech at a signed information board, a marked path of about four kilometres and two hours, with fences and footbridges along the way. The registered tree is somewhere near its start.\n\nSomewhere is the honest word. The park authority's page describes the trail, the nursery and the wood, but it never names this tree, so the register is our only source that the fir exists, and it gives a point with no description of the trunk. We have found no dated sighting. Someone logged a silver fir about 50 metres from the register's point in December 2025, but nothing ties that record to this trunk.\n\nNobody has published an age for it, and a girth alone will not supply one.\n\nIf you start the Archiforo walk, look near the nursery fence and the trailhead for a fir this broad, and tell us which one it is.",
+      "how_to_recognise": "You can recognise it by its girth, 4.70 metres round on a silver fir 30 metres tall. It stands near the Rosarella nursery and the start of the Archiforo trail, on the south-east edge of Serra San Bruno.",
+      "verified_sources": [
+        "https://parcodelleserre.it/sentieri-naturalistici/archiforo/"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), sheet 05/I639/VV/18",
+        "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260"
+      },
+      "access": "Free. The Archiforo trail (4 km, about 2 h, medium) of the Parco delle Serre starts at the car park by the Rosarella botanical garden and nursery and enters the Archiforo fir and beech wood at a signed information board; marked path with fences and footbridges.",
+      "transport": "Rosarella is on the south-east edge of Serra San Bruno town; by car or about a 20 to 30 min walk (not measured).",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

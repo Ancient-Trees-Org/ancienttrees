@@ -71,6 +71,44 @@
         "taken_month": 3,
         "note": "Looked at the pixels 2026-11-02 (session 9b29504f): the whole pine top to base in the Villetta Ercole with San Domenico at left; geotag 22 m off; crown visibly thin, shown as it is; daylight, colour (photo_light OK)"
       }
+    },
+    {
+      "id": "not_003",
+      "name": "Holm Oak of Santa Lucia di Mendola",
+      "species": "Holm Oak (Quercus ilex)",
+      "age_estimate": "not documented",
+      "girth_cm": 380,
+      "height_m": 14,
+      "location": {
+        "address": "Chiesa di Santa Lucia di Mendola, Noto",
+        "latitude": 37.03581,
+        "longitude": 14.91501,
+        "neighbourhood": "Mendola, countryside north of Noto"
+      },
+      "location_site": {
+        "name": "Chiesa di Santa Lucia di Mendola",
+        "radius_m": 50
+      },
+      "story": "Italy's register of monumental trees marks this holm oak for its history and faith as well as its size. It stands by the country church of Santa Lucia di Mendola, in the hills north of Noto, and the register, on sheet 09/F943/SR/19, gives it a trunk 3.80 metres round and a height of 14 metres. Of the reasons the register can tick, it ticks ecological, landscape, and historical, cultural and religious value.\n\nThat last box is the interesting one, and the register does not explain it. No source we have found says what the oak means to the church or its feast days, or when it was planted, and we will not invent a story to fill the gap. Somebody in the parish will know.\n\nWhat we can say is thin, and we would rather say so. This entry rests on the register alone. OpenStreetMap carries the same point, copied from the register, and we have found no photograph and no dated sighting. Whether the church grounds stand open we have not been able to establish, so treat the visit as a drive into the countryside with an uncertain gate at the end.\n\nNobody has published an age for it.\n\nIf you know Santa Lucia di Mendola, tell us whether the oak still stands, whether you can walk up to it, and what the parish remembers about it.",
+      "how_to_recognise": "You can recognise it as the big holm oak, 3.80 metres round and 14 metres tall, beside the church. It stands at the country church of Santa Lucia di Mendola, north of Noto.",
+      "verified_sources": [
+        "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf",
+        "https://www.openstreetmap.org/node/13004378879"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF) / Regione Siciliana elenco, sheet 09/F943/SR/19",
+        "url": "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf"
+      },
+      "access": "A country church; whether the grounds are open was not established. Check on the ground.",
+      "transport": "By car.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

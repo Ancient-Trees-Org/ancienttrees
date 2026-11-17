@@ -1,0 +1,108 @@
+{
+  "city": "Aspromonte",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Two of Italy's registered monumental beeches grow on the Sentiero Calabria where it climbs from Reggio di Calabria to Gambarie in the Aspromonte national park. One stands at Gornelle, near the trail's crossing of the SS 183, 5.36 metres round and 25 metres tall. The other stands by the old fountain of Tre Aie, 5.60 metres round and 20 metres tall. One walk through the beech wood passes both places.",
+  "meta_description": "Two monumental beeches on the Sentiero Calabria in the Aspromonte, at Gornelle and the Tre Aie fountain, 5.36 and 5.60 metres round.",
+  "hero_tree_id": "asp_002",
+  "oldest_tree_id": "asp_002",
+  "trees": [
+    {
+      "id": "asp_001",
+      "name": "Gornelle Beech",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "not documented",
+      "girth_cm": 536,
+      "height_m": 25,
+      "location": {
+        "address": "Localita Gornelle, Reggio di Calabria (Aspromonte)",
+        "latitude": 38.138397,
+        "longitude": 15.835447,
+        "neighbourhood": "Gornelle, Parco Nazionale dell'Aspromonte"
+      },
+      "story": "A beech with a trunk 5.36 metres round stands somewhere in the woods at Gornelle, high in the Aspromonte above Reggio di Calabria. Italy's national register of monumental trees lists it on sheet 02/H224/RC/18 and gives it 25 metres of height as well. For a beech, that girth puts it among the big ones anywhere in Europe.\n\nGornelle is where the Sentiero Calabria crosses the SS 183 on its stage from Reggio up to Gambarie. From the road the path climbs on through beech wood, past the old fountain of Tre Aie, where the same register lists a second great beech, and into Piazza Mangeruca in Gambarie. One walk takes in both.\n\nIt is worth being plain about what we do not know. The park's page for this stretch of trail never names the tree, so the link between path and trunk is the place name and nothing more. The register gives a point rather than a description, and in a beech wood a point narrows the search without ending it. We have found no dated sighting either, so the register's entry is the latest word there is.\n\nNobody has published an age for it, and we will not guess one from the girth.\n\nIf you walk the Sentiero Calabria past Gornelle and find a beech this size near the road crossing, tell us where it stands and how it looks.",
+      "how_to_recognise": "You can recognise it by its girth, 5.36 metres round, far wider than the beeches around it. It stands in the beech wood by the Sentiero Calabria at Gornelle, near where the trail crosses the SS 183.",
+      "verified_sources": [
+        "https://www.parks.it/parco.nazionale.aspromonte/iti_dettaglio.php?id_iti=6464"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), sheet 02/H224/RC/18",
+        "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260"
+      },
+      "access": "Free. The Sentiero Calabria (Reggio di Calabria to Gambarie stage) crosses the SS 183 at Gornelle and continues through beech woods past the Tre Aie fountain to Piazza Mangeruca, Gambarie.",
+      "transport": "Gambarie d'Aspromonte (about 1,300 m) is reached by road from Reggio di Calabria; bus link not checked.",
+      "best_time": {
+        "months": [
+          10
+        ],
+        "kind": "autumn colour",
+        "label": "October, when the Aspromonte beech woods turn copper and russet"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "asp_002",
+      "name": "Tre Aie Beech",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "not documented",
+      "girth_cm": 560,
+      "height_m": 20,
+      "location": {
+        "address": "Localita Tre Aie, Reggio di Calabria (Gambarie)",
+        "latitude": 38.151611,
+        "longitude": 15.831775,
+        "neighbourhood": "Tre Aie, Parco Nazionale dell'Aspromonte"
+      },
+      "story": "The fatter of the Aspromonte's two registered beeches is the shorter one. Italy's national register gives the beech at Tre Aie a trunk 5.60 metres round and a height of 20 metres, on sheet 03/H224/RC/18. Its neighbour down the trail at Gornelle is thinner and five metres taller.\n\nThe historic fountain of Tre Aie sits on the Sentiero Calabria where the path comes through the beech woods towards Gambarie, and the walk out from Piazza Mangeruca and back takes about an hour and a half to two hours. The register lists a stand of silver firs at Tre Aie too, and a Corsican pine at Fragolara about a hundred metres off, so this corner of the mountain has more than one tree worth stopping for.\n\nNow what is missing. No source we have read names this beech by the fountain or describes its trunk. The register gives a coordinate and a locality, and the park's trail page gives the fountain, and the two meet only on the map. Nor have we found a dated sighting, so the register's entry is the latest word.\n\nNobody has published an age, and a girth alone will not supply one.\n\nIf you take the trail from Gambarie and find a beech this broad near the fountain, tell us which one it is and whether it still stands well.",
+      "how_to_recognise": "You can recognise it by its girth, 5.60 metres round on a tree only 20 metres tall. It stands among the beeches near the Tre Aie fountain on the Sentiero Calabria, out from Gambarie.",
+      "verified_sources": [
+        "https://www.parks.it/parco.nazionale.aspromonte/iti_dettaglio.php?id_iti=6464"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), sheet 03/H224/RC/18",
+        "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260"
+      },
+      "access": "Free. Beside the historic Tre Aie fountain on the Sentiero Calabria, about 1.5 to 2 hours there and back from Gambarie (AllTrails listing 'Gambarie - Tre Aie', not fetched).",
+      "transport": "Walk from Piazza Mangeruca, Gambarie (the trail reaches it past the Tre Aie fountain).",
+      "best_time": {
+        "months": [
+          10
+        ],
+        "kind": "autumn colour",
+        "label": "October, when the beech woods round the Tre Aie fountain turn copper"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ],
+  "question_meta": "The Aspromonte's registered beeches stand at Gornelle and Tre Aie on the Sentiero Calabria. Nobody has dated them.",
+  "question_answer": "No beech we map in the Aspromonte has a published age. Italy's national register lists two big ones on the Sentiero Calabria below Gambarie, at Gornelle and by the Tre Aie fountain, 5.36 and 5.60 metres round.",
+  "question_context": "The register gives each tree a girth, a height and a point, but no age and no description of the trunk. The beech at Gornelle, sheet 02/H224/RC/18, is 5.36 metres round and 25 metres tall. The beech at Tre Aie, sheet 03/H224/RC/18, is 5.60 metres round and 20 metres tall, the wider and the shorter of the two. The same register also lists a stand of silver firs at Tre Aie and a Corsican pine at Fragolara, about a hundred metres from the Tre Aie beech. The park's trail page names the fountain and the road crossing but not the trees, so the link between path and trunk rests on the place names, and we have found no dated sighting of either beech. The walk from Piazza Mangeruca in Gambarie to the Tre Aie fountain and back takes about an hour and a half to two hours, through beech wood on the Sentiero Calabria. Nobody has published an age for these trees, and a girth alone does not give one. If you find either beech, tell us which trunk it is.",
+  "faq": [
+    {
+      "q": "Where are the Aspromonte's monumental beeches?",
+      "a": "On the Sentiero Calabria between Gornelle, where the trail crosses the SS 183, and the Tre Aie fountain on the way into Gambarie."
+    },
+    {
+      "q": "How long is the walk?",
+      "a": "From Gambarie to the Tre Aie fountain and back is about an hour and a half to two hours. Gornelle lies further along the same trail."
+    },
+    {
+      "q": "When are the beech woods at their best?",
+      "a": "October, when the beeches turn copper and russet."
+    }
+  ]
+}
