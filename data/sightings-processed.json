@@ -2082,8 +2082,10 @@
    "date": "2026-11-15"
   },
   "460c96b9-89e2-41ac-a829-ec911be11ef7": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "nbw_001",
+   "city_slug": "north-berwick"
   },
   "57a70549-ac95-452e-894b-3bf467dc26ae": {
    "outcome": "published",
@@ -4207,13 +4209,19 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "vfg_001",
-   "city_slug": "valley-forge"
+   "city_slug": "valley-forge",
+   "pin_checked": "2026-11-17"
   },
   "5234d132-b7d8-4fd2-a888-a8888b8e7459": {
    "outcome": "rejected",
    "date": "2026-11-17",
    "tree_id": "lon_021",
    "reason": "wrong tree: the photograph shows a tall London plane (palmate, lobed leaves turning yellow, flaking plane bark at the foot) in Finsbury Circus Gardens, not the Japanese pagoda tree (pinnate leaves) that lon_021 is. Kept as a lead of its own in data/leads/_sightings.json."
+  },
+  "7ff766ff-d1dd-4ce6-b8dd-c685fb053743": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "wrong subject: a desk fan, our own test account"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

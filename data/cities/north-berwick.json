@@ -1,0 +1,76 @@
+{
+  "city": "North Berwick",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "North Berwick is a seaside town on the East Lothian coast, east of Edinburgh, under the green cone of North Berwick Law. On the slope of the Law stand a few tall beeches planted by Sir Hew Dalrymple, Lord North Berwick, to mark the Union of Scotland and England in 1707. A reader sent us their photograph from the field at the foot of the hill.",
+  "meta_description": "The Act of Union beeches on North Berwick Law, planted for the Union of 1707 by Lord North Berwick: what they are and how to find them.",
+  "hero_tree_id": "nbw_001",
+  "oldest_tree_id": "nbw_001",
+  "trees": [
+    {
+      "id": "nbw_001",
+      "name": "The Act of Union Beeches of North Berwick Law",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "a little over 300 years, planted for the Union of 1707",
+      "age_min": 300,
+      "age_max": 320,
+      "age_basis": "source",
+      "location": {
+        "address": "North Berwick Law, North Berwick, East Lothian",
+        "latitude": 56.048197,
+        "longitude": -2.71351,
+        "neighbourhood": "North Berwick Law"
+      },
+      "story": "Sir Hew Dalrymple, the judge who sat as Lord North Berwick, was one of the commissioners for the articles of union between Scotland and England, and he planted beeches on North Berwick Law to mark the Union of 1707. Wikipedia, citing Scotland on Sunday, says six of those Act of Union beeches still stood in 2009; a local blog counted five in 2013, after a gale brought one down, and records a legend that felling them would break the union.\n\nA reader sent us this photograph from the foot of the Law. \"There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law,\" they write.\n\nThe picture shows why they are easy to pick out. The Law is a steep green cone above the town, almost bare of trees, and partway up its slope a small group of tall beeches stands clear of the dark band of conifers and gorse below, their grey trunks bare to a height and their crowns spreading flat against the hill. Ponies graze the field in front.\n\nIf the planting date holds, they are a little over three hundred years old. Nobody we have read records how many were planted in the first place.\n\nThe pin is where the reader placed the trees on the map. Look up the slope from the paths round the foot of the Law for the tall grey trunks above the conifers.",
+      "how_to_recognise": "A small group of tall beeches with bare grey trunks and flat, spreading crowns, standing above a dark band of conifers and gorse on the slope of the Law.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Hew_Dalrymple,_Lord_North_Berwick (planted the Act of Union beech trees; six survived in 2009, citing Scotland on Sunday, 19 April 2009)",
+        "https://www.scotsman.com/whats-on/arts-and-entertainment/scottish-facts-the-act-of-union-beech-trees-1481028",
+        "https://therunningwave.blogspot.com/2013/05/ominous-omen.html (five left in 2013 after a gale; the legend)",
+        "A reader's photograph and note sent through the app, 2026-11-15"
+      ],
+      "access": "Free. North Berwick Law is open hill ground with paths from the town; the beeches stand on its slope.",
+      "found_by_reader": {
+        "sighting_id": "460c96b9-89e2-41ac-a829-ec911be11ef7",
+        "date": "2026-11-17"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader report",
+        "date": "2026-11-17",
+        "note": "reader report 1000032: the reader who sent the tree moved the pin onto the trees on the map (placed by hand); their photograph's own coordinate, 56.050647, -2.707047, is in the field they stood in, 485 m off."
+      },
+      "verify_notes": "2026-11-17: sent by a reader through the app on 2026-11-15 as 'A tree near Edinburgh', age '320', note 'There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law', GPS fix at the viewing spot. Held 11-15 'for Hidde' (trees small in the frame, no written source); judged again under the closed list: the photograph shows the group clearly and the Union planting is sourced (Wikipedia on Hew Dalrymple citing Scotland on Sunday 2009, the Scotsman's 'Act of Union beech trees', a 2013 blog counting five; Canmore notes an early 18th-century plantation on the Law's NE side). Species beech from those sources; the photograph fits. An ensemble with one place to stand. Pin: the reader's own move, approximate. Count of survivors today unknown.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nbw_001-act-of-union-beeches-of-north-berwick-law.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_7a9ce110d7a1e1c831941fa0",
+        "sighting_id": "460c96b9-89e2-41ac-a829-ec911be11ef7",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: North Berwick Law from the field at its foot: a group of tall beeches with bare grey trunks and flat crowns standing clear of a band of conifers and gorse on the slope, ponies grazing in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The Act of Union beeches on North Berwick Law, planted for the Union of 1707: how old they are and where to find them.",
+  "question_answer": "The Act of Union Beeches of North Berwick Law are a small group of beeches on the slope of the hill above North Berwick, planted by Sir Hew Dalrymple to mark the Union of 1707. The Law is open hill ground, free to walk.",
+  "question_context": "Sir Hew Dalrymple was Lord President of the Court of Session, sitting as Lord North Berwick, and one of the commissioners for the articles of union between Scotland and England. Wikipedia, citing Scotland on Sunday, says he planted the Act of Union beech trees to commemorate the union and that six of them survived in 2009. A local blog counted five in 2013, after a gale had taken one, and recorded a legend that felling them would break the union. The Scotsman has told the same story. A reader who sent us their photograph from the foot of the Law in 2026 wrote that a few of the trees remain. The photograph shows a small group of tall beeches with bare grey trunks and flat crowns, standing clear of a band of conifers and gorse on the hill's slope. If the planting date holds, they are a little over three hundred years old. How many were planted at first is not recorded in anything we have read, and we do not know how many stand today. The pin is where the reader placed the trees on the map.",
+  "faq": [
+    {
+      "q": "Who planted the Act of Union beeches?",
+      "a": "Sir Hew Dalrymple, Lord North Berwick, one of the commissioners for the union of Scotland and England, to mark the Union of 1707."
+    },
+    {
+      "q": "How many are left?",
+      "a": "Six stood in 2009 by Scotland on Sunday's count and five in 2013 after a gale, by a local blog. We do not know today's number."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "Yes. North Berwick Law is open hill ground with paths from the town, and the beeches stand on its slope."
+    }
+  ]
+}

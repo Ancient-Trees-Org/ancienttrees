@@ -13333,6 +13333,58 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:460c96b9-89e2-41ac-a829-ec911be11ef7",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Edinburgh",
+   "photo": "p_7a9ce110d7a1e1c831941fa0/460C96B9-89E2-41AC-A829-EC911BE11EF7.jpg",
+   "reader_note": "There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the group of tall beeches on the slope of North Berwick Law, clear of the conifers below, ponies in front, daylight, colour. Held 11-15 for want of a source; the Union planting is sourced (Wikipedia on Hew Dalrymple, the Scotsman). Live as north-berwick/nbw_001 under the closed list, pin from the reader's own move (report 1000032).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Baarn",
+   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
+   "reader_note": "bls",
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Baarn",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
+   "reader_note": "bls",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

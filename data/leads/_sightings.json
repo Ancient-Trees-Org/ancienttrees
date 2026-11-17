@@ -2810,9 +2810,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "2026-11-15 evening, for Hidde: North Berwick Law with Exmoor ponies; the reader says a few trees planted for the 1707 Act of Union remain there, but the trees are small and far off in the frame, which tree is meant is unclear, and no written source for the Union planting found yet. The reader moved the pin 485 m (submission 826, 56.048197, -2.713510).",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: North Berwick Law from the field at its foot: a group of tall beeches with bare grey trunks and flat crowns standing clear of a band of conifers and gorse on the slope, ponies grazing in front, daylight, colour. The Union planting is sourced (Wikipedia, the Scotsman). Live as north-berwick/nbw_001 under the closed list (Hidde, 2026-11-17), pin from the reader's own move (report 1000032).",
+   "seen": "2026-11-15",
+   "judged": "2026-11-17",
+   "published_as": "north-berwick/nbw_001"
   },
   {
    "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
@@ -5493,6 +5495,35 @@
    "hold": "dead",
    "why": "App submission 936 (2026-11-16), text only, no photograph, pin placed by hand. The reader writes that this chestnut has been dead for many years but still sends shivers down their spine. Under the standing-dead rule (Hidde, 2026-11-17) it goes live once a photograph shows it standing and striking; held as `dead` only for want of that photo. The reply asks for one (drafts/reply-reader-936-2026-11-17.md, waiting for Hidde's yes). The living forest around it is a lead in data/leads/karystos.json.",
    "seen": "2026-11-17",
+   "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
+   "user_id": "p_6312cf4c9007b0fcfae9011c",
+   "mine": true,
+   "name": "European Beech in Baarn",
+   "species": "European Beech",
+   "age": "78",
+   "girth_cm": 700,
+   "girth_hugs": null,
+   "note": "bls",
+   "latitude": 52.2139783198612,
+   "longitude": 5.29694157108329,
+   "near": null,
+   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 514,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a desk fan and a tea cup on a desk, no tree. Sent from one of our own accounts (a test).",
+   "seen": "2026-11-17",
+   "hold": "wrong_subject",
    "judged": "2026-11-17"
   }
  ]
