@@ -1,7 +1,7 @@
 {
   "city": "Chiang Mai",
   "country": "Thailand",
-  "intro": "Chiang Mai's oldest named tree was planted to mark the city itself. When King Kawila resettled Chiang Mai, in a reign that ran from 1782 to 1813, a yang na went into the ground beside the Inthakin, the city pillar, in the courtyard of Wat Chedi Luang. Thailand's Ministry of Culture lists it as a heritage tree, 30 metres tall and 6 metres round. A large branch fell in April 2026 and the tree still stands, about ten minutes on foot from Tha Phae Gate.",
+  "intro": "Chiang Mai's oldest named tree was planted to mark the city itself. When King Kawila resettled Chiang Mai, in a reign that ran from 1782 to 1813, a yang na went into the ground beside the Inthakin, the city pillar, in the courtyard of Wat Chedi Luang. Thailand's Ministry of Culture lists it as a heritage tree, 30 metres tall and 6 metres round. A large branch fell in April 2026 and the tree still stands, about ten minutes on foot from Tha Phae Gate. A reader added a strangler fig grown round a boulder.",
   "meta_description": "The yang na of Chiang Mai's city pillar at Wat Chedi Luang: planted under King Kawila, about 200 years old and 30 metres tall.",
   "question_meta": "Chiang Mai's oldest known tree is the yang na beside the city pillar at Wat Chedi Luang, put at 200 to about 230 years.",
   "question_answer": "The oldest known tree in Chiang Mai is the yang na, Dipterocarpus alatus, beside the Inthakin city pillar in the courtyard of Wat Chedi Luang. The Ministry of Culture gives its age as 200 years and Chiang Mai News put it at 226 in 2026, so somewhere between 200 and 230 is the honest figure.",
@@ -61,6 +61,47 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "cnx_002",
+      "name": "The Fig that Swallowed a Stone",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Beside a park road in Suthep, west of Chiang Mai's old city",
+        "latitude": 18.7931366666667,
+        "longitude": 98.966295,
+        "neighbourhood": "Suthep"
+      },
+      "how_to_recognise": "A smooth grey fig beside a park road, its trunk a lattice of fused roots holding a rounded rust-coloured boulder at knee height, roots spilling over the kerb.",
+      "access": "Seen from the road beside it, where the reader stood; the photograph shows open park paths, stone seats and a pavilion around it.",
+      "story": "Somewhere inside this tree there is a rock. A reader sent us the photograph from a park on the western side of Chiang Mai, with a GPS fix from the road beside it, and the stone is plain to see, a rounded, rust-coloured boulder sitting in the trunk at knee height, held there by the roots that have grown all round it.\n\nThis is how a strangler fig behaves. Its roots run down, meet, fuse and thicken, so the trunk is not one stem but a lattice of many, grey and smooth, with gaps between them you can see right through. Here the lattice has closed round whatever stood in its way, a boulder and what looks like an older trunk behind it, and at the bottom the roots spill out across the ground and over the kerb into the road.\n\nWe do not know which fig it is, how old it is, or the park's own name for this spot. If you do, tell us here and we will add it.\n\nLook for the boulder first, then follow the roots up from it.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (c1046494-aeff-40b3-81da-d0f3fc7ac3e4, a 2024-10-19 photograph sent for the Yang Na of Wat Chedi Luang, 2.2 km away, and judged as its own tree). Photograph viewed: a strangler fig beside a park road whose grey roots have grown into a lattice round a boulder held in the trunk, paths, stone seats and a pavilion behind, daylight, colour. Published under the closed list (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cnx_002-fig-that-swallowed-a-stone.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: a strangler fig beside a park road whose grey roots have grown into a lattice round a boulder held in the trunk, paths, stone seats and a pavilion behind, daylight, colour. Not an open licence: ask before reuse elsewhere."
       }
     }
   ]

@@ -2,18 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "Black Mulberry in London",
-   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
-   "reader_note": "Described as a veteran, with a protective fence",
-   "verdict": "publish",
-   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -26,6 +14,18 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
    "hidde": null,
    "agreed": null
   },
@@ -2814,8 +2814,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a bare forked deciduous park tree beside a path, a person at its trunk for scale; a normal-sized tree among many like it.",
    "hidde": null,
    "agreed": null
   },
@@ -2835,8 +2835,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a medium tree with long toothed leaves in a Paris square, a wooden label post beside it; not big, old-looking or unusual in frame.",
    "hidde": null,
    "agreed": null
   },
@@ -2856,8 +2856,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a small weeping pagoda tree in a front garden behind a gate (no. 7A), seen from the street; an ornamental of ordinary size.",
    "hidde": null,
    "agreed": null
   },
@@ -2877,8 +2877,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a tall beech on a wooded slope beside a leaf-strewn path; a good tree but one of many of its size in the park.",
    "hidde": null,
    "agreed": null
   },
@@ -2898,8 +2898,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "bad_frame: Viewed 2026-11-17: looking straight up a reddish fibrous redwood trunk through branches; nothing shows its size, base or where it stands.",
    "hidde": null,
    "agreed": null
   },
@@ -2975,6 +2975,157 @@
    "reader_girth_cm": 420,
    "verdict": null,
    "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "city": null,
+   "species": "Black Mulberry",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 78377,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Sent for the Ankerwycke Yew but GPS and frames are the Baobab Plane of Penenden Heath (mdb_001), the reader's own tree; the main frame duplicated its lead, so the new trunk view went into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:017db4cf-3739-467d-986a-cb2f811ab0a1",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Rhodes Bald Cypress",
+   "city": "Richard Bong State Recreation Area",
+   "species": "Bald Cypress (Taxodium distichum)",
+   "photo": "out/sightings/017db4cf-3739-467d-986a-cb2f811ab0a1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bald Cypress (Taxodium distichum)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Rhodes Bald Cypress in winter snow; now the lead, the sign close-up moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/B59C4873-FD0A-4A92-A0D0-08074938E8F5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 11 m away (ireland-heritage-trees): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 53.37245,
+      "lng": -6.27075,
+      "source": "ireland-heritage-trees",
+      "designation": "",
+      "name": "",
+      "species": "Arbutus unedo x andrachne = A. x andrachnoides",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 11.2
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Weeping blue Atlas cedar at Glasnevin, branches hanging to the grass round a walk-in trunk; not the upright Atlas cedar we map (dub_012) nor the strawberry tree 11 m off. Live as dublin/dub_020 with the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fb383f1e-0383-4579-9603-21cca3aedd94",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "p_43296b4149990a775a24a4a6/FB383F1E-0383-4579-9603-21CCA3AEDD94.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Sent for the San Fernando ahuehuete but shows El Sargento, the dead standing ahuehuete of Chapultepec (Wikipedia coordinates within 10 m of the GPS fix); striking and standing, so it ships under the Ochi rule, the page saying plainly it died in 1969. Live as mexico-city/mex_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Chiang Mai",
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/C1046494-AEFF-40B3-81DA-D0F3FC7AC3E4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Sent for the Yang Na of Wat Chedi Luang (2.2 km off) but shows a strangler fig whose root lattice holds a boulder, beside a park road in Suthep; somewhat special, reader's GPS fix. Live as chiang-mai/cnx_002.",
    "hidde": null,
    "agreed": null
   },
@@ -13973,34 +14124,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "Black Mulberry in London",
-   "city": null,
-   "species": "Black Mulberry",
-   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
-   "reader_note": "Described as a veteran, with a protective fence",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Black Mulberry"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
    "hidde": null,
    "agreed": null
   }

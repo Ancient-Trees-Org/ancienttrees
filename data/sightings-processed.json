@@ -4284,6 +4284,72 @@
   "5e81af24-c36d-4b03-a6ed-92b1030ccca3": {
    "outcome": "published",
    "date": "2026-11-17"
+  },
+  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "mdb_001",
+   "city_slug": "maidstone",
+   "file": "mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af.jpg",
+   "reason": "Sent for the Ankerwycke Yew but shows a London plane; GPS and frames are the Baobab Plane of Penenden Heath (mdb_001, 0 m), the reader's own tree. Main frame duplicates the lead already on the page, so the new trunk view (extra 1) goes in the strip. Species seen: plane: maple-like leaves, flaking pa",
+   "lat": 51.2708666666667,
+   "lon": 0.537438333333333,
+   "pin_checked": "2026-11-17"
+  },
+  "9c93b205-3812-4c19-9040-a4efe3511170": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_008",
+   "city_slug": "london",
+   "file": "lon_008-barney-the-plane-9c93b205.jpg",
+   "reason": "Sent for the Gnarled Beech of Hampstead Heath but shows a giant burred London plane at Barn Elms; GPS 17 m from Barney the Plane (lon_008). Main frame duplicates the reader's photo already in the strip, so the new close trunk view (extra 1) joins it. Species seen: plane: palmate leaves, pale flaking",
+   "lat": 51.4741966666667,
+   "lon": -0.231061666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "abb593f0-9a90-47cd-8138-1040de6f803c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "azo_001",
+   "city_slug": "azores",
+   "file": "azo_001-giant-australian-rubber-tree-of-jardim-antonio-borges-abb593f0.jpg",
+   "reason": "Same fig, a second view: the curtain of aerial roots the recognition line names, the botanical label on the trunk. Strip, the lead stays. Species seen: fig: glossy leathery leaves, dense hanging aerial roots. Fits the description: mass of aerial roots and the botanical label on the trunk.",
+   "lat": 37.7434267,
+   "lon": -25.6755293,
+   "pin_checked": "2026-11-17"
+  },
+  "017db4cf-3739-467d-986a-cb2f811ab0a1": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "bng_001",
+   "city_slug": "richard-bong-state-recreation-area",
+   "file": "bng_001-the-rhodes-bald-cypress-017db4cf.jpg",
+   "reason": "The whole tree in winter, tall single bole with a conical bare crown, bench at its foot, snow; a better lead than the current sign close-up, which moves to the strip. Species seen: bald cypress: fibrous shredding bark, straight bole, deciduous conifer bare in winter with cones. Fits the description:",
+   "lat": 42.64496,
+   "lon": -88.12943,
+   "pin_checked": "2026-11-17"
+  },
+  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "kan_003",
+   "reason": "A Kenrokuen black pine in snow with crutches and yukitsuri ropes, 95 m from an approximate pin; the upright tall form does not show the low wide branches over the pond, and the garden rigs hundreds of pines, so the frame cannot settle whether this is the Karasaki pine."
+  },
+  "fb383f1e-0383-4579-9603-21cca3aedd94": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mex_006",
+   "reason": "Sent for the San Fernando ahuehuete (4 km away) but shows a tall dead standing ahuehuete trunk in Bosque de Chapultepec: El Sargento."
+  },
+  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cnx_001",
+   "reason": "Sent for the Yang Na of Wat Chedi Luang (2.2 km away) but shows a strangler fig whose lattice of roots has closed round a boulder, in a park in Chiang Mai."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

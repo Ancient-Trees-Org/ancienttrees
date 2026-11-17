@@ -118,6 +118,12 @@ def to_lead(entry, reason, today):
     doc = load(LEADS, {"leads": []})
     if any(l.get("sighting_id") == entry["sighting_id"] for l in doc.get("leads", [])):
         return False
+    # The queue's photo_path starts with the reader's raw account id; a public
+    # file carries their code instead, as the intake writes it (qa's
+    # check_no_reader_traces_in_the_repo refused two on 2026-11-17).
+    photo = entry.get("photo_path")
+    if photo and "/" in photo and entry.get("user_id"):
+        photo = "%s/%s" % (entry["user_id"], photo.split("/", 1)[1])
     doc.setdefault("leads", []).append({
         "sighting_id": entry["sighting_id"], "user_id": entry.get("user_id"),
         "mine": bool(entry.get("mine")), "name": "", "species": entry.get("species"),
@@ -125,7 +131,7 @@ def to_lead(entry, reason, today):
         "note": entry.get("note") or "",
         "latitude": entry.get("latitude"), "longitude": entry.get("longitude"),
         "near": entry.get("city"),
-        "photo": entry.get("photo_path"), "sign_photo": entry.get("sign_path"),
+        "photo": photo, "sign_photo": entry.get("sign_path"),
         "sign_file": entry.get("sign_file"), "extra_files": entry.get("extra_files") or [],
         "nearest_published_m": entry.get("distance_m"),
         "sent_for": entry.get("tree_id"),

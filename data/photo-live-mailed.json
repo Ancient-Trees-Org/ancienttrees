@@ -223,7 +223,17 @@
   },
   "p_20f572b893cc30e44a00d316": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "abb593f0-9a90-47cd-8138-1040de6f803c",
+     "tree_id": "azo_001",
+     "tree_name": "Giant Australian Rubber Tree of Jardim Antonio Borges",
+     "city": "Azores",
+     "city_slug": "azores",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "60a694a0-639f-46e3-bebb-7a3d1a8edcff",
@@ -1139,7 +1149,17 @@
   },
   "p_4ef71b74f814d07e898bb5c1": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "017db4cf-3739-467d-986a-cb2f811ab0a1",
+     "tree_id": "bng_001",
+     "tree_name": "The Rhodes Bald Cypress",
+     "city": "Richard Bong State Recreation Area",
+     "city_slug": "richard-bong-state-recreation-area",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "50567b0d-1b7c-437c-afea-03cbaf003531",
