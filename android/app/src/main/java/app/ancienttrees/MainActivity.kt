@@ -864,7 +864,10 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // pill sliding between them (TabBar.swift).
     val bar = remember {
         androidx.compose.runtime.movableContentOf {
-            if (placing == null && !searching && !discoverSearching && draft == null) {
+            // A search hides the bar only on its own tab: Discover's search stays open
+            // behind a place it sent to the map, and the map was left with no menu
+            // (Hidde on his Samsung, 2026-11-17: "opeens geen menu meer").
+            if (placing == null && !(searching && nav.tab == 0) && !(discoverSearching && nav.tab == 1) && draft == null) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.BottomCenter) {
                     // .transition(.move(edge: .bottom).combined(with: .opacity)), .spring(duration: 0.28)
                     androidx.compose.animation.AnimatedVisibility(
