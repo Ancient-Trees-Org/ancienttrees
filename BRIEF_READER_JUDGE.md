@@ -15,7 +15,7 @@ Look at every photograph with Read before you decide. Never judge one blind; if 
 
 ## The decision (CLAUDE.md "Verify", the closed list)
 
-A reader's tree goes live when it has a GPS fix or a photograph and is somewhat special. It is held only for a reason from the closed list, written in the lead's `hold` field: `bad_frame`, `wrong_tree`, `wrong_subject`, `not_special`, `dead`, `not_public`, `no_location`, `not_theirs`, and on a real doubt `doubt_location`, `doubt_photo`, `doubt_info`, `inappropriate`. No girth, age, source, site name or "a later pass" is ever a reason. A photograph that shows one of OUR trees (check `nearest_published_m` and the species) belongs on that tree, not on a new page; if two of ours could be it, hold as `wrong_tree` and the reply asks which.
+A reader's tree goes live when it has a GPS fix or a photograph and is somewhat special. It is held only for a reason from the closed list, written in the lead's `hold` field: `bad_frame`, `wrong_tree`, `wrong_subject`, `not_special`, `dead`, `not_public`, `no_location`, `not_theirs`, and on a real doubt `doubt_location`, `doubt_photo`, `doubt_info`, `inappropriate`. No girth, age, source, site name or "a later pass" is ever a reason. `not_public` only when the tree cannot be seen from public ground: on private land but visible from a street or path, it goes live with the pin on the viewing spot and an honest `access` line ("seen from the street; the garden is private"); when you cannot tell, hold and the reply asks whether it can be seen from the street. A photograph that shows one of OUR trees (check `nearest_published_m` and the species) belongs on that tree, not on a new page; if two of ours could be it, hold as `wrong_tree` and the reply asks which.
 
 ## Putting it live
 
