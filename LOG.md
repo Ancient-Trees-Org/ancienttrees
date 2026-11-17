@@ -95,6 +95,10 @@ For Hidde: compliance review, 1 point(s) wait for your word (data/compliance.jso
 - **Verify passes, both dead ends**: Zurich (27 register rows, no size, age or access evidence, all rejected as leads) and Miami (two paid-entry trees delivered to data/research/miami-verified.json and left unwritten, since Miami is already 46% behind a ticket). Both are walls for 48 h.
 - Health: iOS CI red 6 h ago (a session fixed the iOS 18 fault this morning, awaiting the next run); web error "Failed to initialize WebGL" is a browser without WebGL, not ours to fix.
 
+## 2026-11-17 session: Android gets Android's tab bar
+
+- Hidde on his Samsung: the floating capsule "voelt als iOS specifiek". Looked at AllTrails and Polarsteps on his phone: both dock a white bar to the bottom edge, 56 high, a word under every item, the chosen one coloured with a filled icon, no pill. On his word ("volg maar gewoon polarsteps en alltrails") Android's bar is now that: Map, Discover, My trees and the camera with "Collect" (eight languages). The iPhone keeps its capsule. Parity list and CONVENTIONS.md "A tab bar on Android" carry the why.
+
 ## 2026-11-17 session: Android on Hidde's Samsung, the list follows the finger
 
 - The Android app is on Hidde's Galaxy S21 Ultra (Android 14), the signed release build.

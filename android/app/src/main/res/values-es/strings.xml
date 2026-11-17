@@ -70,6 +70,7 @@
     <string name="tab_discover">Descubrir</string>
     <string name="tab_my_trees">Mis árboles</string>
     <string name="collect_a_tree">Coleccionar un árbol</string>
+    <string name="tab_collect">Coleccionar</string>
     <!-- discover -->
     <string name="discover_search">Busca un lugar, un árbol o una especie</string>
     <string name="discover_season_here">%1$s ya está aquí</string>

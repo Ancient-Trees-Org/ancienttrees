@@ -69,6 +69,7 @@
     <string name="tab_discover">見つける</string>
     <string name="tab_my_trees">私の木</string>
     <string name="collect_a_tree">木を集める</string>
+    <string name="tab_collect">集める</string>
     <!-- discover -->
     <string name="discover_search">場所、木、樹種を検索</string>
     <string name="discover_season_here">%1$sが来ました</string>

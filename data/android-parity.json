@@ -68,6 +68,10 @@
     {
       "what": "The system splash",
       "why": "Android 12 and later draw a splash with the app's icon before the first frame and no app can skip it (developer.android.com/develop/ui/views/launch/splash-screen). The iPhone's generated launch screen is the plain system background. Android's splash takes the iPhone's ground (white, black in dark) and our own icon, with the same ground behind the first frame, then the cover as on the iPhone (themes.xml, CONVENTIONS.md 'One app on iPhone and Android')."
+    },
+    {
+      "what": "Tab bar",
+      "why": "Android's own bar (Hidde, 2026-11-17: \"dat voelt als iOS specifiek\", then \"volg maar gewoon polarsteps en alltrails\"): docked to the bottom edge across the full width, 56 above the system bar, a word under every item, the chosen place in moss with a filled glyph and no pill. The iPhone's floating capsule is Apple's iOS 26 tab bar, a system control, so by Airbnb's line each phone takes its own. Places, glyphs and order are the iPhone's; the camera is the fourth item with its word (Collect) because every item on a docked Android bar carries one. Source: AllTrails and Polarsteps measured on a Galaxy S21 Ultra (both 56, white, five labelled items), CONVENTIONS.md \"A tab bar on Android\" (2026-11-17)."
     }
   ],
   "map": {

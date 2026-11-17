@@ -70,6 +70,7 @@
     <string name="tab_discover">Ontdek</string>
     <string name="tab_my_trees">Mijn bomen</string>
     <string name="collect_a_tree">Een boom verzamelen</string>
+    <string name="tab_collect">Verzamelen</string>
     <!-- discover -->
     <string name="discover_search">Zoek een plaats, een boom of een soort</string>
     <string name="discover_season_here">%1$s is er</string>
