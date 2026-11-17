@@ -2037,6 +2037,41 @@ def reader_trees_to_inspect(today):
     ])
 
 
+def open_for_you_section(today):
+    """Feedback and reports that need Hidde, and nothing else.
+
+    Hidde, 2026-11-17: "wat ik moet zien, zijn de dingen die openstaan, waar
+    je over twijfelt of waar je mijn hulp bij nodig hebt"; the easy cases are
+    handled and recorded (scripts/feedback.py, data/feedback-ledger.json;
+    reports in tree_reports, closed by the reader judge). Our one-line
+    summaries only: DATA.md is public, their words are on the local page."""
+    import feedback
+    rows = []
+    for rid, v in feedback.for_hidde():
+        rows.append("| feedback %s | %s | %s |" % (rid, "your call" if v["status"] == "needs_hidde" else "doubt",
+                                                    v.get("what", "").replace("|", "/")))
+    key = os.environ.get("SUPABASE_SERVICE_KEY")
+    if key:
+        try:
+            import tree_reports
+            import inbox
+            reps = tree_reports.rows(lambda p: inbox.get(p, key)) or []
+            cutoff = (datetime.datetime.now(datetime.timezone.utc)
+                      - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%S")
+            for r in reps:
+                if r.get("outcome") or is_ours(r.get("user_id")) or (r.get("created_at") or "") > cutoff:
+                    continue
+                rows.append("| report %s | left open | %s on %s |" % (
+                    r.get("id"), r.get("reason") or r.get("kind") or "report", r.get("tree_id") or "no tree named"))
+        except Exception as e:
+            rows.append("| reports | unreadable | %s |" % str(e)[:60])
+    handled = sum(1 for v in feedback.ledger()["rows"].values() if v.get("status") == "handled")
+    if not rows:
+        return "**Open for you: nothing.** Feedback handled and recorded: %d (`python3 scripts/feedback.py`)." % handled
+    return ("**Open for you** (%d; everything else handled and recorded, %d feedback in all)\n\n"
+            "| What | Why it waits | Summary |\n|---|---|---|\n%s" % (len(rows), handled, "\n".join(rows)))
+
+
 def new_ambassadors_section(today):
     """Who became an ambassador on the digest's day, one line, plus the count.
 
@@ -4348,6 +4383,7 @@ def main():
 
     block(ambassador_requests_section, today)
     block(new_ambassadors_section, today)
+    block(open_for_you_section, today)
     block(day_by_day_section, today)
     block(reader_trees_to_inspect, today)
     block(waiting_for_you_section, today)

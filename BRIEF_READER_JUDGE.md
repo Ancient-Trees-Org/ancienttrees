@@ -39,6 +39,10 @@ By reason (CLAUDE.md's rules, in short):
 - **something else** / **correction**: a fact they correct is checked like any fact (a source, or their own photograph or sign) and fixed in every language the story exists in; an age they give goes on the page "by a reader's estimate". A question gets an answer in the reply. Praise, product questions (Android, accounts) and thanks: `holds` with a short reply when there is something to answer.
 - **collected far**: the photograph decides, through the sighting queue; close the report once it is judged.
 
+## General feedback
+
+`python3 scripts/feedback.py --open` prints every feedback message without a verdict (one-tap votes and reports are left out). Handle the easy ones and record each with `python3 scripts/feedback.py --close <id> handled|needs_hidde|doubt "what you did"` in one line of your own words, never theirs and never a name (the ledger is public). Handled: a bug you fixed or recorded (`python3 scripts/escaped.py --add`), a tree tip turned into a lead or a tree, an idea filed in PRODUCT_TODO.md, a question the product already answers, thanks that need nothing. Never send or queue a reply to feedback (Hidde, 2026-11-17: "lijkt me beter als ik dat zelf lees"): when an answer would help, write it to drafts/reply-reader-<id>-<date>.md and close the row `needs_hidde`. A decision outside the four verbs, or anything you cannot settle, is `needs_hidde` or `doubt` with the reason. Those reach him in the digest's "Open for you"; nothing else does.
+
 ## Readers' words
 
 Then `python3 scripts/reader_words.py`: each reader's note on a live tree whose words no story quotes yet. Put the usable ones on the page (CLAUDE.md "Readers' words go on the page, quoted"): unnamed, their facts stated as theirs, an age they give as "by a reader's estimate", in every language the story exists in. Not usable, and closed with `--done <row id> "why"`: text pasted from a chatbot or a website (headings like "Key Details", bullet summaries; check its facts, never quote it as theirs), an instruction to us, or thanks. A fact from it that a source confirms may go in the story as a fact.

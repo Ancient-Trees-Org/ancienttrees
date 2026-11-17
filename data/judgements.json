@@ -2436,6 +2436,42 @@
    "agreed": null
   },
   {
+   "id": "sight:c4b5f1b1-ce96-469b-805d-cf75390b7917",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore at Pawling Farm in Valley Forge National Park",
+   "photo": "p_3bb2d9b77f839015a3f92de9/C4B5F1B1-CE96-469B-805D-CF75390B7917.jpg",
+   "reader_note": "The boughs spread over 42 meters some of which reach down meld with the ground and then bend back up.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001."
+  },
+  {
+   "id": "lead:5126ec15-4f8a-45ad-9fa1-996fe64483bc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A dead sweet chestnut in the Kastanologos forest, Mount Ochi",
+   "city": null,
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "hold",
+   "reason": "dead (closed list): the reader says this chestnut on Mount Ochi has been dead for many years; text only, no photograph. The living forest around it (Kastanologos, ~60 ha, 200 to 450 years per ochi.gr and Reforest'Action) is a lead in data/leads/karystos.json, waiting for one living trunk with a photo or GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
@@ -13297,18 +13333,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:c4b5f1b1-ce96-469b-805d-cf75390b7917",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "American Sycamore at Pawling Farm in Valley Forge National Park",
-   "photo": "p_3bb2d9b77f839015a3f92de9/C4B5F1B1-CE96-469B-805D-CF75390B7917.jpg",
-   "reader_note": "The boughs spread over 42 meters some of which reach down meld with the ground and then bend back up.",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001."
   }
  ]
 }

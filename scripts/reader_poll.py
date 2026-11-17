@@ -61,6 +61,12 @@ def main():
         rows = get("/rest/v1/sightings?select=id&shared=eq.true&photo=not.is.null&updated_at=gte." + since, key)
         n += len([r for r in rows if r["id"] not in done])
         n += len(get("/rest/v1/submissions?select=id&kind=in.(tree,city,ambassador)&created_at=gte." + since, key))
+        # General feedback too (Hidde, 2026-11-17), but never a one-tap vote:
+        # "worth it" arrives as feedback dozens of times a day and needs
+        # nothing ("worth it hoeven we in principe niks mee").
+        fb = get("/rest/v1/submissions?select=why&kind=eq.feedback&created_at=gte." + since, key)
+        n += len([r for r in fb if not (r.get("why") or "").strip().lower().startswith(
+            ("worth it", "not worth it", "vote undone", "report"))])
         # Reports on our trees (dead, wrong place, could not tell which, a
         # moved pin) wake the judge too, by when they were sent or when their
         # follow-up words came (Hidde, 2026-11-17: like the readers' trees).

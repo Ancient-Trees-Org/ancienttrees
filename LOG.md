@@ -12,6 +12,20 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: every feedback message gets a recorded verdict
+
+- **Built** (Hidde: "Hou er ergens bij of feedback is behandeld of niet ... wat ik moet zien, zijn de dingen die openstaan"): scripts/feedback.py and data/feedback-ledger.json (id, status handled/needs_hidde/doubt, our one-line summary, never their words); the reader judge now handles new feedback too (brief "General feedback", the poll wakes on it, one-tap votes ignored), never sends a reply; the digest gets "Open for you" (`open_for_you_section()`): only what needs Hidde plus reports the judge left open.
+- **Backlog walked**: 219 feedback rows, of which 109 open votes ("worth it", Hidde: nothing needed), 75 ours, the reports already in tree_reports. Six real messages: four handled (405 location row exists since 10-14; 702 and 756 answered 11-15; 1052 the Nationalerbe list, a lead list since 10-02), two for Hidde (786 an idea about UK heritage-tree initiatives; 849 a reply drafted in drafts/reply-reader-849-2026-11-17.md).
+- **Cambridge plane**: the reader moved the pin twice to Emmanuel College; the plane stands in the Fellows' Garden, which the college calls private, so the hold stays `not_public` with the right reason, and the reader is asked whether visitors can see it (report 1000067, reply queued).
+- **For Hidde:** two feedback rows wait for your call (786 idea, 849 reply draft); five reports the judge left open are listed under "Open for you".
+
+## 2026-11-17 session: the Ochi chestnut forest (submission 936) judged
+
+- Hidde asked what happened to an app submission about the Kastanologos chestnut forest on Mount Ochi, Evia (2026-11-16): nothing. Text only, no photograph, so no sighting row, and the reader judge never saw it.
+- Verdict: the pinned trunk is held as `dead` (the reader's own words), filed in data/leads/_sightings.json and data/judgements.json. The living forest is a lead in data/leads/karystos.json (ochi.gr, Reforest'Action, Enel: ~60 ha, 200 to 450 years), waiting for one living trunk with a photo or GPS fix.
+- Reply drafted, drafts/reply-reader-936-2026-11-17.md (mailcheck clean), asks for their favourite living chestnut there. For Hidde: goes as reply_text with outcome `holds` on his yes.
+- Breakage: a tree submission without a photograph gets no verdict (937 Cape Town fig and 939 Tsitsikamma from the web form also sit unjudged). Recorded as an escaped bug (escaped.py), rung-2 work.
+
 ## 2026-11-17 session: Kamakura's two tabunoki untangled, Hasedera's is a new tree (kmk_007)
 
 - Report 1000047 was right: the reader photograph put on kmk_003 (Goryo Shrine) on 11-16 shows a plaque reading 椨の木 and a sign reading 長谷寺, so it is the tabunoki at Hasedera. It is now kmk_007, "The Tabunoki of Hasedera", with that photograph and the reader's GPS fix as a confirmed pin, live as a reader's tree.

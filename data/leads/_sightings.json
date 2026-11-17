@@ -4838,9 +4838,18 @@
     "nearest": []
    },
    "status": "held",
-   "why": "Photograph viewed 2026-11-17: an oriental plane and a ginkgo in autumn colour, a lovely frame, but the fix is at a house on Trumpington High Street, Cambridge: a private garden unless the reader says it is seen from the street. Held: not_public (closed list, Hidde 2026-11-17).",
+   "why": "2026-11-17: the reader moved the pin twice (reports 1000065, 1000067) to 52.2044, 0.1249, Emmanuel College, Cambridge: the Great Oriental Plane (also tipped from the website 2026-11-15). The photograph's GPS had pointed at a house on Trumpington High Street. The plane stands in the Fellows' Garden, which the college calls private (data/leads/cambridge.json); no source says visitors can enter or see it from the Paddock. Held as not_public until the reader or the college says it can be seen; then it ships at the viewing spot.",
    "seen": "2026-11-17",
    "judged": "2026-11-17",
+   "reader_moved_to": {
+    "latitude": 52.204373,
+    "longitude": 0.124921,
+    "reports": [
+     1000065,
+     1000067
+    ],
+    "date": "2026-11-17"
+   },
    "hold": "not_public"
   },
   {
@@ -5461,6 +5470,28 @@
    "status": "held",
    "hold": "not_special",
    "why": "Photograph viewed 2026-11-17: sent as our Finsbury Circus pagoda tree (lon_021), but it shows a tall London plane in autumn yellow in Finsbury Circus Gardens (lobed leaves, plane bark), so it was rejected for lon_021 and judged as a tree of its own. A fine mature plane, but one of many of its size in central London, with nothing in the photograph or a note that sets it apart; a girth, a story or a source would change this.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "5126ec15-4f8a-45ad-9fa1-996fe64483bc",
+   "submission_id": 936,
+   "user_id": "p_1914fcf0f90ea6968f3cfe0c",
+   "mine": false,
+   "name": "A dead sweet chestnut in the Kastanologos forest, Mount Ochi",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 38.07135,
+   "longitude": 24.47136,
+   "photo": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "status": "held",
+   "hold": "dead",
+   "why": "App submission 936 (2026-11-16), text only, no photograph, pin placed by hand. The reader writes that this chestnut has been dead for many years. Their long note is about the living forest around it (Kastanologos above Karystos, southern Evia, ~60 ha, 200 to 450 years per ochi.gr and Reforest'Action), which is now a lead in data/leads/karystos.json waiting for one living trunk with a photo or GPS fix. Reply drafted (drafts/reply-reader-936-2026-11-17.md), waiting for Hidde's yes.",
    "seen": "2026-11-17",
    "judged": "2026-11-17"
   }
