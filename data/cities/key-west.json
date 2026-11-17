@@ -150,8 +150,8 @@
       "age_max": 130,
       "location": {
         "address": "323 Whitehead Street (front yard of the Cosgrove House, Banyan Resort), Key West, FL 33040",
-        "latitude": 24.5571058,
-        "longitude": -81.8052548,
+        "latitude": 24.556672,
+        "longitude": -81.804962,
         "neighbourhood": "Old Town"
       },
       "location_site": {
@@ -165,14 +165,28 @@
         "https://thebanyanresort.com/our-history"
       ],
       "access": "View-only from the public sidewalk on Whitehead Street; the yard belongs to the Banyan Resort, a private hotel. Do not enter the property.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Age: Key West Historic Marker Tour (marker at 323 Whitehead, page copyright 2018): the house is 'literally overshadowed by a landscaping decision Myrtle Cosgrove, the Captain's wife, made a century ago'; she planted a banyan for shade when Key West was not lush and fresh water came from cisterns. The Banyan Resort's own history page: the front yard contains 'one of the two expansive Banyan Trees on this property which was planted in the early 1900s by Captain Cosgrove's wife, Myrtle'; a second, 'the largest Banyan Tree on the property', stands in the gardens behind (not assessed). The two sources agree on planting by Myrtle Cosgrove in the early 1900s (the resort is the owner of the ground; the marker tour is independent). Species given only as 'banyan' (a strangling fig, genus Ficus), not narrowed. Alive: lifecheck RECENT, iNaturalist observation 2026-05-31 near the address (https://www.inaturalist.org/observations/367213402). Pin is the OSM address point for 323 Whitehead, not the trunk; stays approximate; small-site rule (hotel front yard seen from the street). No girth or height found. About 250 m from the Kapok Tree.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kyw_004-the-cosgrove-house-banyan.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 6,
+        "source": "contributor",
+        "contributor_user_id": "p_7e21a8af508342f4f54fe87c",
+        "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
+        "note": "Photographed by a reader and sent through the app (2023-06-30); a viewing pass approved it on 2026-11-17: A banyan's crown and curtain of aerial roots seen from the street, the pale house behind on the right; the tree had no photograph. Species seen: Ficus with dozens of hanging aerial roots grown into pillar trunks, small oval leaves. Fits the description: a big banyan in a front yard with the house just behind it, palms below, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
+        "moved_m": 57,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

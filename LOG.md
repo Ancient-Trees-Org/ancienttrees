@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: two new trees, five photographs live, every queued photograph closed
+
+- **New trees, live** (closed list, photographs viewed): the Erler Femeiche at Raesfeld-Erle, Germany (`raesfeld/rsf_001`; the app called it "near Winterswijk"). A reader's dusk photograph and GPS fix, backed by the DDG champion record (1245 cm, measured 2021, the reader's own figure) and German Wikipedia (Feme court until 1589, national heritage tree 2021). And a towering monkey thorn on a sandy riverbed 11 km north of Francistown, Botswana (`francistown/frt_001`; reader's photo and GPS, their 450 cm girth stays in the story; Africa is out of focus for our research only, never a reader's tree). Both are new one-tree places with intro, question texts and three FAQ.
+- **Photographs on trees we map**: the Cosgrove House Banyan (kyw_004, no photo before; pin moved 57 m to the fix, now confirmed) and the Jindai-zakura at Hokuto (hok_001, no photo before) got their first photographs; the Balete Park fig (mra_001) got a wider, clearer reader photo as lead, the old narrow one moves to the strip; the Lewisham Elm (lon_045) got a close-up of its leaves and seeds in the strip. Three byte-identical resends (same md5) rejected as duplicates.
+- **Closed without change**: eight queue entries were the photographs that already lead the trees they created earlier today (Cusop, Pasadena, two Tilarán, Lisbon ISA, two Melbourne, Plaza San Martín); the intake had re-queued them because their processed rows still said `lead`. Now `published`.
+- **Fixed to pass preflight**: Hokuto's story had a colon reveal that only bit once the page gained a photograph; rewritten in one sentence.
+- **Left for the next run**: 27 older reader leads (2026-09-07 to 11-16) still sit as `status: lead` with a written `why` but no closed-list `hold` code. Some read like `not_special` or `bad_frame`; a few (the Jelasnica oak 68515bbd, the Toronto dawn redwood fe8fc7e4, the Tassili cypress tip-947) may now qualify to go live under today's rule. They need a viewing pass, not a guess.
+
 ## 2026-11-17 session: readers' trees judged within minutes (reader judge)
 
 - **Built** (Hidde: "should be instant honestly can it just trigger a flow??", then "Yes, build it"): `.github/workflows/reader-judge.yml` starts on a `reader-tree` repository_dispatch (or by hand), waits ten minutes so a burst becomes one run, reads the inbox, fetches every waiting photograph, and an Opus agent judges and publishes per the new BRIEF_READER_JUDGE.md (closed list from CLAUDE.md), then a deploy is dispatched. At most one run waits behind a running one.

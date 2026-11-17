@@ -3320,27 +3320,11 @@
    "outcome": "lead",
    "date": "2026-11-17"
   },
-  "471cdeb1-6853-43a4-85a6-f926e83b532c": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
   "1be89823-692c-46dd-bb1c-be7dbd6ed022": {
    "outcome": "lead",
    "date": "2026-11-17"
   },
-  "dadb2ea4-792f-460d-b66d-d46f064f0a8a": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
   "7f0038ba-2d3c-4bf4-a206-135905bff0f3": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
-  "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
-  "df10cd8a-f0f4-4911-a37f-b5b4e85b7425": {
    "outcome": "lead",
    "date": "2026-11-17"
   },
@@ -3352,27 +3336,11 @@
    "outcome": "lead",
    "date": "2026-11-17"
   },
-  "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
   "a069351f-fe5c-40fa-9b6a-efab20714ba0": {
    "outcome": "lead",
    "date": "2026-11-17"
   },
-  "665082d2-815b-4630-883a-5f619725cdb9": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
-  "993d2833-d88b-43cc-a6e2-804c1e2c6921": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
   "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
-  "b451d1e8-4b8b-4bb0-9680-01874b41c26b": {
    "outcome": "lead",
    "date": "2026-11-17"
   },
@@ -3919,49 +3887,223 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "tar_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "a48cae8c-f582-4ca2-b055-05c4020fca0c": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "esl_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "ae132f45-019f-4e63-9723-98dd6e815807": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "gnp_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "b3d97fd9-33cf-40bc-a557-1c8dccbfec24": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "nwf_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "b41e05ce-7f7e-4aeb-a19e-e1c252662378": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "mrs_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "ads_003",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "968c829e-effd-4454-8b9c-271da4d79854": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "nwf_002",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
   },
   "65cb49cd-5812-4470-a56c-4b681646b7d2": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "tky_001",
-   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17)."
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
+  },
+  "e4cabea6-fb02-470f-b13c-7851eb3553bc": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "b465300f-f064-4c38-9fb9-d3fe2e44e2b9": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "471cdeb1-6853-43a4-85a6-f926e83b532c": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cus_001",
+   "city_slug": "cusop",
+   "file": "cus_001-churchyard-yew-of-cusop.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (cus_001, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": 52.0669347677227,
+   "lon": -3.1099705959563,
+   "pin_checked": "2026-11-17"
+  },
+  "dadb2ea4-792f-460d-b66d-d46f064f0a8a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lax_033",
+   "city_slug": "los-angeles",
+   "file": "lax_033-moreton-bay-fig-by-the-white-mansion.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (lax_033, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": 34.1386861166667,
+   "lon": -118.15981945,
+   "pin_checked": "2026-11-17"
+  },
+  "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "tlr_001",
+   "city_slug": "tilaran",
+   "file": "tlr_001-elephant-trunk-fig-of-tilar-n.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (tlr_001, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": 10.5645460347411,
+   "lon": -85.0081071938515,
+   "pin_checked": "2026-11-17"
+  },
+  "df10cd8a-f0f4-4911-a37f-b5b4e85b7425": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "tlr_002",
+   "city_slug": "tilaran",
+   "file": "tlr_002-figs-saved-by-a-wall.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (tlr_002, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": 10.52263,
+   "lon": -84.966295,
+   "pin_checked": "2026-11-17"
+  },
+  "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lis_039",
+   "city_slug": "lisbon",
+   "file": "lis_039-portuguese-oak-of-the-agronomy-cloister.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (lis_039, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": 38.7077237792144,
+   "lon": -9.18254545517746,
+   "pin_checked": "2026-11-17"
+  },
+  "665082d2-815b-4630-883a-5f619725cdb9": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mel_017",
+   "city_slug": "melbourne",
+   "file": "mel_017-water-gum-that-reaches-out.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (mel_017, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": -37.8328053558392,
+   "lon": 144.982058420709,
+   "pin_checked": "2026-11-17"
+  },
+  "993d2833-d88b-43cc-a6e2-804c1e2c6921": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mel_018",
+   "city_slug": "melbourne",
+   "file": "mel_018-leaning-fig-over-the-boardwalk.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (mel_018, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": -37.8314956491425,
+   "lon": 144.980384196569,
+   "pin_checked": "2026-11-17"
+  },
+  "b451d1e8-4b8b-4bb0-9680-01874b41c26b": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "bai_005",
+   "city_slug": "buenos-aires",
+   "file": "bai_005-gomero-of-plaza-san-mart-n.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (bai_005, looked at 2026-11-17). Species seen: the same photograph that is this tree's lead. Fits the description: the same photograph that is this tree's lead.",
+   "already_lead": true,
+   "lat": -34.5955810487646,
+   "lon": -58.3765121594678,
+   "pin_checked": "2026-11-17"
+  },
+  "363d64d1-dbb9-42e1-bc2c-3b17d23f1829": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "kyw_004",
+   "city_slug": "key-west",
+   "file": "kyw_004-the-cosgrove-house-banyan.jpg",
+   "reason": "A banyan's crown and curtain of aerial roots seen from the street, the pale house behind on the right; the tree had no photograph. Species seen: Ficus with dozens of hanging aerial roots grown into pillar trunks, small oval leaves. Fits the description: a big banyan in a front yard with the house ju",
+   "lat": 24.5566716666667,
+   "lon": -81.8049616666667,
+   "pin_checked": "2026-11-17"
+  },
+  "d65e35df-ab24-4fbb-b1f8-2afa5a097368": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "kyw_004",
+   "reason": "Duplicate of 363d64d1, byte-identical file (same md5), which is published instead."
+  },
+  "7ba4add6-6efd-4c2b-bf9c-97438647a3bd": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "kyw_004",
+   "reason": "Duplicate of 363d64d1, byte-identical file (same md5), which is published instead."
+  },
+  "96cc87f7-0bb3-4a2f-b500-a7d2392cd595": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "hok_001",
+   "city_slug": "hokuto",
+   "file": "hok_001-jindai-zakura-yamataka-jindai-zakura.jpg",
+   "reason": "The Jindai-zakura itself: its huge low twisted trunk among tall wooden props and guy poles, bamboo fence, early blossom, blue sky; the tree had no photograph. Species seen: an old cherry in first pink blossom, dark gnarled trunk. Fits the description: the immense flared, sprawling base under a low c",
+   "lat": 35.7806083333333,
+   "lon": 138.367753333333,
+   "pin_checked": "2026-11-17"
+  },
+  "7d7efdc2-9ed6-4fda-b3b5-2b05c8106581": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "hok_001",
+   "reason": "Duplicate of 96cc87f7, byte-identical file (same md5), which is published instead."
+  },
+  "05aabbc7-f4a1-413e-89b7-75b40bfebe8b": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_045",
+   "city_slug": "london",
+   "file": "lon_045-the-lewisham-elm-05aabbc7.jpg",
+   "reason": "A close-up of the elm's leaves and clusters of fringed seeds; belongs on the page behind the lead, not as the lead. Species seen: doubly toothed elm leaves and long-stalked, hairy-fringed samaras of European white elm. Fits the description: a detail of the tree, not the whole tree; fits as a gallery",
+   "lat": 51.4505416666667,
+   "lon": -0.0243861666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "e4e3b77d-5da9-4872-a0f4-bc083848c181": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "mra_001",
+   "city_slug": "maria-aurora",
+   "file": "mra_001-millennium-tree-of-balete-park-e4e3b77d.jpg",
+   "reason": "The whole lower trunk of the balete, a towering wall of fused roots on bare ground, full daylight and colour; a wider, clearer frame than the narrow current lead, so it leads and the old one moves to the strip. Species seen: a strangler fig, trunk made of fused aerial roots. Fits the description: th",
+   "lat": 15.7697,
+   "lon": 121.4769,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

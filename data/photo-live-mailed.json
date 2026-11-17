@@ -410,7 +410,17 @@
   },
   "p_bf0eb996e2b54d6b87dae9bf": {
    "last": "2026-11-15",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
+     "tree_id": "lon_045",
+     "tree_name": "The Lewisham Elm",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
@@ -1672,6 +1682,45 @@
      "tree_name": "The Great Ginkgo of Hida Kokubunji",
      "city": "Takayama",
      "city_slug": "takayama",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_7e21a8af508342f4f54fe87c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
+     "tree_id": "kyw_004",
+     "tree_name": "The Cosgrove House Banyan",
+     "city": "Key West",
+     "city_slug": "key-west",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "96cc87f7-0bb3-4a2f-b500-a7d2392cd595",
+     "tree_id": "hok_001",
+     "tree_name": "Jindai-zakura (Yamataka Jindai Zakura)",
+     "city": "Hokuto",
+     "city_slug": "hokuto",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_b8baa3b109915ecee6983110": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e4e3b77d-5da9-4872-a0f4-bc083848c181",
+     "tree_id": "mra_001",
+     "tree_name": "Millennium Tree of Balete Park",
+     "city": "Maria Aurora",
+     "city_slug": "maria-aurora",
      "display_name": null,
      "live": "2026-11-17"
     }

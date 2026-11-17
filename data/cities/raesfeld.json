@@ -1,0 +1,81 @@
+{
+  "city": "Raesfeld",
+  "country": "Germany",
+  "status": "needs_curation",
+  "intro": "Raesfeld is a small town in the Münsterland of North Rhine-Westphalia, near the Dutch border at Winterswijk. On the green of its village of Erle stands the Femeiche, an oak under which a Feme court sat until 1589, held up today by wooden props. Germany's dendrologists measured it at 12.45 metres round, and in 2021 it was named one of the country's national heritage trees. A reader sent us its photograph, taken at dusk.",
+  "meta_description": "The Erler Femeiche at Raesfeld-Erle: the old court oak where a Feme court sat until 1589, its age, its girth, and how to find it.",
+  "hero_tree_id": "rsf_001",
+  "oldest_tree_id": "rsf_001",
+  "trees": [
+    {
+      "id": "rsf_001",
+      "name": "The Erler Femeiche",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "600 to 900 years by published estimates; about 1,000 by a reader's estimate",
+      "age_min": 600,
+      "age_max": 1000,
+      "girth_cm": 1245,
+      "location": {
+        "address": "Village green, Erle, Raesfeld, North Rhine-Westphalia",
+        "latitude": 51.745545,
+        "longitude": 6.862275,
+        "neighbourhood": "Erle"
+      },
+      "how_to_recognise": "On the village green at Erle: a squat oak inside a round wooden picket fence, its moss-green trunk broken into pillars and its spreading limbs held up by tall wooden props.",
+      "access": "Free. On the village green at Erle, open at all hours; a fence keeps visitors a few metres from the trunk.",
+      "official_register": {
+        "name": "Deutsche Dendrologische Gesellschaft champion trees, Erler Femeiche (no. 1368)",
+        "url": "https://championtrees.ddg-web.de/championtree-1368/"
+      },
+      "verified_sources": [
+        "https://championtrees.ddg-web.de/championtree-1368/ (Deutsche Dendrologische Gesellschaft champion tree record, Erler Femeiche: Quercus robur, Raesfeld-Erle, girth 1245 cm at 1.3 m measured August 2021, age about 906 years estimated, publicly accessible)",
+        "https://de.wikipedia.org/wiki/Femeiche (Femeiche: Feme court held under it until 1589; probably 600 to 850 years old by the newest findings; props first put in 1892; named the twelfth Nationalerbe-Baum in October 2021; considered the oldest and best-known court tree in Central Europe)"
+      ],
+      "story": "Until 1589, a Feme court sat in judgement under this oak. The Erler Femeiche stands on the green of Erle, a village of Raesfeld on the edge of the Münsterland, and German sources call it the oldest and best-known court tree in Central Europe. In October 2021 it was named the twelfth of Germany's national heritage trees; the reader who sent us this photograph adds that it was the first in North Rhine-Westphalia.\n\nNobody agrees on its age. The newest findings cited on its Wikipedia page put it between 600 and 850 years, the German Dendrological Society's champion tree record estimates about 900, and older accounts reach 1,500. The reader gives it 1,000. Its size is less in doubt. The society measured the trunk at 12.45 metres round in August 2021.\n\nThe reader took the photograph at dusk, with the last blue in the sky and a lamp lighting the trunk from behind. The trunk has broken into separate pillars of old wood, green with moss, and they still hold up a crown in full leaf. Tall wooden props stand under the limbs, successors to ones first set there in 1892, and a round picket fence keeps visitors a few steps away.\n\nWalk the path all the way round the fence to see each prop and pillar in turn.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (b465300f-f064-4c38-9fb9-d3fe2e44e2b9, 2026-11-17, through the app). Photograph viewed: the whole oak at dusk from the green, its moss-covered trunk among tall wooden props inside a round picket fence, crown in leaf, lit from behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Pedunculate Oak near Winterswijk', species 'Pedunculate Oak', age '1000', girth 1245 cm, note 'It is considered the oldest court tree in Central Europe and has been the first national heritage tree of North Rhine-Westphalia since October 30, 2021.'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/rsf_001-erler-femeiche.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_3e4f572d6989a515e5b7dacd",
+        "sighting_id": "b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+        "note": "Photographed by a reader and sent through the app (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole oak at dusk from the green, its moss-covered trunk among tall wooden props inside a round picket fence, crown in leaf, lit from behind, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The Erler Femeiche at Raesfeld-Erle: the old court oak where a Feme court sat until 1589, its age, its girth, and how to find it.",
+  "question_answer": "The Erler Femeiche stands on the village green at Erle, part of Raesfeld in North Rhine-Westphalia. It is free to visit at any hour; a fence keeps visitors a few metres from the trunk.",
+  "question_context": "The Erler Femeiche is a pedunculate oak on the green of Erle, a village of Raesfeld on the edge of the Münsterland, a short drive from the Dutch border at Winterswijk. A Feme court sat under it until 1589, and German sources call it the oldest and best-known court tree in Central Europe. In October 2021 it was named the twelfth of Germany's national heritage trees. Its age is uncertain: the newest findings put it between 600 and 850 years, the German Dendrological Society estimates about 900, older accounts reach 1,500, and the reader who sent us its photograph gives 1,000. The society measured its trunk at 12.45 metres round in August 2021. The trunk has broken into separate pillars of old wood that still carry a crown in leaf, propped on wooden posts first set there in 1892 and since replaced. It stands inside a round picket fence and can be seen at any hour from the path that circles it.",
+  "faq": [
+    {
+      "q": "Where is the Erler Femeiche?",
+      "a": "On the village green at Erle, part of Raesfeld in the Borken district of North Rhine-Westphalia, Germany."
+    },
+    {
+      "q": "How old is the Erler Femeiche?",
+      "a": "Estimates differ: 600 to 850 years by the newest findings, about 900 by the German Dendrological Society, and up to 1,500 in older accounts."
+    },
+    {
+      "q": "Can I visit the Erler Femeiche?",
+      "a": "Yes, for free and at any hour. A fence keeps visitors a few metres from the trunk, and a path runs round it."
+    }
+  ]
+}

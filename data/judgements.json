@@ -2,6 +2,46 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Winterswijk",
+   "photo": "p_3e4f572d6989a515e5b7dacd/B465300F-F064-4C38-9FB9-D3FE2E44E2B9.jpg",
+   "reader_note": "It is considered the oldest court tree in Central Europe and has been the first national heritage tree of North Rhine-Westphalia since October 30, 2021.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole oak at dusk from the green, its moss-covered trunk among tall wooden props inside a round picket fence, crown in leaf, lit from behind, colour. Live as raesfeld/rsf_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:e4cabea6-fb02-470f-b13c-7851eb3553bc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Senegalia Galpinii",
+   "photo": "p_5238fb7ee873711595db5e1d/E4CABEA6-FB02-470F-B13C-7851EB3553BC.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole tall tree from the sandy riverbed, a bare trunk splitting into great limbs and a wide flat crown of feathery leaves over the green bank, two people wading below for scale, daylight, colour. Live as francistown/frt_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-995",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -130,22 +170,6 @@
    "reader_note": "",
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-17: the whole yew from the churchyard grass, its fluted red trunk under a full crown, gravestones either side, daylight, colour. Live as cusop/cus_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
   },
@@ -1912,6 +1936,217 @@
    "reader_note": "",
    "verdict": "lead",
    "reason": "Looked at 2026-11-17: a large pecan, but it stands at Meadowlark 1939 in Griffin, a wedding venue, so no public access we can show; the only source is the venue's own page (about 100 years). Stays a lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cosgrove House Banyan",
+   "city": "Key West",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/363d64d1-dbb9-42e1-bc2c-3b17d23f1829.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 57,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17 (approve): A banyan's crown and curtain of aerial roots seen from the street, the pale house behind on the right; the tree had no photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d65e35df-ab24-4fbb-b1f8-2afa5a097368",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cosgrove House Banyan",
+   "city": "Key West",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/d65e35df-ab24-4fbb-b1f8-2afa5a097368.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 57,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 363d64d1, byte-identical file (same md5), which is published instead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7ba4add6-6efd-4c2b-bf9c-97438647a3bd",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cosgrove House Banyan",
+   "city": "Key West",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/7ba4add6-6efd-4c2b-bf9c-97438647a3bd.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 57,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 363d64d1, byte-identical file (same md5), which is published instead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:96cc87f7-0bb3-4a2f-b500-a7d2392cd595",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Jindai-zakura (Yamataka Jindai Zakura)",
+   "city": "Hokuto",
+   "species": "Higan Cherry (Prunus subhirtella var. ascendens)",
+   "photo": "out/sightings/96cc87f7-0bb3-4a2f-b500-a7d2392cd595.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Higan Cherry (Prunus subhirtella var. ascendens)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17 (approve): The Jindai-zakura itself: its huge low twisted trunk among tall wooden props and guy poles, bamboo fence, early blossom, blue sky; the tree had no photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7d7efdc2-9ed6-4fda-b3b5-2b05c8106581",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Jindai-zakura (Yamataka Jindai Zakura)",
+   "city": "Hokuto",
+   "species": "Higan Cherry (Prunus subhirtella var. ascendens)",
+   "photo": "out/sightings/7d7efdc2-9ed6-4fda-b3b5-2b05c8106581.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Higan Cherry (Prunus subhirtella var. ascendens)"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 96cc87f7, byte-identical file (same md5), which is published instead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Lewisham Elm",
+   "city": "London",
+   "species": "European White Elm (Ulmus laevis)",
+   "photo": "out/sightings/05aabbc7-f4a1-413e-89b7-75b40bfebe8b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European White Elm (Ulmus laevis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17 (strip): A close-up of the elm's leaves and clusters of fringed seeds; belongs on the page behind the lead, not as the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e4e3b77d-5da9-4872-a0f4-bc083848c181",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Millennium Tree of Balete Park",
+   "city": "Maria Aurora",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/e4e3b77d-5da9-4872-a0f4-bc083848c181.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17 (add): The whole lower trunk of the balete, a towering wall of fused roots on bare ground, full daylight and colour; a wider, clearer frame than the narrow current lead, so it leads and the old one moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e4cabea6-fb02-470f-b13c-7851eb3553bc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Senegalia Galpinii",
+   "city": null,
+   "species": "Senegalia Galpinii",
+   "photo": "p_5238fb7ee873711595db5e1d/E4CABEA6-FB02-470F-B13C-7851EB3553BC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 450,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Senegalia Galpinii"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Winterswijk",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_3e4f572d6989a515e5b7dacd/B465300F-F064-4C38-9FB9-D3FE2E44E2B9.jpg",
+   "reader_note": "It is considered the oldest court tree in Central Europe and has been the first national heritage tree of North Rhine-Westphalia since October 30, 2021.",
+   "reader_girth_cm": 1245,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 3.176,
+    "via": "girth",
+    "note": "318% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
    "hidde": null,
    "agreed": null
   },

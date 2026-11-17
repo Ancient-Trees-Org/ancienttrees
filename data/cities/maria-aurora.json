@@ -52,21 +52,36 @@
       "access": "Park with a small entrance fee (reported 30 pesos plus a 10 peso environmental fee, a 2012 blog says donation only; fee unconfirmed from the owner's own page). Reported open 24 hours. Pay toilets, souvenir stalls, local guides charge extra. Roughly 30 minutes by tricycle from Baler (2012 blog); 7 km from Maria Aurora town proper (search snippet of municipal page).",
       "transport": "No rail. Tricycle or car from Baler town, ~30 min per a 2012 blog; on the Pantabangan-Canili-Basal-Baler Road.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/mra_001-millennium-tree-of-balete-park.jpg",
+        "url": "https://ancienttrees.app/photos/mra_001-millennium-tree-of-balete-park-e4e3b77d.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 656,
+        "width": 1200,
         "height": 1600,
-        "taken_month": 11,
+        "taken_month": 7,
         "source": "contributor",
-        "contributor_user_id": "p_b850abab290eb2c9da2d91b2",
-        "sighting_id": "7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7",
-        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Closes the gap: the whole balete from cage of roots to crown, people at its foot for scale (faces masked), daylight, colour. Species seen: a cage of fused aerial roots rising into a broad fig crown: strangler Ficus. Fits the description: one giant balete standing alone on open ground, the fused-root trunk many times the height of the group in front; GPS on our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_b8baa3b109915ecee6983110",
+        "sighting_id": "e4e3b77d-5da9-4872-a0f4-bc083848c181",
+        "note": "Photographed by a reader and sent through the app (2015-07-31); a viewing pass approved it on 2026-11-17: The whole lower trunk of the balete, a towering wall of fused roots on bare ground, full daylight and colour; a wider, clearer frame than the narrow current lead, so it leads and the old one moves to the strip. Species seen: a strangler fig, trunk made of fused aerial roots. Fits the description: the giant fused-root fig the park is laid out around, park building and bare earth around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",
-      "how_to_recognise": "You can recognise it by the hollow inside its fused roots, big enough to step into. It is the one giant fig the park is laid out around, so there is no neighbour to mistake it for."
+      "how_to_recognise": "You can recognise it by the hollow inside its fused roots, big enough to step into. It is the one giant fig the park is laid out around, so there is no neighbour to mistake it for.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mra_001-millennium-tree-of-balete-park.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 656,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_b850abab290eb2c9da2d91b2",
+          "sighting_id": "7eb23fa8-fecb-455e-bbfc-b3efed0fa4c7",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Closes the gap: the whole balete from cage of roots to crown, people at its foot for scale (faces masked), daylight, colour. Species seen: a cage of fused aerial roots rising into a broad fig crown: strangler Ficus. Fits the description: one giant balete standing alone on open ground, the fused-root trunk many times the height of the group in front; GPS on our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

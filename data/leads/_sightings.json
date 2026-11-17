@@ -5201,6 +5201,64 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "adelaide/ads_003"
+  },
+  {
+   "sighting_id": "e4cabea6-fb02-470f-b13c-7851eb3553bc",
+   "user_id": "p_5238fb7ee873711595db5e1d",
+   "mine": false,
+   "name": "Senegalia Galpinii",
+   "species": "Senegalia Galpinii",
+   "age": null,
+   "girth_cm": 450,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -21.0799461083753,
+   "longitude": 27.4621701707765,
+   "near": null,
+   "photo": "p_5238fb7ee873711595db5e1d/E4CABEA6-FB02-470F-B13C-7851EB3553BC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole tall tree from the sandy riverbed, a bare trunk splitting into great limbs and a wide flat crown of feathery leaves over the green bank, two people wading below for scale, daylight, colour. Live as francistown/frt_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "francistown/frt_001"
+  },
+  {
+   "sighting_id": "b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
+   "user_id": "p_3e4f572d6989a515e5b7dacd",
+   "mine": false,
+   "name": "Pedunculate Oak near Winterswijk",
+   "species": "Pedunculate Oak",
+   "age": "1000",
+   "girth_cm": 1245,
+   "girth_hugs": null,
+   "note": "It is considered the oldest court tree in Central Europe and has been the first national heritage tree of North Rhine-Westphalia since October 30, 2021.",
+   "latitude": 51.745545,
+   "longitude": 6.862275,
+   "near": null,
+   "photo": "p_3e4f572d6989a515e5b7dacd/B465300F-F064-4C38-9FB9-D3FE2E44E2B9.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole oak at dusk from the green, its moss-covered trunk among tall wooden props inside a round picket fence, crown in leaf, lit from behind, colour. Live as raesfeld/rsf_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "raesfeld/rsf_001"
   }
  ]
 }

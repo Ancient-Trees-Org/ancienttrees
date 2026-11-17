@@ -1864,7 +1864,22 @@
         "moved_m": 34,
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_045-the-lewisham-elm-05aabbc7.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_bf0eb996e2b54d6b87dae9bf",
+          "sighting_id": "05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
+          "note": "Photographed by a reader and sent through the app (2025-05-11); a viewing pass approved it on 2026-11-17: A close-up of the elm's leaves and clusters of fringed seeds; belongs on the page behind the lead, not as the lead. Species seen: doubly toothed elm leaves and long-stalked, hairy-fringed samaras of European white elm. Fits the description: a detail of the tree, not the whole tree; fits as a gallery photograph beside the existing lead.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "lon_046",
