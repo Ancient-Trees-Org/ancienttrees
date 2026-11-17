@@ -26,7 +26,7 @@ Subject: Help us test the Android app
 
 Hey,
 
-Thanks for signing up for the Android app. We are working hard on it at the moment and are looking for people to test the first version, so that it can hopefully go live in a couple of weeks.
+Thanks for signing up for the Android app. We are working hard on it at the moment and are looking for people to test the first version. We expect a live version in 3 to 4 weeks.
 
 You can sign up to be a tester here, with the Google account of this email address:
 [OPT-IN LINK]
