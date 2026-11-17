@@ -2715,6 +2715,56 @@
    "agreed": null
   },
   {
+   "id": "sight:4bc25502-4712-4388-ab52-97d23703d9fe",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The St Paul's Churchyard Planes",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/4bc25502-4712-4388-ab52-97d23703d9fe.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "A tall London plane in autumn leaf behind the St Paul's churchyard railings, GPS 30 m from our pin; species and setting match. First photograph of lon_011, pin now confirmed by the fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0ba575c4-d0b6-4503-b903-7bdc37a45c52",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Queen Elizabeth’s Oak in Greenwich Park",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_8b86d4aa9a803a2e23ac0f7a/0BA575C4-D0B6-4503-B903-7BDC37A45C52.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "hold",
+   "reason": "dead: Queen Elizabeth's Oak in Greenwich Park is a fallen hollow trunk (the reader's photo and the Royal Parks board they also photographed say so). A fallen trunk never ships; retired from London on 2026-07-27 for the same reason.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",

@@ -4299,6 +4299,22 @@
    "date": "2026-11-17",
    "tree_id": "lon_001",
    "reason": "wrong_subject: a portrait of a child smiling from inside the foliage; the yew's trunk is hidden behind needles and nothing in the frame shows the tree itself."
+  },
+  "0ba575c4-d0b6-4503-b903-7bdc37a45c52": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "dead: the photograph shows Queen Elizabeth's Oak as it is now, a fallen hollow trunk lying in leaf litter inside its railings in Greenwich Park; the reader's second photo, the Royal Parks board, says it died many years ago. A fallen trunk never ships (CLAUDE.md, alive only); we retired it on 2026-07-27 for the same reason and lon_005, the Greenwich Park sweet chestnut, stands for that corner."
+  },
+  "4bc25502-4712-4388-ab52-97d23703d9fe": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lon_011",
+   "city_slug": "london",
+   "file": "lon_011-the-st-paul-s-churchyard-planes.jpg",
+   "reason": "A tall London plane in full autumn leaf, trunk and crown in daylight, standing behind the churchyard railings with City office blocks behind; the reader's GPS fix is 30 m from our pin. It closes the gap: the planes had no photograph. Species seen: mottled, flaking plane bark on a tall clean trunk; p",
+   "lat": 51.5142428816425,
+   "lon": -0.0978480564640901,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

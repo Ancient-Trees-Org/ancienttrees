@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the St Paul's Churchyard Planes get their first photograph; Queen Elizabeth's Oak held as fallen
+
+- **lon_011, The St Paul's Churchyard Planes** (London): a reader's photograph is the tree's first. It shows a tall plane in autumn leaf behind the churchyard railings, and its GPS fix is 30 m from our pin. The species and the setting match. The pin moved to the reader's fix and is now confirmed. They got the "it's on the page" mail.
+- **Report 1000071** (a pin move on the same planes, 43 m from the old approximate pin): the reader's spot is about 13 m from the photograph's fix, so the pin already sits where they pointed. Closed with the standard pin thank-you.
+- **Queen Elizabeth's Oak, Greenwich Park** (a new tree from the app): held as `dead`. The photograph shows the fallen, hollow trunk lying inside its railings. The reader's second photograph, the Royal Parks board, says it "died many years ago". A fallen trunk never ships, and we retired it from London on 2026-07-27 for the same reason (lon_005, the sweet chestnut, stands for that corner of the park).
+- No general feedback was waiting, and reader_words had nothing to quote.
+
 ## 2026-11-17 reader judge: the Darley Dale yew tip becomes a lead
 
 - **Feedback 1075** (a tree tip from the app): an ancient yew at St Helen's Church, Darley Dale, which the reader says is thought to be 2000 years old. We don't map it yet. It is now a lead in data/leads/_famous-united-kingdom.json, waiting for a verify pass (no pin or source yet), and its ledger row is `handled`.

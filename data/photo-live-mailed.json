@@ -1824,6 +1824,21 @@
     }
    ],
    "sent": []
+  },
+  "p_da68887efbcb3708dd151f6f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "4bc25502-4712-4388-ab52-97d23703d9fe",
+     "tree_id": "lon_011",
+     "tree_name": "The St Paul's Churchyard Planes",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

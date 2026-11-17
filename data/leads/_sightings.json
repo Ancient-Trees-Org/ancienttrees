@@ -5554,6 +5554,37 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "mangaluru/mlr_001"
+  },
+  {
+   "sighting_id": "0ba575c4-d0b6-4503-b903-7bdc37a45c52",
+   "user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+   "mine": false,
+   "name": "Queen Elizabeth’s Oak in Greenwich Park",
+   "species": "Pedunculate Oak",
+   "age": "700",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 51.4780666666667,
+   "longitude": 0.00186111666666667,
+   "near": null,
+   "photo": "p_8b86d4aa9a803a2e23ac0f7a/0BA575C4-D0B6-4503-B903-7BDC37A45C52.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/0ba575c4-d0b6-4503-b903-7bdc37a45c52-extra-1.jpg"
+   ],
+   "nearest_published_m": 266,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "dead: the photograph shows Queen Elizabeth's Oak as it is now, a fallen hollow trunk lying in leaf litter inside its railings in Greenwich Park; the reader's second photo, the Royal Parks board, says it died many years ago. A fallen trunk never ships (CLAUDE.md, alive only); we retired it on 2026-07-27 for the same reason and lon_005, the Greenwich Park sweet chestnut, stands for that corner.",
+   "seen": "2026-11-17",
+   "hold": "dead",
+   "judged": "2026-11-17"
   }
  ]
 }
