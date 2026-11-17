@@ -17,6 +17,7 @@
 package app.ancienttrees.ui
 
 import androidx.compose.foundation.background
+import androidx.compose.ui.draw.shadow
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -75,7 +76,14 @@ private val ITEMS = listOf(
 @Composable
 fun TabBar(selected: Int, select: (Int) -> Unit, collect: () -> Unit, modifier: Modifier = Modifier) {
     val brand = Brand.colors
-    Column(modifier.fillMaxWidth().background(brand.ground)) {
+    // Polarsteps' soft line over the bar (measured on the Samsung: 4 px fading from
+    // the page to white), so the list ends against the menu instead of running into it.
+    Column(
+        modifier
+            .fillMaxWidth()
+            .shadow(3.dp, androidx.compose.ui.graphics.RectangleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.08f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.08f))
+            .background(brand.ground),
+    ) {
         Row(Modifier.fillMaxWidth().height(TabBar.HEIGHT), verticalAlignment = Alignment.CenterVertically) {
             ITEMS.forEachIndexed { i, item ->
                 val on = i == selected
@@ -96,11 +104,10 @@ fun TabBar(selected: Int, select: (Int) -> Unit, collect: () -> Unit, modifier: 
                 onClick = collect,
             )
         }
-        // The system's buttons stand on their own ground, a shade off the bar's, so the
-        // app's menu ends where Android's begins (Hidde on his Samsung, 2026-11-17: "het
-        // menu van de app trekt te ver naar beneden door"; one white block read as one
-        // menu running under the other).
-        Spacer(Modifier.fillMaxWidth().background(brand.surfaceMuted).windowInsetsBottomHeight(WindowInsets.navigationBars))
+        // ONE WHITE GROUND UNDER THE SYSTEM'S BUTTONS, as Polarsteps and AllTrails have it
+        // on Hidde's Samsung (2026-11-17): a grey strip there read as our menu cutting
+        // through Android's.
+        Spacer(Modifier.fillMaxWidth().windowInsetsBottomHeight(WindowInsets.navigationBars))
     }
 }
 
