@@ -886,6 +886,44 @@ fun OwnPhoto(s: OwnSighting, mine: MyTrees, modifier: Modifier = Modifier, maxSi
         Box(modifier) { none() }
         return
     }
+    // A TILE TAKES THE SHARED SMALL COPY FIRST (Hidde, 2026-11-17: My trees "duurt erg
+    // lang bij een open, bij iOS nooit"): every sighting is shared from the start, so
+    // its 600 px copy is public, and RemoteImage keeps it in the photo cache on the
+    // phone; the full private photograph, fetched with your token, only when the
+    // small copy is not made yet. The iPhone reads its own files off the phone.
+    if (maxSide <= 600) {
+        val shared = app.ancienttrees.account.Supa.URL_BASE + "/storage/v1/object/public/shared-sightings/" +
+            path.split("/").joinToString("/") { java.net.URLEncoder.encode(it, "UTF-8").replace("+", "%20") }
+        val thumb = shared.replace("/object/public/shared-sightings/", "/object/public/shared-thumbs/")
+        val key = "$path@$maxSide"
+        val picture by produceState(ownPhotos.get(key), key) {
+            value = ownPhotos.get(key)
+            if (value == null) {
+                value = (ImageStore.image(thumb, urgent = true) ?: ImageStore.image(shared, urgent = true))
+                    ?.also { ownPhotos.put(key, it) }
+            }
+        }
+        var shared404 by remember(key) { mutableStateOf(false) }
+        LaunchedEffect(key) {
+            // Neither public copy answered within a few seconds: the private photograph.
+            kotlinx.coroutines.delay(4000)
+            if (picture == null) shared404 = true
+        }
+        val b = picture
+        when {
+            b != null -> Image(b.asImageBitmap(), null, contentScale = ContentScale.Crop, modifier = modifier)
+            shared404 -> PrivatePhoto(path, mine, modifier, maxSide)
+            else -> Box(modifier.background(brand.surfaceMuted))
+        }
+        return
+    }
+    PrivatePhoto(path, mine, modifier, maxSide)
+}
+
+/** Your photograph from the private bucket, with your token, decoded to [maxSide]. */
+@Composable
+private fun PrivatePhoto(path: String, mine: MyTrees, modifier: Modifier, maxSide: Int) {
+    val brand = Brand.colors
     val key = "$path@$maxSide"
     val bitmap by produceState(ownPhotos.get(key), key) {
         // A REUSED TILE NEVER KEEPS THE PREVIOUS TREE'S PICTURE (RemoteImage's rule):
