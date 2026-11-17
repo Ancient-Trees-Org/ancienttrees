@@ -3418,15 +3418,15 @@
    "pin_checked": "2026-11-17"
   },
   "ee54ed84-91e8-40be-ade6-0552be80dc9a": {
-   "outcome": "published",
+   "outcome": "held",
    "date": "2026-11-17",
    "tree_id": "lax_017",
    "city_slug": "los-angeles",
-   "file": "lax_017-the-huntington-montezuma-cypress.jpg",
-   "reason": "daylight, tree fills frame Species seen: tall conifer-like cypress, dense dark crown, rose garden pergola. Fits the description: tall columnar tree in the rose garden; flag at right.",
+   "reason": "wrong_tree, found on reader report 1000061 (2026-11-17): the same picture the reader sent for lax_011, byte for byte; it shows the Queensland kauri (broad leaves, orange flaking trunk, the champion sign at its foot), not a Montezuma cypress. Taken off lax_017; the kauri keeps it.",
    "lat": 34.126525,
    "lon": -118.113891666667,
-   "pin_checked": "2026-11-17"
+   "pin_checked": "2026-11-17",
+   "hold": "wrong_tree"
   },
   "9117fbb4-62bc-4fba-9e7d-a8f165614ba8": {
    "outcome": "published",

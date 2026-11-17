@@ -275,8 +275,8 @@
    "species": null,
    "photo": "out/sightings/ee54ed84-91e8-40be-ade6-0552be80dc9a.jpg",
    "reader_note": "",
-   "verdict": "publish",
-   "reason": "daylight, tree fills frame (looked at the photograph, 2026-11-17)",
+   "verdict": "hold",
+   "reason": "wrong_tree, found on reader report 1000061 (2026-11-17): the same picture the reader sent for lax_011, byte for byte; it shows the Queensland kauri (broad leaves, orange flaking trunk, the champion sign at its foot), not a Montezuma cypress. Taken off lax_017; the kauri keeps it.",
    "hidde": null,
    "agreed": null,
    "shown": [
