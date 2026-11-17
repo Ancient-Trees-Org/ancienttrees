@@ -44,6 +44,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" />
                 <data android:host="ancienttrees.app" />
+                <!-- The site's "Open in app" button (site-config OPEN_APP_URL), as the
+                     iPhone claims applinks:open.ancienttrees.app. -->
+                <data android:host="open.ancienttrees.app" />
             </intent-filter>
         </activity>
         <provider

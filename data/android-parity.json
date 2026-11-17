@@ -15,7 +15,7 @@
     },
     {
       "what": "Sign in",
-      "why": "Continue with Apple and Continue with Google open in a Custom Tab, Supabase's ordinary OAuth redirect, the website's route; the iPhone shows Apple's own sheet for Apple and ASWebAuthenticationSession for Google. Same pills, words, order and account."
+      "why": "Continue with Apple and Continue with Google open in a Custom Tab, Supabase's ordinary OAuth redirect, the website's route; the iPhone shows Apple's own sheet for Apple and ASWebAuthenticationSession for Google. Same pills and words; the order is Google, email, then Apple, the platform's own sign-in first (Hidde, 2026-11-17) and account."
     },
     {
       "what": "Status and navigation bars",
@@ -398,9 +398,7 @@
   },
   "photo-viewer": {
     "status": "parity",
-    "differences": [
-      "Delete photo (for your own photographs) comes with My trees (session 4)."
-    ],
+    "differences": [],
     "owner": null
   },
   "collect-intro": {
@@ -734,8 +732,7 @@
     "differences": [
       "Move the pin and Merge with another tree are not in its menu yet. Both screens are ported now (PlacePin.kt, MergeChooser.kt) and sit in the draft's menu; own-tree still needs the account passed in and the server fold (Sightings.fold: tree_id and name on the sighting).",
       "Naming the species uses the map's species picker, not SpeciesChooser (species-pick, not ported).",
-      "The hero keeps a 3:4 portrait shape for every photograph; the iPhone takes the photograph's own shape.",
-      "Share sends the link only; the iPhone also hands on a drawn share card (ShareCard.swift)."
+      "The hero keeps a 3:4 portrait shape for every photograph; the iPhone takes the photograph's own shape."
     ],
     "spacing_allowed": [
       {
@@ -896,8 +893,7 @@
     "differences": [
       "Pull to refresh on Find people loads who you follow and Suggested again (Material's pull to refresh, People.swift RefreshableWhen); Followers and Following keep still, as on the iPhone.",
       "Blocked people are held in memory and read back from the server's blocks table; the iPhone also keeps the list on the phone (hard rule 11 on Android).",
-      "Share your profile opens Android's share sheet (forced).",
-      "A person's own tree on their profile (2026-11-12) opens its shared page in the browser, as a shared-tree link already does on Android: the app has no SharedTreeView yet. The iPhone opens it in the app (Route.shared). The Approved capsule, the own tiles and their order match."
+      "Share your profile opens Android's share sheet (forced)."
     ],
     "owner": null,
     "spacing_allowed": [

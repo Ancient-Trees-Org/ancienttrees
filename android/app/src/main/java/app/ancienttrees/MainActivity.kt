@@ -95,11 +95,12 @@ class MainActivity : ComponentActivity() {
         app.ancienttrees.feed.CataloguePreload.start(applicationContext)
         // Photographs on disk between launches (RemoteImage.kt, the iPhone's ImageStore.prepareCache).
         app.ancienttrees.ui.ImageStore.prepareCache(applicationContext)
-        // Kilometres or miles, for every distance on screen (Units.now).
-        app.ancienttrees.ui.Units.load(applicationContext)
         link = intent?.data
         launch = LaunchArgs.from(intent, applicationInfo)
         launch.locale?.let { java.util.Locale.setDefault(it) }
+        // Kilometres or miles, for every distance on screen (Units.now), after the
+        // launch's locale so the parity frames read km as the iPhone's do.
+        app.ancienttrees.ui.Units.load(applicationContext)
         setContent {
             // A new set of launch arguments starts the screen afresh (debug builds only).
             androidx.compose.runtime.key(launch) {
@@ -561,7 +562,14 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     LaunchedEffect(showingCover) {
         if (showingCover) return@LaunchedEffect
         kotlinx.coroutines.delay(500)
-        if (!granted && launch.at == null) askLocation()
+        // ASKED ONCE, as the iPhone asks only while the answer is .notDetermined: after
+        // a "Don't allow" every cold start asked again (round 3, 2026-11-17). The
+        // recovery sheet in Settings is the way back. A device setting, not a person's.
+        val prefs = context.getSharedPreferences("device", android.content.Context.MODE_PRIVATE)
+        if (!granted && launch.at == null && "-no-location-ask" !in launch.args && !prefs.getBoolean("location_asked", false)) {
+            prefs.edit().putBoolean("location_asked", true).apply()
+            askLocation()
+        }
     }
     // Back from Settings with location turned on.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { granted = locationGranted(context) }

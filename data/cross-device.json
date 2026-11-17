@@ -169,5 +169,10 @@
     "verdict": "device",
     "why": "The Android twin of exit.foreground.v1 (account/ExitWatch.kt): the time of the newest process exit already reported as app_exit_abnormal, so none is sent twice (Hidde, 2026-11-16, \"Ja, uitzoeken\"). The app's own bookkeeping, not something a person did.",
     "off": "Nothing: a timestamp on this install, gone with the app."
+  },
+  "android:device/location_asked": {
+    "verdict": "device",
+    "why": "Whether this install has asked for location once (MainActivity, 2026-11-17): the iPhone asks only while the system answer is notDetermined; Android's permission state cannot tell never-asked from a refusal, so the app keeps that one fact. Not something a person did.",
+    "off": "Nothing: a flag on this install, gone with the app."
   }
 }
