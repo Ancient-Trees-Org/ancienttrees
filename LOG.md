@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: the Bristol FAQ no longer dates the Domesday Oak to 1086
+
+- **What changed**: Bristol's FAQ context said the Tree Council believes the Domesday Oak was growing when the Domesday Book was made, beside its 700-year estimate. It now says the name comes from the estate's Domesday entry, not the tree's age, matching the story fixed on 11-16 (submission 935) and today's answer to report "something else" on the same point.
+
 ## 2026-11-17 reader judge: a sprawling Valley Forge sycamore goes live, three held, five reports closed
 
 - **New tree**: valley-forge/vfg_001, The Sprawling Sycamore of Pawling Farm (Valley Forge National Historical Park, Pennsylvania). The reader's photograph shows pale, mottled limbs that lie along the lawn and climb back up; daylight, GPS fix. The pin follows the finder's own 56 m move onto the trunk (report 1000069, standard pin thanks). Their 650 cm, 260 to 285 years and 42 m spread stay theirs in the story. It is a new one-tree place with intro, question texts and three FAQ, and it is in data/us-states.json as Pennsylvania.
