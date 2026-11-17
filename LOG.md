@@ -32,6 +32,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - Hidde asked what happened to an app submission about the Kastanologos chestnut forest on Mount Ochi, Evia (2026-11-16): nothing. Text only, no photograph, so no sighting row, and the reader judge never saw it.
 - Verdict: the pinned trunk is held as `dead` (the reader's own words), filed in data/leads/_sightings.json and data/judgements.json. The living forest is a lead in data/leads/karystos.json (ochi.gr, Reforest'Action, Enel: ~60 ha, 200 to 450 years), waiting for one living trunk with a photo or GPS fix.
 - Reply drafted, drafts/reply-reader-936-2026-11-17.md (mailcheck clean), asks for their favourite living chestnut there. For Hidde: goes as reply_text with outcome `holds` on his yes.
+- Reply sent on Hidde's yes: queued as reply_text with outcome `open_question` on submission 936 (dry run passes mailcheck); the next knock's contributor_reply.py mails it.
 - New rule (Hidde, same day): a standing dead tree still worth the detour ships with a photograph showing it standing and a page that says it is dead; never a stump or fallen trunk (CLAUDE.md "Selection", BRIEF_READER_JUDGE.md). The Ochi reply now asks only for a photo of their dead chestnut.
 - Breakage: a tree submission without a photograph gets no verdict (937 Cape Town fig and 939 Tsitsikamma from the web form also sit unjudged). Recorded as an escaped bug (escaped.py), rung-2 work.
 
