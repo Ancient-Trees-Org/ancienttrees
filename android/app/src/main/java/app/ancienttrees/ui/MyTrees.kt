@@ -239,10 +239,25 @@ private fun MyTreesInner(
         )
         maxOf(m * 1.4, 1200.0)
     }
-    val frame = remember(centre.lat, centre.lng, span) {
-        val dLat = span / 2 / 111_320.0
-        val dLng = span / 2 / (111_320.0 * kotlin.math.cos(Math.toRadians(centre.lat))).coerceAtLeast(1.0)
-        MoveRequest(System.nanoTime(), ViewBox(centre.lat - dLat, centre.lng - dLng, centre.lat + dLat, centre.lng + dLng))
+    // FIT THE TREES THEMSELVES (TreeMap fitsTrees on the iPhone): around the centre
+    // a square of the span missed trees on another continent (Hidde's collection from
+    // Lisbon to Japan opened on Asia with one pin, 2026-11-17), so the box is the
+    // trees' own bounds with a fifth of air on each side, never under the span's
+    // 1200 m floor. Nothing yet: the 3000 m around where you are, as before.
+    val frame = remember(centre.lat, centre.lng, span, points.size) {
+        val box = if (shows && points.isNotEmpty()) {
+            val loLat = points.minOf { it.first }; val hiLat = points.maxOf { it.first }
+            val loLng = points.minOf { it.second }; val hiLng = points.maxOf { it.second }
+            val minLat = 1200.0 / 111_320.0
+            val padLat = maxOf((hiLat - loLat) * 0.2, minLat / 2)
+            val padLng = maxOf((hiLng - loLng) * 0.2, minLat / 2 / kotlin.math.cos(Math.toRadians(centre.lat)).coerceAtLeast(0.01))
+            ViewBox(loLat - padLat, loLng - padLng, hiLat + padLat, hiLng + padLng)
+        } else {
+            val dLat = span / 2 / 111_320.0
+            val dLng = span / 2 / (111_320.0 * kotlin.math.cos(Math.toRadians(centre.lat))).coerceAtLeast(1.0)
+            ViewBox(centre.lat - dLat, centre.lng - dLng, centre.lat + dLat, centre.lng + dLng)
+        }
+        MoveRequest(System.nanoTime(), box)
     }
     val ownAsTrees = remember(mine.version, shows) { ownTrees.associate { s -> s.asTree().id to s } }
     val mapTrees = visited + ownAsTrees.values.map { it.asTree() }
