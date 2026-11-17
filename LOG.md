@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (fourth pass): the ledger caught up, sixteen tips left for a session
+
+- **Rhodes Bald Cypress (bng_001)**: judged the same snow photograph as the third pass, same verdict; theirs kept. Added only the season: no date in the file and deep snow in frame, so `taken_month` 1 with the basis recorded (it said 11, the upload month).
+- **Ledger catch-up**: five reader leads held earlier today (four `not_special`, one `bad_frame`) and tip:944 (the Sagole Baobab, already sgl_001) had their verdict in the lead files but not in data/judgements.json; now recorded there.
+- **Left open, on purpose (session work, beyond this run's 20 minutes)**: 16 tips without a photograph still have no verdict, most of them famous, sourced trees that should ship: Oliveira do Mouchão (850, Wikipedia), Cat Island bald cypress (906, press link), Castagno Miraglia (970, already a held lead in _famous-italy.json for want of a pin; the reader sent a Maps link), Tsitsikamma Big Tree (939), Arderne Gardens fig (937), Nossob camel thorn (943), Alerce Costero Fitzroya (1032), three Heidelberg trees (1061 to 1063, Maps links), the Ho Chi Minh City banyan (1065), the Lusnizza oak (802, the reader's own figures), and the photo-less app trees 691, 707, 755 and 885. They need sources and pins, and stay on the late alarm rather than being filed as "lead".
+- No open reports, no unjudged feedback, no readers' notes left to quote. The 37 older `mine` leads are our own account's and were left alone.
+
 ## 2026-11-17 reader judge (third pass, merged onto the second): three more reader photos go up
 
 - A parallel pass judged the same queue and published El Sargento, the Glasnevin cedar and the Chiang Mai fig first. Its versions stand, and this pass's copies were dropped in the merge. Its Azores hold (abb593f0, `doubt_location`) also stands.
