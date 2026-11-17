@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: Google Play listing set up, nothing uploaded yet
+
+- **Play Console, with Hidde**: phone verified on his Samsung (Play Console app), app created (`app.ancienttrees.android`, en-GB, free). All eleven setup tasks done: privacy policy, sign-in details, ads, content rating, audience 16+, Data safety (crash logs added, PostHog since 11-16), government, financial, health, category Travel & Local, contact info@ancienttrees.app and https://ancienttrees.app.
+- **Reviewer account**: Google's reviewers may not create accounts, so Hidde made a Gmail for them and its Supabase account exists (profile private, in data/our-accounts.json, so it never counts as a reader). Its address and password are in Play Console > Sign-in details only.
+- **Store listing in nine languages** (en-GB, en-US, nl, de, fr, es, it, pt-PT, ja): the iPhone's name and text, plus one paragraph and a longer season line that carry the iOS keyword field, because Play has no keyword field and indexes the description (drafts/play-store-listing.md). Icon and feature graphic labelled as made with AI (Hidde: the logo tree is AI-made).
+- **Screenshots**: scripts/play_frames.py dresses the Android screens like the App Store's (cream ground, his captions, his opener photo, an Android phone running off the bottom, 1080x1920). Five panels on Play. The screens themselves are from 2026-11-11: play_shots.py could not run today (his Samsung and two emulators attached, one in use by the debugging session); retake before production.
+- **Status**: everything "ready to send for review"; nothing is public until a release goes out. **Next**: rebuild the .aab with today's fixes, upload to the closed test (Google-generated signing key), then the Play App Signing SHA-256 into assetlinks.json. Testers: 1 of 12 (`python3 scripts/android_testers.py`).
+
 ## 2026-11-17 daily publish
 
 - **Daily publish: queue empty.** The two builders newer than the last check (build_write_2026_11_17, ten app-only trees; build_reader_trees_2026_11_17, eleven reader trees) are already on main, and neither counts against the pace. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
