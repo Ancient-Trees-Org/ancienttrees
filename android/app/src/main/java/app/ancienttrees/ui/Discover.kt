@@ -1246,5 +1246,3 @@ private fun SpeciesIndexRow(name: String, count: Int, onClick: () -> Unit) {
         Text("$count", fontSize = 15.sp, color = brand.inkSoft)
     }
 }
-
-}
