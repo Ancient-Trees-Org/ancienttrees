@@ -113,7 +113,7 @@ private fun RowScope.BarItem(title: String, glyph: ImageVector, on: Boolean, rol
             .fillMaxHeight()
             .clickable(role = role, onClick = onClick),
     ) {
-        Icon(glyph, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
+        Icon(glyph, contentDescription = null, tint = tint, modifier = Modifier.size(26.dp)) // AllTrails' glyph weight, measured on Hidde's Samsung (2026-11-17)
         Spacer(Modifier.height(4.dp))
         Text(title, fontSize = 12.sp, fontWeight = if (on) FontWeight.SemiBold else FontWeight.Medium, color = tint, maxLines = 1)
     }

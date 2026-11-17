@@ -361,7 +361,7 @@ private fun MyTreesInner(
         }
 
         // POLARSTEPS' GEAR: it never leaves, and fills in as the list becomes the page.
-        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (10f * (1f - sheet.pageProgress)).dp, end = 16.dp)) // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
+        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (12f * (1f - sheet.pageProgress)).dp, end = 16.dp)) // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
     }
 }
 
@@ -371,7 +371,7 @@ private fun SettingsGear(progress: Float, onClick: () -> Unit, modifier: Modifie
     val label = stringResource(R.string.mt_settings)
     Box(
         modifier
-            .size(44.dp)
+            .size(40.dp) // Polarsteps' 39 on Hidde's Samsung (2026-11-17), centre on the same line
             // iOS 26's white circle with its soft shadow (visual review 2026-11-11).
             .shadow(8.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f))
             .clip(CircleShape)
