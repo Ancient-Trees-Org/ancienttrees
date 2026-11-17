@@ -4375,13 +4375,15 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "mkn_003",
-   "city_slug": "milton-keynes"
+   "city_slug": "milton-keynes",
+   "pin_checked": "2026-11-17"
   },
   "4ea907d1-6637-4070-aa8a-9a9d66a71f91": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "mkn_003",
-   "city_slug": "milton-keynes"
+   "city_slug": "milton-keynes",
+   "pin_checked": "2026-11-17"
   },
   "e7f5f503-48a4-457e-bd7d-1cedae177b2d": {
    "outcome": "added",
@@ -4416,6 +4418,14 @@
    "date": "2026-11-17",
    "tree_id": "sev_009",
    "reason": "Photograph viewed: an all-black frame, no tree visible, taken in the Netherlands nearly 1,900 km from Seville by one of our own accounts (a test). Bad frame."
+  },
+  "7b889995-25da-415c-8c05-afc5a69bfe79": {
+   "outcome": "held",
+   "date": "2026-11-17"
+  },
+  "c4a7a901-5433-4336-8cd7-e4317741aa2e": {
+   "outcome": "published",
+   "date": "2026-11-17"
   },
   "245ad026-de3b-4672-ad13-169d734721ea": {
    "outcome": "published",

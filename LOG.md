@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (tenth pass): a many-stemmed pine opens Quito
+
+- **New tree, quito/uio_001, The Many-Stemmed Pine of La Pradera** (sighting c4a7a901): a pine that splits low into five or more straight stems and rises into one tall crown at the pavement edge. A second frame looks up the stems and is in the strip. The species (Monterey pine) and the 450 cm girth are the reader's, stated as theirs. While adding the tree, the reader moved its pin 91 m south of the app's fix, which had landed on an apartment block, to La Pradera street by the FLACSO campus. We took their placement because it is their own tree, kept it `approximate`, and recorded the site from OpenStreetMap. Quito is a new one-tree place: it has its intro, question fields and three FAQ, and no place page.
+- **Held `not_special`: the orange tree beside it** (7b889995): a healthy, ordinary street orange in fruit. The pine behind it is the tree worth the walk, and that one is now live.
+- **Reports 1000073 and 1000074** were the pin moves the same reader made while adding those two trees. Both are closed `holds` with no mail, per the brief: their congratulation comes with the tree.
+- **Geneva**: this run judged the same two photographs as the ninth pass, which pushed first, so its version stands. On top of it, the two colon sentences in gen_019 are now also rewritten in the French overlay.
+- No feedback was open, and reader_words found nothing. **Still open**: the 16 photo-less tips from the fourth pass.
+
 ## 2026-11-17 reader judge (ninth pass): first photographs for the Geneva cedar and plane
 
 - **geneva/gen_019, the Himalayan Cedar, and geneva/gen_012, the Sécheron Plane**: one reader photographed both at dusk by the lake, 39 m and 28 m from our pins. Neither page had a photograph, so these now lead. Two colon reveals in gen_019's story were rewritten, because the check reads a page once it has a photo. The pin catch-up hit an HTTP error, so the next knock moves the pins. The reader's "it is on the page" mail is pending in data/photo-live-mailed.json.

@@ -1,0 +1,86 @@
+{
+  "city": "Quito",
+  "country": "Ecuador",
+  "status": "needs_curation",
+  "intro": "Quito spreads along a high Andean valley at about 2,850 metres, and its northern districts grew up in the twentieth century among planted pines and eucalyptus. In La Pradera, by the FLACSO campus, a reader found a pine that splits into five or more straight stems rising together into one tall crown, and sent us its photographs. We do not yet know its age.",
+  "meta_description": "A many-stemmed pine on La Pradera street in Quito, photographed by a reader: where it stands and what we know so far.",
+  "hero_tree_id": "uio_001",
+  "oldest_tree_id": "uio_001",
+  "trees": [
+    {
+      "id": "uio_001",
+      "name": "The Many-Stemmed Pine of La Pradera",
+      "species": "Monterey Pine (Pinus radiata)",
+      "location": {
+        "address": "La Pradera street, by the FLACSO campus, Iñaquito, Quito",
+        "latitude": -0.196158,
+        "longitude": -78.484839,
+        "neighbourhood": "La Pradera"
+      },
+      "story": "A reader walking through La Pradera, in the north of Quito, stopped at this pine and sent us two photographs of it, one of the whole tree and one looking straight up its trunk.\n\nWhat makes it worth the stop is the shape. Most pines keep to one stem. This one splits low down into five or more, each as straight as a mast and as thick as a good tree on its own, and they climb side by side, fused at the base and held together by crossing limbs, into one tall, dense crown that towers over the street sign and the parked cars below. The bark is grey and broken into plates, green with moss in the cool mountain air, and long needles hang in tufts from the lower branches.\n\nThe reader knows it as a Monterey pine, the Californian tree that was planted across the Andes, and they put the girth at about 450 centimetres. Those are their figures; we have not seen a measurement or any record of when it was planted. If you know this tree, or what the people of the street call it, tell us here.\n\nStand under it and look up through the stems, the way the reader did.",
+      "how_to_recognise": "On the pavement edge in La Pradera: one dark trunk splitting into five or more straight stems that rise together into a tall dense crown, a street sign and a small roofed notice board at its foot.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/1098153671 (OpenStreetMap: Facultad Latinoamericana de Ciencias Sociales (FLACSO), La Pradera E7-174, Iñaquito, Quito, the site where the reader placed the tree)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "c4a7a901-5433-4336-8cd7-e4317741aa2e",
+        "date": "2026-11-17"
+      },
+      "access": "Seen from the street; the reader photographed it from the pavement. We have not confirmed whether the ground it stands on is open.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader placed the pin by hand",
+        "sighting_id": "c4a7a901-5433-4336-8cd7-e4317741aa2e",
+        "report": "1000073/1000074",
+        "moved_m": 91,
+        "date": "2026-11-17",
+        "note": "The reader added this tree and, while adding it, moved the pin 91 m south of the app's location (which fell on an apartment block on Mariano Aguilera) to La Pradera street by the FLACSO campus; they moved their orange tree beside it the same way. Their own tree, so their placement is taken, approximate because nothing fixes it to the trunk."
+      },
+      "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (c4a7a901-5433-4336-8cd7-e4317741aa2e), named 'Monterey Pine', girth 450 cm, no note, with a second frame of the stems. Photographs viewed: the whole multi-stemmed pine from the pavement, five or more straight stems rising from one dark trunk into a tall dense crown, a street sign and a notice board at its foot, parked cars along the street, daylight, colour; a second frame looks up the stems, grey plated bark with moss. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Species and girth are the reader's; no source found or sought in this window. Pin: the reader's hand placement (reports 1000073 and 1000074, made while adding), reverse-geocoded by OpenStreetMap to La Pradera E7-174, FLACSO; the notice board and solar canopy in the picture fit a campus edge. Approximate: the app's location fix stood 91 m north.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/uio_001-many-stemmed-pine-of-la-pradera.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_6804e2228a1a20c1cd488fa6",
+        "sighting_id": "c4a7a901-5433-4336-8cd7-e4317741aa2e",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); viewed and approved on 2026-11-17: the whole multi-stemmed pine from the pavement, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/uio_001-many-stemmed-pine-of-la-pradera-stems.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_6804e2228a1a20c1cd488fa6",
+          "sighting_id": "c4a7a901-5433-4336-8cd7-e4317741aa2e",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); viewed and approved on 2026-11-17: looking up the fused stems, grey plated bark with moss, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "A many-stemmed pine on La Pradera street in Quito, photographed by a reader: where it stands and what we know so far.",
+  "question_answer": "The Many-Stemmed Pine of La Pradera stands at the pavement edge on La Pradera street, by the FLACSO campus in Iñaquito, north Quito. It is seen from the street.",
+  "question_context": "A reader walking through La Pradera, a neighbourhood of Iñaquito in the north of Quito, sent us two photographs of this pine. It stands at the edge of the pavement on La Pradera street, by the campus of FLACSO, the Latin American social sciences faculty, with a street sign and a small roofed notice board at its foot. What makes it worth the stop is its shape: where most pines keep to a single stem, this one splits low down into five or more, each straight as a mast, fused at the base and bound together by crossing limbs, and they rise side by side into one tall, dense crown above the parked cars. The bark is grey and broken into plates, green with moss in the mountain air. The reader knows it as a Monterey pine, the Californian species planted widely in the Andes, and puts its girth at about 450 centimetres. Those figures are theirs: we have no measurement of our own and no record of when it was planted. It is seen from the street, and our pin is where the reader placed it.",
+  "faq": [
+    {
+      "q": "Where is the Many-Stemmed Pine of La Pradera?",
+      "a": "On La Pradera street by the FLACSO campus, in Iñaquito in the north of Quito."
+    },
+    {
+      "q": "How old is the pine of La Pradera?",
+      "a": "We do not know yet. If you know when it was planted, tell us on its page."
+    },
+    {
+      "q": "Can I visit the pine of La Pradera?",
+      "a": "Yes. It is seen from the street, at the edge of the pavement."
+    }
+  ]
+}

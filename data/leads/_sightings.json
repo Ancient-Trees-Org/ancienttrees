@@ -5946,6 +5946,68 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "milton-keynes/mkn_003"
+  },
+  {
+   "sighting_id": "7b889995-25da-415c-8c05-afc5a69bfe79",
+   "user_id": "p_6804e2228a1a20c1cd488fa6",
+   "mine": false,
+   "name": "Orange",
+   "unsure_among": null,
+   "species": "Orange (Citrus sinensis)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -0.195843932816445,
+   "longitude": -78.4854264682574,
+   "near": null,
+   "photo": "p_6804e2228a1a20c1cd488fa6/7B889995-25DA-415C-8C05-AFC5A69BFE79.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a rounded orange tree in fruit at a street corner, a no-parking sign in front, the big many-stemmed pine (now quito/uio_001) rising behind it, daylight. A healthy ordinary street orange, nothing old, big or unusual about it; the pine behind it is the tree, and it is live.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "hold": "not_special"
+  },
+  {
+   "sighting_id": "c4a7a901-5433-4336-8cd7-e4317741aa2e",
+   "user_id": "p_6804e2228a1a20c1cd488fa6",
+   "mine": false,
+   "name": "Monterey Pine",
+   "unsure_among": null,
+   "species": "Monterey Pine",
+   "age": null,
+   "girth_cm": 450,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -0.195357133503101,
+   "longitude": -78.4850095008498,
+   "near": null,
+   "photo": "p_6804e2228a1a20c1cd488fa6/C4A7A901-5433-4336-8CD7-E4317741AA2E.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/c4a7a901-5433-4336-8cd7-e4317741aa2e-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-17: the whole multi-stemmed pine from the pavement, five or more straight stems rising from one dark trunk into a tall dense crown, a street sign and a notice board at its foot, parked cars along the street, daylight, colour; a second frame looks up the stems, grey plated bark with moss. Live as quito/uio_001 under the closed list (Hidde, 2026-11-17), pin where the reader placed it.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "quito/uio_001"
   }
  ]
 }

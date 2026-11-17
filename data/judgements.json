@@ -3377,6 +3377,96 @@
    "agreed": null
   },
   {
+   "id": "sight:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Leaning Apple Row of Linford Wood",
+   "city": "Milton Keynes",
+   "species": "Apple (Malus domestica)",
+   "photo": "out/sightings/4ea907d1-6637-4070-aa8a-9a9d66a71f91.jpg",
+   "reader_note": "A row of Old Apple trees possibly Bramley",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple (Malus domestica)"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads milton-keynes/mkn_003: old leaning, hollowed apple trunks beside a public path, daylight",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7b889995-25da-415c-8c05-afc5a69bfe79",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Orange",
+   "city": null,
+   "species": "Orange (Citrus sinensis)",
+   "photo": "p_6804e2228a1a20c1cd488fa6/7B889995-25DA-415C-8C05-AFC5A69BFE79.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Orange (Citrus sinensis)"
+   },
+   "verdict": "hold",
+   "reason": "not_special: an ordinary street orange in fruit; the big pine behind it is the tree, and that one is live (quito/uio_001)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c4a7a901-5433-4336-8cd7-e4317741aa2e",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Pine",
+   "city": null,
+   "species": "Monterey Pine",
+   "photo": "p_6804e2228a1a20c1cd488fa6/C4A7A901-5433-4336-8CD7-E4317741AA2E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 450,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Pine"
+   },
+   "verdict": "publish",
+   "reason": "A pine splitting into five or more straight stems into one tall crown, seen from the pavement in La Pradera, Quito; live as quito/uio_001, pin where the reader placed it (approximate)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c4a7a901-5433-4336-8cd7-e4317741aa2e",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Many-Stemmed Pine of La Pradera",
+   "photo": "p_6804e2228a1a20c1cd488fa6/C4A7A901-5433-4336-8CD7-E4317741AA2E.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "The reader's own photographs of the tree they added: the whole pine leads quito/uio_001, the view up its stems is in the strip, daylight, colour."
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
@@ -14431,28 +14521,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Leaning Apple Row of Linford Wood",
-   "city": "Milton Keynes",
-   "species": "Apple (Malus domestica)",
-   "photo": "out/sightings/4ea907d1-6637-4070-aa8a-9a9d66a71f91.jpg",
-   "reader_note": "A row of Old Apple trees possibly Bramley",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Apple (Malus domestica)"
-   },
-   "verdict": "publish",
-   "reason": "The reader's own photograph of the tree they added leads milton-keynes/mkn_003: old leaning, hollowed apple trunks beside a public path, daylight",
    "hidde": null,
    "agreed": null
   }
