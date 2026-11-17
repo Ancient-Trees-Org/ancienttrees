@@ -13,8 +13,8 @@ Android code actually sends, read on 2026-11-11:
   id. No email, no name, no coordinates, no advertising id. Silent on emulators.
 - Location: used on the phone to show what is near; sent only as the place of
   a sighting the person records themselves.
-- No crash reporter on Android (the iPhone's MetricKit has no Android twin yet),
-  no ads SDK, no advertising id, no Firebase.
+- Crash reports to PostHog (account/CrashReporter.kt, since 2026-11-16, only
+  the crash handler on). No ads SDK, no advertising id, no Firebase.
 
 If any of this changes (a crash reporter, a new table), this file and the Data
 safety form change with it, as the privacy page does (privacycheck.py).
@@ -90,10 +90,13 @@ Data types, each **collected, not shared**:
 | App activity > In-app search history | App functionality | Optional (only with an account) | recent_searches |
 | App activity > Other user-generated content | App functionality | Optional | tree_notes, submissions, reports, plus_answers |
 | Device or other IDs | Analytics (the random install id) | Required | Measure.kt |
+| App info and performance > Crash logs | Analytics | Required | CrashReporter.kt |
+
+Filled in Play Console as above on 2026-11-17 (Hidde).
 
 Not collected: financial info, health, messages, contacts, calendar, audio,
-files and docs, web browsing, app info and performance (no crash logs on
-Android yet), approximate location (the precise place of a sighting is the only
+files and docs, web browsing, other app info and performance (diagnostics),
+approximate location (the precise place of a sighting is the only
 location sent).
 
 Processed ephemerally: **No** for each (they are stored).
