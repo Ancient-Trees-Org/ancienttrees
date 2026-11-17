@@ -86,8 +86,20 @@ def on_yahoo(addr):
     return domain.split(".")[0] in YAHOO_FAMILY
 
 
+# APPLE'S RELAY TOO (2026-11-17): a Sign in with Apple address
+# (…@privaterelay.appleid.com) forwards only mail signed for a domain registered
+# with Apple, so replies through Gmail bounced "Address not found" the day after
+# the split. Written twice as well, here and in the hook, kept equal by qa.
+SIGNED_ONLY_DOMAINS = ("privaterelay.appleid.com",)
+
+
+def on_apple_relay(addr):
+    domain = (addr or "").strip().lower().rpartition("@")[2]
+    return domain in SIGNED_ONLY_DOMAINS
+
+
 def wants_resend(addr, kind):
-    return kind == FIRST or on_yahoo(addr)
+    return kind == FIRST or on_yahoo(addr) or on_apple_relay(addr)
 
 
 def _resend_route():

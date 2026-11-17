@@ -1296,6 +1296,11 @@ def check_one_mail_route_rule():
     if a != b:
         out.append("the Yahoo list differs: mailer.py has %s, the hook has %s"
                    % (sorted(a - b) or "-", sorted(b - a) or "-"))
+    ts = ts_path.read_text(encoding="utf-8")
+    for d in ("privaterelay.appleid.com",):
+        if '"%s"' % d not in py or '"%s"' % d not in ts:
+            out.append("%s must go through Resend in both mailer.py and the hook "
+                       "(Apple's relay bounces unsigned mail, 2026-11-17)" % d)
     for name in ("contributor_reply.py", "sightings_publish.py", "ambassador.py"):
         src = (root / "scripts" / name).read_text(encoding="utf-8")
         for call in re.findall(r"mailer\.connect\([^)]*\)", src):
