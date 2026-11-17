@@ -341,6 +341,8 @@ fun CollectSheet(
         scope.launch {
             val raw = runCatching { file.readBytes() }.getOrNull()
             file.delete()
+            // A copy in the phone's gallery, as the iPhone keeps one in Photos (CameraRoll).
+            raw?.let { app.ancienttrees.account.CameraRoll.keep(context, it) }
             val jpeg = raw?.let { Collector.downsized(it) }
             reading = false
             if (jpeg != null) resolve(jpeg)

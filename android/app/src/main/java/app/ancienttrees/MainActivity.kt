@@ -271,6 +271,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         scope.launch {
             val raw = runCatching { shot.readBytes() }.getOrNull()
             shot.delete()
+            // A copy in the phone's gallery, as the iPhone keeps one in Photos (CameraRoll).
+            raw?.let { app.ancienttrees.account.CameraRoll.keep(context, it) }
             val jpeg = raw?.let { Collector.downsized(it) } ?: return@launch
             collectStart = app.ancienttrees.ui.CollectStart(about = t.name, knownTree = t.id, shotIn = jpeg)
         }

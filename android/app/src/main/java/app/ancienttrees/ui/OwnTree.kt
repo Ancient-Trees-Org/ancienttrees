@@ -490,6 +490,8 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
         if (!ok) return@rememberLauncherForActivityResult
         val raw = runCatching { shot.readBytes() }.getOrNull()
         shot.delete()
+        // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
+        raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
         add(raw)
     }
     val room = (MyTrees.MAX_EXTRAS - s.extras.size).coerceAtLeast(1)

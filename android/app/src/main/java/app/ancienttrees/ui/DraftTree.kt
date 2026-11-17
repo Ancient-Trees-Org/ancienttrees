@@ -201,6 +201,8 @@ fun DraftTree(
         if (!ok) return@rememberLauncherForActivityResult
         val raw = runCatching { shotFile.readBytes() }.getOrNull()
         shotFile.delete()
+        // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
+        raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
         addExtra(raw)
     }
     val room = (Collector.MAX_EXTRAS - extras.size).coerceAtLeast(1)

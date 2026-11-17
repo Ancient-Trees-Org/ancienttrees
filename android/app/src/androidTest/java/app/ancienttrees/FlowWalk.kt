@@ -421,6 +421,10 @@ class FlowWalk {
             val adjust = a.window.attributes.softInputMode and android.view.WindowManager.LayoutParams.SOFT_INPUT_MASK_ADJUST
             assertTrue("the window must resize for the keyboard, not pan (AndroidManifest windowSoftInputMode)",
                 adjust == android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+            // PORTRAIT ONLY, as the iPhone (UISupportedInterfaceOrientations_iPhone =
+            // Portrait); Android turned the app sideways (Hidde, 2026-11-17).
+            assertTrue("the app must stay upright (AndroidManifest screenOrientation)",
+                a.requestedOrientation == android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         }
         walker.tap("explore-search")
         val field = androidx.compose.ui.test.hasSetTextAction()
