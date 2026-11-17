@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-16T23:57Z",
+  "synced": "2026-11-17T10:52Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -191,6 +191,24 @@
       "public": true,
       "since": "2026-11-16",
       "display_name": "MARGOT R.",
+      "profile_public": true
+    },
+    {
+      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
+      "place_slug": "media-pennsylvania",
+      "place_name": "Media",
+      "public": true,
+      "since": "2026-11-17",
+      "display_name": "JOEY R.",
+      "profile_public": true
+    },
+    {
+      "user_id": "6c1fe98c-3afc-4122-8bbe-2ee3bdd574fb",
+      "place_slug": "sofia",
+      "place_name": "Sofia",
+      "public": true,
+      "since": "2026-11-17",
+      "display_name": "Калоян Р.",
       "profile_public": true
     },
     {
@@ -1157,6 +1175,13 @@
       "place_slug": "sydney",
       "place_name": "Sydney",
       "date": "2026-11-16"
+    },
+    {
+      "row": 1060,
+      "user_id": "p_52c4a67f36dbda49cf4ec44b",
+      "place_slug": "sofia",
+      "place_name": "Sofia",
+      "date": "2026-11-17"
     }
   ],
   "told": {

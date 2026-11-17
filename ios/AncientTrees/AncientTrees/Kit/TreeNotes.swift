@@ -27,6 +27,10 @@ public final class TreeNotes {
         public let created_at: String
         public let author_name: String?
         public let author_avatar: String?
+        /// The writer's account, only to a signed-in caller and only for a
+        /// public profile (supabase/reader-names.sql), so a tap on the name
+        /// opens their profile (Hidde, 2026-11-17). Nil before that SQL.
+        public var author_id: String? = nil
         public var id: String { tree_id + "|" + created_at + "|" + String(body.prefix(24)) }
         public var date: Date { TreeNotes.date(created_at) }
     }
@@ -89,7 +93,9 @@ public final class TreeNotes {
             return
         }
         let ids = [tree] + near
-        let r = Supa.request("/rest/v1/rpc/tree_notes_for", body: ["ids": ids])
+        // With the session, so a public writer comes with their account id
+        // and a tap on the name opens the profile (reader-names.sql).
+        let r = Supa.request("/rest/v1/rpc/tree_notes_for", token: token, body: ["ids": ids])
         if let (data, resp) = try? await Net.data(for: r), let http = resp as? HTTPURLResponse {
             if http.statusCode == 404 { gone = true }
             else if (200..<300).contains(http.statusCode),
@@ -109,6 +115,16 @@ public final class TreeNotes {
             mine = nil
         }
         loaded = true
+    }
+
+    /// The account behind one note, asked with the session the caller has
+    /// now: a tap on a name after a sign-in the page did not have yet.
+    public static func authorId(tree: String, createdAt: String, token: String?) async -> String? {
+        let r = Supa.request("/rest/v1/rpc/tree_notes_for", token: token, body: ["ids": [tree]])
+        guard let (data, resp) = try? await Net.data(for: r),
+              let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
+              let rows = try? JSONDecoder().decode([Note].self, from: data) else { return nil }
+        return rows.first { $0.created_at == createdAt }?.author_id
     }
 
     /// Writes or rewrites your one note on this tree. Returns whether it landed.

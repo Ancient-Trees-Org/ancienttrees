@@ -12,6 +12,43 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a hollow boab gives Kununurra its first tree, 29 reports closed
+
+- **New tree**: kununurra/knx_001, The Hollow Boab of Rowing Club Road. A reader's photograph with a GPS fix: a tall boab on red ground with a doorway in its foot and a crown in fresh leaf. New one-tree place (Kununurra, WA) with its intro, question texts and three FAQ. The pin falls on open ground off Rowing Club Access Road (OpenStreetMap: a camp site), and the access line says we have not confirmed who manages it.
+- **Photo**: der_001's reader photograph was already applied by the parallel reader-judge run (entry below); this run kept its version.
+- **Pins moved on reports**, mailed the standard thanks: tro_007, mnc_002, crh_001 and rsf_001 were each dragged by the reader who found the tree, and their own GPS fix keeps them confirmed. Hand moves on approximate pins: dnk_010 (the finder's own move), nic_001, bil_002 and tok_009. bbl_001 moved 9.3 km east onto the Champion Lodgepole Trail on its finder's move; it was sitting by the lake, and is now approximate. Already moved by earlier sessions, now thanked: cor_004, hum_001, the two Colinton trees (edi_017, edi_021), the two Blaise grid references (bri_003, bri_017) and the Bilbao park pair (bil_003, bil_004). Each reader got one mail; their duplicate rows were closed without a second mail.
+- **Answered (`holds`)**: the Domesday Oak's age (the name comes from Ashton Court's Domesday entry, and the tree is about 700); Android ("in the works, not out yet; the website works on any phone"); Coldwaltham's thank-you; three drags on pins confirmed by GPS (yor_003, bhm_002, and obc_001, which an earlier session had already declined to follow). Maria Aurora's 65 km drag got a reply asking for a photograph. The Melbourne "which tree" row closed, because its sighting went live today as mel_018.
+- **Still open (10)**, needing more than this window had: 1000047 (Kamakura kmk_003: the reader says the tabunoki is in Hasedera, and our GPS-confirmed pin does sit at Hasedera, but the story says Goryo Shrine, so which tree is it?); 1000065/1000067 (the reader's held Cambridge plane, dragged 3.7 km into the centre near Emmanuel College; this may lift its not_public hold, but its photograph is not on this machine); 1000042 (Isparta isp_001, an 892 m drag on the street midpoint); 1000032 (a held North Berwick lead, waiting on Hidde); 1000061 (lax_011, "on the map twice"); 1000028, 1000034, 1000050 ("could not tell which tree" in Copenhagen, Dublin and Stockholm); 1000035 (Chiang Mai, collected 2.2 km off).
+- **Readers' words**: reader_words.py lists 12. Several are pasted chatbot summaries (bbl_001, esl_001, mrs_001) and are left for a pass with time; none were quoted this run.
+
+## 2026-11-17 session: a note's name no longer opens sign-in; readers' names on their photographs (web)
+
+- **Fixed (found by Hidde, the Arbour Oak of Wollaton Park)**: a tap anywhere in a tree page's notes, a writer's name included, opened the sign-in sheet, signed in or not. The notes section carried its "Sign in first" text as `data-signin`, which signin-js reads as "this opens sign-in". Renamed to `data-signin-first`; qa `check_data_signin_only_on_controls()` keeps that attribute on links and buttons (ESC-2026-11-17, closed by that check).
+- **Changed in the product (Hidde: "bij foto's wel namen gaan noemen ... Als die een account hebben, dan worden die accounts ook klikbaar")**: a note's writer with a public profile is now a link to their profile (signed out: sign in first, then it lands on the profile, the New from visitors way). A reader's photograph on a tree page names its sender under the photo ("Photo: <name>", linked) when their profile is public; private stays nameless. Terms and privacy rewritten to say so. Feed photos carry `by` (the photo's server id) for the app.
+- **Waits for the SQL**: supabase/reader-names.sql (tree_notes_for gains author_id; new photo_authors()). Until it is pasted, names under notes are buttons that ask but find no profile, and photographs show no name. The management token in the env file is invalid, so a session could not run it.
+- **App**: the same in TreeDetail.swift follows in a worktree.
+
+## 2026-11-17 reader judge: a reader's Boab Prison Tree photograph leads
+
+- **Changed in the product**: a reader's photograph of `derby/der_001` Boab Prison Tree, the whole bottle trunk with its hollow entrance inside the post-and-rail ring, daylight, GPS at our pin, now leads that page (verdict `add`; the old lead moved into the gallery). Reader mail queued through `sightings_publish.py --send`.
+- This run judged the Oak of Orkin photograph too; the parallel run's commit below got there first and its entry stands.
+- **Left out**: the Boab reader also sent two extra frames (a wide shot with two people for scale, a trunk close-up). `sightings_publish.py` publishes only the main file, and it names every gallery file by the first 8 characters of the sighting id, so the extras would overwrite each other. They stay in out/sightings/, unpublished.
+- **Not judged, on purpose**: the 37 waiting leads are all our own account (`mine`). No reader leads were waiting. The open tree reports (new in the brief while this ran) were not taken up.
+- preflight 0 problems, i18ncheck clean.
+
+## 2026-11-17 session: readers' reports on our trees are now picked up within 15 minutes
+
+- **What changed**: a report on a tree we map (dead, wrong location, could not tell which tree, on the map twice, something else, a moved pin) now wakes the reader judge the way a reader's tree does. reader_poll.py counts new open rows in `tree_reports`; reader-judge.yml closes the small nudges and starts the judge when reports are open; BRIEF_READER_JUDGE.md "Reports on our trees" says what to do per reason. New commands in scripts/tree_reports.py: `--open`, `--count`, `--auto` (a moved pin on a confirmed pin under 30 m closes as `holds`, no mail), `--close <id> changed|holds|open_question ["reply"]`.
+- **Why**: nothing closed these rows. 51 sat open since 11-15 (two Bristol grid references, the Domesday Oak's age, Kamakura's tabunoki in the wrong temple, Coldwaltham's thank-you, four "could not tell which tree").
+- **Done by hand**: report 1000023 (Gomero de la Recoleta, bai_001) closed as `holds`: it was the app's "not sure which tree" on a photograph that already leads bai_001 since 11-15, and the tree already has its recognition line. 11 nudges closed by `--auto`. 39 remain for the judge.
+- **Standard thank-you mails** (Hidde, same day: a moved pin earns "bedankt, het is live, bekijk het hier", "zelfde voor dood"): `tree_reports.py --thank pin|dead <report> <tree>` writes it as the reply and closes the report `changed`; contributor_reply.py mails it at the knock after mailcheck (both texts pass). The dead one carries no link. The judge run dispatched at 17-11 started on the brief from before this, so its replies are its own words.
+
+## 2026-11-17 reader judge: the Oak of Orkin gets its first photograph
+
+- **Changed in the product** (photograph viewed): a reader's sunlit photograph of the Oak of Orkin, Ultzama valley (`pamplona/pam_002`), the whole broad pollarded crown alone in its pasture behind a rail fence, GPS fix 29 m from our pin. The tree had no photograph; this one leads (verdict `approve`). Reader mail queued through `sightings_publish.py --send`.
+- This run also judged the Stow yews and the totara sign the same way; a parallel run's commit below got there first and is kept as it stands. The Stow reader's two extra shots of the same door are not on the page (the publish script takes the main file only).
+- preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 reader judge: two readers' photographs on trees we map
 
 - **Changed in the product**: a reader's wet-day photograph of both north door yews of St Edward's framing the arched door now leads `stow-on-the-wold/stw_001` (verdict `add`; the Geograph photograph moves into the strip), and its pin moved 101 m to the reader's GPS fix, now confirmed. The Tuatapere totara's own reader sent the trail sign beside the trunk ("Halls Totara, Podocarpus Hallii, Girth at chest height 8.31 m, Approximate age - 1000 years"); it sits in `tuatapere/tua_001`'s gallery behind the lead (verdict `strip`). The tree is now Hall's Tōtara (Podocarpus laetus, the sign's hallii), `girth_cm` 831 and its age rest on the sign, and the story, recognition line, intro and question context say so.

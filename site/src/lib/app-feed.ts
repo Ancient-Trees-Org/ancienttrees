@@ -25,7 +25,7 @@ import { colourMonths, isSeasonal, seasonOfMonth, type Season } from "./seasons"
 import { miniPin } from "./map";
 import { feedTreesOf, slugify } from "./trees";
 import { treeIsAppOnly } from "./app-first";
-import { usablePhoto, usablePhotos, thumbUrl, cardUrl, creditRequired, creditName, creditText, heroFrame } from "./images";
+import { usablePhoto, usablePhotos, thumbUrl, cardUrl, creditRequired, creditName, creditText, heroFrame, readerPhotoId } from "./images";
 import { savesOf } from "./saves";
 import { BASE_URL } from "./schema";
 import { latinRanges } from "./latin";
@@ -293,6 +293,9 @@ function resolvePhoto(p: ReturnType<typeof usablePhoto>, lat: number, colour?: n
       sighting: (p as any).source === "contributor"
         ? (String((p as any).sighting_id ?? "").toLowerCase().match(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/)?.[0] ?? null)
         : null,
+      // Whose photograph this is, asked of the server by this id (the app's
+      // photo credit, Hidde 2026-11-17; supabase/reader-names.sql).
+      by: readerPhotoId(p),
       }
     : null;
 }

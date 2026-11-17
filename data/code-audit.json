@@ -411,6 +411,18 @@
    "status": "open",
    "found_by": "hidde",
    "test": "FlowWalk.collectGate"
+  },
+  {
+   "id": "ESC-2026-11-17-tapping-a-writer-s-name-or-anywhere-in-a",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/components/TreeDetail.astro",
+   "summary": "Tapping a writer's name (or anywhere) in a tree page's notes opened the sign-in sheet even when signed in: the notes section carried data-signin as a text attribute",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_data_signin_only_on_controls()",
+   "fixed_in": "3c2380dec"
   }
  ]
 }

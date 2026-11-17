@@ -2,6 +2,48 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "lead:0ddad207-52ba-4a72-8f76-64b3a09f2721",
+   "kind": "a tree we do not map",
+   "seen": "2026-11-17",
+   "tree": "The Hollow Boab of Rowing Club Road",
+   "city": "Kununurra",
+   "species": "Boab",
+   "photo": "out/sightings/0ddad207-52ba-4a72-8f76-64b3a09f2721.jpg",
+   "reader_note": "Hollow trunk and height of the tree",
+   "reader_girth_cm": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: a tall hollow boab on bare red ground, doorway at the foot and a second hole above, crown in fresh leaf; GPS fix off Rowing Club Access Road, Kununurra. Live as kununurra/knx_001.",
+   "hidde": null,
+   "agreed": null,
+   "coords": [
+    -15.8052116666667,
+    128.741775
+   ]
+  },
+  {
+   "id": "sight:0ddad207-52ba-4a72-8f76-64b3a09f2721",
+   "kind": "photo of a tree we map",
+   "seen": "2026-11-17",
+   "tree": "The Hollow Boab of Rowing Club Road",
+   "city": "Kununurra",
+   "species": "Boab",
+   "photo": "out/sightings/0ddad207-52ba-4a72-8f76-64b3a09f2721.jpg",
+   "reader_note": "Hollow trunk and height of the tree",
+   "reader_girth_cm": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: a tall hollow boab on bare red ground, doorway at the foot and a second hole above, crown in fresh leaf; GPS fix off Rowing Club Access Road, Kununurra. Live as kununurra/knx_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -13082,6 +13124,50 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cd5837fb-7e49-439e-9edb-50a5b86f01fb",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak of Orkin",
+   "city": "Pamplona",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/cd5837fb-7e49-439e-9edb-50a5b86f01fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 29,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the whole Orkin oak alone in its pasture, broad rounded crown, rail fence, daylight. First photograph for pam_002; lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:121e99a2-68a9-4499-8fb9-0f3c32d0f672",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/121e99a2-68a9-4499-8fb9-0f3c32d0f672.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Boab Prison Tree in its post-and-rail ring, hollow entrance visible, daylight, GPS at our pin. A reader's photograph now leads; the earlier lead moved into the gallery. Two more good frames came with it (wide with two people for scale, trunk close-up) and stay unpublished: the publish script takes only the main file.",
    "hidde": null,
    "agreed": null
   }

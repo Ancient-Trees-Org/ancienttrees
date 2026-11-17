@@ -71,9 +71,14 @@ public struct Photo: Codable, Hashable, Sendable {
     /// shows the tile with this photograph, not the tree's lead (Hidde,
     /// 2026-11-15: "waarom toont hij niet altijd de gebruikers foto").
     public let sighting: String?
+    /// A reader's photograph by the id the server names it by (a sightings
+    /// uuid, or "tip-<n>" from the website's form), so the tree page can ask
+    /// whose it is (PhotoAuthors, Hidde 2026-11-17). Nil for every other
+    /// photograph and in an older snapshot.
+    public let by: String?
 
     enum CodingKeys: String, CodingKey {
-        case url, license, attribution, width, height, season, sighting
+        case url, license, attribution, width, height, season, sighting, by
         case takenMonth = "taken_month"
         case thumbRaw = "thumb"
         case heroRaw = "hero"

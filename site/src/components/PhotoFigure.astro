@@ -39,7 +39,7 @@
  * wired by hand is the one that silently missed the Spanish city page. Every
  * string comes from UIStrings so the seven translated page sets get this too.
  */
-import { imgSrcset, photoDims, creditRequired, creditText, heroFrame } from "../lib/images";
+import { imgSrcset, photoDims, creditRequired, creditText, heroFrame, readerPhotoId } from "../lib/images";
 import CreditLine from "./CreditLine.astro";
 import { ui } from "../lib/i18n";
 
@@ -87,8 +87,14 @@ const shots = set.map((p, i) => {
     // and the licence label to its deed (compliance audit, 2026-11-10).
     credit: raw ? t.photoCredit(raw) : null,
     label: t.photoNumber(i + 1, set.length),
+    // A READER'S PHOTOGRAPH NAMES ITS SENDER (Hidde, 2026-11-17: "bij foto's
+    // wel namen gaan noemen van degene die het heeft opgeloot"): the id the
+    // server knows it by; READER_NAMES_JS asks whose it is and prints the
+    // name, linked to the profile, only for a public profile.
+    by: !raw ? readerPhotoId(p) : null,
   };
 });
+const byTpl = t.photoCredit("{name}");
 const leadCredit = shots[0].credit;
 // ON A PHONE THE OTHER PHOTOGRAPHS LIVE INSIDE THE LEAD (Hidde, 2026-10-13,
 // option A2 of the phone benchmark). Airbnb pages its lead by swipe and
@@ -134,12 +140,13 @@ const swipe = variant === "hero" && (many || withAdd);
       a phone it changes as the lead is swiped; a licence obliges it. One
       figcaption (a figure takes one) holding a line per photograph; a blank
       line where none is owed, so a swipe never makes the page below it jump. */}
-  {((swipe ? shots.some((s) => s.credit) : leadCredit) || hasCaptionEnd) && (
+  {((swipe ? shots.some((s) => s.credit || s.by) : (leadCredit || shots[0].by)) || hasCaptionEnd) && (
     <figcaption class={hasCaptionEnd ? "pc-row" : undefined}>
       {(swipe ? shots : shots.slice(0, 1)).map((s, i) => (
         <span class="pc-credit" data-i={i} hidden={i !== 0}>
           {s.credit && <CreditLine line={s.credit} photo={s.photo} />}
-          {!s.credit && <Fragment set:html="&nbsp;" />}
+          {!s.credit && s.by && <span data-photo-by={s.by} data-tpl={byTpl}>&nbsp;</span>}
+          {!s.credit && !s.by && <Fragment set:html="&nbsp;" />}
         </span>
       ))}
       {hasCaptionEnd && <span class="pc-end"><slot name="caption-end" /></span>}
@@ -173,6 +180,7 @@ const swipe = variant === "hero" && (many || withAdd);
         </div>
         <div class="pv-bar">
           {s.credit && <span class="pv-credit">{s.credit}</span>}
+          {!s.credit && s.by && <span class="pv-credit" data-photo-by={s.by} data-tpl={byTpl}></span>}
           {set.length > 1 && <span class="pv-count">{s.label}</span>}
           <a class="pv-full" href={s.photo.url} target="_blank" rel="noopener">{t.photoFull}</a>
         </div>

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Did a reader send a tree or share a photograph in the last few minutes?
+"""Did a reader send a tree, share a photograph or report on a tree in the
+last few minutes?
 
 The reader judge (reader-judge.yml) polls with this every 15 minutes, so a
 reader's tree is judged soon after it arrives without anything set up in
@@ -59,7 +60,12 @@ def main():
             done = {}
         rows = get("/rest/v1/sightings?select=id&shared=eq.true&photo=not.is.null&updated_at=gte." + since, key)
         n += len([r for r in rows if r["id"] not in done])
-        n += len(get("/rest/v1/submissions?select=id&kind=in.(tree,city)&created_at=gte." + since, key))
+        n += len(get("/rest/v1/submissions?select=id&kind=in.(tree,city,ambassador)&created_at=gte." + since, key))
+        # Reports on our trees (dead, wrong place, could not tell which, a
+        # moved pin) wake the judge too, by when they were sent or when their
+        # follow-up words came (Hidde, 2026-11-17: like the readers' trees).
+        n += len(get("/rest/v1/tree_reports?select=id&outcome=is.null"
+                     "&or=(created_at.gte.%s,detail_at.gte.%s)" % (since, since), key))
     except Exception as e:  # noqa: BLE001
         # Any doubt starts the run (claude_gate.py's rule): a quiet failure
         # here would leave readers waiting for the knock again.

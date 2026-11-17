@@ -30,6 +30,8 @@ struct TreeDetail: View {
     /// Naming the species is a picker rather than a text field, since
     /// 2026-08-29. A typed string cannot group (hard rule 9).
     @State private var choosingSpecies = false
+    /// Who sent each reader's photograph here, by Photo.by (PhotoAuthors).
+    @State private var photoAuthors: [String: PhotoAuthors.Row] = [:]
     @Environment(Account.self) private var account
     @Environment(Nudge.self) private var nudge
     @Environment(ReviewPrompt.self) private var reviewPrompt
@@ -207,13 +209,19 @@ struct TreeDetail: View {
                     // page's own 20 so the name keeps its place.
                     if showsFooterPill {
                         HStack(spacing: 0) {
-                            Spacer(minLength: 0)
+                            // WHO TOOK IT, opposite the add, as the website's
+                            // caption line (Hidde, 2026-11-17: "bij foto's wel
+                            // namen gaan noemen"): a public profile's name,
+                            // a tap opens the profile.
+                            if shotAt < tree.shots.count { photographerName }
+                            Spacer(minLength: 8)
                             addPhotoRow
                                 .opacity(shotAt >= tree.shots.count ? 0 : 1)
                                 .allowsHitTesting(shotAt < tree.shots.count)
                         }
                         .padding(.top, -12)
                         .padding(.bottom, -4)
+                        .task(id: tree.id + (account.session?.userId ?? "")) { await loadPhotoAuthors() }
                     }
                     header
                     // THE CONFIRMATION, WHERE YOU LAND (Hidde, 2026-09-01: "ook
@@ -2153,7 +2161,8 @@ struct TreeDetail: View {
                 }
                 ForEach(here) { n in
                     noteCard(body: n.body, date: n.date, name: n.author_name ?? "A visitor",
-                             avatar: n.author_avatar, initial: n.author_name?.first, mine: false)
+                             avatar: n.author_avatar, initial: n.author_name?.first, mine: false,
+                             onName: n.author_name == nil ? nil : { openNoteAuthor(n) })
                 }
                 // EMPTY: ONE GREY CARD WITH THE ASK INSIDE (Hidde, 2026-10-25:
                 // "a grey card like the cards are in app when you have not
@@ -2208,9 +2217,11 @@ struct TreeDetail: View {
     /// leaf for "A visitor"), the name at 13 semibold, the date in caption
     /// grey, the words at 16. Yours on the moss tint.
     private func noteCard(body: String, date: Date, name: String, avatar: String?,
-                          initial: Character?, mine: Bool, onGrey: Bool = false) -> some View {
+                          initial: Character?, mine: Bool, onGrey: Bool = false,
+                          onName: (() -> Void)? = nil) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack(spacing: 8) {
+                let who = HStack(spacing: 8) {
                 ZStack {
                     Circle().fill(mine || initial != nil ? Brand.moss : Brand.creamDark)
                     if let avatar, let u = URL(string: avatar) {
@@ -2231,6 +2242,17 @@ struct TreeDetail: View {
                     .font(.system(size: 13, weight: .semibold))
                     .foregroundStyle(Brand.ink)
                     .lineLimit(1)
+                }
+                // A public profile's name opens that profile (Hidde,
+                // 2026-11-17); "A visitor" and your own note stay plain.
+                if let onName {
+                    Button(action: onName) { who.frame(minHeight: 44).contentShape(Rectangle()) }
+                        .buttonStyle(.plain)
+                        .padding(.vertical, -8)
+                        .accessibilityIdentifier("note-author")
+                } else {
+                    who
+                }
                 Spacer(minLength: 8)
                 Text(date.formatted(date: .abbreviated, time: .omitted))
                     .font(.caption).foregroundStyle(Brand.inkSoft)
@@ -2244,6 +2266,15 @@ struct TreeDetail: View {
         .padding(.horizontal, 14).padding(.vertical, 12)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(mine ? Brand.mossTint : onGrey ? Brand.surface : Brand.surfaceMuted, in: .rect(cornerRadius: 14))
+    }
+
+    /// A note's writer, tapped: their profile, asked again with the session
+    /// when the page loaded before it (signed out: sign in first).
+    private func openNoteAuthor(_ n: TreeNotes.Note) {
+        let tree = tree.id, at = n.created_at
+        openPerson(n.author_id) {
+            await TreeNotes.authorId(tree: tree, createdAt: at, token: await account.freshToken())
+        }
     }
 
     /// The one ask, a quiet pill like addPhotoRow (Hidde, 2026-10-24: "the
@@ -2424,6 +2455,57 @@ struct TreeDetail: View {
     /// website's; the 44 point touch target comes from the content shape.
     /// The footer pill shows under a photograph in the hero, not over the map
     /// or a photo of your own (the hero's own branches decide which).
+    /// The sender of the photograph showing, when the server names one
+    /// (PhotoAuthors: a public profile only). Nothing for a licensed
+    /// photograph or ours: the licence credit stays at the foot of the page.
+    @ViewBuilder private var photographerName: some View {
+        if let by = shownPhoto?.by, let a = photoAuthors[by], let name = a.author_name {
+            Button { openPerson(a.author_id) { await self.photoAuthorId(by) } } label: {
+                Text("Photo: \(name)")
+                    .font(.system(size: 13, weight: .medium))
+                    .foregroundStyle(Brand.inkSoft)
+                    .lineLimit(1)
+                    .frame(minHeight: 44)
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("photo-by")
+        }
+    }
+
+    /// Who sent each reader's photograph on this tree, asked once per page.
+    private func loadPhotoAuthors() async {
+        let ids = tree.shots.compactMap(\.by)
+        guard !ids.isEmpty else { return }
+        photoAuthors = await PhotoAuthors.load(ids: ids, token: await account.freshToken())
+    }
+
+    private func photoAuthorId(_ by: String) async -> String? {
+        await PhotoAuthors.load(ids: [by], token: await account.freshToken())[by]?.author_id
+    }
+
+    /// A reader's name, tapped: their profile. Signed out the server hands no
+    /// account id, so the sign-in comes first and the tap finishes on the
+    /// profile it was for, asked again with the new session (the New from
+    /// visitors way, Home.openVisitor).
+    private func openPerson(_ id: String?, resolve: @escaping @MainActor () async -> String?) {
+        if let id, account.isSignedIn { navigator.push = .person(id); return }
+        // Signed in without an id (the page loaded before the session did):
+        // ask the server again, never the sign-in sheet (Hidde, 2026-11-17:
+        // a signed-in tap on a name looped into sign-in).
+        if account.isSignedIn {
+            Task { @MainActor in
+                if let id = await resolve() { navigator.push = .person(id) }
+            }
+            return
+        }
+        nudge.require(.general) {
+            Task { @MainActor in
+                if let id = await resolve() { navigator.push = .person(id) }
+            }
+        }
+    }
+
     private var showsFooterPill: Bool {
         !showingMap && heroOwnShot == nil && tree.photo?.full != nil
     }

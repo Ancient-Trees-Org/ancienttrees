@@ -96,10 +96,17 @@
       "access": "Free, on village common ground in the Ultzama valley",
       "transport": "Arraitz-Orkin, about 19 km north of Pamplona, then a short walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/pam_002-the-oak-of-orkin.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_65a5c90c9072f11a77218aba",
+        "sighting_id": "cd5837fb-7e49-439e-9edb-50a5b86f01fb",
+        "note": "Photographed by a reader and sent through the app (2025-07-09); a viewing pass approved it on 2026-11-17: Looked at: the whole oak alone on a dry hillside pasture behind a wooden rail fence, cows lying in its shade, blue sky, two children far off walking toward it from behind (not recognisable). Daylight, colour, fills the frame and survives a centre crop. First photograph for this tree; GPS fix 29 m from our pin. Species seen: dense lobed oak foliage on a broad, very wide rounded crown, short massive trunk hidden in shade. Fits the description: broad rounded pollarded crown on a short stout trunk standing alone in open pasture in the Ultzama valley, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

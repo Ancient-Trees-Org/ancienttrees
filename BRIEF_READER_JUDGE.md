@@ -4,7 +4,7 @@ The instant run (`.github/workflows/reader-judge.yml`) reads this. It starts min
 
 ## What you judge
 
-Everything a reader sent that has no verdict yet:
+Everything a reader sent that has no verdict yet (and their reports on our trees, see "Reports on our trees" below):
 
 1. `python3 scripts/sightings_inbox.py --status`: photographs of trees we already map (data/sighting-queue.json, files in out/sightings/).
 2. Leads in data/leads/_sightings.json with `status: "lead"` and no `hold`: trees we do not map. Their photographs are already on this machine at out/sightings/<sighting id>.jpg (`scripts/fetch_waiting_photos.py` ran before you).
@@ -25,10 +25,27 @@ A reader's tree goes live when it has a GPS fix or a photograph and is somewhat 
 - And the same sighting in data/sightings-processed.json: `done[<sighting id>].outcome` becomes `published` or `held`. Left at `lead`, the next intake matches the photograph to the tree you just made and queues it again.
 - `python3 scripts/judgement.py --scan`, then each verdict in data/judgements.json, and a `sight:<sighting id>` entry for every contributor photograph now on a page.
 
+## Reports on our trees
+
+Since 2026-11-17 the same run takes every report a reader sends about a tree we already map (Hidde: picked up at once, like the readers' trees). `python3 scripts/tree_reports.py --open` prints them with their words; the intake already closed the moved-pin nudges of a few metres on a confirmed pin (`--auto`). Close each one you handle with `python3 scripts/tree_reports.py --close <id> changed|holds|open_question ["reply"]`. A `changed` needs its reply text (one to four plain sentences, signed "Ancient Trees", no App Store link; the knock's contributor_reply.py mails it after mailcheck). A report you cannot settle in this run stays open: say why in LOG.md, never close it to empty the list.
+
+By reason (CLAUDE.md's rules, in short):
+
+- **dead / gone**: checked and removed the same day when it holds (a news item, a council notice, a second report, a reader's photograph of the stump): first `python3 scripts/tree_reports.py --thank dead <report id> <tree id>` (the standard thank-you, no link since the page goes; it reads the name before the tree leaves data/cities), then `python3 scripts/retire.py <city> <id> --reason "..."`. No evidence either way: leave the tree, `open_question`, the reply asks for a photograph.
+- **wrong location** and **moved pin**: the reader's place replaces an approximate pin when their words, a grid reference, a GPS fix or a photograph make it a real spot (convert a grid reference yourself); record `pin_source` ("reader report <id>, <what they gave>") and keep `location_precision` honest: `confirmed` only for a GPS fix at the tree. Close a pin you moved with `python3 scripts/tree_reports.py --thank pin <report id> <tree id>`: the standard thank-you with the tree's link (Hidde, 2026-11-17); a specific answer of your own via `--close ... changed "..."` only when they asked something. A confirmed pin moves only on evidence that ours is wrong (their photo, a source, a move of hundreds of metres onto a site the story names). A tree the same account added itself: take their move. A move that lands on another of our trees or in open country without a reason: `holds`.
+- **could not tell which tree**: a recognition line (`how_to_recognise`, BRIEF_WRITING.md's rule: restated from what the entry holds) or a trunk photograph. When the row came from the app's collect flow (a sighting id in `tree`, a list of candidates in the words) it is the reader asking which tree their photograph shows: settle it with the sighting (sightings_inbox.py) and close.
+- **on the map twice**: same trunk by pins, photos and sources, then keep the richer entry and `retire.py --reason "duplicate of <id>"`. Never on the reader's word alone.
+- **something else** / **correction**: a fact they correct is checked like any fact (a source, or their own photograph or sign) and fixed in every language the story exists in; an age they give goes on the page "by a reader's estimate". A question gets an answer in the reply. Praise, product questions (Android, accounts) and thanks: `holds` with a short reply when there is something to answer.
+- **collected far**: the photograph decides, through the sighting queue; close the report once it is judged.
+
+## Readers' words
+
+Then `python3 scripts/reader_words.py`: each reader's note on a live tree whose words no story quotes yet. Put the usable ones on the page (CLAUDE.md "Readers' words go on the page, quoted"): unnamed, their facts stated as theirs, an age they give as "by a reader's estimate", in every language the story exists in. Not usable, and closed with `--done <row id> "why"`: text pasted from a chatbot or a website (headings like "Key Details", bullet summaries; check its facts, never quote it as theirs), an instruction to us, or thanks. A fact from it that a source confirms may go in the story as a fact.
+
 ## Before you push
 
 `python3 scripts/preflight.py` must print 0 problems and `python3 scripts/i18ncheck.py` must be clean: a new tree in a place with a kept translation needs that overlay's tree entry, and every count in the place's texts and overlays follows the new number. Then one LOG.md entry ("## <date> reader judge: ..."), newest first, commit, `git pull --rebase --autostash`, push.
 
 ## Limits
 
-About 20 minutes. Readers' trees only: no research passes, no outreach, no enrichment. If more trees wait than fit, do the newest first (they are the ones whose senders are waiting) and leave the rest for the next run; the workflow starts again on the next tree that arrives.
+About 20 minutes. Readers' trees and reports only: no research passes, no outreach, no enrichment. If more trees wait than fit, do the newest first (they are the ones whose senders are waiting) and leave the rest for the next run; the workflow starts again on the next tree that arrives.

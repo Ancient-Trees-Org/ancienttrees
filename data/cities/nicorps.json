@@ -34,8 +34,8 @@
       "girth_cm": 715,
       "location": {
         "address": "Churchyard of the Eglise Saint-Corneille, Nicorps",
-        "latitude": 49.02733889,
-        "longitude": -1.42211667,
+        "latitude": 49.02719,
+        "longitude": -1.421895,
         "neighbourhood": "Nicorps, Manche"
       },
       "verified_sources": [
@@ -69,7 +69,15 @@
         "name": "Arbres remarquables de la Manche (CAUE de la Manche inventory)",
         "url": "https://www.tourisme-coutances.fr/vivez-lexperience/du-patrimoine/caue-arbres-remarquables-cmb/"
       },
-      "height_m": 12
+      "height_m": 12,
+      "pin_source": {
+        "kind": "reader report",
+        "report": 1000064,
+        "moved_m": 23,
+        "date": "2026-11-17",
+        "note": "A reader moved this approximate pin 23 m within the churchyard (reader report 1000064). A hand placement, so approximate."
+      },
+      "verify_notes": "2026-11-17 reader judge: pin moved 23 m on reader report 1000064; approximate."
     }
   ]
 }

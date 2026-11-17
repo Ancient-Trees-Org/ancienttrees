@@ -77,15 +77,61 @@ jobs:
           python3 scripts/sightings_inbox.py
           python3 scripts/fetch_waiting_photos.py
           python3 scripts/judgement.py --scan
+          python3 scripts/tree_reports.py --auto
+          # A reader's GPS fix moves an approximate pin of ours (move_pin,
+          # 2026-10-05) in the same minutes, not at the next knock (Hidde,
+          # 2026-11-17: "pin move by reader ook toevoegen aan de reader judge").
+          # Arithmetic, no agent: committed here so it lands even when nothing
+          # else waits.
+          python3 scripts/sightings_publish.py --pins || true
+          if ! git diff --quiet -- data/cities; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/cities
+            git commit -q -m "reader judge: pins moved to readers' GPS fixes"
+            git pull -q --rebase --autostash origin main && git push -q || true
+          fi
+
+      # Somebody who pressed "Become the ambassador" gets the mail with the
+      # questions and the badge in the same minutes (Hidde, 2026-11-17: "binnen
+      # een kwartier mailen in plaats van in de nightrun"). The same script and
+      # guards as the knock (one week's rest, mailcheck, send log); the knock
+      # still runs it as the safety net and finds nothing left. No agent.
+      - name: Answer ambassador requests
+        if: steps.poll.outputs.new == 'yes'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OUTREACH_SMTP_HOST: ${{ secrets.OUTREACH_SMTP_HOST }}
+          OUTREACH_SMTP_PORT: ${{ secrets.OUTREACH_SMTP_PORT }}
+          OUTREACH_SMTP_USER: ${{ secrets.OUTREACH_SMTP_USER }}
+          OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
+          RESEND_SMTP_HOST: ${{ secrets.RESEND_SMTP_HOST }}
+          RESEND_SMTP_PASS: ${{ secrets.RESEND_SMTP_PASS }}
+          OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
+        run: |
+          python3 scripts/private_store.py pull
+          python3 scripts/ambassador.py --requests --send
+          python3 scripts/private_store.py push
+          if ! git diff --quiet -- data/ambassadors.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/ambassadors.json
+            git commit -q -m "reader judge: ambassador requests answered and badged"
+            git pull -q --rebase --autostash origin main && git push -q || true
+          fi
 
       - name: Is anything waiting
         id: work
         if: steps.poll.outputs.new == 'yes'
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
           leads=$(python3 scripts/fetch_waiting_photos.py --count)
           queue=$(python3 -c "import json;print(len(json.load(open('data/sighting-queue.json')).get('queue',[])))" 2>/dev/null || echo 0)
-          echo "leads=$leads queue=$queue"
-          if [ "$leads" != "0" ] || [ "$queue" != "0" ]; then
+          reports=$(python3 scripts/tree_reports.py --count 2>/dev/null || echo 0)
+          echo "leads=$leads queue=$queue reports=$reports"
+          if [ "$leads" != "0" ] || [ "$queue" != "0" ] || [ "$reports" != "0" ]; then
             echo "go=yes" >> "$GITHUB_OUTPUT"
           else
             echo "go=no" >> "$GITHUB_OUTPUT"
@@ -103,7 +149,8 @@ jobs:
           allowed_bots: "github-actions[bot]"
           prompt: |
             Read BRIEF_READER_JUDGE.md in the repository root and do what it
-            says, for every reader's tree and photograph waiting for a verdict.
+            says, for every reader's tree and photograph waiting for a verdict
+            and every open report on one of our trees.
             The intake already ran: the photographs are in out/sightings/.
 
             Shell style: one command per Bash call. No heredocs, no pipes into
@@ -115,6 +162,27 @@ jobs:
             --allowedTools "${{ env.JUDGE_ALLOWED }}"
             --disallowedTools "${{ env.JUDGE_DISALLOWED }}"
             --max-turns 120
+
+      # The words a reader typed with their tree become their note under it
+      # (reader_text_notes.py, Hidde 2026-11-15), now in the same minutes as
+      # the tree itself instead of at the next knock (Hidde, 2026-11-17: "die
+      # notitie onder de boom ... kan mee in diezelfde judgment"). A script,
+      # no agent: it costs nothing when there is nothing to write.
+      - name: Readers' words become their note under the tree
+        if: steps.work.outputs.go == 'yes'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          git pull -q --rebase --autostash origin main || true
+          python3 scripts/reader_text_notes.py --write
+          if ! git diff --quiet -- data/reader-text-notes.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/reader-text-notes.json
+            git commit -q -m "reader judge: readers' words written as their notes"
+            git push -q || true
+          fi
 
       - name: Deploy what went live
         if: steps.work.outputs.go == 'yes'

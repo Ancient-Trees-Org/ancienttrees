@@ -276,8 +276,8 @@
       "age_max": null,
       "location": {
         "address": "Kew Gardens, beside the Kew Beach Lawn Bowling Club, The Beaches, Toronto",
-        "latitude": 43.6670494088592,
-        "longitude": -79.2972264339565,
+        "latitude": 43.66735,
+        "longitude": -79.297226,
         "neighbourhood": "The Beaches"
       },
       "how_to_recognise": "On a lawn by a border of shrubs: a conifer with soft feathery needles whose fluted red-brown trunk flares wide at the foot, one long root running out across the grass.",
@@ -290,14 +290,14 @@
       },
       "location_precision": "confirmed",
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
-        "moved_m": 0,
+        "kind": "reader report",
+        "report": 1000024,
+        "moved_m": 33,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader who found this tree and took the GPS fix dragged their own pin 33 m onto the trunk (reader report 1000024). Earlier: reader GPS fix."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-17 reader judge: sent by a reader (fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b, 2026-11-15, through the app). Photograph viewed: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Dawn Redwood in Toronto', species 'Dawn Redwood', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b, 2026-11-15, through the app). Photograph viewed: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Dawn Redwood in Toronto', species 'Dawn Redwood', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-17 reader judge: pin moved 33 m on reader report 1000024; confirmed.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tro_007-dawn-redwood-of-kew-gardens.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",

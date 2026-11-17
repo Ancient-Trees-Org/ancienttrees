@@ -22,6 +22,7 @@ import { treePageScript } from "../lib/tree-page-js";
 import { DOWNSIZE_JS } from "../lib/image-downsize-js";
 import TreeDetail from "./TreeDetail.astro";
 import { TREE_NOTES_JS } from "../lib/tree-notes-js";
+import { READER_NAMES_JS } from "../lib/reader-names-js";
 import { hreflangForCity, QUESTION_SLUG, ui, type CityTranslation, type TreeTranslation } from "../lib/i18n";
 import { cityHasQuestionPage } from "../lib/question-page";
 import { placeDistrict } from "../lib/place-line";
@@ -110,7 +111,7 @@ const headExtra = mapHead() + ogImage + (fallback ? "" : "\n" + hreflangForCity(
 // now, on every page, so there is no list to forget it from.
 // VISITED_SYNC_JS came back with the seal (2026-10-10): the collect sheet.
 const scripts = treePageScript(loc.latitude!, loc.longitude!, tree.id)
-  + WORTHIT_JS + SHARE_JS + TREE_ACTIONS_JS + VISITED_SYNC_JS + DOWNSIZE_JS + ADD_PHOTO_JS + TREE_NOTES_JS;
+  + WORTHIT_JS + SHARE_JS + TREE_ACTIONS_JS + VISITED_SYNC_JS + DOWNSIZE_JS + ADD_PHOTO_JS + READER_NAMES_JS + TREE_NOTES_JS;
 const nearbyCards = nearby.map((t) => ({
   id: t.id,
   name: tr.trees[t.id].name,

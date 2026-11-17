@@ -95,8 +95,8 @@
       "age_max": null,
       "location": {
         "address": "Universidad de Deusto, Avenida de las Universidades 24, 48007 Bilbao",
-        "latitude": 43.2708,
-        "longitude": -2.9375,
+        "latitude": 43.270621,
+        "longitude": -2.939208,
         "neighbourhood": "Deusto"
       },
       "verified_sources": [
@@ -128,7 +128,14 @@
         "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Tall russet bald cypress with buttressed base at an institution gate, autumn colour. Species seen: feathery russet foliage, buttressed base (bald cypress). Fits the description: swollen buttressed trunk at main building.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "A bare-looking conifer with a swollen, buttressed trunk at the University of Deusto's main entrance, facing the Guggenheim across the river.",
-      "verify_notes": "2026-11-17 session: girth_cm 942 removed. It was three metres of diameter from one web page turned into a girth by us, which CLAUDE.md does not allow (girth only from a register or plaque). A reader's tree note (2026-11-16) gives the trunk as no more than 2 m across at breast height, maybe 2.3 m at the base; stated in the story as theirs, no girth set from it. The same note confirms the rust colour in November."
+      "verify_notes": "2026-11-17 session: girth_cm 942 removed. It was three metres of diameter from one web page turned into a girth by us, which CLAUDE.md does not allow (girth only from a register or plaque). A reader's tree note (2026-11-16) gives the trunk as no more than 2 m across at breast height, maybe 2.3 m at the base; stated in the story as theirs, no girth set from it. The same note confirms the rust colour in November. 2026-11-17 reader judge: pin moved 140 m on reader report 1000048; approximate.",
+      "pin_source": {
+        "kind": "reader report",
+        "report": 1000048,
+        "moved_m": 140,
+        "date": "2026-11-17",
+        "note": "A reader who photographed two other Bilbao trees on the spot the same day moved this approximate pin 140 m within the Deusto campus (reader report 1000048). A hand placement, so approximate."
+      }
     },
     {
       "id": "bil_003",
