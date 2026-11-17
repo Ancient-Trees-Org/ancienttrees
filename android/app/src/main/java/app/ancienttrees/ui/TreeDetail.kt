@@ -67,6 +67,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.shadow
@@ -1230,12 +1231,24 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
                 add(SheetButton(stringResource(R.string.cancel), SheetKind.QUIET) { writing = false })
             },
         ) {
+            // THE KEYBOARD COMES UP WITH THE SHEET, as the iPhone's `.onAppear { focused = true }`
+            // (Hidde on his Samsung, 2026-11-17: "duurt erg lang voordat het toetsenbord opent";
+            // there was no focus at all, and only the field's first line took a tap). The whole
+            // grey box focuses the field too.
+            val focus = remember { androidx.compose.ui.focus.FocusRequester() }
+            val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+            LaunchedEffect(Unit) {
+                runCatching { focus.requestFocus(); keyboard?.show() }
+            }
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 Box(
                     Modifier
                         .fillMaxWidth()
                         .heightIn(min = 120.dp)
                         .background(brand.surfaceMuted, RoundedCornerShape(14.dp))
+                        .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) {
+                            runCatching { focus.requestFocus(); keyboard?.show() }
+                        }
                         .padding(horizontal = 15.dp, vertical = 16.dp),
                 ) {
                     BasicTextField(
@@ -1244,7 +1257,7 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
                         enabled = !saving,
                         textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
                         cursorBrush = SolidColor(brand.moss),
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier.fillMaxWidth().focusRequester(focus),
                     )
                     if (text.isEmpty()) {
                         Text(stringResource(R.string.note_placeholder), fontSize = 16.sp, color = brand.inkSoft.copy(alpha = 0.7f))
