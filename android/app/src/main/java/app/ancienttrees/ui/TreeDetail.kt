@@ -729,7 +729,7 @@ private fun TopButtons(glassState: dev.chrisbanes.haze.HazeState?, tree: Tree, o
                         val opens = stringResource(opening)
                         DropdownMenuItem(
                             text = { MenuText(stringResource(label), brand.ink) },
-                            trailingIcon = { Icon(icon, null, tint = brand.ink, modifier = Modifier.size(20.dp)) },
+                            leadingIcon = { Icon(icon, null, tint = brand.ink, modifier = Modifier.size(20.dp)) },
                             onClick = {
                                 menu = false
                                 onReport(opens)

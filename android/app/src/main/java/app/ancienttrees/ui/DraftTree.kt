@@ -301,7 +301,7 @@ fun DraftTree(
                                 DropdownMenu(expanded = tileMenu, onDismissRequest = { tileMenu = false }, containerColor = brand.surface) {
                                     DropdownMenuItem(
                                         text = { MenuText(stringResource(R.string.collect_camera), brand.ink) },
-                                        trailingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
+                                        leadingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
                                             runCatching { extraCamera.launch(shotUri) }
@@ -309,7 +309,7 @@ fun DraftTree(
                                     )
                                     DropdownMenuItem(
                                         text = { MenuText(stringResource(R.string.cf_choose), brand.ink) },
-                                        trailingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
+                                        leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
                                             extraLibrary.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
@@ -509,7 +509,7 @@ private fun DraftTopButtons(
                 fun item(label: Int, icon: androidx.compose.ui.graphics.vector.ImageVector, danger: Boolean = false, go: () -> Unit) =
                     DropdownMenuItem(
                         text = { MenuText(stringResource(label), if (danger) brand.dangerText else brand.ink) },
-                        trailingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
+                        leadingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
                         onClick = {
                             menu = false
                             go()

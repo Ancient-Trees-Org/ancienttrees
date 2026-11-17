@@ -95,10 +95,29 @@ data class MapFilters(
     val isOn: Boolean get() = favouritesOnly || collectedOnly || freeOnly || species != null
 
     fun keeps(t: Tree, collected: Set<String>, favourites: Set<String>): Boolean {
-        if (collectedOnly && t.id !in collected) return false
-        if (favouritesOnly && t.id !in favourites) return false
+        // WANT TO VISIT AND COLLECTED ADD UP (Hidde, 2026-11-17): two chips of the same
+        // kind mean either, as filters in one group do everywhere; with only Want to
+        // visit on, a collected tree is not on the map.
+        if (collectedOnly || favouritesOnly) {
+            val wanted = (collectedOnly && t.id in collected) || (favouritesOnly && t.id in favourites)
+            if (!wanted) return false
+        }
         if (freeOnly && t.paidEntry) return false
         if (species != null && t.commonName != species) return false
+        return true
+    }
+
+    /**
+     * A tree only you have (MapFilters.keeps(sighting) on the iPhone): it counts as
+     * collected, so Want to visit alone leaves it off; species is read off it; free
+     * and photo questions have no answer on it and keep it.
+     */
+    fun keepsMine(s: app.ancienttrees.account.OwnSighting, favourites: Set<String>): Boolean {
+        if (collectedOnly || favouritesOnly) {
+            val wanted = collectedOnly || (favouritesOnly && s.asTree().id in favourites)
+            if (!wanted) return false
+        }
+        if (species != null && s.asTree().commonName != species) return false
         return true
     }
 }
@@ -364,7 +383,7 @@ fun MapTab(
             bottomCover = minOf(stopCoverage, sheet.halfPx.takeIf { it > 0 } ?: stopCoverage),
             moveTo = moveTo,
             quietSelect = launch.select,
-            mine = mine,
+            mine = if (!filters.isOn) mine else mine.filter { filters.keepsMine(it, marks.saved) },
             minePhoto = minePhoto,
             onMine = onMine,
             collected = marks.collected,

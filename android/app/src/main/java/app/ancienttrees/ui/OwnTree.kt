@@ -499,7 +499,7 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
                     DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                         DropdownMenuItem(
                             text = { MenuText(stringResource(R.string.collect_camera), brand.ink) },
-                            trailingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
+                            leadingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
                             onClick = {
                                 menu = false
                                 runCatching { camera.launch(shotUri) }
@@ -507,7 +507,7 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
                         )
                         DropdownMenuItem(
                             text = { MenuText(stringResource(R.string.cf_choose), brand.ink) },
-                            trailingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
+                            leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                             onClick = {
                                 menu = false
                                 library.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
@@ -556,7 +556,7 @@ private fun OwnTopButtons(glassState: dev.chrisbanes.haze.HazeState?, onBack: ()
                 fun item(label: Int, icon: androidx.compose.ui.graphics.vector.ImageVector, danger: Boolean = false, go: () -> Unit) =
                     DropdownMenuItem(
                         text = { MenuText(stringResource(label), if (danger) brand.dangerText else brand.ink) },
-                        trailingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
+                        leadingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
                         onClick = {
                             menu = false
                             go()
