@@ -230,7 +230,10 @@ private fun MyTreesInner(
     BackHandler(enabled = selected == null && sheet.height == SheetHeight.FULL) { sheet.height = SheetHeight.HALF }
 
     // centreOfYours and spanOfYours: the map opens on your collection, or where you are.
-    val points = visited.map { it.lat to it.lng } + ownTrees.map { it.lat to it.lng }
+    // WHERE MOST OF YOUR TREES ARE, when they cannot all be in one view (Hidde, 2026-11-17:
+    // a collection from Spain to Japan opened on empty Central Asia, the world's floor
+    // zoom showing about 100 degrees across). MapFrame.densest, the iPhone's too.
+    val points = app.ancienttrees.map.MapFrame.densest(visited.map { it.lat to it.lng } + ownTrees.map { it.lat to it.lng })
     val centre = if (points.isEmpty()) origin else Here(points.map { it.first }.average(), points.map { it.second }.average())
     val span = if (!shows || points.isEmpty()) 3000.0 else {
         val m = maxOf(
@@ -354,7 +357,7 @@ private fun MyTreesInner(
         }
 
         // POLARSTEPS' GEAR: it never leaves, and fills in as the list becomes the page.
-        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 10.dp, end = 16.dp)) // under the status bar with 10 of air, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high next to the iPhone, whose safe top holds the island (Hidde, 2026-11-17)
+        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (10f * (1f - sheet.pageProgress)).dp, end = 16.dp)) // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
     }
 }
 

@@ -471,6 +471,15 @@ private val GoogleG: ImageVector by lazy {
 }
 
 /** For a link in plain text elsewhere (Settings' rows): open in the browser. */
+/**
+ * A page of ours (privacy, terms) in a Custom Tab, the browser window inside the app
+ * that Android apps use for such pages and the sign-in already uses (Account.kt);
+ * the separate browser only when no browser offers tabs (Hidde, 2026-11-17).
+ */
 fun openWeb(context: Context, url: String) {
-    runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url))) }
+    val uri = Uri.parse(url)
+    val tab = runCatching {
+        androidx.browser.customtabs.CustomTabsIntent.Builder().setShowTitle(true).build().launchUrl(context, uri)
+    }
+    if (tab.isFailure) runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, uri)) }
 }
