@@ -2,54 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-10T22:28:02+00:00",
-   "date": "2026-09-10",
-   "run_id": "34537557046",
-   "minutes": 73.5,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 424,
-   "denials": 31,
-   "denials_source": "permission_denials: Bash, Bash(bash), Bash(cat), Bash(cd), Bash(curl), Bash(for), Bash(gh), Bash(jobs), Bash(ls), Bash(mkdir), Bash(python3), Bash(rm), Bash(while)",
-   "ended": "success",
-   "tokens": 19363266,
-   "claims_held": [
-    "ravenna",
-    "salamanca",
-    "ischia"
-   ],
-   "commits": 9,
-   "cities_touched": 6,
-   "cities": [
-    {
-     "city": "singapore",
-     "trees": 6
-    },
-    {
-     "city": "dengfeng",
-     "trees": 1
-    },
-    {
-     "city": "fonte-colombo",
-     "trees": 1
-    },
-    {
-     "city": "macugnaga",
-     "trees": 1
-    },
-    {
-     "city": "nyingchi",
-     "trees": 1
-    },
-    {
-     "city": "yangshuo",
-     "trees": 1
-    }
-   ],
-   "trees": 11,
-   "logged": false
-  },
-  {
    "started": "2026-09-10T23:43:10+00:00",
    "date": "2026-09-11",
    "run_id": "34542588220",
@@ -18911,6 +18863,92 @@
     }
    ],
    "trees": 1,
+   "logged": true
+  },
+  {
+   "started": "2026-11-17T06:11:26+00:00",
+   "date": "2026-11-17",
+   "run_id": "44029276407",
+   "minutes": 15.7,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 188,
+   "denials": 1,
+   "denials_source": "permission_denials: Bash(cat | head)",
+   "ended": "success",
+   "tokens": 286843,
+   "claims_held": [
+    "guimaraes"
+   ],
+   "commits": 9,
+   "cities_touched": 16,
+   "cities": [
+    {
+     "city": "new-forest",
+     "trees": 2
+    },
+    {
+     "city": "adelaide",
+     "trees": 1
+    },
+    {
+     "city": "chattahoochee-national-forest",
+     "trees": 1
+    },
+    {
+     "city": "estavayer-le-lac",
+     "trees": 1
+    },
+    {
+     "city": "meares-island",
+     "trees": 1
+    },
+    {
+     "city": "te-araroa",
+     "trees": 1
+    },
+    {
+     "city": "bilbao",
+     "trees": 0
+    },
+    {
+     "city": "buenos-aires",
+     "trees": 0
+    },
+    {
+     "city": "charleston",
+     "trees": 0
+    },
+    {
+     "city": "hobart",
+     "trees": 0
+    },
+    {
+     "city": "istanbul",
+     "trees": 0
+    },
+    {
+     "city": "poggio-renatico",
+     "trees": 0
+    },
+    {
+     "city": "san-diego",
+     "trees": 0
+    },
+    {
+     "city": "sydney",
+     "trees": 0
+    },
+    {
+     "city": "thomasville",
+     "trees": 0
+    },
+    {
+     "city": "tuatapere",
+     "trees": 0
+    }
+   ],
+   "trees": 7,
    "logged": true
   }
  ],
