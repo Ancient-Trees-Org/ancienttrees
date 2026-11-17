@@ -379,6 +379,48 @@ def fresh_answers(md):
     return md
 
 
+def plus_words(md):
+    """Every typed Plus answer, word for word, right under the Plus table.
+
+    Hidde, 2026-11-17: "people who say something else with plus can you write
+    out those from now on". Since 11-15 the words sat in the long readers-in-
+    full table among everything else; here they stand where he reads the
+    counts. Local page only: DATA.md is public and never carries them. All
+    answers, newest first, while there are few; plus_answers holds no account.
+    """
+    start = md.find("**Plus question**")
+    if start < 0:
+        return md
+    end = md.find("\n\n**", start + 1)
+    end = len(md) if end < 0 else end
+    try:
+        import inbox
+        from plus_answers import LABELS as PLUS_LABELS
+        key = inbox.load_key()
+        rows = inbox.get("/rest/v1/plus_answers?select=created_at,surface,city,choices,idea,other_text"
+                         "&order=created_at.desc", key) or []
+    except Exception as e:
+        return md[:end] + "\n\n**What they wrote**: unreadable (%s)" % str(e)[:60] + md[end:]
+    lines = []
+    for r in rows:
+        idea, other = (r.get("idea") or "").strip(), (r.get("other_text") or "").strip()
+        if not (idea or other):
+            continue
+        where = " ".join(w for w in (r.get("surface") or "", r.get("city") or "") if w)
+        said = []
+        if other:
+            said.append("Something else: “%s”" % re.sub(r"\s+", " ", other))
+        if idea:
+            said.append("Idea: “%s”" % re.sub(r"\s+", " ", idea))
+        lines.append("| %s | %s | %s |" % ((r.get("created_at") or "")[:10], where or "-",
+                                            " / ".join(said).replace("|", "/")))
+    if not lines:
+        return md
+    block = ("**What they wrote** (every typed Plus answer, word for word, newest first)\n\n"
+             "| Day | Where | Their words |\n|---|---|---|\n" + "\n".join(lines))
+    return md[:end] + "\n\n" + block + md[end:]
+
+
 QUALITY_MARK = "QUALITYLINEGOESHERE"
 
 
@@ -518,6 +560,7 @@ def main():
         return 1
     day = head.split(" ")[0]
     md = fresh_answers(md)
+    md = plus_words(md)
     # An entry written before 2026-10-19 has no block for photographs on
     # existing trees; compute it now so the page always answers that. Only
     # for those: the 10-19 cut took the block out of new entries on purpose,
