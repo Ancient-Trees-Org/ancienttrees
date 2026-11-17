@@ -74,7 +74,7 @@
         "longitude": 147.3269,
         "neighbourhood": "Hobart CBD"
       },
-      "story": "Until 1941 this species was known only from fossils. Botanists had described Metasequoia from imprints in stone and filed it under extinct, and then living trees turned up in a valley in Hubei province, China. Every dawn redwood outside that valley descends from seed collected there in 1947 and posted around the world, which makes the three on the road reserve outside 81 Elizabeth Street the great-grandchildren of a botanical resurrection. There are three of them, within about twenty metres of each other in front of the former Commonwealth Bank building, and the City of Hobart's significant tree register treats them as a single record rather than three, because the group is the point. Its reasoning is unusually direct: the trees together provide a striking aesthetic in a sparsely vegetated part of the city, and they are locally very recognisable. Stand at the kerb and you get all three at once. That register is also all there is. No other source names these trees, and no planting date is recorded anywhere, so their age is genuinely unknown, with one hard ceiling: nobody outside China could have planted one before 1947. Dawn redwood is one of the few conifers that sheds its needles, so the trio go coppery and then bare through a Tasmanian winter and come back feathery green in spring, which for a fossil is a reasonable annual performance.",
+      "story": "Until 1941 this species was known only from fossils. Botanists had described Metasequoia from imprints in stone and filed it under extinct, and then living trees turned up in a valley in Hubei province, China. Every dawn redwood outside that valley descends from seed collected there in 1947 and posted around the world, which makes the three on the road reserve outside 81 Elizabeth Street the great-grandchildren of a botanical resurrection. There are three of them, within about twenty metres of each other in front of the former Commonwealth Bank building, and the City of Hobart's significant tree register treats them as a single record rather than three, because the group is the point. Its reasoning is unusually direct. It says the trees together provide a striking aesthetic in a sparsely vegetated part of the city, and they are locally very recognisable. Stand at the kerb and you get all three at once. That register is also all there is. No other source names these trees, and no planting date is recorded anywhere, so their age is genuinely unknown, with one hard ceiling: nobody outside China could have planted one before 1947. Dawn redwood is one of the few conifers that sheds its needles, so the trio go coppery and then bare through a Tasmanian winter and come back feathery green in spring, which for a fossil is a reasonable annual performance.",
       "verified_sources": [
         "https://hobartcc.maps.arcgis.com/sharing/rest/content/items/74ee044d75bc4842be84cdcf0b621dd9/data"
       ],
@@ -83,10 +83,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hob_002-the-dawn-redwoods-of-elizabeth-street.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dabd74bef1d935f48a2bb1d7",
+        "sighting_id": "e5ccc7fb-dcbe-4651-86ba-322bd91c2e04",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: Three dawn redwoods against a street-front building, Hobart; bright overcast, whole crowns in frame. Light is weak but it is the trees. Species seen: Metasequoia: feathery deciduous foliage, conical crowns, three trees. Fits the description: three tall redwoods on the pavement.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise them as three dawn redwoods within about twenty metres of each other, descendants of the 1947 seed collection that ended the species' presumed extinction. They stand on the road reserve outside 81 Elizabeth Street.",
       "official_register": {
@@ -107,7 +114,7 @@
         "longitude": 147.330875,
         "neighbourhood": "Hobart CBD"
       },
-      "story": "Asked in 2025 to name his favourite tree in Hobart, the owner of the New Town Station Nursery picked this one, and his reason was that it never changes much. Norfolk Island pines grow slowly and hold their shape, a stack of horizontal branch tiers running up a near-perfect vertical, and this one has kept its corner of Macquarie and Argyle Streets while the buildings around it got taller. The City of Hobart's register singles out its trunk: it forks into two co-dominant leaders, which on most conifers reads as a fault and on this one reads as character. It stands outside Ingle Hall, one of the oldest Georgian buildings in the city, now part of the University of Tasmania's Conservatorium of Music, so on a good day the tree comes with a soundtrack. The species is native to one small island in the Pacific, 1,400 km off the Australian east coast. Cook's crew, arriving there in 1774, looked at those dead-straight trunks and saw masts for the Royal Navy; the timber turned out to be too brittle for the job. As ornamental trees for windy southern ports they have done considerably better, and Hobart is about as far south as a port gets. No planting date was ever recorded, so nobody can tell you how old it is.",
+      "story": "Asked in 2025 to name his favourite tree in Hobart, the owner of the New Town Station Nursery picked this one, and his reason was that it never changes much. Norfolk Island pines grow slowly and hold their shape, a stack of horizontal branch tiers running up a near-perfect vertical, and this one has kept its corner of Macquarie and Argyle Streets while the buildings around it got taller. The City of Hobart's register singles out its trunk, which forks into two co-dominant leaders, and that on most conifers reads as a fault and on this one reads as character. It stands outside Ingle Hall, one of the oldest Georgian buildings in the city, now part of the University of Tasmania's Conservatorium of Music, so on a good day the tree comes with a soundtrack. The species is native to one small island in the Pacific, 1,400 km off the Australian east coast. Cook's crew, arriving there in 1774, looked at those dead-straight trunks and saw masts for the Royal Navy; the timber turned out to be too brittle for the job. As ornamental trees for windy southern ports they have done considerably better, and Hobart is about as far south as a port gets. No planting date was ever recorded, so nobody can tell you how old it is.",
       "verified_sources": [
         "https://hobartcc.maps.arcgis.com/sharing/rest/content/items/0ad4226f41b3412681208b481a027004/data",
         "https://hellohobart.com.au/2025/02/celebrating-new-town-station-nursery/"
@@ -117,10 +124,17 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hob_003-the-norfolk-island-pine-of-ingle-hall.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dabd74bef1d935f48a2bb1d7",
+        "sighting_id": "c966501b-99ab-45d9-8cbd-2e035cdc3e87",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: Tall Norfolk Island pine at the Macquarie and Argyle corner, Hobart, fills the frame, daylight, colour. Species seen: Araucaria heterophylla: tiered horizontal whorls, conical crown. Fits the description: tall pine beside the old Ingle Hall corner, street sign Macquarie St visible.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its trunk forking into two co-dominant leaders under a stack of horizontal branch tiers. It stands outside Ingle Hall, Macquarie and Argyle Streets.",
       "official_register": {
@@ -141,7 +155,7 @@
         "longitude": 147.323915,
         "neighbourhood": "Hobart CBD"
       },
-      "story": "This tree is on Hobart's significant tree register for one stated reason: its loss would be detrimental to the community. Not size, not age, not rarity. The Bhutan cypress at 67 Brisbane Street earned its place as a shape, a dark green cone running straight up out of the footpath, holding a vertical line on a street that otherwise runs horizontal. It is a long way from home. Cupressus torulosa grows wild in the dry inner valleys of the Himalaya, through northern India, Nepal and Bhutan, at altitudes that hand it thin air, hard sun and freezing nights, and across that range it is the tree planted around temples and monasteries. It is uncommon as a street tree in Australia, so the reason to walk past is simply that you are unlikely to meet another one on the way. The register carries no age for it and no measurements, and no other source names it at all. What you get is the council's judgement and your own eyes, which is honest ground for a tree whose whole case rests on how it looks from the pavement. It makes the smallest claim of any tree on this list and the claim holds: a Himalayan conifer, on an ordinary Hobart street, that a city looked at and decided it would rather not lose.",
+      "story": "This tree is on Hobart's significant tree register for one stated reason: its loss would be detrimental to the community. Not size, not age, not rarity. The Bhutan cypress at 67 Brisbane Street earned its place as a shape, a dark green cone running straight up out of the footpath, holding a vertical line on a street that otherwise runs horizontal. It is a long way from home. Cupressus torulosa grows wild in the dry inner valleys of the Himalaya, through northern India, Nepal and Bhutan, at altitudes that hand it thin air, hard sun and freezing nights, and across that range it is the tree planted around temples and monasteries. It is uncommon as a street tree in Australia, so the reason to walk past is simply that you are unlikely to meet another one on the way. The register carries no age for it and no measurements, and no other source names it at all. What you get is the council's judgement and your own eyes, which is honest ground for a tree whose whole case rests on how it looks from the pavement. It makes the smallest claim of any tree on this list and the claim holds. It is a Himalayan conifer on an ordinary Hobart street that a city looked at and decided it would rather not lose.",
       "verified_sources": [
         "https://hobartcc.maps.arcgis.com/sharing/rest/content/items/01111fc4ba2f48629fa91c551813612b/data"
       ],
@@ -150,10 +164,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hob_004-the-bhutan-cypress-of-brisbane-street.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dabd74bef1d935f48a2bb1d7",
+        "sighting_id": "0efe2765-3329-41a9-989e-c1b1681b6330",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: Large conical cypress with a thick buttressed trunk beside a brick hall, Hobart, daylight, whole tree in frame. Species seen: Bhutan cypress: dense scale foliage, narrow cone crown. Fits the description: single big conical conifer on a street corner by a car park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its dark green, cone-shaped column running straight up out of the footpath. It stands at 67 Brisbane Street.",
       "official_register": {

@@ -3791,6 +3791,157 @@
   "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac": {
    "outcome": "lead",
    "date": "2026-11-17"
+  },
+  "fb383f1e-0383-4579-9603-21cca3aedd94": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "mex_006",
+   "reason": "Dead standing trunk with a stone urn behind, GPS 3.9 km from the San Fernando garden (Chapultepec area); not our living broad-crowned tree. Dead, so not a lead either."
+  },
+  "07a152c4-578e-45fd-a3ca-1023b7e43bfc": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "mex_006",
+   "reason": "Same dead trunk as fb383f1e; GPS 3.9 km from the tree it is tagged to."
+  },
+  "e9aa481b-add6-4a30-841d-1d7e36f5bce7": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "mex_006",
+   "reason": "Same dead trunk as fb383f1e; GPS 3.9 km from the tree it is tagged to."
+  },
+  "c966501b-99ab-45d9-8cbd-2e035cdc3e87": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "hob_003",
+   "city_slug": "hobart",
+   "file": "hob_003-the-norfolk-island-pine-of-ingle-hall.jpg",
+   "reason": "Tall Norfolk Island pine at the Macquarie and Argyle corner, Hobart, fills the frame, daylight, colour. Species seen: Araucaria heterophylla: tiered horizontal whorls, conical crown. Fits the description: tall pine beside the old Ingle Hall corner, street sign Macquarie St visible.",
+   "lat": -42.8818666666667,
+   "lon": 147.33148,
+   "pin_checked": "2026-11-17"
+  },
+  "0efe2765-3329-41a9-989e-c1b1681b6330": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "hob_004",
+   "city_slug": "hobart",
+   "file": "hob_004-the-bhutan-cypress-of-brisbane-street.jpg",
+   "reason": "Large conical cypress with a thick buttressed trunk beside a brick hall, Hobart, daylight, whole tree in frame. Species seen: Bhutan cypress: dense scale foliage, narrow cone crown. Fits the description: single big conical conifer on a street corner by a car park.",
+   "lat": -42.8790466666667,
+   "lon": 147.32405,
+   "pin_checked": "2026-11-17"
+  },
+  "e5ccc7fb-dcbe-4651-86ba-322bd91c2e04": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "hob_002",
+   "city_slug": "hobart",
+   "file": "hob_002-the-dawn-redwoods-of-elizabeth-street.jpg",
+   "reason": "Three dawn redwoods against a street-front building, Hobart; bright overcast, whole crowns in frame. Light is weak but it is the trees. Species seen: Metasequoia: feathery deciduous foliage, conical crowns, three trees. Fits the description: three tall redwoods on the pavement.",
+   "lat": -42.881195,
+   "lon": 147.32698,
+   "pin_checked": "2026-11-17"
+  },
+  "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "tua_001",
+   "city_slug": "tuatapere",
+   "file": "tua_001-the-big-totara-of-lillburn-monowai-road-45e7ad05.jpg",
+   "reason": "Trunk of a giant totara looking up, ferns and moss, forest daylight; goes in the strip beside the lead. Species seen: podocarp, flaky red-brown bark, epiphytic ferns. Fits the description: huge forest trunk.",
+   "lat": -45.8669883333333,
+   "lon": 167.634291666667,
+   "pin_checked": "2026-11-17"
+  },
+  "4be001d1-ee21-48f8-81df-67bf1bb02d41": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "syd_006",
+   "city_slug": "sydney",
+   "file": "syd_006-the-wishing-tree-4be001d1.jpg",
+   "reason": "Norfolk Island pine trunk ringed by a clipped hedge, tag on the trunk, parkland behind. Species seen: Araucaria with bumpy bark. Fits the description: hedge-ringed pine with a label.",
+   "lat": -33.864925,
+   "lon": 151.217955,
+   "pin_checked": "2026-11-17"
+  },
+  "f05d3a86-b304-47ac-bf24-2e0f88ad99a1": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "syd_006",
+   "city_slug": "sydney",
+   "file": "syd_006-the-wishing-tree-f05d3a86.jpg",
+   "reason": "Same frame as 4be001d1, a second copy; strip takes it. Species seen: Araucaria with bumpy bark. Fits the description: hedge-ringed pine with a label.",
+   "lat": -33.864925,
+   "lon": 151.217955,
+   "pin_checked": "2026-11-17"
+  },
+  "aa636a2c-f651-42b4-82e2-18f8ce6b981e": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "thv_001",
+   "city_slug": "thomasville",
+   "file": "thv_001-the-big-oak-aa636a2c.jpg",
+   "reason": "Great live oak spreading over a street, a visitor with a dog beside the sign; the tree is the subject. Species seen: southern live oak, resurrection fern on limbs. Fits the description: huge spreading oak by a street with a sign.",
+   "lat": 30.8412716666667,
+   "lon": -83.98172,
+   "pin_checked": "2026-11-17"
+  },
+  "c64b5650-6946-456a-b0d4-8af4fd95bacd": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "thv_001",
+   "city_slug": "thomasville",
+   "file": "thv_001-the-big-oak-c64b5650.jpg",
+   "reason": "Close wide view of the same live oak's trunk and limbs, daylight. Species seen: southern live oak. Fits the description: massive trunk and limbs, same knot-hole as the other frame.",
+   "lat": 30.8412083333333,
+   "lon": -83.9816666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "ee80ee46-48b1-4e89-bc8d-23c892d50b1d": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "sdg_001",
+   "city_slug": "san-diego",
+   "file": "sdg_001-the-moreton-bay-fig-of-balboa-park-ee80ee46.jpg",
+   "reason": "Moreton Bay fig buttress roots and trunk, close and daylight. Species seen: Ficus macrophylla: smooth grey bark, huge buttress roots. Fits the description: fig with spreading surface roots.",
+   "lat": 32.7328033333333,
+   "lon": -117.147636166667,
+   "pin_checked": "2026-11-17"
+  },
+  "e5b4eedf-8140-4bf4-8ce2-c32a1f921168": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "bai_001",
+   "city_slug": "buenos-aires",
+   "file": "bai_001-the-gomero-de-la-recoleta-e5b4eedf.jpg",
+   "reason": "Recoleta gomero with the statue holding a limb up; the tree is the frame, light a little hazy. Species seen: Ficus macrophylla: pale smooth branches, propped limbs. Fits the description: giant fig with propped limbs by a plaza.",
+   "lat": -34.58758,
+   "lon": -58.3910616666667,
+   "pin_checked": "2026-11-17"
+  },
+  "78b88780-f090-4c13-8360-95570ebe3113": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "chs_001",
+   "city_slug": "charleston",
+   "file": "chs_001-the-angel-oak-78b88780.jpg",
+   "reason": "The Angel Oak's whole crown with visitors for scale. Species seen: southern live oak, huge horizontal limbs. Fits the description: vast spreading oak with crowd below.",
+   "lat": 32.71709,
+   "lon": -80.08043,
+   "pin_checked": "2026-11-17"
+  },
+  "60878254-21f7-4e0d-8d06-91700db3e06a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "orr_001",
+   "city_slug": "orroroo",
+   "file": "orr_001-the-orroroo-giant-gum.jpg",
+   "reason": "Giant red gum with its own sign and a man with arms spread for scale. Species seen: Eucalyptus camaldulensis, mottled pale bark. Fits the description: sign reads Giant Red Gum, huge trunk.",
+   "already_lead": true,
+   "lat": -32.727745,
+   "lon": 138.607986666667,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

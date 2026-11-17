@@ -522,6 +522,953 @@
    "agreed": null
   },
   {
+   "id": "lead:f254c136-8a64-4005-8939-29db9a7d38fa",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Los Angeles",
+   "city": null,
+   "species": null,
+   "photo": "p_b8034efbc6cd91fc76ba0ba1/F254C136-8A64-4005-8939-29DB9A7D38FA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:471cdeb1-6853-43a4-85a6-f926e83b532c",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "European Yew near Llanfihangel-nant-Melan",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_15642ad760ce3bac3f536318/471CDEB1-6853-43A4-85A6-F926E83B532C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1be89823-692c-46dd-bb1c-be7dbd6ed022",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_7e3b1972e2f7c829442cdf8b/1BE89823-692C-46DD-BB1C-BE7DBD6ED022.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:dadb2ea4-792f-460d-b66d-d46f064f0a8a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Moreton Bay Fig in Los Angeles",
+   "city": null,
+   "species": "Moreton Bay Fig",
+   "photo": "p_a52c97c9ecd3468c7f9a998f/DADB2EA4-792F-460D-B66D-D46F064F0A8A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Bodhi Tree near Chiang Mai",
+   "city": null,
+   "species": "Bodhi Tree",
+   "photo": "p_729e302d7f04d07965d7a3fc/7F0038BA-2D3C-4BF4-A206-135905BFF0F3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bodhi Tree"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Kapok",
+   "city": null,
+   "species": "Kapok",
+   "photo": "p_e6628375ba1aea1573317fad/00FD8D2F-72A7-44C8-9D4A-7F1EB5380462.jpg",
+   "reader_note": "It looks like an elephant’s trunk",
+   "reader_girth_cm": 2000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:df10cd8a-f0f4-4911-a37f-b5b4e85b7425",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Kapok",
+   "city": null,
+   "species": "Kapok",
+   "photo": "p_e6628375ba1aea1573317fad/DF10CD8A-F0F4-4911-A37F-B5B4E85B7425.jpg",
+   "reader_note": "3 trees in close proximity,saved from destruction by building a wall in front of them",
+   "reader_girth_cm": 1500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:230a268f-5aae-4c91-b133-15982a3ed896",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Blue Jacaranda in ISA",
+   "city": null,
+   "species": "Blue Jacaranda",
+   "photo": "p_c516cec5b9e607f5340d3a45/230A268F-5AAE-4C91-B133-15982A3ED896.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Blue Jacaranda"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e3f862e3-ee04-4d1e-baf8-49ac5be624d0",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Judas Tree in ISA",
+   "city": null,
+   "species": "Judas Tree",
+   "photo": "p_c516cec5b9e607f5340d3a45/E3F862E3-EE04-4D1E-BAF8-49AC5BE624D0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Judas Tree"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Portuguese Oak in Lisbon",
+   "city": null,
+   "species": "Portuguese Oak",
+   "photo": "p_c516cec5b9e607f5340d3a45/4CEC5259-AC92-4A7A-9C4C-9F6DDD1ACD1A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Portuguese Oak"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a069351f-fe5c-40fa-9b6a-efab20714ba0",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Queensland Kauri in Sydney",
+   "city": null,
+   "species": "Queensland Kauri",
+   "photo": "p_222183a8bfd1e5262ec0f187/A069351F-FE5C-40FA-9B6A-EFAB20714BA0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Queensland Kauri"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:665082d2-815b-4630-883a-5f619725cdb9",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Tristaniopsis laurina in Melbourne",
+   "city": null,
+   "species": "Tristaniopsis laurina",
+   "photo": "p_68e3fe2f2c08d678d123d61f/665082D2-815B-4630-883A-5F619725CDB9.jpg",
+   "reader_note": "It seems to reach out to say hello in all directions…",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Tristaniopsis laurina"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:993d2833-d88b-43cc-a6e2-804c1e2c6921",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Giant Ficus Tree, Bali Botanic Garden",
+   "city": null,
+   "species": "Fig (Ficus sp.)",
+   "photo": "p_68e3fe2f2c08d678d123d61f/993D2833-D88B-43CC-A6E2-804C1E2C6921.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Oriental Plane in Cambridge",
+   "city": null,
+   "species": "Oriental Plane",
+   "photo": "p_5c22c3030ca37ddafb789ab6/B43D0C0B-469B-44EF-AB4B-BBA2C7B8F7DC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b451d1e8-4b8b-4bb0-9680-01874b41c26b",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Ficus macrophylla in Buenos Aires",
+   "city": null,
+   "species": "Ficus macrophylla (Villa di)",
+   "photo": "p_c2012de5624108c0f0e2806e/B451D1E8-4B8B-4BB0-9680-01874B41C26B.jpg",
+   "reader_note": "One of the oldest inhabitants of Buenos Aires. Possibly the second or third oldest tree after the Gomero de la Recoleta. This one is called Gomero de Plaza San Martín.",
+   "reader_girth_cm": 1200,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.571,
+    "via": "girth",
+    "note": "57% of the species reference (2100 cm, n=43, max 3600)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:60878254-21f7-4e0d-8d06-91700db3e06a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum",
+   "city": null,
+   "species": "River Red Gum",
+   "photo": "p_5428454fcb4709329e1ac069/60878254-21F7-4E0D-8D06-91700DB3E06A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1089,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-990",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Quercia del Parco Massari di Ferrara",
+   "city": "Ferrara - Italy",
+   "species": "Oak (Quercus sp.)",
+   "photo": "p_64aded5e0bdd8d60b3e78790/a0c487a4-a455-49a3-ac62-4330ee7a8891.jpg",
+   "reader_note": "Albero monumentale protetto dalla Regione Emilia-Romagna. Ha un'età stimata di circa 150 anni e una circonferenza del tronco di 480 cm.\nE' maestosa e forte, ma stare sotto le sue fronde dà anche un senso di ospitalità e protezione.\n\nhttps://www.facebook.com/ilregistrodeglialberi/posts/una-bella-farnia-quercus-robur-al-parco-massari-a-ferrara/1076894882919340/",
+   "reader_girth_cm": 480,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-993",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Balmerino Chestnut",
+   "city": "Balmerino",
+   "species": "Sweet Chestnut (Castanea sp.)",
+   "photo": "p_689c4e2ff0c620317107e194/e40a0d20-885e-493b-adc0-b49a6c42f5ab.jpg",
+   "reader_note": "Ancient tree, 500 years old, may mark the remains of Quern Ermengarde of Scotland",
+   "reader_girth_cm": 500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-995",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Pioppo bianco dell'Oasi Lagoverde di Bologna",
+   "city": "Bologna, Italy",
+   "species": "Poplar (Populus sp.)",
+   "photo": "p_64aded5e0bdd8d60b3e78790/ebc67bb6-f78d-4bb1-a3d7-de0020e0d895.jpg",
+   "reader_note": "Questo albero ha una circonferenza del tronco di circa 300 cm e un'età stimata di circa 300 anni. E' chiamato infatti \"pioppo trecentenario\".\nSi trova nell'Oasi del Lagoverde, su un percorso in mezzo alla natura nel quale vengono organizzate anche attività che prevedono l'abbraccio dell'albero per avvicinare adulti e bambini alla sua energia vitale.\nIl pioppo bianco viene comunemente chiamato \"Sequoia della Pianura Padana\" da chi vive in questi territori, perché le sue dimensioni posso diventare",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Poplar (Populus sp.)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4887a7bf-c121-4574-a1f0-8944f1ac00b7",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Pohutukawa",
+   "city": null,
+   "species": "Pohutukawa",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/4887A7BF-C121-4574-A1F0-8944F1AC00B7.jpg",
+   "reader_note": "The Te Waha O Rerekohu tree is believed to be the oldest and largest pohutukawa in the world.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pohutukawa"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ae132f45-019f-4e63-9723-98dd6e815807",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Gennet Poplar (Tulip Tree)",
+   "city": null,
+   "species": "Tulip Tree",
+   "photo": "p_f127bf781505453e3305184d/AE132F45-019F-4E63-9723-98DD6E815807.jpg",
+   "reader_note": "The Gennet Poplar located at Bear Creek Trailhead, FS Road 241, Ellijay, GA",
+   "reader_girth_cm": 550,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Tulip Tree"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b3d97fd9-33cf-40bc-a557-1c8dccbfec24",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Knightwood Oak - A tree near Mottisfont",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_f127bf781505453e3305184d/B3D97FD9-33CF-40BC-A557-1C8DCCBFEC24.jpg",
+   "reader_note": "• Nickname: Often called the \"Queen of the Forest\" since the Victorian era.\n• Age & Size: Estimated to be between 500 and 600 years old, with a massive trunk girth of roughly 7.4 meters (24 feet).\n• History: It was historically pollarded (having its upper branches cut back to encourage dense new growth) around age 200, with its last pollarding occurring in the mid-19th century. It has been a popular tourist draw since Victorian times.\n• Access & Walking: A short, accessible and barrier-free grav",
+   "reader_girth_cm": 740,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.888,
+    "via": "girth",
+    "note": "189% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:968c829e-effd-4454-8b9c-271da4d79854",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Giant Sequoias at Tall Trees Trail Walk",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_f127bf781505453e3305184d/968C829E-EFFD-4454-8B9C-271DA4D79854.jpg",
+   "reader_note": "The Tall Trees Trail in the New Forest National Park (located along Rhinefield Ornamental Drive near the Blackwater Car Park) features an impressive collection of Victorian-era conifer giants planted in the 1850s.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ec026f7b-a1b8-4316-b8ea-07c111061c44",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Pecan",
+   "city": null,
+   "species": "Pecan",
+   "photo": "p_f127bf781505453e3305184d/EC026F7B-A1B8-4316-B8EA-07C111061C44.jpg",
+   "reader_note": "The iconic centerpiece of Meadowlark 1939 (located in Griffin, Georgia) was a historic 100-to-150-year-old pecan tree located in the estate's Pecan Circle.\n• The Pecan Circle: This tree served as the natural, open-air backdrop and ceremony centerpiece for weddings and events at the English-inspired estate.\n• Tragic Loss: In January 2023, the historic pecan trees and gardens on the property were completely destroyed when a tornado struck the venue.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pecan"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a48cae8c-f582-4ca2-b055-05c4020fca0c",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Large-leaved Lime near La Tène",
+   "city": null,
+   "species": "Large-leaved Lime",
+   "photo": "p_f127bf781505453e3305184d/A48CAE8C-F582-4CA2-B055-05C4020FCA0C.jpg",
+   "reader_note": "The prominent tree located on the Place de Moudon in Estavayer-le-Lac, Switzerland, is a historic linden tree (Tilia / tilleul).\n\nKey Details:\n\n• Species: Large-leaved linden / Summer linden (Tilia platyphyllos / Sommer-Linde)\n• Planted: Around 1547 (referenced in historical records dating back to 1563)\n• Characteristics: It has a stout, partially hollow trunk supported by internal/adventitious roots and overlooks the Lake of Neuchâtel (Neuenburgersee) and the nearby medieval Château de Chenaux.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Large-leaved Lime"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b41e05ce-7f7e-4aeb-a19e-e1c252662378",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Big tree trail at Cathedral Grove",
+   "city": null,
+   "species": null,
+   "photo": "p_f127bf781505453e3305184d/B41E05CE-7F7E-4AEB-A19E-E1C252662378.jpg",
+   "reader_note": "Forest Highlights: Walks among ancient, old-growth temperate rainforest giants—including Douglas firs over 800 years old (reaching up to 75 meters tall and 8 to 9 meters in circumference), as well as ancient Western Red Cedars and Bigleaf Maples.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b730acca-9b47-4ce7-9ebc-5ca8499ac7ac",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum near Adelaide",
+   "city": null,
+   "species": "River Red Gum",
+   "photo": "p_9707e15060547d5c0035ab20/B730ACCA-9B47-4CE7-9EBC-5CA8499AC7AC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 800,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e5b4eedf-8140-4bf4-8ce2-c32a1f921168",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Gomero de la Recoleta",
+   "city": "Buenos Aires",
+   "species": null,
+   "photo": "out/sightings/e5b4eedf-8140-4bf4-8ce2-c32a1f921168.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Recoleta gomero with propped limbs, in the strip beside the lead; the tree is the frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:78b88780-f090-4c13-8360-95570ebe3113",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Angel Oak",
+   "city": "Charleston",
+   "species": null,
+   "photo": "out/sightings/78b88780-f090-4c13-8360-95570ebe3113.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Whole Angel Oak crown with visitors for scale, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e5ccc7fb-dcbe-4651-86ba-322bd91c2e04",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Dawn Redwoods of Elizabeth Street",
+   "city": "Hobart",
+   "species": null,
+   "photo": "out/sightings/e5ccc7fb-dcbe-4651-86ba-322bd91c2e04.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Three dawn redwoods on the pavement, our tree had no photograph; light weak but it is the trees.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c966501b-99ab-45d9-8cbd-2e035cdc3e87",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Norfolk Island Pine of Ingle Hall",
+   "city": "Hobart",
+   "species": null,
+   "photo": "out/sightings/c966501b-99ab-45d9-8cbd-2e035cdc3e87.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Tall Norfolk Island pine at Macquarie and Argyle, lead photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0efe2765-3329-41a9-989e-c1b1681b6330",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Bhutan Cypress of Brisbane Street",
+   "city": "Hobart",
+   "species": null,
+   "photo": "out/sightings/0efe2765-3329-41a9-989e-c1b1681b6330.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Big Bhutan cypress by the brick hall, whole tree in frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ee80ee46-48b1-4e89-bc8d-23c892d50b1d",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Balboa Park",
+   "city": "San Diego",
+   "species": null,
+   "photo": "out/sightings/ee80ee46-48b1-4e89-bc8d-23c892d50b1d.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Moreton Bay fig roots and trunk, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4be001d1-ee21-48f8-81df-67bf1bb02d41",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Wishing Tree",
+   "city": "Sydney",
+   "species": null,
+   "photo": "out/sightings/4be001d1-ee21-48f8-81df-67bf1bb02d41.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Hedge-ringed Norfolk pine with its tag, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f05d3a86-b304-47ac-bf24-2e0f88ad99a1",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Wishing Tree",
+   "city": "Sydney",
+   "species": null,
+   "photo": "out/sightings/f05d3a86-b304-47ac-bf24-2e0f88ad99a1.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Same frame as 4be001d1, strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:aa636a2c-f651-42b4-82e2-18f8ce6b981e",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Oak",
+   "city": "Thomasville",
+   "species": null,
+   "photo": "out/sightings/aa636a2c-f651-42b4-82e2-18f8ce6b981e.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Live oak over the street with its sign, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c64b5650-6946-456a-b0d4-8af4fd95bacd",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Oak",
+   "city": "Thomasville",
+   "species": null,
+   "photo": "out/sightings/c64b5650-6946-456a-b0d4-8af4fd95bacd.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Trunk and limbs of the same live oak, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Totara of Lillburn Monowai Road",
+   "city": "Tuatapere",
+   "species": null,
+   "photo": "out/sightings/45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "publish",
+   "reason": "Giant totara trunk with ferns, added to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fb383f1e-0383-4579-9603-21cca3aedd94",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ahuehuete del Jardin de San Fernando",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "out/sightings/fb383f1e-0383-4579-9603-21cca3aedd94.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "hold",
+   "reason": "Dead standing trunk, GPS 3.9 km from our tree; held.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:07a152c4-578e-45fd-a3ca-1023b7e43bfc",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ahuehuete del Jardin de San Fernando",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "out/sightings/07a152c4-578e-45fd-a3ca-1023b7e43bfc.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "hold",
+   "reason": "Same dead trunk; held.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e9aa481b-add6-4a30-841d-1d7e36f5bce7",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ahuehuete del Jardin de San Fernando",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "out/sightings/e9aa481b-add6-4a30-841d-1d7e36f5bce7.jpg",
+   "reader_note": "",
+   "match": "app",
+   "verdict": "hold",
+   "reason": "Same dead trunk; held.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
    "seen": "2026-11-16",
    "kind": "photo of a tree we map",
