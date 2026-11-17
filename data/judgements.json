@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:tip-1111",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Horse Chestnut Tree of Sofienbergparken",
+   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
+   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole horse chestnut, a leaning dark trunk and long crooked limbs sweeping almost to the ground, daylight, colour. Live as oslo/osl_005 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -3729,6 +3741,48 @@
    },
    "verdict": "publish",
    "reason": "A reader's daylight photograph of the elm in full leaf on the Mall lawn, museum dome across the green; now the lead photo on wdc_004, the iNaturalist picture behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1111",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Horse Chestnut Tree of Sofienbergparken",
+   "city": "Oslo",
+   "species": null,
+   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
+   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole horse chestnut, leaning dark trunk and long low crooked limbs nearly to the ground, daylight, colour; somewhat special. No GPS, so an approximate pin on Sofienbergparken, the site the reader named. Live as oslo/osl_005, their age as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:84674aa7-4088-4a3e-a918-5954d2bbd0c6",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Baarn",
+   "species": null,
+   "photo": "p_509872fdf0d610368f037fd5/84674AA7-4088-4A3E-A918-5954D2BBD0C6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Our own account (mine). Sent as the Baarn town hall plane but shows a plane on an open park lawn with no building, so another tree; its coordinate is our pin, not where it was taken: held doubt_location.",
    "hidde": null,
    "agreed": null
   },

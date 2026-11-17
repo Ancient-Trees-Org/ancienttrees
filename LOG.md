@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a reader's horse chestnut live in Oslo
+
+- **Oslo (osl_005, the Low-Armed Chestnut of Sofienbergparken)**: a reader sent this tree through the website, with a photograph and the park's name. The photo shows a horse chestnut with a leaning dark trunk and long crooked limbs that sweep out almost to the ground, in daylight. It is somewhat special, so it went live under the closed list. There was no GPS fix, so the pin marks the park (approximate) and the story says so. Their age of 150 to 168 years is given as their estimate. It fits the park's history (a cemetery from 1858, turned into a park from 1918), but no record names the tree. The photo has no date and shows no snow, so no month was set. Oslo now has five trees. The congratulation mail goes with the next knock.
+- **Baarn (brn_008)**: a photograph sent as the Town Hall Plane came from one of our own accounts (`mine`). It shows a plane on an open park lawn with no building, so it is a different tree. The verdict is `other_tree`, and the lead is held as `doubt_location` because its coordinate is our own pin. Nothing was published.
+- No open reports, no feedback without a verdict, and no reader words to quote.
+
 ## 2026-11-17 session: Google Play listing set up, nothing uploaded yet
 
 - **Play Console, with Hidde**: phone verified on his Samsung (Play Console app), app created (`app.ancienttrees.android`, en-GB, free). All eleven setup tasks done: privacy policy, sign-in details, ads, content rating, audience 16+, Data safety (crash logs added, PostHog since 11-16), government, financial, health, category Travel & Local, contact info@ancienttrees.app and https://ancienttrees.app.

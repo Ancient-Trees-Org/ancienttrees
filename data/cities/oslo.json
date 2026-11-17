@@ -222,6 +222,48 @@
           "note": "Second frame of the same tree; same permission as the lead."
         }
       ]
+    },
+    {
+      "id": "osl_005",
+      "name": "The Low-Armed Chestnut of Sofienbergparken",
+      "species": "Horse Chestnut (Aesculus hippocastanum)",
+      "age_estimate": "150 to 168 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Sofienbergparken, Grünerløkka, Oslo",
+        "latitude": 59.92278,
+        "longitude": 10.76417,
+        "neighbourhood": "Grünerløkka"
+      },
+      "how_to_recognise": "A horse chestnut with a dark leaning trunk whose long, crooked limbs sweep out sideways almost to the ground over a circle of bare earth, a short walk in from the street side of the park.",
+      "access": "Free, in a public park, open at all hours.",
+      "verified_sources": [
+        "Reader's photograph and note, 2026-11-17 (submission tip-1111): a horse chestnut in Sofienbergparken, Oslo, 150 to 168 years old by their estimate",
+        "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/parker-og-friomrader/sofienbergparken/ (Oslo kommune: Sofienbergparken, a public park by Sofienberg church, divided by Rathkes gate)",
+        "https://en.wikipedia.org/wiki/Sofienberg_Park (Sofienberg Park: laid out as a cemetery in 1858, converted to parkland from 1918 to 1972)"
+      ],
+      "story": "\"Beautiful low slung branches reaching just above the ground,\" wrote the reader who sent us this horse chestnut from Sofienbergparken, the park in Oslo's Grünerløkka district that began life as a cemetery.\n\nThey put it at 150 to 168 years old, and that figure lines up with the ground's own history. The area was laid out as a burial ground in 1858, on what was then the edge of the city, and from 1918 the cemetery was turned step by step into the park that is there now. A tree of 168 years would date from that first cemetery's early years. We have found no record of its planting, so the age is the reader's.\n\nWhat the photograph shows needs no record. A dark trunk leans out of a circle of bare, leaf-strewn earth and splits into limbs that do not climb so much as wander, bending and doubling back, one of them running out sideways until it nearly brushes the ground. The broad, five-fingered leaves of a horse chestnut close over it like a roof, and beyond, the white apartment fronts of the street show through.\n\nOur pin marks the park, not the tree; if you find it, send us a photograph with your location and we will move it.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "tip-1111",
+        "date": "2026-11-17"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (tip-1111, 2026-11-17, through the website). Photograph viewed: the whole horse chestnut from the bare, leaf-strewn ground beneath it: a leaning dark trunk, long crooked limbs sweeping out almost to the grass, palmate leaves overhead, park lawn and white apartment fronts behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Horse Chestnut Tree of Sofienbergparken', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/osl_005-low-armed-chestnut-of-sofienbergparken.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1080,
+        "height": 1433,
+        "source": "contributor",
+        "contributor_user_id": "p_e0b30a55cd62a31cebd6dc2f",
+        "sighting_id": "tip-1111",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the website); viewed and approved on 2026-11-17: the whole horse chestnut from the bare, leaf-strewn ground beneath it: a leaning dark trunk, long crooked limbs sweeping out almost to the grass, palmate leaves overhead, park lawn and white apartment fronts behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }
