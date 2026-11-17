@@ -217,11 +217,6 @@
       "released_at": "2026-11-13T17:43:56+00:00"
     },
     {
-      "slug": "san-francisco",
-      "kind": "verify",
-      "released_at": "2026-11-15T07:01:00+00:00"
-    },
-    {
       "slug": "potsdam",
       "kind": "verify",
       "released_at": "2026-11-15T07:16:24+00:00"
@@ -235,16 +230,6 @@
       "slug": "fort-worth",
       "kind": "verify",
       "released_at": "2026-11-15T07:17:51+00:00"
-    },
-    {
-      "slug": "nuremberg",
-      "kind": "verify",
-      "released_at": "2026-11-15T15:10:04+00:00"
-    },
-    {
-      "slug": "graz",
-      "kind": "verify",
-      "released_at": "2026-11-15T15:10:06+00:00"
     },
     {
       "slug": "spokane",
@@ -280,6 +265,21 @@
       "slug": "miami",
       "kind": "verify",
       "released_at": "2026-11-17T06:30:35+00:00"
+    },
+    {
+      "slug": "san-francisco",
+      "kind": "verify",
+      "released_at": "2026-11-17T17:32:13+00:00"
+    },
+    {
+      "slug": "graz",
+      "kind": "verify",
+      "released_at": "2026-11-17T17:32:17+00:00"
+    },
+    {
+      "slug": "nuremberg",
+      "kind": "verify",
+      "released_at": "2026-11-17T17:32:19+00:00"
     }
   ]
 }
