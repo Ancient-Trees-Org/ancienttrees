@@ -1873,6 +1873,30 @@
      "mailed": "2026-11-17"
     }
    ]
+  },
+  "p_05cc15a3f44a1e9f51181213": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "62e38d75-fb0b-4430-b3dc-791865129b6c",
+     "tree_id": "sor_001",
+     "tree_name": "The Multisecular Beech of Saint-Jammes",
+     "city": "Sorèze",
+     "city_slug": "soreze",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "20dc8d53-91c1-4087-963b-583bb1d5d7ce",
+     "tree_id": "sor_001",
+     "tree_name": "The Multisecular Beech of Saint-Jammes",
+     "city": "Sorèze",
+     "city_slug": "soreze",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -4462,6 +4462,28 @@
    "tree_id": "bnm_001",
    "city_slug": "bangor-maine",
    "pin_checked": "2026-11-17"
+  },
+  "62e38d75-fb0b-4430-b3dc-791865129b6c": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "sor_001",
+   "city_slug": "soreze",
+   "file": "sor_001-the-multisecular-beech-of-saint-jammes.jpg",
+   "reason": "The whole beech from the grass: a short massive fluted trunk opening into great sinuous grey limbs, one long limb carried on two steel props, a light post-and-wire fence behind, leaves turning, a walker beside the trunk for scale. Daylight, colour; first photograph of this tree. Species seen: smooth",
+   "lat": 43.435164,
+   "lon": 2.112753,
+   "pin_checked": "2026-11-17"
+  },
+  "20dc8d53-91c1-4087-963b-583bb1d5d7ce": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "sor_001",
+   "city_slug": "soreze",
+   "file": "sor_001-the-multisecular-beech-of-saint-jammes-20dc8d53.jpg",
+   "reason": "The same beech in fog from further back: the whole wide crown, a steel prop under a limb, the light fence in front and low ruined stone walls of the chapel to the right. Same sender, a second view that shows the setting; behind the lead. Species seen: beech crown in autumn, smooth grey limbs, last b",
+   "lat": 43.435164,
+   "lon": 2.112753,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

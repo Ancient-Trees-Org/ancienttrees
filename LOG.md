@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (twelfth pass): a reader's photographs are the first on the Saint-Jammes beech
+
+- **soreze/sor_001, The Multisecular Beech of Saint-Jammes**: a reader sent two photographs from the tree's web page, and the tree had none until now. The lead is the whole beech in autumn leaf, its long limb on two steel props, with a walker beside the trunk for scale. The second photograph, the same tree in fog with the chapel ruins beside it, is in the strip. Now that the page has reader content it can be indexed, so its one colon-reveal sentence ("which is rather the point:") is rewritten. The photo-live mail is queued.
+- **Bangor and Kanker**: this run judged the same two trees as the eleventh pass, which pushed first, so its bnm_001 and knk_001 stand. My copy of the Bangor tree was dropped. On Kanker I would have held the tree as `not_special`: it is a straight forest trunk about half a metre across, no bigger than its neighbours, with no note from the reader. That is a difference in judgement, not an error, and the tree stays live.
+- **preflight**: `check_a_readers_age_reaches_the_page` now skips "Unknown", "not sure" and similar answers in a reader's age field, so a run no longer has to clear the reader's own field to pass.
+- **Still open**: the same 17 photo-less tips.
+
 ## 2026-11-17 reader judge (eleventh pass): readers' trees live in Bangor, Maine, and Kanker, India
 
 - **bangor-maine/bnm_001, The White Pine at the Orono Bog Boardwalk** (sighting 0305569a): a huge twin-stemmed eastern white pine beside the trailhead kiosk in the Bangor City Forest. The pin is the reader's GPS fix (confirmed), and the story quotes their note ("strikingly large"). This is a new US place, so `bangor-maine` is added to data/us-states.json. The app's age field held the word "Unknown", which is not an age, so it was cleared on the lead.

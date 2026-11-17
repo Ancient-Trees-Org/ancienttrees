@@ -14620,6 +14620,50 @@
    "reason": "The reader's own photograph of the tree they added leads kanker/knk_001, viewed: whole tree, daylight, colour",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:62e38d75-fb0b-4430-b3dc-791865129b6c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/62e38d75-fb0b-4430-b3dc-791865129b6c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Saint-Jammes beech from the grass, its propped limb and fence, daylight, colour: now the lead photograph of sor_001, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:20dc8d53-91c1-4087-963b-583bb1d5d7ce",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/20dc8d53-91c1-4087-963b-583bb1d5d7ce.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The same beech in fog with the chapel ruins beside it: in the strip of sor_001 behind the reader's lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
