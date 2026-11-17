@@ -72,7 +72,23 @@
       "official_register": {
         "name": "National Trust of Australia Register of Significant Trees (Boab Tree, Derby-West Kimberley)",
         "url": "https://www.trusttrees.org.au/tree/WA/Derby/Adjacent_To_MyallS_Bore_Derby_Gibb_River_Rd"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/der_001-boab-prison-tree-023ed607.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_82ff6a479bebe78d6d000405",
+          "sighting_id": "023ed607-1e16-4502-a16c-ba7b77888f82",
+          "note": "Photographed by a reader and sent through the app (2022-09-09); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ]
 }

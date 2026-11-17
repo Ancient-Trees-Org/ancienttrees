@@ -1,6 +1,7 @@
 {
  "note": "Trees with a visible note from a reader, ids only. Written by scripts/tree_notes.py --noted; read by thin_pages.reader_content().",
  "trees": [
+  "agm_001",
   "akr_001",
   "akw_001",
   "akw_002",
@@ -11,6 +12,8 @@
   "bri_003",
   "bri_017",
   "cdl_003",
+  "crd_012",
+  "csc_001",
   "dmr_001",
   "dre_019",
   "exe_002",
@@ -23,13 +26,18 @@
   "lon_008",
   "mra_001",
   "ntm_001",
+  "nyc_024",
   "oly_003",
   "oxf_004",
   "pal_003",
   "pgr_001",
+  "pwt_001",
   "sal_001",
+  "seq_003",
   "snd_001",
   "stb_004",
+  "stb_009",
+  "stb_010",
   "tok_008",
   "vld_001"
  ]

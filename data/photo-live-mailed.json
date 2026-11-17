@@ -1328,6 +1328,15 @@
      "city_slug": "bilbao",
      "display_name": null,
      "live": "2026-11-16"
+    },
+    {
+     "sighting_id": "e593be60-987f-469d-97d7-7da2a69503d5",
+     "tree_id": "mad_004",
+     "tree_name": "The Bald Cypresses of the Crystal Palace Pond",
+     "city": "Madrid",
+     "city_slug": "madrid",
+     "display_name": null,
+     "live": "2026-11-17"
     }
    ],
    "sent": [
@@ -1366,7 +1375,17 @@
   },
   "p_dc0896ccc090a0d74571d474": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "4c161566-17bf-4859-a3cb-2148328999a9",
+     "tree_id": "bmr_001",
+     "tree_name": "Benmore Redwood Avenue",
+     "city": "Benmore",
+     "city_slug": "benmore",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "f696cf2f-53e9-4a97-b27a-fba78e23a118",
@@ -1427,6 +1446,225 @@
      "city_slug": "nicolet-national-forest",
      "display_name": null,
      "live": "2026-11-16"
+    }
+   ],
+   "sent": []
+  },
+  "p_1905608b536eabc2b3f4b749": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a477d312-0d76-4189-9217-ef167b0b1bc7",
+     "tree_id": "okb_001",
+     "tree_name": "Old Knobbley",
+     "city": "Mistley",
+     "city_slug": "mistley",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_75f2386f77e8a808085eb1d3": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "cdc0b82c-26f6-4691-94df-3d728924d039",
+     "tree_id": "bmr_001",
+     "tree_name": "Benmore Redwood Avenue",
+     "city": "Benmore",
+     "city_slug": "benmore",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_82ff6a479bebe78d6d000405": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "023ed607-1e16-4502-a16c-ba7b77888f82",
+     "tree_id": "der_001",
+     "tree_name": "Boab Prison Tree",
+     "city": "Derby",
+     "city_slug": "derby",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_3c788cea8bd6bb5caafb5b4d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "57a1afed-1a15-4782-b4a1-4aeaf08a9f04",
+     "tree_id": "vie_007",
+     "tree_name": "The Sisi-Platane of Volksgarten",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "4bc04cd2-78e1-473d-b35f-265f2c84d3a8",
+     "tree_id": "vie_007",
+     "tree_name": "The Sisi-Platane of Volksgarten",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "97138891-91c0-4a50-97ac-a47614a551db",
+     "tree_id": "vie_007",
+     "tree_name": "The Sisi-Platane of Volksgarten",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "161c7f67-f76d-4527-84b1-d24ab59c798f",
+     "tree_id": "vie_007",
+     "tree_name": "The Sisi-Platane of Volksgarten",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_b8bc66b4c7ccebc591c9d75c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "cc8a74d4-d8a7-42fa-865c-f5a12e490f7f",
+     "tree_id": "brn_002",
+     "tree_name": "The Cantonspark Giant Sequoia",
+     "city": "Baarn",
+     "city_slug": "baarn",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_2aec9ae3482922af1a203967": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c59bfd73-d95b-4cda-9ae3-5f75cf6f9754",
+     "tree_id": "seq_003",
+     "tree_name": "Chief Sequoyah Tree",
+     "city": "Sequoia National Park",
+     "city_slug": "sequoia-national-park",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_8d2e8c80b6e13fa250fc6677": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "5e09bb82-34d7-4622-b626-8251836f6eb4",
+     "tree_id": "agm_001",
+     "tree_name": "The Whistler Cork Oak (Sobreiro Assobiador)",
+     "city": "Aguas de Moura",
+     "city_slug": "aguas-de-moura",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "62c4bb28-b3f8-46f6-8d7a-c88755acce7b",
+     "tree_id": "agm_001",
+     "tree_name": "The Whistler Cork Oak (Sobreiro Assobiador)",
+     "city": "Aguas de Moura",
+     "city_slug": "aguas-de-moura",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "5ecc82c8-870b-4961-9a0f-b4fb6bf2e1b6",
+     "tree_id": "agm_001",
+     "tree_name": "The Whistler Cork Oak (Sobreiro Assobiador)",
+     "city": "Aguas de Moura",
+     "city_slug": "aguas-de-moura",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_64aded5e0bdd8d60b3e78790": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c42df403-c159-4896-9c07-223d1122c3d6",
+     "tree_id": "pgr_001",
+     "tree_name": "The Oak of Molinazzo",
+     "city": "Poggio Renatico",
+     "city_slug": "poggio-renatico",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_1b64dd9669d91ae1902a88ab": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "09765ff6-b1e9-4d56-a98a-73c47709468b",
+     "tree_id": "nvn_001",
+     "tree_name": "Bleeding Yew of Nevern",
+     "city": "Nevern",
+     "city_slug": "nevern",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_d5b6b02503ae50c0b89c742a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "54dc7d2a-aaf6-4158-8784-3f3c256942a3",
+     "tree_id": "trs_001",
+     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
+     "city": "Trollskogen",
+     "city_slug": "trollskogen",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "3c756f92-fc89-4a76-a714-06e8a6361b0f",
+     "tree_id": "plm_001",
+     "tree_name": "S'Olivera de Cort",
+     "city": "Palma de Mallorca",
+     "city_slug": "palma-de-mallorca",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_c19d55d83dfa148535100e72": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "46766dcd-94f4-4656-8dab-53b5c98b30f8",
+     "tree_id": "kyo_002",
+     "tree_name": "The Land Boat Pine",
+     "city": "Kyoto",
+     "city_slug": "kyoto",
+     "display_name": null,
+     "live": "2026-11-17"
     }
    ],
    "sent": []

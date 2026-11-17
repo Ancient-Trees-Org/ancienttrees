@@ -189,7 +189,23 @@
       "official_register": {
         "name": "Catalogo Regional de Especies Amenazadas de Fauna y Flora Silvestres, categoria Arboles Singulares (Comunidad de Madrid), no. A.S. N 226",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mad_004-the-bald-cypresses-of-the-crystal-palace-pond-e593be60.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_c35c044ba2fb9ea5470abeae",
+          "sighting_id": "e593be60-987f-469d-97d7-7da2a69503d5",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     },
     {
       "id": "mad_005",

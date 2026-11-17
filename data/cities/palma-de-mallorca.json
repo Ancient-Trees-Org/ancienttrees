@@ -91,6 +91,20 @@
           "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b",
           "note": "Photographed by a reader and sent through the app (2025-10-05); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/plm_001-s-olivera-de-cort-3c756f92.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+          "sighting_id": "3c756f92-fc89-4a76-a714-06e8a6361b0f",
+          "note": "Photographed by a reader and sent through the app (2024-11-08); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
         }
       ]
     },

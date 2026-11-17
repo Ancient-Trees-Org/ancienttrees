@@ -66,7 +66,37 @@
         "width": 3448,
         "height": 4592,
         "taken_month": 10
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bmr_001-benmore-redwood-avenue-cdc0b82c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_75f2386f77e8a808085eb1d3",
+          "sighting_id": "cdc0b82c-26f6-4691-94df-3d728924d039",
+          "note": "Photographed by a reader and sent through the app (2026-11-05); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bmr_001-benmore-redwood-avenue-4c161566.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 8,
+          "source": "contributor",
+          "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+          "sighting_id": "4c161566-17bf-4859-a3cb-2148328999a9",
+          "note": "Photographed by a reader and sent through the app (2020-08-28); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ]
 }

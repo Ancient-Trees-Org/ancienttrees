@@ -74,7 +74,23 @@
         "width": 3472,
         "height": 4624,
         "taken_month": 7
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-54dc7d2a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+          "sighting_id": "54dc7d2a-aaf6-4158-8784-3f3c256942a3",
+          "note": "Photographed by a reader and sent through the app (2025-07-20); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ]
 }

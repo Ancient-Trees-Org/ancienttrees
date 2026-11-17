@@ -1965,10 +1965,6 @@
    "tree_id": "mdr_005",
    "reason": "Fanal's laurels look alike in fog; the frame cannot settle which trunk is the Witch Tree"
   },
-  "ed5bd210-4a52-4fe2-90a8-f121559ef711": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "fc04d59e-bb37-4b00-b069-2a4d28ebcf05": {
    "outcome": "lead",
    "date": "2026-11-15"
@@ -3037,10 +3033,6 @@
    "lon": -0.424423238216235,
    "pin_checked": "2026-11-16"
   },
-  "5784282e-f1a8-4516-ab2e-cce4d2f0f3be": {
-   "outcome": "lead",
-   "date": "2026-11-16"
-  },
   "68515bbd-0bdc-475a-bb16-5e8e324db9c9": {
    "outcome": "lead",
    "date": "2026-11-16"
@@ -3323,6 +3315,82 @@
    "lat": 52.5075,
    "lon": 13.28676,
    "pin_checked": "2026-11-16"
+  },
+  "f254c136-8a64-4005-8939-29db9a7d38fa": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "471cdeb1-6853-43a4-85a6-f926e83b532c": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "1be89823-692c-46dd-bb1c-be7dbd6ed022": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "dadb2ea4-792f-460d-b66d-d46f064f0a8a": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "7f0038ba-2d3c-4bf4-a206-135905bff0f3": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "df10cd8a-f0f4-4911-a37f-b5b4e85b7425": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "230a268f-5aae-4c91-b133-15982a3ed896": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "e3f862e3-ee04-4d1e-baf8-49ac5be624d0": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "a069351f-fe5c-40fa-9b6a-efab20714ba0": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "665082d2-815b-4630-883a-5f619725cdb9": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "993d2833-d88b-43cc-a6e2-804c1e2c6921": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "b451d1e8-4b8b-4bb0-9680-01874b41c26b": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "60878254-21f7-4e0d-8d06-91700db3e06a": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "tip-990": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "tip-993": {
+   "outcome": "lead",
+   "date": "2026-11-17"
+  },
+  "tip-995": {
+   "outcome": "lead",
+   "date": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
