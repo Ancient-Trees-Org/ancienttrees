@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the Darley Dale yew tip becomes a lead
+
+- **Feedback 1075** (a tree tip from the app): an ancient yew at St Helen's Church, Darley Dale, which the reader says is thought to be 2000 years old. We don't map it yet. It is now a lead in data/leads/_famous-united-kingdom.json, waiting for a verify pass (no pin or source yet), and its ledger row is `handled`.
+- This run also judged the same three photographs as the parallel run below, with the same outcomes. Its version was kept.
+
 ## 2026-11-17 reader judge: Amsterdam's tallest tree gets its first photograph; a second view of the Totteridge Yew
 
 - **Oudemanhuispoort Elm (ams_021)** had no photograph. A reader's photo from today is now its lead: the tall, furrowed trunk rising past three storeys in the inner courtyard, with autumn leaves on the paving.

@@ -317,6 +317,20 @@
       ],
       "status": "blocked",
       "reason": "Commons category for the Woodland Trust's annual Tree of the Year public-vote award, not one tree: the three attached photos are of three different winning trees across different years (2014 The Oak at the Gate of the Dead, 2015 The Lonely Tree of Llanfyllin, 2016 Survival at the cutting edge oak UKW). Not a single collectible point. The Oak at the Gate of the Dead (near Abergavenny, associated with the Battle of Pontrilas / Welsh folklore) is independently well-documented and may be worth its own lead/verify pass later; not verified under this ticket."
+    },
+    {
+      "name": "The Darley Dale Yew",
+      "lat": null,
+      "lng": null,
+      "photos": [],
+      "status": "lead",
+      "species": "European Yew (Taxus baccata)",
+      "location_hint": "St Helen's Church, Darley Dale, Derbyshire, England (churchyard)",
+      "found_by_reader": {
+        "tip": "feedback 1075, app profile, 2026-11-17"
+      },
+      "note": "Reader tip (feedback 1075, 2026-11-17): an ancient yew in St Helen's churchyard, Darley Dale, which the reader says is thought to be 2000 years old. Not on the map. Needs a verify pass: two sources for existence and age, a pin in the churchyard, and a licensed photo. The age is the reader's report, not checked.",
+      "found": "2026-11-17"
     }
   ],
   "blocked": [

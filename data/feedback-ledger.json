@@ -6,6 +6,11 @@
    "status": "handled",
    "what": "German Nationalerbe-Baeume list: already a lead list since 2026-10-02 (data/register-scouting.json); second pointer noted there. No reply needed."
   },
+  "1075": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "Tree tip: not on the map, recorded as a lead in data/leads/_famous-united-kingdom.json for a verify pass"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",
