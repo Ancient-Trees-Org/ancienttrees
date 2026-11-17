@@ -692,6 +692,7 @@ struct MapSearch: View {
     /// A class, so filling it while drawing changes nothing SwiftUI watches
     /// (the map's TreesMemo pattern).
     final class SearchCache {
+        nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
         private var built: SearchIndex?
         private var builtFor: (version: String, count: Int)?
         var rankedKey: RankedKey?

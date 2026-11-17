@@ -12,6 +12,7 @@ import Foundation
 
 @MainActor
 final class SingleFlight {
+    nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
     private var running: Task<Void, Never>?
 
     /// Whether a run is under way right now.

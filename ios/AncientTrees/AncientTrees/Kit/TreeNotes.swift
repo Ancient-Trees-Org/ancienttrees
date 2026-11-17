@@ -20,6 +20,7 @@ import Observation
 @Observable
 @MainActor
 public final class TreeNotes {
+    nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
     public struct Note: Decodable, Hashable, Identifiable, Sendable {
         public let tree_id: String
         public let body: String

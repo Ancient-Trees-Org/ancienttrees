@@ -584,6 +584,7 @@ struct AppIconTile: View {
 @MainActor
 final class AppleSignIn: NSObject, ASAuthorizationControllerDelegate,
                          ASAuthorizationControllerPresentationContextProviding {
+    nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
     var onCredential: ((ASAuthorizationAppleIDCredential) -> Void)?
 
     func start(nonce: () -> String) {

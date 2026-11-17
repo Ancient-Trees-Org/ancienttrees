@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: iOS 18 crash when the map redraws, fixed
+
+- The nightly iOS 18 test run was red: not the photo test it named, but the map's TreesMemo dying through Swift's MainActor deinit hop, which aborts on iOS 18 (the same fault as the sheet's drag clock the day before). Every class @State builds inline (ten of them) now dies with `nonisolated deinit {}`. All 231 unit tests green on an iOS 18.6 simulator.
+- New ratchet check in qa.py, `check_a_state_class_dies_without_an_actor_hop()`, so an eleventh one cannot slip in.
+- For Hidde: build 42 carries this fault for iPhones still on iOS 18; the next build carries the fix.
+
 ## 2026-11-17 night run (window from 23:57 UTC)
 
 - **Rung 1, reader photographs: all 36 matched ones looked at and applied** (sightings_publish.py, judgement.py verdicts written, preflight 0 problems, commit 503bfc04a). 12 became a tree's first photograph (Ada Tree, Humboldt Giant Tree, nyc_024 ginkgo, Huntington cypress and kauri, Blaise Castle cedar, Cascais fig, two Setubal peppers, Wishing Tree, Roath Park oak, Goo Shrine ginkgo); 19 added to the strips of trees that had a lead; 5 held (duplicate frames, one sign-only shot, one picture sent for two trees 380 m apart). Pins moved to the reader's fix on csc_001, syd_006, crd_012, bmr_001.

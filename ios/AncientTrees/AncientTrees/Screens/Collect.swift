@@ -55,6 +55,7 @@ struct CollectView: View {
     /// See nearestTree. A class, so filling it while drawing changes nothing
     /// SwiftUI watches.
     final class PlaceMemo {
+        nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
         var tree: [UUID: Tree?] = [:]
         /// City name to country, built once per catalogue version: the
         /// `.sent` rows looked it up by scanning every tree, for every row, on

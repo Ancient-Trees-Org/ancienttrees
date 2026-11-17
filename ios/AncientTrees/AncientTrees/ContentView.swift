@@ -1220,6 +1220,7 @@ struct ContentView: View {
 
 @Observable
 final class LocationProvider: NSObject, CLLocationManagerDelegate {
+    nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
     private let manager = CLLocationManager()
     var coordinate: (lat: Double, lng: Double)?
     /// Exposed so the app can tell the three cases apart: never asked, refused,

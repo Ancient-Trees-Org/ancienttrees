@@ -2223,6 +2223,42 @@ def check_one_owner_per_event():
     return out
 
 
+def check_a_state_class_dies_without_an_actor_hop():
+    """A class @State builds inline dies without a MainActor hop (2026-11-17).
+
+    Under the app's default MainActor isolation a class's deinit goes through
+    Swift's back-deployed deinit-on-executor, and on iOS 18 that hop aborts
+    ("pointer being freed was not allocated" in TaskLocal::StopLookupScope).
+    `@State private var x = Thing()` builds a fresh Thing on every init of the
+    view's struct and throws it away, so one dies on nearly every redraw: on
+    2026-11-16 it was SheetDragClock, on 2026-11-17 MapTab's TreesMemo, each
+    time crashing whichever unit test happened to be running. Every such class
+    is `nonisolated` or carries `nonisolated deinit {}`.
+    """
+    app = ROOT / "ios" / "AncientTrees" / "AncientTrees"
+    if not app.is_dir():
+        return []
+    texts = {f: f.read_text(encoding="utf-8") for f in app.rglob("*.swift")}
+    built = set()
+    for text in texts.values():
+        built.update(re.findall(r"(?m)^[ \t]*@State\s+(?:private\s+)?var\s+\w+\s*=\s*([A-Z]\w*)\(", text))
+    out = []
+    for name in sorted(built):
+        for f, text in texts.items():
+            m = re.search(r"^([ \t]*)((?:\w+\s+)*)class\s+%s\b[^{]*\{" % name, text, re.M)
+            if not m:
+                continue
+            body = text[m.end():m.end() + 400]
+            if "nonisolated" in m.group(2) or "nonisolated deinit" in body:
+                break
+            out.append("%s (%s) is built inline by @State but its deinit hops to the "
+                       "MainActor, which aborts on iOS 18: add `nonisolated deinit {}` "
+                       "as its first line (see SheetDragClock, BottomSheet.swift)"
+                       % (name, f.relative_to(ROOT)))
+            break
+    return out
+
+
 def check_one_tree_card():
     """The eleventh ratchet check, from 2026-08-18.
 
@@ -4305,6 +4341,7 @@ def main():
         check_one_city_order,
         check_nothing_is_stored_locally,
         check_one_owner_per_event,
+        check_a_state_class_dies_without_an_actor_hop,
         check_species_face_is_chosen,
         check_park_key_is_one_function,
         check_every_feed_is_in_the_version,
@@ -4371,6 +4408,7 @@ def main():
     failures += check_inline_scripts_parse()
     failures += check_one_tree_card()
     failures += check_one_owner_per_event()
+    failures += check_a_state_class_dies_without_an_actor_hop()
     failures += check_no_owner_name()
     failures += check_an_organisation_beside_a_name_was_asked_for()
     failures += check_no_personal_address()

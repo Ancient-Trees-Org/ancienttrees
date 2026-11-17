@@ -151,7 +151,11 @@ struct MapTab: View {
         return kept
     }
     /// A class, so remembering the result does not itself redraw the view.
-    private final class TreesMemo { var key: MapTreesKey?; var trees: [Tree] = [] }
+    private final class TreesMemo {
+        nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
+        var key: MapTreesKey?
+        var trees: [Tree] = []
+    }
     private struct MapTreesKey: Equatable {
         let filters: MapFilters, month: Int, collected: Set<String>, favourites: Set<String>
         let lat: Double, lng: Double, version: String, count: Int
@@ -384,6 +388,7 @@ struct MapTab: View {
     }
     /// A class, so remembering a result does not itself redraw the view.
     private final class ViewMemo {
+        nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
         var listedKey: ViewKey?
         var listed: [(tree: Tree, km: Double)] = []
         var reachKey: ViewKey?

@@ -18,6 +18,7 @@ import Observation
 @Observable
 @MainActor
 public final class RecentSearches {
+    nonisolated deinit {}  // no MainActor hop on the way out: SheetDragClock in BottomSheet.swift says why
     public struct Entry: Hashable, Identifiable, Sendable {
         /// city | country | species | tree | place
         public let kind: String
