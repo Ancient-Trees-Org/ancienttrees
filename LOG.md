@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a Mexican hillside fir held
+
+- **Held `not_special`: sighting e080b473** (app, GPS 19.1284, -97.5133, highland forest near Tlachichuca, Puebla, Mexico). Photograph viewed: a mid-sized fir, among others, on top of an eroded earth bank, with its roots hanging bare down the cut. Daylight, colour, a GPS fix. Bare roots like these are common on any eroding bank, and nothing in the tree marks it as old, big or storied. It was sent as "A tree I found" with no words; a name, age, girth or story from the reader would change it.
+- No open reports, no feedback without a verdict, no reader words waiting. Nothing went live, so no deploy was dispatched.
+
 ## 2026-11-17 reader judge: a Colombian roadside tree held
 
 - **Held `not_special`: sighting 034185b2** (app, GPS 6.4777, -73.1174, Santander, Colombia). Photograph viewed: a slender young tree alone by a dirt road, its small crown hung with moss. A good frame, but sent as "A tree I found" with no words, and nothing marks it as old or big. A name, age or story from the reader would change it. Tip 1112 is the app's companion row for the same photograph and is closed as a duplicate.

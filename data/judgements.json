@@ -2,18 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:tip-1111",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "Horse Chestnut Tree of Sofienbergparken",
-   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
-   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the whole horse chestnut, a leaning dark trunk and long crooked limbs sweeping almost to the ground, daylight, colour. Live as oslo/osl_005 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -26,6 +14,18 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1111",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Horse Chestnut Tree of Sofienbergparken",
+   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
+   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole horse chestnut, a leaning dark trunk and long crooked limbs sweeping almost to the ground, daylight, colour. Live as oslo/osl_005 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
@@ -3783,6 +3783,71 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Our own account (mine). Sent as the Baarn town hall plane but shows a plane on an open park lawn with no building, so another tree; its coordinate is our pin, not where it was taken: held doubt_location.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:034185b2-9235-4ae9-ba01-54b4fa02cdd4",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_1a8a8ce31095ea76e414a9ad/034185B2-9235-4AE9-BA01-54B4FA02CDD4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: photograph viewed, a slender young tree alone beside a dirt road in Santander, Colombia, its small crown hung with moss or epiphytes; a good frame with a GPS fix, but a thin trunk and no name, age, girth or words to set it apart. A note from the reader would change it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1112",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "CAA9C183-3017-433B-A1CA-09E1CAA99BF3",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row (submission 1112, same coordinate 6.47771, -73.11742, same minute) to the Colombian roadside tree sent as sighting 034185b2, judged on its own lead; no words, nothing more to record.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e080b473-d617-4bc1-b917-92d5f0b8ab98",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2dd05b1dcb92d35c8a2c8c54/E080B473-D617-4BC1-B917-92D5F0B8AB98.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: photograph viewed, a mid-sized fir among others on an eroded earth bank in highland forest near Tlachichuca, Puebla, Mexico, its roots hanging bare down the cut; daylight and a GPS fix, but a common erosion sight and nothing old, big or storied in the tree, no words. A note from the reader would change it.",
    "hidde": null,
    "agreed": null
   },
@@ -14841,46 +14906,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:034185b2-9235-4ae9-ba01-54b4fa02cdd4",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_1a8a8ce31095ea76e414a9ad/034185B2-9235-4AE9-BA01-54B4FA02CDD4.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "hold",
-   "reason": "not_special: photograph viewed, a slender young tree alone beside a dirt road in Santander, Colombia, its small crown hung with moss or epiphytes; a good frame with a GPS fix, but a thin trunk and no name, age, girth or words to set it apart. A note from the reader would change it.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "tip:1112",
-   "seen": "2026-11-17",
-   "kind": "a tip without a photograph",
-   "tree": "CAA9C183-3017-433B-A1CA-09E1CAA99BF3",
-   "city": "",
-   "species": null,
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "verdict": "hold",
-   "reason": "Duplicate: the app's companion row (submission 1112, same coordinate 6.47771, -73.11742, same minute) to the Colombian roadside tree sent as sighting 034185b2, judged on its own lead; no words, nothing more to record.",
    "hidde": null,
    "agreed": null
   }
