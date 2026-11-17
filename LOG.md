@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: Baarn sequoia story no longer says dog walkers
+
+A reader who knows the park (Hidde's mother) said dogs are not allowed in the Cantonpark. The giant sequoia's story said the trees "share a lawn with dog walkers"; it now says "with anyone who walks in off the street". English only, Baarn has no translation.
+
 ## 2026-11-17 reader judge: two mulberry photos in the gallery, 12 tips recorded as leads
 
 - Live: a reader's two close-ups of the Gunnersbury Park Black Mulberry (lon_030), one of its leaves and one of it in spring flower, are in the tree's gallery behind the lead (`strip`; mulberry leaf and flower checked against the species; the lead stays). Mail to the reader sent by sightings_publish.py. The pin did not move: the photographs were sent from the web page and carry our pin, not a GPS fix.
