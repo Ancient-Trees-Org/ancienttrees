@@ -16775,6 +16775,14 @@
       "tokens": 150000,
       "trees": 10,
       "note": "10 stories merged app-only from the held shelf (judgement holds lifted, gaps stated on the page), 4 new place blocks; det_001/002 (no pin), brd_001, frk_027, inn_007, not_002 (hard rule 10) and sfo_012 (duplicate of sfo_004) kept back; token count estimated."
+    },
+    {
+      "date": "2026-11-17",
+      "kind": "write",
+      "target": "pending-shelf",
+      "tokens": 45000,
+      "trees": 0,
+      "note": "Empty shelf: all US/UK verified files already published; the 9 pending trees all keep earlier holds (access, no pin, duplicate); Coimbra READY lead (Bucaco Santo Elias sequoias) set held. Token count estimated."
     }
   ]
 }

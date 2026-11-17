@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 write pass: nothing to write, no trees shipped
+
+- **No trees shipped.** `passcheck.py --pending` lists only nine unpublished trees. The suggested US and UK files (new-york-3 and -4, wisconsin, washington-dc-2, the Boston files, wales-yews, somerset-dorset-yews, southeast-england-yews) are all fully published already. Every one of the nine was held by an earlier pass for a reason this pass cannot clear without new research: brd_001 Brindisi figs and frk_027 Frankfurt mulberry (no public entry or viewing place, hard rule 10), inn_007 Innsbruck lime (probably in a private yard), not_002 Noto carob (nobody knows who owns the land), det_001 and det_002 Detroit Elmwood (no coordinate in an 86-acre cemetery), nyc_031 Saratoga Park oak (only a park-level pin, no recognition line), and sfo_012 (the same tree as live sfo_004, to be folded in by enrichment). bri_017 in bristol-verified.json has the same name as the live bri_017 and is the same chestnut, so it is not a new tree.
+- **Coimbra's one READY lead** (the two Buçaco sequoias at the Ermida de Santo Elias) is now `held` in data/leads/coimbra.json. The live bsc_011 story already says that pair stands off any path the forest maintains, and the verify pass could not tell whether it is bsc_010. It needs a Buçaco pass on access and identity. READY is now 0.
+- **What a write pass needs next**: a verify pass to fill the shelf (US and UK first), or a Detroit Elmwood pin from the cemetery's tree-tour maps, which would let det_001 and det_002 ship as they are already written.
+
 ## 2026-11-17 reader judge (twelfth pass): a reader's photographs are the first on the Saint-Jammes beech
 
 - **soreze/sor_001, The Multisecular Beech of Saint-Jammes**: a reader sent two photographs from the tree's web page, and the tree had none until now. The lead is the whole beech in autumn leaf, its long limb on two steel props, with a walker beside the trunk for scale. The second photograph, the same tree in fog with the chapel ruins beside it, is in the strip. Now that the page has reader content it can be indexed, so its one colon-reveal sentence ("which is rather the point:") is rewritten. The photo-live mail is queued.
