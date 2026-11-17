@@ -226,7 +226,8 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                 }
                 RowDivider(48.dp)
                 LinkRow(Sym.Star, stringResource(R.string.settings_rate), stringResource(R.string.settings_rate_sub)) {
-                    openWeb(context, "https://play.google.com/store/apps/details?id=" + context.packageName)
+                    // The Play Store app, never a browser tab (openWeb opens a Custom Tab).
+                    openStorePage(context)
                 }
             }
 
