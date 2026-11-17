@@ -69,7 +69,23 @@
         "kind": "autumn colour",
         "label": "late November into early December, when it goes gold and lets the whole crown go at once"
       },
-      "how_to_recognise": "You can recognise it by aerial roots hanging like breasts, the reason it is called Chichi Icho, with stone jizo statues at its base, 10 metres round. It stands between the main hall and bell tower gate of Hida Kokubunji."
+      "how_to_recognise": "You can recognise it by aerial roots hanging like breasts, the reason it is called Chichi Icho, with stone jizo statues at its base, 10 metres round. It stands between the main hall and bell tower gate of Hida Kokubunji.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tky_001-the-great-ginkgo-of-hida-kokubunji-65cb49cd.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_f0acac5f04c506f94ac08878",
+          "sighting_id": "65cb49cd-5812-4470-a56c-4b681646b7d2",
+          "note": "Photographed by a reader and sent through the app (2025-09-26); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ]
 }
