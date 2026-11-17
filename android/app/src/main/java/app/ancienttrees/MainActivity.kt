@@ -773,6 +773,16 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // the tab bar steps away (Navigator.mapTakesScreen, build 42).
     var mapStop by remember { mutableStateOf(app.ancienttrees.ui.SheetHeight.PEEK) }
     // The layer each tab's root draws into, for the tab bar's glass (Glass.kt).
+    // MY TREES IS READ AGAIN EVERY TIME IT OPENS (Hidde, 2026-11-17: a tree he removed
+    // stayed in the overview; the account was read at sign-in and at most every ten
+    // minutes after). The tab is where you look at what you have, so it asks the
+    // server each time it comes to the front.
+    LaunchedEffect(nav.tab) {
+        if (nav.tab == 2 && account.session != null) {
+            saves.load()
+            myTrees.load(force = true)
+        }
+    }
     val barGlass = dev.chrisbanes.haze.rememberHazeState()
     // THE BAR, drawn on the root of the tab on screen, so a pushed page slides
     // over it. Movable, so moving it from one tab's root to the next keeps its
