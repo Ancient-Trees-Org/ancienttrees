@@ -217,6 +217,12 @@
       "status": "lead",
       "reason": "Brief and eight earlier lead notes re-read; the nine unmined register rows and 30 coordinate leads were already judged (private yards, published, duplicates sfo_012/014/015, or finding-aid only). No fetch run, nothing fabricated. Stop re-running this city until a new naming body or reader tree arrives.",
       "sources": []
+    },
+    {
+      "candidate": "San Francisco deepen pass 2026-11-17: nothing new verified, tenth pass on an exhausted register",
+      "status": "lead",
+      "reason": "Brief and earlier lead notes (passes 10-27 to 11-15) re-read; the nine unmined register rows were already judged (private yards, published, or earlier leads). No new naming body or reader tree has arrived, so no fetch was run and nothing was added to the delivery file. Stop re-running this city until one does.",
+      "sources": []
     }
   ],
   "blocked": [
