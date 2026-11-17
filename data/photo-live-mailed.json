@@ -1645,6 +1645,39 @@
     }
    ],
    "sent": []
+  },
+  "p_dabd74bef1d935f48a2bb1d7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c966501b-99ab-45d9-8cbd-2e035cdc3e87",
+     "tree_id": "hob_003",
+     "tree_name": "The Norfolk Island Pine of Ingle Hall",
+     "city": "Hobart",
+     "city_slug": "hobart",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "0efe2765-3329-41a9-989e-c1b1681b6330",
+     "tree_id": "hob_004",
+     "tree_name": "The Bhutan Cypress of Brisbane Street",
+     "city": "Hobart",
+     "city_slug": "hobart",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "e5ccc7fb-dcbe-4651-86ba-322bd91c2e04",
+     "tree_id": "hob_002",
+     "tree_name": "The Dawn Redwoods of Elizabeth Street",
+     "city": "Hobart",
+     "city_slug": "hobart",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  }
 }

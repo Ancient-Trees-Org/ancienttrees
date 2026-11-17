@@ -1,0 +1,72 @@
+{
+  "city": "Te Araroa",
+  "country": "New Zealand",
+  "status": "needs_curation",
+  "intro": "Te Araroa is a small town on New Zealand's East Cape, in the Gisborne region, reached by a long coastal drive from Gisborne. Beside the school stands Te Waha o Rerekohu, a pohutukawa that its own sign calls well over 350 years old and about 40 metres across. You can see it from Moana Parade along the beachfront, and looking costs nothing.",
+  "meta_description": "Te Waha o Rerekohu at Te Araroa on New Zealand's East Cape: a huge pohutukawa, well over 350 years old by its sign. Where to see it.",
+  "hero_tree_id": "tar_001",
+  "oldest_tree_id": "tar_001",
+  "trees": [
+    {
+      "id": "tar_001",
+      "name": "Te Waha o Rerekohu",
+      "species": "Pohutukawa (Metrosideros excelsa)",
+      "age_estimate": "well in excess of 350 years, by the sign at the tree",
+      "age_min": 350,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Te Araroa, East Cape, Gisborne region, New Zealand",
+        "latitude": -37.6325,
+        "longitude": 178.3672,
+        "neighbourhood": "Te Araroa"
+      },
+      "story": "The sign beside this pohutukawa gives it a name, Te Waha o Rerekohu, the mouth of Rerekohu, and says the local school is named after it. Rerekohu was an ancestor of the people of this district. The sign sets out his line of descent and gives two accounts of how the tree got its name, one about a house that stood beside it and food brought as tribute to feed the child Rerekohu.\n\nIt puts the tree at well in excess of 350 years old and 40 metres across at its widest, and calls it reputed to be the largest of its species in the world. The New Zealand Herald describes it as nearly 40 metres wide and almost 20 metres high. The reader who sent the photograph puts it at 600 years, by their estimate, and tourist pages repeat that figure, but none we found says how it was reached, so the sign's figure stands.\n\nThe photograph shows why people stop. Thick limbs twist out from a short trunk and arch back toward the ground under a dark canopy, and the whole mass is far wider than it is tall. A notice asks visitors not to climb on it. The Herald has reported that myrtle rust was found on the tree.\n\nIt can be seen from Moana Parade along the beachfront at Te Araroa.",
+      "how_to_recognise": "A vast, wide-spreading pohutukawa with twisting limbs beside the school, with a carved red and white sign in front of it.",
+      "verified_sources": [
+        "The sign at the tree, read in a reader's photograph, 2026-11-17: well in excess of 350 years old, 40 metres at its widest, reputed the largest of its species",
+        "https://www.nzherald.co.nz/the-country/news/grave-fears-for-nzs-largest-pohutukawa-after-myrtle-rust-detected/VFRNLHLFWFAJRCOLDSGDWQ3OAE",
+        "https://www.waymarking.com/waymarks/wm49C0_Te_Waha_o_Rerekohu_Pohutukawa_East_Cape_New_Zealand"
+      ],
+      "found_by_reader": {
+        "sighting_id": "4887a7bf-c121-4574-a1f0-8944f1ac00b7",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix at the tree, showing its sign. Search results agree on the tree (Te Araroa, school grounds, viewable from Moana Parade), on about 40 m width and almost 20 m height (NZ Herald), and on myrtle rust reported. A common 600-year figure is not sourced and is not used. The sign is partly hidden by a branch; the figures quoted are those legible in the photograph. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free to see from the public road, Moana Parade; it stands beside the school, so look from the roadside.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tar_001-te-waha-o-rerekohu.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4a3e8be0cafb822ba00b39d3",
+        "sighting_id": "4887a7bf-c121-4574-a1f0-8944f1ac00b7",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: Reader's photograph shows the tree with its own sign; the whole spreading crown, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    }
+  ],
+  "question_meta": "Te Waha o Rerekohu at Te Araroa, New Zealand: a pohutukawa well over 350 years old by its sign.",
+  "question_answer": "Te Waha o Rerekohu stands beside the school at Te Araroa on the East Cape and can be seen from Moana Parade. Looking is free.",
+  "question_context": "The sign beside this pohutukawa gives it a name, Te Waha o Rerekohu, the mouth of Rerekohu, and says the local school is named after it. Rerekohu was an ancestor of the people of this district. The sign sets out his line of descent and gives two accounts of how the tree got its name, one about a house that stood beside it and food brought as tribute to feed the child Rerekohu. It puts the tree at well in excess of 350 years old and 40 metres across at its widest, and calls it reputed to be the largest of its species in the world. The New Zealand Herald describes it as nearly 40 metres wide and almost 20 metres high. The reader who sent the photograph puts it at 600 years, by their estimate, and tourist pages repeat that figure, but none we found says how it was reached, so the sign's figure stands. The photograph shows why people stop. Thick limbs twist out from a short trunk and arch back toward the ground under a dark canopy, and the whole mass is far wider than it is tall. A notice asks visitors not to climb on it.",
+  "faq": [
+    {
+      "q": "How old is Te Waha o Rerekohu?",
+      "a": "The sign at the tree says well in excess of 350 years. Some tourist pages say about 600, without a source."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It can be seen from Moana Parade along the beachfront at Te Araroa. It stands beside the school, so look from the roadside."
+    }
+  ]
+}

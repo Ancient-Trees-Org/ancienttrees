@@ -1,0 +1,71 @@
+{
+  "city": "Estavayer-le-Lac",
+  "country": "Switzerland",
+  "status": "needs_curation",
+  "intro": "Estavayer-le-Lac is a medieval lakeside town in the canton of Fribourg, on the south shore of Lake Neuchatel. On a terrace above the water in the old town stands a very old large-leaved lime that local accounts date to the 1470s, with a view across to the lake. It is on public ground in the old town, above the lake shore, and free to see.",
+  "meta_description": "The old lime of Estavayer-le-Lac on Lake Neuchatel in Switzerland: a gnarled, hollow lime said to date from the 1470s.",
+  "hero_tree_id": "esl_001",
+  "oldest_tree_id": "esl_001",
+  "trees": [
+    {
+      "id": "esl_001",
+      "name": "The Old Lime of Estavayer-le-Lac",
+      "species": "Large-leaved Lime (Tilia platyphyllos)",
+      "age_estimate": "about 550 years if it dates from 1474 to 1476, as local accounts say; one guide says planted in the 16th century",
+      "age_min": 450,
+      "age_max": 550,
+      "age_basis": "source",
+      "location": {
+        "address": "Place de Moudon, Estavayer-le-Lac, Fribourg, Switzerland",
+        "latitude": 46.8506,
+        "longitude": 6.8463,
+        "neighbourhood": "Old town"
+      },
+      "story": "On a terrace above Lake Neuchatel in Estavayer-le-Lac, a lime has grown into something that hardly looks like a single tree. The trunk has split and healed around its own hollows, and several stems have twisted round each other into a cluster of ridges and knots. Roots grip the gravel like fingers.\n\nIts age rests on tradition. A publication of the canton of Fribourg puts its planting around 1474, and local legend links it to the Battle of Morat in 1476. A tourist guide gives only the sixteenth century. Either way the tree is some four and a half to five and a half centuries old, and nobody has counted rings.\n\nThe photograph shows the lime in full leaf at the edge of the terrace, with a stone wall, a bench and a window box of pink geraniums beside it, and the lake and hills behind. The upper limbs spread out of a trunk that looks too small for them, held up by the thick roots of its base.\n\nIt stands in the open on public ground, so no ticket or permission is needed.",
+      "how_to_recognise": "A massive, hollow, many-stemmed lime on a terrace with a low stone wall and a bench, looking out over Lake Neuchatel.",
+      "verified_sources": [
+        "https://fr.ch/sites/default/files/2019-04/Le%20Gardien_fran%C3%A7ais.pdf",
+        "https://switzerlandisyours.com/E/guide/arc_jurassien/estavayer.html"
+      ],
+      "found_by_reader": {
+        "sighting_id": "a48cae8c-f582-4ca2-b055-05c4020fca0c",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix in Estavayer-le-Lac. Two sources: a Fribourg publication (Le Gardien francais) dates the lime on the Place de Moudon to about 1474, tied by legend to the Battle of Morat 1476; a tourist guide says planted in the 16th century. A Komoot page calls it an oak, which is an error. Species taken from the photograph (large heart-shaped leaves, lime bark) and the reader's note; unverified by an expert. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free, public square and terrace in the old town of Estavayer-le-Lac.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/esl_001-the-old-lime-of-estavayer-le-lac.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f127bf781505453e3305184d",
+        "sighting_id": "a48cae8c-f582-4ca2-b055-05c4020fca0c",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The old lime in leaf on its terrace, lake behind. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    }
+  ],
+  "question_meta": "The old lime of Estavayer-le-Lac on Lake Neuchatel, said to date from the 1470s.",
+  "question_answer": "The old lime stands on a public terrace in the old town of Estavayer-le-Lac, canton of Fribourg. It is free to see.",
+  "question_context": "On a terrace above Lake Neuchatel in Estavayer-le-Lac, a lime has grown into something that hardly looks like a single tree. The trunk has split and healed around its own hollows, and several stems have twisted round each other into a cluster of ridges and knots. Roots grip the gravel like fingers. Its age rests on tradition. A publication of the canton of Fribourg puts its planting around 1474, and local legend links it to the Battle of Morat in 1476. A tourist guide gives only the sixteenth century. Either way the tree is some four and a half to five and a half centuries old, and nobody has counted rings. The photograph shows the lime in full leaf at the edge of the terrace, with a stone wall, a bench and a window box of pink geraniums beside it, and the lake and hills behind. The upper limbs spread out of a trunk that looks too small for them, held up by the thick roots of its base. It stands in the open on public ground, so no ticket or permission is needed.",
+  "faq": [
+    {
+      "q": "How old is the lime?",
+      "a": "About 550 years if the 1470s date holds. A tourist guide says only the sixteenth century."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It stands on a public terrace in the old town and is free to see."
+    }
+  ]
+}

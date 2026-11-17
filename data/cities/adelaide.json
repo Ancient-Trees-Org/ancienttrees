@@ -2,8 +2,8 @@
   "city": "Adelaide",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "Adelaide's eastern suburbs keep two old river red gums on this map. On Glynburn Road in Kensington Gardens a heritage-listed gum stands on the verge, more than 250 years old by the national big-tree register and 30 metres tall; the council closed the road in 2024 to prune it. In Rostrevor another stands with its roots at the edge of a shallow stream, about 200 years old by a reader's estimate. Both are free to see from public ground.",
-  "meta_description": "Two river red gums in Adelaide's eastern suburbs: the heritage-listed gum on Glynburn Road, Kensington Gardens, and a creekside gum in Rostrevor.",
+  "intro": "Adelaide's suburbs keep three old river red gums on this map. On Overbury Drive in Clarence Park a red gum stands in the middle of the road, about 200 years old by press reports. On Glynburn Road in Kensington Gardens a heritage-listed gum stands on the verge, more than 250 years old by the national big-tree register. In Rostrevor another grows beside a shallow stream. All three are free to see from public ground.",
+  "meta_description": "Three river red gums in Adelaide's suburbs: the gum in the middle of Overbury Drive, the heritage gum on Glynburn Road, and one at Rostrevor.",
   "hero_tree_id": "ads_001",
   "oldest_tree_id": "ads_002",
   "trees": [
@@ -94,6 +94,54 @@
         "sighting_id": "aac60386-7889-4a79-831d-3b506278d45b",
         "date": "2026-11-15",
         "note": "The reader's GPS fix at the tree on the Glynburn Road verge."
+      }
+    },
+    {
+      "id": "ads_003",
+      "name": "The Red Gum of Overbury Drive",
+      "species": "River Red Gum (Eucalyptus camaldulensis)",
+      "age_estimate": "about 200 years, as press reports estimate",
+      "age_min": 200,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Overbury Drive, Clarence Park, South Australia",
+        "latitude": -34.9638,
+        "longitude": 138.5884,
+        "neighbourhood": "Clarence Park"
+      },
+      "story": "On Overbury Drive in Clarence Park, a quiet suburban street in Adelaide's inner south, a river red gum stands in the middle of the road and the tarmac bends around it. Press reports put it at about 200 years old and more than 20 metres tall. Residents call it the Sacred Tree, and it has become a symbol of holding out against urban spread.\n\nIts position is the reason it is known. The photograph, taken at sunset, shows the pale, deeply furrowed trunk rising from the centre of the carriageway with power lines crossing in front and houses, parked cars and a few neighbours on either side. The crown spreads wide and green above it.\n\nIt has also been in trouble. After residents raised alarms about its decline, the City of Unley installed water bollards around the roots to deliver water to the tree, reported at about 1,600 litres a day, and said it would change the street to reduce stress on it. The age is an estimate, with no ring count, and the figures come from news coverage rather than a register.\n\nIt stands on a public street and costs nothing to see. Traffic uses the road, so look from the pavement.",
+      "how_to_recognise": "A big river red gum standing in the middle of the road on Overbury Drive, with the street curving around its trunk.",
+      "verified_sources": [
+        "https://www.adelaide.edu.au/environment/news/list/2025/04/02/saving-urban-trees",
+        "https://www.inkl.com/news/imagine-if-it-died-on-my-watch-the-fight-to-save-one-ancient-adelaide-tree",
+        "https://newsminimalist.com/articles/adelaide-residents-rally-to-save-200-year-old-tree-4c6ad1a5"
+      ],
+      "found_by_reader": {
+        "sighting_id": "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix in Clarence Park, showing a red gum in the middle of the road. Press coverage (University of Adelaide news, a Guardian story syndicated by inkl, a news summary) agrees on Overbury Drive, about 200 years, more than 20 m, and the City of Unley's water bollards. A report of legal protection under a 1943 will came from a single aggregator and is not used. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free, on a public street; look from the pavement because cars pass either side.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ads_003-the-red-gum-of-overbury-drive.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 700,
+        "height": 1050,
+        "source": "contributor",
+        "contributor_user_id": "p_9707e15060547d5c0035ab20",
+        "sighting_id": "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The red gum in the middle of Overbury Drive at sunset, whole crown in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
       }
     }
   ],

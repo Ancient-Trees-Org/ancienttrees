@@ -1,0 +1,121 @@
+{
+  "city": "New Forest",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "The New Forest in Hampshire holds two very different famous trees a short drive apart. The Knightwood Oak, a pollard of about 7.4 metres round, has been called the Queen of the Forest since Victorian times. A few kilometres away on the Rhinefield Ornamental Drive, two giant sequoias planted in the 1850s tower over the Tall Trees Trail. Both are free to visit.",
+  "meta_description": "Two big New Forest trees in Hampshire: the ancient Knightwood Oak and the giant sequoias of the Tall Trees Trail. Where to find them.",
+  "hero_tree_id": "nwf_001",
+  "oldest_tree_id": "nwf_001",
+  "trees": [
+    {
+      "id": "nwf_001",
+      "name": "The Knightwood Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "450 to 600 years by the New Forest National Park; over 500 by Wikipedia",
+      "age_min": 450,
+      "age_max": 600,
+      "age_basis": "source",
+      "girth_cm": 738,
+      "location": {
+        "address": "Knightwood Oak, Bolderwood Ornamental Drive, near Lyndhurst, Hampshire",
+        "latitude": 50.8574,
+        "longitude": -1.6249,
+        "neighbourhood": "Bolderwood, New Forest"
+      },
+      "story": "The Knightwood Oak is the biggest oak in the New Forest, about 7.4 metres round, and has been called the Queen of the Forest since Victorian times, when visiting it became a thing to do. The New Forest National Park Authority describes it as a fine example of an ancient pollard, a tree whose crown was cut back at head height so that it would keep sprouting new wood. Wikipedia says it was pollarded when about 200 years old and probably last cut in the middle of the nineteenth century.\n\nIts age is an estimate. The National Park gives 450 to 600 years, Wikipedia says over 500, and Forestry England says it was believed to have been planted in 1600. A rumour that Henry VIII visited it on a hunting trip is just that, a rumour.\n\nThe reader's photograph, taken in late autumn, shows the many tall stems that grew from the old cut, the oak's leaves turned brown and a fence around its base. An information board stands beside it. Several limbs are dead or broken, which is normal for a tree this age.\n\nIt stands beside a car park on the Bolderwood Ornamental Drive and a short surfaced path leads to it. Visiting is free.",
+      "how_to_recognise": "A huge, multi-stemmed old oak behind a low fence, with an information board and a bench in front of it, off the Bolderwood Ornamental Drive.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Knightwood_Oak",
+        "https://www.forestryengland.uk/knightwood-oak",
+        "https://www.newforestnpa.gov.uk/protecting/new-forest-habitats/ancient-trees/"
+      ],
+      "found_by_reader": {
+        "sighting_id": "b3d97fd9-33cf-40bc-a557-1c8dccbfec24",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix at the tree (fence, information board, autumn). Girth 7.38 m (Wikipedia), 7.4 m (Forestry England), 7.5 m (Waymarking); we use 738 cm. Age 450 to 600 years from the New Forest National Park walking guide; Wikipedia over 500; Forestry England believed planted in 1600. Pollarding detail is Wikipedia's. The Henry VIII story is a rumour reported by the National Park. The reader's note in the app was copied text and is not quoted. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free; a short surfaced path from the Knightwood Oak car park on the Bolderwood Ornamental Drive. Forestry England car park charges may apply.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nwf_001-the-knightwood-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f127bf781505453e3305184d",
+        "sighting_id": "b3d97fd9-33cf-40bc-a557-1c8dccbfec24",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The Knightwood Oak behind its fence with the information board, late autumn. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    },
+    {
+      "id": "nwf_002",
+      "name": "The Giant Sequoias of the Tall Trees Trail",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "age_estimate": "about 165 years, if planted in 1859 as one listing says",
+      "age_min": 150,
+      "age_max": 175,
+      "age_basis": "source",
+      "girth_cm": 941,
+      "location": {
+        "address": "Tall Trees Trail, Rhinefield Ornamental Drive, near Brockenhurst, Hampshire",
+        "latitude": 50.8437,
+        "longitude": -1.6213,
+        "neighbourhood": "Rhinefield, New Forest"
+      },
+      "story": "Two giant sequoias stand either side of the track on the Tall Trees Trail beside the Rhinefield Ornamental Drive, and from the path they look as if they belong to a different forest. A Waymarking listing says they were planted in 1859 as part of the Rhinefield estate, which would make them about 165 years old, and calls them the heaviest and tallest trees in the New Forest National Park. That is a hobbyist claim, not a survey.\n\nThe only measurement we found is a girth of 9.41 metres for one of them, taken in October 2019 and reported on a redwood enthusiasts' site. Estimates of their height range from about 30 to 45 metres and come from visitors with no instruments, so we give none.\n\nThe photograph shows the pair in a late autumn forest, the red-brown, fluted trunks rising out of orange bracken and the crowns narrowing far overhead. Two walkers on the grass track between them are tiny. A Douglas fir stands in the gap, and it too is dwarfed.\n\nThe giant sequoia comes from the Sierra Nevada of California. In its home groves it lives for thousands of years, so these two are young.\n\nThe trail is on public forest land and costs nothing to walk.",
+      "how_to_recognise": "Two very tall, red-barked conifers with narrow crowns flanking a grass track, with a Douglas fir between them, on the Tall Trees Trail.",
+      "verified_sources": [
+        "https://www.waymarking.com/waymarks/WMA0AJ_Giant_Sequoia_Tall_Trees_Trail_Rhinefield_New_Forest_South_Hampshire",
+        "https://redwoodworld.co.uk/picturepages/newforest.htm"
+      ],
+      "found_by_reader": {
+        "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix, showing two giant sequoias flanking the track. Planting date 1859 from a Waymarking listing (one source); girth 9.41 m (October 2019) from redwoodworld.co.uk; heights there are visitor estimates and are not used. Species is Sequoiadendron giganteum as the Waymarking listing says. Two trees, one spot, treated as one collectible point because the pair is the destination. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free; the Tall Trees Trail is a waymarked walk from the Blackwater car park on the Rhinefield Ornamental Drive. Forestry England car park charges may apply.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f127bf781505453e3305184d",
+        "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: Two giant sequoias flanking the track, whole trees in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the trees."
+      }
+    }
+  ],
+  "question_meta": "Two big trees in the New Forest, Hampshire: the ancient Knightwood Oak and the giant sequoias of the Tall Trees Trail.",
+  "question_answer": "The Knightwood Oak stands beside the Bolderwood Ornamental Drive near Lyndhurst, and the giant sequoias are on the Tall Trees Trail off the Rhinefield Ornamental Drive near Brockenhurst. Both are free to visit.",
+  "question_context": "The Knightwood Oak is the biggest oak in the New Forest, about 7.4 metres round, and has been called the Queen of the Forest since Victorian times, when visiting it became a thing to do. The New Forest National Park Authority describes it as a fine example of an ancient pollard, a tree whose crown was cut back at head height so that it would keep sprouting new wood. Wikipedia says it was pollarded when about 200 years old and probably last cut in the middle of the nineteenth century. Its age is an estimate. The National Park gives 450 to 600 years, Wikipedia says over 500, and Forestry England says it was believed to have been planted in 1600. A rumour that Henry VIII visited it on a hunting trip is just that, a rumour. The reader's photograph, taken in late autumn, shows the many tall stems that grew from the old cut, the oak's leaves turned brown and a fence around its base. An information board stands beside it. Several limbs are dead or broken, which is normal for a tree this age.",
+  "faq": [
+    {
+      "q": "How old is the Knightwood Oak?",
+      "a": "The New Forest National Park estimates 450 to 600 years. Wikipedia says over 500. It is an estimate in every source."
+    },
+    {
+      "q": "Where are the giant sequoias?",
+      "a": "On the Tall Trees Trail, beside the Rhinefield Ornamental Drive near Brockenhurst."
+    }
+  ]
+}

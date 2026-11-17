@@ -1,0 +1,71 @@
+{
+  "city": "Meares Island",
+  "country": "Canada",
+  "status": "needs_curation",
+  "intro": "Meares Island lies in Clayoquot Sound off Tofino on Vancouver Island's west coast. Its Big Tree Trail is a boardwalk through old-growth rainforest where western redcedars are described as up to 1,500 years old. The Tla-o-qui-aht Tribal Parks guardians manage the trail, and you reach the island by a short water taxi ride from Tofino. Seeing the trail's trees from the boardwalk costs nothing beyond that.",
+  "meta_description": "The Big Tree Trail on Meares Island near Tofino, British Columbia: a boardwalk among old-growth redcedars said to be up to 1,500 years old.",
+  "hero_tree_id": "mrs_001",
+  "oldest_tree_id": "mrs_001",
+  "trees": [
+    {
+      "id": "mrs_001",
+      "name": "A Cedar of the Meares Island Big Tree Trail",
+      "species": "Western Red Cedar (Thuja plicata)",
+      "age_estimate": "not measured for this tree; trail cedars are described as up to 1,500 years old",
+      "age_min": 0,
+      "age_max": 0,
+      "location": {
+        "address": "Big Tree Trail, Meares Island, Clayoquot Sound, British Columbia",
+        "latitude": 49.1581,
+        "longitude": -125.8706,
+        "neighbourhood": "Meares Island, near Tofino"
+      },
+      "story": "On Meares Island, across the water from Tofino, a boardwalk threads through old-growth rainforest where western redcedars grow so large that two people with outstretched arms cannot reach round one. Tourism pages describe the trail's cedars as up to 1,500 years old, and the best known tree on it, the Hanging Garden Tree, is given a circumference of about 18.3 metres. We do not know which of the big cedars this reader's photograph shows, and no age has been measured for it, so we give none.\n\nThe photograph shows the reason to make the trip. Two broad trunks have fused at the base into one flared, root-buttressed mass, with thick brown fluted bark, and they lean apart as they rise into the dark canopy. Two visitors stand at the foot with arms spread, each barely covering a quarter of the width. Moss grows on the bark and other trees stand close behind.\n\nThe trail is on Tla-o-qui-aht territory, and the Tla-o-qui-aht Tribal Parks guardians now manage it. There is no road to the island. Visitors come by water taxi from Tofino and walk a boardwalk loop of about three and a half to four kilometres. Check the current rules and any trail fee before going.",
+      "how_to_recognise": "A very wide redcedar with two trunks joined at a flared, buttressed base, beside the boardwalk on the Big Tree Trail.",
+      "verified_sources": [
+        "https://www.lonelyplanet.com/points-of-interest/meares-island/1358474",
+        "https://tourismtofino.com/plan-your-trip/business-directory/big-tree-trail-meares-island/",
+        "https://www.tofinohiking.com/hikes/big-tree-trail/"
+      ],
+      "found_by_reader": {
+        "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix on the Big Tree Trail, Meares Island, showing a large double-trunked cedar with two people for scale. Which named tree it is was not established: the Hanging Garden Tree (about 18.3 m circumference, per tourism pages) is the trail's best known, but the photograph is not identified as it, so the entry is named for the trail and carries no age or girth. Trail details from Lonely Planet, Tourism Tofino and Tofino Hiking; management by the Tla-o-qui-aht Tribal Parks guardians. The reader's note text was generic and is not quoted. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free to see from the boardwalk, but reached only by water taxi from Tofino; the trail is managed by the Tla-o-qui-aht Tribal Parks guardians, so check current rules and any fee.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mrs_001-a-cedar-of-the-meares-island-big-tree-trail.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 431,
+        "height": 720,
+        "source": "contributor",
+        "contributor_user_id": "p_f127bf781505453e3305184d",
+        "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: A double-trunked redcedar on the boardwalk trail with two visitors for scale. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    }
+  ],
+  "question_meta": "The Big Tree Trail on Meares Island near Tofino: a boardwalk among old-growth redcedars said to be up to 1,500 years old.",
+  "question_answer": "The Big Tree Trail is on Meares Island, reached by water taxi from Tofino, and is managed by the Tla-o-qui-aht Tribal Parks guardians.",
+  "question_context": "On Meares Island, across the water from Tofino, a boardwalk threads through old-growth rainforest where western redcedars grow so large that two people with outstretched arms cannot reach round one. Tourism pages describe the trail's cedars as up to 1,500 years old, and the best known tree on it, the Hanging Garden Tree, is given a circumference of about 18.3 metres. We do not know which of the big cedars this reader's photograph shows, and no age has been measured for it, so we give none. The photograph shows the reason to make the trip. Two broad trunks have fused at the base into one flared, root-buttressed mass, with thick brown fluted bark, and they lean apart as they rise into the dark canopy. Two visitors stand at the foot with arms spread, each barely covering a quarter of the width. Moss grows on the bark and other trees stand close behind. The trail is on Tla-o-qui-aht territory, and the Tla-o-qui-aht Tribal Parks guardians now manage it. There is no road to the island. Visitors come by water taxi from Tofino and walk a boardwalk loop of about three and a half to four kilometres.",
+  "faq": [
+    {
+      "q": "How do I get to the Big Tree Trail?",
+      "a": "By water taxi from Tofino. There is no road to Meares Island."
+    },
+    {
+      "q": "How old are the cedars?",
+      "a": "Tourism pages say up to 1,500 years. No age has been measured for the tree in the photograph."
+    }
+  ]
+}

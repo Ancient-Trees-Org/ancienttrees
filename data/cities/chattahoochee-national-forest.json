@@ -1,0 +1,73 @@
+{
+  "city": "Chattahoochee National Forest",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "In the mountains of north Georgia, a short hike along Bear Creek in the Chattahoochee-Oconee National Forest ends at the Gennett Poplar, a tulip tree that hiking guides call the second largest tree in Georgia. The trail starts from a gravel forest road, and a railing and steps lead down to the tree at the end. Walking there is free.",
+  "meta_description": "The Gennett Poplar on Bear Creek in Georgia's Chattahoochee National Forest: a giant tulip tree reached by an easy trail.",
+  "hero_tree_id": "gnp_001",
+  "oldest_tree_id": "gnp_001",
+  "trees": [
+    {
+      "id": "gnp_001",
+      "name": "The Gennett Poplar",
+      "species": "Tulip Tree (Liriodendron tulipifera)",
+      "age_estimate": "over 300 years by one hiking guide",
+      "age_min": 300,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 549,
+      "location": {
+        "address": "Bear Creek Trail, Chattahoochee-Oconee National Forest, Georgia",
+        "latitude": 34.8285,
+        "longitude": -84.5654,
+        "neighbourhood": "Bear Creek, north Georgia mountains"
+      },
+      "story": "The Gennett Poplar is a tulip tree, which is neither a poplar nor a tulip, and it stands at the end of a short walk up Bear Creek in the north Georgia mountains. The trail starts at the end of a two-mile gravel road. After a little over half a mile it reaches a railing with steps down to the tree.\n\nHiking guides call it the second largest tree in Georgia, and one puts it at over 300 years old and more than 100 feet tall. Another gives its trunk as about 18 feet round at eye level, which is the figure we use for girth. The reader who photographed it gives 300 to 500 years, by their estimate, with a girth of 550 centimetres. None of these is a survey, so read them as the approximate size of an unusually big tree.\n\nThe reader's photograph shows what that means at the foot. The trunk rises straight and thick, deeply ridged and wider than the two people standing against it, and it carries on up out of the frame through a forest of slimmer trees. Rhododendron grows thick on the slope behind it. Tulip trees are among the tallest broadleaf trees in eastern North America, and this one has had centuries to prove it.\n\nIt stands in public national forest land, so visiting costs nothing.",
+      "how_to_recognise": "A single enormous, straight, deeply ridged tulip tree trunk beside the Bear Creek trail, with a railing and steps down to it.",
+      "verified_sources": [
+        "https://www.hikethesouth.com/hikes/bear-creek-trail-to-the-gennett-poplar",
+        "https://secretfalls.com/hiking/bear-creek-loop-trail",
+        "https://www.komoot.com/highlight/5554867"
+      ],
+      "found_by_reader": {
+        "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix at the tree. Hiking sites (Hike the South, Secret Falls, Komoot) agree on the tree and the Bear Creek trail; they disagree on the county (Gilmer or Murray). Age over 300 years and height over 100 ft come from one guide; girth about 18 ft (549 cm) from Secret Falls; 'second largest in Georgia' is a hiking site's claim and is stated as theirs. No champion-tree record was found for it. Pin is the reader's GPS fix: confirmed.",
+      "access": "Free, public national forest land; about 0.8 miles on a trail from the end of the gravel Bear Creek Camp Road, with a few creek crossings.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f127bf781505453e3305184d",
+        "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The great trunk of the Gennett Poplar with two visitors for scale, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    }
+  ],
+  "question_meta": "The Gennett Poplar on Bear Creek in Georgia's Chattahoochee National Forest: a giant tulip tree, over 300 years old by one guide.",
+  "question_answer": "The Gennett Poplar stands at the end of the Bear Creek trail in the Chattahoochee-Oconee National Forest, north Georgia. Visiting is free.",
+  "question_context": "The Gennett Poplar is a tulip tree, which is neither a poplar nor a tulip, and it stands at the end of a short walk up Bear Creek in the north Georgia mountains. The trail starts at the end of a two-mile gravel road. After a little over half a mile it reaches a railing with steps down to the tree. Hiking guides call it the second largest tree in Georgia, and one puts it at over 300 years old and more than 100 feet tall. Another gives its trunk as about 18 feet round at eye level, which is the figure we use for girth. The reader who photographed it gives 300 to 500 years, by their estimate, with a girth of 550 centimetres. None of these is a survey, so read them as the approximate size of an unusually big tree. The reader's photograph shows what that means at the foot. The trunk rises straight and thick, deeply ridged and wider than the two people standing against it, and it carries on up out of the frame through a forest of slimmer trees. Rhododendron grows thick on the slope behind it.",
+  "faq": [
+    {
+      "q": "How big is the Gennett Poplar?",
+      "a": "About 18 feet round at eye level by one hiking guide, and over 100 feet tall by another. These are not surveyed figures."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It is on public national forest land, about 0.8 miles along the Bear Creek trail from the end of the gravel Bear Creek Camp Road, and free."
+    }
+  ]
+}

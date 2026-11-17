@@ -1450,6 +1450,9 @@
       "Esaŭiro",
       "Mugadur"
     ],
+    "estavayer-le-lac": [
+      "Estavalyér-lo-Lèc"
+    ],
     "exeter": [
       "Ekseteris",
       "Eksetera",
@@ -2991,6 +2994,9 @@
     "maui": [
       "ma lili Mawi"
     ],
+    "meares-island": [
+      "Isola Meares"
+    ],
     "melbourne": [
       "Melburnas",
       "Melburna",
@@ -3310,6 +3316,11 @@
     ],
     "nevern": [
       "Nanhyfer"
+    ],
+    "new-forest": [
+      "Nationaal park New Forest",
+      "Park Kenedhlek Koswik Nowydh",
+      "Wana Anyar"
     ],
     "new-orleans": [
       "La Nouvelle-Orléans",
@@ -4688,6 +4699,10 @@
     "tata": [
       "Tata i Ungarn"
     ],
+    "te-araroa": [
+      "Te Araroa Trail",
+      "Senda Te Araroa"
+    ],
     "telavi": [
       "Telawi",
       "Telavis",
@@ -5537,6 +5552,7 @@
     "enschede": "Enschede",
     "eraul": "Valle de Yerri / Deierri",
     "essaouira": "Essaouira",
+    "estavayer-le-lac": "Estavayer-le-Lac",
     "estry": "Estry",
     "exeter": "Exeter",
     "fara-in-sabina": "Fara in Sabina",
@@ -5824,6 +5840,7 @@
     "maxaranguape": "Maxaranguape",
     "mbissel": "Mbissel",
     "mcely": "Mcely",
+    "meares-island": "Meares Island",
     "meikleour": "Meikleour",
     "melbourne": "Melbourne",
     "melykut": "Mélykút",
@@ -5880,6 +5897,7 @@
     "neudrossenfeld": "Neudrossenfeld",
     "neuenrade": "Neuenrade",
     "nevern": "Nevern",
+    "new-forest": "New Forest",
     "new-orleans": "New Orleans",
     "new-york": "New York City",
     "nice": "Nice",
@@ -6129,6 +6147,7 @@
     "tata": "Tata, Hungary",
     "tatobity": "Tatobity",
     "tavira": "Tavira",
+    "te-araroa": "Te Araroa",
     "telavi": "Telavi",
     "teleci": "Telecí",
     "telgte": "Telgte",
@@ -6456,6 +6475,7 @@
     "brielow": "no article within 40 km, tried Brielow; Brielow, Germany; search: List of dialling codes in Germany; search: Schwedenschanze; search: 143rd Rifle Division",
     "brzoza": "no article within 40 km, tried Brzoza (Brzoza, no coordinates, disambiguation page); Brzoza, Poland; search: Invasion of Poland; search: History of Poland; search: Communist Party of Poland",
     "casta": "no article within 40 km, tried Časta; Časta, Slovakia; search: List of castles in Slovakia; search: List of Lepidoptera of Slovakia; search: Slovak heraldry",
+    "chattahoochee-national-forest": "no article within 40 km, tried Chattahoochee National Forest (Chattahoochee–Oconee National Forest, 42 km away); Chattahoochee National Forest, United States; search: Chattahoochee–Oconee National Forest; search: List of national forests of the United States; search: List of national fish hatcheries in the United States",
     "cheile-cibinului": "no article within 40 km, tried Cheile Cibinului; Cheile Cibinului, Romania",
     "chishang": "no article within 40 km, tried Chishang (Chishang, no coordinates, disambiguation page); Chishang, Taiwan; search: List of cities in Taiwan; search: Agriculture in Taiwan; search: List of townships/cities and districts in Taiwan",
     "cieletniki": "no article within 40 km, tried Cielętniki (Cielętniki, no coordinates, disambiguation page); Cielętniki, Poland; search: Timeline of the 1939 invasion of Poland; search: German war crimes",

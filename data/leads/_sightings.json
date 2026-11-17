@@ -4955,9 +4955,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: Reader's photograph shows the tree with its own sign; the whole spreading crown, daylight. Live as te-araroa/tar_001 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "te-araroa/tar_001"
   },
   {
    "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
@@ -4984,9 +4986,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: The great trunk of the Gennett Poplar with two visitors for scale, daylight. Live as chattahoochee-national-forest/gnp_001 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "chattahoochee-national-forest/gnp_001"
   },
   {
    "sighting_id": "b3d97fd9-33cf-40bc-a557-1c8dccbfec24",
@@ -5015,9 +5019,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: The Knightwood Oak behind its fence with the information board, late autumn. Live as new-forest/nwf_001 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "new-forest/nwf_001"
   },
   {
    "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
@@ -5046,9 +5052,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: Two giant sequoias flanking the track, whole trees in frame. Live as new-forest/nwf_002 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "new-forest/nwf_002"
   },
   {
    "sighting_id": "ec026f7b-a1b8-4316-b8ea-07c111061c44",
@@ -5078,8 +5086,9 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "why": "Looked at 2026-11-17: a large pecan, but it stands at Meadowlark 1939 in Griffin, a wedding venue, so no public access we can show; the only source is the venue's own page (about 100 years). Stays a lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17"
   },
   {
    "sighting_id": "a48cae8c-f582-4ca2-b055-05c4020fca0c",
@@ -5104,9 +5113,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: The old lime in leaf on its terrace, lake behind. Live as estavayer-le-lac/esl_001 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "estavayer-le-lac/esl_001"
   },
   {
    "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378",
@@ -5135,9 +5146,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: A double-trunked redcedar on the boardwalk trail with two visitors for scale. Live as meares-island/mrs_001 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "meares-island/mrs_001"
   },
   {
    "sighting_id": "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac",
@@ -5164,9 +5177,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Looked at 2026-11-17: The red gum in the middle of Overbury Drive at sunset, whole crown in frame. Live as adelaide/ads_003 with the reader's photograph as lead.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "adelaide/ads_003"
   }
  ]
 }
