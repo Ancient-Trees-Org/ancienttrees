@@ -121,6 +121,27 @@ jobs:
             --disallowedTools "${{ env.JUDGE_DISALLOWED }}"
             --max-turns 120
 
+      # The words a reader typed with their tree become their note under it
+      # (reader_text_notes.py, Hidde 2026-11-15), now in the same minutes as
+      # the tree itself instead of at the next knock (Hidde, 2026-11-17: "die
+      # notitie onder de boom ... kan mee in diezelfde judgment"). A script,
+      # no agent: it costs nothing when there is nothing to write.
+      - name: Readers' words become their note under the tree
+        if: steps.work.outputs.go == 'yes'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          git pull -q --rebase --autostash origin main || true
+          python3 scripts/reader_text_notes.py --write
+          if ! git diff --quiet -- data/reader-text-notes.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/reader-text-notes.json
+            git commit -q -m "reader judge: readers' words written as their notes"
+            git push -q || true
+          fi
+
       - name: Deploy what went live
         if: steps.work.outputs.go == 'yes'
         env:
