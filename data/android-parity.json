@@ -72,6 +72,10 @@
     {
       "what": "Tab bar",
       "why": "Android's own bar (Hidde, 2026-11-17: \"dat voelt als iOS specifiek\", then \"volg maar gewoon polarsteps en alltrails\"): docked to the bottom edge across the full width, 56 above the system bar, a word under every item, the chosen place in moss with a filled glyph and no pill. The iPhone's floating capsule is Apple's iOS 26 tab bar, a system control, so by Airbnb's line each phone takes its own. Places, glyphs and order are the iPhone's; the camera is the fourth item with its word (Collect) because every item on a docked Android bar carries one. Source: AllTrails and Polarsteps measured on a Galaxy S21 Ultra (both 56, white, five labelled items), CONVENTIONS.md \"A tab bar on Android\" (2026-11-17)."
+    },
+    {
+      "what": "Bottom sheets",
+      "why": "Hidde, 2026-11-17, on his Galaxy S21 Ultra: platform controls take Android's own form, as AllTrails and Polarsteps do there. The iPhone's fitted sheet is Apple's iOS 26 card (inset 8, every corner round, an X top right), a system control, so by Airbnb's line Android takes Material 3's modal bottom sheet: docked to the bottom edge at the full width, only the top corners round (28), the drag handle at the top, a scrim behind, closed by a swipe down, the system back or a tap on the scrim, its ground running on behind the navigation bar; a short sheet carries no X, as Material's and Google Maps' share sheet carry none. Full-height sheets and the collect steps that hold a photograph keep their close control. Our handle, colours, type, copy and the spacing inside stay the iPhone's (ui/Sheet.kt AppSheet, BrandSheet.kt, SignIn.kt, CollectSheet.kt). Source: m3.material.io/components/bottom-sheets; CONVENTIONS.md \"A bottom sheet on Android (2026-11-17)\"."
     }
   ],
   "map": {
@@ -233,13 +237,13 @@
     "spacing_allowed": [
       {
         "what": "add-library -> bottom safe area",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "add-library -> screen foot",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "spot-close height",
@@ -257,13 +261,13 @@
     "spacing_allowed": [
       {
         "what": "add-library -> bottom safe area",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "add-library -> screen foot",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "spot-close height",
@@ -472,8 +476,8 @@
     "spacing_allowed": [
       {
         "what": "review-no -> screen foot",
-        "why": "The last button stands 28 above the floating card's bottom edge on both (BrandSheet.swift .padding(.bottom, 28)). Android's card stands on its navigation bar (Sheet.kt), so the distance to the screen's edge adds that bar: Android's system bar, not our spacing.",
-        "within": 12
+        "why": "The last button stands 28 above the sheet's foot on both (BrandSheet.swift .padding(.bottom, 28)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its ground runs to the screen's edge and its content stands above the navigation bar, where the iPhone's card floats 10 over the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       }
     ]
   },
@@ -598,8 +602,8 @@
     "spacing_allowed": [
       {
         "what": "early-adopter-done -> screen foot",
-        "why": "The last button stands 28 above the floating card's bottom edge on both (BrandSheet.swift .padding(.bottom, 28)). Android's card stands on its navigation bar (Sheet.kt), so the distance to the screen's edge adds that bar: Android's system bar, not our spacing.",
-        "within": 12
+        "why": "The last button stands 28 above the sheet's foot on both (BrandSheet.swift .padding(.bottom, 28)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its ground runs to the screen's edge and its content stands above the navigation bar, where the iPhone's card floats 10 over the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       }
     ]
   },

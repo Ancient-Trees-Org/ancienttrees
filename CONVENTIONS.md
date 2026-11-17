@@ -4189,3 +4189,13 @@ Hidde, on his Galaxy S21 Ultra with the first Android build: our floating capsul
 - **Material 3** (m3.material.io navigation bar; 9to5Google 2025-05-14 on Expressive): docked, 80 dp baseline or 64 dp "flexible", a pill indicator behind the chosen icon. The two apps people use beside ours keep the older 56 and no pill, so we copy them, not the spec.
 
 **Ours on Android (ui/TabBar.kt):** docked, full width, the ground colour, 56 dp above the system bar and the ground running on behind the system's buttons; Map, Discover, My trees and the camera as a fourth item with "Collect" under it (every item on a docked Android bar has a word); the chosen place in moss with a filled glyph and a semibold word. The iPhone keeps its capsule.
+
+## A bottom sheet on Android (2026-11-17)
+
+Hidde, on his Galaxy S21 Ultra (Android 14, three-button navigation), after the tab bar: platform controls take Android's own form, as AllTrails and Polarsteps do on Android. Our short sheets (sign in, Add a tree, the rating question, the location question, early adopter and every BrandSheet) floated as iOS 26's card: 8 in from each side, every corner round, an X top right. That card is Apple's system sheet, so by Airbnb's line ("One app on iPhone and Android") Android takes Android's.
+
+- **Material 3** (m3.material.io/components/bottom-sheets): a modal bottom sheet is attached to the bottom edge at the full width (up to 640 dp), only its top corners round (extra large, 28 dp), a drag handle at the top, a scrim behind; it closes by a swipe down, the system back or a tap on the scrim. The guidelines show no close button on a sheet with a handle; Compose's ModalBottomSheet (material3 1.4) draws it this way and runs its ground behind the navigation bar, padding only the content.
+- **Google Maps** (Android, from use): the share sheet and a place's sheet are docked, handle on top, no X on the share sheet; back closes them.
+- **AllTrails and Polarsteps** (Android): their sheets stand on the bottom edge, as the tab bar does (entry above).
+
+**Ours on Android (ui/Sheet.kt AppSheet):** every fitted sheet docked, full width, top corners 28, our own cream handle (BrandSheetHandle) and our light scrim, the ground under the system's buttons or gesture bar and the content above them (Material's own insets). No X on BrandSheet, the sign-in sheet or the collect intro: swipe, back and the scrim close them. The collect steps that hold a photograph keep their X, because that is the one control that asks before throwing work away (2026-08-29), and full-height sheets keep their own rows. Colours, type, copy and the spacing inside each sheet are the iPhone's, as before. The iPhone keeps its card and its X.

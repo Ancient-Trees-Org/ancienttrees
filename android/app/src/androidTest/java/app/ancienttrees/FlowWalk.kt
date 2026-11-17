@@ -145,8 +145,9 @@ class Walker(val rule: ComposeTestRule) {
         for (id in listOf("Back", "Back to the map", "back-to-map", "draft-back", "Cancel", "Close", "Done", "Not now")) {
             if (exists(id)) return true
         }
-        // A sheet you drag away: the grabber is the handle and the way out.
-        return listOf("spot-sheet", "signin-sheet", "people-sheet", "contribute-sheet").any { exists(it) }
+        // A sheet you drag away: the grabber is the handle and the way out. On
+        // Android a short sheet has no X (Sheet.kt, 2026-11-17): swipe, back, scrim.
+        return listOf("spot-sheet", "signin-sheet", "people-sheet", "contribute-sheet", "brand-sheet").any { exists(it) }
     }
 }
 

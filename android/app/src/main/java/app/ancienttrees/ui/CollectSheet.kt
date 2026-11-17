@@ -520,7 +520,6 @@ fun CollectSheet(
                     addsPhoto = start.addsPhoto,
                     onStart = { openCamera() },
                     onLibrary = { openLibrary() },
-                    onClose = { closeTapped() },
                 )
                 Stage.Place -> PlaceStep(
                     start = placing ?: origin,
@@ -620,7 +619,6 @@ private fun CollectIntro(
     addsPhoto: Boolean,
     onStart: () -> Unit,
     onLibrary: () -> Unit,
-    onClose: () -> Unit,
 ) {
     val brand = Brand.colors
     // CollectSheet.swift: the intro 24 below the sheet's top (.padding(.top, 24),
@@ -661,9 +659,9 @@ private fun CollectIntro(
                 SheetButtonView(SheetButton(stringResource(R.string.cf_choose), SheetKind.SECONDARY, Sym.PhotoLibrary, action = onLibrary), Modifier.testTag("add-library"))
             }
         }
-        // The iPhone's X box spans 16 to 60 below the sheet's top (centre 38); this
-        // 48 box, with the intro lifted 36, centres there 2 down.
-        SheetCloseButton(onClose, Modifier.align(Alignment.TopEnd).offset(y = 2.dp))
+        // No X on Android (the iPhone's centres 38 under the sheet's top): the
+        // docked sheet closes by a swipe down, the system back or the scrim, and
+        // the intro holds nothing to lose (Sheet.kt, 2026-11-17).
     }
 }
 

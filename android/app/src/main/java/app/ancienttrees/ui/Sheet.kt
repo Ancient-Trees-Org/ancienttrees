@@ -11,17 +11,11 @@
 
 package app.ancienttrees.ui
 
-import androidx.compose.ui.graphics.TransformOrigin
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.navigationBars
-import androidx.compose.foundation.layout.tappableElement
-import androidx.compose.foundation.layout.only
-import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.padding
@@ -135,11 +129,14 @@ fun AppSheet(
     dragHandle: (@Composable () -> Unit)? = { BrandSheetHandle() },
     properties: androidx.compose.material3.ModalBottomSheetProperties = androidx.compose.material3.ModalBottomSheetProperties(),
     /**
-     * iOS 26's fitted sheet: a card inset from the edges with every corner round
-     * (row 13). Measured off the iPhone's sign-in sheet (out/parity/ios/signin.png,
-     * 1206 px = 402 pt): 8 in from each side, 10 above the bottom, corners 28 at
-     * the top and 36 at the bottom. A full-height sheet stays edge to edge, as
-     * the .large detent does.
+     * A FITTED SHEET, DOCKED (Hidde, 2026-11-17, on his Galaxy S21 Ultra: platform
+     * controls take Android's own form, as AllTrails and Polarsteps do there):
+     * Material 3's modal bottom sheet, attached to the bottom edge, full width,
+     * only the top corners round (28), the handle at the top, its ground running
+     * on behind the system's navigation bar. The iPhone keeps iOS 26's inset card
+     * (8 in, every corner round). The name stays for the callers: false is the
+     * full-height sheet (.large), which was always edge to edge.
+     * CONVENTIONS.md "A bottom sheet on Android".
      */
     floating: Boolean = true,
     /**
@@ -154,8 +151,6 @@ fun AppSheet(
     val scope = rememberCoroutineScope()
     val growth = remember { SheetGrowth() }
     val density = androidx.compose.ui.platform.LocalDensity.current
-    // How far up the sheet has grown, 0 at the fitted height and 1 at full.
-    val frac = if (grows) growth.fraction else 0f
     val presence = LocalSheetPresence.current
     val wanted by rememberUpdatedState(presence?.visible ?: true)
     val close = remember(sheetState) { sheetClose(scope, sheetState) { wanted } }
@@ -178,46 +173,26 @@ fun AppSheet(
             sheetState.show()
         }
     }
-    // The gesture bar's height (navigation bar minus anything tappable in it): the
-    // floating card stands over it as iOS 26's stands over the home indicator.
-    val insetDensity = androidx.compose.ui.platform.LocalDensity.current
-    val gestureOnly = (WindowInsets.navigationBars.getBottom(insetDensity) -
-        WindowInsets.tappableElement.getBottom(insetDensity)).coerceAtLeast(0)
     // The full height's top: under the status bar with 10 of air, as .large stops.
-    // The card is drawn down by the gesture bar, so it may grow that much taller.
-    growth.topClear = WindowInsets.statusBars.getTop(density) + with(density) { 10.dp.toPx() } - gestureOnly
+    growth.topClear = WindowInsets.statusBars.getTop(density) + with(density) { 10.dp.toPx() }
     ModalBottomSheet(
         onDismissRequest = onDismissRequest,
-        // SCALED, NOT NARROWED (visual review 2026-11-11): iOS 26 lays the fitted
-        // sheet out at the screen's full width and draws it smaller, so it stands
-        // 8 in from each side with everything in it about 4 percent smaller: the
-        // review-ask tile measures 53 for its 56, the sign-in title 258 for the
-        // 271 Core Text sets at 26 pt, while titles outside a sheet match to 1 dp.
-        // Laid out narrower, as before, the same words wrapped elsewhere and the
-        // type read 4 to 5 percent big. 10 above the bottom, as measured.
         // A sheet is its own window, out of reach of MainActivity's
         // testTagsAsResourceId: set here, every sheet's tags reach UI Automator.
         // Set only on the handle, it exported nothing on the sign-in sheet, whose
         // content never set it, and the measurer found no grabber (2026-11-12).
-        // Growing to .large the floating card goes edge to edge, as iOS 26's does.
-        modifier = if (floating) modifier.semantics { testTagsAsResourceId = true }.graphicsLayer {
-            val s = (size.width - 16.dp.toPx() * (1f - frac)) / size.width
-            scaleX = s
-            scaleY = s
-            transformOrigin = TransformOrigin(0.5f, 1f)
-            // 10 above the screen's edge, as measured on the iPhone, over the gesture
-            // bar: the sheet's window stops on the navigation bar, so it comes down
-            // by the bar's height (its foot stood 31.6 up, the last button 58 against
-            // the iPhone's 35; android_spacing.py, 2026-11-12).
-            translationY = -10.dp.toPx() * (1f - frac) + gestureOnly
+        // DOCKED (2026-11-17): the fitted sheet is no longer drawn smaller and
+        // lifted off the edge as iOS 26's card; it stands on the bottom edge at the
+        // full width, as Material's does.
+        modifier = if (floating) modifier.semantics { testTagsAsResourceId = true }
         // A FULL SHEET (.large) stands under the status bar with 10 of air, the same
         // rule as topClear above, for every caller: contribute, feedback and the
         // collect steps sat against the status bar, profile-edit and species-pick
         // 50 lower (Hidde, 2026-11-12: "veel kruisjes op de overlay verkeerd").
         // A caller's own statusBarsPadding finds the inset already taken.
-        } else modifier.statusBarsPadding().padding(top = 10.dp).semantics { testTagsAsResourceId = true },
-        shape = if (floating) RoundedCornerShape(topStart = 28.dp, topEnd = 28.dp, bottomStart = 36.dp * (1f - frac), bottomEnd = 36.dp * (1f - frac))
-        else RoundedCornerShape(topStart = 28.dp, topEnd = 28.dp),
+        else modifier.statusBarsPadding().padding(top = 10.dp).semantics { testTagsAsResourceId = true },
+        // Material's shape on both: only the top corners round.
+        shape = RoundedCornerShape(topStart = 28.dp, topEnd = 28.dp),
         sheetState = sheetState,
         containerColor = containerColor,
         // A full sheet marks its top for scripts/android_spacing.py, which holds it
@@ -234,17 +209,11 @@ fun AppSheet(
         // The iPhone's dimming is light: white under it reads #D6D6DA, Material's 32
         // percent black reads #A8A8A8 (review 2026-11-11, row 124).
         scrimColor = Color.Black.copy(alpha = 0.16f),
-        // iOS 26's floating sheet ignores the bottom safe area (BrandSheetFit,
-        // ignoresSafeArea(.container, edges: .bottom)): its last button stands its
-        // own 28 above the card's foot. Material padded the content by the
-        // navigation bar on top of that, and with the card scaled about its foot
-        // the button stood 80 to 142 above the screen's edge against the iPhone's
-        // 35 (android_spacing.py). Only what can be tapped is kept clear: three-
-        // button navigation, never the gesture bar.
-        contentWindowInsets = {
-            if (floating) WindowInsets.tappableElement.only(WindowInsetsSides.Bottom)
-            else androidx.compose.material3.BottomSheetDefaults.windowInsets
-        },
+        // The ground runs on behind the navigation bar (three buttons or the
+        // gesture bar) and the content stands above it: Material's own insets, on
+        // every sheet (2026-11-17). The floating card kept only tappable buttons
+        // clear and stood over the gesture bar.
+        contentWindowInsets = { androidx.compose.material3.BottomSheetDefaults.windowInsets },
     ) {
         // A sheet opened from inside this one has its own owner.
         // The handle row, where Material's slot stood. A full sheet marks its top

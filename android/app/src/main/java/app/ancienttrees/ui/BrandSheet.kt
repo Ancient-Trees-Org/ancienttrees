@@ -1,8 +1,10 @@
 // ONE SHEET FOR EVERY QUESTION, ported from ios Kit/BrandSheet.swift (CLAUDE.md,
 // "One sheet for every overlay"): an icon tile, the title in the brand face at 26
-// centred, one line under it, then capsule buttons 12 apart, a footnote, and the
-// grey close circle top right. The sheet itself is Android's modal bottom sheet
-// (data/android-parity.json: system sheets are the platform's on both phones).
+// centred, one line under it, then capsule buttons 12 apart and a footnote. The
+// sheet itself is Android's modal bottom sheet, docked, with no X (Hidde,
+// 2026-11-17; CONVENTIONS.md "A bottom sheet on Android"): Material's sheets
+// close by a swipe down, the system back or a tap on the scrim; the iPhone keeps
+// its grey close circle top right.
 
 package app.ancienttrees.ui
 
@@ -143,6 +145,8 @@ fun BrandSheet(
         grows = true,
         onDismissRequest = onDismiss,
         containerColor = brand.ground,
+        // Its way out is the swipe, the back and the scrim; the walks find it by this.
+        modifier = Modifier.testTag("brand-sheet"),
     ) {
         // A button slides the sheet down first, then acts (Sheet.kt, the iPhone's dismiss()).
         val close = LocalSheetClose.current
@@ -162,9 +166,8 @@ fun BrandSheet(
                     .fillMaxWidth()
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = 24.dp)
-                    // BrandSheet.swift on iOS 26: the last button 28 above the floating
-                    // card's bottom edge. The card stands on Android's navigation bar
-                    // (Sheet.kt), so only its distance to the screen's edge differs.
+                    // BrandSheet.swift: the last button 28 above the sheet's foot. The
+                    // docked sheet keeps the navigation bar clear under that (Sheet.kt).
                     .padding(top = 12.dp, bottom = 28.dp),
             ) {
                 icon?.let {
@@ -209,14 +212,15 @@ fun BrandSheet(
                     )
                 }
             }
-            // SheetCloseButton.swift: .padding(.top, 8) from the sheet's top edge,
-            // which is 24 above this box's top here.
-            SheetCloseButton(onDismiss, Modifier.align(Alignment.TopEnd).offset(y = (-16).dp))
         }
     }
 }
 
-/** SheetCloseButton: a 30 point grey circle with the cross, in a 48 point target. */
+/**
+ * SheetCloseButton: a 30 point grey circle with the cross, in a 48 point target.
+ * On Android only where a sheet cannot simply be swiped away or is full height
+ * (the collect steps); a docked short sheet carries none (Sheet.kt).
+ */
 @Composable
 fun SheetCloseButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
     val brand = Brand.colors

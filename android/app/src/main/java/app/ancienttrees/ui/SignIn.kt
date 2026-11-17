@@ -144,7 +144,7 @@ fun SignInSheet(account: Account, reason: SignInReason, onDismiss: () -> Unit) {
         modifier = Modifier.testTag("signin-sheet"),
     ) {
         // SignIn.swift: content 36 below the sheet's top (the handle drawn inside that
-        // room), 28 above the floating card's foot, the X 8 down. AppSheet's handle
+        // room), 28 above the sheet's foot (the iPhone's X 8 down). AppSheet's handle
         // keeps 48 (Sheet.kt), so the content comes 36 up; the icon sat 37 lower.
         // The box comes 24 and the scroll's own padding does the rest: lifted the
         // whole 36, the scroll area began over the grabber, and Compose leaves a
@@ -175,7 +175,8 @@ fun SignInSheet(account: Account, reason: SignInReason, onDismiss: () -> Unit) {
                     else -> Ask(account, reason)
                 }
             }
-            SheetCloseButton({ account.dismissProblem(); onDismiss() }, Modifier.align(Alignment.TopEnd).offset(y = (-16).dp))
+            // No X on Android: the docked sheet closes by a swipe down, the system
+            // back or the scrim (Sheet.kt, 2026-11-17); the iPhone keeps its X.
         } }
     }
 }
