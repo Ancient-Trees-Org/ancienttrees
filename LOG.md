@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the Oak of Orkin gets its first photograph
+
+- **Changed in the product** (photograph viewed): a reader's sunlit photograph of the Oak of Orkin, Ultzama valley (`pamplona/pam_002`), the whole broad pollarded crown alone in its pasture behind a rail fence, GPS fix 29 m from our pin. The tree had no photograph; this one leads (verdict `approve`). Reader mail queued through `sightings_publish.py --send`.
+- This run also judged the Stow yews and the totara sign the same way; a parallel run's commit below got there first and is kept as it stands. The Stow reader's two extra shots of the same door are not on the page (the publish script takes the main file only).
+- preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 reader judge: two readers' photographs on trees we map
 
 - **Changed in the product**: a reader's wet-day photograph of both north door yews of St Edward's framing the arched door now leads `stow-on-the-wold/stw_001` (verdict `add`; the Geograph photograph moves into the strip), and its pin moved 101 m to the reader's GPS fix, now confirmed. The Tuatapere totara's own reader sent the trail sign beside the trunk ("Halls Totara, Podocarpus Hallii, Girth at chest height 8.31 m, Approximate age - 1000 years"); it sits in `tuatapere/tua_001`'s gallery behind the lead (verdict `strip`). The tree is now Hall's Tōtara (Podocarpus laetus, the sign's hallii), `girth_cm` 831 and its age rest on the sign, and the story, recognition line, intro and question context say so.

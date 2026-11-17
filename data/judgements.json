@@ -13084,6 +13084,28 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:cd5837fb-7e49-439e-9edb-50a5b86f01fb",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak of Orkin",
+   "city": "Pamplona",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/cd5837fb-7e49-439e-9edb-50a5b86f01fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 29,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the whole Orkin oak alone in its pasture, broad rounded crown, rail fence, daylight. First photograph for pam_002; lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
