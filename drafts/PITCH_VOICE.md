@@ -263,6 +263,11 @@ belongs in Helpful Details or nowhere.
 - NO: "Could you have a look and tell us whether both are in the right place now?"
 - YES: "Is that right?"
 
+**an ask that expects the reader to go out to the tree** (added 2026-11-17)
+
+- NO: "A photograph of the ones that stand out to you, taken with the app at the tree, puts each on the map with its own pin."
+- YES: "If you are ever passing by and one of them catches your eye, a photo from the app would be wonderful. No pressure at all, of course."
+
 ## What to do instead, in order
 
 1. **First sentence: the reader or the world, never us and never the market.**
