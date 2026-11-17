@@ -24,6 +24,10 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 compliance
+
+- hans-photos-app-only-yes: Hans Hofele's Frankfurt photographs have a phone yes for the app only, yet show on the website too (copyright, scope of permission). Privacy page checked against the week's new tables (votes, reports), crash reports and mail route: still true.
+
 ## 2026-11-17
 
 Web half: the last 24 hours were the Miami, Allentown, Aspromonte, Castelbuono, Serra San Bruno and Tremiti write passes (app-only, no web pages), reader photographs into Hobart and Takayama, seven new reader trees, Thailand and Philippines country intros. No em dashes and no banned words in the changed city and country files.

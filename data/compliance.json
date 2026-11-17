@@ -76,6 +76,15 @@
       "law": "CC BY / BY-SA section 3(a): licence URI and source where reasonably practicable",
       "fix": "Send licence_url and source_url in the feed (lib/images.ts licenceUrl and photoSourceUrl) and make the app's credit line tappable.",
       "why": "CC 4.0 lets attribution be given 'in any reasonable manner based on the medium'; in an app the name and licence as text is the common practice, and claim agencies crawl websites, where the links now are. Hidde, 2026-11-10: \"fotocredits met link in de app lijkt me geen beginnen aan tbh moet dat echt\"."
+    },
+    {
+      "id": "hans-photos-app-only-yes",
+      "owner": "hidde",
+      "first_seen": "2026-11-17",
+      "status": "open",
+      "summary": "Hans Hofele's Eschersheimer Linde photographs (data/cities/frankfurt.json) are recorded as agreed by phone for 'the app', but the tree has a web page, so the photo is also published on the website and credited there.",
+      "law": "Copyright: a licence by permission covers only the use the maker agreed to",
+      "fix": "Mail Hans once to confirm the website use too (and record his words in the photo's permission), or keep the photo to the app until he says yes."
     }
   ]
 }
