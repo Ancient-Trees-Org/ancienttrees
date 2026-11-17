@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: the Arbour Oak gets its seasons row, its snow photo under winter
+
+- Hidde asked why the Arbour Oak (nottingham/ntm_001) showed no season photos. Two causes: `Quercus x rosacea` was not in the deciduous list in site/src/lib/seasons.ts (so no row at all, on web and in the app feed), and the reader's photo had no month (a website tip, no date in the file). Fixed both: the hybrid oak is in the list, the photo has `taken_month` 1 with `taken_month_basis` (preflight's bookkeeping set names the field).
+- New rule (Hidde: "als je sneeuw ziet mag die in winter hoor als je twijfelt"): an undated photo with snow or frost is winter, in CLAUDE.md "Photos" and BRIEF_READER_JUDGE.md "Putting it live". Older undated snow photos were not swept.
+
 ## 2026-11-17 reader judge: a hollow boab gives Kununurra its first tree, 29 reports closed
 
 - **New tree**: kununurra/knx_001, The Hollow Boab of Rowing Club Road. A reader's photograph with a GPS fix: a tall boab on red ground with a doorway in its foot and a crown in fresh leaf. New one-tree place (Kununurra, WA) with its intro, question texts and three FAQ. The pin falls on open ground off Rowing Club Access Road (OpenStreetMap: a camp site), and the access line says we have not confirmed who manages it.

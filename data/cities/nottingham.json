@@ -49,6 +49,8 @@
         "status": "approved",
         "width": 480,
         "height": 640,
+        "taken_month": 1,
+        "taken_month_basis": "snow in the picture, no date in the file: filed under winter (Hidde, 2026-11-17)",
         "source": "contributor",
         "contributor_user_id": "p_050a7df1343144bf3f82d0f0",
         "sighting_id": "tip-839",

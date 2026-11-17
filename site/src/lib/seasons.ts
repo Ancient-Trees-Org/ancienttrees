@@ -19,7 +19,7 @@ export const SEASONS: Season[] = ["spring", "summer", "autumn", "winter"];
 const EVERGREEN = ["quercus ilex", "quercus suber", "quercus virginiana", "quercus coccifera", "magnolia grandiflora",
   "prunus lusitanica", "prunus laurocerasus"];
 const DECIDUOUS = ["quercus robur", "quercus petraea", "quercus rubra", "quercus cerris", "quercus pubescens",
-  "quercus alba", "quercus frainetto", "quercus pyrenaica", "quercus faginea", "fagus", "tilia", "platanus",
+  "quercus x rosacea", "quercus alba", "quercus frainetto", "quercus pyrenaica", "quercus faginea", "fagus", "tilia", "platanus",
   "acer", "ulmus", "fraxinus", "castanea", "aesculus", "ginkgo", "salix", "populus", "carpinus", "prunus",
   "malus", "pyrus", "juglans", "morus", "betula", "larix", "taxodium", "metasequoia", "liriodendron",
   "robinia", "sophora", "styphnolobium", "catalpa", "zelkova", "celtis", "gleditsia", "sorbus", "alnus",
