@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: the late-trees alarm counts from when a reader sent it
+
+- **Measured**: of 649 things strangers sent in the last 7 days, 94% had a verdict. Reports, notes, ambassador requests and written feedback 100%, app photos 98%, trees added 82%: 31 without a recorded verdict while reader_backlog.py said 3 were late.
+- **Fixed**: reader_backlog.py also checks every tree or city a stranger sent, by its own send time, against every place a verdict can live (`trees_without_a_verdict()`); it reports 17 late. judgement.py stubs an app tree whose sighting no longer exists as a tip (eight sat in no route: five were the same tree sent twice and are live via the second copy, rows closed `holds`; three are tips now: 691, 755 Waipoua, 885 Tasmania). tip:820 recorded as live (a-coruna/acr_001).
+- **Breakage, fixed**: the `other_tree` route copied the queue's raw photo path into the public leads file (account id where a code belongs); `to_lead()` now codes it (test), the five paths are coded, and the pre-push qa check had stopped it.
+- **Left for the reader judge (dispatched)**: 17 tips without a photograph from 11-15 to 11-17 (Mouchão olive, Cat Island bald cypress, Tsitsikamma big tree, Ferrara oak, Heidelberg x3, Chile's Fitzroya, Ho Chi Minh banyan, and others).
+
 ## 2026-11-17 reader judge (second pass): El Sargento, a weeping cedar and a Chiang Mai fig go live
 
 - **Live (every photograph viewed, GPS fix at each)**: **El Sargento** (mexico-city/mex_011), Chapultepec's ahuehuete, dead since 1969 and still standing, under the standing-dead exception, sourced (Wikipedia, Chapultepec, CDMX tourism, Mexico Desconocido), with the Spanish overlay entry; the Mexico City intro and FAQ, which said it was not on the page, now say it is (English and Spanish). **The Weeping Cedar Tunnel of Glasnevin** (dublin/dub_020): the reader was unsure which of five trees it was, and it is none of them; Dublin's counts go from 19 to 20. **The Fig That Holds the Stones** (chiang-mai/cnx_002), a strangler fig west of the old city. This run also built the Morden mulberry, but the pass above had already published it as lon_054, so its version stands.
