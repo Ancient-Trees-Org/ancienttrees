@@ -35,8 +35,8 @@
       "height_m": 20.8,
       "location": {
         "address": "Parque Marechal Carmona, Cascais",
-        "latitude": 38.69465,
-        "longitude": -9.42154,
+        "latitude": 38.694778,
+        "longitude": -9.421362,
         "neighbourhood": "Cascais"
       },
       "verified_sources": [
@@ -50,15 +50,29 @@
         "url": "http://www2.icnf.pt/portal/florestas/ArvoresFicha?Processo=KNJ1/299&Concelho=&Freguesia=&Distrito="
       },
       "access": "Free public park, daily; Time Out lists roughly 8:30 to 17:45 in winter and 19:45 in summer, other listings differ, check before going.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "story": "An Australian fig with a trunk seven and a half metres round grows in a park in Cascais, and Portugal has protected it since 1996. The forestry institute, the ICNF, lists it as a tree of public interest, declared in the official gazette on 28 November 1996, and the town of Cascais carries it on its own list of classified trees under the name árvore-da-borracha, the rubber tree.\n\nThe register's numbers do most of the talking. A girth of 7.5 metres, a height of 20.8 metres in a 2016 record, and an age of about 110 years at its last measurement. A register age is the age when somebody last looked, so the tree has had some years since, and we give it a band of 100 to 130 rather than pretend to know which.\n\nThe ground it stands on is Parque Marechal Carmona, which guides describe as the gardens of the Castro Guimarães palace and the Gandarinha estate, joined and opened to the public in 1944. By the register's age, the fig was already growing when the gates opened.\n\nCascais's own guide to the park mentions Moreton Bay figs in the plural, and only one of them is classified. Our pin is the register's point rather than a single crown, so the girth is the number to check against. The park is free and open daily, closing earlier in winter than in summer.",
       "how_to_recognise": "You can recognise it by the trunk, 7.5 metres round, under a crown 20.8 metres tall. It stands in Parque Marechal Carmona, which has more than one Moreton Bay fig; this is the one the state classified.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/csc_001-the-moreton-bay-fig-of-parque-marechal-carmona.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_0e37ed6c0d59c0d65f6c6f56",
+        "sighting_id": "c5fa1b81-63e9-4983-9703-e6c016c6fdf2",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: only photograph, tree readable, light is plain Species seen: Moreton Bay fig, buttress roots behind a fence. Fits the description: huge fig with buttress roots by a road, a hen in the foreground.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c5fa1b81-63e9-4983-9703-e6c016c6fdf2",
+        "moved_m": 21,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]

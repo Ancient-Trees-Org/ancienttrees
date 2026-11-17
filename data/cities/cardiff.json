@@ -463,8 +463,8 @@
       "height_m": 14,
       "location": {
         "address": "East side of Roath Park Lake, almost opposite Lakeside Drive, Lake Road East, Cardiff CF23 5PA",
-        "latitude": 51.51012,
-        "longitude": -3.1738,
+        "latitude": 51.510042,
+        "longitude": -3.173772,
         "neighbourhood": "Roath"
       },
       "verified_sources": [
@@ -477,15 +477,29 @@
       },
       "access": "Free, open public park (Roath Park lakeside path, Lake Road East).",
       "transport": "Cardiff Queen Street about 25 minutes by bus then a short walk (not checked, confirm locally); Roath Park lake is a well-served bus area.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "how_to_recognise": "You can recognise it by the broad trunk, 3.44 metres round, under a low crown only 14 metres tall. It stands on the lakeside path on the east shore of Roath Park Lake, almost opposite Lakeside Drive.",
       "story": "This oak was on the map before the park was. Ordnance Survey sheets of 1880 and 1900 both show an oak at this spot on the east side of what is now Roath Park Lake, so it was already growing when the marshland here was made into a park.\n\nCardiff's tree survey measured it in January 2015 at 3.44 metres round and only 14 metres tall, a short, broad tree rather than a tall one. From that girth the survey works out about 173 years on an average site, or about 157 on a good one, which puts its start somewhere between the early 1840s and the late 1850s. Add the years since, and it is roughly 170 to 190 years old now. That is an estimate from size, not a planting record.\n\nEither way, it has watched the marsh around it turn into a lake and a public park, and the park fill up with remarkable trees. By the count of the council's park site, Roath Park now holds the second largest number of champion trees of any public park in the UK.\n\nThis oak is not the grandest of them. It stands on a busy lakeside footpath beside Lake Road East, almost opposite Lakeside Drive, a modest tree with a long memory. The figures are from 2015, so it will have put on a few centimetres since. If you measure it, tell us.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/crd_012-roath-park-lake-pedunculate-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_eedfe380272ad69879b4d80c",
+        "sighting_id": "e3020f6d-ff65-4bc6-b609-48ed5ec5df78",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: this tree, good frame Species seen: pedunculate oak, gnarled limbs, autumn leaf. Fits the description: old gnarled oak beside a lake.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e3020f6d-ff65-4bc6-b609-48ed5ec5df78",
+        "moved_m": 9,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

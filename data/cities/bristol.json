@@ -142,10 +142,17 @@
       "access": "Free, open access, Blaise Castle Estate (daily, dawn to dusk)",
       "transport": "Bus from central Bristol; no on-site rail",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bri_003-the-cedar-of-lebanon-at-blaise-castle.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
+        "sighting_id": "9117fbb4-62bc-4fba-9e7d-a8f165614ba8",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: this tree, clear frame Species seen: cedar of Lebanon, flat layered crown, multi-stem trunk. Fits the description: big layered cedar standing alone on a lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Girth (695cm) and age estimate (250 years) from the Bristol Tree Forum's veteran tree survey (grid reference ST5624 7869, 'Blaise House'); Bristol Museums' own history of the estate corroborates Repton and Nash's landscaping work for Harford from the 1790s and the 1926 sale to Bristol Corporation. No source gives an exact planting year for this specific cedar; age range reflects the Repton-era design period rather than a precise sourced date.",

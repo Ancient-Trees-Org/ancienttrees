@@ -33,10 +33,17 @@
       "verify_notes": "2026-11-15 session (c): sent by a reader through the app as 'Giant Tree', species given as Giant Sequoia, girth 1615 cm, note pointing to famousredwoods.com/giant_tree. The park's sign in their second photograph (and the HMdb marker): national champion coast redwood, Sequoia sempervirens, recognised by the American Forestry Association November 1991, height 363 ft, circumference 53.2 ft, average crown spread 62 ft. girth_cm and height_m are the sign's figures converted (53.2 ft = 1622 cm, 363 ft = 110.6 m). Save the Redwoods League: champion for the best combination of height, diameter and crown. Wikipedia: Rockefeller Forest is the world's largest remaining contiguous old-growth coast redwood forest; park founded 1921 by Save the Redwoods League largely from Pacific Lumber land; about 5% of old coast redwood forest remains. The Rockefeller money and the 10,000-acre figure were not in Wikipedia and are not stated. Photographs: the main one shows a recognisable person at the trunk and is not published; the other is the sign only, which would become the hero on a photo-less page, so it is not published either. Pin: the reader's own hand-moved pin (submission 803), 664 m from their GPS fix; approximate. No age.",
       "access": "Free, on a short loop trail from the Big Tree Area day-use parking in the state park.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hum_001-the-giant-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_492afbdde23d69af867aff0f",
+        "sighting_id": "ed5bd210-4a52-4fe2-90a8-f121559ef711",
+        "note": "Photographed by a reader and sent through the app (2009-08-13); a viewing pass approved it on 2026-11-17: this tree, the trunk is the point Species seen: coast redwood fluted trunk base. Fits the description: enormous redwood trunk base beside a boardwalk, reader sitting for scale.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",

@@ -374,10 +374,17 @@
       "access": "Free, public street",
       "transport": "East of the centre, about 15 min walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/stb_009-the-pepper-tree-that-mended-nets.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+        "sighting_id": "c361830c-de51-467a-9f21-9e4d863486d3",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: roughly this tree Species seen: Peruvian pepper, weeping foliage, large crown. Fits the description: big pepper tree beside a bench in a street.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Register gives 66 years at the 2015 measurement, so about 83 today. The fishing-net use is stated by the parish, not inferred.",
@@ -412,7 +419,7 @@
         "longitude": -8.8858,
         "neighbourhood": "Sao Sebastiao"
       },
-      "story": "The Peruvian pepper is the weeping cousin of the tree on the avenue nearby, and the two together make a small lesson in how the same idea arrived in Europe twice. This one is Andean, it was carried back by the Spanish in the sixteenth century, and the Inca used its fruit for a fermented drink and its resin for embalming. What it looks like is a willow that took a wrong turn: long drooping compound leaves on branches that hang almost to the ground, so from underneath it forms a green tent. Crush a leaf and it smells sharply of pepper, which is the family trait, and in autumn it carries loose pink drupes on strings. At around a hundred and two years it is among the older trees in Setubal, and it stands alone in a small garden in Sao Sebastiao, off the line of the main walk. One honest caveat: this is the only tree on this page that the parish route does not cover, because the garden sits in a different parish, so it rests on the national register alone.",
+      "story": "The Peruvian pepper is the weeping cousin of the tree on the avenue nearby, and the two together make a small lesson in how the same idea arrived in Europe twice. This one is Andean, it was carried back by the Spanish in the sixteenth century, and the Inca used its fruit for a fermented drink and its resin for embalming. What it looks like is a willow that took a wrong turn: long drooping compound leaves on branches that hang almost to the ground, so from underneath it forms a green tent. Crush a leaf and it smells sharply of pepper, which is the family trait, and in autumn it carries loose pink drupes on strings. At around a hundred and two years it is among the older trees in Setubal, and it stands alone in a small garden in Sao Sebastiao, off the line of the main walk. It is the only tree on this page that the parish route does not cover, because the garden sits in a different parish, so it rests on the national register alone.",
       "verified_sources": [
         "https://si.icnf.pt/wfs/arv_class",
         "https://www.icnf.pt/florestas/arvoredodeinteressepublico",
@@ -421,10 +428,17 @@
       "access": "Free, public garden",
       "transport": "East of the centre, about 12 min walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/stb_010-the-peruvian-pepper-of-the-jardim-de-palhais.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+        "sighting_id": "75482c19-e000-4832-8464-0bca47842421",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: roughly this tree Species seen: Peruvian pepper, weeping foliage. Fits the description: tall weeping pepper tree on a square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "The only single-sourced tree on this page: it sits in Sao Sebastiao parish, outside the Uniao de Freguesias route that independently corroborates the other nine. Register gives 85 years at the 2009 assessment, so about 102 today.",

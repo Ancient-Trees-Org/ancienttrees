@@ -980,7 +980,7 @@
         "longitude": -73.9429,
         "neighbourhood": "Bedford-Stuyvesant"
       },
-      "story": "For almost forty years New York's official list of its Great Trees did not change. In October 2024 NYC Parks finally reopened it, for the first time since 1985, adding 61 trees chosen from more than 270 nominations sent in by the public. This ginkgo in front of a mansion on MacDonough Street was one of them, and the house is the reason people put its name forward.\n\nThe mansion belongs to the United Order of Tents, a Black women's fraternal order that has served this community for more than 150 years and is said to have helped people escaping slavery. Coverage of the new list described the ginkgo as holding a piece of that history, which is about the best job description a front-yard tree can have.\n\nWhat we cannot tell you is how old it is. Ginkgo is one of the longest-lived trees on earth, but that says nothing about this particular one, and no source we have found gives a planting year, a girth or a height. If you have any of the three, tell us: a tree on the city's Great Trees list deserves a number.\n\nThe lawn is the Order's, so look from the sidewalk. The Hattie Carthan magnolia on Lafayette Avenue is about a kilometre north-west, which makes the two an easy Bed-Stuy pairing, best in November when the ginkgo turns gold.",
+      "story": "For almost forty years New York's official list of its Great Trees did not change. In October 2024 NYC Parks finally reopened it, for the first time since 1985, adding 61 trees chosen from more than 270 nominations sent in by the public. This ginkgo in front of a mansion on MacDonough Street was one of them, and the house is the reason people put its name forward.\n\nThe mansion belongs to the United Order of Tents, a Black women's fraternal order that has served this community for more than 150 years and is said to have helped people escaping slavery. Coverage of the new list described the ginkgo as holding a piece of that history, which is about the best job description a front-yard tree can have.\n\nWhat we cannot tell you is how old it is. Ginkgo is one of the longest-lived trees on earth, but that says nothing about this particular one, and no source we have found gives a planting year, a girth or a height. If you have any of the three, tell us, because a tree on the city's Great Trees list deserves a number.\n\nThe lawn is the Order's, so look from the sidewalk. The Hattie Carthan magnolia on Lafayette Avenue is about a kilometre north-west, which makes the two an easy Bed-Stuy pairing, best in November when the ginkgo turns gold.",
       "how_to_recognise": "You can recognise it as the ginkgo in front of the United Order of Tents mansion, a house on a wide lot with a lawn with almost 100 feet of frontage. It stands at 87 MacDonough Street; look from the sidewalk.",
       "verified_sources": [
         "https://www.nycgovparks.org/facilities/great-trees?id=86",
@@ -991,10 +991,17 @@
       "access": "Free; stands in front of the United Order of Tents mansion on a large lot (almost 100 ft of frontage); viewed from the public sidewalk on MacDonough Street. The grounds themselves are the Order's.",
       "transport": "Nearest subway: A/C at Utica Ave about 8 min walk, or G at Bedford-Nostrand Avs; about 1 km south-east of the Hattie Carthan Magnolia (nyc_021 area, Lafayette Ave).",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nyc_024-the-ginkgo-of-the-united-order-of-tents.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_ece9fae114626fb630d3dcbe",
+        "sighting_id": "9cf2daf3-8781-4169-882b-efd6b6352ede",
+        "note": "Photographed by a reader and sent through the app (2025-11-15); a viewing pass approved it on 2026-11-17: this tree in autumn colour Species seen: ginkgo in full yellow autumn colour, street tree. Fits the description: large ginkgo crown over a Brooklyn street.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "best_time": {
         "months": [

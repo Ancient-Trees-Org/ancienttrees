@@ -213,8 +213,8 @@
       "girth_cm": null,
       "location": {
         "address": "Royal Botanic Garden Sydney, Mrs Macquaries Road, Sydney NSW 2000 (towards the Harbour side of the Garden)",
-        "latitude": -33.864899,
-        "longitude": 151.217994,
+        "latitude": -33.864862,
+        "longitude": 151.218155,
         "neighbourhood": "Royal Botanic Garden Sydney"
       },
       "verified_sources": [
@@ -225,17 +225,31 @@
       ],
       "access": "Free; Royal Botanic Garden Sydney, open daily",
       "transport": "10 minute walk from Martin Place or St James stations, same cluster as the Bidwill Kauri Pine",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "notes": "Pin: OpenStreetMap carries a node explicitly named Wishing Tree at this point, on the harbour side of the Garden. It replaces the Garden-centre coordinate the first pass used. One crowd-maintained source, so the precision stays approximate until somebody standing there tells us otherwise.",
       "story": "A plaque on the trunk explains that this tree will never reach the grandeur of the one it replaced, because a storm damaged its crown soon after it was planted. It is an unusually honest thing for a label to say, and it is accurate.\n\nThe original Wishing Tree was a Norfolk Island pine set out from a tub around 1816, under Elizabeth Macquarie's eye. By 1905 it was over thirty metres and the most popular tree in the Royal Botanic Garden, with a custom attached: three times around it forwards, three times backwards, and then make your wish. In the 1930s it was found to be dying of old age, and a replacement was bought with money raised by the Farmer's Children's Radio Birthday Club and planted nearby. The original came down in 1945 and its timber was turned into souvenirs, sold to raise funds for returned servicemen.\n\nSo the tree you will stand in front of, on the harbour side of the garden, is that 1930s replacement. Roughly ninety years old, shortened by one storm early in its life, and still being walked around: visitors were doing their six laps in 2018.\n\nTwo notes. The spot where the original stood now holds a Wollemi pine, a different tree with a different story. And our pin follows a map node named for the Wishing Tree rather than a surveyed position, so leave room for a short hunt.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/syd_006-the-wishing-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+        "sighting_id": "4f406924-9d9a-4d14-9470-3bc903726f47",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: roughly this tree, within 15 m Species seen: Norfolk-island-pine-type araucaria, tiered branches. Fits the description: tall tiered conifer in Sydney garden with city towers behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by the plaque on its trunk, which says plainly that a storm shortened its crown soon after planting. It stands on the harbour side of the garden."
+      "how_to_recognise": "You can recognise it by the plaque on its trunk, which says plainly that a storm shortened its crown soon after planting. It stands on the harbour side of the garden.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4f406924-9d9a-4d14-9470-3bc903726f47",
+        "moved_m": 15,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "syd_007",

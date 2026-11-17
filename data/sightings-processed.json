@@ -3391,6 +3391,378 @@
   "tip-995": {
    "outcome": "lead",
    "date": "2026-11-17"
+  },
+  "a2a6377c-7d1c-4335-9375-46412caaf54e": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "pwt_001",
+   "city_slug": "powelltown",
+   "file": "pwt_001-the-ada-tree.jpg",
+   "reason": "roughly this tree, a reader's own frame Species seen: smooth-barked eucalypt trunk and crown against dusk sky. Fits the description: huge tall eucalypt, matches a giant mountain ash; dusk frame.",
+   "lat": -37.8171383333333,
+   "lon": 145.85875,
+   "pin_checked": "2026-11-17"
+  },
+  "ed5bd210-4a52-4fe2-90a8-f121559ef711": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "hum_001",
+   "city_slug": "humboldt-redwoods-state-park",
+   "file": "hum_001-the-giant-tree.jpg",
+   "reason": "this tree, the trunk is the point Species seen: coast redwood fluted trunk base. Fits the description: enormous redwood trunk base beside a boardwalk, reader sitting for scale.",
+   "lat": 40.3496666666667,
+   "lon": -123.991666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "9cf2daf3-8781-4169-882b-efd6b6352ede": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "nyc_024",
+   "city_slug": "new-york",
+   "file": "nyc_024-the-ginkgo-of-the-united-order-of-tents.jpg",
+   "reason": "this tree in autumn colour Species seen: ginkgo in full yellow autumn colour, street tree. Fits the description: large ginkgo crown over a Brooklyn street.",
+   "lat": 40.6810533333333,
+   "lon": -73.9431383333333,
+   "pin_checked": "2026-11-17"
+  },
+  "ee54ed84-91e8-40be-ade6-0552be80dc9a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lax_017",
+   "city_slug": "los-angeles",
+   "file": "lax_017-the-huntington-montezuma-cypress.jpg",
+   "reason": "daylight, tree fills frame Species seen: tall conifer-like cypress, dense dark crown, rose garden pergola. Fits the description: tall columnar tree in the rose garden; flag at right.",
+   "lat": 34.126525,
+   "lon": -118.113891666667,
+   "pin_checked": "2026-11-17"
+  },
+  "9117fbb4-62bc-4fba-9e7d-a8f165614ba8": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "bri_003",
+   "city_slug": "bristol",
+   "file": "bri_003-the-cedar-of-lebanon-at-blaise-castle.jpg",
+   "reason": "this tree, clear frame Species seen: cedar of Lebanon, flat layered crown, multi-stem trunk. Fits the description: big layered cedar standing alone on a lawn.",
+   "lat": 51.5054166666667,
+   "lon": -2.63223666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "c5fa1b81-63e9-4983-9703-e6c016c6fdf2": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "csc_001",
+   "city_slug": "cascais",
+   "file": "csc_001-the-moreton-bay-fig-of-parque-marechal-carmona.jpg",
+   "reason": "only photograph, tree readable, light is plain Species seen: Moreton Bay fig, buttress roots behind a fence. Fits the description: huge fig with buttress roots by a road, a hen in the foreground.",
+   "lat": 38.6947783932195,
+   "lon": -9.42136197972732,
+   "pin_checked": "2026-11-17"
+  },
+  "c361830c-de51-467a-9f21-9e4d863486d3": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "stb_009",
+   "city_slug": "setubal",
+   "file": "stb_009-the-pepper-tree-that-mended-nets.jpg",
+   "reason": "roughly this tree Species seen: Peruvian pepper, weeping foliage, large crown. Fits the description: big pepper tree beside a bench in a street.",
+   "lat": 38.52655,
+   "lon": -8.88692,
+   "pin_checked": "2026-11-17"
+  },
+  "d60af121-131a-4f88-b404-39281748b354": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lax_011",
+   "city_slug": "los-angeles",
+   "file": "lax_011-the-huntington-rose-garden-kauri.jpg",
+   "reason": "this tree, fills frame Species seen: kauri-like columnar conifer with broad evergreen leaves. Fits the description: very tall tree in Huntington Rose Garden, flaking orange base.",
+   "lat": 34.126525,
+   "lon": -118.113891666667,
+   "pin_checked": "2026-11-17"
+  },
+  "4f406924-9d9a-4d14-9470-3bc903726f47": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "syd_006",
+   "city_slug": "sydney",
+   "file": "syd_006-the-wishing-tree.jpg",
+   "reason": "roughly this tree, within 15 m Species seen: Norfolk-island-pine-type araucaria, tiered branches. Fits the description: tall tiered conifer in Sydney garden with city towers behind.",
+   "lat": -33.8648616666667,
+   "lon": 151.218155,
+   "pin_checked": "2026-11-17"
+  },
+  "75482c19-e000-4832-8464-0bca47842421": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "stb_010",
+   "city_slug": "setubal",
+   "file": "stb_010-the-peruvian-pepper-of-the-jardim-de-palhais.jpg",
+   "reason": "roughly this tree Species seen: Peruvian pepper, weeping foliage. Fits the description: tall weeping pepper tree on a square.",
+   "lat": 38.5249098214748,
+   "lon": -8.88564150324706,
+   "pin_checked": "2026-11-17"
+  },
+  "e3020f6d-ff65-4bc6-b609-48ed5ec5df78": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "crd_012",
+   "city_slug": "cardiff",
+   "file": "crd_012-roath-park-lake-pedunculate-oak.jpg",
+   "reason": "this tree, good frame Species seen: pedunculate oak, gnarled limbs, autumn leaf. Fits the description: old gnarled oak beside a lake.",
+   "lat": 51.5100416666667,
+   "lon": -3.17377166666667,
+   "pin_checked": "2026-11-17"
+  },
+  "0a67c35e-13cb-4e2c-a88b-230cd2b15034": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "kyo_014",
+   "city_slug": "kyoto",
+   "file": "kyo_014-the-grand-ginkgo-of-goo-shrine.jpg",
+   "reason": "this tree, 0 m Species seen: ginkgo in yellow autumn colour at a shrine. Fits the description: large ginkgo beside shrine buildings.",
+   "lat": 35.02222,
+   "lon": 135.75861,
+   "pin_checked": "2026-11-17"
+  },
+  "cc33c8aa-5567-4244-9704-861be50e37d8": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "kyo_014",
+   "city_slug": "kyoto",
+   "file": "kyo_014-the-grand-ginkgo-of-goo-shrine-cc33c8aa.jpg",
+   "reason": "second view of the ginkgo Species seen: ginkgo canopy in autumn. Fits the description: canopy looking up.",
+   "lat": 35.02222,
+   "lon": 135.75861,
+   "pin_checked": "2026-11-17"
+  },
+  "6af03964-1804-4d6e-b8ba-fb76bfa2fa27": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "syd_001",
+   "reason": "one picture sent for two trees, 380 m from this pin; kept on the closer one"
+  },
+  "4aab4b27-c9ee-4e1c-95c1-4295865293a5": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "lax_011",
+   "reason": "the tree's sign, not the tree; the tree has the other photograph"
+  },
+  "b7956952-7971-4502-83ed-e72a7c3e6a6f": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "lax_017",
+   "reason": "duplicate of a photograph already approved"
+  },
+  "a477d312-0d76-4189-9217-ef167b0b1bc7": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "okb_001",
+   "city_slug": "mistley",
+   "file": "okb_001-old-knobbley-a477d312.jpg",
+   "reason": "this tree, vivid frame Species seen: pedunculate oak, huge hollow ancient trunk. Fits the description: gnarled hollow trunk with scorched bark.",
+   "lat": 51.9391333333333,
+   "lon": 1.07595833333333,
+   "pin_checked": "2026-11-17"
+  },
+  "cdc0b82c-26f6-4691-94df-3d728924d039": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "bmr_001",
+   "city_slug": "benmore",
+   "file": "bmr_001-benmore-redwood-avenue-cdc0b82c.jpg",
+   "reason": "this avenue Species seen: giant sequoia avenue. Fits the description: avenue of tall redwoods.",
+   "lat": 56.0264638333333,
+   "lon": -4.98643833333333,
+   "pin_checked": "2026-11-17"
+  },
+  "4c161566-17bf-4859-a3cb-2148328999a9": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "bmr_001",
+   "city_slug": "benmore",
+   "file": "bmr_001-benmore-redwood-avenue-4c161566.jpg",
+   "reason": "this avenue, second view Species seen: giant sequoia avenue. Fits the description: avenue of tall redwoods, backlit.",
+   "lat": 56.0267555,
+   "lon": -4.98254166666667,
+   "pin_checked": "2026-11-17"
+  },
+  "023ed607-1e16-4502-a16c-ba7b77888f82": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "der_001",
+   "city_slug": "derby",
+   "file": "der_001-boab-prison-tree-023ed607.jpg",
+   "reason": "this tree Species seen: boab, swollen bottle trunk with carved names and a slit. Fits the description: boab with the opening in the trunk.",
+   "lat": -17.3507216666667,
+   "lon": 123.6699,
+   "pin_checked": "2026-11-17"
+  },
+  "57a1afed-1a15-4782-b4a1-4aeaf08a9f04": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vie_007",
+   "city_slug": "vienna",
+   "file": "vie_007-the-sisi-platane-of-volksgarten-57a1afed.jpg",
+   "reason": "this tree Species seen: London plane with pale mottled trunk. Fits the description: large plane in Volksgarten with theatre behind.",
+   "lat": 48.2079966666667,
+   "lon": 16.3610383333333,
+   "pin_checked": "2026-11-17"
+  },
+  "4bc04cd2-78e1-473d-b35f-265f2c84d3a8": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "vie_007",
+   "reason": "duplicate of a photograph sent with the first"
+  },
+  "97138891-91c0-4a50-97ac-a47614a551db": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "vie_007",
+   "reason": "duplicate of a photograph sent with the first"
+  },
+  "161c7f67-f76d-4527-84b1-d24ab59c798f": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vie_007",
+   "city_slug": "vienna",
+   "file": "vie_007-the-sisi-platane-of-volksgarten-161c7f67.jpg",
+   "reason": "this tree Species seen: London plane, mottled bark, buttress base. Fits the description: close view of the trunk with a reader beside it.",
+   "lat": 48.2082133333333,
+   "lon": 16.3612916666667,
+   "pin_checked": "2026-11-17"
+  },
+  "cc8a74d4-d8a7-42fa-865c-f5a12e490f7f": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "brn_002",
+   "city_slug": "baarn",
+   "file": "brn_002-the-cantonspark-giant-sequoia-cc8a74d4.jpg",
+   "reason": "this tree Species seen: giant sequoia, fluted trunk with red bark. Fits the description: single big sequoia in a park, walker for scale.",
+   "lat": 52.2081333333333,
+   "lon": 5.29823333333333,
+   "pin_checked": "2026-11-17"
+  },
+  "c59bfd73-d95b-4cda-9ae3-5f75cf6f9754": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "seq_003",
+   "city_slug": "sequoia-national-park",
+   "file": "seq_003-chief-sequoyah-tree-c59bfd73.jpg",
+   "reason": "this tree, named by its sign Species seen: giant sequoia, orange trunk. Fits the description: tall sequoia with the Chief Sequoyah sign at its foot.",
+   "lat": 36.5736916666667,
+   "lon": -118.749938333333,
+   "pin_checked": "2026-11-17"
+  },
+  "5e09bb82-34d7-4622-b626-8251836f6eb4": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "agm_001",
+   "city_slug": "aguas-de-moura",
+   "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82.jpg",
+   "reason": "this tree Species seen: cork oak, wide spreading crown. Fits the description: enormous spreading cork oak.",
+   "lat": 38.5865033333333,
+   "lon": -8.69102166666667,
+   "pin_checked": "2026-11-17"
+  },
+  "62c4bb28-b3f8-46f6-8d7a-c88755acce7b": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "agm_001",
+   "city_slug": "aguas-de-moura",
+   "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-62c4bb28.jpg",
+   "reason": "this tree Species seen: cork oak, thick limbs. Fits the description: side view of the big cork oak.",
+   "lat": 38.5865083333333,
+   "lon": -8.69102833333333,
+   "pin_checked": "2026-11-17"
+  },
+  "5ecc82c8-870b-4961-9a0f-b4fb6bf2e1b6": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "agm_001",
+   "city_slug": "aguas-de-moura",
+   "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5ecc82c8.jpg",
+   "reason": "this tree Species seen: cork oak trunk and branching. Fits the description: trunk and main limbs.",
+   "lat": 38.5865783333333,
+   "lon": -8.69107,
+   "pin_checked": "2026-11-17"
+  },
+  "c42df403-c159-4896-9c07-223d1122c3d6": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "pgr_001",
+   "city_slug": "poggio-renatico",
+   "file": "pgr_001-the-oak-of-molinazzo-c42df403.jpg",
+   "reason": "this tree Species seen: oak, tall rounded crown. Fits the description: big oak standing in a field at sunset.",
+   "lat": 44.777344,
+   "lon": 11.487478,
+   "pin_checked": "2026-11-17"
+  },
+  "09765ff6-b1e9-4d56-a98a-73c47709468b": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "nvn_001",
+   "city_slug": "nevern",
+   "file": "nvn_001-bleeding-yew-of-nevern-09765ff6.jpg",
+   "reason": "this tree Species seen: yew with fluted trunk in a churchyard. Fits the description: ancient yew among graves.",
+   "lat": 52.02548,
+   "lon": -4.79519,
+   "pin_checked": "2026-11-17"
+  },
+  "e593be60-987f-469d-97d7-7da2a69503d5": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "mad_004",
+   "city_slug": "madrid",
+   "file": "mad_004-the-bald-cypresses-of-the-crystal-palace-pond-e593be60.jpg",
+   "reason": "these trees Species seen: bald cypress standing in water, bare in winter. Fits the description: bald cypress in the lake before the Crystal Palace.",
+   "lat": 40.4139432,
+   "lon": -3.6812099,
+   "pin_checked": "2026-11-17"
+  },
+  "54dc7d2a-aaf6-4158-8784-3f3c256942a3": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-54dc7d2a.jpg",
+   "reason": "this tree Species seen: ancient oak with a gnarled trunk and dead limbs. Fits the description: huge old oak with a fence round it.",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "3c756f92-fc89-4a76-a714-06e8a6361b0f": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "plm_001",
+   "city_slug": "palma-de-mallorca",
+   "file": "plm_001-s-olivera-de-cort-3c756f92.jpg",
+   "reason": "this tree Species seen: ancient olive, twisted trunk. Fits the description: massive twisted olive on a square.",
+   "lat": 39.569597,
+   "lon": 2.649938,
+   "pin_checked": "2026-11-17"
+  },
+  "46766dcd-94f4-4656-8dab-53b5c98b30f8": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "kyo_002",
+   "city_slug": "kyoto",
+   "file": "kyo_002-the-land-boat-pine-46766dcd.jpg",
+   "reason": "this tree Species seen: pine trained on bamboo scaffolding. Fits the description: the pine propped on a scaffold in a temple yard.",
+   "lat": 35.0394604,
+   "lon": 135.7290207,
+   "pin_checked": "2026-11-17"
+  },
+  "5784282e-f1a8-4516-ab2e-cce4d2f0f3be": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "ess_001",
+   "city_slug": "essaouira",
+   "file": "ess_001-the-ombu-of-the-essaouira-medina.jpg",
+   "reason": "this tree Species seen: ombu with a huge buttress base. Fits the description: ombu in a courtyard.",
+   "already_lead": true,
+   "lat": 31.5117866666667,
+   "lon": -9.7667,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

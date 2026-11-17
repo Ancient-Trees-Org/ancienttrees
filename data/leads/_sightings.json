@@ -4730,7 +4730,7 @@
    "user_id": "p_68e3fe2f2c08d678d123d61f",
    "mine": false,
    "name": "Giant Ficus Tree, Bali Botanic Garden",
-   "species": null,
+   "species": "Fig (Ficus sp.)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -4750,7 +4750,8 @@
    },
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-17",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
@@ -4842,7 +4843,7 @@
    "user_id": "p_64aded5e0bdd8d60b3e78790",
    "mine": false,
    "name": "Quercia del Parco Massari di Ferrara",
-   "species": null,
+   "species": "Oak (Quercus sp.)",
    "age": null,
    "girth_cm": 480,
    "girth_hugs": null,
@@ -4858,14 +4859,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-17",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-993",
    "user_id": "p_689c4e2ff0c620317107e194",
    "mine": false,
    "name": "Balmerino Chestnut",
-   "species": null,
+   "species": "Sweet Chestnut (Castanea sp.)",
    "age": null,
    "girth_cm": 500,
    "girth_hugs": null,
@@ -4883,14 +4885,15 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-17",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   },
   {
    "sighting_id": "tip-995",
    "user_id": "p_64aded5e0bdd8d60b3e78790",
    "mine": false,
    "name": "Pioppo bianco dell'Oasi Lagoverde di Bologna",
-   "species": null,
+   "species": "Poplar (Populus sp.)",
    "age": null,
    "girth_cm": 300,
    "girth_hugs": null,
@@ -4906,7 +4909,8 @@
    "register": null,
    "status": "lead",
    "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-17",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
   }
  ]
 }

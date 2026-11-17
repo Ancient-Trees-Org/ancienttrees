@@ -609,10 +609,17 @@
       "access": "Free to enter the shrine precinct.",
       "transport": "Marutamachi Station (Kyoto Municipal Subway Karasuma Line), roughly 5 minute walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kyo_014-the-grand-ginkgo-of-goo-shrine-cc33c8aa.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c19d55d83dfa148535100e72",
+        "sighting_id": "cc33c8aa-5567-4244-9704-861be50e37d8",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: second view of the ginkgo Species seen: ginkgo canopy in autumn. Fits the description: canopy looking up.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Age is a source estimate ('several hundred years', tabiiro.jp), not a measured figure, hence the wide age_min/age_max band and the hedged phrasing in the story. Wikipedia confirms the shrine's identity and coordinates but names only a quince as its notable tree, so it is used for location only. Coordinates are the shrine's; the tree stands north of the honden and is not itself GPS-fixed.",
@@ -627,7 +634,22 @@
       "location_site": {
         "name": "Goo Shrine precinct",
         "radius_m": 50.0
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kyo_014-the-grand-ginkgo-of-goo-shrine.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_c19d55d83dfa148535100e72",
+          "sighting_id": "0a67c35e-13cb-4e2c-a88b-230cd2b15034",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-17: this tree, 0 m Species seen: ginkgo in yellow autumn colour at a shrine. Fits the description: large ginkgo beside shrine buildings.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "kyo_016",
