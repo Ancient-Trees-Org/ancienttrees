@@ -1,0 +1,71 @@
+{
+  "city": "Cusop",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Cusop is a small parish on the English side of the Dulas Brook, a short walk from the bookshops of Hay-on-Wye on the Welsh border. In its churchyard grows a big yew with a deeply fluted red trunk, which a reader photographed and sent to us. We do not yet know its girth or age, and we would like to.",
+  "meta_description": "The churchyard yew at Cusop, by Hay-on-Wye: a fluted old trunk a reader photographed, where it stands and what we know so far.",
+  "hero_tree_id": "cus_001",
+  "oldest_tree_id": "cus_001",
+  "trees": [
+    {
+      "id": "cus_001",
+      "name": "The Churchyard Yew of Cusop",
+      "species": "European Yew (Taxus baccata)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Churchyard, Church Road, Cusop, Herefordshire",
+        "latitude": 52.0669347677227,
+        "longitude": -3.1099705959563,
+        "neighbourhood": "Cusop"
+      },
+      "how_to_recognise": "The big yew at the end of a curving gravel path in the churchyard: a squat, deeply fluted red trunk under a dense dark crown, an old lichened gravestone standing in the grass in front of it.",
+      "access": "Free. A village churchyard, open in daylight.",
+      "story": "Cusop sits on the English side of the Dulas Brook, a short walk from the bookshops of Hay-on-Wye, and in its churchyard a reader stopped at this yew and sent us a photograph with a GPS fix taken where they stood.\n\nWhat the picture shows is the kind of yew that makes people slow down in a churchyard. The trunk is short and enormously thick, its red bark running in deep vertical folds and ridges, as if several stems had grown together and kept on growing. Above it the crown spreads wide and dark, low enough on one side to brush the grass. Someone keeps a path of bare earth worn round the foot of it, and old headstones lean in the grass on either side.\n\nWe do not yet know its girth or its age, and churchyard yews are famously hard to date, because a hollow trunk loses the rings that would tell. If you have measured it, or know what the parish says about it, tell us here and we will add it with your figures.\n\nGo when the church is open and walk the path all the way round the trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "471cdeb1-6853-43a4-85a6-f926e83b532c",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "471cdeb1-6853-43a4-85a6-f926e83b532c",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (471cdeb1-6853-43a4-85a6-f926e83b532c, 2026-11-17, through the app). Photograph viewed: the whole yew from the churchyard grass, its fluted red trunk under a full crown, gravestones either side, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'European Yew near Llanfihangel-nant-Melan', species 'European Yew', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cus_001-churchyard-yew-of-cusop.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_15642ad760ce3bac3f536318",
+        "sighting_id": "471cdeb1-6853-43a4-85a6-f926e83b532c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole yew from the churchyard grass, its fluted red trunk under a full crown, gravestones either side, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The churchyard yew at Cusop, by Hay-on-Wye: where it stands, how to find it, and what we still want to know.",
+  "question_answer": "The Churchyard Yew of Cusop stands in the village churchyard at Cusop, on the English side of the Dulas Brook a short walk from Hay-on-Wye. It is free to visit in daylight.",
+  "question_context": "A reader sent us a photograph of this yew with a GPS fix taken in the churchyard at Cusop, the parish on the English side of the Dulas Brook from Hay-on-Wye. The picture shows a short, enormously thick trunk with red bark in deep vertical folds under a wide dark crown, a path of bare earth worn around its foot and old headstones in the grass. We do not yet have its girth or a source for its age, and churchyard yews are hard to date because a hollow trunk loses its rings. Readers who know the parish's records or have measured the trunk can add them on the tree's page. Cusop is a small parish beside the Welsh border, and its churchyard is a quiet place a few minutes on foot from the centre of Hay-on-Wye, so the yew is easy to fit into a visit to the town. The pin on this page is the reader's own GPS fix, taken where they stood to photograph the tree.",
+  "faq": [
+    {
+      "q": "Where is the Cusop yew?",
+      "a": "In the churchyard at Cusop, Herefordshire, on the English side of the Dulas Brook a short walk from the centre of Hay-on-Wye. Our pin is a reader's GPS fix in the churchyard."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. No register or measurement we have seen gives its age or girth, and churchyard yews are hard to date. If you know, tell us on the tree's page."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It is a village churchyard, free and open in daylight."
+    }
+  ]
+}

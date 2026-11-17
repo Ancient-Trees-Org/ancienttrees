@@ -2,7 +2,7 @@
   "city": "Ferrara",
   "country": "Italy",
   "status": "needs_curation",
-  "intro": "Ferrara's five monumental trees stand across a UNESCO World Heritage Renaissance city. A gray poplar over 150 years old grows in the garden of Palazzo dei Diamanti, its diamond-fissured bark echoing the palace's famous facade. A short walk away, Parco Massari holds a hackberry and a ginkgo among the trees on Italy's first official monumental list, and the Biblioteca Ariostea's own ginkgo, first recorded in 1890, draws crowds every November for its colour. The thickest trunk belongs to an ordinary street plane on Viale Po.",
+  "intro": "Ferrara's six monumental trees stand across a UNESCO World Heritage Renaissance city. A gray poplar over 150 years old grows in the garden of Palazzo dei Diamanti, its diamond-fissured bark echoing the palace's famous facade. A short walk away, Parco Massari holds a hackberry and a ginkgo among the trees on Italy's first official monumental list, and the Biblioteca Ariostea's own ginkgo, first recorded in 1890, draws crowds every November for its colour. The thickest trunk belongs to an ordinary street plane on Viale Po.",
   "meta_description": "Ferrara's monumental trees: a 150 year gray poplar at Palazzo dei Diamanti, two ginkgos, and Parco Massari's protected hackberry.",
   "question_meta": "Ferrara's oldest documented trees are the gray poplar of Palazzo dei Diamanti and the bagolaro of Parco Massari, both about 150 years old.",
   "question_answer": "Ferrara's oldest individually dated trees are the gray poplar in the garden of Palazzo dei Diamanti and the bagolaro (Mediterranean hackberry) of Parco Massari, both put at about 150 years by the city's own museum records. The Biblioteca Ariostea's ginkgo is first documented from 1890, which sets a firm minimum age without confirming exactly how much older it might be, since it began life as part of the university's old botanical garden before that record starts.",
@@ -243,6 +243,46 @@
       "official_register": {
         "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 16/D548/FE/08",
         "url": null
+      }
+    },
+    {
+      "id": "fer_006",
+      "name": "The Oak of Parco Massari",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Parco Massari, Corso Porta Mare, Ferrara",
+        "latitude": 44.8435561,
+        "longitude": 11.6237259,
+        "neighbourhood": "Addizione Erculea"
+      },
+      "how_to_recognise": "A very tall straight oak in the park, its trunk ringed by a low rope fence on wooden posts, ivy climbing the lower trunk.",
+      "access": "Free, in a public park, open in daytime.",
+      "verified_sources": [
+        "https://www.facebook.com/ilregistrodeglialberi/posts/una-bella-farnia-quercus-robur-al-parco-massari-a-ferrara/1076894882919340/ (Il Registro degli Alberi: a pedunculate oak, Quercus robur, in Parco Massari, Ferrara; cited by the reader)"
+      ],
+      "story": "\"Albero monumentale protetto dalla Regione Emilia-Romagna,\" begins the note of the reader who sent us this oak from Parco Massari in Ferrara. It is a monumental tree protected by the Emilia-Romagna region, they write, about 150 years old by their estimate, its trunk 480 centimetres round.\n\nParco Massari is the big green behind the Renaissance palaces of Corso Porta Mare, and this pedunculate oak is one of its tallest trees. The photograph is taken from its foot looking up, at a dark, deeply furrowed trunk with ivy climbing it, rising straight for a long way before the first great limbs spread into a high, airy crown. A low rope fence on wooden posts keeps a circle of ground clear around it.\n\nThe reader also wrote down what it is like to stand there: \"E' maestosa e forte, ma stare sotto le sue fronde dà anche un senso di ospitalità e protezione.\" It is majestic and strong, but standing under its branches also gives a sense of welcome and protection.\n\nOur pin marks the park, not the tree; if you find it, send us a photograph with your location and we will move it.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "tip-990",
+        "date": "2026-11-17"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (tip-990, 2026-11-16, through the website). Photograph viewed: the whole tall oak from the foot of its trunk inside a rope fence up into the crown, park lawn around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Quercia del Parco Massari di Ferrara', species 'Oak (Quercus sp.)', age 'None', girth 480 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fer_006-oak-of-parco-massari.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_64aded5e0bdd8d60b3e78790",
+        "sighting_id": "tip-990",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the website); viewed and approved on 2026-11-17: the whole tall oak from the foot of its trunk inside a rope fence up into the crown, park lawn around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

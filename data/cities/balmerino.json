@@ -1,0 +1,70 @@
+{
+  "city": "Balmerino",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Balmerino is a hamlet on the south shore of the Firth of Tay in Fife, gathered around the red sandstone ruins of a Cistercian abbey founded in the thirteenth century. In the abbey grounds grows a sweet chestnut that local accounts call the oldest tree in Fife, put at 400 to 450 years. Its long limbs lean so far that metal props now hold them up. A reader sent us its photograph.",
+  "meta_description": "The sweet chestnut at Balmerino Abbey in Fife, often called the oldest tree in Fife: its age, its props, and how to find it.",
+  "hero_tree_id": "blm_001",
+  "oldest_tree_id": "blm_001",
+  "trees": [
+    {
+      "id": "blm_001",
+      "name": "The Balmerino Abbey Chestnut",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "400 to 450 years; 500 by a reader's estimate",
+      "age_min": 400,
+      "age_max": 500,
+      "location": {
+        "address": "Balmerino Abbey, Balmerino, Fife",
+        "latitude": 56.409894,
+        "longitude": -3.0412895,
+        "neighbourhood": "Balmerino"
+      },
+      "how_to_recognise": "Beside the abbey ruins: a short, twisted, lichen-grey chestnut trunk with great swollen burrs at its foot, its long leaning limbs held up on green metal props inside a timber rail.",
+      "access": "Free. In the grounds of the ruined abbey, open in daylight.",
+      "verified_sources": [
+        "https://gazetteer.org.uk/place/Balmerino_Abbey,_Fife_299726 (Gazetteer for Great Britain and Northern Ireland: a Spanish chestnut about 400 years old in the grounds, alleged to be the oldest tree in Fife)",
+        "https://hridigital.shef.ac.uk/cistercians/abbeys/balmerino.php (University of Sheffield, Cistercian abbeys: the chestnut believed to have been planted by the monks)",
+        "https://EN.wikipedia.com/wiki/Balmerino (Balmerino: a chestnut tree about 450 years old at the abbey)"
+      ],
+      "story": "Balmerino Abbey was founded on the south shore of the Firth of Tay in the thirteenth century, and among its broken red walls grows a sweet chestnut that local accounts call the oldest tree in Fife. A Gazetteer of Great Britain puts it at about 400 years; other accounts say 450, and a University of Sheffield survey of Cistercian houses notes the belief that the monks planted it.\n\nThe reader who sent us this photograph puts it at 500 years, its girth at five metres, and adds a story of their own, that it \"may mark the remains of Queen Ermengarde of Scotland\". We have no source for that, so take it as theirs.\n\nWhat the photograph shows is a tree that has spent centuries falling over slowly. The trunk is short, twisted and grey with lichen, swollen at the base into great burrs, and its long limbs lean so far that green metal props now carry them. A timber rail keeps visitors a step away, and in autumn the leaves go copper over the grass.\n\nWalk round to the side of the props to see how far the old limbs reach.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "tip-993",
+        "date": "2026-11-17"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (tip-993, 2026-11-16, through the website). Photograph viewed: the low, twisted, lichen-grey trunk with its leaning limb on green props, autumn leaves, a timber rail around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Balmerino Chestnut', species 'Sweet Chestnut (Castanea sp.)', age 'None', girth 500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/blm_001-balmerino-abbey-chestnut.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 721,
+        "source": "contributor",
+        "contributor_user_id": "p_689c4e2ff0c620317107e194",
+        "sighting_id": "tip-993",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the website); viewed and approved on 2026-11-17: the low, twisted, lichen-grey trunk with its leaning limb on green props, autumn leaves, a timber rail around it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The sweet chestnut at Balmerino Abbey in Fife, often called the oldest tree in Fife: its age, its props, and how to find it.",
+  "question_answer": "The Balmerino Abbey Chestnut is a sweet chestnut in the grounds of the ruined Balmerino Abbey in Fife, put at about 400 years old by the Gazetteer for Great Britain and at 450 by other accounts. The grounds are free and open in daylight.",
+  "question_context": "Balmerino Abbey, a Cistercian house on the south shore of the Firth of Tay, was founded in the thirteenth century, and a sweet chestnut in its grounds is often called the oldest tree in Fife. The Gazetteer for Great Britain and Northern Ireland puts it at about 400 years, other accounts at 450, and a University of Sheffield survey of Cistercian abbeys records the belief that the monks planted it. A reader who sent us its photograph puts it at 500 years with a girth of five metres. The tree has leaned for centuries, and its long limbs now rest on metal props inside a timber rail. The ruins stand in the village above the shore of the Tay. In autumn the chestnut's leaves turn copper over the grass, and the props and rail mean visitors see the trunk from a step away. If you have measured its girth or know more of its history, you can add it on the tree's page, and we will put your figures beside the published ones.",
+  "faq": [
+    {
+      "q": "How old is the Balmerino chestnut?",
+      "a": "About 400 years by the Gazetteer for Great Britain, 450 by other accounts, and 500 by the reader who sent us its photograph. A University of Sheffield survey notes the belief that the abbey's monks planted it."
+    },
+    {
+      "q": "Is it the oldest tree in Fife?",
+      "a": "It is often called that, and the Gazetteer repeats the claim, but nobody has published a ring count or a measured comparison, so treat it as a local claim."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It grows in the grounds of the ruined Balmerino Abbey, free and open in daylight. The limbs are propped and railed, so admire them from the rail."
+    }
+  ]
+}

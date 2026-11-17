@@ -1,0 +1,118 @@
+{
+  "city": "Tilarán",
+  "country": "Costa Rica",
+  "status": "needs_curation",
+  "intro": "Tilarán is a small town in the hills of Guanacaste above Lake Arenal, in northern Costa Rica. A reader sent us two of its trees: a fig whose fused roots leave an open arch in the forest, and three figs grown into one mass above a stone wall built to save them. They know them as kapoks, so we ask readers which they are.",
+  "meta_description": "Two giant figs near Tilarán in Guanacaste, Costa Rica, sent by a reader: a forest trunk with an open arch and three figs saved by a wall.",
+  "hero_tree_id": "tlr_001",
+  "oldest_tree_id": "tlr_001",
+  "trees": [
+    {
+      "id": "tlr_001",
+      "name": "The Elephant-Trunk Fig of Tilarán",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "300 to 400 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Forest beside Vía 927, Sabalito, Tilarán, Guanacaste",
+        "latitude": 10.5645460347411,
+        "longitude": -85.0081071938515,
+        "neighbourhood": "Sabalito"
+      },
+      "how_to_recognise": "In the forest: a trunk made of many fused roots climbing together, with one root peeling away on the left to leave a tall open arch.",
+      "access": "The reader reached it on foot through forest near Vía 927. We have not confirmed who owns the land; ask locally before you go.",
+      "story": "\"It looks like an elephant's trunk,\" wrote the reader who sent this tree from the hills above Lake Arenal, near Tilarán in Costa Rica, with a GPS fix taken at its foot.\n\nLook at the left side of the photograph and you can see what they mean. The trunk is not one trunk at all but a column of roots that have climbed together and fused, and one of them curls away from the rest and down to the ground, leaving a tall arch you could look through. That latticed, poured look is the mark of a strangler fig, which starts high in another tree and sends its roots down until they become a trunk of their own. The reader knows it as a kapok; tell us which you think it is.\n\nThey put it at 300 to 400 years old and its girth at about twenty metres. Those are their figures, not a measurement we have seen, and a fig's fused trunk is hard to measure.\n\nIf you go, walk round to the arch and stand inside it.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (00fd8d2f-72a7-44c8-9d4a-7f1eb5380462, 2026-11-16, through the app). Photograph viewed: the whole lower trunk from below, a lattice of roots and an arch at the left, forest around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Kapok', species 'Kapok', age '300 to 400 years old', girth 2000 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tlr_001-elephant-trunk-fig-of-tilar-n.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 828,
+        "height": 1472,
+        "source": "contributor",
+        "contributor_user_id": "p_e6628375ba1aea1573317fad",
+        "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the whole lower trunk from below, a lattice of roots and an arch at the left, forest around it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "tlr_002",
+      "name": "The Figs Saved by a Wall",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "300 to 400 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Above a stone wall and steps, Santa Rosa, Tilarán, Guanacaste",
+        "latitude": 10.52263,
+        "longitude": -84.966295,
+        "neighbourhood": "Santa Rosa"
+      },
+      "how_to_recognise": "Three great pale figs grown into one mass of roots on a raised bank, held in by a low stone wall with steps running up beside it.",
+      "access": "Seen from the steps beside the wall, where the reader stood. We have not confirmed who owns the land behind it.",
+      "story": "\"3 trees in close proximity, saved from destruction by building a wall in front of them,\" wrote the reader who sent us this photograph from Santa Rosa, near Tilarán in Costa Rica, with a GPS fix taken at the steps.\n\nThe wall is in the picture, a low run of grey stone with steps climbing beside it, and above it the three trees have grown into one another until it is hard to say where one ends. Pale roots hang from the branches, drop to the bank and thicken into new trunks, wrapping round the old ones in ropes and plates. That is how a fig behaves once it has room, and the reader's three look like it, although they know them as kapoks. Tell us which you think they are.\n\nThe reader puts them at 300 to 400 years old and one trunk at about fifteen metres round. Those figures are theirs; we have not seen a measurement. Who built the wall, and when, we would love to know too.\n\nStand on the steps and look up into the roots.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "df10cd8a-f0f4-4911-a37f-b5b4e85b7425",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "df10cd8a-f0f4-4911-a37f-b5b4e85b7425",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (df10cd8a-f0f4-4911-a37f-b5b4e85b7425, 2026-11-16, through the app). Photograph viewed: a mass of fused pale fig trunks and roots on a raised bank above stone steps and a wall, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Kapok', species 'Kapok', age '300-400 years old', girth 1500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tlr_002-figs-saved-by-a-wall.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_e6628375ba1aea1573317fad",
+        "sighting_id": "df10cd8a-f0f4-4911-a37f-b5b4e85b7425",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: a mass of fused pale fig trunks and roots on a raised bank above stone steps and a wall, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "Two giant figs near Tilarán in Guanacaste, Costa Rica, sent by a reader: where they stand and what we know about them.",
+  "question_answer": "The two trees on this page stand near Tilarán, in the hills of Guanacaste above Lake Arenal in northern Costa Rica: one in forest near Sabalito, the other above a stone wall at Santa Rosa, about six kilometres apart.",
+  "question_context": "Both trees here were sent by one reader, with GPS fixes taken at each. The first stands in forest near Sabalito, a column of fused roots with one root curling away to leave an open arch, which the reader says looks like an elephant's trunk. The second is a group of three trees grown into one mass above a low stone wall at Santa Rosa, which the reader says was built in front of them to save them from destruction. The reader knows both as kapoks and puts them at 300 to 400 years old; their fused, poured roots look like those of a strangler fig, so we ask readers which they are. The ages and girths are the reader's, not measurements we have seen, and we have not confirmed who owns the land. Tilarán is a small market town above the western end of Lake Arenal, and both trees stand in the hills around it. The pins on this page are the reader's own GPS fixes, taken where they stood.",
+  "faq": [
+    {
+      "q": "Are these trees kapoks or figs?",
+      "a": "The reader who sent them knows them as kapoks. Their fused, latticed roots look like a strangler fig's, so we list them as figs and ask readers who know them to tell us."
+    },
+    {
+      "q": "How old are they?",
+      "a": "The reader puts both at 300 to 400 years. That is their estimate; we have not seen a measurement or a register entry."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "The reader reached both on foot, one through forest near Vía 927 and one from steps beside a stone wall at Santa Rosa. We have not confirmed who owns the land, so ask locally before you go."
+    }
+  ]
+}

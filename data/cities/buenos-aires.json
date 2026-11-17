@@ -2,23 +2,23 @@
   "city": "Buenos Aires",
   "country": "Argentina",
   "status": "needs_curation",
-  "intro": "Buenos Aires's oldest trees do not share a park. A fig by the Recoleta Cemetery gate that the city calls its oldest, a pair of magnolias flanking a school built over the Viceroyalty's first medical tribunal, another magnolia planted by a president's own hand in 1875, and a tropical outsider with no age at all, one of only two of its kind in the city. Four stops in four different neighbourhoods, each worth crossing town for on its own, none of them close enough to combine into a single walk.",
-  "meta_description": "Four trees scattered across Buenos Aires, from a fig the city calls its oldest by Recoleta Cemetery to a rare tropical outsider in Plaza Lavalle.",
+  "intro": "Buenos Aires's oldest trees do not share a park. A fig by the Recoleta Cemetery gate that the city calls its oldest, a pair of magnolias flanking a school built over the Viceroyalty's first medical tribunal, another magnolia planted by a president's own hand in 1875, and a tropical outsider with no age at all, one of only two of its kind in the city, and the great fig of Plaza San Martín. Five stops in five different neighbourhoods, each worth crossing town for on its own, none of them close enough to combine into a single walk.",
+  "meta_description": "Five trees scattered across Buenos Aires, from a fig the city calls its oldest by Recoleta Cemetery to a rare tropical outsider in Plaza Lavalle.",
   "question_answer": "Buenos Aires's own Arbopedia register names the Gomero de la Recoleta as the city's oldest tree, a wide fig standing a few metres from the gate of the Recoleta Cemetery and estimated at roughly 250 to 300 years old. Nobody agrees on how it got there: one account has Recoleto friars planting it around 1718, another credits the agronomist Martin Jose de Altolaguirre's exotic orchard of around 1781, and either date puts it in the ground before Argentina existed as a country. Even its species is disputed. The city calls it a Moreton Bay fig, Wikidata files the same tree as a rubber tree, and this page has flagged the disagreement rather than settled it. What is not disputed is the branch: one limb reaches thirty metres from the trunk, propped since 2014 by a car-parts sculpture of Atlas that appears to take its weight. If you can date the tree more precisely, or settle which species it actually is, tell us.",
   "question_meta": "The Gomero de la Recoleta, a fig by the cemetery gate, is Buenos Aires's oldest tree: roughly 250 to 300 years, though its origin and species are disputed.",
-  "question_context": "Every tree on this page comes from ordinary web research rather than a single register, because Buenos Aires publishes its notable trees one page at a time on the city government's own Arbopedia site instead of as a downloadable dataset. The four trees here were found and checked one by one, through the city's own pages, national government pages, and local press, rather than pulled from one authoritative list. Two disagreements run through the set. The Gomero's species and planting story both split across sources, and this page carries both readings rather than picking a winner. The Protomedicato magnolias carry a second kind of disagreement: the city's own register text says they were planted in the late nineteenth century, while the same page and every other source calls them more than two hundred years old, a gap that reads like a typo between two centuries rather than a real dispute. Only one tree here, the magnolia planted by President Avellaneda in 1875, carries a documented planting date rather than an estimate. Location pins are street-level or plaza-level throughout, and one entry, the Protomedicato pair, stands on working school grounds and is marked as visible from the street rather than approachable.",
+  "question_context": "Every tree on this page comes from ordinary web research rather than a single register, because Buenos Aires publishes its notable trees one page at a time on the city government's own Arbopedia site instead of as a downloadable dataset. Four trees here were found and checked one by one, through the city's own pages, national government pages, and local press, rather than pulled from one authoritative list. Two disagreements run through the set. The Gomero's species and planting story both split across sources, and this page carries both readings rather than picking a winner. The Protomedicato magnolias carry a second kind of disagreement: the city's own register text says they were planted in the late nineteenth century, while the same page and every other source calls them more than two hundred years old, a gap that reads like a typo between two centuries rather than a real dispute. Only one tree here, the magnolia planted by President Avellaneda in 1875, carries a documented planting date rather than an estimate. Location pins are street-level or plaza-level throughout, and one entry, the Protomedicato pair, stands on working school grounds and is marked as visible from the street rather than approachable.",
   "faq": [
     {
       "q": "What is the oldest tree in Buenos Aires?",
       "a": "The Gomero de la Recoleta, a wide fig standing by the gate of the Recoleta Cemetery, estimated at roughly 250 to 300 years old by the city's own register. Its planting story and even its species are disputed, so this page carries the range rather than a single confident number."
     },
     {
-      "q": "Can I see all four trees in one walk?",
-      "a": "No. These four stand in four different Buenos Aires neighbourhoods, Recoleta, San Telmo, Palermo and San Nicolas, several kilometres apart. Each is its own stop rather than part of one route."
+      "q": "Can I see all five trees in one walk?",
+      "a": "No. These five stand in five different Buenos Aires neighbourhoods, Recoleta, Retiro, San Telmo, Palermo and San Nicolas, several kilometres apart. Each is its own stop rather than part of one route."
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes, all four cost nothing. Three stand in open public parks and plazas; the fourth, the Protomedicato magnolias, are viewed from the street or the church opposite rather than entered, because they grow inside a working school's garden."
+      "a": "Yes, all five cost nothing. Four stand in open public parks and plazas; the fifth, the Protomedicato magnolias, are viewed from the street or the church opposite rather than entered, because they grow inside a working school's garden."
     },
     {
       "q": "Why don't these trees have measured ages?",
@@ -251,6 +251,53 @@
         "url": "https://buenosaires.gob.ar/gcaba_historico/esterculia-de-plaza-lavalle"
       },
       "height_m": 8
+    },
+    {
+      "id": "bai_005",
+      "name": "The Gomero of Plaza San Martín",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "age_estimate": "250 to 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Plaza San Martín, Retiro, Buenos Aires",
+        "latitude": -34.5955810487646,
+        "longitude": -58.3765121594678,
+        "neighbourhood": "Retiro"
+      },
+      "how_to_recognise": "In the middle of the plaza: a fig whose roots run out over bare earth like a frozen river delta, under a crown that covers the lawns around it, inside a low iron railing.",
+      "access": "Free, in a public plaza, open at all hours.",
+      "verified_sources": [
+        "https://buenosaires.gob.ar/sites/default/files/2024-04/Listado%20de%20%C3%81rboles%20Hist%C3%B3ricos%20y%20Notables%20-%20GCBA.pdf (Buenos Aires city government, list of historic and notable trees: Gomero de Plaza San Martín, Ficus macrophylla, notable)"
+      ],
+      "story": "\"One of the oldest inhabitants of Buenos Aires,\" wrote the reader who sent us this tree from Plaza San Martín in Retiro, with a GPS fix taken among its roots. \"Possibly the second or third oldest tree after the Gomero de la Recoleta. This one is called Gomero de Plaza San Martín.\"\n\nThe city knows it by that name too: its own list of historic and notable trees includes the Gomero de Plaza San Martín, a Moreton Bay fig, among the notable ones. Porteños call these Australian figs gomeros, and the plaza's is a giant. Its roots run out over the bare earth in every direction like the channels of a river delta, ribbed and grey and higher than a person's knee, and from them a short trunk breaks into limbs that carry the crown far out over the lawns.\n\nThe reader puts it at 250 to 300 years and its girth at about twelve metres. Those figures are theirs; the city's list gives neither.\n\nCome at dusk, as the reader did, when the lamps come on under the crown.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "b451d1e8-4b8b-4bb0-9680-01874b41c26b",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b451d1e8-4b8b-4bb0-9680-01874b41c26b",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (b451d1e8-4b8b-4bb0-9680-01874b41c26b, 2026-11-17, through the app). Photograph viewed: the whole tree at dusk from its sprawling buttress roots up into the crown, the plaza's railings and lamps behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Ficus macrophylla in Buenos Aires', species 'Ficus macrophylla (Villa di)', age '250/300', girth 1200 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bai_005-gomero-of-plaza-san-mart-n.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c2012de5624108c0f0e2806e",
+        "sighting_id": "b451d1e8-4b8b-4bb0-9680-01874b41c26b",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole tree at dusk from its sprawling buttress roots up into the crown, the plaza's railings and lamps behind, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

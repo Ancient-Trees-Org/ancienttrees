@@ -714,6 +714,49 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "lax_033",
+      "name": "The Moreton Bay Fig by the White Mansion",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Near Lockehaven Street, west Pasadena",
+        "latitude": 34.1386861166667,
+        "longitude": -118.15981945,
+        "neighbourhood": "Pasadena"
+      },
+      "how_to_recognise": "A pale grey fig on a bed of ivy, its roots pouring out in fat ribs around the base, with a white mansion under a green tiled roof and a row of flagpoles just beyond it.",
+      "access": "The reader photographed it from the lawn beside the house. We have not confirmed whether these grounds are open at all hours; check before you go.",
+      "story": "A reader walking in west Pasadena sent us this photograph with a GPS fix taken at the foot of the tree. It is a Moreton Bay fig, the Australian giant that Southern California planted in the late nineteenth century and has been living in the shade of ever since.\n\nThis one is all trunk and root. The smooth grey bole rises out of a bed of ivy and splits into great limbs that reach far out over the lawn, while at the bottom the roots run out in thick ribbed buttresses, the way a Moreton Bay fig props itself up as it ages. Behind it stands a white mansion with a green tiled roof and a row of flagpoles, the tree easily as wide as the front of the house is tall.\n\nWe do not know the house's name for certain, who planted the fig, or when. If you know this tree, or the grounds it stands in, tell us here and we will put your words on the page.\n\nStand back on the lawn to take in the whole spread of the crown, then walk in close to see the roots.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "dadb2ea4-792f-460d-b66d-d46f064f0a8a",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "dadb2ea4-792f-460d-b66d-d46f064f0a8a",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (dadb2ea4-792f-460d-b66d-d46f064f0a8a, 2026-11-17, through the app). Photograph viewed: the trunk and its buttress roots in ivy, the white house with the green tiled roof behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Moreton Bay Fig in Los Angeles', species 'Moreton Bay Fig', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lax_033-moreton-bay-fig-by-the-white-mansion.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_a52c97c9ecd3468c7f9a998f",
+        "sighting_id": "dadb2ea4-792f-460d-b66d-d46f064f0a8a",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the trunk and its buttress roots in ivy, the white house with the green tiled roof behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

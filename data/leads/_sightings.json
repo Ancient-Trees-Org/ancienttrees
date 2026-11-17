@@ -4410,10 +4410,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a multi-trunk southern magnolia by an apartment block at 845, evergreen in good light. A handsome street tree but no age, girth or source; stays a lead until a reader gives a measurement.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a multi-trunk southern magnolia in the front garden of an apartment block at 845; a healthy street-size tree with nothing a visitor would walk for. Held: not_special (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "not_special"
   },
   {
    "sighting_id": "471cdeb1-6853-43a4-85a6-f926e83b532c",
@@ -4438,10 +4439,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a very old churchyard yew with a fluted, hollow-looking trunk among gravestones near Llanfihangel-nant-Melan, Radnorshire. Worth the walk; needs the Ancient Yew Group or Cadw record to write the page, so it stays a lead for the yew pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole yew from the churchyard grass, its fluted red trunk under a full crown, gravestones either side, daylight, colour. Live as cusop/cus_001 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "cusop/cus_001"
   },
   {
    "sighting_id": "1be89823-692c-46dd-bb1c-be7dbd6ed022",
@@ -4468,10 +4470,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a lone oak in a field seen from far off, the trunk not visible. Not enough to tell it from any field oak; stays a lead.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a lone oak far off across a crop field, the trunk a speck; nobody could tell it from any field oak, and it stands in farmland. Held: bad_frame (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "bad_frame"
   },
   {
    "sighting_id": "dadb2ea4-792f-460d-b66d-d46f064f0a8a",
@@ -4498,10 +4501,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a Moreton Bay fig with big buttress roots beside a white mansion in Los Angeles. Clear, good photograph and a tree worth a stop; needs the site named (the mansion) before the page, so it stays a lead for a pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the trunk and its buttress roots in ivy, the white house with the green tiled roof behind, daylight, colour. Live as los-angeles/lax_033 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "los-angeles/lax_033"
   },
   {
    "sighting_id": "7f0038ba-2d3c-4bf4-a206-135905bff0f3",
@@ -4526,10 +4530,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a strangler-type fig with a great root arch at Chiang Mai, a strong trunk photograph. Needs the temple or site named before the page; stays a lead.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a silhouette against the setting sun, the trunk invisible; an earlier note describing a root arch belonged to another photograph. Held: bad_frame (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "bad_frame"
   },
   {
    "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
@@ -4558,10 +4563,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a backlit kapok at dusk in Costa Rica; the trunk is lost in the dark. The reader's note says it looks like an elephant's trunk, but the frame does not show it. Stays a lead.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole lower trunk from below, a lattice of roots and an arch at the left, forest around it, daylight, colour. Live as tilaran/tlr_001 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "tilaran/tlr_001"
   },
   {
    "sighting_id": "df10cd8a-f0f4-4911-a37f-b5b4e85b7425",
@@ -4586,10 +4592,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a strangler fig with a great buttress arch in Costa Rica woodland, the reader says three trees saved from deforestation. A strong photograph; stays a lead until the site is named.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: a mass of fused pale fig trunks and roots on a raised bank above stone steps and a wall, daylight, colour. Live as tilaran/tlr_002 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "tilaran/tlr_002"
   },
   {
    "sighting_id": "230a268f-5aae-4c91-b133-15982a3ed896",
@@ -4614,10 +4621,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a blue jacaranda in the courtyard of the agronomy institute (ISA) in Lisbon. Tidy campus tree, a lead with the other two ISA trees.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a mid-sized jacaranda in the ISA courtyard, a tidy campus tree. Held: not_special (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "not_special"
   },
   {
    "sighting_id": "e3f862e3-ee04-4d1e-baf8-49ac5be624d0",
@@ -4642,10 +4650,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a Judas tree in full flower in the ISA grounds, Lisbon. Spring display; a lead beside the other ISA trees.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a Judas tree in flower in the ISA grounds; pretty in April, not a tree worth a trip. Held: not_special (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "not_special"
   },
   {
    "sighting_id": "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a",
@@ -4672,10 +4681,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a big Portuguese oak in the ISA cloister garden, Lisbon. Fine crown, a lead for an ISA group.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole oak and its broad round crown in the arcaded courtyard of a yellow building, hedge in front, overcast daylight, colour. Live as lisbon/lis_039 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "lisbon/lis_039"
   },
   {
    "sighting_id": "a069351f-fe5c-40fa-9b6a-efab20714ba0",
@@ -4704,10 +4714,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a Queensland kauri crown in Sydney (Botanic Garden), trunk below frame. Stays a lead.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a Queensland kauri crown 40 m from our syd_001 (Palm Grove, 1853); the garden has a second big kauri on Central Avenue and the reader's '1916' fits neither for certain. Ask the reader which one. Held: wrong_tree (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "wrong_tree"
   },
   {
    "sighting_id": "665082d2-815b-4630-883a-5f619725cdb9",
@@ -4732,10 +4743,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a Tristaniopsis laurina with a great sweeping low limb in Melbourne Royal Botanic Gardens, fenced and labelled. Good photograph; stays a lead for the Melbourne garden pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole tree beside a garden path, its low limbs sweeping out in every direction over a roped bed, overcast daylight, colour. Live as melbourne/mel_017 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "melbourne/mel_017"
   },
   {
    "sighting_id": "993d2833-d88b-43cc-a6e2-804c1e2c6921",
@@ -4760,11 +4772,12 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a leaning Moreton Bay fig above a boardwalk in Melbourne's Royal Botanic Gardens, flaring roots. Good photograph; stays a lead for the Melbourne garden pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the leaning grey trunk from its flaring roots to the crown, a steel boardwalk passing beneath it among tree ferns and palms, daylight, colour. Live as melbourne/mel_018 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "melbourne/mel_018"
   },
   {
    "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
@@ -4793,10 +4806,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: an old oriental plane in full yellow autumn colour in a Cambridge college garden. Good frame; stays a lead until the college is named.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: an oriental plane and a ginkgo in autumn colour, a lovely frame, but the fix is at a house on Trumpington High Street, Cambridge: a private garden unless the reader says it is seen from the street. Held: not_public (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "not_public"
   },
   {
    "sighting_id": "b451d1e8-4b8b-4bb0-9680-01874b41c26b",
@@ -4821,10 +4835,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a Moreton Bay fig with huge buttress roots at dusk in Buenos Aires, the reader calls it one of the oldest inhabitants. Strong photograph; stays a lead until a source gives the park and age.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole tree at dusk from its sprawling buttress roots up into the crown, the plaza's railings and lamps behind, colour. Live as buenos-aires/bai_005 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "buenos-aires/bai_005"
   },
   {
    "sighting_id": "60878254-21f7-4e0d-8d06-91700db3e06a",
@@ -4874,11 +4889,12 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a very tall oak in the Parco Massari, Ferrara, with a rope round the base, as the reader's note on the regional protection says. Candidate for the Ferrara pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole tall oak from the foot of its trunk inside a rope fence up into the crown, park lawn around, daylight, colour. Live as ferrara/fer_006 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "ferrara/fer_006"
   },
   {
    "sighting_id": "tip-993",
@@ -4901,11 +4917,12 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a leaning, hollow old sweet chestnut with propped limbs at Balmerino, Fife, as the reader says about 500 years. Strong photograph; candidate for a page once a source confirms the age.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the low, twisted, lichen-grey trunk with its leaning limb on green props, autumn leaves, a timber rail around it, daylight, colour. Live as balmerino/blm_001 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "balmerino/blm_001"
   },
   {
    "sighting_id": "tip-995",
@@ -4926,11 +4943,12 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a large multi-stem white poplar in woodland near Bologna, trunk fills the frame. Candidate for the Bologna pass.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: looking up a thick white poplar trunk that splits into several stems, pale upper bark, fresh green leaves, daylight, colour. Live as bologna/bol_014 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-17",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "bologna/bol_014"
   },
   {
    "sighting_id": "4887a7bf-c121-4574-a1f0-8944f1ac00b7",
@@ -5085,10 +5103,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a large pecan, but it stands at Meadowlark 1939 in Griffin, a wedding venue, so no public access we can show; the only source is the venue's own page (about 100 years). Stays a lead.",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a large pecan at Meadowlark 1939 in Griffin, GA, a wedding venue; no public access shown. Held: not_public (closed list, Hidde 2026-11-17).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "hold": "not_public"
   },
   {
    "sighting_id": "a48cae8c-f582-4ca2-b055-05c4020fca0c",

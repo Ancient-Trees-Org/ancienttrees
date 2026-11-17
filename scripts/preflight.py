@@ -1748,6 +1748,46 @@ def note_a_strangers_photo_with_gps_waits_for_nothing():
     return out
 
 
+READER_HOLD_REASONS = ("bad_frame", "wrong_tree", "wrong_subject", "not_special",
+                       "dead", "not_public", "no_location", "not_theirs",
+                       # Hidde, 2026-11-17: "only other reasons if we really doubt the
+                       # location or photo or info to be incorrect or in appropriate photo"
+                       "doubt_location", "doubt_photo", "doubt_info", "inappropriate")
+READER_HOLD_SINCE = "2026-11-17"
+
+
+def check_a_reader_lead_names_a_closed_reason():
+    """A stranger's tree that stays a lead names why, from a closed list.
+
+    Hidde, 2026-11-17, after 18 reader trees sat as leads for "needs the site
+    named" and "no girth": "these are both not reasons", then "we need either a
+    gps or photo and it needs to be somewhat special". So a reader's tree with
+    a GPS fix or a photograph goes live unless its `hold` field names one of
+    READER_HOLD_REASONS. Leads seen before READER_HOLD_SINCE are left to the
+    note above; every lead from that day on is held to this.
+    """
+    import ours
+    with open("data/leads/_sightings.json", encoding="utf-8") as fh:
+        leads = json.load(fh).get("leads", [])
+    out = []
+    for r in leads:
+        if r.get("mine") or r.get("status") != "lead":
+            continue
+        if (r.get("seen") or "") < READER_HOLD_SINCE:
+            continue
+        if ours.is_ours((r.get("photo") or "").split("/")[0]):
+            continue
+        if not (r.get("photo") or (r.get("latitude") and r.get("longitude"))):
+            continue
+        if r.get("hold") in READER_HOLD_REASONS:
+            continue
+        out.append("sighting %s (%s) is a reader's tree kept as a lead without a closed reason. "
+                   "Publish it, or set `hold` to one of %s (Hidde, 2026-11-17: no girth, age, "
+                   "source or site name is a reason)."
+                   % ((r.get("sighting_id") or "?")[:12], r.get("name"), ", ".join(READER_HOLD_REASONS)))
+    return out
+
+
 def check_a_new_tree_has_a_photograph():
     """A new tree of our own ships only with an approved photograph.
 
@@ -3896,6 +3936,7 @@ def main():
                 + check_covered_countries_want_a_photo_or_a_pin()
                 + check_a_new_tree_is_rich_or_a_readers()
                 + check_a_new_tree_has_a_photograph()
+                + check_a_reader_lead_names_a_closed_reason()
                 + check_own_supply_is_paused()
                 + check_story_length()
                 + check_one_common_name_per_species()
