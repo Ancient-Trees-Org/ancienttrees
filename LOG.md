@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a burred mulberry in Morden Hall Park goes live; the Dujiangyan ginkgo's pin is now marked approximate
+
+- **The Burred Mulberry of Morden Hall Park (london/lon_054)** is live from a reader's photograph and GPS fix: a low, leaning black mulberry with a burred trunk, behind a protective fence in the National Trust park. The pin is confirmed. Its story quotes the reader's note. There is no age or girth yet, and the page asks for them.
+- **The Temple Ginkgo of Dujiangyan (djy_001)**: the reader who sent it left a note on the tree saying "LOCATION ON MAP IS A GUESS", followed by a pasted chatbot-style summary naming it the Zhang Song ginkgo of Lidui Park. The pin was marked confirmed as a GPS fix. It is now marked approximate. The story, FAQ and answer no longer claim a GPS fix. The Lidui Park identification is on the page as the reader's own, unconfirmed, with a Chuanguan News source (2020) placing the Zhang Song ginkgo in Lidui Park. The pasted text was not quoted (closed in reader_words). A session could move the pin onto Lidui Park once the trunk is matched.
+- Feedback 1080 (a reader asking how to add the old trees near them): a reply pointing to "Add a tree" is in drafts/reply-reader-1080-2026-11-17.md, closed `needs_hidde`.
+- No open reports. The other leads still at `lead` are our own account's (`mine`), so no reader is waiting on them.
+
 ## 2026-11-17 session: two more ways a signed-in person was asked to sign in
 
 - **Web (Hidde: "kun je nagaan of er nog anders zon loop zit?")**: back on the site after more than an hour, the bar said signed in but save, collect, Add a tree (/contribute opened sign-in by itself) and /account asked to sign in. The access token lasts an hour; signin-js renews it on load, but the one door (collection-js verify) and those pages decided first and kept "signed out". Now signin-js exposes the renewal as `window.atRefreshing` and the door, /contribute, /account and /account/settings wait for it.

@@ -22,23 +22,25 @@
       },
       "how_to_recognise": "Behind a wooden picket fence and a carved stone balustrade: a broad ginkgo with dark, mossy bark and ferns growing along its limbs, a carved stone dragon pillar beside the paving and a small sign with a QR code on the fence.",
       "access": "In temple grounds in Guankou, Dujiangyan, where the reader walked up to the fence. We have not confirmed the opening hours or whether a ticket is needed; a fence keeps visitors off the roots.",
-      "story": "A reader sent us this ginkgo from temple grounds in Dujiangyan, the old town at the foot of the mountains west of Chengdu, with a GPS fix taken beside it and a single figure: 1,300 years old.\n\nThe photograph shows why someone would believe it. The tree stands behind a wooden picket fence and a carved stone balustrade, and its trunk is dark and shaggy with moss. Ferns have rooted along its limbs, and the branches reach so far out over the paving that a visitor standing well beyond the fence is still under the crown, as one is in the picture, head tipped back to look up. A stone pillar carved with a coiling dragon stands beside the path.\n\nA small sign on the fence, in Chinese, mentions the 1986 television Journey to the West and seems to ask where its ginseng-fruit tree is. We have not found which story the sign tells about this ginkgo. If you can read it, or know the temple's own record of the tree's age, tell us here; the 1,300 years are the reader's figure for now.\n\nCome in late autumn, when a ginkgo's fan-shaped leaves turn butter yellow.",
-      "verified_sources": [],
+      "story": "A reader sent us this ginkgo from temple grounds in Dujiangyan, the old town at the foot of the mountains west of Chengdu, with a single figure: 1,300 years old. They placed the pin themselves and have since told us it is a guess.\n\nThe photograph shows why someone would believe it. The tree stands behind a wooden picket fence and a carved stone balustrade, and its trunk is dark and shaggy with moss. Ferns have rooted along its limbs, and the branches reach so far out over the paving that a visitor standing well beyond the fence is still under the crown, as one is in the picture, head tipped back to look up. A stone pillar carved with a coiling dragon stands beside the path.\n\nA small sign on the fence, in Chinese, mentions the 1986 television Journey to the West and seems to ask where its ginseng-fruit tree is. We have not found which story the sign tells about this ginkgo. The reader believes this is the Zhang Song ginkgo of Lidui Park, named, they say, after an official of the Three Kingdoms era. A Sichuan newspaper places that ginkgo in Lidui Park, moved there in 1957; we have not confirmed that it is the same tree. If you can read the sign, or know where the tree stands exactly, tell us here; the 1,300 years are the reader's figure for now.\n\nCome in late autumn, when a ginkgo's fan-shaped leaves turn butter yellow.",
+      "verified_sources": [
+        "https://cbgc.scol.com.cn/news/451237 (Chuanguan News, Sun Hai, 2020-11-16: the Zhang Song ginkgo stands in Lidui Park in the Dujiangyan scenic area, moved there in 1957 from Sansheng Temple in Chongning; over 1,700 years old by legend. The reader identifies this tree as that one; not confirmed by us)"
+      ],
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "6bb3d492-ea79-4b08-8f63-a66610632b47",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's placed pin",
         "sighting_id": "6bb3d492-ea79-4b08-8f63-a66610632b47",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The pin is where the reader placed it in the app. In a note on the tree (2026-11-17) they wrote that the location on the map is a guess, so it is approximate."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-17 reader judge: sent by a reader (6bb3d492-ea79-4b08-8f63-a66610632b47, 2026-11-16, through the app). Photograph viewed: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Ginkgo', species 'Ginkgo', age '1300 years old', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (6bb3d492-ea79-4b08-8f63-a66610632b47, 2026-11-16, through the app). Photograph viewed: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Ginkgo', species 'Ginkgo', age '1300 years old', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-17 reader judge: the same reader's note on the tree says 'LOCATION ON MAP IS A GUESS' and pastes a chatbot-style summary naming it the Zhang Song Ginkgo in Lidui Park; pin set approximate, the identification stated on the page as theirs and unconfirmed, the pasted text not quoted.",
       "photo": {
         "url": "https://ancienttrees.app/photos/djy_001-temple-ginkgo-of-dujiangyan.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
@@ -54,12 +56,12 @@
     }
   ],
   "question_meta": "A mossy old temple ginkgo in Dujiangyan, Sichuan, sent by a reader who puts it at 1,300 years: where it stands and what we know.",
-  "question_answer": "The ginkgo stands behind a wooden fence in temple grounds off Gongyuan Road in Guankou, Dujiangyan, west of Chengdu in Sichuan, at the spot where a reader photographed it with a GPS fix.",
-  "question_context": "Dujiangyan is a town at the foot of the mountains west of Chengdu, in China's Sichuan province, and its old centre is Guankou. A reader who visited sent us a photograph of a ginkgo in temple grounds there, with a GPS fix taken beside it, and put the tree at 1,300 years. That figure is theirs; we have no register record or girth yet. The photograph shows a broad old tree behind a wooden picket fence and a carved stone balustrade, its bark dark and mossy, ferns rooted along its limbs, and branches reaching so far over the paving that a visitor beyond the fence still stands beneath the crown. A carved stone dragon pillar stands by the path, and a small sign on the fence, in Chinese, mentions the 1986 television Journey to the West. If you can read that sign, or know the temple's own account of the tree, tell us on its page. Ginkgo leaves turn yellow in late autumn.",
+  "question_answer": "The ginkgo stands behind a wooden fence in temple grounds off Gongyuan Road in Guankou, Dujiangyan, west of Chengdu in Sichuan, near the spot the reader who photographed it marked; they say their pin is a guess, so it is approximate.",
+  "question_context": "Dujiangyan is a town at the foot of the mountains west of Chengdu, in China's Sichuan province, and its old centre is Guankou. A reader who visited sent us a photograph of a ginkgo in temple grounds there, with a pin they later told us is a guess, and put the tree at 1,300 years. That figure is theirs; we have no register record or girth yet. The photograph shows a broad old tree behind a wooden picket fence and a carved stone balustrade, its bark dark and mossy, ferns rooted along its limbs, and branches reaching so far over the paving that a visitor beyond the fence still stands beneath the crown. A carved stone dragon pillar stands by the path, and a small sign on the fence, in Chinese, mentions the 1986 television Journey to the West. If you can read that sign, or know the temple's own account of the tree, tell us on its page. Ginkgo leaves turn yellow in late autumn.",
   "faq": [
     {
       "q": "Where is the temple ginkgo in Dujiangyan?",
-      "a": "In temple grounds off Gongyuan Road in Guankou, the old centre of Dujiangyan, west of Chengdu in Sichuan. The pin marks where a reader photographed it."
+      "a": "In temple grounds off Gongyuan Road in Guankou, the old centre of Dujiangyan, west of Chengdu in Sichuan. The pin is approximate: the reader who photographed it placed it and says it is a guess."
     },
     {
       "q": "How old is it?",

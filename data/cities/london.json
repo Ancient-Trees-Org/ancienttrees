@@ -2313,6 +2313,47 @@
           "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
+    },
+    {
+      "id": "lon_054",
+      "name": "The Burred Mulberry of Morden Hall Park",
+      "species": "Black Mulberry (Morus nigra)",
+      "location": {
+        "address": "Morden Hall Park, Morden Hall Road, Morden",
+        "latitude": 51.4034,
+        "longitude": -0.186025,
+        "neighbourhood": "Morden"
+      },
+      "how_to_recognise": "In a fenced garden bed: a low, leaning mulberry whose trunk is covered in knobbly burrs, a wooden post standing beside it and a woven hazel hurdle behind.",
+      "access": "Free, in Morden Hall Park (National Trust), open daily. The tree stands behind a low protective fence; see it from outside.",
+      "story": "\"Described as a veteran, with a protective fence,\" wrote the reader who sent us this black mulberry from Morden Hall Park, with a GPS fix taken beside it.\n\nMorden Hall Park is the old estate on the River Wandle in south London, now a National Trust park of meadows, waterways and gardens, and this tree stands in a fenced bed inside it. The photograph shows why someone thought it worth a fence. The trunk leans hard to one side and is swollen all over with burrs, knobbed and lumpy like a sack of stones, and a wooden post stands up beside it. From the top of that crooked trunk the limbs twist out in every direction, some broken short, others running long and bending back towards the light, the way old mulberries grow when they are left to lean and keep going.\n\nBlack mulberries were planted in English gardens for centuries for their dark, staining fruit, and they look ancient long before they are. We do not know this one's age or girth. If you know what the park says about it, tell us here.\n\nCome in late summer, when the fruit ripens, and look at the burrs from the path.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (5e81af24-c36d-4b03-a6ed-92b1030ccca3, 2026-11-17, through the app). Photograph viewed: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Black Mulberry in London', species 'Black Mulberry', note 'Described as a veteran, with a protective fence'. The pin falls inside Morden Hall Park, about 110 m north of the Ancient Yew Group's yew 2556 there.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_054-burred-mulberry-of-morden-hall-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a2eecf296f5d8a35f0bd0bb2",
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

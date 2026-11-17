@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -13961,6 +13973,34 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "city": null,
+   "species": "Black Mulberry",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
    "hidde": null,
    "agreed": null
   }

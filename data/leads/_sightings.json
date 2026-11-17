@@ -5710,6 +5710,35 @@
    "seen": "2026-11-17",
    "hold": "bad_frame",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "user_id": "p_a2eecf296f5d8a35f0bd0bb2",
+   "mine": false,
+   "name": "Black Mulberry in London",
+   "species": "Black Mulberry",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Described as a veteran, with a protective fence",
+   "latitude": 51.4034,
+   "longitude": -0.186025,
+   "near": null,
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Live as london/lon_054 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "london/lon_054"
   }
  ]
 }
