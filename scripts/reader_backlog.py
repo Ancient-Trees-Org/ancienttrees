@@ -65,6 +65,11 @@ def late():
         except Exception as e:  # noqa: BLE001
             out.append("reports unreadable (%s)" % str(e)[:60])
         try:
+            for sid, when, what in trees_without_a_verdict(key, cut_ts):
+                out.append("tree sent %s without a verdict: submission %s (%s)" % (when[:10], sid, what))
+        except Exception as e:  # noqa: BLE001
+            out.append("tree submissions unreadable (%s)" % str(e)[:60])
+        try:
             os.environ["SUPABASE_SERVICE_KEY"] = key
             import feedback
             for r in feedback.unhandled() or []:
@@ -72,6 +77,62 @@ def late():
                     out.append("feedback without a verdict: %s" % r["id"])
         except Exception as e:  # noqa: BLE001
             out.append("feedback unreadable (%s)" % str(e)[:60])
+    return out
+
+
+def trees_without_a_verdict(key, cut_ts):
+    """Every tree or city a stranger sent before cut_ts that has no verdict
+    anywhere, counted from when THEY SENT it (Hidde, 2026-11-17: the stub
+    check above counts from the day a stub was written, so a tip of 11-15
+    stubbed on 11-17 looked new; 23 trees were late while the alarm said 3).
+
+    A verdict is any of: the row's own outcome; a judgement with a verdict
+    under tip:<id>, lead:<sighting> or sight:<sighting>; a lead or a processed
+    photograph that is no longer waiting; or a published tree whose
+    found_by_reader names the sighting or tip-<id>."""
+    import glob
+    import inbox
+    import ours
+    rows = inbox.get("/rest/v1/submissions?select=id,created_at,kind,tree,city,outcome,user_id"
+                     "&kind=in.(tree,city)&outcome=is.null&created_at=lt.%s&order=created_at.asc" % cut_ts, key) or []
+    verdicts = set()
+    try:
+        for j in json.load(open(os.path.join(ROOT, "data", "judgements.json")))["judgements"]:
+            if j.get("verdict"):
+                verdicts.add(str(j["id"]).lower())
+    except (OSError, ValueError):
+        pass
+    decided = set()
+    try:
+        for l in json.load(open(os.path.join(ROOT, "data", "leads", "_sightings.json")))["leads"]:
+            if l.get("status") != "lead" or l.get("hold"):
+                decided.add((l.get("sighting_id") or "").lower())
+    except (OSError, ValueError):
+        pass
+    try:
+        for k, v in json.load(open(os.path.join(ROOT, "data", "sightings-processed.json")))["done"].items():
+            if v.get("outcome") not in ("lead", None):
+                decided.add(k.lower())
+    except (OSError, ValueError):
+        pass
+    for f in glob.glob(os.path.join(ROOT, "data", "cities", "*.json")):
+        try:
+            for t in json.load(open(f, encoding="utf-8")).get("trees") or []:
+                fbr = t.get("found_by_reader") or {}
+                if fbr.get("sighting_id"):
+                    decided.add(str(fbr["sighting_id"]).lower())
+        except (OSError, ValueError):
+            continue
+    out = []
+    for r in rows:
+        if ours.is_ours(r.get("user_id")):
+            continue
+        sid = str(r["id"])
+        tree = (r.get("tree") or "").strip().lower()
+        keys = {"tip:" + sid, "lead:" + tree, "sight:" + tree, sid}
+        if keys & verdicts or tree in decided or ("tip-" + sid) in decided:
+            continue
+        out.append((sid, r.get("created_at") or "", (r.get("city") or r.get("tree") or "")[:40]))
     return out
 
 
