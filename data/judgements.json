@@ -2,6 +2,22 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:58c34b47-f563-460c-8fa7-e0b5e461b974",
    "seen": "2026-11-17",
    "kind": "photo of a tree we map",
@@ -42,22 +58,6 @@
    },
    "verdict": "publish",
    "reason": "Viewed: one large cedar alone on lakeside parkland at dusk, 39 m from our pin; the tree's first photograph, now its lead.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
   },
@@ -2957,8 +2957,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -2972,8 +2972,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 765,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Same tree as the Arboretum 1 sequoia lead; the reader's link may give the missing pin.",
    "hidde": null,
    "agreed": null
   },
@@ -2987,8 +2987,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -3002,8 +3002,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/ho-chi-minh-city.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -3017,8 +3017,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 420,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/alerce-costero.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Age is a model estimate, to be stated broadly as the study's.",
    "hidde": null,
    "agreed": null
   },
@@ -3465,6 +3465,206 @@
    "agreed": null,
    "verdict": "publish",
    "reason": "The reader's own photographs of the tree they added: the whole pine leads quito/uio_001, the view up its stems is in the strip, daylight, colour."
+  },
+  {
+   "id": "lead:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_45bb450c9ae48ea78e871c0e/F8C010FC-A646-477E-B1F8-DC71C5562EEC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a very tall ruler-straight forest tree beside a track in Kanker district, Chhattisgarh, person for scale, daylight, GPS fix. Species not established, asked on the page. Live as kanker/knk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Eastern White Pine",
+   "city": null,
+   "species": "Eastern White Pine",
+   "photo": "p_9206238867676c83f47e12ca/0305569A-654F-4BB4-9818-A071E602650B.jpg",
+   "reader_note": "It sits at the entrance of the Orono Bog Boardwalk, and is strikingly large",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern White Pine"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge twin-stemmed eastern white pine at the Orono Bog Boardwalk trailhead, whole tree, daylight, GPS fix at the tree. Live as bangor-maine/bnm_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The White Pine at the Orono Bog Boardwalk",
+   "city": "Bangor, Maine",
+   "species": "Eastern White Pine (Pinus strobus)",
+   "photo": "out/sightings/0305569a-654f-4bb4-9818-a071e602650b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads bangor-maine/bnm_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree on the Kanker Forest Track",
+   "city": "Kanker",
+   "species": "species not established",
+   "photo": "out/sightings/f8c010fc-a646-477e-b1f8-dc71c5562eec.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads kanker/knk_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:62e38d75-fb0b-4430-b3dc-791865129b6c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/62e38d75-fb0b-4430-b3dc-791865129b6c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Saint-Jammes beech from the grass, its propped limb and fence, daylight, colour: now the lead photograph of sor_001, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:20dc8d53-91c1-4087-963b-583bb1d5d7ce",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/20dc8d53-91c1-4087-963b-583bb1d5d7ce.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The same beech in fog with the chapel ruins beside it: in the strip of sor_001 behind the reader's lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1894f450-f71e-4d35-88be-6bcdcd874dfa",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/1894f450-f71e-4d35-88be-6bcdcd874dfa.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "Leaf close-up of this black mulberry: lobed, toothed leaves on low branches over grass. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/ac111c30-e0ed-48a7-aa1b-4315ca5a2db0.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The mulberry in spring flower, close-up, gnarled branches behind. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1102",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "BB61E294-5FFB-4378-960A-64DAB336FD46",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
   },
   {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
@@ -5701,8 +5901,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1650,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/st-francisville.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a press source; US, so first in line.",
    "hidde": null,
    "agreed": null
   },
@@ -5716,8 +5916,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1120,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/cape-town.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -5731,8 +5931,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 900,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/tsitsikamma.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -5746,8 +5946,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/kgalagadi.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Location is a stretch of road; needs a coordinate.",
    "hidde": null,
    "agreed": null
   },
@@ -5776,8 +5976,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 2000,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/_famous-italy.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Adds a map link to the held Castagno Miraglia lead whose only gap was a coordinate.",
    "hidde": null,
    "agreed": null
   },
@@ -11599,8 +11799,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 454,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/bagni-di-lusnizza.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -11629,8 +11829,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/mouriscas.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a Wikipedia source; Portugal is a focus country.",
    "hidde": null,
    "agreed": null
   },
@@ -14521,147 +14721,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:f8c010fc-a646-477e-b1f8-dc71c5562eec",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_45bb450c9ae48ea78e871c0e/F8C010FC-A646-477E-B1F8-DC71C5562EEC.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: a very tall ruler-straight forest tree beside a track in Kanker district, Chhattisgarh, person for scale, daylight, GPS fix. Species not established, asked on the page. Live as kanker/knk_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:0305569a-654f-4bb4-9818-a071e602650b",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "Eastern White Pine",
-   "city": null,
-   "species": "Eastern White Pine",
-   "photo": "p_9206238867676c83f47e12ca/0305569A-654F-4BB4-9818-A071E602650B.jpg",
-   "reader_note": "It sits at the entrance of the Orono Bog Boardwalk, and is strikingly large",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Eastern White Pine"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: a huge twin-stemmed eastern white pine at the Orono Bog Boardwalk trailhead, whole tree, daylight, GPS fix at the tree. Live as bangor-maine/bnm_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:0305569a-654f-4bb4-9818-a071e602650b",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The White Pine at the Orono Bog Boardwalk",
-   "city": "Bangor, Maine",
-   "species": "Eastern White Pine (Pinus strobus)",
-   "photo": "out/sightings/0305569a-654f-4bb4-9818-a071e602650b.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable"
-   },
-   "verdict": "publish",
-   "reason": "The reader's own photograph of the tree they added leads bangor-maine/bnm_001, viewed: whole tree, daylight, colour",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f8c010fc-a646-477e-b1f8-dc71c5562eec",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Tall Tree on the Kanker Forest Track",
-   "city": "Kanker",
-   "species": "species not established",
-   "photo": "out/sightings/f8c010fc-a646-477e-b1f8-dc71c5562eec.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable"
-   },
-   "verdict": "publish",
-   "reason": "The reader's own photograph of the tree they added leads kanker/knk_001, viewed: whole tree, daylight, colour",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:62e38d75-fb0b-4430-b3dc-791865129b6c",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Multisecular Beech of Saint-Jammes",
-   "city": "Sorèze",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": "out/sightings/62e38d75-fb0b-4430-b3dc-791865129b6c.jpg",
-   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Beech (Fagus sylvatica)"
-   },
-   "verdict": "publish",
-   "reason": "The whole Saint-Jammes beech from the grass, its propped limb and fence, daylight, colour: now the lead photograph of sor_001, which had none.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:20dc8d53-91c1-4087-963b-583bb1d5d7ce",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Multisecular Beech of Saint-Jammes",
-   "city": "Sorèze",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": "out/sightings/20dc8d53-91c1-4087-963b-583bb1d5d7ce.jpg",
-   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Beech (Fagus sylvatica)"
-   },
-   "verdict": "publish",
-   "reason": "The same beech in fog with the chapel ruins beside it: in the strip of sor_001 behind the reader's lead.",
    "hidde": null,
    "agreed": null
   }

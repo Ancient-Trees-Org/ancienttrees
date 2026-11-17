@@ -99,6 +99,42 @@
    "name": "Pass note 2026-10-14 (verify, deepen, rich bar)",
    "coordinates": null,
    "reason": "LUBW Schutzgebietssteckbrief pages for the Heidelberg Einzelgebilde carry no girth, height or age (checked 2219013000010: name, number, date only); de.wikipedia Liste der Naturdenkmale in Heidelberg wikitext gives only id, designation date and a map-centre coordinate derived by LUBW (approximate); heidelberg.de Schutzgebiete page has no measurements. No measurement source found for the Aukopf, Muenchelstrasse, Orthopaedie oaks, Linde Muenchelstrasse, Hauptstrasse Ginkgo or Ploeck 45-49 trees, so none can end rich. Botanischer Garten Heidelberg: freiland free, open all year (search summary only, not fetched), no tree register record. Commons images exist for Stieleiche am Aukopf, Muenchelstrasse (1)/(2) and Orthopaedie (photo route open if a measurement turns up)."
+  },
+  {
+   "name": "Bergmammutbaum im Arboretum 1 (reader's tip)",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "coordinates": null,
+   "location_hint": "https://maps.app.goo.gl/cFVbDi5WHDuUCFpR8",
+   "status": "lead",
+   "found_by_reader": {
+    "tip": "1061"
+   },
+   "seen": "2026-11-17",
+   "reason": "Reader: planted 1876, 35 m tall, red bark, a ring of seats around the trunk for looking up; reader's girth 765 cm. Same tree as the Arboretum 1 lead above; the reader's map link may give the pin it lacked. The old 'cannot end rich' bar is off. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+  },
+  {
+   "name": "Romantik-Eiche (reader's tip)",
+   "species": "Oak (Quercus sp.)",
+   "coordinates": null,
+   "location_hint": "https://maps.app.goo.gl/M7ZehXk6YrN7Rsm19",
+   "status": "lead",
+   "found_by_reader": {
+    "tip": "1062"
+   },
+   "seen": "2026-11-17",
+   "reason": "Reader: a 200-year-old oak with unusually long, low branches. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+  },
+  {
+   "name": "Holdermanns-Eiche (reader's tip)",
+   "species": "Oak (Quercus sp.)",
+   "coordinates": null,
+   "location_hint": "https://maps.app.goo.gl/FbV3BGNkPBVJXGFV7",
+   "status": "lead",
+   "found_by_reader": {
+    "tip": "1063"
+   },
+   "seen": "2026-11-17",
+   "reason": "Reader: an old, big oak with a hollow core. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
   }
  ],
  "blocked": [

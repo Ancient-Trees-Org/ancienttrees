@@ -1290,7 +1290,35 @@
         "width": 3000,
         "height": 2250,
         "taken_month": 6
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-1894f450.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+          "sighting_id": "1894f450-f71e-4d35-88be-6bcdcd874dfa",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: Close-up of the mulberry's leaves on a low branch over the grass; belongs in the gallery, not as the lead. Species seen: deeply lobed, coarsely toothed, rough-surfaced leaves typical of a vigorous black mulberry shoot. Fits the description: branches running low over mown grass, as on the fallen V-shaped tree at the foot of the terrace steps; GPS fix at our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-ac111c30.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+          "sighting_id": "ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: Close-up of the mulberry in flower in spring, gnarled branches behind; belongs in the gallery, not as the lead. Species seen: heart-shaped serrated leaves with mulberry female flower clusters (fuzzy styles) on stubby spurs. Fits the description: a tangle of old twisting branches behind, the squat crown of the recumbent tree; GPS fix at our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "lon_029",

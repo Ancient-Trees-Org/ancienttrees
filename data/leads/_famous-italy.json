@@ -250,6 +250,18 @@
       ],
       "status": "published",
       "note": "Published as tricase (trc_001), verify+write pass 2026-09-10."
+    },
+    {
+      "name": "Castagno Miraglia (reader's tip, map link)",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "coordinates": null,
+      "location_hint": "https://maps.app.goo.gl/pRTLjomqZkwP3h1E6",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "970"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader sent a map link for the held Castagno Miraglia lead above, whose only gap was a coordinate; reader's source it.wikipedia.org/wiki/Castagno_Miraglia; reader's girth 2000 cm (the wiki says 880 cm: use the source's). Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
     }
   ]
 }

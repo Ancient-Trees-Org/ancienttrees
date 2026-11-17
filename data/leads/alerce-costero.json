@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Gran Abuelo, Alerce Costero National Park (reader's tip)",
+      "species": "Patagonian Cypress (Fitzroya cupressoides)",
+      "coordinates": null,
+      "location_hint": "Alerce Costero National Park, Los Rios Region, near La Union, Chile",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "1032"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: a Fitzroya cupressoides estimated at 5,484 years by a 2022 study (Barichivich and Lara); reader's girth 420 cm. The age is a contested model estimate: state it as the study's, broad. Needs the trail pin and park access line. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

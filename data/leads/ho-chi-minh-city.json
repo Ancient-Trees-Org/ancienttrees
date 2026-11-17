@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Banyan Tree (reader's tip)",
+      "species": "Banyan (Ficus sp.)",
+      "coordinates": null,
+      "location_hint": "https://maps.app.goo.gl/mf7vJWowaWsMPaja8",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "1065"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: five woven trunks, estimated over 300 years old, overlooking a park with lotus ponds. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}
