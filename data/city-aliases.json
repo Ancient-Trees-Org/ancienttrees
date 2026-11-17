@@ -166,6 +166,12 @@
       "Alkmoar",
       "Gemeente Alkmaar"
     ],
+    "allentown": [
+      "Alentaunas",
+      "Alentauna",
+      "Allenschteddel",
+      "Allentaun"
+    ],
     "allouville-bellefosse": [
       "Allouville e Bellefosse"
     ],
@@ -297,6 +303,9 @@
     "asago": [
       "Asago-chhī",
       "Asago-shi"
+    ],
+    "aspromonte": [
+      "Asprumunti"
     ],
     "assen": [
       "Asenas",
@@ -960,6 +969,11 @@
       "Kazerta",
       "Caxerta",
       "Kaserto"
+    ],
+    "castelbuono": [
+      "Castellum Bonum",
+      "Castelbuène",
+      "Castiddubbonu"
     ],
     "castellammare-di-stabia": [
       "Kastelamare di Stabija",
@@ -2241,6 +2255,18 @@
       "Invernesa",
       "Inbhir Nis",
       "Innerness"
+    ],
+    "isole-tremiti": [
+      "Tremitische Eilanden",
+      "Îles Tremiti",
+      "Islas Tremiti",
+      "Ilhas Tremiti",
+      "Tremiti",
+      "Tremitské ostrovy",
+      "Tremitsko otočje",
+      "Ishujt Tremiti",
+      "Kepulauan Tremiti",
+      "Diomedeae Insulae"
     ],
     "isparta": [
       "Esparta",
@@ -5330,6 +5356,7 @@
     "alicante": "Alicante",
     "alishan": "Alishan, Chiayi",
     "alkmaar": "Alkmaar",
+    "allentown": "Allentown, Pennsylvania",
     "allouville-bellefosse": "Allouville-Bellefosse",
     "alpujarras": "Alpujarras",
     "altrier": "Altrier",
@@ -5356,6 +5383,7 @@
     "asago": "Asago, Hyōgo",
     "ashbrittle": "Ashbrittle",
     "asheville": "Asheville, North Carolina",
+    "aspromonte": "Aspromonte",
     "assen": "Assen",
     "assisi": "Assisi",
     "astbury": "Astbury",
@@ -5458,6 +5486,7 @@
     "carmarthen": "Carmarthen",
     "cascais": "Cascais",
     "caserta": "Caserta",
+    "castelbuono": "Castelbuono",
     "castellammare-di-stabia": "Castellammare di Stabia",
     "castlepollard": "Castlepollard",
     "castlewellan": "Castlewellan",
@@ -5690,6 +5719,7 @@
     "innimond": "Innimond",
     "innsbruck": "Innsbruck",
     "inverness": "Inverness",
+    "isole-tremiti": "Tremiti Islands",
     "isparta": "Isparta",
     "istanbul": "Istanbul",
     "itchen-abbas": "Itchen Abbas",
