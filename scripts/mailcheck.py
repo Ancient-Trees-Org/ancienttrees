@@ -736,7 +736,10 @@ def check_no_unshipped_feature(path, body):
     # to" and "worth a walk" promise nothing, and the bare \bwalks?\b refused
     # both. What names the feature: walks as a thing, a walking route, a walk
     # past several trees, a tree walk.
-    WORDS = {"walks": [r"\bwalks\b", r"\bwalking routes?\b", r"\ba (?:short )?walk past\b",
+    # The bare word "walks" went 2026-11-17 (Hidde, on "so the next person
+    # walks straight to them" held in a Blaise reply: "we mogen best walks
+    # zeggen wtf"): it is a verb far more often than the feature.
+    WORDS = {"walks": [r"\bwalking routes?\b", r"\ba (?:short )?walk past\b",
                        r"\b(?:tree|guided|curated) walks?\b", r"\bwalk (?:route|feature)s?\b"],
              "season": [r"\bseason radar\b", r"\bseason story\b"],
              "plus": [r"\bAncient Trees Plus\b"]}

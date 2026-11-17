@@ -74,6 +74,10 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Cambridge plane**: the reader moved the pin twice to Emmanuel College; the plane stands in the Fellows' Garden, which the college calls private, so the hold stays `not_public` with the right reason, and the reader is asked whether visitors can see it (report 1000067, reply queued).
 - **For Hidde:** two feedback rows wait for your call (786 idea, 849 reply draft); five reports the judge left open are listed under "Open for you".
 
+## 2026-11-17 session: mailcheck no longer refuses the verb "walks"
+
+- The Blaise reply to the reader who sent grid references (report 1000054) was held for "so the next person walks straight to them": mailcheck read the bare word as the walks feature. Hidde: "we mogen best walks zeggen wtf". The bare `walks` pattern is gone; "guided walks", "walking routes" and the like still count as the feature. Test: scripts/test_mailcheck_walks.py, on the escaped-bug row. The reply goes with the next knock.
+
 ## 2026-11-17 session: the Ochi chestnut forest (submission 936) judged
 
 - Hidde asked what happened to an app submission about the Kastanologos chestnut forest on Mount Ochi, Evia (2026-11-16): nothing. Text only, no photograph, so no sighting row, and the reader judge never saw it.

@@ -422,6 +422,17 @@
    "first_seen": "2026-11-17",
    "status": "open",
    "found_by": "hidde"
+  },
+  {
+   "id": "ESC-2026-11-17-mailcheck-held-a-reader-reply-for-the-ve",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/mailcheck.py",
+   "summary": "mailcheck held a reader reply for the verb 'walks' ('so the next person walks straight to them', Blaise report 1000054) as an unshipped feature",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/test_mailcheck_walks.py"
   }
  ]
 }
