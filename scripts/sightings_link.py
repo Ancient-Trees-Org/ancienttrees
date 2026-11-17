@@ -224,6 +224,37 @@ def tick_collected(dry):
             continue
         rows[key] = {"user_id": r["user_id"], "tree_id": r["tree_id"],
                      "visited_at": (r.get("updated_at") or "")[:10] or None}
+    # THE WEBSITE'S FORM TOO (Hidde, 2026-11-17, Katie on the Arbour Oak:
+    # "hoe kan het dat katie 0 collected bomen heeft"): a tree added through
+    # /contribute with a photograph lands in `submissions`, not `sightings`, and
+    # its photograph carries sighting_id "tip-<n>". The sender, when signed in,
+    # is that row's user_id; the tick is dated the day it reached us.
+    tips = {}
+    for path in sorted(glob.glob(os.path.join(ROOT, "data", "cities", "*.json"))):
+        with open(path, encoding="utf-8") as fh:
+            city = json.load(fh)
+        for t in city.get("trees") or []:
+            for p in [t.get("photo") or {}] + [q for q in (t.get("photos") or []) if q]:
+                m = re.match(r"^tip-(\d+)$", str(p.get("sighting_id") or "").lower())
+                if p.get("source") == "contributor" and m:
+                    tips.setdefault(int(m.group(1)), t["id"])
+            # A tree they added through the form whose photograph we did not
+            # put on the page: still their photograph of it, still a visit.
+            m = re.match(r"^tip-(\d+)$", str((t.get("found_by_reader") or {}).get("sighting_id") or "").lower())
+            if m:
+                tips.setdefault(int(m.group(1)), t["id"])
+    if tips:
+        ids = ",".join(str(i) for i in sorted(tips))
+        subs = _req("/rest/v1/submissions?select=id,user_id,created_at&user_id=not.is.null"
+                    "&photo=not.is.null&id=in.(" + ids + ")") or []
+        for s in subs:
+            key = (s["user_id"], tips.get(s["id"]))
+            if not key[1] or key in have or key in rows:
+                continue
+            rows[key] = {"user_id": s["user_id"], "tree_id": key[1],
+                         "visited_at": (s.get("created_at") or "")[:10] or None}
+    for key, row in mailed_ticks(have).items():
+        rows.setdefault(key, row)
     for (_, tree) in rows:
         print(f"  collected: {tree}" + (" (dry)" if dry else ""))
     if rows and not dry:
@@ -236,6 +267,65 @@ def tick_collected(dry):
         urllib.request.urlopen(req, timeout=30).close()
     print(f"sightings_link: {len(sights)} photographed sighting(s) on a tree, {len(rows)} ticked as collected"
           + (" (dry)" if dry else ""))
+
+
+def mailed_ticks(have):
+    """A photograph somebody MAILED us is a visit too, when that person has an
+    account (Hidde, 2026-11-17: "alle bomen die niet via de app zijn gekomen,
+    maar via web of mail ... dat moet natuurlijk wel vanaf nu").
+
+    The photo record names the sender (attribution, or "permission from X" /
+    "Provided by X" in the licence), the private send log
+    (data/outreach-sent.json, pulled by private_store.py before this runs)
+    holds the address we wrote to under that name, and an account with that
+    address is theirs. Nothing is matched without every word of the name in
+    the log row; a run without the log or the key ticks nothing here."""
+    path = os.path.join(ROOT, "data", "outreach-sent.json")
+    if not KEY or not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as fh:
+            log = json.load(fh).get("sent") or []
+    except (OSError, ValueError):
+        return {}
+    wanted_names = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, "data", "cities", "*.json"))):
+        with open(f, encoding="utf-8") as fh:
+            city = json.load(fh)
+        for t in city.get("trees") or []:
+            for p in [t.get("photo") or {}] + [q for q in (t.get("photos") or []) if q]:
+                if p.get("source") != "mail":
+                    continue
+                m = re.search(r"(?:permission from|Provided by)\s+([^;(,]+)", p.get("license") or "")
+                name = (p.get("attribution") or (m.group(1) if m else "")).strip()
+                if name and not name.lower().startswith(("a reader", "the reader")):
+                    wanted_names.setdefault(name, set()).add(t["id"])
+    if not wanted_names:
+        return {}
+    users, page = {}, 1
+    while True:
+        d = _req(f"/auth/v1/admin/users?page={page}&per_page=1000") or {}
+        us = d.get("users") if isinstance(d, dict) else d
+        for u in us or []:
+            if u.get("email"):
+                users[u["email"].lower()] = u["id"]
+        if not us or len(us) < 1000:
+            break
+        page += 1
+    out = {}
+    today = datetime.date.today().isoformat()
+    for name, trees in wanted_names.items():
+        words = [w for w in re.split(r"\W+", name.lower()) if len(w) > 2]
+        if not words:
+            continue
+        for row in log:
+            hay = " ".join(str(row.get(k) or "") for k in ("outlet", "subject", "to")).lower()
+            uid = users.get(str(row.get("to") or "").lower())
+            if uid and all(w in hay for w in words):
+                for tree in trees:
+                    if (uid, tree) not in have:
+                        out[(uid, tree)] = {"user_id": uid, "tree_id": tree, "visited_at": today}
+    return out
 
 
 if __name__ == "__main__":
