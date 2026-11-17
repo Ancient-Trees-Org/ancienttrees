@@ -465,6 +465,68 @@
       "verify_notes": "OWNER SOURCE (fetched 2026-11-14): Fairchild's 'The Garden's Early Plantings' page: cannonball tree (Couroupita guianensis), donated by Mrs. Sarah Jones in 1938, originally from the Hope Gardens of Jamaica, located 'across from the chestnut dioon near Cycad Circle'. Wikipedia (Fairchild Tropical Botanic Garden) separately calls it the most famous tropical flowering tree in the garden, planted 1938, and one of the only cannonball trees in the US (read in an earlier pass; not re-fetched). NOTE: the same owner page says of the 11 inaugural plantings of 23 March 1938 that one survives (the baobab); the cannonball is a 1938 donation, not one of those 11. CONFLICT recorded: an earlier pass saw a Fairchild shop listing (search pointer only) saying 1949; the owner's own page says 1938, kept. ALIVE: ten iNaturalist observations of Couroupita within 2 km, the nearest cluster at 25.6762 to 25.6765,-80.2758 to -80.2760 (accuracy 3 to 20 m), most recent 2026-10-11, 2026-07-19, 2026-05-27, 2026-03-25, 2026-01-18, 2025 several; the fixes repeat at one spot, so one tree is being photographed again and again (inference, not stated by any source). POSITION: the chestnut dioon the page names is mapped by iNaturalist Dioon fixes at 25.67634,-80.27445 (Cycad Circle), about 145 m east of the cannonball cluster; 'across from' is loose, so the pin is approximate and not tied to the 1938 crown by any source. No girth or height found. No register champion record for this species. Chestnut dioon (Dioon edule, a cycad, imported from Scotland in 1873, donated 1940, 'the oldest fellow of our collections') is on the same page, but a cycad is not a tree for this site; left as a note for the writer. Writer's hook: the founding-era tree whose flowers grow on trunk-hugging stems and whose fruit are the 'cannonballs'; one of very few in the US. PAID entry; with mia_013 and mia_009 the garden now carries three of the city's paid trees.",
       "story": "Few cannonball trees grow anywhere in the United States, and this one came to Miami from Jamaica in 1938.\n\nFairchild Tropical Botanic Garden's history of its early plantings says Mrs. Sarah Jones donated it that year, from stock raised at the Hope Gardens in Jamaica, and that it stands across from the chestnut dioon near Cycad Circle. Wikipedia's article on the garden calls it the garden's most famous tropical flowering tree and one of the only cannonball trees in the country. A Fairchild shop listing once gave 1949 instead; we follow the garden's own history page, which says 1938.\n\nThat makes it nearly as old as the garden. The first eleven trees went in on 23 March 1938, and the garden says only its baobab survives from that day. The cannonball was a gift of the same year, not one of the eleven.\n\nThe name explains itself on sight. Its flowers grow on stems straight out of the trunk, and its fruit are the round, heavy cannonballs.\n\nVisitors photograph a cannonball tree near Cycad Circle again and again, most recently in October 2026, from the same few metres, though no source ties the 1938 gift to that exact spot. The landmark the garden names is a veteran too. The chestnut dioon is a cycad, imported from Scotland in 1873, which the garden calls the oldest member of its collections.\n\nThe garden charges for entry. Nobody has published its girth or height; if you have measured it, tell us.",
       "how_to_recognise": "You can recognise it by its flowers and round fruit, which grow on stems straight out of the trunk. It stands near Cycad Circle, across from the chestnut dioon, a cycad."
+    },
+    {
+      "id": "mia_015",
+      "name": "The Banyan of Pinecrest Gardens",
+      "species": "Indian Banyan (Ficus benghalensis)",
+      "age_estimate": "planted in 1947",
+      "age_min": 75,
+      "age_max": 90,
+      "location": {
+        "address": "Pinecrest Gardens, 11000 Red Road, Pinecrest, FL 33156",
+        "latitude": 25.6694,
+        "longitude": -80.2858,
+        "neighbourhood": "Pinecrest"
+      },
+      "verified_sources": [
+        "https://www.pinecrestgardens.org/botanical/banyan-tree",
+        "https://www.tclf.org/landscapes/pinecrest-gardens"
+      ],
+      "access": "Paid entry, open daily 9 AM to 5 PM (hours change on event days); general admission $8, seniors $5, under 2 free (pinecrestgardens.org admission and hours pages, fetched 2026-11-17). The garden is owned by the Village of Pinecrest.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Centre of Pinecrest Gardens (the Banyan Bowl)",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "verify_notes": "Owner's page (Pinecrest Gardens, Village of Pinecrest): 'A large Banyan (Ficus benghalensis)', 'grows at the center of the Gardens', 'The largest tree in the landscape', 'Planted more than seventy years ago'; says it would spread into a multi-acre grove if left unchecked. The Cultural Landscape Foundation (tclf.org): 'A banyan tree planted in 1947 occupies the center of the park' (Parrot Jungle, established 1936 by Franz Scherr; moved to Watson Island 2002; village bought the site Dec 2002; park listed on the National Register as Parrot Jungle Historic District, 2011). CONFLICT: one search-result snippet (not a fetched page) gave 1939; use 1947 as the only dated figure seen on a page, flagged. Planting date applies to this tree because TCLF names it as the centre tree, matching the owner's 'center of the Gardens'. No girth or height found on any page. The amphitheatre around it is called the Banyan Bowl (events). Alive: owner page current; lifecheck.py returned NONE (no iNaturalist hits), so alive evidence is the owner's present-tense page and the garden's current opening; flagged. Pin is the garden coordinate (Wikipedia 25.6694,-80.2858), not the trunk; the tree is at the centre, in the Banyan Bowl area, recognisable as the largest tree in the garden. Paid entry: Miami paid share is already high (mia_009, mia_011, mia_013, mia_014 are paid). Fairchild Tropical Botanic Garden (mia_009) is about 1.5 km north-east in a straight line (computed from coordinates), Coconut Grove about 7 km north.",
+      "story": "Left to itself, this banyan would turn into a forest. Pinecrest Gardens says so on its own page. If nobody checked it, the tree at the centre of the garden would spread into a grove covering several acres.\n\nIt is already the largest tree in the landscape. The Cultural Landscape Foundation dates its planting to 1947, when this ground was Parrot Jungle, the bird attraction Franz Scherr had opened here in 1936. One search result gives 1939 instead, but 1947 is the only year we have seen written on a page, so take it as the better figure rather than a settled one. The garden's own wording, planted more than seventy years ago, fits either.\n\nThe banyan outlived the business that planted it. Parrot Jungle moved to Watson Island in 2002, the Village of Pinecrest bought the old site that December, and in 2011 the grounds went on the National Register as the Parrot Jungle Historic District. The tree stayed where it was, and the amphitheatre around it is called the Banyan Bowl.\n\nNobody has published its girth or its height, and nobody needs to tell you it is the big one once you are standing in front of it. Entry to the garden is paid, eight dollars for an adult, and the hours change on event days. Fairchild Tropical Botanic Garden is a little over a kilometre to the north-east, if you want to make an afternoon of it.",
+      "how_to_recognise": "You can recognise it as the largest tree in the garden, a banyan at its very centre. It stands in the Banyan Bowl, the amphitheatre in the middle of Pinecrest Gardens."
+    },
+    {
+      "id": "mia_016",
+      "name": "Vizcaya's Pigeon-plum Champion",
+      "species": "Pigeon Plum (Coccoloba diversifolia)",
+      "age_estimate": "almost 400 years, by Vizcaya's own claim",
+      "age_min": 200,
+      "age_max": 400,
+      "girth_cm": 193,
+      "height_m": 12.8,
+      "location": {
+        "address": "Vizcaya Museum and Gardens, 3251 South Miami Avenue, Miami, FL 33129 (the Cascades, in front of the Main House, per Vizcaya)",
+        "latitude": 25.74471,
+        "longitude": -80.21071,
+        "neighbourhood": "Coconut Grove / Brickell Hammock"
+      },
+      "verified_sources": [
+        "https://vizcaya.org/champions/",
+        "https://web.archive.org/web/20250811172749/https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/950"
+      ],
+      "official_register": {
+        "name": "Florida Forest Service Champion Tree Register, PK 950 (National Co-Champion)",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/950"
+      },
+      "access": "Paid admission to Vizcaya Museum and Gardens (see mia_002 for days; hours not refetched this pass). The Cascades are part of the formal gardens next to the Main House, which visitors walk.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "The Cascades in front of the Vizcaya Main House",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "verify_notes": "Vizcaya's own page (vizcaya.org/champions/, fetched 2026-11-17) names the Pigeon Plum as a champion 'located in the Cascades in front of the Main House' and says these trees (pigeon plum and redberry stopper together) 'have thrived for almost 400 years'; the page gives no measurements and says 'As of 2020, Vizcaya is home to 7 national or state Champion Trees'. Register (Wayback snapshot 2025-08-11, fetched): PK 950 PIGEON-PLUM Coccoloba diversifolia, National Co-Champion, status date 2012-10-02, measured 2012-09-26 (new nomination, verified by county forester), Vizcaya Museum & Gardens, ownership public (Miami-Dade County), circumference 76 in = 193 cm at 1.9 ft on the north side, height 42 ft = 12.8 m, crown 30 x 25 ft, 125 points, condition good; coordinate 25.74471,-80.21071. Girth converted from inches (the register column is inches). CAVEATS: (1) Vizcaya's 'almost 400 years' is wording about 'these trees' and ambiguous whether it means this specimen or the species in the hammock; no source measures the age; a 193 cm Coccoloba is plausible for centuries but the claim is the owner's, state it as theirs. (2) Register is 2012; Hurricane Irma 2017 and later storms not checked; Vizcaya's 2020-dated page still lists the champion, which is the only alive evidence (lifecheck on the register point not run; no tree-dated photo). (3) Register coordinate is the nomination point, not shown tied to a crown, so approximate; Vizcaya's 'Cascades in front of the Main House' wording is the visible clue for the writer. Same grounds as mia_002, mia_004, mia_005 (paid entry): the Miami paid share is high, so this is the weakest candidate to publish; deliver anyway because the owner names the tree and the register measures it. Other Vizcaya register champions without owner naming stay leads (Paradise-tree PK 1028, Inkwood PK 874, White Stopper PK 875).",
+      "story": "By Vizcaya's own account, the champion trees by the Cascades have been here for almost 400 years. The estate's champion-tree page says it of this pigeon plum and a redberry stopper together, without saying which trunk it means or how anyone knows. Read it as the owner's claim. Nobody has cored either tree.\n\nWhat has been measured is size. In September 2012 a county forester verified this pigeon plum for the Florida Forest Service champion register. It found a trunk 193 centimetres round, a height of 12.8 metres and a crown about nine metres across. That made it a national co-champion, tied for the largest of its species on the list. The register recorded its condition as good.\n\nIt stands at the Cascades in front of the Main House, the villa James Deering built on the Brickell Hammock between 1914 and 1922. The house gets the attention. The pigeon plum is the one with a national ranking.\n\nThose figures are from 2012. Hurricane Irma came through in 2017, and we have found no measurement since, though Vizcaya still counted the tree among its seven national or state champions in 2020. If you have seen it lately, tell us how it looks.\n\nEntry is with a ticket to Vizcaya Museum and Gardens, which is closed on Tuesdays.",
+      "how_to_recognise": "You can recognise it by its size, 12.8 metres tall with a trunk 1.93 metres round when last measured. It stands at the Cascades in front of Vizcaya's Main House."
     }
   ]
 }
