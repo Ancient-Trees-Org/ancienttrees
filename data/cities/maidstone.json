@@ -52,7 +52,22 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
-      "girth_cm": 700
+      "girth_cm": 700,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
+          "note": "Photographed by a reader and sent through the app (2024-10-27); a viewing pass approved it on 2026-11-17: Sent for the Ankerwycke Yew but shows a London plane; GPS and frames are the Baobab Plane of Penenden Heath (mdb_001, 0 m), the reader's own tree. Main frame duplicates the lead already on the page, so the new trunk view (extra 1) goes in the strip. Species seen: plane: maple-like leaves, flaking patchwork bark on the limbs, burred swollen base. Fits the description: very thick knobbled plane splitting into stout stems in a raised ivy bed at a gravel car park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "A very thick London plane stands at Penenden Heath, Maidstone. Where it is and what a reader says about it.",

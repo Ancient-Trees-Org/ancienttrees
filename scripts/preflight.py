@@ -2270,7 +2270,10 @@ def check_a_readers_age_reaches_the_page():
     def walk(o):
         if isinstance(o, dict):
             if o.get("sighting_id"):
-                if str(o.get("age") or "").strip() and not ours.is_ours(o.get("user_id")):
+                # "Unknown" typed in the age field is the reader saying they do not
+                # know, not an age (bgr_001, 2026-11-17).
+                if (str(o.get("age") or "").strip().lower() not in ("", "unknown", "not sure", "?", "n/a", "don't know")
+                        and not ours.is_ours(o.get("user_id"))):
                     ages[str(o["sighting_id"]).lower()] = str(o["age"]).strip()
             else:
                 for v in o.values():

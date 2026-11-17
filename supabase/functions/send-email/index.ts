@@ -29,8 +29,15 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 // one the person asked for, so only these addresses go through Resend.
 const YAHOO_FAMILY = ["yahoo", "ymail", "rocketmail", "aol", "aim", "verizon", "att",
   "sbcglobal", "bellsouth", "frontier", "sky"];
-const onYahoo = (addr: string) =>
-  YAHOO_FAMILY.includes(addr.trim().toLowerCase().split("@").pop()!.split(".")[0]);
+// Apple's relay forwards only mail signed for a registered domain (bounces of
+// 2026-11-17); same list as SIGNED_ONLY_DOMAINS in scripts/mailer.py. BT's
+// addresses too: a Gmail-sent welcome was refused "550 User unknown" the same
+// evening while a plain Gmail mail to that address was taken.
+const SIGNED_ONLY_DOMAINS = ["privaterelay.appleid.com", "btinternet.com", "btopenworld.com", "talk21.com"];
+const onYahoo = (addr: string) => {
+  const domain = addr.trim().toLowerCase().split("@").pop()!;
+  return YAHOO_FAMILY.includes(domain.split(".")[0]) || SIGNED_ONLY_DOMAINS.includes(domain);
+};
 
 const gmail = nodemailer.createTransport({
   host: "smtp.gmail.com",

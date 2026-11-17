@@ -1139,7 +1139,17 @@
   },
   "p_4ef71b74f814d07e898bb5c1": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "017db4cf-3739-467d-986a-cb2f811ab0a1",
+     "tree_id": "bng_001",
+     "tree_name": "The Rhodes Bald Cypress",
+     "city": "Richard Bong State Recreation Area",
+     "city_slug": "richard-bong-state-recreation-area",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "50567b0d-1b7c-437c-afea-03cbaf003531",
@@ -1712,58 +1722,42 @@
    "sent": []
   },
   "p_f0acac5f04c506f94ac08878": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "65cb49cd-5812-4470-a56c-4b681646b7d2",
      "tree_id": "tky_001",
-     "tree_name": "The Great Ginkgo of Hida Kokubunji",
-     "city": "Takayama",
-     "city_slug": "takayama",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_7e21a8af508342f4f54fe87c": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
      "tree_id": "kyw_004",
-     "tree_name": "The Cosgrove House Banyan",
-     "city": "Key West",
-     "city_slug": "key-west",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     },
     {
      "sighting_id": "96cc87f7-0bb3-4a2f-b500-a7d2392cd595",
      "tree_id": "hok_001",
-     "tree_name": "Jindai-zakura (Yamataka Jindai Zakura)",
-     "city": "Hokuto",
-     "city_slug": "hokuto",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_b8baa3b109915ecee6983110": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e4e3b77d-5da9-4872-a0f4-bc083848c181",
      "tree_id": "mra_001",
-     "tree_name": "Millennium Tree of Balete Park",
-     "city": "Maria Aurora",
-     "city_slug": "maria-aurora",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_98341868b2bd7fa318d5e77a": {
    "last": null,
@@ -1781,49 +1775,37 @@
    "sent": []
   },
   "p_76408b11d09611876123c171": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
      "tree_id": "cre_001",
-     "tree_name": "The Old Yew of Cremines (If millenaire)",
-     "city": "Cremines",
-     "city_slug": "cremines",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_0f6b42161f64e6f916e0bea7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",
      "tree_id": "ams_021",
-     "tree_name": "The Oudemanhuispoort Elm",
-     "city": "Amsterdam",
-     "city_slug": "amsterdam",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_d7ff9c940715c607d7c78cc7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745",
      "tree_id": "lon_001",
-     "tree_name": "The Totteridge Yew",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_da68887efbcb3708dd151f6f": {
    "last": null,
@@ -1836,19 +1818,137 @@
      "city_slug": "london",
      "display_name": null,
      "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+     "tree_id": "lon_003",
+     "tree_name": "The Cheapside Plane",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
     }
    ],
    "sent": []
   },
   "p_8b86d4aa9a803a2e23ac0f7a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304",
      "tree_id": "lon_053",
-     "tree_name": "The Twisted Sweet Chestnut of Greenwich Park",
+     "mailed": "2026-11-17"
+    }
+   ]
+  },
+  "p_ff99d0483a2b527b15837a19": {
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
+    {
+     "sighting_id": "e7f5f503-48a4-457e-bd7d-1cedae177b2d",
+     "tree_id": "rkm_001",
+     "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "d73aaf2c-6f0c-4822-8e89-2989f918c04c",
+     "tree_id": "eke_001",
+     "mailed": "2026-11-17"
+    }
+   ]
+  },
+  "p_7e44bc8df9bd3137413fdca6": {
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
+    {
+     "sighting_id": "245ad026-de3b-4672-ad13-169d734721ea",
+     "tree_id": "gen_019",
+     "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "58c34b47-f563-460c-8fa7-e0b5e461b974",
+     "tree_id": "gen_012",
+     "mailed": "2026-11-17"
+    }
+   ]
+  },
+  "p_05cc15a3f44a1e9f51181213": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "62e38d75-fb0b-4430-b3dc-791865129b6c",
+     "tree_id": "sor_001",
+     "tree_name": "The Multisecular Beech of Saint-Jammes",
+     "city": "Sorèze",
+     "city_slug": "soreze",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "20dc8d53-91c1-4087-963b-583bb1d5d7ce",
+     "tree_id": "sor_001",
+     "tree_name": "The Multisecular Beech of Saint-Jammes",
+     "city": "Sorèze",
+     "city_slug": "soreze",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_14a30efd07d48052d438a1ea": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1894f450-f71e-4d35-88be-6bcdcd874dfa",
+     "tree_id": "lon_030",
+     "tree_name": "The Gunnersbury Park Black Mulberry",
      "city": "London",
      "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
+     "tree_id": "lon_030",
+     "tree_name": "The Gunnersbury Park Black Mulberry",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "b18f5e71-a6f9-41db-869c-743e0c0ce388",
+     "tree_id": "lon_030",
+     "tree_name": "The Gunnersbury Park Black Mulberry",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "a469122c-0c06-4206-afd9-9574a7dc67ab",
+     "tree_id": "lon_030",
+     "tree_name": "The Gunnersbury Park Black Mulberry",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_55d4723005a3e9f5ecc973e2": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3c48f8df-d5a1-41f7-9678-193a214eab1c",
+     "tree_id": "wdc_004",
+     "tree_name": "The National Mall Jefferson Elm",
+     "city": "Washington DC",
+     "city_slug": "washington-dc",
      "display_name": null,
      "live": "2026-11-17"
     }

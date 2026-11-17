@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Moreton Bay Fig, Arderne Gardens (reader's tip)",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "coordinates": null,
+      "location_hint": "2F77+3X Constantia, Cape Town (plus code)",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "937"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: about 180 years old, 27 m tall, canopy 45 m wide, a protected Champion Tree, called the Wedding Tree; reader's girth 1120 cm. SA Champion Trees register would be the official source. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

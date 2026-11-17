@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Olive Tree of Mouchao (reader's tip)",
+      "species": "Olive (Olea europaea)",
+      "coordinates": null,
+      "location_hint": "https://maps.app.goo.gl/wAbWy6HMvkcD3VEG7",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "850"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: possibly the oldest tree in Portugal, estimated about 3,350 years, still fruiting; reader's source en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o. Portugal is a focus country; ICNF register likely. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

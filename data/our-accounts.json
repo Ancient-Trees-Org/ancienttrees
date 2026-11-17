@@ -24,6 +24,11 @@
       "sha1": "15b6cea8f0b43b002181a235650f470069121c71",
       "who": "apptest, the app's UI-test account (scripts/test_session.py)",
       "ref": "p_509872fdf0d610368f037fd5"
+    },
+    {
+      "sha1": "f796e8b1d9d437fffb57c1b5bb300675bb1fe865",
+      "who": "the Google Play reviewer's account (Play Console > App content > Sign-in details), made 2026-11-17, profile private",
+      "ref": "p_7156496d4ed6c2aa65074703"
     }
   ]
 }

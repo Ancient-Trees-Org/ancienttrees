@@ -92,13 +92,31 @@ window.atCollection = window.atCollection || (function() {
   // something (the ambassador request, 2026-10-07) prints it, so "signed in"
   // is never a guess on either side of the screen.
   var who = null;
+  var waitedForRenewal = false;
+  function renewable() {
+    try {
+      var s = JSON.parse(localStorage.getItem('ancienttrees_session'));
+      return !!(s && s.refresh_token && !(s.expires_at > Date.now() / 1000));
+    } catch (e) { return false; }
+  }
+  function parsed() {
+    return new Promise(function(done) {
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function() { done(); });
+      else done();
+    });
+  }
   function verify() {
     if (verified) return verified;
-    // A spent token being renewed (signin-js refreshIfStale) is decided after
-    // the renewal, never before it (2026-11-17).
-    if (window.atRefreshing && !session()) {
-      return (verified = Promise.resolve(window.atRefreshing).catch(function() {}).then(function() {
-        window.atRefreshing = null;   // asked once; a failed renewal reads as signed out
+    // A spent token with a refresh token beside it is renewed by signin-js
+    // (window.atRefreshing), and who is signed in is decided after that answer,
+    // never before it (2026-11-17). This script can run BEFORE signin-js (a
+    // page that includes it itself: the first copy wins), so it waits for the
+    // page to be parsed, then for the renewal. Once only: a second pass decides.
+    if (!waitedForRenewal && !session() && renewable()) {
+      waitedForRenewal = true;
+      return (verified = parsed().then(function() {
+        return Promise.resolve(window.atRefreshing).catch(function() {});
+      }).then(function() {
         verified = null;
         return verify();
       }));

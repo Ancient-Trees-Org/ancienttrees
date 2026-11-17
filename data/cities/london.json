@@ -165,10 +165,11 @@
       "age_max": 300,
       "location": {
         "address": "Corner of Wood Street and Cheapside, City of London, EC2V 8AA",
-        "latitude": 51.5155,
-        "longitude": -0.0934,
+        "latitude": 51.51404,
+        "longitude": -0.09488,
         "neighbourhood": "City of London"
       },
+      "pin_source": "reader report 1000072 ('Corner of wood street and cheapside') with the GPS fix of their photograph, sighting 0b4c9e0a, 2026-11-17; the old pin stood 190 m up Wood Street, away from the corner the story names",
       "story": "The only Great Tree of London still standing inside the Square Mile grows out of a churchyard that no longer has a church. St Peter Cheap burned down in the Great Fire of 1666 and was never rebuilt, and the plane tree that replaced its congregation is old enough that nobody can say exactly when it was planted. By 1853 a cab company was advertising its rank simply as 'Under the tree, Cheapside,' proof the tree was already a fixed point on the map before street numbering caught up with London's growth. In 1901 the press went further and called it the most valuable tree in the world, a claim about the land beneath it as much as the tree itself. It has survived since through the Blitz, through the City's total postwar rebuilding, and through a peculiarity of property law. The leases on the buildings flanking it forbid construction above two storeys on that side, an accident of contract law that has kept its canopy open to the sky for longer than most buildings nearby have existed. William Wordsworth is thought to have had this exact tree in mind writing his 1800 poem Poor Susan, in which a countrywoman hears a thrush singing from a tree on Cheapside and briefly mistakes the City for home.",
       "verified_sources": [
         "https://www.atlasobscura.com/places/cheapside-plane-tree",
@@ -177,18 +178,33 @@
       "access": "Free, public square, City of London",
       "transport": "2 min walk from St Paul's tube station",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Cheapside_Plane_%281%29.jpg",
-        "license": "CC0 1.0",
-        "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_003-the-cheapside-plane-0b4c9e0a.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3024,
-        "height": 4032,
-        "taken_month": 9
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_da68887efbcb3708dd151f6f",
+        "sighting_id": "0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The Cheapside Plane in full leaf behind the churchyard railings at the corner of Wood Street and Cheapside, daylight and colour; the reader's GPS fix is at the corner the story names. Species seen: London plane: mottled flaking bark, big burrs on the trunk, maple-shaped leaves in a tall open crown. Fits the description: a lone tall plane rising from a railed churchyard on a City street corner between office buildings, crown in open sky.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Source URLs backfilled 2026-07-28: Atlas Obscura and Look Up London both independently corroborate the St Peter Cheap site, the 1853 cab-company advert, the 1901 'most valuable tree' claim and the Wordsworth connection.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the buildings beside it, held to two storeys by their leases so its crown keeps open sky. It stands on the corner of Wood Street and Cheapside, in the churchyard of a church that burned in 1666."
+      "how_to_recognise": "You can recognise it by the buildings beside it, held to two storeys by their leases so its crown keeps open sky. It stands on the corner of Wood Street and Cheapside, in the churchyard of a church that burned in 1666.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Cheapside_Plane_%281%29.jpg",
+          "license": "CC0 1.0",
+          "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3024,
+          "height": 4032,
+          "taken_month": 9
+        }
+      ]
     },
     {
       "id": "lon_004",
@@ -503,6 +519,19 @@
           "sighting_id": "6f2cee0c-369d-4da5-a2e3-6e08f138a29f",
           "note": "Photographed by a reader and sent through the app (2026-09-12); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_008-barney-the-plane-9c93b205.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_e8dba228047f1ba460227fd8",
+          "sighting_id": "9c93b205-3812-4c19-9040-a4efe3511170",
+          "note": "Photographed by a reader and sent through the app (2026-09-12); a viewing pass approved it on 2026-11-17: Sent for the Gnarled Beech of Hampstead Heath but shows a giant burred London plane at Barn Elms; GPS 17 m from Barney the Plane (lon_008). Main frame duplicates the reader's photo already in the strip, so the new close trunk view (extra 1) joins it. Species seen: plane: palmate leaves, pale flaking upper bark, massive burred bole. Fits the description: huge burred plane in woodland edge at Barn Elms, the reader standing at its foot for scale.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
     },
@@ -1252,16 +1281,70 @@
         "label": "July and August, when the dark mulberries ripen and stain the ground"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Gunnersbury_Park%2C_Black_Mulberry.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "AndyScott, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-b18f5e71.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-16",
-        "width": 3000,
-        "height": 2250,
-        "taken_month": 6
-      }
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+        "sighting_id": "b18f5e71-a6f9-41db-869c-743e0c0ce388",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The whole recumbent mulberry in spring leaf: the gnarled trunk lying along the grass with branches rising straight up from it. The shot that shows what the page describes. Species seen: heart-shaped, coarsely toothed fresh mulberry leaves on twisting pale branches, burred fissured bark. Fits the description: the trunk lies on the ground with new upright branches building a squat crown, mown grass and a path behind, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Gunnersbury_Park%2C_Black_Mulberry.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "AndyScott, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-16",
+          "width": 3000,
+          "height": 2250,
+          "taken_month": 6
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-1894f450.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+          "sighting_id": "1894f450-f71e-4d35-88be-6bcdcd874dfa",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: Close-up of the mulberry's leaves on a low branch over the grass; belongs in the gallery, not as the lead. Species seen: deeply lobed, coarsely toothed, rough-surfaced leaves typical of a vigorous black mulberry shoot. Fits the description: branches running low over mown grass, as on the fallen V-shaped tree at the foot of the terrace steps; GPS fix at our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-ac111c30.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+          "sighting_id": "ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: Close-up of the mulberry in flower in spring, gnarled branches behind; belongs in the gallery, not as the lead. Species seen: heart-shaped serrated leaves with mulberry female flower clusters (fuzzy styles) on stubby spurs. Fits the description: a tangle of old twisting branches behind, the squat crown of the recumbent tree; GPS fix at our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_030-the-gunnersbury-park-black-mulberry-a469122c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_14a30efd07d48052d438a1ea",
+          "sighting_id": "a469122c-0c06-4206-afd9-9574a7dc67ab",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: Close-up of a young shoot with a green fruit spike, the fallen trunk blurred behind. Belongs in the gallery behind the lead. Species seen: broad ovate serrated mulberry leaves with an unripe catkin-like fruit cluster. Fits the description: a low branch over grass with the recumbent trunk lying on the ground in the background.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "lon_029",

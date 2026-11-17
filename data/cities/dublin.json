@@ -2,10 +2,10 @@
   "city": "Dublin",
   "country": "Ireland",
   "status": "needs_curation",
-  "intro": "Dublin's remarkable trees rarely come from grand planned woodland the way London's or Madrid's do. They arrive by accident and by institution instead: a bench a plane tree slowly ate, a sequoia a visiting queen planted as a courtesy, two Georgian college squares, a windbreak oak that grew several trunks instead of one, a cluster of botanic garden specimens gathered from three continents, and a scattering of Guinness family estates now open to everyone. Eighteen of these nineteen cost nothing to visit, though one keeps its gate locked for all but ten weeks a year.",
-  "meta_description": "Dublin's ancient trees range from a plane eating a park bench to a queen's own sequoia. Nineteen verified locations, real stories, how to reach each one.",
+  "intro": "Dublin's remarkable trees rarely come from grand planned woodland the way London's or Madrid's do. They arrive by accident and by institution instead: a bench a plane tree slowly ate, a sequoia a visiting queen planted as a courtesy, two Georgian college squares, a windbreak oak that grew several trunks instead of one, a cluster of botanic garden specimens gathered from three continents, and a scattering of Guinness family estates now open to everyone. Nineteen of these twenty cost nothing to visit, though one keeps its gate locked for all but ten weeks a year.",
+  "meta_description": "Dublin's ancient trees range from a plane eating a park bench to a queen's own sequoia. Twenty verified locations, real stories, how to reach each one.",
   "question_answer": "Dublin's oldest tree is very likely Dean's Tree, a yew in the private garden of the Old Glebe in Newcastle, on the city's western edge, estimated at between 500 and 700 years old depending on which measure you trust. It only opens to the public for a few weeks each year, in May, June and mid-August, under Ireland's Section 482 scheme for historic properties.",
-  "question_meta": "A 500-700 year old yew in a private garden, linked by legend to Jonathan Swift, is Dublin's oldest tree. When it opens to visitors, and the full nineteen.",
+  "question_meta": "A 500-700 year old yew in a private garden, linked by legend to Jonathan Swift, is Dublin's oldest tree. When it opens to visitors, and the full twenty.",
   "question_context": "Ring counts are not possible without felling the tree, so estimates for the Old Glebe yew swing widely: a girth-based rule of thumb puts it past 500 years, while local tradition claims over 700. Either number makes it older than the house whose garden it now shares, built in 1710, and older than most of the city's other ancient trees. Jonathan Swift, Dean of St Patrick's Cathedral, is said to have sat beneath it while composing verse, though that pairing of an ancient tree and a famous writer is exactly the kind of story that attaches itself whether or not it happened, so treat it as folklore. The nearest challenger for oldest is a good deal younger: a pair of yews in the National Botanic Gardens, possibly planted in the 1730s to commemorate the essayist Joseph Addison, a claim the garden's own historians can't fully reconcile with its 1795 founding date. Getting there requires checking the calendar first. It is a private property that opens free to the public under Ireland's Section 482 tax relief scheme, specifically in May, all of June, and nine days in mid-August, 10am to 2pm. Turn up outside those windows and the gate stays shut.",
   "faq": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "q": "Are Dublin's ancient trees free to visit?",
-      "a": "Seventeen of the nineteen are free at any time. Áras an Uachtaráin's sequoia requires a free guided tour booked on the day, and the Old Glebe's yew only opens for a few weeks a year."
+      "a": "Eighteen of the twenty are free at any time. Áras an Uachtaráin's sequoia requires a free guided tour booked on the day, and the Old Glebe's yew only opens for a few weeks a year."
     },
     {
       "q": "Why is there a tree eating a bench in Dublin?",
@@ -720,6 +720,47 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "dub_020",
+      "name": "The Weeping Cedar Tunnel of Glasnevin",
+      "species": "Atlas Cedar (Cedrus atlantica)",
+      "location": {
+        "address": "National Botanic Gardens, Botanic Road, Glasnevin, Dublin 9, D09 VY63",
+        "latitude": 53.37235,
+        "longitude": -6.27073666666667,
+        "neighbourhood": "Glasnevin"
+      },
+      "how_to_recognise": "A cedar whose blue-green branches all hang straight down to the grass like a curtain, with a worn earth path leading in under its leaning trunk, near a bronze sculpture.",
+      "access": "Free, in the National Botanic Gardens; open daily except 25 December.",
+      "story": "Most cedars hold their branches out like shelves. This one lets every one of them fall. A reader sent us its photograph from the National Botanic Gardens in Glasnevin, with a GPS fix taken at the edge of the curtain, and they were not sure which of our Glasnevin trees it was. It is none of them, and it is worth the walk on its own.\n\nIt is a weeping form of the Atlas cedar, the blue-needled cedar of the mountains of Morocco and Algeria, the kind gardeners grow for exactly this habit. The trunk leans and arches, the limbs run out from it and then droop, and from every limb hang long ropes of blue-green needles straight down to the grass, so that the whole tree becomes a room. Feet have worn a bare earth path in under it, and in the photograph you can see straight through the arch to the lawns beyond. A bronze figure stands at the edge of the frame.\n\nWe do not know when it was planted, its size, or whether the gardens have a name for it. If you do, tell us here and we will add it.\n\nWalk the path in under the branches and look up into the arch.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (b59c4873-fd0a-4a92-a0d0-08074938e8f5, 2026-11-17, through the app). Photograph viewed: a weeping blue cedar whose branches hang to the grass on every side, a bare-earth path leading in under the arch of its trunk and limbs, a bronze sculpture at the left edge, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dub_020-weeping-cedar-tunnel-of-glasnevin.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: a weeping blue cedar whose branches hang to the grass on every side, a bare-earth path leading in under the arch of its trunk and limbs, a bronze sculpture at the left edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

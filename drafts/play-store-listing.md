@@ -19,9 +19,9 @@ description is the one new line here. It is his own verb from PITCH_VOICE.md
 
 ## Two things for you to choose
 
-- **Category.** Play has no "Navigation" for apps like ours outside Maps &
-  Navigation. The two that fit: **Travel & Local** (AllTrails and komoot sit
-  there) or **Maps & Navigation**. Which one?
+- **Category: Travel & Local** (Hidde, 2026-11-12). Maps & Navigation is
+  where people look for a route app, beside Google Maps and Waze; we are
+  somewhere to go.
 - **Contact email** shown on the listing (Play requires one, it is public).
   info@ancienttrees.app is the address on the privacy page; is that the one?
 
@@ -40,7 +40,7 @@ Ancient Trees: Old Tree Map
 Short description, 71/80:
 
 ```
-Explore remarkable old trees around you and collect the ones you visit.
+Find ancient, giant and famous trees near you and collect the ones you visit.
 ```
 
 Full description:
@@ -50,13 +50,15 @@ While visiting Lisbon and walking through its parks, I kept stumbling on huge, b
 
 A yew older than the church beside it, a plane tree it takes four people to hug, an oak that has seen everything happen on its street.
 
+Monumental oaks and ancient yews, giant sequoias and redwoods, heritage trees in historic parks, arboretums, botanical gardens and churchyards. Each one comes with its story, why it is special and how to find it.
+
 FIND
 • The old trees near you, on a map
 • Search by place, species or name
 • Directions to the trunk
 
 DISCOVER
-• The trees at their best this month, wherever you are
+• The trees at their best this month, from spring blossom to autumn colour
 • The oldest, tallest and thickest trees
 • Tree cities around the world
 
@@ -82,7 +84,7 @@ Ancient Trees: Oude bomen
 Short description:
 
 ```
-Ontdek bijzondere oude bomen om je heen en verzamel de bomen die je bezoekt.
+Vind monumentale, oude en beroemde bomen bij jou in de buurt en verzamel ze.
 ```
 
 Full description:
@@ -92,13 +94,15 @@ Toen ik Lissabon bezocht en door de parken wandelde, kwam ik steeds enorme, prac
 
 Een taxus ouder dan de kerk ernaast, een plataan waar vier mensen hun armen omheen moeten slaan, een eik die alles heeft gezien wat er in zijn straat gebeurde.
 
+Monumentale eiken en eeuwenoude taxussen, mammoetbomen en kustsequoia's, bijzondere bomen in historische parken, arboreta, botanische tuinen en op kerkhoven. Bij elke boom staat zijn verhaal, waarom hij bijzonder is en hoe je hem vindt.
+
 VINDEN
 • De oude bomen bij jou in de buurt, op een kaart
 • Zoeken op plaats, soort of naam
 • Een route naar de stam
 
 ONTDEKKEN
-• De bomen die deze maand op hun mooist zijn, waar je ook bent
+• De bomen die deze maand op hun mooist zijn, van voorjaarsbloei tot herfstkleuren
 • De oudste, hoogste en dikste bomen
 • Bomensteden over de hele wereld
 
@@ -119,7 +123,7 @@ Ancient Trees: Alte Bäume
 Short description:
 
 ```
-Entdecke besondere alte Bäume um dich herum und sammle die, die du besuchst.
+Finde uralte Baumriesen und berühmte Bäume in deiner Nähe und sammle sie.
 ```
 
 Full description:
@@ -129,13 +133,15 @@ Als ich Lissabon besuchte und durch die Parks spazierte, stieß ich immer wieder
 
 Eine Eibe, älter als die Kirche daneben, eine Platane, die vier Menschen kaum umarmen können, eine Eiche, die alles gesehen hat, was in ihrer Straße geschah.
 
+Mächtige Eichen und uralte Eiben, Mammutbäume und Küstenmammutbäume, Naturdenkmäler in historischen Parks, Arboreten, botanischen Gärten und auf Friedhöfen. Zu jedem Baum gibt es seine Geschichte, was ihn besonders macht und wie du ihn findest.
+
 FINDEN
 • Die alten Bäume in deiner Nähe, auf einer Karte
 • Suche nach Ort, Art oder Name
 • Der Weg bis zum Stamm
 
 ENTDECKEN
-• Die Bäume, die diesen Monat am schönsten sind, wo immer du bist
+• Die Bäume, die diesen Monat am schönsten sind, von der Frühlingsblüte bis zur Herbstfärbung
 • Die ältesten, höchsten und dicksten Bäume
 • Baumstädte auf der ganzen Welt
 
@@ -156,7 +162,7 @@ Ancient Trees: Vieux arbres
 Short description:
 
 ```
-Explorez les vieux arbres remarquables autour de vous et collectionnez-les.
+Trouvez des arbres remarquables, géants et anciens près de vous.
 ```
 
 Full description:
@@ -166,13 +172,15 @@ En visitant Lisbonne et en me promenant dans ses parcs, je tombais sans cesse su
 
 Un if plus vieux que l'église voisine, un platane qu'il faut quatre personnes pour entourer, un chêne qui a tout vu de ce qui s'est passé dans sa rue.
 
+Chênes monumentaux et ifs très anciens, séquoias géants, arbres remarquables dans les parcs historiques, arboretums, jardins botaniques et cimetières. Chaque arbre a son histoire, ce qui le rend unique et comment le trouver.
+
 TROUVER
 • Les vieux arbres près de vous, sur une carte
 • Recherche par lieu, espèce ou nom
 • L'itinéraire jusqu'au tronc
 
 DÉCOUVRIR
-• Les arbres à leur plus beau ce mois-ci, où que vous soyez
+• Les arbres à leur plus beau ce mois-ci, de la floraison printanière aux couleurs d'automne
 • Les arbres les plus vieux, les plus hauts et les plus gros
 • Des villes d'arbres partout dans le monde
 
@@ -193,7 +201,7 @@ Ancient Trees: Árboles viejos
 Short description:
 
 ```
-Explora árboles viejos singulares a tu alrededor y colecciona los que visitas.
+Encuentra árboles singulares y monumentales cerca de ti y colecciónalos.
 ```
 
 Full description:
@@ -203,13 +211,15 @@ Visitando Lisboa y paseando por sus parques, no paraba de encontrarme con árbol
 
 Un tejo más antiguo que la iglesia de al lado, un plátano que hacen falta cuatro personas para abrazar, un roble que ha visto todo lo que ha pasado en su calle.
 
+Robles monumentales y tejos centenarios, secuoyas gigantes, árboles singulares en parques históricos, arboretos, jardines botánicos y cementerios. Cada árbol tiene su historia, qué lo hace especial y cómo encontrarlo.
+
 ENCONTRAR
 • Los árboles viejos cerca de ti, en un mapa
 • Busca por lugar, especie o nombre
 • Indicaciones hasta el tronco
 
 DESCUBRIR
-• Los árboles en su mejor momento este mes, estés donde estés
+• Los árboles en su mejor momento este mes, de la floración de primavera a los colores del otoño
 • Los árboles más viejos, más altos y más gruesos
 • Ciudades de árboles de todo el mundo
 
@@ -230,7 +240,7 @@ Ancient Trees: Alberi secolari
 Short description:
 
 ```
-Esplora gli alberi secolari intorno a te e colleziona quelli che visiti.
+Trova alberi monumentali, secolari e famosi vicino a te e collezionali.
 ```
 
 Full description:
@@ -240,13 +250,15 @@ Visitando Lisbona e passeggiando nei suoi parchi, continuavo a imbattermi in alb
 
 Un tasso più antico della chiesa accanto, un platano che servono quattro persone per abbracciare, una quercia che ha visto tutto ciò che è successo nella sua strada.
 
+Querce monumentali e tassi secolari, sequoie giganti, grandi alberi nei parchi storici, arboreti, orti botanici e sagrati delle chiese. Ogni albero ha la sua storia, cosa lo rende speciale e come trovarlo.
+
 TROVA
 • Gli alberi secolari vicino a te, su una mappa
 • Cerca per luogo, specie o nome
 • Le indicazioni fino al tronco
 
 SCOPRI
-• Gli alberi al loro meglio questo mese, ovunque tu sia
+• Gli alberi al loro meglio questo mese, dalla fioritura primaverile ai colori d'autunno
 • Gli alberi più antichi, più alti e più grandi
 • Città degli alberi in tutto il mondo
 
@@ -270,7 +282,7 @@ Ancient Trees: Árvores antigas
 Short description:
 
 ```
-Explore árvores antigas notáveis à sua volta e colecione as que visita.
+Encontre árvores monumentais, antigas e famosas perto de si e colecione-as.
 ```
 
 Full description:
@@ -280,13 +292,15 @@ Ao visitar Lisboa e passear pelos seus jardins, dava constantemente com árvores
 
 Um teixo mais velho do que a igreja ao lado, um plátano que são precisas quatro pessoas para abraçar, um carvalho que viu tudo o que aconteceu na sua rua.
 
+Carvalhos monumentais e teixos centenários, sequoias gigantes, árvores de interesse público em parques históricos, arboretos, jardins botânicos e adros de igrejas. Cada árvore tem a sua história, o que a torna especial e como a encontrar.
+
 ENCONTRAR
 • As árvores antigas perto de si, num mapa
 • Pesquise por local, espécie ou nome
 • Direções até ao tronco
 
 DESCOBRIR
-• As árvores no seu melhor este mês, esteja onde estiver
+• As árvores no seu melhor este mês, da floração da primavera às cores do outono
 • As árvores mais antigas, mais altas e mais grossas
 • Cidades de árvores em todo o mundo
 
@@ -307,7 +321,7 @@ Ancient Trees: 巨樹マップ
 Short description:
 
 ```
-近くの見事な古木を探して、訪れた木をコレクションしよう。
+近くの巨樹・古木・名木を探して、訪れた木をコレクションしよう。
 ```
 
 Full description:
@@ -317,13 +331,15 @@ Full description:
 
 隣の教会より古いイチイ、四人でやっと囲めるプラタナス、通りで起きたすべてを見てきたオーク。
 
+樹齢を重ねたオークやイチイ、ジャイアントセコイア、歴史ある公園や樹木園、植物園、寺社の境内に立つ名木。それぞれの物語、特別な理由、見つけ方がわかります。
+
 見つける
 • 近くの古木を地図で
 • 場所・樹種・名前で検索
 • 幹までの道案内
 
 発見する
-• 今月見ごろの木を、どこにいても
+• 今月見ごろの木を、春の花から秋の紅葉まで
 • いちばん古い木、高い木、太い木
 • 世界各地の木の名所の街
 

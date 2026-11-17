@@ -607,7 +607,15 @@ def check(path):
     hits += check_app_link(path, text, body)
     hits += check_link_on_its_own_line(path, text, body)
     hits += check_no_unshipped_feature(path, body)
+    head = BODY_SPLIT.split(text, 1)[0] if BODY_SPLIT.search(text) else ""
+    reader = bool(re.search(r"^audience:\s*(app user|reader)\b", head, re.I | re.M))
     for label, patterns in CHECKS:
+        # A reader who wrote through the site or the app and asks how to add
+        # a tree is best answered with the form itself (Hidde, 2026-11-17:
+        # "je mag m prima naar het formulier sturen, beter zelfs!"). The rule
+        # stays for mail threads, where replying is the channel.
+        if label == "FORM LINK IN A LIVE THREAD" and reader:
+            continue
         for pat in patterns:
             for m in re.finditer(pat, body, re.I):
                 line = body[:m.start()].count("\n") + 1

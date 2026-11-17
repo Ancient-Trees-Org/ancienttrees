@@ -604,6 +604,30 @@ def rebuild_list(live, order):
     return len(rows)
 
 
+# Big UK cities where app phones open and almost nothing stands within 25 km
+# (PostHog GeoIP since the Guardian piece, 2026-11-15 to 11-17: Birmingham 30
+# phones and 2 trees, Sheffield 28 and 2, Leeds 25 and 1). Hidde, 2026-11-17:
+# "Ja, vooraan". Printed above every other block of --next; from-zero research
+# is on for them because he named them. Each leaves the list at ten trees.
+PHONES_FIRST = [("Birmingham", "birmingham", "birmingham-uk"),
+                ("Sheffield", "sheffield", "sheffield"),
+                ("Leeds", "leeds", "leeds")]
+
+
+def phones_first():
+    """The PHONES_FIRST cities still under ten trees, with live and lead counts."""
+    out = []
+    for name, slug, leads in PHONES_FIRST:
+        cp = os.path.join(ROOT, "data", "cities", slug + ".json")
+        live = len(json.load(open(cp, encoding="utf-8")).get("trees", [])) if os.path.exists(cp) else 0
+        lp = os.path.join(ROOT, "data", "leads", leads + ".json")
+        d = json.load(open(lp, encoding="utf-8")) if os.path.exists(lp) else {}
+        n = len(d.get("leads", [])) if isinstance(d, dict) else len(d)
+        if live < 10:
+            out.append((name, live, n))
+    return out
+
+
 NAMED_BY_HIDDE = [
     # 2026-08-19, verbatim from his own message and recorded in CITY_QUEUE.md.
     # This list is the SCOPE of "from-zero web research is on", not a synonym
@@ -745,6 +769,15 @@ def main():
         # exists to stop. Named is named; the rest still need a register, a
         # lead file or a Wikidata cluster before a pass is worth dispatching.
         named = {c.lower() for c in NAMED_BY_HIDDE}
+        pf = phones_first()
+        if pf:
+            print("VERY FIRST: UK CITIES WHERE APP PHONES OPEN AND FIND ALMOST NOTHING")
+            print("(Hidde, 2026-11-17: \"Ja, vooraan\"). From-zero research is ON for these;")
+            print("start from the lead file, then the search order. Ten trees each.\n")
+            print("  city                  trees   leads")
+            for name, live, n in pf:
+                print("  %-21s %5d %7d" % (name, live, n))
+            print()
         first = country_first(doc)
         if first:
             print("FIRST, BEFORE ANYTHING BELOW: %s (Hidde, 2026-11-03: \"veel VS en" % FIRST_LABEL.upper())

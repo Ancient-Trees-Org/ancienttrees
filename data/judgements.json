@@ -2,14 +2,14 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
-   "tree": "Black Mulberry in London",
-   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
-   "reader_note": "Described as a veteran, with a protective fence",
+   "tree": "Horse Chestnut Tree of Sofienbergparken",
+   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
+   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
    "verdict": "publish",
-   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "reason": "Photograph viewed 2026-11-17: the whole horse chestnut, a leaning dark trunk and long crooked limbs sweeping almost to the ground, daylight, colour. Live as oslo/osl_005 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
@@ -26,6 +26,62 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:58c34b47-f563-460c-8fa7-e0b5e461b974",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Sécheron Plane",
+   "city": "Geneva",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/58c34b47-f563-460c-8fa7-e0b5e461b974.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: a huge spreading plane by the lake promenade, brown autumn leaves, 28 m from our pin; the tree's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:245ad026-de3b-4672-ad13-169d734721ea",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Himalayan Cedar of Parc Mon Repos",
+   "city": "Geneva",
+   "species": "Himalayan Cedar (Cedrus deodara)",
+   "photo": "out/sightings/245ad026-de3b-4672-ad13-169d734721ea.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 39,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Himalayan Cedar (Cedrus deodara)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: one large cedar alone on lakeside parkland at dusk, 39 m from our pin; the tree's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
    "hidde": null,
    "agreed": null
   },
@@ -1832,8 +1888,8 @@
    "photo": "out/sightings/fb383f1e-0383-4579-9603-21cca3aedd94.jpg",
    "reader_note": "",
    "match": "app",
-   "verdict": "hold",
-   "reason": "Dead standing trunk, GPS 3.9 km from our tree; held.",
+   "verdict": "publish",
+   "reason": "Sent for mex_006 (alive, San Fernando) but shows El Sargento 4 km away: other_tree, then live as its own page mexico-city/mex_011.",
    "hidde": null,
    "agreed": null
   },
@@ -2814,8 +2870,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a bare forked deciduous park tree beside a path, a person at its trunk for scale; a normal-sized tree among many like it.",
    "hidde": null,
    "agreed": null
   },
@@ -2835,8 +2891,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a medium tree with long toothed leaves in a Paris square, a wooden label post beside it; not big, old-looking or unusual in frame.",
    "hidde": null,
    "agreed": null
   },
@@ -2856,8 +2912,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a small weeping pagoda tree in a front garden behind a gate (no. 7A), seen from the street; an ornamental of ordinary size.",
    "hidde": null,
    "agreed": null
   },
@@ -2877,8 +2933,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: Viewed 2026-11-17: a tall beech on a wooded slope beside a leaf-strewn path; a good tree but one of many of its size in the park.",
    "hidde": null,
    "agreed": null
   },
@@ -2898,8 +2954,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "bad_frame: Viewed 2026-11-17: looking straight up a reddish fibrous redwood trunk through branches; nothing shows its size, base or where it stands.",
    "hidde": null,
    "agreed": null
   },
@@ -2913,8 +2969,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -2928,8 +2984,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 765,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Same tree as the Arboretum 1 sequoia lead; the reader's link may give the missing pin.",
    "hidde": null,
    "agreed": null
   },
@@ -2943,8 +2999,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -2958,8 +3014,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/ho-chi-minh-city.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -2973,8 +3029,760 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 420,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/alerce-costero.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Age is a model estimate, to be stated broadly as the study's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "city": null,
+   "species": "Black Mulberry",
+   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
+   "reader_note": "Described as a veteran, with a protective fence",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 78377,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Duplicate main frame, but the reader's new trunk view (extra 1) of the Baobab Plane (mdb_001) is in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/B59C4873-FD0A-4A92-A0D0-08074938E8F5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 11 m away (ireland-heritage-trees): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 53.37245,
+      "lng": -6.27075,
+      "source": "ireland-heritage-trees",
+      "designation": "",
+      "name": "",
+      "species": "Arbutus unedo x andrachne = A. x andrachnoides",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 11.2
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photo viewed: a weeping blue Atlas cedar whose branches hang to the grass, a path in under its arch, GPS fix in the National Botanic Gardens; none of the five trees offered (our Atlas cedar has upswept branches 170 m away). Live as dublin/dub_020.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fb383f1e-0383-4579-9603-21cca3aedd94",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "p_43296b4149990a775a24a4a6/FB383F1E-0383-4579-9603-21CCA3AEDD94.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photo viewed: two bleached, split dead trunks of a Montezuma cypress in Bosque de Chapultepec, GPS fix in front of it; El Sargento (Wikipedia, Chapultepec, CDMX tourism), standing dead and striking under the Ochi rule. Live as mexico-city/mex_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Chiang Mai",
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/C1046494-AEFF-40B3-81DA-D0F3FC7AC3E4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Sent for the yang na at Wat Chedi Luang; photo shows a strangler fig whose fused roots hold stone-like lumps, beside a park road 2.2 km west, GPS fix. Live as chiang-mai/cnx_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:abb593f0-9a90-47cd-8138-1040de6f803c",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Azores",
+   "species": null,
+   "photo": "p_20f572b893cc30e44a00d316/abb593f0-9a90-47cd-8138-1040de6f803c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a fig with curtains of aerial roots, sent from azo_001's page so its coordinate is our pin; a different trunk from our lead photo. Held until we know where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:017db4cf-3739-467d-986a-cb2f811ab0a1",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Rhodes Bald Cypress",
+   "city": "Richard Bong State Recreation Area",
+   "species": "Bald Cypress (Taxodium distichum)",
+   "photo": "out/sightings/017db4cf-3739-467d-986a-cb2f811ab0a1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": null,
+   "verdict": "publish",
+   "reason": "The whole Rhodes Bald Cypress in winter snow; now the lead, the sign close-up moves to the strip.",
+   "judged": "2026-11-17",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "the Zamalek Banyan",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_9ea9b8fd7f2977e46fcff89b/2BEF0F92-BD67-4694-8CEE-C97B5F4D3C6A.jpg",
+   "reader_note": "evey egyptian knows this tree. it’s very loved and celebrated here. Khedewy Ismail imported banyan trees from India back in 1868 and this is how it ended up here. i don’t even know if there’s more or if this is the only one that survived. \n\nhttps://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a banyan's crown and aerial-root pillars behind a wall and railing, daylight. Egyptian Streets (2022) names a 150-year-old banyan on Al Borg street by the Cairo Tower, where the GPS fix falls. Live as cairo/cai_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "the Zamalek Banyan",
+   "photo": "p_9ea9b8fd7f2977e46fcff89b/2BEF0F92-BD67-4694-8CEE-C97B5F4D3C6A.jpg",
+   "reader_note": "evey egyptian knows this tree. it’s very loved and celebrated here. Khedewy Ismail imported banyan trees from India back in 1868 and this is how it ended up here. i don’t even know if there’s more or if this is the only one that survived. \n\nhttps://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and iron railing, daylight, colour. Live as cairo/cai_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cheapside Plane",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/0b4c9e0a-916e-4f6c-a11c-d6850563f822.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 192,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the Cheapside Plane in full leaf behind the churchyard railings at Wood Street and Cheapside, daylight and colour; added and now leads the page. Their GPS fix and report 1000072 moved our pin 190 m to the corner the story names.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e7f5f503-48a4-457e-bd7d-1cedae177b2d",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Rumskullaeken (the Kvill Oak)",
+   "city": "Rumskulla",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/e7f5f503-48a4-457e-bd7d-1cedae177b2d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8418,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Kvill Oak whole in late summer, a person beside it for scale; added beside the lead, the reader's becomes the lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d73aaf2c-6f0c-4822-8e89-2989f918c04c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ekebyhovseken",
+   "city": "Ekerö",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/d73aaf2c-6f0c-4822-8e89-2989f918c04c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 39,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Ekebyhovseken alone in a snowy meadow, whole trunk and broken crown; a reader's winter photograph now leads the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:64d7a378-7c5e-4efd-b445-7e1b22ec2ea9",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Ekebyhovseken",
+   "city": "Ekerö",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/64d7a378-7c5e-4efd-b445-7e1b22ec2ea9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 39,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate of d73aaf2c, the same photographs sent twice; that one is on the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:58efdc92-c382-4b03-b495-c53f027b4e58",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Apple in Milton Keynes",
+   "city": null,
+   "species": "Apple",
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/58EFDC92-C382-4B03-B495-C53F027B4E58.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple"
+   },
+   "verdict": "publish",
+   "reason": "The same photograph as 4ea907d1 sent twice; folded into milton-keynes/mkn_003",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Apple in Milton Keynes",
+   "city": null,
+   "species": "Apple",
+   "photo": "p_4dd8dcf5578c7ea25c0f9159/4EA907D1-6637-4070-AA8A-9A9D66A71F91.jpg",
+   "reader_note": "A row of Old Apple trees possibly Bramley",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple"
+   },
+   "verdict": "publish",
+   "reason": "A row of old leaning, hollowed apple trees beside a public path in Linford Wood, GPS fix; live as milton-keynes/mkn_003",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4ea907d1-6637-4070-aa8a-9a9d66a71f91",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Leaning Apple Row of Linford Wood",
+   "city": "Milton Keynes",
+   "species": "Apple (Malus domestica)",
+   "photo": "out/sightings/4ea907d1-6637-4070-aa8a-9a9d66a71f91.jpg",
+   "reader_note": "A row of Old Apple trees possibly Bramley",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Apple (Malus domestica)"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads milton-keynes/mkn_003: old leaning, hollowed apple trunks beside a public path, daylight",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7b889995-25da-415c-8c05-afc5a69bfe79",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Orange",
+   "city": null,
+   "species": "Orange (Citrus sinensis)",
+   "photo": "p_6804e2228a1a20c1cd488fa6/7B889995-25DA-415C-8C05-AFC5A69BFE79.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Orange (Citrus sinensis)"
+   },
+   "verdict": "hold",
+   "reason": "not_special: an ordinary street orange in fruit; the big pine behind it is the tree, and that one is live (quito/uio_001)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c4a7a901-5433-4336-8cd7-e4317741aa2e",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Monterey Pine",
+   "city": null,
+   "species": "Monterey Pine",
+   "photo": "p_6804e2228a1a20c1cd488fa6/C4A7A901-5433-4336-8CD7-E4317741AA2E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 450,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Pine"
+   },
+   "verdict": "publish",
+   "reason": "A pine splitting into five or more straight stems into one tall crown, seen from the pavement in La Pradera, Quito; live as quito/uio_001, pin where the reader placed it (approximate)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c4a7a901-5433-4336-8cd7-e4317741aa2e",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Many-Stemmed Pine of La Pradera",
+   "photo": "p_6804e2228a1a20c1cd488fa6/C4A7A901-5433-4336-8CD7-E4317741AA2E.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "The reader's own photographs of the tree they added: the whole pine leads quito/uio_001, the view up its stems is in the strip, daylight, colour."
+  },
+  {
+   "id": "lead:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_45bb450c9ae48ea78e871c0e/F8C010FC-A646-477E-B1F8-DC71C5562EEC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a very tall ruler-straight forest tree beside a track in Kanker district, Chhattisgarh, person for scale, daylight, GPS fix. Species not established, asked on the page. Live as kanker/knk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Eastern White Pine",
+   "city": null,
+   "species": "Eastern White Pine",
+   "photo": "p_9206238867676c83f47e12ca/0305569A-654F-4BB4-9818-A071E602650B.jpg",
+   "reader_note": "It sits at the entrance of the Orono Bog Boardwalk, and is strikingly large",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern White Pine"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge twin-stemmed eastern white pine at the Orono Bog Boardwalk trailhead, whole tree, daylight, GPS fix at the tree. Live as bangor-maine/bnm_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The White Pine at the Orono Bog Boardwalk",
+   "city": "Bangor, Maine",
+   "species": "Eastern White Pine (Pinus strobus)",
+   "photo": "out/sightings/0305569a-654f-4bb4-9818-a071e602650b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads bangor-maine/bnm_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree on the Kanker Forest Track",
+   "city": "Kanker",
+   "species": "species not established",
+   "photo": "out/sightings/f8c010fc-a646-477e-b1f8-dc71c5562eec.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads kanker/knk_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:62e38d75-fb0b-4430-b3dc-791865129b6c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/62e38d75-fb0b-4430-b3dc-791865129b6c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Saint-Jammes beech from the grass, its propped limb and fence, daylight, colour: now the lead photograph of sor_001, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:20dc8d53-91c1-4087-963b-583bb1d5d7ce",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Multisecular Beech of Saint-Jammes",
+   "city": "Sorèze",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/20dc8d53-91c1-4087-963b-583bb1d5d7ce.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The same beech in fog with the chapel ruins beside it: in the strip of sor_001 behind the reader's lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1894f450-f71e-4d35-88be-6bcdcd874dfa",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/1894f450-f71e-4d35-88be-6bcdcd874dfa.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "Leaf close-up of this black mulberry: lobed, toothed leaves on low branches over grass. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/ac111c30-e0ed-48a7-aa1b-4315ca5a2db0.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The mulberry in spring flower, close-up, gnarled branches behind. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1102",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "BB61E294-5FFB-4378-960A-64DAB336FD46",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "no_location: the app's companion row to a sighting no longer on the server; no place, coordinate, name or words, nothing to place or record.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b18f5e71-a6f9-41db-869c-743e0c0ce388",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/b18f5e71-a6f9-41db-869c-743e0c0ce388.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The whole recumbent mulberry in spring leaf, trunk lying on the grass with branches rising straight up. Added beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a469122c-0c06-4206-afd9-9574a7dc67ab",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/a469122c-0c06-4206-afd9-9574a7dc67ab.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "Close-up of a young shoot with a green fruit spike, the fallen trunk blurred behind. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3c48f8df-d5a1-41f7-9678-193a214eab1c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The National Mall Jefferson Elm",
+   "city": "Washington DC",
+   "species": "American Elm (Ulmus americana 'Jefferson')",
+   "photo": "out/sightings/3c48f8df-d5a1-41f7-9678-193a214eab1c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm (Ulmus americana 'Jefferson')"
+   },
+   "verdict": "publish",
+   "reason": "A reader's daylight photograph of the elm in full leaf on the Mall lawn, museum dome across the green; now the lead photo on wdc_004, the iNaturalist picture behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1111",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Horse Chestnut Tree of Sofienbergparken",
+   "city": "Oslo",
+   "species": null,
+   "photo": "p_e0b30a55cd62a31cebd6dc2f/0f76f1c2-e177-4db1-a562-f49aaf4a7f1f.jpg",
+   "reader_note": "150-168 years old, beautiful low slung branches reaching just above the ground.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole horse chestnut, leaning dark trunk and long low crooked limbs nearly to the ground, daylight, colour; somewhat special. No GPS, so an approximate pin on Sofienbergparken, the site the reader named. Live as oslo/osl_005, their age as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:84674aa7-4088-4a3e-a918-5954d2bbd0c6",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Baarn",
+   "species": null,
+   "photo": "p_509872fdf0d610368f037fd5/84674AA7-4088-4A3E-A918-5954D2BBD0C6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Our own account (mine). Sent as the Baarn town hall plane but shows a plane on an open park lawn with no building, so another tree; its coordinate is our pin, not where it was taken: held doubt_location.",
    "hidde": null,
    "agreed": null
   },
@@ -5213,8 +6021,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1650,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/st-francisville.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a press source; US, so first in line.",
    "hidde": null,
    "agreed": null
   },
@@ -5228,8 +6036,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1120,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/cape-town.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -5243,8 +6051,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 900,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/tsitsikamma.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -5258,8 +6066,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/kgalagadi.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Location is a stretch of road; needs a coordinate.",
    "hidde": null,
    "agreed": null
   },
@@ -5273,8 +6081,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 34,
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already on the map as the Sagole Baobab (sgl_001); nothing to add.",
    "hidde": null,
    "agreed": null
   },
@@ -5288,8 +6096,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 2000,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/_famous-italy.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Adds a map link to the held Castagno Miraglia lead whose only gap was a coordinate.",
    "hidde": null,
    "agreed": null
   },
@@ -5926,7 +6734,7 @@
     "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
    },
    "verdict": "hold",
-   "reason": "A different fig with hanging aerial roots, not azo_001's buttress-rooted tree; sent from the page with no fix, so it cannot be placed",
+   "reason": "Not the trunk in azo_001's lead photograph: other_tree, held as doubt_location (coordinate is our pin).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -10069,8 +10877,8 @@
     "score": null,
     "note": "nothing measurable about European Beech (Fagus sylvatica)"
    },
-   "verdict": "hold",
-   "reason": "Viewed: A huge London plane, 10.7 km from the Hampstead beech it was tagged to: wrong tree. Kept as a lead for a new tree.",
+   "verdict": "publish",
+   "reason": "Duplicate main frame, but the reader's new close trunk view (extra 1) of Barney the Plane (lon_008) is in its strip.",
    "hidde": null,
    "agreed": null
   },
@@ -10952,8 +11760,8 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a strangler fig, not a Dipterocarpus, and the fix is 2.2 km from our pin.",
+   "verdict": "publish",
+   "reason": "Another tree than cnx_001 (other_tree); live as its own page chiang-mai/cnx_002.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -10992,8 +11800,8 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a weeping conifer, not a strawberry tree.",
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the weeping Atlas cedar in Glasnevin, the lead of dublin/dub_020.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -11111,8 +11919,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 454,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/bagni-di-lusnizza.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
    "hidde": null,
    "agreed": null
   },
@@ -11126,8 +11934,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Already live as a-coruna/acr_001 (verdict recorded 2026-11-17; the tree went up before tips were stubbed).",
    "hidde": null,
    "agreed": null
   },
@@ -11141,8 +11949,68 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Recorded as a lead (data/leads/mouriscas.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a Wikipedia source; Portugal is a focus country.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:707",
+   "seen": "2026-11-15",
+   "kind": "a tip without a photograph",
+   "tree": "71F93157-AEF9-41A4-AF61-E1AD9755F9B1",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row to sighting 71f93157, already rejected as a duplicate of the photograph that made lyt_001 (Lytham) live on 2026-11-15.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:691",
+   "seen": "2026-11-15",
+   "kind": "a tip without a photograph",
+   "tree": "24FDCCB3-A454-4556-8169-2BAD2FB36ABD",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "no_location: the app's companion row to a sighting no longer on the server; no place, coordinate, name or words, nothing to place or record.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:755",
+   "seen": "2026-11-15",
+   "kind": "a tip without a photograph",
+   "tree": "4DDFAF86-EDD9-4511-9136-381775BC1057",
+   "city": "Waipoua Forest",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Waipoua Forest, a tree we map: the app's companion row to a sighting since deleted; the same day's reader photographs of Tane Mahuta (wai_001) and Te Matua Ngahere (wai_002) are already on their pages. Nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:885",
+   "seen": "2026-11-15",
+   "kind": "a tip without a photograph",
+   "tree": "C7962FE1-14DB-407A-B62F-CFA617580655",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "no_location: the app's companion row to a sighting no longer on the server; only the words 'Ridiculously tall', no place, coordinate or name, nothing to place.",
    "hidde": null,
    "agreed": null
   },
@@ -13977,14 +14845,14 @@
    "agreed": null
   },
   {
-   "id": "lead:5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+   "id": "lead:034185b2-9235-4ae9-ba01-54b4fa02cdd4",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
-   "tree": "Black Mulberry in London",
+   "tree": "A tree I found",
    "city": null,
-   "species": "Black Mulberry",
-   "photo": "p_a2eecf296f5d8a35f0bd0bb2/5E81AF24-C36D-4B03-A6ED-92B1030CCCA3.jpg",
-   "reader_note": "Described as a veteran, with a protective fence",
+   "species": null,
+   "photo": "p_1a8a8ce31095ea76e414a9ad/034185B2-9235-4AE9-BA01-54B4FA02CDD4.jpg",
+   "reader_note": "",
    "reader_girth_cm": null,
    "coords": [
     null,
@@ -13995,12 +14863,24 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Black Mulberry"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: photograph viewed, a slender young tree alone beside a dirt road in Santander, Colombia, its small crown hung with moss or epiphytes; a good frame with a GPS fix, but a thin trunk and no name, age, girth or words to set it apart. A note from the reader would change it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1112",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "CAA9C183-3017-433B-A1CA-09E1CAA99BF3",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row (submission 1112, same coordinate 6.47771, -73.11742, same minute) to the Colombian roadside tree sent as sighting 034185b2, judged on its own lead; no words, nothing more to record.",
    "hidde": null,
    "agreed": null
   }

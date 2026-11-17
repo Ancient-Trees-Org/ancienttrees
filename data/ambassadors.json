@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-17T10:52Z",
+  "synced": "2026-11-17T18:24Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,15 +20,6 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "guimaraes",
-      "place_name": "Guimaraes",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -53,6 +44,15 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "vales",
       "place_name": "Vales",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "guimaraes",
+      "place_name": "Guimaraes",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -104,21 +104,21 @@
       "profile_public": true
     },
     {
-      "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
-      "place_slug": "edinburgh",
-      "place_name": "Edinburgh",
-      "public": true,
-      "since": "2026-11-15",
-      "display_name": "Joanne P.",
-      "profile_public": true
-    },
-    {
       "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
       "place_slug": "london",
       "place_name": "London",
       "public": true,
       "since": "2026-11-15",
       "display_name": "Golden Fig 0074",
+      "profile_public": true
+    },
+    {
+      "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Joanne P.",
       "profile_public": true
     },
     {
@@ -209,6 +209,15 @@
       "public": true,
       "since": "2026-11-17",
       "display_name": "Калоян Р.",
+      "profile_public": true
+    },
+    {
+      "user_id": "93021247-88bb-4324-b177-89875bc1a0e5",
+      "place_slug": "budapest",
+      "place_name": "Budapest",
+      "public": true,
+      "since": "2026-11-17",
+      "display_name": "daninegyeri",
       "profile_public": true
     },
     {
@@ -916,6 +925,156 @@
         "The Orroroo Giant Gum"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_689c4e2ff0c620317107e194",
+      "place_slug": "balmerino",
+      "place_name": "Balmerino",
+      "date": "2026-11-17",
+      "trees": [
+        "The Balmerino Abbey Chestnut"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_fa491d448dbf3f24e47cfa8b",
+      "place_slug": "bialowieza",
+      "place_name": "Białowieża",
+      "date": "2026-11-17",
+      "trees": [
+        "The Great Ash of the Bison's Rib Trail"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c2012de5624108c0f0e2806e",
+      "place_slug": "buenos-aires",
+      "place_name": "Buenos Aires",
+      "date": "2026-11-17",
+      "trees": [
+        "The Gomero of Plaza San Martín"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_48178e92fdea8f66a594fb70",
+      "place_slug": "castlemorton",
+      "place_name": "Castlemorton",
+      "date": "2026-11-17",
+      "trees": [
+        "The Leaning Black Poplar of Hancocks Lane"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f127bf781505453e3305184d",
+      "place_slug": "chattahoochee-national-forest",
+      "place_name": "Chattahoochee National Forest",
+      "date": "2026-11-17",
+      "trees": [
+        "The Gennett Poplar"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_15642ad760ce3bac3f536318",
+      "place_slug": "cusop",
+      "place_name": "Cusop",
+      "date": "2026-11-17",
+      "trees": [
+        "The Churchyard Yew of Cusop"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_697eb4a0c77311e0508c5fb0",
+      "place_slug": "dujiangyan",
+      "place_name": "Dujiangyan",
+      "date": "2026-11-17",
+      "trees": [
+        "The Temple Ginkgo of Dujiangyan"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5238fb7ee873711595db5e1d",
+      "place_slug": "francistown",
+      "place_name": "Francistown",
+      "date": "2026-11-17",
+      "trees": [
+        "The Monkey Thorn on the Riverbed"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a319dde81175eb8e4af7318f",
+      "place_slug": "jelasnica",
+      "place_name": "Jelašnica",
+      "date": "2026-11-17",
+      "trees": [
+        "The Open-Grown Oak of Jelašnica"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f54f27c5e506b597912db3c6",
+      "place_slug": "kununurra",
+      "place_name": "Kununurra",
+      "date": "2026-11-17",
+      "trees": [
+        "The Hollow Boab of Rowing Club Road"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a52c97c9ecd3468c7f9a998f",
+      "place_slug": "los-angeles",
+      "place_name": "Los Angeles",
+      "date": "2026-11-17",
+      "trees": [
+        "The Moreton Bay Fig by the White Mansion"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d08befbb4870fc0971e550d1",
+      "place_slug": "mangaluru",
+      "place_name": "Mangaluru",
+      "date": "2026-11-17",
+      "trees": [
+        "The Rain Tree of Bolar"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7a9ce110d7a1e1c831941fa0",
+      "place_slug": "north-berwick",
+      "place_name": "North Berwick",
+      "date": "2026-11-17",
+      "trees": [
+        "The Act of Union Beeches of North Berwick Law"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3e4f572d6989a515e5b7dacd",
+      "place_slug": "raesfeld",
+      "place_name": "Raesfeld",
+      "date": "2026-11-17",
+      "trees": [
+        "The Erler Femeiche"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e6628375ba1aea1573317fad",
+      "place_slug": "tilaran",
+      "place_name": "Tilarán",
+      "date": "2026-11-17",
+      "trees": [
+        "The Elephant-Trunk Fig of Tilarán"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -1182,6 +1341,13 @@
       "place_slug": "sofia",
       "place_name": "Sofia",
       "date": "2026-11-17"
+    },
+    {
+      "row": 1105,
+      "user_id": "p_a7a653264fa40e4cd5e46219",
+      "place_slug": "budapest",
+      "place_name": "Budapest",
+      "date": "2026-11-17"
     }
   ],
   "told": {
@@ -1327,7 +1493,8 @@
         "lis_035",
         "lis_036",
         "lis_037",
-        "lis_038"
+        "lis_038",
+        "lis_039"
       ],
       "since": "2026-10-06",
       "mailed": [
@@ -1341,6 +1508,12 @@
           "date": "2026-10-29",
           "trees": [
             "lis_038"
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "trees": [
+            "lis_039"
           ]
         }
       ]
@@ -1814,6 +1987,16 @@
         "syd_007"
       ],
       "since": "2026-11-16",
+      "mailed": []
+    },
+    "sofia": {
+      "trees": [
+        "sof_001",
+        "sof_002",
+        "sof_003",
+        "sof_004"
+      ],
+      "since": "2026-11-17",
       "mailed": []
     }
   }

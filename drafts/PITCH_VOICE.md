@@ -258,6 +258,21 @@ belongs in Helpful Details or nowhere.
 - NO: "Ook dank voor de tip over de terms-pagina: die link stuurde je inderdaad naar het boomformulier. Vragen gaan nu gewoon naar info@ancienttrees.app."
 - YES: "Dank voor de bug tip! Als het goed is werkt het weer."
 
+**asking a reader to do a check for us** (added 2026-11-17)
+
+- NO: "Could you have a look and tell us whether both are in the right place now?"
+- YES: "Is that right?"
+
+**an ask that expects the reader to go out to the tree** (added 2026-11-17)
+
+- NO: "A photograph of the ones that stand out to you, taken with the app at the tree, puts each on the map with its own pin."
+- YES: "If you are ever passing by and one of them catches your eye, a photo from the app would be wonderful. No pressure at all, of course."
+
+**blaming a platform rule for our own choice; and a mail three times longer than the ask** (added 2026-11-17)
+
+- NO: "Before a new app can go public, Google asks for a test round: a group of people uses it for 14 days."
+- YES: "We want to test it with a small group first."
+
 ## What to do instead, in order
 
 1. **First sentence: the reader or the world, never us and never the market.**

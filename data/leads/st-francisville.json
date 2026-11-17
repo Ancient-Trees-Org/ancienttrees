@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Cat Island Bald Cypress (reader's tip)",
+      "species": "Bald Cypress (Taxodium distichum)",
+      "coordinates": null,
+      "location_hint": "https://maps.app.goo.gl/xkt5UNRDC6CrBwo96",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "906"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader's source: americanpress.com 2022-11-20, a 1,500-year-old bald cypress in Cat Island National Wildlife Refuge; reader's girth 1650 cm. US, so FIRST_COUNTRY. Check refuge access (seasonal flooding). Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

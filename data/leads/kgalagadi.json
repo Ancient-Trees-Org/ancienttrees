@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Nossob Camel Thorn (reader's tip)",
+      "species": "Camel Thorn (Vachellia erioloba)",
+      "coordinates": null,
+      "location_hint": "Along the Nossob riverbed road, between Twee Rivieren and Nossob Rest Camp",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "943"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: the park's most photographed tree, sociable weaver nests across its branches. Location is a stretch of road, not a spot: needs a coordinate. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

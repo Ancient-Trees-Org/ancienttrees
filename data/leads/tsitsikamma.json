@@ -1,0 +1,17 @@
+{
+  "leads": [
+    {
+      "name": "Big Tree, Tsitsikamma (reader's tip)",
+      "species": "Outeniqua Yellowwood (Afrocarpus falcatus)",
+      "coordinates": null,
+      "location_hint": "2VMW+H4 Stormsrivier (plus code)",
+      "status": "lead",
+      "found_by_reader": {
+        "tip": "939"
+      },
+      "seen": "2026-11-17",
+      "reason": "Reader: an Outeniqua yellowwood of 600 to 800 years, about 37 m tall, a protected Champion Tree; reader's girth 900 cm. Needs two sources (or a register plus a life check) and a pin resolved from the reader's map link before it ships as a reader-found tree; nothing found against it."
+    }
+  ],
+  "blocked": []
+}

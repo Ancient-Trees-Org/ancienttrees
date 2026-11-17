@@ -1296,6 +1296,11 @@ def check_one_mail_route_rule():
     if a != b:
         out.append("the Yahoo list differs: mailer.py has %s, the hook has %s"
                    % (sorted(a - b) or "-", sorted(b - a) or "-"))
+    ts = ts_path.read_text(encoding="utf-8")
+    for d in ("privaterelay.appleid.com", "btinternet.com"):
+        if '"%s"' % d not in py or '"%s"' % d not in ts:
+            out.append("%s must go through Resend in both mailer.py and the hook "
+                       "(Apple's relay and BT bounce unsigned mail, 2026-11-17)" % d)
     for name in ("contributor_reply.py", "sightings_publish.py", "ambassador.py"):
         src = (root / "scripts" / name).read_text(encoding="utf-8")
         for call in re.findall(r"mailer\.connect\([^)]*\)", src):
@@ -4177,8 +4182,12 @@ def check_signed_in_is_never_asked_to_sign_in():
                     bad.append(f"{f.relative_to(ROOT)}:{i + 1} opens sign-in on a nil token without asking isSignedIn")
     coll = (ROOT / "site" / "src" / "lib" / "collection-js.ts").read_text(encoding="utf-8")
     sign = (ROOT / "site" / "src" / "lib" / "signin-js.ts").read_text(encoding="utf-8")
-    if "window.atRefreshing =" not in sign or "atRefreshing" not in coll:
-        bad.append("collection-js verify() no longer waits for signin-js's token renewal (window.atRefreshing)")
+    # The door can run BEFORE signin-js (a page that includes collection-js
+    # itself), so it must wait for the page to parse before reading the renewal.
+    if "window.atRefreshing =" not in sign or "atRefreshing" not in coll or "renewable()" not in coll \
+            or "DOMContentLoaded" not in coll:
+        bad.append("collection-js verify() no longer waits for signin-js's token renewal "
+                   "(window.atRefreshing, after the page has parsed)")
     return bad
 
 

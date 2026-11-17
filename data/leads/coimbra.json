@@ -138,7 +138,8 @@
    "species": "Coast Redwood (Sequoia sempervirens)",
    "lat": 40.3758,
    "lng": -8.36147,
-   "status": "lead",
+   "status": "held",
+   "hold": "[2026-11-17 write pass] Not written: the live Bucaco story of bsc_011 already says this second pair of redwoods stands by the ruined Ermida de Santo Elias off any path the forest maintains, and the verify pass could not say whether the register twins are bsc_010. Needs a Bucaco pass on access and identity, not a story.",
    "why": "[2026-11-16 verify pass] Register twins (girth 5.64 and 5.67 m, 45 m, 10 m apart) fall in Mata Nacional do Bucaco, which is its own published city (/bucaco); bsc_010 (Redwood of the Fonte de Santa Teresa, 170 m away, plaque 04 PBH 5.58 m) is the same species and girth class. Not a Coimbra candidate; whether the register twins are bsc_010 or separate trees is for a Bucaco pass."
   }
  ],

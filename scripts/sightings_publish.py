@@ -109,6 +109,15 @@ PROCESSED = os.path.join(ROOT, "data", "sightings-processed.json")
 LEADS = os.path.join(ROOT, "data", "leads", "_sightings.json")
 
 
+def _coded(path):
+    if not path:
+        return path
+    head, sep, tail = str(path).partition("/")
+    if not sep or people.is_ref(head):
+        return path
+    return people.ref(head) + "/" + tail
+
+
 def to_lead(entry, reason, today):
     """OTHER_TREE (Hidde, 2026-11-17: "1 route"): a photograph sent for one of
     our trees that shows a different tree is a reader's tree of its own, not a
@@ -125,7 +134,10 @@ def to_lead(entry, reason, today):
         "note": entry.get("note") or "",
         "latitude": entry.get("latitude"), "longitude": entry.get("longitude"),
         "near": entry.get("city"),
-        "photo": entry.get("photo_path"), "sign_photo": entry.get("sign_path"),
+        # Coded: the queue carries the raw storage path, whose first part is
+        # the account id, and this file is public (qa's reader-traces check
+        # stopped the push on four of these, 2026-11-17).
+        "photo": _coded(entry.get("photo_path")), "sign_photo": _coded(entry.get("sign_path")),
         "sign_file": entry.get("sign_file"), "extra_files": entry.get("extra_files") or [],
         "nearest_published_m": entry.get("distance_m"),
         "sent_for": entry.get("tree_id"),

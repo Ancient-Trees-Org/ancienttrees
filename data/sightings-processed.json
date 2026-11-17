@@ -4284,6 +4284,275 @@
   "5e81af24-c36d-4b03-a6ed-92b1030ccca3": {
    "outcome": "published",
    "date": "2026-11-17"
+  },
+  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "dub_020",
+   "city_slug": "dublin",
+   "pin_checked": "2026-11-17"
+  },
+  "fb383f1e-0383-4579-9603-21cca3aedd94": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mex_011",
+   "reason": "A standing dead Montezuma cypress with bleached split stems in Bosque de Chapultepec, 4 km from the San Fernando tree (which is alive with a 22 m crown): El Sargento, judged as a new tree.",
+   "city_slug": "mexico-city",
+   "pin_checked": "2026-11-17"
+  },
+  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cnx_002",
+   "reason": "A strangler fig whose roots have closed round boulders, beside a park path, 2.2 km from Wat Chedi Luang; not the yang na in the temple courtyard. Judged as a new tree.",
+   "city_slug": "chiang-mai",
+   "pin_checked": "2026-11-17"
+  },
+  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "mdb_001",
+   "city_slug": "maidstone",
+   "file": "mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af.jpg",
+   "reason": "Sent for the Ankerwycke Yew; GPS 0 m from the Baobab Plane (mdb_001). The main frame duplicates the lead, so the reader's new trunk view (extra 1) went into the strip.",
+   "lat": 51.2708666666667,
+   "lon": 0.537438333333333,
+   "pin_checked": "2026-11-17"
+  },
+  "9c93b205-3812-4c19-9040-a4efe3511170": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_008",
+   "city_slug": "london",
+   "file": "lon_008-barney-the-plane-9c93b205.jpg",
+   "reason": "Sent for the Hampstead beech; GPS 17 m from Barney the Plane (lon_008). The main frame duplicates the strip photo, so the reader's new close trunk view (extra 1) joined it.",
+   "lat": 51.4741966666667,
+   "lon": -0.231061666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "kan_003",
+   "reason": "A fine snow photograph of a big black pine in Kenrokuen with yukitsuri ropes, 95 m from our approximate pin, but it does not show the low branches over Kasumigaike pond that mark the Karasaki pine, and Kenrokuen holds hundreds of rigged pines (the Raised-Root Pine is 134 m away): the picture cannot "
+  },
+  "abb593f0-9a90-47cd-8138-1040de6f803c": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "azo_001",
+   "reason": "doubt_location"
+  },
+  "017db4cf-3739-467d-986a-cb2f811ab0a1": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "bng_001",
+   "city_slug": "richard-bong-state-recreation-area",
+   "file": "bng_001-the-rhodes-bald-cypress-017db4cf.jpg",
+   "reason": "The whole tree in winter snow, tall bole and bare conical crown; now the lead, the sign close-up moves to the strip.",
+   "lat": 42.64496,
+   "lon": -88.12943,
+   "pin_checked": "2026-11-17"
+  },
+  "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cai_001",
+   "city_slug": "cairo",
+   "pin_checked": "2026-11-17"
+  },
+  "0b4c9e0a-916e-4f6c-a11c-d6850563f822": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_003",
+   "city_slug": "london",
+   "file": "lon_003-the-cheapside-plane-0b4c9e0a.jpg",
+   "reason": "The Cheapside Plane in full leaf behind the churchyard railings at the corner of Wood Street and Cheapside, daylight and colour; the reader's GPS fix is at the corner the story names. Species seen: London plane: mottled flaking bark, big burrs on the trunk, maple-shaped leaves in a tall open crown. ",
+   "lat": 51.5140442876628,
+   "lon": -0.0948811322451522,
+   "pin_checked": "2026-11-17"
+  },
+  "58efdc92-c382-4b03-b495-c53f027b4e58": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mkn_003",
+   "city_slug": "milton-keynes",
+   "pin_checked": "2026-11-17"
+  },
+  "4ea907d1-6637-4070-aa8a-9a9d66a71f91": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mkn_003",
+   "city_slug": "milton-keynes",
+   "pin_checked": "2026-11-17"
+  },
+  "e7f5f503-48a4-457e-bd7d-1cedae177b2d": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "rkm_001",
+   "city_slug": "rumskulla",
+   "file": "rkm_001-rumskullaeken-the-kvill-oak-e7f5f503.jpg",
+   "reason": "The Kvill Oak whole in late summer: the vast hollow, burred trunk inside its ring of stones and chain, steel bands round the stem, mostly bare dead limbs with one leafy side, a person beside it for scale; daylight, colour. A different season and a scale the current lead lacks. Species seen: Oak: dee",
+   "lat": 57.6842616666667,
+   "lon": 15.7345333333333,
+   "pin_checked": "2026-11-17"
+  },
+  "d73aaf2c-6f0c-4822-8e89-2989f918c04c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "eke_001",
+   "city_slug": "ekero",
+   "file": "eke_001-ekebyhovseken-d73aaf2c.jpg",
+   "reason": "Ekebyhovseken alone in a snowy meadow, the whole massive trunk and its broken, thinned crown against a grey sky, red farm buildings behind; daylight. Unique to a reader, winter. Species seen: Oak: rugged furrowed bark, twisting bare oak branching. Fits the description: a short, enormously thick trun",
+   "lat": 59.2797916666667,
+   "lon": 17.8194616666667,
+   "pin_checked": "2026-11-17"
+  },
+  "64d7a378-7c5e-4efd-b445-7e1b22ec2ea9": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "eke_001",
+   "reason": "Duplicate: the same photographs as d73aaf2c, sent twice by the same reader; that one goes on the page."
+  },
+  "84c4d953-69b3-4eda-a5ed-32894e25217a": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "sev_009",
+   "reason": "Photograph viewed: an all-black frame, no tree visible, taken in the Netherlands nearly 1,900 km from Seville by one of our own accounts (a test). Bad frame."
+  },
+  "7b889995-25da-415c-8c05-afc5a69bfe79": {
+   "outcome": "held",
+   "date": "2026-11-17"
+  },
+  "c4a7a901-5433-4336-8cd7-e4317741aa2e": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "245ad026-de3b-4672-ad13-169d734721ea": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "gen_019",
+   "city_slug": "geneva",
+   "file": "gen_019-the-himalayan-cedar-of-parc-mon-repos.jpg",
+   "reason": "Photograph viewed: one large cedar filling the frame on open lawn in a lakeside park at dusk, the lake and far shore behind; 39 m from our pin. The tree had no photograph. Species seen: a cedar: tiered dense blue-green needle sprays, broad conical crown, single straight bole. Fits the description: a",
+   "lat": 46.2179641318101,
+   "lon": 6.15102367525372,
+   "pin_checked": "2026-11-17"
+  },
+  "58c34b47-f563-460c-8fa7-e0b5e461b974": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "gen_012",
+   "city_slug": "geneva",
+   "file": "gen_012-the-s-cheron-plane.jpg",
+   "reason": "Photograph viewed: a very large plane with a massive short bole and a spreading crown still holding brown autumn leaves, on the lakeside promenade with the water behind; 28 m from our pin. The tree had no photograph. Species seen: plane: mottled pale bark on the limbs, palmate brown leaves, broad do",
+   "lat": 46.2176698497893,
+   "lon": 6.15127223932064,
+   "pin_checked": "2026-11-17"
+  },
+  "f8c010fc-a646-477e-b1f8-dc71c5562eec": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "knk_001",
+   "city_slug": "kanker",
+   "pin_checked": "2026-11-17"
+  },
+  "0305569a-654f-4bb4-9818-a071e602650b": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "bnm_001",
+   "city_slug": "bangor-maine",
+   "pin_checked": "2026-11-17"
+  },
+  "62e38d75-fb0b-4430-b3dc-791865129b6c": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "sor_001",
+   "city_slug": "soreze",
+   "file": "sor_001-the-multisecular-beech-of-saint-jammes.jpg",
+   "reason": "The whole beech from the grass: a short massive fluted trunk opening into great sinuous grey limbs, one long limb carried on two steel props, a light post-and-wire fence behind, leaves turning, a walker beside the trunk for scale. Daylight, colour; first photograph of this tree. Species seen: smooth",
+   "lat": 43.435164,
+   "lon": 2.112753,
+   "pin_checked": "2026-11-17"
+  },
+  "20dc8d53-91c1-4087-963b-583bb1d5d7ce": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "sor_001",
+   "city_slug": "soreze",
+   "file": "sor_001-the-multisecular-beech-of-saint-jammes-20dc8d53.jpg",
+   "reason": "The same beech in fog from further back: the whole wide crown, a steel prop under a limb, the light fence in front and low ruined stone walls of the chapel to the right. Same sender, a second view that shows the setting; behind the lead. Species seen: beech crown in autumn, smooth grey limbs, last b",
+   "lat": 43.435164,
+   "lon": 2.112753,
+   "pin_checked": "2026-11-17"
+  },
+  "1894f450-f71e-4d35-88be-6bcdcd874dfa": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_030",
+   "city_slug": "london",
+   "file": "lon_030-the-gunnersbury-park-black-mulberry-1894f450.jpg",
+   "reason": "Close-up of the mulberry's leaves on a low branch over the grass; belongs in the gallery, not as the lead. Species seen: deeply lobed, coarsely toothed, rough-surfaced leaves typical of a vigorous black mulberry shoot. Fits the description: branches running low over mown grass, as on the fallen V-sh",
+   "lat": 51.49928,
+   "lon": -0.28727,
+   "pin_checked": "2026-11-17"
+  },
+  "ac111c30-e0ed-48a7-aa1b-4315ca5a2db0": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_030",
+   "city_slug": "london",
+   "file": "lon_030-the-gunnersbury-park-black-mulberry-ac111c30.jpg",
+   "reason": "Close-up of the mulberry in flower in spring, gnarled branches behind; belongs in the gallery, not as the lead. Species seen: heart-shaped serrated leaves with mulberry female flower clusters (fuzzy styles) on stubby spurs. Fits the description: a tangle of old twisting branches behind, the squat cr",
+   "lat": 51.49928,
+   "lon": -0.28727,
+   "pin_checked": "2026-11-17"
+  },
+  "b18f5e71-a6f9-41db-869c-743e0c0ce388": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_030",
+   "city_slug": "london",
+   "file": "lon_030-the-gunnersbury-park-black-mulberry-b18f5e71.jpg",
+   "reason": "The whole recumbent mulberry in spring leaf: the gnarled trunk lying along the grass with branches rising straight up from it. The shot that shows what the page describes. Species seen: heart-shaped, coarsely toothed fresh mulberry leaves on twisting pale branches, burred fissured bark. Fits the des",
+   "lat": 51.49928,
+   "lon": -0.28727,
+   "pin_checked": "2026-11-17"
+  },
+  "a469122c-0c06-4206-afd9-9574a7dc67ab": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_030",
+   "city_slug": "london",
+   "file": "lon_030-the-gunnersbury-park-black-mulberry-a469122c.jpg",
+   "reason": "Close-up of a young shoot with a green fruit spike, the fallen trunk blurred behind. Belongs in the gallery behind the lead. Species seen: broad ovate serrated mulberry leaves with an unripe catkin-like fruit cluster. Fits the description: a low branch over grass with the recumbent trunk lying on th",
+   "lat": 51.49928,
+   "lon": -0.28727,
+   "pin_checked": "2026-11-17"
+  },
+  "3c48f8df-d5a1-41f7-9678-193a214eab1c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "wdc_004",
+   "city_slug": "washington-dc",
+   "file": "wdc_004-the-national-mall-jefferson-elm-3c48f8df.jpg",
+   "reason": "A tall American elm in full leaf filling the frame, daylight and colour, standing on the Mall lawn by the gravel walk with the Natural History Museum dome across the green: the Jefferson Drive side, where our record puts it. A reader's own photograph, so it leads and the Commons-style iNaturalist pi",
+   "lat": 38.889,
+   "lon": -77.0273,
+   "pin_checked": "2026-11-17"
+  },
+  "tip-1111": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "84674aa7-4088-4a3e-a918-5954d2bbd0c6": {
+   "outcome": "other_tree",
+   "date": "2026-11-17",
+   "tree_id": "brn_008",
+   "reason": "a big plane on an open park lawn with sunbathers in summer leaf, no town hall building, hedge or pavement in frame; the Baarn town hall plane stands on a small lawn right against the office building. Sent from our own account (mine)."
+  },
+  "034185b2-9235-4ae9-ba01-54b4fa02cdd4": {
+   "outcome": "held",
+   "date": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

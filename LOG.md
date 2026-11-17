@@ -19,6 +19,175 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Ratchet**: FlowWalk `theKeyboardLeavesTheFieldInView` (also asserts portrait) and `aPlaceFromDiscoverSearchKeepsTheMenu`, both shown red with the fault put back; two escaped-bug rows closed with them. RELEASE_CHECKLIST.md "Every build" now has the three passes a session runs before Hidde tests a build (test-account walk incl. sending and cleanup; small old phone, big text, no network; screen pairs + app-level settings).
 - **Test account**: a walk sent a real collect, a new tree and a note, then removed them; what the app could not remove (one sighting, submission 1110, four files) was removed by id, and the profile set back to private.
 - **Open, not done**: offline town search says "check the spelling" on both apps; notes say "No notes yet" offline; Discover's visitor shelf does not reload when the network returns; debug builds read the catalogue in 17 to 50 s on a loaded emulator (release on the S21 is quick, not measured on a cheap phone); CI walk on PR 64 to be read again.
+## 2026-11-17 reader judge: a Colombian roadside tree held
+
+- **Held `not_special`: sighting 034185b2** (app, GPS 6.4777, -73.1174, Santander, Colombia). Photograph viewed: a slender young tree alone by a dirt road, its small crown hung with moss. A good frame, but sent as "A tree I found" with no words, and nothing marks it as old or big. A name, age or story from the reader would change it. Tip 1112 is the app's companion row for the same photograph and is closed as a duplicate.
+- This run also judged the Sofienbergparken horse chestnut (tip 1111), but an earlier run had already published it as osl_005, so that part was dropped at the rebase. No open reports, no unhandled feedback, no reader words waiting.
+
+## 2026-11-17 session: BT refuses our sign-up mail through Gmail
+
+Breakage: a reader who signed up at 18:45 UTC with a btinternet.com address never got in. Their welcome mail (with the confirm link) went through Gmail as info@ and BT answered "550 User unknown". Hidde's own Gmail mail to the same address at 20:18 UTC was taken, with no bounce. So the address is real and BT refuses mail that is unsigned for our domain, as Apple's relay did this afternoon. Four other BT accounts confirmed on 11-15, so BT does this only some of the time. Fix: btinternet.com, btopenworld.com and talk21.com join `SIGNED_ONLY_DOMAINS` in scripts/mailer.py and in the hook, and qa's `check_one_mail_route_rule()` holds btinternet.com. LIVE in the hook since 20:33 UTC: send-email v6 deployed with a fresh 7-day token Hidde made (it carries this afternoon's Apple relay line too, which had waited for a redeploy). Tested: a signed test welcome to our own Gmail alias arrived, an unsigned call is refused (401), the hook is still switched on. Not tested: a real BT inbox (we have none). Sent with Hidde's yes: a fresh sign-in link with an apology to that reader, through Resend only (batch `bt-signin-resend`).
+
+Every bounce since 11-15 checked again (Hidde: "ga die ook nog maar eens na"), each against Supabase: ours were Yahoo's servers (fixed 11-16, resent), Apple's relay (fixed and resent today) and BT (above). Theirs, proven: outlook.co and a misspelt gmail.com address (both people signed up again correctly within minutes and are in), hoymail.com (no mail server at all, a typo of hotmail; that person never came back), a Google account whose own domain no longer exists (they sign in through Google, only our mails miss). Since the hook went live, Yahoo-family sign-ups confirm 4 of 6, others 71 of 80: no sign of a further fault, too few to be sure. Resend's delivery log cannot be read with our key (send-only).
+
+For Hidde: 9 Yahoo-family sign-ups from 11-15/16 are still not in, after our two mails failed them. drafts/signin-sorry-yahoo-2026-11-23.md is one last apology with a working link, sendable from Monday 2026-11-23 (week's rest); it goes on your yes only. Hidde asked on 11-17 to be reminded in a day. Who: email sign-ups on Yahoo's servers (`YAHOO_FAMILY`) created 11-15 to 11-16 10:40 UTC and still unconfirmed on the day, picked fresh from Supabase (out/tmp/yahoo_after_fix.py shows them). How: a fresh magic link each (generate_link, redirect /account), Resend only, logged in data/outreach-sent.json, as out/tmp/bt_signin_link.py did for the BT reader. One mail each, never a second. Subject: "Your Ancient Trees sign-in link".
+
+## 2026-11-17 reader judge: a reader's horse chestnut live in Oslo
+
+- **Oslo (osl_005, the Low-Armed Chestnut of Sofienbergparken)**: a reader sent this tree through the website, with a photograph and the park's name. The photo shows a horse chestnut with a leaning dark trunk and long crooked limbs that sweep out almost to the ground, in daylight. It is somewhat special, so it went live under the closed list. There was no GPS fix, so the pin marks the park (approximate) and the story says so. Their age of 150 to 168 years is given as their estimate. It fits the park's history (a cemetery from 1858, turned into a park from 1918), but no record names the tree. The photo has no date and shows no snow, so no month was set. Oslo now has five trees. The congratulation mail goes with the next knock.
+- **Baarn (brn_008)**: a photograph sent as the Town Hall Plane came from one of our own accounts (`mine`). It shows a plane on an open park lawn with no building, so it is a different tree. The verdict is `other_tree`, and the lead is held as `doubt_location` because its coordinate is our own pin. Nothing was published.
+- No open reports, no feedback without a verdict, and no reader words to quote.
+
+## 2026-11-17 session: Google Play listing set up, nothing uploaded yet
+
+- **For Hidde, later: the waitlist test mail is agreed and waits for the build.** Text and plan in drafts/android-test-invite.md: two waves (about 200 newest Gmail addresses the day Google approves the first closed-test build, the other ~1,700 a few days later), "We expect a live version in 3 to 4 weeks", sent only on his "verstuur". Next step is his go for the rebuild and his upload of the .aab. Lesson recorded in PITCH_VOICE.md: say we want to test, never blame Google's rule.
+- **Play test setup done the same evening**: closed test "Alpha" in all 178 countries, tester list "Ancient Trees testers" with the 50 newest Gmail addresses from the waitlist (Play refused 100 and 200 in one save, no reason given; details and next step in the draft), list "Ancient Trees team" (Hidde) on both the closed and the internal test, feedback to info@. The join link https://play.google.com/apps/testing/app.ancienttrees.android is in the mail; it works once Google approves the first build. Store tags: Maps and navigation, Travel guide, Travel and local, Science education (Play has no nature or walking tag). The publishing overview shows nothing else open: everything left is locked until the first .aab is uploaded.
+
+- **Play Console, with Hidde**: phone verified on his Samsung (Play Console app), app created (`app.ancienttrees.android`, en-GB, free). All eleven setup tasks done: privacy policy, sign-in details, ads, content rating, audience 16+, Data safety (crash logs added, PostHog since 11-16), government, financial, health, category Travel & Local, contact info@ancienttrees.app and https://ancienttrees.app.
+- **Reviewer account**: Google's reviewers may not create accounts, so Hidde made a Gmail for them and its Supabase account exists (profile private, in data/our-accounts.json, so it never counts as a reader). Its address and password are in Play Console > Sign-in details only.
+- **Store listing in nine languages** (en-GB, en-US, nl, de, fr, es, it, pt-PT, ja): the iPhone's name and text, plus one paragraph and a longer season line that carry the iOS keyword field, because Play has no keyword field and indexes the description (drafts/play-store-listing.md). Icon and feature graphic labelled as made with AI (Hidde: the logo tree is AI-made).
+- **Screenshots**: scripts/play_frames.py dresses the Android screens like the App Store's (cream ground, his captions, his opener photo, an Android phone running off the bottom, 1080x1920). Five panels on Play. The screens themselves are from 2026-11-11: play_shots.py could not run today (his Samsung and two emulators attached, one in use by the debugging session); retake before production.
+- **Status**: everything "ready to send for review"; nothing is public until a release goes out. **Next**: rebuild the .aab with today's fixes, upload to the closed test (Google-generated signing key), then the Play App Signing SHA-256 into assetlinks.json. Testers: 1 of 12 (`python3 scripts/android_testers.py`).
+
+## 2026-11-17 daily publish
+
+- **Daily publish: queue empty.** The two builders newer than the last check (build_write_2026_11_17, ten app-only trees; build_reader_trees_2026_11_17, eleven reader trees) are already on main, and neither counts against the pace. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
+## 2026-11-17 reader judge: a reader's photograph now leads the Jefferson Elm in Washington
+
+- **Washington DC (wdc_004)**: a reader sent a daylight summer photo of the National Mall Jefferson Elm. It shows the full crown on the Mall lawn, with the Natural History Museum dome across the green. The species and setting match our record. It is now the lead photograph (`add`), and the iNaturalist picture moved into the strip. The reader got the "on the page" mail. The pin stays approximate because the photo's coordinate was our own pin, not a GPS fix. The file has no date and shows green leaves, so no month was set.
+- No open reports, no feedback without a verdict, no tips to judge, and no reader words to quote. The 37 waiting leads in _sightings.json are our own (`mine`), as before.
+
+## 2026-11-17 reader judge: the five photo-less tips settled, nothing new live
+
+- No product change. No reader photographs waiting, no open reports, no open feedback, and reader_words lists nothing to quote.
+- The five tips (1102, 885, 755, 691, 707) now have verdicts. None of them was a photograph waiting to be fetched: each is the app's companion submission row for a sighting that no longer exists on the server, so no photograph can ever arrive. 755 (Waipoua Forest) is our Tane Mahuta and Te Matua Ngahere, whose reader photographs from that day are already on wai_001 and wai_002 (`publish`, nothing to add). 707 duplicates the photograph that made lyt_001 (Lytham) live (`hold`). 691, 885 ("Ridiculously tall") and 1102 have no place, coordinate or name, so there is nothing to place or record (`hold`, no_location).
+- Not reader work: the 37 waiting leads in _sightings.json are our own photographs (`mine`) or have no photograph at all (fetch_waiting_photos `--count` is 0).
+
+## 2026-11-17 reader judge: the fallen Gunnersbury mulberry, whole, from a reader
+
+- Live: two more photographs from the same reader of the Gunnersbury Park Black Mulberry (lon_030). The wide one shows the whole tree as the page describes it, the trunk lying along the grass with branches rising straight up, and went on as `add`. The close-up of a young shoot with a green fruit spike went into the gallery behind the lead (`strip`). Species and description both checked against the photographs. The pin did not move: these came from the web page and carry our own pin, not a GPS fix.
+- Notes: seven new notes on trees read. One ("bla test" on the Glorieta de Goya fig) hidden as a test line; the other six stay (Amsterdam, Balmerino, Ferrara, Bologna, Finsbury Circus, Stow-on-the-Wold). reader_words lists nothing waiting.
+- Repaired: the previous run's push had stopped mid-rebase on a timestamp conflict in data/ambassadors.json. That is resolved and its commit carried over. The intake's autostash clashed in data/judgements.json, so the stubs were rewritten from upstream.
+- Still waiting: the same five photo-less tips (1102, 885, 755, 691, 707). Their photographs are still not on this machine, so they were not judged blind. The 37 waiting leads in _sightings.json are our own (`mine`). No open reports and no open feedback.
+
+## 2026-11-17 session: Baarn sequoia story no longer says dog walkers
+
+A reader who knows the park (Hidde's mother) said dogs are not allowed in the Cantonpark. The giant sequoia's story said the trees "share a lawn with dog walkers"; it now says "with anyone who walks in off the street". English only, Baarn has no translation.
+
+## 2026-11-17 reader judge: two mulberry photos in the gallery, 12 tips recorded as leads
+
+- Live: a reader's two close-ups of the Gunnersbury Park Black Mulberry (lon_030), one of its leaves and one of it in spring flower, are in the tree's gallery behind the lead (`strip`; mulberry leaf and flower checked against the species; the lead stays). Mail to the reader sent by sightings_publish.py. The pin did not move: the photographs were sent from the web page and carry our pin, not a GPS fix.
+- Tips without a photograph, 12 named trees: recorded as leads with the reader's words and map links, verdict `lead`. Heidelberg (Arboretum 1 sequoia, Romantik-Eiche, Holdermanns-Eiche), Ho Chi Minh City banyan, Alerce Costero (Fitzroya), Cat Island bald cypress (US), Arderne Gardens fig (Cape Town), Tsitsikamma Big Tree, Nossob camel thorn, Bagni di Lusnizza oak, the Mouchao olive (Portugal) and a map link for the held Castagno Miraglia. None shipped here: each needs sources and a resolved pin, which is a verify pass, not this run. The Cat Island cypress (US, press source named) and the Mouchao olive (Portugal, Wikipedia) are the cheapest.
+- Still waiting: five tips named only by an app photo id (1102 Maine, 885 Tasmania, 755 Waipoua, 691 Gisborne area, 707 near Southport). Their photographs are not on this machine, so they were not judged blind; 707's sighting was rejected before. The 37 waiting leads in data/leads/_sightings.json are all our own (`mine`) photos, so they are not readers' trees. No open reports, no open feedback, no reader words to quote.
+
+## 2026-11-17 session: Apple relay mails bounced, now through Resend
+
+Breakage: since the 11-16 route split, mails to Sign in with Apple addresses (@privaterelay.appleid.com) went through Gmail, unsigned for our domain. Read from his Sent folder and bounces: about 30 went that way and 5 bounced "user not found", all from the reader judge's run at 17:19 UTC today (one of those addresses had taken a Gmail mail on 11-16), against none of 33 through Resend before. So Apple refuses unsigned mail some of the time. The 5 were resent unchanged through Resend only and logged (batch `apple-relay-resend`). Fix: scripts/mailer.py sends those addresses through Resend like Yahoo (`on_apple_relay()`), the Supabase hook has the same line (only matters on its next paste; Apple users never get its sign-in mails), qa's `check_one_mail_route_rule()` holds both. Load on Resend: 10 to 24 a day of its 100. Deploy: the afternoon failures were the Dublin cedar's "a page of its own", fixed 17:27 by a run; deploy 44138841637 running.
+
+## 2026-11-17 night run, third attempt: 0 trees, Guimaraes a wall
+
+- READY shelf empty (0). Guimaraes verify (4th deepen pass): its 12 near register rows fold into gui_001 to gui_010, the rest are 15 to 19 km out in other concelhos. Lead logged: Ermal oak, Vieira do Minho (6.48 m girth, 313 y), for a Braga-region pass if access and transport are sourced. Claim released, wall 48h.
+- Translations stay paused (TRANSLATIONS_OUT). Next: Zurich register BUILD, or new reader trees reopening walled cities.
+
+## 2026-11-17 night run, later attempt: 0 trees, shelf and staged cities empty
+
+- Write shelf empty (see the write pass below). Verify passes: San Francisco (10th, nothing new) and Frankfurt (no register, 2 leads kept, nothing verified). Graz and Nuremberg claimed and released: under a quarter of their leads have a coordinate. All four are walls for 48h; Portland is full.
+- Next: Zurich register BUILD (23 unjudged rows) or a register scout. A new reader tree or register is what reopens San Francisco.
+
+## 2026-11-17 write pass: nothing to write, no trees shipped
+
+- **No trees shipped.** `passcheck.py --pending` lists only nine unpublished trees. The suggested US and UK files (new-york-3 and -4, wisconsin, washington-dc-2, the Boston files, wales-yews, somerset-dorset-yews, southeast-england-yews) are all fully published already. Every one of the nine was held by an earlier pass for a reason this pass cannot clear without new research: brd_001 Brindisi figs and frk_027 Frankfurt mulberry (no public entry or viewing place, hard rule 10), inn_007 Innsbruck lime (probably in a private yard), not_002 Noto carob (nobody knows who owns the land), det_001 and det_002 Detroit Elmwood (no coordinate in an 86-acre cemetery), nyc_031 Saratoga Park oak (only a park-level pin, no recognition line), and sfo_012 (the same tree as live sfo_004, to be folded in by enrichment). bri_017 in bristol-verified.json has the same name as the live bri_017 and is the same chestnut, so it is not a new tree.
+- **Coimbra's one READY lead** (the two Buçaco sequoias at the Ermida de Santo Elias) is now `held` in data/leads/coimbra.json. The live bsc_011 story already says that pair stands off any path the forest maintains, and the verify pass could not tell whether it is bsc_010. It needs a Buçaco pass on access and identity. READY is now 0.
+- **What a write pass needs next**: a verify pass to fill the shelf (US and UK first), or a Detroit Elmwood pin from the cemetery's tree-tour maps, which would let det_001 and det_002 ship as they are already written.
+
+## 2026-11-17 reader judge (twelfth pass): a reader's photographs are the first on the Saint-Jammes beech
+
+- **soreze/sor_001, The Multisecular Beech of Saint-Jammes**: a reader sent two photographs from the tree's web page, and the tree had none until now. The lead is the whole beech in autumn leaf, its long limb on two steel props, with a walker beside the trunk for scale. The second photograph, the same tree in fog with the chapel ruins beside it, is in the strip. Now that the page has reader content it can be indexed, so its one colon-reveal sentence ("which is rather the point:") is rewritten. The photo-live mail is queued.
+- **Bangor and Kanker**: this run judged the same two trees as the eleventh pass, which pushed first, so its bnm_001 and knk_001 stand. My copy of the Bangor tree was dropped. On Kanker I would have held the tree as `not_special`: it is a straight forest trunk about half a metre across, no bigger than its neighbours, with no note from the reader. That is a difference in judgement, not an error, and the tree stays live.
+- **preflight**: `check_a_readers_age_reaches_the_page` now skips "Unknown", "not sure" and similar answers in a reader's age field, so a run no longer has to clear the reader's own field to pass.
+- **Still open**: the same 17 photo-less tips.
+
+## 2026-11-17 night run (window 17:18 UTC): rung 1 then rung 2
+- **Saint-Jammes beech**: the twelfth reader-judge pass published the same two photographs while this run judged them, so this run's copy was skipped in the rebase.
+- **Build fix:** the last deploy failed QA on the Dublin Weeping Cedar Tunnel story ("so it has a page of its own", our publishing rule shown to the reader); rewritten. The Sorèze colon reveal rewritten too.
+- Not reached: 16 tip rows without a photograph still wait for a verdict (health.py LATE), the open BUG rows in data/code-audit.json and the WebGL web error.
+
+## 2026-11-17 reader judge (eleventh pass): readers' trees live in Bangor, Maine, and Kanker, India
+
+- **bangor-maine/bnm_001, The White Pine at the Orono Bog Boardwalk** (sighting 0305569a): a huge twin-stemmed eastern white pine beside the trailhead kiosk in the Bangor City Forest. The pin is the reader's GPS fix (confirmed), and the story quotes their note ("strikingly large"). This is a new US place, so `bangor-maine` is added to data/us-states.json. The app's age field held the word "Unknown", which is not an age, so it was cleared on the lead.
+- **kanker/knk_001, The Tall Tree on the Kanker Forest Track** (sighting f8c010fc): a ruler-straight forest tree in Chhattisgarh with a person at its foot for scale. The species is not established and the page asks readers to name it. Access is honest: the forest manager is not confirmed. India is out of focus for our own research only, never for a reader's tree.
+- This run also judged the Quito pine and orange, and reached the same verdicts as the tenth pass, which pushed first. Its uio_001 stands, and this run's copy was dropped in the rebase.
+- Both new places have one tree each, so they get no place page. Congratulation mails go out on the next knock. There were no open reports and no feedback without a verdict, and reader_words had nothing new. **Still open**: the 17 photo-less tips (newest 1102, 1065, 1061 to 1063 Heidelberg, 1032), which need a source check that would not fit in this run. The older (September and October) Japanese and Dutch leads have no photograph on this runner, so they were not judged again.
+
+## 2026-11-17 reader judge (tenth pass): a many-stemmed pine opens Quito
+
+- **New tree, quito/uio_001, The Many-Stemmed Pine of La Pradera** (sighting c4a7a901): a pine that splits low into five or more straight stems and rises into one tall crown at the pavement edge. A second frame looks up the stems and is in the strip. The species (Monterey pine) and the 450 cm girth are the reader's, stated as theirs. While adding the tree, the reader moved its pin 91 m south of the app's fix, which had landed on an apartment block, to La Pradera street by the FLACSO campus. We took their placement because it is their own tree, kept it `approximate`, and recorded the site from OpenStreetMap. Quito is a new one-tree place: it has its intro, question fields and three FAQ, and no place page.
+- **Held `not_special`: the orange tree beside it** (7b889995): a healthy, ordinary street orange in fruit. The pine behind it is the tree worth the walk, and that one is now live.
+- **Reports 1000073 and 1000074** were the pin moves the same reader made while adding those two trees. Both are closed `holds` with no mail, per the brief: their congratulation comes with the tree.
+- **Geneva**: this run judged the same two photographs as the ninth pass, which pushed first, so its version stands. On top of it, the two colon sentences in gen_019 are now also rewritten in the French overlay.
+- No feedback was open, and reader_words found nothing. **Still open**: the 16 photo-less tips from the fourth pass.
+
+## 2026-11-17 reader judge (ninth pass): first photographs for the Geneva cedar and plane
+
+- **geneva/gen_019, the Himalayan Cedar, and geneva/gen_012, the Sécheron Plane**: one reader photographed both at dusk by the lake, 39 m and 28 m from our pins. Neither page had a photograph, so these now lead. Two colon reveals in gen_019's story were rewritten, because the check reads a page once it has a photo. The pin catch-up hit an HTTP error, so the next knock moves the pins. The reader's "it is on the page" mail is pending in data/photo-live-mailed.json.
+- This run judged the Milton Keynes apple row, the Kvill Oak and Ekebyhovseken photographs and feedback 1092 as well. The eighth pass pushed first, so its work stands and this run's copies were dropped in the rebase. **Still open**: the 16 photo-less tips. Four of their stubs (707, 691, 755, 885) carry a sighting UUID as the tree name: 707 is sighting 71f93157, already judged, so they look like app bookkeeping rows rather than tips.
+
+## 2026-11-17 reader judge (eighth pass): an apple row in Milton Keynes goes live; readers' photographs now lead the Kvill Oak and Ekebyhovseken
+
+- **New tree, milton-keynes/mkn_003, The Leaning Apple Row of Linford Wood** (sighting 4ea907d1, the same photograph also sent as 58efdc92 from 40 m along the path, so one entry): a line of old apple trees beside a public paved path off Foxhunter Drive (place from OpenStreetMap). Their trunks are grey, split and hollowed and all lean out over the path. The pin is the reader's GPS fix (confirmed). The story quotes their note ("possibly Bramley") as their own. There is no age, girth or source. Milton Keynes now has three trees, and its intro names the row.
+- **Kvill Oak (rumskulla/rkm_001)**: a second reader's late-summer photograph, with a person for scale, is added and now leads the page. The earlier reader's photo moves to the strip.
+- **Ekebyhovseken (ekero/eke_001)**: a reader's photograph of the whole trunk in a snowy field (February 2019) now leads the page in place of the Commons photo, which moves to the strip. The second copy (64d7a378) was the same file and is rejected as a duplicate.
+- **Feedback 1092** (an app user asking how to follow uploaders, edit a sent description and tag seasons): closed `needs_hidde`. The draft is drafts/reply-reader-1092-2026-11-17.md. One point is checked (the app has no season control, the date sets it); the other two are marked to check before any reply.
+- Seville sev_009 (84c4d953): the seventh pass rejected it (an all-black test frame from our own account); its verdict stands.
+- No open reports, and reader_words found nothing.
+- **Still open**: the same 16 photo-less tips as the fourth pass, for the reasons given there. None names a tree we already map. The pin catch-up hit an HTTPError again, which has no effect because every pin involved is a confirmed GPS fix.
+
+## 2026-11-17 reader judge (seventh pass): one test frame rejected
+
+- **seville/sev_009** (sighting 84c4d953): rejected. The frame is all black, taken in the Netherlands by one of our own accounts, so it was a test. The sixth pass had already handled Cheapside, so this run kept main's version of that work.
+- No reports or feedback were open, and reader_words found nothing. **Still open**: the 16 photo-less tips. Several name well-sourced trees (Castagno Miraglia, the Mouchão olive, the Lusnizza oak in the MASAF register, the Cat Island cypress, Tsitsikamma, Arderne Gardens, the Heidelberg Arboretum 1 sequoia). Writing them takes a story pass, which does not fit a reader-judge window.
+
+## 2026-11-17 reader judge (sixth pass): the Cheapside Plane's pin is on its corner now, and a reader's photograph leads its page
+
+- **The Cheapside Plane (lon_003)**: a reader sent a photograph through the app showing the tree in full leaf behind the churchyard railings, in daylight. It was added and now leads the page. The same reader reported "wrong location" (1000072, "Corner of wood street and cheapside"), and they were right. Our "confirmed" pin stood 190 m up Wood Street. It now sits on their GPS fix at the corner the story names, and `pin_source` records the move. `tree_reports.py --thank` refused because their line counts as their own words, so the report is closed `holds` and a suggested reply is in drafts/reply-reader-1000072-2026-11-17.md for Hidde.
+- This run also built the Zamalek Banyan, but the fifth pass (below) pushed it first. On the rebase, main's version was kept whole and only the Cheapside work was carried over.
+
+## 2026-11-17 reader judge (fifth pass): the Zamalek Banyan is live in Cairo
+
+- **New tree, cairo/cai_001, The Zamalek Banyan** (sighting 2bef0f92, sent through the app today): the photograph shows a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and railing, daylight. The reader linked Egyptian Streets (2022), which places a banyan about 150 years old on Al Borg street towards the Cairo Tower and dates the import of banyans by Khedive Ismail to 1868. The reader's GPS fix falls on that street, so the pin is confirmed. The source also calls the tree "the last standing one in Egypt" while naming another banyan at the Manial Palace, so the page makes no "last" claim. Cairo is a new one-tree place: it has its intro, question fields and three FAQ, and no place page until it grows. Egypt is out of focus only for our own research. Verdicts are recorded as `lead:` and `sight:`.
+- No reports or feedback were open. reader_words found nothing.
+- **Still open**: the same 16 photo-less tips as the fourth pass, left for a session for the reasons given there. The old `status: lead` rows in _sightings.json with no hold are all our own account's (`mine`) September and October shots. They are not readers' trees, so this run did not judge them.
+
+## 2026-11-17 reader judge (fourth pass): the ledger caught up, sixteen tips left for a session
+
+- **Rhodes Bald Cypress (bng_001)**: judged the same snow photograph as the third pass, same verdict; theirs kept. Added only the season: no date in the file and deep snow in frame, so `taken_month` 1 with the basis recorded (it said 11, the upload month).
+- **Ledger catch-up**: five reader leads held earlier today (four `not_special`, one `bad_frame`) and tip:944 (the Sagole Baobab, already sgl_001) had their verdict in the lead files but not in data/judgements.json; now recorded there.
+- **Left open, on purpose (session work, beyond this run's 20 minutes)**: 16 tips without a photograph still have no verdict, most of them famous, sourced trees that should ship: Oliveira do Mouchão (850, Wikipedia), Cat Island bald cypress (906, press link), Castagno Miraglia (970, already a held lead in _famous-italy.json for want of a pin; the reader sent a Maps link), Tsitsikamma Big Tree (939), Arderne Gardens fig (937), Nossob camel thorn (943), Alerce Costero Fitzroya (1032), three Heidelberg trees (1061 to 1063, Maps links), the Ho Chi Minh City banyan (1065), the Lusnizza oak (802, the reader's own figures), and the photo-less app trees 691, 707, 755 and 885. They need sources and pins, and stay on the late alarm rather than being filed as "lead".
+- No open reports, no unjudged feedback, no readers' notes left to quote. The 37 older `mine` leads are our own account's and were left alone.
+
+## 2026-11-17 reader judge (third pass, merged onto the second): three more reader photos go up
+
+- A parallel pass judged the same queue and published El Sargento, the Glasnevin cedar and the Chiang Mai fig first. Its versions stand, and this pass's copies were dropped in the merge. Its Azores hold (abb593f0, `doubt_location`) also stands.
+- **Added on top of it:**
+  - **The Rhodes Bald Cypress (bng_001)** has the reader's winter snow photograph (017db4cf) as its lead. The sign close-up moves to the strip.
+  - The two "duplicate" sightings each carried a further frame the second pass did not use. The new trunk view of **the Baobab Plane of Penenden Heath (mdb_001, e7bef8af extra 1)** and the close trunk view of **Barney the Plane (lon_008, 9c93b205 extra 1)** are now in those trees' strips. sightings-processed and judgements say `added` and `publish` for these sightings.
+- The queue was already empty, so `judgement.py --scan` could not stub 017db4cf. Its `sight:` verdict was written into judgements.json by hand.
+- The photo-less tips listed by `judgement.py --unjudged` still wait for the next run.
+
+## 2026-11-17 session: the late-trees alarm counts from when a reader sent it
+
+- **Measured**: of 649 things strangers sent in the last 7 days, 94% had a verdict. Reports, notes, ambassador requests and written feedback 100%, app photos 98%, trees added 82%: 31 without a recorded verdict while reader_backlog.py said 3 were late.
+- **Fixed**: reader_backlog.py also checks every tree or city a stranger sent, by its own send time, against every place a verdict can live (`trees_without_a_verdict()`); it reports 17 late. judgement.py stubs an app tree whose sighting no longer exists as a tip (eight sat in no route: five were the same tree sent twice and are live via the second copy, rows closed `holds`; three are tips now: 691, 755 Waipoua, 885 Tasmania). tip:820 recorded as live (a-coruna/acr_001).
+- **Breakage, fixed**: the `other_tree` route copied the queue's raw photo path into the public leads file (account id where a code belongs); `to_lead()` now codes it (test), the five paths are coded, and the pre-push qa check had stopped it.
+- **Left for the reader judge (dispatched)**: 17 tips without a photograph from 11-15 to 11-17 (Mouchão olive, Cat Island bald cypress, Tsitsikamma big tree, Ferrara oak, Heidelberg x3, Chile's Fitzroya, Ho Chi Minh banyan, and others).
+
+## 2026-11-17 reader judge (second pass): El Sargento, a weeping cedar and a Chiang Mai fig go live
+
+- **Live (every photograph viewed, GPS fix at each)**: **El Sargento** (mexico-city/mex_011), Chapultepec's ahuehuete, dead since 1969 and still standing, under the standing-dead exception, sourced (Wikipedia, Chapultepec, CDMX tourism, Mexico Desconocido), with the Spanish overlay entry; the Mexico City intro and FAQ, which said it was not on the page, now say it is (English and Spanish). **The Weeping Cedar Tunnel of Glasnevin** (dublin/dub_020): the reader was unsure which of five trees it was, and it is none of them; Dublin's counts go from 19 to 20. **The Fig That Holds the Stones** (chiang-mai/cnx_002), a strangler fig west of the old city. This run also built the Morden mulberry, but the pass above had already published it as lon_054, so its version stands.
+- **Queue**: El Sargento and the Chiang Mai fig had been sent for mex_006 and cnx_001, so both became `other_tree` first. Two photos the 11-17 session listed as "worth a page" are exact copies of pictures already on our trees: e7bef8af is the Baobab Plane's lead (mdb_001), and 9c93b205 is in Barney's strip (lon_008). Both were rejected as duplicates. The Kanazawa snow pine (0942bd2b) is held: it does not show the Karasaki pine's low branches over the pond, and Kenrokuen has hundreds of rigged pines.
+- **Held**: the Azores aerial-root fig (abb593f0) is held as `doubt_location`. It was sent from azo_001's page, so its coordinate is our pin, and it is a different trunk from azo_001's lead photograph. **For a session**: our azo_001 recognition line ("mass of aerial roots") may fit this fig better than the lead photo does. Check which fig is the regional sheet's.
+- Not done: _famous-mexico.json still lists El Sargento as a lead (preflight note). This run's duplicate mulberry image was moved out of site/public/photos into out/tmp/ and never committed.
 
 ## 2026-11-17 reader judge: a burred mulberry in Morden Hall Park goes live; the Dujiangyan ginkgo's pin is now marked approximate
 
@@ -255,6 +424,9 @@ For Hidde: compliance review, 1 point(s) wait for your word (data/compliance.jso
 - **For Hidde:** Miami is now 47% behind paid entry; it needs free trees.
 
 ## 2026-11-17 session: three readers' tree notes worked into the stories
+
+- **Queue**: Birmingham, Sheffield and Leeds lead `city_queue.py --next` (PHONES_FIRST, Hidde: "Ja, vooraan"), from-zero research on, ten trees each. Why: since the Guardian piece app phones opened there (GeoIP: 30, 28, 25) with 1 or 2 of our trees within 25 km. The same look showed browsing depth does not follow coverage (about 2 trees opened per phone with 0 or 20+ trees near), so the shallow browsing is the app's first screen, not the map's gaps.
+- **iOS scheduled run**: the three red runs were the two iOS 18 deinit crashes (fixed 11-16 and in 66d624e1b this morning, after the night run) and, at 14:13 UTC, no Mac runner from GitHub. Failed job rerun to prove it green.
 
 - **Product**: Deusto bald cypress (bil_002): a reader measured the trunk at no more than 2 m across, perhaps 2.3 at the base. The story now says so beside the website's 3 m. `girth_cm` 942 is gone: we had worked it out from that one website's diameter, and a girth may only come from a register or a plaque. Gülhane hackberry (ist_013): the register's own figures disagree (145 cm across but 411 round, which is about 131 across). The story says so and adds the reader's doubt; the girth stays the register's. Molinazzo oak (pgr_001): the reader's monitoring details (stability scans, dead-wood pruning, root zone) and Molinazzo's history as a hamlet with a lost oratory, stated as theirs.
 - **Rule** (Hidde, "mensen kiezen hier zelf voor"): a note signed with its writer's own name stays; the closed list means another person's name (CLAUDE.md rung 1, tree_notes.py).

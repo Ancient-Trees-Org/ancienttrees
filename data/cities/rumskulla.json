@@ -55,17 +55,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak.jpg",
+        "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak-e7f5f503.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
-        "height": 1600,
-        "taken_month": 11,
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 9,
         "source": "contributor",
-        "contributor_user_id": "p_856cd2e3820af4b001f6554a",
-        "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
-        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The huge hollow veteran oak behind its fence in warm light. Species seen: Oak: ancient hollow trunk, gnarled bare limbs. Fits the description: enormous broken veteran oak in a fenced meadow.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_ff99d0483a2b527b15837a19",
+        "sighting_id": "e7f5f503-48a4-457e-bd7d-1cedae177b2d",
+        "note": "Photographed by a reader and sent through the app (2018-09-15); a viewing pass approved it on 2026-11-17: The Kvill Oak whole in late summer: the vast hollow, burred trunk inside its ring of stones and chain, steel bands round the stem, mostly bare dead limbs with one leafy side, a person beside it for scale; daylight, colour. A different season and a scale the current lead lacks. Species seen: Oak: deeply fissured grey bark, lobed oak leaves on the living limbs. Fits the description: hollow, steel-banded trunk with only part of the crown in leaf, inside the fenced reserve meadow with stone posts and chain.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its hollow, steel-banded trunk, now down to a single branch still carrying leaves. It stands inside Kvills nature reserve, near Rumskulla.",
       "best_time": {
@@ -86,7 +86,22 @@
       "official_register": {
         "name": "Naturreservatet Kvill (Länsstyrelsen Kalmar / Naturvårdsverket, Skyddad natur)",
         "url": "https://www.lansstyrelsen.se/kalmar/besoksmal/naturreservat/kvill.html"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_856cd2e3820af4b001f6554a",
+          "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The huge hollow veteran oak behind its fence in warm light. Species seen: Oak: ancient hollow trunk, gnarled bare limbs. Fits the description: enormous broken veteran oak in a fenced meadow.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }
