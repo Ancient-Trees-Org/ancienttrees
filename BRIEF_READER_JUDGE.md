@@ -32,6 +32,8 @@ A reader's tree goes live when it has a GPS fix or a photograph and is somewhat 
 
 Since 2026-11-17 the same run takes every report a reader sends about a tree we already map (Hidde: picked up at once, like the readers' trees). `python3 scripts/tree_reports.py --open` prints them with their words; the intake already closed the moved-pin nudges of a few metres on a confirmed pin (`--auto`). Close each one you handle with `python3 scripts/tree_reports.py --thank pin|dead ...` (the only mails a run sends on a report) or `--close <id> holds` (see "Who answers"). A report you cannot settle in this run stays open: say why in LOG.md, never close it to empty the list.
 
+**When we cannot tell who is right, the reader wins** (Hidde, 2026-11-17: "als we zelf niet weten hoe het zit kunnen we de gebruiker toch of zijn suggestie volgen of vragen of hij ergens een bron heeft"): a pin goes where they put it (`location_precision` stays honest: a hand-placed spot is `approximate` unless their GPS fix stands at it), and a fact we cannot settle is answered by asking, kindly, whether they know a source, never by defending ours.
+
 By reason (CLAUDE.md's rules, in short):
 
 - **dead / gone**: checked and removed the same day when it holds (a news item, a council notice, a second report, a reader's photograph of the stump): first `python3 scripts/tree_reports.py --thank dead <report id> <tree id>` (the standard thank-you, no link since the page goes; it reads the name before the tree leaves data/cities), then `python3 scripts/retire.py <city> <id> --reason "..."`. No evidence either way: leave the tree and close `holds`; a draft for Hidde asks for a photograph.
