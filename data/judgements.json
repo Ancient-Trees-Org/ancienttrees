@@ -3852,6 +3852,21 @@
    "agreed": null
   },
   {
+   "id": "tip:1115",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "The Signal Tree (Native American'Indian Signal Tree)",
+   "city": "Akron, Ohio, USA",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 122,
+   "verdict": "lead",
+   "reason": "The Signal Tree, Akron: a three-pronged bur oak of 250 to 350 years, alive and cared for (Summit Metro Parks, Davey 2025). Not live because the Chuckery Area of Cascade Valley Metro Park and its Peck Road entrance have been closed since 2023 for the Gorge Dam work, through at least 2028. Recorded in data/leads/akron.json; ships when the area reopens or a source shows it can be seen from open ground. The tip carries the reader's own words, so any answer is a draft for Hidde.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",

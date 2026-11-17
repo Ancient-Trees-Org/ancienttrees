@@ -1,0 +1,26 @@
+{
+ "city": "Akron",
+ "leads": [
+  {
+   "name": "The Signal Tree, Cascade Valley Metro Park",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "status": "open",
+   "latitude": 41.12032123529004,
+   "longitude": -81.51788948954726,
+   "location_precision": "approximate",
+   "found_by_reader": {
+    "tip": "submission 1115",
+    "date": "2026-11-17"
+   },
+   "reason": "Sent by a reader as a tip without a photograph (submission 1115, 2026-11-17), with a pin in the Chuckery Area of Cascade Valley Metro Park. Sources agree: a three-pronged bur oak of some 250 to 350 years, a 1986 plaque linking it to the Portage Trail, cared for by Davey Tree since 2018 (alive, Davey newsroom January 2025). Not shipped because it cannot be visited: Summit Metro Parks has closed the Peck Road entrance and the Chuckery Area since 2023 for the Gorge Dam sediment work, closures expected through at least 2028; the tree is protected behind barriers and stays. Ships the day the area reopens, or sooner if a source or reader shows it can be seen from open public ground.",
+   "sources": [
+    "https://www.summitmetroparks.org/news-and-publications/news-updates/the-history-and-mystery-of-the-signal-tree/",
+    "https://www.summitmetroparks.org/news-and-publications/news-updates/the-signal-tree-davey-tree-expert-company-adopts-a-local-legend/",
+    "https://davey.com/about/newsroom/akrons-signal-tree-is-doing-just-fine-out-of-the-public-eye-heres-what-we-know",
+    "https://www.summitmetroparks.org/news-and-publications/news-updates/latest-efforts-to-free-the-falls/",
+    "https://www.summitmetroparks.org/plan-your-visit/alerts"
+   ],
+   "seen": "2026-11-17"
+  }
+ ]
+}

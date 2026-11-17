@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the Signal Tree in Akron waits as a lead
+
+- **Lead: tip 1115, the Signal Tree, Akron.** It is a three-pronged bur oak of 250 to 350 years in Cascade Valley Metro Park, alive and cared for by Davey Tree (2025). It is not live because Summit Metro Parks has closed the Chuckery Area and its Peck Road entrance since 2023 for the Gorge Dam work, with closures expected through at least 2028. It is recorded in data/leads/akron.json with its sources and the reader's pin. The tip carries the reader's own words, so the answer is a draft, not a sent mail.
+- For Hidde: drafts/reply-reader-1115-2026-11-17.md asks the Akron reader whether the tree can be seen from open ground. A yes ships it, with the pin on the viewing spot.
+- This run also judged the Puebla fir (e080b473) and would have published it. A parallel run had already pushed it as held `not_special`, so that verdict stands and this run's version was dropped. It was a close call either way: the bared roots against "common on any eroding bank".
+
 ## 2026-11-17 reader judge: a Mexican hillside fir held
 
 - **Held `not_special`: sighting e080b473** (app, GPS 19.1284, -97.5133, highland forest near Tlachichuca, Puebla, Mexico). Photograph viewed: a mid-sized fir, among others, on top of an eroded earth bank, with its roots hanging bare down the cut. Daylight, colour, a GPS fix. Bare roots like these are common on any eroding bank, and nothing in the tree marks it as old, big or storied. It was sent as "A tree I found" with no words; a name, age, girth or story from the reader would change it.
