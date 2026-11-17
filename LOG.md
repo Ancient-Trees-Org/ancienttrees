@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 night run, third attempt: 0 trees, Guimaraes a wall
+
+- READY shelf empty (0). Guimaraes verify (4th deepen pass): its 12 near register rows fold into gui_001 to gui_010, the rest are 15 to 19 km out in other concelhos. Lead logged: Ermal oak, Vieira do Minho (6.48 m girth, 313 y), for a Braga-region pass if access and transport are sourced. Claim released, wall 48h.
+- Translations stay paused (TRANSLATIONS_OUT). Next: Zurich register BUILD, or new reader trees reopening walled cities.
+
 ## 2026-11-17 night run, later attempt: 0 trees, shelf and staged cities empty
 
 - Write shelf empty (see the write pass below). Verify passes: San Francisco (10th, nothing new) and Frankfurt (no register, 2 leads kept, nothing verified). Graz and Nuremberg claimed and released: under a quarter of their leads have a coordinate. All four are walls for 48h; Portland is full.
