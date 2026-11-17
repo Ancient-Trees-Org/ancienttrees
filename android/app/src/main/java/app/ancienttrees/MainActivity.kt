@@ -203,7 +203,13 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     val nav = remember { app.ancienttrees.ui.Nav(if (launch.tab == 1 || launch.tab == 2) launch.tab!! else 0) }
     fun openTree(t: Tree) = nav.push(app.ancienttrees.ui.Page.TreePage(t.id))
     /** A place on the map: the map's stack empties and the map tab shows (navigator.searchOnMap). */
+    // A PLACE LINK ON A PAGE IN ANOTHER TAB goes to the map, and back comes home to
+    // that page, as Android's back follows where you came from (the user walk,
+    // 2026-11-17: a Discover tree's "Baarn", then back cleared Baarn and the next
+    // back left the app).
+    var cameFrom by remember { mutableStateOf<Int?>(null) }
     fun goOnMap(hit: SearchHit) {
+        cameFrom = if (nav.tab != 0 && nav.stack.isNotEmpty()) nav.tab else null
         nav.clear(0)
         nav.tab = 0
         go = System.nanoTime() to hit
@@ -516,6 +522,12 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         themeSeen = darkNow
         (context as? androidx.activity.ComponentActivity)?.enableEdgeToEdge()
     }
+    LaunchedEffect(nav.tab) { if (nav.tab != 0) cameFrom = null }
+    androidx.activity.compose.BackHandler(enabled = nav.tab == 0 && cameFrom != null && nav.stacks[0].isEmpty()) {
+        val back = cameFrom ?: 0
+        cameFrom = null
+        nav.tab = back
+    }
     // Over the photograph both bars go clear with white icons; afterwards the window
     // gets back EXACTLY what it had (re-running enableEdgeToEdge left the bottom bar
     // looking different, Hidde 2026-11-17: "de twee menus lopen door elkaar").
@@ -634,7 +646,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (t != null) {
             review.saw(t)
             hadTreeOpen = true
-        } else if (hadTreeOpen) {
+        } else if (hadTreeOpen && nav.stack.none { it.page is app.ancienttrees.ui.Page.TreePage }) {
+            // Only once no tree page is left under you: a species page pushed from a
+            // tree is moving forward, not the pause (the user walk, 2026-11-17).
             hadTreeOpen = false
             review.consider()
         }
@@ -958,7 +972,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     ) {
                         MapTab(
                             catalogue = catalogue,
-                            covered = nav.stacks[0].isNotEmpty(),
+                            covered = nav.stacks[0].isNotEmpty() || cameFrom != null,
                             origin = origin,
                             located = located,
                             granted = granted,

@@ -1336,7 +1336,7 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
             footnote = if (failed) stringResource(R.string.note_failed) else null,
             buttons = buildList {
                 add(
-                    SheetButton(stringResource(if (notes.mine == null) R.string.note_add else R.string.note_save), SheetKind.PRIMARY) {
+                    SheetButton(stringResource(if (notes.mine == null) R.string.note_add else R.string.note_save), SheetKind.PRIMARY, enabled = text.isNotBlank() && !saving) {
                         val body = text.trim()
                         if (body.isEmpty() || saving) return@SheetButton
                         saving = true

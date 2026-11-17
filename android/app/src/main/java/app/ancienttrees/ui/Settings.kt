@@ -182,14 +182,17 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                     SettingsRow(Sym.Straighten, stringResource(R.string.settings_distances),
                         value = stringResource(if (miles) R.string.units_miles else R.string.units_km),
                         trailing = Sym.UnfoldMore) { menu = true }
-                    DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, modifier = Modifier.background(brand.surface)) {
-                        for (m in listOf(false, true)) {
-                            DropdownMenuItem(
-                                text = { MenuText(stringResource(if (m) R.string.units_miles else R.string.units_km)) },
-                                // A Picker in a Menu ticks the current value (Profile.swift:243).
-                                leadingIcon = { MenuTick(m == miles) },
-                                onClick = { Units.set(context, m); miles = m; menu = false },
-                            )
+                    // Under the value, on the right (the user walk, 2026-11-17: it opened at the left edge).
+                    Box(Modifier.align(Alignment.BottomEnd)) {
+                        DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, modifier = Modifier.background(brand.surface)) {
+                            for (m in listOf(false, true)) {
+                                DropdownMenuItem(
+                                    text = { MenuText(stringResource(if (m) R.string.units_miles else R.string.units_km)) },
+                                    // A Picker in a Menu ticks the current value (Profile.swift:243).
+                                    leadingIcon = { MenuTick(m == miles) },
+                                    onClick = { Units.set(context, m); miles = m; menu = false },
+                                )
+                            }
                         }
                     }
                 }
@@ -202,13 +205,16 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                     SettingsRow(Sym.TurnUpRight, stringResource(R.string.settings_directions),
                         value = directionsApp?.label(context) ?: stringResource(R.string.directions_ask_each),
                         trailing = Sym.UnfoldMore, tag = "profile-directions") { dirMenu = true }
-                    DropdownMenu(expanded = dirMenu, onDismissRequest = { dirMenu = false }, modifier = Modifier.background(brand.surface)) {
-                        for (a in Directions.MapsApp.entries) {
-                            DropdownMenuItem(
-                                text = { MenuText(a.label(context)) },
-                                leadingIcon = if (directionsApp == null) null else { { MenuTick(a == directionsApp) } },
-                                onClick = { Directions.setPreferred(context, a); directionsApp = a; dirMenu = false },
-                            )
+                    // Under the value, on the right (the user walk, 2026-11-17: it opened at the left edge).
+                    Box(Modifier.align(Alignment.BottomEnd)) {
+                        DropdownMenu(expanded = dirMenu, onDismissRequest = { dirMenu = false }, modifier = Modifier.background(brand.surface)) {
+                            for (a in Directions.MapsApp.entries) {
+                                DropdownMenuItem(
+                                    text = { MenuText(a.label(context)) },
+                                    leadingIcon = if (directionsApp == null) null else { { MenuTick(a == directionsApp) } },
+                                    onClick = { Directions.setPreferred(context, a); directionsApp = a; dirMenu = false },
+                                )
+                            }
                         }
                     }
                 }

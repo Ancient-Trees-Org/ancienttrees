@@ -39,6 +39,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
@@ -60,6 +61,8 @@ data class SheetButton(
     val icon: ImageVector? = null,
     /** The iPhone's accessibility identifier, for the walks (FlowWalk.swift taps by it). */
     val tag: String? = null,
+    /** SwiftUI's .disabled: dimmed and deaf, e.g. Add note with nothing typed. */
+    val enabled: Boolean = true,
     val action: () -> Unit,
 )
 
@@ -94,9 +97,10 @@ fun SheetButtonView(
             .height(if (quiet) 44.dp else 48.dp)
             // The ripple stays inside the capsule (Airbnb's line, 2026-11-10).
             .clip(RoundedCornerShape(50))
+            .graphicsLayer { alpha = if (b.enabled) 1f else 0.4f }
             .then(
-                if (onLongPress != null) Modifier.combinedClickable(role = Role.Button, onLongClick = onLongPress, onClick = b.action)
-                else Modifier.clickable(role = Role.Button, onClick = b.action),
+                if (onLongPress != null) Modifier.combinedClickable(enabled = b.enabled, role = Role.Button, onLongClick = onLongPress, onClick = b.action)
+                else Modifier.clickable(enabled = b.enabled, role = Role.Button, onClick = b.action),
             )
             .background(bg, RoundedCornerShape(50))
             .then(if (b.tag != null) Modifier.testTag(b.tag) else Modifier),

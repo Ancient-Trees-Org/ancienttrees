@@ -752,7 +752,8 @@ private fun SeasonHeroOrBand(deck: Shelves, origin: Here, onOpen: (Tree) -> Unit
         },
     )
     val line = stringResource(R.string.discover_season_count, treeCount(s.count)) +
-        if (s.near > 0) stringResource(R.string.discover_season_near, s.near) else ""
+        // In miles where Distances says so: every translation carries "20 km" (12 mi).
+        if (s.near > 0) stringResource(R.string.discover_season_near, s.near).replace("20 km", if (Units.now) "12 mi" else "20 km") else ""
     val far = Geo.km(origin.lat, origin.lng, s.hero.lat, s.hero.lng) > 30
     val pill = if (far) stringResource(R.string.discover_at_best_in, s.hero.city) else stringResource(R.string.discover_at_best)
     val shadow = Shadow(Color.Black.copy(alpha = 0.3f), Offset(0f, 2f), 12f)
