@@ -235,12 +235,24 @@
       "Remove from collected sits in the collect sheet under the two photo buttons, at once with Undo (the tick back on its first day), with the collected date line, as TreeDetail.uncollectWithUndo (-collectsheet opens it).",
       "The review prompt after three trees is Google Play's In-App Review (review-ask, ReviewAsk.kt): it agrees with review-ask's parity.",
       "The snackbar after a bookmark: Added to Want to visit with View, Removed with Undo, as SaveHeart.swift (SnackBar.kt)."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
+      }
     ]
   },
   "tree-nophoto": {
     "status": "parity",
     "differences": [
       "As tree."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
+      }
     ]
   },
   "signin": {
@@ -733,6 +745,10 @@
       {
         "what": "plus.circle height",
         "why": "Icon box, not spacing: the iPhone reports the SF Symbol glyph's own box, Android the Material Symbols box, sized at SF's point size x 4/3 by the icon rule (PR 42, Symbols.kt). The icon's place in its row matches."
+      },
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
       }
     ]
   },

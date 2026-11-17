@@ -182,7 +182,7 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
     fun reasonPhoto(n: Int, place: String) = if (n == 1) photographedOne.format(place) else photographedMany.format(n, place)
 
     suspend fun loadSuggestions() {
-        if (source != PeopleSource.SEARCH || me == null) { suggestions = emptyList(); return }
+        if (source != PeopleSource.SEARCH || me == null) { suggestions = emptyList(); loadFollowing(); return }
         if (demo) {
             suggestions = DemoPeople.suggestions.map {
                 Suggestion(it.profile, if (it.ambassador) reasonAmbassador(it.place) else reasonPhoto(it.count ?: 0, it.place), it.ambassador)
@@ -230,7 +230,9 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
 
     LaunchedEffect(me) {
         if (demo && source != PeopleSource.SEARCH) results = DemoPeople.all
-        if (source == PeopleSource.SEARCH && me != null && !demo) loadSuggestions() else loadFollowing()
+        // Suggestions load who you follow alongside (and the demo's stand-ins); the
+        // follower lists only need the follow state.
+        if (source == PeopleSource.SEARCH) loadSuggestions() else loadFollowing()
     }
     LaunchedEffect(source, me) {
         if (source == PeopleSource.SEARCH || me == null || demo) return@LaunchedEffect
