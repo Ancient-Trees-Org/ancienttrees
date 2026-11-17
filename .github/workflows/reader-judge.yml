@@ -131,8 +131,11 @@ jobs:
           queue=$(python3 -c "import json;print(len(json.load(open('data/sighting-queue.json')).get('queue',[])))" 2>/dev/null || echo 0)
           reports=$(python3 scripts/tree_reports.py --count 2>/dev/null || echo 0)
           feedback=$(python3 scripts/feedback.py --count 2>/dev/null || echo 0)
-          echo "leads=$leads queue=$queue reports=$reports feedback=$feedback"
-          if [ "$leads" != "0" ] || [ "$queue" != "0" ] || [ "$reports" != "0" ] || [ "$feedback" != "0" ]; then
+          unjudged=$(python3 scripts/judgement.py --count 2>/dev/null || echo 0)
+          echo "leads=$leads queue=$queue reports=$reports feedback=$feedback unjudged=$unjudged"
+          if [ "$leads" != "0" ] || [ "$queue" != "0" ] || [ "$reports" != "0" ] || [ "$feedback" != "0" ] || [ "$unjudged" != "0" ]; then
+            # Never stopped for minutes (Hidde, 2026-11-17: "ik heb liever niet
+            # dat die stopt"); scripts/judge_budget.py counts them for the digest.
             echo "go=yes" >> "$GITHUB_OUTPUT"
           else
             echo "go=no" >> "$GITHUB_OUTPUT"

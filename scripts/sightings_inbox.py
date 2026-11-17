@@ -86,6 +86,34 @@ def supa(path):
         return json.loads(raw) if raw else None
 
 
+def unsure_sightings():
+    """{sighting id (lower case): the candidates the app offered} for every
+    photograph a reader sent with "not sure which tree".
+
+    ONE ROUTE (Hidde, 2026-11-17: "1 route"). The app names such a sighting
+    after the FIRST tree on its list ("Prince Eugen's Oak", "Giant Ficus Tree,
+    Bali Botanic Garden"), and when it stood within MATCH_M of that tree the
+    matcher sent it to that tree's queue, where the only question asked is
+    "is this that tree?". A no ended it there: Dublin's weeping conifer in
+    Glasnevin and Stockholm's orange maple were never judged as trees of their
+    own. So an unsure photograph is a lead, judged under the closed list like
+    any reader's tree; the judge still puts it on one of ours when the
+    photograph shows that it is (BRIEF_READER_JUDGE.md). The app's report row
+    (tree_reports, reason "could not tell which tree", `tree` = the sighting
+    id) is how the server knows."""
+    out = {}
+    try:
+        rows = supa("/rest/v1/tree_reports?select=tree,detail"
+                    "&reason=eq.could%20not%20tell%20which%20tree") or []
+    except Exception:
+        return out
+    for r in rows:
+        tid = (r.get("tree") or "").strip().lower()
+        if len(tid) == 36 and tid.count("-") == 4:
+            out[tid] = (r.get("detail") or "").replace("could not tell which tree:", "").strip()
+    return out
+
+
 def metres(a_lat, a_lng, b_lat, b_lng):
     r = 6371000.0
     p1, p2 = math.radians(a_lat), math.radians(b_lat)
@@ -725,6 +753,7 @@ def main():
 
     queue, new_leads, skipped, mine, rematched = [], 0, 0, 0, 0
     today = datetime.date.today().isoformat()
+    unsure = unsure_sightings()
     for row in rows:
         sid = row["id"]
         # A LEAD IS RE-CHECKED AGAINST TODAY'S MAP (2026-09-08). Everything else
@@ -749,7 +778,8 @@ def main():
             # tree we publish. A real verdict (published, held, duplicate)
             # still stands, and so does a lead the map has not caught up with.
             reopen = (outcome == "ours"
-                      or (outcome == "lead" and match(row, index)[0] is not None)
+                      or (outcome == "lead" and sid.lower() not in unsure
+                          and match(row, index)[0] is not None)
                       or (outcome in ("held", "rejected")
                           and (sid in v_sight or people.ref(row.get("user_id")) in v_user)))
             if not reopen:
@@ -784,11 +814,20 @@ def main():
         if is_mine:
             mine += 1
         tid, how, dist = match(row, index)
+        among = unsure.get(sid.lower())
+        if among is not None:
+            # One route: an unsure photograph is a lead, never a queue entry
+            # for the first tree on the app's list (see unsure_sightings).
+            tid = None
         if tid is None:
             if sid not in lead_ids:
                 leads_doc["leads"].append({
                     "sighting_id": sid, "user_id": people.ref(row["user_id"]), "mine": is_mine,
-                    "name": row.get("name") or "", "species": row.get("species"),
+                    # Not the app's guess: an unsure photograph carries the
+                    # first candidate's name, which read as a claim.
+                    "name": "" if among is not None else (row.get("name") or ""),
+                    "unsure_among": among,
+                    "species": row.get("species"),
                     "age": row.get("age"), "girth_cm": row.get("girth_cm"),
                     # THE TRUNK, in adult hugs, as they answered it (2026-09-11).
                     # Worth more on a lead than anything else the form collects:
@@ -832,8 +871,12 @@ def main():
                     # first.
                     "register": _corroborate(row.get("lat"), row.get("lng")),
                     "status": "lead",
-                    "why": "added by a reader through the app; matches no tree we map. "
-                           "Verify to the normal bar before it gets a page.",
+                    "why": ("sent by a reader who was not sure which tree it is; judged as a "
+                            "new tree unless the photograph shows one of ours (it then "
+                            "matches no tree we map until a judge says so)."
+                            if among is not None else
+                            "added by a reader through the app; matches no tree we map. "
+                            "Verify to the normal bar before it gets a page."),
                     "seen": today,
                 })
                 new_leads += 1

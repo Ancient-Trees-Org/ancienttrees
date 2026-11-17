@@ -223,7 +223,17 @@ const crumbItems: [string, string | null][] = [
     document.getElementById("set-out").hidden = false;
   }
   var s = session();
-  if (!s) { signedOut(); return; }
+  if (!s) {
+    signedOut();
+    // A spent token renewed after this ran (signin-js window.atRefreshing):
+    // once renewed, the page starts again signed in (2026-11-17).
+    window.addEventListener("load", function() {
+      if (window.atRefreshing) Promise.resolve(window.atRefreshing).catch(function() {}).then(function() {
+        if (session()) location.reload();
+      });
+    });
+    return;
+  }
   document.getElementById("set-in").hidden = false;
 
   fetch(SB + "/auth/v1/user", { headers: { "apikey": KEY, "Authorization": "Bearer " + s.access_token } })

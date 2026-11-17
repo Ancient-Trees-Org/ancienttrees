@@ -12,6 +12,85 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a burred mulberry in Morden Hall Park goes live; the Dujiangyan ginkgo's pin is now marked approximate
+
+- **The Burred Mulberry of Morden Hall Park (london/lon_054)** is live from a reader's photograph and GPS fix: a low, leaning black mulberry with a burred trunk, behind a protective fence in the National Trust park. The pin is confirmed. Its story quotes the reader's note. There is no age or girth yet, and the page asks for them.
+- **The Temple Ginkgo of Dujiangyan (djy_001)**: the reader who sent it left a note on the tree saying "LOCATION ON MAP IS A GUESS", followed by a pasted chatbot-style summary naming it the Zhang Song ginkgo of Lidui Park. The pin was marked confirmed as a GPS fix. It is now marked approximate. The story, FAQ and answer no longer claim a GPS fix. The Lidui Park identification is on the page as the reader's own, unconfirmed, with a Chuanguan News source (2020) placing the Zhang Song ginkgo in Lidui Park. The pasted text was not quoted (closed in reader_words). A session could move the pin onto Lidui Park once the trunk is matched.
+- Feedback 1080 (a reader asking how to add the old trees near them): a reply pointing to "Add a tree" is in drafts/reply-reader-1080-2026-11-17.md, closed `needs_hidde`.
+- No open reports. The other leads still at `lead` are our own account's (`mine`), so no reader is waiting on them.
+
+## 2026-11-17 session: two more ways a signed-in person was asked to sign in
+
+- **Web (Hidde: "kun je nagaan of er nog anders zon loop zit?")**: back on the site after more than an hour, the bar said signed in but save, collect, Add a tree (/contribute opened sign-in by itself) and /account asked to sign in. The access token lasts an hour; signin-js renews it on load, but the one door (collection-js verify) and those pages decided first and kept "signed out". Now signin-js exposes the renewal as `window.atRefreshing` and the door, /contribute, /account and /account/settings wait for it.
+- **App**: signed in with no signal and a spent token, writing a note, following someone (two screens), asking to be an ambassador or joining Plus opened the sign-in sheet. No signal is not a sign-out (Account.apply), so these now say it did not go through; only a real sign-out asks. In the next build.
+- qa `check_signed_in_is_never_asked_to_sign_in()` guards both (it flagged all five app places before the fix). Two escaped-bug rows, closed with it. Every other sign-in call on web and app was read and asks only when signed out.
+
+## 2026-11-17 session: the reader system's holes closed
+
+- **Deploy unblocked**: every deploy since 12:53 failed QA on a reader's raw account id in data/leads/_sightings.json (a photo path written by a reader judge run); now coded with people.ref. `check_no_reader_traces_in_the_repo()` moved into qa's source-only checks, so it refuses the push, not the deploy an hour later. The raw id stays in git history (no force-push, hard rule 3); it is an opaque account id, no name or address.
+- **Tips without a photograph get a verdict**: judgement.py's scan stubs them as `tip:<id>` (the app's uuid-named row beside a photographed tree is skipped); `--count` and `--unjudged`; the reader judge's gate and brief take them. Escaped bug closed with scripts/test_judgement_tips.py. 14 such tips from 11-15/16 now wait for the judge (Heidelberg oaks, Cape Town fig, Tsitsikamma, Nossob, Sagole baobab, Camaldoli chestnut, Mouchão olive and others).
+- **Judge minutes counted, never capped** (Hidde: "ik heb liever niet dat die stopt"): scripts/judge_budget.py (82 agent minutes on its first day, invisible to run_health until now); a line under "Open for you" in the digest.
+- **Alarm**: scripts/reader_backlog.py, read by health.py: anything a reader sent that waited over 24h without a verdict is RUNG 2. It found three at once (tips 802, 820, 850 from 11-15).
+- **Found, not fixable here**: GitHub dropped the reader judge's 15-minute schedule all day and 8 of 12 night knocks; the Supabase trigger carries the instant route.
+
+## 2026-11-17 session: one route for every reader's photograph
+
+- **What changed**: a reader's photograph now always ends with a verdict as a tree of its own unless it shows one of ours (Hidde: "1 route"). Before, a photo sent for one of our trees could only be "this tree" or "rejected"; readers' trees died there (Dublin's weeping cedar arch in Glasnevin, an Azores fig curtained in aerial roots, a vast burred plane in London woods, El Sargento's dead ahuehuete in Chapultepec among them). Now: `other_tree` verdict in sightings_publish.py turns such a photo into a waiting lead (`to_lead()`, test in test_sightings.py); sightings_inbox.py sends every "not sure which tree" photograph down the lead route without the app's first-candidate name (`unsure_sightings()`, `unsure_among`); BRIEF_READER_JUDGE.md "One route".
+- **Backfill, viewed here**: 13 photos set aside since September looked at again. 6 held under the closed list (Stockholm maple, Melbourne park tree, Paris square tree, Padua garden pagoda tree, Groningen beech: `not_special`; Bristol redwood: `bad_frame`). 7 worth a page go back through the intake for the reader judge to build: Dublin b59c4873, Azores abb593f0, Kanazawa pine 0942bd2b, the burred plane e7bef8af, Chiang Mai strangler fig c1046494, London plane 9c93b205, El Sargento fb383f1e (dead and standing: the 11-17 exception).
+- Dublin's and Stockholm's queued "it is none of those" replies withdrawn.
+
+## 2026-11-17 session: website and mailed photographs count as collected
+
+- **Changed (Hidde, Katie on the Arbour Oak had 0 collected: "alle bomen die niet via de app zijn gekomen, maar via web of mail ... dat moet natuurlijk wel vanaf nu")**: `sightings_link.py tick_collected()`, which runs every knock, ticked only app photographs. It now also ticks a tree added through the website's form with a photograph (`submissions`, photo id `tip-<n>`, whether or not the photo made the page) and a mailed photograph whose sender has an account (name on the photo, address in the private send log, account with that address; `mailed_ticks()`).
+- **Recovered today**: 14 website-form trees now in their senders' Collected (Katie's ntm_001 among them), plus 3 mailed ones (Michael Roe edi_003, un albero al giorno pad_013 and pad_014; the Cramond Association already had edi_008). The same run linked 22 app sightings the knock had not reached yet. Not recoverable: the Singapore mail photos carry no name, and Hannah Mayr, Hans Hofele, Ricard Llerins Bonet and the Barcelona archive have no account.
+
+## 2026-11-17 reader judge: a new lead photo for the Greenwich chestnut
+
+- **The Twisted Sweet Chestnut of Greenwich Park (lon_053)** has a new lead photo from the same reader who sent the old one: the whole tree, lit from the front under a gold crown. The older, backlit shot moved into the gallery. The reader's mail waits in the weekly bundle (pending, not sent).
+- This run also judged the St Paul's planes and Queen Elizabeth's Oak with the same outcomes as the parallel run below. Its version was kept. The 37 older leads still at `lead` all come from our own account (`mine`, Japan and Baarn), so no reader is waiting on them.
+
+## 2026-11-17 reader judge: the St Paul's Churchyard Planes get their first photograph; Queen Elizabeth's Oak held as fallen
+
+- **lon_011, The St Paul's Churchyard Planes** (London): a reader's photograph is the tree's first. It shows a tall plane in autumn leaf behind the churchyard railings, and its GPS fix is 30 m from our pin. The species and the setting match. The pin moved to the reader's fix and is now confirmed. They got the "it's on the page" mail.
+- **Report 1000071** (a pin move on the same planes, 43 m from the old approximate pin): the reader's spot is about 13 m from the photograph's fix, so the pin already sits where they pointed. Closed with the standard pin thank-you.
+- **Queen Elizabeth's Oak, Greenwich Park** (a new tree from the app): held as `dead`. The photograph shows the fallen, hollow trunk lying inside its railings. The reader's second photograph, the Royal Parks board, says it "died many years ago". A fallen trunk never ships, and we retired it from London on 2026-07-27 for the same reason (lon_005, the sweet chestnut, stands for that corner of the park).
+- No general feedback was waiting, and reader_words had nothing to quote.
+
+## 2026-11-17 reader judge: the Darley Dale yew tip becomes a lead
+
+- **Feedback 1075** (a tree tip from the app): an ancient yew at St Helen's Church, Darley Dale, which the reader says is thought to be 2000 years old. We don't map it yet. It is now a lead in data/leads/_famous-united-kingdom.json, waiting for a verify pass (no pin or source yet), and its ledger row is `handled`.
+- This run also judged the same three photographs as the parallel run below, with the same outcomes. Its version was kept.
+
+## 2026-11-17 reader judge: Amsterdam's tallest tree gets its first photograph; a second view of the Totteridge Yew
+
+- **Oudemanhuispoort Elm (ams_021)** had no photograph. A reader's photo from today is now its lead: the tall, furrowed trunk rising past three storeys in the inner courtyard, with autumn leaves on the paving.
+- **Totteridge Yew (lon_001)**: the same reader sent two photographs. The one looking up into the pollarded crown is now in the gallery behind the current lead, not leading, because a child peers out of the branches. The other is rejected as `wrong_subject`: it is a portrait of the child in the foliage, and the trunk is hidden.
+- No open reports, no unjudged feedback, no waiting leads from strangers (the 37 waiting leads are our own photographs, marked `mine`), and no readers' notes left to quote. Both pins were already confirmed, so the pin catch-up's HTTPError changed nothing.
+
+## 2026-11-17 reader judge: a rain tree in Mangaluru goes live (mlr_001); the Cremines yew gets its first photograph
+
+- **New: The Rain Tree of Bolar** (mangaluru/mlr_001), a new one-tree place in India. A reader sent the photograph today with a GPS fix from the lane: a huge umbrella crown on fern-covered limbs above a garden wall and a transformer. They gave no name, species or note. The species is read from the photograph, and the story asks readers to confirm it. There is no register entry and no article nearby. It went live under the closed list, with the pin on the public lane and an access line saying the garden may be private. India is out of focus only for our own research.
+- **Cremines (cre_001)**: Switzerland's oldest yew had no photograph. A reader's summer shot of the fluted trunk on its forest slope is now the lead.
+- **Trolleken**: this run judged the same three photographs as the parallel run below and reached the same verdicts. On the rebase, main's version was kept.
+- **Readers' words**: the three notes still open (Friedewald, Geelong, Te Araroa) were already reflected on their pages, so they are closed with `--done`. Raesfeld's note was quoted by the parallel run. Friedewald's age field read "350 to 700 years", which blended in the reader's figure. It now reads "350 to 440 years by published estimates; 500 to 700 by a reader's estimate".
+- No open reports and no unjudged feedback. `sightings_publish.py` could not read coordinates for its pin catch-up (HTTPError). None was needed: both trees already had their pins.
+- **Two reader-judge runs overlapped on the same queue.** Both judged Trolleken; the photographs and verdicts were identical, so nothing broke. The workflow could do with a concurrency group.
+
+## 2026-11-17 reader judge: three readers' photographs on Trolleken, the Femeiche reader quoted
+
+- **Live**: three photographs of Trolleken, the Troll Oak of Trollskogen on Öland (trs_001), from one reader, taken 2025-07-20, GPS 0 m from our pin. Looked at each: lobed oak leaves, the burred, hollowed trunk inside its rail fence, and in one the Naturum board reading "Trolleken". The shot where the trunk fills the frame now leads; the board shot and the backlit one sit in the strip (`add`). Its page now has a lead photograph unique to us.
+- **Readers' words**: the Erler Femeiche (rsf_001) story now quotes the reader's own sentence on its NRW heritage title instead of paraphrasing it. Three older notes still wait in `reader_words.py` (Hammundeseiche, Geelong, Te Araroa) for a later run.
+- The Baarn lead 7ff766ff (our own account) was held by the parallel run below; its verdict stands. The 37 older `mine` leads were left alone: our own accounts, never auto-published.
+- No open reports, no feedback without a verdict. Preflight 0 problems, i18ncheck clean.
+
+## 2026-11-17 reader judge: North Berwick's Act of Union beeches go live (nbw_001); the Isparta plane moves to where its finder put it
+
+- **New: The Act of Union Beeches of North Berwick Law** (north-berwick/nbw_001), a new one-tree place. A reader's photograph from 11-15, held then "for Hidde" for want of a source, was judged again under the closed list when the same reader moved its pin (report 1000032). The Union planting has sources: Sir Hew Dalrymple, Lord North Berwick, planted the beeches for 1707 (Wikipedia citing Scotland on Sunday 2009, six left then; the Scotsman; a 2013 blog counting five). The reader's words are quoted, and the pin is their own move, marked approximate. Report 1000032 was closed with the standard pin thank-you. A custom reply written first was replaced, because the rule that landed on main during this run allows runs only the standard mails.
+- **Isparta (isp_001)**: the reader who sent the plane, also the place's ambassador, moved its pin 892 m, from the middle of Çınar Sokak in Kafeler to 144. Cadde in Sülübey. Under the rule for a tree its own finder placed, their move stands (still approximate). Our "café street in Kutlubey" reading was a guess from the street name, so it is gone from the address, access, story, intro, question texts and FAQ. The name and slug stay: "Çınar Street" is the finder's own name for the tree, so the rename with a redirect that the parallel entry below asked about is not needed. Report 1000042 was closed with the standard pin thank-you.
+- **Held**: 7ff766ff "European Beech in Baarn" came from one of our own accounts. The photograph shows a desk fan, so it is held as `wrong_subject` (a test).
+- **Readers' words**: two notes were closed as not quotable (the Gennett Poplar's trailhead line; Moss Vale's pasted 1905 newspaper text plus an encyclopedia paragraph). Four are still open for a later run: Friedewald's Hammundeseiche (a German reader dates it to 500 to 700 years, which needs a "by a reader's estimate" edit), Geelong, Raesfeld and Te Araroa. There was no time left in this window.
+- No reader photographs of trees we map were waiting. Preflight shows 0 problems and i18ncheck is clean.
+
 ## 2026-11-17 reader judge: the kauri's photo off the Huntington cypress, two more reports answered
 
 - **Fixed (reader report 1000061, "on the map twice")**: the Huntington Montezuma Cypress (lax_017) was showing the kauri's photograph, byte for byte. The same reader sent one picture twice, once tagged to the cypress, and a viewing pass approved it (broad leaves, the orange trunk and the champion sign: the kauri). Taken off lax_017, which is back to no photo; the file is deleted and sighting ee54ed84 is now held `wrong_tree`. lax_011 keeps the photo. Reply queued.
@@ -27,11 +106,16 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Cambridge plane**: the reader moved the pin twice to Emmanuel College; the plane stands in the Fellows' Garden, which the college calls private, so the hold stays `not_public` with the right reason, and the reader is asked whether visitors can see it (report 1000067, reply queued).
 - **For Hidde:** two feedback rows wait for your call (786 idea, 849 reply draft); five reports the judge left open are listed under "Open for you".
 
+## 2026-11-17 session: mailcheck no longer refuses the verb "walks"
+
+- The Blaise reply to the reader who sent grid references (report 1000054) was held for "so the next person walks straight to them": mailcheck read the bare word as the walks feature. Hidde: "we mogen best walks zeggen wtf". The bare `walks` pattern is gone; "guided walks", "walking routes" and the like still count as the feature. Test: scripts/test_mailcheck_walks.py, on the escaped-bug row. The reply goes with the next knock.
+
 ## 2026-11-17 session: the Ochi chestnut forest (submission 936) judged
 
 - Hidde asked what happened to an app submission about the Kastanologos chestnut forest on Mount Ochi, Evia (2026-11-16): nothing. Text only, no photograph, so no sighting row, and the reader judge never saw it.
 - Verdict: the pinned trunk is held as `dead` (the reader's own words), filed in data/leads/_sightings.json and data/judgements.json. The living forest is a lead in data/leads/karystos.json (ochi.gr, Reforest'Action, Enel: ~60 ha, 200 to 450 years), waiting for one living trunk with a photo or GPS fix.
 - Reply drafted, drafts/reply-reader-936-2026-11-17.md (mailcheck clean), asks for their favourite living chestnut there. For Hidde: goes as reply_text with outcome `holds` on his yes.
+- Reply sent on Hidde's yes: queued as reply_text with outcome `open_question` on submission 936 (dry run passes mailcheck); the next knock's contributor_reply.py mails it.
 - New rule (Hidde, same day): a standing dead tree still worth the detour ships with a photograph showing it standing and a page that says it is dead; never a stump or fallen trunk (CLAUDE.md "Selection", BRIEF_READER_JUDGE.md). The Ochi reply now asks only for a photo of their dead chestnut.
 - Breakage: a tree submission without a photograph gets no verdict (937 Cape Town fig and 939 Tsitsikamma from the web form also sit unjudged). Recorded as an escaped bug (escaped.py), rung-2 work.
 
@@ -72,7 +156,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Fixed (found by Hidde, the Arbour Oak of Wollaton Park)**: a tap anywhere in a tree page's notes, a writer's name included, opened the sign-in sheet, signed in or not. The notes section carried its "Sign in first" text as `data-signin`, which signin-js reads as "this opens sign-in". Renamed to `data-signin-first`; qa `check_data_signin_only_on_controls()` keeps that attribute on links and buttons (ESC-2026-11-17, closed by that check).
 - **Changed in the product (Hidde: "bij foto's wel namen gaan noemen ... Als die een account hebben, dan worden die accounts ook klikbaar")**: a note's writer with a public profile is now a link to their profile (signed out: sign in first, then it lands on the profile, the New from visitors way). A reader's photograph on a tree page names its sender under the photo ("Photo: <name>", linked) when their profile is public; private stays nameless. Terms and privacy rewritten to say so. Feed photos carry `by` (the photo's server id) for the app.
-- **Waits for the SQL**: supabase/reader-names.sql (tree_notes_for gains author_id; new photo_authors()). Until it is pasted, names under notes are buttons that ask but find no profile, and photographs show no name. The management token in the env file is invalid, so a session could not run it.
+- **SQL live**: Hidde pasted supabase/reader-names.sql the same morning; checked on the Arbour Oak: notes and photo_authors answer, anon gets the name and no account id, the page shows "Photo: Katie Elizabeth". One name per person everywhere: the profile's display_name (Hidde: "maar 1 naam voor een gebruiker over het hele platform"). The management token in the env file is invalid, so sessions cannot run SQL themselves.
 - **App**: the same in TreeDetail.swift follows in a worktree.
 
 ## 2026-11-17 reader judge: a reader's Boab Prison Tree photograph leads

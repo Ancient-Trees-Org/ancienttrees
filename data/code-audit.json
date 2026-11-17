@@ -420,8 +420,45 @@
    "file": "BRIEF_READER_JUDGE.md",
    "summary": "A tree submission without a photograph (app text-only, or the web form) gets no verdict: submission 936 (Ochi chestnut, 2026-11-16) and web submissions 937 and 939 sat unjudged; the reader judge reads only sightings and _sightings.json leads",
    "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/test_judgement_tips.py",
+   "fixed_in": "9f3db4598"
+  },
+  {
+   "id": "ESC-2026-11-17-mailcheck-held-a-reader-reply-for-the-ve",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/mailcheck.py",
+   "summary": "mailcheck held a reader reply for the verb 'walks' ('so the next person walks straight to them', Blaise report 1000054) as an unshipped feature",
+   "first_seen": "2026-11-17",
    "status": "open",
-   "found_by": "hidde"
+   "found_by": "hidde",
+   "test": "scripts/test_mailcheck_walks.py"
+  },
+  {
+   "id": "ESC-2026-11-17-back-after-an-hour-a-signed-in-visitor-w",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/collection-js.ts",
+   "summary": "Back after an hour, a signed-in visitor was asked to sign in on save, collect, /contribute and /account: the one door decided before signin-js renewed the spent token",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_signed_in_is_never_asked_to_sign_in()",
+   "fixed_in": "71659d487"
+  },
+  {
+   "id": "ESC-2026-11-17-signed-in-with-no-signal-and-a-spent-tok",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
+   "summary": "Signed in with no signal and a spent token, writing a note, following, asking to be an ambassador or joining Plus opened the sign-in sheet instead of saying it did not go through",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_signed_in_is_never_asked_to_sign_in()",
+   "fixed_in": "7f288d18d"
   },
   {
    "id": "ESC-2026-11-17-android-tapping-the-camera-crashed-the-a",

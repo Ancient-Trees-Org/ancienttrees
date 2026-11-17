@@ -212,7 +212,10 @@ struct PlusQuestionSheet: View {
         joining = true
         Task {
             guard let token = await account.freshToken() else {
-                joining = false; signingIn = true; return
+                joining = false
+                // No signal is not a sign-out (Account.apply): signed in, it failed; only a real sign-out asks (2026-11-17).
+                if !account.isSignedIn { signingIn = true }
+                return
             }
             let ok = await PlusAnswers.joinWaitlist(token: token)
             joining = false

@@ -673,10 +673,17 @@
       "access": "Free. The inner courtyard of the Oudemanhuispoort passage, open in the daytime on weekdays.",
       "transport": "Metro or tram to Rokin, about 5 min walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/ams_021-the-oudemanhuispoort-elm.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_0f6b42161f64e6f916e0bea7",
+        "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: A tall, straight, deeply furrowed trunk rising past three storeys in a brick and stone inner courtyard, autumn leaves on the paving, daylight and colour; the tree's first photograph. Species seen: elm: rough, vertically fissured grey-brown bark, small oval toothed leaves turning yellow. Fits the description: one very tall tree hemmed in by buildings on all sides of a small inner courtyard, as the story and recognition line describe for the Oudemanhuispoort.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

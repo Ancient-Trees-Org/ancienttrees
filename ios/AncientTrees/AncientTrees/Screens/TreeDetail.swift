@@ -2359,7 +2359,12 @@ struct TreeDetail: View {
         guard !text.isEmpty, !noteSaving else { return }
         noteSaving = true
         Task {
-            guard let token = await account.freshToken() else { noteSaving = false; noteSignIn = true; return }
+            guard let token = await account.freshToken() else {
+                // No signal is not a sign-out (Account.apply): signed in, it failed; only a real sign-out asks (2026-11-17).
+                noteSaving = false
+                if account.isSignedIn { noteFailed = true } else { noteSignIn = true }
+                return
+            }
             let ok = await notes.save(tree: tree.id, body: text, token: token)
             noteSaving = false
             if ok { writingNote = false } else { noteFailed = true }

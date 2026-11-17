@@ -315,10 +315,19 @@ const canonical = `${BASE_URL}/account`;
     history.replaceState(null, "", location.pathname);
     show("st-expired");
   } else {
-    try {
-      var s = JSON.parse(localStorage.getItem("ancienttrees_session"));
-      if (s && s.expires_at > Date.now() / 1000) signedIn(s);
-    } catch (e) {}
+    var fromStore = function() {
+      try {
+        var s = JSON.parse(localStorage.getItem("ancienttrees_session"));
+        if (s && s.expires_at > Date.now() / 1000) { signedIn(s); return true; }
+      } catch (e) {}
+      return false;
+    };
+    // A spent token is renewed by signin-js after this runs (window.atRefreshing);
+    // ask again on its answer, so back after an hour is not the sign-in form
+    // (2026-11-17).
+    if (!fromStore()) window.addEventListener("load", function() {
+      if (window.atRefreshing) Promise.resolve(window.atRefreshing).catch(function() {}).then(fromStore);
+    });
   }
   var holdForSuggestion = window.atWireEmailSuggest ? window.atWireEmailSuggest("acct") : function() { return false; };
   document.getElementById("acct-form").addEventListener("submit", function(ev) {

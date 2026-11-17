@@ -1544,7 +1544,35 @@
   },
   "p_d5b6b02503ae50c0b89c742a": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
+     "tree_id": "trs_001",
+     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
+     "city": "Trollskogen",
+     "city_slug": "trollskogen",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "c9571128-bcb5-4b44-a87d-5fd433b1a10b",
+     "tree_id": "trs_001",
+     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
+     "city": "Trollskogen",
+     "city_slug": "trollskogen",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
+     "tree_id": "trs_001",
+     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
+     "city": "Trollskogen",
+     "city_slug": "trollskogen",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "54dc7d2a-aaf6-4158-8784-3f3c256942a3",
@@ -1746,6 +1774,81 @@
      "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
      "city": "Stow-on-the-Wold",
      "city_slug": "stow-on-the-wold",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_76408b11d09611876123c171": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
+     "tree_id": "cre_001",
+     "tree_name": "The Old Yew of Cremines (If millenaire)",
+     "city": "Cremines",
+     "city_slug": "cremines",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_0f6b42161f64e6f916e0bea7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",
+     "tree_id": "ams_021",
+     "tree_name": "The Oudemanhuispoort Elm",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_d7ff9c940715c607d7c78cc7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745",
+     "tree_id": "lon_001",
+     "tree_name": "The Totteridge Yew",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_da68887efbcb3708dd151f6f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "4bc25502-4712-4388-ab52-97d23703d9fe",
+     "tree_id": "lon_011",
+     "tree_name": "The St Paul's Churchyard Planes",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_8b86d4aa9a803a2e23ac0f7a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304",
+     "tree_id": "lon_053",
+     "tree_name": "The Twisted Sweet Chestnut of Greenwich Park",
+     "city": "London",
+     "city_slug": "london",
      "display_name": null,
      "live": "2026-11-17"
     }

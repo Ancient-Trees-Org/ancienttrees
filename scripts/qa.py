@@ -4152,6 +4152,36 @@ def check_data_signin_only_on_controls():
     return [f"data-signin on a non-control (every tap inside opens sign-in): {b}" for b in bad]
 
 
+def check_signed_in_is_never_asked_to_sign_in():
+    """A signed-in person never gets the sign-in sheet (Hidde, 2026-11-17:
+    "kun je herkennen of nagaan of er nog anders zon loop zit?").
+
+    App: no signal is not a sign-out (Account.apply keeps the session when the
+    renewal is unreachable), so freshToken() can be nil for somebody signed
+    in. A branch that opens sign-in on that nil must ask isSignedIn first;
+    five did not (notes, follow twice, ambassador, Plus).
+    Web: signin-js renews a spent token after the page's scripts ran, so the
+    one door (collection-js verify) waits for window.atRefreshing; it decided
+    first and kept "signed out" for the page, back after an hour.
+    """
+    bad = []
+    app = ROOT / "ios" / "AncientTrees" / "AncientTrees"
+    for f in app.rglob("*.swift"):
+        lines = f.read_text(encoding="utf-8").split("\n")
+        for i, l in enumerate(lines):
+            if "freshToken()" in l and "else" in l:
+                block = "\n".join(lines[i:i + 8])
+                end = block.find("return")
+                block = block[:end if end >= 0 else len(block)]
+                if re.search(r"[sS]ignIn\w* = true|signingIn = true", block) and "isSignedIn" not in block:
+                    bad.append(f"{f.relative_to(ROOT)}:{i + 1} opens sign-in on a nil token without asking isSignedIn")
+    coll = (ROOT / "site" / "src" / "lib" / "collection-js.ts").read_text(encoding="utf-8")
+    sign = (ROOT / "site" / "src" / "lib" / "signin-js.ts").read_text(encoding="utf-8")
+    if "window.atRefreshing =" not in sign or "atRefreshing" not in coll:
+        bad.append("collection-js verify() no longer waits for signin-js's token renewal (window.atRefreshing)")
+    return bad
+
+
 def check_css_braces_balance():
     """A block left open swallows every rule after it (2026-09-24).
 
@@ -4332,6 +4362,10 @@ def main():
         DIST = args.dist.resolve()
 
     SOURCE_ONLY = [
+        # Before the push, not only after the build (2026-11-17: a reader judge
+        # run wrote a raw account id into _sightings.json, the push went
+        # through, and every deploy failed on it for over an hour).
+        check_no_reader_traces_in_the_repo,
         check_no_daily_cap_on_reader_mail,
         check_a_website_tree_says_approved_on_my_trees,
         check_one_mail_route_rule,
@@ -4428,6 +4462,7 @@ def main():
     failures += check_hidden_means_hidden()
     failures += check_css_braces_balance()
     failures += check_data_signin_only_on_controls()
+    failures += check_signed_in_is_never_asked_to_sign_in()
     failures += check_sheet_integrity()
     failures += check_inline_scripts_parse()
     failures += check_one_tree_card()

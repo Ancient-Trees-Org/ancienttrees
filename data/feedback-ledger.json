@@ -4,7 +4,17 @@
   "1052": {
    "date": "2026-11-17",
    "status": "handled",
-   "what": "German Nationalerbe-Baeume list: already a lead list since 2026-10-02 (data/register-scouting.json); second pointer noted there. No reply needed."
+   "what": "Nationalerbe-Baeume list: walking it parked on the backlog (PRODUCT_TODO 21); thank-you queued on Hidde's yes"
+  },
+  "1075": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "Tree tip: not on the map, recorded as a lead in data/leads/_famous-united-kingdom.json for a verify pass"
+  },
+  "1080": {
+   "date": "2026-11-17",
+   "status": "needs_hidde",
+   "what": "Asks how to add trees near them; the product already does this, a short reply pointing to Add a tree is drafted for Hidde."
   },
   "405": {
    "date": "2026-11-17",

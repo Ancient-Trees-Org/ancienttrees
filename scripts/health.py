@@ -867,6 +867,22 @@ def main():
                 print(f"  {'Apple web secret':20s} {'ok':10s} "
                       f"{left} days left (expires {expires})")
 
+    # Anything a reader sent that waited over a day without a verdict (Hidde,
+    # 2026-11-17: the reader system needs an alarm, not a question from him).
+    try:
+        import reader_backlog
+        late = reader_backlog.late()
+        if late:
+            print(f"  {'Reader backlog':20s} {'LATE':10s} {len(late)} item(s) over {reader_backlog.MAX_HOURS}h")
+            problems.append("%d thing(s) a reader sent waited over %dh without a verdict "
+                            "(python3 scripts/reader_backlog.py): %s. Judge them per "
+                            "BRIEF_READER_JUDGE.md, then find why the reader judge missed them."
+                            % (len(late), reader_backlog.MAX_HOURS, "; ".join(late[:5])))
+        else:
+            print(f"  {'Reader backlog':20s} {'ok':10s} nothing over {reader_backlog.MAX_HOURS}h")
+    except Exception as e:
+        unknown.append("reader backlog (%s)" % str(e)[:40])
+
     if unknown:
         print(f"\n  could not check: {', '.join(unknown)} "
               "(gh missing, unauthenticated, or the file is absent)")

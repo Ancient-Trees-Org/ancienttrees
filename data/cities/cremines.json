@@ -50,10 +50,17 @@
       "access": "Free, public forest (Foret du Maljon). No path or signposts lead to it directly; the commune's own page says it stands hidden under rocks, off the walking paths, deliberately hard to find. Public land, not private, but expect a real search on foot.",
       "transport": "No public transport nearby; nearest station is Cremines on the Moutier-Solothurn line, then on foot up into the Maljon forest (steep, unmarked, roughly 45-60 min walk based on hiking-site descriptions; not verified by us step by step).",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cre_001-the-old-yew-of-cremines-if-millenaire.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_76408b11d09611876123c171",
+        "sighting_id": "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
+        "note": "Photographed by a reader and sent through the app (2026-07-17); a viewing pass approved it on 2026-11-17: Closes a gap: the yew had no photograph. The squat, fluted, hollow-looking trunk fills the frame in a mixed forest on a slope, daylight and colour. Species seen: flat dark-green needles in sprays, reddish-purple flaking bark, a fluted buttressed bole: European yew. Fits the description: an enormous fluted yew trunk standing alone on a forest slope with only a rope line, no path or signpost in view, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

@@ -82,6 +82,19 @@
           "width": 3723,
           "height": 3438,
           "taken_month": 7
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-bb69be6b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_d7ff9c940715c607d7c78cc7",
+          "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The yew's pollarded crown from below, many twisting stems out of a broad old bole, daylight; a good second view, but a child peers out of the branches, so it stays behind the lead. Species seen: yew: flat dark needles in two rows, flaking red-brown bark, many-stemmed crown. Fits the description: an ancient, hard-pollarded yew with a broad hollowing bole, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
     },
@@ -502,8 +515,8 @@
       "age_max": 280,
       "location": {
         "address": "North Churchyard, St Paul's Cathedral, City of London EC4M 8AD",
-        "latitude": 51.5145,
-        "longitude": -0.098,
+        "latitude": 51.514243,
+        "longitude": -0.097848,
         "neighbourhood": "City of London"
       },
       "story": "Four planes stood on the north side of St Paul's churchyard until the Great Storm of 1987 took one of them down. The three that remain are, according to one detailed local history of the cathedral, over 250 years old, which would put their planting in the middle of the 18th century, when Wren's dome was still the newest thing on the skyline and the ground beneath them was a working burial place. That age comes from a single account. The London Parks and Gardens Trust inventory for the churchyard agrees only that these are among the oldest plane trees in the City, without giving a number or a date, so read 250 years as the best figure anyone has published rather than a measured one.\n\nWhat they lived through is less disputed. On the night of 29 December 1940 incendiary bombs set the streets around the cathedral alight and burned out much of the City. The dome held, and so did the planes. Londoners later planted this species everywhere precisely because it shrugs off soot and smoke; these three were in the ground a century before that fashion started.\n\nThis is an ensemble rather than one specimen: three unnamed trees, none of them individually catalogued or given coordinates by any source. Stand on the paved path along the north side and all three are in one view. The pin marks that garden, not a particular trunk.",
@@ -514,14 +527,28 @@
       "access": "Free, open access, public churchyard garden on the north side of St Paul's Cathedral (no ticket needed for the garden, only for the cathedral interior)",
       "transport": "2 min walk from St Paul's station (Central Line)",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lon_011-the-st-paul-s-churchyard-planes.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_da68887efbcb3708dd151f6f",
+        "sighting_id": "4bc25502-4712-4388-ab52-97d23703d9fe",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: A tall London plane in full autumn leaf, trunk and crown in daylight, standing behind the churchyard railings with City office blocks behind; the reader's GPS fix is 30 m from our pin. It closes the gap: the planes had no photograph. Species seen: mottled, flaking plane bark on a tall clean trunk; palmate maple-like leaves turning yellow. Fits the description: a big, old plane inside the railed churchyard of St Paul's, surrounded by City buildings, as the story and recognition line place them.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
-      "how_to_recognise": "You can recognise them by there being three of them, a fourth having gone down in the 1987 storm. They stand in the north churchyard of St Paul's; from the paved path along that side all three are in one view."
+      "location_precision": "confirmed",
+      "how_to_recognise": "You can recognise them by there being three of them, a fourth having gone down in the 1987 storm. They stand in the north churchyard of St Paul's; from the paved path along that side all three are in one view.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4bc25502-4712-4388-ab52-97d23703d9fe",
+        "moved_m": 30,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "lon_012",
@@ -2260,16 +2287,72 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+        "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park-ca9231c6.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1600,
-        "height": 1200,
+        "height": 1311,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
-        "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
-        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The whole chestnut front-lit in low autumn sun, the twisted hollow trunk under a full gold crown, blue sky; clearer than the backlit lead from the same reader. Second file is a close-up of the spiralling trunk. Species seen: long serrated lance-shaped leaves of sweet chestnut, spiral-grained furrowed trunk. Fits the description: twisted, hollowed trunk with a broad rounded crown, beside a tarmac path on open grass, park railings behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+          "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
+          "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
+    },
+    {
+      "id": "lon_054",
+      "name": "The Burred Mulberry of Morden Hall Park",
+      "species": "Black Mulberry (Morus nigra)",
+      "location": {
+        "address": "Morden Hall Park, Morden Hall Road, Morden",
+        "latitude": 51.4034,
+        "longitude": -0.186025,
+        "neighbourhood": "Morden"
+      },
+      "how_to_recognise": "In a fenced garden bed: a low, leaning mulberry whose trunk is covered in knobbly burrs, a wooden post standing beside it and a woven hazel hurdle behind.",
+      "access": "Free, in Morden Hall Park (National Trust), open daily. The tree stands behind a low protective fence; see it from outside.",
+      "story": "\"Described as a veteran, with a protective fence,\" wrote the reader who sent us this black mulberry from Morden Hall Park, with a GPS fix taken beside it.\n\nMorden Hall Park is the old estate on the River Wandle in south London, now a National Trust park of meadows, waterways and gardens, and this tree stands in a fenced bed inside it. The photograph shows why someone thought it worth a fence. The trunk leans hard to one side and is swollen all over with burrs, knobbed and lumpy like a sack of stones, and a wooden post stands up beside it. From the top of that crooked trunk the limbs twist out in every direction, some broken short, others running long and bending back towards the light, the way old mulberries grow when they are left to lean and keep going.\n\nBlack mulberries were planted in English gardens for centuries for their dark, staining fruit, and they look ancient long before they are. We do not know this one's age or girth. If you know what the park says about it, tell us here.\n\nCome in late summer, when the fruit ripens, and look at the burrs from the path.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (5e81af24-c36d-4b03-a6ed-92b1030ccca3, 2026-11-17, through the app). Photograph viewed: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Black Mulberry in London', species 'Black Mulberry', note 'Described as a veteran, with a protective fence'. The pin falls inside Morden Hall Park, about 110 m north of the Ancient Yew Group's yew 2556 there.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_054-burred-mulberry-of-morden-hall-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a2eecf296f5d8a35f0bd0bb2",
+        "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

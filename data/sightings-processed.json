@@ -473,10 +473,9 @@
    "pin_checked": "2026-10-05"
   },
   "1b9adcb8-c06f-48b5-b8c0-398f6227a257": {
-   "outcome": "rejected",
-   "date": "2026-10-05",
-   "tree_id": "mel_001",
-   "reason": "Bare deciduous tree with a forked trunk; a holm oak is evergreen and dense. The dark evergreen oaks are the neighbours at the sides, not the subject."
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "d9c08351-03d1-4b51-a6ec-972f08d308e8": {
    "outcome": "published",
@@ -802,9 +801,8 @@
   },
   "3c0f5c56-a6f7-4e8f-b6a3-61c39abcafeb": {
    "outcome": "held",
-   "date": "2026-11-02",
-   "tree_id": "par_033",
-   "reason": "Possibly the wrong trunk: long narrow toothed chestnut-like leaves, where the page's two reader photographs show the lobed leaves and corky bark of a Turkey oak. GPS 5 m off our pin, so likely a neighbouring tree in the same square."
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "4b28d99e-e0f2-4572-b851-23dd79e73031": {
    "outcome": "added",
@@ -840,10 +838,9 @@
    "pin_checked": "2026-11-11"
   },
   "0895764e-dde4-401e-8247-de71144ccd30": {
-   "outcome": "rejected",
-   "date": "2026-11-11",
-   "tree_id": "pad_009",
-   "reason": "Looked at it: a weeping pagoda tree in a private front garden behind an iron gate with house number 7A, not the two trees on the open university square of Piazza Capitaniato. Wrong tree for pad_009; sent from the website, so the position is our pin and says nothing about where this one stands."
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-668": {
    "outcome": "lead",
@@ -1081,12 +1078,6 @@
    "lat": 37.7434267,
    "lon": -25.6755293,
    "pin_checked": "2026-11-15"
-  },
-  "abb593f0-9a90-47cd-8138-1040de6f803c": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "azo_001",
-   "reason": "A different fig from azo_001: curtains of hanging aerial roots, a street fence and parked cars behind, where azo_001 is the buttress-rooted tree in the sender's other photograph. Sent from the page with no device fix, so it cannot be placed; kept as a lead."
   },
   "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f": {
    "outcome": "added",
@@ -1339,9 +1330,8 @@
   },
   "1b533cdf-ddaf-459a-a771-f9c1d8702d78": {
    "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "gro_004",
-   "reason": "This is not a ginkgo: smooth grey columnar trunk and a fine crown of small oval leaves, with beech leaves on the path, so most likely a beech near the ginkgo. Wrong tree for this entry."
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76": {
    "outcome": "published",
@@ -1364,12 +1354,6 @@
    "lat": 53.09508,
    "lon": -8.8361,
    "pin_checked": "2026-11-15"
-  },
-  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "kan_003",
-   "reason": "A snow-covered Japanese black pine in Kenrokuen with props and yukitsuri ropes, but taken 95 metres from the pin and without the pond or the low wide spread over the water that marks the Karasaki pine. The garden rigs hundreds of pines; cannot tell this is that one."
   },
   "553ee5be-96b8-4e88-a48a-c7d66825dd68": {
    "outcome": "added",
@@ -2082,8 +2066,10 @@
    "date": "2026-11-15"
   },
   "460c96b9-89e2-41ac-a829-ec911be11ef7": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "nbw_001",
+   "city_slug": "north-berwick"
   },
   "57a70549-ac95-452e-894b-3bf467dc26ae": {
    "outcome": "published",
@@ -2212,12 +2198,6 @@
    "lon": 12.502667,
    "pin_checked": "2026-11-15"
   },
-  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "ank_001",
-   "reason": "A multi-stemmed plane tree in a car park, not a yew; wrong tree for the Ankerwycke Yew."
-  },
   "58c5695b-4cbb-431d-b01e-9b7474bf4767": {
    "outcome": "held",
    "date": "2026-11-15",
@@ -2339,12 +2319,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "cnx_001",
-   "reason": "Photo shows a strangler fig with exposed roots, not a Dipterocarpus; the fix is 2.2 km from our pin. Doubt is a hold."
-  },
   "c8d04675-2b33-4799-8579-159c24813e0b": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2395,12 +2369,6 @@
    "lon": 6.74214666666667,
    "pin_checked": "2026-11-15"
   },
-  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
-   "outcome": "rejected",
-   "date": "2026-11-15",
-   "tree_id": "dub_017",
-   "reason": "A weeping conifer (cedar-like) arch, not a strawberry tree with peeling bark."
-  },
   "1dde934f-5b8b-415c-9b32-febb864eac2a": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2428,12 +2396,6 @@
    "date": "2026-11-15",
    "tree_id": "lon_042",
    "reason": "Two recognisable people fill the frame; the oak is background. Out of the strip for privacy."
-  },
-  "9c93b205-3812-4c19-9040-a4efe3511170": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "lon_052",
-   "reason": "A huge London plane, 10.7 km from the Hampstead beech it was tagged to: wrong tree. Kept as a lead for a new tree."
   },
   "8b7f5345-ac50-432e-bc87-7f9fb01f07e1": {
    "outcome": "rejected",
@@ -3064,7 +3026,8 @@
   },
   "bfc89932-0e03-486f-9857-72e11af25298": {
    "outcome": "held",
-   "date": "2026-11-16"
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "b4902ef7-a641-4d4d-86c4-98b316da873d": {
    "outcome": "held",
@@ -3108,9 +3071,8 @@
   },
   "40b57e0b-fc77-4f71-affd-50f82641ab10": {
    "outcome": "held",
-   "date": "2026-11-16",
-   "tree_id": "bri_015",
-   "reason": "Looking up a tall reddish fibrous trunk: reads as a giant sequoia or redwood, not a Monterey cypress, and no iron railings in frame. Could be the wrong tree."
+   "date": "2026-11-17",
+   "reason": "bad_frame"
   },
   "2632a81c-4101-44f9-b8f2-d6da60701515": {
    "outcome": "held",
@@ -3760,12 +3722,6 @@
    "outcome": "lead",
    "date": "2026-11-17"
   },
-  "fb383f1e-0383-4579-9603-21cca3aedd94": {
-   "outcome": "held",
-   "date": "2026-11-17",
-   "tree_id": "mex_006",
-   "reason": "Dead standing trunk with a stone urn behind, GPS 3.9 km from the San Fernando garden (Chapultepec area); not our living broad-crowned tree. Dead, so not a lead either."
-  },
   "07a152c4-578e-45fd-a3ca-1023b7e43bfc": {
    "outcome": "held",
    "date": "2026-11-17",
@@ -4207,13 +4163,127 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "vfg_001",
-   "city_slug": "valley-forge"
+   "city_slug": "valley-forge",
+   "pin_checked": "2026-11-17"
   },
   "5234d132-b7d8-4fd2-a888-a8888b8e7459": {
    "outcome": "rejected",
    "date": "2026-11-17",
    "tree_id": "lon_021",
    "reason": "wrong tree: the photograph shows a tall London plane (palmate, lobed leaves turning yellow, flaking plane bark at the foot) in Finsbury Circus Gardens, not the Japanese pagoda tree (pinnate leaves) that lon_021 is. Kept as a lead of its own in data/leads/_sightings.json."
+  },
+  "7ff766ff-d1dd-4ce6-b8dd-c685fb053743": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "wrong subject: a desk fan, our own test account"
+  },
+  "df61ce54-1440-4120-be2d-446bf82ff986": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-df61ce54.jpg",
+   "reason": "Trolleken from the path side, against the light: the squat, burred and hollowed trunk inside its rail fence, ferns at the foot, a dead limb rising right. Same trunk as the other two shots. Species seen: lobed oak leaves with short stalks, deeply fissured grey oak bark. Fits the description: a huge, ",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "c9571128-bcb5-4b44-a87d-5fd433b1a10b": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-c9571128.jpg",
+   "reason": "The whole tree from the Trollskogsstigen with the Naturum interpretation board reading 'Trolleken' in front of the fence; daylight, colour. Species seen: lobed oak leaves, fissured oak bark, broad low crown. Fits the description: the veteran oak on the waymarked trail, fenced, with the board titled ",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "ef187fe2-7b84-4b0c-8a97-1b809f26fb89": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-ef187fe2.jpg",
+   "reason": "The trunk fills the frame: the massive lichen-covered bole, the hollow at its foot and the twisting limbs, in summer leaf and daylight. The best lead of the three. Species seen: lobed pedunculate oak leaves, deeply fissured oak bark. Fits the description: an enormous, hollowed veteran oak within a r",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "0d0eb3f0-bfe3-4863-8bdf-d594e43512b8": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree": "mangaluru/mlr_001"
+  },
+  "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cre_001",
+   "city_slug": "cremines",
+   "file": "cre_001-the-old-yew-of-cremines-if-millenaire.jpg",
+   "reason": "Closes a gap: the yew had no photograph. The squat, fluted, hollow-looking trunk fills the frame in a mixed forest on a slope, daylight and colour. Species seen: flat dark-green needles in sprays, reddish-purple flaking bark, a fluted buttressed bole: European yew. Fits the description: an enormous ",
+   "lat": 47.272708,
+   "lon": 7.471473,
+   "pin_checked": "2026-11-17"
+  },
+  "c7d330dc-6134-4098-87f1-ee6360aa7295": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "ams_021",
+   "city_slug": "amsterdam",
+   "file": "ams_021-the-oudemanhuispoort-elm.jpg",
+   "reason": "A tall, straight, deeply furrowed trunk rising past three storeys in a brick and stone inner courtyard, autumn leaves on the paving, daylight and colour; the tree's first photograph. Species seen: elm: rough, vertically fissured grey-brown bark, small oval toothed leaves turning yellow. Fits the des",
+   "lat": 52.369375,
+   "lon": 4.896028,
+   "pin_checked": "2026-11-17"
+  },
+  "bb69be6b-1be3-4e93-8adb-0477f0ce1745": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_001",
+   "city_slug": "london",
+   "file": "lon_001-the-totteridge-yew-bb69be6b.jpg",
+   "reason": "The yew's pollarded crown from below, many twisting stems out of a broad old bole, daylight; a good second view, but a child peers out of the branches, so it stays behind the lead. Species seen: yew: flat dark needles in two rows, flaking red-brown bark, many-stemmed crown. Fits the description: an ",
+   "lat": 51.6323,
+   "lon": -0.2002,
+   "pin_checked": "2026-11-17"
+  },
+  "5840146e-9b2c-489c-bb03-fe3d54d36290": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "lon_001",
+   "reason": "wrong_subject: a portrait of a child smiling from inside the foliage; the yew's trunk is hidden behind needles and nothing in the frame shows the tree itself."
+  },
+  "0ba575c4-d0b6-4503-b903-7bdc37a45c52": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "dead: the photograph shows Queen Elizabeth's Oak as it is now, a fallen hollow trunk lying in leaf litter inside its railings in Greenwich Park; the reader's second photo, the Royal Parks board, says it died many years ago. A fallen trunk never ships (CLAUDE.md, alive only); we retired it on 2026-07-27 for the same reason and lon_005, the Greenwich Park sweet chestnut, stands for that corner."
+  },
+  "4bc25502-4712-4388-ab52-97d23703d9fe": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "lon_011",
+   "city_slug": "london",
+   "file": "lon_011-the-st-paul-s-churchyard-planes.jpg",
+   "reason": "A tall London plane in full autumn leaf, trunk and crown in daylight, standing behind the churchyard railings with City office blocks behind; the reader's GPS fix is 30 m from our pin. It closes the gap: the planes had no photograph. Species seen: mottled, flaking plane bark on a tall clean trunk; p",
+   "lat": 51.5142428816425,
+   "lon": -0.0978480564640901,
+   "pin_checked": "2026-11-17"
+  },
+  "ca9231c6-da07-4271-9f9d-6d2f68cf6304": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_053",
+   "city_slug": "london",
+   "file": "lon_053-the-twisted-sweet-chestnut-of-greenwich-park-ca9231c6.jpg",
+   "reason": "The whole chestnut front-lit in low autumn sun, the twisted hollow trunk under a full gold crown, blue sky; clearer than the backlit lead from the same reader. Second file is a close-up of the spiralling trunk. Species seen: long serrated lance-shaped leaves of sweet chestnut, spiral-grained furrowe",
+   "lat": 51.4795616666667,
+   "lon": 0.00433611666666667,
+   "pin_checked": "2026-11-17"
+  },
+  "5e81af24-c36d-4b03-a6ed-92b1030ccca3": {
+   "outcome": "published",
+   "date": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
