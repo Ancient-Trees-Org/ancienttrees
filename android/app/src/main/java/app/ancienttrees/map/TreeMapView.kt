@@ -387,6 +387,10 @@ fun TreeMapView(
     LaunchedEffect(recentre) {
         val (map, style) = ready ?: return@LaunchedEffect
         if (recentre == 0) return@LaunchedEffect
+        // The arrow owns the camera from here: a sheet changing height must not redo
+        // the last deliberate move (lastMove) and fly away from you again.
+        holder.lastMove = null
+        holder.userMoved = true
         if (startLocation(map, style, context)) follow(map)
     }
 
@@ -434,15 +438,36 @@ private fun startLocation(map: MapLibreMap, style: Style, context: Context): Boo
     }
     component.isLocationComponentEnabled = true
     component.renderMode = RenderMode.NORMAL
+    // Draw the last fix at once: a second map (My trees) showed no dot until the next
+    // GPS reading arrived, which a phone standing still may not send for a while.
+    component.lastKnownLocation?.let { component.forceLocationUpdate(it) }
     true
 }.getOrDefault(false)
 
 private fun follow(map: MapLibreMap) {
     runCatching {
         val component = map.locationComponent
-        component.cameraMode = CameraMode.TRACKING
-        component.zoomWhileTracking(maxOf(map.cameraPosition.zoom, NEAR_ZOOM))
-        if (map.cameraPosition.bearing != 0.0) map.animateCamera(CameraUpdateFactory.bearingTo(0.0))
+        val here = component.lastKnownLocation
+        if (here == null) {
+            component.cameraMode = CameraMode.TRACKING
+            component.zoomWhileTracking(maxOf(map.cameraPosition.zoom, NEAR_ZOOM))
+            if (map.cameraPosition.bearing != 0.0) map.animateCamera(CameraUpdateFactory.bearingTo(0.0))
+            return@runCatching
+        }
+        // FLY TO YOU FIRST, then follow (Hidde's Samsung, 2026-11-17: from his trees
+        // in Japan the tracking transition stopped over Denmark and never reached
+        // Baarn). One plain flight to the last fix at street level, north up; the
+        // tracking mode takes over when it lands.
+        val target = org.maplibre.android.camera.CameraPosition.Builder()
+            .target(LatLng(here.latitude, here.longitude))
+            .zoom(maxOf(map.cameraPosition.zoom, NEAR_ZOOM))
+            .bearing(0.0)
+            .tilt(0.0)
+            .build()
+        map.animateCamera(CameraUpdateFactory.newCameraPosition(target), 900, object : MapLibreMap.CancelableCallback {
+            override fun onFinish() { runCatching { component.cameraMode = CameraMode.TRACKING } }
+            override fun onCancel() {}
+        })
     }
 }
 

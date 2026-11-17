@@ -247,7 +247,11 @@ private fun MyTreesInner(
     // Lisbon to Japan opened on Asia with one pin, 2026-11-17), so the box is the
     // trees' own bounds with a fifth of air on each side, never under the span's
     // 1200 m floor. Nothing yet: the 3000 m around where you are, as before.
-    val frame = remember(centre.lat, centre.lng, span, points.size) {
+    // ONCE PER VISIT (Hidde's recording, 2026-11-17: after the locate arrow the map
+    // jumped from Asia to Norway to the Mediterranean): the frame is made when your
+    // trees first arrive, never again when a reload or a lane change brings the same
+    // trees back, so it does not fight the arrow or a finger.
+    val frame = remember(shows, points.isEmpty()) {
         val box = if (shows && points.isNotEmpty()) {
             val loLat = points.minOf { it.first }; val hiLat = points.maxOf { it.first }
             val loLng = points.minOf { it.second }; val hiLng = points.maxOf { it.second }
