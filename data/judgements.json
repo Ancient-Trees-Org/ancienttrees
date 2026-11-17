@@ -14723,6 +14723,50 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:b18f5e71-a6f9-41db-869c-743e0c0ce388",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/b18f5e71-a6f9-41db-869c-743e0c0ce388.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The whole recumbent mulberry in spring leaf, trunk lying on the grass with branches rising straight up. Added beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a469122c-0c06-4206-afd9-9574a7dc67ab",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Gunnersbury Park Black Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/a469122c-0c06-4206-afd9-9574a7dc67ab.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "Close-up of a young shoot with a green fruit spike, the fallen trunk blurred behind. In the gallery behind the lead (strip), not the lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the fallen Gunnersbury mulberry, whole, from a reader
+
+- Live: two more photographs from the same reader of the Gunnersbury Park Black Mulberry (lon_030). The wide one shows the whole tree as the page describes it, the trunk lying along the grass with branches rising straight up, and went on as `add`. The close-up of a young shoot with a green fruit spike went into the gallery behind the lead (`strip`). Species and description both checked against the photographs. The pin did not move: these came from the web page and carry our own pin, not a GPS fix.
+- Notes: seven new notes on trees read. One ("bla test" on the Glorieta de Goya fig) hidden as a test line; the other six stay (Amsterdam, Balmerino, Ferrara, Bologna, Finsbury Circus, Stow-on-the-Wold). reader_words lists nothing waiting.
+- Repaired: the previous run's push had stopped mid-rebase on a timestamp conflict in data/ambassadors.json. That is resolved and its commit carried over. The intake's autostash clashed in data/judgements.json, so the stubs were rewritten from upstream.
+- Still waiting: the same five photo-less tips (1102, 885, 755, 691, 707). Their photographs are still not on this machine, so they were not judged blind. The 37 waiting leads in _sightings.json are our own (`mine`). No open reports and no open feedback.
+
 ## 2026-11-17 session: Baarn sequoia story no longer says dog walkers
 
 A reader who knows the park (Hidde's mother) said dogs are not allowed in the Cantonpark. The giant sequoia's story said the trees "share a lawn with dog walkers"; it now says "with anyone who walks in off the street". English only, Baarn has no translation.
