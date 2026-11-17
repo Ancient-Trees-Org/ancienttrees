@@ -4553,6 +4553,21 @@
   "034185b2-9235-4ae9-ba01-54b4fa02cdd4": {
    "outcome": "held",
    "date": "2026-11-17"
+  },
+  "e080b473-d617-4bc1-b917-92d5f0b8ab98": {
+   "outcome": "held",
+   "date": "2026-11-17"
+  },
+  "5e906833-f5e8-4dbc-89df-ded1eb25e996": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "ank_001",
+   "city_slug": "runnymede",
+   "file": "ank_001-the-ankerwycke-yew-5e906833.jpg",
+   "reason": "The Ankerwycke Yew itself: the hollow, deeply fluted and buttressed trunk splitting into several stems, open ground of bark chips around it, GPS fix 7 m from our pin. Daylight, colour, the trunk fills the frame. Species seen: yew: flat dark-green needles on drooping sprays, reddish-brown flaking bar",
+   "lat": 51.4447116666667,
+   "lon": -0.5565,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

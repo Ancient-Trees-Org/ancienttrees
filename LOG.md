@@ -19,6 +19,23 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Ratchet**: FlowWalk `theKeyboardLeavesTheFieldInView` (also asserts portrait) and `aPlaceFromDiscoverSearchKeepsTheMenu`, both shown red with the fault put back; two escaped-bug rows closed with them. RELEASE_CHECKLIST.md "Every build" now has the three passes a session runs before Hidde tests a build (test-account walk incl. sending and cleanup; small old phone, big text, no network; screen pairs + app-level settings).
 - **Test account**: a walk sent a real collect, a new tree and a note, then removed them; what the app could not remove (one sighting, submission 1110, four files) was removed by id, and the profile set back to private.
 - **Open, not done**: offline town search says "check the spelling" on both apps; notes say "No notes yet" offline; Discover's visitor shelf does not reload when the network returns; debug builds read the catalogue in 17 to 50 s on a loaded emulator (release on the S21 is quick, not measured on a cheap phone); CI walk on PR 64 to be read again.
+## 2026-11-17 reader judge: a reader's photograph now leads the Ankerwycke Yew
+
+- **Live: a reader's photograph of the Ankerwycke Yew (Runnymede, ank_001), sighting 5e906833.** It shows the hollow, fluted, buttressed trunk in daylight, and its GPS fix is 7 m from our pin. It went in as `add`, so the reader's photo is now the lead and the old one moves into the strip. The pin was already confirmed, so it stays where it is; the pin step's HTTPError changed nothing. The reader's mail goes through the usual weekly bundle.
+- No open reports, no unjudged tips, no feedback without a verdict, no reader words waiting.
+- **Not judged: 37 older leads in data/leads/_sightings.json** (status `lead`, no `hold`; Nara, Kyoto, Taketa, Kagoshima, Miyazaki, Tokyo, Baarn). None of their photographs are on this runner, since only today's file is in out/sightings/, and a photograph is never judged blind. Most are Hidde's own account (`mine`), not readers' trees. A run that fetches their files can judge them.
+
+## 2026-11-17 reader judge: the Signal Tree in Akron waits as a lead
+
+- **Lead: tip 1115, the Signal Tree, Akron.** It is a three-pronged bur oak of 250 to 350 years in Cascade Valley Metro Park, alive and cared for by Davey Tree (2025). It is not live because Summit Metro Parks has closed the Chuckery Area and its Peck Road entrance since 2023 for the Gorge Dam work, with closures expected through at least 2028. It is recorded in data/leads/akron.json with its sources and the reader's pin. The tip carries the reader's own words, so the answer is a draft, not a sent mail.
+- For Hidde: drafts/reply-reader-1115-2026-11-17.md asks the Akron reader whether the tree can be seen from open ground. A yes ships it, with the pin on the viewing spot.
+- This run also judged the Puebla fir (e080b473) and would have published it. A parallel run had already pushed it as held `not_special`, so that verdict stands and this run's version was dropped. It was a close call either way: the bared roots against "common on any eroding bank".
+
+## 2026-11-17 reader judge: a Mexican hillside fir held
+
+- **Held `not_special`: sighting e080b473** (app, GPS 19.1284, -97.5133, highland forest near Tlachichuca, Puebla, Mexico). Photograph viewed: a mid-sized fir, among others, on top of an eroded earth bank, with its roots hanging bare down the cut. Daylight, colour, a GPS fix. Bare roots like these are common on any eroding bank, and nothing in the tree marks it as old, big or storied. It was sent as "A tree I found" with no words; a name, age, girth or story from the reader would change it.
+- No open reports, no feedback without a verdict, no reader words waiting. Nothing went live, so no deploy was dispatched.
+
 ## 2026-11-17 reader judge: a Colombian roadside tree held
 
 - **Held `not_special`: sighting 034185b2** (app, GPS 6.4777, -73.1174, Santander, Colombia). Photograph viewed: a slender young tree alone by a dirt road, its small crown hung with moss. A good frame, but sent as "A tree I found" with no words, and nothing marks it as old or big. A name, age or story from the reader would change it. Tip 1112 is the app's companion row for the same photograph and is closed as a duplicate.
