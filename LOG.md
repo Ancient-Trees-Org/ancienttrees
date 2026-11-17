@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 night run, later attempt: 0 trees, shelf and staged cities empty
+
+- Write shelf empty (see the write pass below). Verify passes: San Francisco (10th, nothing new) and Frankfurt (no register, 2 leads kept, nothing verified). Graz and Nuremberg claimed and released: under a quarter of their leads have a coordinate. All four are walls for 48h; Portland is full.
+- Next: Zurich register BUILD (23 unjudged rows) or a register scout. A new reader tree or register is what reopens San Francisco.
+
 ## 2026-11-17 write pass: nothing to write, no trees shipped
 
 - **No trees shipped.** `passcheck.py --pending` lists only nine unpublished trees. The suggested US and UK files (new-york-3 and -4, wisconsin, washington-dc-2, the Boston files, wales-yews, somerset-dorset-yews, southeast-england-yews) are all fully published already. Every one of the nine was held by an earlier pass for a reason this pass cannot clear without new research: brd_001 Brindisi figs and frk_027 Frankfurt mulberry (no public entry or viewing place, hard rule 10), inn_007 Innsbruck lime (probably in a private yard), not_002 Noto carob (nobody knows who owns the land), det_001 and det_002 Detroit Elmwood (no coordinate in an 86-acre cemetery), nyc_031 Saratoga Park oak (only a park-level pin, no recognition line), and sfo_012 (the same tree as live sfo_004, to be folded in by enrichment). bri_017 in bristol-verified.json has the same name as the live bri_017 and is the same chestnut, so it is not a new tree.
