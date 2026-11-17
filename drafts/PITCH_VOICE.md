@@ -258,6 +258,11 @@ belongs in Helpful Details or nowhere.
 - NO: "Ook dank voor de tip over de terms-pagina: die link stuurde je inderdaad naar het boomformulier. Vragen gaan nu gewoon naar info@ancienttrees.app."
 - YES: "Dank voor de bug tip! Als het goed is werkt het weer."
 
+**asking a reader to do a check for us** (added 2026-11-17)
+
+- NO: "Could you have a look and tell us whether both are in the right place now?"
+- YES: "Is that right?"
+
 ## What to do instead, in order
 
 1. **First sentence: the reader or the world, never us and never the market.**
