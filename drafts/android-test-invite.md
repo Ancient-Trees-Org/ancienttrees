@@ -26,24 +26,13 @@ Subject: The Android app is almost here. Want to try it first?
 
 Hi,
 
-You asked to hear when you could use it on Android. That moment is almost here, and we would love you to be one of the first to try it.
+The Android app is almost ready and we want to test it with a small group first. Want to join?
 
-Before a new app can go public, Google asks for a test round: a group of people uses it for 14 days. So this is the plan:
-
-- Now: you join the test group and install the app from the Play Store
-- The next two weeks: you use it, and we fix what you run into
-- Around mid-December, if all goes well: the app goes public, and yours updates by itself
-
-Join here, with the Google account of this email address:
 [OPT-IN LINK]
 
-Use a different Google account on your phone? Reply with that address and we will add it.
+Use the Google account of this email address. If something breaks or you miss something, just reply. If all goes well it goes public around mid-December.
 
-It is a first version, so not everything will be perfect yet. If something breaks or you miss something, just reply to this mail. That is exactly what we need.
-
-Rather wait for the public version? Then there is nothing to do, and we will let you know when it is live.
-
-Thanks so much for signing up!
+Thanks!
 
 Hidde
 https://ancienttrees.app
