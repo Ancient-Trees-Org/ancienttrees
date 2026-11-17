@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 daily publish
+
+- **Daily publish: queue empty.** The two builders newer than the last check (build_write_2026_11_17, ten app-only trees; build_reader_trees_2026_11_17, eleven reader trees) are already on main, and neither counts against the pace. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-17 reader judge: a reader's photograph now leads the Jefferson Elm in Washington
 
 - **Washington DC (wdc_004)**: a reader sent a daylight summer photo of the National Mall Jefferson Elm. It shows the full crown on the Mall lawn, with the Natural History Museum dome across the green. The species and setting match our record. It is now the lead photograph (`add`), and the iNaturalist picture moved into the strip. The reader got the "on the page" mail. The pin stays approximate because the photo's coordinate was our own pin, not a GPS fix. The file has no date and shows green leaves, so no month was set.
