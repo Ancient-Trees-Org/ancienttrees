@@ -149,5 +149,31 @@ class TestReaderPin(unittest.TestCase):
         self.assertIsNone(pub.move_pin(t, None, None, "sid", None, "2026-10-05"))
 
 
+class TestOneRoute(unittest.TestCase):
+    """A photograph of another tree than the one it was sent for becomes a
+    waiting lead, judged as a new tree (Hidde, 2026-11-17: "1 route")."""
+
+    def test_other_tree_becomes_a_waiting_lead_once(self):
+        import tempfile
+        tmp = tempfile.NamedTemporaryFile(suffix=".json", delete=False)
+        tmp.write(b'{"leads": []}')
+        tmp.close()
+        old = pub.LEADS
+        pub.LEADS = tmp.name
+        try:
+            e = {"sighting_id": "s1", "user_id": "p_x", "tree_id": "dub_017", "city": "Dublin",
+                 "latitude": 53.37, "longitude": -6.27, "photo_path": "p_x/S1.jpg", "distance_m": 12}
+            self.assertTrue(pub.to_lead(e, "a weeping conifer", "2026-11-17"))
+            self.assertFalse(pub.to_lead(e, "again", "2026-11-17"))
+            leads = pub.load(tmp.name, {})["leads"]
+            self.assertEqual(len(leads), 1)
+            l = leads[0]
+            self.assertEqual((l["status"], l.get("hold"), l["sent_for"]), ("lead", None, "dub_017"))
+            self.assertIn("matches no tree we map", l["why"])
+        finally:
+            pub.LEADS = old
+            os.unlink(tmp.name)
+
+
 if __name__ == "__main__":
     unittest.main()

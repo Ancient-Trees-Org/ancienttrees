@@ -473,10 +473,9 @@
    "pin_checked": "2026-10-05"
   },
   "1b9adcb8-c06f-48b5-b8c0-398f6227a257": {
-   "outcome": "rejected",
-   "date": "2026-10-05",
-   "tree_id": "mel_001",
-   "reason": "Bare deciduous tree with a forked trunk; a holm oak is evergreen and dense. The dark evergreen oaks are the neighbours at the sides, not the subject."
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "d9c08351-03d1-4b51-a6ec-972f08d308e8": {
    "outcome": "published",
@@ -802,9 +801,8 @@
   },
   "3c0f5c56-a6f7-4e8f-b6a3-61c39abcafeb": {
    "outcome": "held",
-   "date": "2026-11-02",
-   "tree_id": "par_033",
-   "reason": "Possibly the wrong trunk: long narrow toothed chestnut-like leaves, where the page's two reader photographs show the lobed leaves and corky bark of a Turkey oak. GPS 5 m off our pin, so likely a neighbouring tree in the same square."
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "4b28d99e-e0f2-4572-b851-23dd79e73031": {
    "outcome": "added",
@@ -840,10 +838,9 @@
    "pin_checked": "2026-11-11"
   },
   "0895764e-dde4-401e-8247-de71144ccd30": {
-   "outcome": "rejected",
-   "date": "2026-11-11",
-   "tree_id": "pad_009",
-   "reason": "Looked at it: a weeping pagoda tree in a private front garden behind an iron gate with house number 7A, not the two trees on the open university square of Piazza Capitaniato. Wrong tree for pad_009; sent from the website, so the position is our pin and says nothing about where this one stands."
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-668": {
    "outcome": "lead",
@@ -1081,12 +1078,6 @@
    "lat": 37.7434267,
    "lon": -25.6755293,
    "pin_checked": "2026-11-15"
-  },
-  "abb593f0-9a90-47cd-8138-1040de6f803c": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "azo_001",
-   "reason": "A different fig from azo_001: curtains of hanging aerial roots, a street fence and parked cars behind, where azo_001 is the buttress-rooted tree in the sender's other photograph. Sent from the page with no device fix, so it cannot be placed; kept as a lead."
   },
   "6a88ea1a-0fb4-4db5-be70-0749b8b5c78f": {
    "outcome": "added",
@@ -1339,9 +1330,8 @@
   },
   "1b533cdf-ddaf-459a-a771-f9c1d8702d78": {
    "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "gro_004",
-   "reason": "This is not a ginkgo: smooth grey columnar trunk and a fine crown of small oval leaves, with beech leaves on the path, so most likely a beech near the ginkgo. Wrong tree for this entry."
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "5b6f9f17-f09e-4c50-abaa-a5126f6ffb76": {
    "outcome": "published",
@@ -1364,12 +1354,6 @@
    "lat": 53.09508,
    "lon": -8.8361,
    "pin_checked": "2026-11-15"
-  },
-  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "kan_003",
-   "reason": "A snow-covered Japanese black pine in Kenrokuen with props and yukitsuri ropes, but taken 95 metres from the pin and without the pond or the low wide spread over the water that marks the Karasaki pine. The garden rigs hundreds of pines; cannot tell this is that one."
   },
   "553ee5be-96b8-4e88-a48a-c7d66825dd68": {
    "outcome": "added",
@@ -2214,12 +2198,6 @@
    "lon": 12.502667,
    "pin_checked": "2026-11-15"
   },
-  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "ank_001",
-   "reason": "A multi-stemmed plane tree in a car park, not a yew; wrong tree for the Ankerwycke Yew."
-  },
   "58c5695b-4cbb-431d-b01e-9b7474bf4767": {
    "outcome": "held",
    "date": "2026-11-15",
@@ -2341,12 +2319,6 @@
    "outcome": "lead",
    "date": "2026-11-15"
   },
-  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "cnx_001",
-   "reason": "Photo shows a strangler fig with exposed roots, not a Dipterocarpus; the fix is 2.2 km from our pin. Doubt is a hold."
-  },
   "c8d04675-2b33-4799-8579-159c24813e0b": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2397,12 +2369,6 @@
    "lon": 6.74214666666667,
    "pin_checked": "2026-11-15"
   },
-  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
-   "outcome": "rejected",
-   "date": "2026-11-15",
-   "tree_id": "dub_017",
-   "reason": "A weeping conifer (cedar-like) arch, not a strawberry tree with peeling bark."
-  },
   "1dde934f-5b8b-415c-9b32-febb864eac2a": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -2430,12 +2396,6 @@
    "date": "2026-11-15",
    "tree_id": "lon_042",
    "reason": "Two recognisable people fill the frame; the oak is background. Out of the strip for privacy."
-  },
-  "9c93b205-3812-4c19-9040-a4efe3511170": {
-   "outcome": "held",
-   "date": "2026-11-15",
-   "tree_id": "lon_052",
-   "reason": "A huge London plane, 10.7 km from the Hampstead beech it was tagged to: wrong tree. Kept as a lead for a new tree."
   },
   "8b7f5345-ac50-432e-bc87-7f9fb01f07e1": {
    "outcome": "rejected",
@@ -3066,7 +3026,8 @@
   },
   "bfc89932-0e03-486f-9857-72e11af25298": {
    "outcome": "held",
-   "date": "2026-11-16"
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "b4902ef7-a641-4d4d-86c4-98b316da873d": {
    "outcome": "held",
@@ -3110,9 +3071,8 @@
   },
   "40b57e0b-fc77-4f71-affd-50f82641ab10": {
    "outcome": "held",
-   "date": "2026-11-16",
-   "tree_id": "bri_015",
-   "reason": "Looking up a tall reddish fibrous trunk: reads as a giant sequoia or redwood, not a Monterey cypress, and no iron railings in frame. Could be the wrong tree."
+   "date": "2026-11-17",
+   "reason": "bad_frame"
   },
   "2632a81c-4101-44f9-b8f2-d6da60701515": {
    "outcome": "held",
@@ -3761,12 +3721,6 @@
   "ec026f7b-a1b8-4316-b8ea-07c111061c44": {
    "outcome": "lead",
    "date": "2026-11-17"
-  },
-  "fb383f1e-0383-4579-9603-21cca3aedd94": {
-   "outcome": "held",
-   "date": "2026-11-17",
-   "tree_id": "mex_006",
-   "reason": "Dead standing trunk with a stone urn behind, GPS 3.9 km from the San Fernando garden (Chapultepec area); not our living broad-crowned tree. Dead, so not a lead either."
   },
   "07a152c4-578e-45fd-a3ca-1023b7e43bfc": {
    "outcome": "held",

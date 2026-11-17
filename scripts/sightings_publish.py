@@ -16,7 +16,10 @@ photograph's GPS fix when our pin says approximate; see move_pin().
 
 Input: a JSON array of {sighting_id, verdict, reason, species_seen,
 species_match, description_seen, description_match}, verdict one of
-approve, add, strip, hold, reject. STRIP (2026-11-15) puts a photograph that
+approve, add, strip, hold, reject, other_tree. OTHER_TREE (2026-11-17) is a
+photograph of a different tree than the one it was sent for: it becomes a
+lead in data/leads/_sightings.json, judged as a new tree (to_lead()); reject
+is only for no tree, a duplicate, or a bad frame. STRIP (2026-11-15) puts a photograph that
 belongs on the page but must not lead it (the tree's sign, a close-up of bark
 or leaves) behind the lead in the gallery: never reject a reader's photo of
 the tree's own sign.
@@ -103,6 +106,36 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 QUEUE = os.path.join(ROOT, "data", "sighting-queue.json")
 PROCESSED = os.path.join(ROOT, "data", "sightings-processed.json")
+LEADS = os.path.join(ROOT, "data", "leads", "_sightings.json")
+
+
+def to_lead(entry, reason, today):
+    """OTHER_TREE (Hidde, 2026-11-17: "1 route"): a photograph sent for one of
+    our trees that shows a different tree is a reader's tree of its own, not a
+    reject (CLAUDE.md, plm_006). It joins data/leads/_sightings.json as a
+    waiting lead, so the reader judge decides it under the closed list like
+    any tree a reader adds. Returns False when it is a lead already."""
+    doc = load(LEADS, {"leads": []})
+    if any(l.get("sighting_id") == entry["sighting_id"] for l in doc.get("leads", [])):
+        return False
+    doc.setdefault("leads", []).append({
+        "sighting_id": entry["sighting_id"], "user_id": entry.get("user_id"),
+        "mine": bool(entry.get("mine")), "name": "", "species": entry.get("species"),
+        "age": None, "girth_cm": entry.get("girth_cm"), "girth_hugs": entry.get("girth_hugs"),
+        "note": entry.get("note") or "",
+        "latitude": entry.get("latitude"), "longitude": entry.get("longitude"),
+        "near": entry.get("city"),
+        "photo": entry.get("photo_path"), "sign_photo": entry.get("sign_path"),
+        "sign_file": entry.get("sign_file"), "extra_files": entry.get("extra_files") or [],
+        "nearest_published_m": entry.get("distance_m"),
+        "sent_for": entry.get("tree_id"),
+        "status": "lead",
+        "why": ("sent as a photograph of %s, but it shows a different tree (%s), so it "
+                "matches no tree we map: judge it as a new tree." % (entry.get("tree_id"), reason[:200])),
+        "seen": today,
+    })
+    save(LEADS, doc)
+    return True
 MANIFEST = os.path.join(ROOT, "data", "photo-manifest.json")
 PHOTOS = os.path.join(ROOT, "site", "public", "photos")
 SENT_PATH = os.path.join(ROOT, "data", "outreach-sent.json")
@@ -862,7 +895,7 @@ def main():
     # but must not lead it (the tree's sign, a close-up of bark or leaves)
     # goes behind the lead in the gallery and leaves the lead alone. `add`
     # would make it the lead (READER FIRST); a reject threw it away.
-    counts = {"approve": 0, "add": 0, "strip": 0, "hold": 0, "reject": 0}
+    counts = {"approve": 0, "add": 0, "strip": 0, "hold": 0, "reject": 0, "other_tree": 0}
     published = []
     for r in rows:
         sid, verdict, reason = r.get("sighting_id"), r.get("verdict"), (r.get("reason") or "")
@@ -872,6 +905,20 @@ def main():
         entry = queue.get(sid)
         if not entry:
             print(f"  {sid}: not in the queue, skipped (run sightings_inbox.py first)")
+            continue
+        if verdict == "other_tree":
+            # A different tree than the one it was sent for: a new tree's
+            # lead, never a reject. `other_tree` in done is not reopened by
+            # the inbox (it would match the same tree again); the judge sets
+            # published or held once it decides the lead.
+            fresh = to_lead(entry, reason, today)
+            done[sid] = {"outcome": "other_tree", "date": today, "tree_id": entry["tree_id"],
+                         "reason": reason[:300]}
+            counts["other_tree"] += 1
+            gone = unstrip(entry) if in_strip(entry) else None
+            print(f"  OTHER   {entry['tree_id']} {entry['tree_name'][:40]}: now a lead"
+                  + ("" if fresh else " (was one already)")
+                  + (f", out of the strip: {gone.rsplit('/', 1)[-1]}" if gone else ""))
             continue
         if verdict not in ("approve", "add", "strip"):
             done[sid] = {"outcome": "held" if verdict == "hold" else "rejected",
@@ -976,7 +1023,8 @@ def main():
     save(PROCESSED, processed)
     print(f"sightings publish: {counts['approve']} published, {counts['add']} added "
           f"beside an existing photograph, {counts['hold']} held, "
-          f"{counts['reject']} rejected, {counts['strip']} into the gallery behind the lead, "
+          f"{counts['reject']} rejected, {counts['other_tree']} another tree (now leads), "
+          f"{counts['strip']} into the gallery behind the lead, "
           f"{len(qdoc['queue'])} still waiting")
     if published:
         print("Now: python3 scripts/preflight.py, then commit data/cities, site/public/photos, "
