@@ -57,7 +57,37 @@
         "height": 4016,
         "taken_month": 10
       },
-      "how_to_recognise": "You can recognise it by a crown 169 feet across, held up by cables and columns, that fills a small corner park on its own. It stands in Elizabeth Ireland Poe Park at Crawford and Monroe streets."
+      "how_to_recognise": "You can recognise it by a crown 169 feet across, held up by cables and columns, that fills a small corner park on its own. It stands in Elizabeth Ireland Poe Park at Crawford and Monroe streets.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/thv_001-the-big-oak-aa636a2c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "aa636a2c-f651-42b4-82e2-18f8ce6b981e",
+          "note": "Photographed by a reader and sent through the app (2026-05-10); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/thv_001-the-big-oak-c64b5650.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd",
+          "note": "Photographed by a reader and sent through the app (2026-05-10); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ]
 }

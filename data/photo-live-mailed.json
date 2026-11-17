@@ -883,7 +883,17 @@
   },
   "p_4a3e8be0cafb822ba00b39d3": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "e5b4eedf-8140-4bf4-8ce2-c32a1f921168",
+     "tree_id": "bai_001",
+     "tree_name": "The Gomero de la Recoleta",
+     "city": "Buenos Aires",
+     "city_slug": "buenos-aires",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
@@ -1548,6 +1558,93 @@
      "mailed": "2026-11-17"
     }
    ]
+  },
+  "p_24edc9a8bd5f07a00e0b3133": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
+     "tree_id": "tua_001",
+     "tree_name": "The Big Totara of Lillburn Monowai Road",
+     "city": "Tuatapere",
+     "city_slug": "tuatapere",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_222183a8bfd1e5262ec0f187": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "4be001d1-ee21-48f8-81df-67bf1bb02d41",
+     "tree_id": "syd_006",
+     "tree_name": "The Wishing Tree",
+     "city": "Sydney",
+     "city_slug": "sydney",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "f05d3a86-b304-47ac-bf24-2e0f88ad99a1",
+     "tree_id": "syd_006",
+     "tree_name": "The Wishing Tree",
+     "city": "Sydney",
+     "city_slug": "sydney",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_f127bf781505453e3305184d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "aa636a2c-f651-42b4-82e2-18f8ce6b981e",
+     "tree_id": "thv_001",
+     "tree_name": "The Big Oak",
+     "city": "Thomasville",
+     "city_slug": "thomasville",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd",
+     "tree_id": "thv_001",
+     "tree_name": "The Big Oak",
+     "city": "Thomasville",
+     "city_slug": "thomasville",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "78b88780-f090-4c13-8360-95570ebe3113",
+     "tree_id": "chs_001",
+     "tree_name": "The Angel Oak",
+     "city": "Charleston",
+     "city_slug": "charleston",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_43296b4149990a775a24a4a6": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ee80ee46-48b1-4e89-bc8d-23c892d50b1d",
+     "tree_id": "sdg_001",
+     "tree_name": "The Moreton Bay Fig of Balboa Park",
+     "city": "San Diego",
+     "city_slug": "san-diego",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  }
 }

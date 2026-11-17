@@ -50,7 +50,23 @@
         "contributor_user_id": "p_24edc9a8bd5f07a00e0b3133",
         "sighting_id": "51d98942-7dba-4d70-9ddd-17263958dd5d",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: The full height of a massive trunk in its forest, daylight, colour, GPS fix at its foot.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tua_001-the-big-totara-of-lillburn-monowai-road-45e7ad05.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 2,
+          "source": "contributor",
+          "contributor_user_id": "p_24edc9a8bd5f07a00e0b3133",
+          "sighting_id": "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
+          "note": "Photographed by a reader and sent through the app (2020-02-17); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     }
   ],
   "question_meta": "A great totara on the nature walk off Lillburn Monowai Road, Southland: a reader's photograph, where it stands and what is known about it.",

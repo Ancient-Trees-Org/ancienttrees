@@ -4931,6 +4931,242 @@
    "seen": "2026-11-17",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "4887a7bf-c121-4574-a1f0-8944f1ac00b7",
+   "user_id": "p_4a3e8be0cafb822ba00b39d3",
+   "mine": false,
+   "name": "Pohutukawa",
+   "species": "Pohutukawa",
+   "age": "600",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The Te Waha O Rerekohu tree is believed to be the oldest and largest pohutukawa in the world.",
+   "latitude": -37.6325383333333,
+   "longitude": 178.367171666667,
+   "near": null,
+   "photo": "p_4a3e8be0cafb822ba00b39d3/4887A7BF-C121-4574-A1F0-8944F1AC00B7.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "The Gennet Poplar (Tulip Tree)",
+   "species": "Tulip Tree",
+   "age": "300-500 years old",
+   "girth_cm": 550,
+   "girth_hugs": null,
+   "note": "The Gennet Poplar located at Bear Creek Trailhead, FS Road 241, Ellijay, GA",
+   "latitude": 34.828475,
+   "longitude": -84.5654216666667,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/AE132F45-019F-4E63-9723-98DD6E815807.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/ae132f45-019f-4e63-9723-98dd6e815807-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "b3d97fd9-33cf-40bc-a557-1c8dccbfec24",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "The Knightwood Oak - A tree near Mottisfont",
+   "species": "Pedunculate Oak",
+   "age": "500-600 years old",
+   "girth_cm": 740,
+   "girth_hugs": null,
+   "note": "• Nickname: Often called the \"Queen of the Forest\" since the Victorian era.\n• Age & Size: Estimated to be between 500 and 600 years old, with a massive trunk girth of roughly 7.4 meters (24 feet).\n• History: It was historically pollarded (having its upper branches cut back to encourage dense new growth) around age 200, with its last pollarding occurring in the mid-19th century. It has been a popular tourist draw since Victorian times.\n• Access & Walking: A short, accessible and barrier-free grav",
+   "latitude": 50.8573833333333,
+   "longitude": -1.62493,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/B3D97FD9-33CF-40BC-A557-1C8DCCBFEC24.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b3d97fd9-33cf-40bc-a557-1c8dccbfec24-extra-1.jpg",
+    "out/sightings/b3d97fd9-33cf-40bc-a557-1c8dccbfec24-extra-2.jpg",
+    "out/sightings/b3d97fd9-33cf-40bc-a557-1c8dccbfec24-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "Giant Sequoias at Tall Trees Trail Walk",
+   "species": "Giant Sequoia",
+   "age": "176 years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The Tall Trees Trail in the New Forest National Park (located along Rhinefield Ornamental Drive near the Blackwater Car Park) features an impressive collection of Victorian-era conifer giants planted in the 1850s.",
+   "latitude": 50.8436966666667,
+   "longitude": -1.62131333333333,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/968C829E-EFFD-4454-8B9C-271DA4D79854.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/968c829e-effd-4454-8b9c-271da4d79854-extra-1.jpg",
+    "out/sightings/968c829e-effd-4454-8b9c-271da4d79854-extra-2.jpg",
+    "out/sightings/968c829e-effd-4454-8b9c-271da4d79854-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "ec026f7b-a1b8-4316-b8ea-07c111061c44",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "Pecan",
+   "species": "Pecan",
+   "age": "100-150 years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The iconic centerpiece of Meadowlark 1939 (located in Griffin, Georgia) was a historic 100-to-150-year-old pecan tree located in the estate's Pecan Circle.\n• The Pecan Circle: This tree served as the natural, open-air backdrop and ceremony centerpiece for weddings and events at the English-inspired estate.\n• Tragic Loss: In January 2023, the historic pecan trees and gardens on the property were completely destroyed when a tornado struck the venue.",
+   "latitude": 33.23965,
+   "longitude": -84.3289866666667,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/EC026F7B-A1B8-4316-B8EA-07C111061C44.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/ec026f7b-a1b8-4316-b8ea-07c111061c44-extra-1.jpg",
+    "out/sightings/ec026f7b-a1b8-4316-b8ea-07c111061c44-extra-2.jpg",
+    "out/sightings/ec026f7b-a1b8-4316-b8ea-07c111061c44-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "a48cae8c-f582-4ca2-b055-05c4020fca0c",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "Large-leaved Lime near La Tène",
+   "species": "Large-leaved Lime",
+   "age": "480 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The prominent tree located on the Place de Moudon in Estavayer-le-Lac, Switzerland, is a historic linden tree (Tilia / tilleul).\n\nKey Details:\n\n• Species: Large-leaved linden / Summer linden (Tilia platyphyllos / Sommer-Linde)\n• Planted: Around 1547 (referenced in historical records dating back to 1563)\n• Characteristics: It has a stout, partially hollow trunk supported by internal/adventitious roots and overlooks the Lake of Neuchâtel (Neuenburgersee) and the nearby medieval Château de Chenaux.",
+   "latitude": 46.85062,
+   "longitude": 6.84627166666667,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/A48CAE8C-F582-4CA2-B055-05C4020FCA0C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378",
+   "user_id": "p_f127bf781505453e3305184d",
+   "mine": false,
+   "name": "Big tree trail at Cathedral Grove",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Forest Highlights: Walks among ancient, old-growth temperate rainforest giants—including Douglas firs over 800 years old (reaching up to 75 meters tall and 8 to 9 meters in circumference), as well as ancient Western Red Cedars and Bigleaf Maples.",
+   "latitude": 49.1580818350764,
+   "longitude": -125.870594604772,
+   "near": null,
+   "photo": "p_f127bf781505453e3305184d/B41E05CE-7F7E-4AEB-A19E-E1C252662378.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b41e05ce-7f7e-4aeb-a19e-e1c252662378-extra-1.jpg",
+    "out/sightings/b41e05ce-7f7e-4aeb-a19e-e1c252662378-extra-2.jpg",
+    "out/sightings/b41e05ce-7f7e-4aeb-a19e-e1c252662378-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
+  },
+  {
+   "sighting_id": "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac",
+   "user_id": "p_9707e15060547d5c0035ab20",
+   "mine": false,
+   "name": "River Red Gum near Adelaide",
+   "species": "River Red Gum",
+   "age": "200+",
+   "girth_cm": 800,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -34.9638166160787,
+   "longitude": 138.588390061012,
+   "near": null,
+   "photo": "p_9707e15060547d5c0035ab20/B730ACCA-9B47-4CE7-9EBC-5CA8499AC7AC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b730acca-9b47-4ce7-9ebc-5ca8499ac7ac-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-17"
   }
  ]
 }

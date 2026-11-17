@@ -94,6 +94,20 @@
           "sighting_id": "3325a9bc-9642-4364-8475-8f89d62e834d",
           "note": "Photographed by a reader and sent through the app (2014-10-10); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bai_001-the-gomero-de-la-recoleta-e5b4eedf.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_4a3e8be0cafb822ba00b39d3",
+          "sighting_id": "e5b4eedf-8140-4bf4-8ce2-c32a1f921168",
+          "note": "Photographed by a reader and sent through the app (2025-11-03); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
         }
       ],
       "pin_source": {

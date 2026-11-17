@@ -249,7 +249,37 @@
         "moved_m": 15,
         "date": "2026-11-17",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/syd_006-the-wishing-tree-4be001d1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+          "sighting_id": "4be001d1-ee21-48f8-81df-67bf1bb02d41",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/syd_006-the-wishing-tree-f05d3a86.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+          "sighting_id": "f05d3a86-b304-47ac-bf24-2e0f88ad99a1",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-17"
+        }
+      ]
     },
     {
       "id": "syd_007",
