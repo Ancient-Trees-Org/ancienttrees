@@ -1560,43 +1560,31 @@
    ]
   },
   "p_24edc9a8bd5f07a00e0b3133": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
      "tree_id": "tua_001",
-     "tree_name": "The Big Totara of Lillburn Monowai Road",
-     "city": "Tuatapere",
-     "city_slug": "tuatapere",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_222183a8bfd1e5262ec0f187": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "4be001d1-ee21-48f8-81df-67bf1bb02d41",
      "tree_id": "syd_006",
-     "tree_name": "The Wishing Tree",
-     "city": "Sydney",
-     "city_slug": "sydney",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     },
     {
      "sighting_id": "f05d3a86-b304-47ac-bf24-2e0f88ad99a1",
      "tree_id": "syd_006",
-     "tree_name": "The Wishing Tree",
-     "city": "Sydney",
-     "city_slug": "sydney",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f127bf781505453e3305184d": {
    "last": null,
@@ -1632,19 +1620,15 @@
    "sent": []
   },
   "p_43296b4149990a775a24a4a6": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "ee80ee46-48b1-4e89-bc8d-23c892d50b1d",
      "tree_id": "sdg_001",
-     "tree_name": "The Moreton Bay Fig of Balboa Park",
-     "city": "San Diego",
-     "city_slug": "san-diego",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_dabd74bef1d935f48a2bb1d7": {
    "last": null,
