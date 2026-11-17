@@ -105,16 +105,16 @@ object Units {
     /** "650 m" / "2,100 ft" under a kilometre or mile, then one decimal, then whole. Steps of 50. */
     fun label(km: Double): String = if (!now) {
         when {
-            km < 1 -> "${((km * 1000 / 50).roundToInt() * 50).coerceAtLeast(50)} m"
-            km < 10 -> String.format(java.util.Locale.ROOT, "%.1f km", km)
-            else -> "${km.roundToInt()} km"
+            km < 1 -> "${((km * 1000 / 50).roundToInt() * 50).coerceAtLeast(50)}\u00A0m"
+            km < 10 -> String.format(java.util.Locale.ROOT, "%.1f\u00A0km", km)
+            else -> "${km.roundToInt()}\u00A0km"
         }
     } else {
         val mi = km * 0.621371
         when {
-            mi < 0.2 -> "${((mi * 5280 / 50).roundToInt() * 50).coerceAtLeast(50)} ft"
-            mi < 10 -> String.format(java.util.Locale.ROOT, "%.1f mi", mi)
-            else -> "${mi.roundToInt()} mi"
+            mi < 0.2 -> "${((mi * 5280 / 50).roundToInt() * 50).coerceAtLeast(50)}\u00A0ft"
+            mi < 10 -> String.format(java.util.Locale.ROOT, "%.1f\u00A0mi", mi)
+            else -> "${mi.roundToInt()}\u00A0mi"
         }
     }
 }

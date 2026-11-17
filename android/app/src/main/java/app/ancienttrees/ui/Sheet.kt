@@ -311,7 +311,11 @@ class SheetGrowth {
                         }
                         // Up, or down while grown: the growth's. Down at the fitted height:
                         // Material's own drag, which dismisses.
-                        engaged = travelled < 0 || at > 0f
+                        // Only while there is height left to grow into: a sheet already
+                        // at the full height (the keyboard up, big text) lets the drag
+                        // scroll its content, or its buttons stayed out of reach (the
+                        // small-phone walk, 2026-11-17).
+                        engaged = (travelled < 0 && room > 1f && at < room) || at > 0f
                         if (!engaged) break
                         // From where the finger went down, as a pan's translation counts.
                         at = (at - travelled).coerceAtLeast(0f)

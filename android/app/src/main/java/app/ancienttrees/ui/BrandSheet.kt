@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.ui.layout.layout
@@ -164,11 +165,12 @@ fun BrandSheet(
                 layout(p.width, (p.height - t).coerceAtLeast(0)) { p.place(0, -t) }
             },
         ) {
+            val scroll = rememberScrollState()
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .verticalScroll(rememberScrollState())
+                    .verticalScroll(scroll)
                     .padding(horizontal = 24.dp)
                     // BrandSheet.swift: the last button 28 above the sheet's foot. The
                     // docked sheet keeps the navigation bar clear under that (Sheet.kt).

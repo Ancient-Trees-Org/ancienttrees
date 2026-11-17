@@ -84,6 +84,6 @@ object EmptyPlace {
     fun distance(km: Double, metric: Boolean = !Units.now): String {
         val v = if (metric) km else km * 0.621371
         val u = if (metric) "km" else "mi"
-        return if (v < 10) String.format(Locale.US, "%.1f %s", v, u) else "${Math.round(v)} $u"
+        return if (v < 10) String.format(Locale.US, "%.1f\u00A0%s", v, u) else "${Math.round(v)} $u"
     }
 }

@@ -285,6 +285,10 @@ fun TreeMapView(
         lifecycle.addObserver(observer)
         onDispose {
             lifecycle.removeObserver(observer)
+            // Stopped before destroyed, as MapLibre's own lifecycle order asks: a map
+            // left on screen and destroyed while it was still drawing held the main
+            // thread for minutes on a slow phone offline (the small-phone walk, 2026-11-17).
+            runCatching { mapView.onPause(); mapView.onStop() }
             mapView.onDestroy()
         }
     }

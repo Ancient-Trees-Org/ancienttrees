@@ -47,8 +47,8 @@ class CollectRulesTest {
     }
 
     @Test fun distanceTurnsIntoKilometres() {
-        assertEquals("40 m", CollectRules.distance(40))
-        assertEquals("1.7 km", CollectRules.distance(1672))
+        assertEquals("40\u00A0m", CollectRules.distance(40))
+        assertEquals("1.7\u00A0km", CollectRules.distance(1672))
     }
 
     @Test fun compassInEightPoints() {

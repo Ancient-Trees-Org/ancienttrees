@@ -10,6 +10,7 @@ import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.LruCache
+import kotlinx.coroutines.sync.withPermit
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -47,6 +48,12 @@ private val thumbs = object : LruCache<String, Bitmap>(12 * 1024 * 1024) {
     override fun sizeOf(key: String, value: Bitmap) = value.byteCount
 }
 
+// ONE SNAPSHOTTER AT A TIME. Each MapSnapshotter starts its own render thread;
+// unbounded, a cheap phone ran dozens and the main thread stalled in the map
+// library (the small-phone walk, 2026-11-17: "isn't responding" twice). A picture
+// that waits a moment is fine; the page is already there.
+private val oneAtATime = kotlinx.coroutines.sync.Semaphore(1)
+
 private suspend fun snapshot(
     context: android.content.Context,
     lat: Double,
@@ -60,6 +67,21 @@ private suspend fun snapshot(
 ): Bitmap? {
     val key = "$lat,$lng,${widthDp.toInt()},${heightDp.toInt()},${if (dark) "d" else "l"}"
     thumbs.get(key)?.let { return it }
+    return oneAtATime.withPermit { thumbs.get(key) ?: render(context, key, lat, lng, widthDp, heightDp, density, metres, dark, moss) }
+}
+
+private suspend fun render(
+    context: android.content.Context,
+    key: String,
+    lat: Double,
+    lng: Double,
+    widthDp: Float,
+    heightDp: Float,
+    density: Float,
+    metres: Double,
+    dark: Boolean,
+    moss: Int,
+): Bitmap? {
     MapLibre.getInstance(context)
     val options = MapSnapshotter.Options(widthDp.toInt(), heightDp.toInt())
         .withPixelRatio(density)
