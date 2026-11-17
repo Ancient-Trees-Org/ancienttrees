@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: Apple relay mails bounced, now through Resend
+
+Breakage: since the 11-16 route split, replies, "your photo is on the page" and congratulation mails to Sign in with Apple addresses (@privaterelay.appleid.com) went through Gmail and bounced "Address not found": Apple forwards only mail signed for our domain. About 26 bounced (16 on 11-16, 10 today). Fix: scripts/mailer.py sends those addresses through Resend like Yahoo (`on_apple_relay()`), the Supabase hook has the same line (only matters on its next paste; Apple users never get its sign-in mails), qa's `check_one_mail_route_rule()` holds both. Load on Resend: 10 to 24 a day of its 100. The bounced mails were not resent. Deploy: the afternoon failures were the Dublin cedar's "a page of its own", fixed 17:27 by a run; deploy 44138841637 running.
+
 ## 2026-11-17 night run, third attempt: 0 trees, Guimaraes a wall
 
 - READY shelf empty (0). Guimaraes verify (4th deepen pass): its 12 near register rows fold into gui_001 to gui_010, the rest are 15 to 19 km out in other concelhos. Lead logged: Ermal oak, Vieira do Minho (6.48 m girth, 313 y), for a Braga-region pass if access and transport are sourced. Claim released, wall 48h.
