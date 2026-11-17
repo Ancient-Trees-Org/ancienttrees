@@ -90,7 +90,10 @@ def on_yahoo(addr):
 # (…@privaterelay.appleid.com) forwards only mail signed for a domain registered
 # with Apple, so replies through Gmail bounced "Address not found" the day after
 # the split. Written twice as well, here and in the hook, kept equal by qa.
-SIGNED_ONLY_DOMAINS = ("privaterelay.appleid.com",)
+# BT the same evening: the welcome mail to a btinternet.com address through
+# Gmail was refused "550 User unknown", while Hidde's own Gmail mail to the same
+# address an hour later went through. So BT's addresses go signed too.
+SIGNED_ONLY_DOMAINS = ("privaterelay.appleid.com", "btinternet.com", "btopenworld.com", "talk21.com")
 
 
 def on_apple_relay(addr):

@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: BT refuses our sign-up mail through Gmail
+
+Breakage: a reader who signed up at 18:45 UTC with a btinternet.com address never got in. Their welcome mail (with the confirm link) went through Gmail as info@ and BT answered "550 User unknown". Hidde's own Gmail mail to the same address at 20:18 UTC was taken, with no bounce. So the address is real and BT refuses mail that is unsigned for our domain, as Apple's relay did this afternoon. Four other BT accounts confirmed on 11-15, so BT does this only some of the time. Fix: btinternet.com, btopenworld.com and talk21.com join `SIGNED_ONLY_DOMAINS` in scripts/mailer.py and in the hook, and qa's `check_one_mail_route_rule()` holds btinternet.com. **Not live in the hook yet**: the Management API token in ~/.ancienttrees-supabase.env is refused (401), so the hook still sends BT sign-ups through Gmail until it is redeployed (`python3 out/tmp/hook_deploy.py` with a fresh token). Waiting on Hidde's yes: a fresh sign-in link to that reader through Resend (`python3 out/tmp/bt_signin_link.py <address> --send`).
+
 ## 2026-11-17 reader judge: a reader's horse chestnut live in Oslo
 
 - **Oslo (osl_005, the Low-Armed Chestnut of Sofienbergparken)**: a reader sent this tree through the website, with a photograph and the park's name. The photo shows a horse chestnut with a leaning dark trunk and long crooked limbs that sweep out almost to the ground, in daylight. It is somewhat special, so it went live under the closed list. There was no GPS fix, so the pin marks the park (approximate) and the story says so. Their age of 150 to 168 years is given as their estimate. It fits the park's history (a cemetery from 1858, turned into a park from 1918), but no record names the tree. The photo has no date and shows no snow, so no month was set. Oslo now has five trees. The congratulation mail goes with the next knock.
