@@ -11,6 +11,17 @@ Two waves, agreed in chat the same evening:
 2. The other ~1,700 a few days later, with the build that fixes what wave 1
    found. Spread over several days to stay under the sending limits.
 
+**The text below is Hidde's own (2026-11-17) and is agreed. It waits only for
+the build.** The order, once he says go:
+1. A session rebuilds the .aab (`python3 scripts/android_release.py`).
+2. Hidde uploads it to Closed testing (33 MB, too big for the Chrome upload
+   tool) and picks "Use Google-generated key".
+3. Google reviews it: hours to a few days, up to a week for a new app.
+4. The session puts the wave 1 addresses on the tester list, copies the opt-in
+   link into the mail, shows it once more, and sends on his "verstuur".
+5. Wave 2 a few days later with the fixed build. Friends and family with
+   Android may join wave 1: the 14 days only start at the twelfth tester.
+
 Every address goes onto Play's tester email list before its mail goes
 (Testing > Closed testing > Testers, a CSV of up to 2,000). The opt-in link
 is copied from that tab once the release is approved and replaces

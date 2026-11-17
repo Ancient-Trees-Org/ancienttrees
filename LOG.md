@@ -20,6 +20,8 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 ## 2026-11-17 session: Google Play listing set up, nothing uploaded yet
 
+- **For Hidde, later: the waitlist test mail is agreed and waits for the build.** Text and plan in drafts/android-test-invite.md: two waves (about 200 newest Gmail addresses the day Google approves the first closed-test build, the other ~1,700 a few days later), "We expect a live version in 3 to 4 weeks", sent only on his "verstuur". Next step is his go for the rebuild and his upload of the .aab. Lesson recorded in PITCH_VOICE.md: say we want to test, never blame Google's rule.
+
 - **Play Console, with Hidde**: phone verified on his Samsung (Play Console app), app created (`app.ancienttrees.android`, en-GB, free). All eleven setup tasks done: privacy policy, sign-in details, ads, content rating, audience 16+, Data safety (crash logs added, PostHog since 11-16), government, financial, health, category Travel & Local, contact info@ancienttrees.app and https://ancienttrees.app.
 - **Reviewer account**: Google's reviewers may not create accounts, so Hidde made a Gmail for them and its Supabase account exists (profile private, in data/our-accounts.json, so it never counts as a reader). Its address and password are in Play Console > Sign-in details only.
 - **Store listing in nine languages** (en-GB, en-US, nl, de, fr, es, it, pt-PT, ja): the iPhone's name and text, plus one paragraph and a longer season line that carry the iOS keyword field, because Play has no keyword field and indexes the description (drafts/play-store-listing.md). Icon and feature graphic labelled as made with AI (Hidde: the logo tree is AI-made).
