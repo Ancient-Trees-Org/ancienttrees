@@ -33,6 +33,10 @@ Web half: the last 24 hours were the Miami, Allentown, Aspromonte, Castelbuono, 
 - WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-second review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
 - WARN data/collections/ancient-oaks-of-europe.json and data/collections/europes-most-remarkable-yews.json still say "every coordinate verified" (flagged 2026-11-16, unchanged). Many pins are approximate; hard rule 2 "faked precision". Replacement: "every entry is publicly accessible and links onward with a map".
 
+App half (iPhone SE: early-adopter-sheet, early-adopter, explore, feedback, map-bar, map-full): looked at all six.
+
+- NOTE APP feedback.png: the "Feedback" screen opens a sign-in sheet titled "Sign in to have your say" over a line that says "You need an account to send a tree". Reads consistently; no action. Nothing else a person would notice: the badge sheet, Discover counts ("532 trees at their best this month") and the Amsterdam list read honestly.
+
 ## 2026-11-16
 
 Web half: the last 24 hours were the Hanoi banyan (hni_003, a reader's tip, visible from the pavement, sources named), Leipzig and Philadelphia app-only trees, reader photographs into strips, sign-in "Did you mean" copy and the tree_votes table. No em dashes in the Hanoi built page.
