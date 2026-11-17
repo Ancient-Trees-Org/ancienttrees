@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: readers' reports on our trees are now picked up within 15 minutes
+
+- **What changed**: a report on a tree we map (dead, wrong location, could not tell which tree, on the map twice, something else, a moved pin) now wakes the reader judge the way a reader's tree does. reader_poll.py counts new open rows in `tree_reports`; reader-judge.yml closes the small nudges and starts the judge when reports are open; BRIEF_READER_JUDGE.md "Reports on our trees" says what to do per reason. New commands in scripts/tree_reports.py: `--open`, `--count`, `--auto` (a moved pin on a confirmed pin under 30 m closes as `holds`, no mail), `--close <id> changed|holds|open_question ["reply"]`.
+- **Why**: nothing closed these rows. 51 sat open since 11-15 (two Bristol grid references, the Domesday Oak's age, Kamakura's tabunoki in the wrong temple, Coldwaltham's thank-you, four "could not tell which tree").
+- **Done by hand**: report 1000023 (Gomero de la Recoleta, bai_001) closed as `holds`: it was the app's "not sure which tree" on a photograph that already leads bai_001 since 11-15, and the tree already has its recognition line. 11 nudges closed by `--auto`. 39 remain for the judge.
+
 ## 2026-11-17 reader judge: the Oak of Orkin gets its first photograph
 
 - **Changed in the product** (photograph viewed): a reader's sunlit photograph of the Oak of Orkin, Ultzama valley (`pamplona/pam_002`), the whole broad pollarded crown alone in its pasture behind a rail fence, GPS fix 29 m from our pin. The tree had no photograph; this one leads (verdict `approve`). Reader mail queued through `sightings_publish.py --send`.

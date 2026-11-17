@@ -77,15 +77,19 @@ jobs:
           python3 scripts/sightings_inbox.py
           python3 scripts/fetch_waiting_photos.py
           python3 scripts/judgement.py --scan
+          python3 scripts/tree_reports.py --auto
 
       - name: Is anything waiting
         id: work
         if: steps.poll.outputs.new == 'yes'
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
           leads=$(python3 scripts/fetch_waiting_photos.py --count)
           queue=$(python3 -c "import json;print(len(json.load(open('data/sighting-queue.json')).get('queue',[])))" 2>/dev/null || echo 0)
-          echo "leads=$leads queue=$queue"
-          if [ "$leads" != "0" ] || [ "$queue" != "0" ]; then
+          reports=$(python3 scripts/tree_reports.py --count 2>/dev/null || echo 0)
+          echo "leads=$leads queue=$queue reports=$reports"
+          if [ "$leads" != "0" ] || [ "$queue" != "0" ] || [ "$reports" != "0" ]; then
             echo "go=yes" >> "$GITHUB_OUTPUT"
           else
             echo "go=no" >> "$GITHUB_OUTPUT"
@@ -103,7 +107,8 @@ jobs:
           allowed_bots: "github-actions[bot]"
           prompt: |
             Read BRIEF_READER_JUDGE.md in the repository root and do what it
-            says, for every reader's tree and photograph waiting for a verdict.
+            says, for every reader's tree and photograph waiting for a verdict
+            and every open report on one of our trees.
             The intake already ran: the photographs are in out/sightings/.
 
             Shell style: one command per Bash call. No heredocs, no pipes into
