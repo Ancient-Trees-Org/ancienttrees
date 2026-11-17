@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a second run on the Daintree fig and the Valley Forge photos
+
+- A second run judged the same three photographs at the same time as the run below and reached the same verdicts. At push it found that run's commit already live and dropped its own copy. Its two additions: daintree/dtr_001 now has `paid_entry: true`, and the four tree notes from today are marked read (Valley Forge, Ankerwycke, Oslo, Washington DC; none hidden). The older `lead` rows from September and October (Nara, Kyoto, Kyushu, Tokyo, Baarn) have no photograph on this machine and most are from our own account, so they were not judged.
+
 ## 2026-11-17 reader judge: a Daintree strangler fig is live; the Valley Forge sycamore's lead photo was not the sender's and is off
 
 - **Live: The Strangler Fig of the Daintree Discovery Centre (daintree/dtr_001, Queensland, Australia), sighting 4fe1cb00.** The photograph was viewed: from the boardwalk it looks up a column of fused, latticed fig roots climbing into the canopy among fan palms, with a visitor at the rail. The pin is the reader's GPS fix (confirmed). The reader's 500 to 600 years are stated as theirs. Only their sentence about the lost host tree is quoted, because the rest of their note reads like the centre's own description. Their second file is a 194 by 260 pixel thumbnail that may not be theirs, so it is not used. The species is "Fig (Ficus sp.)", matching Tilarán, because preflight allows one common name per species. Entry is paid. It is a new one-tree place (no place page), and "Daintree Rainforest" is now in city-aliases.
