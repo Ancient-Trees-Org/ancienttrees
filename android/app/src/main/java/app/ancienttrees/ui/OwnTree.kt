@@ -593,26 +593,15 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
         onDismissRequest = onCancel,
         containerColor = brand.ground,
     ) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp).imePadding()) {
-            Row(Modifier.fillMaxWidth().height(44.dp), verticalAlignment = Alignment.CenterVertically) {
-                Text(stringResource(R.string.cancel), fontSize = 17.sp, color = brand.moss, modifier = Modifier.clickable(role = Role.Button, onClick = onCancel))
-                Text(
-                    prompt,
-                    fontSize = 17.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = brand.ink,
-                    maxLines = 1,
-                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-                    modifier = Modifier.weight(1f).padding(horizontal = 8.dp),
-                )
-                Text(
-                    stringResource(R.string.ot_save),
-                    fontSize = 17.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = brand.moss,
-                    modifier = Modifier.clickable(role = Role.Button) { onSave(text.trim()) },
-                )
-            }
+        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp).imePadding()) {
+            // Android's dialog bar (SheetNavBar): the X for Cancel, the prompt, Save at the end.
+            SheetNavBar(
+                full = false,
+                leading = stringResource(R.string.cancel) to onCancel,
+                title = prompt,
+                trailing = stringResource(R.string.ot_save) to { onSave(text.trim()) },
+            )
+            Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
             Spacer(Modifier.height(12.dp))
             BasicTextField(
                 value = text,
@@ -644,6 +633,7 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
                 Text(hint, fontSize = 13.sp, color = brand.inkSoft)
             }
             Spacer(Modifier.height(24.dp))
+            }
         }
     }
 }

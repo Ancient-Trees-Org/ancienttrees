@@ -116,6 +116,20 @@ fun ContributeSheet(
     var failed by remember { mutableStateOf(false) }
     // The gate at the entrance, as the website does on arrival.
     LaunchedEffect(Unit) { if (!signedIn) onNeedsSignIn() }
+    val ready = signedIn && !sent && !sending && why.isNotEmpty()
+    fun send() {
+        sending = true
+        failed = false
+        scope.launch {
+            val ok = Submission.send(
+                kind = kind.raw, city = city, tree = tree, locationHint = where, why = why,
+                page = about?.url ?: if (feedbackMode) "app-profile" else null,
+                token = account.fresh()?.accessToken,
+            )
+            sending = false
+            if (ok) sent = true else failed = true
+        }
+    }
 
     AppSheet(
         onDismissRequest = onDismiss,
@@ -129,11 +143,14 @@ fun ContributeSheet(
     ) {
         // Full height, as the iPhone's form sheet (the .large detent of a NavigationStack).
         Column(Modifier.fillMaxWidth().fillMaxHeight().testTag("contribute-sheet")) {
-        // The inline bar, which a NavigationStack keeps while the form scrolls: Cancel
-        // (Done once sent) and the title, through the one sheet bar (SheetNavBar).
+        // Android's full-screen dialog bar (SheetNavBar): the X (Cancel, Done once
+        // sent), the title, and Send as the text button at the end once signed in.
         SheetNavBar(
             full = true,
             leading = stringResource(if (sent) R.string.done else R.string.cancel) to onDismiss,
+            trailing = if (signedIn && !sent) stringResource(if (sending) R.string.sending else R.string.send) to { if (ready) send() } else null,
+            trailingEnabled = ready,
+            trailingTag = "contribute-send",
             title = stringResource(
                         when {
                             sent -> R.string.sent_title
@@ -155,21 +172,17 @@ fun ContributeSheet(
             val cell = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 15.dp)
 
             @Composable
-            fun Header(text: String) = Text(
-                text.uppercase(), fontSize = 13.sp, color = brand.inkSoft,
-                modifier = Modifier.padding(start = 16.dp, bottom = 6.dp),
-            )
+            // Android's list subheader: the same words in sentence case, in moss (Eyebrow).
+            fun Header(text: String) = Eyebrow(text, Modifier.padding(start = 4.dp, bottom = 8.dp))
 
             @Composable
-            fun Field(value: String, onChange: (String) -> Unit, hint: String, modifier: Modifier = cell) = Box(modifier) {
-                BasicTextField(
-                    value, onChange,
-                    textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
-                    cursorBrush = SolidColor(brand.moss),
-                    modifier = Modifier.fillMaxWidth(),
-                )
-                if (value.isEmpty()) Text(hint, fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.6f))
-            }
+            // Android's outlined field (FormField), the prompt as its label.
+            fun Field(value: String, onChange: (String) -> Unit, hint: String, lines: Int = 1) = FormField(
+                value, onChange, hint,
+                modifier = Modifier.fillMaxWidth(),
+                singleLine = lines == 1,
+                minLines = lines,
+            )
 
             @Composable
             // iOS 26's grouped-list separator stops short of the card's right edge too
@@ -211,7 +224,7 @@ fun ContributeSheet(
                             Text(about.city, fontSize = 13.sp, color = brand.inkSoft)
                         }
                         Spacer(Modifier.height(20.dp))
-                        Column(group) { Field(where, { where = it }, stringResource(R.string.where_really)) }
+                        Field(where, { where = it }, stringResource(R.string.where_really))
                         Spacer(Modifier.height(20.dp))
                     } else if (!feedbackMode) {
                         // Four choices as four rows with a tick.
@@ -231,56 +244,23 @@ fun ContributeSheet(
                         }
                         Spacer(Modifier.height(20.dp))
                         Header(stringResource(R.string.contribute_where))
-                        Column(group) {
+                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                             Field(city, { city = it }, stringResource(R.string.contribute_place_or_city))
-                            Divider()
                             Field(tree, { tree = it }, stringResource(R.string.contribute_which_tree))
-                            Divider()
                             Field(where, { where = it }, stringResource(R.string.contribute_where_exactly))
                         }
                         Spacer(Modifier.height(20.dp))
                     }
                     if (feedbackMode) Header(stringResource(R.string.feedback_header))
-                    Column(group) {
-                        Field(
-                            why, { why = it },
-                            stringResource(if (feedbackMode) R.string.feedback_placeholder else R.string.what_should_we_know),
-                            cell.heightIn(min = 110.dp),
-                        )
-                    }
+                    Field(
+                        why, { why = it },
+                        stringResource(if (feedbackMode) R.string.feedback_placeholder else R.string.what_should_we_know),
+                        lines = 5,
+                    )
                     Text(
                         stringResource(R.string.nobody_sees), fontSize = 13.sp, color = brand.inkSoft,
                         modifier = Modifier.padding(start = 16.dp, top = 6.dp, end = 16.dp),
                     )
-                    Spacer(Modifier.height(20.dp))
-                    val ready = !sending && why.isNotEmpty()
-                    Row(
-                        group.clickable(enabled = ready, role = Role.Button) {
-                            sending = true
-                            failed = false
-                            scope.launch {
-                                val ok = Submission.send(
-                                    kind = kind.raw, city = city, tree = tree, locationHint = where, why = why,
-                                    page = about?.url ?: if (feedbackMode) "app-profile" else null,
-                                    token = account.fresh()?.accessToken,
-                                )
-                                sending = false
-                                if (ok) sent = true else failed = true
-                            }
-                        }.then(cell).testTag("contribute-send"),
-                        horizontalArrangement = Arrangement.Center,
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        if (sending) {
-                            CircularProgressIndicator(Modifier.size(16.dp), color = brand.inkSoft, strokeWidth = 2.dp)
-                            Spacer(Modifier.width(6.dp))
-                        }
-                        Text(
-                            stringResource(if (sending) R.string.sending else R.string.send),
-                            fontSize = 17.sp,
-                            color = if (ready) brand.moss else brand.inkSoft.copy(alpha = 0.5f),
-                        )
-                    }
                     if (failed) {
                         Text(
                             stringResource(R.string.note_failed), fontSize = 13.sp, color = brand.dangerText,

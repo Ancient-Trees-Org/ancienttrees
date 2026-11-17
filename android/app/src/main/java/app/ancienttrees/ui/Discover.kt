@@ -1021,9 +1021,6 @@ private fun AmbassadorWantedRow(
             Text(stringResource(R.string.discover_ambassador_wanted, place), fontSize = 14.sp, fontWeight = FontWeight.Bold, color = brand.ink)
             if (asked) Text(stringResource(R.string.discover_request_sent), fontSize = 12.sp, color = brand.inkSoft)
         }
-        if (!asked) {
-            Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
-        }
     }
     if (confirming) {
         val close = { confirming = false; sent = false }
@@ -1226,7 +1223,6 @@ private fun IndexRow(title: String, subtitle: String, count: Int, onClick: () ->
             Text(subtitle, fontSize = 12.sp, color = brand.inkSoft, maxLines = 1)
         }
         Text("$count", fontSize = 15.sp, color = brand.inkSoft)
-        Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(16.dp))
     }
 }
 
@@ -1248,7 +1244,6 @@ private fun SpeciesIndexRow(name: String, count: Int, onClick: () -> Unit) {
         SpeciesMark(name, brand.moss, Modifier.size(30.dp))
         Text(name, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink, maxLines = 1, modifier = Modifier.weight(1f))
         Text("$count", fontSize = 15.sp, color = brand.inkSoft)
-        Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(16.dp))
     }
 }
 

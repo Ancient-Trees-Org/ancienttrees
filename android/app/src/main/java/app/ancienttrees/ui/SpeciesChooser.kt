@@ -240,10 +240,11 @@ internal fun LazyListScope.groupedSection(
         item(key = "h-$header") {
             Text(
                 headerText(),
-                // An iOS 26 inset-grouped section header: 17 semibold.
-                fontSize = 17.sp,
+                // Android's list subheader (Material 3 lists): small, in the brand colour.
+                fontFamily = BrandFace,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold,
-                color = Brand.colors.inkSoft,
+                color = Brand.colors.moss,
                 modifier = Modifier.padding(start = 32.dp, end = 32.dp, top = 6.dp, bottom = 8.dp),
             )
         }

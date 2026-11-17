@@ -72,6 +72,22 @@
     {
       "what": "Tab bar",
       "why": "Android's own bar (Hidde, 2026-11-17: \"dat voelt als iOS specifiek\", then \"volg maar gewoon polarsteps en alltrails\"): docked to the bottom edge across the full width, 56 above the system bar, a word under every item, the chosen place in moss with a filled glyph and no pill. The iPhone's floating capsule is Apple's iOS 26 tab bar, a system control, so by Airbnb's line each phone takes its own. Places, glyphs and order are the iPhone's; the camera is the fourth item with its word (Collect) because every item on a docked Android bar carries one. Source: AllTrails and Polarsteps measured on a Galaxy S21 Ultra (both 56, white, five labelled items), CONVENTIONS.md \"A tab bar on Android\" (2026-11-17)."
+    },
+    {
+      "what": "Form headers",
+      "why": "Android's full-screen dialog (Hidde, 2026-11-17, on his Galaxy S21 Ultra: platform controls take Android's form, as AllTrails and Polarsteps do): a close X at the leading edge, the title left-aligned beside it, the confirming action (Save, Send) as a text button at the trailing end. The iPhone's Cancel and Save capsules round a centred title are Apple's modal navigation bar. Edit profile, Feedback and Tell us, the own tree's field editor, Sources, Delete account, the country, species and merge choosers all go through SheetNavBar (Settings.kt); the X keeps its word (Cancel, Close, Done) for a screen reader and the walks. Feedback's Send moved from the bottom of the form into the bar. Source: m3.material.io/components/dialogs, 'Full-screen dialogs'; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "Page titles",
+      "why": "Android's small top app bar on every pushed page (species, a collection, Settings, Find people, Privacy settings, a person, a tree's map, a shared tree): the back arrow plain in a 48 touch target at the leading edge, the title left-aligned after it, 64 tall. The iPhone's centred title and round glass back button are iOS 26's navigation bar. One shared bar, PushedBar (Settings.kt). Source: m3.material.io/components/top-app-bar (small); Google's own apps (Settings, Contacts, Play Store) draw it so; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "List rows and section headers",
+      "why": "Android's lists: no chevron at the end of a row that opens something (Settings rows, your card, Delete account, Discover's index rows, the ambassador and Plus rows on a place), and section headers in sentence case, small, in moss (Eyebrow in TreeRows.kt, the choosers' grouped headers, Feedback's). Same words; only the uppercase transform and the chevrons go. Kept: the up-and-down glyph on a row that opens a menu, the arrow on a row that leaves the app, 'See all' and the species link on a tree page (a disclosure in running text, as Google's Play Store keeps its arrow there). Source: m3.material.io/components/lists; Google's Settings and Contacts; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "Text fields",
+      "why": "Android's outlined text field: the label inside the outline, floating up to it on focus or text, the value left-aligned, moss when focused (FormField in Settings.kt). Edit profile's Name and Country (Country a read-only field with a down arrow that opens the choice, Material's exposed dropdown) and the Feedback and Tell us forms. The iPhone keeps Apple's label-left, value-right rows. Source: m3.material.io/components/text-fields and the exposed dropdown menu in m3.material.io/components/menus; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
     }
   ],
   "map": {

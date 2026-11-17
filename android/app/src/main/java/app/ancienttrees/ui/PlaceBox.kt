@@ -169,9 +169,6 @@ private fun PersonRow(name: String, profile: String?, place: String, last: Boole
                 if (last) AmbassadorSeat(place, seated = true, link = true)
             }
         }
-        if (profile != null) {
-            Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
-        }
     }
 }
 
@@ -234,7 +231,6 @@ private fun AmbassadorSeat(place: String, seated: Boolean, link: Boolean) {
                 maxLines = 2,
                 modifier = Modifier.weight(1f),
             )
-            if (!asked) Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
         }
     }
     if (confirming) {
@@ -394,7 +390,6 @@ private fun PlusRow(city: String) {
     ) {
         Icon(Sym.SparklesSemibold, null, tint = brand.moss, modifier = Modifier.size(20.dp)) // sparkles at 15 semibold (PlusAsk.swift)
         Text(stringResource(R.string.plus_row), fontFamily = BrandFace, fontWeight = FontWeight.Medium, fontSize = 15.sp, color = brand.ink, modifier = Modifier.weight(1f))
-        Icon(Sym.ChevronRightSemibold, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(19.dp))
     }
     if (asking) PlusQuestionSheet(city, "city") { asking = false }
 }
