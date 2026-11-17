@@ -92,6 +92,35 @@ jobs:
             git pull -q --rebase --autostash origin main && git push -q || true
           fi
 
+      # Somebody who pressed "Become the ambassador" gets the mail with the
+      # questions and the badge in the same minutes (Hidde, 2026-11-17: "binnen
+      # een kwartier mailen in plaats van in de nightrun"). The same script and
+      # guards as the knock (one week's rest, mailcheck, send log); the knock
+      # still runs it as the safety net and finds nothing left. No agent.
+      - name: Answer ambassador requests
+        if: steps.poll.outputs.new == 'yes'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OUTREACH_SMTP_HOST: ${{ secrets.OUTREACH_SMTP_HOST }}
+          OUTREACH_SMTP_PORT: ${{ secrets.OUTREACH_SMTP_PORT }}
+          OUTREACH_SMTP_USER: ${{ secrets.OUTREACH_SMTP_USER }}
+          OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
+          RESEND_SMTP_HOST: ${{ secrets.RESEND_SMTP_HOST }}
+          RESEND_SMTP_PASS: ${{ secrets.RESEND_SMTP_PASS }}
+          OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
+        run: |
+          python3 scripts/private_store.py pull
+          python3 scripts/ambassador.py --requests --send
+          python3 scripts/private_store.py push
+          if ! git diff --quiet -- data/ambassadors.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/ambassadors.json
+            git commit -q -m "reader judge: ambassador requests answered and badged"
+            git pull -q --rebase --autostash origin main && git push -q || true
+          fi
+
       - name: Is anything waiting
         id: work
         if: steps.poll.outputs.new == 'yes'

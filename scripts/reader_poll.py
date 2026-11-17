@@ -60,7 +60,7 @@ def main():
             done = {}
         rows = get("/rest/v1/sightings?select=id&shared=eq.true&photo=not.is.null&updated_at=gte." + since, key)
         n += len([r for r in rows if r["id"] not in done])
-        n += len(get("/rest/v1/submissions?select=id&kind=in.(tree,city)&created_at=gte." + since, key))
+        n += len(get("/rest/v1/submissions?select=id&kind=in.(tree,city,ambassador)&created_at=gte." + since, key))
         # Reports on our trees (dead, wrong place, could not tell which, a
         # moved pin) wake the judge too, by when they were sent or when their
         # follow-up words came (Hidde, 2026-11-17: like the readers' trees).
