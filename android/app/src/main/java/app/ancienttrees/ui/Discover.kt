@@ -1247,8 +1247,4 @@ private fun SpeciesIndexRow(name: String, count: Int, onClick: () -> Unit) {
     }
 }
 
-/** A person's public profile, until the profile screen is ported (data/android-parity.json). */
-fun openProfileOnWeb(context: Context, userId: String) {
-    val u = Uri.parse("https://ancienttrees.app/profile?u=" + Uri.encode(userId))
-    runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, u)) }
 }
