@@ -2037,6 +2037,31 @@ def reader_trees_to_inspect(today):
     ])
 
 
+def new_ambassadors_section(today):
+    """Who became an ambassador on the digest's day, one line, plus the count.
+
+    Hidde, 2026-11-17: the request needs no approval of his ("a automatic
+    email can go out when they ask and they get the badge"), which
+    ambassador.py --requests --send has done at every knock since 11-02; "just
+    inform me on a daily basis who was added and keep a list of everyone when
+    needed". The full list: `python3 scripts/ambassador.py --list`. DATA.md is
+    public, so a name shows only when the person's profile is public (the
+    same consent that names them on the city page); otherwise "a reader"."""
+    path = os.path.join(ROOT, "data", "ambassadors.json")
+    try:
+        amb = json.load(open(path, encoding="utf-8")).get("ambassadors") or []
+    except Exception:
+        return ""
+    day = (today - datetime.timedelta(days=1)).isoformat()
+    new = [a for a in amb if (a.get("since") or "") == day]
+    if not new:
+        return ""
+    who = ["%s (%s)" % (a.get("display_name") if a.get("public") and a.get("display_name") else "a reader",
+                        a.get("place_name") or a.get("place_slug")) for a in new]
+    return ("**New ambassadors yesterday: %d.** %s. Each got the mail and the badge automatically; "
+            "%d ambassadors in all (`python3 scripts/ambassador.py --list`)." % (len(new), "; ".join(who), len(amb)))
+
+
 def ambassador_requests_section(today):
     """Every open ambassador request, near the top, until the badge is granted.
 
@@ -4322,6 +4347,7 @@ def main():
             _weekly(["%s: failed today (%s at %s)." % (fn.__name__, str(e)[:90], where)])
 
     block(ambassador_requests_section, today)
+    block(new_ambassadors_section, today)
     block(day_by_day_section, today)
     block(reader_trees_to_inspect, today)
     block(waiting_for_you_section, today)
