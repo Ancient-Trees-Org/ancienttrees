@@ -244,7 +244,10 @@ struct PersonProfileView: View {
         if DemoPeople.on { return }
         Task {
             guard let t = await account.freshToken() else {
-                following = was; followers = max(0, followers + (was ? 1 : -1)); signingIn = true; return
+                following = was; followers = max(0, followers + (was ? 1 : -1))
+                // No signal is not a sign-out (Account.apply): signed in, it failed; only a real sign-out asks (2026-11-17).
+                if !account.isSignedIn { signingIn = true }
+                return
             }
             let ok = was
                 ? await profiles.unfollow(userId, me: s.userId, token: t)

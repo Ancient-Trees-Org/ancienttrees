@@ -577,7 +577,8 @@ struct PeopleView: View {
         Task {
             guard let t = await account.freshToken() else {
                 if wasFollowing { followingIds.insert(p.user_id) } else { followingIds.remove(p.user_id) }
-                signingIn = true
+                // No signal is not a sign-out (Account.apply): signed in, it failed; only a real sign-out asks (2026-11-17).
+                if !account.isSignedIn { signingIn = true }
                 return
             }
             let ok = wasFollowing

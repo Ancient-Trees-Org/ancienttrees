@@ -468,7 +468,14 @@ struct AmbassadorWantedRow: View {
         Task {
             guard let token = await account.freshToken() else {
                 sending = false
-                signingIn = true
+                // No signal is not a sign-out (Account.apply): signed in, it failed; only a real sign-out asks (2026-11-17).
+                if account.isSignedIn {
+                    confirming = false
+                    navigator.snack = .init(text: "Your request did not send. Please try again in a moment.",
+                                            symbol: "exclamationmark.circle")
+                } else {
+                    signingIn = true
+                }
                 return
             }
             let ok = await Submission.requestAmbassador(city: place, token: token)
