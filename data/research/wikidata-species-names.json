@@ -15400,6 +15400,31 @@
    "Eucalyptus pauciflora"
   ]
  },
+ "Eucalyptus pilularis": {
+  "en": [
+   "Blackbutt",
+   "Eucalyptus pilularis",
+   "blackbutt"
+  ],
+  "de": [
+   "Eucalyptus pilularis"
+  ],
+  "es": [
+   "Eucalyptus pilularis"
+  ],
+  "fr": [
+   "Eucalyptus pilularis"
+  ],
+  "it": [
+   "Eucalyptus pilularis"
+  ],
+  "nl": [
+   "Eucalyptus pilularis"
+  ],
+  "pt": [
+   "Eucalyptus pilularis"
+  ]
+ },
  "Eucalyptus regnans": {
   "en": [
    "Eucalyptus regnans",
@@ -26441,6 +26466,54 @@
    "Pinus cembroides"
   ]
  },
+ "Pinus contorta": {
+  "en": [
+   "Lodgepole Pine",
+   "Pinus contorta",
+   "Shore Pine",
+   "Tamarack Pine",
+   "lodgepole pine",
+   "shore pine",
+   "tamarack pine"
+  ],
+  "nl": [
+   "Draaiden",
+   "Pinus contorta",
+   "draaiden"
+  ],
+  "de": [
+   "Dreh-Kiefer",
+   "Drehkiefer",
+   "Küsten-Kiefer",
+   "Küstenkiefer",
+   "Pinus contorta"
+  ],
+  "es": [
+   "Pinus contorta",
+   "pino contorto",
+   "pino contorto costero",
+   "pino contorto de hoja ancha",
+   "pino de Murray"
+  ],
+  "fr": [
+   "Pinus contorta",
+   "pin tordu"
+  ],
+  "it": [
+   "Pinus contorta",
+   "pino contorto"
+  ],
+  "ja": [
+   "コントルタマツ",
+   "ロッジポールパイン",
+   "ロッジポールマツ",
+   "ロッジポール松の木"
+  ],
+  "pt": [
+   "Pinus contorta",
+   "pinheiro-da-praia"
+  ]
+ },
  "Pinus coulteri": {
   "en": [
    "Big-cone Pine",
@@ -28748,6 +28821,38 @@
   ],
   "pt": [
    "Podocarpus neriifolius"
+  ]
+ },
+ "Podocarpus totara": {
+  "en": [
+   "Podocarpus totara",
+   "totara",
+   "tōtara"
+  ],
+  "de": [
+   "Podocarpus totara",
+   "Totara",
+   "Tōtara"
+  ],
+  "es": [
+   "Podocarpus totara",
+   "Totara"
+  ],
+  "ja": [
+   "トタラ",
+   "トタラマキ"
+  ],
+  "fr": [
+   "Podocarpus totara"
+  ],
+  "it": [
+   "Podocarpus totara"
+  ],
+  "nl": [
+   "Podocarpus totara"
+  ],
+  "pt": [
+   "Podocarpus totara"
   ]
  },
  "Pongamia": {
@@ -33757,6 +33862,27 @@
   ],
   "pt": [
    "Quercus hispanica"
+  ]
+ },
+ "Quercus × rosacea": {
+  "nl": [
+   "Quercus × rosacea",
+   "Wintereik × Zomereik"
+  ],
+  "en": [
+   "rosy oak"
+  ],
+  "de": [
+   "Quercus rosacea"
+  ],
+  "es": [
+   "Quercus rosacea"
+  ],
+  "it": [
+   "Quercus rosacea"
+  ],
+  "pt": [
+   "Quercus rosacea"
   ]
  },
  "Quercus × turneri": {},
@@ -39905,6 +40031,46 @@
   ]
  },
  "Villa di": {},
+ "Vitis": {
+  "en": [
+   "Vitis",
+   "grape",
+   "grape genus",
+   "grape plant",
+   "grapevine",
+   "grapevines"
+  ],
+  "ja": [
+   "ブドウの木",
+   "ブドウ属",
+   "ヴィティス"
+  ],
+  "it": [
+   "Vitis",
+   "vite"
+  ],
+  "fr": [
+   "Vitis",
+   "vigne"
+  ],
+  "de": [
+   "Rebe",
+   "Reben",
+   "Vitis",
+   "Weinreben"
+  ],
+  "es": [
+   "Vid",
+   "Vitis"
+  ],
+  "nl": [
+   "Loza",
+   "Vitis"
+  ],
+  "pt": [
+   "Vitis"
+  ]
+ },
  "Wales": {},
  "Wales and": {},
  "Wallaceodendron": {

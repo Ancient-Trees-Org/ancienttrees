@@ -1530,6 +1530,10 @@
    }
   },
   {
+   "common": "Blackbutt",
+   "latin": "Eucalyptus pilularis"
+  },
+  {
    "common": "Blakely's Red Gum",
    "latin": "Eucalyptus blakelyi"
   },
@@ -2142,6 +2146,10 @@
      "マメナシ"
     ]
    }
+  },
+  {
+   "common": "Cambridge Oak",
+   "latin": "Quercus x warburgii"
   },
   {
    "common": "Campbell's Magnolia",
@@ -6065,6 +6073,40 @@
    }
   },
   {
+   "common": "Grapevine",
+   "latin": "Vitis sp.",
+   "names": {
+    "en": [
+     "grape",
+     "grape genus",
+     "grape plant",
+     "grapevines"
+    ],
+    "nl": [
+     "Loza"
+    ],
+    "de": [
+     "Rebe",
+     "Reben",
+     "Weinreben"
+    ],
+    "es": [
+     "Vid"
+    ],
+    "it": [
+     "vite"
+    ],
+    "fr": [
+     "vigne"
+    ],
+    "ja": [
+     "ブドウの木",
+     "ブドウ属",
+     "ヴィティス"
+    ]
+   }
+  },
+  {
    "common": "Gray Poplar",
    "latin": "Populus canescens",
    "names": {
@@ -6931,7 +6973,15 @@
   },
   {
    "common": "Hybrid Oak",
-   "latin": "Quercus x warburgii"
+   "latin": "Quercus x rosacea",
+   "names": {
+    "en": [
+     "rosy oak"
+    ],
+    "nl": [
+     "Wintereik × Zomereik"
+    ]
+   }
   },
   {
    "common": "Hybrid Strawberry Tree",
@@ -8567,6 +8617,46 @@
     ],
     "ja": [
      "テーダマツ"
+    ]
+   }
+  },
+  {
+   "common": "Lodgepole Pine",
+   "latin": "Pinus contorta",
+   "names": {
+    "en": [
+     "Shore Pine",
+     "Tamarack Pine"
+    ],
+    "nl": [
+     "Draaiden"
+    ],
+    "de": [
+     "Dreh-Kiefer",
+     "Drehkiefer",
+     "Küsten-Kiefer",
+     "Küstenkiefer"
+    ],
+    "es": [
+     "pino contorto",
+     "pino contorto costero",
+     "pino contorto de hoja ancha",
+     "pino de Murray"
+    ],
+    "it": [
+     "pino contorto"
+    ],
+    "fr": [
+     "pin tordu"
+    ],
+    "pt": [
+     "pinheiro-da-praia"
+    ],
+    "ja": [
+     "コントルタマツ",
+     "ロッジポールパイン",
+     "ロッジポールマツ",
+     "ロッジポール松の木"
     ]
    }
   },
@@ -14448,6 +14538,31 @@
    }
   },
   {
+   "common": "Totara",
+   "latin": "Podocarpus sp.",
+   "names": {
+    "en": [
+     "Yellowwood",
+     "plum pine"
+    ],
+    "nl": [
+     "Foliolatus",
+     "Podcarpus"
+    ],
+    "de": [
+     "Steineiben"
+    ],
+    "es": [
+     "Manio",
+     "Podocarpo"
+    ],
+    "ja": [
+     "ポドカルプス属",
+     "マキ属"
+    ]
+   }
+  },
+  {
    "common": "Transcaucasian Birch",
    "latin": "Betula medwediewii",
    "names": {
@@ -14711,6 +14826,16 @@
     "ja": [
      "ヨーロッパブナ",
      "ヨーロッパブナ (植物)"
+    ]
+   }
+  },
+  {
+   "common": "Tōtara",
+   "latin": "Podocarpus totara",
+   "names": {
+    "ja": [
+     "トタラ",
+     "トタラマキ"
     ]
    }
   },
@@ -25134,6 +25259,41 @@
     ],
     "ja": [
      "ガマズミ属"
+    ]
+   }
+  },
+  {
+   "common": "Grape",
+   "latin": "Vitis",
+   "genus": true,
+   "names": {
+    "en": [
+     "grape genus",
+     "grape plant",
+     "grapevine",
+     "grapevines"
+    ],
+    "nl": [
+     "Loza"
+    ],
+    "de": [
+     "Rebe",
+     "Reben",
+     "Weinreben"
+    ],
+    "es": [
+     "Vid"
+    ],
+    "it": [
+     "vite"
+    ],
+    "fr": [
+     "vigne"
+    ],
+    "ja": [
+     "ブドウの木",
+     "ブドウ属",
+     "ヴィティス"
     ]
    }
   },
