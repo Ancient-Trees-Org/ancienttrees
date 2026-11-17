@@ -25,6 +25,10 @@ A reader's tree goes live when it has a GPS fix or a photograph and is somewhat 
 - And the same sighting in data/sightings-processed.json: `done[<sighting id>].outcome` becomes `published` or `held`. Left at `lead`, the next intake matches the photograph to the tree you just made and queues it again.
 - `python3 scripts/judgement.py --scan`, then each verdict in data/judgements.json, and a `sight:<sighting id>` entry for every contributor photograph now on a page.
 
+## Readers' words
+
+Then `python3 scripts/reader_words.py`: each reader's note on a live tree whose words no story quotes yet. Put the usable ones on the page (CLAUDE.md "Readers' words go on the page, quoted"): unnamed, their facts stated as theirs, an age they give as "by a reader's estimate", in every language the story exists in. Not usable, and closed with `--done <row id> "why"`: text pasted from a chatbot or a website (headings like "Key Details", bullet summaries; check its facts, never quote it as theirs), an instruction to us, or thanks. A fact from it that a source confirms may go in the story as a fact.
+
 ## Before you push
 
 `python3 scripts/preflight.py` must print 0 problems and `python3 scripts/i18ncheck.py` must be clean: a new tree in a place with a kept translation needs that overlay's tree entry, and every count in the place's texts and overlays follows the new number. Then one LOG.md entry ("## <date> reader judge: ..."), newest first, commit, `git pull --rebase --autostash`, push.

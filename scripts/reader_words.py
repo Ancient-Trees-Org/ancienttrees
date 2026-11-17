@@ -122,7 +122,21 @@ def notes(key):
         if tid:
             rows.append((tid, "submission " + (r.get("kind") or ""), r["id"],
                          (r.get("created_at") or "")[:10], r.get("why") or ""))
-    return [r for r in rows + mailed() if len(words(r[4])) >= MIN_WORDS]
+    # Not a reader's words (2026-11-17): the website writes its own line into a
+    # photograph's note, and a report chip lists tree names. And one person's
+    # words arrive twice (the app sighting and its submission row): list once.
+    ours_text = ("Photograph sent from this tree", "could not tell which tree:")
+    out, seen = [], set()
+    for r in rows + mailed():
+        text = (r[4] or "").strip()
+        if len(words(text)) < MIN_WORDS or text.startswith(ours_text):
+            continue
+        k = (r[0], " ".join(words(text))[:200])
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(r)
+    return out
 
 
 def mailed():
