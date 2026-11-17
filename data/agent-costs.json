@@ -5,6 +5,14 @@
       {
         "date": "2026-11-17",
         "kind": "write",
+        "target": "miami+allentown+dartmoor+frankfurt+innsbruck+san-francisco+detroit+aspromonte+brindisi+castelbuono",
+        "tokens": 95000,
+        "trees": 2,
+        "note": "15 asked, 2 written and merged (mia_015, mia_016); 13 skipped: standing holds with no new evidence (alive, access, location), sfo_012 duplicate of sfo_004, det_001/002 no coordinate; preflight 1 problem, unrelated (Takayama sighting verdict)"
+      },
+      {
+        "date": "2026-11-17",
+        "kind": "write",
         "target": "sightings inbox night run (15 matched photographs, 8 trees we do not map)",
         "tokens": 0,
         "trees": 7,
