@@ -2472,6 +2472,72 @@
    "agreed": null
   },
   {
+   "id": "sight:ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Trolleken (the Troll Oak of Trollskogen)",
+   "city": "Trollskogen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ef187fe2-7b84-4b0c-8a97-1b809f26fb89.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Trolleken's trunk filling the frame, summer leaf, daylight, GPS 0 m from our pin; now the lead photograph (add).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c9571128-bcb5-4b44-a87d-5fd433b1a10b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Trolleken (the Troll Oak of Trollskogen)",
+   "city": "Trollskogen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/c9571128-bcb5-4b44-a87d-5fd433b1a10b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The whole tree with the Naturum board reading Trolleken in front; in the strip (add).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:df61ce54-1440-4120-be2d-446bf82ff986",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Trolleken (the Troll Oak of Trollskogen)",
+   "city": "Trollskogen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/df61ce54-1440-4120-be2d-446bf82ff986.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Same trunk against the light, hollow foot and dead limb; in the strip (add).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",

@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: three readers' photographs on Trolleken, the Femeiche reader quoted
+
+- **Live**: three photographs of Trolleken, the Troll Oak of Trollskogen on Öland (trs_001), from one reader, taken 2025-07-20, GPS 0 m from our pin. Looked at each: lobed oak leaves, the burred, hollowed trunk inside its rail fence, and in one the Naturum board reading "Trolleken". The shot where the trunk fills the frame now leads; the board shot and the backlit one sit in the strip (`add`). Its page now has a lead photograph unique to us.
+- **Readers' words**: the Erler Femeiche (rsf_001) story now quotes the reader's own sentence on its NRW heritage title instead of paraphrasing it. Three older notes still wait in `reader_words.py` (Hammundeseiche, Geelong, Te Araroa) for a later run.
+- The Baarn lead 7ff766ff (our own account) was held by the parallel run below; its verdict stands. The 37 older `mine` leads were left alone: our own accounts, never auto-published.
+- No open reports, no feedback without a verdict. Preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 reader judge: North Berwick's Act of Union beeches go live (nbw_001); the Isparta plane moves to where its finder put it
 
 - **New: The Act of Union Beeches of North Berwick Law** (north-berwick/nbw_001), a new one-tree place. A reader's photograph from 11-15, held then "for Hidde" for want of a source, was judged again under the closed list when the same reader moved its pin (report 1000032). The Union planting has sources: Sir Hew Dalrymple, Lord North Berwick, planted the beeches for 1707 (Wikipedia citing Scotland on Sunday 2009, six left then; the Scotsman; a 2013 blog counting five). The reader's words are quoted, and the pin is their own move, marked approximate. Report 1000032 was closed with the standard pin thank-you. A custom reply written first was replaced, because the rule that landed on main during this run allows runs only the standard mails.

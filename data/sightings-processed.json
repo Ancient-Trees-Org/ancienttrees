@@ -4222,6 +4222,39 @@
    "outcome": "held",
    "date": "2026-11-17",
    "reason": "wrong subject: a desk fan, our own test account"
+  },
+  "df61ce54-1440-4120-be2d-446bf82ff986": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-df61ce54.jpg",
+   "reason": "Trolleken from the path side, against the light: the squat, burred and hollowed trunk inside its rail fence, ferns at the foot, a dead limb rising right. Same trunk as the other two shots. Species seen: lobed oak leaves with short stalks, deeply fissured grey oak bark. Fits the description: a huge, ",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "c9571128-bcb5-4b44-a87d-5fd433b1a10b": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-c9571128.jpg",
+   "reason": "The whole tree from the Trollskogsstigen with the Naturum interpretation board reading 'Trolleken' in front of the fence; daylight, colour. Species seen: lobed oak leaves, fissured oak bark, broad low crown. Fits the description: the veteran oak on the waymarked trail, fenced, with the board titled ",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
+  },
+  "ef187fe2-7b84-4b0c-8a97-1b809f26fb89": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "trs_001",
+   "city_slug": "trollskogen",
+   "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-ef187fe2.jpg",
+   "reason": "The trunk fills the frame: the massive lichen-covered bole, the hollow at its foot and the twisting limbs, in summer leaf and daylight. The best lead of the three. Species seen: lobed pedunculate oak leaves, deeply fissured oak bark. Fits the description: an enormous, hollowed veteran oak within a r",
+   "lat": 57.354626,
+   "lon": 17.124371,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

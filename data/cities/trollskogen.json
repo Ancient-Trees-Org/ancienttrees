@@ -65,17 +65,56 @@
         "views": 5
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Trolleken%2C_Trollskogen%2C_Borgholm_municipality%2C_%C3%96land_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Fry72, Karel Frydrýšek, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-ef187fe2.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-14",
-        "width": 3472,
-        "height": 4624,
-        "taken_month": 7
+        "width": 1151,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+        "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
+        "note": "Photographed by a reader and sent through the app (2025-07-20); a viewing pass approved it on 2026-11-17: The trunk fills the frame: the massive lichen-covered bole, the hollow at its foot and the twisting limbs, in summer leaf and daylight. The best lead of the three. Species seen: lobed pedunculate oak leaves, deeply fissured oak bark. Fits the description: an enormous, hollowed veteran oak within a rail fence in pine forest, the same trunk as the shot with the Trolleken board.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-c9571128.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+          "sighting_id": "c9571128-bcb5-4b44-a87d-5fd433b1a10b",
+          "note": "Photographed by a reader and sent through the app (2025-07-20); a viewing pass approved it on 2026-11-17: The whole tree from the Trollskogsstigen with the Naturum interpretation board reading 'Trolleken' in front of the fence; daylight, colour. Species seen: lobed oak leaves, fissured oak bark, broad low crown. Fits the description: the veteran oak on the waymarked trail, fenced, with the board titled Trolleken.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-df61ce54.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+          "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
+          "note": "Photographed by a reader and sent through the app (2025-07-20); a viewing pass approved it on 2026-11-17: Trolleken from the path side, against the light: the squat, burred and hollowed trunk inside its rail fence, ferns at the foot, a dead limb rising right. Same trunk as the other two shots. Species seen: lobed oak leaves with short stalks, deeply fissured grey oak bark. Fits the description: a huge, hollow veteran oak behind a wooden rail fence on a forest trail, the trail sign of the same visit names it Trolleken.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Trolleken%2C_Trollskogen%2C_Borgholm_municipality%2C_%C3%96land_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Fry72, Karel Frydrýšek, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-14",
+          "width": 3472,
+          "height": 4624,
+          "taken_month": 7
+        },
         {
           "url": "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-54dc7d2a.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
