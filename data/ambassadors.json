@@ -1075,6 +1075,86 @@
         "The Elephant-Trunk Fig of Tilarán"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9206238867676c83f47e12ca",
+      "place_slug": "bangor-maine",
+      "place_name": "Bangor, Maine",
+      "date": "2026-11-17",
+      "trees": [
+        "The White Pine at the Orono Bog Boardwalk"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9ea9b8fd7f2977e46fcff89b",
+      "place_slug": "cairo",
+      "place_name": "Cairo",
+      "date": "2026-11-17",
+      "trees": [
+        "The Zamalek Banyan"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_45bb450c9ae48ea78e871c0e",
+      "place_slug": "kanker",
+      "place_name": "Kanker",
+      "date": "2026-11-17",
+      "trees": [
+        "The Tall Tree on the Kanker Forest Track"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_217a4b842ca351e72ce0b8d7",
+      "place_slug": "lightning-ridge",
+      "place_name": "Lightning Ridge",
+      "date": "2026-11-17",
+      "trees": [
+        "The Coolibah South of Lightning Ridge"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_43296b4149990a775a24a4a6",
+      "place_slug": "mexico-city",
+      "place_name": "Mexico City",
+      "date": "2026-11-17",
+      "trees": [
+        "El Sargento"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_4dd8dcf5578c7ea25c0f9159",
+      "place_slug": "milton-keynes",
+      "place_name": "Milton Keynes",
+      "date": "2026-11-17",
+      "trees": [
+        "The Leaning Apple Row of Linford Wood"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e0b30a55cd62a31cebd6dc2f",
+      "place_slug": "oslo",
+      "place_name": "Oslo",
+      "date": "2026-11-17",
+      "trees": [
+        "The Low-Armed Chestnut of Sofienbergparken"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_6804e2228a1a20c1cd488fa6",
+      "place_slug": "quito",
+      "place_name": "Quito",
+      "date": "2026-11-17",
+      "trees": [
+        "The Many-Stemmed Pine of La Pradera"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -1995,6 +2075,25 @@
         "sof_002",
         "sof_003",
         "sof_004"
+      ],
+      "since": "2026-11-17",
+      "mailed": []
+    },
+    "budapest": {
+      "trees": [
+        "bud_001",
+        "bud_002",
+        "bud_003",
+        "bud_004",
+        "bud_005",
+        "bud_006",
+        "bud_007",
+        "bud_008",
+        "bud_009",
+        "bud_010",
+        "bud_011",
+        "bud_012",
+        "bud_013"
       ],
       "since": "2026-11-17",
       "mailed": []

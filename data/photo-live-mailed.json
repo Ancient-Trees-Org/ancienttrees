@@ -1975,19 +1975,15 @@
    "sent": []
   },
   "p_766a80fcd6ef135c437a5c7d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "5e906833-f5e8-4dbc-89df-ded1eb25e996",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-17"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
