@@ -385,9 +385,10 @@
    "file": "",
    "summary": "A reader's tree published without their photograph stayed unlinked: shown twice on their profile, without Approved (Damien, Adelaide ads_002)",
    "first_seen": "2026-11-16",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "check_a_readers_tree_links_its_sighting"
+   "test": "check_a_readers_tree_links_its_sighting",
+   "fixed_in": "3e9b4071a"
   }
  ]
 }
