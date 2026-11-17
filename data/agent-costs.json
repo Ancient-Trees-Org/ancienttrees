@@ -16791,6 +16791,14 @@
       "tokens": 30000,
       "trees": 0,
       "note": "Tenth pass on an exhausted register; brief re-read, no new angle, nothing verified. Token count estimated."
+    },
+    {
+      "date": "2026-11-17",
+      "kind": "verify",
+      "target": "frankfurt",
+      "tokens": 60000,
+      "trees": 0,
+      "note": "Deepen pass on a heavily worked city (frk_007 to frk_029 delivered, 11+ earlier passes); two searches, no new verifiable tree, one lead note added. Token count estimated."
     }
   ]
 }

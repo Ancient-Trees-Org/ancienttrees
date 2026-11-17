@@ -465,6 +465,16 @@
       "lat": 50.080801,
       "lng": 8.603985,
       "reason": "2026-10-31. City page fetched: pedunculate oak, 'particularly beautiful, large and vital' but no girth, height or age. Lead."
+    },
+    {
+      "candidate": "Rosskastanie im Hauptfriedhof, Nordend-West, re-check",
+      "coords": [
+        50.1329,
+        8.6856
+      ],
+      "lat": 50.1329,
+      "lng": 8.6856,
+      "reason": "2026-11-17 verify pass. Search again returned only flurbaum.de (480 cm at 130 cm, about 35 m, crown about 28 m, planted 1893 per the city Baumkataster, 140 years); cadastre itself not reachable, no second source, no photo, cemetery coordinate only. Still a lead. Also: Bad Vilbel Speierling am Rathaus (Dortelweil, ND 440.188 per Wetteraukreis list ND_2020_05.pdf) has no age or measurement in any source reached; lead. Nieder-Erlenbach chestnut (4.30 m) was deleted from the Frankfurt ND list in 2025 per baumkunde.de, so it must not ship as a Naturdenkmal."
     }
   ],
   "blocked": [
