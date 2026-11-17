@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (ninth pass): first photographs for the Geneva cedar and plane
+
+- **geneva/gen_019, the Himalayan Cedar, and geneva/gen_012, the Sécheron Plane**: one reader photographed both at dusk by the lake, 39 m and 28 m from our pins. Neither page had a photograph, so these now lead. Two colon reveals in gen_019's story were rewritten, because the check reads a page once it has a photo. The pin catch-up hit an HTTP error, so the next knock moves the pins. The reader's "it is on the page" mail is pending in data/photo-live-mailed.json.
+- This run judged the Milton Keynes apple row, the Kvill Oak and Ekebyhovseken photographs and feedback 1092 as well. The eighth pass pushed first, so its work stands and this run's copies were dropped in the rebase. **Still open**: the 16 photo-less tips. Four of their stubs (707, 691, 755, 885) carry a sighting UUID as the tree name: 707 is sighting 71f93157, already judged, so they look like app bookkeeping rows rather than tips.
+
 ## 2026-11-17 reader judge (eighth pass): an apple row in Milton Keynes goes live; readers' photographs now lead the Kvill Oak and Ekebyhovseken
 
 - **New tree, milton-keynes/mkn_003, The Leaning Apple Row of Linford Wood** (sighting 4ea907d1, the same photograph also sent as 58efdc92 from 40 m along the path, so one entry): a line of old apple trees beside a public paved path off Foxhunter Drive (place from OpenStreetMap). Their trunks are grey, split and hollowed and all lean out over the path. The pin is the reader's GPS fix (confirmed). The story quotes their note ("possibly Bramley") as their own. There is no age, girth or source. Milton Keynes now has three trees, and its intro names the row.

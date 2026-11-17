@@ -4416,6 +4416,28 @@
    "date": "2026-11-17",
    "tree_id": "sev_009",
    "reason": "Photograph viewed: an all-black frame, no tree visible, taken in the Netherlands nearly 1,900 km from Seville by one of our own accounts (a test). Bad frame."
+  },
+  "245ad026-de3b-4672-ad13-169d734721ea": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "gen_019",
+   "city_slug": "geneva",
+   "file": "gen_019-the-himalayan-cedar-of-parc-mon-repos.jpg",
+   "reason": "Photograph viewed: one large cedar filling the frame on open lawn in a lakeside park at dusk, the lake and far shore behind; 39 m from our pin. The tree had no photograph. Species seen: a cedar: tiered dense blue-green needle sprays, broad conical crown, single straight bole. Fits the description: a",
+   "lat": 46.2179641318101,
+   "lon": 6.15102367525372,
+   "pin_checked": "2026-11-17"
+  },
+  "58c34b47-f563-460c-8fa7-e0b5e461b974": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "gen_012",
+   "city_slug": "geneva",
+   "file": "gen_012-the-s-cheron-plane.jpg",
+   "reason": "Photograph viewed: a very large plane with a massive short bole and a spreading crown still holding brown autumn leaves, on the lakeside promenade with the water behind; 28 m from our pin. The tree had no photograph. Species seen: plane: mottled pale bark on the limbs, palmate brown leaves, broad do",
+   "lat": 46.2176698497893,
+   "lon": 6.15127223932064,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
