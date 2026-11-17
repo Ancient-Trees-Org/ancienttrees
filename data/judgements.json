@@ -508,6 +508,20 @@
    "agreed": null
   },
   {
+   "id": "sight:60878254-21f7-4e0d-8d06-91700db3e06a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "River Red Gum",
+   "city": "Orroroo",
+   "species": "River Red Gum",
+   "photo": "out/sightings/60878254-21f7-4e0d-8d06-91700db3e06a.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Live as orroroo/orr_001: the council's sign in the photograph is the source, GPS fix at the tree (looked at, 2026-11-17)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
    "seen": "2026-11-16",
    "kind": "photo of a tree we map",

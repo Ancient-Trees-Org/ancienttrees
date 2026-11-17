@@ -1,0 +1,69 @@
+{
+  "city": "Orroroo",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Orroroo is a small town in South Australia's northern Flinders Ranges, a long drive north of Adelaide. At its edge stands the Giant Gum, a river red gum that the District Council of Orroroo/Carrieton's own sign puts at more than 500 years old and 10.89 metres round. Other measurements, from an older sign and a national register of big trees, come out a little smaller, so the page gives the spread. It stands on public ground beside its sign and costs nothing to visit.",
+  "meta_description": "The Orroroo Giant Gum in South Australia: a river red gum about 11 metres round and over 500 years old by the council's sign. Where it stands.",
+  "hero_tree_id": "orr_001",
+  "oldest_tree_id": "orr_001",
+  "trees": [
+    {
+      "id": "orr_001",
+      "name": "The Orroroo Giant Gum",
+      "species": "River Red Gum (Eucalyptus camaldulensis)",
+      "age_estimate": "more than 500 years, by the council's sign",
+      "age_min": 485,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 1089,
+      "location": {
+        "address": "Orroroo, South Australia",
+        "latitude": -32.727745,
+        "longitude": 138.607987,
+        "neighbourhood": "Orroroo, Flinders Ranges"
+      },
+      "story": "On the edge of Orroroo, a small town in South Australia's northern Flinders Ranges, a river red gum stands with a trunk wide enough that a man with outstretched arms covers a fraction of it. A sign beside it, put up by the District Council of Orroroo/Carrieton, gives its circumference as 10.89 metres at 0.61 metres above the ground and its age as estimated in excess of 500 years.\n\nOther figures disagree a little. An older sign gave about 10.4 metres, and the National Register of Big Trees records a measurement of 9.90 metres at breast height in 2009 with an age of 485 years. The differences come from where and when the tape went round, and the age is an estimate in every source, so read it as roughly five centuries.\n\nVisitors know it simply as the Giant Gum. Pale, peeling limbs fork from the top of a deeply furrowed trunk, and the bark near the base is rough and dark.\n\nIt stands on public ground by the roadside with the sign in front, so no ticket or permission is needed.",
+      "how_to_recognise": "A huge river red gum with a trunk about eleven metres round, pale peeling limbs and a brown council sign naming it the Giant Red Gum.",
+      "verified_sources": [
+        "The District Council of Orroroo/Carrieton's sign at the tree: Eucalyptus camaldulensis, circumference 10.89 m at 0.61 m above ground, age estimated in excess of 500 years (read in a reader's photograph, 2026-11-17)",
+        "National Register of Big Trees, Orroroo Giant Gum, 2009 measurement 9.90 m at breast height, 485 years: https://www.nationalregisterofbigtrees.com.au/listing/158.pdf",
+        "https://flindersandoutback.com.au/listings/attraction/giant-gum-tree"
+      ],
+      "found_by_reader": {
+        "sighting_id": "60878254-21f7-4e0d-8d06-91700db3e06a",
+        "date": "2026-11-17"
+      },
+      "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix at the tree (-32.727745, 138.607987), showing the council sign (10.89 m at 0.61 m, over 500 years) and a person for scale; the reader entered girth 1089 cm and '+500 years'. Reverse lookup puts the fix in Orroroo, South Australia. Search results agree on the sign and give two other figures (an older sign about 10.4 m; the National Register of Big Trees 9.90 m, 485 years, 2009); the page states the spread. Life check: the photograph is from the app, recent. Pin is the reader's GPS fix at the tree: confirmed. The Register listing URL was not opened, only read in search results.",
+      "access": "Free, on public ground at the edge of Orroroo, signed.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/orr_001-the-orroroo-giant-gum.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_5428454fcb4709329e1ac069",
+        "sighting_id": "60878254-21f7-4e0d-8d06-91700db3e06a",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: this tree, with its council sign. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "source": "a reader's app photograph",
+        "date": "2026-11-17",
+        "note": "GPS fix at the tree."
+      }
+    }
+  ],
+  "question_meta": "The Orroroo Giant Gum in South Australia: a river red gum about 11 metres round, more than 500 years old by the council's sign.",
+  "question_answer": "The Orroroo Giant Gum stands on public ground at the edge of Orroroo, South Australia, signed by the council. Visiting is free.",
+  "question_context": "On the edge of Orroroo, a small town in South Australia's northern Flinders Ranges, a river red gum stands with a trunk wide enough that a man with outstretched arms covers a fraction of it. A sign beside it, put up by the District Council of Orroroo/Carrieton, gives its circumference as 10.89 metres at 0.61 metres above the ground and its age as estimated in excess of 500 years. Other figures disagree a little. An older sign gave about 10.4 metres, and the National Register of Big Trees records a measurement of 9.90 metres at breast height in 2009 with an age of 485 years. The differences come from where and when the tape went round, and the age is an estimate in every source, so read it as roughly five centuries. Visitors know it simply as the Giant Gum. Pale, peeling limbs fork from the top of a deeply furrowed trunk, and the bark near the base is rough and dark. It stands on public ground by the roadside with the sign in front, so no ticket or permission is needed.",
+  "faq": [
+    {
+      "q": "Can I visit the Orroroo Giant Gum?",
+      "a": "Yes. It stands on public ground at the edge of Orroroo with a council sign in front of it, and visiting is free."
+    }
+  ]
+}

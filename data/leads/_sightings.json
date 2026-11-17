@@ -4849,10 +4849,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Looked at 2026-11-17: a giant river red gum with a sign naming it, circumference 10.89 m at 0.61 m and over 500 years, a person for scale. The sign is the source; a clear candidate for a page, stays a lead only for the written entry.",
+   "status": "published",
+   "why": "Looked at 2026-11-17: the council's sign in the photograph gives 10.89 m and over 500 years; GPS fix at the tree. Live as orroroo/orr_001 with the reader's photograph as lead.",
    "seen": "2026-11-17",
-   "judged": "2026-11-17"
+   "judged": "2026-11-17",
+   "published_as": "orroroo/orr_001"
   },
   {
    "sighting_id": "tip-990",
