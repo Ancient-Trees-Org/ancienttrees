@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (eleventh pass): readers' trees live in Bangor, Maine, and Kanker, India
+
+- **bangor-maine/bnm_001, The White Pine at the Orono Bog Boardwalk** (sighting 0305569a): a huge twin-stemmed eastern white pine beside the trailhead kiosk in the Bangor City Forest. The pin is the reader's GPS fix (confirmed), and the story quotes their note ("strikingly large"). This is a new US place, so `bangor-maine` is added to data/us-states.json. The app's age field held the word "Unknown", which is not an age, so it was cleared on the lead.
+- **kanker/knk_001, The Tall Tree on the Kanker Forest Track** (sighting f8c010fc): a ruler-straight forest tree in Chhattisgarh with a person at its foot for scale. The species is not established and the page asks readers to name it. Access is honest: the forest manager is not confirmed. India is out of focus for our own research only, never for a reader's tree.
+- This run also judged the Quito pine and orange, and reached the same verdicts as the tenth pass, which pushed first. Its uio_001 stands, and this run's copy was dropped in the rebase.
+- Both new places have one tree each, so they get no place page. Congratulation mails go out on the next knock. There were no open reports and no feedback without a verdict, and reader_words had nothing new. **Still open**: the 17 photo-less tips (newest 1102, 1065, 1061 to 1063 Heidelberg, 1032), which need a source check that would not fit in this run. The older (September and October) Japanese and Dutch leads have no photograph on this runner, so they were not judged again.
+
 ## 2026-11-17 reader judge (tenth pass): a many-stemmed pine opens Quito
 
 - **New tree, quito/uio_001, The Many-Stemmed Pine of La Pradera** (sighting c4a7a901): a pine that splits low into five or more straight stems and rises into one tall crown at the pavement edge. A second frame looks up the stems and is in the strip. The species (Monterey pine) and the 450 cm girth are the reader's, stated as theirs. While adding the tree, the reader moved its pin 91 m south of the app's fix, which had landed on an apartment block, to La Pradera street by the FLACSO campus. We took their placement because it is their own tree, kept it `approximate`, and recorded the site from OpenStreetMap. Quito is a new one-tree place: it has its intro, question fields and three FAQ, and no place page.

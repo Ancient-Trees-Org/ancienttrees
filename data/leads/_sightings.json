@@ -6008,6 +6008,66 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "quito/uio_001"
+  },
+  {
+   "sighting_id": "f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "user_id": "p_45bb450c9ae48ea78e871c0e",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 20.3135352062311,
+   "longitude": 81.3645253759747,
+   "near": null,
+   "photo": "p_45bb450c9ae48ea78e871c0e/F8C010FC-A646-477E-B1F8-DC71C5562EEC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: a very tall straight trunk from the ground to the crown beside a forest track, a person at its foot for scale, epiphytes on the bark, morning daylight, colour. Live as kanker/knk_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "kanker/knk_001"
+  },
+  {
+   "sighting_id": "0305569a-654f-4bb4-9818-a071e602650b",
+   "user_id": "p_9206238867676c83f47e12ca",
+   "mine": false,
+   "name": "Eastern White Pine",
+   "unsure_among": null,
+   "species": "Eastern White Pine",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "It sits at the entrance of the Orono Bog Boardwalk, and is strikingly large",
+   "latitude": 44.8661166666667,
+   "longitude": -68.7289883333333,
+   "near": null,
+   "photo": "p_9206238867676c83f47e12ca/0305569A-654F-4BB4-9818-A071E602650B.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole twin-stemmed white pine from its root flare to the crown, the boardwalk's roofed kiosk on the left and the boardwalk itself on the right, clear daylight, colour. Live as bangor-maine/bnm_001 under the closed list (Hidde, 2026-11-17). The app's age field held the word 'Unknown', which is no age; cleared so no check reads it as one.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "bangor-maine/bnm_001"
   }
  ]
 }

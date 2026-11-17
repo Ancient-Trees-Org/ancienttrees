@@ -4448,6 +4448,18 @@
    "lat": 46.2176698497893,
    "lon": 6.15127223932064,
    "pin_checked": "2026-11-17"
+  },
+  "f8c010fc-a646-477e-b1f8-dc71c5562eec": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "knk_001",
+   "city_slug": "kanker"
+  },
+  "0305569a-654f-4bb4-9818-a071e602650b": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "bnm_001",
+   "city_slug": "bangor-maine"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

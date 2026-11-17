@@ -14523,6 +14523,103 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_45bb450c9ae48ea78e871c0e/F8C010FC-A646-477E-B1F8-DC71C5562EEC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a very tall ruler-straight forest tree beside a track in Kanker district, Chhattisgarh, person for scale, daylight, GPS fix. Species not established, asked on the page. Live as kanker/knk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Eastern White Pine",
+   "city": null,
+   "species": "Eastern White Pine",
+   "photo": "p_9206238867676c83f47e12ca/0305569A-654F-4BB4-9818-A071E602650B.jpg",
+   "reader_note": "It sits at the entrance of the Orono Bog Boardwalk, and is strikingly large",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern White Pine"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge twin-stemmed eastern white pine at the Orono Bog Boardwalk trailhead, whole tree, daylight, GPS fix at the tree. Live as bangor-maine/bnm_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0305569a-654f-4bb4-9818-a071e602650b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The White Pine at the Orono Bog Boardwalk",
+   "city": "Bangor, Maine",
+   "species": "Eastern White Pine (Pinus strobus)",
+   "photo": "out/sightings/0305569a-654f-4bb4-9818-a071e602650b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads bangor-maine/bnm_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f8c010fc-a646-477e-b1f8-dc71c5562eec",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree on the Kanker Forest Track",
+   "city": "Kanker",
+   "species": "species not established",
+   "photo": "out/sightings/f8c010fc-a646-477e-b1f8-dc71c5562eec.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the tree they added leads kanker/knk_001, viewed: whole tree, daylight, colour",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
