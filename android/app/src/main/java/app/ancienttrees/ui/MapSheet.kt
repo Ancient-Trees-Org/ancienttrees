@@ -227,6 +227,15 @@ fun MapSheet(
             scope.launch { anim.snapTo(next.coerceIn(floor, page)) }
         }
 
+        // THE NEWEST dragBy AND settle, ALWAYS (Hidde on his Samsung, 2026-11-17: the
+        // list "scrollt niet mee"). The scroll connection and the pointer handlers
+        // below are remembered once, so they held the FIRST composition's functions,
+        // whose stops, lock and floor were measured before the insets and the header
+        // had arrived. They read these instead.
+        val dragNow by rememberUpdatedState<(Float) -> Unit> { dragBy(it) }
+        val settleNow by rememberUpdatedState<(Float) -> Unit> { settle(it) }
+        val lockedNow by rememberUpdatedState(isLocked)
+
         var handingOff by remember { mutableStateOf(false) }
         val connection = remember {
             object : NestedScrollConnection {
@@ -234,12 +243,12 @@ fun MapSheet(
                     if (source != NestedScrollSource.UserInput) return Offset.Zero
                     val dy = available.y
                     if (state.height != SheetHeight.FULL || handingOff) {
-                        dragBy(-dy)
+                        dragNow(dy)
                         return Offset(0f, dy)
                     }
                     if (dy > 0 && scroll.value == 0) {
                         handingOff = true
-                        dragBy(-dy)
+                        dragNow(dy)
                         return Offset(0f, dy)
                     }
                     return Offset.Zero
@@ -248,7 +257,7 @@ fun MapSheet(
                 override suspend fun onPreFling(available: Velocity): Velocity {
                     if (state.height != SheetHeight.FULL || handingOff) {
                         handingOff = false
-                        settle(available.y)
+                        settleNow(available.y)
                         return available
                     }
                     return Velocity.Zero
@@ -299,7 +308,7 @@ fun MapSheet(
                 .pointerInput(Unit) {
                     awaitEachGesture {
                         val down = awaitFirstDown(requireUnconsumed = false, pass = PointerEventPass.Initial)
-                        if ((state.height != SheetHeight.PEEK && state.height != SheetHeight.BAR) || isLocked) return@awaitEachGesture
+                        if ((state.height != SheetHeight.PEEK && state.height != SheetHeight.BAR) || lockedNow) return@awaitEachGesture
                         var moved = false
                         while (true) {
                             val e = awaitPointerEvent(PointerEventPass.Initial)
@@ -324,7 +333,7 @@ fun MapSheet(
                     .fillMaxWidth()
                     .height(44.dp * (1f - fold))
                     .graphicsLayer { alpha = 1f - fold; clip = true }
-                    .dragHandle(::dragBy, ::settle),
+                    .dragHandle({ dragNow(it) }, { settleNow(it) }),
                 contentAlignment = Alignment.TopCenter,
             ) {
                 Box(
@@ -355,7 +364,7 @@ fun MapSheet(
             Box(
                 Modifier
                     .fillMaxWidth()
-                    .dragHandle(::dragBy, ::settle)
+                    .dragHandle({ dragNow(it) }, { settleNow(it) })
                     .onSizeChanged {
                         headerBottom = with(density) { 44.dp.toPx() } + it.height
                         // Only while it is whole: the count folds away towards full.

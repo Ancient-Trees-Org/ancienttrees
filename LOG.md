@@ -82,6 +82,13 @@ For Hidde: compliance review, 1 point(s) wait for your word (data/compliance.jso
 - **Verify passes, both dead ends**: Zurich (27 register rows, no size, age or access evidence, all rejected as leads) and Miami (two paid-entry trees delivered to data/research/miami-verified.json and left unwritten, since Miami is already 46% behind a ticket). Both are walls for 48 h.
 - Health: iOS CI red 6 h ago (a session fixed the iOS 18 fault this morning, awaiting the next run); web error "Failed to initialize WebGL" is a browser without WebGL, not ours to fix.
 
+## 2026-11-17 session: Android on Hidde's Samsung, the list follows the finger
+
+- The Android app is on Hidde's Galaxy S21 Ultra (Android 14), the signed release build.
+- He found at once that the map's list did not scroll up: dragging the list up from half moved the sheet DOWN (the scroll connection passed the drag with its sign turned round), and the sheet's gesture handlers kept the first composition's stops and lock. Fixed in MapSheet.kt; checked on the emulator from peek to half to page, the list scrolling at the page and handing back to the sheet at its top. New FlowWalk test `theListFollowsTheFinger`, passing.
+- My trees: the gear stood flush against Android's thin status bar and read too high next to the iPhone; it has the full sheets' 10 of air now.
+- Open: Hidde saw "rare dingen" with the locate arrow on his phone (the list going down, the map not minding the sheet). On the emulator the sheet stayed and the dot came to the middle above the sheet; a second press zooms to street level. Waiting for his description or a screen recording.
+
 ## 2026-11-17 session: iOS 18 crash when the map redraws, fixed
 
 - The nightly iOS 18 test run was red: not the photo test it named, but the map's TreesMemo dying through Swift's MainActor deinit hop, which aborts on iOS 18 (the same fault as the sheet's drag clock the day before). Every class @State builds inline (ten of them) now dies with `nonisolated deinit {}`. All 231 unit tests green on an iOS 18.6 simulator.

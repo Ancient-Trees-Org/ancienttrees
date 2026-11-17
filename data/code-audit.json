@@ -389,6 +389,17 @@
    "found_by": "hidde",
    "test": "check_a_readers_tree_links_its_sighting",
    "fixed_in": "3e9b4071a"
+  },
+  {
+   "id": "ESC-2026-11-17-android-map-sheet-dragging-the-list-up-f",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/MapSheet.kt",
+   "summary": "Android map sheet: dragging the list up from half moved the sheet down (nested scroll sign turned round; gestures held the first composition's stops)",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "FlowWalk.theListFollowsTheFinger"
   }
  ]
 }

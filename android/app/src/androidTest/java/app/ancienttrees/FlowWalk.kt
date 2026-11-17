@@ -236,6 +236,20 @@ class FlowWalk {
         Step("back-to-the-map") { back() },
     )
 
+    // THE LIST MOVES THE SHEET THE WAY THE FINGER GOES (Hidde on his Samsung,
+    // 2026-11-17: up from half the list "scrollt niet mee"; the sheet fell to peek
+    // instead, the scroll connection's sign was turned round). Up from half on the
+    // list itself, not the grabber, reaches the page, where the Map pill stands.
+    @Test fun theListFollowsTheFinger() = walk("list-follows-the-finger", listOf("-tab=0"),
+        Step("raise-the-sheet") { tapAt(0.5f, 0.88f) },
+        Step("drag-the-list-up") {
+            Thread.sleep(1000)
+            drag(0.8f, 0.3f)
+            Thread.sleep(1000)
+            assertTrue("dragging the list up from half did not take the sheet to the page", exists("map-pill"))
+        },
+    )
+
     // AIRBNB'S WAY DOWN AND BACK (build 42): the Map pill drops the list to its count
     // bar and the tab bar steps away; a tap on the bar brings both back.
     @Test fun mapPillAndBack() = walk("map-pill-and-back", listOf("-tab=0", "-sheet=full"),

@@ -339,7 +339,7 @@ private fun MyTreesInner(
         }
 
         // POLARSTEPS' GEAR: it never leaves, and fills in as the list becomes the page.
-        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(end = 16.dp)) // at the safe top, as the Swift's floating slot
+        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 10.dp, end = 16.dp)) // under the status bar with 10 of air, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high next to the iPhone, whose safe top holds the island (Hidde, 2026-11-17)
     }
 }
 
