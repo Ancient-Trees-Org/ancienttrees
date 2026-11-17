@@ -343,8 +343,10 @@ fun TreeCard(
             val photo = tree.photo
             if (photo != null) {
                 // The leaf tile with a white spinner until it lands (TreeCard.swift:116);
-                // the spinner in Android's own shape (Airbnb's line).
-                RemoteImage(photo.card, null, Modifier.fillMaxSize(), fallback = {
+                // the spinner in Android's own shape (Airbnb's line). THE LARGE COPY: the
+                // card spans the phone, over 1000 px, and the 500 px card copy showed
+                // pixelated (Hidde on his Samsung, 2026-11-17); the small tiles keep it.
+                RemoteImage(photo.full, null, Modifier.fillMaxSize(), orElse = photo.card, fallback = {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         androidx.compose.material3.CircularProgressIndicator(color = Color.White, strokeWidth = 2.dp, modifier = Modifier.size(24.dp))
                     }

@@ -105,7 +105,10 @@ struct TreeCard: View {
                 .overlay { Image(uiImage: own).resizable().aspectRatio(contentMode: .fill) }
                 .clipped()
                 .accessibilityHidden(true)
-        } else if let p = tree.photo, let url = p.card {
+        } else if let p = tree.photo, let url = p.full ?? p.card {
+            // THE LARGE COPY (2026-11-17): the card spans the phone, over 1000 px,
+            // and the 500 px card copy showed pixelated on Hidde's Samsung; the
+            // same card here. Rows and tiles keep the small one.
             // The same empty box with the photograph laid over it as the tree
             // page's hero, and for the same reason: a .fill image proposes the
             // width its own picture wants, and a card that does that makes the
