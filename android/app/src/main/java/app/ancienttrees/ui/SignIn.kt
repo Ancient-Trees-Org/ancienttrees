@@ -3,8 +3,8 @@
 // one line, the sign-in pills of one size 10 apart, a red line when something went
 // wrong, and the terms in one line. The cross in the corner closes it.
 //
-// The iPhone's three pills in its order: the dark "Continue with Apple" first, then
-// Google's cream pill, then email. Apple and Google open in a Custom Tab and come
+// Three pills: Google's first and dark on Android (the iPhone puts Apple first),
+// then Apple's cream pill, then email. Apple and Google open in a Custom Tab and come
 // back on ancienttrees://auth-callback (Account.kt), so no sign-in library is
 // added; the iPhone's Apple sheet is Apple's own, which Android does not have.
 
@@ -216,12 +216,16 @@ private fun Ask(account: Account, reason: SignInReason) {
         // 10 apart, where Hidde stopped complaining (SignIn.swift, 2026-10-09).
         // The email field opens with .snappy (SignIn.swift:224): the sheet grows to it.
         Column(verticalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.animateContentSize(Motion.snappy())) {
-            // A custom Sign in with Apple button, as the iPhone's (SignIn.swift; Apple's HIG
-            // allows their logo, "Continue with Apple", black or white): loud, first.
-            SignInPill(stringResource(R.string.signin_apple), loud = true, enabled = !working, tag = "signin-apple",
-                mark = { Icon(AppleLogo, null, Modifier.size(22.dp), tint = LocalContentColor.current) }) { account.openApple(context) }
-            SignInPill(stringResource(R.string.signin_google), loud = false, enabled = !working, tag = "signin-google",
+            // GOOGLE FIRST ON ANDROID (Hidde, 2026-11-17, "fix them all"): nearly every
+            // Android phone is signed in to Google, and Sign in with Apple is rare there,
+            // so Google takes the loud first pill (Google's dark button: #131314 fill,
+            // the full-colour G, developers.google.com/identity/branding-guidelines)
+            // and Apple the quiet second (Apple's HIG allows the white style). The
+            // iPhone keeps Apple first.
+            SignInPill(stringResource(R.string.signin_google), loud = true, enabled = !working, tag = "signin-google",
                 mark = { Image(GoogleG, null, Modifier.size(18.dp)) }) { account.openGoogle(context) }
+            SignInPill(stringResource(R.string.signin_apple), loud = false, enabled = !working, tag = "signin-apple",
+                mark = { Icon(AppleLogo, null, Modifier.size(22.dp), tint = LocalContentColor.current) }) { account.openApple(context) }
             if (!emailOpen) {
                 SignInPill(stringResource(R.string.signin_email), loud = false, enabled = true, tag = "signin-email") {
                     emailOpen = true
