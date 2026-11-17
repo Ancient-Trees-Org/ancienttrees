@@ -5320,6 +5320,37 @@
    "seen": "2026-11-17",
    "hold": "not_public",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "0ddad207-52ba-4a72-8f76-64b3a09f2721",
+   "user_id": "p_f54f27c5e506b597912db3c6",
+   "mine": false,
+   "name": "Boab",
+   "species": "Boab",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Hollow trunk and height of the tree",
+   "latitude": -15.8052116666667,
+   "longitude": 128.741775,
+   "near": null,
+   "photo": "p_f54f27c5e506b597912db3c6/0DDAD207-52BA-4A72-8F76-64B3A09F2721.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/0ddad207-52ba-4a72-8f76-64b3a09f2721-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole boab from its hollow, split base up into a wide crown in fresh leaf, on bare red earth with eucalypts behind, a second frame from further back; evening daylight, colour. Live as kununurra/knx_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "kununurra/knx_001"
   }
  ]
 }

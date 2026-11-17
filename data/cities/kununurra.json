@@ -1,0 +1,69 @@
+{
+  "city": "Kununurra",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Kununurra is the town of the East Kimberley in Western Australia, built in the 1960s beside the Ord River and Lake Kununurra, in country where the boab grows. We map one tree here so far: a tall hollow boab on red ground off Rowing Club Access Road, south of the town centre, which a reader photographed in fresh leaf and sent to us.",
+  "meta_description": "A tall hollow boab off Rowing Club Access Road in Kununurra, East Kimberley, sent by a reader: where it stands and how to recognise it.",
+  "question_meta": "Kununurra's mapped tree is a tall hollow boab off Rowing Club Access Road, sent by a reader. Where it is and what we still want to know.",
+  "question_answer": "The tree we map at Kununurra, in Western Australia's East Kimberley, is a tall hollow boab (Adansonia gregorii) on open red ground off Rowing Club Access Road, south of the town centre. A reader photographed it with a GPS fix at its foot. Its trunk is split open at the base into a dark doorway. Nobody has given us its girth or age yet.",
+  "question_context": "A reader sent us this boab with five words, \"Hollow trunk and height of the tree\", and a photograph that shows both. The pale, wrinkled trunk has opened at the foot into a dark doorway, with a second hole higher up into the same hollow core. Boabs live on like this: the tree keeps its water in soft fibrous wood, and the living shell goes on growing round the empty middle. Unusually for a Kimberley boab, which is often a squat bottle under a tangle of branches, this one carries long upright limbs into a tall, open crown, and in the reader's picture, taken in the build-up before the wet season, it is in full fresh leaf. It stands on bare ground beside Rowing Club Access Road, south of the town centre towards the lake. We have not confirmed who manages the land, so treat it as a tree to look at from the track. We know neither its girth nor its age; if you have measured it, or know what people in Kununurra call it, tell us on its page.",
+  "hero_tree_id": "knx_001",
+  "oldest_tree_id": "knx_001",
+  "faq": [
+    {
+      "q": "Where is the hollow boab in Kununurra?",
+      "a": "Off Rowing Club Access Road, south of the town centre towards Lake Kununurra. Our pin marks a reader's GPS fix at the tree."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know. Boabs are hard to date because their wood has no reliable rings and this one is hollow. If you know its age or have measured its girth, tell us on the tree's page."
+    },
+    {
+      "q": "Can I go inside the hollow?",
+      "a": "Please leave the trunk alone; the opening is part of a living tree. We have not confirmed who manages the ground, so look at it from the track."
+    }
+  ],
+  "trees": [
+    {
+      "id": "knx_001",
+      "name": "The Hollow Boab of Rowing Club Road",
+      "species": "Boab (Adansonia gregorii)",
+      "location": {
+        "address": "Off Rowing Club Access Road, Kununurra, Western Australia",
+        "latitude": -15.8052116666667,
+        "longitude": 128.741775,
+        "neighbourhood": "Kununurra"
+      },
+      "how_to_recognise": "A tall boab on bare red earth whose pale trunk splits open at the foot into a dark doorway, with a second hole higher up, under a wide crown of long upright limbs.",
+      "access": "On open ground beside Rowing Club Access Road, where the reader walked up to it. We have not confirmed who manages the land; it can be seen from the track.",
+      "story": "\"Hollow trunk and height of the tree,\" wrote the reader who sent us this boab from the edge of Kununurra, naming in five words the two things that make it worth the stop. Their photograph comes with a GPS fix taken a few steps from its foot.\n\nThe hollow is the first thing you see. The pale, wrinkled trunk has opened at the bottom into a dark doorway you could crouch inside, and higher up a second window looks into the same empty core. A boab can live on like this for centuries, because the tree stores water in soft fibrous wood rather than relying on a solid heart, and the living shell keeps growing round the gap.\n\nThen there is the height. Most boabs in the Kimberley are squat bottles with a tangle of bare branches; this one throws up long limbs into a tall, open crown, and when the reader stood beneath it in the build-up before the wet the whole tree was in fresh green leaf.\n\nIt stands on bare red ground off Rowing Club Access Road, south of the town centre towards the lake. We do not know its girth or its age. If you have measured it, or know its story, tell us here.\n\nWalk round to the side of the low doorway and look up through the crown.",
+      "verified_sources": [],
+      "photo": {
+        "url": "https://ancienttrees.app/photos/knx_001-hollow-boab-of-rowing-club-road.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f54f27c5e506b597912db3c6",
+        "sighting_id": "0ddad207-52ba-4a72-8f76-64b3a09f2721",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole boab from its hollow, split base up into a wide crown in fresh leaf, on bare red earth with eucalypts behind, a second frame from further back; evening daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "found_by_reader": {
+        "sighting_id": "0ddad207-52ba-4a72-8f76-64b3a09f2721",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0ddad207-52ba-4a72-8f76-64b3a09f2721",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: sent by a reader (0ddad207-52ba-4a72-8f76-64b3a09f2721, through the app). Photograph viewed: the whole boab from its hollow, split base up into a wide crown in fresh leaf, on bare red earth with eucalypts behind, a second frame from further back; evening daylight, colour. The GPS fix falls on open ground off Rowing Club Access Road (OpenStreetMap tags it a camp site). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Boab', note 'Hollow trunk and height of the tree'; no age or girth given."
+    }
+  ]
+}

@@ -4187,6 +4187,12 @@
    "lat": -17.347862,
    "lon": 123.670163,
    "pin_checked": "2026-11-17"
+  },
+  "0ddad207-52ba-4a72-8f76-64b3a09f2721": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "knx_001",
+   "city_slug": "kununurra"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

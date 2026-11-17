@@ -18,8 +18,8 @@
       "girth_cm": 670,
       "location": {
         "address": "Champion Lodgepole Trail (1W11), off Mill Creek Road, south of Big Bear Lake, San Bernardino National Forest, California",
-        "latitude": 34.2270220914324,
-        "longitude": -117.073659716113,
+        "latitude": 34.218855,
+        "longitude": -116.972952,
         "neighbourhood": "San Bernardino National Forest"
       },
       "story": "Big Bear Lake's visitor bureau dates this lodgepole pine's germination to about 1560 and puts it at 452 years old, more than 110 feet tall and 22 feet round the trunk, with a bulbous base 36 feet in circumference. It is one of the largest lodgepole pines known in California, and it stands in a meadow in the San Bernardino Mountains south of Big Bear Lake, at the end of a short forest trail.\n\nThe reader's photograph stands at the foot of the trunk, which rises thick and russet-barked out of the undergrowth, hung all over with grey dead limbs that droop like curtains from the lower crown. Hikers at the bottom right of the frame show how big the base is. Their second picture, from across the meadow, shows the whole tree as a dark double spire standing above the younger pines and firs around it, a wooden rail at its foot.\n\nThe walk is easy, about half a mile each way. The last stretch of forest road is rough, and a parked car in the forest needs an Adventure Pass.",
@@ -32,16 +32,16 @@
         "sighting_id": "f91bd966-db25-4276-91ce-9fb1c5806347",
         "date": "2026-11-16"
       },
-      "verify_notes": "2026-11-16 session (Hidde asked what else could be done without him): a reader's app sighting (f91bd966) with a GPS fix and four photographs, held 11-16 for want of a whole-tree frame. Looked again: the lead frame shows the trunk to the lower crown with hikers at its foot for scale, which reads as this tree; the second photograph is the whole tree from the meadow, rail at its foot. The two others (a person posing in the meadow, a copy of the first) are not used. Sources: bigbearlake.net (110+ ft, trunk 22 ft, base 36 ft, 452 years, germinated 1560, Adventure Pass, rough road, 'easy 1/2 mile walk' and '1 Mile (Round Trip)') and NBC San Diego (110 ft, 22 ft, 36 ft, half-mile trail). The USFS trail page (1W11) returned 403. Girth 670 cm from 22 ft; the reader's 1100 cm is the base figure rounded. corroborate.py not needed: two sources.",
+      "verify_notes": "2026-11-16 session (Hidde asked what else could be done without him): a reader's app sighting (f91bd966) with a GPS fix and four photographs, held 11-16 for want of a whole-tree frame. Looked again: the lead frame shows the trunk to the lower crown with hikers at its foot for scale, which reads as this tree; the second photograph is the whole tree from the meadow, rail at its foot. The two others (a person posing in the meadow, a copy of the first) are not used. Sources: bigbearlake.net (110+ ft, trunk 22 ft, base 36 ft, 452 years, germinated 1560, Adventure Pass, rough road, 'easy 1/2 mile walk' and '1 Mile (Round Trip)') and NBC San Diego (110 ft, 22 ft, 36 ft, half-mile trail). The USFS trail page (1W11) returned 403. Girth 670 cm from 22 ft; the reader's 1100 cm is the base figure rounded. corroborate.py not needed: two sources. 2026-11-17 reader judge: pin moved 9304 m on reader report 1000044; approximate.",
       "access": "San Bernardino National Forest, open ground at the end of the Champion Lodgepole Trail (1W11), an easy walk of about half a mile each way. The forest road to the trailhead is rough at the end; parking needs an Adventure Pass.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "f91bd966-db25-4276-91ce-9fb1c5806347",
-        "moved_m": 0,
-        "date": "2026-11-16",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "kind": "reader report",
+        "report": 1000044,
+        "moved_m": 9304,
+        "date": "2026-11-17",
+        "note": "The reader who found this tree moved their own pin 9.3 km east, off a spot by the lake and onto the Champion Lodgepole Trail off Mill Creek Road, where the address and sources put it (reader report 1000044). A hand placement, so approximate; the location their photograph carried was not at the trunk."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/bbl_001-the-champion-lodgepole-pine.jpg",
