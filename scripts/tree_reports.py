@@ -133,7 +133,8 @@ SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 
 # A reader nudging a pin we already confirmed by a GPS fix by a few metres is
 # a finger on a phone map, not a correction (CLAUDE.md: "a GPS fix at the tree
-# is that evidence"). These close without a reply and wake nobody.
+# is that evidence"). The pin stays; the reader still gets the pin thank-you
+# (Hidde, 2026-11-17), and nobody has to read the row.
 NUDGE_M = 30
 
 
@@ -193,8 +194,11 @@ def close(key, rid, outcome, reply=None):
 # reply_text of a `changed` row, so contributor_reply.py mails it at the knock
 # after mailcheck, like any other answer.
 THANKS = {
-    "pin": ("Thank you for showing us where {name} really stands. We checked "
-            "it and moved the pin, so the next person finds it:\n\n{link}\n\n"
+    # One text for every pin report, moved or kept (Hidde, 2026-11-17:
+    # "waarom maken we een verschil per pin, beide zijn toch een bedankje
+    # waard"), so it never claims a move we did not make.
+    "pin": ("Thank you for checking where {name} stands. We looked at the pin "
+            "against what you sent, so the next person finds the tree:\n\n{link}\n\n"
             "If you notice anything else that is off, or know a tree we are "
             "missing, we would love to hear it. Every correction like yours "
             "makes the map a little better.\n\n"
@@ -209,19 +213,35 @@ THANKS = {
 }
 
 
-def tree_name_and_link(tree_id):
-    """The tree's name from our data and its page from the site's own feed
-    (contributor_reply.tree_pages, never a slug rule written twice)."""
+def _all_trees():
     import glob
     import json
     import os
-    import sys
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    name = None
     for f in glob.glob(os.path.join(root, "data", "cities", "*.json")):
         for t in json.load(open(f, encoding="utf-8")).get("trees") or []:
-            if t.get("id") == tree_id:
-                name = t.get("name")
+            yield t
+
+
+def tree_id_of(row):
+    """The report's tree id, or the one tree of ours carrying its name
+    (moved-pin rows often name the tree only); None when unsure."""
+    if row.get("tree_id"):
+        return row["tree_id"]
+    name = (row.get("tree") or "").strip().lower()
+    hits = [t["id"] for t in _all_trees() if (t.get("name") or "").strip().lower() == name]
+    return hits[0] if len(hits) == 1 else None
+
+
+def tree_name_and_link(tree_id):
+    """The tree's name from our data and its page from the site's own feed
+    (contributor_reply.tree_pages, never a slug rule written twice)."""
+    import sys
+    import os
+    name = None
+    for t in _all_trees():
+        if t.get("id") == tree_id:
+            name = t.get("name")
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import contributor_reply
     url = contributor_reply.tree_pages()[0].get(tree_id)
@@ -303,12 +323,22 @@ def _main(argv):
         print("tree_reports: the table did not answer")
         return 0 if "--count" in argv else 1
     if "--auto" in argv:
-        n = 0
+        n = m = 0
         for r in rs:
             if is_nudge(r):
-                close(key, r["id"], "holds")
+                tid = tree_id_of(r)
+                if tid:
+                    # The pin stays (a GPS fix beats a finger), the thank-you
+                    # goes all the same (Hidde, 2026-11-17).
+                    close(key, r["id"], "changed", thank("pin", tid))
+                    m += 1
+                else:
+                    # Not a tree of ours: the reader placing their own new
+                    # tree while adding it (photo GPS, then a finger). Their
+                    # congratulation mail comes when it goes live; no second.
+                    close(key, r["id"], "holds")
                 n += 1
-        print("tree_reports: %d nudge(s) of a confirmed pin closed without a reply" % n)
+        print("tree_reports: %d nudge(s) of a confirmed pin closed, %d with the pin thank-you" % (n, m))
         return 0
     if "--count" in argv:
         print(len(rs))
