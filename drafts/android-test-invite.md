@@ -20,19 +20,18 @@ The dates are Google's usual times for a new personal account: first review a
 few hours to about 7 days, 14 days with 12+ testers opted in, about 7 days to
 review the production application, then the release review.
 
-Subject: The Android app is almost here. Want to try it first?
+Subject: Help us test the Android app
 
 ---
 
-Hi,
+Hey,
 
-Want to be one of the first to try the Android app? It is almost ready and we want to test it with a small group first.
+Thanks for signing up for the Android app. We are working hard on it at the moment and are looking for people to test the first version, so that it can hopefully go live in a couple of weeks.
 
+You can sign up to be a tester here, with the Google account of this email address:
 [OPT-IN LINK]
 
-Use the Google account of this email address. If something breaks or you miss something, just reply. If all goes well it goes public around mid-December.
-
-Thanks!
+Thanks so much for your help and your patience. Looking forward to hearing what you think!
 
 Hidde
 https://ancienttrees.app
