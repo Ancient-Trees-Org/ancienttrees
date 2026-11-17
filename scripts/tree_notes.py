@@ -21,8 +21,10 @@ read them afterwards. This is that reader.
 Needs SUPABASE_SERVICE_KEY. What has been read is in data/notes-seen.json as
 (code, tree_id, updated_at): codes, never ids (scripts/people.py), and never
 the text, which stays in Supabase. A note is taken down for the closed list
-only: a person's name or address, abuse, an instruction that harms the tree
-(CLAUDE.md, Stories), spam. A wrong fact is answered on the page, never
+only: another person's name or address, abuse, an instruction that harms the
+tree (CLAUDE.md, Stories), spam. A writer who signs their own note chose to
+share their name, and it stays (Hidde, 2026-11-17, the Maria Aurora fig: "mensen
+kiezen hier zelf voor"). A wrong fact is answered on the page, never
 deleted: readers correct us too.
 """
 import datetime
