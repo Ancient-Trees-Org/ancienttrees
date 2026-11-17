@@ -373,6 +373,9 @@ For Hidde: compliance review, 1 point(s) wait for your word (data/compliance.jso
 
 ## 2026-11-17 session: three readers' tree notes worked into the stories
 
+- **Queue**: Birmingham, Sheffield and Leeds lead `city_queue.py --next` (PHONES_FIRST, Hidde: "Ja, vooraan"), from-zero research on, ten trees each. Why: since the Guardian piece app phones opened there (GeoIP: 30, 28, 25) with 1 or 2 of our trees within 25 km. The same look showed browsing depth does not follow coverage (about 2 trees opened per phone with 0 or 20+ trees near), so the shallow browsing is the app's first screen, not the map's gaps.
+- **iOS scheduled run**: the three red runs were the two iOS 18 deinit crashes (fixed 11-16 and in 66d624e1b this morning, after the night run) and, at 14:13 UTC, no Mac runner from GitHub. Failed job rerun to prove it green.
+
 - **Product**: Deusto bald cypress (bil_002): a reader measured the trunk at no more than 2 m across, perhaps 2.3 at the base. The story now says so beside the website's 3 m. `girth_cm` 942 is gone: we had worked it out from that one website's diameter, and a girth may only come from a register or a plaque. Gülhane hackberry (ist_013): the register's own figures disagree (145 cm across but 411 round, which is about 131 across). The story says so and adds the reader's doubt; the girth stays the register's. Molinazzo oak (pgr_001): the reader's monitoring details (stability scans, dead-wood pruning, root zone) and Molinazzo's history as a hamlet with a lost oratory, stated as theirs.
 - **Rule** (Hidde, "mensen kiezen hier zelf voor"): a note signed with its writer's own name stays; the closed list means another person's name (CLAUDE.md rung 1, tree_notes.py).
 - **Mail**: Joey R. (Willistown ambassador) got the link to his profile with the badge, sent in his thread on Hidde's "Verstuur" (drafts/batches/reply-joey-willistown-2026-11-17.json).
