@@ -229,7 +229,7 @@
       "transport": "In the Guerrero neighbourhood; roughly 600-800 m from Metro Hidalgo (Lineas 2 and 3), a short walk.",
       "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "Mexico City had protected no trees by name at all until 2025, and this was one of the first two it named. The ahuehuete in the Jardin de San Fernando went into the register at the opening of the programme, alongside a tree in Azcapotzalco, in a decree that recorded it at about 25 metres tall with a trunk 158 centimetres across. The environment department's own field sheet, from a separate visit, gives a thicker trunk and a height nearer 28 metres, with a circumference of 5.5 metres and a crown 22 metres wide. Two measuring passes, two sets of numbers, both official, and the difference tells you roughly how much precision to expect from any figure on a tree this size. It stands in a small public garden in Colonia Guerrero, off Avenida Hidalgo, a few minutes' walk from Metro Hidalgo and free to walk into. Do not confuse it with the Panteon de San Fernando next door, the historic cemetery where Benito Juarez is buried, which is a separate site with its own entrance. Nobody has put an age to this tree. There is no planting date in any source we can find and no measured estimate, so it goes on the map undated. If you have seen a figure in print, or an old photograph of this square, send it over.",
+      "story": "Mexico City had protected no trees by name at all until 2025, and this was one of the first two it named. The ahuehuete in the Jardin de San Fernando went into the register at the opening of the programme, alongside a tree in Azcapotzalco, in a decree that recorded it at about 25 metres tall with a trunk 158 centimetres across. The environment department's own field sheet, from a separate visit, gives a thicker trunk and a height nearer 28 metres, with a circumference of 5.5 metres and a crown 22 metres wide. It stands in a small public garden in Colonia Guerrero, off Avenida Hidalgo, a few minutes' walk from Metro Hidalgo and free to walk into. Do not confuse it with the Panteon de San Fernando next door, the historic cemetery where Benito Juarez is buried, which is a separate site with its own entrance. Nobody has put an age to this tree. There is no planting date in any source we can find and no measured estimate, so it goes on the map undated. If you read that this tree died in 1969, that is El Sargento, the dead ahuehuete of Chapultepec about four kilometres west. This one is alive, and was measured for the register in 2025. If you have seen a figure in print, or an old photograph of this square, send it over.",
       "photo": {
         "url": null,
         "license": null,
@@ -241,7 +241,8 @@
         "name": "Árboles Patrimoniales (SEDEMA Ciudad de México), no. 2",
         "url": null
       },
-      "height_m": 28
+      "height_m": 28,
+      "verify_notes": "2026-11-17 session: a reader's tree note (2026-11-17) says this tree died in 1969 and is kept to honour Aztec rulers. That is El Sargento in Chapultepec: the same reader's three app photographs show a dead trunk with GPS 3.9 km from the Jardin de San Fernando, Chapultepec area (held). San Fernando's tree was declared living in the 2025 register. The note stays (not on the closed list); the story now names the confusion."
     },
     {
       "id": "mex_007",
