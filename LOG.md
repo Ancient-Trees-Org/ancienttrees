@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: Kamakura's two tabunoki untangled, Hasedera's is a new tree (kmk_007)
+
+- Report 1000047 was right: the reader photograph put on kmk_003 (Goryo Shrine) on 11-16 shows a plaque reading 椨の木 and a sign reading 長谷寺, so it is the tabunoki at Hasedera. It is now kmk_007, "The Tabunoki of Hasedera", with that photograph and the reader's GPS fix as a confirmed pin, live as a reader's tree.
+- kmk_003 is back on Goryo Shrine (the fix had moved it 182 m north), approximate again, photo missing.
+- Kamakura intro and meta no longer say "the six" (the city has seven trees now). Report closed as changed with a reply. No local build: qa runs in CI.
+
 ## 2026-11-17 session: the Bristol FAQ no longer dates the Domesday Oak to 1086
 
 - **What changed**: Bristol's FAQ context said the Tree Council believes the Domesday Oak was growing when the Domesday Book was made, beside its 700-year estimate. It now says the name comes from the estate's Domesday entry, not the tree's age, matching the story fixed on 11-16 (submission 935) and today's answer to report "something else" on the same point.

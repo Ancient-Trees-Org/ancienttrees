@@ -2,8 +2,8 @@
   "city": "Kamakura",
   "country": "Japan",
   "status": "needs_curation",
-  "intro": "Six of Kanagawa's hundred notable trees stand in Kamakura, and every one is inside a temple or a shrine. That is not a coincidence. Kamakura was the seat of government for a century and a half from 1180 and filled with religious houses; the town then shrank back to a village for six hundred years while the precincts stayed exactly where they were, unfarmed and unbuilt. The best known of the six is a ginkgo that blew over in a gale in 2010 and grew back from its own roots.",
-  "meta_description": "Kamakura's six notable trees, all on temple or shrine ground: a ginkgo that regrew after falling in 2010, junipers from Song China, and a crabapple.",
+  "intro": "Six of Kanagawa's hundred notable trees stand in Kamakura, and every one is inside a temple or a shrine. That is not a coincidence. Kamakura was the seat of government for a century and a half from 1180 and filled with religious houses; the town then shrank back to a village for six hundred years while the precincts stayed exactly where they were, unfarmed and unbuilt. The best known of them is a ginkgo that blew over in a gale in 2010 and grew back from its own roots.",
+  "meta_description": "Kamakura's old trees, all on temple or shrine ground: a ginkgo that regrew after falling in 2010, junipers from Song China, and a crabapple.",
   "question_answer": "The oldest trees in Kamakura are the junipers at Kenchoji, reckoned at about 750 years because temple tradition says the founder planted them from seed he carried from Song China when the temple was built in 1253. The great ginkgo at Tsurugaoka Hachimangu is traditionally given a thousand years, but that figure does not survive checking.",
   "question_meta": "Kenchoji's junipers, about 750 years, are Kamakura's oldest trees. Why the famous thousand-year ginkgo is not, and 5 more worth the walk.",
   "question_context": "Kamakura's two age claims pull in opposite directions and only one holds. Kenchoji was founded in 1253 by the regent Hojo Tokiyori, who brought the Chinese monk Rankei Doryu from Song to open it, and the temple's tradition is that Rankei planted the junipers from seed he carried. Nothing measured supports that and nothing contradicts it; 750 years is the temple's age applied to its trees. The thousand years attached to the great ginkgo at Tsurugaoka Hachimangu is a different case. It comes from the story that Kugyo hid behind the tree before killing his uncle, the third shogun Sanetomo, on the shrine steps in January 1219, and the trouble is that ginkgo is widely held not to have reached Japan by then. The tree was also never the size a thousand years implies. It came down in a gale in March 2010 and what stands there now is regrowth from the original root, about fifteen years old above ground. Getting to Kenchoji: about 15 minutes on foot from Kita-Kamakura station.",
@@ -118,8 +118,8 @@
       "height_m": 20,
       "location": {
         "address": "Goryo Shrine, Sakanoshita 3-17, Kamakura 248-0021",
-        "latitude": 35.312558,
-        "longitude": 139.533767,
+        "latitude": 35.311033,
+        "longitude": 139.533027,
         "neighbourhood": "Sakanoshita"
       },
       "story": "The Enoden train runs across this shrine's approach. Goryo Shrine at Sakanoshita sits behind Hase, and the level crossing at its torii is one of the most photographed spots in Kamakura, because the little green and cream train passes within a couple of metres of the shrine steps. Most people are there for the train. The tabunoki behind it is 20 metres tall, a Kamakura City Natural Monument and one of the six Kamakura trees on Kanagawa's list of a hundred notable trees. Tabunoki is an evergreen of the laurel family that grows along warm coasts, and this is close to the sea; its new leaves come out bronze in spring before turning, which on a tree this size is a fortnight of the whole crown looking rusty. The shrine is dedicated to Kamakura Gongoro Kagemasa, a warrior who by the tale of the Later Three Year War took an arrow in the eye at sixteen, had it pulled out by a comrade who braced a foot on his face, and objected to the foot rather than the arrow. His festival in September involves masks and is one of the odder things in the Kamakura calendar. No age is published for the tree.",
@@ -131,33 +131,20 @@
       "access": "Free, shrine grounds open daily",
       "transport": "Enoden line to Hase, about 5 minutes on foot; the shrine approach crosses the railway",
       "photo": {
-        "url": "https://ancienttrees.app/photos/kmk_003-the-tabunoki-of-the-goryo-shrine-at-sakanoshita.jpg",
-        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "url": null,
+        "license": null,
         "attribution": null,
-        "status": "approved",
-        "width": 1200,
-        "height": 1600,
-        "taken_month": 5,
-        "source": "contributor",
-        "contributor_user_id": "p_0289c91ba29e05d604583950",
-        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
-        "note": "Photographed by a reader and sent through the app (2018-05-01); a viewing pass approved it on 2026-11-16: Gnarled evergreen trunk with hollowed limb beside the shrine buildings, daylight, colour. Species seen: broad-leaved evergreen, knobbly grey trunk (Machilus). Fits the description: old twisted trunk at the shrine gate.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "status": "missing"
       },
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "notes": "Kamakura City Natural Monument and one of Kanagawa's hundred notable trees; height 20 m from that list. No age or girth published. The pin is the shrine, not the trunk. The Kagemasa story is the shrine's own tradition.",
       "how_to_recognise": "You can recognise it as the big evergreen behind the shrine at the Enoden level crossing, 20 metres tall, its new leaves coming out bronze in spring before they turn.",
       "official_register": {
         "name": "Kamakura City Designated Natural Monument (鎌倉市指定天然記念物), no. Tabunoki (Machilus), 1 stem, Sakanoshita 152, Goryo Shrine; designated 1973-04-11",
         "url": null
       },
-      "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
-        "moved_m": 182,
-        "date": "2026-11-16",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      "verify_notes": "2026-11-17 session: report 1000047 said the tree pictured is in Hasedera. It was: the reader photograph (sighting a2c6c73e-e6b4-4f5f-9c99-da16d8c74875) shows a plaque reading 椨の木 and a sign reading 長谷寺, so it is Hasedera's tabunoki, now kmk_007. Photo removed here, pin back on Goryo Shrine as approximate (the reader's fix had moved it 182 m north)."
     },
     {
       "id": "kmk_004",
@@ -285,6 +272,48 @@
         "name": "Kamakura City Designated Natural Monument (鎌倉市指定天然記念物), no. Maki (Podocarpus), 1 stem, Nikaido 421, Kakuonji; designated 1963-07-17",
         "url": null
       }
+    },
+    {
+      "id": "kmk_007",
+      "name": "The Tabunoki of Hasedera",
+      "species": "Japanese Bay Tree (Machilus thunbergii)",
+      "location": {
+        "address": "Hasedera, 3-11-2 Hase, Kamakura 248-0016",
+        "latitude": 35.312558,
+        "longitude": 139.533767,
+        "neighbourhood": "Hase"
+      },
+      "how_to_recognise": "A grey, burled trunk in a stone planter edged with boulders beside Hasedera's white-walled buildings, a small wooden plaque reading 椨の木 at its foot and one hollow limb reaching out over the lane.",
+      "access": "Beside the lane at Hasedera's buildings,, where the reader photographed it from the road.",
+      "story": "A small wooden plaque at its foot says only 椨の木, tabunoki, and the trunk says the rest. A reader photographed it on a bright May day beside the white walls of Hasedera, the Kannon temple of Hase.\n\nThe trunk is the reason to stop. It rises from a stone planter ringed with boulders as a grey column swollen with burls, then twists and splits higher up. One great limb reaches out over the lane and is hollow along its length, its open end gaping like a pipe, while thin living branches carry on beyond it. Much of the old crown is gone, and what is left is a scatter of fresh green leaf around a frame of old wood and the stumps of lost limbs.\n\nTabunoki, Machilus thunbergii, is an evergreen of the laurel family that grows along warm coasts, and Hase is a short walk from the sea. In spring its new leaves open bronze before they turn green, so in April and May the living parts of this tree glow against the dead wood.\n\nKamakura's registered tabunoki, behind Goryo Shrine, is a different tree a few minutes' walk to the south. We know nothing of this one's age or girth. If you have measured it, or know its story, tell us here.",
+      "verified_sources": [],
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kmk_007-the-tabunoki-of-hasedera.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_0289c91ba29e05d604583950",
+        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+        "note": "Photographed by a reader and sent through the app (2018-05-01); viewed again on 2026-11-17: a gnarled, burled evergreen trunk with a hollow limb in a stone planter, a plaque reading 椨の木 and a sign reading 長谷寺 beside it; daylight, colour. First filed on kmk_003 (Goryo Shrine) by mistake on 2026-11-16, moved here after report 1000047. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "found_by_reader": {
+        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 session: the reader photograph a2c6c73e-e6b4-4f5f-9c99-da16d8c74875 was first published on kmk_003 (Goryo Shrine); report 1000047 said the tree is in Hasedera. The photograph shows a plaque reading 椨の木 (tabunoki) at the trunk and a wooden sign reading 長谷寺 (Hasedera) beside it, so species is from the plaque and place from the sign and the GPS fix. No age, girth or published source found (two searches, 2026-11-17). Published under the closed list for a reader's tree."
     }
   ]
 }
