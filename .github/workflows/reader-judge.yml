@@ -1,0 +1,110 @@
+name: Reader judge
+
+# A reader's tree gets its verdict minutes after they send it, not at the
+# next two-hourly knock (Hidde, 2026-11-17: "should be instant honestly can it
+# just trigger a flow??"). Supabase calls GitHub's repository_dispatch when a
+# reader sends a tree or a photograph (supabase/reader-judge-trigger.sql);
+# this run judges everything waiting and publishes it. The order of work is
+# BRIEF_READER_JUDGE.md; the rules are CLAUDE.md's.
+#
+# Bursts: the run waits ten minutes before it starts, and the concurrency
+# group keeps at most one run waiting behind the running one (GitHub drops
+# older pending runs), so a weekend of fifty trees costs a handful of runs,
+# not fifty. Revert: delete this file and drop the trigger in Supabase.
+
+on:
+  repository_dispatch:
+    types: [reader-tree]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  id-token: write
+  actions: write
+
+concurrency:
+  group: reader-judge
+  cancel-in-progress: false
+
+env:
+  JUDGE_ALLOWED: "Bash(git:*),Bash(python3:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(grep:*),Bash(date:*),Bash(curl:*),Bash(mkdir:*),Bash(cp:*),Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+  JUDGE_DISALLOWED: "Bash(rm:*),Bash(sudo:*),Bash(gh repo:*),Bash(gh secret:*),Bash(gh auth:*),Bash(git clean:*),Bash(git reset --hard:*),Monitor"
+  # Judging photographs is judgement work, which stays on Opus (CLAUDE.md
+  # "Research": photo-judge runs on Opus by design).
+  JUDGE_MODEL: "claude-opus-5-5"
+
+jobs:
+  judge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Let a burst gather
+        if: github.event_name == 'repository_dispatch'
+        run: sleep 600
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Mark the starting point
+        id: start
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Read what readers sent and fetch every waiting photograph
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          pip install --quiet pillow || true
+          python3 scripts/sightings_inbox.py
+          python3 scripts/fetch_waiting_photos.py
+          python3 scripts/judgement.py --scan
+
+      - name: Is anything waiting
+        id: work
+        run: |
+          leads=$(python3 scripts/fetch_waiting_photos.py --count)
+          queue=$(python3 -c "import json;print(len(json.load(open('data/sighting-queue.json')).get('queue',[])))" 2>/dev/null || echo 0)
+          echo "leads=$leads queue=$queue"
+          if [ "$leads" != "0" ] || [ "$queue" != "0" ]; then
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=no" >> "$GITHUB_OUTPUT"
+            echo "::notice::Nothing waits for a verdict; no agent started."
+          fi
+
+      - name: Judge and publish
+        if: steps.work.outputs.go == 'yes'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_bots: "github-actions[bot]"
+          prompt: |
+            Read BRIEF_READER_JUDGE.md in the repository root and do what it
+            says, for every reader's tree and photograph waiting for a verdict.
+            The intake already ran: the photographs are in out/sightings/.
+
+            Shell style: one command per Bash call. No heredocs, no pipes into
+            a second binary, no `&&`, no multi-statement `python3 -c`. Write
+            any script to out/tmp/<name>.py with Write and run it. Keep every
+            path inside the repository.
+          claude_args: |
+            --model "${{ env.JUDGE_MODEL }}"
+            --allowedTools "${{ env.JUDGE_ALLOWED }}"
+            --disallowedTools "${{ env.JUDGE_DISALLOWED }}"
+            --max-turns 120
+
+      - name: Deploy what went live
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch -q origin main
+          if [ "$(git rev-parse origin/main)" != "${{ steps.start.outputs.sha }}" ]; then
+            gh workflow run deploy.yml --ref main
+            echo "::notice::Deploy dispatched for the reader judge's work."
+          else
+            echo "Nothing of this run's to deploy."
+          fi

@@ -38,6 +38,7 @@ Reference: data/cities/london.json. Per tree: `id`, `name`, `species` ("Common (
 
 ## How runs fire
 
+- **Readers' trees are judged at once** (Hidde, 2026-11-17: "should be instant honestly"): a Supabase trigger (supabase/reader-judge-trigger.sql, token in the Vault as `github_dispatch_token`, setup supabase/reader-judge-setup.md) starts reader-judge.yml, which waits ten minutes for a burst, fetches every waiting photo (`scripts/fetch_waiting_photos.py`, also in the night run) and judges per BRIEF_READER_JUDGE.md, then dispatches a deploy.
 - nightly.yml knocks every two hours; `.github/workflows/knock.yml` dispatches when nothing started for two hours. Windows are 120 minutes, up to four attempts. Self-chaining stays off unless Hidde turns it on.
 - The weekly budget is the real limit (roughly 1,000 to 1,400 machine minutes in seven days, shared with Hidde). `python3 scripts/run_health.py --week`. Brake: two usage-limit deaths in six hours stop extensions. `WEEK_BUDGET_MINUTES` 1400 and `DAY_BUDGET_MINUTES` 200 are Hidde's numbers.
 - **The window is the job**: after every merged item go back to the shelf until 25 minutes remain. Commit the smallest complete step first.

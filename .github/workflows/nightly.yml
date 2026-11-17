@@ -381,6 +381,11 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
           python3 scripts/sightings_inbox.py
+          # Every reader's tree still waiting for a verdict gets its photograph
+          # on THIS runner (2026-11-17): the inbox downloads only on first
+          # intake, so a lead not judged in that run could never be looked at
+          # by a later one, and 29 reader trees waited a weekend that way.
+          python3 scripts/fetch_waiting_photos.py || true
           # Pillow only when there is a photograph to publish. The runner does
           # not carry it, and sightings_publish.py needs it to rotate the
           # pixels upright; without this the run would judge a photograph and

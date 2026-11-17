@@ -1,7 +1,8 @@
 {
   "_note": "Read by scripts/privacycheck.py. Every file in supabase/ names the phrase on site/src/pages/privacy.astro that tells a reader about it, or why it holds no personal data. Every service names itself; its name must appear on the privacy page. A new table or service joins this file and the privacy page in the same commit (compliance audit, 2026-11-10).",
   "tables": {
-    "PENDING.sql": {"exempt": "a copy kept on hold, never pasted; the live file it copies is mapped"},
+    "reader-judge-trigger.sql": {"exempt": "stores nothing; on a new tree or shared photo it asks GitHub to start a workflow, and the call carries only the words reader-tree, never an id, a name or a place"},
+    "PENDING.sql": {"exempt":"a copy kept on hold, never pasted; the live file it copies is mapped"},
     "ambassadors.sql": {"phrase": "ambassador of a place"},
     "avatars-policy.sql": {"phrase": "add a picture"},
     "contributor-reply.sql": {"phrase": "replies about what you sent us"},
