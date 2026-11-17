@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: three readers' tree notes worked into the stories
+
+- **Product**: Deusto bald cypress (bil_002): a reader measured the trunk at no more than 2 m across, perhaps 2.3 at the base. The story now says so beside the website's 3 m. `girth_cm` 942 is gone: we had worked it out from that one website's diameter, and a girth may only come from a register or a plaque. Gülhane hackberry (ist_013): the register's own figures disagree (145 cm across but 411 round, which is about 131 across). The story says so and adds the reader's doubt; the girth stays the register's. Molinazzo oak (pgr_001): the reader's monitoring details (stability scans, dead-wood pruning, root zone) and Molinazzo's history as a hamlet with a lost oratory, stated as theirs.
+- **Rule** (Hidde, "mensen kiezen hier zelf voor"): a note signed with its writer's own name stays; the closed list means another person's name (CLAUDE.md rung 1, tree_notes.py).
+- **Numbers**: the digest's Android waitlist row stops at 1,000, because Supabase returns 1,000 rows at most. The real count is 1,809 in all (1,317 on 11-15, 416 on 11-16). Not fixed yet.
+
 ## 2026-11-17 session: iOS 18 crash when the map redraws, fixed
 
 - The nightly iOS 18 test run was red: not the photo test it named, but the map's TreesMemo dying through Swift's MainActor deinit hop, which aborts on iOS 18 (the same fault as the sheet's drag clock the day before). Every class @State builds inline (ten of them) now dies with `nonisolated deinit {}`. All 231 unit tests green on an iOS 18.6 simulator.

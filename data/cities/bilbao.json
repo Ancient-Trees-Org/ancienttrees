@@ -93,7 +93,6 @@
       "age_estimate": "not documented",
       "age_min": null,
       "age_max": null,
-      "girth_cm": 942,
       "location": {
         "address": "Universidad de Deusto, Avenida de las Universidades 24, 48007 Bilbao",
         "latitude": 43.2708,
@@ -107,7 +106,7 @@
       "transport": "San Mames or Deusto metro/tram stop, about 10 minutes' walk; also on the riverside walkway opposite the Guggenheim Museum.",
       "location_precision": "approximate",
       "curation_status": "flagged",
-      "story": "A tree from the swamps of the American south stands at the front door of a Basque university, looking across the river at the Guggenheim. Bald cypress belongs in standing water in Louisiana and Florida, and this one has spent its life on a paved forecourt in rainy Bilbao, at the entrance to the 1886 main building of the Universidad de Deusto.\n\nThe Bilbao history site Absolut Bilbao puts it at nearly 25 metres tall, with a crown more than eight metres across and a trunk around three metres thick. Treat those numbers as reported rather than measured: they come from a single source, and three metres of trunk would be exceptional for the species outside its native bottomlands. Large, and roughly stated, is the honest reading.\n\nIts party trick is seasonal. Taxodium distichum is a conifer that goes bare, turning rust and copper in November and dropping its needles while the evergreens around it stay green, which is the thing visitors argue about before somebody looks it up.\n\nThe building behind it dates from 1886 and the tree stands on its forecourt, but nothing we could reach dates the tree, and a university campus plants trees in every decade of its life. This one may be original to the building or may be decades younger. Nobody has put a number on it. If you know when it went in, or have taken a tape to that trunk, tell us.",
+      "story": "A tree from the swamps of the American south stands at the front door of a Basque university, looking across the river at the Guggenheim. Bald cypress belongs in standing water in Louisiana and Florida, and this one has spent its life on a paved forecourt in rainy Bilbao, at the entrance to the 1886 main building of the Universidad de Deusto.\n\nThe Bilbao history site Absolut Bilbao puts it at nearly 25 metres tall, with a crown more than eight metres across and a trunk around three metres thick. A visitor who stood beside it in November 2026 measures it smaller, at no more than two metres across at chest height and perhaps 2.3 at the base. Big, then, but not the three metres the website gives.\n\nIts party trick is seasonal. Taxodium distichum is a conifer that goes bare, turning rust and copper in November and dropping its needles while the evergreens around it stay green, which is the thing visitors argue about before somebody looks it up.\n\nThe building behind it dates from 1886 and the tree stands on its forecourt, but nothing we could reach dates the tree, and a university campus plants trees in every decade of its life. This one may be original to the building or may be decades younger. Nobody has put a number on it. If you know when it went in, tell us.",
       "best_time": {
         "months": [
           11
@@ -128,7 +127,8 @@
         "sighting_id": "6fa67b16-2dfe-429c-a3c5-84f10d8c3c43",
         "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: Tall russet bald cypress with buttressed base at an institution gate, autumn colour. Species seen: feathery russet foliage, buttressed base (bald cypress). Fits the description: swollen buttressed trunk at main building.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "A bare-looking conifer with a swollen, buttressed trunk at the University of Deusto's main entrance, facing the Guggenheim across the river."
+      "how_to_recognise": "A bare-looking conifer with a swollen, buttressed trunk at the University of Deusto's main entrance, facing the Guggenheim across the river.",
+      "verify_notes": "2026-11-17 session: girth_cm 942 removed. It was three metres of diameter from one web page turned into a girth by us, which CLAUDE.md does not allow (girth only from a register or plaque). A reader's tree note (2026-11-16) gives the trunk as no more than 2 m across at breast height, maybe 2.3 m at the base; stated in the story as theirs, no girth set from it. The same note confirms the rust colour in November."
     },
     {
       "id": "bil_003",

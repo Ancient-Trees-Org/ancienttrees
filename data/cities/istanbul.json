@@ -473,7 +473,7 @@
         "longitude": 28.979952,
         "neighbourhood": "Gülhane Park, Cankurtaran, Fatih"
       },
-      "story": "Istanbul protects this tree by name, which is unusual for a species most cities treat as background. The Mediterranean hackberry, çitlembik in Turkish, normally gets planted for shade and forgotten. This one is 23 metres tall with a trunk 145 centimetres across, and it holds a place on Turkey's national monumental tree registry at an age of 259 years, with the city's own municipal tree project publishing a page for it saying it has stood in Gülhane Park since 1759. Those two figures resolve to the same year, 2018, so the national register and the city are reporting one survey between them rather than two separate measurements. That is worth stating. What makes the number credible anyway is the species: Celtis australis is a tough, long-lived tree in Anatolian conditions, so 265 years is physically ordinary for it, which is more than can be said for some of the plane ages in the same register. It stands roughly 40 metres from the registered London plane in the same park, and the pair are the reason to come. Gülhane was Topkapı's outer palace garden and stayed closed to the public until 1912, so this tree spent its first century and a half inside a court garden and its last hundred years among people eating simit under it. The Topkapı courtyard plane is 300 metres away.",
+      "story": "Istanbul protects this tree by name, which is unusual for a species most cities treat as background. The Mediterranean hackberry, çitlembik in Turkish, normally gets planted for shade and forgotten. This one is 23 metres tall, and it holds a place on Turkey's national monumental tree registry at an age of 259 years, with the city's own municipal tree project publishing a page for it saying it has stood in Gülhane Park since 1759. Those two figures resolve to the same year, 2018, so the national register and the city are reporting one survey between them rather than two separate measurements. That is worth stating. The register's trunk figures do not agree with each other either, 145 centimetres across but 411 round, which works out nearer 131 across. A visitor in November 2026 thinks even the 4.1 metres is generous. The age is easier to believe: Celtis australis is tough and long-lived in Anatolian conditions, so 265 years is ordinary for it. It stands roughly 40 metres from the registered London plane in the same park, and the pair are the reason to come. Gülhane was Topkapı's outer palace garden and stayed closed to the public until 1912, so this tree spent its first century and a half inside a court garden and its last hundred years among people eating simit under it. The Topkapı courtyard plane is 300 metres away.",
       "verified_sources": [
         "https://services5.arcgis.com/26ObnytmBZ58Wbj8/arcgis/rest/services/turkiye_anit_agaclari/FeatureServer/0/query?where=OBJECTID=400&outFields=*&f=json (Turkiye Anit Agaclari national monumental-tree registry, OBJECTID 400)",
         "https://www.konusanagac.com/ozel-agac/81/citlenbik-gulhane-parki-celtis-australis.html (Istanbul Metropolitan Municipality Parks, Gardens and Green Areas Dept., 'Konusan Agaclar' individually-named-tree project)",
@@ -496,13 +496,14 @@
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it as the hackberry rather than a plane, a slimmer trunk about 145 centimetres across and 23 metres tall. It stands in Gülhane Park, about 40 metres from the registered London plane.",
+      "how_to_recognise": "You can recognise it as the hackberry rather than a plane, with a much slimmer trunk than the plane's, 23 metres tall. It stands in Gülhane Park, about 40 metres from the registered London plane.",
       "official_register": {
         "name": "Turkiye Anit Agaclari (Ministry of Agriculture and Forestry national monumental-tree register), OBJECTID 400",
         "url": "https://www.avrupaanitagaclar.com/agac/2788/fatih-anit-agac/citlenbik-celtis-australis.html"
       },
       "girth_cm": 411,
-      "height_m": 23
+      "height_m": 23,
+      "verify_notes": "2026-11-17 session: a reader's tree note (2026-11-14) says the 4.1 m girth looks like an over-estimate. The register row itself (OBJECTID 400, read today) gives govde_capi 145 and govde_cevresi 411, which disagree (411 cm round is about 131 cm across). girth_cm stays the register's 411; the story states the conflict and the reader's doubt instead of the 145 cm diameter."
     },
     {
       "id": "ist_014",
