@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a sprawling Valley Forge sycamore goes live, three held, five reports closed
+
+- **New tree**: valley-forge/vfg_001, The Sprawling Sycamore of Pawling Farm (Valley Forge National Historical Park, Pennsylvania). The reader's photograph shows pale, mottled limbs that lie along the lawn and climb back up; daylight, GPS fix. The pin follows the finder's own 56 m move onto the trunk (report 1000069, standard pin thanks). Their 650 cm, 260 to 285 years and 42 m spread stay theirs in the story. It is a new one-tree place with intro, question texts and three FAQ, and it is in data/us-states.json as Pennsylvania.
+- **Held** (photographs viewed): Chêne de la Vierge, Meuse (`not_theirs`: a low-resolution autumn oak with a copyright mark, the look of a Street View crop; it goes live at their GPS fix once they confirm). A pruned street fig at night in North Melbourne (`not_special`): the app named it after our Curtain Square fig, which is 2.3 km away; report 1000070 got an answer. The photo sent for lon_021, the Finsbury Circus pagoda tree, shows a London plane, so it was rejected for that tree and judged on its own as `not_special` (one of many big City planes, no note).
+- **Reports closed**: 1000069 (pin), 1000070, 1000050 (Stockholm: a maple-like tree about 1 km from the three offered; the lead now carries `wrong_tree`), and 1000034 (Dublin: already judged on 11-15 as a weeping conifer, not one of the five offered). Each has a short reply.
+- **Still open (8)**, the same as the entry below says: 1000047 (Kamakura), 1000065/1000067 (Cambridge plane), 1000042 (Isparta), 1000032 (North Berwick), 1000061 (lax_011 twice), 1000028 (Copenhagen Husalle lindens), 1000035 (Chiang Mai). There was not enough time in this window.
+- **Readers' words**: closed six that do not belong on a page (three pasted chatbot or website summaries for bbl_001, esl_001 and mrs_001; Coldwaltham's two thank-you notes; the Domesday Oak question, already answered). Six still wait to be quoted (fwd_001, glg_001, gnp_001, mvv_001, rsf_001, tar_001).
+- preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 session: the Arbour Oak gets its seasons row, its snow photo under winter
 
 - Hidde asked why the Arbour Oak (nottingham/ntm_001) showed no season photos. Two causes: `Quercus x rosacea` was not in the deciduous list in site/src/lib/seasons.ts (so no row at all, on web and in the app feed), and the reader's photo had no month (a website tip, no date in the file). Fixed both: the hybrid oak is in the list, the photo has `taken_month` 1 with `taken_month_basis` (preflight's bookkeeping set names the field).

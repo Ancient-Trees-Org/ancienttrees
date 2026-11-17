@@ -1,0 +1,74 @@
+{
+  "city": "Valley Forge",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Valley Forge, northwest of Philadelphia in Pennsylvania, is where the Continental Army spent the winter of 1777 to 1778, and the ground is now a national historical park. We map one tree here so far: an American sycamore at Pawling Farm whose long pale limbs lie along the grass and rise again, which a reader photographed and sent to us.",
+  "meta_description": "An American sycamore at Pawling Farm, Valley Forge, whose limbs touch the ground and rise again, sent by a reader: where it is and how to find it.",
+  "question_meta": "Valley Forge's mapped tree is a sprawling American sycamore at Pawling Farm, sent by a reader. Where it stands and what we know.",
+  "question_answer": "The tree we map at Valley Forge is an American sycamore at Pawling Farm, off Pawlings Road in Valley Forge National Historical Park. A reader photographed it with a GPS fix. Its limbs spread over 42 metres by the reader's account, and some lie along the ground before rising again. The reader puts it at 260 to 285 years old.",
+  "question_context": "A reader sent us this sycamore with a note that says what makes it worth the walk: \"The boughs spread over 42 meters, some of which reach down, meld with the ground and then bend back up.\" Their photograph shows it. Long limbs of pale, mottled bark, white, grey and olive where the old bark has flaked, run out across the mown lawn of Pawling Farm, rest on the grass for metres and then turn upward into a wide green crown. Walking under it means stepping between branches. American sycamores grow big along rivers in the eastern United States, and Pawling Farm sits on the north side of the Schuylkill, inside Valley Forge National Historical Park. The reader gives its girth as 650 centimetres and its age as 260 to 285 years; those are their figures, not a measurement we have seen. If they are right, the tree was growing during the Continental Army's winter here in 1777 to 1778. If you know more about it, tell us on its page.",
+  "hero_tree_id": "vfg_001",
+  "oldest_tree_id": "vfg_001",
+  "faq": [
+    {
+      "q": "Where is the sycamore at Valley Forge?",
+      "a": "At Pawling Farm, off Pawlings Road on the north side of the Schuylkill in Valley Forge National Historical Park. Our pin marks where its finder placed it."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader puts it at 260 to 285 years and its girth at 650 centimetres. Those are their figures; we have not seen a measurement."
+    },
+    {
+      "q": "Can I walk among the limbs?",
+      "a": "Yes, the farm lawn is part of the park. Step over the limbs, not on them: they are living branches."
+    }
+  ],
+  "trees": [
+    {
+      "id": "vfg_001",
+      "name": "The Sprawling Sycamore of Pawling Farm",
+      "species": "American Sycamore (Platanus occidentalis)",
+      "age_estimate": "260 to 285 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Pawling Farm, off Pawlings Road, Valley Forge National Historical Park, Pennsylvania",
+        "latitude": 40.110369,
+        "longitude": -75.458342,
+        "neighbourhood": "Valley Forge"
+      },
+      "how_to_recognise": "A sycamore whose long white and grey mottled limbs run out along the grass, touch the ground and climb back up, on the lawn by the Pawling Farm buildings.",
+      "access": "Free, in Valley Forge National Historical Park, on the grounds of Pawling Farm off Pawlings Road. Park grounds are open daily.",
+      "story": "\"The boughs spread over 42 meters, some of which reach down, meld with the ground and then bend back up,\" wrote the reader who sent us this American sycamore from Pawling Farm in Valley Forge National Historical Park, with a photograph and a GPS fix taken beside it.\n\nThe photograph shows exactly that. Instead of holding its limbs up, the tree has let them down: long arms of pale, mottled bark, white and grey and olive where the old bark has flaked away, run out across the mown grass, lie along it for metres and then turn upward again into the crown, so that walking under the tree means stepping between its branches. Sycamores often grow this way when they have room and nobody prunes them.\n\nThe reader puts its girth at 650 centimetres and its age at 260 to 285 years. Those are their figures, not a measurement we have seen. If they are right, the tree was already growing when the Continental Army spent the winter of 1777 to 1778 at Valley Forge.\n\nPawling Farm lies off Pawlings Road on the north side of the Schuylkill. Walk all the way round and follow one limb from the trunk to where it rises again.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix, moved by the finder",
+        "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
+        "report": "1000069",
+        "moved_m": 56,
+        "date": "2026-11-17",
+        "note": "The photograph's GPS fix (40.110225, -75.457703) was taken beside the tree; the reader who found it then moved the pin 56 m onto the trunk (report 1000069), and we took their move."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (c4b5f1b1-ce96-469b-805d-cf75390b7917, through the app). Photograph viewed: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Published under the closed list for a reader's tree. The reader's own figures: name 'American Sycamore at Pawling Farm in Valley Forge National Park', species 'American Sycamore', age '260-285', girth 650 cm, note on 42 m spread. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/vfg_001-sprawling-sycamore-of-pawling-farm.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

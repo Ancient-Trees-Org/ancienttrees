@@ -2,6 +2,22 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:0ddad207-52ba-4a72-8f76-64b3a09f2721",
    "kind": "a tree we do not map",
    "seen": "2026-11-17",
@@ -40,22 +56,6 @@
    },
    "verdict": "publish",
    "reason": "Photo viewed: a tall hollow boab on bare red ground, doorway at the foot and a second hole above, crown in fresh leaf; GPS fix off Rowing Club Access Road, Kununurra. Live as kununurra/knx_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
   },
@@ -2261,6 +2261,177 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-17: the tree's own sign (Halls Totara, Podocarpus hallii, girth 8.31 m, about 1000 years) in front of the trunk. In tua_001's gallery behind the lead; species, girth_cm and age on the page now rest on the sign.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cd5837fb-7e49-439e-9edb-50a5b86f01fb",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak of Orkin",
+   "city": "Pamplona",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/cd5837fb-7e49-439e-9edb-50a5b86f01fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 29,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the whole Orkin oak alone in its pasture, broad rounded crown, rail fence, daylight. First photograph for pam_002; lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:121e99a2-68a9-4499-8fb9-0f3c32d0f672",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/121e99a2-68a9-4499-8fb9-0f3c32d0f672.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Boab Prison Tree in its post-and-rail ring, hollow entrance visible, daylight, GPS at our pin. A reader's photograph now leads; the earlier lead moved into the gallery. Two more good frames came with it (wide with two people for scale, trunk close-up) and stay unpublished: the publish script takes only the main file.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5234d132-b7d8-4fd2-a888-a8888b8e7459",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Finsbury Circus Pagoda Tree",
+   "city": "London",
+   "species": "Japanese Pagoda Tree (Styphnolobium japonicum)",
+   "photo": "out/sightings/5234d132-b7d8-4fd2-a888-a8888b8e7459.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 22,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Pagoda Tree (Styphnolobium japonicum)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected for lon_021: the photograph shows a London plane (lobed leaves, plane bark), not the Japanese pagoda tree. Judged again as a tree of its own (lead:5234d132).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c936db57-eabf-4cff-a8e9-b5ac94850a27",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Le Chêne de la Vierge",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_37d34986714a1c131fb832b2/C936DB57-EABF-4CFF-A8E9-B5AC94850A27.jpg",
+   "reader_note": "« Chêne de la Vierge »",
+   "reader_girth_cm": 250,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "hold",
+   "reason": "not_theirs: photograph viewed 2026-11-17, an autumn oak above a hedge line, low resolution with a copyright mark in the corner, the look of a Street View crop. Goes live at their GPS fix once they confirm the picture is theirs or send their own.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:074c0198-62ad-43b5-847c-303b14654271",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "city": null,
+   "species": null,
+   "photo": "p_570ff7009e280d314faffe25/074C0198-62AD-43B5-847C-303B14654271.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: photograph viewed 2026-11-17, a pruned street fig under power lines at night in North Melbourne, 2.3 km from the Curtain Square fig the app named. Report 1000070 answered.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c4b5f1b1-ce96-469b-805d-cf75390b7917",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore at Pawling Farm in Valley Forge National Park",
+   "city": null,
+   "species": "American Sycamore",
+   "photo": "p_3bb2d9b77f839015a3f92de9/C4B5F1B1-CE96-469B-805D-CF75390B7917.jpg",
+   "reader_note": "The boughs spread over 42 meters some of which reach down meld with the ground and then bend back up.\n\nIt can be found within Valley Forge National Park at Pawling Farm off Pawlings Road",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: long pale mottled sycamore limbs running along the grass, touching down and rising again, under a green crown at Pawling Farm, daylight, colour. GPS fix; the finder then moved the pin 56 m onto the trunk (report 1000069). Live as valley-forge/vfg_001, a new one-tree place; the reader's 650 cm, 260 to 285 years and 42 m spread stay theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5234d132-b7d8-4fd2-a888-a8888b8e7459",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A London plane in Finsbury Circus Gardens",
+   "city": null,
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "p_ab278ce80265f029bed5a17a/5234D132-B7D8-4FD2-A888-A8888B8E7459.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "hold",
+   "reason": "not_special: a tall mature London plane in autumn yellow in Finsbury Circus Gardens, daylight, GPS. One of many of its size in central London, no note or figure setting it apart.",
    "hidde": null,
    "agreed": null
   },
@@ -13128,48 +13299,16 @@
    "agreed": null
   },
   {
-   "id": "sight:cd5837fb-7e49-439e-9edb-50a5b86f01fb",
+   "id": "sight:c4b5f1b1-ce96-469b-805d-cf75390b7917",
    "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Oak of Orkin",
-   "city": "Pamplona",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "photo": "out/sightings/cd5837fb-7e49-439e-9edb-50a5b86f01fb.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 29,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
-   },
-   "verdict": "publish",
-   "reason": "Photo viewed: the whole Orkin oak alone in its pasture, broad rounded crown, rail fence, daylight. First photograph for pam_002; lead.",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore at Pawling Farm in Valley Forge National Park",
+   "photo": "p_3bb2d9b77f839015a3f92de9/C4B5F1B1-CE96-469B-805D-CF75390B7917.jpg",
+   "reader_note": "The boughs spread over 42 meters some of which reach down meld with the ground and then bend back up.",
    "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:121e99a2-68a9-4499-8fb9-0f3c32d0f672",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "Boab Prison Tree",
-   "city": "Derby",
-   "species": "Boab (Adansonia gregorii)",
-   "photo": "out/sightings/121e99a2-68a9-4499-8fb9-0f3c32d0f672.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Boab (Adansonia gregorii)"
-   },
+   "agreed": null,
    "verdict": "publish",
-   "reason": "The whole Boab Prison Tree in its post-and-rail ring, hollow entrance visible, daylight, GPS at our pin. A reader's photograph now leads; the earlier lead moved into the gallery. Two more good frames came with it (wide with two people for scale, trunk close-up) and stay unpublished: the publish script takes only the main file.",
-   "hidde": null,
-   "agreed": null
+   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001."
   }
  ]
 }
