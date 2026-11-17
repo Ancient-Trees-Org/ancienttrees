@@ -4271,6 +4271,34 @@
    "lat": 47.272708,
    "lon": 7.471473,
    "pin_checked": "2026-11-17"
+  },
+  "c7d330dc-6134-4098-87f1-ee6360aa7295": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "ams_021",
+   "city_slug": "amsterdam",
+   "file": "ams_021-the-oudemanhuispoort-elm.jpg",
+   "reason": "A tall, straight, deeply furrowed trunk rising past three storeys in a brick and stone inner courtyard, autumn leaves on the paving, daylight and colour; the tree's first photograph. Species seen: elm: rough, vertically fissured grey-brown bark, small oval toothed leaves turning yellow. Fits the des",
+   "lat": 52.369375,
+   "lon": 4.896028,
+   "pin_checked": "2026-11-17"
+  },
+  "bb69be6b-1be3-4e93-8adb-0477f0ce1745": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "lon_001",
+   "city_slug": "london",
+   "file": "lon_001-the-totteridge-yew-bb69be6b.jpg",
+   "reason": "The yew's pollarded crown from below, many twisting stems out of a broad old bole, daylight; a good second view, but a child peers out of the branches, so it stays behind the lead. Species seen: yew: flat dark needles in two rows, flaking red-brown bark, many-stemmed crown. Fits the description: an ",
+   "lat": 51.6323,
+   "lon": -0.2002,
+   "pin_checked": "2026-11-17"
+  },
+  "5840146e-9b2c-489c-bb03-fe3d54d36290": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "lon_001",
+   "reason": "wrong_subject: a portrait of a child smiling from inside the foliage; the yew's trunk is hidden behind needles and nothing in the frame shows the tree itself."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

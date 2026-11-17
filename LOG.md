@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: Amsterdam's tallest tree gets its first photograph; a second view of the Totteridge Yew
+
+- **Oudemanhuispoort Elm (ams_021)** had no photograph. A reader's photo from today is now its lead: the tall, furrowed trunk rising past three storeys in the inner courtyard, with autumn leaves on the paving.
+- **Totteridge Yew (lon_001)**: the same reader sent two photographs. The one looking up into the pollarded crown is now in the gallery behind the current lead, not leading, because a child peers out of the branches. The other is rejected as `wrong_subject`: it is a portrait of the child in the foliage, and the trunk is hidden.
+- No open reports, no unjudged feedback, no waiting leads from strangers (the 37 waiting leads are our own photographs, marked `mine`), and no readers' notes left to quote. Both pins were already confirmed, so the pin catch-up's HTTPError changed nothing.
+
 ## 2026-11-17 reader judge: a rain tree in Mangaluru goes live (mlr_001); the Cremines yew gets its first photograph
 
 - **New: The Rain Tree of Bolar** (mangaluru/mlr_001), a new one-tree place in India. A reader sent the photograph today with a GPS fix from the lane: a huge umbrella crown on fern-covered limbs above a garden wall and a transformer. They gave no name, species or note. The species is read from the photograph, and the story asks readers to confirm it. There is no register entry and no article nearby. It went live under the closed list, with the pin on the public lane and an access line saying the garden may be private. India is out of focus only for our own research.

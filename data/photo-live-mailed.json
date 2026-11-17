@@ -1794,6 +1794,36 @@
     }
    ],
    "sent": []
+  },
+  "p_0f6b42161f64e6f916e0bea7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",
+     "tree_id": "ams_021",
+     "tree_name": "The Oudemanhuispoort Elm",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_d7ff9c940715c607d7c78cc7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745",
+     "tree_id": "lon_001",
+     "tree_name": "The Totteridge Yew",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

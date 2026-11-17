@@ -2538,6 +2538,183 @@
    "agreed": null
   },
   {
+   "id": "sight:460c96b9-89e2-41ac-a829-ec911be11ef7",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Edinburgh",
+   "photo": "p_7a9ce110d7a1e1c831941fa0/460C96B9-89E2-41AC-A829-EC911BE11EF7.jpg",
+   "reader_note": "There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the group of tall beeches on the slope of North Berwick Law, clear of the conifers below, ponies in front, daylight, colour. Held 11-15 for want of a source; the Union planting is sourced (Wikipedia on Hew Dalrymple, the Scotsman). Live as north-berwick/nbw_001 under the closed list, pin from the reader's own move (report 1000032).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Baarn",
+   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
+   "reader_note": "bls",
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Baarn",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
+   "reader_note": "bls",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0d0eb3f0-bfe3-4863-8bdf-d594e43512b8",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_d08befbb4870fc0971e550d1/0D0EB3F0-BFE3-4863-8BDF-D594E43512B8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge umbrella-crowned shade tree with fern-covered limbs over a lane in Bolar, Mangaluru, GPS fix from the lane; somewhat special and seen from public ground. Live as mangaluru/mlr_001 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0d0eb3f0-bfe3-4863-8bdf-d594e43512b8",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Rain Tree of Bolar",
+   "photo": "p_d08befbb4870fc0971e550d1/0D0EB3F0-BFE3-4863-8BDF-D594E43512B8.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole rain tree from the lane in Bolar, fern-covered limbs under a wide umbrella crown, daylight, colour. Live as mangaluru/mlr_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Old Yew of Cremines (If millenaire)",
+   "city": "Cremines",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the fluted yew trunk filling the frame on its forest slope, daylight; the tree had no photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c7d330dc-6134-4098-87f1-ee6360aa7295",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Oudemanhuispoort Elm",
+   "city": "Amsterdam",
+   "species": "Dutch Elm (Ulmus x hollandica)",
+   "photo": "https://ancienttrees.app/photos/ams_021-the-oudemanhuispoort-elm.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Dutch Elm (Ulmus x hollandica)"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the tall furrowed elm trunk rising past three storeys in the inner courtyard, autumn leaves on the paving, daylight. The tree's first photograph, now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bb69be6b-1be3-4e93-8adb-0477f0ce1745",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Totteridge Yew",
+   "city": "London",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-bb69be6b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the pollarded crown from below, many twisting stems from the old bole, a child peering out of the branches. In the gallery behind the lead, not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5840146e-9b2c-489c-bb03-fe3d54d36290",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Totteridge Yew",
+   "city": "London",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/5840146e-9b2c-489c-bb03-fe3d54d36290.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "hold",
+   "reason": "Photo viewed: a child smiling from inside the yew's foliage, the trunk hidden by needles. Rejected as wrong_subject; the same reader's other frame of the crown went into the gallery.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
@@ -13397,117 +13574,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:460c96b9-89e2-41ac-a829-ec911be11ef7",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "A tree near Edinburgh",
-   "photo": "p_7a9ce110d7a1e1c831941fa0/460C96B9-89E2-41AC-A829-EC911BE11EF7.jpg",
-   "reader_note": "There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the group of tall beeches on the slope of North Berwick Law, clear of the conifers below, ponies in front, daylight, colour. Held 11-15 for want of a source; the Union planting is sourced (Wikipedia on Hew Dalrymple, the Scotsman). Live as north-berwick/nbw_001 under the closed list, pin from the reader's own move (report 1000032).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "European Beech in Baarn",
-   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
-   "reader_note": "bls",
-   "verdict": "hold",
-   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:7ff766ff-d1dd-4ce6-b8dd-c685fb053743",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "European Beech in Baarn",
-   "city": null,
-   "species": "European Beech",
-   "photo": "p_6312cf4c9007b0fcfae9011c/7FF766FF-D1DD-4CE6-B8DD-C685FB053743.jpg",
-   "reader_note": "bls",
-   "reader_girth_cm": 700,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Beech"
-   },
-   "verdict": "hold",
-   "reason": "Photograph viewed 2026-11-17: a desk fan and a tea cup, no tree (wrong_subject). Sent from one of our own accounts, a test.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:0d0eb3f0-bfe3-4863-8bdf-d594e43512b8",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_d08befbb4870fc0971e550d1/0D0EB3F0-BFE3-4863-8BDF-D594E43512B8.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: a huge umbrella-crowned shade tree with fern-covered limbs over a lane in Bolar, Mangaluru, GPS fix from the lane; somewhat special and seen from public ground. Live as mangaluru/mlr_001 under the closed list.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:0d0eb3f0-bfe3-4863-8bdf-d594e43512b8",
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "The Rain Tree of Bolar",
-   "photo": "p_d08befbb4870fc0971e550d1/0D0EB3F0-BFE3-4863-8BDF-D594E43512B8.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the whole rain tree from the lane in Bolar, fern-covered limbs under a wide umbrella crown, daylight, colour. Live as mangaluru/mlr_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
-   "seen": "2026-11-17",
-   "kind": "photo of a tree we map",
-   "tree": "The Old Yew of Cremines (If millenaire)",
-   "city": "Cremines",
-   "species": "European Yew (Taxus baccata)",
-   "photo": "out/sightings/dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Yew (Taxus baccata)"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: the fluted yew trunk filling the frame on its forest slope, daylight; the tree had no photograph, now its lead.",
    "hidde": null,
    "agreed": null
   }
