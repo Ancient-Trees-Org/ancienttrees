@@ -2467,7 +2467,7 @@
     "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
    },
    "verdict": "hold",
-   "reason": "dead (closed list): the reader says this chestnut on Mount Ochi has been dead for many years; text only, no photograph. The living forest around it (Kastanologos, ~60 ha, 200 to 450 years per ochi.gr and Reforest'Action) is a lead in data/leads/karystos.json, waiting for one living trunk with a photo or GPS fix.",
+   "reason": "dead, for want of a photograph only: the reader says this chestnut on Mount Ochi has been dead for years. Under the standing-dead rule (Hidde 2026-11-17) it goes live once a photo shows it standing; the reply asks for one. The living forest is a lead in data/leads/karystos.json.",
    "hidde": null,
    "agreed": null
   },

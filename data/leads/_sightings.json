@@ -5491,7 +5491,7 @@
    "nearest_published_m": null,
    "status": "held",
    "hold": "dead",
-   "why": "App submission 936 (2026-11-16), text only, no photograph, pin placed by hand. The reader writes that this chestnut has been dead for many years. Their long note is about the living forest around it (Kastanologos above Karystos, southern Evia, ~60 ha, 200 to 450 years per ochi.gr and Reforest'Action), which is now a lead in data/leads/karystos.json waiting for one living trunk with a photo or GPS fix. Reply drafted (drafts/reply-reader-936-2026-11-17.md), waiting for Hidde's yes.",
+   "why": "App submission 936 (2026-11-16), text only, no photograph, pin placed by hand. The reader writes that this chestnut has been dead for many years but still sends shivers down their spine. Under the standing-dead rule (Hidde, 2026-11-17) it goes live once a photograph shows it standing and striking; held as `dead` only for want of that photo. The reply asks for one (drafts/reply-reader-936-2026-11-17.md, waiting for Hidde's yes). The living forest around it is a lead in data/leads/karystos.json.",
    "seen": "2026-11-17",
    "judged": "2026-11-17"
   }
