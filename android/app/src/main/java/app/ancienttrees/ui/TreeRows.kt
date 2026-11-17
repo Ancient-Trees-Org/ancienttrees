@@ -121,17 +121,20 @@ fun SheetSectionHead(title: String) {
     )
 }
 
-/** The small eyebrow heading (Style.swift .eyebrow, uppercase, tracked). */
+/**
+ * A list's section header. The iPhone's is Style.swift .eyebrow, uppercase and
+ * tracked; Android's (Material 3 lists, Google's Settings and Contacts) is the
+ * same words in sentence case, small, in the brand colour (Hidde, 2026-11-17).
+ */
 @Composable
 fun Eyebrow(text: String, modifier: Modifier = Modifier) {
     Text(
-        text.uppercase(),
+        text,
         fontFamily = BrandFace,
-        fontWeight = FontWeight.Bold,
-        fontSize = 11.sp,
-        letterSpacing = 0.8.sp,
-        color = Brand.colors.inkSoft,
-        modifier = modifier,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 14.sp,
+        color = Brand.colors.moss,
+        modifier = modifier.semantics { heading() },
     )
 }
 

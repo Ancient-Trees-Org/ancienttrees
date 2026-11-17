@@ -64,6 +64,8 @@ import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
@@ -240,9 +242,9 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
             // ACCOUNT: Sign out, then Delete account, grey, opening the screen that explains.
             if (host.signedIn) {
                 Group(stringResource(R.string.account)) {
-                    PlainRow(stringResource(R.string.sign_out), brand.ink, chevron = false, tag = "settings-signout") { confirmingSignOut = true }
+                    PlainRow(stringResource(R.string.sign_out), brand.ink, tag = "settings-signout") { confirmingSignOut = true }
                     RowDivider(16.dp)
-                    PlainRow(stringResource(R.string.delete_account), brand.inkSoft, chevron = true, tag = "settings-account") { showingDelete = true }
+                    PlainRow(stringResource(R.string.delete_account), brand.inkSoft, tag = "settings-account") { showingDelete = true }
                 }
             }
 
@@ -341,7 +343,6 @@ private fun Identity(host: SettingsHost) {
                 Text(stringResource(R.string.signin_prompt), fontSize = 13.sp, lineHeight = 18.sp, color = brand.inkSoft)
             }
         }
-        Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(SETTINGS_CHEVRON))
     }
 }
 
@@ -364,22 +365,21 @@ private fun Group(title: String, content: @Composable ColumnScope.() -> Unit) {
 @Composable
 private fun RowDivider(inset: Dp) = HorizontalDivider(Modifier.padding(start = inset), thickness = 0.5.dp, color = Brand.colors.hairline)
 
-/**
- * The row glyph takes the row's .body, 17 pt, in a 20 wide frame (Profile.swift),
- * so it draws 20 across like the iPhone's ruler; the chevron is .footnote, 12 tall
- * on the iPhone, where the set's chevron fills less of its box (measured
- * 2026-11-11: 9 tall at 16 dp).
- */
+/** The row glyph takes the row's .body, 17 pt, in a 20 wide frame (Profile.swift), so it draws 20 across. */
 private val SETTINGS_GLYPH = 23.dp
-private val SETTINGS_CHEVRON = 21.dp
 
-/** One settings row, 48 high: the icon 20 wide in moss, the title, a value, the chevron. */
+/**
+ * One settings row, 48 high: the icon 20 wide in moss, the title, a value. No
+ * chevron at the end: Android's lists (Material 3 lists, Google's own Settings)
+ * mark a row that opens something by its ripple alone (Hidde, 2026-11-17). A
+ * row that opens a menu keeps its [trailing] up-and-down glyph.
+ */
 @Composable
 private fun SettingsRow(
     icon: ImageVector,
     title: String,
     value: String? = null,
-    trailing: ImageVector = Sym.ChevronRight,
+    trailing: ImageVector? = null,
     tag: String? = null,
     onClick: () -> Unit,
 ) {
@@ -388,18 +388,11 @@ private fun SettingsRow(
         Icon(icon, null, tint = brand.moss, modifier = Modifier.size(SETTINGS_GLYPH))
         Text(title, fontSize = 16.sp, color = brand.ink, modifier = Modifier.weight(1f))
         value?.let { Text(it, fontSize = 16.sp, color = brand.inkSoft) }
-        val glyph = if (trailing == Sym.ChevronRight) SETTINGS_CHEVRON else 16.dp
-        val tint = if (trailing == Sym.ChevronRight) brand.inkSoft.copy(alpha = 0.6f) else brand.inkSoft
-        if (value != null) {
-            // A row with a value ends in .caption2 on the iPhone (Profile.swift, Location
-            // and Directions): chevron.right 8 wide, chevron.up.chevron.down 10, so the
-            // value stands 36 and 38 from the card's edge (it stood 49 and 44 here).
-            // The glyph keeps its size, centred on that frame.
-            Box(Modifier.width(if (trailing == Sym.ChevronRight) 8.dp else 10.dp), contentAlignment = Alignment.Center) {
-                Icon(trailing, null, tint = tint, modifier = Modifier.requiredSize(glyph))
+        if (trailing != null) {
+            // Centred on a 10 wide frame, so the value stands where it stood with the glyph.
+            Box(Modifier.width(10.dp), contentAlignment = Alignment.Center) {
+                Icon(trailing, null, tint = brand.inkSoft, modifier = Modifier.requiredSize(16.dp))
             }
-        } else {
-            Icon(trailing, null, tint = tint, modifier = Modifier.size(glyph))
         }
     }
 }
@@ -419,11 +412,9 @@ private fun LinkRow(icon: ImageVector, title: String, subtitle: String? = null, 
 }
 
 @Composable
-private fun PlainRow(title: String, color: androidx.compose.ui.graphics.Color, chevron: Boolean, tag: String, onClick: () -> Unit) {
-    val brand = Brand.colors
+private fun PlainRow(title: String, color: androidx.compose.ui.graphics.Color, tag: String, onClick: () -> Unit) {
     RowFrame(onClick, tag) {
         Text(title, fontSize = 16.sp, color = color, modifier = Modifier.weight(1f))
-        if (chevron) Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(SETTINGS_CHEVRON))
     }
 }
 
@@ -450,28 +441,62 @@ fun MenuTick(on: Boolean) {
     }
 }
 
-/** A pushed page's bar: back on the left and the title inline in the middle. */
+/**
+ * A pushed page's bar, Android's small top app bar (m3.material.io/components/
+ * top-app-bar, Hidde 2026-11-17 on his Galaxy: platform controls take Android's
+ * form, as AllTrails and Polarsteps do): the back arrow at the leading edge in a
+ * 48 touch target, the title left-aligned right after it, 64 tall. The iPhone
+ * keeps its centred title and round back button.
+ */
 @Composable
 fun PushedBar(title: String, onBack: () -> Unit, trailing: (@Composable () -> Unit)? = null) {
-    val brand = Brand.colors
-    // iOS 26's inline navigation bar is 54 tall, its back button and title in
-    // the top 44 (SweepFrames: NavigationBar {0, 62} {402, 54} on profile,
-    // species, collection). At 44 every pushed page started 10 higher than on
-    // the iPhone (android_spacing.py, 2026-11-11).
-    Box(Modifier.fillMaxWidth().statusBarsPadding().height(54.dp)) {
-    Box(Modifier.fillMaxWidth().height(44.dp)) {
-        // iOS 26's back button sits in a white circle (visual review 2026-11-11, row 60);
-        // the arrow is Android's (Airbnb's line).
-        BackCircle(onBack, Modifier.align(Alignment.CenterStart).padding(start = 16.dp))
-        Text(
-            // The navigation bar title: Gabarito Bold 17 (UINavigationBarAppearance, AncientTreesApp.swift).
-            title, fontFamily = BrandFace, fontSize = 17.sp, fontWeight = FontWeight.Bold, color = brand.ink, maxLines = 1,
-            overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center,
-            // Clear of the back circle (16 + 44 + 8).
-            modifier = Modifier.align(Alignment.Center).padding(horizontal = 68.dp),
-        )
-        trailing?.let { Box(Modifier.align(Alignment.CenterEnd).padding(end = 8.dp)) { it() } }
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth().statusBarsPadding().height(64.dp).padding(start = 4.dp, end = 4.dp),
+    ) {
+        BarIcon(Sym.ArrowBack, stringResource(R.string.back), onBack)
+        BarTitle(title, Modifier.weight(1f).padding(start = 12.dp, end = 8.dp))
+        trailing?.let { Box(Modifier.padding(end = 4.dp)) { it() } }
     }
+}
+
+/** An app bar's icon button: the glyph 24 in a 48 circle with Android's ripple, named for a screen reader. */
+@Composable
+fun BarIcon(icon: ImageVector, label: String, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = modifier
+            .size(48.dp)
+            .clip(CircleShape)
+            .clickable(role = Role.Button, onClick = onClick)
+            .semantics { contentDescription = label },
+    ) {
+        Icon(icon, null, tint = Brand.colors.ink, modifier = Modifier.size(24.dp))
+    }
+}
+
+/** An app bar's title: Gabarito Bold, left-aligned, one line. */
+@Composable
+private fun BarTitle(title: String, modifier: Modifier) {
+    Text(
+        title, fontFamily = BrandFace, fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Brand.colors.ink,
+        maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = modifier,
+    )
+}
+
+/** An app bar's text action (Save, Send, Done): Android's text button, the word in moss, a ripple in its pill. */
+@Composable
+fun BarTextButton(label: String, onClick: () -> Unit, enabled: Boolean = true, modifier: Modifier = Modifier) {
+    val brand = Brand.colors
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = modifier
+            .heightIn(min = 48.dp)
+            .clip(RoundedCornerShape(50))
+            .clickable(enabled = enabled, role = Role.Button, onClick = onClick)
+            .padding(horizontal = 12.dp),
+    ) {
+        Text(label, fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = brand.moss.copy(alpha = if (enabled) 1f else 0.4f), maxLines = 1)
     }
 }
 
@@ -486,6 +511,8 @@ fun BarSheet(
     trailingEnabled: Boolean = true,
     /** The large detent with the grouped grey ground, as a Form sheet on the iPhone. */
     grouped: Boolean = false,
+    /** Full height on the plain ground: a form of outlined fields, Android's full-screen dialog. */
+    plain: Boolean = false,
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val brand = Brand.colors
@@ -493,7 +520,7 @@ fun BarSheet(
         onDismissRequest = onDismiss,
         // A Form's ground is the system's grouped grey, cool rather than our warm
         // muted (systemGroupedBackground: F2F2F7; a sheet's elevated 1C1C1E in the dark).
-        containerColor = if (grouped) (if (brand.ground.red < 0.5f) androidx.compose.ui.graphics.Color(0xFF1C1C1E) else androidx.compose.ui.graphics.Color(0xFFF2F2F7)) else brand.ground,
+        containerColor = if (grouped && !plain) (if (brand.ground.red < 0.5f) androidx.compose.ui.graphics.Color(0xFF1C1C1E) else androidx.compose.ui.graphics.Color(0xFFF2F2F7)) else brand.ground,
         // A NavigationStack sheet on the iPhone shows no grabber (review 2026-11-11, row 72).
         dragHandle = null,
         floating = !grouped,
@@ -521,38 +548,94 @@ fun BarSheet(
 }
 
 /**
- * THE ONE BAR OF A SHEET WITH A NAVIGATION ROW: Cancel or Close at the leading
- * end, the title centred, Done at the trailing end, both ends in iOS 26's white
- * capsules, 36 tall and 20 from the edge (every bar capsule in SweepFrames).
- * On a full sheet (.large) the row's middle stands 38 under the sheet's top, as
- * contribute, feedback, profile-edit and species-pick all measure on the iPhone
- * (Hidde, 2026-11-12: "ook de titel op de overlay teveel naar boven"), so it is
- * 76 tall; a fitted sheet keeps 56.
+ * THE ONE BAR OF A FORM OR A SHEET WITH A NAVIGATION ROW, in Android's form: a
+ * Material 3 full-screen dialog (m3.material.io/components/dialogs, "Full-screen
+ * dialogs"; Hidde, 2026-11-17): a close X at the leading edge, the title
+ * left-aligned beside it, the confirming action (Save, Send) as a text button at
+ * the trailing end. The X keeps the word it stands for (Cancel, Close, Done) as
+ * what a screen reader says, so the walks find it by the same name. A bar with
+ * no leading action starts its title at the margin. 64 tall on a full sheet,
+ * 56 on a fitted one. The iPhone keeps its capsules and centred title.
  */
 @Composable
 fun SheetNavBar(
     full: Boolean,
     leading: Pair<String, () -> Unit>?,
-    /** Set here, never by a caller: every bar title on the iPhone is Gabarito Bold 17
-     * (UINavigationBarAppearance, AncientTreesApp.swift); contribute's had been set
-     * in Inter SemiBold and read lighter (2026-11-12). */
+    /** Set here, never by a caller: every bar title is Gabarito Bold. */
     title: String,
     trailing: Pair<String, () -> Unit>? = null,
     trailingEnabled: Boolean = true,
     leadingTag: String? = null,
+    trailingTag: String? = null,
 ) {
-    Box(Modifier.fillMaxWidth().height(if (full) 76.dp else 56.dp).testTag("sheet-nav-bar")) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth().height(if (full) 64.dp else 56.dp).padding(horizontal = 4.dp).testTag("sheet-nav-bar"),
+    ) {
         leading?.let { (label, act) ->
-            BarCapsule(label, act, Modifier.align(Alignment.CenterStart).padding(start = 20.dp).let { m -> leadingTag?.let { m.testTag(it) } ?: m }, height = 36.dp)
+            BarIcon(Sym.Close, label, act, Modifier.let { m -> leadingTag?.let { m.testTag(it) } ?: m })
         }
-        Text(
-            title, fontFamily = BrandFace, fontSize = 17.sp, fontWeight = FontWeight.Bold, color = Brand.colors.ink,
-            maxLines = 1, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center,
-            // Clear of the capsules at both ends.
-            modifier = Modifier.align(Alignment.Center).padding(horizontal = 96.dp),
-        )
+        BarTitle(title, Modifier.weight(1f).padding(start = 12.dp, end = 8.dp))
         trailing?.let { (label, act) ->
-            BarCapsule(label, act, Modifier.align(Alignment.CenterEnd).padding(end = 20.dp), enabled = trailingEnabled, bold = true, height = 36.dp)
+            BarTextButton(label, act, enabled = trailingEnabled, modifier = Modifier.padding(end = 4.dp).let { m -> trailingTag?.let { m.testTag(it) } ?: m })
+        }
+    }
+}
+
+/**
+ * A form's text field in Android's form: Material 3's outlined text field
+ * (m3.material.io/components/text-fields), the label inside it that floats to
+ * the outline once there is text or focus, the value left-aligned. The iPhone
+ * keeps its label-left, value-right rows (Hidde, 2026-11-17). Brand colours and
+ * Inter at SF's tracking; the outline is the hairline, moss when focused.
+ * [onClick] makes it a read-only field that opens a choice (an exposed dropdown).
+ */
+@Composable
+fun FormField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    label: String,
+    modifier: Modifier = Modifier,
+    singleLine: Boolean = true,
+    minLines: Int = 1,
+    keyboardOptions: KeyboardOptions = KeyboardOptions.Default,
+    trailingIcon: ImageVector? = null,
+    /** Shown inside an empty field once it has focus and the label has floated up. */
+    placeholder: String? = null,
+    onClick: (() -> Unit)? = null,
+) {
+    val brand = Brand.colors
+    val colors = androidx.compose.material3.OutlinedTextFieldDefaults.colors(
+        focusedTextColor = brand.ink, unfocusedTextColor = brand.ink, disabledTextColor = brand.ink,
+        focusedBorderColor = brand.moss, unfocusedBorderColor = brand.inkSoft.copy(alpha = 0.45f), disabledBorderColor = brand.inkSoft.copy(alpha = 0.45f),
+        focusedLabelColor = brand.moss, unfocusedLabelColor = brand.inkSoft, disabledLabelColor = brand.inkSoft,
+        focusedTrailingIconColor = brand.inkSoft, unfocusedTrailingIconColor = brand.inkSoft, disabledTrailingIconColor = brand.inkSoft,
+        cursorColor = brand.moss,
+        focusedContainerColor = androidx.compose.ui.graphics.Color.Transparent,
+        unfocusedContainerColor = androidx.compose.ui.graphics.Color.Transparent,
+        disabledContainerColor = androidx.compose.ui.graphics.Color.Transparent,
+    )
+    Box(modifier) {
+        androidx.compose.material3.OutlinedTextField(
+            value = value,
+            onValueChange = onValueChange,
+            label = { Text(label) },
+            placeholder = placeholder?.let { { Text(it, color = placeholderGrey()) } },
+            textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
+            singleLine = singleLine,
+            minLines = minLines,
+            keyboardOptions = keyboardOptions,
+            // A choice opens on a tap of the whole field, so the field itself takes no focus.
+            enabled = onClick == null,
+            readOnly = onClick != null,
+            trailingIcon = trailingIcon?.let { { Icon(it, null, modifier = Modifier.size(24.dp)) } },
+            shape = RoundedCornerShape(12.dp),
+            colors = colors,
+            modifier = Modifier.fillMaxWidth(),
+        )
+        if (onClick != null) {
+            // Over the field, below its floating label's notch: the whole outline is the button.
+            Box(Modifier.matchParentSize().padding(top = 8.dp).clip(RoundedCornerShape(12.dp)).clickable(role = Role.Button, onClick = onClick))
         }
     }
 }
