@@ -119,7 +119,8 @@
    "status": "lead",
    "why": "Published as a Nara tree on 2026-09-07 and RETIRED 2026-09-08: no verified source existed for the tree, only the photograph. Full story and coordinate kept in data/leads/nara.json. Do not re-publish without a source that names the tree.",
    "seen": "2026-09-07",
-   "unlinked": true
+   "unlinked": true,
+   "mine": true
   },
   {
    "sighting_id": "64685b04-4d75-4cb1-837c-17923ac69ef0",
@@ -134,7 +135,8 @@
    "status": "lead",
    "why": "Published as a Nara tree on 2026-09-07 and RETIRED 2026-09-08: no verified source existed for the tree, only the photograph. Full story and coordinate kept in data/leads/nara.json. Do not re-publish without a source that names the tree.",
    "seen": "2026-09-07",
-   "unlinked": true
+   "unlinked": true,
+   "mine": true
   },
   {
    "sighting_id": "3ff2072f-e865-48d3-8248-8ff507419b84",
@@ -149,7 +151,8 @@
    "status": "lead",
    "why": "Published as a Nara tree on 2026-09-07 and RETIRED 2026-09-08: no verified source existed for the tree, only the photograph. Full story and coordinate kept in data/leads/nara.json. Do not re-publish without a source that names the tree.",
    "seen": "2026-09-07",
-   "unlinked": true
+   "unlinked": true,
+   "mine": true
   },
   {
    "sighting_id": "b7db17d2-df60-4c9d-9cb5-79de2196dc29",
@@ -164,7 +167,8 @@
    "status": "lead",
    "why": "Published as a Nara tree on 2026-09-07 and RETIRED 2026-09-08: no verified source existed for the tree, only the photograph. Full story and coordinate kept in data/leads/nara.json. Do not re-publish without a source that names the tree.",
    "seen": "2026-09-07",
-   "unlinked": true
+   "unlinked": true,
+   "mine": true
   },
   {
    "sighting_id": "1d61e594-71c7-4620-9de1-6cb28bf643d3",
@@ -211,7 +215,8 @@
    "seen": "2026-09-08",
    "latitude_estimated": 34.689,
    "longitude_estimated": 135.84381,
-   "unlinked": true
+   "unlinked": true,
+   "mine": true
   },
   {
    "sighting_id": "fe5c2523-a0b1-4a4d-b9ad-10f3d5c8a1cc",
