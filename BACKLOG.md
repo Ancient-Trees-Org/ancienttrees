@@ -6,6 +6,21 @@ A run may pick up an item on its own once the trigger has fired, unless the item
 
 ---
 
+## Following people: make it what makes the app personal (Hidde, 2026-11-17, "dit moeten we inderdaad gaan uitwerken. Eerst Android")
+
+Where it stands (Supabase, 2026-11-17, our own accounts subtracted): 708 strangers' accounts, 4 of them follow anybody, 10 follows between strangers, all on 2026-11-15, 7 of those by one person; 8 of the 10 go to ambassadors (the Suggested list under Find people), 3 to people with a published photograph, 1 mutual pair. Hidde: small now and not phase-1 work, but "op termijn moet dit wel belangrijker worden, dat maakt de app veel persoonlijker".
+
+What makes following grow at Strava, komoot and AllTrails, the three pieces to work out (convention check first, CONVENTIONS.md):
+1. **Something to see from the people you follow**: "<name> photographed the oak in Utrecht" in Discover or as a notification. Today following somebody gives you almost nothing back.
+2. **A follow where you meet a person**: under a reader's photograph or note on a tree, at a city's ambassador, not only in Find people.
+3. **People who add things**: without readers' photographs and trees there is nothing to follow. Phase-1 reader work feeds this already.
+
+First small step when it opens: a PostHog event for a follow with where it came from (Suggested, a profile, a name under a photograph), web and app, so the design starts from evidence.
+
+**Trigger: the Android app has reached parity with iOS and Hidde says go.** A run may not start it: it is new product, design with Hidde.
+
+---
+
 ## Build 41 and today's QA branch to main (Hidde, 2026-11-08, "zet maar ff op de backlog voor later")
 
 Everything from the 2026-11-08 session sits on branch `claude/gifted-cerf-cbp95i`, not on main: Discover's ambassador seat as a Button (AmbassadorAskWalk green), the pin blink fix, FlowWalk raising the sheet before it taps a card (green, red since 11-06), the real test account and the save round trips (web green; app's SignedInRoundTrip on its last fix, run on `b6d327f`), ButtonWalk, `release.py`'s red brake, `scripts/escaped.py`, the CI package cache, the `only` quick-run input. LOG.md 2026-11-08 has the detail.
