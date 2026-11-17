@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (seventh pass): one test frame rejected
+
+- **seville/sev_009** (sighting 84c4d953): rejected. The frame is all black, taken in the Netherlands by one of our own accounts, so it was a test. The sixth pass had already handled Cheapside, so this run kept main's version of that work.
+- No reports or feedback were open, and reader_words found nothing. **Still open**: the 16 photo-less tips. Several name well-sourced trees (Castagno Miraglia, the Mouchão olive, the Lusnizza oak in the MASAF register, the Cat Island cypress, Tsitsikamma, Arderne Gardens, the Heidelberg Arboretum 1 sequoia). Writing them takes a story pass, which does not fit a reader-judge window.
+
 ## 2026-11-17 reader judge (sixth pass): the Cheapside Plane's pin is on its corner now, and a reader's photograph leads its page
 
 - **The Cheapside Plane (lon_003)**: a reader sent a photograph through the app showing the tree in full leaf behind the churchyard railings, in daylight. It was added and now leads the page. The same reader reported "wrong location" (1000072, "Corner of wood street and cheapside"), and they were right. Our "confirmed" pin stood 190 m up Wood Street. It now sits on their GPS fix at the corner the story names, and `pin_source` records the move. `tree_reports.py --thank` refused because their line counts as their own words, so the report is closed `holds` and a suggested reply is in drafts/reply-reader-1000072-2026-11-17.md for Hidde.

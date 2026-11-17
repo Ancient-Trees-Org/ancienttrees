@@ -4357,7 +4357,8 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "cai_001",
-   "city_slug": "cairo"
+   "city_slug": "cairo",
+   "pin_checked": "2026-11-17"
   },
   "0b4c9e0a-916e-4f6c-a11c-d6850563f822": {
    "outcome": "added",
@@ -4369,6 +4370,12 @@
    "lat": 51.5140442876628,
    "lon": -0.0948811322451522,
    "pin_checked": "2026-11-17"
+  },
+  "84c4d953-69b3-4eda-a5ed-32894e25217a": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "sev_009",
+   "reason": "Photograph viewed: an all-black frame, no tree visible, taken in the Netherlands nearly 1,900 km from Seville by one of our own accounts (a test). Bad frame."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
