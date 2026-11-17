@@ -670,15 +670,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         editName = { routes.editProfile = true },
         openPerson = { routes.openPerson(it) },
         openTree = { openTree(it) },
-        // The app has no screen for a reader's shared tree yet (the Shared link
-        // above), so its page opens in the browser, as that link does.
-        openShared = { url ->
-            runCatching {
-                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
-                    addCategory(Intent.CATEGORY_BROWSABLE)
-                    selector = Intent(Intent.ACTION_VIEW, Uri.parse("https://"))
-                })
-            }
+        // A reader's tree on a profile opens IN THE APP, never the website (Hidde,
+        // 2026-11-17: "je moet nooit naar de website sturen"): yours as your tree,
+        // anybody else's read only, as a shared link does (SharedTreeView.swift).
+        openShared = { id ->
+            nav.push(if (myTrees.byId(id) != null) app.ancienttrees.ui.Page.Mine(id) else app.ancienttrees.ui.Page.Shared(id))
         },
                 )
 

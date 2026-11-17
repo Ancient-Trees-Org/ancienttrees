@@ -673,7 +673,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         val tiles: List<@Composable (Modifier) -> Unit> =
                             trees.map { t -> @Composable { m: Modifier -> GridTile(t, t.id in approved, m) { host.openTree(t) } } } +
-                                own.map { o -> @Composable { m: Modifier -> OwnTile(o, m) { host.openShared(o.url) } } }
+                                own.map { o -> @Composable { m: Modifier -> OwnTile(o, m) { host.openShared(o.id.lowercase()) } } }
                         for (row in tiles.chunked(3)) {
                             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                 for (tile in row) tile(Modifier.weight(1f))
