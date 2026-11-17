@@ -1571,7 +1571,17 @@
   },
   "p_24edc9a8bd5f07a00e0b3133": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "0b414558-8782-4832-839f-d51b2893b13a",
+     "tree_id": "tua_001",
+     "tree_name": "The Big Totara of Lillburn Monowai Road",
+     "city": "Tuatapere",
+     "city_slug": "tuatapere",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
@@ -1721,6 +1731,21 @@
      "tree_name": "Millennium Tree of Balete Park",
      "city": "Maria Aurora",
      "city_slug": "maria-aurora",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_98341868b2bd7fa318d5e77a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ea481510-d49d-44c4-8cf9-c27c49f968e8",
+     "tree_id": "stw_001",
+     "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
+     "city": "Stow-on-the-Wold",
+     "city_slug": "stow-on-the-wold",
      "display_name": null,
      "live": "2026-11-17"
     }

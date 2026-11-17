@@ -1751,7 +1751,8 @@
   "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "tro_007"
+   "tree_id": "tro_007",
+   "pin_checked": "2026-11-17"
   },
   "1087f3e1-a05d-4055-a4b1-f87b31408478": {
    "outcome": "published",
@@ -2282,12 +2283,14 @@
   "d291140e-1665-4036-a4cb-e826d8ff6328": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "slk_001"
+   "tree_id": "slk_001",
+   "pin_checked": "2026-11-17"
   },
   "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "bwz_001"
+   "tree_id": "bwz_001",
+   "pin_checked": "2026-11-17"
   },
   "20d04dfd-e398-4533-a42d-b1385d2a6f50": {
    "outcome": "held",
@@ -2633,7 +2636,8 @@
   "6bb3d492-ea79-4b08-8f63-a66610632b47": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "djy_001"
+   "tree_id": "djy_001",
+   "pin_checked": "2026-11-17"
   },
   "de83aef2-d85e-4d38-b4ef-73e6365d2557": {
    "outcome": "added",
@@ -2742,7 +2746,8 @@
   "92fac7a0-332e-4b6b-8d54-463b3e592c17": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "ctm_001"
+   "tree_id": "ctm_001",
+   "pin_checked": "2026-11-17"
   },
   "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f": {
    "outcome": "added",
@@ -3054,7 +3059,8 @@
   "68515bbd-0bdc-475a-bb16-5e8e324db9c9": {
    "outcome": "published",
    "date": "2026-11-17",
-   "tree_id": "jls_001"
+   "tree_id": "jls_001",
+   "pin_checked": "2026-11-17"
   },
   "bfc89932-0e03-486f-9857-72e11af25298": {
    "outcome": "lead",
@@ -4136,6 +4142,28 @@
    "date": "2026-11-17",
    "tree_id": "rsf_001",
    "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
+  },
+  "ea481510-d49d-44c4-8cf9-c27c49f968e8": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "stw_001",
+   "city_slug": "stow-on-the-wold",
+   "file": "stw_001-the-north-door-yews-of-st-edward-s-stow-on-the-wold-ea481510.jpg",
+   "reason": "Both yews framing the arched north door of St Edward's, flared red root plates over the gravel, the lantern and stained-glass porch; wet overcast daylight, colour, the whole scene in frame. Exactly what the recognition line describes. Species seen: yew: dark flat needles in sprays, red-brown flaking",
+   "lat": 51.9301866666667,
+   "lon": -1.72385833333333,
+   "pin_checked": "2026-11-17"
+  },
+  "0b414558-8782-4832-839f-d51b2893b13a": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "tua_001",
+   "city_slug": "tuatapere",
+   "file": "tua_001-the-big-totara-of-lillburn-monowai-road-0b414558.jpg",
+   "reason": "The tree's own sign in front of its trunk: Halls Totara, Podocarpus hallii, girth at chest height 8.31 m, approximate age 1000 years. Belongs on the page behind the lead, never leading it. Species seen: the sign names Halls Totara; behind it a massive trunk with peeling grey and red-brown stringy ba",
+   "lat": -45.866945,
+   "lon": 167.634413333333,
    "pin_checked": "2026-11-17"
   }
  },

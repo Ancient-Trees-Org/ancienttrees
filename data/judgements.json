@@ -18,78 +18,6 @@
    "agreed": null
   },
   {
-   "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
-   "seen": "2026-11-16",
-   "kind": "a tree we do not map",
-   "tree": "Pedunculate Oak",
-   "photo": "p_a319dde81175eb8e4af7318f/68515BBD-0BDC-475A-BB16-5E8E324DB9C9.jpg",
-   "reader_note": "300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Live as jelasnica/jls_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "Dawn Redwood in Toronto",
-   "photo": "p_a30725b92f30d3f70303155e/FE8FC7E4-9E16-48B5-96C0-E8C2AF7A020B.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Live as toronto/tro_007 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:6bb3d492-ea79-4b08-8f63-a66610632b47",
-   "seen": "2026-11-16",
-   "kind": "a tree we do not map",
-   "tree": "Ginkgo",
-   "photo": "p_697eb4a0c77311e0508c5fb0/6BB3D492-EA79-4B08-8F63-A66610632B47.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Live as dujiangyan/djy_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:92fac7a0-332e-4b6b-8d54-463b3e592c17",
-   "seen": "2026-11-16",
-   "kind": "a tree we do not map",
-   "tree": "Populus nigra subsp. Betulifolia near Linton, Herefordshire",
-   "photo": "p_48178e92fdea8f66a594fb70/92FAC7A0-332E-4B6B-8D54-463B3E592C17.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Live as castlemorton/ctm_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:d291140e-1665-4036-a4cb-e826d8ff6328",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "A tree near Sēja",
-   "photo": "p_fa491d448dbf3f24e47cfa8b/D291140E-1665-4036-A4CB-E826D8FF6328.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Live as saulkrasti/slk_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "A tree near Przybudki",
-   "photo": "p_fa491d448dbf3f24e47cfa8b/A9F9EB8D-F3C2-4146-94A2-AFE4FE32917C.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Live as bialowieza/bwz_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
    "id": "sight:b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -2249,6 +2177,86 @@
    "reason": "Photographs viewed 2026-11-17: a black mulberry cut back to a hollow stump with fresh regrowth on the lawn of Ladywell House, Lewisham (the former vicarage rebuilt in 1692); the second picture shows it in full leaf before the 2022 damage. Alive and with a story, but in the private garden of a house a developer bought in 2022. Held: not_public (closed list, Hidde 2026-11-17) unless the reader says it is seen from the street.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:ea481510-d49d-44c4-8cf9-c27c49f968e8",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The north door yews of St Edward's, Stow-on-the-Wold",
+   "city": "Stow-on-the-Wold",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/ea481510-d49d-44c4-8cf9-c27c49f968e8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 101,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-17: both yews framing the arched north door of St Edward's, red root plates and the lantern porch, wet daylight. Added to stw_001 beside the existing photograph; pin moved 101 m to the reader's GPS fix, now confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0b414558-8782-4832-839f-d51b2893b13a",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Totara of Lillburn Monowai Road",
+   "city": "Tuatapere",
+   "species": "Totara (Podocarpus sp.)",
+   "photo": "out/sightings/0b414558-8782-4832-839f-d51b2893b13a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 78,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Totara (Podocarpus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the tree's own sign (Halls Totara, Podocarpus hallii, girth 8.31 m, about 1000 years) in front of the trunk. In tua_001's gallery behind the lead; species, girth_cm and age on the page now rest on the sign.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "photo": "p_a319dde81175eb8e4af7318f/68515BBD-0BDC-475A-BB16-5E8E324DB9C9.jpg",
+   "reader_note": "300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Live as jelasnica/jls_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:6bb3d492-ea79-4b08-8f63-a66610632b47",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "photo": "p_697eb4a0c77311e0508c5fb0/6BB3D492-EA79-4B08-8F63-A66610632B47.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Live as dujiangyan/djy_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:92fac7a0-332e-4b6b-8d54-463b3e592c17",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Populus nigra subsp. Betulifolia near Linton, Herefordshire",
+   "photo": "p_48178e92fdea8f66a594fb70/92FAC7A0-332E-4B6B-8D54-463B3E592C17.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Live as castlemorton/ctm_001 under the closed list (Hidde, 2026-11-17)."
   },
   {
    "id": "sight:b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
@@ -4438,6 +4446,42 @@
    "shown": [
     "2026-11-17"
    ]
+  },
+  {
+   "id": "sight:fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Dawn Redwood in Toronto",
+   "photo": "p_a30725b92f30d3f70303155e/FE8FC7E4-9E16-48B5-96C0-E8C2AF7A020B.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Live as toronto/tro_007 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:d291140e-1665-4036-a4cb-e826d8ff6328",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Sēja",
+   "photo": "p_fa491d448dbf3f24e47cfa8b/D291140E-1665-4036-A4CB-E826D8FF6328.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Live as saulkrasti/slk_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Przybudki",
+   "photo": "p_fa491d448dbf3f24e47cfa8b/A9F9EB8D-F3C2-4146-94A2-AFE4FE32917C.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Live as bialowieza/bwz_001 under the closed list (Hidde, 2026-11-17)."
   },
   {
    "id": "lead:45ea816d-259f-4437-ac86-d3499f0269a4",

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: two readers' photographs on trees we map
+
+- **Changed in the product**: a reader's wet-day photograph of both north door yews of St Edward's framing the arched door now leads `stow-on-the-wold/stw_001` (verdict `add`; the Geograph photograph moves into the strip), and its pin moved 101 m to the reader's GPS fix, now confirmed. The Tuatapere totara's own reader sent the trail sign beside the trunk ("Halls Totara, Podocarpus Hallii, Girth at chest height 8.31 m, Approximate age - 1000 years"); it sits in `tuatapere/tua_001`'s gallery behind the lead (verdict `strip`). The tree is now Hall's Tōtara (Podocarpus laetus, the sign's hallii), `girth_cm` 831 and its age rest on the sign, and the story, recognition line, intro and question context say so.
+- **Not judged, on purpose**: the 37 leads with `status: "lead"` and no `hold` are all from our own account (code in data/our-accounts.json): 32 already flagged `mine` and 5 Nara photographs from 2026-09-07/08 without the flag (retired then for having no source). Our own photographs are never auto-published, so they are not readers' trees under the closed list. The intake still fetches the 5 Nara files each time because they lack `mine`.
+- preflight 0 problems, i18ncheck clean. Reader mails went through `sightings_publish.py --send`.
+
 ## 2026-11-17 session: Plus answers on the digest page, two items on the backlog
 
 - **Digest page**: every typed Plus answer now stands word for word under the Plus table (show_digest.py `plus_words()`, local page only).
