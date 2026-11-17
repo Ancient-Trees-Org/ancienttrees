@@ -26,7 +26,7 @@ Subject: The Android app is almost here. Want to try it first?
 
 Hi,
 
-The Android app is almost ready and we want to test it with a small group first. Want to join?
+Want to be one of the first to try the Android app? It is almost ready and we want to test it with a small group first.
 
 [OPT-IN LINK]
 
