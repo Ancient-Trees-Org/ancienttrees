@@ -119,7 +119,7 @@ def path(row):
 #   python3 scripts/tree_reports.py --open        open reports from readers, words included
 #   python3 scripts/tree_reports.py --count       how many are open (the workflow's gate)
 #   python3 scripts/tree_reports.py --auto        close the bookkeeping rows nobody has to read
-#   python3 scripts/tree_reports.py --close <id> changed|holds|open_question ["reply text"]
+#   python3 scripts/tree_reports.py --close <id> holds|open_question   (no reply: a run writes none)
 #   python3 scripts/tree_reports.py --thank pin|dead <id> <tree id> ["name"]   standard mail, closed changed
 #   python3 scripts/tree_reports.py --thank pin 0 <tree id> --dry              print it only
 #
@@ -229,6 +229,26 @@ def tree_name_and_link(tree_id):
     return name, link
 
 
+_MACHINE = (
+    _re.compile(r"^Moved the pin on the map, \d+ m from the published position\. "
+                r"Our pin was marked (confirmed|approximate)\.$"),
+    _re.compile(r"^Collected with a photograph .*$", _re.S),
+    _re.compile(r"^could not tell which tree: .*$", _re.S),
+    _re.compile(r"^[A-Z]{2}\s?\d{3,5}\s?\d{3,5}$"),                 # an OS grid reference
+    _re.compile(r"^-?\d{1,3}\.\d+\s*,\s*-?\d{1,3}\.\d+$"),           # a coordinate
+)
+
+
+def own_words(row):
+    """The reader's own written words on a report, or "" when it holds only
+    the chip, our app's generated line, a coordinate or a grid reference.
+    Their own words are general feedback, Hidde's to read (2026-11-17)."""
+    d = (row.get("detail") or "").strip()
+    if not d or d.lower() == (row.get("reason") or "").strip().lower():
+        return ""
+    return "" if any(p.match(d) for p in _MACHINE) else d
+
+
 def thank(kind, tree_id, name=None):
     found, link = tree_name_and_link(tree_id)
     name = name or found
@@ -256,19 +276,27 @@ def _main(argv):
         if kind not in THANKS:
             raise SystemExit("--thank pin|dead")
         name = argv[i + 4] if len(argv) > i + 4 else None
+        got = _req("/rest/v1/tree_reports?select=reason,detail&id=eq.%s" % int(rid), key) or []
+        if got and own_words(got[0]):
+            raise SystemExit("report %s carries the reader's own words: general feedback, "
+                             "Hidde's to read. Draft to drafts/reply-reader-%s-<date>.md and "
+                             "--close %s holds (BRIEF_READER_JUDGE.md 'Who answers')" % (rid, rid, rid))
         close(key, rid, "changed", thank(kind, tid, name))
         print("tree_reports: %s closed as changed with the standard %s mail" % (rid, kind))
         return 0
     if "--close" in argv:
         i = argv.index("--close")
         rid, outcome = argv[i + 1], argv[i + 2]
-        reply = argv[i + 3] if len(argv) > i + 3 else None
-        if outcome == "changed" and not reply:
-            # contributor_reply.py holds a changed report with no words; say
-            # so here rather than leave a row that never mails.
-            raise SystemExit("a changed report needs its reply text (CLAUDE.md 'Reader input')")
-        close(key, rid, outcome, reply)
-        print("tree_reports: %s closed as %s%s" % (rid, outcome, ", reply written" if reply else ""))
+        if len(argv) > i + 3:
+            # A run writes no answer of its own on a report (Hidde,
+            # 2026-11-17): the standard mails go through --thank, anything
+            # else is a draft for him.
+            raise SystemExit("--close takes no reply text; use --thank pin|dead, or a draft "
+                             "for Hidde (BRIEF_READER_JUDGE.md 'Who answers')")
+        if outcome == "changed":
+            raise SystemExit("a changed report closes through --thank pin|dead")
+        close(key, rid, outcome)
+        print("tree_reports: %s closed as %s" % (rid, outcome))
         return 0
     rs = open_rows(key)
     if rs is None:
