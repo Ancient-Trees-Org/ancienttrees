@@ -485,6 +485,19 @@ export function creditName(attribution?: string | null): string | null {
   return raw;
 }
 
+/** The id the server knows a reader's photograph by, for naming its sender
+ *  (supabase/reader-names.sql photo_authors): a sightings uuid from the app,
+ *  "tip-<n>" from the website's form. Null for every other photograph, so
+ *  ours, a gift and a licensed one never ask (Hidde, 2026-11-17). */
+export function readerPhotoId(p: unknown): string | null {
+  const q = (p ?? {}) as { source?: string | null; sighting_id?: unknown };
+  if (q.source !== "contributor") return null;
+  const raw = String(q.sighting_id ?? "").toLowerCase().trim();
+  const uuid = raw.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/);
+  if (uuid) return uuid[0];
+  return /^tip-\d+$/.test(raw) ? raw : null;
+}
+
 export interface Photo {
   url?: string | null;
   license?: string | null;

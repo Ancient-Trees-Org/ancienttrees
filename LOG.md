@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: a note's name no longer opens sign-in; readers' names on their photographs (web)
+
+- **Fixed (found by Hidde, the Arbour Oak of Wollaton Park)**: a tap anywhere in a tree page's notes, a writer's name included, opened the sign-in sheet, signed in or not. The notes section carried its "Sign in first" text as `data-signin`, which signin-js reads as "this opens sign-in". Renamed to `data-signin-first`; qa `check_data_signin_only_on_controls()` keeps that attribute on links and buttons (ESC-2026-11-17, closed by that check).
+- **Changed in the product (Hidde: "bij foto's wel namen gaan noemen ... Als die een account hebben, dan worden die accounts ook klikbaar")**: a note's writer with a public profile is now a link to their profile (signed out: sign in first, then it lands on the profile, the New from visitors way). A reader's photograph on a tree page names its sender under the photo ("Photo: <name>", linked) when their profile is public; private stays nameless. Terms and privacy rewritten to say so. Feed photos carry `by` (the photo's server id) for the app.
+- **Waits for the SQL**: supabase/reader-names.sql (tree_notes_for gains author_id; new photo_authors()). Until it is pasted, names under notes are buttons that ask but find no profile, and photographs show no name. The management token in the env file is invalid, so a session could not run it.
+- **App**: the same in TreeDetail.swift follows in a worktree.
+
 ## 2026-11-17 reader judge: a reader's Boab Prison Tree photograph leads
 
 - **Changed in the product**: a reader's photograph of `derby/der_001` Boab Prison Tree, the whole bottle trunk with its hollow entrance inside the post-and-rail ring, daylight, GPS at our pin, now leads that page (verdict `add`; the old lead moved into the gallery). Reader mail queued through `sightings_publish.py --send`.

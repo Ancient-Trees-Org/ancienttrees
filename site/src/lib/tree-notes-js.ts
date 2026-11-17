@@ -109,6 +109,12 @@ export const TREE_NOTES_JS = `
     var w = el('span', 'td-note-who');
     w.appendChild(face(r, mine));
     w.appendChild(el('b', null, mine ? T('yours') : (r.author_name || T('visitor'))));
+    // A public profile's name opens that profile (Hidde, 2026-11-17;
+    // reader-names-js.ts): a link signed in, a sign-in first signed out.
+    // "A visitor" and your own note stay plain.
+    if (!mine && r.author_name && window.atNameLink) {
+      w = window.atNameLink(w, r.author_id || null, 'n:' + r.created_at, 'td-note-who-link');
+    }
     meta.appendChild(w);
     meta.appendChild(el('span', null, dayOf(r.created_at)));
     li.appendChild(meta);
@@ -187,7 +193,7 @@ export const TREE_NOTES_JS = `
     };
     var out = function() {
       if (window.atOpenSignIn) { try { window.atOpenSignIn(); return; } catch (e) {} }
-      if (window.atSnack) window.atSnack(T('signin'));
+      if (window.atSnack) window.atSnack(T('signin-first'));
     };
     // The server decides who is signed in (hard rule 11): one door for
     // every gated tap, never the browser's stored session on its own.
@@ -198,7 +204,7 @@ export const TREE_NOTES_JS = `
     var text = (field.value || '').trim();
     if (!text) { field.focus(); return; }
     var s = session();
-    if (!s) { say(T('signin')); return; }
+    if (!s) { say(T('signin-first')); return; }
     sendBtn.disabled = true; say(T('saving'));
     var nowIso = new Date().toISOString();
     var h = headers(s, true);

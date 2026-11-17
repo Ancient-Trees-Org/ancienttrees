@@ -4129,6 +4129,31 @@ def check_the_session_is_known_before_anything_asks():
     return out
 
 
+def check_data_signin_only_on_controls():
+    """`data-signin` means "a tap here opens the sign-in sheet" (signin-js.ts
+    reads `closest('[data-signin]')` on every click), so it belongs on a link
+    or a button and nowhere else.
+
+    Found 2026-11-17 (Hidde, the Arbour Oak of Wollaton Park): the notes
+    section carried its "Sign in first" sentence as data-signin, a text for
+    its own script, and every tap anywhere in the notes opened the sign-in
+    sheet, a tap on a writer's name included and signed in or not. Text for a
+    script goes under another name (the notes now use data-signin-first).
+    """
+    site = ROOT / "site" / "src"
+    bad = []
+    tag = re.compile(r"<([a-zA-Z][\w.-]*)\b[^<>]*?\sdata-signin(?=[\s=/>])", re.S)
+    for f in list(site.rglob("*.astro")) + list(site.rglob("*.ts")):
+        text = f.read_text(encoding="utf-8")
+        for m in tag.finditer(text):
+            if m.group(1).lower() not in ("a", "button"):
+                line = text.count("\n", 0, m.start()) + 1
+                bad.append(f"{f.relative_to(ROOT)}:{line} <{m.group(1)}>")
+    for b in bad:
+        print(f"FAIL data-signin on a non-control (every tap inside opens sign-in): {b}")
+    return len(bad)
+
+
 def check_css_braces_balance():
     """A block left open swallows every rule after it (2026-09-24).
 
@@ -4404,6 +4429,7 @@ def main():
     failures += check_every_tree_you_gave_us_comes_back()
     failures += check_hidden_means_hidden()
     failures += check_css_braces_balance()
+    failures += check_data_signin_only_on_controls()
     failures += check_sheet_integrity()
     failures += check_inline_scripts_parse()
     failures += check_one_tree_card()
