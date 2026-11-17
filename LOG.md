@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 06:37 night run: queue tidy, two Miami trees (rungs 1, 2, 5)
+
+- **Changed in the product:** two new Miami trees (the Pinecrest Gardens banyan, Vizcaya's pigeon-plum champion). The Miami intro no longer says "Only Vizcaya charges admission", which was false.
+- **Readers:** the 8 photographs in the queue were already live as the lead photos of the trees they created, so they were marked processed and the queue emptied. The Takayama ginkgo (tky_001) had a photograph but no written verdict, which made preflight fail; the verdict is written (looked at the pixels: trunk, crown, the temple's sign, daylight).
+- **Not done:** about 40 stranger photographs with a GPS fix are still leads that preflight says to look at and publish; their files are not on this runner (no service key), so I did not judge them blind. Needs a session with the key.
+- **Writer pile:** `passcheck.py --pending` listed 15 candidates; the write pass merged 2. The rest are held with reasons (no coordinate, private yard, declining tree, schoolyard, duplicate of sfo_004: its pin and girth belong in an enrichment pass). The "390 awaiting a writer" line in prepare.py is mostly stale research files for trees already live.
+- **Health:** iOS app failure 6h ago, a new run (after the MainActor fix) was still building. Web error "Failed to initialize WebGL" is a headless browser, not a page fault. 6 of 12 knocks delivered.
+- **For Hidde:** Miami is now 47% behind paid entry; it needs free trees.
+
 ## 2026-11-17 session: three readers' tree notes worked into the stories
 
 - **Product**: Deusto bald cypress (bil_002): a reader measured the trunk at no more than 2 m across, perhaps 2.3 at the base. The story now says so beside the website's 3 m. `girth_cm` 942 is gone: we had worked it out from that one website's diameter, and a girth may only come from a register or a plaque. Gülhane hackberry (ist_013): the register's own figures disagree (145 cm across but 411 round, which is about 131 across). The story says so and adds the reader's doubt; the girth stays the register's. Molinazzo oak (pgr_001): the reader's monitoring details (stability scans, dead-wood pruning, root zone) and Molinazzo's history as a hamlet with a lost oratory, stated as theirs.
