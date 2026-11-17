@@ -604,7 +604,12 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
     // The keyboard up with the sheet, as the iPhone's `.onAppear { focused = true }`;
     // requestFocus alone left it down inside a sheet (the note sheet, 2026-11-17).
     val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus(); keyboard?.show() } }
+    LaunchedEffect(Unit) {
+        // A beat for the sheet to attach: on the first frame the keyboard was asked
+        // for and did not come (the age field, test-account walk 2026-11-17).
+        kotlinx.coroutines.delay(150)
+        runCatching { focus.requestFocus(); keyboard?.show() }
+    }
     val prompt = stringResource(
         when (field) {
             EditableField.NAME -> R.string.ot_prompt_name

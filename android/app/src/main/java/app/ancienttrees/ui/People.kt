@@ -503,6 +503,7 @@ private fun PersonRow(
     onMore: () -> Unit,
 ) {
     val brand = Brand.colors
+    val keyboardNow = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     val hidden = host.moderation.hides(p.userId)
     val scope = rememberCoroutineScope()
     Row(
@@ -517,7 +518,9 @@ private fun PersonRow(
         Box(Modifier.weight(1f)) { Row(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.clickable(role = Role.Button) { host.openPerson(p.userId) }.testTag("person-open"),
+            // The keyboard goes as a profile opens (it stayed up over the profile and
+            // the first back only closed it; the test-account walk, 2026-11-17).
+            modifier = Modifier.clickable(role = Role.Button) { keyboardNow?.hide(); host.openPerson(p.userId) }.testTag("person-open"),
         ) {
             Box {
                 Avatar(p.avatarUrl, p.displayName, 40, initialSize = 16)

@@ -152,6 +152,8 @@ class TreePageActions(
     val myTrees: app.ancienttrees.account.MyTrees? = null,
     /** "Share your photo", once it is on the page; the message is passed in. */
     val onShareOwn: ((String) -> Unit)? = null,
+    /** Delete one of your photographs of this tree (the viewer's trash); the tick stays. */
+    val onDeleteOwn: ((String) -> Unit)? = null,
 )
 
 /** Your photograph as a Photo for the full-screen viewer: the public shared copy. */
@@ -441,7 +443,14 @@ private fun TreeDetailInner(
     }
 
     if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt) { viewerAt = -1 }
-    if (ownViewerAt >= 0) PhotoViewer(actions.ownShots.mapNotNull(::ownAsPhoto), ownViewerAt) { ownViewerAt = -1 }
+    if (ownViewerAt >= 0) {
+        val shots = actions.ownShots.filter { it.photo != null }
+        PhotoViewer(
+            shots.mapNotNull(::ownAsPhoto),
+            ownViewerAt,
+            onDelete = actions.onDeleteOwn?.let { del -> { i: Int -> shots.getOrNull(i)?.let { del(it.id) } } },
+        ) { ownViewerAt = -1 }
+    }
     reportOpening?.let { opening ->
         ContributeSheet(
             account, signedIn,
@@ -1372,6 +1381,7 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
             val focus = remember { androidx.compose.ui.focus.FocusRequester() }
             val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
             LaunchedEffect(Unit) {
+                kotlinx.coroutines.delay(150)
                 runCatching { focus.requestFocus(); keyboard?.show() }
             }
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {

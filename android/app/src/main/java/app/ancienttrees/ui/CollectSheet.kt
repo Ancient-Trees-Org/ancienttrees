@@ -941,7 +941,7 @@ private fun OwnRow(s: OwnSighting, here: Here, mine: MyTrees, modifier: Modifier
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
             Text(OwnSighting.oneLine(s.name), fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink)
             val metres = (Geo.km(here.lat, here.lng, s.lat, s.lng) * 1000).toInt()
-            Text(stringResource(R.string.cf_your_tree_at, CollectRules.distance(metres)), fontSize = 13.sp, color = brand.inkSoft)
+            Text(stringResource(R.string.cf_your_tree_at, CollectRules.distance(metres, Units.now)), fontSize = 13.sp, color = brand.inkSoft)
         }
         Spacer(Modifier.width(32.dp))
     }
@@ -954,7 +954,7 @@ private fun candidateLabel(t: Tree, here: Here, located: Boolean, compass: Array
     val metres = (Geo.km(here.lat, here.lng, t.lat, t.lng) * 1000).toInt()
     val d = CollectRules.compass(here.lat, here.lng, t.lat, t.lng)
     val dir = if (d >= 0) " " + compass[d] else ""
-    return "${t.commonName} · ${CollectRules.distance(metres)}$dir"
+    return "${t.commonName} · ${CollectRules.distance(metres, Units.now)}$dir"
 }
 
 @Composable
@@ -1017,7 +1017,7 @@ private fun ColumnScope.CompareStep(t: Tree, here: Here, located: Boolean, onThi
     }
     if (CollectRules.isFar(here.lat, here.lng, t)) {
         val metres = (Geo.km(here.lat, here.lng, t.lat, t.lng) * 1000).toInt()
-        SheetFootnoteText(stringResource(R.string.cf_pin_far, CollectRules.distance(metres)))
+        SheetFootnoteText(stringResource(R.string.cf_pin_far, CollectRules.distance(metres, Units.now)))
     }
     SheetButtonView(SheetButton(stringResource(R.string.cf_this_one), SheetKind.PRIMARY, null, action = onThis), Modifier.padding(top = 22.dp).testTag("collect-this-is-the-one"))
     SheetButtonView(SheetButton(stringResource(R.string.cf_back_to_list), SheetKind.QUIET, null, action = onBack), Modifier.padding(top = 12.dp))

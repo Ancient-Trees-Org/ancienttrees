@@ -592,7 +592,12 @@ private fun FieldEditor(prompt: String, hint: String?, decimal: Boolean, initial
     var text by remember { mutableStateOf(initial) }
     val focus = remember { FocusRequester() }
     val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus(); keyboard?.show() } }
+    LaunchedEffect(Unit) {
+        // A beat for the sheet to attach: on the first frame the keyboard was asked
+        // for and did not come (the age field, test-account walk 2026-11-17).
+        kotlinx.coroutines.delay(150)
+        runCatching { focus.requestFocus(); keyboard?.show() }
+    }
     AppSheet(onDismissRequest = onCancel, containerColor = brand.ground) {
         Column(Modifier.fillMaxWidth().padding(bottom = 16.dp).imePadding()) {
             SheetNavBar(

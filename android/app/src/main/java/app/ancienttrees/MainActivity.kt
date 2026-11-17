@@ -802,6 +802,10 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                 ownShots = myTrees.all.filter { it.treeId == tree.id && it.photo != null },
                 myTrees = myTrees,
                 onShareOwn = { text -> share(context, tree, "your_photo", text) },
+                onDeleteOwn = { id ->
+                    scope.launch { myTrees.remove(id) }
+                    snack = app.ancienttrees.ui.Snack(context.getString(R.string.photo_deleted), icon = Sym.Delete)
+                },
                 collectedAt = saves.collectedAt[tree.id],
                 // REMOVED AT ONCE, WITH UNDO (TreeDetail.uncollectWithUndo): the
                 // photographs stay, Undo puts the tick back on its first day.

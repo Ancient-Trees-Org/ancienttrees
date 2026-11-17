@@ -256,4 +256,8 @@
     <string name="tree_your_photo_share_text">My photo of %1$s in %2$s is on Ancient Trees.</string>
     <string name="catalogue_broken">Something is wrong with the catalogue</string>
     <string name="catalogue_broken_sub">The trees could not be read. Close the app and open it again.</string>
+    <string name="photo_delete">Delete photo</string>
+    <string name="photo_delete_title">Delete this photo?</string>
+    <string name="photo_delete_message">It leaves your trees. If it is already on the tree\'s page, it stays there.</string>
+    <string name="photo_deleted">Photo deleted</string>
 </resources>

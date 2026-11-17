@@ -37,6 +37,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.windowInsetsPadding
@@ -65,8 +66,15 @@ import kotlin.math.abs
 
 @OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 @Composable
-fun PhotoViewer(photos: List<Photo>, startAt: Int, onClose: () -> Unit) {
+fun PhotoViewer(
+    photos: List<Photo>,
+    startAt: Int,
+    /** Your own photograph (Kit/PhotoViewer.swift onDelete): a trash beside the X, asked first. */
+    onDelete: ((Int) -> Unit)? = null,
+    onClose: () -> Unit,
+) {
     if (photos.isEmpty()) return
+    var confirmingDelete by remember { mutableStateOf(false) }
     // A FULL-SCREEN COVER, as .fullScreenCover (TreeDetail.swift:577-585): it slides
     // up from the bottom over the page, and down again however it is closed.
     val scope = androidx.compose.runtime.rememberCoroutineScope()
@@ -211,6 +219,25 @@ fun PhotoViewer(photos: List<Photo>, startAt: Int, onClose: () -> Unit) {
                 modifier = Modifier.fillMaxSize(),
             ) { Box(Modifier.fillMaxSize()) {
                 val close = stringResource(R.string.close)
+                if (onDelete != null) {
+                    // Google Maps' "Delete this photo" on a picture of your own, beside the X.
+                    val label = stringResource(R.string.photo_delete)
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier
+                            .align(Alignment.TopEnd)
+                            .windowInsetsPadding(WindowInsets.statusBarsIgnoringVisibility)
+                            .padding(end = 60.dp)
+                            .size(44.dp)
+                            .clip(CircleShape)
+                            .clickable(role = Role.Button) { confirmingDelete = true }
+                            .background(Color.Black.copy(alpha = 0.45f), CircleShape)
+                            .semantics { contentDescription = label }
+                            .testTag("photo-delete"),
+                    ) {
+                        Icon(Sym.Delete, null, tint = Color.White, modifier = Modifier.size(20.dp))
+                    }
+                }
                 Box(
                     contentAlignment = Alignment.Center,
                     modifier = Modifier
@@ -257,6 +284,22 @@ fun PhotoViewer(photos: List<Photo>, startAt: Int, onClose: () -> Unit) {
                     }
                 }
             } }
+        }
+        // The same words as the iPhone's and the website's sheet (UIStrings photoDelete*).
+        if (confirmingDelete && onDelete != null) {
+            BrandSheet(
+                title = stringResource(R.string.photo_delete_title),
+                message = stringResource(R.string.photo_delete_message),
+                onDismiss = { confirmingDelete = false },
+                buttons = listOf(
+                    SheetButton(stringResource(R.string.photo_delete), SheetKind.DESTRUCTIVE, tag = "photo-delete-confirm") {
+                        confirmingDelete = false
+                        onDelete(at)
+                        close()
+                    },
+                    SheetButton(stringResource(R.string.cancel), SheetKind.SECONDARY) { confirmingDelete = false },
+                ),
+            )
         }
     }
 }

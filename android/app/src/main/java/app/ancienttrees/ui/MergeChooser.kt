@@ -86,7 +86,7 @@ fun MergeChooser(
                     Column(Modifier.weight(1f)) {
                         Text(t.name, fontSize = 17.sp, color = brand.ink)
                         Spacer(Modifier.padding(top = 2.dp))
-                        Text("${t.commonName} · ${CollectRules.distance(metres)}", fontSize = 13.sp, color = brand.inkSoft)
+                        Text("${t.commonName} · ${CollectRules.distance(metres, Units.now)}", fontSize = 13.sp, color = brand.inkSoft)
                     }
                     Spacer(Modifier.width(4.dp))
                 }

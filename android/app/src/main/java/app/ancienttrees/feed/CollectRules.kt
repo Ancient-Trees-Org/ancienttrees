@@ -68,8 +68,13 @@ object CollectRules {
     fun isFar(lat: Double, lng: Double, t: Tree): Boolean = Geo.km(lat, lng, t.lat, t.lng) > 0.4
 
     /** "1672 m" is a number to read, "1.7 km" is a distance. */
-    fun distance(metres: Int): String =
-        if (metres < 1000) "$metres m" else String.format(Locale.ROOT, "%.1f km", metres / 1000.0)
+    fun distance(metres: Int, miles: Boolean = false): String = when {
+        // In miles where Distances says so (the test-account walk, 2026-11-17).
+        miles && metres < 322 -> "${(metres * 3.28084).toInt()} ft"
+        miles -> String.format(Locale.ROOT, "%.1f mi", metres / 1609.344)
+        metres < 1000 -> "$metres m"
+        else -> String.format(Locale.ROOT, "%.1f km", metres / 1000.0)
+    }
 
     /**
      * Eight compass points, as an index into north, north-east ... north-west, or
