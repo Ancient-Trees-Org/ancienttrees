@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 night run (window from 23:57 UTC)
+
+- **Rung 1, reader photographs: all 36 matched ones looked at and applied** (sightings_publish.py, judgement.py verdicts written, preflight 0 problems, commit 503bfc04a). 12 became a tree's first photograph (Ada Tree, Humboldt Giant Tree, nyc_024 ginkgo, Huntington cypress and kauri, Blaise Castle cedar, Cascais fig, two Setubal peppers, Wishing Tree, Roath Park oak, Goo Shrine ginkgo); 19 added to the strips of trees that had a lead; 5 held (duplicate frames, one sign-only shot, one picture sent for two trees 380 m apart). Pins moved to the reader's fix on csc_001, syd_006, crd_012, bmr_001.
+- **Three colon reveals reworded** (nyc_024, pwt_001, stb_010): they became indexable with their new reader photographs and preflight refused them.
+- **19 photographs of trees we do not map: looked at, each with a `why` in data/leads/_sightings.json.** None published yet: they need the site named or a source (60878254 River Red Gum has a sign giving 10.89 m girth and 500+ years, 471cdeb1 yew near Llanfihangel-nant-Melan, tip-993 Balmerino chestnut and b451d1e8 Buenos Aires fig are the strongest). For Hidde: nothing.
+- Not done: the REFILL THE SHELF verify pass and the other ladder rungs; this window went to rung 1.
+
 ## 2026-11-16 daily publish
 
 - **Daily publish: queue empty.** Today's builders (build_write_2026_11_16, 16b: phl_010 Grumblethorpe Ginkgo, lpz_032 Papiermuehlstrasse horse chestnut, gui_010 Casa de Margaride camellia) are already on main; Allentown all_001 stays held for a life check, not the pace. Nothing published, pace untouched, preflight 0 problems. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
