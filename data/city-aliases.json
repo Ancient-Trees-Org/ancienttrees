@@ -414,6 +414,10 @@
       "Provinsi Bali",
       "ma Pali"
     ],
+    "balmerino": [
+      "Baile Meireanach",
+      "Balmairnie"
+    ],
     "baltimore": [
       "Baltimora",
       "Baltimor",
@@ -439,6 +443,10 @@
       "Bangcoc",
       "Bankok",
       "Bankoko"
+    ],
+    "bangor-maine": [
+      "Bangor",
+      "Bangora"
     ],
     "bansko": [
       "Banskas"
@@ -569,6 +577,10 @@
     ],
     "bettws-newydd": [
       "Betws Newydd"
+    ],
+    "bialowieza": [
+      "Bělověž",
+      "Bialoveža"
     ],
     "biei": [
       "Biei-chō"
@@ -893,6 +905,18 @@
       "Càliari",
       "Kagliari",
       "Kaljaro"
+    ],
+    "cairo": [
+      "Kairo",
+      "Le Caire",
+      "El Cairo",
+      "Il Cairo",
+      "El Caire",
+      "Kair",
+      "Káhira",
+      "Kahire",
+      "Kairas",
+      "Kaira"
     ],
     "cajvana": [
       "Opština Cajvana",
@@ -1387,6 +1411,18 @@
       "Ragusium",
       "Raguza"
     ],
+    "dujiangyan": [
+      "Irrigatiesysteem van Dujiangyan",
+      "Dujiangyan-Bewässerungssystem",
+      "Système d'irrigation de Dujiangyan",
+      "Sistema de irrigación de Dujiangyan",
+      "Sistema di irrigazione del Dujiangyan",
+      "Sistema de irrigação de Dujiangyan",
+      "Dujiangyans bevattningssystem",
+      "Dujiangyanin kastelujärjestelmä",
+      "System irygacyjny Dujiangyan",
+      "Tuťiangjenský zavlažovací systém"
+    ],
     "dunkeld": [
       "Dùn Chailleann"
     ],
@@ -1590,6 +1626,12 @@
     ],
     "fortingall": [
       "Fartairchill"
+    ],
+    "francistown": [
+      "Frensistaunas",
+      "Frānsistauna",
+      "Fransistaun",
+      "Frensistaun"
     ],
     "frankfurt": [
       "Frankfurt am Main",
@@ -2535,6 +2577,9 @@
       "Zamek Książ",
       "Castelul Książ"
     ],
+    "kununurra": [
+      "Kananara"
+    ],
     "kvam": [
       "Kvams kommun",
       "Kvam herad",
@@ -2992,6 +3037,13 @@
       "Manchêtre",
       "Mankenyon"
     ],
+    "mangaluru": [
+      "Mangalore",
+      "Mangalor",
+      "Mangalúr",
+      "Mangaloro",
+      "Manqalur"
+    ],
     "martina-franca": [
       "Martina Franka",
       "Martina",
@@ -3417,6 +3469,10 @@
     "nisia-floresta": [
       "Nísia Floresta Brasileira Augusta",
       "Dionysia Gonçalves Pinto"
+    ],
+    "north-berwick": [
+      "Bearaig a Tuath",
+      "North Berrick"
     ],
     "norwich": [
       "Noridžas",
@@ -3906,6 +3962,15 @@
       "Quebecstad",
       "Kota Quebec"
     ],
+    "quito": [
+      "Kitas",
+      "Kito",
+      "Kuito",
+      "Quitum",
+      "Kitu",
+      "Kītūn",
+      "Quitu"
+    ],
     "rab": [
       "Arbe",
       "Raba",
@@ -4294,6 +4359,10 @@
       "Sardinien",
       "Sardinian alue",
       "Sardynia"
+    ],
+    "saulkrasti": [
+      "Saulkrastai",
+      "Saulkrastē"
     ],
     "savannah": [
       "Savana",
@@ -4946,6 +5015,11 @@
       "Valentia",
       "Baléncia"
     ],
+    "valley-forge": [
+      "Vale Forge",
+      "Veli Fordža",
+      "Velli-Forc"
+    ],
     "vallombrosa": [
       "Valombrosa"
     ],
@@ -5402,9 +5476,11 @@
     "bad-staffelstein": "Bad Staffelstein",
     "balfron": "Balfron",
     "bali": "Bali",
+    "balmerino": "Balmerino",
     "baltimore": "Baltimore",
     "bamberg": "Bamberg",
     "bangkok": "Bangkok",
+    "bangor-maine": "Bangor, Maine",
     "bansko": "Bansko",
     "bar": "Bar, Montenegro",
     "barcelona": "Barcelona",
@@ -5425,6 +5501,7 @@
     "bergamo": "Bergamo",
     "berlin": "Berlin",
     "bettws-newydd": "Bettws Newydd",
+    "bialowieza": "Białowieża",
     "biei": "Biei, Hokkaido",
     "big-bear-lake": "Big Bear Lake",
     "bilbao": "Bilbao",
@@ -5473,6 +5550,7 @@
     "cadiz": "Cádiz",
     "cagliari": "Cagliari",
     "cairns": "Cairns",
+    "cairo": "Cairo",
     "cajvana": "Cajvana",
     "calvos": "Calvos e Frades",
     "cambridge": "Cambridge",
@@ -5488,6 +5566,7 @@
     "caserta": "Caserta",
     "castelbuono": "Castelbuono",
     "castellammare-di-stabia": "Castellammare di Stabia",
+    "castlemorton": "Castlemorton",
     "castlepollard": "Castlepollard",
     "castlewellan": "Castlewellan",
     "catania": "Catania",
@@ -5542,6 +5621,7 @@
     "crete": "Crete",
     "curacao": "Curaçao",
     "curinga": "Curinga",
+    "cusop": "Cusop",
     "cyprus": "Cyprus",
     "dallas": "Dallas",
     "dartmoor": "Dartmoor",
@@ -5565,6 +5645,7 @@
     "dubinne": "Dubinné",
     "dublin": "Dublin",
     "dubrovnik": "Dubrovnik",
+    "dujiangyan": "Dujiangyan",
     "dunkeld": "Dunkeld",
     "dunsfold": "Dunsfold",
     "eagle-wisconsin": "Eagle, Wisconsin",
@@ -5606,6 +5687,7 @@
     "fort-worth": "Fort Worth, Texas",
     "fortaleza": "Fortaleza",
     "fortingall": "Fortingall",
+    "francistown": "Francistown",
     "frankfurt": "Frankfurt",
     "freiburg": "Freiburg im Breisgau",
     "fribourg": "Fribourg",
@@ -5741,6 +5823,7 @@
     "kanagi": "Kanagi, Aomori",
     "kanazawa": "Kanazawa",
     "kandy": "Kandy",
+    "kanker": "Kanker, Chhattisgarh",
     "kansas-city": "Kansas City, Missouri",
     "kantang": "Kantang district",
     "kastela": "Kaštela",
@@ -5776,6 +5859,7 @@
     "kremnica": "Kremnica",
     "krka-national-park": "Krka National Park",
     "ksiaz": "Książ Castle",
+    "kununurra": "Kununurra, Western Australia",
     "kvam": "Kvam Municipality",
     "kyoto": "Kyoto",
     "kyustendil": "Kyustendil",
@@ -5859,6 +5943,7 @@
     "mamhilad": "Mamhilad",
     "manaccan": "Manaccan",
     "manchester": "Manchester",
+    "mangaluru": "Mangaluru",
     "maria-aurora": "Maria Aurora, Aurora",
     "market-bosworth": "Market Bosworth",
     "martina-franca": "Martina Franca",
@@ -5939,6 +6024,7 @@
     "nikaho": "Nikaho, Akita",
     "nishio": "Nishio",
     "nisia-floresta": "Nísia Floresta",
+    "north-berwick": "North Berwick",
     "norwich": "Norwich",
     "noto": "Noto",
     "nottingham": "Nottingham",
@@ -6027,8 +6113,10 @@
     "przybudki": "Przybudki",
     "pula": "Pula",
     "quebec-city": "Quebec City",
+    "quito": "Quito",
     "rab": "Rab (island)",
     "radomsko": "Radomsko",
+    "raesfeld": "Raesfeld",
     "rambynas": "Rambynas",
     "ramsau-am-dachstein": "Ramsau am Dachstein",
     "ramsau-bei-berchtesgaden": "Ramsau bei Berchtesgaden",
@@ -6092,6 +6180,7 @@
     "sao-paulo": "São Paulo",
     "sapporo": "Sapporo",
     "sardinia": "Sardinia",
+    "saulkrasti": "Saulkrasti",
     "savannah": "Savannah, Georgia",
     "scheessel": "Scheeßel",
     "schenklengsfeld": "Schenklengsfeld",
@@ -6186,6 +6275,7 @@
     "the-hague": "The Hague",
     "thessaloniki": "Thessaloniki",
     "thomasville": "Thomasville, Georgia",
+    "tilaran": "Tilarán",
     "tilburg": "Tilburg",
     "tillamook": "Tillamook, Oregon",
     "toba": "Toba, Mie",
@@ -6221,6 +6311,7 @@
     "valencia": "Valencia",
     "valentin-tineo": "Valentin",
     "vales": "Vales",
+    "valley-forge": "Valley Forge",
     "vallombrosa": "Vallombrosa",
     "vancouver": "Vancouver",
     "vancouver-washington": "Vancouver, Washington",
@@ -6318,6 +6409,7 @@
     "calvos": "Calvos e Frades",
     "canicosa-de-la-sierra": "Canicosa de la Sierra",
     "cara": "Čara",
+    "castlemorton": "Castlemorton",
     "chadds-ford": "Chadds Ford, Pennsylvania",
     "charlwood": "Charlwood",
     "chiapa-de-corzo": "Chiapa de Corzo",
@@ -6333,6 +6425,7 @@
     "craigends": "Craigends",
     "cremines": "Crémines",
     "curinga": "Curinga",
+    "cusop": "Cusop",
     "daruvar": "Daruvar",
     "defynnog": "Defynnog",
     "den-hout": "Den Hout",
@@ -6374,6 +6467,7 @@
     "jauze": "Jauzé",
     "jurgaiciai": "Jurgaičiai",
     "kanagi": "Kanagi, Aomori",
+    "kanker": "Kanker, Chhattisgarh",
     "kawatana": "Kawatana-Onsen Station",
     "kemble": "Kemble, Gloucestershire",
     "kingston-st-mary": "Kingston St Mary",
@@ -6432,6 +6526,7 @@
     "powelltown": "Powelltown",
     "poynette": "Poynette, Wisconsin",
     "prety": "Préty",
+    "raesfeld": "Raesfeld",
     "richard-bong-state-recreation-area": "Richard Bong State Recreation Area",
     "rimov": "Římov (České Budějovice District)",
     "rio-frio": "Rio Frio, Texas",
@@ -6468,6 +6563,7 @@
     "teleci": "Telecí",
     "thalmassing": "Thalmassing",
     "thomasville": "Thomasville, Georgia",
+    "tilaran": "Tilarán",
     "tillamook": "Tillamook, Oregon",
     "tolpuddle": "Tolpuddle",
     "trollskogen": "Trollskogen",
@@ -6536,6 +6632,7 @@
     "hinode": "no article within 40 km, tried Hinode (Hinode, no coordinates, disambiguation page); Hinode, Japan; search: Eisuke Hinode; search: Tokyo; search: Hinode Bridge",
     "ilguva": "no article within 40 km, tried Ilguva; Ilguva, Lithuania",
     "jaegerspris-nordskov": "no article within 40 km, tried Jægerspris Nordskov; Jægerspris Nordskov, Denmark; search: List of individual trees",
+    "jelasnica": "no article within 40 km, tried Jelašnica (Jelašnica, no coordinates, disambiguation page); Jelašnica, Serbia; search: List of populated places in Serbia; search: Niš (Niš, title does not match); search: List of Roman place names in Serbia",
     "jerceni": "no article within 40 km, tried Jērcēni; Jērcēni, Latvia; search: Administrative divisions of Latvia; search: Administrative divisions of Latvia (2009–2021); search: Strenči Municipality (Strenči Municipality, title does not match)",
     "kawago": "no article within 40 km, tried Kawago; Kawago, Japan; search: Nogizaka46",
     "knappfors": "no article within 40 km, tried Knappfors; Knappfors, Sweden",
