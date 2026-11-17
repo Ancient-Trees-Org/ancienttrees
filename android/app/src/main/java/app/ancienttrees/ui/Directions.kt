@@ -79,7 +79,12 @@ object Directions {
 
     fun open(context: Context, app: MapsApp, lat: Double, lng: Double, name: String? = null) {
         val intent = when (app) {
+            // Straight to the Maps app, as Google's Android intents guide does
+            // (developers.google.com/maps/documentation/urls/android-intents, setPackage):
+            // left to the system, a second tap on Hidde's Samsung reached Maps as
+            // "Unsupported link" (2026-11-17). Without the app the catch below opens the web.
             MapsApp.GOOGLE -> Intent(Intent.ACTION_VIEW, Uri.parse(googleUrl(lat, lng)))
+                .setPackage("com.google.android.apps.maps")
             MapsApp.OTHER -> Intent.createChooser(
                 Intent(Intent.ACTION_VIEW, Uri.parse(geoUri(lat, lng, name))),
                 context.getString(R.string.directions_title),

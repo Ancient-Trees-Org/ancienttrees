@@ -85,6 +85,7 @@ import app.ancienttrees.account.Profiles
 import app.ancienttrees.account.Supa
 import app.ancienttrees.feed.Catalogue
 import app.ancienttrees.feed.Tree
+import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.json.JSONArray
@@ -142,6 +143,11 @@ class PeopleHost(
 
 private data class Suggestion(val profile: Profiles.Profile, val reason: String, val ambassador: Boolean)
 
+// THE LAST SUGGESTIONS STAY FOR THE NEXT VISIT (Hidde on his Samsung, 2026-11-17:
+// "het duurde best even voordat de gesuggereerde gebruikers vertoonden"): memory only,
+// for this account, refreshed behind the list as Discover's shelves are.
+private var lastSuggestions: Pair<String, List<Suggestion>>? = null
+
 @Composable
 fun FindPeopleScreen(host: PeopleHost, source: PeopleSource, onBack: () -> Unit) = PlainText { FindPeopleInner(host, source, onBack) }
 
@@ -154,7 +160,7 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
     val me = host.userId
     var query by remember { mutableStateOf("") }
     var results by remember { mutableStateOf<List<Profiles.Profile>>(emptyList()) }
-    var suggestions by remember { mutableStateOf<List<Suggestion>>(emptyList()) }
+    var suggestions by remember { mutableStateOf(lastSuggestions?.takeIf { it.first == me && source == PeopleSource.SEARCH }?.second.orEmpty()) }
     val followingIds = remember { mutableStateListOf<String>() }
     var searching by remember { mutableStateOf(false) }
     var acting by remember { mutableStateOf<Profiles.Profile?>(null) }
@@ -183,13 +189,19 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
             }
             return
         }
-        val cat = host.catalogue ?: return
+        val cat = host.catalogue ?: run { loadFollowing(); return }
         // Your places, most trees first.
         val places = host.yourTrees.mapNotNull { cat.tree(it)?.citySlug }.groupingBy { it }.eachCount()
             .entries.sortedWith(compareBy({ -it.value }, { it.key })).map { it.key }
         val rank = places.withIndex().associate { it.value to it.index }
         val t = token()
-        val shots = host.profiles.photographers(places.take(6).associateWith { s -> cat.trees(s).map { it.id } }, t)
+        // Who you follow and who photographed your places, at the same time.
+        val shots = kotlinx.coroutines.coroutineScope {
+            val following = async { loadFollowing() }
+            val photographers = async { host.profiles.photographers(places.take(6).associateWith { s -> cat.trees(s).map { it.id } }, t) }
+            following.await()
+            photographers.await()
+        }
         val names = cat.browse?.cities.orEmpty().filter { it.slug != null }.associate { it.slug!! to it.name }
         val ambassadors = cat.browse?.cities.orEmpty().flatMap { c ->
             val slug = c.slug ?: return@flatMap emptyList()
@@ -206,17 +218,19 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
             val id = it.profile.userId
             id != me && !host.moderation.hides(id) && it.profile.displayName.isNotEmpty() && seen.add(id)
         }.filter { it.profile.userId !in followingIds }.take(12)
+        // On screen now; the names and badges below follow a moment later.
+        if (suggestions.isEmpty()) suggestions = list
         // The name and picture as their owner set them today.
         val fresh = host.profiles.byIds(list.map { it.profile.userId }, t).associateBy { it.userId }
         list = list.map { s -> fresh[s.profile.userId]?.let { p -> s.copy(profile = s.profile.copy(displayName = p.displayName.ifEmpty { s.profile.displayName }, avatarUrl = p.avatarUrl)) } ?: s }
         host.profiles.loadAmbassadors(list.map { it.profile.userId }, t)
         suggestions = list
+        me?.let { lastSuggestions = it to list }
     }
 
     LaunchedEffect(me) {
         if (demo && source != PeopleSource.SEARCH) results = DemoPeople.all
-        loadFollowing()
-        loadSuggestions()
+        if (source == PeopleSource.SEARCH && me != null && !demo) loadSuggestions() else loadFollowing()
     }
     LaunchedEffect(source, me) {
         if (source == PeopleSource.SEARCH || me == null || demo) return@LaunchedEffect
