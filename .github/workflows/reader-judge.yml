@@ -134,14 +134,9 @@ jobs:
           unjudged=$(python3 scripts/judgement.py --count 2>/dev/null || echo 0)
           echo "leads=$leads queue=$queue reports=$reports feedback=$feedback unjudged=$unjudged"
           if [ "$leads" != "0" ] || [ "$queue" != "0" ] || [ "$reports" != "0" ] || [ "$feedback" != "0" ] || [ "$unjudged" != "0" ]; then
-            # The day's cap on agent minutes (scripts/judge_budget.py): over it,
-            # what waits is left to the night run and tomorrow, and says so.
-            if GH_TOKEN="${{ github.token }}" python3 scripts/judge_budget.py; then
-              echo "go=yes" >> "$GITHUB_OUTPUT"
-            else
-              echo "go=no" >> "$GITHUB_OUTPUT"
-              echo "::warning::Reader judge over its daily minutes; the night run takes what waits."
-            fi
+            # Never stopped for minutes (Hidde, 2026-11-17: "ik heb liever niet
+            # dat die stopt"); scripts/judge_budget.py counts them for the digest.
+            echo "go=yes" >> "$GITHUB_OUTPUT"
           else
             echo "go=no" >> "$GITHUB_OUTPUT"
             echo "::notice::Nothing waits for a verdict; no agent started."

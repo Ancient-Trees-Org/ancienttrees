@@ -2066,10 +2066,21 @@ def open_for_you_section(today):
         except Exception as e:
             rows.append("| reports | unreadable | %s |" % str(e)[:60])
     handled = sum(1 for v in feedback.ledger()["rows"].values() if v.get("status") == "handled")
+    # What the reader judge cost, counted, never capped (Hidde, 2026-11-17:
+    # "ik heb liever niet dat die stopt").
+    try:
+        import judge_budget
+        cost = judge_budget.line(today)
+    except Exception:
+        cost = None
     if not rows:
+        if cost:
+            return ("**Open for you: nothing.** Feedback handled and recorded: %d (`python3 scripts/feedback.py`). %s"
+                    % (handled, cost))
         return "**Open for you: nothing.** Feedback handled and recorded: %d (`python3 scripts/feedback.py`)." % handled
     return ("**Open for you** (%d; everything else handled and recorded, %d feedback in all)\n\n"
-            "| What | Why it waits | Summary |\n|---|---|---|\n%s" % (len(rows), handled, "\n".join(rows)))
+            "| What | Why it waits | Summary |\n|---|---|---|\n%s%s" % (len(rows), handled, "\n".join(rows),
+                                                                 ("\n\n" + cost) if cost else ""))
 
 
 def new_ambassadors_section(today):

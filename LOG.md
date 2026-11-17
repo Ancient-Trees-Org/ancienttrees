@@ -22,7 +22,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Deploy unblocked**: every deploy since 12:53 failed QA on a reader's raw account id in data/leads/_sightings.json (a photo path written by a reader judge run); now coded with people.ref. `check_no_reader_traces_in_the_repo()` moved into qa's source-only checks, so it refuses the push, not the deploy an hour later. The raw id stays in git history (no force-push, hard rule 3); it is an opaque account id, no name or address.
 - **Tips without a photograph get a verdict**: judgement.py's scan stubs them as `tip:<id>` (the app's uuid-named row beside a photographed tree is skipped); `--count` and `--unjudged`; the reader judge's gate and brief take them. Escaped bug closed with scripts/test_judgement_tips.py. 14 such tips from 11-15/16 now wait for the judge (Heidelberg oaks, Cape Town fig, Tsitsikamma, Nossob, Sagole baobab, Camaldoli chestnut, Mouchão olive and others).
-- **Judge minutes counted**: scripts/judge_budget.py (79 agent minutes on its first day, invisible to run_health); the workflow starts no agent past 120 a day.
+- **Judge minutes counted, never capped** (Hidde: "ik heb liever niet dat die stopt"): scripts/judge_budget.py (82 agent minutes on its first day, invisible to run_health until now); a line under "Open for you" in the digest.
 - **Alarm**: scripts/reader_backlog.py, read by health.py: anything a reader sent that waited over 24h without a verdict is RUNG 2. It found three at once (tips 802, 820, 850 from 11-15).
 - **Found, not fixable here**: GitHub dropped the reader judge's 15-minute schedule all day and 8 of 12 night knocks; the Supabase trigger carries the instant route.
 
