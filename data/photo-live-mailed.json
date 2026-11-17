@@ -1546,7 +1546,7 @@
    "last": "2026-11-17",
    "pending": [
     {
-     "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
+     "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
      "tree_id": "trs_001",
      "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
      "city": "Trollskogen",
@@ -1564,7 +1564,7 @@
      "live": "2026-11-17"
     },
     {
-     "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
+     "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
      "tree_id": "trs_001",
      "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
      "city": "Trollskogen",
@@ -1774,6 +1774,21 @@
      "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
      "city": "Stow-on-the-Wold",
      "city_slug": "stow-on-the-wold",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
+  },
+  "p_76408b11d09611876123c171": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b",
+     "tree_id": "cre_001",
+     "tree_name": "The Old Yew of Cremines (If millenaire)",
+     "city": "Cremines",
+     "city_slug": "cremines",
      "display_name": null,
      "live": "2026-11-17"
     }

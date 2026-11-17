@@ -5525,6 +5525,35 @@
    "seen": "2026-11-17",
    "hold": "wrong_subject",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "0d0eb3f0-bfe3-4863-8bdf-d594e43512b8",
+   "user_id": "p_d08befbb4870fc0971e550d1",
+   "mine": false,
+   "name": "A tree I found",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 12.8431274150512,
+   "longitude": 74.8524358695851,
+   "near": null,
+   "photo": "p_d08befbb4870fc0971e550d1/0D0EB3F0-BFE3-4863-8BDF-D594E43512B8.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: the whole tree from the lane, a short massive trunk opening into long, fern-covered limbs under a wide umbrella crown, a transformer and power poles in front, a garden wall behind, daylight, colour. Live as mangaluru/mlr_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "mangaluru/mlr_001"
   }
  ]
 }

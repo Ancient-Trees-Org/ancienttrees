@@ -4255,6 +4255,22 @@
    "lat": 57.354626,
    "lon": 17.124371,
    "pin_checked": "2026-11-17"
+  },
+  "0d0eb3f0-bfe3-4863-8bdf-d594e43512b8": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree": "mangaluru/mlr_001"
+  },
+  "dd3c083e-d9a3-4ef3-9b16-87d1ad483f3b": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cre_001",
+   "city_slug": "cremines",
+   "file": "cre_001-the-old-yew-of-cremines-if-millenaire.jpg",
+   "reason": "Closes a gap: the yew had no photograph. The squat, fluted, hollow-looking trunk fills the frame in a mixed forest on a slope, daylight and colour. Species seen: flat dark-green needles in sprays, reddish-purple flaking bark, a fluted buttressed bole: European yew. Fits the description: an enormous ",
+   "lat": 47.272708,
+   "lon": 7.471473,
+   "pin_checked": "2026-11-17"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

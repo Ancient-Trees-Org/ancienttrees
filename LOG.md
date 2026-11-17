@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a rain tree in Mangaluru goes live (mlr_001); the Cremines yew gets its first photograph
+
+- **New: The Rain Tree of Bolar** (mangaluru/mlr_001), a new one-tree place in India. A reader sent the photograph today with a GPS fix from the lane: a huge umbrella crown on fern-covered limbs above a garden wall and a transformer. They gave no name, species or note. The species is read from the photograph, and the story asks readers to confirm it. There is no register entry and no article nearby. It went live under the closed list, with the pin on the public lane and an access line saying the garden may be private. India is out of focus only for our own research.
+- **Cremines (cre_001)**: Switzerland's oldest yew had no photograph. A reader's summer shot of the fluted trunk on its forest slope is now the lead.
+- **Trolleken**: this run judged the same three photographs as the parallel run below and reached the same verdicts. On the rebase, main's version was kept.
+- **Readers' words**: the three notes still open (Friedewald, Geelong, Te Araroa) were already reflected on their pages, so they are closed with `--done`. Raesfeld's note was quoted by the parallel run. Friedewald's age field read "350 to 700 years", which blended in the reader's figure. It now reads "350 to 440 years by published estimates; 500 to 700 by a reader's estimate".
+- No open reports and no unjudged feedback. `sightings_publish.py` could not read coordinates for its pin catch-up (HTTPError). None was needed: both trees already had their pins.
+- **Two reader-judge runs overlapped on the same queue.** Both judged Trolleken; the photographs and verdicts were identical, so nothing broke. The workflow could do with a concurrency group.
+
 ## 2026-11-17 reader judge: three readers' photographs on Trolleken, the Femeiche reader quoted
 
 - **Live**: three photographs of Trolleken, the Troll Oak of Trollskogen on Öland (trs_001), from one reader, taken 2025-07-20, GPS 0 m from our pin. Looked at each: lobed oak leaves, the burred, hollowed trunk inside its rail fence, and in one the Naturum board reading "Trolleken". The shot where the trunk fills the frame now leads; the board shot and the backlit one sit in the strip (`add`). Its page now has a lead photograph unique to us.
