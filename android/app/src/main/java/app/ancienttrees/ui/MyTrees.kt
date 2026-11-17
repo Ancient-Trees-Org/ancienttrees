@@ -847,7 +847,7 @@ private fun Mission(catalogue: Catalogue, origin: Here, located: Boolean, wishli
     if (t != null) {
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
             val km = Geo.km(origin.lat, origin.lng, t.lat, t.lng)
-            val far = if (km < 1) "${(km * 1000).toInt()} m" else String.format(java.util.Locale.ROOT, "%.1f km", km)
+            val far = Units.label(km)
             Text(
                 if (located) stringResource(R.string.mt_first_tree, far) else stringResource(R.string.mt_start_with),
                 fontFamily = BrandFace,

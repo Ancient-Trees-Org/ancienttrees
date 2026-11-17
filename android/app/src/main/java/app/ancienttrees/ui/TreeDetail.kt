@@ -209,11 +209,8 @@ fun staysNear(was: Boolean, km: Double?): Boolean {
 }
 
 /** The distance in the big button: 50 m steps, then one decimal, then whole km. */
-fun farLabel(km: Double): String = when {
-    km < 1 -> "${((km * 1000 / 50).roundToInt() * 50)} m"
-    km < 10 -> String.format(java.util.Locale.ROOT, "%.1f km", km)
-    else -> "${km.roundToInt()} km"
-}
+fun farLabel(km: Double): String = Units.label(km)
+
 
 /** Models.swift storyText: the scientific names in italics. */
 fun storyText(tree: Tree): AnnotatedString = AnnotatedString.Builder(tree.story).apply {

@@ -80,13 +80,43 @@ import app.ancienttrees.account.Account
 import app.ancienttrees.account.Profiles
 import app.ancienttrees.feed.Geo
 import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 
 /** Kilometres or miles, a device setting (data/cross-device.json "units"); unset follows the phone's region. */
 object Units {
     private fun prefs(c: Context) = c.applicationContext.getSharedPreferences("settings", Context.MODE_PRIVATE)
     fun miles(c: Context): Boolean = prefs(c).getString("units", null)?.let { it == "mi" }
         ?: Geo.milesFor(java.util.Locale.getDefault().country)
-    fun set(c: Context, miles: Boolean) = prefs(c).edit().putString("units", if (miles) "mi" else "km").apply()
+    fun set(c: Context, miles: Boolean) {
+        prefs(c).edit().putString("units", if (miles) "mi" else "km").apply()
+        now = miles
+    }
+
+    /**
+     * The choice every distance on screen reads (the iPhone's @AppStorage "units"):
+     * Distances said Miles and every label still said km (the user walk, 2026-11-17).
+     * Read once at launch (MainActivity), changed by [set], observed by recomposition.
+     */
+    var now by androidx.compose.runtime.mutableStateOf(false)
+    fun load(c: Context) { now = miles(c) }
+
+    /** "650 m" / "2,100 ft" under a kilometre or mile, then one decimal, then whole. Steps of 50. */
+    fun label(km: Double): String = if (!now) {
+        when {
+            km < 1 -> "${((km * 1000 / 50).roundToInt() * 50).coerceAtLeast(50)} m"
+            km < 10 -> String.format(java.util.Locale.ROOT, "%.1f km", km)
+            else -> "${km.roundToInt()} km"
+        }
+    } else {
+        val mi = km * 0.621371
+        when {
+            mi < 0.2 -> "${((mi * 5280 / 50).roundToInt() * 50).coerceAtLeast(50)} ft"
+            mi < 10 -> String.format(java.util.Locale.ROOT, "%.1f mi", mi)
+            else -> "${mi.roundToInt()} mi"
+        }
+    }
 }
 
 /** What Settings needs from the app around it. */

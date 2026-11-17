@@ -150,6 +150,8 @@ data class MapLaunch(
 @Composable
 fun MapTab(
     catalogue: Catalogue?,
+    /** A page is pushed over the map (a tree, a species): the map's own back steps wait. */
+    covered: Boolean = false,
     origin: Here,
     located: Boolean,
     granted: Boolean,
@@ -225,10 +227,12 @@ fun MapTab(
             selected = null
         }
     }
-    BackHandler(enabled = selected != null) { selected = null }
+    // Never while a page covers the map: there back closed the hidden card or cleared
+    // the searched place, and the page stayed (the user walk, 2026-11-17).
+    BackHandler(enabled = !covered && selected != null) { selected = null }
     // BACK FROM A SEARCHED PLACE RETURNS TO THE MAP, as the field's cross does
     // (visual review 2026-11-11, flow 163: it left the app). Below a chosen tree.
-    BackHandler(enabled = focusPlace != null && selected == null) { focusPlace = null }
+    BackHandler(enabled = !covered && focusPlace != null && selected == null) { focusPlace = null }
 
     val focus = region?.let { Here((it.south + it.north) / 2, (it.west + it.east) / 2) } ?: origin
     val box = region ?: ViewBox(origin.lat - 0.05, origin.lng - 0.08, origin.lat + 0.05, origin.lng + 0.08)
@@ -606,7 +610,7 @@ private fun leadWithAPhotograph(list: List<Listed>): List<Listed> {
 }
 
 /** EmptyPlace.distance: one decimal under ten. */
-private fun far(km: Double): String = if (km < 10) String.format(java.util.Locale.ROOT, "%.1f km", km) else "${km.roundToInt()} km"
+private fun far(km: Double): String = Units.label(km)
 
 /** DIRECTION C: Highlights, Collected, then every tree in view as a row. */
 @Composable

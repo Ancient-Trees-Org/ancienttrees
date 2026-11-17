@@ -95,6 +95,8 @@ class MainActivity : ComponentActivity() {
         app.ancienttrees.feed.CataloguePreload.start(applicationContext)
         // Photographs on disk between launches (RemoteImage.kt, the iPhone's ImageStore.prepareCache).
         app.ancienttrees.ui.ImageStore.prepareCache(applicationContext)
+        // Kilometres or miles, for every distance on screen (Units.now).
+        app.ancienttrees.ui.Units.load(applicationContext)
         link = intent?.data
         launch = LaunchArgs.from(intent, applicationInfo)
         launch.locale?.let { java.util.Locale.setDefault(it) }
@@ -504,6 +506,16 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // default lays a light scrim behind three-button navigation for contrast; over the
     // photograph both bars go clear with white icons, as full-bleed media does, and
     // the app's own bar style comes back with the map.
+    // THE THEME CHANGES IN PLACE (configChanges="uiMode"): the app no longer restarts
+    // on the Map tab when the phone goes dark at sunset (the user walk, 2026-11-17), so
+    // the system bars' icons are set again here for the new theme.
+    val darkNow = androidx.compose.foundation.isSystemInDarkTheme()
+    var themeSeen by remember { mutableStateOf(darkNow) }
+    LaunchedEffect(darkNow) {
+        if (darkNow == themeSeen) return@LaunchedEffect
+        themeSeen = darkNow
+        (context as? androidx.activity.ComponentActivity)?.enableEdgeToEdge()
+    }
     // Over the photograph both bars go clear with white icons; afterwards the window
     // gets back EXACTLY what it had (re-running enableEdgeToEdge left the bottom bar
     // looking different, Hidde 2026-11-17: "de twee menus lopen door elkaar").
@@ -946,6 +958,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     ) {
                         MapTab(
                             catalogue = catalogue,
+                            covered = nav.stacks[0].isNotEmpty(),
                             origin = origin,
                             located = located,
                             granted = granted,

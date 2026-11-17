@@ -538,7 +538,7 @@ private fun tagFor(t: Tree, origin: Here, located: Boolean): String {
     if (!located) return t.city
     val d = Geo.km(origin.lat, origin.lng, t.lat, t.lng)
     if (d > 30) return t.city
-    return "${t.city} · " + if (d < 10) String.format(Locale.US, "%.1f km", d) else "${Math.round(d)} km"
+    return "${t.city} · " + Units.label(d)
 }
 
 @Composable
