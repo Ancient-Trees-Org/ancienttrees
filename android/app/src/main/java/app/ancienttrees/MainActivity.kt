@@ -499,6 +499,20 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (showingCover) kotlinx.coroutines.delay(2400)
         showingCover = false
     }
+    // THE COVER'S PHOTOGRAPH RUNS TO EVERY EDGE (Hidde on his Samsung, 2026-11-17: "het
+    // splashscreen van ons met de boomfoto" is not full screen): enableEdgeToEdge's
+    // default lays a light scrim behind three-button navigation for contrast; over the
+    // photograph both bars go clear with white icons, as full-bleed media does, and
+    // the app's own bar style comes back with the map.
+    LaunchedEffect(showingCover) {
+        val activity = context as? androidx.activity.ComponentActivity ?: return@LaunchedEffect
+        if (showingCover) {
+            val clear = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
+            activity.enableEdgeToEdge(statusBarStyle = clear, navigationBarStyle = clear)
+        } else {
+            activity.enableEdgeToEdge()
+        }
+    }
     LaunchedEffect(showingCover) {
         if (showingCover) return@LaunchedEffect
         kotlinx.coroutines.delay(500)
