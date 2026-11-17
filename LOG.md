@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the five photo-less tips settled, nothing new live
+
+- No product change. No reader photographs waiting, no open reports, no open feedback, and reader_words lists nothing to quote.
+- The five tips (1102, 885, 755, 691, 707) now have verdicts. None of them was a photograph waiting to be fetched: each is the app's companion submission row for a sighting that no longer exists on the server, so no photograph can ever arrive. 755 (Waipoua Forest) is our Tane Mahuta and Te Matua Ngahere, whose reader photographs from that day are already on wai_001 and wai_002 (`publish`, nothing to add). 707 duplicates the photograph that made lyt_001 (Lytham) live (`hold`). 691, 885 ("Ridiculously tall") and 1102 have no place, coordinate or name, so there is nothing to place or record (`hold`, no_location).
+- Not reader work: the 37 waiting leads in _sightings.json are our own photographs (`mine`) or have no photograph at all (fetch_waiting_photos `--count` is 0).
+
 ## 2026-11-17 reader judge: the fallen Gunnersbury mulberry, whole, from a reader
 
 - Live: two more photographs from the same reader of the Gunnersbury Park Black Mulberry (lon_030). The wide one shows the whole tree as the page describes it, the trunk lying along the grass with branches rising straight up, and went on as `add`. The close-up of a young shoot with a green fruit spike went into the gallery behind the lead (`strip`). Species and description both checked against the photographs. The pin did not move: these came from the web page and carry our own pin, not a GPS fix.
