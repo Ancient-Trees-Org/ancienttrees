@@ -1,0 +1,73 @@
+{
+  "city": "Castlemorton",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Castlemorton is a parish under the southern end of the Malvern Hills in Worcestershire. Beside Hancocks Lane leans a native black poplar, its massive trunk tipped over the verge and crowned with a fan of straight young stems, which a reader photographed and sent to us. They give it about 250 years and a girth of three metres; we would like to know its history.",
+  "meta_description": "A leaning native black poplar beside Hancocks Lane at Castlemorton, under the Malvern Hills, sent by a reader: where it stands and what we know.",
+  "hero_tree_id": "ctm_001",
+  "oldest_tree_id": "ctm_001",
+  "trees": [
+    {
+      "id": "ctm_001",
+      "name": "The Leaning Black Poplar of Hancocks Lane",
+      "species": "Black Poplar (Populus nigra subsp. betulifolia)",
+      "age_estimate": "about 250 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Beside Hancocks Lane, Castlemorton, Malvern Hills, Worcestershire",
+        "latitude": 52.0525471666667,
+        "longitude": -2.319175,
+        "neighbourhood": "Castlemorton"
+      },
+      "how_to_recognise": "Beside the lane: a thick, dark-barked trunk leaning steeply over dry grass, ending at head height in a swollen knuckle from which a fan of straight young stems rises.",
+      "access": "Seen from Hancocks Lane, where the reader stood beside it. We have not confirmed who owns the verge.",
+      "story": "A reader sent us this tree from Hancocks Lane at Castlemorton, under the southern end of the Malvern Hills, with a GPS fix taken at the trunk and its name written out in full: Populus nigra subsp. betulifolia, the native black poplar. They give it about 250 years and a girth of 300 centimetres; those figures are theirs.\n\nThe tree has done most of its living at an angle. The massive trunk leans hard out over the dry grass beside the lane, its bark dark and ridged, and then stops at a swollen knuckle at about head height. From there a whole fan of straight young stems shoots upward, the look of a tree that was once pollarded, cut back to its head for poles, and has kept regrowing ever since. In the reader's photograph a man stands beside it with one arm raised to the head of the trunk, and only just reaches.\n\nWe do not know who cut it last, or what the lane remembers of it. If you do, tell us here and we will add your words to the page.\n\nLook at it from the lane first, then from the low side of the lean.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "92fac7a0-332e-4b6b-8d54-463b3e592c17",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "92fac7a0-332e-4b6b-8d54-463b3e592c17",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (92fac7a0-332e-4b6b-8d54-463b3e592c17, 2026-11-16, through the app). Photograph viewed: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Populus nigra subsp. Betulifolia near Linton, Herefordshire', species 'Populus nigra subsp. Betulifolia', age '250', girth 300 cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ctm_001-leaning-black-poplar-of-hancocks-lane.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+        "sighting_id": "92fac7a0-332e-4b6b-8d54-463b3e592c17",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A leaning native black poplar beside Hancocks Lane at Castlemorton, under the Malvern Hills, sent by a reader: where it stands and what we know.",
+  "question_answer": "The black poplar stands beside Hancocks Lane at Castlemorton, under the southern end of the Malvern Hills in Worcestershire, and can be seen from the lane where a reader photographed it with a GPS fix.",
+  "question_context": "Castlemorton is a parish in Worcestershire under the southern end of the Malvern Hills. A reader sent us a photograph of a black poplar beside Hancocks Lane there, taken with a GPS fix at the trunk, and named it as Populus nigra subsp. betulifolia, the native black poplar. They put it at about 250 years with a girth of 300 centimetres; those figures are theirs, and we have no register record of the tree yet. The photograph shows a massive dark trunk leaning steeply over dry grass beside the lane and ending at about head height in a swollen knuckle, from which a fan of straight young stems rises, the look of an old pollard that has kept regrowing. A man standing beside it can only just reach the head of the trunk. We have not confirmed who owns the verge, so see it from the lane. If you know the tree's history, tell us on its page.",
+  "faq": [
+    {
+      "q": "Where is the Castlemorton black poplar?",
+      "a": "Beside Hancocks Lane at Castlemorton, under the southern end of the Malvern Hills in Worcestershire. The pin marks where a reader photographed it."
+    },
+    {
+      "q": "How old is it?",
+      "a": "About 250 years by the estimate of the reader who sent it, with a girth of about three metres by their measure. We have no register record yet."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It can be seen from Hancocks Lane. We have not confirmed who owns the verge it stands on."
+    }
+  ]
+}

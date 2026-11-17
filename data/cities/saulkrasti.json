@@ -1,0 +1,71 @@
+{
+  "city": "Saulkrasti",
+  "country": "Latvia",
+  "status": "needs_curation",
+  "intro": "Saulkrasti is a town on Latvia's Gulf of Riga coast, north of Riga. In its Pabaži neighbourhood stands an old tree, a lime by its bark and leaves, whose trunk has opened into two tall hollows, one above the other, their edges rolled into smooth lips of new wood. A reader photographed it and sent it to us without a word; we would like to know its name.",
+  "meta_description": "A hollow old lime at Pabaži, Saulkrasti, on Latvia's coast, sent by a reader: where it stands and what we know so far.",
+  "hero_tree_id": "slk_001",
+  "oldest_tree_id": "slk_001",
+  "trees": [
+    {
+      "id": "slk_001",
+      "name": "The Hollow Lime of Pabaži",
+      "species": "Lime (Tilia sp.)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Pabaži, Saulkrasti, Latvia",
+        "latitude": 57.23373,
+        "longitude": 24.39278,
+        "neighbourhood": "Pabaži"
+      },
+      "how_to_recognise": "Inside a low wooden fence: a grey, furrowed trunk opened by two tall dark hollows, one above the other, their edges rolled into smooth pale lips of new wood.",
+      "access": "On open ground at Pabaži, where the reader stood at the fence around it. A fence keeps visitors off the roots.",
+      "story": "A reader sent us this tree from Pabaži, part of Saulkrasti on Latvia's Gulf of Riga coast, with a GPS fix taken right beside it and no words at all. The photograph says enough.\n\nThe trunk has opened. Two tall, dark hollows run up through the middle of it, one above the other, divided by a narrow bridge of wood, and around them the living tree has rolled its bark inward in thick, smooth lips of pale new growth, the way an old tree seals the edges of a wound it cannot close. Part of the inner wall is bare and red-brown. Outside, the bark is grey and furrowed, a low wooden fence stands round the foot, and parkland trees fill the ground behind.\n\nBy its bark and the heart-shaped leaves at the edge of the picture it looks like a lime, and photographers on Wikimedia Commons label the limes at this spot Katrīnas liepas, Catherine's lindens. We would like a reader to confirm the species and tell us the story behind the name. We have no name, age or girth for it yet. If you know this tree, or there is a sign nearby that tells its story, send us a photograph and we will add it.\n\nLook into the lower hollow from the fence.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "d291140e-1665-4036-a4cb-e826d8ff6328",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d291140e-1665-4036-a4cb-e826d8ff6328",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (d291140e-1665-4036-a4cb-e826d8ff6328, 2026-11-15, through the app). Photograph viewed: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'A tree near Sēja', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. A famous-trees lead in data/leads/_famous-latvia.json, \"Catherine's lindens\" (Katrīnas liepas, Pabaži, Saulkrasti; Wikimedia Commons category), stands 26 m from the reader's fix: very likely this tree or its group. Not verified; named in the story only as the Commons label.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/slk_001-hollow-lime-of-paba-i.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "d291140e-1665-4036-a4cb-e826d8ff6328",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A hollow old lime at Pabaži, Saulkrasti, on Latvia's coast, sent by a reader: where it stands and what we know so far.",
+  "question_answer": "The hollow lime stands at Pabaži, part of Saulkrasti on Latvia's Gulf of Riga coast, inside a low wooden fence at the spot where a reader photographed it with a GPS fix.",
+  "question_context": "Saulkrasti is a seaside town on the Gulf of Riga, north of Riga, made up of several former villages, among them Pabaži. A reader sent us a photograph of a tree there, taken with a GPS fix right beside it and with no note at all. The photograph shows the middle of a living trunk split by two tall dark hollows, one above the other and divided by a narrow bridge of wood, with the bark rolled inward round their edges in thick pale lips of new growth. Outside, the bark is grey and furrowed, a low wooden fence stands round the foot, and parkland trees fill the ground behind. By its bark and the heart-shaped leaves at the edge of the picture it looks like a lime, but we would like a reader to confirm that. We have no name, age or girth for it yet. If you know this tree, or there is a sign nearby that tells its story, send us a photograph on its page.",
+  "faq": [
+    {
+      "q": "Where is the hollow lime in Saulkrasti?",
+      "a": "At Pabaži, part of Saulkrasti on Latvia's Gulf of Riga coast. The pin marks where a reader photographed it, at the fence around its foot."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "It looks like a lime by its bark and leaves, but nobody has confirmed the species yet. Tell us on its page if you know."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "The reader walked up to the fence around it. The fence keeps visitors off the roots; look into the hollows from there."
+    }
+  ]
+}

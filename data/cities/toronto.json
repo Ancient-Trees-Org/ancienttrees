@@ -2,11 +2,11 @@
   "city": "Toronto",
   "country": "Canada",
   "status": "needs_curation",
-  "intro": "These six span twenty kilometres of Toronto, several outings rather than one afternoon. The oldest is Zhelevo, a red oak in Etobicoke that predates European settlement of the Humber River, saved when the city bought and demolished the house beside it. The official tree, in Kew Gardens, has one limb sagging to the grass. A coronation oak from 1937 anchors a ring of maples on the waterfront, Big Red holds a corner in Long Branch, a Turkish hazel survives a private nut farm, and six maples in Lambton were planted by grieving mothers on Remembrance Day, 1919.",
-  "meta_description": "Toronto's oldest tree is Zhelevo, a 300-year red oak the city bought a house to save. Six heritage trees, from Kew Gardens to a WWI remembrance planting.",
-  "question_meta": "Toronto's oldest tree is Zhelevo, a roughly 300-year red oak in Etobicoke the city bought a house to save. Where it stands, and five more to see.",
+  "intro": "These seven span twenty kilometres of Toronto, several outings rather than one afternoon. The oldest is Zhelevo, a red oak in Etobicoke that predates European settlement of the Humber River, saved when the city bought and demolished the house beside it. The official tree, in Kew Gardens, has one limb sagging to the grass. A coronation oak from 1937 anchors a ring of maples on the waterfront, Big Red holds a corner in Long Branch, a Turkish hazel survives a private nut farm, and six maples in Lambton were planted by grieving mothers on Remembrance Day, 1919.",
+  "meta_description": "Toronto's oldest tree is Zhelevo, a 300-year red oak the city bought a house to save. Seven trees, from Kew Gardens to a WWI remembrance planting.",
+  "question_meta": "Toronto's oldest tree is Zhelevo, a roughly 300-year red oak in Etobicoke the city bought a house to save. Where it stands, and six more to see.",
   "question_answer": "The oldest tree in Toronto is Zhelevo, a red oak on Coral Gable Drive in Etobicoke, at roughly three hundred years old with an honest band running from 250 to 320. It predates the European settlement of the Humber River area, which began in 1793, and stood near the old Toronto Carrying Place Trail between Lake Ontario and Lake Simcoe. Its trunk measures nearly five metres round and its crown, at 24 metres, used to tower over the private house beside it, until Toronto City Council voted in 2020 to buy that property and demolish the house instead, after a public campaign of more than 1,300 donors got there first. The city is building a public parkette on the lot now, due to open in spring 2027; until then the tree is visible from the street rather than walk-up. Toronto's official tree, the red oak in Kew Gardens, is close behind at roughly 220 years, a title the city gave it in 2022 for its own reasons rather than for age: its trunk measures 5.3 metres round, the crown reaches roughly 36 metres, and arborists read a diameter of 169 centimetres as an age of about 220 years, with an honest band running from 200 to 260. Nobody has cored either tree, so both bands are the answer rather than a hedge.",
-  "question_context": "Ontario has no government register of remarkable trees. What it has instead is the Ontario Heritage Tree Program run by Forests Ontario, a nomination-based designation, and that is where all six trees on this page come from; each was then checked against independent sources, a city page, a local historical society or a newspaper. Most ages here come off a tape measure and an assumed growth rate, with three exceptions: the King's Oak was planted on 12 May 1937 and the Lambton Park maples on 11 November 1919, both birthdays known to the day, and Zhelevo's age follows several newspapers' converged estimate of roughly 300 years rather than the register's own older figure of 250. Two figures on this page disagree and both are recorded rather than reconciled: Forests Canada puts Big Red at 24 metres tall, a 2024 local report at 33. Two cautions about precision: the five heritage trees in Echo Valley Park share a single map coordinate, which is why the Turkish hazel here is marked approximate, and the six Lambton Park maples share one register coordinate the same way.",
+  "question_context": "Ontario has no government register of remarkable trees. What it has instead is the Ontario Heritage Tree Program run by Forests Ontario, a nomination-based designation, and that is where all but one tree on this page come from (the dawn redwood in Kew Gardens was found by a reader); each was then checked against independent sources, a city page, a local historical society or a newspaper. Most ages here come off a tape measure and an assumed growth rate, with three exceptions: the King's Oak was planted on 12 May 1937 and the Lambton Park maples on 11 November 1919, both birthdays known to the day, and Zhelevo's age follows several newspapers' converged estimate of roughly 300 years rather than the register's own older figure of 250. Two figures on this page disagree and both are recorded rather than reconciled: Forests Canada puts Big Red at 24 metres tall, a 2024 local report at 33. Two cautions about precision: the five heritage trees in Echo Valley Park share a single map coordinate, which is why the Turkish hazel here is marked approximate, and the six Lambton Park maples share one register coordinate the same way.",
   "faq": [
     {
       "q": "What is the oldest tree in Toronto?",
@@ -14,11 +14,11 @@
     },
     {
       "q": "Can I see them all in one walk?",
-      "a": "No, and it would be a long day to try. Zhelevo is in Etobicoke near the Humber River, Kew Gardens is in the Beaches, Coronation Park is on the waterfront by the CNE grounds, Big Red is in Long Branch, the Turkish hazel is in Echo Valley Park in Islington and the Lambton Park maples stand nearby in Lambton, which together span roughly twenty kilometres end to end. Each is a short walk from transit, so treat them as separate outings."
+      "a": "No, and it would be a long day to try. Zhelevo is in Etobicoke near the Humber River, Kew Gardens, with its red oak and dawn redwood, is in the Beaches, Coronation Park is on the waterfront by the CNE grounds, Big Red is in Long Branch, the Turkish hazel is in Echo Valley Park in Islington and the Lambton Park maples stand nearby in Lambton, which together span roughly twenty kilometres end to end. Each is a short walk from transit, so treat them as separate outings."
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes, all six, though Zhelevo is currently viewable from the street rather than walk-up: the city is building a public parkette around it, due to open in spring 2027. Every other tree stands on public ground, and Coronation Park and the Long Branch corner are open at all hours. The Lambton Park maples stand on the school's street frontage and are viewable from the public sidewalk without entering the schoolyard."
+      "a": "Yes, all seven, though Zhelevo is currently viewable from the street rather than walk-up: the city is building a public parkette around it, due to open in spring 2027. Every other tree stands on public ground, and Coronation Park and the Long Branch corner are open at all hours. The Lambton Park maples stand on the school's street frontage and are viewable from the public sidewalk without entering the schoolyard."
     },
     {
       "q": "Is the tree in Echo Valley Park easy to find?",
@@ -266,6 +266,49 @@
       "official_register": {
         "name": "Ontario Heritage Tree Program (Forests Ontario), no. HT-2009-102",
         "url": null
+      }
+    },
+    {
+      "id": "tro_007",
+      "name": "The Dawn Redwood of Kew Gardens",
+      "species": "Dawn Redwood (Metasequoia glyptostroboides)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Kew Gardens, beside the Kew Beach Lawn Bowling Club, The Beaches, Toronto",
+        "latitude": 43.6670494088592,
+        "longitude": -79.2972264339565,
+        "neighbourhood": "The Beaches"
+      },
+      "how_to_recognise": "On a lawn by a border of shrubs: a conifer with soft feathery needles whose fluted red-brown trunk flares wide at the foot, one long root running out across the grass.",
+      "access": "Free. The reader's GPS fix puts it in Kew Gardens, a public park in the Beaches, beside the lawn bowling club.",
+      "story": "Until the 1940s the dawn redwood was known to science only as a fossil. Then living trees were found in central China, seed went round the world after the war, and a conifer older than the dinosaurs' last days became a park tree. This one grows in Kew Gardens in the Beaches, where a reader photographed it on a bright day with a GPS fix taken beside the trunk.\n\nWhat makes it worth the walk is the base. The trunk seems to pour into the lawn rather than stand on it, its red-brown bark running down in deep folds and flutes, the foot flaring wide and one long root snaking away across the grass. Above, the branches leave the trunk in tiers, carrying the soft, feathery needles that a dawn redwood, unlike most conifers, drops every autumn after turning a rusty orange.\n\nWe have no age, girth or planting record for it. If you know when it was planted in Kew Gardens, or have measured it, tell us here and we will add it.\n\nCome in late autumn to see the crown turn before the needles fall.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b, 2026-11-15, through the app). Photograph viewed: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Dawn Redwood in Toronto', species 'Dawn Redwood', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tro_007-dawn-redwood-of-kew-gardens.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a30725b92f30d3f70303155e",
+        "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

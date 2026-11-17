@@ -18,6 +18,78 @@
    "agreed": null
   },
   {
+   "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "photo": "p_a319dde81175eb8e4af7318f/68515BBD-0BDC-475A-BB16-5E8E324DB9C9.jpg",
+   "reader_note": "300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Live as jelasnica/jls_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "Dawn Redwood in Toronto",
+   "photo": "p_a30725b92f30d3f70303155e/FE8FC7E4-9E16-48B5-96C0-E8C2AF7A020B.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Live as toronto/tro_007 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:6bb3d492-ea79-4b08-8f63-a66610632b47",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "photo": "p_697eb4a0c77311e0508c5fb0/6BB3D492-EA79-4B08-8F63-A66610632B47.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Live as dujiangyan/djy_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:92fac7a0-332e-4b6b-8d54-463b3e592c17",
+   "seen": "2026-11-16",
+   "kind": "a tree we do not map",
+   "tree": "Populus nigra subsp. Betulifolia near Linton, Herefordshire",
+   "photo": "p_48178e92fdea8f66a594fb70/92FAC7A0-332E-4B6B-8D54-463B3E592C17.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Live as castlemorton/ctm_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:d291140e-1665-4036-a4cb-e826d8ff6328",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Sēja",
+   "photo": "p_fa491d448dbf3f24e47cfa8b/D291140E-1665-4036-A4CB-E826D8FF6328.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Live as saulkrasti/slk_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "sight:a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Przybudki",
+   "photo": "p_fa491d448dbf3f24e47cfa8b/A9F9EB8D-F3C2-4146-94A2-AFE4FE32917C.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Live as bialowieza/bwz_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
    "id": "sight:b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -2430,8 +2502,8 @@
     "score": null,
     "note": "nothing measurable about American Elm"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: one straight elm trunk in woodland, no crown and nothing that shows great size or age; a lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a straight elm trunk in Nebraska woodland, nothing showing unusual size or age.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2462,8 +2534,8 @@
     "score": null,
     "note": "nothing measurable about Eastern Cottonwood"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a cottonwood crown behind a person standing on the path in the centre of the frame; a lead, not a frame for the page.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a broad cottonwood crown behind a mown path with a person standing in front; a good-sized cottonwood but not unusual for the species.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2494,8 +2566,8 @@
     "score": null,
     "note": "nothing measurable about Eastern Cottonwood"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a cottonwood trunk partly hidden behind a younger tree in woodland, nothing showing great size; a lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a cottonwood trunk half hidden behind a younger tree in woodland, nothing showing unusual size.",
    "hidde": null,
    "agreed": null
   },
@@ -2522,8 +2594,8 @@
     "score": null,
     "note": "nothing measurable about White Oak"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a tall slender oak among others in woodland, nothing showing great size or age; a lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a tall slender oak among others in woodland, nothing showing great size or age.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2554,8 +2626,8 @@
     "score": null,
     "note": "nothing measurable about Northern Red Oak"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a tall red oak shot from its foot in autumn woodland, nothing showing great size or age; a lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a tall straight red oak in autumn woodland in Pennsylvania, nothing showing great size or age.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2646,8 +2718,8 @@
     "score": null,
     "note": "nothing measurable about Ginkgo"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a fenced ginkgo at a temple, but the trunk is half behind the fence and a person stands in the centre of the frame; a lead until a clearer photo.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Live as dujiangyan/djy_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2707,8 +2779,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a mangrove forest of many thin stems, not one tree; wrong subject for a tree page.",
+   "verdict": "hold",
+   "reason": "wrong_subject: Photograph viewed again 2026-11-17: a mangrove forest of many thin stems and prop roots, not one tree.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2808,8 +2880,8 @@
     "via": "girth",
     "note": "59% of the species reference (507 cm, n=224, max 975)"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a leaning black poplar with a person posing at the centre of the frame and a modest trunk (300 cm by their tape); a lead.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree beside a lane, a massive dark trunk leaning steeply over dry grass and ending in a swollen head with a fan of straight young stems, a person standing beside it for scale, daylight, colour. Live as castlemorton/ctm_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -2976,8 +3048,8 @@
     "score": null,
     "note": "nothing measurable about Lime (Tilia sp.)"
    },
-   "verdict": "lead",
-   "reason": "Its own Kolpa park sign gives girth 166 cm and height 16 m (2010): registered as a natural value, but not big, old or striking enough to walk for. Stays a lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: the Kolpa Landscape Park sign for Močile - lipa (NV 8628): girth 166 cm, height 16 m (2010). A registered lime, but modest for its species; registered is not a reason.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -3772,8 +3844,8 @@
     "via": "girth",
     "note": "51% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a handsome open-grown pedunculate oak with a second trunk behind, daylight, GPS in the Jelasnica reserve. But the reader's own tape says 200 cm, half the genus reference, and 'state protection' is not a reason; 300 years is unlikely at that girth. A lead.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Live as jelasnica/jls_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -3843,8 +3915,8 @@
     ]
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: an avenue of London planes along a path beside a cemetery, no single trunk singled out and none of them big. The register's swamp oak 92 m away is not in frame. A lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: an avenue of London planes along a brick path beside a cemetery in Helmond, none singled out and none big.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -3870,8 +3942,8 @@
     "score": null,
     "note": "nothing measurable about Cypress (Cupressus sp.)"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a fine many-stemmed Saharan cypress among sandstone, daylight, colour. Sent from the website with no coordinate and no place below 'Tassili Plateau', so it cannot be placed. A lead until a fix or a named site.",
+   "verdict": "hold",
+   "reason": "no_location: Photograph viewed again 2026-11-17: a fine many-stemmed Saharan cypress among sandstone, daylight, colour; somewhat special by any measure. But no GPS and no place below 'Tassili Plateau', an area of tens of thousands of square kilometres. The reply asks where it stands; with that it goes live.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -4207,8 +4279,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: the lower trunk of a big red-barked conifer in autumn woodland near Westonbirt, no crown, no note or name; nothing says which of the arboretum's many big conifers it is. A lead.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: the straight red-barked lower trunk of a redwood in autumn woodland near Westonbirt, no note; a good tree but like many nineteenth-century redwoods in English woods.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -4695,7 +4767,7 @@
     "note": "nothing measurable about Dawn Redwood"
    },
    "verdict": "hold",
-   "reason": "Both photographs show London planes in Lincoln's Inn, while the note names a collection of dawn redwoods; waits for a photograph of the redwoods or word that the plane was meant.",
+   "reason": "doubt_info: Photograph viewed again 2026-11-17: a big London plane on the lawn of a Lincoln's Inn court, wet daylight. The note names a collection of dawn redwoods, so what was sent and what was meant do not match; the reply asks whether the plane was meant or for a photo of the redwoods.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -5687,8 +5759,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "lead",
-   "reason": "Norfolk Island pine on a lawn at Waitangi: fine photo but nothing old or sourced about it and no pin.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a young Norfolk Island pine, slim trunk, on a lawn above the sea at Waitangi, no GPS and only 'Huge' for a note. A fine tree, but nothing old or remarkable shows.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -7098,8 +7170,8 @@
     "score": null,
     "note": "nothing measurable about Dawn Redwood"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a handsome flared dawn redwood on a lawn among garden shrubs, daylight. Dawn redwoods in North America date from after 1948, no size is given, and the setting reads as a garden whose public access we cannot confirm. A lead.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Live as toronto/tro_007 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -7525,7 +7597,7 @@
     "note": "nothing measurable about Blue Jacaranda"
    },
    "verdict": "hold",
-   "reason": "Young jacaranda in bloom, no age or size basis.",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a young jacaranda in full purple bloom on a lawn in Melbourne's Royal Botanic Gardens, slender trunk. Pretty, but one of thousands in the city.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -9490,8 +9562,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a view straight up into a crown of twisting beech-like limbs, no trunk or whole tree in frame, so nothing yet to recognise it by.",
+   "verdict": "hold",
+   "reason": "bad_frame: Photograph viewed again 2026-11-17: only the crown seen straight up from below, twisting beech-like limbs, no trunk or setting, so nobody could find this tree by it even with the GPS fix. A whole-tree photograph would put it live.",
    "hidde": null,
    "agreed": null
   },
@@ -9515,8 +9587,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a close-up of a hollow, split trunk, no crown or setting, so the frame cannot show the tree to a walker; a lead.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Live as saulkrasti/slk_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -9544,8 +9616,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a big ridged trunk shot straight up from its foot, no crown or setting readable; a lead until a whole-tree photo comes.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Live as bialowieza/bwz_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -9573,8 +9645,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Photograph viewed: a young fan palm on a roadside verge, not old, big or remarkable enough for a page.",
+   "verdict": "hold",
+   "reason": "not_special: Photograph viewed again 2026-11-17: a young Bismarck-type fan palm on a roadside bend near Chiang Mai.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -9822,8 +9894,8 @@
     "score": null,
     "note": "nothing measurable about Cypress (Cupressus sp.)"
    },
-   "verdict": "lead",
-   "reason": "Photograph viewed: a bald cypress and a plane in Villa Smeraldi park, but no coordinate and the picture carries another photographer's signature, so it cannot be used.",
+   "verdict": "hold",
+   "reason": "not_theirs: Photograph viewed again 2026-11-17: a bald cypress and a plane by the pond in Villa Smeraldi park, but the picture carries another photographer's signature and there is no GPS. The reply asks whether the signature is theirs; if so, the tree goes live with their figures (422 cm, 23 to 25 m).",
    "hidde": null,
    "agreed": null,
    "shown": [

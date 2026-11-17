@@ -1,0 +1,73 @@
+{
+  "city": "Jelašnica",
+  "country": "Serbia",
+  "status": "needs_curation",
+  "intro": "Jelašnica is a village in the hills east of Niš in southern Serbia, by the gorge of the Jelašnica river. On an open slope nearby stands a pedunculate oak with long, almost level limbs, which a reader photographed and sent to us with their own figures: about 300 years old and, they say, under state protection in a nature reserve. We have not yet found that record, and we would like to.",
+  "meta_description": "An open-grown pedunculate oak near Jelašnica, east of Niš in Serbia, sent by a reader: where it stands and what we know so far.",
+  "hero_tree_id": "jls_001",
+  "oldest_tree_id": "jls_001",
+  "trees": [
+    {
+      "id": "jls_001",
+      "name": "The Open-Grown Oak of Jelašnica",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Open slope near Cukljenik, Niška Banja, Niš",
+        "latitude": 43.27848,
+        "longitude": 22.0789138333333,
+        "neighbourhood": "Jelašnica"
+      },
+      "how_to_recognise": "On an open grassy slope: a short, thick oak with grey plated bark whose limbs spread almost level from a couple of metres up, a second old oak of the same shape just behind it.",
+      "access": "On open ground, where the reader walked up to it. The reader says it lies in a protected nature reserve, so keep to the paths.",
+      "story": "\"300 years old,\" wrote the reader who sent us this oak from the hills by Jelašnica, east of Niš in southern Serbia. \"It's under state protection. In special nature reserve in Jelasnica. Photo by me.\"\n\nTheir photograph, taken with a GPS fix at its foot, shows a pedunculate oak that has had open ground to itself for a long time. The trunk is short and thick, its grey bark broken into deep plates, and only a couple of metres up it opens into great limbs that run out sideways almost level before they climb, the shape an oak takes when no forest crowds it. Behind it stands a second old oak of the same build, and around both the grass of a sunny slope runs down into scrub turning yellow with the season.\n\nThe age and the protection are the reader's words, and so is the girth: their tape gave the trunk about 200 centimetres round. We have not yet found the reserve's own record of this tree. If you know it, or have measured the oak yourself, tell us here and we will add it.\n\nStand under the long limbs and look up through the crown.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (68515bbd-0bdc-475a-bb16-5e8e324db9c9, 2026-11-16, through the app). Photograph viewed: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Pedunculate Oak', species 'Pedunculate Oak', age '300 years', girth 200 cm, note '300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/jls_001-open-grown-oak-of-jela-nica.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a319dde81175eb8e4af7318f",
+        "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "An open-grown pedunculate oak near Jelašnica, east of Niš in Serbia, sent by a reader: where it stands and what we know so far.",
+  "question_answer": "The oak stands on an open grassy slope near Cukljenik, by Jelašnica in the Niška Banja municipality of Niš, at the spot where a reader took its photograph with a GPS fix. The reader says it lies in a protected nature reserve, so keep to the paths.",
+  "question_context": "Jelašnica is a village in the hills east of Niš in southern Serbia, on the river of the same name. A reader who walked there sent us a photograph of a pedunculate oak on an open slope, taken with a GPS fix at its foot, and a short note: about 300 years old, under state protection, in a special nature reserve at Jelašnica. Those are their words; we have not yet found the reserve's own record of this tree. The photograph shows an oak that has grown without a forest around it: a short, thick trunk with grey plated bark, and limbs that leave it a couple of metres up and run out almost level before climbing. A second old oak of the same shape stands just behind. The reader's tape gave the trunk about 200 centimetres round. If you know the tree's record, its age, or the path to it, tell us on its page and we will add it.",
+  "faq": [
+    {
+      "q": "Where is the oak near Jelašnica?",
+      "a": "On an open grassy slope near Cukljenik, by Jelašnica, in the Niška Banja municipality east of Niš, Serbia. The pin marks where a reader stood to photograph it."
+    },
+    {
+      "q": "How old is the Jelašnica oak?",
+      "a": "About 300 years by the estimate of the reader who sent it. We have no register record or measured age yet."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "The reader walked up to it on open ground. They say it stands in a protected nature reserve, so keep to the paths."
+    }
+  ]
+}

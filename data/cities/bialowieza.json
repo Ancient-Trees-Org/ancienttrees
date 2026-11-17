@@ -1,0 +1,71 @@
+{
+  "city": "Białowieża",
+  "country": "Poland",
+  "status": "needs_curation",
+  "intro": "Białowieża is the village at the heart of the Białowieża Forest on Poland's border with Belarus, one of the last pieces of the old lowland forest of Europe. On the Żebra Żubra trail near Budy stands a great trunk with deep diamond-patterned bark, which a reader photographed from its foot and sent to us. It looks like an old ash; we would like a reader to confirm it.",
+  "meta_description": "A great old trunk on the Żebra Żubra trail near Budy in the Białowieża Forest, sent by a reader: where it stands and what we know.",
+  "hero_tree_id": "bwz_001",
+  "oldest_tree_id": "bwz_001",
+  "trees": [
+    {
+      "id": "bwz_001",
+      "name": "The Great Ash of the Bison's Rib Trail",
+      "species": "Ash (Fraxinus sp.)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Żebra Żubra nature trail, near Budy, Białowieża, Podlaskie",
+        "latitude": 52.7057083333333,
+        "longitude": 23.8235716666667,
+        "neighbourhood": "Budy"
+      },
+      "how_to_recognise": "Beside the trail: a broad, straight trunk covered in deep interlaced ridges like a diamond lattice, with a round hollow opening partway up and a slim younger tree leaning in beside it.",
+      "access": "On the Żebra Żubra (Bison's Rib) nature trail near Budy, in the Białowieża Forest, where the reader stood at its foot. Keep to the trail.",
+      "story": "The Białowieża Forest on the Polish-Belarusian border is one of the last pieces of the lowland forest that once covered much of Europe, and the Żebra Żubra trail, the Bison's Rib, takes walkers into it near the village of Budy. A reader photographed this trunk beside the trail with a GPS fix taken at its foot.\n\nThey stood close and pointed the camera straight up, so the photograph is almost all bark: deep, interlaced ridges running up the trunk in a diamond lattice, broad at the foot and still thick where the first limbs leave it high above. A round hollow opens in the trunk partway up, and the crown overhead is thin with autumn, its last leaves turning gold. A younger tree leans in at the edge of the frame, slight beside it.\n\nThat bark is the pattern of an old ash, but we would like a reader to confirm the species, and we have no girth or age for it. If you walk the trail, look for it, measure it if you can, and tell us here.\n\nStand at its foot and look up, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (a9f9eb8d-f3c2-4146-94a2-afe4fe32917c, 2026-11-15, through the app). Photograph viewed: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'A tree near Przybudki', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bwz_001-great-ash-of-the-bison-s-rib-trail.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A great old trunk on the Żebra Żubra trail near Budy in the Białowieża Forest, sent by a reader: where it stands and what we know.",
+  "question_answer": "The tree stands beside the Żebra Żubra (Bison's Rib) nature trail near Budy, in the Białowieża Forest in Poland's Podlaskie province, at the spot where a reader photographed it with a GPS fix.",
+  "question_context": "The Białowieża Forest straddles Poland's border with Belarus and is one of the last remnants of the lowland forest that once covered much of Europe. On its Polish side, the Żebra Żubra trail, the Bison's Rib, runs into the forest near the village of Budy in the Białowieża municipality. A reader walking it sent us a photograph of a trunk beside the trail, taken with a GPS fix at its foot and pointed straight up. It shows deep, interlaced ridges running up the bark in a diamond lattice, the pattern of an old ash, a round hollow partway up, and a crown thinning with autumn high above. A younger tree leans in beside it, slight by comparison. We have no species confirmation, girth or age for it yet, and no name. If you walk the trail and find it, measure it if you can and tell us on its page. Keep to the trail; parts of the forest are strictly protected.",
+  "faq": [
+    {
+      "q": "Where is the great ash on the Żebra Żubra trail?",
+      "a": "Beside the Żebra Żubra (Bison's Rib) nature trail near Budy, in the Białowieża Forest, Podlaskie, Poland. The pin marks where a reader photographed it."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "Its diamond-patterned bark looks like an old ash, but nobody has confirmed the species yet. Tell us on its page if you know."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It stands beside a nature trail where the reader walked. Keep to the trail."
+    }
+  ]
+}

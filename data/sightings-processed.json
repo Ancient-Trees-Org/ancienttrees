@@ -970,8 +970,9 @@
    "pin_checked": "2026-11-15"
   },
   "1c15666f-2956-4ff6-a73d-ee3a44045c82": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "doubt_info"
   },
   "tip-692": {
    "outcome": "lead",
@@ -1243,8 +1244,9 @@
    "date": "2026-11-15"
   },
   "tip-740": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-748": {
    "outcome": "lead",
@@ -1747,8 +1749,9 @@
    "pin_checked": "2026-11-15"
   },
   "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "tro_007"
   },
   "1087f3e1-a05d-4055-a4b1-f87b31408478": {
    "outcome": "published",
@@ -1966,8 +1969,9 @@
    "reason": "Fanal's laurels look alike in fog; the frame cannot settle which trunk is the Witch Tree"
   },
   "fc04d59e-bb37-4b00-b069-2a4d28ebcf05": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-807": {
    "outcome": "lead",
@@ -2271,20 +2275,24 @@
    "pin_checked": "2026-11-15"
   },
   "f1faa5f9-5750-4863-8920-2ce31bf5d01a": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "bad_frame"
   },
   "d291140e-1665-4036-a4cb-e826d8ff6328": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "slk_001"
   },
   "a9f9eb8d-f3c2-4146-94a2-afe4fe32917c": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "bwz_001"
   },
   "20d04dfd-e398-4533-a42d-b1385d2a6f50": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "1215c9ad-3b03-438c-a3c4-74f631633f9a": {
    "outcome": "added",
@@ -2320,8 +2328,9 @@
    "pin_checked": "2026-11-16"
   },
   "tip-871": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_theirs"
   },
   "tip-875": {
    "outcome": "lead",
@@ -2575,24 +2584,29 @@
    "pin_checked": "2026-11-16"
   },
   "f81eaeaa-49a5-464a-b5fd-18cad1c749c7": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "7b8b90c6-507c-46cc-9fe8-1366f7a953a3": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "e34c7308-6fcc-45cf-afca-1a9cdbf20d76": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "cb8b4ebe-74ca-4641-a139-533b41a7e3f0": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "2c03d56e-6192-4fae-9a95-94e41b042e6b": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "47730065-758c-46dc-b4ba-e0e3e353c368": {
    "outcome": "added",
@@ -2617,8 +2631,9 @@
    "pin_checked": "2026-11-16"
   },
   "6bb3d492-ea79-4b08-8f63-a66610632b47": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "djy_001"
   },
   "de83aef2-d85e-4d38-b4ef-73e6365d2557": {
    "outcome": "added",
@@ -2632,8 +2647,9 @@
    "pin_checked": "2026-11-16"
   },
   "42a31d57-d883-4e4e-9967-ec876a4c4036": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "wrong_subject"
   },
   "99f05329-69a2-4b6e-95d9-e9fd600f1e95": {
    "outcome": "published",
@@ -2724,8 +2740,9 @@
    "pin_checked": "2026-11-16"
   },
   "92fac7a0-332e-4b6b-8d54-463b3e592c17": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "ctm_001"
   },
   "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f": {
    "outcome": "added",
@@ -2747,8 +2764,9 @@
    "date": "2026-11-16"
   },
   "tip-930": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "2c98f48f-4b53-4323-a37c-443d57f3ccf7": {
    "outcome": "published",
@@ -3034,20 +3052,23 @@
    "pin_checked": "2026-11-16"
   },
   "68515bbd-0bdc-475a-bb16-5e8e324db9c9": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "jls_001"
   },
   "bfc89932-0e03-486f-9857-72e11af25298": {
    "outcome": "lead",
    "date": "2026-11-16"
   },
   "b4902ef7-a641-4d4d-86c4-98b316da873d": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-947": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "no_location"
   },
   "tip-951": {
    "outcome": "lead",
@@ -3254,8 +3275,9 @@
    "pin_checked": "2026-11-16"
   },
   "c5a1fd34-70e8-4a81-9496-4e32edb80964": {
-   "outcome": "lead",
-   "date": "2026-11-16"
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_special"
   },
   "tip-966": {
    "outcome": "lead",
