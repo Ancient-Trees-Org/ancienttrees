@@ -13106,6 +13106,28 @@
    "reason": "Photo viewed: the whole Orkin oak alone in its pasture, broad rounded crown, rail fence, daylight. First photograph for pam_002; lead.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:121e99a2-68a9-4499-8fb9-0f3c32d0f672",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/121e99a2-68a9-4499-8fb9-0f3c32d0f672.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Boab Prison Tree in its post-and-rail ring, hollow entrance visible, daylight, GPS at our pin. A reader's photograph now leads; the earlier lead moved into the gallery. Two more good frames came with it (wide with two people for scale, trunk close-up) and stay unpublished: the publish script takes only the main file.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

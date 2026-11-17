@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a reader's Boab Prison Tree photograph leads
+
+- **Changed in the product**: a reader's photograph of `derby/der_001` Boab Prison Tree, the whole bottle trunk with its hollow entrance inside the post-and-rail ring, daylight, GPS at our pin, now leads that page (verdict `add`; the old lead moved into the gallery). Reader mail queued through `sightings_publish.py --send`.
+- This run judged the Oak of Orkin photograph too; the parallel run's commit below got there first and its entry stands.
+- **Left out**: the Boab reader also sent two extra frames (a wide shot with two people for scale, a trunk close-up). `sightings_publish.py` publishes only the main file, and it names every gallery file by the first 8 characters of the sighting id, so the extras would overwrite each other. They stay in out/sightings/, unpublished.
+- **Not judged, on purpose**: the 37 waiting leads are all our own account (`mine`). No reader leads were waiting. The open tree reports (new in the brief while this ran) were not taken up.
+- preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 session: readers' reports on our trees are now picked up within 15 minutes
 
 - **What changed**: a report on a tree we map (dead, wrong location, could not tell which tree, on the map twice, something else, a moved pin) now wakes the reader judge the way a reader's tree does. reader_poll.py counts new open rows in `tree_reports`; reader-judge.yml closes the small nudges and starts the judge when reports are open; BRIEF_READER_JUDGE.md "Reports on our trees" says what to do per reason. New commands in scripts/tree_reports.py: `--open`, `--count`, `--auto` (a moved pin on a confirmed pin under 30 m closes as `holds`, no mail), `--close <id> changed|holds|open_question ["reply"]`.
