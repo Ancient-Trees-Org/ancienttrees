@@ -1420,6 +1420,41 @@ def _supa(path, key, timeout=30):
         return json.load(r), dict(r.headers)
 
 
+PAGE = 1000  # Supabase's max-rows: one request never returns more
+
+
+def _supa_rows(path, key, timeout=30):
+    """Every row of a /rest/v1/ query, page by page. A plain _supa call stops
+    at 1,000 rows without saying so, and the Android waitlist row read 1,000
+    on 11-15 when 1,317 had signed up (Hidde, 2026-11-17: "volgens mij klopt
+    je android wachtlijst niet"). Pages by the Range header; a query that
+    needs a fixed order says so in its own path."""
+    rows, start = [], 0
+    while True:
+        req = urllib.request.Request(SUPA + path, headers={
+            "apikey": key, "Authorization": "Bearer " + key,
+            "Range-Unit": "items", "Range": "%d-%d" % (start, start + PAGE - 1)})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            got = json.load(r)
+        rows += got or []
+        if len(got or []) < PAGE:
+            return rows
+        start += PAGE
+
+
+def _auth_users(key):
+    """Every account, not only the first page of 1,000."""
+    out, page = [], 1
+    while page <= 50:
+        got = ((_supa("/auth/v1/admin/users?page=%d&per_page=%d" % (page, PAGE), key)[0]
+                or {}).get("users") or [])
+        out += got
+        if len(got) < PAGE:
+            break
+        page += 1
+    return out
+
+
 def _with_reports(rows, key, since=None, keep=None):
     """Submissions rows plus the reports and moved pins that live in
     tree_reports since step 2 of the split (supabase/tree-reports.sql), in
@@ -1704,12 +1739,12 @@ def product_section(today):
                     continue
                 seen_sub.add(fp)
             bump(str(r.get("created_at"))[:10], _sub_kind(r))
-        rows_, _ = _supa("/rest/v1/events?select=created_at&name=eq.save"
-                         "&created_at=gte.%sT00:00:00" % since.isoformat(), key)
+        rows_ = _supa_rows("/rest/v1/events?select=created_at&name=eq.save"
+                           "&created_at=gte.%sT00:00:00&order=created_at" % since.isoformat(), key)
         for r in rows_:
             bump(str(r.get("created_at"))[:10], "saves")
-        users, _ = _supa("/auth/v1/admin/users?page=1&per_page=1000", key)
-        for u in ((users or {}).get("users") or []):
+        all_users = _auth_users(key)
+        for u in all_users:
             if is_ours(u.get("id")):
                 ours_n["accounts"] += 1
                 continue
@@ -1718,7 +1753,7 @@ def product_section(today):
         # Strangers' accounts per week for the conclusion on top: this week is
         # the seven days to yesterday, the same window as the app's.
         wk = [0, 0]
-        for u in ((users or {}).get("users") or []):
+        for u in all_users:
             if not is_counted_account(u):
                 continue
             try:
@@ -2189,18 +2224,18 @@ def day_by_day_section(today):
         print("day_by_day visitors: %s" % str(e)[:100])
     if key:
         steps = {
-            "New accounts": lambda: [(u.get("created_at"), 1) for u in
-                                     ((_supa("/auth/v1/admin/users?page=1&per_page=1000", key)[0]
-                                       or {}).get("users") or []) if is_counted_account(u)],
+            "New accounts": lambda: [(u.get("created_at"), 1) for u in _auth_users(key)
+                                     if is_counted_account(u)],
             "Saves": lambda: [(r.get("created_at"), 1) for r in
-                              _supa("/rest/v1/saves?select=user_id,created_at&created_at=gte.%s"
-                                    % since, key)[0] or [] if not is_ours(r.get("user_id"))],
+                              _supa_rows("/rest/v1/saves?select=user_id,created_at&created_at=gte.%s"
+                                         "&order=created_at" % since, key)
+                              if not is_ours(r.get("user_id"))],
             "Android waitlist": lambda: [(r.get("created_at"), 1) for r in
-                                         _supa("/rest/v1/waitlist?select=created_at&created_at=gte.%s"
-                                               % since, key)[0] or []],
+                                         _supa_rows("/rest/v1/waitlist?select=created_at"
+                                                    "&created_at=gte.%s&order=created_at" % since, key)],
             "Tree notes": lambda: [(r.get("created_at"), 1) for r in
-                                   _supa("/rest/v1/tree_notes?select=user_id,created_at"
-                                         "&created_at=gte.%s" % since, key)[0] or []
+                                   _supa_rows("/rest/v1/tree_notes?select=user_id,created_at"
+                                              "&created_at=gte.%s&order=created_at" % since, key)
                                    if not is_ours(r.get("user_id"))],
         }
         for name, fn in steps.items():
@@ -2213,8 +2248,9 @@ def day_by_day_section(today):
         # (same content, new updated_at) is not a new photograph
         # (scripts/sighting_changes.py).
         try:
-            shot = [r for r in _supa("/rest/v1/sightings?select=*&shared=eq.true"
-                                     "&photo=not.is.null&updated_at=gte.%s" % since, key)[0] or []
+            shot = [r for r in _supa_rows("/rest/v1/sightings?select=*&shared=eq.true"
+                                          "&photo=not.is.null&updated_at=gte.%s&order=updated_at"
+                                          % since, key)
                     if not is_ours(r.get("user_id")) and sighting_changes.status(r) != "same"]
             for where in sighting_changes.SURFACES:
                 fill("%s photos" % where.capitalize() if where == "website" else "%s photos" % where,
@@ -2222,8 +2258,8 @@ def day_by_day_section(today):
         except Exception as e:
             print("day_by_day photos: %s" % str(e)[:100])
         try:
-            subs, _ = _supa("/rest/v1/submissions?select=id,created_at,kind,why,user_id"
-                            "&created_at=gte.%s" % since, key)
+            subs = _supa_rows("/rest/v1/submissions?select=id,created_at,kind,why,user_id"
+                              "&created_at=gte.%s&order=created_at" % since, key)
             subs = _with_reports(subs, key, since)
             subs = [r for r in subs or [] if r.get("id") not in TEST_SUBMISSION_IDS
                     and not is_ours(r.get("user_id"))
@@ -3830,7 +3866,7 @@ def _contributor_days(key):
     listing per contributing account, a handful at our volume. Plus every
     signed-in tree submission with a photograph (the website form), by its
     created_at day."""
-    rows, _ = _supa("/rest/v1/sightings?select=user_id,photo&photo=not.is.null&limit=10000", key)
+    rows = _supa_rows("/rest/v1/sightings?select=user_id,photo&photo=not.is.null&order=id", key)
     want = collections.defaultdict(set)
     for r in rows or []:
         if not is_ours(r.get("user_id")):
@@ -3852,8 +3888,8 @@ def _contributor_days(key):
     # hier niet?"): it lives in `submissions`, not `sightings`, so the count
     # above never saw it. The day is the submission's own; an anonymous
     # submission has no account and is not a person we can count.
-    subs, _ = _supa("/rest/v1/submissions?select=user_id,created_at,photo"
-                    "&photo=not.is.null&user_id=not.is.null&limit=10000", key)
+    subs = _supa_rows("/rest/v1/submissions?select=user_id,created_at,photo"
+                      "&photo=not.is.null&user_id=not.is.null&order=created_at", key)
     for r in subs or []:
         uid, day = r.get("user_id"), (r.get("created_at") or "")[:10]
         if uid and day and not is_ours(uid):
@@ -3913,9 +3949,8 @@ def _hl_supabase(today):
     if not key:
         return {}
     out = {}
-    users, _ = _supa("/auth/v1/admin/users?page=1&per_page=1000", key)
     wk = [0, 0]
-    for u in ((users or {}).get("users") or []):
+    for u in _auth_users(key):
         w = _week_of(u.get("created_at"), today)
         if w is not None and is_counted_account(u):
             wk[w] += 1
