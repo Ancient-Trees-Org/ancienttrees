@@ -28,9 +28,18 @@ is already in the mail below (Play shows it before any release; it works once
 the release is approved). Set up in Play on 2026-11-17: closed test "Alpha"
 in all 178 countries, list "Ancient Trees testers" (Hidde only so far),
 feedback to info@ancienttrees.app; internal test with list "Ancient Trees
-team" (Hidde). Wave 1's 200 addresses are in out/play/wave1.csv on the Mac
-(gitignored, rebuilt by a session from the waitlist), not yet uploaded to
-Play. Nothing is sent before Hidde says "verstuur".
+team" (Hidde), and that list is on the closed test too.
+
+**On the tester list in Play now: the 50 newest Gmail addresses** (the first
+50 lines of out/play/wave1.csv, saved as out/play/wave1-a.csv; both
+gitignored). Mail ONLY those 50 in wave 1: only addresses on the list can
+join. Play refused to save 100 or 200 at once ("Je wijzigingen kunnen niet
+worden opgeslagen", no reason given; every address is valid Gmail syntax),
+so one of lines 51 to 100 is probably an address Google will not take. A CSV
+upload REPLACES the list rather than adding to it. Next session: add the rest
+in steps of 25 (cumulative files with the first 50 kept), drop the chunk that
+fails and halve it. 50 is already four times the 12 needed. Nothing is sent
+before Hidde says "verstuur".
 
 The dates are Google's usual times for a new personal account: first review a
 few hours to about 7 days, 14 days with 12+ testers opted in, about 7 days to
