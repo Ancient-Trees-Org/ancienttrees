@@ -140,6 +140,19 @@ private fun OwnTreeInner(
     var preparing by remember { mutableStateOf(false) }
     var shareFailed by remember { mutableStateOf(false) }
     val place = remember(s.lat, s.lng, catalogue) { minePlace(catalogue, s.lat, s.lng) }
+    // TreeDetail.geocodedPlace: too far from any city of ours, the town's own name,
+    // grey and not a link (the iPhone's reverseGeocodeLocation, locality first).
+    var geocoded by remember(s.lat, s.lng) { mutableStateOf<String?>(null) }
+    LaunchedEffect(s.lat, s.lng, place == null) {
+        if (place != null || geocoded != null || !android.location.Geocoder.isPresent()) return@LaunchedEffect
+        geocoded = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+            runCatching {
+                @Suppress("DEPRECATION")
+                android.location.Geocoder(context).getFromLocation(s.lat, s.lng, 1)?.firstOrNull()
+                    ?.let { it.locality ?: it.adminArea }
+            }.getOrNull()
+        }
+    }
 
     BoxWithConstraints(Modifier.fillMaxSize().background(brand.ground)) {
         // heroHeight: the photograph's shape across the page, stopped at 60 percent of
@@ -195,6 +208,11 @@ private fun OwnTreeInner(
                                     }
                                     .semantics { contentDescription = see },
                             )
+                        }
+                    }
+                    if (place == null) geocoded?.let { named ->
+                        Box(Modifier.heightIn(min = 44.dp), contentAlignment = Alignment.CenterStart) {
+                            Text(named, fontSize = 15.sp, color = brand.inkSoft, maxLines = 1)
                         }
                     }
                     if (s.published) MineStatus()
@@ -581,7 +599,10 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
     val brand = Brand.colors
     var text by remember { mutableStateOf(initial) }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    // The keyboard up with the sheet, as the iPhone's `.onAppear { focused = true }`;
+    // requestFocus alone left it down inside a sheet (the note sheet, 2026-11-17).
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+    LaunchedEffect(Unit) { runCatching { focus.requestFocus(); keyboard?.show() } }
     val prompt = stringResource(
         when (field) {
             EditableField.NAME -> R.string.ot_prompt_name

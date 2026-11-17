@@ -242,4 +242,11 @@
     <string name="nearby_dismiss">Wegdoen</string>
     <!-- The launch loading screen, after six seconds (ContentView.swift slowStart). -->
     <string name="slow_start">Dit duurt langer dan het zou moeten. Sluit de app en open hem opnieuw, en laat het ons weten als het blijft gebeuren.</string>
+    <string name="tree_your_photo">Jouw foto</string>
+    <string name="tree_your_photos">Jouw foto\'s</string>
+    <string name="tree_your_photo_live">Je foto staat op deze pagina</string>
+    <string name="tree_your_photo_share">Deel je foto</string>
+    <string name="tree_your_photo_share_text">Mijn foto van %1$s in %2$s staat op Ancient Trees.</string>
+    <string name="catalogue_broken">Er is iets mis met de catalogus</string>
+    <string name="catalogue_broken_sub">De bomen konden niet worden gelezen. Sluit de app en open hem opnieuw.</string>
 </resources>

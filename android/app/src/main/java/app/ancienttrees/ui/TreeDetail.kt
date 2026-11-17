@@ -70,6 +70,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.shadow
@@ -143,7 +145,41 @@ class TreePageActions(
     val onUncollect: (() -> Unit)? = null,
     /** When this tree was collected (ms), for the sheet's "On 4 October 2026." */
     val collectedAt: Long? = null,
+    /** A reader's profile, from a note's name or a photograph's "Photo: name". */
+    val onOpenPerson: ((String) -> Unit)? = null,
+    /** Your own photographs of this tree, newest first, and where they are read from. */
+    val ownShots: List<app.ancienttrees.account.OwnSighting> = emptyList(),
+    val myTrees: app.ancienttrees.account.MyTrees? = null,
+    /** "Share your photo", once it is on the page; the message is passed in. */
+    val onShareOwn: ((String) -> Unit)? = null,
 )
+
+/** Your photograph as a Photo for the full-screen viewer: the public shared copy. */
+private fun ownAsPhoto(s: app.ancienttrees.account.OwnSighting): app.ancienttrees.feed.Photo? {
+    val path = s.photo ?: return null
+    val url = app.ancienttrees.account.Supa.URL_BASE + "/storage/v1/object/public/shared-sightings/" +
+        path.split("/").joinToString("/") { java.net.URLEncoder.encode(it, "UTF-8").replace("+", "%20") }
+    return app.ancienttrees.feed.Photo(url, null, null, null, null, null, false, null, null, null)
+}
+
+/**
+ * TreeDetail.openPerson: a reader's name, tapped. Signed in with the id: their
+ * profile. Signed in without one (the page loaded before the session): asked
+ * again, never the sign-in sheet. Signed out: sign in first, then the profile
+ * it was for (Hidde, 2026-11-17: "accounts worden klikbaar").
+ */
+private fun openPerson(
+    scope: kotlinx.coroutines.CoroutineScope,
+    signedIn: Boolean,
+    id: String?,
+    actions: TreePageActions,
+    resolve: suspend () -> String?,
+) {
+    val open = actions.onOpenPerson ?: return
+    if (id != null && signedIn) { open(id); return }
+    if (signedIn) { scope.launch { resolve()?.let(open) }; return }
+    actions.onNeedsSignIn { scope.launch { resolve()?.let(open) } }
+}
 
 /** The blue the pin's own ticket mark wears (TreeDetail.ticketBlue). */
 private val TicketBlue = Color(0.18f, 0.42f, 0.66f)
@@ -244,6 +280,7 @@ private fun TreeDetailInner(
     val scroll = rememberScrollState()
     var showingMap by remember(tree.id) { mutableStateOf(false) }
     var viewerAt by remember(tree.id) { mutableStateOf(if (openPhotoAtStart && tree.photo != null) 0 else -1) }
+    var ownViewerAt by remember(tree.id) { mutableStateOf(-1) }
     var reportOpening by remember(tree.id) { mutableStateOf<String?>(null) }
     // `-collectsheet` opens it at once, for the sweep (TreeDetail.swift).
     var choosingCollect by remember(tree.id) { mutableStateOf(openCollectAtStart) }
@@ -254,6 +291,13 @@ private fun TreeDetailInner(
     LaunchedEffect(kmAway) { nearTree = staysNear(nearTree, kmAway) }
     LaunchedEffect(Unit) { counts.loadOnce() }
     LaunchedEffect(signedIn) { votes.load(if (signedIn) account.fresh()?.accessToken else null) }
+    val scope = rememberCoroutineScope()
+    // Who sent each reader's photograph here, asked once per page and account (loadPhotoAuthors).
+    var photoAuthors by remember(tree.id) { mutableStateOf<Map<String, app.ancienttrees.account.PhotoAuthors.Row>>(emptyMap()) }
+    LaunchedEffect(tree.id, signedIn) {
+        val ids = tree.shots.mapNotNull { it.by }
+        if (ids.isNotEmpty()) photoAuthors = app.ancienttrees.account.PhotoAuthors.load(ids, if (signedIn) account.fresh()?.accessToken else null)
+    }
 
     fun startAddPhoto() = (actions.onAddPhoto ?: actions.onCollect)()
     fun openCollectChoice() {
@@ -283,6 +327,10 @@ private fun TreeDetailInner(
                     onOpenPhoto = { viewerAt = it },
                     onFullMap = { actions.onFullMap?.invoke() ?: actions.onGo(SearchHit.OneTree(tree)) },
                     onAddPhoto = { startAddPhoto() },
+                    // heroOwnShot: a tree of ours nobody else has photographed wears yours.
+                    ownHero = if (tree.photo == null) actions.ownShots.firstOrNull { it.photo != null } else null,
+                    myTrees = actions.myTrees,
+                    onOpenOwn = { ownViewerAt = 0 },
                 )
             }
             Column(
@@ -297,7 +345,32 @@ private fun TreeDetailInner(
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     // THE PHOTOGRAPH'S FOOTER LINE CARRIES THE ADD.
                     if (!showingMap && tree.photo != null) {
-                        Row(Modifier.fillMaxWidth().pull(12.dp, 4.dp), horizontalArrangement = Arrangement.End) {
+                        Row(Modifier.fillMaxWidth().pull(12.dp, 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                            // WHO TOOK IT, opposite the add (TreeDetail.photographerName, Hidde
+                            // 2026-11-17: "bij foto's wel namen gaan noemen"): a public profile's
+                            // name, a tap opens the profile. Nothing for a licensed photograph.
+                            val by = tree.shots.getOrNull(shotAt)?.by
+                            val author = by?.let { photoAuthors[it] }
+                            if (author?.authorName != null) {
+                                Text(
+                                    stringResource(R.string.photo_credit, author.authorName),
+                                    fontSize = 13.sp,
+                                    fontWeight = FontWeight.Medium,
+                                    color = brand.inkSoft,
+                                    maxLines = 1,
+                                    modifier = Modifier
+                                        .weight(1f, fill = false)
+                                        .heightIn(min = 44.dp)
+                                        .clickable(role = Role.Button) {
+                                            openPerson(scope, signedIn, author.authorId, actions) {
+                                                app.ancienttrees.account.PhotoAuthors.load(listOf(by), account.fresh()?.accessToken)[by]?.authorId
+                                            }
+                                        }
+                                        .wrapContentHeight(Alignment.CenterVertically)
+                                        .testTag("photo-by"),
+                                )
+                            }
+                            Spacer(Modifier.weight(1f))
                             val onAdd = shotAt >= tree.shots.count()
                             Box(Modifier.graphicsLayer { alpha = if (onAdd) 0f else 1f }) {
                                 AddPhotoPill(enabled = !onAdd) { startAddPhoto() }
@@ -311,6 +384,7 @@ private fun TreeDetailInner(
                     })
                 }
                 SeasonsRow(tree, onOpen = { viewerAt = it }, onAdd = { startAddPhoto() })
+                YourPhotos(tree, actions) { ownViewerAt = it }
                 ExpandableText(
                     storyText(tree),
                     lines = 6,
@@ -370,6 +444,7 @@ private fun TreeDetailInner(
     }
 
     if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt) { viewerAt = -1 }
+    if (ownViewerAt >= 0) PhotoViewer(actions.ownShots.mapNotNull(::ownAsPhoto), ownViewerAt) { ownViewerAt = -1 }
     reportOpening?.let { opening ->
         ContributeSheet(
             account, signedIn,
@@ -417,6 +492,9 @@ private fun Hero(
     onOpenPhoto: (Int) -> Unit,
     onFullMap: () -> Unit,
     onAddPhoto: () -> Unit,
+    ownHero: app.ancienttrees.account.OwnSighting? = null,
+    myTrees: app.ancienttrees.account.MyTrees? = null,
+    onOpenOwn: () -> Unit = {},
 ) {
     val brand = Brand.colors
     val photo = tree.photo
@@ -515,6 +593,17 @@ private fun Hero(
                     .semantics { contentDescription = label },
             ) {
                 MapInset(tree.lat, tree.lng, side = 56.dp)
+            }
+        }
+        ownHero != null && myTrees != null -> Box(
+            Modifier
+                .fillMaxWidth()
+                .height(heroHeight)
+                .clickable(interactionSource = noTap, indication = androidx.compose.foundation.LocalIndication.current, onClick = onOpenOwn),
+        ) {
+            // Your own photograph, as the iPhone's heroOwnShot: opens like ours do.
+            OwnPhoto(ownHero, myTrees, Modifier.fillMaxSize(), maxSide = 1600) {
+                Box(Modifier.fillMaxSize().background(brand.surfaceMuted))
             }
         }
         else -> Box(
@@ -1027,6 +1116,42 @@ private fun seasonName(key: String): String = stringResource(
 )
 
 /** seasonsRow: four tiles, each season's first photograph, the empty one of now asking. */
+/**
+ * TreeDetail.yourPhotos: your photographs of one of our trees, a row of 140
+ * squares (Google Maps puts "your photos" on the place's own page). A tap opens
+ * the full-screen viewer; once yours is on the page, "Share your photo" (Local
+ * Guides' share on a published contribution, Hidde 2026-10-30).
+ */
+@Composable
+private fun YourPhotos(tree: Tree, actions: TreePageActions, onOpen: (Int) -> Unit) {
+    val brand = Brand.colors
+    val shots = actions.ownShots.filter { it.photo != null }
+    val mine = actions.myTrees ?: return
+    if (shots.isEmpty()) return
+    Column(Modifier.fillMaxWidth().testTag("tree-your-photos"), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(
+            stringResource(if (shots.size == 1) R.string.tree_your_photo else R.string.tree_your_photos),
+            fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 18.sp, color = brand.ink,
+            modifier = Modifier.semantics { heading() },
+        )
+        if (shots.first().published) {
+            Text(stringResource(R.string.tree_your_photo_live), fontSize = 13.sp, color = brand.inkSoft, modifier = Modifier.testTag("tree-your-photo-state"))
+        }
+        Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            shots.forEachIndexed { i, s ->
+                Box(Modifier.size(140.dp).clip(RoundedCornerShape(12.dp)).clickable(role = Role.Button) { onOpen(i) }) {
+                    OwnPhoto(s, mine, Modifier.fillMaxSize(), maxSide = 480) { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) }
+                }
+            }
+        }
+        val share = actions.onShareOwn
+        if (shots.first().published && share != null) {
+            val text = stringResource(R.string.tree_your_photo_share_text, tree.name, tree.city)
+            SheetButtonView(SheetButton(stringResource(R.string.tree_your_photo_share), SheetKind.SECONDARY, icon = Sym.Share) { share(text) }, Modifier.testTag("tree-your-photo-share"))
+        }
+    }
+}
+
 @Composable
 private fun SeasonsRow(tree: Tree, onOpen: (Int) -> Unit, onAdd: () -> Unit) {
     val brand = Brand.colors
@@ -1172,7 +1297,16 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
             NoteCard(m.body, m.date, stringResource(R.string.notes_your), initial = me?.first?.firstOrNull(), mine = true)
         }
         for (n in here) {
-            NoteCard(n.body, n.date, n.authorName ?: stringResource(R.string.notes_visitor), initial = n.authorName?.firstOrNull(), mine = false, avatar = n.authorAvatar)
+            NoteCard(
+                n.body, n.date, n.authorName ?: stringResource(R.string.notes_visitor), initial = n.authorName?.firstOrNull(), mine = false, avatar = n.authorAvatar,
+                onName = if (n.authorName == null) null else {
+                    {
+                        openPerson(scope, signedIn, n.authorId, actions) {
+                            notes.authorId(tree.id, n.createdAt, account.fresh()?.accessToken)
+                        }
+                    }
+                },
+            )
         }
         if (here.isEmpty() && notes.mine == null) {
             Column(
@@ -1260,6 +1394,7 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
                         enabled = !saving,
                         textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
                         cursorBrush = SolidColor(brand.moss),
+                        minLines = 4,
                         modifier = Modifier.fillMaxWidth().focusRequester(focus),
                     )
                     if (text.isEmpty()) {
@@ -1278,7 +1413,7 @@ private fun NotesSection(tree: Tree, account: Account, signedIn: Boolean, action
 }
 
 @Composable
-private fun NoteCard(body: String, date: java.time.Instant, name: String, initial: Char?, mine: Boolean, avatar: String? = null) {
+private fun NoteCard(body: String, date: java.time.Instant, name: String, initial: Char?, mine: Boolean, avatar: String? = null, onName: (() -> Unit)? = null) {
     val brand = Brand.colors
     val day = remember(date) {
         DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withZone(ZoneId.systemDefault()).format(date)
@@ -1290,7 +1425,11 @@ private fun NoteCard(body: String, date: java.time.Instant, name: String, initia
             .padding(horizontal = 14.dp, vertical = 12.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(
+            Modifier.then(if (onName != null) Modifier.clickable(role = Role.Button, onClick = onName) else Modifier),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
             Box(
                 Modifier.size(28.dp).clip(CircleShape).background(if (mine || initial != null) brand.moss else brand.creamDark),
                 contentAlignment = Alignment.Center,
@@ -1420,6 +1559,10 @@ private fun WorthItView(tree: Tree, account: Account, signedIn: Boolean, votes: 
                         onValueChange = { detail = it },
                         textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
                         cursorBrush = SolidColor(brand.moss),
+                        // WorthIt.swift `lineLimit(2...4)`: the field is the whole box, so a tap
+                        // anywhere in it lands.
+                        minLines = 2,
+                        maxLines = 4,
                         modifier = Modifier.fillMaxWidth(),
                     )
                     if (detail.isEmpty()) Text(stringResource(ask.hint), fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.6f))

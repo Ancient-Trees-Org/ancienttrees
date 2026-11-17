@@ -809,6 +809,7 @@ private fun IdentifyStep(
     onClose: () -> Unit,
 ) {
     val brand = Brand.colors
+    val searchKeyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     Column(Modifier.fillMaxSize()) {
         CloseRow(onClose)
         Column(
@@ -862,6 +863,10 @@ private fun IdentifyStep(
                             singleLine = true,
                             textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
                             cursorBrush = SolidColor(brand.moss),
+                            // Autocorrect off and a Search key that puts the keyboard away
+                            // (CollectSheet.swift: .autocorrectionDisabled, .submitLabel(.search)).
+                            keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(autoCorrectEnabled = false, imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+                            keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { searchKeyboard?.hide() }),
                             modifier = Modifier.fillMaxWidth().testTag("collect-search"),
                         )
                         if (query.isEmpty()) Text(stringResource(R.string.cf_search), fontSize = 16.sp, color = brand.inkSoft)
@@ -1058,24 +1063,28 @@ private fun ColumnScope.TickedStep(t: Tree, newFind: Boolean, pinReported: Boole
     WorthTheTripAsk(t, vote, host, Modifier.padding(top = 20.dp))
     if (vote.isNotEmpty() && (notes.mine == null || sending)) {
         Column(Modifier.padding(top = 16.dp).fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Box(
-                Modifier
+            // The field IS the grey box (TextEditor at minHeight 96), so a tap anywhere
+            // in it focuses it; PlaceBox's NoteField does the same.
+            BasicTextField(
+                value = noteText,
+                onValueChange = { noteText = it },
+                textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
+                cursorBrush = SolidColor(brand.moss),
+                modifier = Modifier
                     .fillMaxWidth()
                     .heightIn(min = 96.dp)
                     .background(brand.surfaceMuted, RoundedCornerShape(14.dp))
-                    .padding(horizontal = 15.dp, vertical = 16.dp),
-            ) {
-                BasicTextField(
-                    value = noteText,
-                    onValueChange = { noteText = it },
-                    textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
-                    cursorBrush = SolidColor(brand.moss),
-                    modifier = Modifier.fillMaxWidth().testTag("collect-note-field"),
-                )
-                if (noteText.isEmpty()) {
-                    Text(stringResource(R.string.cf_note_hint), fontSize = 16.sp, color = brand.inkSoft.copy(alpha = 0.7f))
-                }
-            }
+                    .padding(horizontal = 15.dp, vertical = 16.dp)
+                    .testTag("collect-note-field"),
+                decorationBox = { inner ->
+                    Box {
+                        if (noteText.isEmpty()) {
+                            Text(stringResource(R.string.cf_note_hint), fontSize = 16.sp, color = brand.inkSoft.copy(alpha = 0.7f))
+                        }
+                        inner()
+                    }
+                },
+            )
             if (failed) Text(stringResource(R.string.cf_note_failed), fontSize = 13.sp, color = brand.inkSoft)
         }
     }

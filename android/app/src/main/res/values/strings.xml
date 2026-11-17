@@ -249,4 +249,11 @@
     <string name="shared_find_near">Find the trees near you</string>
     <string name="shared_missing">This link does not lead to a tree</string>
     <string name="shared_missing_why">It may have been taken down by the person who shared it.</string>
+    <string name="tree_your_photo">Your photograph</string>
+    <string name="tree_your_photos">Your photographs</string>
+    <string name="tree_your_photo_live">Your photo is on this page</string>
+    <string name="tree_your_photo_share">Share your photo</string>
+    <string name="tree_your_photo_share_text">My photo of %1$s in %2$s is on Ancient Trees.</string>
+    <string name="catalogue_broken">Something is wrong with the catalogue</string>
+    <string name="catalogue_broken_sub">The trees could not be read. Close the app and open it again.</string>
 </resources>

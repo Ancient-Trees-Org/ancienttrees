@@ -45,6 +45,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
@@ -416,7 +417,15 @@ fun DraftTree(
                     Field.STORY -> R.string.cf_special
                 },
             ),
-            hint = if (f == Field.GIRTH) stringResource(R.string.cf_girth_hint) else null,
+            // The iPhone's EditField.hint: girth explains the unit; the story says,
+            // where it is typed, that the words go public with the profile name
+            // (Hidde, 2026-11-15; qa check_a_readers_words_go_public_only_after_the_field_said_so).
+            hint = when (f) {
+                Field.GIRTH -> stringResource(R.string.cf_girth_hint)
+                Field.STORY -> stringResource(R.string.ot_story_hint)
+                else -> null
+            },
+            decimal = f == Field.GIRTH,
             initial = when (f) {
                 Field.NAME -> name
                 Field.AGE -> age
@@ -568,33 +577,54 @@ private fun FactColumn(label: String, value: String?, modifier: Modifier, onClic
     }
 }
 
-/** FieldEditor: one sheet for every blank, Cancel and Save over the field. */
+/**
+ * FieldEditor: one sheet for every blank, the same as OwnTree's (the iPhone has one
+ * FieldEditor for both): Android's dialog bar, the field itself 4 lines tall for
+ * the story so every part of it takes a tap, a decimal keypad for girth, and the
+ * keyboard up with the sheet (TreeDetail.swift `.onAppear { focused = true }`).
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun FieldEditor(prompt: String, hint: String?, initial: String, long: Boolean, onSave: (String) -> Unit, onCancel: () -> Unit) {
+private fun FieldEditor(prompt: String, hint: String?, decimal: Boolean, initial: String, long: Boolean, onSave: (String) -> Unit, onCancel: () -> Unit) {
     val brand = Brand.colors
     var text by remember { mutableStateOf(initial) }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+    LaunchedEffect(Unit) { runCatching { focus.requestFocus(); keyboard?.show() } }
     AppSheet(onDismissRequest = onCancel, containerColor = brand.ground) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp).navigationBarsPadding(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(stringResource(R.string.cf_cancel), fontSize = 17.sp, color = brand.moss, modifier = Modifier.clickable(role = Role.Button, onClick = onCancel).padding(8.dp))
-                Text(prompt, fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, modifier = Modifier.weight(1f), textAlign = androidx.compose.ui.text.style.TextAlign.Center, maxLines = 1)
-                Text(stringResource(R.string.cf_save), fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = brand.moss, modifier = Modifier.clickable(role = Role.Button) { onSave(text.trim()) }.padding(8.dp))
-            }
-            Box(Modifier.fillMaxWidth().heightIn(min = if (long) 120.dp else 44.dp).background(brand.surfaceMuted, RoundedCornerShape(10.dp)).padding(12.dp)) {
+        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp).imePadding()) {
+            SheetNavBar(
+                full = false,
+                leading = stringResource(R.string.cancel) to onCancel,
+                title = prompt,
+                trailing = stringResource(R.string.ot_save) to { onSave(text.trim()) },
+            )
+            Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
+                Spacer(Modifier.height(12.dp))
                 BasicTextField(
                     value = text,
                     onValueChange = { text = it },
-                    singleLine = !long,
                     textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
                     cursorBrush = SolidColor(brand.moss),
+                    singleLine = !long,
+                    minLines = if (long) 4 else 1,
+                    keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(
+                        keyboardType = if (decimal) androidx.compose.ui.text.input.KeyboardType.Decimal else androidx.compose.ui.text.input.KeyboardType.Text,
+                    ),
                     modifier = Modifier.fillMaxWidth().focusRequester(focus),
+                    decorationBox = { inner ->
+                        Box {
+                            if (text.isEmpty()) Text(prompt, fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.6f))
+                            inner()
+                        }
+                    },
                 )
-                if (text.isEmpty()) Text(prompt, fontSize = 17.sp, color = brand.inkSoft)
+                if (hint != null) {
+                    Spacer(Modifier.height(12.dp))
+                    Text(hint, fontSize = 13.sp, color = brand.inkSoft)
+                }
+                Spacer(Modifier.height(24.dp))
             }
-            hint?.let { Text(it, fontSize = 13.sp, color = brand.inkSoft) }
         }
     }
 }

@@ -29,6 +29,9 @@ data class Photo(
     val takenMonth: Int? = null,
     /** The sightings row a visitor's photograph came from (lowercase uuid), else null (feed sighting). */
     val sighting: String? = null,
+    /** A reader's photograph by the id the server names it by (a sightings uuid or
+     *  "tip-<n>"), so the tree page can ask whose it is (PhotoAuthors). Null otherwise. */
+    val by: String? = null,
 ) {
     val card: String get() = thumb ?: url
     val full: String get() = hero ?: url

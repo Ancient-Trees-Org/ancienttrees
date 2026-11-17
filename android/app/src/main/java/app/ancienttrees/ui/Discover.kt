@@ -1130,6 +1130,7 @@ private fun CollectionPage(c: TreeCollection, catalogue: Catalogue, onBack: () -
 private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBack: () -> Unit) {
     val brand = Brand.colors
     var search by remember { mutableStateOf("") }
+    val searchKeyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     fun matches(s: String) = search.isEmpty() || s.lowercase().contains(search.lowercase())
     val title = stringResource(
         when (kind) {
@@ -1148,6 +1149,9 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
             singleLine = true,
             textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
             cursorBrush = androidx.compose.ui.graphics.SolidColor(brand.moss),
+            // .searchable's Search key puts the keyboard away (MapSearch.kt's field).
+            keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+            keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { searchKeyboard?.hide() }),
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 6.dp).fillMaxWidth(),
             decorationBox = { inner ->
                 Row(
@@ -1159,6 +1163,15 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
                     Box(Modifier.weight(1f)) {
                         if (search.isEmpty()) Text(stringResource(R.string.discover_index_search), fontSize = 17.sp, color = brand.inkSoft)
                         inner()
+                    }
+                    // .searchable's clear button once there is text (MapSearch.kt's),
+                    // as tall as this 36 field.
+                    if (search.isNotEmpty()) {
+                        Box(
+                            contentAlignment = Alignment.Center,
+                            modifier = Modifier.size(36.dp).clickable { search = "" }
+                                .semantics { contentDescription = "Clear" },
+                        ) { Icon(Sym.CancelFill, null, tint = brand.inkSoft, modifier = Modifier.size(18.dp)) }
                     }
                 }
             },

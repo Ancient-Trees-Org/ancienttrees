@@ -241,4 +241,11 @@
     <string name="nearby_dismiss">閉じる</string>
     <!-- The launch loading screen, after six seconds (ContentView.swift slowStart). -->
     <string name="slow_start">読み込みに時間がかかっています。アプリを閉じてもう一度開いてください。それでも続く場合はお知らせください。</string>
+    <string name="tree_your_photo">あなたの写真</string>
+    <string name="tree_your_photos">あなたの写真</string>
+    <string name="tree_your_photo_live">あなたの写真がこのページに載っています</string>
+    <string name="tree_your_photo_share">写真をシェア</string>
+    <string name="tree_your_photo_share_text">%2$sの%1$sを撮った私の写真がAncient Treesに載っています。</string>
+    <string name="catalogue_broken">カタログに問題があります</string>
+    <string name="catalogue_broken_sub">木を読み込めませんでした。アプリを閉じてもう一度開いてください。</string>
 </resources>

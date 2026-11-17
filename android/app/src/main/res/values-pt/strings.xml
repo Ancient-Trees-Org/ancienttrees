@@ -242,4 +242,11 @@
     <string name="nearby_dismiss">Dispensar</string>
     <!-- The launch loading screen, after six seconds (ContentView.swift slowStart). -->
     <string name="slow_start">Isto está a demorar mais do que devia. Feche a app e volte a abri-la e, se continuar a acontecer, diga-nos.</string>
+    <string name="tree_your_photo">A tua fotografia</string>
+    <string name="tree_your_photos">As tuas fotografias</string>
+    <string name="tree_your_photo_live">A tua fotografia está nesta página</string>
+    <string name="tree_your_photo_share">Partilhar a tua fotografia</string>
+    <string name="tree_your_photo_share_text">A minha fotografia de %1$s em %2$s está no Ancient Trees.</string>
+    <string name="catalogue_broken">Há um problema com o catálogo</string>
+    <string name="catalogue_broken_sub">Não foi possível ler as árvores. Fecha a app e abre-a de novo.</string>
 </resources>

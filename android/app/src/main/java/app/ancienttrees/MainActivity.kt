@@ -194,6 +194,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     val context = LocalContext.current
     val store = remember { CatalogueStore(context.applicationContext) }
     var catalogue by remember { mutableStateOf<Catalogue?>(null) }
+    var catalogueBroken by remember { mutableStateOf(false) }
     // A place, species or tree a tree page sends to the map.
     var go by remember { mutableStateOf<Pair<Long, SearchHit>?>(null) }
     // THE TABS AND THEIR STACKS (Pages.kt, ContentView.swift's three paths).
@@ -505,6 +506,33 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     }
     // Back from Settings with location turned on.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { granted = locationGranted(context) }
+    // COMING BACK ASKS AGAIN, as ContentView's scenePhase .active does: the server's
+    // switches, a profile that never arrived, and the catalogue's version (the Tangier
+    // fig, 2026-10-21: a phone keeps the app in memory for days). The launch does all
+    // three already, so the first resume is skipped; refreshing guards a second ask.
+    var resumedOnce by remember { mutableStateOf(false) }
+    var refreshing by remember { mutableStateOf(false) }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        if (!resumedOnce) { resumedOnce = true; return@LifecycleEventEffect }
+        scope.launch { app.ancienttrees.ui.AppSwitches.refresh(launch.args) }
+        if (account.session != null && !profiles.meLoaded) {
+            scope.launch { profiles.load(account.session?.userId, account.fresh()?.accessToken) }
+        }
+        val current = catalogue
+        if (current != null && !refreshing) {
+            refreshing = true
+            scope.launch {
+                try {
+                    store.refresh(current.version)?.let {
+                        catalogue = it
+                        app.ancienttrees.feed.CataloguePreload.keep(it)
+                    }
+                } finally {
+                    refreshing = false
+                }
+            }
+        }
+    }
 
     // The parity script's launch arguments: the iPhone's own (LaunchArgs.kt).
     val fixedAt = launch.at
@@ -548,6 +576,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             catalogue = it
             app.ancienttrees.feed.CataloguePreload.keep(it)
         }
+        // Neither the copy on the phone nor the server's: say so (ContentView's loadError).
+        if (catalogue == null) catalogueBroken = true
     }
 
     // A tree page opened counts as seen; closing it is the pause where the review ask may come.
@@ -706,6 +736,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                 onSpecies = { name -> openSpecies(name) },
                 onFullMap = { nav.push(app.ancienttrees.ui.Page.TreeMap(tree.id)) },
                 onPlacePin = { placing = tree },
+                onOpenPerson = { id -> routes.openPerson(id) },
+                // Your own photographs of this tree (TreeDetail.yourShots), newest first.
+                ownShots = myTrees.all.filter { it.treeId == tree.id && it.photo != null },
+                myTrees = myTrees,
+                onShareOwn = { text -> share(context, tree, "your_photo", text) },
                 collectedAt = saves.collectedAt[tree.id],
                 // REMOVED AT ONCE, WITH UNDO (TreeDetail.uncollectWithUndo): the
                 // photographs stay, Undo puts the tick back on its first day.
@@ -781,6 +816,13 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (nav.tab == 2 && account.session != null) {
             saves.load()
             myTrees.load(force = true)
+            // Collect.swift's task: a profile that never arrived is asked for again,
+            // and the early-adopter badge is read with the rest.
+            val t = account.fresh()?.accessToken
+            if (!profiles.meLoaded) profiles.load(account.session?.userId, t)
+            if (t != null && "-earlyadopter" !in launch.args && "-earlyadoptersheet" !in launch.args) {
+                app.ancienttrees.account.EarlyAdopter.status(t)?.let { st -> earlyAdopter = st.hasBadge }
+            }
         }
     }
     val barGlass = dev.chrisbanes.haze.rememberHazeState()
@@ -1078,7 +1120,32 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         // THE LAUNCH LOADING SCREEN (ContentView.swift:869-895): until the catalogue is
         // read, the mark and a spinner on the app's own ground, never a bare map; after
         // six seconds a line saying it is taking too long.
-        if (catalogue == null) {
+        if (catalogue == null && catalogueBroken) {
+            androidx.compose.foundation.layout.Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(10.dp, Alignment.CenterVertically),
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(app.ancienttrees.ui.Brand.colors.ground)
+                    .padding(horizontal = 40.dp)
+                    .testTag("catalogue-broken"),
+            ) {
+                androidx.compose.material3.Icon(app.ancienttrees.ui.Sym.Info, null, tint = app.ancienttrees.ui.Brand.colors.inkSoft, modifier = Modifier.size(40.dp))
+                app.ancienttrees.ui.Text(
+                    androidx.compose.ui.res.stringResource(R.string.catalogue_broken),
+                    fontSize = 17.sp,
+                    fontWeight = androidx.compose.ui.text.font.FontWeight.SemiBold,
+                    color = app.ancienttrees.ui.Brand.colors.ink,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+                app.ancienttrees.ui.Text(
+                    androidx.compose.ui.res.stringResource(R.string.catalogue_broken_sub),
+                    fontSize = 13.sp,
+                    color = app.ancienttrees.ui.Brand.colors.inkSoft,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+            }
+        } else if (catalogue == null) {
             var slowStart by remember { mutableStateOf(false) }
             LaunchedEffect(Unit) { kotlinx.coroutines.delay(6000); slowStart = true }
             androidx.compose.foundation.layout.Column(

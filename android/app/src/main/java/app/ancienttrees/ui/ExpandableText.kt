@@ -49,15 +49,18 @@ fun ExpandableText(text: AnnotatedString, lines: Int, style: TextStyle, modifier
     Box(
         modifier
             .fillMaxWidth()
+            // The trim outside the tap: inside it, the bottom of the last line, where
+            // "more" sits, fell outside the tappable area (Hidde on his Samsung,
+            // 2026-11-17: "drie keer op more klikken").
+            .layout { m, c ->
+                val p = m.measure(c)
+                layout(p.width, p.height - foldTrim) { p.place(0, 0) }
+            }
             .clickable(
                 enabled = cut && !expanded,
                 interactionSource = remember { MutableInteractionSource() },
                 indication = null,
-            ) { expanded = true }
-            .layout { m, c ->
-                val p = m.measure(c)
-                layout(p.width, p.height - foldTrim) { p.place(0, 0) }
-            },
+            ) { expanded = true },
     ) {
         Text(
             text,

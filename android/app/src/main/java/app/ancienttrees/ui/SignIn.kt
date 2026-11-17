@@ -198,6 +198,8 @@ private fun Ask(account: Account, reason: SignInReason) {
     var fieldFocused by remember { mutableStateOf(false) }
     val working = account.state is SignIn.Working
     val focus = remember { FocusRequester() }
+    val focusManager = androidx.compose.ui.platform.LocalFocusManager.current
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
 
     Column(verticalArrangement = Arrangement.spacedBy(24.dp)) {
         // THE HEADER: the app's own icon, the brand face at 26, centred.
@@ -232,9 +234,14 @@ private fun Ask(account: Account, reason: SignInReason) {
                     emailOpen = true
                 }
             } else {
-                LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+                // focus = .email brings the keyboard up on the iPhone; inside a sheet
+                // requestFocus alone left it down on the Samsung, so ask for it too.
+                LaunchedEffect(Unit) { runCatching { focus.requestFocus() }; keyboard?.show() }
                 val suggestion = EmailSuggest.suggestion(address)
                 val send = {
+                    // Both ways the field lets go and the keyboard goes down
+                    // (SignIn.swift send(): focus = nil before the hold and the send).
+                    focusManager.clearFocus()
                     if (suggestion != null && heldFor != address.trim()) {
                         heldFor = address.trim()
                     } else {

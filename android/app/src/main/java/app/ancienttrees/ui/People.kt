@@ -448,12 +448,15 @@ private fun RefreshableWhen(on: Boolean, refreshing: Boolean, onRefresh: () -> U
 @Composable
 private fun SearchField(query: String, onChange: (String) -> Unit) {
     val brand = Brand.colors
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     BasicTextField(
         value = query,
         onValueChange = onChange,
         singleLine = true,
         textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
-        keyboardOptions = KeyboardOptions(autoCorrectEnabled = false),
+        // .searchable's Search key puts the keyboard away (MapSearch.kt's field).
+        keyboardOptions = KeyboardOptions(autoCorrectEnabled = false, imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+        keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { keyboard?.hide() }),
         // The iPhone's bar carries its search field in 60 under the 54 (SweepFrames
         // people: the first cell at 114 below the safe area): iOS 26's white capsule,
         // 44 tall with a soft shadow, right under the bar, then 16 (its shot: 117 to
@@ -471,6 +474,14 @@ private fun SearchField(query: String, onChange: (String) -> Unit) {
                 Box(Modifier.weight(1f)) {
                     if (query.isEmpty()) Text(stringResource(R.string.people_search), fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.8f))
                     inner()
+                }
+                // .searchable's clear button once there is text (MapSearch.kt's).
+                if (query.isNotEmpty()) {
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier.size(44.dp).clickable { onChange("") }
+                            .semantics { contentDescription = "Clear" },
+                    ) { Icon(Sym.CancelFill, null, tint = brand.inkSoft, modifier = Modifier.size(20.dp)) }
                 }
             }
         },
