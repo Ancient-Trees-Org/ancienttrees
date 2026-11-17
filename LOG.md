@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: nothing new (a second run on the Lightning Ridge coolibah)
+
+- A second run picked up the coolibah (9620278d) at the same time as the one below and wrote it too. At push it found lightning-ridge/lri_001 already live and threw its copy away. Its one addition: Lightning Ridge is now looked up in data/city-aliases.json (no other names), which clears preflight's note. No other reader's tree, report, tip or feedback was waiting.
+
 ## 2026-11-17 reader judge: an old coolibah near Lightning Ridge is live
 
 - **Live: The Coolibah South of Lightning Ridge (lightning-ridge/lri_001, NSW, Australia), sighting 9620278d.** It was sent through the app with a GPS fix at the tree and two photographs, both viewed. The tree is a massive hollow trunk in open bush with limbs sweeping almost to the ground and a man at its foot for scale, in daylight and colour. It ships under the closed list. The pin is the GPS fix (confirmed). The reader's 500 years (with their question mark) and 7.5 m girth are stated as theirs, and `girth_cm` is left empty. OpenStreetMap names no road or site at the fix, so the access line says the landowner is unconfirmed and to ask locally (as Tilarán did). It is a new one-tree place, so there is no place page yet (`PLACE_PAGE_MIN_TREES`). The photo has no date, shows no snow and has no `taken_month`. The reader's congratulation goes through the usual `tree_approved.py` route.
