@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: website and mailed photographs count as collected
+
+- **Changed (Hidde, Katie on the Arbour Oak had 0 collected: "alle bomen die niet via de app zijn gekomen, maar via web of mail ... dat moet natuurlijk wel vanaf nu")**: `sightings_link.py tick_collected()`, which runs every knock, ticked only app photographs. It now also ticks a tree added through the website's form with a photograph (`submissions`, photo id `tip-<n>`, whether or not the photo made the page) and a mailed photograph whose sender has an account (name on the photo, address in the private send log, account with that address; `mailed_ticks()`).
+- **Recovered today**: 14 website-form trees now in their senders' Collected (Katie's ntm_001 among them), plus 3 mailed ones (Michael Roe edi_003, un albero al giorno pad_013 and pad_014; the Cramond Association already had edi_008). The same run linked 22 app sightings the knock had not reached yet. Not recoverable: the Singapore mail photos carry no name, and Hannah Mayr, Hans Hofele, Ricard Llerins Bonet and the Barcelona archive have no account.
+
 ## 2026-11-17 reader judge: a new lead photo for the Greenwich chestnut
 
 - **The Twisted Sweet Chestnut of Greenwich Park (lon_053)** has a new lead photo from the same reader who sent the old one: the whole tree, lit from the front under a gold crown. The older, backlit shot moved into the gallery. The reader's mail waits in the weekly bundle (pending, not sent).
