@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a reader's photograph now leads the Ankerwycke Yew
+
+- **Live: a reader's photograph of the Ankerwycke Yew (Runnymede, ank_001), sighting 5e906833.** It shows the hollow, fluted, buttressed trunk in daylight, and its GPS fix is 7 m from our pin. It went in as `add`, so the reader's photo is now the lead and the old one moves into the strip. The pin was already confirmed, so it stays where it is; the pin step's HTTPError changed nothing. The reader's mail goes through the usual weekly bundle.
+- No open reports, no unjudged tips, no feedback without a verdict, no reader words waiting.
+- **Not judged: 37 older leads in data/leads/_sightings.json** (status `lead`, no `hold`; Nara, Kyoto, Taketa, Kagoshima, Miyazaki, Tokyo, Baarn). None of their photographs are on this runner, since only today's file is in out/sightings/, and a photograph is never judged blind. Most are Hidde's own account (`mine`), not readers' trees. A run that fetches their files can judge them.
+
 ## 2026-11-17 reader judge: the Signal Tree in Akron waits as a lead
 
 - **Lead: tip 1115, the Signal Tree, Akron.** It is a three-pronged bur oak of 250 to 350 years in Cascade Valley Metro Park, alive and cared for by Davey Tree (2025). It is not live because Summit Metro Parks has closed the Chuckery Area and its Peck Road entrance since 2023 for the Gorge Dam work, with closures expected through at least 2028. It is recorded in data/leads/akron.json with its sources and the reader's pin. The tip carries the reader's own words, so the answer is a draft, not a sent mail.

@@ -51,14 +51,17 @@
       "access": "Free. On National Trust open parkland at Runnymede and Ankerwycke, reached via a public path/circular walk from Magna Carta Lane; no ticket or permission needed to see the tree. Parking on site is limited and may be chargeable for non-members; the tree itself is not behind any gate.",
       "transport": "Wraysbury railway station (Windsor & Eton Riverside to London Waterloo line) is the nearest, about 0.8 miles / a 20-30 minute walk via the riverside path (routes are indirect, following the Thames and field paths rather than a straight line); the infrequent 305 bus from Wraysbury station stops at Magna Carta Lane, closer still.",
       "photo": {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72784036/large.jpg",
-        "license": "CC BY",
-        "attribution": "Liam Maguire, via iNaturalist",
+        "url": "https://ancienttrees.app/photos/ank_001-the-ankerwycke-yew-5e906833.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-15",
-        "width": 768,
-        "height": 1024
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "source": "contributor",
+        "contributor_user_id": "p_766a80fcd6ef135c437a5c7d",
+        "sighting_id": "5e906833-f5e8-4dbc-89df-ded1eb25e996",
+        "note": "Photographed by a reader and sent through the app (2023-05-23); a viewing pass approved it on 2026-11-17: The Ankerwycke Yew itself: the hollow, deeply fluted and buttressed trunk splitting into several stems, open ground of bark chips around it, GPS fix 7 m from our pin. Daylight, colour, the trunk fills the frame. Species seen: yew: flat dark-green needles on drooping sprays, reddish-brown flaking bark on fluted stems. Fits the description: a vast hollow, buttressed trunk opening into separate fluted stems, hollows at the base, exactly the shape the recognition line and story describe.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -82,7 +85,19 @@
       "official_register": {
         "name": "Ancient Tree Inventory (Woodland Trust)",
         "url": "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=2121"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72784036/large.jpg",
+          "license": "CC BY",
+          "attribution": "Liam Maguire, via iNaturalist",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-15",
+          "width": 768,
+          "height": 1024
+        }
+      ]
     }
   ]
 }

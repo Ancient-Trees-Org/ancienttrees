@@ -3867,6 +3867,28 @@
    "agreed": null
   },
   {
+   "id": "sight:5e906833-f5e8-4dbc-89df-ded1eb25e996",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/5e906833-f5e8-4dbc-89df-ded1eb25e996.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 7,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Photo looked at: the Ankerwycke Yew's own hollow, fluted, buttressed trunk in daylight, GPS 7 m from our confirmed pin. Added as the lead photograph (add), the old lead moves into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
