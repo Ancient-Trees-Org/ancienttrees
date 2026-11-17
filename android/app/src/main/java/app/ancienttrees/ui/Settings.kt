@@ -155,7 +155,7 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                     DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, modifier = Modifier.background(brand.surface)) {
                         for (m in listOf(false, true)) {
                             DropdownMenuItem(
-                                text = { Text(stringResource(if (m) R.string.units_miles else R.string.units_km), color = brand.ink) },
+                                text = { MenuText(stringResource(if (m) R.string.units_miles else R.string.units_km)) },
                                 // A Picker in a Menu ticks the current value (Profile.swift:243).
                                 leadingIcon = { MenuTick(m == miles) },
                                 onClick = { Units.set(context, m); miles = m; menu = false },
@@ -175,8 +175,8 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                     DropdownMenu(expanded = dirMenu, onDismissRequest = { dirMenu = false }, modifier = Modifier.background(brand.surface)) {
                         for (a in Directions.MapsApp.entries) {
                             DropdownMenuItem(
-                                text = { Text(a.label(context), color = brand.ink) },
-                                leadingIcon = { MenuTick(a == directionsApp) },
+                                text = { MenuText(a.label(context)) },
+                                leadingIcon = if (directionsApp == null) null else { { MenuTick(a == directionsApp) } },
                                 onClick = { Directions.setPreferred(context, a); directionsApp = a; dirMenu = false },
                             )
                         }
@@ -435,6 +435,16 @@ private fun RowFrame(onClick: () -> Unit, tag: String?, vertical: Dp = 0.dp, con
 }
 
 /** The tick beside a menu's current value, or its room when it is not current (Menu with a Picker). */
+/**
+ * A menu item's words in the app's own text (Hidde, 2026-11-17: menus "lijken opeens
+ * een heel ander lettertype"): Material's menu sets its label style, Inter Medium 14,
+ * so every menu read heavier and smaller than the rows around it. 16, regular.
+ */
+@Composable
+fun MenuText(text: String, color: androidx.compose.ui.graphics.Color = Brand.colors.ink) {
+    Text(text, color = color, fontSize = 16.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Normal)
+}
+
 @Composable
 fun MenuTick(on: Boolean) {
     Box(Modifier.size(20.dp), contentAlignment = Alignment.Center) {

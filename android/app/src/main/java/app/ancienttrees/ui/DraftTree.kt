@@ -300,7 +300,7 @@ fun DraftTree(
                                 }
                                 DropdownMenu(expanded = tileMenu, onDismissRequest = { tileMenu = false }, containerColor = brand.surface) {
                                     DropdownMenuItem(
-                                        text = { Text(stringResource(R.string.collect_camera), color = brand.ink, fontSize = 16.sp) },
+                                        text = { MenuText(stringResource(R.string.collect_camera), brand.ink) },
                                         trailingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
@@ -308,7 +308,7 @@ fun DraftTree(
                                         },
                                     )
                                     DropdownMenuItem(
-                                        text = { Text(stringResource(R.string.cf_choose), color = brand.ink, fontSize = 16.sp) },
+                                        text = { MenuText(stringResource(R.string.cf_choose), brand.ink) },
                                         trailingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
@@ -508,7 +508,7 @@ private fun DraftTopButtons(
                 @Composable
                 fun item(label: Int, icon: androidx.compose.ui.graphics.vector.ImageVector, danger: Boolean = false, go: () -> Unit) =
                     DropdownMenuItem(
-                        text = { Text(stringResource(label), color = if (danger) brand.dangerText else brand.ink, fontSize = 16.sp) },
+                        text = { MenuText(stringResource(label), if (danger) brand.dangerText else brand.ink) },
                         trailingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
                         onClick = {
                             menu = false
