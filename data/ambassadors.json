@@ -878,6 +878,26 @@
         "The Ombu of the Essaouira Medina"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e4cf35da312b73472f8b6291",
+      "place_slug": "cannock-chase",
+      "place_name": "Cannock Chase",
+      "date": "2026-11-17",
+      "trees": [
+        "The Plaited Birch of Brocton"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5428454fcb4709329e1ac069",
+      "place_slug": "orroroo",
+      "place_name": "Orroroo",
+      "date": "2026-11-17",
+      "trees": [
+        "The Orroroo Giant Gum"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
