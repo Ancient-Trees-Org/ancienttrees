@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (fifth pass): the Zamalek Banyan is live in Cairo
+
+- **New tree, cairo/cai_001, The Zamalek Banyan** (sighting 2bef0f92, sent through the app today): the photograph shows a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and railing, daylight. The reader linked Egyptian Streets (2022), which places a banyan about 150 years old on Al Borg street towards the Cairo Tower and dates the import of banyans by Khedive Ismail to 1868. The reader's GPS fix falls on that street, so the pin is confirmed. The source also calls the tree "the last standing one in Egypt" while naming another banyan at the Manial Palace, so the page makes no "last" claim. Cairo is a new one-tree place: it has its intro, question fields and three FAQ, and no place page until it grows. Egypt is out of focus only for our own research. Verdicts are recorded as `lead:` and `sight:`.
+- No reports or feedback were open. reader_words found nothing.
+- **Still open**: the same 16 photo-less tips as the fourth pass, left for a session for the reasons given there. The old `status: lead` rows in _sightings.json with no hold are all our own account's (`mine`) September and October shots. They are not readers' trees, so this run did not judge them.
+
 ## 2026-11-17 reader judge (fourth pass): the ledger caught up, sixteen tips left for a session
 
 - **Rhodes Bald Cypress (bng_001)**: judged the same snow photograph as the third pass, same verdict; theirs kept. Added only the season: no date in the file and deep snow in frame, so `taken_month` 1 with the basis recorded (it said 11, the upload month).

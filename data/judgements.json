@@ -3149,6 +3149,46 @@
    "agreed": null
   },
   {
+   "id": "lead:2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "the Zamalek Banyan",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_9ea9b8fd7f2977e46fcff89b/2BEF0F92-BD67-4694-8CEE-C97B5F4D3C6A.jpg",
+   "reader_note": "evey egyptian knows this tree. it’s very loved and celebrated here. Khedewy Ismail imported banyan trees from India back in 1868 and this is how it ended up here. i don’t even know if there’s more or if this is the only one that survived. \n\nhttps://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a banyan's crown and aerial-root pillars behind a wall and railing, daylight. Egyptian Streets (2022) names a 150-year-old banyan on Al Borg street by the Cairo Tower, where the GPS fix falls. Live as cairo/cai_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "the Zamalek Banyan",
+   "photo": "p_9ea9b8fd7f2977e46fcff89b/2BEF0F92-BD67-4694-8CEE-C97B5F4D3C6A.jpg",
+   "reader_note": "evey egyptian knows this tree. it’s very loved and celebrated here. Khedewy Ismail imported banyan trees from India back in 1868 and this is how it ended up here. i don’t even know if there’s more or if this is the only one that survived. \n\nhttps://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and iron railing, daylight, colour. Live as cairo/cai_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",

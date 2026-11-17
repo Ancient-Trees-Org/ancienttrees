@@ -5856,6 +5856,36 @@
    "seen": "2026-11-17",
    "hold": "doubt_location",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+   "user_id": "p_9ea9b8fd7f2977e46fcff89b",
+   "mine": false,
+   "name": "the Zamalek Banyan",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": "150",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "evey egyptian knows this tree. it’s very loved and celebrated here. Khedewy Ismail imported banyan trees from India back in 1868 and this is how it ended up here. i don’t even know if there’s more or if this is the only one that survived. \n\nhttps://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/",
+   "latitude": 30.0466,
+   "longitude": 31.2253,
+   "near": null,
+   "photo": "p_9ea9b8fd7f2977e46fcff89b/2BEF0F92-BD67-4694-8CEE-C97B5F4D3C6A.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: looking up from the street into a banyan's crown, grey limbs dropping curtains of aerial roots that have thickened into pillar trunks, a low wall and iron railing in front, daylight, colour. Live as cairo/cai_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "cairo/cai_001"
   }
  ]
 }

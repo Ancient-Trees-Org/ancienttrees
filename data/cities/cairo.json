@@ -1,0 +1,75 @@
+{
+  "city": "Cairo",
+  "country": "Egypt",
+  "status": "needs_curation",
+  "intro": "Cairo grew its modern quarters in the 1860s under Khedive Ismail, who laid out boulevards and gardens on European lines and, by one account, brought banyan trees from India to plant in them. On Zamalek, the island in the Nile, one of those banyans still stands beside the street to the Cairo Tower, dropping its aerial roots into new trunks. A reader sent us its photograph.",
+  "meta_description": "The Zamalek Banyan in Cairo, about 150 years old by Egyptian Streets' account: where it stands near the Cairo Tower and its history.",
+  "hero_tree_id": "cai_001",
+  "oldest_tree_id": "cai_001",
+  "trees": [
+    {
+      "id": "cai_001",
+      "name": "The Zamalek Banyan",
+      "species": "Indian Banyan (Ficus benghalensis)",
+      "age_estimate": "about 150 years",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Al Borg street, near the Cairo Tower, Zamalek (Gezira), Cairo",
+        "latitude": 30.0466,
+        "longitude": 31.2253,
+        "neighbourhood": "Zamalek"
+      },
+      "story": "\"Every Egyptian knows this tree,\" wrote the reader who sent us this photograph from Zamalek, the island in the Nile at the heart of Cairo. \"It's very loved and celebrated here.\"\n\nIt is an Indian banyan, and its history runs back to Khedive Ismail, the ruler who rebuilt Cairo on European lines in the 1860s. Egyptian Streets, which wrote about the tree in 2022, says he imported banyans from India in 1868 and planted them in Garden City, Azbakeya and Zamalek; it puts this one at about 150 years old, on Al Borg street, the road people take to the Cairo Tower. The reader gives the same story and wonders whether it is the only one left. Another old banyan grows in the gardens of the Manial Palace on Roda island.\n\nThe photograph is taken from below, looking up into the crown. Grey limbs reach out in every direction, and from them hang curtains of aerial roots, some still thin as rope, others grown into pillars as thick as trunks, the way a banyan walks outward over the years. A low wall and an iron railing stand in front of it.\n\nWalk along the railing and look for where the hanging roots have reached the ground.",
+      "how_to_recognise": "Beside the street to the Cairo Tower: a broad banyan whose grey limbs drop curtains of aerial roots, some grown into pillar trunks, behind a low wall and iron railing.",
+      "verified_sources": [
+        "https://egyptianstreets.com/2022/03/30/indian-roots-in-egyptian-the-banyan-tree-in-zamalek/ (Egyptian Streets, 2022: the banyan tree in Zamalek on Al Borg street towards the Cairo Tower, about 150 years old, from banyans Khedive Ismail imported from India in 1868; cited by the reader)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+        "date": "2026-11-17"
+      },
+      "access": "Seen from the street on the way to the Cairo Tower; the tree stands behind a low wall and railing.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree (the app's fix, given to four decimals, about 10 m); it falls on the street Egyptian Streets names, about 120 m from the Cairo Tower."
+      },
+      "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (2bef0f92-bd67-4694-8cee-c97b5f4d3c6a), named 'the Zamalek Banyan', Indian Banyan, age 150, with a link to Egyptian Streets. Photograph viewed: looking up from the street into a banyan's crown, grey limbs dropping curtains of aerial roots that have thickened into pillar trunks, a low wall and iron railing in front, daylight, colour. Egyptian Streets (2022) places a 150-year-old banyan on Al Borg street towards the Cairo Tower and gives the 1868 import by Khedive Ismail; it also calls it 'believed to be the last standing one in Egypt' while naming another at the Manial Palace, so no 'last' claim is made. The app's fix has four decimals (about 10 m) and lands on the street the source names, so it counts as a GPS fix (Hidde, 2026-10-14). Egypt is out of focus for our own research only, never for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cai_001-zamalek-banyan.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9ea9b8fd7f2977e46fcff89b",
+        "sighting_id": "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); viewed and approved on 2026-11-17: looking up from the street into a banyan's crown, grey limbs dropping curtains of aerial roots that have thickened into pillar trunks, a low wall and iron railing in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The Zamalek Banyan in Cairo, about 150 years old by Egyptian Streets' account: where it stands near the Cairo Tower and its history.",
+  "question_answer": "The Zamalek Banyan stands beside Al Borg street on Zamalek island, near the Cairo Tower. It is seen from the street, behind a low wall and railing.",
+  "question_context": "A reader who sent us this photograph says every Egyptian knows this tree, and that it is loved and celebrated in Cairo. It is an Indian banyan on Zamalek, the island in the Nile, standing beside Al Borg street, the road people take to the Cairo Tower. Egyptian Streets, writing about it in 2022, puts it at about 150 years old and traces it to Khedive Ismail, who imported banyans from India in 1868 and planted them in Garden City, Azbakeya and Zamalek while he rebuilt Cairo on European lines. The reader wonders whether it is the only one of them left; another old banyan grows in the gardens of the Manial Palace on Roda island. The reader's photograph looks up into the crown, where grey limbs reach out in every direction and drop curtains of aerial roots, some thin as rope and others grown into pillars as thick as trunks. A low wall and an iron railing stand in front of it, and the tree is seen from the street.",
+  "faq": [
+    {
+      "q": "Where is the Zamalek Banyan?",
+      "a": "On Zamalek island in Cairo, beside Al Borg street on the way to the Cairo Tower."
+    },
+    {
+      "q": "How old is the Zamalek Banyan?",
+      "a": "About 150 years, according to Egyptian Streets, which traces it to the banyans Khedive Ismail imported from India in 1868."
+    },
+    {
+      "q": "Can I visit the Zamalek Banyan?",
+      "a": "Yes. It is seen from the street, behind a low wall and railing."
+    }
+  ]
+}

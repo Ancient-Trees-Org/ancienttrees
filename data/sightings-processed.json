@@ -4289,21 +4289,24 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "dub_020",
-   "city_slug": "dublin"
+   "city_slug": "dublin",
+   "pin_checked": "2026-11-17"
   },
   "fb383f1e-0383-4579-9603-21cca3aedd94": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "mex_011",
    "reason": "A standing dead Montezuma cypress with bleached split stems in Bosque de Chapultepec, 4 km from the San Fernando tree (which is alive with a 22 m crown): El Sargento, judged as a new tree.",
-   "city_slug": "mexico-city"
+   "city_slug": "mexico-city",
+   "pin_checked": "2026-11-17"
   },
   "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "cnx_002",
    "reason": "A strangler fig whose roots have closed round boulders, beside a park path, 2.2 km from Wat Chedi Luang; not the yang na in the temple courtyard. Judged as a new tree.",
-   "city_slug": "chiang-mai"
+   "city_slug": "chiang-mai",
+   "pin_checked": "2026-11-17"
   },
   "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
    "outcome": "added",
@@ -4349,6 +4352,12 @@
    "lat": 42.64496,
    "lon": -88.12943,
    "pin_checked": "2026-11-17"
+  },
+  "2bef0f92-bd67-4694-8cee-c97b5f4d3c6a": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cai_001",
+   "city_slug": "cairo"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
