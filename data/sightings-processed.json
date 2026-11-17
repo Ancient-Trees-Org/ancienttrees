@@ -4284,6 +4284,50 @@
   "5e81af24-c36d-4b03-a6ed-92b1030ccca3": {
    "outcome": "published",
    "date": "2026-11-17"
+  },
+  "b59c4873-fd0a-4a92-a0d0-08074938e8f5": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "dub_020",
+   "city_slug": "dublin"
+  },
+  "fb383f1e-0383-4579-9603-21cca3aedd94": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "mex_011",
+   "reason": "A standing dead Montezuma cypress with bleached split stems in Bosque de Chapultepec, 4 km from the San Fernando tree (which is alive with a 22 m crown): El Sargento, judged as a new tree.",
+   "city_slug": "mexico-city"
+  },
+  "c1046494-aeff-40b3-81da-d0f3fc7ac3e4": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "cnx_002",
+   "reason": "A strangler fig whose roots have closed round boulders, beside a park path, 2.2 km from Wat Chedi Luang; not the yang na in the temple courtyard. Judged as a new tree.",
+   "city_slug": "chiang-mai"
+  },
+  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "ank_001",
+   "reason": "Duplicate: the same picture this reader sent on 2026-11-15, already the lead of the Baobab Plane of Penenden Heath (mdb_001, 0 m away); tagged to the Ankerwycke Yew by mistake."
+  },
+  "9c93b205-3812-4c19-9040-a4efe3511170": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "lon_052",
+   "reason": "Duplicate: the same picture this reader sent on 2026-09-12, already in the strip of Barney the Plane (lon_008, 18 m away); tagged to the Hampstead beech by mistake."
+  },
+  "0942bd2b-6e73-4443-a4b2-de9c6b4f3028": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "kan_003",
+   "reason": "A fine snow photograph of a big black pine in Kenrokuen with yukitsuri ropes, 95 m from our approximate pin, but it does not show the low branches over Kasumigaike pond that mark the Karasaki pine, and Kenrokuen holds hundreds of rigged pines (the Raised-Root Pine is 134 m away): the picture cannot "
+  },
+  "abb593f0-9a90-47cd-8138-1040de6f803c": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "tree_id": "azo_001",
+   "reason": "doubt_location"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

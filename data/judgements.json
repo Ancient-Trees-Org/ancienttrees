@@ -1832,8 +1832,8 @@
    "photo": "out/sightings/fb383f1e-0383-4579-9603-21cca3aedd94.jpg",
    "reader_note": "",
    "match": "app",
-   "verdict": "hold",
-   "reason": "Dead standing trunk, GPS 3.9 km from our tree; held.",
+   "verdict": "publish",
+   "reason": "Sent for mex_006 (alive, San Fernando) but shows El Sargento 4 km away: other_tree, then live as its own page mexico-city/mex_011.",
    "hidde": null,
    "agreed": null
   },
@@ -5926,7 +5926,7 @@
     "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
    },
    "verdict": "hold",
-   "reason": "A different fig with hanging aerial roots, not azo_001's buttress-rooted tree; sent from the page with no fix, so it cannot be placed",
+   "reason": "Not the trunk in azo_001's lead photograph: other_tree, held as doubt_location (coordinate is our pin).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -10952,8 +10952,8 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a strangler fig, not a Dipterocarpus, and the fix is 2.2 km from our pin.",
+   "verdict": "publish",
+   "reason": "Another tree than cnx_001 (other_tree); live as its own page chiang-mai/cnx_002.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -10992,8 +10992,8 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "Viewed: a weeping conifer, not a strawberry tree.",
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the weeping Atlas cedar in Glasnevin, the lead of dublin/dub_020.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -14001,6 +14001,128 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: a low leaning black mulberry, its trunk covered in burrs, propped by a post, behind a fence in a garden bed in Morden Hall Park; GPS fix at the tree. Somewhat special (a burred veteran shape), photo plus GPS: live as london/lon_054 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 78377,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b59c4873-fd0a-4a92-a0d0-08074938e8f5",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/B59C4873-FD0A-4A92-A0D0-08074938E8F5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 11 m away (ireland-heritage-trees): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 53.37245,
+      "lng": -6.27075,
+      "source": "ireland-heritage-trees",
+      "designation": "",
+      "name": "",
+      "species": "Arbutus unedo x andrachne = A. x andrachnoides",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 11.2
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photo viewed: a weeping blue Atlas cedar whose branches hang to the grass, a path in under its arch, GPS fix in the National Botanic Gardens; none of the five trees offered (our Atlas cedar has upswept branches 170 m away). Live as dublin/dub_020.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fb383f1e-0383-4579-9603-21cca3aedd94",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Mexico City",
+   "species": null,
+   "photo": "p_43296b4149990a775a24a4a6/FB383F1E-0383-4579-9603-21CCA3AEDD94.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photo viewed: two bleached, split dead trunks of a Montezuma cypress in Bosque de Chapultepec, GPS fix in front of it; El Sargento (Wikipedia, Chapultepec, CDMX tourism), standing dead and striking under the Ochi rule. Live as mexico-city/mex_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Chiang Mai",
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/C1046494-AEFF-40B3-81DA-D0F3FC7AC3E4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Sent for the yang na at Wat Chedi Luang; photo shows a strangler fig whose fused roots hold stone-like lumps, beside a park road 2.2 km west, GPS fix. Live as chiang-mai/cnx_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:abb593f0-9a90-47cd-8138-1040de6f803c",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Azores",
+   "species": null,
+   "photo": "p_20f572b893cc30e44a00d316/abb593f0-9a90-47cd-8138-1040de6f803c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a fig with curtains of aerial roots, sent from azo_001's page so its coordinate is our pin; a different trunk from our lead photo. Held until we know where it stands.",
    "hidde": null,
    "agreed": null
   }

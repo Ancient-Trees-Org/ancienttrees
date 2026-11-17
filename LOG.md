@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (second pass): El Sargento, a weeping cedar and a Chiang Mai fig go live
+
+- **Live (every photograph viewed, GPS fix at each)**: **El Sargento** (mexico-city/mex_011), Chapultepec's ahuehuete, dead since 1969 and still standing, under the standing-dead exception, sourced (Wikipedia, Chapultepec, CDMX tourism, Mexico Desconocido), with the Spanish overlay entry; the Mexico City intro and FAQ, which said it was not on the page, now say it is (English and Spanish). **The Weeping Cedar Tunnel of Glasnevin** (dublin/dub_020): the reader was unsure which of five trees it was, and it is none of them; Dublin's counts go from 19 to 20. **The Fig That Holds the Stones** (chiang-mai/cnx_002), a strangler fig west of the old city. This run also built the Morden mulberry, but the pass above had already published it as lon_054, so its version stands.
+- **Queue**: El Sargento and the Chiang Mai fig had been sent for mex_006 and cnx_001, so both became `other_tree` first. Two photos the 11-17 session listed as "worth a page" are exact copies of pictures already on our trees: e7bef8af is the Baobab Plane's lead (mdb_001), and 9c93b205 is in Barney's strip (lon_008). Both were rejected as duplicates. The Kanazawa snow pine (0942bd2b) is held: it does not show the Karasaki pine's low branches over the pond, and Kenrokuen has hundreds of rigged pines.
+- **Held**: the Azores aerial-root fig (abb593f0) is held as `doubt_location`. It was sent from azo_001's page, so its coordinate is our pin, and it is a different trunk from azo_001's lead photograph. **For a session**: our azo_001 recognition line ("mass of aerial roots") may fit this fig better than the lead photo does. Check which fig is the regional sheet's.
+- Not done: _famous-mexico.json still lists El Sargento as a lead (preflight note). This run's duplicate mulberry image was moved out of site/public/photos into out/tmp/ and never committed.
+
 ## 2026-11-17 reader judge: a burred mulberry in Morden Hall Park goes live; the Dujiangyan ginkgo's pin is now marked approximate
 
 - **The Burred Mulberry of Morden Hall Park (london/lon_054)** is live from a reader's photograph and GPS fix: a low, leaning black mulberry with a burred trunk, behind a protective fence in the National Trust park. The pin is confirmed. Its story quotes the reader's note. There is no age or girth yet, and the page asks for them.

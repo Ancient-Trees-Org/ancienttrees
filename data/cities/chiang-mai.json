@@ -62,6 +62,47 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "cnx_002",
+      "name": "The Fig That Holds the Stones",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Beside a park road west of the old city, Chiang Mai",
+        "latitude": 18.7931366666667,
+        "longitude": 98.966295,
+        "neighbourhood": "West of the old city"
+      },
+      "how_to_recognise": "Beside a park road: a pale grey fig whose trunk is a lattice of fused roots, with rounded brown lumps like stones held in the gaps between them, and roots spreading over the ground to the kerb.",
+      "access": "The reader photographed it from a park road with people walking by; we have not confirmed the park's name or opening hours.",
+      "story": "A reader walking in Chiang Mai sent us this fig with a GPS fix taken at its foot, west of the old city, and the photograph shows a tree that has grown round something.\n\nThe trunk is not one trunk but a lattice of pale grey roots that have climbed together and fused, the mark of a strangler fig, which begins life high in another tree and sends its roots down until they become a trunk of their own. In the gaps of that lattice sit rounded brown lumps that look like stones, held tight where the roots closed round them. Whether they are stones, or what is left of the tree the fig once climbed, we cannot tell from the picture. At the bottom the roots spread out over the ground in a web that runs right to the kerb of the road.\n\nWe do not know the fig's species, its age, or the name of the park it stands in. If you know this tree, tell us here and we will put your words on the page.\n\nStand close on the road side, where you can see right into the gaps between the roots.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (c1046494-aeff-40b3-81da-d0f3fc7ac3e4, 2026-11-17, through the app). Photograph viewed: a pale fig trunk made of fused roots that have grown round rounded brown lumps like boulders, a web of surface roots running over the ground to the kerb of a park road, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cnx_002-fig-that-holds-the-stones.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: a pale fig trunk made of fused roots that have grown round rounded brown lumps like boulders, a web of surface roots running over the ground to the kerb of a park road, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }
