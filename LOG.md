@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the kauri's photo off the Huntington cypress, two more reports answered
+
+- **Fixed (reader report 1000061, "on the map twice")**: the Huntington Montezuma Cypress (lax_017) was showing the kauri's photograph, byte for byte. The same reader sent one picture twice, once tagged to the cypress, and a viewing pass approved it (broad leaves, the orange trunk and the champion sign: the kauri). Taken off lax_017, which is back to no photo; the file is deleted and sighting ee54ed84 is now held `wrong_tree`. lax_011 keeps the photo. Reply queued.
+- **Reports closed**: 1000028 (Husalle Lindens: the page is the whole avenue, and the reply says so), 1000035 (Chiang Mai: collected 2 km from our GPS-confirmed pin, no sighting on file; answered).
+- **Still open, Isparta 1000042**: the drag comes from the tree's own finder, so it should be taken. But it lands on 144. Cadde in Sülübey (Nominatim), about 900 m from the city's only Çınar Sokak, and the name, slug, story, intro, question texts and FAQ all say Çınar Sokak. Needs a session to rename with a redirect, or the finder's word on which street.
+- This run also judged the Valley Forge sycamore and the three holds, but the parallel run's commit got there first (entry below) and its version stands.
+- preflight 0 problems.
+
 ## 2026-11-17 session: every feedback message gets a recorded verdict
 
 - **Built** (Hidde: "Hou er ergens bij of feedback is behandeld of niet ... wat ik moet zien, zijn de dingen die openstaan"): scripts/feedback.py and data/feedback-ledger.json (id, status handled/needs_hidde/doubt, our one-line summary, never their words); the reader judge now handles new feedback too (brief "General feedback", the poll wakes on it, one-tap votes ignored), never sends a reply; the digest gets "Open for you" (`open_for_you_section()`): only what needs Hidde plus reports the judge left open.
