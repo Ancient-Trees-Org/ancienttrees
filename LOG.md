@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge (sixth pass): the Cheapside Plane's pin is on its corner now, and a reader's photograph leads its page
+
+- **The Cheapside Plane (lon_003)**: a reader sent a photograph through the app showing the tree in full leaf behind the churchyard railings, in daylight. It was added and now leads the page. The same reader reported "wrong location" (1000072, "Corner of wood street and cheapside"), and they were right. Our "confirmed" pin stood 190 m up Wood Street. It now sits on their GPS fix at the corner the story names, and `pin_source` records the move. `tree_reports.py --thank` refused because their line counts as their own words, so the report is closed `holds` and a suggested reply is in drafts/reply-reader-1000072-2026-11-17.md for Hidde.
+- This run also built the Zamalek Banyan, but the fifth pass (below) pushed it first. On the rebase, main's version was kept whole and only the Cheapside work was carried over.
+
 ## 2026-11-17 reader judge (fifth pass): the Zamalek Banyan is live in Cairo
 
 - **New tree, cairo/cai_001, The Zamalek Banyan** (sighting 2bef0f92, sent through the app today): the photograph shows a banyan's grey limbs dropping aerial roots grown into pillar trunks, behind a low wall and railing, daylight. The reader linked Egyptian Streets (2022), which places a banyan about 150 years old on Al Borg street towards the Cairo Tower and dates the import of banyans by Khedive Ismail to 1868. The reader's GPS fix falls on that street, so the pin is confirmed. The source also calls the tree "the last standing one in Egypt" while naming another banyan at the Manial Palace, so the page makes no "last" claim. Cairo is a new one-tree place: it has its intro, question fields and three FAQ, and no place page until it grows. Egypt is out of focus only for our own research. Verdicts are recorded as `lead:` and `sight:`.

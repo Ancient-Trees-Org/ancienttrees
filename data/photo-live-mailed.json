@@ -1846,6 +1846,15 @@
      "city_slug": "london",
      "display_name": null,
      "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+     "tree_id": "lon_003",
+     "tree_name": "The Cheapside Plane",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
     }
    ],
    "sent": []

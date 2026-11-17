@@ -14245,6 +14245,28 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:0b4c9e0a-916e-4f6c-a11c-d6850563f822",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Cheapside Plane",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/0b4c9e0a-916e-4f6c-a11c-d6850563f822.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 192,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the Cheapside Plane in full leaf behind the churchyard railings at Wood Street and Cheapside, daylight and colour; added and now leads the page. Their GPS fix and report 1000072 moved our pin 190 m to the corner the story names.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
