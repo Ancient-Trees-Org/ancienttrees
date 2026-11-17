@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: the reader system's holes closed
+
+- **Deploy unblocked**: every deploy since 12:53 failed QA on a reader's raw account id in data/leads/_sightings.json (a photo path written by a reader judge run); now coded with people.ref. `check_no_reader_traces_in_the_repo()` moved into qa's source-only checks, so it refuses the push, not the deploy an hour later. The raw id stays in git history (no force-push, hard rule 3); it is an opaque account id, no name or address.
+- **Tips without a photograph get a verdict**: judgement.py's scan stubs them as `tip:<id>` (the app's uuid-named row beside a photographed tree is skipped); `--count` and `--unjudged`; the reader judge's gate and brief take them. Escaped bug closed with scripts/test_judgement_tips.py. 14 such tips from 11-15/16 now wait for the judge (Heidelberg oaks, Cape Town fig, Tsitsikamma, Nossob, Sagole baobab, Camaldoli chestnut, Mouchão olive and others).
+- **Judge minutes counted**: scripts/judge_budget.py (79 agent minutes on its first day, invisible to run_health); the workflow starts no agent past 120 a day.
+- **Alarm**: scripts/reader_backlog.py, read by health.py: anything a reader sent that waited over 24h without a verdict is RUNG 2. It found three at once (tips 802, 820, 850 from 11-15).
+- **Found, not fixable here**: GitHub dropped the reader judge's 15-minute schedule all day and 8 of 12 night knocks; the Supabase trigger carries the instant route.
+
 ## 2026-11-17 session: one route for every reader's photograph
 
 - **What changed**: a reader's photograph now always ends with a verdict as a tree of its own unless it shows one of ours (Hidde: "1 route"). Before, a photo sent for one of our trees could only be "this tree" or "rejected"; readers' trees died there (Dublin's weeping cedar arch in Glasnevin, an Azores fig curtained in aerial roots, a vast burred plane in London woods, El Sargento's dead ahuehuete in Chapultepec among them). Now: `other_tree` verdict in sightings_publish.py turns such a photo into a waiting lead (`to_lead()`, test in test_sightings.py); sightings_inbox.py sends every "not sure which tree" photograph down the lead route without the app's first-candidate name (`unsure_sightings()`, `unsure_among`); BRIEF_READER_JUDGE.md "One route".

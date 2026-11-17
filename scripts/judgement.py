@@ -33,6 +33,7 @@ Usage:
 """
 import json
 import os
+import re
 import sys
 from datetime import date
 
@@ -101,6 +102,57 @@ def measure(species, girth_cm=None, years=None, age_basis=None):
     return {"score": round(score, 3), "via": which, "note": note}
 
 
+TIPS_SINCE = "2026-11-10"  # the first tip without a photograph left unjudged was 11-16
+
+
+def scan_tips(doc, known, today):
+    """Stub every tree or place sent without a photograph: `tip:<submission id>`."""
+    key = os.environ.get("SUPABASE_SERVICE_KEY")
+    if not key:
+        try:
+            import inbox
+            key = inbox.load_key()
+        except Exception:  # noqa: BLE001
+            key = None
+    if not key:
+        print("tips without a photograph: no SUPABASE_SERVICE_KEY, not read")
+        return 0
+    import inbox
+    import ours
+    try:
+        rows = inbox.get("/rest/v1/submissions?select=id,user_id,kind,tree,city,why,photo,girth_cm,outcome,created_at"
+                         "&kind=in.(tree,city)&photo=is.null&outcome=is.null&created_at=gte.%s" % TIPS_SINCE, key) or []
+    except Exception as e:  # noqa: BLE001
+        print("tips without a photograph: database unreadable (%s)" % str(e)[:80])
+        return 0
+    added = 0
+    for r in rows:
+        if ours.is_ours(r.get("user_id")):
+            continue
+        # The app writes a submissions row beside every tree it sends with a
+        # photograph, named by the sighting's uuid: that tree is judged on the
+        # photo route (sight:/lead:), so it is not a tip without a photograph.
+        if re.fullmatch(r"[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}",
+                        (r.get("tree") or "").strip()):
+            continue
+        jid = "tip:%s" % r["id"]
+        if jid in known or ("lead:tip-%s" % r["id"]) in known:
+            continue
+        doc["judgements"].append({
+            "id": jid, "seen": (r.get("created_at") or today)[:10], "kind": "a tip without a photograph",
+            "tree": r.get("tree"), "city": r.get("city"), "species": None, "photo": None,
+            "reader_note": "", "reader_girth_cm": r.get("girth_cm"),
+            "verdict": None, "reason": None, "hidde": None, "agreed": None,
+        })
+        added += 1
+    return added
+
+
+def open_count():
+    """Stubs with no verdict yet: the reader judge's gate reads this."""
+    return sum(1 for j in load()["judgements"] if not j.get("verdict"))
+
+
 def scan():
     doc = load()
     known = {j["id"] for j in doc["judgements"]}
@@ -143,6 +195,14 @@ def scan():
             })
             added += 1
 
+    # TIPS WITHOUT A PHOTOGRAPH (2026-11-17, escaped bug: submission 936, the
+    # Ochi chestnut, and web submissions 937 and 939 sat unjudged). The queue
+    # and the leads only ever hold rows that carry a photograph, so a tree sent
+    # as words alone, from the app or the website's form, never got a stub and
+    # nothing judged it. They are read from the database here; without a key
+    # (a Mac without the env file) this part is skipped and says so.
+    added += scan_tips(doc, known, today)
+
     save(doc)
     print(f"{added} new submission(s) to judge, {len(doc['judgements'])} on file")
     if added:
@@ -179,6 +239,12 @@ def main():
     js = {j["id"]: j for j in doc["judgements"]}
     if not a or a[0] == "--scan":
         scan()
+    elif a[0] == "--count":
+        print(open_count())
+    elif a[0] == "--unjudged":
+        for j in doc["judgements"]:
+            if not j.get("verdict"):
+                show(j)
     elif a[0] == "--open":
         pend = [j for j in doc["judgements"] if not j.get("hidde")]
         print(f"{len(pend)} submission(s) Hidde has not answered")

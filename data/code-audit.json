@@ -421,7 +421,8 @@
    "summary": "A tree submission without a photograph (app text-only, or the web form) gets no verdict: submission 936 (Ochi chestnut, 2026-11-16) and web submissions 937 and 939 sat unjudged; the reader judge reads only sightings and _sightings.json leads",
    "first_seen": "2026-11-17",
    "status": "open",
-   "found_by": "hidde"
+   "found_by": "hidde",
+   "test": "scripts/test_judgement_tips.py"
   },
   {
    "id": "ESC-2026-11-17-mailcheck-held-a-reader-reply-for-the-ve",

@@ -4332,6 +4332,10 @@ def main():
         DIST = args.dist.resolve()
 
     SOURCE_ONLY = [
+        # Before the push, not only after the build (2026-11-17: a reader judge
+        # run wrote a raw account id into _sightings.json, the push went
+        # through, and every deploy failed on it for over an hour).
+        check_no_reader_traces_in_the_repo,
         check_no_daily_cap_on_reader_mail,
         check_a_website_tree_says_approved_on_my_trees,
         check_one_mail_route_rule,
