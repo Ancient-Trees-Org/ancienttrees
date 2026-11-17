@@ -6179,6 +6179,38 @@
    "seen": "2026-11-17",
    "hold": "not_special",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36",
+   "user_id": "p_217a4b842ca351e72ce0b8d7",
+   "mine": false,
+   "name": "Coolibah",
+   "unsure_among": null,
+   "species": "Coolibah",
+   "age": "500 years?",
+   "girth_cm": 750,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -29.4736533333333,
+   "longitude": 147.978608333333,
+   "near": null,
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/9620278d-6885-4b27-b86b-e5211e651a36-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, a short massive trunk with a dark hollow opening into great low-swept limbs, a man standing at its foot for scale, prickly pear in front; a second view of the burred trunk and crown; daylight, colour. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "lightning-ridge/lri_001"
   }
  ]
 }

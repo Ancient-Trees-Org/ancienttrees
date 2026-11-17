@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: an old coolibah near Lightning Ridge is live
+
+- **Live: The Coolibah South of Lightning Ridge (lightning-ridge/lri_001, NSW, Australia), sighting 9620278d.** It was sent through the app with a GPS fix at the tree and two photographs, both viewed. The tree is a massive hollow trunk in open bush with limbs sweeping almost to the ground and a man at its foot for scale, in daylight and colour. It ships under the closed list. The pin is the GPS fix (confirmed). The reader's 500 years (with their question mark) and 7.5 m girth are stated as theirs, and `girth_cm` is left empty. OpenStreetMap names no road or site at the fix, so the access line says the landowner is unconfirmed and to ask locally (as Tilarán did). It is a new one-tree place, so there is no place page yet (`PLACE_PAGE_MIN_TREES`). The photo has no date, shows no snow and has no `taken_month`. The reader's congratulation goes through the usual `tree_approved.py` route.
+- No open reports, no unjudged tips, no feedback without a verdict, no reader words waiting. The 37 older leads noted below still have no photograph on this runner and stay unjudged.
+- preflight notes that `city_names.py` has not looked up lightning-ridge yet. This is not a problem.
+
 ## 2026-11-17 reader judge: a reader's photograph now leads the Ankerwycke Yew
 
 - **Live: a reader's photograph of the Ankerwycke Yew (Runnymede, ank_001), sighting 5e906833.** It shows the hollow, fluted, buttressed trunk in daylight, and its GPS fix is 7 m from our pin. It went in as `add`, so the reader's photo is now the lead and the old one moves into the strip. The pin was already confirmed, so it stays where it is; the pin step's HTTPError changed nothing. The reader's mail goes through the usual weekly bundle.

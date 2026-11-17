@@ -3889,6 +3889,34 @@
    "agreed": null
   },
   {
+   "id": "lead:9620278d-6885-4b27-b86b-e5211e651a36",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Coolibah",
+   "city": null,
+   "species": "Coolibah",
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 750,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coolibah"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",
@@ -14943,6 +14971,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9620278d-6885-4b27-b86b-e5211e651a36",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Coolibah near Lightning Ridge",
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
