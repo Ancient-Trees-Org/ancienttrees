@@ -395,7 +395,8 @@ fun TreeMapView(
 
 /** The box into the strip between the field and the sheet. */
 private fun fit(map: MapLibreMap, box: ViewBox, h: MapHolder, animate: Boolean) {
-    val bounds = LatLngBounds.from(box.north, box.east, box.south, box.west)
+    val b = safeBox(box)
+    val bounds = LatLngBounds.from(b.north, b.east, b.south, b.west)
     val pos = map.getCameraForLatLngBounds(bounds, intArrayOf(0, h.padTop.toInt(), 0, h.padBottom.toInt())) ?: return
     val update = CameraUpdateFactory.newCameraPosition(pos)
     if (animate) map.animateCamera(update, 600) else map.moveCamera(update)
@@ -857,3 +858,4 @@ internal fun styleFromDisk(context: android.content.Context, url: String): Style
     }.start()
     return if (kept != null) Style.Builder().fromJson(kept) else Style.Builder().fromUri(url)
 }
+
