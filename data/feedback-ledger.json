@@ -13,8 +13,8 @@
   },
   "1080": {
    "date": "2026-11-17",
-   "status": "needs_hidde",
-   "what": "Asks how to add trees near them; the product already does this, a short reply pointing to Add a tree is drafted for Hidde."
+   "status": "handled",
+   "what": "Asked how to add trees; Hidde's own reply queued (app, the form, Android coming soon)"
   },
   "405": {
    "date": "2026-11-17",

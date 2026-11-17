@@ -321,7 +321,9 @@ def mailcheck_ok(text, app_user=False):
     reader; sightings_publish.py says it the same way.
     """
     with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as f:
-        f.write("draft\n" + ("audience: app user\n" if app_user else "") + "---\n" + text)
+        # Every mail here answers a reader who wrote through the site or the
+        # app: `audience: reader` lets the form link through (mailcheck.py).
+        f.write("draft\n" + ("audience: app user\n" if app_user else "audience: reader\n") + "---\n" + text)
         path = f.name
     try:
         out = subprocess.run([sys.executable,
