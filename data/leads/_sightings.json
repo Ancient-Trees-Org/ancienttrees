@@ -4237,7 +4237,8 @@
    "why": "Photograph viewed: a tall tree in full orange autumn colour with lobed, maple-like leaves, not an oak, so not Prince Eugen's Oak. Could be the wrong tree; waits for a photograph of the oak itself.",
    "seen": "2026-11-16",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-16"
+   "judged": "2026-11-16",
+   "hold": "wrong_tree"
   },
   {
    "sighting_id": "b4902ef7-a641-4d4d-86c4-98b316da873d",
@@ -4837,9 +4838,18 @@
     "nearest": []
    },
    "status": "held",
-   "why": "Photograph viewed 2026-11-17: an oriental plane and a ginkgo in autumn colour, a lovely frame, but the fix is at a house on Trumpington High Street, Cambridge: a private garden unless the reader says it is seen from the street. Held: not_public (closed list, Hidde 2026-11-17).",
+   "why": "2026-11-17: the reader moved the pin twice (reports 1000065, 1000067) to 52.2044, 0.1249, Emmanuel College, Cambridge: the Great Oriental Plane (also tipped from the website 2026-11-15). The photograph's GPS had pointed at a house on Trumpington High Street. The plane stands in the Fellows' Garden, which the college calls private (data/leads/cambridge.json); no source says visitors can enter or see it from the Paddock. Held as not_public until the reader or the college says it can be seen; then it ships at the viewing spot.",
    "seen": "2026-11-17",
    "judged": "2026-11-17",
+   "reader_moved_to": {
+    "latitude": 52.204373,
+    "longitude": 0.124921,
+    "reports": [
+     1000065,
+     1000067
+    ],
+    "date": "2026-11-17"
+   },
    "hold": "not_public"
   },
   {
@@ -5351,6 +5361,139 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "kununurra/knx_001"
+  },
+  {
+   "sighting_id": "c936db57-eabf-4cff-a8e9-b5ac94850a27",
+   "user_id": "p_37d34986714a1c131fb832b2",
+   "mine": false,
+   "name": "Le Chêne de la Vierge",
+   "species": "Oak",
+   "age": "150",
+   "girth_cm": 250,
+   "girth_hugs": null,
+   "note": "« Chêne de la Vierge »",
+   "latitude": 49.3489124325913,
+   "longitude": 5.21368313239856,
+   "near": null,
+   "photo": "p_37d34986714a1c131fb832b2/C936DB57-EABF-4CFF-A8E9-B5AC94850A27.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: an oak in autumn russet standing out of a wooded hedge line under a grey sky, low resolution with a faint copyright mark in the top right corner, the look of a Street View crop rather than a phone photograph. The reply asks whether they took it; with a photograph of their own (or their word that this one is theirs) the Chene de la Vierge goes live at their GPS fix with their 150 years and 250 cm.",
+   "seen": "2026-11-17",
+   "hold": "not_theirs",
+   "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "074c0198-62ad-43b5-847c-303b14654271",
+   "user_id": "p_570ff7009e280d314faffe25",
+   "mine": false,
+   "name": "The Moreton Bay Fig of Curtain Square",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -37.8057452154333,
+   "longitude": 144.955624614366,
+   "near": null,
+   "photo": "p_570ff7009e280d314faffe25/074C0198-62AD-43B5-847C-303B14654271.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a pruned street fig under power lines at night, taken from below beside a pole, in North Melbourne (GPS -37.8057, 144.9556). The app named it after our Curtain Square fig (mel_005), but Curtain Square is about 2.3 km away in Carlton North, so it is not that tree. A street tree of ordinary size and a night frame; a daylight photograph showing something remarkable would change this.",
+   "seen": "2026-11-17",
+   "hold": "not_special",
+   "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "American Sycamore at Pawling Farm in Valley Forge National Park",
+   "species": "American Sycamore",
+   "age": "260-285",
+   "girth_cm": 650,
+   "girth_hugs": null,
+   "note": "The boughs spread over 42 meters some of which reach down meld with the ground and then bend back up.\n\nIt can be found within Valley Forge National Park at Pawling Farm off Pawlings Road",
+   "latitude": 40.110225,
+   "longitude": -75.4577033333333,
+   "near": null,
+   "photo": "p_3bb2d9b77f839015a3f92de9/C4B5F1B1-CE96-469B-805D-CF75390B7917.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/c4b5f1b1-ce96-469b-805d-cf75390b7917-extra-1.jpg",
+    "out/sightings/c4b5f1b1-ce96-469b-805d-cf75390b7917-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-17: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Live as valley-forge/vfg_001 under the closed list.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17",
+   "published_as": "valley-forge/vfg_001"
+  },
+  {
+   "sighting_id": "5234d132-b7d8-4fd2-a888-a8888b8e7459",
+   "user_id": "p_ab278ce80265f029bed5a17a",
+   "mine": false,
+   "name": "A London plane in Finsbury Circus Gardens",
+   "species": "London Plane (Platanus x acerifolia)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 51.5180479578225,
+   "longitude": -0.0866140465594664,
+   "photo": "31e2aa58-caff-4278-bda3-1c93b3654121/5234D132-B7D8-4FD2-A888-A8888B8E7459.jpg",
+   "extra_files": [],
+   "nearest_published_m": 22,
+   "status": "held",
+   "hold": "not_special",
+   "why": "Photograph viewed 2026-11-17: sent as our Finsbury Circus pagoda tree (lon_021), but it shows a tall London plane in autumn yellow in Finsbury Circus Gardens (lobed leaves, plane bark), so it was rejected for lon_021 and judged as a tree of its own. A fine mature plane, but one of many of its size in central London, with nothing in the photograph or a note that sets it apart; a girth, a story or a source would change this.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "5126ec15-4f8a-45ad-9fa1-996fe64483bc",
+   "submission_id": 936,
+   "user_id": "p_1914fcf0f90ea6968f3cfe0c",
+   "mine": false,
+   "name": "A dead sweet chestnut in the Kastanologos forest, Mount Ochi",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 38.07135,
+   "longitude": 24.47136,
+   "photo": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "status": "held",
+   "hold": "dead",
+   "why": "App submission 936 (2026-11-16), text only, no photograph, pin placed by hand. The reader writes that this chestnut has been dead for many years but still sends shivers down their spine. Under the standing-dead rule (Hidde, 2026-11-17) it goes live once a photograph shows it standing and striking; held as `dead` only for want of that photo. The reply asks for one (drafts/reply-reader-936-2026-11-17.md, waiting for Hidde's yes). The living forest around it is a lead in data/leads/karystos.json.",
+   "seen": "2026-11-17",
+   "judged": "2026-11-17"
   }
  ]
 }

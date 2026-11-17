@@ -228,7 +228,7 @@ class FlowWalk {
     // The map's sheet and the page it leads to; a tree page from a tab keeps its back.
     @Test fun mapToATree() = walk("map-to-a-tree", listOf("-tab=0"),
         // A TAP: at peek the sheet takes no taps of its own and one anywhere raises it.
-        Step("raise-the-sheet") { tapAt(0.5f, 0.88f) },
+        Step("raise-the-sheet") { tap("map-count") },
         Step("open-the-first-tree") {
             drag(0.6f, 0.1f)
             Thread.sleep(1000)
@@ -242,7 +242,7 @@ class FlowWalk {
     // instead, the scroll connection's sign was turned round). Up from half on the
     // list itself, not the grabber, reaches the page, where the Map pill stands.
     @Test fun theListFollowsTheFinger() = walk("list-follows-the-finger", listOf("-tab=0"),
-        Step("raise-the-sheet") { tapAt(0.5f, 0.88f) },
+        Step("raise-the-sheet") { tap("map-count") },
         Step("drag-the-list-up") {
             Thread.sleep(1000)
             drag(0.8f, 0.3f)

@@ -402,17 +402,6 @@
    "test": "FlowWalk.theListFollowsTheFinger"
   },
   {
-   "id": "ESC-2026-11-17-android-tapping-the-camera-crashed-the-a",
-   "surface": "APP",
-   "kind": "BUG",
-   "file": "android/app/src/main/java/app/ancienttrees/ui/SignIn.kt",
-   "summary": "Android: tapping the camera crashed the app (the sign-in sheet drew the launcher icon with painterResource, which cannot draw the new adaptive-icon XML)",
-   "first_seen": "2026-11-17",
-   "status": "open",
-   "found_by": "hidde",
-   "test": "FlowWalk.collectGate"
-  },
-  {
    "id": "ESC-2026-11-17-tapping-a-writer-s-name-or-anywhere-in-a",
    "surface": "WEB",
    "kind": "BUG",
@@ -423,6 +412,27 @@
    "found_by": "hidde",
    "test": "scripts/qa.py check_data_signin_only_on_controls()",
    "fixed_in": "3c2380dec"
+  },
+  {
+   "id": "ESC-2026-11-17-a-tree-submission-without-a-photograph-a",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "BRIEF_READER_JUDGE.md",
+   "summary": "A tree submission without a photograph (app text-only, or the web form) gets no verdict: submission 936 (Ochi chestnut, 2026-11-16) and web submissions 937 and 939 sat unjudged; the reader judge reads only sightings and _sightings.json leads",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde"
+  },
+  {
+   "id": "ESC-2026-11-17-android-tapping-the-camera-crashed-the-a",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/SignIn.kt",
+   "summary": "Android: tapping the camera crashed the app (the sign-in sheet drew the launcher icon with painterResource, which cannot draw the new adaptive-icon XML)",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "FlowWalk.collectGate"
   },
   {
    "id": "ESC-2026-11-17-android-signing-in-crashed-the-app-my-tr",

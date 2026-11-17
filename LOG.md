@@ -12,6 +12,53 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: the kauri's photo off the Huntington cypress, two more reports answered
+
+- **Fixed (reader report 1000061, "on the map twice")**: the Huntington Montezuma Cypress (lax_017) was showing the kauri's photograph, byte for byte. The same reader sent one picture twice, once tagged to the cypress, and a viewing pass approved it (broad leaves, the orange trunk and the champion sign: the kauri). Taken off lax_017, which is back to no photo; the file is deleted and sighting ee54ed84 is now held `wrong_tree`. lax_011 keeps the photo. Reply queued.
+- **Reports closed**: 1000028 (Husalle Lindens: the page is the whole avenue, and the reply says so), 1000035 (Chiang Mai: collected 2 km from our GPS-confirmed pin, no sighting on file; answered).
+- **Still open, Isparta 1000042**: the drag comes from the tree's own finder, so it should be taken. But it lands on 144. Cadde in Sülübey (Nominatim), about 900 m from the city's only Çınar Sokak, and the name, slug, story, intro, question texts and FAQ all say Çınar Sokak. Needs a session to rename with a redirect, or the finder's word on which street.
+- This run also judged the Valley Forge sycamore and the three holds, but the parallel run's commit got there first (entry below) and its version stands.
+- preflight 0 problems.
+
+## 2026-11-17 session: every feedback message gets a recorded verdict
+
+- **Built** (Hidde: "Hou er ergens bij of feedback is behandeld of niet ... wat ik moet zien, zijn de dingen die openstaan"): scripts/feedback.py and data/feedback-ledger.json (id, status handled/needs_hidde/doubt, our one-line summary, never their words); the reader judge now handles new feedback too (brief "General feedback", the poll wakes on it, one-tap votes ignored), never sends a reply; the digest gets "Open for you" (`open_for_you_section()`): only what needs Hidde plus reports the judge left open.
+- **Backlog walked**: 219 feedback rows, of which 109 open votes ("worth it", Hidde: nothing needed), 75 ours, the reports already in tree_reports. Six real messages: four handled (405 location row exists since 10-14; 702 and 756 answered 11-15; 1052 the Nationalerbe list, a lead list since 10-02), two for Hidde (786 an idea about UK heritage-tree initiatives; 849 a reply drafted in drafts/reply-reader-849-2026-11-17.md).
+- **Cambridge plane**: the reader moved the pin twice to Emmanuel College; the plane stands in the Fellows' Garden, which the college calls private, so the hold stays `not_public` with the right reason, and the reader is asked whether visitors can see it (report 1000067, reply queued).
+- **For Hidde:** two feedback rows wait for your call (786 idea, 849 reply draft); five reports the judge left open are listed under "Open for you".
+
+## 2026-11-17 session: the Ochi chestnut forest (submission 936) judged
+
+- Hidde asked what happened to an app submission about the Kastanologos chestnut forest on Mount Ochi, Evia (2026-11-16): nothing. Text only, no photograph, so no sighting row, and the reader judge never saw it.
+- Verdict: the pinned trunk is held as `dead` (the reader's own words), filed in data/leads/_sightings.json and data/judgements.json. The living forest is a lead in data/leads/karystos.json (ochi.gr, Reforest'Action, Enel: ~60 ha, 200 to 450 years), waiting for one living trunk with a photo or GPS fix.
+- Reply drafted, drafts/reply-reader-936-2026-11-17.md (mailcheck clean), asks for their favourite living chestnut there. For Hidde: goes as reply_text with outcome `holds` on his yes.
+- New rule (Hidde, same day): a standing dead tree still worth the detour ships with a photograph showing it standing and a page that says it is dead; never a stump or fallen trunk (CLAUDE.md "Selection", BRIEF_READER_JUDGE.md). The Ochi reply now asks only for a photo of their dead chestnut.
+- Breakage: a tree submission without a photograph gets no verdict (937 Cape Town fig and 939 Tsitsikamma from the web form also sit unjudged). Recorded as an escaped bug (escaped.py), rung-2 work.
+
+## 2026-11-17 session: Kamakura's two tabunoki untangled, Hasedera's is a new tree (kmk_007)
+
+- Report 1000047 was right: the reader photograph put on kmk_003 (Goryo Shrine) on 11-16 shows a plaque reading 椨の木 and a sign reading 長谷寺, so it is the tabunoki at Hasedera. It is now kmk_007, "The Tabunoki of Hasedera", with that photograph and the reader's GPS fix as a confirmed pin, live as a reader's tree.
+- kmk_003 is back on Goryo Shrine (the fix had moved it 182 m north), approximate again, photo missing.
+- Kamakura intro and meta no longer say "the six" (the city has seven trees now). Report closed as changed with a reply. No local build: qa runs in CI.
+
+## 2026-11-17 session: the Bristol FAQ no longer dates the Domesday Oak to 1086
+
+- **What changed**: Bristol's FAQ context said the Tree Council believes the Domesday Oak was growing when the Domesday Book was made, beside its 700-year estimate. It now says the name comes from the estate's Domesday entry, not the tree's age, matching the story fixed on 11-16 (submission 935) and today's answer to report "something else" on the same point.
+
+## 2026-11-17 reader judge: a sprawling Valley Forge sycamore goes live, three held, five reports closed
+
+- **New tree**: valley-forge/vfg_001, The Sprawling Sycamore of Pawling Farm (Valley Forge National Historical Park, Pennsylvania). The reader's photograph shows pale, mottled limbs that lie along the lawn and climb back up; daylight, GPS fix. The pin follows the finder's own 56 m move onto the trunk (report 1000069, standard pin thanks). Their 650 cm, 260 to 285 years and 42 m spread stay theirs in the story. It is a new one-tree place with intro, question texts and three FAQ, and it is in data/us-states.json as Pennsylvania.
+- **Held** (photographs viewed): Chêne de la Vierge, Meuse (`not_theirs`: a low-resolution autumn oak with a copyright mark, the look of a Street View crop; it goes live at their GPS fix once they confirm). A pruned street fig at night in North Melbourne (`not_special`): the app named it after our Curtain Square fig, which is 2.3 km away; report 1000070 got an answer. The photo sent for lon_021, the Finsbury Circus pagoda tree, shows a London plane, so it was rejected for that tree and judged on its own as `not_special` (one of many big City planes, no note).
+- **Reports closed**: 1000069 (pin), 1000070, 1000050 (Stockholm: a maple-like tree about 1 km from the three offered; the lead now carries `wrong_tree`), and 1000034 (Dublin: already judged on 11-15 as a weeping conifer, not one of the five offered). Each has a short reply.
+- **Still open (8)**, the same as the entry below says: 1000047 (Kamakura), 1000065/1000067 (Cambridge plane), 1000042 (Isparta), 1000032 (North Berwick), 1000061 (lax_011 twice), 1000028 (Copenhagen Husalle lindens), 1000035 (Chiang Mai). There was not enough time in this window.
+- **Readers' words**: closed six that do not belong on a page (three pasted chatbot or website summaries for bbl_001, esl_001 and mrs_001; Coldwaltham's two thank-you notes; the Domesday Oak question, already answered). Six still wait to be quoted (fwd_001, glg_001, gnp_001, mvv_001, rsf_001, tar_001).
+- preflight 0 problems, i18ncheck clean.
+
+## 2026-11-17 session: the Arbour Oak gets its seasons row, its snow photo under winter
+
+- Hidde asked why the Arbour Oak (nottingham/ntm_001) showed no season photos. Two causes: `Quercus x rosacea` was not in the deciduous list in site/src/lib/seasons.ts (so no row at all, on web and in the app feed), and the reader's photo had no month (a website tip, no date in the file). Fixed both: the hybrid oak is in the list, the photo has `taken_month` 1 with `taken_month_basis` (preflight's bookkeeping set names the field).
+- New rule (Hidde: "als je sneeuw ziet mag die in winter hoor als je twijfelt"): an undated photo with snow or frost is winter, in CLAUDE.md "Photos" and BRIEF_READER_JUDGE.md "Putting it live". Older undated snow photos were not swept.
+
 ## 2026-11-17 reader judge: a hollow boab gives Kununurra its first tree, 29 reports closed
 
 - **New tree**: kununurra/knx_001, The Hollow Boab of Rowing Club Road. A reader's photograph with a GPS fix: a tall boab on red ground with a doorway in its foot and a crown in fresh leaf. New one-tree place (Kununurra, WA) with its intro, question texts and three FAQ. The pin falls on open ground off Rowing Club Access Road (OpenStreetMap: a camp site), and the access line says we have not confirmed who manages it.

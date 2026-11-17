@@ -1,0 +1,35 @@
+{
+ "_note": "General feedback rows (submissions, kind feedback): id -> status, our one-line summary, date. Never the person's words. scripts/feedback.py.",
+ "rows": {
+  "1052": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "German Nationalerbe-Baeume list: already a lead list since 2026-10-02 (data/register-scouting.json); second pointer noted there. No reply needed."
+  },
+  "405": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "Location setting in the iOS app: the Settings row has existed since 2026-10-14 (Profile.swift). No reply: a month old."
+  },
+  "702": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "Two tree tips (Monfalletto cedar, Telavi plane): both live as lmr_001 and tlv_001; reply with links sent 2026-11-15."
+  },
+  "756": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "How to take a tree off Want to visit: answered 2026-11-15 (tap the filled bookmark)."
+  },
+  "786": {
+   "date": "2026-11-17",
+   "status": "needs_hidde",
+   "what": "Idea: introduce users to UK heritage-tree initiatives (Tree Council Green Monuments, Woodland Trust Ancient Tree Inventory). Outside the four verbs, so your call; no reply drafted."
+  },
+  "849": {
+   "date": "2026-11-17",
+   "status": "handled",
+   "what": "Asked whether they can add trees from old southeastern US forests. Reply sent on Hidde's yes 2026-11-17 (add it in the app at the tree; which forest?)."
+  }
+ }
+}

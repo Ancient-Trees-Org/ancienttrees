@@ -1,0 +1,20 @@
+{
+  "leads": [
+    {
+      "candidate": "Sweet Chestnut (Castanea sativa), the Kastanologos chestnut forest on Mount Ochi, above Karystos, southern Evia",
+      "latitude": 38.07135,
+      "longitude": 24.47136,
+      "location_precision": "approximate",
+      "pin_source": "reader, placed by hand on the map (submission 936, 2026-11-16); marks a dead trunk inside the forest, not a living one",
+      "found_by_reader": {"submission_id": 936},
+      "reason": "A reader sent this through the app on 2026-11-16 (submission 936, no photograph) with a long note about the forest. The trunk they pinned has been dead for many years in their own words, so that tree is held as `dead`. The forest itself is real and old, with two independent sources: ochi.gr (Kastanologos, about 60 ha at 900 to 1,100 m, the last pure chestnut forest in southern Evia, possibly the only one in Greece with trees this old) and Reforest'Action's Karystos project (62 ha, ages estimated 200 to 450 years, trees counted 2,912 in 1945 and 1,550 in 2008, goats stopping regeneration). Enel Green Power's 2020 article cites Theophrastus on chestnut forest from Karystos to Cape Kafireas. The reader adds trunks of about 7 m round from the 2013 Agricultural University of Athens study. What a page needs: one living veteran with its own location (a GPS fix from a visitor, a geotagged open-licence photograph, or a named trunk on a waymarked ochi.gr path), since the forest is 60 ha with no one place to stand. Their note may be quoted unnamed once they say yes (the reply asks).",
+      "sources": [
+        "https://www.ochi.gr/index.php/en/ochi/nature/chestnut_forest",
+        "https://reforestaction.com/en/magazine/greece-karystos-safeguard-chestnut-grove",
+        "https://enelgreenpower.com/stories/articles/2020/11/reforestation-wood-kastanologgos"
+      ],
+      "found": "2026-11-17"
+    }
+  ],
+  "blocked": []
+}

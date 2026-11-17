@@ -3471,7 +3471,7 @@ def check_photo_fields_reach_the_site():
     # in the data and never shown (CLAUDE.md Photos, 2026-11-10), read by qa's
     # check_a_given_photo_records_the_yes().
     bookkeeping = {"sighting_id", "held_reason", "caption", "commons_file",
-                   "approved_by", "approved_on", "live_first_on", "permission"}
+                   "approved_by", "approved_on", "live_first_on", "permission", "taken_month_basis"}
     seen = {}
     for path in sorted(glob.glob(os.path.join("data", "cities", "*.json"))):
         with open(path, encoding="utf-8") as fh:

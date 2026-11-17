@@ -3063,7 +3063,7 @@
    "pin_checked": "2026-11-17"
   },
   "bfc89932-0e03-486f-9857-72e11af25298": {
-   "outcome": "lead",
+   "outcome": "held",
    "date": "2026-11-16"
   },
   "b4902ef7-a641-4d4d-86c4-98b316da873d": {
@@ -3087,10 +3087,10 @@
   "a2c6c73e-e6b4-4f5f-9c99-da16d8c74875": {
    "outcome": "published",
    "date": "2026-11-16",
-   "tree_id": "kmk_003",
+   "tree_id": "kmk_007",
    "city_slug": "kamakura",
-   "file": "kmk_003-the-tabunoki-of-the-goryo-shrine-at-sakanoshita.jpg",
-   "reason": "Gnarled evergreen trunk with hollowed limb beside the shrine buildings, daylight, colour. Species seen: broad-leaved evergreen, knobbly grey trunk (Machilus). Fits the description: old twisted trunk at the shrine gate.",
+   "file": "kmk_007-the-tabunoki-of-hasedera.jpg",
+   "reason": "Gnarled evergreen trunk with hollowed limb beside the shrine buildings, daylight, colour. Species seen: broad-leaved evergreen, knobbly grey trunk (Machilus). Fits the description: old twisted trunk at the shrine gate. Moved from kmk_003 to kmk_007 on 2026-11-17 (report 1000047: the plaque and sign show Hasedera's tree).",
    "lat": 35.3125583333333,
    "lon": 139.533766666667,
    "pin_checked": "2026-11-16"
@@ -3418,15 +3418,15 @@
    "pin_checked": "2026-11-17"
   },
   "ee54ed84-91e8-40be-ade6-0552be80dc9a": {
-   "outcome": "published",
+   "outcome": "held",
    "date": "2026-11-17",
    "tree_id": "lax_017",
    "city_slug": "los-angeles",
-   "file": "lax_017-the-huntington-montezuma-cypress.jpg",
-   "reason": "daylight, tree fills frame Species seen: tall conifer-like cypress, dense dark crown, rose garden pergola. Fits the description: tall columnar tree in the rose garden; flag at right.",
+   "reason": "wrong_tree, found on reader report 1000061 (2026-11-17): the same picture the reader sent for lax_011, byte for byte; it shows the Queensland kauri (broad leaves, orange flaking trunk, the champion sign at its foot), not a Montezuma cypress. Taken off lax_017; the kauri keeps it.",
    "lat": 34.126525,
    "lon": -118.113891666667,
-   "pin_checked": "2026-11-17"
+   "pin_checked": "2026-11-17",
+   "hold": "wrong_tree"
   },
   "9117fbb4-62bc-4fba-9e7d-a8f165614ba8": {
    "outcome": "published",
@@ -4192,7 +4192,28 @@
    "outcome": "published",
    "date": "2026-11-17",
    "tree_id": "knx_001",
-   "city_slug": "kununurra"
+   "city_slug": "kununurra",
+   "pin_checked": "2026-11-17"
+  },
+  "c936db57-eabf-4cff-a8e9-b5ac94850a27": {
+   "outcome": "held",
+   "date": "2026-11-17"
+  },
+  "074c0198-62ad-43b5-847c-303b14654271": {
+   "outcome": "held",
+   "date": "2026-11-17"
+  },
+  "c4b5f1b1-ce96-469b-805d-cf75390b7917": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge"
+  },
+  "5234d132-b7d8-4fd2-a888-a8888b8e7459": {
+   "outcome": "rejected",
+   "date": "2026-11-17",
+   "tree_id": "lon_021",
+   "reason": "wrong tree: the photograph shows a tall London plane (palmate, lobed leaves turning yellow, flaking plane bark at the foot) in Finsbury Circus Gardens, not the Japanese pagoda tree (pinnate leaves) that lon_021 is. Kept as a lead of its own in data/leads/_sightings.json."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

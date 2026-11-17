@@ -4149,9 +4149,7 @@ def check_data_signin_only_on_controls():
             if m.group(1).lower() not in ("a", "button"):
                 line = text.count("\n", 0, m.start()) + 1
                 bad.append(f"{f.relative_to(ROOT)}:{line} <{m.group(1)}>")
-    for b in bad:
-        print(f"FAIL data-signin on a non-control (every tap inside opens sign-in): {b}")
-    return len(bad)
+    return [f"data-signin on a non-control (every tap inside opens sign-in): {b}" for b in bad]
 
 
 def check_css_braces_balance():
