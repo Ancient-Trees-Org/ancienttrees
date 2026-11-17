@@ -2,6 +2,22 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:b465300f-f064-4c38-9fb9-d3fe2e44e2b9",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -24,22 +40,6 @@
    "agreed": null,
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-17: the whole tall tree from the sandy riverbed, a bare trunk splitting into great limbs and a wide flat crown of feathery leaves over the green bank, two people wading below for scale, daylight, colour. Live as francistown/frt_001 under the closed list (Hidde, 2026-11-17)."
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
-   "hidde": null,
-   "agreed": null
   },
   {
    "id": "sight:tip-995",
@@ -2116,8 +2116,8 @@
     "score": null,
     "note": "nothing measurable about Senegalia Galpinii"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Resent by the intake as a match for francistown/frt_001: this photograph is already that tree's lead (the tree it created, live 2026-11-17). Closed as a self-match.",
    "hidde": null,
    "agreed": null
   },
@@ -2145,8 +2145,36 @@
     "via": "girth",
     "note": "318% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "publish",
+   "reason": "Resent by the intake as a match for raesfeld/rsf_001: this photograph is already that tree's lead (the tree it created, live 2026-11-17). Closed as a self-match.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:19c1b08d-8577-4e2b-a30f-5827ecf2f6cb",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry in London",
+   "city": null,
+   "species": "Black Mulberry",
+   "photo": "p_bf0eb996e2b54d6b87dae9bf/19C1B08D-8577-4E2B-A30F-5827ECF2F6CB.jpg",
+   "reader_note": "The tree stands in the garden of Ladywell House, formerly a Vicarage, rebuilt in 1692 on the site of an older Vicarage. Given its size and position in the centre of the lawn, this tree was quite probably planted in the late 17th century. \n\nIn 2022 the house changed hands and a developer did much damage to the old tree. However in 2026 there were signs of regrowth from the stump.",
+   "reader_girth_cm": 250,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry"
+   },
+   "verdict": "hold",
+   "reason": "Photographs viewed 2026-11-17: a black mulberry cut back to a hollow stump with fresh regrowth on the lawn of Ladywell House, Lewisham (the former vicarage rebuilt in 1692); the second picture shows it in full leaf before the 2022 damage. Alive and with a story, but in the private garden of a house a developer bought in 2022. Held: not_public (closed list, Hidde 2026-11-17) unless the reader says it is seen from the street.",
    "hidde": null,
    "agreed": null
   },

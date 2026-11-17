@@ -5259,6 +5259,37 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "raesfeld/rsf_001"
+  },
+  {
+   "sighting_id": "19c1b08d-8577-4e2b-a30f-5827ecf2f6cb",
+   "user_id": "p_bf0eb996e2b54d6b87dae9bf",
+   "mine": false,
+   "name": "Black Mulberry in London",
+   "species": "Black Mulberry",
+   "age": "300",
+   "girth_cm": 250,
+   "girth_hugs": null,
+   "note": "The tree stands in the garden of Ladywell House, formerly a Vicarage, rebuilt in 1692 on the site of an older Vicarage. Given its size and position in the centre of the lawn, this tree was quite probably planted in the late 17th century. \n\nIn 2022 the house changed hands and a developer did much damage to the old tree. However in 2026 there were signs of regrowth from the stump.",
+   "latitude": 51.4568154821357,
+   "longitude": -0.0150972549796222,
+   "near": null,
+   "photo": "p_bf0eb996e2b54d6b87dae9bf/19C1B08D-8577-4E2B-A30F-5827ECF2F6CB.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/19c1b08d-8577-4e2b-a30f-5827ecf2f6cb-extra-1.jpg"
+   ],
+   "nearest_published_m": 960,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photographs viewed 2026-11-17: a black mulberry cut back to a hollow stump with fresh regrowth on the lawn of Ladywell House, Lewisham, the former vicarage rebuilt in 1692; the second picture shows it in full leaf before the 2022 damage. Alive, and special for its story, but it stands in the private garden of a house a developer bought in 2022. Held: not_public (closed list, Hidde 2026-11-17) unless the reader says it is seen from the street.",
+   "seen": "2026-11-17",
+   "hold": "not_public",
+   "judged": "2026-11-17"
   }
  ]
 }

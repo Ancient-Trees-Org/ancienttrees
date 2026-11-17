@@ -3939,14 +3939,6 @@
    "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
    "pin_checked": "2026-11-17"
   },
-  "e4cabea6-fb02-470f-b13c-7851eb3553bc": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
-  "b465300f-f064-4c38-9fb9-d3fe2e44e2b9": {
-   "outcome": "lead",
-   "date": "2026-11-17"
-  },
   "471cdeb1-6853-43a4-85a6-f926e83b532c": {
    "outcome": "published",
    "date": "2026-11-17",
@@ -4103,6 +4095,25 @@
    "reason": "The whole lower trunk of the balete, a towering wall of fused roots on bare ground, full daylight and colour; a wider, clearer frame than the narrow current lead, so it leads and the old one moves to the strip. Species seen: a strangler fig, trunk made of fused aerial roots. Fits the description: th",
    "lat": 15.7697,
    "lon": 121.4769,
+   "pin_checked": "2026-11-17"
+  },
+  "19c1b08d-8577-4e2b-a30f-5827ecf2f6cb": {
+   "outcome": "held",
+   "date": "2026-11-17",
+   "reason": "not_public: private garden of Ladywell House, Lewisham"
+  },
+  "e4cabea6-fb02-470f-b13c-7851eb3553bc": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "frt_001",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
+   "pin_checked": "2026-11-17"
+  },
+  "b465300f-f064-4c38-9fb9-d3fe2e44e2b9": {
+   "outcome": "published",
+   "date": "2026-11-17",
+   "tree_id": "rsf_001",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (looked at 2026-11-17).",
    "pin_checked": "2026-11-17"
   }
  },

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: Ladywell mulberry held (private garden), two self-matches closed
+
+- **Held**: a black mulberry in the garden of Ladywell House, Lewisham (sighting 19c1b08d; both photographs viewed). The reader says the former vicarage was rebuilt in 1692, the tree is probably that old, a developer cut it hard in 2022 and it is regrowing in 2026. The photograph shows a hollow stump with fresh shoots on a private lawn, so it is held as `not_public` (same call as the Trumpington garden earlier today) unless the reader says it is seen from the street. Its story is good: if it can be seen from Ladywell Road, it ships.
+- **Closed without change**: the photographs that lead the Erler Femeiche (rsf_001) and the Francistown monkey thorn (frt_001) came back into the queue as matches for themselves, because their processed rows still said `lead`. Now `published`, and the two judgement stubs the intake made for them carry verdicts.
+- **Still left**: the 27 older reader leads from the entry below, unchanged. preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-17 reader judge: two new trees, five photographs live, every queued photograph closed
 
 - **New trees, live** (closed list, photographs viewed): the Erler Femeiche at Raesfeld-Erle, Germany (`raesfeld/rsf_001`; the app called it "near Winterswijk"). A reader's dusk photograph and GPS fix, backed by the DDG champion record (1245 cm, measured 2021, the reader's own figure) and German Wikipedia (Feme court until 1589, national heritage tree 2021). And a towering monkey thorn on a sandy riverbed 11 km north of Francistown, Botswana (`francistown/frt_001`; reader's photo and GPS, their 450 cm girth stays in the story; Africa is out of focus for our research only, never a reader's tree). Both are new one-tree places with intro, question texts and three FAQ.
