@@ -504,13 +504,34 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // default lays a light scrim behind three-button navigation for contrast; over the
     // photograph both bars go clear with white icons, as full-bleed media does, and
     // the app's own bar style comes back with the map.
-    LaunchedEffect(showingCover) {
-        val activity = context as? androidx.activity.ComponentActivity ?: return@LaunchedEffect
-        if (showingCover) {
-            val clear = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
-            activity.enableEdgeToEdge(statusBarStyle = clear, navigationBarStyle = clear)
-        } else {
-            activity.enableEdgeToEdge()
+    // Over the photograph both bars go clear with white icons; afterwards the window
+    // gets back EXACTLY what it had (re-running enableEdgeToEdge left the bottom bar
+    // looking different, Hidde 2026-11-17: "de twee menus lopen door elkaar").
+    DisposableEffect(showingCover) {
+        val activity = context as? android.app.Activity
+        val window = activity?.window
+        if (!showingCover || window == null) return@DisposableEffect onDispose { }
+        val bars = androidx.core.view.WindowCompat.getInsetsController(window, window.decorView)
+        @Suppress("DEPRECATION") val navColor = window.navigationBarColor
+        @Suppress("DEPRECATION") val statusColor = window.statusBarColor
+        val contrast = if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced else false
+        val lightNav = bars.isAppearanceLightNavigationBars
+        val lightStatus = bars.isAppearanceLightStatusBars
+        @Suppress("DEPRECATION") run {
+            window.navigationBarColor = android.graphics.Color.TRANSPARENT
+            window.statusBarColor = android.graphics.Color.TRANSPARENT
+        }
+        if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced = false
+        bars.isAppearanceLightNavigationBars = false
+        bars.isAppearanceLightStatusBars = false
+        onDispose {
+            @Suppress("DEPRECATION") run {
+                window.navigationBarColor = navColor
+                window.statusBarColor = statusColor
+            }
+            if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced = contrast
+            bars.isAppearanceLightNavigationBars = lightNav
+            bars.isAppearanceLightStatusBars = lightStatus
         }
     }
     LaunchedEffect(showingCover) {

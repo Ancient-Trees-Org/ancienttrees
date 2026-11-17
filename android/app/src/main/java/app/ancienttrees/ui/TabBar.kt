@@ -96,8 +96,11 @@ fun TabBar(selected: Int, select: (Int) -> Unit, collect: () -> Unit, modifier: 
                 onClick = collect,
             )
         }
-        // The bar's ground runs on behind the system's buttons, as AllTrails' does.
-        Spacer(Modifier.fillMaxWidth().windowInsetsBottomHeight(WindowInsets.navigationBars))
+        // The system's buttons stand on their own ground, a shade off the bar's, so the
+        // app's menu ends where Android's begins (Hidde on his Samsung, 2026-11-17: "het
+        // menu van de app trekt te ver naar beneden door"; one white block read as one
+        // menu running under the other).
+        Spacer(Modifier.fillMaxWidth().background(brand.surfaceMuted).windowInsetsBottomHeight(WindowInsets.navigationBars))
     }
 }
 
