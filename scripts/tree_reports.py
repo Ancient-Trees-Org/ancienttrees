@@ -120,6 +120,8 @@ def path(row):
 #   python3 scripts/tree_reports.py --count       how many are open (the workflow's gate)
 #   python3 scripts/tree_reports.py --auto        close the bookkeeping rows nobody has to read
 #   python3 scripts/tree_reports.py --close <id> changed|holds|open_question ["reply text"]
+#   python3 scripts/tree_reports.py --thank pin|dead <id> <tree id> ["name"]   standard mail, closed changed
+#   python3 scripts/tree_reports.py --thank pin 0 <tree id> --dry              print it only
 #
 # Before 2026-11-17 nothing closed these rows: 51 sat open from 11-15 on,
 # among them a Bristol grid reference for two pins and a Domesday age question.
@@ -185,11 +187,78 @@ def close(key, rid, outcome, reply=None):
     _req("/rest/v1/tree_reports?id=eq.%s" % int(rid), key, "PATCH", body)
 
 
+# The standard thank-you for the two reports we act on most (Hidde,
+# 2026-11-17: a moved pin earns "bedankt, het is live, bekijk het hier, en we
+# horen graag als je nog wat anders vindt"; "zelfde voor dood"). Written as the
+# reply_text of a `changed` row, so contributor_reply.py mails it at the knock
+# after mailcheck, like any other answer.
+THANKS = {
+    "pin": ("Thank you for showing us where {name} really stands. We checked "
+            "it and moved the pin, so the next person finds it:\n\n{link}\n\n"
+            "If you notice anything else that is off, or know a tree we are "
+            "missing, we would love to hear it. Every correction like yours "
+            "makes the map a little better.\n\n"
+            "Ancient Trees\nhttps://ancienttrees.app\n"),
+    "dead": ("Thank you for telling us about {name}. We checked, and we have "
+             "taken it off the map, so nobody goes looking for a tree that "
+             "is no longer there.\n\n"
+             "If you notice anything else that is off, or know a tree we are "
+             "missing, we would love to hear it. Every report like yours makes "
+             "the map a little better.\n\n"
+             "Ancient Trees\nhttps://ancienttrees.app\n"),
+}
+
+
+def tree_name_and_link(tree_id):
+    """The tree's name from our data and its page from the site's own feed
+    (contributor_reply.tree_pages, never a slug rule written twice)."""
+    import glob
+    import json
+    import os
+    import sys
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    name = None
+    for f in glob.glob(os.path.join(root, "data", "cities", "*.json")):
+        for t in json.load(open(f, encoding="utf-8")).get("trees") or []:
+            if t.get("id") == tree_id:
+                name = t.get("name")
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import contributor_reply
+    url = contributor_reply.tree_pages()[0].get(tree_id)
+    link = (contributor_reply.SITE + url) if url and url.startswith("/") else (url or contributor_reply.SITE)
+    return name, link
+
+
+def thank(kind, tree_id, name=None):
+    found, link = tree_name_and_link(tree_id)
+    name = name or found
+    if not name:
+        raise SystemExit("no tree %s in data/cities and no name given" % tree_id)
+    return THANKS[kind].format(name=name, link=link)
+
+
 def _main(argv):
+    if "--thank" in argv and "--dry" in argv:
+        # Print the mail without touching Supabase.
+        i = argv.index("--thank")
+        print(thank(argv[i + 1], argv[i + 3], argv[i + 4] if len(argv) > i + 4 and argv[i + 4] != "--dry" else None))
+        return 0
     key = _key()
     if not key:
         print("tree_reports: no SUPABASE_SERVICE_KEY")
         return 1
+    if "--thank" in argv:
+        # --thank pin|dead <report id> <tree id> ["name"]: the standard mail,
+        # closed as changed. For a dead tree run it before retire.py's commit
+        # reaches the feed, or give the name, since its page is gone.
+        i = argv.index("--thank")
+        kind, rid, tid = argv[i + 1], argv[i + 2], argv[i + 3]
+        if kind not in THANKS:
+            raise SystemExit("--thank pin|dead")
+        name = argv[i + 4] if len(argv) > i + 4 else None
+        close(key, rid, "changed", thank(kind, tid, name))
+        print("tree_reports: %s closed as changed with the standard %s mail" % (rid, kind))
+        return 0
     if "--close" in argv:
         i = argv.index("--close")
         rid, outcome = argv[i + 1], argv[i + 2]
