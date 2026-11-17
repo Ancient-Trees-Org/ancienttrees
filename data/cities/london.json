@@ -2287,17 +2287,32 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+        "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park-ca9231c6.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1600,
-        "height": 1200,
+        "height": 1311,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
-        "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
-        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The whole chestnut front-lit in low autumn sun, the twisted hollow trunk under a full gold crown, blue sky; clearer than the backlit lead from the same reader. Second file is a close-up of the spiralling trunk. Species seen: long serrated lance-shaped leaves of sweet chestnut, spiral-grained furrowed trunk. Fits the description: twisted, hollowed trunk with a broad rounded crown, beside a tarmac path on open grass, park railings behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+          "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
+          "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

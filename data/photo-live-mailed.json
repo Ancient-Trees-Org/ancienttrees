@@ -1839,6 +1839,21 @@
     }
    ],
    "sent": []
+  },
+  "p_8b86d4aa9a803a2e23ac0f7a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304",
+     "tree_id": "lon_053",
+     "tree_name": "The Twisted Sweet Chestnut of Greenwich Park",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

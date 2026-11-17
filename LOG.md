@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a new lead photo for the Greenwich chestnut
+
+- **The Twisted Sweet Chestnut of Greenwich Park (lon_053)** has a new lead photo from the same reader who sent the old one: the whole tree, lit from the front under a gold crown. The older, backlit shot moved into the gallery. The reader's mail waits in the weekly bundle (pending, not sent).
+- This run also judged the St Paul's planes and Queen Elizabeth's Oak with the same outcomes as the parallel run below. Its version was kept. The 37 older leads still at `lead` all come from our own account (`mine`, Japan and Baarn), so no reader is waiting on them.
+
 ## 2026-11-17 reader judge: the St Paul's Churchyard Planes get their first photograph; Queen Elizabeth's Oak held as fallen
 
 - **lon_011, The St Paul's Churchyard Planes** (London): a reader's photograph is the tree's first. It shows a tall plane in autumn leaf behind the churchyard railings, and its GPS fix is 30 m from our pin. The species and the setting match. The pin moved to the reader's fix and is now confirmed. They got the "it's on the page" mail.
