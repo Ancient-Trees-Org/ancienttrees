@@ -19,6 +19,8 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Not done:** about 40 stranger photographs with a GPS fix are still leads that preflight says to look at and publish; their files are not on this runner (no service key), so I did not judge them blind. Needs a session with the key.
 - **Writer pile:** `passcheck.py --pending` listed 15 candidates; the write pass merged 2. The rest are held with reasons (no coordinate, private yard, declining tree, schoolyard, duplicate of sfo_004: its pin and girth belong in an enrichment pass). The "390 awaiting a writer" line in prepare.py is mostly stale research files for trees already live.
 - **Health:** iOS app failure 6h ago, a new run (after the MainActor fix) was still building. Web error "Failed to initialize WebGL" is a headless browser, not a page fault. 6 of 12 knocks delivered.
+- **Page gaps:** country intros for Thailand and Philippines written from their own trees (93fd475ea).
+- **Why it stopped:** every top-queue US/UK/DE city is on the 48-hour wall, Stuttgart has no register supply, `recognise.py --stuck` is empty, translations are paused. Nothing refused; no tool call was denied.
 - **For Hidde:** Miami is now 47% behind paid entry; it needs free trees.
 
 ## 2026-11-17 session: three readers' tree notes worked into the stories
