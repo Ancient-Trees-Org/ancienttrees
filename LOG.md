@@ -18,6 +18,15 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Rule** (Hidde, "mensen kiezen hier zelf voor"): a note signed with its writer's own name stays; the closed list means another person's name (CLAUDE.md rung 1, tree_notes.py).
 - **Numbers**: the digest's Android waitlist row stops at 1,000, because Supabase returns 1,000 rows at most. The real count is 1,809 in all (1,317 on 11-15, 416 on 11-16). Not fixed yet.
 
+## 2026-11-17 06:11 night run: reader photographs (rung 1)
+
+- **Photographs judged**: 15 queued app photographs looked at. Three became lead photographs for Hobart trees that had none (Norfolk Island pine, Bhutan cypress, dawn redwoods); nine went into the strips of Thomasville, Sydney, San Diego, Charleston, Buenos Aires, Tuatapere and Orroroo trees; three of a dead trunk tagged to the Mexico City Ahuehuete were held (GPS 3.9 km from our tree, a dead snag, not the living broad crown we describe). The Thomasville pin moved 18 m to the reader's fix.
+- **Seven new trees from readers' photographs with GPS fixes**, each with its photograph as lead: Te Waha o Rerekohu, the pohutukawa at Te Araroa (NZ); the Gennett Poplar in Georgia; the Knightwood Oak and the Tall Trees sequoias in the New Forest; a cedar on the Meares Island Big Tree Trail (BC); the old lime of Estavayer-le-Lac (CH); the Overbury Drive red gum in Adelaide. Sources are named in each tree's verify_notes. Five new place files, so the places carry no translations yet.
+- **Held**: the Meadowlark 1939 pecan (Griffin, GA) stays a lead: a wedding venue, no public access shown, one source (the venue). The Llanfihangel-nant-Melan yew and the Balmerino chestnut (both UK, found by readers) stay leads: their photographs are not on this runner and a verdict needs a look.
+- Stories: three Hobart stories lost colon reveals when their photographs made them indexable. 21 tree notes read, none hidden.
+- **Verify passes, both dead ends**: Zurich (27 register rows, no size, age or access evidence, all rejected as leads) and Miami (two paid-entry trees delivered to data/research/miami-verified.json and left unwritten, since Miami is already 46% behind a ticket). Both are walls for 48 h.
+- Health: iOS CI red 6 h ago (a session fixed the iOS 18 fault this morning, awaiting the next run); web error "Failed to initialize WebGL" is a browser without WebGL, not ours to fix.
+
 ## 2026-11-17 session: iOS 18 crash when the map redraws, fixed
 
 - The nightly iOS 18 test run was red: not the photo test it named, but the map's TreesMemo dying through Swift's MainActor deinit hop, which aborts on iOS 18 (the same fault as the sheet's drag clock the day before). Every class @State builds inline (ten of them) now dies with `nonisolated deinit {}`. All 231 unit tests green on an iOS 18.6 simulator.

@@ -26,5 +26,5 @@
   }
  ],
  "blocked": [],
- "notes": "Zurich scouting pass 2026-11-15. Register data/registers/zurich-geschuetzte-einzelbaeume.json (27 rows, CC0, no dimensions). Nothing verified: no row has a girth, age or access statement, and none reaches the two-source or access bar in a 40 minute pass."
+ "notes": "Zurich DEEPEN verify pass 2026-11-17: all 27 register rows (ids geschuetzteeinzelbaeume.1-27, covered by the three leads above) rejected, 0 delivered. Reasons: the register has no girth, height or age; lifecheck.py returns NONE at both clusters (47.3771,8.5177 and 47.4141,8.5234), so no alive evidence; Erismannstrasse 45-55 is a heritage-listed city housing estate whose courtyard playground is public (spielplatz-portal.ch) but no source ties the protected lindens or beeches to it and the ABZ Seebahn-Hoefe public-courtyard statement concerns a neighbouring project; Binzmuehlestrasse 370 has no source on what stands there or access; the single-address rows are villa plots. Next angle if revisited: Gruen Stadt Zuerich Baumkataster, the Kanton 1980 inventory, or a reader's photo with GPS. Earlier note: Zurich scouting pass 2026-11-15. Register data/registers/zurich-geschuetzte-einzelbaeume.json (27 rows, CC0, no dimensions). Nothing verified: no row has a girth, age or access statement, and none reaches the two-source or access bar in a 40 minute pass."
 }

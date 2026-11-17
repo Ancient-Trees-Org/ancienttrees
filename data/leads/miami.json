@@ -1163,6 +1163,42 @@
       "candidate": "Devil tree (Alstonia scholaris, PK 1018) and Vera (Bulnesia arborea, PK 318)",
       "reason": "2026-11-14 pass. Devil tree: register Emeritus Co-Champion, 142 in = 361 cm, 67 ft = 20.4 m, measured 2014, 25.67581,-80.275, just SE of the national champion thatch palm; no recent iNaturalist observation (only one 2007 with 999 m accuracy), so no alive evidence. Vera: register 236 cm, 26.5 m, 25.67722,-80.27747; iNaturalist Bulnesia fixes land at 25.6785,-80.2747, the Tantancayo spot, so identity is doubtful. Also named on the owner's early plantings page without a pin: three allspice (Plot 45, 1940 to 1942), Haldina cordifolia moved in the 2000s (PR Newswire), chestnut dioon cycad (1873 import).",
       "status": "open"
+    },
+    {
+      "site": "Charles Deering Estate, Cutler Burial Mound (paid entry, guided Nature Preserve Tour only)",
+      "candidate": "Live oak on the Cutler Burial Mound",
+      "reason": "2026-11-17 pass. Community Newspapers (2012-12-19, fetched) 'A 400- to 600-year-old oak tree looms over the burial mound'; Florida Rambler blog says 350 years (blog, not a source). Trail of Florida's Indian Heritage (state, fetched) says the mound is only accessible on a naturalist-led tour, estate open 10 to 4, $15 adults (older figure; a search pointer says $18); it does not mention the oak. Alive evidence only 2012; age conflict 350 vs 400-600; no coordinate for the mound found (Wikipedia has no article coordinates, deeringestate.org 403). No pin or site in reach, so not findable. Needs a mound coordinate and a recent source naming the oak.",
+      "status": "open"
+    },
+    {
+      "site": "Pinecrest Gardens",
+      "candidate": "Banyan planted 1947: delivered as mia_015 flagged (owner page plus TCLF); a search snippet gave 1939, unfetched.",
+      "reason": "2026-11-17 pass.",
+      "status": "delivered"
+    },
+    {
+      "site": "Vizcaya",
+      "candidate": "Pigeon-plum PK 950: delivered as mia_016 flagged (owner names it, register measures it).",
+      "reason": "2026-11-17 pass. Vizcaya's champions page names only Pigeon Plum and Redberry Stopper of its 7 champions; the other register champions (Paradise-tree PK 1028, Inkwood PK 874, White Stopper PK 875) stay leads.",
+      "status": "delivered"
+    },
+    {
+      "site": "Coconut Grove (Barnacle, Peacock Park, Plymouth Congregational Church, Charlotte Jane cemetery)",
+      "candidate": "Old trees on historic sites",
+      "reason": "2026-11-17 pass. Searches found no source naming or dating a specific tree at any of these; Barnacle's hammock is described as 2.4 acres remnant with no individual tree named. An 'Old Banyan Tree' on knowyourgrove.com's tour list was unreachable (DNS ENOTFOUND), no date or address seen. Host knowyourgrove.com does not resolve.",
+      "status": "open"
+    },
+    {
+      "site": "Palmetto Bay",
+      "candidate": "Two giant banyans reported 'declared historic'",
+      "reason": "2026-11-17 pass. Only a search summary, no page seen; the village search found no historic-tree designation (only a Tree of the Year programme, Resolution 2024-03). Not verifiable.",
+      "status": "open"
+    },
+    {
+      "site": "Fruit and Spice Park, Homestead; Matheson Hammock; Greynolds Park",
+      "candidate": "Old trees",
+      "reason": "2026-11-17 pass. No source names or dates an individual tree at these parks.",
+      "status": "open"
     }
   ],
   "blocked": [

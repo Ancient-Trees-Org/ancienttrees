@@ -1,6 +1,32 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-17": [
+      {
+        "date": "2026-11-17",
+        "kind": "write",
+        "target": "sightings inbox night run (15 matched photographs, 8 trees we do not map)",
+        "tokens": 0,
+        "trees": 7,
+        "note": "session work, tokens not metered: 3 first photos, 9 strip adds, 3 holds; 7 reader-found trees live in 5 new places and Adelaide; preflight 0"
+      },
+      {
+        "date": "2026-11-17",
+        "kind": "verify",
+        "target": "zurich",
+        "tokens": 74000,
+        "trees": 0,
+        "note": "27 register rows, none with size, age or access evidence; all rejected as leads, wall for 48h"
+      },
+      {
+        "date": "2026-11-17",
+        "kind": "verify",
+        "target": "miami",
+        "tokens": 110000,
+        "trees": 0,
+        "note": "2 flagged paid-entry trees delivered (mia_015 Pinecrest banyan, mia_016 Vizcaya pigeon-plum) and left unwritten because Miami is already 46% behind a ticket; 6 leads rejected with reasons"
+      }
+    ],
     "2026-11-16": [
       {
         "date": "2026-11-16",

@@ -217,11 +217,6 @@
       "released_at": "2026-11-13T17:43:56+00:00"
     },
     {
-      "slug": "miami",
-      "kind": "verify",
-      "released_at": "2026-11-15T01:03:07+00:00"
-    },
-    {
       "slug": "san-francisco",
       "kind": "verify",
       "released_at": "2026-11-15T07:01:00+00:00"
@@ -275,6 +270,16 @@
       "slug": "london",
       "kind": "verify",
       "released_at": "2026-11-16T13:32:27+00:00"
+    },
+    {
+      "slug": "zurich",
+      "kind": "verify",
+      "released_at": "2026-11-17T06:26:57+00:00"
+    },
+    {
+      "slug": "miami",
+      "kind": "verify",
+      "released_at": "2026-11-17T06:30:35+00:00"
     }
   ]
 }
