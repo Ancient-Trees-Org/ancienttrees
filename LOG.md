@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a Colombian roadside tree held
+
+- **Held `not_special`: sighting 034185b2** (app, GPS 6.4777, -73.1174, Santander, Colombia). Photograph viewed: a slender young tree alone by a dirt road, its small crown hung with moss. A good frame, but sent as "A tree I found" with no words, and nothing marks it as old or big. A name, age or story from the reader would change it. Tip 1112 is the app's companion row for the same photograph and is closed as a duplicate.
+- This run also judged the Sofienbergparken horse chestnut (tip 1111), but an earlier run had already published it as osl_005, so that part was dropped at the rebase. No open reports, no unhandled feedback, no reader words waiting.
+
 ## 2026-11-17 session: BT refuses our sign-up mail through Gmail
 
 Breakage: a reader who signed up at 18:45 UTC with a btinternet.com address never got in. Their welcome mail (with the confirm link) went through Gmail as info@ and BT answered "550 User unknown". Hidde's own Gmail mail to the same address at 20:18 UTC was taken, with no bounce. So the address is real and BT refuses mail that is unsigned for our domain, as Apple's relay did this afternoon. Four other BT accounts confirmed on 11-15, so BT does this only some of the time. Fix: btinternet.com, btopenworld.com and talk21.com join `SIGNED_ONLY_DOMAINS` in scripts/mailer.py and in the hook, and qa's `check_one_mail_route_rule()` holds btinternet.com. **Not live in the hook yet**: the Management API token in ~/.ancienttrees-supabase.env is refused (401), so the hook still sends BT sign-ups through Gmail until it is redeployed (`python3 out/tmp/hook_deploy.py` with a fresh token). Waiting on Hidde's yes: a fresh sign-in link to that reader through Resend (`python3 out/tmp/bt_signin_link.py <address> --send`).

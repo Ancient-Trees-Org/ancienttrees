@@ -6119,6 +6119,36 @@
    "seen": "2026-11-17",
    "hold": "doubt_location",
    "judged": "2026-11-17"
+  },
+  {
+   "sighting_id": "034185b2-9235-4ae9-ba01-54b4fa02cdd4",
+   "user_id": "p_1a8a8ce31095ea76e414a9ad",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 6.47771166666667,
+   "longitude": -73.117425,
+   "near": null,
+   "photo": "p_1a8a8ce31095ea76e414a9ad/034185B2-9235-4AE9-BA01-54B4FA02CDD4.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-17: a slender young tree standing alone beside a dirt road in the hills of Santander, Colombia (GPS 6.4777, -73.1174), its small crown hung with moss or epiphytes against a blue sky; daylight, colour, a good frame. The trunk is thin and nothing in the photograph or a note marks it as old, big or storied; sent as 'A tree I found' with no words. A name, an age, a girth or a story from the reader would change this.",
+   "seen": "2026-11-17",
+   "hold": "not_special",
+   "judged": "2026-11-17"
   }
  ]
 }

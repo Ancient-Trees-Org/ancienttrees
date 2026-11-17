@@ -14843,6 +14843,46 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:034185b2-9235-4ae9-ba01-54b4fa02cdd4",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_1a8a8ce31095ea76e414a9ad/034185B2-9235-4AE9-BA01-54B4FA02CDD4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: photograph viewed, a slender young tree alone beside a dirt road in Santander, Colombia, its small crown hung with moss or epiphytes; a good frame with a GPS fix, but a thin trunk and no name, age, girth or words to set it apart. A note from the reader would change it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1112",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "CAA9C183-3017-433B-A1CA-09E1CAA99BF3",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row (submission 1112, same coordinate 6.47771, -73.11742, same minute) to the Colombian roadside tree sent as sighting 034185b2, judged on its own lead; no words, nothing more to record.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
