@@ -640,7 +640,7 @@ private fun LaneContent(
                     @Composable {
                         when (item) {
                             is TimelineItem.Mine -> CollectedTile(cityOf(item), Modifier.clickable { actions.openMine(item.s.id) }) {
-                                OwnPhoto(item.s, mine, Modifier.fillMaxSize()) { Named(item.s.name) }
+                                OwnPhoto(item.s, mine, Modifier.fillMaxSize(), maxSide = 480) { Named(item.s.name) }
                             }
                             is TimelineItem.Sent -> CollectedTile(item.t.city) { Named(item.t.title) }
                             is TimelineItem.Ours -> CollectedTile(item.t.city, Modifier.clickable { actions.openTree(item.t) }.semantics { contentDescription = item.t.name }, approved = item.t.id in mine.approved) {
@@ -728,7 +728,7 @@ private fun CollectedTile(city: String?, modifier: Modifier = Modifier, approved
 private fun OursPicture(t: Tree, ownShot: OwnSighting?, mine: MyTrees) {
     val brand = Brand.colors
     when {
-        ownShot != null -> OwnPhoto(ownShot, mine, Modifier.fillMaxSize()) { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) }
+        ownShot != null -> OwnPhoto(ownShot, mine, Modifier.fillMaxSize(), maxSide = 480) { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) }
         t.photo != null -> RemoteImage(t.photo.card, null, Modifier.fillMaxSize(), fallback = { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) })
         else -> Named(t.name)
     }
@@ -856,7 +856,9 @@ private fun Mission(catalogue: Catalogue, origin: Here, located: Boolean, wishli
 
 // MARK: - your own photographs (OwnThumb)
 
-private val ownPhotos = object : LruCache<String, Bitmap>(24 * 1024 * 1024) {
+// 64 MB, and every picture at its tile's size (below): at 24 MB with pictures up to
+// 1800 px two fitted, so every chip on My trees fetched the grid again (2026-11-17).
+private val ownPhotos = object : LruCache<String, Bitmap>(64 * 1024 * 1024) {
     override fun sizeOf(key: String, value: Bitmap) = value.byteCount
 }
 
@@ -891,8 +893,17 @@ fun OwnPhoto(s: OwnSighting, mine: MyTrees, modifier: Modifier = Modifier, maxSi
                     val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
                     BitmapFactory.decodeByteArray(b, 0, b.size, bounds)
                     var sample = 1
-                    while (maxOf(bounds.outWidth, bounds.outHeight) / sample > maxSide * 2) sample *= 2
-                    BitmapFactory.decodeByteArray(b, 0, b.size, BitmapFactory.Options().apply { inSampleSize = sample })
+                    while (maxOf(bounds.outWidth, bounds.outHeight) / (sample * 2) >= maxSide) sample *= 2
+                    val decoded = BitmapFactory.decodeByteArray(b, 0, b.size, BitmapFactory.Options().apply { inSampleSize = sample })
+                        ?: return@withContext null
+                    // Then exactly to maxSide on its long side, so the cache holds tiles,
+                    // not photographs.
+                    val side = maxOf(decoded.width, decoded.height)
+                    if (side <= maxSide) decoded else {
+                        val k = maxSide.toFloat() / side
+                        Bitmap.createScaledBitmap(decoded, (decoded.width * k).toInt().coerceAtLeast(1), (decoded.height * k).toInt().coerceAtLeast(1), true)
+                            .also { if (it !== decoded) decoded.recycle() }
+                    }
                 }
             }?.also { ownPhotos.put(key, it) }
         }
