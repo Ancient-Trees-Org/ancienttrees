@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 reader judge: a reader's photograph now leads the Jefferson Elm in Washington
+
+- **Washington DC (wdc_004)**: a reader sent a daylight summer photo of the National Mall Jefferson Elm. It shows the full crown on the Mall lawn, with the Natural History Museum dome across the green. The species and setting match our record. It is now the lead photograph (`add`), and the iNaturalist picture moved into the strip. The reader got the "on the page" mail. The pin stays approximate because the photo's coordinate was our own pin, not a GPS fix. The file has no date and shows green leaves, so no month was set.
+- No open reports, no feedback without a verdict, no tips to judge, and no reader words to quote. The 37 waiting leads in _sightings.json are our own (`mine`), as before.
+
 ## 2026-11-17 reader judge: the five photo-less tips settled, nothing new live
 
 - No product change. No reader photographs waiting, no open reports, no open feedback, and reader_words lists nothing to quote.

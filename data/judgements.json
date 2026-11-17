@@ -3711,6 +3711,28 @@
    "agreed": null
   },
   {
+   "id": "sight:3c48f8df-d5a1-41f7-9678-193a214eab1c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The National Mall Jefferson Elm",
+   "city": "Washington DC",
+   "species": "American Elm (Ulmus americana 'Jefferson')",
+   "photo": "out/sightings/3c48f8df-d5a1-41f7-9678-193a214eab1c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm (Ulmus americana 'Jefferson')"
+   },
+   "verdict": "publish",
+   "reason": "A reader's daylight photograph of the elm in full leaf on the Mall lawn, museum dome across the green; now the lead photo on wdc_004, the iNaturalist picture behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
    "seen": "2026-11-16",
    "kind": "a tree we do not map",

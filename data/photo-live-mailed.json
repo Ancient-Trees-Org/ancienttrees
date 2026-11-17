@@ -1939,6 +1939,21 @@
     }
    ],
    "sent": []
+  },
+  "p_55d4723005a3e9f5ecc973e2": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3c48f8df-d5a1-41f7-9678-193a214eab1c",
+     "tree_id": "wdc_004",
+     "tree_name": "The National Mall Jefferson Elm",
+     "city": "Washington DC",
+     "city_slug": "washington-dc",
+     "display_name": null,
+     "live": "2026-11-17"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
