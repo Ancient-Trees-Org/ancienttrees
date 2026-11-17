@@ -442,6 +442,17 @@
    "summary": "Android: signing in crashed the app (My trees framed collected trees across continents and asked MapLibre for a box past the pole)",
    "first_seen": "2026-11-17",
    "status": "open",
+   "found_by": "hidde",
+   "test": "SafeBoundsTest (android/app/src/test)"
+  },
+  {
+   "id": "ESC-2026-11-17-android-my-trees-country-chips-and-a-rem",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/MyTrees.kt",
+   "summary": "Android My trees: country chips and a removed tree left the grid showing the old photographs (OwnPhoto kept produceState's value across a new key)",
+   "first_seen": "2026-11-17",
+   "status": "open",
    "found_by": "hidde"
   }
  ]

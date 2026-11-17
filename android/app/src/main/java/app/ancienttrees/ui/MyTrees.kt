@@ -879,6 +879,11 @@ fun OwnPhoto(s: OwnSighting, mine: MyTrees, modifier: Modifier = Modifier, maxSi
     }
     val key = "$path@$maxSide"
     val bitmap by produceState(ownPhotos.get(key), key) {
+        // A REUSED TILE NEVER KEEPS THE PREVIOUS TREE'S PICTURE (RemoteImage's rule):
+        // produceState keeps its value across a new key, so a country chip or a removed
+        // tree left every slot showing the photograph that stood there before (Hidde
+        // on his Samsung, 2026-11-17: "het ververst niet op de landfilters").
+        value = ownPhotos.get(key)
         if (value == null) {
             val bytes = mine.photoBytes(path)
             value = bytes?.let { b ->
