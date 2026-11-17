@@ -403,4 +403,56 @@ class FlowWalk {
         start(emptyList(), data = Uri.parse("https://ancienttrees.app/athens/transplanted-olive-of-megali-tou-genous-scholis"))
         walker.waitFor("tree-page")
     }
+
+    // MARK: - two faults Hidde found on his Samsung that no step looked for (2026-11-17)
+
+    /**
+     * THE KEYBOARD MAKES ROOM; IT NEVER PUSHES THE SCREEN UP. Without
+     * windowSoftInputMode="adjustResize" Android panned the whole window when a field
+     * took focus, so the search field and "Recent" went off the top ("gaat helemaal
+     * bad bij het inklikken van zoeken"). A pan moves the window, not the layout, so
+     * the field's own bounds look fine to Compose: the test asks the window's mode,
+     * and then that the focused field still stands on the screen.
+     */
+    @Test fun theKeyboardLeavesTheFieldInView() {
+        start(listOf("-tab=1"))
+        rule.waitUntil(walker.slow) { walker.hasAWayBack() }
+        scenario!!.onActivity { a ->
+            val adjust = a.window.attributes.softInputMode and android.view.WindowManager.LayoutParams.SOFT_INPUT_MASK_ADJUST
+            assertTrue("the window must resize for the keyboard, not pan (AndroidManifest windowSoftInputMode)",
+                adjust == android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+        }
+        walker.tap("explore-search")
+        val field = androidx.compose.ui.test.hasSetTextAction()
+        rule.waitUntilAtLeastOneExists(field, walker.slow)
+        rule.onAllNodes(field).onFirst().performClick()
+        Thread.sleep(1500)
+        rule.waitForIdle()
+        shoot("keyboard-field", 1, "focused")
+        val top = rule.onAllNodes(field).onFirst().fetchSemanticsNode().positionOnScreen.y
+        assertTrue("with the keyboard up the search field went off the top of the screen (y = $top)", top >= 0f)
+    }
+
+    /**
+     * A SEARCH NEVER LEAVES A TAB WITHOUT ITS MENU. A place picked in Discover's
+     * search goes to the map while Discover's search stays open behind it; the bar
+     * was hidden for that search on every tab, so the map had no menu and no way to
+     * another tab ("opeens geen menu meer"). hasAWayBack counted the map's count
+     * bar as a way back, which is why no walk caught it.
+     */
+    @Test fun aPlaceFromDiscoverSearchKeepsTheMenu() {
+        start(listOf("-tab=1"))
+        rule.waitUntil(walker.slow) { walker.hasAWayBack() }
+        walker.tap("explore-search")
+        val field = androidx.compose.ui.test.hasSetTextAction()
+        rule.waitUntilAtLeastOneExists(field, walker.slow)
+        rule.onAllNodes(field).onFirst().performTextInput("Baarn")
+        val place = hasText("Netherlands ·", substring = true)
+        rule.waitUntilAtLeastOneExists(place, walker.slow)
+        rule.onAllNodes(place).onFirst().performClick()
+        Thread.sleep(2000)
+        rule.waitForIdle()
+        shoot("discover-search-place", 1, "on-the-map")
+        assertTrue("a place from Discover's search opened the map without its tab bar", walker.exists("tab-map"))
+    }
 }

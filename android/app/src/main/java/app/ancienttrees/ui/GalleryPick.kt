@@ -1,13 +1,10 @@
-// Photographs from the phone's own gallery app, with their place left in.
+// Photographs from the phone: Android's own photo picker, the standard route.
 //
-// Android's photo picker (PickVisualMedia) strips the GPS from every photograph it
-// hands over, and on Hidde's Samsung it also refused photographs it could not fetch
-// ("1 photo unavailable", 2026-11-17). A reader's tree goes live on a photograph and
-// a GPS fix, so the place in the file is the one thing we cannot lose. The gallery
-// app (ACTION_PICK on MediaStore) returns a MediaStore item, and with
-// ACCESS_MEDIA_LOCATION Collector.read asks for the original, GPS included
-// (MediaStore.setRequireOriginal). This is iNaturalist's route on Android for the
-// same reason. A phone with no gallery app gets the system picker as before.
+// Tried and dropped the same day (2026-11-17): Samsung Gallery through ACTION_PICK,
+// to keep the GPS the picker may leave out; on Hidde's Samsung it answered "error
+// getting selected file". The picker's "1 photo unavailable" is the picker failing
+// to fetch a photograph that lives only in the cloud; the others come through. A
+// photograph without its place gets "Where does it stand?" in the flow.
 
 package app.ancienttrees.ui
 
@@ -29,14 +26,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 
 class GalleryPick(private val max: Int) : ActivityResultContract<Unit, List<Uri>>() {
-    override fun createIntent(context: Context, input: Unit): Intent {
-        val gallery = Intent(Intent.ACTION_PICK)
-            .setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*")
-            .putExtra(Intent.EXTRA_ALLOW_MULTIPLE, max > 1)
-        if (gallery.resolveActivity(context.packageManager) != null) return gallery
-        return ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, max))
+    override fun createIntent(context: Context, input: Unit): Intent =
+        // ANDROID'S OWN PHOTO PICKER, the standard every app on the phone uses (AllTrails,
+        // Google's guidance). Samsung Gallery through ACTION_PICK answered "error getting
+        // selected file" on Hidde's Samsung (2026-11-17). A photograph that arrives
+        // without its place gets the flow's "Where does it stand?" (FlowWalk's
+        // aLibraryPhotoWithoutAPlaceAsksWhereItStands).
+        ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, max))
             .createIntent(context, PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
-    }
 
     override fun parseResult(resultCode: Int, intent: Intent?): List<Uri> {
         if (resultCode != android.app.Activity.RESULT_OK || intent == null) return emptyList()
@@ -61,8 +58,7 @@ fun rememberGalleryPick(max: Int, onPicked: (List<Uri>) -> Unit): () -> Unit {
     val context = LocalContext.current
     val handler by rememberUpdatedState(onPicked)
     val pick = rememberLauncherForActivityResult(GalleryPick(max)) { handler(it) }
-    val place = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { pick.launch(Unit) }
-    return {
-        if (mayReadPhotoPlace(context)) pick.launch(Unit) else place.launch(Manifest.permission.ACCESS_MEDIA_LOCATION)
-    }
+    // No permission first: the picker needs none, and asking for the photographs'
+    // place made Android ask for access to every photo (seen on the emulator).
+    return { pick.launch(Unit) }
 }

@@ -491,6 +491,28 @@
    "first_seen": "2026-11-17",
    "status": "open",
    "found_by": "hidde"
+  },
+  {
+   "id": "ESC-2026-11-17-android-the-keyboard-pushed-the-whole-sc",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/AndroidManifest.xml",
+   "summary": "Android: the keyboard pushed the whole screen up (search field off the top), no windowSoftInputMode",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt theKeyboardLeavesTheFieldInView"
+  },
+  {
+   "id": "ESC-2026-11-17-android-a-place-from-discover-s-search-o",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/MainActivity.kt",
+   "summary": "Android: a place from Discover's search opened the map without the tab bar",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt aPlaceFromDiscoverSearchKeepsTheMenu"
   }
  ]
 }
