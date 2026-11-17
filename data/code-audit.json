@@ -400,6 +400,17 @@
    "status": "open",
    "found_by": "hidde",
    "test": "FlowWalk.theListFollowsTheFinger"
+  },
+  {
+   "id": "ESC-2026-11-17-android-tapping-the-camera-crashed-the-a",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/SignIn.kt",
+   "summary": "Android: tapping the camera crashed the app (the sign-in sheet drew the launcher icon with painterResource, which cannot draw the new adaptive-icon XML)",
+   "first_seen": "2026-11-17",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "FlowWalk.collectGate"
   }
  ]
 }

@@ -81,6 +81,10 @@ def main():
         dd = RES / f"drawable-{name}"
         dd.mkdir(parents=True, exist_ok=True)
         placed(t, round(240 * k), SPLASH_SHARE).save(dd / "splash_tree.png", optimize=True)
+        # The icon as a picture inside the app (SignIn.kt AppIconTile, 56 dp): the
+        # launcher's mipmap is an adaptive-icon XML now, which painterResource
+        # cannot draw (it crashed the camera's sign-in sheet, 2026-11-17).
+        full.resize((round(56 * k),) * 2, Image.LANCZOS).save(dd / "app_icon.png", optimize=True)
     any_dpi = RES / "mipmap-anydpi-v26"
     any_dpi.mkdir(exist_ok=True)
     (any_dpi / "ic_launcher.xml").write_text(

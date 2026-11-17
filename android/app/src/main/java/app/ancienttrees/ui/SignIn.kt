@@ -392,7 +392,7 @@ fun AppIconTile() {
     val brand = Brand.colors
     val shape = RoundedCornerShape(14.dp)
     Image(
-        painterResource(R.mipmap.ic_launcher), null,
+        painterResource(R.drawable.app_icon), null,
         Modifier.size(56.dp).clip(shape).border(1.dp, brand.ink.copy(alpha = 0.1f), shape),
     )
 }
