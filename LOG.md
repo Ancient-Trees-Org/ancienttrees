@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: Plus answers on the digest page, two items on the backlog
+
+- **Digest page**: every typed Plus answer now stands word for word under the Plus table (show_digest.py `plus_words()`, local page only).
+- **Web error checked**: "Failed to initialize WebGL" is one browser on one page in 24 hours that cannot draw maps at all (old device, graphics off, or a headless browser); not a fault in our code, nothing changed.
+- **For Hidde:** readers cannot find how to add a tree on the web, or a photo from a computer (three Plus answers say so); PRODUCT_TODO.md item 19, a design to show you first.
+- **For Hidde:** the Major Oak as a monument is parked for your call: it died in 2026 (RSPB), so the dead-tree rule keeps it off; PRODUCT_TODO.md item 20.
+
 ## 2026-11-17 reader judge: the 22 older reader leads judged again, six live
 
 - **Changed in the product, new trees live** (closed list, every photograph viewed in this run, each with the reader's GPS fix as a confirmed pin): an open-grown pedunculate oak by Jelašnica, east of Niš, Serbia (`jelasnica/jls_001`, reader: "300 years old ... state protection ... Photo by me"); a dawn redwood with a fluted, flaring trunk in Kew Gardens, Toronto (`toronto/tro_007`; Toronto's texts now count seven); a mossy temple ginkgo in Guankou, Dujiangyan, Sichuan (`dujiangyan/djy_001`, 1,300 years by the reader, a sign on its fence mentions the 1986 Journey to the West); a leaning, once-pollarded native black poplar beside Hancocks Lane, Castlemorton, under the Malverns (`castlemorton/ctm_001`, the app said "near Linton"); a hollow lime at Pabaži, Saulkrasti, Latvia (`saulkrasti/slk_001`; a famous-trees lead, "Catherine's lindens", sits 26 m off, so the story names that Commons label and asks); a great diamond-barked ash on the Żebra Żubra trail near Budy, Białowieża (`bialowieza/bwz_001`, species asked). Five are new one-tree places with intro, question texts and three FAQ; places named by reverse-geocoding the fixes (OpenStreetMap). Readers' girths and ages stay in the stories as theirs.
