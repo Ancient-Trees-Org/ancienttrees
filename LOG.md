@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-17 session: one route for every reader's photograph
+
+- **What changed**: a reader's photograph now always ends with a verdict as a tree of its own unless it shows one of ours (Hidde: "1 route"). Before, a photo sent for one of our trees could only be "this tree" or "rejected"; readers' trees died there (Dublin's weeping cedar arch in Glasnevin, an Azores fig curtained in aerial roots, a vast burred plane in London woods, El Sargento's dead ahuehuete in Chapultepec among them). Now: `other_tree` verdict in sightings_publish.py turns such a photo into a waiting lead (`to_lead()`, test in test_sightings.py); sightings_inbox.py sends every "not sure which tree" photograph down the lead route without the app's first-candidate name (`unsure_sightings()`, `unsure_among`); BRIEF_READER_JUDGE.md "One route".
+- **Backfill, viewed here**: 13 photos set aside since September looked at again. 6 held under the closed list (Stockholm maple, Melbourne park tree, Paris square tree, Padua garden pagoda tree, Groningen beech: `not_special`; Bristol redwood: `bad_frame`). 7 worth a page go back through the intake for the reader judge to build: Dublin b59c4873, Azores abb593f0, Kanazawa pine 0942bd2b, the burred plane e7bef8af, Chiang Mai strangler fig c1046494, London plane 9c93b205, El Sargento fb383f1e (dead and standing: the 11-17 exception).
+- Dublin's and Stockholm's queued "it is none of those" replies withdrawn.
+
 ## 2026-11-17 session: website and mailed photographs count as collected
 
 - **Changed (Hidde, Katie on the Arbour Oak had 0 collected: "alle bomen die niet via de app zijn gekomen, maar via web of mail ... dat moet natuurlijk wel vanaf nu")**: `sightings_link.py tick_collected()`, which runs every knock, ticked only app photographs. It now also ticks a tree added through the website's form with a photograph (`submissions`, photo id `tip-<n>`, whether or not the photo made the page) and a mailed photograph whose sender has an account (name on the photo, address in the private send log, account with that address; `mailed_ticks()`).
