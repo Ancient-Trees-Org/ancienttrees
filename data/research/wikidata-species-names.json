@@ -16958,6 +16958,85 @@
    "Firmiana simplex"
   ]
  },
+ "Fitzroya": {
+  "es": [
+   "Fitz-roya",
+   "Fitzroya",
+   "alerce"
+  ],
+  "de": [
+   "Fitz-Roya",
+   "Fitz-roya",
+   "Fitzroya"
+  ],
+  "en": [
+   "Fitz-Roya",
+   "Fitz-roya",
+   "Fitzroya"
+  ],
+  "fr": [
+   "Fitz-roya",
+   "Fitzroya"
+  ],
+  "it": [
+   "Fitz-roya",
+   "Fitzroya"
+  ],
+  "nl": [
+   "Fitz-roya",
+   "Fitzroya"
+  ],
+  "pt": [
+   "Fitz-roya",
+   "Fitzroya"
+  ]
+ },
+ "Fitzroya cupressoides": {
+  "en": [
+   "Alerce",
+   "Fitzroya cupressoides",
+   "Patagonian Cypress"
+  ],
+  "de": [
+   "Alerce",
+   "Fitzroya cupressoides",
+   "Patagonische Zypresse"
+  ],
+  "es": [
+   "Alerce",
+   "Falso cipres de Patagonia",
+   "Falso ciprés de Patagonia",
+   "Fitzroya cupressoides",
+   "Lahuan",
+   "Lahuán"
+  ],
+  "ja": [
+   "アレルシ",
+   "アレルセ",
+   "アレース",
+   "チリヒノキ",
+   "パタゴニアイトスギ",
+   "パタゴニアサイプレス",
+   "パタゴニアヒバ",
+   "パタゴニアヒバ属",
+   "フィッツロヤ属"
+  ],
+  "fr": [
+   "Cyprès de Patagonie",
+   "Fitzroya cupressoides",
+   "Fitzroya patagonica"
+  ],
+  "pt": [
+   "Cipreste-da-patagónia",
+   "Fitzroya cupressoides"
+  ],
+  "nl": [
+   "Fitzroya"
+  ],
+  "it": [
+   "Fitzroya cupressoides"
+  ]
+ },
  "Flindersia": {
   "de": [
    "Flindersia"
@@ -28759,6 +28838,34 @@
    "Podocarpus grayae"
   ]
  },
+ "Podocarpus laetus": {
+  "de": [
+   "Podocarpus laetus"
+  ],
+  "en": [
+   "Hall's totara",
+   "Mountain totara",
+   "Podocarpus cunninghamii",
+   "Podocarpus hallii",
+   "Podocarpus laetus",
+   "Thin-barked totara"
+  ],
+  "es": [
+   "Podocarpus laetus"
+  ],
+  "fr": [
+   "Podocarpus laetus"
+  ],
+  "it": [
+   "Podocarpus laetus"
+  ],
+  "nl": [
+   "Podocarpus laetus"
+  ],
+  "pt": [
+   "Podocarpus laetus"
+  ]
+ },
  "Podocarpus macrophyllus": {
   "en": [
    "Buddhist Pine",
@@ -35610,6 +35717,52 @@
    "Searsia lancea"
   ]
  },
+ "Senegalia": {
+  "de": [
+   "Senegalia"
+  ],
+  "en": [
+   "Senegalia"
+  ],
+  "es": [
+   "Senegalia"
+  ],
+  "fr": [
+   "Senegalia"
+  ],
+  "it": [
+   "Senegalia"
+  ],
+  "nl": [
+   "Senegalia"
+  ],
+  "pt": [
+   "Senegalia"
+  ]
+ },
+ "Senegalia galpinii": {
+  "en": [
+   "Senegalia galpinii"
+  ],
+  "fr": [
+   "Senegalia galpinii"
+  ],
+  "de": [
+   "Senegalia galpinii"
+  ],
+  "es": [
+   "Senegalia galpinii"
+  ],
+  "it": [
+   "Senegalia galpinii"
+  ],
+  "nl": [
+   "Senegalia galpinii"
+  ],
+  "pt": [
+   "Senegalia galpinii"
+  ]
+ },
  "Senna": {
   "es": [
    "Sen"
@@ -39069,6 +39222,62 @@
    "Trema micrantha"
   ]
  },
+ "Tristaniopsis": {
+  "en": [
+   "Tristaniopsis",
+   "tristaniopsis"
+  ],
+  "de": [
+   "Tristaniopsis"
+  ],
+  "es": [
+   "Tristaniopsis"
+  ],
+  "fr": [
+   "Tristaniopsis"
+  ],
+  "it": [
+   "Tristaniopsis"
+  ],
+  "nl": [
+   "Tristaniopsis"
+  ],
+  "pt": [
+   "Tristaniopsis"
+  ]
+ },
+ "Tristaniopsis laurina": {
+  "en": [
+   "Tristaniopsis laurina",
+   "water-gum"
+  ],
+  "de": [
+   "Tristaniopsis laurina"
+  ],
+  "es": [
+   "Gomero de agua",
+   "Melaleuca laurina",
+   "Tristania bakeriana",
+   "Tristania laurina",
+   "Tristaniopsis laurina",
+   "Water Gum"
+  ],
+  "fr": [
+   "Tristaniopsis laurina"
+  ],
+  "it": [
+   "Tristaniopsis laurina"
+  ],
+  "ja": [
+   "カヌーカ"
+  ],
+  "nl": [
+   "Tristaniopsis laurina"
+  ],
+  "pt": [
+   "Tristaniopsis laurina"
+  ]
+ },
  "Tsuga": {
   "en": [
    "Tsuga",
@@ -39858,6 +40067,70 @@
   ],
   "pt": [
    "Urostigma"
+  ]
+ },
+ "Vachellia": {
+  "pt": [
+   "Vachellia"
+  ],
+  "de": [
+   "Vachellia"
+  ],
+  "en": [
+   "Vachellia"
+  ],
+  "es": [
+   "Vachellia"
+  ],
+  "fr": [
+   "Vachellia"
+  ],
+  "it": [
+   "Vachellia"
+  ],
+  "ja": [
+   "バケリア属"
+  ],
+  "nl": [
+   "Vachellia"
+  ]
+ },
+ "Vachellia erioloba": {
+  "en": [
+   "Acacia erioloba",
+   "Camel thorn",
+   "Kameeldoring",
+   "Vachellia erioloba",
+   "camel thorn",
+   "giraffe thorn"
+  ],
+  "de": [
+   "Kameldorn",
+   "Vachellia erioloba"
+  ],
+  "nl": [
+   "Kameeldoorn",
+   "Vachellia erioloba",
+   "kameeldoorn"
+  ],
+  "pt": [
+   "Acacia erioloba",
+   "Vachellia erioloba",
+   "espinho-de-camelo",
+   "espinho-de-girafa"
+  ],
+  "ja": [
+   "キャメルソーン",
+   "キャメル・ソーン"
+  ],
+  "es": [
+   "Vachellia erioloba"
+  ],
+  "fr": [
+   "Vachellia erioloba"
+  ],
+  "it": [
+   "Vachellia erioloba"
   ]
  },
  "Veitchia": {
