@@ -808,6 +808,48 @@
    "agreed": null
   },
   {
+   "id": "sight:e2a41777-04a8-4864-aad1-99a9a84bb622",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Kuhonbutsu",
+   "city": "Tokyo",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on tokyo/tok_023, two more in its strip (the crown from the forecourt, the stone post before the trunk).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1bc207e7-a722-4962-95f7-f1ab5a3485fc",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Ancient Cedar at Makata Jinjya",
+   "city": null,
+   "species": "Japanese Cedar",
+   "photo": "p_697eb4a0c77311e0508c5fb0/1BC207E7-A722-4962-95F7-F1AB5A3485FC.jpg",
+   "reader_note": "This cryptomeria japonica at the Makata Jinjya Shrine is 1400 years old.",
+   "reader_girth_cm": 800,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Cedar"
+   },
+   "verdict": "hold",
+   "reason": "not_theirs: the lead photo is a screenshot of another person's post in a photo app (their name and like buttons over it), the sender's profile carries a different name; standard not_theirs mail sent, their own photo puts it live",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -16472,20 +16514,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:e2a41777-04a8-4864-aad1-99a9a84bb622",
-   "seen": "2026-11-18",
-   "kind": "photo of a tree we map",
-   "tree": "The Ginkgo of Kuhonbutsu",
-   "city": "Tokyo",
-   "species": "Ginkgo (Ginkgo biloba)",
-   "photo": "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Contributor photograph now the lead on tokyo/tok_023, two more in its strip (the crown from the forecourt, the stone post before the trunk).",
    "hidde": null,
    "agreed": null
   }

@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Makata shrine cedar held (not their photo), 16 mail replies filed
+
+- **Held, `not_theirs`**: the Ancient Cedar at Makata Jinja (sighting 1bc207e7), from the reader behind the Tokyo, Dujiangyan and Big Bear trees. The main photo is a screenshot of another person's post in a photo app: their name, "a year ago" and like and share buttons sit over the picture, and the reader's profile has a different name. The roped-trunk close-up gives no sign of being theirs either. The standard not_theirs mail is queued (submission 1140). A photo of their own puts it live at their pin, with their 1,400 years and 800 cm given as theirs.
+- **Worthing sequoia re-opened** (tip-709): the reader answered our mail "yes it is" the one in Lyons Farm Open Space. The lead is `lead` again with the park in `why`, but its photograph was not on this machine, so it is left for the next run to judge with the park as its named site. Overpass was down (502), so no pin was looked up.
+- **Mail replies (feedback 1141 to 1156)**: 15 closed `handled`. Earlier sessions had already acted on each one: the Edinburgh and Adelaide ambassadors were already granted; the Hanoi banyan, Cathedral Grove, Tassili, Emmanuel plane and Willistown sycamore are live; the totara figures were checked; the rest were thanks. 1156 (Jairam's "Of course :)") is `needs_hidde`: it is probably the yes to quoting "well worth a visit" on cam_011, but only if the draft asking for it was sent.
+- **Bug for a session**: reader_words.py lists these mail-reply feedback rows as notes on whichever tree the sender's newest row named, so Jairam's Emmanuel plane mail showed under the Howrah banyan and Erin's totara mail under the Curtain Fig. All nine rows are closed with `--done`. Mail replies should not enter that list (their words need a quote_ok anyway).
+- No open reports, no tips without a photograph. preflight 0 problems, qa --source-only clean, i18ncheck clean.
+
 ## 2026-11-18 session: app health read from PostHog, build number in every event, the repo left iCloud
 
 - **App health (PostHog, App Store phones, 15 to 18 Nov)**: 2.3% of cold launches come within two minutes of the app being on screen (it died: crash, memory kill or a swipe), the same on iOS 18, 26 and 27; about half right after a tree page (median ~45 s), which fits the big-photo memory reading of 11-16. MetricKit: two store crashes on build 41 in 30 days, one phone each. `sync_failed` 6 times on 4 phones.
