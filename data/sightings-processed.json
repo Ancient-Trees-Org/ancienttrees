@@ -4828,8 +4828,19 @@
    "date": "2026-11-18"
   },
   "853a4b12-0595-4189-8e63-1771c3b8caab": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-18"
+  },
+  "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "cam_011",
+   "city_slug": "cambridge",
+   "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b.jpg",
+   "reason": "Viewed 2026-11-18: the layered oriental plane in autumn gold, its great limbs sweeping to the ground and rooting, a ginkgo beside it; extra photographs show the knobbly trunk and the layering limbs. Daylight, colour. Added to the strip beside the existing lead. Species seen: plane: flaking mottled b",
+   "lat": 52.171955,
+   "lon": 0.113727833333333,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

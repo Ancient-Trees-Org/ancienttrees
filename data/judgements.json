@@ -64,6 +64,21 @@
    ]
   },
   {
+   "id": "sight:853a4b12-0595-4189-8e63-1771c3b8caab",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Rain Tree of the National Gallery of Modern Art",
+   "photo": "p_5c22c3030ca37ddafb789ab6/853A4B12-0595-4189-8E63-1771C3B8CAAB.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole rain tree, daylight, colour. Lead photograph of bengaluru/ben_001.",
+   "shown": [
+    "2026-11-18"
+   ]
+  },
+  {
    "id": "sight:796f1465-deac-4ee9-a5c2-45339f4e0473",
    "seen": "2026-11-18",
    "kind": "photo of a tree we map",
@@ -1048,6 +1063,102 @@
    },
    "verdict": "publish",
    "reason": "Photographs viewed 2026-11-18: the whole yew by the old church tower at Dartington Hall, a huge burred bole in a rope ring among gravestones, and the bole close up; GPS fix at the tree. On dartington/dtg_001, the entry a parallel run made from the GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:94be5b76-fd13-46b8-965d-0486dd325d63",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Galaganantha temple tree",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Viewed four frames: a wide low fig on the Galaganatha temple ground at Aihole with a stone Nandi beside it; live as aihole/aih_001 (new one-tree place), pin on the reader's hand-moved spot at the temple group.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:94be5b76-fd13-46b8-965d-0486dd325d63",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Galaganantha temple tree",
+   "city": "Aihole",
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the whole wide fig across bare ground at the Galaganatha temples, Aihole; the reader's photograph leads aih_001, its new page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1183",
+   "seen": "2026-11-18",
+   "kind": "a tip without a photograph",
+   "tree": "DF9042BD-471F-4E5B-B9F4-8BD8730C23AB",
+   "city": "Kozaki",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "The Makata Shrine great cedar (Narita), the tree of held lead 1bc207e7, resent as words alone with a hand-placed pin; the text reads as pasted from a chatbot, so nothing is quoted. Travel articles (tabi-mag.jp, travel.co.jp, airtrip.jp) put a 1,300 to 1,400-year cedar in the shrine's precinct; the Chiba designation and girth not yet confirmed. Next: cite two of them by URL and it ships as a reader-found tip with a recognition line, no photograph needed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:853a4b12-0595-4189-8e63-1771c3b8caab",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Rain tree , National Gallery of Modern Art",
+   "city": null,
+   "species": null,
+   "photo": "p_5c22c3030ca37ddafb789ab6/853A4B12-0595-4189-8E63-1771C3B8CAAB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: rain tree in the National Gallery of Modern Art garden, Bengaluru, wide fan of limbs, GPS fix, daylight, colour. Somewhat special. Live as bengaluru/ben_001 under the closed list.",
    "hidde": null,
    "agreed": null
   },
@@ -16716,77 +16827,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:94be5b76-fd13-46b8-965d-0486dd325d63",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "Galaganantha temple tree",
-   "city": null,
-   "species": "Indian Banyan",
-   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Indian Banyan"
-   },
-   "verdict": "publish",
-   "reason": "Viewed four frames: a wide low fig on the Galaganatha temple ground at Aihole with a stone Nandi beside it; live as aihole/aih_001 (new one-tree place), pin on the reader's hand-moved spot at the temple group.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:94be5b76-fd13-46b8-965d-0486dd325d63",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "Galaganantha temple tree",
-   "city": "Aihole",
-   "species": "Indian Banyan",
-   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Indian Banyan"
-   },
-   "verdict": "publish",
-   "reason": "Viewed: the whole wide fig across bare ground at the Galaganatha temples, Aihole; the reader's photograph leads aih_001, its new page.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "tip:1183",
-   "seen": "2026-11-18",
-   "kind": "a tip without a photograph",
-   "tree": "DF9042BD-471F-4E5B-B9F4-8BD8730C23AB",
-   "city": "Kozaki",
-   "species": null,
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "The Makata Shrine great cedar (Narita), the tree of held lead 1bc207e7, resent as words alone with a hand-placed pin; the text reads as pasted from a chatbot, so nothing is quoted. Travel articles (tabi-mag.jp, travel.co.jp, airtrip.jp) put a 1,300 to 1,400-year cedar in the shrine's precinct; the Chiba designation and girth not yet confirmed. Next: cite two of them by URL and it ships as a reader-found tip with a recognition line, no photograph needed.",
    "hidde": null,
    "agreed": null
   }

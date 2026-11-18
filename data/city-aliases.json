@@ -548,6 +548,18 @@
       "Beneventu",
       "Beneviento"
     ],
+    "bengaluru": [
+      "Bangalore",
+      "Bangalor",
+      "Bengalúr",
+      "Bangalúr",
+      "Bengalūras",
+      "Bengalurus",
+      "Bangaluri",
+      "Banqalor",
+      "Begaluru",
+      "Bengalour"
+    ],
     "benmore": [
       "Benmore Botanic Garden",
       "Jardín Botánico Benmore"
@@ -5531,6 +5543,7 @@
     "belgrade": "Belgrade",
     "beltingham": "Beltingham",
     "benevento": "Benevento",
+    "bengaluru": "Bengaluru",
     "benmore": "Benmore Botanic Garden",
     "berga-elster": "Berga, Thuringia",
     "bergamo": "Bergamo",
