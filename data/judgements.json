@@ -1163,6 +1163,28 @@
    "agreed": null
   },
   {
+   "id": "sight:f7ea860e-d319-4045-90c4-7f03ecffde3c",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The English Elm of Fort Greene Park",
+   "city": "New York",
+   "species": "English Elm (Ulmus procera)",
+   "photo": "out/sightings/f7ea860e-d319-4045-90c4-7f03ecffde3c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 153,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm (Ulmus procera)"
+   },
+   "verdict": "publish",
+   "reason": "A huge open-grown elm with a Tree Trail marker at its foot in Fort Greene Park, daylight, fills the frame; the tree's first photograph, and its GPS moved our approximate pin 153 m to the tree",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:b5e84e25-4eab-4c0c-8f75-ed8f7a911fa6",
    "seen": "2026-11-18",
    "kind": "photo of a tree we map",

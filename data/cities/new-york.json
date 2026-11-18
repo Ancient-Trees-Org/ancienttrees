@@ -1095,8 +1095,8 @@
       "age_max": 180,
       "location": {
         "address": "Eastern side of Fort Greene Park, along the park's Tree Trail, Fort Greene, Brooklyn",
-        "latitude": 40.69,
-        "longitude": -73.9722,
+        "latitude": 40.690753,
+        "longitude": -73.973717,
         "neighbourhood": "Fort Greene"
       },
       "story": "Frederick Law Olmsted and Calvert Vaux are remembered for Central Park and Prospect Park, but some of their planting still stands in Fort Greene. This English elm, according to the coverage of NYC Parks' 2024 Great Trees list, was planted as part of their original design for the park, and the city now counts it among its Great Trees.\n\nThe Olmsted and Vaux work here dates from the 1860s, which puts the elm at about 160 years, give or take a couple of decades. Treat that as a derivation rather than a record: nobody has published a planting year for this particular tree, and one writer who went looking called the date simply unknown.\n\nIts size is in a similar state. A blogger who walked the park counted 760 trees, 37 of them elms, and judged this one about 80 feet tall and the largest in the park bar one rival, with a trunk he guessed at ten feet across. That is an eyeball estimate, and it does not match other figures in circulation, so we print no trunk size as fact. If you bring a tape measure, the number is yours to give us.\n\nLook for it on the eastern side of the park, along its Tree Trail; our pin puts you in that half of the park rather than at the trunk.",
@@ -1109,14 +1109,28 @@
       "access": "Free; public park, open daily.",
       "transport": "Nearest subway: G at Fulton St or C at Lafayette Av, about 6 to 8 min walk; LIRR/B/Q/R at Atlantic Terminal about 10 min.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nyc_027-the-english-elm-of-fort-greene-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_23acc4e1375404856960887e",
+        "sighting_id": "f7ea860e-d319-4045-90c4-7f03ecffde3c",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: a huge open-grown elm with a flared trunk and a Tree Trail marker post in front, in a fenced park lawn; fills the frame, daylight, first photograph of this tree Species seen: elm: small toothed asymmetric leaves, deeply ridged dark bark, broad vase crown. Fits the description: one of the biggest trees in the park, a trail marker at its foot, Fort Greene Park lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
-      "notes": "- On NYC Parks' Great Trees list (2024 update): Brooklyn Paper (fetched) says an English elm in Fort Greene Park was 'planted as part of the park's original design' by Olmsted and Vaux. The Parks entry itself (parks/fort-greene-park/facilities/great-trees) and its Tree Trail map return 405 to fetchers and were not read.\n- Age is derived from that: Olmsted and Vaux's redesign dates from the 1860s (gothamcanoe says planted perhaps late 1860s, 'unknown planting date'), so about 160 years, broad band; whether THIS elm belongs to that 1860s planting is the paper's claim and the Parks text's, not independently dated. Bridge-claim caution: do not state an exact planting year.\n- Size: gothamcanoe (undated blog) eyeballs the trunk at 'perhaps 10 feet' diameter and about 80 ft tall, calling it the largest tree in the park barring one rival, one of 37 elms among 760 trees. A search summary quoted the Parks entry as a 68 in trunk diameter (about 173 cm, girth about 540 cm) and about 80 ft; I could NOT see that number on a fetched page, so it is not recorded as girth_cm. The blogger's 10 ft is an estimate and contradicts it: do not use either as fact.\n- Alive: lifecheck RECENT, iNaturalist 2026-08-12 (390691522) in the park's east side; proves a tree photographed there, not which trunk. Park-wide tree removals in the renovation (Wikipedia) are a risk to check; the Parks Great Tree status suggests it is protected.\n- Pin: park-level, east side only; no tree-level coordinate found: approximate. Parks Tree Trail map PDF (B032) would place it but is blocked.\n- Distance: the Hattie Carthan Magnolia (nyc_021) is about 2.2 km east and the MacDonough ginkgo (nyc_024) about 2.7 km south-east; a Brooklyn day, not one walk. Prospect Park trees (nyc_003, nyc_015, nyc_016) are about 4 km south."
+      "location_precision": "confirmed",
+      "notes": "- On NYC Parks' Great Trees list (2024 update): Brooklyn Paper (fetched) says an English elm in Fort Greene Park was 'planted as part of the park's original design' by Olmsted and Vaux. The Parks entry itself (parks/fort-greene-park/facilities/great-trees) and its Tree Trail map return 405 to fetchers and were not read.\n- Age is derived from that: Olmsted and Vaux's redesign dates from the 1860s (gothamcanoe says planted perhaps late 1860s, 'unknown planting date'), so about 160 years, broad band; whether THIS elm belongs to that 1860s planting is the paper's claim and the Parks text's, not independently dated. Bridge-claim caution: do not state an exact planting year.\n- Size: gothamcanoe (undated blog) eyeballs the trunk at 'perhaps 10 feet' diameter and about 80 ft tall, calling it the largest tree in the park barring one rival, one of 37 elms among 760 trees. A search summary quoted the Parks entry as a 68 in trunk diameter (about 173 cm, girth about 540 cm) and about 80 ft; I could NOT see that number on a fetched page, so it is not recorded as girth_cm. The blogger's 10 ft is an estimate and contradicts it: do not use either as fact.\n- Alive: lifecheck RECENT, iNaturalist 2026-08-12 (390691522) in the park's east side; proves a tree photographed there, not which trunk. Park-wide tree removals in the renovation (Wikipedia) are a risk to check; the Parks Great Tree status suggests it is protected.\n- Pin: park-level, east side only; no tree-level coordinate found: approximate. Parks Tree Trail map PDF (B032) would place it but is blocked.\n- Distance: the Hattie Carthan Magnolia (nyc_021) is about 2.2 km east and the MacDonough ginkgo (nyc_024) about 2.7 km south-east; a Brooklyn day, not one walk. Prospect Park trees (nyc_003, nyc_015, nyc_016) are about 4 km south.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f7ea860e-d319-4045-90c4-7f03ecffde3c",
+        "moved_m": 153,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "nyc_028",

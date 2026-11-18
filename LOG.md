@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-18 reader judge: Fort Greene elm photographed and re-pinned
+
+- Product: The English Elm of Fort Greene Park (nyc_027, New York) has its first photograph, a reader's, and its pin moved 153 m to their GPS fix, now confirmed. The open "wrong location" report on it (1000085) closed with the pin thank-you.
+- This run also judged the two Viroflay photos, but a parallel run had already published them (entry below); its version kept.
+- No feedback, tips or reader words waiting. Checks clean (qa source, preflight 0 problems, i18ncheck).
+
 ## 2026-11-18 reader judge: two reader photographs on the Viroflay oak
 
 - Product: Chêne de la Vierge à Viroflay (vir_001) now leads with a reader's own photograph (the Virgin statue on the trunk, autumn crown, GPS 5 m from our pin). A second shot from the other side, with roses tied to the bark, is in the strip. The reader is mailed through sightings_publish --send.

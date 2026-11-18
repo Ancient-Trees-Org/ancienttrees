@@ -2033,6 +2033,21 @@
     }
    ]
   },
+  "p_23acc4e1375404856960887e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "f7ea860e-d319-4045-90c4-7f03ecffde3c",
+     "tree_id": "nyc_027",
+     "tree_name": "The English Elm of Fort Greene Park",
+     "city": "New York",
+     "city_slug": "new-york",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
+  },
   "p_f2787bdff05268fa5830d17e": {
    "last": null,
    "pending": [
