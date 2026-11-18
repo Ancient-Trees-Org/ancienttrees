@@ -1339,6 +1339,50 @@
    "agreed": null
   },
   {
+   "id": "sight:f2e99426-d46c-4a73-9ab9-25f92c7edf6a",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Fortingall Yew",
+   "city": "Fortingall",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/f2e99426-d46c-4a73-9ab9-25f92c7edf6a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the fluted trunk against the churchyard wall is the Fortingall Yew, daylight and colour, a reader's strip photo.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:691e83b3-fa05-4961-a56f-9912db89c1ac",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "Dughall Mor and the Reelig Glen giants",
+   "city": "Reelig Glen",
+   "species": "Douglas Fir (Pseudotsuga menziesii)",
+   "photo": "out/sightings/691e83b3-fa05-4961-a56f-9912db89c1ac.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Douglas Fir (Pseudotsuga menziesii)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: a very tall conifer trunk shot from below in a wooded glen, consistent with the Reelig Glen giants; strip only.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

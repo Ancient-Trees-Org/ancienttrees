@@ -70,20 +70,6 @@
           "width": 2432,
           "height": 3647,
           "taken_month": 7
-          },
-          {
-          "url": "https://ancienttrees.app/photos/lgc_001-jardine-juniper-af1c1d0b.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1214,
-          "height": 1600,
-          "taken_month": 9,
-          "source": "contributor",
-          "contributor_user_id": "p_43296b4149990a775a24a4a6",
-          "sighting_id": "af1c1d0b-3f96-4736-b2df-92468b44d5d8",
-          "note": "Photographed by a reader and sent through the app (2026-09-18); in the strip since 2026-11-18, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-18"
         }
       ]
     }
