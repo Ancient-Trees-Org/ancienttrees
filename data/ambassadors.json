@@ -1155,6 +1155,16 @@
         "The Many-Stemmed Pine of La Pradera"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_fa491d448dbf3f24e47cfa8b",
+      "place_slug": "chiang-mai",
+      "place_name": "Chiang Mai",
+      "date": "2026-11-18",
+      "trees": [
+        "The Fig That Holds the Stones"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -1716,7 +1726,10 @@
         "por_027",
         "por_029",
         "por_030",
-        "por_031"
+        "por_031",
+        "por_032",
+        "por_033",
+        "por_034"
       ],
       "since": "2026-10-28",
       "mailed": [
@@ -1726,6 +1739,14 @@
             "por_029",
             "por_030",
             "por_031"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "trees": [
+            "por_032",
+            "por_033",
+            "por_034"
           ]
         }
       ]
