@@ -538,7 +538,7 @@ private fun PersonRow(
                 if (reason != null) {
                     // Ends in "…" rather than breaking inside a word ("am / bassador")
                     // where big text leaves the column narrow (the small-phone walk).
-                    Text(reason, fontSize = 12.sp, color = brand.inkSoft, maxLines = 1, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+                    Text(reason, fontSize = 12.sp, color = brand.inkSoft, maxLines = 2, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
                         )
                 } else {
                     AmbassadorBadge(host.profiles.placesByUser[p.userId].orEmpty(), compact = true)
