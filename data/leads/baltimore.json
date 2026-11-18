@@ -1,42 +1,124 @@
 {
-  "leads": [
-    {
-      "name": "Castor Aralia (Kalopanax pictus), Cylburn Arboretum",
-      "species": "Castor Aralia (Kalopanax pictus, aka K. septemlobus)",
-      "location": {"address": "Cylburn Arboretum, 4915 Greenspring Ave, Baltimore, MD 21209, point O on the arboretum's own trail map, near the Mansion", "latitude": 39.3525, "longitude": -76.65278},
-      "reason": "Labelled Maryland STATE CHAMPION on Cylburn Arboretum Friends' own official 'Notable Trees' map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf, point O, near the Mansion), which would make it a strong, distinctive candidate (a rare species state champion at a named public spot). NOT PURSUED this pass because it directly conflicts with a more recent source: the Baltimore Sun's 29 Nov 2023 guest commentary calls the Cockspur Hawthorn (delivered this pass as bal_003) 'Cylburn's only remaining state champion', implying this tree had died or lost its status by 2023. The map itself is undated on its face. A future pass should check the Maryland Big Tree Program's own database (mdbigtrees.org, JS-rendered, needs a capable fetch tool) to settle which is true before ever shipping this one.",
-      "source": "https://cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf; contradicted by https://www.baltimoresun.com/2023/11/29/touring-baltimores-big-trees-in-an-oasis-of-beauty-guest-commentary/"
-    },
-    {
-      "name": "Cylburn Arboretum's other named champion/notable trees (Sugar Maple, Paw-Paw, Miyabe's Maple, Longleaf Pine -- all City Champions per the arboretum's own map; plus hardy rubber tree, pond cypress, slippery elm, red buckeye, Chinese fringetree per the 2023 Sun article)",
-      "species": "various",
-      "location": {"address": "Cylburn Arboretum, 4915 Greenspring Ave, Baltimore, MD 21209 -- Sugar Maple at point F, Paw-Paw at point G, Miyabe's Maple at point Q, Longleaf Pine at point B on the arboretum's own map", "latitude": 39.3525, "longitude": -76.65278},
-      "reason": "Two verified and delivered this pass (bal_003 Cockspur Hawthorn, bal_004 Paperbark Maple); this pass stopped at 2 new Cylburn trees per its candidate budget. These remaining named champions are a strong, cheap next batch: the arboretum's own map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf) gives species, City/State Champion status and an approximate letter-coded position for most of them already, so a future pass mostly needs to confirm access/measurements rather than discover them from zero. The Dawn Redwood and Ginkgo (male and female) marked on the same map are NOT candidates: too common/young a species story respectively to clear the bar without more, per this pass's judgement, but worth a look. Maryland Big Tree Program's own database (mdbigtrees.org) would likely give exact measurements for all of these if fetched by a JS-capable tool.",
-      "source": "https://cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf and https://www.baltimoresun.com/2023/11/29/touring-baltimores-big-trees-in-an-oasis-of-beauty-guest-commentary/"
-    }
-  ],
-  "blocked": [
-    {
-      "name": "Arbutus Oak",
-      "species": "White Oak (Quercus alba)",
-      "location": {"address": "Near the I-695/I-95 interchange, Arbutus, Maryland (just outside Baltimore city limits)", "latitude": 39.25085, "longitude": -76.68246},
-      "reason": "CONFIRMED DEAD. This was the pre-existing Wikidata lead for this pass. Over 300 years old, seeded around 1690, famous for having caused Washington Metro planners to reroute the Red Line in the 1980s (estimated $2-4M cost) to save it, and for Native American artifacts found at its base during 1950s highway construction. The tree split in half and fell in 2019 due to internal decay. Per hard rule (never publish a tree known to be dead), this cannot ship. Recorded here so no future pass re-researches it.",
-      "sources": ["https://en.wikipedia.org/wiki/Arbutus_Oak", "https://www.atlasobscura.com/places/the-arbutus-oak-arbutus-maryland"]
-    },
-    {
-      "name": "Osage Orange, Druid Hill Park",
-      "species": "Osage Orange (Maclura pomifera)",
-      "location": {"address": "Druid Hill Park, near the old Reptile House, Baltimore", "latitude": null, "longitude": null},
-      "reason": "CONFIRMED DEAD. Approximately 400 years old, blown down by Superstorm Sandy on 29 October 2012 (winds near 70mph on saturated soil). Friends of Druid Hill Park discussed preserving a remnant as a monument; no evidence found this pass that a living replacement or memorial has become a collectible entry.",
-      "sources": ["https://www.cbsnews.com/baltimore/news/historic-tree-in-druid-hill-park-torn-apart-by-superstorm-sandy/"]
-    },
-    {
-      "name": "Dawn Redwood, Cylburn Arboretum",
-      "species": "Dawn Redwood (Metasequoia glyptostroboides)",
-      "location": {"address": "Cylburn Arboretum, Baltimore", "latitude": null, "longitude": null},
-      "reason": "CONFIRMED DEAD. Planted 1965 (60 years old), a Baltimore City champion reaching roughly 83 feet, destroyed when struck by lightning in a storm (reported by CBS News Baltimore, year not confirmed but described as recent). Also too young at 60 years to have qualified on age alone even if alive.",
-      "sources": ["https://www.cbsnews.com/baltimore/news/cylburn-arboretums-historic-60-year-old-redwood-tree-demolished-by-lightning-strike-baltimore-dawn-redwood-tree"]
-    }
-  ],
-  "notes": "Verification pass 2026-09-11. No Maryland/Baltimore official tree register was found (checked OPEN_DATA_SURVEY.md first, no Maryland entry). The original Wikidata lead for this city (Arbutus Oak) turned out to be dead and outside city limits; both replacement trees shipped were found via general web sweep of Baltimore-area 'notable/historic tree' coverage. Baltimore has an unusually high rate of famous trees that have recently died (three of five candidates investigated this pass), worth noting for whoever plans the next pass. FOLLOW-UP PASS 2026-09-11 (this pass): delivered bal_003 (Cockspur Hawthorn, Cylburn Arboretum, single-sourced/flagged) and bal_004 (Paperbark Maple, Cylburn Arboretum, two sources) to data/research/baltimore-verify-extra.json, clearing the 4-tree floor (2 banked + 2 new). Found Cylburn Arboretum Friends' own official 'Notable Trees' map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf), a genuine naming-body source per BRIEF_RESEARCH.md with 17 letter-coded specimens and approximate positions -- a good source for a future Cylburn-focused pass. The Maryland Big Tree Program's own database (mdbigtrees.org) exists and is the obvious source of exact measurements/coordinates for every Cylburn champion, but it is JS-rendered and returned no tree-level data to this pass's fetch tool; flagging for a future pass with a JS-capable fetch or an API route in."
+ "leads": [
+  {
+   "name": "Castor Aralia (Kalopanax pictus), Cylburn Arboretum",
+   "species": "Castor Aralia (Kalopanax pictus, aka K. septemlobus)",
+   "location": {
+    "address": "Cylburn Arboretum, 4915 Greenspring Ave, Baltimore, MD 21209, point O on the arboretum's own trail map, near the Mansion",
+    "latitude": 39.3525,
+    "longitude": -76.65278
+   },
+   "reason": "Labelled Maryland STATE CHAMPION on Cylburn Arboretum Friends' own official 'Notable Trees' map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf, point O, near the Mansion), which would make it a strong, distinctive candidate (a rare species state champion at a named public spot). NOT PURSUED this pass because it directly conflicts with a more recent source: the Baltimore Sun's 29 Nov 2023 guest commentary calls the Cockspur Hawthorn (delivered this pass as bal_003) 'Cylburn's only remaining state champion', implying this tree had died or lost its status by 2023. The map itself is undated on its face. A future pass should check the Maryland Big Tree Program's own database (mdbigtrees.org, JS-rendered, needs a capable fetch tool) to settle which is true before ever shipping this one.",
+   "source": "https://cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf; contradicted by https://www.baltimoresun.com/2023/11/29/touring-baltimores-big-trees-in-an-oasis-of-beauty-guest-commentary/"
+  },
+  {
+   "name": "Cylburn Arboretum's other named champion/notable trees (Sugar Maple, Paw-Paw, Miyabe's Maple, Longleaf Pine -- all City Champions per the arboretum's own map; plus hardy rubber tree, pond cypress, slippery elm, red buckeye, Chinese fringetree per the 2023 Sun article)",
+   "species": "various",
+   "location": {
+    "address": "Cylburn Arboretum, 4915 Greenspring Ave, Baltimore, MD 21209 -- Sugar Maple at point F, Paw-Paw at point G, Miyabe's Maple at point Q, Longleaf Pine at point B on the arboretum's own map",
+    "latitude": 39.3525,
+    "longitude": -76.65278
+   },
+   "reason": "Two verified and delivered this pass (bal_003 Cockspur Hawthorn, bal_004 Paperbark Maple); this pass stopped at 2 new Cylburn trees per its candidate budget. These remaining named champions are a strong, cheap next batch: the arboretum's own map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf) gives species, City/State Champion status and an approximate letter-coded position for most of them already, so a future pass mostly needs to confirm access/measurements rather than discover them from zero. The Dawn Redwood and Ginkgo (male and female) marked on the same map are NOT candidates: too common/young a species story respectively to clear the bar without more, per this pass's judgement, but worth a look. Maryland Big Tree Program's own database (mdbigtrees.org) would likely give exact measurements for all of these if fetched by a JS-capable tool.",
+   "source": "https://cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf and https://www.baltimoresun.com/2023/11/29/touring-baltimores-big-trees-in-an-oasis-of-beauty-guest-commentary/"
+  },
+  {
+   "name": "American Beech, 157 W. Lanvale Street, Bolton Hill",
+   "species": "American Beech (Fagus grandifolia)",
+   "location": {
+    "address": "157 W. Lanvale Street, Bolton Hill, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "Bolton Hill Bulletin June 2017 says nearing 50 ft, lost its leader over 50 years ago; no girth, no age, no pin, not stated to be on public right-of-way; not remarkable enough yet.",
+   "source": "https://boltonhillmd.org/bulletin/the-american-beech-thats-one-tall-tree/"
+  },
+  {
+   "name": "Live Oak, 225 W. Lanvale Street, Bolton Hill (City champion)",
+   "species": "Southern Live Oak (Quercus virginiana)",
+   "location": {
+    "address": "225 W. Lanvale Street, Bolton Hill, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "Brand-new City champion per Bolton Hill Bulletin (2017) but the article calls it 'almost comically small': a young sidewalk tree, no measurement; not worth the walk.",
+   "source": "https://boltonhillmd.org/bulletin/bolton-hills-champion-trees/"
+  },
+  {
+   "name": "Baltimore City champion small trees in Clifton Park, Herring Run Park, Moores Run Park (winged sumac, buttonbush, American plum, gray dogwood)",
+   "species": "various shrubs/small trees",
+   "location": {
+    "address": "Herring Run Park near Parkside Dr and Sinclair Ln",
+    "latitude": 39.3185777,
+    "longitude": -76.5548991
+   },
+   "reason": "Blue Water Baltimore 2022 lists them with GPS (Clifton Park 39.320838,-76.582593; Herring Run 39.3188672,-76.5549635; Moores Run 39.3261549,-76.5330452) but all are 11 to 23 ft shrubs planted 2012 or 2017: champions by size class only, not ancient or spectacular.",
+   "source": "https://bluewaterbaltimore.org/?p=26474"
+  },
+  {
+   "name": "Sherwood Gardens old trees (Guilford)",
+   "species": "various",
+   "location": {
+    "address": "Sherwood Gardens, Stratford Rd, Guilford, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "Guilford Association says some plants date to the 18th century but names no tree; walk-through garden, no individual tree to pin. Needs a named specimen.",
+   "source": "https://guilfordassociation.org/?p=20"
+  },
+  {
+   "name": "Green Mount Cemetery oldest trees",
+   "species": "various",
+   "location": {
+    "address": "Green Mount Cemetery, 1501 Greenmount Ave, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "Cemetery's own page lists species (oak, linden, sycamore, a giant boxwood) but names no individual tree, age or place; needs a named specimen and hours.",
+   "source": "https://greenmountcemetery.com/?p=177"
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Arbutus Oak",
+   "species": "White Oak (Quercus alba)",
+   "location": {
+    "address": "Near the I-695/I-95 interchange, Arbutus, Maryland (just outside Baltimore city limits)",
+    "latitude": 39.25085,
+    "longitude": -76.68246
+   },
+   "reason": "CONFIRMED DEAD. This was the pre-existing Wikidata lead for this pass. Over 300 years old, seeded around 1690, famous for having caused Washington Metro planners to reroute the Red Line in the 1980s (estimated $2-4M cost) to save it, and for Native American artifacts found at its base during 1950s highway construction. The tree split in half and fell in 2019 due to internal decay. Per hard rule (never publish a tree known to be dead), this cannot ship. Recorded here so no future pass re-researches it.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arbutus_Oak",
+    "https://www.atlasobscura.com/places/the-arbutus-oak-arbutus-maryland"
+   ]
+  },
+  {
+   "name": "Osage Orange, Druid Hill Park",
+   "species": "Osage Orange (Maclura pomifera)",
+   "location": {
+    "address": "Druid Hill Park, near the old Reptile House, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "CONFIRMED DEAD. Approximately 400 years old, blown down by Superstorm Sandy on 29 October 2012 (winds near 70mph on saturated soil). Friends of Druid Hill Park discussed preserving a remnant as a monument; no evidence found this pass that a living replacement or memorial has become a collectible entry.",
+   "sources": [
+    "https://www.cbsnews.com/baltimore/news/historic-tree-in-druid-hill-park-torn-apart-by-superstorm-sandy/"
+   ]
+  },
+  {
+   "name": "Dawn Redwood, Cylburn Arboretum",
+   "species": "Dawn Redwood (Metasequoia glyptostroboides)",
+   "location": {
+    "address": "Cylburn Arboretum, Baltimore",
+    "latitude": null,
+    "longitude": null
+   },
+   "reason": "CONFIRMED DEAD. Planted 1965 (60 years old), a Baltimore City champion reaching roughly 83 feet, destroyed when struck by lightning in a storm (reported by CBS News Baltimore, year not confirmed but described as recent). Also too young at 60 years to have qualified on age alone even if alive.",
+   "sources": [
+    "https://www.cbsnews.com/baltimore/news/cylburn-arboretums-historic-60-year-old-redwood-tree-demolished-by-lightning-strike-baltimore-dawn-redwood-tree"
+   ]
+  }
+ ],
+ "notes": "Verification pass 2026-09-11. No Maryland/Baltimore official tree register was found (checked OPEN_DATA_SURVEY.md first, no Maryland entry). The original Wikidata lead for this city (Arbutus Oak) turned out to be dead and outside city limits; both replacement trees shipped were found via general web sweep of Baltimore-area 'notable/historic tree' coverage. Baltimore has an unusually high rate of famous trees that have recently died (three of five candidates investigated this pass), worth noting for whoever plans the next pass. FOLLOW-UP PASS 2026-09-11 (this pass): delivered bal_003 (Cockspur Hawthorn, Cylburn Arboretum, single-sourced/flagged) and bal_004 (Paperbark Maple, Cylburn Arboretum, two sources) to data/research/baltimore-verify-extra.json, clearing the 4-tree floor (2 banked + 2 new). Found Cylburn Arboretum Friends' own official 'Notable Trees' map (cylburn.org/wp-content/uploads/2013/01/cylburn_tree_shrubs_map.pdf), a genuine naming-body source per BRIEF_RESEARCH.md with 17 letter-coded specimens and approximate positions -- a good source for a future Cylburn-focused pass. The Maryland Big Tree Program's own database (mdbigtrees.org) exists and is the obvious source of exact measurements/coordinates for every Cylburn champion, but it is JS-rendered and returned no tree-level data to this pass's fetch tool; flagging for a future pass with a JS-capable fetch or an API route in."
 }

@@ -397,9 +397,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/MapSheet.kt",
    "summary": "Android map sheet: dragging the list up from half moved the sheet down (nested scroll sign turned round; gestures held the first composition's stops)",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "FlowWalk.theListFollowsTheFinger"
+   "test": "FlowWalk.theListFollowsTheFinger",
+   "fixed_in": "b035dcbca"
   },
   {
    "id": "ESC-2026-11-17-tapping-a-writer-s-name-or-anywhere-in-a",
@@ -432,9 +433,10 @@
    "file": "scripts/mailcheck.py",
    "summary": "mailcheck held a reader reply for the verb 'walks' ('so the next person walks straight to them', Blaise report 1000054) as an unshipped feature",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/test_mailcheck_walks.py"
+   "test": "scripts/test_mailcheck_walks.py",
+   "fixed_in": "cf5f1412c"
   },
   {
    "id": "ESC-2026-11-17-back-after-an-hour-a-signed-in-visitor-w",
@@ -467,9 +469,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/SignIn.kt",
    "summary": "Android: tapping the camera crashed the app (the sign-in sheet drew the launcher icon with painterResource, which cannot draw the new adaptive-icon XML)",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "FlowWalk.collectGate"
+   "test": "FlowWalk.collectGate",
+   "fixed_in": "3abdaa8b1"
   },
   {
    "id": "ESC-2026-11-17-android-signing-in-crashed-the-app-my-tr",
@@ -478,9 +481,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/MyTrees.kt",
    "summary": "Android: signing in crashed the app (My trees framed collected trees across continents and asked MapLibre for a box past the pole)",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "SafeBoundsTest (android/app/src/test)"
+   "test": "SafeBoundsTest (android/app/src/test)",
+   "fixed_in": "57f49e499"
   },
   {
    "id": "ESC-2026-11-17-android-my-trees-country-chips-and-a-rem",
@@ -489,8 +493,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/MyTrees.kt",
    "summary": "Android My trees: country chips and a removed tree left the grid showing the old photographs (OwnPhoto kept produceState's value across a new key)",
    "first_seen": "2026-11-17",
-   "status": "open",
-   "found_by": "hidde"
+   "status": "fixed",
+   "found_by": "hidde",
+   "fixed_in": "8813ed9d9",
+   "no_test_reason": "Seen as the wrong photograph in a reused grid tile after a country chip, which a semantics test cannot see (the tile's node is the same); checked by hand on Hidde's Samsung 2026-11-17 after 8813ed9d9."
   },
   {
    "id": "ESC-2026-11-17-android-the-keyboard-pushed-the-whole-sc",
@@ -499,9 +505,10 @@
    "file": "android/app/src/main/AndroidManifest.xml",
    "summary": "Android: the keyboard pushed the whole screen up (search field off the top), no windowSoftInputMode",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt theKeyboardLeavesTheFieldInView"
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt theKeyboardLeavesTheFieldInView",
+   "fixed_in": "f7c1aeab2"
   },
   {
    "id": "ESC-2026-11-17-android-a-place-from-discover-s-search-o",
@@ -510,9 +517,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/MainActivity.kt",
    "summary": "Android: a place from Discover's search opened the map without the tab bar",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt aPlaceFromDiscoverSearchKeepsTheMenu"
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt aPlaceFromDiscoverSearchKeepsTheMenu",
+   "fixed_in": "f7c1aeab2"
   },
   {
    "id": "ESC-2026-11-18-android-a-photo-chosen-from-the-gallery-",
@@ -525,6 +533,17 @@
    "found_by": "hidde",
    "no_test_reason": "Chosen in Android's own documents UI and its own permission dialog, outside the app window where an instrumented test cannot pick a file; checked by hand on the emulator 2026-11-18 with a GPS-tagged photo",
    "fixed_in": "9b0e4ce71"
+  },
+  {
+   "id": "WEB-BUG-refresh-blip-signs-out",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/signin-js.ts:254",
+   "summary": "refreshIfStale treats any non-2xx answer from the token endpoint (a 429 or 5xx blip) as a spent refresh token and removes ancienttrees_session, so a server hiccup signs a signed-in visitor out.",
+   "fix": "Clear the session only on 400/401/403 (refresh token spent or revoked); on 429, 5xx or a network error leave it in place.",
+   "first_seen": "2026-11-18",
+   "status": "fixed",
+   "test": "scripts/qa.py check_a_server_blip_does_not_sign_out()"
   }
  ]
 }

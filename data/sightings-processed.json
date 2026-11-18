@@ -4568,6 +4568,177 @@
    "lat": 51.4447116666667,
    "lon": -0.5565,
    "pin_checked": "2026-11-17"
+  },
+  "9620278d-6885-4b27-b86b-e5211e651a36": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "4fe1cb00-e56f-42e1-8c89-ec11bc883f73": {
+   "outcome": "published",
+   "date": "2026-11-17"
+  },
+  "455f464a-464b-476c-b634-b9bdc511f84c": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a.jpg",
+   "reason": "The same sprawling sycamore at Pawling Farm in November, bare: pale mottled limbs running out over leaf litter with the farm building behind; extras show the burred lower trunk and the crown from the lawn. Same reader who found it; the in-leaf lead stays (in leaf beats bare), these join the gallery.",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-17"
+  },
+  "fd777c00-bef5-4180-b214-8508313c12fb": {
+   "outcome": "added",
+   "date": "2026-11-17",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-fd777c00.jpg",
+   "reason": "The same sycamore from the open lawn, bare: one great limb arching up from limbs that touch the ground and turn back up, daylight, blue sky. Gallery, behind the in-leaf lead. Species seen: smooth white and grey mottled bark, bare crown with seed balls: American sycamore. Fits the description: limbs ",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-17"
+  },
+  "12a88725-88e2-4a96-85f6-0966bb59db6b": {
+   "outcome": "published",
+   "date": "2026-11-18"
+  },
+  "796f1465-deac-4ee9-a5c2-45339f4e0473": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "syd_005",
+   "city_slug": "sydney",
+   "file": "syd_005-the-camperdown-cemetery-fig.jpg",
+   "reason": "A huge Moreton Bay fig with buttress roots and wide low limbs, old headstones on the left, in a cemetery setting; this tree, in daylight and colour, and the tree had no photograph. Species seen: large glossy oval dark-green leaves, smooth grey-brown bark, sweeping buttress and surface roots typical ",
+   "lat": -33.89455,
+   "lon": 151.17915,
+   "pin_checked": "2026-11-18"
+  },
+  "e95df1c6-5f63-48bd-8def-77dff267a22a": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "vfg_001",
+   "reason": "No tree in frame: the National Park Service entrance sign for Pawling Farm, not the tree or a sign of the tree's own. The tree already carries this reader's photographs."
+  },
+  "79399d95-56b8-4b54-9f84-0af78aaa3973": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-79399d95.jpg",
+   "reason": "The sycamore's huge burred trunk base in daylight, with its white and grey mottled limbs above and a person (back turned) beside it for scale; a trunk close-up that shows its size, so it goes in the strip behind the wide lead. Species seen: plane bark flaking white and grey on the upper limbs, scaly",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-18"
+  },
+  "991c4102-f159-48b7-88ba-5b82ddc15eda": {
+   "outcome": "held",
+   "date": "2026-11-18"
+  },
+  "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "city_slug": "melbourne",
+   "file": "mel_002-the-remnant-river-red-gum-of-edinburgh-gardens.jpg",
+   "reason": "Whole tree in frame, daylight and colour: a big spreading eucalypt with smooth, pale, mottled bark down to the ground, leaning trunk, in open parkland by the street. GPS 17 m from our pin, the nearest registered river red gum (Yarra ref 104). Species seen: smooth pale bark shedding in patches, narro",
+   "lat": -37.785927451369,
+   "lon": 144.983339405773,
+   "pin_checked": "2026-11-18"
+  },
+  "40cb274a-5cc3-4b0c-9256-928db4748c00": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the same frame as 83d2e9a2, which shows the park's smooth-barked river red gum (now on mel_002), not this rough-barked mahogany."
+  },
+  "d079d8a5-b4cd-490a-81e9-d33d9a374980": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the same frame as 83d2e9a2 (now on mel_002)."
+  },
+  "86a63f45-95a3-4106-b30b-17f0aab57a88": {
+   "outcome": "held",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "A different tall eucalypt by the park shelter and picnic tables, straight trunk darker at the base, shot against the sun; not the leaning smooth-trunked red gum now leading mel_002. Its GPS is 20 m from Yarra register red gums 104 and 111."
+  },
+  "8aa6d2ec-efee-4bc3-9ecf-76808a593ae7": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the same frame as 86a63f45 (its extra files repeat 83d2e9a2 and cf563d69)."
+  },
+  "cf563d69-f218-4a46-8e59-b3feeeb70dae": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "A different big eucalypt beside the skate bowl: rough grey bark on the lower trunk, smooth pale above, dense rounded crown. Not the smooth leaning red gum on mel_002; GPS 51 m from our pin, 36 m from Yarra register red gum 111.",
+   "pin_checked": "2026-11-18"
+  },
+  "e1b0ab73-b194-4539-a9fd-7bd7939ffd7b": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the same tree by the skate bowl as cf563d69, same reader, same minute; it can join that tree's strip once it is live."
+  },
+  "47b1b1f2-be9e-4c88-837c-beacdbde0c4f": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "syd_001",
+   "reason": "Duplicate: sent for the Bidwill Kauri Pine, but every frame is the Norfolk Island pine of the Wishing Tree (syd_006, GPS 0 m from its pin, the hedge ring and the Araucaria heterophylla label), and the same reader's identical crown and trunk shots are already its lead and strip photographs (4f406924,"
+  },
+  "976d3d1b-1a58-4716-b138-4393ee1fdd27": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_001",
+   "city_slug": "melbourne",
+   "file": "mel_001-the-finer-holm-oak-of-edinburgh-gardens.jpg",
+   "reason": "A broad holm oak in Edinburgh Gardens, 43 m from the pin, in daylight and colour, filling the frame. Species seen: evergreen oak with small dark leathery leaves, dark heavy trunk dividing low into spreading limbs. Fits the description: very thick dark trunk among lighter-leaved park trees beside a p",
+   "lat": -37.7872921496302,
+   "lon": 144.981801094021,
+   "pin_checked": "2026-11-18"
+  },
+  "12844fcf-197d-4db6-8136-4062ef759d78": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "tok_005",
+   "city_slug": "tokyo",
+   "file": "tok_005-the-shiba-toshogu-ginkgo-12844fcf.jpg",
+   "reason": "The Shiba Toshogu ginkgo itself: the stone post in front reads 天然紀念物 芝東照宮公孫樹 (Natural Monument, Shiba Toshogu ginkgo) and the shrine's interpretive board stands beside it; 35 m from the pin, daylight, trunk to crown in frame. Species seen: ginkgo, fan-shaped leaves just turning yellow-green, massive",
+   "lat": 35.6551883333333,
+   "lon": 139.748991666667,
+   "pin_checked": "2026-11-18"
+  },
+  "69ef60d5-e531-4134-af75-832cf205c156": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45 (same frame as c650049c), and its extra is identical to mel_019's lead. Not the smooth red gum mel_002."
+  },
+  "c650049c-8566-42f4-a558-58fa5557fa44": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45, not the rough-barked Southern Mahogany. Its extra is a new frame of mel_019 by the skate bowl (with a bicycle), which could join mel_019's strip."
+  },
+  "2f335c62-2c3f-409a-8335-2c07d928f1b0": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_004",
+   "reason": "Duplicate: the same picture is already the lead photograph of mel_001, the Finer Holm Oak of Edinburgh Gardens, 38 m from this GPS fix. It shows that holm oak, not mel_004 in Darling Gardens 1 km away, and it is already live there."
+  },
+  "0dc02495-3796-430f-a137-473641f7b6a7": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "stw_001",
+   "city_slug": "stow-on-the-wold",
+   "file": "stw_001-the-north-door-yews-of-st-edward-s-stow-on-the-wold-0dc02495.jpg",
+   "reason": "The reader's second frame: a close view of the two yew trunks either side of the arched north door, red flaking bark and the root plates spilling over the path, wet daylight, colour. Their main frame is a near-copy of the lead they already gave (ea481510), so the close frame goes in the strip behind",
+   "lat": 51.9301866666667,
+   "lon": -1.72385833333333,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

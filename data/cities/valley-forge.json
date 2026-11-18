@@ -16,7 +16,7 @@
     },
     {
       "q": "How old is it?",
-      "a": "A reader puts it at 260 to 285 years and its girth at 650 centimetres. Those are their figures; we have not seen a measurement."
+      "a": "A reader puts it at 260 to 285 years, and measured its girth at 695 centimetres in November 2026. Those are their figures; no register has measured it."
     },
     {
       "q": "Can I walk among the limbs?",
@@ -40,7 +40,7 @@
       },
       "how_to_recognise": "A sycamore whose long white and grey mottled limbs run out along the grass, touch the ground and climb back up, on the lawn by the Pawling Farm buildings.",
       "access": "Free, in Valley Forge National Historical Park, on the grounds of Pawling Farm off Pawlings Road. Park grounds are open daily.",
-      "story": "\"The boughs spread over 42 meters, some of which reach down, meld with the ground and then bend back up,\" wrote the reader who sent us this American sycamore from Pawling Farm in Valley Forge National Historical Park, with a photograph and a GPS fix taken beside it.\n\nThe photograph shows exactly that. Instead of holding its limbs up, the tree has let them down: long arms of pale, mottled bark, white and grey and olive where the old bark has flaked away, run out across the mown grass, lie along it for metres and then turn upward again into the crown, so that walking under the tree means stepping between its branches. Sycamores often grow this way when they have room and nobody prunes them.\n\nThe reader puts its girth at 650 centimetres and its age at 260 to 285 years. Those are their figures, not a measurement we have seen. If they are right, the tree was already growing when the Continental Army spent the winter of 1777 to 1778 at Valley Forge.\n\nPawling Farm lies off Pawlings Road on the north side of the Schuylkill. Walk all the way round and follow one limb from the trunk to where it rises again.",
+      "story": "\"The boughs spread over 42 meters, some of which reach down, meld with the ground and then bend back up,\" wrote the reader who sent us this American sycamore from Pawling Farm in Valley Forge National Historical Park, and went back in November to photograph it bare.\n\nThe photographs show exactly that. Instead of holding its limbs up, the tree has let them down: long arms of pale, mottled bark, white and grey and olive where the old bark has flaked away, run out across the mown grass, lie along it for metres and then turn upward again into the crown, so that walking under the tree means stepping between its branches. Sycamores often grow this way when they have room and nobody prunes them.\n\nThe reader puts its age at 260 to 285 years, and on that November visit measured the trunk themselves: \"Just shy of 7 meter circumference, 6.95 meters.\" Those are their figures, not a measurement we have seen. If they are right, the tree was already growing when the Continental Army spent the winter of 1777 to 1778 at Valley Forge.\n\nPawling Farm lies off Pawlings Road on the north side of the Schuylkill. Walk all the way round and follow one limb from the trunk to where it rises again.",
       "verified_sources": [],
       "found_by_reader": {
         "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
@@ -56,19 +56,48 @@
         "note": "The photograph's GPS fix (40.110225, -75.457703) was taken beside the tree; the reader who found it then moved the pin 56 m onto the trunk (report 1000069), and we took their move."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-17 reader judge: sent by a reader (c4b5f1b1-ce96-469b-805d-cf75390b7917, through the app). Photograph viewed: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Published under the closed list for a reader's tree. The reader's own figures: name 'American Sycamore at Pawling Farm in Valley Forge National Park', species 'American Sycamore', age '260-285', girth 650 cm, note on 42 m spread. Every figure on the page is stated as theirs.",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (c4b5f1b1-ce96-469b-805d-cf75390b7917, through the app). Photograph viewed: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Published under the closed list for a reader's tree. The reader's own figures: name 'American Sycamore at Pawling Farm in Valley Forge National Park', species 'American Sycamore', age '260-285', girth 650 cm, note on 42 m spread. Every figure on the page is stated as theirs. 2026-11-17 reader judge (later): the same reader sent two more photographs (455f464a, fd777c00, bare, November) and wrote that the lead photograph from c4b5f1b1 was not one they took (report 1000077): it came off the page and fd777c00 leads. They measured the girth at 6.95 m that day (report 1000076, was 650 cm by their earlier estimate); stated in the story as theirs, girth_cm left empty (a reader's figure).",
       "photo": {
-        "url": "https://ancienttrees.app/photos/vfg_001-sprawling-sycamore-of-pawling-farm.jpg",
-        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-fd777c00.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1600,
         "height": 1200,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
-        "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: long pale mottled limbs of a sycamore snaking along the grass, touching down and rising again, under a green crown, a farm building and a second great trunk behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+        "sighting_id": "fd777c00-bef5-4180-b214-8508313c12fb",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The same sycamore from the open lawn, bare: one great limb arching up from limbs that touch the ground and turn back up, daylight, blue sky. Made the lead on 2026-11-17 after the reader said the earlier lead photograph was not one they took (report 1000077); that one came off the page. Species seen: smooth white and grey mottled bark, bare crown with seed balls: American sycamore. Fits the description: limbs run along the grass, touch down and climb back up, exactly as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c",
+          "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The same sprawling sycamore at Pawling Farm in November, bare: pale mottled limbs running out over leaf litter with the farm building behind; extras show the burred lower trunk and the crown from the lawn. Same reader who found it; the in-leaf lead stays (in leaf beats bare), these join the gallery. Species seen: white peeling upper limbs, olive-grey mottled bark, plane-type burrs on the trunk: American sycamore. Fits the description: long pale limbs lying along the grass and rising again, on the lawn by the Pawling Farm building.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-79399d95.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
+          "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The sycamore's huge burred trunk base in daylight, with its white and grey mottled limbs above and a person (back turned) beside it for scale; a trunk close-up that shows its size, so it goes in the strip behind the wide lead. Species seen: plane bark flaking white and grey on the upper limbs, scaly lower trunk, a yellow plane leaf at the top. Fits the description: same contributor's tree at the same pin; white mottled limbs and a massive old trunk on a lawn by stone edging.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

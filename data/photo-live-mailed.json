@@ -619,7 +619,35 @@
   },
   "p_3bb2d9b77f839015a3f92de9": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "fd777c00-bef5-4180-b214-8508313c12fb",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
@@ -1645,37 +1673,25 @@
    ]
   },
   "p_f127bf781505453e3305184d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "aa636a2c-f651-42b4-82e2-18f8ce6b981e",
      "tree_id": "thv_001",
-     "tree_name": "The Big Oak",
-     "city": "Thomasville",
-     "city_slug": "thomasville",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd",
      "tree_id": "thv_001",
-     "tree_name": "The Big Oak",
-     "city": "Thomasville",
-     "city_slug": "thomasville",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "78b88780-f090-4c13-8360-95570ebe3113",
      "tree_id": "chs_001",
-     "tree_name": "The Angel Oak",
-     "city": "Charleston",
-     "city_slug": "charleston",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_43296b4149990a775a24a4a6": {
    "last": "2026-11-17",
@@ -1689,37 +1705,25 @@
    ]
   },
   "p_dabd74bef1d935f48a2bb1d7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c966501b-99ab-45d9-8cbd-2e035cdc3e87",
      "tree_id": "hob_003",
-     "tree_name": "The Norfolk Island Pine of Ingle Hall",
-     "city": "Hobart",
-     "city_slug": "hobart",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "0efe2765-3329-41a9-989e-c1b1681b6330",
      "tree_id": "hob_004",
-     "tree_name": "The Bhutan Cypress of Brisbane Street",
-     "city": "Hobart",
-     "city_slug": "hobart",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "e5ccc7fb-dcbe-4651-86ba-322bd91c2e04",
      "tree_id": "hob_002",
-     "tree_name": "The Dawn Redwoods of Elizabeth Street",
-     "city": "Hobart",
-     "city_slug": "hobart",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f0acac5f04c506f94ac08878": {
    "last": "2026-11-17",
@@ -1760,19 +1764,25 @@
    ]
   },
   "p_98341868b2bd7fa318d5e77a": {
-   "last": null,
+   "last": "2026-11-18",
    "pending": [
     {
-     "sighting_id": "ea481510-d49d-44c4-8cf9-c27c49f968e8",
+     "sighting_id": "0dc02495-3796-430f-a137-473641f7b6a7",
      "tree_id": "stw_001",
      "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
      "city": "Stow-on-the-Wold",
      "city_slug": "stow-on-the-wold",
      "display_name": null,
-     "live": "2026-11-17"
+     "live": "2026-11-18"
     }
    ],
-   "sent": []
+   "sent": [
+    {
+     "sighting_id": "ea481510-d49d-44c4-8cf9-c27c49f968e8",
+     "tree_id": "stw_001",
+     "mailed": "2026-11-18"
+    }
+   ]
   },
   "p_76408b11d09611876123c171": {
    "last": "2026-11-17",
@@ -1808,28 +1818,20 @@
    ]
   },
   "p_da68887efbcb3708dd151f6f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "4bc25502-4712-4388-ab52-97d23703d9fe",
      "tree_id": "lon_011",
-     "tree_name": "The St Paul's Churchyard Planes",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "0b4c9e0a-916e-4f6c-a11c-d6850563f822",
      "tree_id": "lon_003",
-     "tree_name": "The Cheapside Plane",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_8b86d4aa9a803a2e23ac0f7a": {
    "last": "2026-11-17",
@@ -1875,100 +1877,118 @@
    ]
   },
   "p_05cc15a3f44a1e9f51181213": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "62e38d75-fb0b-4430-b3dc-791865129b6c",
      "tree_id": "sor_001",
-     "tree_name": "The Multisecular Beech of Saint-Jammes",
-     "city": "Sorèze",
-     "city_slug": "soreze",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "20dc8d53-91c1-4087-963b-583bb1d5d7ce",
      "tree_id": "sor_001",
-     "tree_name": "The Multisecular Beech of Saint-Jammes",
-     "city": "Sorèze",
-     "city_slug": "soreze",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_14a30efd07d48052d438a1ea": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1894f450-f71e-4d35-88be-6bcdcd874dfa",
      "tree_id": "lon_030",
-     "tree_name": "The Gunnersbury Park Black Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "ac111c30-e0ed-48a7-aa1b-4315ca5a2db0",
      "tree_id": "lon_030",
-     "tree_name": "The Gunnersbury Park Black Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "b18f5e71-a6f9-41db-869c-743e0c0ce388",
      "tree_id": "lon_030",
-     "tree_name": "The Gunnersbury Park Black Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "a469122c-0c06-4206-afd9-9574a7dc67ab",
      "tree_id": "lon_030",
-     "tree_name": "The Gunnersbury Park Black Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_55d4723005a3e9f5ecc973e2": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "3c48f8df-d5a1-41f7-9678-193a214eab1c",
      "tree_id": "wdc_004",
-     "tree_name": "The National Mall Jefferson Elm",
-     "city": "Washington DC",
-     "city_slug": "washington-dc",
+     "mailed": "2026-11-18"
+    }
+   ]
+  },
+  "p_766a80fcd6ef135c437a5c7d": {
+   "last": "2026-11-17",
+   "pending": [],
+   "sent": [
+    {
+     "sighting_id": "5e906833-f5e8-4dbc-89df-ded1eb25e996",
+     "tree_id": "ank_001",
+     "mailed": "2026-11-17"
+    }
+   ]
+  },
+  "p_34af1999246c96b6f3066f50": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "796f1465-deac-4ee9-a5c2-45339f4e0473",
+     "tree_id": "syd_005",
+     "tree_name": "The Camperdown Cemetery Fig",
+     "city": "Sydney",
+     "city_slug": "sydney",
      "display_name": null,
-     "live": "2026-11-17"
+     "live": "2026-11-18"
     }
    ],
    "sent": []
   },
-  "p_766a80fcd6ef135c437a5c7d": {
+  "p_208e853a0292b8f518700a87": {
    "last": null,
    "pending": [
     {
-     "sighting_id": "5e906833-f5e8-4dbc-89df-ded1eb25e996",
-     "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
+     "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
+     "tree_id": "mel_002",
+     "tree_name": "The Remnant River Red Gum of Edinburgh Gardens",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
      "display_name": null,
-     "live": "2026-11-17"
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "976d3d1b-1a58-4716-b138-4393ee1fdd27",
+     "tree_id": "mel_001",
+     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-18"
     }
    ],
    "sent": []
+  },
+  "p_fd3ccfba74ad26c21b4343f5": {
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
+    {
+     "sighting_id": "12844fcf-197d-4db6-8136-4062ef759d78",
+     "tree_id": "tok_005",
+     "mailed": "2026-11-18"
+    }
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

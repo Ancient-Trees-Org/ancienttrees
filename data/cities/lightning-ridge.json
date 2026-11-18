@@ -1,0 +1,73 @@
+{
+  "city": "Lightning Ridge",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Lightning Ridge is an opal-mining town in the far north-west of New South Wales, near the Queensland border, known for its black opal. A few kilometres south of it, in open bush among prickly pear, grows an old coolibah with a massive hollow trunk and limbs that sweep almost to the ground. A reader sent us its photograph and puts it at 500 years old.",
+  "meta_description": "An old coolibah in the bush south of Lightning Ridge, New South Wales, sent by a reader: what it looks like and where it stands.",
+  "hero_tree_id": "lri_001",
+  "oldest_tree_id": "lri_001",
+  "trees": [
+    {
+      "id": "lri_001",
+      "name": "The Coolibah South of Lightning Ridge",
+      "species": "Coolibah (Eucalyptus microtheca)",
+      "age_estimate": "about 500 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Bush south of Lightning Ridge, New South Wales",
+        "latitude": -29.4736533333333,
+        "longitude": 147.978608333333,
+        "neighbourhood": "Lightning Ridge"
+      },
+      "story": "A reader sent us this coolibah from the bush a few kilometres south of Lightning Ridge, the opal town of north-western New South Wales, with a GPS fix taken at its foot. They put it at 500 years old, with a question mark, and its trunk at 7.5 metres round. Those are their figures, not a measurement we have seen.\n\nThe photograph shows why they stopped. A man stands against the trunk, and the tree makes him small. The trunk is short and massive, with a dark hollow low on one side, and almost at once it throws out great grey limbs in every direction. Some climb into an airy crown of narrow blue-green leaves; others sweep down and out so far that one bends nearly to the ground before turning up again. Around it is open country of grass, saltbush and prickly pear.\n\nThe coolibah is the eucalypt of the inland floodplains, the tree under which the swagman camps in Waltzing Matilda. Its wood is hard and its trunks often grow hollow, which makes them difficult to date.\n\nWe do not know who owns the ground it stands on. If you know this tree, its name or its history, tell us here.",
+      "how_to_recognise": "Alone in open bush among prickly pear: a short, massive grey trunk with a dark hollow low on one side, its long limbs sweeping out so far that one bends almost to the ground.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36",
+        "date": "2026-11-17"
+      },
+      "access": "The reader walked up to it in open bush about five kilometres south of the town. We have not confirmed who owns the land; ask locally before you go.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (9620278d-6885-4b27-b86b-e5211e651a36). Photograph viewed: a whole old coolibah in open bush, a short massive trunk with a dark hollow opening into great low-swept limbs, a man standing at its foot for scale, prickly pear in front; a second view of the burred trunk and crown; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Coolibah', species 'Coolibah', age '500 years?', girth 750 cm; all stated as theirs. No register entry within 100 m; OpenStreetMap names no road or site at the fix, so the access line says we have not confirmed the landowner.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lri_001-coolibah-south-of-lightning-ridge.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_217a4b842ca351e72ce0b8d7",
+        "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); viewed and approved on 2026-11-17: a whole old coolibah in open bush, a short massive trunk with a dark hollow opening into great low-swept limbs, a man standing at its foot for scale, prickly pear in front; a second view of the burred trunk and crown; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "An old coolibah in the bush south of Lightning Ridge, New South Wales, which a reader puts at 500 years: where it stands and what we know.",
+  "question_answer": "The Coolibah South of Lightning Ridge stands in open bush about five kilometres south of the town. A reader puts it at about 500 years old; we have no measurement of our own.",
+  "question_context": "A reader sent us this coolibah from the bush a few kilometres south of Lightning Ridge, the opal town of north-western New South Wales, with a GPS fix taken at its foot. They put it at about 500 years old, with a question mark, and its trunk at 7.5 metres round; those figures are theirs, not a measurement we have seen. In their photograph a man stands against the trunk and the tree makes him small. The trunk is short and massive, with a dark hollow low on one side, and it throws out great grey limbs in every direction, one sweeping down so far that it nearly touches the ground. The coolibah is the eucalypt of the inland floodplains, the tree of Waltzing Matilda, and its hard wood often grows hollow, which makes old trunks difficult to date. We do not know who owns the ground it stands on, so ask locally before you go.",
+  "faq": [
+    {
+      "q": "Where is the coolibah near Lightning Ridge?",
+      "a": "In open bush about five kilometres south of the town; the pin marks the reader's GPS fix at its foot."
+    },
+    {
+      "q": "How old is the coolibah near Lightning Ridge?",
+      "a": "The reader who sent it puts it at about 500 years. We have no measurement or record of our own."
+    },
+    {
+      "q": "Can I visit the coolibah near Lightning Ridge?",
+      "a": "The reader walked up to it, but we have not confirmed who owns the land. Ask locally before you go."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "city": "Daintree",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "The Daintree is the lowland rainforest of tropical north Queensland, between the Daintree River and Cape Tribulation, where the forest runs down to the sea. At the Daintree Discovery Centre at Cow Bay, a boardwalk passes a strangler fig whose fused roots climb into the canopy around the space where its host tree once stood. A reader sent us its photograph and puts it at 500 to 600 years old.",
+  "meta_description": "A strangler fig on the boardwalk of the Daintree Discovery Centre, Queensland, sent by a reader: what it looks like and where it stands.",
+  "hero_tree_id": "dtr_001",
+  "oldest_tree_id": "dtr_001",
+  "question_meta": "A strangler fig in the Daintree rainforest, Queensland, which a reader puts at 500 to 600 years: where it stands and what we know.",
+  "question_answer": "The Strangler Fig of the Daintree Discovery Centre stands on the centre's rainforest boardwalk at Cow Bay. A reader puts it at 500 to 600 years old; we have no measurement of our own.",
+  "question_context": "A reader sent us this strangler fig from the rainforest boardwalk of the Daintree Discovery Centre at Cow Bay, north of the Daintree River in tropical north Queensland, with a GPS fix taken beneath it. They put it at 500 to 600 years old; that figure is theirs, not a measurement we have seen. Their photograph looks straight up a column of fused, latticed roots that leans out and climbs into the canopy among fan palms, with a visitor at the rail below for scale. A strangler fig begins as a seed dropped high in another tree, sends its roots down to the soil and slowly encloses its host, which dies and rots away; as the reader put it, the original tree it began its life on is gone. Because the fig's trunk is a net of roots around an empty core, it keeps no rings to count, so ages like this one are estimates. The centre charges for entry and its boardwalks are open in daytime.",
+  "faq": [
+    {
+      "q": "Where is the strangler fig in the Daintree?",
+      "a": "On the rainforest boardwalk of the Daintree Discovery Centre, Tulip Oak Road, Cow Bay; the pin marks the reader's GPS fix beneath it."
+    },
+    {
+      "q": "How old is the Daintree strangler fig?",
+      "a": "The reader who sent it puts it at 500 to 600 years. We have no measurement or record of our own."
+    },
+    {
+      "q": "Can I visit the strangler fig in the Daintree?",
+      "a": "Yes, from the boardwalk inside the Daintree Discovery Centre, which charges for entry and is open in daytime."
+    }
+  ],
+  "trees": [
+    {
+      "id": "dtr_001",
+      "name": "The Strangler Fig of the Daintree Discovery Centre",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "500 to 600 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Daintree Discovery Centre, Tulip Oak Road, Cow Bay, Queensland",
+        "latitude": -16.2377383333333,
+        "longitude": 145.42778,
+        "neighbourhood": "Cow Bay"
+      },
+      "how_to_recognise": "From the boardwalk: a fig made of fused, latticed roots, climbing in a great leaning column into the canopy among fan palms.",
+      "paid_entry": true,
+      "access": "Inside the Daintree Discovery Centre, on its rainforest boardwalk; entry is paid. Open daily in daytime; check hours before you go.",
+      "story": "A reader sent us this strangler fig from the boardwalks of the Daintree Discovery Centre at Cow Bay, in the lowland rainforest north of the Daintree River, with a GPS fix taken beneath it. \"The original tree it began its life on is gone,\" they wrote, and that one line is the whole life story of a strangler.\n\nA strangler fig starts as a seed left by a bird or a bat high in the crown of another tree. Its roots come down the host's trunk to the soil, thicken, and fuse into a net, until the host inside dies and rots away. What is left is a fig standing on its own roots around an empty space.\n\nThe photograph looks straight up the result. A column of roots, twisted and laced together, leans out from the left and climbs into the canopy, fan palms spreading their fronds around it and a visitor at the boardwalk rail looking small below.\n\nThe reader puts it at 500 to 600 years old. That is their figure; we have not seen a measurement or a count, and a hollow fig keeps no rings to count. If the centre's own guides give it an age, tell us here.\n\nLook up through the trunk where the host once stood.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+        "date": "2026-11-17"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+        "moved_m": 0,
+        "date": "2026-11-17",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-17 reader judge: sent by a reader (4fe1cb00-e56f-42e1-8c89-ec11bc883f73, through the app). Photograph viewed: looking up from the boardwalk at a strangler fig whose lattice of fused roots climbs a great leaning column into the canopy, fan palms around it, a visitor at the rail for scale, daylight, colour. The second file they sent is a 194 by 260 pixel thumbnail of a strangler fig trunk, not used (it may not be theirs). Their note reads partly like a description of the centre; only their sentence about the lost host tree is quoted. Their figure: age '600 years'. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dtr_001-strangler-fig-of-the-daintree-discovery-centre.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_216cd518521fbdf73dfba32c",
+        "sighting_id": "4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: looking up from the boardwalk at a strangler fig whose lattice of fused roots climbs a great leaning column into the canopy, fan palms around it, a visitor at the rail for scale, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "city": "Philadelphia",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Four trees, and three of them are at Morris Arboretum. Bartram's Ginkgo, the oldest ginkgo in America, grows alone at Bartram's Garden on the Schuylkill, planted in 1785 by William Hamilton and outliving the two he kept for himself. Across town at Morris Arboretum stand a natural oak hybrid nobody bred, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a world's fair, a 1947 move, and the 2024 storm that killed its twin.",
+  "intro": "Most of the best trees here stand at Morris Arboretum. Bartram's Ginkgo, the oldest ginkgo in America, grows alone at Bartram's Garden on the Schuylkill, planted in 1785 by William Hamilton and outliving the two he kept for himself. Across town at Morris Arboretum stand a natural oak hybrid nobody bred, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a world's fair, a 1947 move, and the 2024 storm that killed its twin.",
   "meta_description": "Bartram's Ginkgo, America's oldest, grows by the Schuylkill. Three more at Morris Arboretum: a wild oak hybrid, a fragrant katsura, a weeping hemlock.",
   "question_answer": "The oldest tree in Philadelphia is Bartram's Ginkgo, growing east of the Bartram Barn at Bartram's Garden in Southwest Philadelphia, believed to be around 240 years old. It grew from a sapling William Hamilton shipped from London in 1785 and gave to his friend William Bartram, and it is thought to be the oldest ginkgo in North America. The garden is free and open every day, dawn to dusk. Three more trees are mapped at Morris Arboretum across town: a wild oak hybrid that may run nearly as old, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a 1947 move and the 2024 storm that killed its twin.",
   "question_meta": "Bartram's Ginkgo, planted 1785, roughly 240 years old, is Philadelphia's oldest tree and America's oldest ginkgo, one of four mapped here.",
@@ -468,6 +468,40 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "phl_022",
+      "name": "The Tabletop Scotch Elm at Morris Arboretum",
+      "species": "Weeping Wych Elm (Ulmus glabra 'Horizontalis')",
+      "age_estimate": "over a century",
+      "age_min": 117,
+      "age_max": 139,
+      "location": {
+        "address": "Morris Arboretum & Gardens, 100 E Northwestern Ave, Philadelphia, PA 19118 (Morris Pond cluster)",
+        "latitude": 40.0882721,
+        "longitude": -75.2212804,
+        "neighbourhood": "Chestnut Hill"
+      },
+      "verified_sources": [
+        "https://www.morrisarboretum.org/blog/plant-names-and-provenance-ulmus-glabra-horizontalis-tabletop-scotch-elm",
+        "https://www.morrisarboretum.org/gardens-trees/great-trees"
+      ],
+      "official_register": {
+        "name": "Morris Arboretum & Gardens Great Trees list (owner)",
+        "url": "https://www.morrisarboretum.org/gardens-trees/great-trees"
+      },
+      "access": "Paid entry to Morris Arboretum & Gardens (adults $22, seniors $20, youth $12, children 2 and under free, per the arboretum's site in Nov 2026); open daily, hours on the arboretum's site.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "story": "This elm is two trees on one trunk, and you can still see where they were joined. Some time before 1909 the Morris family planted it on their Chestnut Hill estate. It is a low, sprawling elm grafted high onto a straight understock about seven feet up, so the branches spread out flat and hang at the edges like a table top on a single leg.\n\nThe form is older than the tree. It began in 1816 as one odd seedling in a nursery at Perth, in Scotland. The arboretum says it is one of very few in the United States to grow one. A tabletop elm is as open to Dutch elm disease as any other elm. This one is still standing.\n\nThe estate passed to the University of Pennsylvania in 1932, the year the tree was entered in the arboretum's records, and it stands in the Morris Pond group beside a Chinese elm. In autumn the flat crown turns yellow.\n\nOur only source for it is the arboretum itself, and the newest description we have dates from 2023, so if you have seen it lately, tell us. Entry is paid, and the pin marks the arboretum rather than the tree, so head for the pond.",
+      "how_to_recognise": "You can recognise it by the flat, table-like crown on a trunk about 2 metres tall, with the graft scar showing where the two meet. It stands by Morris Pond, beside a Chinese elm.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "paid_entry": true
     }
   ]
 }

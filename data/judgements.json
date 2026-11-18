@@ -18,6 +18,465 @@
    "agreed": null
   },
   {
+   "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Moreton Bay Fig in Sydney",
+   "city": null,
+   "species": "Moreton Bay Fig",
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "reader_note": "Its size and beauty. One of the largest and oldest around.",
+   "reader_girth_cm": 750,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big lone Moreton Bay fig on park lawn with buttress roots and a hollow trunk, daylight; GPS fix inside Rushcutters Bay Park. Live as sydney/syd_008, the reader's age and girth stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Moreton Bay Fig of Rushcutters Bay Park",
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "reader_note": "Its size and beauty. One of the largest and oldest around.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: a lone Moreton Bay fig on park lawn, buttress roots and a dome of leaves, daylight, colour. Lead photograph of sydney/syd_008."
+  },
+  {
+   "id": "sight:796f1465-deac-4ee9-a5c2-45339f4e0473",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Camperdown Cemetery Fig",
+   "city": "Sydney",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/796f1465-deac-4ee9-a5c2-45339f4e0473.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Camperdown Cemetery Fig: the huge Moreton Bay fig with buttress roots among headstones, daylight and colour; the tree had no photograph, so it is now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e95df1c6-5f63-48bd-8def-77dff267a22a",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/e95df1c6-5f63-48bd-8def-77dff267a22a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected: no tree in frame, only the National Park Service entrance sign for Pawling Farm. The tree keeps this reader's earlier photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:79399d95-56b8-4b54-9f84-0af78aaa3973",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/79399d95-56b8-4b54-9f84-0af78aaa3973.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Into vfg_001's gallery behind the lead: the sycamore's huge burred trunk base with its mottled white limbs, daylight, a person beside it for scale",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e1b0ab73-b194-4539-a9fd-7bd7939ffd7b",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/e1b0ab73-b194-4539-a9fd-7bd7939ffd7b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 66,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Same tree by the skate bowl as cf563d69; rejected as a duplicate, can join that tree's strip once it is live.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cf563d69-f218-4a46-8e59-b3feeeb70dae",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/cf563d69-f218-4a46-8e59-b3feeeb70dae.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 51,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "lead",
+   "reason": "Another big gum by the skate bowl, rough lower trunk: now a waiting lead to judge as a new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8aa6d2ec-efee-4bc3-9ecf-76808a593ae7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/8aa6d2ec-efee-4bc3-9ecf-76808a593ae7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Same frame as 86a63f45; rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:86a63f45-95a3-4106-b30b-17f0aab57a88",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/86a63f45-95a3-4106-b30b-17f0aab57a88.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "lead",
+   "reason": "Another big gum by the park shelter, not mel_002's leaning trunk: now a waiting lead to judge as a new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/83d2e9a2-5746-4e5c-8c4a-6a4e97717e08.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 17,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "publish",
+   "reason": "Whole smooth, mottled, leaning river red gum in daylight; GPS 17 m from the pin. Now the lead photograph of mel_002, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:40cb274a-5cc3-4b0c-9256-928db4748c00",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Southern Mahogany of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Southern Mahogany (Eucalyptus botryoides)",
+   "photo": "out/sightings/40cb274a-5cc3-4b0c-9256-928db4748c00.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 91,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Mahogany (Eucalyptus botryoides)"
+   },
+   "verdict": "hold",
+   "reason": "Same frame as 83d2e9a2, the red gum now on mel_002; not the mahogany it was sent for. Rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:991c4102-f159-48b7-88ba-5b82ddc15eda",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_715c879da2fdf4127994327e/991C4102-F159-48B7-88BA-5B82DDC15EDA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "bad_frame: a close-up of white tubular flowers and leaves, no trunk or whole tree in frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:86a63f45-95a3-4106-b30b-17f0aab57a88",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_208e853a0292b8f518700a87/86A63F45-95A3-4106-B30B-17F0AAB57A88.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "wrong_tree: backlit gum that may be mel_002 or mel_019 seen from another side; needs a clearer frame or the reader's word.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cf563d69-f218-4a46-8e59-b3feeeb70dae",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_208e853a0292b8f518700a87/CF563D69-F218-4A46-8E59-B3FEEEB70DAE.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Big gum by the Edinburgh Gardens skate bowl, whole tree in daylight with a GPS fix: live as melbourne/mel_019, species left at genus.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:47b1b1f2-be9e-4c88-837c-beacdbde0c4f",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Bidwill Kauri Pine",
+   "city": "Sydney",
+   "species": "Queensland Kauri (Agathis robusta)",
+   "photo": "out/sightings/47b1b1f2-be9e-4c88-837c-beacdbde0c4f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 380,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Queensland Kauri (Agathis robusta)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: sent for the Bidwill Kauri Pine, but every frame is the Wishing Tree (syd_006, GPS 0 m from its pin, the Norfolk Island pine label); the same images are already its lead and strip photographs. Rejected as a duplicate, nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:976d3d1b-1a58-4716-b138-4393ee1fdd27",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Finer Holm Oak of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/976d3d1b-1a58-4716-b138-4393ee1fdd27.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 43,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "publish",
+   "reason": "On mel_001 as its first photograph: a thick-trunked holm oak among lighter park trees beside a club building, 43 m from the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:12844fcf-197d-4db6-8136-4062ef759d78",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Shiba Toshogu Ginkgo",
+   "city": "Tokyo",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/12844fcf-197d-4db6-8136-4062ef759d78.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 35,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "On tok_005 as the lead (the Commons photograph moves to the strip): the stone post reads 天然紀念物 芝東照宮公孫樹, the Shiba Toshogu ginkgo itself.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:69ef60d5-e531-4134-af75-832cf205c156",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/69ef60d5-e531-4134-af75-832cf205c156.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected as a duplicate. Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45 (same frame as c650049c), and its extra is identical to mel_019's lead. Not the smooth red gum mel_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c650049c-8566-42f4-a558-58fa5557fa44",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Southern Mahogany of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Southern Mahogany (Eucalyptus botryoides)",
+   "photo": "out/sightings/c650049c-8566-42f4-a558-58fa5557fa44.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 91,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Mahogany (Eucalyptus botryoides)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected as a duplicate. Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45, not the rough-barked Southern Mahogany. Its extra is a new frame of mel_019 by the skate bowl (with a bicycle), which could join mel_019's strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2f335c62-2c3f-409a-8335-2c07d928f1b0",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Holm Oak of Darling Gardens",
+   "city": "Melbourne",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/2f335c62-2c3f-409a-8335-2c07d928f1b0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1007,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: sent for mel_004 (Darling Gardens), but it shows the Finer Holm Oak of Edinburgh Gardens (mel_001, GPS 38 m from its pin), and this same picture is already mel_001's lead photograph. Rejected as a duplicate, nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0dc02495-3796-430f-a137-473641f7b6a7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The north door yews of St Edward's, Stow-on-the-Wold",
+   "city": "Stow-on-the-Wold",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/0dc02495-3796-430f-a137-473641f7b6a7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "The reader's close frame of both yew trunks either side of St Edward's north door, flaking red bark and root plates, wet daylight: now in stw_001's strip behind their earlier lead. Their main frame was a near-copy of that lead, so it was not added twice.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -2513,7 +2972,7 @@
    "hidde": null,
    "agreed": null,
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001."
+   "reason": "Photograph viewed 2026-11-17: the sycamore's pale limbs along the grass at Pawling Farm, daylight, colour. Lead photograph of valley-forge/vfg_001. Later the same day the sender wrote that this photograph was not one they took (report 1000077): it came off the page and their own photograph fd777c00 leads."
   },
   {
    "id": "lead:5126ec15-4f8a-45ad-9fa1-996fe64483bc",
@@ -3887,6 +4346,130 @@
    "reason": "Photo looked at: the Ankerwycke Yew's own hollow, fluted, buttressed trunk in daylight, GPS 7 m from our confirmed pin. Added as the lead photograph (add), the old lead moves into the strip.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:9620278d-6885-4b27-b86b-e5211e651a36",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Coolibah",
+   "city": null,
+   "species": "Coolibah",
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 750,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coolibah"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9620278d-6885-4b27-b86b-e5211e651a36",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Coolibah near Lightning Ridge",
+   "photo": "p_217a4b842ca351e72ce0b8d7/9620278D-6885-4B27-B86B-E5211E651A36.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a whole old coolibah in open bush, massive hollow trunk, limbs sweeping almost to the ground, a man at its foot for scale, daylight, colour; GPS fix at the tree. Live as lightning-ridge/lri_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:455f464a-464b-476c-b634-b9bdc511f84c",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/455f464a-464b-476c-b634-b9bdc511f84c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "The finder's own photo of the Pawling Farm sycamore, bare in November, limbs along the grass by the farm building: into the gallery (vfg_001).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fd777c00-bef5-4180-b214-8508313c12fb",
+   "seen": "2026-11-17",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/fd777c00-bef5-4180-b214-8508313c12fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "The finder's own photo of the Pawling Farm sycamore, limbs touching the grass and rising again: now the lead, replacing a photo they said was not theirs (report 1000077).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Strangler Fig",
+   "city": null,
+   "species": "Strangler Fig",
+   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
+   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Strangler Fig"
+   },
+   "verdict": "publish",
+   "reason": "A great strangler fig on the Daintree Discovery Centre boardwalk, its fused root column climbing into the canopy, GPS fix beneath it: live as daintree/dtr_001, the reader's 500 to 600 years stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Strangler Fig of the Daintree Discovery Centre",
+   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
+   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a strangler fig's fused root column climbing into the rainforest canopy from the boardwalk, daylight, colour. Lead photograph of daintree/dtr_001."
   },
   {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",

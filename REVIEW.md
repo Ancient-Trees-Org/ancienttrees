@@ -24,6 +24,21 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18
+
+Web half: the last 24 hours were reader-judge photographs (Melbourne, Sydney, Tokyo, Edinburgh Gardens), Fort Worth, Philadelphia, Baltimore and Leeds app-only trees, and Play tester setup. Nothing new broke in the sampled built pages; earlier findings stand.
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" as page text in the access line (flagged 2026-11-17, unchanged). Public copy never narrates our process. `grep -rn "writer must" data/cities` now hits 15 places in 11 files (bamberg, berlin, dartmoor, dresden, hilo, key-west, leeds, leipzig, miami, new-york, potsdam), so it is still being written by passes. Replacement for the access line: "Free. Open access; opening hours not confirmed." Add a preflight check for "writer must" in `access` and `story`, and a line in BRIEF_RESEARCH.md that the note never goes in a shown field.
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Twelfth review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
+- WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-third review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
+- WARN site/dist/collections/ancient-oaks-of-europe.html and europes-most-remarkable-yews.html still say "every coordinate verified" (third review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
+
+App half (iPhone SE: map-pin, map, own-tree, people, photo-viewer, place-pin): looked at all six.
+
+- NOTE APP map-pin.png: the card title is cut mid-parenthesis, "Dąb Fabrykant (the Factory Owner's Oak, als...", because the stored tree name carries a bracketed alias list. A reader sees a half sentence; the name field should hold the main name and the aliases belong elsewhere. Session work (visual), a data tidy of long `name` values may follow.
+- NOTE APP map-pin.png: the sheet shows a Polish oak (Łódź) over a map of Amsterdam. Probably the sweep's fixture, not a real state; mentioned only so nobody reads it as a pin-to-card mismatch.
+- Nothing else a person would notice: Find people, the photo viewer credit and the "Where is it really?" sheet read honestly.
+
 ## 2026-11-17 compliance
 
 - hans-photos-app-only-yes: Hans Hofele's Frankfurt photographs have a phone yes for the app only, yet show on the website too (copyright, scope of permission). Privacy page checked against the week's new tables (votes, reports), crash reports and mail route: still true.
@@ -101,6 +116,10 @@ App half (iPhone SE: people, photo-viewer, place-pin, profile-edit, profile-sign
 - NOTE APP profile.png and profile-signed-in.png: "Ancient Trees Plus" sits under the HELP heading beside Send feedback and Rate the app. The section title disagrees with what the row is (an offer). For a session; the paywall line is Hidde's (hard list 2).
 - NOTE APP place-pin.png: two marks stand on the map, the drop pin and the tree disc beneath it, so "until the pin sits on the tree" is ambiguous about which one moves. For a session.
 - Nothing wrong found on people.png and photo-viewer.png (credit and licence shown).
+
+## 2026-11-18 code
+
+- WEB-BUG-refresh-blip-signs-out, site/src/lib/signin-js.ts:254: a 429 or 5xx from the token refresh clears the stored session and signs the visitor out; only 400/401/403 mean the refresh token is spent.
 
 ## 2026-11-11 code (full)
 
@@ -218,18 +237,4 @@ App half (iPhone SE: collect-compare, collect-describe, collect-identify, collec
 
 - NOTE APP collect-compare, -describe, -identify, -intro and -place are the same "Add a tree" sheet over a tree photograph; none shows the step its filename names. The sweep never leaves the entry sheet (probably no camera in the simulator), so five of the six screens in this rotation review nothing. A session should seed those steps or drop the names.
 - NOTE APP collect-ticked: reads well ("You found The Wilhelminalinde", "Lime, 128 years old", "Was it worth the trip?"); the title wraps to two lines on the SE, acceptable. Nothing contradicted.
-
-## 2026-11-03
-
-Web half: the last 24 hours were data (Lyon, Andalucia, Central Italy, California, northern England and Wales, southern Thailand; Spoleto and Vallombrosa are held for the pace, so not in the build). No em dashes in the built Lyon pages sampled. Findings:
-App half (iPhone SE: tree, walk-begin, walk, city-map-full, city, collect-away):
-
-- NOTE APP tree.png: the "Back", share and report controls are green on the green oak foliage and nearly vanish, so a person sees no clear way out of the tree page. Same fault as own-tree.png on 10-31; a session, not a night run. The title also carries the whole alias list, "Dąb Fabrykant (the Factory Owner's Oak, also called Jagosz)", over three lines on the SE; the first name alone would read cleaner (same truncation family as map-pin on 10-31).
-- NOTE APP city.png / city-map-full.png: the sheet says "1 tree in Aachen" directly under the title "Aachen", and the ambassador row beside it reads "Aachen is looking for an ambassador. Help us improve this list." for a list of one tree; the promise is larger than the page. Consider whether a one-tree place needs the row.
-- walk-begin, walk, collect-away: read consistently ("0 of 6 seen", "7 min, 0.6 km", "Photograph a tree you are standing in front of"); nothing contradicted.
-
-
-- WARN (fifteenth review to see it) meta description prints a planting or event year as an age: `grep -rlE 'content="A (17|18|19|20)[0-9]{2}-year-old' site/dist` finds 96 pages, and the new Lyon page /lyon/anne-frank-chestnut says "A 2014-year-old Horse Chestnut" while its own story says it is barely twelve. Hard rule 2, Verify (a derived age states its basis). Nothing in qa.py refuses it. Build the check on built HTML first, then fix the meta template.
-- WARN /lyon/pedunculate-oak-of-rue-viret: meta and og description read "A Pedunculate Oak in Villeurbanne (Les Poulettes, Lyon. Villeurbanne's official tree register calls this pedunculate oak rare, and it means it plainly", an unclosed parenthesis and a cut mid-sentence with no ellipsis. SEO_GEO_BLUEPRINT P2 (answer first, readable snippet). Check the location string for a missing closing bracket and cut at a sentence end.
-- WARN site/src/pages/contribute.astro:17 and :401 still say "Every submission is verified against independent sources before it goes live" / "We check every tip against independent sources". False since "Good reader input IS the source" (2026-10-12) and the Tangier ruling. Ninth review in a row. Replacement: "We check every submission before it goes live; a good photograph with a GPS fix is enough to start a page." Translations too.
 

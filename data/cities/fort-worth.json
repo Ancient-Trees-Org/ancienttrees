@@ -949,6 +949,114 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "ftw_021",
+      "name": "The Botanic Garden Southern Magnolia",
+      "species": "Southern Magnolia (Magnolia grandiflora)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Fort Worth Botanic Garden, Old Garden Road near Rock Springs Road, 3220 Botanic Garden Blvd, Fort Worth, TX 76107",
+        "latitude": 32.73627,
+        "longitude": -97.36465,
+        "neighbourhood": "Cultural District"
+      },
+      "verified_sources": [
+        "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831",
+        "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0",
+        "https://www.texastreetrails.org/tours/fwbg_trail.html"
+      ],
+      "official_register": {
+        "name": "City of Fort Worth Heritage Tree Program (Heritage Trees map layer), no. Heritage layer OBJECTID 27 (DFW Co-Champion Southern Magnolia)",
+        "url": "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+      },
+      "access": "Paid entry. Fort Worth Botanic Garden is city-owned and open to visitors in garden hours (a ticketing page lists 8 am to 5 pm daily, last entry 4 pm; sources disagree on summer hours and on which areas the ticket covers). Free parking in the main lots.",
+      "transport": "Inside the Fort Worth Botanic Garden, Cultural District, about 4.5 km west of downtown Fort Worth; Trinity Metro bus routes serve the Cultural District, no rail.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "Flagged: one official register plus a champion-tree finding aid. City Heritage Tree layer (owner of the ground) lists it as 'DFW Co-Champion Southern Magnolia', text: 'shares the distinction of being the largest known Southern magnolia in the DFW area'; the layer gives no site name, only the coordinate 32.73627,-97.36465. Texas Tree Trails (Texas A&M Forest Service, Texas Historic Tree Coalition, urban forestry councils; All Rights Reserved, so facts only) places its Fort Worth Botanic Garden champion stop #5, Southern Magnolia, at 32.73619,-97.36474, about 12 m from the city point, 15 m from the Jujube stop (ftw_001) across Old Garden Road from the Gardens restaurant; that is how the city point is tied to the garden tree. Texas Tree Trails records 64 ft (19.5 m) tall as of 2004 (read via a blog quoting it, the trail's own detail page did not render: treat height as 2004, secondary). No girth or age found. Alive: iNaturalist observation 2026-06-19 (https://www.inaturalist.org/observations/374289492, lifecheck RECENT, within the tree's pin). Pin approximate: two coordinates 12 m apart and no aerial check of a single crown. Writer's anecdote: the low drooping branches form a ring around the trunk, a bloggers' account calls it a 360-degree 'cave' (blog, not a source, do not quote as fact). Sits 15 m from the published Jujube (ftw_001).",
+      "story": "Nobody has recorded a bigger Southern magnolia in the Dallas-Fort Worth area than this one. Fort Worth's heritage register lists it as a co-champion, a tree that shares the distinction of being the largest known of its kind in the area.\n\nIt grows in the Fort Worth Botanic Garden, on Old Garden Road across from the Gardens restaurant and about 15 metres from the garden's record jujube. A listing of Texas champion trees gave its height as 64 feet, about 19.5 metres, in 2004. We have found no later measurement, no girth and no age, so we will not say how old it is. A naturalist logged an observation at the spot in June 2026, so it was standing this year.\n\nThe pin is approximate. Two published coordinates lie about 12 metres apart, and neither has been checked against a single crown, so look for the large magnolia near the jujube.\n\nThe garden is city-owned and charges admission. One ticketing page lists 8 am to 5 pm daily, but sources disagree on summer hours, so check before you go. If you have measured the trunk, tell us.",
+      "how_to_recognise": "You can recognise it as the big Southern magnolia on Old Garden Road, across from the Gardens restaurant and about 15 metres from the garden's champion jujube.",
+      "paid_entry": true,
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "ftw_028",
+      "name": "Downtown Red Mulberry",
+      "species": "Red Mulberry (Morus rubra)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Downtown Fort Worth, near Heritage Park / Courthouse area (city layer point; street address not published)",
+        "latitude": 32.756941,
+        "longitude": -97.327398,
+        "neighbourhood": "Downtown"
+      },
+      "verified_sources": [
+        "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0",
+        "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+      ],
+      "official_register": {
+        "name": "City of Fort Worth Heritage Trees (Urban Forestry)",
+        "url": "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+      },
+      "access": "Public ground downtown: a solitary tree on a grass island among historical markers; free, no entry needed.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "One source (the city's heritage tree layer and story map, the owner of the ground): 'large, solitary red mulberry... sitting in an island of grass surrounded by concrete... long been in the center of the action'; downtown hub of the former frontier outpost, surrounded by historical markers and century-old structures. No size, girth or age published. lifecheck NONE: no independent recent alive evidence; flagged 'one source, no alive evidence'. Pin is the city layer point, not checked on the crown. Wikipedia Heritage Park Plaza page does not mention it. Cluster: about 600 m from ftw_009 Steele's Tavern Oak and the Courthouse oaks.",
+      "story": "A mulberry holds the middle of downtown Fort Worth, on a patch of grass with concrete all around it. The city's heritage register calls it a large, solitary red mulberry that has long been in the center of the action, in the hub of what began as a frontier outpost, with historical markers and century-old buildings close by.\n\nThat is nearly all the record. The register gives no girth, no height and no age, and we have found no second source and no recent sighting, so we cannot promise it is still standing. Its pin is the register's point, not a spot checked under the crown. Treat it as a stop to confirm.\n\nIt sits about 600 metres from Steele's Tavern Oak, so the two fit into one short walk. It is public ground and costs nothing to see. If you pass it, tell us it is there, how big it is and which marker it stands beside.",
+      "how_to_recognise": "You can recognise it as the lone red mulberry on an island of grass amid concrete, in the middle of downtown among the historical markers.",
+      "transport": "",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "ftw_029",
+      "name": "Veterans Memorial Park Grove",
+      "species": "Oak (Quercus sp.), four oaks of different species",
+      "age_estimate": "planted 1932 to 1995",
+      "age_min": 30,
+      "age_max": 94,
+      "location": {
+        "address": "4120 Camp Bowie Boulevard, Fort Worth, TX 76107",
+        "latitude": 32.744027,
+        "longitude": -97.379757,
+        "neighbourhood": "Camp Bowie District"
+      },
+      "verified_sources": [
+        "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0",
+        "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831",
+        "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/veterans-memorial-park"
+      ],
+      "official_register": {
+        "name": "City of Fort Worth Heritage Trees (Urban Forestry)",
+        "url": "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+      },
+      "access": "City park, open dawn to dusk (city park page); free.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "City heritage story: four trees stand in the centre of this small park as living tributes to veterans; oaks, each a different species, planted between 1932 and 1995 by organizations honoring veterans and their families. Park on the former Camp Bowie (36th Infantry Division WWI training camp); Arlington Heights Blvd renamed Camp Bowie Blvd after 1919. City park page: dedicated 1923; red granite 36th Division monument 1950; bronze 'Duty' 1987; restoration 1992. Individual species, which tree dates from 1932 and which from 1995, and measurements are not published, so age range is of the plantings, not a tree age. The ground's owner is the source; lifecheck NONE, no recent alive evidence, flagged. Pin is the city layer point for the grove; ensemble of four in one small park, one place to stand. Near ftw_020 and ftw_022 (about 1.5 km east).",
+      "story": "Four oaks stand in the middle of Veterans Memorial Park as living tributes to veterans, each a different species, planted between 1932 and 1995 by organisations honouring veterans and their families. That range is the city heritage register's. It describes the plantings, not a measured age of any one tree, and the register does not say which oak went in which year or which species is which.\n\nThe park stands on Camp Bowie Boulevard, on the former site of Camp Bowie, the First World War training camp of the 36th Infantry Division. The city's park page records a dedication in 1923, a red granite monument to the division in 1950, a bronze called Duty in 1987 and a restoration in 1992.\n\nWe have no recent sighting of the oaks and no measurements. The pin is the register's point for the grove. It is a small park and the four trees stand together, so one place to stand takes them all in. The park is free and open from dawn to dusk. If you go, tell us which species is which and how big each has grown.",
+      "how_to_recognise": "You can recognise it as the group of four oaks, each a different species, in the centre of Veterans Memorial Park on Camp Bowie Boulevard.",
+      "transport": "",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

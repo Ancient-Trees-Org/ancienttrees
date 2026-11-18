@@ -2,11 +2,11 @@
   "city": "Melbourne",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "Dutch elm disease never reached Australia, so Melbourne still has elms of a size and age Europe lost, and one of them anchors this page. Eighteen trees, two walks, two botanic garden finds. Seven stand within about 1.7 kilometres of each other in the small parks of Carlton North, Fitzroy North and Clifton Hill, three kilometres north of the CBD. The other nine run from Burnley Gardens, a free university botanic garden on the Yarra, out along Yarra Boulevard and on to Madden Grove: eucalypts, a hoop pine, a peppercorn tree and the oldest dated tree in the city.",
+  "intro": "Dutch elm disease never reached Australia, so Melbourne still has elms of a size and age Europe lost, and one of them anchors this page. Nineteen trees, two walks, two botanic garden finds. Eight stand within about 1.7 kilometres of each other in the small parks of Carlton North, Fitzroy North and Clifton Hill, three kilometres north of the CBD. The other nine run from Burnley Gardens, a free university botanic garden on the Yarra, out along Yarra Boulevard and on to Madden Grove: eucalypts, a hoop pine, a peppercorn tree and the oldest dated tree in the city.",
   "meta_description": "Melbourne's old trees stand in the parks north of the CBD and in Burnley Gardens: a 135-year-old English elm, a fig on a filled quarry, three red gums.",
-  "question_meta": "Melbourne's oldest dated tree is an Osage orange on Yarra Boulevard, dated to the 1860s. Where it stands, and seventeen more of the city's trees.",
+  "question_meta": "Melbourne's oldest dated tree is an Osage orange on Yarra Boulevard, dated to the 1860s. Where it stands, and eighteen more of the city's trees.",
   "question_answer": "The oldest tree in Melbourne that anyone has put a date on is the Osage Orange of Yarra Boulevard, in Yarra Bend Park at Burnley, dated to the 1860s and so around 160 years old. The Victorian Heritage Database's citation for the Boulevard Parklands records an Osage orange north-east of the point where Yarra Boulevard meets Swan Street and puts it in that decade; the City of Yarra's significant tree register lists one at the same spot, 27 metres tall and 169 centimetres of diameter at breast height, roughly 5.31 metres round. That is a claim about the best-dated tree rather than the oldest thing growing in the city: most of the trees on this page carry only the register's band of over a hundred years, with no year attached at all, and a 2015 account of Burnley Gardens describes a river red gum there believed to exceed 400 years without tying the claim to a particular trunk.",
-  "question_context": "This page is built on the City of Yarra's significant tree register, walked in 2012, and two things about that source shape everything here. It publishes the diameter of a trunk at breast height rather than the circumference, so every girth quoted on this page is a conversion. And its age field is a set of bands rather than years: most of its trees here carry nothing more precise than over a hundred years. The dates that do exist come from elsewhere. The National Trust of Australia dated the English elm in Darling Gardens at about 120 years in February 2011, making it roughly 135 now, and the Victorian Heritage Database puts the Osage orange on Yarra Boulevard in the 1860s, which is why that tree carries the answer. One rival claim cannot be checked: a 2015 account of Burnley Gardens describes a river red gum believed to exceed 400 years, but nobody has matched it to a trunk. The Osage orange sits on the second of two walks here, nine trees from Burnley Gardens to Madden Grove; the other seven are three kilometres north of the CBD. See the full list on the Melbourne page.",
+  "question_context": "This page is built on the City of Yarra's significant tree register, walked in 2012, and two things about that source shape everything here. It publishes the diameter of a trunk at breast height rather than the circumference, so every girth quoted on this page is a conversion. And its age field is a set of bands rather than years: most of its trees here carry nothing more precise than over a hundred years. The dates that do exist come from elsewhere. The National Trust of Australia dated the English elm in Darling Gardens at about 120 years in February 2011, making it roughly 135 now, and the Victorian Heritage Database puts the Osage orange on Yarra Boulevard in the 1860s, which is why that tree carries the answer. One rival claim cannot be checked: a 2015 account of Burnley Gardens describes a river red gum believed to exceed 400 years, but nobody has matched it to a trunk. The Osage orange sits on the second of two walks here, nine trees from Burnley Gardens to Madden Grove; the other eight are three kilometres north of the CBD. See the full list on the Melbourne page.",
   "faq": [
     {
       "q": "What is the oldest tree in Melbourne?",
@@ -18,7 +18,7 @@
     },
     {
       "q": "Can I see them all in one walk?",
-      "a": "Not all eighteen, but the registered trees split into two walks, seven trees and nine, and two more stand in the Royal Botanic Gardens. Curtain Square, Edinburgh Gardens and Darling Gardens run in a line through Carlton North, Fitzroy North and Clifton Hill, about 1.7 kilometres end to end and roughly three kilometres from the CBD. The second walk starts in Burnley Gardens, where four of the trees stand within a few hundred metres of each other, follows Yarra Boulevard out to the Osage orange and the river red gum in Yarra Bend Park, and continues on to the peppercorn and the lemon-scented gum in Madden Grove, Richmond, about 1.5 kilometres further."
+      "a": "Not all nineteen, but the trees split into two walks, eight trees and nine, and two more stand in the Royal Botanic Gardens. Curtain Square, Edinburgh Gardens and Darling Gardens run in a line through Carlton North, Fitzroy North and Clifton Hill, about 1.7 kilometres end to end and roughly three kilometres from the CBD. The second walk starts in Burnley Gardens, where four of the trees stand within a few hundred metres of each other, follows Yarra Boulevard out to the Osage orange and the river red gum in Yarra Bend Park, and continues on to the peppercorn and the lemon-scented gum in Madden Grove, Richmond, about 1.5 kilometres further."
     },
     {
       "q": "Which has the thickest trunk?",
@@ -115,17 +115,24 @@
       "location_precision": "confirmed",
       "access": "Free, always open. Public City of Yarra park, 24 hectares, unrestricted access per the National Trust record.",
       "transport": "Rushall railway station (Mernda line) is about a 3 minute walk from the gardens; tram route 11/112 runs along nearby St Georges Road.",
-      "story": "Edinburgh Gardens has two holm oaks, and the National Trust of Australia has a view about which one to look at. Its Significant Tree Register calls this the finer of the two examples of the species in the gardens, and it is certainly the heavier: the City of Yarra records 177 centimetres of diameter at breast height, which is about 5.56 metres of girth, since that 177 is a width across the trunk and not a measurement around it. That is the thickest trunk here and a record nowhere else: the Trust's own significance statement points to a tree at Talindert, near Camperdown in western Victoria, as the biggest of its kind in Victoria. This one is about 20 metres tall and stands near the bowling club. The same Trust survey, in 2011, recorded its condition as poor and noted that it is overcrowded by nearby elms. Those elms are worth knowing about. Dutch elm disease never reached Australia, and Edinburgh Gardens holds one of the most significant stands of mature elms left in the world, trees of a size Britain and Europe stopped having half a century ago. The oak has been growing up inside all of that. Its age is the register's band, over a hundred years at the 2012 survey, with no planting year on record.",
+      "story": "Edinburgh Gardens has two holm oaks, and the National Trust of Australia has a view about which one to look at. Its Significant Tree Register calls this the finer of the two examples of the species in the gardens, and it is certainly the heavier. The City of Yarra records 177 centimetres of diameter at breast height, which is about 5.56 metres of girth, since that 177 is a width across the trunk and not a measurement around it. That is the thickest trunk here and a record nowhere else, since the Trust's own significance statement points to a tree at Talindert, near Camperdown in western Victoria, as the biggest of its kind in Victoria. This one is about 20 metres tall and stands near the bowling club. The same Trust survey, in 2011, recorded its condition as poor and noted that it is overcrowded by nearby elms. Those elms are worth knowing about. Dutch elm disease never reached Australia, and Edinburgh Gardens holds one of the most significant stands of mature elms left in the world, trees of a size Britain and Europe stopped having half a century ago. The oak has been growing up inside all of that. Its age is the register's band, over a hundred years at the 2012 survey, with no planting year on record.",
       "verified_sources": [
         "City of Yarra Significant Trees register (data/registers/melbourne-yarra-significant-trees.json, ref 120)",
         "https://trusttrees.org.au/tree/VIC/Fitzroy_North/Edinburgh_Gardens_Brunswick_Street (National Trust of Australia Vic, Significant Tree Register)"
       ],
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mel_001-the-finer-holm-oak-of-edinburgh-gardens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_208e853a0292b8f518700a87",
+        "sighting_id": "976d3d1b-1a58-4716-b138-4393ee1fdd27",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: A broad holm oak in Edinburgh Gardens, 43 m from the pin, in daylight and colour, filling the frame. Species seen: evergreen oak with small dark leathery leaves, dark heavy trunk dividing low into spreading limbs. Fits the description: very thick dark trunk among lighter-leaved park trees beside a path, a fenced club building behind, as the recognition line puts it near the bowling club.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it as an evergreen oak with small dark leaves all year among the park's elms, which are bare in winter, on a trunk about 5.56 metres round. It stands near the bowling club in Edinburgh Gardens.",
       "official_register": {
@@ -157,10 +164,17 @@
       ],
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mel_002-the-remnant-river-red-gum-of-edinburgh-gardens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_208e853a0292b8f518700a87",
+        "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: Whole tree in frame, daylight and colour: a big spreading eucalypt with smooth, pale, mottled bark down to the ground, leaning trunk, in open parkland by the street. GPS 17 m from our pin, the nearest registered river red gum (Yarra ref 104). Species seen: smooth pale bark shedding in patches, narrow drooping eucalypt leaves, open spreading crown: river red gum. Fits the description: a very large old eucalypt in Edinburgh Gardens' open lawn, smooth and pale as the mahogany's recognition line contrasts it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it as the park's remnant native tree, left standing rather than planted when this ground was granted to Fitzroy in 1862. It stands off Brunswick Street, Edinburgh Gardens.",
       "official_register": {
@@ -693,6 +707,47 @@
         "contributor_user_id": "p_68e3fe2f2c08d678d123d61f",
         "sighting_id": "993d2833-d88b-43cc-a6e2-804c1e2c6921",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the leaning grey trunk from its flaring roots to the crown, a steel boardwalk passing beneath it among tree ferns and palms, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "mel_019",
+      "name": "The Gum by the Edinburgh Gardens Skate Bowl",
+      "species": "Eucalyptus (Eucalyptus sp.)",
+      "location": {
+        "address": "Edinburgh Gardens, beside the skate bowl, off Alfred Crescent, Fitzroy North VIC 3068",
+        "latitude": -37.7863555439052,
+        "longitude": 144.982969612963,
+        "neighbourhood": "Fitzroy North"
+      },
+      "story": "Edinburgh Gardens was granted to the people of Fitzroy in 1862, and some of its eucalypts are old enough that the City of Yarra lists them as significant trees. This gum stands on the lawn right beside the park's skate bowl. A reader sent us its photograph on a bright spring day, with a GPS fix taken on the grass in front of it.\n\nWhat the picture shows is a big, straight-stemmed gum with two kinds of bark. Low down the trunk is rough and grey, dark with age at the foot; higher up it sheds that coat and turns smooth and pale, the clean limbs climbing into a broad, dense crown of narrow hanging leaves. A ring of mulch circles its foot, and the bright graffiti on the bowl beside it makes the tree look even quieter.\n\nWhich eucalypt it is we cannot yet say from one photograph, and the park holds several registered old gums close together. If you know this one, its species or its size, tell us here and we will add it.\n\nStand on the far side, away from the bowl, to see the whole crown against the sky.",
+      "verified_sources": [],
+      "access": "Free, always open. A public City of Yarra park; the tree stands on the lawn beside the skate bowl.",
+      "how_to_recognise": "Beside the painted skate bowl: a tall gum with a straight trunk, rough grey bark on the lower trunk and smooth pale bark above, standing in a ring of mulch on the lawn.",
+      "found_by_reader": {
+        "sighting_id": "cf563d69-f218-4a46-8e59-b3feeeb70dae",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "cf563d69-f218-4a46-8e59-b3feeeb70dae",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader-judge run: sent by a reader through the app as a photograph of mel_002, but it shows a different tree (verdict other_tree). Photograph viewed: the whole tree from the lawn, a straight trunk with rough grey bark low down and smooth pale bark above, a broad dense crown of narrow eucalypt leaves, the painted skate bowl and its green railing at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Species left at genus: Yarra register red gum ref 111 stands 36 m from the GPS fix and register elm ref 112 16 m from the reader's second frame (e1b0ab73, same tree), so the trunk is not tied to a register row yet. The reader's second frame of the same tree can join the strip.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mel_019-gum-by-the-edinburgh-gardens-skate-bowl.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_208e853a0292b8f518700a87",
+        "sighting_id": "cf563d69-f218-4a46-8e59-b3feeeb70dae",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole tree from the lawn, a straight trunk with rough grey bark low down and smooth pale bark above, a broad dense crown of narrow eucalypt leaves, the painted skate bowl and its green railing at the right, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

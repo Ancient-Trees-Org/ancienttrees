@@ -535,6 +535,42 @@
    }
   },
   {
+   "common": "Ash",
+   "latin": "Fraxinus sp.",
+   "names": {
+    "en": [
+     "ashes"
+    ],
+    "nl": [
+     "Es"
+    ],
+    "de": [
+     "Eschen"
+    ],
+    "es": [
+     "Apilia",
+     "Aplilia",
+     "Calycomelia",
+     "Fraxinoides"
+    ],
+    "it": [
+     "Frassino"
+    ],
+    "fr": [
+     "Frene",
+     "frênes"
+    ],
+    "pt": [
+     "Freixo"
+    ],
+    "ja": [
+     "アッシュツリー",
+     "アッシュ・ツリー",
+     "トネリコ属"
+    ]
+   }
+  },
+  {
    "common": "Atlantic White Cedar",
    "latin": "Chamaecyparis thyoides",
    "names": {
@@ -6296,6 +6332,16 @@
    }
   },
   {
+   "common": "Hall's Tōtara",
+   "latin": "Podocarpus laetus",
+   "names": {
+    "en": [
+     "Mountain totara",
+     "Thin-barked totara"
+    ]
+   }
+  },
+  {
    "common": "Hame",
    "latin": "Antidesma platyphyllum",
    "names": {
@@ -9426,6 +9472,10 @@
    }
   },
   {
+   "common": "Monkey Thorn",
+   "latin": "Senegalia galpinii"
+  },
+  {
    "common": "Monterey Cypress",
    "latin": "Cupressus macrocarpa",
    "names": {
@@ -10980,6 +11030,15 @@
    }
   },
   {
+   "common": "Pigeon Plum",
+   "latin": "Coccoloba diversifolia",
+   "names": {
+    "en": [
+     "tietongue"
+    ]
+   }
+  },
+  {
    "common": "Pin Oak",
    "latin": "Quercus palustris",
    "names": {
@@ -11423,9 +11482,9 @@
      "Chene du Portugal"
     ],
     "pt": [
+     "Carvalho-cerquinho",
      "Carvalho lusitano",
      "Carvalho português",
-     "Carvalho-cerquinho",
      "Carvalho-português"
     ],
     "ja": [
@@ -14538,31 +14597,6 @@
    }
   },
   {
-   "common": "Totara",
-   "latin": "Podocarpus sp.",
-   "names": {
-    "en": [
-     "Yellowwood",
-     "plum pine"
-    ],
-    "nl": [
-     "Foliolatus",
-     "Podcarpus"
-    ],
-    "de": [
-     "Steineiben"
-    ],
-    "es": [
-     "Manio",
-     "Podocarpo"
-    ],
-    "ja": [
-     "ポドカルプス属",
-     "マキ属"
-    ]
-   }
-  },
-  {
    "common": "Transcaucasian Birch",
    "latin": "Betula medwediewii",
    "names": {
@@ -14944,6 +14978,22 @@
   {
    "common": "Washington Navel Orange",
    "latin": "Citrus x sinensis 'Washington'"
+  },
+  {
+   "common": "Water Gum",
+   "latin": "Tristaniopsis laurina",
+   "names": {
+    "en": [
+     "water-gum"
+    ],
+    "es": [
+     "Gomero de agua",
+     "Tristania bakeriana"
+    ],
+    "ja": [
+     "カヌーカ"
+    ]
+   }
   },
   {
    "common": "Water Tupelo",
@@ -15606,9 +15656,9 @@
      "Álamo blanco"
     ],
     "it": [
+     "Pioppo bianco",
      "Gattice",
-     "Pioppi bianchi",
-     "Pioppo bianco"
+     "Pioppi bianchi"
     ],
     "fr": [
      "Peuplier blanc",
@@ -17317,16 +17367,6 @@
    }
   },
   {
-   "common": "Pigeon Plum",
-   "latin": "Coccoloba diversifolia",
-   "mapped": false,
-   "names": {
-    "en": [
-     "tietongue"
-    ]
-   }
-  },
-  {
    "common": "SEAGRAPE",
    "latin": "Coccoloba uvifera",
    "mapped": false,
@@ -18231,6 +18271,40 @@
    "common": "Triangle Fig",
    "latin": "Ficus triangularis",
    "mapped": false
+  },
+  {
+   "common": "Patagonian Cypress",
+   "latin": "Fitzroya cupressoides",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Alerce"
+    ],
+    "nl": [
+     "Fitzroya"
+    ],
+    "de": [
+     "Alerce",
+     "Patagonische Zypresse"
+    ],
+    "es": [
+     "Alerce",
+     "Falso cipres de Patagonia",
+     "Lahuan"
+    ],
+    "fr": [
+     "Cyprès de Patagonie"
+    ],
+    "pt": [
+     "Cipreste-da-patagónia"
+    ],
+    "ja": [
+     "アレルシ",
+     "アレルセ",
+     "アレース",
+     "チリヒノキ"
+    ]
+   }
   },
   {
    "common": "Oregon Ash",
@@ -20960,6 +21034,31 @@
    }
   },
   {
+   "common": "Camel Thorn",
+   "latin": "Vachellia erioloba",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Kameeldoring",
+     "giraffe thorn"
+    ],
+    "nl": [
+     "Kameeldoorn"
+    ],
+    "de": [
+     "Kameldorn"
+    ],
+    "pt": [
+     "espinho-de-camelo",
+     "espinho-de-girafa"
+    ],
+    "ja": [
+     "キャメルソーン",
+     "キャメル・ソーン"
+    ]
+   }
+  },
+  {
    "common": "Palm, Joannis",
    "latin": "Veitchia joannis",
    "mapped": false
@@ -22735,6 +22834,16 @@
     "ja": [
      "イチジク属",
      "フィカス属"
+    ]
+   }
+  },
+  {
+   "common": "Fitz-Roya",
+   "latin": "Fitzroya",
+   "genus": true,
+   "names": {
+    "es": [
+     "alerce"
     ]
    }
   },

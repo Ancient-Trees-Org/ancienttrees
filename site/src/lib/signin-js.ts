@@ -254,8 +254,14 @@ export const SIGNIN_JS = `
       method: 'POST',
       headers: { 'apikey': SBK, 'Content-Type': 'application/json' },
       body: JSON.stringify({ refresh_token: s.refresh_token })
-    }).then(function(r) { return r.ok ? r.json() : null; })
+    }).then(function(r) {
+      if (r.ok) return r.json();
+      // Only 400/401/403 mean the refresh token is spent or revoked. A 429 or
+      // 5xx is a server blip: keep the session and try again next load.
+      return (r.status === 400 || r.status === 401 || r.status === 403) ? null : 'blip';
+    })
       .then(function(j) {
+        if (j === 'blip') return;
         if (!j || !j.access_token) {
           // The refresh token is spent or revoked. Clear it rather than leave
           // a dead session that makes the site look signed in.

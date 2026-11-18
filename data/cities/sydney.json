@@ -23,7 +23,7 @@
     },
     {
       "q": "Are the locations exact?",
-      "a": "Not all of them. Four of the seven pins are approximate, meaning we know the garden, cemetery or street but not the trunk, and the pages say which. If you find one, tell us where it stands and we will sharpen the pin."
+      "a": "Not all of them. Four of the eight pins are approximate, meaning we know the garden, cemetery or street but not the trunk, and the pages say which. If you find one, tell us where it stands and we will sharpen the pin."
     }
   ],
   "trees": [
@@ -196,10 +196,17 @@
       "curation_status": "flagged",
       "story": "The canopy spans more than thirty metres, in a walled cemetery of four acres. It shades a good share of the dead.\n\nThe tree went in in 1848, the same year the cemetery itself opened, and the date is carried by a 1962 local history of Camperdown, a 1997 landscape management plan and the cemetery's own tree survey, with a 2010 account written from a site visit giving the same year independently. The reason given for the planting is softer. It is believed to have marked the roofing of the Cemetery Lodge, which the sources report as tradition rather than record, so take the ceremony loosely and the date firmly.\n\nWith the oaks put in the same year, it is the oldest tree in the Marrickville district. Camperdown is the oldest surviving cemetery in Sydney, the walled remnant of a much larger burial ground that Newtown grew around, and the fig stands near the Lodge by the Church Street entrance, so it is the first thing you meet coming through the gate.\n\nNobody has published a trunk measurement, which for a fig of 178 years is a gap worth closing. If you tape it, send us the number.\n\nThe cemetery is free and open through daylight hours, fifteen to twenty minutes on foot from Newtown or Stanmore stations. Our pin sits on the cemetery rather than the tree, though at that size it will not cost you long.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/syd_005-the-camperdown-cemetery-fig.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 3,
+        "source": "contributor",
+        "contributor_user_id": "p_34af1999246c96b6f3066f50",
+        "sighting_id": "796f1465-deac-4ee9-a5c2-45339f4e0473",
+        "note": "Photographed by a reader and sent through the app (2024-03-24); a viewing pass approved it on 2026-11-18: A huge Moreton Bay fig with buttress roots and wide low limbs, old headstones on the left, in a cemetery setting; this tree, in daylight and colour, and the tree had no photograph. Species seen: large glossy oval dark-green leaves, smooth grey-brown bark, sweeping buttress and surface roots typical of Ficus macrophylla. Fits the description: a massive spreading fig whose limbs reach well beyond the frame, among cemetery headstones, by a path near a gate area.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it as the first thing you meet coming through the Church Street gate, beside the Cemetery Lodge, its canopy spanning more than thirty metres."
     },
@@ -314,6 +321,65 @@
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it as a southern live oak that never regained the size it lost in a 1941 storm, its canopy still spreading over 30 metres. It stands in Oakdene Park, Bland Street, Carramar."
+    },
+    {
+      "id": "syd_008",
+      "name": "The Moreton Bay Fig of Rushcutters Bay Park",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Rushcutters Bay Park, Darling Point, Sydney NSW",
+        "latitude": -33.8760155731108,
+        "longitude": 151.230976626233,
+        "neighbourhood": "Rushcutters Bay"
+      },
+      "how_to_recognise": "A lone fig on the open lawn not far from the skate park: a short, massive trunk splitting into many grey limbs, buttress roots spreading over a ring of bark mulch, and an open hollow in the base of the trunk.",
+      "access": "Free, in a public council park.",
+      "story": "\"Its size and beauty. One of the largest and oldest around.\" That is how the reader who sent us this Moreton Bay fig from Rushcutters Bay Park, on the harbour edge of Sydney's eastern suburbs, explained why it deserved a page, with a GPS fix taken beside it.\n\nThe photograph makes the case. The tree stands alone on open lawn, a short, massive trunk that splits almost at once into a dozen grey limbs, and those limbs carry a dome of glossy leaves wider than the tree is tall. At its foot, buttress roots run out over a ring of bark mulch like the folds of a heavy curtain. A second picture, taken close in, shows how old the trunk has grown. There is an open hollow at its heart, the wood inside pale and weathered, and the living bark wraps round it on both sides, still holding up the whole crown.\n\nThe reader puts it at about 150 years old and its girth at about seven and a half metres. Those figures are theirs; we have not yet found a measurement or a planting record. If you know when the park's figs went in, tell us here.\n\nCome on a hot afternoon and stand in its shade beside the hollow.",
+      "age_basis": "source",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (12a88725-88e2-4a96-85f6-0966bb59db6b, 2026-11-18, through the app). Photograph viewed: the whole fig alone on park lawn, a short massive trunk breaking into many grey limbs under a wide dome of glossy leaves, buttress roots over a ring of mulch, daylight, colour; a second picture shows the trunk close with an open hollow at its base and a skate park behind. Pin falls inside Rushcutters Bay Park (OpenStreetMap). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Moreton Bay Fig in Sydney', species 'Moreton Bay Fig', age '150', girth 750 cm; every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/syd_008-moreton-bay-fig-of-rushcutters-bay-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_5a8ba8548d99ec490e8f640d",
+        "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole fig alone on park lawn, a short massive trunk breaking into many grey limbs under a wide dome of glossy leaves, buttress roots over a ring of mulch, daylight, colour; a second picture shows the trunk close with an open hollow at its base and a skate park behind. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/syd_008-moreton-bay-fig-of-rushcutters-bay-park-trunk.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5a8ba8548d99ec490e8f640d",
+          "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+          "note": "The reader's second photograph, sent with the first (2026-11-18, through the app); viewed and approved on 2026-11-18: the buttressed trunk close in, a dark hollow at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

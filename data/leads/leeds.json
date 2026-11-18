@@ -2,7 +2,7 @@
  "leads": [
   {
    "name": "Temple Newsam sweet chestnut 'thought to be 350 years old'",
-   "reason": "Only a Secret Leeds forum post (anonymous, same thread says oldest tree on Leeds council land until Oct 2002), no council, estate or register source, no coordinate. Yorkshire Gardens Trust letter says oak, lime, beech, sweet chestnut historically on the estate. Needs a Leeds Museums or council source and a pin.",
+   "reason": "Only a Secret Leeds forum post (anonymous, same thread says oldest tree on Leeds council land until Oct 2002), no council, estate or register source, no coordinate. Yorkshire Gardens Trust letter says oak, lime, beech, sweet chestnut historically on the estate. Needs a Leeds Museums or council source and a pin. 2026-11-18 recheck: Flickr (tonygartshore, no geotag) says fenced beside the drive to Temple Newsam House; Geograph 259436 (Humphrey Bolton, 2006, CC BY-SA) shows a not-tall, enormous-girth chestnut at the end of the driveway to the stable block and home farm, subject precision only 100 m (53.7863,-1.459); not shown to be the same tree. Still no tree-level pin or official source.",
    "sources": [
     "https://www.secretleeds.com/viewtopic.php?p=60774"
    ]
@@ -31,9 +31,22 @@
    "name": "Bramham Park / Kirkstall Abbey / Golden Acre / Adel and Whitkirk churchyards",
    "reason": "One search each found no named veteran tree with a figure or pin; Ancient Yew Group database has no Leeds (West Yorkshire) pages (its 'Leeds' record, 854 cm, is Leeds in Kent, do not use). Empty after one pass.",
    "sources": []
+  },
+  {
+   "name": "Shire Oak successor 'Son of Oak', Otley Road, Headingley",
+   "reason": "Held 2026-11-18: a replacement of about 1957 standing for the 1941-felled Shire Oak, so young; shipped only if a reader photographs it or the Leeds story is worth a young tree. OSM node 3615314054 at 53.81989,-1.57625 (approximate); alive evidence thin. Sources: en.wikipedia.org/wiki/Shire_Oak_(Headingley), headingleyleeds.com/explore-2/2017/3/23/the-original-oak",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shire_Oak_(Headingley)",
+    "https://www.headingleyleeds.com/explore-2/2017/3/23/the-original-oak",
+    "https://headingley.focusteam.org.uk/headingley-unoriginal-oak/"
+   ]
   }
  ],
  "blocked": [
+  {
+   "name": "Otley 'Tittybottle' oak (Otley Bridge)",
+   "reason": "Felled 7 Feb 2025 by Leeds City Council for Otley Bridge repairs after protests (YEP, ITV Calendar); dead, never ship."
+  },
   {
    "name": "Shire Oak (Headingley)",
    "reason": "Blown down in 1941 per Wikipedia; dead."
@@ -41,6 +54,15 @@
   {
    "name": "Ancient Yew Group 'Leeds' 563 (854 cm)",
    "reason": "Is Leeds, Kent (St Nicholas churchyard), not Leeds, Yorkshire."
+  },
+  {
+   "name": "Nellie's Tree (Parlington Woods, Aberford)",
+   "reason": "Duplicate: already published as abf_001 in Aberford, 2 m away. Verified 2026-11-18 again, nothing to add.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nellie's_Tree",
+    "https://www.bbc.co.uk/news/uk-england-leeds-45900358",
+    "https://www.geograph.org.uk/photo/8364932"
+   ]
   }
  ]
 }
