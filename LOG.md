@@ -30,7 +30,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-18 session: a reader's Saharan cypress live (Djanet, Algeria)
 
 - **Product**: the Tassili cypress (reader tip 947) is live as djanet/djn_001, a Saharan cypress (Cupressus dupreziana) on the Tassili n'Ajjer. It was held on 11-17 for no_location; the reader mailed a Google Earth screenshot marking it north of Djanet (saved with `outreach_inbox.py --save-from`, out/mail-photos/colegravebill/). The pin is read off a tilted 3D view, so it is `approximate` and the access line says plainly that it is the reader's map mark and that the Djanet guides know the cypress sites. The story quotes the reader unnamed; species facts are from Wikipedia (212 left in March 2026). The congratulation mail goes through tree_approved.py as usual.
-- **Checked, nothing to do**: Erin's mail about the Big Totara sign. akaroa/akr_001 already carries DOC's and NZ Tree Register's age and girth, and she got the "your photo is on the page" mail on 11-17.
+- **Checked, nothing to change**: a reader's mail about the Big Totara sign. It is tuatapere/tua_001 (Lillburn Monowai Road), not akaroa/akr_001 as first noted here. Her sign photograph arrived through the app (sighting 0b414558) and the page already rests on it (8.31 m, about 1,000 years). Replies to both readers drafted for Hidde: drafts/reply-bill-tassili-2026-11-18.md, drafts/reply-erin-totara-2026-11-18.md.
 
 ## 2026-11-18 session: reply to Joey (Willistown) sent
 
