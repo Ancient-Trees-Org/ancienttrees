@@ -57,6 +57,29 @@ jobs:
         id: start
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      # A reader's mail reply to one of our reader mails (a hold mail's
+      # question, the congratulation's "do you know how old it is") becomes a
+      # feedback row the judge below picks up (Hidde, 2026-11-18, READER_FLOW.md:
+      # "Mail replies first"). Read-only on the mailbox, only senders we mailed
+      # and only our reader-mail subjects (scripts/reader_mail_replies.py). The
+      # new row is what the poll then sees.
+      - name: Readers' mail replies become rows
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OUTREACH_SMTP_USER: ${{ secrets.OUTREACH_SMTP_USER }}
+          OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
+        run: |
+          python3 scripts/private_store.py pull
+          python3 scripts/reader_mail_replies.py --file
+          if ! git diff --quiet -- data/mail-replies-seen.json || [ -n "$(git status --porcelain -- data/mail-replies-seen.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/mail-replies-seen.json
+            git commit -q -m "reader judge: readers' mail replies filed"
+            git pull -q --rebase --autostash origin main && git push -q || true
+          fi
+
       - name: Did a reader send anything new
         id: poll
         env:
