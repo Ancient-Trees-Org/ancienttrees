@@ -95,13 +95,17 @@
       "access": "Free, public park",
       "transport": "Tram 1/2/12, Leidseplein, 2 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/2025_Leidsebosje%2C_Asd%2C_dikke_plataan_noord_%28A%29.jpg",
-        "license": "CC0 1.0",
-        "attribution": "Ceescamel, Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/ams_002-the-leidsebosje-planes-4ffdc2fe.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3468,
-        "height": 4624,
-        "taken_month": 7
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_0f6b42161f64e6f916e0bea7",
+        "sighting_id": "4ffdc2fe-39a1-473b-8816-5b881f38f2c7",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: Both Leidsebosje planes in autumn leaf on their lawn by the road at Leidseplein, massive buttressed trunks, daylight, colour; the pair is the subject and fills the frame. Species seen: maple-shaped plane leaves turning, mottled plane bark, wide spreading crowns. Fits the description: two very thick-trunked planes side by side on the grass island beside the roundabout, as the entry describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "location_precision": "approximate",
@@ -111,7 +115,18 @@
       "official_register": {
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1686059",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/2025_Leidsebosje%2C_Asd%2C_dikke_plataan_noord_%28A%29.jpg",
+          "license": "CC0 1.0",
+          "attribution": "Ceescamel, Wikimedia Commons",
+          "status": "approved",
+          "width": 3468,
+          "height": 4624,
+          "taken_month": 7
+        }
+      ]
     },
     {
       "id": "ams_003",

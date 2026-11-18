@@ -1797,7 +1797,17 @@
   },
   "p_0f6b42161f64e6f916e0bea7": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "4ffdc2fe-39a1-473b-8816-5b881f38f2c7",
+     "tree_id": "ams_002",
+     "tree_name": "The Leidsebosje Planes",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",

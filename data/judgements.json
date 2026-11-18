@@ -863,6 +863,28 @@
    "shown": []
   },
   {
+   "id": "sight:4ffdc2fe-39a1-473b-8816-5b881f38f2c7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Leidsebosje Planes",
+   "city": "Amsterdam",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/4ffdc2fe-39a1-473b-8816-5b881f38f2c7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: both Leidsebosje planes in autumn leaf on their lawn by Leidseplein, massive trunks, daylight, colour. Added as the new lead photograph of amsterdam/ams_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:3c544597-4706-4a7e-8e3c-973dded16385",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
