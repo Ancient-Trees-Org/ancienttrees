@@ -1,6 +1,16 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-18": [
+      {
+        "date": "2026-11-18",
+        "kind": "verify",
+        "target": "fort-worth",
+        "tokens": 90000,
+        "trees": 3,
+        "note": "deepen: city heritage layer carries no measurements; verify agent delivered 2 flagged one-source trees (ftw_028, ftw_029), session wrote stories for those and ftw_021 and merged all three; 6 leads annotated"
+      }
+    ],
     "2026-11-17": [
       {
         "date": "2026-11-17",

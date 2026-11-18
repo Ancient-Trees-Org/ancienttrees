@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 night run (window from 23:58 UTC)
+
+- **Product: three Fort Worth trees added, app-only under APP FIRST** (ftw_021 Southern Magnolia in the Botanic Garden, ftw_028 Downtown Red Mulberry, ftw_029 Veterans Memorial Park oaks), all flagged: one source, approximate pins, no photographs. Preflight 0 problems. Fort Worth is at 29 trees.
+- Rung 1: nothing waiting (no photographs, no tree notes). Rung 2: health was red only on two open escaped-bug rows whose fixes and tests had already landed on 11-17 (mailcheck "walks" verb, Android map sheet drag); closed them. Nightly knocks 4 of 12 in 24h is GitHub dropping the cron; knock.yml covers it.
+- Rung 5: the shelf was under its floor (the "awaiting a writer" list is stale files, only single trees need stories). Claimed Leeds (Hidde's UK-first list) but released it, since none of its 5 leads has a coordinate (the 2026-10-03 warning: ~410k tokens for one tree). Fort Worth verify pass gave only 2 trees for ~90k tokens, because the city layer holds no girth, age or address. Portland and others refused as full.
+- Nothing refused by the tool list. Fort Worth is now thin on supply; next windows should open a UK city that has coordinates, or scout a register for Birmingham, Sheffield or Leeds.
+
 ## 2026-11-17 reader judge: a second run on the Daintree fig and the Valley Forge photos
 
 - A second run judged the same three photographs at the same time as the run below and reached the same verdicts. At push it found that run's commit already live and dropped its own copy. Its two additions: daintree/dtr_001 now has `paid_entry: true`, and the four tree notes from today are marked read (Valley Forge, Ankerwycke, Oslo, Washington DC; none hidden). The older `lead` rows from September and October (Nara, Kyoto, Kyushu, Tokyo, Baarn) have no photograph on this machine and most are from our own account, so they were not judged.
