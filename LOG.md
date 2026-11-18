@@ -1,5 +1,17 @@
 # LOG
 
+<!-- archive-index -->
+
+**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
+
+- [2026-11](archive/LOG-2026-11.md)
+- [2026-10](archive/LOG-2026-10.md)
+- [2026-09](archive/LOG-2026-09.md)
+- [2026-08](archive/LOG-2026-08.md)
+- [2026-07](archive/LOG-2026-07.md)
+
+So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
+<!-- archive-index -->
 ## 2026-11-18 reader judge: overlapped the night run's retries, nothing new
 
 - I judged the same seven app photographs: four Salt Lake City leads, plus strip photos for Fortingall, Jardine and Reelig. My readings matched what earlier runs had already pushed, so I dropped my commit and kept theirs. Main passes preflight.
@@ -60,18 +72,6 @@
 - Write pass on every waiting entry and the 5 READY leads: all held for a closed reason (access x3, duplicate x1, no pin x2, street row, shrubs, no size or story). Detroit det_001 and det_002 stories are written and wait for a pin.
 - For Hidde: nothing. READY is 0 and the focus cities are walls or full, so the shelf cannot refill from desk research alone.
 
-<!-- archive-index -->
-
-**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
-
-- [2026-11](archive/LOG-2026-11.md)
-- [2026-10](archive/LOG-2026-10.md)
-- [2026-09](archive/LOG-2026-09.md)
-- [2026-08](archive/LOG-2026-08.md)
-- [2026-07](archive/LOG-2026-07.md)
-
-So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
-<!-- archive-index -->
 ## 2026-11-18 reader judge: nothing new (overlapped a parallel run)
 
 - This run judged the Bengaluru rain tree and the Emmanuel plane photograph (b43d0c0b), but a parallel run had already pushed both (ben_001, entries below). My duplicate was dropped in the rebase.
