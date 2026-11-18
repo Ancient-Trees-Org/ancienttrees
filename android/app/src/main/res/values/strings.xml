@@ -84,6 +84,8 @@
     <string name="discover_best">At their best now</string>
     <string name="discover_visitors">New from visitors</string>
     <string name="discover_a_visitor">A visitor</string>
+    <string name="visitors_intro">Photographs people took at the trees, newest first.</string>
+    <string name="visitors_end">You have seen every photograph so far.</string>
     <string name="discover_cities">Our favourite tree cities</string>
     <string name="discover_records">The records</string>
     <string name="discover_oldest">Oldest</string>

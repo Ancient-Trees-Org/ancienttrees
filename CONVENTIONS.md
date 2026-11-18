@@ -3707,6 +3707,8 @@ Hidde: "a see all button from new from visitors that leads to a page that has in
 
 **What we do:** /visitors, reached by "See all >" on the home row's heading (the 2026-10-04 entry below). The row's own card (photo, tree, city, the visitor's name) in a masonry of 5 to 2 columns by width, each photograph whole rather than the row's 4:3 crop, newest first, 24 more as the end comes near, and one line when there is nothing more. Endless because the items are endless and similar (the 2026-10-10 amendment below).
 
+**In the apps (2026-11-18, Hidde: "bouw in nieuw gesprek beide"):** the same page behind "See all >" on Discover's row, iOS Screens/VisitorPhotos.swift and its Android twin ui/VisitorPhotos.kt. Two columns, each tile the app row's own card (the photograph whole, with the city tag on it, and the visitor's line under it), so the tree's name stays on the tree page as it does in the row.
+
 ## Discover: infinite scroll or more shelves? (2026-10-04)
 
 Hidde asked whether Discover should become an infinite scroll, with rows like tree islands, tallest trees and the best of the US. These are the references as remembered that day, not re-read. **True infinite scroll is used only for feeds of endless, similar items:** Instagram Explore, Pinterest, TikTok, Airbnb's results grid. **Catalogue browse screens are long but they END:** AllTrails Explore (near you, popular, lists, by activity, about ten shelves), komoot Discover (highlights and collections near you), the App Store's Apps tab (about twenty shelves), Netflix (forty-odd rows, each one a deliberate pick, personalised by row order rather than by endless loading), Spotify Home (shelves, near-personal ones first).

@@ -621,6 +621,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         }
         launch.openSpecies?.let { openSpecies(it) }
         launch.openCollection?.let { nav.push(app.ancienttrees.ui.Page.Discover(app.ancienttrees.ui.DiscoverPage.Collection(it))) }
+        if (launch.openVisitors) nav.push(app.ancienttrees.ui.Page.Discover(app.ancienttrees.ui.DiscoverPage.Visitors))
         if (launch.signIn) {
             // The sweep's -signin is the keep-a-tree sheet, as on the iPhone.
             signInReason = app.ancienttrees.ui.SignInReason.KeepTree("")
@@ -739,6 +740,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             },
             searching = { discoverSearching = it },
             openPage = { nav.push(app.ancienttrees.ui.Page.Discover(it)) },
+            signedIn = { account.state is SignIn.SignedIn },
+            token = { account.fresh()?.accessToken },
         )
 
     val settingsHost = app.ancienttrees.ui.SettingsHost(

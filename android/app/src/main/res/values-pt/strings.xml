@@ -83,6 +83,8 @@
     <string name="discover_best">No seu melhor agora</string>
     <string name="discover_visitors">Novas dos visitantes</string>
     <string name="discover_a_visitor">Um visitante</string>
+    <string name="visitors_intro">Fotografias que as pessoas tiraram junto às árvores, as mais recentes primeiro.</string>
+    <string name="visitors_end">Já viste todas as fotografias por agora.</string>
     <string name="discover_cities">As nossas cidades de árvores favoritas</string>
     <string name="discover_records">Os recordes</string>
     <string name="discover_oldest">A mais velha</string>

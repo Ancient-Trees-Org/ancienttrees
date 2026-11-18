@@ -135,19 +135,25 @@ class DiscoverActions(
     val searching: (Boolean) -> Unit,
     /** A list or a See all, pushed on Discover's stack (Pages.kt). */
     val openPage: (DiscoverPage) -> Unit = {},
+    /** Whether the server says you are signed in, read at the moment of use (account.isSignedIn). */
+    val signedIn: () -> Boolean = { false },
+    /** Your session's token, fresh, or null signed out (account.freshToken()). */
+    val token: suspend () -> String? = { null },
 )
 
 /** One page pushed on Discover's own stack: a list, or a See all. */
 sealed class DiscoverPage {
     data class Collection(val slug: String) : DiscoverPage()
     data class Index(val kind: IndexKind) : DiscoverPage()
+    /** Every photograph visitors sent, the See all behind New from visitors (Route.visitors). */
+    data object Visitors : DiscoverPage()
 }
 
 enum class IndexKind { CITIES, COUNTRIES, SPECIES, OLDEST }
 
 private val TILE_WIDTH = 120.dp
 private val TILE_SHAPE = RoundedCornerShape(12.dp)
-private val VISITOR_LINE_HEIGHT = 44.dp
+internal val VISITOR_LINE_HEIGHT = 44.dp
 private val VISITOR_LINE_ROOM = 28.dp
 
 @Composable
@@ -394,12 +400,12 @@ private fun LazyListScope.discoverContent(
     val fresh = NewFromVisitors.tiles(visitorRows) { c.tree(it) }
     if (fresh.size >= NewFromVisitors.MINIMUM) {
         block("visitors") {
-            Section(stringResource(R.string.discover_visitors)) {
+            Section(stringResource(R.string.discover_visitors), seeAll = { open(DiscoverPage.Visitors) }) {
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
                     items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
                             Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot) { act.openTree(tree) }
-                            VisitorLine(row, openVisitor)
+                            VisitorLine(row, TILE_WIDTH, openVisitor)
                         }
                     }
                 }
@@ -818,11 +824,11 @@ private fun HeroBand() {
  * points to tap on a 16 point line, the room hanging below (VISITOR_LINE_ROOM).
  */
 @Composable
-private fun VisitorLine(r: NewFromVisitors.Row, openVisitor: (NewFromVisitors.Row) -> Unit) {
+internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFromVisitors.Row) -> Unit) {
     val brand = Brand.colors
     val real = r.authorName
     val name = real ?: stringResource(R.string.discover_a_visitor)
-    var m = Modifier.width(TILE_WIDTH).heightIn(min = VISITOR_LINE_HEIGHT)
+    var m = Modifier.width(width).heightIn(min = VISITOR_LINE_HEIGHT)
     if (real != null) {
         m = m.clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current) {
             openVisitor(r)
@@ -1100,6 +1106,7 @@ fun DiscoverPageScreen(p: DiscoverPage, catalogue: Catalogue, act: DiscoverActio
             CollectionPage(c, catalogue, onBack = onBack, onOpen = act.openTree)
         } ?: Box(Modifier.fillMaxSize().background(Brand.colors.ground))
         is DiscoverPage.Index -> IndexPage(p.kind, catalogue, act, onBack = onBack)
+        DiscoverPage.Visitors -> VisitorPhotosPage(catalogue, act, onBack = onBack)
     }
 }
 

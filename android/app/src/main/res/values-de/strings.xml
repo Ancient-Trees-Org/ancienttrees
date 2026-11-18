@@ -83,6 +83,8 @@
     <string name="discover_best">Jetzt in Bestform</string>
     <string name="discover_visitors">Neu von Besuchern</string>
     <string name="discover_a_visitor">Ein Besucher</string>
+    <string name="visitors_intro">Fotos, die Menschen an den Bäumen gemacht haben, die neuesten zuerst.</string>
+    <string name="visitors_end">Du hast bisher alle Fotos gesehen.</string>
     <string name="discover_cities">Unsere liebsten Baumstädte</string>
     <string name="discover_records">Die Rekorde</string>
     <string name="discover_oldest">Ältester</string>

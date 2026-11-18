@@ -32,6 +32,10 @@ data class Photo(
     /** A reader's photograph by the id the server names it by (a sightings uuid or
      *  "tip-<n>"), so the tree page can ask whose it is (PhotoAuthors). Null otherwise. */
     val by: String? = null,
+    /** The photograph's own size in pixels (feed width, height), so a tile on New from
+     *  visitors' See all takes its shape before the picture loads. Null when unknown. */
+    val width: Int? = null,
+    val height: Int? = null,
 ) {
     val card: String get() = thumb ?: url
     val full: String get() = hero ?: url

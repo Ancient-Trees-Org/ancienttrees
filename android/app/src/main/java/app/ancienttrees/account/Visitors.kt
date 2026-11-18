@@ -67,6 +67,39 @@ object NewFromVisitors {
             Triple(r, t, s)
         }
 
+    /**
+     * THE SEE ALL PAGE'S PAGES (Hidde, 2026-11-18): every photograph, not one per tree,
+     * newest sent first, by the server's keyset paging (supabase/visitor-photos.sql), the
+     * rows after [after]. Null when the server did not answer; the page stops there.
+     * NewFromVisitors.page in ios Kit/NewFromVisitors.swift.
+     */
+    const val PAGE_SIZE = 24
+
+    suspend fun page(after: Row?, token: String?, n: Int = PAGE_SIZE): List<Row>? {
+        val body = JSONObject().put("n", n)
+        if (after != null) body.put("before_at", after.publishedAt).put("before_id", after.sightingId.lowercase())
+        val r = Supa.send("/rest/v1/rpc/visitor_photos", token = token, body = body.toString())
+        if (!r.ok) return null
+        return runCatching {
+            val a = JSONArray(r.body)
+            (0 until a.length()).mapNotNull { i ->
+                val o = a.optJSONObject(i) ?: return@mapNotNull null
+                Row(
+                    sightingId = o.text("sighting_id") ?: return@mapNotNull null,
+                    treeId = o.text("tree_id") ?: return@mapNotNull null,
+                    publishedAt = o.text("published_at").orEmpty(),
+                    authorName = o.text("author_name"),
+                    authorAvatar = o.text("author_avatar"),
+                    authorId = o.text("author_id"),
+                )
+            }
+        }.getOrNull()
+    }
+
+    /** Whose photograph this is, asked again signed in: the row before it is the cursor that returns exactly it. */
+    suspend fun author(row: Row, prev: Row?, token: String?): String? =
+        page(prev, token, n = 1)?.firstOrNull { it.sightingId == row.sightingId }?.authorId
+
     suspend fun load(token: String?): List<Row> {
         val r = Supa.send("/rest/v1/rpc/new_from_visitors", token = token, body = JSONObject().put("n", 12).toString())
         return if (r.ok) parse(r.body) else emptyList()

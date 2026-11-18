@@ -82,6 +82,8 @@
     <string name="discover_best">今が見頃</string>
     <string name="discover_visitors">訪問者からの新着</string>
     <string name="discover_a_visitor">訪問者</string>
+    <string name="visitors_intro">訪れた人が木のそばで撮った写真です。新しい順に並んでいます。</string>
+    <string name="visitors_end">今のところ、すべての写真を見ました。</string>
     <string name="discover_cities">お気に入りの木の街</string>
     <string name="discover_records">記録</string>
     <string name="discover_oldest">最古</string>

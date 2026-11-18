@@ -42,7 +42,19 @@ struct VisitorPhotosView: View {
         }
     }
 
-    @State private var items: [Item] = []
+    /// Every row the server sent, each with the one before it. Which of them
+    /// are tiles is asked of the catalogue as the page draws, as the row on
+    /// Discover does, so a photograph the feed did not carry yet (a fresh
+    /// install, before the new feed) appears the moment the feed does.
+    @State private var rows: [(row: NewFromVisitors.Row, prev: NewFromVisitors.Row?)] = []
+    private var items: [Item] {
+        var seen = Set<UUID>()
+        return rows.compactMap { r in
+            guard seen.insert(r.row.id).inserted, let t = catalogue.tree(r.row.tree_id),
+                  let s = NewFromVisitors.shot(r.row, in: t) else { return nil }
+            return Item(row: r.row, prev: r.prev, tree: t, shot: s)
+        }
+    }
     /// The last row the server sent, tile or not: the next page starts after it.
     @State private var last: NewFromVisitors.Row?
     @State private var busy = false
@@ -65,16 +77,17 @@ struct VisitorPhotosView: View {
                         .font(.subheadline).foregroundStyle(Brand.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
                         .padding(.bottom, 16)
-                    let cols = columns(width)
+                    let shown = items
+                    let cols = columns(shown, width)
                     HStack(alignment: .top, spacing: Self.gap) {
                         ForEach(0..<2, id: \.self) { c in
                             LazyVStack(alignment: .leading, spacing: 0) {
-                                ForEach(cols[c]) { tile($0, width: width) }
+                                ForEach(cols[c]) { tile($0, of: shown, width: width) }
                             }
                             .frame(width: width, alignment: .top)
                         }
                     }
-                    footer
+                    footer(shown.isEmpty)
                 }
                 .padding(.horizontal, Self.edge).padding(.top, 6)
                 .padding(.bottom, 80)
@@ -88,14 +101,14 @@ struct VisitorPhotosView: View {
         // at once; the page starts again when that changes.
         .task(id: account.isSignedIn) {
             generation += 1
-            items = []; last = nil; done = false; busy = false
+            rows = []; last = nil; done = false; busy = false
             await more()
         }
     }
 
     /// Each tile into the shorter column, in order (Pinterest), measured by
     /// the photograph's own shape plus the line under it.
-    private func columns(_ width: CGFloat) -> [[Item]] {
+    private func columns(_ items: [Item], _ width: CGFloat) -> [[Item]] {
         var cols: [[Item]] = [[], []]
         var heights: [CGFloat] = [0, 0]
         for it in items {
@@ -106,7 +119,7 @@ struct VisitorPhotosView: View {
         return cols
     }
 
-    private func tile(_ it: Item, width: CGFloat) -> some View {
+    private func tile(_ it: Item, of shown: [Item], width: CGFloat) -> some View {
         VStack(alignment: .leading, spacing: 7) {
             NavigationLink(value: Route.tree(it.tree.id)) {
                 TreePhoto(url: it.shot.card) { Brand.surfaceMuted }
@@ -123,15 +136,15 @@ struct VisitorPhotosView: View {
         }
         .onAppear {
             // More as the end comes near: eight tiles before the last.
-            if let i = items.firstIndex(where: { $0.id == it.id }), i >= items.count - 8 {
+            if let i = shown.firstIndex(where: { $0.id == it.id }), i >= shown.count - 8 {
                 Task { await more() }
             }
         }
     }
 
-    @ViewBuilder private var footer: some View {
+    @ViewBuilder private func footer(_ empty: Bool) -> some View {
         if done {
-            if !items.isEmpty {
+            if !empty {
                 Text("You have seen every photograph so far.")
                     .font(.subheadline).foregroundStyle(Brand.inkSoft)
                     .frame(maxWidth: .infinity)
@@ -154,18 +167,18 @@ struct VisitorPhotosView: View {
         guard gen == generation else { return }
         busy = false
         // No answer: the page stops where it is, as the website's does.
-        guard let rows = answer else { done = true; return }
+        guard let page = answer else { done = true; return }
+        let before = items.count
         var prev = last
-        var add: [Item] = []
-        for r in rows {
-            defer { prev = r }
-            guard !items.contains(where: { $0.id == r.id }), let t = catalogue.tree(r.tree_id),
-                  let s = NewFromVisitors.shot(r, in: t) else { continue }
-            add.append(Item(row: r, prev: prev, tree: t, shot: s))
+        for r in page {
+            rows.append((row: r, prev: prev))
+            prev = r
         }
-        items += add
-        if let l = rows.last { last = l }
-        if rows.count < NewFromVisitors.pageSize { done = true }
+        if let l = page.last { last = l }
+        if page.count < NewFromVisitors.pageSize { done = true }
+        // A page whose photographs the feed does not carry yet added no tile,
+        // and nothing on screen moved to ask again: ask for the next one now.
+        if !done && items.count == before { await more() }
     }
 
     /// A visitor's name, tapped: Home's openVisitor. Signed out the server

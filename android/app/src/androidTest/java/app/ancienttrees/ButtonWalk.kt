@@ -79,6 +79,8 @@ class ButtonWalk {
             "city-full" to listOf("-tab=0", "-open=city:cadiz", "-sheet=full"),
             "species" to listOf("-tab=0", "-open=species:Aleppo Pine"),
             "collection" to listOf("-tab=0", "-open=collection:ancient-oaks-of-europe"),
+            // Every photograph visitors sent, Discover's See all (2026-11-18).
+            "visitors" to listOf("-tab=1", "-open=visitors:all"),
         )
 
         /** Words that mean a machine must not tap it, even with the stand-in session. */

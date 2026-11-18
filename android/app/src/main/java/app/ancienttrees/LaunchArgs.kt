@@ -25,6 +25,8 @@ data class LaunchArgs(val args: List<String>, val testSession: String? = null) {
 
     /** -open=collection:<slug>: a curated collection's page (ContentView.debugRoute .collection). */
     val openCollection: String? get() = value("-open")?.takeIf { it.startsWith("collection:") }?.removePrefix("collection:")
+    /** -open=visitors:all: every photograph visitors sent, Discover's See all (ContentView.debugRoute .visitors). */
+    val openVisitors: Boolean get() = value("-open")?.startsWith("visitors:") == true
 
     /** -open=species:<Common name>: the species page (Species.swift). */
     val openSpecies: String? get() = value("-open")?.takeIf { it.startsWith("species:") }?.removePrefix("species:")
