@@ -55,6 +55,22 @@
         "tokens": 165000,
         "trees": 2,
         "note": "verify delivered kyw_005, kyw_006 (garden boardwalk champions, admission now sourced), writer merged both app-only; location_site radius 50 m is a judgement"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "verify",
+        "target": "stuttgart",
+        "tokens": 90000,
+        "trees": 0,
+        "note": "dry; Hohenheim owner leaflet recorded as leads (tulip tree 1779 needs a pin)"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "write",
+        "target": "page gaps: 10 species intros + Serbia",
+        "tokens": 120000,
+        "trees": 0,
+        "note": "11 intros written from own trees; preflight 0"
       }
     ],
     "2026-11-17": [

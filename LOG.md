@@ -22,6 +22,8 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Two more beech photographs** for nijmegen/nij_017 judged by eye (full beech by the church, trunk and crown, both autumn, daylight) and recorded as `add`; live-first had already put them in the strip. Their judgement stubs were missing (the scan only reads the queue), so I wrote them through `judgement.save`.
 - **Key West**: kyw_005 (Cuban Lignum Vitae) and kyw_006 (Boardwalk Barringtonia), garden champions with admission now sourced ($15, 10 to 4 daily), merged app-only. Pins are the register point (approximate); `location_site` radius 50 m is a judgement call and may be too wide for a garden. The city intro still says "two remarkable trees" and wants a rewrite.
 - **Dry**: Birmingham (sixth pass, no angle left; needs a reader GPS fix or the Friends of Highbury Park survey), Philadelphia (exhausted; one lead added, the Lutheran Seminary scarlet oak). Portland is full, Miami a wall.
+- **Stuttgart** dry too (Hohenheim's owner leaflet of record trees is now a lead; the 1779 tulip tree needs a pin). Madeira has no coordinates on its leads, left alone.
+- **Page gaps**: ten species intros (chinkapin, black, chestnut, shumard oak, white ash, Spanish black pine, Persian ironwood, carob, tamarind, rock elm) and the Serbia country intro, each from its own trees. These pages stay behind the strict cut for Google.
 - 3c544597 (Amsterdam, `mine`) still has no photo on this machine, left open. Health: all green. Prepare.py: 7-day visits line not printed this run.
 
 ## 2026-11-18 reader judge: the Nijmegen copper beech gets its first photograph
