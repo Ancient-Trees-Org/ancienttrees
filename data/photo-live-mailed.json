@@ -2127,6 +2127,21 @@
      "mailed": "2026-11-18"
     }
    ]
+  },
+  "p_33e5c34b09b47c5c496f8918": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1ac97a72-073b-45cb-9bbf-b889c07bb49d",
+     "tree_id": "tul_001",
+     "tree_name": "El Árbol del Tule",
+     "city": "Santa María del Tule",
+     "city_slug": "santa-maria-del-tule",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

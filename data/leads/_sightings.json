@@ -6649,6 +6649,36 @@
    "seen": "2026-11-18",
    "judged": "2026-11-18",
    "published_as": "bengaluru/ben_001"
+  },
+  {
+   "sighting_id": "c60f88d1-bc14-496a-aba8-7b90d7286907",
+   "user_id": "p_33e5c34b09b47c5c496f8918",
+   "mine": false,
+   "name": "Oak near Copenhagen",
+   "unsure_among": null,
+   "species": "Oak",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Brygger Jacobsens Eg in Rude Skov",
+   "latitude": 55.8286083333333,
+   "longitude": 12.4967633333333,
+   "near": null,
+   "photo": "p_33e5c34b09b47c5c496f8918/C60F88D1-BC14-496A-ABA8-7B90D7286907.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: the whole oak, bare, from the gravel path: a short thick trunk under a huge rounded crown of crooked limbs, a bench at its foot, a meadow and a misty forest edge behind, overcast daylight, colour. Live as copenhagen/cop_050 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "copenhagen/cop_050"
   }
  ]
 }

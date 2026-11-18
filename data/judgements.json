@@ -1383,6 +1383,56 @@
    "agreed": null
   },
   {
+   "id": "sight:1ac97a72-073b-45cb-9bbf-b889c07bb49d",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "El Árbol del Tule",
+   "city": "Santa María del Tule",
+   "species": "Montezuma Cypress (Taxodium mucronatum)",
+   "photo": "out/sightings/1ac97a72-073b-45cb-9bbf-b889c07bb49d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 297,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Montezuma Cypress (Taxodium mucronatum)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: close view of the Tule's fused buttressed trunk with its great burr in evening sun; species and description match. Into the gallery of tul_001 behind the reader's lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c60f88d1-bc14-496a-aba8-7b90d7286907",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Oak near Copenhagen",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_33e5c34b09b47c5c496f8918/C60F88D1-BC14-496A-ABA8-7B90D7286907.jpg",
+   "reader_note": "Brygger Jacobsens Eg in Rude Skov",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big open-grown oak, bare in winter mist, short thick trunk under a crown far wider than it is tall, bench at its foot, beside a gravel path in Rude Skov; GPS fix on the path; Naturstyrelsen's Rude Skov map names it Brygger C Jacobsens Eg. Live as copenhagen/cop_050 (day trip, Holte).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -17049,6 +17099,18 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:c60f88d1-bc14-496a-aba8-7b90d7286907",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Brewer Jacobsen's Oak in Rude Skov",
+   "photo": "p_33e5c34b09b47c5c496f8918/C60F88D1-BC14-496A-ABA8-7B90D7286907.jpg",
+   "reader_note": "Brygger Jacobsens Eg in Rude Skov",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole open-grown oak, bare in winter mist, beside a gravel path, overcast daylight, colour. Lead photograph of copenhagen/cop_050."
   }
  ]
 }
