@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge (fourth, in parallel): nothing new
+
+- This run judged the same Melbourne sighting (2f335c62) as the run below and reached the same verdict, a duplicate of mel_001's lead. That run's entry was kept. Nothing else was waiting: no open reports, tips, feedback or notes. The 37 own-account leads were left alone.
+
 ## 2026-11-18 reader judge (in parallel): a second reader frame of the Stow north door yews
 
 - This run judged the same Stow sighting as the run below, which pushed first and rejected it. My verdict replaces that one because it adds something: the extra frame is now in the strip.
