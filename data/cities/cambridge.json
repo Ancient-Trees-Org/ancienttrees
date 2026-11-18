@@ -427,8 +427,8 @@
       "age_basis": "source",
       "location": {
         "address": "Fellows' Garden, Emmanuel College, St Andrew's Street, Cambridge CB2 3AP",
-        "latitude": 52.204373,
-        "longitude": 0.124921,
+        "latitude": 52.20456,
+        "longitude": 0.125025,
         "neighbourhood": "City centre"
       },
       "story": "Emmanuel College has never settled how old its great oriental plane is. A girth measured in 1986 suggested planting around 1836, the 478 centimetres measured in 2006 pointed to about 1816, and many admirers prefer 1802, the year Jesus College planted its plane from seed brought home from Thermopylae. The college's own booklet on the tree calls that last idea unprovable.\n\nWhat nobody disputes is its shape. Most oriental planes hold their crowns up; this one weeps. Its long grey limbs dive towards the grass, turn back on themselves and dive again, and where they touch the ground some have put down roots, so the tree is slowly ringing itself with new trunks. A photograph in the college archives, taken between 1894 and 1919, shows the branches still well clear of the ground. Thomas Pakenham gave it pride of place in his book Meetings with Remarkable Trees.\n\nTwo readers sent it to us. One photographed it in spring, with rows of chairs set out beneath the limbs, and told us performances are sometimes held under it. The other first saw it over the wall from the street, then walked in through the main gate and right up to the trunk.\n\nCome in autumn, when the whole low dome turns gold, and step inside it.",
@@ -444,10 +444,11 @@
         "kind": "reader report",
         "reports": [
           1000065,
-          1000067
+          1000067,
+          1000078
         ],
-        "date": "2026-11-17",
-        "note": "The reader moved the pin to the tree on the map (reports 1000065, 1000067); the photograph's own location tag pointed at Trumpington, 3 km off, so the pin is the reader's map mark."
+        "date": "2026-11-18",
+        "note": "The reader who added the tree moved the pin to it on the map (reports 1000065, 1000067, and 1000078 on 2026-11-18, 23 m on); the photograph's own location tag pointed at Trumpington, 3 km off, so the pin is the reader's map mark."
       },
       "found_by_reader": {
         "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",

@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Great Banyan of Howrah is live
+
+- **New: The Great Banyan, howrah/how_001** (new one-tree place, India), a reader's tree from the app with four photographs: the grove of prop roots and the Botanical Survey of India board, which supplies the facts (over 270 years, trunk removed 1925, 4,208 prop roots, 18,918 sq m). The reader's age, 275, is on the page as theirs. Lead photo plus two in the strip. The photograph's coordinate was 2.6 km off, outside the garden; the reader then moved the pin into the garden by hand (report 1000079), 70 m from Wikidata's point, so that spot is used, approximate.
+- **Cambridge cam_011**: the same reader moved their Emmanuel College plane's pin once more, 23 m (report 1000078); taken as their own tree's move.
+- Both reports closed `holds` with no mail (moves on their own trees). Tip 1093 was the app's row for mkn_003, already live: verdict publish, nothing to add. No feedback waiting, no reader words to quote.
+- Left alone: the old owner-account leads (Japan, Baarn), which are ours and never auto-published.
+
 ## 2026-11-18 session: dd, three feedback replies sent, the iOS sweep retries
 
 - **Replies sent on Hidde's "verstuur"** to three messages from the Settings feedback form: 1128 (how to add a tree), 1092 (following, editing, seasons; his own lines: overwhelmed, Android first, which features they'd add, seasons from the photo date and he can add a control) and 1075 (the Darley Dale yew at St Helen's, asked for a photo; still a lead in _famous-united-kingdom.json). Closed in the feedback ledger.

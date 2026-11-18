@@ -1,0 +1,104 @@
+{
+  "city": "Howrah",
+  "country": "India",
+  "status": "needs_curation",
+  "intro": "Howrah faces Kolkata across the Hooghly river, and at Shibpur on its bank lies the Acharya Jagadish Chandra Bose Indian Botanic Garden. Its landmark is the Great Banyan, a single tree that lost its trunk in 1925 and now stands on more than four thousand prop roots, a grove with a gravel path running through it. A reader sent us its photographs from inside it.",
+  "meta_description": "The Great Banyan in Howrah's botanic garden: one tree on 4,208 prop roots, over 270 years old, its main trunk gone since 1925, and how to visit it.",
+  "hero_tree_id": "how_001",
+  "oldest_tree_id": "how_001",
+  "trees": [
+    {
+      "id": "how_001",
+      "name": "The Great Banyan",
+      "species": "Indian Banyan (Ficus benghalensis)",
+      "age_estimate": "more than 270 years; about 275 by a reader's estimate",
+      "age_min": 270,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Acharya Jagadish Chandra Bose Indian Botanic Garden, Shibpur, Howrah, West Bengal",
+        "latitude": 22.560535,
+        "longitude": 88.287129,
+        "neighbourhood": "Shibpur"
+      },
+      "story": "The Great Banyan has had no trunk for a century. Its main stem was cut out in 1925 after a fungus attacked it, when it measured 16.5 metres round, and the tree simply carried on without it, standing on the roots it had let down from its branches. The Botanical Survey of India's board beside it counts 4,208 of those prop roots today, the tallest 24.5 metres long, under a crown 486 metres round that covers 18,918 square metres. The board calls its canopy one of the largest of any plant in the world.\n\nA reader walked into it in the Acharya Jagadish Chandra Bose Indian Botanic Garden at Shibpur, in Howrah across the Hooghly from Kolkata, and sent us the photographs. They show a floor of copper leaves, a gravel path running between ranks of grey columns, and branches reaching out overhead to drop still more roots towards the ground. Every column in the picture is the same tree.\n\nThe board puts it at more than 270 years old; the reader gives 275. It has come through great cyclones in 1864, 1867 and 2020, and Guinness listed it in 1985 for the size of its canopy.\n\nFollow the path into the middle and look up and around.",
+      "how_to_recognise": "In the botanic garden: a whole grove of grey prop roots under one low crown, a gravel path running through it, and a green Botanical Survey of India board headed 'The Great Banyan Tree' in a yellow frame at its edge.",
+      "verified_sources": [
+        "Botanical Survey of India information board at the tree, dated 1 January 2022, photographed by the reader on 2026-11-18 (age over 270 years, trunk removed 1925 at 16.5 m girth, 18,918 sq m, crown circumference 486 m, 4,208 prop roots, Guinness 1985, cyclones 1864, 1867 and 2020)",
+        "https://en.wikipedia.org/wiki/The_Great_Banyan (The Great Banyan, Acharya Jagadish Chandra Bose Indian Botanic Garden, Howrah)",
+        "https://www.wikidata.org/wiki/Q2509765 (The Great Banyan, Ficus benghalensis, Howrah: its coordinate agrees with the reader's pin within 70 m)"
+      ],
+      "access": "Inside the Acharya Jagadish Chandra Bose Indian Botanic Garden, open in daytime; check opening days and any entry fee before you go. The tree is seen from the paths and from behind its rail.",
+      "found_by_reader": {
+        "sighting_id": "97153cbf-443d-4b42-9801-7463164ed709",
+        "date": "2026-11-18"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader report",
+        "reports": [
+          1000079
+        ],
+        "date": "2026-11-18",
+        "note": "The reader who sent the tree moved its pin on the map to this spot in the botanic garden (report 1000079), about 70 m from Wikidata's point (Q2509765); their photograph's coordinate had been 2.6 km off. A hand-placed spot, so approximate."
+      },
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (sighting 97153cbf-443d-4b42-9801-7463164ed709), named 'Indian Banyan', age 275, no girth, no note, three further photographs. Viewed: inside the banyan from the leaf-strewn floor, many grey prop roots under one crown, a gravel path between them, and the Botanical Survey of India board 'The Great Banyan Tree' (dated 1 January 2022), daylight, colour. The board identifies the tree. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The photograph's coordinate was 2636 m off, outside the garden; the reader then moved the pin by hand into the garden (report 1000079), 70 m from Wikidata's point, and that spot is used, approximate. India is out of focus for our own research only, never for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/how_001-the-great-banyan.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+        "sighting_id": "97153cbf-443d-4b42-9801-7463164ed709",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: inside the banyan from the leaf-strewn floor, many grey prop roots under one crown, a gravel path between them, and the Botanical Survey of India board 'The Great Banyan Tree' (dated 1 January 2022), daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/how_001-the-great-banyan-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1280,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "97153cbf-443d-4b42-9801-7463164ed709",
+          "note": "The same reader's further photograph, looked at 2026-11-18. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/how_001-the-great-banyan-extra2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "97153cbf-443d-4b42-9801-7463164ed709",
+          "note": "The same reader's further photograph, looked at 2026-11-18. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "Howrah's oldest tree on our map is the Great Banyan in the botanic garden at Shibpur, more than 270 years old by the Botanical Survey of India.",
+  "question_answer": "The Great Banyan in the Acharya Jagadish Chandra Bose Indian Botanic Garden at Shibpur, Howrah, is more than 270 years old according to the Botanical Survey of India's board beside it.",
+  "question_context": "The Great Banyan grows in the Acharya Jagadish Chandra Bose Indian Botanic Garden at Shibpur, in Howrah across the Hooghly from Kolkata. It is an Indian banyan, Ficus benghalensis, and the Botanical Survey of India's information board beside it puts it at more than 270 years old; the reader who sent us its photographs gives 275. Its main trunk was removed in 1925 after a fungal attack, when it measured 16.5 metres round, and the tree has lived on through the roots it drops from its branches. The board counts 4,208 prop roots, the tallest 24.5 metres long, under a crown 486 metres round covering 18,918 square metres, and says the canopy is one of the largest of any plant in the world. Guinness listed it in 1985. It has survived great cyclones in 1864, 1867 and 2020. A gravel path runs through the grove of roots, so you can walk inside the tree, and the board stands in a yellow frame at its edge.",
+  "faq": [
+    {
+      "q": "Can I visit the Great Banyan?",
+      "a": "Yes. It stands inside the Acharya Jagadish Chandra Bose Indian Botanic Garden at Shibpur, Howrah, open in daytime; check opening days and any entry fee before you go."
+    },
+    {
+      "q": "How old is the Great Banyan?",
+      "a": "More than 270 years, according to the Botanical Survey of India's board at the tree. A reader who visited puts it at about 275."
+    },
+    {
+      "q": "Does the Great Banyan still have a trunk?",
+      "a": "No. The main trunk was removed in 1925 after a fungal attack. The tree lives on through 4,208 prop roots that hold up its crown."
+    }
+  ]
+}

@@ -4844,11 +4844,12 @@
    "seen": "2026-11-17",
    "judged": "2026-11-18",
    "reader_moved_to": {
-    "latitude": 52.204373,
-    "longitude": 0.124921,
+    "latitude": 52.20456,
+    "longitude": 0.125025,
     "reports": [
      1000065,
-     1000067
+     1000067,
+     1000078
     ],
     "date": "2026-11-17"
    },
@@ -6353,6 +6354,47 @@
    "seen": "2026-11-18",
    "judged": "2026-11-18",
    "published_as": "melbourne/mel_019"
+  },
+  {
+   "sighting_id": "97153cbf-443d-4b42-9801-7463164ed709",
+   "user_id": "p_5c22c3030ca37ddafb789ab6",
+   "mine": false,
+   "name": "Indian Banyan",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": "275",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 22.572525,
+   "longitude": 88.3091716666667,
+   "near": null,
+   "photo": "p_5c22c3030ca37ddafb789ab6/97153CBF-443D-4B42-9801-7463164ED709.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/97153cbf-443d-4b42-9801-7463164ed709-extra-1.jpg",
+    "out/sightings/97153cbf-443d-4b42-9801-7463164ed709-extra-2.jpg",
+    "out/sightings/97153cbf-443d-4b42-9801-7463164ed709-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: inside the banyan from the leaf-strewn floor, many grey prop roots under one crown, a gravel path between them, and the Botanical Survey of India board 'The Great Banyan Tree' (dated 1 January 2022), daylight, colour. Live as howrah/how_001 under the closed list (Hidde, 2026-11-17); pin from Wikidata (approximate), the reader's coordinate being 2636 m off.",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "howrah/how_001",
+   "reader_moved_to": {
+    "latitude": 22.560535,
+    "longitude": 88.287129,
+    "reports": [
+     1000079
+    ]
+   }
   }
  ]
 }

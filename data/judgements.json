@@ -562,6 +562,34 @@
    "agreed": null
   },
   {
+   "id": "lead:97153cbf-443d-4b42-9801-7463164ed709",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Indian Banyan",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/97153CBF-443D-4B42-9801-7463164ED709.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "The Great Banyan, Howrah botanic garden: four photographs viewed, the grove of prop roots and the Botanical Survey of India board naming it. Reader's coordinate 2.6 km off, so the pin is the named site (Wikidata), approximate. Live as howrah/how_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -4914,6 +4942,50 @@
    "shown": [
     "2026-11-18"
    ]
+  },
+  {
+   "id": "sight:b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Oriental Plane in Cambridge",
+   "city": null,
+   "species": "Oriental Plane",
+   "photo": "p_5c22c3030ca37ddafb789ab6/B43D0C0B-469B-44EF-AB4B-BBA2C7B8F7DC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Emmanuel plane's low golden dome with limbs to the lawn, a ginkgo beside it, daylight, colour. Held 11-17 as not_public; the reader wrote 11-18 he saw it from the street and walked up to it through the main gate in visiting hours. Live as cambridge/cam_011, pin from his map mark (approximate).",
+   "hidde": null,
+   "agreed": null,
+   "decided": "2026-11-17"
+  },
+  {
+   "id": "tip:1093",
+   "seen": "2026-11-17",
+   "kind": "a tip without a photograph",
+   "tree": "58EFDC92-C382-4B03-B495-C53F027B4E58",
+   "city": "Milton Keynes",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "The app's row for sighting 58efdc92, already live as milton-keynes/mkn_003 (Leaning Apple Row of Linford Wood); same coordinate, no words, nothing to add.",
+   "hidde": null,
+   "agreed": null
   },
   {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
@@ -13290,6 +13362,27 @@
    ]
   },
   {
+   "id": "sight:tip-748",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Great Oriental Plane Tree, Emmanuel College",
+   "city": null,
+   "species": null,
+   "photo": "p_91f2bfb867b1664b26521ade/bcdcdc2a-6e4f-43f9-a0f5-4978d36be9df.jpg",
+   "reader_note": "Huge plane tree tree in Emmanuel College Fellows' Garden with a ring where the branches have reached down to the ground and taken root. Probably planted in either 1802 or 1836. Performances sometimes held under the tree. There is a book about it available on the college website: https://apps.emma.cam.ac.uk/college/publications/files/OrientalPlane.pdf",
+   "reader_girth_cm": 478,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Emmanuel plane in spring from under its crown, weeping limbs sweeping to the grass, chairs beneath, daylight, colour. Held 11-15 as not_public; released 11-18 when another reader confirmed visitors can walk up to it. Lead photograph of cambridge/cam_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -16120,13 +16213,13 @@
    "agreed": null
   },
   {
-   "id": "sight:b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
-   "seen": "2026-11-17",
+   "id": "sight:97153cbf-443d-4b42-9801-7463164ed709",
+   "seen": "2026-11-18",
    "kind": "a tree we do not map",
-   "tree": "Oriental Plane in Cambridge",
-   "city": null,
-   "species": "Oriental Plane",
-   "photo": "p_5c22c3030ca37ddafb789ab6/B43D0C0B-469B-44EF-AB4B-BBA2C7B8F7DC.jpg",
+   "tree": "Indian Banyan",
+   "city": "Howrah",
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/97153CBF-443D-4B42-9801-7463164ED709.jpg",
    "reader_note": "",
    "reader_girth_cm": null,
    "coords": [
@@ -16140,32 +16233,10 @@
    },
    "measure": {
     "score": null,
-    "note": "nothing measurable about Oriental Plane"
+    "note": "nothing measurable about Indian Banyan"
    },
    "verdict": "publish",
-   "reason": "Photograph viewed: the Emmanuel plane's low golden dome with limbs to the lawn, a ginkgo beside it, daylight, colour. Held 11-17 as not_public; the reader wrote 11-18 he saw it from the street and walked up to it through the main gate in visiting hours. Live as cambridge/cam_011, pin from his map mark (approximate).",
-   "hidde": null,
-   "agreed": null,
-   "decided": "2026-11-17"
-  },
-  {
-   "id": "sight:tip-748",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Great Oriental Plane Tree, Emmanuel College",
-   "city": null,
-   "species": null,
-   "photo": "p_91f2bfb867b1664b26521ade/bcdcdc2a-6e4f-43f9-a0f5-4978d36be9df.jpg",
-   "reader_note": "Huge plane tree tree in Emmanuel College Fellows' Garden with a ring where the branches have reached down to the ground and taken root. Probably planted in either 1802 or 1836. Performances sometimes held under the tree. There is a book about it available on the college website: https://apps.emma.cam.ac.uk/college/publications/files/OrientalPlane.pdf",
-   "reader_girth_cm": 478,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: the Emmanuel plane in spring from under its crown, weeping limbs sweeping to the grass, chairs beneath, daylight, colour. Held 11-15 as not_public; released 11-18 when another reader confirmed visitors can walk up to it. Lead photograph of cambridge/cam_011.",
+   "reason": "The reader's photographs of the Great Banyan, Howrah: the prop-root grove in daylight and the Botanical Survey of India board naming it. Lead and two strip photographs on howrah/how_001.",
    "hidde": null,
    "agreed": null
   }
