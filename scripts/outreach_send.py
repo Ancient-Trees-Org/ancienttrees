@@ -81,7 +81,9 @@ def html_twin(body):
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SENT_PATH = os.path.join(ROOT, "data", "outreach-sent.json")
-DAILY_CAP = int(os.environ.get("OUTREACH_DAILY_CAP", "50"))
+# 50 -> 100 on 2026-11-18 (Hidde: "verhoog maximum", the day the Guardian press
+# round and its Gmail retries filled 50 by lunch).
+DAILY_CAP = int(os.environ.get("OUTREACH_DAILY_CAP", "100"))
 
 
 def load_sent():
