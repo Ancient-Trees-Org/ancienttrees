@@ -59,6 +59,7 @@ PAGES = [
     ("/united-kingdom", "country page"),
     ("/cities", "cities index"),
     ("/contribute", "contribute"),
+    ("/visitors", "New from visitors, See all"),
     ("/nl/amsterdam", "translated city page"),
 ]
 WIDTHS = [(1280, 800, "desktop"), (390, 844, "phone")]

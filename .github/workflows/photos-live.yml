@@ -1,0 +1,42 @@
+name: Live photographs look right
+
+# Every day, the photographs on the live pages measured on a real 3x phone
+# and a 2x laptop (Hidde, 2026-11-18: "can you make some sort of test for
+# photo quality i have to find it out always"). scripts/photocheck.py opens
+# home, a city, a country, the cities index and the tree pages of the three
+# newest readers' photographs, scrolls every lazy row into view, and fails
+# on a photograph that is stretched (soft), shrunk from a master (heavy,
+# shimmering) or broken. scripts/quality.py reads these runs into the Web
+# "Live" light, so a red one is in the digest's quality line and is rung-2
+# work for the runs. Nothing is written to the repository.
+
+on:
+  schedule:
+    - cron: "10 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: photos-live
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/pagecheck.py
+            scripts/photocheck.py
+          sparse-checkout-cone-mode: false
+
+      - name: Install the browser check
+        run: python3 -m pip install --quiet playwright==1.60.0
+
+      - name: Do the live photographs look right
+        run: python3 scripts/photocheck.py --live --notes

@@ -273,6 +273,63 @@ def write_manifest():
     return 0
 
 
+# The width every photograph on our own domain gets beside it, lead and strip:
+# 500, the card size every shelf already loads. A 1000 as well was measured on
+# 2026-11-18 at 395 KB a file, 148 MB for the 374 readers' photographs then
+# live, against 44 MB for the 500s; that is the repo-size call of 2026-09-03
+# and stays Hidde's.
+OWN_WIDTHS = (500,)
+
+
+def own_copies(dry_run=False):
+    """Small copies of every photograph we host ourselves, made from the
+    original already on disk (no fetch, no rate limit).
+
+    Hidde, 2026-11-18, the New from visitors row and a tree's strip: "something
+    feels off with the quality of the photos ... weve made this mistake
+    before". 395 photographs on our own domain, nearly all of them readers',
+    had no small copy, because the fetch loop below only ever looked at a
+    tree's LEAD and named its copies after the tree. So thumbUrl() found
+    nothing and every card, strip thumbnail and visitor tile loaded the
+    1600 pixel original and let the browser shrink it seven times, which
+    shimmers on leaves and weighs 750 KB a tile. The same fault as 2026-09-24
+    (masters served as cards), arriving through a door that loop never
+    opened. qa's check_every_own_photo_has_a_card_copy() keeps it shut."""
+    made = 0
+    for f in sorted(glob.glob(os.path.join(ROOT, "data", "cities", "*.json"))):
+        with open(f, encoding="utf-8") as fh:
+            city = json.load(fh)
+        for t in city.get("trees", []):
+            for p in [t.get("photo") or {}] + list(t.get("photos") or []):
+                url = (p or {}).get("url") or ""
+                if "ancienttrees.app/photos/" not in url or not url.endswith(".jpg"):
+                    continue
+                own = url.rsplit("/", 1)[-1][:-4]
+                src = os.path.join(OUT, own + ".jpg")
+                if not os.path.exists(src):
+                    continue
+                for w in OWN_WIDTHS:
+                    out = os.path.join(OUT, "%s-%d.jpg" % (own, w))
+                    if os.path.exists(out):
+                        continue
+                    if dry_run:
+                        made += 1
+                        continue
+                    with open(src, "rb") as fh:
+                        blob = fh.read()
+                    # Never a copy as big as the original: fit() hands the
+                    # master back when it is no wider than this width, and a
+                    # file under that name would only duplicate it.
+                    fitted = fit(blob, w)
+                    if fitted is None or fitted is blob:
+                        continue
+                    with open(out, "wb") as fh:
+                        fh.write(fitted)
+                    made += 1
+    print("own photographs: %d small copies %s" % (made, "to make" if dry_run else "made"))
+    return made
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -282,6 +339,7 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(OUT, exist_ok=True)
+    own_copies(dry_run=args.dry_run)
     if args.manifest:
         return write_manifest()
     todo, skipped, have = [], [], 0

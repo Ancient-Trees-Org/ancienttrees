@@ -403,6 +403,26 @@ def livecheck_cell(now):
     return "green", ""
 
 
+def photos_cell():
+    """photos-live.yml, daily: every photograph on the main pages and the
+    newest readers' tree pages measured on a 3x phone and a 2x laptop
+    (scripts/photocheck.py; Hidde, 2026-11-18: "can you make some sort of
+    test for photo quality i have to find it out always"). Red when the last
+    finished run failed: a soft, oversized or broken photograph stays so
+    until somebody fixes it, so one red run is already the answer."""
+    rows = runs("photos-live.yml", limit=5)
+    if rows is None:
+        return "grey", "photo check unknown"
+    done = [r for r in rows if r.get("status") == "completed"
+            and r.get("conclusion") in ("success", "failure", "timed_out")]
+    if not done:
+        return "grey", "photo check has no finished run yet (unknown)"
+    if done[0]["conclusion"] != "success":
+        return "red", ("photographs look soft, oversized or broken on the live site "
+                       "(photos-live.yml; python3 scripts/photocheck.py --live names them)")
+    return "green", ""
+
+
 def speed_cell():
     try:
         import page_speed
@@ -517,7 +537,7 @@ def assess(now=None):
     q["web"] = {
         "next": combine([ci_cell("deploy.yml", "deploy", now, deploy=True), code, fresh,
                          speed_cell(), security_cell(now), legal]),
-        "live": combine([web_live(), uptime_cell(now), livecheck_cell(now)]),
+        "live": combine([web_live(), uptime_cell(now), livecheck_cell(now), photos_cell()]),
         "bugs": web_bugs[:2],
     }
     ios_bugs = bug_cell("APP", today)

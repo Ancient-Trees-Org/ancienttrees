@@ -620,6 +620,10 @@ export interface UIStrings {
    *  Discover and the App Store's shelves): one label on every row, the
    *  specific one ("All 186 species") rides along as the link's aria-label. */
   seeAll: string;
+  /** The See all page of New from visitors (/visitors, 2026-11-18). */
+  visitorsIntro: string;
+  visitorsEnd: string;
+  visitorsLoading: string;
   /** The tree page since 2026-10-24 (CONVENTIONS.md, "Notes from visitors",
    *  "Getting there is one block", "the map is the picture"). */
   gettingThere: string;
@@ -994,6 +998,9 @@ const EN: UIStrings = {
   homeParksH: "Parks",
   homeAllParks: "All parks",
   seeAll: "See all",
+  visitorsIntro: "Photographs people took at the trees, newest first.",
+  visitorsEnd: "You have seen every photograph so far.",
+  visitorsLoading: "Loading more photographs",
   gettingThere: "Getting there",
   readLess: "Read less",
   noPhotoAsk: "Been here? Yours would be the first on this page.",
@@ -1072,6 +1079,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parques",
     homeAllParks: "Todos los parques",
     seeAll: "Ver todo",
+    visitorsIntro: "Fotos que la gente hizo junto a los árboles, las más recientes primero.",
+    visitorsEnd: "Ya has visto todas las fotos por ahora.",
+    visitorsLoading: "Cargando más fotos",
     gettingThere: "Cómo llegar",
     readLess: "Leer menos",
     noPhotoAsk: "¿Has estado aquí? La tuya sería la primera en esta página.",
@@ -1437,6 +1447,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parchi",
     homeAllParks: "Tutti i parchi",
     seeAll: "Vedi tutti",
+    visitorsIntro: "Foto scattate dalle persone accanto agli alberi, le più recenti per prime.",
+    visitorsEnd: "Hai visto tutte le foto per ora.",
+    visitorsLoading: "Caricamento di altre foto",
     gettingThere: "Come arrivare",
     readLess: "Leggi meno",
     noPhotoAsk: "Sei stato qui? La tua sarebbe la prima su questa pagina.",
@@ -1802,6 +1815,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parken",
     homeAllParks: "Alle parken",
     seeAll: "Alles bekijken",
+    visitorsIntro: "Foto's die mensen bij de bomen maakten, de nieuwste eerst.",
+    visitorsEnd: "Je hebt alle foto's tot nu toe gezien.",
+    visitorsLoading: "Meer foto's laden",
     gettingThere: "Hoe kom je er",
     readLess: "Minder lezen",
     noPhotoAsk: "Hier geweest? Die van jou zou de eerste op deze pagina zijn.",
@@ -2167,6 +2183,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parks",
     homeAllParks: "Alle Parks",
     seeAll: "Alle ansehen",
+    visitorsIntro: "Fotos, die Menschen an den Bäumen gemacht haben, die neuesten zuerst.",
+    visitorsEnd: "Du hast bisher alle Fotos gesehen.",
+    visitorsLoading: "Weitere Fotos werden geladen",
     gettingThere: "Anfahrt",
     readLess: "Weniger lesen",
     noPhotoAsk: "Schon hier gewesen? Deins wäre das erste auf dieser Seite.",
@@ -2532,6 +2551,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parques",
     homeAllParks: "Todos os parques",
     seeAll: "Ver tudo",
+    visitorsIntro: "Fotografias que as pessoas tiraram junto às árvores, as mais recentes primeiro.",
+    visitorsEnd: "Já viste todas as fotografias por agora.",
+    visitorsLoading: "A carregar mais fotografias",
     gettingThere: "Como chegar",
     readLess: "Ler menos",
     noPhotoAsk: "Já esteve aqui? A sua seria a primeira nesta página.",
@@ -2897,6 +2919,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "Parcs",
     homeAllParks: "Tous les parcs",
     seeAll: "Tout voir",
+    visitorsIntro: "Les photos prises par les visiteurs au pied des arbres, les plus récentes d'abord.",
+    visitorsEnd: "Vous avez vu toutes les photos pour l'instant.",
+    visitorsLoading: "Chargement d'autres photos",
     gettingThere: "S'y rendre",
     readLess: "Lire moins",
     noPhotoAsk: "Vous êtes venu ici ? La vôtre serait la première sur cette page.",
@@ -3262,6 +3287,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     homeParksH: "公園",
     homeAllParks: "公園一覧",
     seeAll: "すべて見る",
+    visitorsIntro: "訪れた人が木のそばで撮った写真です。新しい順に並んでいます。",
+    visitorsEnd: "今のところ、すべての写真を見ました。",
+    visitorsLoading: "写真をさらに読み込んでいます",
     gettingThere: "行き方",
     readLess: "閉じる",
     noPhotoAsk: "ここに来たことがありますか？あなたの写真がこのページの最初の一枚になります。",

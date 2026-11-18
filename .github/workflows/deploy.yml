@@ -92,6 +92,16 @@ jobs:
       # rather than gates. A check nobody runs is not a mechanism. It goes
       # before the build because it reads the data files the build turns into
       # pages, so a failure here is cheaper than a failure after.
+      # A reader's photograph published since the nightly photos job has no
+      # 500 copy yet, so every card and strip thumbnail would load the
+      # 1600 pixel original (Hidde, 2026-11-18). Made here from the original
+      # in the checkout, before preflight reads the manifest; qa's
+      # check_every_own_photo_has_a_card_copy() fails the deploy if it stops.
+      - name: Small copies of our own photographs
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 scripts/vendor_photos.py --manifest
+
       - name: Preflight the data
         run: python3 scripts/preflight.py
 

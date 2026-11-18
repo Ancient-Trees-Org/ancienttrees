@@ -1,0 +1,54 @@
+---
+// /visitors and its seven language twins: the See all page of the home
+// page's New from visitors row (Hidde, 2026-11-18: "a see all button from new
+// from visitors that leads to a page that has infinite scroll on it", then
+// "ok build the see all page").
+//
+// Convention: Unsplash's and Pinterest's photo feed (a masonry of whole
+// photographs, newest first, endless scroll; CONVENTIONS.md 2026-10-10,
+// endless similar items) reached by "See all >" on the row's heading
+// (CONVENTIONS.md 2026-10-04). Each tile is the row's card. The page is
+// filled in the browser from the server (lib/visitors-page-js.ts); what each
+// tree looks like is baked in from lib/visitor-cards.ts, the same data the
+// row reads.
+//
+// Not for Google while recovery mode holds: the tiles arrive by script, so
+// the page has nothing of its own to index, and no new page joins the
+// sitemap (CLAUDE.md, Google recovery mode). The noindex keeps it out of the
+// sitemap too (sitemap-integration.ts).
+import Base from "../layouts/Base.astro";
+import Breadcrumbs from "./Breadcrumbs.astro";
+import { ui } from "../lib/i18n";
+import { BASE_URL } from "../lib/schema";
+import { visitorCards, cardsJson } from "../lib/visitor-cards";
+import { visitorsPageJs } from "../lib/visitors-page-js";
+
+interface Props {
+  lang?: string;
+}
+const { lang = "en" } = Astro.props as Props;
+const u = ui(lang);
+const path = lang === "en" ? "/visitors" : `/${lang}/visitors`;
+const home = lang === "en" ? BASE_URL : `${BASE_URL}/${lang}`;
+const canonical = `${BASE_URL}${path}`;
+const crumbItems: [string, string | null][] = [[u.home, home], [u.homeVisitorsH, null]];
+const data = cardsJson(await visitorCards(lang));
+---
+<Base
+  title={u.homeVisitorsH}
+  description={u.visitorsIntro}
+  canonical={canonical}
+  ogType="website"
+  lang={lang}
+  headExtra={'<meta name="robots" content="noindex, follow">'}>
+<main class="vp-page">
+  <Breadcrumbs items={crumbItems} />
+  <h1>{u.homeVisitorsH}</h1>
+  <p class="answer-first">{u.visitorsIntro}</p>
+  <div class="vp-grid" id="vp-grid"></div>
+  <div class="vp-more" id="vp-more"><span class="vp-spin" role="status" aria-label={u.visitorsLoading}></span></div>
+  <p class="vp-end" id="vp-end" hidden>{u.visitorsEnd}</p>
+</main>
+<script type="application/json" id="vp-data" set:html={data}></script>
+<Fragment set:html={visitorsPageJs(u.noteVisitor)} />
+</Base>
