@@ -24,6 +24,15 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18
+
+Web half: the last 24 hours were reader-judge photographs (Melbourne, Sydney, Tokyo, Edinburgh Gardens), Fort Worth, Philadelphia, Baltimore and Leeds app-only trees, and Play tester setup. Nothing new broke in the sampled built pages; earlier findings stand.
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" as page text in the access line (flagged 2026-11-17, unchanged). Public copy never narrates our process. `grep -rn "writer must" data/cities` now hits 15 places in 11 files (bamberg, berlin, dartmoor, dresden, hilo, key-west, leeds, leipzig, miami, new-york, potsdam), so it is still being written by passes. Replacement for the access line: "Free. Open access; opening hours not confirmed." Add a preflight check for "writer must" in `access` and `story`, and a line in BRIEF_RESEARCH.md that the note never goes in a shown field.
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Twelfth review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
+- WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-third review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
+- WARN site/dist/collections/ancient-oaks-of-europe.html and europes-most-remarkable-yews.html still say "every coordinate verified" (third review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
+
 ## 2026-11-17 compliance
 
 - hans-photos-app-only-yes: Hans Hofele's Frankfurt photographs have a phone yes for the app only, yet show on the website too (copyright, scope of permission). Privacy page checked against the week's new tables (votes, reports), crash reports and mail route: still true.
