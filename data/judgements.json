@@ -12935,6 +12935,31 @@
    ]
   },
   {
+   "id": "sight:f1faa5f9-5750-4863-8920-2ce31bf5d01a",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Twisted Beech of the Trollskogen",
+   "city": "Torna Hällestad",
+   "species": null,
+   "photo": "p_fa491d448dbf3f24e47cfa8b/F1FAA5F9-5750-4863-8920-2CE31BF5D01A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: looking up into a contorted beech in full summer leaf, its limbs looping across the canopy, GPS fix in the Trollskogen (Gryteskog reserve), Torna Hallestad. Re-opened on Hidde's word (not a bad frame); live as torna-hallestad/thl_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:f1faa5f9-5750-4863-8920-2ce31bf5d01a",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",
@@ -12954,8 +12979,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "hold",
-   "reason": "bad_frame: Photograph viewed again 2026-11-17: only the crown seen straight up from below, twisting beech-like limbs, no trunk or setting, so nobody could find this tree by it even with the GPS fix. A whole-tree photograph would put it live.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: looking up into a contorted beech in full summer leaf, its limbs looping across the canopy, GPS fix in the Trollskogen (Gryteskog reserve), Torna Hallestad. Re-opened on Hidde's word (not a bad frame); live as torna-hallestad/thl_001.",
    "hidde": null,
    "agreed": null
   },

@@ -12,7 +12,9 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-18 reader judge: Dartington tip recorded as a lead
+## 2026-11-18 reader judge: the Trollskogen twisted beech is live; Dartington tip recorded as a lead
+
+- **Live: Torna Hällestad (Lund, Sweden), The Twisted Beech of the Trollskogen (thl_001)**, re-opened on Hidde's word (not a bad frame): the reader's photo looks up into a contorted beech in summer leaf, GPS fix in the Gryteskog reserve. Pin confirmed, sources are Länsstyrelsen Skåne's reserve pages, a new one-tree place. The reader's three extra photos show other trees and are not used. Congratulation mail goes out with the knock once the tree is in the live feed.
 
 - **Leidsebosje Planes (ams_002)**: a parallel run judged the same reader photograph minutes earlier, the same way (`add`, now the lead); its version is kept. Both runs ran sightings_publish with --send, so the reader may have had the "on the page" mail twice.
 - **Tip 1177** (Dartmoor in the app, GPS fix by Dartington about 2 km north of Totnes, no words): its app sighting is not on the server, so no photo arrived. Verdict `lead`, in data/leads/dartmoor.json; suggested reply asking for the photo in drafts/reply-reader-1177-2026-11-18.md (For Hidde: send or bin).

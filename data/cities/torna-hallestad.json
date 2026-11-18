@@ -1,0 +1,73 @@
+{
+  "city": "Torna Hällestad",
+  "country": "Sweden",
+  "status": "needs_curation",
+  "intro": "Torna Hällestad is a village east of Lund in Skåne, and beside it lies the Trollskogen, the troll forest: a small beech wood where the trees grow twisted, their branches looping and kinking as if someone had wrung them. A reader sent us a photograph looking up into one of them in summer leaf. The wood is a nature reserve with free marked paths.",
+  "meta_description": "A twisted beech in the Trollskogen at Torna Hällestad near Lund, sent by a reader: where it stands and how to find it.",
+  "hero_tree_id": "thl_001",
+  "oldest_tree_id": "thl_001",
+  "trees": [
+    {
+      "id": "thl_001",
+      "name": "The Twisted Beech of the Trollskogen",
+      "species": "European Beech (Fagus sylvatica)",
+      "location": {
+        "address": "Trollskogsvägen, Gryteskog nature reserve (the Trollskogen), Torna Hällestad, Lund",
+        "latitude": 55.686,
+        "longitude": 13.3957716666667,
+        "neighbourhood": "Torna Hällestad"
+      },
+      "story": "People here once said the trolls had twisted them. The Trollskogen at Torna Hällestad, east of Lund, is a small forest of vresbokar, troll beeches, whose branches refuse to grow straight, and a reader sent us this one with the GPS fix of the photograph taken beneath it.\n\nLie back and look up, as they did. Instead of the clean grey columns of an ordinary beech wood, the limbs bend, loop back on themselves, kink sideways and set off again, black against a ceiling of fresh green leaves, so the whole crown looks like handwriting. Why these beeches grow like this is, in the county board's own word, a mystery: nobody is sure whether it is inherited or comes from the ground they stand on, and beechnuts from a twisted tree usually grow into straight ones.\n\nThe forest has been a nature reserve since 1959, with marked paths running among the trees. We do not yet know this tree's girth or age; if you measure it, tell us here and we will add your figures.\n\nCome in summer, when the leaves are out, stand under it and follow one limb with your eyes from the trunk to its tip.",
+      "how_to_recognise": "In the Trollskogen beech wood: look up, and its dark limbs bend, loop and kink across the canopy instead of rising straight.",
+      "verified_sources": [
+        "https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund/gryteskog.html (Lansstyrelsen Skane, Gryteskog nature reserve, better known as the Trollskogen at Torna Hallestad: twisted beeches, vresbokar or trollabokar, throughout the forest; marked paths; reserve since 1959)",
+        "https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund/prastaskogen.html (Lansstyrelsen Skane, Prastaskogen nature reserve beside it)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a",
+        "date": "2026-11-18"
+      },
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (sighting f1faa5f9-5750-4863-8920-2ce31bf5d01a, photograph taken 2022-06-13, shared 2026-11-15), no words. Held as bad_frame on 2026-11-17, re-opened by Hidde on 2026-11-18 (a contorted beech with a GPS fix is not a bad frame). Photograph viewed: looking straight up into a contorted beech in full summer leaf, its dark limbs writhing and looping across a bright green canopy, the base of the trunk at the bottom of the frame, daylight, colour. Its geotag sits on Trollskogsvägen in the Gryteskog reserve. Species from the photograph (beech leaves, the twisted vresbok form the reserve is known for). The reader's three extra photographs show other trees and are not used here.",
+      "access": "Free. In the Gryteskog nature reserve, on public paths open at all times; parking and the Gryteskog bus stop at the reserve's south-east corner.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/thl_001-twisted-beech-of-the-trollskogen.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 6,
+        "source": "contributor",
+        "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+        "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a",
+        "note": "Photographed by a reader and sent through the app (taken 2022-06, shared 2026-11-15); viewed and approved on 2026-11-18: looking straight up into a contorted beech in full summer leaf, its dark limbs writhing and looping across a bright green canopy, the base of the trunk at the bottom of the frame, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A twisted beech in the Trollskogen at Torna Hällestad near Lund, sent by a reader: where it stands and how to find it.",
+  "question_answer": "The Twisted Beech of the Trollskogen grows in the Gryteskog nature reserve at Torna Hällestad, east of Lund. Entry is free on the reserve's marked paths.",
+  "question_context": "The Trollskogen, the troll forest, is the name people use for the Gryteskog nature reserve at Torna Hällestad, east of Lund in Skåne. It is a small beech wood, protected since 1959, where many of the beeches grow twisted: their branches bend, loop and kink instead of rising straight, and people once said trolls had wrung them. The county board calls the cause a mystery, unsure whether it is inherited or comes from the site, and notes that beechnuts from twisted trees usually grow into ordinary straight beeches. A reader sent us a photograph looking up into one of these trees in full summer leaf, with the GPS fix of where they stood beneath it, and that is the tree on our map. Marked paths run through the reserve, there is parking and a bus stop at its south-east corner, and entry is free. We do not yet know this tree's girth or age.",
+  "faq": [
+    {
+      "q": "Can I visit The Twisted Beech of the Trollskogen?",
+      "a": "Yes. It grows in the Gryteskog nature reserve, the Trollskogen, on public paths with free entry at all times."
+    },
+    {
+      "q": "Why are the beeches in the Trollskogen twisted?",
+      "a": "Nobody is sure. The county board says it is unclear whether the twisting is inherited or comes from the site, and beechnuts from twisted trees usually grow into straight beeches."
+    },
+    {
+      "q": "How do I get to the Trollskogen?",
+      "a": "It lies just outside Torna Hällestad, east of Lund. There is parking in the reserve's south-east corner, and the Gryteskog bus stop is right beside it."
+    }
+  ]
+}
