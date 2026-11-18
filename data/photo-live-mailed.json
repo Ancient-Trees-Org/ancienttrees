@@ -1765,7 +1765,17 @@
   },
   "p_98341868b2bd7fa318d5e77a": {
    "last": "2026-11-18",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "0dc02495-3796-430f-a137-473641f7b6a7",
+     "tree_id": "stw_001",
+     "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
+     "city": "Stow-on-the-Wold",
+     "city_slug": "stow-on-the-wold",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "ea481510-d49d-44c4-8cf9-c27c49f968e8",

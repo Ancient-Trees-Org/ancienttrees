@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge (in parallel): a second reader frame of the Stow north door yews
+
+- This run judged the same Stow sighting as the run below, which pushed first and rejected it. My verdict replaces that one because it adds something: the extra frame is now in the strip.
+- **Live: the reader's close frame of stw_001, the north door yews of St Edward's, Stow-on-the-Wold** (sighting 0dc02495, `strip`). I looked at it: both trunks either side of the arched door, red flaking bark, the root plates over the path, wet daylight. The sighting's main frame was a near-copy of the lead the same reader gave on 10-26 (ea481510). So I pointed the queue entry at the extra file and stripped that instead, which works around "the publisher only handles a sighting's main file".
+- **Rejected as a duplicate: 2f335c62**, sent for mel_004 (Darling Gardens holm oak). It is the same picture that already leads mel_001, the Edinburgh Gardens holm oak, and its GPS is 38 m from that tree. mel_004 still has no photograph.
+
 ## 2026-11-18 reader judge: a second Stow yew photograph rejected as a duplicate; three tree notes read
 
 - **stw_001, the north door yews of St Edward's, Stow (sighting 0dc02495)**: this is the right tree. It comes from the same reader and the same visit (26 October) as the lead photograph already on the page (ea481510), taken from the same viewpoint a step to the side. I rejected it as a duplicate. Its extra file is a close-up of the roots and the door between the two trunks. It could go in the strip, but the publisher only handles a sighting's main file (the same gap the Edinburgh Gardens run found).

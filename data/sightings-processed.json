@@ -4723,11 +4723,22 @@
    "tree_id": "mel_013",
    "reason": "Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45, not the rough-barked Southern Mahogany. Its extra is a new frame of mel_019 by the skate bowl (with a bicycle), which could join mel_019's strip."
   },
-  "0dc02495-3796-430f-a137-473641f7b6a7": {
+  "2f335c62-2c3f-409a-8335-2c07d928f1b0": {
    "outcome": "rejected",
    "date": "2026-11-18",
+   "tree_id": "mel_004",
+   "reason": "Duplicate: the same picture is already the lead photograph of mel_001, the Finer Holm Oak of Edinburgh Gardens, 38 m from this GPS fix. It shows that holm oak, not mel_004 in Darling Gardens 1 km away, and it is already live there."
+  },
+  "0dc02495-3796-430f-a137-473641f7b6a7": {
+   "outcome": "added",
+   "date": "2026-11-18",
    "tree_id": "stw_001",
-   "reason": "Duplicate: the same reader's frame of the north door yews from the same spot as the lead photograph already on stw_001 (sighting ea481510), a few steps to the side. Right tree, nothing new for the page."
+   "city_slug": "stow-on-the-wold",
+   "file": "stw_001-the-north-door-yews-of-st-edward-s-stow-on-the-wold-0dc02495.jpg",
+   "reason": "The reader's second frame: a close view of the two yew trunks either side of the arched north door, red flaking bark and the root plates spilling over the path, wet daylight, colour. Their main frame is a near-copy of the lead they already gave (ea481510), so the close frame goes in the strip behind",
+   "lat": 51.9301866666667,
+   "lon": -1.72385833333333,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

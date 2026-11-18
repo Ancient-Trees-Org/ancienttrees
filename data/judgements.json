@@ -433,6 +433,28 @@
    "agreed": null
   },
   {
+   "id": "sight:2f335c62-2c3f-409a-8335-2c07d928f1b0",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Holm Oak of Darling Gardens",
+   "city": "Melbourne",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/2f335c62-2c3f-409a-8335-2c07d928f1b0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1007,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: sent for mel_004 (Darling Gardens), but it shows the Finer Holm Oak of Edinburgh Gardens (mel_001, GPS 38 m from its pin), and this same picture is already mel_001's lead photograph. Rejected as a duplicate, nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:0dc02495-3796-430f-a137-473641f7b6a7",
    "seen": "2026-11-18",
    "kind": "photo of a tree we map",
@@ -449,8 +471,8 @@
     "score": null,
     "note": "nothing measurable about European Yew (Taxus baccata)"
    },
-   "verdict": "hold",
-   "reason": "Same reader, same visit and same viewpoint as the lead photograph already on stw_001 (ea481510); rejected as a duplicate.",
+   "verdict": "publish",
+   "reason": "The reader's close frame of both yew trunks either side of St Edward's north door, flaking red bark and root plates, wet daylight: now in stw_001's strip behind their earlier lead. Their main frame was a near-copy of that lead, so it was not added twice.",
    "hidde": null,
    "agreed": null
   },
