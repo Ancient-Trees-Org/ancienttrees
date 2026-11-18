@@ -500,6 +500,10 @@ A reader sent a photo with another name in the corner ("krapo arboricole"). I ca
 
 Joey asked how to approach the owner of a front-yard oak and told the story of the daughter who wants it cut. My draft called talking to him "a really nice idea" and closed with "here's to a very long life for him and his oak!". He rewrote it: "talking to him first is probably the best idea. And a good way to meet your neighbour." The toast went. So when someone asks how to handle a person, back their own plan plainly and add one warm, human reason for it; do not echo their story back at them.
 
+## 2026-11-18: how to add a tree, both routes (readers 1128, 1075)
+
+Two corrections on the same replies. First: **"Why are you sending people to discover there is a huge camera button in the menu ... remember that discover is not a main nav"**. In the app a tree is added with the camera button in the bottom bar, never "Add a tree on Discover" (mailcheck ADD A TREE VIA DISCOVER). Second: **"also suggest the contribute form on web always give both options"**. A reply that tells a reader how to add a tree or a photo names the app's camera button and the web form, https://ancienttrees.app/contribute on its own line, whichever surface they wrote from. The draft carries `audience: app user` (or `reader`) in its notes so mailcheck allows the form link.
+
 ## 2026-11-16: the open door has no fence (Genziana Ricci, Ferrara)
 
 My closing line said "Whenever you come across another tree between Bologna and Ferrara, I'm always curious." His version: **"Whenever you come across another tree  I'm always curious."** Do not narrow an open invitation to the region we think they know; any tree they come across is welcome.

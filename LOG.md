@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 session: dd, three feedback replies sent, the iOS sweep retries
+
+- **Replies sent on Hidde's "verstuur"** to three messages from the Settings feedback form: 1128 (how to add a tree), 1092 (following, editing, seasons; his own lines: overwhelmed, Android first, which features they'd add, seasons from the photo date and he can add a control) and 1075 (the Darley Dale yew at St Helen's, asked for a photo; still a lead in _famous-united-kingdom.json). Closed in the feedback ledger.
+- **Rules from his corrections**: adding a tree in the app is the camera button in the bottom bar, never "Add a tree on Discover" (mailcheck ADD A TREE VIA DISCOVER); a reply on how to add a tree gives both routes, app and the web form (HIS_VOICE.md 2026-11-18). "Feedback" means the Settings form (source `app-profile`); the Plus answers are "Plus feedback".
+- **iOS red on main**: the nightly's `look` job failed on "the test left no measurements behind" with no cause printed, while the same job rendered all 39 screens; first time seen. appfit.py now prints xcodebuild's own failure lines and sweeps once more before failing (b3521eb96). Tonight's nightly is the test.
+- **Privacy**: drafts/reply-bill-tassili and reply-erin-totara (another session, 11-18) carried readers' mail addresses into the public repo; the pre-push qa caught it on the next push. Replaced by their hash. The addresses remain in GitHub history (6d98ddccc); removing them needs a force-push, which is Hidde's.
+- Digest: the scheduled data-digest had not run for 11-17 by the morning; dispatched by hand.
+
 ## 2026-11-18 session: the Emmanuel College plane live (Cambridge, two readers)
 
 - **Live**: cambridge/cam_011, the Great Oriental Plane of Emmanuel College. Held 11-15 and 11-17 as `not_public` (the college calls the Fellows' Garden private); the app reader who moved its pin wrote today that he first saw it over the wall from the street, was let in at the main gate and walked up to it, "not private, at least during certain hours". Under the closed list that clears it.
