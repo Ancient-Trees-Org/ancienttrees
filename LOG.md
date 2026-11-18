@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: Edinburgh Gardens gets its red gum photograph and a new gum
+
+- **Live: the first photograph of mel_002, the Remnant River Red Gum of Edinburgh Gardens, Melbourne** (sighting 83d2e9a2). It shows the whole leaning gum, with smooth, pale, mottled bark down to the ground, in daylight. Its GPS fix is 17 m from our pin, which sits on Yarra register ref 104. One reader sent seven photographs from the park in one walk, all tagged mel_002 or mel_013, and they show three different trees.
+- **Live: a new reader's tree, mel_019, the Gum by the Edinburgh Gardens Skate Bowl** (sighting cf563d69, verdict `other_tree`, then published). It is a big straight gum: rough grey bark low on the trunk, smooth pale bark above, and the painted skate bowl beside it. The pin comes from the reader's GPS fix. The species is left at the genus (Eucalyptus sp.) because the fix sits among several Yarra register gums (ref 111 is 36 m off), so I have not tied it to one row. The Melbourne intro, question_meta, question_context and the walk FAQ now count 19 trees, eight of them on the north walk. The congratulation mail waits for the deploy (no credentials in this run).
+- Held as `wrong_tree`: sighting 86a63f45, a tall gum by the park shelter shot against the sun. It may be mel_002 or mel_019 from another side.
+- Rejected as duplicates: 40cb274a and d079d8a5, both sent for the Southern Mahogany (mel_013). They are the same frame as 83d2e9a2 and show the smooth red gum, not the rough-barked mahogany. Also rejected: 8aa6d2ec, the same frame as 86a63f45, and e1b0ab73, the same skate-bowl tree as cf563d69. e1b0ab73 can join mel_019's strip.
+- Held as `bad_frame`: 991c4102, a reader's "tree I found" near Tiruvannamalai, India. The photograph is only a close-up of white tubular flowers and leaves, with no trunk or tree in frame.
+- Feedback 1128 ("Is there a possibility to add trees to the map?") is closed `needs_hidde`. A suggested answer pointing to the app's "Add a tree" button is in drafts/reply-reader-1128-2026-11-18.md. There were no open reports and no reader notes to quote. The pin catch-up step hit HTTPError again.
+
 ## 2026-11-18 reader judge: a third photograph of the Pawling Farm sycamore
 
 - **Live: the finder's new photograph of vfg_001, the Pawling Farm sycamore in Valley Forge** (sighting 79399d95). I looked at it: the huge burred trunk base and the mottled white limbs above it, in daylight, with a person seen from behind for scale. Species and description both match. It went in as `strip`, so it sits in the gallery behind the wide lead photograph and does not replace it. The pin was already confirmed, so it stays where it is; the pin catch-up step hit HTTPError again.

@@ -1944,6 +1944,21 @@
     }
    ],
    "sent": []
+  },
+  "p_208e853a0292b8f518700a87": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
+     "tree_id": "mel_002",
+     "tree_name": "The Remnant River Red Gum of Edinburgh Gardens",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

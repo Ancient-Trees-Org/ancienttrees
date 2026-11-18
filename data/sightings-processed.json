@@ -4630,6 +4630,57 @@
    "lat": 40.110369,
    "lon": -75.458342,
    "pin_checked": "2026-11-18"
+  },
+  "991c4102-f159-48b7-88ba-5b82ddc15eda": {
+   "outcome": "held",
+   "date": "2026-11-18"
+  },
+  "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "city_slug": "melbourne",
+   "file": "mel_002-the-remnant-river-red-gum-of-edinburgh-gardens.jpg",
+   "reason": "Whole tree in frame, daylight and colour: a big spreading eucalypt with smooth, pale, mottled bark down to the ground, leaning trunk, in open parkland by the street. GPS 17 m from our pin, the nearest registered river red gum (Yarra ref 104). Species seen: smooth pale bark shedding in patches, narro",
+   "lat": -37.785927451369,
+   "lon": 144.983339405773,
+   "pin_checked": "2026-11-18"
+  },
+  "40cb274a-5cc3-4b0c-9256-928db4748c00": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the same frame as 83d2e9a2, which shows the park's smooth-barked river red gum (now on mel_002), not this rough-barked mahogany."
+  },
+  "d079d8a5-b4cd-490a-81e9-d33d9a374980": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the same frame as 83d2e9a2 (now on mel_002)."
+  },
+  "86a63f45-95a3-4106-b30b-17f0aab57a88": {
+   "outcome": "held",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "A different tall eucalypt by the park shelter and picnic tables, straight trunk darker at the base, shot against the sun; not the leaning smooth-trunked red gum now leading mel_002. Its GPS is 20 m from Yarra register red gums 104 and 111."
+  },
+  "8aa6d2ec-efee-4bc3-9ecf-76808a593ae7": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the same frame as 86a63f45 (its extra files repeat 83d2e9a2 and cf563d69)."
+  },
+  "cf563d69-f218-4a46-8e59-b3feeeb70dae": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "A different big eucalypt beside the skate bowl: rough grey bark on the lower trunk, smooth pale above, dense rounded crown. Not the smooth leaning red gum on mel_002; GPS 51 m from our pin, 36 m from Yarra register red gum 111."
+  },
+  "e1b0ab73-b194-4539-a9fd-7bd7939ffd7b": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the same tree by the skate bowl as cf563d69, same reader, same minute; it can join that tree's strip once it is live."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

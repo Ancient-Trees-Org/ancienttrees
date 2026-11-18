@@ -124,6 +124,205 @@
    "agreed": null
   },
   {
+   "id": "sight:e1b0ab73-b194-4539-a9fd-7bd7939ffd7b",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/e1b0ab73-b194-4539-a9fd-7bd7939ffd7b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 66,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Same tree by the skate bowl as cf563d69; rejected as a duplicate, can join that tree's strip once it is live.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cf563d69-f218-4a46-8e59-b3feeeb70dae",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/cf563d69-f218-4a46-8e59-b3feeeb70dae.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 51,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "lead",
+   "reason": "Another big gum by the skate bowl, rough lower trunk: now a waiting lead to judge as a new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8aa6d2ec-efee-4bc3-9ecf-76808a593ae7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/8aa6d2ec-efee-4bc3-9ecf-76808a593ae7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Same frame as 86a63f45; rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:86a63f45-95a3-4106-b30b-17f0aab57a88",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/86a63f45-95a3-4106-b30b-17f0aab57a88.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "lead",
+   "reason": "Another big gum by the park shelter, not mel_002's leaning trunk: now a waiting lead to judge as a new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/83d2e9a2-5746-4e5c-8c4a-6a4e97717e08.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 17,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "publish",
+   "reason": "Whole smooth, mottled, leaning river red gum in daylight; GPS 17 m from the pin. Now the lead photograph of mel_002, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:40cb274a-5cc3-4b0c-9256-928db4748c00",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Southern Mahogany of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Southern Mahogany (Eucalyptus botryoides)",
+   "photo": "out/sightings/40cb274a-5cc3-4b0c-9256-928db4748c00.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 91,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Mahogany (Eucalyptus botryoides)"
+   },
+   "verdict": "hold",
+   "reason": "Same frame as 83d2e9a2, the red gum now on mel_002; not the mahogany it was sent for. Rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:991c4102-f159-48b7-88ba-5b82ddc15eda",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_715c879da2fdf4127994327e/991C4102-F159-48B7-88BA-5B82DDC15EDA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "bad_frame: a close-up of white tubular flowers and leaves, no trunk or whole tree in frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:86a63f45-95a3-4106-b30b-17f0aab57a88",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_208e853a0292b8f518700a87/86A63F45-95A3-4106-B30B-17F0AAB57A88.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "wrong_tree: backlit gum that may be mel_002 or mel_019 seen from another side; needs a clearer frame or the reader's word.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cf563d69-f218-4a46-8e59-b3feeeb70dae",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_208e853a0292b8f518700a87/CF563D69-F218-4A46-8E59-B3FEEEB70DAE.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Big gum by the Edinburgh Gardens skate bowl, whole tree in daylight with a GPS fix: live as melbourne/mel_019, species left at genus.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
