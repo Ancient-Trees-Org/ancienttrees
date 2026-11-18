@@ -5,6 +5,22 @@
       {
         "date": "2026-11-18",
         "kind": "verify",
+        "target": "leeds",
+        "tokens": 170000,
+        "trees": 2,
+        "note": "from-zero UK pass: 4 delivered, Nellie's Tree was already live as abf_001 (duplicate, dropped), Shire Oak successor held as lead; ginkgo and yew merged; Overpass dead from the runner"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "enrich",
+        "target": "lisbon+barcelona+oahu",
+        "tokens": 62000,
+        "trees": 0,
+        "note": "6 gaps, none closable from open sources; recorded as dead ends"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "verify",
         "target": "fort-worth",
         "tokens": 90000,
         "trees": 3,
