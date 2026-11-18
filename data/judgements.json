@@ -1619,6 +1619,28 @@
    "agreed": null
   },
   {
+   "id": "sight:46d7d2ee-3201-4a76-b993-b0350c3940a1",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Ada Tree",
+   "city": "Powelltown",
+   "species": "Mountain Ash (Eucalyptus regnans)",
+   "photo": "out/sightings/46d7d2ee-3201-4a76-b993-b0350c3940a1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 894,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mountain Ash (Eucalyptus regnans)"
+   },
+   "verdict": "publish",
+   "reason": "the Ada Tree in daylight from the fern gully, looked at the photograph; now the lead, the dusk frame moves to the strip. Its GPS fix agrees with the earlier reader's within 15 m, so the approximate pin moved 890 m onto the tree, confirmed",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

@@ -38,9 +38,9 @@
       "girth_cm": 1500,
       "height_m": 67,
       "location": {
-        "address": "Ada Tree picnic area, Ada River Valley, off Federal Track, Yarra State Forest, near Powelltown VIC 3797",
-        "latitude": -37.816853,
-        "longitude": 145.868783,
+        "address": "Ada Tall Trees Reserve, on the Ada Tree walk from the Ada Tree picnic area, Ada River Valley, off Federal Track, Yarra State Forest, near Powelltown VIC 3797",
+        "latitude": -37.817126,
+        "longitude": 145.858681,
         "neighbourhood": "Powelltown"
       },
       "verified_sources": [
@@ -53,24 +53,40 @@
       },
       "access": "Free. Walk from the Ada Tree picnic area and car park (3.6 km loop, about 1.5 hours, grade 3). A gated forest road (Federal Road, 1.8 km) gives all-abilities access to a small car park about 10 m from a boardwalk; the key is collected from Powelltown Post Office, 1657 Little Yarra Road. Check the gate is open before going.",
       "transport": "No public transport to the tree; Powelltown is about 1.5 hours from Melbourne by car; the picnic area is a short drive from the village.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "story": "Measured for the National Trust in 1986, the Ada Tree stood 67 metres tall. An article from 1993, reproduced on the Trust's own register page, gives it 76, and another guide says 75.1. The honest answer is somewhere between the high sixties and the mid seventies.\n\nThe girth is less disputed: 15 metres round at a metre and a half above the ground by the Trust's figure, with the state heritage database reported at 15.5. Great buttress wings flare from the base, and a platform has been built around it so visitors stay off the roots.\n\nIt is a mountain ash, more than 300 years old by both the Trust and the Yarra Valley tourism page, with the Trust's register putting it at about 350. It stands alone in a small gully of myrtle beech in the Yarra State Forest, protected as the Ada Tall Trees Reserve, and the Trust classified it in 2015. Even the Trust's own entry cannot settle its health, with the header saying poor condition and the statement of significance saying good.\n\nThere are two ways in. The walk from the Ada Tree picnic area is a 3.6 kilometre loop, about an hour and a half, grade 3. A gated forest road, Federal Road, runs 1.8 kilometres to a small car park about ten metres from the boardwalk. The key to the gate is collected from the Powelltown Post Office, 1657 Little Yarra Road. Check the gate is open before relying on it.",
       "how_to_recognise": "You can recognise it by the huge buttressed trunk, about 15 metres round, ringed by a protective platform. It stands on its own in a small gully of myrtle beech on the Ada Tree walk.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/pwt_001-the-ada-tree.jpg",
+        "url": "https://ancienttrees.app/photos/pwt_001-the-ada-tree-46d7d2ee.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "taken_month": 11,
+        "taken_month": 3,
         "source": "contributor",
-        "contributor_user_id": "p_2aec9ae3482922af1a203967",
-        "sighting_id": "a2a6377c-7d1c-4335-9375-46412caaf54e",
-        "note": "Photographed by a reader and sent through the app (2023-11-18); a viewing pass approved it on 2026-11-17: roughly this tree, a reader's own frame Species seen: smooth-barked eucalypt trunk and crown against dusk sky. Fits the description: huge tall eucalypt, matches a giant mountain ash; dusk frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_45d9738f444b2810255da5d2",
+        "sighting_id": "46d7d2ee-3201-4a76-b993-b0350c3940a1",
+        "note": "Photographed by a reader and sent through the app (2024-03-29); a viewing pass approved it on 2026-11-18: the Ada Tree in daylight from the fern gully: one huge eucalypt trunk flaring at the base, crown against blue sky; a sharper, brighter frame than the dusk lead. Its GPS fix agrees within about 15 m with the earlier reader's photograph of this tree. Species seen: tall straight trunk with ribbons of shed bark, smooth pale upper limbs, narrow eucalypt leaves in a high crown, tree ferns below. Fits the description: a giant buttressed trunk standing alone in a damp gully of tree ferns and rainforest, far bigger than everything around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "age_basis": "source"
+      "age_basis": "source",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pwt_001-the-ada-tree.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_2aec9ae3482922af1a203967",
+          "sighting_id": "a2a6377c-7d1c-4335-9375-46412caaf54e",
+          "note": "Photographed by a reader and sent through the app (2023-11-18); a viewing pass approved it on 2026-11-17: roughly this tree, a reader's own frame Species seen: smooth-barked eucalypt trunk and crown against dusk sky. Fits the description: huge tall eucalypt, matches a giant mountain ash; dusk frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ],
+      "pin_source": "reader GPS: two readers' photographs of the tree agree within about 15 m (sightings a2a6377c, 2023-11-18, and 46d7d2ee, 2024-03-29); the old approximate pin stood about 890 m east, at the picnic area where the 3.6 km loop starts. Moved 2026-11-18."
     }
   ]
 }

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Ada Tree gets a daylight lead photo and its real pin
+
+- **Powelltown, the Ada Tree (pwt_001)**: a reader's daylight photograph from the fern gully is now the lead (`add`); the earlier reader's dusk frame moves to the strip. Both readers' GPS fixes agree within about 15 m, about 890 m west of our approximate pin, which sat at the picnic area where the 3.6 km loop starts. The pin moved onto the tree by hand (sightings_publish refuses moves over 300 m), now `confirmed`, `pin_source` says why; the address now names the reserve and the walk.
+- Left open: 3c544597 (Amsterdam, near ams_032, our own account) still has no photograph on this machine, so no blind verdict.
+- No open reports, no feedback without a verdict, no tips, no reader words waiting.
+
 ## 2026-11-18 night run, second attempt: shelf dry, nothing shipped
 
 - No change to the product. READY leads: 0. Verified files under data/research/ are stale or duplicates of live trees (Cyprus, Croatia, Cardiff, Granada and others fold into trees already live under other ids).

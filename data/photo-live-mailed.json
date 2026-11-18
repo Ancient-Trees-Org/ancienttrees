@@ -2172,6 +2172,21 @@
      "mailed": "2026-11-18"
     }
    ]
+  },
+  "p_45d9738f444b2810255da5d2": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "46d7d2ee-3201-4a76-b993-b0350c3940a1",
+     "tree_id": "pwt_001",
+     "tree_name": "The Ada Tree",
+     "city": "Powelltown",
+     "city_slug": "powelltown",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
