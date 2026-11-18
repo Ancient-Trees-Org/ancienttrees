@@ -1,0 +1,77 @@
+{
+  "city": "Divonne-les-Bains",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Divonne-les-Bains is a spa town in the Pays de Gex in France, on the Swiss border about twenty kilometres north of Geneva, under the slopes of the Jura. In the forest on Mont Mourex above it grows a sweet chestnut that the town's own plaque calls the largest and oldest tree of the Divonne forest, about four centuries old and 6.25 metres round. A reader photographed it and sent it to us.",
+  "meta_description": "The giant sweet chestnut on Mont Mourex above Divonne-les-Bains, near Geneva: about 400 years old, 6.25 metres round, and how to find it.",
+  "hero_tree_id": "dvn_001",
+  "oldest_tree_id": "dvn_001",
+  "trees": [
+    {
+      "id": "dvn_001",
+      "name": "The Giant Chestnut of Mont Mourex",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "about 400 years",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 625,
+      "height_m": 26,
+      "location": {
+        "address": "Forest clearing on Mont Mourex, above Divonne-les-Bains, Ain",
+        "latitude": 46.3546090574879,
+        "longitude": 6.12106094797065,
+        "neighbourhood": "Mont Mourex"
+      },
+      "story": "\"The biggest and oldest tree on Mont Mourex,\" wrote the reader who sent us this sweet chestnut from the forest above Divonne-les-Bains, with a GPS fix taken at its foot, and the plaque beside it agrees with them.\n\nThe plaque, put up by the Office National des Forêts and the town, calls it the largest and certainly the oldest tree of the Divonne forest. It gives the trunk 6.25 metres round at chest height, the tree 26 metres tall and its age about four centuries. Chestnuts were already marked on the land registers here before 1800, it says, and around 1815 a real chestnut culture grew up on these slopes: nuts and flour, honey, tannin for the tanneries, and wood for stakes, barrels and tool handles. Then interest slowly faded, and this one was left to grow.\n\nThe reader's photograph shows what four hundred years does to a chestnut. The trunk twists as it rises, its bark running in deep spiralling furrows, and splits high up into crooked limbs that reach out over a clearing of fallen leaves. Picnic tables stand around it, so the forest expects visitors.\n\nCome in late autumn, as the reader did, when the clearing turns copper under it.",
+      "how_to_recognise": "In a clearing with picnic tables: a single huge chestnut whose furrowed trunk twists as it rises and splits high up into crooked limbs, a small white plaque on a post at its foot.",
+      "access": "Free. A picnic clearing in the forest on Mont Mourex, reached on forest paths.",
+      "verified_sources": [
+        "Office National des Forêts and Divonne-les-Bains plaque at the tree, 'Châtaignier géant' (photographed by the reader, 2026-11-18): the largest and certainly the oldest tree of the Divonne forest, girth 6.25 m at 1.30 m, height 26 m, about four centuries"
+      ],
+      "found_by_reader": {
+        "sighting_id": "d419093c-142b-4fb7-9a9d-962863c404a1",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d419093c-142b-4fb7-9a9d-962863c404a1",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app with a GPS fix (sighting d419093c-142b-4fb7-9a9d-962863c404a1). Photograph viewed: the whole chestnut from its foot, a spiralling furrowed trunk splitting into crooked limbs, autumn leaves, picnic tables and a small plaque on a post beside it, overcast daylight, colour. A second photograph shows the ONF and Divonne-les-Bains plaque: 'Chataignier geant', girth 6.25 m, height 26 m, about four centuries. Girth, height and age are the plaque's (ONF and the commune); the reader gave 625 cm and about 400 years too. The plaque says the tree is on the national inventory of remarkable trees; not cited until checked. The same tree came first as tip 1175 without a photograph (data/leads/geneva.json).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dvn_001-giant-chestnut-of-mont-mourex.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_5c8e9d1d8f7f093ab8e85de4",
+        "sighting_id": "d419093c-142b-4fb7-9a9d-962863c404a1",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the whole chestnut in autumn leaf from its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The oldest tree near Divonne-les-Bains is the giant sweet chestnut on Mont Mourex, about 400 years old by its plaque: where it grows and how to visit.",
+  "question_answer": "The Giant Chestnut of Mont Mourex, a sweet chestnut about 400 years old by the plaque at its foot, grows in a picnic clearing in the forest on Mont Mourex above Divonne-les-Bains. It is free to visit on the forest paths.",
+  "question_context": "The plaque beside it, put up by the Office National des Forêts and the town of Divonne-les-Bains, calls this sweet chestnut the largest and certainly the oldest tree of the Divonne forest. It gives the trunk 6.25 metres round at chest height, the tree 26 metres tall and its age about four centuries. Chestnuts were already marked on the land registers of these slopes before 1800, the plaque says, and around 1815 a real chestnut culture grew up here, for nuts and flour, honey, tannin for the tanneries and wood for stakes, barrels and tool handles, before interest slowly faded. A reader who sent us its photograph, with a GPS fix taken at its foot, calls it the biggest and oldest tree on Mont Mourex. The trunk twists as it rises, its bark in deep spiralling furrows, and splits high up into crooked limbs over a clearing with picnic tables. It stands in the forest above the town, about twenty kilometres north of Geneva, and is reached on forest paths. Late autumn, when the leaves turn copper, is a good time to go.",
+  "faq": [
+    {
+      "q": "Can I visit The Giant Chestnut of Mont Mourex?",
+      "a": "Yes. It stands in a picnic clearing in the forest on Mont Mourex above Divonne-les-Bains, free to reach on forest paths."
+    },
+    {
+      "q": "How old is the giant chestnut of Mont Mourex?",
+      "a": "About four centuries, according to the plaque put up at its foot by the Office National des Forêts and the town."
+    },
+    {
+      "q": "How big is it?",
+      "a": "The plaque gives its trunk 6.25 metres round at 1.30 metres above the ground and the tree 26 metres tall."
+    }
+  ]
+}

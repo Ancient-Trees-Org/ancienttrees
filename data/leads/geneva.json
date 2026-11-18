@@ -66,11 +66,13 @@
     6.12106
    ],
    "position_basis": "reader's GPS fix, sent standing at the tree (submission 1175, 2026-11-18)",
-   "reason": "Reader tip from the app, 2026-11-18: their words 'The biggest and oldest tree on Mont Mourex'. GPS fix at the tree; Mont Mourex is above Grilly (Ain, France), about 25 km north of Geneva, so it is a day trip, not a Geneva tree. The app sighting it was sent with no longer exists (deleted or resent), so no photograph reached us. Missing: a photograph or a source, and the species. Nothing of ours or on file within 3 km.",
+   "reason": "Reader tip from the app, 2026-11-18: their words 'The biggest and oldest tree on Mont Mourex'. GPS fix at the tree; Mont Mourex is above Grilly (Ain, France), about 25 km north of Geneva, so it is a day trip, not a Geneva tree. The app sighting it was sent with no longer exists (deleted or resent), so no photograph reached us. Missing: a photograph or a source, and the species. Nothing of ours or on file within 3 km. Published 2026-11-18 from the same reader's photograph (sighting d419093c-142b-4fb7-9a9d-962863c404a1).",
    "found_by_reader": {
     "tip": "submission 1175"
    },
-   "found": "2026-11-18"
+   "found": "2026-11-18",
+   "status": "published",
+   "published_as": "divonne-les-bains/dvn_001"
   }
  ],
  "blocked": [

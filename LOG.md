@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the giant chestnut of Mont Mourex goes live
+
+- **New tree, new place**: The Giant Chestnut of Mont Mourex (divonne-les-bains/dvn_001). A reader sent a photo with a GPS fix of a huge, twisting sweet chestnut in autumn leaf in a picnic clearing, plus a second photo of the plaque beside it. The plaque, from the ONF and the town, calls it the largest and oldest tree of the Divonne forest: 6.25 m round, 26 m tall, about four centuries old. The girth, height and age on the page come from that plaque. It is a one-tree place, so it gets no place page and only the tree page. The same reader's earlier tip without a photo (tip 1175, data/leads/geneva.json) is now marked published.
+- One lead is left open: 3c544597 (Amsterdam, near the Last Elm, sent from our own account). Its photo is not on this machine, so it waits for the next intake. It was not judged blind.
+- One mail reply (thanks) closed as handled. No open reports, no readers' words to quote.
+
 ## 2026-11-18 reader judge: a named oak in Rude Skov goes live, a third Tule photograph
 
 - **New tree**: Brewer Jacobsen's Oak in Rude Skov (copenhagen/cop_050), a reader's photo with a GPS fix of a big open-grown oak, bare in mist, beside a gravel path. It goes under Copenhagen as a day trip (S-train to Holte), next to the Dyrehave trees. Its name is on Naturstyrelsen's Rude Skov map. We have no age or girth for it, and the page asks readers for them.

@@ -934,8 +934,8 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "GPS fix at the tree on Mont Mourex (Grilly, Ain, about 25 km from Geneva), words only: its app sighting no longer exists so no photograph reached us; no source and no species. Recorded in data/leads/geneva.json; a photograph would put it live. Draft reply asking for one in drafts/.",
+   "verdict": "publish",
+   "reason": "Same tree as sighting d419093c: the reader's photograph arrived after all; live as divonne-les-bains/dvn_001 (Divonne-les-Bains forest, Mont Mourex).",
    "hidde": null,
    "agreed": null
   },
@@ -1429,6 +1429,58 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: a big open-grown oak, bare in winter mist, short thick trunk under a crown far wider than it is tall, bench at its foot, beside a gravel path in Rude Skov; GPS fix on the path; Naturstyrelsen's Rude Skov map names it Brygger C Jacobsens Eg. Live as copenhagen/cop_050 (day trip, Holte).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c60f88d1-bc14-496a-aba8-7b90d7286907",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Brewer Jacobsen's Oak in Rude Skov",
+   "photo": "p_33e5c34b09b47c5c496f8918/C60F88D1-BC14-496A-ABA8-7B90D7286907.jpg",
+   "reader_note": "Brygger Jacobsens Eg in Rude Skov",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole open-grown oak, bare in winter mist, beside a gravel path, overcast daylight, colour. Lead photograph of copenhagen/cop_050."
+  },
+  {
+   "id": "sight:d419093c-142b-4fb7-9a9d-962863c404a1",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Giant Chestnut of Mont Mourex",
+   "photo": "p_5c8e9d1d8f7f093ab8e85de4/D419093C-142B-4FB7-9A9D-962863C404A1.jpg",
+   "reader_note": "The biggest and oldest tree on Mont Mourex",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole sweet chestnut in autumn leaf from its foot, daylight, colour. Lead photograph of divonne-les-bains/dvn_001."
+  },
+  {
+   "id": "lead:d419093c-142b-4fb7-9a9d-962863c404a1",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Giant Chestnut near Geneva",
+   "city": null,
+   "species": "Giant Chestnut",
+   "photo": "p_5c8e9d1d8f7f093ab8e85de4/D419093C-142B-4FB7-9A9D-962863C404A1.jpg",
+   "reader_note": "The biggest and oldest tree on Mont Mourex",
+   "reader_girth_cm": 625,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole sweet chestnut in autumn leaf from its foot, picnic clearing, daylight, colour; a second photo of the ONF plaque gives girth 6.25 m, height 26 m, about four centuries. GPS fix at the tree. Live as divonne-les-bains/dvn_001.",
    "hidde": null,
    "agreed": null
   },
@@ -17099,18 +17151,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:c60f88d1-bc14-496a-aba8-7b90d7286907",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "Brewer Jacobsen's Oak in Rude Skov",
-   "photo": "p_33e5c34b09b47c5c496f8918/C60F88D1-BC14-496A-ABA8-7B90D7286907.jpg",
-   "reader_note": "Brygger Jacobsens Eg in Rude Skov",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-18: the whole open-grown oak, bare in winter mist, beside a gravel path, overcast daylight, colour. Lead photograph of copenhagen/cop_050."
   }
  ]
 }
