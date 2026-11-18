@@ -112,10 +112,10 @@ def selection(include_answered=False, live=None, fresh_days=2):
     tree is the failure this exists for, showing one of ours is only noise.
 
     Only what needs his eye (Hidde, 2026-10-13, on the first list: "9 trees?
-    most of them we already discussed or put live"): a tree judged in the last
-    `fresh_days`, whatever the verdict, so he sees what went live overnight;
-    and a tree that is not live and still waits (lead, hold, open). A tree that
-    went live days ago has had its morning in the digest."""
+    most of them we already discussed or put live"): a tree that is not live
+    and still waits (lead, hold, open). Since 2026-11-18 a tree that went live
+    is never listed ("alles wat live gaat hoef ik niet meer te zien");
+    `fresh_days` is kept for callers and no longer used."""
     import datetime
     cutoff = (datetime.date.today() - datetime.timedelta(days=fresh_days)).isoformat()
     live = live if live is not None else live_index()
@@ -142,8 +142,12 @@ def selection(include_answered=False, live=None, fresh_days=2):
             continue
         if "SUPERSEDED" in (j.get("reason") or ""):
             continue
-        fresh = str(j.get("seen") or "") >= cutoff
-        if not include_answered and not fresh and (j.get("verdict") == "publish" or sid in live):
+        # WHAT WENT LIVE IS NOT HIS TO SEE (Hidde, 2026-11-18: "alles wat live
+        # gaat hoef ik niet meer te zien ik vertrouw jou"). It used to stay two
+        # days (`fresh_days`) so he saw the night's publishes; now only what is
+        # held, a lead or open reaches him, where the system may have been too
+        # strict. A reader still reports a live tree that is wrong.
+        if not include_answered and (j.get("verdict") == "publish" or sid in live):
             continue
         key =((j.get("tree") or sid).lower(), (j.get("city") or "").lower())
         if key in by_tree:

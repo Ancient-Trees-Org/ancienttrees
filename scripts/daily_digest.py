@@ -851,8 +851,11 @@ def judgement_lines():
         listed = {sid for sid, _j, _n in ir.selection(False)}
     except Exception:
         listed = set()
+    # Nor what went live (Hidde, 2026-11-18: "alles wat live gaat hoef ik niet
+    # meer te zien ik vertrouw jou"); inspect_readers.selection() drops it too.
     rows = [j for j in doc.get("judgements", [])
             if not j.get("hidde")
+            and j.get("verdict") != "publish"
             and str(j.get("id", "")).split(":", 1)[-1].lower() not in listed
             and (not j.get("verdict")
                  or (str(j.get("seen") or "")[:1].isdigit() and str(j.get("seen")) >= week))][:15]
