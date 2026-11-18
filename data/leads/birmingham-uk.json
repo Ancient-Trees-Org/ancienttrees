@@ -40,9 +40,60 @@
    "sources": [
     "https://thestreettree.substack.com/p/34-acocks-green-oak"
    ]
+  },
+  {
+   "name": "Birmingham Botanical Gardens copper beech",
+   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+   "city": "Birmingham (Edgbaston)",
+   "lat": 52.4664,
+   "lon": -1.9292,
+   "reason": "Owner's own pages (fetched 2026-11-18): 'older than the Gardens' (opened 1832), on maps from Holly Bank Farm days, 'our 200-year-old treasure', mulched and protected in 2025 (alive), near the main lawn. Paid entry (day ticket). No tree-level coordinate (lat/lon is the garden's, approximate), a walk-through garden so no location_site allowed, no photo. Becomes shippable with an OSM node, a geotagged photo or a reader's GPS fix at the beech.",
+   "sources": [
+    "https://birminghambotanicalgardens.org.uk/birmingham-botanical-gardens-turns-193-years-old/",
+    "https://birminghambotanicalgardens.org.uk/tree-mendous-supporters-06-25/"
+   ]
+  },
+  {
+   "name": "Moseley Bog 300-year-old oak",
+   "species": "Pedunculate Oak (Quercus robur) (species assumed from 'oak', not stated)",
+   "city": "Birmingham (Moseley)",
+   "reason": "Wildlife Trust for Birmingham and Black Country (manager of the reserve) says 'many gnarled old trees here, including a 300 year old oak', grid ref SP 094 821 for the reserve only. Which oak is not stated, whole reserve, no pin possible.",
+   "sources": [
+    "https://www.wildlifetrusts.org/where-see-ancient-and-unusual-trees"
+   ]
+  },
+  {
+   "name": "Mills Avenue oak, Sutton Coldfield (c. 250 years, TPO)",
+   "species": "Oak",
+   "city": "Birmingham (Sutton Coldfield)",
+   "reason": "Express and Star (page 403s, search summary only) says a c. 250-year-old oak on council land at Mills Avenue is protected and a resident fought a felling plan. Nothing seen on a fetched page, outcome unknown, no coordinate.",
+   "sources": [
+    "https://www.expressandstar.com/news/birmingham/sutton-coldfield/resident-fights-plans-to-chop-down-250-year-old-sutton-coldfield-tree-5961257"
+   ]
+  },
+  {
+   "name": "Solihull bowling green yew (Ramada/George Hotel, near St Alphege)",
+   "species": "Yew (Taxus baccata)",
+   "city": "Solihull (borough next to Birmingham)",
+   "reason": "Ancient Yew Group 'Notable', tree 1204, access 'Public' but it is in a hotel's bowling green; no girth, no grid ref ('not known'), one source. Access unclear.",
+   "sources": [
+    "https://www.ancient-yew.org/yew_tree_database/solihull/"
+   ]
   }
  ],
  "blocked": [
+  {
+   "name": "Selly Oak (the original oak)",
+   "reason": "Felled 1906/1909; only a stump remains in Selly Oak Park (Wikipedia, Selly Oak Park). Not alive."
+  },
+  {
+   "name": "Centenary Square plane (Birmingham's 'oldest tree', 80 to 90 years)",
+   "reason": "Felled 2017 for the square's redesign."
+  },
+  {
+   "name": "Sutton Park 'Witching' oak at Town Gate",
+   "reason": "Reported dead (Yahoo News UK via search summary)."
+  },
   {
    "name": "Cannon Hill Park burnt oak (c. 250 years)",
    "reason": "Reported set on fire 2019 and to be cut down (Express & Star via search summary; page itself not fetched, Cloudflare). Not alive-confirmed."
