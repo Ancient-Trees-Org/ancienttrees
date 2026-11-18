@@ -358,7 +358,21 @@
         "contributor_user_id": "p_5a8ba8548d99ec490e8f640d",
         "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole fig alone on park lawn, a short massive trunk breaking into many grey limbs under a wide dome of glossy leaves, buttress roots over a ring of mulch, daylight, colour; a second picture shows the trunk close with an open hollow at its base and a skate park behind. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/syd_008-moreton-bay-fig-of-rushcutters-bay-park-trunk.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5a8ba8548d99ec490e8f640d",
+          "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+          "note": "The reader's second photograph, sent with the first (2026-11-18, through the app); viewed and approved on 2026-11-18: the buttressed trunk close in, a dark hollow at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge (second run): the fig's trunk close-up added
+
+- A second reader-judge run started on the same sighting (12a88725) and built the tree again; the 00:13 run had already published it, so that copy was dropped at the rebase. What it added: the reader's second photograph (the buttressed trunk with its hollow base, viewed, daylight, colour), now in syd_008's strip. Nothing else waited: no reports, tips, feedback or reader notes. The other 37 waiting leads are our own account's (`mine`). Two judge runs firing on one sighting is worth a look at the trigger's concurrency.
+
 ## 2026-11-18 reader judge: a Moreton Bay fig in Rushcutters Bay Park, Sydney, is live
 
 - **New tree**: sydney/syd_008, The Moreton Bay Fig of Rushcutters Bay Park, from a reader's app photograph (12a88725) with a GPS fix. OpenStreetMap places the fix inside Rushcutters Bay Park. Both pictures were viewed: a lone fig on a lawn with buttress roots, and a close shot of the hollow trunk with the skate park behind. The reader's note is quoted, and their age (150) and girth (7.5 m) are written on the page as their figures. The pin is confirmed. Sydney's FAQ now counts eight pins. Photo month left empty: green leaves alone don't settle a season.
