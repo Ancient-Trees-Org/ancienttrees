@@ -317,6 +317,7 @@ private fun MyTreesInner(
         MapSheet(
             state = sheet,
             cardFits = selected != null,
+            halfFits = !signedIn && selected == null,
             pageClose = { sheet.height = SheetHeight.HALF },
             header = {
                 val t = selected

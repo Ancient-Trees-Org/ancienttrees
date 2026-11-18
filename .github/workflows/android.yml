@@ -26,9 +26,11 @@ on:
   schedule:
     - cron: '10 6 * * *'
 
+# The daily button walk (schedule, ~50 minutes) has its own lane: in the shared one
+# every push to main cancelled it, and it had not finished once from 11-14 to 11-18.
 concurrency:
-  group: android-${{ github.ref }}
-  cancel-in-progress: true
+  group: android-${{ github.ref }}-${{ github.event_name == 'schedule' && 'daily' || 'push' }}
+  cancel-in-progress: ${{ github.event_name != 'schedule' }}
 
 jobs:
   build:

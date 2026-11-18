@@ -115,6 +115,12 @@ fun MapSheet(
     modifier: Modifier = Modifier,
     fullInset: Float = 0f,
     cardFits: Boolean = false,
+    /**
+     * The half stop grows to show the whole content when that is short (signed-out
+     * My trees on a small phone at big text put Sign in under the tab bar, round 2,
+     * 2026-11-17). Never past the page, never below the usual half.
+     */
+    halfFits: Boolean = false,
     locked: Boolean = false,
     barDepth: Dp = TabBar.floatDepth,
     /**
@@ -157,6 +163,9 @@ fun MapSheet(
         // map's Highlights; 2026-11-12), so the fixed stops take the difference.
         // Three-button navigation is taller than 34: nothing is added there.
         val homeLift = with(density) { (34.dp.toPx() - bottom).coerceAtLeast(0f) }
+        val fitHalf =
+            if (halfFits && contentHeight > 0) maxOf(halfPts, minOf(headerBottom + contentHeight, page))
+            else halfPts
         fun stop(s: SheetHeight): Float = when (s) {
             // The grip and the count: BottomSheet's own sum, 44 + the header + 6.
             SheetHeight.BAR -> with(density) {
@@ -168,7 +177,7 @@ fun MapSheet(
             SheetHeight.CARD ->
                 if (cardFits && contentHeight > 0) minOf(headerBottom + contentHeight + barPx, halfPts)
                 else with(density) { SheetStops.CARD.toPx() } + homeLift
-            SheetHeight.HALF -> halfPts
+            SheetHeight.HALF -> fitHalf
             SheetHeight.FULL -> page
         }
         val target = stop(state.height)
@@ -182,8 +191,8 @@ fun MapSheet(
         SideEffect {
             state.points = h
             state.screen = total
-            state.halfPx = halfPts
-            state.pageProgress = ((h - halfPts) / maxOf(page - halfPts, 1f)).coerceIn(0f, 1f)
+            state.halfPx = fitHalf
+            state.pageProgress = ((h - fitHalf) / maxOf(page - fitHalf, 1f)).coerceIn(0f, 1f)
         }
 
         var dragging by remember { mutableStateOf(false) }

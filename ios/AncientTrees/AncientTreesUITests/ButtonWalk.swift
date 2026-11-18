@@ -75,6 +75,7 @@ final class ButtonWalk: XCTestCase {
         "map|tab-map": "already on the map tab",
         "map-full|tab-map": "already on the map tab",
         "map-pin|tab-map": "already on the map tab",
+        "map-bar|tab-map": "already on the map tab",
         "city|tab-map": "already on the map tab",
         "city-full|tab-map": "already on the map tab",
         "discover|tab-discover": "already on Discover, at the top",

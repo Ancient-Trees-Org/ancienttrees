@@ -724,7 +724,29 @@
   "place-pin": {
     "status": "parity",
     "differences": [
-      "PlacePin.kt from PlacePin.swift: the map moves under a fixed pin, the arrow above the card, the card's words and the disabled button until the pin moved 5 m. The crosshair is the Material map pin (PinPicker.kt, shared with collect). The map's licence credit (i) stays visible in the bottom corner. System back is Cancel (forced)."
+      "PlacePin.kt from PlacePin.swift: the map moves under a fixed pin, the arrow above the card, the card's words and the disabled button until the pin moved 5 m. The crosshair is the Material map pin (PinPicker.kt, shared with collect). The bar is Android's full-screen dialog bar (SheetNavBar: a close X that says Cancel or Done, the title beside it), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; round 3). The map's licence credit (i) stays visible in the bottom corner. System back is Cancel (forced)."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "Cancel right",
+        "why": "Android's full-screen dialog bar (SheetNavBar: the close X at the start, the title left beside it, 64 tall), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; moved on 2026-11-18 after round 3)."
+      },
+      {
+        "what": "Where is it really? centre",
+        "why": "Android's full-screen dialog bar (SheetNavBar: the close X at the start, the title left beside it, 64 tall), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; moved on 2026-11-18 after round 3)."
+      },
+      {
+        "what": "Cancel | Where is it really?",
+        "why": "Android's full-screen dialog bar (SheetNavBar: the close X at the start, the title left beside it, 64 tall), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; moved on 2026-11-18 after round 3)."
+      },
+      {
+        "what": "Cancel left",
+        "why": "Android's full-screen dialog bar (SheetNavBar: the close X at the start, the title left beside it, 64 tall), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; moved on 2026-11-18 after round 3)."
+      },
+      {
+        "what": "top safe area -> Cancel",
+        "why": "Android's full-screen dialog bar (SheetNavBar: the close X at the start, the title left beside it, 64 tall), where the iPhone has its Cancel capsule and a centred title (Hidde 2026-11-17, Page titles; moved on 2026-11-18 after round 3)."
+      }
     ]
   },
   "own-tree": {

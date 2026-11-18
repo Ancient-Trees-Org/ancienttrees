@@ -91,6 +91,7 @@ class ButtonWalk {
             "map|tab-map" to "already on the map tab",
             "map-full|tab-map" to "already on the map tab",
             "map-pin|tab-map" to "already on the map tab",
+            "map-bar|tab-map" to "already on the map tab",
             "city|tab-map" to "already on the map tab",
             "city-full|tab-map" to "already on the map tab",
             "discover|tab-discover" to "already on Discover, at the top",

@@ -557,6 +557,7 @@ private fun Hero(
             }
         }
         photo != null -> Box(Modifier.fillMaxWidth().height(heroHeight)) {
+            val openLabel = stringResource(R.string.photo_open)
             HorizontalPager(pager, Modifier.fillMaxSize()) { i ->
                 if (i < tree.shots.size) {
                     val shot = tree.shots[i]
@@ -566,7 +567,9 @@ private fun Hero(
                         null,
                         Modifier
                             .fillMaxSize()
-                            .clickable(interactionSource = noTap, indication = androidx.compose.foundation.LocalIndication.current) { onOpenPhoto(i) },
+                            .clickable(interactionSource = noTap, indication = androidx.compose.foundation.LocalIndication.current, role = Role.Button) { onOpenPhoto(i) }
+                            // A name for TalkBack: the hero was an unnamed button (2026-11-18 audit).
+                            .semantics { contentDescription = openLabel },
                         // The photograph this page is about skips the queue (TreePhoto urgent).
                         urgent = i == 0,
                         fallback = {
@@ -601,17 +604,18 @@ private fun Hero(
                 MapInset(tree.lat, tree.lng, side = 56.dp)
             }
         }
-        ownHero != null && myTrees != null -> Box(
+        ownHero != null && myTrees != null -> { val ownLabel = stringResource(R.string.photo_open); Box(
             Modifier
                 .fillMaxWidth()
                 .height(heroHeight)
-                .clickable(interactionSource = noTap, indication = androidx.compose.foundation.LocalIndication.current, onClick = onOpenOwn),
+                .clickable(interactionSource = noTap, indication = androidx.compose.foundation.LocalIndication.current, role = Role.Button, onClick = onOpenOwn)
+                .semantics { contentDescription = ownLabel },
         ) {
             // Your own photograph, as the iPhone's heroOwnShot: opens like ours do.
             OwnPhoto(ownHero, myTrees, Modifier.fillMaxSize(), maxSide = 1600) {
                 Box(Modifier.fillMaxSize().background(brand.surfaceMuted))
             }
-        }
+        } }
         else -> Box(
             // NO PHOTOGRAPH: THE MAP IS THE PICTURE.
             Modifier
