@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Camperdown Cemetery Fig has its first photograph
+
+- A reader's photograph of syd_005, the Camperdown Cemetery Fig in Sydney (viewed: the buttress-rooted Moreton Bay fig among the headstones, daylight, colour), is now its lead photograph. The tree had none before. The pin stays as it was: the photo's coordinate was our own pin, not a GPS fix.
+- A second photograph for vfg_001, the Pawling Farm sycamore in Valley Forge, was rejected: it shows only the National Park Service entrance sign for Pawling Farm, with no tree in it. The tree keeps the reader's earlier photographs.
+- Nothing else was waiting: no reports, no tips, no feedback without a verdict, no reader notes to quote. The 37 open leads all come from our own account (`mine`). The pin catch-up step could not read coordinates (HTTPError), so the next knock retries it.
+
 ## 2026-11-18 reader judge (second run): the fig's trunk close-up added
 
 - A second reader-judge run started on the same sighting (12a88725) and built the tree again; the 00:13 run had already published it, so that copy was dropped at the rebase. What it added: the reader's second photograph (the buttressed trunk with its hollow base, viewed, daylight, colour), now in syd_008's strip. Nothing else waited: no reports, tips, feedback or reader notes. The other 37 waiting leads are our own account's (`mine`). Two judge runs firing on one sighting is worth a look at the trigger's concurrency.

@@ -1920,6 +1920,21 @@
      "mailed": "2026-11-17"
     }
    ]
+  },
+  "p_34af1999246c96b6f3066f50": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "796f1465-deac-4ee9-a5c2-45339f4e0473",
+     "tree_id": "syd_005",
+     "tree_name": "The Camperdown Cemetery Fig",
+     "city": "Sydney",
+     "city_slug": "sydney",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

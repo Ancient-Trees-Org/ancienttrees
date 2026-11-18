@@ -46,6 +46,62 @@
    "agreed": null
   },
   {
+   "id": "sight:12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Moreton Bay Fig of Rushcutters Bay Park",
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "reader_note": "Its size and beauty. One of the largest and oldest around.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: a lone Moreton Bay fig on park lawn, buttress roots and a dome of leaves, daylight, colour. Lead photograph of sydney/syd_008."
+  },
+  {
+   "id": "sight:796f1465-deac-4ee9-a5c2-45339f4e0473",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Camperdown Cemetery Fig",
+   "city": "Sydney",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/796f1465-deac-4ee9-a5c2-45339f4e0473.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Camperdown Cemetery Fig: the huge Moreton Bay fig with buttress roots among headstones, daylight and colour; the tree had no photograph, so it is now the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e95df1c6-5f63-48bd-8def-77dff267a22a",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/e95df1c6-5f63-48bd-8def-77dff267a22a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected: no tree in frame, only the National Park Service entrance sign for Pawling Farm. The tree keeps this reader's earlier photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -15097,18 +15153,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:12a88725-88e2-4a96-85f6-0966bb59db6b",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "The Moreton Bay Fig of Rushcutters Bay Park",
-   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
-   "reader_note": "Its size and beauty. One of the largest and oldest around.",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-18: a lone Moreton Bay fig on park lawn, buttress roots and a dome of leaves, daylight, colour. Lead photograph of sydney/syd_008."
   }
  ]
 }
