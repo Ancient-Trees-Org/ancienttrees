@@ -17,6 +17,13 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - The same reader's other two photographs of nij_017 were already in the gallery from the knock's live-first step: the trunk with the red-brick church right behind it, and a view straight up the trunk to the fork. Both are looked at and judged the same tree (smooth grey beech bark, the church beside it). They stay in the gallery behind the lead. This run overlapped the one above and started on the same three photographs; its duplicate commit was dropped, and only these two verdicts were added.
 - 3c544597 (our own account, `mine`) is still unjudged and not on this machine. Nothing else waits.
 
+## 2026-11-18 night run (window from 23:09 UTC)
+
+- **Two more beech photographs** for nijmegen/nij_017 judged by eye (full beech by the church, trunk and crown, both autumn, daylight) and recorded as `add`; live-first had already put them in the strip. Their judgement stubs were missing (the scan only reads the queue), so I wrote them through `judgement.save`.
+- **Key West**: kyw_005 (Cuban Lignum Vitae) and kyw_006 (Boardwalk Barringtonia), garden champions with admission now sourced ($15, 10 to 4 daily), merged app-only. Pins are the register point (approximate); `location_site` radius 50 m is a judgement call and may be too wide for a garden. The city intro still says "two remarkable trees" and wants a rewrite.
+- **Dry**: Birmingham (sixth pass, no angle left; needs a reader GPS fix or the Friends of Highbury Park survey), Philadelphia (exhausted; one lead added, the Lutheran Seminary scarlet oak). Portland is full, Miami a wall.
+- 3c544597 (Amsterdam, `mine`) still has no photo on this machine, left open. Health: all green. Prepare.py: 7-day visits line not printed this run.
+
 ## 2026-11-18 reader judge: the Nijmegen copper beech gets its first photograph
 
 - **Photo live**: The Copper Beech of the Antonius Abtkerk (nijmegen/nij_017) had no photograph. A reader sent one from the tree's page. It shows one big beech in coppery autumn leaf with a smooth grey trunk, on the planted strip beside the red-brick church and rectory buildings on the street. It is now the lead photo (sighting b496e5e0, through sightings_publish.py). The light scored WEAK, but a reader's photograph is never refused on light. The pin was not moved, because the row's position was our own pin and not a GPS fix.

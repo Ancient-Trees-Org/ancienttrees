@@ -188,6 +188,86 @@
         "date": "2026-11-17",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
+    },
+    {
+      "id": "kyw_005",
+      "name": "The Cuban Lignum Vitae",
+      "species": "Lignum-vitae (Guaiacum officinale)",
+      "age_estimate": "not documented",
+      "girth_cm": 76,
+      "height_m": 5.8,
+      "location": {
+        "address": "Key West Tropical Forest & Botanical Garden, 5210 College Road, Stock Island, Key West, FL 33040",
+        "latitude": 24.57383,
+        "longitude": -81.74931,
+        "neighbourhood": "Stock Island"
+      },
+      "location_site": {
+        "name": "Boardwalk area, Key West Tropical Forest & Botanical Garden",
+        "radius_m": 50
+      },
+      "story": "Florida's champion Cuban lignum vitae stands 5.8 metres tall and 76 centimetres round. On the state's champion tree register, no tree of its species in Florida scores higher.\n\nThe Florida Forest Service measured it on 27 February 2018 in the Boardwalk area of the Key West Tropical Forest & Botanical Garden on Stock Island. The record reads 30 inches round, 19 feet tall, a crown 22 by 21 feet across, 54 points in all. The garden captions it State Champion.\n\nThat measurement came five months after Hurricane Irma. In September 2017 the storm destroyed the garden's champion pigeon plum and knocked down three other champions. On the garden's own list of its record trees after the storm, this one is marked OK.\n\nOne naming trap. The garden also grows another lignum vitae, Guaiacum sanctum, in its general collection. This is Guaiacum officinale, and the register names it so.\n\nNobody has published when it was planted. The garden began in 1936 as a Works Progress Administration project, but no source puts this tree in that first planting, so its age stays open. If you know, tell us.\n\nIt grows about seven metres from the garden's Barringtonia, another tree on the state register, so the two make one stop on the boardwalk. Adults pay $15, seniors $10, and children 12 and under go free. The garden opens daily from 10 a.m. to 4 p.m., closes on Christmas Day and New Year's Day, and parking is free.",
+      "how_to_recognise": "You can recognise it as the shorter of two register trees about 7 metres apart in the garden's Boardwalk area, 5.8 metres tall and 76 cm round. The other, a Barringtonia, stands 9.1 metres tall.",
+      "verified_sources": [
+        "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/91",
+        "https://www.keywest.garden/our-gallery-of-champions/",
+        "https://en.wikipedia.org/wiki/Key_West_Tropical_Forest_%26_Botanical_Garden"
+      ],
+      "official_register": {
+        "name": "Florida Forest Service Champion Tree Register (PK 1076)",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1076"
+      },
+      "paid_entry": true,
+      "access": "Paid entry to the garden, open daily 10 a.m. to 4 p.m. (reduced hours on some holidays, closed Christmas Day and New Year's Day); $15 non-member adults, $10 seniors, children 12 and under free, members free, per the garden's own page fetched 2026-11-18. Free parking. The tree stands in the Boardwalk area of the garden.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 pass. Register PK 1076, Guaiacum officinale, Florida Champion, status COMPLETE, public ownership, measured 2018-02-27: circumference 30 in (76 cm); height 19 ft (5.8 m); crown 22 x 21 ft; 54 total points. Register point 24.57383,-81.74931 is the garden's Boardwalk area, location text 'Key West Tropical Forest & Botanical Garden, 5210 College Rd'. Pin is a register point inside an 11-acre garden, not a placed crown: approximate. Garden's own gallery-of-champions page (fetched 2026-11-18) lists 'Cuban Lignum Vitae (Boardwalk) - OK' and captions it 'State Champion', post-Hurricane-Irma status list (Irma, Sept 2017, destroyed the Pigeon Plum and knocked down three other champions; this one is listed OK). Alive: garden page lists OK and shows the tree among survivors; lifecheck RECENT 2026-11-11 iNaturalist observation in the garden (garden level, not this trunk). One official register plus the ground's owner: flagged, one register measurement 2018. The garden also holds a separate Lignum Vitae, Guaiacum sanctum. Stands about 7 m from the Barringtonia (kyw_006). No age basis found. No photograph found; ask a reader for a trunk photo. Writing pass 2026-11-18: location_site is the garden's Boardwalk area as the briefing asked; its 50 m radius is a judgement, not a measured extent.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "kyw_006",
+      "name": "The Boardwalk Barringtonia",
+      "species": "Sea Putat (Barringtonia asiatica)",
+      "age_estimate": "not documented",
+      "girth_cm": 76,
+      "height_m": 9.1,
+      "location": {
+        "address": "Key West Tropical Forest & Botanical Garden, 5210 College Road, Stock Island, Key West, FL 33040",
+        "latitude": 24.57389,
+        "longitude": -81.74927,
+        "neighbourhood": "Stock Island"
+      },
+      "location_site": {
+        "name": "Boardwalk area, Key West Tropical Forest & Botanical Garden",
+        "radius_m": 50
+      },
+      "story": "Whether this tree is still Florida's champion depends on whose list you read. The Florida Forest Service register has it as the state's champion Barringtonia asiatica. The Key West Tropical Forest & Botanical Garden, which owns the ground it grows in, files it under Historic Legacy Trees and calls it a former champion.\n\nThe register's numbers date from 27 February 2018, when the tree stood 30 feet tall, 30 inches round, a crown 26 by 21 feet across, 66 points in all. The garden does not say when it lost the title, and we have not found a newer measurement, so we give you both lists and no verdict.\n\nIt has at least outlasted a hurricane. Irma went through in September 2017, destroyed the garden's champion pigeon plum and knocked down three other champions. On the garden's list after the storm, this one is marked OK.\n\nNobody has recorded its age. The garden started in 1936 as a Works Progress Administration project, but no source puts this tree in that planting. If you know when it went in, tell us.\n\nIt grows in the Boardwalk area on Stock Island, about seven metres from the garden's Cuban lignum vitae, Florida's champion of that species, so one stop covers both. Adults pay $15, seniors $10, and children 12 and under go free. The garden opens daily from 10 a.m. to 4 p.m., closes on Christmas Day and New Year's Day, and parking is free.",
+      "how_to_recognise": "You can recognise it as the taller of two register trees about 7 metres apart in the garden's Boardwalk area, 9.1 metres tall and 76 cm round. The shorter one beside it, 5.8 metres, is the Cuban lignum vitae.",
+      "verified_sources": [
+        "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/87",
+        "https://www.keywest.garden/our-gallery-of-champions/",
+        "https://en.wikipedia.org/wiki/Key_West_Tropical_Forest_%26_Botanical_Garden"
+      ],
+      "official_register": {
+        "name": "Florida Forest Service Champion Tree Register (PK 1074)",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1074"
+      },
+      "paid_entry": true,
+      "access": "Paid entry to the garden, open daily 10 a.m. to 4 p.m. (reduced hours on some holidays, closed Christmas Day and New Year's Day); $15 non-member adults, $10 seniors, children 12 and under free, members free, per the garden's own page fetched 2026-11-18. Free parking. The tree stands in the Boardwalk area of the garden.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 pass. Register PK 1074, Barringtonia asiatica, Florida Champion, COMPLETE, public ownership, measured 2018-02-27: circumference 30 in (76 cm), height 30 ft (9.1 m), crown 26 x 21 ft, 66 total points. Register point 24.57389,-81.74927 in the garden's Boardwalk area: approximate (register point in an 11-acre garden). CONFLICT: the garden's own gallery page (fetched 2026-11-18) calls it 'Former Champion' and lists it under 'Historic Legacy Trees' as 'Barringtonia (Boardwalk) - OK'; the Florida register (2018) and Wikipedia say Florida Champion. State both, do not assert current champion status. The garden page does not date the legacy trees; the garden began as a WPA project in 1936 but no source fetched says this tree belongs to that planting, so no age (no bridge claim). Alive: garden lists OK after Irma (Sept 2017); lifecheck RECENT 2026-11-11 garden-level iNaturalist observation. Flagged: register measurement 2018 plus the owner's page. About 7 m from the Lignum Vitae (kyw_005): same stop. No photograph found. Writing pass 2026-11-18: location_site is the garden's Boardwalk area as the briefing asked; its 50 m radius is a judgement, not a measured extent.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

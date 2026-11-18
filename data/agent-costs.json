@@ -31,6 +31,30 @@
         "tokens": 90000,
         "trees": 3,
         "note": "deepen: city heritage layer carries no measurements; verify agent delivered 2 flagged one-source trees (ftw_028, ftw_029), session wrote stories for those and ftw_021 and merged all three; 6 leads annotated"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "verify",
+        "target": "birmingham",
+        "tokens": 70000,
+        "trees": 0,
+        "note": "sixth pass, Wikidata radius empty, no naming body; 12 leads unchanged"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "verify",
+        "target": "philadelphia",
+        "tokens": 90000,
+        "trees": 0,
+        "note": "exhausted by earlier passes; 1 lead added (Lutheran Seminary scarlet oak)"
+      },
+      {
+        "date": "2026-11-18",
+        "kind": "write",
+        "target": "key-west",
+        "tokens": 165000,
+        "trees": 2,
+        "note": "verify delivered kyw_005, kyw_006 (garden boardwalk champions, admission now sourced), writer merged both app-only; location_site radius 50 m is a judgement"
       }
     ],
     "2026-11-17": [

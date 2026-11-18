@@ -157,11 +157,6 @@
       "released_at": "2026-11-03T20:03:49+00:00"
     },
     {
-      "slug": "philadelphia",
-      "kind": "verify",
-      "released_at": "2026-11-04T08:25:05+00:00"
-    },
-    {
       "slug": "austin",
       "kind": "verify",
       "released_at": "2026-11-04T08:37:11+00:00"
@@ -290,6 +285,11 @@
       "slug": "potsdam",
       "kind": "verify",
       "released_at": "2026-11-18T18:50:49+00:00"
+    },
+    {
+      "slug": "philadelphia",
+      "kind": "verify",
+      "released_at": "2026-11-18T23:20:50+00:00"
     }
   ]
 }
