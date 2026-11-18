@@ -1,0 +1,33 @@
+[
+ {
+  "id": "bal_005",
+  "name": "The Jenkins Alley Walnut",
+  "species": "English Walnut (Juglans regia)",
+  "age_estimate": "not documented",
+  "age_min": null,
+  "age_max": null,
+  "girth_cm": 409,
+  "location": {
+   "address": "Jenkins Alley, behind 1325 Bolton Street, Bolton Hill, Baltimore, MD 21217",
+   "latitude": 39.306,
+   "longitude": -76.6246,
+   "neighbourhood": "Bolton Hill"
+  },
+  "verified_sources": [
+   "https://boltonhillmd.org/?p=24225",
+   "https://boltonhillmd.org/bulletin/bolton-hills-champion-trees/"
+  ],
+  "official_register": {
+   "name": "Maryland Notable Tree Registry (per the Bolton Hill Bulletin; no per-tree page found)",
+   "url": "https://dnr.maryland.gov/forests/pages/trees/bigtree.aspx"
+  },
+  "access": "Jenkins Alley is a back alley behind Bolton Street houses and Brown Memorial Church; no source says whether the tree is reachable on foot. View from the alley end if open; do not enter private yards.",
+  "location_precision": "approximate",
+  "location_site": {
+   "name": "Jenkins Alley behind 1325 Bolton Street",
+   "radius_m": 40
+  },
+  "curation_status": "flagged",
+  "verify_notes": "One credible local source plus a state registry mention, flagged 'one source / register mention only'. Bolton Hill Bulletin July-August 2017 (vol XLVI no 7, boltonhillmd.org/?p=24225) first described it as an Eastern black walnut in Jenkins Alley shading the rear of Brown Memorial Church, trunk 'a whopping 161 inches around, which may be a record here in Bolton Hill' (161 in = about 409 cm; girth height not stated, wires from BGE run through the tree). A later Bulletin piece (boltonhillmd.org/bulletin/bolton-hills-champion-trees/) corrects the species to English walnut after Baltimore City Forestry Board volunteers Fred Chalfont and Ray Iturralde put the author right, calls it 'marvelously massive', and says it is one of two Bolton Hill trees on the Maryland Notable Tree Registry (1,750+ trees in 23 counties and Baltimore City; notable needs at least 70 percent of the state champion's points). Assumed same tree: same alley, same church context, the champion piece places it behind 1325 Bolton Street; the two articles are by the same publisher so not fully independent. Pin: building 1325 Bolton Street geocoded by Nominatim at 39.3060,-76.6246; the tree itself is in the alley behind it, not placed individually, hence approximate. Alive: lifecheck NONE; last dated evidence is the 2017 Bulletin articles, no recent observation found. Age not documented anywhere. Species caution: the 2017 black walnut label was wrong; the later correction is by the city's own forestry volunteers."
+ }
+]
