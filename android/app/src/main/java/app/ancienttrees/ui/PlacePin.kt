@@ -109,22 +109,16 @@ fun PlacePin(
 
         // The navigation bar: Cancel (Done once sent) and the title, over the map's top.
         androidx.compose.foundation.layout.Column(Modifier.fillMaxWidth()) {
-        // iOS 26's inline bar: 54, its controls in the top 44 (SweepFrames: Cancel
-        // a 36 pill at {20, 66}, 4 under the safe area), the pill in its white capsule
-        // with a shadow (visual review 2026-11-11, row 108).
-        Box(Modifier.fillMaxWidth().background(brand.ground).statusBarsPadding().height(54.dp).padding(bottom = 10.dp)) {
-            BarCapsule(
-                stringResource(if (sent) R.string.pp_done else R.string.pp_cancel),
-                onDismiss,
-                Modifier.align(Alignment.CenterStart).padding(start = 20.dp).testTag("place-pin-cancel"),
-                height = 36.dp,
-            )
-            Text(
-                stringResource(if (sent) R.string.pp_thanks else R.string.pp_title),
-                fontSize = 17.sp,
-                fontWeight = FontWeight.SemiBold,
-                color = brand.ink,
-                modifier = Modifier.align(Alignment.Center),
+        // ANDROID'S FORM (Hidde, 2026-11-17, "Page titles"; round 3 found this bar
+        // still the iPhone's): the full-screen dialog bar, a close X at the start
+        // and the title beside it, as every other form (SheetNavBar). The X keeps
+        // the word it stands for, Cancel or Done, for a screen reader and the walks.
+        Box(Modifier.fillMaxWidth().background(brand.ground).statusBarsPadding()) {
+            SheetNavBar(
+                full = true,
+                leading = stringResource(if (sent) R.string.pp_done else R.string.pp_cancel) to onDismiss,
+                title = stringResource(if (sent) R.string.pp_thanks else R.string.pp_title),
+                leadingTag = "place-pin-cancel",
             )
         }
         // The bar's lower edge is soft, as iOS 26 draws it over the map (review row 108).
