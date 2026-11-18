@@ -1141,13 +1141,14 @@
       "species": "American Elm / Ginkgo",
       "lat": 40.0519339,
       "lng": -75.1709963,
-      "status": "open",
+      "status": "held",
       "reason": "NW Local paper 2021: ginkgo ranked #11 in the state (#3 in the city) and American elm #13 in the state (#2 in Philadelphia county) at a Pennsylvania Champion Tree Program measuring visit; sources disagree on which Awbury trees are champions. No per-tree pin or measurement; Awbury's 25-tree Heritage Tree Tour map PDF (awbury.org/wp-content/uploads/2018/11/Tree-Tour-Map-Small.pdf) is fetchable but this pass had no PDF text reader (no pdftotext or pypdf). A session with one can place them. Free grounds.",
       "sources": [
         "https://nwlocalpaper.com/trees-are-the-champions",
         "https://awbury.org/wp-content/uploads/2018/11/Tree-Tour-Map-Small.pdf"
       ],
-      "pass": "2026-11-18 verify pass (deepen)"
+      "pass": "2026-11-18 verify pass (deepen)",
+      "hold": "Write pass 2026-11-18: No location for either tree: no per-tree pin or recognition line; needs the Heritage Tree Tour map read by a session with a PDF reader."
     },
     {
       "name": "Wissahickon Valley Park tall sycamore near the Cresheim Trail",

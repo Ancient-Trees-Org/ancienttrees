@@ -497,6 +497,51 @@
       "lat": 50.12481,
       "lng": 8.7058,
       "reason": "2026-10-31. City page: yew about 130 years, 16 m, girth 1.5 m, stands 'im Hinterhof des Hauses 174' (a private back yard); young and not a collectible public point. Hard rule 10."
+    },
+    {
+      "id": "frk_027",
+      "name": "The Black Mulberry at Goethe's Mother's Grave",
+      "species": "Black Mulberry (Morus nigra)",
+      "age_estimate": "over 200 years",
+      "age_min": 200,
+      "age_max": 270,
+      "girth_cm": 331,
+      "height_m": 12,
+      "location": {
+        "address": "Peterskirchhof / Liebfrauenschule, Stephanstrasse area, Frankfurt",
+        "latitude": 50.116736,
+        "longitude": 8.684772,
+        "neighbourhood": "Innenstadt"
+      },
+      "verified_sources": [
+        "https://frankfurt.de/themen/umwelt-und-gruen/umwelt-und-gruen-a-z/im-gruenen/baeume/naturdenkmale/schwarze-maulbeere",
+        "https://www.visitfrankfurt.travel/poi/peterskirchhof",
+        "https://stadtundgruen.de/artikel/grundsanierung-des-peterskirchhofs-in-frankfurtm-abgeschlossen-umgestaltung-mit-bluehaspekt-5054",
+        "https://de.wikipedia.org/wiki/Liste_der_Naturdenkmale_in_Frankfurt_am_Main"
+      ],
+      "official_register": {
+        "name": "Frankfurt Naturdenkmal register, entry 017",
+        "url": "https://frankfurt.de/themen/umwelt-und-gruen/umwelt-und-gruen-a-z/im-gruenen/baeume/naturdenkmale/schwarze-maulbeere"
+      },
+      "access": "View-only. The tree stands on the schoolyard of the Liebfrauenschule beside Catharina Elisabeth Goethe's grave; Visit Frankfurt says the grave can only be seen from afar from the adjoining, publicly open Peterskirchhof garden. Not entered.",
+      "transport": "U-Bahn/S-Bahn Hauptwache or Konstablerwache, about 5 to 7 minutes on foot to the Peterskirchhof",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Peterskirchhof, Frankfurt",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "not_merged_reason": "Held by the writing pass 2026-10-31 (hard rule 10). The tree stands in the Liebfrauenschule schoolyard, which no source shows is open. Visit Frankfurt only says the GRAVE can be seen from afar from the Peterskirchhof; no source read says the mulberry itself is visible from there, and the pin is the register coordinate in the schoolyard, not a viewing place. Ships once a source, reader photo or GPS fix shows the crown from the Peterskirchhof path and the pin moves to that viewing point.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "verify_notes": "City page (fetched 2026-10-31): Morus nigra, about 12 m, girth 3.31 m, over 200 years, stands on the schoolyard of the Liebfrauenschule next to the grave of Goethe's mother; she was buried in 1808 and the mulberry was already a relatively large tree then; presumably planted 1760 (city's 'Vermutlich', keep as a presumption); partly hollow, gnarled, 'enchanted' look; a rare species in Frankfurt. Independent: Stadt und Grün (Peterskirchhof renovation) names 'the old mulberry at the grave of Goethe's mother' and says four new mulberries were planted at the path junctions (those are young; do not confuse). Visit Frankfurt: grave on the neighbouring schoolyard, visible only from afar. Hard rule 10: view-only trees ship with the pin on the viewing place; the writer must put the viewing point at Peterskirchhof and state that the schoolyard is not entered. Whether the old mulberry is actually visible from the Peterskirchhof path is NOT established by any source read: flagged. Pin is the register coordinate, approximate. Life check RECENT (iNaturalist 2025-04-29 nearby). Aja grave also visible there, so story anchor is Goethe's mother (Catharina Elisabeth Goethe, buried 1808).",
+      "status": "held",
+      "why": "Write pass 2026-11-18: View-only, but no source shows the mulberry is visible from the public Peterskirchhof and the pin is the register point in the closed schoolyard; ships when a photo or GPS fix from the Peterskirchhof path shows the crown.",
+      "source_file": "data/research/frankfurt-verified.json"
     }
   ]
 }

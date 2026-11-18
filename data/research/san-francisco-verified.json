@@ -156,41 +156,6 @@
   "written": true
  },
  {
-  "id": "sfo_012",
-  "name": "The Cork Oak of 20th and Noe",
-  "species": "Cork Oak (Quercus suber)",
-  "age_estimate": "at least 75 years",
-  "age_min": 75,
-  "age_max": null,
-  "girth_cm": 176,
-  "location": {
-   "address": "20th Street at Noe Street (hillside Cork Oak Tree Community Garden; DataSF address 4090 20th St)",
-   "latitude": 37.757863,
-   "longitude": -122.432119,
-   "neighbourhood": "Dolores Heights"
-  },
-  "verified_sources": [
-   "https://sfpublicworks.org/services/significant-and-landmark-trees",
-   "https://doloresheights.org/2025/10/13/cork-oak-tree-garden-at-20th-noe-streets/",
-   "https://data.sf.gov/resource/tkzw-k3nq.json (treeid 240351)",
-   "https://www.inaturalist.org/observations/389185521"
-  ],
-  "official_register": {
-   "name": "San Francisco Landmark Tree No. 15 (Public Works Significant and Landmark Trees list; DataSF Street Tree List treeid 240351)",
-   "url": "https://sfpublicworks.org/services/significant-and-landmark-trees"
-  },
-  "access": "Free. On the public right-of-way at the top of a hillside community garden at 20th and Noe Streets (Public Works list: 'Public right-of-way').",
-  "transport": "Muni J Church, 20th St and Church St stop, about 400 m (two blocks) east (transport detail from map knowledge, not source-checked)",
-  "location_precision": "approximate",
-  "location_site": {
-   "name": "Cork Oak Tree Community Garden, 20th and Noe Streets",
-   "radius_m": 30
-  },
-  "curation_status": "flagged",
-  "verify_notes": "Official Landmark Tree No. 15 (Public Works list says 'Public right-of-way'; Dolores Heights Improvement Club post of 2025-10-13 names the hillside garden at 20th and Noe 'Cork Oak Tree Community Garden' in recognition of this tree, 'at the top of the garden'). Landmark route: neighbours petitioned, Dolores Heights Improvement Club supported, Landmark Tree Committee heard it 2021-11-04, committee forwarded ordinance with positive recommendation Sept 2022 (citizenportal.ai summary, a pointer only; its page and sfenvironment.org 403 to curl and WebFetch, so the nomination form with measurements was NOT read; full Board adoption not confirmed from a page, but the tree is on the Public Works list as designated). Search summaries say Urban Forestry Council found it met criteria on age (at least 75 years), physical attributes, environmental benefits and neighbourhood value, and a committee member called it one of the largest oaks seen in the Bay Area / possibly the biggest cork oak in the city (pointer only, not a page I read; do not state as fact). Girth 176 cm is DataSF mapdbh 22 in (56 cm diameter) times pi, register DBH may be an old estimate; treat as a floor. Age: 'at least 75 years' is the designation criterion, not a measured age; no upper bound sourced (age_max left null). Alive: iNaturalist observation 2026-06-21 (lifecheck RECENT) and the garden post of Oct 2025. Pin is the DataSF coordinate, the register address 4090 20th St is a side-yard record; small named site, so approximate with location_site. Cork oak is an uncommon tree in SF. Hosts: sfenvironment.org and citizenportal.ai 403 to curl and WebFetch; web.archive.org had no snapshot of the nomination form.",
-  "not_merged_reason": "Held 2026-10-27, not written: the same tree as live sfo_004 The Cork Oak of 20th Street (Landmark Tree No. 15, about 53 m apart). Fold its DataSF pin and 176 cm girth floor into sfo_004 in an enrichment pass instead."
- },
- {
   "id": "sfo_013",
   "name": "The Moreton Bay Fig of Valencia Street",
   "species": "Moreton Bay Fig (Ficus macrophylla)",

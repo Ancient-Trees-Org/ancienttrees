@@ -14,5 +14,41 @@
       "reason": "countryside lane with access=private service ways beside it; no source says a visitor may walk in; no photo or sighting"
     }
   ],
-  "blocked": []
+  "blocked": [
+    {
+      "id": "not_002",
+      "name": "Carob of Cava Candelaro",
+      "species": "Carob (Ceratonia siliqua)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "",
+      "girth_cm": 1000,
+      "height_m": 10,
+      "location": {
+        "address": "Contrada Candelaro, Cava Candelaro, Noto",
+        "latitude": 36.8439621,
+        "longitude": 14.978835,
+        "neighbourhood": "Cava Candelaro, countryside west of Noto"
+      },
+      "verified_sources": [
+        "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf",
+        "https://www.openstreetmap.org/node/1506501706"
+      ],
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF) / Regione Siciliana elenco, sheet 04/F943/SR/19",
+        "url": "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf"
+      },
+      "access": "Not established. No source says who owns the ground or whether there is a path; OSM shows no private way within 150 m, which is weak evidence only. Check on the ground; do not publish as walkable without a source.",
+      "transport": "By car in the countryside west of Noto.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo_candidates": [],
+      "verify_notes": "Register sheet 04: girth 1000 cm (10 m, possibly a multi-stem mass), height 10 m. OSM node 1506501706 'Carrubo di Contrada Candelaro', local name 'Carrua, A maccia ra carrua', circumference 9 m, height 13, crown 14 x 16.3 m, description 'one of the largest and longest-lived carobs in Sicily'; 35 m from the register point. A 10 m carob is exceptional. No dated sighting, no photo, no iNaturalist record. Recognise: a giant spreading carob, crown 14 to 16 m across, in the Cava Candelaro valley; local name 'a maccia ra carrua'. Register plus OSM only; land tenure unknown.",
+      "hold": "access unproven: land tenure of the Cava Candelaro carob unknown",
+      "status": "held",
+      "why": "Write pass 2026-11-18: Access unproven (hard rule 10): land tenure and any path to the Cava Candelaro carob unknown.",
+      "source_file": "data/research/noto-verified.json"
+    }
+  ]
 }

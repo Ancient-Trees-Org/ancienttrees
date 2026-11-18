@@ -489,9 +489,10 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open",
+      "status": "held",
       "species_basis": "genus read from the tree's own name; ask the reader which species",
-      "why": "Red oaks planted 1980s along a street, a row not one point (checked 2026-11-18)."
+      "why": "Red oaks planted 1980s along a street, a row not one point (checked 2026-11-18).",
+      "hold": "Write pass 2026-11-18: Not a single collectible point: a 1980s planted street row."
     },
     {
       "name": "Traders Oak",
@@ -553,9 +554,10 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open",
+      "status": "held",
       "species_basis": "genus read from the tree's own name; ask the reader which species",
-      "why": "Seminary campus; open access not evidenced, city layer only (checked 2026-11-18)."
+      "why": "Seminary campus; open access not evidenced, city layer only (checked 2026-11-18).",
+      "hold": "Write pass 2026-11-18: Access unproven: seminary campus, no source says the grounds are open."
     },
     {
       "name": "Foster Park Trident Maple",
@@ -617,9 +619,10 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open",
+      "status": "held",
       "species_basis": "genus read from the tree's own name; ask the reader which species",
-      "why": "City layer only, saved-tree note, no size or location evidence beyond a point (checked 2026-11-18)."
+      "why": "City layer only, saved-tree note, no size or location evidence beyond a point (checked 2026-11-18).",
+      "hold": "Write pass 2026-11-18: Nothing to tell: one point on a draft city layer, no size, age or story to meet the floor."
     },
     {
       "name": "The Big Greene Tree",
