@@ -34,7 +34,7 @@
         "longitude": -3.69482961769375,
         "neighbourhood": "Dartington Hall"
       },
-      "story": "The church at Dartington was pulled down in 1873, and only its grey tower was left standing beside Dartington Hall. The yews around it stayed. A reader sent us one of them with a GPS fix taken a few metres from the tower: a European yew, ancient by their word, its trunk about eight metres round by their own measure.\n\nThe Ancient Yew Group, which records old yews across Britain, lists three here. The biggest, a female tree west of the tower, has been measured since 1787, and in 2012 its trunk was 655 centimetres round near the ground. One recorder called it one of the most knobbly yew boles to be seen, and nails are still embedded in the wood. A fluted yew grows south-west of the tower and a sprawling one on a bank to the north. The group puts the biggest in its ancient band, trees of five to seven metres round.\n\nWhich of these the reader stood at, and how their figure compares, we would like to know. If you visit, send us a photograph with your location and we will put it on this page.\n\nWalk all the way round the tower before you leave.",
+      "story": "The church at Dartington was pulled down in 1873, and only its grey tower was left standing beside Dartington Hall. The yews around it stayed. A reader sent us one of them with a GPS fix taken a few metres from the tower. It is a European yew, ancient by their word, its trunk about eight metres round by their own measure.\n\nThe Ancient Yew Group, which records old yews across Britain, lists three here. The biggest, a female tree west of the tower, has been measured since 1787, and in 2012 its trunk was 655 centimetres round near the ground. One recorder called it one of the most knobbly yew boles to be seen, and nails are still embedded in the wood. A fluted yew grows south-west of the tower and a sprawling one on a bank to the north. The group puts the biggest in its ancient band, trees of five to seven metres round.\n\nThe reader's photographs reached us later the same day. They show a squat bole of burrs and folds inside a rope ring among the gravestones, which fits the group's knobbly yew west of the tower. If we have picked the wrong one of the three, tell us.\n\nWalk all the way round the tower before you leave.",
       "how_to_recognise": "The lone grey church tower just west of Dartington Hall, all that is left of the old church: the yews stand round it, the biggest on its west side with a hugely knobbly trunk.",
       "verified_sources": [
         "https://www.ancient-yew.org/yew_trees/dartington-401/ (Ancient Yew Group, Dartington tree 401: a female yew west of the tower, Ancient 5m-7m, 655 cm at 15 cm in 2012, 658 cm close to the ground in 1999, earliest mention 1787 by R. Polwhele; 'One of the most knobbly yew boles to be seen')",
@@ -56,13 +56,35 @@
         "note": "The pin marks where a reader stood at this tree (GPS, standing at the tree, submission 1177); about 10 m from the listed tower."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (submission 1177, sighting 2d01c8dc-05b6-421a-b6aa-6e113740a1cf), GPS fix 'standing at the tree' at 50.45166, -3.69483, species Taxus baccata, age 'Ancient', girth 800 cm, no note; the photograph never reached us (the sighting row has none). The fix is about 10 m from the listed tower of the former St Mary's (SX 79780 62693), round which the Ancient Yew Group lists three yews (401, 402, 6746; its map point is the site, not each trunk). Which trunk the reader stood at is not known: the story names the group's figures as the group's and the reader's 800 cm as theirs, and asks. Published as a reader's tree with a GPS fix and a written source (CLAUDE.md 'Verify', closed list).",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (submission 1177, sighting 2d01c8dc-05b6-421a-b6aa-6e113740a1cf), GPS fix 'standing at the tree' at 50.45166, -3.69483, species Taxus baccata, age 'Ancient', girth 800 cm, no note; the photograph never reached us (the sighting row has none). The fix is about 10 m from the listed tower of the former St Mary's (SX 79780 62693), round which the Ancient Yew Group lists three yews (401, 402, 6746; its map point is the site, not each trunk). Which trunk the reader stood at is not known: the story names the group's figures as the group's and the reader's 800 cm as theirs, and asks. Published as a reader's tree with a GPS fix and a written source (CLAUDE.md 'Verify', closed list). 2026-11-18 later: the two photographs arrived (sighting 2d01c8dc-05b6-421a-b6aa-6e113740a1cf and its -extra-1) and were viewed: the whole yew beside the stone tower, its huge burred and folded bole inside a rope ring, gravestones around it, crown of long limbs, daylight, colour. / the bole close up from the front, great burrs and swellings, rope ring and gravestones behind, daylight, colour, some lens flare. The burred bole on flat ground fits tree 401's description; the story says so and asks to be corrected.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/dtg_001-yew-by-dartingtons-old-church-tower.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
-      }
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f565b581b51154d7681a6e5d",
+        "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf-extra-1",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the whole yew beside the stone tower, its huge burred and folded bole inside a rope ring, gravestones around it, crown of long limbs, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/dtg_001-yew-by-dartingtons-old-church-tower-bole.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f565b581b51154d7681a6e5d",
+          "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+          "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the bole close up from the front, great burrs and swellings, rope ring and gravestones behind, daylight, colour, some lens flare. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ],
+      "age_estimate": "ancient, by a reader's estimate",
+      "age_basis": "source"
     }
   ]
 }

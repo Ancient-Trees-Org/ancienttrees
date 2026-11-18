@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Dartington yew has its reader's photographs
+
+- **dartington/dtg_001, The Yew by Dartington's Old Church Tower, now has photographs.** The reader's two frames for tip 1177 arrived (sighting 2d01c8dc). I viewed both: the whole yew by the stone tower, a huge burred and folded bole in a rope ring among gravestones, daylight, colour; and the bole close up. The wide frame is the lead and the close-up is in the strip. One paragraph of the story now says the photographs came and that the burred bole on flat ground fits the Ancient Yew Group's knobbly tree 401 west of the tower, and it still asks to be told if that is the wrong yew. With a reader's photo the page can now go to Google under the reader cut.
+- This run first built the tree as dtn_001 before seeing the parallel run's dtg_001. The duplicate is dropped; nothing of it was pushed. The draft asking for the photo (drafts/reply-reader-1177-2026-11-18.md) is deleted because the photo is here. **Correction to the entries below:** tip 1177's photo was late, not lost, so the "app dropping uploads" worry rests on 1175 alone.
+- Amsterdam sighting 3c544597 (our own Android test account, photo not on disk) is again left alone. 0 open reports, 0 open feedback, 0 reader notes to quote.
+
 ## 2026-11-18 (session): "See all" on New from visitors in both apps
 
 - **What changed**: Discover's "New from visitors" row now has "See all >" in the iOS and Android apps. It opens the website's /visitors page as an app screen: every photograph visitors sent that went live, newest sent first, as two columns of whole photographs (each at its own shape, not the row's 3:4 crop), the city tag on the photo and the visitor's name under it, 24 more loading as the end comes near, and "You have seen every photograph so far." at the end. A public name opens the profile; signed out the tap asks for a sign-in first and then finishes on that profile, as in the row.

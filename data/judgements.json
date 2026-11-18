@@ -965,6 +965,93 @@
    "agreed": null
   },
   {
+   "id": "sight:2d01c8dc-05b6-421a-b6aa-6e113740a1cf-extra-1",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Yew by Dartington's Old Church Tower",
+   "city": "Dartington",
+   "species": "Taxus baccata (European yew)",
+   "photo": "out/sightings/2d01c8dc-05b6-421a-b6aa-6e113740a1cf-extra-1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 800,
+   "coords": [
+    50.4516636703503,
+    -3.69482961769375
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.347,
+    "via": "girth",
+    "note": "135% of the species reference (594 cm, n=93, max 1585)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the whole yew beside the stone tower, its huge burred and folded bole inside a rope ring, gravestones around it, crown of long limbs, daylight, colour. Lead photograph of dartington/dtg_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Yew by Dartington's Old Church Tower",
+   "city": "Dartington",
+   "species": "Taxus baccata (European yew)",
+   "photo": "out/sightings/2d01c8dc-05b6-421a-b6aa-6e113740a1cf.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 800,
+   "coords": [
+    50.4516636703503,
+    -3.69482961769375
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.347,
+    "via": "girth",
+    "note": "135% of the species reference (594 cm, n=93, max 1585)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: the bole close up from the front, great burrs and swellings, rope ring and gravestones behind, daylight, colour, some lens flare. In the strip of dartington/dtg_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Taxus baccata near Dartmoor",
+   "city": null,
+   "species": "Taxus baccata (European yew)",
+   "photo": "p_f565b581b51154d7681a6e5d/2D01C8DC-05B6-421A-B6AA-6E113740A1CF.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 800,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.347,
+    "via": "girth",
+    "note": "135% of the species reference (594 cm, n=93, max 1585)"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-18: the whole yew by the old church tower at Dartington Hall, a huge burred bole in a rope ring among gravestones, and the bole close up; GPS fix at the tree. On dartington/dtg_001, the entry a parallel run made from the GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

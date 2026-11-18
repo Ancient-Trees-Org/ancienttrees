@@ -6543,6 +6543,38 @@
    "status": "lead",
    "why": "sent by a reader who was not sure which tree it is; judged as a new tree unless the photograph shows one of ours (it then matches no tree we map until a judge says so).",
    "seen": "2026-11-18"
+  },
+  {
+   "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+   "user_id": "p_f565b581b51154d7681a6e5d",
+   "mine": false,
+   "name": "Taxus baccata near Dartmoor",
+   "unsure_among": null,
+   "species": "Taxus baccata (European yew)",
+   "age": "Ancient",
+   "girth_cm": 800,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 50.4516636703503,
+   "longitude": -3.69482961769375,
+   "near": null,
+   "photo": "p_f565b581b51154d7681a6e5d/2D01C8DC-05B6-421A-B6AA-6E113740A1CF.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/2d01c8dc-05b6-421a-b6aa-6e113740a1cf-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-18: the whole yew beside the stone tower, its huge burred and folded bole inside a rope ring, gravestones around it, crown of long limbs, daylight, colour. Live as dartington/dtg_001 (a parallel run had published the tree from its GPS fix minutes before; the photographs went onto that entry).",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "dartington/dtg_001"
   }
  ]
 }
