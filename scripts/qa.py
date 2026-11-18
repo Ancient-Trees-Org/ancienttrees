@@ -1330,8 +1330,11 @@ def check_one_email_domain_list():
     root = Path(__file__).resolve().parent.parent
     want = set(json.loads((root / "data" / "email-domains.json").read_text(encoding="utf-8"))["domains"])
     out = []
+    # The sign-in mail hook carries a copy too (2026-11-18): it refuses an
+    # address whose domain is a typo of a listed one and takes no mail.
     for rel in ("ios/AncientTrees/AncientTrees/Kit/EmailSuggest.swift",
-                "android/app/src/main/java/app/ancienttrees/account/EmailSuggest.kt"):
+                "android/app/src/main/java/app/ancienttrees/account/EmailSuggest.kt",
+                "supabase/functions/send-email/index.ts"):
         p = root / rel
         if not p.exists():
             out.append("%s is missing (the app's copy of data/email-domains.json)" % rel)

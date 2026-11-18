@@ -39,6 +39,99 @@ const onYahoo = (addr: string) => {
   return YAHOO_FAMILY.includes(domain.split(".")[0]) || SIGNED_ONLY_DOMAINS.includes(domain);
 };
 
+// AN ADDRESS THAT CANNOT RECEIVE MAIL IS REFUSED BEFORE ANY ACCOUNT WAITS ON IT
+// (Hidde, 2026-11-18, after a welcome mail to "hoymail.com" sat retrying for a
+// day: "it doesnt stop people from making the mistake"; CONVENTIONS.md "A
+// mistyped email address", layer 3). "Did you mean ...?" under the field only
+// warns, and a second Send went out as typed. The convention for a hard stop
+// is a mail-server lookup at sign-up: a domain that can receive no mail is
+// refused. hoymail.com has no mail server but does point at a web server, and
+// mail may fall back to that (RFC 5321), so a plain lookup lets it through.
+// So the rule: refused when the domain has no mail server AND it is a typo of
+// a provider on our list (the same "Did you mean" rule as the field), or when
+// the domain resolves to nothing at all. Anything else, or a lookup that fails
+// or is slow, goes out as before: never refuse a real address on a hiccup.
+// Every surface sends its link through this hook, so web, iPhone and Android
+// (old builds too) are held the same way, and each already shows the
+// suggestion under the field. The refusal's message is "undeliverable:<the
+// corrected address or nothing>", which the sign-in screens read.
+// DOMAINS-BEGIN (a copy of data/email-domains.json; qa's check_one_email_domain_list())
+const DOMAINS = [
+  "gmail.com", "googlemail.com",
+  "outlook.com", "outlook.fr", "outlook.de", "outlook.es", "outlook.it", "outlook.pt",
+  "hotmail.com", "hotmail.co.uk", "hotmail.fr", "hotmail.de", "hotmail.es", "hotmail.it", "hotmail.nl", "hotmail.be",
+  "live.com", "live.co.uk", "live.nl", "live.fr", "live.be", "msn.com",
+  "yahoo.com", "yahoo.co.uk", "yahoo.fr", "yahoo.de", "yahoo.es", "yahoo.it", "yahoo.gr", "yahoo.com.au", "ymail.com", "rocketmail.com",
+  "icloud.com", "me.com", "mac.com",
+  "aol.com", "aol.co.uk",
+  "protonmail.com", "proton.me", "pm.me",
+  "gmx.com", "gmx.de", "gmx.net", "gmx.at", "gmx.ch", "web.de", "t-online.de", "freenet.de",
+  "mail.com", "zoho.com", "fastmail.com",
+  "btinternet.com", "sky.com", "virginmedia.com", "talktalk.net", "ntlworld.com",
+  "ziggo.nl", "kpnmail.nl", "xs4all.nl", "planet.nl", "home.nl", "hetnet.nl", "telenet.be", "skynet.be",
+  "orange.fr", "free.fr", "laposte.net", "sfr.fr", "wanadoo.fr",
+  "libero.it", "tiscali.it", "virgilio.it", "alice.it",
+  "sapo.pt", "telefonica.net",
+  "comcast.net", "verizon.net", "att.net", "sbcglobal.net", "bellsouth.net", "cox.net", "charter.net",
+  "bigpond.com", "optusnet.com.au", "shaw.ca", "rogers.com", "sympatico.ca",
+  "naver.com", "qq.com", "163.com", "yandex.com",
+];
+// DOMAINS-END
+
+function dist(a: string, b: string) {
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    }
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+// The listed domain this one is a typo of, by the field's rule
+// (site/src/lib/email-suggest.ts): nearest by edit distance, at most 2 apart
+// (1 for six letters or fewer), never on a tie, never for a listed domain.
+export function typoOf(dom: string): string | null {
+  if (DOMAINS.includes(dom)) return null;
+  let best: string | null = null, bestD = 99, tie = false;
+  for (const d of DOMAINS) {
+    const n = dist(dom, d);
+    if (n < bestD) { bestD = n; best = d; tie = false; } else if (n === bestD) tie = true;
+  }
+  return best && !tie && bestD <= (dom.length <= 6 ? 1 : 2) ? best : null;
+}
+
+// "yes", "no" or "unknown" (an error that is not "no such record", or slow).
+async function has(dom: string, type: "MX" | "A" | "AAAA"): Promise<"yes" | "no" | "unknown"> {
+  const timeout = new Promise<"unknown">((ok) => setTimeout(() => ok("unknown"), 2500));
+  const look = (async () => {
+    try {
+      const recs = await Deno.resolveDns(dom, type) as unknown[];
+      // A null MX ("0 .", RFC 7505) says the domain takes no mail.
+      if (type === "MX" && recs.every((r: any) => !r.exchange || r.exchange === "." || r.exchange === "")) return "no";
+      return recs.length ? "yes" : "no";
+    } catch (e) {
+      return e instanceof Deno.errors.NotFound ? "no" : "unknown";
+    }
+  })();
+  return await Promise.race([look, timeout]);
+}
+
+// null when the address may receive mail, else the corrected address or "".
+export async function undeliverable(addr: string): Promise<string | null> {
+  const at = addr.lastIndexOf("@");
+  if (at < 1) return null;
+  const dom = addr.slice(at + 1).trim().toLowerCase();
+  if (!dom || DOMAINS.includes(dom)) return null;
+  if ((await has(dom, "MX")) !== "no") return null;
+  const fix = typoOf(dom);
+  if (fix) return addr.slice(0, at).trim() + "@" + fix;
+  const [a, aaaa] = await Promise.all([has(dom, "A"), has(dom, "AAAA")]);
+  return a === "no" && aaaa === "no" ? "" : null;
+}
+
 const gmail = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 465,
@@ -131,6 +224,19 @@ Deno.serve(async (req) => {
     `&type=${encodeURIComponent(kind)}&redirect_to=${encodeURIComponent(email_data.redirect_to || email_data.site_url || "https://ancienttrees.app")}`;
   const { subject, html } = render(kind, url, email_data.token, user.new_email || user.email);
   const to = user.email;
+  // Only the mails a person waits on to get in; a password reset or invite to
+  // an account that already exists goes out as before.
+  if (["signup", "magiclink", "email"].includes(kind)) {
+    const fix = await undeliverable(to);
+    if (fix !== null) {
+      console.log("refused, cannot receive mail", kind, to.split("@").pop());
+      // Status 200 with the error in the body: Supabase Auth passes http_code
+      // and message on to the sign-in screen only that way (a 422 status came
+      // back to the screen as "unexpected status code from hook", 2026-11-18).
+      return new Response(JSON.stringify({ error: { http_code: 422, message: "undeliverable:" + fix } }),
+        { status: 200, headers: { "Content-Type": "application/json" } });
+    }
+  }
   const [first, second] = onYahoo(to) ? [viaResend, viaGmail] : [viaGmail, viaResend];
 
   try {

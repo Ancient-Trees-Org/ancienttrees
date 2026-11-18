@@ -705,6 +705,17 @@ export const SIGNIN_JS = `
       headers: { 'apikey': SBK, 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: email, create_user: true })
     }).then(function(r) {
+      // The send-email hook refuses an address whose domain cannot receive
+      // mail ("undeliverable:<corrected address or nothing>", 2026-11-18): say
+      // so, and the "Did you mean" line under the field stays where it is.
+      if (r.status === 422) return r.json().then(function(b) {
+        if (String((b && b.msg) || '').indexOf('undeliverable:') !== 0) throw new Error('otp');
+        try { at.track('email-undeliverable'); } catch (e) {}
+        var f = document.getElementById('signin-email');
+        f.setCustomValidity(document.getElementById('signin-form').getAttribute('data-nomail') || '');
+        document.getElementById('signin-form').reportValidity();
+        f.addEventListener('input', function clear() { f.setCustomValidity(''); f.removeEventListener('input', clear); });
+      });
       if (!r.ok) throw new Error('otp');
       document.getElementById('signin-sent-to').textContent = email;
       document.getElementById('signin-ask').hidden = true;

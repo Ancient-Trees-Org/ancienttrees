@@ -82,6 +82,9 @@ export const EMAIL_SUGGEST_JS = `
       b.textContent = s;
       b.addEventListener('click', function() {
         input.value = s;
+        // A refusal from the server ("That address can't receive mail") was
+        // about the address just replaced.
+        input.setCustomValidity('');
         box.hidden = true;
         shownFor = null;
         try { at.track('email-suggest-taken'); } catch (e) {}

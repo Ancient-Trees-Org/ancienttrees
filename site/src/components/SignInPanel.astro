@@ -59,7 +59,7 @@ const Heading = p === "signin" ? "h3" : "h1";
 <button type="button" class="oauth-btn oauth-quiet" id={`${p}-more`}><span>{T.more}</span></button>
 
 <div id={`${p}-rest`} hidden>
-  <form id={`${p}-form`} class="signin-form" autocomplete="email">
+  <form id={`${p}-form`} class="signin-form" autocomplete="email" data-nomail={T.noMail}>
     <input type="email" id={`${p}-email`} placeholder={T.placeholder} aria-label={T.emailLabel} required>
     {/* "Did you mean ...?" (lib/email-suggest.ts): filled and shown by script
         when the part after the @ is a letter or two off a known provider. */}

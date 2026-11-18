@@ -89,6 +89,10 @@ export interface SignInStrings {
    *  off a known provider (2026-11-16). %s is the corrected address, which
    *  is the button that puts it in. */
   suggest: string;
+  /** When the server refused the address because its domain cannot receive
+   *  mail (2026-11-18, the send-email hook); the "Did you mean" line stays
+   *  under it when there is a corrected address. */
+  noMail: string;
   /** On the check-your-inbox step: back to the field to fix the address. */
   change: string;
   /** Labels a screen reader gets, which were English on every page until
@@ -131,6 +135,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "We sent a sign-in link to ",
     sentBody2: ". It works once and brings you straight back here.",
     suggest: "Did you mean %s?",
+    noMail: "That address can't receive mail.",
     change: "Use a different address",
     close: "Close",
     emailLabel: "Email address",
@@ -167,6 +172,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "Hemos enviado un enlace de acceso a ",
     sentBody2: ". Funciona una vez y te trae de vuelta aquí.",
     suggest: "¿Querías decir %s?",
+    noMail: "Esa dirección no puede recibir correo.",
     change: "Usar otra dirección",
     close: "Cerrar",
     emailLabel: "Dirección de email",
@@ -200,6 +206,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "Abbiamo inviato un link di accesso a ",
     sentBody2: ". Funziona una volta sola e ti riporta esattamente qui.",
     suggest: "Intendevi %s?",
+    noMail: "Questo indirizzo non può ricevere posta.",
     change: "Usa un altro indirizzo",
     close: "Chiudi",
     emailLabel: "Indirizzo email",
@@ -233,6 +240,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "We hebben een inloglink gestuurd naar ",
     sentBody2: ". Hij werkt één keer en brengt je terug naar deze pagina.",
     suggest: "Bedoel je %s?",
+    noMail: "Dit adres kan geen mail ontvangen.",
     change: "Ander adres gebruiken",
     close: "Sluiten",
     emailLabel: "E-mailadres",
@@ -266,6 +274,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "Wir haben einen Anmeldelink an ",
     sentBody2: " geschickt. Er funktioniert einmal und bringt dich direkt hierher zurück.",
     suggest: "Meintest du %s?",
+    noMail: "Diese Adresse kann keine Mails empfangen.",
     change: "Andere Adresse verwenden",
     close: "Schließen",
     emailLabel: "E-Mail-Adresse",
@@ -299,6 +308,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "Enviámos um link de acesso para ",
     sentBody2: ". Funciona uma vez e traz-te de volta a esta página.",
     suggest: "Querias dizer %s?",
+    noMail: "Este endereço não pode receber e-mails.",
     change: "Usar outro endereço",
     close: "Fechar",
     emailLabel: "Endereço de email",
@@ -332,6 +342,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "Nous avons envoyé un lien de connexion à ",
     sentBody2: ". Il fonctionne une seule fois et vous ramène directement ici.",
     suggest: "Vouliez-vous dire %s ?",
+    noMail: "Cette adresse ne peut pas recevoir d'e-mails.",
     change: "Utiliser une autre adresse",
     close: "Fermer",
     emailLabel: "Adresse email",
@@ -365,6 +376,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentBody1: "サインインのリンクを ",
     sentBody2: " に送った。リンクは一度だけ使えて、いまいたページに戻る。",
     suggest: "もしかして %s?",
+    noMail: "このアドレスはメールを受け取れません。",
     change: "別のアドレスを使う",
     close: "閉じる",
     emailLabel: "メールアドレス",

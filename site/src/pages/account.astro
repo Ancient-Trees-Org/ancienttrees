@@ -274,7 +274,14 @@ const canonical = `${BASE_URL}/account`;
       method: "POST",
       headers: { "apikey": KEY, "Content-Type": "application/json" },
       body: JSON.stringify({ email: email, create_user: true })
-    }).then(function(r) { done(r.ok); }).catch(function() { done(false); });
+    }).then(function(r) {
+      // Refused by the send-email hook: the domain cannot receive mail
+      // (2026-11-18). done() gets "nomail" instead of false.
+      if (r.status === 422) return r.json().then(function(b) {
+        done(String((b && b.msg) || "").indexOf("undeliverable:") === 0 ? "nomail" : false);
+      });
+      done(r.ok);
+    }).catch(function() { done(false); });
   }
   var cooldown = null;
   function startCooldown() {
@@ -337,7 +344,13 @@ const canonical = `${BASE_URL}/account`;
     if (holdForSuggestion()) return;
     lastEmail = e;
     sendLink(e, function(ok) {
-      if (ok) {
+      if (ok === "nomail") {
+        // Stays until they change the address; the "Did you mean" line stays under it.
+        var f = document.getElementById("acct-email");
+        f.setCustomValidity(document.getElementById("acct-form").getAttribute("data-nomail") || "");
+        document.getElementById("acct-form").reportValidity();
+        f.addEventListener("input", function clear() { f.setCustomValidity(""); f.removeEventListener("input", clear); });
+      } else if (ok) {
         document.getElementById("sent-to").textContent = mask(e);
         show("st-sent"); startCooldown();
       } else {

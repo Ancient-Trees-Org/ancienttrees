@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 session: a sign-up to an address that can't receive mail is refused
+
+- **Product, LIVE in the hook since about 10:30 UTC** (send-email v9): a sign-in or sign-up link to an address whose domain has no mail server and is a typo of a provider on data/email-domains.json (hoymail.com for hotmail.com), or whose domain does not exist at all, is refused instead of sent. Hidde, after a welcome mail to "hoymail.com" sat retrying for a day: the "Did you mean" warning "doesnt stop people from making the mistake". Benchmarked (CONVENTIONS.md "A mistyped email address", layer 3): the hard stop at sign-up is a mail-server lookup; nobody mails a guessed address after a bounce. A lookup that errs or is slow lets the mail through. qa's `check_one_email_domain_list()` now also holds the hook's copy of the list.
+- **Website** (with this deploy): the sign-in sheet and /account say "That address can't receive mail." in all eight languages, and the field stays blocked until the address changes or the "Did you mean" address is tapped. **Apps**: blocked already through the server; they show their could-not-send line with the suggestion under it. For the next iOS and Android build: show `noMail` (site/src/lib/signin-strings.ts) when /auth/v1/otp answers 422 with `msg` starting "undeliverable:".
+- Tested against the live hook: hoymail refused with the corrected address, a non-existent domain refused, our own address and a real domain sent; a real /auth/v1/otp call for a hoymail address comes back 422 "undeliverable:…@hotmail.com" and leaves no account behind. Not checked: the web message rendered in a browser (checked after the deploy).
+- Slip: one test call sent a "Reset your password" mail with a dead link to test@mail.com, a stranger's address if it exists.
+- The reader of 11-16 (hoymail, unconfirmed) signed up at 06:45 UTC, seven hours before the warning existed. A one-line mail to the corrected address waits for Hidde's yes.
+
 ## 2026-11-18 session: a reader's Saharan cypress live (Djanet, Algeria)
 
 - **Product**: the Tassili cypress (reader tip 947) is live as djanet/djn_001, a Saharan cypress (Cupressus dupreziana) on the Tassili n'Ajjer. It was held on 11-17 for no_location; the reader mailed a Google Earth screenshot marking it north of Djanet (saved with `outreach_inbox.py --save-from`, out/mail-photos/colegravebill/). The pin is read off a tilted 3D view, so it is `approximate` and the access line says plainly that it is the reader's map mark and that the Djanet guides know the cypress sites. The story quotes the reader unnamed; species facts are from Wikipedia (212 left in March 2026). The congratulation mail goes through tree_approved.py as usual.
