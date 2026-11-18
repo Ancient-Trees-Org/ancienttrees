@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-18, night run (second attempt): shipped nothing, supply is dry
+
+- Product: no change. No tree went live.
+- Birmingham (UK) verify: no naming body, one Sutton Park ATI oak added as a lead, nothing met the bar. Released.
+- Coimbra verify: the unmined register rows are all duplicates of live trees; leads still blocked on access or pins. cbr_007 in coimbra-verified.json is a duplicate of a live tree (stale file). Wall for 48h. If anyone wants more: fetch the UC tomography PDF for the botanical-garden eucalyptus pin.
+- Write pass on every waiting entry and the 5 READY leads: all held for a closed reason (access x3, duplicate x1, no pin x2, street row, shrubs, no size or story). Detroit det_001 and det_002 stories are written and wait for a pin.
+- For Hidde: nothing. READY is 0 and the focus cities are walls or full, so the shelf cannot refill from desk research alone.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
