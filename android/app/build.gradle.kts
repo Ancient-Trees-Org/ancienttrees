@@ -78,7 +78,21 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             if (uploadKey.isNotEmpty()) signingConfig = signingConfigs.getByName("upload")
         }
+        // THE PLAY BUILD'S R8, WITH THE TEST DOOR OPEN: shrunk and renamed with the
+        // same rules as release, but debuggable, so LaunchArgs reads the walk's
+        // arguments and FlowWalk runs against what R8 leaves (Hidde, 2026-11-18:
+        // "laat die door alle tests lopen, niet alleen de testversie").
+        //   ./gradlew connectedAndroidTest -PtestMinified
+        create("minified") {
+            initWith(getByName("release"))
+            isDebuggable = true
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+            testProguardFiles("proguard-test-rules.pro")
+            proguardFile("proguard-minified-keep.pro")
+        }
     }
+    if (project.hasProperty("testMinified")) testBuildType = "minified"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
