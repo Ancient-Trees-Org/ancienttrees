@@ -832,6 +832,7 @@ struct TreeDetail: View {
                 .onTapGesture { viewingOwn = mine ?? (tree.photo == nil ? yourShots.first : nil) }
                 .accessibilityAddTraits(.isButton)
                 .accessibilityIdentifier("tree-photo-open")
+                .accessibilityLabel("Open the photograph")
         } else if let p = tree.photo, let url = p.full {
             VStack(alignment: .leading, spacing: 6) {
                 // AN EMPTY BOX WITH THE PHOTOGRAPH LAID OVER IT, not a
@@ -910,6 +911,7 @@ struct TreeDetail: View {
                     .onTapGesture { if shotAt < tree.shots.count { photoAt = shotAt; showingPhoto = true } }
                     .accessibilityAddTraits(.isButton)
                     .accessibilityIdentifier("tree-photo-open")
+                    .accessibilityLabel("Open the photograph")
                     // The way to the map, in the corner a card already trained
                     // people to look at. It replaces the 150 point map card
                     // that used to sit between the facts and the story and
