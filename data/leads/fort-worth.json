@@ -490,7 +490,8 @@
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
       "status": "open",
-      "species_basis": "genus read from the tree's own name; ask the reader which species"
+      "species_basis": "genus read from the tree's own name; ask the reader which species",
+      "why": "Red oaks planted 1980s along a street, a row not one point (checked 2026-11-18)."
     },
     {
       "name": "Traders Oak",
@@ -553,7 +554,8 @@
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
       "status": "open",
-      "species_basis": "genus read from the tree's own name; ask the reader which species"
+      "species_basis": "genus read from the tree's own name; ask the reader which species",
+      "why": "Seminary campus; open access not evidenced, city layer only (checked 2026-11-18)."
     },
     {
       "name": "Foster Park Trident Maple",
@@ -616,7 +618,8 @@
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
       "status": "open",
-      "species_basis": "genus read from the tree's own name; ask the reader which species"
+      "species_basis": "genus read from the tree's own name; ask the reader which species",
+      "why": "City layer only, saved-tree note, no size or location evidence beyond a point (checked 2026-11-18)."
     },
     {
       "name": "The Big Greene Tree",
@@ -647,7 +650,8 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open"
+      "status": "blocked",
+      "why": "Died in 2013 per the city's own layer; never ship (checked 2026-11-18)."
     },
     {
       "name": "The Hollow Pecan",
@@ -820,7 +824,8 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open"
+      "status": "verified",
+      "why": "verified 2026-11-18, in data/research/fort-worth-verified.json"
     },
     {
       "name": "Downtown Red Mulberry",
@@ -835,8 +840,9 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open",
-      "species_basis": "genus read from the tree's own name; ask the reader which species"
+      "status": "verified",
+      "species_basis": "genus read from the tree's own name; ask the reader which species",
+      "why": "verified 2026-11-18, in data/research/fort-worth-verified.json"
     },
     {
       "name": "Camp Carter YMCA Grandmother Oak",
@@ -1133,7 +1139,8 @@
         "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0"
       ],
       "source": "City of Fort Worth heritage trees layer (government; the service name says Test, so treat the list as the city's draft). Species is in PopupInfo text. Facts only.",
-      "status": "open"
+      "status": "open",
+      "why": "Bur oak planted 1999 at the courthouse, young; not worth the walk (checked 2026-11-18)."
     }
   ],
   "blocked": [

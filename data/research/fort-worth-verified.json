@@ -566,5 +566,58 @@
     "curation_status": "flagged",
     "story": "This live oak may be pointing at a river that is no longer there. The City of Fort Worth's heritage tree layer says its trunk bends toward a deep bend in the Trinity River, a bend that now lies under the water of Lake Worth.\n\nThe city believes the shape is not an accident. Its register calls this a marker tree, bent while young by Indigenous groups such as the Comanche, and says such trees could hold messages in the nose, the small cavity at the end of the bent trunk.\n\nBelieves is the right word. On 6 May 2014 the Texas Historic Tree Coalition visited, documented its size and took samples to age it. Wes Culwell, a master arborist who wrote up the visit, said the group thought it probably marked a spot in the cattails where fish were caught, and that a report would go to tribal leaders in Oklahoma, with a decision a year or two later. We have found no published result. The bend is there to see; what it meant is still waiting for an answer.\n\nThe oak stands on the edge of a ridge in Arrow S Park, looking over the lake near the Loop 820 bridge. The park's other heritage tree, the George T. Reynolds Live Oak, is a separate trunk. No age, girth or height has been published, and no recent dated photograph of this one either. If you know how the 2014 samples came out, tell us.",
     "how_to_recognise": "You can recognise it by the bent trunk that points out over the lake toward the Loop 820 bridge. It stands on the ridge edge in Arrow S Park, a different tree from the park's George T. Reynolds Live Oak."
+  },
+  {
+    "id": "ftw_028",
+    "name": "Downtown Red Mulberry",
+    "species": "Red Mulberry (Morus rubra)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "location": {
+      "address": "Downtown Fort Worth, near Heritage Park / Courthouse area (city layer point; street address not published)",
+      "latitude": 32.756941,
+      "longitude": -97.327398,
+      "neighbourhood": "Downtown"
+    },
+    "verified_sources": [
+      "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0",
+      "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+    ],
+    "official_register": {
+      "name": "City of Fort Worth Heritage Trees (Urban Forestry)",
+      "url": "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+    },
+    "access": "Public ground downtown: a solitary tree on a grass island among historical markers; free, no entry needed.",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "One source (the city's heritage tree layer and story map, the owner of the ground): 'large, solitary red mulberry... sitting in an island of grass surrounded by concrete... long been in the center of the action'; downtown hub of the former frontier outpost, surrounded by historical markers and century-old structures. No size, girth or age published. lifecheck NONE: no independent recent alive evidence; flagged 'one source, no alive evidence'. Pin is the city layer point, not checked on the crown. Wikipedia Heritage Park Plaza page does not mention it. Cluster: about 600 m from ftw_009 Steele's Tavern Oak and the Courthouse oaks."
+  },
+  {
+    "id": "ftw_029",
+    "name": "Veterans Memorial Park Grove",
+    "species": "Oak (Quercus sp.), four oaks of different species",
+    "age_estimate": "planted 1932 to 1995",
+    "age_min": 30,
+    "age_max": 94,
+    "location": {
+      "address": "4120 Camp Bowie Boulevard, Fort Worth, TX 76107",
+      "latitude": 32.744027,
+      "longitude": -97.379757,
+      "neighbourhood": "Camp Bowie District"
+    },
+    "verified_sources": [
+      "https://services5.arcgis.com/3ddLCBXe1bRt7mzj/arcgis/rest/services/Heritage_Trees_Test/FeatureServer/0",
+      "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831",
+      "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/veterans-memorial-park"
+    ],
+    "official_register": {
+      "name": "City of Fort Worth Heritage Trees (Urban Forestry)",
+      "url": "https://storymaps.arcgis.com/stories/9f6ce79e10a7491aa8d29327cf389831"
+    },
+    "access": "City park, open dawn to dusk (city park page); free.",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "City heritage story: four trees stand in the centre of this small park as living tributes to veterans; oaks, each a different species, planted between 1932 and 1995 by organizations honoring veterans and their families. Park on the former Camp Bowie (36th Infantry Division WWI training camp); Arlington Heights Blvd renamed Camp Bowie Blvd after 1919. City park page: dedicated 1923; red granite 36th Division monument 1950; bronze 'Duty' 1987; restoration 1992. Individual species, which tree dates from 1932 and which from 1995, and measurements are not published, so age range is of the plantings, not a tree age. The ground's owner is the source; lifecheck NONE, no recent alive evidence, flagged. Pin is the city layer point for the grove; ensemble of four in one small park, one place to stand. Near ftw_020 and ftw_022 (about 1.5 km east)."
   }
 ]
