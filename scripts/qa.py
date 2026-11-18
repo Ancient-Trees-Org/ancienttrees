@@ -478,6 +478,15 @@ def check_app_crashes_reach_a_person():
     return out
 
 
+def check_a_server_blip_does_not_sign_out():
+    """refreshIfStale clears the session only on 400/401/403, never on a 429
+    or 5xx (code-audit WEB-BUG-refresh-blip-signs-out, 2026-11-18)."""
+    src = (ROOT / "site/src/lib/signin-js.ts").read_text(encoding="utf-8")
+    if "r.status === 400 || r.status === 401 || r.status === 403" not in src or "'blip'" not in src:
+        return ["signin-js.ts: refreshIfStale must clear the session only on 400/401/403, so a 429 or 5xx cannot sign a visitor out"]
+    return []
+
+
 def check_a_stored_session_is_verified_with_the_server():
     """Every page that carries a heart must also carry the code that checks a
     stored session with Supabase and forgets it when the server says no.
@@ -4623,6 +4632,7 @@ def main():
     failures += check_every_reader_photo_reaches_hidde()
     failures += check_everything_sent_reaches_hidde()
     failures += check_every_site_route_is_claimed_or_excluded()
+    failures += check_a_server_blip_does_not_sign_out()
     failures += check_a_stored_session_is_verified_with_the_server()
     failures += check_run_prompt_forbids_compound_commands()
     failures += check_run_prompt_carries_no_expression()
