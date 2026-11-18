@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-18 night run (third attempt): Birmingham and Potsdam verified, 0 trees shipped
+
+- No product change. Birmingham verify (UK, from-zero on): nothing meets the bar again; the Uffculme yew in Kings Heath was felled in 2016 (blocked), a Grove Park cedar and a Highbury Park 515 cm oak added as leads (no coordinate, no photograph). Potsdam verify: already published, its 27 open leads held for private plots or no placeable pin; the Naturdenkmal 54 oak stays a lead.
+- READY leads 0. Porto, Portland, Munich and Vienna are full and refuse a claim; Sheffield, Leeds, Braga, San Francisco and the rest are walls. Both claims released.
+- Next: the verify shelf needs sources, not more passes on these cities. Try Spokane (18 of 20) or a register scout (Zurich BUILD) in a window with a fresh angle; translation lane is paused while TRANSLATIONS_OUT holds.
+
 ## 2026-11-18 night run (second retry): inbox already clear, Birmingham verify dispatched
 
 - Rung 1: `prepare.py --status` listed seven reader photographs as waiting, but sightings_inbox.py shows 550 of 552 handled; the four Salt Lake City ones are already live (see the reader judge entry below) and the two queued are the Fortingall and Reelig strips, judged. Nothing to apply. The status line is stale on these.
