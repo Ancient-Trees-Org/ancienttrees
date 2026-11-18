@@ -10,7 +10,7 @@ import java.util.Date
 class MeasureTest {
 
     private fun body(signedIn: Boolean, account: String?) = Measure.body(
-        "tree_opened", mapOf("tree" to "lis_001", "near" to "unknown"), "ABC", "0.1.0", "15", "play",
+        "tree_opened", mapOf("tree" to "lis_001", "near" to "unknown"), "ABC", "0.1.0", "7", "15", "play",
         signedIn, account, Date(0),
     )
 
@@ -22,9 +22,10 @@ class MeasureTest {
         assertTrue(b.getString("api_key").startsWith("phc_"))
         val p = b.getJSONObject("properties")
         assertEquals(
-            setOf("tree", "near", "\$process_person_profile", "app_version", "os", "build", "signed_in", "account"),
+            setOf("tree", "near", "\$process_person_profile", "app_version", "build_number", "os", "build", "signed_in", "account"),
             p.keys().asSequence().toSet(),
         )
+        assertEquals("7", p.getString("build_number"))
         assertEquals(false, p.getBoolean("\$process_person_profile"))
         assertEquals("Android 15", p.getString("os"))
         assertEquals("yes", p.getString("signed_in"))

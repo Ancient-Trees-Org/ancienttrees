@@ -20,7 +20,7 @@
 // today. What is left is one HTTP POST of a JSON object, which is what an
 // analytics SDK is underneath.
 //
-// WHAT WE SEND: an event name, the app version, the major OS version, how the
+// WHAT WE SEND: an event name, the app version and build number, the major OS version, how the
 // copy was built (debug, testflight or appstore, see `build` below), and an
 // install id that is a random UUID made on this phone, and, while somebody is
 // signed in, their account id (`account`). No email, no name, no coordinates,
@@ -146,9 +146,15 @@ public enum Measure {
         if name != "app_exit_abnormal" { ExitWatch.note(name, tree: props["tree"]) }
         guard enabled else { return }
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "?"
+        // THE BUILD NUMBER (CFBundleVersion, "42"), beside the marketing
+        // version that stays "1.0.4" across several builds. Hidde, 2026-11-18,
+        // after the quick-relaunch rate could not be split by build: without it
+        // nobody can say whether a fix in build 43 made the app die less often.
+        let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "?"
         var p: [String: Any] = props
         p["$process_person_profile"] = false
         p["app_version"] = version
+        p["build_number"] = buildNumber
         p["os"] = "iOS \(ProcessInfo.processInfo.operatingSystemVersion.majorVersion)"
         p["build"] = build
         p["signed_in"] = signedIn ? "yes" : "no"
