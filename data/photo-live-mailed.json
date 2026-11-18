@@ -2049,28 +2049,20 @@
    "sent": []
   },
   "p_f2787bdff05268fa5830d17e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b5e84e25-4eab-4c0c-8f75-ed8f7a911fa6",
      "tree_id": "vir_001",
-     "tree_name": "Chêne de la Vierge à Viroflay",
-     "city": "Viroflay",
-     "city_slug": "viroflay",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-18"
     },
     {
      "sighting_id": "5c0b2a94-6258-4c62-a700-27e3c9f08fa7",
      "tree_id": "vir_001",
-     "tree_name": "Chêne de la Vierge à Viroflay",
-     "city": "Viroflay",
-     "city_slug": "viroflay",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

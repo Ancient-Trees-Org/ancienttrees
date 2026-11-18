@@ -1265,6 +1265,16 @@
         "The Giant Sequoia of Lyons Farm"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f565b581b51154d7681a6e5d",
+      "place_slug": "dartington",
+      "place_name": "Dartington",
+      "date": "2026-11-18",
+      "trees": [
+        "The Yew by Dartington's Old Church Tower"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
