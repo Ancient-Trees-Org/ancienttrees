@@ -18,6 +18,9 @@ the track, so those people get access the moment Google approves. Feedback
 goes to info@ancienttrees.app. **Send nothing until Play shows the release
 approved** (Testing > Closed testing > Alpha: no longer "In review"); then
 step 4 below, to the 50 on the list only, on Hidde's "verstuur".
+Hidde, 2026-11-18: start with the 50 and see how it goes. If fewer than 12
+have joined a few days after the mail (Play shows the count on the Alpha
+track), add the next 150 Gmail addresses and mail them the same text.
 
 **The text below is Hidde's own (2026-11-17) and is agreed. It waits only for
 Google's approval.** The order, once he says go:
