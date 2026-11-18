@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: tip 1177 re-judged, a Dartington churchyard yew is live
+
+- **Live: Dartington (Devon), The Yew by Dartington's Old Church Tower (dtg_001)**, a new one-tree place. Tip 1177's app sighting (2d01c8dc) did reach the server after the run below looked (row updated 15:46 UTC). It carries a GPS fix "standing at the tree", species Taxus baccata, "Ancient" and a girth of 800 cm, but still no photograph. The fix is about 10 m from the listed tower of Dartington's demolished church (SX 79780 62693), where the Ancient Yew Group records three yews; the biggest, west of the tower, has been measured since 1787 (655 cm in 2012). The pin is confirmed from the reader's fix, with no photo, so the page stays out of Google until a reader adds to it. The story gives the group's figures as the group's and the 800 cm as the reader's, and asks which trunk they stood at. The lead in data/leads/dartmoor.json is marked published. The draft reply now says the tree is on the map and asks for the photo; bin it if the tree_approved congratulation goes first.
+- **Correction to the For Hidde line below:** for 1177 the sighting row did arrive, just without its photo (`photo` null). So the app is losing the photo upload, not the sighting. The collect-flow look is still worth doing.
+- This run had also written the Trollskogen beech before it saw the parallel run's `thl_001`. That version was dropped; theirs stands.
+
 ## 2026-11-18 reader judge: the Trollskogen twisted beech is live; Dartington tip recorded as a lead
 
 - **Live: Torna Hällestad (Lund, Sweden), The Twisted Beech of the Trollskogen (thl_001)**, re-opened on Hidde's word (not a bad frame): the reader's photo looks up into a contorted beech in summer leaf, GPS fix in the Gryteskog reserve. Pin confirmed, sources are Länsstyrelsen Skåne's reserve pages, a new one-tree place. The reader's three extra photos show other trees and are not used. Congratulation mail goes out with the knock once the tree is in the live feed.

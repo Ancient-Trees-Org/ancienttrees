@@ -15,7 +15,11 @@
    "found_by_reader": {
     "tip": "submission 1177"
    },
-   "found": "2026-11-18"
+   "found": "2026-11-18",
+   "status": "published",
+   "published_as": "dartington/dtg_001",
+   "judged": "2026-11-18",
+   "why": "Re-judged the same afternoon: the app sighting (2d01c8dc) reached the server after the first look, carrying species Taxus baccata, 'Ancient' and girth 800 cm, still no photograph. The fix is about 10 m from the listed tower of Dartington's demolished church, where the Ancient Yew Group records ancient yews; live as a reader's tree with a GPS fix and a written source."
   }
  ],
  "blocked": []

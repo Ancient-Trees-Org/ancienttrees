@@ -1,0 +1,68 @@
+{
+  "city": "Dartington",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Dartington is a village beside the River Dart, just north of Totnes in south Devon, best known for Dartington Hall and its grounds. West of the hall stands the tower of the old parish church, pulled down in 1873, and around it grow ancient yews, the biggest measured since 1787. A reader recorded one of them for us with a GPS fix beside the tower.",
+  "meta_description": "The ancient yews round the old church tower at Dartington Hall in Devon, measured since 1787: what is known about them and how to find them.",
+  "hero_tree_id": "dtg_001",
+  "oldest_tree_id": "dtg_001",
+  "question_meta": "The oldest trees at Dartington are the ancient yews round the old church tower by Dartington Hall, measured since 1787.",
+  "question_answer": "The ancient yews in the old churchyard round the tower of the former St Mary's church, just west of Dartington Hall. The biggest, a female yew west of the tower, measured 655 centimetres round in 2012.",
+  "question_context": "Dartington's parish church stood beside Dartington Hall until 1873, when it was pulled down and only its tower was kept. The yews that grew round it are still there. The Ancient Yew Group, which records old yews across Britain, lists three. The biggest is a female tree on the west side of the tower, first mentioned in 1787 when Richard Polwhele measured it. In 1962 Alan Mitchell recorded 716 centimetres at five feet, in 1999 the group's recorder found 658 close to the ground, and in 2012 it was 655 at fifteen centimetres; its trunk is knobbly, with nails still embedded in it. A fluted yew south-west of the tower measured 434 centimetres in 2008, and a sprawling yew on a bank to the north has not been measured. The group puts the churchyard in its ancient band. A reader sent us one of these yews with a GPS fix beside the tower and a girth of about eight metres by their own measure. The grounds of Dartington Hall are open to visitors.",
+  "faq": [
+    {
+      "q": "How old are the Dartington yews?",
+      "a": "Nobody has dated them. The Ancient Yew Group lists the biggest as ancient, and it has been measured since 1787."
+    },
+    {
+      "q": "Where are the yews at Dartington Hall?",
+      "a": "Round the tower of the former St Mary's church, the lone tower just west of Dartington Hall. The biggest stands on the west side of the tower."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "Yes. The old churchyard is in the grounds of Dartington Hall, which are open to visitors; check the estate's hours before you go."
+    }
+  ],
+  "trees": [
+    {
+      "id": "dtg_001",
+      "name": "The Yew by Dartington's Old Church Tower",
+      "species": "European Yew (Taxus baccata)",
+      "location": {
+        "address": "Old churchyard round the tower of the former St Mary's church, beside Dartington Hall, Dartington, Devon",
+        "latitude": 50.4516636703503,
+        "longitude": -3.69482961769375,
+        "neighbourhood": "Dartington Hall"
+      },
+      "story": "The church at Dartington was pulled down in 1873, and only its grey tower was left standing beside Dartington Hall. The yews around it stayed. A reader sent us one of them with a GPS fix taken a few metres from the tower: a European yew, ancient by their word, its trunk about eight metres round by their own measure.\n\nThe Ancient Yew Group, which records old yews across Britain, lists three here. The biggest, a female tree west of the tower, has been measured since 1787, and in 2012 its trunk was 655 centimetres round near the ground. One recorder called it one of the most knobbly yew boles to be seen, and nails are still embedded in the wood. A fluted yew grows south-west of the tower and a sprawling one on a bank to the north. The group puts the biggest in its ancient band, trees of five to seven metres round.\n\nWhich of these the reader stood at, and how their figure compares, we would like to know. If you visit, send us a photograph with your location and we will put it on this page.\n\nWalk all the way round the tower before you leave.",
+      "how_to_recognise": "The lone grey church tower just west of Dartington Hall, all that is left of the old church: the yews stand round it, the biggest on its west side with a hugely knobbly trunk.",
+      "verified_sources": [
+        "https://www.ancient-yew.org/yew_trees/dartington-401/ (Ancient Yew Group, Dartington tree 401: a female yew west of the tower, Ancient 5m-7m, 655 cm at 15 cm in 2012, 658 cm close to the ground in 1999, earliest mention 1787 by R. Polwhele; 'One of the most knobbly yew boles to be seen')",
+        "https://www.ancient-yew.org/yew_trees/dartington-402/ (Ancient Yew Group, Dartington tree 402: a fluted yew south-west of the church tower, 434 cm at 30 cm in 2008)",
+        "https://britishlistedbuildings.co.uk/101219690-tower-of-former-church-of-st-mary-immediately-west-of-dartington-hall-dartington (listed building: tower of the former church of St Mary, immediately west of Dartington Hall, SX 79780 62693)"
+      ],
+      "access": "Free. The old churchyard round the tower stands in the grounds of Dartington Hall, open to visitors; check the estate's hours before you go.",
+      "found_by_reader": {
+        "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+        "tip": "submission 1177",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood at this tree (GPS, standing at the tree, submission 1177); about 10 m from the listed tower."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (submission 1177, sighting 2d01c8dc-05b6-421a-b6aa-6e113740a1cf), GPS fix 'standing at the tree' at 50.45166, -3.69483, species Taxus baccata, age 'Ancient', girth 800 cm, no note; the photograph never reached us (the sighting row has none). The fix is about 10 m from the listed tower of the former St Mary's (SX 79780 62693), round which the Ancient Yew Group lists three yews (401, 402, 6746; its map point is the site, not each trunk). Which trunk the reader stood at is not known: the story names the group's figures as the group's and the reader's 800 cm as theirs, and asks. Published as a reader's tree with a GPS fix and a written source (CLAUDE.md 'Verify', closed list).",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ]
+}
