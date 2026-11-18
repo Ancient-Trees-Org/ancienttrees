@@ -1745,10 +1745,12 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "lead",
-   "why": "Re-opened 2026-11-18: the reader answered our mail (feedback 1142) that it is the giant sequoia in Lyons Farm Open Space, Worthing, and will try to take a photo again and look up who planted it. Earlier (2026-11-15): a giant sequoia seen trunk-up, a fine tree, no coordinate. Judge again with the park as its named site (approximate pin); the photograph was not on the judging machine on 11-18.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: looking straight up a huge, flaring, spongy red-brown trunk patched with moss, many limbs radiating out under a dark evergreen crown, overcast daylight, colour. The reader confirmed by mail that it stands in Lyons Farm Open Space; live as worthing/wor_001 with an approximate pin on the park (Hidde, 2026-11-17/18).",
    "seen": "2026-11-15",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
+   "species_basis": "genus read from the tree's own name; ask the reader which species",
+   "judged": "2026-11-18",
+   "published_as": "worthing/wor_001"
   },
   {
    "sighting_id": "60daa5db-07e5-48d7-be3d-04c5684d70a7",

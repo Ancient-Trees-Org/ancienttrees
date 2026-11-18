@@ -1386,6 +1386,99 @@ def check_a_given_photo_records_the_yes():
     return out
 
 
+def check_every_own_photo_has_a_card_copy():
+    """Every photograph on our own domain, lead or strip, has its 500 copy in
+    the manifest, unless the original is no wider than that.
+
+    Hidde, 2026-11-18, the New from visitors row and a tree's strip: "something
+    feels off with the quality of the photos ... weve made this mistake
+    before". 395 readers' photographs had no small copy, so every tile loaded
+    the 1600 pixel original and the browser shrank it seven times (the
+    2026-09-24 fault, masters served as cards, through a new door).
+    vendor_photos.py's own_copies() makes them, nightly and in the deploy
+    before the build; this fails the deploy when that step stops working.
+    Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    photos = root / "site" / "public" / "photos"
+    try:
+        man = json.loads((root / "data" / "photo-manifest.json").read_text(encoding="utf-8"))["photos"]
+    except (OSError, ValueError, KeyError):
+        return ["data/photo-manifest.json unreadable; run python3 scripts/vendor_photos.py --manifest"]
+    try:
+        from PIL import Image
+    except ImportError:
+        Image = None
+    out = []
+    for p in sorted((root / "data" / "cities").glob("*.json")):
+        try:
+            trees = json.loads(p.read_text(encoding="utf-8")).get("trees") or []
+        except ValueError:
+            continue
+        for t in trees:
+            for ph in [t.get("photo") or {}] + (t.get("photos") or []):
+                url = (ph or {}).get("url") or ""
+                if "ancienttrees.app/photos/" not in url or 500 in (man.get(url) or {}).get("widths", []):
+                    continue
+                src = photos / url.rsplit("/", 1)[-1]
+                if not src.exists():
+                    continue
+                if Image is not None:
+                    try:
+                        with Image.open(src) as im:
+                            if im.width <= 575:
+                                continue
+                    except Exception:
+                        pass
+                out.append("%s/%s: %s has no 500 copy, so cards and the strip load the "
+                           "original; run python3 scripts/vendor_photos.py --manifest"
+                           % (p.stem, t.get("id"), url.rsplit("/", 1)[-1]))
+    return out
+
+
+def check_every_copy_is_its_photograph():
+    """The small copy a card shows is the same picture as the photograph on
+    the page (2026-11-18, Palermo's ficus: its card showed an old Commons
+    frame that shared the reader photo's file name; the 2026-11-15 Birnam Oak
+    was the same fault). Only for photographs on our own domain, the ones
+    whose original is in the repository. A 24 by 24 grey thumbnail of each,
+    turned upright first, mean difference under 12 of 255 (matching pairs
+    measure under 3, wrong ones 40 to 75). Needs Pillow; without it, nothing
+    is checked. Removing this check needs Hidde."""
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        return []
+    root = Path(__file__).resolve().parent.parent
+    photos = root / "site" / "public" / "photos"
+    try:
+        man = json.loads((root / "data" / "photo-manifest.json").read_text(encoding="utf-8"))["photos"]
+    except (OSError, ValueError, KeyError):
+        return []
+
+    def thumb(p):
+        with Image.open(p) as im:
+            return list(ImageOps.exif_transpose(im).convert("L").resize((24, 24)).getdata())
+
+    out = []
+    for url, v in sorted(man.items()):
+        if "ancienttrees.app/photos/" not in url:
+            continue
+        orig = photos / url.rsplit("/", 1)[-1]
+        copy = photos / ("%s-%d.jpg" % (v["base"], min(v["widths"])))
+        if not orig.exists() or not copy.exists():
+            continue
+        try:
+            a, b = thumb(orig), thumb(copy)
+        except Exception:
+            continue
+        diff = sum(abs(x - y) for x, y in zip(a, b)) / len(a)
+        if diff >= 12:
+            out.append("%s is shown on cards as %s, which is a different picture (difference %.0f); "
+                       "rename the photograph and run python3 scripts/vendor_photos.py --manifest"
+                       % (orig.name, copy.name, diff))
+    return out
+
+
 def check_an_escaped_bug_has_a_test():
     """A bug a person found is closed only with the test that now catches it.
 
@@ -4627,6 +4720,8 @@ def main():
     failures += check_the_quality_line_stays_in_the_digest()
     failures += check_the_privacy_page_names_what_we_store()
     failures += check_a_given_photo_records_the_yes()
+    failures += check_every_own_photo_has_a_card_copy()
+    failures += check_every_copy_is_its_photograph()
     failures += check_web_add_photo_is_shared()
     failures += check_a_photo_is_a_visit_on_every_surface()
     failures += check_sightings_link_asks_only_for_real_rows()

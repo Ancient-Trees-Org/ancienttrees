@@ -3701,6 +3701,12 @@ Latin is under every row instead). `check_species_answer_to_every_name()`.
 
 ---
 
+## A feed of visitors' photographs: whole photographs, masonry, endless (2026-11-18, looked up)
+
+Hidde: "a see all button from new from visitors that leads to a page that has infinite scroll on it would be nice please benchmark web design first". **Unsplash** (unsplash.com/t/nature, opened in the browser that day): a masonry of whole photographs, each at its own shape, columns of equal width, more loading as you scroll, the photographer on the tile. **Pinterest** (from memory): the same masonry, pins placed left to right into the shortest column, a title and the creator under each. iNaturalist's observation grid answered with a bot check and was not read.
+
+**What we do:** /visitors, reached by "See all >" on the home row's heading (the 2026-10-04 entry below). The row's own card (photo, tree, city, the visitor's name) in a masonry of 5 to 2 columns by width, each photograph whole rather than the row's 4:3 crop, newest first, 24 more as the end comes near, and one line when there is nothing more. Endless because the items are endless and similar (the 2026-10-10 amendment below).
+
 ## Discover: infinite scroll or more shelves? (2026-10-04)
 
 Hidde asked whether Discover should become an infinite scroll, with rows like tree islands, tallest trees and the best of the US. These are the references as remembered that day, not re-read. **True infinite scroll is used only for feeds of endless, similar items:** Instagram Explore, Pinterest, TikTok, Airbnb's results grid. **Catalogue browse screens are long but they END:** AllTrails Explore (near you, popular, lists, by activity, about ten shelves), komoot Discover (highlights and collections near you), the App Store's Apps tab (about twenty shelves), Netflix (forty-odd rows, each one a deliberate pick, personalised by row order rather than by endless loading), Spotify Home (shelves, near-personal ones first).

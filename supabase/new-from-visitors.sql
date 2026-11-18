@@ -24,6 +24,10 @@
 -- writes (with updated_at) the moment a photograph goes live. Nothing new is
 -- stored; no new column; no table grant, a function grant only.
 
+-- 2026-11-18: sorted by when the photograph was SENT (its upload in storage),
+-- not when it was taken (Hidde: "sort by when it was sent, not when taken").
+-- Pasted together with visitor-photos.sql, which carries the same text.
+
 create or replace function public.new_from_visitors(n int default 12)
 returns table (
   sighting_id uuid,
@@ -35,25 +39,19 @@ returns table (
 )
 language sql
 security definer
-set search_path = public, extensions
+set search_path = public, extensions, storage
 stable
 as $$
-  -- NEWEST PHOTOGRAPH FIRST, AS MANY PEOPLE AS POSSIBLE (Hidde, 2026-11-07:
-  -- "shows as many different profiles as possible", "i want the most recent
-  -- uploads"). updated_at was the wrong clock: every status write touches it,
-  -- so September's Reykjavik photographs, rewritten on 11-03, stood before
-  -- Paris and Préfargier. taken_at is the photograph's own time (the table
-  -- has no created_at). Each person's newest photograph comes first, newest
-  -- person first; their second ones only after everyone has had a turn.
   select id, tree_id, at, author_name, author_avatar, author_id
   from (
-    select s.id, s.tree_id, coalesce(s.taken_at, s.updated_at) as at,
+    select s.id, s.tree_id, coalesce(o.created_at, s.taken_at, s.updated_at) as at,
            case when p.public then p.display_name end as author_name,
            case when p.public then p.avatar_url end as author_avatar,
            case when p.public and auth.uid() is not null then s.user_id end as author_id,
            row_number() over (partition by s.user_id
-                              order by coalesce(s.taken_at, s.updated_at) desc) as turn
+                              order by coalesce(o.created_at, s.taken_at, s.updated_at) desc) as turn
     from public.sightings s
+    left join storage.objects o on o.bucket_id = 'sightings' and o.name = s.photo
     left join public.profiles p on p.user_id = s.user_id
     where s.status = 'published' and s.tree_id is not null and s.photo is not null
       and encode(digest(s.user_id::text, 'sha1'), 'hex') <> all (array[

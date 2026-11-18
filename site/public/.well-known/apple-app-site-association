@@ -76,6 +76,10 @@
             "exclude": true
           },
           {
+            "/": "/visitors",
+            "exclude": true
+          },
+          {
             "/": "/press",
             "exclude": true
           },
@@ -168,11 +172,19 @@
             "exclude": true
           },
           {
+            "/": "/de/visitors",
+            "exclude": true
+          },
+          {
             "/": "/es",
             "exclude": true
           },
           {
             "/": "/es/cities",
+            "exclude": true
+          },
+          {
+            "/": "/es/visitors",
             "exclude": true
           },
           {
@@ -184,11 +196,19 @@
             "exclude": true
           },
           {
+            "/": "/fr/visitors",
+            "exclude": true
+          },
+          {
             "/": "/it",
             "exclude": true
           },
           {
             "/": "/it/cities",
+            "exclude": true
+          },
+          {
+            "/": "/it/visitors",
             "exclude": true
           },
           {
@@ -200,6 +220,10 @@
             "exclude": true
           },
           {
+            "/": "/nl/visitors",
+            "exclude": true
+          },
+          {
             "/": "/pt",
             "exclude": true
           },
@@ -208,11 +232,19 @@
             "exclude": true
           },
           {
+            "/": "/pt/visitors",
+            "exclude": true
+          },
+          {
             "/": "/ja",
             "exclude": true
           },
           {
             "/": "/ja/cities",
+            "exclude": true
+          },
+          {
+            "/": "/ja/visitors",
             "exclude": true
           },
           {
