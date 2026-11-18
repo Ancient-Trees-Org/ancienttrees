@@ -477,6 +477,28 @@
    "agreed": null
   },
   {
+   "id": "sight:145ff4d3-da0a-437e-8295-38c085728740",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Inner Temple Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/145ff4d3-da0a-437e-8295-38c085728740.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 107,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the gnarled, leaning black mulberry in the Inner Temple garden, daylight and colour; first photograph of lon_020, pin moved 107 m to the reader's GPS fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
