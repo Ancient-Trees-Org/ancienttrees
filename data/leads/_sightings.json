@@ -6616,6 +6616,37 @@
      1000082
     ]
    }
+  },
+  {
+   "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab",
+   "user_id": "p_5c22c3030ca37ddafb789ab6",
+   "mine": false,
+   "name": "Rain tree , National Gallery of Modern Art",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 12.9998783333333,
+   "longitude": 77.5939633333333,
+   "near": null,
+   "photo": "p_5c22c3030ca37ddafb789ab6/853A4B12-0595-4189-8E63-1771C3B8CAAB.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/853a4b12-0595-4189-8e63-1771c3b8caab-extra-1.jpg",
+    "out/sightings/853a4b12-0595-4189-8e63-1771c3b8caab-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-18"
   }
  ]
 }

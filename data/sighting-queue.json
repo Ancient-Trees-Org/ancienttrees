@@ -1,5 +1,54 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-18",
- "queue": []
+ "queue": [
+  {
+   "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+   "user_id": "p_5c22c3030ca37ddafb789ab6",
+   "tree_id": "cam_011",
+   "city_slug": "cambridge",
+   "city": "Cambridge",
+   "tree_name": "The Great Oriental Plane of Emmanuel College",
+   "match": "app",
+   "distance_m": 3706,
+   "mine": false,
+   "current_photo": "approved",
+   "current_source": "contributor",
+   "tree_species": "Oriental Plane (Platanus orientalis)",
+   "recognise": "In the Fellows' Garden: a huge plane whose long, mottled grey limbs swoop down to the lawn and up again, some rooting where they touch, making a low dome you can stand under. A tall ginkgo grows close beside it.",
+   "tree_girth_cm": 478,
+   "tree_height_m": null,
+   "story": "Emmanuel College has never settled how old its great oriental plane is. A girth measured in 1986 suggested planting around 1836, the 478 centimetres measured in 2006 pointed to about 1816, and many admirers prefer 1802, the year Jesus College planted its plane from seed brought home from Thermopylae. The college's own booklet on the tree calls that last idea unprovable.\n\nWhat nobody disputes is its shape. Most oriental planes hold their crowns up; this one weeps. Its long grey limbs dive towards the grass, turn back on themselves and dive again, and where they touch the ground some have put down roots, so the tree is slowly ringing itself with new trunks. A photograph in the college archives",
+   "name": "The Great Oriental Plane of Emmanuel College",
+   "species": "Oriental Plane",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "taken_at": "2026-11-16",
+   "photo_path": "05b7a25a-9dc1-4b49-803a-fc19cd06f034/B43D0C0B-469B-44EF-AB4B-BBA2C7B8F7DC.jpg",
+   "sign_path": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-1.jpg",
+    "out/sightings/b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-2.jpg",
+    "out/sightings/b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-3.jpg"
+   ],
+   "latitude": 52.171955,
+   "longitude": 0.113727833333333,
+   "file": "out/sightings/b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc.jpg",
+   "light": {
+    "verdict": "OK: daylight, colour, subject separated",
+    "brightness": 105.9,
+    "contrast": 47.5,
+    "colour": 0.53,
+    "blown": 0.0,
+    "dark": 0.01,
+    "subject": 105.8,
+    "subject_colour": 0.53
+   },
+   "vouched": null,
+   "rank": 1,
+   "worth": "the tree already has one: ship this only if it is better"
+  }
+ ]
 }
