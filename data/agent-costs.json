@@ -2,6 +2,9 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-18": [
+      {"date": "2026-11-18", "kind": "verify", "target": "philadelphia", "tokens": 122592, "trees": 1, "note": "deepen pass, city mined out; phl_022 Morris elm flagged, 5 leads, 3 blocked"},
+      {"date": "2026-11-18", "kind": "verify", "target": "baltimore", "tokens": 87198, "trees": 1, "note": "no register; bal_005 Bolton Hill walnut flagged, 5 leads"},
+      {"date": "2026-11-18", "kind": "write", "target": "philadelphia+baltimore", "tokens": 103332, "trees": 2, "note": "2 merged; 3 Fort Worth READY leads already declined, 5 held for access or duplicate"},
       {
         "date": "2026-11-18",
         "kind": "verify",

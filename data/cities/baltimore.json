@@ -153,6 +153,44 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "bal_005",
+      "name": "The Jenkins Alley Walnut",
+      "species": "Common Walnut (Juglans regia)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 409,
+      "location": {
+        "address": "Jenkins Alley, behind 1325 Bolton Street, Bolton Hill, Baltimore, MD 21217",
+        "latitude": 39.306,
+        "longitude": -76.6246,
+        "neighbourhood": "Bolton Hill"
+      },
+      "verified_sources": [
+        "https://boltonhillmd.org/?p=24225",
+        "https://boltonhillmd.org/bulletin/bolton-hills-champion-trees/"
+      ],
+      "official_register": {
+        "name": "Maryland Notable Tree Registry (per the Bolton Hill Bulletin; no per-tree page found)",
+        "url": "https://dnr.maryland.gov/forests/pages/trees/bigtree.aspx"
+      },
+      "access": "Jenkins Alley is a back alley behind Bolton Street houses and Brown Memorial Church; no source says whether the tree is reachable on foot. View from the alley end if open; do not enter private yards.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Jenkins Alley behind 1325 Bolton Street",
+        "radius_m": 40
+      },
+      "curation_status": "flagged",
+      "story": "The neighbourhood paper got this tree's species wrong the first time, and it took two forestry volunteers to put it right. In the summer of 2017 the Bolton Hill Bulletin described a black walnut in Jenkins Alley, shading the back of Brown Memorial Church, with a trunk \"a whopping 161 inches around\". That is about 4.1 metres, and the writer wondered whether it might be a record for Bolton Hill.\n\nThen two volunteers from the Baltimore City Forestry Board set the paper straight. It is a common walnut, the Old World nut tree Americans call English walnut, not the native black. A later Bulletin piece corrected the name, called the tree \"marvelously massive\", and reported that it is one of two Bolton Hill trees on the Maryland Notable Tree Registry, a list of more than 1,750 trees across the state's 23 counties and Baltimore City. Making it takes 70 percent of the state champion's points.\n\nIt reached that size with BGE power lines running through its branches.\n\nOur footing here is thin. Both articles come from the same neighbourhood publisher, the last dated word on the tree is from 2017, and nobody has published its age. Jenkins Alley runs behind the houses of Bolton Street, and we cannot tell you whether you can walk right up to the trunk. Look from the alley end, keep out of the yards, and if you have seen it standing, tell us.",
+      "how_to_recognise": "You can recognise it by the trunk, about 4.1 metres round, with BGE power lines running through its branches. It stands in Jenkins Alley behind 1325 Bolton Street, shading the back of Brown Memorial Church.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }
