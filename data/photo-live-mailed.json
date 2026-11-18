@@ -2142,6 +2142,21 @@
     }
    ],
    "sent": []
+  },
+  "p_f351766b4a0e0a7e2b2b452b": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b496e5e0-e922-41e7-a23f-a0201fe141b7",
+     "tree_id": "nij_017",
+     "tree_name": "The Copper Beech of the Antonius Abtkerk",
+     "city": "Nijmegen",
+     "city_slug": "nijmegen",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

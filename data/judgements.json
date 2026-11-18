@@ -1553,6 +1553,28 @@
    "agreed": null
   },
   {
+   "id": "sight:b496e5e0-e922-41e7-a23f-a0201fe141b7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Copper Beech of the Antonius Abtkerk",
+   "city": "Nijmegen",
+   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+   "photo": "out/sightings/b496e5e0-e922-41e7-a23f-a0201fe141b7.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech (Fagus sylvatica f. purpurea)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: one big beech in autumn copper, smooth grey trunk, red-brick church and rectory buildings beside it on the street; the tree's first photograph, now its lead on nij_017.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

@@ -649,7 +649,7 @@
         "longitude": 5.820439,
         "neighbourhood": "Hees"
       },
-      "story": "This copper beech is older than the church beside it. The current Sint Antonius Abtkerk on Dennenstraat, a red-brick building by the architect Pieter Cuypers, went up in 1879 and 1880. The national register places the beech at the boundary of the church and its rectory somewhere between 1750 and 1800, roughly a century older than the bricks next to it.\n\nThat is not as strange as it sounds. The parish itself predates Cuypers by centuries: an older church stood on this ground before his, a barn chapel was rebuilt here in 1826, and parish history traces the site back to a sixteenth century predecessor. A beech planted in the late 1700s would have grown up beside whatever building stood here then, and simply outlasted it, the way old trees on church land tend to.\n\nCopper beeches carry a mutation that floods their leaves with red pigment, so from a distance this one reads almost black against the brick. The Dutch national monumental tree register is the only source found for this specific tree, roughly 225 to 275 years old by its planting estimate; local parish and heritage histories confirm the site's long religious use but do not mention the beech itself, so the age stands on the register alone.\n\nThe grounds are recorded as visitable and visible from outside, ordinary church land in the Hees district rather than a closed private garden.",
+      "story": "This copper beech is older than the church beside it. The current Sint Antonius Abtkerk on Dennenstraat, a red-brick building by the architect Pieter Cuypers, went up in 1879 and 1880. The national register places the beech at the boundary of the church and its rectory somewhere between 1750 and 1800, roughly a century older than the bricks next to it.\n\nThat is not as strange as it sounds. The parish itself predates Cuypers by centuries. An older church stood on this ground before his, a barn chapel was rebuilt here in 1826, and parish history traces the site back to a sixteenth century predecessor. A beech planted in the late 1700s would have grown up beside whatever building stood here then, and simply outlasted it, the way old trees on church land tend to.\n\nCopper beeches carry a mutation that floods their leaves with red pigment, so from a distance this one reads almost black against the brick. The Dutch national monumental tree register is the only source found for this specific tree, roughly 225 to 275 years old by its planting estimate; local parish and heritage histories confirm the site's long religious use but do not mention the beech itself, so the age stands on the register alone.\n\nThe grounds are recorded as visitable and visible from outside, ordinary church land in the Hees district rather than a closed private garden.",
       "verified_sources": [
         "data/registers/netherlands-lrmb.json (register nr 1680519)",
         "https://services-eu1.arcgis.com/qONmLUR87PipcM5W/arcgis/rest/services/LRMB_v2024_openbaar/FeatureServer/1",
@@ -658,10 +658,17 @@
       "access": "Free, church grounds visible and open to visitors.",
       "transport": "About 4 km west of Nijmegen railway station, reachable by bus toward Hees.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nij_017-the-copper-beech-of-the-antonius-abtkerk.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 970,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f351766b4a0e0a7e2b2b452b",
+        "sighting_id": "b496e5e0-e922-41e7-a23f-a0201fe141b7",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: A big single beech fills the frame in autumn colour, smooth grey trunk on a planted bed beside red-brick buildings on a residential street; sent from this tree's own page, and the tree had no photograph. Species seen: smooth elephant-grey beech bark, dense ovoid beech crown, coppery orange autumn leaves. Fits the description: a large old beech (thick trunk, consistent with 413 cm) standing at a church and rectory boundary of red brick, by a street.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "location_precision": "confirmed",
       "curation_status": "flagged",

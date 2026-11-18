@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Nijmegen copper beech gets its first photograph
+
+- **Photo live**: The Copper Beech of the Antonius Abtkerk (nijmegen/nij_017) had no photograph. A reader sent one from the tree's page. It shows one big beech in coppery autumn leaf with a smooth grey trunk, on the planted strip beside the red-brick church and rectory buildings on the street. It is now the lead photo (sighting b496e5e0, through sightings_publish.py). The light scored WEAK, but a reader's photograph is never refused on light. The pin was not moved, because the row's position was our own pin and not a GPS fix.
+- The photo makes the page reader content, so it is indexable, and preflight then flagged an old colon reveal in its story ("predates Cuypers by centuries: an older church..."). That sentence is now two sentences in English and Dutch.
+- 3c544597 (Amsterdam, our own account, `mine`) is still unjudged and its photo is not on this machine. No open reports, no tips, no feedback without a verdict, no readers' words to quote.
+
 ## 2026-11-18 reader judge: a fern-lined myrtle beech in the Otways goes live; the Signal Tree held again
 
 - **New tree, new place**: The Fern-Lined Myrtle Beech of the Otways (weeaproinah/wee_001). A reader sent four photographs with a GPS fix: a myrtle beech in the Otway rainforest whose long limb is lined end to end with kangaroo ferns and moss, shot from above with tree ferns in the gully below. The fix is about 700 m from the Otway Fly Treetop Walk entrance (official coordinates, otwayfly.com.au). The photos look down from canopy height, which fits the walkway, but the reader does not say so, so the access line says which path or walkway is unconfirmed. It is a one-tree place: no place page, only the tree page. city_names.py found no Wikipedia article for Weeaproinah.
