@@ -2,53 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-11T09:51:54+00:00",
-   "date": "2026-09-11",
-   "run_id": "34586319250",
-   "minutes": 59.2,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 368,
-   "denials": 52,
-   "denials_source": "permission_denials: Bash(cd), Bash(curl), Bash(for), Bash(python3), Bash(rm), Bash(wc), Bash(which)",
-   "ended": "success",
-   "tokens": 7513679,
-   "claims_held": [
-    "spokane",
-    "hallstatt"
-   ],
-   "commits": 13,
-   "cities_touched": 6,
-   "cities": [
-    {
-     "city": "lausanne",
-     "trees": 8
-    },
-    {
-     "city": "spokane",
-     "trees": 6
-    },
-    {
-     "city": "minneapolis",
-     "trees": 4
-    },
-    {
-     "city": "salamanca",
-     "trees": 4
-    },
-    {
-     "city": "monterey",
-     "trees": 2
-    },
-    {
-     "city": "kyoto",
-     "trees": 1
-    }
-   ],
-   "trees": 25,
-   "logged": true
-  },
-  {
    "started": "2026-09-11T12:26:01+00:00",
    "date": "2026-09-11",
    "run_id": "34598856560",
@@ -18461,6 +18414,27 @@
     }
    ],
    "trees": 2,
+   "logged": true
+  },
+  {
+   "started": "2026-11-18T07:41:59+00:00",
+   "date": "2026-11-18",
+   "run_id": "44260827605",
+   "minutes": 2.5,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 50,
+   "denials": 0,
+   "denials_source": "permission_denials: no names in the record",
+   "ended": "success",
+   "tokens": 875244,
+   "claims_held": [
+    "birmingham-uk"
+   ],
+   "commits": 6,
+   "cities_touched": 0,
+   "cities": [],
+   "trees": 0,
    "logged": true
   }
  ],
