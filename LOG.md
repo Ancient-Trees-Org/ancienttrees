@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 (session): app checks for the first Android update, on Hidde's yes
+
+- **What changed in the apps** (next TestFlight build and the Android build after 0.1.0 (2)): signed-out My trees on Android opens just high enough to show Sign in at big text on a small phone (the half stop fits short content; the iPhone already opens one stop higher on small phones); Move the pin on Android takes the Android form bar (close X, title beside it); a tree's hero photograph is named "Open the photograph" for TalkBack and VoiceOver (it was an unnamed button).
+- **Fixed in the tests**: Android's daily ButtonWalk had not finished once from 11-14 to 11-18. Every push to main cancelled it (android.yml now gives the schedule its own concurrency lane), and when it ran it flagged the Map tab on the map's bar stop, which rightly does nothing (now quiet in both apps' lists, as on the other map stops).
+- **Checked, nothing to change**: cold start of the Play apk on a 720x1280 emulator, trees listed after 4 to 5 s with app data, 8 to 10 s on a first launch (polling adds about a second); TalkBack audit of map, Discover, My trees, settings and a tree page (only the hero was unnamed; edge-clipped chips are not); Play Data safety already declares precise location (the place of a sighting) and photos, which covers a gallery photo's GPS; tip 1175's missing photo came from an iPhone on Mont Mourex and is most likely still queued on that phone (1177's arrived 16 minutes late); camera copies already carry the phone's fix since this morning.
+
 ## 2026-11-18 reader judge: overlapped the night run's retries, nothing new
 
 - I judged the same seven app photographs: four Salt Lake City leads, plus strip photos for Fortingall, Jardine and Reelig. My readings matched what earlier runs had already pushed, so I dropped my commit and kept theirs. Main passes preflight.
