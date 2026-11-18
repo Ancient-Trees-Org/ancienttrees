@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-18 night run (second retry): inbox already clear, Birmingham verify dispatched
+
+- Rung 1: `prepare.py --status` listed seven reader photographs as waiting, but sightings_inbox.py shows 550 of 552 handled; the four Salt Lake City ones are already live (see the reader judge entry below) and the two queued are the Fortingall and Reelig strips, judged. Nothing to apply. The status line is stale on these.
+- Portland and Porto are full (refused); claimed Birmingham (UK, from-zero on, first in city_queue --next) and dispatched a verify agent. Result and merge follow in the next entry, or the claim expires in 4 hours.
+
 ## 2026-11-18 night run (retry window): two reader strip photos judged, Braga a wall
 
 - Live: reader photographs on the Fortingall Yew and the Reelig Glen giants are judged (publish, strip) and live; a duplicate Jardine Juniper photo from a rebase conflict was dropped. Earlier attempt's commits clashed with the reader judge's own; its duplicate Salt Lake City commit was skipped.
