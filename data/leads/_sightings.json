@@ -2356,8 +2356,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "2026-11-15, for Hidde tomorrow: American elm on the Wilderness Park Trail, Lincoln NE; public trail and GPS fix, but the only photo looks straight up the trunk and nothing says it is big or old. Written and ready in out/tmp/held-lincoln/ (lne_001, us-states needs lincoln-nebraska: Nebraska).",
+   "status": "lead",
+   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Lincoln NE, Wilderness Park Trail. The leaves in the photo are pinnate, so probably not an elm: publish with an honest unknown species and ask the reader; they called it an American elm.",
    "seen": "2026-11-15"
   },
   {
@@ -2705,8 +2705,8 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "2026-11-15 evening, for Hidde: a contorted pagoda tree or robinia (pinnate leaves, knotted twisting limbs) seen looking straight up the trunk, GPS fix at the Mexikopusztai Betero inn, Fertoujlak, Hungary (Fertő-Hanság). No note, no name, no size; a striking tree but the frame shows no whole tree to recognise.",
+   "status": "lead",
+   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Fertőújlak, Hungary, at the Mexikópusztai Betérő inn: a contorted trunk with pinnate leaves (pagoda tree or robinia, do not claim a cultivar). Access: inn grounds, say plainly what is not known.",
    "seen": "2026-11-15"
   },
   {
@@ -4565,11 +4565,9 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "Photograph viewed 2026-11-17: a silhouette against the setting sun, the trunk invisible; an earlier note describing a root arch belonged to another photograph. Held: bad_frame (closed list, Hidde 2026-11-17).",
-   "seen": "2026-11-17",
-   "judged": "2026-11-17",
-   "hold": "bad_frame"
+   "status": "lead",
+   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Chiang Mai: the reader named it a Bodhi tree and gave about 100 years (by a reader's estimate). Silhouette at sunset; the pin is the reader's own fix. An older root-arch note belonged to another photo.",
+   "seen": "2026-11-17"
   },
   {
    "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
@@ -5707,11 +5705,9 @@
    "extra_files": [],
    "nearest_published_m": null,
    "sent_for": "bri_015",
-   "status": "held",
-   "why": "Viewed 2026-11-17: looking straight up a reddish fibrous redwood trunk through branches; nothing shows its size, base or where it stands.",
-   "seen": "2026-11-17",
-   "hold": "bad_frame",
-   "judged": "2026-11-17"
+   "status": "lead",
+   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Sent for bri_015 (The Monterey Cypress at Bishops Knoll, Bristol), 35 m from its approximate pin and bri_015 has no photo: if the photo plausibly shows that tree it goes on bri_015 as its lead photo and the GPS fix becomes its confirmed pin.",
+   "seen": "2026-11-17"
   },
   {
    "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
