@@ -37,10 +37,15 @@ REPLIES = {
     # private property. Holds a reader cannot change (not_special, dead,
     # wrong_subject, inappropriate, doubt_info, doubt_photo) get no mail.
     "bad_frame": (
-        "Thanks for your photo of {name}! We'd love to put it on the map, but the "
-        "photo doesn't show enough of the tree itself.\n\n"
-        "If you're ever passing by again, a photo of the whole tree or its trunk "
-        "would get it live. You can add it with the camera button in the app, or here:\n"
+        # Hidde, 2026-11-18, on the flower close-up: never comment on what the
+        # photo shows; say we know little about the tree from it and ask about it.
+        "Thanks for your photo of {name}! From the photo alone we can't tell much "
+        "about the tree yet, and we'd like to know a bit more before we put it on "
+        "the map for everyone.\n\n"
+        "Could you tell us more about it, by replying to this mail? What kind of tree "
+        "it is, roughly how thick the trunk is, how old it might be, anything you know. "
+        "And if you're ever passing by again, a photo of the whole tree helps too, with "
+        "the camera button in the app or here:\n"
         "https://ancienttrees.app/contribute\n\n"
         "Thanks again,\nAncient Trees\n"),
     "no_location": (

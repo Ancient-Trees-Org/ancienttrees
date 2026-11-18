@@ -3188,11 +3188,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "Photograph viewed again 2026-11-17: only the crown seen straight up from below, twisting beech-like limbs, no trunk or setting, so nobody could find this tree by it even with the GPS fix. A whole-tree photograph would put it live.",
+   "status": "lead",
+   "why": "Re-opened 2026-11-18 on Hidde's word: not a bad frame. The photo looks up into a contorted beech (vresbok, the twisted form of the common beech), and its geotag (55.68600, 13.39577) sits on Trollskogsvägen in Torna Hallestad, Lund: the Trollskogen of the Gryteskog and Prastaskogen nature reserves, known for these twisted beeches (Lansstyrelsen Skane, https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund/gryteskog.html and https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund/prastaskogen.html). Public reserve, Vresboksslingan loop from Boklunden. Publish as a reader-found tree at the GPS pin, species Common Beech (Fagus sylvatica) in its twisted form; three extra photos to fetch and look at for the lead.",
    "seen": "2026-11-15",
-   "judged": "2026-11-17",
-   "hold": "bad_frame"
+   "judged": "2026-11-17"
   },
   {
    "sighting_id": "d291140e-1665-4036-a4cb-e826d8ff6328",
