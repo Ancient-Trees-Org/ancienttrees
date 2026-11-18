@@ -654,6 +654,7 @@ DUMP_NAME = "appfit-frames.txt"
 
 # Set once the app is built for testing, so a second phone reuses the build.
 _BUILT = []
+_RETRIED = []  # one second sweep per run, never a loop
 
 
 def run_test(device, scratch):
@@ -778,10 +779,24 @@ def run_test(device, scratch):
 
     found = sorted(device_dir.rglob(DUMP_NAME), key=lambda p: p.stat().st_mtime)
     if not found:
-        for line in (r.stdout + r.stderr).splitlines():
-            if "error:" in line or "TEST FAILED" in line:
-                print("  " + line)
-        sys.exit("the test left no measurements behind")
+        # SAY WHY, THEN TRY ONCE MORE (2026-11-18). The nightly run of 11-17
+        # (44201890544) failed here with nothing printed: no "error:" line, no
+        # "TEST FAILED", while the very next step rendered all 39 screens on
+        # the same simulator and three runs that day were green. So the test
+        # process went away without a word, the flake the retry flags above
+        # cover only when XCTest itself notices. Print the tail so the next
+        # one names its cause, and sweep a second time before calling it red.
+        out = (r.stdout + r.stderr).splitlines()
+        hits = [l for l in out if "error" in l.lower() or "fail" in l.lower()
+                or "lost connection" in l.lower() or "crash" in l.lower()]
+        print(f"  xcodebuild exit {r.returncode}; its own words:")
+        for line in (hits[-15:] or out[-15:]):
+            print("    " + line)
+        if not _RETRIED:
+            _RETRIED.append(True)
+            print("  sweeping once more", flush=True)
+            return run_test(device, scratch)
+        sys.exit("the test left no measurements behind, twice")
     return found[-1].read_text()
 
 
