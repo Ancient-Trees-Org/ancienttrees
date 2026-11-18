@@ -117,6 +117,10 @@ App half (iPhone SE: people, photo-viewer, place-pin, profile-edit, profile-sign
 - NOTE APP place-pin.png: two marks stand on the map, the drop pin and the tree disc beneath it, so "until the pin sits on the tree" is ambiguous about which one moves. For a session.
 - Nothing wrong found on people.png and photo-viewer.png (credit and licence shown).
 
+## 2026-11-18 code
+
+- WEB-BUG-refresh-blip-signs-out, site/src/lib/signin-js.ts:254: a 429 or 5xx from the token refresh clears the stored session and signs the visitor out; only 400/401/403 mean the refresh token is spent.
+
 ## 2026-11-11 code (full)
 
 - APP-BUG-shared-photo-url-force-unwrap, ios/AncientTrees/AncientTrees/Screens/SharedTreeView.swift:108: shared tree photo URL from a server file name is force-unwrapped.

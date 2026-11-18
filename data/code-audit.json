@@ -461,6 +461,16 @@
    "found_by": "hidde",
    "test": "scripts/qa.py check_signed_in_is_never_asked_to_sign_in()",
    "fixed_in": "7f288d18d"
+  },
+  {
+   "id": "WEB-BUG-refresh-blip-signs-out",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/signin-js.ts:254",
+   "summary": "refreshIfStale treats any non-2xx answer from the token endpoint (a 429 or 5xx blip) as a spent refresh token and removes ancienttrees_session, so a server hiccup signs a signed-in visitor out.",
+   "fix": "Clear the session only on 400/401/403 (refresh token spent or revoked); on 429, 5xx or a network error leave it in place.",
+   "first_seen": "2026-11-18",
+   "status": "open"
   }
  ]
 }
