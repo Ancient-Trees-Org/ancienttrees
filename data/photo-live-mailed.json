@@ -1970,19 +1970,15 @@
    "sent": []
   },
   "p_fd3ccfba74ad26c21b4343f5": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "12844fcf-197d-4db6-8136-4062ef759d78",
      "tree_id": "tok_005",
-     "tree_name": "The Shiba Toshogu Ginkgo",
-     "city": "Tokyo",
-     "city_slug": "tokyo",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
