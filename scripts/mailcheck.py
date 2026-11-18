@@ -169,6 +169,16 @@ CHECKS = [
     ("FORM LINK IN A LIVE THREAD", [
         r"ancienttrees\.app/contribute",
     ]),
+    # Hidde, 2026-11-18, on replies telling app readers to tap "Add a tree" on
+    # Discover: "Why are you sending people to discover there is a huge camera
+    # button in the menu (if they used the app otherwise send them to the
+    # webpage) remember that discover is not a main nav". Adding a tree in the
+    # app is the camera button in the bottom bar; a web reader gets the site.
+    ("ADD A TREE VIA DISCOVER", [
+        r"\bon (?:the )?Discover\b(?:[^.\n]{0,40})?",
+        r"Add a tree[^.\n]{0,30}\bDiscover\b",
+        r"\bDiscover\b[^.\n]{0,30}Add a tree",
+    ]),
     # Hidde, 2026-10-13, on a reply to Friends of Cammo that ended "if anyone
     # ever measured the trunks, that would be great too": "dont ask to measure
     # trunks wtf". A person who wrote back is asked only what they can tell us
