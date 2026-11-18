@@ -19,7 +19,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Tree note on Djanet's Tassili cypress** read, kept.
 - **Left alone**: Amsterdam row 3c544597 is ours (`mine`, no photograph on disk), not a reader's tree.
 - **Health**: closed the open WEB bug row (readers' photographs had no 500 copy), already fixed in ba0575b69 with qa's `check_every_own_photo_has_a_card_copy`. Nightly knocks 6 of 12 in 24h (GitHub dropping cron, knock.yml covers it).
-- **Shelf**: no write pass possible. READY is 5 leads (under the six-candidate floor) and the verified-awaiting-a-writer pile is stale or parked. The refill (verify on a staged focus city) did not start in this window.
+- **Shelf**: no write pass possible. READY is 5 leads (under the six-candidate floor) and the verified-awaiting-a-writer pile is stale or parked. The refill went to Fort Worth (verify agent, about 68k tokens): its three READY leads and the others rest on the city's heritage-tree layer alone (campus without open-grounds evidence, a streetscape block, a name with no content), so nothing verified, claim released, the city is a wall for 48h. Its forestry office is the next step and that is outreach, not search.
 
 ## 2026-11-18 reader judge: a new temple fig at Aihole
 

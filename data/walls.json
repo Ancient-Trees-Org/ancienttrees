@@ -217,11 +217,6 @@
       "released_at": "2026-11-15T07:16:27+00:00"
     },
     {
-      "slug": "fort-worth",
-      "kind": "verify",
-      "released_at": "2026-11-15T07:17:51+00:00"
-    },
-    {
       "slug": "spokane",
       "kind": "verify",
       "released_at": "2026-11-16T04:32:17+00:00"
@@ -285,6 +280,11 @@
       "slug": "sheffield",
       "kind": "verify",
       "released_at": "2026-11-18T00:06:23+00:00"
+    },
+    {
+      "slug": "fort-worth",
+      "kind": "verify",
+      "released_at": "2026-11-18T16:45:15+00:00"
     }
   ]
 }
