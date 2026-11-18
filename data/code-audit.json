@@ -521,8 +521,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/GalleryPick.kt",
    "summary": "Android: a photo chosen from the gallery lost its GPS (the system photo picker strips it), so every gallery tree asked where it stands",
    "first_seen": "2026-11-18",
-   "status": "open",
-   "found_by": "hidde"
+   "status": "fixed",
+   "found_by": "hidde",
+   "no_test_reason": "Chosen in Android's own documents UI and its own permission dialog, outside the app window where an instrumented test cannot pick a file; checked by hand on the emulator 2026-11-18 with a GPS-tagged photo",
+   "fixed_in": "9b0e4ce71"
   }
  ]
 }
