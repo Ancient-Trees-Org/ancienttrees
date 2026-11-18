@@ -300,6 +300,11 @@
       "slug": "hamburg",
       "kind": "verify",
       "released_at": "2026-11-18T23:29:01+00:00"
+    },
+    {
+      "slug": "freiburg",
+      "kind": "verify",
+      "released_at": "2026-11-18T23:29:42+00:00"
     }
   ]
 }
