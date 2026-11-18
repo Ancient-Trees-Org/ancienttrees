@@ -1,6 +1,22 @@
 {
  "leads": [
   {
+   "name": "Uffculme House yew, Kings Heath",
+   "species": "Yew (Taxus baccata)",
+   "city": "Birmingham",
+   "lat": 52.440919,
+   "lon": -1.8970962,
+   "reason": "Ancient Yew Group page (fetched 2026-11-18): class 'Ancient 4m-5m', in the grounds of Uffculme House (Birmingham and Solihull Mental Health Trust site, Queensbridge Road); reduced to a stump after the Trust judged it decayed, resprouting per AYG notes of March 2019 and September 2025. Not a standing tree, access not stated. Not shippable.",
+   "sources": ["https://www.ancient-yew.org/yew_trees/uffculme-house-kings-heath-4121/"]
+  },
+  {
+   "name": "Old Yew Tree, Rocky Lane, Perry Barr",
+   "species": "Yew (assumed)",
+   "city": "Birmingham",
+   "reason": "Only an 1898 Birmingham archive photograph (council directory record 143126, 403 to curl, seen via search summary). No evidence it stands now. Not pursued.",
+   "sources": ["https://www.birmingham.gov.uk/directory_record/143126/the_old_yew_tree"]
+  },
+  {
    "name": "Northfield churchyard yew (St Laurence)",
    "species": "Yew (Taxus baccata)",
    "city": "Birmingham",

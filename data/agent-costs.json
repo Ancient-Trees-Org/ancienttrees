@@ -2,6 +2,7 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-18": [
+      {"date": "2026-11-18", "kind": "verify", "target": "birmingham", "tokens": 79260, "trees": 0, "note": "two new angles (churchyard yews, Bournville/Aston/Handsworth); Uffculme yew is a stump, Perry Barr yew only an 1898 photo, both leads; claim released"},
       {"date": "2026-11-18", "kind": "verify", "target": "fort-worth", "tokens": 68342, "trees": 0, "note": "deepen pass; the three READY leads and the rest rest on the city's heritage layer alone, nothing verified, claim released, city a wall for 48h"},
       {"date": "2026-11-18", "kind": "write", "target": "session: bengaluru/ben_001", "tokens": 0, "trees": 1, "note": "session work, no agent: reader's rain tree live, pin on the reader's hand-placed spot in the museum grounds"},
       {"date": "2026-11-18", "kind": "verify", "target": "philadelphia", "tokens": 122592, "trees": 1, "note": "deepen pass, city mined out; phl_022 Morris elm flagged, 5 leads, 3 blocked"},

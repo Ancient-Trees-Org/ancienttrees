@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-18 night run (18:04 window): nothing new published
+
+- Rung 1: the one open item, lead 3c544597 (Amsterdam, near ams_032), is from one of our own accounts (`mine`) and its photograph is not on disk, so no verdict, not judged blind. Left open.
+- Rung 2: health only red on dropped knocks (6 of 12), not mine to fix.
+- Shelf empty (0 READY leads); Birmingham verify pass (new angles: churchyard yews, Bournville, Aston Hall, Handsworth) found 0 trees; Uffculme yew is a stump and Perry Barr yew only an 1898 photo, both added as leads; claim released. Zurich, San Francisco, Fort Worth, Frankfurt are walls. Portland is full. Page-gap intros left alone (all noindexed under the strict cut). Visits line not printed by prepare.py this run.
+
 ## 2026-11-18 reader judge: overlapped a parallel run, nothing new
 
 - Judged the same Fort Greene elm photograph (approve, same reading) but the run above had already pushed it; its version kept, this run's commit dropped.
