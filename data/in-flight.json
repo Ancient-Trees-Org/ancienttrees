@@ -13,6 +13,20 @@
       "by": "night-run",
       "claimed_at": "2026-11-18T00:21:14+00:00",
       "trees_at_claim": 29
+    },
+    {
+      "target": "philadelphia",
+      "kind": "verify",
+      "by": "night-run",
+      "claimed_at": "2026-11-18T00:22:36+00:00",
+      "trees_at_claim": 12
+    },
+    {
+      "target": "baltimore",
+      "kind": "verify",
+      "by": "night-run",
+      "claimed_at": "2026-11-18T00:22:36+00:00",
+      "trees_at_claim": 4
     }
   ]
 }
