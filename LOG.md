@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 night run, second attempt: shelf dry, nothing shipped
+
+- No change to the product. READY leads: 0. Verified files under data/research/ are stale or duplicates of live trees (Cyprus, Croatia, Cardiff, Granada and others fold into trees already live under other ids).
+- Claims tried: portland (33/30) and munich (63/60) refused as full; london claimed and released (0 of 30 leads carry a coordinate, now a 48h wall); spokane claimed and released (1 unmined of 19, under the six-candidate floor, now a 48h wall). Both walls are in data/walls.json.
+- Left open: 3c544597 (unmapped, Amsterdam 52.3972 4.8739) has no photograph on this machine, so no blind verdict. Translations stay paused (`TRANSLATIONS_OUT`). Zurich register is walled.
+- Next run: refill is the real gap (907 leads need only a source); a verify pass on one of those batches, not another staged city.
+
 ## 2026-11-18 reader judge: two more Nijmegen beech photographs judged
 
 - The same reader's other two photographs of nij_017 were already in the gallery from the knock's live-first step: the trunk with the red-brick church right behind it, and a view straight up the trunk to the fork. Both are looked at and judged the same tree (smooth grey beech bark, the church beside it). They stay in the gallery behind the lead. This run overlapped the one above and started on the same three photographs; its duplicate commit was dropped, and only these two verdicts were added.
