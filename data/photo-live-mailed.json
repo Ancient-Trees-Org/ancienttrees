@@ -1740,6 +1740,24 @@
      "city_slug": "logan-canyon",
      "display_name": null,
      "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "f2e99426-d46c-4a73-9ab9-25f92c7edf6a",
+     "tree_id": "for_001",
+     "tree_name": "The Fortingall Yew",
+     "city": "Fortingall",
+     "city_slug": "fortingall",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "691e83b3-fa05-4961-a56f-9912db89c1ac",
+     "tree_id": "rlg_001",
+     "tree_name": "Dughall Mor and the Reelig Glen giants",
+     "city": "Reelig Glen",
+     "city_slug": "reelig-glen",
+     "display_name": null,
+     "live": "2026-11-18"
     }
    ],
    "sent": [

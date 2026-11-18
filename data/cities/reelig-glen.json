@@ -64,7 +64,23 @@
         "width": 1600,
         "height": 1067,
         "taken_month": 10
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/rlg_001-dughall-mor-and-the-reelig-glen-giants-691e83b3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 740,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_43296b4149990a775a24a4a6",
+          "sighting_id": "691e83b3-fa05-4961-a56f-9912db89c1ac",
+          "note": "Photographed by a reader and sent through the app (2025-06-20); in the strip since 2026-11-18, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-18"
+        }
+      ]
     }
   ]
 }
