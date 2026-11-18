@@ -27,7 +27,7 @@
     <string name="settings_sign_in">Sign in</string>
     <string name="settings_preferences">Preferences</string>
     <string name="settings_distances">Distances</string>
-    <string name="units_km">Kilometres</string>
+    <string name="units_km">Kilometers</string>
     <string name="units_miles">Miles</string>
     <string name="settings_location">Location</string>
     <string name="settings_on">On</string>

@@ -40,12 +40,24 @@ object Collector {
     /** A library file read with its own GPS and date, when the picker left them in. */
     suspend fun read(context: Context, uri: Uri): Picked? = withContext(Dispatchers.IO) {
         runCatching {
-            val raw = context.contentResolver.openInputStream(uri)?.use { it.readBytes() } ?: return@runCatching null
+            // The original, GPS included, where the gallery gave a MediaStore item and
+            // the place may be read (ui/GalleryPick.kt); otherwise the file as handed over.
+            // A document from the documents UI names its MediaStore item; that item opens
+            // as the original, GPS kept, when the place may be read.
+            val media = if (android.os.Build.VERSION.SDK_INT >= 29 && uri.authority == "com.android.providers.media.documents")
+                runCatching { android.provider.MediaStore.getMediaUri(context, uri) }.getOrNull() ?: uri else uri
+            val original = if (android.os.Build.VERSION.SDK_INT >= 29 && media.authority == android.provider.MediaStore.AUTHORITY &&
+                app.ancienttrees.ui.mayReadPhotoPlace(context)
+            ) runCatching { android.provider.MediaStore.setRequireOriginal(media) }.getOrNull() else null
+            val fromOriginal = original?.let { o -> runCatching { context.contentResolver.openInputStream(o)?.use { it.readBytes() } }.getOrNull() }
+            val raw = fromOriginal
+                ?: context.contentResolver.openInputStream(uri)?.use { it.readBytes() } ?: return@runCatching null
             val exif = ExifInterface(ByteArrayInputStream(raw))
             val ll = exif.latLong
             val taken = exif.getAttribute(ExifInterface.TAG_DATETIME_ORIGINAL)?.let {
                 runCatching { SimpleDateFormat("yyyy:MM:dd HH:mm:ss", Locale.ROOT).parse(it) }.getOrNull()
             }
+            android.util.Log.i("AncientTrees", "picked photo place: ${ll != null}")
             Picked(raw, ll?.get(0), ll?.get(1), taken)
         }.getOrNull()
     }

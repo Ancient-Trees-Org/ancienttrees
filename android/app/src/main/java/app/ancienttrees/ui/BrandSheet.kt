@@ -1,8 +1,10 @@
 // ONE SHEET FOR EVERY QUESTION, ported from ios Kit/BrandSheet.swift (CLAUDE.md,
 // "One sheet for every overlay"): an icon tile, the title in the brand face at 26
-// centred, one line under it, then capsule buttons 12 apart, a footnote, and the
-// grey close circle top right. The sheet itself is Android's modal bottom sheet
-// (data/android-parity.json: system sheets are the platform's on both phones).
+// centred, one line under it, then capsule buttons 12 apart and a footnote. The
+// sheet itself is Android's modal bottom sheet, docked, with no X (Hidde,
+// 2026-11-17; CONVENTIONS.md "A bottom sheet on Android"): Material's sheets
+// close by a swipe down, the system back or a tap on the scrim; the iPhone keeps
+// its grey close circle top right.
 
 package app.ancienttrees.ui
 
@@ -17,6 +19,7 @@ import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.ui.layout.layout
@@ -37,6 +40,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
@@ -58,6 +62,8 @@ data class SheetButton(
     val icon: ImageVector? = null,
     /** The iPhone's accessibility identifier, for the walks (FlowWalk.swift taps by it). */
     val tag: String? = null,
+    /** SwiftUI's .disabled: dimmed and deaf, e.g. Add note with nothing typed. */
+    val enabled: Boolean = true,
     val action: () -> Unit,
 )
 
@@ -92,9 +98,10 @@ fun SheetButtonView(
             .height(if (quiet) 44.dp else 48.dp)
             // The ripple stays inside the capsule (Airbnb's line, 2026-11-10).
             .clip(RoundedCornerShape(50))
+            .graphicsLayer { alpha = if (b.enabled) 1f else 0.4f }
             .then(
-                if (onLongPress != null) Modifier.combinedClickable(role = Role.Button, onLongClick = onLongPress, onClick = b.action)
-                else Modifier.clickable(role = Role.Button, onClick = b.action),
+                if (onLongPress != null) Modifier.combinedClickable(enabled = b.enabled, role = Role.Button, onLongClick = onLongPress, onClick = b.action)
+                else Modifier.clickable(enabled = b.enabled, role = Role.Button, onClick = b.action),
             )
             .background(bg, RoundedCornerShape(50))
             .then(if (b.tag != null) Modifier.testTag(b.tag) else Modifier),
@@ -143,6 +150,8 @@ fun BrandSheet(
         grows = true,
         onDismissRequest = onDismiss,
         containerColor = brand.ground,
+        // Its way out is the swipe, the back and the scrim; the walks find it by this.
+        modifier = Modifier.testTag("brand-sheet"),
     ) {
         // A button slides the sheet down first, then acts (Sheet.kt, the iPhone's dismiss()).
         val close = LocalSheetClose.current
@@ -156,15 +165,15 @@ fun BrandSheet(
                 layout(p.width, (p.height - t).coerceAtLeast(0)) { p.place(0, -t) }
             },
         ) {
+            val scroll = rememberScrollState()
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .verticalScroll(rememberScrollState())
+                    .verticalScroll(scroll)
                     .padding(horizontal = 24.dp)
-                    // BrandSheet.swift on iOS 26: the last button 28 above the floating
-                    // card's bottom edge. The card stands on Android's navigation bar
-                    // (Sheet.kt), so only its distance to the screen's edge differs.
+                    // BrandSheet.swift: the last button 28 above the sheet's foot. The
+                    // docked sheet keeps the navigation bar clear under that (Sheet.kt).
                     .padding(top = 12.dp, bottom = 28.dp),
             ) {
                 icon?.let {
@@ -209,14 +218,15 @@ fun BrandSheet(
                     )
                 }
             }
-            // SheetCloseButton.swift: .padding(.top, 8) from the sheet's top edge,
-            // which is 24 above this box's top here.
-            SheetCloseButton(onDismiss, Modifier.align(Alignment.TopEnd).offset(y = (-16).dp))
         }
     }
 }
 
-/** SheetCloseButton: a 30 point grey circle with the cross, in a 48 point target. */
+/**
+ * SheetCloseButton: a 30 point grey circle with the cross, in a 48 point target.
+ * On Android only where a sheet cannot simply be swiped away or is full height
+ * (the collect steps); a docked short sheet carries none (Sheet.kt).
+ */
 @Composable
 fun SheetCloseButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
     val brand = Brand.colors

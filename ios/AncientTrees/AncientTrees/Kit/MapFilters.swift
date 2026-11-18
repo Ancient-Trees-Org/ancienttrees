@@ -69,8 +69,12 @@ struct MapFilters: Equatable {
 
     func keeps(_ t: Tree, month: Int, collected: Set<String> = [],
                favourites: Set<String> = []) -> Bool {
-        if collectedOnly, !collected.contains(t.id) { return false }
-        if favouritesOnly, !favourites.contains(t.id) { return false }
+        // WANT TO VISIT AND COLLECTED ADD UP (Hidde, 2026-11-17): two chips of the
+        // same kind mean either; with only Want to visit on, a collected tree is off.
+        if collectedOnly || favouritesOnly {
+            let wanted = (collectedOnly && collected.contains(t.id)) || (favouritesOnly && favourites.contains(t.id))
+            if !wanted { return false }
+        }
         if freeOnly, t.paidEntry { return false }
         if peakingNow, !(t.bestTime?.isNow(month) ?? false) { return false }
         if withPhoto, t.photo == nil { return false }
@@ -107,7 +111,11 @@ struct MapFilters: Equatable {
     /// Favourites needs no special case: the heart on your tree's page saves
     /// under `treeKey`, which is the id the adapted tree already carries.
     func keeps(_ s: Sightings.Sighting, favourites: Set<String> = []) -> Bool {
-        if favouritesOnly, !favourites.contains(s.treeKey) { return false }
+        // Your own tree counts as collected: Collected keeps it, Want to visit alone
+        // keeps it only when you saved it (2026-11-17, the chips add up).
+        if collectedOnly || favouritesOnly {
+            if !(collectedOnly || favourites.contains(s.treeKey)) { return false }
+        }
         // freeOnly has no clause here on purpose: a tree you photographed
         // standing in front of is one you reached, and a sighting carries no
         // ticket field to ask about.

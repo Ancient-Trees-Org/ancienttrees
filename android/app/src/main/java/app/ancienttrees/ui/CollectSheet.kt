@@ -341,15 +341,15 @@ fun CollectSheet(
         scope.launch {
             val raw = runCatching { file.readBytes() }.getOrNull()
             file.delete()
+            // A copy in the phone's gallery, as the iPhone keeps one in Photos (CameraRoll).
+            raw?.let { app.ancienttrees.account.CameraRoll.keep(context, it) }
             val jpeg = raw?.let { Collector.downsized(it) }
             reading = false
             if (jpeg != null) resolve(jpeg)
         }
     }
-    val library = rememberLauncherForActivityResult(
-        ActivityResultContracts.PickMultipleVisualMedia(1 + Collector.MAX_EXTRAS),
-    ) { uris ->
-        if (uris.isEmpty()) return@rememberLauncherForActivityResult
+    val library = rememberGalleryPick(1 + Collector.MAX_EXTRAS) { uris ->
+        if (uris.isEmpty()) return@rememberGalleryPick
         reading = true
         scope.launch {
             val all = uris.mapNotNull { Collector.read(context, it) }
@@ -375,7 +375,7 @@ fun CollectSheet(
             host.needsSignIn { }
             return
         }
-        library.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+        library()
     }
 
     // THE "I AM NOT SURE" ANSWER: no tick, the photograph and the shortlist go to us.
@@ -520,7 +520,6 @@ fun CollectSheet(
                     addsPhoto = start.addsPhoto,
                     onStart = { openCamera() },
                     onLibrary = { openLibrary() },
-                    onClose = { closeTapped() },
                 )
                 Stage.Place -> PlaceStep(
                     start = placing ?: origin,
@@ -620,7 +619,6 @@ private fun CollectIntro(
     addsPhoto: Boolean,
     onStart: () -> Unit,
     onLibrary: () -> Unit,
-    onClose: () -> Unit,
 ) {
     val brand = Brand.colors
     // CollectSheet.swift: the intro 24 below the sheet's top (.padding(.top, 24),
@@ -661,9 +659,9 @@ private fun CollectIntro(
                 SheetButtonView(SheetButton(stringResource(R.string.cf_choose), SheetKind.SECONDARY, Sym.PhotoLibrary, action = onLibrary), Modifier.testTag("add-library"))
             }
         }
-        // The iPhone's X box spans 16 to 60 below the sheet's top (centre 38); this
-        // 48 box, with the intro lifted 36, centres there 2 down.
-        SheetCloseButton(onClose, Modifier.align(Alignment.TopEnd).offset(y = 2.dp))
+        // No X on Android (the iPhone's centres 38 under the sheet's top): the
+        // docked sheet closes by a swipe down, the system back or the scrim, and
+        // the intro holds nothing to lose (Sheet.kt, 2026-11-17).
     }
 }
 
@@ -811,6 +809,7 @@ private fun IdentifyStep(
     onClose: () -> Unit,
 ) {
     val brand = Brand.colors
+    val searchKeyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     Column(Modifier.fillMaxSize()) {
         CloseRow(onClose)
         Column(
@@ -864,6 +863,10 @@ private fun IdentifyStep(
                             singleLine = true,
                             textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
                             cursorBrush = SolidColor(brand.moss),
+                            // Autocorrect off and a Search key that puts the keyboard away
+                            // (CollectSheet.swift: .autocorrectionDisabled, .submitLabel(.search)).
+                            keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(autoCorrectEnabled = false, imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+                            keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { searchKeyboard?.hide() }),
                             modifier = Modifier.fillMaxWidth().testTag("collect-search"),
                         )
                         if (query.isEmpty()) Text(stringResource(R.string.cf_search), fontSize = 16.sp, color = brand.inkSoft)
@@ -938,7 +941,7 @@ private fun OwnRow(s: OwnSighting, here: Here, mine: MyTrees, modifier: Modifier
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
             Text(OwnSighting.oneLine(s.name), fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink)
             val metres = (Geo.km(here.lat, here.lng, s.lat, s.lng) * 1000).toInt()
-            Text(stringResource(R.string.cf_your_tree_at, CollectRules.distance(metres)), fontSize = 13.sp, color = brand.inkSoft)
+            Text(stringResource(R.string.cf_your_tree_at, CollectRules.distance(metres, Units.now)), fontSize = 13.sp, color = brand.inkSoft)
         }
         Spacer(Modifier.width(32.dp))
     }
@@ -951,7 +954,7 @@ private fun candidateLabel(t: Tree, here: Here, located: Boolean, compass: Array
     val metres = (Geo.km(here.lat, here.lng, t.lat, t.lng) * 1000).toInt()
     val d = CollectRules.compass(here.lat, here.lng, t.lat, t.lng)
     val dir = if (d >= 0) " " + compass[d] else ""
-    return "${t.commonName} · ${CollectRules.distance(metres)}$dir"
+    return "${t.commonName} · ${CollectRules.distance(metres, Units.now)}$dir"
 }
 
 @Composable
@@ -1014,7 +1017,7 @@ private fun ColumnScope.CompareStep(t: Tree, here: Here, located: Boolean, onThi
     }
     if (CollectRules.isFar(here.lat, here.lng, t)) {
         val metres = (Geo.km(here.lat, here.lng, t.lat, t.lng) * 1000).toInt()
-        SheetFootnoteText(stringResource(R.string.cf_pin_far, CollectRules.distance(metres)))
+        SheetFootnoteText(stringResource(R.string.cf_pin_far, CollectRules.distance(metres, Units.now)))
     }
     SheetButtonView(SheetButton(stringResource(R.string.cf_this_one), SheetKind.PRIMARY, null, action = onThis), Modifier.padding(top = 22.dp).testTag("collect-this-is-the-one"))
     SheetButtonView(SheetButton(stringResource(R.string.cf_back_to_list), SheetKind.QUIET, null, action = onBack), Modifier.padding(top = 12.dp))
@@ -1060,24 +1063,28 @@ private fun ColumnScope.TickedStep(t: Tree, newFind: Boolean, pinReported: Boole
     WorthTheTripAsk(t, vote, host, Modifier.padding(top = 20.dp))
     if (vote.isNotEmpty() && (notes.mine == null || sending)) {
         Column(Modifier.padding(top = 16.dp).fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Box(
-                Modifier
+            // The field IS the grey box (TextEditor at minHeight 96), so a tap anywhere
+            // in it focuses it; PlaceBox's NoteField does the same.
+            BasicTextField(
+                value = noteText,
+                onValueChange = { noteText = it },
+                textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
+                cursorBrush = SolidColor(brand.moss),
+                modifier = Modifier
                     .fillMaxWidth()
                     .heightIn(min = 96.dp)
                     .background(brand.surfaceMuted, RoundedCornerShape(14.dp))
-                    .padding(horizontal = 15.dp, vertical = 16.dp),
-            ) {
-                BasicTextField(
-                    value = noteText,
-                    onValueChange = { noteText = it },
-                    textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
-                    cursorBrush = SolidColor(brand.moss),
-                    modifier = Modifier.fillMaxWidth().testTag("collect-note-field"),
-                )
-                if (noteText.isEmpty()) {
-                    Text(stringResource(R.string.cf_note_hint), fontSize = 16.sp, color = brand.inkSoft.copy(alpha = 0.7f))
-                }
-            }
+                    .padding(horizontal = 15.dp, vertical = 16.dp)
+                    .testTag("collect-note-field"),
+                decorationBox = { inner ->
+                    Box {
+                        if (noteText.isEmpty()) {
+                            Text(stringResource(R.string.cf_note_hint), fontSize = 16.sp, color = brand.inkSoft.copy(alpha = 0.7f))
+                        }
+                        inner()
+                    }
+                },
+            )
             if (failed) Text(stringResource(R.string.cf_note_failed), fontSize = 13.sp, color = brand.inkSoft)
         }
     }

@@ -98,6 +98,9 @@ class MainActivity : ComponentActivity() {
         link = intent?.data
         launch = LaunchArgs.from(intent, applicationInfo)
         launch.locale?.let { java.util.Locale.setDefault(it) }
+        // Kilometres or miles, for every distance on screen (Units.now), after the
+        // launch's locale so the parity frames read km as the iPhone's do.
+        app.ancienttrees.ui.Units.load(applicationContext)
         setContent {
             // A new set of launch arguments starts the screen afresh (debug builds only).
             androidx.compose.runtime.key(launch) {
@@ -194,13 +197,20 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     val context = LocalContext.current
     val store = remember { CatalogueStore(context.applicationContext) }
     var catalogue by remember { mutableStateOf<Catalogue?>(null) }
+    var catalogueBroken by remember { mutableStateOf(false) }
     // A place, species or tree a tree page sends to the map.
     var go by remember { mutableStateOf<Pair<Long, SearchHit>?>(null) }
     // THE TABS AND THEIR STACKS (Pages.kt, ContentView.swift's three paths).
     val nav = remember { app.ancienttrees.ui.Nav(if (launch.tab == 1 || launch.tab == 2) launch.tab!! else 0) }
     fun openTree(t: Tree) = nav.push(app.ancienttrees.ui.Page.TreePage(t.id))
     /** A place on the map: the map's stack empties and the map tab shows (navigator.searchOnMap). */
+    // A PLACE LINK ON A PAGE IN ANOTHER TAB goes to the map, and back comes home to
+    // that page, as Android's back follows where you came from (the user walk,
+    // 2026-11-17: a Discover tree's "Baarn", then back cleared Baarn and the next
+    // back left the app).
+    var cameFrom by remember { mutableStateOf<Int?>(null) }
     fun goOnMap(hit: SearchHit) {
+        cameFrom = if (nav.tab != 0 && nav.stack.isNotEmpty()) nav.tab else null
         nav.clear(0)
         nav.tab = 0
         go = System.nanoTime() to hit
@@ -270,18 +280,18 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         scope.launch {
             val raw = runCatching { shot.readBytes() }.getOrNull()
             shot.delete()
+            // A copy in the phone's gallery, as the iPhone keeps one in Photos (CameraRoll).
+            raw?.let { app.ancienttrees.account.CameraRoll.keep(context, it) }
             val jpeg = raw?.let { Collector.downsized(it) } ?: return@launch
             collectStart = app.ancienttrees.ui.CollectStart(about = t.name, knownTree = t.id, shotIn = jpeg)
         }
     }
     // The same from the library: the flow reads the photograph's own place and date.
     var choosingFor by remember { mutableStateOf<Tree?>(null) }
-    val library = rememberLauncherForActivityResult(
-        ActivityResultContracts.PickMultipleVisualMedia(1 + Collector.MAX_EXTRAS),
-    ) { uris ->
+    val library = app.ancienttrees.ui.rememberGalleryPick(1 + Collector.MAX_EXTRAS) { uris ->
         val t = choosingFor
         choosingFor = null
-        if (uris.isEmpty() || t == null) return@rememberLauncherForActivityResult
+        if (uris.isEmpty() || t == null) return@rememberGalleryPick
         scope.launch {
             val p = Collector.read(context, uris.first()) ?: return@launch
             val more = uris.drop(1).mapNotNull { Collector.read(context, it)?.raw?.let { r -> Collector.downsized(r) } }
@@ -299,7 +309,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             return
         }
         choosingFor = t
-        library.launch(androidx.activity.result.PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+        library()
     }
     fun collect(t: Tree) {
         if (!signedInNow()) {
@@ -498,13 +508,98 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (showingCover) kotlinx.coroutines.delay(2400)
         showingCover = false
     }
+    // THE COVER'S PHOTOGRAPH RUNS TO EVERY EDGE (Hidde on his Samsung, 2026-11-17: "het
+    // splashscreen van ons met de boomfoto" is not full screen): enableEdgeToEdge's
+    // default lays a light scrim behind three-button navigation for contrast; over the
+    // photograph both bars go clear with white icons, as full-bleed media does, and
+    // the app's own bar style comes back with the map.
+    // THE THEME CHANGES IN PLACE (configChanges="uiMode"): the app no longer restarts
+    // on the Map tab when the phone goes dark at sunset (the user walk, 2026-11-17), so
+    // the system bars' icons are set again here for the new theme.
+    val darkNow = androidx.compose.foundation.isSystemInDarkTheme()
+    var themeSeen by remember { mutableStateOf(darkNow) }
+    LaunchedEffect(darkNow) {
+        if (darkNow == themeSeen) return@LaunchedEffect
+        themeSeen = darkNow
+        (context as? androidx.activity.ComponentActivity)?.enableEdgeToEdge()
+    }
+    LaunchedEffect(nav.tab) { if (nav.tab != 0) cameFrom = null }
+    androidx.activity.compose.BackHandler(enabled = nav.tab == 0 && cameFrom != null && nav.stacks[0].isEmpty()) {
+        val back = cameFrom ?: 0
+        cameFrom = null
+        nav.tab = back
+    }
+    // Over the photograph both bars go clear with white icons; afterwards the window
+    // gets back EXACTLY what it had (re-running enableEdgeToEdge left the bottom bar
+    // looking different, Hidde 2026-11-17: "de twee menus lopen door elkaar").
+    DisposableEffect(showingCover) {
+        val activity = context as? android.app.Activity
+        val window = activity?.window
+        if (!showingCover || window == null) return@DisposableEffect onDispose { }
+        val bars = androidx.core.view.WindowCompat.getInsetsController(window, window.decorView)
+        @Suppress("DEPRECATION") val navColor = window.navigationBarColor
+        @Suppress("DEPRECATION") val statusColor = window.statusBarColor
+        val contrast = if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced else false
+        val lightNav = bars.isAppearanceLightNavigationBars
+        val lightStatus = bars.isAppearanceLightStatusBars
+        @Suppress("DEPRECATION") run {
+            window.navigationBarColor = android.graphics.Color.TRANSPARENT
+            window.statusBarColor = android.graphics.Color.TRANSPARENT
+        }
+        if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced = false
+        bars.isAppearanceLightNavigationBars = false
+        bars.isAppearanceLightStatusBars = false
+        onDispose {
+            @Suppress("DEPRECATION") run {
+                window.navigationBarColor = navColor
+                window.statusBarColor = statusColor
+            }
+            if (android.os.Build.VERSION.SDK_INT >= 29) window.isNavigationBarContrastEnforced = contrast
+            bars.isAppearanceLightNavigationBars = lightNav
+            bars.isAppearanceLightStatusBars = lightStatus
+        }
+    }
     LaunchedEffect(showingCover) {
         if (showingCover) return@LaunchedEffect
         kotlinx.coroutines.delay(500)
-        if (!granted && launch.at == null) askLocation()
+        // ASKED ONCE, as the iPhone asks only while the answer is .notDetermined: after
+        // a "Don't allow" every cold start asked again (round 3, 2026-11-17). The
+        // recovery sheet in Settings is the way back. A device setting, not a person's.
+        val prefs = context.getSharedPreferences("device", android.content.Context.MODE_PRIVATE)
+        if (!granted && launch.at == null && "-no-location-ask" !in launch.args && !prefs.getBoolean("location_asked", false)) {
+            prefs.edit().putBoolean("location_asked", true).apply()
+            askLocation()
+        }
     }
     // Back from Settings with location turned on.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { granted = locationGranted(context) }
+    // COMING BACK ASKS AGAIN, as ContentView's scenePhase .active does: the server's
+    // switches, a profile that never arrived, and the catalogue's version (the Tangier
+    // fig, 2026-10-21: a phone keeps the app in memory for days). The launch does all
+    // three already, so the first resume is skipped; refreshing guards a second ask.
+    var resumedOnce by remember { mutableStateOf(false) }
+    var refreshing by remember { mutableStateOf(false) }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        if (!resumedOnce) { resumedOnce = true; return@LifecycleEventEffect }
+        scope.launch { app.ancienttrees.ui.AppSwitches.refresh(launch.args) }
+        if (account.session != null && !profiles.meLoaded) {
+            scope.launch { profiles.load(account.session?.userId, account.fresh()?.accessToken) }
+        }
+        val current = catalogue
+        if (current != null && !refreshing) {
+            refreshing = true
+            scope.launch {
+                try {
+                    store.refresh(current.version)?.let {
+                        catalogue = it
+                        app.ancienttrees.feed.CataloguePreload.keep(it)
+                    }
+                } finally {
+                    refreshing = false
+                }
+            }
+        }
+    }
 
     // The parity script's launch arguments: the iPhone's own (LaunchArgs.kt).
     val fixedAt = launch.at
@@ -548,6 +643,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             catalogue = it
             app.ancienttrees.feed.CataloguePreload.keep(it)
         }
+        // Neither the copy on the phone nor the server's: say so (ContentView's loadError).
+        if (catalogue == null) catalogueBroken = true
     }
 
     // A tree page opened counts as seen; closing it is the pause where the review ask may come.
@@ -557,7 +654,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (t != null) {
             review.saw(t)
             hadTreeOpen = true
-        } else if (hadTreeOpen) {
+        } else if (hadTreeOpen && nav.stack.none { it.page is app.ancienttrees.ui.Page.TreePage }) {
+            // Only once no tree page is left under you: a species page pushed from a
+            // tree is moving forward, not the pause (the user walk, 2026-11-17).
             hadTreeOpen = false
             review.consider()
         }
@@ -670,15 +769,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         editName = { routes.editProfile = true },
         openPerson = { routes.openPerson(it) },
         openTree = { openTree(it) },
-        // The app has no screen for a reader's shared tree yet (the Shared link
-        // above), so its page opens in the browser, as that link does.
-        openShared = { url ->
-            runCatching {
-                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
-                    addCategory(Intent.CATEGORY_BROWSABLE)
-                    selector = Intent(Intent.ACTION_VIEW, Uri.parse("https://"))
-                })
-            }
+        // A reader's tree on a profile opens IN THE APP, never the website (Hidde,
+        // 2026-11-17: "je moet nooit naar de website sturen"): yours as your tree,
+        // anybody else's read only, as a shared link does (SharedTreeView.swift).
+        openShared = { id ->
+            nav.push(if (myTrees.byId(id) != null) app.ancienttrees.ui.Page.Mine(id) else app.ancienttrees.ui.Page.Shared(id))
         },
                 )
 
@@ -710,6 +805,15 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                 onSpecies = { name -> openSpecies(name) },
                 onFullMap = { nav.push(app.ancienttrees.ui.Page.TreeMap(tree.id)) },
                 onPlacePin = { placing = tree },
+                onOpenPerson = { id -> routes.openPerson(id) },
+                // Your own photographs of this tree (TreeDetail.yourShots), newest first.
+                ownShots = myTrees.all.filter { it.treeId == tree.id && it.photo != null },
+                myTrees = myTrees,
+                onShareOwn = { text -> share(context, tree, "your_photo", text) },
+                onDeleteOwn = { id ->
+                    scope.launch { myTrees.remove(id) }
+                    snack = app.ancienttrees.ui.Snack(context.getString(R.string.photo_deleted), icon = Sym.Delete)
+                },
                 collectedAt = saves.collectedAt[tree.id],
                 // REMOVED AT ONCE, WITH UNDO (TreeDetail.uncollectWithUndo): the
                 // photographs stay, Undo puts the tick back on its first day.
@@ -777,13 +881,33 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // the tab bar steps away (Navigator.mapTakesScreen, build 42).
     var mapStop by remember { mutableStateOf(app.ancienttrees.ui.SheetHeight.PEEK) }
     // The layer each tab's root draws into, for the tab bar's glass (Glass.kt).
+    // MY TREES IS READ AGAIN EVERY TIME IT OPENS (Hidde, 2026-11-17: a tree he removed
+    // stayed in the overview; the account was read at sign-in and at most every ten
+    // minutes after). The tab is where you look at what you have, so it asks the
+    // server each time it comes to the front.
+    LaunchedEffect(nav.tab) {
+        if (nav.tab == 2 && account.session != null) {
+            saves.load()
+            myTrees.load(force = true)
+            // Collect.swift's task: a profile that never arrived is asked for again,
+            // and the early-adopter badge is read with the rest.
+            val t = account.fresh()?.accessToken
+            if (!profiles.meLoaded) profiles.load(account.session?.userId, t)
+            if (t != null && "-earlyadopter" !in launch.args && "-earlyadoptersheet" !in launch.args) {
+                app.ancienttrees.account.EarlyAdopter.status(t)?.let { st -> earlyAdopter = st.hasBadge }
+            }
+        }
+    }
     val barGlass = dev.chrisbanes.haze.rememberHazeState()
     // THE BAR, drawn on the root of the tab on screen, so a pushed page slides
     // over it. Movable, so moving it from one tab's root to the next keeps its
     // pill sliding between them (TabBar.swift).
     val bar = remember {
         androidx.compose.runtime.movableContentOf {
-            if (placing == null && !searching && !discoverSearching && draft == null) {
+            // A search hides the bar only on its own tab: Discover's search stays open
+            // behind a place it sent to the map, and the map was left with no menu
+            // (Hidde on his Samsung, 2026-11-17: "opeens geen menu meer").
+            if (placing == null && !(searching && nav.tab == 0) && !(discoverSearching && nav.tab == 1) && draft == null) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.BottomCenter) {
                     // .transition(.move(edge: .bottom).combined(with: .opacity)), .spring(duration: 0.28)
                     androidx.compose.animation.AnimatedVisibility(
@@ -860,6 +984,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     ) {
                         MapTab(
                             catalogue = catalogue,
+                            covered = nav.stacks[0].isNotEmpty() || cameFrom != null,
                             origin = origin,
                             located = located,
                             granted = granted,
@@ -1072,7 +1197,32 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         // THE LAUNCH LOADING SCREEN (ContentView.swift:869-895): until the catalogue is
         // read, the mark and a spinner on the app's own ground, never a bare map; after
         // six seconds a line saying it is taking too long.
-        if (catalogue == null) {
+        if (catalogue == null && catalogueBroken) {
+            androidx.compose.foundation.layout.Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(10.dp, Alignment.CenterVertically),
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(app.ancienttrees.ui.Brand.colors.ground)
+                    .padding(horizontal = 40.dp)
+                    .testTag("catalogue-broken"),
+            ) {
+                androidx.compose.material3.Icon(app.ancienttrees.ui.Sym.Info, null, tint = app.ancienttrees.ui.Brand.colors.inkSoft, modifier = Modifier.size(40.dp))
+                app.ancienttrees.ui.Text(
+                    androidx.compose.ui.res.stringResource(R.string.catalogue_broken),
+                    fontSize = 17.sp,
+                    fontWeight = androidx.compose.ui.text.font.FontWeight.SemiBold,
+                    color = app.ancienttrees.ui.Brand.colors.ink,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+                app.ancienttrees.ui.Text(
+                    androidx.compose.ui.res.stringResource(R.string.catalogue_broken_sub),
+                    fontSize = 13.sp,
+                    color = app.ancienttrees.ui.Brand.colors.inkSoft,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+            }
+        } else if (catalogue == null) {
             var slowStart by remember { mutableStateOf(false) }
             LaunchedEffect(Unit) { kotlinx.coroutines.delay(6000); slowStart = true }
             androidx.compose.foundation.layout.Column(

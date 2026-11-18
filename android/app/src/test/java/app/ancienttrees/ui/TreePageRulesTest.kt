@@ -29,9 +29,9 @@ class TreePageRulesTest {
     }
 
     @Test fun theDistanceInTheButton() {
-        assertEquals("350 m", farLabel(0.34))
-        assertEquals("2.4 km", farLabel(2.43))
-        assertEquals("17 km", farLabel(16.6))
+        assertEquals("350\u00A0m", farLabel(0.34))
+        assertEquals("2.4\u00A0km", farLabel(2.43))
+        assertEquals("17\u00A0km", farLabel(16.6))
     }
 
     @Test fun girthInMetresWithoutTrailingZeros() {

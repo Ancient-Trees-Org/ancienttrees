@@ -121,17 +121,20 @@ fun SheetSectionHead(title: String) {
     )
 }
 
-/** The small eyebrow heading (Style.swift .eyebrow, uppercase, tracked). */
+/**
+ * A list's section header. The iPhone's is Style.swift .eyebrow, uppercase and
+ * tracked; Android's (Material 3 lists, Google's Settings and Contacts) is the
+ * same words in sentence case, small, in the brand colour (Hidde, 2026-11-17).
+ */
 @Composable
 fun Eyebrow(text: String, modifier: Modifier = Modifier) {
     Text(
-        text.uppercase(),
+        text,
         fontFamily = BrandFace,
-        fontWeight = FontWeight.Bold,
-        fontSize = 11.sp,
-        letterSpacing = 0.8.sp,
-        color = Brand.colors.inkSoft,
-        modifier = modifier,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 14.sp,
+        color = Brand.colors.moss,
+        modifier = modifier.semantics { heading() },
     )
 }
 
@@ -340,8 +343,10 @@ fun TreeCard(
             val photo = tree.photo
             if (photo != null) {
                 // The leaf tile with a white spinner until it lands (TreeCard.swift:116);
-                // the spinner in Android's own shape (Airbnb's line).
-                RemoteImage(photo.card, null, Modifier.fillMaxSize(), fallback = {
+                // the spinner in Android's own shape (Airbnb's line). THE LARGE COPY: the
+                // card spans the phone, over 1000 px, and the 500 px card copy showed
+                // pixelated (Hidde on his Samsung, 2026-11-17); the small tiles keep it.
+                RemoteImage(photo.full, null, Modifier.fillMaxSize(), orElse = photo.card, fallback = {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         androidx.compose.material3.CircularProgressIndicator(color = Color.White, strokeWidth = 2.dp, modifier = Modifier.size(24.dp))
                     }

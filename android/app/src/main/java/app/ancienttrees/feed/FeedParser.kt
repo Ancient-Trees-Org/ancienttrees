@@ -205,6 +205,7 @@ object FeedParser {
             season = o.text("season"),
             takenMonth = o.number("taken_month")?.toInt(),
             sighting = o.text("sighting"),
+            by = o.text("by"),
         )
     }
 

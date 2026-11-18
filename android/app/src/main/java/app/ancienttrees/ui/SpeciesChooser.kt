@@ -51,6 +51,8 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
@@ -185,6 +187,7 @@ internal fun ColumnScope.SearchableList(
 @Composable
 internal fun SheetSearchField(query: String, onQuery: (String) -> Unit, prompt: String, modifier: Modifier = Modifier) {
     val brand = Brand.colors
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     // iOS 26's bottom search capsule: 48 tall, 28 from each side and 28 above the
     // screen's foot (out/parity/side-by-side/species-pick.png, 2026-11-12). This
     // field stands on the navigation bar, so the bar's height comes off the 28;
@@ -198,6 +201,9 @@ internal fun SheetSearchField(query: String, onQuery: (String) -> Unit, prompt: 
         singleLine = true,
         textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
         cursorBrush = SolidColor(brand.moss),
+        // .searchable's Search key puts the keyboard away (MapSearch.kt's field).
+        keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+        keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { keyboard?.hide() }),
         modifier = modifier
             .imePadding()
             .padding(start = 28.dp, end = 28.dp, top = 14.dp, bottom = (28.dp - nav).coerceAtLeast(4.dp))
@@ -218,6 +224,14 @@ internal fun SheetSearchField(query: String, onQuery: (String) -> Unit, prompt: 
                 Box(Modifier.weight(1f)) {
                     if (query.isEmpty()) Text(prompt, fontSize = 17.sp, color = brand.inkSoft)
                     inner()
+                }
+                // .searchable's clear button once there is text (MapSearch.kt's).
+                if (query.isNotEmpty()) {
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier.size(44.dp).clickable { onQuery("") }
+                            .semantics { contentDescription = "Clear" },
+                    ) { Icon(Sym.CancelFill, null, tint = brand.inkSoft, modifier = Modifier.size(20.dp)) }
                 }
             }
         },
@@ -240,10 +254,11 @@ internal fun LazyListScope.groupedSection(
         item(key = "h-$header") {
             Text(
                 headerText(),
-                // An iOS 26 inset-grouped section header: 17 semibold.
-                fontSize = 17.sp,
+                // Android's list subheader (Material 3 lists): small, in the brand colour.
+                fontFamily = BrandFace,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold,
-                color = Brand.colors.inkSoft,
+                color = Brand.colors.moss,
                 modifier = Modifier.padding(start = 32.dp, end = 32.dp, top = 6.dp, bottom = 8.dp),
             )
         }

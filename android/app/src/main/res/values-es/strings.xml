@@ -70,6 +70,7 @@
     <string name="tab_discover">Descubrir</string>
     <string name="tab_my_trees">Mis árboles</string>
     <string name="collect_a_tree">Coleccionar un árbol</string>
+    <string name="tab_collect">Coleccionar</string>
     <!-- discover -->
     <string name="discover_search">Busca un lugar, un árbol o una especie</string>
     <string name="discover_season_here">%1$s ya está aquí</string>
@@ -241,4 +242,11 @@
     <string name="nearby_dismiss">Descartar</string>
     <!-- The launch loading screen, after six seconds (ContentView.swift slowStart). -->
     <string name="slow_start">Esto está tardando más de lo debido. Cierra la app y vuelve a abrirla, y si sigue pasando, avísanos.</string>
+    <string name="tree_your_photo">Tu foto</string>
+    <string name="tree_your_photos">Tus fotos</string>
+    <string name="tree_your_photo_live">Tu foto está en esta página</string>
+    <string name="tree_your_photo_share">Compartir tu foto</string>
+    <string name="tree_your_photo_share_text">Mi foto de %1$s en %2$s está en Ancient Trees.</string>
+    <string name="catalogue_broken">Algo falla en el catálogo</string>
+    <string name="catalogue_broken_sub">No se han podido leer los árboles. Cierra la app y vuelve a abrirla.</string>
 </resources>

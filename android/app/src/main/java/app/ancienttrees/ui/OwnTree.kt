@@ -38,6 +38,8 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.statusBarsIgnoringVisibility
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
@@ -138,6 +140,19 @@ private fun OwnTreeInner(
     var preparing by remember { mutableStateOf(false) }
     var shareFailed by remember { mutableStateOf(false) }
     val place = remember(s.lat, s.lng, catalogue) { minePlace(catalogue, s.lat, s.lng) }
+    // TreeDetail.geocodedPlace: too far from any city of ours, the town's own name,
+    // grey and not a link (the iPhone's reverseGeocodeLocation, locality first).
+    var geocoded by remember(s.lat, s.lng) { mutableStateOf<String?>(null) }
+    LaunchedEffect(s.lat, s.lng, place == null) {
+        if (place != null || geocoded != null || !android.location.Geocoder.isPresent()) return@LaunchedEffect
+        geocoded = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+            runCatching {
+                @Suppress("DEPRECATION")
+                android.location.Geocoder(context).getFromLocation(s.lat, s.lng, 1)?.firstOrNull()
+                    ?.let { it.locality ?: it.adminArea }
+            }.getOrNull()
+        }
+    }
 
     BoxWithConstraints(Modifier.fillMaxSize().background(brand.ground)) {
         // heroHeight: the photograph's shape across the page, stopped at 60 percent of
@@ -193,6 +208,11 @@ private fun OwnTreeInner(
                                     }
                                     .semantics { contentDescription = see },
                             )
+                        }
+                    }
+                    if (place == null) geocoded?.let { named ->
+                        Box(Modifier.heightIn(min = 44.dp), contentAlignment = Alignment.CenterStart) {
+                            Text(named, fontSize = 15.sp, color = brand.inkSoft, maxLines = 1)
                         }
                     }
                     if (s.published) MineStatus()
@@ -470,10 +490,12 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
         if (!ok) return@rememberLauncherForActivityResult
         val raw = runCatching { shot.readBytes() }.getOrNull()
         shot.delete()
+        // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
+        raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
         add(raw)
     }
     val room = (MyTrees.MAX_EXTRAS - s.extras.size).coerceAtLeast(1)
-    val library = rememberLauncherForActivityResult(ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, room))) { uris ->
+    val library = rememberGalleryPick(maxOf(2, room)) { uris ->
         for (u in uris.take(room)) add(runCatching { context.contentResolver.openInputStream(u)?.use { it.readBytes() } }.getOrNull())
     }
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -498,19 +520,19 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
                     }
                     DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                         DropdownMenuItem(
-                            text = { Text(stringResource(R.string.collect_camera), color = brand.ink, fontSize = 16.sp) },
-                            trailingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
+                            text = { MenuText(stringResource(R.string.collect_camera), brand.ink) },
+                            leadingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
                             onClick = {
                                 menu = false
                                 runCatching { camera.launch(shotUri) }
                             },
                         )
                         DropdownMenuItem(
-                            text = { Text(stringResource(R.string.cf_choose), color = brand.ink, fontSize = 16.sp) },
-                            trailingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
+                            text = { MenuText(stringResource(R.string.cf_choose), brand.ink) },
+                            leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                             onClick = {
                                 menu = false
-                                library.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+                                library()
                             },
                         )
                     }
@@ -522,18 +544,19 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
 
 /** Back, and the ellipsis menu: the fields you can fill, then Remove, last and marked. */
 @Composable
+@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 private fun OwnTopButtons(glassState: dev.chrisbanes.haze.HazeState?, onBack: () -> Unit, onEdit: (EditableField) -> Unit, onSpecies: () -> Unit, onRemove: () -> Unit) {
     val brand = Brand.colors
     var menu by remember { mutableStateOf(false) }
     Row(
         // At the top of the safe area, as the iPhone's toolbar (BackButton {16, 62}).
-        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp),
+        Modifier.fillMaxWidth().windowInsetsPadding(androidx.compose.foundation.layout.WindowInsets.statusBarsIgnoringVisibility).padding(horizontal = 16.dp).padding(top = TopRow.TOP),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         val back = stringResource(R.string.back)
         Box(
             // Glass circles tinted by the photograph, as the tree page's (review row 57).
-            Modifier.size(44.dp).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
+            Modifier.size(TopRow.SIZE).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
                 .clickable(role = Role.Button, onClick = onBack).semantics { contentDescription = back },
             contentAlignment = Alignment.Center,
         ) {
@@ -543,20 +566,18 @@ private fun OwnTopButtons(glassState: dev.chrisbanes.haze.HazeState?, onBack: ()
         val more = stringResource(R.string.ot_more)
         Box {
             Box(
-                Modifier.size(44.dp).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
+                Modifier.size(TopRow.SIZE).shadow(2.dp, CircleShape).glass(glassState, CircleShape, brand.surface)
                     .clickable(role = Role.Button) { menu = true }.semantics { contentDescription = more },
                 contentAlignment = Alignment.Center,
             ) {
-                Box(Modifier.size(24.dp).border(1.6.dp, brand.moss, CircleShape), contentAlignment = Alignment.Center) {
-                    Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
-                }
+                Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
             }
             DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                 @Composable
                 fun item(label: Int, icon: androidx.compose.ui.graphics.vector.ImageVector, danger: Boolean = false, go: () -> Unit) =
                     DropdownMenuItem(
-                        text = { Text(stringResource(label), color = if (danger) brand.dangerText else brand.ink, fontSize = 16.sp) },
-                        trailingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
+                        text = { MenuText(stringResource(label), if (danger) brand.dangerText else brand.ink) },
+                        leadingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
                         onClick = {
                             menu = false
                             go()
@@ -580,7 +601,15 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
     val brand = Brand.colors
     var text by remember { mutableStateOf(initial) }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    // The keyboard up with the sheet, as the iPhone's `.onAppear { focused = true }`;
+    // requestFocus alone left it down inside a sheet (the note sheet, 2026-11-17).
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+    LaunchedEffect(Unit) {
+        // A beat for the sheet to attach: on the first frame the keyboard was asked
+        // for and did not come (the age field, test-account walk 2026-11-17).
+        kotlinx.coroutines.delay(150)
+        runCatching { focus.requestFocus(); keyboard?.show() }
+    }
     val prompt = stringResource(
         when (field) {
             EditableField.NAME -> R.string.ot_prompt_name
@@ -593,26 +622,15 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
         onDismissRequest = onCancel,
         containerColor = brand.ground,
     ) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp).imePadding()) {
-            Row(Modifier.fillMaxWidth().height(44.dp), verticalAlignment = Alignment.CenterVertically) {
-                Text(stringResource(R.string.cancel), fontSize = 17.sp, color = brand.moss, modifier = Modifier.clickable(role = Role.Button, onClick = onCancel))
-                Text(
-                    prompt,
-                    fontSize = 17.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = brand.ink,
-                    maxLines = 1,
-                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-                    modifier = Modifier.weight(1f).padding(horizontal = 8.dp),
-                )
-                Text(
-                    stringResource(R.string.ot_save),
-                    fontSize = 17.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = brand.moss,
-                    modifier = Modifier.clickable(role = Role.Button) { onSave(text.trim()) },
-                )
-            }
+        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp).imePadding()) {
+            // Android's dialog bar (SheetNavBar): the X for Cancel, the prompt, Save at the end.
+            SheetNavBar(
+                full = false,
+                leading = stringResource(R.string.cancel) to onCancel,
+                title = prompt,
+                trailing = stringResource(R.string.ot_save) to { onSave(text.trim()) },
+            )
+            Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
             Spacer(Modifier.height(12.dp))
             BasicTextField(
                 value = text,
@@ -644,6 +662,7 @@ private fun FieldEditor(field: EditableField, initial: String, onCancel: () -> U
                 Text(hint, fontSize = 13.sp, color = brand.inkSoft)
             }
             Spacer(Modifier.height(24.dp))
+            }
         }
     }
 }

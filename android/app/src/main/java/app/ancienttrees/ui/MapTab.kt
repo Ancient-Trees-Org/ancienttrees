@@ -95,10 +95,29 @@ data class MapFilters(
     val isOn: Boolean get() = favouritesOnly || collectedOnly || freeOnly || species != null
 
     fun keeps(t: Tree, collected: Set<String>, favourites: Set<String>): Boolean {
-        if (collectedOnly && t.id !in collected) return false
-        if (favouritesOnly && t.id !in favourites) return false
+        // WANT TO VISIT AND COLLECTED ADD UP (Hidde, 2026-11-17): two chips of the same
+        // kind mean either, as filters in one group do everywhere; with only Want to
+        // visit on, a collected tree is not on the map.
+        if (collectedOnly || favouritesOnly) {
+            val wanted = (collectedOnly && t.id in collected) || (favouritesOnly && t.id in favourites)
+            if (!wanted) return false
+        }
         if (freeOnly && t.paidEntry) return false
         if (species != null && t.commonName != species) return false
+        return true
+    }
+
+    /**
+     * A tree only you have (MapFilters.keeps(sighting) on the iPhone): it counts as
+     * collected, so Want to visit alone leaves it off; species is read off it; free
+     * and photo questions have no answer on it and keep it.
+     */
+    fun keepsMine(s: app.ancienttrees.account.OwnSighting, favourites: Set<String>): Boolean {
+        if (collectedOnly || favouritesOnly) {
+            val wanted = collectedOnly || (favouritesOnly && s.asTree().id in favourites)
+            if (!wanted) return false
+        }
+        if (species != null && s.asTree().commonName != species) return false
         return true
     }
 }
@@ -131,6 +150,8 @@ data class MapLaunch(
 @Composable
 fun MapTab(
     catalogue: Catalogue?,
+    /** A page is pushed over the map (a tree, a species): the map's own back steps wait. */
+    covered: Boolean = false,
     origin: Here,
     located: Boolean,
     granted: Boolean,
@@ -206,10 +227,12 @@ fun MapTab(
             selected = null
         }
     }
-    BackHandler(enabled = selected != null) { selected = null }
+    // Never while a page covers the map: there back closed the hidden card or cleared
+    // the searched place, and the page stayed (the user walk, 2026-11-17).
+    BackHandler(enabled = !covered && selected != null) { selected = null }
     // BACK FROM A SEARCHED PLACE RETURNS TO THE MAP, as the field's cross does
     // (visual review 2026-11-11, flow 163: it left the app). Below a chosen tree.
-    BackHandler(enabled = focusPlace != null && selected == null) { focusPlace = null }
+    BackHandler(enabled = !covered && focusPlace != null && selected == null) { focusPlace = null }
 
     val focus = region?.let { Here((it.south + it.north) / 2, (it.west + it.east) / 2) } ?: origin
     val box = region ?: ViewBox(origin.lat - 0.05, origin.lng - 0.08, origin.lat + 0.05, origin.lng + 0.08)
@@ -364,7 +387,7 @@ fun MapTab(
             bottomCover = minOf(stopCoverage, sheet.halfPx.takeIf { it > 0 } ?: stopCoverage),
             moveTo = moveTo,
             quietSelect = launch.select,
-            mine = mine,
+            mine = if (!filters.isOn) mine else mine.filter { filters.keepsMine(it, marks.saved) },
             minePhoto = minePhoto,
             onMine = onMine,
             collected = marks.collected,
@@ -587,7 +610,7 @@ private fun leadWithAPhotograph(list: List<Listed>): List<Listed> {
 }
 
 /** EmptyPlace.distance: one decimal under ten. */
-private fun far(km: Double): String = if (km < 10) String.format(java.util.Locale.ROOT, "%.1f km", km) else "${km.roundToInt()} km"
+private fun far(km: Double): String = Units.label(km)
 
 /** DIRECTION C: Highlights, Collected, then every tree in view as a row. */
 @Composable

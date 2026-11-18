@@ -35,7 +35,11 @@ object Supa {
             c.connectTimeout = 20_000
             c.readTimeout = 20_000
             c.setRequestProperty("apikey", KEY)
-            c.setRequestProperty("Content-Type", "application/json")
+            // ONLY WITH A BODY: storage refuses a DELETE that says JSON and carries none
+            // ("Body cannot be empty when content-type is set to 'application/json'"),
+            // so every photo and avatar removal from Android failed without a word (the
+            // test-account walk, 2026-11-17: a removed tree's photographs stayed).
+            if (body != null) c.setRequestProperty("Content-Type", "application/json")
             c.setRequestProperty("Authorization", "Bearer " + (token ?: KEY))
             prefer?.let { c.setRequestProperty("Prefer", it) }
             if (body != null) {

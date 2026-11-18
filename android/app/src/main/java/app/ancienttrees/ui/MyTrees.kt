@@ -230,7 +230,10 @@ private fun MyTreesInner(
     BackHandler(enabled = selected == null && sheet.height == SheetHeight.FULL) { sheet.height = SheetHeight.HALF }
 
     // centreOfYours and spanOfYours: the map opens on your collection, or where you are.
-    val points = visited.map { it.lat to it.lng } + ownTrees.map { it.lat to it.lng }
+    // WHERE MOST OF YOUR TREES ARE, when they cannot all be in one view (Hidde, 2026-11-17:
+    // a collection from Spain to Japan opened on empty Central Asia, the world's floor
+    // zoom showing about 100 degrees across). MapFrame.densest, the iPhone's too.
+    val points = app.ancienttrees.map.MapFrame.densest(visited.map { it.lat to it.lng } + ownTrees.map { it.lat to it.lng })
     val centre = if (points.isEmpty()) origin else Here(points.map { it.first }.average(), points.map { it.second }.average())
     val span = if (!shows || points.isEmpty()) 3000.0 else {
         val m = maxOf(
@@ -239,18 +242,41 @@ private fun MyTreesInner(
         )
         maxOf(m * 1.4, 1200.0)
     }
-    val frame = remember(centre.lat, centre.lng, span) {
-        val dLat = span / 2 / 111_320.0
-        val dLng = span / 2 / (111_320.0 * kotlin.math.cos(Math.toRadians(centre.lat))).coerceAtLeast(1.0)
-        MoveRequest(System.nanoTime(), ViewBox(centre.lat - dLat, centre.lng - dLng, centre.lat + dLat, centre.lng + dLng))
+    // FIT THE TREES THEMSELVES (TreeMap fitsTrees on the iPhone): around the centre
+    // a square of the span missed trees on another continent (Hidde's collection from
+    // Lisbon to Japan opened on Asia with one pin, 2026-11-17), so the box is the
+    // trees' own bounds with a fifth of air on each side, never under the span's
+    // 1200 m floor. Nothing yet: the 3000 m around where you are, as before.
+    // ONCE PER VISIT (Hidde's recording, 2026-11-17: after the locate arrow the map
+    // jumped from Asia to Norway to the Mediterranean): the frame is made when your
+    // trees first arrive, never again when a reload or a lane change brings the same
+    // trees back, so it does not fight the arrow or a finger.
+    val frame = remember(shows, points.isEmpty()) {
+        val box = if (shows && points.isNotEmpty()) {
+            val loLat = points.minOf { it.first }; val hiLat = points.maxOf { it.first }
+            val loLng = points.minOf { it.second }; val hiLng = points.maxOf { it.second }
+            val minLat = 1200.0 / 111_320.0
+            val padLat = maxOf((hiLat - loLat) * 0.2, minLat / 2)
+            val padLng = maxOf((hiLng - loLng) * 0.2, minLat / 2 / kotlin.math.cos(Math.toRadians(centre.lat)).coerceAtLeast(0.01))
+            ViewBox(loLat - padLat, loLng - padLng, hiLat + padLat, hiLng + padLng)
+        } else {
+            val dLat = span / 2 / 111_320.0
+            val dLng = span / 2 / (111_320.0 * kotlin.math.cos(Math.toRadians(centre.lat))).coerceAtLeast(1.0)
+            ViewBox(centre.lat - dLat, centre.lng - dLng, centre.lat + dLat, centre.lng + dLng)
+        }
+        MoveRequest(System.nanoTime(), box)
     }
     val ownAsTrees = remember(mine.version, shows) { ownTrees.associate { s -> s.asTree().id to s } }
-    val mapTrees = visited + ownAsTrees.values.map { it.asTree() }
     val navBottom = WindowInsets.navigationBars.getBottom(density).toFloat()
 
     Box(Modifier.fillMaxSize().background(Brand.colors.ground).testTag("collection-tab")) {
         TreeMapView(
-            trees = mapTrees,
+            // Ours as pins; YOUR OWN in your photograph, as the iPhone's TreeMap(mine:)
+            // and our Map tab draw them (Hidde 2026-11-17: "waarom zoveel grijs").
+            trees = visited,
+            mine = ownTrees,
+            minePhoto = { path -> mine.photoBytes(path) },
+            onMine = { id -> ownTrees.firstOrNull { it.id == id }?.let { selected = it.asTree() } },
             selected = selected,
             onSelect = { selected = it },
             origin = centre,
@@ -339,7 +365,7 @@ private fun MyTreesInner(
         }
 
         // POLARSTEPS' GEAR: it never leaves, and fills in as the list becomes the page.
-        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 10.dp, end = 16.dp)) // under the status bar with 10 of air, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high next to the iPhone, whose safe top holds the island (Hidde, 2026-11-17)
+        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (12f * (1f - sheet.pageProgress)).dp, end = 16.dp)) // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
     }
 }
 
@@ -349,7 +375,7 @@ private fun SettingsGear(progress: Float, onClick: () -> Unit, modifier: Modifie
     val label = stringResource(R.string.mt_settings)
     Box(
         modifier
-            .size(44.dp)
+            .size(40.dp) // Polarsteps' 39 on Hidde's Samsung (2026-11-17), centre on the same line
             // iOS 26's white circle with its soft shadow (visual review 2026-11-11).
             .shadow(8.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f))
             .clip(CircleShape)
@@ -513,7 +539,10 @@ private fun WhoRow(signedIn: Boolean, email: String?, mine: MyTrees, actions: My
             Box(
                 Modifier
                     .offset(x = 4.dp)
-                    .size(44.dp)
+                    // The gear's size, so the two stand centre over centre (Hidde,
+                    // 2026-11-17: "zorg dat de settings-knop en de add friend-knop
+                    // uitgelijnd zijn"); the gear went to Polarsteps' 40 that day.
+                    .size(40.dp)
                     // iOS 26's white circle with its soft shadow (visual review 2026-11-11).
                     .shadow(8.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f))
                     .clip(CircleShape)
@@ -625,7 +654,7 @@ private fun LaneContent(
                     @Composable {
                         when (item) {
                             is TimelineItem.Mine -> CollectedTile(cityOf(item), Modifier.clickable { actions.openMine(item.s.id) }) {
-                                OwnPhoto(item.s, mine, Modifier.fillMaxSize()) { Named(item.s.name) }
+                                OwnPhoto(item.s, mine, Modifier.fillMaxSize(), maxSide = 480) { Named(item.s.name) }
                             }
                             is TimelineItem.Sent -> CollectedTile(item.t.city) { Named(item.t.title) }
                             is TimelineItem.Ours -> CollectedTile(item.t.city, Modifier.clickable { actions.openTree(item.t) }.semantics { contentDescription = item.t.name }, approved = item.t.id in mine.approved) {
@@ -713,7 +742,7 @@ private fun CollectedTile(city: String?, modifier: Modifier = Modifier, approved
 private fun OursPicture(t: Tree, ownShot: OwnSighting?, mine: MyTrees) {
     val brand = Brand.colors
     when {
-        ownShot != null -> OwnPhoto(ownShot, mine, Modifier.fillMaxSize()) { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) }
+        ownShot != null -> OwnPhoto(ownShot, mine, Modifier.fillMaxSize(), maxSide = 480) { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) }
         t.photo != null -> RemoteImage(t.photo.card, null, Modifier.fillMaxSize(), fallback = { Box(Modifier.fillMaxSize().background(brand.surfaceMuted)) })
         else -> Named(t.name)
     }
@@ -818,7 +847,7 @@ private fun Mission(catalogue: Catalogue, origin: Here, located: Boolean, wishli
     if (t != null) {
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
             val km = Geo.km(origin.lat, origin.lng, t.lat, t.lng)
-            val far = if (km < 1) "${(km * 1000).toInt()} m" else String.format(java.util.Locale.ROOT, "%.1f km", km)
+            val far = Units.label(km)
             Text(
                 if (located) stringResource(R.string.mt_first_tree, far) else stringResource(R.string.mt_start_with),
                 fontFamily = BrandFace,
@@ -841,7 +870,9 @@ private fun Mission(catalogue: Catalogue, origin: Here, located: Boolean, wishli
 
 // MARK: - your own photographs (OwnThumb)
 
-private val ownPhotos = object : LruCache<String, Bitmap>(24 * 1024 * 1024) {
+// 64 MB, and every picture at its tile's size (below): at 24 MB with pictures up to
+// 1800 px two fitted, so every chip on My trees fetched the grid again (2026-11-17).
+private val ownPhotos = object : LruCache<String, Bitmap>(64 * 1024 * 1024) {
     override fun sizeOf(key: String, value: Bitmap) = value.byteCount
 }
 
@@ -862,8 +893,51 @@ fun OwnPhoto(s: OwnSighting, mine: MyTrees, modifier: Modifier = Modifier, maxSi
         Box(modifier) { none() }
         return
     }
+    // A TILE TAKES THE SHARED SMALL COPY FIRST (Hidde, 2026-11-17: My trees "duurt erg
+    // lang bij een open, bij iOS nooit"): every sighting is shared from the start, so
+    // its 600 px copy is public, and RemoteImage keeps it in the photo cache on the
+    // phone; the full private photograph, fetched with your token, only when the
+    // small copy is not made yet. The iPhone reads its own files off the phone.
+    if (maxSide <= 600) {
+        val shared = app.ancienttrees.account.Supa.URL_BASE + "/storage/v1/object/public/shared-sightings/" +
+            path.split("/").joinToString("/") { java.net.URLEncoder.encode(it, "UTF-8").replace("+", "%20") }
+        val thumb = shared.replace("/object/public/shared-sightings/", "/object/public/shared-thumbs/")
+        val key = "$path@$maxSide"
+        val picture by produceState(ownPhotos.get(key), key) {
+            value = ownPhotos.get(key)
+            if (value == null) {
+                value = (ImageStore.image(thumb, urgent = true) ?: ImageStore.image(shared, urgent = true))
+                    ?.also { ownPhotos.put(key, it) }
+            }
+        }
+        var shared404 by remember(key) { mutableStateOf(false) }
+        LaunchedEffect(key) {
+            // Neither public copy answered within a few seconds: the private photograph.
+            kotlinx.coroutines.delay(4000)
+            if (picture == null) shared404 = true
+        }
+        val b = picture
+        when {
+            b != null -> Image(b.asImageBitmap(), null, contentScale = ContentScale.Crop, modifier = modifier)
+            shared404 -> PrivatePhoto(path, mine, modifier, maxSide)
+            else -> Box(modifier.background(brand.surfaceMuted))
+        }
+        return
+    }
+    PrivatePhoto(path, mine, modifier, maxSide)
+}
+
+/** Your photograph from the private bucket, with your token, decoded to [maxSide]. */
+@Composable
+private fun PrivatePhoto(path: String, mine: MyTrees, modifier: Modifier, maxSide: Int) {
+    val brand = Brand.colors
     val key = "$path@$maxSide"
     val bitmap by produceState(ownPhotos.get(key), key) {
+        // A REUSED TILE NEVER KEEPS THE PREVIOUS TREE'S PICTURE (RemoteImage's rule):
+        // produceState keeps its value across a new key, so a country chip or a removed
+        // tree left every slot showing the photograph that stood there before (Hidde
+        // on his Samsung, 2026-11-17: "het ververst niet op de landfilters").
+        value = ownPhotos.get(key)
         if (value == null) {
             val bytes = mine.photoBytes(path)
             value = bytes?.let { b ->
@@ -871,8 +945,17 @@ fun OwnPhoto(s: OwnSighting, mine: MyTrees, modifier: Modifier = Modifier, maxSi
                     val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
                     BitmapFactory.decodeByteArray(b, 0, b.size, bounds)
                     var sample = 1
-                    while (maxOf(bounds.outWidth, bounds.outHeight) / sample > maxSide * 2) sample *= 2
-                    BitmapFactory.decodeByteArray(b, 0, b.size, BitmapFactory.Options().apply { inSampleSize = sample })
+                    while (maxOf(bounds.outWidth, bounds.outHeight) / (sample * 2) >= maxSide) sample *= 2
+                    val decoded = BitmapFactory.decodeByteArray(b, 0, b.size, BitmapFactory.Options().apply { inSampleSize = sample })
+                        ?: return@withContext null
+                    // Then exactly to maxSide on its long side, so the cache holds tiles,
+                    // not photographs.
+                    val side = maxOf(decoded.width, decoded.height)
+                    if (side <= maxSide) decoded else {
+                        val k = maxSide.toFloat() / side
+                        Bitmap.createScaledBitmap(decoded, (decoded.width * k).toInt().coerceAtLeast(1), (decoded.height * k).toInt().coerceAtLeast(1), true)
+                            .also { if (it !== decoded) decoded.recycle() }
+                    }
                 }
             }?.also { ownPhotos.put(key, it) }
         }

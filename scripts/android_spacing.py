@@ -666,10 +666,10 @@ def sheet_scale(ios):
     a screen are scaled back by the button (found 2026-11-11); positions from the
     screen's edges are left as read.
     """
-    # Since PR 54 Android draws its floating sheet at the same scale (Sheet.kt,
-    # graphicsLayer, 8 in from each side), so both phones are read as drawn and
-    # nothing is scaled back here; correcting only the iPhone counted it twice.
-    return 1.0
+    # From PR 54 to 2026-11-17 Android drew its floating sheet at the same scale
+    # and nothing was scaled back here. Since the sheet is docked (Sheet.kt,
+    # _android_forced "Bottom sheets") Android draws it at the full width and
+    # full size again, so the iPhone's reading is scaled back to compare.
     hs = [e["h"] for e in ios["els"] if e["t"] == "Button" and 45.5 < e["h"] < 47.9 and e["w"] > 300]
     return 48.0 / max(set(hs), key=hs.count) if hs else 1.0
 
@@ -842,7 +842,11 @@ def judge(screen, ios, xml_pages, density, safe_and, screen_h_dp, allowed, h_pen
             missing.append("sheet grabber not found")
         i_close = [e for e in ios["els"] if e["id"] in ("sheet-close", "spot-close", "xmark")]
         a_close = [p for p in sheet_pairs if p[0]["id"] in ("sheet-close", "spot-close", "xmark")]
-        if i_close and not a_close:
+        # A docked short sheet on Android has no X (Sheet.kt, 2026-11-17,
+        # data/android-parity.json _android_forced "Bottom sheets"): only a full
+        # sheet must still show one.
+        android_full = any(n["id"] == "full-sheet-top" for ns in all_nodes for n in ns)
+        if i_close and not a_close and android_full:
             missing.append("sheet close button not found")
     # A FULL SHEET (.large) on Android marks its top (Sheet.kt, full-sheet-top).
     # The iPhone's dumps are rooted below that top, so its numbers come from its

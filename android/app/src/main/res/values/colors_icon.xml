@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The iPhone app icon's cream (scripts/android_icon.py). -->
+<resources>
+    <color name="ic_launcher_background">#F7F6F1</color>
+</resources>

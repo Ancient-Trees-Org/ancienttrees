@@ -85,6 +85,7 @@ import app.ancienttrees.account.Profiles
 import app.ancienttrees.account.Supa
 import app.ancienttrees.feed.Catalogue
 import app.ancienttrees.feed.Tree
+import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.json.JSONArray
@@ -142,6 +143,11 @@ class PeopleHost(
 
 private data class Suggestion(val profile: Profiles.Profile, val reason: String, val ambassador: Boolean)
 
+// THE LAST SUGGESTIONS STAY FOR THE NEXT VISIT (Hidde on his Samsung, 2026-11-17:
+// "het duurde best even voordat de gesuggereerde gebruikers vertoonden"): memory only,
+// for this account, refreshed behind the list as Discover's shelves are.
+private var lastSuggestions: Pair<String, List<Suggestion>>? = null
+
 @Composable
 fun FindPeopleScreen(host: PeopleHost, source: PeopleSource, onBack: () -> Unit) = PlainText { FindPeopleInner(host, source, onBack) }
 
@@ -154,7 +160,7 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
     val me = host.userId
     var query by remember { mutableStateOf("") }
     var results by remember { mutableStateOf<List<Profiles.Profile>>(emptyList()) }
-    var suggestions by remember { mutableStateOf<List<Suggestion>>(emptyList()) }
+    var suggestions by remember { mutableStateOf(lastSuggestions?.takeIf { it.first == me && source == PeopleSource.SEARCH }?.second.orEmpty()) }
     val followingIds = remember { mutableStateListOf<String>() }
     var searching by remember { mutableStateOf(false) }
     var acting by remember { mutableStateOf<Profiles.Profile?>(null) }
@@ -176,20 +182,26 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
     fun reasonPhoto(n: Int, place: String) = if (n == 1) photographedOne.format(place) else photographedMany.format(n, place)
 
     suspend fun loadSuggestions() {
-        if (source != PeopleSource.SEARCH || me == null) { suggestions = emptyList(); return }
+        if (source != PeopleSource.SEARCH || me == null) { suggestions = emptyList(); loadFollowing(); return }
         if (demo) {
             suggestions = DemoPeople.suggestions.map {
                 Suggestion(it.profile, if (it.ambassador) reasonAmbassador(it.place) else reasonPhoto(it.count ?: 0, it.place), it.ambassador)
             }
             return
         }
-        val cat = host.catalogue ?: return
+        val cat = host.catalogue ?: run { loadFollowing(); return }
         // Your places, most trees first.
         val places = host.yourTrees.mapNotNull { cat.tree(it)?.citySlug }.groupingBy { it }.eachCount()
             .entries.sortedWith(compareBy({ -it.value }, { it.key })).map { it.key }
         val rank = places.withIndex().associate { it.value to it.index }
         val t = token()
-        val shots = host.profiles.photographers(places.take(6).associateWith { s -> cat.trees(s).map { it.id } }, t)
+        // Who you follow and who photographed your places, at the same time.
+        val shots = kotlinx.coroutines.coroutineScope {
+            val following = async { loadFollowing() }
+            val photographers = async { host.profiles.photographers(places.take(6).associateWith { s -> cat.trees(s).map { it.id } }, t) }
+            following.await()
+            photographers.await()
+        }
         val names = cat.browse?.cities.orEmpty().filter { it.slug != null }.associate { it.slug!! to it.name }
         val ambassadors = cat.browse?.cities.orEmpty().flatMap { c ->
             val slug = c.slug ?: return@flatMap emptyList()
@@ -206,17 +218,21 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
             val id = it.profile.userId
             id != me && !host.moderation.hides(id) && it.profile.displayName.isNotEmpty() && seen.add(id)
         }.filter { it.profile.userId !in followingIds }.take(12)
+        // On screen now; the names and badges below follow a moment later.
+        if (suggestions.isEmpty()) suggestions = list
         // The name and picture as their owner set them today.
         val fresh = host.profiles.byIds(list.map { it.profile.userId }, t).associateBy { it.userId }
         list = list.map { s -> fresh[s.profile.userId]?.let { p -> s.copy(profile = s.profile.copy(displayName = p.displayName.ifEmpty { s.profile.displayName }, avatarUrl = p.avatarUrl)) } ?: s }
         host.profiles.loadAmbassadors(list.map { it.profile.userId }, t)
         suggestions = list
+        me?.let { lastSuggestions = it to list }
     }
 
     LaunchedEffect(me) {
         if (demo && source != PeopleSource.SEARCH) results = DemoPeople.all
-        loadFollowing()
-        loadSuggestions()
+        // Suggestions load who you follow alongside (and the demo's stand-ins); the
+        // follower lists only need the follow state.
+        if (source == PeopleSource.SEARCH) loadSuggestions() else loadFollowing()
     }
     LaunchedEffect(source, me) {
         if (source == PeopleSource.SEARCH || me == null || demo) return@LaunchedEffect
@@ -434,12 +450,15 @@ private fun RefreshableWhen(on: Boolean, refreshing: Boolean, onRefresh: () -> U
 @Composable
 private fun SearchField(query: String, onChange: (String) -> Unit) {
     val brand = Brand.colors
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     BasicTextField(
         value = query,
         onValueChange = onChange,
         singleLine = true,
         textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
-        keyboardOptions = KeyboardOptions(autoCorrectEnabled = false),
+        // .searchable's Search key puts the keyboard away (MapSearch.kt's field).
+        keyboardOptions = KeyboardOptions(autoCorrectEnabled = false, imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+        keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { keyboard?.hide() }),
         // The iPhone's bar carries its search field in 60 under the 54 (SweepFrames
         // people: the first cell at 114 below the safe area): iOS 26's white capsule,
         // 44 tall with a soft shadow, right under the bar, then 16 (its shot: 117 to
@@ -457,6 +476,14 @@ private fun SearchField(query: String, onChange: (String) -> Unit) {
                 Box(Modifier.weight(1f)) {
                     if (query.isEmpty()) Text(stringResource(R.string.people_search), fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.8f))
                     inner()
+                }
+                // .searchable's clear button once there is text (MapSearch.kt's).
+                if (query.isNotEmpty()) {
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier.size(44.dp).clickable { onChange("") }
+                            .semantics { contentDescription = "Clear" },
+                    ) { Icon(Sym.CancelFill, null, tint = brand.inkSoft, modifier = Modifier.size(20.dp)) }
                 }
             }
         },
@@ -476,6 +503,7 @@ private fun PersonRow(
     onMore: () -> Unit,
 ) {
     val brand = Brand.colors
+    val keyboardNow = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     val hidden = host.moderation.hides(p.userId)
     val scope = rememberCoroutineScope()
     Row(
@@ -490,7 +518,9 @@ private fun PersonRow(
         Box(Modifier.weight(1f)) { Row(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.clickable(role = Role.Button) { host.openPerson(p.userId) }.testTag("person-open"),
+            // The keyboard goes as a profile opens (it stayed up over the profile and
+            // the first back only closed it; the test-account walk, 2026-11-17).
+            modifier = Modifier.clickable(role = Role.Button) { keyboardNow?.hide(); host.openPerson(p.userId) }.testTag("person-open"),
         ) {
             Box {
                 Avatar(p.avatarUrl, p.displayName, 40, initialSize = 16)
@@ -506,7 +536,10 @@ private fun PersonRow(
                     color = if (p.displayName.isEmpty() || hidden) brand.inkSoft else brand.ink, maxLines = 1, overflow = TextOverflow.Ellipsis,
                 )
                 if (reason != null) {
-                    Text(reason, fontSize = 12.sp, color = brand.inkSoft, maxLines = 2)
+                    // Ends in "…" rather than breaking inside a word ("am / bassador")
+                    // where big text leaves the column narrow (the small-phone walk).
+                    Text(reason, fontSize = 12.sp, color = brand.inkSoft, maxLines = 2, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+                        )
                 } else {
                     AmbassadorBadge(host.profiles.placesByUser[p.userId].orEmpty(), compact = true)
                 }
@@ -673,7 +706,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         val tiles: List<@Composable (Modifier) -> Unit> =
                             trees.map { t -> @Composable { m: Modifier -> GridTile(t, t.id in approved, m) { host.openTree(t) } } } +
-                                own.map { o -> @Composable { m: Modifier -> OwnTile(o, m) { host.openShared(o.url) } } }
+                                own.map { o -> @Composable { m: Modifier -> OwnTile(o, m) { host.openShared(o.id.lowercase()) } } }
                         for (row in tiles.chunked(3)) {
                             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                 for (tile in row) tile(Modifier.weight(1f))

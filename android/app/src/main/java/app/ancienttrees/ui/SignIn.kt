@@ -3,8 +3,8 @@
 // one line, the sign-in pills of one size 10 apart, a red line when something went
 // wrong, and the terms in one line. The cross in the corner closes it.
 //
-// The iPhone's three pills in its order: the dark "Continue with Apple" first, then
-// Google's cream pill, then email. Apple and Google open in a Custom Tab and come
+// Three pills on Android: Google's first and dark, then email, then Apple's
+// (the iPhone puts Apple first). Apple and Google open in a Custom Tab and come
 // back on ancienttrees://auth-callback (Account.kt), so no sign-in library is
 // added; the iPhone's Apple sheet is Apple's own, which Android does not have.
 
@@ -144,7 +144,7 @@ fun SignInSheet(account: Account, reason: SignInReason, onDismiss: () -> Unit) {
         modifier = Modifier.testTag("signin-sheet"),
     ) {
         // SignIn.swift: content 36 below the sheet's top (the handle drawn inside that
-        // room), 28 above the floating card's foot, the X 8 down. AppSheet's handle
+        // room), 28 above the sheet's foot (the iPhone's X 8 down). AppSheet's handle
         // keeps 48 (Sheet.kt), so the content comes 36 up; the icon sat 37 lower.
         // The box comes 24 and the scroll's own padding does the rest: lifted the
         // whole 36, the scroll area began over the grabber, and Compose leaves a
@@ -175,7 +175,8 @@ fun SignInSheet(account: Account, reason: SignInReason, onDismiss: () -> Unit) {
                     else -> Ask(account, reason)
                 }
             }
-            SheetCloseButton({ account.dismissProblem(); onDismiss() }, Modifier.align(Alignment.TopEnd).offset(y = (-16).dp))
+            // No X on Android: the docked sheet closes by a swipe down, the system
+            // back or the scrim (Sheet.kt, 2026-11-17); the iPhone keeps its X.
         } }
     }
 }
@@ -197,6 +198,8 @@ private fun Ask(account: Account, reason: SignInReason) {
     var fieldFocused by remember { mutableStateOf(false) }
     val working = account.state is SignIn.Working
     val focus = remember { FocusRequester() }
+    val focusManager = androidx.compose.ui.platform.LocalFocusManager.current
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
 
     Column(verticalArrangement = Arrangement.spacedBy(24.dp)) {
         // THE HEADER: the app's own icon, the brand face at 26, centred.
@@ -216,20 +219,29 @@ private fun Ask(account: Account, reason: SignInReason) {
         // 10 apart, where Hidde stopped complaining (SignIn.swift, 2026-10-09).
         // The email field opens with .snappy (SignIn.swift:224): the sheet grows to it.
         Column(verticalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.animateContentSize(Motion.snappy())) {
-            // A custom Sign in with Apple button, as the iPhone's (SignIn.swift; Apple's HIG
-            // allows their logo, "Continue with Apple", black or white): loud, first.
-            SignInPill(stringResource(R.string.signin_apple), loud = true, enabled = !working, tag = "signin-apple",
-                mark = { Icon(AppleLogo, null, Modifier.size(22.dp), tint = LocalContentColor.current) }) { account.openApple(context) }
-            SignInPill(stringResource(R.string.signin_google), loud = false, enabled = !working, tag = "signin-google",
+            // GOOGLE FIRST ON ANDROID (Hidde, 2026-11-17, "fix them all"): nearly every
+            // Android phone is signed in to Google, and Sign in with Apple is rare there,
+            // so Google takes the loud first pill (Google's dark button: #131314 fill,
+            // the full-colour G, developers.google.com/identity/branding-guidelines)
+            // then email, and Apple LAST, as Android apps that offer it place it (Airbnb);
+            // it stays for accounts made with Apple on an iPhone, often behind Apple's
+            // hidden address. Once email is chosen, the pills under it go. The iPhone
+            // keeps Apple first.
+            SignInPill(stringResource(R.string.signin_google), loud = true, enabled = !working, tag = "signin-google",
                 mark = { Image(GoogleG, null, Modifier.size(18.dp)) }) { account.openGoogle(context) }
             if (!emailOpen) {
                 SignInPill(stringResource(R.string.signin_email), loud = false, enabled = true, tag = "signin-email") {
                     emailOpen = true
                 }
             } else {
-                LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+                // focus = .email brings the keyboard up on the iPhone; inside a sheet
+                // requestFocus alone left it down on the Samsung, so ask for it too.
+                LaunchedEffect(Unit) { runCatching { focus.requestFocus() }; keyboard?.show() }
                 val suggestion = EmailSuggest.suggestion(address)
                 val send = {
+                    // Both ways the field lets go and the keyboard goes down
+                    // (SignIn.swift send(): focus = nil before the hold and the send).
+                    focusManager.clearFocus()
                     if (suggestion != null && heldFor != address.trim()) {
                         heldFor = address.trim()
                     } else {
@@ -285,6 +297,10 @@ private fun Ask(account: Account, reason: SignInReason) {
                     if (working) CircularProgressIndicator(color = Color.White, strokeWidth = 2.dp, modifier = Modifier.size(18.dp))
                     else Text(stringResource(R.string.signin_send), color = brand.onMoss, fontSize = 17.sp, fontWeight = FontWeight.SemiBold)
                 }
+            }
+            if (!emailOpen) {
+                SignInPill(stringResource(R.string.signin_apple), loud = false, enabled = !working, tag = "signin-apple",
+                    mark = { Icon(AppleLogo, null, Modifier.size(22.dp), tint = LocalContentColor.current) }) { account.openApple(context) }
             }
         }
         account.problem?.let { Text(problemText(it), fontSize = 13.sp, color = Color(0xFFFF3B30)) }
@@ -392,7 +408,7 @@ fun AppIconTile() {
     val brand = Brand.colors
     val shape = RoundedCornerShape(14.dp)
     Image(
-        painterResource(R.mipmap.ic_launcher), null,
+        painterResource(R.drawable.app_icon), null,
         Modifier.size(56.dp).clip(shape).border(1.dp, brand.ink.copy(alpha = 0.1f), shape),
     )
 }
@@ -462,6 +478,15 @@ private val GoogleG: ImageVector by lazy {
 }
 
 /** For a link in plain text elsewhere (Settings' rows): open in the browser. */
+/**
+ * A page of ours (privacy, terms) in a Custom Tab, the browser window inside the app
+ * that Android apps use for such pages and the sign-in already uses (Account.kt);
+ * the separate browser only when no browser offers tabs (Hidde, 2026-11-17).
+ */
 fun openWeb(context: Context, url: String) {
-    runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url))) }
+    val uri = Uri.parse(url)
+    val tab = runCatching {
+        androidx.browser.customtabs.CustomTabsIntent.Builder().setShowTitle(true).build().launchUrl(context, uri)
+    }
+    if (tab.isFailure) runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, uri)) }
 }

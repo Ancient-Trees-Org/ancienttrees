@@ -538,7 +538,7 @@ private fun tagFor(t: Tree, origin: Here, located: Boolean): String {
     if (!located) return t.city
     val d = Geo.km(origin.lat, origin.lng, t.lat, t.lng)
     if (d > 30) return t.city
-    return "${t.city} · " + if (d < 10) String.format(Locale.US, "%.1f km", d) else "${Math.round(d)} km"
+    return "${t.city} · " + Units.label(d)
 }
 
 @Composable
@@ -752,7 +752,8 @@ private fun SeasonHeroOrBand(deck: Shelves, origin: Here, onOpen: (Tree) -> Unit
         },
     )
     val line = stringResource(R.string.discover_season_count, treeCount(s.count)) +
-        if (s.near > 0) stringResource(R.string.discover_season_near, s.near) else ""
+        // In miles where Distances says so: every translation carries "20 km" (12 mi).
+        if (s.near > 0) stringResource(R.string.discover_season_near, s.near).replace("20 km", if (Units.now) "12 mi" else "20 km") else ""
     val far = Geo.km(origin.lat, origin.lng, s.hero.lat, s.hero.lng) > 30
     val pill = if (far) stringResource(R.string.discover_at_best_in, s.hero.city) else stringResource(R.string.discover_at_best)
     val shadow = Shadow(Color.Black.copy(alpha = 0.3f), Offset(0f, 2f), 12f)
@@ -1021,9 +1022,6 @@ private fun AmbassadorWantedRow(
             Text(stringResource(R.string.discover_ambassador_wanted, place), fontSize = 14.sp, fontWeight = FontWeight.Bold, color = brand.ink)
             if (asked) Text(stringResource(R.string.discover_request_sent), fontSize = 12.sp, color = brand.inkSoft)
         }
-        if (!asked) {
-            Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
-        }
     }
     if (confirming) {
         val close = { confirming = false; sent = false }
@@ -1133,6 +1131,7 @@ private fun CollectionPage(c: TreeCollection, catalogue: Catalogue, onBack: () -
 private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBack: () -> Unit) {
     val brand = Brand.colors
     var search by remember { mutableStateOf("") }
+    val searchKeyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     fun matches(s: String) = search.isEmpty() || s.lowercase().contains(search.lowercase())
     val title = stringResource(
         when (kind) {
@@ -1151,6 +1150,9 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
             singleLine = true,
             textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
             cursorBrush = androidx.compose.ui.graphics.SolidColor(brand.moss),
+            // .searchable's Search key puts the keyboard away (MapSearch.kt's field).
+            keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(imeAction = androidx.compose.ui.text.input.ImeAction.Search),
+            keyboardActions = androidx.compose.foundation.text.KeyboardActions(onSearch = { searchKeyboard?.hide() }),
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 6.dp).fillMaxWidth(),
             decorationBox = { inner ->
                 Row(
@@ -1162,6 +1164,15 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
                     Box(Modifier.weight(1f)) {
                         if (search.isEmpty()) Text(stringResource(R.string.discover_index_search), fontSize = 17.sp, color = brand.inkSoft)
                         inner()
+                    }
+                    // .searchable's clear button once there is text (MapSearch.kt's),
+                    // as tall as this 36 field.
+                    if (search.isNotEmpty()) {
+                        Box(
+                            contentAlignment = Alignment.Center,
+                            modifier = Modifier.size(36.dp).clickable { search = "" }
+                                .semantics { contentDescription = "Clear" },
+                        ) { Icon(Sym.CancelFill, null, tint = brand.inkSoft, modifier = Modifier.size(18.dp)) }
                     }
                 }
             },
@@ -1226,7 +1237,6 @@ private fun IndexRow(title: String, subtitle: String, count: Int, onClick: () ->
             Text(subtitle, fontSize = 12.sp, color = brand.inkSoft, maxLines = 1)
         }
         Text("$count", fontSize = 15.sp, color = brand.inkSoft)
-        Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(16.dp))
     }
 }
 
@@ -1248,12 +1258,5 @@ private fun SpeciesIndexRow(name: String, count: Int, onClick: () -> Unit) {
         SpeciesMark(name, brand.moss, Modifier.size(30.dp))
         Text(name, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink, maxLines = 1, modifier = Modifier.weight(1f))
         Text("$count", fontSize = 15.sp, color = brand.inkSoft)
-        Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(16.dp))
     }
-}
-
-/** A person's public profile, until the profile screen is ported (data/android-parity.json). */
-fun openProfileOnWeb(context: Context, userId: String) {
-    val u = Uri.parse("https://ancienttrees.app/profile?u=" + Uri.encode(userId))
-    runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, u)) }
 }

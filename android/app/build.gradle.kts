@@ -51,6 +51,12 @@ android {
         versionName = "0.1.0"
     }
 
+    // ENGLISH ONLY, as the iPhone app is (Hidde, 2026-11-17: "eens"). The translations
+    // covered part of the app, so a Dutch phone got a Dutch menu over English screens.
+    // They stay in res/values-xx for the day both apps are translated together; this
+    // line leaves them out of the build.
+    androidResources { localeFilters += listOf("en") }
+
     buildFeatures { compose = true }
 
     signingConfigs {

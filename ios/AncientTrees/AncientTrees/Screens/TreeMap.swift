@@ -435,6 +435,25 @@ struct TreeMap: UIViewRepresentable {
     /// The fade is short and exists for one reason: the sheet is a translucent
     /// material, so a button left underneath shows through as a smudge. Sixty
     /// points is the sheet closing over it, not a screen-long dissolve.
+    /// WHERE MOST OF THE TREES ARE, when they cannot all be in one view (Hidde,
+    /// 2026-11-17: a collection from Spain to Japan opened on empty Central Asia;
+    /// the world's floor zoom shows about 100 degrees across). All of them when
+    /// they fit 40 by 60 degrees, else the 40 by 60 window holding the most.
+    /// Android's MapFrame.densest is the same rule.
+    static func densest(_ points: [CLLocationCoordinate2D]) -> [CLLocationCoordinate2D] {
+        guard points.count > 1,
+              let loLat = points.map(\.latitude).min(), let hiLat = points.map(\.latitude).max(),
+              let loLng = points.map(\.longitude).min(), let hiLng = points.map(\.longitude).max()
+        else { return points }
+        if hiLat - loLat <= 40, hiLng - loLng <= 60 { return points }
+        var best = points, bestCount = 0
+        for a in points {
+            let window = points.filter { abs($0.latitude - a.latitude) <= 20 && abs($0.longitude - a.longitude) <= 30 }
+            if window.count > bestCount { bestCount = window.count; best = window }
+        }
+        return best
+    }
+
     static func recentrePlacement(coverage: CGFloat,
                                   mapHeight: CGFloat) -> (lift: CGFloat, alpha: CGFloat) {
         let ceiling = max(SheetHeight.card.points(in: mapHeight),
@@ -918,8 +937,8 @@ struct TreeMap: UIViewRepresentable {
                 return
             }
             if parent.fitsTrees,
-               let box = TreeMap.box(of: parent.trees.map { CLLocationCoordinate2D(latitude: $0.lat, longitude: $0.lng) }
-                                     + parent.mine.map { CLLocationCoordinate2D(latitude: $0.lat, longitude: $0.lng) }) {
+               let box = TreeMap.box(of: TreeMap.densest(parent.trees.map { CLLocationCoordinate2D(latitude: $0.lat, longitude: $0.lng) }
+                                     + parent.mine.map { CLLocationCoordinate2D(latitude: $0.lat, longitude: $0.lng) })) {
                 aimed = true
                 // AIR ONLY. MapLibre's own header: "Camera edge insets are
                 // formed as accumulation of map view's content insets and the

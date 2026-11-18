@@ -463,6 +463,78 @@
    "fixed_in": "7f288d18d"
   },
   {
+   "id": "ESC-2026-11-17-android-tapping-the-camera-crashed-the-a",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/SignIn.kt",
+   "summary": "Android: tapping the camera crashed the app (the sign-in sheet drew the launcher icon with painterResource, which cannot draw the new adaptive-icon XML)",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "FlowWalk.collectGate",
+   "fixed_in": "3abdaa8b1"
+  },
+  {
+   "id": "ESC-2026-11-17-android-signing-in-crashed-the-app-my-tr",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/MyTrees.kt",
+   "summary": "Android: signing in crashed the app (My trees framed collected trees across continents and asked MapLibre for a box past the pole)",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "SafeBoundsTest (android/app/src/test)",
+   "fixed_in": "57f49e499"
+  },
+  {
+   "id": "ESC-2026-11-17-android-my-trees-country-chips-and-a-rem",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/MyTrees.kt",
+   "summary": "Android My trees: country chips and a removed tree left the grid showing the old photographs (OwnPhoto kept produceState's value across a new key)",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "fixed_in": "8813ed9d9",
+   "no_test_reason": "Seen as the wrong photograph in a reused grid tile after a country chip, which a semantics test cannot see (the tile's node is the same); checked by hand on Hidde's Samsung 2026-11-17 after 8813ed9d9."
+  },
+  {
+   "id": "ESC-2026-11-17-android-the-keyboard-pushed-the-whole-sc",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/AndroidManifest.xml",
+   "summary": "Android: the keyboard pushed the whole screen up (search field off the top), no windowSoftInputMode",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt theKeyboardLeavesTheFieldInView",
+   "fixed_in": "f7c1aeab2"
+  },
+  {
+   "id": "ESC-2026-11-17-android-a-place-from-discover-s-search-o",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/MainActivity.kt",
+   "summary": "Android: a place from Discover's search opened the map without the tab bar",
+   "first_seen": "2026-11-17",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "android/app/src/androidTest/java/app/ancienttrees/FlowWalk.kt aPlaceFromDiscoverSearchKeepsTheMenu",
+   "fixed_in": "f7c1aeab2"
+  },
+  {
+   "id": "ESC-2026-11-18-android-a-photo-chosen-from-the-gallery-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/GalleryPick.kt",
+   "summary": "Android: a photo chosen from the gallery lost its GPS (the system photo picker strips it), so every gallery tree asked where it stands",
+   "first_seen": "2026-11-18",
+   "status": "fixed",
+   "found_by": "hidde",
+   "no_test_reason": "Chosen in Android's own documents UI and its own permission dialog, outside the app window where an instrumented test cannot pick a file; checked by hand on the emulator 2026-11-18 with a GPS-tagged photo",
+   "fixed_in": "9b0e4ce71"
+  },
+  {
    "id": "WEB-BUG-refresh-blip-signs-out",
    "surface": "WEB",
    "kind": "BUG",

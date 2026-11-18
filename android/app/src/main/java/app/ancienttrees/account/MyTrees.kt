@@ -235,7 +235,9 @@ class MyTrees(private val account: Account) {
         val s = account.fresh() ?: run { all = (all + was).sortedByDescending { it.date }; return false }
         val files = listOfNotNull(was.photo, was.sign) + was.extras
         for (f in files) deleteObject("sightings", f, s.accessToken)
-        deleteObject("shared-sightings", "${s.userId}/${was.id}.jpg", s.accessToken)
+        // The shared copy lives at the private photo's own path (Collector.send uploads
+        // both there); rebuilt from the row id it was lowercase against an uppercase file.
+        was.photo?.let { deleteObject("shared-sightings", it, s.accessToken) }
         val ok = Supa.delete("/rest/v1/sightings?id=eq.${enc(was.id)}", s.accessToken)
         if (!ok) {
             all = (all + was).sortedByDescending { it.date }

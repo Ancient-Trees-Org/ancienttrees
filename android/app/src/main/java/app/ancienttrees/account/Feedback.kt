@@ -192,7 +192,7 @@ class MyVotes {
 
 /** TreeNotes.swift: the notes on one tree, and yours. */
 class TreeNotes {
-    data class Note(val treeId: String, val body: String, val createdAt: String, val authorName: String?, val authorAvatar: String?) {
+    data class Note(val treeId: String, val body: String, val createdAt: String, val authorName: String?, val authorAvatar: String?, val authorId: String? = null) {
         val date: Instant get() = parseDate(createdAt)
     }
 
@@ -231,6 +231,13 @@ class TreeNotes {
         }
     }
 
+    /** A note's writer, asked again with the session (TreeNotes.authorId): signed out the server names no id. */
+    suspend fun authorId(tree: String, createdAt: String, token: String?): String? {
+        val r = Supa.send("/rest/v1/rpc/tree_notes_for", token = token, body = JSONObject().put("ids", JSONArray(listOf(tree))).toString())
+        if (!r.ok) return null
+        return parse(r.body).firstOrNull { it.createdAt == createdAt }?.authorId
+    }
+
     suspend fun save(tree: String, body: String, token: String): Boolean {
         val now = Instant.now().toString()
         val ok = Supa.send(
@@ -263,6 +270,7 @@ class TreeNotes {
                     o.getString("created_at"),
                     o.optString("author_name").takeIf { it.isNotEmpty() && it != "null" },
                     o.optString("author_avatar").takeIf { it.isNotEmpty() && it != "null" },
+                    o.optString("author_id").takeIf { it.isNotEmpty() && it != "null" },
                 )
             }
         }.getOrDefault(emptyList())

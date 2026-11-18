@@ -47,7 +47,12 @@ public enum Supa {
         r.httpMethod = method
         r.timeoutInterval = 20            // a hang costs more than a refusal
         r.setValue(key, forHTTPHeaderField: "apikey")
-        r.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        // ONLY WITH A BODY: storage refuses a DELETE that says JSON and carries
+        // none ("Body cannot be empty when content-type is set to
+        // 'application/json'"), so removing a photograph or the avatar left the
+        // file behind without a word (found on Android, 2026-11-17; the same
+        // builder here).
+        if body != nil { r.setValue("application/json", forHTTPHeaderField: "Content-Type") }
         r.setValue("Bearer " + (token ?? key), forHTTPHeaderField: "Authorization")
         if let prefer { r.setValue(prefer, forHTTPHeaderField: "Prefer") }
         // Data passes straight through: Profiles and Moderation encode their

@@ -358,6 +358,14 @@ fun MapSearch(
                     }
                 } else if (ours && showPlaces && answered == query) {
                     item { Note("Nothing matches “$query”. Check the spelling, or try a town nearby.") }
+                } else if (ours && showPlaces && query.trim().length >= 2) {
+                    // Asking the geocoder for towns: a spinner at once, never an empty
+                    // screen for the seconds it takes (the user walk, 2026-11-17).
+                    item {
+                        Box(Modifier.fillMaxWidth().padding(vertical = 24.dp).testTag("search-waiting"), contentAlignment = Alignment.Center) {
+                            androidx.compose.material3.CircularProgressIndicator(color = brand.inkSoft, strokeWidth = 2.dp, modifier = Modifier.size(22.dp))
+                        }
+                    }
                 } else if (empty && !(ours && showPlaces)) {
                     item { Note("Nothing under ${lane.label.lowercase()}. Try Top results.") }
                 }

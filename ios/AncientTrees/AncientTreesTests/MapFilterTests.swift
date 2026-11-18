@@ -72,6 +72,15 @@ struct YourOwnTreesObeyTheFilters {
     }
 
     /// You collect a tree by adding it, so there is nothing to look up.
+    /// The chips add up (Hidde, 2026-11-17): your own tree counts as collected, so
+    /// Want to visit alone leaves it off and Want to visit with Collected keeps it.
+    @Test func wantToVisitAloneLeavesYourOwnTreeOff() {
+        var f = MapFilters(); f.favouritesOnly = true
+        #expect(!f.keeps(mine()))
+        f.collectedOnly = true
+        #expect(f.keeps(mine()))
+    }
+
     @Test func collectedOnlyKeepsYours() {
         var f = MapFilters(); f.collectedOnly = true
         #expect(f.keeps(mine()))

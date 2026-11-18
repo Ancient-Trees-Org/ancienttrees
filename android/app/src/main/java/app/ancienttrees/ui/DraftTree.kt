@@ -45,11 +45,14 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.statusBarsIgnoringVisibility
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -198,10 +201,12 @@ fun DraftTree(
         if (!ok) return@rememberLauncherForActivityResult
         val raw = runCatching { shotFile.readBytes() }.getOrNull()
         shotFile.delete()
+        // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
+        raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
         addExtra(raw)
     }
     val room = (Collector.MAX_EXTRAS - extras.size).coerceAtLeast(1)
-    val extraLibrary = rememberLauncherForActivityResult(ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, Collector.MAX_EXTRAS))) { uris ->
+    val extraLibrary = rememberGalleryPick(maxOf(2, Collector.MAX_EXTRAS)) { uris ->
         for (u in uris.take(room)) addExtra(runCatching { context.contentResolver.openInputStream(u)?.use { it.readBytes() } }.getOrNull())
     }
 
@@ -300,19 +305,19 @@ fun DraftTree(
                                 }
                                 DropdownMenu(expanded = tileMenu, onDismissRequest = { tileMenu = false }, containerColor = brand.surface) {
                                     DropdownMenuItem(
-                                        text = { Text(stringResource(R.string.collect_camera), color = brand.ink, fontSize = 16.sp) },
-                                        trailingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
+                                        text = { MenuText(stringResource(R.string.collect_camera), brand.ink) },
+                                        leadingIcon = { Icon(Sym.PhotoCamera, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
                                             runCatching { extraCamera.launch(shotUri) }
                                         },
                                     )
                                     DropdownMenuItem(
-                                        text = { Text(stringResource(R.string.cf_choose), color = brand.ink, fontSize = 16.sp) },
-                                        trailingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
+                                        text = { MenuText(stringResource(R.string.cf_choose), brand.ink) },
+                                        leadingIcon = { Icon(Sym.PhotoLibrary, null, tint = brand.ink) },
                                         onClick = {
                                             tileMenu = false
-                                            extraLibrary.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+                                            extraLibrary()
                                         },
                                     )
                                 }
@@ -414,7 +419,15 @@ fun DraftTree(
                     Field.STORY -> R.string.cf_special
                 },
             ),
-            hint = if (f == Field.GIRTH) stringResource(R.string.cf_girth_hint) else null,
+            // The iPhone's EditField.hint: girth explains the unit; the story says,
+            // where it is typed, that the words go public with the profile name
+            // (Hidde, 2026-11-15; qa check_a_readers_words_go_public_only_after_the_field_said_so).
+            hint = when (f) {
+                Field.GIRTH -> stringResource(R.string.cf_girth_hint)
+                Field.STORY -> stringResource(R.string.ot_story_hint)
+                else -> null
+            },
+            decimal = f == Field.GIRTH,
             initial = when (f) {
                 Field.NAME -> name
                 Field.AGE -> age
@@ -469,6 +482,7 @@ fun DraftTree(
 
 /** OwnTree's top row on a draft: back that asks, and the ⋯ menu (TreeDetail's mine-menu). */
 @Composable
+@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 private fun DraftTopButtons(
     onBack: () -> Unit,
     onEdit: (Field) -> Unit,
@@ -481,12 +495,12 @@ private fun DraftTopButtons(
     var menu by remember { mutableStateOf(false) }
     Row(
         // At the top of the safe area, as the iPhone's toolbar (BackButton {16, 62}).
-        Modifier.fillMaxWidth().statusBarsPadding().padding(horizontal = 16.dp),
+        Modifier.fillMaxWidth().windowInsetsPadding(androidx.compose.foundation.layout.WindowInsets.statusBarsIgnoringVisibility).padding(horizontal = 16.dp).padding(top = TopRow.TOP),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         val back = stringResource(R.string.cf_back)
         Box(
-            Modifier.size(44.dp).softDisc()
+            Modifier.size(TopRow.SIZE).softDisc()
                 .clickable(role = Role.Button, onClick = onBack).semantics { contentDescription = back }.testTag("draft-back"),
             contentAlignment = Alignment.Center,
         ) {
@@ -496,20 +510,18 @@ private fun DraftTopButtons(
         val more = stringResource(R.string.ot_more)
         Box {
             Box(
-                Modifier.size(44.dp).softDisc()
+                Modifier.size(TopRow.SIZE).softDisc()
                     .clickable(role = Role.Button) { menu = true }.semantics { contentDescription = more }.testTag("mine-menu"),
                 contentAlignment = Alignment.Center,
             ) {
-                Box(Modifier.size(24.dp).border(1.6.dp, brand.moss, CircleShape), contentAlignment = Alignment.Center) {
-                    Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
-                }
+                Icon(Sym.MoreVert, null, tint = brand.moss, modifier = Modifier.size(22.dp)) // overflow: Android's form
             }
             DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
                 @Composable
                 fun item(label: Int, icon: androidx.compose.ui.graphics.vector.ImageVector, danger: Boolean = false, go: () -> Unit) =
                     DropdownMenuItem(
-                        text = { Text(stringResource(label), color = if (danger) brand.dangerText else brand.ink, fontSize = 16.sp) },
-                        trailingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
+                        text = { MenuText(stringResource(label), if (danger) brand.dangerText else brand.ink) },
+                        leadingIcon = { Icon(icon, null, tint = if (danger) brand.dangerText else brand.ink, modifier = Modifier.size(20.dp)) },
                         onClick = {
                             menu = false
                             go()
@@ -567,33 +579,59 @@ private fun FactColumn(label: String, value: String?, modifier: Modifier, onClic
     }
 }
 
-/** FieldEditor: one sheet for every blank, Cancel and Save over the field. */
+/**
+ * FieldEditor: one sheet for every blank, the same as OwnTree's (the iPhone has one
+ * FieldEditor for both): Android's dialog bar, the field itself 4 lines tall for
+ * the story so every part of it takes a tap, a decimal keypad for girth, and the
+ * keyboard up with the sheet (TreeDetail.swift `.onAppear { focused = true }`).
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun FieldEditor(prompt: String, hint: String?, initial: String, long: Boolean, onSave: (String) -> Unit, onCancel: () -> Unit) {
+private fun FieldEditor(prompt: String, hint: String?, decimal: Boolean, initial: String, long: Boolean, onSave: (String) -> Unit, onCancel: () -> Unit) {
     val brand = Brand.colors
     var text by remember { mutableStateOf(initial) }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+    LaunchedEffect(Unit) {
+        // A beat for the sheet to attach: on the first frame the keyboard was asked
+        // for and did not come (the age field, test-account walk 2026-11-17).
+        kotlinx.coroutines.delay(150)
+        runCatching { focus.requestFocus(); keyboard?.show() }
+    }
     AppSheet(onDismissRequest = onCancel, containerColor = brand.ground) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp).navigationBarsPadding(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(stringResource(R.string.cf_cancel), fontSize = 17.sp, color = brand.moss, modifier = Modifier.clickable(role = Role.Button, onClick = onCancel).padding(8.dp))
-                Text(prompt, fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, modifier = Modifier.weight(1f), textAlign = androidx.compose.ui.text.style.TextAlign.Center, maxLines = 1)
-                Text(stringResource(R.string.cf_save), fontSize = 17.sp, fontWeight = FontWeight.SemiBold, color = brand.moss, modifier = Modifier.clickable(role = Role.Button) { onSave(text.trim()) }.padding(8.dp))
-            }
-            Box(Modifier.fillMaxWidth().heightIn(min = if (long) 120.dp else 44.dp).background(brand.surfaceMuted, RoundedCornerShape(10.dp)).padding(12.dp)) {
+        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp).imePadding()) {
+            SheetNavBar(
+                full = false,
+                leading = stringResource(R.string.cancel) to onCancel,
+                title = prompt,
+                trailing = stringResource(R.string.ot_save) to { onSave(text.trim()) },
+            )
+            Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
+                Spacer(Modifier.height(12.dp))
                 BasicTextField(
                     value = text,
                     onValueChange = { text = it },
-                    singleLine = !long,
                     textStyle = sfStyle(fontSize = 17.sp, color = brand.ink),
                     cursorBrush = SolidColor(brand.moss),
+                    singleLine = !long,
+                    minLines = if (long) 4 else 1,
+                    keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(
+                        keyboardType = if (decimal) androidx.compose.ui.text.input.KeyboardType.Decimal else androidx.compose.ui.text.input.KeyboardType.Text,
+                    ),
                     modifier = Modifier.fillMaxWidth().focusRequester(focus),
+                    decorationBox = { inner ->
+                        Box {
+                            if (text.isEmpty()) Text(prompt, fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.6f))
+                            inner()
+                        }
+                    },
                 )
-                if (text.isEmpty()) Text(prompt, fontSize = 17.sp, color = brand.inkSoft)
+                if (hint != null) {
+                    Spacer(Modifier.height(12.dp))
+                    Text(hint, fontSize = 13.sp, color = brand.inkSoft)
+                }
+                Spacer(Modifier.height(24.dp))
             }
-            hint?.let { Text(it, fontSize = 13.sp, color = brand.inkSoft) }
         }
     }
 }

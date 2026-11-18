@@ -164,3 +164,13 @@ fun TopEdge(@Suppress("UNUSED_PARAMETER") state: HazeState?, modifier: Modifier 
         ),
     )
 }
+
+/**
+ * The buttons that float over a photograph or a map at the top of a page (back, share,
+ * report, the overflow): Polarsteps' size and place, measured on Hidde's Samsung
+ * (2026-11-17), the same as the My trees gear, so every page's top row stands on one line.
+ */
+object TopRow {
+    val SIZE = 40.dp
+    val TOP = 12.dp
+}

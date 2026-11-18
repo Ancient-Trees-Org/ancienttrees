@@ -211,6 +211,31 @@ archive.
 finished `ios.yml` run on main is not green; only Hidde passes
 `--despite-red "<why>"`.
 
+**Before Hidde tests a build (iOS or Android), the session runs three passes
+itself** (Hidde, 2026-11-17, after an afternoon of finding the keyboard, the
+missing menu, rotation and the gallery copy by hand: "dat we deze vragen klaar
+hebben staan voor jou"). Unasked, in this order, on a simulator or emulator,
+never on his phone:
+
+1. **Walk as a user, with the test account, sending included.** Whole journeys
+   end to end, not screens one by one: map, pin, tree page, photos, search from
+   every tab, filters, My trees and its lanes, settings rows, Find people,
+   profiles, notes, add a photo through to the end, collect, save. After every
+   step: is the tab bar there on a tab root, is there a way back, does the field
+   stay in view with the keyboard up, does a tap do nothing, does anything wait
+   with no sign. The test account (`scripts/test_session.py`, ours, private)
+   writes for real; everything it made is removed afterwards and the removal
+   checked. Theme switch, back on every screen, leave and come back.
+2. **A small, older phone, big letters, Dutch, no network.** A 5-inch emulator
+   on the oldest Android we support (iOS: the SE), font scale 1.3, the app in
+   Dutch, then airplane mode and back.
+3. **Every screen beside its twin on the other platform**, from the screen list
+   (SweepFrames), looked at by the session itself. App-level settings too
+   (orientation, keyboard mode, what the camera keeps), not only screens.
+
+Every fault found becomes a test that would have caught it (`escaped.py --add`,
+then `--test`), shown red with the fault put back.
+
 **Five minutes on your own phone, from TestFlight, signed in**, the same five
 every time, before you press submit:
 

@@ -71,6 +71,7 @@
     <string name="tab_discover">Discover</string>
     <string name="tab_my_trees">My trees</string>
     <string name="collect_a_tree">Collect a tree</string>
+    <string name="tab_collect">Collect</string>
     <!-- discover -->
     <string name="discover_search">Search a place, a tree or a species</string>
     <string name="discover_season_here">%1$s is here</string>
@@ -248,4 +249,15 @@
     <string name="shared_find_near">Find the trees near you</string>
     <string name="shared_missing">This link does not lead to a tree</string>
     <string name="shared_missing_why">It may have been taken down by the person who shared it.</string>
+    <string name="tree_your_photo">Your photograph</string>
+    <string name="tree_your_photos">Your photographs</string>
+    <string name="tree_your_photo_live">Your photo is on this page</string>
+    <string name="tree_your_photo_share">Share your photo</string>
+    <string name="tree_your_photo_share_text">My photo of %1$s in %2$s is on Ancient Trees.</string>
+    <string name="catalogue_broken">Something is wrong with the catalogue</string>
+    <string name="catalogue_broken_sub">The trees could not be read. Close the app and open it again.</string>
+    <string name="photo_delete">Delete photo</string>
+    <string name="photo_delete_title">Delete this photo?</string>
+    <string name="photo_delete_message">It leaves your trees. If it is already on the tree\'s page, it stays there.</string>
+    <string name="photo_deleted">Photo deleted</string>
 </resources>

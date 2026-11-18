@@ -2,7 +2,7 @@
 // ios Screens/ProfileEditor.swift and Screens/PrivacySettings.swift.
 //
 // The editor: the photograph large and centred with Change photo under it, then
-// one card with Name and Country, Cancel and Save in the bar. The picture goes
+// Name and Country as Android's outlined fields, close and Save in the bar. The picture goes
 // to the avatars bucket under the person's own id; the country is optional and
 // picked, never guessed from where the phone stands.
 //
@@ -138,16 +138,15 @@ fun ProfileEditorSheet(account: Account, profiles: Profiles, onDismiss: () -> Un
         trailing = stringResource(if (saving) R.string.editor_saving else R.string.editor_save) to { save() },
         trailingEnabled = !saving && name.isNotBlank(),
         grouped = true,
+        plain = true,
     ) {
         Column(
             verticalArrangement = Arrangement.spacedBy(20.dp),
             modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState())
-                // The iPhone's grouped Form (SweepFrames profile-edit): its first section
-                // 35 under the bar, 50 from Choose a photo to the card, rows 52.
-                .padding(horizontal = 16.dp).padding(top = 35.dp, bottom = 32.dp).testTag("profile-editor"),
+                .padding(horizontal = 16.dp).padding(top = 24.dp, bottom = 32.dp).testTag("profile-editor"),
         ) {
             // THE PHOTO LEADS, LARGE AND CENTRED, with Change photo under it.
-            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth().padding(bottom = 30.dp)) {
+            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)) {
                 Box(Modifier.size(96.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
                     val p = preview
                     val url = profiles.me?.avatarUrl
@@ -165,40 +164,25 @@ fun ProfileEditorSheet(account: Account, profiles: Profiles, onDismiss: () -> Un
                     }.padding(vertical = 11.dp),
                 )
             }
-            // One card, each row naming itself with the value on the right, as Apple's contact card.
-            // An iOS 26 Form section: corners 26.
-            Column(Modifier.fillMaxWidth().brandCard(26.dp)) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp).padding(horizontal = 16.dp),
-                ) {
-                    Text(stringResource(R.string.editor_name), fontSize = 17.sp, color = brand.ink)
-                    Spacer(Modifier.size(16.dp))
-                    BasicTextField(
-                        value = name,
-                        onValueChange = { name = it },
-                        singleLine = true,
-                        textStyle = sfStyle(fontSize = 17.sp, color = brand.ink, textAlign = TextAlign.End),
-                        keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Words),
-                        modifier = Modifier.weight(1f),
-                        decorationBox = { inner ->
-                            Box(contentAlignment = Alignment.CenterEnd) {
-                                if (name.isEmpty()) Text(stringResource(R.string.editor_name_prompt), fontSize = 17.sp, color = placeholderGrey())
-                                inner()
-                            }
-                        },
-                    )
-                }
-                HorizontalDivider(Modifier.padding(start = 16.dp), thickness = 0.5.dp, color = brand.hairline)
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp).clickable(role = Role.Button) { picking = true }
-                        .padding(horizontal = 16.dp).testTag("profile-country"),
-                ) {
-                    Text(stringResource(R.string.editor_country), fontSize = 17.sp, color = brand.ink, modifier = Modifier.weight(1f))
-                    Text(country?.let(::countryRow) ?: stringResource(R.string.editor_dont_show), fontSize = 17.sp, color = brand.inkSoft)
-                    Icon(Sym.ChevronRight, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
-                }
+            // Android's outlined fields (Material 3 text fields), the label inside and the
+            // value left-aligned; the iPhone keeps Apple's contact-card rows.
+            Column(verticalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.fillMaxWidth()) {
+                FormField(
+                    value = name,
+                    onValueChange = { name = it },
+                    label = stringResource(R.string.editor_name),
+                    placeholder = stringResource(R.string.editor_name_prompt),
+                    keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Words),
+                    modifier = Modifier.fillMaxWidth().testTag("profile-name"),
+                )
+                FormField(
+                    value = country?.let(::countryRow) ?: stringResource(R.string.editor_dont_show),
+                    onValueChange = {},
+                    label = stringResource(R.string.editor_country),
+                    trailingIcon = Sym.KeyboardArrowDown,
+                    onClick = { picking = true },
+                    modifier = Modifier.fillMaxWidth().testTag("profile-country"),
+                )
             }
             failed?.let { why ->
                 Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {

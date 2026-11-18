@@ -15,7 +15,7 @@
     },
     {
       "what": "Sign in",
-      "why": "Continue with Apple and Continue with Google open in a Custom Tab, Supabase's ordinary OAuth redirect, the website's route; the iPhone shows Apple's own sheet for Apple and ASWebAuthenticationSession for Google. Same pills, words, order and account."
+      "why": "Continue with Apple and Continue with Google open in a Custom Tab, Supabase's ordinary OAuth redirect, the website's route; the iPhone shows Apple's own sheet for Apple and ASWebAuthenticationSession for Google. Same pills and words; the order is Google, email, then Apple, the platform's own sign-in first (Hidde, 2026-11-17) and account."
     },
     {
       "what": "Status and navigation bars",
@@ -68,6 +68,30 @@
     {
       "what": "The system splash",
       "why": "Android 12 and later draw a splash with the app's icon before the first frame and no app can skip it (developer.android.com/develop/ui/views/launch/splash-screen). The iPhone's generated launch screen is the plain system background. Android's splash takes the iPhone's ground (white, black in dark) and our own icon, with the same ground behind the first frame, then the cover as on the iPhone (themes.xml, CONVENTIONS.md 'One app on iPhone and Android')."
+    },
+    {
+      "what": "Tab bar",
+      "why": "Android's own bar (Hidde, 2026-11-17: \"dat voelt als iOS specifiek\", then \"volg maar gewoon polarsteps en alltrails\"): docked to the bottom edge across the full width, 56 above the system bar, a word under every item, the chosen place in moss with a filled glyph and no pill. The iPhone's floating capsule is Apple's iOS 26 tab bar, a system control, so by Airbnb's line each phone takes its own. Places, glyphs and order are the iPhone's; the camera is the fourth item with its word (Collect) because every item on a docked Android bar carries one. Source: AllTrails and Polarsteps measured on a Galaxy S21 Ultra (both 56, white, five labelled items), CONVENTIONS.md \"A tab bar on Android\" (2026-11-17)."
+    },
+    {
+      "what": "Bottom sheets",
+      "why": "Hidde, 2026-11-17, on his Galaxy S21 Ultra: platform controls take Android's own form, as AllTrails and Polarsteps do there. The iPhone's fitted sheet is Apple's iOS 26 card (inset 8, every corner round, an X top right), a system control, so by Airbnb's line Android takes Material 3's modal bottom sheet: docked to the bottom edge at the full width, only the top corners round (28), the drag handle at the top, a scrim behind, closed by a swipe down, the system back or a tap on the scrim, its ground running on behind the navigation bar; a short sheet carries no X, as Material's and Google Maps' share sheet carry none. Full-height sheets and the collect steps that hold a photograph keep their close control. Our handle, colours, type, copy and the spacing inside stay the iPhone's (ui/Sheet.kt AppSheet, BrandSheet.kt, SignIn.kt, CollectSheet.kt). Source: m3.material.io/components/bottom-sheets; CONVENTIONS.md \"A bottom sheet on Android (2026-11-17)\"."
+    },
+    {
+      "what": "Form headers",
+      "why": "Android's full-screen dialog (Hidde, 2026-11-17, on his Galaxy S21 Ultra: platform controls take Android's form, as AllTrails and Polarsteps do): a close X at the leading edge, the title left-aligned beside it, the confirming action (Save, Send) as a text button at the trailing end. The iPhone's Cancel and Save capsules round a centred title are Apple's modal navigation bar. Edit profile, Feedback and Tell us, the own tree's field editor, Sources, Delete account, the country, species and merge choosers all go through SheetNavBar (Settings.kt); the X keeps its word (Cancel, Close, Done) for a screen reader and the walks. Feedback's Send moved from the bottom of the form into the bar. Source: m3.material.io/components/dialogs, 'Full-screen dialogs'; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "Page titles",
+      "why": "Android's small top app bar on every pushed page (species, a collection, Settings, Find people, Privacy settings, a person, a tree's map, a shared tree): the back arrow plain in a 48 touch target at the leading edge, the title left-aligned after it, 64 tall. The iPhone's centred title and round glass back button are iOS 26's navigation bar. One shared bar, PushedBar (Settings.kt). Source: m3.material.io/components/top-app-bar (small); Google's own apps (Settings, Contacts, Play Store) draw it so; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "List rows and section headers",
+      "why": "Android's lists: no chevron at the end of a row that opens something (Settings rows, your card, Delete account, Discover's index rows, the ambassador and Plus rows on a place), and section headers in sentence case, small, in moss (Eyebrow in TreeRows.kt, the choosers' grouped headers, Feedback's). Same words; only the uppercase transform and the chevrons go. Kept: the up-and-down glyph on a row that opens a menu, the arrow on a row that leaves the app, 'See all' and the species link on a tree page (a disclosure in running text, as Google's Play Store keeps its arrow there). Source: m3.material.io/components/lists; Google's Settings and Contacts; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
+    },
+    {
+      "what": "Text fields",
+      "why": "Android's outlined text field: the label inside the outline, floating up to it on focus or text, the value left-aligned, moss when focused (FormField in Settings.kt). Edit profile's Name and Country (Country a read-only field with a down arrow that opens the choice, Material's exposed dropdown) and the Feedback and Tell us forms. The iPhone keeps Apple's label-left, value-right rows. Source: m3.material.io/components/text-fields and the exposed dropdown menu in m3.material.io/components/menus; CONVENTIONS.md 'Forms, page titles and lists on Android' (2026-11-17)."
     }
   ],
   "map": {
@@ -79,7 +103,21 @@
       "Fixed 2026-11-16 from the side-by-side over Amsterdam (5 saved, 2 collected): pins wear all three corners as the iPhone's since 2026-11-12, 15 white discs with a soft shadow, the moss bookmark of a saved tree top right, the moss check_circle of a collected one bottom right, the blue ticket bottom left; a saved tree takes the first full pin and is never thinned out (TreeMapView feature()).",
       "About 10 points less air above Highlights than the iPhone, at every stop (the section head's own padding is equal; the spacing measurer's to place)."
     ],
-    "owner": null
+    "owner": null,
+    "spacing_allowed": [
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      }
+    ]
   },
   "map-full": {
     "status": "parity",
@@ -100,6 +138,38 @@
         "why": "Typeface: the iPhone's Gabarito sets \"The Falckplantsoen Pagoda Tree\" wider than Android's at 16 bold, so in the same 246 wide title column (TreeRow.swift: 64 thumb, 12, title, 4, heart; TreeRows.kt the same) it wraps to two lines there and fits one here; the meta line under it follows the wrap.",
         "within": 17,
         "source": "data/ios-frames.json map-full; ios/AncientTrees/AncientTrees/Screens/TreeRow.swift"
+      },
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "back-to-map -> tab-discover",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -115,7 +185,37 @@
     "differences": [
       "As map; the share circle opens Android's share sheet (forced). The card is now TreeCard ported whole (TreeRows.kt), its words in every language."
     ],
-    "owner": null
+    "owner": null,
+    "spacing_allowed": [
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      }
+    ]
   },
   "search": {
     "status": "parity",
@@ -135,12 +235,24 @@
       "Remove from collected sits in the collect sheet under the two photo buttons, at once with Undo (the tick back on its first day), with the collected date line, as TreeDetail.uncollectWithUndo (-collectsheet opens it).",
       "The review prompt after three trees is Google Play's In-App Review (review-ask, ReviewAsk.kt): it agrees with review-ask's parity.",
       "The snackbar after a bookmark: Added to Want to visit with View, Removed with Undo, as SaveHeart.swift (SnackBar.kt)."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
+      }
     ]
   },
   "tree-nophoto": {
     "status": "parity",
     "differences": [
       "As tree."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
+      }
     ]
   },
   "signin": {
@@ -193,6 +305,42 @@
       {
         "what": "mytrees-edit-profile height",
         "why": "Accessibility box, not layout: the iPhone reports the 44 point tap frame or the capsule, Android the drawn text inside it. The gaps to the neighbours, which carry the layout, are within 2."
+      },
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> mytrees-settings",
+        "why": "The My trees gear stands 10 under Android's status bar, the full sheets' rule; flush against the thin bar it read too high (Hidde 2026-11-17, MyTrees.kt)."
+      },
+      {
+        "what": "lane-signin -> tab-discover",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -213,14 +361,44 @@
       {
         "what": "A good rating helps others find Ancie... height",
         "why": "Typeface, not spacing: SF sets this sentence a few points wider than Inter at SF's tracking (Text.kt), so at the same size and the same width it wraps to two lines on the iPhone and fits one on Android."
+      },
+      {
+        "what": "BackButton | Settings",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Settings centre",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "On left",
+        "why": "Android's list rows: no chevron on a row that opens something, so values and labels stand where the chevron was; section headers in sentence case (_android_forced \"List rows and section headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Register and sign in to add and save ... height",
+        "why": "Android's list rows: no chevron on a row that opens something, so values and labels stand where the chevron was; section headers in sentence case (_android_forced \"List rows and section headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Register and sign in to add and save ... -> Distances",
+        "why": "Android's list rows: no chevron on a row that opens something, so values and labels stand where the chevron was; section headers in sentence case (_android_forced \"List rows and section headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> BackButton",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton left",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton right",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
       }
     ]
   },
   "photo-viewer": {
     "status": "parity",
-    "differences": [
-      "Delete photo (for your own photographs) comes with My trees (session 4)."
-    ],
+    "differences": [],
     "owner": null
   },
   "collect-intro": {
@@ -229,13 +407,13 @@
     "spacing_allowed": [
       {
         "what": "add-library -> bottom safe area",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "add-library -> screen foot",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "spot-close height",
@@ -253,13 +431,13 @@
     "spacing_allowed": [
       {
         "what": "add-library -> bottom safe area",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "add-library -> screen foot",
-        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's card stands on its navigation bar with a 10 margin (Sheet.kt), the iPhone's on the home indicator: the distance to the screen's edge differs by those system bars, not by our spacing.",
-        "within": 12
+        "why": "The last button stands 8 above the sheet's content edge on both (CollectSheet.swift .padding(.bottom, 8)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its content stands above the navigation bar, where the iPhone's card floats on the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       },
       {
         "what": "spot-close height",
@@ -319,6 +497,40 @@
     "differences": [
       "The sheet at full height is 96 percent opaque on Android (MapSheet), so the map shows faintly behind the list; the iPhone's page is solid.",
       "The white discs behind the gear and Find people vanish on the white sheet; the iPhone's sheet is a shade greyer."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "mytrees-settings -> mytrees-find-people",
+        "why": "The My trees gear stands 10 under Android's status bar, the full sheets' rule; flush against the thin bar it read too high (Hidde 2026-11-17, MyTrees.kt)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      }
     ]
   },
   "profile-signed-in": {
@@ -337,6 +549,30 @@
       {
         "what": "A good rating helps others find Ancie... height",
         "why": "Typeface, not spacing: SF sets this sentence a few points wider than Inter at SF's tracking (Text.kt), so at the same size and the same width it wraps to two lines on the iPhone and fits one on Android."
+      },
+      {
+        "what": "BackButton | Settings",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Settings centre",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "On left",
+        "why": "Android's list rows: no chevron on a row that opens something, so values and labels stand where the chevron was; section headers in sentence case (_android_forced \"List rows and section headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> BackButton",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton left",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton right",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -369,6 +605,38 @@
       {
         "what": "filter-mine -> map-count",
         "why": "The half stop is 52 percent of the visible height on both (BottomSheet.swift SheetHeight.half, MapSheet.kt SheetStops.HALF). The emulator's visible height is 846 against the iPhone's 778, so the sheet rests lower: the gaps from the filter row down to the sheet and from the sheet's content to the tab bar grow with it. The same rule on a taller screen."
+      },
+      {
+        "what": "tab-map left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-map right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-map height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -376,6 +644,32 @@
     "status": "parity",
     "differences": [
       "As city. The faint circle under the grip is the shared MapSheet's, as on map-full (coordinator's)."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "back-to-map -> tab-discover",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      }
     ]
   },
   "species": {
@@ -387,6 +681,18 @@
       {
         "what": "species-intro height",
         "why": "Pixel rounding: Android sets each 21 sp line in whole pixels (56.4 becomes 57 at the measuring density), so sixteen lines come out about 3 taller; the leading itself is the iPhone's 21 (.callout)."
+      },
+      {
+        "what": "top safe area -> BackButton",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton left",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton right",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -399,7 +705,21 @@
       "session": "local_8724be8d",
       "name": "Discover (main conversation)",
       "since": "2026-11-10"
-    }
+    },
+    "spacing_allowed": [
+      {
+        "what": "top safe area -> BackButton",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton left",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "BackButton right",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      }
+    ]
   },
   "place-pin": {
     "status": "parity",
@@ -412,8 +732,7 @@
     "differences": [
       "Move the pin and Merge with another tree are not in its menu yet. Both screens are ported now (PlacePin.kt, MergeChooser.kt) and sit in the draft's menu; own-tree still needs the account passed in and the server fold (Sightings.fold: tree_id and name on the sighting).",
       "Naming the species uses the map's species picker, not SpeciesChooser (species-pick, not ported).",
-      "The hero keeps a 3:4 portrait shape for every photograph; the iPhone takes the photograph's own shape.",
-      "Share sends the link only; the iPhone also hands on a drawn share card (ShareCard.swift)."
+      "The hero keeps a 3:4 portrait shape for every photograph; the iPhone takes the photograph's own shape."
     ],
     "spacing_allowed": [
       {
@@ -423,6 +742,10 @@
       {
         "what": "plus.circle height",
         "why": "Icon box, not spacing: the iPhone reports the SF Symbol glyph's own box, Android the Material Symbols box, sized at SF's point size x 4/3 by the icon rule (PR 42, Symbols.kt). The icon's place in its row matches."
+      },
+      {
+        "what": "top safe area -> BackButton",
+        "why": "The top row (back, menu) stands 12 under Android's status bar, at the My trees gear's height on every page, as Polarsteps does; flush against the thin bar it read too high (Hidde on his Samsung, 2026-11-17: 'ja trek optisch gelijk'; Glass.kt TopRow)."
       }
     ]
   },
@@ -445,6 +768,26 @@
         "why": "Accessibility box: the capsule is drawn 36 tall on both (BarCapsule height 36, iOS 26's bar capsule in SweepFrames), but Compose reports a tappable thing grown toward its 48 touch target, read here between 42 and 46.5; the drawn capsule stands 20 under the sheet's top on both.",
         "within": 12,
         "source": "out/parity/android/species-pick.png; data/ios-frames.json species-pick"
+      },
+      {
+        "what": "Close right",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "What kind of tree is it? centre",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Close left",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "Close | What kind of tree is it?",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "full sheet: navigation row middle under its top",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -456,6 +799,10 @@
         "what": "directions-google -> screen foot",
         "why": "Different buttons: the iPhone offers Apple Maps then Google Maps, Android Google Maps then Another maps app (no Apple Maps on Android). Google is the last button on the iPhone and the first here, one 46 button and its 12 higher; the foot itself matches within 3.",
         "within": 62
+      },
+      {
+        "what": "You can change this in Settings. -> screen foot",
+        "why": "Android's bottom sheet stands on the screen's edge with its ground under the system bar, where the iPhone's floats as an inset card (_android_forced \"Bottom sheets\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -468,8 +815,12 @@
     "spacing_allowed": [
       {
         "what": "review-no -> screen foot",
-        "why": "The last button stands 28 above the floating card's bottom edge on both (BrandSheet.swift .padding(.bottom, 28)). Android's card stands on its navigation bar (Sheet.kt), so the distance to the screen's edge adds that bar: Android's system bar, not our spacing.",
-        "within": 12
+        "why": "The last button stands 28 above the sheet's foot on both (BrandSheet.swift .padding(.bottom, 28)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its ground runs to the screen's edge and its content stands above the navigation bar, where the iPhone's card floats 10 over the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
+      },
+      {
+        "what": "review-yes -> screen foot",
+        "why": "Android's bottom sheet stands on the screen's edge with its ground under the system bar, where the iPhone's floats as an inset card (_android_forced \"Bottom sheets\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -497,11 +848,23 @@
     "status": "parity",
     "differences": [
       "The signed-in form (the four kinds and Where) has no sweep frame on either phone; it was looked at on Android with -signed-in, not side by side."
+    ],
+    "spacing_allowed": [
+      {
+        "what": "full sheet: navigation row middle under its top",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      }
     ]
   },
   "feedback": {
     "status": "parity",
-    "differences": []
+    "differences": [],
+    "spacing_allowed": [
+      {
+        "what": "full sheet: navigation row middle under its top",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      }
+    ]
   },
   "profile-edit": {
     "status": "parity",
@@ -509,15 +872,28 @@
       "The flag is the system's flag emoji in a circle; the iPhone fills the circle with the website's flat flag (flag-icons). Same on My trees and a person's profile.",
       "The editor is a full-height bottom sheet with Cancel and Save in its bar (the iPhone's Form sheet); the country list opens as a second sheet rather than a pushed list."
     ],
-    "owner": null
+    "owner": null,
+    "spacing_allowed": [
+      {
+        "what": "Country height",
+        "why": "Android's outlined text field with its label above the value, where the iPhone puts label and value in one row (_android_forced \"Text fields\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "profile-country height",
+        "why": "Android's outlined text field with its label above the value, where the iPhone puts label and value in one row (_android_forced \"Text fields\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "full sheet: navigation row middle under its top",
+        "why": "Android's full-screen dialog header: a close X at the start, the title beside it, the action on the right, where the iPhone has Cancel, a centred title and Save (_android_forced \"Form headers\", Hidde 2026-11-17)."
+      }
+    ]
   },
   "people": {
     "status": "parity",
     "differences": [
       "Pull to refresh on Find people loads who you follow and Suggested again (Material's pull to refresh, People.swift RefreshableWhen); Followers and Following keep still, as on the iPhone.",
       "Blocked people are held in memory and read back from the server's blocks table; the iPhone also keeps the list on the phone (hard rule 11 on Android).",
-      "Share your profile opens Android's share sheet (forced).",
-      "A person's own tree on their profile (2026-11-12) opens its shared page in the browser, as a shared-tree link already does on Android: the app has no SharedTreeView yet. The iPhone opens it in the app (Route.shared). The Approved capsule, the own tiles and their order match."
+      "Share your profile opens Android's share sheet (forced)."
     ],
     "owner": null,
     "spacing_allowed": [
@@ -545,6 +921,10 @@
         "what": "people-suggested -> Hugo V.",
         "why": "Header frame, not words: the iPhone reports the section header's 33 point frame, Android the word inside it, 7 above that frame's foot. Read so, the gaps agree: 22 above the frame on both, 17 from the frame's foot to the first row (Android: 7 + 17).",
         "within": 9
+      },
+      {
+        "what": "top safe area -> people-share",
+        "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -584,6 +964,38 @@
         "why": "Typeface: \"Paris ambassador\" in the pill is 149 wide in SF and 143 in Inter at 12 medium; the gap to the early-adopter tag is the same 6 on both (AmbassadorBadge.swift HStack, Badges.kt), so the tag and its words start 6 to 8 earlier here.",
         "within": 7,
         "source": "data/ios-frames.json early-adopter; ios/AncientTrees/AncientTrees/Screens/AmbassadorBadge.swift"
+      },
+      {
+        "what": "tab-discover left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees left",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees right",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> mytrees-settings",
+        "why": "The My trees gear stands 10 under Android's status bar, the full sheets' rule; flush against the thin bar it read too high (Hidde 2026-11-17, MyTrees.kt)."
+      },
+      {
+        "what": "tab-discover height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-my-trees height",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "tab-discover | tab-my-trees",
+        "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
       }
     ]
   },
@@ -594,8 +1006,8 @@
     "spacing_allowed": [
       {
         "what": "early-adopter-done -> screen foot",
-        "why": "The last button stands 28 above the floating card's bottom edge on both (BrandSheet.swift .padding(.bottom, 28)). Android's card stands on its navigation bar (Sheet.kt), so the distance to the screen's edge adds that bar: Android's system bar, not our spacing.",
-        "within": 12
+        "why": "The last button stands 28 above the sheet's foot on both (BrandSheet.swift .padding(.bottom, 28)). Android's sheet is docked since 2026-11-17 (Sheet.kt, _android_forced \"Bottom sheets\"): its ground runs to the screen's edge and its content stands above the navigation bar, where the iPhone's card floats 10 over the home indicator. The distance to the screen's edge differs by those system bars, not by our spacing.",
+        "within": 30
       }
     ]
   },
