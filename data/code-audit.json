@@ -397,9 +397,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/MapSheet.kt",
    "summary": "Android map sheet: dragging the list up from half moved the sheet down (nested scroll sign turned round; gestures held the first composition's stops)",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "FlowWalk.theListFollowsTheFinger"
+   "test": "FlowWalk.theListFollowsTheFinger",
+   "fixed_in": "b035dcbca"
   },
   {
    "id": "ESC-2026-11-17-tapping-a-writer-s-name-or-anywhere-in-a",
@@ -432,9 +433,10 @@
    "file": "scripts/mailcheck.py",
    "summary": "mailcheck held a reader reply for the verb 'walks' ('so the next person walks straight to them', Blaise report 1000054) as an unshipped feature",
    "first_seen": "2026-11-17",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/test_mailcheck_walks.py"
+   "test": "scripts/test_mailcheck_walks.py",
+   "fixed_in": "cf5f1412c"
   },
   {
    "id": "ESC-2026-11-17-back-after-an-hour-a-signed-in-visitor-w",
