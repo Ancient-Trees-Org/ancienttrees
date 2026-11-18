@@ -103,11 +103,23 @@ class Account(context: Context) {
             state = SignIn.SignedOut
             return
         }
-        val fresh = exchange(stored)
-        if (fresh != null) store(fresh) else {
-            // Refused or unreachable: signed out until the server says otherwise.
+        // OPENED WITHOUT A SIGNAL (Hidde, 2026-11-18: the Play build came up signed
+        // out on his phone with no internet): a refusal ends the session, no answer
+        // only waits. Signed out on screen until the server says yes (hard rule 11),
+        // but the token is kept and asked again, every few seconds and then every
+        // minute, so the person is back the moment there is a signal, as on the
+        // iPhone, without signing in again.
+        var wait = 3_000L
+        while (true) {
+            val fresh = exchange(stored)
+            if (fresh != null) { store(fresh); return }
             session = null
+            if (lastRefusal) { clear(); return }
             state = SignIn.SignedOut
+            kotlinx.coroutines.delay(wait)
+            wait = (wait * 2).coerceAtMost(60_000L)
+            // Signed in another way meanwhile, or signed out on purpose: stop asking.
+            if (prefs.getString(KEY_REFRESH, null) != stored || session != null) return
         }
     }
 
