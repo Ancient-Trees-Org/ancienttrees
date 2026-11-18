@@ -11,8 +11,16 @@ Two waves, agreed in chat the same evening:
 2. The other ~1,700 a few days later, with the build that fixes what wave 1
    found. Spread over several days to stay under the sending limits.
 
+**STATUS 2026-11-18: version 2 is uploaded to the closed test "Alpha" and is
+with Google for review** (sent 18 November, by the "App crashes" session and
+Hidde). Both lists, "Ancient Trees team" and "Ancient Trees testers", are on
+the track, so those people get access the moment Google approves. Feedback
+goes to info@ancienttrees.app. **Send nothing until Play shows the release
+approved** (Testing > Closed testing > Alpha: no longer "In review"); then
+step 4 below, to the 50 on the list only, on Hidde's "verstuur".
+
 **The text below is Hidde's own (2026-11-17) and is agreed. It waits only for
-the build.** The order, once he says go:
+Google's approval.** The order, once he says go:
 1. A session rebuilds the .aab (`python3 scripts/android_release.py`).
 2. Hidde uploads it to Closed testing (33 MB, too big for the Chrome upload
    tool) and picks "Use Google-generated key".
