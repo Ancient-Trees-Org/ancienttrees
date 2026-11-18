@@ -33,6 +33,12 @@ Web half: the last 24 hours were reader-judge photographs (Melbourne, Sydney, To
 - WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-third review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
 - WARN site/dist/collections/ancient-oaks-of-europe.html and europes-most-remarkable-yews.html still say "every coordinate verified" (third review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
 
+App half (iPhone SE: map-pin, map, own-tree, people, photo-viewer, place-pin): looked at all six.
+
+- NOTE APP map-pin.png: the card title is cut mid-parenthesis, "Dąb Fabrykant (the Factory Owner's Oak, als...", because the stored tree name carries a bracketed alias list. A reader sees a half sentence; the name field should hold the main name and the aliases belong elsewhere. Session work (visual), a data tidy of long `name` values may follow.
+- NOTE APP map-pin.png: the sheet shows a Polish oak (Łódź) over a map of Amsterdam. Probably the sweep's fixture, not a real state; mentioned only so nobody reads it as a pin-to-card mismatch.
+- Nothing else a person would notice: Find people, the photo viewer credit and the "Where is it really?" sheet read honestly.
+
 ## 2026-11-17 compliance
 
 - hans-photos-app-only-yes: Hans Hofele's Frankfurt photographs have a phone yes for the app only, yet show on the website too (copyright, scope of permission). Privacy page checked against the week's new tables (votes, reports), crash reports and mail route: still true.
