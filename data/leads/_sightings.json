@@ -2356,9 +2356,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Lincoln NE, Wilderness Park Trail. The leaves in the photo are pinnate, so probably not an elm: publish with an honest unknown species and ask the reader; they called it an American elm.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: looking straight up a thick, deeply furrowed trunk into a high crown of small pinnate leaflets against blue sky, daylight, colour. Pinnate leaves, so probably not an elm. Live as lincoln-nebraska/lne_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-15",
+   "judged": "2026-11-18",
+   "published_as": "lincoln-nebraska/lne_001"
   },
   {
    "sighting_id": "e229a150-5543-4042-992c-6f98125afa85",
@@ -2705,9 +2707,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Fertőújlak, Hungary, at the Mexikópusztai Betérő inn: a contorted trunk with pinnate leaves (pagoda tree or robinia, do not claim a cultivar). Access: inn grounds, say plainly what is not known.",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: looking up into a tree whose trunk and limbs twist and loop round each other like knotted rope under a dense tangle of thin branches and small pinnate leaflets, daylight, colour. Live as fertoujlak/fuj_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-15",
+   "judged": "2026-11-18",
+   "published_as": "fertoujlak/fuj_001"
   },
   {
    "sighting_id": "fbcb3c91-41f0-48d9-b573-f37e63ad0145",
@@ -4565,9 +4569,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Chiang Mai: the reader named it a Bodhi tree and gave about 100 years (by a reader's estimate). Silhouette at sunset; the pin is the reader's own fix. An older root-arch note belonged to another photo.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: the whole crown of a tall, round-topped tree in silhouette against a sunset sky, the sun shining through the leaves, a phone mast and a roof to the left, colour. Live as chiang-mai/cnx_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-18",
+   "published_as": "chiang-mai/cnx_003"
   },
   {
    "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
@@ -5706,9 +5712,11 @@
    "extra_files": [],
    "nearest_published_m": null,
    "sent_for": "bri_015",
-   "status": "lead",
-   "why": "Hidde 2026-11-18, after looking at the photograph: goes live; a photo of the trunk is better than nothing, and an exact GPS fix makes a weak photo enough. Sent for bri_015 (The Monterey Cypress at Bishops Knoll, Bristol), 35 m from its approximate pin and bri_015 has no photo: if the photo plausibly shows that tree it goes on bri_015 as its lead photo and the GPS fix becomes its confirmed pin.",
-   "seen": "2026-11-17"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: looking up a straight, red-brown fibrous trunk with whorls of slender branches carrying fine feathery sprays, sycamore leaves top right, daylight, colour. Not the Monterey cypress of bri_015 by its foliage and form. Live as bristol/bri_023 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-17",
+   "judged": "2026-11-18",
+   "published_as": "bristol/bri_023"
   },
   {
    "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
@@ -6395,6 +6403,38 @@
      1000079
     ]
    }
+  },
+  {
+   "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349",
+   "user_id": "p_2e3d33f1ea27214456be529d",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -5.13881666666667,
+   "longitude": 15.0740278333333,
+   "near": null,
+   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/9e9c5f14-9e15-4617-905b-61d19e0ee349-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: a huge pale grey kapok trunk splaying into tall plank buttresses, a garden label reading Ceiba pentandra at its foot, daylight, colour. The lower part, with people seated in front, is cropped off so no one is recognisable. Live as kisantu/kis_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "kisantu/kis_001"
   }
  ]
 }

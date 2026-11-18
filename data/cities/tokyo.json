@@ -138,18 +138,33 @@
       "access": "The shrine precinct is free (9:00 to 16:30 October to February, to 17:30 March to September). The sacred camphor stands inside the paid inner viewing area behind the transparent fence: adults 700 yen, elementary pupils 300 yen, open daily 9:30 to 16:00 October to February and to 17:00 March to September, weather permitting.",
       "transport": "10 min walk from Ueno Station (JR/Ginza/Hibiya lines)",
       "photo": {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271440441/medium.jpg",
-        "license": "CC BY",
-        "attribution": "stephen, via iNaturalist",
+        "url": "https://ancienttrees.app/photos/tok_003-the-ueno-toshogu-camphor-094b9a62.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 375,
-        "height": 500
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c43376f6c5ee10f1e298c171",
+        "sighting_id": "094b9a62-a6ef-4dac-aa96-6626c74a32a2",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The reader's second shot: the camphor's huge dark-green crown rising over the red Toshogu wall and its bronze lanterns, blue sky, a ginkgo turning yellow beside it; their first shot shows the same trunk and roots from the shrine side, half hidden by shrubs. Daylight, colour, the whole crown in frame. Species seen: broad dense evergreen crown of small glossy leaves, dark furrowed trunk with surface roots: camphor. Fits the description: a very big crown on the rise right beside Ueno Toshogu, behind the shrine's own lanterns and painted wall, the biggest tree there.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Sourcing is the shrine's own site plus travel-review corroboration rather than an independent registry; a stronger third source would be worth finding in a future pass.",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by the trunk, more than eight metres round and the widest in Ueno Park by a comfortable margin. It stands on the rise by Ueno Toshogu, its canopy shading the approach to the gold-leafed karamon gate.",
-      "girth_cm": 800
+      "girth_cm": 800,
+      "photos": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271440441/medium.jpg",
+          "license": "CC BY",
+          "attribution": "stephen, via iNaturalist",
+          "status": "approved",
+          "width": 375,
+          "height": 500
+        }
+      ]
     },
     {
       "id": "tok_004",

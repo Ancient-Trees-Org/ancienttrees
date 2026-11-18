@@ -1701,8 +1701,8 @@
     "score": null,
     "note": "nothing measurable about Bodhi Tree"
    },
-   "verdict": "hold",
-   "reason": "Photograph viewed 2026-11-17: a silhouette against the setting sun, the trunk invisible; an earlier note describing a root arch belonged to another photograph. Held: bad_frame (closed list, Hidde 2026-11-17).",
+   "verdict": "publish",
+   "reason": "Hidde's look 2026-11-18: goes live. A tall round crown in silhouette at sunset; the reader's bodhi tree and 100 years stated as theirs. GPS fix. Live as chiang-mai/cnx_003.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -3780,8 +3780,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "bad_frame: Viewed 2026-11-17: looking straight up a reddish fibrous redwood trunk through branches; nothing shows its size, base or where it stands.",
+   "verdict": "publish",
+   "reason": "Hidde's look 2026-11-18: goes live. Sent for bri_015 but the red stringy bark and feathery sprays are not a Monterey cypress, so a tree of its own at Bishops Knoll; the page asks if it is the cypress after all. GPS fix. Live as bristol/bri_023.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -6886,8 +6886,8 @@
    "species": "tall tapering red-brown fibrous trunk, sequoia-like",
    "photo": "out/sightings/40b57e0b-fc77-4f71-affd-50f82641ab10.jpg",
    "reader_note": "",
-   "verdict": "hold",
-   "reason": "Looking up a tall reddish fibrous trunk: reads as a giant sequoia or redwood, not a Monterey cypress, and no iron railings in frame. Could be the wrong tree.",
+   "verdict": "publish",
+   "reason": "Hidde's look 2026-11-18: goes live. Sent for bri_015 but the red stringy bark and feathery sprays are not a Monterey cypress, so a tree of its own at Bishops Knoll; the page asks if it is the cypress after all. GPS fix. Live as bristol/bri_023.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -10099,8 +10099,8 @@
     "score": null,
     "note": "nothing measurable about American Elm"
    },
-   "verdict": "hold",
-   "reason": "For Hidde tomorrow: American elm on a public trail in Lincoln NE with a GPS fix, but the one photo looks straight up the trunk and nothing says it is big or old. Written and ready in out/tmp/held-lincoln/.",
+   "verdict": "publish",
+   "reason": "Hidde's look 2026-11-18: goes live. Thick deeply ridged trunk, pinnate leaves so probably not the elm the reader named; species left open and asked on the page. GPS fix. Live as lincoln-nebraska/lne_001.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -11096,8 +11096,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "hold",
-   "reason": "Looked 2026-11-15: a contorted pagoda tree or robinia shot straight up the trunk at an inn in Fertoujlak, Hungary; no note, no size, no whole tree to recognise. For Hidde.",
+   "verdict": "publish",
+   "reason": "Hidde's look 2026-11-18: goes live. A knotted, coiling pea-family trunk at the Mexikopuszta inn; pagoda tree or locust left open. GPS fix. Live as fertoujlak/fuj_001.",
    "hidde": null,
    "agreed": null
   },
@@ -16237,6 +16237,113 @@
    },
    "verdict": "publish",
    "reason": "The reader's photographs of the Great Banyan, Howrah: the prop-root grove in daylight and the Botanical Survey of India board naming it. Lead and two strip photographs on howrah/how_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:094b9a62-a6ef-4dac-aa96-6626c74a32a2",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Ueno Toshogu Camphor",
+   "city": "Tokyo",
+   "species": "Camphor Tree (Cinnamomum camphora)",
+   "photo": "out/sightings/094b9a62-a6ef-4dac-aa96-6626c74a32a2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Camphor Tree (Cinnamomum camphora)"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: the camphor's crown over the Toshogu wall and lanterns, plus its trunk from the shrine side. Added to tok_003 as the reader's lead photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:9e9c5f14-9e15-4617-905b-61d19e0ee349",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:9e9c5f14-9e15-4617-905b-61d19e0ee349",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Bodhi Tree near Chiang Mai",
+   "city": null,
+   "species": "Bodhi Tree",
+   "photo": "p_729e302d7f04d07965d7a3fc/7F0038BA-2D3C-4BF4-A206-135905BFF0F3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A tall round crown in silhouette at sunset; the reader's bodhi tree and 100 years stated as theirs. GPS fix. Live as chiang-mai/cnx_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "American Elm",
+   "city": null,
+   "species": "American Elm",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/B6C42A88-4F55-4E46-89F5-1ACDF5703851.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:b6c42a88-4f55-4e46-89f5-1acdf5703851",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. Thick deeply ridged trunk, pinnate leaves so probably not the elm the reader named; species left open and asked on the page. GPS fix. Live as lincoln-nebraska/lne_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_14d68ebe05b368493091ea08/E1144BEA-FD53-4CC6-A71F-D523C763F64F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:e1144bea-fd53-4cc6-a71f-d523c763f64f",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A knotted, coiling pea-family trunk at the Mexikopuszta inn; pagoda tree or locust left open. GPS fix. Live as fertoujlak/fuj_001.",
    "hidde": null,
    "agreed": null
   }

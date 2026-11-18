@@ -103,6 +103,51 @@
         "sighting_id": "c1046494-aeff-40b3-81da-d0f3fc7ac3e4",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: a pale fig trunk made of fused roots that have grown round rounded brown lumps like boulders, a web of surface roots running over the ground to the kerb of a park road, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
+    },
+    {
+      "id": "cnx_003",
+      "name": "The Bodhi Tree at Sunset",
+      "species": "Bodhi Tree (Ficus religiosa)",
+      "age_estimate": "about 100 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "East of the old city, Chiang Mai",
+        "latitude": 18.8206283333333,
+        "longitude": 98.954375,
+        "neighbourhood": "East Chiang Mai"
+      },
+      "how_to_recognise": "A tall tree with a high, rounded crown standing well above the trees around it, a phone mast and a low roof just to its left.",
+      "access": "The reader photographed it from where our pin stands. We have not confirmed who owns the ground it grows on; look from the road if it is fenced.",
+      "story": "A reader in Chiang Mai sent us this tree at the end of the day, with the sun going down straight behind it and a GPS fix taken where they stood. They name it a bodhi tree and put it at about a hundred years old.\n\nThe bodhi, Ficus religiosa, is the fig under which the Buddha is said to have found enlightenment, and in Thailand it is planted at temples and treated with care wherever it grows. Its leaves are heart-shaped with a long drawn-out tip, and they hang on long stalks so that the whole crown moves in the slightest wind.\n\nThis one stands well clear of the trees around it, a tall round crown that the low sun turns into a lantern, light breaking through every gap in the leaves. To its left a phone mast and a roof edge give the scale.\n\nThe age is the reader's estimate; we have no record of when it was planted or how wide its trunk is. If you know the tree, or the temple or garden it belongs to, tell us here.\n\nCome at sunset, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (7f0038ba-2d3c-4bf4-a206-135905bff0f3, 2026-11-17, through the app). Photograph viewed: the whole crown of a tall, round-topped tree in silhouette against a sunset sky, the sun shining through the leaves, a phone mast and a roof to the left, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Bodhi Tree near Chiang Mai', species 'Bodhi Tree', age '100'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cnx_003-bodhi-tree-at-sunset.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_729e302d7f04d07965d7a3fc",
+        "sighting_id": "7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-18: the whole crown of a tall, round-topped tree in silhouette against a sunset sky, the sun shining through the leaves, a phone mast and a roof to the left, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

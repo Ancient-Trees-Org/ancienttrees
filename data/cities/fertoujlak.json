@@ -1,0 +1,69 @@
+{
+  "city": "Fertőújlak",
+  "country": "Hungary",
+  "status": "needs_curation",
+  "intro": "Fertőújlak is a village on the Hungarian shore of Lake Fertő, the Neusiedler See, in the Fertő-Hanság national park. At the inn at Mexikópuszta, a stop for walkers and birdwatchers in the marshes, a reader found a tree whose trunk and limbs twist round each other like knotted rope, and sent us its photograph. We do not yet know its species for certain, or its age.",
+  "meta_description": "A knotted, twisting tree at the Mexikópuszta inn by Fertőújlak on Lake Fertő, Hungary, sent by a reader: where it is and what we know.",
+  "hero_tree_id": "fuj_001",
+  "oldest_tree_id": "fuj_001",
+  "question_meta": "A knotted, twisting tree at the Mexikópuszta inn by Fertőújlak on Lake Fertő, Hungary, sent by a reader: where it is and what we know.",
+  "question_answer": "The tree grows in the grounds of the Mexikópusztai Betérő, an inn near Fertőújlak in the Fertő-Hanság national park. Visit when the inn is open.",
+  "question_context": "A reader stopping at the Mexikópusztai Betérő, an inn on the edge of the Fertő-Hanság marshes near Fertőújlak, looked up and sent us this tree with a GPS fix taken beneath it. Its grey trunk is thick and ridged, and the wood has grown in loops and coils, one limb curling right round another and back again, so that the whole tree looks knotted like an old rope. A dense tangle of thin branches hangs down on every side, carrying small leaflets in rows, which put it in the pea family. The twisting suggests a tree grown for its shape, perhaps a weeping pagoda tree or a contorted locust, but we would rather ask than guess. We do not know its age or who planted it. The inn sits among the reed beds and meadows of the national park on the Hungarian side of Lake Fertő, the lake Austrians call the Neusiedler See. We have not confirmed whether the grounds are open when the inn is closed, so come in its hours and stand right underneath to look up into the knots.",
+  "faq": [
+    {
+      "q": "Can I visit this tree?",
+      "a": "It grows in the grounds of the Mexikópusztai Betérő inn; come when the inn is open."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "A pea-family tree, probably a weeping pagoda tree or a contorted locust; we ask readers to confirm."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. If you know its story, tell us on its page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "fuj_001",
+      "name": "The Knotted Tree of Mexikópuszta",
+      "species": "Japanese Pagoda Tree or Black Locust (Styphnolobium or Robinia, to be confirmed)",
+      "location": {
+        "address": "Mexikópusztai Betérő, Fertőújlak, Győr-Moson-Sopron",
+        "latitude": 47.693445,
+        "longitude": 16.8423783333333,
+        "neighbourhood": "Mexikópuszta"
+      },
+      "how_to_recognise": "At the inn: a low tree whose trunk and limbs coil and loop round one another like knotted rope, under a dense hanging tangle of thin branches.",
+      "access": "In the grounds of the Mexikópusztai Betérő, an inn and stop for visitors to the Fertő-Hanság marshes. We have not confirmed whether the grounds are open when the inn is closed.",
+      "story": "A reader stopping at the inn at Mexikópuszta, on the Hungarian shore of Lake Fertő near Fertőújlak, looked up and found this, and sent us the photograph with a GPS fix taken beneath it.\n\nIt is hard to say where the trunk ends and the branches begin. The grey bark is thick and ridged, and the wood under it has grown in loops and coils, one limb curling right round another and back again, so that the whole tree looks knotted, like a rope someone tied and then left for a century. Above the knots a dense tangle of thin branches hangs down on every side, hung with small leaflets in rows.\n\nThose leaflets put it in the pea family, and the twisting suggests a tree grown for its shape, perhaps a weeping pagoda tree or a contorted locust. We would rather not guess which. If you know this tree, or the inn's story of it, tell us here, and tell us its age if anyone there knows it.\n\nStand right underneath, as the reader did, and look up into the knots.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "e1144bea-fd53-4cc6-a71f-d523c763f64f",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e1144bea-fd53-4cc6-a71f-d523c763f64f",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (e1144bea-fd53-4cc6-a71f-d523c763f64f, 2026-11-15, through the app). Photograph viewed: looking up into a tree whose trunk and limbs twist and loop round each other like knotted rope under a dense tangle of thin branches and small pinnate leaflets, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fuj_001-knotted-tree-of-mexik-puszta.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_14d68ebe05b368493091ea08",
+        "sighting_id": "e1144bea-fd53-4cc6-a71f-d523c763f64f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-18: looking up into a tree whose trunk and limbs twist and loop round each other like knotted rope under a dense tangle of thin branches and small pinnate leaflets, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

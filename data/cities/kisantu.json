@@ -1,0 +1,71 @@
+{
+  "city": "Kisantu",
+  "country": "Democratic Republic of the Congo",
+  "status": "needs_curation",
+  "intro": "Kisantu is a town in Kongo Central, in the hills south-west of Kinshasa, known for the botanic garden a Jesuit brother began at its mission around 1900. Among the garden's big trees stands a kapok whose trunk splits into tall flat buttresses, which a reader photographed and sent to us. We do not yet know its age or its size.",
+  "meta_description": "A giant kapok with towering buttress roots in the Kisantu Botanic Garden, DR Congo, sent by a reader: where it stands and what we know.",
+  "hero_tree_id": "kis_001",
+  "oldest_tree_id": "kis_001",
+  "question_meta": "A giant kapok with towering buttress roots in the Kisantu Botanic Garden, DR Congo, sent by a reader: where it stands and what we know.",
+  "question_answer": "The kapok stands in the Kisantu Botanic Garden in Kisantu, Kongo Central, south-west of Kinshasa. We have not confirmed the garden's hours or fees.",
+  "question_context": "A reader sent us this kapok, Ceiba pentandra, from the botanic garden at Kisantu in Kongo Central, with a GPS fix taken beside it. The garden was begun at the Jesuit mission by Brother Justin Gillet at the turn of the twentieth century and is one of the oldest in Central Africa. The photograph shows a huge pale grey trunk, still dotted with the short thorns kapoks carry, opening low down into great flat buttresses that run out over the ground like the fins of a rocket, taller than a person. The garden has put a small label at its foot naming the species. Kapoks are the trees whose seed pods give the silky fibre once used to stuff lifejackets and pillows, and they are among the tallest trees of African forests. We do not know when this one was planted, how tall it is or how wide its buttresses spread. If you visit, walk round it: each side shows a different set of fins. We have not confirmed the garden's opening hours or fees, so ask at the gate.",
+  "faq": [
+    {
+      "q": "Can I visit the Kisantu kapok?",
+      "a": "It stands inside the Kisantu Botanic Garden. We have not confirmed opening hours or fees; ask at the gate."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "A kapok, Ceiba pentandra; the garden's own label at its foot names it."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. If you know or have measured it, tell us on its page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "kis_001",
+      "name": "The Kapok of the Kisantu Botanic Garden",
+      "species": "Kapok (Ceiba pentandra)",
+      "location": {
+        "address": "Jardin botanique de Kisantu, Kisantu, Kongo Central",
+        "latitude": -5.13881666666667,
+        "longitude": 15.0740278333333,
+        "neighbourhood": "Kisantu"
+      },
+      "how_to_recognise": "A massive grey trunk studded with short thorns that splits low down into tall flat buttresses like the fins of a rocket, a small dark label reading Ceiba pentandra at its foot.",
+      "access": "Inside the Kisantu Botanic Garden. We have not confirmed its opening hours or fees; ask at the gate.",
+      "verified_sources": [
+        "https://fr.wikipedia.org/wiki/Jardin_botanique_de_Kisantu (Kisantu Botanic Garden, Kongo Central, founded at the Jesuit mission by Brother Justin Gillet in 1900)"
+      ],
+      "story": "A reader sent us this kapok from the botanic garden at Kisantu, in the hills south-west of Kinshasa, with a GPS fix taken beside it, and the photograph needs little explaining.\n\nThe trunk is enormous and pale grey, still dotted with the short thorns kapoks carry, and low down it opens into great flat buttresses that run out over the ground like the fins of a rocket. They are as tall as a person and taller, smooth and ribbed, and the whole base is wide enough that a group sat on chairs in its shade when the reader was there. The garden has put a small label at its foot: Ceiba pentandra, the kapok, the tree whose seed pods give the silky fibre once used to stuff lifejackets and pillows.\n\nKisantu's garden was begun by a Jesuit brother at the mission at the turn of the twentieth century, and many of its big trees date from its early decades. We do not know when this one was planted, or how big it is. If you know, or if you measure it, tell us here and we will add your figures.\n\nWalk round it slowly; every side shows a different set of buttresses.",
+      "found_by_reader": {
+        "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (9e9c5f14-9e15-4617-905b-61d19e0ee349, 2026-11-18, through the app). Photograph viewed: a huge pale grey kapok trunk splaying into tall plank buttresses, a garden label reading Ceiba pentandra at its foot, daylight, colour. The lower part, with people seated in front, is cropped off so no one is recognisable. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kis_001-kapok-of-the-kisantu-botanic-garden.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1402,
+        "height": 736,
+        "source": "contributor",
+        "contributor_user_id": "p_2e3d33f1ea27214456be529d",
+        "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: a huge pale grey kapok trunk splaying into tall plank buttresses, a garden label reading Ceiba pentandra at its foot, daylight, colour. The lower part, with people seated in front, is cropped off so no one is recognisable. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

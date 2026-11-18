@@ -1,0 +1,69 @@
+{
+  "city": "Lincoln, Nebraska",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Lincoln is Nebraska's capital, and on its southern edge Wilderness Park keeps a long strip of woodland along the creek. On one of its trails a reader photographed a tall tree with deeply ridged bark and a high crown of small leaflets. They know it as an American elm; its leaves make us doubt that, so we are asking readers to tell us what it is.",
+  "meta_description": "A tall, deep-barked tree on the Wilderness Park trail in Lincoln, Nebraska, sent by a reader: where it stands and what we still ask.",
+  "hero_tree_id": "lne_001",
+  "oldest_tree_id": "lne_001",
+  "question_meta": "A tall, deep-barked tree on the Wilderness Park trail in Lincoln, Nebraska, sent by a reader: where it stands and what we still ask.",
+  "question_answer": "The tree stands beside the Wilderness Park Trail in Wilderness Park, Lincoln, Nebraska. The park is free and open in daylight.",
+  "question_context": "A reader walking the trails of Wilderness Park, the long strip of woodland on Lincoln's southern edge, sent us a photograph of this tree taken straight up its trunk, with a GPS fix taken at its foot. The trunk is thick and deeply furrowed, its grey bark broken into long ridges that cross and rejoin like plaited rope, and it rises a long way before it forks into a high, light crown. Against the sky each leaf shows as a row of small rounded leaflets. The reader knows it as an American elm, but an elm has single leaves, not rows of leaflets, and the leaves and bark look to us more like a locust or a Kentucky coffeetree. Rather than guess, we ask: if you pass it, look at a fallen leaf and tell us what you think it is. We have no age or girth for it yet. The park is free and open in daylight; the tree stands beside the trail where our pin is.",
+  "faq": [
+    {
+      "q": "Where is this tree?",
+      "a": "Beside the Wilderness Park Trail in Wilderness Park, Lincoln, at the pin, which is the reader's GPS fix."
+    },
+    {
+      "q": "Is it an American elm?",
+      "a": "The reader thinks so. Its pinnate leaves make us doubt it; tell us on the page if you know."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. Wilderness Park is a public park, open in daylight."
+    }
+  ],
+  "trees": [
+    {
+      "id": "lne_001",
+      "name": "The Tall Trunk of Wilderness Park",
+      "species": "Unknown species (pinnate-leaved, to be confirmed)",
+      "location": {
+        "address": "Wilderness Park Trail, Wilderness Park, Lincoln, Nebraska",
+        "latitude": 40.7052416666667,
+        "longitude": -96.6892383333333,
+        "neighbourhood": "Wilderness Park"
+      },
+      "how_to_recognise": "Beside the trail: a single thick trunk with deep, criss-crossing ridges in its grey bark, rising clean for a long way before it forks into a high, airy crown of small leaflets.",
+      "access": "Free. On a trail in Wilderness Park, a public city park open in daylight.",
+      "story": "A reader walking the trails of Wilderness Park, the long strip of woodland on Lincoln's southern edge, stopped under this tree and sent us a photograph taken straight up its trunk, with a GPS fix taken where they stood.\n\nThe trunk is the thing. It is thick and deeply furrowed, the grey bark broken into long ridges that cross and rejoin like plaited rope, and it rises a long way before it forks. Above that the limbs open into a high, light crown, the sky showing through everywhere, and against the blue you can see that each leaf is made of many small rounded leaflets.\n\nThe reader knows it as an American elm. The leaves in their picture make us doubt that. An elm has single leaves, not rows of leaflets, and those leaflets and that ridged bark look more like a locust or a coffeetree. We would rather ask than guess, so if you walk past it, look at a fallen leaf and tell us here what you think it is, and we will put the right name on the page.\n\nWe have no age or girth for it yet either. Stand at its foot and look up, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b6c42a88-4f55-4e46-89f5-1acdf5703851",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b6c42a88-4f55-4e46-89f5-1acdf5703851",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (b6c42a88-4f55-4e46-89f5-1acdf5703851, 2026-11-15, through the app). Photograph viewed: looking straight up a thick, deeply furrowed trunk into a high crown of small pinnate leaflets against blue sky, daylight, colour. Pinnate leaves, so probably not an elm. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'American Elm', species 'American Elm', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lne_001-tall-trunk-of-wilderness-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_d88e3226c3bf7ee8f1c8aa41",
+        "sighting_id": "b6c42a88-4f55-4e46-89f5-1acdf5703851",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-18: looking straight up a thick, deeply furrowed trunk into a high crown of small pinnate leaflets against blue sky, daylight, colour. Pinnate leaves, so probably not an elm. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

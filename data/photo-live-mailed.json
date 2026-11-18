@@ -2000,6 +2000,21 @@
      "mailed": "2026-11-18"
     }
    ]
+  },
+  "p_c43376f6c5ee10f1e298c171": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "094b9a62-a6ef-4dac-aa96-6626c74a32a2",
+     "tree_id": "tok_003",
+     "tree_name": "The Ueno Toshogu Camphor",
+     "city": "Tokyo",
+     "city_slug": "tokyo",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

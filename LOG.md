@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: five more readers' trees live, a reader's photo leads the Ueno camphor
+
+- **New trees from readers** (every photograph viewed; written by out/tmp/build_reader_trees_2026_11_18.py, not committed):
+  - **The Kapok of the Kisantu Botanic Garden** (kisantu/kis_001, DR Congo, new one-tree place): GPS at the tree, the garden's own Ceiba pentandra label in frame. The photograph is **cropped above the people seated in front**, so no one in it is recognisable.
+  - **Four Hidde had looked at today**: Lincoln NE (lincoln-nebraska/lne_001, new place in us-states.json; species left open and asked, since the leaves are pinnate and not an elm's), Fertőújlak (fertoujlak/fuj_001, new place; a pagoda tree or locust, left open), Chiang Mai (cnx_003, a bodhi tree whose 100 years are the reader's) and Bristol bri_023.
+  - **About Bristol**: the photograph was sent for bri_015, the Monterey cypress, but its red stringy bark and feathery sprays are not a cypress (the earlier hold said the same). So it is a tree of its own at Bishops Knoll, and its page asks whether it is the cypress after all. Bristol's intro and meta now say twenty-three.
+- **Ueno Toshogu Camphor (tok_003)**: the reader's second shot, the crown over the Toshogu wall and lanterns, went in as `add` and leads now. Their first shot (the trunk half behind shrubs) was not used.
+- **Ran in parallel with the run below**: both judged the Great Banyan. Its how_001 stands; my hwh_001 was dropped in the rebase before it was pushed.
+- **Still to happen**: the congratulation mails (tree_approved.py) wait for the deploy, since the trees are not in the live feed yet. No open reports, no open feedback, no readers' words to quote.
+
 ## 2026-11-18 reader judge: the Great Banyan of Howrah is live
 
 - **New: The Great Banyan, howrah/how_001** (new one-tree place, India), a reader's tree from the app with four photographs: the grove of prop roots and the Botanical Survey of India board, which supplies the facts (over 270 years, trunk removed 1925, 4,208 prop roots, 18,918 sq m). The reader's age, 275, is on the page as theirs. Lead photo plus two in the strip. The photograph's coordinate was 2.6 km off, outside the garden; the reader then moved the pin into the garden by hand (report 1000079), 70 m from Wikidata's point, so that spot is used, approximate.

@@ -1454,8 +1454,9 @@
    "pin_checked": "2026-11-15"
   },
   "b6c42a88-4f55-4e46-89f5-1acdf5703851": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-18",
+   "published_as": "lincoln-nebraska/lne_001"
   },
   "e229a150-5543-4042-992c-6f98125afa85": {
    "outcome": "published",
@@ -1993,8 +1994,9 @@
    "pin_checked": "2026-11-15"
   },
   "e1144bea-fd53-4cc6-a71f-d523c763f64f": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-18",
+   "published_as": "fertoujlak/fuj_001"
   },
   "fbcb3c91-41f0-48d9-b573-f37e63ad0145": {
    "outcome": "lead",
@@ -3070,9 +3072,10 @@
    "pin_checked": "2026-11-16"
   },
   "40b57e0b-fc77-4f71-affd-50f82641ab10": {
-   "outcome": "held",
-   "date": "2026-11-17",
-   "reason": "bad_frame"
+   "outcome": "published",
+   "date": "2026-11-18",
+   "reason": "bad_frame",
+   "published_as": "bristol/bri_023"
   },
   "2632a81c-4101-44f9-b8f2-d6da60701515": {
    "outcome": "held",
@@ -3315,8 +3318,9 @@
    "date": "2026-11-17"
   },
   "7f0038ba-2d3c-4bf4-a206-135905bff0f3": {
-   "outcome": "lead",
-   "date": "2026-11-17"
+   "outcome": "published",
+   "date": "2026-11-18",
+   "published_as": "chiang-mai/cnx_003"
   },
   "230a268f-5aae-4c91-b133-15982a3ed896": {
    "outcome": "lead",
@@ -4754,6 +4758,22 @@
   "97153cbf-443d-4b42-9801-7463164ed709": {
    "outcome": "published",
    "date": "2026-11-18"
+  },
+  "9e9c5f14-9e15-4617-905b-61d19e0ee349": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "published_as": "kisantu/kis_001"
+  },
+  "094b9a62-a6ef-4dac-aa96-6626c74a32a2": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "tok_003",
+   "city_slug": "tokyo",
+   "file": "tok_003-the-ueno-toshogu-camphor-094b9a62.jpg",
+   "reason": "The reader's second shot: the camphor's huge dark-green crown rising over the red Toshogu wall and its bronze lanterns, blue sky, a ginkgo turning yellow beside it; their first shot shows the same trunk and roots from the shrine side, half hidden by shrubs. Daylight, colour, the whole crown in frame",
+   "lat": 35.7152033333333,
+   "lon": 139.770905,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
