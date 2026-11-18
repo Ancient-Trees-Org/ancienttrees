@@ -25,11 +25,11 @@ SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 
 REPLIES = {
     "not_theirs": (
-        "Thank you for telling us about {name}. We would love to have it on the map, "
-        "but the photograph looks like it was taken by someone else, and we can only "
-        "show pictures people took themselves.\n\n"
-        "If you are ever near it, a photograph of your own from the spot is all it "
-        "needs to go on the map.\n\n"
+        # Hidde, 2026-11-18: "we think this is a photo made by somebody else and
+        # can't put it live without their permission, a photo of your own".
+        "Thank you for telling us about {name}. We think this photo was taken by "
+        "someone else, and we can't put it live without their permission.\n\n"
+        "If you are ever near it, a photo of your own puts it on the map.\n\n"
         "Ancient Trees\nhttps://ancienttrees.app\n"),
 }
 
