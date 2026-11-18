@@ -541,6 +541,27 @@
    "agreed": null
   },
   {
+   "id": "sight:tip-947",
+   "seen": "2026-11-18",
+   "kind": "new tree",
+   "tree": "djanet/djn_001 The Tassili Cypress",
+   "city": "Djanet",
+   "species": "Saharan Cypress (Cupressus dupreziana)",
+   "photo": "p_56b3c957f392ac896d07c586/2675fe92-fa09-42ea-918d-428dd3f3c3da.jpg",
+   "reader_note": "There are maybe 200 of these Sahara cypress left. None have been known to geminate in recent years",
+   "reader_girth_cm": null,
+   "coords": [
+    25.35,
+    9.3
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "The reader mailed a Google Earth mark north of Djanet; approximate pin. Saharan cypress, whole tree, daylight, colour. Live as djn_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -1941,8 +1962,8 @@
     "score": null,
     "note": "nothing measurable about Oriental Plane"
    },
-   "verdict": "hold",
-   "reason": "Photograph viewed 2026-11-17: an oriental plane and a ginkgo in autumn colour, a lovely frame, but the fix is at a house on Trumpington High Street, Cambridge: a private garden unless the reader says it is seen from the street. Held: not_public (closed list, Hidde 2026-11-17).",
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Emmanuel plane's low golden dome with limbs to the lawn, a ginkgo beside it, daylight, colour. Held 11-17 as not_public; the reader wrote 11-18 he saw it from the street and walked up to it through the main gate in visiting hours. Live as cambridge/cam_011, pin from his map mark (approximate).",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -8699,8 +8720,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "Emmanuel College's Fellows' Garden is private by the college's own pages, with no regular public access (hard rule 10). Same hold as data/leads/cambridge.json.",
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Emmanuel plane in spring from under its crown, weeping limbs sweeping to the grass, chairs beneath, daylight, colour. Held 11-15 as not_public; released 11-18 when another reader confirmed visitors can walk up to it. Lead photograph of cambridge/cam_011.",
    "hidde": null,
    "agreed": null,
    "shown": [
@@ -16099,23 +16120,52 @@
    "agreed": null
   },
   {
-   "id": "sight:tip-947",
-   "seen": "2026-11-18",
-   "kind": "new tree",
-   "tree": "djanet/djn_001 The Tassili Cypress",
-   "city": "Djanet",
-   "species": "Saharan Cypress (Cupressus dupreziana)",
-   "photo": "p_56b3c957f392ac896d07c586/2675fe92-fa09-42ea-918d-428dd3f3c3da.jpg",
-   "reader_note": "There are maybe 200 of these Sahara cypress left. None have been known to geminate in recent years",
+   "id": "sight:b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Oriental Plane in Cambridge",
+   "city": null,
+   "species": "Oriental Plane",
+   "photo": "p_5c22c3030ca37ddafb789ab6/B43D0C0B-469B-44EF-AB4B-BBA2C7B8F7DC.jpg",
+   "reader_note": "",
    "reader_girth_cm": null,
    "coords": [
-    25.35,
-    9.3
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Emmanuel plane's low golden dome with limbs to the lawn, a ginkgo beside it, daylight, colour. Held 11-17 as not_public; the reader wrote 11-18 he saw it from the street and walked up to it through the main gate in visiting hours. Live as cambridge/cam_011, pin from his map mark (approximate).",
+   "hidde": null,
+   "agreed": null,
+   "decided": "2026-11-17"
+  },
+  {
+   "id": "sight:tip-748",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "The Great Oriental Plane Tree, Emmanuel College",
+   "city": null,
+   "species": null,
+   "photo": "p_91f2bfb867b1664b26521ade/bcdcdc2a-6e4f-43f9-a0f5-4978d36be9df.jpg",
+   "reader_note": "Huge plane tree tree in Emmanuel College Fellows' Garden with a ring where the branches have reached down to the ground and taken root. Probably planted in either 1802 or 1836. Performances sometimes held under the tree. There is a book about it available on the college website: https://apps.emma.cam.ac.uk/college/publications/files/OrientalPlane.pdf",
+   "reader_girth_cm": 478,
+   "coords": [
+    null,
+    null
    ],
    "register": null,
    "measure": null,
    "verdict": "publish",
-   "reason": "The reader mailed a Google Earth mark north of Djanet; approximate pin. Saharan cypress, whole tree, daylight, colour. Live as djn_001.",
+   "reason": "Photograph viewed: the Emmanuel plane in spring from under its crown, weeping limbs sweeping to the grass, chairs beneath, daylight, colour. Held 11-15 as not_public; released 11-18 when another reader confirmed visitors can walk up to it. Lead photograph of cambridge/cam_011.",
    "hidde": null,
    "agreed": null
   }

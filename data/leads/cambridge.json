@@ -5,11 +5,13 @@
    "species": "Oriental Plane (Platanus orientalis)",
    "latitude": 52.2012,
    "longitude": 0.1233,
-   "reason": "Fellows' Garden described by the college as private; no source says visitors may enter or see it. Age uncertain: 1986 girth measure suggested planted c.1836, parks & gardens says 1835, Historic England probably early C19. Needs an access source (college visitor page, contact/get-in-touch) before it ships. Coordinate approximate (college grounds).",
+   "reason": "Fellows' Garden described by the college as private; no source says visitors may enter or see it. Age uncertain: 1986 girth measure suggested planted c.1836, parks & gardens says 1835, Historic England probably early C19. Needs an access source (college visitor page, contact/get-in-touch) before it ships. Coordinate approximate (college grounds). 2026-11-18: a reader confirmed visitors can walk up to it in visiting hours; live as cambridge/cam_011.",
    "sources": [
     "https://www.emma.cam.ac.uk/explore/gardens",
     "https://parksandgardens.org/places/emmanuel-college-cambridge-fellows-garden"
-   ]
+   ],
+   "status": "published",
+   "published_as": "cambridge/cam_011"
   },
   {
    "name": "Botanic Garden Tulip Tree (Tree Register champion)",

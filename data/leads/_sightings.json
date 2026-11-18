@@ -2142,9 +2142,11 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "held",
-   "why": "2026-11-15: the Fellows' Garden is private by the college's own pages, no regular public access (hard rule 10); same hold as data/leads/cambridge.json",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "2026-11-18: the reader wrote that the grounds are open in visiting hours and he walked up to the tree; live as cambridge/cam_011 (lead photograph).",
+   "seen": "2026-11-15",
+   "judged": "2026-11-18",
+   "published_as": "cambridge/cam_011"
   },
   {
    "sighting_id": "tip-749",
@@ -4839,10 +4841,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "2026-11-17: the reader moved the pin twice (reports 1000065, 1000067) to 52.2044, 0.1249, Emmanuel College, Cambridge: the Great Oriental Plane (also tipped from the website 2026-11-15). The photograph's GPS had pointed at a house on Trumpington High Street. The plane stands in the Fellows' Garden, which the college calls private (data/leads/cambridge.json); no source says visitors can enter or see it from the Paddock. Held as not_public until the reader or the college says it can be seen; then it ships at the viewing spot.",
+   "status": "published",
+   "why": "2026-11-18: the reader wrote that the grounds are open in visiting hours and he walked up to the tree; live as cambridge/cam_011 (found_by_reader).",
    "seen": "2026-11-17",
-   "judged": "2026-11-17",
+   "judged": "2026-11-18",
    "reader_moved_to": {
     "latitude": 52.204373,
     "longitude": 0.124921,
@@ -4852,7 +4854,7 @@
     ],
     "date": "2026-11-17"
    },
-   "hold": "not_public"
+   "published_as": "cambridge/cam_011"
   },
   {
    "sighting_id": "b451d1e8-4b8b-4bb0-9680-01874b41c26b",

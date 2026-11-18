@@ -416,6 +416,75 @@
       "story": "In 2000 a storm heaved this pine's roots out of the ground. It did not go over. It came to rest on one of its lower branches, and the Botanic Garden says it has continued to thrive from there.\n\nThe garden counts its single-leaf nut pine among the earliest tree plantings it has. At the start of the twentieth century it stood just under three metres. It was recorded recently at 11.8, enough to make it a champion tree, and the garden says it far exceeds many specimens growing in the wild.\n\nThe wild is a long way off. Pinus monophylla comes from the semi-desert of Nevada and California, and it is the only pine with single needles. The garden puts its success in Cambridge down to the city's dry climate.\n\nIt still produces large, viable seeds, the pinyon nuts that were a staple food for California's indigenous peoples before Columbus.\n\nNobody has published a planting date, so its exact age is open. If you know when it went in, tell us. Its champion status rests on the garden's own account, as the measurements do.\n\nIt grows in the Old Pinetum. A second single-leaf pine there, planted in 1965, has reached 6.3 metres, so the old tree is the taller by five and a half. The garden is ticketed, about fifteen minutes on foot from Cambridge station.",
       "how_to_recognise": "You can recognise it by the way it rests on one lower branch, where a storm in 2000 left it, 11.8 metres tall. It stands in the Old Pinetum, near a younger single-leaf pine of 6.3 metres.",
       "paid_entry": true
+    },
+    {
+      "id": "cam_011",
+      "name": "The Great Oriental Plane of Emmanuel College",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "age_estimate": "about 190 to 224 years",
+      "age_min": 190,
+      "age_max": 224,
+      "age_basis": "source",
+      "location": {
+        "address": "Fellows' Garden, Emmanuel College, St Andrew's Street, Cambridge CB2 3AP",
+        "latitude": 52.204373,
+        "longitude": 0.124921,
+        "neighbourhood": "City centre"
+      },
+      "story": "Emmanuel College has never settled how old its great oriental plane is. A girth measured in 1986 suggested planting around 1836, the 478 centimetres measured in 2006 pointed to about 1816, and many admirers prefer 1802, the year Jesus College planted its plane from seed brought home from Thermopylae. The college's own booklet on the tree calls that last idea unprovable.\n\nWhat nobody disputes is its shape. Most oriental planes hold their crowns up; this one weeps. Its long grey limbs dive towards the grass, turn back on themselves and dive again, and where they touch the ground some have put down roots, so the tree is slowly ringing itself with new trunks. A photograph in the college archives, taken between 1894 and 1919, shows the branches still well clear of the ground. Thomas Pakenham gave it pride of place in his book Meetings with Remarkable Trees.\n\nTwo readers sent it to us. One photographed it in spring, with rows of chairs set out beneath the limbs, and told us performances are sometimes held under it. The other first saw it over the wall from the street, then walked in through the main gate and right up to the trunk.\n\nCome in autumn, when the whole low dome turns gold, and step inside it.",
+      "verified_sources": [
+        "https://apps.emma.cam.ac.uk/college/publications/files/OrientalPlane.pdf (Emmanuel College, The Great Oriental Plane Tree at Emmanuel College: girth 478 cm in 2006, 21.5 m tall in 1986, planting dated 1836 or 1816 by girth, 1802 unprovable; weeping limbs rooting where they reach the ground; archive photo 1894 to 1919; pride of place in Pakenham's Meetings with Remarkable Trees)",
+        "https://parksandgardens.org/places/emmanuel-college-cambridge-fellows-garden (Parks and Gardens UK: Fellows' Garden, Emmanuel College, with its oriental plane)"
+      ],
+      "girth_cm": 478,
+      "access": "Free. Inside Emmanuel College, open to visitors at set hours: a reader walked in through the main gate on St Andrew's Street and up to the tree. Check the college's opening times before you go.",
+      "how_to_recognise": "In the Fellows' Garden: a huge plane whose long, mottled grey limbs swoop down to the lawn and up again, some rooting where they touch, making a low dome you can stand under. A tall ginkgo grows close beside it.",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader report",
+        "reports": [
+          1000065,
+          1000067
+        ],
+        "date": "2026-11-17",
+        "note": "The reader moved the pin to the tree on the map (reports 1000065, 1000067); the photograph's own location tag pointed at Trumpington, 3 km off, so the pin is the reader's map mark."
+      },
+      "found_by_reader": {
+        "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+        "date": "2026-11-18"
+      },
+      "curation_status": "flagged",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-tip-748.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1024,
+        "height": 768,
+        "source": "contributor",
+        "contributor_user_id": "p_91f2bfb867b1664b26521ade",
+        "sighting_id": "tip-748",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the website); viewed and approved on 2026-11-18: the plane in spring from under its crown, the mottled trunk at left, long limbs sweeping down to the grass and up again, rows of chairs beneath, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 4,
+        "taken_month_basis": "fresh leaves and bluebells in flower: spring"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-18: the plane's low golden dome at left, limbs reaching the lawn, a ginkgo beside it at right, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "autumn colour, sent 2026-11-17"
+        }
+      ],
+      "verify_notes": "2026-11-18 session: two readers. tip-748 (website, 2026-11-15, girth 478 cm and the college booklet) and b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc (app, 2026-11-17, pin moved twice to Emmanuel). Held 2026-11-15/17 as not_public (the college calls the Fellows' Garden private). 2026-11-18 the app reader wrote by mail that he first saw it from the street beyond the wall, then was let in at the main gate and walked the grounds up to the tree, 'not private, at least during certain hours'. Released under the closed list (visible and reachable). Facts from the college booklet (PDF, fetched 2026-11-18); the Cernuda poem in it is named nowhere on the page. Lead photo is tip-748's (shows the weeping limbs); the app photo also shows a ginkgo beside the plane. Our earlier lead data/leads/cambridge.json had 52.2012, 0.1233 (college grounds, rough); the reader's pin is used."
     }
   ]
 }

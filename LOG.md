@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 session: the Emmanuel College plane live (Cambridge, two readers)
+
+- **Live**: cambridge/cam_011, the Great Oriental Plane of Emmanuel College. Held 11-15 and 11-17 as `not_public` (the college calls the Fellows' Garden private); the app reader who moved its pin wrote today that he first saw it over the wall from the street, was let in at the main gate and walked up to it, "not private, at least during certain hours". Under the closed list that clears it.
+- Lead photo from the website tip (tip-748, spring, the weeping limbs and chairs); the app reader's autumn photo in the strip. Facts from the college's own booklet (girth 478 cm in 2006, planting dated 1816 to 1836 by girth, 1802 "unprovable", limbs rooting where they touch the ground, Pakenham's book). Pin approximate, from the reader's map mark; his photo's own location tag pointed 3 km off. Verdicts written (`lead:` and `sight:` for both).
+- **For Hidde**: reply drafted, drafts/reply-jairam-emmanuel-2026-11-18.md (it's live, plus one ask: may we quote his "well worth a visit" line). Not sent.
+- Not done: the tip-748 reader got "if it opens, it goes on the map" on 11-15 and has not heard it is live; the congratulation mail (`tree_approved.py --send`) goes to the app reader only.
+
 ## 2026-11-18 session: a sign-up to an address that can't receive mail is refused
 
 - **Product, LIVE in the hook since about 10:30 UTC** (send-email v9): a sign-in or sign-up link to an address whose domain has no mail server and is a typo of a provider on data/email-domains.json (hoymail.com for hotmail.com), or whose domain does not exist at all, is refused instead of sent. Hidde, after a welcome mail to "hoymail.com" sat retrying for a day: the "Did you mean" warning "doesnt stop people from making the mistake". Benchmarked (CONVENTIONS.md "A mistyped email address", layer 3): the hard stop at sign-up is a mail-server lookup; nobody mails a guessed address after a bounce. A lookup that errs or is slow lets the mail through. qa's `check_one_email_domain_list()` now also holds the hook's copy of the list.
