@@ -6243,6 +6243,38 @@
    "seen": "2026-11-17",
    "judged": "2026-11-17",
    "published_as": "daintree/dtr_001"
+  },
+  {
+   "sighting_id": "12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "user_id": "p_5a8ba8548d99ec490e8f640d",
+   "mine": false,
+   "name": "Moreton Bay Fig in Sydney",
+   "unsure_among": null,
+   "species": "Moreton Bay Fig",
+   "age": "150",
+   "girth_cm": 750,
+   "girth_hugs": null,
+   "note": "Its size and beauty. One of the largest and oldest around.",
+   "latitude": -33.8760155731108,
+   "longitude": 151.230976626233,
+   "near": null,
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/12a88725-88e2-4a96-85f6-0966bb59db6b-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: the whole fig alone on park lawn, a short massive trunk breaking into many grey limbs under a wide dome of glossy leaves, buttress roots over a ring of mulch, daylight, colour; a second picture shows the trunk close with an open hollow at its base and a skate park behind. Live as sydney/syd_008 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "sydney/syd_008"
   }
  ]
 }

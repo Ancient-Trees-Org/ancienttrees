@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: a Moreton Bay fig in Rushcutters Bay Park, Sydney, is live
+
+- **New tree**: sydney/syd_008, The Moreton Bay Fig of Rushcutters Bay Park, from a reader's app photograph (12a88725) with a GPS fix. OpenStreetMap places the fix inside Rushcutters Bay Park. Both pictures were viewed: a lone fig on a lawn with buttress roots, and a close shot of the hollow trunk with the skate park behind. The reader's note is quoted, and their age (150) and girth (7.5 m) are written on the page as their figures. The pin is confirmed. Sydney's FAQ now counts eight pins. Photo month left empty: green leaves alone don't settle a season.
+- Nothing else was waiting. There were no open reports, no feedback without a verdict, no new tree notes, and reader_words found nothing to quote. The 37 `lead` rows marked `mine` (our own account, September and October) were left alone, as before.
+- Preflight first stopped on a colon reveal in the new story. The sentence was rewritten before the push.
+
 ## 2026-11-18 night run (window from 23:58 UTC)
 
 - **Product: three Fort Worth trees added, app-only under APP FIRST** (ftw_021 Southern Magnolia in the Botanic Garden, ftw_028 Downtown Red Mulberry, ftw_029 Veterans Memorial Park oaks), all flagged: one source, approximate pins, no photographs. Preflight 0 problems. Fort Worth is at 29 trees.

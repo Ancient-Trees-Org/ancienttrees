@@ -18,6 +18,34 @@
    "agreed": null
   },
   {
+   "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Moreton Bay Fig in Sydney",
+   "city": null,
+   "species": "Moreton Bay Fig",
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "reader_note": "Its size and beauty. One of the largest and oldest around.",
+   "reader_girth_cm": 750,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big lone Moreton Bay fig on park lawn with buttress roots and a hollow trunk, daylight; GPS fix inside Rushcutters Bay Park. Live as sydney/syd_008, the reader's age and girth stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -3999,6 +4027,18 @@
    "reason": "A great strangler fig on the Daintree Discovery Centre boardwalk, its fused root column climbing into the canopy, GPS fix beneath it: live as daintree/dtr_001, the reader's 500 to 600 years stated as theirs.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "The Strangler Fig of the Daintree Discovery Centre",
+   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
+   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-17: a strangler fig's fused root column climbing into the rainforest canopy from the boardwalk, daylight, colour. Lead photograph of daintree/dtr_001."
   },
   {
    "id": "sight:68515bbd-0bdc-475a-bb16-5e8e324db9c9",
@@ -15059,16 +15099,16 @@
    "agreed": null
   },
   {
-   "id": "sight:4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
-   "seen": "2026-11-17",
+   "id": "sight:12a88725-88e2-4a96-85f6-0966bb59db6b",
+   "seen": "2026-11-18",
    "kind": "a tree we do not map",
-   "tree": "The Strangler Fig of the Daintree Discovery Centre",
-   "photo": "p_216cd518521fbdf73dfba32c/4FE1CB00-E56F-42E1-8C89-EC11BC883F73.jpg",
-   "reader_note": "The Daintree Discovery Centre features a prominent, roughly 500-to-600-year-old strangler fig tree located along its elevated rainforest boardwalks.  The original tree it began its life on is gone.",
+   "tree": "The Moreton Bay Fig of Rushcutters Bay Park",
+   "photo": "p_5a8ba8548d99ec490e8f640d/12A88725-88E2-4A96-85F6-0966BB59DB6B.jpg",
+   "reader_note": "Its size and beauty. One of the largest and oldest around.",
    "hidde": null,
    "agreed": null,
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-17: a strangler fig's fused root column climbing into the rainforest canopy from the boardwalk, daylight, colour. Lead photograph of daintree/dtr_001."
+   "reason": "Photograph viewed 2026-11-18: a lone Moreton Bay fig on park lawn, buttress roots and a dome of leaves, daylight, colour. Lead photograph of sydney/syd_008."
   }
  ]
 }
