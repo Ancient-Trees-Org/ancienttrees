@@ -1,0 +1,69 @@
+{
+  "city": "Weeaproinah",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Weeaproinah is a forest locality high in the Otway Ranges of Victoria, among the cool temperate rainforest where myrtle beech and tree ferns fill the wet gullies. A reader sent us one of its trees: a myrtle beech whose long limb is lined with kangaroo ferns, moss and lichen, photographed from high among its branches near the Otway Fly Treetop Walk.",
+  "meta_description": "A myrtle beech in the Otway rainforest near Weeaproinah, Victoria, its limb lined with kangaroo ferns: where a reader found it and what we know.",
+  "hero_tree_id": "wee_001",
+  "oldest_tree_id": "wee_001",
+  "trees": [
+    {
+      "id": "wee_001",
+      "name": "The Fern-Lined Myrtle Beech of the Otways",
+      "species": "Myrtle Beech (Nothofagus cunninghamii)",
+      "location": {
+        "address": "Rainforest near the Otway Fly, Phillips Track, Weeaproinah, Victoria",
+        "latitude": -38.6439837941358,
+        "longitude": 143.500791297189,
+        "neighbourhood": "Otway Ranges"
+      },
+      "how_to_recognise": "A myrtle beech whose long sideways limb is lined end to end with upright kangaroo ferns on a bed of moss, above a gully of tree ferns.",
+      "access": "In the rainforest near Weeaproinah, about 700 m from the Otway Fly Treetop Walk entrance (ticketed). The reader's photographs look down from canopy height; we have not confirmed which path or walkway it is seen from.",
+      "verified_sources": [],
+      "story": "\"A Myrtle Beech hosting a whole ecosystem of mosses, lichen and kangaroo ferns in the Otways,\" wrote the reader who sent us this tree from the rainforest of the Otway Ranges in Victoria, with a GPS fix taken where they stood.\n\nMyrtle beech, Nothofagus cunninghamii, is the beech of the cool, wet rainforest gullies of Victoria and Tasmania, a southern beech whose relatives grow in New Zealand and South America. Where the air stays damp all year its bark and limbs become ground for other plants, and this one has taken that further than most.\n\nThe reader's photographs show a long limb running out sideways from a mossy trunk, and along its whole length stand ranks of kangaroo fern, narrow leathery fronds upright like the teeth of a comb. Moss lies thick on the top of the branch and grey lichen crusts the bark. The pictures look down past the limb onto the crowns of tree ferns in the gully below, as if taken from high among the branches.\n\nTheir fix falls in the forest about 700 metres from the entrance of the Otway Fly Treetop Walk. We do not know the tree's age or girth; if you do, tell us here.\n\nLook along the limb and count how many ferns have made their home on it.",
+      "found_by_reader": {
+        "sighting_id": "d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (sighting d97cc4c1-c95a-4ff8-b540-a3c20a542182, submission 1207) with a GPS fix in the Otway Ranges. Photograph viewed: a myrtle beech in rainforest, a long sideways limb lined end to end with upright kangaroo ferns and moss, a mossy trunk, tree ferns in the gully below; three more frames of the same limb from above, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry or encyclopaedia article within range. The Otway Fly entrance is at -38.64954, 143.50467 (otwayfly.com.au, How to get here), about 700 m from the fix; the photographs look down from canopy height, which fits the walkway, but the reader does not say so, so the access line says it is unconfirmed. Species is the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wee_001-fern-lined-myrtle-beech-of-the-otways.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_55b71f863ab5453c822af0ed",
+        "sighting_id": "d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: a myrtle beech in rainforest, a long sideways limb lined end to end with upright kangaroo ferns and moss, a mossy trunk, tree ferns in the gully below; three more frames of the same limb from above, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A myrtle beech in the Otway rainforest near Weeaproinah, its limb lined with kangaroo ferns: where it stands and what we know.",
+  "question_answer": "The tree mapped at Weeaproinah is a myrtle beech in the Otway rainforest, about 700 metres from the Otway Fly Treetop Walk entrance, its long limb lined with kangaroo ferns.",
+  "question_context": "A reader sent us this tree from the rainforest of the Otway Ranges in Victoria, with a GPS fix taken where they stood, and called it a myrtle beech hosting a whole ecosystem of mosses, lichen and kangaroo ferns. Myrtle beech, Nothofagus cunninghamii, is the beech of the cool, wet rainforest gullies of Victoria and Tasmania, a southern beech whose relatives grow in New Zealand and South America. The reader's photographs show a long limb running out sideways from a mossy trunk, lined along its whole length with upright kangaroo ferns, moss thick on its upper side and lichen on the bark, and below it the crowns of tree ferns in the gully. The pictures look down from high among the branches. The fix falls in the forest about 700 metres from the entrance of the Otway Fly Treetop Walk, a ticketed walkway through this rainforest; we have not confirmed which path or walkway the tree is seen from. Its age and girth are not known to us yet, and readers who know them can tell us on the page.",
+  "faq": [
+    {
+      "q": "Where is the myrtle beech at Weeaproinah?",
+      "a": "In the Otway rainforest about 700 metres from the Otway Fly Treetop Walk entrance on Phillips Track, where a reader took a GPS fix."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "The reader photographed it from high among its branches. We have not confirmed which path or walkway it is seen from; the Otway Fly is ticketed."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. If you know its age or girth, tell us on the tree's page."
+    }
+  ]
+}

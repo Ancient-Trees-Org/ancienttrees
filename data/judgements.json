@@ -1485,6 +1485,74 @@
    "agreed": null
   },
   {
+   "id": "sight:d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "The Fern-Lined Myrtle Beech of the Otways",
+   "photo": "p_55b71f863ab5453c822af0ed/D97CC4C1-C95A-4FF8-B540-A3C20A542182.jpg",
+   "reader_note": "A Myrtle Beech hosting a whole ecosystem of mosses, lichen and kangaroo ferns in the Otways.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: a myrtle beech limb lined with kangaroo ferns and moss above a tree-fern gully, daylight, colour. Lead photograph of weeaproinah/wee_001."
+  },
+  {
+   "id": "lead:d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Nothofagus cunninghamii",
+   "city": null,
+   "species": "Nothofagus cunninghamii",
+   "photo": "p_55b71f863ab5453c822af0ed/D97CC4C1-C95A-4FF8-B540-A3C20A542182.jpg",
+   "reader_note": "A Myrtle Beech hosting a whole ecosystem of mosses, lichen and kangaroo ferns in the Otways.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Nothofagus cunninghamii"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a myrtle beech in the Otway rainforest, a long limb lined with kangaroo ferns and moss, GPS fix about 700 m from the Otway Fly entrance. Live as weeaproinah/wee_001 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a882dcb4-1257-47bd-960b-769863f8bac1",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Bur Oak",
+   "city": null,
+   "species": "Bur Oak",
+   "photo": "p_2f2f1ccf013504dbe3f63796/A882DCB4-1257-47BD-960B-769863F8BAC1.jpg",
+   "reader_note": "300-year-old bur oak tree in a unique candelabra shape, formed either by natural phenomena or deliberately shaped by indigenous peoples as a sapling to achieve its three-tongued structure. As a bur oak, it is an unusual tree to find in Northeast Ohio. A plaque from 1986 states that the Signal Tree marked the path to the Portage Trail from the Cuyahoga River, which is a connecting link between the Great Lakes and the St. Lawrence River and the Ohio and Mississippi rivers. The Portage Trail “conne",
+   "reader_girth_cm": 323,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bur Oak"
+   },
+   "verdict": "hold",
+   "reason": "Photographs viewed: the Signal Tree, Akron, whole tree and 1986 plaque. Held not_public: Summit Metro Parks still lists the Chuckery Area closed through at least 2028 (alerts page, read 2026-11-18). Ships when it reopens or the reader shows it can be seen from open ground; answer drafted for Hidde (reply-reader-1115).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

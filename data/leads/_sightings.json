@@ -6711,6 +6711,74 @@
    "seen": "2026-11-18",
    "judged": "2026-11-18",
    "published_as": "divonne-les-bains/dvn_001"
+  },
+  {
+   "sighting_id": "d97cc4c1-c95a-4ff8-b540-a3c20a542182",
+   "user_id": "p_55b71f863ab5453c822af0ed",
+   "mine": false,
+   "name": "Nothofagus cunninghamii",
+   "unsure_among": null,
+   "species": "Nothofagus cunninghamii",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "A Myrtle Beech hosting a whole ecosystem of mosses, lichen and kangaroo ferns in the Otways.",
+   "latitude": -38.6439837941358,
+   "longitude": 143.500791297189,
+   "near": null,
+   "photo": "p_55b71f863ab5453c822af0ed/D97CC4C1-C95A-4FF8-B540-A3C20A542182.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/d97cc4c1-c95a-4ff8-b540-a3c20a542182-extra-1.jpg",
+    "out/sightings/d97cc4c1-c95a-4ff8-b540-a3c20a542182-extra-2.jpg",
+    "out/sightings/d97cc4c1-c95a-4ff8-b540-a3c20a542182-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: a myrtle beech in rainforest, a long sideways limb lined end to end with upright kangaroo ferns and moss, a mossy trunk, tree ferns in the gully below; three more frames of the same limb from above, daylight, colour. Live as weeaproinah/wee_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "weeaproinah/wee_001"
+  },
+  {
+   "sighting_id": "a882dcb4-1257-47bd-960b-769863f8bac1",
+   "user_id": "p_2f2f1ccf013504dbe3f63796",
+   "mine": false,
+   "name": "Bur Oak",
+   "unsure_among": null,
+   "species": "Bur Oak",
+   "age": "300 years",
+   "girth_cm": 323,
+   "girth_hugs": null,
+   "note": "300-year-old bur oak tree in a unique candelabra shape, formed either by natural phenomena or deliberately shaped by indigenous peoples as a sapling to achieve its three-tongued structure. As a bur oak, it is an unusual tree to find in Northeast Ohio. A plaque from 1986 states that the Signal Tree marked the path to the Portage Trail from the Cuyahoga River, which is a connecting link between the Great Lakes and the St. Lawrence River and the Ohio and Mississippi rivers. The Portage Trail “conne",
+   "latitude": 41.1201945,
+   "longitude": -81.5179883333333,
+   "near": null,
+   "photo": "p_2f2f1ccf013504dbe3f63796/A882DCB4-1257-47BD-960B-769863F8BAC1.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/a882dcb4-1257-47bd-960b-769863f8bac1-extra-1.jpg",
+    "out/sightings/a882dcb4-1257-47bd-960b-769863f8bac1-extra-2.jpg",
+    "out/sightings/a882dcb4-1257-47bd-960b-769863f8bac1-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photographs viewed 2026-11-18: the Signal Tree, Akron, a three-stemmed bur oak, whole tree and its 1986 plaque, daylight, colour, construction fencing at the right edge. A real and special tree (data/leads/akron.json, tip 1115). Held not_public: Summit Metro Parks' alerts page, read 2026-11-18, still says the Chuckery Area of Cascade Valley Metro Park is closed for the Gorge Dam and NSIT work through at least 2028. Goes live the day the area reopens, or when the reader says it can be seen from open ground (pin on that spot). The standard not_public mail says 'private property', which is false here, so no mail; the answer is in drafts/reply-reader-1115-2026-11-17.md for Hidde.",
+   "seen": "2026-11-18",
+   "hold": "not_public",
+   "judged": "2026-11-18"
   }
  ]
 }
