@@ -130,6 +130,15 @@ final class SignedOutWalk: XCTestCase {
         tap(app, "ambassador-wanted"); expectSignIn(app, after: "ambassador-wanted")
     }
 
+    func testVisitorNameOnSeeAllAsks() {
+        // Discover's New from visitors, See all (VisitorPhotos.swift,
+        // 2026-11-18): a public name, tapped signed out, asks for a sign-in
+        // first, as the row does. From the server, so it waits for the tiles.
+        let app = launch(["-tab=1", "-open=visitors:all"])
+        _ = app.descendants(matching: .any)["visitor-tile"].firstMatch.waitForExistence(timeout: 30)
+        tap(app, "visitor-name"); expectSignIn(app, after: "visitor-name")
+    }
+
     func testFollowOnAProfileAsks() {
         // Somebody's public profile (PersonProfile.swift, 2026-10-19): the
         // -people-demo person a1 is public, so Follow is on screen.
