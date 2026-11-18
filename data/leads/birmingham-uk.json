@@ -72,6 +72,15 @@
    ]
   },
   {
+   "name": "Sutton Park veteran oak (ATI 249969)",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "city": "Birmingham (Royal Sutton Coldfield)",
+   "reason": "Woodland Trust Ancient Tree Inventory (fetched 2026-11-18): veteran, standing, girth 3.95 m at 1.5 m, decaying wood, holly crowding it, grid ref SP1093796185 (about 52.57N, 1.84W, not converted or checked). Recorded by a volunteer 2023, last visited 2024. No age, no photo, a nameless oak in a 900-hectare walk-through park so no location_site; modest girth. One source, approximate at best; not worth a page alone.",
+   "sources": [
+    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=249969"
+   ]
+  },
+  {
    "name": "Solihull bowling green yew (Ramada/George Hotel, near St Alphege)",
    "species": "Yew (Taxus baccata)",
    "city": "Solihull (borough next to Birmingham)",
