@@ -1,0 +1,73 @@
+{
+  "city": "Aihole",
+  "country": "India",
+  "status": "needs_curation",
+  "intro": "Aihole is a village in Bagalkot district in northern Karnataka, scattered with more than a hundred stone temples from the Chalukya centuries, many of them in ruins. On the ground of the Galaganatha group, by the Malaprabha river, grows a fig whose crown spreads far wider than it is tall, a stone Nandi lying beside it. A reader sent us its photograph.",
+  "meta_description": "A wide old fig on the ground of the Galaganatha temples at Aihole, Karnataka, sent by a reader: where it grows and what we know about it.",
+  "hero_tree_id": "aih_001",
+  "oldest_tree_id": "aih_001",
+  "trees": [
+    {
+      "id": "aih_001",
+      "name": "The Galaganatha Temple Fig",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Galaganatha group of temples, Aihole, Bagalkot district, Karnataka",
+        "latitude": 16.009309,
+        "longitude": 75.879506,
+        "neighbourhood": "Aihole"
+      },
+      "story": "A reader walking among the temple ruins of Aihole, in northern Karnataka, sent us this tree and placed it on the ground of the Galaganatha group, the cluster of old Shiva shrines on the bank of the Malaprabha river that the Archaeological Survey of India protects as a monument of national importance.\n\nTheir first photograph shows why they stopped. Across a stretch of bare red earth the tree spreads into a low, even dome of green many times wider than it is tall, the kind of shade a whole village could sit in. Walk closer and the crown turns out to stand on a short, fluted trunk that breaks almost at once into a dozen grey limbs, reaching out level in every direction, a few thin aerial roots hanging from them. A carved stone Nandi, Shiva's bull, lies on a plinth beside it, facing the tree.\n\nThe reader knows it as an Indian banyan. The leaves, the small red figs and the hanging roots say fig; which one, we would like a reader to confirm. We have no age, girth or story for it yet. If you know what the people of Aihole say about this tree, tell us here.\n\nCome early, as the reader did, and stand in the middle of the shade looking up into the limbs.",
+      "how_to_recognise": "On the bare ground of the Galaganatha temples: a lone low fig whose crown spreads far wider than it is tall, its short trunk splitting into a dozen level grey limbs, a stone Nandi on a plinth beside it.",
+      "access": "On the grounds of the Galaganatha group of temples, a protected monument at Aihole; the reader walked up to it. Check the site's opening times before you go.",
+      "verified_sources": [
+        "https://www.nativeplanet.com/aihole/attractions/galaganatha-group (the Galaganatha group of temples on the bank of the Malaprabha at Aihole; names the site, not the tree)",
+        "https://en.wikipedia.org/wiki/List_of_Monuments_of_National_Importance_in_Bagalkot_and_Bijapur_district,_Karnataka (the Galaganatha group of temples at Aihole, a monument of national importance, at about 16.010 N, 75.879 E; names the site, not the tree)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63",
+        "date": "2026-11-18"
+      },
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (94be5b76-fd13-46b8-965d-0486dd325d63) with a GPS fix at Aihole. Photograph viewed: the whole tree from across bare ground, a low wide dome of crown far broader than it is tall over a short fluted trunk, a brick wall and temple ruins behind; three more frames show the trunk, its many limbs, thin aerial roots and a stone Nandi on a plinth beside it; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Galaganantha temple tree', species 'Indian Banyan', no age, girth or note. Species kept at the genus: no prop-root colonnade is visible, so Indian banyan is stated as the reader's. India is out of focus for our own research only, never for a reader's tree. The source names the temple site, not the tree. The photograph's coordinate (16.0241, 75.8705) lay 1.9 km off the temple group; the reader moved the pin by hand onto the group (report 1000082), which matches the Wikipedia list of Monuments of National Importance in Bagalkot (about 16.010, 75.879), so that spot is used, approximate.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader report",
+        "report": 1000082,
+        "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63",
+        "moved_m": 1907,
+        "date": "2026-11-18",
+        "note": "reader report 1000082, the sender moved the pin of their own tree by hand onto the Galaganatha temple group (listed at about 16.010, 75.879 in the national monuments list), 1.9 km from the photograph's coordinate, which lay off the site; as at Howrah (report 1000079). Hand-placed, so approximate."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/aih_001-galaganatha-temple-fig.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+        "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the whole tree from across bare ground, a low wide dome of crown far broader than it is tall over a short fluted trunk, a brick wall and temple ruins behind; three more frames show the trunk, its many limbs, thin aerial roots and a stone Nandi on a plinth beside it; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A wide old fig on the ground of the Galaganatha temples at Aihole, Karnataka, sent by a reader: where it grows and what we know about it.",
+  "question_answer": "The Galaganatha Temple Fig grows on the grounds of the Galaganatha group of temples at Aihole, by the Malaprabha river. It is a protected monument site; check its opening times before you go.",
+  "question_context": "A reader walking among the temple ruins of Aihole sent us this tree and placed it on the ground of the Galaganatha group, a cluster of old Shiva shrines on the bank of the Malaprabha river that the Archaeological Survey of India protects. Across a stretch of bare red earth the tree spreads into a low, even dome of green many times wider than it is tall. Closer in, the crown stands on a short fluted trunk that breaks almost at once into a dozen grey limbs reaching out level in every direction, with a few thin aerial roots hanging from them. A carved stone Nandi lies on a plinth beside it, facing the tree. The reader knows it as an Indian banyan; the leaves, small red figs and hanging roots say fig, and we would like a reader to confirm which one. We have no age, girth or written story for it yet, so if you know what the people of Aihole say about this tree, tell us on its page.",
+  "faq": [
+    {
+      "q": "Can I visit The Galaganatha Temple Fig?",
+      "a": "Yes. It grows on the grounds of the Galaganatha group of temples at Aihole, a protected monument; check the site's opening times before you go."
+    },
+    {
+      "q": "What kind of tree is the Galaganatha Temple Fig?",
+      "a": "A fig. The reader who sent it knows it as an Indian banyan; we would like a reader to confirm the species."
+    },
+    {
+      "q": "How old is the Galaganatha Temple Fig?",
+      "a": "We do not know yet. If you know its age or its story, tell us on its page."
+    }
+  ]
+}

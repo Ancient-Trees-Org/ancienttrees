@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: a new temple fig at Aihole
+
+- **New: The Galaganatha Temple Fig, aihole/aih_001** (new one-tree place, India), a reader's tree from the app with four photographs: a wide, low fig on the ground of the Galaganatha temple group at Aihole with a stone Nandi beside it. The reader calls it an Indian banyan; the species is kept at "Fig (Ficus sp.)" with their name stated as theirs. The photograph's coordinate was 1.9 km off the temples. The reader then moved the pin by hand (report 1000082) onto the spot where the national monuments list places the group, so that spot is used, approximate, as at Howrah. Report closed `holds`, no mail: it is a pin on their own new tree. The congratulation mail waits for the deploy, as tree_approved.py says.
+- **Tip 1183 (Kozaki)**: the Makata Shrine great cedar again, the tree of held lead 1bc207e7 (not_theirs), now sent as words alone with a hand-placed pin. The text reads as pasted from a chatbot, so nothing is quoted. Verdict `lead`: travel articles confirm a 1,300 to 1,400-year cedar in the precinct. It ships as a reader-found tip once two of them are cited by URL. That is the next step, but it did not fit this window.
+- **Left open**: Report 1000083 (same reader as Aihole) moves a "Rain tree, National Gallery of Modern Art" pin in Bengaluru, but no sighting of that tree has reached us yet. It stays open until the tree arrives.
+- The Dartington yew's photograph was also judged here, but a parallel run pushed it first (entry below); its version stands and mine was dropped in the rebase.
+- Checks: preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-18 reader judge: the Dartington yew has its reader's photographs
 
 - **dartington/dtg_001, The Yew by Dartington's Old Church Tower, now has photographs.** The reader's two frames for tip 1177 arrived (sighting 2d01c8dc). I viewed both: the whole yew by the stone tower, a huge burred and folded bole in a rope ring among gravestones, daylight, colour; and the bole close up. The wide frame is the lead and the close-up is in the strip. One paragraph of the story now says the photographs came and that the burred bole on flat ground fits the Ancient Yew Group's knobbly tree 401 west of the tower, and it still asks to be told if that is the wrong yew. With a reader's photo the page can now go to Google under the reader cut.

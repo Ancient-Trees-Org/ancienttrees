@@ -6575,6 +6575,47 @@
    "seen": "2026-11-18",
    "judged": "2026-11-18",
    "published_as": "dartington/dtg_001"
+  },
+  {
+   "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63",
+   "user_id": "p_5c22c3030ca37ddafb789ab6",
+   "mine": false,
+   "name": "Galaganantha temple tree",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 16.0241445,
+   "longitude": 75.870545,
+   "near": null,
+   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/94be5b76-fd13-46b8-965d-0486dd325d63-extra-1.jpg",
+    "out/sightings/94be5b76-fd13-46b8-965d-0486dd325d63-extra-2.jpg",
+    "out/sightings/94be5b76-fd13-46b8-965d-0486dd325d63-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-18: the whole tree from across bare ground, a low wide dome of crown far broader than it is tall over a short fluted trunk, a brick wall and temple ruins behind; three more frames show the trunk, its many limbs, thin aerial roots and a stone Nandi on a plinth beside it; daylight, colour. Live as aihole/aih_001 under the closed list (Hidde, 2026-11-17). The photograph's coordinate lay 1.9 km off the temple group; the reader moved the pin onto it by hand (report 1000082), and that spot is used, approximate.",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "aihole/aih_001",
+   "reader_moved_to": {
+    "latitude": 16.009309,
+    "longitude": 75.879506,
+    "reports": [
+     1000082
+    ]
+   }
   }
  ]
 }

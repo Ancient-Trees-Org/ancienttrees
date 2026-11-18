@@ -16718,6 +16718,77 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:94be5b76-fd13-46b8-965d-0486dd325d63",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Galaganantha temple tree",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Viewed four frames: a wide low fig on the Galaganatha temple ground at Aihole with a stone Nandi beside it; live as aihole/aih_001 (new one-tree place), pin on the reader's hand-moved spot at the temple group.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:94be5b76-fd13-46b8-965d-0486dd325d63",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Galaganantha temple tree",
+   "city": "Aihole",
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/94BE5B76-FD13-46B8-965D-0486DD325D63.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the whole wide fig across bare ground at the Galaganatha temples, Aihole; the reader's photograph leads aih_001, its new page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1183",
+   "seen": "2026-11-18",
+   "kind": "a tip without a photograph",
+   "tree": "DF9042BD-471F-4E5B-B9F4-8BD8730C23AB",
+   "city": "Kozaki",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "The Makata Shrine great cedar (Narita), the tree of held lead 1bc207e7, resent as words alone with a hand-placed pin; the text reads as pasted from a chatbot, so nothing is quoted. Travel articles (tabi-mag.jp, travel.co.jp, airtrip.jp) put a 1,300 to 1,400-year cedar in the shrine's precinct; the Chiba designation and girth not yet confirmed. Next: cite two of them by URL and it ships as a reader-found tip with a recognition line, no photograph needed.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
