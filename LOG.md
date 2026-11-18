@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Inner Temple Mulberry has its first photograph; the Cusop yew gets a reader's age
+
+- **Live: the first photograph of lon_020, the Inner Temple Mulberry in London** (sighting 145ff4d3, `approve`). I looked at it: a low, leaning black mulberry with a gnarled, burred trunk in two stems, held up by stakes, in a fern bed on the garden lawn. It has yellowing heart-shaped leaves and the brick chambers behind. It was taken in daylight and colour, with a small lens smudge in one corner clear of the tree. The pin moved 107 m from our approximate spot to the reader's GPS fix inside the garden, and it is now confirmed. The pin catch-up step hit HTTPError again.
+- **Cusop yew (cus_001)**: the reader who added it left a note: "Locally supposed to be between 1,500 and 2,000 years old." It is now on the page as a reader's estimate, labelled as local belief and not a ring count. It is in the story (quoted), the age field, the FAQ, the intro and the question context. The note was not on the closed list, so it stays up.
+- Nothing else was waiting: no open reports, tips or feedback without a verdict, and no reader words to quote. The 37 own-account (`mine`) leads were left alone, as in earlier runs.
+
 ## 2026-11-18 reader judge (fourth, in parallel): nothing new
 
 - This run judged the same Melbourne sighting (2f335c62) as the run below and reached the same verdict, a duplicate of mel_001's lead. That run's entry was kept. Nothing else was waiting: no open reports, tips, feedback or notes. The 37 own-account leads were left alone.

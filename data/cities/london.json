@@ -896,8 +896,8 @@
       "age_max": null,
       "location": {
         "address": "Benchers' Walk, Inner Temple Garden, by the railings outside Paper Buildings, City of London EC4Y",
-        "latitude": 51.5112,
-        "longitude": -0.1086,
+        "latitude": 51.512106,
+        "longitude": -0.10913,
         "neighbourhood": "Temple, City of London"
       },
       "story": "The Inner Temple's garden opens to the public for two and a half hours on weekday afternoons, and this tree is a fair reason to time the visit. A black mulberry stands by the railings of Benchers' Walk, outside Paper Buildings, its trunk about a metre and a half around and ten metres of crown above it. The Inner Temple's own history of the garden names it as one of the survivors of an old orchard, alongside a large-fruiting walnut and a quince, which is the institution itself calling this inherited planting rather than decoration. What no source will say is how old it is. There is no planting date anywhere, and black mulberries are among the hardest trees to age: they rot hollow early, lean until they need propping, and root wherever a low branch touches soil, so the trunk stops being a record of anything. This entry carries no age for that reason rather than a guess. The ground is famous for a scene that never happened here. Shakespeare set the plucking of the red and white roses, and with it the start of the Wars of the Roses, in the Temple garden; the tree is centuries younger than the fiction. Two hundred and fifty metres across the lane, Middle Temple's mulberries at Fountain Court at least have a disputed planting date to argue over. This one does not even have that.",
@@ -915,12 +915,19 @@
       "access": "Public, open weekdays 12:30pm-3:00pm only (not full daily access); the tree stands by the railings of Benchers Walk outside Paper Buildings",
       "transport": "Temple station, 4 minute walk",
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lon_020-the-inner-temple-mulberry.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_1930a537941dd45cebc49579",
+        "sighting_id": "145ff4d3-da0a-437e-8295-38c085728740",
+        "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-18: Looked at: a low, leaning black mulberry with a dark, gnarled, burred trunk, two stems splitting from the base, propped by stakes, in a fern bed on the lawn of the Inner Temple garden. The terraced brick chambers behind it fit Paper Buildings and King's Bench Walk. Daylight, colour, the whole tree in frame. A slight lens smudge in the bottom-left corner, clear of the tree. Its GPS fix is 107 m from our approximate pin and inside the garden. Species seen: heart-shaped, toothed leaves turning yellow, rough dark fissured bark, a low leaning crown on staked limbs: the habit of an old black mulberry. Fits the description: a modest-sized tree, about ten metres of crown over a trunk of roughly a metre and a half round, an old orchard survivor in the garden by the buildings.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the trunk, about a metre and a half round under ten metres of crown, an orchard survivor alongside a walnut and a quince. It stands by the railings of Benchers' Walk, outside Paper Buildings.",
       "official_register": {
@@ -928,7 +935,14 @@
         "url": "https://www.moruslondinium.org/map/inner-temple-garden"
       },
       "girth_cm": 150,
-      "height_m": 10
+      "height_m": 10,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "145ff4d3-da0a-437e-8295-38c085728740",
+        "moved_m": 107,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "lon_021",
