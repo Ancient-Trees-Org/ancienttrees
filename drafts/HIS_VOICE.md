@@ -496,6 +496,10 @@ She wrote that her husband, the photographer behind the project, died last year.
 
 A reader sent a photo with another name in the corner ("krapo arboricole"). I called "is that you? may we use it?" a suspicion and wanted to drop it. His verdict: **"het is niet heel gek om te vragen of het watermerk klopt en of we het online mogen zetten toch?"** Asking plainly whose photo it is and whether we may put it online is a normal permission question, not an accusation. Ask it, in one line.
 
+## 2026-11-18: back their own good instinct, and stop there (Joey Ryan, Willistown oak)
+
+Joey asked how to approach the owner of a front-yard oak and told the story of the daughter who wants it cut. My draft called talking to him "a really nice idea" and closed with "here's to a very long life for him and his oak!". He rewrote it: "talking to him first is probably the best idea. And a good way to meet your neighbour." The toast went. So when someone asks how to handle a person, back their own plan plainly and add one warm, human reason for it; do not echo their story back at them.
+
 ## 2026-11-16: the open door has no fence (Genziana Ricci, Ferrara)
 
 My closing line said "Whenever you come across another tree between Bologna and Ferrara, I'm always curious." His version: **"Whenever you come across another tree  I'm always curious."** Do not narrow an open invitation to the region we think they know; any tree they come across is welcome.
