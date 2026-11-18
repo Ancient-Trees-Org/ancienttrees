@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-18 reader judge: overlapped the night run's retries, nothing new
+
+- I judged the same seven app photographs: four Salt Lake City leads, plus strip photos for Fortingall, Jardine and Reelig. My readings matched what earlier runs had already pushed, so I dropped my commit and kept theirs. Main passes preflight.
+- Still left: lead 3c544597 (Amsterdam), from one of our own accounts, with its photo not on disk. The older Japan and Baarn `lead` rows have no photo on disk either. No open reports, feedback or readers' words.
+
 ## 2026-11-18 night run (third attempt): Birmingham and Potsdam verified, 0 trees shipped
 
 - No product change. Birmingham verify (UK, from-zero on): nothing meets the bar again; the Uffculme yew in Kings Heath was felled in 2016 (blocked), a Grove Park cedar and a Highbury Park 515 cm oak added as leads (no coordinate, no photograph). Potsdam verify: already published, its 27 open leads held for private plots or no placeable pin; the Naturdenkmal 54 oak stays a lead.
