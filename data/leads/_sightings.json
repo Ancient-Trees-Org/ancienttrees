@@ -6435,6 +6435,52 @@
    "seen": "2026-11-18",
    "judged": "2026-11-18",
    "published_as": "kisantu/kis_001"
+  },
+  {
+   "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
+   "user_id": "p_697eb4a0c77311e0508c5fb0",
+   "mine": false,
+   "name": "Ginkgo at Kuhombutsu Temple 九品仏浄真寺",
+   "unsure_among": null,
+   "species": "Ginkgo",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Next to the Buddhist temple, the tree is designated as a special tree.",
+   "latitude": 35.6079274365877,
+   "longitude": 139.660713697366,
+   "near": null,
+   "photo": "p_697eb4a0c77311e0508c5fb0/E2A41777-04A8-4864-AAD1-99A9A84BB622.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622-extra-1.jpg",
+    "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622-extra-2.jpg",
+    "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622-extra-3.jpg"
+   ],
+   "nearest_published_m": 1800,
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 72 m away (tokyo): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 35.608276,
+      "lng": 139.661386,
+      "source": "tokyo",
+      "designation": "",
+      "name": "",
+      "species": "",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 72.2
+     }
+    ]
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-18: the whole ginkgo in autumn gold from the veranda of a temple hall, its dark trunk on a mossy bed, a stone garden in front, visitors on the path, daylight, colour; extras show the crown from the forecourt, the stone post 都天然記念物 九品仏のイチョウ before the trunk, and the Setagaya 名木百選 plaque on the bark. Live as tokyo/tok_023 under the closed list.",
+   "seen": "2026-11-18",
+   "judged": "2026-11-18",
+   "published_as": "tokyo/tok_023"
   }
  ]
 }

@@ -590,6 +590,224 @@
    "agreed": null
   },
   {
+   "id": "sight:97153cbf-443d-4b42-9801-7463164ed709",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Indian Banyan",
+   "city": "Howrah",
+   "species": "Indian Banyan",
+   "photo": "p_5c22c3030ca37ddafb789ab6/97153CBF-443D-4B42-9801-7463164ED709.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "The reader's photographs of the Great Banyan, Howrah: the prop-root grove in daylight and the Botanical Survey of India board naming it. Lead and two strip photographs on howrah/how_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:094b9a62-a6ef-4dac-aa96-6626c74a32a2",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Ueno Toshogu Camphor",
+   "city": "Tokyo",
+   "species": "Camphor Tree (Cinnamomum camphora)",
+   "photo": "out/sightings/094b9a62-a6ef-4dac-aa96-6626c74a32a2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Camphor Tree (Cinnamomum camphora)"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: the camphor's crown over the Toshogu wall and lanterns, plus its trunk from the shrine side. Added to tok_003 as the reader's lead photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:9e9c5f14-9e15-4617-905b-61d19e0ee349",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:9e9c5f14-9e15-4617-905b-61d19e0ee349",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fbcb3c91-41f0-48d9-b573-f37e63ad0145",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Knotted Tree of Mexikópuszta",
+   "city": "Fertőújlak",
+   "species": "Japanese Pagoda Tree or Black Locust (Styphnolobium or Robinia, to be confirmed)",
+   "photo": "out/sightings/fbcb3c91-41f0-48d9-b573-f37e63ad0145.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Pagoda Tree or Black Locust (Styphnolobium or Robinia, to be confirmed)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same photograph by the same reader already leads fuj_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d692d0b9-929c-4599-a852-8929dad58135",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Casuarina of the Cascada",
+   "city": "Barcelona",
+   "species": "River She-oak (Casuarina cunninghamiana)",
+   "photo": "out/sightings/d692d0b9-929c-4599-a852-8929dad58135.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River She-oak (Casuarina cunninghamiana)"
+   },
+   "verdict": "publish",
+   "reason": "On bcn_011 as the lead: the whole she-oak in daylight from the lawn, twin trunk fused at the base, matches species and description.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bc2707b6-f00b-4bb5-a67b-52d494a93e57",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Casuarina of the Cascada",
+   "city": "Barcelona",
+   "species": "River She-oak (Casuarina cunninghamiana)",
+   "photo": "out/sightings/bc2707b6-f00b-4bb5-a67b-52d494a93e57.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River She-oak (Casuarina cunninghamiana)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same frame as d692d0b9, which is now on bcn_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ee95229b-3389-4229-8679-a5847d52b5ca",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Casuarina of the Cascada",
+   "city": "Barcelona",
+   "species": "River She-oak (Casuarina cunninghamiana)",
+   "photo": "out/sightings/ee95229b-3389-4229-8679-a5847d52b5ca.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River She-oak (Casuarina cunninghamiana)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same frame as d692d0b9, which is now on bcn_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e2a41777-04a8-4864-aad1-99a9a84bb622",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo at Kuhombutsu Temple 九品仏浄真寺",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_697eb4a0c77311e0508c5fb0/E2A41777-04A8-4864-AAD1-99A9A84BB622.jpg",
+   "reader_note": "Next to the Buddhist temple, the tree is designated as a special tree.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 72 m away (tokyo): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 35.608276,
+      "lng": 139.661386,
+      "source": "tokyo",
+      "designation": "",
+      "name": "",
+      "species": "",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 72.2
+     }
+    ]
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "publish",
+   "reason": "Live as tokyo/tok_023, the Ginkgo of Kuhonbutsu: photos show the whole tree in autumn gold, the stone post naming it a Tokyo Natural Monument and the Setagaya 100-famous-trees plaque; the Tokyo register lists it (1963); GPS fix in the temple grounds.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -4984,6 +5202,21 @@
    "reader_girth_cm": null,
    "verdict": "publish",
    "reason": "The app's row for sighting 58efdc92, already live as milton-keynes/mkn_003 (Leaning Apple Row of Linford Wood); same coordinate, no words, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-17",
+   "kind": "a tree we do not map",
+   "tree": "Bodhi Tree near Chiang Mai",
+   "city": null,
+   "species": "Bodhi Tree",
+   "photo": "p_729e302d7f04d07965d7a3fc/7F0038BA-2D3C-4BF4-A206-135905BFF0F3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:7f0038ba-2d3c-4bf4-a206-135905bff0f3",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A tall round crown in silhouette at sunset; the reader's bodhi tree and 100 years stated as theirs. GPS fix. Live as chiang-mai/cnx_003.",
    "hidde": null,
    "agreed": null
   },
@@ -13383,6 +13616,36 @@
    "agreed": null
   },
   {
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "American Elm",
+   "city": null,
+   "species": "American Elm",
+   "photo": "p_d88e3226c3bf7ee8f1c8aa41/B6C42A88-4F55-4E46-89F5-1ACDF5703851.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:b6c42a88-4f55-4e46-89f5-1acdf5703851",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. Thick deeply ridged trunk, pinnate leaves so probably not the elm the reader named; species left open and asked on the page. GPS fix. Live as lincoln-nebraska/lne_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_14d68ebe05b368493091ea08/E1144BEA-FD53-4CC6-A71F-D523C763F64F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "id": "sight:e1144bea-fd53-4cc6-a71f-d523c763f64f",
+   "verdict": "publish",
+   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A knotted, coiling pea-family trunk at the Mexikopuszta inn; pagoda tree or locust left open. GPS fix. Live as fertoujlak/fuj_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",
    "seen": "2026-11-14",
    "kind": "photo of a tree we map",
@@ -16213,137 +16476,16 @@
    "agreed": null
   },
   {
-   "id": "sight:97153cbf-443d-4b42-9801-7463164ed709",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "Indian Banyan",
-   "city": "Howrah",
-   "species": "Indian Banyan",
-   "photo": "p_5c22c3030ca37ddafb789ab6/97153CBF-443D-4B42-9801-7463164ED709.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Indian Banyan"
-   },
-   "verdict": "publish",
-   "reason": "The reader's photographs of the Great Banyan, Howrah: the prop-root grove in daylight and the Botanical Survey of India board naming it. Lead and two strip photographs on howrah/how_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:094b9a62-a6ef-4dac-aa96-6626c74a32a2",
+   "id": "sight:e2a41777-04a8-4864-aad1-99a9a84bb622",
    "seen": "2026-11-18",
    "kind": "photo of a tree we map",
-   "tree": "The Ueno Toshogu Camphor",
+   "tree": "The Ginkgo of Kuhonbutsu",
    "city": "Tokyo",
-   "species": "Camphor Tree (Cinnamomum camphora)",
-   "photo": "out/sightings/094b9a62-a6ef-4dac-aa96-6626c74a32a2.jpg",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/e2a41777-04a8-4864-aad1-99a9a84bb622.jpg",
    "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 31,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Camphor Tree (Cinnamomum camphora)"
-   },
    "verdict": "publish",
-   "reason": "Photographs viewed: the camphor's crown over the Toshogu wall and lanterns, plus its trunk from the shrine side. Added to tok_003 as the reader's lead photograph.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:9e9c5f14-9e15-4617-905b-61d19e0ee349",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_2e3d33f1ea27214456be529d/9E9C5F14-9E15-4617-905B-61D19E0EE349.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "id": "sight:9e9c5f14-9e15-4617-905b-61d19e0ee349",
-   "verdict": "publish",
-   "reason": "Contributor photograph now the lead on its page. Photograph viewed: a huge kapok with tall plank buttresses, the garden's Ceiba pentandra label at its foot, GPS fix at the tree. Cropped above the people seated in front so no one is recognisable. Live as kisantu/kis_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "seen": "2026-11-17",
-   "kind": "a tree we do not map",
-   "tree": "Bodhi Tree near Chiang Mai",
-   "city": null,
-   "species": "Bodhi Tree",
-   "photo": "p_729e302d7f04d07965d7a3fc/7F0038BA-2D3C-4BF4-A206-135905BFF0F3.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "id": "sight:7f0038ba-2d3c-4bf4-a206-135905bff0f3",
-   "verdict": "publish",
-   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A tall round crown in silhouette at sunset; the reader's bodhi tree and 100 years stated as theirs. GPS fix. Live as chiang-mai/cnx_003.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "American Elm",
-   "city": null,
-   "species": "American Elm",
-   "photo": "p_d88e3226c3bf7ee8f1c8aa41/B6C42A88-4F55-4E46-89F5-1ACDF5703851.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "id": "sight:b6c42a88-4f55-4e46-89f5-1acdf5703851",
-   "verdict": "publish",
-   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. Thick deeply ridged trunk, pinnate leaves so probably not the elm the reader named; species left open and asked on the page. GPS fix. Live as lincoln-nebraska/lne_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_14d68ebe05b368493091ea08/E1144BEA-FD53-4CC6-A71F-D523C763F64F.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "id": "sight:e1144bea-fd53-4cc6-a71f-d523c763f64f",
-   "verdict": "publish",
-   "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A knotted, coiling pea-family trunk at the Mexikopuszta inn; pagoda tree or locust left open. GPS fix. Live as fertoujlak/fuj_001.",
+   "reason": "Contributor photograph now the lead on tokyo/tok_023, two more in its strip (the crown from the forecourt, the stone post before the trunk).",
    "hidde": null,
    "agreed": null
   }

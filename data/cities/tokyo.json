@@ -3,7 +3,7 @@
   "country": "Japan",
   "face_tree_id": "tok_009",
   "status": "needs_curation",
-  "intro": "Tokyo has burned to the ground more times than almost any capital on Earth: the 1657 Meireki fire, the 1868 Battle of Ueno, the 1923 earthquake, and the March 1945 firebombing each erased whole districts overnight. The city's oldest trees survived by an accident of biology as much as luck. Ginkgo bark and wood hold unusual moisture and resist igniting, which is one reason seven of these are ginkgos, scarred but alive on temple and shrine ground. The oldest dates from the Kamakura period. The newest is a hundred-year-old avenue everyone has already seen in photographs.",
+  "intro": "Tokyo has burned to the ground more times than almost any capital on Earth: the 1657 Meireki fire, the 1868 Battle of Ueno, the 1923 earthquake, and the March 1945 firebombing each erased whole districts overnight. The city's oldest trees survived by an accident of biology as much as luck. Ginkgo bark and wood hold unusual moisture and resist igniting, which is one reason ten of these are ginkgos, scarred but alive on temple and shrine ground. The oldest dates from the Kamakura period. The newest is a hundred-year-old avenue everyone has already seen in photographs.",
   "meta_description": "Tokyo's oldest trees survived the fires that leveled the city around them. Start with the 750-year-old ginkgo at Zenpukuji, Tokyo's oldest living thing.",
   "question_answer": "The oldest tree in Tokyo is the ginkgo at Zenpukuji temple in Motoazabu, estimated at around 750 years old and a National Natural Monument since 1926. Nicknamed the Upside-Down Ginkgo for its hanging aerial roots, it stands a seven minute walk from Azabu-Juban Station.",
   "question_meta": "Zenpukuji's 750-year-old ginkgo, the Upside-Down Ginkgo, is Tokyo's oldest tree. Its legend, exact location, and twenty-one more remarkable trees nearby.",
@@ -945,6 +945,86 @@
         "width": 3939,
         "height": 5908
       }
+    },
+    {
+      "id": "tok_023",
+      "name": "The Ginkgo of Kuhonbutsu",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "location": {
+        "address": "Kuhonbutsu Joshin-ji, 7-41-3 Okusawa, Setagaya-ku, Tokyo",
+        "latitude": 35.6079274365877,
+        "longitude": 139.660713697366,
+        "neighbourhood": "Okusawa, Setagaya"
+      },
+      "verified_sources": [
+        "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017 (Tokyo Metropolitan Government, list of cultural properties, CC BY 4.0: 九品仏のイチョウ, Ginkgo at Kuhonbutsu, Tokyo-designated Natural Monument since 1963-03-19, 7-41-3 Okusawa, Setagaya; data/registers/tokyo.json)",
+        "Reader's photographs of 2026-11-18: the stone post 都天然記念物 九品仏のイチョウ and the Setagaya Ward plaque 名木百選 イチョウ, selected March 1987 (Showa 62), reselected January 2020 (Reiwa 2), on the trunk"
+      ],
+      "access": "Free. In the grounds of Kuhonbutsu Joshin-ji temple, open in daytime.",
+      "story": "\"Next to the Buddhist temple, the tree is designated as a special tree,\" wrote the reader who sent us this ginkgo from Kuhonbutsu Joshin-ji in Setagaya, with a GPS fix taken in the temple grounds. Their photographs show how special.\n\nA granite post in front of the trunk reads, in Japanese, Tokyo Metropolitan Natural Monument, the Ginkgo of Kuhonbutsu, and the Tokyo government's own list of cultural properties records the designation in March 1963. A small plaque nailed to the bark adds a second honour: Setagaya Ward chose it as one of its hundred famous trees in March 1987 and chose it again in January 2020.\n\nThe reader stood on the veranda of one of the halls to take the whole tree in. A dark, straight trunk, too wide for one person to reach round, rises from a bed of moss and fallen leaves beside a raked stone garden, then breaks into great limbs that fill the sky. They came in autumn, and every leaf had turned yellow.\n\nKuhonbutsu takes its popular name from the nine statues of Amida Buddha in its halls, and the station on the Tokyu Oimachi line is named after the temple. We do not know the tree's girth or age yet; if the temple has said, tell us here.\n\nCome in late November, when the gold is at its deepest and the ground beneath turns yellow too.",
+      "how_to_recognise": "In the temple grounds: a tall ginkgo with a dark, straight trunk on a mossy bed beside a raked stone garden, a granite post carved 九品仏のイチョウ standing in front of it and a small wooden plaque on the bark.",
+      "best_time": {
+        "months": [
+          11
+        ],
+        "label": "late November, when the ginkgo turns gold",
+        "kind": "autumn colour"
+      },
+      "found_by_reader": {
+        "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it. The register's site-level coordinate is 72 m off."
+      },
+      "official_register": {
+        "name": "Tokyo Metropolitan Natural Monument (都指定天然記念物)",
+        "designated": "1963-03-19",
+        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (e2a41777-04a8-4864-aad1-99a9a84bb622, through the app). Photographs viewed: the whole ginkgo in autumn gold from the veranda of a temple hall, its dark trunk on a mossy bed, a stone garden in front, visitors on the path, daylight, colour; extras show the crown from the forecourt, the stone post 都天然記念物 九品仏のイチョウ before the trunk, and the Setagaya 名木百選 plaque on the bark. The designation is in the Tokyo register (data/registers/tokyo.json, 九品仏のイチョウ, 1963-03-19) and on the stone post in the reader's photo; the Setagaya 名木百選 dates are read from the plaque in their photo. The register's Kaya (Torreya) at the same address is a different tree and stays a lead in data/leads/tokyo.json. No girth or age: none in the register or on the plaque.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+        "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole ginkgo in autumn gold from the veranda of a temple hall, its dark trunk on a mossy bed, a stone garden in front, visitors on the path, daylight, colour; extras show the crown from the forecourt, the stone post 都天然記念物 九品仏のイチョウ before the trunk, and the Setagaya 名木百選 plaque on the bark. Not an open licence: ask before reuse elsewhere."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-crown.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-stone-post.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622"
+        }
+      ]
     }
   ],
   "oldest_tree_id": "tok_001"

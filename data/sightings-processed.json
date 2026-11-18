@@ -1998,10 +1998,6 @@
    "date": "2026-11-18",
    "published_as": "fertoujlak/fuj_001"
   },
-  "fbcb3c91-41f0-48d9-b573-f37e63ad0145": {
-   "outcome": "lead",
-   "date": "2026-11-15"
-  },
   "91f2f869-b590-4465-8512-c49c7ca04a54": {
    "outcome": "published",
    "date": "2026-11-15",
@@ -4774,6 +4770,39 @@
    "lat": 35.7152033333333,
    "lon": 139.770905,
    "pin_checked": "2026-11-18"
+  },
+  "e2a41777-04a8-4864-aad1-99a9a84bb622": {
+   "outcome": "published",
+   "date": "2026-11-18"
+  },
+  "fbcb3c91-41f0-48d9-b573-f37e63ad0145": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "fuj_001",
+   "reason": "duplicate: the same photograph by the same reader already leads fuj_001"
+  },
+  "d692d0b9-929c-4599-a852-8929dad58135": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "bcn_011",
+   "city_slug": "barcelona",
+   "file": "bcn_011-the-casuarina-of-the-cascada-d692d0b9.jpg",
+   "reason": "the whole tree in daylight from the lawn, reader's own; makes a reader's photo the lead Species seen: drooping grey green jointed twigs like a pine that is not, furrowed fibrous bark. Fits the description: a huge she-oak, two trunks fused at the base splitting low, in the park lawn behind a rope fen",
+   "lat": 41.38941,
+   "lon": 2.187316,
+   "pin_checked": "2026-11-18"
+  },
+  "bc2707b6-f00b-4bb5-a67b-52d494a93e57": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "bcn_011",
+   "reason": "duplicate: identical to d692d0b9 from the same reader"
+  },
+  "ee95229b-3389-4229-8679-a5847d52b5ca": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "bcn_011",
+   "reason": "duplicate: identical to d692d0b9 from the same reader"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

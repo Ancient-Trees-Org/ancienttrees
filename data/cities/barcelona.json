@@ -554,13 +554,17 @@
       "access": "Free, public park",
       "transport": "Arc de Triomf (Metro L1) or Ciutadella-Vila Olimpica (Metro L4), 6 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Casuarina_del_Parc_de_la_Ciutadella3.JPG",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Herodotptlomeu, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bcn_011-the-casuarina-of-the-cascada-d692d0b9.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1536,
-        "height": 2048,
-        "taken_month": 7
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_ea87c37237a90bc84686676a",
+        "sighting_id": "d692d0b9-929c-4599-a852-8929dad58135",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-18: the whole tree in daylight from the lawn, reader's own; makes a reader's photo the lead Species seen: drooping grey green jointed twigs like a pine that is not, furrowed fibrous bark. Fits the description: a huge she-oak, two trunks fused at the base splitting low, in the park lawn behind a rope fence.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Sourced from the municipal Arbres d'interes local register (register_id 99400455029, catalogued 1994) plus an independent beteve.cat feature on the park's notable trees, which supplies the Australian origin, the not-a-conifer point and the claim that its trunk perimeter is the second largest in Barcelona. That claim is deliberately softened in the story to 'one of the thickest', per hard rule 8, because it is a different metric from the 'biggest tree' claim the city page already makes for the Sot de l'Estany wingnut and the two should not be set against each other. Height and girth differ between the register (27 m, 5.5 m) and bcnsostenible (22.5 m, 5 m); both are given as a range. Pin is the register coordinate alone, about 35 m from the Cascada monument, with no OSM node to cross-check, so precision is approximate rather than confirmed. Photo viewed directly before approval: Wiki Loves Earth Catalonia 2014 upload, full tree in daylight, trunk and crown both readable, tree occupies the centre band and survives a wide card crop.",
@@ -572,7 +576,18 @@
         "url": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/arbres-interes-local/arbre-d-interes-local-99400455029"
       },
       "height_m": 27.0,
-      "verify_notes": "Height from Arbres d'interès local (Ajuntament de Barcelona) no. 99400455029 (data/registers/barcelona-ail.json), matched on our pin at 0 m (register_match.py, 2026-10-12)."
+      "verify_notes": "Height from Arbres d'interès local (Ajuntament de Barcelona) no. 99400455029 (data/registers/barcelona-ail.json), matched on our pin at 0 m (register_match.py, 2026-10-12).",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Casuarina_del_Parc_de_la_Ciutadella3.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Herodotptlomeu, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1536,
+          "height": 2048,
+          "taken_month": 7
+        }
+      ]
     },
     {
       "id": "bcn_012",

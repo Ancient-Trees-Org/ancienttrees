@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Ginkgo of Kuhonbutsu live in Tokyo; a reader's photo leads the Barcelona casuarina
+
+- **New tree from a reader**: **The Ginkgo of Kuhonbutsu** (tokyo/tok_023), in autumn gold at Joshin-ji, Setagaya. The reader's GPS fix is in the temple grounds. Their photographs show the stone post (都天然記念物 九品仏のイチョウ) and the Setagaya 名木百選 plaque (selected 1987, reselected 2020), and the Tokyo register lists the designation (1963). Two more of their photos are in its strip. A Japanese overlay entry was written for it, and the counts in the Tokyo texts now follow the trees: 23 trees and 10 ginkgos. The English intro said "seven ginkgos" and the Japanese one said "16 trees, 6 ginkgos"; both were already stale. Built by out/tmp/build_reader_tree_2026_11_18c.py, not committed. The Kaya at the same temple stays a lead in data/leads/tokyo.json.
+- **Photos on our trees**: the Casuarina of the Cascada (bcn_011) now has a reader's photo of the whole tree as its lead, and the old one moved to the strip. The same frame was sent three times, so two copies were rejected as duplicates. Fertőújlak fbcb3c91 was rejected because the same photo by the same reader already leads fuj_001.
+- No open reports, no tips without a photograph, no feedback waiting. reader_words: nothing new.
+- preflight 0 problems, qa --source-only clean, i18ncheck ja/tokyo clean.
+
 ## 2026-11-18 reader judge: five more readers' trees live, a reader's photo leads the Ueno camphor
 
 - **New trees from readers** (every photograph viewed; written by out/tmp/build_reader_trees_2026_11_18.py, not committed):
