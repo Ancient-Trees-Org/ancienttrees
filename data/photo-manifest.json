@@ -640,6 +640,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bcn_011-the-casuarina-of-the-cascada-d692d0b9.jpg": {
+   "base": "bcn_011-the-casuarina-of-the-cascada-d692d0b9",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/f/f2/Casuarina_del_Parc_de_la_Ciutadella3.JPG": {
    "base": "bcn_011-the-casuarina-of-the-cascada",
    "widths": [
@@ -1522,6 +1528,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bri_023-red-barked-conifer-of-bishops-knoll.jpg": {
+   "base": "bri_023-red-barked-conifer-of-bishops-knoll",
+   "widths": [
+    500
+   ]
+  },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/368957582/large.jpg": {
    "base": "brq_002-the-old-town-gate-oak",
    "widths": [
@@ -1903,6 +1915,12 @@
   },
   "https://ancienttrees.app/photos/cnx_002-fig-that-holds-the-stones.jpg": {
    "base": "cnx_002-fig-that-holds-the-stones",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cnx_003-bodhi-tree-at-sunset.jpg": {
+   "base": "cnx_003-bodhi-tree-at-sunset",
    "widths": [
     500
    ]
@@ -2978,6 +2996,12 @@
   },
   "https://ancienttrees.app/photos/fer_006-oak-of-parco-massari.jpg": {
    "base": "fer_006-oak-of-parco-massari",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/fuj_001-knotted-tree-of-mexik-puszta.jpg": {
+   "base": "fuj_001-knotted-tree-of-mexik-puszta",
    "widths": [
     500
    ]
@@ -4095,6 +4119,24 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/how_001-the-great-banyan.jpg": {
+   "base": "how_001-the-great-banyan",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/how_001-the-great-banyan-extra1.jpg": {
+   "base": "how_001-the-great-banyan-extra1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/how_001-the-great-banyan-extra2.jpg": {
+   "base": "how_001-the-great-banyan-extra2",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/hum_001-the-giant-tree.jpg": {
    "base": "hum_001-the-giant-tree",
    "widths": [
@@ -4437,6 +4479,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/2/2a/ZeravObrovsk%C3%BDKintai01.jpg": {
    "base": "kin_001-the-great-thuja-of-kintai",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/kis_001-kapok-of-the-kisantu-botanic-garden.jpg": {
+   "base": "kis_001-kapok-of-the-kisantu-botanic-garden",
    "widths": [
     500
    ]
@@ -5035,6 +5083,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/8/80/Limmersdorf_Tanzlinde_2014_%284%29.JPG": {
    "base": "lmd_001-tanzlinde-limmersdorf",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lne_001-tall-trunk-of-wilderness-park.jpg": {
+   "base": "lne_001-tall-trunk-of-wilderness-park",
    "widths": [
     500
    ]
@@ -9607,6 +9661,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tok_003-the-ueno-toshogu-camphor-094b9a62.jpg": {
+   "base": "tok_003-the-ueno-toshogu-camphor-094b9a62",
+   "widths": [
+    500
+   ]
+  },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/271440441/medium.jpg": {
    "base": "tok_003-the-ueno-toshogu-camphor",
    "widths": [
@@ -9699,6 +9759,24 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/b/bd/Camphor_tree_in_Hong%C5%8D%2C_Tokyo_201504_01.jpg": {
    "base": "tok_022-the-camphor-tree-of-hongo-yumicho",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu.jpg": {
+   "base": "tok_023-ginkgo-of-kuhonbutsu",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-crown.jpg": {
+   "base": "tok_023-ginkgo-of-kuhonbutsu-crown",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-stone-post.jpg": {
+   "base": "tok_023-ginkgo-of-kuhonbutsu-stone-post",
    "widths": [
     500
    ]
