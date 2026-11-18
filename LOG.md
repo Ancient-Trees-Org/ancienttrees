@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: a third photograph of the Pawling Farm sycamore
+
+- **Live: the finder's new photograph of vfg_001, the Pawling Farm sycamore in Valley Forge** (sighting 79399d95). I looked at it: the huge burred trunk base and the mottled white limbs above it, in daylight, with a person seen from behind for scale. Species and description both match. It went in as `strip`, so it sits in the gallery behind the wide lead photograph and does not replace it. The pin was already confirmed, so it stays where it is; the pin catch-up step hit HTTPError again.
+- Nothing else was waiting. There were no open reports, no tips without a verdict, no feedback without a verdict and no reader notes to quote. The 37 `lead` rows from our own account (`mine`) were left alone, as in earlier runs.
+
 ## 2026-11-18 reader judge: the Camperdown Cemetery Fig has its first photograph
 
 - A reader's photograph of syd_005, the Camperdown Cemetery Fig in Sydney (viewed: the buttress-rooted Moreton Bay fig among the headstones, daylight, colour), is now its lead photograph. The tree had none before. The pin stays as it was: the photo's coordinate was our own pin, not a GPS fix.

@@ -102,6 +102,28 @@
    "agreed": null
   },
   {
+   "id": "sight:79399d95-56b8-4b54-9f84-0af78aaa3973",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Sprawling Sycamore of Pawling Farm",
+   "city": "Valley Forge",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/79399d95-56b8-4b54-9f84-0af78aaa3973.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Into vfg_001's gallery behind the lead: the sycamore's huge burred trunk base with its mottled white limbs, daylight, a person beside it for scale",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

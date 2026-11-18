@@ -4619,6 +4619,17 @@
    "date": "2026-11-18",
    "tree_id": "vfg_001",
    "reason": "No tree in frame: the National Park Service entrance sign for Pawling Farm, not the tree or a sign of the tree's own. The tree already carries this reader's photographs."
+  },
+  "79399d95-56b8-4b54-9f84-0af78aaa3973": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "vfg_001",
+   "city_slug": "valley-forge",
+   "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-79399d95.jpg",
+   "reason": "The sycamore's huge burred trunk base in daylight, with its white and grey mottled limbs above and a person (back turned) beside it for scale; a trunk close-up that shows its size, so it goes in the strip behind the wide lead. Species seen: plane bark flaking white and grey on the upper limbs, scaly",
+   "lat": 40.110369,
+   "lon": -75.458342,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

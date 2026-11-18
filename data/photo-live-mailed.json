@@ -637,6 +637,15 @@
      "city_slug": "valley-forge",
      "display_name": null,
      "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
+     "tree_id": "vfg_001",
+     "tree_name": "The Sprawling Sycamore of Pawling Farm",
+     "city": "Valley Forge",
+     "city_slug": "valley-forge",
+     "display_name": null,
+     "live": "2026-11-18"
     }
    ],
    "sent": [
