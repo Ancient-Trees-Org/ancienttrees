@@ -850,6 +850,59 @@
    "agreed": null
   },
   {
+   "id": "sight:tip-709",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A giant sequoia",
+   "photo": "p_37416ead21cbdc89843773fd/3a5fb958-9479-44f0-8a72-9f80e924673d.jpg",
+   "reader_note": "Huge redwood in the middle of an urban park, planted in the gardens of a former house in its grounds.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: looking straight up a huge flaring red-brown sequoia trunk patched with moss under a crown of curling limbs, overcast daylight, colour. Lead photograph of worthing/wor_001 under the closed list (Hidde, 2026-11-17/18).",
+   "hidde": null,
+   "agreed": null,
+   "shown": []
+  },
+  {
+   "id": "lead:3c544597-4706-4a7e-8e3c-973dded16385",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_6312cf4c9007b0fcfae9011c/3C544597-4706-4A7E-8E3C-973DDED16385.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1175",
+   "seen": "2026-11-18",
+   "kind": "a tip without a photograph",
+   "tree": "D419093C-142B-4FB7-9A9D-962863C404A1",
+   "city": "Geneva",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "GPS fix at the tree on Mont Mourex (Grilly, Ain, about 25 km from Geneva), words only: its app sighting no longer exists so no photograph reached us; no source and no species. Recorded in data/leads/geneva.json; a photograph would put it live. Draft reply asking for one in drafts/.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",
@@ -8519,19 +8572,6 @@
     "2026-11-17",
     "2026-11-18"
    ]
-  },
-  {
-   "id": "sight:tip-709",
-   "seen": "2026-11-18",
-   "kind": "a tree we do not map",
-   "tree": "A giant sequoia",
-   "photo": "p_37416ead21cbdc89843773fd/3a5fb958-9479-44f0-8a72-9f80e924673d.jpg",
-   "reader_note": "Huge redwood in the middle of an urban park, planted in the gardens of a former house in its grounds.",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-18: looking straight up a huge flaring red-brown sequoia trunk patched with moss under a crown of curling limbs, overcast daylight, colour. Lead photograph of worthing/wor_001 under the closed list (Hidde, 2026-11-17/18).",
-   "hidde": null,
-   "agreed": null,
-   "shown": []
   },
   {
    "id": "lead:tip-709",

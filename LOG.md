@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: Mont Mourex tip recorded as a lead, nothing went live
+
+- **Tip 1175** ("The biggest and oldest tree on Mont Mourex", GPS fix at the tree above Grilly, Ain, about 25 km from Geneva): the app sighting it came with no longer exists, so no photograph reached us, and no source or species. Verdict `lead`, recorded in data/leads/geneva.json. None of hold_reply.py's standard mails fits a tip without a photo, so a suggested reply asking them to send it again waits in drafts/reply-reader-1175-2026-11-18.md (For Hidde: send or bin).
+- **Sighting 3c544597** (Amsterdam, near ams_032, our own account `mine`): photograph not on disk, left unjudged for the next run, never judged blind.
+- 0 open reports, 0 open feedback, 0 reader notes to quote. The other waiting `mine` leads are our own test photographs, not readers'.
 ## 2026-11-18 (session): Android closed test submitted to Google
 
 - **Android 0.1.0 (2) sent for review in Play Console, closed test "Alpha"** (Hidde's yes in chat; his two tester lists, 177 countries). Google's review usually takes hours to days; the 14-day clock for a personal account starts when it is live. Updates during the test do not restart it.
