@@ -1575,6 +1575,50 @@
    "agreed": null
   },
   {
+   "id": "sight:1d8d8c2e-a5ad-45d4-ba5f-72956149bc7c",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Copper Beech of the Antonius Abtkerk",
+   "city": "Nijmegen",
+   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+   "photo": "out/sightings/1d8d8c2e-a5ad-45d4-ba5f-72956149bc7c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "reader's lead photograph (b496e5e0)",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech (Fagus sylvatica f. purpurea)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: the same beech trunk from below with the red-brick Sint Antonius Abtkerk right behind it. Stays in the gallery of nij_017 behind the full-tree lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e23fe779-5876-4cd3-9fab-c50f7e28dcda",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Copper Beech of the Antonius Abtkerk",
+   "city": "Nijmegen",
+   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+   "photo": "out/sightings/e23fe779-5876-4cd3-9fab-c50f7e28dcda.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "reader's lead photograph (b496e5e0)",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech (Fagus sylvatica f. purpurea)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at the photograph: straight up the same beech trunk to its fork, autumn leaves. Stays in the gallery of nij_017.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

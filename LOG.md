@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: two more Nijmegen beech photographs judged
+
+- The same reader's other two photographs of nij_017 were already in the gallery from the knock's live-first step: the trunk with the red-brick church right behind it, and a view straight up the trunk to the fork. Both are looked at and judged the same tree (smooth grey beech bark, the church beside it). They stay in the gallery behind the lead. This run overlapped the one above and started on the same three photographs; its duplicate commit was dropped, and only these two verdicts were added.
+- 3c544597 (our own account, `mine`) is still unjudged and not on this machine. Nothing else waits.
+
 ## 2026-11-18 reader judge: the Nijmegen copper beech gets its first photograph
 
 - **Photo live**: The Copper Beech of the Antonius Abtkerk (nijmegen/nij_017) had no photograph. A reader sent one from the tree's page. It shows one big beech in coppery autumn leaf with a smooth grey trunk, on the planted strip beside the red-brick church and rectory buildings on the street. It is now the lead photo (sighting b496e5e0, through sightings_publish.py). The light scored WEAK, but a reader's photograph is never refused on light. The pin was not moved, because the row's position was our own pin and not a GPS fix.
