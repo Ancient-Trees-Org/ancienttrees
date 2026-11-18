@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-18 reader judge: overlapped a parallel run, nothing new
+
+- Judged the same Fort Greene elm photograph (approve, same reading) but the run above had already pushed it; its version kept, this run's commit dropped.
+- Still left: lead 3c544597 (Amsterdam, near ams_032), sent from one of our own accounts (`mine`); fetch_waiting_photos skips it, so its photograph is not on disk and it was not judged blind.
+
 ## 2026-11-18 reader judge: Fort Greene elm photographed and re-pinned
 
 - Product: The English Elm of Fort Greene Park (nyc_027, New York) has its first photograph, a reader's, and its pin moved 153 m to their GPS fix, now confirmed. The open "wrong location" report on it (1000085) closed with the pin thank-you.
