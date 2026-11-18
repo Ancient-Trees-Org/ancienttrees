@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge (third, in parallel): the last two Edinburgh Gardens sightings rejected as duplicates
+
+- This run judged the same queue as the run below and came to the same three verdicts (mel_001, tok_005, 47b1b1f2). That run pushed first, so its versions stand. I added only the two sightings it left without a verdict.
+- Rejected as duplicates, after comparing image hashes with what is already live:
+  - 69ef60d5 (sent for mel_002) and c650049c (sent for mel_013) both have the backlit gum as their main photograph, the frame held `wrong_tree` this morning as 86a63f45.
+  - 69ef60d5's extra is mel_019's lead photograph.
+  - c650049c's extra is a new frame of mel_019 by the skate bowl, with a bicycle in it. It could join mel_019's strip, but the publisher only handles a sighting's main file.
+- The 37 `status: "lead"` rows in data/leads/_sightings.json are all our own photographs (`mine`), not readers' trees, and their files are not on this machine.
+
 ## 2026-11-18 reader judge (second, in parallel): Melbourne's finer holm oak gets its first photograph, a reader's photo leads the Shiba Toshogu ginkgo
 
 - **Live: mel_001, the Finer Holm Oak of Edinburgh Gardens, has its first photograph** (sighting 976d3d1b). It shows a thick dark trunk among lighter park trees, beside a club building, 43 m from our confirmed pin. A second register holm oak stands 50 m from the fix. I went with ours because it matches the recognition line ("near the bowling club") and the reader picked it. Its story is now indexed, so I rewrote its two colon reveals as plain sentences. The preflight check for colon reveals had refused them.

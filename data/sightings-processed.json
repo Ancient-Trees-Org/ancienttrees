@@ -4709,6 +4709,18 @@
    "lat": 35.6551883333333,
    "lon": 139.748991666667,
    "pin_checked": "2026-11-18"
+  },
+  "69ef60d5-e531-4134-af75-832cf205c156": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_002",
+   "reason": "Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45 (same frame as c650049c), and its extra is identical to mel_019's lead. Not the smooth red gum mel_002."
+  },
+  "c650049c-8566-42f4-a558-58fa5557fa44": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "mel_013",
+   "reason": "Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45, not the rough-barked Southern Mahogany. Its extra is a new frame of mel_019 by the skate bowl (with a bicycle), which could join mel_019's strip."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

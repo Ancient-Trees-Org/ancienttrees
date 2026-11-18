@@ -15440,6 +15440,50 @@
    "reason": "On tok_005 as the lead (the Commons photograph moves to the strip): the stone post reads 天然紀念物 芝東照宮公孫樹, the Shiba Toshogu ginkgo itself.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:69ef60d5-e531-4134-af75-832cf205c156",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Remnant River Red Gum of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "River Red Gum (Eucalyptus camaldulensis)",
+   "photo": "out/sightings/69ef60d5-e531-4134-af75-832cf205c156.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River Red Gum (Eucalyptus camaldulensis)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected as a duplicate. Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45 (same frame as c650049c), and its extra is identical to mel_019's lead. Not the smooth red gum mel_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c650049c-8566-42f4-a558-58fa5557fa44",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Southern Mahogany of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Southern Mahogany (Eucalyptus botryoides)",
+   "photo": "out/sightings/c650049c-8566-42f4-a558-58fa5557fa44.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 91,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Mahogany (Eucalyptus botryoides)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected as a duplicate. Duplicate: the main photograph is the backlit gum frame already held wrong_tree as 86a63f45, not the rough-barked Southern Mahogany. Its extra is a new frame of mel_019 by the skate bowl (with a bicycle), which could join mel_019's strip.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
