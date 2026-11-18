@@ -552,9 +552,10 @@
    "file": "scripts/vendor_photos.py",
    "summary": "Readers' photographs had no 500 copy: New from visitors tiles and the tree strip loaded the 1600px original and the browser shrank it seven times (soft, shimmering leaves, 750 KB a tile)",
    "first_seen": "2026-11-18",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/qa.py check_every_own_photo_has_a_card_copy (deploy, after the copies step)"
+   "test": "scripts/qa.py check_every_own_photo_has_a_card_copy (deploy, after the copies step)",
+   "fixed_in": "ba0575b69"
   }
  ]
 }

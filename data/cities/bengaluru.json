@@ -13,27 +13,30 @@
       "species": "Rain Tree (Samanea saman)",
       "location": {
         "address": "National Gallery of Modern Art, Palace Road, Bengaluru",
-        "latitude": 12.9998783333333,
-        "longitude": 77.5939633333333,
+        "latitude": 12.989066,
+        "longitude": 77.588347,
         "neighbourhood": "Vasanth Nagar"
       },
-      "story": "A reader sent us this rain tree from the garden of the National Gallery of Modern Art in Bengaluru, with a GPS fix taken at its foot, and named it simply \"Rain tree, National Gallery of Modern Art.\"\n\nThe photograph shows why it earned a place. A thick, deeply ridged trunk rises only a short way before it divides into a dozen long limbs that fan upward and outward, spreading so far that the crown seems to fill the whole sky above the lawn. The branches are dark and gnarled and stay bare of leaf for a long stretch before they break into fine green foliage high overhead. Rain trees, Samanea saman, came to India from tropical America and have been planted along the avenues and in the gardens of old Bengaluru for generations, and the finest of them take exactly this umbrella shape.\n\nThe reader gave no age or girth, and we have none to offer from a source. If you know when this tree was planted, or the gallery's own story of it, tell us here and we will add it.\n\nStand under the crown and look up through the limbs to see how far they reach.",
+      "story": "A reader sent us this rain tree from the garden of the National Gallery of Modern Art in Bengaluru and named it simply \"Rain tree, National Gallery of Modern Art.\"\n\nThe photograph shows why it earned a place. A thick, deeply ridged trunk rises only a short way before it divides into a dozen long limbs that fan upward and outward, spreading so far that the crown seems to fill the whole sky above the lawn. The branches are dark and gnarled and stay bare of leaf for a long stretch before they break into fine green foliage high overhead. Rain trees, Samanea saman, came to India from tropical America and have been planted along the avenues and in the gardens of old Bengaluru for generations, and the finest of them take exactly this umbrella shape.\n\nThe reader gave no age or girth, and we have none to offer from a source. If you know when this tree was planted, or the gallery's own story of it, tell us here and we will add it.\n\nStand under the crown and look up through the limbs to see how far they reach.",
       "how_to_recognise": "On the lawn inside the gallery grounds: a short, thick, ridged trunk that divides into many long dark limbs fanning out into a very wide crown, a paved path curving past its foot.",
-      "verified_sources": [],
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/121883110 (OpenStreetMap: the National Gallery of Modern Art, Palace Road, Vasanth Nagar, Bengaluru, the grounds where the reader says the tree stands)"
+      ],
       "found_by_reader": {
         "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab",
         "date": "2026-11-18"
       },
-      "verify_notes": "2026-11-18 session: sent by a reader through the app with a GPS fix in the grounds of the National Gallery of Modern Art, Bengaluru (sighting 853a4b12), named 'Rain tree, National Gallery of Modern Art', no age, girth or note. Photograph viewed (plus two more of the crown): the whole rain tree from its thick base up into a wide fan of long limbs, lawn and a paved path in front, cloud-soft daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); no register entry within 100 m and no encyclopaedia article within 300 m. The species is the reader's name, consistent with the photograph (bipinnate crown, umbrella shape). India is out of focus for our own research only, never for a reader's tree.",
+      "verify_notes": "2026-11-18 session: sent by a reader through the app from the grounds of the National Gallery of Modern Art, Bengaluru (sighting 853a4b12; the photograph's own GPS lay 1.3 km north of the museum, so the pin is the reader's hand-placed spot inside the grounds, report 1000083), named 'Rain tree, National Gallery of Modern Art', no age, girth or note. Photograph viewed (plus two more of the crown): the whole rain tree from its thick base up into a wide fan of long limbs, lawn and a paved path in front, cloud-soft daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); no register entry within 100 m and no encyclopaedia article within 300 m. The species is the reader's name, consistent with the photograph (bipinnate crown, umbrella shape). India is out of focus for our own research only, never for a reader's tree.",
       "access": "In the grounds of the National Gallery of Modern Art; the reader photographed it from the garden. Check the gallery's opening hours and entry before you go.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader report",
+        "report": 1000083,
         "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab",
-        "moved_m": 0,
+        "moved_m": 1347,
         "date": "2026-11-18",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "reader report 1000083: the sender moved the pin of their own tree by hand into the grounds of the National Gallery of Modern Art (OpenStreetMap places the museum at 12.9895, 77.5881, bounding box 12.9889 to 12.9900, 77.5876 to 77.5887), 1.3 km from the photograph's own coordinate, which lay off the site. Hand-placed, so approximate."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ben_001-the-rain-tree-of-the-national-gallery-of-modern-art.jpg",
@@ -51,7 +54,7 @@
   ],
   "question_meta": "The rain tree in the grounds of the National Gallery of Modern Art, Bengaluru, sent by a reader: where it stands and what we know.",
   "question_answer": "The Rain Tree of the National Gallery of Modern Art stands in the gallery's grounds in Bengaluru. Check the gallery's opening hours and entry before you go.",
-  "question_context": "A reader sent this rain tree from the grounds of the National Gallery of Modern Art in Bengaluru, with a GPS fix taken at its foot. The photograph shows a thick, deeply ridged trunk that rises only a short way before it divides into a dozen long limbs, fanning up and out into a crown that fills the sky above the lawn. The branches are dark and gnarled and stay bare of leaf for a long stretch before they break into fine green foliage high overhead. Rain trees, Samanea saman, came to India from tropical America and have been planted along the avenues and in the gardens of old Bengaluru for generations, and the finest of them take this umbrella shape. The reader gave no age or girth, and we have none from a source. The way to see it is to visit the gallery's garden during opening hours and stand under the crown.",
+  "question_context": "A reader sent this rain tree from the grounds of the National Gallery of Modern Art in Bengaluru. The photograph shows a thick, deeply ridged trunk that rises only a short way before it divides into a dozen long limbs, fanning up and out into a crown that fills the sky above the lawn. The branches are dark and gnarled and stay bare of leaf for a long stretch before they break into fine green foliage high overhead. Rain trees, Samanea saman, came to India from tropical America and have been planted along the avenues and in the gardens of old Bengaluru for generations, and the finest of them take this umbrella shape. The reader gave no age or girth, and we have none from a source. Our pin marks the gallery grounds, where the sender placed it by hand, not the trunk itself. The way to see it is to visit the gallery's garden during opening hours and stand under the crown.",
   "faq": [
     {
       "q": "Can I visit The Rain Tree of the National Gallery of Modern Art?",

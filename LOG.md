@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 night run (16:36 UTC window): the Bengaluru rain tree, reports closed, one bug row closed
+
+- **New: The Rain Tree of the National Gallery of Modern Art, bengaluru/ben_001** (new one-tree place, India), a reader's tree from the app (sighting 853a4b12), photograph viewed: a wide fan of dark limbs over a lawn, daylight, colour. The photograph's own coordinate lay 1.3 km north of the museum; the reader then moved the pin by hand into the grounds (report 1000083). OpenStreetMap puts the museum at 12.9895, 77.5881 and the hand pin falls inside its box, so that spot is used, approximate, with OSM as the named source. Same as Aihole and Howrah. Report closed `holds`.
+- **Cambridge, Emmanuel plane (cam_011)**: the reader's extra photographs (trunk, layering limbs, autumn gold) are viewed and already in the strip live-first. Report 1000084 (a photo sent from 3.7 km away, "merged") closed `holds`: pin left alone, the photograph's coordinate is too far to trust.
+- **Tree note on Djanet's Tassili cypress** read, kept.
+- **Left alone**: Amsterdam row 3c544597 is ours (`mine`, no photograph on disk), not a reader's tree.
+- **Health**: closed the open WEB bug row (readers' photographs had no 500 copy), already fixed in ba0575b69 with qa's `check_every_own_photo_has_a_card_copy`. Nightly knocks 6 of 12 in 24h (GitHub dropping cron, knock.yml covers it).
+- **Shelf**: no write pass possible. READY is 5 leads (under the six-candidate floor) and the verified-awaiting-a-writer pile is stale or parked. The refill (verify on a staged focus city) did not start in this window.
+
 ## 2026-11-18 reader judge: a new temple fig at Aihole
 
 - **New: The Galaganatha Temple Fig, aihole/aih_001** (new one-tree place, India), a reader's tree from the app with four photographs: a wide, low fig on the ground of the Galaganatha temple group at Aihole with a stone Nandi beside it. The reader calls it an Indian banyan; the species is kept at "Fig (Ficus sp.)" with their name stated as theirs. The photograph's coordinate was 1.9 km off the temples. The reader then moved the pin by hand (report 1000082) onto the spot where the national monuments list places the group, so that spot is used, approximate, as at Howrah. Report closed `holds`, no mail: it is a pin on their own new tree. The congratulation mail waits for the deploy, as tree_approved.py says.

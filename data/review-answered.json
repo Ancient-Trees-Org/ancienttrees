@@ -144,6 +144,10 @@
     "2026-11-16": {
       "note": "Deploy red was the personal address in guimaraes data, already fixed by the Casa de Maride commit and its deploy was running. iOS red (runs 43881121384, 43875951262): jobs never acquired a macOS runner, GitHub capacity, not an app fault; a queued run is pending.",
       "at": "2026-11-16T14:37:19+00:00"
+    },
+    "2026-11-18": {
+      "note": "Open web bug (readers' photographs had no 500 copy) was already fixed in ba0575b69 with check_every_own_photo_has_a_card_copy; row closed.",
+      "at": "2026-11-18T16:42:42+00:00"
     }
   }
 }
