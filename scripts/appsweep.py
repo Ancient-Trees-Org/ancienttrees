@@ -299,6 +299,8 @@ def screens(sub):
         ("city-map-full", ["-tab=0", f'-open=city:{sub["city"]}', "-sheet=full"], 7),
         ("species",       ["-tab=0", f'-open=species:{sub["species"]}'], 5),
         ("collection",    ["-tab=0", f'-open=collection:{sub["collection"]}'], 5),
+        # Every photograph visitors sent, Discover's See all (2026-11-18).
+        ("visitors",      ["-tab=1", "-open=visitors:all"], 6),
         ("place-pin",     ["-tab=0", f'-open=tree:{sub["tree"]}', "-placepin"], 8),
         # A TREE YOU ADDED YOURSELF, added 2026-09-01. The end of the add
         # flow, and until now the one page in the app that no argument here

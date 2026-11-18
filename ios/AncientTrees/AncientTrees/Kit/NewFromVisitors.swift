@@ -34,6 +34,35 @@ enum NewFromVisitors {
         return rows.filter { seen.insert($0.tree_id).inserted }
     }
 
+    /// THE SEE ALL PAGE'S PAGES (Hidde, 2026-11-18: "bouw in nieuw gesprek
+    /// beide", the website's /visitors in the app). Every photograph, not one
+    /// per tree, newest SENT first, by the server's keyset paging
+    /// (supabase/visitor-photos.sql): the row after `after`, so a photograph
+    /// that goes live while somebody scrolls never repeats a tile. Nil when
+    /// the server did not answer; the page then stops where it is.
+    static let pageSize = 24
+
+    static func page(after: Row?, n: Int = pageSize, token: String?) async -> [Row]? {
+        var body: [String: Any] = ["n": n]
+        if let after {
+            body["before_at"] = after.published_at
+            body["before_id"] = after.sighting_id.uuidString.lowercased()
+        }
+        let r = Supa.request("/rest/v1/rpc/visitor_photos", token: token, body: body)
+        guard let (data, resp) = try? await Net.data(for: r),
+              let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
+              let rows = try? JSONDecoder().decode([Row].self, from: data) else { return nil }
+        return rows
+    }
+
+    /// Whose photograph this is, asked again as a signed-in caller after a
+    /// sign-in a name asked for: the row before it in the feed is the cursor
+    /// that returns exactly this one (the website's author(), visitors-page-js).
+    static func author(of row: Row, after prev: Row?, token: String?) async -> String? {
+        await page(after: prev, n: 1, token: token)?
+            .first { $0.sighting_id == row.sighting_id }?.author_id
+    }
+
     /// The photograph this visitor sent, found among the tree's own by the
     /// sightings row the feed names (Photo.sighting), so the tile shows their
     /// picture and not the tree's lead (Hidde, 2026-11-15: "waarom toont hij

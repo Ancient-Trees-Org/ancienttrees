@@ -531,7 +531,6 @@ struct HomeView: View {
         return "\(t.city) · " + (d < 10 ? String(format: "%.1f km", d) : "\(Int(d.rounded())) km")
     }
 
-    private static let visitorLineHeight: CGFloat = 44
     private static let visitorLineRoom: CGFloat = 28
 
     /// A shelf of tree tiles, rounded: see shelf().
@@ -557,51 +556,10 @@ struct HomeView: View {
         }
     }
 
-    @ViewBuilder private func visitorLine(_ r: NewFromVisitors.Row) -> some View {
-        // A generated name ("Green Fig 1965") prints and links like any
-        // other (Hidde, 2026-11-07: "a visitor is weird that its
-        // unclickable just give the link to their made up name"; it was
-        // "A visitor" on 11-06). Only a private profile has no name.
-        let real = r.author_name
-        let name = real ?? "A visitor"
-        let line = HStack(spacing: 5) {
-            Group {
-                if let a = r.author_avatar, let u = URL(string: a) {
-                    AsyncImage(url: u) { $0.resizable().scaledToFill() } placeholder: { Brand.moss.opacity(0.15) }
-                } else {
-                    Text(String(name.prefix(1)))
-                        .font(.system(size: 9, weight: .bold))
-                        .foregroundStyle(Brand.moss)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Brand.moss.opacity(0.15))
-                }
-            }
-            .frame(width: 16, height: 16)
-            .clipShape(.circle)
-            Text(name)
-                .font(.system(size: 12, weight: .medium))
-                .foregroundStyle(Brand.inkSoft)
-                .lineLimit(1)
-        }
-        .frame(width: Self.tileWidth, alignment: .leading)
-        // Apple's 44 points to tap, on a 16 point line: the room hangs below
-        // the name and the shelf takes it back (visitorLineRoom), so nothing
-        // moves on screen and a tap on the photograph above still opens the
-        // tree. Under the label's own element, or the system measures only
-        // the avatar and the name (appfit SMALL on iOS 18, 2026-11-07).
-        .frame(minHeight: Self.visitorLineHeight, alignment: .top)
-        .contentShape(Rectangle())
-        .accessibilityElement(children: .ignore)
-        if real == nil {
-            line.accessibilityLabel(name)
-        } else {
-            Button {
-                openVisitor(r)
-            } label: { line }
-            .buttonStyle(.plain)
-            .accessibilityLabel("\(name), open profile")
-            .accessibilityIdentifier("visitor-name")
-        }
+    /// The line itself lives in VisitorLine (Screens/VisitorPhotos.swift),
+    /// shared with the See all page so the two never drift apart.
+    private func visitorLine(_ r: NewFromVisitors.Row) -> some View {
+        VisitorLine(row: r, width: Self.tileWidth) { openVisitor($0) }
     }
 
     private func tileShelf(_ trees: [Tree], ghosts: Int = 0) -> some View {
@@ -860,7 +818,7 @@ struct HomeView: View {
         // four tiles, so it never stands half empty (Kit/NewFromVisitors).
         let fresh = NewFromVisitors.tiles(visitorRows) { catalogue.tree($0) }
         if fresh.count >= NewFromVisitors.minimum {
-            section("New from visitors") {
+            section("New from visitors", more: .visitors) {
                 shelf {
                     ForEach(fresh, id: \.row.id) { f in
                         VStack(alignment: .leading, spacing: 7) {

@@ -56,6 +56,8 @@ final class ButtonWalk: XCTestCase {
         ("city-full",     ["-tab=0", "-open=city:cadiz", "-sheet=full"]),
         ("species",       ["-tab=0", "-open=species:Aleppo Pine"]),
         ("collection",    ["-tab=0", "-open=collection:ancient-oaks-of-europe"]),
+        // Every photograph visitors sent, Discover's See all (2026-11-18).
+        ("visitors",      ["-tab=1", "-open=visitors:all"]),
     ]
 
     /// Words in a button's identifier or label that mean it must not be

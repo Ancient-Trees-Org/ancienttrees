@@ -73,6 +73,8 @@ final class SweepFrames: XCTestCase {
         ("city-map-full", ["-tab=0", "-open=city:aarhus", "-sheet=full"], nil),
         ("species",      ["-tab=0", "-open=species:Aleppo Pine"], nil),
         ("collection",   ["-tab=0", "-open=collection:ancient-oaks-of-europe"], nil),
+        // Every photograph visitors sent, Discover's See all (2026-11-18).
+        ("visitors",     ["-tab=1", "-open=visitors:all"], "visitor-photos"),
         ("place-pin",    ["-tab=0", "-open=tree:ath_004", "-placepin"], nil),
         // A TREE YOU ADDED YOURSELF, which no list here had (2026-09-01).
         // It is the same page as the one above with a different half of it

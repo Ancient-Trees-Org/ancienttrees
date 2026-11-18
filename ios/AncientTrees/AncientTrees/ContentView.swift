@@ -175,6 +175,9 @@ struct ContentView: View {
         // Somebody else's profile (2026-10-19); with -people-demo, the a1
         // demo person is public and a2 is private.
         case "person": return .person(value)
+        // Every photograph visitors sent, Discover's See all (2026-11-18):
+        // -open=visitors:all.
+        case "visitors": return .visitors
         // A tree of YOURS, which was the last screen here no argument could
         // open. Sightings.demoIDs are the two that -mine-demo always creates.
         case "mine": return UUID(uuidString: value).map { Route.mine($0) }
@@ -489,6 +492,8 @@ struct ContentView: View {
             PeopleView(catalogue: cat)
         case .followList(let followers):
             PeopleView(source: followers ? .followers : .following, catalogue: cat)
+        case .visitors:
+            VisitorPhotosView(catalogue: cat)
         case .treeMap(let id):
             if let t = cat.tree(id) {
                 TreeMapPage(tree: t, catalogue: cat)

@@ -61,6 +61,10 @@ public enum Route: Hashable {
     /// like Find people beside them (Hidde, 2026-11-04: "build this"; Strava,
     /// Polarsteps). They were a sheet with Done. true is followers.
     case followList(followers: Bool)
+    /// EVERY PHOTOGRAPH VISITORS SENT, the See all behind Discover's "New
+    /// from visitors" (Hidde, 2026-11-18), the app's twin of the website's
+    /// /visitors: Screens/VisitorPhotos.swift.
+    case visitors
 
     public enum Index: String, Hashable {
         case cities, countries, species, oldest
