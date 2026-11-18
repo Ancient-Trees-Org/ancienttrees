@@ -20,6 +20,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: nothing new (overlapped a parallel run)
+
+- This run judged the Bengaluru rain tree and the Emmanuel plane photograph (b43d0c0b), but a parallel run had already pushed both (ben_001, entries below). My duplicate was dropped in the rebase.
+- 3c544597 (Amsterdam) came from our own account and its photograph is not on this machine, so it was left alone. No open reports, no unjudged feedback, no unquoted reader notes.
+
 ## 2026-11-18 reader judge: the Makata Shrine cedar live in Narita (tip 1183)
 
 - **narita/nrt_001, The Great Cedar of Makata Shrine: new one-tree place (Japan), live without a photograph.** This is the step the Aihole entry below left for the next window. Tip 1183 is words only, pasted from a chatbot, so none of it is quoted, plus a hand-placed pin. Japanese Wikipedia (麻賀多神社) and travel.co.jp are cited, with Chiba Prefecture's list of Narita designations for the shrine wood (designated 1977-03-08). They give the cedar as about 40 m tall and 8 to 9 m round, and 1,200 to 1,400 years old by tradition. The reader's own 1,400 from the held lead 1bc207e7 is on the page as theirs. The pin is approximate, on their spot in the shrine grounds. The recognition line names it as the thickest cedar in the wood behind the main hall. The held lead now notes that the tree is live and that a photograph of their own would lead the page.
