@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge (second, in parallel): Melbourne's finer holm oak gets its first photograph, a reader's photo leads the Shiba Toshogu ginkgo
+
+- **Live: mel_001, the Finer Holm Oak of Edinburgh Gardens, has its first photograph** (sighting 976d3d1b). It shows a thick dark trunk among lighter park trees, beside a club building, 43 m from our confirmed pin. A second register holm oak stands 50 m from the fix. I went with ours because it matches the recognition line ("near the bowling club") and the reader picked it. Its story is now indexed, so I rewrote its two colon reveals as plain sentences. The preflight check for colon reveals had refused them.
+- **Live: a reader's photograph now leads tok_005, the Shiba Toshogu Ginkgo** (sighting 12844fcf, `add`). The stone post in frame reads 天然紀念物 芝東照宮公孫樹 (Natural Monument, Shiba Toshogu ginkgo). The Commons photograph moved to the strip.
+- **Rejected as a duplicate: 47b1b1f2.** It was sent for the Bidwill Kauri Pine (syd_001). Every frame is the Wishing Tree (syd_006): the GPS is 0 m from its pin and the photo shows its Norfolk Island pine label. The same reader's identical crown and trunk shots already lead and fill its strip.
+- **Overlap.** This run started on the same queue as the entry below and judged the Edinburgh Gardens red gums more cautiously (held). The other run pushed first, so its Melbourne red gum verdicts (mel_002 photograph, the new mel_019), its India hold and its 1128 draft stand. I kept only the three verdicts above, which it had not touched.
+
 ## 2026-11-18 reader judge: Edinburgh Gardens gets its red gum photograph and a new gum
 
 - **Live: the first photograph of mel_002, the Remnant River Red Gum of Edinburgh Gardens, Melbourne** (sighting 83d2e9a2). It shows the whole leaning gum, with smooth, pale, mottled bark down to the ground, in daylight. Its GPS fix is 17 m from our pin, which sits on Yarra register ref 104. One reader sent seven photographs from the park in one walk, all tagged mel_002 or mel_013, and they show three different trees.

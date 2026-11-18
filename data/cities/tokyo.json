@@ -217,13 +217,17 @@
       "access": "Free, shrine grounds open daily",
       "transport": "3 min walk from Shibakoen Station (Toei Mita line)",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Shiba_Toshogu_03.jpg",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Reggaeman, Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/tok_005-the-shiba-toshogu-ginkgo-12844fcf.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1944,
-        "height": 2592,
-        "taken_month": 12
+        "width": 900,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_fd3ccfba74ad26c21b4343f5",
+        "sighting_id": "12844fcf-197d-4db6-8136-4062ef759d78",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The Shiba Toshogu ginkgo itself: the stone post in front reads 天然紀念物 芝東照宮公孫樹 (Natural Monument, Shiba Toshogu ginkgo) and the shrine's interpretive board stands beside it; 35 m from the pin, daylight, trunk to crown in frame. Species seen: ginkgo, fan-shaped leaves just turning yellow-green, massive furrowed trunk. Fits the description: huge old trunk inside a stone-post and chain fence with the designation post and sign, about 21 m crown.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "location_precision": "confirmed",
@@ -240,7 +244,18 @@
       "official_register": {
         "name": "東京都指定文化財 天然記念物 (Tokyo Metropolitan Cultural Properties List, open data), no. 0000000245",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Shiba_Toshogu_03.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Reggaeman, Wikimedia Commons",
+          "status": "approved",
+          "width": 1944,
+          "height": 2592,
+          "taken_month": 12
+        }
+      ]
     },
     {
       "id": "tok_006",

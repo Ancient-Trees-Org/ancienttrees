@@ -4681,6 +4681,34 @@
    "date": "2026-11-18",
    "tree_id": "mel_002",
    "reason": "Duplicate: the same tree by the skate bowl as cf563d69, same reader, same minute; it can join that tree's strip once it is live."
+  },
+  "47b1b1f2-be9e-4c88-837c-beacdbde0c4f": {
+   "outcome": "rejected",
+   "date": "2026-11-18",
+   "tree_id": "syd_001",
+   "reason": "Duplicate: sent for the Bidwill Kauri Pine, but every frame is the Norfolk Island pine of the Wishing Tree (syd_006, GPS 0 m from its pin, the hedge ring and the Araucaria heterophylla label), and the same reader's identical crown and trunk shots are already its lead and strip photographs (4f406924,"
+  },
+  "976d3d1b-1a58-4716-b138-4393ee1fdd27": {
+   "outcome": "published",
+   "date": "2026-11-18",
+   "tree_id": "mel_001",
+   "city_slug": "melbourne",
+   "file": "mel_001-the-finer-holm-oak-of-edinburgh-gardens.jpg",
+   "reason": "A broad holm oak in Edinburgh Gardens, 43 m from the pin, in daylight and colour, filling the frame. Species seen: evergreen oak with small dark leathery leaves, dark heavy trunk dividing low into spreading limbs. Fits the description: very thick dark trunk among lighter-leaved park trees beside a p",
+   "lat": -37.7872921496302,
+   "lon": 144.981801094021,
+   "pin_checked": "2026-11-18"
+  },
+  "12844fcf-197d-4db6-8136-4062ef759d78": {
+   "outcome": "added",
+   "date": "2026-11-18",
+   "tree_id": "tok_005",
+   "city_slug": "tokyo",
+   "file": "tok_005-the-shiba-toshogu-ginkgo-12844fcf.jpg",
+   "reason": "The Shiba Toshogu ginkgo itself: the stone post in front reads 天然紀念物 芝東照宮公孫樹 (Natural Monument, Shiba Toshogu ginkgo) and the shrine's interpretive board stands beside it; 35 m from the pin, daylight, trunk to crown in frame. Species seen: ginkgo, fan-shaped leaves just turning yellow-green, massive",
+   "lat": 35.6551883333333,
+   "lon": 139.748991666667,
+   "pin_checked": "2026-11-18"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

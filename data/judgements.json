@@ -15374,6 +15374,72 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:47b1b1f2-be9e-4c88-837c-beacdbde0c4f",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Bidwill Kauri Pine",
+   "city": "Sydney",
+   "species": "Queensland Kauri (Agathis robusta)",
+   "photo": "out/sightings/47b1b1f2-be9e-4c88-837c-beacdbde0c4f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 380,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Queensland Kauri (Agathis robusta)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: sent for the Bidwill Kauri Pine, but every frame is the Wishing Tree (syd_006, GPS 0 m from its pin, the Norfolk Island pine label); the same images are already its lead and strip photographs. Rejected as a duplicate, nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:976d3d1b-1a58-4716-b138-4393ee1fdd27",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Finer Holm Oak of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/976d3d1b-1a58-4716-b138-4393ee1fdd27.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 43,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "publish",
+   "reason": "On mel_001 as its first photograph: a thick-trunked holm oak among lighter park trees beside a club building, 43 m from the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:12844fcf-197d-4db6-8136-4062ef759d78",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Shiba Toshogu Ginkgo",
+   "city": "Tokyo",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/12844fcf-197d-4db6-8136-4062ef759d78.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 35,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "On tok_005 as the lead (the Commons photograph moves to the strip): the stone post reads 天然紀念物 芝東照宮公孫樹, the Shiba Toshogu ginkgo itself.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

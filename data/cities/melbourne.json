@@ -115,17 +115,24 @@
       "location_precision": "confirmed",
       "access": "Free, always open. Public City of Yarra park, 24 hectares, unrestricted access per the National Trust record.",
       "transport": "Rushall railway station (Mernda line) is about a 3 minute walk from the gardens; tram route 11/112 runs along nearby St Georges Road.",
-      "story": "Edinburgh Gardens has two holm oaks, and the National Trust of Australia has a view about which one to look at. Its Significant Tree Register calls this the finer of the two examples of the species in the gardens, and it is certainly the heavier: the City of Yarra records 177 centimetres of diameter at breast height, which is about 5.56 metres of girth, since that 177 is a width across the trunk and not a measurement around it. That is the thickest trunk here and a record nowhere else: the Trust's own significance statement points to a tree at Talindert, near Camperdown in western Victoria, as the biggest of its kind in Victoria. This one is about 20 metres tall and stands near the bowling club. The same Trust survey, in 2011, recorded its condition as poor and noted that it is overcrowded by nearby elms. Those elms are worth knowing about. Dutch elm disease never reached Australia, and Edinburgh Gardens holds one of the most significant stands of mature elms left in the world, trees of a size Britain and Europe stopped having half a century ago. The oak has been growing up inside all of that. Its age is the register's band, over a hundred years at the 2012 survey, with no planting year on record.",
+      "story": "Edinburgh Gardens has two holm oaks, and the National Trust of Australia has a view about which one to look at. Its Significant Tree Register calls this the finer of the two examples of the species in the gardens, and it is certainly the heavier. The City of Yarra records 177 centimetres of diameter at breast height, which is about 5.56 metres of girth, since that 177 is a width across the trunk and not a measurement around it. That is the thickest trunk here and a record nowhere else, since the Trust's own significance statement points to a tree at Talindert, near Camperdown in western Victoria, as the biggest of its kind in Victoria. This one is about 20 metres tall and stands near the bowling club. The same Trust survey, in 2011, recorded its condition as poor and noted that it is overcrowded by nearby elms. Those elms are worth knowing about. Dutch elm disease never reached Australia, and Edinburgh Gardens holds one of the most significant stands of mature elms left in the world, trees of a size Britain and Europe stopped having half a century ago. The oak has been growing up inside all of that. Its age is the register's band, over a hundred years at the 2012 survey, with no planting year on record.",
       "verified_sources": [
         "City of Yarra Significant Trees register (data/registers/melbourne-yarra-significant-trees.json, ref 120)",
         "https://trusttrees.org.au/tree/VIC/Fitzroy_North/Edinburgh_Gardens_Brunswick_Street (National Trust of Australia Vic, Significant Tree Register)"
       ],
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mel_001-the-finer-holm-oak-of-edinburgh-gardens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_208e853a0292b8f518700a87",
+        "sighting_id": "976d3d1b-1a58-4716-b138-4393ee1fdd27",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: A broad holm oak in Edinburgh Gardens, 43 m from the pin, in daylight and colour, filling the frame. Species seen: evergreen oak with small dark leathery leaves, dark heavy trunk dividing low into spreading limbs. Fits the description: very thick dark trunk among lighter-leaved park trees beside a path, a fenced club building behind, as the recognition line puts it near the bowling club.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it as an evergreen oak with small dark leaves all year among the park's elms, which are bare in winter, on a trunk about 5.56 metres round. It stands near the bowling club in Edinburgh Gardens.",
       "official_register": {
