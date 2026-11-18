@@ -2,38 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-11T20:11:15+00:00",
-   "date": "2026-09-11",
-   "run_id": "34642835966",
-   "minutes": 87.2,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 490,
-   "denials": 23,
-   "denials_source": "permission_denials: Bash, Bash(cat), Bash(env), Bash(for), Bash(git), Bash(grep), Bash(mkdir), Bash(python3), Bash(rm), Bash(tail), Bash(until)",
-   "ended": "success",
-   "tokens": 27836932,
-   "claims_held": [],
-   "commits": 17,
-   "cities_touched": 3,
-   "cities": [
-    {
-     "city": "prague",
-     "trees": 3
-    },
-    {
-     "city": "hallstatt",
-     "trees": 1
-    },
-    {
-     "city": "rome",
-     "trees": 1
-    }
-   ],
-   "trees": 5,
-   "logged": true
-  },
-  {
    "started": "2026-09-11T23:11:31+00:00",
    "date": "2026-09-12",
    "run_id": "34657074128",
@@ -18411,6 +18379,42 @@
    "commits": 6,
    "cities_touched": 0,
    "cities": [],
+   "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-18T18:35:46+00:00",
+   "date": "2026-11-18",
+   "run_id": "44371302600",
+   "minutes": 12.5,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 187,
+   "denials": 2,
+   "denials_source": "permission_denials: Bash(git)",
+   "ended": "success",
+   "tokens": 1841607,
+   "claims_held": [],
+   "commits": 10,
+   "cities_touched": 4,
+   "cities": [
+    {
+     "city": "fortingall",
+     "trees": 0
+    },
+    {
+     "city": "logan-canyon",
+     "trees": 0
+    },
+    {
+     "city": "reelig-glen",
+     "trees": 0
+    },
+    {
+     "city": "salt-lake-city",
+     "trees": 0
+    }
+   ],
    "trees": 0,
    "logged": true
   }
