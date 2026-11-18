@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: a second Stow yew photograph rejected as a duplicate; three tree notes read
+
+- **stw_001, the north door yews of St Edward's, Stow (sighting 0dc02495)**: this is the right tree. It comes from the same reader and the same visit (26 October) as the lead photograph already on the page (ea481510), taken from the same viewpoint a step to the side. I rejected it as a duplicate. Its extra file is a close-up of the roots and the door between the two trunks. It could go in the strip, but the publisher only handles a sighting's main file (the same gap the Edinburgh Gardens run found).
+- **Tree notes (3, all kept and marked read)**:
+  - Setúbal stb_010: a reader asks whether the tree is a Peruvian or a Brazilian pepper. That is a species question for a session to check against the photograph and sources.
+  - Melbourne mel_002 and mel_013: two kind notes from one reader.
+  - No note matched the closed list for hiding.
+- Nothing else was waiting: no open reports, no tips without a verdict, no feedback without a verdict, no reader words to quote. The 37 `mine` leads in _sightings.json were left alone, as in earlier runs. The pin catch-up in sightings_publish could not read coordinates (HTTPError), so the next knock retries it.
+
 ## 2026-11-18 reader judge (third, in parallel): the last two Edinburgh Gardens sightings rejected as duplicates
 
 - This run judged the same queue as the run below and came to the same three verdicts (mel_001, tok_005, 47b1b1f2). That run pushed first, so its versions stand. I added only the two sightings it left without a verdict.
