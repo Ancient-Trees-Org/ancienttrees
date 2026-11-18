@@ -1,0 +1,69 @@
+{
+  "city": "Narita",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Narita is known abroad for its airport and at home for the great temple of Naritasan, but on the quiet north side of the city, in Daikata, stands Makata Shrine and its wood of old cedars, a Chiba Prefecture natural monument. The biggest of them, the great cedar of Kōzu, is about 40 metres tall and said to be well over a thousand years old. A reader told us about it.",
+  "meta_description": "The great cedar of Makata Shrine in Narita, Chiba: about 40 metres tall, said to be 1,200 to 1,400 years old, and how to find it.",
+  "hero_tree_id": "nrt_001",
+  "oldest_tree_id": "nrt_001",
+  "trees": [
+    {
+      "id": "nrt_001",
+      "name": "The Great Cedar of Makata Shrine",
+      "species": "Japanese Cedar (Cryptomeria japonica)",
+      "age_estimate": "1,200 to 1,400 years by tradition; 1,400 by a reader's estimate",
+      "age_min": 1200,
+      "age_max": 1400,
+      "age_basis": "source",
+      "location": {
+        "address": "Makata Shrine (麻賀多神社), 1 Daikata, Narita, Chiba",
+        "latitude": 35.77009,
+        "longitude": 140.27606,
+        "neighbourhood": "Daikata"
+      },
+      "story": "The cedar behind Makata Shrine in Narita is said to be well over a thousand years old, and a reader who wrote to us about it puts it at 1,400. Japanese Wikipedia's account of the shrine gives the age handed down for the Kōzu no Ōsugi, the great cedar of Kōzu, as 1,200 to 1,300 years, and a Japanese travel guide calls it 1,400 and the biggest cedar in eastern Japan. None of them comes from a measured age that we have found, so read every one of those numbers as tradition.\n\nWhat is measured is its size: about 40 metres tall and some eight to nine metres round the trunk, by both accounts. It stands in the shrine's own wood, more than twenty old cedars with evergreen oaks and chinquapins among them, and Chiba Prefecture has protected that wood as a natural monument since 1977. Makata Shrine sits in Daikata, on the quiet north side of Narita, a few kilometres from the airport that most visitors to the city never leave.\n\nWe do not have a photograph of the cedar yet that we may use. If you go, take one of the whole trunk from the ground and send it to us here, with your location, and it will lead this page.\n\nWalk past the main hall and into the trees behind it; the great cedar is the one that makes the others look young.",
+      "how_to_recognise": "In the shrine wood behind the main hall: the cedar far thicker than the twenty-odd others around it, about eight metres round and some 40 metres tall.",
+      "verified_sources": [
+        "https://ja.wikipedia.org/wiki/麻賀多神社 (Makata Shrine: the shrine wood a Chiba Prefecture natural monument since 1977-03-08, 6,386 m2, over twenty cedars with oaks and chinquapins; the Kōzu no Ōsugi said to be 1,200 to 1,300 years old, about 40 m tall, about 8 m round)",
+        "https://www.travel.co.jp/guide/article/6516/ (travel guide: the great cedar in the shrine precinct, 1,400 years, the largest in eastern Japan, 9 m and 40 m)",
+        "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/shitei/shichouson/narita.html (Chiba Prefecture list of designated cultural properties in Narita: 麻賀多神社の森, 1 Daikata, designated 1977-03-08)",
+        "A reader's app tip, 2026-11-18"
+      ],
+      "found_by_reader": {
+        "tip": "app, 2026-11-18"
+      },
+      "verify_notes": "2026-11-18 reader judge: tip 1183, words only, a hand-placed pin at Makata Shrine in Daikata, Narita. Its text is pasted from a chatbot (headings, bullets), so none of it is quoted or used; facts come from the sources listed. The same reader's account sent this tree earlier the same day with a screenshot of somebody else's post (lead 1bc207e7, held not_theirs, the friendly mail went); their own note there gave 1,400 years and 800 cm, and the 1,400 is on the page as theirs. Measurements are a wiki's and a travel guide's, kept out of girth_cm and height_m. Pin: the reader's hand-placed point in the shrine grounds, 60 m from the coordinate of the earlier screenshot; approximate.",
+      "access": "Free. A Shinto shrine precinct, open to visitors; the cedar stands in the shrine wood behind the main hall.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader, placed by hand",
+        "date": "2026-11-18",
+        "note": "Tip 1183: the reader placed the tree on the map by hand in the Makata Shrine grounds, not from a location fix."
+      }
+    }
+  ],
+  "question_meta": "The great cedar of Makata Shrine in Narita, Chiba: about 40 metres tall, said to be 1,200 to 1,400 years old, and how to find it.",
+  "question_answer": "The Great Cedar of Makata Shrine stands in the shrine wood behind the main hall of Makata Shrine, 1 Daikata, Narita, Chiba. The shrine is free to visit.",
+  "question_context": "Makata Shrine stands in Daikata, on the quiet north side of Narita in Chiba Prefecture, a few kilometres from the airport. Behind its main hall grows a wood of more than twenty old cedars, with evergreen oaks and chinquapins among them, which Chiba Prefecture has protected as a natural monument since 1977. The biggest tree in it is the Kōzu no Ōsugi, the great cedar of Kōzu: about 40 metres tall and some eight to nine metres round the trunk, by the accounts we have read. Its age is tradition rather than measurement. Japanese Wikipedia gives the age handed down as 1,200 to 1,300 years, a Japanese travel guide says 1,400 and calls it the largest cedar in eastern Japan, and a reader who told us about it also puts it at 1,400. We do not yet have a photograph of it that we may use. If you visit, a picture of the whole trunk with your location will lead the page.",
+  "faq": [
+    {
+      "q": "Can I visit The Great Cedar of Makata Shrine?",
+      "a": "Yes. It stands in the wood behind the main hall of Makata Shrine in Daikata, Narita, a shrine precinct free to visit."
+    },
+    {
+      "q": "How old is The Great Cedar of Makata Shrine?",
+      "a": "By tradition 1,200 to 1,400 years: Japanese Wikipedia gives 1,200 to 1,300, a travel guide and a reader say 1,400. We have found no measured age."
+    },
+    {
+      "q": "How big is The Great Cedar of Makata Shrine?",
+      "a": "About 40 metres tall and some eight to nine metres round the trunk, by the accounts we have read."
+    }
+  ]
+}

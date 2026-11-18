@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: the Makata Shrine cedar live in Narita (tip 1183)
+
+- **narita/nrt_001, The Great Cedar of Makata Shrine: new one-tree place (Japan), live without a photograph.** This is the step the Aihole entry below left for the next window. Tip 1183 is words only, pasted from a chatbot, so none of it is quoted, plus a hand-placed pin. Japanese Wikipedia (麻賀多神社) and travel.co.jp are cited, with Chiba Prefecture's list of Narita designations for the shrine wood (designated 1977-03-08). They give the cedar as about 40 m tall and 8 to 9 m round, and 1,200 to 1,400 years old by tradition. The reader's own 1,400 from the held lead 1bc207e7 is on the page as theirs. The pin is approximate, on their spot in the shrine grounds. The recognition line names it as the thickest cedar in the wood behind the main hall. The held lead now notes that the tree is live and that a photograph of their own would lead the page.
+- This run also judged the Bengaluru rain tree, the Aihole fig and the Emmanuel plane photographs, but parallel runs had already put all three on main, so their versions stand and mine were dropped at the rebase. Not judged: 3c544597 (our own account, photo not on this runner). Reports open: 0. Feedback without a verdict: 0. Reader words: 0.
+
 ## 2026-11-18 night run (16:36 UTC window): the Bengaluru rain tree, reports closed, one bug row closed
 
 - **New: The Rain Tree of the National Gallery of Modern Art, bengaluru/ben_001** (new one-tree place, India), a reader's tree from the app (sighting 853a4b12), photograph viewed: a wide fan of dark limbs over a lawn, daylight, colour. The photograph's own coordinate lay 1.3 km north of the museum; the reader then moved the pin by hand into the grounds (report 1000083). OpenStreetMap puts the museum at 12.9895, 77.5881 and the hand pin falls inside its box, so that spot is used, approximate, with OSM as the named source. Same as Aihole and Howrah. Report closed `holds`.
