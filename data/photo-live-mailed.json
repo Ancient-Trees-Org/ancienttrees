@@ -2012,34 +2012,26 @@
    ]
   },
   "p_c43376f6c5ee10f1e298c171": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "094b9a62-a6ef-4dac-aa96-6626c74a32a2",
      "tree_id": "tok_003",
-     "tree_name": "The Ueno Toshogu Camphor",
-     "city": "Tokyo",
-     "city_slug": "tokyo",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_ea87c37237a90bc84686676a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-18",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d692d0b9-929c-4599-a852-8929dad58135",
      "tree_id": "bcn_011",
-     "tree_name": "The Casuarina of the Cascada",
-     "city": "Barcelona",
-     "city_slug": "barcelona",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-18"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

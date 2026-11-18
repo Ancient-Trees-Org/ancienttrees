@@ -1175,6 +1175,96 @@
         "The Strangler Fig of the Daintree Discovery Centre"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_91f2bfb867b1664b26521ade",
+      "place_slug": "cambridge",
+      "place_name": "Cambridge",
+      "date": "2026-11-18",
+      "trees": [
+        "The Great Oriental Plane of Emmanuel College"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_729e302d7f04d07965d7a3fc",
+      "place_slug": "chiang-mai",
+      "place_name": "Chiang Mai",
+      "date": "2026-11-18",
+      "trees": [
+        "The Bodhi Tree at Sunset"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_56b3c957f392ac896d07c586",
+      "place_slug": "djanet",
+      "place_name": "Djanet",
+      "date": "2026-11-18",
+      "trees": [
+        "The Tassili Cypress"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_14d68ebe05b368493091ea08",
+      "place_slug": "fertoujlak",
+      "place_name": "Fertőújlak",
+      "date": "2026-11-18",
+      "trees": [
+        "The Knotted Tree of Mexikópuszta"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5c22c3030ca37ddafb789ab6",
+      "place_slug": "howrah",
+      "place_name": "Howrah",
+      "date": "2026-11-18",
+      "trees": [
+        "The Great Banyan"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_2e3d33f1ea27214456be529d",
+      "place_slug": "kisantu",
+      "place_name": "Kisantu",
+      "date": "2026-11-18",
+      "trees": [
+        "The Kapok of the Kisantu Botanic Garden"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d88e3226c3bf7ee8f1c8aa41",
+      "place_slug": "lincoln-nebraska",
+      "place_name": "Lincoln, Nebraska",
+      "date": "2026-11-18",
+      "trees": [
+        "The Tall Trunk of Wilderness Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_697eb4a0c77311e0508c5fb0",
+      "place_slug": "tokyo",
+      "place_name": "Tokyo",
+      "date": "2026-11-18",
+      "trees": [
+        "The Ginkgo of Kuhonbutsu"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_37416ead21cbdc89843773fd",
+      "place_slug": "worthing",
+      "place_name": "Worthing",
+      "date": "2026-11-18",
+      "trees": [
+        "The Giant Sequoia of Lyons Farm"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
