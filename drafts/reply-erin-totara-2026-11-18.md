@@ -1,4 +1,4 @@
-To: erin.hooper@gmail.com
+To: the reader at address hash 657c39809c2d2b97224e (address in Supabase, not in this public repo)
 Subject: Re: Your trees are on Ancient Trees
 Thread: her mail of 2026-11-16 23:11 (NZ time 17 Nov) about the Big Totara's sign
 

@@ -1,4 +1,4 @@
-To: colegravebill@gmail.com
+To: the reader at address hash 9666fec316cb9754409c (address in Supabase, not in this public repo)
 Subject: Re: About what you sent us: The Tassili cypress
 Thread: his reply of 2026-11-16 23:53 UTC with the Google Earth screenshot
 
