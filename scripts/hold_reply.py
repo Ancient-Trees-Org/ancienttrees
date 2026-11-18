@@ -31,7 +31,33 @@ REPLIES = {
         "someone else, and we can't put it live without their permission.\n\n"
         "If you are ever near it, a photo of your own puts it on the map.\n\n"
         "Ancient Trees\nhttps://ancienttrees.app\n"),
+    # Hidde, 2026-11-18: every hold the reader can fix gets a friendly standard
+    # mail ("for all the rightly held ... an automated system"); wording from
+    # the bad-frame reply he approved that day (submission 858) and his line on
+    # private property. Holds a reader cannot change (not_special, dead,
+    # wrong_subject, inappropriate, doubt_info, doubt_photo) get no mail.
+    "bad_frame": (
+        "Thanks for your photo of {name}! We'd love to put it on the map, but the "
+        "photo doesn't show enough of the tree itself.\n\n"
+        "If you're ever passing by again, a photo of the whole tree or its trunk "
+        "would get it live. You can add it with the camera button in the app, or here:\n"
+        "https://ancienttrees.app/contribute\n\n"
+        "Thanks again,\nAncient Trees\n"),
+    "no_location": (
+        "Thanks for {name}! We couldn't work out exactly where it stands.\n\n"
+        "Could you tell us, by replying to this mail? Then we can put it on the map.\n\n"
+        "Thanks again,\nAncient Trees\n"),
+    "not_public": (
+        "Thanks for {name}! It looks like it stands on private property.\n\n"
+        "Can it be seen from a street or path? Then we'll put it on the map with the "
+        "pin at that spot.\n\n"
+        "Thanks again,\nAncient Trees\n"),
+    "wrong_tree": (
+        "Thanks for your photo of {name}! We couldn't tell which tree it shows.\n\n"
+        "Could you tell us which one it is, or where you stood when you took it?\n\n"
+        "Thanks again,\nAncient Trees\n"),
 }
+REPLIES["doubt_location"] = REPLIES["no_location"]
 
 
 def text(reason, name):
