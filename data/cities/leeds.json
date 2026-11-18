@@ -1,0 +1,98 @@
+{
+  "city": "Leeds",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Leeds has a ginkgo that turns bright gold every November in the grounds of a ruined abbey, and a yew in a village pub garden said to be older than the pub itself. Neither is as old as its setting suggests, and we say so on each page. Two trees so far, each with a story and a clear place to stand, and plenty of room for readers to add more and to settle the questions we could not.",
+  "meta_description": "A Kirkstall Abbey ginkgo that turns gold every November and a Bardsey pub yew said to be a thousand years old: two Leeds trees and where to find them.",
+  "hero_tree_id": "lds_003",
+  "question_meta": "The oldest tree in Leeds is said to be the yew at the Bingley Arms in Bardsey, but its thousand years are pub lore. Where to find it and one more.",
+  "question_answer": "The Bingley Arms yew at Bardsey is said to be over a thousand years old, but that is pub lore with no measurement behind it. All we can show is that it is older than the 18th-century pub. The Kirkstall Abbey ginkgo is better documented, planted in the late 19th century according to the abbey's own board.",
+  "question_context": "Leeds has few trees with a measured age, and we list two so far. The Bardsey yew grows in a pub beer garden, and its claim to over a thousand years comes from a travel page, not from a girth, a register entry or a ring count. Wikipedia and the Yorkshire Post say only that it pre-dates the pub, whose stone building is 18th century. The Kirkstall Abbey ginkgo stands outside the Abbot's Lodging and is not medieval, whatever the setting suggests, since the abbey's interpretation board says it was planted in the late 19th century. It turns bright gold each November and draws the local press. No source we found gives a girth for either tree, so a reader who measures them would settle more than anything we can write from a desk. Both can be seen on public ground or from a public house garden, the abbey grounds with opening times to check, and each sits in a different corner of the city, the abbey west of the centre and Bardsey about seven miles to the north-north-east.",
+  "faq": [
+    {
+      "q": "How old is the Kirkstall Abbey ginkgo?",
+      "a": "About 130 years. The abbey's interpretation board says it was planted in the late 19th century, so it is not medieval."
+    },
+    {
+      "q": "Can you visit the Bardsey yew?",
+      "a": "Yes, from the beer garden of the Bingley Arms in Bardsey during pub opening hours. There is no entry fee. Its age of over a thousand years is pub lore, not a measurement."
+    }
+  ],
+  "trees": [
+    {
+      "id": "lds_003",
+      "name": "Kirkstall Abbey ginkgo",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "about 130 years",
+      "age_min": 110,
+      "age_max": 150,
+      "location": {
+        "address": "Outside the Abbot's Lodging, Kirkstall Abbey, Abbey Road, Leeds LS5 3EH",
+        "latitude": 53.82026,
+        "longitude": -1.60636,
+        "neighbourhood": "Kirkstall"
+      },
+      "verified_sources": [
+        "https://www.yorkshireeveningpost.co.uk/whats-on/beautiful-photos-show-the-historical-ginkgo-tree-bursting-into-life-at-leeds-kirkstall-abbey-9355213",
+        "https://www.hmdb.org/m.asp?m=278660",
+        "https://westleedsdispatch.com/in-photos-ginko-tree-lights-up-kirkstall-abbey/",
+        "https://museumsandgalleries.leeds.gov.uk/kirkstall-abbey/"
+      ],
+      "access": "Ruins and grounds of Kirkstall Abbey, run by Leeds Museums and Galleries, set in a public park on the north bank of the River Aire; opening hours and any admission are on the Leeds Museums page (general admission tickets bookable on site), which has not been settled to a price here. Say 'check opening times' on the page.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Abbot's Lodging, Kirkstall Abbey",
+        "radius_m": 30
+      },
+      "curation_status": "flagged",
+      "verify_notes": "Tree stands outside the Abbot's Lodging in the abbey grounds. Age: Yorkshire Evening Post (17 Nov 2026) says it is believed to date from around the late 19th century, when parts of the site were landscaped; the interpretation board transcribed on HMDB marker 278660 says it 'was only planted in the late 19th century' (the board is probably the YEP's source, so these two are not independent on the date). Wording to keep: the tree is NOT medieval despite the setting; a 2017 blog claims the abbot's garden had a ginkgo, not supported by the board. Colonel John North bought the abbey buildings in the late 1800s and gave the ruins and grounds to Leeds Corporation (YEP); no source ties his gift to this planting, do not bridge. Board: many people think the tree has medicinal properties (popular belief). Draws local press each November when it turns bright gold: YEP photo piece 17 Nov 2026 and West Leeds Dispatch 16 Nov 2025, plus a Flickr photo dated 20 Nov 2024 (nigel_turner) show it alive and gold. ALIVE: yes, YEP 17 Nov 2026. PIN: HMDB marker for the Abbot's Lodging board at 53 49.215 N, 1 36.382 W (53.82026,-1.60636), the board mentions the tree 'outside the abbot's lodging'; no tree-level coordinate found (Flickr not geotagged), so approximate on a 30 m site. No girth or height in any source. Season: strong autumn gold, mid to late November per the press pieces (best_time candidate for the writer's phenology check).",
+      "story": "Every November a ginkgo outside the Abbot's Lodging at Kirkstall Abbey turns bright gold, and the local papers send photographers. The Yorkshire Evening Post ran its pictures on 17 November this year, and the West Leeds Dispatch did the same a year earlier.\n\nThe setting is medieval and the tree is not. An interpretation board at the abbey says it was only planted in the late 19th century, and the Evening Post gives the same date, so call it about 130 years old. The board is probably the paper's source, so those two count as one account. A 2017 blog says the abbot's garden had a ginkgo, but the board does not back that up.\n\nThe board adds that many people believe the tree has medicinal properties. It presents that as popular belief, and so do we.\n\nKirkstall Abbey is run by Leeds Museums and Galleries and stands in a public park on the north bank of the River Aire. Check its opening times before you go, because we have not settled whether there is a charge. The pin is the Abbot's Lodging, not a fix at the trunk, and no source gives a girth or a height. If you have measured it, tell us.",
+      "how_to_recognise": "You can recognise it as the ginkgo standing outside the Abbot's Lodging at Kirkstall Abbey, a tree that turns bright gold in November.",
+      "age_basis": "source",
+      "transport": "",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "lds_004",
+      "name": "Bingley Arms yew",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "claimed over a thousand years",
+      "age_min": 300,
+      "age_max": 1000,
+      "location": {
+        "address": "The Bingley Arms, Church Lane, Bardsey, Leeds LS17 9DR",
+        "latitude": 53.88156,
+        "longitude": -1.44829,
+        "neighbourhood": "Bardsey"
+      },
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/The_Bingley_Arms",
+        "https://www.yorkshirepost.co.uk/heritage-and-retro/heritage/meet-the-landlords-of-the-oldest-pub-in-yorkshire-1753500",
+        "https://e2e.bike/yorkshire-ridings/places/bingley-arms-time-to-chill-at-britains-oldest-pub/"
+      ],
+      "access": "Customers' beer garden of a public house open to the public (pub opening hours); no entry fee, the tree is seen from the garden.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Beer garden of the Bingley Arms, Bardsey",
+        "radius_m": 30
+      },
+      "curation_status": "flagged",
+      "verify_notes": "THIN, flagged. Wikipedia: the beer garden is home to a yew tree that pre-dates the Bingley Arms. Yorkshire Post (1 Jul 2019): 'in the beer garden stands a yew tree even older than the pub itself'. e2e.bike (undated page): 'something reckoned to be over a thousand years old, looking pretty youthful'. The over-a-thousand-years figure is a pub-lore estimate, not measured: no girth, no register entry, no Ancient Yew Group record found, and the pub's own age claim (905 to 953) has no historic study behind it (Wikipedia), the stone building is 18th century. Age range here is deliberately broad: age_min 300 is only because the yew pre-dates an 18th-century building; the writer must say 'said to be' and give no sharper number. Wording note: the e2e line says the tree looks 'pretty youthful', i.e. not a hollow giant. ALIVE: thin, latest source naming it is the 2019 Yorkshire Post piece; lifecheck RECENT 2023 for the pub only, not the tree. PIN: OSM pub node 4935984922 at 53.8815587,-1.4482891; the tree's position inside the garden is not known, so approximate on a 30 m site. Bardsey is in the City of Leeds district, about 7 miles NNE of the centre. Ask the reader for girth. A photograph or a reader's GPS would upgrade it.",
+      "story": "A yew in the beer garden of the Bingley Arms at Bardsey is said to be over a thousand years old. Treat that as pub lore. The figure comes from a travel page about the pub, with no girth, no register entry and no ring count behind it.\n\nWikipedia and the Yorkshire Post say something safer, that the yew is older than the pub. The pub claims origins in the 900s, but Wikipedia notes no historical study behind that claim, and the stone building is 18th century. So the evidence supports a tree of at least a few hundred years, and we give it a wide range. The same travel page also says the yew looks pretty youthful for its supposed age, so do not expect a hollow giant.\n\nThe Bingley Arms is a public house. You see the tree from its garden in pub opening hours, with no entry fee. Bardsey lies in the City of Leeds district, about seven miles north-north-east of the centre.\n\nThe latest source we found that names the tree is a Yorkshire Post piece from 2019, and our pin is the pub, not the trunk. If you visit, tell us how big the yew is and whether it is still there.",
+      "how_to_recognise": "You can recognise it as the old yew in the beer garden of the Bingley Arms on Church Lane in Bardsey.",
+      "age_basis": "source",
+      "transport": "",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ]
+}

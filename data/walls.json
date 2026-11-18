@@ -280,6 +280,11 @@
       "slug": "guimaraes",
       "kind": "verify",
       "released_at": "2026-11-17T17:34:58+00:00"
+    },
+    {
+      "slug": "sheffield",
+      "kind": "verify",
+      "released_at": "2026-11-18T00:06:23+00:00"
     }
   ]
 }
