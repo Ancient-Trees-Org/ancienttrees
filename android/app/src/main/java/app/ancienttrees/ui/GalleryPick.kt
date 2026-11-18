@@ -1,10 +1,17 @@
-// Photographs from the phone: Android's own photo picker, the standard route.
+// Photographs from the phone, with the place the camera wrote into them.
 //
-// Tried and dropped the same day (2026-11-17): Samsung Gallery through ACTION_PICK,
-// to keep the GPS the picker may leave out; on Hidde's Samsung it answered "error
-// getting selected file". The picker's "1 photo unavailable" is the picker failing
-// to fetch a photograph that lives only in the cloud; the others come through. A
-// photograph without its place gets "Where does it stand?" in the flow.
+// Measured on the emulator, 2026-11-18, with a photo carrying GPS (Baarn town hall):
+// - Android's photo picker strips the GPS and refuses the original outright
+//   ("Require Original is not supported for Picker URI"), with or without
+//   ACCESS_MEDIA_LOCATION: every gallery photo arrived as "Where does it stand?";
+// - Samsung Gallery through ACTION_PICK answered "error getting selected file";
+// - the documents UI (ACTION_OPEN_DOCUMENT) hands the file with its GPS once the app
+//   holds ACCESS_MEDIA_LOCATION ("Allow all" on Android's photos question; "limited"
+//   with nothing selected does not grant it).
+// So the documents UI, and the place asked for once, right after the first photo is
+// chosen, when the question has a reason on screen (Hidde, 2026-11-18: "belangrijk
+// dat we gps krijgen"). A refusal still lets the photo through: the flow asks where
+// it stands, as before. The app never reads the library, only the files chosen.
 
 package app.ancienttrees.ui
 
@@ -21,19 +28,17 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 
 class GalleryPick(private val max: Int) : ActivityResultContract<Unit, List<Uri>>() {
     override fun createIntent(context: Context, input: Unit): Intent =
-        // ANDROID'S OWN PHOTO PICKER, the standard every app on the phone uses (AllTrails,
-        // Google's guidance). Samsung Gallery through ACTION_PICK answered "error getting
-        // selected file" on Hidde's Samsung (2026-11-17). A photograph that arrives
-        // without its place gets the flow's "Where does it stand?" (FlowWalk's
-        // aLibraryPhotoWithoutAPlaceAsksWhereItStands).
-        ActivityResultContracts.PickMultipleVisualMedia(maxOf(2, max))
-            .createIntent(context, PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+        Intent(Intent.ACTION_OPEN_DOCUMENT)
+            .addCategory(Intent.CATEGORY_OPENABLE)
+            .setType("image/*")
+            .putExtra(Intent.EXTRA_ALLOW_MULTIPLE, max > 1)
 
     override fun parseResult(resultCode: Int, intent: Intent?): List<Uri> {
         if (resultCode != android.app.Activity.RESULT_OK || intent == null) return emptyList()
@@ -57,8 +62,21 @@ fun mayReadPhotoPlace(context: Context): Boolean =
 fun rememberGalleryPick(max: Int, onPicked: (List<Uri>) -> Unit): () -> Unit {
     val context = LocalContext.current
     val handler by rememberUpdatedState(onPicked)
-    val pick = rememberLauncherForActivityResult(GalleryPick(max)) { handler(it) }
-    // No permission first: the picker needs none, and asking for the photographs'
-    // place made Android ask for access to every photo (seen on the emulator).
+    var pending by androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf<List<Uri>>(emptyList()) }
+    val place = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {
+        val chosen = pending
+        pending = emptyList()
+        handler(chosen)
+    }
+    val pick = rememberLauncherForActivityResult(GalleryPick(max)) { uris ->
+        val prefs = context.getSharedPreferences("device", Context.MODE_PRIVATE)
+        if (uris.isNotEmpty() && !mayReadPhotoPlace(context) && !prefs.getBoolean("photo_place_asked", false)) {
+            prefs.edit().putBoolean("photo_place_asked", true).apply()
+            pending = uris
+            place.launch(Manifest.permission.ACCESS_MEDIA_LOCATION)
+        } else {
+            handler(uris)
+        }
+    }
     return { pick.launch(Unit) }
 }

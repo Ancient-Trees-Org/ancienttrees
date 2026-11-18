@@ -18,6 +18,32 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 object CameraRoll {
+    /**
+     * The phone's last fix written into the copy when the camera app wrote none, as
+     * the iPhone's CameraRoll.keep sets the asset's location (Hidde, 2026-11-18:
+     * "belangrijk dat we gps krijgen"). Never over a position the camera wrote.
+     */
+    @android.annotation.SuppressLint("MissingPermission")
+    private fun withPlace(context: Context, raw: ByteArray): ByteArray = runCatching {
+        val tmp = java.io.File.createTempFile("roll", ".jpg", context.cacheDir)
+        try {
+            tmp.writeBytes(raw)
+            val exif = androidx.exifinterface.media.ExifInterface(tmp)
+            if (exif.latLong != null) return@runCatching raw
+            val lm = context.getSystemService(Context.LOCATION_SERVICE) as android.location.LocationManager
+            val fix = listOf(android.location.LocationManager.GPS_PROVIDER, android.location.LocationManager.NETWORK_PROVIDER)
+                .mapNotNull { p -> runCatching { lm.getLastKnownLocation(p) }.getOrNull() }
+                .maxByOrNull { it.time } ?: return@runCatching raw
+            // Only a fresh fix: a position from an hour ago is not where the shutter fell.
+            if (System.currentTimeMillis() - fix.time > 10 * 60_000L) return@runCatching raw
+            exif.setLatLong(fix.latitude, fix.longitude)
+            exif.saveAttributes()
+            tmp.readBytes()
+        } finally {
+            tmp.delete()
+        }
+    }.getOrDefault(raw)
+
     suspend fun keep(context: Context, raw: ByteArray) = withContext(Dispatchers.IO) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) return@withContext
         runCatching {
@@ -29,7 +55,7 @@ object CameraRoll {
                 put(MediaStore.Images.Media.IS_PENDING, 1)
             }
             val uri = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values) ?: return@runCatching
-            resolver.openOutputStream(uri)?.use { it.write(raw) }
+            resolver.openOutputStream(uri)?.use { it.write(withPlace(context, raw)) }
             values.clear()
             values.put(MediaStore.Images.Media.IS_PENDING, 0)
             resolver.update(uri, values, null, null)
