@@ -8521,6 +8521,19 @@
    ]
   },
   {
+   "id": "sight:tip-709",
+   "seen": "2026-11-18",
+   "kind": "a tree we do not map",
+   "tree": "A giant sequoia",
+   "photo": "p_37416ead21cbdc89843773fd/3a5fb958-9479-44f0-8a72-9f80e924673d.jpg",
+   "reader_note": "Huge redwood in the middle of an urban park, planted in the gardens of a former house in its grounds.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-18: looking straight up a huge flaring red-brown sequoia trunk patched with moss under a crown of curling limbs, overcast daylight, colour. Lead photograph of worthing/wor_001 under the closed list (Hidde, 2026-11-17/18).",
+   "hidde": null,
+   "agreed": null,
+   "shown": []
+  },
+  {
    "id": "lead:tip-709",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",
@@ -8536,8 +8549,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "lead",
-   "reason": "A giant sequoia in Lyons Farm Open Space, Worthing: good upward trunk photograph, but sent from the website with no GPS fix and no written source names the tree; waits for where in the park it stands or a fix from the app",
+   "verdict": "publish",
+   "reason": "Live as worthing/wor_001: the reader's trunk-up photograph of a huge flaring sequoia, placed in Lyons Farm Open Space on their mail answer; approximate pin on the park.",
    "hidde": null,
    "agreed": null,
    "shown": [

@@ -1,0 +1,69 @@
+{
+  "city": "Worthing",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Worthing is a seaside town on the West Sussex coast, between the South Downs and the Channel. In Lyons Farm Open Space, a small park in Broadwater, stands a giant sequoia planted in the gardens of a house that once stood there, its trunk flaring wide at the foot under a crown of curling limbs. A reader photographed it and sent it to us; who planted it, and when, we would like to know.",
+  "meta_description": "The giant sequoia in Lyons Farm Open Space, Worthing, sent by a reader: a huge flaring trunk in a town park, where it stands and what we know.",
+  "hero_tree_id": "wor_001",
+  "oldest_tree_id": "wor_001",
+  "question_meta": "The giant sequoia in Lyons Farm Open Space, Worthing, sent by a reader: a huge flaring trunk in a town park, where it stands and what we know.",
+  "question_answer": "The Giant Sequoia of Lyons Farm stands in Lyons Farm Open Space, a public park in Broadwater, Worthing. It is free to visit at any hour.",
+  "question_context": "A reader sent us this tree from Worthing with a single photograph and a note: a huge redwood in the middle of an urban park, planted in the gardens of a former house in its grounds. When we asked whether it was the sequoia in Lyons Farm Open Space, in Broadwater, they wrote back that it is. The photograph is taken from the foot of the trunk looking straight up. The base flares out wide, its soft red-brown bark ridged and patched with moss, and dozens of limbs leave the trunk together and curl outwards under a dark evergreen crown. Giant sequoias arrived in Britain from California in 1853 and were planted on estates across the country, so many now stand in what were once private gardens. We do not yet know who planted this one or when, nor its girth or height; the reader is looking it up. Our pin marks the park rather than the trunk, so look for the tallest crown and walk in under it.",
+  "faq": [
+    {
+      "q": "Can I visit the Giant Sequoia of Lyons Farm?",
+      "a": "Yes. It stands in Lyons Farm Open Space, a public park in Broadwater, Worthing, free and open at all hours."
+    },
+    {
+      "q": "How old is the Worthing sequoia?",
+      "a": "We do not know yet. Giant sequoias first came to Britain in 1853; if you know when this one was planted, tell us on its page."
+    },
+    {
+      "q": "How do I find it in the park?",
+      "a": "Our pin marks the park, not the tree. Look for the tallest crown and a trunk that flares wide at the foot."
+    }
+  ],
+  "trees": [
+    {
+      "id": "wor_001",
+      "name": "The Giant Sequoia of Lyons Farm",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "location": {
+        "address": "Lyons Farm Open Space, Broadwater, Worthing, West Sussex",
+        "latitude": 50.8311089,
+        "longitude": -0.3663761,
+        "neighbourhood": "Broadwater"
+      },
+      "story": "\"Huge redwood in the middle of an urban park,\" wrote the reader who sent us this tree from Worthing, \"planted in the gardens of a former house in its grounds.\" When we asked whether it was the one in Lyons Farm Open Space in Broadwater, they wrote back that it is.\n\nTheir photograph stands at the foot of the trunk and looks straight up. The base flares out like a buttressed skirt, its thick soft bark in red-brown ridges, patched with green moss on the shaded side. Higher up, dozens of limbs leave the trunk at once and curl outwards and upwards under a dark crown, so that from below it looks less like one tree than a frame holding up the sky.\n\nGiant sequoias reached Britain from the Sierra Nevada in 1853 and became the tree every Victorian estate wanted, which is why so many now stand in what were once private gardens. Who planted this one, and when, we do not know yet. The reader is looking it up; if you know the house, or have measured the trunk, tell us here and we will add it.\n\nOur pin marks the park, not the tree. Find the tallest crown and walk in under it.",
+      "how_to_recognise": "The tallest crown in the park: a giant sequoia whose trunk flares out wide at the foot, soft red-brown bark patched with moss, dozens of limbs radiating from it at once.",
+      "access": "Free. A public open space in Broadwater, open at all hours.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/287672394 (OpenStreetMap: Lyons Farm Open Space, a public park in Broadwater, Worthing; the reader confirmed by mail on 2026-11-18 that the sequoia stands in it)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-709",
+        "date": "2026-11-18"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "named site",
+        "note": "Centre of Lyons Farm Open Space (OpenStreetMap way 287672394), the park the reader confirmed by mail on 2026-11-18. The photograph holds no location, so the pin marks the park, not the trunk.",
+        "date": "2026-11-18"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: website/app tip 709 (2026-11-15) with one photograph and no GPS fix; held then for no_location. Our reply asked whether it was the sequoia in Lyons Farm Open Space; the reader answered by mail \"Yes it is\" (feedback 1142/1158) and is looking up who planted it. Photograph viewed: looking straight up a huge, flaring, spongy red-brown trunk patched with moss, many limbs radiating out under a dark evergreen crown, overcast daylight, colour. Species from the reader ('redwood') and our question; the foliage and spongy bark fit Sequoiadendron, a reader may correct it. Published under the closed list for a reader's tree (Hidde, 2026-11-17/18: a trunk shot goes live). The 1853 introduction to Britain is general knowledge of the species (William Lobb), not a claim about this tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wor_001-giant-sequoia-of-lyons-farm.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_37416ead21cbdc89843773fd",
+        "sighting_id": "tip-709",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-18: looking straight up a huge, flaring, spongy red-brown trunk patched with moss, many limbs radiating out under a dark evergreen crown, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}
