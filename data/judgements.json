@@ -1229,6 +1229,116 @@
    "agreed": null
   },
   {
+   "id": "sight:3484b62a-ae0a-496b-a474-05de96094149",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Temple Square Cedar of Lebanon",
+   "city": "Salt Lake City",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/3484b62a-ae0a-496b-a474-05de96094149.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Temple Square cedar beside the temple, species and setting match; first photograph of slc_005, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:49cdc6d5-8952-40a5-9fa6-fe5f82bd438c",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Washington Square Ohio Buckeye",
+   "city": "Salt Lake City",
+   "species": "Ohio Buckeye (Aesculus glabra)",
+   "photo": "out/sightings/49cdc6d5-8952-40a5-9fa6-fe5f82bd438c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ohio Buckeye (Aesculus glabra)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the narrow buckeye at the Washington Square corner, five-leaflet leaves, hackberry behind; first photograph of slc_003, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:211c1179-f19f-4b15-8cd1-69eaabcb8a91",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Washington Square Hackberry",
+   "city": "Salt Lake City",
+   "species": "Common Hackberry (Celtis occidentalis)",
+   "photo": "out/sightings/211c1179-f19f-4b15-8cd1-69eaabcb8a91.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Common Hackberry (Celtis occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the broad hackberry at the Washington Square corner, warty bark and wide crown; first photograph of slc_002, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d7c5b35b-ede0-40f0-877e-dec7e8baf8c6",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "The Liberty Park London Planetree",
+   "city": "Salt Lake City",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/d7c5b35b-ede0-40f0-877e-dec7e8baf8c6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Liberty Park plane's forked, mottled trunk with a person for scale; first photograph of slc_001, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:af1c1d0b-3f96-4736-b2df-92468b44d5d8",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "Jardine Juniper",
+   "city": "Logan Canyon",
+   "species": "Rocky Mountain Juniper (Juniperus scopulorum)",
+   "photo": "out/sightings/af1c1d0b-3f96-4736-b2df-92468b44d5d8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Rocky Mountain Juniper (Juniperus scopulorum)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Jardine Juniper from its platform, twisted trunk and green tuft, hikers in front; added as lead, the earlier photograph moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

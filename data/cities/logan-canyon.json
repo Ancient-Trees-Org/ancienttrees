@@ -47,16 +47,31 @@
       "curation_status": "flagged",
       "story": "Hikers will tell you the Jardine Juniper is 3,000 years old. The wood disagrees: cores taken in the 1950s put it at about 1,500, a figure the state's own tourism site repeats. Half the legend is still a very old tree.\n\nMaurice Blood Linford found it in 1923 on a ridge above Logan Canyon and named it after William Marion Jardine. It is not tall, about 12 metres, but the trunk measures 7.2 metres round. At 1,500 years it was already old when the first Europeans reached North America.\n\nWhether it is still alive is a fair question, and the answer is thinner than we would like. Visit Utah reports a small bunch of greenery in the upper branches and says it is still alive, but the article carries no date, and we have found no dated sighting of the tree since 2020. If you make the climb, tell us what you see up there.\n\nAnd it is a climb. The Jardine Juniper Trail starts at the Wood Camp Campground trailhead on US-89, where parking is paid, and runs about 11 miles there and back with roughly 2,145 feet of gain, by Visit Utah's figures. It is open all year, but the shady side holds snow and mud well into spring.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jardine_Juniper.jpg",
-        "license": "CC BY 2.0",
-        "attribution": "Danielle Philli",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Jardine_Juniper.jpg",
+        "url": "https://ancienttrees.app/photos/lgc_001-jardine-juniper-af1c1d0b.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2432,
-        "height": 3647,
-        "taken_month": 7
+        "width": 1214,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_43296b4149990a775a24a4a6",
+        "sighting_id": "af1c1d0b-3f96-4736-b2df-92468b44d5d8",
+        "note": "Photographed by a reader and sent through the app (2026-09-18); a viewing pass approved it on 2026-11-18: The Jardine Juniper on its viewing platform: a massive twisted silver trunk, dead limbs and one green tuft at the top, five hikers at the railing in front, Logan Canyon behind, daylight. Species seen: spiralled, shredding juniper wood, scale-leaved green tuft at the crown. Fits the description: a huge trunk on a short tree with a small bunch of green in its upper branches, at the end of the trail on a ridge.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by a trunk 7.2 metres round on a tree only about 12 metres tall, with a small bunch of green in its upper branches. It stands at the top of the Jardine Juniper Trail above Wood Camp."
+      "how_to_recognise": "You can recognise it by a trunk 7.2 metres round on a tree only about 12 metres tall, with a small bunch of green in its upper branches. It stands at the top of the Jardine Juniper Trail above Wood Camp.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jardine_Juniper.jpg",
+          "license": "CC BY 2.0",
+          "attribution": "Danielle Philli",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Jardine_Juniper.jpg",
+          "status": "approved",
+          "width": 2432,
+          "height": 3647,
+          "taken_month": 7
+        }
+      ]
     }
   ]
 }

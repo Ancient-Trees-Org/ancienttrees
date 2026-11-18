@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-18 reader judge: five Utah photographs from one reader, four trees get their first picture
+
+- Live: a reader's photographs are now the lead picture of four Salt Lake City trees that had none: the Temple Square Cedar of Lebanon (slc_005), the Washington Square Ohio Buckeye (slc_003) and Hackberry (slc_002), the Liberty Park London Plane (slc_001). Each looked at, species and setting match. Their Jardine Juniper shot (lgc_001, hikers on the platform under the twisted trunk) is added as the lead; the earlier photograph stays in the strip. Reader mails went through sightings_publish --send.
+- Stories: the photos make slc_001 and slc_005 indexable, which tripped the colon-reveal check; three sentences rewritten. The cedar's story asked whether it came through the temple renovation; it now says a visitor's November 2026 photograph shows it full and green.
+- Pins: no moves (the Liberty Park and Jardine coordinates are our own pins, not GPS fixes); the pin catch-up step hit an HTTP error reading coordinates, harmless here.
+- Still left: lead 3c544597 (Amsterdam, our own account), photograph not on disk, not judged blind. No reports, tips or feedback open.
+
 ## 2026-11-18 night run (18:04 window): nothing new published
 
 - Rung 1: the one open item, lead 3c544597 (Amsterdam, near ams_032), is from one of our own accounts (`mine`) and its photograph is not on disk, so no verdict, not judged blind. Left open.
