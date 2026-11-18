@@ -1163,6 +1163,50 @@
    "agreed": null
   },
   {
+   "id": "sight:b5e84e25-4eab-4c0c-8f75-ed8f7a911fa6",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "Chêne de la Vierge à Viroflay",
+   "city": "Viroflay",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/b5e84e25-4eab-4c0c-8f75-ed8f7a911fa6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Chene de la Vierge itself: Virgin statue on the trunk, oak bark and autumn oak leaves, GPS 5 m from our pin; added and now leads the page (a reader's own photo).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5c0b2a94-6258-4c62-a700-27e3c9f08fa7",
+   "seen": "2026-11-18",
+   "kind": "photo of a tree we map",
+   "tree": "Chêne de la Vierge à Viroflay",
+   "city": "Viroflay",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/5c0b2a94-6258-4c62-a700-27e3c9f08fa7.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 4,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Same trunk from the other side with roses tied on and the statue's edge in frame, GPS 4 m from our pin; in the strip behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

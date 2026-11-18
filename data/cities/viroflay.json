@@ -53,17 +53,44 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ch%C3%AAne_Vierge_-_Viroflay_%28FR78%29_-_2025-05-01_-_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Chabe01, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/vir_001-ch-ne-de-la-vierge-viroflay-b5e84e25.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-19",
-        "width": 4284,
-        "height": 5239,
-        "taken_month": 5
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f2787bdff05268fa5830d17e",
+        "sighting_id": "b5e84e25-4eab-4c0c-8f75-ed8f7a911fa6",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The Chene de la Vierge itself: white Virgin statue on its shelf against the trunk, a plaque with a rosary below, full crown in autumn leaf, daylight against blue sky. GPS 5 m from our pin. A reader's own photograph, so it leads. Species seen: deeply furrowed grey oak bark, lobed oak leaves turning brown in autumn, broad spreading crown. Fits the description: a lone massive oak with a Virgin statue and ex-voto plaque fixed to the trunk, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ch%C3%AAne_Vierge_-_Viroflay_%28FR78%29_-_2025-05-01_-_2.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Chabe01, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-19",
+          "width": 4284,
+          "height": 5239,
+          "taken_month": 5
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vir_001-ch-ne-de-la-vierge-viroflay-5c0b2a94.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_f2787bdff05268fa5830d17e",
+          "sighting_id": "5c0b2a94-6258-4c62-a700-27e3c9f08fa7",
+          "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The same trunk looking up from the other side, artificial roses tied to the bark and the statue's edge at left, autumn crown. GPS 4 m from our pin. Belongs in the strip behind the statue view; its extra file repeats the other sighting's frame. Species seen: furrowed oak bark, lobed oak leaves in orange autumn colour. Fits the description: a very thick old oak trunk with offerings (flowers) on it and the Virgin statue just in frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ],
       "fame": {
         "langs": 1,
         "checked": "2026-09-27",

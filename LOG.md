@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-18 reader judge: two reader photographs on the Viroflay oak
+
+- Product: Chêne de la Vierge à Viroflay (vir_001) now leads with a reader's own photograph (the Virgin statue on the trunk, autumn crown, GPS 5 m from our pin). A second shot from the other side, with roses tied to the bark, is in the strip. The reader is mailed through sightings_publish --send.
+- Left for the next run: lead 3c544597 (Amsterdam, "not sure which tree", near ams_032). It was sent from one of our own accounts (`mine`) and its photograph is not on disk, so it was not judged blind.
+- No open reports, no feedback, no tips waiting. Pin catch-up could not read coordinates (HTTPError). No pin needed moving: the GPS fixes are 4 to 5 m from our pin.
+
 ## 2026-11-18, night run (second attempt): shipped nothing, supply is dry
 
 - Product: no change. No tree went live.
