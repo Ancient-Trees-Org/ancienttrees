@@ -1,0 +1,66 @@
+{
+  "city": "Djanet",
+  "country": "Algeria",
+  "status": "needs_curation",
+  "intro": "Djanet is the oasis town at the foot of the Tassili n'Ajjer, the sandstone plateau in Algeria's far south-east where the last Saharan cypresses grow, fewer than 250 of them, most thought to be over 2,000 years old. A reader sent us the photograph of one.",
+  "meta_description": "A Saharan cypress on the Tassili n'Ajjer above Djanet, one of fewer than 250 left: what it is and how to see one.",
+  "hero_tree_id": "djn_001",
+  "oldest_tree_id": "djn_001",
+  "trees": [
+    {
+      "id": "djn_001",
+      "name": "The Tassili Cypress",
+      "species": "Saharan Cypress (Cupressus dupreziana)",
+      "age_estimate": null,
+      "age_min": null,
+      "age_max": null,
+      "age_basis": null,
+      "location": {
+        "address": "Tassili n'Ajjer plateau, north of Djanet, Illizi Province, Algeria",
+        "latitude": 25.35,
+        "longitude": 9.3,
+        "neighbourhood": "Tassili n'Ajjer"
+      },
+      "story": "Fewer than 250 Saharan cypresses are left in the world, and all of them grow here, in the sandstone of the Tassili n'Ajjer above Djanet, hundreds of kilometres from any other tree of their kind. Surveys between 1997 and 2001 counted 233; by March 2026 drought had killed 21 large ones. Most are thought to be more than 2,000 years old, and no young tree has been seen to take root for over thirty years.\n\nThis one is a reader's find. Their photograph shows a trunk that splits low into a crown of twisting, bleached limbs, some of them dead and polished by the wind, carrying two dark green heads of foliage against a hard blue sky, with grass tufts and black stones around its foot. \"There are maybe 200 of these Sahara cypress left,\" they wrote to us.\n\nThe species has an odd way of surviving. Its seeds grow from the pollen's genes alone, with nothing from the mother tree, perhaps the result of so few trees standing so far apart. Its leaves are bluer than a Mediterranean cypress's, each with a small white spot of resin.\n\nThe plateau is a national park and a World Heritage Site, reached on foot or by vehicle with a licensed guide from Djanet.",
+      "how_to_recognise": "A low-forking cypress in a sandy wadi among sandstone blocks: pale, twisted, partly dead limbs holding two separate dark green crowns.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Cupressus_dupreziana"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-947",
+        "date": "2026-11-18"
+      },
+      "verify_notes": "2026-11-18 session: a reader's website tip (submission 947, 'The Tassili cypress', near 'Tassili Plateau, Algeria', a photograph, no coordinate; note: 'There are maybe 200 of these Sahara cypress left. None have been known to geminate in recent years'). Held 2026-11-17 for no_location. The reader answered our mail on 2026-11-16 23:53 UTC: took the photo themselves, no geotag (no signal on the plateau), nearest town Djanet, and sent a Google Earth screenshot with a pin labelled 'Cypress trees', saying they may not have marked it accurately. The pin sits north of Djanet toward Illizi; read off a tilted 3D view against Djanet, Ghat and Illizi it lands near 25.3-25.6 N, 9.2-9.3 E, uncertain by tens of kilometres, so approximate. Species: the only cypress of the Tassili n'Ajjer is Cupressus dupreziana (Wikipedia: 233 found 1997-2001, 212 in March 2026, most over 2,000 years, no regeneration for 30+ years, male apomixis). Photograph viewed: whole tree, daylight, colour, 1200x1600. No age given for this tree: none is sourced for it.",
+      "access": "In Tassili n'Ajjer National Park, a World Heritage Site: visits go with a licensed guide from Djanet, on foot or by vehicle. The pin is the reader's mark on a map and only approximate; the Djanet guides know the cypress sites.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's map mark",
+        "source": "a Google Earth screenshot the reader mailed on 2026-11-16",
+        "date": "2026-11-18",
+        "note": "Read off a tilted 3D view; the reader said the mark may not be exact. Uncertain by tens of kilometres."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/djn_001-the-tassili-cypress.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_56b3c957f392ac896d07c586",
+        "sighting_id": "tip-947",
+        "note": "Photographed by a reader and sent through the website with an account; viewed 2026-11-18: the whole tree in a sandy wadi, daylight, colour. Not an open licence: ask before reuse elsewhere."
+      }
+    }
+  ],
+  "question_meta": "A Saharan cypress on the Tassili n'Ajjer above Djanet, one of fewer than 250 left: what it is and how to see one.",
+  "question_answer": "The Tassili Cypress stands on the Tassili n'Ajjer plateau north of Djanet, Algeria. In Tassili n'Ajjer National Park, a World Heritage Site: visits go with a licensed guide from Djanet, on foot or by vehicle. The pin is the reader's mark on a map and only approximate; the Djanet guides know the cypress sites.",
+  "question_context": "Fewer than 250 Saharan cypresses are left in the world, and all of them grow here, in the sandstone of the Tassili n'Ajjer above Djanet, hundreds of kilometres from any other tree of their kind. Surveys between 1997 and 2001 counted 233; by March 2026 drought had killed 21 large ones. Most are thought to be more than 2,000 years old, and no young tree has been seen to take root for over thirty years. This one is a reader's find. Their photograph shows a trunk that splits low into a crown of twisting, bleached limbs, some of them dead and polished by the wind, carrying two dark green heads of foliage against a hard blue sky, with grass tufts and black stones around its foot. \"There are maybe 200 of these Sahara cypress left,\" they wrote to us. The species has an odd way of surviving. Its seeds grow from the pollen's genes alone, with nothing from the mother tree, perhaps the result of so few trees standing so far apart. Its leaves are bluer than a Mediterranean cypress's, each with a small white spot of resin. The plateau is a national park and a World Heritage Site, reached on foot or by vehicle with a licensed guide from Djanet.",
+  "faq": [
+    {
+      "q": "Can I visit The Tassili Cypress?",
+      "a": "In Tassili n'Ajjer National Park, a World Heritage Site: visits go with a licensed guide from Djanet, on foot or by vehicle. The pin is the reader's mark on a map and only approximate; the Djanet guides know the cypress sites."
+    }
+  ]
+}

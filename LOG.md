@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 session: a reader's Saharan cypress live (Djanet, Algeria)
+
+- **Product**: the Tassili cypress (reader tip 947) is live as djanet/djn_001, a Saharan cypress (Cupressus dupreziana) on the Tassili n'Ajjer. It was held on 11-17 for no_location; the reader mailed a Google Earth screenshot marking it north of Djanet (saved with `outreach_inbox.py --save-from`, out/mail-photos/colegravebill/). The pin is read off a tilted 3D view, so it is `approximate` and the access line says plainly that it is the reader's map mark and that the Djanet guides know the cypress sites. The story quotes the reader unnamed; species facts are from Wikipedia (212 left in March 2026). The congratulation mail goes through tree_approved.py as usual.
+- **Checked, nothing to do**: Erin's mail about the Big Totara sign. akaroa/akr_001 already carries DOC's and NZ Tree Register's age and girth, and she got the "your photo is on the page" mail on 11-17.
+
 ## 2026-11-18 session: reply to Joey (Willistown) sent
 
 - **Mail**: Joey R. (Willistown ambassador) got a reply in his "Pawling Farm American Sycamore" thread, sent on Hidde's "Verstuur" (drafts/batches/reply-joey-willistown-2026-11-18.json). It covers his sycamore (his own photos lead, his 6.95 m is on the page) and his front-yard oak question (talk to the owner first, then it can go on the map with the pin on the sidewalk). The oak paragraph is Hidde's own; the lesson is in drafts/HIS_VOICE.md (2026-11-18). This replaces the unsent drafts/reply-reader-1000077-2026-11-17.md.

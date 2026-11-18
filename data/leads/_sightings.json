@@ -4288,7 +4288,7 @@
    "user_id": "p_56b3c957f392ac896d07c586",
    "mine": false,
    "name": "The Tassili cypress",
-   "species": "Cypress (Cupressus sp.)",
+   "species": "Saharan Cypress (Cupressus dupreziana)",
    "age": null,
    "girth_cm": null,
    "girth_hugs": null,
@@ -4304,12 +4304,12 @@
    ],
    "nearest_published_m": null,
    "register": null,
-   "status": "held",
-   "why": "Photograph viewed again 2026-11-17: a fine many-stemmed Saharan cypress among sandstone, daylight, colour; somewhat special by any measure. But no GPS and no place below 'Tassili Plateau', an area of tens of thousands of square kilometres. The reply asks where it stands; with that it goes live.",
+   "status": "published",
+   "why": "published 2026-11-18 as djn_001 (djanet.json): the reader mailed a Google Earth mark north of Djanet; approximate pin, Saharan cypress (the Tassili's only cypress)",
    "seen": "2026-11-16",
    "species_basis": "genus read from the tree's own name; ask the reader which species",
-   "judged": "2026-11-17",
-   "hold": "no_location"
+   "judged": "2026-11-18",
+   "published_as": "djanet/djn_001"
   },
   {
    "sighting_id": "tip-951",
