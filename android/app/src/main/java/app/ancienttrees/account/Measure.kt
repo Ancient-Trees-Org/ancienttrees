@@ -60,6 +60,8 @@ object Measure {
     private var prefs: SharedPreferences? = null
     private var enabled = false
     private var version = "?"
+    /** The version code ("42"), as the iPhone sends CFBundleVersion (Measure.swift, 2026-11-18). */
+    private var buildNumber = "?"
     private var build = "play"
 
     /** Whether an account was signed in when the event happened, and which one (Measure.swift). */
@@ -77,7 +79,11 @@ object Measure {
     fun start(context: Context, args: List<String>) {
         val app = context.applicationContext
         prefs = app.getSharedPreferences("device", Context.MODE_PRIVATE)
-        version = runCatching { app.packageManager.getPackageInfo(app.packageName, 0).versionName }.getOrNull() ?: "?"
+        val info = runCatching { app.packageManager.getPackageInfo(app.packageName, 0) }.getOrNull()
+        version = info?.versionName ?: "?"
+        buildNumber = info?.let {
+            if (Build.VERSION.SDK_INT >= 28) it.longVersionCode.toString() else it.versionCode.toString()
+        } ?: "?"
         build = if (app.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE != 0) "debug" else "play"
         enabled = !isEmulator() || "-measure" in args
     }
@@ -102,6 +108,7 @@ object Measure {
         props: Map<String, String>,
         distinctId: String,
         version: String,
+        buildNumber: String,
         osMajor: String,
         build: String,
         signedIn: Boolean,
@@ -112,6 +119,7 @@ object Measure {
         for ((k, v) in props) p.put(k, v)
         p.put("\$process_person_profile", false)
         p.put("app_version", version)
+        p.put("build_number", buildNumber)
         p.put("os", "Android $osMajor")
         p.put("build", build)
         p.put("signed_in", if (signedIn) "yes" else "no")
@@ -129,7 +137,7 @@ object Measure {
     /** Record one thing somebody did. Never blocks, never retries in the moment, never surfaces an error. */
     fun event(name: String, props: Map<String, String> = emptyMap()) {
         if (!enabled) return
-        val b = body(name, props, installId, version, Build.VERSION.RELEASE.substringBefore('.'), build,
+        val b = body(name, props, installId, version, buildNumber, Build.VERSION.RELEASE.substringBefore('.'), build,
             signedIn, account, Date())
         val data = b.toString()
         io.launch { if (!post(data)) enqueue(data) }
