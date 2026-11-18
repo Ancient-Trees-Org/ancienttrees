@@ -1,6 +1,15 @@
 {
  "leads": [
   {
+   "name": "Old Yew Tree, Rocky Lane, Perry Barr",
+   "species": "Yew (assumed)",
+   "city": "Birmingham",
+   "reason": "Only an 1898 Birmingham archive photograph (council directory record 143126, 403 to curl, seen via search summary). No evidence it stands now. Not pursued.",
+   "sources": [
+    "https://www.birmingham.gov.uk/directory_record/143126/the_old_yew_tree"
+   ]
+  },
+  {
    "name": "Northfield churchyard yew (St Laurence)",
    "species": "Yew (Taxus baccata)",
    "city": "Birmingham",
@@ -88,6 +97,25 @@
    "sources": [
     "https://www.ancient-yew.org/yew_tree_database/solihull/"
    ]
+  },
+  {
+   "name": "Grove Park cedar, Harborne",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "city": "Birmingham (Harborne)",
+   "reason": "Council park (Grove Park, Harborne Park Road, B17 0BJ, free). normanfield.com (fetched 2026-11-18, local history page) calls it the ancient centre-piece of The Grove and says it is thought planted about 1785 by Thomas Green; The Street Tree substack (paywalled, 403, search summary only) says it may have been planted by Thomas Attwood (lived there 1823 to 1846) and calls it one of Birmingham finest cedars. Planter conflict, no girth, no register, no tree-level coordinate, no Commons photo; lifecheck NONE. Park is not a small site. Needs a GPS fix or photograph to ship.",
+   "sources": [
+    "http://normanfield.com/index.php/grove/",
+    "https://thestreettree.substack.com/p/127-attwoods-cedar"
+   ]
+  },
+  {
+   "name": "Highbury Park biggest veteran oak (515 cm)",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "city": "Birmingham (Kings Heath/Moseley)",
+   "reason": "Friends of Highbury Park veteran survey (2018 leaflet, PDF unreadable; figure seen only in search summaries and Grokipedia): 38 veterans over 3 m, largest an oak at 515 cm, beech 420 cm. Survey table at highburyparkfriends.org.uk/database/trees/hpftreesurvey.php is dead (returns 0 rows). No location, no figure seen on a fetched page. Council park, open. Needs the Friends survey table or a GPS fix.",
+   "sources": [
+    "https://highburyparkfriends.org.uk/wp/plant-and-bird-records/habitat-wildlife/tree-surveys/"
+   ]
   }
  ],
  "blocked": [
@@ -106,6 +134,10 @@
   {
    "name": "Cannon Hill Park burnt oak (c. 250 years)",
    "reason": "Reported set on fire 2019 and to be cut down (Express & Star via search summary; page itself not fetched, Cloudflare). Not alive-confirmed."
+  },
+  {
+   "name": "Uffculme House yew, Kings Heath",
+   "reason": "Felled March 2016 by the Birmingham and Solihull Mental Health Trust after a survey found decay; ITV Central 2016-03-24 (search summary) and the Ancient Yew Group Lost Yews page list it. Not alive."
   }
  ]
 }

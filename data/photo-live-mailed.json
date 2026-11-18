@@ -1695,7 +1695,71 @@
   },
   "p_43296b4149990a775a24a4a6": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "3484b62a-ae0a-496b-a474-05de96094149",
+     "tree_id": "slc_005",
+     "tree_name": "The Temple Square Cedar of Lebanon",
+     "city": "Salt Lake City",
+     "city_slug": "salt-lake-city",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "49cdc6d5-8952-40a5-9fa6-fe5f82bd438c",
+     "tree_id": "slc_003",
+     "tree_name": "The Washington Square Ohio Buckeye",
+     "city": "Salt Lake City",
+     "city_slug": "salt-lake-city",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "211c1179-f19f-4b15-8cd1-69eaabcb8a91",
+     "tree_id": "slc_002",
+     "tree_name": "The Washington Square Hackberry",
+     "city": "Salt Lake City",
+     "city_slug": "salt-lake-city",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "d7c5b35b-ede0-40f0-877e-dec7e8baf8c6",
+     "tree_id": "slc_001",
+     "tree_name": "The Liberty Park London Planetree",
+     "city": "Salt Lake City",
+     "city_slug": "salt-lake-city",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "af1c1d0b-3f96-4736-b2df-92468b44d5d8",
+     "tree_id": "lgc_001",
+     "tree_name": "Jardine Juniper",
+     "city": "Logan Canyon",
+     "city_slug": "logan-canyon",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "f2e99426-d46c-4a73-9ab9-25f92c7edf6a",
+     "tree_id": "for_001",
+     "tree_name": "The Fortingall Yew",
+     "city": "Fortingall",
+     "city_slug": "fortingall",
+     "display_name": null,
+     "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "691e83b3-fa05-4961-a56f-9912db89c1ac",
+     "tree_id": "rlg_001",
+     "tree_name": "Dughall Mor and the Reelig Glen giants",
+     "city": "Reelig Glen",
+     "city_slug": "reelig-glen",
+     "display_name": null,
+     "live": "2026-11-18"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "ee80ee46-48b1-4e89-bc8d-23c892d50b1d",

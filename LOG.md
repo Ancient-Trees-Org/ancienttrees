@@ -1,5 +1,52 @@
 # LOG
 
+<!-- archive-index -->
+
+**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
+
+- [2026-11](archive/LOG-2026-11.md)
+- [2026-10](archive/LOG-2026-10.md)
+- [2026-09](archive/LOG-2026-09.md)
+- [2026-08](archive/LOG-2026-08.md)
+- [2026-07](archive/LOG-2026-07.md)
+
+So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
+<!-- archive-index -->
+## 2026-11-18 reader judge: overlapped the night run's retries, nothing new
+
+- I judged the same seven app photographs: four Salt Lake City leads, plus strip photos for Fortingall, Jardine and Reelig. My readings matched what earlier runs had already pushed, so I dropped my commit and kept theirs. Main passes preflight.
+- Still left: lead 3c544597 (Amsterdam), from one of our own accounts, with its photo not on disk. The older Japan and Baarn `lead` rows have no photo on disk either. No open reports, feedback or readers' words.
+
+## 2026-11-18 night run (third attempt): Birmingham and Potsdam verified, 0 trees shipped
+
+- No product change. Birmingham verify (UK, from-zero on): nothing meets the bar again; the Uffculme yew in Kings Heath was felled in 2016 (blocked), a Grove Park cedar and a Highbury Park 515 cm oak added as leads (no coordinate, no photograph). Potsdam verify: already published, its 27 open leads held for private plots or no placeable pin; the Naturdenkmal 54 oak stays a lead.
+- READY leads 0. Porto, Portland, Munich and Vienna are full and refuse a claim; Sheffield, Leeds, Braga, San Francisco and the rest are walls. Both claims released.
+- Next: the verify shelf needs sources, not more passes on these cities. Try Spokane (18 of 20) or a register scout (Zurich BUILD) in a window with a fresh angle; translation lane is paused while TRANSLATIONS_OUT holds.
+
+## 2026-11-18 night run (second retry): inbox already clear, Birmingham verify dispatched
+
+- Rung 1: `prepare.py --status` listed seven reader photographs as waiting, but sightings_inbox.py shows 550 of 552 handled; the four Salt Lake City ones are already live (see the reader judge entry below) and the two queued are the Fortingall and Reelig strips, judged. Nothing to apply. The status line is stale on these.
+- Portland and Porto are full (refused); claimed Birmingham (UK, from-zero on, first in city_queue --next) and dispatched a verify agent. Result and merge follow in the next entry, or the claim expires in 4 hours.
+
+## 2026-11-18 night run (retry window): two reader strip photos judged, Braga a wall
+
+- Live: reader photographs on the Fortingall Yew and the Reelig Glen giants are judged (publish, strip) and live; a duplicate Jardine Juniper photo from a rebase conflict was dropped. Earlier attempt's commits clashed with the reader judge's own; its duplicate Salt Lake City commit was skipped.
+- Braga verify pass: 0 new trees (Tibaes cerca still closed, rest outside the municipality); wall for 48h.
+- Nothing else: READY leads 0, and Porto is full. Verify shelf still needs refilling (909 leads need only a source); next: a verify pass on portland, spokane, munich or potsdam.
+
+## 2026-11-18 reader judge: five Utah photographs from one reader, four trees get their first picture
+
+- Live: a reader's photographs are now the lead picture of four Salt Lake City trees that had none: the Temple Square Cedar of Lebanon (slc_005), the Washington Square Ohio Buckeye (slc_003) and Hackberry (slc_002), the Liberty Park London Plane (slc_001). Each looked at, species and setting match. Their Jardine Juniper shot (lgc_001, hikers on the platform under the twisted trunk) is added as the lead; the earlier photograph stays in the strip. Reader mails went through sightings_publish --send.
+- Stories: the photos make slc_001 and slc_005 indexable, which tripped the colon-reveal check; three sentences rewritten. The cedar's story asked whether it came through the temple renovation; it now says a visitor's November 2026 photograph shows it full and green.
+- Pins: no moves (the Liberty Park and Jardine coordinates are our own pins, not GPS fixes); the pin catch-up step hit an HTTP error reading coordinates, harmless here.
+- Still left: lead 3c544597 (Amsterdam, our own account), photograph not on disk, not judged blind. No reports, tips or feedback open.
+
+## 2026-11-18 night run (18:04 window): nothing new published
+
+- Rung 1: the one open item, lead 3c544597 (Amsterdam, near ams_032), is from one of our own accounts (`mine`) and its photograph is not on disk, so no verdict, not judged blind. Left open.
+- Rung 2: health only red on dropped knocks (6 of 12), not mine to fix.
+- Shelf empty (0 READY leads); Birmingham verify pass (new angles: churchyard yews, Bournville, Aston Hall, Handsworth) found 0 trees; Uffculme yew is a stump and Perry Barr yew only an 1898 photo, both added as leads; claim released. Zurich, San Francisco, Fort Worth, Frankfurt are walls. Portland is full. Page-gap intros left alone (all noindexed under the strict cut). Visits line not printed by prepare.py this run.
+
 ## 2026-11-18 reader judge: overlapped a parallel run, nothing new
 
 - Judged the same Fort Greene elm photograph (approve, same reading) but the run above had already pushed it; its version kept, this run's commit dropped.
@@ -25,18 +72,6 @@
 - Write pass on every waiting entry and the 5 READY leads: all held for a closed reason (access x3, duplicate x1, no pin x2, street row, shrubs, no size or story). Detroit det_001 and det_002 stories are written and wait for a pin.
 - For Hidde: nothing. READY is 0 and the focus cities are walls or full, so the shelf cannot refill from desk research alone.
 
-<!-- archive-index -->
-
-**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
-
-- [2026-11](archive/LOG-2026-11.md)
-- [2026-10](archive/LOG-2026-10.md)
-- [2026-09](archive/LOG-2026-09.md)
-- [2026-08](archive/LOG-2026-08.md)
-- [2026-07](archive/LOG-2026-07.md)
-
-So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
-<!-- archive-index -->
 ## 2026-11-18 reader judge: nothing new (overlapped a parallel run)
 
 - This run judged the Bengaluru rain tree and the Emmanuel plane photograph (b43d0c0b), but a parallel run had already pushed both (ben_001, entries below). My duplicate was dropped in the rebase.
