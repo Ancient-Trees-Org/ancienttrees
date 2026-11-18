@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-18 night run (retry window): two reader strip photos judged, Braga a wall
+
+- Live: reader photographs on the Fortingall Yew and the Reelig Glen giants are judged (publish, strip) and live; a duplicate Jardine Juniper photo from a rebase conflict was dropped. Earlier attempt's commits clashed with the reader judge's own; its duplicate Salt Lake City commit was skipped.
+- Braga verify pass: 0 new trees (Tibaes cerca still closed, rest outside the municipality); wall for 48h.
+- Nothing else: READY leads 0, and Porto is full. Verify shelf still needs refilling (909 leads need only a source); next: a verify pass on portland, spokane, munich or potsdam.
+
 ## 2026-11-18 reader judge: five Utah photographs from one reader, four trees get their first picture
 
 - Live: a reader's photographs are now the lead picture of four Salt Lake City trees that had none: the Temple Square Cedar of Lebanon (slc_005), the Washington Square Ohio Buckeye (slc_003) and Hackberry (slc_002), the Liberty Park London Plane (slc_001). Each looked at, species and setting match. Their Jardine Juniper shot (lgc_001, hikers on the platform under the twisted trunk) is added as the lead; the earlier photograph stays in the strip. Reader mails went through sightings_publish --send.

@@ -53,5 +53,7 @@
   "The Mosteiro de Tibaes cerca question is settled for now: checked 2026-08-14 on mosteirodetibaes.gov.pt, which carries a site-wide notice that the cerca (including the lago, where both held trees stand) is closed for works, with no end date given. Re-check before any future pass on Braga; the ticketing page still sells the EUR 1.50 cerca ticket, so the ticket page alone is not evidence of access.",
   "2026-10-29 pass: every ICNF row inside Braga municipality is published or held at Tibaes. The brief's 20 km radius rows are other concelhos (e.g. Casa do Cruzeiro oak, Turiz, is Vila Verde; Sao Tiago da Cruz is Famalicao) and belong to those towns.",
   "2026-11-07 verify pass: no new tree. Wayback latest snapshot of mosteirodetibaes.gov.pt is still 2026-09-24 (cerca closed); live host returns nothing to curl -m 20 (also /o-morcego-de-agua-e-os-lagos-do-mosteiro-3/). patrimoniocultural.gov.pt 2026/10 notice (search pointer) says monastery reopens 7 Nov 10:00 after a 2-6 Nov closure, silent on the cerca. brg_004 and brg_005 stay held on access. All other brief candidates are inside Vila Verde, Famalicao or Guimaraes, or already published (brg_001 to brg_003, brg_006)."
+  ,
+  "2026-11-18 verify pass: no new tree. Wayback latest snapshot of mosteirodetibaes.gov.pt is still 2026-09-24 (cerca closed); live host times out (curl -m 20, exit 28). brg_004 and brg_005 stay held on access. The delivery file already holds brg_007 to brg_010 (Turiz oak in Vila Verde, three Pindela trees in Famalicao), outside Braga municipality."
  ]
 }
