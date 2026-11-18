@@ -925,6 +925,21 @@
    "agreed": null
   },
   {
+   "id": "tip:1177",
+   "seen": "2026-11-18",
+   "kind": "a tip without a photograph",
+   "tree": "2D01C8DC-05B6-421A-B6AA-6E113740A1CF",
+   "city": "Dartmoor",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "GPS fix at the tree by Dartington, about 2 km north of Totnes, no words: its app sighting is not on the server so no photograph reached us (as with tip 1175 the same afternoon); no source, no species. Recorded in data/leads/dartmoor.json; a photograph would put it live. Draft reply asking for one in drafts/.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:tip-1111",
    "seen": "2026-11-17",
    "kind": "a tree we do not map",

@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: Dartington tip recorded as a lead
+
+- **Leidsebosje Planes (ams_002)**: a parallel run judged the same reader photograph minutes earlier, the same way (`add`, now the lead); its version is kept. Both runs ran sightings_publish with --send, so the reader may have had the "on the page" mail twice.
+- **Tip 1177** (Dartmoor in the app, GPS fix by Dartington about 2 km north of Totnes, no words): its app sighting is not on the server, so no photo arrived. Verdict `lead`, in data/leads/dartmoor.json; suggested reply asking for the photo in drafts/reply-reader-1177-2026-11-18.md (For Hidde: send or bin).
+- **For Hidde: two collect-flow tips from two different readers today (1175, 1177, half an hour apart) arrived with a sighting id the server never got.** That looks like the app dropping the photo upload rather than the readers deleting anything; worth a look at the collect flow before more go missing.
+- Sighting 3c544597 (Amsterdam, "The Last Elm of Stationsplein") is our own Android test account (`mine`), left alone. 0 open reports, 0 open feedback, 0 reader notes to quote.
+
 ## 2026-11-18 reader judge: Mont Mourex tip recorded as a lead, nothing went live
 
 - **Tip 1175** ("The biggest and oldest tree on Mont Mourex", GPS fix at the tree above Grilly, Ain, about 25 km from Geneva): the app sighting it came with no longer exists, so no photograph reached us, and no source or species. Verdict `lead`, recorded in data/leads/geneva.json. None of hold_reply.py's standard mails fits a tip without a photo, so a suggested reply asking them to send it again waits in drafts/reply-reader-1175-2026-11-18.md (For Hidde: send or bin).

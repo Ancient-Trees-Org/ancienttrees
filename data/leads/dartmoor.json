@@ -1,0 +1,22 @@
+{
+ "city": "dartmoor",
+ "leads": [
+  {
+   "name": "A reader's tree by Dartington, near Totnes (reader tip 1177)",
+   "species": null,
+   "lat": 50.45166,
+   "lng": -3.69483,
+   "coordinates": [
+    50.45166,
+    -3.69483
+   ],
+   "position_basis": "reader's GPS fix, sent standing at the tree (submission 1177, 2026-11-18)",
+   "reason": "Reader tip from the app's collect flow, 2026-11-18, no words. GPS fix at the tree, by Dartington about 2 km north of Totnes (Devon), filed under Dartmoor by the app. The app sighting it was sent with is not on the server, so no photograph reached us (the same happened to tip 1175 half an hour earlier, from another reader). Missing: a photograph or a source, and the species. Nothing of ours on file nearby.",
+   "found_by_reader": {
+    "tip": "submission 1177"
+   },
+   "found": "2026-11-18"
+  }
+ ],
+ "blocked": []
+}
