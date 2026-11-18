@@ -2259,6 +2259,49 @@
         "name": "Dansk Trærregister (Dendrologisk Forening)",
         "url": "https://www.dendron.dk/dtr/detaljer.asp?Individual_id=1184"
       }
+    },
+    {
+      "id": "cop_050",
+      "name": "Brewer Jacobsen's Oak in Rude Skov",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Beside a gravel path at the meadow edge, Rude Skov, Holte",
+        "latitude": 55.8286083333333,
+        "longitude": 12.4967633333333,
+        "neighbourhood": "Rude Skov, Holte (day trip, about 25 minutes by S-train to Holte, then a walk)"
+      },
+      "how_to_recognise": "At the edge of an open meadow in Rude Skov: a lone oak beside a gravel path, a short broad trunk with a bench at its foot, under a crown far wider than it is tall.",
+      "access": "Free. Rude Skov is a state forest, open to walkers at all hours; the oak stands beside a gravel path.",
+      "verified_sources": [
+        "https://naturstyrelsen.dk/media/01thrxfl/rudeskov_miniguide_2023_web.pdf (Naturstyrelsen, Rude Skov mini-guide 2023: its map marks 'Brygger C Jacobsens Eg')"
+      ],
+      "story": "The Danish forest agency's own map of Rude Skov marks this tree by name: Brygger C Jacobsens Eg, Brewer C. Jacobsen's Oak. A reader walking in the forest north of Holte found it and sent us a photograph with a GPS fix taken on the path beside it.\n\nTheir picture was taken on a grey, misty day with the leaves gone, which is when an oak like this shows what it is made of. The trunk is short and very thick, and almost at once it breaks into a tangle of crooked limbs that spread far out over the meadow on every side, so that the crown is much wider than the tree is tall. That shape belongs to an oak that grew up in the open, with light all round it, rather than one drawn up straight among the beeches of the forest behind. A bench stands at its foot, and a gravel path curves past it towards the trees.\n\nThe map gives the name and nothing more. Which Jacobsen it remembers, when it was named, how old it is and how wide its trunk has grown we do not yet know; if you know, tell us here and we will add it with your source.\n\nRude Skov is a short walk from Holte station. Come in winter to see the limbs, or in May when the crown fills.",
+      "found_by_reader": {
+        "sighting_id": "c60f88d1-bc14-496a-aba8-7b90d7286907",
+        "date": "2026-11-18"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c60f88d1-bc14-496a-aba8-7b90d7286907",
+        "moved_m": 0,
+        "date": "2026-11-18",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (c60f88d1-bc14-496a-aba8-7b90d7286907), named by them 'Oak near Copenhagen', species 'Oak', note 'Brygger Jacobsens Eg in Rude Skov'. Photograph viewed: the whole oak, bare, from the gravel path: a short thick trunk under a huge rounded crown of crooked limbs, a bench at its foot, a meadow and a misty forest edge behind, overcast daylight, colour. The name is confirmed by Naturstyrelsen's Rude Skov map; no age or girth source yet. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_050-brewer-jacobsen-s-oak-in-rude-skov.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_33e5c34b09b47c5c496f8918",
+        "sighting_id": "c60f88d1-bc14-496a-aba8-7b90d7286907",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole oak, bare, from the gravel path: a short thick trunk under a huge rounded crown of crooked limbs, a bench at its foot, a meadow and a misty forest edge behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere."
+      }
     }
   ]
 }

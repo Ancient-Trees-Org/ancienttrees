@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 reader judge: a named oak in Rude Skov goes live, a third Tule photograph
+
+- **New tree**: Brewer Jacobsen's Oak in Rude Skov (copenhagen/cop_050), a reader's photo with a GPS fix of a big open-grown oak, bare in mist, beside a gravel path. It goes under Copenhagen as a day trip (S-train to Holte), next to the Dyrehave trees. Its name is on Naturstyrelsen's Rude Skov map. We have no age or girth for it, and the page asks readers for them.
+- **El Árbol del Tule**: a reader's close view of the buttressed trunk is now in the gallery. The current lead photo, also a reader's, stays because it shows more of the tree. Their two further frames stayed in out/.
+- Fortingall and Reelig: the photos were already in the gallery through live-first. The verdict is `strip`, and the Reelig frame showing two people is not used.
+- Eight tree notes read, none hidden. One mail reply (thanks, "will post while travelling") closed as handled. No open reports, no readers' words to quote.
+- Still left: 3c544597 (Amsterdam, our own account, photo not on disk).
 ## 2026-11-18 (session): app checks for the first Android update, on Hidde's yes
 
 - **What changed in the apps** (next TestFlight build and the Android build after 0.1.0 (2)): signed-out My trees on Android opens just high enough to show Sign in at big text on a small phone (the half stop fits short content; the iPhone already opens one stop higher on small phones); Move the pin on Android takes the Android form bar (close X, title beside it); a tree's hero photograph is named "Open the photograph" for TalkBack and VoiceOver (it was an unnamed button).
