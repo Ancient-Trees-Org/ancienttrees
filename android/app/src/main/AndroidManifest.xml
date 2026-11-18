@@ -11,6 +11,11 @@
     <!-- allowBackup false: hard rule 11, nothing a person does lives on the device.
          enableOnBackInvokedCallback: the back gesture drags a pushed page with the finger
          (ui/Pages.kt), as the iPhone's edge swipe does. -->
+    <!-- Portrait only (screenOrientation) is not a hardware need: Play reads it as
+         android.hardware.screen.portrait required and hides the app from tablets,
+         Chromebooks and XR (Play Console, 2026-11-18). Optional, so they install it. -->
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+
     <application
         android:allowBackup="false"
         android:enableOnBackInvokedCallback="true"

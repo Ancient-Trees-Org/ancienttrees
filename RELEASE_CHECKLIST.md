@@ -211,6 +211,24 @@ archive.
 finished `ios.yml` run on main is not green; only Hidde passes
 `--despite-red "<why>"`.
 
+**The whole chain in one go** (Hidde, 2026-11-18: "voeg deze strategie aan ons
+algehele testplan toe zodat de volgende keer in een keer deze hele chain kan
+starten"). Hidde says one sentence, "draai de hele testketen", and the session
+does all of it, unasked, in this order:
+
+0. **The machines**: `python3 scripts/android_prelaunch.py` on an emulator: unit
+   tests, the signed Play build, every instrumented test against the Play
+   build's own R8 (`-PtestMinified`, the "minified" build type), the Play apk
+   opened by finger, spacing against the iPhone. iOS: `release.py`'s checks and
+   `scripts/appsweep.py`. A failure here is fixed before any walk.
+1. to 3. **The three walks below**, each by a subagent briefed from this file,
+   the session looking at every finding itself before fixing it.
+4. **The fixes merged**, CI green, the build on Hidde's phone, and one short
+   report: what was found, what was fixed, what waits for him.
+Language: the app is English only on both platforms (2026-11-17), so the
+second walk runs in English; the Dutch layout lessons stay valid for the day
+translations come back.
+
 **Before Hidde tests a build (iOS or Android), the session runs three passes
 itself** (Hidde, 2026-11-17, after an afternoon of finding the keyboard, the
 missing menu, rotation and the gallery copy by hand: "dat we deze vragen klaar
@@ -226,9 +244,9 @@ never on his phone:
    with no sign. The test account (`scripts/test_session.py`, ours, private)
    writes for real; everything it made is removed afterwards and the removal
    checked. Theme switch, back on every screen, leave and come back.
-2. **A small, older phone, big letters, Dutch, no network.** A 5-inch emulator
-   on the oldest Android we support (iOS: the SE), font scale 1.3, the app in
-   Dutch, then airplane mode and back.
+2. **A small, older phone, big letters, no network.** A 5-inch emulator
+   (720x1280 at 320 dpi; an older Android image when one is installed) or the
+   iPhone SE, font scale 1.3, then airplane mode and back.
 3. **Every screen beside its twin on the other platform**, from the screen list
    (SweepFrames), looked at by the session itself. App-level settings too
    (orientation, keyboard mode, what the camera keeps), not only screens.

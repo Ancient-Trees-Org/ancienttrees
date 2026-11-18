@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-18 (session): Android closed test submitted to Google
+
+- **Android 0.1.0 (2) sent for review in Play Console, closed test "Alpha"** (Hidde's yes in chat; his two tester lists, 177 countries). Google's review usually takes hours to days; the 14-day clock for a personal account starts when it is live. Updates during the test do not restart it.
+- Fixed on the way: advertising-ID declaration set to No (the build asks no AD_ID); `android.hardware.screen.portrait` marked optional (Play hid the app from tablets and Chromebooks because of portrait lock); versionCode 2.
+- Found on Hidde's phone: the Play build came up signed out when opened without internet; `Account.restore()` now keeps the token and asks again until there is a signal (in this build).
+- `scripts/android_prelaunch.py` + RELEASE_CHECKLIST "The whole chain in one go": the whole machine chain on the Play build. The R8 instrumented run is not yet green on a local emulator (the Mac ran out of memory and swap; ButtonWalk alone took over 20 minutes); rerun it from ~/Developer before the next update. Play warns that native debug symbols are missing (MapLibre): add them in the next upload.
 ## 2026-11-18 reader judge: the Worthing giant sequoia is live; the 16 mail replies arrived twice
 
 - **New tree from a reader**: **The Giant Sequoia of Lyons Farm** (worthing/wor_001, a new one-tree place in the UK). This is tip 709. It was held on 11-15 because it had no location. The reader has since answered our mail: yes, it is the sequoia in Lyons Farm Open Space, Broadwater. Its photograph was on this machine this time. I looked at it: the shot looks straight up a huge, flaring, mossy red-brown trunk under a crown of curling limbs, and a trunk shot goes live. The pin is approximate, at the centre of the park (OpenStreetMap way 287672394), and the page says the pin marks the park, not the tree. The reader called it a redwood and their note says it was planted in the gardens of a former house. Those words are quoted on the page as theirs. Who planted it, and when, is asked on the page; the reader says they are looking it up. Built by out/tmp/build_reader_tree_2026_11_18d.py, not committed. The congratulation mail (tree_approved.py) goes after the deploy.
