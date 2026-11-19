@@ -7531,6 +7531,64 @@
    "seen": "2026-11-19",
    "hold": "not_special",
    "judged": "2026-11-19"
+  },
+  {
+   "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+   "user_id": "p_c877c10459fc020d2f62f752",
+   "mine": false,
+   "name": "English Elm near Cambridge",
+   "unsure_among": null,
+   "species": "English Elm",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "A rare survivor or Dutch Elm disease resistant tree, the truck splits and branches a few feet before rejoining itself again, and in one of the cracks is what I think is a fallow deer’s leg bone, so I call it The Bone Tree.",
+   "latitude": 52.1357749793187,
+   "longitude": -0.132636347143304,
+   "near": null,
+   "photo": "p_c877c10459fc020d2f62f752/0BF2F2D8-020E-4258-A925-8B90C6D45D8F.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/0bf2f2d8-020e-4258-a925-8b90c6d45d8f-extra-1.jpg",
+    "out/sightings/0bf2f2d8-020e-4258-a925-8b90c6d45d8f-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole tree at a junction of a muddy farm track, a wooden footpath fingerpost at its foot, its pale furrowed trunk splitting into two stems that rejoin, a bare wide crown against the sky, a second big trunk beside it; two further photographs show a torn split in the upper trunk and a pale bone wedged in a crack of the bark. Overcast daylight, colour. Live as hatley/hat_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "hatley/hat_001"
+  },
+  {
+   "sighting_id": "31968732-9995-4dd2-8a5e-4bfdeb71592c",
+   "user_id": "p_a915d9e03e385ddb1824e749",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 54.6987111111111,
+   "longitude": 25.3128111111111,
+   "near": "Vilnius",
+   "photo": "p_a915d9e03e385ddb1824e749/31968732-9995-4DD2-8A5E-4BFDEB71592C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 1892,
+   "sent_for": "vln_010",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-19: an ordinary multi-stemmed broadleaf on a park lawn beside paths in Vilnius, 1.9 km from Bernardinai Garden, the frame tilted and soft. Nothing big, old or striking to see.",
+   "seen": "2026-11-19",
+   "hold": "not_special",
+   "judged": "2026-11-19"
   }
  ]
 }

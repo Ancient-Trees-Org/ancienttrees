@@ -1,0 +1,69 @@
+{
+  "city": "Hatley",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Hatley is a pair of small villages, Hatley St George and East Hatley, in the clay farmland of South Cambridgeshire, about eighteen kilometres west of Cambridge. On Buff Lane, a farm track by a footpath sign, stands a big old tree a reader takes for an English elm, a rare survivor of Dutch elm disease, with a bone wedged in a crack of its trunk. They call it The Bone Tree.",
+  "meta_description": "The Bone Tree on Buff Lane near Hatley, Cambridgeshire: a big old elm a reader found by a footpath, with a deer's bone in its bark.",
+  "hero_tree_id": "hat_001",
+  "oldest_tree_id": "hat_001",
+  "question_meta": "The Bone Tree on Buff Lane near Hatley, Cambridgeshire: a big old elm a reader found by a footpath, with a deer's bone in its bark.",
+  "question_answer": "The Bone Tree of Hatley stands on Buff Lane near East Hatley in South Cambridgeshire, at a fork in the farm track beside a public footpath sign. It can be seen from the track at any time.",
+  "question_context": "A reader walking near Hatley in South Cambridgeshire sent us this tree with a GPS fix taken at its foot, on Buff Lane where a farm track forks beside a wooden footpath fingerpost. They take it for an English elm and call it a rare survivor of Dutch elm disease, which from the late 1960s killed most of the big hedgerow elms of lowland England. Their photograph shows a pale, deeply furrowed trunk that splits into two stems a few metres up and joins again before the limbs spread into a wide crown, with a second tall trunk beside it. In one of the cracks of the bark the reader found what they think is the leg bone of a fallow deer, and so they named it The Bone Tree; a second photograph shows the pale bone wedged upright in the fissure. We have no girth or age for it, and we would like someone who knows elms to confirm the species. The tree stands on the track itself, so it can be seen without going onto anyone's land. In winter the lane is deep mud, so wear boots.",
+  "faq": [
+    {
+      "q": "Can I visit The Bone Tree of Hatley?",
+      "a": "Yes. It stands beside Buff Lane, a farm track with a public footpath sign at the tree, and can be seen from the track."
+    },
+    {
+      "q": "Why is it called The Bone Tree?",
+      "a": "The reader who sent it found what they think is a fallow deer's leg bone wedged in a crack of the trunk, and named the tree after it."
+    },
+    {
+      "q": "Is it really an English elm?",
+      "a": "The reader who found it takes it for one. We have not confirmed the species; if you know elms, tell us what you see."
+    }
+  ],
+  "trees": [
+    {
+      "id": "hat_001",
+      "name": "The Bone Tree of Hatley",
+      "species": "Elm (Ulmus sp.)",
+      "location": {
+        "address": "Buff Lane, by the footpath fingerpost, Hatley, South Cambridgeshire",
+        "latitude": 52.1357749793187,
+        "longitude": -0.132636347143304,
+        "neighbourhood": "East Hatley"
+      },
+      "how_to_recognise": "At a fork in the farm track with a wooden footpath fingerpost at its foot: a pale, deeply furrowed trunk that splits in two and joins again a few metres up, a second tall trunk beside it.",
+      "access": "Seen from Buff Lane, a farm track with a public footpath sign at the tree. Muddy in winter.",
+      "verified_sources": [],
+      "story": "\"A rare survivor or Dutch Elm disease resistant tree,\" wrote the reader who sent us this tree from Buff Lane near Hatley, in the clay country west of Cambridge, with a GPS fix taken where they stood. They take it for an English elm, and if they are right it is a rare thing: Dutch elm disease killed most of the big hedgerow elms of lowland England from the late 1960s on, and a tall elm with a trunk this thick is now hard to find.\n\nThe photograph shows it at a fork in a muddy farm track, a wooden footpath fingerpost leaning at its foot. A pale, deeply furrowed trunk climbs a few metres, splits in two, and, as the reader noticed, the two halves rejoin before the limbs spread out into a wide bare crown. A second tall trunk stands at its shoulder.\n\nThe reader also found something odd. \"In one of the cracks is what I think is a fallow deer's leg bone,\" they write, \"so I call it The Bone Tree.\" Their second picture shows it, a pale bone wedged upright in a fissure of the bark.\n\nWe have no girth or age for it yet, and we would like readers who know elms to confirm the species. If you pass, look for the bone in the crack, and leave it where it is.",
+      "found_by_reader": {
+        "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (0bf2f2d8-020e-4258-a925-8b90c6d45d8f, through the app). Photograph viewed: the whole tree at a junction of a muddy farm track, a wooden footpath fingerpost at its foot, its pale furrowed trunk splitting into two stems that rejoin, a bare wide crown against the sky, a second big trunk beside it; two further photographs show a torn split in the upper trunk and a pale bone wedged in a crack of the bark. Overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'English Elm near Cambridge', species 'English Elm'. Species not confirmed from the photographs (bark could also suggest sweet chestnut), so the genus the reader gave is shown and the page asks.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hat_001-bone-tree-of-hatley.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c877c10459fc020d2f62f752",
+        "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole tree at a junction of a muddy farm track, a wooden footpath fingerpost at its foot, its pale furrowed trunk splitting into two stems that rejoin, a bare wide crown against the sky, a second big trunk beside it; two further photographs show a torn split in the upper trunk and a pale bone wedged in a crack of the bark. Overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

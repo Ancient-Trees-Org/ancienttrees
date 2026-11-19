@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: The Bone Tree of Hatley goes live, two Vilnius photos settled
+
+- **New reader tree live: The Bone Tree of Hatley** (hatley/hat_001, a new one-tree place in South Cambridgeshire). It's a big old furrowed trunk that splits and joins again, at a farm-track fork on Buff Lane by a footpath fingerpost. The pin comes from the reader's GPS fix, and their photograph is the lead. In their note they call it a Dutch elm disease survivor and mention a fallow deer's leg bone wedged in a crack, which their second photo shows. Both are quoted on the page. Species shown as "Elm (Ulmus sp.)": the bark doesn't settle English elm (it could even be sweet chestnut), so the page asks readers.
+- **Two photos sent for the Bernardinai Amur cork trees (vln_010)** were both taken 1.9 km away in another park. One is an ordinary multi-stemmed park tree: verdict `other_tree`, and the new lead is held `not_special`. The other shows a pile of cut branches: `reject`. No mails.
+- **Lead 3c544597** (Amsterdam-area coordinate) is left for the next run: its photo is not on disk, and it is not judged blind.
+- No open reports, no feedback without a verdict, no reader words waiting.
+
 ## 2026-11-19 reader judge: Akron pin report, one feedback message
 
 - The two new trees (a40f07a6, e99b9502) had already been held as `not_special` by the run below, and its verdicts stand. This run agreed with both.

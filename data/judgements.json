@@ -1603,6 +1603,99 @@
    "agreed": null
   },
   {
+   "id": "sight:31968732-9995-4dd2-8a5e-4bfdeb71592c",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Amur Cork Trees and Crimean Linden of Bernardinai Garden",
+   "city": "Vilnius",
+   "species": "Amur Cork Tree (Phellodendron amurense) and Crimean Linden (Tilia x euchlora)",
+   "photo": "out/sightings/31968732-9995-4dd2-8a5e-4bfdeb71592c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1892,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Amur Cork Tree (Phellodendron amurense) and Crimean Linden (Tilia x euchlora)"
+   },
+   "verdict": "hold",
+   "reason": "Photo viewed: sent for the Bernardinai Amur cork trees but taken 1.9 km away in another park; another tree, not ours. Became a lead, held not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f11ffcb7-8a53-44c8-803e-9e0a8c47948d",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Amur Cork Trees and Crimean Linden of Bernardinai Garden",
+   "city": "Vilnius",
+   "species": "Amur Cork Tree (Phellodendron amurense) and Crimean Linden (Tilia x euchlora)",
+   "photo": "out/sightings/f11ffcb7-8a53-44c8-803e-9e0a8c47948d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1862,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Amur Cork Tree (Phellodendron amurense) and Crimean Linden (Tilia x euchlora)"
+   },
+   "verdict": "hold",
+   "reason": "Photo viewed: a pile of cut branches on a lawn 1.9 km from the Bernardinai Amur cork trees; no tree is the subject. Rejected.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "English Elm near Cambridge",
+   "city": null,
+   "species": "English Elm",
+   "photo": "p_c877c10459fc020d2f62f752/0BF2F2D8-020E-4258-A925-8B90C6D45D8F.jpg",
+   "reader_note": "A rare survivor or Dutch Elm disease resistant tree, the truck splits and branches a few feet before rejoining itself again, and in one of the cracks is what I think is a fallow deer’s leg bone, so I call it The Bone Tree.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: a big old furrowed trunk splitting and rejoining at a farm-track fork by a footpath sign, GPS fix at it, the reader's bone in a crack. Live as hatley/hat_001, species as the genus with the reader's English elm asked on the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:31968732-9995-4dd2-8a5e-4bfdeb71592c",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Vilnius",
+   "species": null,
+   "photo": "p_a915d9e03e385ddb1824e749/31968732-9995-4DD2-8A5E-4BFDEB71592C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Photo viewed: an ordinary multi-stemmed park tree on a lawn in Vilnius, nothing big, old or striking. Held not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -18890,6 +18983,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "English Elm near Cambridge",
+   "photo": "p_c877c10459fc020d2f62f752/0BF2F2D8-020E-4258-A925-8B90C6D45D8F.jpg",
+   "reader_note": "A rare survivor or Dutch Elm disease resistant tree, the truck splits and branches a few feet before rejoining itself again, and in one of the cracks is what I think is a fallow deer’s leg bone, so I call it The Bone Tree.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole tree at a farm-track fork by a footpath fingerpost, trunk splitting and rejoining, bone in a crack. Live as hatley/hat_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
