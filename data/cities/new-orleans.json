@@ -307,7 +307,7 @@
       "transport": "Audubon Park, Uptown New Orleans, about 9 km from the French Quarter. St Charles streetcar to Audubon Park, then walk into the zoo.",
       "location_precision": "approximate",
       "curation_status": "flagged",
-      "story": "Martha Washington had a husband and a rival, and both were oaks. In 1934, when the Louisiana Garden Club Federation founded the Live Oak Society and inducted its first 43 members, three trees on the old de Bore sugarcane plantation joined together: George Washington, Martha Washington, and the tree now known as the Tree of Life, already published on this page as the Etienne de Bore Oak. George and Martha stood on either side of the plantation house, framing the view of it the way a married couple frames a photograph. George is gone now, marked deceased in the Society's own register. Martha is not, and today stands inside the zoo that grew up around the old plantation ground, in the rhino habitat.\n\nTo join the Society in 1934 a tree needed a trunk at least eight feet round, so Martha was already a substantial tree nine decades ago. The Society's own measurement puts her at 28 feet round today, a couple of feet more than the figure recorded when George Douglass first registered her. Nobody has published an age, and a live oak this size does not hurry toward one.\n\nShe keeps her Society rank too: current fourth vice president, an honour the Live Oak Society hands out to its most senior members rather than to anyone with a vote.",
+      "story": "Martha Washington had a husband and a rival, and both were oaks. In 1934, when the Live Oak Society inducted its first 43 members, three trees on the old de Bore sugarcane plantation joined together: George Washington, Martha Washington, and the tree now known as the Tree of Life, already published on this page as the Etienne de Bore Oak. George and Martha stood on either side of the plantation house, framing the view of it the way a married couple frames a photograph. George is gone now, marked deceased in the Society's own register. Martha is not, and today stands inside the zoo that grew up around the old plantation ground, in the rhino habitat.\n\nBy a local account, the Society was the idea of Dr. Edwin Lewis Stephens, first president of Southwestern Louisiana Institute, and only came under the Louisiana Garden Club much later. In 1934 a member had to be at least sixteen feet round, a size Stephens took for a century of growth, and each tree owed him annual dues of acorns to raise new oaks from the old line. The Society's register gives her 28 feet round, though no one seems to have measured her in decades. Nobody has published an age, and a live oak this size does not hurry toward one.\n\nShe keeps her Society rank too: current fourth vice president, an honour the Live Oak Society hands out to its most senior members rather than to anyone with a vote.",
       "how_to_recognise": "You can recognise it by the massive trunk, 28 feet round, standing over the rhino enclosure. It is inside Audubon Zoo, near the already-published Tree of Life.",
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Tree_of_life_2021.jpg",
@@ -320,7 +320,8 @@
         "taken_month": 7
       },
       "photos": [],
-      "paid_entry": true
+      "paid_entry": true,
+      "verify_notes": "2026-11-19: corrected on Bill Guion's mail of 2026-10-31 (100 Oaks Project, author of our source): the Live Oak Society was founded by Dr Edwin Lewis Stephens, not the LGCF (which took it on in the 1950s); the 1934 rule was 16 ft, 8 ft came later for Junior members. He was not sure Martha is still alive (his photos are from 2010); the register still lists her, life check owed."
     },
     {
       "id": "nol_008",
