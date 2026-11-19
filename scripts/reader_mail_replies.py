@@ -42,7 +42,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from outreach_inbox import strip_prefixes, decode, body_of  # noqa: E402
+from outreach_inbox import strip_prefixes, decode, body_of, BOXES  # noqa: E402
 
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 SENT = os.path.join(ROOT, "data", "outreach-sent.json")
@@ -73,6 +73,17 @@ def their_words(text):
 
 def h(s):
     return hashlib.sha1(s.encode("utf-8", "replace")).hexdigest()[:20]
+
+
+def folder_ids(imap, since):
+    """Message numbers in INBOX, then in Spam, each folder selected (readonly)
+    before its numbers are yielded, so a fetch inside the loop hits it."""
+    for box in BOXES:
+        if imap.select(box, readonly=True)[0] != "OK":
+            continue
+        _, ids = imap.search(None, "SINCE", since)
+        for mid in (ids[0] or b"").split():
+            yield mid
 
 
 def supa(path, key, method="GET", body=None):
@@ -130,11 +141,12 @@ def main(argv):
         seen = set()
     imap = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"))
     imap.login(user, pw)
-    imap.select("INBOX", readonly=True)
     since = (datetime.date.today() - datetime.timedelta(days=DAYS)).strftime("%d-%b-%Y")
-    _, ids = imap.search(None, "SINCE", since)
     found = []
-    for mid in (ids[0] or b"").split():
+    # Spam too (2026-11-19): readers' replies reach Gmail through ImprovMX's
+    # forwarding and some land in Spam (Old Knobbley, a "Your tree is on
+    # Ancient Trees" reply), where this reader never looked.
+    for mid in folder_ids(imap, since):
         _, hdr = imap.fetch(mid, "(BODY.PEEK[HEADER.FIELDS (FROM SUBJECT MESSAGE-ID)])")
         head = email.message_from_bytes(hdr[0][1])
         sender = (email.utils.parseaddr(decode(head.get("From", "")))[1] or "").lower()

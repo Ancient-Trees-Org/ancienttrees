@@ -43,6 +43,8 @@ from email.header import decode_header, make_header
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIRST_BATCH = "2026-08-08"
+SPAM = '"[Gmail]/Spam"'                      # the space needs the quotes
+BOXES = ("INBOX", SPAM)
 
 
 def strip_prefixes(subject):
@@ -105,6 +107,22 @@ def allowed_senders():
                 "libero.it", "alice.it", "wanadoo.fr", "orange.fr", "free.fr"}
     domains -= FREEMAIL
     return addrs, domains, FREEMAIL
+
+
+def aware(date):
+    """A mail Date header as a timezone-aware datetime, or None.
+
+    Some spam carries a Date with no zone ("-0000" parses naive), and one
+    naive time among aware ones crashed the answered/owed comparison
+    (2026-11-19, the first run that read Spam). Naive is taken as UTC."""
+    import datetime
+    try:
+        t = email.utils.parsedate_to_datetime(date) if date else None
+    except (TypeError, ValueError):
+        return None
+    if t and t.tzinfo is None:
+        t = t.replace(tzinfo=datetime.timezone.utc)
+    return t
 
 
 def decode(s):
@@ -261,15 +279,30 @@ def main():
     SUBJECTS = our_subjects()
     d = imaplib.IMAP4_SSL(host)
     d.login(user, pw)
-    d.select("INBOX", readonly=True)          # readonly: cannot change his mail
     y, m, dd = since.split("-")
     month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][int(m) - 1]
-    ok, data = d.search(None, f'(SINCE {int(dd)}-{month}-{y})')
-    ids = data[0].split()
+    # INBOX AND SPAM. Added 2026-11-19: Boomzorg's editor asked for an
+    # interview on 11-02 and again on 11-12, and both mails sat in Gmail's
+    # Spam, as did 30 other replies from people we wrote to (Londonist, the
+    # Irish Wildlife Trust, Biorama...). Mail to info@ reaches Gmail through
+    # ImprovMX's forwarding, which Gmail trusts less. This reader looked at
+    # INBOX only, so nobody saw them, and Gmail deletes spam after 30 days.
+    # The same sender filter applies in both folders; still readonly.
+    ids = []
+    for box in BOXES:
+        if d.select(box, readonly=True)[0] != "OK":   # readonly: cannot change his mail
+            print(f"({box} not readable)")
+            continue
+        ok, data = d.search(None, f'(SINCE {int(dd)}-{month}-{y})')
+        ids += [(box, n) for n in data[0].split()]
     matched, skipped, bounces = [], 0, []
+    current = None
     for i in ids:
-        ok, hdr = d.fetch(i, "(BODY.PEEK[HEADER.FIELDS (FROM TO CC DATE SUBJECT)])")
+        if i[0] != current:
+            d.select(i[0], readonly=True)
+            current = i[0]
+        ok, hdr = d.fetch(i[1], "(BODY.PEEK[HEADER.FIELDS (FROM TO CC DATE SUBJECT)])")
         if ok != "OK" or not hdr or not hdr[0]:
             continue
         h = email.message_from_bytes(hdr[0][1])
@@ -336,9 +369,13 @@ def main():
             print(f"  {date}  {subj[:70]}")
         print()
     for i, frm, subj, date in matched:
-        print(f"--- {date}\n    from: {frm}\n    subj: {subj}")
+        where = "  (IN SPAM: mark it Not spam)" if i[0] == SPAM else ""
+        print(f"--- {date}{where}\n    from: {frm}\n    subj: {subj}")
         if read_bodies:
-            ok, raw = d.fetch(i, "(BODY.PEEK[])")
+            if i[0] != current:
+                d.select(i[0], readonly=True)
+                current = i[0]
+            ok, raw = d.fetch(i[1], "(BODY.PEEK[])")
             if ok == "OK" and raw and raw[0]:
                 msg = email.message_from_bytes(raw[0][1])
                 print("    ---")
@@ -366,7 +403,7 @@ def main():
     import email.utils as eu
     incoming = {}
     for i, frm, subj, date in matched:
-        t = eu.parsedate_to_datetime(date) if date else None
+        t = aware(date)
         if t and (frm not in incoming or t > incoming[frm]):
             incoming[frm] = t
     answered = {}
@@ -379,7 +416,7 @@ def main():
                 continue
             h = email.message_from_bytes(hdr[0][1])
             when = h.get("Date")
-            t = eu.parsedate_to_datetime(when) if when else None
+            t = aware(when)
             if not t:
                 continue
             for _, to in eu.getaddresses([h.get("To", "")]):

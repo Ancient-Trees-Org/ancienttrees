@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 session: 31 outreach replies found in Gmail Spam, mail readers now read Spam
+
+- **What happened**: Boomzorg (NWST) asked for an interview on 11-02 and 11-12; both mails sat in Gmail Spam, and only today's from redactie@ reached the inbox (Hidde has answered it). Spam held 31 replies from people we wrote to, from 10-20 on: Londonist, Irish Wildlife Trust, Biorama, Waste Magazine, The Simple Things, Uncover Liverpool, Lausanne Tourisme, esMadrid, Hookuleana (Honolulu), Glasgow Necropolis, Dendrologische Vereniging, Arboretum Wespelaar, urban.brussels, Huerto del Rey Moro, Lobo do Mar, Richard Bright (Cramond), Bill Guion, readers (Old Knobbley among them). Likely cause: info@ reaches Gmail through ImprovMX forwarding, which Gmail trusts less. Gmail deletes spam after 30 days.
+- **Done, on Hidde's yes ("Ja, doe beide")**: the 31 moved from Spam to the inbox (the rest of Spam is junk and DMARC reports). `outreach_inbox.py` and `reader_mail_replies.py` now read INBOX and Spam (still readonly; a spam hit prints "IN SPAM: mark it Not spam"). Also fixed a crash in outreach_inbox.py's answered/owed comparison when a Date header has no zone.
+- **Still owed a reply** (from spam, never answered): Londonist, IWT, Biorama, Waste Magazine, The Simple Things, Uncover Liverpool, esMadrid, Hookuleana, Glasgow Necropolis, Dendrologische Vereniging, Arboretum Wespelaar, urban.brussels, Huerto del Rey Moro, Lobo do Mar, Richard Bright, kabelmail (Frankfurt), Lisa Prest. Run `outreach_inbox.py --read --since 2026-10-20` for their words.
+- **For Hidde**: a Gmail filter "To: info@ancienttrees.app → Never send it to Spam" stops this at the source.
+
 ## 2026-11-19 session: Android test invitation sent to the first 100
 
 - **Google approved the closed test** (release 2, "available to selected testers" since 2026-11-18 16:32; Play sent no mail about it, it only showed in the console).
