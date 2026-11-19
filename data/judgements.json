@@ -380,16 +380,19 @@
    "kind": "photo of a tree we map",
    "tree": "The Anseman Oak",
    "city": "New Orleans",
-   "species": "Southern Live Oak",
+   "species": "Southern Live Oak (Quercus virginiana)",
    "photo": "out/sightings/f37a9e16-ce5b-48ab-a115-8f435303f92e.jpg",
    "reader_note": "",
    "reader_girth_cm": null,
    "match": "app",
-   "distance_m": null,
-   "current_photo": null,
-   "measure": null,
+   "distance_m": 126,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak (Quercus virginiana)"
+   },
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-19: the Anseman Oak trunk and crown by the lagoon, daylight, colour; second view in the strip.",
+   "reason": "Not the Anseman Oak (126 m north, different trunk): lead photograph of its own tree, new-orleans/nol_009.",
    "hidde": null,
    "agreed": null
   },
@@ -17681,6 +17684,243 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6ae2d9b6-0162-4005-9aac-c047d60cd052",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Banyan Tree",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/6AE2D9B6-0162-4005-9AAC-C047D60CD052.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of islamorada/isl_001, the reader's own tree. Photograph viewed 2026-11-19: a banyan's many aerial-root trunks with a gravel path running through them, orchids and small signs hung on the trunks, tropical planting around, bright daylight, colour. Live as islamorada/isl_001 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "lead:6ae2d9b6-0162-4005-9aac-c047d60cd052",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Banyan Tree",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/6AE2D9B6-0162-4005-9AAC-C047D60CD052.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Live as islamorada/isl_001: the banyan of The Banyan Tree garden, a grove of root-trunks with a path through it, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1a16eaec-2a91-4864-8c72-35d0dd2d5d8c",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Another Key West Kapok",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/1A16EAEC-2A91-4864-8C72-35D0DD2D5D8C.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of key-west/kyw_007, the reader's own tree. Photograph viewed 2026-11-19: the kapok's whole lower trunk from close by, swollen grey buttresses sprawling over the ground, thick limbs and pinnate green leaves above, flame tree flowers at the edge, bright daylight, colour. Live as key-west/kyw_007 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "lead:1a16eaec-2a91-4864-8c72-35d0dd2d5d8c",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Another Key West Kapok",
+   "city": null,
+   "species": "Kapok",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/1A16EAEC-2A91-4864-8C72-35D0DD2D5D8C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok"
+   },
+   "verdict": "publish",
+   "reason": "Live as key-west/kyw_007: a kapok with huge sprawling buttress roots in Old Town, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:69be172d-cd73-4193-a6b9-d12df857d756",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Even More Key West Kapoks",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/69BE172D-CD73-4193-A6B9-D12DF857D756.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of key-west/kyw_008, the reader's own tree. Photograph viewed 2026-11-19: a big kapok on a planted bed beside a cream building with white shutters, its buttress roots twisting into the trunk, a second kapok behind it in the extra photograph, bright daylight, colour. Live as key-west/kyw_008 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "lead:69be172d-cd73-4193-a6b9-d12df857d756",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Even More Key West Kapoks",
+   "city": null,
+   "species": "Kapok",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/69BE172D-CD73-4193-A6B9-D12DF857D756.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok"
+   },
+   "verdict": "publish",
+   "reason": "Live as key-west/kyw_008: two big kapoks beside Key West City Hall on White Street, GPS fix, two photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d4f02aa3-8e55-4f95-833a-ee47c9394ba0",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "A tree near San Diego",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/D4F02AA3-8E55-4F95-833A-EE47C9394BA0.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of san-diego/sdg_014, the reader's own tree. Photograph viewed 2026-11-19: a dragon tree's whole umbrella crown of spiky rosettes on dozens of forked grey branches, a thick plated trunk, hedges and a white building behind, low golden evening light, colour. Live as san-diego/sdg_014 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "lead:d4f02aa3-8e55-4f95-833a-ee47c9394ba0",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "A tree near San Diego",
+   "city": null,
+   "species": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/D4F02AA3-8E55-4F95-833A-EE47C9394BA0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as san-diego/sdg_014: a many-forked dragon tree in Scripps Park above La Jolla Cove, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a3ea97ce-6e19-436c-99be-618dc3c48771",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "A tree in San Diego",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/A3EA97CE-6E19-436C-99BE-618DC3C48771.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Lead photograph of san-diego/sdg_015, the reader's own tree. Photograph viewed 2026-11-19: a fig's short trunk and long low limbs reaching out level over the lawn and towards the street, glossy oval leaves overhead, parked cars and Sixth Avenue behind, bright daylight, colour. Live as san-diego/sdg_015 under the closed list (Hidde, 2026-11-17)."
+  },
+  {
+   "id": "lead:a3ea97ce-6e19-436c-99be-618dc3c48771",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "A tree in San Diego",
+   "city": null,
+   "species": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/A3EA97CE-6E19-436C-99BE-618DC3C48771.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as san-diego/sdg_015: a fig with long level limbs on the Sixth Avenue edge of Balboa Park, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f37a9e16-ce5b-48ab-a115-8f435303f92e",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "New Orleans",
+   "species": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/F37A9E16-CE5B-48AB-A115-8F435303F92E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as new-orleans/nol_009: a big mossy live oak by the Bayou Metairie lagoon in City Park, GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f074ff96-c720-45f6-9846-4accc10c9516",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Balboa Park",
+   "city": "San Diego",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/f074ff96-c720-45f6-9846-4accc10c9516.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph of the Balboa Park Moreton Bay fig (san-diego/sdg_001): buttress roots inside the low fence, GPS fix 12 m from our pin.",
    "hidde": null,
    "agreed": null
   }

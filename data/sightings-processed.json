@@ -5095,14 +5095,52 @@
    "pin_checked": "2026-11-19"
   },
   "f37a9e16-ce5b-48ab-a115-8f435303f92e": {
-   "outcome": "added",
+   "outcome": "published",
    "date": "2026-11-19",
    "tree_id": "nol_002",
-   "city_slug": "new-orleans",
-   "file": "nol_002-the-anseman-oak-f37a9e16.jpg",
-   "reason": "Anseman Oak trunk and crown by the lagoon, a second view beside the lead. Species seen: Southern Live Oak (Quercus virginiana), Spanish moss. Fits the description: massive live oak trunk with spreading limbs.",
-   "lat": 29.9842966666667,
-   "lon": -90.0983888333333,
+   "reason": "A big live oak by the lagoon with a sidewalk in front, GPS fix 126 m north of the Anseman Oak's pin (itself another reader's GPS fix), and a different trunk from the Anseman's lead photo (forked mid-height, no burls). Another City Park oak: judge as a new tree.",
+   "tree": "new-orleans/nol_009",
+   "judged": "2026-11-19"
+  },
+  "6ae2d9b6-0162-4005-9aac-c047d60cd052": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree": "islamorada/isl_001",
+   "judged": "2026-11-19"
+  },
+  "1a16eaec-2a91-4864-8c72-35d0dd2d5d8c": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree": "key-west/kyw_007",
+   "judged": "2026-11-19"
+  },
+  "69be172d-cd73-4193-a6b9-d12df857d756": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree": "key-west/kyw_008",
+   "judged": "2026-11-19"
+  },
+  "d4f02aa3-8e55-4f95-833a-ee47c9394ba0": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree": "san-diego/sdg_014",
+   "judged": "2026-11-19"
+  },
+  "a3ea97ce-6e19-436c-99be-618dc3c48771": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree": "san-diego/sdg_015",
+   "judged": "2026-11-19"
+  },
+  "f074ff96-c720-45f6-9846-4accc10c9516": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "sdg_001",
+   "city_slug": "san-diego",
+   "file": "sdg_001-the-moreton-bay-fig-of-balboa-park-f074ff96.jpg",
+   "reason": "The Balboa Park Moreton Bay fig, GPS fix 12 m from our pin: the buttressed trunk and roots inside the low fence, daylight, colour. A reader's own photograph leads (Hidde, 2026-10-23). Species seen: Moreton Bay fig: smooth grey bark, huge plank buttress roots, large leathery leaves with rusty undersi",
+   "lat": 32.7327533333333,
+   "lon": -117.1476055,
    "pin_checked": "2026-11-19"
   }
  },

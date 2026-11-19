@@ -1,0 +1,72 @@
+{
+  "city": "Islamorada",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Islamorada strings along several islands in the Upper Florida Keys, joined by the Overseas Highway. On Upper Matecumbe Key a garden and shop is named for the tree it was built around: a banyan whose root-trunks have become a small grove with a gravel path running through them and orchids tied to the pillars. A reader walked through it and sent us its photograph.",
+  "meta_description": "The banyan of the Banyan Tree garden in Islamorada, Florida Keys: a grove of root-trunks with a path through it, and how to visit.",
+  "hero_tree_id": "isl_001",
+  "oldest_tree_id": "isl_001",
+  "question_meta": "Islamorada's banyan: the tree a Florida Keys garden and shop was built around, where it is and when you can walk through it.",
+  "question_answer": "We map one tree in Islamorada: the banyan at The Banyan Tree, a garden and shop at 81197 Overseas Highway on Upper Matecumbe Key. A reader sent us its photograph from the gravel path that runs between its root-trunks. We have no measured age for it.",
+  "question_context": "Islamorada is the village of the Upper Florida Keys, spread over several islands along the Overseas Highway between Key Largo and Marathon. On Upper Matecumbe Key, at 81197 Overseas Highway, a garden and boutique called The Banyan Tree takes its name from the tree at its heart, and visitor listings describe orchids and rare tropical plants throughout the grounds. A reader walked in and sent us a photograph taken from the gravel path that runs straight through the banyan. A banyan is a fig that drops roots from its branches; when they reach the ground they thicken into new trunks, until one tree stands on a grove of pillars. Here the pillars are hung with orchids and small signs, and the limbs arch over the path. The reader knows it as an Indian banyan; several figs grow this way in South Florida, so we name it only as a fig for now. Listings give the opening hours differently, so check before you drive down.",
+  "faq": [
+    {
+      "q": "Can you visit the banyan in Islamorada?",
+      "a": "Yes, in the opening hours of The Banyan Tree garden and shop at 81197 Overseas Highway. Listings disagree on the hours, so check before you go."
+    },
+    {
+      "q": "What kind of tree is the Islamorada banyan?",
+      "a": "A fig that grows as a banyan, dropping roots from its branches that become new trunks. The reader who sent it knows it as an Indian banyan; we would like a reader who knows the species to confirm it."
+    },
+    {
+      "q": "How old is the banyan at The Banyan Tree?",
+      "a": "We do not know yet. Nobody has given us a planting date or a measurement; if you know one, tell us."
+    }
+  ],
+  "trees": [
+    {
+      "id": "isl_001",
+      "name": "The Banyan of the Banyan Tree Garden",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "The Banyan Tree garden and boutique, 81197 Overseas Highway, Islamorada, Florida",
+        "latitude": 24.91128,
+        "longitude": -80.64263,
+        "neighbourhood": "Upper Matecumbe Key"
+      },
+      "how_to_recognise": "A banyan of many grey root-trunks with a gravel path running right through them, orchids tied to the trunks and small painted signs hanging among them.",
+      "access": "In the grounds of The Banyan Tree, a garden and shop on the Overseas Highway; open in its business hours, which listings give differently, so check before you go.",
+      "verified_sources": [
+        "https://visitfloridakeys.com/things-to-do/banyan-tree-nursery/5585148 (Florida Keys visitor listing: The Banyan Tree, 81197 Overseas Highway, Islamorada)",
+        "https://www.islands.com/1866788/banyan-tree-garden-boutique-islamorada-best-kept-secret-stylish-unique-quirky-shop (Islands: a garden and boutique built around a large banyan, orchids and tropical plants throughout)"
+      ],
+      "story": "On the Overseas Highway in Islamorada there is a garden and shop that takes its name from the tree it was built around, and a reader walked in, stood on the gravel path and photographed the banyan from inside it.\n\nA banyan is a fig that refuses to stop at one trunk. Roots drop from its branches, reach the ground and thicken into new trunks, until a single tree becomes a small grove of grey pillars holding up one crown. That is what the photograph shows: column after column of root-trunks, some smooth, some twisted into ropes, with the path running between them and the limbs arching overhead. Orchids have been tied onto the trunks and are flowering white, and small signs hang among them.\n\nThe reader knows it as an Indian banyan. Several figs in South Florida grow this way, so we have named it only as a fig and would like a reader who knows to tell us which. We have no age or size for it yet either.\n\nThe visitor listings call the garden an oasis. Walk the path all the way through and look up where the limbs meet.",
+      "found_by_reader": {
+        "sighting_id": "6ae2d9b6-0162-4005-9aac-c047d60cd052",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6ae2d9b6-0162-4005-9aac-c047d60cd052",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (6ae2d9b6-0162-4005-9aac-c047d60cd052, 2026-11-19, through the app). Photograph viewed: a banyan's many aerial-root trunks with a gravel path running through them, orchids and small signs hung on the trunks, tropical planting around, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Banyan Tree', species 'Indian Banyan'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/isl_001-banyan-of-the-banyan-tree-garden.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "6ae2d9b6-0162-4005-9aac-c047d60cd052",
+        "note": "Photographed by a reader and sent through the app (2026-11-19, through the app); viewed and approved on 2026-11-19: a banyan's many aerial-root trunks with a gravel path running through them, orchids and small signs hung on the trunks, tropical planting around, bright daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

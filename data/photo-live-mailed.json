@@ -2175,6 +2175,24 @@
      "city_slug": "new-orleans",
      "display_name": null,
      "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
+     "tree_id": "nol_001",
+     "tree_name": "The McDonogh Oak",
+     "city": "New Orleans",
+     "city_slug": "new-orleans",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "f074ff96-c720-45f6-9846-4accc10c9516",
+     "tree_id": "sdg_001",
+     "tree_name": "The Moreton Bay Fig of Balboa Park",
+     "city": "San Diego",
+     "city_slug": "san-diego",
+     "display_name": null,
+     "live": "2026-11-19"
     }
    ],
    "sent": [

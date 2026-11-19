@@ -1,5 +1,14 @@
 # LOG
 
+## 2026-11-19 reader judge: the rest of the batch, six trees live, the Anseman doubt settled
+- Same reader's batch as the runs below; Serenbe and the McDonogh photo were already in from them, so this run rebuilt its work on top of theirs. Every photograph viewed.
+- **Live, new place**: islamorada/isl_001, the banyan of The Banyan Tree garden and shop, 81197 Overseas Highway (visitor listings as source; named only as a fig, the reader says Indian banyan). Islamorada added to us-states.json and city-aliases.json, with intro, question texts and three FAQ. One tree, so no place page on the web.
+- **Live in existing places**: key-west/kyw_007 The Elephant-Foot Kapok (Old Town), kyw_008 The White Street Kapoks (beside City Hall, two photos), san-diego/sdg_014 The Dragon Tree of La Jolla Cove, sdg_015 The Fig with the Long Arms on Sixth Avenue (Balboa Park edge, species left as Ficus sp.). All pins are the reader's GPS fixes.
+- **sdg_001 Balboa Park Moreton Bay fig**: the reader's photo (GPS 12 m) now leads, the Commons one moves to the strip.
+- **The Anseman doubt the parallel run logged, settled**: f37a9e16 is 126 m north of the Anseman's GPS pin with a different trunk, so it came out of nol_002's strip and is live as **new-orleans/nol_009 The Oak by the Bayou Metairie Lagoon**.
+- Counts: San Diego intro and FAQ no longer count trees, Balboa Park page 5 to 6, New Orleans intro, meta, question and FAQ eight to nine, City Park page 6 to 7. The McDonogh story's colon reveal rewritten (the check applies now it has a reader photo).
+- Three reader-judge runs took the same batch at once again; worth a look at the trigger's de-duplication. No open reports, no feedback without a verdict. Still open: 3c544597 (our own account, file not on this machine).
+
 ## 2026-11-19 reader judge (parallel run): Serenbe access made honest, one doubt on the Anseman strip photo
 - This run judged the same six sightings as the two runs below, in parallel, and reached the same verdicts on all but one; their versions are kept and mine dropped before push. Three reader-judge runs at once on one reader's batch: the trigger fired per sighting.
 - **Serenbe (srb_001, srb_002)**: Serenbe's own trails page says the trails are for residents and Inn at Serenbe guests and open to the public only at the twice-yearly Serenbe Trail Race. Access lines, question_context and the "Can I visit them?" FAQ now say that instead of "not confirmed", with the page as a source.

@@ -2,9 +2,9 @@
   "city": "New Orleans",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Six of these eight stand in City Park, which holds more registered live oaks than any other place on earth, and the three oldest sit on a strip between City Park Avenue and Bayou Metairie that never flooded, not even in 2005. The bayou spent centuries dropping silt and raised that ground a metre above the rest of the park, which is why the city's oldest oaks are the ones on the high ground. Two are reckoned between seven and nine hundred years old and one stands on wooden crutches. The other two are uptown by the zoo.",
-  "meta_description": "Eight remarkable trees in New Orleans: a 700-year live oak on crutches, the last duelling oak, an oak hung with wind chimes, and the Tree of Life.",
-  "question_meta": "New Orleans's oldest tree is the McDonogh Oak in City Park, reckoned at 700 to 800 years. Where it stands, and seven more worth the walk.",
+  "intro": "Seven of these nine stand in City Park, which holds more registered live oaks than any other place on earth, and the three oldest sit on a strip between City Park Avenue and Bayou Metairie that never flooded, not even in 2005. The bayou spent centuries dropping silt and raised that ground a metre above the rest of the park, which is why the city's oldest oaks are the ones on the high ground. Two are reckoned between seven and nine hundred years old and one stands on wooden crutches. The other two are uptown by the zoo.",
+  "meta_description": "Nine remarkable trees in New Orleans: a 700-year live oak on crutches, the last duelling oak, an oak hung with wind chimes, and the Tree of Life.",
+  "question_meta": "New Orleans's oldest tree is the McDonogh Oak in City Park, reckoned at 700 to 800 years. Where it stands, and eight more worth the walk.",
   "question_answer": "The oldest tree in New Orleans is the McDonogh Oak, a southern live oak in the Old Grove of City Park, between City Park Avenue and Bayou Metairie. City Park puts it at 700 to 800 years and other accounts stretch to 900, which would make it older than the city by five centuries. The trunk is over eight metres round and the crown reaches about forty six metres across, wide enough that the longest branches now rest on wooden crutches. The Anseman Oak, a few hundred metres west in the same grove, is given the same range and by some accounts is the older of the two. Nobody has cored either, so the honest answer is that they are the two oldest and the order between them is not settled.",
   "question_context": "Ages here are estimates from City Park and from the Old-Growth Forest Network, which added this grove in 2018 as the first site in Louisiana. None comes from a core sample. Live oak is difficult to date because it grows fast when young, slows unpredictably and often hollows, so a range of two centuries is the honest width. Girths are firmer: the trunk figures come from measured surveys and from the Live Oak Society, which has registered live oaks since 1934 and now lists over ten thousand across fourteen states. Two hundred and forty nine of them stand in City Park, more registered live oaks than anywhere else on earth. That society is a garden club rather than a government body, so it is used here to find and cross-check trees rather than as a register in its own right. Where a pin is marked approximate it means the street or the grove is known and the trunk is not, which in a grove of hundreds of old oaks is worth saying plainly.",
   "hero_tree_id": "nol_001",
@@ -24,7 +24,7 @@
     },
     {
       "q": "Are these free to visit?",
-      "a": "Six of the eight. City Park and Audubon Park are open public parks with no entry charge, and the Tree of Life stands outside the zoo fence, so no ticket is needed for it. Two, though, sit behind a ticket: the Martha Washington Oak is inside Audubon Zoo and the Enrique Alferez Oak is inside City Park's Botanical Garden, both of which charge their own admission."
+      "a": "Seven of the nine. City Park and Audubon Park are open public parks with no entry charge, and the Tree of Life stands outside the zoo fence, so no ticket is needed for it. Two, though, sit behind a ticket: the Martha Washington Oak is inside Audubon Zoo and the Enrique Alferez Oak is inside City Park's Botanical Garden, both of which charge their own admission."
     }
   ],
   "trees": [
@@ -115,23 +115,7 @@
         "moved_m": 92,
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/nol_002-the-anseman-oak-f37a9e16.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 2,
-          "source": "contributor",
-          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
-          "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
-          "note": "Photographed by a reader and sent through the app (2026-02-22); in the strip since 2026-11-19, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-19"
-        }
-      ]
+      }
     },
     {
       "id": "nol_003",
@@ -371,6 +355,50 @@
       },
       "photos": [],
       "paid_entry": true
+    },
+    {
+      "id": "nol_009",
+      "name": "The Oak by the Bayou Metairie Lagoon",
+      "species": "Southern Live Oak (Quercus virginiana)",
+      "location": {
+        "address": "City Park, on the path along the Bayou Metairie lagoon north of the Anseman Avenue entrance",
+        "latitude": 29.9842966666667,
+        "longitude": -90.0983888333333,
+        "neighbourhood": "City Park"
+      },
+      "story": "A reader walking City Park's old oak grove in February photographed this tree, and at first we filed the picture under the Anseman Oak. Its GPS fix says otherwise. It was taken about 130 metres further north, on the side of the grove that runs down to the water of Bayou Metairie, and the trunk is a different shape, so it has a page of its own.\n\nIt is a southern live oak, hung with Spanish moss like its neighbours. The trunk is broad and short and rises out of a fan of surface roots beside the path, then forks at about head height into a handful of enormous limbs that twist up and out in every direction, carrying a crown that fills the sky in the photograph. The lagoon shows through at the left, and fan palms crowd the bank behind.\n\nCity Park's oldest oaks grow on the raised strip of ground between City Park Avenue and the bayou, which the bayou built up with its silt over centuries. This one stands at the bayou end of it. We have no name, age or girth for it yet. If you know it, tell us and we will add it as yours.\n\nFollow the path along the water and look for the fork above the roots.",
+      "how_to_recognise": "On the path beside the lagoon: a mossy live oak whose short broad trunk forks at head height into several huge twisting limbs, roots fanning out over the ground to the path.",
+      "access": "Free. Public city park, open daily.",
+      "verified_sources": [
+        "https://neworleanscitypark.org/venues/mcdonogh-oak/ (City Park: the Old Grove of live oaks along Bayou Metairie)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app for the Anseman Oak (photo taken 2026-02-22). Its GPS fix is 126 m north of the Anseman's pin, itself another reader's GPS fix, and the trunk differs from the Anseman's lead photograph, so it was taken out of that tree's strip (other_tree) and published as a tree of its own under the closed list. Photograph viewed: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nol_009-oak-by-the-bayou-metairie-lagoon.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 2,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+        "note": "Photographed by a reader and sent through the app (2026-02-22); viewed and approved on 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

@@ -298,6 +298,104 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "kyw_007",
+      "name": "The Elephant-Foot Kapok",
+      "species": "Kapok (Ceiba pentandra)",
+      "location": {
+        "address": "Old Town, Key West, Florida (the reader's GPS fix)",
+        "latitude": 24.5575216666667,
+        "longitude": -81.7977833333333,
+        "neighbourhood": "Old Town"
+      },
+      "how_to_recognise": "A smooth grey kapok whose roots spill over the ground in great rounded humps like an elephant's foot, its trunk ringed with knobbly swellings where the lower limbs leave it.",
+      "access": "The reader photographed it from the path beside it. We have not confirmed whose ground it stands on; look from the path.",
+      "story": "Key West has a soft spot for its kapoks, and this reader, who had already sent us the one at the courthouse, kept going and found another in Old Town, a few hundred metres from the city cemetery, with a GPS fix taken at its foot.\n\nThe photograph is all trunk. The bark is the smooth elephant grey of an old kapok, and at the bottom the roots do not so much go into the ground as pour out over it, in huge rounded humps and ridges that spread several metres before they disappear, so that the whole base looks like a giant animal's foot set down on the path. Higher up the trunk is ringed with knobbly collars where limbs leave it, and the limbs themselves run almost level before they turn up into a canopy of fingered leaves. A flame tree in flower hangs in from the left.\n\nKapoks come from the tropical Americas and West Africa and grow fast, so a trunk like this need not be very old, but we have no planting date or girth for it. If you know this tree, tell us and we will add it as yours.\n\nWalk round the base slowly; the roots change shape on every side.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "1a16eaec-2a91-4864-8c72-35d0dd2d5d8c",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "1a16eaec-2a91-4864-8c72-35d0dd2d5d8c",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (1a16eaec-2a91-4864-8c72-35d0dd2d5d8c, 2026-11-19, through the app). Photograph viewed: the kapok's whole lower trunk from close by, swollen grey buttresses sprawling over the ground, thick limbs and pinnate green leaves above, flame tree flowers at the edge, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Another Key West Kapok', species 'Kapok'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kyw_007-elephant-foot-kapok.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "1a16eaec-2a91-4864-8c72-35d0dd2d5d8c",
+        "note": "Photographed by a reader and sent through the app (2026-11-19, through the app); viewed and approved on 2026-11-19: the kapok's whole lower trunk from close by, swollen grey buttresses sprawling over the ground, thick limbs and pinnate green leaves above, flame tree flowers at the edge, bright daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "kyw_008",
+      "name": "The White Street Kapoks",
+      "species": "Kapok (Ceiba pentandra)",
+      "location": {
+        "address": "Beside Key West City Hall, 1300 White Street, Key West, Florida",
+        "latitude": 24.5563333333333,
+        "longitude": -81.7907416666667,
+        "neighbourhood": "White Street"
+      },
+      "how_to_recognise": "In the planted bed beside the cream building with white shutters: a kapok whose buttress roots twist up around the trunk like ropes, a second big kapok standing just behind it.",
+      "access": "Free. In a planted bed beside a public building, seen from the paths around it.",
+      "verified_sources": [
+        "https://keysweekly.com/?p=71201 (Keys Weekly: the 1923 school building at 1300 White Street is now Key West City Hall)"
+      ],
+      "story": "The reader who sent this one called it \"Even More Key West Kapoks\", and the plural is fair: there are two of them, one behind the other, beside the cream building with white shutters on White Street where the reader's GPS fix puts them. That building opened as Key West's high school in 1923 and is now City Hall.\n\nThe nearer tree is the one to look at. Its roots rise out of the bed in long twisting ribs that wrap around the trunk as they climb, as if the tree were wringing itself out, and one of them peels away from the rest to make a deep hollow at the foot. Above, the smooth grey trunk opens into heavy limbs with knobbly bosses where branches have come off, carrying a broad canopy of fingered leaves that shades the steps and the bike racks. The second kapok, which the reader photographed too, stands a few metres back with the same pale bark.\n\nWe have no planting date or girth for either. If you know when they went in, perhaps in the school's day, tell us and we will add it as yours.\n\nStand by the steps to see both trunks in line.",
+      "found_by_reader": {
+        "sighting_id": "69be172d-cd73-4193-a6b9-d12df857d756",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "69be172d-cd73-4193-a6b9-d12df857d756",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (69be172d-cd73-4193-a6b9-d12df857d756, 2026-11-19, through the app). Photograph viewed: a big kapok on a planted bed beside a cream building with white shutters, its buttress roots twisting into the trunk, a second kapok behind it in the extra photograph, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Even More Key West Kapoks', species 'Kapok'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kyw_008-white-street-kapoks.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "69be172d-cd73-4193-a6b9-d12df857d756",
+        "note": "Photographed by a reader and sent through the app (2026-11-19, through the app); viewed and approved on 2026-11-19: a big kapok on a planted bed beside a cream building with white shutters, its buttress roots twisting into the trunk, a second kapok behind it in the extra photograph, bright daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kyw_008-white-street-kapoks-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+          "sighting_id": "69be172d-cd73-4193-a6b9-d12df857d756",
+          "note": "A second photograph the reader sent with the first (2026-11-19, through the app); viewed 2026-11-19. Not an open licence."
+        }
+      ]
     }
   ]
 }
