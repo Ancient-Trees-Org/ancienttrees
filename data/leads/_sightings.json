@@ -7471,6 +7471,66 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "trephina-gorge/tgg_001"
+  },
+  {
+   "sighting_id": "a40f07a6-be9c-4938-9613-c7674cd1ab01",
+   "user_id": "p_ca8e58c3da3caefe11e2c006",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 12.1598184574509,
+   "longitude": 99.6527127643113,
+   "near": null,
+   "photo": "p_ca8e58c3da3caefe11e2c006/A40F07A6-BE9C-4938-9613-C7674CD1AB01.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photo looked at 2026-11-19: a slender young pale-barked tree with feathery compound leaves among other young trees in regrowing scrub beside a dirt track. Nothing big, old or striking to walk to.",
+   "seen": "2026-11-19",
+   "hold": "not_special",
+   "judged": "2026-11-19"
+  },
+  {
+   "sighting_id": "e99b9502-2495-44d6-a73f-687c631291e0",
+   "user_id": "p_0c1194b7b6eecdab26827090",
+   "mine": false,
+   "name": "Fig",
+   "unsure_among": null,
+   "species": "Fig",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -6.2083434,
+   "longitude": 106.8116721,
+   "near": null,
+   "photo": "p_0c1194b7b6eecdab26827090/E99B9502-2495-44D6-A73F-687C631291E0.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photo looked at 2026-11-19: a medium street tree under overhead cables on a Jakarta pavement, single moderate trunk, glossy leathery leaves in clusters (not plainly a fig). An ordinary street tree, not big or old for its kind.",
+   "seen": "2026-11-19",
+   "hold": "not_special",
+   "judged": "2026-11-19"
   }
  ]
 }

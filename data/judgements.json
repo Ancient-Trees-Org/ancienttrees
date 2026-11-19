@@ -1550,6 +1550,59 @@
    "agreed": null
   },
   {
+   "id": "lead:a40f07a6-be9c-4938-9613-c7674cd1ab01",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_ca8e58c3da3caefe11e2c006/A40F07A6-BE9C-4938-9613-C7674CD1AB01.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Looked at: a slender young tree in regrowing scrub by a dirt track in Thailand; not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e99b9502-2495-44d6-a73f-687c631291e0",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Fig",
+   "city": null,
+   "species": "Fig",
+   "photo": "p_0c1194b7b6eecdab26827090/E99B9502-2495-44D6-A73F-687C631291E0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig"
+   },
+   "verdict": "hold",
+   "reason": "Looked at: a medium street tree under cables on a Jakarta pavement, not plainly a fig; not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",

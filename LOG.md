@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: two new reader trees held as not special
+
+- **Held, no mail** (`not_special`), both sent after the earlier run that published the Saratoga Park oak photograph: a40f07a6 is a slender young tree in regrowing scrub by a dirt track in Thailand. e99b9502 ("Fig") is a medium street tree under cables in Jakarta and does not plainly look like a fig. This run made the same calls on the two New York photographs as that run, which pushed first, so its versions stand.
+- No report is open and no feedback is waiting. qa --source-only, preflight and i18ncheck are clean.
+
 ## 2026-11-19 session: Resend keeps 40 a day for sign-in mail; stuck sign-ups get their mail again
 
 - **Reserve** (Hidde: "ja graag"): first mails to strangers may use 60 of Resend's 100 a day (`RESEND_FOR_STRANGERS` in scripts/mailer.py, counted from the `route` outreach_send.py now logs), then go through Gmail. Yahoo, Apple-relay and BT addresses always keep Resend. Tests in scripts/test_mailer.py.
