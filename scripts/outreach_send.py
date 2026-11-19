@@ -296,7 +296,13 @@ def main():
         # link if her mail program guesses it is one.
         msg.add_alternative(html_twin(m["body"]), subtype="html")
         if server is None:
-            server = mailer.connect(creds, timeout=30, kind=mailer.FIRST)
+            # A batch to people who asked to hear from us (the waitlist, testers)
+            # says "kind": "expected" and goes through Gmail, so it never eats
+            # Resend's 100 a day (2026-11-19: the Android invitation to 100
+            # waitlist addresses went as FIRST and filled Resend by 09:36;
+            # Hidde: "dit wilde we dus niet"). Default stays FIRST: signed.
+            kind = mailer.EXPECTED if batch.get("kind") == mailer.EXPECTED else mailer.FIRST
+            server = mailer.connect(creds, timeout=30, kind=kind)
         server.send_message(msg, recent_ok=recent_ok or None)
         if not m.get("in_reply_to"):
             sent_today += 1

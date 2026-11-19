@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 session: the Android invitation filled Resend; waitlist batches now go through Gmail
+
+- **Breakage**: the 100 Android test invitations went through outreach_send.py, which always sent as a first mail to a stranger (Resend). Resend's free 100 a day was full by 09:36. Until midnight UTC, sign-in and welcome mail to Yahoo, Apple-relay and BT addresses falls back to unsigned Gmail and may bounce; everyone else is unaffected (Gmail is their route anyway).
+- **Fix**: a batch file may say `"kind": "expected"` (people who asked to hear from us: waitlist, testers) and then goes through Gmail, Resend only for the Yahoo/Apple/BT addresses in it. The Android batch carries it, so tomorrow's 68 do not touch Resend.
+
 ## 2026-11-19 session: 31 outreach replies found in Gmail Spam, mail readers now read Spam
 
 - **What happened**: Boomzorg (NWST) asked for an interview on 11-02 and 11-12; both mails sat in Gmail Spam, and only today's from redactie@ reached the inbox (Hidde has answered it). Spam held 31 replies from people we wrote to, from 10-20 on: Londonist, Irish Wildlife Trust, Biorama, Waste Magazine, The Simple Things, Uncover Liverpool, Lausanne Tourisme, esMadrid, Hookuleana (Honolulu), Glasgow Necropolis, Dendrologische Vereniging, Arboretum Wespelaar, urban.brussels, Huerto del Rey Moro, Lobo do Mar, Richard Bright (Cramond), Bill Guion, readers (Old Knobbley among them). Likely cause: info@ reaches Gmail through ImprovMX forwarding, which Gmail trusts less. Gmail deletes spam after 30 days.
