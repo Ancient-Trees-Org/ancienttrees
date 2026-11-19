@@ -649,6 +649,94 @@
    "agreed": null
   },
   {
+   "id": "sight:b188b699-e22a-4945-9b1c-4d1a37d4c68d",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Maples of Hugo Conwentz",
+   "city": "Gdansk",
+   "species": "Field Maple (Acer campestre)",
+   "photo": "out/sightings/b188b699-e22a-4945-9b1c-4d1a37d4c68d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Field Maple (Acer campestre)"
+   },
+   "verdict": "hold",
+   "reason": "Looked: the Abbots' Palace and parterre fill the frame; the maple pair cannot be picked out (rejected as bad frame)",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c20222fc-c87b-41b4-97de-6030b35d9d13",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Maples of Hugo Conwentz",
+   "city": "Gdansk",
+   "species": "Field Maple (Acer campestre)",
+   "photo": "out/sightings/c20222fc-c87b-41b4-97de-6030b35d9d13.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Field Maple (Acer campestre)"
+   },
+   "verdict": "publish",
+   "reason": "Looked: big fissured trunk by the Abbots' Palace with a fresh natural-monument plaque being hung in May 2026; now the lead photograph of gda_007",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:91a084f4-b088-451b-ba36-4d3778c84990",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Leaning Fig over the Boardwalk",
+   "city": "Melbourne",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/91a084f4-b088-451b-ba36-4d3778c84990.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 34,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked: the same leaning fig from further off among palms and tree ferns; in mel_018's strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:160cff0f-46e1-4e03-af85-602b61b4fc86",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Leaning Fig over the Boardwalk",
+   "city": "Melbourne",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/160cff0f-46e1-4e03-af85-602b61b4fc86.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 13,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked: the leaning fig over the boardwalk, roots on the right; in mel_018's strip behind the finder's lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",

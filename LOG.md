@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Gdansk maples get their first photograph, two more of the Melbourne fig, magnolia and cedar girths from readers
+
+- **Gdansk, The Maples of Hugo Conwentz (gda_007)**: a reader's photograph of the trunk by the Abbots' Palace, a fresh natural-monument plaque being hung (May 2026), is now its lead photograph; the tree had none. Their second photo (the palace and parterre, the maples not picked out) rejected as a bad frame. gda_007's story lost a colon reveal now that the page carries a photo.
+- **Melbourne, The Leaning Fig over the Boardwalk (mel_018)**: two photographs from a second reader, both this fig, went into the strip behind the finder's lead, which shows the whole curve best.
+- **Gdansk, The Cucumber Magnolia (gda_009)**: two reports with the reader's own words: 328 cm round in 2026 (register: 271), and three cucumber magnolias in the park, the second (308 cm) close by. Both now on the page as the reader's, story and recognition line; closed `holds`, no mail (their own words).
+- **La Tène, Préfargier cedars (prf_001)**: the reader's mail reply gave about 4.23 m round at 1 m; on the page as theirs. They also ask to rename the commune "Laténa" (the federal name is La Tène, not changed) and to be ambassador. Feedback 1240 `needs_hidde`, draft in drafts/reply-reader-1240-2026-11-19.md. Feedback 1241 (Old Knobbley, on Android, will send when they can) handled.
+- **Not judged**: lead 3c544597 (Amsterdam area, "not sure which tree"): photograph not on this runner, left for the next run. The older `lead` rows in _sightings.json (Nara, Kyushu, Tokyo, Baarn, mostly our own account's test photos) also have no file here.
+- For Hidde: the La Tène reader wants to be ambassador and the commune named Laténa; see the draft.
+
 ## 2026-11-19 session: the Android invitation filled Resend; waitlist batches now go through Gmail
 
 - **Breakage**: the 100 Android test invitations went through outreach_send.py, which always sent as a first mail to a stranger (Resend). Resend's free 100 a day was full by 09:36. Until midnight UTC, sign-in and welcome mail to Yahoo, Apple-relay and BT addresses falls back to unsigned Gmail and may bounce; everyone else is unaffected (Gmail is their route anyway).

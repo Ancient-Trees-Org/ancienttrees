@@ -2207,6 +2207,45 @@
      "mailed": "2026-11-19"
     }
    ]
+  },
+  "p_fdf05702bb8b7818e0c98b4d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "c20222fc-c87b-41b4-97de-6030b35d9d13",
+     "tree_id": "gda_007",
+     "tree_name": "The Maples of Hugo Conwentz",
+     "city": "Gdansk",
+     "city_slug": "gdansk",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
+  },
+  "p_6344b0c275a4e27f57f30367": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "160cff0f-46e1-4e03-af85-602b61b4fc86",
+     "tree_id": "mel_018",
+     "tree_name": "The Leaning Fig over the Boardwalk",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "91a084f4-b088-451b-ba36-4d3778c84990",
+     "tree_id": "mel_018",
+     "tree_name": "The Leaning Fig over the Boardwalk",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

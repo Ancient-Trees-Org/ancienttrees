@@ -707,7 +707,35 @@
         "contributor_user_id": "p_68e3fe2f2c08d678d123d61f",
         "sighting_id": "993d2833-d88b-43cc-a6e2-804c1e2c6921",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the leaning grey trunk from its flaring roots to the crown, a steel boardwalk passing beneath it among tree ferns and palms, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mel_018-the-leaning-fig-over-the-boardwalk-160cff0f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_6344b0c275a4e27f57f30367",
+          "sighting_id": "160cff0f-46e1-4e03-af85-602b61b4fc86",
+          "note": "Photographed by a reader and sent through the app (2021-07-11); a viewing pass approved it on 2026-11-19: The same leaning fig, roots on the right, trunk over the steel boardwalk, sun flare in the crown; good, but the current lead shows the whole curve better, so it goes in the strip. Species seen: smooth grey fig bark, buttress roots in flanges. Fits the description: smooth grey trunk leaning hard over the boardwalk among tree ferns and palms, roots gripping the bank on the right.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mel_018-the-leaning-fig-over-the-boardwalk-91a084f4.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_6344b0c275a4e27f57f30367",
+          "sighting_id": "91a084f4-b088-451b-ba36-4d3778c84990",
+          "note": "Photographed by a reader and sent through the app (2022-09-25); a viewing pass approved it on 2026-11-19: The leaning fig from further off, bird's nest ferns in its forks, palms around, the boardwalk below right; a wider view of the same trunk for the strip. Species seen: smooth grey fig trunk and limbs with epiphytic ferns. Fits the description: the leaning grey trunk among tree ferns and tall palms above the boardwalk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "mel_019",

@@ -5145,6 +5145,45 @@
    "lat": 32.7327533333333,
    "lon": -117.1476055,
    "pin_checked": "2026-11-19"
+  },
+  "c20222fc-c87b-41b4-97de-6030b35d9d13": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "gda_007",
+   "city_slug": "gdansk",
+   "file": "gda_007-the-maples-of-hugo-conwentz.jpg",
+   "reason": "A big fissured trunk in front of the Abbots' Palace in Park Oliwski, a man on a ladder hanging a fresh natural-monument plaque (pomnik przyrody) in May 2026, three months after the February 2026 designation; at our pin, the tree has no photograph. Species seen: grey-brown, finely fissured bark, fork",
+   "lat": 54.41033,
+   "lon": 18.56008,
+   "pin_checked": "2026-11-19"
+  },
+  "b188b699-e22a-4945-9b1c-4d1a37d4c68d": {
+   "outcome": "rejected",
+   "date": "2026-11-19",
+   "tree_id": "gda_007",
+   "reason": "bad frame: the Abbots' Palace and its parterre fill the picture; the trees at the edges cannot be told apart as the maple pair."
+  },
+  "160cff0f-46e1-4e03-af85-602b61b4fc86": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "mel_018",
+   "city_slug": "melbourne",
+   "file": "mel_018-the-leaning-fig-over-the-boardwalk-160cff0f.jpg",
+   "reason": "The same leaning fig, roots on the right, trunk over the steel boardwalk, sun flare in the crown; good, but the current lead shows the whole curve better, so it goes in the strip. Species seen: smooth grey fig bark, buttress roots in flanges. Fits the description: smooth grey trunk leaning hard over",
+   "lat": -37.8315883333333,
+   "lon": 144.98047,
+   "pin_checked": "2026-11-19"
+  },
+  "91a084f4-b088-451b-ba36-4d3778c84990": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "mel_018",
+   "city_slug": "melbourne",
+   "file": "mel_018-the-leaning-fig-over-the-boardwalk-91a084f4.jpg",
+   "reason": "The leaning fig from further off, bird's nest ferns in its forks, palms around, the boardwalk below right; a wider view of the same trunk for the strip. Species seen: smooth grey fig trunk and limbs with epiphytic ferns. Fits the description: the leaning grey trunk among tree ferns and tall palms ab",
+   "lat": -37.831695,
+   "lon": 144.980683333333,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
