@@ -1942,6 +1942,84 @@
    "agreed": null
   },
   {
+   "id": "sight:aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Whomping Willow Coral Tree",
+   "photo": "p_68e3fe2f2c08d678d123d61f/ABA8F604-0C2B-4AE7-ADAB-A5E40BC28F57.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole coral tree with knuckled limbs and its garden label, daylight, colour. Lead photograph of melbourne/mel_020.",
+   "city": "Melbourne",
+   "species": "Cockspur Coral Tree (Erythrina crista-galli)"
+  },
+  {
+   "id": "sight:c0841407-ba01-4abc-8f2b-30306e6989e5",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Brandywine Sycamore (Lafayette Sycamore)",
+   "city": "Chadds Ford",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/c0841407-ba01-4abc-8f2b-30306e6989e5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the sycamore from its foot, white flaking limbs over a massive trunk, daylight, colour; species and setting match. Lead photograph of chadds-ford/cdf_001, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Bench Redwood of Castleboro",
+   "photo": "p_a651ca8360285ce64022abc5/25826C1E-C83A-4936-86D6-63DBF8A7BC81.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the redwood with the bench round its foot, visitors for scale, daylight, colour. Lead photograph of castleboro/cbo_001.",
+   "city": "Castleboro",
+   "species": "Coast Redwood (Sequoia sempervirens)"
+  },
+  {
+   "id": "lead:25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Irish Yew near Inistioge",
+   "city": null,
+   "species": "Irish Yew",
+   "photo": "p_a651ca8360285ce64022abc5/25826C1E-C83A-4936-86D6-63DBF8A7BC81.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Irish Yew"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: a tall redwood with a bench built round its foot, visitors for scale, GPS fix in the woods at Castleboro, Co. Wexford. Species read from the photo as coast redwood (the reader chose Irish Yew). Live as castleboro/cbo_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -14391,154 +14469,6 @@
    "agreed": null
   },
   {
-   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Fairchild Oak",
-   "city": null,
-   "species": "Southern Live Oak",
-   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
-   "reader_note": "",
-   "reader_girth_cm": 32,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Southern Live Oak"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole moss-hung oak with the plaque boulder, daylight, lead photograph of obc_001.",
-   "hidde": null,
-   "agreed": null,
-   "shown": [
-    "2026-11-16",
-    "2026-11-17"
-   ]
-  },
-  {
-   "id": "sight:0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-2",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Fairchild Oak",
-   "city": null,
-   "species": "Southern Live Oak",
-   "photo": "p_456665b8a773124350ec9019/0ADAC3F1-3C3F-4DA8-BB6E-A88BC759AC68.jpg",
-   "reader_note": "",
-   "reader_girth_cm": 32,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Southern Live Oak"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the trunk with one long limb across the clearing, daylight, in the strip of obc_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:1306c000-ed52-40f3-ad73-c6f414c5dbff",
-   "seen": "2026-11-15",
-   "kind": "a tree we do not map",
-   "tree": "The Norwich Cathedral Cedar",
-   "city": null,
-   "species": "Cedar of Lebanon",
-   "photo": "p_19b3a0778e462c16dcceacf1/1306C000-ED52-40F3-AD73-C6F414C5DBFF.jpg",
-   "reader_note": "In the grounds of Norwich Cathedral",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Cedar of Lebanon"
-   },
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole cedar with the cathedral behind, daylight, lead photograph of nwc_001.",
-   "hidde": null,
-   "agreed": null,
-   "shown": [
-    "2026-11-16",
-    "2026-11-17"
-   ]
-  },
-  {
-   "id": "sight:57a70549-ac95-452e-894b-3bf467dc26ae",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Mespilifolia Oak of Noorderplantsoen",
-   "city": "Groningen",
-   "species": "Sessile Oak \"Mespilifolia\" (Quercus petraea \"Mespilifolia\")",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the whole broad crown of the oak on the park's east edge, narrow autumn leaves, grey daylight; app match 18 m. First photograph of gro_016.",
-   "hidde": null,
-   "agreed": null,
-   "shown": [
-    "2026-11-16",
-    "2026-11-17"
-   ]
-  },
-  {
-   "id": "sight:62eb3e8f-66ef-4dcb-9069-fac45b46797c",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Oak of Martinikerkhof",
-   "city": "Groningen",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: the oak from its foot, trunk and thinning crown, as its recognition line says; app match 13 m. First photograph of gro_007.",
-   "hidde": null,
-   "agreed": null,
-   "shown": [
-    "2026-11-16",
-    "2026-11-17"
-   ]
-  },
-  {
-   "id": "sight:b9cab82b-f47c-4dc3-bb04-b96abd73163c",
-   "seen": "2026-11-15",
-   "kind": "photo of a tree we map",
-   "tree": "The Green Beeches of the Nieuwe Kerkhof",
-   "city": "Groningen",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked 2026-11-15: a big beech in autumn leaf beside the Nieuwe Kerk, daylight; app match 64 m. Added as the lead of gro_014 (reader first).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "lead:ed0a19ed-93e1-42e9-8a50-fcaa0420bda1",
    "seen": "2026-11-15",
    "kind": "a tree we do not map",
@@ -19229,42 +19159,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
-   "seen": "2026-11-19",
-   "kind": "a tree we do not map",
-   "tree": "The Whomping Willow Coral Tree",
-   "photo": "p_68e3fe2f2c08d678d123d61f/ABA8F604-0C2B-4AE7-ADAB-A5E40BC28F57.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-19: the whole coral tree with knuckled limbs and its garden label, daylight, colour. Lead photograph of melbourne/mel_020.",
-   "city": "Melbourne",
-   "species": "Cockspur Coral Tree (Erythrina crista-galli)"
-  },
-  {
-   "id": "sight:c0841407-ba01-4abc-8f2b-30306e6989e5",
-   "seen": "2026-11-19",
-   "kind": "photo of a tree we map",
-   "tree": "The Brandywine Sycamore (Lafayette Sycamore)",
-   "city": "Chadds Ford",
-   "species": "American Sycamore (Platanus occidentalis)",
-   "photo": "out/sightings/c0841407-ba01-4abc-8f2b-30306e6989e5.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: the massive trunk rising into white mottled sycamore limbs, with the Gilpin house and the 1987 plaque in the reader's other frames. First photograph this tree has; now its lead.",
    "hidde": null,
    "agreed": null
   }

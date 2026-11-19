@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: a redwood at Castleboro goes live; the Brandywine Sycamore's access from a reader
+
+- **Chadds Ford, cdf_001**: report 1000096 from the reader who sent its photograph ("you can walk to the Gideon Gilpin house and the sycamore ... at any time") went onto the tree's access line as their report; closed `holds`, no mail (their own words, so his to read in the digest). The photograph itself went live in the parallel run above; this run's identical approval was dropped at the rebase and the season basis added.
+- **New place Castleboro, Co. Wexford, cbo_001 The Bench Redwood of Castleboro**: sighting 25826c1e, GPS fix in the woods by the R730 (the app called it "near Inistioge", 24 km off). The reader chose Irish Yew; the photo shows a redwood (fibrous red bark, sprouts up the trunk), published as coast redwood with the reader's name for it stated and readers asked. No written source; one-tree place, so no place page on the web. Ownership of the woods unconfirmed and said so in `access`.
+- For Hidde: nothing.
+
 ## 2026-11-19 reader judge: the Brandywine Sycamore gets its first photograph
 
 - **Live**: a reader's photograph is now the lead photo of the Brandywine Sycamore in Chadds Ford (cdf_001), which had none. It looks up the huge trunk into white mottled limbs in November sun, and their other frames (the Gilpin house, the 1787-1987 plaque) settle that it is this tree. The pin was not moved because their coordinate was our own pin. Filed under November from the photo's own date.

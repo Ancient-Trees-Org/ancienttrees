@@ -7767,6 +7767,37 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "melbourne/mel_020"
+  },
+  {
+   "sighting_id": "25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+   "user_id": "p_a651ca8360285ce64022abc5",
+   "mine": false,
+   "name": "Irish Yew near Inistioge",
+   "unsure_among": null,
+   "species": "Irish Yew",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 52.479625,
+   "longitude": -6.71678,
+   "near": null,
+   "taken_month": 2,
+   "photo": "p_a651ca8360285ce64022abc5/25826C1E-C83A-4936-86D6-63DBF8A7BC81.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: one tall redwood trunk with soft fibrous red-brown bark and green sprouts along it, a dense dark crown above the birches, a wooden bench built round its foot with two visitors at it, overcast daylight, colour. Live as castleboro/cbo_001 under the closed list (Hidde, 2026-11-17); species read from the photo as coast redwood, the reader's 'Irish Yew' noted.",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "castleboro/cbo_001"
   }
  ]
 }

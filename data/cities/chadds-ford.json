@@ -46,7 +46,7 @@
         "https://www.ucc.edu/tree-grove/tree-28/",
         "https://www.brandywinebattlefield.org/plan-a-visit/"
       ],
-      "access": "Free to view from the grounds; the Gideon Gilpin House itself is seen only on a timed guided tour (park operating as of 2023 visitor reviews, open Thu-Sun). The tree stands outside the house on the park grounds.",
+      "access": "Free. A reader who visited in November 2026 tells us you can walk up to the Gideon Gilpin House and the sycamore beside it at any time; only the inside of the house is seen on a guided tour. The tree stands outside the house on the park grounds.",
       "transport": "No public transit found; car only. Roughly 40 km / 45-60 minutes by road from central Philadelphia, over the ~30-minute public-transport day-trip threshold, so this is its own place (Chadds Ford, PA) rather than folded into Philadelphia.",
       "location_precision": "approximate",
       "curation_status": "ai_generated",
@@ -67,6 +67,7 @@
         "width": 1200,
         "height": 1600,
         "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
         "source": "contributor",
         "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
         "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",

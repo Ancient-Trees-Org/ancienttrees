@@ -1,0 +1,71 @@
+{
+  "city": "Castleboro",
+  "country": "Ireland",
+  "status": "needs_curation",
+  "intro": "Castleboro is a rural townland in County Wexford, in the hills between Enniscorthy and New Ross, along the R730. In a clearing in its woods stands a tall redwood with soft red-brown bark and a wooden bench built right round its foot, so that visitors can sit with their backs against the trunk. A reader photographed it and sent it to us. We do not yet know its size, its age or who planted it, and we would like to.",
+  "meta_description": "The redwood with a bench round its trunk in the woods at Castleboro, Co. Wexford, sent by a reader: where it stands and what we know.",
+  "question_meta": "Castleboro's tree to see is a tall coast redwood in a woodland clearing by the R730, with a wooden bench built round its trunk.",
+  "question_answer": "The tree to see at Castleboro, Co. Wexford, is the Bench Redwood: a tall coast redwood in a woodland clearing by the R730, with a wooden bench built right round its foot.",
+  "question_context": "A reader sent us this tree with a GPS fix taken in the clearing where it stands, in the woods at Castleboro in County Wexford. Their photograph shows a single trunk rising out of rough grass and bramble, straight and far wider than the birches and spruces around it, which breaks only high up into a dense dark crown. A wooden bench has been built right round its foot, and two visitors at the bench give the scale. The reader logged it as an Irish yew. From the photograph we read it as a coast redwood, Sequoia sempervirens. The bark is soft, fibrous and red-brown, and green shoots sprout all the way up the trunk, a habit of coast redwoods and not of yews. We have no girth, height or planting date for it, and no written source names it yet, so everything on this page comes from the photograph. We have not confirmed who owns the woods either. If you know the tree, its measurements or the history of these woods, tell us on its page and we will add it.",
+  "hero_tree_id": "cbo_001",
+  "oldest_tree_id": "cbo_001",
+  "trees": [
+    {
+      "id": "cbo_001",
+      "name": "The Bench Redwood of Castleboro",
+      "species": "Coast Redwood (Sequoia sempervirens)",
+      "location": {
+        "address": "Woodland clearing by the R730, Castleboro, Co. Wexford",
+        "latitude": 52.479625,
+        "longitude": -6.71678,
+        "neighbourhood": "Castleboro"
+      },
+      "story": "A reader sent us this tree from the woods at Castleboro in County Wexford, with a GPS fix taken in the clearing where it stands, and the photograph makes the case for the walk on its own.\n\nOne trunk rises out of rough grass and bramble, straight as a mast and far wider than anything around it, and only high up does it break into a dense dark crown above the bare birches. Somebody thought it worth sitting with, because a wooden bench has been built right round its foot, and in the picture two visitors are standing and sitting at it, which is the best scale bar we could ask for.\n\nThe reader logged it as an Irish yew. From the photograph we read it as a coast redwood, Sequoia sempervirens. The bark is soft, fibrous and red-brown, and green shoots sprout all the way up the trunk, a habit of coast redwoods and not of yews. Tell us if you know better.\n\nWe do not know who planted it or when, and we have no girth or height for it yet. If you have measured it, or know the story of these woods, tell us here and we will add it with your figures.\n\nSit on the bench and look straight up the trunk.",
+      "how_to_recognise": "In a woodland clearing: one tall redwood with soft, fibrous red-brown bark and green sprouts all along its trunk, a wooden bench built right round its foot.",
+      "access": "The reader reached it on a woodland path, where a bench rings the trunk. We have not confirmed who owns these woods; check locally before you go.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (25826c1e-c83a-4936-86d6-63dbf8a7bc81) with a GPS fix in Castleboro ED, Co. Wexford (OSM reverse lookup: by the R730; the app named it 'near Inistioge', which is about 24 km west and holds our Woodstock trees, so this is a different place). Photograph viewed: one tall redwood trunk with soft fibrous red-brown bark and green sprouts along it, a dense dark crown above the birches, a wooden bench built round its foot with two visitors at it, overcast daylight, colour. The reader chose 'Irish Yew'; the photo shows a redwood (fibrous red-brown bark, epicormic sprouts along the trunk, flat sprays low down), read as Sequoia sempervirens from the photograph and stated as our reading on the page. corroborate.py: no register entry within 100 m, no encyclopaedia article within 300 m. No written source; published under the closed list for a reader's tree (Hidde, 2026-11-17). Ownership of the woods not confirmed; the bench and mown path show visitors are expected; access says so honestly.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cbo_001-bench-redwood-of-castleboro.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 2,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_a651ca8360285ce64022abc5",
+        "sighting_id": "25826c1e-c83a-4936-86d6-63dbf8a7bc81",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: one tall redwood trunk with soft fibrous red-brown bark and green sprouts along it, a dense dark crown above the birches, a wooden bench built round its foot with two visitors at it, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": "What kind of tree is the Castleboro redwood?",
+      "a": "From the reader's photograph, a coast redwood: soft, fibrous red-brown bark and green shoots along the trunk. The reader logged it as an Irish yew, so tell us if you know which."
+    },
+    {
+      "q": "How old is the Castleboro redwood?",
+      "a": "We do not know yet. No record of its planting or measurement has reached us; if you have one, tell us on its page."
+    },
+    {
+      "q": "Can I visit the Castleboro redwood?",
+      "a": "The reader walked to it on a woodland path, where a bench rings the trunk. We have not confirmed who owns the woods, so check locally before you go."
+    }
+  ]
+}
