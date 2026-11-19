@@ -4321,6 +4321,10 @@
    }
   },
   {
+   "common": "Cypress family conifer",
+   "latin": "Cupressaceae, species to be confirmed"
+  },
+  {
    "common": "Daimyo Oak",
    "latin": "Quercus dentata",
    "names": {
@@ -7760,6 +7764,10 @@
    }
   },
   {
+   "common": "Japanese Pagoda Tree or Black Locust",
+   "latin": "Styphnolobium or Robinia, to be confirmed"
+  },
+  {
    "common": "Japanese Persimmon",
    "latin": "Diospyros kaki",
    "names": {
@@ -8570,6 +8578,36 @@
   {
    "common": "Leyland Cypress",
    "latin": "xCuprocyparis leylandii 'Castlewellan'"
+  },
+  {
+   "common": "Lignum-vitae",
+   "latin": "Guaiacum officinale",
+   "names": {
+    "en": [
+     "Commoner Lignum Vitae",
+     "Guaiac Tree",
+     "gayak",
+     "guaiac"
+    ],
+    "nl": [
+     "Pokhout"
+    ],
+    "de": [
+     "Gayak"
+    ],
+    "es": [
+     "Guayacán",
+     "Palo De Vida",
+     "Palo Santo"
+    ],
+    "fr": [
+     "Gayak"
+    ],
+    "ja": [
+     "ユソウボク",
+     "癒瘡木"
+    ]
+   }
   },
   {
    "common": "Lime",
@@ -9780,6 +9818,10 @@
      "銀梅花"
     ]
    }
+  },
+  {
+   "common": "Myrtle Beech",
+   "latin": "Nothofagus cunninghamii"
   },
   {
    "common": "Nagi",
@@ -12334,6 +12376,27 @@
    }
   },
   {
+   "common": "Saharan Cypress",
+   "latin": "Cupressus dupreziana",
+   "names": {
+    "de": [
+     "Sahara-Zypresse"
+    ],
+    "es": [
+     "Cipres del Sahara"
+    ],
+    "fr": [
+     "Cypres du Tassili",
+     "Cyprès de Duprez",
+     "Cyprès de l'Atlas",
+     "Cyprès du Sahara"
+    ],
+    "ja": [
+     "サバクヒバ"
+    ]
+   }
+  },
+  {
    "common": "Sandbox Tree",
    "latin": "Hura crepitans",
    "names": {
@@ -12577,6 +12640,20 @@
      "榕",
      "赤榕",
      "赤秀"
+    ]
+   }
+  },
+  {
+   "common": "Sea Putat",
+   "latin": "Barringtonia asiatica",
+   "names": {
+    "en": [
+     "Beach Barringtonia",
+     "Fish Poison Tree",
+     "Mango Pine"
+    ],
+    "ja": [
+     "ゴバンノアシ"
     ]
    }
   },
@@ -14874,6 +14951,10 @@
    }
   },
   {
+   "common": "Unknown species",
+   "latin": "pinnate-leaved, to be confirmed"
+  },
+  {
    "common": "Urajiro Oak",
    "latin": "Quercus salicina",
    "names": {
@@ -16871,21 +16952,6 @@
    }
   },
   {
-   "common": "Sea putat / Barringtonia",
-   "latin": "Barringtonia asiatica",
-   "mapped": false,
-   "names": {
-    "en": [
-     "Beach Barringtonia",
-     "Fish Poison Tree",
-     "Mango Pine"
-    ],
-    "ja": [
-     "ゴバンノアシ"
-    ]
-   }
-  },
-  {
    "common": "Purple Orchid Tree",
    "latin": "Bauhinia variegata",
    "mapped": false,
@@ -17024,6 +17090,16 @@
      "Guayacan de bola",
      "Guayapan garrapo",
      "Ibiocai"
+    ]
+   }
+  },
+  {
+   "common": "Locust-berry",
+   "latin": "Byrsonima lucida",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Long Key locustberry"
     ]
    }
   },
@@ -18348,37 +18424,6 @@
    "names": {
     "en": [
      "Cuban belly palm"
-    ]
-   }
-  },
-  {
-   "common": "Lignum Vitae",
-   "latin": "Guaiacum officinale",
-   "mapped": false,
-   "names": {
-    "en": [
-     "Commoner Lignum Vitae",
-     "Guaiac Tree",
-     "gayak",
-     "guaiac"
-    ],
-    "nl": [
-     "Pokhout"
-    ],
-    "de": [
-     "Gayak"
-    ],
-    "es": [
-     "Guayacán",
-     "Palo De Vida",
-     "Palo Santo"
-    ],
-    "fr": [
-     "Gayak"
-    ],
-    "ja": [
-     "ユソウボク",
-     "癒瘡木"
     ]
    }
   },

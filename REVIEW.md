@@ -222,19 +222,3 @@ App half (iPhone SE: review-ask, search, signin-email, signin, species-pick, spe
 - NOTE APP species.png: captured mid-transition, the Aleppo Pine page is overlaid by the launch splash tagline ("Trees worth the walk, wherever you are.") ghosting through the body text. Probably a sweep timing artefact, not shipped behaviour, but the sweep reviewed a screen no person sees; wait for the splash to leave before the shot.
 - signin, signin-email, review-ask, species-pick: read consistently ("Sign in to keep this one", "An account keeps what you collect and save", "Growing near you first"); nothing contradicted. signin-email shows the same first sheet as signin, not an email step (sweep never advances), so it reviews nothing new.
 
-## 2026-11-04 code (full)
-
-Nothing new in the code. Read this run: web scripts tree-actions-js, visited-sync-js, share-js, tree-notes-js, map-filters-js, collection-js (ids/visited); app force-unwrap and request-path scan across Screens and Kit. Not read in full: the rest of the app Screens and the larger web scripts (signin-js, add-photo-js, my-trees-js, worthit-js, profile-js, people-js, map.ts). Seen and not reported (too narrow to be sure): atPushVisited drops a tick if the visited list is still in flight (seen is null); SharedTreeView.swift:108 force-unwraps a URL built from a server filename.
-
-## 2026-11-04
-
-Web half: the last 24 hours were research data and one app tweak (PlaceMapPage), plus the earned-back switch; nothing new in site/dist to read. Re-checked the standing faults on the built site:
-
-- WARN (sixteenth review to see it) meta description prints a planting or event year as an age: `grep -rlE 'content="A (17|18|19|20)[0-9]{2}-year-old' site/dist` still finds 96 pages (e.g. /waipoua-forest/te-matua-ngahere, /kamakura/great-ginkgo-of-tsurugaoka-hachimangu). Hard rule 2, Verify (a derived age states its basis). Build the qa.py check on built HTML first, then fix the meta template.
-- WARN site/src/pages/contribute.astro:17 and :401 still say "Every submission is verified against independent sources before it goes live" / "We check every tip against independent sources". False since "Good reader input IS the source" (2026-10-12). Tenth review in a row. Replacement: "We check every submission before it goes live; a good photograph with a GPS fix is enough to start a page." Translations too.
-
-App half (iPhone SE: collect-compare, collect-describe, collect-identify, collect-intro, collect-place, collect-ticked):
-
-- NOTE APP collect-compare, -describe, -identify, -intro and -place are the same "Add a tree" sheet over a tree photograph; none shows the step its filename names. The sweep never leaves the entry sheet (probably no camera in the simulator), so five of the six screens in this rotation review nothing. A session should seed those steps or drop the names.
-- NOTE APP collect-ticked: reads well ("You found The Wilhelminalinde", "Lime, 128 years old", "Was it worth the trip?"); the title wraps to two lines on the SE, acceptable. Nothing contradicted.
-

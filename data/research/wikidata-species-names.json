@@ -6212,6 +6212,56 @@
    "Buxo"
   ]
  },
+ "Byrsonima": {
+  "en": [
+   "Byrsonima",
+   "byrsonima"
+  ],
+  "it": [
+   "Byrsonima"
+  ],
+  "nl": [
+   "Byrsonima"
+  ],
+  "pt": [
+   "Byrsonima"
+  ],
+  "es": [
+   "Alcoceratothrix",
+   "Byrsonima",
+   "Calyntranthele"
+  ],
+  "de": [
+   "Byrsonima"
+  ],
+  "fr": [
+   "Byrsonima"
+  ]
+ },
+ "Byrsonima lucida": {
+  "en": [
+   "Byrsonima lucida",
+   "Long Key locustberry"
+  ],
+  "de": [
+   "Byrsonima lucida"
+  ],
+  "es": [
+   "Byrsonima lucida"
+  ],
+  "fr": [
+   "Byrsonima lucida"
+  ],
+  "it": [
+   "Byrsonima lucida"
+  ],
+  "nl": [
+   "Byrsonima lucida"
+  ],
+  "pt": [
+   "Byrsonima lucida"
+  ]
+ },
  "Caesalpinia": {
   "de": [
    "Caesalpinia",
@@ -12063,6 +12113,8 @@
    "Cupaniopsis anacardioides"
   ]
  },
+ "Cupressaceae,": {},
+ "Cupressaceae, species": {},
  "Cupressus": {
   "en": [
    "Cupressus",
@@ -12169,6 +12221,48 @@
   ],
   "pt": [
    "Cupressus cashmeriana"
+  ]
+ },
+ "Cupressus dupreziana": {
+  "en": [
+   "Cupressus dupreziana",
+   "Saharan Cypress",
+   "Saharan cypress"
+  ],
+  "de": [
+   "Cupressus dupreziana",
+   "Cupressus duprezina",
+   "Sahara-Zypresse"
+  ],
+  "es": [
+   "Cipres del Sahara",
+   "Cipres del Sáhara",
+   "Ciprés del Sahara",
+   "Ciprés del Sáhara",
+   "Cupressus dupreziana"
+  ],
+  "fr": [
+   "Cupressus dupreziana",
+   "Cupressus sempervirens var. dupreziana",
+   "Cypres du Tassili",
+   "Cyprès de Duprez",
+   "Cyprès de l'Atlas",
+   "Cyprès du Sahara",
+   "Cyprès du Tassili",
+   "Tassilicyparis",
+   "Tassilicyparis dupreziana"
+  ],
+  "it": [
+   "Cupressus dupreziana"
+  ],
+  "ja": [
+   "サバクヒバ"
+  ],
+  "nl": [
+   "Cupressus dupreziana"
+  ],
+  "pt": [
+   "Cupressus dupreziana"
   ]
  },
  "Cupressus gigantea": {
@@ -24283,6 +24377,30 @@
   ],
   "pt": [
    "Nothofagus betuloides"
+  ]
+ },
+ "Nothofagus cunninghamii": {
+  "fr": [
+   "Myrtle beech",
+   "Nothofagus cunninghamii"
+  ],
+  "de": [
+   "Nothofagus cunninghamii"
+  ],
+  "en": [
+   "Nothofagus cunninghamii"
+  ],
+  "es": [
+   "Nothofagus cunninghamii"
+  ],
+  "it": [
+   "Nothofagus cunninghamii"
+  ],
+  "nl": [
+   "Nothofagus cunninghamii"
+  ],
+  "pt": [
+   "Nothofagus cunninghamii"
   ]
  },
  "Nyssa": {
@@ -37015,6 +37133,7 @@
    "honingboom"
   ]
  },
+ "Styphnolobium or": {},
  "Swietenia": {
   "de": [
    "Mahagoni",
@@ -41237,6 +41356,8 @@
    "Ziziphus mauritiana"
   ]
  },
+ "pinnate-leaved,": {},
+ "pinnate-leaved, to": {},
  "xCuprocyparis": {},
  "xCuprocyparis leylandii": {}
 }
