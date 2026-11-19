@@ -9,6 +9,7 @@ this script prints.
 
     python3 scripts/show_digest.py        # build the page, print the top lines
     python3 scripts/show_digest.py --seen # after he has looked: everything on that page is seen
+    (building a new page marks the previous one seen; --keep skips that, for a rebuild he has not looked at)
 
 Written to out/digest/index.html and mirrored next to the inspect page, so the
 same preview server shows both: `preview_start {name: "inspect"}`, then open
@@ -552,6 +553,13 @@ def main():
     if "--seen" in sys.argv:
         return mark_seen()
     os.makedirs(OUT, exist_ok=True)
+    # The page shown last time counts as seen once a new one is built, so
+    # what he already read or discussed never comes back (Hidde, 2026-11-19:
+    # "is there a way you can only leave the stuff i havnt seen or discussed
+    # yet from now on?"; --seen had never been run, so every page went a
+    # week back). --seen still marks the page in front of him at once.
+    if os.path.exists(BUILT) and "--keep" not in sys.argv:
+        mark_seen()
     with open(BUILT, "w", encoding="utf-8") as fh:
         json.dump({"built_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")}, fh)
     head, md = newest_entry()
