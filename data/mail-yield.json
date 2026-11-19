@@ -5,38 +5,38 @@
  "total": {
   "archive": {
    "mailed": 27,
-   "answered": 5,
+   "answered": 6,
    "only_auto": 1,
    "linked": 0
   },
   "nature": {
    "mailed": 81,
-   "answered": 6,
+   "answered": 8,
    "only_auto": 2,
    "linked": 1
   },
   "guide": {
    "mailed": 41,
-   "answered": 1,
+   "answered": 2,
    "only_auto": 0,
    "linked": 1
   },
   "source": {
    "mailed": 63,
-   "answered": 5,
+   "answered": 9,
    "only_auto": 0,
    "linked": 0
   },
   "press": {
-   "mailed": 152,
+   "mailed": 153,
    "answered": 9,
    "only_auto": 2,
    "linked": 0
   },
   "tourism": {
    "mailed": 19,
-   "answered": 3,
-   "only_auto": 1,
+   "answered": 5,
+   "only_auto": 2,
    "linked": 0
   },
   "garden": {
@@ -54,13 +54,13 @@
   "council": {
    "mailed": 59,
    "answered": 9,
-   "only_auto": 2,
+   "only_auto": 3,
    "linked": 0
   },
   "other": {
-   "mailed": 595,
-   "answered": 71,
-   "only_auto": 5,
+   "mailed": 772,
+   "answered": 73,
+   "only_auto": 6,
    "linked": 2
   }
  },
@@ -73,7 +73,7 @@
     "linked": 0
    },
    "press": {
-    "mailed": 26,
+    "mailed": 27,
     "answered": 0,
     "only_auto": 1,
     "linked": 0
@@ -85,9 +85,9 @@
     "linked": 0
    },
    "other": {
-    "mailed": 248,
+    "mailed": 425,
     "answered": 9,
-    "only_auto": 2,
+    "only_auto": 3,
     "linked": 0
    }
   },
@@ -124,7 +124,7 @@
    },
    "other": {
     "mailed": 187,
-    "answered": 10,
+    "answered": 11,
     "only_auto": 1,
     "linked": 0
    }
@@ -138,13 +138,13 @@
    },
    "nature": {
     "mailed": 16,
-    "answered": 2,
+    "answered": 3,
     "only_auto": 0,
     "linked": 0
    },
    "guide": {
     "mailed": 19,
-    "answered": 0,
+    "answered": 1,
     "only_auto": 0,
     "linked": 0
    },
@@ -162,7 +162,7 @@
    },
    "other": {
     "mailed": 19,
-    "answered": 4,
+    "answered": 5,
     "only_auto": 0,
     "linked": 0
    }
@@ -170,13 +170,13 @@
   "2026-10-26": {
    "archive": {
     "mailed": 11,
-    "answered": 1,
+    "answered": 2,
     "only_auto": 0,
     "linked": 0
    },
    "nature": {
     "mailed": 63,
-    "answered": 3,
+    "answered": 4,
     "only_auto": 2,
     "linked": 0
    },
@@ -188,7 +188,7 @@
    },
    "source": {
     "mailed": 21,
-    "answered": 2,
+    "answered": 3,
     "only_auto": 0,
     "linked": 0
    },
@@ -220,7 +220,7 @@
   "2026-10-19": {
    "source": {
     "mailed": 24,
-    "answered": 1,
+    "answered": 4,
     "only_auto": 0,
     "linked": 0
    },
@@ -232,8 +232,8 @@
    },
    "tourism": {
     "mailed": 17,
-    "answered": 3,
-    "only_auto": 1,
+    "answered": 5,
+    "only_auto": 2,
     "linked": 0
    },
    "other": {
@@ -303,7 +303,7 @@
    "council": {
     "mailed": 23,
     "answered": 2,
-    "only_auto": 1,
+    "only_auto": 2,
     "linked": 0
    },
    "other": {
