@@ -264,7 +264,12 @@ def main():
             results.append(f"DRY   {label}: would send {m['subject']!r} to {to}"
                            + (f" (cc {_cc})" if _cc else ""))
             continue
-        msg = EmailMessage()
+        # Long header lines allowed (RFC 5322's 998): an Outlook Message-ID runs
+        # past 78 characters with no place to fold, and the default policy then
+        # RFC2047-encoded In-Reply-To, which breaks threading (urban.brussels,
+        # 2026-11-19).
+        import email.policy
+        msg = EmailMessage(policy=email.policy.default.clone(max_line_length=998))
         msg["From"] = creds["FROM"]
         msg["To"] = to
         # A reply often has to go to the people already in the thread. Added
@@ -295,6 +300,20 @@ def main():
         # we dont have the same problem again"). A plain-text link is only a
         # link if her mail program guesses it is one.
         msg.add_alternative(html_twin(m["body"]), subtype="html")
+        # Files a mail promises ("attachments": [paths inside the repo]). Added
+        # 2026-11-19: urban.brussels asked for our 35 Brussels trees as an xls.
+        # A missing file stops the send rather than mailing "attached" with nothing.
+        for path in m.get("attachments") or []:
+            full = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), path)
+            if not os.path.isfile(full):
+                print(f"  REFUSED {to}: attachment {path} not found, nothing sent")
+                raise SystemExit(1)
+            import mimetypes
+            ctype = mimetypes.guess_type(full)[0] or "application/octet-stream"
+            main, sub = ctype.split("/", 1)
+            with open(full, "rb") as fh:
+                msg.add_attachment(fh.read(), maintype=main, subtype=sub,
+                                   filename=os.path.basename(full))
         if server is None:
             # A batch to people who asked to hear from us (the waitlist, testers)
             # says "kind": "expected" and goes through Gmail, so it never eats
