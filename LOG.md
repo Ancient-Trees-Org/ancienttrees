@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: two more Melbourne photographs in the strip
+
+- Two new photographs of Edinburgh Gardens trees from the reader whose pictures already lead both pages. Both looked at and both checked against species and description. The Finer Holm Oak (mel_001) and the Gum by the Skate Bowl (mel_019) each get one more view in the strip, and the lead photographs stay. Applied with `sightings_publish.py`; verdicts are in judgements.json.
+- The intake's autostash ran into main again (the Madeira and Gdansk photographs, already judged upstream, came back into the queue, and the fallen Ivy Elm came back as a lead). Main's verdicts were kept, and only the two new Melbourne rows stayed in the queue.
+- Still waiting: lead 3c544597 (near Amsterdam, sent as "not sure which tree"). Its photograph is not on this runner, so it was not judged blind. It stays for the next run. The older Japan and Baarn leads have no files here either. No open reports, no feedback without a verdict, no reader words to quote.
+
 ## 2026-11-19 reader judge: bookkeeping after the night run, nothing new on the site
 
 - The intake had re-queued 14 photographs main had already judged (Gdansk, Melbourne); the checkout was four commits behind. Took main's queue and judgements, nothing lost.

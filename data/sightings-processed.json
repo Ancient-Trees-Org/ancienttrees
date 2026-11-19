@@ -5306,6 +5306,28 @@
    "date": "2026-11-19",
    "tree_id": "gda_012",
    "reason": "Looked: the fallen trunk in snow with its Pomnik Przyrody plaque; gda_012 was retired as fallen on 2026-11-19, so there is no live tree for it to go on"
+  },
+  "3c0bacd4-a433-464b-ba29-4c86c955cab8": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "mel_001",
+   "city_slug": "melbourne",
+   "file": "mel_001-the-finer-holm-oak-of-edinburgh-gardens-3c0bacd4.jpg",
+   "reason": "Looked: a broad holm oak in Edinburgh Gardens from the path, dark heavy trunk dividing low into long spreading limbs, a fenced club ground and building at left, elms around it; daylight and colour. Same reader as the lead photograph, a second view of the same trunk; it joins the strip and the lead s",
+   "lat": -37.78732,
+   "lon": 144.981761666667,
+   "pin_checked": "2026-11-19"
+  },
+  "269a3040-d241-4af0-ab00-ab8db2ee2ecf": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "mel_019",
+   "city_slug": "melbourne",
+   "file": "mel_019-the-gum-by-the-edinburgh-gardens-skate-bowl-269a3040.jpg",
+   "reason": "Looked: the whole gum from the lawn, straight trunk rough and dark at the foot, smooth pale bark above, broad crown of narrow hanging leaves, the painted skate bowl at bottom right; daylight and colour, GPS 3 m from our pin. Same reader as the lead photograph, another view of the same tree; it joins",
+   "lat": -37.7863466666667,
+   "lon": 144.982996666667,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

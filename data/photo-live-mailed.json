@@ -2036,6 +2036,24 @@
      "city_slug": "melbourne",
      "display_name": null,
      "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "3c0bacd4-a433-464b-ba29-4c86c955cab8",
+     "tree_id": "mel_001",
+     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "269a3040-d241-4af0-ab00-ab8db2ee2ecf",
+     "tree_id": "mel_019",
+     "tree_name": "The Gum by the Edinburgh Gardens Skate Bowl",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-19"
     }
    ],
    "sent": [

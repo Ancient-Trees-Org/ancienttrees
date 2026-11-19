@@ -942,6 +942,50 @@
    "agreed": null
   },
   {
+   "id": "sight:3c0bacd4-a433-464b-ba29-4c86c955cab8",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Finer Holm Oak of Edinburgh Gardens",
+   "city": "Melbourne",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/3c0bacd4-a433-464b-ba29-4c86c955cab8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 38,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "publish",
+   "reason": "Looked: the holm oak from the path, dark heavy trunk dividing low, fenced club ground behind, daylight and colour; same reader as the lead, so it joins the strip behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:269a3040-d241-4af0-ab00-ab8db2ee2ecf",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Gum by the Edinburgh Gardens Skate Bowl",
+   "city": "Melbourne",
+   "species": "Eucalyptus (Eucalyptus sp.)",
+   "photo": "out/sightings/269a3040-d241-4af0-ab00-ab8db2ee2ecf.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 3,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eucalyptus (Eucalyptus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked: the whole gum by the painted skate bowl, rough lower and smooth pale upper bark, GPS 3 m from the pin, daylight and colour; same reader as the lead, so it joins the strip behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
