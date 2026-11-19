@@ -2027,7 +2027,17 @@
   },
   "p_208e853a0292b8f518700a87": {
    "last": "2026-11-19",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "b6bb10c9-d418-4437-b701-1015e35e7f5f",
+     "tree_id": "mel_001",
+     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",

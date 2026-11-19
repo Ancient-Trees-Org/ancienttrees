@@ -140,7 +140,23 @@
         "url": null
       },
       "girth_cm": 556,
-      "height_m": 20
+      "height_m": 20,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mel_001-the-finer-holm-oak-of-edinburgh-gardens-b6bb10c9.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_208e853a0292b8f518700a87",
+          "sighting_id": "b6bb10c9-d418-4437-b701-1015e35e7f5f",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); in the strip since 2026-11-19, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-19"
+        }
+      ]
     },
     {
       "id": "mel_002",

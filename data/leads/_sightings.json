@@ -7178,6 +7178,62 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "new-orleans/nol_009"
+  },
+  {
+   "sighting_id": "f8d4d7f9-5ca6-429d-8016-d34ff35182f8",
+   "user_id": "p_f09d2f18317187c942a8d801",
+   "mine": false,
+   "name": "Stone Pine in Madeira",
+   "unsure_among": null,
+   "species": "Stone Pine",
+   "age": "Planted 1837",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "A piece of Palheiro Nature Estate history\n\nThis tree was planted )pinheiro-manso) in 1837, the year of the Count of Carvalhal’s passing, on the site of today’s Palheiro Golf clubhouse and Vista Balancal restaurant.\n\nNearly two centuries later, its story continues here.",
+   "latitude": 32.6532090972096,
+   "longitude": -16.8719491744028,
+   "near": null,
+   "photo": "p_f09d2f18317187c942a8d801/F8D4D7F9-5CA6-429D-8016-D34FF35182F8.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 540,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-19"
+  },
+  {
+   "sighting_id": "81ff86ab-2b28-43b7-81be-d71c2fcdce88",
+   "user_id": "p_f09d2f18317187c942a8d801",
+   "mine": false,
+   "name": "Dragon Tree in Madeira",
+   "unsure_among": null,
+   "species": "Dragon Tree",
+   "age": "15 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Dragon tree plantation situated at Palheiro golf clubhouse with the most amazing views!",
+   "latitude": 32.6530593549746,
+   "longitude": -16.8723908102586,
+   "near": null,
+   "photo": "p_f09d2f18317187c942a8d801/81FF86AB-2B28-43B7-81BE-D71C2FCDCE88.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 543,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-19"
   }
  ]
 }
