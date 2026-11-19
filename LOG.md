@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 session: Android test invitation sent to the first 100
+
+- **Google approved the closed test** (release 2, "available to selected testers" since 2026-11-18 16:32; Play sent no mail about it, it only showed in the console).
+- **Mail sent on Hidde's "stuur maar gewoon uit"**: his own text (drafts/android-test-invite.md) to 100 of the 172 waitlist addresses on Play's tester list, through outreach_send.py. The daily cap of 100 held 68; **re-run the same batch on 2026-11-20** (command in the draft). Four had another mail from us within the week and wait until 2026-11-24.
+- **Next**: watch the opted-in count on the Alpha track; the 14 days start at the twelfth tester.
+
 ## 2026-11-19 reader judge: the Kasama leaf-seed ginkgo live from a reader's tip
 - **Live, new place: kasama/kas_001 The Leaf-Seed Ginkgo of Inada Gobo** (Ibaraki, Japan), from a reader's website tip with no photograph (submission 1233, `tip:1233` publish). Ibaraki Prefecture's own record (kyoiku.pref.ibaraki.jp/bunkazai/ken-160) names it: a prefectural natural monument since 2000 at Sainen-ji, 469 Inada, girth 7.5 m, height 35 m, spread 23 m, more than 300 years, vigorous; temple tradition says planted around 1218 in Shinran's time. Register plus the reader's report from this autumn as the life check. Pin approximate at the temple (OSM node), no photograph yet; the reader's girth matches the register's. One tree, so no place page on the web.
 - **For a session: our Mito page (mit_001) calls the Shirahatayama tree the largest leaf-seed ginkgo known**, while Ibaraki's register gives the Inada tree the wider trunk (7.5 m against 6 m). The Kasama story states the register's comparison as the register's and claims no crown; the Mito line wants a look.
