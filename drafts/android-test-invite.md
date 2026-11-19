@@ -12,10 +12,8 @@ Two waves, agreed in chat the same evening:
    found. Spread over several days to stay under the sending limits.
 
 **SENT 2026-11-19, on Hidde's "stuur maar gewoon uit":** 100 of the 172 went
-out (batch drafts/batches/android-test-invite-2026-11-19.json, gitignored,
-every send in the private data/outreach-sent.json). The daily cap of 100 held
-the other 68: **re-run the same batch on 2026-11-20**, it skips everyone already
-sent: `python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-2026-11-19.json --send`
+out on 2026-11-19, and the other 68 the same afternoon through Gmail on his "kunnen we niet gewoon via gmail sturen?" (batch kind expected, OUTREACH_DAILY_CAP=200 for that run). Batch drafts/batches/android-test-invite-2026-11-19.json, gitignored,
+every send in the private data/outreach-sent.json). Re-running the batch skips everyone already sent: `python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-2026-11-19.json --send`
 (it loads ~/.ancienttrees-mail.env and runs outreach_send.py). Four addresses
 had another mail from us in the past week and were skipped under the one-week
 rest; they can go from 2026-11-24 with the same batch.

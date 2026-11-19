@@ -28,7 +28,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-19 session: Android test invitation sent to the first 100
 
 - **Google approved the closed test** (release 2, "available to selected testers" since 2026-11-18 16:32; Play sent no mail about it, it only showed in the console).
-- **Mail sent on Hidde's "stuur maar gewoon uit"**: his own text (drafts/android-test-invite.md) to 100 of the 172 waitlist addresses on Play's tester list, through outreach_send.py. The daily cap of 100 held 68; **re-run the same batch on 2026-11-20** (command in the draft). Four had another mail from us within the week and wait until 2026-11-24.
+- **Mail sent on Hidde's "stuur maar gewoon uit"**: his own text (drafts/android-test-invite.md) to 100 of the 172 waitlist addresses on Play's tester list, through outreach_send.py; the other 68 the same afternoon through Gmail on his "kunnen we niet gewoon via gmail sturen?" (168 in all). Four had another mail from us within the week and wait until 2026-11-24 (command in the draft). Play showed 5 testers opted in that afternoon.
 - **Next**: watch the opted-in count on the Alpha track; the 14 days start at the twelfth tester.
 
 ## 2026-11-19 reader judge: the Kasama leaf-seed ginkgo live from a reader's tip
