@@ -105,7 +105,23 @@
         "moved_m": 92,
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nol_002-the-anseman-oak-f37a9e16.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 2,
+          "source": "contributor",
+          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+          "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+          "note": "Photographed by a reader and sent through the app (2026-02-22); in the strip since 2026-11-19, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-19"
+        }
+      ]
     },
     {
       "id": "nol_003",

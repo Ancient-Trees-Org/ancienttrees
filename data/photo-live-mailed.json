@@ -2166,7 +2166,17 @@
   },
   "p_57c98e1ef3e54e44a10e0ab7": {
    "last": "2026-11-19",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+     "tree_id": "nol_002",
+     "tree_name": "The Anseman Oak",
+     "city": "New Orleans",
+     "city_slug": "new-orleans",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "7d406ac5-86cd-4e9b-bb12-0d096bb70555",

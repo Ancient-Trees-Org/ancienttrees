@@ -6939,6 +6939,64 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "yellowstone/yel_001"
+  },
+  {
+   "sighting_id": "83bb9866-51c0-4012-b95f-a83ec51ea108",
+   "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+   "mine": false,
+   "name": "Grandfather Pine at Serenbe",
+   "unsure_among": null,
+   "species": "Loblolly Pine",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 33.5181783333333,
+   "longitude": -84.724755,
+   "near": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/83BB9866-51C0-4012-B95F-A83EC51EA108.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/83bb9866-51c0-4012-b95f-a83ec51ea108-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-19"
+  },
+  {
+   "sighting_id": "1d409917-a8ff-4792-9a65-551e607a6d18",
+   "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+   "mine": false,
+   "name": "Grandmother Beech at Serenbe",
+   "unsure_among": null,
+   "species": "Beech (Fagus sp.)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 33.5136033333333,
+   "longitude": -84.74478,
+   "near": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/1D409917-A8FF-4792-9A65-551E607A6D18.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-19"
   }
  ]
 }
