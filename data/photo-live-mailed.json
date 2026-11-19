@@ -2281,6 +2281,30 @@
     }
    ],
    "sent": []
+  },
+  "p_632f911006e6a6d1beaf2da5": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "446cfadf-3ffe-4a88-bb64-ef1404f11d10",
+     "tree_id": "lyo_013",
+     "tree_name": "The Plane Tree of Place Antoine-Rivoire",
+     "city": "Lyon",
+     "city_slug": "lyon",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "34765498-f889-416e-b6a0-40c66432370a",
+     "tree_id": "lyo_013",
+     "tree_name": "The Plane Tree of Place Antoine-Rivoire",
+     "city": "Lyon",
+     "city_slug": "lyon",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

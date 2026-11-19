@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Lyon's oldest dated plane gets its first photographs
+
+- **What changed**: a reader sent two photographs of The Plane Tree of Place Antoine-Rivoire (lyo_013), which had none. Looked at both: the wide shot (446cfadf) shows the plane alone in its little square by Saint-Nizier and now leads the page; the view up the trunk (34765498, the same picture also came as 446cfadf's extra) sits in the strip behind it. Species and setting match. The pin was already confirmed, 8 m from their GPS fix, so it stays.
+- Nothing else waited: no open reports, no feedback without a verdict, no reader's notes to quote. The open leads in data/leads/_sightings.json are our own accounts' (`mine`) or older rows the intake does not fetch. 3c544597 (Amsterdam, near ams_032) is from our own account and its photo is not on disk. It is recorded as a lead, not judged.
+- Breakage: the publish step's pin catch-up could not read coordinates (HTTPError). That does not matter for this tree, because its pin is confirmed.
+
 ## 2026-11-19 (session): one photograph sent twice is on a tree once
 
 - **What changed**: Hidde saw the Finer Holm Oak of Edinburgh Gardens twice on /visitors ("double?"). Angela S. had sent the same photograph twice (b6bb10c9, 3c0bacd4: byte-identical files), and both were in the tree's strip. A scan of every reader photograph found three more: the Wishing Tree in Sydney (4be001d1 and f05d3a86, same file), and Norwich Cathedral's cedar and the Fairchild Oak, where one sighting stood as the lead and again as a strip copy under an older name. Those four copies are off the pages now (the second sighting held with `--unstrip --send`, the old-name copies removed by hand).

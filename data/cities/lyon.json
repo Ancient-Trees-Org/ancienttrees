@@ -454,14 +454,36 @@
       "access": "Free, public square, open at all times",
       "transport": "About 5 min walk from Cordeliers metro station (Line A)",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lyo_013-the-plane-tree-of-place-antoine-rivoire.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_632f911006e6a6d1beaf2da5",
+        "sighting_id": "446cfadf-3ffe-4a88-bb64-ef1404f11d10",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The whole plane in its small square, alone where streets meet, Saint-Nizier's fountain wall on the right; daylight, autumn leaf, fills the frame. Species seen: mottled flaking plane bark, palmate maple-like leaves, broad open crown. Fits the description: a single big plane standing alone at the centre of a tiny square where small streets meet, Saint-Nizier bus stop beside it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by standing alone at the centre of a square barely bigger than a tennis court, where four small streets meet. It stands in Place Antoine-Rivoire."
+      "how_to_recognise": "You can recognise it by standing alone at the centre of a square barely bigger than a tennis court, where four small streets meet. It stands in Place Antoine-Rivoire.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lyo_013-the-plane-tree-of-place-antoine-rivoire-34765498.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_632f911006e6a6d1beaf2da5",
+          "sighting_id": "34765498-f889-416e-b6a0-40c66432370a",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Same tree looking straight up the trunk, Saint-Nizier church and its bus stop sign beside it; good second view, the wide shot leads. Species seen: patchwork plane bark on the trunk, palmate leaves in the crown. Fits the description: the lone square plane by the Saint-Nizier stop and church.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "lyo_014",
