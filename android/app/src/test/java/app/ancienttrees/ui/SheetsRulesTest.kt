@@ -70,4 +70,11 @@ class SheetsRulesTest {
         assertEquals(Directions.MapsApp.GOOGLE, Directions.MapsApp.from("google"))
         assertNull(Directions.MapsApp.from("apple"))
     }
+
+    /** ESC-2026-11-19 (Hidde on the Play build): the Maps app refused the api=1 link while Maps was running. */
+    @Test fun theMapsAppGetsTheLinkItOpensWhileRunning() {
+        val app = Directions.googleAppUrl(52.1, 4.2)
+        assertEquals("https://maps.google.com/maps?daddr=52.1,4.2&dirflg=w", app)
+        assertFalse("api=1 reaches a running Maps as Unsupported link", app.contains("api=1"))
+    }
 }

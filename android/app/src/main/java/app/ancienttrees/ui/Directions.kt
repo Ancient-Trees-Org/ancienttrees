@@ -58,9 +58,21 @@ object Directions {
     fun preferred(c: Context): MapsApp? = MapsApp.from(prefs(c).getString(KEY, null))
     fun setPreferred(c: Context, app: MapsApp) = prefs(c).edit().putString(KEY, app.raw).apply()
 
-    /** The walking route in Google Maps, the iPhone's own link. */
+    /** The walking route in Google Maps, the iPhone's own link; on Android only the web fallback. */
     fun googleUrl(lat: Double, lng: Double) =
         "https://www.google.com/maps/dir/?api=1&destination=$lat,$lng&travelmode=walking"
+
+    /**
+     * The walking route handed to the Google Maps APP. Hidde, 2026-11-19, on the
+     * Play build: "google maps cant open this link". Measured on his Samsung over
+     * adb: the api=1 link above opens Maps when Maps is not running, but when Maps
+     * is already open in the background (a second walk, or he had used Maps
+     * that day) it lands in the running instance as "Unsupported link", with or
+     * without a fresh-task flag and with the comma encoded. The classic daddr
+     * link opens the walking route in both cases, every time.
+     */
+    fun googleAppUrl(lat: Double, lng: Double) =
+        "https://maps.google.com/maps?daddr=$lat,$lng&dirflg=w"
 
     /** The spot for any maps app: geo: with the place as the query, so the app drops a pin there. */
     fun geoUri(lat: Double, lng: Double, name: String?): String {
@@ -83,7 +95,7 @@ object Directions {
             // (developers.google.com/maps/documentation/urls/android-intents, setPackage):
             // left to the system, a second tap on Hidde's Samsung reached Maps as
             // "Unsupported link" (2026-11-17). Without the app the catch below opens the web.
-            MapsApp.GOOGLE -> Intent(Intent.ACTION_VIEW, Uri.parse(googleUrl(lat, lng)))
+            MapsApp.GOOGLE -> Intent(Intent.ACTION_VIEW, Uri.parse(googleAppUrl(lat, lng)))
                 .setPackage("com.google.android.apps.maps")
             MapsApp.OTHER -> Intent.createChooser(
                 Intent(Intent.ACTION_VIEW, Uri.parse(geoUri(lat, lng, name))),

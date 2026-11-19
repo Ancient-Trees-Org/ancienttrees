@@ -556,6 +556,17 @@
    "found_by": "hidde",
    "test": "scripts/qa.py check_every_own_photo_has_a_card_copy (deploy, after the copies step)",
    "fixed_in": "ba0575b69"
+  },
+  {
+   "id": "ESC-2026-11-19-android-directions-to-google-maps-showed",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/Directions.kt",
+   "summary": "Android: directions to Google Maps showed 'Google Maps can't open this link' when Maps was already running (api=1 link with setPackage)",
+   "first_seen": "2026-11-19",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "android/app/src/test/java/app/ancienttrees/ui/SheetsRulesTest.kt theMapsAppGetsTheLinkItOpensWhileRunning"
   }
  ]
 }
