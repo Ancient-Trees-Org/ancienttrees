@@ -18,6 +18,46 @@
    "agreed": null
   },
   {
+   "id": "sight:7bf536d3-50d1-49f7-8ded-90a84364ac92",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Myrtle Beech of Maits Rest",
+   "photo": "p_55b71f863ab5453c822af0ed/7BF536D3-50D1-49F7-8DED-90A84364AC92.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the fused red-brown trunks of a myrtle beech among ferns at Maits Rest, daylight, colour. Lead photograph of apollo-bay/apb_001."
+  },
+  {
+   "id": "lead:7bf536d3-50d1-49f7-8ded-90a84364ac92",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Myrtle Beech near Weeaproinah",
+   "city": null,
+   "species": "Myrtle Beech",
+   "photo": "p_55b71f863ab5453c822af0ed/7BF536D3-50D1-49F7-8DED-90A84364AC92.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Myrtle Beech"
+   },
+   "verdict": "publish",
+   "reason": "Live as apollo-bay/apb_001. Photograph viewed: the fused red-brown trunks of a myrtle beech among ferns at Maits Rest, daylight, colour, plus the reader's photo of the Heritage Tree disc. National Trust Register of Significant Trees lists it (about 200 years, 30 m); reader's GPS fix confirms the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",

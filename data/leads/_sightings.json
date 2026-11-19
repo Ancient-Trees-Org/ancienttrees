@@ -6779,6 +6779,40 @@
    "seen": "2026-11-18",
    "hold": "not_public",
    "judged": "2026-11-18"
+  },
+  {
+   "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92",
+   "user_id": "p_55b71f863ab5453c822af0ed",
+   "mine": false,
+   "name": "Myrtle Beech near Weeaproinah",
+   "unsure_among": null,
+   "species": "Myrtle Beech",
+   "age": "200 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -38.7601726181846,
+   "longitude": 143.554294015707,
+   "near": null,
+   "photo": "p_55b71f863ab5453c822af0ed/7BF536D3-50D1-49F7-8DED-90A84364AC92.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-1.jpg",
+    "out/sightings/7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-2.jpg",
+    "out/sightings/7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the great reddish, furrowed trunk of a myrtle beech rising out of a bed of ferns, a mossy limb carrying epiphytic ferns, a second trunk beside it, tree ferns behind, daylight, colour; further frames show two or three fused trunks and the green Heritage Tree disc at the boardwalk ('over 200 years old', 'listed on the Register of Significant Trees with the National Trust of Australia'). Live as apollo-bay/apb_001 (National Trust register plus the reader's photograph).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "apollo-bay/apb_001"
   }
  ]
 }

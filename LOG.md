@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: the Maits Rest myrtle beech live near Apollo Bay
+
+- **New tree, apollo-bay/apb_001, The Myrtle Beech of Maits Rest**: a reader's app photograph with a GPS fix on the Maits Rest Rainforest Walk (Great Otway National Park, 12 km west of Apollo Bay). Fused red-brown trunks among ferns, daylight, colour, plus the reader's own shot of the Heritage Tree disc. The National Trust of Australia's Register of Significant Trees (trusttrees.org.au) lists it: about 200 years, 30 m, "possibly 2 or 3 trees which have grown together". So it has a source and a register link, the pin is `confirmed` from the GPS fix, and the access line says it is free. It is a new one-tree place, so it has no place page yet. It comes from the same reader as wee_001 but is 13 km from it, so it is a different tree. The intake's name for it ("near Weeaproinah") came from reverse geocoding and was wrong.
+- Still open: 3c544597 (Amsterdam, near ams_032) still has no photograph on this machine (`fetch_waiting_photos.py` says nothing waits), so it got no blind verdict. The older leads (Nara, Kyoto, Taketa, Tokyo, Baarn) are September and October verdicts, most of them our own account, and none of their photographs is on this runner. I did not re-judge them blind.
+- No open reports, no feedback without a verdict, no tips, no reader words waiting.
+
 ## 2026-11-18 reader judge: the Ada Tree gets a daylight lead photo and its real pin
 
 - **Powelltown, the Ada Tree (pwt_001)**: a reader's daylight photograph from the fern gully is now the lead (`add`); the earlier reader's dusk frame moves to the strip. Both readers' GPS fixes agree within about 15 m, about 890 m west of our approximate pin, which sat at the picnic area where the 3.6 km loop starts. The pin moved onto the tree by hand (sightings_publish refuses moves over 300 m), now `confirmed`, `pin_source` says why; the address now names the reserve and the walk.

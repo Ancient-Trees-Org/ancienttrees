@@ -1,0 +1,80 @@
+{
+  "city": "Apollo Bay",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Apollo Bay is a fishing town on the Great Ocean Road in Victoria, where the Otway Ranges come down to the sea. Twelve kilometres west, the Maits Rest rainforest walk loops through a gully of tree ferns and myrtle beech in the Great Otway National Park, and on it stands a beech the National Trust lists as significant: about 200 years old, 30 metres tall, and possibly two or three trees grown into one.",
+  "meta_description": "The 200-year-old myrtle beech at Maits Rest near Apollo Bay, on the National Trust's significant tree register, and how to find it.",
+  "question_meta": "The oldest tree we map near Apollo Bay: a myrtle beech of about 200 years at Maits Rest, listed by the National Trust of Australia.",
+  "question_answer": "The oldest tree we map near Apollo Bay is the myrtle beech at Maits Rest, about 200 years old by the National Trust of Australia's Register of Significant Trees.",
+  "question_context": "Maits Rest is a short rainforest walk off the Great Ocean Road in the Great Otway National Park, about twelve kilometres west of Apollo Bay. The National Trust of Australia lists one of its myrtle beeches on the Register of Significant Trees: about 200 years old, 30 metres tall, and a very unusual example of the species, possibly two or three trees that have grown together. The register places it about 200 metres along the walking track from the road, and its shape lets you see in beneath it, among its roots and branches. Myrtle beech, Nothofagus cunninghamii, is the southern beech of the cool, wet gullies of Victoria and Tasmania, a relative of the beeches of New Zealand and South America. A reader who walked the loop sent us photographs of the tree with a GPS fix taken beside it: several red-brown trunks rising from one base among ferns, a mossy limb carrying ferns of its own, and a green Heritage Tree disc on the boardwalk rail that tells walkers to look up. We have no girth for it yet; if you measure it, tell us on the page.",
+  "faq": [
+    {
+      "q": "Where is the old myrtle beech near Apollo Bay?",
+      "a": "On the Maits Rest Rainforest Walk in the Great Otway National Park, off the Great Ocean Road about 12 km west of Apollo Bay, roughly 200 m along the track."
+    },
+    {
+      "q": "How old is the Maits Rest myrtle beech?",
+      "a": "About 200 years, according to the National Trust of Australia's Register of Significant Trees, which also gives its height as 30 metres."
+    },
+    {
+      "q": "Does it cost anything to visit?",
+      "a": "No. Maits Rest is a free walk in a national park, with a car park on the Great Ocean Road."
+    }
+  ],
+  "hero_tree_id": "apb_001",
+  "oldest_tree_id": "apb_001",
+  "trees": [
+    {
+      "id": "apb_001",
+      "name": "The Myrtle Beech of Maits Rest",
+      "species": "Myrtle Beech (Nothofagus cunninghamii)",
+      "age_estimate": "about 200 years",
+      "age_min": 200,
+      "age_max": null,
+      "age_basis": "source",
+      "height_m": 30,
+      "location": {
+        "address": "Maits Rest Rainforest Walk, Great Ocean Road, Great Otway National Park, near Apollo Bay, Victoria",
+        "latitude": -38.7601726181846,
+        "longitude": 143.554294015707,
+        "neighbourhood": "Maits Rest, Great Otway National Park"
+      },
+      "how_to_recognise": "On the Maits Rest rainforest loop, beside a green Heritage Tree disc on the boardwalk rail: two or three fused red-brown beech trunks rising from one fern-filled base, one heavy mossy limb lined with ferns.",
+      "access": "Free. On the Maits Rest Rainforest Walk in the Great Otway National Park, a short loop from the car park on the Great Ocean Road, about 12 km west of Apollo Bay; the register places it about 200 m along the track.",
+      "verified_sources": [
+        "https://trusttrees.org.au/tree/VIC/Apollo_Bay/Great_Ocean_Road (National Trust of Australia, Register of Significant Trees: Myrtle Beech, Nothofagus cunninghamii, at Maits Rest, 200 m along the walking track from the Great Ocean Road, 12 km from Apollo Bay; about 200 years, 30 m; 'possibly being 2 or 3 trees which have grown together')"
+      ],
+      "official_register": {
+        "name": "National Trust of Australia, Register of Significant Trees",
+        "url": "https://trusttrees.org.au/tree/VIC/Apollo_Bay/Great_Ocean_Road"
+      },
+      "story": "Two hundred years is a long life for a myrtle beech, and the one at Maits Rest has spent it growing into its neighbours. The National Trust of Australia lists it on its Register of Significant Trees as a very unusual example of the species, possibly two or three trees that have grown together, and a reader who walked the track sent us photographs of it with a GPS fix taken beside it.\n\nMaits Rest is a short rainforest loop off the Great Ocean Road in the Great Otway National Park, about twelve kilometres west of Apollo Bay. Myrtle beech, Nothofagus cunninghamii, is the southern beech of the cool, wet gullies of Victoria and Tasmania, and here it stands among tree ferns that grow taller than a person. The National Trust puts this one at about 200 years old and 30 metres tall.\n\nThe reader's pictures show why it was listed. Two or three thick trunks, red-brown where the bark is bare and green where moss has taken it, rise from one fern-filled base, and a heavy limb reaching out from the biggest carries a whole garden of ferns along its top. The register notes that its shape lets you see right in beneath the tree, among its roots and branches.\n\nA small green disc on the boardwalk rail says Heritage Tree, and below it, in big letters: look up.",
+      "found_by_reader": {
+        "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (sighting 7bf536d3-50d1-49f7-8ded-90a84364ac92) with a GPS fix. Photograph viewed: the great reddish, furrowed trunk of a myrtle beech rising out of a bed of ferns, a mossy limb carrying epiphytic ferns, a second trunk beside it, tree ferns behind, daylight, colour; further frames show two or three fused trunks and the green Heritage Tree disc at the boardwalk ('over 200 years old', 'listed on the Register of Significant Trees with the National Trust of Australia'). The fix sits on the Maits Rest Rainforest Walk; the reader's own photograph of the Heritage Tree disc names the National Trust register, and trusttrees.org.au lists the Maits Rest myrtle beech (about 200 years, 30 m, possibly 2 or 3 trees grown together). One official register plus a reader's photograph of the living tree today (life check). The reader's own entry: name 'Myrtle Beech near Weeaproinah', species 'Myrtle Beech', age '200 years', no girth. 13 km from wee_001 (the same reader's fern-lined beech near the Otway Fly), a different tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/apb_001-myrtle-beech-of-maits-rest.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_55b71f863ab5453c822af0ed",
+        "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the great reddish, furrowed trunk of a myrtle beech rising out of a bed of ferns, a mossy limb carrying epiphytic ferns, a second trunk beside it, tree ferns behind, daylight, colour; further frames show two or three fused trunks and the green Heritage Tree disc at the boardwalk ('over 200 years old', 'listed on the Register of Significant Trees with the National Trust of Australia'). Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}
