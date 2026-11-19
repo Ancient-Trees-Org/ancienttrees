@@ -7677,6 +7677,36 @@
    "seen": "2026-11-19",
    "hold": "not_special",
    "judged": "2026-11-19"
+  },
+  {
+   "sighting_id": "b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+   "user_id": "p_66a65200109974ae31b53f01",
+   "mine": false,
+   "name": "Sweet Chestnut near Westerlo",
+   "unsure_among": null,
+   "species": "Sweet Chestnut",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 50.91423,
+   "longitude": 5.1218445,
+   "near": null,
+   "photo": "p_66a65200109974ae31b53f01/B25A6096-D8F0-4528-A3FB-FA6F6C61FD61.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole lower trunk and the first great limbs from the grass, the bark twisting up in deep spiral furrows, a burr on the trunk, autumn leaves, a plank bench at the right, daylight, colour. Live as geetbets/gtb_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "geetbets/gtb_001"
   }
  ]
 }

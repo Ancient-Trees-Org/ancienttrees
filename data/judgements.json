@@ -1807,6 +1807,70 @@
    "agreed": null
   },
   {
+   "id": "sight:792fd983-0f7d-4818-9112-8fbdf8e8c409",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Married Couple Cherry Trees of Miyajidake Shrine",
+   "photo": "p_9f7b25dda38d08dabcad19bf/792FD983-0F7D-4818-9112-8FBDF8E8C409.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: both low, wide cherries in full blossom on crutches in the shrine courtyard. Live as fukutsu/fkt_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cf563122-313c-4d9c-9098-bf01cbb35a5a",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Camphor of the Kyoto University Clock Tower",
+   "photo": "p_9f7b25dda38d08dabcad19bf/CF563122-313C-4D9C-9098-BF01CBB35A5A.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole camphor on its round lawn before the clock tower. Live as kyoto/kyo_020 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Sweet Chestnut of Hulsbeek",
+   "photo": "p_66a65200109974ae31b53f01/B25A6096-D8F0-4528-A3FB-FA6F6C61FD61.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the spiral-barked chestnut trunk and its first limbs from the grass, plank bench beside it. Live as geetbets/gtb_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Sweet Chestnut near Westerlo",
+   "city": null,
+   "species": "Sweet Chestnut",
+   "photo": "p_66a65200109974ae31b53f01/B25A6096-D8F0-4528-A3FB-FA6F6C61FD61.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: a big sweet chestnut, bark twisting in deep spiral furrows, burr on the trunk, plank bench facing it, GPS fix at the tree in Hulsbeek, Geetbets (the app's 'near Westerlo' was 24 km off). Live as geetbets/gtb_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -19094,30 +19158,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:792fd983-0f7d-4818-9112-8fbdf8e8c409",
-   "seen": "2026-11-19",
-   "kind": "a tree we do not map",
-   "tree": "The Married Couple Cherry Trees of Miyajidake Shrine",
-   "photo": "p_9f7b25dda38d08dabcad19bf/792FD983-0F7D-4818-9112-8FBDF8E8C409.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-19: both low, wide cherries in full blossom on crutches in the shrine courtyard. Live as fukutsu/fkt_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:cf563122-313c-4d9c-9098-bf01cbb35a5a",
-   "seen": "2026-11-19",
-   "kind": "a tree we do not map",
-   "tree": "The Camphor of the Kyoto University Clock Tower",
-   "photo": "p_9f7b25dda38d08dabcad19bf/CF563122-313C-4D9C-9098-BF01CBB35A5A.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-19: the whole camphor on its round lawn before the clock tower. Live as kyoto/kyo_020 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

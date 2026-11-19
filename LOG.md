@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: a sweet chestnut in Geetbets (Belgium) live, a mail reply filed
+
+- **New reader tree live: The Sweet Chestnut of Hulsbeek** (geetbets/gtb_001, a new one-tree place in Flemish Brabant). It's a big chestnut on open grass whose bark twists round the trunk in deep spiral furrows, with a plank bench facing it. The pin is the reader's GPS fix and their photograph is the lead. The app had named it "near Westerlo", but that's just our nearest place, 24 km off. An OpenStreetMap lookup puts the fix on Weg op Halen in Hulsbeek, Geetbets. The reader gave no age, girth or note, so the page asks for them.
+- **Mail reply 1281** (the Brecon Cathedral cedar): the reader knows nothing more about it. Closed `handled`, and reader_words marked done. No change.
+- **Left for the next run:** sighting 3c544597 (Amsterdam area, 52.3972,4.8739). Its photograph is not on disk, so it isn't judged blind.
+- No open reports.
+
 ## 2026-11-19 reader judge: two Japanese trees live (Kyoto University camphor, Miyajidake Shrine cherries), a Vilnius photo settled
 
 - **New reader tree live: The Camphor of the Kyoto University Clock Tower** (kyoto/kyo_020). It's the university's emblem tree, a huge round camphor on the lawn inside the main gate. The pin is the reader's GPS fix and their photograph is the lead. Kyoto city's notable-tree list and the university's Kurenai magazine are its sources. The 1935 planting and the "about 90 years" are the reader's figures and the page says so. Kyoto now has 19 trees, so the free-entry FAQ count changed in English and Japanese, and the Japanese overlay got the tree and its counts (17 → 18 others).

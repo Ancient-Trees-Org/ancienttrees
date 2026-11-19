@@ -1703,6 +1703,10 @@
       "Hukuoka-chhī",
       "Whukuoka"
     ],
+    "fukutsu": [
+      "Fukutsu Shi",
+      "Hukutu-chhī"
+    ],
     "fulufjallet": [
       "Nationaal park Fulufjället",
       "Nationalpark Fulufjället",
@@ -1741,6 +1745,10 @@
       "Djelong",
       "Hironga",
       "Sielong"
+    ],
+    "geetbets": [
+      "Občina Geetbets",
+      "Bets"
     ],
     "geneva": [
       "Genève",
@@ -5792,12 +5800,14 @@
     "frydlant": "Frýdlant",
     "fujikawaguchiko": "Fujikawaguchiko",
     "fukuoka": "Fukuoka",
+    "fukutsu": "Fukutsu",
     "fulufjallet": "Fulufjället National Park",
     "galenbeck": "Galenbeck",
     "garmen": "Garmen",
     "gdansk": "Gdańsk",
     "geashill": "Geashill",
     "geelong": "Geelong",
+    "geetbets": "Geetbets",
     "geneva": "Geneva",
     "genoa": "Genoa",
     "gent": "Ghent",

@@ -1,0 +1,69 @@
+{
+  "city": "Geetbets",
+  "country": "Belgium",
+  "status": "needs_curation",
+  "intro": "Geetbets is a rural village in the east of Flemish Brabant, in the Hageland, on the border with Limburg. In its hamlet of Hulsbeek, beside the road to Halen, grows a sweet chestnut whose bark twists round the trunk in deep spiral furrows, with a plank bench on the grass in front of it. A reader photographed it and sent it to us; we do not yet know its age or girth.",
+  "meta_description": "The sweet chestnut at Hulsbeek in Geetbets, Flemish Brabant: a spiral-barked trunk a reader photographed, where it stands and what we know so far.",
+  "hero_tree_id": "gtb_001",
+  "oldest_tree_id": "gtb_001",
+  "trees": [
+    {
+      "id": "gtb_001",
+      "name": "The Sweet Chestnut of Hulsbeek",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "location": {
+        "address": "Grass verge beside Weg op Halen, Hulsbeek, Geetbets, Flemish Brabant",
+        "latitude": 50.91423,
+        "longitude": 5.1218445,
+        "neighbourhood": "Hulsbeek"
+      },
+      "how_to_recognise": "A big sweet chestnut on open grass whose dark bark winds round the trunk in deep spiral furrows, a rounded burr on one side, with a rough bench of thick planks facing it.",
+      "access": "Free. On open grass beside a country road, where the reader walked up to it.",
+      "story": "In Hulsbeek, a hamlet of Geetbets on the quiet road to Halen, a reader stopped at this sweet chestnut and sent us a photograph with a GPS fix taken on the grass beside it. They gave it no words, and the picture does not need many.\n\nLook at the bark. On a sweet chestnut the furrows begin straight and, as the tree ages, start to twist, and on this trunk they run round it in long dark spirals from the roots to where it forks, as if the whole tree had been wrung slowly over many years. A rounded burr bulges from one side, the foot of the trunk swells out over the grass, and about a third of the way up great limbs leave it at wide angles to carry a crown that, in the reader's November photograph, is turning from green to gold. Someone has set a rough bench of thick planks on the grass facing it.\n\nWe do not know its girth or its age, or who planted a chestnut here in the Hageland, where oaks and poplars are the usual trees. If you know, or have measured it, tell us here and we will add your figures.\n\nSit on the bench and follow one furrow with your eye all the way up the trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (b25a6096-d8f0-4528-a3fb-fa6f6c61fd61, 2026-11-19, through the app). The app named it 'near Westerlo' (our nearest place, 24 km off); the GPS fix is in Hulsbeek, Geetbets (OpenStreetMap reverse lookup: Weg op Halen, Hulsbeek, Geetbets, 3450). Photograph viewed: the whole lower trunk and the first great limbs from the grass, the bark twisting up in deep spiral furrows, a burr on the trunk, autumn leaves, a plank bench at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Species from the reader and the spiral bark in the photo; no age or girth given.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gtb_001-sweet-chestnut-of-hulsbeek.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_66a65200109974ae31b53f01",
+        "sighting_id": "b25a6096-d8f0-4528-a3fb-fa6f6c61fd61",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole lower trunk and the first great limbs from the grass, the bark twisting up in deep spiral furrows, a burr on the trunk, autumn leaves, a plank bench at the right, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The sweet chestnut at Hulsbeek in Geetbets, Flemish Brabant: a spiral-barked trunk a reader photographed, where it stands and what we know so far.",
+  "question_answer": "The Sweet Chestnut of Hulsbeek stands on a grassy verge beside Weg op Halen in Hulsbeek, a hamlet of Geetbets in Flemish Brabant. It can be reached freely on foot.",
+  "question_context": "A reader who passed through Hulsbeek, a hamlet of Geetbets in the east of Flemish Brabant, sent us a photograph of this sweet chestnut with a GPS fix taken on the grass beside it, close to Weg op Halen, the road north towards Halen. The tree is worth the stop for its bark. A young sweet chestnut has straight furrows; an older one twists, and on this trunk the dark furrows wind round in long spirals from the roots up to the fork, where great limbs spread out to hold a broad crown. A rounded burr bulges from one side of the trunk and the base flares out over the grass. A rough bench made of thick planks stands facing it, so somebody local clearly likes it too. We have no measurement, planting date or register entry for it yet, so we give it no age. Sweet chestnuts are not native to Belgium and were planted for their nuts and timber, which means this one was put here by someone on purpose. If you know its story, tell us on the page and we will add it.",
+  "faq": [
+    {
+      "q": "Where is the Sweet Chestnut of Hulsbeek?",
+      "a": "On a grassy verge beside Weg op Halen in Hulsbeek, a hamlet of Geetbets in Flemish Brabant, Belgium."
+    },
+    {
+      "q": "Can I visit the Sweet Chestnut of Hulsbeek?",
+      "a": "Yes. It stands on open grass where the reader walked up to it, and there is a bench facing it."
+    },
+    {
+      "q": "How old is the Sweet Chestnut of Hulsbeek?",
+      "a": "We do not know yet. No register or measurement we have seen gives its age; if you know it, tell us on the page."
+    }
+  ]
+}
