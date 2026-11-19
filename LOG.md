@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 night run (21:50 UTC): a Melbourne coral tree from a reader goes live
+
+- **Live**: a reader's tree in Melbourne's Royal Botanic Gardens, "The Whomping Willow Coral Tree" (mel_020): a knuckled, pollarded-looking cockscomb coral-tree (Erythrina crista-galli) whose garden label says it is listed on the National Trust Register of Significant Trees of Victoria. GPS fix, confirmed pin, their words quoted. The reader had written "Mandela's Coral Tree, Erythrina afra"; the label says crista-galli, so the page follows the label. The register listing is read from the label only (corroborate.py found no register entry within 100 m).
+- **Left open**: sighting 3c544597 (our own photograph, "not sure which tree", Amsterdam Stationsplein) has no photograph on this machine, so no verdict (never judged blind).
+- Not reached: the refill pass the prepare line asks for (95 staged cities, 905 leads needing only a source). Nothing else was started; this entry covers the whole window so far.
+
 ## 2026-11-19 reader judge: Canberra blue gums get their first photo, Zetland fig held for its place
 
 - **Live**: a reader's photograph is now the lead photo of Canberra's Grant Crescent Blue Gums (can_008), which had none: the stoutest gum standing in leaf at the corner, filed under autumn (May) by the street trees' colour. It also answers the story's ask that they still stand (noted in verify_notes).
