@@ -28,6 +28,11 @@ the 500 to "Ancient Trees testers" (a CSV replaces the list, so upload
 wave1 list + wave2 together, in steps, leaving out any chunk Play refuses),
 build a batch from exactly what Play accepted, same text, kind expected,
 send. Non-Gmail addresses wait for the public launch mail.
+**Send it over three days, about 170 a day** (Hidde, 2026-11-19, "Yes, split
+it"): Gmail stops at about 500 a day, and replies, photo-live and welcome mail
+share that route, so 500 in one day would fill Gmail, then Resend (the
+fallback), and Yahoo, Apple and BT sign-ins would bounce. Run the batch with
+OUTREACH_DAILY_CAP=170 on three days in a row; re-running skips who already had it.
 
 **SENT 2026-11-19, on Hidde's "stuur maar gewoon uit":** 100 of the 172 went
 out on 2026-11-19, and the other 68 the same afternoon through Gmail on his "kunnen we niet gewoon via gmail sturen?" (batch kind expected, OUTREACH_DAILY_CAP=200 for that run). Batch drafts/batches/android-test-invite-2026-11-19.json, gitignored,
