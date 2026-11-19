@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 (session): black bars cut off readers' screenshots; the Ashbrittle night shot off the page
+
+- **What changed**: two readers' photographs on /visitors stood between thick black bars (Hidde: "hoe komen die zwarte balken hier"). They were phone screenshots of a picture in the Photos app (740x1600, the home indicator still in them): the Fortingall yew (f2e99426) and Reelig Glen (691e83b3). Both are cut to the photograph now (740x976). **And from now on as a standard step** (Hidde: "laten we dat als standaard stap doen"): `trim_black()` in scripts/sightings_publish.py runs in `write_image`, so every reader photograph that goes live, judged or live first, loses pure-black bars. It only cuts pure black (a night photograph stays whole) and never more than leaves 40 percent of the picture. Tests in scripts/test_sightings.py. A scan of all 566 reader photographs found only these two.
+- **Off the page on Hidde's word**: the Ashbrittle plaque at night (asb_001, sighting 90cb7c6f, "echt een te slechte foto voor het platform"), `sightings_publish.py --unstrip --send`.
 ## 2026-11-19 reader judge: a new lead photograph for the New Forest sequoias
 
 - New Forest nwf_002: another reader's photograph of the giant sequoia on the Tall Trees Trail is now the lead (`add`, through `sightings_publish.py --send`): the whole tree from trunk to spire against a blue sky, with a person at its foot for scale. The old lead moves into the strip. The light script scored it POOR because of the even sky, and a reader's photograph is never refused on that score. Written verdict `sight:8dfcc988` in judgements.json.

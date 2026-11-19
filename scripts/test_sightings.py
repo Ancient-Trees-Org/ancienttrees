@@ -181,5 +181,26 @@ class TestOneRoute(unittest.TestCase):
             os.unlink(tmp.name)
 
 
+class TestTrimBlack(unittest.TestCase):
+    """A phone screenshot of a photograph loses its black bars; a dark
+    photograph stays whole (Hidde, 2026-11-19: the Fortingall yew on /visitors,
+    and the night-time Ashbrittle plaque that a looser rule cut)."""
+
+    def test_screenshot_bars_go_and_the_home_indicator_does_not_stop_it(self):
+        from PIL import Image, ImageDraw
+        im = Image.new("RGB", (740, 1600), (0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rectangle((0, 300, 739, 1240), fill=(90, 140, 70))      # the photograph
+        d.rectangle((270, 1560, 470, 1565), fill=(255, 255, 255))  # home indicator
+        out = pub.trim_black(im)
+        self.assertEqual(out.size[0], 740)
+        self.assertTrue(900 < out.size[1] <= 941, out.size)
+
+    def test_a_dark_photograph_is_left_whole(self):
+        from PIL import Image
+        im = Image.new("RGB", (1600, 1200), (14, 16, 20))         # night, not black
+        self.assertEqual(pub.trim_black(im).size, (1600, 1200))
+
+
 if __name__ == "__main__":
     unittest.main()

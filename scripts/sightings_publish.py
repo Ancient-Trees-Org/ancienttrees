@@ -248,6 +248,62 @@ def photo_block(entry, width, height, reason, today, fname=None):
     }
 
 
+def trim_black(im, dark=6, share=0.97, keep=0.4):
+    """The black bars around a screenshot of a photograph, cut off.
+
+    Some readers send a phone screenshot of a picture in their Photos app, so
+    the file carries black bars above and below it (Hidde, 2026-11-19: "hoe
+    komen die zwarte balken hier", the Fortingall yew and Reelig Glen on
+    /visitors). A row or column counts as bar when nearly all of it is near
+    black (the home indicator's thin line does not save it). Never cuts more
+    than leaves `keep` of the picture: a night photograph stays whole.
+    """
+    g = im.convert("L")
+    w, h = g.size
+    px = g.load()
+    def bar_row(y):
+        xs = range(0, w, max(1, w // 200))
+        return sum(px[x, y] < dark for x in xs) >= share * len(xs)
+    def bar_col(x):
+        ys = range(0, h, max(1, h // 200))
+        return sum(px[x, y] < dark for y in ys) >= share * len(ys)
+    def edge(n, is_bar, step):
+        # How far the bar reaches in from one edge: a thin run that is not bar
+        # (the home indicator, a status-bar clock) is stepped over when bar
+        # goes on beyond it, up to 3 percent of the side.
+        start = 0 if step > 0 else n - 1
+        gap = max(2, n * 3 // 100)
+        reach, miss, i = 0, 0, start
+        while 0 <= i < n:
+            if is_bar(i):
+                reach = abs(i - start) + 1
+                miss = 0
+            else:
+                miss += 1
+                if miss > gap:
+                    break
+            i += step
+        return reach
+    top = edge(h, bar_row, 1)
+    bot = h - edge(h, bar_row, -1)
+    left = edge(w, bar_col, 1)
+    right = w - edge(w, bar_col, -1)
+    if top >= bot or left >= right:
+        return im
+    # Where a bar was cut, a few more rows: the JPEG edge between bar and
+    # picture is dark grey, not black, and would stay as a thin line.
+    pad_y, pad_x = max(3, h // 200), max(3, w // 200)
+    if top: top += pad_y
+    if bot < h: bot -= pad_y
+    if left: left += pad_x
+    if right < w: right -= pad_x
+    if (top, bot, left, right) == (0, h, 0, w):
+        return im
+    if (bot - top) * (right - left) < keep * w * h:
+        return im
+    return im.crop((left, top, right, bot))
+
+
 def write_image(src, dest):
     try:
         from PIL import Image, ImageOps
@@ -260,6 +316,7 @@ def write_image(src, dest):
     im = ImageOps.exif_transpose(im)
     if im.mode not in ("RGB",):
         im = im.convert("RGB")
+    im = trim_black(im)
     w, h = im.size
     scale = LONG / max(w, h)
     if scale < 1:

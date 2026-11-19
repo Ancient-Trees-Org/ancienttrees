@@ -64,21 +64,6 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "verify_notes": "Girth 1217cm at 5cm (AYG tree 255, photos 1848, 1997, 2014). Grows on a tumulus (about 1.5m high, 15m across) SE of the church, thought possibly Bronze Age but unproven. One of the 50 Great British Trees chosen 2002 for the Golden Jubilee. Folklore: childless couples at its base conceive within a year. Wikipedia says believed over 3,000 years; Church Times 2015 reports it under the weather (condition check, still standing 2015). Mound edges hold a few headstones. Pin: AYG grid ref ST05202134 converted to WGS84, approximate (church-yard level). Age: AYG girth class, not a dating; girth 1217cm at 5cm on a mound; popular claims of 3,000 to 4,000 years are undated and not repeated here as fact. Writing pass 2026-11-04: lead photo Geograph 119778 (Martin Bodman, 'Ashbrittle: the Ashbrittle Yew', 2006) approved; Geograph 6909907 (Rob Purvis, 2021) also shows it standing in 2021.",
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/asb_001-ashbrittle-yew-90cb7c6f.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1600,
-          "height": 1200,
-          "taken_month": 12,
-          "source": "contributor",
-          "contributor_user_id": "p_492afbdde23d69af867aff0f",
-          "sighting_id": "90cb7c6f-5086-4111-aaa1-3ffaf5816746",
-          "note": "Photographed by a reader and sent through the app (2012-12-23); a viewing pass approved it on 2026-11-15: The Ashbrittle Yew's cast plaque (Taxus baccata, reputed to be over 3000 years old), photographed at dusk but readable. A gallery photo, not the lead. Species seen: The plaque names the Ashbrittle Yew, Taxus baccata. Fits the description: This tree's own plaque in the churchyard.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-        }
-      ],
       "pin_source": {
         "kind": "reader GPS fix",
         "sighting_id": "90cb7c6f-5086-4111-aaa1-3ffaf5816746",
