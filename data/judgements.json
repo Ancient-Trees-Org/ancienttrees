@@ -1472,6 +1472,18 @@
    "agreed": null
   },
   {
+   "id": "sight:685b7bb6-a189-4c1e-a74e-701215bb89c7",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Corymbia aparrerinja “Ghost Gum”",
+   "photo": "p_48cd024c76fcb12fe2d458cc/685B7BB6-A189-4C1E-A74E-701215BB89C7.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-19: the whole white ghost gum at the end of a red track, its trunk from below, and the park's sign. Lead photograph and strip of trephina-gorge/tgg_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -18759,18 +18771,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:685b7bb6-a189-4c1e-a74e-701215bb89c7",
-   "seen": "2026-11-19",
-   "kind": "a tree we do not map",
-   "tree": "Corymbia aparrerinja “Ghost Gum”",
-   "photo": "p_48cd024c76fcb12fe2d458cc/685B7BB6-A189-4C1E-A74E-701215BB89C7.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photographs viewed 2026-11-19: the whole white ghost gum at the end of a red track, its trunk from below, and the park's sign. Lead photograph and strip of trephina-gorge/tgg_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

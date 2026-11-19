@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: nothing new from readers, one mail reply filed
+
+- **What changed**: nothing on the site. No reader's photograph is waiting in the queue, no tip is unjudged, and no report is open.
+- The 38 leads still marked `lead` in data/leads/_sightings.json all come from our own account (`mine`, never auto-published). That includes 3c544597, an Amsterdam photo from 11-18 with no file on disk. Nothing there is for this run.
+- Feedback 1268 ("Yes please!", a mail reply in the Old Knobbley thread) is the same yes to the Android test that 1265 already gave, and 1265 is open for Hidde. Closed as `handled` with no other action.
+- qa --source-only and preflight are clean. data/judgements.json had an entry reordered by the intake and is committed as it stands.
+
 ## 2026-11-19 reader judge: a ghost gum in the Northern Territory, and four York champions photographed
 
 - **What changed**: a reader sent the Ghost Gum of Trephina Gorge (new place trephina-gorge, tgg_001, east of Alice Springs) with a GPS fix, a whole-tree shot, a view up the trunk and a photo of the park's own sign. The sign is the source: 33 m tall, over 300 years, on the NT Register of Significant Trees, and recognised by the National Register of Big Trees as the largest ghost gum in Australia. Their note (the Eastern Arrernte name ilwempe) is quoted. Their girth of 443 cm stays in the story as theirs, and `height_m` 33 comes from the sign. The page and photos are live from the next deploy, and the knock sends the congratulation mail.
