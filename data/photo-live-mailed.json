@@ -2371,6 +2371,30 @@
     }
    ],
    "sent": []
+  },
+  "p_301957e27a3ccd7b6fb69a01": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "03b008b9-bcbc-46c2-8ef2-a7f1da20627f",
+     "tree_id": "nyc_130",
+     "tree_name": "The Circus Ground Oak of Saratoga Park",
+     "city": "New York",
+     "city_slug": "new-york",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "91a6d670-f3e9-4d7d-9972-265c4728a77a",
+     "tree_id": "nyc_024",
+     "tree_name": "The Ginkgo of the United Order of Tents",
+     "city": "New York",
+     "city_slug": "new-york",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

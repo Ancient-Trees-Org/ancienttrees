@@ -5467,6 +5467,28 @@
    "lat": 48.8431133333333,
    "lon": 2.35610333333333,
    "pin_checked": "2026-11-19"
+  },
+  "03b008b9-bcbc-46c2-8ef2-a7f1da20627f": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "nyc_130",
+   "city_slug": "new-york",
+   "file": "nyc_130-the-circus-ground-oak-of-saratoga-park.jpg",
+   "reason": "Looking up a single big oak trunk into a crown in red and orange autumn colour, blue sky, playground shade roofs at the lower left; GPS fix 0 m from our pin. Closes the gap: the tree had no photograph. Species seen: oak: deeply furrowed grey bark, lobed leaves turning red and orange in November. Fit",
+   "lat": 40.6851,
+   "lon": -73.9196,
+   "pin_checked": "2026-11-19"
+  },
+  "91a6d670-f3e9-4d7d-9972-265c4728a77a": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "nyc_024",
+   "city_slug": "new-york",
+   "file": "nyc_024-the-ginkgo-of-the-united-order-of-tents-91a6d670.jpg",
+   "reason": "The same gold ginkgo seen from under its crown on the MacDonough Street sidewalk, iron railings of the lot on the left; 27 m from the pin. A good second view, but the current lead shows the whole tree and the house better, so it goes in the gallery behind it. Species seen: ginkgo: fan-shaped leaves ",
+   "lat": 40.68108,
+   "lon": -73.9430466666667,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

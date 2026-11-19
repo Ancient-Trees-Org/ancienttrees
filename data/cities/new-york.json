@@ -4,9 +4,9 @@
   "face_tree_id": "nyc_004",
   "status": "needs_curation",
   "intro": "New York City runs a government registry for this: the Parks Department's Great Trees of New York City list, started in 1985 and expanded in 2024 after a nomination drive drew more than 270 submissions. Most trees here carry that designation; the rest earned their place another way, like a magnolia that is a city landmark and a pear that came out of Ground Zero alive. The five boroughs each hold at least one. Some are colonial-era survivors; one was planted so a park would have something to be famous for.",
-  "meta_description": "NYC runs an official Great Trees registry. Meet a 300-year-old Greenwich Village elm, a wild tulip tree older than the city itself, and twenty-seven more.",
+  "meta_description": "NYC runs an official Great Trees registry. Meet a 300-year-old Greenwich Village elm, a wild tulip tree older than the city itself, and twenty-eight more.",
   "question_answer": "New York City's oldest tree is very likely the Queens Giant, a tulip tree in Alley Pond Park estimated between 350 and 450 years old by different measures, old enough to predate the Dutch colony of New Amsterdam entirely. It stands in a wooded section of the park in eastern Queens, reachable on foot from the Douglaston Long Island Rail Road station.",
-  "question_meta": "NYC's oldest tree is likely the Queens Giant, a 350-450 year old tulip tree in Alley Pond Park. Its story, exact location, and 28 more trees.",
+  "question_meta": "NYC's oldest tree is likely the Queens Giant, a 350-450 year old tulip tree in Alley Pond Park. Its story, exact location, and 29 more trees.",
   "question_context": "The Queens Giant's claim to being New York City's oldest living thing rests on measurement rather than legend. At 133.8 feet, it is the tallest carefully measured tree in the five boroughs, and tulip trees of that height in undisturbed forest are reliably centuries old; the New York City Parks Department states it is at least 368 years old, while some arborists place the range as wide as 350 to 450. Either figure puts its germination before the 1664 English takeover of New Amsterdam, and some local accounts connect trees in this stretch of Alley Pond Park to 17th century land dealings between the Dutch West India Company and the Matinecock people who lived here first, though no source ties this specific trunk to a documented transaction. What is not in question is that it has spent its entire life essentially unmanaged, growing in what is now protected forest rather than a planted garden, which is rare enough in New York that the Parks Department calls it possibly the oldest living organism in the metropolitan area. Getting there: Douglaston station on the LIRR Port Washington line, then a short walk into Alley Pond Park's wooded trails.",
   "faq": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "q": "Are New York City's Great Trees free to see?",
-      "a": "Twenty-five of the twenty-nine stand in free public parks or cemeteries. The New York Botanical Garden charges general admission to its grounds, but the Thain Family Forest tree is within that same free-to-walk woodland once inside."
+      "a": "Twenty-six of the thirty stand in free public parks or cemeteries. The New York Botanical Garden charges general admission to its grounds, but the Thain Family Forest tree is within that same free-to-walk woodland once inside."
     },
     {
       "q": "How does a tree become an official Great Tree of New York City?",
@@ -1018,7 +1018,22 @@
         "url": "https://web.archive.org/web/2024/https://www.nycgovparks.org/facilities/great-trees/86",
         "date": "2026-10-09",
         "moved_m": 8
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nyc_024-the-ginkgo-of-the-united-order-of-tents-91a6d670.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_301957e27a3ccd7b6fb69a01",
+          "sighting_id": "91a6d670-f3e9-4d7d-9972-265c4728a77a",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The same gold ginkgo seen from under its crown on the MacDonough Street sidewalk, iron railings of the lot on the left; 27 m from the pin. A good second view, but the current lead shows the whole tree and the house better, so it goes in the gallery behind it. Species seen: ginkgo: fan-shaped leaves in full yellow autumn colour, heavy spreading limbs. Fits the description: a big ginkgo over the sidewalk in front of a fenced lot on a Brooklyn brownstone street, as described.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "nyc_025",
@@ -1859,10 +1874,17 @@
       "story": "Before Saratoga Park was a park, the whole block was a circus ground, and NYC Parks thinks this red oak likely dates from those days. Likely is their word, and it is worth keeping. There is no planting record and no ring count, only a tree big enough to make the idea plausible and a block with a history odd enough to make it memorable. The more recent history is better documented. When the park was renovated in 2023, the new playground was laid out around a central corridor to protect the tree, so the design bends to the oak rather than the other way round. In 2024 Parks added it to its Great Trees list, the city's roll of its most remarkable trees. The trunk measures 54 inches across, about 4.3 metres round, and the city's forestry inventory found it in Good condition in December 2025. It stands on the south side of the path just north of the children's playground, a public park tree you can walk right up to. If you know when it was planted, tell us.",
       "how_to_recognise": "You can recognise it by the trunk, 54 inches across, the big oak the playground was laid out around. It stands on the south side of the path just north of the children's playground in Saratoga Park.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nyc_130-the-circus-ground-oak-of-saratoga-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1206,
+        "height": 1116,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_301957e27a3ccd7b6fb69a01",
+        "sighting_id": "03b008b9-bcbc-46c2-8ef2-a7f1da20627f",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Looking up a single big oak trunk into a crown in red and orange autumn colour, blue sky, playground shade roofs at the lower left; GPS fix 0 m from our pin. Closes the gap: the tree had no photograph. Species seen: oak: deeply furrowed grey bark, lobed leaves turning red and orange in November. Fits the description: a large single-trunked oak with playground structures beside it in a park, as the recognition line says (just north of the children's playground).. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {

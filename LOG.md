@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: the Circus Ground Oak of Saratoga Park gets its first photograph, and a second gold ginkgo view
+
+- **What changed**: one reader sent two Brooklyn photographs.
+  - **The Circus Ground Oak of Saratoga Park (nyc_130).** The tree had no photograph, and this one is now its lead. It looks up the oak's single trunk into a red and orange crown, with the playground's shade roofs beside it, and its GPS fix is 0 m from our pin. With a reader's photograph it is no longer app-only, so it now has a web page. New York's meta, question_meta and free-entry FAQ now count 30 trees ("twenty-six of the thirty" free; Saratoga Park is a public park).
+  - **The Ginkgo of the United Order of Tents (nyc_024).** The new photograph looks up from under the gold crown on the MacDonough Street sidewalk, 27 m off. The verdict was `strip`, so it sits in the gallery behind the current lead (another reader's whole-tree view, which shows the tree and the house better).
+- sightings_publish's pin catch-up could not read coordinates again (HTTPError). Neither pin needed moving.
+- No report is open, no tip is unjudged and no feedback is waiting. 3c544597 (Amsterdam, a "not sure which tree" photo) still has no file on disk, so it waits for a run that can see it. The other waiting leads in _sightings.json are our own account's, with no files here either.
+- qa --source-only, preflight and i18ncheck are clean.
+
 ## 2026-11-19 reader judge: a second reader's photograph of the Cedar of Jussieu
 
 - **What changed**: a reader's photograph of the Cedar of Jussieu (Paris, par_002) is now in the tree's gallery. It was taken 46 m south of the pin, across a hedge, and shows the flat tiered crown on its one dark trunk. The verdict was `strip`: it stays behind the current lead photo, also a reader's, which shows the tree better. Its GPS did not move the pin, which is confirmed. sightings_publish could not read coordinates for its pin catch-up (HTTPError); that step only touches approximate pins.

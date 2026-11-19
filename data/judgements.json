@@ -1506,6 +1506,50 @@
    "agreed": null
   },
   {
+   "id": "sight:03b008b9-bcbc-46c2-8ef2-a7f1da20627f",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Circus Ground Oak of Saratoga Park",
+   "city": "New York",
+   "species": "Northern Red Oak (Quercus rubra)",
+   "photo": "out/sightings/03b008b9-bcbc-46c2-8ef2-a7f1da20627f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Northern Red Oak (Quercus rubra)"
+   },
+   "verdict": "publish",
+   "reason": "A big oak trunk into a red and orange autumn crown, playground roofs beside it, GPS 0 m from our pin; the tree's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:91a6d670-f3e9-4d7d-9972-265c4728a77a",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of the United Order of Tents",
+   "city": "New York",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/91a6d670-f3e9-4d7d-9972-265c4728a77a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 27,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "The same gold ginkgo from under its crown on the MacDonough Street sidewalk, 27 m off; in the gallery behind the current lead, which shows the whole tree better.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
