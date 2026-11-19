@@ -116,6 +116,17 @@
    "sources": [
     "https://highburyparkfriends.org.uk/wp/plant-and-bird-records/habitat-wildlife/tree-surveys/"
    ]
+  },
+  {
+   "name": "Sutton Park holly coppice stool, Holly Hurst edge (ATI 268643)",
+   "species": "Holly (Ilex aquifolium)",
+   "city": "Birmingham (Sutton Coldfield)",
+   "latitude": 52.56287,
+   "longitude": -1.84895,
+   "reason": "Woodland Trust Ancient Tree Inventory page fetched 2026-11-19: veteran, standing, alive, coppice stool girth 7.17 m at 0.15 m, GPS, surveyed and verified Nov 2024 by one recorder, public open access beside a footpath outside Holly Hurst. Single source (ATI), a coppice stool not a collectible trunk, no photograph in reach; not shipped.",
+   "sources": [
+    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=268643"
+   ]
   }
  ],
  "blocked": [
