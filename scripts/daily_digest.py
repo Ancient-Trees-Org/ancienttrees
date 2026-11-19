@@ -1820,7 +1820,9 @@ def product_section(today):
         try:
             sel = ("?select=id,created_at,kind,city,tree,why,user_id"
                    if label == "Submissions" else "?select=id,created_at")
-            allrows, _ = _supa(path + sel, key)
+            # Every row: a plain _supa stops at 1,000 and the waitlist total
+            # read 996 beside a week of 1,952 (Hidde, 2026-11-19).
+            allrows = _supa_rows(path + sel, key)
             if label != "Submissions":
                 allrows = [r for r in allrows if r.get("id") not in WAITLIST_NOT_ANDROID]
             if label == "Submissions":
@@ -1850,9 +1852,13 @@ def product_section(today):
             # which kind arrived instead of the flattering generic word.
             trees_n = sum(1 for r in (allrows or [])
                           if r.get("kind") in ("tree", "city"))
-            if since is not None and since <= 1:
-                yday_ = (today - datetime.timedelta(days=1)).isoformat()
-                fresh = [r for r in allrows if str(r.get("created_at"))[:10] >= yday_]
+            # The digest's own day, whole: the line counted from yesterday
+            # into the run's first hours and said "today", so it matched no
+            # row of the day-by-day table (Hidde, 2026-11-19: "these numbers
+            # are incorrect").
+            yday_ = (today - datetime.timedelta(days=1)).isoformat()
+            fresh = [r for r in allrows if str(r.get("created_at"))[:10] == yday_]
+            if fresh:
                 fresh_trees = sum(1 for r in fresh if r.get("kind") in ("tree", "city"))
                 parts = []
                 if fresh_trees:
@@ -1884,19 +1890,21 @@ def product_section(today):
                     in_all = "%d %s in all" % (k_total, k_word)
                 else:
                     in_all = "%d submissions of every kind in all" % total
-                ATTENTION.append("%s arrived %s (%s)"
-                                 % (" and ".join(parts) or "a submission", _ago(since), in_all))
+                ATTENTION.append("%s arrived yesterday (%s)"
+                                 % (" and ".join(parts) or "a submission", in_all))
             out.append("- %-12s %d total (%d trees sent, %d feedback), newest %s" % (
                 label + ":", total, trees_n, total - trees_n, _ago(since)))
             continue
-        if since is not None and since <= 1:
+        # Counted over the digest's whole day (2026-10-24 brought 15 Android
+        # signups and the line said one; 2026-11-19 it counted the run's
+        # first hours as "today").
+        n = sum(1 for r in (allrows or []) if _days_since(r.get("created_at"), today) == 1)
+        if n:
             name_ = label.rstrip("s").lower()
             article = "an" if name_[:1] in "aeiou" else "a"
-            # Counted (2026-10-24 brought 15 Android signups and the line said one).
-            n = sum(1 for r in (allrows or []) if _days_since(r.get("created_at"), today) == since)
-            ATTENTION.append("%s arrived %s (%d total)" % (
-                "%s %s signup" % (article, name_) if n <= 1 else "%d %s signups" % (n, name_),
-                _ago(since), total))
+            ATTENTION.append("%s arrived yesterday (%d total)" % (
+                "%s %s signup" % (article, name_) if n == 1 else "%d %s signups" % (n, name_),
+                total))
         out.append("- %-12s %d total, newest %s" % (
             label + ":", total, _ago(since)))
 
@@ -1920,12 +1928,11 @@ def product_section(today):
                 break
             page += 1
         since = _days_since(newest_at, today)
-        if since is not None and since <= 1:
-            # Counted, not "an account": 2026-10-24 opened six and the line
-            # still said one.
-            n = recent[since]
-            ATTENTION.append("%s opened %s (%d accounts in all)" % (
-                "an account was" if n == 1 else "%d accounts were" % n, _ago(since), acc))
+        # Counted over the digest's whole day, as the lines above.
+        n = recent[1]
+        if n:
+            ATTENTION.append("%s opened yesterday (%d accounts in all)" % (
+                "an account was" if n == 1 else "%d accounts were" % n, acc))
         out.append("- %-12s %d total, newest %s" % ("Accounts:", acc, _ago(since)))
     except Exception as e:
         out.append("- Accounts: unreadable (%s)" % str(e)[:60])
