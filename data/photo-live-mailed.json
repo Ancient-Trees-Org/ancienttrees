@@ -2015,43 +2015,31 @@
    ]
   },
   "p_34af1999246c96b6f3066f50": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "796f1465-deac-4ee9-a5c2-45339f4e0473",
      "tree_id": "syd_005",
-     "tree_name": "The Camperdown Cemetery Fig",
-     "city": "Sydney",
-     "city_slug": "sydney",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_208e853a0292b8f518700a87": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
      "tree_id": "mel_002",
-     "tree_name": "The Remnant River Red Gum of Edinburgh Gardens",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     },
     {
      "sighting_id": "976d3d1b-1a58-4716-b138-4393ee1fdd27",
      "tree_id": "mel_001",
-     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_fd3ccfba74ad26c21b4343f5": {
    "last": "2026-11-18",
@@ -2098,19 +2086,15 @@
    ]
   },
   "p_23acc4e1375404856960887e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "f7ea860e-d319-4045-90c4-7f03ecffde3c",
      "tree_id": "nyc_027",
-     "tree_name": "The English Elm of Fort Greene Park",
-     "city": "New York",
-     "city_slug": "new-york",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f2787bdff05268fa5830d17e": {
    "last": "2026-11-18",
@@ -2129,19 +2113,15 @@
    ]
   },
   "p_33e5c34b09b47c5c496f8918": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1ac97a72-073b-45cb-9bbf-b889c07bb49d",
      "tree_id": "tul_001",
-     "tree_name": "El Árbol del Tule",
-     "city": "Santa María del Tule",
-     "city_slug": "santa-maria-del-tule",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f351766b4a0e0a7e2b2b452b": {
    "last": "2026-11-18",
@@ -2174,19 +2154,15 @@
    ]
   },
   "p_45d9738f444b2810255da5d2": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "46d7d2ee-3201-4a76-b993-b0350c3940a1",
      "tree_id": "pwt_001",
-     "tree_name": "The Ada Tree",
-     "city": "Powelltown",
-     "city_slug": "powelltown",
-     "display_name": null,
-     "live": "2026-11-18"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -1295,6 +1295,26 @@
         "The Fern-Lined Myrtle Beech of the Otways"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5c22c3030ca37ddafb789ab6",
+      "place_slug": "aihole",
+      "place_name": "Aihole",
+      "date": "2026-11-19",
+      "trees": [
+        "The Galaganatha Temple Fig"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_fa491d448dbf3f24e47cfa8b",
+      "place_slug": "torna-hallestad",
+      "place_name": "Torna Hällestad",
+      "date": "2026-11-19",
+      "trees": [
+        "The Twisted Beech of the Trollskogen"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
