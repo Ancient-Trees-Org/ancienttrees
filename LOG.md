@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 session: Resend keeps 40 a day for sign-in mail; stuck sign-ups get their mail again
+
+- **Reserve** (Hidde: "ja graag"): first mails to strangers may use 60 of Resend's 100 a day (`RESEND_FOR_STRANGERS` in scripts/mailer.py, counted from the `route` outreach_send.py now logs), then go through Gmail. Yahoo, Apple-relay and BT addresses always keep Resend. Tests in scripts/test_mailer.py.
+- **Watch**: `scripts/signin_watch.py --send` at every knock (nightly.yml): an email sign-up more than an hour old that never got in gets the same sign-in mail again, signed-only addresses once more after midnight UTC, never a third time, nothing after three days. State under people.ref codes in data/signin-watch.json; a line in the digest's lower part. Tests in scripts/test_signin_watch.py.
+- **First run found 9 people stuck since 11-16** (none from today's Resend outage: everyone since 09:36 got in via Apple or Google). 8 got their mail again; 1 address had a typo in its domain and cannot receive mail.
+- **Not covered**: somebody with an existing account asking for a new link; Supabase keeps that only in its auth audit log, which the API does not serve.
+
 ## 2026-11-19 reader judge: the Circus Ground Oak of Saratoga Park gets its first photograph, and a second gold ginkgo view
 
 - **What changed**: one reader sent two Brooklyn photographs.
