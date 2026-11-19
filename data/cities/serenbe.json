@@ -1,0 +1,114 @@
+{
+  "city": "Serenbe",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Serenbe is a community of farm, woods and creeks in Chattahoochee Hills, in the hills south-west of Atlanta, Georgia. A reader who knows its woods sent us two trees from it: a loblolly pine with a candelabra crown that stands out among ranks of straight, thin pines, and a pale beech leaning over a small waterfall on a granite slab. We know neither tree's age yet, and we would like to.",
+  "meta_description": "Two trees at Serenbe, Georgia, sent by a reader: a candelabra loblolly pine and a leaning beech above a waterfall in the woods.",
+  "hero_tree_id": "srb_001",
+  "oldest_tree_id": "srb_001",
+  "trees": [
+    {
+      "id": "srb_001",
+      "name": "Grandfather Pine at Serenbe",
+      "species": "Loblolly Pine (Pinus taeda)",
+      "location": {
+        "address": "Woodland at Serenbe, Chattahoochee Hills, Georgia",
+        "latitude": 33.5181783333333,
+        "longitude": -84.724755,
+        "neighbourhood": "Serenbe"
+      },
+      "how_to_recognise": "In pine woodland: one pine that is nothing like its neighbours, a short thick trunk in plates of red-brown bark that splits low into a spray of heavy crooked limbs while the pines around it run straight and tall.",
+      "access": "Reached on foot through the woods at Serenbe by the reader who photographed it. We have not confirmed which paths are open to visitors; check before you go.",
+      "story": "\"Grandfather Pine,\" the reader called it when they sent us this tree from Serenbe, in the hills south-west of Atlanta, with a GPS fix taken at its foot.\n\nThe photograph shows why. It is a loblolly pine, the common timber pine of the Southeast, and most of them in this wood stand tall and straight in ranks, each a single thin column. This one broke the pattern. Its trunk is short and thick, armoured in big plates of red-brown bark, and a few metres up it divides into a crowd of heavy limbs that twist and fork and lift away from each other like the arms of a candelabra, some of them snapped and healed. A pine grows like that when it has had room and light for a long time, and the crowd of straight young pines around it shows how much room it had.\n\nWe have no age or girth for it. If you know how old it is, or have measured it, tell us here and we will add your figures.\n\nStand well back from the foot of it and look up to see how all the limbs leave the trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "83bb9866-51c0-4012-b95f-a83ec51ea108",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "83bb9866-51c0-4012-b95f-a83ec51ea108",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 session: sent by a reader (83bb9866-51c0-4012-b95f-a83ec51ea108, through the app). Photograph viewed: a loblolly pine seen from its foot, a short thick plated trunk splitting into a candelabra of crooked limbs, among tall straight pines, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own name 'Grandfather Pine at Serenbe', species 'Loblolly Pine'. No age or girth given.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/srb_001-grandfather-pine-at-serenbe.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 702,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "83bb9866-51c0-4012-b95f-a83ec51ea108",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: a loblolly pine seen from its foot, a short thick plated trunk splitting into a candelabra of crooked limbs, among tall straight pines, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "srb_002",
+      "name": "Grandmother Beech at Serenbe",
+      "species": "American Beech (Fagus grandifolia)",
+      "location": {
+        "address": "Creek and rock slab in the woods at Serenbe, Chattahoochee Hills, Georgia",
+        "latitude": 33.5136033333333,
+        "longitude": -84.74478,
+        "neighbourhood": "Serenbe"
+      },
+      "how_to_recognise": "Beside a small waterfall over a granite slab: a smooth, pale grey beech trunk leaning out over the creek, with one long limb reaching sideways across the rock.",
+      "access": "Reached on foot through the woods at Serenbe by the reader who photographed it. We have not confirmed which paths are open to visitors; check before you go.",
+      "story": "A reader who knows the woods at Serenbe, in the hills south-west of Atlanta, sent us this beech as \"Grandmother Beech\", with a GPS fix taken where they stood.\n\nIt stands where a creek slides over a broad slab of granite and drops in a thin waterfall, and the tree has taken the view for itself. The trunk is smooth and pale grey, the way beech bark always is, and it leans out over the water before dividing into a wide, open crown, with one long limb stretching almost level across the rock. In the reader's winter photograph the crown is bare, but a scatter of copper leaves is still hanging on, as beech leaves famously do until spring pushes them off.\n\nWe do not know how old it is or how thick the trunk measures. The reader gave us the name and the place, and we would be glad of anything else you know about it.\n\nCome in winter or early spring, when the bare crown shows its full spread against the sky.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "1d409917-a8ff-4792-9a65-551e607a6d18",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "1d409917-a8ff-4792-9a65-551e607a6d18",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 session: sent by a reader (1d409917-a8ff-4792-9a65-551e607a6d18, through the app). Photograph viewed: a smooth pale-grey beech leaning over a rock slab and a small waterfall, bare branches with copper leaves still on, woodland behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own name 'Grandmother Beech at Serenbe', species 'Beech (Fagus sp.)'. No age or girth given.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/srb_002-grandmother-beech-at-serenbe.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "1d409917-a8ff-4792-9a65-551e607a6d18",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: a smooth pale-grey beech leaning over a rock slab and a small waterfall, bare branches with copper leaves still on, woodland behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "Two trees at Serenbe, Georgia: where the candelabra pine and the waterfall beech stand, and what we still want to know.",
+  "question_answer": "The two trees we know at Serenbe, Georgia, are Grandfather Pine and Grandmother Beech, both in the woods of Chattahoochee Hills, south-west of Atlanta. Check which paths are open before you go.",
+  "question_context": "A reader sent us photographs of two trees from the woods at Serenbe, a community in Chattahoochee Hills south-west of Atlanta, each with a GPS fix taken where they stood. Grandfather Pine is a loblolly pine whose short thick trunk splits into a spray of crooked limbs while the pines around it stand tall and straight. Grandmother Beech is a smooth grey American beech leaning over a creek where a small waterfall slides across a granite slab, with copper leaves still on its bare winter branches. The two stand about a mile and a half apart. We have no measured girth or age for either, and no register entry within a hundred metres of them. We have not confirmed which paths are open to visitors, so check before you go. Readers who know the trees can add what they know on each tree's page, and anyone who visits can send a photograph taken at the foot of either one so that we can check the pin.",
+  "faq": [
+    {
+      "q": "What trees can I see at Serenbe?",
+      "a": "Two so far, both sent by a reader: Grandfather Pine, a loblolly pine with a candelabra crown, and Grandmother Beech, a pale beech leaning over a small waterfall."
+    },
+    {
+      "q": "How old are they?",
+      "a": "We do not know. No register or measurement we have seen gives an age or girth for either, and the reader did not give one. If you know, tell us on the tree's page."
+    },
+    {
+      "q": "Where are they?",
+      "a": "In the woods at Serenbe, Chattahoochee Hills, Georgia, south-west of Atlanta. Our pins are the reader's GPS fixes, taken where they stood to photograph each tree."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "We have not confirmed which paths are open to visitors. Check before you go."
+    }
+  ]
+}

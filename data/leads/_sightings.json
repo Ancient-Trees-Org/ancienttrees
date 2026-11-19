@@ -6966,9 +6966,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-19"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: a loblolly pine seen from its foot, a short thick plated trunk splitting into a candelabra of crooked limbs, among tall straight pines, daylight, colour. Live as serenbe/srb_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "serenbe/srb_001"
   },
   {
    "sighting_id": "1d409917-a8ff-4792-9a65-551e607a6d18",
@@ -6994,9 +6996,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-19"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: a smooth pale-grey beech leaning over a rock slab and a small waterfall, bare branches with copper leaves still on, woodland behind, daylight, colour. Live as serenbe/srb_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "serenbe/srb_002"
   }
  ]
 }

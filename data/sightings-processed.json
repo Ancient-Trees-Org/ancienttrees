@@ -5066,12 +5066,44 @@
    "date": "2026-11-19"
   },
   "83bb9866-51c0-4012-b95f-a83ec51ea108": {
-   "outcome": "lead",
-   "date": "2026-11-19"
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "srb_001",
+   "city_slug": "serenbe",
+   "file": "srb_001-grandfather-pine-at-serenbe.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (srb_001, looked at 2026-11-19).",
+   "already_lead": true
   },
   "1d409917-a8ff-4792-9a65-551e607a6d18": {
-   "outcome": "lead",
-   "date": "2026-11-19"
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "srb_002",
+   "city_slug": "serenbe",
+   "file": "srb_002-grandmother-beech-at-serenbe.jpg",
+   "reason": "Already live as the lead photograph of the tree this reader's photograph created (srb_002, looked at 2026-11-19).",
+   "already_lead": true
+  },
+  "417749a0-3387-4bd0-853a-ce00cd4dad90": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "nol_001",
+   "city_slug": "new-orleans",
+   "file": "nol_001-the-mcdonogh-oak.jpg",
+   "reason": "The McDonogh Oak in City Park, propped by its poles, daylight and colour, whole crown. Species seen: Southern Live Oak (Quercus virginiana), Spanish moss. Fits the description: huge spreading live oak with its long limbs held up by timber props.",
+   "lat": 29.9837883333333,
+   "lon": -90.0951833333333,
+   "pin_checked": "2026-11-19"
+  },
+  "f37a9e16-ce5b-48ab-a115-8f435303f92e": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "nol_002",
+   "city_slug": "new-orleans",
+   "file": "nol_002-the-anseman-oak-f37a9e16.jpg",
+   "reason": "Anseman Oak trunk and crown by the lagoon, a second view beside the lead. Species seen: Southern Live Oak (Quercus virginiana), Spanish moss. Fits the description: massive live oak trunk with spreading limbs.",
+   "lat": 29.9842966666667,
+   "lon": -90.0983888333333,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
