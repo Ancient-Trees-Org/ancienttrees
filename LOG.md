@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Melbourne's counts follow its twentieth tree
+
+- The only waiting reader's tree (aba8f604, the coral tree in Melbourne's Botanic Gardens) was published by a parallel run as mel_020 (5fdf2e643) while this run judged it; this run's duplicate was dropped at the rebase. That commit left Melbourne's intro, question_meta and FAQ saying nineteen trees and two botanic garden finds; now twenty and three.
+- Nothing else waited: no queue photos, no open reports, no feedback without a verdict, no unquoted reader notes. The other waiting rows in _sightings.json are our own account's (`mine`).
+
 ## 2026-11-19 night run, third attempt: nothing shipped
 
 - Guimaraes verify pass (5th deepen): wall. Every register row within 20 km folds into gui_001 to gui_010. Found a Moreira stone pine location conflict (Megide vs Pereirinhas) and recorded the Paco dos Duques horse-chestnut as blocked, dead since 2016. Claim released, wall for 48h.
