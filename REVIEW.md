@@ -24,6 +24,17 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19
+
+Web half: the last 24 hours were reader-judge commits (Ghost Gum of Trephina Gorge, York and Lyon reader photographs, ambassador badges), same-picture dedupe and READER_FLOW.md. The new Trephina Gorge and York pages hold no em dashes, and the photo licences are recorded. Earlier findings stand, all still present in site/dist:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" as page text (third review). Public copy never narrates our process. `grep -rl "writer must" data/cities` now hits 11 files (berlin, miami, dresden, hilo, key-west, leipzig, bamberg, leeds, new-york, potsdam, dartmoor). Replacement for the access line: "Free. Open access; opening hours not confirmed." Add a preflight check for "writer must" in `access` and `story`.
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Thirteenth review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
+- WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-fourth review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
+- WARN site/dist/collections/ancient-oaks-of-europe.html still says "every coordinate verified" (fourth review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
+
+App half (iPhone SE: feedback, map-bar, own-tree; map-full, map-pin and map were not opened): feedback sheet, Amsterdam map with "21 trees" bar and the own-tree screen all read honestly. NOTE APP own-tree.png shows a flat illustrated placeholder oak as the hero for "The oak on my street"; likely a fixture, a reader could take it for a photograph of their tree.
+
 ## 2026-11-18
 
 Web half: the last 24 hours were reader-judge photographs (Melbourne, Sydney, Tokyo, Edinburgh Gardens), Fort Worth, Philadelphia, Baltimore and Leeds app-only trees, and Play tester setup. Nothing new broke in the sampled built pages; earlier findings stand.
