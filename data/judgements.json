@@ -2,6 +2,86 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Fort Screven Bakery Oak",
+   "city": null,
+   "species": "Southern Live Oak",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/E6963B72-7820-4989-BD78-F36B52607EBA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak"
+   },
+   "verdict": "publish",
+   "reason": "Broad old live oak with low twisting limbs in front of a brick Fort Screven building on Tybee Island, seen from the street path, GPS fix; live as savannah/sav_004.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e6963b72-7820-4989-bd78-f36b52607eba",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Fort Screven Bakery Oak",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/E6963B72-7820-4989-BD78-F36B52607EBA.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole live oak in front of a brick Fort Screven building, daylight, colour. Lead photograph of savannah/sav_004."
+  },
+  {
+   "id": "lead:8350d39b-7429-41c8-b1e6-18f499d6df51",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Petrified Tree",
+   "city": null,
+   "species": "Redwood",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/8350D39B-7429-41C8-B1E6-18F499D6DF51.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Redwood"
+   },
+   "verdict": "publish",
+   "reason": "Yellowstone's Petrified Tree, a standing fossil redwood trunk behind its fence, striking, GPS fix; live as yellowstone/yel_001 under the standing-dead exception, page says plainly it is not alive.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8350d39b-7429-41c8-b1e6-18f499d6df51",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Petrified Tree",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/8350D39B-7429-41C8-B1E6-18F499D6DF51.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the standing petrified redwood trunk behind its fence, daylight, colour. Lead photograph of yellowstone/yel_001."
+  },
+  {
    "id": "sight:13cfb80c-819a-4875-a382-2d95f3156bd8",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

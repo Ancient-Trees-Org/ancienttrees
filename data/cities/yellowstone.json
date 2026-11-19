@@ -1,0 +1,76 @@
+{
+  "city": "Yellowstone National Park",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Yellowstone is the oldest national park in the United States, high on the plateau of northwest Wyoming. Its one tree on our map is not alive: the Petrified Tree near Tower Junction, a redwood trunk turned to stone, buried by volcanic deposits 45 to 50 million years ago and still standing upright behind an iron fence. A reader sent us its photograph.",
+  "meta_description": "The Petrified Tree near Tower Junction in Yellowstone: a redwood trunk turned to stone 45 to 50 million years ago, where it stands and how to see it.",
+  "question_meta": "The Petrified Tree near Tower Junction in Yellowstone: a redwood trunk turned to stone 45 to 50 million years ago, where it stands and how to see it.",
+  "question_answer": "The Petrified Tree stands just west of Tower Junction in the northeast of Yellowstone National Park, a short walk from a small parking area off the Grand Loop Road. It is a fossil, the trunk of an ancient redwood, not a living tree, and it stands behind an iron fence. The park's entrance fee applies.",
+  "question_context": "The Petrified Tree is the stone trunk of a redwood that grew in Yellowstone long before the park's present forests of pine and fir. The National Park Service calls it an excellent example of an ancient redwood and dates the burial of these forests to 45 to 50 million years ago, when volcanic deposits and mudflows covered them quickly enough to stop the wood from rotting. A reader who stood beside it sent us the photograph on this page, with a GPS fix that places our pin. It shows a pale trunk, cream and grey with streaks of rust, taller than the iron fence that surrounds it, the old grain of the wood still visible in the cracks and splinters of the stone, and the top broken off jagged. Travel guides say the fence keeps souvenir hunters away. It stands near the Lost Lake trailhead, west of Tower Junction, on the road between Mammoth and the Lamar Valley, so it is an easy stop on a drive through the northeast of the park. The park entrance fee applies, and the walk from the parking area is short.",
+  "hero_tree_id": "yel_001",
+  "oldest_tree_id": "yel_001",
+  "faq": [
+    {
+      "q": "Is the Petrified Tree in Yellowstone a living tree?",
+      "a": "No. It is the trunk of an ancient redwood turned to stone. The National Park Service dates the burial of these forests by volcanic deposits and mudflows to 45 to 50 million years ago."
+    },
+    {
+      "q": "Where is the Petrified Tree?",
+      "a": "Just west of Tower Junction in the northeast of the park, near the Lost Lake trailhead, a short walk from a small parking area off the Grand Loop Road."
+    },
+    {
+      "q": "Why is the Petrified Tree fenced?",
+      "a": "To protect it. Travel guides say souvenir hunters damaged the petrified trees that once stood near it, and an iron fence now surrounds the one that remains."
+    }
+  ],
+  "trees": [
+    {
+      "id": "yel_001",
+      "name": "The Petrified Tree",
+      "species": "Redwood (Sequoioideae)",
+      "age_estimate": "45 to 50 million years since it was buried (National Park Service); a fossil, not a living tree",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Petrified Tree, off the Grand Loop Road west of Tower Junction, Yellowstone National Park, Wyoming",
+        "latitude": 44.9162616666667,
+        "longitude": -110.439421666667,
+        "neighbourhood": "Tower-Roosevelt"
+      },
+      "how_to_recognise": "A pale stone trunk taller than the iron fence around it, cracked into blocks along its old grain, its top broken off jagged, on a dry slope with pines above.",
+      "access": "Inside Yellowstone National Park (park entrance fee). A short walk from a small parking area off the Grand Loop Road; the trunk stands behind an iron fence.",
+      "verified_sources": [
+        "https://www.nps.gov/yell/planyourvisit/towerrplan.htm (National Park Service, Tower-Roosevelt: Petrified Tree, west of Tower Junction, an excellent example of an ancient redwood; the forests were buried by volcanic deposits and mudflows 45 to 50 million years ago)",
+        "https://www.aaa.com/tripcanvas/attraction/yellowstone-petrified-tree-VA21395 (AAA: the tree is guarded by a protective fence)"
+      ],
+      "story": "This is not a living tree, and it has not been one for tens of millions of years. The Petrified Tree, west of Tower Junction in Yellowstone, is the trunk of a redwood turned to stone, which the National Park Service calls an excellent example of an ancient redwood. The park explains how it lasted: volcanic deposits and mudflows buried the forests here 45 to 50 million years ago, quickly enough to keep the wood from rotting.\n\nA reader sent us this photograph with a GPS fix taken beside it, and stone or not, it still reads as a tree. The trunk stands taller than the iron fence around it, pale cream and grey with streaks of rust, its surface cracked into blocks and splinters along the old grain, its top snapped off jagged against the sky. Travel guides say the fence is there to keep souvenir hunters away from it.\n\nThe reader gives it as a redwood, fifty million years old, and the park's account agrees with them.\n\nCome on a clear afternoon and walk along the fence, so that you see the grain from more than one side.",
+      "found_by_reader": {
+        "sighting_id": "8350d39b-7429-41c8-b1e6-18f499d6df51",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "8350d39b-7429-41c8-b1e6-18f499d6df51",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (8350d39b-7429-41c8-b1e6-18f499d6df51). Photograph viewed: the petrified trunk standing upright, pale cream and grey with rust streaks, its top broken jagged, an iron fence behind it on a dry grassy slope, blue sky with cloud, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'The Petrified Tree', species 'Redwood', age '50 million years old'. Every figure on the page that is not in verified_sources is stated as theirs. A fossil, not a living tree: shipped under the standing-dead exception (Hidde, 2026-11-17, the Ochi chestnut): the photograph shows it standing and striking, the pin is the reader's GPS fix, and the page says plainly it is not alive.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/yel_001-petrified-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "8350d39b-7429-41c8-b1e6-18f499d6df51",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the petrified trunk standing upright, pale cream and grey with rust streaks, its top broken jagged, an iron fence behind it on a dry grassy slope, blue sky with cloud, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

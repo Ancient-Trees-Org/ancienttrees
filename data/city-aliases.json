@@ -5356,6 +5356,18 @@
       "Yangshuo okrugi",
       "Yòng-suk-yen"
     ],
+    "yellowstone": [
+      "Yellowstone-Nationalpark",
+      "Parc national de Yellowstone",
+      "Parque nacional de Yellowstone",
+      "Parco nazionale di Yellowstone",
+      "Parc Nacional de Yellowstone",
+      "Yellowstone nationalpark",
+      "Yellowstone nasjonalpark",
+      "Yellowstonen kansallispuisto",
+      "Park Narodowy Yellowstone",
+      "Yellowstonský národní park"
+    ],
     "york": [
       "Iorque",
       "Jorkas",
@@ -6439,6 +6451,7 @@
     "yamanashi-city": "Yamanashi (city)",
     "yangpyeong": "Yangpyeong County",
     "yangshuo": "Yangshuo County",
+    "yellowstone": "Yellowstone National Park",
     "york": "York",
     "yosemite-national-park": "Yosemite National Park",
     "yoshida": "Yoshida",

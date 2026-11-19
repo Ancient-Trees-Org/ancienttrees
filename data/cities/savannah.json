@@ -2,7 +2,7 @@
   "city": "Savannah",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Three live oaks, and each one changed what a tree could be here. The Candler Oak, on Drayton Street beside Forsyth Park, was the first single tree in the United States to be given a conservation easement, at a point when cars were parking over its roots. The Wormsloe avenue, fifteen minutes southeast on the Isle of Hope, is four hundred oaks along a mile and a half of dirt road. And in a quiet residential circle nearby stands the Majestic Oak, wider than either, with houses built to face it.",
+  "intro": "Four live oaks, and three of them changed what a tree could be here. The Candler Oak, on Drayton Street beside Forsyth Park, was the first single tree in the United States to be given a conservation easement. The Wormsloe avenue, fifteen minutes southeast on the Isle of Hope, is four hundred oaks along a mile and a half of dirt road. Nearby stands the Majestic Oak, wider than either. The fourth a reader found on Tybee Island, spreading in front of a brick building of old Fort Screven.",
   "meta_description": "Savannah's Candler Oak was the first tree in the US with its own conservation easement. Now joined by the Wormsloe avenue and the wider Majestic Oak.",
   "question_meta": "Savannah's oldest tree is the Candler Oak beside Forsyth Park, estimated at 300 to 450 years. Where it stands, and how solid that number is.",
   "question_answer": "The oldest tree in Savannah is the Candler Oak, a southern live oak at 516 Drayton Street in the Historic District, directly beside Forsyth Park, estimated at somewhere between 300 and 450 years. It is free to see from the public sidewalk; the Savannah Tree Foundation fences its root zone, so you look at it from outside the fence rather than walking up to the trunk. The Wormsloe oak avenue is younger by centuries, planted in the 1890s rather than the 1730s when the estate behind it was founded. A third tree, the Majestic Oak in a residential cul-de-sac on the Isle of Hope, is wider than the Candler Oak but not clearly older: its own plaque and a travel writer both put it at 300 to 400 years, inside the same range Candler occupies.",
@@ -132,6 +132,49 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "sav_004",
+      "name": "The Fort Screven Bakery Oak",
+      "species": "Southern Live Oak (Quercus virginiana)",
+      "location": {
+        "address": "Fort Screven historic district, Tybee Island, Georgia",
+        "latitude": 32.0198083333333,
+        "longitude": -80.846205,
+        "neighbourhood": "Tybee Island"
+      },
+      "how_to_recognise": "A broad live oak in front of a red-brick building with arched windows, black shutters and a small cupola, one long limb reaching across the front of the building and a sky-blue swing hanging from a low bough.",
+      "access": "Seen from the street and the brick path in front of the building. We have not confirmed who owns the grounds; look from the path. Tybee Island is about half an hour east of Savannah by car.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Fort_Screven (Fort Screven, the coastal defence post on the north end of Tybee Island, Georgia)"
+      ],
+      "story": "Fort Screven was the army post on the north end of Tybee Island, where the Savannah River meets the Atlantic, and a reader walking among its old buildings sent us this live oak with a GPS fix taken beside it. They call it the Fort Screven Bakery Oak.\n\nThe name is theirs, and it tells you where to look, because the oak stands in front of a red-brick building with arched windows, black shutters and a small cupola on the roof. What the photograph shows is the shape a southern live oak takes when it has room. A short, heavy trunk rises out of a bed of mulch and splits low into thick limbs that twist upward and outward, and one of them runs almost level across the front of the building before it dips towards the ground at the corner. Moss and fern fur the bark. Someone has hung a sky-blue porch swing from the lowest bough.\n\nWe have no age or girth for it, and no source yet for the bakery. If you know the building's story, or the tree's, tell us here.\n\nStand back on the brick path to see how far that long limb reaches.",
+      "found_by_reader": {
+        "sighting_id": "e6963b72-7820-4989-bd78-f36b52607eba",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e6963b72-7820-4989-bd78-f36b52607eba",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (e6963b72-7820-4989-bd78-f36b52607eba). Photograph viewed: the whole live oak from its mulch bed, a short heavy trunk splitting low into long twisting limbs, a blue porch swing on the lowest bough, a red-brick building with arched windows and a roof cupola behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Fort Screven Bakery Oak', species 'Southern Live Oak', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/sav_004-fort-screven-bakery-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "e6963b72-7820-4989-bd78-f36b52607eba",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the whole live oak from its mulch bed, a short heavy trunk splitting low into long twisting limbs, a blue porch swing on the lowest bough, a red-brick building with arched windows and a roof cupola behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

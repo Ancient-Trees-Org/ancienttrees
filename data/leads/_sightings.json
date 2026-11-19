@@ -6879,6 +6879,66 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "atlanta/atl_012"
+  },
+  {
+   "sighting_id": "e6963b72-7820-4989-bd78-f36b52607eba",
+   "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+   "mine": false,
+   "name": "Fort Screven Bakery Oak",
+   "unsure_among": null,
+   "species": "Southern Live Oak",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 32.0198083333333,
+   "longitude": -80.846205,
+   "near": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/E6963B72-7820-4989-BD78-F36B52607EBA.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole live oak from its mulch bed, a short heavy trunk splitting low into long twisting limbs, a blue porch swing on the lowest bough, a red-brick building with arched windows and a roof cupola behind, overcast daylight, colour. Live as savannah/sav_004 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "savannah/sav_004"
+  },
+  {
+   "sighting_id": "8350d39b-7429-41c8-b1e6-18f499d6df51",
+   "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+   "mine": false,
+   "name": "The Petrified Tree",
+   "unsure_among": null,
+   "species": "Redwood",
+   "age": "50 million years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 44.9162616666667,
+   "longitude": -110.439421666667,
+   "near": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/8350D39B-7429-41C8-B1E6-18F499D6DF51.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the petrified trunk standing upright, pale cream and grey with rust streaks, its top broken jagged, an iron fence behind it on a dry grassy slope, blue sky with cloud, daylight, colour. Live as yellowstone/yel_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "yellowstone/yel_001"
   }
  ]
 }

@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-19 reader judge: the Fort Screven oak and Yellowstone's Petrified Tree
+- Same reader as the ginkgo below; this run judged the two leads the run below did not reach (the ginkgo and Key West photos were already in from it, its versions kept).
+- **Live: savannah/sav_004, The Fort Screven Bakery Oak** (Tybee Island, about 24 km from Savannah). A broad live oak in front of a brick Fort Screven building, seen from the path, GPS fix; the "bakery" name is the reader's and the page says so. Savannah intro rewritten for four oaks (89 words).
+- **Live: yellowstone/yel_001, The Petrified Tree** (new place, Wyoming added to data/us-states.json). A fossil redwood, not alive: shipped under the standing-dead exception (standing, striking, GPS pin), and the page says plainly it is a fossil. Facts from the NPS Tower-Roosevelt page (ancient redwood, buried 45 to 50 million years ago); the fence reason is put as what travel guides say. One tree, so no place page on the web.
+- Still open: 3c544597 (Amsterdam), our own account's photo, file not on this machine.
+
 ## 2026-11-19 reader judge: the Adair Park ginkgo, two Key West photos
 - **Live: atlanta/atl_012, The Adair Park Ginkgo** (Decatur, Georgia). A reader's two photographs (both viewed) of a big single-trunked ginkgo in full autumn gold by the picket fence of Adair Park, with a GPS fix at the tree; pin confirmed. No register entry and no source names it (the DeKalb History Center's plaqued ginkgo is at the Old Courthouse, not here), so it ships on the closed list as a reader's tree; the sign beside it is unreadable in the photos and the story asks readers what it says. best_time November autumn colour. The Atlanta intro now says eleven of the trees come from the champion list and a reader sent the twelfth.
 - **Key West, two reader photographs added as lead** (`add`, the earlier reader photos stay in the strip): kyw_003 The Kapok Tree (its buttressed foot with the courthouse behind) and kyw_004 The Cosgrove House Banyan (the whole banyan from the Whitehead Street sidewalk). Species and setting checked against each entry. The pin catch-up could not read coordinates (HTTPError); both trees' pins were already within 15 m of the photos.
