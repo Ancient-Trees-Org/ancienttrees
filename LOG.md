@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 daily publish
+
+- **Daily publish: queue empty.** No builder newer than build_write_2026_11_17 on disk or on origin; the untracked data/research/puglia-held/ files (bsg_001, fum_001, plj_001, vgg_001) and the 11-02 Puglia trio are all live in data/cities/. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-19 session: readers' photos filed under their season
 
 - **What changed:** Hidde saw empty Seasons rows under a chestnut in copper leaf (Divonne-les-Bains) and cherries in blossom (Fukutsu). The reader judge writes photo blocks by hand, and its brief said only snow could set a month. 137 readers' photos outside the tropics had no `taken_month`.
