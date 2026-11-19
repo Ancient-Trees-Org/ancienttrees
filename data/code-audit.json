@@ -564,7 +564,8 @@
    "file": "android/app/src/main/java/app/ancienttrees/ui/Directions.kt",
    "summary": "Android: directions to Google Maps showed 'Google Maps can't open this link' when Maps was already running (api=1 link with setPackage)",
    "first_seen": "2026-11-19",
-   "status": "open",
+   "status": "fixed",
+   "fixed_in": "da7cbb6de",
    "found_by": "hidde",
    "test": "android/app/src/test/java/app/ancienttrees/ui/SheetsRulesTest.kt theMapsAppGetsTheLinkItOpensWhileRunning"
   }
