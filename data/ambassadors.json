@@ -1390,6 +1390,46 @@
         "The Adair Park Ginkgo"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9f7b25dda38d08dabcad19bf",
+      "place_slug": "fukutsu",
+      "place_name": "Fukutsu",
+      "date": "2026-11-19",
+      "trees": [
+        "The Married Couple Cherry Trees of Miyajidake Shrine"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c877c10459fc020d2f62f752",
+      "place_slug": "hatley",
+      "place_name": "Hatley",
+      "date": "2026-11-19",
+      "trees": [
+        "The Bone Tree of Hatley"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f09d2f18317187c942a8d801",
+      "place_slug": "madeira",
+      "place_name": "Madeira",
+      "date": "2026-11-19",
+      "trees": [
+        "The Stone Pines of Palheiro"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3187c89ebb9a049f017c6aa5",
+      "place_slug": "mumbai",
+      "place_name": "Mumbai",
+      "date": "2026-11-19",
+      "trees": [
+        "The Fig that Swallowed its Railings"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2385,6 +2425,80 @@
         "bud_013"
       ],
       "since": "2026-11-17",
+      "mailed": []
+    },
+    "gdansk": {
+      "trees": [
+        "gda_001",
+        "gda_002",
+        "gda_003",
+        "gda_004",
+        "gda_005",
+        "gda_006",
+        "gda_007",
+        "gda_008",
+        "gda_009",
+        "gda_010",
+        "gda_011"
+      ],
+      "since": "2026-11-19",
+      "mailed": []
+    },
+    "york": {
+      "trees": [
+        "yor_001",
+        "yor_002",
+        "yor_003",
+        "yor_004",
+        "yor_005",
+        "yor_006"
+      ],
+      "since": "2026-11-19",
+      "mailed": []
+    },
+    "reno-valdieu": {
+      "trees": [
+        "rvd_001",
+        "rvd_002",
+        "rvd_003",
+        "rvd_004"
+      ],
+      "since": "2026-11-19",
+      "mailed": []
+    },
+    "brisbane": {
+      "trees": [
+        "bne_002",
+        "bne_003",
+        "bne_004",
+        "bne_005",
+        "bne_006",
+        "bne_007",
+        "bne_008",
+        "bne_009",
+        "bne_010",
+        "bne_011",
+        "bne_012",
+        "bne_013",
+        "bne_014",
+        "bne_015",
+        "bne_016",
+        "bne_017",
+        "bne_018",
+        "bne_019",
+        "bne_020",
+        "bne_021",
+        "bne_022"
+      ],
+      "since": "2026-11-19",
+      "mailed": []
+    },
+    "inistioge": {
+      "trees": [
+        "wds_001",
+        "wds_002"
+      ],
+      "since": "2026-11-19",
       "mailed": []
     }
   }
