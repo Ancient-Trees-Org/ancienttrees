@@ -1914,6 +1914,34 @@
    "agreed": null
   },
   {
+   "id": "lead:aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Mandela'S Coral Tree in Melbourne",
+   "city": null,
+   "species": "Mandela'S Coral Tree (Erythrina afra)",
+   "photo": "p_68e3fe2f2c08d678d123d61f/ABA8F604-0C2B-4AE7-ADAB-A5E40BC28F57.jpg",
+   "reader_note": "Listed on the national trust register… our own Harry Potter whomping willow",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mandela'S Coral Tree (Erythrina afra)"
+   },
+   "verdict": "publish",
+   "reason": "Pollarded-looking coral tree with its garden label (Erythrina crista-galli, National Trust Register of Significant Trees of Victoria) and a GPS fix; live as melbourne/mel_020.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -19203,6 +19231,20 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Whomping Willow Coral Tree",
+   "photo": "p_68e3fe2f2c08d678d123d61f/ABA8F604-0C2B-4AE7-ADAB-A5E40BC28F57.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole coral tree with knuckled limbs and its garden label, daylight, colour. Lead photograph of melbourne/mel_020.",
+   "city": "Melbourne",
+   "species": "Cockspur Coral Tree (Erythrina crista-galli)"
   }
  ]
 }

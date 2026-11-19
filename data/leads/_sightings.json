@@ -7762,9 +7762,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-19"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole tree from the lawn, a short thick trunk branching into knuckled limbs that each carry a tuft of fresh leaves, its garden label at the foot, overcast daylight, colour. Live as melbourne/mel_020 under the closed list.",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "melbourne/mel_020"
   }
  ]
 }

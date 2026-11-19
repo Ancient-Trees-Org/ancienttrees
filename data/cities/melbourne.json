@@ -811,6 +811,51 @@
           "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Looked: the whole gum from the lawn, straight trunk rough and dark at the foot, smooth pale bark above, broad crown of narrow hanging leaves, the painted skate bowl at bottom right; daylight and colour, GPS 3 m from our pin. Same reader as the lead photograph, another view of the same tree; it joins the strip and the lead stays. Species seen: eucalypt: narrow hanging grey-green leaves, rough lower bark, smooth pale upper bark. Fits the description: beside the painted skate bowl, tall straight trunk with rough grey bark low and smooth pale bark above, mulch ring on the lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
+    },
+    {
+      "id": "mel_020",
+      "name": "The Whomping Willow Coral Tree",
+      "species": "Cockspur Coral Tree (Erythrina crista-galli)",
+      "location": {
+        "address": "Royal Botanic Gardens Victoria, Melbourne Gardens, South Yarra",
+        "latitude": -37.830533143467,
+        "longitude": 144.977047494085,
+        "neighbourhood": "South Yarra"
+      },
+      "story": "\"Listed on the national trust register,\" wrote the reader who sent us this tree from the Royal Botanic Gardens in Melbourne, \"our own Harry Potter whomping willow.\" They had a GPS fix taken at its foot, and the label standing there backs the first part. It names the tree a cockscomb coral-tree, Erythrina crista-galli, and says it is listed on the National Trust Register of Significant Trees of Victoria.\n\nThe Whomping Willow comparison is easy to see. The trunk is short and thick, with bark folded into deep ridges, and from it a handful of heavy limbs twist out and up in knuckled elbows. Each limb ends in a swollen knob, and out of every knob springs a flush of fresh leaves, as if the whole tree had been cut back hard many times and kept starting again. That is how coral trees age. Pruned or broken, they sprout from the wound, and over the years the wounds become the shape of the tree.\n\nIn summer this species carries spikes of red flowers, the cockscombs of its name. We do not know how old this one is or how it came to be listed. If you know the gardens' own account of it, tell us here.\n\nFind it on the lawn, then stand back far enough to see every limb at once.",
+      "verified_sources": [
+        "Garden label at the foot of the tree (photographed by a reader, 2026-11): Erythrina crista-galli, Cockscomb Coral-tree, listed on the National Trust Register of Significant Trees of Victoria"
+      ],
+      "access": "Free, in the Royal Botanic Gardens; open daily.",
+      "how_to_recognise": "On a lawn edge among strap-leaved plants: a short, deeply ridged trunk with heavy knuckled limbs, each ending in a knob that carries a tuft of leaves, a black garden label at its foot.",
+      "found_by_reader": {
+        "sighting_id": "aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app. Photograph and the label photograph viewed: the whole tree from the lawn, a short thick trunk branching into knuckled limbs that each carry a tuft of fresh leaves, its garden label at the foot, overcast daylight, colour. Published under the closed list for a reader's tree. Species from the garden label (the reader wrote Mandela's Coral Tree, Erythrina afra; the label says crista-galli). The register listing is read from the label, not checked against the register itself; corroborate.py found no register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mel_020-cockscomb-coral-tree-in-the-botanic-gardens.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_68e3fe2f2c08d678d123d61f",
+        "sighting_id": "aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole tree from the lawn, a short thick trunk branching into knuckled limbs that each carry a tuft of fresh leaves, its garden label at the foot, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }
