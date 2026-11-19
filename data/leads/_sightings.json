@@ -7203,9 +7203,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-19"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: a group of stone pines over a path, daylight, colour. Live as madeira/mdr_012 under the closed list.",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "madeira/mdr_012"
   },
   {
    "sighting_id": "81ff86ab-2b28-43b7-81be-d71c2fcdce88",
@@ -7232,8 +7234,10 @@
     "nearest": []
    },
    "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-19"
+   "why": "Photograph viewed 2026-11-19: small young dragon trees on a roadside viewpoint above Funchal, nothing that reads as an old or large tree; held as not_special, GPS kept.",
+   "seen": "2026-11-19",
+   "hold": "not_special",
+   "judged": "2026-11-19"
   }
  ]
 }

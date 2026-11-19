@@ -3,8 +3,8 @@
   "country": "Portugal",
   "status": "needs_curation",
   "kind": "island",
-  "intro": "Four of these trees make a walk in central Funchal: an araucaria at Quinta Vigia, the president's official residence, open on weekdays, an ombu and a camphor tree in the Jardim Municipal, and a lone dragon tree in the Campo da Barca garden a kilometre east. Five more are spread around the city, from the botanical garden to the dragon trees at Neves and the estate at Palheiro. Only two are real drives, Queimadas above Santana and the til grove at Fanal, an hour or more in opposite directions. Nine of the eleven carry no recorded age at all.",
-  "meta_description": "Madeira's eleven remarkable trees: four a short walk apart in central Funchal, a witch-shaped til in the Fanal laurel forest and a dragon tree grove.",
+  "intro": "Four of these trees make a walk in central Funchal: an araucaria at Quinta Vigia, the president's official residence, open on weekdays, an ombu and a camphor tree in the Jardim Municipal, and a lone dragon tree in the Campo da Barca garden a kilometre east. Five more are spread around the city, from the botanical garden to the dragon trees at Neves and the estate at Palheiro. Only two are real drives, Queimadas above Santana and the til grove at Fanal, an hour or more in opposite directions. Nine of the twelve carry no recorded age at all.",
+  "meta_description": "Madeira's twelve remarkable trees: four a short walk apart in central Funchal, a witch-shaped til in the Fanal laurel forest and a dragon tree grove.",
   "question_meta": "Madeira's oldest listed tree is the Witch Tree in the til grove at Fanal, several hundred years old. The Funchal giants carry no recorded age.",
   "oldest_tree_id": "mdr_005",
   "question_answer": "The oldest tree on this list is the Witch Tree at Fanal, a til (Ocotea foetens) in the protected grove on the Paul da Serra plateau above Porto Moniz. Estimates for it run from several hundred years to 500 or 600, and Madeira's own register dates the grove around it only as centenas de anos, hundreds of years, describing a stand referenced as predating the Portuguese settlement of the island in 1419. That is the loosest kind of answer and it is the best one available, because the other nine trees on this list carry no recorded age at all.",
@@ -452,6 +452,51 @@
         "name": "ASMAC 081 (Arvores e Arboledas Singulares da Macaronesia, VALCONMAC); also Funchal PDM Quadro 5 code 256 (Jardins do Campo da Barca, Dragoeiro)",
         "url": "https://valconmac2.eu/asmacs/asmac-081-drago-de-jardin-de-campo-da-barca/"
       }
+    },
+    {
+      "id": "mdr_012",
+      "name": "The Stone Pines of Palheiro",
+      "species": "Stone Pine (Pinus pinea)",
+      "age_estimate": "planted 1837, according to the estate's sign",
+      "age_min": 185,
+      "age_max": 190,
+      "age_basis": "source",
+      "location": {
+        "address": "Palheiro Golf clubhouse and Vista Balancal restaurant, Palheiro Nature Estate, Funchal",
+        "latitude": 32.6532090972096,
+        "longitude": -16.8719491744028,
+        "neighbourhood": "Sao Goncalo, Funchal"
+      },
+      "story": "A sign beside these pines tells the story the reader who photographed them copied out for us. The stone pine was planted in 1837, the year the Count of Carvalhal died, on the ground where the Palheiro golf clubhouse and its restaurant now stand. The estate it belongs to, Palheiro, still carries his story on its signs.\n\nStone pines are Mediterranean trees, the umbrella pines of Italian postcards, and they do what the name promises. Each trunk climbs bare and slightly leaning for a long way, then opens into a flat, dense crown that shades the path below like a roof. Here several of them have grown close together, so the crowns merge into one dark canopy held up on a row of grey trunks. In the reader's photograph the group stands over a gravel path and a log bench, with the fairways falling away in low morning light and the blue Atlantic sky behind.\n\nIf the sign is right, the pines are about 189 years old, which is early for Madeira's gardens and old for a stone pine on an island this wet. We have not measured them and no register lists them, so the age is the estate's own claim and the girth is open. If you have a tape, tell us.\n\nThe pines stand beside the clubhouse path, a short walk from the car park. Stop for a drink at the restaurant and look up.",
+      "verified_sources": [],
+      "access": "Free to see from the clubhouse path and car park at Palheiro Golf; the restaurant is open to the public. Opening hours not checked.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mdr_012-stone-pines-of-palheiro.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f09d2f18317187c942a8d801",
+        "sighting_id": "f8d4d7f9-5ca6-429d-8016-d34ff35182f8",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the group of stone pines over a path, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f8d4d7f9-5ca6-429d-8016-d34ff35182f8",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "f8d4d7f9-5ca6-429d-8016-d34ff35182f8",
+        "date": "2026-11-19"
+      },
+      "how_to_recognise": "A cluster of tall, leaning grey-brown trunks opening into flat umbrella crowns over the gravel path beside the golf clubhouse, a log bench at their foot.",
+      "verify_notes": "2026-11-19 session: sent by a reader (f8d4d7f9-5ca6-429d-8016-d34ff35182f8, 2026-11-19 through the app). Photograph viewed: stone pines in umbrella form over a path, daylight, colour. Published under the closed list for a reader's tree. The age (planted 1837, the year of the Count of Carvalhal's death) is the reader's copy of the estate's own sign, stated on the page as the sign's claim; no register or second source found."
     }
   ]
 }

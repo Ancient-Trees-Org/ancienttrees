@@ -5192,6 +5192,108 @@
   "81ff86ab-2b28-43b7-81be-d71c2fcdce88": {
    "outcome": "lead",
    "date": "2026-11-19"
+  },
+  "29f56212-ae72-4f86-ba3f-0a71803945bf": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "gda_009",
+   "city_slug": "gdansk",
+   "file": "gda_009-the-cucumber-magnolia-of-park-oliwski.jpg",
+   "reason": "Viewed 2026-11-19: the whole magnolia in leaf, the church spire behind it, daylight, colour. Species seen: broadleaf tree in full leaf, consistent with a cucumber tree. Fits the description: tall multi-stemmed crown beside a church spire and clipped hedge.",
+   "lat": 54.4113643,
+   "lon": 18.5599428997222,
+   "pin_checked": "2026-11-19"
+  },
+  "7c26b936-90df-4ef4-8f64-e99842944b9c": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "gda_009",
+   "city_slug": "gdansk",
+   "file": "gda_009-the-cucumber-magnolia-of-park-oliwski-7c26b936.jpg",
+   "reason": "Viewed 2026-11-19: the same tree in autumn colour, church spire behind; good frame, kept in the strip behind the summer lead. Species seen: same tree in autumn. Fits the description: crown in gold, spire behind.",
+   "lat": 54.41126,
+   "lon": 18.55957,
+   "pin_checked": "2026-11-19"
+  },
+  "9e460384-ee73-4c2c-88f6-ea5dd9034028": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_009",
+   "reason": "Underexposed (POOR); the better frames of this tree are live."
+  },
+  "a6c31122-af09-4078-b084-87cd2a2a0aa2": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "gda_011",
+   "city_slug": "gdansk",
+   "file": "gda_011-the-giant-thuja-of-park-oliwski.jpg",
+   "reason": "Viewed 2026-11-19: a tall fissured trunk of a thuja rising into the crown, a registry tag on the bark, daylight, colour. Species seen: western red cedar type trunk and foliage. Fits the description: huge fibrous trunk, 23 m class tree.",
+   "lat": 54.4124971997222,
+   "lon": 18.5605791,
+   "pin_checked": "2026-11-19"
+  },
+  "fe804fae-60b4-478c-b03f-bffecad2d999": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "gda_011",
+   "city_slug": "gdansk",
+   "file": "gda_011-the-giant-thuja-of-park-oliwski-fe804fae.jpg",
+   "reason": "Viewed 2026-11-19: the trunk with its Pomnik Przyrody plaque and registry tag; the tree's own sign, kept behind the lead. Species seen: thuja bark. Fits the description: plaque on the trunk.",
+   "lat": 54.41245,
+   "lon": 18.56041,
+   "pin_checked": "2026-11-19"
+  },
+  "2ced530c-0ffb-4f62-8d57-fe22eb8611f8": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_011",
+   "reason": "Almost colourless (POOR); better frames of this tree are live."
+  },
+  "8aa8a692-4732-41a9-a900-690c000d3030": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_011",
+   "reason": "Viewed 2026-11-19: a row of bent conifer trunks in snow, not clearly the giant thuja; held, not rejected."
+  },
+  "9bee5d97-c450-4950-8aa2-eaa439dec3bd": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "gda_010",
+   "city_slug": "gdansk",
+   "file": "gda_010-the-three-trunked-katsura-of-park-oliwski-9bee5d97.jpg",
+   "reason": "Viewed 2026-11-19: the katsura's Pomnik Przyrody plaque and its botanic label (Cercidiphyllum japonicum, Grujecznik japonski); the tree's own sign, in the strip. Species seen: Cercidiphyllum japonicum (label). Fits the description: plaque and label on the bark.",
+   "lat": 54.41167,
+   "lon": 18.56021,
+   "pin_checked": "2026-11-19"
+  },
+  "6a829ae8-422e-49d6-830d-b2a50f598e2c": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_010",
+   "reason": "Viewed 2026-11-19: a snowy winter crown, cannot tell it is the three-trunked katsura; held."
+  },
+  "943c67d7-9f78-4647-ba49-1881cfd6e4df": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_010",
+   "reason": "POOR light, flat; held."
+  },
+  "d2783e5a-5df4-491f-8f2a-483d0e3371c7": {
+   "outcome": "held",
+   "date": "2026-11-19",
+   "tree_id": "gda_010",
+   "reason": "POOR light, flat; held."
+  },
+  "b6bb10c9-d418-4437-b701-1015e35e7f5f": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "mel_001",
+   "city_slug": "melbourne",
+   "file": "mel_001-the-finer-holm-oak-of-edinburgh-gardens-b6bb10c9.jpg",
+   "reason": "Viewed 2026-11-19: the whole holm oak and its wide limbs over the path, daylight, colour; goes in the strip. Species seen: holm oak. Fits the description: broad dark oak over a path in a park.",
+   "lat": -37.78732,
+   "lon": 144.981761666667,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

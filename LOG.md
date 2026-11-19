@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 night run (rung 1): Palheiro stone pines live, Gdansk photographs, the fallen Ivy Elm retired
+
+- New in the product: **The Stone Pines of Palheiro** (Madeira, mdr_012), a reader's photograph with GPS fix, age (planted 1837) stated as the estate sign's claim, Portuguese overlay extended. The reader's Madeira dragon-tree photo is held as `not_special` (young plants on a roadside viewpoint), GPS kept.
+- Gdansk, Park Oliwski: the Cucumber Magnolia and the Giant Thuja got their first lead photographs (summer magnolia, autumn frame and the thuja plaque in the strip), the katsura's plaque and label joined its strip, Melbourne's holm oak kept its strip photo. Six weak or ambiguous frames held (underexposed, snow, bent conifers not clearly the thuja).
+- Wrong on the site: two readers' photographs (2024-06 and a snow day, Pomnik Przyrody plaque on the trunk) show **the Ivy Elm of Park Oliwski (gda_012) lying fallen**. Retired with `retire.py`; Gdansk and park-page counts and copy rewritten (twelve to eleven, six to five).
+- Also fixed: two colon reveals, Madeira counts (twelve). Still open: 3c544597 (unnamed, Amsterdam coordinates, photo not on disk).
+- For Hidde: nothing.
+
 ## 2026-11-19 reader judge: Gdansk maples get their first photograph, two more of the Melbourne fig, magnolia and cedar girths from readers
 
 - **Gdansk, The Maples of Hugo Conwentz (gda_007)**: a reader's photograph of the trunk by the Abbots' Palace, a fresh natural-monument plaque being hung (May 2026), is now its lead photograph; the tree had none. Their second photo (the palace and parterre, the maples not picked out) rejected as a bad frame. gda_007's story lost a colon reveal now that the page carries a photo.

@@ -2,10 +2,10 @@
   "city": "Gdansk",
   "country": "Poland",
   "status": "needs_curation",
-  "intro": "Gdansk protects 157 individual trees by official designation, more than almost any city this project has covered. Four stand alone across the districts: a willow that survived an arson attack, an ash older than the rifle factory built around it, an oak that predates the battle its hill is named for, a beech older than every owner of its park. Six more sit close together in Park Oliwski, among them a three-trunked katsura that smells of caramel in October and an elm wrapped in flowering ivy. Two older still are up the coast in Gdynia. All free.",
-  "meta_description": "Gdansk's oldest tree is a ~280-year-old ash in a former royal rifle factory, and two older ones stand in Sobieski's park up the coast. Twelve trees.",
+  "intro": "Gdansk protects 157 individual trees by official designation, more than almost any city this project has covered. Four stand alone across the districts: a willow that survived an arson attack, an ash older than the rifle factory built around it, an oak that predates the battle its hill is named for, a beech older than every owner of its park. Five more sit close together in Park Oliwski, among them a three-trunked katsura that smells of caramel in October and an elm wrapped in flowering ivy. Two older still are up the coast in Gdynia. All free.",
+  "meta_description": "Gdansk's oldest tree is a ~280-year-old ash in a former royal rifle factory, and two older ones stand in Sobieski's park up the coast. Eleven trees.",
   "question_answer": "Gdansk's oldest tree is very likely the Ash of the Royal Rifle Factory, growing in a courtyard on Lakowa street, estimated at around 280 years old, decades older than the 19th-century weapons factory built up around it. It stands 26 metres tall with a trunk 523 centimetres around. Two older trees appear on this page and neither is in Gdansk: Marysienka's Oak, put at 350 to 400 years, and the Ash of King Jan at about 320, both in the Kolibki manor park in Gdynia, half an hour up the coast by commuter train and twelve minutes from Gdansk Oliwa. They are here because they are an easy afternoon from the city, and this page says where they actually stand rather than counting them as Gdansk's. Every age on this page is an estimate: the register carries girths, not birthdays.",
-  "question_meta": "A ~280-year-old ash inside a former royal rifle factory is likely Gdansk's oldest tree. Where to find it, and eleven more across the city and up the coast.",
+  "question_meta": "A ~280-year-old ash inside a former royal rifle factory is likely Gdansk's oldest tree. Where to find it, and ten more across the city and up the coast.",
   "question_context": "Gdansk maintains an unusually large official register of protected trees, 157 individual specimens as of 2026, but only a handful carry a documented age rather than a girth-based estimate. The Ash of the Royal Rifle Factory is the strongest candidate for the city's oldest: at approximately 280 years it predates the Konigliche Gewehr-Fabrik, the Prussian state weapons factory built on the same Lakowa street site from 1839, by more than a century. Its closest competitor inside the city is the pedunculate oak at the foot of Wzgorze Luizy in Lostowice, around 250 years old. The two trees in the Kolibki park belong to Gdynia's register rather than Gdansk's, and their figures come from Poland's central register of protected forms: the oak entered on 28 June 1966 at 4.87 metres round, the ash on 5 May 2012 at 6.1 metres. Both were photographed in August 2026, which is the most recent proof of life on this page. The willow's fire damage is the opposite case, a condition that changes by the season, so it is described as it was last checked.",
   "faq": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes, all twelve. Ten stand on public streets, parks or courtyards in Gdansk, six of them in Park Oliwski alone. The other two are in the Kolibki manor park in Gdynia, which is a public park, about 35 minutes from Gdansk Glowny by SKM train."
+      "a": "Yes, all eleven. Nine stand on public streets, parks or courtyards in Gdansk, five of them in Park Oliwski alone. The other two are in the Kolibki manor park in Gdynia, which is a public park, about 35 minutes from Gdansk Glowny by SKM train."
     },
     {
       "q": "What happened to the willow of Kupaly-Subislawa?",
@@ -385,11 +385,33 @@
       "how_to_recognise": "A broad crown over a trunk 328 centimetres round by a reader's tape, cucumber-shaped green fruit in late summer; a second cucumber magnolia, 308 centimetres by their measure, stands close by.",
       "story": "Most people picture a magnolia as a garden shrub holding up pink goblets in April. This one is 19 metres tall with a trunk 271 centimetres round.\n\nMagnolia acuminata is a forest tree from eastern North America, and it is called the cucumber tree for its unripe fruit, a knobbly green cylinder a few centimetres long that reddens through late summer. Its flowers are the anticlimax of the genus: greenish yellow, held high in the crown, easy to stand underneath and miss completely. What the species does instead is get big, and this specimen has done it a long way north of anywhere it grows wild.\n\nIt went onto Poland's register of natural monuments on 15 March 1992 as number 837, measured then at 271 centimetres. A reader who put a tape round it in 2026 found 328, and tells us the park holds three cucumber magnolias, the second, 308 centimetres by their measure, standing close to this one; the register lists another of 212 centimetres about 250 metres away. The survey of Gdansk's protected trees picks out the tree magnolias of Park Oliwski, the ones past two metres of girth, as one of the collection's standouts. For a species that is only ever planted here as an ornamental, that is a real distinction.\n\nNobody has dated it. There is no planting record, and no growth rate published for the species at this latitude to work one out from. If you have found either, tell us.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gda_009-the-cucumber-magnolia-of-park-oliwski.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
-      }
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 6,
+        "source": "contributor",
+        "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
+        "sighting_id": "29f56212-ae72-4f86-ba3f-0a71803945bf",
+        "note": "Photographed by a reader and sent through the app (2024-06-21); a viewing pass approved it on 2026-11-19: Viewed 2026-11-19: the whole magnolia in leaf, the church spire behind it, daylight, colour. Species seen: broadleaf tree in full leaf, consistent with a cucumber tree. Fits the description: tall multi-stemmed crown beside a church spire and clipped hedge.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gda_009-the-cucumber-magnolia-of-park-oliwski-7c26b936.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1063,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
+          "sighting_id": "7c26b936-90df-4ef4-8f64-e99842944b9c",
+          "note": "Photographed by a reader and sent through the app (2025-10-15); a viewing pass approved it on 2026-11-19: Viewed 2026-11-19: the same tree in autumn colour, church spire behind; good frame, kept in the strip behind the summer lead. Species seen: same tree in autumn. Fits the description: crown in gold, spire behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "gda_010",
@@ -432,7 +454,22 @@
         "width": 2904,
         "height": 4356,
         "taken_month": 8
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gda_010-the-three-trunked-katsura-of-park-oliwski-9bee5d97.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1066,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
+          "sighting_id": "9bee5d97-c450-4950-8aa2-eaa439dec3bd",
+          "note": "Photographed by a reader and sent through the app (2026-06-02); a viewing pass approved it on 2026-11-19: Viewed 2026-11-19: the katsura's Pomnik Przyrody plaque and its botanic label (Cercidiphyllum japonicum, Grujecznik japonski); the tree's own sign, in the strip. Species seen: Cercidiphyllum japonicum (label). Fits the description: plaque and label on the bark.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "gda_011",
@@ -458,53 +495,35 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "how_to_recognise": "You can recognise it by the drooping, scale-leaved foliage on a trunk 219 centimetres round, 23 metres tall. It stands in a tight group of four with two yews and a Nootka cypress, all protected under one register number.",
-      "story": "Poland protects four trees on this spot as a single object. A western red cedar, two common yews and a Nootka cypress grow within a few metres of one another in the dendrological corner of Park Oliwski, and the register took all of them on 15 March 1992 under one number, 836, rather than four.\n\nThe cedar is the one to stand in front of. Its trunk is 219 centimetres round and it carries 23 metres of dense, drooping, scale-leaved foliage; Gdansk's survey of its protected trees singles out the giant thujas of Park Oliwski as one of the collection's standouts, and this is the one that clears two metres of girth. Its neighbours in the record are smaller: the yews at 148 and 104 centimetres, the Nootka cypress at 143.\n\nThuja plicata is not a European tree at all. It belongs to the wet Pacific coast of North America, from Alaska down to northern California, where on good ground it reaches heights and ages this specimen will never come near. Somebody brought it to a Baltic park and it took, which is most of what a dendrological collection was for.\n\nNobody recorded when that happened. The register carries a girth, a height and a date of protection, and no birthday. If you have found a planting record for this corner of the park, tell us.",
+      "story": "Poland protects four trees on this spot as a single object. A western red cedar, two common yews and a Nootka cypress grow within a few metres of one another in the dendrological corner of Park Oliwski, and the register took all of them on 15 March 1992 under one number, 836, rather than four.\n\nThe cedar is the one to stand in front of. Its trunk is 219 centimetres round and it carries 23 metres of dense, drooping, scale-leaved foliage; Gdansk's survey of its protected trees singles out the giant thujas of Park Oliwski as one of the collection's standouts, and this is the one that clears two metres of girth. Its neighbours in the record are smaller, the yews at 148 and 104 centimetres, the Nootka cypress at 143.\n\nThuja plicata is not a European tree at all. It belongs to the wet Pacific coast of North America, from Alaska down to northern California, where on good ground it reaches heights and ages this specimen will never come near. Somebody brought it to a Baltic park and it took, which is most of what a dendrological collection was for.\n\nNobody recorded when that happened. The register carries a girth, a height and a date of protection, and no birthday. If you have found a planting record for this corner of the park, tell us.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gda_011-the-giant-thuja-of-park-oliwski.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
-      }
-    },
-    {
-      "id": "gda_012",
-      "name": "The Ivy Elm of Park Oliwski",
-      "species": "European White Elm (Ulmus laevis)",
-      "age_estimate": "roughly 150 to 250 years",
-      "age_min": 150,
-      "age_max": 250,
-      "girth_cm": 420,
-      "height_m": 30,
-      "location": {
-        "address": "Park Oliwski im. Adama Mickiewicza, by the pond, Oliwa, Gdansk",
-        "latitude": 54.4116246,
-        "longitude": 18.5605994,
-        "neighbourhood": "Oliwa"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 2,
+        "source": "contributor",
+        "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
+        "sighting_id": "a6c31122-af09-4078-b084-87cd2a2a0aa2",
+        "note": "Photographed by a reader and sent through the app (2025-02-06); a viewing pass approved it on 2026-11-19: Viewed 2026-11-19: a tall fissured trunk of a thuja rising into the crown, a registry tag on the bark, daylight, colour. Species seen: western red cedar type trunk and foliage. Fits the description: huge fibrous trunk, 23 m class tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "verified_sources": [
-        "https://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.2261011.6423",
-        "https://pl.wikipedia.org/wiki/Pomniki_przyrody_w_Gda%C5%84sku"
-      ],
-      "access": "Free, public park (11.3 ha, listed historic monument), open daily in daylight hours",
-      "transport": "Oliwa district; about a 12 minute walk from Gdansk Oliwa railway station",
-      "location_precision": "confirmed",
-      "curation_status": "flagged",
-      "how_to_recognise": "You can recognise it by the flowering ivy growing up the trunk, which is 420 centimetres round. It stands by the pond in Park Oliwski, not the willow at the Kupaly-Subislawa pond a kilometre away.",
-      "story": "Most of Europe's big elms are dead. Dutch elm disease killed them by the tens of millions across the twentieth century, which is why a European white elm with a trunk 420 centimetres round and a crown at 30 metres is now a genuinely rare thing to walk up to. This one stands by the pond in Park Oliwski and has been protected since 1 July 1988, which makes it one of the older entries on Gdansk's register.\n\nIt is not registered under its own name. Poland's entry, number 576, calls it wiaz z kwitnacym bluszczem pospolitym: an elm with flowering common ivy. The ivy going up the trunk is part of what is protected. Ivy only flowers once it has climbed high enough to reach real light, which takes decades, and when it does it flowers in autumn, weeks after everything else has finished, pulling wasps and late bees onto a tree nothing else is visiting. Standing under it in October you hear it before you work out what you are hearing.\n\nNobody has counted the rings. An elm of this girth is usually put somewhere between 150 and 250 years old, and that band comes from the trunk rather than from any document, so take it as the wide guess it is. What is not a guess is that the tree outlived the epidemic that took nearly every elm its size on the continent.",
-      "best_time": {
-        "months": [
-          9,
-          10
-        ],
-        "kind": "flowers",
-        "label": "late September into October, when the ivy up the trunk flowers and the whole trunk hums"
-      },
-      "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
-      }
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gda_011-the-giant-thuja-of-park-oliwski-fe804fae.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1066,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
+          "sighting_id": "fe804fae-60b4-478c-b03f-bffecad2d999",
+          "note": "Photographed by a reader and sent through the app (2026-06-02); a viewing pass approved it on 2026-11-19: Viewed 2026-11-19: the trunk with its Pomnik Przyrody plaque and registry tag; the tree's own sign, kept behind the lead. Species seen: thuja bark. Fits the description: plaque on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

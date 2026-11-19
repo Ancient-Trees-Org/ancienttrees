@@ -26,6 +26,48 @@
         "longitude": 18.5673
       },
       "note": "GDOS gids 107979-107982, one register group record (pl.wikipedia city-index 88, register 829: Korean pine 115cm, Balkan/Rumelian pine 121cm, yew 120cm, western redcedar 140cm all together). Modest girths compared to the group at gda_011, and \"posesja\" in the location description suggests this may partly be on a private property boundary rather than open park; needs an access check before shipping. Same general Oliwa register cluster, ~450m from the gda_008-011 group."
+    },
+    {
+      "id": "gda_012",
+      "name": "The Ivy Elm of Park Oliwski",
+      "species": "European White Elm (Ulmus laevis)",
+      "age_estimate": "roughly 150 to 250 years",
+      "age_min": 150,
+      "age_max": 250,
+      "girth_cm": 420,
+      "height_m": 30,
+      "location": {
+        "address": "Park Oliwski im. Adama Mickiewicza, by the pond, Oliwa, Gdansk",
+        "latitude": 54.4116246,
+        "longitude": 18.5605994,
+        "neighbourhood": "Oliwa"
+      },
+      "verified_sources": [
+        "https://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.2261011.6423",
+        "https://pl.wikipedia.org/wiki/Pomniki_przyrody_w_Gda%C5%84sku"
+      ],
+      "access": "Free, public park (11.3 ha, listed historic monument), open daily in daylight hours",
+      "transport": "Oliwa district; about a 12 minute walk from Gdansk Oliwa railway station",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "how_to_recognise": "You can recognise it by the flowering ivy growing up the trunk, which is 420 centimetres round. It stands by the pond in Park Oliwski, not the willow at the Kupaly-Subislawa pond a kilometre away.",
+      "story": "Most of Europe's big elms are dead. Dutch elm disease killed them by the tens of millions across the twentieth century, which is why a European white elm with a trunk 420 centimetres round and a crown at 30 metres is now a genuinely rare thing to walk up to. This one stands by the pond in Park Oliwski and has been protected since 1 July 1988, which makes it one of the older entries on Gdansk's register.\n\nIt is not registered under its own name. Poland's entry, number 576, calls it wiaz z kwitnacym bluszczem pospolitym: an elm with flowering common ivy. The ivy going up the trunk is part of what is protected. Ivy only flowers once it has climbed high enough to reach real light, which takes decades, and when it does it flowers in autumn, weeks after everything else has finished, pulling wasps and late bees onto a tree nothing else is visiting. Standing under it in October you hear it before you work out what you are hearing.\n\nNobody has counted the rings. An elm of this girth is usually put somewhere between 150 and 250 years old, and that band comes from the trunk rather than from any document, so take it as the wide guess it is. What is not a guess is that the tree outlived the epidemic that took nearly every elm its size on the continent.",
+      "best_time": {
+        "months": [
+          9,
+          10
+        ],
+        "kind": "flowers",
+        "label": "late September into October, when the ivy up the trunk flowers and the whole trunk hums"
+      },
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "removed": "2026-11-19",
+      "removed_reason": "fallen: two reader photographs (2024-06 and snow, plaque Pomnik Przyrody on the fallen trunk) show the elm lying down"
     }
   ],
   "blocked": []
