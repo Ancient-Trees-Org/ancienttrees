@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-19 reader judge: the Kasama leaf-seed ginkgo live from a reader's tip
+- **Live, new place: kasama/kas_001 The Leaf-Seed Ginkgo of Inada Gobo** (Ibaraki, Japan), from a reader's website tip with no photograph (submission 1233, `tip:1233` publish). Ibaraki Prefecture's own record (kyoiku.pref.ibaraki.jp/bunkazai/ken-160) names it: a prefectural natural monument since 2000 at Sainen-ji, 469 Inada, girth 7.5 m, height 35 m, spread 23 m, more than 300 years, vigorous; temple tradition says planted around 1218 in Shinran's time. Register plus the reader's report from this autumn as the life check. Pin approximate at the temple (OSM node), no photograph yet; the reader's girth matches the register's. One tree, so no place page on the web.
+- **For a session: our Mito page (mit_001) calls the Shirahatayama tree the largest leaf-seed ginkgo known**, while Ibaraki's register gives the Inada tree the wider trunk (7.5 m against 6 m). The Kasama story states the register's comparison as the register's and claims no crown; the Mito line wants a look.
+- Nothing else waited: no reader photographs in the queue, no open reports, no feedback without a verdict, no reader words to quote. Still open: 3c544597 (our own account, file not on this machine).
+
 ## 2026-11-19 reader judge: one Adelaide report and one mail reply, nothing new live
 - Nothing changed on the site. No new trees or photographs waited; the one lead left, 3c544597, is our own account and its file is not on this machine, so it waits again.
 - **Report 1000088 (Adelaide, ads_002 The Red Gum of Glynburn Road)**: the reader gave "364 Glynburn Road, Kensington Gardens", which is already our address. The pin is a reader's GPS fix at the tree (confirmed), so it stays. tree_reports.py counts the address as the reader's own words, so no standard thank-you: closed `holds`, suggested answer in drafts/reply-reader-1000088-2026-11-19.md.

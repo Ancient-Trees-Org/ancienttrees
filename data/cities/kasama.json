@@ -1,0 +1,83 @@
+{
+  "city": "Kasama",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Kasama is a pottery town in the hills of central Ibaraki, north-east of Tokyo. At Inada, on its western side, stands Sainen-ji, the temple built where the monk Shinran kept a thatched hut in the early thirteenth century. In its grounds grows a leaf-seed ginkgo that Ibaraki Prefecture protects as a natural monument, 7.5 metres round and 35 metres tall. A reader sent it to us for its autumn colour.",
+  "meta_description": "The leaf-seed ginkgo of Sainen-ji at Inada, Kasama: a prefectural natural monument 7.5 metres round, said to date from Shinran's hut of 1218.",
+  "hero_tree_id": "kas_001",
+  "oldest_tree_id": "kas_001",
+  "trees": [
+    {
+      "id": "kas_001",
+      "name": "The Leaf-Seed Ginkgo of Inada Gobo",
+      "species": "Ohatsuki Ginkgo (Ginkgo biloba var. epiphylla)",
+      "age_estimate": "more than 300 years by the prefecture's record; temple tradition says planted around 1218",
+      "age_min": 300,
+      "age_max": null,
+      "age_basis": "source",
+      "girth_cm": 750,
+      "height_m": 35,
+      "location": {
+        "address": "Sainen-ji (Inada Gobo), 469 Inada, Kasama, Ibaraki Prefecture, Japan",
+        "latitude": 36.3645249,
+        "longitude": 140.202592,
+        "neighbourhood": "Inada"
+      },
+      "location_site": "Sainen-ji temple grounds (Inada Gobo)",
+      "story": "By the temple's own account, this ginkgo was planted around 1218, when the monk Shinran built a thatched hut at Inada. He lived there for years, and the temple says he worked on his main book, the Kyogyoshinsho, in that hut. The temple that grew on the spot is Sainen-ji, also called Inada Gobo, and the tree still stands in its grounds.\n\nIt is an ohatsuki ginkgo, a rare form that sets some of its seeds on the edges of its leaves instead of on stalks of their own. Ibaraki Prefecture made it a natural monument in November 2000. Its record gives a trunk 7.5 metres round, a height of 35 metres and a crown 23 metres across, and says no other leaf-seed ginkgo in the prefecture has a wider trunk, the national monument at Mito's Hachimangu included. It also calls the tree vigorous.\n\nThe prefecture puts its age at more than 300 years, the cautious figure, and the reader who sent it to us says about 300 as well. The planting date of 1218 is the temple's own story, and nobody has measured it.\n\nThat reader also told us when to come. In autumn, they say, its colours are spectacular. The grounds are free to walk into by day, about fifteen minutes on foot from Inada Station.",
+      "how_to_recognise": "The giant ginkgo in the grounds of Sainen-ji at Inada: a trunk about 7.5 metres round rising some 35 metres, with a crown 23 metres across; some of its leaves carry seeds on their edges.",
+      "verified_sources": [
+        "https://kyoiku.pref.ibaraki.jp/bunkazai/ken-160/ (Ibaraki Prefecture Board of Education: 稲田禅房のお葉付イチョウ, prefectural natural monument designated 27 Nov 2000, 笠間市稲田469番地, managed by 西念寺; 樹齢300年以上, 幹周り7.5m, 樹高35m, 枝張り23m; the largest girth of the prefecture's ohatsuki ginkgos; temple tradition: planted about 1218 when Shinran built his hut at Inada; 樹勢は旺盛)",
+        "https://www.mapple.net/station/283442/spot/ (稲田禅房西念寺(稲田御坊), 茨城県笠間市稲田469, JR水戸線稲田駅から徒歩15分, 9:00-16:30, 参拝料無料; Shinran's base in the Kanto and the site of the Inada hut where he worked on the Kyogyoshinsho)",
+        "A reader's tip through the website, 2026-11-19 (submission 1233): Ginkgo biloba var. epiphylla on temple grounds, about 300 years, girth 750 cm, spectacular autumn colours, a Google Maps link to 'Ginkgo Biloba at Inada Gobo'"
+      ],
+      "official_register": {
+        "name": "稲田禅房のお葉付イチョウ (Inada Zenbo no Ohatsuki Icho), Ibaraki Prefecture natural monument, designated 27 November 2000",
+        "url": "https://kyoiku.pref.ibaraki.jp/bunkazai/ken-160/"
+      },
+      "found_by_reader": {
+        "tip": "submission 1233",
+        "date": "2026-11-19"
+      },
+      "access": "Free, in the grounds of Sainen-ji (Inada Gobo), open 9:00 to 16:30; about 15 minutes on foot from JR Inada Station on the Mito Line.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "temple location",
+        "date": "2026-11-19",
+        "note": "OpenStreetMap node 7726447171, Sainen-ji (Inada Gobo); the tree stands in the temple grounds, its exact spot not yet known to us. Approximate."
+      },
+      "verify_notes": "2026-11-19 reader judge: a reader's website tip (submission 1233) with no photograph: 'Ginkgo biloba (var. epiphylla) on temple grounds', Kasama, girth 750 cm, 'Old (300 years) and large; spectacular colours in autumn; rather uncommon ginkgo variation', and a Google Maps link resolving to 'Ginkgo Biloba at Inada Gobo, 562-1 Inada, Kasama'. Official register (Ibaraki Prefecture Board of Education, ken-160) names the tree, its temple and address, its measurements, and calls its vigour strong; the reader's tip of this autumn is the life check. Published under CLAUDE.md 'Verify' (one official register plus a life check) and the tip rule in BRIEF_READER_JUDGE.md. Pin: the temple node in OpenStreetMap (36.36452, 140.20259); Google's place for the tree gives 562-1 Inada against the register's 469, so the pin stays approximate until a photograph with GPS or a source places the trunk. Superlatives: the register's girth comparison is stated as the register's; our Mito page (mit_001) calls the Shirahatayama tree the largest leaf-seed ginkgo known, while this register gives Inada the wider trunk (7.5 m against 6 m): the Mito line wants a session's look. No photograph yet: the reader may have one.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "best_time": {
+        "months": [
+          11
+        ],
+        "kind": "autumn colour",
+        "label": "November, for the autumn colour the reader calls spectacular"
+      }
+    }
+  ],
+  "question_meta": "The oldest tree we know of in Kasama is the leaf-seed ginkgo of Sainen-ji at Inada, more than 300 years old by the prefecture's record.",
+  "question_answer": "The leaf-seed ginkgo in the grounds of Sainen-ji (Inada Gobo) at Inada, Kasama. Ibaraki Prefecture puts it at more than 300 years old, and temple tradition says it was planted around 1218.",
+  "question_context": "Sainen-ji, also called Inada Gobo, stands where the monk Shinran kept a thatched hut in the early thirteenth century, the base from which he taught across the Kanto and, the temple says, worked on the Kyogyoshinsho. Temple tradition holds that the ginkgo in its grounds was planted around 1218, in Shinran's time there. Ibaraki Prefecture, which made it a natural monument in November 2000, is more cautious and gives its age as more than 300 years. Its record measures the trunk at 7.5 metres round, the height at 35 metres and the crown at 23 metres across, and says no other leaf-seed ginkgo in the prefecture has a wider trunk. A leaf-seed ginkgo, ohatsuki icho in Japanese, is a rare form that sets some of its seeds on the edges of its leaves. The reader who told us about it says it is about 300 years old and that its autumn colours are spectacular. The temple grounds are free to visit from 9:00 to 16:30, about fifteen minutes on foot from JR Inada Station.",
+  "faq": [
+    {
+      "q": "How old is the ginkgo at Sainen-ji?",
+      "a": "More than 300 years by Ibaraki Prefecture's record. Temple tradition says Shinran's time at Inada, around 1218, which nobody has measured."
+    },
+    {
+      "q": "What is a leaf-seed ginkgo?",
+      "a": "An ohatsuki icho, a rare ginkgo form that sets some of its seeds on the edges of its leaves instead of on stalks of their own."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It stands in the grounds of Sainen-ji at Inada, free to enter from 9:00 to 16:30, about fifteen minutes on foot from JR Inada Station."
+    }
+  ]
+}

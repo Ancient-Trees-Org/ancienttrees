@@ -634,6 +634,21 @@
    "agreed": null
   },
   {
+   "id": "tip:1233",
+   "seen": "2026-11-19",
+   "kind": "a tip without a photograph",
+   "tree": "Ginkgo biloba (var. epiphylla) on temple grounds",
+   "city": "Kasama, Japan",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 750,
+   "verdict": "publish",
+   "reason": "Prefectural natural monument (Ibaraki ken-160, 7.5 m girth, 35 m, vigorous) at Sainen-ji, Inada; the reader's tip this autumn is the life check. Live as kasama/kas_001, pin approximate at the temple, no photograph yet.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
