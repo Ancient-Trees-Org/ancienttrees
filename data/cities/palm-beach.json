@@ -1,0 +1,121 @@
+{
+  "city": "Palm Beach",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Palm Beach is the barrier island town across Lake Worth Lagoon from West Palm Beach, laid out around Henry Flagler's hotels in the 1890s. Along its Lake Trail, a paved path on the lagoon shore, the garden of the Royal Poinciana Chapel holds Florida's champion kapok, a tree on buttresses that reach the path itself. A reader sent us its photographs.",
+  "meta_description": "Florida's champion kapok on the Lake Trail in Palm Beach: 899 inches round on its buttresses, where it stands and how to see it.",
+  "hero_tree_id": "pbh_001",
+  "oldest_tree_id": "pbh_001",
+  "trees": [
+    {
+      "id": "pbh_001",
+      "name": "The Royal Poinciana Chapel Kapok",
+      "species": "Kapok (Ceiba pentandra)",
+      "age_estimate": "about 190 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 2283,
+      "height_m": 22.6,
+      "location": {
+        "address": "Royal Poinciana Chapel garden, beside the Lake Trail, 60 Cocoanut Row, Palm Beach, Florida",
+        "latitude": 26.7128166666667,
+        "longitude": -80.0432055,
+        "neighbourhood": "Palm Beach"
+      },
+      "story": "The kapok in the garden of the Royal Poinciana Chapel is the biggest of its kind in Florida. The state's Champion Tree register lists it as the Florida champion, measured in 2017 at 899 inches round, about 22.8 metres, 74 feet tall and with a crown 132 feet across.\n\nThat girth sounds impossible until you stand beside it. A kapok holds itself up on buttresses, great fins of grey wood that run out from the trunk across the ground, and these ones reach the fence along the Lake Trail, higher than a person's waist. Above them the trunk rises smooth and pale, knotted where old limbs came away, and breaks into branches that cross the path and hang over the cyclists going by. A reader sent us four photographs with a GPS fix taken beside it, one of them with a walker standing against a single buttress, which shows the scale better than any number.\n\nKapoks come from the American and African tropics and grow fast in South Florida's warmth. Nobody we have found records when this one was planted. The reader who sent it puts it at about 190 years, by their own estimate. If you know its story, tell us here.\n\nWalk the Lake Trail past it, then look at it again from the chapel garden lawn.",
+      "how_to_recognise": "On the Lake Trail by the Royal Poinciana Chapel: a pale grey trunk on huge fin-like buttresses that run out to a low black fence along the path, its limbs reaching over the trail.",
+      "verified_sources": [
+        "https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/1124 (Florida Forest Service Champion Tree register PK 1124: Ceiba pentandra, Florida champion, circumference 899 in, height 74 ft, crown 132 ft, measured 2017-02-09, at the Royal Poinciana Chapel)",
+        "https://royalpoincianachapel.org/about/buildings-and-grounds (the chapel's own page on its grounds)",
+        "A reader's four photographs with a GPS fix beside the tree, through the app, 2026-11-19"
+      ],
+      "official_register": {
+        "name": "Florida Champion Tree Program (Florida Forest Service)",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/1124"
+      },
+      "access": "Free to see from the Lake Trail, a public path for walkers and cyclists; the tree stands in the chapel's garden.",
+      "found_by_reader": {
+        "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (8088d133-b9fe-4ab2-9f16-9c673c126535) as 'Palm Beach Kapok', species 'Kapok', age '190', girth 900 cm. Photographs viewed: four frames: the whole kapok from the Lake Trail, its buttressed trunk behind a low fence with the crown spread overhead; the buttresses from below; the whole tree from the chapel garden lawn; and the trunk along the trail with a person for scale. Daylight, colour. The Florida Champion Tree register (PK 1124) lists the state champion kapok at the Royal Poinciana Chapel, SW of the parking lot just east of the bike path; the reader's fix is there. Register units: circumference in inches, height and crown in feet (points 899 + 74 + 132/4 = 1004 as the register gives), so girth_cm 2283, height_m 22.6. The reader's age of 190 years is on the page as their estimate (sev_044); no planting record found.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 848,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_cafbc51df440914a5f48f6a0",
+        "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the whole kapok from the Lake Trail, buttresses to crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_cafbc51df440914a5f48f6a0",
+          "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+          "note": "The same reader's further photograph, looked at 2026-11-19. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1006,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_cafbc51df440914a5f48f6a0",
+          "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+          "note": "The same reader's further photograph, looked at 2026-11-19. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_cafbc51df440914a5f48f6a0",
+          "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+          "note": "The same reader's further photograph, looked at 2026-11-19. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "age_basis": "source"
+    }
+  ],
+  "question_meta": "Florida's champion kapok grows by the Lake Trail in Palm Beach, in the Royal Poinciana Chapel garden. Where it stands and how to see it.",
+  "question_answer": "The Royal Poinciana Chapel Kapok, Florida's champion kapok, grows in the chapel's garden beside the Lake Trail in Palm Beach. It is free to see from the trail.",
+  "question_context": "The Royal Poinciana Chapel Kapok grows in the garden of the Royal Poinciana Chapel in Palm Beach, beside the Lake Trail, the paved path that runs along the shore of Lake Worth Lagoon. The Florida Forest Service's Champion Tree register lists it as the state champion kapok, Ceiba pentandra, last measured in February 2017 at 899 inches round (about 22.8 metres, a figure its buttress roots make possible), 74 feet tall and with a crown up to 132 feet across. The register places it southwest of the chapel's parking lot, just east of the bike path and the water, and names the chapel as its owner. Its buttresses run out to the fence along the trail, so walkers and cyclists pass right beside them and under its limbs. Nobody we have found records when it was planted. A reader photographed it from the trail and the chapel lawn, with a GPS fix taken beside the tree. The Lake Trail is free and open to walkers and cyclists.",
+  "faq": [
+    {
+      "q": "Where is the big kapok tree in Palm Beach?",
+      "a": "In the garden of the Royal Poinciana Chapel, beside the Lake Trail on the shore of Lake Worth Lagoon, southwest of the chapel's parking lot."
+    },
+    {
+      "q": "How big is the Palm Beach kapok?",
+      "a": "The Florida Forest Service measured it in 2017 at 899 inches round on its buttresses, 74 feet tall and with a crown 132 feet across. It is the state's champion kapok."
+    },
+    {
+      "q": "Can I visit the kapok tree for free?",
+      "a": "Yes. It stands right beside the Lake Trail, a free public path for walkers and cyclists."
+    }
+  ]
+}

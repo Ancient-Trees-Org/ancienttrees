@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-19 reader judge: the Palm Beach kapok
+- **Live: palm-beach/pbh_001, The Royal Poinciana Chapel Kapok** (new place, Palm Beach, Florida). A reader's four photographs (all viewed) plus a GPS fix beside it on the Lake Trail. It is Florida's state champion kapok in the Florida Forest Service register (PK 1124: 899 in round on its buttresses, 74 ft, crown 132 ft, measured 2017), so girth_cm 2283 and height_m 22.6 come from the register; the reader's 190 years is on the page as their estimate. Lead photo is the frame with no people in it, the other three in the strip. One tree, so no place page on the web (PLACE_PAGE_MIN_TREES); state Florida added to data/us-states.json; city_names.py matched West Palm Beach by mistake, so the alias was corrected to Palm Beach, Florida.
+- Still open: 3c544597 (Amsterdam, near ams_032) is our own account's photo (`mine`) and its file is not on this machine; left for a run that has it, never judged blind.
+- No open reports, no unjudged feedback, no reader words waiting.
+
 ## 2026-11-19 night run (window from 01:37 UTC)
 - Rung 1: one reader photo (3c544597, 52.3972 4.8739) is not on disk here, so it stays open; never judged blind. Rung 2: health clear.
 - Rung 5/UK first: Birmingham verify pass found 0 publishable trees (no naming body, no tree coordinates; leads still single-source). Next angle: a reader GPS fix at the Botanical Gardens beech or the Highbury Park veteran survey. Claim released.

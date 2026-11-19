@@ -18,6 +18,18 @@
    "agreed": null
   },
   {
+   "id": "sight:8088d133-b9fe-4ab2-9f16-9c673c126535",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Royal Poinciana Chapel Kapok",
+   "photo": "p_cafbc51df440914a5f48f6a0/8088D133-B9FE-4AB2-9F16-9C673C126535.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Four photographs viewed 2026-11-19: the whole kapok on its buttresses by the Lake Trail, daylight, colour. Lead photograph and three in the strip of palm-beach/pbh_001."
+  },
+  {
    "id": "sight:7bf536d3-50d1-49f7-8ded-90a84364ac92",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -54,6 +66,34 @@
    },
    "verdict": "publish",
    "reason": "Live as apollo-bay/apb_001. Photograph viewed: the fused red-brown trunks of a myrtle beech among ferns at Maits Rest, daylight, colour, plus the reader's photo of the Heritage Tree disc. National Trust Register of Significant Trees lists it (about 200 years, 30 m); reader's GPS fix confirms the pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:8088d133-b9fe-4ab2-9f16-9c673c126535",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Palm Beach Kapok",
+   "city": null,
+   "species": "Kapok",
+   "photo": "p_cafbc51df440914a5f48f6a0/8088D133-B9FE-4AB2-9F16-9C673C126535.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 900,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok"
+   },
+   "verdict": "publish",
+   "reason": "Four photographs viewed: the whole kapok on its buttresses by the Lake Trail, GPS fix beside it; Florida's state champion kapok (FFS register PK 1124). Live as palm-beach/pbh_001.",
    "hidde": null,
    "agreed": null
   },

@@ -6813,6 +6813,40 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "apollo-bay/apb_001"
+  },
+  {
+   "sighting_id": "8088d133-b9fe-4ab2-9f16-9c673c126535",
+   "user_id": "p_cafbc51df440914a5f48f6a0",
+   "mine": false,
+   "name": "Palm Beach Kapok",
+   "unsure_among": null,
+   "species": "Kapok",
+   "age": "190",
+   "girth_cm": 900,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 26.7128166666667,
+   "longitude": -80.0432055,
+   "near": null,
+   "photo": "p_cafbc51df440914a5f48f6a0/8088D133-B9FE-4AB2-9F16-9C673C126535.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/8088d133-b9fe-4ab2-9f16-9c673c126535-extra-1.jpg",
+    "out/sightings/8088d133-b9fe-4ab2-9f16-9c673c126535-extra-2.jpg",
+    "out/sightings/8088d133-b9fe-4ab2-9f16-9c673c126535-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-19: four frames: the whole kapok from the Lake Trail, its buttressed trunk behind a low fence with the crown spread overhead; the buttresses from below; the whole tree from the chapel garden lawn; and the trunk along the trail with a person for scale. Daylight, colour. The Florida state champion kapok (register PK 1124). Live as palm-beach/pbh_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "palm-beach/pbh_001"
   }
  ]
 }
