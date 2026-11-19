@@ -2407,6 +2407,30 @@
     }
    ],
    "sent": []
+  },
+  "p_da7bff2975b2673b6e5ad8d7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e76d23cf-91f2-441d-90f1-177bfa474c52",
+     "tree_id": "akl_001",
+     "tree_name": "Old Albert",
+     "city": "Auckland",
+     "city_slug": "auckland",
+     "display_name": null,
+     "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "ace82d0b-cdb7-4142-8454-22e586cbdb32",
+     "tree_id": "akl_001",
+     "tree_name": "Old Albert",
+     "city": "Auckland",
+     "city_slug": "auckland",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Old Albert gets its first photographs
+
+- **Live**: Old Albert, the Moreton Bay fig in Devonport, Auckland (akl_001), had no photograph. Now it has two from one reader. The close shot of the root curtain and trunks is the lead, and the wide view across Windsor Reserve, with the fountain and the library, is in the strip. The photo-live mail went with `--send`. Both photos are filed under November with no season shown (evergreen fig).
+- Castleboro (25826c1e) and the Brandywine access note were also judged here, but the parallel run below pushed them first, so main's versions stand and this run's copies were dropped at the rebase.
+- No open reports, no unjudged feedback, no tips. For Hidde: nothing.
+
 ## 2026-11-19 reader judge: a redwood at Castleboro goes live; the Brandywine Sycamore's access from a reader
 
 - **Chadds Ford, cdf_001**: report 1000096 from the reader who sent its photograph ("you can walk to the Gideon Gilpin house and the sycamore ... at any time") went onto the tree's access line as their report; closed `holds`, no mail (their own words, so his to read in the digest). The photograph itself went live in the parallel run above; this run's identical approval was dropped at the rebase and the season basis added.

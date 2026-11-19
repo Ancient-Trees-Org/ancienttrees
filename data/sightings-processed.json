@@ -5567,6 +5567,32 @@
    "lat": 39.87458,
    "lon": -75.5718,
    "pin_checked": "2026-11-19"
+  },
+  "25826c1e-c83a-4936-86d6-63dbf8a7bc81": {
+   "outcome": "published",
+   "date": "2026-11-19"
+  },
+  "e76d23cf-91f2-441d-90f1-177bfa474c52": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "akl_001",
+   "city_slug": "auckland",
+   "file": "akl_001-old-albert.jpg",
+   "reason": "The fig fills the frame from the leaf litter to the crown: many stems and a curtain of aerial roots fused round the base, the library's timber building at the right edge, overcast daylight, colour. Species seen: large glossy oval leaves, smooth grey bark, aerial roots dropping and thickening into pr",
+   "lat": -36.8309251757852,
+   "lon": 174.797765924554,
+   "pin_checked": "2026-11-19"
+  },
+  "ace82d0b-cdb7-4142-8454-22e586cbdb32": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "akl_001",
+   "city_slug": "auckland",
+   "file": "akl_001-old-albert-ace82d0b.jpg",
+   "reason": "Wide view of the whole fig from across Windsor Reserve, prop roots and spread crown, the fountain in front and the library at right: says where it stands. Same tree as the lead from the same reader. Species seen: broad dark evergreen crown on many root-trunks, glossy fig leaves in the foreground: a ",
+   "lat": -36.8309251757852,
+   "lon": 174.797765924554,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

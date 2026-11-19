@@ -49,10 +49,18 @@
       "access": "Free, in a public council park beside the Devonport Library. Fully open, no restrictions.",
       "transport": "Devonport ferry terminal, about 8 minutes walk (or the short ferry crossing from downtown Auckland, ~12 minutes, then the walk)",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/akl_001-old-albert.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_da7bff2975b2673b6e5ad8d7",
+        "sighting_id": "e76d23cf-91f2-441d-90f1-177bfa474c52",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The fig fills the frame from the leaf litter to the crown: many stems and a curtain of aerial roots fused round the base, the library's timber building at the right edge, overcast daylight, colour. Species seen: large glossy oval leaves, smooth grey bark, aerial roots dropping and thickening into prop trunks: a Moreton Bay fig. Fits the description: the curtain of aerial roots and several trunks, a rope fence on the lawn and the Devonport Library building beside it, as the recognition line says. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month_basis": "the day it was sent (2026-11-19); evergreen fig, no season shown"
       },
       "curation_status": "ai_generated",
       "location_precision": "confirmed",
@@ -61,7 +69,23 @@
         "name": "New Zealand Tree Register (NZ Notable Trees Trust), AR/0774, no. AR/0774",
         "url": "https://www.treeregister.nz/tree/view/774"
       },
-      "height_m": 21.5
+      "height_m": 21.5,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/akl_001-old-albert-ace82d0b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_da7bff2975b2673b6e5ad8d7",
+          "sighting_id": "ace82d0b-cdb7-4142-8454-22e586cbdb32",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Wide view of the whole fig from across Windsor Reserve, prop roots and spread crown, the fountain in front and the library at right: says where it stands. Same tree as the lead from the same reader. Species seen: broad dark evergreen crown on many root-trunks, glossy fig leaves in the foreground: a Moreton Bay fig. Fits the description: a crown far wider than tall over a forest of aerial-root trunks, the Devonport Library beside it. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "taken_month_basis": "the day it was sent (2026-11-19); evergreen fig, no season shown"
+        }
+      ]
     },
     {
       "id": "akl_002",

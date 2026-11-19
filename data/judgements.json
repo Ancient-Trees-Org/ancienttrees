@@ -19161,6 +19161,34 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e76d23cf-91f2-441d-90f1-177bfa474c52",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "Old Albert",
+   "city": "Auckland",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "p_da7bff2975b2673b6e5ad8d7/E76D23CF-91F2-441D-90F1-177BFA474C52.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: Old Albert's curtain of aerial roots and many trunks beside the Devonport Library; now the tree's first photograph, as lead of auckland/akl_001."
+  },
+  {
+   "id": "sight:ace82d0b-cdb7-4142-8454-22e586cbdb32",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "Old Albert",
+   "city": "Auckland",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "p_da7bff2975b2673b6e5ad8d7/ACE82D0B-CDB7-4142-8454-22E586CBDB32.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole fig from across Windsor Reserve, fountain in front, library at right; in the strip of auckland/akl_001 behind the reader's close shot."
   }
  ]
 }
