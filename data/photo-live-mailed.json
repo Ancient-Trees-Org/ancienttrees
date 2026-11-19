@@ -646,6 +646,15 @@
      "city_slug": "valley-forge",
      "display_name": null,
      "live": "2026-11-18"
+    },
+    {
+     "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",
+     "tree_id": "cdf_001",
+     "tree_name": "The Brandywine Sycamore (Lafayette Sycamore)",
+     "city": "Chadds Ford",
+     "city_slug": "chadds-ford",
+     "display_name": null,
+     "live": "2026-11-19"
     }
    ],
    "sent": [

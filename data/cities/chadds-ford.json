@@ -60,10 +60,17 @@
         "label": "January and February, when the leaves are down and the white upper limbs show"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cdf_001-the-brandywine-sycamore-lafayette-sycamore.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Looking up a massive single trunk into pale, mottled white limbs in late-autumn sun; the reader's other frames show the stone Gilpin house beside it and the 1987 bicentennial plaque at its foot. This is the Brandywine Sycamore, and the tree had no photograph. Species seen: flaking bark leaving smooth white upper limbs over a grey-brown lower trunk, a few remaining palmate leaves: American sycamore. Fits the description: a very large old trunk with white upper limbs; the extra frames show the fieldstone farmhouse beside it and the 1787-1987 arborist plaque the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the mottled white upper limbs a sycamore shows once its bark flakes off, over a trunk five and a half metres round. It stands beside the Gideon Gilpin House, with a 1987 marker at its foot."
     }

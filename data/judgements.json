@@ -19245,6 +19245,28 @@
    "reason": "Photograph viewed 2026-11-19: the whole coral tree with knuckled limbs and its garden label, daylight, colour. Lead photograph of melbourne/mel_020.",
    "city": "Melbourne",
    "species": "Cockspur Coral Tree (Erythrina crista-galli)"
+  },
+  {
+   "id": "sight:c0841407-ba01-4abc-8f2b-30306e6989e5",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Brandywine Sycamore (Lafayette Sycamore)",
+   "city": "Chadds Ford",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/c0841407-ba01-4abc-8f2b-30306e6989e5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the massive trunk rising into white mottled sycamore limbs, with the Gilpin house and the 1987 plaque in the reader's other frames. First photograph this tree has; now its lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

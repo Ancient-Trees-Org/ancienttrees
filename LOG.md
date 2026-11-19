@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: the Brandywine Sycamore gets its first photograph
+
+- **Live**: a reader's photograph is now the lead photo of the Brandywine Sycamore in Chadds Ford (cdf_001), which had none. It looks up the huge trunk into white mottled limbs in November sun, and their other frames (the Gilpin house, the 1787-1987 plaque) settle that it is this tree. The pin was not moved because their coordinate was our own pin. Filed under November from the photo's own date.
+- **Report**: 1000095 on cdf_001, "something else" with no words: closed `holds`, no mail.
+- The Melbourne coral tree (aba8f604) was published by a parallel run as mel_020 while this run judged it; this run's copy was dropped at the rebase and main's version kept.
+- Sighting 3c544597 (Amsterdam) is our own photo (`mine`), so it is never auto-published.
+
 ## 2026-11-19 reader judge: Melbourne's counts follow its twentieth tree
 
 - The only waiting reader's tree (aba8f604, the coral tree in Melbourne's Botanic Gardens) was published by a parallel run as mel_020 (5fdf2e643) while this run judged it; this run's duplicate was dropped at the rebase. That commit left Melbourne's intro, question_meta and FAQ saying nineteen trees and two botanic garden finds; now twenty and three.
