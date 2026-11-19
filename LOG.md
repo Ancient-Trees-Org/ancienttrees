@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-19 reader judge: two Serenbe trees, two New Orleans photographs
+- **Live: serenbe/srb_001 Grandfather Pine and srb_002 Grandmother Beech** (new place in Chattahoochee Hills, Georgia, added to data/us-states.json). One reader's two photographs, both viewed, each with a GPS fix at the tree; pin confirmed. The pine is a loblolly with a candelabra crown among straight ones; the beech leans over a small waterfall. No age or girth anywhere, and the pages ask. Access says plainly we have not confirmed which paths are open.
+- **New Orleans:** the McDonogh Oak's held lead photograph is replaced by the reader's (daylight, the propped crown); the Anseman Oak already had the reader's photograph in its strip, so it stays there. Preflight flagged a colon reveal in the McDonogh Oak's older story and it is rewritten.
+- Still open: 3c544597 (Amsterdam, our own account), file not on this machine. Deploys 44453549235 and 44455643446 were running; the "failing on schedule" line in the start-of-session notice is a scheduled deploy cancelled by the concurrency group (44445919322), not a failed build.
+
 ## 2026-11-19 reader judge: the Fort Screven oak and Yellowstone's Petrified Tree
 - Same reader as the ginkgo below; this run judged the two leads the run below did not reach (the ginkgo and Key West photos were already in from it, its versions kept).
 - **Live: savannah/sav_004, The Fort Screven Bakery Oak** (Tybee Island, about 24 km from Savannah). A broad live oak in front of a brick Fort Screven building, seen from the path, GPS fix; the "bakery" name is the reader's and the page says so. Savannah intro rewritten for four oaks (89 words).
