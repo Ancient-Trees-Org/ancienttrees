@@ -13,24 +13,34 @@ UTC = dt.timezone.utc
 NOW = dt.datetime(2026, 11, 19, 14, 0, tzinfo=UTC)
 
 
-def u(email, made_hours_ago, provider="email", confirmed=False):
-    return {"email": email, "app_metadata": {"provider": provider},
-            "created_at": (NOW - dt.timedelta(hours=made_hours_ago)).isoformat(),
-            "email_confirmed_at": "x" if confirmed else None, "last_sign_in_at": None}
+def ago(h):
+    return NOW - dt.timedelta(hours=h)
+
+
+def user(provider="email", confirmed=False, signed_in=False):
+    return {"app_metadata": {"provider": provider},
+            "email_confirmed_at": "x" if confirmed else None,
+            "last_sign_in_at": "x" if signed_in else None}
 
 
 cases = [
-    ("stuck an hour and more: first retry", w.due(u(GMAIL, 2), [], NOW), True),
-    ("too fresh: waits", w.due(u(GMAIL, 0.5), [], NOW), False),
-    ("got in: nothing", w.due(u(GMAIL, 2, confirmed=True), [], NOW), False),
-    ("apple or google sign-in: nothing", w.due(u(GMAIL, 2, provider="apple"), [], NOW), False),
-    ("older than three days: left alone", w.due(u(GMAIL, 80), [], NOW), False),
-    ("gmail route retried once: never again", w.due(u(GMAIL, 30), ["2026-11-18T10:00+00:00"], NOW), False),
+    ("stuck an hour and more: first retry", w.due(ago(2), GMAIL, [], NOW), True),
+    ("too fresh: waits", w.due(ago(0.5), GMAIL, [], NOW), False),
+    ("older than three days: left alone", w.due(ago(80), GMAIL, [], NOW), False),
+    ("gmail route retried once: never again", w.due(ago(30), GMAIL, ["2026-11-18T10:00+00:00"], NOW), False),
     ("signed route, retry today: waits for midnight",
-     w.due(u(YAHOO, 5), ["2026-11-19T10:00+00:00"], NOW), False),
+     w.due(ago(5), YAHOO, ["2026-11-19T10:00+00:00"], NOW), False),
     ("signed route, retried yesterday: second try after midnight",
-     w.due(u(YAHOO, 30), ["2026-11-18T10:00+00:00"], NOW), True),
-    ("signed route, two tries: done", w.due(u(YAHOO, 30), ["a", "b"], NOW), False),
+     w.due(ago(30), YAHOO, ["2026-11-18T10:00+00:00"], NOW), True),
+    ("signed route, two tries: done",
+     w.due(ago(30), YAHOO, ["2026-11-18T10:00+00:00", "2026-11-19T00:10+00:00"], NOW), False),
+    ("the retry's own new link does not start a new round",
+     w.due(ago(2), GMAIL, ["2026-11-19T11:59+00:00"], NOW), False),
+    ("stuck again a week later: tries from last time do not count",
+     w.due(ago(2), GMAIL, ["2026-11-10T10:00+00:00"], NOW), True),
+    ("never in: email sign-up that never confirmed", w.never_in(user()), True),
+    ("never in: confirmed is in", w.never_in(user(confirmed=True)), False),
+    ("never in: apple sign-in is not ours to chase", w.never_in(user(provider="apple")), False),
 ]
 fails = 0
 for name, got, want in cases:

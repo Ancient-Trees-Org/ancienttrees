@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Somebody signed up with their email address and never got in: send the
-sign-in mail again.
+"""Somebody asked for a sign-in mail and never got in: send it again.
 
 Why (Hidde, 2026-11-19, "zien we als iemand het probeert en het lukt niet?"):
 that morning a batch filled Resend's 100 a day. Yahoo, Apple-relay and BT
@@ -16,13 +15,19 @@ through the same hook, so it takes the route the rule gives it):
   - any other address: once, after an hour.
 
 Never more, so a person who simply changed their mind hears from us at most
-twice. Accounts older than three days are left alone. What was retried sits
+twice. An ask older than three days is left alone (`--days N` reaches further
+back, for a one-off catch-up a session runs on Hidde's word). What was retried sits
 in data/signin-watch.json under people.ref codes, never an address.
 
 The other half of the gap is closed in mailer.py (RESEND_FOR_STRANGERS): first
 mails to strangers may use 60 of Resend's 100, the rest is kept for this mail.
-Not covered: somebody who already had an account and asked for a new link;
-Supabase keeps that in its auth audit log, which the API does not serve.
+Existing accounts too (Hidde, same day: "kunnen we dat nagaan?"): the audit log
+is empty on this project, but a link or code stays in auth.one_time_tokens until
+it is used, so supabase/stuck-signin-links.sql lists everybody holding one an
+hour old without signing in since. The first count, 15 to 19 November: 15
+existing accounts, 12 of them on Yahoo, Apple-relay or BT addresses, nearly all
+on 16 November, the day after the Guardian piece. Same rules as above, counted
+from when they asked.
 
 Usage:
   python3 scripts/signin_watch.py           dry run: who would get a new mail
@@ -44,6 +49,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE = os.path.join(ROOT, "data", "signin-watch.json")
 WAIT = datetime.timedelta(hours=1)
 GIVE_UP = datetime.timedelta(days=3)
+if "--days" in sys.argv:  # a one-off catch-up further back, run by a session on Hidde's word
+    GIVE_UP = datetime.timedelta(days=int(sys.argv[sys.argv.index("--days") + 1]))
 
 
 def _ts(s):
@@ -85,16 +92,36 @@ def load_state():
                 "retried": {}}
 
 
-def due(user, tries, now):
-    """Whether this account gets its sign-in mail again now (pure, tested)."""
-    if (user.get("app_metadata") or {}).get("provider") != "email":
+def never_in(user):
+    """An account made with an email link that never confirmed or signed in."""
+    return ((user.get("app_metadata") or {}).get("provider") == "email"
+            and not user.get("email_confirmed_at") and not user.get("last_sign_in_at"))
+
+
+def stuck_links(key):
+    """Accounts with a sign-in link or code they never used, old or new
+    (supabase/stuck-signin-links.sql): {user_id: when they asked}."""
+    try:
+        rows = _call("/rest/v1/rpc/stuck_signin_links", key,
+                     {"max_age": f"{GIVE_UP.days} days"})
+    except urllib.error.HTTPError as e:
+        print("signin_watch: stuck_signin_links unavailable", e.code)
+        return {}
+    out = {}
+    for r in rows:
+        t = _ts(r["asked_at"])
+        out[r["user_id"]] = min(out.get(r["user_id"], t), t)
+    return out
+
+
+def due(start, email, tries, now):
+    """Whether somebody who asked to sign in at `start` and never got in gets
+    the mail again now (pure, tested). `tries` older than GIVE_UP belong to an
+    earlier time they were stuck and do not count."""
+    if not start or now - start < WAIT or now - start > GIVE_UP:
         return False
-    if user.get("email_confirmed_at") or user.get("last_sign_in_at"):
-        return False
-    made = _ts(user.get("created_at"))
-    if not made or now - made < WAIT or now - made > GIVE_UP:
-        return False
-    signed = mailer.wants_resend(user.get("email") or "", mailer.EXPECTED)
+    tries = [t for t in tries if _ts(t) > now - GIVE_UP]
+    signed = mailer.wants_resend(email or "", mailer.EXPECTED)
     if not tries:
         return True
     if signed and len(tries) == 1:
@@ -127,22 +154,31 @@ def main():
     if "--status" in sys.argv:
         print(status_line())
         return
-    all_users = users(key)
-    for u in all_users:  # who got in after a retry
+    all_users = {u["id"]: u for u in users(key)}
+    for u in all_users.values():  # who got in after a retry
         code = people.ref(u["id"], key)
         row = state["retried"].get(code)
-        if row and not row.get("got_in") and (u.get("email_confirmed_at") or u.get("last_sign_in_at")):
+        last_in = _ts(u.get("last_sign_in_at"))
+        if row and row.get("tries") and not row.get("got_in") and last_in and last_in > _ts(row["tries"][-1]):
             row["got_in"] = now.isoformat(timespec="minutes")
+    # Two kinds of stuck: a new account never in (its creation is the ask), and
+    # anybody, new or existing, holding a link they never used.
+    starts = {uid: _ts(u.get("created_at")) for uid, u in all_users.items() if never_in(u)}
+    for uid, asked in stuck_links(key).items():
+        if uid in all_users:
+            starts[uid] = min(starts.get(uid, asked), asked)
     todo = []
-    for u in all_users:
-        code = people.ref(u["id"], key)
-        if state["retried"].get(code, {}).get("undeliverable"):
+    for uid, start in starts.items():
+        u = all_users[uid]
+        code = people.ref(uid, key)
+        if not u.get("email") or state["retried"].get(code, {}).get("undeliverable"):
             continue
-        if due(u, state["retried"].get(code, {}).get("tries", []), now):
-            todo.append((code, u))
-    for code, u in todo:
+        if due(start, u["email"], state["retried"].get(code, {}).get("tries", []), now):
+            todo.append((code, u, start))
+    for code, u, start in todo:
         signed = mailer.wants_resend(u.get("email") or "", mailer.EXPECTED)
-        label = f"{code} ({'signed route' if signed else 'gmail route'}, made {u['created_at'][:16]})"
+        kind = "new account" if never_in(u) else "existing account"
+        label = f"{code} ({kind}, {'signed route' if signed else 'gmail route'}, asked {start.isoformat()[:16]})"
         if not send:
             print("WOULD SEND", label)
             continue
