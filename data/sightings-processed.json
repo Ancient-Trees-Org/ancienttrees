@@ -5385,6 +5385,77 @@
    "lat": 45.7647883333333,
    "lon": 4.834405,
    "pin_checked": "2026-11-19"
+  },
+  "685b7bb6-a189-4c1e-a74e-701215bb89c7": {
+   "outcome": "published",
+   "date": "2026-11-19"
+  },
+  "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "yor_004",
+   "city_slug": "york",
+   "file": "yor_004-the-cut-leaved-alder.jpg",
+   "reason": "The whole tree on its lawn in York Museum Gardens, bare but for a few leaves, its limbs curling into a loop above the trunk, fine drooping twigs; overcast daylight, colour. GPS fix 20 m from our pin. First photograph of this tree. Species seen: fine, slightly pendulous twigs and a light open crown o",
+   "lat": 53.9607982,
+   "lon": -1.0874987,
+   "pin_checked": "2026-11-19"
+  },
+  "63404fd2-7fd0-4a38-95a7-42001bff2241": {
+   "outcome": "rejected",
+   "date": "2026-11-19",
+   "tree_id": "yor_004",
+   "reason": "duplicate: a near-identical frame of the same tree taken a moment after aab2b8be, which goes live"
+  },
+  "8fa25dfc-55ff-4925-a144-70ee258e5496": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "yor_001",
+   "city_slug": "york",
+   "file": "yor_001-the-willow-leaved-ash.jpg",
+   "reason": "The whole tall tree from the lawn, a thick straight trunk under a high crown of fine ash twigs with the last narrow leaflets, the arches of St Mary's Abbey ruins at the right; overcast daylight, the light flat but the tree plain. GPS fix 13 m from our pin. First photograph of this tree. Species seen",
+   "lat": 53.9611182874069,
+   "lon": -1.08727960847318,
+   "pin_checked": "2026-11-19"
+  },
+  "701ab274-cd8d-4712-a1e0-d46296146d3b": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "yor_003",
+   "city_slug": "york",
+   "file": "yor_003-the-pear-barked-beech-701ab274.jpg",
+   "reason": "The whole broad tree inside its rope ring by the old wall, copper beech leaves still on the outer twigs, the trunk swelling where the graft sits; overcast daylight, colour. GPS fix 1 m from our pin. A reader's photograph leads over the Commons one (Hidde, 2026-10-23). Species seen: beech: smooth dar",
+   "lat": 53.9614561619237,
+   "lon": -1.08754414133728,
+   "pin_checked": "2026-11-19"
+  },
+  "65492e9c-b233-4758-b806-849a0fc67dca": {
+   "outcome": "rejected",
+   "date": "2026-11-19",
+   "tree_id": "yor_003",
+   "reason": "duplicate: nearly the same frame of the same tree as 701ab274, a few steps to one side; 701ab274 goes live"
+  },
+  "f6e889ad-bec9-43d7-bf19-ecfdb0ed552c": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "yor_002",
+   "city_slug": "york",
+   "file": "yor_002-the-cut-leaved-hornbeam-f6e889ad.jpg",
+   "reason": "The hornbeam from the path: low curling limbs reaching out over the bed, a dark furrowed trunk, yellow serrated leaves, festoon lights strung through it, the precinct wall behind; daylight, colour. A good second view; the tree's reader lead stays. Species seen: yellow, sharply serrated hornbeam leav",
+   "lat": 53.9609725,
+   "lon": -1.0871588,
+   "pin_checked": "2026-11-19"
+  },
+  "810c3609-4e33-454c-96ae-3380148dde04": {
+   "outcome": "added",
+   "date": "2026-11-19",
+   "tree_id": "yor_002",
+   "city_slug": "york",
+   "file": "yor_002-the-cut-leaved-hornbeam-810c3609.jpg",
+   "reason": "The hornbeam from the lawn side: the twisting trunk up close with its award sign at the foot, curling limbs above, a marquee behind; overcast daylight, colour. A second view; the reader lead stays. Species seen: hornbeam leaves, serrated and yellow, on contorted limbs; fluted trunk. Fits the descrip",
+   "lat": 53.9609907148406,
+   "lon": -1.08694734983146,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

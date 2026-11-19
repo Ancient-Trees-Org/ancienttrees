@@ -1,0 +1,102 @@
+{
+  "city": "Trephina Gorge",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Trephina Gorge Nature Park lies in the East MacDonnell Ranges, east of Alice Springs in the Northern Territory, where white-trunked ghost gums stand out against red rock and earth. One of them, at the end of a dirt track, is the tree a reader sent us: the park's sign says it is 33 metres tall, over 300 years old and recognised as the largest ghost gum in Australia.",
+  "meta_description": "The ghost gum of Trephina Gorge, east of Alice Springs: 33 metres tall, over 300 years old by the park's sign, and where to find it.",
+  "hero_tree_id": "tgg_001",
+  "oldest_tree_id": "tgg_001",
+  "trees": [
+    {
+      "id": "tgg_001",
+      "name": "The Ghost Gum of Trephina Gorge",
+      "species": "Ghost Gum (Corymbia aparrerinja)",
+      "age_estimate": "over 300 years, by the park's estimate",
+      "age_min": 300,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Trephina Gorge Nature Park, East MacDonnell Ranges, Northern Territory",
+        "latitude": -23.5297333333333,
+        "longitude": 134.37158,
+        "neighbourhood": "Trephina Gorge Nature Park"
+      },
+      "story": "\"Considered to be the tallest of its species in Australia,\" wrote the reader who sent us this ghost gum from Trephina Gorge Nature Park, in the East MacDonnell Ranges east of Alice Springs, with a GPS fix taken on the track that leads to it. They add that the traditional owners, the Eastern Arrernte people, know it as ilwempe.\n\nThe park's own sign beside the tree backs them up. It says the tree has been measured at 33 metres tall and is estimated to be over 300 years old, that it is listed on the Northern Territory Register of Significant Trees, and that the National Register of Big Trees recognises it as the largest ghost gum in the country. A ghost gum this big, the sign adds, usually means a good supply of groundwater below.\n\nThe reader's photographs show why people walk out to it. A pale track runs across red earth and dry grass straight to a trunk so white it looks painted, which opens into a wide crown of chalky, twisting limbs against a hard blue sky. Seen from closer in, every branch is white to its tips.\n\nThe reader puts its girth at about four and a half metres; that figure is theirs.\n\nStand back on the track first, as the reader did, to take in the whole crown at once.",
+      "how_to_recognise": "At the end of a red dirt track across open grass: a lone, chalk-white trunk that splits into a wide crown of white, twisting limbs, with the park's sign 'The Ghost Gum' standing nearby.",
+      "height_m": 33,
+      "verified_sources": [
+        "Parks and Wildlife Commission of the Northern Territory, interpretive sign 'The Ghost Gum' at Trephina Gorge Nature Park (photographed by the reader, 2026-11-19): measured at 33 metres tall, estimated over 300 years old, listed in the Northern Territory Register of Significant Trees, recognised as the largest ghost gum in the country by the National Register of Big Trees"
+      ],
+      "access": "In Trephina Gorge Nature Park, east of Alice Springs, on a short walk along a dirt track. Check the Northern Territory parks site for passes and road conditions before you go.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+        "date": "2026-11-19"
+      },
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app with a GPS fix (sighting 685b7bb6-a189-4c1e-a74e-701215bb89c7). Photographs viewed: the whole tree at the end of a red dirt track, a chalk-white trunk opening into a wide crown against a blue sky, daylight, colour; a second frame looks up the white trunk into the limbs; a third shows the park's own sign for this tree. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Corymbia aparrerinja “Ghost Gum”', species 'Corymbia aparrerinja “Ghost Gum”', age '300', girth 443 cm, note 'This Ghost Gum, known by the traditional owners - the Eastern Arrernte People’s as “ilwempe”, is considered to be the tallest of its species in Australia.'. Height, age, register listing and the national-largest claim come from the park sign in the reader's third photograph; the girth and the 'tallest of its species' words are the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1205,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_48cd024c76fcb12fe2d458cc",
+        "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the whole tree at the end of a red dirt track, white trunk, wide crown, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge-trunk.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1205,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48cd024c76fcb12fe2d458cc",
+          "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: looking up the white trunk into the twisting white limbs, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge-sign.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1205,
+          "source": "contributor",
+          "contributor_user_id": "p_48cd024c76fcb12fe2d458cc",
+          "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the park's own sign for this tree, readable, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "Where is the big ghost gum at Trephina Gorge? Where it stands in the East MacDonnell Ranges, how tall and old the park says it is.",
+  "question_answer": "The Ghost Gum of Trephina Gorge stands at the end of a dirt track in Trephina Gorge Nature Park, east of Alice Springs. The park's sign says it is 33 metres tall and over 300 years old.",
+  "question_context": "The Ghost Gum of Trephina Gorge stands in Trephina Gorge Nature Park, in the East MacDonnell Ranges east of Alice Springs in the Northern Territory. A reader sent us its photograph with a GPS fix taken on the track that leads to it, and wrote that the Eastern Arrernte people, the traditional owners, know it as ilwempe. The park's sign beside the tree says it has been measured at 33 metres tall and is estimated to be over 300 years old. The same sign says it is listed on the Northern Territory Register of Significant Trees and that the National Register of Big Trees recognises it as the largest ghost gum in Australia. Ghost gums, Corymbia aparrerinja, grow across the arid centre and the tropical north, and their pure white trunks stand out against the red earth of the ranges. A tree this large, the sign notes, usually marks a good supply of groundwater. In the reader's photograph a red dirt track runs straight to the trunk across dry grass, so the tree is easy to find once you are in the park. The reader gives its girth as about four and a half metres.",
+  "faq": [
+    {
+      "q": "Where is the Ghost Gum of Trephina Gorge?",
+      "a": "In Trephina Gorge Nature Park in the East MacDonnell Ranges, east of Alice Springs in the Northern Territory, at the end of a short dirt track."
+    },
+    {
+      "q": "How old and how tall is the Ghost Gum of Trephina Gorge?",
+      "a": "The park's sign says it has been measured at 33 metres tall and is estimated to be over 300 years old."
+    },
+    {
+      "q": "Is it the largest ghost gum in Australia?",
+      "a": "The park's sign says the National Register of Big Trees recognises it as the largest ghost gum in the country, and that it is listed on the Northern Territory Register of Significant Trees."
+    }
+  ]
+}

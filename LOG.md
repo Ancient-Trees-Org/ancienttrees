@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: a ghost gum in the Northern Territory, and four York champions photographed
+
+- **What changed**: a reader sent the Ghost Gum of Trephina Gorge (new place trephina-gorge, tgg_001, east of Alice Springs) with a GPS fix, a whole-tree shot, a view up the trunk and a photo of the park's own sign. The sign is the source: 33 m tall, over 300 years, on the NT Register of Significant Trees, and recognised by the National Register of Big Trees as the largest ghost gum in Australia. Their note (the Eastern Arrernte name ilwempe) is quoted. Their girth of 443 cm stays in the story as theirs, and `height_m` 33 comes from the sign. The page and photos are live from the next deploy, and the knock sends the congratulation mail.
+- York Museum Gardens, one reader, seven photographs, all looked at: the Willow-Leaved Ash (yor_001) and the Cut-Leaved Alder (yor_004) get their first photographs, and their approximate pins are now confirmed from the reader's GPS (13 m and 20 m). The Pear-Barked Beech (yor_003) now has a reader's photo as lead, with the Commons photo moved into its strip. The Cut-Leaved Hornbeam (yor_002) gets two more views in its strip. Two near-identical second frames were rejected as duplicates.
+- The Willow-Leaved Ash story had a colon reveal, which preflight flags now that the page has reader content. The sentence is rewritten.
+- A mail reply on Old Knobbley ("Yes please!") answers a session's Android test offer from today. It is closed `needs_hidde` because adding them as a tester is a session's step.
+- Six new tree notes were read; none falls under the closed list, all marked seen. No open reports.
+- Still waiting: 3c544597 (Amsterdam, our own account) has no photo on disk, so it was left for a later run.
+- Breakage: the publish step's pin catch-up again said "could not read coordinates (HTTPError)". The two pin moves above went through anyway.
+
 ## 2026-11-19 reader judge: Lyon's oldest dated plane gets its first photographs
 
 - **What changed**: a reader sent two photographs of The Plane Tree of Place Antoine-Rivoire (lyo_013), which had none. Looked at both: the wide shot (446cfadf) shows the plane alone in its little square by Saint-Nizier and now leads the page; the view up the trunk (34765498, the same picture also came as 446cfadf's extra) sits in the strip behind it. Species and setting match. The pin was already confirmed, 8 m from their GPS fix, so it stays.

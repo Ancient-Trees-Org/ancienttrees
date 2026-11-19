@@ -7438,6 +7438,39 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "mumbai/mum_002"
+  },
+  {
+   "sighting_id": "685b7bb6-a189-4c1e-a74e-701215bb89c7",
+   "user_id": "p_48cd024c76fcb12fe2d458cc",
+   "mine": false,
+   "name": "Corymbia aparrerinja “Ghost Gum”",
+   "unsure_among": null,
+   "species": "Corymbia aparrerinja “Ghost Gum”",
+   "age": "300",
+   "girth_cm": 443,
+   "girth_hugs": null,
+   "note": "This Ghost Gum, known by the traditional owners - the Eastern Arrernte People’s as “ilwempe”, is considered to be the tallest of its species in Australia.",
+   "latitude": -23.5297333333333,
+   "longitude": 134.37158,
+   "near": null,
+   "photo": "p_48cd024c76fcb12fe2d458cc/685B7BB6-A189-4C1E-A74E-701215BB89C7.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/685b7bb6-a189-4c1e-a74e-701215bb89c7-extra-1.jpg",
+    "out/sightings/685b7bb6-a189-4c1e-a74e-701215bb89c7-extra-2.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-19: the whole tree at the end of a red dirt track, a chalk-white trunk opening into a wide crown against a blue sky, daylight, colour; a second frame looks up the white trunk into the limbs; a third shows the park's own sign for this tree. Live as trephina-gorge/tgg_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "trephina-gorge/tgg_001"
   }
  ]
 }

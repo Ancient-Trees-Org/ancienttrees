@@ -36,11 +36,11 @@
       "age_max": 150,
       "location": {
         "address": "York Museum Gardens, Museum Street, York YO1 7FR",
-        "latitude": 53.961157,
-        "longitude": -1.0874735,
+        "latitude": 53.961118,
+        "longitude": -1.08728,
         "neighbourhood": "York city centre"
       },
-      "story": "At twenty-four metres, the Willow-Leaved Ash is the tallest of six trees in York Museum Gardens officially recognised as Yorkshire county champions, the largest recorded example of its kind anywhere in the county. The Tree Register keeps that list, and this ash earned its place with a trunk that measures three and a half metres round and leaves noticeably narrower than an ordinary ash's, more like a willow's, which is where the name comes from. It was planted sometime in the gardens' first century, when the Yorkshire Philosophical Society was still filling the grounds it had laid out around the ruins of St Mary's Abbey with specimens gathered from across the world. The Tree Register puts its age at the top of the 80 to 150 year range shared by the garden's six champions, and its own crown agrees: the upper branches have started to die back, the way an ash tree typically signals it is entering its final decades. It still stands as one of the most noticeable trees in the garden, tall enough to be seen from most of the surrounding lawns. Visit while the crown holds. A champion tree's title from the Tree Register is a record of what was measured and when, never a promise of permanence.",
+      "story": "At twenty-four metres, the Willow-Leaved Ash is the tallest of six trees in York Museum Gardens officially recognised as Yorkshire county champions, the largest recorded example of its kind anywhere in the county. The Tree Register keeps that list, and this ash earned its place with a trunk that measures three and a half metres round and leaves noticeably narrower than an ordinary ash's, more like a willow's, which is where the name comes from. It was planted sometime in the gardens' first century, when the Yorkshire Philosophical Society was still filling the grounds it had laid out around the ruins of St Mary's Abbey with specimens gathered from across the world. The Tree Register puts its age at the top of the 80 to 150 year range shared by the garden's six champions, and its own crown agrees, because the upper branches have started to die back, the way an ash tree typically signals it is entering its final decades. It still stands as one of the most noticeable trees in the garden, tall enough to be seen from most of the surrounding lawns. Visit while the crown holds. A champion tree's title from the Tree Register is a record of what was measured and when, never a promise of permanence.",
       "verified_sources": [
         "https://www.yorkmuseumgardens.org.uk/about/plants/champion-trees/",
         "https://www.yorkshiremuseum.org.uk/collections/collections-highlights/champion-trees/",
@@ -49,17 +49,31 @@
       "access": "Free, no ticket needed (York Museums Trust asks for donations). Main gardens open daily 9am to 6pm; the Artists' Garden 10:30am to 4:30pm. No toilets in the gardens.",
       "transport": "10 min walk from York railway station",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/yor_001-the-willow-leaved-ash.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+        "sighting_id": "8fa25dfc-55ff-4925-a144-70ee258e5496",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The whole tall tree from the lawn, a thick straight trunk under a high crown of fine ash twigs with the last narrow leaflets, the arches of St Mary's Abbey ruins at the right; overcast daylight, the light flat but the tree plain. GPS fix 13 m from our pin. First photograph of this tree. Species seen: ash twigs and narrow, willow-like leaflets on a tall open crown. Fits the description: the tallest tree in the gardens, near the abbey ruins, a thick trunk about three and a half metres round.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Girth/height and champion status from York Museums Trust's two official pages (the garden's own site and its sister Yorkshire Museum collections site), both citing the Tree Register as the verifying body; treated as two independent confirmations given the Tree Register is a distinct national organisation from the trust. Coordinates: the only 'Ash' (as opposed to 'Common ash') record in the Woodland Trust's Ancient Tree Inventory within the garden's footprint sits at this point (girth 3.75m, consistent with the champion's measured 3.58m allowing for growth since the Tree Register's own measurement date); the ATI is a non-commercial lead list only, so this is a plausible coordinate lead, not a confirmed identification, hence approximate.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by the leaves, narrow like a willow's rather than an ash's, on the tallest tree in the gardens at 24 metres. Its upper branches have started to die back.",
       "girth_cm": 358,
-      "height_m": 24
+      "height_m": 24,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "8fa25dfc-55ff-4925-a144-70ee258e5496",
+        "moved_m": 13,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "yor_002",
@@ -124,6 +138,32 @@
           "sighting_id": "b24fa509-4aa6-42fc-9fda-04282a20e481",
           "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/yor_002-the-cut-leaved-hornbeam-f6e889ad.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+          "sighting_id": "f6e889ad-bec9-43d7-bf19-ecfdb0ed552c",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The hornbeam from the path: low curling limbs reaching out over the bed, a dark furrowed trunk, yellow serrated leaves, festoon lights strung through it, the precinct wall behind; daylight, colour. A good second view; the tree's reader lead stays. Species seen: yellow, sharply serrated hornbeam leaves, smooth fluted dark trunk. Fits the description: a low, contorted canopy curling out towards the grass, inside the gardens' champion cluster.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/yor_002-the-cut-leaved-hornbeam-810c3609.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+          "sighting_id": "810c3609-4e33-454c-96ae-3380148dde04",
+          "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The hornbeam from the lawn side: the twisting trunk up close with its award sign at the foot, curling limbs above, a marquee behind; overcast daylight, colour. A second view; the reader lead stays. Species seen: hornbeam leaves, serrated and yellow, on contorted limbs; fluted trunk. Fits the description: the same contorted trunk and curling canopy as the lead, rope ring and stones at its foot.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ],
       "pin_source": {
@@ -156,13 +196,17 @@
       "access": "Free, no ticket needed (York Museums Trust asks for donations). Main gardens open daily 9am to 6pm; the Artists' Garden 10:30am to 4:30pm. No toilets in the gardens.",
       "transport": "10 min walk from York railway station",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Autumn_Tree%2C_Museum_Gardens%2C_York_%285137138362%29.jpg",
-        "license": "CC BY 2.0",
-        "attribution": "Tim Green, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/yor_003-the-pear-barked-beech-701ab274.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2560,
-        "height": 1920,
-        "taken_month": 10
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+        "sighting_id": "701ab274-cd8d-4712-a1e0-d46296146d3b",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The whole broad tree inside its rope ring by the old wall, copper beech leaves still on the outer twigs, the trunk swelling where the graft sits; overcast daylight, colour. GPS fix 1 m from our pin. A reader's photograph leads over the Commons one (Hidde, 2026-10-23). Species seen: beech: smooth dark trunk, small oval coppery leaves hanging on in November. Fits the description: a broad, nineteen-metre beech near the abbey precinct walls, trunk change low on the stem.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Same two-source basis as the Willow-Leaved Ash. No distinguishing Ancient Tree Inventory or iNaturalist record identifies this specific specimen among York's several beeches, so its coordinate is only the garden's general location, not tree-level; marked approximate.",
@@ -186,6 +230,15 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       },
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Autumn_Tree%2C_Museum_Gardens%2C_York_%285137138362%29.jpg",
+          "license": "CC BY 2.0",
+          "attribution": "Tim Green, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2560,
+          "height": 1920,
+          "taken_month": 10
+        },
         {
           "url": "https://ancienttrees.app/photos/yor_003-the-pear-barked-beech-56342639.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -211,8 +264,8 @@
       "age_max": 150,
       "location": {
         "address": "York Museum Gardens, Museum Street, York YO1 7FR",
-        "latitude": 53.9608,
-        "longitude": -1.0878,
+        "latitude": 53.960798,
+        "longitude": -1.087499,
         "neighbourhood": "York city centre"
       },
       "story": "On the lawn closest to the River Ouse, the Cut-Leaved Alder produces small woody cones through the whole of winter and reddish-purple catkins every spring, and its leaves are cut so finely they read as feathery rather than solid, moving differently in the wind than every ordinary alder nearby. That difference is why the Tree Register lists it as a Yorkshire county champion, one of six inside York Museum Gardens. Alders are river trees by nature, at home in the wet ground the Ouse leaves behind after York's regular floods, and this one has grown to ten metres with a trunk over a metre and a half round without ever leaving the damp lawn it was planted on. Decay has started at its base, the kind of slow hollowing that in most trees signals age rather than danger, and the Yorkshire Philosophical Society's original nineteenth century planting scheme is the likeliest source for a cultivar this particular. Standing at the garden's low point by the water, it is easy to see why this spot was chosen for it: alders do not just tolerate wet feet, they need them, and the Ouse has kept this one fed for the better part of a century and a half.",
@@ -224,14 +277,21 @@
       "access": "Free, no ticket needed (York Museums Trust asks for donations). Main gardens open daily 9am to 6pm; the Artists' Garden 10:30am to 4:30pm. No toilets in the gardens.",
       "transport": "10 min walk from York railway station",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/yor_004-the-cut-leaved-alder.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+        "sighting_id": "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: The whole tree on its lawn in York Museum Gardens, bare but for a few leaves, its limbs curling into a loop above the trunk, fine drooping twigs; overcast daylight, colour. GPS fix 20 m from our pin. First photograph of this tree. Species seen: fine, slightly pendulous twigs and a light open crown of a cultivated alder, leafless in November. Fits the description: a ten-metre-class tree on an open lawn by a path in the gardens, as the record and recognition line say.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Same two-source basis as the Willow-Leaved Ash; both pages place it on 'the bottom lawn near the river', used to position the coordinate toward the garden's river edge. No Ancient Tree Inventory alder record exists inside the garden at all, so this stays garden-level, not tree-level; marked approximate. A CC-BY iNaturalist Alnus glutinosa photo taken just south of the garden was checked and declined: ordinary, uncut leaves, not this cultivar's deeply incised form.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "best_time": {
         "months": [
           2,
@@ -242,7 +302,14 @@
       },
       "how_to_recognise": "You can recognise it by the leaves, cut so finely they read as feathery, and by the small woody cones it carries all winter. It stands on the lawn closest to the river.",
       "girth_cm": 163,
-      "height_m": 10
+      "height_m": 10,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",
+        "moved_m": 20,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "yor_005",

@@ -1289,6 +1289,189 @@
    "agreed": null
   },
   {
+   "id": "sight:aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cut-Leaved Alder",
+   "city": "York",
+   "species": "Common Alder (Alnus glutinosa 'Imperialis')",
+   "photo": "out/sightings/aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Common Alder (Alnus glutinosa 'Imperialis')"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the whole alder on its lawn in York Museum Gardens, bare, limbs looping above the trunk; the first photograph of yor_004, now its lead, pin confirmed from the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:63404fd2-7fd0-4a38-95a7-42001bff2241",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cut-Leaved Alder",
+   "city": "York",
+   "species": "Common Alder (Alnus glutinosa 'Imperialis')",
+   "photo": "out/sightings/63404fd2-7fd0-4a38-95a7-42001bff2241.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Common Alder (Alnus glutinosa 'Imperialis')"
+   },
+   "verdict": "hold",
+   "reason": "Same frame as aab2b8be a moment later; rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8fa25dfc-55ff-4925-a144-70ee258e5496",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Willow-Leaved Ash",
+   "city": "York",
+   "species": "Narrow-Leaved Ash (Fraxinus angustifolia 'Lentiscifolia')",
+   "photo": "out/sightings/8fa25dfc-55ff-4925-a144-70ee258e5496.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 13,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Narrow-Leaved Ash (Fraxinus angustifolia 'Lentiscifolia')"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the whole tall ash by the abbey ruins, flat overcast light; the first photograph of yor_001, now its lead, pin confirmed from the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:65492e9c-b233-4758-b806-849a0fc67dca",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Pear-Barked Beech",
+   "city": "York",
+   "species": "European Beech (Fagus sylvatica 'Miltonensis')",
+   "photo": "out/sightings/65492e9c-b233-4758-b806-849a0fc67dca.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 28,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica 'Miltonensis')"
+   },
+   "verdict": "hold",
+   "reason": "Nearly the same frame as 701ab274; rejected as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f6e889ad-bec9-43d7-bf19-ecfdb0ed552c",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cut-Leaved Hornbeam",
+   "city": "York",
+   "species": "Hornbeam (Carpinus betulus 'Incisa')",
+   "photo": "out/sightings/f6e889ad-bec9-43d7-bf19-ecfdb0ed552c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Hornbeam (Carpinus betulus 'Incisa')"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the hornbeam's curling limbs and yellow serrated leaves from the path; in the strip of yor_002 behind its reader lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:810c3609-4e33-454c-96ae-3380148dde04",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cut-Leaved Hornbeam",
+   "city": "York",
+   "species": "Hornbeam (Carpinus betulus 'Incisa')",
+   "photo": "out/sightings/810c3609-4e33-454c-96ae-3380148dde04.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 9,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Hornbeam (Carpinus betulus 'Incisa')"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the hornbeam's twisted trunk and award sign from the lawn side; in the strip of yor_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:701ab274-cd8d-4712-a1e0-d46296146d3b",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Pear-Barked Beech",
+   "city": "York",
+   "species": "European Beech (Fagus sylvatica 'Miltonensis')",
+   "photo": "out/sightings/701ab274-cd8d-4712-a1e0-d46296146d3b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica 'Miltonensis')"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the whole broad beech in its rope ring by the old wall, copper leaves; now the lead of yor_003, the Commons photograph behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:685b7bb6-a189-4c1e-a74e-701215bb89c7",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Corymbia aparrerinja “Ghost Gum”",
+   "city": null,
+   "species": "Corymbia aparrerinja “Ghost Gum”",
+   "photo": "p_48cd024c76fcb12fe2d458cc/685B7BB6-A189-4C1E-A74E-701215BB89C7.jpg",
+   "reader_note": "This Ghost Gum, known by the traditional owners - the Eastern Arrernte People’s as “ilwempe”, is considered to be the tallest of its species in Australia.",
+   "reader_girth_cm": 443,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.705,
+    "via": "girth",
+    "note": "71% of the genus reference (628 cm, n=2, max 628)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Looked at all three: the whole white ghost gum at the end of a red track, its trunk from below, and the park's sign (33 m, over 300 years, NT register, largest ghost gum in Australia). Live as trephina-gorge/tgg_001 with the reader's GPS fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -18576,6 +18759,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:685b7bb6-a189-4c1e-a74e-701215bb89c7",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Corymbia aparrerinja “Ghost Gum”",
+   "photo": "p_48cd024c76fcb12fe2d458cc/685B7BB6-A189-4C1E-A74E-701215BB89C7.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-19: the whole white ghost gum at the end of a red track, its trunk from below, and the park's sign. Lead photograph and strip of trephina-gorge/tgg_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
