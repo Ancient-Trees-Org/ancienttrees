@@ -48,6 +48,8 @@
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 3,
+        "taken_month_basis": "no date kept; the cherries in full blossom, which the shrine puts in early March: spring",
         "source": "contributor",
         "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
         "sighting_id": "792fd983-0f7d-4818-9112-8fbdf8e8c409",

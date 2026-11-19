@@ -54,6 +54,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (0305569a-654f-4bb4-9818-a071e602650b, 2026-11-17, through the app). Photograph viewed: the whole twin-stemmed white pine from its root flare to the crown, the boardwalk's roofed kiosk on the left and the boardwalk itself on the right, clear daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Eastern White Pine', species 'Eastern White Pine', age 'Unknown', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bnm_001-white-pine-at-the-orono-bog-boardwalk.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "bare hardwoods and dead brown oak leaves around the pine, low sun: late autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

@@ -44,6 +44,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/lnt_001-the-linton-yew.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "brown fallen leaves on the path, yellowing trees behind in mist: autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -57,6 +59,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/lnt_001-the-linton-yew-extra.jpg",
+          "taken_month_basis": "evergreen yew, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

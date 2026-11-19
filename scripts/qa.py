@@ -1386,6 +1386,45 @@ def check_a_given_photo_records_the_yes():
     return out
 
 
+def check_a_reader_photo_is_filed_by_season():
+    """A reader's photograph outside the tropics carries `taken_month`, or a
+    `taken_month_basis` saying it shows no season.
+
+    Hidde, 2026-11-19, a chestnut in copper leaf and cherries in full blossom,
+    each with an empty Seasons row on its page: "waarom staat er geen foto in
+    autumn?", "and here it misses in spring", "kunnen we dit gat dichten?".
+    The reader judge writes photo blocks by hand and left the month out of
+    169. The tree page files a photo under a season only by its month
+    (TreeDetail.astro, seasons.ts). Rule in BRIEF_READER_JUDGE.md; photos
+    that could not be settled are in data/season-baseline.json. Removing this
+    check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    try:
+        base = set(json.loads((root / "data" / "season-baseline.json").read_text(encoding="utf-8"))["urls"])
+    except (OSError, ValueError, KeyError):
+        base = set()
+    out = []
+    for p in sorted((root / "data" / "cities").glob("*.json")):
+        try:
+            trees = json.loads(p.read_text(encoding="utf-8")).get("trees") or []
+        except ValueError:
+            continue
+        for t in trees:
+            lat = ((t.get("location") or {}).get("latitude"))
+            if lat is None or abs(lat) < 25:
+                continue
+            for ph in [t.get("photo") or {}] + (t.get("photos") or []):
+                if ph.get("source") != "contributor" or not ph.get("url") or ph["url"] in base:
+                    continue
+                if ph.get("taken_month") or (ph.get("taken_month_basis") or "").strip():
+                    continue
+                out.append("%s/%s: a reader's photograph has no `taken_month`, so its "
+                           "Seasons row stays empty; file it by what it shows, or say "
+                           "in `taken_month_basis` that it shows no season "
+                           "(BRIEF_READER_JUDGE.md, Hidde 2026-11-19)" % (p.stem, t.get("id")))
+    return out
+
+
 def check_every_own_photo_has_a_card_copy():
     """Every photograph on our own domain, lead or strip, has its 500 copy in
     the manifest, unless the original is no wider than that.
@@ -4504,6 +4543,7 @@ def main():
         check_the_quality_line_stays_in_the_digest,
         check_the_privacy_page_names_what_we_store,
         check_a_given_photo_records_the_yes,
+        check_a_reader_photo_is_filed_by_season,
         check_every_reader_photo_reaches_hidde,
         check_everything_sent_reaches_hidde,
         check_every_site_route_is_claimed_or_excluded,
@@ -4720,6 +4760,7 @@ def main():
     failures += check_the_quality_line_stays_in_the_digest()
     failures += check_the_privacy_page_names_what_we_store()
     failures += check_a_given_photo_records_the_yes()
+    failures += check_a_reader_photo_is_filed_by_season()
     failures += check_every_own_photo_has_a_card_copy()
     failures += check_every_copy_is_its_photograph()
     failures += check_web_add_photo_is_shared()

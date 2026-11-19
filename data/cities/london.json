@@ -2231,6 +2231,8 @@
       "access": "Free, in a public park open every day.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lon_050-the-bruce-castle-oak.jpg",
+        "taken_month": 5,
+        "taken_month_basis": "fresh pale new oak leaves, park in fresh green: late spring (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -2252,6 +2254,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/lon_050-the-bruce-castle-oak-bc20d71a.jpg",
+          "taken_month_basis": "bare oak branches alone, no snow or frost, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -2332,6 +2335,8 @@
       "access": "Free, on Hampstead Heath, open every day.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "yellow and orange autumn leaf in the crown and copper beech litter on the ground: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -2399,6 +2404,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "chestnut crown golden brown, half bare, leaves on the ground: autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -2441,6 +2448,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (5e81af24-c36d-4b03-a6ed-92b1030ccca3, 2026-11-17, through the app). Photograph viewed: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Black Mulberry in London', species 'Black Mulberry', note 'Described as a veteran, with a protective fence'. The pin falls inside Morden Hall Park, about 110 m north of the Ancient Yew Group's yew 2556 there.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lon_054-burred-mulberry-of-morden-hall-park.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "mulberry just bare with a thick layer of freshly fallen brown leaves around it: late autumn (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

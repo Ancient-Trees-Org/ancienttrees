@@ -460,6 +460,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (13cfb80c-819a-4875-a382-2d95f3156bd8). Photographs viewed: the whole ginkgo from the park lawn in full autumn gold, a thick straight trunk by a white picket fence, fallen yellow leaves over the grass, white clapboard buildings behind, blue sky, daylight, colour; a second frame from the street side shows the same tree with an interpretive sign beside it. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry within 100 m and no source names this ginkgo; the DeKalb History Center's dedicated ginkgo stands at the Old Courthouse, not here. Reader's name for it: 'Adair Park Ginko', species 'Ginkgo'.",
       "photo": {
         "url": "https://ancienttrees.app/photos/atl_012-adair-park-ginkgo.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "ginkgo crown turning yellow and yellow leaves on the lawn: autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -473,6 +475,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/atl_012-adair-park-ginkgo-extra1.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "whole crown golden yellow and yellow leaves carpeting the ground: autumn; sent 2026-09-04 is a batch date, not the day taken, so 11 (season pass, 2026-11-19)",
           "license": "Provided by a reader through Ancient Trees, all rights reserved",
           "attribution": null,
           "status": "approved",

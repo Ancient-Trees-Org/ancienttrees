@@ -36,6 +36,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora.jpg",
+        "taken_month_basis": "evergreen olive with green olives, no clear season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -49,6 +50,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora-extra1.jpg",
+          "taken_month_basis": "evergreen olive with green fruit, no clear season cue (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -61,6 +63,7 @@
         },
         {
           "url": "https://ancienttrees.app/photos/zak_001-the-old-olive-of-exo-chora-extra2.jpg",
+          "taken_month_basis": "close-up of hollow olive trunk, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

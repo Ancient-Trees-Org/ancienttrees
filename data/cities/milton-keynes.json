@@ -76,6 +76,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/mkn_001-linford-lime-tip680.jpg",
+          "taken_month": 9,
+          "taken_month_basis": "lime still green with first yellow leaves, fallen brown leaves underneath, sent 2026-09-04: early autumn (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -158,6 +160,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (4ea907d1-6637-4070-aa8a-9a9d66a71f91, the same photograph also sent as 58efdc92-c382-4b03-b495-c53f027b4e58 from 40 m along the path, folded into this one entry). Photograph viewed: a row of old apple trees along the edge of a paved path, grey split and hollowed trunks all leaning out towards the path, green crowns, one branch reaching over the grass in the foreground; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Apple in Milton Keynes', note 'A row of Old Apple trees possibly Bramley'. The variety is theirs; no age, girth or planting record. Place from OpenStreetMap reverse geocoding (Foxhunter Drive, Linford Wood). An ensemble: the row is the destination, one path to stand on.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mkn_003-leaning-apple-row-of-linford-wood.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "apple leaves yellowing, fallen brown leaves along the path, bare trees behind: autumn (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

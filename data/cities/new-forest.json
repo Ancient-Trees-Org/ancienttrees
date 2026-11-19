@@ -37,6 +37,8 @@
       "access": "Free; a short surfaced path from the Knightwood Oak car park on the Bolderwood Ornamental Drive. Forestry England car park charges may apply.",
       "photo": {
         "url": "https://ancienttrees.app/photos/nwf_001-the-knightwood-oak.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "copper autumn leaf on the oak and a carpet of fallen leaves on the ground: autumn (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -107,6 +109,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "copper bracken and turning beech and oak around the sequoias: autumn (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

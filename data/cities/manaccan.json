@@ -40,6 +40,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/mnc_001-monterey-cypress-over-the-creek.jpg",
+        "taken_month_basis": "evergreen cypress, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -53,6 +54,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/mnc_001-monterey-cypress-over-the-creek-extra.jpg",
+          "taken_month_basis": "evergreen cypress, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -104,6 +106,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall.jpg",
+        "taken_month_basis": "fig in green leaf on the church wall, no clear season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -117,6 +120,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-crown.jpg",
+          "taken_month_basis": "green fig leaf with some wilting, no clear season cue (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -129,6 +133,7 @@
         },
         {
           "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-stems.jpg",
+          "taken_month_basis": "green fig leaf with some browned leaves, no plain season (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -141,6 +146,7 @@
         },
         {
           "url": "https://ancienttrees.app/photos/mnc_002-the-fig-in-manaccan-church-wall-base.jpg",
+          "taken_month_basis": "close look at the fig's base in green leaf, a few wilting leaves, no clear season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

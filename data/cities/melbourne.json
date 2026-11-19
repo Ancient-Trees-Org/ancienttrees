@@ -671,6 +671,7 @@
       "verify_notes": "2026-11-17 session: sent by a reader (665082d2-815b-4630-883a-5f619725cdb9, 2026-11-16, through the app). Photograph viewed: the whole tree beside a garden path, its low limbs sweeping out in every direction over a roped bed, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Tristaniopsis laurina in Melbourne', species 'Tristaniopsis laurina', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mel_017-water-gum-that-reaches-out.jpg",
+        "taken_month_basis": "evergreen water gum with some light new tips, no clear season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -714,6 +715,7 @@
       "verify_notes": "2026-11-17 session: sent by a reader (993d2833-d88b-43cc-a6e2-804c1e2c6921, 2026-11-16, through the app). Photograph viewed: the leaning grey trunk from its flaring roots to the crown, a steel boardwalk passing beneath it among tree ferns and palms, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Giant Ficus Tree, Bali Botanic Garden', species 'Fig (Ficus sp.)', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mel_018-leaning-fig-over-the-boardwalk.jpg",
+        "taken_month_basis": "evergreen fig among ferns and palms, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -783,6 +785,7 @@
       "verify_notes": "2026-11-18 reader-judge run: sent by a reader through the app as a photograph of mel_002, but it shows a different tree (verdict other_tree). Photograph viewed: the whole tree from the lawn, a straight trunk with rough grey bark low down and smooth pale bark above, a broad dense crown of narrow eucalypt leaves, the painted skate bowl and its green railing at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Species left at genus: Yarra register red gum ref 111 stands 36 m from the GPS fix and register elm ref 112 16 m from the reader's second frame (e1b0ab73, same tree), so the trunk is not tied to a register row yet. The reader's second frame of the same tree can join the strip.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mel_019-gum-by-the-edinburgh-gardens-skate-bowl.jpg",
+        "taken_month_basis": "evergreen gum, no season cue on the tree itself (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

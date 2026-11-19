@@ -41,6 +41,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ely_001-the-airport-oak-of-earlysville.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "oak crown turning red-brown in places, dry grass: autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

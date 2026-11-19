@@ -41,6 +41,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (68515bbd-0bdc-475a-bb16-5e8e324db9c9, 2026-11-16, through the app). Photograph viewed: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Pedunculate Oak', species 'Pedunculate Oak', age '300 years', girth 200 cm, note '300 years old. It’s under state protection. In special nature reserve in Jelasnica. Photo by me.'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/jls_001-open-grown-oak-of-jela-nica.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "oak leaf starting to turn, yellow undergrowth behind, low autumn sun: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

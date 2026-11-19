@@ -38,6 +38,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (tip-993, 2026-11-16, through the website). Photograph viewed: the low, twisted, lichen-grey trunk with its leaning limb on green props, autumn leaves, a timber rail around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Balmerino Chestnut', species 'Sweet Chestnut (Castanea sp.)', age 'None', girth 500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/blm_001-balmerino-abbey-chestnut.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "copper and orange autumn leaf on the tree and the ground: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

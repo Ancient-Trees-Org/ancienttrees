@@ -342,6 +342,7 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader (12a88725-88e2-4a96-85f6-0966bb59db6b, 2026-11-18, through the app). Photograph viewed: the whole fig alone on park lawn, a short massive trunk breaking into many grey limbs under a wide dome of glossy leaves, buttress roots over a ring of mulch, daylight, colour; a second picture shows the trunk close with an open hollow at its base and a skate park behind. Pin falls inside Rushcutters Bay Park (OpenStreetMap). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Moreton Bay Fig in Sydney', species 'Moreton Bay Fig', age '150', girth 750 cm; every figure on the page is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/syd_008-moreton-bay-fig-of-rushcutters-bay-park.jpg",
+        "taken_month_basis": "evergreen fig, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -355,6 +356,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/syd_008-moreton-bay-fig-of-rushcutters-bay-park-trunk.jpg",
+          "taken_month_basis": "evergreen fig trunk, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through Ancient Trees, all rights reserved",
           "attribution": null,
           "status": "approved",

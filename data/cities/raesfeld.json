@@ -49,6 +49,7 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (b465300f-f064-4c38-9fb9-d3fe2e44e2b9, 2026-11-17, through the app). Photograph viewed: the whole oak at dusk from the green, its moss-covered trunk among tall wooden props inside a round picket fence, crown in leaf, lit from behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Pedunculate Oak near Winterswijk', species 'Pedunculate Oak', age '1000', girth 1245 cm, note 'It is considered the oldest court tree in Central Europe and has been the first national heritage tree of North Rhine-Westphalia since October 30, 2021.'. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-17 reader judge: pin moved 44 m on reader report 1000068; confirmed.",
       "photo": {
         "url": "https://ancienttrees.app/photos/rsf_001-erler-femeiche.jpg",
+        "taken_month_basis": "dusk under lamplight, leaf colour unreadable, no clear season cue (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

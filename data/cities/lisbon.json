@@ -1681,6 +1681,7 @@
       "verify_notes": "2026-11-17 session: sent by a reader (4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a, 2026-11-17, through the app). Photograph viewed: the whole oak and its broad round crown in the arcaded courtyard of a yellow building, hedge in front, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Portuguese Oak in Lisbon', species 'Portuguese Oak', age '96', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lis_039-portuguese-oak-of-the-agronomy-cloister.jpg",
+        "taken_month_basis": "brownish crown on a semi-evergreen oak under grey sky, could be old leaf or new flush, doubt (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

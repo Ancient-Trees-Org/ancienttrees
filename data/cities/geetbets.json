@@ -37,6 +37,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (b25a6096-d8f0-4528-a3fb-fa6f6c61fd61, 2026-11-19, through the app). The app named it 'near Westerlo' (our nearest place, 24 km off); the GPS fix is in Hulsbeek, Geetbets (OpenStreetMap reverse lookup: Weg op Halen, Hulsbeek, Geetbets, 3450). Photograph viewed: the whole lower trunk and the first great limbs from the grass, the bark twisting up in deep spiral furrows, a burr on the trunk, autumn leaves, a plank bench at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Species from the reader and the spiral bark in the photo; no age or girth given.",
       "photo": {
         "url": "https://ancienttrees.app/photos/gtb_001-sweet-chestnut-of-hulsbeek.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "chestnut leaf turning yellow and brown, fallen leaves on the grass: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

@@ -41,6 +41,7 @@
       "verify_notes": "2026-11-17 session: sent by a reader (471cdeb1-6853-43a4-85a6-f926e83b532c, 2026-11-17, through the app). Photograph viewed: the whole yew from the churchyard grass, its fluted red trunk under a full crown, gravestones either side, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'European Yew near Llanfihangel-nant-Melan', species 'European Yew', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/cus_001-churchyard-yew-of-cusop.jpg",
+        "taken_month_basis": "evergreen yew, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

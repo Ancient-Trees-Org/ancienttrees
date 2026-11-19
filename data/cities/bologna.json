@@ -525,6 +525,7 @@
       "transport": "Via Galliera 2, Castel Maggiore; the TPER bus stop Villa Salina is at the gate.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bol_013-the-oak-of-villa-salina.jpg",
+        "taken_month_basis": "full green summer leaf, does not agree with the November send date, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -573,6 +574,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (tip-995, 2026-11-16, through the website). Photograph viewed: looking up a thick white poplar trunk that splits into several stems, pale upper bark, fresh green leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Pioppo bianco dell'Oasi Lagoverde di Bologna', species 'Poplar (Populus sp.)', age 'None', girth 300 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bol_014-three-hundred-year-poplar-of-lagoverde.jpg",
+        "taken_month": 4,
+        "taken_month_basis": "bright, small, freshly opened poplar leaf against blue sky: spring (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

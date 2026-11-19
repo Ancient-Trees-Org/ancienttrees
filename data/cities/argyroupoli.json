@@ -43,6 +43,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins.jpg",
+        "taken_month_basis": "plain green plane leaf, some dry litter on the ground, no clear season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -56,6 +57,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra1.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "brown fallen plane leaves covering the ground, turning leaves on the sprouts: autumn (sent 2026-09-04 is a batch date, not used) (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -68,6 +71,7 @@
         },
         {
           "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra2.jpg",
+          "taken_month_basis": "plain green plane leaf, dry leaves on the ground are not plain autumn colour, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -80,6 +84,7 @@
         },
         {
           "url": "https://ancienttrees.app/photos/agy_001-the-plane-of-the-five-virgins-extra3.jpg",
+          "taken_month_basis": "plain green plane leaf, dry litter on the ground, no clear season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

@@ -288,6 +288,7 @@
       "verify_notes": "2026-11-17 session: sent by a reader (b451d1e8-4b8b-4bb0-9680-01874b41c26b, 2026-11-17, through the app). Photograph viewed: the whole tree at dusk from its sprawling buttress roots up into the crown, the plaza's railings and lamps behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Ficus macrophylla in Buenos Aires', species 'Ficus macrophylla (Villa di)', age '250/300', girth 1200 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bai_005-gomero-of-plaza-san-mart-n.jpg",
+        "taken_month_basis": "evergreen fig at dusk, a few yellow leaves on the ground, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

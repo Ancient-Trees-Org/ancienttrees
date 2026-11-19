@@ -991,6 +991,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader (e2a41777-04a8-4864-aad1-99a9a84bb622, through the app). Photographs viewed: the whole ginkgo in autumn gold from the veranda of a temple hall, its dark trunk on a mossy bed, a stone garden in front, visitors on the path, daylight, colour; extras show the crown from the forecourt, the stone post 都天然記念物 九品仏のイチョウ before the trunk, and the Setagaya 名木百選 plaque on the bark. The designation is in the Tokyo register (data/registers/tokyo.json, 九品仏のイチョウ, 1963-03-19) and on the stone post in the reader's photo; the Setagaya 名木百選 dates are read from the plaque in their photo. The register's Kaya (Torreya) at the same address is a different tree and stays a lead in data/leads/tokyo.json. No girth or age: none in the register or on the plaque.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "ginkgo crown turning yellow, yellow leaves on the ground: autumn (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -1004,6 +1006,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-crown.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "ginkgo crown in full golden yellow, maples turning beside it: autumn (season pass, 2026-11-19)",
           "license": "Provided by a reader through Ancient Trees, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -1015,6 +1019,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-stone-post.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "yellow ginkgo leaves on the ground and yellow crown behind the stone post: autumn (season pass, 2026-11-19)",
           "license": "Provided by a reader through Ancient Trees, all rights reserved",
           "attribution": null,
           "status": "approved",

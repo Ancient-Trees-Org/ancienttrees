@@ -38,6 +38,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ulv_001-the-conishead-priory-cedar.jpg",
+        "taken_month_basis": "evergreen cedar among bare trees, no snow or frost, no clear season cue (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -80,6 +81,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ulv_002-the-conishead-priory-douglas-fir.jpg",
+        "taken_month_basis": "evergreen fir among bare trees in low sun, no snow or frost, no plain season (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

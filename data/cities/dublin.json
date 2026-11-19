@@ -752,6 +752,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (b59c4873-fd0a-4a92-a0d0-08074938e8f5, 2026-11-17, through the app). Photograph viewed: a weeping blue cedar whose branches hang to the grass on every side, a bare-earth path leading in under the arch of its trunk and limbs, a bronze sculpture at the left edge, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/dub_020-weeping-cedar-tunnel-of-glasnevin.jpg",
+        "taken_month": 5,
+        "taken_month_basis": "pale fresh new shoots on the weeping cedar and young leaves on the tree beside it: spring (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

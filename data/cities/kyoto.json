@@ -308,6 +308,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/kyo_006-the-camphor-of-munakata-shrine-closeup.jpg",
+          "taken_month_basis": "evergreen camphor in green leaf, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -904,6 +905,7 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (cf563122-313c-4d9c-9098-bf01cbb35a5a) with a GPS fix. Photograph viewed: the whole camphor, a dense round evergreen crown wider than it is tall, inside a raised circular lawn ringed by posts, the brick clock tower rising behind it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Kyoto University‘s “Kusunoki” - Camphor Tree', species 'Camphor Tree', age '90 years'. Every figure on the page not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/kyo_020-camphor-of-the-kyoto-university-clock-tower.jpg",
+        "taken_month_basis": "evergreen camphor, nothing that plainly shows November (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

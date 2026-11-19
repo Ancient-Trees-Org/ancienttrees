@@ -33,6 +33,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/alg_001-the-tarzan-tree.jpg",
+        "taken_month_basis": "evergreen fig in leaf, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -46,6 +47,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/alg_001-the-tarzan-tree-extra1.jpg",
+          "taken_month_basis": "evergreen fig with aerial roots, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 session: readers' photos filed under their season
+
+- **What changed:** Hidde saw empty Seasons rows under a chestnut in copper leaf (Divonne-les-Bains) and cherries in blossom (Fukutsu). The reader judge writes photo blocks by hand, and its brief said only snow could set a month. 137 readers' photos outside the tropics had no `taken_month`.
+- **Done:** both trees filed (autumn, spring). Three photo-judge passes looked at the other 135: 32 dated (26 autumn, 6 spring), 103 show no season and say so in `taken_month_basis`. Lines inserted only, 169 lines across 93 city files.
+- **Rule:** BRIEF_READER_JUDGE.md widened (autumn colour, blossom, a send date that agrees). New qa check `check_a_reader_photo_is_filed_by_season()` refuses a reader's photo outside the tropics with neither field; verified red and green.
+- **Note:** many reader photos carry "(2026-09-04)" in their note, an import date and not the day they were sent; the passes did not use it.
+
 ## 2026-11-19 reader judge: nothing new to put live, two loose ends closed
 
 - **No new trees or photographs.** The queue is empty and there are no open reports or unjudged tips.

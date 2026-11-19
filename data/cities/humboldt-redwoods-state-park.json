@@ -91,6 +91,7 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree.jpg",
+        "taken_month_basis": "evergreen redwood trunk, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -104,6 +105,7 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-sign.jpg",
+          "taken_month_basis": "sign and ferns, no season shown (season pass, 2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

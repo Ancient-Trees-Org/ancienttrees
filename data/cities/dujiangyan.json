@@ -43,6 +43,7 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (6bb3d492-ea79-4b08-8f63-a66610632b47, 2026-11-16, through the app). Photograph viewed: a broad old ginkgo with mossy, fern-hung limbs behind a wooden fence and a carved stone balustrade in temple grounds, a visitor looking up under the crown at the right, a carved dragon pillar, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Ginkgo', species 'Ginkgo', age '1300 years old', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-17 reader judge: the same reader's note on the tree says 'LOCATION ON MAP IS A GUESS' and pastes a chatbot-style summary naming it the Zhang Song Ginkgo in Lidui Park; pin set approximate, the identification stated on the page as theirs and unconfirmed, the pasted text not quoted.",
       "photo": {
         "url": "https://ancienttrees.app/photos/djy_001-temple-ginkgo-of-dujiangyan.jpg",
+        "taken_month_basis": "plain green ginkgo leaf, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

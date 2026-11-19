@@ -151,6 +151,7 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (a51429ec-837e-4506-bd3b-c369efa44428, 2026-11-19, through the app). Photograph viewed: the fused red, stringy trunks of two cedars rising from moss and ferns, a wooden sign in front reading 母子杉 with girth, height and estimated age for mother and child; a second frame looks up the trunk into the crown. Daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Japanese Cedar near Yakushima', species 'Japanese Cedar', age '2600 years', girth 650 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/yak_003-hahakosugi-the-mother-and-child-cedar.jpg",
+        "taken_month_basis": "close look at the evergreen cedar's bark and its sign, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -197,6 +198,7 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (b894c217-92b1-4bdd-9353-6e36ef8f210f, 2026-11-19, through the app). Photograph viewed: a great banyan whose pale aerial roots form an arch over a narrow village lane, a tiled roof and a small concrete building seen through it, wet tarmac, overcast daylight, colour (the frame without a person in it). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Indian Banyan near Yakushima', species 'Indian Banyan', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/yak_004-nakama-banyan-gate.jpg",
+        "taken_month_basis": "evergreen banyan, no season shown (season pass, 2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

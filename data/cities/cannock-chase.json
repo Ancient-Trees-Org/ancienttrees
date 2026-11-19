@@ -159,6 +159,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/cnk_004-the-plaited-birch-of-brocton.jpg",
+        "taken_month": 4,
+        "taken_month_basis": "small pale fresh birch leaves just opening, open bare woodland floor: spring (season pass, 2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
