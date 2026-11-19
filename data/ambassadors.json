@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-19T10:25Z",
+  "synced": "2026-11-19T12:44Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -104,12 +104,12 @@
       "profile_public": true
     },
     {
-      "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
-      "place_slug": "london",
-      "place_name": "London",
+      "user_id": "7f9fe18b-1b1c-42c0-b11d-4be425f0cfd0",
+      "place_slug": "auckland",
+      "place_name": "Auckland",
       "public": true,
       "since": "2026-11-15",
-      "display_name": "Golden Fig 0074",
+      "display_name": "Natty Ice",
       "profile_public": true
     },
     {
@@ -122,12 +122,12 @@
       "profile_public": true
     },
     {
-      "user_id": "7f9fe18b-1b1c-42c0-b11d-4be425f0cfd0",
-      "place_slug": "auckland",
-      "place_name": "Auckland",
+      "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
+      "place_slug": "london",
+      "place_name": "London",
       "public": true,
       "since": "2026-11-15",
-      "display_name": "Natty Ice",
+      "display_name": "Golden Fig 0074",
       "profile_public": true
     },
     {
@@ -227,6 +227,15 @@
       "public": true,
       "since": "2026-11-19",
       "display_name": "kubacho c.",
+      "profile_public": true
+    },
+    {
+      "user_id": "827bb1ce-c12e-4501-aebb-bd63706ed385",
+      "place_slug": "york",
+      "place_name": "York",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "Laurie C.",
       "profile_public": true
     },
     {
@@ -1633,6 +1642,13 @@
       "user_id": "p_fdf05702bb8b7818e0c98b4d",
       "place_slug": "gdansk",
       "place_name": "Gdansk",
+      "date": "2026-11-19"
+    },
+    {
+      "row": 1257,
+      "user_id": "p_01ea1753df5e9ff4dabdde36",
+      "place_slug": "york",
+      "place_name": "York",
       "date": "2026-11-19"
     }
   ],
