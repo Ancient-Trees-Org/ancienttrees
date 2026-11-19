@@ -28,7 +28,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 <!-- archive-index -->
 ## 2026-11-18 (previous UTC day)
 
-**Today: 8 android waitlist signups arrived today (996 total); 27 tree submissions and 36 feedback reports arrived today (470 submissions of every kind in all); 9 accounts were opened today (799 accounts in all).**
+**Today: 61 android waitlist signups arrived yesterday (2010 total); 14 tree submissions and 35 feedback reports arrived yesterday (470 submissions of every kind in all); 62 accounts were opened yesterday (801 accounts in all).**
 
 **North star: 227 people have uploaded a tree or photo of their own (+214 this week); 25 of them did it on more than one day (+21).**
 
