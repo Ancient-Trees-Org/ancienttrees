@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:13cfb80c-819a-4875-a382-2d95f3156bd8",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Adair Park Ginkgo",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/13CFB80C-819A-4875-A382-2D95F3156BD8.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Two photographs viewed 2026-11-19: the whole ginkgo in autumn gold by the picket fence of Adair Park, Decatur, daylight, colour. Lead photograph and one in the strip of atlanta/atl_012."
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -94,6 +106,78 @@
    },
    "verdict": "publish",
    "reason": "Four photographs viewed: the whole kapok on its buttresses by the Lake Trail, GPS fix beside it; Florida's state champion kapok (FFS register PK 1124). Live as palm-beach/pbh_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2d8363ff-5a96-4d90-af36-bb86771d64dc",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cosgrove House Banyan",
+   "city": "Key West",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/2d8363ff-5a96-4d90-af36-bb86771d64dc.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 15,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the whole Cosgrove House banyan from the Whitehead Street sidewalk, aerial-root pillars, the house and marker behind; added as the lead photo, the earlier reader photo stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7d406ac5-86cd-4e9b-bb12-0d096bb70555",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Kapok Tree",
+   "city": "Key West",
+   "species": "Kapok (Ceiba pentandra)",
+   "photo": "out/sightings/7d406ac5-86cd-4e9b-bb12-0d096bb70555.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 10,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kapok (Ceiba pentandra)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the Jackson Square kapok's buttressed foot with the courthouse behind, species and setting match; added as the lead photo, the earlier one stays in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:13cfb80c-819a-4875-a382-2d95f3156bd8",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Adair Park Ginko",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/13CFB80C-819A-4875-A382-2D95F3156BD8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "publish",
+   "reason": "Looked at both photos: a big single-trunked ginkgo in full autumn gold at the edge of Adair Park, Decatur, GPS fix at the tree; live as atlanta/atl_012 under the closed list.",
    "hidde": null,
    "agreed": null
   },

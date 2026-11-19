@@ -2,7 +2,7 @@
   "city": "Atlanta",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Trees Atlanta keeps a list of the city's biggest trees, and its champions turn up in odd places, beside the drive to a tennis centre, on the pavement outside the High Museum, leaning over the BeltLine path, in a private yard in Poncey-Highland. These eleven trees come from that list. The tallest, a tulip tree in Atlanta Memorial Park, was measured at 50.6 metres. The oldest by its own account is the Grandfather Beech in southwest Atlanta, which Atlanta Magazine dates to 1863. Most are free to see.",
+  "intro": "Trees Atlanta keeps a list of the city's biggest trees, and its champions turn up in odd places, beside the drive to a tennis centre, outside the High Museum, leaning over the BeltLine path. Eleven trees here come from that list, and a reader sent us a twelfth, a ginkgo in Decatur's Adair Park. The tallest, a tulip tree in Atlanta Memorial Park, was measured at 50.6 metres. The oldest by its own account is the Grandfather Beech, which Atlanta Magazine dates to 1863. Most are free to see.",
   "meta_description": "Atlanta's champion trees, from a 50.6-metre tulip tree by a tennis centre to the Grandfather Beech and the ginkgo outside the High Museum.",
   "question_meta": "The oldest tree on Atlanta's list is the Grandfather Beech, dated to 1863 by Atlanta Magazine. An Oakland Cemetery magnolia dates from after the Civil War.",
   "question_answer": "The oldest tree on this Atlanta list is the Grandfather Beech at the Outdoor Activity Center in southwest Atlanta, which Atlanta Magazine dates to 1863, about 160 years ago, though it gives no basis for the year. Close behind is a southern magnolia in Oakland Cemetery that a Confederate soldier's brother planted after the Civil War, and which now holds up the soldier's leaning gravestone. Most of the city's other champion trees have never been dated.",
@@ -420,6 +420,70 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "atl_012",
+      "name": "The Adair Park Ginkgo",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "location": {
+        "address": "Adair Park, West Trinity Place, Decatur, Georgia",
+        "latitude": 33.772505,
+        "longitude": -84.305305,
+        "neighbourhood": "Decatur"
+      },
+      "how_to_recognise": "A tall single-trunked ginkgo standing just inside the white picket fence at the edge of Adair Park, a small sign on two posts beside it, white clapboard buildings behind.",
+      "access": "Free. A public city park in Decatur, about 9 km east of downtown Atlanta; the tree is also seen from the street.",
+      "best_time": {
+        "months": [
+          11
+        ],
+        "label": "Gold leaves in early November",
+        "kind": "autumn colour"
+      },
+      "verified_sources": [
+        "https://dekalbhistory.org/blog-posts/decaturs-long-time-leafy-residents/ (DeKalb History Center, Trees of Decatur: the DeKalb Historical Society complex is in Adair Park; the setting only, it does not name this ginkgo)"
+      ],
+      "story": "Every autumn this ginkgo in Decatur's Adair Park turns the colour of butter, and a reader who passed it at its peak sent us two photographs with a GPS fix taken on the lawn beneath it.\n\nGinkgos keep their green late and then go gold almost all at once, and that is the moment the pictures catch. The tree stands just inside a white picket fence at the edge of the park, one thick, straight, furrowed trunk rising clear of the grass before it breaks into long upswept limbs. Half the crown is still green at the tips, half already yellow, and the lawn around the trunk is carpeted with the small fan-shaped leaves it has dropped. Behind it stand white clapboard buildings; Adair Park holds the DeKalb Historical Society's complex of restored old houses and log cabins.\n\nA sign stands beside the tree, but we cannot read it in the photographs, and we have no girth, height or planting date for this ginkgo. If you know what the sign says, or who planted the tree, tell us here and we will put it on the page.\n\nGo in the first weeks of November, and look for it from the street side, where the fence curves round the trunk.",
+      "found_by_reader": {
+        "sighting_id": "13cfb80c-819a-4875-a382-2d95f3156bd8",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "13cfb80c-819a-4875-a382-2d95f3156bd8",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (13cfb80c-819a-4875-a382-2d95f3156bd8). Photographs viewed: the whole ginkgo from the park lawn in full autumn gold, a thick straight trunk by a white picket fence, fallen yellow leaves over the grass, white clapboard buildings behind, blue sky, daylight, colour; a second frame from the street side shows the same tree with an interpretive sign beside it. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry within 100 m and no source names this ginkgo; the DeKalb History Center's dedicated ginkgo stands at the Old Courthouse, not here. Reader's name for it: 'Adair Park Ginko', species 'Ginkgo'.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/atl_012-adair-park-ginkgo.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "13cfb80c-819a-4875-a382-2d95f3156bd8",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole ginkgo from the park lawn in full autumn gold, a thick straight trunk by a white picket fence, fallen yellow leaves over the grass, white clapboard buildings behind, blue sky, daylight, colour; a second frame from the street side shows the same tree with an interpretive sign beside it. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/atl_012-adair-park-ginkgo-extra1.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+          "sighting_id": "13cfb80c-819a-4875-a382-2d95f3156bd8",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole ginkgo from the park lawn in full autumn gold, a thick straight trunk by a white picket fence, fallen yellow leaves over the grass, white clapboard buildings behind, blue sky, daylight, colour; a second frame from the street side shows the same tree with an interpretive sign beside it. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

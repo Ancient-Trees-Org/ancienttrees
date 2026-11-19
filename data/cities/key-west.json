@@ -128,18 +128,33 @@
       "curation_status": "flagged",
       "verify_notes": "Pin: OSM natural=tree node 9395545457 named 'The Kapok Tree' (24.5547564,-81.8038174); the OSM address point 502 Whitehead St sits about 40 m north, so the pin is the tree node, not the address. Age: WLRN (2024-04-01, courthouse hardening story) says 'In 1900, a kapok tree was planted at Jackson Square. The giant, beautiful tree still stands today and draws people in for photos daily' and that it will not be disturbed by construction. Florida Keys tourism board (Whitehead Street walk page): trunk circumference 'more than 30 feet' (girth_cm 914 is that figure, a lower bound; buttressed trunk), 'estimated to be more than 100 years old', 'one of the country's most famous Kapok trees', pink and white flowers spring and summer, a sign marks the spot. A search summary claimed a 2018 survey dates it 1905; that PDF (williamvdavidson.com, The Kapoks of Key West 2018) could not be read, so it is NOT used; 1900 vs 1905 is an unresolved possible discrepancy. Alive: lifecheck RECENT, iNaturalist observation 2026-11-10 at the pin (https://www.inaturalist.org/observations/414403808). Two sources plus OSM. Same walk as kyw_004 (about 250 m).",
       "photo": {
-        "url": "https://ancienttrees.app/photos/kyw_003-the-kapok-tree.jpg",
+        "url": "https://ancienttrees.app/photos/kyw_003-the-kapok-tree-7d406ac5.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "taken_month": 9,
+        "taken_month": 6,
         "source": "contributor",
-        "contributor_user_id": "p_f0fa897174bc50999a318322",
-        "sighting_id": "b9f7a4d7-2a41-4d1b-9794-955f39d4951a",
-        "note": "Photographed by a reader and sent through the app (2026-09-29); a viewing pass approved it on 2026-11-16: Kapok with buttress roots and its own sign, in front of the courthouse; fills the frame Species seen: Kapok (Ceiba pentandra), smooth grey trunk, big buttresses, palmate leaves. Fits the description: buttressed trunk beside the interpretive sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "7d406ac5-86cd-4e9b-bb12-0d096bb70555",
+        "note": "Photographed by a reader and sent through the app (2026-06-25); a viewing pass approved it on 2026-11-19: The Jackson Square kapok close up, its huge buttressed foot and the limbs spreading above, the Monroe County courthouse's brick front and white cupola behind, daylight, colour. A stronger frame of the trunk than the lead. Species seen: smooth grey trunk with tall flared buttress roots, palmately compound leaves: Kapok (Ceiba pentandra). Fits the description: a buttressed trunk on the lawn beside the courthouse, the white sign board at the left, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kyw_003-the-kapok-tree.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_f0fa897174bc50999a318322",
+          "sighting_id": "b9f7a4d7-2a41-4d1b-9794-955f39d4951a",
+          "note": "Photographed by a reader and sent through the app (2026-09-29); a viewing pass approved it on 2026-11-16: Kapok with buttress roots and its own sign, in front of the courthouse; fills the frame Species seen: Kapok (Ceiba pentandra), smooth grey trunk, big buttresses, palmate leaves. Fits the description: buttressed trunk beside the interpretive sign.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "kyw_004",
@@ -169,17 +184,17 @@
       "curation_status": "flagged",
       "verify_notes": "Age: Key West Historic Marker Tour (marker at 323 Whitehead, page copyright 2018): the house is 'literally overshadowed by a landscaping decision Myrtle Cosgrove, the Captain's wife, made a century ago'; she planted a banyan for shade when Key West was not lush and fresh water came from cisterns. The Banyan Resort's own history page: the front yard contains 'one of the two expansive Banyan Trees on this property which was planted in the early 1900s by Captain Cosgrove's wife, Myrtle'; a second, 'the largest Banyan Tree on the property', stands in the gardens behind (not assessed). The two sources agree on planting by Myrtle Cosgrove in the early 1900s (the resort is the owner of the ground; the marker tour is independent). Species given only as 'banyan' (a strangling fig, genus Ficus), not narrowed. Alive: lifecheck RECENT, iNaturalist observation 2026-05-31 near the address (https://www.inaturalist.org/observations/367213402). Pin is the OSM address point for 323 Whitehead, not the trunk; stays approximate; small-site rule (hotel front yard seen from the street). No girth or height found. About 250 m from the Kapok Tree.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/kyw_004-the-cosgrove-house-banyan.jpg",
+        "url": "https://ancienttrees.app/photos/kyw_004-the-cosgrove-house-banyan-2d8363ff.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
-        "height": 1600,
+        "width": 1600,
+        "height": 1200,
         "taken_month": 6,
         "source": "contributor",
-        "contributor_user_id": "p_7e21a8af508342f4f54fe87c",
-        "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
-        "note": "Photographed by a reader and sent through the app (2023-06-30); a viewing pass approved it on 2026-11-17: A banyan's crown and curtain of aerial roots seen from the street, the pale house behind on the right; the tree had no photograph. Species seen: Ficus with dozens of hanging aerial roots grown into pillar trunks, small oval leaves. Fits the description: a big banyan in a front yard with the house just behind it, palms below, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "2d8363ff-5a96-4d90-af36-bb86771d64dc",
+        "note": "Photographed by a reader and sent through the app (2026-06-26); a viewing pass approved it on 2026-11-19: The whole Cosgrove House banyan from the Whitehead Street sidewalk: a curtain of aerial-root pillars under a wide crown, the white house with green shutters and the historic marker behind, daylight, colour. Species seen: dozens of hanging aerial roots grown into pillar trunks, small oval glossy leaves: a banyan fig (Ficus). Fits the description: a banyan in the front yard of the white Banyan resort house on Whitehead Street, seen from the public sidewalk, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "pin_source": {
         "kind": "reader GPS fix",
@@ -187,7 +202,22 @@
         "moved_m": 57,
         "date": "2026-11-17",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kyw_004-the-cosgrove-house-banyan.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_7e21a8af508342f4f54fe87c",
+          "sighting_id": "363d64d1-dbb9-42e1-bc2c-3b17d23f1829",
+          "note": "Photographed by a reader and sent through the app (2023-06-30); a viewing pass approved it on 2026-11-17: A banyan's crown and curtain of aerial roots seen from the street, the pale house behind on the right; the tree had no photograph. Species seen: Ficus with dozens of hanging aerial roots grown into pillar trunks, small oval leaves. Fits the description: a big banyan in a front yard with the house just behind it, palms below, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "kyw_005",

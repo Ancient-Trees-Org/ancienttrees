@@ -6847,6 +6847,38 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "palm-beach/pbh_001"
+  },
+  {
+   "sighting_id": "13cfb80c-819a-4875-a382-2d95f3156bd8",
+   "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+   "mine": false,
+   "name": "Adair Park Ginko",
+   "unsure_among": null,
+   "species": "Ginkgo",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 33.772505,
+   "longitude": -84.305305,
+   "near": null,
+   "photo": "p_57c98e1ef3e54e44a10e0ab7/13CFB80C-819A-4875-A382-2D95F3156BD8.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/13cfb80c-819a-4875-a382-2d95f3156bd8-extra-1.jpg"
+   ],
+   "nearest_published_m": 1696,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole ginkgo from the park lawn in full autumn gold, a thick straight trunk by a white picket fence, fallen yellow leaves over the grass, white clapboard buildings behind, blue sky, daylight, colour; a second frame from the street side shows the same tree with an interpretive sign beside it. Live as atlanta/atl_012 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "atlanta/atl_012"
   }
  ]
 }
