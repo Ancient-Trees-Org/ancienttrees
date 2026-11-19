@@ -16,3 +16,26 @@ A reader adds a tree (app camera, website form, or a tip in words) -> the reader
 | The reader replies by mail to any mail above | Filed as a feedback row within about 15 minutes (reader_mail_replies.py, in the reader judge); the judge re-opens a held tree with the new fact, or puts an age or story on the page; anything else reaches Hidde in the digest | No mail from the run; Hidde answers general feedback himself | covered (2026-11-18) |
 
 Across every row: the one-week rest per address (mailer.py) can hold a mail back by days.
+
+## Every mail a reader can get
+
+Hidde, 2026-11-19: "geef me ook een visualisatie van alle het mailverkeer waar een gebruiker mee kan dealen". Read from the sending scripts that day. A new reader mail, or a change to when one goes, updates this table in the same change.
+
+| Moment | Subject | When | Who sends | Script |
+|---|---|---|---|---|
+| Account | Welcome to Ancient Trees | After creating an account | automatic | supabase/functions/send-email |
+| Account | Sign-in link or code, password reset, confirm new address | Only when they ask for it | automatic | supabase/functions/send-email |
+| New tree | Your tree is on Ancient Trees | Tree goes live; asks for what is missing (age, trunk, story); P.S. ambassador when the place has none | automatic | scripts/tree_approved.py |
+| New tree | Your trees are on Ancient Trees | Several of their trees go live close together: one bundled mail with every link (since 2026-11-15) | automatic | scripts/tree_approved.py |
+| New tree | About what you sent us: ... (hold mail) | Held for a fixable reason: says what would put it live; a bad photo asks about the tree (2026-11-18) | reader judge | scripts/hold_reply.py, sent by contributor_reply.py |
+| New tree | About what you sent us: ... (question) | A tip without a photo, when one fact would settle it | reader judge | contributor_reply.py |
+| Photo on our tree | Your photo is on the page of ... | Their first photo goes live: at once | automatic | scripts/sightings_publish.py |
+| Photo on our tree | Your photos are on the trees' pages | Later photos: bundled, at most once a week | automatic | scripts/sightings_publish.py |
+| Report | About what you sent us: ... (thank-you) | A report with no words of their own (dead tree, pin moved) | reader judge | tree_reports.py --thank |
+| Feedback | A reply in Hidde's words | Feedback form, or a report with their own words: only on his yes | Hidde | a session, contributor_reply.py |
+| Ambassador | Your {place} trees (invitation) | Photos of two trees in one place; once per person and place; badge with it | automatic | scripts/ambassador.py |
+| Ambassador | Looking after {place} | They ask to become ambassador: questions and badge within about 15 minutes | automatic | scripts/ambassador.py --requests |
+| Ambassador | New on the {place} list | Ambassadors only: new trees in their place | automatic | scripts/ambassador.py --heads-up |
+| Their reply | (comes back in) | Any reply to the mails above becomes a feedback row within about 15 minutes; the judge acts or it reaches Hidde | reader judge | scripts/reader_mail_replies.py |
+
+Across every mail: at most one per address in seven days, except a reply in their own thread (mailer.py); no App Store link (mailcheck.py). The templated "we received your tip" thank-you is off (`THANK_YOU = False`, Hidde 2026-10-02), so a reader hears nothing between sending and live, held or a question.
