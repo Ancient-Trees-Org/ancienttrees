@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-17T18:24Z",
+  "synced": "2026-11-19T10:25Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -218,6 +218,15 @@
       "public": true,
       "since": "2026-11-17",
       "display_name": "daninegyeri",
+      "profile_public": true
+    },
+    {
+      "user_id": "f73e92aa-f513-4fee-be90-eb0402939a78",
+      "place_slug": "gdansk",
+      "place_name": "Gdansk",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "kubacho c.",
       "profile_public": true
     },
     {
@@ -1618,6 +1627,13 @@
       "place_slug": "budapest",
       "place_name": "Budapest",
       "date": "2026-11-17"
+    },
+    {
+      "row": 1249,
+      "user_id": "p_fdf05702bb8b7818e0c98b4d",
+      "place_slug": "gdansk",
+      "place_name": "Gdansk",
+      "date": "2026-11-19"
     }
   ],
   "told": {
