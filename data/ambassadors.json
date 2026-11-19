@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-19T12:44Z",
+  "synced": "2026-11-19T13:25Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -59,6 +59,15 @@
       "profile_public": true
     },
     {
+      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
+      "place_slug": "pamplona",
+      "place_name": "Pamplona",
+      "public": true,
+      "since": "2026-11-02",
+      "display_name": "Mikel B.",
+      "profile_public": true
+    },
+    {
       "user_id": "154c94b7-0841-4161-bcab-47405b9a8051",
       "place_slug": "paris",
       "place_name": "Paris",
@@ -74,15 +83,6 @@
       "public": true,
       "since": "2026-11-02",
       "display_name": "William G.",
-      "profile_public": true
-    },
-    {
-      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
-      "place_slug": "pamplona",
-      "place_name": "Pamplona",
-      "public": true,
-      "since": "2026-11-02",
-      "display_name": "Mikel B.",
       "profile_public": true
     },
     {
@@ -104,15 +104,6 @@
       "profile_public": true
     },
     {
-      "user_id": "7f9fe18b-1b1c-42c0-b11d-4be425f0cfd0",
-      "place_slug": "auckland",
-      "place_name": "Auckland",
-      "public": true,
-      "since": "2026-11-15",
-      "display_name": "Natty Ice",
-      "profile_public": true
-    },
-    {
       "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
       "place_slug": "edinburgh",
       "place_name": "Edinburgh",
@@ -128,6 +119,15 @@
       "public": true,
       "since": "2026-11-15",
       "display_name": "Golden Fig 0074",
+      "profile_public": true
+    },
+    {
+      "user_id": "7f9fe18b-1b1c-42c0-b11d-4be425f0cfd0",
+      "place_slug": "auckland",
+      "place_name": "Auckland",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Natty Ice",
       "profile_public": true
     },
     {
@@ -236,6 +236,24 @@
       "public": true,
       "since": "2026-11-19",
       "display_name": "Laurie C.",
+      "profile_public": true
+    },
+    {
+      "user_id": "cc8588b8-f264-4f34-9c63-7b45b2fb67f3",
+      "place_slug": "reno-valdieu",
+      "place_name": "Réno-Valdieu",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "Michèle G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "970ee2a0-056c-47a4-b75a-b57d9b72301e",
+      "place_slug": "brisbane",
+      "place_name": "Brisbane",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "Olivia B.",
       "profile_public": true
     },
     {
@@ -1649,6 +1667,20 @@
       "user_id": "p_01ea1753df5e9ff4dabdde36",
       "place_slug": "york",
       "place_name": "York",
+      "date": "2026-11-19"
+    },
+    {
+      "row": 1262,
+      "user_id": "p_c9765344949caacaeb63dbf7",
+      "place_slug": "reno-valdieu",
+      "place_name": "Réno-Valdieu",
+      "date": "2026-11-19"
+    },
+    {
+      "row": 1263,
+      "user_id": "p_48cd024c76fcb12fe2d458cc",
+      "place_slug": "brisbane",
+      "place_name": "Brisbane",
       "date": "2026-11-19"
     }
   ],
