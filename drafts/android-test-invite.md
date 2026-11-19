@@ -11,6 +11,15 @@ Two waves, agreed in chat the same evening:
 2. The other ~1,700 a few days later, with the build that fixes what wave 1
    found. Spread over several days to stay under the sending limits.
 
+**WAVE 2 SENT IN PART, 2026-11-19:** Play's list now holds 474 (wave 1's
+172, Lisa and Genziana from the private tester list, and the first 300 of
+wave2.csv; Play refused 400 and 500 at once, so a bad address sits in
+wave2.csv lines 301 to 400). Mailed: 230 of those 300 through Gmail; the
+day's cap held the rest. **Send the remainder on 2026-11-20**, same command:
+`OUTREACH_DAILY_CAP=400 python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-wave2-2026-11-19.json --send`
+(it skips everyone already sent). Lisa and Genziana get a personal reply in
+their own thread, not this text (they did not sign up for the waitlist).
+
 **WAVE 2, agreed 2026-11-19 (Hidde: "shouldnt we invite more?", then "ok"):**
 the next 500 Gmail addresses, newest first, in out/play/wave2.csv (gitignored,
 built by out/tmp/wave2_csv.py; 543 Gmail addresses remain after it). Only
