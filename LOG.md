@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: bookkeeping after the night run, nothing new on the site
+
+- The intake had re-queued 14 photographs main had already judged (Gdansk, Melbourne); the checkout was four commits behind. Took main's queue and judgements, nothing lost.
+- The two Ivy Elm photographs (gda_012, retired as fallen this morning) looked at: both show the fallen trunk, one with its Pomnik Przyrody plaque in snow. Rejected through `sightings_publish.py`; 37c5fd05a's message said this was done but no file carried it.
+- Records fixed so the intake does not re-queue them: the Palheiro stone pine sighting (live as madeira/mdr_012) set `published` in sightings-processed (it said `lead`); the Palheiro dragon trees (young plants by the road, `not_special`, photo looked at again, agreed) set `held`. Written verdicts for all four in judgements.json.
+- mdr_012's note closed in `reader_words.py`: it is the estate's sign copied out, not the reader's own words, and its facts are already on the page as the sign's.
+- Left for the next run: lead 3c544597 (Amsterdam, "not sure which tree", near ams_032), from one of our own accounts (`mine`), photograph not on disk. Not judged blind.
+- No open reports, no feedback without a verdict.
+
 ## 2026-11-19 night run (rung 1): Palheiro stone pines live, Gdansk photographs, the fallen Ivy Elm retired
 
 - New in the product: **The Stone Pines of Palheiro** (Madeira, mdr_012), a reader's photograph with GPS fix, age (planted 1837) stated as the estate sign's claim, Portuguese overlay extended. The reader's Madeira dragon-tree photo is held as `not_special` (young plants on a roadside viewpoint), GPS kept.

@@ -5186,11 +5186,11 @@
    "pin_checked": "2026-11-19"
   },
   "f8d4d7f9-5ca6-429d-8016-d34ff35182f8": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-19"
   },
   "81ff86ab-2b28-43b7-81be-d71c2fcdce88": {
-   "outcome": "lead",
+   "outcome": "held",
    "date": "2026-11-19"
   },
   "29f56212-ae72-4f86-ba3f-0a71803945bf": {
@@ -5294,6 +5294,18 @@
    "lat": -37.78732,
    "lon": 144.981761666667,
    "pin_checked": "2026-11-19"
+  },
+  "d9d15daa-a0a3-49f1-bf0e-a0d9829d84a6": {
+   "outcome": "rejected",
+   "date": "2026-11-19",
+   "tree_id": "gda_012",
+   "reason": "Looked: the Ivy Elm lying fallen and hollow under a walnut, ivy over the log; gda_012 was retired as fallen on 2026-11-19, so there is no live tree for it to go on"
+  },
+  "f261cbe2-99af-4783-9aa0-bbe079002399": {
+   "outcome": "rejected",
+   "date": "2026-11-19",
+   "tree_id": "gda_012",
+   "reason": "Looked: the fallen trunk in snow with its Pomnik Przyrody plaque; gda_012 was retired as fallen on 2026-11-19, so there is no live tree for it to go on"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
