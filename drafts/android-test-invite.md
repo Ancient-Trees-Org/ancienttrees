@@ -11,6 +11,15 @@ Two waves, agreed in chat the same evening:
 2. The other ~1,700 a few days later, with the build that fixes what wave 1
    found. Spread over several days to stay under the sending limits.
 
+**WAVE 2, agreed 2026-11-19 (Hidde: "shouldnt we invite more?", then "ok"):**
+the next 500 Gmail addresses, newest first, in out/play/wave2.csv (gitignored,
+built by out/tmp/wave2_csv.py; 543 Gmail addresses remain after it). Only
+once version 3 (the Google Maps fix) is approved on the Alpha track. Steps: add
+the 500 to "Ancient Trees testers" (a CSV replaces the list, so upload
+wave1 list + wave2 together, in steps, leaving out any chunk Play refuses),
+build a batch from exactly what Play accepted, same text, kind expected,
+send. Non-Gmail addresses wait for the public launch mail.
+
 **SENT 2026-11-19, on Hidde's "stuur maar gewoon uit":** 100 of the 172 went
 out on 2026-11-19, and the other 68 the same afternoon through Gmail on his "kunnen we niet gewoon via gmail sturen?" (batch kind expected, OUTREACH_DAILY_CAP=200 for that run). Batch drafts/batches/android-test-invite-2026-11-19.json, gitignored,
 every send in the private data/outreach-sent.json). Re-running the batch skips everyone already sent: `python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-2026-11-19.json --send`
