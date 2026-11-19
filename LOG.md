@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-19 reader judge (parallel run): Serenbe access made honest, one doubt on the Anseman strip photo
+- This run judged the same six sightings as the two runs below, in parallel, and reached the same verdicts on all but one; their versions are kept and mine dropped before push. Three reader-judge runs at once on one reader's batch: the trigger fired per sighting.
+- **Serenbe (srb_001, srb_002)**: Serenbe's own trails page says the trails are for residents and Inn at Serenbe guests and open to the public only at the twice-yearly Serenbe Trail Race. Access lines, question_context and the "Can I visit them?" FAQ now say that instead of "not confirmed", with the page as a source.
+- **Doubt, left as it is: the second Anseman Oak photo (f37a9e16, in nol_002's strip).** Its GPS is 126 m from the Anseman's own reader-GPS pin, and the trunk is smooth and forked where the lead photo shows a mass of burls; I think it is another City Park oak. A strip photo, so low harm. A later run or session with a second view can decide: `sightings_publish.py --unstrip f37a9e16-ce5b-48ab-a115-8f435303f92e`, then judge it as a new tree.
+
 ## 2026-11-19 reader judge: two Serenbe trees, two New Orleans photographs
 - **Live: serenbe/srb_001 Grandfather Pine and srb_002 Grandmother Beech** (new place in Chattahoochee Hills, Georgia, added to data/us-states.json). One reader's two photographs, both viewed, each with a GPS fix at the tree; pin confirmed. The pine is a loblolly with a candelabra crown among straight ones; the beech leans over a small waterfall. No age or girth anywhere, and the pages ask. Access says plainly we have not confirmed which paths are open.
 - **New Orleans:** the McDonogh Oak's held lead photograph is replaced by the reader's (daylight, the propped crown); the Anseman Oak already had the reader's photograph in its strip, so it stays there. Preflight flagged a colon reveal in the McDonogh Oak's older story and it is rewritten.
