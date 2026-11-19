@@ -25,6 +25,7 @@ Hidde, 2026-11-19: "geef me ook een visualisatie van alle het mailverkeer waar e
 |---|---|---|---|---|
 | Account | Welcome to Ancient Trees | After creating an account | automatic | supabase/functions/send-email |
 | Account | Sign-in link or code, password reset, confirm new address | Only when they ask for it | automatic | supabase/functions/send-email |
+| Account | The same sign-in mail again, when an email sign-up never got in | An hour later; signed-only addresses once more after midnight UTC; never a third time | automatic | scripts/signin_watch.py (knock) |
 | New tree | Your tree is on Ancient Trees | Tree goes live; asks for what is missing (age, trunk, story); P.S. ambassador when the place has none | automatic | scripts/tree_approved.py |
 | New tree | Your trees are on Ancient Trees | Several of their trees go live close together: one bundled mail with every link (since 2026-11-15) | automatic | scripts/tree_approved.py |
 | New tree | About what you sent us: ... (hold mail) | Held for a fixable reason: says what would put it live; a bad photo asks about the tree (2026-11-18) | reader judge | scripts/hold_reply.py, sent by contributor_reply.py |

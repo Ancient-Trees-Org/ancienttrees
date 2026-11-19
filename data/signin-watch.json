@@ -1,0 +1,49 @@
+{
+ "note": "Accounts whose sign-in mail was sent again (scripts/signin_watch.py). Codes, never addresses.",
+ "retried": {
+  "p_8f50e92ec5872fc05906862a": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_05fe848e7d77144ff59fed68": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_6bd29799df43f270aeeaeb51": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_a8d180e30660de51afc74d54": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_f2c11918e72c8cef7c6823a8": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_d505d407ff0b5becdf30052c": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_ff12bc736efb18c9c8a7c1d7": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_6552a767d5a4a5f7d1bc3a1b": {
+   "tries": [
+    "2026-11-19T15:36+00:00"
+   ]
+  },
+  "p_dc92faa465bd97f3fbabf0b0": {
+   "tries": [],
+   "undeliverable": "2026-11-19T14:00"
+  }
+ }
+}

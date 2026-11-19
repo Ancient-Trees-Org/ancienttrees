@@ -59,7 +59,7 @@ def msg(to):
     return m
 
 
-def run(kind, tos, behaviour, env=ENV):
+def run(kind, tos, behaviour, env=ENV, resend_left=None):
     sent.clear()
     Fake.behaviour = behaviour
     with mock.patch.object(smtplib, "SMTP", Fake), mock.patch.dict(os.environ, env, clear=False), \
@@ -68,7 +68,7 @@ def run(kind, tos, behaviour, env=ENV):
         if not env:
             for k in ENV:
                 os.environ.pop(k, None)
-        s = mailer.connect(CREDS, kind=kind)
+        s = mailer.connect(CREDS, kind=kind, resend_left=resend_left)
         for t in tos:
             s.send_message(msg(t))
         s.quit()
@@ -76,6 +76,14 @@ def run(kind, tos, behaviour, env=ENV):
 
 
 fails = 0
+
+
+def _raises(fn):
+    try:
+        fn()
+    except smtplib.SMTPResponseException:
+        return True
+    return False
 
 
 def expect(name, got, want):
@@ -103,6 +111,17 @@ expect("gmail down: expected mail via resend",
 expect("no resend configured: yahoo via gmail",
        run(mailer.EXPECTED, [B_YAHOO], {}, env={}),
        [("gmail", B_YAHOO)])
+expect("reserve: strangers use their share of resend, then gmail; yahoo keeps resend",
+       run(mailer.FIRST, ["a@x.org", "b@y.org", B_YAHOO, "c@z.org"], {}, resend_left=1),
+       [("resend", "a@x.org"), ("gmail", "b@y.org"), ("resend", B_YAHOO), ("gmail", "c@z.org")])
+expect("reserve: share used up, gmail refusing raises rather than eat the reserve",
+       "raised" if _raises(lambda: run(mailer.FIRST, ["a@x.org"], {"gmail": "refuse"}, resend_left=0)) else "sent",
+       "raised")
+expect("reserve: share counted from the logged routes",
+       mailer.resend_left_for_strangers({"sent": [{"date": "d", "route": "resend"}] * 58
+                                                 + [{"date": "d", "route": "gmail"}] * 9
+                                                 + [{"date": "old", "route": "resend"}] * 50}, "d"),
+       2)
 try:
     run(mailer.FIRST, ["a@x.org"], {"resend": "refuse", "gmail": "refuse"})
     expect("both refuse: raises", "no error", "error")

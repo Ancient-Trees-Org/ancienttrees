@@ -321,13 +321,14 @@ def main():
             # waitlist addresses went as FIRST and filled Resend by 09:36;
             # Hidde: "dit wilde we dus niet"). Default stays FIRST: signed.
             kind = mailer.EXPECTED if batch.get("kind") == mailer.EXPECTED else mailer.FIRST
-            server = mailer.connect(creds, timeout=30, kind=kind)
-        server.send_message(msg, recent_ok=recent_ok or None)
+            server = mailer.connect(creds, timeout=30, kind=kind,
+                                    resend_left=mailer.resend_left_for_strangers(sent_log, today))
+        route = server.send_message(msg, recent_ok=recent_ok or None)
         if not m.get("in_reply_to"):
             sent_today += 1
         record = {"date": today, "to": to, "outlet": label,
                   "subject": m["subject"], "batch": batch.get("batch"),
-                  "via": "outreach_send"}
+                  "via": "outreach_send", "route": route}
         if (m.get("resend_reason") or "").strip():
             record["resend_reason"] = m["resend_reason"].strip()
         if m.get("in_reply_to"):

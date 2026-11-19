@@ -4453,6 +4453,11 @@ def main():
                 machine.append(t)
         except Exception as e:
             machine.append("%s: failed today (%s)." % (fn.__name__, str(e)[:90]))
+    try:  # sign-in mail sent again to people who never got in (2026-11-19)
+        import signin_watch
+        MACHINE.append(signin_watch.status_line())
+    except Exception:
+        pass
     if MACHINE:
         machine.append("**Search work lists**\n\n" + "\n".join(l for l in MACHINE if l is not None).strip())
     # The conclusion goes on top (Hidde, 2026-10-15), built last because it

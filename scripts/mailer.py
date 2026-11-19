@@ -161,8 +161,15 @@ class _Server:
     unsigned for our domain, so on a full day Yahoo bounces it; everyone else
     hears from us the same day."""
 
-    def __init__(self, creds=None, timeout=30, kind=FIRST):
+    def __init__(self, creds=None, timeout=30, kind=FIRST, resend_left=None):
         self._creds, self._timeout, self._kind = creds, timeout, kind
+        # RESEND'S RESERVE (Hidde, 2026-11-19, "ja graag", after a batch filled
+        # Resend's 100 a day and Yahoo's sign-in mail had nowhere to go): a mail
+        # that wants Resend only because it is a first mail to a stranger may
+        # use `resend_left` more of today's allowance, then goes through Gmail.
+        # Addresses that need a signed mail (Yahoo, Apple relay, BT) always get
+        # Resend; that is what the reserve is kept for. None = no limit.
+        self._resend_left = resend_left
         self._open_smtp = {}      # "resend" | "gmail" -> smtplib.SMTP
         self._dead = set()        # routes that refused or could not be reached
 
@@ -200,12 +207,18 @@ class _Server:
         if not msg["Message-ID"]:
             msg["Message-ID"] = make_msgid(domain="ancienttrees.app")
         order = ["resend", "gmail"] if wants_resend(to, self._kind) else ["gmail", "resend"]
+        needs_signed = on_yahoo(to) or on_apple_relay(to)
+        by_kind_only = order[0] == "resend" and not needs_signed
+        if by_kind_only and self._resend_left is not None and self._resend_left <= 0:
+            order = ["gmail"]  # the rest of Resend's day is the sign-in reserve
         last_refusal = None
         for name in order:
             if self._conn(name) is None:
                 continue
             try:
                 self._send(name, msg)
+                if name == "resend" and by_kind_only and self._resend_left is not None:
+                    self._resend_left -= 1
                 return name
             except _REFUSED as e:
                 print(f"mailer: {name} refused ({type(e).__name__} {str(e)[:120]}); trying the other route")
@@ -239,11 +252,23 @@ class _Server:
         self.quit()
 
 
-def connect(creds, timeout=30, kind=FIRST):
+RESEND_DAY = 100            # Resend's free plan
+RESEND_FOR_STRANGERS = 60   # the rest, 40, stays for signed sign-in mail
+
+
+def resend_left_for_strangers(sent_log, today):
+    """How many first mails to strangers may still go through Resend today,
+    read from the routes logged in data/outreach-sent.json (`route`)."""
+    used = sum(1 for s in sent_log.get("sent", [])
+               if s.get("date") == today and s.get("route") == "resend")
+    return max(0, RESEND_FOR_STRANGERS - used)
+
+
+def connect(creds, timeout=30, kind=FIRST, resend_left=None):
     """A sender for one batch. `kind` is FIRST for a first mail to a stranger
     (the default, signed) and EXPECTED for mail a person asked for or expects.
     Connections open on the first mail that needs them, so a machine without
     one of the two routes still sends through the other."""
     if not _resend_route() and not _gmail_route(creds):
         raise smtplib.SMTPServerDisconnected("no mail route configured on this machine")
-    return _Server(creds, timeout, kind)
+    return _Server(creds, timeout, kind, resend_left)
