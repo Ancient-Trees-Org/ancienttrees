@@ -18,7 +18,7 @@
     },
     {
       "q": "Are Kyoto's remarkable trees free to see?",
-      "a": "Most are. Fourteen of the eighteen stand in free precincts: Kyoto Gyoen, Nashinoki Shrine, Goo Shrine, Nishi Honganji, Imakumano Shrine, Kamigamo Shrine and Maruyama Park. The other four stand inside temples that charge general admission, not a tree-specific fee."
+      "a": "Most are. Fifteen of the nineteen stand in free precincts: Kyoto Gyoen, Nashinoki Shrine, Goo Shrine, Nishi Honganji, Imakumano Shrine, Kamigamo Shrine, Maruyama Park and the Kyoto University campus. The other four stand inside temples that charge general admission, not a tree-specific fee."
     },
     {
       "q": "Did any of Kyoto's remarkable trees start life as a bonsai?",
@@ -865,6 +865,54 @@
         "moved_m": 0,
         "date": "2026-10-05",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
+    },
+    {
+      "id": "kyo_020",
+      "name": "The Camphor of the Kyoto University Clock Tower",
+      "species": "Camphor Tree (Cinnamomum camphora)",
+      "age_estimate": "about 90 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "In front of the Clock Tower, Yoshida Campus, Kyoto University, Yoshida-honmachi, Sakyo-ku, Kyoto",
+        "latitude": 35.0257631217884,
+        "longitude": 135.780884376856,
+        "neighbourhood": "Sakyo"
+      },
+      "how_to_recognise": "The single huge camphor on the raised round lawn just inside the main gate, its dome of glossy leaves almost hiding the brick clock tower behind it.",
+      "access": "Free. On the Yoshida Campus of Kyoto University, a few steps inside the main gate on Higashiichijo-dori; visitors walk in, and the tree is seen from the gate too.",
+      "verified_sources": [
+        "https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000021/21615/sakyo04.pdf (City of Kyoto, protected and notable trees of Sakyo Ward: the camphor in front of the Kyoto University clock tower)",
+        "https://www.kyoto-u.ac.jp/kurenai/202011/yusan/index.html (Kyoto University, Kurenai magazine: the camphor spreading its branches before the clock tower is often taken as the symbol of the university)"
+      ],
+      "story": "\"This camphor tree, which stands tall in front of the clock tower at Kyoto University's Yoshida Campus, is the university's emblem and logo,\" wrote the reader who sent us this photograph with a GPS fix from the edge of its lawn.\n\nWalk through the main gate and it is the first thing you meet. One camphor stands on a raised round lawn, its crown a dense dome of glossy evergreen leaves so broad that it almost hides the brick clock tower behind it. The tower dates from the 1920s; the tree has grown up in front of it ever since, and the university's own magazine says that the camphor spreading its branches before the tower is the picture most often used for the university itself. The City of Kyoto lists it among the notable trees of Sakyo Ward.\n\nThe reader adds the history as the university tells it: planted in 1935, already five to ten years old, which makes it about 90 today. They also say the choice of a camphor was a nod to a Japanese phrase about a camphor-tree kind of scholarship, slow and lasting. Those details are theirs; we have not yet found them written down.\n\nStand at the gate first, then walk round the lawn to see how wide the crown really is.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "cf563122-313c-4d9c-9098-bf01cbb35a5a",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "cf563122-313c-4d9c-9098-bf01cbb35a5a",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (cf563122-313c-4d9c-9098-bf01cbb35a5a) with a GPS fix. Photograph viewed: the whole camphor, a dense round evergreen crown wider than it is tall, inside a raised circular lawn ringed by posts, the brick clock tower rising behind it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Kyoto University‘s “Kusunoki” - Camphor Tree', species 'Camphor Tree', age '90 years'. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kyo_020-camphor-of-the-kyoto-university-clock-tower.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 640,
+        "height": 641,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "cf563122-313c-4d9c-9098-bf01cbb35a5a",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the whole camphor, a dense round evergreen crown wider than it is tall, inside a raised circular lawn ringed by posts, the brick clock tower rising behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ],

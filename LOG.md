@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: two Japanese trees live (Kyoto University camphor, Miyajidake Shrine cherries), a Vilnius photo settled
+
+- **New reader tree live: The Camphor of the Kyoto University Clock Tower** (kyoto/kyo_020). It's the university's emblem tree, a huge round camphor on the lawn inside the main gate. The pin is the reader's GPS fix and their photograph is the lead. Kyoto city's notable-tree list and the university's Kurenai magazine are its sources. The 1935 planting and the "about 90 years" are the reader's figures and the page says so. Kyoto now has 19 trees, so the free-entry FAQ count changed in English and Japanese, and the Japanese overlay got the tree and its counts (17 → 18 others).
+- **New reader tree live: The Married Couple Cherry Trees of Miyajidake Shrine** (fukutsu/fkt_001, a new one-tree place in Fukuoka prefecture). They're two low, wide Okanzakura cherries on wooden crutches in the shrine courtyard, photographed in full blossom with a GPS fix. The shrine's own site gives about 200 years. This is the same Japan contributor as before; their note is quoted.
+- **A photo sent for the Sapiegos linden (vln_008)** shows an intact multi-stemmed park tree 243 m from our broken veteran, with the same GPS fix as this reader's earlier Vilnius photo. Verdict `other_tree`, and the new lead is held `not_special`. No mail.
+- Lead 3c544597 (Amsterdam) is one of our own photos (`mine`), so it is not a reader's to judge here.
+- No open reports, no feedback without a verdict, no reader words waiting.
+
 ## 2026-11-19 reader judge: The Bone Tree of Hatley goes live, two Vilnius photos settled
 
 - **New reader tree live: The Bone Tree of Hatley** (hatley/hat_001, a new one-tree place in South Cambridgeshire). It's a big old furrowed trunk that splits and joins again, at a farm-track fork on Buff Lane by a footpath fingerpost. The pin comes from the reader's GPS fix, and their photograph is the lead. In their note they call it a Dutch elm disease survivor and mention a fallow deer's leg bone wedged in a crack, which their second photo shows. Both are quoted on the page. Species shown as "Elm (Ulmus sp.)": the bark doesn't settle English elm (it could even be sweet chestnut), so the page asks readers.

@@ -1,0 +1,75 @@
+{
+  "city": "Fukutsu",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Fukutsu is a coastal city between Fukuoka and Kitakyushu, best known for Miyajidake Shrine and the long straight approach that runs from it to the sea. In the shrine's courtyard grow two old Okanzakura cherries, the married couple cherries, which the shrine puts at about 200 years. A reader sent us their photographs in full early-spring blossom, taken from beside the main hall.",
+  "meta_description": "The married couple cherries of Miyajidake Shrine in Fukutsu: two 200-year-old Okanzakura that flower in early spring, where they stand and when to go.",
+  "hero_tree_id": "fkt_001",
+  "oldest_tree_id": "fkt_001",
+  "trees": [
+    {
+      "id": "fkt_001",
+      "name": "The Married Couple Cherry Trees of Miyajidake Shrine",
+      "species": "Okanzakura Cherry (Prunus 'Okanzakura')",
+      "age_estimate": "about 200 years",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Miyajidake Shrine, 7-1 Miyajimotomachi, Fukutsu, Fukuoka",
+        "latitude": 33.7798246192757,
+        "longitude": 130.486087054654,
+        "neighbourhood": "Miyaji"
+      },
+      "how_to_recognise": "In the shrine courtyard beside the main hall: two broad, low cherries inside a rope fence, their long limbs stretched out almost level and held up on rows of wooden crutches.",
+      "access": "Free. In the precinct of Miyajidake Shrine, open daily.",
+      "verified_sources": [
+        "https://www.miyajidake.or.jp/?p=13792 (Miyajidake Shrine: the Meoto-zakura, Okanzakura cherries about 200 years old; the shrine says the variety rarely grows so large and treasures them as the will of the gods)"
+      ],
+      "story": "\"These 200-year-old trees are a treasure of the Miyajidake Shrine,\" wrote the reader who sent us these cherries from Fukutsu, on the coast north of Fukuoka, with a GPS fix taken under the eaves of the hall beside them. The shrine itself puts them at about 200 years.\n\nThey are called the Meoto-zakura, the married couple cherries: two trees of the Okanzakura variety growing side by side in the courtyard. The reader explains what makes them precious. \"As this species of tree rarely grows to such a large size, they are said to represent the will of the gods.\" The shrine says the same.\n\nThe photographs show how they have grown. Neither rises very high. Instead their limbs run out sideways, almost level, so far that the shrine has propped them on rows of wooden crutches, and a rope fence keeps a wide circle of bare earth around them. In the reader's pictures both are thick with pale pink flowers against a grey sky.\n\nOkanzakura flowers early. The reader says the blossom peaks in late February; the shrine gives early March. Come then, when these two open ahead of most of the cherries in Japan, and stand by the stone lantern for the view through both.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "792fd983-0f7d-4818-9112-8fbdf8e8c409",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "792fd983-0f7d-4818-9112-8fbdf8e8c409",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (792fd983-0f7d-4818-9112-8fbdf8e8c409) with a GPS fix. Photograph viewed: two low, wide cherries in full pink blossom inside a rope fence in the shrine courtyard, their long limbs running out almost level on wooden crutches, a stone lantern and the hall's eaves framing the shot, overcast daylight, colour. Two further photographs: a close view of the pale pink flowers, and both trees whole in front of the shrine buildings. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'The “Married Couple Cherry Trees” at Miyajidake Shrine', species 'Cerasus x kanzakura ‘Ō-kanzakura’', age '200 years'. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fkt_001-married-couple-cherry-trees-of-miyajidake-shrine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9f7b25dda38d08dabcad19bf",
+        "sighting_id": "792fd983-0f7d-4818-9112-8fbdf8e8c409",
+        "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: two low, wide cherries in full pink blossom inside a rope fence in the shrine courtyard, their long limbs running out almost level on wooden crutches, a stone lantern and the hall's eaves framing the shot, overcast daylight, colour. Two further photographs: a close view of the pale pink flowers, and both trees whole in front of the shrine buildings. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The oldest tree we map in Fukutsu is a pair of 200-year-old Okanzakura cherries at Miyajidake Shrine.",
+  "question_answer": "The oldest trees we map in Fukutsu are the Married Couple Cherry Trees of Miyajidake Shrine, two Okanzakura cherries the shrine puts at about 200 years. They stand in the shrine courtyard, free to see.",
+  "question_context": "Miyajidake Shrine in Fukutsu, on the coast between Fukuoka and Kitakyushu, keeps two old cherries side by side in its courtyard, called the Meoto-zakura, the married couple cherries. They are Okanzakura, an early-flowering variety, and the shrine puts them at about 200 years. It also says the variety rarely grows to such a size, which is why the trees are treasured as the will of the gods. A reader who sent us their photographs with a GPS fix wrote the same: \"These 200-year-old trees are a treasure of the Miyajidake Shrine.\" Neither tree is tall. Their limbs reach out almost level across the courtyard, so far that the shrine holds them up on rows of wooden crutches, and a rope fence keeps visitors off the roots. They flower early, in late February by the reader's account and around early March by the shrine's, ahead of most cherries in Japan. The shrine precinct is free and open daily; the trees stand beside the main hall, and the best view is from beside the stone lantern.",
+  "faq": [
+    {
+      "q": "What is the oldest tree in Fukutsu?",
+      "a": "The oldest we map are the Married Couple Cherry Trees at Miyajidake Shrine, two Okanzakura cherries the shrine puts at about 200 years."
+    },
+    {
+      "q": "When do the Miyajidake Shrine cherries flower?",
+      "a": "Early. The reader who sent them says the blossom peaks in late February; the shrine gives early March, ahead of most of Japan's cherries."
+    },
+    {
+      "q": "Can I visit the Married Couple Cherry Trees?",
+      "a": "Yes. They stand in the courtyard of Miyajidake Shrine, free and open daily, inside a rope fence that keeps visitors off the roots."
+    }
+  ]
+}

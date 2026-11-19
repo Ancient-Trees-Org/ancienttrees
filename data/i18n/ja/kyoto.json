@@ -1,11 +1,11 @@
 {
  "_note": "Japanese overlay for Kyoto, written 2026-08-22 from data/cities/kyoto.json. Text only: every coordinate, photo, licence, age range and best_time stays in the English source file. COUNTING NOTE for the checker: Japanese does not put spaces between words, so a whitespace-token word count returns 1 for a whole paragraph. Counted in CHARACTERS instead, on the convention agreed with the brief: intro 150-250 characters (the equivalent of the 60-100 word rule), each story 350-600 characters (the equivalent of 150-250 words). Titles and meta descriptions are inside the English character caps as written. Temples and shrines take their Japanese names (善峯寺, 金閣寺, 宝泉院, 西本願寺, 新熊野神社, 醍醐寺三宝院, 上賀茂神社, 梨木神社, 護王神社, 京都御苑), never a romanisation. Search terms follow Japanese usage rather than a literal translation of 'ancient trees': 巨樹, 巨木, 古木, 名木, 天然記念物 (Natural Monument). Judgement calls and English-source problems are recorded in the pass report; the ones that changed a word here are the 1857 namer of the 遊龍松, the Keihoku forest name, the 伏状台杉 romanisation, the 'Chinkapin oak' in kyo_016's name, and the 1877 court-departure date in kyo_015. CORRECTED 2026-08-30 (REVIEW.md BLOCKER): kyo_009 (the Katanami river headwaters cedar, 片波川源流の平安杉) was pulled from the canonical file for hard rule 10 (needs prior city arrangement and a guide), which this overlay never followed; title, meta_description, question_meta and one FAQ answer are rewritten to the correct count of 17 (not 18), and the kyo_009 tree entry is removed from the trees map below. The cedar stays mentioned as context in question_context and the first FAQ answer, matching the English file, since it explains why the camphor answers the oldest-tree question rather than claiming the cedar as a listed entry.",
  "city": "京都",
- "title": "京都の巨木と名木17選：1160年に植えられた新熊野神社の大樟から",
- "meta_description": "京都の古木は、寺の庭と神社の境内に立っている。将軍の盆栽から育った樹齢600年の松、1160年に上皇の命で植えられた楠、そのほか17本を、場所と行き方とともに紹介します。",
+ "title": "京都の巨木と名木18選：1160年に植えられた新熊野神社の大樟から",
+ "meta_description": "京都の古木は、寺の庭と神社の境内に立っている。将軍の盆栽から育った樹齢600年の松、1160年に上皇の命で植えられた楠、そのほか18本を、場所と行き方とともに紹介します。",
  "intro": "京都の名木は、一本きりで立っていることがほとんどない。寺の庭や神社の境内に育ち、生きた松を建物と同じくらい真剣に扱ってきた僧、庭師、将軍たちの手で、何百年もかたちを与えられてきた。一本は、地面に植えられる前は将軍の盆栽だった。ある楠は1160年に上皇の命で植えられ、その人夫たちが植えた場所でいまも育っている。ここにあるのは野生の生き残りではなく、手をかけて育てられた記念物である。例外は御所を囲む塀の公園、京都御苑で、塀の内と外に9本が育ち、それぞれ約1キロの二つのまとまりとして歩いて回れる。",
  "question_title": "京都で最も古い木は？新熊野神社の樹齢866年の大樟",
- "question_meta": "京都で植えた年が記録に残る最も古い木は、1160年に上皇の命で植えられた樹齢866年の楠。その物語と正確な場所、そしてほかに17本の名木を紹介します。",
+ "question_meta": "京都で植えた年が記録に残る最も古い木は、1160年に上皇の命で植えられた樹齢866年の楠。その物語と正確な場所、そしてほかに18本の名木を紹介します。",
  "question_answer": "京都で植えた年が記録に残る最も古い木は、新熊野神社の大樟で、1160年に後白河上皇の命によって植えられた。上皇は和歌山の熊野の社からこの木を運ばせたと伝えられている。樹齢はおよそ866年で、いまも東山区にある神社の境内に育ち、泉涌寺道のバス停から徒歩2分のところに立っている。",
  "question_context": "新熊野神社の楠には、古木がめったに持てない植栽年がある。1160年、後白河上皇が和歌山の熊野の社を勧請してこの神社を創建した年であり、そのときにこの木も北へ運ばせたと伝えられている。クスノキは日本の暖かい地方に自生する木で、内陸の京都よりも熊野の海沿いのほうが分布に合う。つまりこの木そのものが、あとから付けられた伝説というだけではなく、移植の話を支えるささやかな証拠になっている。以来、幹回り6.58メートル、東西23.5メートルに枝を広げる大きさに育った。クスノキは日本の広葉樹のなかでも長命な部類だが、それでもこの大きさになるには何世紀もかかる。市の北西の山には、もっと古いという主張もある。片波川の源流にある樹齢1200年とされる杉で、平安京の御所の用材を出した同じ森につながる木である。ただしその樹齢は確かめるのが難しく、訪ねるには京都市への事前の申し込みが要る。だからこの問いには、記録の残る楠のほうが答えになる。新熊野神社への行き方は、京都駅から京阪バスで泉涌寺道へ、そこから徒歩2分。",
  "faq": [
@@ -19,7 +19,7 @@
   },
   {
    "q": "京都の名木は無料で見られますか。",
-   "a": "多くは無料です。18本のうち14本は、京都御苑、梨木神社、護王神社、西本願寺、新熊野神社、上賀茂神社、円山公園という無料の境内や公園に立っています。残る4本は拝観料のかかる寺の中にありますが、それは木のための料金ではなく通常の拝観料です。"
+   "a": "多くは無料です。19本のうち15本は、京都御苑、梨木神社、護王神社、西本願寺、新熊野神社、上賀茂神社、円山公園、京都大学吉田キャンパスという無料の境内や公園、構内に立っています。残る4本は拝観料のかかる寺の中にありますが、それは木のための料金ではなく通常の拝観料です。"
   },
   {
    "q": "京都の名木のなかに、盆栽から育ったものはありますか。",
@@ -171,6 +171,14 @@
    "access": "無料。京都御苑の端、石垣に沿った舗装の道のそばに立っている。",
    "transport": "地下鉄烏丸線「丸太町」駅から徒歩約3分。",
    "story": "大宮御門の古いスダジイを探しに行くと、目を奪うのはこの木のほうだ。幹は明るい灰色でなめらか、細長くはがれていき、まっすぐ伸びるというよりさまよっている。傾き、ねじれて戻り、石垣の上を越えるあたりでこぶになってふくらむ。根は縁石を越えて道まであふれ出している。\n\nこの木は御苑の端、外周の林に立っている。御苑を管理する側は、この林にムクノキ、エノキ、ケヤキの巨樹が多いと書いている。手元にある一枚の写真の樹皮と葉から、私たちはこれをムクノキ（Aphananthe aspera）だと考えているが、計測した人も、樹齢を調べた人も、登録に載せた人もいない。もっとよく知っている方や、巻き尺を持って訪れた方がいれば、ぜひ教えてほしい。\n\nムクノキなら、葉に触ってみる価値がある。ざらつきが強く、かつて職人は木や角、漆を磨くのに紙やすりの代わりに使った。秋には小さな黒い実を落とし、拾ってそのまま食べられるほど甘い。\n\n宗像神社の大楠から歩いて数分のところにある。"
+  },
+  "kyo_020": {
+   "name": "京都大学時計台前のクスノキ",
+   "species": "クスノキ（Cinnamomum camphora）",
+   "age_estimate": "読者の見積もりで約90年",
+   "access": "無料。京都大学吉田キャンパスの正門（東一条通）を入ってすぐ。構内は見学者も歩けて、正門からも見える。",
+   "how_to_recognise": "正門を入ってすぐの円い芝生に立つ一本の大きなクスノキ。つややかな葉のドームが、後ろのれんがの時計台をほとんど隠している。",
+   "story": "「京都大学吉田キャンパスの時計台の前に高くそびえるこのクスノキは、大学の象徴であり、ロゴにもなっています」。芝生の縁でGPSの位置情報とともにこの写真を送ってくれた読者は、そう書いている。\n\n正門をくぐると、まず目に入るのがこの木だ。一段高い円い芝生に一本だけ立つクスノキで、つややかな常緑の葉が密なドームをつくり、その幅は後ろのれんがの時計台をほとんど隠すほどである。時計台は1920年代の建物で、木はそれ以来その前で育ってきた。大学の広報誌は、時計台を背に枝を広げるこのクスノキが大学そのものの姿としていちばんよく使われると書いている。京都市も左京区の保存すべき樹木のひとつに挙げている。\n\n読者は大学に伝わる来歴も添えてくれた。1935年、すでに5年から10年育った苗木として植えられたので、いまは90歳ほどになるという。クスノキが選ばれたのは、ゆっくりと着実に積み重ねる学問を表す「楠学問」という言葉にちなむともいう。これらは読者から聞いたことで、私たちはまだ書かれた資料で確かめていない。\n\nまず正門に立って眺め、それから芝生をひと回りして、樹冠の本当の広さを確かめてほしい。"
   }
  }
 }

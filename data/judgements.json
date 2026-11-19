@@ -1696,6 +1696,117 @@
    "agreed": null
   },
   {
+   "id": "sight:0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "English Elm near Cambridge",
+   "photo": "p_c877c10459fc020d2f62f752/0BF2F2D8-020E-4258-A925-8B90C6D45D8F.jpg",
+   "reader_note": "A rare survivor or Dutch Elm disease resistant tree, the truck splits and branches a few feet before rejoining itself again, and in one of the cracks is what I think is a fallow deer’s leg bone, so I call it The Bone Tree.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole tree at a farm-track fork by a footpath fingerpost, trunk splitting and rejoining, bone in a crack. Live as hatley/hat_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:18b184b1-29a2-4a9c-ba1f-bfe74caaabbb",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Sapiegos Park Linden",
+   "city": "Vilnius",
+   "species": "Small-leaved Lime (Tilia cordata)",
+   "photo": "out/sightings/18b184b1-29a2-4a9c-ba1f-bfe74caaabbb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 243,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Small-leaved Lime (Tilia cordata)"
+   },
+   "verdict": "hold",
+   "reason": "Photo viewed: sent for the Sapiegos linden (a storm-broken veteran) but shows an intact multi-stemmed park tree 243 m away, same GPS fix as the reader's earlier Vilnius photo; another tree, not ours. Became a lead, held not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:792fd983-0f7d-4818-9112-8fbdf8e8c409",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The “Married Couple Cherry Trees” at Miyajidake Shrine",
+   "city": null,
+   "species": "Cerasus x kanzakura ‘Ō-kanzakura’",
+   "photo": "p_9f7b25dda38d08dabcad19bf/792FD983-0F7D-4818-9112-8FBDF8E8C409.jpg",
+   "reader_note": "These 200-year-old trees are a treasure of the Miyajidake Shrine. As this species of tree rarely grows to such a large size, they are said to represent the will of the gods. Even though they have grown old now, they continue to delight visitors with their beautiful pink blossom, which reaches its peak in late February.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cerasus x kanzakura ‘Ō-kanzakura’"
+   },
+   "verdict": "publish",
+   "reason": "Photos viewed: two low, wide Okanzakura cherries in full blossom on crutches in the Miyajidake Shrine courtyard, GPS fix beside them; the shrine's own site gives about 200 years. Live as fukutsu/fkt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cf563122-313c-4d9c-9098-bf01cbb35a5a",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Kyoto University‘s “Kusunoki” - Camphor Tree",
+   "city": null,
+   "species": "Camphor Tree",
+   "photo": "p_9f7b25dda38d08dabcad19bf/CF563122-313C-4D9C-9098-BF01CBB35A5A.jpg",
+   "reader_note": "This camphor tree, which stands tall in front of the clock tower at Kyoto University's Yoshida Campus, is the university's emblem and logo.\n\nAccording to Kyoto University, the tree is believed to have been planted in 1935 and is said to have been 5–10 years old at the time. Therefore, as of 2026, the tree would be around 90 years old.\n\nIt is thought that a camphor tree was planted in reference to the Japanese expression ‘Kusunoki Gakumon’ (‘camphor tree scholarship’), which refers to the tree’s ",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Camphor Tree"
+   },
+   "verdict": "publish",
+   "reason": "Photo viewed: the whole broad camphor on its round lawn before the Kyoto University clock tower, GPS fix at the lawn edge; Kyoto city lists it as a notable tree. Live as kyoto/kyo_020, planting date and age stated as the reader's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:18b184b1-29a2-4a9c-ba1f-bfe74caaabbb",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Vilnius",
+   "species": null,
+   "photo": "p_a915d9e03e385ddb1824e749/18B184B1-29A2-4A9C-BA1F-BFE74CAAABBB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Photo viewed: an ordinary multi-stemmed broadleaf with a full crown on a park lawn in Vilnius, nothing big, old or striking. Held not_special.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
@@ -18987,14 +19098,26 @@
    "agreed": null
   },
   {
-   "id": "sight:0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
+   "id": "sight:792fd983-0f7d-4818-9112-8fbdf8e8c409",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
-   "tree": "English Elm near Cambridge",
-   "photo": "p_c877c10459fc020d2f62f752/0BF2F2D8-020E-4258-A925-8B90C6D45D8F.jpg",
-   "reader_note": "A rare survivor or Dutch Elm disease resistant tree, the truck splits and branches a few feet before rejoining itself again, and in one of the cracks is what I think is a fallow deer’s leg bone, so I call it The Bone Tree.",
+   "tree": "The Married Couple Cherry Trees of Miyajidake Shrine",
+   "photo": "p_9f7b25dda38d08dabcad19bf/792FD983-0F7D-4818-9112-8FBDF8E8C409.jpg",
+   "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-19: the whole tree at a farm-track fork by a footpath fingerpost, trunk splitting and rejoining, bone in a crack. Live as hatley/hat_001 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-19: both low, wide cherries in full blossom on crutches in the shrine courtyard. Live as fukutsu/fkt_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cf563122-313c-4d9c-9098-bf01cbb35a5a",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "The Camphor of the Kyoto University Clock Tower",
+   "photo": "p_9f7b25dda38d08dabcad19bf/CF563122-313C-4D9C-9098-BF01CBB35A5A.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-19: the whole camphor on its round lawn before the clock tower. Live as kyoto/kyo_020 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
