@@ -39,3 +39,37 @@ Hidde, 2026-11-19: "geef me ook een visualisatie van alle het mailverkeer waar e
 | Their reply | (comes back in) | Any reply to the mails above becomes a feedback row within about 15 minutes; the judge acts or it reaches Hidde | reader judge | scripts/reader_mail_replies.py |
 
 Across every mail: at most one per address in seven days, except a reply in their own thread (mailer.py); no App Store link (mailcheck.py). The templated "we received your tip" thank-you is off (`THANK_YOU = False`, Hidde 2026-10-02), so a reader hears nothing between sending and live, held or a question.
+
+## Every way readers send something, and who handles it
+
+First drawn 2026-11-17; kept on Hidde's word 2026-11-19 ("Zou je die er ook bij kunnen bewaren?"). Who: the reader judge (within about 15 minutes), live directly (public at once), the night run (the knock every two hours), the digest (shown to Hidde daily), a session (only when he asks). "Open for you" is the one digest block that needs him.
+
+| What a person sends | From | Handled by | What happens | Comes to Hidde when |
+|---|---|---|---|---|
+| A new tree | app, website | reader judge | Live, or held with a reason from the closed list; the matching mail (see the mail table above) | A real doubt (can it be seen from the street?) |
+| Words typed with a tree | app, website | reader judge | Their note under the tree, with their profile name | Never |
+| Photo of a tree we have | app, website | live directly, then the reader judge | In the photo strip at once; the judge picks the lead photo and moves an approximate pin to its GPS | Never |
+| A note on a tree | app, website | live directly, then the night run | Public at once; only abuse or another person's name is hidden | Never |
+| Report: dead, wrong pin, which tree, duplicate | app, website | reader judge | Checked and fixed; a report without their own words gets the standard thank-you | Their own words need a reply, or the judge cannot close it |
+| Worth-it vote | app, website | live directly | Counted on the tree | Never |
+| Ambassador request | app, website | reader judge, digest | Mail with the questions and the badge, automatically; the digest names who was added | Never (a daily line, no action) |
+| Feedback and ideas | app, website | reader judge, digest | Handled and recorded when it needs no mail (bug fixed, tip made a lead, idea already on the backlog) | A reply is needed (draft ready), or the decision is his |
+| Plus question | app, website | digest | Counts plus their words under the Plus table | Daily, to read |
+| App Store review | App Store | digest | Shown, not answered | Daily, to read |
+| Android waitlist | website | digest | Counted; asked for the closed test later | Never |
+| A reply to one of our reader mails | mail | reader judge (since 2026-11-18) | Filed as a feedback row; a held tree re-opened or an age or story put on the page | Anything that is not one of those |
+| Other mail to Ancient Trees | his inbox | session | Read and answered only when he asks | Always his |
+| Reddit, public tips | threads | session | His; a session helps when he asks | Always his |
+
+## Feedback: what is handled for Hidde, what comes to him
+
+Drawn 2026-11-17 with the rule "de makkelijke gevallen moet jij gewoon behandelen ... wat ik moet zien, zijn de dingen die openstaan". Every message gets a verdict in data/feedback-ledger.json (`scripts/feedback.py --close`); his answer is recorded and the row goes back to handled.
+
+| Handled for him (recorded, not shown) | Comes to him in "Open for you" |
+|---|---|
+| One-tap votes ("worth it", "not worth it", vote undone): counted, nothing else | A reply in words to someone's own message: a draft is ready, nothing goes without his yes (example: #849) |
+| New trees, photos, words typed with them: live or held with a closed-list reason, the "your tree is live" mail | A decision that is his: an idea outside find, walk, collect, season (example: #786) |
+| Reports without their own words (dead tree, moved pin, grid reference, duplicate): fixed plus the standard thank-you | Real doubt: can it be seen from the street, conflicting facts, a pin that may be wrong; marked `doubt` with the reason |
+| Feedback with an obvious answer and no mail needed: a bug fixed or logged, a tip made a lead or a tree, a tip we already have, an idea already on the backlog | Reports the judge could not close: left open with what is missing |
+| Ambassador requests: mail with the questions plus the badge; the digest names who was added | Mail to Ancient Trees and Reddit: outside the app, read in a session when he asks |
+| Notes on a tree: public at once; only abuse or another person's name is hidden | |
