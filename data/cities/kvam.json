@@ -41,7 +41,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/kvm_001-the-old-oak-at-tolo.jpg",
-        "taken_month_basis": "green oak leaf with only a few yellowing leaves, no plain season (season pass, 2026-11-19)",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

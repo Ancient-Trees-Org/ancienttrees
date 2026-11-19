@@ -329,6 +329,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (1a16eaec-2a91-4864-8c72-35d0dd2d5d8c, 2026-11-19, through the app). Photograph viewed: the kapok's whole lower trunk from close by, swollen grey buttresses sprawling over the ground, thick limbs and pinnate green leaves above, flame tree flowers at the edge, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Another Key West Kapok', species 'Kapok'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/kyw_007-elephant-foot-kapok.jpg",
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -372,6 +374,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (69be172d-cd73-4193-a6b9-d12df857d756, 2026-11-19, through the app). Photograph viewed: a big kapok on a planted bed beside a cream building with white shutters, its buttress roots twisting into the trunk, a second kapok behind it in the extra photograph, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Even More Key West Kapoks', species 'Kapok'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/kyw_008-white-street-kapoks.jpg",
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -385,6 +389,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/kyw_008-white-street-kapoks-extra1.jpg",
+          "taken_month": 6,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

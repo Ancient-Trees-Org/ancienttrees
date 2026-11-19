@@ -57,6 +57,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (6ae2d9b6-0162-4005-9aac-c047d60cd052, 2026-11-19, through the app). Photograph viewed: a banyan's many aerial-root trunks with a gravel path running through them, orchids and small signs hung on the trunks, tropical planting around, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Banyan Tree', species 'Indian Banyan'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/isl_001-banyan-of-the-banyan-tree-garden.jpg",
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

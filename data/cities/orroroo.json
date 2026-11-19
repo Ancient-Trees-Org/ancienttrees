@@ -37,7 +37,8 @@
       "access": "Free, on public ground at the edge of Orroroo, signed.",
       "photo": {
         "url": "https://ancienttrees.app/photos/orr_001-the-orroroo-giant-gum.jpg",
-        "taken_month_basis": "evergreen red gum, dry ground, no season shown (season pass, 2026-11-19)",
+        "taken_month": 4,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

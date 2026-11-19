@@ -37,7 +37,8 @@
       "access": "Free, public national forest land; about 0.8 miles on a trail from the end of the gravel Bear Creek Camp Road, with a few creek crossings.",
       "photo": {
         "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar.jpg",
-        "taken_month_basis": "plain green summer forest, no clear season cue (season pass, 2026-11-19)",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

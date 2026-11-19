@@ -54,7 +54,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader (b6c42a88-4f55-4e46-89f5-1acdf5703851, 2026-11-15, through the app). Photograph viewed: looking straight up a thick, deeply furrowed trunk into a high crown of small pinnate leaflets against blue sky, daylight, colour. Pinnate leaves, so probably not an elm. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'American Elm', species 'American Elm', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lne_001-tall-trunk-of-wilderness-park.jpg",
-        "taken_month_basis": "plain green summer leaf, no season shown (season pass, 2026-11-19)",
+        "taken_month": 7,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

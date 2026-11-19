@@ -300,7 +300,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b, 2026-11-15, through the app). Photograph viewed: the whole lower tree on a park lawn, a fluted red-brown trunk flaring into roots, tiered branches of feathery needles, shrub borders behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'Dawn Redwood in Toronto', species 'Dawn Redwood', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-17 reader judge: pin moved 33 m on reader report 1000024; confirmed.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tro_007-dawn-redwood-of-kew-gardens.jpg",
-        "taken_month_basis": "dawn redwood still in green leaf, red maple behind is not this tree, no plain season (season pass, 2026-11-19)",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

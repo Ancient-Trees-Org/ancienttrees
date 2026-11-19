@@ -86,6 +86,31 @@ def supa(path):
         return json.loads(raw) if raw else None
 
 
+def photo_taken_at(row):
+    """The row's taken_at when it is the PHOTOGRAPH's date, else None.
+
+    Hidde, 2026-11-19 ("het gat dat de tijd niet wordt opgeslagen van input"):
+    the iOS and Android apps send the photo's own date (EXIF or the library's
+    creation date, the camera's moment for a live shot). The website sent
+    nothing until 2026-11-19, so its rows carry the upload moment, which is
+    no evidence of the season; since then it says which in its note.
+    """
+    when = row.get("taken_at")
+    note = row.get("note") or ""
+    if not when:
+        return None
+    if "page on the website" in note and "photograph’s own date" not in note:
+        return None
+    return when
+
+
+def taken_month(row):
+    """Month only (1 to 12), for the public lead file: the season the page
+    files the photograph under, never the day a reader stood somewhere."""
+    when = photo_taken_at(row) or ""
+    return int(when[5:7]) if len(when) >= 7 and when[5:7].isdigit() else None
+
+
 def unsure_sightings():
     """{sighting id (lower case): the candidates the app offered} for every
     photograph a reader sent with "not sure which tree".
@@ -849,6 +874,10 @@ def main():
                     "near": (row.get("city") or "").strip() or None,
                     # No taken_at: this file is public, and the time a reader
                     # stood somewhere stays in Supabase (2026-10-19 audit).
+                    # The MONTH does come (Hidde, 2026-11-19): the page shows
+                    # it anyway as the season the photo is filed under, and a
+                    # hand-built tree copies it into photo.taken_month.
+                    "taken_month": taken_month(row),
                     # Coded: a storage path starts with the account id and
                     # this file is public (qa's reader-traces check stopped
                     # the 2026-11-15 deploy on four of these). fetch_photo
@@ -906,7 +935,9 @@ def main():
             "girth_hugs": row.get("girth_hugs"),
             "note": (row.get("note") or "")[:300],
             # The day only: the queue file is public (2026-10-19 audit).
-            "taken_at": (row.get("taken_at") or "")[:10] or None, "photo_path": row["photo"],
+            # Only the photograph's own date (photo_taken_at): an upload moment
+            # would file a summer picture under the season it was sent in.
+            "taken_at": (photo_taken_at(row) or "")[:10] or None, "photo_path": row["photo"],
             # The sign, for READING (species, age, which tree), never for the
             # page: sightings_publish.py publishes photo_path and nothing else.
             "sign_path": row.get("sign_photo"), "sign_file": fetch_sign(row),

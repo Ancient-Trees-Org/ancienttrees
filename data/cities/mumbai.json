@@ -54,6 +54,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (bee9e113-6234-4bac-b308-d14ef4e3fa45, 2026-11-19, through the app). Photograph viewed: the trunk of a street fig on a Mahim pavement, a mass of pale fused roots that have grown over and around an old iron tree guard and a tiled shrine platform, parked cars and a shopfront behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mum_001-fig-that-swallowed-its-railings.jpg",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -95,6 +97,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (e4e4d964-c61c-484f-9994-cfd5fe96d5e6, 2026-11-19, through the app). Photograph viewed: a road under a tunnel of huge rain trees, the nearest on the right a thick dark trunk throwing long crooked limbs right across the street, a BMC road sign and a taxi below, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Rain Tree', species 'Rain Tree', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mum_002-rain-trees-of-govt-gate-road.jpg",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

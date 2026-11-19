@@ -39,8 +39,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (a9f9eb8d-f3c2-4146-94a2-afe4fe32917c, 2026-11-15, through the app). Photograph viewed: a massive trunk photographed straight up from its foot, deep interlaced diamond-pattern bark, a hollow partway up, thin autumn crown, a younger tree leaning in at the left, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'A tree near Przybudki', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bwz_001-great-ash-of-the-bison-s-rib-trail.jpg",
-        "taken_month": 11,
-        "taken_month_basis": "trunk shot with orange and yellow leaves in the thinning canopy around it: autumn; sent 2026-09-04 is a batch date, so 11 (season pass, 2026-11-19)",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

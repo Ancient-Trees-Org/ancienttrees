@@ -2292,7 +2292,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (c60f88d1-bc14-496a-aba8-7b90d7286907), named by them 'Oak near Copenhagen', species 'Oak', note 'Brygger Jacobsens Eg in Rude Skov'. Photograph viewed: the whole oak, bare, from the gravel path: a short thick trunk under a huge rounded crown of crooked limbs, a bench at its foot, a meadow and a misty forest edge behind, overcast daylight, colour. The name is confirmed by Naturstyrelsen's Rude Skov map; no age or girth source yet. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
       "photo": {
         "url": "https://ancienttrees.app/photos/cop_050-brewer-jacobsen-s-oak-in-rude-skov.jpg",
-        "taken_month_basis": "bare oak in fog, no snow or frost, bare branches alone and no send date (season pass, 2026-11-19)",
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

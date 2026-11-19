@@ -43,7 +43,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (2bef0f92-bd67-4694-8cee-c97b5f4d3c6a), named 'the Zamalek Banyan', Indian Banyan, age 150, with a link to Egyptian Streets. Photograph viewed: looking up from the street into a banyan's crown, grey limbs dropping curtains of aerial roots that have thickened into pillar trunks, a low wall and iron railing in front, daylight, colour. Egyptian Streets (2022) places a 150-year-old banyan on Al Borg street towards the Cairo Tower and gives the 1868 import by Khedive Ismail; it also calls it 'believed to be the last standing one in Egypt' while naming another at the Manial Palace, so no 'last' claim is made. The app's fix has four decimals (about 10 m) and lands on the street the source names, so it counts as a GPS fix (Hidde, 2026-10-14). Egypt is out of focus for our own research only, never for a reader's tree.",
       "photo": {
         "url": "https://ancienttrees.app/photos/cai_001-zamalek-banyan.jpg",
-        "taken_month_basis": "evergreen banyan canopy, no season shown (season pass, 2026-11-19)",
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

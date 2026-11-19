@@ -430,6 +430,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (fb383f1e-0383-4579-9603-21cca3aedd94, 2026-11-17, through the app). Photograph viewed: two tall bleached and split dead trunks of a Montezuma cypress rising out of a bed of irises, the park's live trees and people behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mex_011-el-sargento.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

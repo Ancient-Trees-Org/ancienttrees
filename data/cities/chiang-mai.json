@@ -93,6 +93,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (c1046494-aeff-40b3-81da-d0f3fc7ac3e4, 2026-11-17, through the app). Photograph viewed: a pale fig trunk made of fused roots that have grown round rounded brown lumps like boulders, a web of surface roots running over the ground to the kerb of a park road, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/cnx_002-fig-that-holds-the-stones.jpg",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -138,6 +140,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader (7f0038ba-2d3c-4bf4-a206-135905bff0f3, 2026-11-17, through the app). Photograph viewed: the whole crown of a tall, round-topped tree in silhouette against a sunset sky, the sun shining through the leaves, a phone mast and a roof to the left, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Bodhi Tree near Chiang Mai', species 'Bodhi Tree', age '100'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/cnx_003-bodhi-tree-at-sunset.jpg",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

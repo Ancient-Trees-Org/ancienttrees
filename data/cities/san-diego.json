@@ -568,7 +568,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (d4f02aa3-8e55-4f95-833a-ee47c9394ba0, 2026-11-19, through the app). Photograph viewed: a dragon tree's whole umbrella crown of spiky rosettes on dozens of forked grey branches, a thick plated trunk, hedges and a white building behind, low golden evening light, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near San Diego', species 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/sdg_014-dragon-tree-of-la-jolla-cove.jpg",
-        "taken_month_basis": "evergreen dragon tree at sunset, no season shown (season pass, 2026-11-19)",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -612,7 +613,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (a3ea97ce-6e19-436c-99be-618dc3c48771, 2026-11-19, through the app). Photograph viewed: a fig's short trunk and long low limbs reaching out level over the lawn and towards the street, glossy oval leaves overhead, parked cars and Sixth Avenue behind, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree in San Diego', species 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/sdg_015-fig-with-the-long-arms-on-sixth-avenue.jpg",
-        "taken_month_basis": "evergreen fig, no season shown (season pass, 2026-11-19)",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

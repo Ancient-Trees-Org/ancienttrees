@@ -407,7 +407,8 @@
       "access": "Paid entry to Scone Palace gardens and grounds; opening times and prices on scone-palace.co.uk.",
       "photo": {
         "url": "https://ancienttrees.app/photos/dnk_009-the-sitka-spruce-at-scone-palace.jpg",
-        "taken_month_basis": "evergreen spruce, no season shown (season pass, 2026-11-19)",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

@@ -30,7 +30,8 @@
       "access": "In woodland at the edge of Market Bosworth by the country park, where a reader stood to photograph it. We have not confirmed that the ground is open to the public.",
       "photo": {
         "url": "https://ancienttrees.app/photos/mbw_001-the-market-bosworth-yew.jpg",
-        "taken_month_basis": "evergreen yew, only a few yellow leaves on the ground, no clear season cue (season pass, 2026-11-19)",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

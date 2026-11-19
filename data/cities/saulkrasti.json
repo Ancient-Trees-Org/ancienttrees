@@ -39,7 +39,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (d291140e-1665-4036-a4cb-e826d8ff6328, 2026-11-15, through the app). Photograph viewed: the middle of a living trunk split by two tall hollows one above the other, callus rolled round them, a low wooden fence and parkland trees behind, heart-shaped leaves at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"); it had sat as a lead under a why written before the closed list. Place found by reverse geocoding the reader's fix (OpenStreetMap). The reader's own figures: name 'A tree near Sēja', species 'None', age 'None', girth None cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs. A famous-trees lead in data/leads/_famous-latvia.json, \"Catherine's lindens\" (Katrīnas liepas, Pabaži, Saulkrasti; Wikimedia Commons category), stands 26 m from the reader's fix: very likely this tree or its group. Not verified; named in the story only as the Commons label.",
       "photo": {
         "url": "https://ancienttrees.app/photos/slk_001-hollow-lime-of-paba-i.jpg",
-        "taken_month_basis": "trunk close-up with green leaf behind, no season shown (season pass, 2026-11-19)",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

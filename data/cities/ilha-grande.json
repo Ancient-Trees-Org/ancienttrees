@@ -32,6 +32,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ilg_001-the-fig-on-the-abraaozinho-trail.jpg",
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

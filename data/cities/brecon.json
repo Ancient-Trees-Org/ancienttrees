@@ -37,7 +37,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/brk_001-the-cedar-of-brecon-cathedral.jpg",
-        "taken_month_basis": "evergreen cedar on a dry summer lawn, no season cue on the tree (season pass, 2026-11-19)",
+        "taken_month": 7,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -51,7 +52,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/brk_001-the-cedar-of-brecon-cathedral-6ace68f9.jpg",
-          "taken_month_basis": "evergreen cedar framing a hill view, no season shown (season pass, 2026-11-19)",
+          "taken_month": 7,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

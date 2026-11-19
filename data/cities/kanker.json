@@ -54,6 +54,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (f8c010fc-a646-477e-b1f8-dc71c5562eec, 2026-11-17, through the app). Photograph viewed: a very tall straight trunk from the ground to the crown beside a forest track, a person at its foot for scale, epiphytes on the bark, morning daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/knk_001-tall-tree-on-the-kanker-forest-track.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

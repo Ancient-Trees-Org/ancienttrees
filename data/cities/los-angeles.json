@@ -740,7 +740,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (dadb2ea4-792f-460d-b66d-d46f064f0a8a, 2026-11-17, through the app). Photograph viewed: the trunk and its buttress roots in ivy, the white house with the green tiled roof behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Moreton Bay Fig in Los Angeles', species 'Moreton Bay Fig', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lax_033-moreton-bay-fig-by-the-white-mansion.jpg",
-        "taken_month_basis": "evergreen fig in leaf, no season shown (season pass, 2026-11-19)",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

@@ -220,5 +220,29 @@ class TestSamePicture(unittest.TestCase):
             pub.PHOTOS = old
 
 
+class TestPhotoDate(unittest.TestCase):
+    """Hidde, 2026-11-19: the photo's own month reaches the lead and the
+    queue, an upload moment never does."""
+
+    def test_app_row_keeps_its_month(self):
+        row = {"taken_at": "2025-07-14T16:02:11+00:00", "note": "A big oak"}
+        self.assertEqual(inbox.taken_month(row), 7)
+
+    def test_old_website_row_is_an_upload_moment(self):
+        row = {"taken_at": "2026-11-19T10:00:00+00:00",
+               "note": "Photograph sent from this tree’s page on the website. The position ..."}
+        self.assertIsNone(inbox.photo_taken_at(row))
+        self.assertIsNone(inbox.taken_month(row))
+
+    def test_website_row_with_the_files_date(self):
+        row = {"taken_at": "2025-04-02T09:00:00+00:00",
+               "note": "Photograph sent from this tree’s page on the website. "
+                       "Its date is the photograph’s own date."}
+        self.assertEqual(inbox.taken_month(row), 4)
+
+    def test_no_date(self):
+        self.assertIsNone(inbox.taken_month({"note": "x"}))
+
+
 if __name__ == "__main__":
     unittest.main()

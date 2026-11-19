@@ -45,7 +45,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/bbl_001-the-champion-lodgepole-pine.jpg",
-        "taken_month_basis": "evergreen pine, green undergrowth, no season shown (season pass, 2026-11-19)",
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -59,7 +60,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/bbl_001-the-champion-lodgepole-pine-f91bd966.jpg",
-          "taken_month_basis": "evergreen conifers and green meadow, no clear season cue (season pass, 2026-11-19)",
+          "taken_month": 6,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

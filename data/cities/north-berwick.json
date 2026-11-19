@@ -44,7 +44,8 @@
       "verify_notes": "2026-11-17: sent by a reader through the app on 2026-11-15 as 'A tree near Edinburgh', age '320', note 'There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law', GPS fix at the viewing spot. Held 11-15 'for Hidde' (trees small in the frame, no written source); judged again under the closed list: the photograph shows the group clearly and the Union planting is sourced (Wikipedia on Hew Dalrymple citing Scotland on Sunday 2009, the Scotsman's 'Act of Union beech trees', a 2013 blog counting five; Canmore notes an early 18th-century plantation on the Law's NE side). Species beech from those sources; the photograph fits. An ensemble with one place to stand. Pin: the reader's own move, approximate. Count of survivors today unknown.",
       "photo": {
         "url": "https://ancienttrees.app/photos/nbw_001-act-of-union-beeches-of-north-berwick-law.jpg",
-        "taken_month_basis": "plain green summer hillside, no clear season cue (season pass, 2026-11-19)",
+        "taken_month": 7,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

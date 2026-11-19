@@ -44,6 +44,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader through the app with a GPS fix (sighting 685b7bb6-a189-4c1e-a74e-701215bb89c7). Photographs viewed: the whole tree at the end of a red dirt track, a chalk-white trunk opening into a wide crown against a blue sky, daylight, colour; a second frame looks up the white trunk into the limbs; a third shows the park's own sign for this tree. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Corymbia aparrerinja “Ghost Gum”', species 'Corymbia aparrerinja “Ghost Gum”', age '300', girth 443 cm, note 'This Ghost Gum, known by the traditional owners - the Eastern Arrernte People’s as “ilwempe”, is considered to be the tallest of its species in Australia.'. Height, age, register listing and the national-largest claim come from the park sign in the reader's third photograph; the girth and the 'tallest of its species' words are the reader's.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge.jpg",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -57,6 +59,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge-trunk.jpg",
+          "taken_month": 9,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -69,6 +73,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/tgg_001-the-ghost-gum-of-trephina-gorge-sign.jpg",
+          "taken_month": 9,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

@@ -36,7 +36,8 @@
       "access": "Free to see from the public road, Moana Parade; it stands beside the school, so look from the roadside.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tar_001-te-waha-o-rerekohu.jpg",
-        "taken_month_basis": "evergreen pohutukawa, no flowers, no season shown (season pass, 2026-11-19)",
+        "taken_month": 1,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

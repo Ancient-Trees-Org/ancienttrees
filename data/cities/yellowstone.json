@@ -61,7 +61,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (8350d39b-7429-41c8-b1e6-18f499d6df51). Photograph viewed: the petrified trunk standing upright, pale cream and grey with rust streaks, its top broken jagged, an iron fence behind it on a dry grassy slope, blue sky with cloud, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'The Petrified Tree', species 'Redwood', age '50 million years old'. Every figure on the page that is not in verified_sources is stated as theirs. A fossil, not a living tree: shipped under the standing-dead exception (Hidde, 2026-11-17, the Ochi chestnut): the photograph shows it standing and striking, the pin is the reader's GPS fix, and the page says plainly it is not alive.",
       "photo": {
         "url": "https://ancienttrees.app/photos/yel_001-petrified-tree.jpg",
-        "taken_month_basis": "petrified trunk, no living leaf, no season shown (season pass, 2026-11-19)",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",

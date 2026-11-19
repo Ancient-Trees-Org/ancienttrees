@@ -37,7 +37,8 @@
       "access": "Free, in the Geelong Botanic Gardens, open daily.",
       "photo": {
         "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo.jpg",
-        "taken_month_basis": "full green ginkgo crown, could be late spring or summer, no plain season (season pass, 2026-11-19)",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -51,8 +52,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-e65d75dd.jpg",
-          "taken_month": 10,
-          "taken_month_basis": "small newly opening ginkgo leaves on bare limbs, southern hemisphere: spring (season pass, 2026-11-19)",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -65,7 +66,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-sign.jpg",
-          "taken_month_basis": "sign and trunk close-up, a few green leaves, no season shown (season pass, 2026-11-19)",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -78,7 +80,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-leaves.jpg",
-          "taken_month_basis": "close-up of green ginkgo shoots on bark, no plain season (season pass, 2026-11-19)",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

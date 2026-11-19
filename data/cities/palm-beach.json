@@ -50,7 +50,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader through the app (8088d133-b9fe-4ab2-9f16-9c673c126535) as 'Palm Beach Kapok', species 'Kapok', age '190', girth 900 cm. Photographs viewed: four frames: the whole kapok from the Lake Trail, its buttressed trunk behind a low fence with the crown spread overhead; the buttresses from below; the whole tree from the chapel garden lawn; and the trunk along the trail with a person for scale. Daylight, colour. The Florida Champion Tree register (PK 1124) lists the state champion kapok at the Royal Poinciana Chapel, SW of the parking lot just east of the bike path; the reader's fix is there. Register units: circumference in inches, height and crown in feet (points 899 + 74 + 132/4 = 1004 as the register gives), so girth_cm 2283, height_m 22.6. The reader's age of 190 years is on the page as their estimate (sev_044); no planting record found.",
       "photo": {
         "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok.jpg",
-        "taken_month_basis": "kapok in plain green leaf, no season shown (season pass, 2026-11-19)",
+        "taken_month": 4,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -64,7 +65,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra1.jpg",
-          "taken_month_basis": "plain green kapok leaf, no season shown (season pass, 2026-11-19)",
+          "taken_month": 4,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -77,7 +79,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra2.jpg",
-          "taken_month_basis": "kapok buttresses with green crown, no season shown (season pass, 2026-11-19)",
+          "taken_month": 4,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -90,7 +93,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/pbh_001-the-royal-poinciana-chapel-kapok-extra3.jpg",
-          "taken_month_basis": "kapok in plain green leaf, no season shown (season pass, 2026-11-19)",
+          "taken_month": 4,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

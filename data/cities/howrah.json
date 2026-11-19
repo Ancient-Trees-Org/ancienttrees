@@ -46,6 +46,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader through the app (sighting 97153cbf-443d-4b42-9801-7463164ed709), named 'Indian Banyan', age 275, no girth, no note, three further photographs. Viewed: inside the banyan from the leaf-strewn floor, many grey prop roots under one crown, a gravel path between them, and the Botanical Survey of India board 'The Great Banyan Tree' (dated 1 January 2022), daylight, colour. The board identifies the tree. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The photograph's coordinate was 2636 m off, outside the garden; the reader then moved the pin by hand into the garden (report 1000079), 70 m from Wikidata's point, and that spot is used, approximate. India is out of focus for our own research only, never for a reader's tree.",
       "photo": {
         "url": "https://ancienttrees.app/photos/how_001-the-great-banyan.jpg",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -59,6 +61,8 @@
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/how_001-the-great-banyan-extra1.jpg",
+          "taken_month": 10,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -71,6 +75,8 @@
         },
         {
           "url": "https://ancienttrees.app/photos/how_001-the-great-banyan-extra2.jpg",
+          "taken_month": 10,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",

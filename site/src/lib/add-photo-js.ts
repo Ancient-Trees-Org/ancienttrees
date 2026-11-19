@@ -330,6 +330,9 @@ export const ADD_PHOTO_JS = `
     busy = true; btn.disabled = true; label.textContent = msgSending;
     say('');
     if (collecting && window.atSnack) window.atSnack(msgSending, null, null, true);
+    // The photograph's own date first, from the original file: atDownsize's
+    // re-encode drops it (image-downsize-js.ts, Hidde 2026-11-19).
+    (window.atPhotoDate || function(x, cb) { cb(null); })(f, function(taken) {
     window.atDownsize(f, 1600, function(blob) {
       if (!blob) {
         busy = false; btn.disabled = false; label.textContent = originalLabel;
@@ -355,7 +358,7 @@ export const ADD_PHOTO_JS = `
           method: 'POST',
           headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token,
                      'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
-          body: JSON.stringify({
+          body: JSON.stringify(Object.assign(taken ? { taken_at: taken } : {}, {
             id: id, tree_id: treeId, name: treeName,
             lat: lat, lng: lng, photo: uid + '/' + id + '.jpg',
             // SHARED, said out loud as the app says it (SightingSync.push):
@@ -367,11 +370,15 @@ export const ADD_PHOTO_JS = `
             note: 'Photograph sent from this tree\\u2019s page on the website. '
                   + 'The position on this row is the tree\\u2019s own published '
                   + 'coordinate, not a device fix, and is not evidence about the pin.'
-          })
+                  // Read by sightings_inbox.photo_taken_at(): only a row that
+                  // says so has a date that can file the photo by season.
+                  + (taken ? ' Its date is the photograph\\u2019s own date.'
+                           : ' Its date is when it was sent; the file carried none.')
+          }))
         });
       }).then(function(r) {
         if (!r || !r.ok) throw new Error('row');
-        try { var own = URL.createObjectURL(blob); addShot(own, new Date().toISOString(), true, id, uid + '/' + id + '.jpg'); heroOwn(own); } catch (e) {}
+        try { var own = URL.createObjectURL(blob); addShot(own, taken || new Date().toISOString(), true, id, uid + '/' + id + '.jpg'); heroOwn(own); } catch (e) {}
         btn.hidden = true;
         file.value = ''; if (cam) cam.value = '';
         sayWithLink(msgThanks);
@@ -398,6 +405,7 @@ export const ADD_PHOTO_JS = `
         if (collecting && window.atSnack) window.atSnack(msgFailed);
         collecting = false;
       });
+    });
     });
   }
   file.addEventListener('change', function() { picked(file); });

@@ -141,7 +141,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (61bfdbeb-40d4-4654-b2f6-377c44997bf5, 2026-11-19, through the app). Photograph viewed: the whole karri on a grassy verge beside a red gravel road, a massive dark trunk with a second, paler stem rising inside it, a wide crown over a fenced paddock and forest beyond, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Karri near Pemberton', species 'Karri', age 'None', girth 600 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/pem_003-karri-that-swallowed-a-tree.jpg",
-        "taken_month_basis": "evergreen karri, no season shown (season pass, 2026-11-19)",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -183,7 +184,8 @@
       "verify_notes": "2026-11-19 reader judge: sent by a reader (32b40a81-9200-47fd-b160-edb577c30e79, 2026-11-19, through the app). Photograph viewed: looking straight up two pale, smooth karri stems fused at the base into one trunk, patched grey, cream and brown, their limbs fanning into the crown against blue sky, forest around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Karri near Pemberton', species 'Karri', age 'None', girth 500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/pem_004-twin-karri-of-anzac-road.jpg",
-        "taken_month_basis": "evergreen karri, no season shown (season pass, 2026-11-19)",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

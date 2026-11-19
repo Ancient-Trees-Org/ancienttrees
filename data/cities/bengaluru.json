@@ -40,6 +40,8 @@
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ben_001-the-rain-tree-of-the-national-gallery-of-modern-art.jpg",
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

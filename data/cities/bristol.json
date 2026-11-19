@@ -921,7 +921,8 @@
       "verify_notes": "2026-11-18 reader judge: sent by a reader (40b57e0b-fc77-4f71-affd-50f82641ab10, 2026-11-17, through the app (sent for bri_015)). Photograph viewed: looking up a straight, red-brown fibrous trunk with whorls of slender branches carrying fine feathery sprays, sycamore leaves top right, daylight, colour. Not the Monterey cypress of bri_015 by its foliage and form. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bri_023-red-barked-conifer-of-bishops-knoll.jpg",
-        "taken_month_basis": "conifer crown from below with green maple leaves, no season shown (season pass, 2026-11-19)",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

@@ -59,6 +59,8 @@
       "verify_notes": "2026-11-17 reader judge: sent by a reader (4fe1cb00-e56f-42e1-8c89-ec11bc883f73, through the app). Photograph viewed: looking up from the boardwalk at a strangler fig whose lattice of fused roots climbs a great leaning column into the canopy, fan palms around it, a visitor at the rail for scale, daylight, colour. The second file they sent is a 194 by 260 pixel thumbnail of a strangler fig trunk, not used (it may not be theirs). Their note reads partly like a description of the centre; only their sentence about the lost host tree is quoted. Their figure: age '600 years'. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
       "photo": {
         "url": "https://ancienttrees.app/photos/dtr_001-strangler-fig-of-the-daintree-discovery-centre.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",

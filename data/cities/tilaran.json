@@ -86,6 +86,8 @@
       "verify_notes": "2026-11-17 session: sent by a reader (df10cd8a-f0f4-4911-a37f-b5b4e85b7425, 2026-11-16, through the app). Photograph viewed: a mass of fused pale fig trunks and roots on a raised bank above stone steps and a wall, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Kapok', species 'Kapok', age '300-400 years old', girth 1500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/tlr_002-figs-saved-by-a-wall.jpg",
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
         "status": "approved",
