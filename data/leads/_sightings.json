@@ -7238,6 +7238,206 @@
    "seen": "2026-11-19",
    "hold": "not_special",
    "judged": "2026-11-19"
+  },
+  {
+   "sighting_id": "a51429ec-837e-4506-bd3b-c369efa44428",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "Japanese Cedar near Yakushima",
+   "unsure_among": null,
+   "species": "Japanese Cedar",
+   "age": "2600 years",
+   "girth_cm": 650,
+   "girth_hugs": null,
+   "note": "A mother daughter cedar tree, the mother tree is over 30mts tall and the daughter around 23mts. They are fused at the bottom. The patterns on them are so alive and vibrant. Can you imagine being in the same place for 2600 years!! Incredible trees! The same forest has Jomon Sugi tree dating 5000-6000 years, but these girls were my favourite ♥️",
+   "latitude": 30.3056916666667,
+   "longitude": 130.568296666667,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/A51429EC-837E-4506-BD3B-C369EFA44428.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/a51429ec-837e-4506-bd3b-c369efa44428-extra-1.jpg",
+    "out/sightings/a51429ec-837e-4506-bd3b-c369efa44428-extra-2.jpg",
+    "out/sightings/a51429ec-837e-4506-bd3b-c369efa44428-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the fused red, stringy trunks of two cedars rising from moss and ferns, a wooden sign in front reading 母子杉 with girth, height and estimated age for mother and child; a second frame looks up the trunk into the crown. Daylight, colour. Live as yakushima/yak_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "yakushima/yak_003"
+  },
+  {
+   "sighting_id": "b894c217-92b1-4bdd-9353-6e36ef8f210f",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "Indian Banyan near Yakushima",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 30.255955,
+   "longitude": 130.432603333333,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/B894C217-92B1-4BDD-9353-6E36EF8F210F.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b894c217-92b1-4bdd-9353-6e36ef8f210f-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: a great banyan whose pale aerial roots form an arch over a narrow village lane, a tiled roof and a small concrete building seen through it, wet tarmac, overcast daylight, colour (the frame without a person in it). Live as yakushima/yak_004 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "yakushima/yak_004"
+  },
+  {
+   "sighting_id": "bee9e113-6234-4bac-b308-d14ef4e3fa45",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Love trees that take over urban infrastructure over time",
+   "latitude": 19.03665,
+   "longitude": 72.8388966666667,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/BEE9E113-6234-4BAC-B308-D14EF4E3FA45.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/bee9e113-6234-4bac-b308-d14ef4e3fa45-extra-1.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the trunk of a street fig on a Mahim pavement, a mass of pale fused roots that have grown over and around an old iron tree guard and a tiled shrine platform, parked cars and a shopfront behind, daylight, colour. Live as mumbai/mum_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "mumbai/mum_001"
+  },
+  {
+   "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "Karri near Pemberton",
+   "unsure_among": null,
+   "species": "Karri",
+   "age": null,
+   "girth_cm": 600,
+   "girth_hugs": null,
+   "note": "This karri tree has engulfed another tree, if you look carefully there is a birch like tree in its embrace.",
+   "latitude": -34.5089833333333,
+   "longitude": 115.880386666667,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/61BFDBEB-40D4-4654-B2F6-377C44997BF5.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/61bfdbeb-40d4-4654-b2f6-377c44997bf5-extra-1.jpg",
+    "out/sightings/61bfdbeb-40d4-4654-b2f6-377c44997bf5-extra-2.jpg",
+    "out/sightings/61bfdbeb-40d4-4654-b2f6-377c44997bf5-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: the whole karri on a grassy verge beside a red gravel road, a massive dark trunk with a second, paler stem rising inside it, a wide crown over a fenced paddock and forest beyond, overcast daylight, colour. Live as pemberton/pem_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "pemberton/pem_003"
+  },
+  {
+   "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "Karri near Pemberton",
+   "unsure_among": null,
+   "species": "Karri",
+   "age": null,
+   "girth_cm": 500,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -34.4361333333333,
+   "longitude": 115.86348,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/32B40A81-9200-47FD-B160-EDB577C30E79.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/32b40a81-9200-47fd-b160-edb577c30e79-extra-1.jpg",
+    "out/sightings/32b40a81-9200-47fd-b160-edb577c30e79-extra-2.jpg",
+    "out/sightings/32b40a81-9200-47fd-b160-edb577c30e79-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: looking straight up two pale, smooth karri stems fused at the base into one trunk, patched grey, cream and brown, their limbs fanning into the crown against blue sky, forest around, daylight, colour. Live as pemberton/pem_004 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "pemberton/pem_004"
+  },
+  {
+   "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6",
+   "user_id": "p_3187c89ebb9a049f017c6aa5",
+   "mine": false,
+   "name": "Rain Tree",
+   "unsure_among": null,
+   "species": "Rain Tree",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Love these huge rain trees in my city, although they are not native or ecologically helpful, but they pretty nevertheless",
+   "latitude": 19.0009333333333,
+   "longitude": 72.8433383333333,
+   "near": null,
+   "photo": "p_3187c89ebb9a049f017c6aa5/E4E4D964-C61C-484F-9994-CFD5FE96D5E6.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/e4e4d964-c61c-484f-9994-cfd5fe96d5e6-extra-1.jpg",
+    "out/sightings/e4e4d964-c61c-484f-9994-cfd5fe96d5e6-extra-2.jpg",
+    "out/sightings/e4e4d964-c61c-484f-9994-cfd5fe96d5e6-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-19: a road under a tunnel of huge rain trees, the nearest on the right a thick dark trunk throwing long crooked limbs right across the street, a BMC road sign and a taxi below, daylight, colour. Live as mumbai/mum_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-19",
+   "judged": "2026-11-19",
+   "published_as": "mumbai/mum_002"
   }
  ]
 }

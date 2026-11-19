@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: six readers' trees live, Yakushima, Pemberton and a new place, Mumbai
+
+- One reader sent six trees from three trips. All six were looked at, all have a GPS fix, and all are live under the closed list:
+  - **Hahakosugi**, the mother and child cedar in Yakusugi Land (yakushima/yak_003). The sign in the photograph gives 9.0 m and 6.3 m round, 31.1 m and 29.5 m tall, and an estimated 2,600 years, so `girth_cm`/`height_m` are from the plaque.
+  - **The Nakama Banyan Gate** (yakushima/yak_004). Villagers cut it open in 1923 for sugar-cane ox carts, about 300 years old (Japan Tourism Agency text). The lead is the reader's frame without themselves in it.
+  - **Two karris west of Pemberton**: the Karri that Swallowed a Tree on Ritter Road (pem_003) and the Twin Karri of Anzac Road (pem_004). Pemberton's intro and question meta now say four.
+  - **Mumbai, a new place with two trees**: a Mahim street fig that has grown over its iron tree guard and shrine (mum_001), and the rain trees of Govt Gate Road in Parel (mum_002). It has an intro, question texts and three FAQ, and its alternate names were looked up.
+- The ja/yakushima overlay carries both new trees.
+- Still waiting: lead 3c544597 (our own account, Amsterdam, "not sure which tree"). Its photograph is still not on this runner. No open reports, no feedback without a verdict, no reader words to quote.
+
 ## 2026-11-19 reader judge: two more Melbourne photographs in the strip
 
 - Two new photographs of Edinburgh Gardens trees from the reader whose pictures already lead both pages. Both looked at and both checked against species and description. The Finer Holm Oak (mel_001) and the Gum by the Skate Bowl (mel_019) each get one more view in the strip, and the lead photographs stay. Applied with `sightings_publish.py`; verdicts are in judgements.json.

@@ -2,10 +2,10 @@
   "city": "Pemberton",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "Pemberton maps two climbing karris. The first is a karri turned into a fire lookout in 1947, its trunk fitted with a spiral of steel pegs a prince himself helped drill. Once 61 metres tall, it lost its rotting crown in a recent trim and reopened to climbers in 2026 at a lower platform. You can recognise it by the spiral of steel pegs driven up its trunk to a climbing platform. It stands in Gloucester National Park near Pemberton, Western Australia. The Dave Evans Bicentennial Tree was pegged in 1988 for climbers, never for fires.",
+  "intro": "Pemberton sits among the karri forests of Western Australia's wet southwest, and we map four of its karris. Two are climbing trees: the Gloucester Tree, a fire lookout pegged in 1947 with steel pegs a prince helped drill, reopened to climbers in 2026 at a lower platform, and the Dave Evans Bicentennial Tree, pegged in 1988 for climbers, never for fires. A reader found the other two on the back roads west of town: a lone karri on Ritter Road that has swallowed another tree, and two karri stems fused into one base by Anzac Road.",
   "meta_description": "The Gloucester Tree in Pemberton, WA: a former fire lookout karri you can still climb via steel pegs, reopened 2026 after a safety closure.",
-  "question_meta": "Pemberton's two mapped trees are climbing karris: the Gloucester Tree, a fire lookout pegged in 1947, and the Dave Evans Bicentennial Tree, pegged in 1988.",
-  "question_answer": "Pemberton's oldest mapped tree, the only one of its two with an age on record, is the Gloucester Tree, a Karri (Eucalyptus diversicolor) in Gloucester National Park about 3km from town. Fitted in 1947 with a spiral of steel pegs to serve as a fire lookout, it was once the second tallest such tree in the world, and its climb reopened to the public on 1 July 2026 after a three-year safety closure, now stopping at a lower platform. The other, the Dave Evans Bicentennial Tree about 15km south in Warren National Park, was pegged in 1988 and is closed to climbers until the end of November 2026.",
+  "question_meta": "Pemberton's four mapped karris: the Gloucester Tree fire lookout, the Dave Evans Bicentennial Tree, and two giants a reader found west of town.",
+  "question_answer": "Pemberton's oldest mapped tree, the only one of its four with an age on record, is the Gloucester Tree, a Karri (Eucalyptus diversicolor) in Gloucester National Park about 3km from town. Fitted in 1947 with a spiral of steel pegs to serve as a fire lookout, it was once the second tallest such tree in the world, and its climb reopened to the public on 1 July 2026 after a three-year safety closure, now stopping at a lower platform. The other, the Dave Evans Bicentennial Tree about 15km south in Warren National Park, was pegged in 1988 and is closed to climbers until the end of November 2026.",
   "question_context": "The tree takes its name from Prince Henry, Duke of Gloucester, who worked an auger into the trunk himself during a visit in the late 1940s. Forester George Reynolds drove the spiral of pegs up the trunk in 1947, one of eight fire-lookout trees raised across the south west between 1937 and 1952, and Jack Watson, a forester and Gallipoli veteran, made the first test climb, taking six hours. At the climbing zone the trunk measured 7.3 metres round on that first ascent. The tree stood 61 metres tall until a trim removed seven metres of rotting crown; the climb closed in November 2023 on safety grounds and reopened in July 2026 at a new platform 37 metres up rather than the old 53. There is no harness and the risk is the climber's own. Its age is given only as a floor, at least 250 years, with no ceiling and no ring count on record. A DPaW day-use entry fee applies for vehicle access to Gloucester National Park; there is no public transport, and Pemberton itself is a short, rural drive away.",
   "hero_tree_id": "pem_001",
   "oldest_tree_id": "pem_001",
@@ -109,6 +109,88 @@
         "license": "",
         "attribution": "",
         "status": "missing"
+      }
+    },
+    {
+      "id": "pem_003",
+      "name": "The Karri that Swallowed a Tree",
+      "species": "Karri (Eucalyptus diversicolor)",
+      "location": {
+        "address": "Verge of Ritter Road, west of Pemberton, Western Australia",
+        "latitude": -34.5089833333333,
+        "longitude": 115.880386666667,
+        "neighbourhood": "Ritter Road"
+      },
+      "how_to_recognise": "A lone karri on the grass verge beside a red gravel road, a paddock fence behind it: a hugely thick, dark trunk with a slimmer pale stem standing up inside it into the crown.",
+      "access": "Seen from Ritter Road, a rural gravel road; the tree stands on the verge in front of a farm fence. The paddock behind is private.",
+      "story": "\"This karri tree has engulfed another tree,\" wrote the reader who sent it to us from a gravel road west of Pemberton, with a GPS fix taken beside it. \"If you look carefully there is a birch like tree in its embrace.\"\n\nLook at the photograph and you can find it. Up the middle of the great dark trunk runs a second, slimmer stem, paler and smoother, which the karri has grown around and swallowed for much of its height before both open into the crown. What the second tree is we cannot say from the picture; the reader saw birch in it, and Western Australia has no native birch, so tell us if you know.\n\nThe karri itself is unmistakable. Karri is one of the tallest hardwoods on earth and grows only in the wet southwest corner of Western Australia, around towns like Pemberton. This one stands almost alone on the verge, with a paddock behind it and the forest held back at the edge of the fields, so its crown has spread wide instead of tall. The reader measures the trunk at about six metres round, their figure and not one we have seen elsewhere.\n\nPull over on the red gravel and walk round the trunk to see where the two trees meet.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (61bfdbeb-40d4-4654-b2f6-377c44997bf5, 2026-11-19, through the app). Photograph viewed: the whole karri on a grassy verge beside a red gravel road, a massive dark trunk with a second, paler stem rising inside it, a wide crown over a fenced paddock and forest beyond, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Karri near Pemberton', species 'Karri', age 'None', girth 600 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/pem_003-karri-that-swallowed-a-tree.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole karri on a grassy verge beside a red gravel road, a massive dark trunk with a second, paler stem rising inside it, a wide crown over a fenced paddock and forest beyond, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "pem_004",
+      "name": "The Twin Karri of Anzac Road",
+      "species": "Karri (Eucalyptus diversicolor)",
+      "location": {
+        "address": "Beside Anzac Road, a forest track north-west of Pemberton, Western Australia",
+        "latitude": -34.4361333333333,
+        "longitude": 115.86348,
+        "neighbourhood": "Anzac Road"
+      },
+      "how_to_recognise": "In the forest by Anzac Road: two pale karri stems joined into one massive base, their smooth bark patched cream, grey and rust, splitting apart only high up where the branches begin.",
+      "access": "By a forest track west of Pemberton. We have not checked the track's condition; it may suit a high-clearance vehicle better than a car.",
+      "story": "A reader sent us this karri from the forest beside Anzac Road, a track west of Pemberton, with a GPS fix taken at its foot and a photograph that does the only thing you can do beside a karri, which is to look straight up.\n\nWhat you see is two trees that grew as one. Two stems rise from a single massive base, pressed so close that their bark has fused into one surface, and they only part high above, where each opens into its own fan of pale limbs. The bark is the karri's own, smooth and shedding in patches, so the trunk is mottled cream, grey and rust from the ground to the crown. The reader measures the base at about five metres round, their figure.\n\nKarri grows only in the wet southwest corner of Western Australia and is among the tallest hardwoods in the world, which is why the forests around Pemberton were felled hard for a century and why the town's lookout trees were karris. This one stands in the forest proper, among other tall trunks, and we do not know its height or age.\n\nStand at the base, between the two stems, and look up to where they finally separate.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (32b40a81-9200-47fd-b160-edb577c30e79, 2026-11-19, through the app). Photograph viewed: looking straight up two pale, smooth karri stems fused at the base into one trunk, patched grey, cream and brown, their limbs fanning into the crown against blue sky, forest around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Karri near Pemberton', species 'Karri', age 'None', girth 500 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/pem_004-twin-karri-of-anzac-road.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: looking straight up two pale, smooth karri stems fused at the base into one trunk, patched grey, cream and brown, their limbs fanning into the crown against blue sky, forest around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

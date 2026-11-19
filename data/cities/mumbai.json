@@ -1,0 +1,110 @@
+{
+  "city": "Mumbai",
+  "country": "India",
+  "status": "needs_curation",
+  "intro": "Mumbai's older streets are shaded by trees planted generations ago, and a reader sent us two of them. In Mahim a pavement fig has grown its roots over an iron tree guard and a small tiled shrine until only the arrowheads show. In Parel the rain trees of Dr S S Rao Marg meet over the road in a green tunnel. We would love to hear of more.",
+  "meta_description": "Two Mumbai street trees a reader photographed: a fig in Mahim that swallowed its railings, and the rain-tree tunnel of Govt Gate Road in Parel.",
+  "hero_tree_id": "mum_001",
+  "oldest_tree_id": "mum_001",
+  "question_meta": "Which old trees can you walk to in Mumbai? A fig in Mahim that has swallowed its iron guard, and the rain trees of Govt Gate Road in Parel.",
+  "question_answer": "We map two Mumbai trees so far, both sent by a reader: a fig on Savarkar Marg in Mahim whose roots have grown over its old iron tree guard and shrine, and the huge rain trees of Dr S S Rao Marg in Parel. Neither has a recorded age yet.",
+  "question_context": "Both trees came to us from a reader who lives in Mumbai and photographed them with a GPS fix, so the pins mark where they stood. The first is a fig on a pavement in Mahim. Somebody once fenced it with an iron guard and built a tiled platform at its foot for offerings; the fig's roots have since grown over both, and only the rusted arrowheads of the railings still show through. Its leaves suggest a peepal, the sacred fig, but we would like a reader to confirm it. The second is a stretch of Dr S S Rao Marg, Govt Gate Road, in Parel, where rain trees from tropical America, planted along Indian roads for their shade, have grown wide enough for the crowns on either side to meet over the traffic. The reader loves them, while noting they are neither native nor much help to local wildlife. We know no planting dates or measurements for either yet. If you know these trees, or another old tree in Mumbai worth the walk, tell us.",
+  "faq": [
+    {
+      "q": "Which old trees does Ancient Trees map in Mumbai?",
+      "a": "Two, both sent by a reader: a fig in Mahim whose roots have swallowed its iron tree guard, and the rain trees of Dr S S Rao Marg in Parel."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "Yes. Both stand on public streets and can be seen from the pavement at any time."
+    },
+    {
+      "q": "How old are they?",
+      "a": "We do not know yet. Neither has a recorded age or measurement; if you know one, tell us on the tree's page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "mum_001",
+      "name": "The Fig that Swallowed its Railings",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Swatantrya Veer Savarkar Marg, Kapad Bazar, Mahim, Mumbai",
+        "latitude": 19.03665,
+        "longitude": 72.8388966666667,
+        "neighbourhood": "Mahim"
+      },
+      "how_to_recognise": "On the pavement of Savarkar Marg in Mahim: a fig trunk of pale roots wrapped round the remains of an iron tree guard, whose arrow-tipped uprights still poke out of the roots above a small tiled shrine.",
+      "access": "Free. On a public pavement, seen from the street.",
+      "story": "\"Love trees that take over urban infrastructure over time,\" wrote the reader who sent us this fig from a pavement in Mahim, with a GPS fix taken beside it, and this one has taken over a good deal.\n\nSomeone once fenced the young tree with an iron guard, the kind with arrow-tipped uprights, and built a small tiled platform at its foot where people still leave offerings. The fig did what figs do. Its roots came down, thickened and fused into a trunk of pale grey cords, and as they grew they closed over the guard and the tiles. Now only the rusted arrowheads and a few orange tiles show through the roots, held in the wood like pins in a cushion, with red thread and dried flowers tucked among them.\n\nWhich fig it is we would like a reader to confirm. The heart-shaped leaves with long tips on the young shoots look like a peepal, the sacred fig, which would fit the shrine. We have no age for it.\n\nMumbai's streets are full of figs like this, growing out of walls and drains and swallowing what stands in their way. Stand on the pavement opposite and look for the arrowheads in the roots.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "bee9e113-6234-4bac-b308-d14ef4e3fa45",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "bee9e113-6234-4bac-b308-d14ef4e3fa45",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (bee9e113-6234-4bac-b308-d14ef4e3fa45, 2026-11-19, through the app). Photograph viewed: the trunk of a street fig on a Mahim pavement, a mass of pale fused roots that have grown over and around an old iron tree guard and a tiled shrine platform, parked cars and a shopfront behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mum_001-fig-that-swallowed-its-railings.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "bee9e113-6234-4bac-b308-d14ef4e3fa45",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the trunk of a street fig on a Mahim pavement, a mass of pale fused roots that have grown over and around an old iron tree guard and a tiled shrine platform, parked cars and a shopfront behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "mum_002",
+      "name": "The Rain Trees of Govt Gate Road",
+      "species": "Rain Tree (Samanea saman)",
+      "location": {
+        "address": "Dr S S Rao Marg (Govt Gate Road), Parel Village, Mumbai",
+        "latitude": 19.0009333333333,
+        "longitude": 72.8433383333333,
+        "neighbourhood": "Parel"
+      },
+      "how_to_recognise": "Huge rain trees meeting over Dr S S Rao Marg by a roundabout sign: the biggest stands on the right behind a black and yellow kerb, its dark limbs reaching across the whole road.",
+      "access": "Free. A public road; walk the pavement under the trees.",
+      "story": "\"Love these huge rain trees in my city,\" wrote the reader who sent us this stretch of Dr S S Rao Marg in Parel, with a GPS fix taken under them, \"although they are not native or ecologically helpful, but they pretty nevertheless.\"\n\nThe reader is right on both counts. The rain tree comes from tropical America, and in the colonial era it was planted along roads across India for its shade, which is why so many of Mumbai's older streets are tunnels of it today. It grows wide rather than tall, throwing long, crooked limbs out sideways until the crowns of trees on opposite pavements meet over the traffic.\n\nThat is what the photograph shows. The nearest tree, on the right, rises from a thick dark trunk behind the black and yellow kerb and sends its limbs right across the road, and the trees beyond it close the gap, so a taxi drives down a green tunnel past the road signs. The name comes from the leaves, which fold up at dusk and in cloudy weather.\n\nWe do not know when these were planted or how big the largest is; if you do, tell us. Walk the pavement in the morning, when the low sun comes through the crowns.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (e4e4d964-c61c-484f-9994-cfd5fe96d5e6, 2026-11-19, through the app). Photograph viewed: a road under a tunnel of huge rain trees, the nearest on the right a thick dark trunk throwing long crooked limbs right across the street, a BMC road sign and a taxi below, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Rain Tree', species 'Rain Tree', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mum_002-rain-trees-of-govt-gate-road.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: a road under a tunnel of huge rain trees, the nearest on the right a thick dark trunk throwing long crooked limbs right across the street, a BMC road sign and a taxi below, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

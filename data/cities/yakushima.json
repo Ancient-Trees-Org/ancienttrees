@@ -113,6 +113,100 @@
         "url": "https://www.env.go.jp/nature/isan/worldheritage/yakushima/area/a05.html"
       },
       "height_m": 24.7
+    },
+    {
+      "id": "yak_003",
+      "name": "Hahakosugi, the Mother and Child Cedar",
+      "species": "Japanese Cedar (Cryptomeria japonica)",
+      "age_estimate": "about 2,600 years (estimated, on the sign at the tree)",
+      "girth_cm": 900,
+      "height_m": 31.1,
+      "location": {
+        "address": "Yakusugi Land, on the longer forest trail, Yakushima-cho, Kumage-gun, Kagoshima",
+        "latitude": 30.3056916666667,
+        "longitude": 130.568296666667,
+        "neighbourhood": "Yakusugi Land"
+      },
+      "how_to_recognise": "Two cedars fused at the foot into one wall of red, stringy, twisting bark, rising out of moss and ferns, with a dark wooden sign in front reading 母子杉 and the figures for mother and child.",
+      "access": "Inside Yakusugi Land, a forest recreation area in the island's interior reached by road; a forest conservation fee is asked at the entrance. The tree stands on the longer of its walking loops, a few hours on foot, on steps and roots.",
+      "verified_sources": [
+        "https://www.mlit.go.jp/tagengo-db/en/H30-01427.html (Japan Tourism Agency multilingual text: Yakusugi Land and its named giant cedars)",
+        "Sign at the tree, photographed by the reader on 2026-11-19: 母子杉, girth at chest height 9.00 m (mother) and 6.30 m (child), height 31.1 m and 29.5 m, estimated age about 2,600 years for each"
+      ],
+      "story": "\"Can you imagine being in the same place for 2600 years!!\" wrote the reader who sent us this tree from Yakusugi Land, in the mossy interior of Yakushima, with a GPS fix taken at its foot.\n\nIts name is Hahakosugi, the mother and child cedar, and the sign in front of it explains the name. Two Japanese cedars grew up side by side and fused at the base, so they rise as one wall of bark before parting. The sign gives the mother 9 metres round at chest height and 31.1 metres tall, the child 6.3 metres round and 29.5 metres tall, and puts both at an estimated 2,600 years. As with every old cedar on this island, that age is an estimate, not a ring count.\n\n\"The patterns on them are so alive and vibrant,\" the reader adds, and the photograph shows why. The bark runs up the trunks in long stringy ribbons, red where it is fresh and silver-green where moss and lichen have taken it, twisting as it climbs. Ferns and moss crowd the roots.\n\nThe same forest has Jomon Sugi, the reader notes, \"but these girls were my favourite.\" Jomon Sugi is a full mountain day away; this pair is a walk.\n\nStand by the sign and follow the bark upwards with your eyes.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "a51429ec-837e-4506-bd3b-c369efa44428",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a51429ec-837e-4506-bd3b-c369efa44428",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (a51429ec-837e-4506-bd3b-c369efa44428, 2026-11-19, through the app). Photograph viewed: the fused red, stringy trunks of two cedars rising from moss and ferns, a wooden sign in front reading 母子杉 with girth, height and estimated age for mother and child; a second frame looks up the trunk into the crown. Daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Japanese Cedar near Yakushima', species 'Japanese Cedar', age '2600 years', girth 650 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/yak_003-hahakosugi-the-mother-and-child-cedar.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "a51429ec-837e-4506-bd3b-c369efa44428",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the fused red, stringy trunks of two cedars rising from moss and ferns, a wooden sign in front reading 母子杉 with girth, height and estimated age for mother and child; a second frame looks up the trunk into the crown. Daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "yak_004",
+      "name": "The Nakama Banyan Gate",
+      "species": "Indian Laurel Fig (Ficus microcarpa)",
+      "age_estimate": "about 300 years (estimated)",
+      "location": {
+        "address": "Nakama village, Yakushima-cho, Kumage-gun, Kagoshima",
+        "latitude": 30.255955,
+        "longitude": 130.432603333333,
+        "neighbourhood": "Nakama"
+      },
+      "how_to_recognise": "A lane in Nakama village runs straight through the tree: pale grey trunks and hanging aerial roots woven together into an arch overhead, with a tiled roof visible through the gap.",
+      "access": "Free. A village lane on Yakushima's southwest coast; a small free car park nearby, no room for large buses.",
+      "verified_sources": [
+        "https://www.mlit.go.jp/tagengo-db/H30-01451.html (Japan Tourism Agency multilingual text: 中間ガジュマル, a gate of banyan cut open by villagers in 1923 for ox carts carrying sugar cane, estimated at about 300 years)",
+        "https://www.pref.kagoshima.jp/suisuinavi/2897.html (Kagoshima Prefecture: Nakama Gajumaru, free parking)"
+      ],
+      "story": "In 1923 the villagers of Nakama, on the warm southwest coast of Yakushima, cut a way through this banyan so their ox carts could carry sugar cane down the lane. The tree kept growing around the gap, and a century later the road still passes through it like a gate.\n\nA reader sent us this photograph with a GPS fix taken in the lane, and it shows how a gajumaru, as the Japanese call this fig, builds itself. Roots drop from the branches, reach the ground and thicken into trunks, then grip and wrap the older wood, until it is impossible to say which part is root and which is stem. Here they have woven a pale grey arch over the tarmac, mossy on top, with ferns and lilies at its feet and a tiled roof framed in the opening beyond.\n\nThe Japan Tourism Agency's text on the tree puts it at about 300 years old, an estimate rather than a count, and notes that figs like it are also called strangler figs, for the way they smother a host. The reader knows it as an Indian banyan; the Japanese sources call it gajumaru, Ficus microcarpa.\n\nWalk through the gate slowly and then turn round, because from the far side the arch frames the mountains.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "b894c217-92b1-4bdd-9353-6e36ef8f210f",
+        "date": "2026-11-19"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b894c217-92b1-4bdd-9353-6e36ef8f210f",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-19 reader judge: sent by a reader (b894c217-92b1-4bdd-9353-6e36ef8f210f, 2026-11-19, through the app). Photograph viewed: a great banyan whose pale aerial roots form an arch over a narrow village lane, a tiled roof and a small concrete building seen through it, wet tarmac, overcast daylight, colour (the frame without a person in it). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Indian Banyan near Yakushima', species 'Indian Banyan', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/yak_004-nakama-banyan-gate.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+        "sighting_id": "b894c217-92b1-4bdd-9353-6e36ef8f210f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: a great banyan whose pale aerial roots form an arch over a narrow village lane, a tiled roof and a small concrete building seen through it, wet tarmac, overcast daylight, colour (the frame without a person in it). Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }
