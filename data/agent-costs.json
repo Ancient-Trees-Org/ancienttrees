@@ -2,6 +2,7 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-19": [
+      {"date": "2026-11-19", "kind": "verify", "target": "san-francisco", "tokens": 74000, "trees": 0, "note": "eleventh pass on an exhausted register; nothing new, lead note appended"},
       {"date": "2026-11-19", "kind": "verify", "target": "birmingham", "tokens": 90890, "trees": 0, "note": "eighth dry pass; Garden Explorer champion tour unreadable to curl, Northfield yew still one source"},
       {"date": "2026-11-19", "kind": "session", "target": "gdansk+madeira readers", "tokens": 0, "trees": 1, "note": "session work: reader photographs judged, Palheiro stone pines live, fallen Ivy Elm retired"}
     ],
