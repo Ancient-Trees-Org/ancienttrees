@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 night run, third attempt: nothing shipped
+
+- Guimaraes verify pass (5th deepen): wall. Every register row within 20 km folds into gui_001 to gui_010. Found a Moreira stone pine location conflict (Megide vs Pereirinhas) and recorded the Paco dos Duques horse-chestnut as blocked, dead since 2016. Claim released, wall for 48h.
+- READY leads 0; Fort Lauderdale has no register coverage. Refill batch (905 leads needing a source) still open for a stronger session.
+
 ## 2026-11-19 night run, second attempt: nothing shipped, shelf is thin
 
 - Nothing changed in the product. READY leads: 0. The only unpublished verified trees are 3 (Fort Lauderdale 2, Taiwan 1), too few for a write pass (six minimum).
