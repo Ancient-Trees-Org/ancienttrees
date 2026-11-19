@@ -1484,6 +1484,28 @@
    "agreed": null
   },
   {
+   "id": "sight:8259e0fc-4968-44e1-b245-6b7a178cdefc",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Jussieu",
+   "city": "Paris",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/8259e0fc-4968-44e1-b245-6b7a178cdefc.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 46,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "Roughly the Jussieu cedar from 46 m south across a hedge: flat tiered crown on one dark trunk, daylight. Into the strip behind the reader's lead photo, which shows it better.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",

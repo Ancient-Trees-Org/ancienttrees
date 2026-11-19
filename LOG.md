@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: a second reader's photograph of the Cedar of Jussieu
+
+- **What changed**: a reader's photograph of the Cedar of Jussieu (Paris, par_002) is now in the tree's gallery. It was taken 46 m south of the pin, across a hedge, and shows the flat tiered crown on its one dark trunk. The verdict was `strip`: it stays behind the current lead photo, also a reader's, which shows the tree better. Its GPS did not move the pin, which is confirmed. sightings_publish could not read coordinates for its pin catch-up (HTTPError); that step only touches approximate pins.
+- No report is open, no tip is unjudged and no feedback is waiting. The waiting leads in _sightings.json are all from our own account (`mine`). That includes 3c544597 (Amsterdam, 11-18), which still has no file on disk.
+- qa --source-only, preflight and i18ncheck are clean.
+
 ## 2026-11-19 reader judge: nothing new from readers, one mail reply filed
 
 - **What changed**: nothing on the site. No reader's photograph is waiting in the queue, no tip is unjudged, and no report is open.

@@ -2356,6 +2356,21 @@
     }
    ],
    "sent": []
+  },
+  "p_55175e1d5168ec9b0cca118d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "8259e0fc-4968-44e1-b245-6b7a178cdefc",
+     "tree_id": "par_002",
+     "tree_name": "The Cedar of Jussieu",
+     "city": "Paris",
+     "city_slug": "paris",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
