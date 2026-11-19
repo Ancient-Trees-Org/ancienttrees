@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: nothing new to put live, two loose ends closed
+
+- **No new trees or photographs.** The queue is empty and there are no open reports or unjudged tips.
+- **Mail reply 1282** is a second copy of the Brecon Cathedral cedar reply (1281): the reader knows nothing more. Closed `handled`, no change.
+- **Palheiro stone pines** (madeira/mdr_012): the reader's note is the estate's sign copied out, not their own words. The story already gives its 1837 planting as the sign's claim. reader_words marked done.
+- **Still left:** sighting 3c544597 (Amsterdam Stationsplein, "not sure which tree", ams_032). It's flagged `mine` (one of our own accounts) and its photograph still isn't on disk, so it isn't judged blind. It's our own photo, so it would never auto-publish anyway.
+
 ## 2026-11-19 reader judge: a sweet chestnut in Geetbets (Belgium) live, a mail reply filed
 
 - **New reader tree live: The Sweet Chestnut of Hulsbeek** (geetbets/gtb_001, a new one-tree place in Flemish Brabant). It's a big chestnut on open grass whose bark twists round the trunk in deep spiral furrows, with a plank bench facing it. The pin is the reader's GPS fix and their photograph is the lead. The app had named it "near Westerlo", but that's just our nearest place, 24 km off. An OpenStreetMap lookup puts the fix on Weg op Halen in Hulsbeek, Geetbets. The reader gave no age, girth or note, so the page asks for them.
