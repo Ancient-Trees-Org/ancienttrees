@@ -50,21 +50,7 @@
         "contributor_user_id": "p_19b3a0778e462c16dcceacf1",
         "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
         "note": "Photographed by a reader and sent through the app (2026-11-09); a viewing pass approved it on 2026-11-15: The cedar beside the cathedral spire, hazy light but clearly the tree. Species seen: Cedar: layered flat boughs, dark needles. Fits the description: large cedar with the cathedral spire behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      },
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/nwc_001-the-norwich-cathedral-cedar.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "source": "contributor",
-          "contributor_user_id": "p_19b3a0778e462c16dcceacf1",
-          "sighting_id": "1306c000-ed52-40f3-ad73-c6f414c5dbff",
-          "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole cedar beside the path with the cathedral's east end and spire behind in mist, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-        }
-      ]
+      }
     }
   ],
   "question_meta": "The cedar in Norwich Cathedral's close: where it stands and what is known about it.",

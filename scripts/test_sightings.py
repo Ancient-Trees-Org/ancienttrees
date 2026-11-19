@@ -202,5 +202,23 @@ class TestTrimBlack(unittest.TestCase):
         self.assertEqual(pub.trim_black(im).size, (1600, 1200))
 
 
+class TestSamePicture(unittest.TestCase):
+    """One photograph sent twice is never added twice (Hidde, 2026-11-19,
+    "double?", the Finer Holm Oak of Edinburgh Gardens)."""
+
+    def test_a_byte_identical_file_is_found(self):
+        import tempfile
+        d = tempfile.mkdtemp()
+        old, pub.PHOTOS = pub.PHOTOS, d
+        try:
+            for name, body in [("a.jpg", b"one"), ("b.jpg", b"one"), ("c.jpg", b"two")]:
+                open(os.path.join(d, name), "wb").write(body)
+            u = lambda n: "https://ancienttrees.app/photos/" + n
+            self.assertEqual(pub.same_picture({"url": u("b.jpg")}, [{"url": u("a.jpg")}]), u("a.jpg"))
+            self.assertIsNone(pub.same_picture({"url": u("c.jpg")}, [{"url": u("a.jpg")}]))
+        finally:
+            pub.PHOTOS = old
+
+
 if __name__ == "__main__":
     unittest.main()

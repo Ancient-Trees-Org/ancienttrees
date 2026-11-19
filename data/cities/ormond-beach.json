@@ -59,18 +59,6 @@
       },
       "photos": [
         {
-          "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "source": "contributor",
-          "contributor_user_id": "p_456665b8a773124350ec9019",
-          "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68",
-          "note": "Photographed by a reader and sent through the app (date unknown); looked at 2026-11-15: the whole oak from the clearing, moss-hung limbs spreading over the trunk, the plaque boulder at its foot, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-        },
-        {
           "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-limbs.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,

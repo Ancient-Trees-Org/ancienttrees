@@ -351,6 +351,37 @@ def drop_vendored(old_url):
     return removed
 
 
+def _local_file(url):
+    """Our own copy of a photograph on this site, or None."""
+    name = (url or "").split("/photos/")[-1]
+    path = os.path.join(PHOTOS, name)
+    return path if "/photos/" in (url or "") and os.path.exists(path) else None
+
+
+def same_picture(block, photos):
+    """The url of a photograph on this tree that is the same file as `block`,
+    byte for byte, or None.
+
+    A reader who sends one photograph twice (a resend, a second tap) put it on
+    the page twice under two names (Hidde, 2026-11-19, "double?", the Finer
+    Holm Oak of Edinburgh Gardens and the Wishing Tree in Sydney), and the
+    website's /visitors showed both. The second copy is never added.
+    """
+    import hashlib
+    new = _local_file(block.get("url"))
+    if not new:
+        return None
+    digest = hashlib.md5(open(new, "rb").read()).hexdigest()
+    for x in photos:
+        url = (x or {}).get("url")
+        if not url or url == block.get("url"):
+            continue
+        f = _local_file(url)
+        if f and hashlib.md5(open(f, "rb").read()).hexdigest() == digest:
+            return url
+    return None
+
+
 def apply_to_city(entry, block, as_extra=False, as_strip=False):
     """Put the photograph on the tree, as the lead or beside it.
 
@@ -374,6 +405,13 @@ def apply_to_city(entry, block, as_extra=False, as_strip=False):
     for t in city.get("trees", []):
         if t.get("id") == entry["tree_id"]:
             old = t.get("photo") or {}
+            # Its own sighting's copies are the promotion's to tidy (below).
+            twin = same_picture(block, [x for x in [old] + list(t.get("photos") or [])
+                                        if (x or {}).get("sighting_id") != entry["sighting_id"]])
+            if twin:
+                print(f"sightings publish: {entry['sighting_id']} is the same picture as {twin}, not added again")
+                drop_vendored(block["url"])
+                return None
             if as_strip:
                 extras = t.setdefault("photos", [])
                 urls = {(x or {}).get("url") for x in extras} | {old.get("url")}

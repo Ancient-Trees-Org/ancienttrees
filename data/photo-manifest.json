@@ -7102,12 +7102,6 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/nwc_001-the-norwich-cathedral-cedar.jpg": {
-   "base": "nwc_001-the-norwich-cathedral-cedar",
-   "widths": [
-    500
-   ]
-  },
   "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pino_di_Norfolk_%2836668%29.jpg": {
    "base": "not_001-norfolk-island-pine-of-the-villetta-ercole",
    "widths": [
@@ -7290,12 +7284,6 @@
   },
   "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-0adac3f1.jpg": {
    "base": "obc_001-the-fairchild-oak-0adac3f1",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/obc_001-the-fairchild-oak.jpg": {
-   "base": "obc_001-the-fairchild-oak",
    "widths": [
     500
    ]
@@ -9358,12 +9346,6 @@
   },
   "https://ancienttrees.app/photos/syd_006-the-wishing-tree-4be001d1.jpg": {
    "base": "syd_006-the-wishing-tree-4be001d1",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/syd_006-the-wishing-tree-f05d3a86.jpg": {
-   "base": "syd_006-the-wishing-tree-f05d3a86",
    "widths": [
     500
    ]

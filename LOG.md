@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 (session): one photograph sent twice is on a tree once
+
+- **What changed**: Hidde saw the Finer Holm Oak of Edinburgh Gardens twice on /visitors ("double?"). Angela S. had sent the same photograph twice (b6bb10c9, 3c0bacd4: byte-identical files), and both were in the tree's strip. A scan of every reader photograph found three more: the Wishing Tree in Sydney (4be001d1 and f05d3a86, same file), and Norwich Cathedral's cedar and the Fairchild Oak, where one sighting stood as the lead and again as a strip copy under an older name. Those four copies are off the pages now (the second sighting held with `--unstrip --send`, the old-name copies removed by hand).
+- **From now on**: `same_picture()` in scripts/sightings_publish.py refuses to put a file on a tree that is byte for byte a photograph it already shows, for the strip, an add and the lead alike. Test in scripts/test_sightings.py.
+
 ## 2026-11-19 (session): black bars cut off readers' screenshots; the Ashbrittle night shot off the page
 
 - **What changed**: two readers' photographs on /visitors stood between thick black bars (Hidde: "hoe komen die zwarte balken hier"). They were phone screenshots of a picture in the Photos app (740x1600, the home indicator still in them): the Fortingall yew (f2e99426) and Reelig Glen (691e83b3). Both are cut to the photograph now (740x976). **And from now on as a standard step** (Hidde: "laten we dat als standaard stap doen"): `trim_black()` in scripts/sightings_publish.py runs in `write_image`, so every reader photograph that goes live, judged or live first, loses pure-black bars. It only cuts pure black (a night photograph stays whole) and never more than leaves 40 percent of the picture. Tests in scripts/test_sightings.py. A scan of all 566 reader photographs found only these two.
