@@ -51,6 +51,17 @@ WAIT = datetime.timedelta(hours=1)
 GIVE_UP = datetime.timedelta(days=3)
 if "--days" in sys.argv:  # a one-off catch-up further back, run by a session on Hidde's word
     GIVE_UP = datetime.timedelta(days=int(sys.argv[sys.argv.index("--days") + 1]))
+# THE GUARDIAN-DAY CATCH-UP (Hidde, 2026-11-19, "waarom niet nu al?"): 31
+# people asked to sign in from 15 November on and never got in. The ones on
+# the Gmail route got their mail that evening (--days 6 --route gmail); the
+# Yahoo, Apple-relay and BT ones need Resend, which was full until midnight
+# UTC, so the knocks reach back six days between these two moments and send
+# theirs. Expires by itself.
+CATCH_UP = (datetime.datetime(2026, 11, 20, 0, 5, tzinfo=datetime.timezone.utc),
+            datetime.datetime(2026, 11, 20, 18, 0, tzinfo=datetime.timezone.utc))
+if CATCH_UP[0] <= datetime.datetime.now(datetime.timezone.utc) < CATCH_UP[1] and "--days" not in sys.argv:
+    GIVE_UP = datetime.timedelta(days=6)
+ROUTE = sys.argv[sys.argv.index("--route") + 1] if "--route" in sys.argv else None  # gmail | signed
 
 
 def _ts(s):
@@ -172,6 +183,8 @@ def main():
         u = all_users[uid]
         code = people.ref(uid, key)
         if not u.get("email") or state["retried"].get(code, {}).get("undeliverable"):
+            continue
+        if ROUTE and ROUTE != ("signed" if mailer.wants_resend(u["email"], mailer.EXPECTED) else "gmail"):
             continue
         if due(start, u["email"], state["retried"].get(code, {}).get("tries", []), now):
             todo.append((code, u, start))
