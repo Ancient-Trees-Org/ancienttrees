@@ -15,7 +15,7 @@
    "city": "Birmingham",
    "lat": 52.4083,
    "lon": -1.9647,
-   "reason": "One source only (Ancient Yew Group tree 7124, 'Notable', girth 400 cm at 1 m, taken from Street View and unverified, earliest mention a 1921 photograph). No age basis, no photo, no coordinate beyond churchyard grid ref SP0255079342. Churchyard public. Could ship as approximate with location_site if a second source or a Geograph photo of the yew turns up.",
+   "reason": "One source only (Ancient Yew Group tree 7124, 'Notable', girth 400 cm at 1 m, taken from Street View and unverified, earliest mention a 1921 photograph). No age basis, no photo, no coordinate beyond churchyard grid ref SP0255079342. Churchyard public. Could ship as approximate with location_site if a second source or a Geograph photo of the yew turns up. Recheck 2026-11-19: northfield-uk.blogspot.com 2015 church post returned an empty shell to curl; no second source for the yew (search found none); still one source.",
    "how_to_recognise": "A twisted yew at the top of the steps leading into St Laurence church (AYG Street View note).",
    "sources": [
     "https://www.ancient-yew.org/yew_tree_database/northfield/",

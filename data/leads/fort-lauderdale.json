@@ -16,7 +16,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Small girth (61 in) and no verifiable access detail on a Hollywood street address; not shown to be worth the walk"
+   "note": "2026-11-19 verify: Spiny black olive, Florida Champion (155 cm girth, 9.4 m, 2014), City of Hollywood, '1020 N. Lake Dr.' only; register comment 'NOT NATIVE... some bad pruning cuts'; no other source, lifecheck NONE, access unknown (could be a private lot). Ordinary size, not worth the walk on this evidence."
   },
   {
    "name": "CLUSIA, Florida / Pitch-apple / Autograph tree (COMPLETE)",
@@ -33,7 +33,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Small (81 cm girth, 5 m) champion in a state park; not remarkable to see"
+   "note": "2026-11-19 verify: Clusia, National Champion by register (81 cm girth, 5.2 m, 2019) at Hugh Taylor Birch State Park (paid vehicle entry, state park) but register gives only the park address, no spot inside a 180-acre park; small tree. No photo or exact pin in reach."
   },
   {
    "name": "SEAGRAPE (COMPLETE)",
@@ -50,7 +50,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: No girth or height in register, 0.01 degree rounded coordinate; no exact pin"
+   "note": "2026-11-19 verify: seagrape, register title 'Discontinued' with zero measurements: no champion data. Do not ship."
   },
   {
    "name": "COCOPLUM (COMPLETE)",
@@ -101,7 +101,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Small champion on a town swale (109 cm girth); street-verge tree, not remarkable"
+   "note": "2026-11-19 verify: Simpson's stopper pair on a Lauderdale-By-The-Sea swale (hotel-linked, Windjammer on E Terra Mar Dr per a Town Topics notice, which I could not read as text); register 2017, small trees (109 and 94 cm girth, 8 m); state treats two trunks as one tree. Not worth the walk, no photo or exact pin."
   },
   {
    "name": "STOPPER, Twinberry / Simpson's stopper (COMPLETE)",
@@ -134,8 +134,8 @@
     "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/309"
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
-   "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Canary Island date palm at a bridge ramp (203 cm girth, 18.9 m), register 2016; palm, location text vague, possible later pass"
+   "status": "verified",
+   "note": "delivered as ftl_011 in data/research/fort-lauderdale-verified.json, 2026-11-19"
   },
   {
    "name": "Yellow Tabebuia / Caribbean trumpet-tree / Paraguayan trumpe (COMPLETE)",
@@ -152,7 +152,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Roadside residential street tree measured 2014; location text 'east side of 13th Ave' rounded coordinate, no exact pin"
+   "note": "2026-11-19 verify: Yellow tabebuia, Florida Challenger; register text (Wayback 2023): 'east side of 13th Ave. between Broward Blvd. and SE 1st St., in front of #1305 Apt. Building just west of the pool area': apartment grounds, no evidence of public access. Held."
   },
   {
    "name": "Baobab (COMPLETE)",
@@ -220,7 +220,7 @@
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: National Co-Champion West Indian mahogany (467 cm girth, 21.6 m) at an address 'Seann Pavlik/1301 E. Broward Blvd' (an office address), measured 2013, register has no web link; access and ownership unverified, possibly private grounds. Strong candidate if access is settled: no photo or exact pin in reach"
+   "note": "2026-11-19 verify: West Indian mahogany, National Co-Champion (184 in, 71 ft, crown 84 ft, 2013), but register location is 'Seann Pavlik/ 1301 E. Broward Blvd' (an office/condo address) and monumentaltrees shows it 'behind' E Broward Blvd/NE 13th Ave: private grounds, no source says it is seen from public ground. Needs a viewing spot from the street before shipping."
   },
   {
    "name": "JAMAICAN NETTLETREE / Florida trema / Nettletree (COMPLETE)",
@@ -287,8 +287,8 @@
     "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/722"
    ],
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
-   "status": "open",
-   "note": "2026-11-14 verify pass, not delivered: Apple Blossom cassia in Flamingo Gardens (152 cm girth, 14.6 m), modest; could join the Flamingo group in a later pass"
+   "status": "verified",
+   "note": "delivered as ftl_012 in data/research/fort-lauderdale-verified.json, 2026-11-19"
   },
   {
    "name": "Sandbox tree (Florida Challenger)",

@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-19 night run (window from 01:37 UTC)
+- Rung 1: one reader photo (3c544597, 52.3972 4.8739) is not on disk here, so it stays open; never judged blind. Rung 2: health clear.
+- Rung 5/UK first: Birmingham verify pass found 0 publishable trees (no naming body, no tree coordinates; leads still single-source). Next angle: a reader GPS fix at the Botanical Gardens beech or the Highbury Park veteran survey. Claim released.
+- Fort Lauderdale verify pass: 2 trees verified (ftl_011 Las Olas bridge Canary Island date palm, ftl_012 Flamingo Gardens apple blossom tree), 5 rejects kept as leads. Not written (under six, no write pass). Claim left open for the next writer. 7 of 10 live trees there are behind paid entry, so free ones matter.
+- Hosts that failed: ffs.fdacs.gov detail pages (Wayback only), flamingogardens.org 403. Nothing published this window; nothing for Hidde.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
