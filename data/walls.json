@@ -212,16 +212,6 @@
       "released_at": "2026-11-17T06:30:35+00:00"
     },
     {
-      "slug": "graz",
-      "kind": "verify",
-      "released_at": "2026-11-17T17:32:17+00:00"
-    },
-    {
-      "slug": "nuremberg",
-      "kind": "verify",
-      "released_at": "2026-11-17T17:32:19+00:00"
-    },
-    {
       "slug": "frankfurt",
       "kind": "verify",
       "released_at": "2026-11-17T17:33:38+00:00"
@@ -310,6 +300,21 @@
       "slug": "san-francisco",
       "kind": "verify",
       "released_at": "2026-11-19T18:55:14+00:00"
+    },
+    {
+      "slug": "nuremberg",
+      "kind": "verify",
+      "released_at": "2026-11-19T21:56:43+00:00"
+    },
+    {
+      "slug": "graz",
+      "kind": "verify",
+      "released_at": "2026-11-19T21:56:46+00:00"
+    },
+    {
+      "slug": "melbourne",
+      "kind": "verify",
+      "released_at": "2026-11-19T21:56:48+00:00"
     }
   ]
 }

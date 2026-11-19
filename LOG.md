@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 night run, second attempt: nothing shipped, shelf is thin
+
+- Nothing changed in the product. READY leads: 0. The only unpublished verified trees are 3 (Fort Lauderdale 2, Taiwan 1), too few for a write pass (six minimum).
+- Claims tried and released at once: Portland and Porto refused (full), Nuremberg and Graz (3 of 16 and 0 of 11 leads carry a coordinate, so a pass would fail on the pin), Melbourne (0 of 4). Nuremberg, Graz and Melbourne are now 48h walls (data/walls.json).
+- Sighting 3c544597 (Amsterdam Stationsplein) still has no photograph on disk, so it stays open. corroborate.py: no register entry or article within 300 m.
+- Not done: the refill pass (905 leads need only a source), Venlo register build (Venlo is walled), translations (paused while TRANSLATIONS_OUT holds). The next run with a stronger session should start with the refill batch.
+
 ## 2026-11-19 night run (21:50 UTC): a Melbourne coral tree from a reader goes live
 
 - **Live**: a reader's tree in Melbourne's Royal Botanic Gardens, "The Whomping Willow Coral Tree" (mel_020): a knuckled, pollarded-looking cockscomb coral-tree (Erythrina crista-galli) whose garden label says it is listed on the National Trust Register of Significant Trees of Victoria. GPS fix, confirmed pin, their words quoted. The reader had written "Mandela's Coral Tree, Erythrina afra"; the label says crista-galli, so the page follows the label. The register listing is read from the label only (corroborate.py found no register entry within 100 m).
