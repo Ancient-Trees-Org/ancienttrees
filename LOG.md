@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Akron pin report, one feedback message
+
+- The two new trees (a40f07a6, e99b9502) had already been held as `not_special` by the run below, and its verdicts stand. This run agreed with both.
+- **Report 1000092**: the reader who sent the Signal Tree of Akron (held `not_public`, Chuckery Area closed to 2028) moved its pin 31 m east in the app. The photo's GPS fix stays the pin; their spot is noted on the lead in case it is a viewing place from open ground. Closed `holds`, no mail (their own tree, not live).
+- **Feedback 1273** (an offer of help from someone who studied trees): `needs_hidde`, no reply drafted.
+- **Not judged**: 3c544597 (Amsterdam, one of our own accounts) has no photo on this machine, so it waits.
+
 ## 2026-11-19 reader judge: two new reader trees held as not special
 
 - **Held, no mail** (`not_special`), both sent after the earlier run that published the Saratoga Park oak photograph: a40f07a6 is a slender young tree in regrowing scrub by a dirt track in Thailand. e99b9502 ("Fig") is a medium street tree under cables in Jakarta and does not plainly look like a fig. This run made the same calls on the two New York photographs as that run, which pushed first, so its versions stand.
