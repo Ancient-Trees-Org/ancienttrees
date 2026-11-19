@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 (session): no more duplicate photographs on /visitors and the home row
+
+- **What changed**: the website's New from visitors row and its See all page showed the same picture twice (Hidde: "i see a lot of duplicates here"). A visitor photograph the build did not carry as that visitor's own showed the tree's lead in its place, which was often another visitor's tile. Two kinds: photographs that went live after the last deploy (they appear with the next one), and photographs the server still counts as published although they came off the page (c4b5f1b1, Valley Forge, "not one they took"; 21 of 430 rows that day). The website now skips such a row, as the apps already did (site/src/lib/visitors-page-js.ts, visitors-row-js.ts).
+- **Not fixed here**: the server's `visitor_photos` and `new_from_visitors` still return photographs taken off a page. Harmless now that every surface skips them, but the row a photograph's removal should clear on the server is worth a look by a session.
 ## 2026-11-19 reader judge: six readers' trees live, Yakushima, Pemberton and a new place, Mumbai
 
 - One reader sent six trees from three trips. All six were looked at, all have a GPS fix, and all are live under the closed list:

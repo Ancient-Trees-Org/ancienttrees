@@ -47,7 +47,11 @@ export function visitorsRowJs(visitorWord: string): string {
     var seen = {}, html = [];
     rows.forEach(function (r) {
       var c = cards[r.tree_id];
-      if (!c || seen[r.tree_id]) return;
+      // Only a photograph this build carries as THAT visitor's: one that went
+      // live after the build used to show the tree's lead in its place, the
+      // same picture as another tile (Hidde, 2026-11-19: "i see a lot of
+      // duplicates here"). It appears with the next deploy, as in the apps.
+      if (!c || seen[r.tree_id] || !(c.s && c.s[r.sighting_id])) return;
       seen[r.tree_id] = 1;
       // A generated name prints and links like any other (Hidde, 2026-11-07:
       // "a visitor is weird that its unclickable just give the link to their
@@ -61,7 +65,7 @@ export function visitorsRowJs(visitorWord: string): string {
       var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>';
       html.push('<div class="shelf-card nfv-card">' +
         '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="home-visitors" data-detail="' + esc(r.tree_id) + '">' +
-        '<span class="shelf-ph"><img src="' + esc((c.s && c.s[r.sighting_id]) || c.p) + '" alt="" loading="lazy"></span>' +
+        '<span class="shelf-ph"><img src="' + esc(c.s[r.sighting_id]) + '" alt="" loading="lazy"></span>' +
         '<b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' +
         (real
           ? (r.author_id

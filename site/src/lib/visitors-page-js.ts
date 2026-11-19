@@ -57,7 +57,7 @@ export function visitorsPageJs(visitorWord: string): string {
   }
   function tile(r, prev) {
     var c = cards[r.tree_id];
-    var src = (c.s && c.s[r.sighting_id]) || c.p;
+    var src = c.s[r.sighting_id];
     var d = c.d && c.d[r.sighting_id];
     var img = d
       ? '<img src="' + esc(src) + '" width="' + d[0] + '" height="' + d[1] + '" alt="" loading="lazy">'
@@ -105,7 +105,12 @@ export function visitorsPageJs(visitorWord: string): string {
     list.forEach(function (r) {
       r.prev = prevRaw;
       prevRaw = r;
-      if (!cards[r.tree_id]) return;
+      // Only a photograph this build carries as THAT visitor's: one that went
+      // live after the build used to show the tree's lead in its place, the
+      // same picture as another tile (Hidde, 2026-11-19: "i see a lot of
+      // duplicates here"). It appears with the next deploy, as in the apps.
+      var c = cards[r.tree_id];
+      if (!c || !(c.s && c.s[r.sighting_id])) return;
       rows.push(r);
       place(tile(r, r.prev));
     });
