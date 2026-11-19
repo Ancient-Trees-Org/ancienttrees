@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge (second run): tree notes read, the Maits Rest beech was already done
+
+- A second reader-judge run judged the same Maits Rest sighting in parallel and reached the same verdict; its duplicate was dropped in favour of the entry below. What it adds: two new tree notes read (pwt_001 Ada Tree, nij_017 Nijmegen copper beech), nothing on the closed list, both stay, marked seen.
+
 ## 2026-11-19 reader judge: the Maits Rest myrtle beech live near Apollo Bay
 
 - **New tree, apollo-bay/apb_001, The Myrtle Beech of Maits Rest**: a reader's app photograph with a GPS fix on the Maits Rest Rainforest Walk (Great Otway National Park, 12 km west of Apollo Bay). Fused red-brown trunks among ferns, daylight, colour, plus the reader's own shot of the Heritage Tree disc. The National Trust of Australia's Register of Significant Trees (trusttrees.org.au) lists it: about 200 years, 30 m, "possibly 2 or 3 trees which have grown together". So it has a source and a register link, the pin is `confirmed` from the GPS fix, and the access line says it is free. It is a new one-tree place, so it has no place page yet. It comes from the same reader as wee_001 but is 13 km from it, so it is a different tree. The intake's name for it ("near Weeaproinah") came from reverse geocoding and was wrong.
