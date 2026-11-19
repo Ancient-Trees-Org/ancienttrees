@@ -2266,6 +2266,21 @@
      "mailed": "2026-11-19"
     }
    ]
+  },
+  "p_9cbe8e962df4d0438129668a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "8dfcc988-999d-4d68-967f-0cb0f120f8bb",
+     "tree_id": "nwf_002",
+     "tree_name": "The Giant Sequoias of the Tall Trees Trail",
+     "city": "New Forest",
+     "city_slug": "new-forest",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

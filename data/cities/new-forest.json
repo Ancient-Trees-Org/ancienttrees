@@ -84,16 +84,17 @@
       "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix, showing two giant sequoias flanking the track. Planting date 1859 from a Waymarking listing (one source); girth 9.41 m (October 2019) from redwoodworld.co.uk; heights there are visitor estimates and are not used. Species is Sequoiadendron giganteum as the Waymarking listing says. Two trees, one spot, treated as one collectible point because the pair is the destination. Pin is the reader's GPS fix: confirmed.",
       "access": "Free; the Tall Trees Trail is a waymarked walk from the Blackwater car park on the Rhinefield Ornamental Drive. Forestry England car park charges may apply.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail.jpg",
+        "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail-8dfcc988.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
+        "width": 900,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_f127bf781505453e3305184d",
-        "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
-        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: Two giant sequoias flanking the track, whole trees in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_9cbe8e962df4d0438129668a",
+        "sighting_id": "8dfcc988-999d-4d68-967f-0cb0f120f8bb",
+        "note": "Photographed by a reader and sent through the app (2025-11-17); a viewing pass approved it on 2026-11-19: The whole giant sequoia from the track, red fluted trunk to its narrow spire against a clear blue sky, a person at its foot for scale, autumn oaks and a cedar around it; bright daylight and colour (the POOR light score misreads the even blue sky). A finer lead than the current one. Species seen: tall narrow conifer crown, thick fibrous red-brown trunk flaring at the base, typical giant sequoia. Fits the description: a very tall red-barked conifer with a narrow crown beside a grass track on the Tall Trees Trail, a second tall conifer at the right edge.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -102,7 +103,21 @@
         "source": "a reader's app photograph",
         "date": "2026-11-17",
         "note": "GPS fix at the trees."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
+          "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: Two giant sequoias flanking the track, whole trees in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "Two big trees in the New Forest, Hampshire: the ancient Knightwood Oak and the giant sequoias of the Tall Trees Trail.",

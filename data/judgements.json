@@ -18512,6 +18512,28 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:8dfcc988-999d-4d68-967f-0cb0f120f8bb",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "The Giant Sequoias of the Tall Trees Trail",
+   "city": "New Forest",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/8dfcc988-999d-4d68-967f-0cb0f120f8bb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "publish",
+   "reason": "Live as new-forest/nwf_002, now its lead photograph: the whole giant sequoia from the track to its spire against a blue sky, a person at its foot (looked at, 2026-11-19).",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

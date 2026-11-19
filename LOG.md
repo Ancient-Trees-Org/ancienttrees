@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: a new lead photograph for the New Forest sequoias
+
+- New Forest nwf_002: another reader's photograph of the giant sequoia on the Tall Trees Trail is now the lead (`add`, through `sightings_publish.py --send`): the whole tree from trunk to spire against a blue sky, with a person at its foot for scale. The old lead moves into the strip. The light script scored it POOR because of the even sky, and a reader's photograph is never refused on that score. Written verdict `sight:8dfcc988` in judgements.json.
+- This run also wrote the same six Yakushima, Pemberton and Mumbai trees, but a parallel run pushed them first (d87f31b7f). I dropped my copy, so main's version stands and nothing is duplicated.
+- Still waiting: lead 3c544597 (Amsterdam, one of our own accounts). Its photograph is not on this runner, so it was not judged blind. No open reports, no feedback without a verdict.
+
 ## 2026-11-19 (session): no more duplicate photographs on /visitors and the home row
 
 - **What changed**: the website's New from visitors row and its See all page showed the same picture twice (Hidde: "i see a lot of duplicates here"). A visitor photograph the build did not carry as that visitor's own showed the tree's lead in its place, which was often another visitor's tile. Two kinds: photographs that went live after the last deploy (they appear with the next one), and photographs the server still counts as published although they came off the page (c4b5f1b1, Valley Forge, "not one they took"; 21 of 430 rows that day). The website now skips such a row, as the apps already did (site/src/lib/visitors-page-js.ts, visitors-row-js.ts).
