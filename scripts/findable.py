@@ -47,6 +47,8 @@ def has_photo(tree):
 
 def on_a_small_site(tree):
     site = tree.get("location_site") or {}
+    if not isinstance(site, dict):  # a bare name has no radius (2026-11-19 deploy)
+        return False
     try:
         r = float(site.get("radius_m"))
     except (TypeError, ValueError):
