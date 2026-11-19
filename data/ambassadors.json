@@ -1315,6 +1315,26 @@
         "The Twisted Beech of the Trollskogen"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_55b71f863ab5453c822af0ed",
+      "place_slug": "apollo-bay",
+      "place_name": "Apollo Bay",
+      "date": "2026-11-19",
+      "trees": [
+        "The Myrtle Beech of Maits Rest"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_cafbc51df440914a5f48f6a0",
+      "place_slug": "palm-beach",
+      "place_name": "Palm Beach",
+      "date": "2026-11-19",
+      "trees": [
+        "The Royal Poinciana Chapel Kapok"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [

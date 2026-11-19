@@ -2165,28 +2165,20 @@
    ]
   },
   "p_57c98e1ef3e54e44a10e0ab7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-19",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "7d406ac5-86cd-4e9b-bb12-0d096bb70555",
      "tree_id": "kyw_003",
-     "tree_name": "The Kapok Tree",
-     "city": "Key West",
-     "city_slug": "key-west",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-19"
     },
     {
      "sighting_id": "2d8363ff-5a96-4d90-af36-bb86771d64dc",
      "tree_id": "kyw_004",
-     "tree_name": "The Cosgrove House Banyan",
-     "city": "Key West",
-     "city_slug": "key-west",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-19"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
