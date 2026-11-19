@@ -20,6 +20,10 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Left for the next run**: sighting 3c544597 (Amsterdam, 52.3972,4.8739): its photograph is not on disk, so not judged blind.
 - No open feedback; no reader words waiting.
 
+## 2026-11-19 session: a bookmark on every tile of /visitors
+
+Live: every tile on the New from visitors page (/visitors, all languages) carries the card bookmark the city lists and map cards already have, at the highlight card's 32px. Signed out it opens the sign-in sheet for that tree; signed in it saves to Want to go. Checked live at 375px and desktop (commit 64c452307). Not done: the home page's New from visitors row and the app's visitor tiles (VisitorPhotos.swift) still have no save.
+
 ## 2026-11-19 daily publish
 
 - **Daily publish: queue empty.** No builder newer than build_write_2026_11_17 on disk or on origin; the untracked data/research/puglia-held/ files (bsg_001, fum_001, plj_001, vgg_001) and the 11-02 Puglia trio are all live in data/cities/. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
