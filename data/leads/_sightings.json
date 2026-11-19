@@ -7734,6 +7734,37 @@
    "seen": "2026-11-19",
    "hold": "no_location",
    "judged": "2026-11-19"
+  },
+  {
+   "sighting_id": "aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
+   "user_id": "p_68e3fe2f2c08d678d123d61f",
+   "mine": false,
+   "name": "Mandela'S Coral Tree in Melbourne",
+   "unsure_among": null,
+   "species": "Mandela'S Coral Tree (Erythrina afra)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Listed on the national trust register… our own Harry Potter whomping willow",
+   "latitude": -37.830533143467,
+   "longitude": 144.977047494085,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_68e3fe2f2c08d678d123d61f/ABA8F604-0C2B-4AE7-ADAB-A5E40BC28F57.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/aba8f604-0c2b-4ae7-adab-a5e40bc28f57-extra-1.jpg"
+   ],
+   "nearest_published_m": 312,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-19"
   }
  ]
 }
