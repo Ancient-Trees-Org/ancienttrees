@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-19T13:25Z",
+  "synced": "2026-11-19T16:37Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -235,7 +235,7 @@
       "place_name": "York",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Laurie C.",
+      "display_name": "Laurie G.",
       "profile_public": true
     },
     {
@@ -254,6 +254,15 @@
       "public": true,
       "since": "2026-11-19",
       "display_name": "Olivia B.",
+      "profile_public": true
+    },
+    {
+      "user_id": "252cb970-b683-4917-b6d1-5f13ef7798bc",
+      "place_slug": "inistioge",
+      "place_name": "Inistioge",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "Ram Jack",
       "profile_public": true
     },
     {
@@ -1681,6 +1690,13 @@
       "user_id": "p_48cd024c76fcb12fe2d458cc",
       "place_slug": "brisbane",
       "place_name": "Brisbane",
+      "date": "2026-11-19"
+    },
+    {
+      "row": 1276,
+      "user_id": "p_a915d9e03e385ddb1824e749",
+      "place_slug": "inistioge",
+      "place_name": "Inistioge",
       "date": "2026-11-19"
     }
   ],
