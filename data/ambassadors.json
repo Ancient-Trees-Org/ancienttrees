@@ -1335,6 +1335,16 @@
         "The Royal Poinciana Chapel Kapok"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_57c98e1ef3e54e44a10e0ab7",
+      "place_slug": "atlanta",
+      "place_name": "Atlanta",
+      "date": "2026-11-19",
+      "trees": [
+        "The Adair Park Ginkgo"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
