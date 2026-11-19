@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-19 reader judge: one Adelaide report and one mail reply, nothing new live
+- Nothing changed on the site. No new trees or photographs waited; the one lead left, 3c544597, is our own account and its file is not on this machine, so it waits again.
+- **Report 1000088 (Adelaide, ads_002 The Red Gum of Glynburn Road)**: the reader gave "364 Glynburn Road, Kensington Gardens", which is already our address. The pin is a reader's GPS fix at the tree (confirmed), so it stays. tree_reports.py counts the address as the reader's own words, so no standard thank-you: closed `holds`, suggested answer in drafts/reply-reader-1000088-2026-11-19.md.
+- **Feedback 1232 (mail reply to row 1120)**: the reader turns down the ambassador role (they do not live there), asks what height girth is measured at, and says they love the site. Closed `needs_hidde`, suggested answer (1.3 m, the register standard) in drafts/reply-reader-1232-2026-11-19.md; closed in reader_words.py as not about the tree.
+
 ## 2026-11-19 reader judge: the rest of the batch, six trees live, the Anseman doubt settled
 - Same reader's batch as the runs below; Serenbe and the McDonogh photo were already in from them, so this run rebuilt its work on top of theirs. Every photograph viewed.
 - **Live, new place**: islamorada/isl_001, the banyan of The Banyan Tree garden and shop, 81197 Overseas Highway (visitor listings as source; named only as a fig, the reader says Indian banyan). Islamorada added to us-states.json and city-aliases.json, with intro, question texts and three FAQ. One tree, so no place page on the web.

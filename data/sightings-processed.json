@@ -5072,7 +5072,8 @@
    "city_slug": "serenbe",
    "file": "srb_001-grandfather-pine-at-serenbe.jpg",
    "reason": "Already live as the lead photograph of the tree this reader's photograph created (srb_001, looked at 2026-11-19).",
-   "already_lead": true
+   "already_lead": true,
+   "pin_checked": "2026-11-19"
   },
   "1d409917-a8ff-4792-9a65-551e607a6d18": {
    "outcome": "published",
@@ -5081,7 +5082,8 @@
    "city_slug": "serenbe",
    "file": "srb_002-grandmother-beech-at-serenbe.jpg",
    "reason": "Already live as the lead photograph of the tree this reader's photograph created (srb_002, looked at 2026-11-19).",
-   "already_lead": true
+   "already_lead": true,
+   "pin_checked": "2026-11-19"
   },
   "417749a0-3387-4bd0-853a-ce00cd4dad90": {
    "outcome": "published",
@@ -5100,7 +5102,8 @@
    "tree_id": "nol_002",
    "reason": "A big live oak by the lagoon with a sidewalk in front, GPS fix 126 m north of the Anseman Oak's pin (itself another reader's GPS fix), and a different trunk from the Anseman's lead photo (forked mid-height, no burls). Another City Park oak: judge as a new tree.",
    "tree": "new-orleans/nol_009",
-   "judged": "2026-11-19"
+   "judged": "2026-11-19",
+   "pin_checked": "2026-11-19"
   },
   "6ae2d9b6-0162-4005-9aac-c047d60cd052": {
    "outcome": "published",
