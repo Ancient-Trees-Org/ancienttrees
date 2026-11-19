@@ -305,6 +305,11 @@
       "slug": "freiburg",
       "kind": "verify",
       "released_at": "2026-11-18T23:29:42+00:00"
+    },
+    {
+      "slug": "venlo",
+      "kind": "verify",
+      "released_at": "2026-11-19T09:54:23+00:00"
     }
   ]
 }

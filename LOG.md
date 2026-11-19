@@ -18,6 +18,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - Gdansk, Park Oliwski: the Cucumber Magnolia and the Giant Thuja got their first lead photographs (summer magnolia, autumn frame and the thuja plaque in the strip), the katsura's plaque and label joined its strip, Melbourne's holm oak kept its strip photo. Six weak or ambiguous frames held (underexposed, snow, bent conifers not clearly the thuja).
 - Wrong on the site: two readers' photographs (2024-06 and a snow day, Pomnik Przyrody plaque on the trunk) show **the Ivy Elm of Park Oliwski (gda_012) lying fallen**. Retired with `retire.py`; Gdansk and park-page counts and copy rewritten (twelve to eleven, six to five).
 - Also fixed: two colon reveals, Madeira counts (twelve). Still open: 3c544597 (unnamed, Amsterdam coordinates, photo not on disk).
+- Rung 5: a verify pass on Birmingham (top of the UK-first list, 0 trees) came back dry for the eighth time and shipped nothing; the only route left is a browser read of the Botanical Gardens' Garden Explorer tour #12 (lead updated). Venlo was claimed and released unworked (Netherlands is over-represented), so it is a wall for 48h. Rung 2 was clear (web error orange: one new TypeError, below the red threshold).
 - For Hidde: nothing.
 
 ## 2026-11-19 reader judge: Gdansk maples get their first photograph, two more of the Melbourne fig, magnolia and cedar girths from readers
