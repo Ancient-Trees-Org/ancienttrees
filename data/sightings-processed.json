@@ -5533,6 +5533,21 @@
    "date": "2026-11-19",
    "tree_id": "gtb_001",
    "pin_checked": "2026-11-19"
+  },
+  "tip-1284": {
+   "outcome": "held",
+   "date": "2026-11-19"
+  },
+  "3eebbeda-bc83-4630-a35d-9a5f3ae19aa4": {
+   "outcome": "published",
+   "date": "2026-11-19",
+   "tree_id": "can_008",
+   "city_slug": "canberra",
+   "file": "can_008-grant-crescent-blue-gums.jpg",
+   "reason": "one big blue gum fills the frame on mown grass at a street corner with a give-way sign, a stout single trunk splitting into pale smooth limbs under a very wide crown; daylight, colour, autumn street trees behind Species seen: eucalypt: smooth cream and tan limbs shedding long ribbons of bark at the ",
+   "lat": -35.323995,
+   "lon": 149.130988,
+   "pin_checked": "2026-11-19"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

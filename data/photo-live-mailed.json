@@ -2383,6 +2383,21 @@
      "mailed": "2026-11-19"
     }
    ]
+  },
+  "p_c04ed68243689ce22381722a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3eebbeda-bc83-4630-a35d-9a5f3ae19aa4",
+     "tree_id": "can_008",
+     "tree_name": "Grant Crescent Blue Gums",
+     "city": "Canberra",
+     "city_slug": "canberra",
+     "display_name": null,
+     "live": "2026-11-19"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

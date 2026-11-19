@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-19 reader judge: Canberra blue gums get their first photo, Zetland fig held for its place
+
+- **Live**: a reader's photograph is now the lead photo of Canberra's Grant Crescent Blue Gums (can_008), which had none: the stoutest gum standing in leaf at the corner, filed under autumn (May) by the street trees' colour. It also answers the story's ask that they still stand (noted in verify_notes).
+- **Pin**: report 1000094 moved can_008's approximate pin 12 m by hand; taken, still approximate, standard pin thank-you sent.
+- **Held**: tip-1284, a fine big Hills fig "in Zetland", Sydney, with no GPS fix and no site named; the City of Sydney register and a search name none in Zetland, so `no_location` and the standard mail asks where it stands.
+- **Left for the next run**: sighting 3c544597 (Amsterdam, 52.3972,4.8739): its photograph is not on disk, so not judged blind.
+- No open feedback; no reader words waiting.
+
 ## 2026-11-19 daily publish
 
 - **Daily publish: queue empty.** No builder newer than build_write_2026_11_17 on disk or on origin; the untracked data/research/puglia-held/ files (bsg_001, fum_001, plj_001, vgg_001) and the 11-02 Puglia trio are all live in data/cities/. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.

@@ -298,10 +298,11 @@
       "height_m": 21,
       "location": {
         "address": "Corner of Grant Crescent and La Perouse Street (opposite 17 Grant Crescent), Griffith ACT",
-        "latitude": -35.323995,
-        "longitude": 149.130988,
+        "latitude": -35.324034,
+        "longitude": 149.131117,
         "neighbourhood": "Griffith"
       },
+      "pin_source": "reader report 1000094, pin moved by hand 12 m from the register's crown-polygon mean; a hand-placed spot, so still approximate",
       "verified_sources": [
         "http://web.archive.org/web/2025/https://www.cityservices.act.gov.au/__data/assets/pdf_file/0004/1607521/Griffith-RT1033-Group.pdf",
         "data/registers/act-tree-register.json (ArcGIS ACTGOV_Tree_Register_public_view, CC BY 4.0, fetched 2026-10-27)"
@@ -314,14 +315,22 @@
       "transport": "About 5.1 km south of Civic by straight line; public transport route not checked",
       "location_precision": "approximate",
       "curation_status": "flagged",
-      "verify_notes": "Four single-trunk southern blue gums registered together in July 2020. Register PDF: tree 1 girth 5.7 m, 24 m tall, canopy 28.2 m; tree 2 3.7 m, 26 m, 21.7 m; tree 3 4.4 m, 21 m, 27.5 m; tree 4 6.5 m, 20.5 m, 30.4 m. The ArcGIS table lists girths 650, 570, 370, 440 cm and heights 21, 24, 26, 21 m for the same four, matching the PDF within rounding (the 650 cm tree is the PDF's tree 4, 20.5 m tall). girth_cm 650 is the largest single trunk. The register's grid points for the four trees span about 30 m, so one place to stand. Register criteria: landscape and aesthetic value; 'beautiful, large blue gum trees'. AGE: none; no source says when or by whom they were planted or whether they are remnants. ALIVE: flagged, register decision 2020-07-03 (over five years ago), lifecheck NONE. Pin: Pin is the mean of the register's crown polygon (data/registers/act-tree-register.json), so approximate. A hand conversion (unverified) of the PDF's MGA55 grid point landed about 40 m west of that polygon mean on three PDFs, so neither is treated as the trunk.",
+      "verify_notes": "Four single-trunk southern blue gums registered together in July 2020. Register PDF: tree 1 girth 5.7 m, 24 m tall, canopy 28.2 m; tree 2 3.7 m, 26 m, 21.7 m; tree 3 4.4 m, 21 m, 27.5 m; tree 4 6.5 m, 20.5 m, 30.4 m. The ArcGIS table lists girths 650, 570, 370, 440 cm and heights 21, 24, 26, 21 m for the same four, matching the PDF within rounding (the 650 cm tree is the PDF's tree 4, 20.5 m tall). girth_cm 650 is the largest single trunk. The register's grid points for the four trees span about 30 m, so one place to stand. Register criteria: landscape and aesthetic value; 'beautiful, large blue gum trees'. AGE: none; no source says when or by whom they were planted or whether they are remnants. ALIVE: flagged, register decision 2020-07-03 (over five years ago), lifecheck NONE. Pin: Pin is the mean of the register's crown polygon (data/registers/act-tree-register.json), so approximate. A hand conversion (unverified) of the PDF's MGA55 grid point landed about 40 m west of that polygon mean on three PDFs, so neither is treated as the trunk. 2026-11-19: a reader's photograph (sighting 3eebbeda) shows the stoutest standing in leaf, and the same day a reader moved the pin 12 m (report 1000094), taken as an approximate hand-placed spot.",
       "story": "The stoutest of these four blue gums is the shortest of them. Its trunk is 6.5 metres round, its crown more than 30 metres wide, and it stands only 20.5 metres tall, while the slimmest of the group, at 3.7 metres round, reaches 26.\n\nThe ACT Tree Register listed all four together in July 2020, and its assessors did not dress the reason up. They are beautiful, large blue gum trees, the register says, valued for their landscape and their looks. The other two measure 5.7 metres round and 24 metres tall, and 4.4 metres round and 21 metres tall, with crowns between 21 and 28 metres across. Each grows from a single trunk, and the four stand within about 30 metres of one another at the corner of Grant Crescent and La Perouse Street in Griffith, so one spot on the corner takes in the lot.\n\nTheir past is a blank. No source says who planted them or when, or whether they were here before the street was. The register gives no age, and we will not guess one from girth alone. If you know their story, tell us. The listing is from 2020 and we have found no later record, so a word that they still stand helps too.",
       "how_to_recognise": "You can recognise them as four big blue gums within about 30 metres of each other; the stoutest is 6.5 metres round with the widest crown. They stand at the corner of Grant Crescent and La Perouse Street, opposite number 17.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/can_008-grant-crescent-blue-gums.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 5,
+        "taken_month_basis": "no date in the file; the street trees behind are in full autumn colour, and Canberra's autumn peaks in May",
+        "source": "contributor",
+        "contributor_user_id": "p_c04ed68243689ce22381722a",
+        "sighting_id": "3eebbeda-bc83-4630-a35d-9a5f3ae19aa4",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-19: one big blue gum fills the frame on mown grass at a street corner with a give-way sign, a stout single trunk splitting into pale smooth limbs under a very wide crown; daylight, colour, autumn street trees behind Species seen: eucalypt: smooth cream and tan limbs shedding long ribbons of bark at the base, rough dark lower trunk, narrow grey-green hanging leaves. Fits the description: a single-trunked blue gum with the widest crown, on open council grass at a road corner opposite houses, matching the stoutest of the four at Grant Crescent and La Perouse Street.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]

@@ -7707,6 +7707,33 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "geetbets/gtb_001"
+  },
+  {
+   "sighting_id": "tip-1284",
+   "user_id": "p_c04ed68243689ce22381722a",
+   "mine": false,
+   "name": "Hills Fig in Zetland",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": 1000,
+   "girth_hugs": null,
+   "note": "A very old Hills Fig that was probably planted at a time when this area was a major industrial area, south of Sydney's CBD. These days, it lies amongst high residential towers.",
+   "latitude": null,
+   "longitude": null,
+   "near": "Sydney",
+   "taken_month": 11,
+   "photo": "p_c04ed68243689ce22381722a/581ebfae-9b85-4bc1-a495-40f8690959d1.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": null,
+   "status": "held",
+   "why": "photo shows a big, many-limbed Hills fig with a buttressed base beside a path and timber seating among apartment blocks, somewhat special; no GPS fix and only 'Zetland, Sydney' given, and the City of Sydney significant-tree register and a web search name no Hills fig in Zetland, so the spot cannot be placed honestly. Standard no_location mail asks where it stands.",
+   "seen": "2026-11-19",
+   "hold": "no_location",
+   "judged": "2026-11-19"
   }
  ]
 }

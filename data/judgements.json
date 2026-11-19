@@ -1871,6 +1871,49 @@
    "agreed": null
   },
   {
+   "id": "sight:3eebbeda-bc83-4630-a35d-9a5f3ae19aa4",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "Grant Crescent Blue Gums",
+   "city": "Canberra",
+   "species": "Eucalyptus (Eucalyptus globulus subsp. bicostata)",
+   "photo": "out/sightings/3eebbeda-bc83-4630-a35d-9a5f3ae19aa4.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eucalyptus (Eucalyptus globulus subsp. bicostata)"
+   },
+   "verdict": "publish",
+   "reason": "lead photograph of can_008 Grant Crescent Blue Gums: the stoutest blue gum standing in leaf at the street corner; the tree had no photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1284",
+   "seen": "2026-11-19",
+   "kind": "a tree we do not map",
+   "tree": "Hills Fig in Zetland",
+   "city": "Sydney",
+   "species": null,
+   "photo": "p_c04ed68243689ce22381722a/581ebfae-9b85-4bc1-a495-40f8690959d1.jpg",
+   "reader_note": "A very old Hills Fig that was probably planted at a time when this area was a major industrial area, south of Sydney's CBD. These days, it lies amongst high residential towers.",
+   "reader_girth_cm": 1000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "no_location: a fine big Hills fig among apartments, but no GPS fix and no named site beyond Zetland; standard mail asks where it stands",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
    "seen": "2026-11-18",
    "kind": "a tree we do not map",
