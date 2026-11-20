@@ -1115,7 +1115,13 @@ def reader_found(tree):
     import ours
     if not (tree.get("found_by_reader") or {}).get("sighting_id"):
         return False
-    if tree.get("location_precision") != "confirmed":
+    # A GPS fix OR the reader's own photograph (Hidde, 2026-11-17, the closed
+    # list: "we need either a gps or photo and it needs to be somewhat
+    # special"). Since 2026-11-20 a pin the reader placed by hand is recorded
+    # as such and stays approximate (check_a_hand_placed_pin_is_not_a_fix);
+    # with their own photograph below it still stands in for a source.
+    hand = isinstance(tree.get("pin_source"), dict) and tree["pin_source"].get("kind") == HAND_PLACED
+    if tree.get("location_precision") != "confirmed" and not hand:
         return False
     shots = [tree.get("photo") or {}] + list(tree.get("photos") or [])
     # A photograph whose account was later deleted is `unlinked` (photo_takedown.py):
