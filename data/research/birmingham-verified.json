@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "cft_001",
+    "name": "Cofton Hackett churchyard yew",
+    "species": "Common Yew (Taxus baccata)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 800,
+    "location": {
+      "address": "St Michael and All Angels churchyard, Cofton Church Lane, Cofton Hackett, B45 8BD",
+      "latitude": 52.37599,
+      "longitude": -1.98425,
+      "neighbourhood": "Cofton Hackett (Bromsgrove district, on Birmingham's southern edge)"
+    },
+    "verified_sources": [
+      "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329",
+      "https://www.ancient-yew.org/yew_tree_database/cofton-hackett/",
+      "https://heritage.churchofengland.org/buildings/724"
+    ],
+    "official_register": {
+      "name": "Woodland Trust Ancient Tree Inventory",
+      "url": "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329"
+    },
+    "access": "Free; open churchyard (ATI: public, open access; AYG: access Public). Opening of the church itself not checked.",
+    "location_precision": "approximate",
+    "location_site": {
+      "name": "St Michael and All Angels churchyard, Cofton Hackett",
+      "radius_m": 50
+    },
+    "curation_status": "flagged",
+    "verify_notes": "Two independent records. (1) Woodland Trust Ancient Tree Inventory 253329, recorded by Owen Johnson for the Tree Register of the British Isles, surveyed 2 March 2024: ancient tree, alive, form 'phoenix', standing or fallen 'fragmented', girth 8.00 m at 0.10 m (a low measurement on a hollowing, fragmented trunk, so not comparable with a girth at 1.5 m), condition hollowing trunk, surroundings churchyard, public open access, grid ref SP0116975328. (2) Ancient Yew Group database, site Cofton Hackett (St Michael and All Angels, Diocese of Birmingham, parochial church council), visited 22 March 2002 by Tim Hills: 'Ancient 5m-7m', note 'A fallen yew grows SW of this 14th century church'. The two girths differ (5-7 m in 2002 against 8.00 m at 0.10 m in 2024), different heights and a fragmenting tree; both given. (3) Church of England Church Heritage Record lists 1 veteran common yew on the site. Church is Grade II* listed, mainly 14th century, restored 1861 by Henry Day (Wikipedia, britishlistedbuildings). Alive: ATI 2024 survey. Age: no source gives one; leave empty. Tree is a fallen or fragmented phoenix yew regrowing from its own remains, not an upright trunk. Pin is the ATI recorded point inside a churchyard of roughly 100 m by 100 m (Nominatim grave_yard way 109883467), approximate, use location_site; the tree is SW of the church per AYG. Cofton Hackett is in Worcestershire (Bromsgrove district), not the City of Birmingham; real place name to be used. Public transport time from Birmingham not checked. Only the one tree here, so it ships as a lone tree page, not a Birmingham city page. No photograph sought."
+  }
+]
