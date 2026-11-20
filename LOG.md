@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 night run, second attempt: nothing publishable found
+
+No product change. READY leads: 0. Porto and Portland are full (32/30, 33/30), so the claim was refused. Sheffield was claimed and released: none of its 4 leads has a coordinate, so it is walled for 48h. Venlo is walled too. San Francisco, Birmingham and Leeds were already walled from earlier passes. Translations are paused while `TRANSLATIONS_OUT` holds. The one unjudged reader photo (3c544597, near Amsterdam) is not on disk, so it was not judged blind and stays open. Next run: a register with tree-level points for Sheffield, Birmingham or Leeds, or a coordinate source for the Sheffield leads.
+
 ## 2026-11-20 01:36 UTC window (night run)
 
 No product change. Rung 1: one reader photo of an unmapped tree (3c544597, 52.3972 4.8739) is not on disk, so it stays open rather than judged blind. Rung 2: health shows nothing red (one orange web error type; only 5 of 12 knocks delivered, GitHub dropping cron). Rung 5: shelf empty (0 READY leads; the 373 "awaiting a writer" are already-published stale research files). Verify pass on Birmingham (UK first): ninth dry pass, 0 trees (Garden Explorer champion tour is JS-only, Highbury survey PDF image-only, Wikidata 0). Verify pass on Miami: one flagged tree, Deering Estate champion black olive (mia_017, register girth 401 cm vs a 2026 blog's 462 cm, approximate pin, no photo), left in data/research/miami-2-verified.json, not merged; Miami is a wall for 48h. Stopped there: Portland and Munich are full, San Francisco and the others are walls. Needs a session: a rendering browser to read Birmingham Botanical Gardens' champion trees tour.

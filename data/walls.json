@@ -212,11 +212,6 @@
       "released_at": "2026-11-17T17:33:38+00:00"
     },
     {
-      "slug": "sheffield",
-      "kind": "verify",
-      "released_at": "2026-11-18T00:06:23+00:00"
-    },
-    {
       "slug": "fort-worth",
       "kind": "verify",
       "released_at": "2026-11-18T16:45:15+00:00"
@@ -315,6 +310,11 @@
       "slug": "miami",
       "kind": "verify",
       "released_at": "2026-11-20T01:45:34+00:00"
+    },
+    {
+      "slug": "sheffield",
+      "kind": "verify",
+      "released_at": "2026-11-20T01:54:15+00:00"
     }
   ]
 }
