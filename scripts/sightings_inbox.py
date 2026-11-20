@@ -692,7 +692,7 @@ def tips_with_photographs():
     the account read the wrong table.
     """
     cols = ["id", "user_id", "kind", "city", "tree", "why", "girth_cm", "photo",
-            "sign_photo", "extra_photos", "photo_month", "created_at"]
+            "sign_photo", "extra_photos", "photo_month", "extra_photo_months", "created_at"]
     q = ("/rest/v1/submissions?select=%s"
          "&photo=not.is.null&kind=in.(tree,city)&order=created_at.asc")
     try:
@@ -700,7 +700,7 @@ def tips_with_photographs():
         # NOTE a tip carrying ONLY a sign is not read, because the filter is
         # on photo; a sign alone is not a picture of the tree and the words
         # of such a tip reach Step 0b through the submissions table anyway.
-        rows = read_optional(q, cols, ["sign_photo", "extra_photos", "photo_month"], "submissions")
+        rows = read_optional(q, cols, ["sign_photo", "extra_photos", "photo_month", "extra_photo_months"], "submissions")
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", "replace") if hasattr(e, "read") else ""
         if e.code == 400 and "photo" in body and "does not exist" in body:
@@ -743,6 +743,8 @@ def tips_with_photographs():
             # The photograph's own month, from the file (Hidde, 2026-11-19;
             # supabase/submission-photo-month.sql, optional until pasted).
             "photo_month": r.get("photo_month"),
+            # One per extra photo, in order, None where the file had none.
+            "extra_photo_months": r.get("extra_photo_months"),
             "from_tip": True,
             "city": (r.get("city") or "").strip(),
         })
@@ -935,6 +937,9 @@ def main():
                     "sign_photo": coded_path(row.get("sign_photo")),
                     "sign_file": fetch_sign(row),
                     "extra_files": fetch_extras(row),
+                    # Month per extra file, same order (a tip's form reads them
+                    # from each file since 2026-11-20); None when unknown.
+                    "extra_months": row.get("extra_photo_months"),
                     "nearest_published_m": dist,
                     # HAS ANYBODY OFFICIAL ALREADY SAID THIS IS REMARKABLE
                     # (2026-09-07, Hidde: "in the end we want trees people find
@@ -983,10 +988,16 @@ def main():
             # The day only: the queue file is public (2026-10-19 audit).
             # Only the photograph's own date (photo_taken_at): an upload moment
             # would file a summer picture under the season it was sent in.
-            "taken_at": (photo_taken_at(row) or "")[:10] or None, "photo_path": row["photo"],
+            # Coded like the lead file's paths (2026-11-20 audit: this file is
+            # public too); fetch_photo turns a code back when it downloads.
+            "taken_at": (photo_taken_at(row) or "")[:10] or None, "photo_path": coded_path(row["photo"]),
+            # The reader's own age for the tree, kept as the lead does (it
+            # was dropped here; an age a reader gives is a basis, CLAUDE.md
+            # "Verify", 2026-10-15).
+            "age": row.get("age"),
             # The sign, for READING (species, age, which tree), never for the
             # page: sightings_publish.py publishes photo_path and nothing else.
-            "sign_path": row.get("sign_photo"), "sign_file": fetch_sign(row),
+            "sign_path": coded_path(row.get("sign_photo")), "sign_file": fetch_sign(row),
             "extra_files": fetch_extras(row),
             # The row's coordinate (2026-09-11), kept for a tree picked from the
             # list too, not only for a lead. CAUTION: until the app records the

@@ -2624,6 +2624,11 @@
         "neighbourhood": "La Verneda i la Pau, Sant Marti"
       },
       "location_precision": "approximate",
+      "pin_source": {
+        "kind": "official register coordinate",
+        "date": "2026-11-20",
+        "note": "The register's coordinate for the site the reader named; approximate until a reader's fix at the trunk."
+      },
       "story": "Walk round this street tree and you can look straight into it. The trunk of the plane on Carrer de Cantabria has opened on one side into a hollow taller than a person, and the tree goes on standing on the wood that is left, two thick pillars of mottled bark meeting again above the cavity. A tree lives in its outer layers, just under the bark, so a plane can lose its heartwood and keep growing for decades. The city's green sign in the tree pit gives the year it was born as around 1917, more than a century of traffic, parking and pavement works around its roots. Barcelona catalogued it as a Tree of Local Interest in 1997, catalogue number 0129-10-97. The register measures it at 18 metres tall, with a crown 18 metres across and a trunk three metres round, the crown as wide as the tree is tall. In summer that crown shades the whole corner, a single plane in full leaf above parked cars, with a tall date palm beside it and the open trunk at street level for anyone who stops to look inside.",
       "verified_sources": [
         "https://opendata-ajuntament.barcelona.cat/data/dataset/7052709e-1087-4ef3-862a-1a6c3e9a7200",

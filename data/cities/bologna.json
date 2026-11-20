@@ -570,6 +570,11 @@
         "date": "2026-11-17"
       },
       "location_precision": "approximate",
+      "pin_source": {
+        "kind": "named site",
+        "date": "2026-11-20",
+        "note": "Oasi del Lagoverde, the site the reader named; placed by us, approximate."
+      },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 session: sent by a reader (tip-995, 2026-11-16, through the website). Photograph viewed: looking up a thick white poplar trunk that splits into several stems, pale upper bark, fresh green leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Pioppo bianco dell'Oasi Lagoverde di Bologna', species 'Poplar (Populus sp.)', age 'None', girth 300 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {

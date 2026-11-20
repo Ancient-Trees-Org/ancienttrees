@@ -33,7 +33,7 @@
       },
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader's placed pin",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "6bb3d492-ea79-4b08-8f63-a66610632b47",
         "moved_m": 0,
         "date": "2026-11-17",

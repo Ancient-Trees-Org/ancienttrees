@@ -181,7 +181,12 @@
         "status": "missing"
       },
       "curation_status": "flagged",
-      "location_precision": "approximate"
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "OpenStreetMap",
+        "date": "2026-11-20",
+        "note": "Centroid of A.S. Talmaplein (OSM way 1532677920), the square the reader named; the trunk is not mapped, approximate."
+      }
     }
   ]
 }

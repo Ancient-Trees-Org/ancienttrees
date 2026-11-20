@@ -43,7 +43,7 @@
       "curation_status": "flagged",
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader, placed by hand",
+        "kind": "reader's hand-placed pin",
         "date": "2026-11-18",
         "note": "Tip 1183: the reader placed the tree on the map by hand in the Makata Shrine grounds, not from a location fix."
       }

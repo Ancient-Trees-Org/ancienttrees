@@ -18,3 +18,10 @@
 alter table public.submissions
   add column if not exists photo_month smallint
   check (photo_month is null or photo_month between 1 and 12);
+
+-- The same for each further photograph, in the order of extra_photos
+-- (Hidde, 2026-11-20, "Yes, fix them": the form kept only the first photo's
+-- month). A null where a file had no date.
+alter table public.submissions
+  add column if not exists extra_photo_months smallint[]
+  check (extra_photo_months is null or cardinality(extra_photo_months) <= 3);

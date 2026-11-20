@@ -50,7 +50,7 @@
       "curation_status": "flagged",
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader hand-placed pin",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "3580ef91-02e7-45a1-bd3d-c8b5673e1a72",
         "date": "2026-11-15",
         "note": "Placed by hand on the map by the reader, not taken from the phone's location, so approximate. It sits on the green, nudged 12 m by the reader."

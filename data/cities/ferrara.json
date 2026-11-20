@@ -270,6 +270,11 @@
         "date": "2026-11-17"
       },
       "location_precision": "approximate",
+      "pin_source": {
+        "kind": "named site",
+        "date": "2026-11-20",
+        "note": "Parco Massari, the site the reader named; placed by us, approximate."
+      },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 session: sent by a reader (tip-990, 2026-11-16, through the website). Photograph viewed: the whole tall oak from the foot of its trunk inside a rope fence up into the crown, park lawn around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Quercia del Parco Massari di Ferrara', species 'Oak (Quercus sp.)', age 'None', girth 480 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
       "photo": {

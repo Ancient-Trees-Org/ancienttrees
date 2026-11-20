@@ -50,7 +50,7 @@
       "girth_cm": 1622,
       "height_m": 110.6,
       "pin_source": {
-        "kind": "reader hand placement",
+        "kind": "reader's hand-placed pin",
         "date": "2026-11-15",
         "note": "Where the reader moved the pin by hand (submission 803); the phone's own position was 664 m away. Approximate."
       }

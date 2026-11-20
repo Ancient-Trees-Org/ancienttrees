@@ -414,11 +414,15 @@ const headExtra = ldScript(graph);
       if (paths.length) body.photo = paths[0];
       if (paths.length > 1) body.extra_photos = paths.slice(1);
       if (sentMonths[0]) body.photo_month = sentMonths[0];
+      if (sentMonths.length > 1 && sentMonths.slice(1).some(function(m) { return m; })) {
+        body.extra_photo_months = sentMonths.slice(1);
+      }
       post(body).then(function(r) {
-        if (!r.ok && body.photo_month) {
-          // photo_month waits for supabase/submission-photo-month.sql: the
-          // tip lands without it rather than not at all.
+        if (!r.ok && (body.photo_month || body.extra_photo_months)) {
+          // Both wait for supabase/submission-photo-month.sql: the tip lands
+          // without them rather than not at all.
           delete body.photo_month;
+          delete body.extra_photo_months;
           return post(body);
         }
         return r;

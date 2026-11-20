@@ -35,7 +35,7 @@
       "curation_status": "flagged",
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader map pin",
+        "kind": "reader's hand-placed pin",
         "date": "2026-11-15",
         "note": "The reader's Google Maps pin, inside Southover Grange Gardens; approximate."
       },
