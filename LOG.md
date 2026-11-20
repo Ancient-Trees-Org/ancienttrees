@@ -72,7 +72,7 @@ Rung 1: one sighting (3c544597, Amsterdam Stationsplein) is our own account's ph
 Hidde asked whether a bookmark everywhere is overdoing it; Airbnb's line, which we copy: the heart on every card that is a listing (search, home rows, map, similar listings), never on a destination, category, host or review. So a tree card always carries the card save, a city, country, species, park, list, island or person never.
 - Web: the home page's New from visitors row (shared builder `visitorSaveFn`, lib/visitors-page-js.ts) and the oldest-trees shelf (`treeShelfCard` in HomePage.astro, link and button as siblings).
 - App, on main for the next build: SaveHeart `.onPhoto` on Discover's visitor row, the See all page, At their best now, Want to visit and a record that opens a tree. Built and looked at in the simulator (commits d5213f19d, 9c6b4f231).
-- Not yet on Android: the same tiles there need the bookmark before Android's next release.
+- Android, on main for its next build (same day, Hidde: "ok put them in android"): SaveMark on Discover's At their best now, Want to visit, New from visitors and More trees near you, and the visitors See all page; built and looked at on the emulator (commit a5e7d6138). iOS's More trees near you grid had been missed and now has it too.
 
 ## 2026-11-20 reader judge: nothing new to put live
 
