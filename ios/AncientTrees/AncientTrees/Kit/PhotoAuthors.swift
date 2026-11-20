@@ -14,6 +14,9 @@ enum PhotoAuthors {
         let author_name: String?
         let author_avatar: String?
         let author_id: String?
+        /// When it was sent (supabase/photo-authors-time.sql, 2026-11-20);
+        /// nil until that is pasted, and the byline then has no time.
+        let published_at: String?
     }
 
     static func load(ids: [String], token: String?) async -> [String: Row] {

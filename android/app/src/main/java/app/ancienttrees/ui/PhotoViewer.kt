@@ -71,6 +71,8 @@ fun PhotoViewer(
     startAt: Int,
     /** Your own photograph (Kit/PhotoViewer.swift onDelete): a trash beside the X, asked first. */
     onDelete: ((Int) -> Unit)? = null,
+    /** Who sent each visitor's photograph, by Photo.by (Kit/PhotoViewer.swift authors); empty elsewhere. */
+    authors: Map<String, app.ancienttrees.account.PhotoAuthors.Row> = emptyMap(),
     onClose: () -> Unit,
 ) {
     if (photos.isEmpty()) return
@@ -273,14 +275,29 @@ fun PhotoViewer(
                             color = Color.White.copy(alpha = 0.9f),
                         )
                     }
-                    shown.credit?.let {
+                    val credit = shown.credit
+                    val author = shown.by?.let { authors[it] }
+                    if (credit != null) {
                         Text(
-                            it,
+                            credit,
                             fontSize = 11.sp,
                             color = Color.White.copy(alpha = 0.85f),
                             textAlign = TextAlign.Center,
                             modifier = Modifier.padding(horizontal = 20.dp),
                         )
+                    } else if (author?.authorName != null) {
+                        // A visitor's photograph: who and when (Kit/PhotoViewer.swift, 2026-11-20).
+                        androidx.compose.foundation.layout.Row(
+                            horizontalArrangement = Arrangement.spacedBy(5.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.padding(horizontal = 20.dp),
+                        ) {
+                            VisitorFace(author.authorName, author.authorAvatar)
+                            Text(author.authorName, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = Color.White.copy(alpha = 0.9f), maxLines = 1)
+                            SentAgo.long(author.publishedAt)?.let { w ->
+                                Text("· $w", fontSize = 12.sp, color = Color.White.copy(alpha = 0.7f), maxLines = 1, softWrap = false)
+                            }
+                        }
                     }
                 }
             } }

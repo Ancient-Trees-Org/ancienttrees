@@ -405,7 +405,11 @@ private fun LazyListScope.discoverContent(
                     items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
                             Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot, saveable = true) { act.openTree(tree) }
-                            VisitorLine(row, TILE_WIDTH, openVisitor)
+                            // The tree's name, then who and when (Home.swift, 2026-11-20).
+                            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                                VisitorTitle(tree.name, TILE_WIDTH, Modifier.height(36.dp).clickable { act.openTree(tree) })
+                                VisitorLine(row, TILE_WIDTH, openVisitor)
+                            }
                         }
                     }
                 }
@@ -848,8 +852,39 @@ internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFro
                     Text(name.take(1), fontSize = 9.sp, fontWeight = FontWeight.Bold, color = brand.moss)
                 }
             }
-            Text(name, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = brand.inkSoft, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(name, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = brand.inkSoft, maxLines = 1, overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.weight(1f, fill = false))
+            // When it was sent (VisitorPhotos.swift, Hidde 2026-11-20): never
+            // squeezed, so a long name gives way to it.
+            SentAgo.short(r.publishedAt)?.let { when_ ->
+                Text("· $when_", fontSize = 12.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false)
+            }
         }
+    }
+}
+
+/** The tree's name under a visitor's photograph, two lines at most (VisitorPhotos.swift VisitorTitle; Hidde, 2026-11-20: "A, met boomnaam"). */
+@Composable
+internal fun VisitorTitle(name: String, width: Dp, modifier: Modifier = Modifier) {
+    Text(
+        name,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Bold,
+        color = Brand.colors.ink,
+        maxLines = 2,
+        overflow = TextOverflow.Ellipsis,
+        lineHeight = 18.sp,
+        modifier = modifier.width(width),
+    )
+}
+
+/** A visitor's face in a byline (VisitorPhotos.swift VisitorFace): picture, else the initial on moss, 16 round. */
+@Composable
+internal fun VisitorFace(name: String, avatar: String?) {
+    val brand = Brand.colors
+    Box(Modifier.size(16.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+        if (avatar != null) RemoteImage(avatar, null, Modifier.fillMaxSize())
+        else Text(name.take(1), fontSize = 9.sp, fontWeight = FontWeight.Bold, color = brand.moss)
     }
 }
 

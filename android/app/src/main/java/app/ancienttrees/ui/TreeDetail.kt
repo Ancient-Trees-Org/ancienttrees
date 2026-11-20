@@ -351,12 +351,11 @@ private fun TreeDetailInner(
                             val by = tree.shots.getOrNull(shotAt)?.by
                             val author = by?.let { photoAuthors[it] }
                             if (author?.authorName != null) {
-                                Text(
-                                    stringResource(R.string.photo_credit, author.authorName),
-                                    fontSize = 13.sp,
-                                    fontWeight = FontWeight.Medium,
-                                    color = brand.inkSoft,
-                                    maxLines = 1,
+                                // The tiles' byline written out (TreeDetail.swift, Hidde
+                                // 2026-11-20: "A, met boomnaam"): face, name, when it was sent.
+                                Row(
+                                    horizontalArrangement = Arrangement.spacedBy(5.dp),
+                                    verticalAlignment = Alignment.CenterVertically,
                                     modifier = Modifier
                                         .weight(1f, fill = false)
                                         .heightIn(min = 44.dp)
@@ -365,9 +364,21 @@ private fun TreeDetailInner(
                                                 app.ancienttrees.account.PhotoAuthors.load(listOf(by), account.fresh()?.accessToken)[by]?.authorId
                                             }
                                         }
-                                        .wrapContentHeight(Alignment.CenterVertically)
                                         .testTag("photo-by"),
-                                )
+                                ) {
+                                    VisitorFace(author.authorName, author.authorAvatar)
+                                    Text(
+                                        author.authorName,
+                                        fontSize = 13.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        color = brand.inkSoft,
+                                        maxLines = 1,
+                                        modifier = Modifier.weight(1f, fill = false),
+                                    )
+                                    SentAgo.long(author.publishedAt)?.let { w ->
+                                        Text("· $w", fontSize = 13.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false)
+                                    }
+                                }
                             }
                             Spacer(Modifier.weight(1f))
                             val onAdd = shotAt >= tree.shots.count()
@@ -442,7 +453,7 @@ private fun TreeDetailInner(
         )
     }
 
-    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt) { viewerAt = -1 }
+    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt, authors = photoAuthors) { viewerAt = -1 }
     if (ownViewerAt >= 0) {
         val shots = actions.ownShots.filter { it.photo != null }
         PhotoViewer(

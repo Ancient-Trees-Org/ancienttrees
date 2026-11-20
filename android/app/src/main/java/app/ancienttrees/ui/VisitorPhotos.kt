@@ -189,7 +189,12 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
                         Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(it.tree, onPhoto = true) }
                     }
                     androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxWidth()) {
-                        VisitorLine(it.row, maxWidth) { _ -> open(it) }
+                        // The tree's name, then who and when (VisitorPhotos.swift, 2026-11-20).
+                        val w = maxWidth
+                        Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                            VisitorTitle(it.tree.name, w, Modifier.clickable { act.openTree(it.tree) })
+                            VisitorLine(it.row, w) { _ -> open(it) }
+                        }
                     }
                 }
             }

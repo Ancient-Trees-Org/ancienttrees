@@ -7,7 +7,8 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 object PhotoAuthors {
-    data class Row(val photoId: String, val authorName: String?, val authorAvatar: String?, val authorId: String?)
+    /** publishedAt: when it was sent (supabase/photo-authors-time.sql, 2026-11-20); null until pasted. */
+    data class Row(val photoId: String, val authorName: String?, val authorAvatar: String?, val authorId: String?, val publishedAt: String? = null)
 
     suspend fun load(ids: List<String>, token: String?): Map<String, Row> {
         val wanted = ids.toSet().sorted()
@@ -20,7 +21,7 @@ object PhotoAuthors {
                 val o = a.getJSONObject(i)
                 fun s(k: String) = o.optString(k).takeIf { it.isNotEmpty() && it != "null" }
                 val name = s("author_name") ?: return@mapNotNull null
-                Row(o.getString("photo_id"), name, s("author_avatar"), s("author_id"))
+                Row(o.getString("photo_id"), name, s("author_avatar"), s("author_id"), s("published_at"))
             }.associateBy { it.photoId }
         }.getOrDefault(emptyMap())
     }

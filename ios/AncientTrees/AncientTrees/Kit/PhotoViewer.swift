@@ -46,6 +46,9 @@ struct PhotoViewer: View {
     /// Maps ("More, Delete this photo") delete a picture of your own. Nil for
     /// ours and for a tree only you have, whose photograph IS the tree.
     var onDelete: (() -> Void)? = nil
+    /// Who sent each visitor's photograph, by Photo.by, as the tree page
+    /// already asked the server (PhotoAuthors); empty elsewhere.
+    var authors: [String: PhotoAuthors.Row] = [:]
     @State private var confirmingDelete = false
 
     @State private var scale: CGFloat = 1
@@ -146,6 +149,21 @@ struct PhotoViewer: View {
                                 .foregroundStyle(.white.opacity(0.85))
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 20)
+                        } else if let by = shown?.by, let a = authors[by], let name = a.author_name {
+                            // A visitor's photograph: who and when, the tree
+                            // page's byline (Hidde, 2026-11-20; Google Maps
+                            // names the maker and the date in its viewer).
+                            HStack(spacing: 5) {
+                                VisitorFace(name: name, avatar: a.author_avatar)
+                                Text(name).font(.caption.weight(.medium))
+                                if let when = SentAgo.long(a.published_at) {
+                                    Text("· \(when)").font(.caption).opacity(0.75)
+                                }
+                            }
+                            .foregroundStyle(.white.opacity(0.9))
+                            .lineLimit(1)
+                            .padding(.horizontal, 20)
+                            .accessibilityElement(children: .combine)
                         }
                     }
                     .padding(.bottom, 16)

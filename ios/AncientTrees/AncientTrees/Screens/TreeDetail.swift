@@ -591,7 +591,7 @@ struct TreeDetail: View {
         .fullScreenCover(isPresented: $showingPhoto) {
             if let p = tree.photo {
                 PhotoViewer(photo: p, photos: tree.shots, startAt: photoAt,
-                            title: tree.name, isPresented: $showingPhoto)
+                            title: tree.name, isPresented: $showingPhoto, authors: photoAuthors)
             }
         }
         .fullScreenCover(item: $viewingOwn) { s in
@@ -2487,16 +2487,31 @@ struct TreeDetail: View {
     /// photograph or ours: the licence credit stays at the foot of the page.
     @ViewBuilder private var photographerName: some View {
         if let by = shownPhoto?.by, let a = photoAuthors[by], let name = a.author_name {
-            Button { openPerson(a.author_id) { await self.photoAuthorId(by) } } label: {
-                Text("Photo: \(name)")
-                    .font(.system(size: 13, weight: .medium))
-                    .foregroundStyle(Brand.inkSoft)
-                    .lineLimit(1)
+            // The tiles' byline, written out (Hidde, 2026-11-20: "A, met
+            // boomnaam"; the website's reader-names-js): face, name, and when
+            // it was sent once the server says (photo-authors-time.sql).
+            HStack(spacing: 5) {
+                Button { openPerson(a.author_id) { await self.photoAuthorId(by) } } label: {
+                    HStack(spacing: 5) {
+                        VisitorFace(name: name, avatar: a.author_avatar)
+                        Text(name)
+                            .font(.system(size: 13, weight: .medium))
+                            .foregroundStyle(Brand.inkSoft)
+                            .lineLimit(1)
+                    }
                     .frame(minHeight: 44)
                     .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("photo-by")
+                if let when = SentAgo.long(a.published_at) {
+                    Text("· \(when)")
+                        .font(.system(size: 13))
+                        .foregroundStyle(Brand.inkSoft.opacity(0.75))
+                        .lineLimit(1)
+                        .fixedSize()
+                }
             }
-            .buttonStyle(.plain)
-            .accessibilityIdentifier("photo-by")
         }
     }
 

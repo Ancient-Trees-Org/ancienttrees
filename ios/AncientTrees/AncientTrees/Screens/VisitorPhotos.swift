@@ -114,7 +114,7 @@ struct VisitorPhotosView: View {
         for it in items {
             let c = heights[1] < heights[0] ? 1 : 0
             cols[c].append(it)
-            heights[c] += width * it.ratio + 7 + VisitorLine.height
+            heights[c] += width * it.ratio + 7 + VisitorTitle.height + 2 + VisitorLine.height
         }
         return cols
     }
@@ -137,7 +137,11 @@ struct VisitorPhotosView: View {
             // web's /visitors tile carries the same). Over the link, not in
             // it, so a tap saves and does not open the tree.
             .overlay(alignment: .topTrailing) { SaveHeart(tree: it.tree, look: .onPhoto).padding(6) }
-            VisitorLine(row: it.row, width: width) { _ in open(it) }
+            VStack(alignment: .leading, spacing: 2) {
+                NavigationLink(value: Route.tree(it.tree.id)) { VisitorTitle(name: it.tree.name, width: width) }
+                    .buttonStyle(.plain)
+                VisitorLine(row: it.row, width: width) { _ in open(it) }
+            }
         }
         .onAppear {
             // More as the end comes near: eight tiles before the last.
@@ -202,6 +206,50 @@ struct VisitorPhotosView: View {
     }
 }
 
+/// A visitor's face in a byline: their picture, else their initial on moss,
+/// 16 points round. One view for the tiles and the tree page (2026-11-20).
+struct VisitorFace: View {
+    let name: String
+    let avatar: String?
+
+    var body: some View {
+        Group {
+            if let a = avatar, let u = URL(string: a) {
+                AsyncImage(url: u) { $0.resizable().scaledToFill() } placeholder: { Brand.moss.opacity(0.15) }
+            } else {
+                Text(String(name.prefix(1)))
+                    .font(.system(size: 9, weight: .bold))
+                    .foregroundStyle(Brand.moss)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Brand.moss.opacity(0.15))
+            }
+        }
+        .frame(width: 16, height: 16)
+        .clipShape(.circle)
+    }
+}
+
+/// The tree's name under a visitor's photograph, at most two lines, the
+/// website's tile (Hidde, 2026-11-20: "A, met boomnaam"; CONVENTIONS.md "A
+/// heart for a visitor's photograph ... who and when on it"): the city is the
+/// tag on the photograph, the name says which tree, the line under it who.
+struct VisitorTitle: View {
+    let name: String
+    let width: CGFloat
+    /// Two lines of 14 point bold, what the masonry reserves for it.
+    static let height: CGFloat = 38
+
+    var body: some View {
+        Text(name)
+            .font(.brand(14, .bold, relativeTo: .subheadline))
+            .foregroundStyle(Brand.ink)
+            .lineLimit(2)
+            .multilineTextAlignment(.leading)
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(width: width, alignment: .leading)
+    }
+}
+
 /// Who sent it: a small avatar and the name, one line, under a visitor's
 /// photograph on Discover's row and on its See all page. The name of a public
 /// profile shows to everyone; a tap opens the profile, and signed out it asks
@@ -223,23 +271,20 @@ struct VisitorLine: View {
         let real = row.author_name
         let name = real ?? "A visitor"
         let line = HStack(spacing: 5) {
-            Group {
-                if let a = row.author_avatar, let u = URL(string: a) {
-                    AsyncImage(url: u) { $0.resizable().scaledToFill() } placeholder: { Brand.moss.opacity(0.15) }
-                } else {
-                    Text(String(name.prefix(1)))
-                        .font(.system(size: 9, weight: .bold))
-                        .foregroundStyle(Brand.moss)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Brand.moss.opacity(0.15))
-                }
-            }
-            .frame(width: 16, height: 16)
-            .clipShape(.circle)
+            VisitorFace(name: name, avatar: row.author_avatar)
             Text(name)
                 .font(.system(size: 12, weight: .medium))
                 .foregroundStyle(Brand.inkSoft)
                 .lineLimit(1)
+            // When it was sent, the website's ".nfv-when" (Hidde, 2026-11-20):
+            // never squeezed, so a long name gives way to it.
+            if let when = SentAgo.short(row.published_at) {
+                Text("· \(when)")
+                    .font(.system(size: 12))
+                    .foregroundStyle(Brand.inkSoft.opacity(0.75))
+                    .lineLimit(1)
+                    .fixedSize()
+            }
         }
         .frame(width: width, alignment: .leading)
         // Under the label's own element, or the system measures only the

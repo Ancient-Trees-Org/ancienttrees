@@ -843,7 +843,18 @@ struct HomeView: View {
                             // The card save, as on /visitors and the web row
                             // (Hidde, 2026-11-19), over the link, not in it.
                             .overlay(alignment: .topTrailing) { SaveHeart(tree: f.tree, look: .onPhoto).padding(6) }
-                            visitorLine(f.row)
+                            // The tree's name, then who and when, the
+                            // website's tile (Hidde, 2026-11-20: "A, met
+                            // boomnaam"). Top-aligned so a one-line name
+                            // keeps every person line in the row level.
+                            VStack(alignment: .leading, spacing: 2) {
+                                NavigationLink(value: Route.tree(f.tree.id)) {
+                                    VisitorTitle(name: f.tree.name, width: Self.tileWidth)
+                                        .frame(height: VisitorTitle.height, alignment: .topLeading)
+                                }
+                                .buttonStyle(.plain)
+                                visitorLine(f.row)
+                            }
                         }
                     }
                 }
