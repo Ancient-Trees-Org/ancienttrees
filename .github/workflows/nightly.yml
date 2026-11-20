@@ -284,11 +284,15 @@ jobs:
           # sign-in mail had nowhere to go): once after an hour, signed-only
           # addresses once more after midnight UTC.
           python3 scripts/signin_watch.py --send || true
+          # One last link for the Guardian-day sign-ups still not in (Hidde,
+          # 2026-11-20): sends only from 27 to 29 November and only once
+          # APPROVED is set in the script; one mail per person.
+          python3 scripts/signin_last_call.py --send || true
           python3 scripts/private_store.py push
-          if ! git diff --quiet data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json; then
+          if ! git diff --quiet data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json; then
             git config user.name "claude[bot]"
             git config user.email "41898282+claude[bot]@users.noreply.github.com"
-            git add data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json
+            git add data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json
             git commit -m "Contributor replies and ambassador invitations sent, log updated"
             git push
           fi

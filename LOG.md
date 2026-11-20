@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: sign-in mail limit raised to 150 an hour; one last link for the Guardian-day sign-ups
+
+- **Live (Hidde: "doe beide maar")**: Supabase's `rate_limit_email_sent` went from 30 to 150 sign-in and welcome mails an hour, project-wide, through the Management API. The Guardian morning peaked at 25 email sign-ups an hour plus sign-in links, so a press day could hit "rate limit exceeded". Gmail's roughly 500 a day is the next ceiling.
+- **Ready, not sending yet**: `scripts/signin_last_call.py`, in the night run after the watcher. From 27 November 08:00 UTC to 29 November, once, it sends a fresh 24-hour sign-in link to every email sign-up of 15 to 18 November still not in, picked fresh that day, leaving out bounced and undeliverable addresses and anybody already in on a second account. Signed through Resend, Gmail as fallback, logged in data/outreach-sent.json, one mail per person ever (data/signin-last-call.json). Dry run today: 20 people (10 Yahoo/Apple/BT). Mail check clean. It replaces the Yahoo-only apology of 11-17 (drafts/signin-sorry-yahoo-2026-11-23.md): those people are in this list, so that draft is not to be sent.
+- For Hidde: the last sign-in mail sends on 27 November only after your yes to its text (`APPROVED` in scripts/signin_last_call.py; the dry run prints it).
+
 ## 2026-11-20 reader judge: a reader's photograph puts the Plane of Montée Saint-Sébastien on the web
 
 - **Live:** a reader's app photograph of lyo_022, The Plane of Montée Saint-Sébastien (Lyon), taken 3 m from our surveyed pin: the forked plane over the stair railing on the hillside street, autumn leaf. It is the tree's first photograph and now its lead (`taken_month` 11). The reader content lifts it out of app-only, so it gets its page: French overlay entry added (fr/lyon is a kept translation), and Lyon's counts move from 13 to 14 ("thirteen more" in the English question_meta; "les 14 plus beaux" and "treize autres" in French). The "on the page" mail went through sightings_publish.py --send.
