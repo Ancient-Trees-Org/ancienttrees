@@ -205,7 +205,12 @@ def merged(path, mine, theirs):
     if path.endswith(".json"):
         try:
             a, b = json.loads(mine), json.loads(theirs)
-            if path.startswith("drafts/batches/") and isinstance(a, dict) and isinstance(b, dict):
+            # The Android tester list is EDITED too (a row's status moves
+            # asked > yes > invited): the union kept every old row beside the
+            # new one, so Kate and Lisa were counted two and three times
+            # (2026-11-20). Local wins, as for a batch.
+            edited = path.startswith("drafts/batches/") or path == "data/outreach-android-testers.json"
+            if edited and isinstance(a, dict) and isinstance(b, dict):
                 return json.dumps(_merge_batch(a, b), indent=1, ensure_ascii=False) + "\n"
             return json.dumps(_union(a, b), indent=1, ensure_ascii=False) + "\n"
         except ValueError:
