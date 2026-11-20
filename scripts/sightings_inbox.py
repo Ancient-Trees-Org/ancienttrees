@@ -97,7 +97,9 @@ def photo_taken_at(row):
     """
     when = row.get("taken_at")
     note = row.get("note") or ""
-    if not when:
+    if not when or row.get("from_tip"):
+        # A tip's taken_at is the moment it was sent; its photo's month
+        # travels as photo_month instead (taken_month below).
         return None
     if "page on the website" in note and "photograph’s own date" not in note:
         return None
@@ -107,6 +109,9 @@ def photo_taken_at(row):
 def taken_month(row):
     """Month only (1 to 12), for the public lead file: the season the page
     files the photograph under, never the day a reader stood somewhere."""
+    m = row.get("photo_month")
+    if isinstance(m, int) and 1 <= m <= 12:
+        return m
     when = photo_taken_at(row) or ""
     return int(when[5:7]) if len(when) >= 7 and when[5:7].isdigit() else None
 
@@ -654,7 +659,7 @@ def tips_with_photographs():
     the account read the wrong table.
     """
     cols = ["id", "user_id", "kind", "city", "tree", "why", "girth_cm", "photo",
-            "sign_photo", "extra_photos", "created_at"]
+            "sign_photo", "extra_photos", "photo_month", "created_at"]
     q = ("/rest/v1/submissions?select=%s"
          "&photo=not.is.null&kind=in.(tree,city)&order=created_at.asc")
     try:
@@ -662,7 +667,7 @@ def tips_with_photographs():
         # NOTE a tip carrying ONLY a sign is not read, because the filter is
         # on photo; a sign alone is not a picture of the tree and the words
         # of such a tip reach Step 0b through the submissions table anyway.
-        rows = read_optional(q, cols, ["sign_photo", "extra_photos"], "submissions")
+        rows = read_optional(q, cols, ["sign_photo", "extra_photos", "photo_month"], "submissions")
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", "replace") if hasattr(e, "read") else ""
         if e.code == 400 and "photo" in body and "does not exist" in body:
@@ -698,8 +703,13 @@ def tips_with_photographs():
             "extra_photos": r.get("extra_photos"),
             "shared": True,
             "status": "sent",
+            # The moment it was SENT, kept for ordering and the digest; never
+            # read as the photograph's date (photo_taken_at skips from_tip).
             "taken_at": r.get("created_at"),
             "updated_at": r.get("created_at"),
+            # The photograph's own month, from the file (Hidde, 2026-11-19;
+            # supabase/submission-photo-month.sql, optional until pasted).
+            "photo_month": r.get("photo_month"),
             "from_tip": True,
             "city": (r.get("city") or "").strip(),
         })

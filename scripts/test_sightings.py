@@ -243,6 +243,15 @@ class TestPhotoDate(unittest.TestCase):
     def test_no_date(self):
         self.assertIsNone(inbox.taken_month({"note": "x"}))
 
+    def test_a_tips_send_moment_is_not_its_photos_date(self):
+        row = {"taken_at": "2026-11-20T09:00:00+00:00", "from_tip": True, "note": "x"}
+        self.assertIsNone(inbox.photo_taken_at(row))
+        self.assertIsNone(inbox.taken_month(row))
+
+    def test_a_tips_photo_month(self):
+        row = {"taken_at": "2026-11-20T09:00:00+00:00", "from_tip": True, "photo_month": 6}
+        self.assertEqual(inbox.taken_month(row), 6)
+
 
 if __name__ == "__main__":
     unittest.main()

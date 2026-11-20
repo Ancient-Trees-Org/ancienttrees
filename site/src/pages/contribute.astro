@@ -286,7 +286,10 @@ const headExtra = ldScript(graph);
   // round.
   // Up to four, in the order chosen; a second press adds to them.
   var MAX_PHOTOS = 4;
-  var staged = { photos: [], names: [] };
+  // months: each photo's own month (1 to 12, or null), read from the file
+  // before atDownsize throws its EXIF away (Hidde, 2026-11-19, so the tree
+  // page can file it under its season; supabase/submission-photo-month.sql).
+  var staged = { photos: [], names: [], months: [] };
   (function() {
     var pb = document.getElementById('sg-pic-btn');
     var pfile = document.getElementById('sg-pic');
@@ -304,9 +307,14 @@ const headExtra = ldScript(graph);
       pname.textContent = 'Reading them...';
       var left = files.length;
       files.forEach(function(pf) {
-        window.atDownsize(pf, 1600, function(blob) {
-          if (blob && staged.photos.length < MAX_PHOTOS) { staged.photos.push(blob); staged.names.push(pf.name); }
-          if (--left === 0) { pfile.value = ''; show(); }
+        (window.atPhotoDate || function(x, cb) { cb(null); })(pf, function(taken) {
+          window.atDownsize(pf, 1600, function(blob) {
+            if (blob && staged.photos.length < MAX_PHOTOS) {
+              staged.photos.push(blob); staged.names.push(pf.name);
+              staged.months.push(taken ? parseInt(taken.slice(5, 7), 10) : null);
+            }
+            if (--left === 0) { pfile.value = ''; show(); }
+          });
         });
       });
     });
@@ -394,15 +402,27 @@ const headExtra = ldScript(graph);
     }
     // One after another, so the order chosen is the order stored: the first
     // is the tree's picture, the rest go in extra_photos.
-    var paths = [];
+    var paths = [], sentMonths = [];
     function sendAll(i, done) {
       if (i >= staged.photos.length) { done(); return; }
-      sendPhoto(s, staged.photos[i], function(p) { if (p) paths.push(p); sendAll(i + 1, done); });
+      sendPhoto(s, staged.photos[i], function(p) {
+        if (p) { paths.push(p); sentMonths.push(staged.months[i] || null); }
+        sendAll(i + 1, done);
+      });
     }
     sendAll(0, function() {
       if (paths.length) body.photo = paths[0];
       if (paths.length > 1) body.extra_photos = paths.slice(1);
+      if (sentMonths[0]) body.photo_month = sentMonths[0];
       post(body).then(function(r) {
+        if (!r.ok && body.photo_month) {
+          // photo_month waits for supabase/submission-photo-month.sql: the
+          // tip lands without it rather than not at all.
+          delete body.photo_month;
+          return post(body);
+        }
+        return r;
+      }).then(function(r) {
         if (!r.ok && body.extra_photos) {
           // extra_photos is in supabase/PENDING.sql until pasted: keep the
           // tree's own picture and drop only the further ones.
