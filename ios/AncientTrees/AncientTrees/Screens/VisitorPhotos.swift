@@ -138,8 +138,13 @@ struct VisitorPhotosView: View {
             // it, so a tap saves and does not open the tree.
             .overlay(alignment: .topTrailing) { SaveHeart(tree: it.tree, look: .onPhoto).padding(6) }
             VStack(alignment: .leading, spacing: 2) {
-                NavigationLink(value: Route.tree(it.tree.id)) { VisitorTitle(name: it.tree.name, width: width) }
-                    .buttonStyle(.plain)
+                // Plain text, not a second link: the photograph above is the
+                // tile's one control and its label already names tree and
+                // city. A text-high link here was a 34 point button under
+                // Apple's 44 and a right edge short of the others (appfit
+                // SMALL and TRAIL, ios.yml red 2026-11-20).
+                VisitorTitle(name: it.tree.name, width: width)
+                    .accessibilityHidden(true)
                 VisitorLine(row: it.row, width: width) { _ in open(it) }
             }
         }
