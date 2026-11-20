@@ -609,13 +609,17 @@
       "access": "Free, public garden with a playground",
       "transport": "5 min walk from Crocetta (M3), or tram 16 along Corso di Porta Romana",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Milano_-_platano_comune_-_id_03F20505F205MI03_%281%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Ysogo, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/mil_014-il-platano-del-giardino-bazlen-fc36a7af.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4608,
-        "height": 3456,
-        "taken_month": 7
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_6d76a4f4619c204b33c10597",
+        "sighting_id": "fc36a7af-dcf1-4c91-a09e-7ab51d1b483d",
+        "note": "Photographed by a reader and sent through the app (2025-11-27); a viewing pass approved it on 2026-11-20: The Bazlen plane in autumn leaf, the whole mossy, burred trunk and the lopped scaffold limbs, playground equipment around its base; daylight, fills the frame, a stronger lead than the old one. Species seen: mottled flaking plane bark on the limbs, palmate plane leaves turning yellow. Fits the description: a stocky, topped plane with a massive trunk in a children's playground square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Two independent sources: the Comune di Milano monumental-tree page (VTA 44854, trunk diameter 195 cm, crown reduced, fungal decay, periodic checks) and the national MASAF register (Platanus acerifolia, Giardino Roberto Balzen, Corso di Porta Romana 112-116, girth 600 cm, height 16 m; the register's spelling 'Balzen' is a typo for Bazlen). The two coordinates agree to within about 22 m, which is why this pin is confirmed rather than approximate. No age is published by either source; the range is estimated from girth. The tree is alive and monitored as of the comune page's last update, but its own manager says it stays only while it is safe above the playground, so a future pass should re-check before this entry ages.",
@@ -626,7 +630,31 @@
         "url": null
       },
       "girth_cm": 600,
-      "height_m": 16
+      "height_m": 16,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Milano_-_platano_comune_-_id_03F20505F205MI03_%281%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Ysogo, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4608,
+          "height": 3456,
+          "taken_month": 7
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mil_014-il-platano-del-giardino-bazlen-66e7f16a.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_6d76a4f4619c204b33c10597",
+          "sighting_id": "66e7f16a-6521-4ff5-8303-57501db2cfc5",
+          "note": "Photographed by a reader and sent through the app (2025-11-27); a viewing pass approved it on 2026-11-20: The same plane from behind the playground fence, the whole crown in yellowing autumn leaf; good beside the trunk shot in the strip. Species seen: palmate plane leaves, broad spreading crown, thick short trunk. Fits the description: wide low crown over the playground, trunk with slide and swings behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "mil_015",

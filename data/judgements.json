@@ -533,6 +533,50 @@
    "agreed": null
   },
   {
+   "id": "sight:fc36a7af-dcf1-4c91-a09e-7ab51d1b483d",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Il Platano del Giardino Bazlen",
+   "city": "Milan",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/fc36a7af-dcf1-4c91-a09e-7ab51d1b483d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 11,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the Bazlen plane's whole mossy, burred trunk in autumn leaf in the playground; now the lead photograph of mil_014.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:66e7f16a-6521-4ff5-8303-57501db2cfc5",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Il Platano del Giardino Bazlen",
+   "city": "Milan",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/66e7f16a-6521-4ff5-8303-57501db2cfc5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the same plane's whole yellowing crown over the playground fence; in the strip behind the lead on mil_014.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: two photographs of the Bazlen plane, Milan
+
+- **Live**: a reader's two autumn photographs (taken 2025-11-27) of Il Platano del Giardino Bazlen (mil_014). The trunk shot (fc36a7af) is now the lead, filed under November; the Commons summer photo moved into the strip; the wide crown shot (66e7f16a) sits behind them in the strip. Species and description checked against the pixels: plane bark and leaves, topped stocky tree in the playground square. Verdicts in data/judgements.json; the "on the page" mail went through sightings_publish.py --send.
+- **Nothing else waited from strangers**: no open reports, no new tips, no open feedback, no readers' words to quote. The other 37 leads with status `lead` in _sightings.json are all our own account's photographs (`mine`); fetch_waiting_photos.py skips those by design, so none is on disk and none was judged. That includes 3c544597 (Amsterdam, near ams_032, sent "not sure which tree").
+- Pin catch-up for the photographs could not read coordinates (HTTPError); mil_014's pin is already confirmed, so nothing moves.
+
 ## 2026-11-20 session: one visitor tile, who and when (web)
 
 - **Live with this deploy, web**: the visitor tile on home and /visitors is the apps' tile now (Hidde: "A, met boomnaam"): the city as a tag on the photograph, the bookmark top right, the tree's name, then the byline with when it was sent ("2h", "3d", "Oct 2026", in each language by the browser). Under a reader's photograph on the tree page and in the opened photograph the line is face, name and "2 hours ago". Privacy and terms say the time shows beside the name. Design and benchmark: CONVENTIONS.md "A heart for a visitor's photograph ... who and when on it"; mockup drafts/design-2026-11-20-photo-heart/overal.html.
