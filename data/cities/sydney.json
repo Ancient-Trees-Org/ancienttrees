@@ -368,6 +368,50 @@
           "note": "The reader's second photograph, sent with the first (2026-11-18, through the app); viewed and approved on 2026-11-18: the buttressed trunk close in, a dark hollow at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
         }
       ]
+    },
+    {
+      "id": "syd_009",
+      "name": "The Zetland Hill's Fig",
+      "species": "Hill's Fig (Ficus microcarpa var. hillii)",
+      "location": {
+        "address": "Beside the footpath at 25 Gadigal Avenue, Zetland, Sydney NSW 2017",
+        "latitude": -33.9067,
+        "longitude": 151.2097,
+        "neighbourhood": "Zetland"
+      },
+      "how_to_recognise": "On Gadigal Avenue among apartment blocks: a pale, buttressed fig in a planted bed beside the footpath, a timber bench along its foot, its dozen grey limbs spreading almost flat over the path.",
+      "access": "Free. Beside a public footpath on Gadigal Avenue, at all hours.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/182546217 (Gadigal Avenue, Zetland, Sydney: the street the reader gave as the tree's address, 25 Gadigal Avenue, by mail on 2026-11-20)"
+      ],
+      "story": "\"A very old Hills Fig that was probably planted at a time when this area was a major industrial area, south of Sydney's CBD,\" wrote the reader who sent us this tree from Zetland. \"These days, it lies amongst high residential towers.\"\n\nTheir photograph shows exactly that meeting of old and new. The fig stands in a planted bed beside a footpath on Gadigal Avenue, a timber bench running along its foot and brick and glass apartment blocks rising behind. Its trunk is short, pale and heavily buttressed, its roots gripping the bed in thick ribs, and a little above head height it breaks into a dozen great grey limbs that reach out in every direction, some of them nearly horizontal, carrying a dense dark crown over the path and the gardens. Thin aerial roots hang from the branches, the way a fig starts building new trunks when it is left alone long enough.\n\nHill's fig is a Queensland form of the small-leaved fig, planted all over Sydney for its shade. The reader puts this one's girth at about ten metres; that figure is theirs, not a measurement we have seen. When it was planted, and by whom, we do not yet know. If you know the story of the site, tell us here.\n\nSit on the bench under the limbs and look up into the branching.",
+      "found_by_reader": {
+        "sighting_id": "tip-1284",
+        "date": "2026-11-20"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's address",
+        "sighting_id": "tip-1284",
+        "date": "2026-11-20",
+        "note": "The reader gave 25 Gadigal Avenue, Zetland by mail; the pin is on Gadigal Avenue, whose house numbers OpenStreetMap does not place, so it may be up to about 200 m off."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 reader judge: sent by a reader through the website (tip-1284, 2026-11-19), held no_location, re-opened when their mail reply (feedback 1299) gave 25 Gadigal Avenue, Zetland. Photograph viewed: the whole lower tree from the footpath: a pale buttressed trunk breaking into a dozen great limbs over a planted bed and a timber bench, aerial roots hanging, apartment blocks behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Hills Fig in Zetland', girth 1000 cm (in the story as theirs, not in girth_cm).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/syd_009-zetland-hill-s-fig.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 900,
+        "source": "contributor",
+        "contributor_user_id": "p_c04ed68243689ce22381722a",
+        "sighting_id": "tip-1284",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the website (2026-11-19); viewed and approved on 2026-11-20: the whole lower tree from the footpath: a pale buttressed trunk breaking into a dozen great limbs over a planted bed and a timber bench, aerial roots hanging, apartment blocks behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

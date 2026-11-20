@@ -5535,7 +5535,7 @@
    "pin_checked": "2026-11-19"
   },
   "tip-1284": {
-   "outcome": "held",
+   "outcome": "published",
    "date": "2026-11-19"
   },
   "3eebbeda-bc83-4630-a35d-9a5f3ae19aa4": {
@@ -5611,6 +5611,10 @@
    "lat": 21.0298,
    "lon": 105.8513,
    "pin_checked": "2026-11-20"
+  },
+  "1776f5e7-9154-4a89-90ce-b69c6ad32464": {
+   "outcome": "published",
+   "date": "2026-11-20"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

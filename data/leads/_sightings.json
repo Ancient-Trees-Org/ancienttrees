@@ -7729,11 +7729,11 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "held",
-   "why": "photo shows a big, many-limbed Hills fig with a buttressed base beside a path and timber seating among apartment blocks, somewhat special; no GPS fix and only 'Zetland, Sydney' given, and the City of Sydney significant-tree register and a web search name no Hills fig in Zetland, so the spot cannot be placed honestly. Standard no_location mail asks where it stands.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: the whole lower tree from the footpath: a pale buttressed trunk breaking into a dozen great limbs over a planted bed and a timber bench, aerial roots hanging, apartment blocks behind, daylight, colour. The reader gave its address by mail (25 Gadigal Avenue, Zetland). Live as sydney/syd_009 under the closed list, approximate pin on the street.",
    "seen": "2026-11-19",
-   "hold": "no_location",
-   "judged": "2026-11-19"
+   "judged": "2026-11-20",
+   "published_as": "sydney/syd_009"
   },
   {
    "sighting_id": "aba8f604-0c2b-4ae7-adab-a5e40bc28f57",
@@ -7798,6 +7798,37 @@
    "seen": "2026-11-19",
    "judged": "2026-11-19",
    "published_as": "castleboro/cbo_001"
+  },
+  {
+   "sighting_id": "1776f5e7-9154-4a89-90ce-b69c6ad32464",
+   "user_id": "p_0e37ed6c0d59c0d65f6c6f56",
+   "mine": false,
+   "name": "Giant Sequoia near Crowhurst",
+   "unsure_among": null,
+   "species": "Giant Sequoia",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 51.2447583333333,
+   "longitude": 0.0821695,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_0e37ed6c0d59c0d65f6c6f56/1776F5E7-9154-4A89-90CE-B69C6AD32464.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: looking up from a leaf-covered path through yellowing broadleaves to a straight red-brown sequoia trunk and its dark crown above them, daylight, colour, autumn. GPS fix at Chartwell, Westerham. Live as westerham/wsh_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "westerham/wsh_001"
   }
  ]
 }

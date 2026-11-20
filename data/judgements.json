@@ -77,6 +77,48 @@
    "agreed": null
   },
   {
+   "id": "lead:1776f5e7-9154-4a89-90ce-b69c6ad32464",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Giant Sequoia near Crowhurst",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_0e37ed6c0d59c0d65f6c6f56/1776F5E7-9154-4A89-90CE-B69C6AD32464.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall straight giant sequoia rising above autumn broadleaves beside a leaf-covered path; GPS fix 80 m from Chartwell house (National Trust, paid entry). Live as westerham/wsh_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1776f5e7-9154-4a89-90ce-b69c6ad32464",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Chartwell Sequoia",
+   "photo": "p_0e37ed6c0d59c0d65f6c6f56/1776F5E7-9154-4A89-90CE-B69C6AD32464.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a straight red-brown sequoia trunk rising above autumn broadleaves beside a leaf-covered path, daylight, colour. Lead photograph of westerham/wsh_001.",
+   "city": "Westerham",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)"
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -1967,8 +2009,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "no_location: a fine big Hills fig among apartments, but no GPS fix and no named site beyond Zetland; standard mail asks where it stands",
+   "verdict": "publish",
+   "reason": "Re-opened when the reader gave 25 Gadigal Avenue, Zetland by mail reply. Photograph viewed: a pale buttressed Hill's fig with a dozen great limbs over a footpath bench among apartment blocks. Live as sydney/syd_009, approximate pin on the street.",
    "hidde": null,
    "agreed": null
   },
@@ -19248,6 +19290,20 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:tip-1284",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Zetland Hill's Fig",
+   "photo": "p_c04ed68243689ce22381722a/581ebfae-9b85-4bc1-a495-40f8690959d1.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a pale buttressed Hill's fig with a dozen great limbs over a footpath bench among apartment blocks, daylight, colour. Lead photograph of sydney/syd_009.",
+   "city": "Sydney",
+   "species": "Hill's Fig (Ficus microcarpa var. hillii)"
   }
  ]
 }

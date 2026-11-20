@@ -284,8 +284,8 @@
       "id": "gda_007",
       "name": "The Maples of Hugo Conwentz",
       "species": "Field Maple (Acer campestre)",
-      "age_estimate": "roughly 150 to 200 years",
-      "age_min": 140,
+      "age_estimate": "roughly 150 to 200 years from its girth; about 60 to 70 years by a reader's estimate",
+      "age_min": 60,
       "age_max": 220,
       "girth_cm": 245,
       "height_m": 19.5,
@@ -304,7 +304,7 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "how_to_recognise": "You can recognise them by the pair: two field maples side by side, the larger 245 centimetres round and 19.5 metres tall, the smaller 180 centimetres and 17. Designated in February 2026, the newest natural monument in Gdansk.",
-      "story": "Gdansk's newest protected tree is not one tree but two. On 26 February 2026 the city council entered a pair of field maples standing side by side in Park Oliwski onto Poland's register of natural monuments under a single record, the most recent designation on a city roll of 157 protected trees. The larger has a trunk 245 centimetres round and stands 19.5 metres; its companion measures 180 centimetres and 17 metres. Field maple is a slow, modest species that rarely gets big, and 245 centimetres is a considerable size for it, which puts these two somewhere around 150 to 200 years old. That figure comes from the trunk rather than from a document, as no planting record has turned up.\n\nThe name is the other half of it. The register calls them Klony Hugo Conwentza, the Maples of Hugo Conwentz, after the botanist who ran this city's provincial museum and who is widely credited with founding the world's first state conservation agency, the Prussian office for the care of natural monuments, in 1906. The category these two maples have just been entered under is the one his office existed to administer. What the register does not say is why these particular trees carry his name. If you know, tell us.",
+      "story": "Gdansk's newest protected tree is not one tree but two. On 26 February 2026 the city council entered a pair of field maples standing side by side in Park Oliwski onto Poland's register of natural monuments under a single record, the most recent designation on a city roll of 157 protected trees. The larger has a trunk 245 centimetres round and stands 19.5 metres; its companion measures 180 centimetres and 17 metres. Field maple is a slow, modest species that rarely gets big, and 245 centimetres is a considerable size for it, which would put these two somewhere around 150 to 200 years old, a figure read from the trunk rather than a document. A reader thinks they are much younger: \"Both maples were planted after World War II, likely in the second half of the 1950s or the early 1960s. They are not yet visible in photographs taken after the war.\"\n\nThe name is the other half of it. The register calls them Klony Hugo Conwentza, the Maples of Hugo Conwentz, after the botanist who ran this city's provincial museum and who is widely credited with founding the world's first state conservation agency, the Prussian office for the care of natural monuments, in 1906. The category these two maples have just been entered under is the one his office existed to administer. What the register does not say is why these particular trees carry his name. If you know, tell us.",
       "photo": {
         "url": "https://ancienttrees.app/photos/gda_007-the-maples-of-hugo-conwentz.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -317,7 +317,9 @@
         "contributor_user_id": "p_fdf05702bb8b7818e0c98b4d",
         "sighting_id": "c20222fc-c87b-41b4-97de-6030b35d9d13",
         "note": "Photographed by a reader and sent through the app (2026-05-11); a viewing pass approved it on 2026-11-19: A big fissured trunk in front of the Abbots' Palace in Park Oliwski, a man on a ladder hanging a fresh natural-monument plaque (pomnik przyrody) in May 2026, three months after the February 2026 designation; at our pin, the tree has no photograph. Species seen: grey-brown, finely fissured bark, forked trunk, small fresh lobed leaves near the plaque; fits field maple. Fits the description: a large old trunk beside the palace in Park Oliwski with a new natural-monument plaque, matching the newest designation in the record.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "age_basis": "derived",
+      "verify_notes": "2026-11-20 reader judge: reader report 1000098 says both maples were planted after World War II, likely late 1950s or early 1960s, as they do not show in post-war photographs. Added as a reader's estimate beside the girth-derived range (CLAUDE.md: an age a reader gives is a basis); no source settles it either way."
     },
     {
       "id": "gda_008",
