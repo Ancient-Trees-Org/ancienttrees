@@ -91,6 +91,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: the tapped tree's card never covers its own pin
+
+- **Live check of the pin fix** (Kyoto, 16:16): eight hovers along the list, no pin moved; markers absolute; a tapped pin opens its card with photo. **Found on the way**: at about 1024 wide (a laptop with the list beside the map) the card fitted neither right nor left of the pin and was pushed against the edge, over the chosen pin. Now it stands above the pin, else below (Airbnb), and its photograph loads at once instead of lazily. map-card-js.ts; checked on the live page with the same arithmetic.
+
 ## 2026-11-20 session: pins stacked and jumped on every web map (found by Hidde, fixed)
 
 - **What was broken, 13:16 to this push**: the app-pin change wrote the pin's CSS into the page after MapLibre's, with `position: relative`, which beat MapLibre's `position: absolute` for markers. Every pin then sat lower by the height of the pins before it in the page, so the pins jumped whenever one came or went (pointing along the list, a tap) and a chosen pin stood far from its own card (Hidde on Kyoto: "als ik ... hover over de lijst dan verspringen de pins en de pins openen niet de airbnb preview"). My test page hid it because the live style.css still carried the old rule then. Fixed: no position on .pin-tree; qa `check_every_map_shows_pins_the_same_way()` refuses one in pinCss() or style.css (tested both ways); escaped bug recorded with that check. And pointing at a tree in the list no longer moves the other pins at all (it was full-pin-first, so neighbours could turn into dots): eight hovers on Kyoto, zero pin moved; a tapped dot's pin now stands beside its card.

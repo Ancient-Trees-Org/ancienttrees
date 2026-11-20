@@ -38,7 +38,7 @@
     {
       "what": "A tapped pin's card",
       "since": "2026-10-24",
-      "web": "Airbnb's card floats on the map (map-card-js.ts)",
+      "web": "Airbnb's card floats on the map (map-card-js.ts): beside the pin, or above or below it where the map is too narrow for either side (2026-11-20), never over its own pin; its photograph loads at once",
       "ios": "the tree's own card rises in the sheet (Apple Maps)",
       "android": "as iOS",
       "status": "one-sided",

@@ -58,8 +58,20 @@ function atMapCard(map, opts) {
       return;
     }
     // Right of the pin when there is room, else left; 16 from every edge.
-    var x = p.x + gap + w > W - 16 ? p.x - gap - w : p.x + gap;
-    var y = Math.min(Math.max(16, p.y - h / 2), H - h - 16);
+    // On a map too narrow for either (a laptop with the list beside it),
+    // above the pin, else below it, as Airbnb's card does: it never covers
+    // its own pin (Hidde, 2026-11-20, on Kyoto at 1024 wide, where the card
+    // was pushed against the left edge, over the chosen pin).
+    var x, y;
+    if (p.x + gap + w <= W - 16) { x = p.x + gap; }
+    else if (p.x - gap - w >= 16) { x = p.x - gap - w; }
+    if (x !== undefined) {
+      y = Math.min(Math.max(16, p.y - h / 2), H - h - 16);
+    } else {
+      x = Math.min(Math.max(16, p.x - w / 2), W - w - 16);
+      var above = p.y - gap - h, below = p.y + gap;
+      y = above >= 16 ? above : (below + h <= H - 16 ? below : Math.max(16, H - h - 16));
+    }
     el.style.left = Math.max(16, x) + 'px';
     el.style.top = y + 'px';
   }
@@ -86,6 +98,10 @@ function atMapCard(map, opts) {
       copy.style.removeProperty('display');
     }
     if (!copy) { el = null; return; }
+    // The card is on screen now: its photograph loads now, not lazily (a
+    // list card further down the page had not fetched it yet, so the card
+    // opened on a grey box for a moment).
+    Array.prototype.forEach.call(copy.querySelectorAll('img[loading="lazy"]'), function(im) { im.loading = 'eager'; });
     el.appendChild(copy);
     var x = document.createElement('button');
     x.type = 'button';
