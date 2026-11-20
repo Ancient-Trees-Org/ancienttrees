@@ -9,6 +9,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 daily publish: queue empty
+
+- **Daily publish: queue empty.** No builder newer than build_write_2026_11_17 and no out/tmp/held_build.py; every written tree in the verified files touched since then (frankfurt, fort-lauderdale, stuck-tips-2026-11-20, san-francisco, innsbruck, key-west, noto, miami-2, birmingham) is already in data/cities, and tonight's hst_008 and cft_001 went in with their write pass. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-20 reader judge: the Tyler sequoia gets a reader's photographs and its real pin
 
 - **Live**: the same Tyler Arboretum reader's photograph of the Painter giant sequoia (Media, mdp_001), the trunk from below with the tall mesh root fence and Painter Road behind, is now the page's lead; their close-up of the base (lightning cable, tag, fence) and the 2006 Commons photo sit in the strip. Matched against the Commons photo: same mesh fence, road and cable. The pin moved from the arboretum centroid to their GPS fix by Painter Road, 616 m, by hand past move_pin's 300 m (confirmed). Their hand-moved pin (report 1000103) lands 9 m from it; pin thank-you sent.
