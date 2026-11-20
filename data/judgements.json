@@ -236,6 +236,28 @@
    "agreed": null
   },
   {
+   "id": "sight:09fefb21-1b03-4d64-ab0e-e0a8a0555821",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Montée Saint-Sébastien",
+   "city": "Lyon",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/09fefb21-1b03-4d64-ab0e-e0a8a0555821.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 3,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the forked plane on the hillside street, 3 m from our surveyed pin; this tree, autumn leaf. Now the lead photograph (the tree had none).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

@@ -5,7 +5,7 @@
   "intro": "Lyon keeps a formal, published list of its remarkable trees: four carry the national Arbre Remarquable label, and one park holds the collective Ensemble Arboré Remarquable label for its whole 8,800-tree collection. That park, the Tête d'Or, exists because 19th century Lyonnais wanted a green space to rival Paris's Bois de Boulogne, and two Swiss brothers gave them one with species from four continents. What survives elsewhere is quieter: a giant chestnut in a half-wild park, a cedar on a Saône island where monks gardened for a thousand years, an oak collection planted the year before the First World War.",
   "meta_description": "Lyon labels its remarkable trees by law. Meet a pine first grown in Europe via Kew in 1856, a giant chestnut, and an island cedar monks once tended.",
   "question_answer": "Lyon has no single documented oldest tree, but its most precisely dated remarkable tree is the Pin de Bunge, also called the Pin de Napoléon, in the Parc de la Tête d'Or, planted around 1856 during the park's creation and now roughly 170 years old. It carries France's national Arbre Remarquable label and is described by the label association as having no equivalent elsewhere in the country.",
-  "question_meta": "Lyon's most precisely dated remarkable tree is an 1856 Chinese pine in Parc de la Tête d'Or. Its story, exact location, and twelve more remarkable trees.",
+  "question_meta": "Lyon's most precisely dated remarkable tree is an 1856 Chinese pine in Parc de la Tête d'Or. Its story, exact location, and thirteen more remarkable trees.",
   "question_context": "Lyon is one of the few cities on this list with an actual published inventory to work from: the city government maintains a list of nationally labelled Arbres Remarquables, awarded by the A.R.B.R.E.S. association, and the Metropole publishes open data on protected trees across Greater Lyon. That inventory favours species rarity, size and documented planting circumstances over sheer age, which is why the Pin de Bunge, a Chinese species first introduced to Europe through Kew Gardens in the 19th century, anchors this list rather than an oak or a yew. It stands along the perimeter path of the Tête d'Or's arboretum, a five minute walk from the Boulevard des Belges entrance, in a park that itself holds France's Ensemble Arboré Remarquable label for the whole collection. Older individual claims exist elsewhere in the city, a cedar on the Saône island of Île Barbe where monks are documented gardening for over a thousand years, but none carry the same precisely dated planting record the Pin de Bunge does.",
   "faq": [
     {
@@ -824,10 +824,17 @@
       "story": "On the Pentes of the Croix-Rousse, one plane on the Montée Saint-Sébastien outweighs every tree around it. Surveyors for the Métropole measured it in July 2023 at 368 centimetres round and 28 metres tall. Nothing else within 55 metres reaches even 200 centimetres.\n\nIts crown spreads 26 metres, almost as wide as the tree is tall, which on a narrow hillside street means it covers far more ground than its footprint. Two adults with arms spread would come up just short of ringing the trunk.\n\nThe Montée Saint-Sébastien became one-way and pedestrian-priority in 2021, so the tree now stands on a street built more for walking than for cars. At the foot of the slope, the Jardin Croix-Paquet fills the ground between the montée and rue Alsace-Lorraine, and the metro stop of the same name is a few minutes' walk away.\n\nThat is about all the record says. No story attaches to it, the city's inventory carries no planting year for it at all, and nobody has dated it. If you know how long it has stood on this slope, tell us.",
       "how_to_recognise": "You can recognise it as the only big tree on this stretch, a plane 3.68 metres round and 28 metres tall with a crown 26 metres wide. It stands on Montée Saint-Sébastien, uphill from the Jardin Croix-Paquet.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lyo_022-the-plane-of-mont-e-saint-s-bastien.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_632f911006e6a6d1beaf2da5",
+        "sighting_id": "09fefb21-1b03-4d64-ab0e-e0a8a0555821",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: A big plane trunk forking into two main stems on a sloping street with railings and steps, taken 3 m from our pin; the only big tree on that stretch, as the recognition line says. Autumn leaf. Species seen: mottled, flaking grey-green and cream bark, palmate lobed leaves, spiky seed balls hanging in the crown. Fits the description: a large plane on a steep hillside street with a stair railing and a low wall, standing alone over the road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     },
     {

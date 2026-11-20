@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: a reader's photograph puts the Plane of Montée Saint-Sébastien on the web
+
+- **Live:** a reader's app photograph of lyo_022, The Plane of Montée Saint-Sébastien (Lyon), taken 3 m from our surveyed pin: the forked plane over the stair railing on the hillside street, autumn leaf. It is the tree's first photograph and now its lead (`taken_month` 11). The reader content lifts it out of app-only, so it gets its page: French overlay entry added (fr/lyon is a kept translation), and Lyon's counts move from 13 to 14 ("thirteen more" in the English question_meta; "les 14 plus beaux" and "treize autres" in French). The "on the page" mail went through sightings_publish.py --send.
+- **Waiting:** 3c544597 (Amsterdam, sent as "not sure which tree", near the Last Elm of Stationsplein ams_032) has no photograph on this runner, so it was not judged blind and waits for the next run. The older Japan and Baarn leads without a hold are our own account's photographs ("mine"), none on disk; untouched.
+- Reports open: 0. Feedback without a verdict: 0. Tips unjudged: 0. reader_words: nothing to quote (4 mail sentences still wait for their senders' yes).
+- Checks: qa --source-only nothing to fix, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-20 reader judge: first photograph of the St Mary Magdalene Plane
 
 - **Live**: a reader's app photograph is now the lead photograph of London's St Mary Magdalene Plane (lon_041), which had none. Viewed first: the huge burred, multi-stemmed plane in its garden, daylight, autumn leaf fall; species and description both match. Filed under November (the photo's own date, and it shows leaf fall). The reader's coordinate was our own pin, so the pin stays approximate. The reader got the "on the page" mail (`sightings_publish.py --send`).
