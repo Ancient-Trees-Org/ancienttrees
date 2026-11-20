@@ -9,7 +9,9 @@
 // day had 71 email sign-ups in four hours: moving everything there would break
 // sign-up for everyone on the next press day. Resend Pro was too dear.
 //
-// So the split: Yahoo-family addresses (a few a day) go through Resend, signed;
+// Since 2026-11-20 (Resend Pro) every mail here goes through Resend first;
+// see RESEND_FIRST below. The split this replaced:
+// Yahoo-family addresses (a few a day) go through Resend, signed;
 // everyone else keeps going through Gmail exactly as before (SMTP on 465;
 // Supabase's Edge Functions block 25 and 587). If one route fails the mail
 // tries the other, so a hiccup on either side still reaches the person.
@@ -259,7 +261,13 @@ Deno.serve(async (req) => {
         { status: 200, headers: { "Content-Type": "application/json" } });
     }
   }
-  const [first, second] = onYahoo(to) ? [viaResend, viaGmail] : [viaGmail, viaResend];
+  // RESEND FIRST FOR EVERY MAIL HERE, FOR NOW (Hidde, 2026-11-20, "for now
+  // yes"): that afternoon a mail wave took his Gmail past its daily limit and
+  // nobody could sign in. Resend Pro (same day) has no daily cap, so sign-in
+  // mail no longer shares Gmail's limit with outreach; Gmail stands in when
+  // Resend fails. Back to the split below by setting RESEND_FIRST false.
+  const RESEND_FIRST = true;
+  const [first, second] = RESEND_FIRST || onYahoo(to) ? [viaResend, viaGmail] : [viaGmail, viaResend];
 
   try {
     await first(to, subject, html);

@@ -27,7 +27,8 @@
 - **Breakage**: from about 12:00 UTC no email sign-in link could go out. His Gmail (the account behind info@) hit its daily limit during wave 3, and Resend's free 100 were used up by the overflow; the hook tries both and both refused. Tested at 14:40 UTC: Gmail still answered "550 5.4.5 Daily user sending limit exceeded". Google and Apple sign-in kept working. Failed requests leave probably no trace in Supabase, so signin_watch.py cannot catch those people up; they get in when they try again.
 - **Fixed (Hidde: "Yes, Pro", upgraded himself)**: Resend Pro, 50,000 a month, no daily cap. A sign-in request for apptest@ went through right after (hook answered OK). `RESEND_DAY` 1600 and `RESEND_FOR_STRANGERS` 1000 in mailer.py; test_mailer.py green.
 - **Still true**: his personal Gmail cannot send until Google lifts the block (within 24 hours of about 12:00 UTC). No wave 3 portion until then.
-- **Proposed, not done**: sign-in mail through Resend first with Gmail as backup, so a wave can never block sign-in again (hook change and redeploy). The website's "try again in a minute" on a failed send is untrue in an outage like this one, and typed in English only.
+- **Live since about 15:10 UTC (send-email v11, Hidde: "for now yes")**: every sign-in and welcome mail goes through Resend first, Gmail only as backup, so a mail wave on Gmail can no longer block sign-in. Switch: `RESEND_FIRST` in the hook. Tested: a sign-in request for apptest@ went through v11 while Gmail was still blocked, so through Resend.
+- **Not done**: the website's "try again in a minute" on a failed send is untrue in an outage like this one, and typed in English only.
 
 ## 2026-11-20 session: the digest's photo rows count by the day a photo was sent
 
