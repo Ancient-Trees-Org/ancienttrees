@@ -17,9 +17,9 @@
 // from ./walks the way this file's own build-time code does above. That cost
 // us a hand-kept copy of the haversine formula until 2026-09-12, when the
 // proximity check that needed it went; there is no duplicate of it left here.
-import {MAP_STYLE, MAP_CREDIT} from "./site-config";
-import { mapScript, pinPriority, PILES_JS, ONE_WORLD } from "./map";
+import { mapScript, pinPriority, PILES_JS } from "./map";
 import { treePinsJs } from "./tree-pins-js";
+import { treeMapJs } from "./tree-map-js";
 import { distSpan } from "./trees";
 import type { WalkMarker, Walk } from "./walks";
 import { mapCardJs } from "./map-card-js";
@@ -118,7 +118,7 @@ export function cityMapScript(
 
   const home = homeBounds(inTown && inTown.length >= 2 ? inTown : markers);
 
-  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
+  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeMapJs()}${mapFiltersJs()}
 var markers = ${data};
 // THE FILTER ROW (lib/map-filters-js.ts), the explore map's, wired here before
 // the map for the reason given there (Hidde, 2026-11-01: "put the filters also
@@ -183,19 +183,28 @@ atMapFilters({
 // The opening frame: the cluster, not every outlier. See homeBounds().
 var HOME = ${JSON.stringify(home)};
 if (!atCanMap()) return;
-var map = new maplibregl.Map({
-  container: 'map',
-  style: '${MAP_STYLE}',
-  center: [${center[1]}, ${center[0]}],
-  zoom: 10.5, ${ONE_WORLD},
-  scrollZoom: true,
-  attributionControl: false
+// THE ONE MAP (tree-map-js.ts): controls, the one locate button, the place
+// in the address and the trees are its; the list, the walks and the passport
+// are this page's.
+var T = atTreeMap({
+  center: [${center[1]}, ${center[0]}], zoom: 10.5,
+  // This city's markers carry their drawing; a neighbour's is looked up by
+  // its species index once /api/map-species.json has answered.
+  iconOf: function(p) {
+    if (p.home) { var m = markers[p.ix]; return m ? m.icon : 'broadleaf'; }
+    return (SP_IC && p.sp !== undefined && p.sp !== null && p.sp >= 0 && SP_IC[p.sp]) || 'broadleaf';
+  },
+  seen: function(p) { return readSeen().indexOf(p.id) !== -1; },
+  // This city's own tree selects its row first; a neighbour gets the card.
+  open: function(p) { if (p.home) { selectTree(p.ix); return true; } return false; },
+  cardFor: function(p) {
+    if (!p.home) { return null; }
+    var card = cardOf(p.ix);
+    return card ? { el: card, href: hrefOf(card) } : null;
+  },
+  ready: function(p, c) { initPins(p, c); }
 });
-map.addControl(new maplibregl.AttributionControl({compact: true, customAttribution: ${JSON.stringify(MAP_CREDIT)}}), 'top-left');
-map.addControl(new maplibregl.NavigationControl());
-map.addControl(new maplibregl.FullscreenControl());
-map.on('load', function() { map.resize(); });
-new ResizeObserver(function() { map.resize(); }).observe(document.getElementById('map'));
+var map = T.map;
 // EVERY TREE IN VIEW, the explore map's way (Hidde, 2026-11-01, zooming out
 // from Amsterdam: the neighbours' trees were missing, then every dot was a
 // whole city that opened another page). The city map is the explore map
@@ -210,29 +219,12 @@ markers.forEach(function(m) { HOME_IDS[m.id] = 1; });
 var PIN_ORDER = ${pinOrderJson};
 // The pins go on as soon as the style is there, not at 'load', which waits for
 // every tile: the smoke test and a slow phone both see the trees first.
-function initPins() {
+// Called by the one map once its trees exist.
+function initPins(p, c) {
   if (pins) { return; }
-  pins = atTreePins(map, {
-    source: 'trees',
-    // This city's markers carry their drawing; a neighbour's is looked up by
-    // its species index once /api/map-species.json has answered.
-    iconOf: function(p) {
-      if (p.home) { var m = markers[p.ix]; return m ? m.icon : 'broadleaf'; }
-      return (SP_IC && p.sp !== undefined && p.sp !== null && p.sp >= 0 && SP_IC[p.sp]) || 'broadleaf';
-    },
-    seen: function(p) { return readSeen().indexOf(p.id) !== -1; },
-    open: function(p, c) {
-      if (p.home) { selectTree(p.ix); return; }
-      openTreeCard(p, c);
-    }
-  });
-  openTreeCard = atTreePinCard(map, pins, function(p) {
-    if (!p.home) { return null; }
-    var card = cardOf(p.ix);
-    return card ? { el: card, href: hrefOf(card) } : null;
-  });
-  mapCard = openTreeCard;
-  atPinsFollowList(pins, openTreeCard, null);
+  pins = p;
+  openTreeCard = c;
+  mapCard = c;
   pins.setData(allFeatures());
   Promise.all([
     fetch('/api/pins.json').then(function(r) { return r.json(); }),
@@ -253,14 +245,13 @@ function initPins() {
   }).catch(function() {});
   if (wantTree !== null) { openOnTree(wantTree); }
 }
-map.on('style.load', initPins);
-if (map.isStyleLoaded()) { initPins(); }
 // NO "CITIES IN VIEW" ANY MORE (Hidde, 2026-11-20, shown the city map and
 // /explore zoomed out side by side: "B, bomen in beeld"). Zoomed out, the
 // city map's list turned into a list of other cities, which no other map and
 // neither app does; the list now stays this city's trees at every zoom, and
 // the other places stay on the map as pins (data/map-parity.json).
-if (markers.length > 1) {
+// The opening frame, unless the address already says where you were.
+if (markers.length > 1 && !T.fromAddress) {
   var _b = new maplibregl.LngLatBounds(HOME[0], HOME[1]);
   var _el = document.getElementById('map');
   var _pad = Math.max(30, Math.min(90, Math.floor(Math.min(_el.clientWidth, _el.clientHeight) * 0.16)));
@@ -344,17 +335,7 @@ document.addEventListener('click', function(e) {
 
 // TREES ON ONE SPOT: ZOOM IN, THEN SPREAD (Hidde, 2026-10-15) is the one
 // pin set's now (PILES_JS through tree-pins-js.ts), the same on every map.
-if (markers.length > 1) { map.fitBounds(HOME, { padding: 70, maxZoom: 13 }); }
-// The map keeps its place in the address (#map=zoom/lat/lng), as /explore
-// does, so back from a tree page lands where you were (Hidde, 2026-11-01).
-var _view = /^#map=([0-9.]+)\\/(-?[0-9.]+)\\/(-?[0-9.]+)$/.exec(location.hash);
-if (_view) { map.jumpTo({zoom: +_view[1], center: [+_view[3], +_view[2]]}); }
-map.on('moveend', function() {
-  if (location.hash && location.hash.indexOf('#map=') !== 0) { return; }
-  var c = map.getCenter();
-  try { history.replaceState(null, '', location.pathname + location.search + '#map=' +
-    map.getZoom().toFixed(2) + '/' + c.lat.toFixed(5) + '/' + c.lng.toFixed(5)); } catch (e) {}
-});
+if (markers.length > 1 && !T.fromAddress) { map.fitBounds(HOME, { padding: 70, maxZoom: 13 }); }
 // A tap on a card OPENS the tree since 2026-10-04 (TreeCard.astro: the whole
 // card is one link, as in the app and on AllTrails and Airbnb). What the list
 // still does for the map is AllTrails' and Airbnb's web half: on a desktop,
@@ -579,39 +560,7 @@ function openOnTree(want) {
     if (markers[ti].id === want) { setActive(ti, true, false); return; }
   }
 }
-var gpsBtn = document.getElementById('gps-btn');
-var meMarker = null, watchId = null;
-if (gpsBtn && navigator.geolocation) {
-  gpsBtn.addEventListener('click', function() {
-    if (watchId !== null) {
-      navigator.geolocation.clearWatch(watchId);
-      watchId = null;
-      if (meMarker) { meMarker.remove(); meMarker = null; }
-      gpsBtn.setAttribute('aria-pressed', 'false');
-      gpsBtn.textContent = 'Where am I';
-      return;
-    }
-    gpsBtn.textContent = 'Finding you...';
-    watchId = navigator.geolocation.watchPosition(function(pos) {
-      var here = [pos.coords.longitude, pos.coords.latitude];
-      if (!meMarker) {
-        var dot = document.createElement('div');
-        dot.className = 'pin-me';
-        meMarker = new maplibregl.Marker({ element: dot }).setLngLat(here).addTo(map);
-        map.flyTo({ center: here, zoom: 15, duration: 1000 });
-      } else {
-        meMarker.setLngLat(here);
-      }
-      gpsBtn.setAttribute('aria-pressed', 'true');
-      gpsBtn.textContent = 'Hide me';
-    }, function(err) {
-      gpsBtn.textContent = err.code === 1 ? 'Location blocked' : 'Location unavailable';
-      watchId = null;
-      setTimeout(function() { gpsBtn.textContent = 'Where am I'; }, 3000);
-    }, { enableHighAccuracy: true, maximumAge: 10000, timeout: 10000 });
-  });
-} else if (gpsBtn) {
-  gpsBtn.hidden = true;
-}
+// "Where am I" is the one map's locate button now (atTreeMap), the same
+// on every map; the city page's own button went on 2026-11-20.
 `);
 }

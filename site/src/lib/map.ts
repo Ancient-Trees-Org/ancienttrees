@@ -8,6 +8,7 @@ import { mapFiltersJs } from "./map-filters-js";
 import { ui } from "./i18n";
 import { icon } from "./icons";
 import { treePinsJs } from "./tree-pins-js";
+import { treeMapJs } from "./tree-map-js";
 import { treeCardJs } from "./tree-card";
 import { placeCardJs } from "./browse-card";
 
@@ -405,19 +406,26 @@ atMapFilters({
   map: function() { return typeof map !== 'undefined' ? map : null; }
 });
 ` : "";
-  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}
+  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}${treeMapJs()}
 var ALL = ${JSON.stringify(data)}.features;
 var pins = null;
 ${filters}
 var SHEET = ${sheet ? "true" : "false"};
 if (!atCanMap()) return;
-var map = new maplibregl.Map({
-  container: 'map', style: '${MAP_STYLE}',
-  center: [0, 0], zoom: 3, ${ONE_WORLD},
-  scrollZoom: SHEET, attributionControl: false
+// THE ONE MAP (tree-map-js.ts). The state pages' map is a box inside the
+// page (embedded: no scroll zoom, no locate, no place in the address); the
+// country page's is the page, and gets everything every map has.
+var T = atTreeMap({
+  center: [0, 0], zoom: 3, embedded: !SHEET,
+  iconOf: function(p) { return p.ic || 'broadleaf'; },
+  ready: function(p) {
+    pins = p;
+    fit();
+    pins.setData(ALL);
+    if (SHEET && typeof applyCountryFilters === 'function') { applyCountryFilters(); }
+  }
 });
-map.addControl(new maplibregl.AttributionControl({compact: true, customAttribution: ${JSON.stringify(MAP_CREDIT)}}), 'top-left');
-map.addControl(new maplibregl.NavigationControl({showCompass: false}));
+var map = T.map;
 var b = new maplibregl.LngLatBounds();
 ALL.forEach(function(f) { b.extend(f.geometry.coordinates); });
 // A country whose cities all hug one border names extra ground to show
@@ -428,7 +436,8 @@ if (FRAME) { b.extend(FRAME[0]); b.extend(FRAME[1]); }
 // Martinique, Tenerife and Hawaii stay on the map, one zoom out away.
 var FOCUS = ${JSON.stringify(focus ?? null)};
 if (FOCUS) { b = new maplibregl.LngLatBounds(FOCUS[0], FOCUS[1]); }
-var touched = false;
+// Coming back to a place kept in the address, the country frame waits.
+var touched = T.fromAddress;
 // On a phone the sheet's peek covers the bottom of a full-bleed map, so the
 // country is framed in the part that shows: above the peek and below the
 // filter row (sheet-js.ts says where the sheet comes to rest).
@@ -464,29 +473,8 @@ function fit() {
 }
 map.on('dragstart', function() { touched = true; });
 map.on('zoomstart', function(e) { if (e.originalEvent) { touched = true; } });
-new ResizeObserver(function() { map.resize(); fit(); }).observe(document.getElementById('map'));
+new ResizeObserver(function() { fit(); }).observe(document.getElementById('map'));
 map.on('load', fit);
-// The pins go on as soon as the style is there, not at 'load', which waits
-// for every tile (as on the city map).
-function initPins() {
-  if (pins) { return; }
-  fit();
-  // THE ONE TREE PIN (tree-pins-js.ts), the city map's, since 2026-11-20
-  // (Hidde: "ik wil gewoon 1 goede"). A pin or a dot shows the tree's card,
-  // the same as on every map (map-card-js.ts).
-  var openCard = null;
-  pins = atTreePins(map, {
-    source: 'trees',
-    iconOf: function(p) { return p.ic || 'broadleaf'; },
-    open: function(p, c) { if (openCard) openCard(p, c); }
-  });
-  pins.setData(ALL);
-  openCard = atTreePinCard(map, pins, null);
-  atPinsFollowList(pins, openCard, null);
-  if (SHEET && typeof applyCountryFilters === 'function') { applyCountryFilters(); }
-}
-map.on('style.load', initPins);
-if (map.isStyleLoaded()) { initPins(); }
 `);
 }
 
@@ -567,7 +555,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
   const speciesLatinJson = JSON.stringify(speciesLatin);
   return (
     mapScript(
-    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeCardJs()}${placeCardJs()}${mapFiltersJs()}
+    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeMapJs()}${treeCardJs()}${placeCardJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
 // The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
@@ -611,20 +599,15 @@ atMapFilters({
 
 // One world only (Hidde, 2026-07-29: "ik hoef niet 2 werelden te zien").
 if (!atCanMap()) return;
-var map = new maplibregl.Map({
-  container: 'map', style: '${MAP_STYLE}',
-  center: [8, 48], zoom: 3.4, ${ONE_WORLD},
-  attributionControl: false
+// THE ONE MAP (tree-map-js.ts): controls, the locate button, the place in
+// the address and the trees are its; the list below is this page's.
+var T = atTreeMap({
+  center: [8, 48], zoom: 3.4,
+  iconOf: function(p) { return (p.sp !== undefined && p.sp !== null && SP_IC[p.sp]) || 'broadleaf'; },
+  ready: function(p) { initTreeLayers(p); }
 });
-map.addControl(new maplibregl.AttributionControl({compact: true, customAttribution: ${JSON.stringify(MAP_CREDIT)}}), 'top-left');
-map.addControl(new maplibregl.NavigationControl());
-new ResizeObserver(function() { map.resize(); }).observe(document.getElementById('map'));
-// Location is asked HERE, in map context, never on the homepage.
-var _geo = new maplibregl.GeolocateControl({
-  positionOptions: { enableHighAccuracy: true },
-  showUserLocation: true, fitBoundsOptions: { maxZoom: 13.5 }
-});
-map.addControl(_geo);
+var map = T.map;
+var _geo = T.geo;
 // Arriving from the search field's "Trees near me" row (#near) triggers the
 // locate control once the map is ready, so that row does what it says
 // instead of merely opening the map. The permission prompt still belongs to
@@ -656,23 +639,15 @@ var REGIONS = {
   'Asia/Bangkok': [100.5, 13.75], 'America/New_York': [-74.0, 40.71],
   'Atlantic/Reykjavik': [-21.9, 64.15]
 };
-try {
-  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  if (REGIONS[tz]) { map.jumpTo({center: REGIONS[tz], zoom: 9}); }
-  else if (tz && tz.indexOf('Europe/') === 0) { map.jumpTo({center: [10, 50], zoom: 4}); }
-} catch (e) {}
-// The map keeps its place in the address (#map=zoom/lat/lng, the
-// OpenStreetMap form; Google Maps and Airbnb do the same), so back from a tree
-// page lands where you were, not on the timezone guess (Hidde, 2026-11-01:
-// "fix the back button thing"). replaceState, so panning adds no history.
-var _view = /^#map=([0-9.]+)\\/(-?[0-9.]+)\\/(-?[0-9.]+)$/.exec(location.hash);
-if (_view) { map.jumpTo({zoom: +_view[1], center: [+_view[3], +_view[2]]}); }
-map.on('moveend', function() {
-  if (location.hash && location.hash.indexOf('#map=') !== 0) { return; }
-  var c = map.getCenter();
-  try { history.replaceState(null, '', location.pathname + location.search + '#map=' +
-    map.getZoom().toFixed(2) + '/' + c.lat.toFixed(5) + '/' + c.lng.toFixed(5)); } catch (e) {}
-});
+// The place kept in the address wins over the timezone guess (atTreeMap
+// read it already: back from a tree page lands where you were).
+if (!T.fromAddress) {
+  try {
+    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (REGIONS[tz]) { map.jumpTo({center: REGIONS[tz], zoom: 9}); }
+    else if (tz && tz.indexOf('Europe/') === 0) { map.jumpTo({center: [10, 50], zoom: 4}); }
+  } catch (e) {}
+}
 // Arriving from a town in the search that we hold no tree for
 // (#@lat,lng,Name, search-form.ts): the map opens on that town, at the zoom a
 // town fills, and the sheet asks for its first tree under its name. Read after
@@ -761,16 +736,10 @@ function _countryFromHash() {
 _countryFromHash();
 window.addEventListener('hashchange', _countryFromHash);
 var pins = null;
-function initTreeLayers() {
+// Called by the one map (atTreeMap) once its trees exist.
+function initTreeLayers(p) {
   if (pins) { return; }
-  // THE ONE TREE PIN (tree-pins-js.ts), the city map's, since 2026-11-20
-  // (Hidde: "ik wil gewoon 1 goede"); it was a moss circle here.
-  var openCard = null;
-  pins = atTreePins(map, {
-    source: 'trees',
-    iconOf: function(p) { return (p.sp !== undefined && p.sp !== null && SP_IC[p.sp]) || 'broadleaf'; },
-    open: function(p, c) { if (openCard) openCard(p, c); }
-  });
+  pins = p;
   pins.setData(DATA.features);
   // A search that arrived before the map had its source (#country=...).
   if (FOCUS) { applyFilters(); }
@@ -779,12 +748,8 @@ function initTreeLayers() {
   // later". The 'now' property still travels in DATA, so bringing it back is
   // a halo layer, its requestAnimationFrame loop and the two gold cases on
   // the tree layer (git history has all three).
-  // A pin or a dot shows its tree's card, the one every map shows
-  // (map-card-js.ts, Hidde 2026-10-24: the city map and this one are one
-  // thing). It replaced 10-04's jump straight to the tree page.
-  openCard = atTreePinCard(map, pins, null);
-  // Pointing at a tree in the list lights its pin (Airbnb's list).
-  atPinsFollowList(pins, openCard, null);
+  // A pin or a dot shows its tree's card, and pointing at a tree in the list
+  // lights its pin: both the one map's (atTreeMap).
   // The register layer: officially designated trees from a government
   // register, not our own research. Visually quieter than the curated
   // trees on purpose (small, hollow, grey) so the two layers read as
@@ -815,8 +780,6 @@ function initTreeLayers() {
     }).catch(function() { /* the map works without this layer */ });
   }
 }
-map.on('style.load', initTreeLayers);
-if (map.isStyleLoaded()) { initTreeLayers(); }
 
 // ---- THE TREES IN VIEW, AIRBNB'S WAY (Hidde, 2026-11-06: "zullen de airbnb
 // interactie maar gewoon als standaard aan houden ... zowel voor app als
@@ -1055,43 +1018,26 @@ renderPanel();
  * like.
  */
 export function myTreesMapScript(): string {
-  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}
+  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}${treeMapJs()}
 // An empty collection opens on the whole world, as Polarsteps' empty map
 // does, not on Europe: an Australian with no trees yet saw an empty Europe
 // (Hidde, 2026-11-01). The trees, once there, frame themselves (paint()).
 if (!atCanMap()) return;
-var map = new maplibregl.Map({
-  container: 'map', style: '${MAP_STYLE}',
-  bounds: [[-165, -50], [180, 70]], ${ONE_WORLD},
-  attributionControl: false
-});
-map.addControl(new maplibregl.AttributionControl({compact: true, customAttribution: ${JSON.stringify(MAP_CREDIT)}}), 'top-left');
-map.addControl(new maplibregl.NavigationControl());
-new ResizeObserver(function() { map.resize(); }).observe(document.getElementById('map'));
-
-var EMPTY = { type: 'FeatureCollection', features: [] };
 var pending = null;
-
 var pins = null;
-function initMine() {
-  if (pins) { return; }
-  // THE ONE TREE PIN (tree-pins-js.ts), the city map's: the species drawn on
-  // it, the tick in the corner on a tree you collected, the bookmark on one
-  // you saved. Until 2026-11-20 this map had its own filled-versus-hollow
-  // circles for the same two facts (Hidde: "ik wil gewoon 1 goede").
-  // A pin or a dot shows the tree's card, the one every map shows
-  // (map-card-js.ts), and the card is the tile's own when the grid has it, so
-  // your photograph of the tree comes with it. A tree only you have may have
-  // no page at all: sharing is what gives it one, so its card carries the
-  // name and place and opens nothing.
-  var openCard = null;
-  pins = atTreePins(map, {
-    source: 'mine',
-    iconOf: function(p) { return p.ic || 'broadleaf'; },
-    seen: function(p) { return p.got === 1 || Boolean(window.atHasVisited && window.atHasVisited(p.id)); },
-    open: function(p, c) { if (openCard) openCard(p, c); }
-  });
-  openCard = atTreePinCard(map, pins, function(p) {
+// THE ONE MAP (tree-map-js.ts), with the one tree pin: the species drawn on
+// it, the tick in the corner on a tree you collected, the bookmark on one you
+// saved (it had its own filled-versus-hollow circles until 2026-11-20, Hidde:
+// "ik wil gewoon 1 goede"). A pin or a dot shows the tree's card, and the card
+// is the tile's own when the grid has it, so your photograph of the tree
+// comes with it. A tree only you have may have no page at all: sharing is
+// what gives it one, so its card carries the name and place and opens nothing.
+var T = atTreeMap({
+  bounds: [[-165, -50], [180, 70]], padding: 0, maxZoom: 3,
+  source: 'mine',
+  iconOf: function(p) { return p.ic || 'broadleaf'; },
+  seen: function(p) { return p.got === 1 || Boolean(window.atHasVisited && window.atHasVisited(p.id)); },
+  cardFor: function(p) {
     // The grid's own card for this tree, in the lane you are looking at first.
     var id = String(p.id || '').replace(/[^A-Za-z0-9_-]/g, '');
     var q = id.indexOf('own-') === 0
@@ -1104,21 +1050,26 @@ function initMine() {
     var card = el.closest('.tree-card') || el;
     var a = card.querySelector('a[href]');
     return { el: card, href: a ? a.href : (p.url || null) };
-  });
+  },
   // Pointing at a tile lights its pin (Airbnb's list).
-  atPinsFollowList(pins, openCard, function(el) {
+  listIdOf: function(el) {
     if (!el.closest('.saved-list')) { return null; }
     if (el.hasAttribute('data-pin-id')) { return el.getAttribute('data-pin-id'); }
     if (el.hasAttribute('data-tree-id')) { return el.getAttribute('data-tree-id'); }
     var own = el.getAttribute('data-id');
     return own ? 'own-' + own : null;
-  });
-  if (pending) { paint(pending); pending = null; }
-}
+  },
+  ready: function(p) {
+    pins = p;
+    if (pending) { paint(pending); pending = null; }
+  }
+});
+var map = T.map;
 
 function paint(features) {
   pins.setData(features);
-  if (!features.length) { return; }
+  // Back from a tree page, the place kept in the address wins.
+  if (!features.length || T.fromAddress) { return; }
   // Frame the whole collection. One tree gets a city-level zoom rather than
   // a bounding box of nothing.
   var b = new maplibregl.LngLatBounds();
@@ -1132,9 +1083,6 @@ function paint(features) {
 window.atSetMyTrees = function(features) {
   if (pins) { paint(features); } else { pending = features; }
 };
-
-map.on('style.load', initMine);
-if (map.isStyleLoaded()) { initMine(); }
 `);
 }
 

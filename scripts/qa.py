@@ -3562,8 +3562,21 @@ def check_every_map_shows_pins_the_same_way():
     eng = engine.read_text() if engine.exists() else ""
     if "function atTreePins(" not in eng or "${PIN_DISTANCE}" not in eng or "${FAR_PIN_DISTANCE}" not in eng:
         problems.append("tree-pins-js.ts no longer places the one tree pin by PIN_DISTANCE from lib/map.ts")
+    # And the map around the pins is one too (Hidde, 2026-11-20: "zijn de
+    # explore kaart de stadskaart en de kaart op profiel nu een en hetzelfde
+    # product?"): every map script that draws trees builds its map through
+    # atTreeMap (tree-map-js.ts). The tree page's small inset map and the
+    # single-pin map are the exceptions: one tree, no list, no card.
+    shell = lib / "tree-map-js.ts"
+    if not shell.exists() or "function atTreeMap(" not in shell.read_text():
+        problems.append("tree-map-js.ts no longer defines atTreeMap, the one map")
+    for f in (lib / "map.ts", lib / "city-map-script.ts"):
+        for part in re.split(r"\n(?=export )", f.read_text()):
+            fm = re.match(r"export function (\w+)", part)
+            if fm and fm.group(1) != "singlePinScript" and "new maplibregl.Map(" in part:
+                problems.append("%s: %s builds a map of its own; use atTreeMap (tree-map-js.ts)" % (f.name, fm.group(1)))
     for f in sorted(lib.glob("*.ts")):
-        if f == engine:
+        if f in (engine, shell):
             continue
         src = f.read_text()
         if "maplibregl.Map(" not in src and "mapScript(" not in src:

@@ -445,9 +445,7 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
               and its comment are gone rather than hidden, per this file's
               own no-half-delivered-features rule; re-add both when walks
               actually ship. */}
-          <button type="button" class="map-gps" id="gps-btn" aria-pressed="false" aria-label="Where am I">
-            <svg viewBox="0 0 24 24" aria-hidden="true" class="gps-ic"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="12" cy="12" r="7.5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
-          </button>
+          {/* "Where am I" is the one map's locate button now (tree-map-js.ts, 2026-11-20). */}
         </div>
       </div>
     </div>

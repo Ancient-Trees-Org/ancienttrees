@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "The map itself: zoom buttons, one locate button, the place kept in the address, the trees, the card, the list that lights a pin",
+      "since": "2026-11-20",
+      "web": "one component, atTreeMap (tree-map-js.ts), on the city map, /explore, the country and state maps and the profile map; the fullscreen button (city map only) and the city map's own locate button are gone; the state pages' map stays an embedded box (no scroll zoom, no locate)",
+      "ios": "one map, TreeMap.swift, on every map screen",
+      "android": "one map, TreeMapView.kt, as iOS",
+      "status": "one-sided",
+      "why": "the same map on each platform; the controls follow the platform (MapLibre's buttons on the web, the app's own recentre button over the sheet, CONVENTIONS.md \"A my-location control over a bottom sheet\")"
+    },
+    {
       "what": "The one tree pin: moss disc, white ring, species in white, 1.5x when chosen, moss dots",
       "since": "2026-11-20",
       "web": "tree-pins-js.ts from PIN_SPEC (lib/map.ts)",
