@@ -183,6 +183,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ams_032-the-last-elm-of-stationsplein.jpg": {
+   "base": "ams_032-the-last-elm-of-stationsplein",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ams_032-the-last-elm-of-stationsplein-a2b98e69.jpg": {
+   "base": "ams_032-the-last-elm-of-stationsplein-a2b98e69",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/amn_001-eiche-am-forsthaus-gruener-jaeger.jpg": {
    "base": "amn_001-eiche-am-forsthaus-gruener-jaeger",
    "widths": [
@@ -397,6 +409,18 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/5/58/Aubers.-_Tilleul_du_Joncquoy_%282%29.jpg": {
    "base": "jnc_001-the-linden-of-joncquoy",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/akl_001-old-albert.jpg": {
+   "base": "akl_001-old-albert",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/akl_001-old-albert-ace82d0b.jpg": {
+   "base": "akl_001-old-albert-ace82d0b",
    "widths": [
     500
    ]
@@ -1630,8 +1654,80 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar.jpg": {
+   "base": "bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar-b.jpg": {
+   "base": "bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar-b",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_008-the-sophora-of-the-abbaye-de-la-cambre-wespelaar.jpg": {
+   "base": "bru_008-the-sophora-of-the-abbaye-de-la-cambre-wespelaar",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dreef_in_Jubelpark_Brussel.jpg": {
    "base": "bru_010-the-chestnut-avenue-of-the-cinquantenaire",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar.jpg": {
+   "base": "bru_011-the-turners-oak-of-parc-degmont-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar-b.jpg": {
+   "base": "bru_011-the-turners-oak-of-parc-degmont-wespelaar-b",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_012-the-ginkgo-of-parc-degmont-wespelaar.jpg": {
+   "base": "bru_012-the-ginkgo-of-parc-degmont-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_013-the-tulip-tree-of-parc-degmont-wespelaar.jpg": {
+   "base": "bru_013-the-tulip-tree-of-parc-degmont-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_014-the-great-sycamore-of-parc-degmont-wespelaar.jpg": {
+   "base": "bru_014-the-great-sycamore-of-parc-degmont-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar.jpg": {
+   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-b.jpg": {
+   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-b",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-c.jpg": {
+   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-c",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-d.jpg": {
+   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-d",
    "widths": [
     500
    ]
@@ -1804,6 +1900,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/can_008-grant-crescent-blue-gums.jpg": {
+   "base": "can_008-grant-crescent-blue-gums",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cnk_004-the-plaited-birch-of-brocton.jpg": {
    "base": "cnk_004-the-plaited-birch-of-brocton",
    "widths": [
@@ -1836,6 +1938,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/a/a5/456%2C_Ga%C5%A1tan_jedl%C3%BD_v_%C4%8Castej_-_poh%C4%BEad_z_juhov%C3%BDchodu.jpg": {
    "base": "cst_001-the-great-chestnut-of-asta",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cbo_001-bench-redwood-of-castleboro.jpg": {
+   "base": "cbo_001-bench-redwood-of-castleboro",
    "widths": [
     500
    ]
@@ -1896,6 +2004,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/7/7c/Dub_-_Star%C3%A9_Dobrkovice.jpg": {
    "base": "ckr_005-the-bridge-oak-of-star-dobrkovice",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cdf_001-the-brandywine-sycamore-lafayette-sycamore.jpg": {
+   "base": "cdf_001-the-brandywine-sycamore-lafayette-sycamore",
    "widths": [
     500
    ]
@@ -3401,6 +3515,12 @@
     1000
    ]
   },
+  "https://ancienttrees.app/photos/fkt_001-married-couple-cherry-trees-of-miyajidake-shrine.jpg": {
+   "base": "fkt_001-married-couple-cherry-trees-of-miyajidake-shrine",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/e/eb/20150819_155632-old-tjikko.jpg": {
    "base": "ful_001-old-tjikko",
    "widths": [
@@ -3499,6 +3619,12 @@
   },
   "https://ancienttrees.app/photos/glg_001-the-geelong-ginkgo-leaves.jpg": {
    "base": "glg_001-the-geelong-ginkgo-leaves",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/gtb_001-sweet-chestnut-of-hulsbeek.jpg": {
+   "base": "gtb_001-sweet-chestnut-of-hulsbeek",
    "widths": [
     500
    ]
@@ -3973,6 +4099,18 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/5/5d/Emancipation_Oak.jpg": {
    "base": "hmp_001-the-emancipation-oak",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hni_003-the-banyan-of-nhan-dan-71-hang-trong.jpg": {
+   "base": "hni_003-the-banyan-of-nhan-dan-71-hang-trong",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hat_001-bone-tree-of-hatley.jpg": {
+   "base": "hat_001-bone-tree-of-hatley",
    "widths": [
     500
    ]
@@ -4477,6 +4615,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/kas_001-the-leaf-seed-ginkgo-of-inada-gobo.jpg": {
+   "base": "kas_001-the-leaf-seed-ginkgo-of-inada-gobo",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cdl_003-mastrinka-the-olive-of-kastel-stafilic.jpg": {
    "base": "cdl_003-mastrinka-the-olive-of-kastel-stafilic",
    "widths": [
@@ -4854,6 +4998,12 @@
    "widths": [
     500,
     1000
+   ]
+  },
+  "https://ancienttrees.app/photos/kyo_020-camphor-of-the-kyoto-university-clock-tower.jpg": {
+   "base": "kyo_020-camphor-of-the-kyoto-university-clock-tower",
+   "widths": [
+    500
    ]
   },
   "https://ancienttrees.app/photos/llp_001-the-hollow-yew-of-la-lande-patry.jpg": {
@@ -5747,6 +5897,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lon_041-the-st-mary-magdalene-plane.jpg": {
+   "base": "lon_041-the-st-mary-magdalene-plane",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/8/84/Grimston%27s_Oak%2C_Epping_Forest_-_geograph.org.uk_-_2422391.jpg": {
    "base": "lon_042-grimston-s-oak",
    "widths": [
@@ -5999,6 +6155,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lyo_022-the-plane-of-mont-e-saint-s-bastien.jpg": {
+   "base": "lyo_022-the-plane-of-mont-e-saint-s-bastien",
+   "widths": [
+    500
+   ]
+  },
   "https://live.staticflickr.com/8621/30279800626_f2297c15cc_b.jpg": {
    "base": "lym_001-lytchett-matravers-yew",
    "widths": [
@@ -6246,6 +6408,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/mlr_002-tree-house-rain-tree-netravati.jpg": {
+   "base": "mlr_002-tree-house-rain-tree-netravati",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/mra_001-millennium-tree-of-balete-park-e4e3b77d.jpg": {
    "base": "mra_001-millennium-tree-of-balete-park-e4e3b77d",
    "widths": [
@@ -6369,6 +6537,12 @@
   },
   "https://ancienttrees.app/photos/mel_019-the-gum-by-the-edinburgh-gardens-skate-bowl-269a3040.jpg": {
    "base": "mel_019-the-gum-by-the-edinburgh-gardens-skate-bowl-269a3040",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mel_020-cockscomb-coral-tree-in-the-botanic-gardens.jpg": {
+   "base": "mel_020-cockscomb-coral-tree-in-the-botanic-gardens",
    "widths": [
     500
    ]
@@ -7226,6 +7400,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/nyc_024-the-ginkgo-of-the-united-order-of-tents-91a6d670.jpg": {
+   "base": "nyc_024-the-ginkgo-of-the-united-order-of-tents-91a6d670",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/nyc_027-the-english-elm-of-fort-greene-park.jpg": {
    "base": "nyc_027-the-english-elm-of-fort-greene-park",
    "widths": [
@@ -7234,6 +7414,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/5/5b/Kingsland_Homestead_Weeping_Beech_20181010_102734.jpg": {
    "base": "nyc_028-the-weeping-beech-of-weeping-beech-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/nyc_130-the-circus-ground-oak-of-saratoga-park.jpg": {
+   "base": "nyc_130-the-circus-ground-oak-of-saratoga-park",
    "widths": [
     500
    ]
@@ -7886,6 +8072,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/d/dd/Cedrus_libani_%28Jardin_des_Plantes_de_Paris%29_1.jpg": {
    "base": "par_002-the-cedar-of-jussieu",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/par_002-the-cedar-of-jussieu-8259e0fc.jpg": {
+   "base": "par_002-the-cedar-of-jussieu-8259e0fc",
    "widths": [
     500
    ]
@@ -9722,6 +9914,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/syd_009-zetland-hill-s-fig.jpg": {
+   "base": "syd_009-zetland-hill-s-fig",
+   "widths": [
+    500
+   ]
+  },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/430200737/original.jpeg": {
    "base": "tac_009-mountaineer-tree",
    "widths": [
@@ -9829,6 +10027,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pl%C3%A0tan_de_la_Pla%C3%A7a_de_la_Riera_de_Gai%C3%A0_2.jpg": {
    "base": "tgn_001-the-plane-of-the-riera-de-gaia-square",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tgn_005-holm-oak-above-the-scrub-at-altafulla.jpg": {
+   "base": "tgn_005-holm-oak-above-the-scrub-at-altafulla",
    "widths": [
     500
    ]
@@ -10107,6 +10311,12 @@
   },
   "https://ancienttrees.app/photos/tok_023-ginkgo-of-kuhonbutsu-stone-post.jpg": {
    "base": "tok_023-ginkgo-of-kuhonbutsu-stone-post",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tok_024-great-zelkova-of-the-kunitama-approach.jpg": {
+   "base": "tok_024-great-zelkova-of-the-kunitama-approach",
    "widths": [
     500
    ]
@@ -10995,6 +11205,12 @@
     1280
    ]
   },
+  "https://ancienttrees.app/photos/wsh_001-chartwell-sequoia.jpg": {
+   "base": "wsh_001-chartwell-sequoia",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/a/ac/Etagelinde_met_oorlogmonument_-_390541_-_onroerenderfgoed.jpg": {
    "base": "wtl_001-the-etagelinde-of-westerlo",
    "widths": [
@@ -11323,78 +11539,6 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/0/0d/D%C4%85b_Franciszek%2C_Park_%C5%BBywiecki%2C_%C5%BBywiec_01.jpg": {
    "base": "zyw_001-d-b-franciszek-the-franciszek-oak",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_014-the-great-sycamore-of-parc-degmont-wespelaar.jpg": {
-   "base": "bru_014-the-great-sycamore-of-parc-degmont-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_012-the-ginkgo-of-parc-degmont-wespelaar.jpg": {
-   "base": "bru_012-the-ginkgo-of-parc-degmont-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_013-the-tulip-tree-of-parc-degmont-wespelaar.jpg": {
-   "base": "bru_013-the-tulip-tree-of-parc-degmont-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar.jpg": {
-   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-b.jpg": {
-   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-b",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-c.jpg": {
-   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-c",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-d.jpg": {
-   "base": "bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-d",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar.jpg": {
-   "base": "bru_011-the-turners-oak-of-parc-degmont-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar-b.jpg": {
-   "base": "bru_011-the-turners-oak-of-parc-degmont-wespelaar-b",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar.jpg": {
-   "base": "bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar-b.jpg": {
-   "base": "bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar-b",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/bru_008-the-sophora-of-the-abbaye-de-la-cambre-wespelaar.jpg": {
-   "base": "bru_008-the-sophora-of-the-abbaye-de-la-cambre-wespelaar",
    "widths": [
     500
    ]
