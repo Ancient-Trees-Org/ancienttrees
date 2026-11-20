@@ -20,7 +20,7 @@
 // the next one, as its place on the tree's own page does. Nothing is kept on
 // the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
-import { visitorSaveFn } from "./visitors-page-js";
+import { visitorSaveFn, visitorTileFn } from "./visitors-page-js";
 
 /** The row shows from this many tiles (NewFromVisitors.minimum). */
 export const VISITORS_MIN = 4;
@@ -33,6 +33,7 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
   var A_VISITOR = ${JSON.stringify(visitorWord)};
   var MIN = ${VISITORS_MIN};
   ${visitorSaveFn(saveWord, savedWord)}
+  ${visitorTileFn()}
   function esc(t) { return String(t == null ? '' : t)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function load(token) {
@@ -58,23 +59,9 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
       // A generated name prints and links like any other (Hidde, 2026-11-07:
       // "a visitor is weird that its unclickable just give the link to their
       // made up name"); only a private profile, which has no name to give,
-      // stays "A visitor".
-      var real = r.author_name || null;
-      var name = real || A_VISITOR;
-      var av = r.author_avatar && real
-        ? '<img src="' + esc(r.author_avatar) + '" alt="" loading="lazy">'
-        : '<span>' + esc(name.charAt(0)) + '</span>';
-      var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>';
+      // stays "A visitor". The tile is /visitors' own (nfvTile).
       html.push('<div class="shelf-card nfv-card">' +
-        '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="home-visitors" data-detail="' + esc(r.tree_id) + '">' +
-        '<span class="shelf-ph"><img src="' + esc(c.s[r.sighting_id]) + '" alt="" loading="lazy"></span>' +
-        '<b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' +
-        nfvSave(r.tree_id, c, esc) +
-        (real
-          ? (r.author_id
-              ? '<a class="nfv-who" href="/profile?u=' + encodeURIComponent(r.author_id) + '">' + line + '</a>'
-              : '<button type="button" class="nfv-who nfv-ask" data-sighting="' + esc(r.sighting_id) + '">' + line + '</button>')
-          : '<span class="nfv-who">' + line + '</span>') +
+        nfvTile(r, c, '<img src="' + esc(c.s[r.sighting_id]) + '" alt="" loading="lazy">', 'home-visitors', 'nfv-ask', '') +
         '</div>');
     });
     if (html.length < MIN) return;

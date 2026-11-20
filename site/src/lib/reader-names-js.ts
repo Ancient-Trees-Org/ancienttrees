@@ -20,6 +20,7 @@
 // qa's check_data_signin_only_on_controls() keeps that attribute on links
 // and buttons.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
+import { AGO_FN } from "./time-ago-js";
 
 export const READER_NAMES_JS = `
 <script>
@@ -100,22 +101,46 @@ export const READER_NAMES_JS = `
   // THE PHOTOGRAPHS. Every credit slot of a reader's photograph names its
   // photo id; one call fills them all. data-tpl is "Photo: {name}" in the
   // page's language.
+  // The byline of the tiles (lib/visitors-page-js.ts nfvTile; Hidde,
+  // 2026-11-20, "A, met boomnaam"): face, name, and when it was sent, written
+  // out here ("2 hours ago") because the photograph is big. The time comes
+  // from photo_authors once supabase/photo-authors-time.sql is pasted; before
+  // that the line is face and name.
+  ${AGO_FN}
   function paintPhotos(rows) {
     var by = {};
     (rows || []).forEach(function(r) { if (r && r.photo_id && r.author_name) by[r.photo_id] = r; });
     document.querySelectorAll('[data-photo-by]').forEach(function(slot) {
       var r = by[slot.getAttribute('data-photo-by')];
       if (!r) return;
-      var tpl = slot.getAttribute('data-tpl') || '{name}';
-      var parts = tpl.split('{name}');
+      var inner = document.createElement('span');
+      inner.className = 'rn-by';
+      var av = document.createElement('span');
+      av.className = 'nfv-av';
+      av.setAttribute('aria-hidden', 'true');
+      if (r.author_avatar) {
+        var im = document.createElement('img');
+        im.src = r.author_avatar; im.alt = ''; im.loading = 'lazy';
+        av.appendChild(im);
+      } else {
+        av.textContent = r.author_name.charAt(0);
+      }
       var name = document.createElement('span');
       name.className = 'rn-name';
       name.textContent = r.author_name;
-      var link = window.atNameLink(name, r.author_id, 'p:' + r.photo_id, 'rn-photo');
+      inner.appendChild(av);
+      inner.appendChild(name);
+      var link = window.atNameLink(inner, r.author_id, 'p:' + r.photo_id, 'rn-photo');
       slot.textContent = '';
-      if (parts[0]) slot.appendChild(document.createTextNode(parts[0]));
+      slot.classList.add('rn-byline');
       slot.appendChild(link);
-      if (parts[1]) slot.appendChild(document.createTextNode(parts[1]));
+      var when = atAgo(r.published_at, true);
+      if (when) {
+        var w = document.createElement('span');
+        w.className = 'nfv-when';
+        w.textContent = when;
+        slot.appendChild(w);
+      }
     });
   }
   function start() {

@@ -18,6 +18,7 @@
 // Nothing is kept on the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
 import { saveButtonJs } from "./save-button";
+import { AGO_FN } from "./time-ago-js";
 
 // The save on each tile (Hidde, 2026-11-19: "het zou heel logisch zijn als er
 // een bookmark icontje is bij elke boom", then "Yes, both" for the home row
@@ -37,6 +38,35 @@ export function visitorSaveFn(saveWord: string, savedWord: string): string {
   }`;
 }
 
+// THE TILE ITSELF, one function for the home row and /visitors, matching the
+// apps' tile (Hidde, 2026-11-20: "A, met boomnaam"; CONVENTIONS.md "A heart for
+// a visitor's photograph ... who and when on it"): the photograph with the
+// city as a tag on it (the apps' TagPill), the save top right, the tree's name
+// under it, then the byline: face, name, when it was sent. The script that
+// includes this defines esc(), A_VISITOR and nfvSave(). `ask` is the class a
+// signed-out name carries (each script answers its own), `extra` its data.
+export function visitorTileFn(): string {
+  return `${AGO_FN}
+  function nfvTile(r, c, img, ev, ask, extra) {
+    var real = r.author_name || null;
+    var name = real || A_VISITOR;
+    var av = r.author_avatar && real
+      ? '<img src="' + esc(r.author_avatar) + '" alt="" loading="lazy">'
+      : '<span>' + esc(name.charAt(0)) + '</span>';
+    var when = atAgo(r.published_at, false);
+    var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>' +
+      (when ? '<span class="nfv-when">' + esc(when) + '</span>' : '');
+    var who = real
+      ? (r.author_id
+          ? '<a class="nfv-who" href="/profile?u=' + encodeURIComponent(r.author_id) + '">' + line + '</a>'
+          : '<button type="button" class="nfv-who ' + ask + '" data-sighting="' + esc(r.sighting_id) + '"' + (extra || '') + '>' + line + '</button>')
+      : '<span class="nfv-who">' + line + '</span>';
+    return '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="' + ev + '" data-detail="' + esc(r.tree_id) + '">' +
+      '<span class="shelf-ph">' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
+      '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + who;
+  }`;
+}
+
 /** Tiles per request: two screens on a laptop, four on a phone. */
 export const VISITORS_PAGE = 24;
 
@@ -47,6 +77,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
   ${visitorSaveFn(saveWord, savedWord)}
+  ${visitorTileFn()}
   var N = ${VISITORS_PAGE};
   var cards = {}, rows = [], cursor = null, done = false, busy = false, token = null, paged = true;
   var grid, more, end, cols = [], ncols = 0;
@@ -82,24 +113,10 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
     var img = d
       ? '<img src="' + esc(src) + '" width="' + d[0] + '" height="' + d[1] + '" alt="" loading="lazy">'
       : '<img class="vp-noratio" src="' + esc(src) + '" alt="" loading="lazy">';
-    var real = r.author_name || null;
-    var name = real || A_VISITOR;
-    var av = r.author_avatar && real
-      ? '<img src="' + esc(r.author_avatar) + '" alt="" loading="lazy">'
-      : '<span>' + esc(name.charAt(0)) + '</span>';
-    var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>';
-    var who = real
-      ? (r.author_id
-          ? '<a class="nfv-who" href="/profile?u=' + encodeURIComponent(r.author_id) + '">' + line + '</a>'
-          : '<button type="button" class="nfv-who vp-ask" data-sighting="' + esc(r.sighting_id) + '"' +
-            (prev ? ' data-prev-at="' + esc(prev.published_at) + '" data-prev-id="' + esc(prev.sighting_id) + '"' : '') +
-            '>' + line + '</button>')
-      : '<span class="nfv-who">' + line + '</span>';
+    var extra = prev ? ' data-prev-at="' + esc(prev.published_at) + '" data-prev-id="' + esc(prev.sighting_id) + '"' : '';
     var el = document.createElement('div');
     el.className = 'shelf-card nfv-card';
-    var save = nfvSave(r.tree_id, c, esc);
-    el.innerHTML = '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="visitors-page" data-detail="' + esc(r.tree_id) + '">' +
-      '<span class="shelf-ph">' + img + '</span><b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' + save + who;
+    el.innerHTML = nfvTile(r, c, img, 'visitors-page', 'vp-ask', extra);
     return el;
   }
   // Each tile into the shortest column, in order, so the newest stand at the
