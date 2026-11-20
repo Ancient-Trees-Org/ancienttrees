@@ -1459,6 +1459,16 @@
         "The Bench Redwood of Castleboro"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_0e37ed6c0d59c0d65f6c6f56",
+      "place_slug": "westerham",
+      "place_name": "Westerham",
+      "date": "2026-11-20",
+      "trees": [
+        "The Chartwell Sequoia"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2549,6 +2559,14 @@
         "wds_002"
       ],
       "since": "2026-11-19",
+      "mailed": []
+    },
+    "stratford-upon-avon": {
+      "trees": [
+        "sua_001",
+        "sua_002"
+      ],
+      "since": "2026-11-20",
       "mailed": []
     }
   }
