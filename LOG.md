@@ -10,6 +10,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: a Fuchu keyaki tip recorded as a lead
+
+- **Tip 1294** (Tokyo, no photograph): a reader says the largest of the many keyaki (Japanese zelkova) at Okunitama Shrine in Fuchu is worth the walk. The pin was placed by hand in the shrine grounds, the reader picked no single trunk, and no source confirms one, so nothing shipped. It is now a lead in data/leads/tokyo.json with what is missing (a photograph or GPS fix at the trunk, or a register entry). The shrine's keyaki avenue is a national natural monument, which makes it a register check for a later pass. Verdict `lead`. No mail went out: none of the standard hold replies fits a tip without a photograph.
+- **Still waiting**: lead 3c544597 (Amsterdam, `mine`, photograph not on this machine). Not judged blind.
+- Reports, feedback and readers' words: nothing open.
+
 ## 2026-11-20 reader judge: the Nhan Dan banyan in Hanoi gets its first photograph and a better pin
 
 - **Live**: hni_003 (The banyan of Nhan Dan, Hanoi) now leads with a reader's photograph, a night shot from the newspaper courtyard with the Nhan Dan sign in front and the aerial roots under the crown. It was lit by lamps, not daylight, but it is plainly this tree and the page had none (same call as the Byakugo-ji wisteria and the Bromley Oak). taken_month 11 from the photo's own date. The reader got the "on the page" mail.

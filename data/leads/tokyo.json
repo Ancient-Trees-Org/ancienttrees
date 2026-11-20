@@ -93,6 +93,18 @@
       },
       "source": "Wikidata Q21019707 (no image)",
       "reason": "Not researched this pass. Sits about 530m from our live tok_009 (Meiji Jingu Gaien Ginkgo Avenue), same general Meiji Jingu/Meiji Park district -- worth checking together with that area in a future pass. No image and no second source found yet."
+    },
+    {
+      "name": "The largest keyaki at Okunitama Shrine, Fuchu",
+      "species": "Japanese Zelkova (Zelkova serrata)",
+      "location": {
+        "latitude": 35.66979,
+        "longitude": 139.47908
+      },
+      "source": "reader tip, submission 1294 (2026-11-20), pin placed on the map by hand; no photograph",
+      "reader_words": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
+      "reason": "A reader's tip without a photograph or GPS fix: the pin is hand-placed in the Okunitama Shrine precinct and the reader names no single trunk a source can confirm. Missing: a photograph or GPS fix at the trunk, or a register entry for this tree. The shrine's Baba Daimon keyaki avenue is a national natural monument, worth a register check in a later pass.",
+      "found": "2026-11-20"
     }
   ],
   "blocked": [

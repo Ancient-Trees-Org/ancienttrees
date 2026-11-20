@@ -62,6 +62,21 @@
    "agreed": null
   },
   {
+   "id": "tip:1294",
+   "seen": "2026-11-20",
+   "kind": "a tip without a photograph",
+   "tree": "42F66634-36D7-46DF-8A02-739114680321",
+   "city": "Tokyo",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "Okunitama Shrine, Fuchu: the reader names the largest of the shrine's keyaki, but there is no photograph or GPS fix and no source pins one trunk. Recorded in data/leads/tokyo.json with what is missing; the shrine's keyaki avenue register is the next check.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
