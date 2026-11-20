@@ -465,7 +465,11 @@ function fit() {
 map.on('dragstart', function() { touched = true; });
 map.on('zoomstart', function(e) { if (e.originalEvent) { touched = true; } });
 new ResizeObserver(function() { map.resize(); fit(); }).observe(document.getElementById('map'));
-map.on('load', function() {
+map.on('load', fit);
+// The pins go on as soon as the style is there, not at 'load', which waits
+// for every tile (as on the city map).
+function initPins() {
+  if (pins) { return; }
   fit();
   // THE ONE TREE PIN (tree-pins-js.ts), the city map's, since 2026-11-20
   // (Hidde: "ik wil gewoon 1 goede"). A pin or a dot shows the tree's card,
@@ -480,7 +484,9 @@ map.on('load', function() {
   openCard = atTreePinCard(map, pins, null);
   atPinsFollowList(pins, openCard, null);
   if (SHEET && typeof applyCountryFilters === 'function') { applyCountryFilters(); }
-});
+}
+map.on('style.load', initPins);
+if (map.isStyleLoaded()) { initPins(); }
 `);
 }
 
