@@ -204,8 +204,8 @@ export const PROFILE_JS = `
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [c.x, c.y] },
         // pr: the order the list is built in, collected first, decides which
-        // pin shows where two collide (lib/map.ts PINS_JS).
-        properties: { id: id, name: c.n, city: c.c || '', url: c.u, got: got[id] ? 1 : 0, pr: features.length }
+        // pin shows where two collide (tree-pins-js.ts).
+        properties: { id: id, name: c.n, city: c.c || '', url: c.u, ic: c.ic, got: got[id] ? 1 : 0, pr: features.length }
       });
     });
     ourPins = features;

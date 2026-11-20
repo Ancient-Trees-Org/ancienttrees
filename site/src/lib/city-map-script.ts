@@ -20,23 +20,12 @@
 // proximity check that needed it went; there is no duplicate of it left here.
 import {MAP_STYLE, MAP_CREDIT} from "./site-config";
 import { NO_PHOTO_CARD } from "./images";
-import { mapScript, pinPriority, PIN_DISTANCE, STACK_ZOOM, PILES_JS, PINS_JS, ONE_WORLD } from "./map";
+import { mapScript, pinPriority, PILES_JS, ONE_WORLD } from "./map";
+import { treePinsJs } from "./tree-pins-js";
 import { distSpan } from "./trees";
 import type { WalkMarker, Walk } from "./walks";
-import { icon } from "./icons";
-import { ui } from "./i18n";
 import { mapCardJs } from "./map-card-js";
 import { mapFiltersJs } from "./map-filters-js";
-
-// The saved-tree corner of a pin: the cards' own bookmark, filled.
-const PIN_BOOKMARK = icon("bookmark-simple", "fill", "pin-fav-ic");
-// The collected corner: a filled tick, so it weighs the same as the bookmark
-// and the ticket (Hidde, 2026-11-12, all three corners in the ticket's style).
-const PIN_TICK = icon("check-circle", "fill", "pin-got-ic");
-// The ticket corner: Phosphor's ticket fill, the web counterpart of the app's
-// ticket.fill (it was a hand-made rounded rectangle; Hidde, 2026-11-12, saw the
-// two apps' tickets differ).
-const PIN_TICKET = icon("ticket", "fill", "pin-ticket-ic");
 
 export interface OtherCity {
   slug: string;
@@ -104,18 +93,9 @@ export function cityMapScript(
 ): string {
   const data = JSON.stringify(markers);
   // TREES ON ONE SPOT (Hidde, 2026-10-15, the Ajuda dragon tree hidden under
-  // the jacarandas' pin). Grouped here at build time by coordinate to about a
-  // metre, which is the case zooming can never pull apart. CONVENTIONS.md,
-  // "Two trees on exactly the same spot".
-  const bySpot = new Map<string, number[]>();
-  markers.forEach((m, i) => {
-    const k = m.lat.toFixed(5) + "," + m.lng.toFixed(5);
-    bySpot.set(k, [...(bySpot.get(k) ?? []), i]);
-  });
-  const stacksJson = JSON.stringify(
-    [...bySpot.values()].filter((ix) => ix.length > 1)
-      .map((ix) => ({ ix, label: ui(lang).homeTreesCount(ix.length) }))
-  );
+  // the jacarandas' pin) are found in the browser now, by PILES_JS in the one
+  // pin set (tree-pins-js.ts), the same as on every map. CONVENTIONS.md, "Two
+  // trees on exactly the same spot".
   const routeCoords = JSON.stringify(route && markers.length > 1 ? route.order.map((i) => [markers[i].lng, markers[i].lat]) : []);
   const walksJson = JSON.stringify(
     walks.map((w) => ({
@@ -143,7 +123,7 @@ export function cityMapScript(
 
   const home = homeBounds(inTown && inTown.length >= 2 ? inTown : markers);
 
-  return mapScript(`${PILES_JS}${PINS_JS}${mapCardJs(lang)}${mapFiltersJs()}
+  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
 var markers = ${data};
 // THE FILTER ROW (lib/map-filters-js.ts), the explore map's, wired here before
 // the map for the reason given there (Hidde, 2026-11-01: "put the filters also
@@ -153,14 +133,28 @@ var markers = ${data};
 var SPECIES = null, SPECIES_L = null;
 var OFF = markers.map(function() { return false; });
 var NEARBY = [];
+// The species' pin drawings for the other places' trees, by the index
+// /api/pins.json carries (/api/map-species.json icons).
+var SP_IC = null;
+// THE ONE TREE PIN (tree-pins-js.ts) for this city's trees and every other
+// place's, since 2026-11-20 (Hidde: "ik wil gewoon 1 goede"). It replaced this
+// map's own DOM pins and the second, circle-pin layer for the neighbours.
+var pins = null;
+// This city's trees first wherever two collide: pinPriority order inside the
+// city, before any neighbour.
 function homeFeatures() {
   var out = [];
   markers.forEach(function(m, i) {
     if (OFF[i]) { return; }
     out.push({type: 'Feature', geometry: {type: 'Point', coordinates: [m.lng, m.lat]},
-              properties: {id: m.id, ix: i, pr: -1000000 + PIN_ORDER.indexOf(i)}});
+              properties: {id: m.id, ix: i, name: m.name, paid: m.paid ? 1 : 0, home: 1,
+                           pr: -1000000 + PIN_ORDER.indexOf(i)}});
   });
   return out;
+}
+function allFeatures() {
+  var near = filtersOn() ? NEARBY.filter(function(f) { return keepsTree(f.properties); }) : NEARBY;
+  return homeFeatures().concat(near);
 }
 function applyCityFilters() {
   var on = filtersOn(), n = 0;
@@ -171,16 +165,9 @@ function applyCityFilters() {
     var card = document.getElementById('tree-' + (i + 1));
     if (card) { card.style.display = keep ? '' : 'none'; }
   });
-  if (typeof map === 'undefined' || !map) { atFilterCount(n); return; }
-  var hs = map.getSource && map.getSource('hometrees');
-  if (hs) { hs.setData({type: 'FeatureCollection', features: atMarkPiles(homeFeatures())}); }
-  var ns = map.getSource && map.getSource('nearby');
-  if (ns) {
-    ns.setData({type: 'FeatureCollection', features: atMarkPiles(on
-      ? NEARBY.filter(function(f) { return keepsTree(f.properties); }) : NEARBY)});
-  }
-  if (OFF[activeIdx] && typeof mapCard !== 'undefined' && mapCard && mapCard.isOpen()) { mapCard.close(); }
-  updatePins();
+  if (!pins) { atFilterCount(n); return; }
+  pins.setData(allFeatures());
+  if (pins.selected() === null && typeof mapCard !== 'undefined' && mapCard && mapCard.isOpen()) { mapCard.close(); }
   atFilterCount(n);
 }
 atMapFilters({
@@ -218,41 +205,53 @@ new ResizeObserver(function() { map.resize(); }).observe(document.getElementById
 // from Amsterdam: the neighbours' trees were missing, then every dot was a
 // whole city that opened another page). The city map is the explore map
 // pointed at this city: other places' trees are drawn as /explore draws them,
-// at every zoom, and a tap opens the tree's card, never another page. Below
-// FAR this city's own pins step back and its trees join the others as circle
-// pins, so a map zoomed out looks the same from every page, and the list
-// turns to the cities in view at that same zoom (updatePanelMode). The other
-// places' rows come from /api/pins.json, fetched once and cached.
+// at every zoom, and a tap opens the tree's card, never another page. Since
+// 2026-11-20 all of them are one pin set (tree-pins-js.ts) with this city's
+// trees ahead where two collide, so a map zoomed out looks the same from every
+// page. Below FAR the list turns to the cities in view (updatePanelMode). The
+// other places' rows come from /api/pins.json, fetched once and cached.
 var HOME_IDS = {};
 markers.forEach(function(m) { HOME_IDS[m.id] = 1; });
 var FAR = 9;
 // A city that opens wider than FAR (an island, a spread region) keeps its
 // own pins until it is zoomed out past where it opened.
 function farAt() { return homeZoom !== null ? Math.min(FAR, homeZoom - 1.2) : FAR; }
-var HOME_LAYERS = [];
-var homeFar = null;
-var openNearby = null;
-map.on('load', function() {
-  if (map.getSource('nearby')) { return; }
-  // The others go in first, so this city's circle pins draw over them and
-  // win where two would collide.
-  map.addSource('nearby', {type: 'geojson', data: {type: 'FeatureCollection', features: []}});
-  atPinLayers(map, 'nearby', 'nearby-tree', function(p, c) {
-    if (mapCard.isOpen()) { mapCard.close(); }
-    if (openNearby) { openNearby(p, c); }
-  }, null, null);
-  openNearby = atCirclePinCard(map, 'nearby', 'nearby-tree');
-  map.addSource('hometrees', {type: 'geojson', data: {type: 'FeatureCollection', features:
-    atMarkPiles(homeFeatures())}});
-  atPinLayers(map, 'hometrees', 'hometree', function(p) {
-    if (openNearby) { openNearby.close(); }
-    selectTree(p.ix);
-  }, null, null);
-  HOME_LAYERS = map.getStyle().layers.map(function(l) { return l.id; })
-    .filter(function(id) { return id.indexOf('hometree') === 0; });
-  homeFar = null;
-  updatePins();
-  fetch('/api/pins.json').then(function(r) { return r.json(); }).then(function(rows) {
+var PIN_ORDER = ${pinOrderJson};
+// The pins go on as soon as the style is there, not at 'load', which waits for
+// every tile: the smoke test and a slow phone both see the trees first.
+function initPins() {
+  if (pins) { return; }
+  pins = atTreePins(map, {
+    source: 'trees',
+    // This city's markers carry their drawing; a neighbour's is looked up by
+    // its species index once /api/map-species.json has answered.
+    iconOf: function(p) {
+      if (p.home) { var m = markers[p.ix]; return m ? m.icon : 'broadleaf'; }
+      return (SP_IC && p.sp !== undefined && p.sp !== null && p.sp >= 0 && SP_IC[p.sp]) || 'broadleaf';
+    },
+    seen: function(p) { return readSeen().indexOf(p.id) !== -1; },
+    open: function(p, c) {
+      if (p.home) { selectTree(p.ix); return; }
+      openTreeCard(p, c);
+    }
+  });
+  openTreeCard = atTreePinCard(map, pins, function(p) {
+    if (!p.home) { return null; }
+    var card = cardOf(p.ix);
+    return card ? { el: card, href: hrefOf(card) } : null;
+  });
+  mapCard = openTreeCard;
+  atPinsFollowList(pins, openTreeCard, null);
+  pins.setData(allFeatures());
+  Promise.all([
+    fetch('/api/pins.json').then(function(r) { return r.json(); }),
+    fetch('/api/map-species.json').then(function(r) { return r.json(); }).catch(function() { return null; })
+  ]).then(function(got) {
+    var rows = got[0], sp = got[1];
+    if (sp) {
+      SP_IC = sp.icons || null;
+      if (!SPECIES) { SPECIES = sp.names || []; SPECIES_L = sp.latin || []; }
+    }
     NEARBY = [];
     rows.forEach(function(r) {
       if (HOME_IDS[r[0]]) { return; }
@@ -261,73 +260,10 @@ map.on('load', function() {
     });
     applyCityFilters();
   }).catch(function() {});
-});
-// WHICH PINS SHOW: THE AIRBNB WAY (Hidde, 2026-10-24: "volledige pins voor
-// wat past, kleine stippen voor de rest, nooit bubbels, een tik opent altijd
-// de boom"; lib/map.ts PIN_DISTANCE has the benchmark). The pins are DOM
-// markers with the species drawn on them, so this does by hand what
-// MapLibre's symbol collision does on the circle-pin maps: in PIN_ORDER
-// (photograph first, then our order) a pin is drawn in full when no full pin
-// already stands within PIN_DISTANCE of it, and as a dot otherwise. A dot
-// still selects its tree. The selected pin always stays full, and a same-spot
-// stack's bubble counts as placed so no pin is drawn over it. Below
-// STACK_ZOOM the stack is its first tree's pin like any other (the bubble
-// would read as the clustering we no longer do). Redone on every move,
-// which is what Airbnb does: pan or zoom and more pins fit.
-var PIN_ORDER = ${pinOrderJson};
-var PIN_DISTANCE = ${PIN_DISTANCE};
-var STACK_ZOOM = ${STACK_ZOOM};
-function updatePins() {
-  // The opening fitBounds fires 'zoom' before the pins exist (var pins is
-  // hoisted but still undefined), and a throw there stopped every pin being
-  // drawn (Hidde, 2026-10-10: "they dont show any pins anymore").
-  if (!pins || !STACKS) { return; }
-  var far = map.getZoom() < farAt();
-  if (far !== homeFar && HOME_LAYERS.length) {
-    homeFar = far;
-    HOME_LAYERS.forEach(function(id) { map.setLayoutProperty(id, 'visibility', far ? 'visible' : 'none'); });
-  }
-  var near = map.getZoom() >= STACK_ZOOM;
-  var placed = [];
-  function fits(p) {
-    for (var k = 0; k < placed.length; k++) {
-      var dx = placed[k].x - p.x, dy = placed[k].y - p.y;
-      if (dx * dx + dy * dy < PIN_DISTANCE * PIN_DISTANCE) { return false; }
-    }
-    return true;
-  }
-  STACKS.forEach(function(s) {
-    var gone = s.ix.every(function(i) { return OFF[i]; });
-    s.bubble.style.visibility = far || !near || gone ? 'hidden' : '';
-    // Its first tree stands for the stack below STACK_ZOOM (never while spread).
-    if (openStack !== s) { pins[s.ix[0]].classList.toggle('pin-stacked', near); }
-    if (!far && near) { placed.push(map.project([markers[s.ix[0]].lng, markers[s.ix[0]].lat])); }
-  });
-  if (!far && activeIdx >= 0 && !stackOf[activeIdx]) {
-    placed.push(map.project([markers[activeIdx].lng, markers[activeIdx].lat]));
-  }
-  // A TREE YOU SAVED IS PLACED FIRST, so it is never the dot under a neighbour
-  // (Hidde, 2026-11-12: four saved in Frankfurt and only two showed; Google
-  // Maps keeps saved places where it leaves others off). CONVENTIONS.md "A tree
-  // you saved, on every map".
-  var order = PIN_ORDER.filter(function(i) { return pins[i].classList.contains('kept'); })
-    .concat(PIN_ORDER.filter(function(i) { return !pins[i].classList.contains('kept'); }));
-  order.forEach(function(i) {
-    pins[i].style.visibility = far || OFF[i] ? 'hidden' : '';
-    if (far || OFF[i] || pins[i].classList.contains('pin-stacked')) { return; }
-    // A spread stack's pins stand 36 apart by design: never dots.
-    if (stackOf[i] && openStack === stackOf[i]) { pins[i].classList.remove('pin-mini'); return; }
-    var full = i === activeIdx;
-    if (!full) {
-      var p = map.project([markers[i].lng, markers[i].lat]);
-      full = fits(p);
-      if (full) { placed.push(p); }
-    }
-    pins[i].classList.toggle('pin-mini', !full);
-  });
-  document.querySelectorAll('.stack-legs-host').forEach(function(el) { el.style.visibility = far ? 'hidden' : ''; });
+  if (wantTree !== null) { openOnTree(wantTree); }
 }
-map.on('move', updatePins);
+map.on('style.load', initPins);
+if (map.isStyleLoaded()) { initPins(); }
 var CHOOSER_CITIES = ${chooserCitiesJson};
 var cityPanel = document.querySelector('.panel');
 // The chooser goes INSIDE the sheet's scroller, never beside it. .panel's own
@@ -390,10 +326,8 @@ if (markers.length > 1) {
 }
 map.on('moveend', updatePanelMode);
 
-var pins = [];
-var pinMarkers = [];
+// The opened tree, as an index into markers (a neighbour's tree is -1).
 var activeIdx = -1;
-
 function setActive(idx, fly, scroll, noSheet) {
   // Selecting a tree OUTSIDE the chosen walk releases the walk instead of
   // leaving the tree dimmed under it (Hidde, 2026-08-14: "the tree stays in
@@ -403,23 +337,15 @@ function setActive(idx, fly, scroll, noSheet) {
       WALKS[activeWalk].members.indexOf(idx) === -1) {
     showWholeCity();
   }
-  if (activeIdx >= 0) {
-    pins[activeIdx].classList.remove('active');
-    document.getElementById('tree-' + (activeIdx + 1)).classList.remove('active');
-  }
   activeIdx = idx;
   var m = markers[idx];
-  // A tree that shares its spot comes out of the pile to be lit.
-  if (stackOf[idx]) { spreadStack(stackOf[idx]); }
-  pins[idx].classList.add('active');
-  updatePins();
-  var card = document.getElementById('tree-' + (idx + 1));
-  card.classList.add('active');
+  if (pins) { pins.select(m.id); }
+  var card = cardOf(idx);
   // On a phone the cards live inside the bottom sheet, and picking a tree
   // means opening THAT tree rather than scrolling a list behind a map. The
   // sheet publishes this hook; on desktop it is undefined and nothing changes.
-  if (window.atSheetFocus && !noSheet) { window.atSheetFocus(card.dataset.treeId); }
-  if (scroll) { card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  if (card && window.atSheetFocus && !noSheet) { window.atSheetFocus(card.dataset.treeId); }
+  if (card && scroll) { card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   // A tree centred in the map element is a tree hidden behind the sheet, since
   // the sheet covers the lower half of it. Maps recentres on the part of the
   // map you can still see, so this does too: the offset moves the target up by
@@ -443,28 +369,26 @@ var phoneMq = window.matchMedia('(max-width: 800px)');
 function cardOf(idx) { return document.getElementById('tree-' + (idx + 1)); }
 function hrefOf(card) { var a = card && card.querySelector('.tree-name a'); return a ? a.href : null; }
 function clearPin() {
-  if (activeIdx >= 0) {
-    pins[activeIdx].classList.remove('active');
-    var c = cardOf(activeIdx); if (c) c.classList.remove('active');
-    activeIdx = -1;
-  }
+  activeIdx = -1;
+  if (pins) { pins.select(null); }
 }
-// THE CARD OF A TAPPED PIN is the one every map shows (map-card-js.ts): this
-// page hands it the tree's own card from the list, and the card lets the pin
-// go when it closes.
-var mapCard = atMapCard(map, { gap: 36, onClose: clearPin });
+// THE CARD OF A TAPPED PIN is the one every map shows (map-card-js.ts, through
+// tree-pins-js.ts atTreePinCard): this page hands it the tree's own card from
+// the list, and the card lets the pin go when it closes.
+var openTreeCard = null;
+var mapCard = null;
 // A tap on the map with no card open still lets a phone's pin go (the sheet's
 // own listener drops the sheet back to the list).
-map.on('click', function() { if (!mapCard.isOpen() && phoneMq.matches) clearPin(); });
+map.on('click', function() { if (!(mapCard && mapCard.isOpen()) && phoneMq.matches) clearPin(); });
 
 // A PIN SHOWS AIRBNB'S CARD on a phone and on a desktop (Hidde, 2026-10-24:
 // "de nieuwe preview pinnen a la airbnb zijn er niet op mobile web"),
 // replacing 10-20's sheet that became the tree (Apple Maps; the app keeps
-// that). On a phone the sheet drops to its peek first (inside mapCard.open).
+// that). On a phone the sheet drops to its peek first (inside the card's open).
 function selectTree(idx) {
-  var card = cardOf(idx);
-  setActive(idx, false, false, phoneMq.matches);
-  if (card) { mapCard.open(card, [markers[idx].lng, markers[idx].lat], hrefOf(card)); }
+  var m = markers[idx];
+  setActive(idx, false, false, true);
+  if (openTreeCard) { openTreeCard({ id: m.id, ix: idx, home: 1, name: m.name }, [m.lng, m.lat]); }
 }
 // On a phone the open card's photograph is the way into the tree page, and
 // the cross (.sheet-back, which sheet-js.ts closes the tree on) lets the pin go.
@@ -477,148 +401,8 @@ document.addEventListener('click', function(e) {
   }
 });
 
-var bounds = new maplibregl.LngLatBounds();
-markers.forEach(function(m, idx) {
-  var el = document.createElement('div');
-  el.className = 'pin-tree';
-  el.title = m.name;
-  el.innerHTML = '<svg viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">' + m.icon + '</svg>'
-               // No number. It was this tree's position in our own list, which is
-               // our ordering and not information a visitor needs; Google Maps,
-               // AllTrails and Komoot all number a pin only when the ORDER is
-               // the point, as on a route. Here it sat on top of the species
-               // silhouette, which is the whole idea of the pin, and fought it.
-               // (Hidde, 2026-08-23: "het spreekt voor zich welke welke is als
-               // je er op klikt".) The badge itself stays, because it carries
-               // something the number was only borrowing: whether you have
-               // stood in front of this tree. Empty by default, a moss tick
-               // once you have.
-               + '<span class="pin-got" aria-hidden="true">${PIN_TICK}</span>'
-               // THE THREE CORNERS, the app's own pin (2026-09-12, "trek dit
-               // allemaal gelijk"). TreeMap.swift has drawn all three since
-               // 2026-08-25 and this pin drew one: the tick. Same corners, same
-               // reasons, so a person who walks with the phone and reads on a
-               // laptop sees one map rather than two.
-               //   bottom left   a ticket, because entry is a condition on the
-               //                 visit rather than something you have done
-               //   bottom right  the tick, moved down from the top right to
-               //                 make room and to agree with the app
-               //   top right     the bookmark, red, as TreeMap.swift draws it:
-               //                 the save became a bookmark on 2026-10-09
-               //                 and this corner kept the heart until
-               //                 2026-10-15 (Hidde: "it should be a
-               //                 bookmark icon")
-               + '<span class="pin-fav" aria-hidden="true">${PIN_BOOKMARK}</span>'
-               + (m.paid ? '<span class="pin-ticket" aria-hidden="true">'
-                   + '${PIN_TICKET}'
-                   + '</span>' : '');
-  // A tree at its peak says so on the map. The particles fall from the CROWN of
-  // the drawn species, not from a generic dot, which is the whole reason the
-  // pins are silhouettes: a ginkgo sheds from a ginkgo. The month is read here
-  // in the browser rather than baked at build time, so a page cached in October
-  // still lights up on the first of November. Months arrive already shifted for
-  // latitude, so a Melbourne ginkgo peaks in May.
-  // Switched off on 2026-10-03 (Hidde: "its not good enough lets look at it
-  // later"); the CSS in style.css is kept, so this is the one line to undo.
-  var SEASON_PINS = false;
-  if (SEASON_PINS && m.peak && m.peak.months.indexOf(new Date().getMonth() + 1) !== -1) {
-    el.classList.add('pin-peak', 'peak-' + m.peak.effect);
-    if (m.peak.level === 'nice') el.classList.add('peak-quiet');
-    el.style.setProperty('--peak', m.peak.colour);
-    var bits = document.createElement('span');
-    bits.className = 'pin-bits';
-    bits.setAttribute('aria-hidden', 'true');
-    // Three is enough at this size. More reads as weather rather than a tree.
-    bits.innerHTML = '<i></i><i></i><i></i>';
-    el.appendChild(bits);
-  }
-  // A PIN SELECTS ITS TREE (Hidde, 2026-10-20, replacing "a pin opens its
-  // tree" of 10-04, in the app and here together). The pin grows; on a phone
-  // the sheet becomes that tree (place row plus its card's photograph, as
-  // Apple Maps does), on a computer the tree's card floats beside the pin with
-  // save and a cross, as Airbnb's map does. The card opens the tree page.
-  // CONVENTIONS.md, "Tapping a pin on a map that has a list in a sheet".
-  el.addEventListener('click', function(e) {
-    e.stopPropagation();
-    selectTree(idx);
-  });
-  pinMarkers.push(new maplibregl.Marker({ element: el }).setLngLat([m.lng, m.lat]).addTo(map));
-  pins.push(el);
-  bounds.extend([m.lng, m.lat]);
-});
-
-// TREES ON ONE SPOT: ZOOM IN, THEN SPREAD (Hidde, 2026-10-15, choosing this
-// over a list). Leaflet.markercluster's spiderfy: the pile is one bubble with
-// a count, one tap flies onto the spot and the pins spring apart around it,
-// each on a thin leg back to the dot where the trees really stand. A spread
-// pin opens its tree like any other. Nothing moves for good: a tap on the map
-// or a zoom of your own folds them back, because two trees drawn apart would
-// claim a precision the data does not have.
-var STACKS = ${stacksJson};
-var stackOf = {};
-var openStack = null;
-var stackTapAt = 0;
-STACKS.forEach(function(s) {
-  var m = markers[s.ix[0]];
-  s.ix.forEach(function(i) { stackOf[i] = s; pins[i].classList.add('pin-stacked'); });
-  var b = document.createElement('button');
-  b.type = 'button';
-  b.className = 'pin-stack';
-  b.textContent = s.ix.length;
-  b.addEventListener('click', function(e) {
-    e.stopPropagation();
-    stackTapAt = Date.now();
-    if (map.getZoom() >= 16.5) { spreadStack(s); return; }
-    map.easeTo({ center: [m.lng, m.lat], zoom: 17, duration: 900 });
-    setTimeout(function() { spreadStack(s); }, 950);
-  });
-  s.bubble = b;
-  new maplibregl.Marker({ element: b }).setLngLat([m.lng, m.lat]).addTo(map);
-  // After addTo: MapLibre labels every marker "Map marker" and would
-  // overwrite a label set before it.
-  b.setAttribute('aria-label', s.label);
-});
-function spreadStack(s) {
-  if (openStack === s) { return; }
-  foldStack();
-  var n = s.ix.length, R = n <= 2 ? 36 : 44, m = markers[s.ix[0]];
-  // Two side by side; more on a circle starting at the top. Each leg is a
-  // plain rotated line that stops at the pin's edge (17 is half a pin), so it
-  // never crosses the drawing; the dot is the spot itself.
-  var legs = document.createElement('div');
-  legs.className = 'stack-legs-host';
-  var html = '<i class="stack-dot"></i>';
-  s.ix.forEach(function(i, k) {
-    var a = n === 2 ? Math.PI * k : -Math.PI / 2 + k * 2 * Math.PI / n;
-    var dx = Math.round(R * Math.cos(a)), dy = Math.round(R * Math.sin(a));
-    html += '<i class="stack-leg" style="width:' + (R - 17) + 'px;transform:rotate(' + (a * 180 / Math.PI) + 'deg)"></i>';
-    pinMarkers[i].setOffset([dx, dy]);
-    // Full pins, whatever the dot rule made of them before the zoom in.
-    pins[i].classList.remove('pin-stacked', 'pin-mini');
-  });
-  legs.innerHTML = html;
-  s.legs = new maplibregl.Marker({ element: legs }).setLngLat([m.lng, m.lat]).addTo(map);
-  s.bubble.classList.add('pin-stacked');
-  openStack = s;
-}
-function foldStack() {
-  var s = openStack;
-  if (!s) { return; }
-  s.ix.forEach(function(i) { pinMarkers[i].setOffset([0, 0]); pins[i].classList.add('pin-stacked'); });
-  s.legs.remove();
-  s.bubble.classList.remove('pin-stacked');
-  openStack = null;
-}
-// The bubble's own tap also reaches the map as a click; that one is not a
-// request to fold what it is about to spread.
-map.on('click', function() { if (Date.now() - stackTapAt > 400) { foldStack(); } });
-map.on('zoomstart', function(e) { if (e.originalEvent) { foldStack(); } });
-// A walk that dims trees dims a bubble whose trees are all dimmed.
-function paintStacks() {
-  STACKS.forEach(function(s) {
-    s.bubble.classList.toggle('pin-off', s.ix.every(function(i) { return pins[i].classList.contains('pin-off'); }));
-  });
-}
+// TREES ON ONE SPOT: ZOOM IN, THEN SPREAD (Hidde, 2026-10-15) is the one
+// pin set's now (PILES_JS through tree-pins-js.ts), the same on every map.
 if (markers.length > 1) { map.fitBounds(HOME, { padding: 70, maxZoom: 13 }); }
 // The map keeps its place in the address (#map=zoom/lat/lng), as /explore
 // does, so back from a tree page lands where you were (Hidde, 2026-11-01).
@@ -630,34 +414,18 @@ map.on('moveend', function() {
   try { history.replaceState(null, '', location.pathname + location.search + '#map=' +
     map.getZoom().toFixed(2) + '/' + c.lat.toFixed(5) + '/' + c.lng.toFixed(5)); } catch (e) {}
 });
-updatePins();
-
 // A tap on a card OPENS the tree since 2026-10-04 (TreeCard.astro: the whole
 // card is one link, as in the app and on AllTrails and Airbnb). What the list
-// still does for the map is AllTrails' web half: on a desktop, pointing at a
-// card lights its pin, without flying anywhere. The pin itself still selects.
-var canHover = window.matchMedia && window.matchMedia('(hover: hover) and (min-width: 800px)').matches;
-var hoverIdx = {};
-document.querySelectorAll('.tree-card').forEach(function(card, idx) {
-  if (card.dataset.treeId) { hoverIdx[card.dataset.treeId] = idx; }
-  if (canHover) {
-    // Not while a pin's card is open: it would move the lit pin away from it.
-    card.addEventListener('mouseenter', function() { if (!mapCard.isOpen()) setActive(idx, false, false); });
-  }
-});
-// The Highlights photo cards above the list light their pin too (Hidde,
-// 2026-11-10: "als ik hover over de afbeeldingen in de lijst dat de pin dan
-// duidelijk wordt", Airbnb's list). They are not .tree-card, so they pair with
-// their pin by the tree's id, never by position.
-if (canHover) {
-  document.querySelectorAll('.tree-hl[data-tree-id]').forEach(function(hl) {
-    var idx = hoverIdx[hl.dataset.treeId];
-    if (idx === undefined) { return; }
-    hl.addEventListener('mouseenter', function() { if (!mapCard.isOpen()) setActive(idx, false, false); });
-  });
-}
+// still does for the map is AllTrails' and Airbnb's web half: on a desktop,
+// pointing at a card or a Highlights photograph lights its pin, without flying
+// anywhere (Hidde, 2026-11-10). atPinsFollowList, wired on load.
 
 var routeCoords = ${routeCoords};
+// OPEN ON ONE TREE (2026-09-24). A tree page's map, expanded, lands here with
+// #tree=<id>, the web's version of the app's full-map button on its tree page:
+// the whole city around it, with this tree selected rather than a map that
+// forgets which tree you came from. Read now, acted on once the pins exist.
+var wantTree = location.hash.indexOf('#tree=') === 0 ? decodeURIComponent(location.hash.slice(6)) : null;
 function addWalkLayer() {
   if (routeCoords.length < 2 || map.getSource('walk')) { return; }
   map.addSource('walk', {
@@ -762,8 +530,7 @@ function selectWalk(idx) {
   if (nm) { nm.textContent = w.name; nm.hidden = !w.name; }
   var on = {};
   w.members.forEach(function(i) { on[i] = true; });
-  pins.forEach(function(el, i) { el.classList.toggle('pin-off', !on[i]); });
-  paintStacks();
+  if (pins) { pins.dim(markers.filter(function(m, i) { return !on[i]; }).map(function(m) { return m.id; })); }
   document.querySelectorAll('.tree-card').forEach(function(card, i) {
     card.classList.toggle('card-off', !on[i]);
   });
@@ -782,8 +549,7 @@ function showWholeCity() {
   activeWalk = -1;
   setAllWalksFilter(-1);
   drawWalk([]);
-  pins.forEach(function(el) { el.classList.remove('pin-off'); });
-  paintStacks();
+  if (pins) { pins.dim(null); }
   document.querySelectorAll('.tree-card').forEach(function(card) {
     card.classList.remove('card-off');
   });
@@ -832,30 +598,16 @@ function writeSeen(changed, on) {
 }
 window.atPaintPassport = function() { try { paintPassport(); } catch (e) {} };
 
-// The heart on a pin reads the same answer the hearts on the cards do, so a
-// save made on the card lights the pin without a reload. tree-actions-js.ts
-// calls this after every save; it is a no-op before that file has its answer.
-window.atPaintPinFaves = function() {
-  markers.forEach(function(m, idx) {
-    var kept = Boolean(window.atHasSaved && window.atHasSaved(m.id));
-    pins[idx].classList.toggle('kept', kept);
-  });
-  // Saved trees take their full pins first, so the dots are worked out again.
-  updatePins();
-};
-// The saved list may have arrived before this script ran (it is fetched by
-// tree-actions-js, which runs first); its paint found no pins then, so paint
-// once now from whatever answer is already held.
-window.atPaintPinFaves();
-
+// The bookmark and the tick on a pin are the one pin set's (tree-pins-js.ts):
+// a save or a tick repaints them through atPaintPinFaves and atPaintSeen.
 function paintPassport() {
   var seen = readSeen();
   var here = 0;
   markers.forEach(function(m, idx) {
     var got = seen.indexOf(m.id) !== -1;
     if (got) { here++; }
-    pins[idx].classList.toggle('seen', got);
   });
+  if (pins) { pins.marks(); }
   var box = document.getElementById('passport');
   if (box) {
     document.getElementById('passport-count').textContent = here;
@@ -880,21 +632,12 @@ if (location.hash.indexOf('#trees=') === 0) {
 
 paintPassport();
 
-// OPEN ON ONE TREE (2026-09-24). A tree page's map, expanded, lands here with
-// #tree=<id>, the web's version of the app's full-map button on its tree page:
-// the whole city around it, with this tree selected rather than a map that
-// forgets which tree you came from.
-if (location.hash.indexOf('#tree=') === 0) {
-  var wantTree = decodeURIComponent(location.hash.slice(6));
+// The #tree=<id> arrival (wantTree, above), once the pins exist.
+function openOnTree(want) {
   for (var ti = 0; ti < markers.length; ti++) {
-    var tcard = document.getElementById('tree-' + (ti + 1));
-    if (tcard && tcard.dataset.treeId === wantTree) {
-      map.once('load', (function(i) { return function() { setActive(i, true, false); }; })(ti));
-      break;
-    }
+    if (markers[ti].id === want) { setActive(ti, true, false); return; }
   }
 }
-
 var gpsBtn = document.getElementById('gps-btn');
 var meMarker = null, watchId = null;
 if (gpsBtn && navigator.geolocation) {

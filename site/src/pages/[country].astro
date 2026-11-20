@@ -26,6 +26,7 @@ import { publishedStatePages, usStateOf } from "../lib/us-states";
 // in its draggable sheet, from the city page's own parts rather than a layout
 // of its own ("city and explore share one skeleton and one sheet").
 import { mapSpecies } from "../lib/map-species";
+import { speciesIconKey } from "../lib/species-icons";
 import MapFilters from "../components/MapFilters.astro";
 import ShareButton from "../components/ShareButton.astro";
 import PlaceRow from "../components/PlaceRow.astro";
@@ -289,7 +290,8 @@ const mapScript = countryMapScript(
       const ts = treeSlugsForCity(c.city)[t.id];
       return { id: t.id, lat: t.location.latitude!, lng: t.location.longitude!, url: ts ? `/${c.slug}/${ts}` : undefined,
                pr: pinPriority(Boolean(usablePhoto(t)), savesOf(t.id)),
-               sp: spIndex.get(speciesCommon(t)) ?? -1, paid: Boolean(t.paid_entry) };
+               sp: spIndex.get(speciesCommon(t)) ?? -1, paid: Boolean(t.paid_entry),
+               ic: speciesIconKey(speciesCommon(t)) };
     }),
   })),
   intro.data.map_frame,

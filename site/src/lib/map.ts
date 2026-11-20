@@ -8,6 +8,7 @@ import { mapCardJs } from "./map-card-js";
 import { mapFiltersJs } from "./map-filters-js";
 import { ui } from "./i18n";
 import { icon } from "./icons";
+import { treePinsJs } from "./tree-pins-js";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -71,10 +72,10 @@ setTimeout(function () {
  *  order, and a pin that would collide
  *  with one already placed is drawn as a dot instead. PIN_DISTANCE is the
  *  collision rule, centre to centre, the same 40 the app uses (TreeMap.swift,
- *  pinDistance) and supercluster's own default. The circle-pin maps (explore,
- *  country, state, My trees) hand the placing to MapLibre's symbol collision
- *  (PINS_JS); the city map does the same pass over its DOM pins
- *  (city-map-script.ts). The one bubble left is a same-spot stack, below.
+ *  pinDistance) and supercluster's own default. Every map places them the
+ *  same way since 2026-11-20 (tree-pins-js.ts, the one tree pin); until then
+ *  the circle-pin maps used MapLibre's symbol collision and the city map its
+ *  own pass over DOM pins. The one bubble left is a same-spot stack, below.
  *  qa: check_every_map_shows_pins_the_same_way(). */
 export const PIN_DISTANCE = 40;
 
@@ -117,10 +118,6 @@ export function miniPin(id: string, hasPhoto: boolean): boolean {
 export const WORLD_MIN_ZOOM = 1.5;
 export const ONE_WORLD = `renderWorldCopies: false, minZoom: ${WORLD_MIN_ZOOM}`;
 
-/** The full pin on the circle-pin maps: a moss disc with a 2px cream ring. */
-export const PIN_RADIUS = 7;
-/** The dot a tree becomes where its pin did not fit. */
-export const DOT_RADIUS = 4;
 /** The same-spot stack's bubble (CONVENTIONS.md 2026-10-15), 26px plus ring,
  *  the app's stackPin at 32 points. */
 export const STACK_RADIUS = 13;
@@ -169,11 +166,16 @@ function atMarkPiles(features) {
   });
   return features;
 }
-function atPileLayers(map, source, treeLayer, open, hollow) {
+// pinEl(feature), when given, makes the full pin a spread stack fans out
+// (tree-pins-js.ts: the one tree pin), on legs that stop at the pin's edge;
+// without it the fan is of dots.
+function atPileLayers(map, source, treeLayer, open, hollow, pinEl) {
   var pileOnly = ['all', ['!', ['has', 'point_count']], ['>=', ['coalesce', ['get', 'pile'], 0], 2]];
-  map.setFilter(treeLayer, ['all', ['!', ['has', 'point_count']], ['==', ['coalesce', ['get', 'pile'], 0], 0]]);
+  if (map.getLayer(treeLayer)) {
+    map.setFilter(treeLayer, ['all', ['!', ['has', 'point_count']], ['==', ['coalesce', ['get', 'pile'], 0], 0]]);
+  }
   // The bubble only from STACK_ZOOM; below it the stack is one ordinary pin
-  // (atPinLayers draws the pile's first tree there).
+  // (tree-pins-js.ts draws the pile's first tree there).
   map.addLayer({id: treeLayer + '-pile', type: 'circle', source: source, filter: pileOnly, minzoom: ${STACK_ZOOM},
     paint: {'circle-color': '#4A6B2A', 'circle-opacity': 0.92, 'circle-radius': ${STACK_RADIUS},
             'circle-stroke-width': 2, 'circle-stroke-color': '#F6F2E9'}});
@@ -196,19 +198,35 @@ function atPileLayers(map, source, treeLayer, open, hollow) {
   }
   function fan(pile) {
     fold();
-    var c = pile.c, g = pile.fs, n = g.length, R = n <= 2 ? 24 : 30;
+    var c = pile.c, g = pile.fs, n = g.length;
+    // Full pins stand further out than dots, and their legs stop at the pin's
+    // edge (17 is half a pin), as the city map's spread always did.
+    var R = pinEl ? (n <= 2 ? 36 : 44) : (n <= 2 ? 24 : 30), edge = pinEl ? 17 : 9;
     showBubbles(atPileKey(c));
     var legs = document.createElement('div');
     legs.className = 'stack-legs-host';
     var html = '<i class="stack-dot"></i>';
+    var made = [];
     g.forEach(function(f, i) {
       var a = n === 2 ? Math.PI * i : -Math.PI / 2 + i * 2 * Math.PI / n;
-      html += '<i class="stack-leg" style="width:' + (R - 9) + 'px;transform:rotate(' + (a * 180 / Math.PI) + 'deg)"></i>';
-      var d = document.createElement('button');
-      d.type = 'button';
-      d.className = 'pile-dot' + (hollow && hollow(f.properties) ? ' pile-dot--hollow' : '');
+      html += '<i class="stack-leg" style="width:' + (R - edge) + 'px;transform:rotate(' + (a * 180 / Math.PI) + 'deg)"></i>';
+      var d;
+      if (pinEl) {
+        d = pinEl(f);
+        d.setAttribute('role', 'button');
+        d.tabIndex = 0;
+      } else {
+        d = document.createElement('button');
+        d.type = 'button';
+        d.className = 'pile-dot' + (hollow && hollow(f.properties) ? ' pile-dot--hollow' : '');
+      }
+      made.push(d);
       if (f.properties.name) { d.setAttribute('aria-label', f.properties.name); d.title = f.properties.name; }
-      d.addEventListener('click', function(e) { e.stopPropagation(); tapAt = Date.now(); open(f.properties, c); });
+      d.addEventListener('click', function(e) {
+        e.stopPropagation(); tapAt = Date.now();
+        if (pinEl) { made.forEach(function(x) { x.classList.toggle('active', x === d); }); }
+        open(f.properties, c);
+      });
       spread.push(new maplibregl.Marker({element: d, offset: [Math.round(R * Math.cos(a)), Math.round(R * Math.sin(a))]})
         .setLngLat(c).addTo(map));
     });
@@ -234,70 +252,6 @@ function atPileLayers(map, source, treeLayer, open, hollow) {
   map.on('mouseleave', treeLayer + '-pile', function() { map.getCanvas().style.cursor = ''; });
 }`;
 
-/** THE PINS OF A CIRCLE-PIN MAP (explore, country, state, My trees, and the
- *  other cities on a city map), the Airbnb way: see PIN_DISTANCE. Two layers
- *  on one plain source. Under: every tree as a dot. Over: the full pin, a
- *  symbol whose placement MapLibre decides, lowest `pr` first, and a symbol
- *  that would collide with one already placed is simply not drawn, which
- *  leaves its dot showing. A tap on either opens the tree; a symbol that was
- *  not placed is not in queryRenderedFeatures, so the tap falls through to
- *  the dot. The same-spot stacks (PILES_JS) are added on top.
- *  `hollowExpr`, when given, is a MapLibre expression naming the features
- *  drawn hollow (My trees: a tree saved but not yet collected). */
-export const PINS_JS = `
-function atPinImage(map, name, hollow) {
-  if (map.hasImage(name)) { return; }
-  var r = ${PIN_RADIUS}, dpr = Math.min(window.devicePixelRatio || 1, 3), d = (r + 2) * 2;
-  var c = document.createElement('canvas');
-  c.width = d * dpr; c.height = d * dpr;
-  var g = c.getContext('2d');
-  g.scale(dpr, dpr);
-  g.beginPath();
-  g.arc(d / 2, d / 2, hollow ? r - 0.25 : r, 0, Math.PI * 2);
-  if (!hollow) { g.fillStyle = '#4A6B2A'; g.fill(); }
-  g.lineWidth = hollow ? 2.5 : 2;
-  g.strokeStyle = hollow ? '#4A6B2A' : '#F6F2E9';
-  g.stroke();
-  map.addImage(name, g.getImageData(0, 0, c.width, c.height), {pixelRatio: dpr});
-}
-function atPinLayers(map, source, treeLayer, open, hollowExpr, hollow) {
-  atPinImage(map, 'at-pin', false);
-  atPinImage(map, 'at-pin-hollow', true);
-  var loose = ['all', ['!', ['has', 'point_count']], ['==', ['coalesce', ['get', 'pile'], 0], 0]];
-  // A same-spot pile's first tree stands for the pile below STACK_ZOOM, where
-  // the bubble is not drawn (atPileLayers).
-  var pileHead = ['all', ['!', ['has', 'point_count']], ['>=', ['coalesce', ['get', 'pile'], 0], 2]];
-  var dotPaint = {'circle-color': hollowExpr ? ['case', hollowExpr, 'rgba(0,0,0,0)', '#4A6B2A'] : '#4A6B2A',
-                  'circle-radius': ${DOT_RADIUS},
-                  'circle-stroke-width': 1.5,
-                  'circle-stroke-color': hollowExpr ? ['case', hollowExpr, '#4A6B2A', '#F6F2E9'] : '#F6F2E9'};
-  var pinLayout = {'icon-image': hollowExpr ? ['case', hollowExpr, 'at-pin-hollow', 'at-pin'] : 'at-pin',
-                   'icon-allow-overlap': false, 'icon-ignore-placement': false,
-                   'icon-padding': ${(PIN_DISTANCE - (PIN_RADIUS + 2) * 2) / 2},
-                   'symbol-sort-key': ['coalesce', ['get', 'pr'], 1]};
-  // Far out (below FAR_ZOOM): a few full pins and Airbnb's mini pins, the
-  // rest left out; from FAR_ZOOM in, every tree as a pin or a dot.
-  var farLayout = Object.assign({}, pinLayout, {'icon-padding': ${(FAR_PIN_DISTANCE - (PIN_RADIUS + 2) * 2) / 2}});
-  // A point without mn (My trees, a city's own trees) always stays: only
-  // the maps of everything thin out.
-  var mini = ['all', loose, ['==', ['coalesce', ['get', 'mn'], 1], 1]];
-  map.addLayer({id: treeLayer + '-mini', type: 'circle', source: source, filter: mini, maxzoom: ${FAR_ZOOM},
-    paint: {'circle-color': '#4A6B2A', 'circle-radius': ${MINI_RADIUS}, 'circle-stroke-width': 1, 'circle-stroke-color': '#F6F2E9'}});
-  map.addLayer({id: treeLayer + '-dot', type: 'circle', source: source, filter: loose, minzoom: ${FAR_ZOOM}, paint: dotPaint});
-  map.addLayer({id: treeLayer + '-head-dot', type: 'circle', source: source, filter: pileHead, minzoom: ${FAR_ZOOM}, maxzoom: ${STACK_ZOOM}, paint: dotPaint});
-  map.addLayer({id: treeLayer + '-far', type: 'symbol', source: source, filter: loose, maxzoom: ${FAR_ZOOM}, layout: farLayout});
-  map.addLayer({id: treeLayer, type: 'symbol', source: source, filter: loose, minzoom: ${FAR_ZOOM}, layout: pinLayout});
-  map.addLayer({id: treeLayer + '-head', type: 'symbol', source: source, filter: pileHead, minzoom: ${FAR_ZOOM}, maxzoom: ${STACK_ZOOM}, layout: pinLayout});
-  [treeLayer, treeLayer + '-dot', treeLayer + '-head', treeLayer + '-head-dot', treeLayer + '-far', treeLayer + '-mini'].forEach(function(l) {
-    map.on('click', l, function(e) {
-      var f = e.features[0];
-      open(f.properties, f.geometry.coordinates);
-    });
-    map.on('mouseenter', l, function() { map.getCanvas().style.cursor = 'pointer'; });
-    map.on('mouseleave', l, function() { map.getCanvas().style.cursor = ''; });
-  });
-  atPileLayers(map, source, treeLayer, open, hollow);
-}`;
 export function mapScript(body: string): string {
   return `\n<script defer src="${MAPLIBRE_JS}"></script>\n<script>\n` +
     `document.addEventListener("DOMContentLoaded", function () {\n${CAN_MAP_JS}\n${body}\n${COLLAPSE_ATTRIBUTION}\n});\n</script>\n`;
@@ -368,11 +322,13 @@ export interface CountryMapCity {
   /** pinPriority(): which tree gets the full pin first. sp: index into
    *  /api/map-species.json (mapSpecies()), paid: behind a ticket; both only
    *  for the filter row. */
-  markers: { lat: number; lng: number; url?: string; pr?: number; id?: string; sp?: number; paid?: boolean }[];
+  markers: { lat: number; lng: number; url?: string; pr?: number; id?: string; sp?: number; paid?: boolean;
+             /** The drawing on its pin (species-icons.ts speciesIconKey). */
+             ic?: string }[];
 }
 
 /** Every tree in the country, drawn the way /explore and the app draw them
- *  (PINS_JS): a pin or a dot per tree, and either opens its tree.
+ *  (tree-pins-js.ts): a pin or a dot per tree, and either opens its tree.
  *
  *  `sheet`: the map is the page, the city page's split with the bottom sheet
  *  (the country page since 2026-11-04, Hidde: the website country page a map,
@@ -400,6 +356,8 @@ export function countryMapScript(cities: CountryMapCity[],
       properties: { id: m.id ?? "", cs: "/" + c.slug, url: m.url ?? "/" + c.slug, pr: m.pr ?? 1,
                     // pinPriority puts a tree with a photograph at 0 or below.
                     mn: miniPin(m.id ?? "", (m.pr ?? 1) <= 0) ? 1 : 0,
+                    ...(m.ic && m.ic !== "broadleaf" ? { ic: m.ic } : {}),
+                    ...(m.paid ? { paid: 1 } : {}),
                     ...(sheet ? { sp: m.sp ?? -1, paid: m.paid ? 1 : 0 } : {}) },
     }))),
   };
@@ -410,8 +368,7 @@ export function countryMapScript(cities: CountryMapCity[],
 var SPECIES = null, SPECIES_L = null;
 function applyCountryFilters() {
   var kept = filtersOn() ? ALL.filter(function(f) { return keepsTree(f.properties); }) : ALL;
-  var src = (typeof map !== 'undefined' && map && map.getSource) ? map.getSource('trees') : null;
-  if (src) { src.setData({ type: 'FeatureCollection', features: atMarkPiles(kept) }); }
+  if (typeof pins !== 'undefined' && pins) { pins.setData(kept); }
   atFilterCount(kept.length);
 }
 atMapFilters({
@@ -427,9 +384,9 @@ atMapFilters({
   map: function() { return typeof map !== 'undefined' ? map : null; }
 });
 ` : "";
-  return mapScript(`${PILES_JS}${PINS_JS}${mapCardJs()}
+  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}
 var ALL = ${JSON.stringify(data)}.features;
-var TREES = { type: 'FeatureCollection', features: atMarkPiles(ALL) };
+var pins = null;
 ${filters}
 var SHEET = ${sheet ? "true" : "false"};
 if (!atCanMap()) return;
@@ -489,11 +446,18 @@ map.on('zoomstart', function(e) { if (e.originalEvent) { touched = true; } });
 new ResizeObserver(function() { map.resize(); fit(); }).observe(document.getElementById('map'));
 map.on('load', function() {
   fit();
-  map.addSource('trees', {type: 'geojson', data: TREES});
-  // A pin or a dot shows the tree's card, the same as on every map (map-card-js.ts).
+  // THE ONE TREE PIN (tree-pins-js.ts), the city map's, since 2026-11-20
+  // (Hidde: "ik wil gewoon 1 goede"). A pin or a dot shows the tree's card,
+  // the same as on every map (map-card-js.ts).
   var openCard = null;
-  atPinLayers(map, 'trees', 'tree', function(p, c) { if (openCard) openCard(p, c); }, null, null);
-  openCard = atCirclePinCard(map, 'trees', 'tree');
+  pins = atTreePins(map, {
+    source: 'trees',
+    iconOf: function(p) { return p.ic || 'broadleaf'; },
+    open: function(p, c) { if (openCard) openCard(p, c); }
+  });
+  pins.setData(ALL);
+  openCard = atTreePinCard(map, pins, null);
+  atPinsFollowList(pins, openCard, null);
   if (SHEET && typeof applyCountryFilters === 'function') { applyCountryFilters(); }
 });
 `);
@@ -553,7 +517,7 @@ export interface ExploreCityRow {
   rank: number;
 }
 
-/** The /explore world map: every tree as a pin or a dot (PINS_JS), plus the
+/** The /explore world map: every tree as a pin or a dot (tree-pins-js.ts), plus the
  * register layer fetched separately. Ported from the
  * inline `script` string in build_explore_page(), build_site.py:4641-4805. */
 export function exploreMapScript(features: ExploreTreeFeature[], cities: ExploreCityRow[],
@@ -576,7 +540,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
   const speciesLatinJson = JSON.stringify(speciesLatin);
   return (
     mapScript(
-    `${PILES_JS}${PINS_JS}${mapCardJs(lang)}${mapFiltersJs()}
+    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
 // The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
@@ -604,13 +568,12 @@ var SHOWN = DATA.features;
 // FILTERING RE-SOURCES, it does not hide a layer: the same-spot piles are
 // marked on the data (atMarkPiles), so what is hidden must leave the data.
 function applyFilters() {
-  var src = (typeof map !== 'undefined' && map && map.getSource) ? map.getSource('trees') : null;
-  if (!src) return;
+  if (typeof pins === 'undefined' || !pins) return;
   var kept = filtersOn() ? DATA.features.filter(function(f) { return keepsTree(f.properties); }) : DATA.features;
   // WHILE A SEARCH HOLDS, ONLY THAT PLACE (Hidde, 2026-11-06, Airbnb's map:
   // the searched place's pins, count and list until you move the map).
   if (typeof FOCUS !== 'undefined' && FOCUS) { kept = kept.filter(_inFocus); }
-  src.setData({ type: 'FeatureCollection', features: atMarkPiles(kept) });
+  pins.setData(kept);
   atFilterCount(kept.length);
   SHOWN = kept;
   renderPanel();
@@ -773,10 +736,18 @@ function _countryFromHash() {
 }
 _countryFromHash();
 window.addEventListener('hashchange', _countryFromHash);
+var pins = null;
 function initTreeLayers() {
-  if (map.getSource('trees')) { return; }
-  atMarkPiles(DATA.features);
-  map.addSource('trees', {type: 'geojson', data: DATA});
+  if (pins) { return; }
+  // THE ONE TREE PIN (tree-pins-js.ts), the city map's, since 2026-11-20
+  // (Hidde: "ik wil gewoon 1 goede"); it was a moss circle here.
+  var openCard = null;
+  pins = atTreePins(map, {
+    source: 'trees',
+    iconOf: function(p) { return (p.sp !== undefined && p.sp !== null && SP_IC[p.sp]) || 'broadleaf'; },
+    open: function(p, c) { if (openCard) openCard(p, c); }
+  });
+  pins.setData(DATA.features);
   // A search that arrived before the map had its source (#country=...).
   if (FOCUS) { applyFilters(); }
   // The season heartbeat (a pulse and a gold dot behind trees at their peak)
@@ -787,9 +758,9 @@ function initTreeLayers() {
   // A pin or a dot shows its tree's card, the one every map shows
   // (map-card-js.ts, Hidde 2026-10-24: the city map and this one are one
   // thing). It replaced 10-04's jump straight to the tree page.
-  var openCard = null;
-  atPinLayers(map, 'trees', 'tree', function(p, c) { if (openCard) openCard(p, c); }, null, null);
-  openCard = atCirclePinCard(map, 'trees', 'tree');
+  openCard = atTreePinCard(map, pins, null);
+  // Pointing at a tree in the list lights its pin (Airbnb's list).
+  atPinsFollowList(pins, openCard, null);
   // The register layer: officially designated trees from a government
   // register, not our own research. Visually quieter than the curated
   // trees on purpose (small, hollow, grey) so the two layers read as
@@ -1084,7 +1055,7 @@ renderPanel();
  * like.
  */
 export function myTreesMapScript(): string {
-  return mapScript(`${PILES_JS}${PINS_JS}${mapCardJs()}
+  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}
 // An empty collection opens on the whole world, as Polarsteps' empty map
 // does, not on Europe: an Australian with no trees yet saw an empty Europe
 // (Hidde, 2026-11-01). The trees, once there, frame themselves (paint()).
@@ -1101,27 +1072,52 @@ new ResizeObserver(function() { map.resize(); }).observe(document.getElementById
 var EMPTY = { type: 'FeatureCollection', features: [] };
 var pending = null;
 
+var pins = null;
 function initMine() {
-  if (map.getSource('mine')) { return; }
-  map.addSource('mine', { type: 'geojson', data: EMPTY });
-  // TWO KINDS OF PIN, because the profile holds two independent lists and
-  // they mean opposite things: a tree you have stood in front of is done, a
-  // tree you saved is still ahead of you. Filled moss for collected, hollow
-  // for a favourite, which is the same filled-versus-hollow language the
-  // heart itself uses. A pin or a dot opens the tree.
+  if (pins) { return; }
+  // THE ONE TREE PIN (tree-pins-js.ts), the city map's: the species drawn on
+  // it, the tick in the corner on a tree you collected, the bookmark on one
+  // you saved. Until 2026-11-20 this map had its own filled-versus-hollow
+  // circles for the same two facts (Hidde: "ik wil gewoon 1 goede").
   // A pin or a dot shows the tree's card, the one every map shows
-  // (map-card-js.ts). A tree only you have may have no page at all: sharing
-  // is what gives it one, so its card carries the name and place and opens
-  // nothing.
+  // (map-card-js.ts), and the card is the tile's own when the grid has it, so
+  // your photograph of the tree comes with it. A tree only you have may have
+  // no page at all: sharing is what gives it one, so its card carries the
+  // name and place and opens nothing.
   var openCard = null;
-  atPinLayers(map, 'mine', 'mine-tree', function(p, c) { if (openCard) openCard(p, c); },
-    ['!=', ['get', 'got'], 1], function(p) { return p.got !== 1; });
-  openCard = atCirclePinCard(map, 'mine', 'mine-tree');
+  pins = atTreePins(map, {
+    source: 'mine',
+    iconOf: function(p) { return p.ic || 'broadleaf'; },
+    seen: function(p) { return p.got === 1 || Boolean(window.atHasVisited && window.atHasVisited(p.id)); },
+    open: function(p, c) { if (openCard) openCard(p, c); }
+  });
+  openCard = atTreePinCard(map, pins, function(p) {
+    // The grid's own card for this tree, in the lane you are looking at first.
+    var id = String(p.id || '').replace(/[^A-Za-z0-9_-]/g, '');
+    var q = id.indexOf('own-') === 0
+      ? '.saved-list [data-pin-id="' + id + '"], .saved-list [data-id="' + id.slice(4) + '"]'
+      : '.saved-list [data-tree-id="' + id + '"]';
+    var all = Array.prototype.slice.call(document.querySelectorAll(q));
+    var shown = all.filter(function(el) { return el.offsetParent !== null; });
+    var el = (shown[0] || all[0]);
+    if (!el) { return null; }
+    var card = el.closest('.tree-card') || el;
+    var a = card.querySelector('a[href]');
+    return { el: card, href: a ? a.href : (p.url || null) };
+  });
+  // Pointing at a tile lights its pin (Airbnb's list).
+  atPinsFollowList(pins, openCard, function(el) {
+    if (!el.closest('.saved-list')) { return null; }
+    if (el.hasAttribute('data-pin-id')) { return el.getAttribute('data-pin-id'); }
+    if (el.hasAttribute('data-tree-id')) { return el.getAttribute('data-tree-id'); }
+    var own = el.getAttribute('data-id');
+    return own ? 'own-' + own : null;
+  });
   if (pending) { paint(pending); pending = null; }
 }
 
 function paint(features) {
-  map.getSource('mine').setData({ type: 'FeatureCollection', features: atMarkPiles(features) });
+  pins.setData(features);
   if (!features.length) { return; }
   // Frame the whole collection. One tree gets a city-level zoom rather than
   // a bounding box of nothing.
@@ -1134,7 +1130,7 @@ function paint(features) {
 // Called by profile-js once the account has said which trees are yours. It
 // may arrive before or after the style loads, so both orders work.
 window.atSetMyTrees = function(features) {
-  if (map.getSource('mine')) { paint(features); } else { pending = features; }
+  if (pins) { paint(features); } else { pending = features; }
 };
 
 map.on('style.load', initMine);

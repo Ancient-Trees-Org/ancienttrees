@@ -277,7 +277,7 @@ const t = ui("en");
     var path = String(o.photo).split("/").map(encodeURIComponent).join("/");
     var full = SB + "/storage/v1/object/public/shared-sightings/" + path;
     var src = SB + "/storage/v1/object/public/shared-thumbs/" + path;
-    return '<li><article class="tree-card tree-card-nonum tree-card-link">'
+    return '<li><article class="tree-card tree-card-nonum tree-card-link" data-pin-id="own-' + esc(String(o.id)) + '">'
       + '<div class="tree-card-photo"><img src="' + esc(src) + '" data-full="' + esc(full) + '" alt="' + esc(name) + '" loading="lazy"></div>'
       + '<div class="tree-card-top"><h3 class="tree-name"><a href="/t?id=' + encodeURIComponent(String(o.id).toLowerCase())
       + '">' + esc(name) + '</a></h3></div></article></li>';
@@ -315,11 +315,11 @@ const t = ui("en");
       }).map(function(id) {
         var c = cards[id];
         return { type: "Feature", geometry: { type: "Point", coordinates: [c.x, c.y] },
-                 properties: { name: c.n, city: c.c || "", url: c.u, got: got[id] ? 1 : 0 } };
+                 properties: { id: id, name: c.n, city: c.c || "", url: c.u, ic: c.ic, got: got[id] ? 1 : 0 } };
       }).concat(own.filter(function(o) { return typeof o.lat === "number" && typeof o.lng === "number"; })
         .map(function(o) {
           return { type: "Feature", geometry: { type: "Point", coordinates: [o.lng, o.lat] },
-                   properties: { name: o.name || "A tree", city: "", url: "/t?id=" + String(o.id).toLowerCase(), got: 1 } };
+                   properties: { id: "own-" + String(o.id), name: o.name || "A tree", city: "", url: "/t?id=" + String(o.id).toLowerCase(), got: 1 } };
         })));
     });
   }

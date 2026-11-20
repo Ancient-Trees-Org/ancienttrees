@@ -3512,9 +3512,30 @@ def check_every_map_shows_pins_the_same_way():
     m = re.search(r"export const PIN_DISTANCE = (\d+);", web)
     if not m:
         problems.append("lib/map.ts no longer exports PIN_DISTANCE")
-    city = (lib / "city-map-script.ts").read_text()
-    if "${PIN_DISTANCE}" not in city or "pin-mini" not in city:
-        problems.append("city-map-script.ts no longer places its pins by PIN_DISTANCE from lib/map.ts with dots for the rest")
+    # ONE TREE PIN (Hidde, 2026-11-20: "we zijn nu de hele tijd verschillende
+    # versies aan het onderhouden ik wil gewoon 1 goede"). Every website map
+    # draws its trees through tree-pins-js.ts, which places them by
+    # PIN_DISTANCE from lib/map.ts with dots for the rest. A map script that
+    # draws a pin of its own (a .pin-tree element, a symbol layer of circles)
+    # is the second version this replaced.
+    engine = lib / "tree-pins-js.ts"
+    eng = engine.read_text() if engine.exists() else ""
+    if "function atTreePins(" not in eng or "${PIN_DISTANCE}" not in eng or "${FAR_PIN_DISTANCE}" not in eng:
+        problems.append("tree-pins-js.ts no longer places the one tree pin by PIN_DISTANCE from lib/map.ts")
+    for f in sorted(lib.glob("*.ts")):
+        if f == engine:
+            continue
+        src = f.read_text()
+        if "maplibregl.Map(" not in src and "mapScript(" not in src:
+            continue
+        for i, line in enumerate(src.splitlines(), 1):
+            if re.search(r"""className\s*=\s*['"]pin-tree""", line) or "function atPinLayers(" in line:
+                problems.append("%s:%d draws a tree pin of its own; every map uses atTreePins (tree-pins-js.ts)"
+                                % (f.name, i))
+        for part in re.split(r"\n(?=export )", src):
+            fm = re.match(r"export function (\w+)", part)
+            if fm and "atTreePins(" in part and "${treePinsJs()}" not in part:
+                problems.append("%s: %s calls atTreePins without carrying treePinsJs()" % (f.name, fm.group(1)))
     swift = ROOT / "ios" / "AncientTrees" / "AncientTrees" / "Screens" / "TreeMap.swift"
     if swift.exists():
         src = swift.read_text()
@@ -3659,12 +3680,14 @@ def check_one_tree_card_on_every_map():
             if not m:
                 continue
             name, body = m.group(1), part
-            trees = re.search(r"atPinLayers\(map, '(trees|mine)'", body) or "pin-tree" in body
+            # A map of trees whose pins open a card (the tree page's small map
+            # opens the city map instead, and is not in *map*.ts).
+            trees = re.search(r"atTreePins\(map, \{\s*source: '(trees|mine)'", body)
             if not trees:
                 continue
             if "${mapCardJs(" not in body:
                 problems.append("%s: %s draws tree pins without mapCardJs()" % (f.name, name))
-            if "atCirclePinCard(" not in body and "atMapCard(" not in body:
+            if "atTreePinCard(" not in body and "atMapCard(" not in body:
                 problems.append("%s: %s never opens the shared card" % (f.name, name))
     return problems
 

@@ -22,7 +22,7 @@
 // /api/cards.json through atCollection.card (collection-js.ts), the card the
 // saved list already draws.
 //
-// Ships as text inside mapScript()'s body, like PINS_JS: nothing in it can
+// Ships as text inside mapScript()'s body, like PILES_JS: nothing in it can
 // import, so the two build-time words it needs are interpolated here.
 import { icon } from "./icons";
 import { ui } from "./i18n";
@@ -127,42 +127,5 @@ function atMapCard(map, opts) {
   return { open: open, close: close, place: place, isOpen: function() { return Boolean(el); }, phone: phone };
 }
 
-// A circle-pin map (explore, country, state, My trees): the tapped tree is
-// marked the way the city map marks its pin, a larger ring on top, and gets
-// the one card from /api/cards.json. A tree the catalogue does not know (your
-// own added tree before it has a page) gets the same card from what the pin
-// carries: its name and place.
-function atCirclePinCard(map, source, treeLayer) {
-  var sel = treeLayer + '-sel';
-  map.addLayer({id: sel, type: 'circle', source: source, filter: ['==', ['get', 'id'], ''],
-    paint: {'circle-color': '#4A6B2A', 'circle-radius': 11,
-            'circle-stroke-width': 3, 'circle-stroke-color': '#F6F2E9'}});
-  var ctl = atMapCard(map, { gap: 20, onClose: function() { map.setFilter(sel, ['==', ['get', 'id'], '']); } });
-  var C = window.atCollection;
-  // Warm, so the first tap does not wait for the catalogue.
-  map.once('idle', function() { if (C && C.catalogue) C.catalogue(); });
-  var asked = 0;
-  // The returned opener carries close(), so a map with a second kind of pin
-  // (the city map's own) can let this card go when the other opens.
-  var openOne = function(p, c) {
-    var mine = ++asked;
-    var id = p.id || '';
-    map.setFilter(sel, ['==', ['get', 'id'], id]);
-    var known = C && C.catalogue ? C.catalogue() : Promise.resolve({});
-    known.then(function(cards) {
-      if (mine !== asked) return;
-      var k = (id && cards[id]) || { n: p.name || '', c: p.city || '' };
-      var rec = {};
-      for (var key in k) { rec[key] = k[key]; }
-      if (p.url) { rec.u = p.url; }
-      var saved = Boolean(window.atHasSaved && window.atHasSaved(id));
-      var seen = Boolean(window.atHasVisited && window.atHasVisited(id));
-      var html = C && C.card ? C.card(id, rec, saved, seen) : '';
-      if (html) { ctl.open(html, c, rec.u || null); }
-    });
-  };
-  openOne.close = ctl.close;
-  return openOne;
-}
 `;
 }

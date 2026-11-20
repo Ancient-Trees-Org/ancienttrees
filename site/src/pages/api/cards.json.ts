@@ -36,6 +36,11 @@ import { cityIsOnMap, mapTrees, treeHasPage, treeSlugsForCity } from "../../lib/
 import { usablePhoto, thumbUrl, creditRequired, creditName } from "../../lib/images";
 import { ageShort } from "../../lib/age-short";
 import { seasonKey } from "../../lib/phenology";
+import { speciesIconKey } from "../../lib/species-icons";
+import { speciesCommon } from "../../lib/species";
+import type { Tree } from "../../lib/trees";
+
+const iconKey = (tree: Tree): string => speciesIconKey(speciesCommon(tree));
 
 export async function GET() {
   const cities = (await getCollection("cities")).filter(cityIsOnMap);
@@ -63,6 +68,10 @@ export async function GET() {
         // counting by splitting a display string on a middot is the kind of
         // rule that quietly disagrees with the app's.
         ...(tree.species ? { sp: tree.species } : {}),
+        // The drawing on its map pin (lib/species-icons.ts), so the profile's
+        // map draws the same pin as the city map (tree-pins-js.ts). Left out
+        // for the broadleaf crown, which is what a pin falls back to.
+        ...(iconKey(tree) !== "broadleaf" ? { ic: iconKey(tree) } : {}),
         k: city.data.country,
         // The pin, so a profile can draw somebody's own map without a second
         // request. Two numbers per tree against the 700 KB this file already

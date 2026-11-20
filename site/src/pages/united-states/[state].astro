@@ -18,6 +18,7 @@ import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../../lib/sch
 import { fitTitle } from "../../lib/title";
 import { mapHead, countryMapScript, pinPriority } from "../../lib/map";
 import { savesOf } from "../../lib/saves";
+import { speciesIconKey } from "../../lib/species-icons";
 import { TREE_ACTIONS_JS } from "../../lib/tree-actions-js";
 import { usStateOf, stateSlug, assertEveryUsPlaceHasAState, STATE_MIN_TREES, STATE_MIN_PLACES } from "../../lib/us-states";
 
@@ -169,7 +170,8 @@ const mapScript = countryMapScript(
     markers: renderableTrees(c.city).map((t) => {
       const ts = treeSlugsForCity(c.city)[t.id];
       return { id: t.id, lat: t.location.latitude!, lng: t.location.longitude!, url: ts ? `/${c.slug}/${ts}` : undefined,
-               pr: pinPriority(Boolean(usablePhoto(t)), savesOf(t.id)) };
+               pr: pinPriority(Boolean(usablePhoto(t)), savesOf(t.id)), ic: speciesIconKey(speciesCommon(t)),
+               paid: Boolean(t.paid_entry) };
     }),
   })),
   undefined

@@ -4,7 +4,7 @@
 // they do. It used to live inside exploreMapScript() and nowhere else, so a
 // city map had no way to say "only what I can visit for free".
 //
-// Ships as text inside a map script, like PINS_JS. The page hands over three
+// Ships as text inside a map script, like PILES_JS. The page hands over three
 // things (atMapFilters below): how to redraw with the filter applied, the trees
 // it can count species on, and the species list, which the explore map carries
 // inline and the city map fetches when the chip is first opened.

@@ -22,10 +22,11 @@
 // maplibregl-canvas is there at every width.
 
 import { MAP_STYLE, MAP_CREDIT, SUPABASE_URL, SUPABASE_KEY } from "./site-config";
-import { mapScript, PILES_JS, PINS_JS, ONE_WORLD } from "./map";
+import { mapScript, PILES_JS, ONE_WORLD } from "./map";
+import { treePinsJs } from "./tree-pins-js";
 
 export function treePageScript(lat: number, lng: number, id = ""): string {
-  return mapScript(`${PILES_JS}${PINS_JS}
+  return mapScript(`${PILES_JS}${treePinsJs()}
 var LAT = ${lat}, LNG = ${lng}, TREE_ID = ${JSON.stringify(id)};
 var mapEl = document.getElementById('map');
 var hero = document.querySelector('.td-hero');
@@ -74,24 +75,33 @@ if (mapEl) {
   // THE MAP AROUND IT (Hidde, 2026-11-01: "should be showing a view of the
   // actual map which you can then click"). The small map was one dot on a
   // street plan; it now draws the trees around this one as every map draws
-  // them (PINS_JS), from the rows the city map reads (/api/pins.json). A tap
-  // on one opens it on its city's map; a click anywhere else on the side map
-  // opens the full map on this tree, as Google Maps' place preview does. A
-  // drag is not a click, so the side map still pans.
+  // them (the one tree pin, tree-pins-js.ts, since 2026-11-20), from the rows
+  // the city map reads (/api/pins.json). A tap on one opens it on its city's
+  // map; a click anywhere else on the side map opens the full map on this
+  // tree, as Google Maps' place preview does. A drag is not a click, so the
+  // side map still pans.
   map.on('load', function () {
-    fetch('/api/pins.json').then(function (r) { return r.json(); }).then(function (rows) {
+    Promise.all([
+      fetch('/api/pins.json').then(function (r) { return r.json(); }),
+      fetch('/api/map-species.json').then(function (r) { return r.json(); }).catch(function () { return null; })
+    ]).then(function (got) {
+      var rows = got[0], ic = (got[1] && got[1].icons) || [];
       var feats = [];
       rows.forEach(function (r) {
         if (r[0] === TREE_ID) { return; }
         feats.push({type: 'Feature', geometry: {type: 'Point', coordinates: [r[1], r[2]]},
-                    properties: {id: r[0], cs: r[3], pr: r[4], mn: r[7]}});
+                    properties: {id: r[0], cs: r[3], pr: r[4], sp: r[5], paid: r[6], mn: r[7]}});
       });
       if (map.getSource('around')) { return; }
-      map.addSource('around', {type: 'geojson', data: {type: 'FeatureCollection', features: atMarkPiles(feats)}});
-      atPinLayers(map, 'around', 'around-tree', function (p) {
-        tappedTree = true;
-        location.href = '/' + p.cs + '#tree=' + encodeURIComponent(p.id);
-      }, null, null);
+      var around = atTreePins(map, {
+        source: 'around',
+        iconOf: function (p) { return (p.sp !== undefined && p.sp !== null && p.sp >= 0 && ic[p.sp]) || 'broadleaf'; },
+        open: function (p) {
+          tappedTree = true;
+          location.href = '/' + p.cs + '#tree=' + encodeURIComponent(p.id);
+        }
+      });
+      around.setData(feats);
     }).catch(function () {});
   });
   var tappedTree = false;
