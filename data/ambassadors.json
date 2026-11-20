@@ -1440,6 +1440,16 @@
         "The Sweet Chestnut of Hulsbeek"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a651ca8360285ce64022abc5",
+      "place_slug": "castleboro",
+      "place_name": "Castleboro",
+      "date": "2026-11-20",
+      "trees": [
+        "The Bench Redwood of Castleboro"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2096,10 +2106,24 @@
         "brg_001",
         "brg_002",
         "brg_003",
-        "brg_006"
+        "brg_006",
+        "brg_007",
+        "brg_008",
+        "brg_009",
+        "brg_010"
       ],
       "since": "2026-10-28",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-20",
+          "trees": [
+            "brg_007",
+            "brg_008",
+            "brg_009",
+            "brg_010"
+          ]
+        }
+      ]
     },
     "calvos": {
       "trees": [

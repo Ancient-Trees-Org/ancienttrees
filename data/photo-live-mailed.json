@@ -2246,19 +2246,15 @@
    ]
   },
   "p_fdf05702bb8b7818e0c98b4d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c20222fc-c87b-41b4-97de-6030b35d9d13",
      "tree_id": "gda_007",
-     "tree_name": "The Maples of Hugo Conwentz",
-     "city": "Gdansk",
-     "city_slug": "gdansk",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_6344b0c275a4e27f57f30367": {
    "last": "2026-11-19",
@@ -2288,94 +2284,62 @@
    ]
   },
   "p_632f911006e6a6d1beaf2da5": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "446cfadf-3ffe-4a88-bb64-ef1404f11d10",
      "tree_id": "lyo_013",
-     "tree_name": "The Plane Tree of Place Antoine-Rivoire",
-     "city": "Lyon",
-     "city_slug": "lyon",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "34765498-f889-416e-b6a0-40c66432370a",
      "tree_id": "lyo_013",
-     "tree_name": "The Plane Tree of Place Antoine-Rivoire",
-     "city": "Lyon",
-     "city_slug": "lyon",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_01ea1753df5e9ff4dabdde36": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",
      "tree_id": "yor_004",
-     "tree_name": "The Cut-Leaved Alder",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "8fa25dfc-55ff-4925-a144-70ee258e5496",
      "tree_id": "yor_001",
-     "tree_name": "The Willow-Leaved Ash",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "701ab274-cd8d-4712-a1e0-d46296146d3b",
      "tree_id": "yor_003",
-     "tree_name": "The Pear-Barked Beech",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "f6e889ad-bec9-43d7-bf19-ecfdb0ed552c",
      "tree_id": "yor_002",
-     "tree_name": "The Cut-Leaved Hornbeam",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "810c3609-4e33-454c-96ae-3380148dde04",
      "tree_id": "yor_002",
-     "tree_name": "The Cut-Leaved Hornbeam",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_55175e1d5168ec9b0cca118d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "8259e0fc-4968-44e1-b245-6b7a178cdefc",
      "tree_id": "par_002",
-     "tree_name": "The Cedar of Jussieu",
-     "city": "Paris",
-     "city_slug": "paris",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_301957e27a3ccd7b6fb69a01": {
    "last": "2026-11-19",
@@ -2394,43 +2358,31 @@
    ]
   },
   "p_c04ed68243689ce22381722a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "3eebbeda-bc83-4630-a35d-9a5f3ae19aa4",
      "tree_id": "can_008",
-     "tree_name": "Grant Crescent Blue Gums",
-     "city": "Canberra",
-     "city_slug": "canberra",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_da7bff2975b2673b6e5ad8d7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e76d23cf-91f2-441d-90f1-177bfa474c52",
      "tree_id": "akl_001",
-     "tree_name": "Old Albert",
-     "city": "Auckland",
-     "city_slug": "auckland",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "ace82d0b-cdb7-4142-8454-22e586cbdb32",
      "tree_id": "akl_001",
-     "tree_name": "Old Albert",
-     "city": "Auckland",
-     "city_slug": "auckland",
-     "display_name": null,
-     "live": "2026-11-19"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
