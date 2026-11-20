@@ -261,6 +261,31 @@
    "agreed": null
   },
   {
+   "id": "lead:094a2107-6343-4ef6-bf83-c771cebc64b3",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Mangaluru",
+   "city": null,
+   "species": null,
+   "photo": "p_d08befbb4870fc0971e550d1/094A2107-6343-4EF6-BF83-C771CEBC64B3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big leaning rain tree with a wooden tree house in its limbs on the public Netravati riverfront promenade, Bolar, river and railway bridge behind, daylight; device location at the tree. Somewhat special, live as mangaluru/mlr_002 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -19668,6 +19693,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:094a2107-6343-4ef6-bf83-c771cebc64b3",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Tree House Rain Tree of the Netravati Promenade",
+   "photo": "p_d08befbb4870fc0971e550d1/094A2107-6343-4EF6-BF83-C771CEBC64B3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a big leaning rain tree with a wooden tree house in its limbs on the Netravati riverfront promenade in Bolar, river and railway bridge behind, daylight, colour. Live as mangaluru/mlr_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

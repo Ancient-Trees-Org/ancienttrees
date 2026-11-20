@@ -8147,6 +8147,39 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "tarragona/tgn_005"
+  },
+  {
+   "sighting_id": "094a2107-6343-4ef6-bf83-c771cebc64b3",
+   "user_id": "p_d08befbb4870fc0971e550d1",
+   "mine": false,
+   "name": "A tree in Mangaluru",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 12.8432661132312,
+   "longitude": 74.8553923996629,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_d08befbb4870fc0971e550d1/094A2107-6343-4EF6-BF83-C771CEBC64B3.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 321,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: the whole tree from the promenade path, a thick leaning trunk opening into long low limbs under a wide lacy crown, a wooden tree house with stairs built among the limbs, the river and a railway bridge behind, overcast daylight, colour. Live as mangaluru/mlr_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "mangaluru/mlr_002"
   }
  ]
 }

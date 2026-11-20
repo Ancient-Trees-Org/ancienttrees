@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: a second rain tree in Mangaluru, with a tree house
+
+- **Live**: mangaluru/mlr_002, The Tree House Rain Tree of the Netravati Promenade, sent through the app by the same reader who gave us the Rain Tree of Bolar (mlr_001) on 11-17. Photograph viewed: a big leaning rain tree with a wooden tree house and stair in its limbs, the river and railway bridge behind. Device fix (pin confirmed), photo filed in November from its own date, access free (the promenade is Mangaluru Smart City's public riverfront, source in verified_sources). Mangaluru now has two trees, so its intro, question texts and FAQ speak of both.
+- **Left for the next run**: lead 3c544597 (Amsterdam, "not sure which tree", sent 11-18). Its photograph is not on this machine, so it was not judged blind. The 33 older waiting leads (September and October, in Nara, Kyoto, Kyushu, Tokyo and Baarn, most of them our own accounts) have no photographs on disk either, so they wait too.
+- No open reports, no feedback without a verdict, no reader words waiting to be quoted.
+
 ## 2026-11-20 session: no shown text says how a pin was obtained ("with a GPS fix" gone)
 
 - **What changed on the site:** 183 sentences in stories, FAQ answers, place texts and recognition lines (English, and 10 in German, Spanish and Japanese) no longer say "with a GPS fix", "the pin is the reader's GPS fix", "a GPS reading of …" (Hidde: "is dit voor de gebruiker of voor jou", then "ja"). They now say where the tree stands; 4 sentences that said nothing else went. Asks to readers say "a photograph from its foot" instead of "a GPS fix". Kept: coordinates a visitor can type in, "Bring a GPS" for Achnacarry's off-path fir, and the honest "our pin is the register's point, not the trunk" warnings. Four place texts that fell under 150 words got a sentence back from their own story. Weeaproinah's "their fix" (a hand-placed pin) now says "the spot they marked".
