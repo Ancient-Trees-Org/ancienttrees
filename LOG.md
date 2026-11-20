@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 night run (19:03 window): Coimbra verify dry, nothing shipped
+
+- Rung 1: one reader photograph of an unmapped tree (3c544597, Amsterdam) is not on disk, so it was not judged blind and stays open. Rung 2: health shows nothing red (one orange web error, knocks 6 of 12). Shelf: the pending list is stale or duplicates; most staged focus cities are walls.
+- Dispatched a verify pass on Coimbra (deepen): the 4 unmined register rows all sit within 80 m of live trees; the botanical garden eucalyptus is still blocked on the UC tomography PDF (302 loop). No trees added, one dated line in the Coimbra leads file, claim released with --force (cbr_007 is a known duplicate), Coimbra a wall for 48h.
+- Cost: ~77k tokens, 0 trees.
+
 ## 2026-11-20 reader judge: Tyler ginkgo gets its photo and pin, the Tyler cedar is gone
 
 - **Live**: a reader's photograph of the Tyler Arboretum Painter Ginkgo (Media, mdp_002), the trunk in full yellow leaf with the fence and lightning cable the recognition line names, is now the page's lead (it had none), filed under November. Its GPS fix became the pin (confirmed), 754 m from our arboretum centroid, so moved by hand past move_pin's 300 m limit; the same reader's hand-moved pin (report 1000101) lands 17 m from it. Pin thank-you sent.
