@@ -13,7 +13,8 @@
 
 - **Live with this deploy, web**: the visitor tile on home and /visitors is the apps' tile now (Hidde: "A, met boomnaam"): the city as a tag on the photograph, the bookmark top right, the tree's name, then the byline with when it was sent ("2h", "3d", "Oct 2026", in each language by the browser). Under a reader's photograph on the tree page and in the opened photograph the line is face, name and "2 hours ago". Privacy and terms say the time shows beside the name. Design and benchmark: CONVENTIONS.md "A heart for a visitor's photograph ... who and when on it"; mockup drafts/design-2026-11-20-photo-heart/overal.html.
 - **FOR HIDDE: paste supabase/photo-authors-time.sql** in the Supabase SQL editor. Until then the tree page shows face and name without the time; the tiles already have it.
-- **Not yet**: the heart (needs his yes on a likes table, new personal data); iPhone and Android tiles and bylines (next).
+- **iPhone and Android, on main for the next builds**: the same tile (tree name under the photo, sent time after the name) on Discover's row and New from visitors, and face, name and time under the hero and in the opened photograph. Seen in the simulator on New from visitors ("Anthony B. · 2h"); Android compiles, not yet looked at on a device. SentAgoTests in ios.yml.
+- **Not yet**: the heart (needs his yes on a likes table, new personal data).
 
 ## 2026-11-20 session: two Android "can't get it" mails answered
 
