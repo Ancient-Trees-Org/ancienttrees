@@ -27,7 +27,7 @@
 // import, so the build-time pieces are interpolated here.
 import { icon } from "./icons";
 import { SPECIES_ICONS } from "./species-icons";
-import { PIN_DISTANCE, FAR_ZOOM, FAR_PIN_DISTANCE, MINI_RADIUS, STACK_ZOOM } from "./map";
+import { PIN_DISTANCE, FAR_ZOOM, FAR_PIN_DISTANCE, MINI_RADIUS, STACK_ZOOM, PIN_SPEC } from "./map";
 
 // The saved corner: the cards' own bookmark, filled. The collected corner: a
 // filled tick. The ticket corner: Phosphor's ticket fill. All three as the
@@ -37,8 +37,32 @@ const PIN_BOOKMARK = icon("bookmark-simple", "fill", "pin-fav-ic");
 const PIN_TICK = icon("check-circle", "fill", "pin-got-ic");
 const PIN_TICKET = icon("ticket", "fill", "pin-ticket-ic");
 
+// THE PIN ITSELF, written from PIN_SPEC (lib/map.ts), the app's numbers, so
+// the drawing has one source on the website and qa holds it to the app's. The
+// corners (.pin-got, .pin-fav, .pin-ticket) stay in style.css. The hover is a
+// deeper shadow only: MapLibre places a marker with an inline transform, so a
+// scale on :hover never applied.
+const S = PIN_SPEC;
+const CHOSEN = Math.round(S.size * S.chosenScale);
+const CHOSEN_GLYPH = Math.round(S.glyph * S.chosenScale);
+const PIN_CSS =
+  `.pin-tree{position:relative;width:${S.size}px;height:${S.size}px;box-sizing:border-box;border-radius:50%;` +
+  `background:${S.fill};border:${S.ringWidth}px solid ${S.ring};box-shadow:0 3px 10px rgba(26,26,20,0.28);` +
+  `cursor:pointer;display:flex;align-items:center;justify-content:center;transition:box-shadow .18s ease}` +
+  `.pin-tree>svg{width:${S.glyph}px;height:${S.glyph}px;color:${S.ring}}` +
+  `.pin-tree:hover{box-shadow:0 5px 16px rgba(26,26,20,0.4)}` +
+  `.pin-tree.active{width:${CHOSEN}px;height:${CHOSEN}px;z-index:5;box-shadow:0 5px 16px rgba(26,26,20,0.4)}` +
+  `.pin-tree.active>svg{width:${CHOSEN_GLYPH}px;height:${CHOSEN_GLYPH}px}`;
+
 export function treePinsJs(): string {
   return `
+(function() {
+  if (document.getElementById('at-pin-css')) { return; }
+  var st = document.createElement('style');
+  st.id = 'at-pin-css';
+  st.textContent = ${JSON.stringify(PIN_CSS)};
+  document.head.appendChild(st);
+})();
 var AT_PIN_ICONS = ${JSON.stringify(SPECIES_ICONS)};
 var AT_PIN_MARKS = ${JSON.stringify({ got: PIN_TICK, fav: PIN_BOOKMARK, paid: PIN_TICKET })};
 // Every map on a page that draws trees, so one save or tick repaints them all.
@@ -70,13 +94,13 @@ function atTreePins(map, o) {
   var mini = ['all', loose, ['==', ['coalesce', ['get', 'mn'], 1], 1]];
   var thin = o.far !== false;
   map.addSource(src, {type: 'geojson', data: EMPTY});
-  // THE DOT: the city pin's .pin-mini, a cream disc in a 2px moss ring, 14px
-  // across, with the pin's soft shadow under it.
-  var dotPaint = {'circle-color': '#F6F2E9', 'circle-radius': 5, 'circle-stroke-width': 2, 'circle-stroke-color': '#4A6B2A'};
-  var shadow = {'circle-color': 'rgba(26,26,20,0.28)', 'circle-radius': 8, 'circle-blur': 0.8, 'circle-translate': [0, 1]};
+  // THE DOT, the app's: a moss disc in a white ring (PIN_SPEC), with the
+  // pin's soft shadow under it.
+  var dotPaint = {'circle-color': '${S.fill}', 'circle-radius': ${S.dotRadius}, 'circle-stroke-width': ${S.dotRing}, 'circle-stroke-color': '${S.ring}'};
+  var shadow = {'circle-color': 'rgba(26,26,20,0.25)', 'circle-radius': ${S.dotRadius + S.dotRing + 2}, 'circle-blur': 0.8, 'circle-translate': [0, 1]};
   var dotsAt = thin ? ${FAR_ZOOM} : 0;
   map.addLayer({id: src + '-mini', type: 'circle', source: src, filter: mini, maxzoom: thin ? ${FAR_ZOOM} : 0,
-    paint: {'circle-color': '#4A6B2A', 'circle-radius': ${MINI_RADIUS}, 'circle-stroke-width': 1, 'circle-stroke-color': '#F6F2E9'}});
+    paint: {'circle-color': '${S.fill}', 'circle-radius': ${MINI_RADIUS}, 'circle-stroke-width': 1, 'circle-stroke-color': '${S.ring}'}});
   map.addLayer({id: src + '-shadow', type: 'circle', source: src, filter: loose, minzoom: dotsAt, paint: shadow});
   map.addLayer({id: src + '-dot', type: 'circle', source: src, filter: loose, minzoom: dotsAt, paint: dotPaint});
   map.addLayer({id: src + '-head-shadow', type: 'circle', source: src, filter: pileHead, minzoom: dotsAt, maxzoom: ${STACK_ZOOM}, paint: shadow});

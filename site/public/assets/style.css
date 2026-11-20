@@ -1649,19 +1649,10 @@ footer { border-top: 1px solid var(--cream-dark); }
 .pin.active { background: var(--ink); transform: scale(1.25); z-index: 5; }
 
 /* Tree pins: a drawn silhouette instead of a number, so the map reads as a
-   place full of trees rather than a numbered list. */
-.pin-tree { position: relative; width: 34px; height: 34px; border-radius: 50%; background: var(--cream);
-  border: 2px solid var(--moss); box-shadow: 0 3px 10px rgba(26,26,20,0.28); cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-  transition: transform 0.18s ease, box-shadow 0.18s ease; }
-.pin-tree svg { width: 21px; height: 21px; color: var(--moss); transition: color 0.18s ease; }
-.pin-tree:hover { transform: scale(1.12); box-shadow: 0 5px 16px rgba(26,26,20,0.34); }
-/* The tapped pin GROWS, as in Apple Maps and the app (2026-10-20). By size,
-   not transform: MapLibre positions a marker with an inline transform, which
-   always beat the scale(1.2) that used to stand here. */
-.pin-tree.active { background: var(--moss); width: 50px; height: 50px; z-index: 5;
-  box-shadow: 0 5px 16px rgba(26,26,20,0.36); }
-.pin-tree.active svg { color: var(--cream); width: 30px; height: 30px; }
+   place full of trees rather than a numbered list. The pin itself (size,
+   colours, ring, the chosen pin's growth) is written by tree-pins-js.ts from
+   PIN_SPEC in lib/map.ts, the app's numbers (Hidde, 2026-11-20: "B, de
+   app-pin"); only the corners live below. */
 /* The collect mark, and nothing else. This used to be .pin-rank and carried the
    tree's number in the list beside the map, which was our ordering rather than
    anything a visitor needed, and it sat on top of the species silhouette that is

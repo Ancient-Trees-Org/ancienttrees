@@ -118,6 +118,26 @@ export function miniPin(id: string, hasPhoto: boolean): boolean {
 export const WORLD_MIN_ZOOM = 1.5;
 export const ONE_WORLD = `renderWorldCopies: false, minZoom: ${WORLD_MIN_ZOOM}`;
 
+/** THE ONE PIN, WEB AND APP (Hidde, 2026-11-20: "B, de app-pin", then
+ *  "maken we hier gelijk ook 1 component van?"). Two codebases cannot share
+ *  one drawing, so they share its numbers: the website draws the pin from
+ *  these (tree-pins-js.ts writes its CSS from them) and qa
+ *  check_every_map_shows_pins_the_same_way() refuses a push where
+ *  TreeMap.swift draws a different one. The app's pin, measured that day: a
+ *  moss disc (UIColor 0.20/0.35/0.20) 34 across in a 3pt white ring, the
+ *  species in white at 20, 1.5 times the size when chosen; a dot is a moss
+ *  disc of radius 4 in a 1.5 white ring. */
+export const PIN_SPEC = {
+  fill: "#335933",
+  ring: "#ffffff",
+  size: 34,
+  ringWidth: 3,
+  glyph: 20,
+  chosenScale: 1.5,
+  dotRadius: 4,
+  dotRing: 1.5,
+} as const;
+
 /** The same-spot stack's bubble (CONVENTIONS.md 2026-10-15), 26px plus ring,
  *  the app's stackPin at 32 points. */
 export const STACK_RADIUS = 13;

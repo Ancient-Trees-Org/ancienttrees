@@ -3612,7 +3612,53 @@ def check_every_map_shows_pins_the_same_way():
                 problems.append("%s is %s on the web and %s in the app" % (web_name, w.group(1), a2.group(1)))
         if "unicodeScalars" in src and "mini" in src.split("unicodeScalars")[0][-200:]:
             problems.append("TreeMap.swift decides the mini pins itself; it reads `mini` from the feed")
+        # And THE PIN ITSELF is one drawing on both (Hidde, 2026-11-20: "B, de
+        # app-pin", "maken we hier gelijk ook 1 component van?"): PIN_SPEC in
+        # lib/map.ts against what TreeMap.swift draws.
+        problems += pin_spec_problems(web, src)
     return problems
+
+
+def pin_spec_problems(web, swift):
+    """PIN_SPEC (lib/map.ts) against TreeMap.swift's pin(colour:...) and dots."""
+    out = []
+    spec = re.search(r"export const PIN_SPEC = \{(.*?)\} as const;", web, re.S)
+    if not spec:
+        return ["lib/map.ts no longer exports PIN_SPEC, the one pin's numbers"]
+    def num(key):
+        m = re.search(r"\b%s:\s*([0-9.]+)" % key, spec.group(1))
+        return float(m.group(1)) if m else None
+    fill = re.search(r'fill:\s*"#([0-9a-fA-F]{6})"', spec.group(1))
+    moss = re.search(r"static let moss = UIColor\(red: ([0-9.]+), green: ([0-9.]+), blue: ([0-9.]+)", swift)
+    if not fill or not moss:
+        out.append("PIN_SPEC.fill or TreeMap.swift's moss is missing")
+    else:
+        app = "".join("%02x" % round(float(v) * 255) for v in moss.groups())
+        if app.lower() != fill.group(1).lower():
+            out.append("the pin is #%s on the web and #%s in the app" % (fill.group(1), app))
+    body = swift.split("private static func pin(colour:", 1)
+    if len(body) < 2:
+        return out + ["TreeMap.swift no longer draws its pin in pin(colour:...)"]
+    body = body[1][:1200]
+    d = re.search(r"let d: CGFloat = ([0-9.]+)", body)
+    lw = re.search(r"ring\.lineWidth = ([0-9.]+)", body)
+    gl = re.search(r"let s: CGFloat = ([0-9.]+)", body)
+    pairs = [("size", float(d.group(1)) - 4 if d else None), ("ringWidth", float(lw.group(1)) if lw else None),
+             ("glyph", float(gl.group(1)) if gl else None)]
+    sc = re.search(r"chosen\.iconScale = NSExpression\(forConstantValue: ([0-9.]+)\)", swift)
+    pairs.append(("chosenScale", float(sc.group(1)) if sc else None))
+    dots = swift.split('identifier: live(dotLayer, on: style)', 1)
+    dots = dots[1][:600] if len(dots) > 1 else ""
+    dr = re.search(r"dots\.circleRadius = NSExpression\(forConstantValue: ([0-9.]+)\)", dots)
+    dw = re.search(r"dots\.circleStrokeWidth = NSExpression\(forConstantValue: ([0-9.]+)\)", dots)
+    pairs += [("dotRadius", float(dr.group(1)) if dr else None), ("dotRing", float(dw.group(1)) if dw else None)]
+    for key, app in pairs:
+        w = num(key)
+        if app is None or w is None:
+            out.append("PIN_SPEC.%s or its TreeMap.swift counterpart is missing" % key)
+        elif abs(app - w) > 0.01:
+            out.append("PIN_SPEC.%s is %g on the web and %g in the app: one pin" % (key, w, app))
+    return out
 
 
 def check_every_map_shows_one_world():
