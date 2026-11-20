@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 night run (second attempt): 2 trees written, both app-only
+
+- Hallstatt deepen: hst_008 Sterzens Abendsitz lindens (Bad Ischl, flagged: alive thin, 2014 count) written; 3 Bad Ischl leads kept. Cofton Hackett yew (cft_001, lone tree page) written from the Birmingham file. Both under APP FIRST, no web page yet.
+- York's two READY leads are not writable (beech has one paywalled source, plane has no source and waits for a photo). Braga has 5 leads, under the pass minimum, walled 48h.
+- Open: taiwan-verified.json a28_001 duplicates alh_002 (fold into a lead); reader photo 3c544597 (Amsterdam) not on disk, verdict left open.
+
 ## 2026-11-20 night run (19:03 window): Coimbra verify dry, nothing shipped
 
 - Rung 1: one reader photograph of an unmapped tree (3c544597, Amsterdam) is not on disk, so it was not judged blind and stays open. Rung 2: health shows nothing red (one orange web error, knocks 6 of 12). Shelf: the pending list is stale or duplicates; most staged focus cities are walls.
