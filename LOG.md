@@ -9,6 +9,14 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Mahakali Vad banyan in Gujarat, and an autumn plane in Lyon
+
+- **Live, a new place**: kantharpura/knt_001, The Mahakali Vad of Kantharpura (Dehgam taluka, Gandhinagar district, Gujarat), sent through the app with the photograph's own location. Photograph viewed: a banyan grown into a fenced grove of grey trunks and hanging roots, broken limbs on the ground. The reader named it; narendramodi.in (2013, about 500 years, Mahakali temple beneath, "Mini Kabirvad") and Gujarat Samachar (2024, broken branches) are its two sources. The reader's 400 to 700 years and half an acre are stated as theirs; their note reads partly like pasted text, so only one short phrase is quoted. Pin confirmed, photo filed in September from its own date. One-tree place: intro, question texts and three FAQ written. city_names.py found no Wikipedia article for Kantharpura.
+- **Photo on a tree of ours**: lyo_022's plane on the Montée Saint-Sébastien got a reader's autumn-leaf shot in its strip (fdead4bd); d66d9ca8 was the same frame sent twice, rejected as a duplicate.
+- **Raced**: the run below judged the same three Stationsplein elm photographs while this one did; its verdicts and Amsterdam file were kept at the rebase, this run's dropped.
+- **Mails**: the congratulation for the banyan ran dry here (no credentials, and the tree is not in the live feed until the deploy); the knock sends it.
+- **Left for the next run**: lead 3c544597 (Amsterdam, "not sure which tree", 11-18) still has no photograph on disk; not judged blind.
+
 ## 2026-11-20 reader judge: the Last Elm of Stationsplein gets its first photographs
 
 - **Live**: two readers photographed Amsterdam's last 1889 elm in front of Centraal today (ams_032), which had no photograph at all. 808db90d leads (the whole bare crown against the station, heart plaque on the trunk); a2b98e69 from a second reader, a wide shot from the quay side, sits in the strip. sightings_publish made the wide shot the lead as `add` does; swapped by hand so the cleaner frame leads, both with `taken_month` 11 from the photographs' own date. The readers' mails went through `--send`.

@@ -364,6 +364,90 @@
    "agreed": null
   },
   {
+   "id": "sight:fdead4bd-c68d-43f0-8e68-ff78adba5748",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Montée Saint-Sébastien",
+   "city": "Lyon",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/fdead4bd-c68d-43f0-8e68-ff78adba5748.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "The Montee Saint-Sebastien plane in autumn leaf, looking up its mottled trunk; in the strip of lyo_022 beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d66d9ca8-8c3f-48f5-8174-8223d27ced91",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Montée Saint-Sébastien",
+   "city": "Lyon",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/d66d9ca8-8c3f-48f5-8174-8223d27ced91.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same frame from the same reader as fdead4bd, sent twice; that one is live on lyo_022.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c4c911de-781d-4234-998d-c5c657a9c223",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Indian Banyan",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_993f7951067197e004db82b1/C4C911DE-781D-4234-998D-C5C657A9C223.jpg",
+   "reader_note": "The ancient banyan tree in\nGandhinagar district of Gujarat (India) -\nknown as “Mahakali Vad” or “Mini Kabirvad”-is believed to be around 400 to 700 years old and ranks among Gujarat's largest banyan trees.\nSpreading across roughly half an acre with a dense network of aerial roots and trunks, it houses a shrine to Goddess Mahakali beneath its canopy and has been developed as a religious and nature tourism destination in the region.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "A banyan spread into a fenced grove of trunks and hanging roots, photo GPS at it; named by the reader and two sources as the Mahakali Vad of Kantharpura, Gandhinagar. Live as kantharpura/knt_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c4c911de-781d-4234-998d-c5c657a9c223",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Mahakali Vad of Kantharpura",
+   "photo": "p_993f7951067197e004db82b1/C4C911DE-781D-4234-998D-C5C657A9C223.jpg",
+   "reader_note": "The ancient banyan tree in\nGandhinagar district of Gujarat (India) -\nknown as “Mahakali Vad” or “Mini Kabirvad”-is believed to be around 400 to 700 years old and ranks among Gujarat's largest banyan trees.\nSpreading across roughly half an acre with a dense network of aerial roots and trunks, it houses a shrine to Goddess Mahakali beneath its canopy and has been developed as a religious and nature tourism destination in the region.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a banyan spread into a fenced grove of grey trunks and hanging roots, broken limbs on the ground, daylight, colour. Live as kantharpura/knt_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

@@ -5650,6 +5650,10 @@
    "outcome": "published",
    "date": "2026-11-20"
   },
+  "c4c911de-781d-4234-998d-c5c657a9c223": {
+   "outcome": "published",
+   "date": "2026-11-20"
+  },
   "808db90d-fc21-4413-a407-fc01effd1aff": {
    "outcome": "published",
    "date": "2026-11-20",
@@ -5677,6 +5681,23 @@
    "lat": 52.3784133333333,
    "lon": 4.89884166666667,
    "pin_checked": "2026-11-20"
+  },
+  "fdead4bd-c68d-43f0-8e68-ff78adba5748": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "lyo_022",
+   "city_slug": "lyon",
+   "file": "lyo_022-the-plane-of-mont-e-saint-s-bastien-fdead4bd.jpg",
+   "reason": "The plane on the Montee Saint-Sebastien in autumn leaf, looking up its mottled trunk by the railing; a season the lead does not show, into the strip. Species seen: plane: flaking mottled bark, maple-like lobed leaves turning brown. Fits the description: the one big tree on the sloping one-way street",
+   "lat": 45.77148,
+   "lon": 4.83583333333333,
+   "pin_checked": "2026-11-20"
+  },
+  "d66d9ca8-8c3f-48f5-8174-8223d27ced91": {
+   "outcome": "rejected",
+   "date": "2026-11-20",
+   "tree_id": "lyo_022",
+   "reason": "duplicate: the same frame from the same reader as fdead4bd, sent twice"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

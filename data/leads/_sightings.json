@@ -8180,6 +8180,39 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "mangaluru/mlr_002"
+  },
+  {
+   "sighting_id": "c4c911de-781d-4234-998d-c5c657a9c223",
+   "user_id": "p_993f7951067197e004db82b1",
+   "mine": false,
+   "name": "Indian Banyan",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": "400-700 Years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The ancient banyan tree in\nGandhinagar district of Gujarat (India) -\nknown as “Mahakali Vad” or “Mini Kabirvad”-is believed to be around 400 to 700 years old and ranks among Gujarat's largest banyan trees.\nSpreading across roughly half an acre with a dense network of aerial roots and trunks, it houses a shrine to Goddess Mahakali beneath its canopy and has been developed as a religious and nature tourism destination in the region.",
+   "latitude": 23.3013033333333,
+   "longitude": 72.837555,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 9,
+   "photo": "p_993f7951067197e004db82b1/C4C911DE-781D-4234-998D-C5C657A9C223.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: a panorama of the whole banyan inside its fence: a low maze of grey limbs and trunks, hanging aerial roots, a ringed concrete planter at the left, fallen and broken limbs lying across the ground, green crown above, clear morning sky, daylight, colour. Live as kantharpura/knt_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "kantharpura/knt_001"
   }
  ]
 }

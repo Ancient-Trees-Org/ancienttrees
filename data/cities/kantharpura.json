@@ -1,0 +1,78 @@
+{
+  "city": "Kantharpura",
+  "country": "India",
+  "status": "needs_curation",
+  "intro": "Kantharpura is a village in Dehgam taluka of Gandhinagar district, in Gujarat. Its banyan, the Mahakali Vad, has spread from one tree into a grove of trunks and hanging roots, with a shrine to the goddess Mahakali beneath it. Gujarat made it a religious tourism site in 2006. A reader sent us its photograph and believes it to be 400 to 700 years old.",
+  "meta_description": "The Mahakali Vad of Kantharpura, Gandhinagar: a banyan grown into a grove over a Mahakali shrine, how old it may be and how to find it.",
+  "hero_tree_id": "knt_001",
+  "oldest_tree_id": "knt_001",
+  "question_meta": "The Mahakali Vad of Kantharpura, Gandhinagar: a banyan grown into a grove over a Mahakali shrine, how old it may be and how to find it.",
+  "question_answer": "The Mahakali Vad, a banyan in Kantharpura village, Dehgam taluka, Gandhinagar district, is said to be about 500 years old; a reader puts it at 400 to 700.",
+  "question_context": "Kantharpura's banyan is known as the Mahakali Vad, after the shrine of the goddess Mahakali that sits under it, and as Mini Kabirvad, after the much larger banyan on an island in the Narmada in Bharuch district. Like every old banyan it has grown outwards: branches drop roots to the ground, the roots thicken into new trunks, and the single tree becomes a grove. A reader who sent us a panorama of it says it now covers roughly half an acre, and the photograph shows a low maze of grey trunks and hanging roots inside a fence, with new crowns rising across it. A 2013 account of a visit by Narendra Modi, then chief minister of Gujarat, calls it about 500 years old, and the reader believes 400 to 700; neither is a measurement, since a banyan keeps no single trunk whose rings could be counted. Gujarat declared the site a place of religious tourism in 2006. In 2024 the Gujarat Samachar reported that its development had stalled and that several branches had broken, and broken limbs lie on the ground in the reader's picture.",
+  "faq": [
+    {
+      "q": "Can I visit the Mahakali Vad?",
+      "a": "Yes. It is a temple and religious tourism site in Kantharpura village. The tree is fenced, so you walk round it on the paths rather than among the trunks."
+    },
+    {
+      "q": "How old is the Mahakali Vad?",
+      "a": "A 2013 account calls it about 500 years old, and a reader puts it at 400 to 700. Neither is a measurement; banyans are hard to date."
+    },
+    {
+      "q": "Why is it called Mini Kabirvad?",
+      "a": "Kabirvad is Gujarat's famous giant banyan on an island in the Narmada. Kantharpura's tree, also a banyan grown into a grove, borrows the name."
+    }
+  ],
+  "trees": [
+    {
+      "id": "knt_001",
+      "name": "The Mahakali Vad of Kantharpura",
+      "species": "Indian Banyan (Ficus benghalensis)",
+      "age_estimate": "about 500 years by one account; 400 to 700 by a reader's estimate",
+      "age_min": 400,
+      "age_max": 700,
+      "age_basis": "source",
+      "location": {
+        "address": "Mahakali Vad, Kantharpura, Dehgam taluka, Gandhinagar district, Gujarat",
+        "latitude": 23.3013033333333,
+        "longitude": 72.837555,
+        "neighbourhood": "Kantharpura"
+      },
+      "story": "\"Among Gujarat's largest banyan trees,\" wrote the reader who sent us this tree from Kantharpura, a village in Dehgam taluka of Gandhinagar district. People here call it Mahakali Vad, after the shrine of the goddess Mahakali that sits beneath it, and also Mini Kabirvad, after the famous banyan on an island in the Narmada.\n\nA banyan grows sideways as much as up. Its branches drop roots that reach the soil, thicken and become new trunks, so one tree slowly turns into a grove. The reader's panorama shows it happening, a low tangle of grey limbs and trunks running off to both edges of the frame, curtains of hanging roots, and new crowns rising all over it. The reader says it spreads across roughly half an acre. Some limbs have broken and lie across the ground, as the Gujarat Samachar reported in 2024.\n\nThe reader believes it to be 400 to 700 years old; a 2013 account of a visit by Narendra Modi, then chief minister, calls it about 500. Neither is a measurement, and banyans keep no single trunk to count. Gujarat declared the site a place of religious tourism in 2006.\n\nWalk the fence line slowly and count how many trunks you think are one tree.",
+      "how_to_recognise": "A single banyan spread into a fenced grove of grey trunks and hanging roots, the shrine of Mahakali beneath it, some old limbs lying broken on the ground.",
+      "verified_sources": [
+        "https://www.narendramodi.in/shri-narendra-modi-visits-500-year-old-auspicious-banyan-tree-mahakali-vad-at-kantharpura (2013: the Mahakali Vad banyan at Kantharpura, about 500 years old, a Mahakali temple under it, also called Mini Kabirvad)",
+        "https://english.gujaratsamachar.com/news/gujarat/kantharpura-mahakali-vad-gujarats-religious-heritage-under-sheer-neglect (Gujarat Samachar, 2024: the Kantharpura Mahakali Vad in Dehgam, Gandhinagar; development stalled, several branches broken)"
+      ],
+      "access": "A temple and religious tourism site in the village, open to visitors; the tree itself is fenced and seen from the paths around it.",
+      "found_by_reader": {
+        "sighting_id": "c4c911de-781d-4234-998d-c5c657a9c223",
+        "date": "2026-11-20"
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c4c911de-781d-4234-998d-c5c657a9c223",
+        "moved_m": 0,
+        "date": "2026-11-20",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "verify_notes": "2026-11-20 reader judge: sent by a reader through the app with the photograph's own location (sighting c4c911de-781d-4234-998d-c5c657a9c223), name 'Indian Banyan', age '400-700 Years', note naming it Mahakali Vad or Mini Kabirvad, about half an acre, a Mahakali shrine beneath. Photograph viewed: a panorama of the whole banyan inside its fence: a low maze of grey limbs and trunks, hanging aerial roots, a ringed concrete planter at the left, fallen and broken limbs lying across the ground, green crown above, clear morning sky, daylight, colour. corroborate: no register entry within 100 m. Identified by name as the Mahakali Vad of Kantharpura (narendramodi.in 2013, about 500 years; Gujarat Samachar 2024, broken branches, which the photograph also shows). The reader's note reads partly like text from elsewhere, so its figures are stated as theirs and only one short phrase is quoted. Published under the closed list for a reader's tree (Hidde, 2026-11-17). India is out of focus for our own research only, never for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/knt_001-mahakali-vad-kantharpura.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 614,
+        "source": "contributor",
+        "contributor_user_id": "p_993f7951067197e004db82b1",
+        "sighting_id": "c4c911de-781d-4234-998d-c5c657a9c223",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: a panorama of the whole banyan inside its fence: a low maze of grey limbs and trunks, hanging aerial roots, a ringed concrete planter at the left, fallen and broken limbs lying across the ground, green crown above, clear morning sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

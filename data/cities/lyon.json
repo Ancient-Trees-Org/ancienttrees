@@ -824,7 +824,7 @@
       "story": "On the Pentes of the Croix-Rousse, one plane on the Montée Saint-Sébastien outweighs every tree around it. Surveyors for the Métropole measured it in July 2023 at 368 centimetres round and 28 metres tall. Nothing else within 55 metres reaches even 200 centimetres.\n\nIts crown spreads 26 metres, almost as wide as the tree is tall, which on a narrow hillside street means it covers far more ground than its footprint. Two adults with arms spread would come up just short of ringing the trunk.\n\nThe Montée Saint-Sébastien became one-way and pedestrian-priority in 2021, so the tree now stands on a street built more for walking than for cars. At the foot of the slope, the Jardin Croix-Paquet fills the ground between the montée and rue Alsace-Lorraine, and the metro stop of the same name is a few minutes' walk away.\n\nThat is about all the record says. No story attaches to it, the city's inventory carries no planting year for it at all, and nobody has dated it. If you know how long it has stood on this slope, tell us.",
       "how_to_recognise": "You can recognise it as the only big tree on this stretch, a plane 3.68 metres round and 28 metres tall with a crown 26 metres wide. It stands on Montée Saint-Sébastien, uphill from the Jardin Croix-Paquet.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/lyo_022-the-plane-of-mont-e-saint-s-bastien.jpg",
+        "url": "https://ancienttrees.app/photos/lyo_022-the-plane-of-mont-e-saint-s-bastien-fdead4bd.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -833,9 +833,24 @@
         "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_632f911006e6a6d1beaf2da5",
-        "sighting_id": "09fefb21-1b03-4d64-ab0e-e0a8a0555821",
-        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: A big plane trunk forking into two main stems on a sloping street with railings and steps, taken 3 m from our pin; the only big tree on that stretch, as the recognition line says. Autumn leaf. Species seen: mottled, flaking grey-green and cream bark, palmate lobed leaves, spiky seed balls hanging in the crown. Fits the description: a large plane on a steep hillside street with a stair railing and a low wall, standing alone over the road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "sighting_id": "fdead4bd-c68d-43f0-8e68-ff78adba5748",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: The plane on the Montee Saint-Sebastien in autumn leaf, looking up its mottled trunk by the railing; a season the lead does not show, into the strip. Species seen: plane: flaking mottled bark, maple-like lobed leaves turning brown. Fits the description: the one big tree on the sloping one-way street, railing at its foot, wall and houses behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lyo_022-the-plane-of-mont-e-saint-s-bastien.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_632f911006e6a6d1beaf2da5",
+          "sighting_id": "09fefb21-1b03-4d64-ab0e-e0a8a0555821",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: A big plane trunk forking into two main stems on a sloping street with railings and steps, taken 3 m from our pin; the only big tree on that stretch, as the recognition line says. Autumn leaf. Species seen: mottled, flaking grey-green and cream bark, palmate lobed leaves, spiky seed balls hanging in the crown. Fits the description: a large plane on a steep hillside street with a stair railing and a low wall, standing alone over the road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "lyo_023",

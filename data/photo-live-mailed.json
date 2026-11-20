@@ -2294,6 +2294,15 @@
      "city_slug": "lyon",
      "display_name": null,
      "live": "2026-11-20"
+    },
+    {
+     "sighting_id": "fdead4bd-c68d-43f0-8e68-ff78adba5748",
+     "tree_id": "lyo_022",
+     "tree_name": "The Plane of Montée Saint-Sébastien",
+     "city": "Lyon",
+     "city_slug": "lyon",
+     "display_name": null,
+     "live": "2026-11-20"
     }
    ],
    "sent": [
