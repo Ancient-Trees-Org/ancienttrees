@@ -1426,22 +1426,25 @@ def check_a_given_photo_records_the_yes():
 
 
 def check_a_reader_photo_is_filed_by_season():
-    """A reader's photograph outside the tropics carries `taken_month`, or a
-    `taken_month_basis` saying it shows no season.
+    """A month we know never stays off the photograph: when a reader's lead
+    carries `taken_month` (the photo's own date, from the app or the tip
+    form), the published photograph carries it too.
 
     Hidde, 2026-11-19, a chestnut in copper leaf and cherries in full blossom,
-    each with an empty Seasons row on its page: "waarom staat er geen foto in
-    autumn?", "and here it misses in spring", "kunnen we dit gat dichten?".
-    The reader judge writes photo blocks by hand and left the month out of
-    169. The tree page files a photo under a season only by its month
-    (TreeDetail.astro, seasons.ts). Rule in BRIEF_READER_JUDGE.md; photos
-    that could not be settled are in data/season-baseline.json. Removing this
-    check needs Hidde."""
+    each with an empty Seasons row: "waarom staat er geen foto in autumn?";
+    the reader judge writes photo blocks by hand and left the month out.
+    Narrowed 2026-11-20 (Hidde: "het mag zonder maar als de info er is moeten
+    we het opslaan"): a photo with no known date is fine as it is; only a
+    month that was there and got lost fails. The tree page files a photo
+    under a season by this month (TreeDetail.astro, seasons.ts). Removing
+    this check needs Hidde."""
     root = Path(__file__).resolve().parent.parent
     try:
-        base = set(json.loads((root / "data" / "season-baseline.json").read_text(encoding="utf-8"))["urls"])
+        leads = json.loads((root / "data" / "leads" / "_sightings.json").read_text(encoding="utf-8"))["leads"]
     except (OSError, ValueError, KeyError):
-        base = set()
+        return []
+    known = {str(l.get("sighting_id") or "").lower(): l.get("taken_month")
+             for l in leads if isinstance(l.get("taken_month"), int)}
     out = []
     for p in sorted((root / "data" / "cities").glob("*.json")):
         try:
@@ -1449,18 +1452,15 @@ def check_a_reader_photo_is_filed_by_season():
         except ValueError:
             continue
         for t in trees:
-            lat = ((t.get("location") or {}).get("latitude"))
-            if lat is None or abs(lat) < 25:
-                continue
             for ph in [t.get("photo") or {}] + (t.get("photos") or []):
-                if ph.get("source") != "contributor" or not ph.get("url") or ph["url"] in base:
+                if ph.get("source") != "contributor" or not ph.get("url") or ph.get("taken_month"):
                     continue
-                if ph.get("taken_month") or (ph.get("taken_month_basis") or "").strip():
-                    continue
-                out.append("%s/%s: a reader's photograph has no `taken_month`, so its "
-                           "Seasons row stays empty; file it by what it shows, or say "
-                           "in `taken_month_basis` that it shows no season "
-                           "(BRIEF_READER_JUDGE.md, Hidde 2026-11-19)" % (p.stem, t.get("id")))
+                m = known.get(str(ph.get("sighting_id") or "").lower())
+                if m:
+                    out.append("%s/%s: the reader's photograph was taken in month %d (its lead "
+                               "says so) but the photo carries no `taken_month`, so its Seasons "
+                               "row stays empty; copy it over (BRIEF_READER_JUDGE.md, Hidde "
+                               "2026-11-20)" % (p.stem, t.get("id"), m))
     return out
 
 
