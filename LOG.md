@@ -8,6 +8,10 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 session: the bookmark on visitor tiles, home row and app too
+
+Live on the web: the home page's New from visitors row carries the same card bookmark as /visitors (one shared builder, `visitorSaveFn` in lib/visitors-page-js.ts). App, on main for the next build: SaveHeart `.onPhoto` over every visitor tile on Discover's row and on the See all page; built and looked at in the simulator (commit d5213f19d). Not yet on Android (VisitorPhotos and the Discover row there need the same before Android's next release). Discover's "At their best now" tiles still carry no bookmark; that is a separate call.
+
 ## 2026-11-20 reader judge: nothing new to put live
 
 - No product change this run. No reader photograph waits in the queue, no report is open, no tip is unjudged, no reader note waits to be quoted.
