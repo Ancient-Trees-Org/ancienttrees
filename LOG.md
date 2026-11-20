@@ -8,6 +8,11 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 session: a hard typo of a big mail provider is refused at sign-up
+
+- **Live in the hook since 09:11 UTC (send-email v10, Hidde: "ok doe")**: a sign-in or sign-up link to a misspelt Gmail, Outlook, Hotmail, Live, Yahoo or iCloud domain is refused even when that domain has a mail server: the provider's name misspelt (hoymail, tahoo, gmial) or ".com" mistyped (outlook.co, gmail.con). The screens already show "That address can't receive mail." with the right spelling. A different country ending (yahoo.dk, live.ie, outlook.be) stays a warning only: the first version of the rule would have blocked two real readers on yahoo.dk and live.ie, so it was narrowed before deploying. Checked against all 882 accounts: refuses the three that never got in (hoymail.com, outlook.co, tahoo.com) and nobody who did. Tested live: an unsigned call refused (401); a sign-in link to apptest@ arrived through v10. Not tested live: the refusal itself (it needs a new account on a typo domain); the rule was run in a Python copy over the probes and accounts (out/tmp/typo_rule_check.py).
+- **Status of the Guardian-day sign-ins** (the digest's "31 people" is yesterday's line): 29 email sign-ups from 15 to 18 November are still not in, about 5 of them dead or mistyped addresses. Everyone has had their second mail; the watcher sends no more. The Yahoo apology for Monday stays as logged on 11-17.
+
 ## 2026-11-20 session: the bookmark on visitor tiles, home row and app too
 
 Live on the web: the home page's New from visitors row carries the same card bookmark as /visitors (one shared builder, `visitorSaveFn` in lib/visitors-page-js.ts). App, on main for the next build: SaveHeart `.onPhoto` over every visitor tile on Discover's row and on the See all page; built and looked at in the simulator (commit d5213f19d). Not yet on Android (VisitorPhotos and the Discover row there need the same before Android's next release). Discover's "At their best now" tiles still carry no bookmark; that is a separate call.

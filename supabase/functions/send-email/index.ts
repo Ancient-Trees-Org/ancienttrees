@@ -119,12 +119,34 @@ async function has(dom: string, type: "MX" | "A" | "AAAA"): Promise<"yes" | "no"
   return await Promise.race([look, timeout]);
 }
 
+// A HARD TYPO OF A BIG PROVIDER IS REFUSED EVEN WHEN ITS DOMAIN TAKES MAIL
+// (Hidde, 2026-11-20, "ok doe"): outlook.co has a mail server (Microsoft's),
+// so the lookup above let it through and the welcome bounced; the reader
+// never got in. Refused: the provider's name misspelt (hoymail, tahoo, gmial)
+// or ".com" itself mistyped (outlook.co, gmail.con), for Gmail, Outlook,
+// Hotmail, Live, Yahoo and iCloud only. A different country ending (yahoo.dk,
+// live.ie, outlook.be) is a real domain and only gets the field's warning.
+// Checked against all 882 accounts that day: it would have refused the three
+// that never got in (hoymail.com, outlook.co, tahoo.com) and nobody who did.
+const BIG = /^(gmail\.com|googlemail\.com|outlook\.|hotmail\.|live\.|yahoo\.|ymail\.com|icloud\.com)/;
+export function hardTypo(dom: string): string | null {
+  const fix = typoOf(dom);
+  if (!fix || !BIG.test(fix)) return null;
+  const [n1, t1] = [dom.slice(0, dom.indexOf(".")), dom.slice(dom.indexOf(".") + 1)];
+  const [n2, t2] = [fix.slice(0, fix.indexOf(".")), fix.slice(fix.indexOf(".") + 1)];
+  if (n1 !== n2) return fix;
+  if (t2 === "com" && dist(t1, "com") <= 1) return fix;
+  return null;
+}
+
 // null when the address may receive mail, else the corrected address or "".
 export async function undeliverable(addr: string): Promise<string | null> {
   const at = addr.lastIndexOf("@");
   if (at < 1) return null;
   const dom = addr.slice(at + 1).trim().toLowerCase();
   if (!dom || DOMAINS.includes(dom)) return null;
+  const hard = hardTypo(dom);
+  if (hard) return addr.slice(0, at).trim() + "@" + hard;
   if ((await has(dom, "MX")) !== "no") return null;
   const fix = typoOf(dom);
   if (fix) return addr.slice(0, at).trim() + "@" + fix;
