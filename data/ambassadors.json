@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-20T09:34Z",
+  "synced": "2026-11-20T18:15Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -266,21 +266,21 @@
       "profile_public": true
     },
     {
+      "user_id": "01777e9c-5a6f-45bf-b2c0-c9a394ba2cc4",
+      "place_slug": "la-tene",
+      "place_name": "La Tène",
+      "public": true,
+      "since": "2026-11-20",
+      "display_name": "Green Fig 1965",
+      "profile_public": true
+    },
+    {
       "user_id": "ecd4a9d5-a6e9-4eed-90dc-9d49a89a55fd",
       "place_slug": "stratford-upon-avon",
       "place_name": "Stratford-upon-Avon",
       "public": true,
       "since": "2026-11-20",
       "display_name": "Kathryn T",
-      "profile_public": true
-    },
-    {
-      "user_id": "01777e9c-5a6f-45bf-b2c0-c9a394ba2cc4",
-      "place_slug": "la-tene",
-      "place_name": "Laténa",
-      "public": true,
-      "since": "2026-11-20",
-      "display_name": "Green Fig 1965",
       "profile_public": true
     },
     {
