@@ -5807,6 +5807,43 @@
    "lat": 39.87458,
    "lon": -75.5718,
    "pin_checked": "2026-11-20"
+  },
+  "f871f444-7053-4566-bc71-c225c095152f": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "bri_024"
+  },
+  "6991cd88-4db1-41ec-8a39-2b58e7e1d093": {
+   "outcome": "held",
+   "date": "2026-11-20"
+  },
+  "bd71c73b-e90b-4f73-80b5-881761c55479": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "bri_025"
+  },
+  "995a659b-6ca9-45f1-9873-2a9d8caa9d30": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "ott_022"
+  },
+  "87930ec6-49a8-4d09-b1aa-233e645888c9": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "mel_021",
+   "reason": "Sent for the Moreton Bay fig mel_005, but the tree in frame is a broadleaf with deeply furrowed, ridged bark, small rounded toothed leaves and no buttress roots: an elm by the look of it, not a fig. A big old trunk at the Rathdowne Street fence of Curtain Square, 15 m from our pin."
+  },
+  "e6688149-4c24-4b27-b5d4-41c7fe1ebb4a": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "mel_021",
+   "reason": "Same trunk as 87930ec6 from a second reader, a person at its foot for scale: furrowed bark, small rounded toothed leaves, no buttress roots. Not a Moreton Bay fig."
+  },
+  "3f396716-2499-4084-8bc0-84c39d527979": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "mel_021",
+   "reason": "Same trunk again, the whole tree from the lawn: furrowed bark, elm-like leaves, no buttress roots. Not a Moreton Bay fig."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

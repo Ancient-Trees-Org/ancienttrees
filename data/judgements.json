@@ -780,6 +780,259 @@
    "agreed": null
   },
   {
+   "id": "sight:87930ec6-49a8-4d09-b1aa-233e645888c9",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "city": "Melbourne",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/87930ec6-49a8-4d09-b1aa-233e645888c9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 15,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: sent for the Moreton Bay fig mel_005 but shows a furrowed-barked elm with small toothed leaves and no buttress roots, so another tree; now in the photo strip of mel_021, The Furrowed Giant of Curtain Square.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e6688149-4c24-4b27-b5d4-41c7fe1ebb4a",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "city": "Melbourne",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/e6688149-4c24-4b27-b5d4-41c7fe1ebb4a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the same elm trunk as 3f396716 with a visitor at its foot for scale, not the fig it was sent for; in the photo strip of mel_021.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3f396716-2499-4084-8bc0-84c39d527979",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "city": "Melbourne",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/3f396716-2499-4084-8bc0-84c39d527979.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole elm from the lawn, not the fig it was sent for; the lead photograph of the new reader's tree mel_021, The Furrowed Giant of Curtain Square.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f871f444-7053-4566-bc71-c225c095152f",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Oak in Bristol",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_baa455d3bbb4cc97a884e051/F871F444-7053-4566-BC71-C225C095152F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a veteran oak on the open slope of Stoke Park, its trunk split and hollowed, one bare dead limb, bronze autumn crown; GPS from the photograph. Live as bristol/bri_024.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6991cd88-4db1-41ec-8a39-2b58e7e1d093",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_22b447885d2430afa39e062f/6991CD88-4DB1-41EC-8A39-2B58E7E1D093.jpg",
+   "reader_note": "Autumn has arrived. The variety of colours on a single tree is spectacular.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a slender young sweetgum in autumn colour in a park in Caceres, one of a group of similar trees; nothing sets it apart in size, age or story.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bd71c73b-e90b-4f73-80b5-881761c55479",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Oak in Bristol",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_baa455d3bbb4cc97a884e051/BD71C73B-E90B-4F73-80B5-881761C55479.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall stag-headed oak in woodland in north-east Bristol, twisting limbs and dead spires over an autumn crown; GPS from the photograph. Live as bristol/bri_025, access stated as unconfirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:995a659b-6ca9-45f1-9873-2a9d8caa9d30",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Crack Willow in Ottawa",
+   "city": null,
+   "species": "Crack Willow",
+   "photo": "p_baa455d3bbb4cc97a884e051/995A659B-6CA9-45F1-9873-2A9D8CAA9D30.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Crack Willow"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a willow with a short, hugely swollen burred trunk and a wide crown on the lawn by the Rideau Canal; GPS from the photograph, 107 m from the nearest NCC register willow. Live as ottawa/ott_022, species as the genus (reader says crack willow).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1333",
+   "seen": "2026-11-20",
+   "kind": "a tip without a photograph",
+   "tree": "500CB567-07C5-4D7D-8345-D57BFDE0A7CE",
+   "city": "Bristol",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "The same Bristol oak as sighting f871f444 (row 1334, same photo coordinates), sent twice; live as bristol/bri_024.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:87930ec6-49a8-4d09-b1aa-233e645888c9",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_e2c999cdc7d88128b77253b8/87930EC6-49A8-4D09-B1AA-233E645888C9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Same trunk as 3f396716 from a second reader; in the photo strip of mel_021.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e6688149-4c24-4b27-b5d4-41c7fe1ebb4a",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_222183a8bfd1e5262ec0f187/E6688149-4C24-4B27-B5D4-41C7FE1EBB4A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Same trunk as 3f396716; in the photo strip of mel_021.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:3f396716-2499-4084-8bc0-84c39d527979",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Melbourne",
+   "species": null,
+   "photo": "p_222183a8bfd1e5262ec0f187/3F396716-2499-4084-8BC0-84C39D527979.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "A big, deeply furrowed elm in Curtain Square, Carlton North, three photographs from two readers; live as melbourne/mel_021, pin approximate (app location, not marked as a fix).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -20187,6 +20440,72 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f871f444-7053-4566-bc71-c225c095152f",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Split Oak on the Stoke Park Slope",
+   "city": "Bristol",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/f871f444-7053-4566-bc71-c225c095152f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the split veteran oak on the open Stoke Park slope, bronze autumn crown, one bare dead limb; the lead photograph of bristol/bri_024, the tree this reader made.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bd71c73b-e90b-4f73-80b5-881761c55479",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Antlered Oak",
+   "city": "Bristol",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/bd71c73b-e90b-4f73-80b5-881761c55479.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: looking up the stag-headed oak in woodland in north-east Bristol; the lead photograph of bristol/bri_025, the tree this reader made.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:995a659b-6ca9-45f1-9873-2a9d8caa9d30",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Thick-trunked Willow of the Rideau Canal",
+   "city": "Ottawa",
+   "species": "Willow (Salix sp.)",
+   "photo": "out/sightings/995a659b-6ca9-45f1-9873-2a9d8caa9d30.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Willow (Salix sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the thick-trunked willow on the canal lawn, bright daylight; the lead photograph of ottawa/ott_022, the tree this reader made.",
    "hidde": null,
    "agreed": null
   }

@@ -2,7 +2,7 @@
   "city": "Melbourne",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "Dutch elm disease never reached Australia, so Melbourne still has elms of a size and age Europe lost, and one of them anchors this page. Twenty trees, two walks, three botanic garden finds. Eight stand within about 1.7 kilometres of each other in the small parks of Carlton North, Fitzroy North and Clifton Hill, three kilometres north of the CBD. The other nine run from Burnley Gardens, a free university botanic garden on the Yarra, out along Yarra Boulevard and on to Madden Grove: eucalypts, a hoop pine, a peppercorn tree and the oldest dated tree in the city.",
+  "intro": "Dutch elm disease never reached Australia, so Melbourne still has elms of a size and age Europe lost, and one of them anchors this page. Twenty-one trees, two walks, three botanic garden finds. Nine stand within about 1.7 kilometres of each other in the small parks of Carlton North, Fitzroy North and Clifton Hill, three kilometres north of the CBD. The other nine run from Burnley Gardens, a free university botanic garden on the Yarra, out along Yarra Boulevard and on to Madden Grove: eucalypts, a hoop pine, a peppercorn tree and the oldest dated tree in the city.",
   "meta_description": "Melbourne's old trees stand in the parks north of the CBD and in Burnley Gardens: a 135-year-old English elm, a fig on a filled quarry, three red gums.",
   "question_meta": "Melbourne's oldest dated tree is an Osage orange on Yarra Boulevard, dated to the 1860s. Where it stands, and nineteen more of the city's trees.",
   "question_answer": "The oldest tree in Melbourne that anyone has put a date on is the Osage Orange of Yarra Boulevard, in Yarra Bend Park at Burnley, dated to the 1860s and so around 160 years old. The Victorian Heritage Database's citation for the Boulevard Parklands records an Osage orange north-east of the point where Yarra Boulevard meets Swan Street and puts it in that decade; the City of Yarra's significant tree register lists one at the same spot, 27 metres tall and 169 centimetres of diameter at breast height, roughly 5.31 metres round. That is a claim about the best-dated tree rather than the oldest thing growing in the city: most of the trees on this page carry only the register's band of over a hundred years, with no year attached at all, and a 2015 account of Burnley Gardens describes a river red gum there believed to exceed 400 years without tying the claim to a particular trunk.",
@@ -18,7 +18,7 @@
     },
     {
       "q": "Can I see them all in one walk?",
-      "a": "Not all twenty, but the trees split into two walks, eight trees and nine, and three more stand in the Royal Botanic Gardens. Curtain Square, Edinburgh Gardens and Darling Gardens run in a line through Carlton North, Fitzroy North and Clifton Hill, about 1.7 kilometres end to end and roughly three kilometres from the CBD. The second walk starts in Burnley Gardens, where four of the trees stand within a few hundred metres of each other, follows Yarra Boulevard out to the Osage orange and the river red gum in Yarra Bend Park, and continues on to the peppercorn and the lemon-scented gum in Madden Grove, Richmond, about 1.5 kilometres further."
+      "a": "Not all twenty-one, but the trees split into two walks of nine trees each, and three more stand in the Royal Botanic Gardens. Curtain Square, Edinburgh Gardens and Darling Gardens run in a line through Carlton North, Fitzroy North and Clifton Hill, about 1.7 kilometres end to end and roughly three kilometres from the CBD. The second walk starts in Burnley Gardens, where four of the trees stand within a few hundred metres of each other, follows Yarra Boulevard out to the Osage orange and the river red gum in Yarra Bend Park, and continues on to the peppercorn and the lemon-scented gum in Madden Grove, Richmond, about 1.5 kilometres further."
     },
     {
       "q": "Which has the thickest trunk?",
@@ -41,7 +41,7 @@
         "longitude": 144.9723914723,
         "neighbourhood": "Carlton North"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "access": "Free, always open. Public City of Yarra park (also used as an off-leash dog area).",
       "transport": "Curtain Square/Rathdowne St bus stop is directly outside; tram route 96 on Nicholson Street is roughly a 5-10 minute walk.",
       "story": "This park was a hole in the ground, and prisoners dug it. Between 1853 and 1866 the block was a bluestone quarry worked by men from the Collingwood Stockade, and bluestone is the rock Melbourne's kerbs and laneways are still made of. The pit was filled, levelled and planted, and Curtain Square became a square. This fig went in somewhere after that. It is a Moreton Bay fig, Ficus macrophylla, an Australian tree but not a Melbourne one: its home range runs up the east coast around Moreton Bay in Queensland, roughly 1,400 kilometres north, and Victorian gardeners planted it down here anyway for the shade and the ropey buttress roots. It stands 25 metres tall with a trunk of about 4.77 metres round, converted from the 152 centimetres of diameter at breast height the City of Yarra's register publishes, because the register measures across the trunk rather than around it. Local accounts describe a surviving avenue of Moreton Bay figs at the Canning Street entrance, which is where this tree stands. Whether this particular trunk belongs to that avenue is not something anyone has written down. Its age is the register's own band, over a hundred years at the survey in August 2012, and there is no planting date on record. If you know one, tell us.",
@@ -62,7 +62,8 @@
         "url": null
       },
       "girth_cm": 478,
-      "height_m": 25
+      "height_m": 25,
+      "verify_notes": "2026-11-20 reader judge: three photographs from two readers, sent for this fig from within 15 m of our pin (the City of Yarra register's coordinate), all show a furrowed-barked elm, now mel_021. The fig stands somewhere in Curtain Square but the register's point is not at it: pin set approximate until a photograph of the fig itself places it."
     },
     {
       "id": "mel_006",
@@ -856,6 +857,74 @@
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole tree from the lawn, a short thick trunk branching into knuckled limbs that each carry a tuft of fresh leaves, its garden label at the foot, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
+    },
+    {
+      "id": "mel_021",
+      "name": "The Furrowed Giant of Curtain Square",
+      "species": "Elm (Ulmus sp.)",
+      "location": {
+        "address": "Curtain Square, Carlton North VIC 3054",
+        "neighbourhood": "Carlton North",
+        "latitude": -37.7895985308372,
+        "longitude": 144.972401299072
+      },
+      "how_to_recognise": "By the square's fence: a broad single trunk of dark bark furrowed into long ridges, a bush at its foot, and a tall crown of small, rounded, toothed leaves. No buttress roots; that is how you tell it from a fig.",
+      "access": "Free, always open. Public City of Yarra park.",
+      "story": "Two readers walked up to this tree in Curtain Square, Carlton North, on the same November day and photographed it, each believing it was the square's Moreton Bay fig. It is not a fig, and it is worth the walk on its own.\n\nIts bark is dark and furrowed into long, deep ridges, its leaves are small, rounded and toothed, and there are none of the ropey buttress roots a big fig spreads around itself. By the look of it this is an elm. One of the readers stood at its foot to give it scale, and the trunk is far too broad for anyone's arms. Above, it climbs as a single column before breaking into heavy limbs that carry a tall, dense crown over the lawn and the fence.\n\nThe ground it stands on has a past. Between 1853 and 1866 this block was a bluestone quarry worked by men from the Collingwood Stockade, and only after the pit was filled and levelled did Curtain Square become a park and get its trees.\n\nWe would like to know for certain what this tree is, how big it is and when it was planted. If you know, tell us here.\n\nStand back on the lawn to see the whole crown, then walk in to the trunk.",
+      "verified_sources": [
+        "The City of Yarra Significant Trees register (data/registers/melbourne-yarra-significant-trees.json) and the Curtain Square quarry history on mel_005 for the park's past; the tree itself is known from three readers' photographs, 2026-11-20."
+      ],
+      "found_by_reader": {
+        "sighting_id": "3f396716-2499-4084-8bc0-84c39d527979",
+        "date": "2026-11-20"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's app location",
+        "sighting_id": "3f396716-2499-4084-8bc0-84c39d527979",
+        "date": "2026-11-20",
+        "note": "Two readers' app locations for this trunk agree within 9 m; neither is marked as a fix from the phone, so the pin stays approximate."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 reader judge: sent by a reader through the app (3f396716-2499-4084-8bc0-84c39d527979). Photograph viewed: the whole tree from the lawn, a single deeply furrowed trunk under a tall dense crown of small rounded toothed leaves, the square's fence and parked cars behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mel_021-furrowed-giant-of-curtain-square.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+        "sighting_id": "3f396716-2499-4084-8bc0-84c39d527979",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved on 2026-11-20: the whole tree from the lawn, a single deeply furrowed trunk under a tall dense crown of small rounded toothed leaves, the square's fence and parked cars behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mel_021-furrowed-giant-of-curtain-square-b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+          "sighting_id": "e6688149-4c24-4b27-b5d4-41c7fe1ebb4a",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved on 2026-11-20: the same trunk from closer in, a visitor at its foot for scale, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mel_021-furrowed-giant-of-curtain-square-c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e2c999cdc7d88128b77253b8",
+          "sighting_id": "87930ec6-49a8-4d09-b1aa-233e645888c9",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved on 2026-11-20: the same trunk and crown from a second reader, a little to the left, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

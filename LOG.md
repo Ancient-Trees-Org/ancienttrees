@@ -9,6 +9,15 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: two Bristol oaks, a canal willow in Ottawa, and the Curtain Square "fig" that is an elm
+
+- **Live, readers' trees**: bri_024 The Split Oak on the Stoke Park Slope and bri_025 The Antlered Oak (Bristol, now 25 trees), ott_022 The Thick-trunked Willow of the Rideau Canal (Ottawa, now 22), all with the photograph's own GPS (confirmed) and month (10, 11, 9). bri_025's access line says we have not confirmed who owns the wood. The willow is `Willow (Salix sp.)`; the reader's "crack willow" is in the story as theirs. Tip 1333 was the same Stoke Park oak sent twice. Place counts updated (Bristol intro and meta, Ottawa meta, context, FAQ).
+- **mel_021 The Furrowed Giant of Curtain Square** (Melbourne, now 21): three photographs from two readers, all sent for our Moreton Bay fig mel_005 from within 15 m of its pin, all show the same furrowed-barked elm with small toothed leaves and no buttress roots. Verdict `other_tree`, then live as its own tree, species `Elm (Ulmus sp.)` with an ask, lead plus two in the strip. Pin approximate: the leads carry no `location_kind`. Melbourne intro and walk FAQ now say 21 and nine in the Carlton North walk.
+- **Something published is wrong, probably**: mel_005's pin is the City of Yarra register's coordinate and it lands on that elm, not a fig. Set `approximate` with a verify_note; the pin stays until a photograph of the fig places it. A session could check whether the register itself is right about a fig in Curtain Square.
+- **Held**: 6991cd88 (Cáceres), a slender young sweetgum in autumn colour among similar trees, `not_special`, so no mail.
+- **Side fix**: nyc_038 `Weeping Willow (Salix sp.)` became `Willow (Salix sp.)`, the one name every other Salix sp. uses (hard rule 9, preflight).
+- Mail reply 1339: a reader will send a California redwood in a few weeks; closed `handled`. 0 open reports. Congratulation mails for the four new trees go once they are in the live feed (tree_approved.py on the next knock). **Not judged**: 3c544597 (our own account), still no file.
+
 ## 2026-11-20 reader judge: the Willistown oak's owner says yes
 
 - **Mail reply 1332** (the Willistown reader): the neighbour who owns the lawn under wtn_002, The White Oak of Bryan Avenue, is happy for it to be on the site and knows it may bring visitors. The tree was already live; the consent is in its verify_notes, the access line stays (look from the street). Closed `handled`; nothing in it to quote (reader_words `--done`). No mail from this run.

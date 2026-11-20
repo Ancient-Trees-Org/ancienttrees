@@ -3,10 +3,10 @@
   "country": "Canada",
   "status": "needs_curation",
   "intro": "Eight of these trees stand within half a kilometre of Parliament Hill, across Confederation Square, Confederation Park and Major's Hill Park; six line the Rideau Canal further south, along Queen Elizabeth Driveway, Green Island and Dow's Lake; five more stand a short walk beyond, in the Dominion Arboretum. Canada's National Capital Commission keeps an official register of remarkable trees for the capital region, holding a lime beside the National War Memorial, a rare pair of vine-leaved limes and a Kentucky coffeetree among them. Most have never been dated precisely.",
-  "meta_description": "Twenty-one protected trees across Ottawa's canal, downtown and arboretum, from a lime by the National War Memorial to a vine-leaved lime pair.",
+  "meta_description": "Twenty-two remarkable trees across Ottawa's canal, downtown and arboretum, from a lime by the National War Memorial to a vine-leaved lime pair.",
   "question_meta": "Six of Ottawa's twenty-one register trees share a roughly 125-year estimate from one 1900s planting programme. Most of the rest have never been dated.",
   "question_answer": "Nobody can name a single oldest tree in this collection with full confidence, though one now has the best claim. Six trees, both Vitifolia lindens in Major's Hill Park, the horse chestnut nearby, the sycamore and coffeetree on Queen Elizabeth Driveway and the linden at Dow's Lake, share the same roughly 125-year estimate, all tied to the same 1900-era planting programme run out of the Central Experimental Farm under William Saunders. A seventh, the willow at Dow's Lake, is dated to the same era in looser terms, around a century old. The Founding-Era Bitternut Hickory in the Dominion Arboretum carries the tightest documented window of any tree here, a planting between 1886 and 1890 recorded by the National Capital Commission's own register, which would put it a decade or so ahead of the 1900 group if the dates hold exactly. The register hedges most of the rest with likely and circa, and no second document dates any of them more precisely, so this page will not force a ranking where the sources themselves overlap. A newer addition, the Mound Elm on Queen Elizabeth Driveway, comes close to the 1900-era group at a register-derived estimate of roughly 120 years, though its planting is not tied to the same documented programme so it is kept as its own estimate rather than folded into the group of six. Ten trees, including the linden beside the National War Memorial, two of the Arboretum's newest additions and the driveway's Red Oak, have no documented age at all. If you can date any of these from a photograph, a planting record or a park document, tell us and the answer here will change.",
-  "question_context": "Ottawa protects trees through the National Capital Commission's own register, A Living Legacy: Remarkable Trees of Canada's Capital, compiled in 2020 as a curated survey rather than a routine inventory. It covers federal land across Ottawa and Gatineau, and for each tree it gives a genuine descriptive paragraph rather than a bare data table, which is unusually rich as sources go. What it does not give is numbers: no age field, no girth, no height, no vitality rating, so most measurement questions here come back as an honest gap rather than a figure.\n\nThat shapes what this page can say about age. Where the register's own prose ties a tree to a documented event, the planting programme William Saunders ran through the Central Experimental Farm around 1900, or the Dominion Arboretum's own founding years in the 1880s, this page repeats that estimate with the register's own hedges intact. Where a nearby monument's date could be mistaken for the tree's own, as with the National War Memorial's 1939 unveiling beside the Response Linden, this page keeps the two facts separate rather than joining them into a claim the register never makes. All twenty-one sit on federal parkland with no entry barrier.",
+  "question_context": "Ottawa protects trees through the National Capital Commission's own register, A Living Legacy: Remarkable Trees of Canada's Capital, compiled in 2020 as a curated survey rather than a routine inventory. It covers federal land across Ottawa and Gatineau, and for each tree it gives a genuine descriptive paragraph rather than a bare data table, which is unusually rich as sources go. What it does not give is numbers: no age field, no girth, no height, no vitality rating, so most measurement questions here come back as an honest gap rather than a figure.\n\nThat shapes what this page can say about age. Where the register's own prose ties a tree to a documented event, the planting programme William Saunders ran through the Central Experimental Farm around 1900, or the Dominion Arboretum's own founding years in the 1880s, this page repeats that estimate with the register's own hedges intact. Where a nearby monument's date could be mistaken for the tree's own, as with the National War Memorial's 1939 unveiling beside the Response Linden, this page keeps the two facts separate rather than joining them into a claim the register never makes. All twenty-two sit on public parkland with no entry barrier.",
   "faq": [
     {
       "q": "What is the oldest tree in this Ottawa cluster?",
@@ -14,11 +14,11 @@
     },
     {
       "q": "Can I see them all in one walk?",
-      "a": "Not in one short walk any more. Eight sit within half a kilometre of each other across Confederation Square, Confederation Park and Major's Hill Park, a 20 to 30 minute walk in downtown Ottawa. Six more stretch along the Rideau Canal pathway toward Green Island and Dow's Lake, best treated as a second walk of an hour or so. Five stand a short walk beyond Dow's Lake, in the Dominion Arboretum, worth a third stop if you have the time."
+      "a": "Not in one short walk any more. Eight sit within half a kilometre of each other across Confederation Square, Confederation Park and Major's Hill Park, a 20 to 30 minute walk in downtown Ottawa. Seven more stretch along the Rideau Canal pathway toward Green Island and Dow's Lake, best treated as a second walk of an hour or so. Five stand a short walk beyond Dow's Lake, in the Dominion Arboretum, worth a third stop if you have the time."
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes, all twenty-one. Every site is open federal parkland with no entrance fee and no gate."
+      "a": "Yes, all twenty-two. Every site is open public parkland with no entrance fee and no gate."
     },
     {
       "q": "Why don't all of these trees have a recorded age?",
@@ -757,6 +757,49 @@
         ],
         "label": "a rich red, sometimes fading to brown",
         "kind": "colour"
+      }
+    },
+    {
+      "id": "ott_022",
+      "name": "The Thick-trunked Willow of the Rideau Canal",
+      "species": "Willow (Salix sp.)",
+      "location": {
+        "address": "Lawn beside the Rideau Canal pathway, north of Dow's Lake",
+        "neighbourhood": "The Glebe",
+        "latitude": 45.4099783333333,
+        "longitude": -75.6827083333333
+      },
+      "how_to_recognise": "On the lawn between the canal railing and the paved path: a willow with a short, dark, enormously swollen trunk full of burrs and folds, under a crown much wider than it is tall.",
+      "access": "Free, on the public lawn beside the Rideau Canal pathway.",
+      "story": "A reader walking the Rideau Canal in Ottawa in September stopped at this willow and sent us its photograph. They know it as a crack willow, the European willow named for the way its twigs snap off at the base.\n\nWhat makes it worth the stop is the trunk. It is short and enormously thick, a dark, swollen column covered in burrs and folds, and it carries a crown far wider than it is tall, a great grey-green cloud of narrow leaves that hangs loosely over the path on one side and the canal railing on the other. On a bright day, as in the reader's picture, the whole tree shines silver against the blue.\n\nWillows grow fast and seldom live long, so a trunk this broad has had a good many decades on this bank. How many, we do not know. Old willows line this stretch of the canal, and the National Capital Commission lists two golden weeping willows within a few hundred metres among its remarkable trees; this one is not on that list, as far as we can find.\n\nIf you have measured it or know its story, tell us here. Walk round to the canal side to see the trunk at its widest.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "995a659b-6ca9-45f1-9873-2a9d8caa9d30",
+        "date": "2026-11-20"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "995a659b-6ca9-45f1-9873-2a9d8caa9d30",
+        "moved_m": 0,
+        "date": "2026-11-20",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 reader judge: sent by a reader through the app (995a659b-6ca9-45f1-9873-2a9d8caa9d30). Photograph viewed: the whole willow on the canal lawn, a short hugely swollen burred trunk under a wide silver-green crown, the canal railing on the right and the path on the left, bright daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Crack Willow in Ottawa', species 'Crack Willow', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ott_022-thick-trunked-willow-of-the-rideau-canal.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_baa455d3bbb4cc97a884e051",
+        "sighting_id": "995a659b-6ca9-45f1-9873-2a9d8caa9d30",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved on 2026-11-20: the whole willow on the canal lawn, a short hugely swollen burred trunk under a wide silver-green crown, the canal railing on the right and the path on the left, bright daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]
