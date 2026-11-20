@@ -609,10 +609,34 @@ def check_intro_to_someone_who_wrote_first(path, text, body):
              "are (then 'intro-asked: <their words>' in the notes).")]
 
 
+ANDROID_TEST_LINK = "https://play.google.com/apps/testing/app.ancienttrees.android"
+
+
+def check_android_invite_has_link(path, body):
+    """Every mail that invites somebody into the Android test carries the join
+    link (Hidde, 2026-11-20, on Frank's draft that asked "Would you like to
+    join the test group?" with nothing to tap: "geef hem ook een link en doe
+    dat vanaf nu naar elke android uitnodiging"). An invitation without the
+    link costs the reader a second mail before they can start. Files dated
+    before 2026-11-20 by name are left alone; a body with no date in its
+    name (what the senders hand over) is always checked."""
+    dated = re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(str(path)))
+    if dated and dated.group(1) < "2026-11-20":
+        return []
+    invite = re.search(r"\b(test group|testgroep|test(?:er)? (?:group|list)|android test|"
+                       r"join the test|become a tester|beta test\w*|closed test)\b", body, re.I)
+    if not invite or ANDROID_TEST_LINK in body:
+        return []
+    return [("ANDROID INVITE WITHOUT THE LINK", invite.group(0),
+             "Hidde, 2026-11-20: every Android invitation carries the join link, "
+             "on its own line: " + ANDROID_TEST_LINK)]
+
+
 def check(path):
     text = open(path, encoding="utf-8").read()
     body = body_of(text)
     hits = list(check_reply_length(path, body))
+    hits += check_android_invite_has_link(path, body)
     hits += check_intro_to_someone_who_wrote_first(path, text, body)
     hits += check_app_link(path, text, body)
     hits += check_link_on_its_own_line(path, text, body)
