@@ -61,9 +61,12 @@ export function visitorTileFn(): string {
           ? '<a class="nfv-who" href="/profile?u=' + encodeURIComponent(r.author_id) + '">' + line + '</a>'
           : '<button type="button" class="nfv-who ' + ask + '" data-sighting="' + esc(r.sighting_id) + '"' + (extra || '') + '>' + line + '</button>')
       : '<span class="nfv-who">' + line + '</span>';
+    // The heart at the line's end, beside the name and never inside its link
+    // (lib/photo-likes-js.ts fills the slot; Hidde, 2026-11-20).
+    var like = '<span class="nfv-like" data-photo-like="' + esc(String(r.sighting_id).toLowerCase()) + '"></span>';
     return '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="' + ev + '" data-detail="' + esc(r.tree_id) + '">' +
       '<span class="shelf-ph">' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
-      '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + who;
+      '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + '<div class="nfv-by">' + who + like + '</div>';
   }`;
 }
 
@@ -135,6 +138,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
     for (var i = 0; i < n; i++) { var c = document.createElement('div'); c.className = 'vp-col'; grid.appendChild(c); cols.push(c); }
     rows.forEach(function (r) { place(tile(r, r.prev)); });
     if (window.atPaintSaveButtons) window.atPaintSaveButtons();
+    if (window.atPhotoLikes) window.atPhotoLikes.load();
   }
   // r.prev is the row the SERVER sent before it (a tile with no card is
   // skipped on the page but still counts as the cursor for the next one).
@@ -156,6 +160,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
     var last = list[list.length - 1];
     if (last) cursor = { at: last.published_at, id: last.sighting_id };
     if (window.atPaintSaveButtons) window.atPaintSaveButtons();
+    if (window.atPhotoLikes) window.atPhotoLikes.load();
     if (!paged || list.length < N) finish();
   }
   function finish() {

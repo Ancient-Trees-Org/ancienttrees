@@ -141,7 +141,13 @@ export const READER_NAMES_JS = `
         w.textContent = when;
         slot.appendChild(w);
       }
+      // The heart, beside the name (lib/photo-likes-js.ts; 2026-11-20).
+      var like = document.createElement('span');
+      like.className = 'nfv-like';
+      like.setAttribute('data-photo-like', String(r.photo_id).toLowerCase());
+      slot.appendChild(like);
     });
+    if (window.atPhotoLikes) window.atPhotoLikes.load();
   }
   function start() {
     if (window.atPendingVisitor) window.atGoVisitor();

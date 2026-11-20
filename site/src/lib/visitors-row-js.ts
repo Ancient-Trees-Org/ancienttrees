@@ -68,6 +68,7 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
     row.innerHTML = html.join('');
     box.hidden = false;
     if (window.atPaintSaveButtons) window.atPaintSaveButtons();
+    if (window.atPhotoLikes) window.atPhotoLikes.load();
   }
   document.addEventListener('click', function (e) {
     var b = e.target.closest && e.target.closest('.nfv-ask');

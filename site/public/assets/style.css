@@ -1437,6 +1437,27 @@ a.nfv-who:hover .nfv-name, button.nfv-who:hover .nfv-name { text-decoration: und
    visitor's photograph"): lighter, never squeezed, so a long name gives way. */
 .nfv-when { flex: none; white-space: nowrap; color: var(--ink-light); font-weight: 400; }
 .nfv-when::before { content: "\00B7"; margin-right: 5px; }
+/* The byline row on a tile: the name (a link to the profile) and the heart at
+   its end, side by side, the heart never inside the name's link (2026-11-20). */
+.nfv-by { display: flex; align-items: center; gap: 4px; margin-top: 3px; min-width: 0; }
+.nfv-by > .nfv-who { flex: 0 1 auto; min-width: 0; margin-top: 0; }
+.nfv-by > .nfv-like { margin-left: auto; }
+/* The heart for a visitor's photograph (lib/photo-likes-js.ts; CONVENTIONS.md
+   "A heart for a visitor's photograph"): the count is the button, Strava's
+   and Instagram's way; outlined until you give one, filled moss after, as the
+   pressed save is moss. 44px to tap, drawn 16. */
+.nfv-like { flex: none; display: inline-flex; }
+.photo-like { position: relative; display: inline-flex; align-items: center; gap: 3px; min-height: 30px; padding: 0 2px;
+  border: 0; background: none; font: inherit; font-size: 12px; font-weight: 600; color: var(--ink-mid); cursor: pointer; }
+.photo-like::after { content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); }
+.photo-like svg { width: 16px; height: 16px; flex: none; }
+.photo-like .pl-on { display: none; }
+.photo-like[aria-pressed="true"] { color: var(--moss); }
+.photo-like[aria-pressed="true"] .pl-on { display: block; }
+.photo-like[aria-pressed="true"] .pl-off { display: none; }
+.pv-credit .photo-like { color: #cfcfcf; }
+.pv-credit .photo-like[aria-pressed="true"] { color: #fff; }
+.rn-byline .nfv-like { margin-left: 4px; }
 /* The city as a tag on the photograph, the apps' TagPill (CollectedTile.swift:
    10pt semibold moss, 6 by 3 padding, radius 8, surface, 6pt in from the
    corner), so web, iPhone and Android carry one tile (Hidde, 2026-11-20). */

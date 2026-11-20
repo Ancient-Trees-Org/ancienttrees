@@ -169,6 +169,8 @@ export interface UIStrings {
   cardMore: string;
   cardSave: string;
   cardSaved: string;
+  photoLike: string;
+  photoLiked: string;
   walkMoreTrees: (city: string) => string;
   whatElseStands: (city: string) => string;
   allTreesLink: (n: number, city: string) => string;
@@ -709,6 +711,8 @@ const EN: UIStrings = {
   cardMore: "Read more and get directions \u2192",
   cardSave: "Save",
   cardSaved: "Saved",
+  photoLike: "Like this photo",
+  photoLiked: "You liked this photo",
   walkMoreTrees: (c) => `Walk more trees in ${c}`,
   whatElseStands: (c) => `Want to know what else is still standing in ${c}? See`,
   allTreesLink: (n, c) => `the ${n} remarkable trees of ${c}`,
@@ -1345,6 +1349,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Leer m\u00e1s y c\u00f3mo llegar \u2192",
     cardSave: "Guardar",
     cardSaved: "Guardado",
+    photoLike: "Me gusta esta foto",
+    photoLiked: "Te gusta esta foto",
     walkMoreTrees: (c) => `Recorre m\u00e1s \u00e1rboles en ${c}`,
     whatElseStands: (c) => `\u00bfQuieres saber qu\u00e9 m\u00e1s sigue en pie en ${c}? Mira`,
     allTreesLink: (n, c) => `los ${n} \u00e1rboles singulares de ${c}`,
@@ -1713,6 +1719,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Leggi di pi\u00f9 e come arrivare \u2192",
     cardSave: "Salva",
     cardSaved: "Salvato",
+    photoLike: "Mi piace questa foto",
+    photoLiked: "Ti piace questa foto",
     walkMoreTrees: (c) => `Scopri altri alberi a ${c}`,
     whatElseStands: (c) => `Vuoi sapere che altro \u00e8 rimasto in piedi a ${c}? Guarda`,
     allTreesLink: (n, c) => `i ${n} alberi monumentali di ${c}`,
@@ -2081,6 +2089,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Lees meer en route \u2192",
     cardSave: "Bewaren",
     cardSaved: "Bewaard",
+    photoLike: "Geef deze foto een hartje",
+    photoLiked: "Je gaf deze foto een hartje",
     walkMoreTrees: (c) => `Loop langs meer bomen in ${c}`,
     whatElseStands: (c) => `Benieuwd wat er nog meer overeind staat in ${c}? Bekijk`,
     allTreesLink: (n, c) => `de ${n} monumentale bomen van ${c}`,
@@ -2449,6 +2459,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Mehr lesen und Anfahrt \u2192",
     cardSave: "Merken",
     cardSaved: "Gemerkt",
+    photoLike: "Dieses Foto gef\u00e4llt mir",
+    photoLiked: "Dir gef\u00e4llt dieses Foto",
     walkMoreTrees: (c) => `Mehr B\u00e4ume in ${c} ablaufen`,
     whatElseStands: (c) => `Wissen Sie, was in ${c} sonst noch steht? Sehen Sie`,
     allTreesLink: (n, c) => `die ${n} alten B\u00e4ume von ${c}`,
@@ -2817,6 +2829,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Ler mais e como chegar \u2192",
     cardSave: "Guardar",
     cardSaved: "Guardado",
+    photoLike: "Gostar desta foto",
+    photoLiked: "Gostou desta foto",
     walkMoreTrees: (c) => `Percorra mais \u00e1rvores em ${c}`,
     whatElseStands: (c) => `Quer saber o que mais continua de p\u00e9 em ${c}? Veja`,
     allTreesLink: (n, c) => `as ${n} \u00e1rvores hist\u00f3ricas de ${c}`,
@@ -3185,6 +3199,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "Lire la suite et l’acc\u00e8s \u2192",
     cardSave: "Enregistrer",
     cardSaved: "Enregistr\u00e9",
+    photoLike: "J\u2019aime cette photo",
+    photoLiked: "Vous aimez cette photo",
     walkMoreTrees: (c) => `Parcourez d'autres arbres \u00e0 ${c}`,
     whatElseStands: (c) => `Envie de savoir ce qui tient encore debout \u00e0 ${c} ? Voyez`,
     allTreesLink: (n, c) => `les ${n} arbres remarquables de ${c}`,
@@ -3552,6 +3568,8 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     cardMore: "\u8a73\u3057\u304f\u898b\u308b\u30fb\u884c\u304d\u65b9 \u2192",
     cardSave: "\u4fdd\u5b58",
     cardSaved: "\u4fdd\u5b58\u6e08\u307f",
+    photoLike: "\u3053\u306e\u5199\u771f\u306b\u3044\u3044\u306d",
+    photoLiked: "\u3044\u3044\u306d\u6e08\u307f",
     walkMoreTrees: (c) => `${c}\u306e\u4ed6\u306e\u6a39\u6728\u3092\u5DE1\u308b`,
     whatElseStands: (c) => `${c}\u306b\u4ed6\u306b\u4f55\u304c\u6b8b\u3063\u3066\u3044\u308b\u304b\u3054\u89a7\u304f\u3060\u3055\u3044\u3002`,
     allTreesLink: (n, c) => `${c}\u306e\u53e4\u6a39${n}\u672c`,
