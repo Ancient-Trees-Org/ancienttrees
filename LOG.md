@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Betsey Williams Sycamore, Providence (a new place)
+
+- **New tree, new place**: the Betsey Williams Sycamore in Roger Williams Park, Providence, Rhode Island (`providence/pvd_001`), from a reader's photograph of the big sycamore beside the red Betsey Williams Cottage. The pin was placed by hand, so it stays approximate. The reader's history of the tree (planted by Betsey Williams's parents in the early 1780s) and their figures (about 240 years, 450 cm round) are on the page as theirs. One-tree place, so it gets no place page on the web (PLACE_PAGE_MIN_TREES 2). Providence added to data/us-states.json.
+- **Overlap**: this run also judged the Setubal and Paris photographs, but the run below had already published them. Its version was kept at the rebase. Both runs ran `sightings_publish.py --send`, so the two readers may have been mailed twice, unless mailer.py's one-week rest refused the second mail.
+- Still open: lead `3c544597` (Amsterdam, from our own account, photo not on disk). preflight 0 problems, qa --source-only clean, i18ncheck clean before the rebase.
+
 ## 2026-11-20 reader judge: two reader photographs live (Setubal, Paris)
 
 - **Setubal, The Silky Oaks of Largo Marques de Pombal (stb_003)**: a reader's photograph of both trees of the pair, looking up from the square, is now the lead. The tree had no photograph before. Pin was already confirmed, nothing moved.

@@ -8213,6 +8213,39 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "kantharpura/knt_001"
+  },
+  {
+   "sighting_id": "decf2f9f-db6f-4555-8c46-b940b0550979",
+   "user_id": "p_dd12e9b37ee711dafbb32c9b",
+   "mine": false,
+   "name": "Betsey Williams Sycamore",
+   "unsure_among": null,
+   "species": "American Sycamore",
+   "age": "240 years old",
+   "girth_cm": 450,
+   "girth_hugs": null,
+   "note": "The Betsey Williams Sycamore is the most famous tree in Rhode Island. It stands next to the Betsey Williams Cottage. Betsey Williams (3rd great granddaughter of Rhode Island Founder Roger Williams) donated the land to the City of Providence, which became the historic Roger Williams Park. \n\nThe tree was planted by her parents shortly after the built the house in the early 1780’s, possibly as a pair of “bride and groom” trees (the other tree was a mulberry that perished sometime after the 1925.) T",
+   "latitude": 41.7855164094563,
+   "longitude": -71.4163617536123,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 9,
+   "photo": "p_dd12e9b37ee711dafbb32c9b/DECF2F9F-DB6F-4555-8C46-B940B0550979.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: the whole sycamore on the park lawn, its broad flaring trunk and long white-mottled limbs spreading over the small red gambrel-roofed Betsey Williams Cottage, the lake behind, daylight, colour. Live as providence/pvd_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "providence/pvd_001"
   }
  ]
 }

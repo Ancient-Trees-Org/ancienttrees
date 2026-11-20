@@ -18,6 +18,47 @@
    "agreed": null
   },
   {
+   "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Betsey Williams Sycamore",
+   "city": "Providence",
+   "species": "American Sycamore",
+   "photo": "out/sightings/decf2f9f-db6f-4555-8c46-b940b0550979.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 450,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore"
+   },
+   "verdict": "publish",
+   "reason": "A big American sycamore with white upper limbs beside the red Betsey Williams Cottage in Roger Williams Park; somewhat special and public. Live as providence/pvd_001, hand-placed pin kept approximate, the reader's history and figures stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:decf2f9f-db6f-4555-8c46-b940b0550979",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Betsey Williams Sycamore",
+   "city": "Providence",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/decf2f9f-db6f-4555-8c46-b940b0550979.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "The reader's own photograph of the sycamore beside the Betsey Williams Cottage, now the lead of providence/pvd_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:64169b01-449c-4395-9b89-cc55315d2cfa",
    "seen": "2026-11-20",
    "kind": "photo of a tree we map",

@@ -1,0 +1,75 @@
+{
+  "city": "Providence",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Providence is the capital of Rhode Island, and Roger Williams Park on its south side is the city's great park of lakes and lawns, land given to the city by Betsey Williams, a descendant of the colony's founder. Beside her family's small red cottage in the park stands an American sycamore that a reader sent us and calls the most famous tree in Rhode Island, planted, they write, by her parents in the early 1780s.",
+  "meta_description": "The Betsey Williams Sycamore in Roger Williams Park, Providence, which a reader calls the most famous tree in Rhode Island, and where it stands.",
+  "hero_tree_id": "pvd_001",
+  "oldest_tree_id": "pvd_001",
+  "trees": [
+    {
+      "id": "pvd_001",
+      "name": "The Betsey Williams Sycamore",
+      "species": "American Sycamore (Platanus occidentalis)",
+      "age_estimate": "about 240 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside the Betsey Williams Cottage, Roger Williams Park, Providence, Rhode Island",
+        "latitude": 41.7855164094563,
+        "longitude": -71.4163617536123,
+        "neighbourhood": "Roger Williams Park"
+      },
+      "story": "\"The Betsey Williams Sycamore is the most famous tree in Rhode Island,\" begins the note of the reader who sent us this tree from Roger Williams Park in Providence.\n\nIt stands beside the Betsey Williams Cottage, the small red farmhouse with the gambrel roof in the photograph. The reader tells its story. Betsey Williams, a great-great-great-granddaughter of Roger Williams, the founder of Rhode Island, gave the land to the City of Providence, and it became Roger Williams Park. Her parents, they write, planted the sycamore shortly after they built the house in the early 1780s, possibly as one of a pair of \"bride and groom\" trees; the other, a mulberry, died some time after 1925.\n\nThe photograph shows why people remember it. A thick, flaring trunk rises from the lawn and splits into long limbs whose bark peels away in patches, until the upper branches are almost white against the sky, the mottled pattern of an American sycamore. The crown spreads over the cottage roof and far out across the grass towards the lake.\n\nThe reader puts it at about 240 years old and its trunk at some 450 centimetres round. Those figures are theirs; we have not seen a measurement.\n\nStand by the cottage door and look up through the pale limbs.",
+      "how_to_recognise": "Beside the small red Betsey Williams Cottage with its gambrel roof: a broad sycamore whose thick brown trunk splits into long limbs that turn white as they climb, its crown spreading over the cottage roof.",
+      "location_site": "Betsey Williams Cottage, Roger Williams Park",
+      "verified_sources": [],
+      "access": "Free. On the lawn beside the cottage in Roger Williams Park, a public city park.",
+      "found_by_reader": {
+        "sighting_id": "decf2f9f-db6f-4555-8c46-b940b0550979",
+        "date": "2026-11-20"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "decf2f9f-db6f-4555-8c46-b940b0550979",
+        "date": "2026-11-20",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 reader judge: sent by a reader (decf2f9f-db6f-4555-8c46-b940b0550979, through the app). Photograph viewed: the whole sycamore on the park lawn, its broad flaring trunk and long white-mottled limbs spreading over the small red gambrel-roofed Betsey Williams Cottage, the lake behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Betsey Williams Sycamore', species 'American Sycamore', age '240 years old', girth 450 cm. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/pvd_001-betsey-williams-sycamore.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_dd12e9b37ee711dafbb32c9b",
+        "sighting_id": "decf2f9f-db6f-4555-8c46-b940b0550979",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: the whole sycamore on the park lawn, its broad flaring trunk and long white-mottled limbs spreading over the small red gambrel-roofed Betsey Williams Cottage, the lake behind, daylight, colour. Not an open licence: ask before reuse elsewhere."
+      }
+    }
+  ],
+  "question_meta": "The Betsey Williams Sycamore in Roger Williams Park, Providence, which a reader calls the most famous tree in Rhode Island, and where it stands.",
+  "question_answer": "The Betsey Williams Sycamore stands on the lawn beside the Betsey Williams Cottage in Roger Williams Park, Providence. It is free to see in the public park.",
+  "question_context": "A reader who sent us this tree from Roger Williams Park calls it the most famous tree in Rhode Island. It is an American sycamore, and it stands beside the Betsey Williams Cottage, a small red farmhouse with a gambrel roof on the park lawn. Betsey Williams, a descendant of Roger Williams, the founder of Rhode Island, gave the land to the City of Providence, and it became the park that carries his name. The reader writes that her parents planted the sycamore shortly after they built the house in the early 1780s, possibly as one of a pair of bride and groom trees, and that the other, a mulberry, died some time after 1925. In the reader's photograph a broad, flaring trunk splits into long limbs whose bark peels in patches until the upper branches look almost white, and the crown spreads over the cottage roof towards the lake. The reader puts it at about 240 years old and its trunk at some 450 centimetres round. Those are their figures, not a measurement we have seen. The park is public, so the tree is free to visit.",
+  "faq": [
+    {
+      "q": "Can I visit The Betsey Williams Sycamore?",
+      "a": "Yes. It stands on the lawn beside the Betsey Williams Cottage in Roger Williams Park, a public city park, and it is free to see."
+    },
+    {
+      "q": "How old is The Betsey Williams Sycamore?",
+      "a": "About 240 years, by a reader's estimate: they write that Betsey Williams's parents planted it in the early 1780s, shortly after building the cottage. We have not seen a record that dates it."
+    },
+    {
+      "q": "What kind of tree is The Betsey Williams Sycamore?",
+      "a": "An American sycamore, Platanus occidentalis, the North American plane tree whose bark peels away in patches and leaves the upper limbs almost white."
+    }
+  ]
+}
