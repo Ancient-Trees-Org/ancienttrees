@@ -57,6 +57,10 @@ data class TreeMarks(
     val saved: Set<String> = emptySet(),
     val collected: Set<String> = emptySet(),
     val onSave: (Tree) -> Unit = {},
+    /** For the heart on a visitor's photograph (PhotoLikes.kt, 2026-11-20). */
+    val signedIn: Boolean = false,
+    val token: suspend () -> String? = { null },
+    val signIn: () -> Unit = {},
 )
 
 val LocalTreeMarks = compositionLocalOf { TreeMarks() }

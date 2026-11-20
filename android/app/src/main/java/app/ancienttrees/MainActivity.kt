@@ -855,7 +855,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     fun PageFor(p: app.ancienttrees.ui.Page) {
         val cat = catalogue ?: return
         CompositionLocalProvider(
-            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) }),
+            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
+                signedIn = signedIn, token = { account.fresh()?.accessToken },
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }),
         ) {
             when (p) {
                 is app.ancienttrees.ui.Page.TreePage -> cat.tree(p.id)?.let { tree -> TreePage(tree) }
@@ -970,7 +972,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     // What the floating tab bar frosts (Glass.kt).
                     Box(Modifier.fillMaxSize().glassSource(barGlass)) {
                     CompositionLocalProvider(
-                        LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) }),
+                        LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
+                signedIn = signedIn, token = { account.fresh()?.accessToken },
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }),
                         app.ancienttrees.ui.LocalSearchAccount provides app.ancienttrees.ui.SearchAccount(
                             signedIn = signedIn,
                             token = { account.fresh()?.accessToken },
@@ -1077,7 +1081,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         // What the floating tab bar frosts (Glass.kt).
                         Box(Modifier.fillMaxSize().glassSource(barGlass)) {
                         CompositionLocalProvider(
-                            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) }),
+                            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
+                signedIn = signedIn, token = { account.fresh()?.accessToken },
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }),
                             app.ancienttrees.ui.LocalMyHeader provides app.ancienttrees.ui.MyHeader(
                                 profiles = profiles,
                                 earlyAdopter = earlyAdopter,

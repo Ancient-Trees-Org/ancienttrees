@@ -379,6 +379,8 @@ private fun TreeDetailInner(
                                         Text("· $w", fontSize = 13.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false)
                                     }
                                 }
+                                // The heart, beside the name, outside its tap (TreeDetail.swift, 2026-11-20).
+                                PhotoHeart(by.lowercase())
                             }
                             Spacer(Modifier.weight(1f))
                             val onAdd = shotAt >= tree.shots.count()

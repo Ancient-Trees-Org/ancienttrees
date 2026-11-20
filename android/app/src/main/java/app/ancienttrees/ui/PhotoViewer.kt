@@ -297,6 +297,7 @@ fun PhotoViewer(
                             SentAgo.long(author.publishedAt)?.let { w ->
                                 Text("· $w", fontSize = 12.sp, color = Color.White.copy(alpha = 0.7f), maxLines = 1, softWrap = false)
                             }
+                            shown.by?.let { PhotoHeart(it.lowercase(), onDark = true) }
                         }
                     }
                 }

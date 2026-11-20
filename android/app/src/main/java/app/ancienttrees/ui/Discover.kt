@@ -836,13 +836,16 @@ internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFro
     val brand = Brand.colors
     val real = r.authorName
     val name = real ?: stringResource(R.string.discover_a_visitor)
-    var m = Modifier.width(width).heightIn(min = VISITOR_LINE_HEIGHT)
+    var m: Modifier = Modifier.heightIn(min = VISITOR_LINE_HEIGHT)
     if (real != null) {
         m = m.clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current) {
             openVisitor(r)
         }.semantics { contentDescription = "visitor-name" }
     }
-    Box(m, contentAlignment = Alignment.TopStart) {
+    // The heart at the line's end, beside the name and never inside its tap
+    // (VisitorPhotos.swift VisitorLine, 2026-11-20).
+    Row(Modifier.width(width), verticalAlignment = Alignment.Top) {
+    Box(m.then(Modifier.weight(1f)), contentAlignment = Alignment.TopStart) {
         Row(horizontalArrangement = Arrangement.spacedBy(5.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.size(16.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
                 val a = r.authorAvatar
@@ -860,6 +863,10 @@ internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFro
                 Text("· $when_", fontSize = 12.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false)
             }
         }
+    }
+    // 44 to tap, centred on the 16-point name line above it (as the iPhone's
+    // frame(height: 16) lets its 44-point button hang over).
+    Box(Modifier.offset(y = (-14).dp)) { PhotoHeart(r.sightingId.lowercase()) }
     }
 }
 

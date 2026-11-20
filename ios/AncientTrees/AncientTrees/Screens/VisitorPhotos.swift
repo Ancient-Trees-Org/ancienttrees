@@ -291,21 +291,28 @@ struct VisitorLine: View {
                     .fixedSize()
             }
         }
-        .frame(width: width, alignment: .leading)
+        .frame(maxWidth: .infinity, alignment: .leading)
         // Under the label's own element, or the system measures only the
         // avatar and the name (appfit SMALL on iOS 18, 2026-11-07).
         .frame(minHeight: Self.height, alignment: .top)
         .contentShape(Rectangle())
         .accessibilityElement(children: .ignore)
-        if real == nil {
-            line.accessibilityLabel(name)
-        } else {
-            Button {
-                open(row)
-            } label: { line }
-            .buttonStyle(.plain)
-            .accessibilityLabel("\(name), open profile")
-            .accessibilityIdentifier("visitor-name")
+        // The heart at the line's end, beside the name and never inside its
+        // button (Kit/PhotoLikes.swift; Hidde, 2026-11-20).
+        HStack(alignment: .top, spacing: 2) {
+            if real == nil {
+                line.accessibilityLabel(name)
+            } else {
+                Button {
+                    open(row)
+                } label: { line }
+                .buttonStyle(.plain)
+                .accessibilityLabel("\(name), open profile")
+                .accessibilityIdentifier("visitor-name")
+            }
+            PhotoHeart(photoId: row.sighting_id.uuidString.lowercased())
+                .frame(height: 16)
         }
+        .frame(width: width, alignment: .leading)
     }
 }

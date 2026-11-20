@@ -2511,6 +2511,8 @@ struct TreeDetail: View {
                         .lineLimit(1)
                         .fixedSize()
                 }
+                // The heart, beside the name (Kit/PhotoLikes.swift, 2026-11-20).
+                PhotoHeart(photoId: by.lowercased())
             }
         }
     }

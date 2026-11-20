@@ -159,11 +159,11 @@ struct PhotoViewer: View {
                                 if let when = SentAgo.long(a.published_at) {
                                     Text("· \(when)").font(.caption).opacity(0.75)
                                 }
+                                PhotoHeart(photoId: by.lowercased(), onDark: true)
                             }
                             .foregroundStyle(.white.opacity(0.9))
                             .lineLimit(1)
                             .padding(.horizontal, 20)
-                            .accessibilityElement(children: .combine)
                         }
                     }
                     .padding(.bottom, 16)
