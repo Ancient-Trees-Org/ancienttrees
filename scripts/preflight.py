@@ -3660,6 +3660,8 @@ def check_no_orphan_photos():
         for w in rec.get("widths", []):
             name = "%s-%s.jpg" % (rec["base"], w)
             pointed.add(name)
+            if w == 500:  # the build's row-thumbnail copy (vendor_photos.py --small)
+                pointed.add("%s-250.jpg" % rec["base"])
             if name not in on_disk:
                 out.append("data/photo-manifest.json names %s, which is not in site/public/photos "
                            "(python3 scripts/vendor_photos.py --manifest)" % name)

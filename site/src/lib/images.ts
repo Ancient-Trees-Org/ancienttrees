@@ -64,6 +64,17 @@ function vendored(): Record<string, { base: string; widths: number[] }> {
     VENDORED = JSON.parse(
       fs.readFileSync(path.join(DATA, "photo-manifest.json"), "utf-8")
     ).photos ?? {};
+    // The 250 row-thumbnail copy is made by the deploy from the 500
+    // (vendor_photos.py --small, never committed: Hidde 2026-11-20). Offered
+    // only when the file is really there, so a build without that step keeps
+    // serving the 500 instead of a 404.
+    const dir = path.join(DATA, "..", "site", "public", "photos");
+    for (const rec of Object.values(VENDORED!)) {
+      if (rec.widths.includes(500) && !rec.widths.includes(250) &&
+          fs.existsSync(path.join(dir, `${rec.base}-250.jpg`))) {
+        rec.widths = [250, ...rec.widths];
+      }
+    }
   } catch {
     VENDORED = {};
   }

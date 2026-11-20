@@ -3107,6 +3107,8 @@ def check_vendored_photos_are_served():
         for w in rec.get("widths", []):
             name = f"{rec['base']}-{w}.jpg"
             pointed_at.add(name)
+            if w == 500:  # the build's row-thumbnail copy (vendor_photos.py --small)
+                pointed_at.add(f"{rec['base']}-250.jpg")
             if name not in on_disk:
                 failures.append(
                     f"photo-manifest names {name}, which is not in the build: "

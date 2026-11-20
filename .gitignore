@@ -71,3 +71,5 @@ drafts/reply-pere-vives-photos-2026-11-02.md
 drafts/reply-sjaan-openbomenkaart-2026-10-31.md
 drafts/reply-tatiana-verona-ferrara-2026-11-03.md
 drafts/reply-veronika-willhalm-*2026-11-0*.md
+# Row-thumbnail copies, made by the deploy (vendor_photos.py --small), never committed
+site/public/photos/*-250.jpg

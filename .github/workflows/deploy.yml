@@ -101,6 +101,7 @@ jobs:
         run: |
           python3 -m pip install --quiet pillow
           python3 scripts/vendor_photos.py --manifest
+          python3 scripts/vendor_photos.py --small
 
       - name: Preflight the data
         run: python3 scripts/preflight.py

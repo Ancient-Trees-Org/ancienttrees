@@ -330,15 +330,56 @@ def own_copies(dry_run=False):
     return made
 
 
+# A copy for the row thumbnails, made by the BUILD from the 500 beside it and
+# never committed (.gitignore). Hidde, 2026-11-20, "ok do it": a 64 point
+# thumbnail in a city's tree list loaded the 500 file, four times the pixels
+# it shows (photocheck.py --live, HEAVY), about 1.7 MB a list where 0.4 would
+# do. Committed, the copies would add ~57 MB to every checkout; made here they
+# cost a few seconds of the deploy. images.ts offers a 250 only when the file
+# is really on disk, so a build that skips this step serves the 500 as before;
+# preflight and qa count a -250 as pointed at whenever its -500 is.
+SMALL = 250
+
+
+def small_copies():
+    try:
+        with open(os.path.join(ROOT, "data", "photo-manifest.json"), encoding="utf-8") as fh:
+            man = json.load(fh).get("photos", {})
+    except (OSError, ValueError):
+        man = {}
+    made = 0
+    for rec in man.values():
+        if 500 not in rec.get("widths", []):
+            continue
+        src = os.path.join(OUT, "%s-500.jpg" % rec["base"])
+        out = os.path.join(OUT, "%s-%d.jpg" % (rec["base"], SMALL))
+        if os.path.exists(out) or not os.path.exists(src):
+            continue
+        with open(src, "rb") as fh:
+            blob = fh.read()
+        fitted = fit(blob, SMALL)
+        if fitted is None or fitted is blob:
+            continue
+        with open(out, "wb") as fh:
+            fh.write(fitted)
+        made += 1
+    print("row thumbnails: %d copies at %d made" % (made, SMALL))
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--manifest", action="store_true",
                     help="rebuild data/photo-manifest.json from what is on disk")
+    ap.add_argument("--small", action="store_true",
+                    help="make the build-only 250 copies from the 500s (deploy.yml)")
     args = ap.parse_args()
 
     os.makedirs(OUT, exist_ok=True)
+    if args.small:
+        return small_copies()
     own_copies(dry_run=args.dry_run)
     if args.manifest:
         return write_manifest()
