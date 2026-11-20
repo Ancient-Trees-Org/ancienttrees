@@ -205,21 +205,76 @@ function atTreePins(map, o) {
     // map"), then the rest in pin order.
     var saved = [], rest = [];
     order.forEach(function(f) { (keptOf(f.properties) ? saved : rest).push(f); });
+    var left = [];
     [saved, rest].forEach(function(list) {
-      for (var i = 0; i < list.length && n < 600; i++) {
+      for (var i = 0; i < list.length; i++) {
         var f = list[i], id = idOf(f);
         if (want[id] || !candidate(f)) { continue; }
         var q = map.project(f.geometry.coordinates);
         if (q.x < -20 || q.y < -20 || q.x > W + 20 || q.y > H + 20) { continue; }
-        if (fits(q)) { put(f, q); }
+        if (n < 600 && fits(q)) { put(f, q); } else { left.push([f, q]); }
       }
     });
+    // THE DOTS, AIRBNB'S MINI-PINS: a tree whose pin did not fit is a dot only
+    // where the dot stands clear of every full pin and of the other dots;
+    // anything else is not drawn until a zoom makes room (Hidde, 2026-11-20,
+    // on Baarn: "je sommige pins niet ziet omdat andere eroverheen gaat";
+    // CONVENTIONS.md "How close two pins have to be": Airbnb draws full pins,
+    // then mini-pins, "the rest are simply not drawn"). Zoomed out the dots
+    // are the mini pins of the trees the feed marks (mn).
+    var CLEAR = ${S.size / 2 + S.dotRadius + S.dotRing + 3}, GAP = ${2 * (S.dotRadius + S.dotRing) + 2};
+    function clearOf(q) {
+      var cx = Math.floor(q.x / D), cy = Math.floor(q.y / D);
+      for (var i = -1; i <= 1; i++) { for (var j = -1; j <= 1; j++) {
+        var c = grid[(cx + i) + ':' + (cy + j)];
+        if (!c) { continue; }
+        for (var k = 0; k < c.length; k++) {
+          var dx = c[k].x - q.x, dy = c[k].y - q.y;
+          if (dx * dx + dy * dy < CLEAR * CLEAR) { return false; }
+        }
+      } }
+      return true;
+    }
+    var dgrid = {}, dots = [];
+    function dotFits(q) {
+      var cx = Math.floor(q.x / GAP), cy = Math.floor(q.y / GAP);
+      for (var i = -1; i <= 1; i++) { for (var j = -1; j <= 1; j++) {
+        var c = dgrid[(cx + i) + ':' + (cy + j)];
+        if (!c) { continue; }
+        for (var k = 0; k < c.length; k++) {
+          var dx = c[k].x - q.x, dy = c[k].y - q.y;
+          if (dx * dx + dy * dy < GAP * GAP) { return false; }
+        }
+      } }
+      return true;
+    }
+    for (var li = 0; li < left.length && dots.length < 1500; li++) {
+      var lf = left[li][0], lq = left[li][1];
+      if (far && (lf.properties.mn === 0 || lf.properties.mn === '0')) { continue; }
+      if (!clearOf(lq) || !dotFits(lq)) { continue; }
+      var dk = Math.floor(lq.x / GAP) + ':' + Math.floor(lq.y / GAP);
+      (dgrid[dk] = dgrid[dk] || []).push(lq);
+      dots.push(idOf(lf));
+    }
+    showDots(dots);
     Object.keys(els).forEach(function(id) {
       if (!want[id]) { els[id].marker.remove(); delete els[id]; }
     });
     Object.keys(want).forEach(function(id) {
       if (!els[id]) { els[id] = make(want[id]); }
       paint(els[id]);
+    });
+  }
+  // Which dots the GL layers draw: only the ids the placement let through.
+  var dotKey = null;
+  function showDots(ids) {
+    var key = ids.join('|');
+    if (key === dotKey) { return; }
+    dotKey = key;
+    var only = ['in', ['to-string', ['get', 'id']], ['literal', ids]];
+    [[src + '-dot', loose], [src + '-shadow', loose], [src + '-head-dot', pileHead],
+     [src + '-head-shadow', pileHead], [src + '-mini', mini]].forEach(function(l) {
+      if (map.getLayer(l[0])) { map.setFilter(l[0], ['all', l[1], only]); }
     });
   }
   function soon() { if (!raf) { raf = requestAnimationFrame(place); } }
