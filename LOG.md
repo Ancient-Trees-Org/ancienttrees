@@ -16,6 +16,13 @@
 - Both checked against species and description; verdicts in data/judgements.json; mails via `sightings_publish.py --send`. The pin catch-up step could not read coordinates (HTTPError from Supabase); neither tree needed a move.
 - Still open: lead 3c544597 (Amsterdam, "not sure which tree", near The Last Elm of Stationsplein) is our own account's (`mine`) and its photo is not on disk; not judged blind. No other strangers' leads, reports, tips or feedback waiting.
 
+## 2026-11-20 session: sign-in mail was down for everyone; Resend Pro brings it back
+
+- **Breakage**: from about 12:00 UTC no email sign-in link could go out. His Gmail (the account behind info@) hit its daily limit during wave 3, and Resend's free 100 were used up by the overflow; the hook tries both and both refused. Tested at 14:40 UTC: Gmail still answered "550 5.4.5 Daily user sending limit exceeded". Google and Apple sign-in kept working. Failed requests leave probably no trace in Supabase, so signin_watch.py cannot catch those people up; they get in when they try again.
+- **Fixed (Hidde: "Yes, Pro", upgraded himself)**: Resend Pro, 50,000 a month, no daily cap. A sign-in request for apptest@ went through right after (hook answered OK). `RESEND_DAY` 1600 and `RESEND_FOR_STRANGERS` 1000 in mailer.py; test_mailer.py green.
+- **Still true**: his personal Gmail cannot send until Google lifts the block (within 24 hours of about 12:00 UTC). No wave 3 portion until then.
+- **Proposed, not done**: sign-in mail through Resend first with Gmail as backup, so a wave can never block sign-in again (hook change and redeploy). The website's "try again in a minute" on a failed send is untrue in an outage like this one, and typed in English only.
+
 ## 2026-11-20 session: the digest's photo rows count by the day a photo was sent
 
 - **Fixed (Hidde: "can we fix the photo counts?")**: the day-by-day table's Website, iPhone and Android photo rows left out every photo Hidde had already looked at on the digest page and dated the rest by `updated_at`, which every app sync moves. So the Guardian week read 0 photos from 11-15 to 11-18. They now count each sighting's photo on the day the file reached the bucket (`_photo_uploaded()` in scripts/daily_digest.py, one bucket listing per account). From 11-14 to 11-20: 466 iPhone, 26 Android (all on 11-19, the first Android test day), 24 website; 185 iPhone photos on 11-15 alone.

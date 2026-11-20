@@ -130,7 +130,7 @@ expect("reserve: share counted from the logged routes",
        mailer.resend_left_for_strangers({"sent": [{"date": "d", "route": "resend"}] * 58
                                                  + [{"date": "d", "route": "gmail"}] * 9
                                                  + [{"date": "old", "route": "resend"}] * 50}, "d"),
-       2)
+       mailer.RESEND_FOR_STRANGERS - 58)
 try:
     run(mailer.FIRST, ["a@x.org"], {"resend": "refuse", "gmail": "refuse"})
     expect("both refuse: raises", "no error", "error")

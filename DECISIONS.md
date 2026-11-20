@@ -1,5 +1,9 @@
 # Decisions
 
+## 2026-11-20: Resend Pro
+
+Around 12:00 UTC, wave 3 of the Android invitation, the replies and the catch-ups took his personal Gmail (the sending account behind info@) past its daily limit ("550 5.4.5 Daily user sending limit exceeded"), and the overflow filled Resend's free 100. From then on every sign-in and welcome mail failed on both routes; a test at 14:40 UTC confirmed Gmail still refusing. Choice put to Hidde: Resend Pro, which restores sign-in at once and lifts the daily cap, or wait until Resend's reset at midnight UTC and Gmail's within 24 hours. He chose Pro ("Yes, Pro") and upgraded himself. A sign-in request for the test account went through right after. The 11-16 route rule stands (Gmail first for expected mail); moving sign-in mail to Resend first is a proposal, not done.
+
 ## 2026-11-16: one mail route rule, signed where it matters, Gmail for the rest
 
 On the Guardian day (2026-11-15) Yahoo refused Supabase's welcome mail to six new accounts: Supabase sent it through Hidde's Gmail as info@ancienttrees.app, Gmail signs for gmail.com, and Yahoo wants DKIM for the From domain ("550 5.7.9 ... SPF alone is not sufficient"). Moving Supabase's SMTP to Resend would have fixed Yahoo, but Resend's free plan stops at 100 a day and 3,000 a month, and the day had 71 email sign-ups in four hours: past the hundredth, every email sign-up would have failed. Resend Pro, about $20 a month, Hidde found too dear. A second session the same day made mailer.py fall back to Gmail when Resend refuses. Hidde: "i want to take those together and come to a single strategie".

@@ -267,8 +267,13 @@ class _Server:
         self.quit()
 
 
-RESEND_DAY = 100            # Resend's free plan
-RESEND_FOR_STRANGERS = 60   # the rest, 40, stays for signed sign-in mail
+# RESEND PRO SINCE 2026-11-20 (Hidde, "Yes, Pro", after wave 3 filled his
+# Gmail's daily limit and Resend's free 100 the same afternoon and no sign-in
+# mail could go out): 50,000 a month, no daily cap. RESEND_DAY is that month
+# spread over its days; strangers still get only part of it, so a wave can
+# never take the room sign-in mail needs.
+RESEND_DAY = 1600           # 50,000 a month / 31
+RESEND_FOR_STRANGERS = 1000 # the rest stays for sign-in and other expected mail
 
 
 def resend_left_for_strangers(sent_log, today):
