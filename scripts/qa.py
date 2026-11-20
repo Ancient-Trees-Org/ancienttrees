@@ -1464,6 +1464,46 @@ def check_a_reader_photo_is_filed_by_season():
     return out
 
 
+def check_no_gps_in_public_copy():
+    """Shown text never narrates how a pin was obtained ("with a GPS fix
+    taken at its foot"); coordinates a visitor can type in are fine.
+
+    Hidde, 2026-11-20, on "met een GPS fix": "is dit voor de gebruiker of
+    voor jou", then "ja" to taking it out. The GPS fact lives in pin_source;
+    public copy never narrates our process (CLAUDE.md "Copy layers"). Reads
+    every text field the site or the app shows, English and translations;
+    "GPS" followed by a coordinate passes. Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    shown = {"story", "intro", "question_answer", "question_context", "how_to_recognise",
+             "recognise", "access", "address", "a", "q", "meta_description", "question_meta"}
+    # Allowed: a coordinate after it ("GPS 41.7", "GPS N44 32"), and the
+    # device as advice ("Bring a GPS", Achnacarry's off-path fir).
+    gps = re.compile(r"(?<!\ba )\bGPS\b(?! device)(?![\s:~]*[-+NSns]?\s?\d)")
+    out = []
+
+    def walk(x, key, where):
+        if isinstance(x, dict):
+            for k, v in x.items():
+                yield from walk(v, k, where)
+        elif isinstance(x, list):
+            for v in x:
+                yield from walk(v, key, where)
+        elif isinstance(x, str) and key in shown and gps.search(x):
+            yield where, key
+
+    files = sorted((root / "data" / "cities").glob("*.json")) + sorted((root / "data" / "i18n").glob("*/*.json"))
+    for p in files:
+        try:
+            doc = json.loads(p.read_text(encoding="utf-8"))
+        except ValueError:
+            continue
+        rel = str(p.relative_to(root))
+        for where, key in walk(doc, None, rel):
+            out.append("%s: a shown `%s` says GPS about how we placed a tree; say where it "
+                       "stands instead, the fix belongs in pin_source (Hidde 2026-11-20)" % (where, key))
+    return out
+
+
 def check_every_own_photo_has_a_card_copy():
     """Every photograph on our own domain, lead or strip, has its 500 copy in
     the manifest, unless the original is no wider than that.
@@ -4609,6 +4649,7 @@ def main():
         check_the_privacy_page_names_what_we_store,
         check_a_given_photo_records_the_yes,
         check_a_reader_photo_is_filed_by_season,
+        check_no_gps_in_public_copy,
         check_every_reader_photo_reaches_hidde,
         check_everything_sent_reaches_hidde,
         check_every_site_route_is_claimed_or_excluded,
@@ -4827,6 +4868,7 @@ def main():
     failures += check_the_privacy_page_names_what_we_store()
     failures += check_a_given_photo_records_the_yes()
     failures += check_a_reader_photo_is_filed_by_season()
+    failures += check_no_gps_in_public_copy()
     failures += check_every_own_photo_has_a_card_copy()
     failures += check_every_copy_is_its_photograph()
     failures += check_web_add_photo_is_shared()

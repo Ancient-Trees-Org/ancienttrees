@@ -48,7 +48,7 @@ TREES = [
    location={"address": "Churchyard, Church Road, Cusop, Herefordshire", "latitude": 52.0669347677227, "longitude": -3.1099705959563, "neighbourhood": "Cusop"},
    how_to_recognise="The big yew at the end of a curving gravel path in the churchyard: a squat, deeply fluted red trunk under a dense dark crown, an old lichened gravestone standing in the grass in front of it.",
    access="Free. A village churchyard, open in daylight.",
-   story=("Cusop sits on the English side of the Dulas Brook, a short walk from the bookshops of Hay-on-Wye, and in its churchyard a reader stopped at this yew and sent us a photograph with a GPS fix taken where they stood.\n\n"
+   story=("Cusop sits on the English side of the Dulas Brook, a short walk from the bookshops of Hay-on-Wye, and in its churchyard a reader stopped at this yew and sent us a photograph.\n\n"
           "What the picture shows is the kind of yew that makes people slow down in a churchyard. The trunk is short and enormously thick, its red bark running in deep vertical folds and ridges, as if several stems had grown together and kept on growing. Above it the crown spreads wide and dark, low enough on one side to brush the grass. Someone keeps a path of bare earth worn round the foot of it, and old headstones lean in the grass on either side.\n\n"
           "We do not yet know its girth or its age, and churchyard yews are famously hard to date: a hollow trunk loses the rings that would tell. If you have measured it, or know what the parish says about it, tell us here and we will add it with your figures.\n\n"
           "Go when the church is open and walk the path all the way round the trunk."),
@@ -61,7 +61,7 @@ TREES = [
    location={"address": "Near Lockehaven Street, west Pasadena", "latitude": 34.1386861166667, "longitude": -118.15981945, "neighbourhood": "Pasadena"},
    how_to_recognise="A pale grey fig on a bed of ivy, its roots pouring out in fat ribs around the base, with a white mansion under a green tiled roof and a row of flagpoles just beyond it.",
    access="The reader photographed it from the lawn beside the house. We have not confirmed whether these grounds are open at all hours; check before you go.",
-   story=("A reader walking in west Pasadena sent us this photograph with a GPS fix taken at the foot of the tree: a Moreton Bay fig, the Australian giant that Southern California planted in the late nineteenth century and has been living in the shade of ever since.\n\n"
+   story=("A reader walking in west Pasadena sent us this photograph from the foot of the tree: a Moreton Bay fig, the Australian giant that Southern California planted in the late nineteenth century and has been living in the shade of ever since.\n\n"
           "This one is all trunk and root. The smooth grey bole rises out of a bed of ivy and splits into great limbs that reach far out over the lawn, while at the bottom the roots run out in thick ribbed buttresses, the way a Moreton Bay fig props itself up as it ages. Behind it stands a white mansion with a green tiled roof and a row of flagpoles, the tree easily as wide as the front of the house is tall.\n\n"
           "We do not know the house's name for certain, who planted the fig, or when. If you know this tree, or the grounds it stands in, tell us here and we will put your words on the page.\n\n"
           "Stand back on the lawn to take in the whole spread of the crown, then walk in close to see the roots."),
@@ -74,7 +74,7 @@ TREES = [
    location={"address": "Forest beside Vía 927, Sabalito, Tilarán, Guanacaste", "latitude": 10.5645460347411, "longitude": -85.0081071938515, "neighbourhood": "Sabalito"},
    how_to_recognise="In the forest: a trunk made of many fused roots climbing together, with one root peeling away on the left to leave a tall open arch.",
    access="The reader reached it on foot through forest near Vía 927. We have not confirmed who owns the land; ask locally before you go.",
-   story=("\"It looks like an elephant's trunk,\" wrote the reader who sent this tree from the hills above Lake Arenal, near Tilarán in Costa Rica, with a GPS fix taken at its foot.\n\n"
+   story=("\"It looks like an elephant's trunk,\" wrote the reader who sent this tree from the hills above Lake Arenal, near Tilarán in Costa Rica.\n\n"
           "Look at the left side of the photograph and you can see what they mean. The trunk is not one trunk at all but a column of roots that have climbed together and fused, and one of them curls away from the rest and down to the ground, leaving a tall arch you could look through. That latticed, poured look is the mark of a strangler fig, which starts high in another tree and sends its roots down until they become a trunk of their own. The reader knows it as a kapok; tell us which you think it is.\n\n"
           "They put it at 300 to 400 years old and its girth at about twenty metres. Those are their figures, not a measurement we have seen, and a fig's fused trunk is hard to measure.\n\n"
           "If you go, walk round to the arch and stand inside it."),
@@ -87,7 +87,7 @@ TREES = [
    location={"address": "Above a stone wall and steps, Santa Rosa, Tilarán, Guanacaste", "latitude": 10.52263, "longitude": -84.966295, "neighbourhood": "Santa Rosa"},
    how_to_recognise="Three great pale figs grown into one mass of roots on a raised bank, held in by a low stone wall with steps running up beside it.",
    access="Seen from the steps beside the wall, where the reader stood. We have not confirmed who owns the land behind it.",
-   story=("\"3 trees in close proximity, saved from destruction by building a wall in front of them,\" wrote the reader who sent us this photograph from Santa Rosa, near Tilarán in Costa Rica, with a GPS fix taken at the steps.\n\n"
+   story=("\"3 trees in close proximity, saved from destruction by building a wall in front of them,\" wrote the reader who sent us this photograph from Santa Rosa, near Tilarán in Costa Rica.\n\n"
           "The wall is in the picture, a low run of grey stone with steps climbing beside it, and above it the three trees have grown into one another until it is hard to say where one ends. Pale roots hang from the branches, drop to the bank and thicken into new trunks, wrapping round the old ones in ropes and plates. That is how a fig behaves once it has room, and the reader's three look like it, although they know them as kapoks. Tell us which you think they are.\n\n"
           "The reader puts them at 300 to 400 years old and one trunk at about fifteen metres round. Those figures are theirs; we have not seen a measurement. Who built the wall, and when, we would love to know too.\n\n"
           "Stand on the steps and look up into the roots."),
@@ -100,7 +100,7 @@ TREES = [
    location={"address": "Courtyard of the Instituto Superior de Agronomia, Tapada da Ajuda, Lisbon", "latitude": 38.7077237792144, "longitude": -9.18254545517746, "neighbourhood": "Ajuda"},
    how_to_recognise="The single big oak filling the arcaded courtyard of the yellow agronomy building, its trunk behind a low box hedge and its crown as wide as the courtyard.",
    access="On the Instituto Superior de Agronomia campus in the Tapada da Ajuda; the reader walked into the courtyard. Visit in campus hours.",
-   story=("Lisbon's agronomy school has been teaching people about plants inside the walled Tapada da Ajuda for well over a century, and at the heart of its main building, in a courtyard ringed by yellow arcades, stands this oak. A reader sent us its photograph with a GPS fix from the courtyard.\n\n"
+   story=("Lisbon's agronomy school has been teaching people about plants inside the walled Tapada da Ajuda for well over a century, and at the heart of its main building, in a courtyard ringed by yellow arcades, stands this oak. A reader sent us its photograph from the courtyard.\n\n"
           "It is a Portuguese oak, Quercus faginea, the semi-evergreen oak of Iberia's hills, and it has had the courtyard to itself long enough to grow into the shape oaks take when nothing crowds them. A short thick trunk stands behind a low box hedge and opens almost at once into a dome of crooked limbs, as wide as the courtyard and nearly as tall as the building's roof. In the reader's picture the leaves are turning, brown and bronze against the grey sky.\n\n"
           "The reader gives it 96 years. We have no girth or record of its planting yet; if you know the campus's own story of this tree, tell us here.\n\n"
           "Walk the arcade all the way round and watch the crown change shape against the roofs."),
@@ -113,7 +113,7 @@ TREES = [
    location={"address": "Royal Botanic Gardens Victoria, Melbourne Gardens, South Yarra", "latitude": -37.8328053558392, "longitude": 144.982058420709, "neighbourhood": "South Yarra"},
    how_to_recognise="Beside a garden road: a low tree whose pale, peeling limbs spread from one base in every direction like the spokes of a wheel, one of them reaching almost to the path, behind a low rope.",
    access="Free, in the Royal Botanic Gardens; open daily.",
-   story=("\"It seems to reach out to say hello in all directions,\" wrote the reader who sent us this tree from Melbourne's Royal Botanic Gardens, with a GPS fix taken beside it.\n\n"
+   story=("\"It seems to reach out to say hello in all directions,\" wrote the reader who sent us this tree from Melbourne's Royal Botanic Gardens.\n\n"
           "It is a water gum, Tristaniopsis laurina, a tree of the creek banks of eastern Australia, usually neat and modest in a street. This one has been left to do as it likes. From a single base its limbs splay out like the spokes of a wheel, pale and smooth and peeling in patches, and the longest of them runs almost flat along the ground for metres before turning up towards the light, as if offering a hand to whoever walks along the road. A low rope keeps feet off its roots, and a garden label stands among the limbs.\n\n"
           "We do not know when it was planted or how wide it spreads. The gardens may; if you find out, tell us here.\n\n"
           "Walk round it on the grass side, where you can see every limb leave the base at once."),
@@ -126,7 +126,7 @@ TREES = [
    location={"address": "Royal Botanic Gardens Victoria, Melbourne Gardens, South Yarra", "latitude": -37.8314956491425, "longitude": 144.980384196569, "neighbourhood": "South Yarra"},
    how_to_recognise="Among tree ferns and tall palms: a smooth grey fig trunk leaning hard over a rusted steel boardwalk, its roots gripping the bank on the right.",
    access="Free, in the Royal Botanic Gardens; open daily.",
-   story=("A reader sent us this fig from the Royal Botanic Gardens in Melbourne with a GPS fix taken on the boardwalk beneath it, and the photograph explains why they stopped.\n\n"
+   story=("A reader sent us this fig from the Royal Botanic Gardens in Melbourne, taken on the boardwalk beneath it, and the photograph explains why they stopped.\n\n"
           "The tree leans. From a bank of roots on the right it sets off at a steep angle, smooth and grey, crosses over the walkway and only then bends upright, so that anyone on the boardwalk passes under the trunk itself. Around it the gardens have made a small rainforest: tree ferns unrolling at head height, bird's nest ferns in the roots, and fan palms rising straight past the fig into the canopy. Its roots spread in thick flanges over the bank, the way big figs hold themselves up.\n\n"
           "It is a fig, but which one we would like a reader to confirm: the flared roots and the broad leaves look like a Moreton Bay fig. We have no age or size for it yet; tell us here if you know.\n\n"
           "Walk the boardwalk slowly, and look up as you pass beneath the lean."),
@@ -140,7 +140,7 @@ TREES = [
    how_to_recognise="In the middle of the plaza: a fig whose roots run out over bare earth like a frozen river delta, under a crown that covers the lawns around it, inside a low iron railing.",
    access="Free, in a public plaza, open at all hours.",
    verified_sources=["https://buenosaires.gob.ar/sites/default/files/2024-04/Listado%20de%20%C3%81rboles%20Hist%C3%B3ricos%20y%20Notables%20-%20GCBA.pdf (Buenos Aires city government, list of historic and notable trees: Gomero de Plaza San Martín, Ficus macrophylla, notable)"],
-   story=("\"One of the oldest inhabitants of Buenos Aires,\" wrote the reader who sent us this tree from Plaza San Martín in Retiro, with a GPS fix taken among its roots. \"Possibly the second or third oldest tree after the Gomero de la Recoleta. This one is called Gomero de Plaza San Martín.\"\n\n"
+   story=("\"One of the oldest inhabitants of Buenos Aires,\" wrote the reader who sent us this tree from Plaza San Martín in Retiro. \"Possibly the second or third oldest tree after the Gomero de la Recoleta. This one is called Gomero de Plaza San Martín.\"\n\n"
           "The city knows it by that name too: its own list of historic and notable trees includes the Gomero de Plaza San Martín, a Moreton Bay fig, among the notable ones. Porteños call these Australian figs gomeros, and the plaza's is a giant. Its roots run out over the bare earth in every direction like the channels of a river delta, ribbed and grey and higher than a person's knee, and from them a short trunk breaks into limbs that carry the crown far out over the lawns.\n\n"
           "The reader puts it at 250 to 300 years and its girth at about twelve metres. Those figures are theirs; the city's list gives neither.\n\n"
           "Come at dusk, as the reader did, when the lamps come on under the crown."),
@@ -230,6 +230,8 @@ def main():
             del t["age_basis"]
         lead = by_sid[spec["sid"]]
         t["found_by_reader"] = {"sighting_id": spec["sid"], "date": TODAY}
+        # Stories never say how a pin was obtained (no "with a GPS fix": Hidde,
+        # 2026-11-20, qa check_no_gps_in_public_copy()).
         # A FIX, NOT A FINGER (Hidde, 2026-11-20): only a device fix or the
         # photograph's own location is GPS. A pin the reader dragged by hand
         # ("placed") or of unknown origin stays approximate; 31 live trees had

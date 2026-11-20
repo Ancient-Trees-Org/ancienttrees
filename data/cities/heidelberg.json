@@ -20,7 +20,7 @@
     },
     {
       "q": "Are the pins for these trees exact?",
-      "a": "Eight of the nine are approximate: the coordinate comes from a register's map or a mapped point rather than a GPS reading taken at the trunk, so expect the right street, garden or stretch of forest path rather than the exact spot."
+      "a": "Eight of the nine are approximate, so expect the right street, garden or stretch of forest path rather than the exact spot."
     },
     {
       "q": "Are these trees free to visit?",
@@ -277,7 +277,7 @@
         "longitude": 8.77402,
         "neighbourhood": "Ziegelhausen"
       },
-      "story": "On 5 April 1951 two pedunculate oaks on Münchelstrasse were made natural monuments on the same day, together with a lime a little further along the same track. Seventy-five years later all three are still in the register, and both oaks were photographed standing in November 2024.\n\nMünchelstrasse is not a town street but a forest track climbing above Ziegelhausen, the Heidelberg district on the Neckar east of the old town. The oaks are registered separately, as Münchelstrasse (1) and (2), about 70 metres apart, so this is a short walk between two trunks rather than a single stop. The lime, Linde Münchelstrasse, stands roughly 50 metres beyond the second oak.\n\nThat is close to everything on the record. The Baden-Württemberg register gives the names, the species and the date, and no girth, no height and no age. We have found no other source that does better, and we will not guess. A protection order in 1951 says somebody thought them worth keeping then; how old they already were, nobody wrote down. If you have put a tape round either trunk, or know why these two were singled out, tell us.\n\nOur pins come from the register's map rather than a GPS fix at the trunk, so expect to look around once you are on the track. We have not confirmed whether the ground at their feet is public, so stay on the path.",
+      "story": "On 5 April 1951 two pedunculate oaks on Münchelstrasse were made natural monuments on the same day, together with a lime a little further along the same track. Seventy-five years later all three are still in the register, and both oaks were photographed standing in November 2024.\n\nMünchelstrasse is not a town street but a forest track climbing above Ziegelhausen, the Heidelberg district on the Neckar east of the old town. The oaks are registered separately, as Münchelstrasse (1) and (2), about 70 metres apart, so this is a short walk between two trunks rather than a single stop. The lime, Linde Münchelstrasse, stands roughly 50 metres beyond the second oak.\n\nThat is close to everything on the record. The Baden-Württemberg register gives the names, the species and the date, and no girth, no height and no age. We have found no other source that does better, and we will not guess. A protection order in 1951 says somebody thought them worth keeping then; how old they already were, nobody wrote down. If you have put a tape round either trunk, or know why these two were singled out, tell us.\n\nOur pins are approximate, so expect to look around once you are on the track. We have not confirmed whether the ground at their feet is public, so stay on the path.",
       "how_to_recognise": "You can recognise them as the two oaks on the Münchelstrasse forest track above Ziegelhausen, about 70 metres apart. A registered lime stands some 50 metres further along the same track.",
       "verified_sources": [
         "https://de.wikipedia.org/wiki/Liste_der_Naturdenkmale_in_Heidelberg",

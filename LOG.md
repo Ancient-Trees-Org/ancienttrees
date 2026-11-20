@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: no shown text says how a pin was obtained ("with a GPS fix" gone)
+
+- **What changed on the site:** 183 sentences in stories, FAQ answers, place texts and recognition lines (English, and 10 in German, Spanish and Japanese) no longer say "with a GPS fix", "the pin is the reader's GPS fix", "a GPS reading of …" (Hidde: "is dit voor de gebruiker of voor jou", then "ja"). They now say where the tree stands; 4 sentences that said nothing else went. Asks to readers say "a photograph from its foot" instead of "a GPS fix". Kept: coordinates a visitor can type in, "Bring a GPS" for Achnacarry's off-path fir, and the honest "our pin is the register's point, not the trunk" warnings. Four place texts that fell under 150 words got a sentence back from their own story. Weeaproinah's "their fix" (a hand-placed pin) now says "the spot they marked".
+- **What stops it:** qa `check_no_gps_in_public_copy()` (red on 194 fields before, green after); the pattern script's eight example stories rewritten; BRIEF_READER_JUDGE.md says the GPS lives in `pin_source` only. Internal fields (`notes`, `photo_note`, `verify_notes`) keep their wording; the site never shows them.
+- **Left for a later look:** Berlin's Pfaueninsel oak opens on how a holiday photo located it; no GPS word left, but the story is about the finding, not the tree.
+
 ## 2026-11-20 session: nine stuck reader tips live, a reader's yes needs no OK, every live photo right-sized
 
 - **Live, from readers' tips that had sat as leads since 11-15 to 11-17** (verify pass, then a writing pass, two sources or a register each): heidelberg/hei_008 the Arboretum giant sequoia, hei_009 the Holdermann Oak (flagged, thin); new places ho-chi-minh-city/hcm_001 the banyan of Bach Tung Diep park (flagged), alerce-costero/alc_001 Gran Abuelo (paid, ranger-led), st-francisville/stf_001 the Cat Island bald cypress (flagged, refuge floods roughly December to June), cape-town/cpt_001 the Wedding Tree of Arderne Gardens (champion register), tsitsikamma/tsi_001 the Big Tree (champion register, paid), camaldoli/cml_001 Castagno Miraglia, mouriscas/mou_001 the Mouchao olive (ICNF register). Research in data/research/stuck-tips-2026-11-20-verified.json.
