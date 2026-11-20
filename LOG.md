@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: the map walk
+
+- **Every web map now walks the same steps before a deploy goes live** (Hidde: "welke vraag moet ik jou stellen dat je overal dezelfde kaart ervaring goed fixed"). scripts/pagecheck.py, already run in Chrome before the upload, walks the city, explore, country and state maps at 1440 and 1024 wide: pins stand absolute, the same buttons (zoom, one find-me, no full screen), pointing at a pin or a list row lights it and moves no other pin, a click opens the card beside its pin with its photograph, a full map keeps its place in the address. A map that answers differently keeps the old site live. qa holds the walk in place.
+- Proved both ways: on the live site it went red on what Hidde saw on Kyoto (pointing lights nothing; on a laptop the card covers its pin) and found the live explore map still carrying the loose pins (fixed in the deploy under way); on Kyoto built from main it is green; with `position:relative` put back it goes red ("10 pins not absolute", "pointing moved 5 other pins").
+- The iOS run marked failed at 13:54 was GitHub not finding a Mac runner, not code.
+
 ## 2026-11-20 session: La Tène is Laténa
 
 - **Live**: the Préfargier place page and its five trees say Laténa, the local name the reader and ambassador there asked for (Hidde: "follow the local"). The intro names La Tène once as the official name; "La Tène" stays a search name; URL /la-tene unchanged.

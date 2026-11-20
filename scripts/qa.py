@@ -387,6 +387,18 @@ def check_the_pages_run_before_they_go_live():
     rb = wf / "rollback.yml"
     if not rb.exists() or "download-artifact" not in rb.read_text(encoding="utf-8"):
         out.append("rollback.yml is gone: putting back a good build means a full 30 to 55 minute deploy")
+    # The map walk (Hidde, 2026-11-20: "welke vraag moet ik jou stellen dat je
+    # overal dezelfde kaart ervaring goed fixed"): every kind of website map
+    # walks the same steps in that Chrome before the upload.
+    pc = (root / "scripts" / "pagecheck.py").read_text(encoding="utf-8") if (root / "scripts" / "pagecheck.py").exists() else ""
+    for kind in ("city map", "explore map", "country map", "state map"):
+        if '"%s"' % kind not in pc:
+            out.append("pagecheck.py's MAP_WALK no longer walks the %s: one web map can drift from the others again" % kind)
+    for step in ("position:absolute", "does not light it", "moved %d other pin", "covers its own pin", "keep its place in the address"):
+        if step not in pc:
+            out.append("pagecheck.py's map walk lost a step (%s)" % step)
+    if "run_walk(" not in pc.split("def run(", 1)[-1]:
+        out.append("pagecheck.py's run() no longer runs the map walk")
     return out
 
 
