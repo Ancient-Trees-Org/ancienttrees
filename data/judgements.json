@@ -119,6 +119,20 @@
    "species": "Giant Sequoia (Sequoiadendron giganteum)"
   },
   {
+   "id": "sight:tip-1284",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Zetland Hill's Fig",
+   "photo": "p_c04ed68243689ce22381722a/581ebfae-9b85-4bc1-a495-40f8690959d1.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a pale buttressed Hill's fig with a dozen great limbs over a footpath bench among apartment blocks, daylight, colour. Lead photograph of sydney/syd_009.",
+   "city": "Sydney",
+   "species": "Hill's Fig (Ficus microcarpa var. hillii)"
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -19290,20 +19304,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:tip-1284",
-   "seen": "2026-11-20",
-   "kind": "a tree we do not map",
-   "tree": "The Zetland Hill's Fig",
-   "photo": "p_c04ed68243689ce22381722a/581ebfae-9b85-4bc1-a495-40f8690959d1.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: a pale buttressed Hill's fig with a dozen great limbs over a footpath bench among apartment blocks, daylight, colour. Lead photograph of sydney/syd_009.",
-   "city": "Sydney",
-   "species": "Hill's Fig (Ficus microcarpa var. hillii)"
   }
  ]
 }

@@ -241,6 +241,11 @@
    "status": "handled",
    "what": "Reader gave the held fig's street address; lead re-opened, judged and live as sydney/syd_009 with an approximate pin."
   },
+  "1300": {
+   "date": "2026-11-20",
+   "status": "handled",
+   "what": "address already on the live tree page and in its sources; nothing more to do"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

@@ -8,6 +8,13 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 reader judge: nothing new to put live
+
+- No product change this run. No reader photograph waits in the queue, no report is open, no tip is unjudged, no reader note waits to be quoted.
+- Mail reply 1300 (the Zetland fig's address, 25 Gadigal Avenue) was already on the live page and in its sources from the previous run: closed `handled`.
+- Left open: lead 3c544597 (Amsterdam, near Stationsplein, "not sure which tree") is from one of our own accounts (`mine: true`) and its photograph is not on disk, so it was not judged blind; the next run with the key fetches it.
+- data/judgements.json: the scan's reorder of the Zetland entry, no content change.
+
 ## 2026-11-20 reader judge: a sequoia at Chartwell and the Zetland fig go live
 
 - **Live: westerham/wsh_001, The Chartwell Sequoia** (sighting 1776f5e7, app). Photograph viewed: a straight red-brown giant sequoia rising above autumn broadleaves beside a leaf-covered path. The GPS fix is about 80 m from Chartwell house (National Trust, paid entry); the app called it "near Crowhurst", 7.5 km away, so it is filed under Westerham, a new one-tree place (no place page under the two-tree rule). Pin confirmed from the GPS fix, `taken_month` 11 from the photo's own date.
