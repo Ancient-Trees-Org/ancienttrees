@@ -37,11 +37,11 @@
       "age_max": 160,
       "location": {
         "address": "Curtain Square, Canning Street entrance, Carlton North VIC 3054",
-        "latitude": -37.7896464335,
-        "longitude": 144.9723914723,
+        "latitude": -37.78941,
+        "longitude": 144.973603,
         "neighbourhood": "Carlton North"
       },
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "access": "Free, always open. Public City of Yarra park (also used as an off-leash dog area).",
       "transport": "Curtain Square/Rathdowne St bus stop is directly outside; tram route 96 on Nicholson Street is roughly a 5-10 minute walk.",
       "story": "This park was a hole in the ground, and prisoners dug it. Between 1853 and 1866 the block was a bluestone quarry worked by men from the Collingwood Stockade, and bluestone is the rock Melbourne's kerbs and laneways are still made of. The pit was filled, levelled and planted, and Curtain Square became a square. This fig went in somewhere after that. It is a Moreton Bay fig, Ficus macrophylla, an Australian tree but not a Melbourne one: its home range runs up the east coast around Moreton Bay in Queensland, roughly 1,400 kilometres north, and Victorian gardeners planted it down here anyway for the shade and the ropey buttress roots. It stands 25 metres tall with a trunk of about 4.77 metres round, converted from the 152 centimetres of diameter at breast height the City of Yarra's register publishes, because the register measures across the trunk rather than around it. Local accounts describe a surviving avenue of Moreton Bay figs at the Canning Street entrance, which is where this tree stands. Whether this particular trunk belongs to that avenue is not something anyone has written down. Its age is the register's own band, over a hundred years at the survey in August 2012, and there is no planting date on record. If you know one, tell us.",
@@ -51,10 +51,17 @@
       ],
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/mel_005-the-moreton-bay-fig-of-curtain-square-72e483a0.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_222183a8bfd1e5262ec0f187",
+        "sighting_id": "72e483a0-37d2-44ba-91d8-6a7d28bde297",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: Sent for the plane (mel_006) but shows the same Moreton Bay fig as db51a305, 13 m from it: fused grey stems from below, buttress roots in mulch, city towers behind, overcast daylight. Retargeted to mel_005. Species seen: smooth grey fused stems, large glossy leaves, flared roots: Ficus macrophylla. Fits the description: the ropey, buttressed trunk at the Canning Street side of Curtain Square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its ropey, buttressed roots spreading from a trunk about 4.77 metres round. It stands near the Canning Street entrance of Curtain Square, Carlton North.",
       "official_register": {
@@ -63,7 +70,29 @@
       },
       "girth_cm": 478,
       "height_m": 25,
-      "verify_notes": "2026-11-20 reader judge: three photographs from two readers, sent for this fig from within 15 m of our pin (the City of Yarra register's coordinate), all show a furrowed-barked elm, now mel_021. The fig stands somewhere in Curtain Square but the register's point is not at it: pin set approximate until a photograph of the fig itself places it."
+      "verify_notes": "2026-11-20 reader judge: three photographs from two readers, sent for this fig from within 15 m of our pin (the City of Yarra register's coordinate), all show a furrowed-barked elm, now mel_021. The fig stands somewhere in Curtain Square but the register's point is not at it: pin set approximate until a photograph of the fig itself places it. 2026-11-20 reader judge (later): two readers photographed the fig itself at the Canning Street side (db51a305, 72e483a0, 13 m apart); the pin moved 110 m to db51a305's fix and is confirmed again.",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
+        "moved_m": 110,
+        "date": "2026-11-20",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mel_005-the-moreton-bay-fig-of-curtain-square.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_e2c999cdc7d88128b77253b8",
+          "sighting_id": "db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: The whole Moreton Bay fig from the path: a fluted, many-stemmed grey trunk on ropey buttress roots over bark mulch, a second fig behind it, park lawn and terraces beyond, overcast daylight, colour. Taken at the Canning Street side of Curtain Square, where our page puts this fig; the register's pin 110 m west is the elm mel_021. Species seen: glossy oval evergreen leaves, smooth grey fused stems, buttress roots: Ficus macrophylla. Fits the description: ropey buttressed roots spreading from a massive trunk, near the Canning Street entrance of Curtain Square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "mel_006",
@@ -78,7 +107,7 @@
         "longitude": 144.9736909453,
         "neighbourhood": "Carlton North"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "access": "Free, always open. Public City of Yarra park.",
       "transport": "Curtain Square/Rathdowne St bus stop is directly outside; tram route 96 on Nicholson Street is roughly a 5-10 minute walk.",
       "story": "The most recent evidence that this tree is standing is from 2012. The City of Yarra's arborists surveyed Curtain Square in August of that year and recorded a London plane on the Rathdowne Street side of the park: 24 metres tall, 170 centimetres of diameter at breast height, which converts to roughly 5.34 metres of girth, since the register publishes the width across a trunk rather than the measure around it. Only one trunk on this page is heavier, the holm oak in Edinburgh Gardens. The age band on the record is 81 to 100 years, putting the planting somewhere in the decade after the First World War and the tree at roughly a century now. Nothing newer than that survey turned up. Squares here do lose trees: in 2017 Curtain Square's avenue of elms, some of them about a hundred years old, was cut down on safety grounds and replaced with scarlet oaks. That was a different avenue and a different species, and nothing suggests this plane was touched. Still, if you walk through, look and tell us what is there. London plane is a hybrid of an American and an oriental parent, crossed in the seventeenth century, and it turned out to shrug off soot, drought and butchered roots better than anything else, which is why it lines streets on five continents including this one.",
@@ -98,7 +127,8 @@
         "url": null
       },
       "girth_cm": 534,
-      "height_m": 24
+      "height_m": 24,
+      "verify_notes": " 2026-11-20 reader judge: at this register pin (City of Yarra ref 190) a reader photographed the Moreton Bay fig (72e483a0, now on mel_005), not a plane. The register's two Curtain Square points do not match the trees on the ground, so this pin is approximate until a photograph of the plane places it."
     },
     {
       "id": "mel_001",

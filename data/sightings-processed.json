@@ -5811,7 +5811,8 @@
   "f871f444-7053-4566-bc71-c225c095152f": {
    "outcome": "published",
    "date": "2026-11-20",
-   "tree_id": "bri_024"
+   "tree_id": "bri_024",
+   "pin_checked": "2026-11-20"
   },
   "6991cd88-4db1-41ec-8a39-2b58e7e1d093": {
    "outcome": "held",
@@ -5820,12 +5821,14 @@
   "bd71c73b-e90b-4f73-80b5-881761c55479": {
    "outcome": "published",
    "date": "2026-11-20",
-   "tree_id": "bri_025"
+   "tree_id": "bri_025",
+   "pin_checked": "2026-11-20"
   },
   "995a659b-6ca9-45f1-9873-2a9d8caa9d30": {
    "outcome": "published",
    "date": "2026-11-20",
-   "tree_id": "ott_022"
+   "tree_id": "ott_022",
+   "pin_checked": "2026-11-20"
   },
   "87930ec6-49a8-4d09-b1aa-233e645888c9": {
    "outcome": "published",
@@ -5844,6 +5847,28 @@
    "date": "2026-11-20",
    "tree_id": "mel_021",
    "reason": "Same trunk again, the whole tree from the lawn: furrowed bark, elm-like leaves, no buttress roots. Not a Moreton Bay fig."
+  },
+  "db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "mel_005",
+   "city_slug": "melbourne",
+   "file": "mel_005-the-moreton-bay-fig-of-curtain-square.jpg",
+   "reason": "The whole Moreton Bay fig from the path: a fluted, many-stemmed grey trunk on ropey buttress roots over bark mulch, a second fig behind it, park lawn and terraces beyond, overcast daylight, colour. Taken at the Canning Street side of Curtain Square, where our page puts this fig; the register's pin 1",
+   "lat": -37.7894102548877,
+   "lon": 144.97360335167,
+   "pin_checked": "2026-11-20"
+  },
+  "72e483a0-37d2-44ba-91d8-6a7d28bde297": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "mel_005",
+   "city_slug": "melbourne",
+   "file": "mel_005-the-moreton-bay-fig-of-curtain-square-72e483a0.jpg",
+   "reason": "Sent for the plane (mel_006) but shows the same Moreton Bay fig as db51a305, 13 m from it: fused grey stems from below, buttress roots in mulch, city towers behind, overcast daylight. Retargeted to mel_005. Species seen: smooth grey fused stems, large glossy leaves, flared roots: Ficus macrophylla. ",
+   "lat": -37.7894321714263,
+   "lon": 144.973664634809,
+   "pin_checked": "2026-11-20"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

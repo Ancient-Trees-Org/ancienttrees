@@ -1712,7 +1712,17 @@
   },
   "p_222183a8bfd1e5262ec0f187": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "72e483a0-37d2-44ba-91d8-6a7d28bde297",
+     "tree_id": "mel_005",
+     "tree_name": "The Moreton Bay Fig of Curtain Square",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "4be001d1-ee21-48f8-81df-67bf1bb02d41",
@@ -2537,6 +2547,21 @@
      "mailed": "2026-11-20"
     }
    ]
+  },
+  "p_e2c999cdc7d88128b77253b8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
+     "tree_id": "mel_005",
+     "tree_name": "The Moreton Bay Fig of Curtain Square",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

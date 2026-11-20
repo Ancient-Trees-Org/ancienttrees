@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Curtain Square fig's first photographs, and its pin is now where the fig stands
+
+- **mel_005, The Moreton Bay Fig of Curtain Square**: two readers photographed the fig itself at the Canning Street side of the square. db51a305 is the lead photograph. 72e483a0 was sent for the plane (mel_006) but shows the same fig 13 m away, so it went into the strip. The pin moved 110 m to the photograph's GPS fix and is confirmed again; this settles the run above's "approximate until a photograph of the fig places it". The readers' mails are pending in the weekly bundle.
+- **mel_006, The London Plane**: its register pin (City of Yarra ref 190) is where that fig stands, so it is now `approximate` with a verify_note until somebody photographs the plane. The register's two Curtain Square points do not match the trees on the ground (the fig point is the elm mel_021).
+- This run started at the same time as the run above and duplicated its trees. That commit was dropped before it was pushed (branch `backup-reader-judge-2026-11-20-dup`, local only), and only the fig work that run had not done was redone. The two runs disagreed on one tree: the other run held the Cáceres sweet gum (6991cd88) as `not_special`, and this run would have published it for its colour. The hold stands; it is a judgement call Hidde can overturn.
+
 ## 2026-11-20 reader judge: two Bristol oaks, a canal willow in Ottawa, and the Curtain Square "fig" that is an elm
 
 - **Live, readers' trees**: bri_024 The Split Oak on the Stoke Park Slope and bri_025 The Antlered Oak (Bristol, now 25 trees), ott_022 The Thick-trunked Willow of the Rideau Canal (Ottawa, now 22), all with the photograph's own GPS (confirmed) and month (10, 11, 9). bri_025's access line says we have not confirmed who owns the wood. The willow is `Willow (Salix sp.)`; the reader's "crack willow" is in the story as theirs. Tip 1333 was the same Stoke Park oak sent twice. Place counts updated (Bristol intro and meta, Ottawa meta, context, FAQ).
