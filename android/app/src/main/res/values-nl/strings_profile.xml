@@ -20,6 +20,7 @@
     <string name="signin_open_mail">Open mail</string>
     <string name="signin_again">Stuur een nieuwe link</string>
     <string name="signin_check_sent_to">We hebben een inloglink gestuurd naar %1$s.</string>
+    <string name="signin_check_spam">Niet gevonden? Kijk in je spammap.</string>
     <string name="signin_suggest">Bedoel je %1$s?</string>
     <string name="signin_change">Ander adres gebruiken</string>
     <string name="signed_in">Ingelogd</string>

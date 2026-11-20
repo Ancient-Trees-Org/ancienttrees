@@ -20,6 +20,7 @@
     <string name="signin_open_mail">Apri Mail</string>
     <string name="signin_again">Invia un altro link</string>
     <string name="signin_check_sent_to">Abbiamo inviato un link di accesso a %1$s.</string>
+    <string name="signin_check_spam">Non lo trovi? Guarda nella cartella spam.</string>
     <string name="signin_suggest">Intendevi %1$s?</string>
     <string name="signin_change">Usa un altro indirizzo</string>
     <string name="signed_in">Accesso effettuato</string>

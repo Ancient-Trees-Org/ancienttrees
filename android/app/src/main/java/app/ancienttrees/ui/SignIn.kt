@@ -364,6 +364,8 @@ private fun CheckYourEmail(account: Account, to: String) {
             },
             fontSize = 15.sp, color = brand.inkSoft, textAlign = TextAlign.Center,
         )
+        // Where a link that is not in the inbox usually is (Hidde, 2026-11-20).
+        Text(stringResource(R.string.signin_check_spam), fontSize = 15.sp, color = brand.inkSoft, textAlign = TextAlign.Center)
     }
     account.problem?.let { Text(problemText(it), fontSize = 13.sp, color = Color(0xFFFF3B30)) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.padding(top = 4.dp)) {

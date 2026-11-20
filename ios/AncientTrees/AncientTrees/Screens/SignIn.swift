@@ -337,6 +337,11 @@ struct SignInSheet: View {
                  + Text(to).bold() + Text("."))
                     .font(.subheadline).foregroundStyle(Brand.inkSoft)
                     .multilineTextAlignment(.center)
+                // Where a link that is not in the inbox usually is (Hidde,
+                // 2026-11-20, after Guardian-day sign-ups never got in).
+                Text("Not there? Look in your spam folder.")
+                    .font(.subheadline).foregroundStyle(Brand.inkSoft)
+                    .multilineTextAlignment(.center)
             }
             .frame(maxWidth: .infinity)
             .padding(.horizontal, 22)

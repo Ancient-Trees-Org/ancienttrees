@@ -85,6 +85,10 @@ export interface SignInStrings {
    *  language that puts the address before the verb splits it that way. */
   sentBody1: string;
   sentBody2: string;
+  /** Under the sent line: where a link that is not in the inbox usually is
+   *  (Hidde, 2026-11-20, after Guardian-day sign-ups never got in; the
+   *  Slack, Notion and Medium step says the same). */
+  spam: string;
   /** Under the email field when the part after the @ is one or two letters
    *  off a known provider (2026-11-16). %s is the corrected address, which
    *  is the button that puts it in. */
@@ -134,6 +138,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Check your inbox",
     sentBody1: "We sent a sign-in link to ",
     sentBody2: ". It works once and brings you straight back here.",
+    spam: "Not there? Look in your spam folder.",
     suggest: "Did you mean %s?",
     noMail: "That address can't receive mail.",
     change: "Use a different address",
@@ -171,6 +176,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Mira tu bandeja de entrada",
     sentBody1: "Hemos enviado un enlace de acceso a ",
     sentBody2: ". Funciona una vez y te trae de vuelta aquí.",
+    spam: "¿No lo ves? Mira en la carpeta de spam.",
     suggest: "¿Querías decir %s?",
     noMail: "Esa dirección no puede recibir correo.",
     change: "Usar otra dirección",
@@ -205,6 +211,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Controlla la posta",
     sentBody1: "Abbiamo inviato un link di accesso a ",
     sentBody2: ". Funziona una volta sola e ti riporta esattamente qui.",
+    spam: "Non lo trovi? Guarda nella cartella spam.",
     suggest: "Intendevi %s?",
     noMail: "Questo indirizzo non può ricevere posta.",
     change: "Usa un altro indirizzo",
@@ -239,6 +246,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Kijk in je inbox",
     sentBody1: "We hebben een inloglink gestuurd naar ",
     sentBody2: ". Hij werkt één keer en brengt je terug naar deze pagina.",
+    spam: "Niet gevonden? Kijk in je spammap.",
     suggest: "Bedoel je %s?",
     noMail: "Dit adres kan geen mail ontvangen.",
     change: "Ander adres gebruiken",
@@ -273,6 +281,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Schau in dein Postfach",
     sentBody1: "Wir haben einen Anmeldelink an ",
     sentBody2: " geschickt. Er funktioniert einmal und bringt dich direkt hierher zurück.",
+    spam: "Nicht da? Schau in deinen Spam-Ordner.",
     suggest: "Meintest du %s?",
     noMail: "Diese Adresse kann keine Mails empfangen.",
     change: "Andere Adresse verwenden",
@@ -307,6 +316,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Vê a tua caixa de entrada",
     sentBody1: "Enviámos um link de acesso para ",
     sentBody2: ". Funciona uma vez e traz-te de volta a esta página.",
+    spam: "Não o encontras? Vê na pasta de spam.",
     suggest: "Querias dizer %s?",
     noMail: "Este endereço não pode receber e-mails.",
     change: "Usar outro endereço",
@@ -341,6 +351,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "Regardez votre boîte mail",
     sentBody1: "Nous avons envoyé un lien de connexion à ",
     sentBody2: ". Il fonctionne une seule fois et vous ramène directement ici.",
+    spam: "Introuvable ? Regardez dans vos spams.",
     suggest: "Vouliez-vous dire %s ?",
     noMail: "Cette adresse ne peut pas recevoir d'e-mails.",
     change: "Utiliser une autre adresse",
@@ -375,6 +386,7 @@ export const SIGNIN: Record<Lang, SignInStrings> = {
     sentTitle: "受信トレイを確認する",
     sentBody1: "サインインのリンクを ",
     sentBody2: " に送った。リンクは一度だけ使えて、いまいたページに戻る。",
+    spam: "届いていなければ、迷惑メールフォルダを確認する。",
     suggest: "もしかして %s?",
     noMail: "このアドレスはメールを受け取れません。",
     change: "別のアドレスを使う",
