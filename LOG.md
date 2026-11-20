@@ -9,6 +9,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: the digest's photo rows count by the day a photo was sent
+
+- **Fixed (Hidde: "can we fix the photo counts?")**: the day-by-day table's Website, iPhone and Android photo rows left out every photo Hidde had already looked at on the digest page and dated the rest by `updated_at`, which every app sync moves. So the Guardian week read 0 photos from 11-15 to 11-18. They now count each sighting's photo on the day the file reached the bucket (`_photo_uploaded()` in scripts/daily_digest.py, one bucket listing per account). From 11-14 to 11-20: 466 iPhone, 26 Android (all on 11-19, the first Android test day), 24 website; 185 iPhone photos on 11-15 alone.
+- App Store rating (UK store lookup): 4.76 from 46 ratings; all 8 written reviews since 11-15 are five stars.
+
 ## 2026-11-20 reader judge: the Mahakali Vad banyan in Gujarat, and an autumn plane in Lyon
 
 - **Live, a new place**: kantharpura/knt_001, The Mahakali Vad of Kantharpura (Dehgam taluka, Gandhinagar district, Gujarat), sent through the app with the photograph's own location. Photograph viewed: a banyan grown into a fenced grove of grey trunks and hanging roots, broken limbs on the ground. The reader named it; narendramodi.in (2013, about 500 years, Mahakali temple beneath, "Mini Kabirvad") and Gujarat Samachar (2024, broken branches) are its two sources. The reader's 400 to 700 years and half an acre are stated as theirs; their note reads partly like pasted text, so only one short phrase is quoted. Pin confirmed, photo filed in September from its own date. One-tree place: intro, question texts and three FAQ written. city_names.py found no Wikipedia article for Kantharpura.

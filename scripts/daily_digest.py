@@ -1445,6 +1445,29 @@ def _supa_rows(path, key, timeout=30):
         start += PAGE
 
 
+def _photo_uploaded(rows, key):
+    """{photo path: upload time} for the sightings' lead photographs, from the
+    bucket's own file dates, one listing per account. The sightings table has
+    no sent date: `updated_at` moves with every app sync and `taken_at` is the
+    camera's."""
+    out, by_user = {}, collections.defaultdict(set)
+    for r in rows:
+        if r.get("photo"):
+            by_user[r["user_id"]].add(r["photo"])
+    for uid, photos in by_user.items():
+        req = urllib.request.Request(
+            SUPA + "/storage/v1/object/list/sightings",
+            data=json.dumps({"prefix": uid + "/", "limit": 1000}).encode(), method="POST",
+            headers={"apikey": key, "Authorization": "Bearer " + key, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            files = json.load(r)
+        for f in files or []:
+            path = uid + "/" + f.get("name", "")
+            if path in photos and f.get("created_at"):
+                out[path] = f["created_at"]
+    return out
+
+
 def _auth_users(key):
     """Every account, not only the first page of 1,000."""
     out, page = [], 1
@@ -2432,17 +2455,22 @@ def day_by_day_section(today):
             except Exception as e:
                 print("day_by_day %s: %s" % (name, str(e)[:100]))
         # Reader photographs, one row per surface (Hidde, 2026-11-12: a website
-        # upload was counted as an app photo). A sighting the app merely re-sent
-        # (same content, new updated_at) is not a new photograph
-        # (scripts/sighting_changes.py).
+        # upload was counted as an app photo), on the day the file reached our
+        # bucket. Not `updated_at`, which every app sync moves, and not "unseen
+        # on the digest page" either: that dropped every photo Hidde had looked
+        # at, so the Guardian days read 0 (Hidde, 2026-11-20: "can we fix the
+        # photo counts?"). A sent photo's row has updated_at after its upload,
+        # so the updated_at filter still finds every candidate.
         try:
             shot = [r for r in _supa_rows("/rest/v1/sightings?select=*&shared=eq.true"
                                           "&photo=not.is.null&updated_at=gte.%s&order=updated_at"
                                           % since, key)
-                    if not is_ours(r.get("user_id")) and sighting_changes.status(r) != "same"]
+                    if not is_ours(r.get("user_id"))]
+            sent = _photo_uploaded(shot, key)
             for where in sighting_changes.SURFACES:
                 fill("%s photos" % where.capitalize() if where == "website" else "%s photos" % where,
-                     [(r.get("updated_at"), 1) for r in shot if sighting_changes.surface(r) == where])
+                     [(sent[r["photo"]], 1) for r in shot
+                      if sighting_changes.surface(r) == where and sent.get(r["photo"], "") >= since[:10]])
         except Exception as e:
             print("day_by_day photos: %s" % str(e)[:100])
         try:
