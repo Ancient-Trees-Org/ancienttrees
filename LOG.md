@@ -9,6 +9,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Willistown oak's owner says yes
+
+- **Mail reply 1332** (the Willistown reader): the neighbour who owns the lawn under wtn_002, The White Oak of Bryan Avenue, is happy for it to be on the site and knows it may bring visitors. The tree was already live; the consent is in its verify_notes, the access line stays (look from the street). Closed `handled`; nothing in it to quote (reader_words `--done`). No mail from this run.
+- Nothing else waited: 0 open reports, 0 new submissions, 0 photographs in the queue. **Not judged**: 3c544597 (Amsterdam, our own account) still has no file on disk.
+
 ## 2026-11-20 reader judge: a white oak in Willistown, and 7.25 m on the Brandywine Sycamore
 
 - **Live**: wtn_002, The White Oak of Bryan Avenue (Willistown, now two trees, so the place page's intro, meta, answer, context and FAQ cover both). A huge open-grown white oak on a private front lawn, in plain view from the street; three photographs from the reader (whole tree, limbs, burred trunk), filed in November from their own date. Their figures (510 cm, 300+ years) are stated as theirs; pin hand-placed, so approximate; access says stay on the street. Very likely the front-yard oak from Joey's 2026-11-17 mail; the page says nothing about the owner. Congratulation mail goes once the tree is in the live feed (tree_approved.py on the next knock).
