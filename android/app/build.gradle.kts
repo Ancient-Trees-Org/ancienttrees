@@ -47,7 +47,7 @@ android {
         applicationId = "app.ancienttrees.android"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
+        versionCode = 4
         versionName = "0.1.0"
     }
 
@@ -77,6 +77,11 @@ android {
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             if (uploadKey.isNotEmpty()) signingConfig = signingConfigs.getByName("upload")
+            // NO NATIVE SYMBOLS TO SHIP (2026-11-20): Play warns they are missing, but
+            // MapLibre's Maven .so files come already stripped, so ndk.debugSymbolLevel
+            // put nothing in the bundle (tried on build 4). A crash inside the map's C++
+            // shows in Play vitals as addresses; our own code's crashes carry their line
+            // through ExitWatch's crash note and the proguard.map in every bundle.
         }
         // THE PLAY BUILD'S R8, WITH THE TEST DOOR OPEN: shrunk and renamed with the
         // same rules as release, but debuggable, so LaunchArgs reads the walk's

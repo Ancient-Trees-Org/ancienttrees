@@ -125,7 +125,18 @@ object ExitWatch {
             }
             Measure.event("app_exit_abnormal", props)
         }
-        if (newest != seen) prefs.edit().putLong(SEEN, newest).apply()
+        val mark = nextMark(seen, newest, System.currentTimeMillis())
+        if (mark != seen) prefs.edit().putLong(SEEN, mark).apply()
         return noteSent
     }
+
+    /**
+     * The mark after a look. The first look sets it to now even when the phone has
+     * no exits on record: left at 0, the next look counted as "first" again and
+     * swallowed the first real crash, freeze or map crash after a clean install
+     * (found 2026-11-20 on build 4's own crash proof, which arrived as a loose
+     * app_crash_note instead of beside its app_exit_abnormal).
+     */
+    internal fun nextMark(seen: Long, newestExit: Long, now: Long): Long =
+        if (seen == 0L) maxOf(newestExit, now) else maxOf(seen, newestExit)
 }

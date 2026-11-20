@@ -47,6 +47,20 @@ class ExitWatchTest {
     }
 
     @Test
+    fun theFirstLookSetsTheMarkEvenWithNoExits() {
+        // A clean install has no exits on record: the mark must still move off 0,
+        // or the first real crash afterwards is taken for "first look" and dropped.
+        assertEquals(1_000L, ExitWatch.nextMark(seen = 0L, newestExit = 0L, now = 1_000L))
+        assertEquals(2_000L, ExitWatch.nextMark(seen = 0L, newestExit = 2_000L, now = 1_000L))
+    }
+
+    @Test
+    fun laterLooksFollowTheExitsNotTheClock() {
+        assertEquals(1_000L, ExitWatch.nextMark(seen = 1_000L, newestExit = 900L, now = 5_000L))
+        assertEquals(3_000L, ExitWatch.nextMark(seen = 1_000L, newestExit = 3_000L, now = 5_000L))
+    }
+
+    @Test
     fun aCauseLoopEnds() {
         val a = RuntimeException("a")
         val b = RuntimeException("b", a)
