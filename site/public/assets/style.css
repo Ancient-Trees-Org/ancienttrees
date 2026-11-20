@@ -3519,7 +3519,15 @@ figure.season .ph-foot { font-size: 12px; line-height: 1.5; }
    guidelines, read that day at m3.material.io/components/snackbar/guidelines:
    "at the bottom of a UI, in front of the main content", never in front of
    navigation; here the map is the main content and the list is the panel. */
+/* ON EVERY OTHER PAGE ON A COMPUTER it sits bottom-left, 24 from the edges,
+   as wide as its words (Hidde, 2026-11-20, on New from visitors: "de
+   plaatsing ... is een beetje raar"): the 96 above is room for the phone's
+   tab bar, which a computer does not have, so it floated over the grid.
+   Gmail's "Conversation archived / Undo", Airbnb's "Saved to wishlist" and
+   Material's snackbar on large screens all sit in that corner. */
 @media (min-width: 801px) {
+  body:not(:has(.split)) .at-snack { left: 24px; bottom: 24px; transform: none;
+    width: auto; min-width: 320px; max-width: 480px; }
   body:has(.split) .at-snack { --panel: min(30rem, 45vw);
     left: calc(var(--panel) + (100vw - var(--panel)) / 2); bottom: 24px;
     width: min(480px, calc(100vw - var(--panel) - 32px)); }
