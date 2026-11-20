@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: the Android tester group said "no permission" to everyone
+
+- **Breakage, found by a tester** (journalist reply to wave 3: "it says I don't have permission"): the Google Group was set to "who can view conversations: owners only", so its link in the wave-3 mail showed non-members "You don't have permission to access this content" instead of the group. About 266 of the 277 wave-3 mails sent today pointed there (the first 11 are also on Alpha's e-mail list). The group had 12 members.
+- **Fixed in Chrome on Hidde's word**: who can view conversations is now "anyone on the web" (posting stays owners only, members list managers only, anyone can join). Seen signed out: the page now reads "No conversations yet" instead of the error. Google shows the Join button only to someone signed in, which every tester is (a Gmail address). Not seen as a signed-in non-member.
+- **Open**: a short "fixed now" reply to the journalist and maybe a one-line follow-up to the other wave-3 recipients, on Hidde's word. The 500 still waiting can go as they are.
+
 ## 2026-11-20 reader judge: the Betsey Williams Sycamore, Providence (a new place)
 
 - **New tree, new place**: the Betsey Williams Sycamore in Roger Williams Park, Providence, Rhode Island (`providence/pvd_001`), from a reader's photograph of the big sycamore beside the red Betsey Williams Cottage. The pin was placed by hand, so it stays approximate. The reader's history of the tree (planted by Betsey Williams's parents in the early 1780s) and their figures (about 240 years, 450 cm round) are on the page as theirs. One-tree place, so it gets no place page on the web (PLACE_PAGE_MIN_TREES 2). Providence added to data/us-states.json.
@@ -69,6 +75,10 @@
 - **A reader's yes to our question no longer waits for Hidde** (Hidde: "dont wait for my ok if a user agrees to our question", "why do i need to agree on ambassador ship"): BRIEF_READER_JUDGE.md and CLAUDE.md. Done on it: Jairam's line quoted on cam_011 (quote_ok set), Teresa ambassador of La Tene on her account, Lisa a yes on the Android tester list (her join link had already gone 11-19). His reply to the Vilnius tester (1273) is sent.
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
+
+## 2026-11-20 session: pins stacked and jumped on every web map (found by Hidde, fixed)
+
+- **What was broken, 13:16 to this push**: the app-pin change wrote the pin's CSS into the page after MapLibre's, with `position: relative`, which beat MapLibre's `position: absolute` for markers. Every pin then sat lower by the height of the pins before it in the page, so the pins jumped whenever one came or went (pointing along the list, a tap) and a chosen pin stood far from its own card (Hidde on Kyoto: "als ik ... hover over de lijst dan verspringen de pins en de pins openen niet de airbnb preview"). My test page hid it because the live style.css still carried the old rule then. Fixed: no position on .pin-tree; qa `check_every_map_shows_pins_the_same_way()` refuses one in pinCss() or style.css (tested both ways); escaped bug recorded with that check. And pointing at a tree in the list no longer moves the other pins at all (it was full-pin-first, so neighbours could turn into dots): eight hovers on Kyoto, zero pin moved; a tapped dot's pin now stands beside its card.
 
 ## 2026-11-20 session: one map
 

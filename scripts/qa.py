@@ -3562,6 +3562,18 @@ def check_every_map_shows_pins_the_same_way():
     eng = engine.read_text() if engine.exists() else ""
     if "function atTreePins(" not in eng or "${PIN_DISTANCE}" not in eng or "${FAR_PIN_DISTANCE}" not in eng:
         problems.append("tree-pins-js.ts no longer places the one tree pin by PIN_DISTANCE from lib/map.ts")
+    # The pin's own CSS never sets position: a pin is a MapLibre marker, placed
+    # absolutely; a position written after MapLibre's sheet stacked every pin
+    # under the ones before it (2026-11-20, Kyoto: pins jumped on hover and the
+    # chosen pin stood far from its card). Same for style.css's .pin-tree.
+    css_fn = re.search(r"function pinCss\(.*?\n\}", eng, re.S)
+    if css_fn and re.search(r"position\s*:", re.sub(r"//[^\n]*", "", css_fn.group(0))):
+        problems.append("tree-pins-js.ts pinCss() sets a position on .pin-tree: MapLibre places markers absolutely, and this overrides it")
+    style = ROOT / "site" / "public" / "assets" / "style.css"
+    if style.exists():
+        for m in re.finditer(r"(^|\})\s*\.pin-tree\s*\{([^}]*)\}", style.read_text()):
+            if re.search(r"position\s*:", m.group(2)):
+                problems.append("style.css gives .pin-tree a position: MapLibre places markers absolutely, and this overrides it")
     # And the map around the pins is one too (Hidde, 2026-11-20: "zijn de
     # explore kaart de stadskaart en de kaart op profiel nu een en hetzelfde
     # product?"): every map script that draws trees builds its map through

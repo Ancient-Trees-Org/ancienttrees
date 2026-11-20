@@ -569,6 +569,17 @@
    "fixed_in": "da7cbb6de",
    "found_by": "hidde",
    "test": "android/app/src/test/java/app/ancienttrees/ui/SheetsRulesTest.kt theMapsAppGetsTheLinkItOpensWhileRunning"
+  },
+  {
+   "id": "ESC-2026-11-20-map-pins-stacked-under-each-other-and-ju",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/tree-pins-js.ts",
+   "summary": "Map pins stacked under each other and jumped on hover; the chosen pin stood far from its card (pin CSS set position:relative over MapLibre's absolute markers)",
+   "first_seen": "2026-11-20",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_every_map_shows_pins_the_same_way: refuses a position on .pin-tree in pinCss() and style.css"
   }
  ]
 }

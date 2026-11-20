@@ -50,7 +50,14 @@ const PIN_TICKET = icon("ticket", "fill", "pin-ticket-ic");
 function pinCss(S: typeof PIN_SPEC): string {
   const CHOSEN = Math.round(S.size * S.chosenScale);
   const CHOSEN_GLYPH = Math.round(S.glyph * S.chosenScale);
-  return `.pin-tree{position:relative;width:${S.size}px;height:${S.size}px;box-sizing:border-box;border-radius:50%;` +
+  // NO position HERE, EVER: a pin is a MapLibre marker, which MapLibre places
+  // with position:absolute and a transform. This sheet is written into the
+  // page after MapLibre's, so a position here won: on 2026-11-20 it said
+  // relative, every pin then sat below the ones before it in the page, the
+  // pins jumped whenever one came or went (a hover, a tap) and the chosen pin
+  // stood far from its card (Hidde, on Kyoto). The marker is already a
+  // positioned box for the corners. qa: check_every_map_shows_pins_the_same_way.
+  return `.pin-tree{width:${S.size}px;height:${S.size}px;box-sizing:border-box;border-radius:50%;` +
   `background:${S.fill};border:${S.ringWidth}px solid ${S.ring};box-shadow:0 3px 10px rgba(26,26,20,0.28);` +
   `cursor:pointer;display:flex;align-items:center;justify-content:center;transition:box-shadow .18s ease}` +
   `.pin-tree>svg{width:${S.glyph}px;height:${S.glyph}px;color:${S.ring}}` +
@@ -200,13 +207,12 @@ function atTreePins(map, o) {
       var c = f.geometry.coordinates;
       return c[0] >= west && c[0] <= east && c[1] >= south && c[1] <= north;
     }
-    // The chosen and the pointed-at tree first: always full.
-    [sel, hov].forEach(function(id) {
-      if (id === null) { return; }
-      var f = byId[id];
-      if (!f || !candidate(f)) { return; }
-      put(f, map.project(f.geometry.coordinates));
-    });
+    // The chosen tree first: always full, and its neighbours make room.
+    if (sel !== null && byId[sel] && candidate(byId[sel])) { put(byId[sel], map.project(byId[sel].geometry.coordinates)); }
+    // The pointed-at tree is full too, drawn over the rest, but it moves
+    // nothing: pointing along the list must not make the other pins jump
+    // (Hidde, 2026-11-20, on Kyoto; Airbnb's map stays put while you point).
+    if (hov !== null && hov !== sel && byId[hov] && candidate(byId[hov])) { want[hov] = byId[hov]; }
     // A TREE YOU SAVED IS PLACED FIRST, so it is never the dot under a
     // neighbour (Hidde, 2026-11-12; CONVENTIONS.md "A tree you saved, on every
     // map"), then the rest in pin order.
