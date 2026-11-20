@@ -320,6 +320,11 @@
       "slug": "chicago",
       "kind": "verify",
       "released_at": "2026-11-20T07:46:24+00:00"
+    },
+    {
+      "slug": "rome",
+      "kind": "verify",
+      "released_at": "2026-11-20T07:48:45+00:00"
     }
   ]
 }
