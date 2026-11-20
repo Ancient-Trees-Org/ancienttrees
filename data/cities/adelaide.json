@@ -88,14 +88,14 @@
         "status": "missing"
       },
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "girth_cm": 845,
       "height_m": 30.5,
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "aac60386-7889-4a79-831d-3b506278d45b",
         "date": "2026-11-15",
-        "note": "The reader's GPS fix at the tree on the Glynburn Road verge."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
     },
     {
@@ -139,18 +139,18 @@
         "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The red gum in the middle of Overbury Drive at sunset, whole crown in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "source": "a reader's app photograph",
         "date": "2026-11-17",
-        "note": "GPS fix at the tree."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
     }
   ],
   "question_meta": "A River Red Gum in Rostrevor, Adelaide, about 200 years old by a reader's estimate. Where it stands and how to see it.",
   "question_answer": "A reader-found River Red Gum (Eucalyptus camaldulensis) stands beside a shallow stream in Rostrevor, in Adelaide's eastern suburbs. The reader who photographed it for us puts it at about 200 years old. It is free to see from the creek bank.",
-  "question_context": "The age is a reader's estimate. No register lists the tree and no encyclopaedia article describes it, so nothing has been checked against a record, and nobody has published a tape measurement. The reader who photographed it for us gives the species as River Red Gum, Eucalyptus camaldulensis, the tree of Australian watercourses, which is often found standing with its roots at the water's edge as this one does. The photograph shows a broad, straight trunk flaring into thick roots over a stony stream bed, and a long wound part way up the trunk that has healed into a rolled lip of bark around bare, ridged wood. Paler gums lean over the grass behind it. River red gums are known for reaching great ages, but whether this one is two centuries old is for a tape and a specialist to say. What the picture settles is that it is a big, old-looking tree in a place a visitor can reach and stand in front of. The pin is the reader's own GPS fix at the tree.",
+  "question_context": "The age is a reader's estimate. No register lists the tree and no encyclopaedia article describes it, so nothing has been checked against a record, and nobody has published a tape measurement. The reader who photographed it for us gives the species as River Red Gum, Eucalyptus camaldulensis, the tree of Australian watercourses, which is often found standing with its roots at the water's edge as this one does. The photograph shows a broad, straight trunk flaring into thick roots over a stony stream bed, and a long wound part way up the trunk that has healed into a rolled lip of bark around bare, ridged wood. Paler gums lean over the grass behind it. River red gums are known for reaching great ages, but whether this one is two centuries old is for a tape and a specialist to say. What the picture settles is that it is a big, old-looking tree in a place a visitor can reach and stand in front of. The pin is where the reader marked the tree on the map.",
   "faq": [
     {
       "q": "How old is this red gum?",

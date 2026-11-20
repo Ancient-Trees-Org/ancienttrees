@@ -8,11 +8,11 @@
   "oldest_tree_id": "knk_001",
   "question_meta": "A very tall forest tree beside a track near Kanharpuri in Kanker district, Chhattisgarh, sent by a reader: where it stands and what we know.",
   "question_answer": "The Tall Tree on the Kanker Forest Track stands beside a forest track near Kanharpuri in Kanker district, Chhattisgarh. The reader reached it on foot; we have not confirmed who manages the forest.",
-  "question_context": "A reader sent us this tree from the forests of Kanker district in Chhattisgarh, central India, with a GPS fix taken at its foot, and the photograph needs no words to explain why. It stands beside a red-earth track that runs off into the trees, and it is simply taller than everything else. The trunk goes up ruler-straight, without a single branch, for what looks like four or five times the height of the person standing at its foot with one hand on the bark. Only near the top does it open into a small crown, and on the way up clumps of leafy plants have taken hold on the bark, epiphytes that live on the tree without rooting in the soil. Morning light falls through the bamboo and the forest on either side. We do not know its species. The bark is dark and furrowed in long vertical lines; if you can name it, or know how tall it is, tell us here and we will add your words. If you go, stand where the reader did and follow the trunk all the way up.",
+  "question_context": "A reader sent us this tree from the forests of Kanker district in Chhattisgarh, central India, and the photograph needs no words to explain why. It stands beside a red-earth track that runs off into the trees, and it is simply taller than everything else. The trunk goes up ruler-straight, without a single branch, for what looks like four or five times the height of the person standing at its foot with one hand on the bark. Only near the top does it open into a small crown, and on the way up clumps of leafy plants have taken hold on the bark, epiphytes that live on the tree without rooting in the soil. Morning light falls through the bamboo and the forest on either side. We do not know its species. The bark is dark and furrowed in long vertical lines; if you can name it, or know how tall it is, tell us here and we will add your words. If you go, stand where the reader did and follow the trunk all the way up.",
   "faq": [
     {
       "q": "Where is the tall tree near Kanker?",
-      "a": "Beside a red-earth forest track near Kanharpuri, west of Kanker town in Chhattisgarh. Its page has the reader's GPS point."
+      "a": "Beside a red-earth forest track near Kanharpuri, west of Kanker town in Chhattisgarh. Its page has the spot the reader marked on the map."
     },
     {
       "q": "What species is it?",
@@ -37,18 +37,18 @@
       "how_to_recognise": "Beside a red-earth forest track: one ruler-straight trunk, far taller than the trees around it, with clumps of leafy epiphytes clinging to the bark high up.",
       "access": "The reader reached it on foot along a forest track. We have not confirmed who manages the forest; ask locally before you go.",
       "verified_sources": [],
-      "story": "A reader sent us this tree from the forests of Kanker district in Chhattisgarh, central India, with a GPS fix taken at its foot, and the photograph needs no words to explain why.\n\nIt stands beside a red-earth track that runs off into the trees, and it is simply taller than everything else. The trunk goes up ruler-straight, without a single branch, for what looks like four or five times the height of the person standing at its foot with one hand on the bark. Only near the top does it open into a small crown, and on the way up clumps of leafy plants have taken hold on the bark, epiphytes that live on the tree without rooting in the soil. Morning light falls through the bamboo and the forest on either side.\n\nWe do not know its species. The bark is dark and furrowed in long vertical lines; if you can name it, or know how tall it is, tell us here and we will add your words.\n\nIf you go, stand where the reader did and follow the trunk all the way up.",
+      "story": "A reader sent us this tree from the forests of Kanker district in Chhattisgarh, central India, and the photograph needs no words to explain why.\n\nIt stands beside a red-earth track that runs off into the trees, and it is simply taller than everything else. The trunk goes up ruler-straight, without a single branch, for what looks like four or five times the height of the person standing at its foot with one hand on the bark. Only near the top does it open into a small crown, and on the way up clumps of leafy plants have taken hold on the bark, epiphytes that live on the tree without rooting in the soil. Morning light falls through the bamboo and the forest on either side.\n\nWe do not know its species. The bark is dark and furrowed in long vertical lines; if you can name it, or know how tall it is, tell us here and we will add your words.\n\nIf you go, stand where the reader did and follow the trunk all the way up.",
       "found_by_reader": {
         "sighting_id": "f8c010fc-a646-477e-b1f8-dc71c5562eec",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "f8c010fc-a646-477e-b1f8-dc71c5562eec",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 session: sent by a reader (f8c010fc-a646-477e-b1f8-dc71c5562eec, 2026-11-17, through the app). Photograph viewed: a very tall straight trunk from the ground to the crown beside a forest track, a person at its foot for scale, epiphytes on the bark, morning daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",

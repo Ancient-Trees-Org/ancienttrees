@@ -36,11 +36,11 @@
       "verify_notes": "2026-11-15: sent by a reader through the app with a GPS fix at the tree: 'The venerable Linton Yew stands hard by the porch of St Mary's Church, Linton Herefordshire. One mighty limb is supported on concrete stilts. She shares the churchyard with another ancient yew and several younger siblings. She still wears the scars of a fire in 1998', girth 950 cm, age 1500. Ancient Tree Forum site page (St Mary's Church, Linton HR9 7RX): girth over 9 metres, 'the largest of two old yews in St Mary's churchyard', deliberately set on fire in 1998 and severely damaged, recovered well 16 years on, certainly older than the 800-year ancient threshold, no rings to count. Friends of Linton Yews (lintonvillage.com): thought to be up to 1,500 years old, a strong contender for the oldest tree in England, girth unchanged since the early 1800s, new growth away from the fire damage. A search summary of the Ancient Yew Group survey and Tree Register give about 9.86 m (not read first-hand, so girth_cm is the reader's 950). Other sources cite 4,000 years; we state the 1,500 as the Friends' figure only. The concrete stilts are the reader's report, not found in a source. Photograph: the reader's, viewed, a misty daylight frame of the whole tree beside the churchyard path; a second shows the hollow bole with a keep-out sign. Pin: reader's GPS fix, confirmed.",
       "access": "Free, in the churchyard of St Mary's Church beside the porch; keep out of the hollow trunk and off the roots.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "date": "2026-11-15",
-        "note": "The reader's GPS fix at the tree, taken in the churchyard by the porch of St Mary's church."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/lnt_001-the-linton-yew.jpg",

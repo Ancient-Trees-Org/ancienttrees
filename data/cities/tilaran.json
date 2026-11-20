@@ -22,20 +22,20 @@
       },
       "how_to_recognise": "In the forest: a trunk made of many fused roots climbing together, with one root peeling away on the left to leave a tall open arch.",
       "access": "The reader reached it on foot through forest near Vía 927. We have not confirmed who owns the land; ask locally before you go.",
-      "story": "\"It looks like an elephant's trunk,\" wrote the reader who sent this tree from the hills above Lake Arenal, near Tilarán in Costa Rica, with a GPS fix taken at its foot.\n\nLook at the left side of the photograph and you can see what they mean. The trunk is not one trunk at all but a column of roots that have climbed together and fused, and one of them curls away from the rest and down to the ground, leaving a tall arch you could look through. That latticed, poured look is the mark of a strangler fig, which starts high in another tree and sends its roots down until they become a trunk of their own. The reader knows it as a kapok; tell us which you think it is.\n\nThey put it at 300 to 400 years old and its girth at about twenty metres. Those are their figures, not a measurement we have seen, and a fig's fused trunk is hard to measure.\n\nIf you go, walk round to the arch and stand inside it.",
+      "story": "\"It looks like an elephant's trunk,\" wrote the reader who sent this tree from the hills above Lake Arenal, near Tilarán in Costa Rica.\n\nLook at the left side of the photograph and you can see what they mean. The trunk is not one trunk at all but a column of roots that have climbed together and fused, and one of them curls away from the rest and down to the ground, leaving a tall arch you could look through. That latticed, poured look is the mark of a strangler fig, which starts high in another tree and sends its roots down until they become a trunk of their own. The reader knows it as a kapok; tell us which you think it is.\n\nThey put it at 300 to 400 years old and its girth at about twenty metres. Those are their figures, not a measurement we have seen, and a fig's fused trunk is hard to measure.\n\nIf you go, walk round to the arch and stand inside it.",
       "verified_sources": [],
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 session: sent by a reader (00fd8d2f-72a7-44c8-9d4a-7f1eb5380462, 2026-11-16, through the app). Photograph viewed: the whole lower trunk from below, a lattice of roots and an arch at the left, forest around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Kapok', species 'Kapok', age '300 to 400 years old', girth 2000 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
@@ -102,7 +102,7 @@
   ],
   "question_meta": "Two giant figs near Tilarán in Guanacaste, Costa Rica, sent by a reader: where they stand and what we know about them.",
   "question_answer": "The two trees on this page stand near Tilarán, in the hills of Guanacaste above Lake Arenal in northern Costa Rica: one in forest near Sabalito, the other above a stone wall at Santa Rosa, about six kilometres apart.",
-  "question_context": "Both trees here were sent by one reader, with GPS fixes taken at each. The first stands in forest near Sabalito, a column of fused roots with one root curling away to leave an open arch, which the reader says looks like an elephant's trunk. The second is a group of three trees grown into one mass above a low stone wall at Santa Rosa, which the reader says was built in front of them to save them from destruction. The reader knows both as kapoks and puts them at 300 to 400 years old; their fused, poured roots look like those of a strangler fig, so we ask readers which they are. The ages and girths are the reader's, not measurements we have seen, and we have not confirmed who owns the land. Tilarán is a small market town above the western end of Lake Arenal, and both trees stand in the hills around it. The pins on this page are the reader's own GPS fixes, taken where they stood.",
+  "question_context": "Both trees here were sent by one reader. The first stands in forest near Sabalito, a column of fused roots with one root curling away to leave an open arch, which the reader says looks like an elephant's trunk. The second is a group of three trees grown into one mass above a low stone wall at Santa Rosa, which the reader says was built in front of them to save them from destruction. The reader knows both as kapoks and puts them at 300 to 400 years old; their fused, poured roots look like those of a strangler fig, so we ask readers which they are. The ages and girths are the reader's, not measurements we have seen, and we have not confirmed who owns the land. Tilarán is a small market town above the western end of Lake Arenal, and both trees stand in the hills around it. The pins on this page are where the reader marked the trees.",
   "faq": [
     {
       "q": "Are these trees kapoks or figs?",

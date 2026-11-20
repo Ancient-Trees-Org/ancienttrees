@@ -21,18 +21,18 @@
       },
       "how_to_recognise": "Seen from the open sand of the riverbed: one tree standing far above the green tangle of the bank, a bare trunk forking into great limbs under a wide, flat, feathery crown.",
       "access": "The reader stood on the open sand of the riverbed below it. We have not confirmed who owns the bank where it grows; ask locally before you go.",
-      "story": "\"Senegalia galpinii,\" wrote the reader who sent us this tree from a sandy riverbed about eleven kilometres north of Francistown in Botswana, with a GPS fix taken below it. Its common name is the monkey thorn, a southern African cousin of the acacias, and this one stands far above everything around it.\n\nThe photograph makes the scale plain. Two people wade barefoot through a thin sheet of water on the sand, and behind them the bank rises in a dense green wall of bush. Out of that wall climbs a single bare trunk, which forks into a few great limbs and then opens into a wide, flat crown of feathery leaves against a hard blue sky. The people barely reach the foot of the bush beneath it.\n\nThe reader puts its trunk at about 450 centimetres round. That is their figure, not one we have seen measured, and we have no age for the tree. If you know this stretch of river, what the people living near it call the tree, or how old it might be, tell us here and we will add it.\n\nStand out on the open sand, where the reader stood, to take in the whole crown at once.",
+      "story": "\"Senegalia galpinii,\" wrote the reader who sent us this tree from a sandy riverbed about eleven kilometres north of Francistown in Botswana. Its common name is the monkey thorn, a southern African cousin of the acacias, and this one stands far above everything around it.\n\nThe photograph makes the scale plain. Two people wade barefoot through a thin sheet of water on the sand, and behind them the bank rises in a dense green wall of bush. Out of that wall climbs a single bare trunk, which forks into a few great limbs and then opens into a wide, flat crown of feathery leaves against a hard blue sky. The people barely reach the foot of the bush beneath it.\n\nThe reader puts its trunk at about 450 centimetres round. That is their figure, not one we have seen measured, and we have no age for the tree. If you know this stretch of river, what the people living near it call the tree, or how old it might be, tell us here and we will add it.\n\nStand out on the open sand, where the reader stood, to take in the whole crown at once.",
       "found_by_reader": {
         "sighting_id": "e4cabea6-fb02-470f-b13c-7851eb3553bc",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "e4cabea6-fb02-470f-b13c-7851eb3553bc",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 reader judge: sent by a reader (e4cabea6-fb02-470f-b13c-7851eb3553bc, 2026-11-17, through the app). Photograph viewed: the whole tall tree from the sandy riverbed, a bare trunk splitting into great limbs and a wide flat crown of feathery leaves over the green bank, two people wading below for scale, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Senegalia Galpinii', species 'Senegalia Galpinii', age 'None', girth 450 cm, note ''. Every figure on the page that is not in verified_sources is stated as theirs.",
@@ -52,7 +52,7 @@
   ],
   "question_meta": "A towering monkey thorn on a sandy riverbed north of Francistown, Botswana, sent by a reader: where it grows and what we know about it.",
   "question_answer": "The Monkey Thorn on the Riverbed grows on the bank of a sandy riverbed about eleven kilometres north of Francistown. A reader saw it from the open sand below; we have not confirmed who owns the bank.",
-  "question_context": "A reader sent us this tree from a sandy riverbed about eleven kilometres north of Francistown in Botswana, with a GPS fix taken on the sand below it, and named it Senegalia galpinii. Its common name is the monkey thorn, a southern African cousin of the acacias. In their photograph two people wade barefoot through a thin sheet of water on the riverbed, and behind them the bank rises in a dense green wall of bush. A single bare trunk climbs out of it, forks into a few great limbs and opens into a wide, flat crown of feathery leaves that stands far above everything around it. The reader puts the trunk at about 450 centimetres round. That figure is theirs, not one we have seen measured, and we have no age for the tree. It is best seen from the open sand, where the reader stood. We have not confirmed who owns the bank where it grows, so ask locally before you go.",
+  "question_context": "A reader sent us this tree from a sandy riverbed about eleven kilometres north of Francistown in Botswana, and named it Senegalia galpinii. Its common name is the monkey thorn, a southern African cousin of the acacias. In their photograph two people wade barefoot through a thin sheet of water on the riverbed, and behind them the bank rises in a dense green wall of bush. A single bare trunk climbs out of it, forks into a few great limbs and opens into a wide, flat crown of feathery leaves that stands far above everything around it. The reader puts the trunk at about 450 centimetres round. That figure is theirs, not one we have seen measured, and we have no age for the tree. It is best seen from the open sand, where the reader stood. We have not confirmed who owns the bank where it grows, so ask locally before you go.",
   "faq": [
     {
       "q": "Where is the monkey thorn near Francistown?",

@@ -21,7 +21,7 @@
         "longitude": -78.4604887448675,
         "neighbourhood": "Earlysville Road"
       },
-      "story": "A reader sent this oak as the Earlysville Oak, a white oak they put at about 450 years old, with a GPS fix taken in the field where it stands beside Earlysville Road, near the Charlottesville-Albemarle Airport in Virginia. On OpenStreetMap the same spot is marked as the Airport Oak.\n\nThe photograph shows the whole tree from across a mown field, and it is enormous. A short, broad trunk carries a crown that fills the sky, wider than it is tall, its lower limbs sweeping out almost level with the ground. The top of the crown has turned a deep red-brown while the lower branches are still green. Four people stand at the foot of the trunk and look small beside it, and two pickup trucks are parked under the edge of the crown.\n\nThe age is the reader's estimate, and we have no girth, height or register entry yet, so treat it as their figure. The leaves are too far off in the photograph to settle the species, so this page lists the tree as an oak and gives the reader's white oak beside it. If you have measured it, tell us here.\n\nWe do not know who owns the field. Look at the tree from the road.",
+      "story": "A reader sent this oak as the Earlysville Oak, a white oak they put at about 450 years old, standing in a field beside Earlysville Road, near the Charlottesville-Albemarle Airport in Virginia. On OpenStreetMap the same spot is marked as the Airport Oak.\n\nThe photograph shows the whole tree from across a mown field, and it is enormous. A short, broad trunk carries a crown that fills the sky, wider than it is tall, its lower limbs sweeping out almost level with the ground. The top of the crown has turned a deep red-brown while the lower branches are still green. Four people stand at the foot of the trunk and look small beside it, and two pickup trucks are parked under the edge of the crown.\n\nThe age is the reader's estimate, and we have no girth, height or register entry yet, so treat it as their figure. The leaves are too far off in the photograph to settle the species, so this page lists the tree as an oak and gives the reader's white oak beside it. If you have measured it, tell us here.\n\nWe do not know who owns the field. Look at the tree from the road.",
       "how_to_recognise": "A huge lone oak in a mown field by Earlysville Road, a short broad trunk under a crown far wider than it is tall, its lowest limbs sweeping out almost level with the grass.",
       "verified_sources": [],
       "found_by_reader": {
@@ -31,13 +31,13 @@
       "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting 62a9482b). Photograph viewed: The whole tree from across a field, crown and trunk both readable, people at its foot for scale, daylight, colour, GPS fix. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix.",
       "access": "Stands in an open mown field beside Earlysville Road. We do not know who owns the field, so look at it from the road unless a sign says otherwise.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d",
         "moved_m": 0,
         "date": "2026-11-16",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/ely_001-the-airport-oak-of-earlysville.jpg",
@@ -57,7 +57,7 @@
   ],
   "question_meta": "The Airport Oak by Earlysville Road, Virginia: a reader's photograph, where it stands and what is known about it.",
   "question_answer": "The Airport Oak of Earlysville stands at Earlysville Road, near Charlottesville-Albemarle Airport, Albemarle County, Virginia. Stands in an open mown field beside Earlysville Road. We do not know who owns the field, so look at it from the road unless a sign says otherwise.",
-  "question_context": "A reader sent this oak as the Earlysville Oak, a white oak they put at about 450 years old, with a GPS fix taken in the field where it stands beside Earlysville Road, near the Charlottesville-Albemarle Airport in Virginia. On OpenStreetMap the same spot is marked as the Airport Oak. The photograph shows the whole tree from across a mown field, and it is enormous. A short, broad trunk carries a crown that fills the sky, wider than it is tall, its lower limbs sweeping out almost level with the ground. The top of the crown has turned a deep red-brown while the lower branches are still green. Four people stand at the foot of the trunk and look small beside it, and two pickup trucks are parked under the edge of the crown. The age is the reader's estimate, and we have no girth, height or register entry yet, so treat it as their figure. The leaves are too far off in the photograph to settle the species, so this page lists the tree as an oak and gives the reader's white oak beside it. If you have measured it, tell us here.",
+  "question_context": "A reader sent this oak as the Earlysville Oak, a white oak they put at about 450 years old, standing in a field beside Earlysville Road, near the Charlottesville-Albemarle Airport in Virginia. On OpenStreetMap the same spot is marked as the Airport Oak. The photograph shows the whole tree from across a mown field, and it is enormous. A short, broad trunk carries a crown that fills the sky, wider than it is tall, its lower limbs sweeping out almost level with the ground. The top of the crown has turned a deep red-brown while the lower branches are still green. Four people stand at the foot of the trunk and look small beside it, and two pickup trucks are parked under the edge of the crown. The age is the reader's estimate, and we have no girth, height or register entry yet, so treat it as their figure. The leaves are too far off in the photograph to settle the species, so this page lists the tree as an oak and gives the reader's white oak beside it. If you have measured it, tell us here.",
   "faq": [
     {
       "q": "Can I visit The Airport Oak of Earlysville?",

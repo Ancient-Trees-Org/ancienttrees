@@ -152,18 +152,18 @@
       "how_to_recognise": "The one big tree rising out of the scrub: a broad dark dome of evergreen oak, far taller and wider than the young pines and broom in front of it, its grey trunk forking low down.",
       "access": "The reader photographed it from the edge of the scrub near Carrer dels Avellaners, in the upper part of Altafulla. We have not confirmed who owns the ground it stands on, so look from where they stood.",
       "verified_sources": [],
-      "story": "A reader on the hillside above Altafulla, a few kilometres up the coast from Tarragona, sent us this oak with a GPS fix taken where they stood looking at it.\n\nIt is easy to see why they stopped. Everything around it is young: pines no taller than a person, yellow broom, the dense low green of Mediterranean scrub. Out of the middle of it rises one great evergreen oak, its crown a broad dark dome many times the size of anything near it, its grey trunk forking low into heavy limbs. To our eyes it is a holm oak, the alzina of Catalonia, whose small, tough, dark leaves give the crown that close, almost woolly look; tell us if you know it better.\n\nWe do not know its age or girth, how long the ground around it has been scrub, or who has looked after it. If you do, tell us here and we will add it as yours, and if you can stand closer, a photograph of the trunk would help the next person find it.\n\nCome towards evening, when the crown stands dark against a pale sky and the scrub below it turns gold.",
+      "story": "A reader on the hillside above Altafulla, a few kilometres up the coast from Tarragona, sent us this oak, photographed from where they stood looking at it.\n\nIt is easy to see why they stopped. Everything around it is young: pines no taller than a person, yellow broom, the dense low green of Mediterranean scrub. Out of the middle of it rises one great evergreen oak, its crown a broad dark dome many times the size of anything near it, its grey trunk forking low into heavy limbs. To our eyes it is a holm oak, the alzina of Catalonia, whose small, tough, dark leaves give the crown that close, almost woolly look; tell us if you know it better.\n\nWe do not know its age or girth, how long the ground around it has been scrub, or who has looked after it. If you do, tell us here and we will add it as yours, and if you can stand closer, a photograph of the trunk would help the next person find it.\n\nCome towards evening, when the crown stands dark against a pale sky and the scrub below it turns gold.",
       "found_by_reader": {
         "sighting_id": "1c528293-5004-4f58-9db6-1d635195b42a",
         "date": "2026-11-20"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "1c528293-5004-4f58-9db6-1d635195b42a",
         "moved_m": 0,
         "date": "2026-11-20",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-20 reader judge: sent by a reader (1c528293-5004-4f58-9db6-1d635195b42a, 2026-11-20, through the app). Photograph viewed: a big evergreen oak with a broad dark dome of a crown standing well above young pines, broom and scrub, its grey forked trunk visible low down, overcast evening daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree in Tarragona', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",

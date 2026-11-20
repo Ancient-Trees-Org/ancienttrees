@@ -116,6 +116,39 @@ def taken_month(row):
     return int(when[5:7]) if len(when) >= 7 and when[5:7].isdigit() else None
 
 
+_KINDS = None
+
+
+def location_kind(sighting_id):
+    """Where a new tree's coordinate came from, as the app said it:
+    "device" (GPS, standing at the tree), "photo" (the photograph's own
+    location) or "placed" (placed on the map by hand); None when unknown.
+
+    Hidde, 2026-11-20 ("kun je eens alle punten langs gaan waar bomen
+    binnenkomen"): the app writes this into the tree's submissions row as
+    location_hint "lat, lng (<note>)" (Submissions.swift, CollectSheet.Fix),
+    but nothing read it, and 31 live trees whose pin the reader had dragged
+    by hand went out as a confirmed GPS fix. Only "device" and "photo" are a
+    fix; preflight's check_a_hand_placed_pin_is_not_a_fix() holds that.
+    """
+    global _KINDS
+    if _KINDS is None:
+        _KINDS = {}
+        try:
+            rows = supa("/rest/v1/submissions?select=tree,location_hint"
+                        "&location_hint=not.is.null&limit=10000") or []
+        except Exception as e:
+            print(f"sightings inbox: could not read location hints ({e.__class__.__name__})")
+            rows = []
+        for r in rows:
+            h = r.get("location_hint") or ""
+            kind = ("placed" if "by hand" in h else "photo" if "photograph’s own" in h
+                    or "photograph's own" in h else "device" if "GPS, standing" in h else None)
+            if kind:
+                _KINDS[(r.get("tree") or "").lower()] = kind
+    return _KINDS.get((sighting_id or "").lower())
+
+
 def unsure_sightings():
     """{sighting id (lower case): the candidates the app offered} for every
     photograph a reader sent with "not sure which tree".
@@ -876,6 +909,9 @@ def main():
                     "girth_hugs": row.get("girth_hugs"),
                     "note": (row.get("note") or "")[:500],
                     "latitude": row.get("lat"), "longitude": row.get("lng"),
+                    # device | photo | placed | None: only the first two are a
+                    # GPS fix (location_kind above, Hidde 2026-11-20).
+                    "location_kind": None if row.get("from_tip") else location_kind(sid),
                     # THE PLACE THEY TYPED, for a tip with no coordinate
                     # (2026-11-16: the Akaroa totara and the Kaštel Štafilić
                     # olive sat as "no coordinate or place name" for a day

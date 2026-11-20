@@ -140,7 +140,7 @@
         "longitude": -0.760613487902489,
         "neighbourhood": "Linford Wood"
       },
-      "story": "\"A row of Old Apple trees possibly Bramley,\" wrote the reader who sent us this photograph from Linford Wood in Milton Keynes, with a GPS fix taken on the path beside them.\n\nMilton Keynes is a town of grid roads and long paths, and this row is the kind of thing a walker passes without a second look until they stop. The apple trees stand in a line along the edge of a paved path, between the grass and a tall hedge. They are not young. Their trunks are grey, split and hollowed, some with dark open wounds, and nearly all of them lean the same way, out towards the path, as if the whole row had been pushed by one wind for decades. Above them the crowns are still green and full, and the reader stood under one that reaches right out over the grass.\n\nWe do not know who planted them, or when, or whether they are Bramleys, as the reader thinks; Bramley is a cooking apple, so if they are, autumn should bring big sour fruit. If you know the story of this row, or can name the variety, tell us here and we will add it with your words.\n\nWalk the path slowly and look at the trunks one by one, because no two have twisted the same way.",
+      "story": "\"A row of Old Apple trees possibly Bramley,\" wrote the reader who sent us this photograph from Linford Wood in Milton Keynes.\n\nMilton Keynes is a town of grid roads and long paths, and this row is the kind of thing a walker passes without a second look until they stop. The apple trees stand in a line along the edge of a paved path, between the grass and a tall hedge. They are not young. Their trunks are grey, split and hollowed, some with dark open wounds, and nearly all of them lean the same way, out towards the path, as if the whole row had been pushed by one wind for decades. Above them the crowns are still green and full, and the reader stood under one that reaches right out over the grass.\n\nWe do not know who planted them, or when, or whether they are Bramleys, as the reader thinks; Bramley is a cooking apple, so if they are, autumn should bring big sour fruit. If you know the story of this row, or can name the variety, tell us here and we will add it with your words.\n\nWalk the path slowly and look at the trunks one by one, because no two have twisted the same way.",
       "verified_sources": [],
       "access": "Free. The trees line a public paved path; the reader photographed them from it.",
       "how_to_recognise": "A line of old apple trees along one side of a paved path, between the grass verge and a tall hedge: grey, split, hollowed trunks that all lean out towards the path under green crowns.",
@@ -148,13 +148,13 @@
         "sighting_id": "4ea907d1-6637-4070-aa8a-9a9d66a71f91",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "4ea907d1-6637-4070-aa8a-9a9d66a71f91",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood on the path to photograph the row; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 reader judge: sent by a reader through the app (4ea907d1-6637-4070-aa8a-9a9d66a71f91, the same photograph also sent as 58efdc92-c382-4b03-b495-c53f027b4e58 from 40 m along the path, folded into this one entry). Photograph viewed: a row of old apple trees along the edge of a paved path, grey split and hollowed trunks all leaning out towards the path, green crowns, one branch reaching over the grass in the foreground; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Apple in Milton Keynes', note 'A row of Old Apple trees possibly Bramley'. The variety is theirs; no age, girth or planting record. Place from OpenStreetMap reverse geocoding (Foxhunter Drive, Linford Wood). An ensemble: the row is the destination, one path to stand on.",

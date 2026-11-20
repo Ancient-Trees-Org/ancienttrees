@@ -34,13 +34,13 @@
       "verify_notes": "2026-11-15 night run: sent by a reader through the app with a GPS fix at the tree (sighting 2ec0418a). Photograph viewed: Base of a huge redwood trunk, daylight, GPS fix at the tree. Figures and age are the reader's unless a source above says otherwise; published under the reader-found rule.",
       "access": "Reached from Skyline Boulevard, according to the reader; check the Peninsula Open Space Trust for parking and opening.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
         "moved_m": 0,
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree.jpg",

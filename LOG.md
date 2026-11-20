@@ -8,6 +8,12 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 session: every route trees come in by, checked for consistent metadata; 33 hand-placed pins were called GPS fixes
+
+- **What was wrong on the site:** 33 readers' trees said "confirmed, reader GPS fix", and 17 stories (plus 5 translations, ja/pt/es) said "with a GPS fix", while the app had recorded that the reader placed the pin on the map by hand. The app writes that into the tree's submissions row (`location_hint`, "placed on the map by hand"); nothing read it, and the build pattern called any coordinate a fix. Now approximate, `pin_source` "reader's hand-placed pin", the sentences rewritten to what is true.
+- **What stops it:** sightings_inbox puts `location_kind` (device / photo / placed) on every lead (252 backfilled: 111 photo, 59 device, 57 placed, 25 unknown); the build pattern confirms only device or photo; preflight `check_a_hand_placed_pin_is_not_a_fix()` (red on two trees published in between, then green), and `check_a_gps_pin_is_confirmed()` no longer pushes a hand-placed pin to confirmed because an old note says "GPS".
+- **Audit, open (not fixed here):** both apps file the moment a library photo was picked as its date when the file has none, unmarked; extra photos carry no date or GPS of their own on any surface; the tip form keeps only the first photo's month; iOS edits to a saved tree (species, age, status) reach Supabase only at the next full sync; the queue keeps raw storage paths and drops the reader's age; nine mailed photos are labelled `source: contributor`; five tip trees have no `pin_source`; `sign_photo` and `girth_hugs` are dead fields.
+
 ## 2026-11-20 reader judge: two readers' trees live, one pin report thanked
 
 - **Live**: tokyo/tok_024, The Great Zelkova of the Ōkunitama Approach (Fuchu): the reader's roped keyaki at the shrine end of the Baba Daimon avenue, a national Natural Monument avenue (ja.wikipedia as source), GPS fix, their 680 cm girth stated as theirs; Japanese overlay entry written, ja counts 23 to 24. tarragona/tgn_005, The Holm Oak above the Scrub at Altafulla: one big holm oak far above young pines and scrub, GPS fix where the reader stood, access says the ground may be private so look from there. Tarragona now has four trees: intro, meta, question meta and FAQ (English and the unbuilt es overlay) say four; "Why are there only three?" became "Why are there so few?". Both photos filed in November from the photo's own date.

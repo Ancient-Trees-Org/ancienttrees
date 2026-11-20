@@ -961,7 +961,7 @@
         "Reader's photographs of 2026-11-18: the stone post 都天然記念物 九品仏のイチョウ and the Setagaya Ward plaque 名木百選 イチョウ, selected March 1987 (Showa 62), reselected January 2020 (Reiwa 2), on the trunk"
       ],
       "access": "Free. In the grounds of Kuhonbutsu Joshin-ji temple, open in daytime.",
-      "story": "\"Next to the Buddhist temple, the tree is designated as a special tree,\" wrote the reader who sent us this ginkgo from Kuhonbutsu Joshin-ji in Setagaya, with a GPS fix taken in the temple grounds. Their photographs show how special.\n\nA granite post in front of the trunk reads, in Japanese, Tokyo Metropolitan Natural Monument, the Ginkgo of Kuhonbutsu, and the Tokyo government's own list of cultural properties records the designation in March 1963. A small plaque nailed to the bark adds a second honour: Setagaya Ward chose it as one of its hundred famous trees in March 1987 and chose it again in January 2020.\n\nThe reader stood on the veranda of one of the halls to take the whole tree in. A dark, straight trunk, too wide for one person to reach round, rises from a bed of moss and fallen leaves beside a raked stone garden, then breaks into great limbs that fill the sky. They came in autumn, and every leaf had turned yellow.\n\nKuhonbutsu takes its popular name from the nine statues of Amida Buddha in its halls, and the station on the Tokyu Oimachi line is named after the temple. We do not know the tree's girth or age yet; if the temple has said, tell us here.\n\nCome in late November, when the gold is at its deepest and the ground beneath turns yellow too.",
+      "story": "\"Next to the Buddhist temple, the tree is designated as a special tree,\" wrote the reader who sent us this ginkgo from Kuhonbutsu Joshin-ji in Setagaya, in the temple grounds. Their photographs show how special.\n\nA granite post in front of the trunk reads, in Japanese, Tokyo Metropolitan Natural Monument, the Ginkgo of Kuhonbutsu, and the Tokyo government's own list of cultural properties records the designation in March 1963. A small plaque nailed to the bark adds a second honour: Setagaya Ward chose it as one of its hundred famous trees in March 1987 and chose it again in January 2020.\n\nThe reader stood on the veranda of one of the halls to take the whole tree in. A dark, straight trunk, too wide for one person to reach round, rises from a bed of moss and fallen leaves beside a raked stone garden, then breaks into great limbs that fill the sky. They came in autumn, and every leaf had turned yellow.\n\nKuhonbutsu takes its popular name from the nine statues of Amida Buddha in its halls, and the station on the Tokyu Oimachi line is named after the temple. We do not know the tree's girth or age yet; if the temple has said, tell us here.\n\nCome in late November, when the gold is at its deepest and the ground beneath turns yellow too.",
       "how_to_recognise": "In the temple grounds: a tall ginkgo with a dark, straight trunk on a mossy bed beside a raked stone garden, a granite post carved 九品仏のイチョウ standing in front of it and a small wooden plaque on the bark.",
       "best_time": {
         "months": [
@@ -974,13 +974,13 @@
         "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
         "date": "2026-11-18"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622",
         "moved_m": 0,
         "date": "2026-11-18",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it. The register's site-level coordinate is 72 m off."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "official_register": {
         "name": "Tokyo Metropolitan Natural Monument (都指定天然記念物)",
@@ -1047,18 +1047,18 @@
       "verified_sources": [
         "https://ja.wikipedia.org/wiki/%E9%A6%AC%E5%A0%B4%E5%A4%A7%E9%96%80%E3%81%AE%E3%82%B1%E3%83%A4%E3%82%AD%E4%B8%A6%E6%9C%A8 (Baba Daimon zelkova avenue, Fuchu: about 600 m along the approach to Ōkunitama Shrine, 127 trees in March 2024, a national Natural Monument since 1924; a 2004 survey found two old trees over 600 cm round)"
       ],
-      "story": "\"There are a large number of Keyaki trees around the shrine. This appears to be the largest,\" wrote the reader who sent us this zelkova from Fuchu, in western Tokyo, with a GPS fix taken beside it.\n\nIt stands in the Baba Daimon avenue, the 600-metre approach to Ōkunitama Shrine, where zelkovas line both sides of the road and have been a national Natural Monument since 1924. Tradition says the first saplings were given by the warrior Minamoto no Yoriyoshi and his son Yoshiie in the eleventh century, in thanks for a victory, and that Tokugawa Ieyasu added more. Nobody has proved either story; of the sixty trees standing when the avenue was protected, thirty-two remained in 2024.\n\nThis is one of the old ones. Its trunk swells out over the roots like a cliff, and a thick straw rope hung with white paper zigzags marks it as sacred. The reader measured it at 680 centimetres round, their figure; a 2004 survey of the avenue found only two trees over six metres.\n\nCome in late November, as the reader did, when the whole avenue turns copper and gold.",
+      "story": "\"There are a large number of Keyaki trees around the shrine. This appears to be the largest,\" wrote the reader who sent us this zelkova from Fuchu, in western Tokyo.\n\nIt stands in the Baba Daimon avenue, the 600-metre approach to Ōkunitama Shrine, where zelkovas line both sides of the road and have been a national Natural Monument since 1924. Tradition says the first saplings were given by the warrior Minamoto no Yoriyoshi and his son Yoshiie in the eleventh century, in thanks for a victory, and that Tokugawa Ieyasu added more. Nobody has proved either story; of the sixty trees standing when the avenue was protected, thirty-two remained in 2024.\n\nThis is one of the old ones. Its trunk swells out over the roots like a cliff, and a thick straw rope hung with white paper zigzags marks it as sacred. The reader measured it at 680 centimetres round, their figure; a 2004 survey of the avenue found only two trees over six metres.\n\nCome in late November, as the reader did, when the whole avenue turns copper and gold.",
       "found_by_reader": {
         "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
         "date": "2026-11-20"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
         "moved_m": 0,
         "date": "2026-11-20",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-20 reader judge: sent by a reader (42f66634-36d7-46df-8a02-739114680321, 2026-11-20, through the app). Photograph viewed: a huge swollen zelkova trunk wrapped in a straw rope with white paper zigzags, inside a low red fence on a city pavement, more roped zelkovas behind and the Okunitama Jinja-mae crossing sign beyond, autumn leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Japanese Elm at ŌKunitama Jinjya, Fuchu', species 'Japanese Elm', age 'None', girth 680 cm. Every figure on the page that is not in verified_sources is stated as theirs.",

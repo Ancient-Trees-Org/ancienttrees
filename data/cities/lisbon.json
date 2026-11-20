@@ -1577,13 +1577,13 @@
         "taken_month": 10
       },
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "9b10ae23-bba4-4af8-a9ae-95b93aba9209",
         "moved_m": 0,
         "date": "2026-10-21",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
     },
     {
@@ -1662,20 +1662,20 @@
       },
       "how_to_recognise": "The single big oak filling the arcaded courtyard of the yellow agronomy building, its trunk behind a low box hedge and its crown as wide as the courtyard.",
       "access": "On the Instituto Superior de Agronomia campus in the Tapada da Ajuda; the reader walked into the courtyard. Visit in campus hours.",
-      "story": "Lisbon's agronomy school has been teaching people about plants inside the walled Tapada da Ajuda for well over a century, and at the heart of its main building, in a courtyard ringed by yellow arcades, stands this oak. A reader sent us its photograph with a GPS fix from the courtyard.\n\nIt is a Portuguese oak, Quercus faginea, the semi-evergreen oak of Iberia's hills, and it has had the courtyard to itself long enough to grow into the shape oaks take when nothing crowds them. A short thick trunk stands behind a low box hedge and opens almost at once into a dome of crooked limbs, as wide as the courtyard and nearly as tall as the building's roof. In the reader's picture the leaves are turning, brown and bronze against the grey sky.\n\nThe reader gives it 96 years. We have no girth or record of its planting yet; if you know the campus's own story of this tree, tell us here.\n\nWalk the arcade all the way round and watch the crown change shape against the roofs.",
+      "story": "Lisbon's agronomy school has been teaching people about plants inside the walled Tapada da Ajuda for well over a century, and at the heart of its main building, in a courtyard ringed by yellow arcades, stands this oak. A reader sent us its photograph from the courtyard.\n\nIt is a Portuguese oak, Quercus faginea, the semi-evergreen oak of Iberia's hills, and it has had the courtyard to itself long enough to grow into the shape oaks take when nothing crowds them. A short thick trunk stands behind a low box hedge and opens almost at once into a dome of crooked limbs, as wide as the courtyard and nearly as tall as the building's roof. In the reader's picture the leaves are turning, brown and bronze against the grey sky.\n\nThe reader gives it 96 years. We have no girth or record of its planting yet; if you know the campus's own story of this tree, tell us here.\n\nWalk the arcade all the way round and watch the crown change shape against the roofs.",
       "verified_sources": [],
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a",
         "date": "2026-11-17"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a",
         "moved_m": 0,
         "date": "2026-11-17",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-17 session: sent by a reader (4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a, 2026-11-17, through the app). Photograph viewed: the whole oak and its broad round crown in the arcaded courtyard of a yellow building, hedge in front, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Portuguese Oak in Lisbon', species 'Portuguese Oak', age '96', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",

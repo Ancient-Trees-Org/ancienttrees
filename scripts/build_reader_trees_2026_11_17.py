@@ -230,8 +230,15 @@ def main():
             del t["age_basis"]
         lead = by_sid[spec["sid"]]
         t["found_by_reader"] = {"sighting_id": spec["sid"], "date": TODAY}
-        gps = lead.get("latitude") is not None
+        # A FIX, NOT A FINGER (Hidde, 2026-11-20): only a device fix or the
+        # photograph's own location is GPS. A pin the reader dragged by hand
+        # ("placed") or of unknown origin stays approximate; 31 live trees had
+        # been called a confirmed GPS fix this way.
+        gps = lead.get("latitude") is not None and lead.get("location_kind") in ("device", "photo")
         t["location_precision"] = "confirmed" if gps else "approximate"
+        if lead.get("latitude") is not None and not gps:
+            t["pin_source"] = {"kind": "reader's hand-placed pin", "sighting_id": spec["sid"], "date": TODAY,
+                               "note": "The reader placed this pin on the map in the app; not a GPS fix."}
         if gps:
             t["pin_source"] = {"kind": "reader GPS fix", "sighting_id": spec["sid"], "moved_m": 0, "date": TODAY,
                                "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."}

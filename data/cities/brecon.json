@@ -27,13 +27,13 @@
       "verify_notes": "2026-11-15 session: published from a reader's app photograph (sighting 6ace68f9, GPS fix beside the tree, tagged 'Cedar of Lebanon near Defynnog' but the fix and their note put it at Brecon Cathedral) on Hidde's 2026-10-21 ruling that a good reader photograph with a GPS fix goes live. Species from the photograph (layered habit, cones absent, needles in tufts) and the reader's tag. No register entry, no age or girth anywhere; ask readers.",
       "access": "Free, on the lawn of the cathedral close, open to visitors.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "6ace68f9-6ca3-470c-9511-7e55975fb2f0",
         "moved_m": 0,
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/brk_001-the-cedar-of-brecon-cathedral.jpg",
@@ -69,7 +69,7 @@
   ],
   "question_meta": "The cedar of Lebanon beside Brecon Cathedral, with the Brecon Beacons in view under its branches. Where it stands and how to see it.",
   "question_answer": "The best-known tree we map in Brecon is a cedar of Lebanon (Cedrus libani) on the lawn beside Brecon Cathedral. A reader photographed it for us, with a view of the Brecon Beacons under its branches. It is free to see in the cathedral close; its age has not been recorded.",
-  "question_context": "The tree came to us from a reader's photographs, taken beside it with a GPS fix, and their note: “Next to Brecon Cathedral. Wonderful view of hills in distance.” No register, plaque or published survey that we have found gives its age, height or girth, so those are left open for readers to fill in. What the photographs show is a tall cedar with one straight trunk, ivy at its foot, and flat dark layers of needles held out on a few heavy limbs, standing on the open lawn near the cathedral tower. The reader's second picture looks out under its lower branches, past the stone roofs and chimneys of the close, to a bare summit of the Brecon Beacons. Cedars of Lebanon take this layered, wide shape when they grow in the open with room on every side, which is why they look so different in a churchyard than in a forest. The cathedral close is open to visitors, and the lawn can be walked to from the town centre. A measurement or a planting date from anyone who knows the close would be the next thing to add to its page.",
+  "question_context": "The tree came to us from a reader's photographs, taken beside it, and their note: “Next to Brecon Cathedral. Wonderful view of hills in distance.” No register, plaque or published survey that we have found gives its age, height or girth, so those are left open for readers to fill in. What the photographs show is a tall cedar with one straight trunk, ivy at its foot, and flat dark layers of needles held out on a few heavy limbs, standing on the open lawn near the cathedral tower. The reader's second picture looks out under its lower branches, past the stone roofs and chimneys of the close, to a bare summit of the Brecon Beacons. Cedars of Lebanon take this layered, wide shape when they grow in the open with room on every side, which is why they look so different in a churchyard than in a forest. The cathedral close is open to visitors, and the lawn can be walked to from the town centre. A measurement or a planting date from anyone who knows the close would be the next thing to add to its page.",
   "faq": [
     {
       "q": "What kind of tree is beside Brecon Cathedral?",

@@ -47,12 +47,12 @@
         "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: A double-trunked redcedar on the boardwalk trail with two visitors for scale. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "source": "a reader's app photograph",
         "date": "2026-11-17",
-        "note": "GPS fix at the tree."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
     }
   ],

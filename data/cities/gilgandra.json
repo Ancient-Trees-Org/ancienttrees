@@ -34,13 +34,13 @@
       "verify_notes": "2026-11-16 session: a reader's app sighting (e0402f44) with a GPS fix in the Royal Hotel courtyard (OpenStreetMap: Miller Street, Gilgandra). First held as 'a vine rather than a tree'; Hidde, same day: 'boeie het is blijkbaar de moeite - de cactus staat ook live'. Photograph viewed: the whole vine, trunk to pergola roof, daylight, colour; people small at the back. The hotel's 1892 build as the Bridge Hotel and its heritage listing from publocation.com.au; the vine's age, girth, planting and the 1904 extensions are the reader's, quoted. Species left as the genus.",
       "access": "In the beer garden of the Royal Hotel, open to the public in the hotel's opening hours.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "e0402f44-1b12-431a-9901-7974f79ccb2f",
         "moved_m": 0,
         "date": "2026-11-16",
-        "note": "The pin marks where a reader stood to photograph this vine; the photograph was checked to show it."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/gil_001-the-grapevine-of-the-royal-hotel.jpg",

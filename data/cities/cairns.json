@@ -61,12 +61,12 @@
         }
       ],
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",
         "date": "2026-11-15",
-        "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
     }
   ],

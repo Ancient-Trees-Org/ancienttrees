@@ -262,6 +262,46 @@ GPS_IS_THE_PIN = re.compile(
     r"|geotagged.{0,80}?agrees", re.I)
 
 
+HAND_PLACED = "reader's hand-placed pin"
+
+
+def check_a_hand_placed_pin_is_not_a_fix():
+    """A reader's tree whose pin they dragged on the map by hand is never a
+    confirmed GPS fix.
+
+    Hidde, 2026-11-20 ("kun je eens alle punten langs gaan waar bomen
+    binnenkomen en of we de metadata overal consistent goed opslaan"): the app
+    says where a new tree's coordinate came from (device, the photograph's own
+    location, or placed by hand); the inbox now keeps it as the lead's
+    `location_kind`. Nothing had read it, and 31 live trees went out as a
+    confirmed "reader GPS fix" while the reader had placed the pin by hand,
+    their stories saying "with a GPS fix" too. Faked precision on the one field
+    that carries the product. Reads data/leads/_sightings.json."""
+    try:
+        with open("data/leads/_sightings.json", encoding="utf-8") as fh:
+            kinds = {str(l.get("sighting_id") or "").lower(): l.get("location_kind")
+                     for l in json.load(fh).get("leads") or []}
+    except (OSError, ValueError):
+        return []
+    out = []
+    for path in sorted(glob.glob("data/cities/*.json")):
+        with open(path, encoding="utf-8") as fh:
+            d = json.load(fh)
+        for t in d.get("trees") or []:
+            sid = str((t.get("found_by_reader") or {}).get("sighting_id") or "").lower()
+            if kinds.get(sid) != "placed":
+                continue
+            ps = t.get("pin_source") if isinstance(t.get("pin_source"), dict) else {}
+            if ps.get("kind") == "reader GPS fix" or (
+                    t.get("location_precision") == "confirmed" and ps.get("kind") in (None, HAND_PLACED)):
+                out.append("%s: %s has a pin the reader placed by hand, but it is called %s / %s. "
+                           "Set location_precision approximate and pin_source kind %r "
+                           "(BRIEF_READER_JUDGE.md, Hidde 2026-11-20)"
+                           % (os.path.basename(path)[:-5], t.get("id"), t.get("location_precision"),
+                              ps.get("kind"), HAND_PLACED))
+    return out
+
+
 def check_a_gps_pin_is_confirmed():
     """A GPS fix at the tree is as good as a pin gets (Hidde, 2026-10-14: "kun
     je dat nooit meer doen bij gps ... gps is as good as it gets"). The Noike
@@ -276,6 +316,10 @@ def check_a_gps_pin_is_confirmed():
             d = json.load(fh)
         for t in d.get("trees") or []:
             if t.get("location_precision") == "confirmed":
+                continue
+            # A pin the reader dragged by hand is not a fix, whatever an older
+            # note says (Hidde, 2026-11-20; check_a_hand_placed_pin_is_not_a_fix).
+            if isinstance(t.get("pin_source"), dict) and t["pin_source"].get("kind") == HAND_PLACED:
                 continue
             ps = json.dumps(t.get("pin_source") or "")
             blob = " ".join([t.get("verify_notes") or ""] + [s for s in (t.get("verified_sources") or []) if isinstance(s, str)])
@@ -3905,6 +3949,7 @@ def check_agent_costs_shape():
 
 def main():
     problems = (check_id_prefixes() + check_pin_upgrades() + check_a_gps_pin_is_confirmed()
+                + check_a_hand_placed_pin_is_not_a_fix()
                 + check_agent_costs_shape()
                 + check_cross_city_duplicates() + check_same_city_duplicates()
                 + check_phenology() + check_register_licences()

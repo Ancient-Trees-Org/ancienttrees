@@ -19,7 +19,7 @@
         "longitude": -5.1106077,
         "neighbourhood": "Carne"
       },
-      "story": "A reader walking a path above a tidal creek near Carne, on the Lizard side of the Helford River, called this \"a spectacular tree hanging over the creek\" and added that there is a lovely bench to sit and ponder. Both halves of that are easy to believe.\n\nThe trunk flares into deep, fluted buttresses at the base and rises in long vertical ridges of grey-brown bark. Several heavy limbs run out horizontally over the water, and a few of them end in old pruning cuts where the tree has been kept clear of the path. Above them the crown is dense and dark green.\n\nThe Monterey cypress comes from a pair of small groves on the California coast, yet in the mild, salt-laden air of Cornwall it grows fast and large and has become part of the creek-side landscape. We have no measurement or age for this one, so we do not guess at either. The photograph is a reader's, and the pin is their GPS fix at the tree.",
+      "story": "A reader walking a path above a tidal creek near Carne, on the Lizard side of the Helford River, called this \"a spectacular tree hanging over the creek\" and added that there is a lovely bench to sit and ponder. Both halves of that are easy to believe.\n\nThe trunk flares into deep, fluted buttresses at the base and rises in long vertical ridges of grey-brown bark. Several heavy limbs run out horizontally over the water, and a few of them end in old pruning cuts where the tree has been kept clear of the path. Above them the crown is dense and dark green.\n\nThe Monterey cypress comes from a pair of small groves on the California coast, yet in the mild, salt-laden air of Cornwall it grows fast and large and has become part of the creek-side landscape. We have no measurement or age for this one, so we do not guess at either. The photograph is a reader's, and the pin is where they marked it on the map.",
       "how_to_recognise": "A big Monterey cypress with a fluted, buttressed trunk and long horizontal limbs reaching out over a tidal creek, a bench beside it.",
       "verified_sources": [
         "A reader's photographs and note through the app, 2026-11-15, with a GPS fix at the tree",
@@ -32,11 +32,11 @@
       "verify_notes": "2026-11-15: sent by a reader through the app, species given as Monterey Cypress, note 'Spectacular tree hanging over the creek, lovely bench to sit and ponder', no age or girth. Both photographs viewed: a large old Monterey cypress, fluted buttress base, heavy horizontal limbs with a few cut stubs over tidal water, daylight, whole tree. Place: OSM reverse geocode of the fix gives the hamlet of Carne in the parish of Manaccan, on the Lizard side of the Helford River; the creek itself is not named in any source we read. No register entry within 100 m (the Woodland Trust Ancient Tree Inventory's Falmouth-area Monterey cypress records are not at this spot). No age, no girth. Pin: reader's GPS fix, confirmed.",
       "access": "Free, from a public creekside path near Carne; a bench stands beside it. Check the tide and keep to the path.",
       "curation_status": "flagged",
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "pin_source": {
-        "kind": "reader GPS fix",
+        "kind": "reader's hand-placed pin",
         "date": "2026-11-15",
-        "note": "The reader's GPS fix at the tree, on the creek path near Carne."
+        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/mnc_001-monterey-cypress-over-the-creek.jpg",
@@ -162,7 +162,7 @@
   ],
   "question_meta": "The Monterey cypress over the creek near Carne, Manaccan, on the Helford River: what it looks like and where it stands.",
   "question_answer": "It is a large Monterey cypress growing at the edge of a tidal creek near Carne, in the parish of Manaccan on the Helford River in Cornwall. Its limbs reach out over the water, and a bench stands beside it. We have no age for it.",
-  "question_context": "A reader found this tree on the creek path near Carne and sent photographs with a GPS fix. The trunk flares into fluted buttresses and several heavy limbs run out horizontally over the water. The Monterey cypress is native to two small groves on the California coast and grows large in Cornwall's mild air. We have no measurement or age for this tree. Several of its limbs end in old pruning cuts, where it has been kept clear of the path. In the reader's words it is a spectacular tree hanging over the creek, with a lovely bench to sit and ponder. The place is the hamlet of Carne, in the parish of Manaccan, a village on the Lizard side of the Helford River. The creek itself is not named in any source we found, so the page names the hamlet and leaves the creek unnamed. The pin is the reader's GPS fix taken at the trunk.",
+  "question_context": "A reader found this tree on the creek path near Carne and sent photographs. The trunk flares into fluted buttresses and several heavy limbs run out horizontally over the water. The Monterey cypress is native to two small groves on the California coast and grows large in Cornwall's mild air. We have no measurement or age for this tree. Several of its limbs end in old pruning cuts, where it has been kept clear of the path. In the reader's words it is a spectacular tree hanging over the creek, with a lovely bench to sit and ponder. The place is the hamlet of Carne, in the parish of Manaccan, a village on the Lizard side of the Helford River. The creek itself is not named in any source we found, so the page names the hamlet and leaves the creek unnamed. The pin is where the reader marked the trunk on the map.",
   "faq": [
     {
       "q": "Where is it?",
