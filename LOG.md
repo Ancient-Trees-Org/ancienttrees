@@ -155,6 +155,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Changed in Play** (Hidde: "Yes, prepare it", "what ever you think works"): a Google Group, groups.google.com/g/ancienttrees-android-testers (anyone can join; members list managers only; posting and conversations owners only), is the tester list of a new closed track "Beta (Google Group)" with build 4 and all countries, saved for review and waiting for Hidde's "indienen voor beoordeling" click. Alpha is untouched: its e-mail list holds 485 (wave 3 lines 1 to 11 were added before the switch).
 - **Why**: Play's tester list refuses some addresses without saying which (two in wave 3's first 50), so adding 778 by halving would take hundreds of saves. Play allows one access method per track (its help: "select your preferred tester access method"), so the group gets its own track. Later waves need no Play edits at all.
+- **Status at 14:00**: Alpha's build 4 is approved and live (green in Play the same day). Beta's 7 changes submitted by Hidde, in review.
 - **Ready, not sent**: drafts/batches/android-test-invite-wave3-2026-11-20.json, 777 waitlist Gmail addresses, Hidde's text plus a "join the tester group" step; send after Beta is approved, on his "verstuur", about 170 a day (command in drafts/android-test-invite.md).
 - **For Hidde**: the group's public info page shows him as owner with his Gmail address. Adding the info address as a manager does not hide the owner; only moving ownership to another account would.
 
