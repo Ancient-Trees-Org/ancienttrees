@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Tyler sequoia gets a reader's photographs and its real pin
+
+- **Live**: the same Tyler Arboretum reader's photograph of the Painter giant sequoia (Media, mdp_001), the trunk from below with the tall mesh root fence and Painter Road behind, is now the page's lead; their close-up of the base (lightning cable, tag, fence) and the 2006 Commons photo sit in the strip. Matched against the Commons photo: same mesh fence, road and cable. The pin moved from the arboretum centroid to their GPS fix by Painter Road, 616 m, by hand past move_pin's 300 m (confirmed). Their hand-moved pin (report 1000103) lands 9 m from it; pin thank-you sent.
+- **Held**: cc326e86, a tall conical sequoia in a lawn behind a split-rail fence, sent as ours but a different tree. It became a lead, held `doubt_location`: its coordinate repeats our old centroid pin's longitude exactly, so where it stands is unknown. hold_reply.py only takes website submissions, so no standard mail went out for this app sighting (a gap in the script, not fixed here).
+- **Rejected**: 15478dca, the stump of the Painter cedar retired earlier today.
+- **Not judged**: 3c544597 (Amsterdam, our own account) still has no file on disk. No feedback, tips or reader words open.
+
 ## 2026-11-20 night run (second attempt): 2 trees written, both app-only
 
 - Hallstatt deepen: hst_008 Sterzens Abendsitz lindens (Bad Ischl, flagged: alive thin, 2014 count) written; 3 Bad Ischl leads kept. Cofton Hackett yew (cft_001, lone tree page) written from the Birmingham file. Both under APP FIRST, no web page yet.

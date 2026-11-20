@@ -35,8 +35,8 @@
       "height_m": 29,
       "location": {
         "address": "Tyler Arboretum, 515 Painter Road, Media, PA 19063",
-        "latitude": 39.9347,
-        "longitude": -75.4311,
+        "latitude": 39.931506,
+        "longitude": -75.436996,
         "neighbourhood": "Media, Delaware County"
       },
       "story": "Somebody cut the top off this giant sequoia in 1895, and it answered by growing several new ones. The lost central leader is why it has a cluster of spires instead of the single point its species is known for.\n\nThe Painter brothers planted it on the ground that is now Tyler Arboretum, as part of a collection they built between the 1840s and the 1860s. A description of the tree on Wikimedia Commons gives the year as 1856; the arboretum itself only gives the Painters' planting window and says the sequoia may have come from Hoopes Nursery stock. So call it roughly 170 years old, give or take a decade or so.\n\nIt is counted the largest giant sequoia in Pennsylvania, and possibly in the eastern United States, by the arboretum and Wikipedia, and has held the state champion title since 1950 by the Commons account. Measured in 2006, it stood 29 metres tall and 3.93 metres round, with a crown spread of almost 11 metres. Those figures are twenty years old.\n\nIt has also had care that few trees get. The arboretum keeps it fenced to protect the roots, treats it every year against fungal disease and has fitted it with lightning protection.\n\nIt grows above Painter Road. Tyler charges admission, and it is well over half an hour from Philadelphia by public transport, so this is a day out rather than a detour.",
@@ -53,19 +53,48 @@
       "access": "Paid entry: adults $18, seniors $15, ages 3-17 $10, under 3 free (tylerarboretum.org hours page, read 2026-11-04). Open daily; April to October 9 am to 6 pm, November to March 9 am to 4 pm; closed Thanksgiving, Dec 24 and 25. Specimen trees are fenced to protect roots.",
       "transport": "No SEPTA stop at the gate and the arboretum publishes no transit directions. Nearest rail is Media station (Media/Wawa line), several kilometres away, then a taxi or local bus; realistically well over 30 minutes from Center City Philadelphia (about 1 hour or more door to door). Not a 30-minute day trip. Travel time not verified against a timetable.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg",
-        "license": "CC BY-SA 2.5",
-        "attribution": "Derek Ramsey",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg",
+        "url": "https://ancienttrees.app/photos/mdp_001-tyler-arboretum-giant-sequoia-218c153a.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2000,
-        "height": 3008,
-        "taken_month": 9
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "218c153a-24e0-4209-b718-a40d6156ba61",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: The Painter giant sequoia from below in November sun: the massive reddish, furrowed trunk rising past the tall wire-mesh fence posts with Painter Road and its yellow centre line just behind, its spreading upper limbs against blue sky, oaks in autumn colour around it. Same fence, road and setting as the 2006 Commons photograph. Species seen: thick fibrous red-brown sequoia bark in long ridges, dark evergreen scale foliage in the crown. Fits the description: a very large old trunk inside the tall root fence beside the road, matching 'above Painter Road' and the fence of the recognition line.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
-      "verify_notes": "Re-id from phl_035 (Tyler Arboretum is its own place, Media, slug media-pennsylvania). Planted by the Painter brothers; the Commons description of the 2006 photo says planted 1856 (arboretum page only says Painter plantings 1840s-1860s and that the sequoia may have come from Hoopes Nursery stock, so 1856 is one source: derived age broad). Arboretum says it grows overlooking Painter Road, is fenced, treated yearly for fungal disease and has lightning protection. Called the largest giant sequoia in Pennsylvania and possibly the eastern US (Wikipedia and arboretum material); Pennsylvania state champion since 1950 per the Commons description. 2006 measurements per Commons: height 29 m, circumference 3.93 m, spread 10.9 m (stale, 20 years; girth at unstated height). Central leader cut off in 1895, so it has several spires (Commons; a blog adds a Christmas-tree thief, unverified). Pin is the arboretum centroid (Wikipedia coordinates 39 56 05 N 75 25 52 W), NOT the tree: sequoia is somewhere along Painter Road, no tree-level coordinate found (Overpass unreachable from this machine, Commons photo not geotagged). recognise: the multi-spired giant sequoia with fence, blue Painter legacy tag and lightning rod, above Painter Road. Life: arboretum page lists it alive and in care (undated); lifecheck near arboretum RECENT 2026-06-07 but not tree-specific. Flagged: pin approximate, one-source planting year. Open licence photo identity: Commons file by Derek Ramsey, CC BY-SA 2.5 / GFDL (2006), https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg. Transport honestly over 30 minutes. Photo pass 2026-11-04 (approved): Commons file titled Sequoiadendron giganteum Giant Sequoia Tyler Arboretum; the whole conical sequoia fills the portrait frame, daylight (overcast).",
-      "paid_entry": true
+      "verify_notes": "2026-11-20 reader judge: a reader's two photographs (the trunk from below and its base, with the tall wire-mesh root fence, lightning cable, tag and Painter Road behind, the same setting as the 2006 Commons photograph, which moves into the strip) are on the page, the wider one leading. Pin moved from the arboretum centroid to their GPS fix, 616 m, by hand past move_pin's 300 m limit; the fix sits beside Painter Road as the arboretum describes. Re-id from phl_035 (Tyler Arboretum is its own place, Media, slug media-pennsylvania). Planted by the Painter brothers; the Commons description of the 2006 photo says planted 1856 (arboretum page only says Painter plantings 1840s-1860s and that the sequoia may have come from Hoopes Nursery stock, so 1856 is one source: derived age broad). Arboretum says it grows overlooking Painter Road, is fenced, treated yearly for fungal disease and has lightning protection. Called the largest giant sequoia in Pennsylvania and possibly the eastern US (Wikipedia and arboretum material); Pennsylvania state champion since 1950 per the Commons description. 2006 measurements per Commons: height 29 m, circumference 3.93 m, spread 10.9 m (stale, 20 years; girth at unstated height). Central leader cut off in 1895, so it has several spires (Commons; a blog adds a Christmas-tree thief, unverified). Pin is the arboretum centroid (Wikipedia coordinates 39 56 05 N 75 25 52 W), NOT the tree: sequoia is somewhere along Painter Road, no tree-level coordinate found (Overpass unreachable from this machine, Commons photo not geotagged). recognise: the multi-spired giant sequoia with fence, blue Painter legacy tag and lightning rod, above Painter Road. Life: arboretum page lists it alive and in care (undated); lifecheck near arboretum RECENT 2026-06-07 but not tree-specific. Flagged: pin approximate, one-source planting year. Open licence photo identity: Commons file by Derek Ramsey, CC BY-SA 2.5 / GFDL (2006), https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg. Transport honestly over 30 minutes. Photo pass 2026-11-04 (approved): Commons file titled Sequoiadendron giganteum Giant Sequoia Tyler Arboretum; the whole conical sequoia fills the portrait frame, daylight (overcast).",
+      "paid_entry": true,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg",
+          "license": "CC BY-SA 2.5",
+          "attribution": "Derek Ramsey",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_Giant_Sequoia_Tyler_Arboretum_2000px.jpg",
+          "status": "approved",
+          "width": 2000,
+          "height": 3008,
+          "taken_month": 9
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdp_001-tyler-arboretum-giant-sequoia-c85a9ca3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "c85a9ca3-8cfd-4853-afaf-35ce22996993",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: Close-up of the same trunk's base: deeply furrowed fibrous sequoia bark peppered with sapsucker holes, the lightning-protection cable running up it, a small tag, the tall wire-mesh fence and Painter Road behind. Shows what the tree is; the wider shot leads. Species seen: spongy, deeply ridged red-brown bark of a giant sequoia. Fits the description: the lightning rod cable, the tag and the fence the recognition line names, with the road behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ],
+      "pin_source": "reader GPS fix (photographs 218c153a and c85a9ca3, 2026-11-20, taken at the trunk beside Painter Road)"
     },
     {
       "id": "mdp_002",

@@ -664,6 +664,24 @@
      "city_slug": "media-pennsylvania",
      "display_name": null,
      "live": "2026-11-20"
+    },
+    {
+     "sighting_id": "218c153a-24e0-4209-b718-a40d6156ba61",
+     "tree_id": "mdp_001",
+     "tree_name": "Tyler Arboretum Giant Sequoia",
+     "city": "Media",
+     "city_slug": "media-pennsylvania",
+     "display_name": null,
+     "live": "2026-11-20"
+    },
+    {
+     "sighting_id": "c85a9ca3-8cfd-4853-afaf-35ce22996993",
+     "tree_id": "mdp_001",
+     "tree_name": "Tyler Arboretum Giant Sequoia",
+     "city": "Media",
+     "city_slug": "media-pennsylvania",
+     "display_name": null,
+     "live": "2026-11-20"
     }
    ],
    "sent": [

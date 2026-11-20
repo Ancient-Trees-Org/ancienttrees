@@ -599,6 +599,115 @@
    "agreed": null
   },
   {
+   "id": "sight:218c153a-24e0-4209-b718-a40d6156ba61",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Tyler Arboretum Giant Sequoia",
+   "city": "Media",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/218c153a-24e0-4209-b718-a40d6156ba61.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 616,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "publish",
+   "reason": "The Painter sequoia's trunk from below by Painter Road, mesh fence and road as in the 2006 photo; now the page's lead, pin moved to the reader's GPS fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c85a9ca3-8cfd-4853-afaf-35ce22996993",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Tyler Arboretum Giant Sequoia",
+   "city": "Media",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/c85a9ca3-8cfd-4853-afaf-35ce22996993.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 616,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "publish",
+   "reason": "Base of the same trunk with the lightning cable, tag and fence; in the page's strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:15478dca-52f1-40e5-bb5a-6a3f502ab424",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Tyler Arboretum Giant Sequoia",
+   "city": "Media",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/15478dca-52f1-40e5-bb5a-6a3f502ab424.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 12,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "hold",
+   "reason": "A stump: the Painter cedar Tyler took down in 2020, retired today on this reader's reports; no tree to show",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cc326e86-1b97-4fec-81d7-561e3dea6b91",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Tyler Arboretum Giant Sequoia",
+   "city": "Media",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/cc326e86-1b97-4fec-81d7-561e3dea6b91.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "lead",
+   "reason": "A different, conical giant sequoia, not ours; became lead cc326e86",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:cc326e86-1b97-4fec-81d7-561e3dea6b91",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Media",
+   "species": null,
+   "photo": "p_3bb2d9b77f839015a3f92de9/CC326E86-1B97-4FEC-81D7-561E3DEA6B91.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a tall conical sequoia worth a page, but its coordinate repeats our old centroid pin's longitude exactly, so where it stands is unknown",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

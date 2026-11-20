@@ -5758,6 +5758,40 @@
    "lat": 39.9350058170244,
    "lon": -75.4399300712621,
    "pin_checked": "2026-11-20"
+  },
+  "218c153a-24e0-4209-b718-a40d6156ba61": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "mdp_001",
+   "city_slug": "media-pennsylvania",
+   "file": "mdp_001-tyler-arboretum-giant-sequoia-218c153a.jpg",
+   "reason": "The Painter giant sequoia from below in November sun: the massive reddish, furrowed trunk rising past the tall wire-mesh fence posts with Painter Road and its yellow centre line just behind, its spreading upper limbs against blue sky, oaks in autumn colour around it. Same fence, road and setting as ",
+   "lat": 39.9315055895901,
+   "lon": -75.4369964912119,
+   "pin_checked": "2026-11-20"
+  },
+  "c85a9ca3-8cfd-4853-afaf-35ce22996993": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "mdp_001",
+   "city_slug": "media-pennsylvania",
+   "file": "mdp_001-tyler-arboretum-giant-sequoia-c85a9ca3.jpg",
+   "reason": "Close-up of the same trunk's base: deeply furrowed fibrous sequoia bark peppered with sapsucker holes, the lightning-protection cable running up it, a small tag, the tall wire-mesh fence and Painter Road behind. Shows what the tree is; the wider shot leads. Species seen: spongy, deeply ridged red-br",
+   "lat": 39.9315055895901,
+   "lon": -75.4369964912119,
+   "pin_checked": "2026-11-20"
+  },
+  "cc326e86-1b97-4fec-81d7-561e3dea6b91": {
+   "outcome": "held",
+   "date": "2026-11-20",
+   "tree_id": "mdp_001",
+   "reason": "A tall conical giant sequoia in a lawn behind a split-rail fence and a paved path, photographed about 600 m from where the same reader photographed our Painter sequoia beside Painter Road behind its tall wire-mesh fence. No road, no mesh fence: a different sequoia in the arboretum."
+  },
+  "15478dca-52f1-40e5-bb5a-6a3f502ab424": {
+   "outcome": "rejected",
+   "date": "2026-11-20",
+   "tree_id": "mdp_001",
+   "reason": "A sawn stump in the lawn, the Painter Cedar of Lebanon the arboretum took down in 2020 (the reader named it so); no living tree in frame. The cedar was retired today on this reader's reports."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

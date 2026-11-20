@@ -8246,6 +8246,31 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "providence/pvd_001"
+  },
+  {
+   "sighting_id": "cc326e86-1b97-4fec-81d7-561e3dea6b91",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 39.934808,
+   "longitude": -75.4311,
+   "near": "Media",
+   "photo": "p_3bb2d9b77f839015a3f92de9/CC326E86-1B97-4FEC-81D7-561E3DEA6B91.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 12,
+   "sent_for": "mdp_001",
+   "status": "held",
+   "why": "A tall conical giant sequoia in a lawn behind a split-rail fence and a paved path, in Tyler Arboretum, sent as our Painter sequoia but not it (ours stands by Painter Road behind a tall mesh fence, photographed by the same reader 600 m away). Worth a page, but its coordinate carries our old centroid pin's longitude exactly, so it may be our pin rather than where it stands: the reply asks where in the arboretum it is.",
+   "seen": "2026-11-20",
+   "hold": "doubt_location",
+   "judged": "2026-11-20"
   }
  ]
 }
