@@ -133,6 +133,59 @@
    "species": "Hill's Fig (Ficus microcarpa var. hillii)"
   },
   {
+   "id": "lead:42f66634-36d7-46df-8a02-739114680321",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "Japanese Elm at ŌKunitama Jinjya, Fuchu",
+   "city": null,
+   "species": "Japanese Elm",
+   "photo": "p_697eb4a0c77311e0508c5fb0/42F66634-36D7-46DF-8A02-739114680321.jpg",
+   "reader_note": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
+   "reader_girth_cm": 680,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Elm"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the thick roped zelkova of the Baba Daimon avenue at the Okunitama shrine end, GPS fix at it, a national Natural Monument avenue. Live as tokyo/tok_024; the reader's 680 cm stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1c528293-5004-4f58-9db6-1d635195b42a",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Tarragona",
+   "city": null,
+   "species": null,
+   "photo": "p_83881dd161bc1e19d059a7d6/1C528293-5004-4F58-9DB6-1D635195B42A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: one big holm oak rising far above young pines and scrub above Altafulla, GPS fix where the reader stood. Somewhat special and seen from the scrub edge; live as tarragona/tgn_005 with an honest access line.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -19304,6 +19357,34 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:42f66634-36d7-46df-8a02-739114680321",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Great Zelkova of the Ōkunitama Approach",
+   "photo": "p_697eb4a0c77311e0508c5fb0/42F66634-36D7-46DF-8A02-739114680321.jpg",
+   "reader_note": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a huge roped zelkova trunk inside a red fence on the shrine approach, autumn leaves, daylight, colour. Lead photograph of tokyo/tok_024.",
+   "city": "Tokyo",
+   "species": "Saw-leaf Zelkova (Zelkova serrata)"
+  },
+  {
+   "id": "sight:1c528293-5004-4f58-9db6-1d635195b42a",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Holm Oak above the Scrub at Altafulla",
+   "photo": "p_83881dd161bc1e19d059a7d6/1C528293-5004-4F58-9DB6-1D635195B42A.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a broad dark-crowned holm oak standing above pines and scrub, overcast daylight, colour. Lead photograph of tarragona/tgn_005.",
+   "city": "Tarragona",
+   "species": "Holm Oak (Quercus ilex)"
   }
  ]
 }

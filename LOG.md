@@ -8,6 +8,13 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 reader judge: two readers' trees live, one pin report thanked
+
+- **Live**: tokyo/tok_024, The Great Zelkova of the Ōkunitama Approach (Fuchu): the reader's roped keyaki at the shrine end of the Baba Daimon avenue, a national Natural Monument avenue (ja.wikipedia as source), GPS fix, their 680 cm girth stated as theirs; Japanese overlay entry written, ja counts 23 to 24. tarragona/tgn_005, The Holm Oak above the Scrub at Altafulla: one big holm oak far above young pines and scrub, GPS fix where the reader stood, access says the ground may be private so look from there. Tarragona now has four trees: intro, meta, question meta and FAQ (English and the unbuilt es overlay) say four; "Why are there only three?" became "Why are there so few?". Both photos filed in November from the photo's own date.
+- **Report 1000099** (Mumbai mum_002, "wrong location", no words, no coordinate): the pin is yesterday's reader GPS fix on Dr S S Rao Marg itself (checked against OSM), so it stays; closed with the standard pin thank-you.
+- **Not judged**: 3c544597 (Amsterdam, "not sure which tree", ams_032 among the candidates) is our own account's photo and is not on disk; the other old leads in _sightings.json without a hold are our own accounts' or from September with no photograph on this runner, so none were judged blind.
+- Feedback: nothing without a verdict. reader_words.py: nothing waiting.
+
 ## 2026-11-20 session: crashes are now found and dived into without asking
 
 **What changed.** Hidde: "we need a system in place where if you find about crashes you dive into them i shouldnt have to ask you". scripts/app_crashes.py reads the crashes the app reports itself to PostHog (both platforms: `app_exit_abnormal`, `app_crash_note`, `$exception`), strangers only, with what each phone did in the ten minutes before. health.py rings on any crash of 48 hours that has no answer in data/crash-fixes.json, so it is rung-2 work for the night run (POSTHOG_READ_KEY now in its three agent steps). Until today only the iPhone's MetricKit table was read, so eleven Android crashes sat unread.

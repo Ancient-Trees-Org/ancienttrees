@@ -6,7 +6,7 @@
   "intro": "Tokyo has burned to the ground more times than almost any capital on Earth: the 1657 Meireki fire, the 1868 Battle of Ueno, the 1923 earthquake, and the March 1945 firebombing each erased whole districts overnight. The city's oldest trees survived by an accident of biology as much as luck. Ginkgo bark and wood hold unusual moisture and resist igniting, which is one reason ten of these are ginkgos, scarred but alive on temple and shrine ground. The oldest dates from the Kamakura period. The newest is a hundred-year-old avenue everyone has already seen in photographs.",
   "meta_description": "Tokyo's oldest trees survived the fires that leveled the city around them. Start with the 750-year-old ginkgo at Zenpukuji, Tokyo's oldest living thing.",
   "question_answer": "The oldest tree in Tokyo is the ginkgo at Zenpukuji temple in Motoazabu, estimated at around 750 years old and a National Natural Monument since 1926. Nicknamed the Upside-Down Ginkgo for its hanging aerial roots, it stands a seven minute walk from Azabu-Juban Station.",
-  "question_meta": "Zenpukuji's 750-year-old ginkgo, the Upside-Down Ginkgo, is Tokyo's oldest tree. Its legend, exact location, and twenty-one more remarkable trees nearby.",
+  "question_meta": "Zenpukuji's 750-year-old ginkgo, the Upside-Down Ginkgo, is Tokyo's oldest tree. Its legend, exact location, and twenty-three more remarkable trees nearby.",
   "question_context": "Tokyo's claim to its oldest tree comes with more competition than most capitals. Sensoji temple in Asakusa has its own scarred ginkgo, tied by legend to the 12th century shogun Minamoto no Yoritomo and commonly cited at around 800 years old, older than Zenpukuji's tree. But that age rests entirely on oral tradition, and the tree lost its official Natural Monument status after 1945 fire damage. Zenpukuji's ginkgo carries an active national designation dating to 1926 and a growth-ring estimate that supports roughly 750 years, which is why guidebooks and Minato City's own tourism office call it Tokyo's oldest living tree while treating Sensoji's as a close, less formally verified second. Both trees share something else: they survived the same March 1945 firebombing raids that destroyed the buildings around them, because ginkgo wood resists catching fire in a way most other trees do not. Zenpukuji's tree also carries a legend of its own, said to have grown from a walking staff planted by the monk Shinran in 1229. Getting there: Azabu-Juban Station on the Namboku or Oedo line, then a seven minute walk.",
   "faq": [
     {
@@ -1031,6 +1031,51 @@
           "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622"
         }
       ]
+    },
+    {
+      "id": "tok_024",
+      "name": "The Great Zelkova of the Ōkunitama Approach",
+      "species": "Saw-leaf Zelkova (Zelkova serrata)",
+      "location": {
+        "address": "Baba Daimon Keyaki Namiki (Keyaki Namiki-dori), by the Okunitama Jinja-mae crossing, Fuchu, Tokyo",
+        "latitude": 35.6697899347224,
+        "longitude": 139.479078598105,
+        "neighbourhood": "Fuchu (about half an hour west of Shinjuku on the Keio line)"
+      },
+      "how_to_recognise": "At the shrine end of the zelkova avenue, near the Okunitama Jinja-mae crossing: a trunk far thicker than its neighbours, swollen at the foot, wrapped in a straw rope hung with white paper zigzags, inside a low red wooden fence.",
+      "access": "Free. It stands on the pavement of a public street, the approach to Ōkunitama Shrine, open at all hours.",
+      "verified_sources": [
+        "https://ja.wikipedia.org/wiki/%E9%A6%AC%E5%A0%B4%E5%A4%A7%E9%96%80%E3%81%AE%E3%82%B1%E3%83%A4%E3%82%AD%E4%B8%A6%E6%9C%A8 (Baba Daimon zelkova avenue, Fuchu: about 600 m along the approach to Ōkunitama Shrine, 127 trees in March 2024, a national Natural Monument since 1924; a 2004 survey found two old trees over 600 cm round)"
+      ],
+      "story": "\"There are a large number of Keyaki trees around the shrine. This appears to be the largest,\" wrote the reader who sent us this zelkova from Fuchu, in western Tokyo, with a GPS fix taken beside it.\n\nIt stands in the Baba Daimon avenue, the 600-metre approach to Ōkunitama Shrine, where zelkovas line both sides of the road and have been a national Natural Monument since 1924. Tradition says the first saplings were given by the warrior Minamoto no Yoriyoshi and his son Yoshiie in the eleventh century, in thanks for a victory, and that Tokugawa Ieyasu added more. Nobody has proved either story; of the sixty trees standing when the avenue was protected, thirty-two remained in 2024.\n\nThis is one of the old ones. Its trunk swells out over the roots like a cliff, and a thick straw rope hung with white paper zigzags marks it as sacred. The reader measured it at 680 centimetres round, their figure; a 2004 survey of the avenue found only two trees over six metres.\n\nCome in late November, as the reader did, when the whole avenue turns copper and gold.",
+      "found_by_reader": {
+        "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
+        "date": "2026-11-20"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
+        "moved_m": 0,
+        "date": "2026-11-20",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 reader judge: sent by a reader (42f66634-36d7-46df-8a02-739114680321, 2026-11-20, through the app). Photograph viewed: a huge swollen zelkova trunk wrapped in a straw rope with white paper zigzags, inside a low red fence on a city pavement, more roped zelkovas behind and the Okunitama Jinja-mae crossing sign beyond, autumn leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Japanese Elm at ŌKunitama Jinjya, Fuchu', species 'Japanese Elm', age 'None', girth 680 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tok_024-great-zelkova-of-the-kunitama-approach.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+        "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: a huge swollen zelkova trunk wrapped in a straw rope with white paper zigzags, inside a low red fence on a city pavement, more roped zelkovas behind and the Okunitama Jinja-mae crossing sign beyond, autumn leaves, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
   "oldest_tree_id": "tok_001"

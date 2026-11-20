@@ -7829,6 +7829,72 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "westerham/wsh_001"
+  },
+  {
+   "sighting_id": "42f66634-36d7-46df-8a02-739114680321",
+   "user_id": "p_697eb4a0c77311e0508c5fb0",
+   "mine": false,
+   "name": "Japanese Elm at ŌKunitama Jinjya, Fuchu",
+   "unsure_among": null,
+   "species": "Japanese Elm",
+   "age": null,
+   "girth_cm": 680,
+   "girth_hugs": null,
+   "note": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
+   "latitude": 35.6697899347224,
+   "longitude": 139.479078598105,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_697eb4a0c77311e0508c5fb0/42F66634-36D7-46DF-8A02-739114680321.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/42f66634-36d7-46df-8a02-739114680321-extra-1.jpg",
+    "out/sightings/42f66634-36d7-46df-8a02-739114680321-extra-2.jpg",
+    "out/sightings/42f66634-36d7-46df-8a02-739114680321-extra-3.jpg"
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: a huge swollen zelkova trunk wrapped in a straw rope with white paper zigzags, inside a low red fence on a city pavement, more roped zelkovas behind and the Okunitama Jinja-mae crossing sign beyond, autumn leaves, daylight, colour. Live as tokyo/tok_024 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "tokyo/tok_024"
+  },
+  {
+   "sighting_id": "1c528293-5004-4f58-9db6-1d635195b42a",
+   "user_id": "p_83881dd161bc1e19d059a7d6",
+   "mine": false,
+   "name": "A tree in Tarragona",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 41.1436227404924,
+   "longitude": 1.36498965990303,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_83881dd161bc1e19d059a7d6/1C528293-5004-4F58-9DB6-1D635195B42A.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: a big evergreen oak with a broad dark dome of a crown standing well above young pines, broom and scrub, its grey forked trunk visible low down, overcast evening daylight, colour. Live as tarragona/tgn_005 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "tarragona/tgn_005"
   }
  ]
 }
