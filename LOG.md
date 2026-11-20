@@ -16,6 +16,10 @@ No product change. Rung 1: one reader photo of an unmapped tree (3c544597, 52.39
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-20 later window (night run)
+
+Product change: 7 trees live. Fort Lauderdale gains six (ftl_011 to ftl_016: the Las Olas palm, Flamingo Gardens' apple blossom tree, cluster fig, Bo tree and the champion and challenger strangler figs), and Miami the Deering Estate champion black olive (mia_017). All approximate pins, no photographs, no ages, registers plus the garden's own page as sources. Fort Lauderdale's intro and FAQ no longer promise four trees. Verify pass found the Flamingo Gardens champions by listing the whole Broward register layer; five other Flamingo entries blocked on a name-word match probably deserve the same re-check, and a Panama tree and peltophorum are open leads. Taiwan a28_001 skipped (duplicate of alh_002). Open: the reader photo 3c544597 is still not on disk. Porto and Portland are full.
+
 ## 2026-11-19 reader judge: Old Albert gets its first photographs
 
 - **Live**: Old Albert, the Moreton Bay fig in Devonport, Auckland (akl_001), had no photograph. Now it has two from one reader. The close shot of the root curtain and trunks is the lead, and the wide view across Windsor Reserve, with the fountain and the library, is in the strip. The photo-live mail went with `--send`. Both photos are filed under November with no season shown (evergreen fig).
