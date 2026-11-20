@@ -3898,6 +3898,30 @@ def check_map_parity_ledger():
     return problems
 
 
+def check_one_place_card():
+    """The place card (a city, a species, a collection, a country, a park:
+    photograph, name, one line) is one function, placeCardHtml() in
+    site/src/lib/browse-card.ts, for the server (browseCard) and the browser
+    (placeCardJs). Before 2026-11-20 four places wrote it by hand and had
+    drifted (a bare number on the translated cities page, "trees" in English
+    on every city map). This refuses one written anywhere else.
+
+    Removing this needs Hidde."""
+    problems = []
+    src = ROOT / "site" / "src"
+    one = src / "lib" / "browse-card.ts"
+    if not one.exists() or "export function placeCardHtml(" not in one.read_text():
+        return ["site/src/lib/browse-card.ts no longer defines placeCardHtml(), the one place card"]
+    for f in sorted(list(src.rglob("*.ts")) + list(src.rglob("*.astro"))):
+        if f == one:
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if re.search(r"""<a class=["'\\]*exc-card""", line):
+                problems.append("%s:%d writes a place card by hand; use browseCard / atPlaceCard"
+                                % (f.relative_to(ROOT), i))
+    return problems
+
+
 def check_the_noindex_split_holds():
     """Pages Google alone is asked not to list carry the googlebot tag and only
     that; everything else on the noindex list carries the generic robots tag;
@@ -4847,6 +4871,7 @@ def main():
         check_one_save_button,
         check_one_tree_card,
         check_map_parity_ledger,
+        check_one_place_card,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in

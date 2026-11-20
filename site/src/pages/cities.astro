@@ -7,7 +7,8 @@ import Base from "../layouts/Base.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { cityIsRenderable, renderableTrees } from "../lib/trees";
 import { belongsInCityIndex } from "../lib/city-index";
-import { cityFace, NO_PHOTO_CARD } from "../lib/images";
+import { cityFace } from "../lib/images";
+import { browseCard } from "../lib/browse-card";
 import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../lib/schema";
 import { fitTitle } from "../lib/title";
 import { byCityListOrderEntry } from "../lib/city-order";
@@ -54,11 +55,9 @@ function groupByCountry(rows: typeof published): [string, typeof published][] {
 }
 const countryGroups = groupByCountry(published);
 
+// The one place card (lib/browse-card.ts placeCardHtml, 2026-11-20).
 function card(p: (typeof published)[number]): string {
-  const ph = p.face
-    ? `<span class="exc-ph"><img src="${esc(p.face)}" alt="" loading="lazy"></span>`
-    : NO_PHOTO_CARD;
-  return `<a class="exc-card" href="/${p.slug}">${ph}<span class="exc-body"><b>${esc(p.city)}</b><span>${nTrees(p.count)}</span></span></a>`;
+  return browseCard(`/${p.slug}`, p.city, esc(nTrees(p.count)), p.face);
 }
 
 const canonical = `${BASE_URL}/cities`;

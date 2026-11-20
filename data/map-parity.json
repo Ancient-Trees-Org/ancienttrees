@@ -43,6 +43,24 @@
       "android": "seen once on the emulator with -select=brn_001 in Baarn: a second dot half under the first; without -select the map is as iOS. Not yet known whether the clear-dot change caused it",
       "status": "open",
       "owed": "android: open Baarn with -select on the build before 2026-11-20 and this one; if new, the chosen layer must hide that tree's dot as iOS does (pinPredicate without the selected id)"
+    },
+    {
+      "what": "The nearest tree, when no tree is in view",
+      "since": "2026-11-20",
+      "web": "/explore: the one place card (browse-card.ts placeCardHtml), no photograph, name, km and city",
+      "ios": "MapTab.swift emptyHere: EmptyPlaceRow, tree icon, name, distance in the reader's units and city",
+      "android": "MapTab.kt: the same row as iOS",
+      "status": "open",
+      "owed": "web: the distance in the reader's units (a .dist span for units-js.ts), as the apps say miles where the reader reads miles; it says km always"
+    },
+    {
+      "what": "Zoomed out, the list turns to the cities in view",
+      "since": "2026-11-01",
+      "web": "the city map only (city-map-script.ts updatePanelMode, now the one place card); /explore keeps listing the trees in view",
+      "ios": "none: the map's list is always the trees in view",
+      "android": "none, as iOS",
+      "status": "open",
+      "owed": "a choice for Hidde: keep the city map's cities-in-view list (web only) or list the trees in view there too, as /explore and both apps do"
     }
   ]
 }

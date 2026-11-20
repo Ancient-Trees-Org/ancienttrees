@@ -3,13 +3,13 @@
 // MapLibre from a CDN, matching the current site exactly rather than going
 // through the bundled npm package (see site-config.ts's note on MAPLIBRE_JS).
 import {MAPLIBRE_JS, MAPLIBRE_CSS, MAP_STYLE, MAP_CREDIT} from "./site-config";
-import { NO_PHOTO_CARD } from "./images";
 import { mapCardJs } from "./map-card-js";
 import { mapFiltersJs } from "./map-filters-js";
 import { ui } from "./i18n";
 import { icon } from "./icons";
 import { treePinsJs } from "./tree-pins-js";
 import { treeCardJs } from "./tree-card";
+import { placeCardJs } from "./browse-card";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -567,7 +567,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
   const speciesLatinJson = JSON.stringify(speciesLatin);
   return (
     mapScript(
-    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeCardJs()}${mapFiltersJs()}
+    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeCardJs()}${placeCardJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
 // The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
@@ -970,9 +970,10 @@ function emptyHere() {
   });
   if (best) {
     html += '<div class="exc-cityhead"><h2>' + _esc(EMPTY.nearest) + '</h2></div>' +
-      '<a class="exc-card" href="/' + best.properties.url + '">${NO_PHOTO_CARD}' +
-      '<span class="exc-body"><b>' + _esc(best.properties.name) + '</b>' +
-      '<span>' + Math.round(bd) + ' km &middot; ' + _esc(best.properties.city) + '</span></span></a>';
+      // The one place card (lib/browse-card.ts). No photograph, as the app's
+      // nearest row has none (MapTab.swift emptyHere; data/map-parity.json).
+      atPlaceCard({ href: '/' + best.properties.url, name: best.properties.name, face: null,
+        sub: Math.round(bd) + ' km &middot; ' + _esc(best.properties.city) });
   }
   return html;
 }

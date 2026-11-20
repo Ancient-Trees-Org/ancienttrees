@@ -29,6 +29,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: one place card
+
+- **What changes for visitors**: the translated cities pages say "12 árboles" under a city instead of a bare "12"; the city map's zoomed-out list of cities says the count in the page's language (it said "trees" in English on every page). Everything else looks as before: placeCardHtml() in site/src/lib/browse-card.ts writes every place card (browse indexes, /cities in every language, the city map's cities in view, /explore's nearest tree), and scripts carry its own source. Run on the answers of 600 live place cards (/cities, /species, /collections, /countries, /parks) it gave the same markup. qa `check_one_place_card()` refuses one written by hand. **Two open rows in data/map-parity.json, one for Hidde**: the city map's zoomed-out cities list exists nowhere else (explore and both apps list the trees in view); and /explore's nearest tree says km where the apps use the reader's units.
+
 ## 2026-11-20 session: clear dots on the iPhone and Android too
 
 - **What changes in the apps**: a dot no longer sits half under a pin on either phone; a tree whose dot would touch a pin or another dot waits for a zoom, as on the website (Airbnb's mini-pins). TreeMap.swift and TreeMapView.kt draw the dots as symbol layers that may not overlap, under the pins. Seen in Baarn on the iPhone 17 Pro simulator and the Android emulator; Android's unit tests pass; iOS CI runs on the push. qa now holds Android's pin to PIN_SPEC too. **For Hidde: the next iPhone and Android builds carry it.** Open in data/map-parity.json: a second dot seen once on Android with `-select`, cause not yet known.

@@ -4,15 +4,50 @@
 import { usablePhoto, thumbUrl, NO_PHOTO_CARD, type TreeLike } from "./images";
 import { BASE_URL } from "./schema";
 
-function esc(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+// THE PLACE CARD, ONE FUNCTION FOR THE SERVER AND THE BROWSER (Hidde,
+// 2026-11-20, "werk daarna volgende component uit", after the pin, the save
+// button and the tree card). The photograph, the name and one line under it:
+// a city, a species, a collection, a country, a park. The browse indexes
+// wrote it through browseCard(), and four more places wrote it by hand (the
+// /cities pages in English and translated, the city map's "cities in view",
+// /explore's nearest tree), each a little different: the translated index
+// printed a bare number, the city map said "trees" in English on every page.
+// Now placeCardHtml() writes it everywhere, and scripts carry its own source
+// (placeCardJs()), as saveButtonHtml() and treeCardHtml() are carried.
+export interface PlaceCard {
+  href: string;
+  name: string;
+  /** The line under the name, as HTML (it may carry a .dist span). */
+  sub: string;
+  /** The photograph, or null for the no-photo drawing. */
+  face: string | null;
+}
+
+export function placeCardHtml(o: PlaceCard, noPhoto: string): string {
+  function esc(s: unknown): string {
+    return String(s === undefined || s === null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  var ph = o.face ? '<span class="exc-ph"><img src="' + esc(o.face) + '" alt="" loading="lazy"></span>' : noPhoto;
+  return '<a class="exc-card" href="' + esc(o.href) + '">' + ph + '<span class="exc-body"><b>' + esc(o.name) +
+    "</b><span>" + o.sub + "</span></span></a>";
 }
 
 export function browseCard(href: string, name: string, sub: string, face: string | null): string {
-  const ph = face
-    ? `<span class="exc-ph"><img src="${esc(face)}" alt="" loading="lazy"></span>`
-    : NO_PHOTO_CARD;
-  return `<a class="exc-card" href="${href}">${ph}<span class="exc-body"><b>${esc(name)}</b><span>${sub}</span></span></a>`;
+  return placeCardHtml({ href, name, sub, face }, NO_PHOTO_CARD);
+}
+
+/** The same function for a page's script: atPlaceCard(o) in the browser. */
+export function placeCardJs(): string {
+  const src = placeCardHtml.toString();
+  if (/__\w+\(|\?\?|\?\.|=>/.test(src)) {
+    throw new Error("placeCardHtml() no longer ships as plain ES5 text: " + src.slice(0, 120));
+  }
+  return `
+var AT_NO_PHOTO_CARD = ${JSON.stringify(NO_PHOTO_CARD)};
+var atPlaceCardHtml = ${src};
+function atPlaceCard(o) { return atPlaceCardHtml(o, AT_NO_PHOTO_CARD); }
+`;
 }
 
 interface CollectionEntryLike {

@@ -19,9 +19,10 @@
 // us a hand-kept copy of the haversine formula until 2026-09-12, when the
 // proximity check that needed it went; there is no duplicate of it left here.
 import {MAP_STYLE, MAP_CREDIT} from "./site-config";
-import { NO_PHOTO_CARD } from "./images";
 import { mapScript, pinPriority, PILES_JS, ONE_WORLD } from "./map";
 import { treePinsJs } from "./tree-pins-js";
+import { placeCardJs } from "./browse-card";
+import { ui } from "./i18n";
 import { distSpan } from "./trees";
 import type { WalkMarker, Walk } from "./walks";
 import { mapCardJs } from "./map-card-js";
@@ -123,7 +124,7 @@ export function cityMapScript(
 
   const home = homeBounds(inTown && inTown.length >= 2 ? inTown : markers);
 
-  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
+  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${placeCardJs()}${mapFiltersJs()}
 var markers = ${data};
 // THE FILTER ROW (lib/map-filters-js.ts), the explore map's, wired here before
 // the map for the reason given there (Hidde, 2026-11-01: "put the filters also
@@ -284,14 +285,13 @@ function ensureChooserBox() {
   chooserHost.appendChild(chooserBox);
   return chooserBox;
 }
+// The one place card (lib/browse-card.ts placeCardHtml, 2026-11-20); the
+// count in the page's language (it said "trees" in English on every page).
+var TREES_N = ${JSON.stringify(ui(lang).homeTreesCount(98765).replace("98765", "{n}"))};
+function _pesc(t) { return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); }
 function chooserCard(c) {
-// The no-photo drawing is interpolated at BUILD time, so the script text that
-// ships still carries no import: one drawing for every card on the site, rather
-// than the empty beige rectangle this line used to emit (2026-09-17).
-  var ph = c.ph ? '<span class="exc-ph"><img src="' + c.ph + '" alt="" loading="lazy"></span>' : '${NO_PHOTO_CARD}';
-  return '<a class="exc-card" href="/' + c.url + '">' + ph +
-         '<span class="exc-body"><b>' + c.city + '</b>' +
-         '<span>' + c.n + ' trees &middot; ' + c.country + '</span></span></a>';
+  return atPlaceCard({ href: '/' + c.url, name: c.city, face: c.ph || null,
+    sub: _pesc(TREES_N.replace('{n}', String(c.n))) + ' &middot; ' + _pesc(c.country) });
 }
 function updatePanelMode() {
   if (!cityPanel || !CHOOSER_CITIES.length) { return; }
