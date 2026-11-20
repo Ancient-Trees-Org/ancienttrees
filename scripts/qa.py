@@ -451,6 +451,9 @@ def check_app_crashes_reach_a_person():
         ("daily_digest.py", "block(app_crashes_section", "the digest no longer carries the App crashes table"),
         ("daily_digest.py", "urgent_crash_line(today)", "the digest no longer puts an URGENT crash above the headline"),
         ("brief.py", "app_crashes(out)", "brief.py no longer shows an URGENT crash at session start"),
+        # Hidde, 2026-11-20: "if you find about crashes you dive into them i
+        # shouldnt have to ask you": the app's own reports ring in health.py.
+        ("health.py", "app_crashes.health_line(", "health.py no longer rings for crashes the app reports to PostHog"),
     ]
     for name, needle, why in wiring:
         if needle not in text(name):
@@ -468,6 +471,14 @@ def check_app_crashes_reach_a_person():
     fixes = root / "data" / "crash-fixes.json"
     try:
         for f in json.loads(fixes.read_text(encoding="utf-8")).get("fixes", []):
+            # The app's own reports (scripts/app_crashes.py, 2026-11-20) answer a
+            # signature on the builds they name and no other, so a later build's
+            # crash still rings even when nothing was fixed.
+            if f.get("platform"):
+                if not f.get("signature") or not (f.get("builds") or f.get("first_fixed_build")):
+                    out.append("data/crash-fixes.json: a %s entry without signature or builds."
+                               % f.get("platform"))
+                continue
             if not f.get("signature") or not f.get("build"):
                 out.append("data/crash-fixes.json: an entry without signature or build.")
             if not (f.get("first_fixed_build") or f.get("server_remedy")):
