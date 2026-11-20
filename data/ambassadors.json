@@ -1478,6 +1478,36 @@
         "The Chartwell Sequoia"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_993f7951067197e004db82b1",
+      "place_slug": "kantharpura",
+      "place_name": "Kantharpura",
+      "date": "2026-11-20",
+      "trees": [
+        "The Mahakali Vad of Kantharpura"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_dd12e9b37ee711dafbb32c9b",
+      "place_slug": "providence",
+      "place_name": "Providence",
+      "date": "2026-11-20",
+      "trees": [
+        "The Betsey Williams Sycamore"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_83881dd161bc1e19d059a7d6",
+      "place_slug": "tarragona",
+      "place_name": "Tarragona",
+      "date": "2026-11-20",
+      "trees": [
+        "The Holm Oak above the Scrub at Altafulla"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2574,6 +2604,17 @@
       "trees": [
         "sua_001",
         "sua_002"
+      ],
+      "since": "2026-11-20",
+      "mailed": []
+    },
+    "la-tene": {
+      "trees": [
+        "prf_001",
+        "prf_002",
+        "prf_003",
+        "prf_004",
+        "prf_005"
       ],
       "since": "2026-11-20",
       "mailed": []

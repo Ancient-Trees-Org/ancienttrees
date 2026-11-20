@@ -2454,73 +2454,53 @@
    "sent": []
   },
   "p_93268936c7d94f408d689cef": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "808db90d-fc21-4413-a407-fc01effd1aff",
      "tree_id": "ams_032",
-     "tree_name": "The Last Elm of Stationsplein",
-     "city": "Amsterdam",
-     "city_slug": "amsterdam",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_356d4ffeb1ba645c8598cdc8": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "a2b98e69-d805-4827-acee-a5da974e83a9",
      "tree_id": "ams_032",
-     "tree_name": "The Last Elm of Stationsplein",
-     "city": "Amsterdam",
-     "city_slug": "amsterdam",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_81c58c51dd7f98c91361dc6c": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "7734217f-6c6a-45a2-8dce-58cf64dd2477",
      "tree_id": "par_016",
-     "tree_name": "The Twisted Beech of Square des Arenes de Lutece",
-     "city": "Paris",
-     "city_slug": "paris",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_6d76a4f4619c204b33c10597": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "fc36a7af-dcf1-4c91-a09e-7ab51d1b483d",
      "tree_id": "mil_014",
-     "tree_name": "Il Platano del Giardino Bazlen",
-     "city": "Milan",
-     "city_slug": "milan",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     },
     {
      "sighting_id": "66e7f16a-6521-4ff5-8303-57501db2cfc5",
      "tree_id": "mil_014",
-     "tree_name": "Il Platano del Giardino Bazlen",
-     "city": "Milan",
-     "city_slug": "milan",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
