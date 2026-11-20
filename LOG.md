@@ -9,6 +9,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: La Tène is Laténa
+
+- **Live**: the Préfargier place page and its five trees say Laténa, the local name the reader and ambassador there asked for (Hidde: "follow the local"). The intro names La Tène once as the official name; "La Tène" stays a search name; URL /la-tene unchanged.
+- **Reply sent** to the reader (feedback 1240, Hidde: "Verstuur") through contributor_reply.py: name changed, her 4.23 m girth on the cedars' page, ambassador for Laténa, her next photos welcome. Row closed as handled.
+
 ## 2026-11-20 session: three ambassadors answered, two York trees in
 
 - **Replies sent** (Hidde: "Send all three"), threaded, batch reply-ambassadors-york-gdansk-sofia-2026-11-20: Laurie (York), Jakub (Gdansk), Kaloyan (Sofia, the mail signed "K"). Their mails had sat as "not yet read" since 11-18/19 with no draft.
