@@ -28,6 +28,11 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 Web half: the last 24 hours were reader-judge photographs (Lyon, London), the bookmark on tree tiles (web and app, iOS and Android), the sign-in last-call script, row thumbnails and Birmingham verify leads. Nothing new broke in what was sampled; the earlier findings are all still present in site/dist (checked by grep):
 
+App half (iPhone SE: people, photo-viewer, place-pin, profile-edit, profile-signed-in, profile): looked at all six. Find people, the photo viewer credit, the "Where is it really?" sheet and both Settings states read honestly.
+
+- NOTE APP profile-edit.png: the Name field is empty ("The name people see") while profile-signed-in.png shows the same account as "test". Every account has a profile name from the moment it exists (CLAUDE.md, Profiles), so an empty field is either a fixture gap or a real state where the edit sheet loses the name; worth a look by a session.
+- NOTE APP profile-signed-in.png: "Ancient Trees Plus" sits under the HELP heading beside Send feedback and Rate the app. A paid offer under Help reads as a mislabelled group; a session decides placement (visual, hard list 2 for anything about the price).
+
 - WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" as page text (fourth review; the phrase is still in 11 data/cities files and in site/dist/api/trees.json). Public copy never narrates our process. Replacement for the access line: "Free. Open access; opening hours not confirmed." Add a preflight check for "writer must" in `access` and `story`.
 - WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Fourteenth review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
 - WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-fifth review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
