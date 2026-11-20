@@ -2385,19 +2385,15 @@
    ]
   },
   "p_ed78f0fc4542478a0ccd3d87": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-20",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "64169b01-449c-4395-9b89-cc55315d2cfa",
      "tree_id": "kas_001",
-     "tree_name": "The Leaf-Seed Ginkgo of Inada Gobo",
-     "city": "Kasama",
-     "city_slug": "kasama",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-20"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_83548a11e2ad9963ef049f04": {
    "last": null,
