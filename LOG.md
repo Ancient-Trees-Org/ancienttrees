@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: two Android "can't get it" mails answered
+
+- **SENT on Hidde's "send both mails out"**: Kate Fry (Woodland Trust Scotland, on the Alpha list by hand) got the Play opt-in link and a check that Play is signed in with the account she gave; Monique (wave 3) got the two steps again. Batch reply-kate-monique-2026-11-20.
+- **How big is it**: five Android replies today (Martin, Alissa, Andrea, Monique, Kate) against 400+ invitations in two days; PostHog shows 8 new Android installs on 11-18, 57 on 11-19, 40 on 11-20, still arriving every hour after the group fix. So most get in; the misses look like the wrong Google account or skipped steps. Not split by track (Alpha vs Beta), not checked in Play's opted-in count.
+- **Owed to Kate**: the Rannoch Moor rowan on the A82 ("the loneliest tree in Scotland", Geograph 7619434, CC BY-SA 2.0, subject at NN 3089 4662) is not on the map; the reply says it will be added this week. The Skipinnish Oak (achnacarry/ach_001) is live, app-only, no photo.
+
 ## 2026-11-20 session: the map walk
 
 - **Every web map now walks the same steps before a deploy goes live** (Hidde: "welke vraag moet ik jou stellen dat je overal dezelfde kaart ervaring goed fixed"). scripts/pagecheck.py, already run in Chrome before the upload, walks the city, explore, country and state maps at 1440 and 1024 wide: pins stand absolute, the same buttons (zoom, one find-me, no full screen), pointing at a pin or a list row lights it and moves no other pin, a click opens the card beside its pin with its photograph, a full map keeps its place in the address. A map that answers differently keeps the old site live. qa holds the walk in place.
