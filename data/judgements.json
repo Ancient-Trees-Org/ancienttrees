@@ -40,6 +40,28 @@
    "agreed": null
   },
   {
+   "id": "sight:f79d2df8-48e9-4231-b534-afa657d1b611",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The banyan of Nhan Dan, 71 Hang Trong",
+   "city": "Hanoi",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/f79d2df8-48e9-4231-b534-afa657d1b611.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Night photograph of the Nhan Dan banyan from its courtyard, the paper's sign in front and the aerial roots under the crown: plainly this tree, and the page had no photograph. Now its lead photo.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

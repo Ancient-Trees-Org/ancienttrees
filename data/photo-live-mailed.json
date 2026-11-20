@@ -2398,6 +2398,21 @@
     }
    ],
    "sent": []
+  },
+  "p_83548a11e2ad9963ef049f04": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "f79d2df8-48e9-4231-b534-afa657d1b611",
+     "tree_id": "hni_003",
+     "tree_name": "The banyan of Nhan Dan, 71 Hang Trong",
+     "city": "Hanoi",
+     "city_slug": "hanoi",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

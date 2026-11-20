@@ -10,6 +10,14 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Nhan Dan banyan in Hanoi gets its first photograph and a better pin
+
+- **Live**: hni_003 (The banyan of Nhan Dan, Hanoi) now leads with a reader's photograph, a night shot from the newspaper courtyard with the Nhan Dan sign in front and the aerial roots under the crown. It was lit by lamps, not daylight, but it is plainly this tree and the page had none (same call as the Byakugo-ji wisteria and the Bromley Oak). taken_month 11 from the photo's own date. The reader got the "on the page" mail.
+- **Report 1000097** (pin moved 44 m on hni_003): the reader dragged our approximate pin from the Le Thai To pavement into the courtyard, inside the newspaper's OSM outline, where the photograph was also taken. Under the "reader wins" rule the pin is theirs now. It stays approximate because it was placed by hand. Closed with the standard pin thank-you.
+- **Left waiting**: lead 3c544597 (Amsterdam, near the Last Elm of Stationsplein) is from one of our own accounts (`mine`), and its photograph is not on this machine. Not judged blind.
+- Tips, feedback and readers' words: nothing new.
+- Note: preflight's GPS check flagged the pin note just because it contained the word "GPS" ("no GPS fix"). I reworded the note.
+
 ## 2026-11-20 night run, second attempt: nothing publishable found
 
 No product change. READY leads: 0. Porto and Portland are full (32/30, 33/30), so the claim was refused. Sheffield was claimed and released: none of its 4 leads has a coordinate, so it is walled for 48h. Venlo is walled too. San Francisco, Birmingham and Leeds were already walled from earlier passes. Translations are paused while `TRANSLATIONS_OUT` holds. The one unjudged reader photo (3c544597, near Amsterdam) is not on disk, so it was not judged blind and stays open. Next run: a register with tree-level points for Sheffield, Birmingham or Leeds, or a coordinate source for the Sheffield leads.

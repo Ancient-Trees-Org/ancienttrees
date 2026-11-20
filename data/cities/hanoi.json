@@ -107,8 +107,8 @@
       "age_basis": "source",
       "location": {
         "address": "Courtyard of Bao Nhan Dan, 71 Hang Trong, seen from the pavement of Le Thai To, Hoan Kiem, Hanoi",
-        "latitude": 21.0298,
-        "longitude": 105.8513,
+        "latitude": 21.029619,
+        "longitude": 105.850919,
         "neighbourhood": "Hoan Kiem Lake, west shore"
       },
       "story": "A newspaper has worked under this banyan since October 1954, when Nhan Dan, the Communist Party daily, moved into 71 Hang Trong about ten days after it came to Hanoi. Its own pages put the tree at over 300 years, and VietnamPlus gives the same figure. Nobody has published a measurement, but Nhan Dan wrote in 2022 that it takes dozens of people to reach round the trunk. A reader who told us about it puts it at over 400 years. Neither number comes with a basis, so take them as an estimate, not a count of rings.\n\nThe ground has had several lives around it. Nhan Dan writes that this corner of the old Ho Dinh quarter once held the school of the scholar Vu Tong Phan, and that the French later built a villa here, known as the residence of the deputy governor-general. Generations of journalists have rested and talked in its shade, and the paper recalls a visiting Soviet delegation turning into the courtyard just to look at it.\n\nThe courtyard belongs to the newspaper, not to a park. The reader who sent it tells us the tree can be seen from the pavement on Le Thai To, the street along the west shore of Hoan Kiem Lake. Since September 2026 the paper has also held free evening shows beneath it, with light projected onto the trunk. If you know which banyan species it is, tell us.",
@@ -126,17 +126,25 @@
       "verify_notes": "2026-11-16: tipped by a reader in the app (submission 700, 'Over 400 year old tree, a beloved landmark', with a Google Maps link to 'Cay da toa bao Nhan dan, 12 P. Le Thai To'). Earlier blocked as a lead (courtyard of a newspaper HQ, hard rule 10). The reader answered our question by mail on 2026-11-16: 'visible from the sidewalk', which clears it under Hidde's 2026-11-04 ruling (El Pino: clearly seen from public ground). Age: 'hon 300 tuoi' in Nhan Dan 23 Feb 2022 (author's claim, no basis) and 10 Mar 2026, and VietnamPlus Sep 2026 ('cay da hon 300 nam tuoi'); reader says over 400. Size: 'hang chuc nguoi om moi xue' (Nhan Dan 2022), no girth or height published. History: Nhan Dan 19 Aug 2021 (Dang Minh Phuong): paper moved from Son Tay 14 Oct 1954, to 71 Hang Trong about ten days later; site of Vu Tong Phan's school, later French villa (deputy governor-general's residence, Gauthier villa); Soviet delegation came in to look at the tree. Tan Da Show, free, 3D mapping on the tree, first 19 Sep 2026 (VietnamPlus). Species not named in any source: genus only, asked on the page. Pin: on the Le Thai To pavement beside the building (OSM relation 21394540, bbox 21.02923-21.03032, 105.85027-105.85117); trunk position in the courtyard unknown, so approximate.",
       "access": "The courtyard belongs to the Nhan Dan newspaper and is not a public garden; the tree can be seen from the pavement on Le Thai To (a reader's account). Free evening shows are sometimes held beneath it.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hni_003-the-banyan-of-nhan-dan-71-hang-trong.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_83548a11e2ad9963ef049f04",
+        "sighting_id": "f79d2df8-48e9-4231-b534-afa657d1b611",
+        "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-20: The Nhan Dan banyan at night from the courtyard, the red Nhan Dan sign in front, curtains of aerial roots under the great crown, the colonial building to the right; lit by the courtyard lamps, but it is plainly this tree and the page had no photograph. Species seen: banyan: hanging aerial roots dropping into the ground, a dense evergreen fig crown. Fits the description: a huge old banyan over the courtyard of the Nhan Dan newspaper building, the paper's sign in the foreground.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "OpenStreetMap",
-        "date": "2026-11-16",
-        "note": "Pavement of Le Thai To at the east edge of OSM relation 21394540 (Bao Nhan Dan, 71 Hang Trong), where the reader's map link and her mail place the view."
+        "kind": "reader report 1000097",
+        "date": "2026-11-20",
+        "note": "A reader moved the pin by hand 44 m, from the Le Thai To pavement into the newspaper courtyard (inside OSM relation 21394540, bbox 21.02923-21.03032, 105.85027-105.85117), where a reader's night photograph of 2026-11-18 was taken beside the tree. Placed by hand on the map, not a device fix, so still approximate. Earlier: the pavement at the relation's east edge (OSM, 2026-11-16)."
       }
     }
   ]
