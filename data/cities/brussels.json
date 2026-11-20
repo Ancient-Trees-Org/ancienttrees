@@ -217,10 +217,19 @@
       "access": "Free, public park",
       "transport": "Tram to Parc de Woluwe, or bus from Montgomery metro station",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 1280,
+        "height": 853,
+        "taken_month": 4,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Sequoiadendron giganteum - WOLUW, BD.73, n°31.164 830cm - 2023.0411 009_(c) Philipp.jpg'. Looked at 2026-11-20: The sequoia in April, the dark spire in the middle of the valley lawn; taken from a distance, labelled by the photographer. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "ai_generated",
       "notes": "Girth (866cm, measured 2017) and 'largest tree in Brussels' claim corroborated by the official heritage inventory and the park's own design history (Laine, 1890s, for Leopold II). Exact planting year not found, so age is inferred from the park's founding decade. Pin corrected 2026-07-26: the prior coordinate was about 1.1km away, outside the tree's actual position. Bruxelles Environnement's own managed-tree WFS layer (ows.environnement.brussels/green) has exactly one Sequoiadendron giganteum in the park with a circumference this large (840cm, close to this entry's own sourced 866cm within plausible remeasurement drift); a second, much smaller sequoia (503cm) also exists in the park but is clearly not 'the single largest tree in Brussels' this entry describes.",
@@ -231,7 +240,24 @@
         "url": "https://sites.heritage.brussels/fr/trees/2851"
       },
       "girth_cm": 866,
-      "height_m": 33
+      "height_m": 33,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bru_005-the-giant-sequoia-of-parc-de-woluwe-wespelaar-2.jpg",
+          "license": "Used with permission from Arboretum Wespelaar; credit required",
+          "source": "mail",
+          "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+          "status": "approved",
+          "width": 1280,
+          "height": 960,
+          "taken_month": 1,
+          "permission": {
+            "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+            "date": "2026-10-29"
+          },
+          "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Sequoiadendron giganteum - WOLUW, BD.73 - 2013.0112 001_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The valley in January with the sequoia among other conifers; taken from a distance. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "bru_006",
@@ -330,10 +356,19 @@
       "access": "Free, public garden",
       "transport": "Tram to Abbaye or Bois de la Cambre stop",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_008-the-sophora-of-the-abbaye-de-la-cambre-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 1280,
+        "height": 960,
+        "taken_month": 2,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Styphnolobium japonicum - ABCAM, BD.12468 - 20190218_094755_ (c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The pagoda tree bare in February in the abbey gardens, the whole spreading crown. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "flagged",
       "notes": "Girth and regional size ranking (6th largest of its species) sourced to the official heritage inventory; no planting date found for this specific tree, so age range is a broad estimate. Pin resolved 2026-07-27 via Bruxelles Environnement's managed-tree WFS: of three Sophora japonica within the abbey grounds bounding box (208cm, 330cm and 313cm circumference), the 313cm specimen is a tight match for this entry's own sourced 308cm (2012) measurement, close enough to reflect a few years' further growth. Moved about 700m to the exact match, a real correction, not just tightening.",
@@ -446,10 +481,19 @@
       "access": "Free, public park, open daily 08:00 to 20:00",
       "transport": "Metro to Louise, about 5 minutes on foot through the Boulevard de Waterloo entrance",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 1280,
+        "height": 960,
+        "taken_month": 7,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.640 - BX-Bruxelles - EGMON 2015.0704 001_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The whole oak in leaf in July, from the courtyard by the palace railings and gate. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "ai_generated",
       "notes": "Girth 290cm measured 2019, height 10m, crown 17m, health recorded as 'Sain', and the ranking as second thickest of its species in the region all come from the region's own per-tree record (heritage.brussels tree 648, legally inventoried 19 August 2024). The 1999 first-entry fact and the Galoppin 1901 planting attribution come from Wood Wide Web, Brussels Environment's published tree atlas, which gives a GPS reading of 50.8381, 4.3577 for this tree, matching the register coordinate exactly. Wood Wide Web's own card mixes this tree's data with the park's second Turner's oak (register 649, 264cm, 23m tall), so only the figures confirmed by the register are used here. Age is inferred from the 1901 park remaking rather than a planting record, hence the range. Wood Wide Web dates the hybrid's creation to the late 19th century, which conflicts with the standard account of an 18th century Essex origin, so the story names the nursery and the parentage but claims no date. No open licensed photograph of this individual tree found: heritage.brussels publishes photographs of it but states no licence beyond a blanket site copyright, and Wikimedia Commons has park views only, none identifiable as this tree.",
@@ -460,7 +504,24 @@
         "name": "Inventaire légal des arbres remarquables (heritage.brussels), no. 648",
         "url": "https://sites.heritage.brussels/fr/trees/648"
       },
-      "height_m": 10
+      "height_m": 10,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bru_011-the-turners-oak-of-parc-degmont-wespelaar-2.jpg",
+          "license": "Used with permission from Arboretum Wespelaar; credit required",
+          "source": "mail",
+          "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+          "status": "approved",
+          "width": 948,
+          "height": 1024,
+          "taken_month": 1,
+          "permission": {
+            "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+            "date": "2026-10-29"
+          },
+          "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.640 - 20240117_154555_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The oak behind the railings under snow, January 2024. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "bru_012",
@@ -491,10 +552,19 @@
       "access": "Free, public park, open daily 08:00 to 20:00",
       "transport": "Metro to Louise, about 5 minutes on foot through the Boulevard de Waterloo entrance",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_012-the-ginkgo-of-parc-degmont-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 576,
+        "height": 1024,
+        "taken_month": 11,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Ginkgo biloba - EGMON, BD.12427 - 20171105_161225_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The ginkgo in early November, the whole tree turning yellow, the park lawn in front. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "ai_generated",
       "notes": "Girth 327cm measured 2019, height 20m, crown 18m and the health rating 'Legers defauts' come from the region's per-tree record (heritage.brussels tree 637, legally inventoried 19 August 2024). The soil compaction diagnosis and the paired autumn colour with the walnut opposite come from Wood Wide Web (atlas 3698), Brussels Environment's published tree atlas, whose GPS reading of 50.8383, 4.3567 lands within about 5 metres of the register coordinate. The two sources disagree by one place on the regional size ranking, sixth on Wood Wide Web against seventh on the register; the register's own figure is used. No planting record exists, so the age follows the park's 1901 remaking under Edmond Galoppin. No open licensed photograph of this individual tree found.",
@@ -527,7 +597,7 @@
         "longitude": 4.356685,
         "neighbourhood": "Sablon / Bruxelles-Ville"
       },
-      "story": "In autumn 2018 a Brussels art institute adopted this tree. The ISELP, whose building stands a few streets away, chose the tulip tree of Parc d'Egmont as the living centrepiece of an exhibition called A Forest, on the argument that a monument you can walk around, in a park that joins the upper and lower city, does something a gallery wall cannot: it makes a passerby slow down. The tree is a good candidate for the job. It is 3.06 metres around and twenty seven metres tall, the only specimen on this list the region's surveyors record as being in outright good health, and it carries the strangest leaf in the park, cut off flat at the tip as though someone had trimmed it with scissors. Its flowers are the reason for the name and the reason most people miss them: greenish yellow, tulip shaped, and produced high in the crown in June, where they sit above eye level until a storm drops one on the path. Europeans wanted this American tree so badly in the eighteenth century that its seeds were smuggled. Three hundred years later the enthusiasm has come back around, in the form of an art exhibition.",
+      "story": "In autumn 2018 a Brussels art institute adopted this tree. The ISELP, whose building stands a few streets away, chose the tulip tree of Parc d'Egmont as the living centrepiece of an exhibition called A Forest, on the argument that a monument you can walk around, in a park that joins the upper and lower city, makes a passerby slow down in a way a gallery wall cannot. The tree is a good candidate for the job. It is 3.06 metres around and twenty seven metres tall, the only specimen on this list the region's surveyors record as being in outright good health, and it carries the strangest leaf in the park, cut off flat at the tip as though someone had trimmed it with scissors. Its flowers are the reason for the name and the reason most people miss them: greenish yellow, tulip shaped, and produced high in the crown in June, where they sit above eye level until a storm drops one on the path. Europeans wanted this American tree so badly in the eighteenth century that its seeds were smuggled. Three hundred years later the enthusiasm has come back around, in the form of an art exhibition.",
       "verified_sources": [
         "https://sites.heritage.brussels/fr/trees/642",
         "https://www.woodwideweb.be/fr/atlas/154.html",
@@ -536,10 +606,19 @@
       "access": "Free, public park, open daily 08:00 to 20:00",
       "transport": "Metro to Louise, about 5 minutes on foot through the Boulevard de Waterloo entrance",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_013-the-tulip-tree-of-parc-degmont-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 1280,
+        "height": 960,
+        "taken_month": 7,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Liriodendron tulipifera - EGMON, BD.14729 - BX-Bruxelles - EGMON 2015.0704 003_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The palace lawn in July with the tulip tree among the trees on the far side; taken from a distance, labelled by the photographer. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "ai_generated",
       "notes": "Girth 306cm measured 2019, height 27m, crown 20m, health 'Sain' and the ranking of nineteenth thickest of its species in the region come from heritage.brussels tree 642, legally inventoried 19 August 2024. The ISELP sponsorship during the exhibition A Forest, 21 September to 15 December 2018, and the eighteenth century seed trade are recorded on Wood Wide Web (atlas 154), Brussels Environment's published tree atlas, whose GPS reading of 50.8381, 4.3567 lands within about 5 metres of the register coordinate. Wood Wide Web files this tree under the address Boulevard de Waterloo 31, which is the park's street entrance rather than a separate location. No planting record exists, so the age follows the park's 1901 remaking under Edmond Galoppin. No open licensed photograph of this individual tree found.",
@@ -582,10 +661,19 @@
       "access": "Free, public park, open daily 08:00 to 20:00",
       "transport": "Metro to Louise, about 5 minutes on foot through the Rue aux Laines or Boulevard de Waterloo entrance",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_014-the-great-sycamore-of-parc-degmont-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Jean Niesz, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 768,
+        "height": 1024,
+        "taken_month": 2,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Acer pseudoplatanus - EGMON, BD.12808 - Jean Niesz 20220209.jpg'. Looked at 2026-11-20: The sycamore bare in February, the whole tree from the lawn, the Egmont Palace behind on the left. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "flagged",
       "notes": "Girth 397cm measured in 2026, height 32m, crown 20m, bole 6m, health 'Legers defauts' and the ranking of third thickest of its species in the region come from heritage.brussels tree 6357, legally inventoried 19 August 2024. This is the freshest measurement of any tree in the cluster. Flagged on age: no source dates this tree, and its girth is large enough that it may predate the 1901 Galoppin remaking and belong to Tilman-Francois Suys' 1830 layout instead, so the range is deliberately wide. Deliberately claims no height record: brussels.json already credits the Douglas Fir of the Hippodrome as the tallest tree in the city at 33m, and this one is a metre short of that, so only the species-level girth ranking is claimed. Wood Wide Web (atlas 3700) confirms the tree's existence, species and presence on Brussels Environment's own Egmont walk, but places it about 38 metres from the register coordinate; the register's position is used because it carries a surveyed Lambert grid reference per tree while the atlas coordinates are hand placed along a walking route.",
@@ -864,7 +952,7 @@
         "longitude": 4.356075,
         "neighbourhood": "Sablon / Bruxelles-Ville"
       },
-      "story": "Parc d'Egmont has two Turner's oaks, and the region's own tree atlas has spent years quietly mixing up their measurements. This is the taller and thicker of the pair, 264 centimetres around and 23 metres high, against the other tree's 10 metres. Both are the same garden hybrid, bred in an English nursery by crossing the common pedunculate oak with the evergreen Mediterranean holm oak, which is why both keep their leathery leaves through a Brussels winter and only drop them briefly in spring when new growth pushes the old ones off.\n\nBrussels region's inventory of remarkable trees lists this one as the third thickest of its kind anywhere in the region, ranked by an official survey rather than a guess. No planting date survives for it specifically, though the palace grounds around it were remade as an English landscape park in 1901 by Edmond Galoppin, the likely era for both oaks even without a record naming either one.\n\nThe two trees stand a few minutes' walk apart on the same lawns, which makes them an easy pair to see together: the smaller, older-registered oak near the palace railings, this taller one closer to the Passage de Milan gate.",
+      "story": "Parc d'Egmont has two Turner's oaks, and the region's own tree atlas has spent years quietly mixing up their measurements. This is the taller and thicker of the pair, 264 centimetres around and 23 metres high, against the other tree's 10 metres. Both are the same garden hybrid, bred in an English nursery by crossing the common pedunculate oak with the evergreen Mediterranean holm oak, which is why both keep their leathery leaves through a Brussels winter and only drop them briefly in spring when new growth pushes the old ones off.\n\nBrussels region's inventory of remarkable trees lists this one as the third thickest of its kind anywhere in the region, ranked by an official survey rather than a guess. No planting date survives for it specifically, though the palace grounds around it were remade as an English landscape park in 1901 by Edmond Galoppin, the likely era for both oaks even without a record naming either one.\n\nThe two trees stand a few minutes' walk apart on the same lawns, which makes them an easy pair to see together. The smaller, older-registered oak stands near the palace railings, this taller one closer to the Passage de Milan gate.",
       "verified_sources": [
         "https://www.woodwideweb.be/fr/atlas/id_120.html",
         "https://patrimoine.brussels/liens/inventaires/liste-de-linventaire-legal-des-arbres-remarquables",
@@ -874,10 +962,19 @@
       "access": "Free, public park, open daily 08:00 to 20:00",
       "transport": "Metro to Louise, about 5 minutes on foot through the Boulevard de Waterloo entrance",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar.jpg",
+        "license": "Used with permission from Arboretum Wespelaar; credit required",
+        "source": "mail",
+        "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+        "status": "approved",
+        "width": 768,
+        "height": 1024,
+        "taken_month": 11,
+        "permission": {
+          "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+          "date": "2026-10-29"
+        },
+        "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.14734 - 2011.1101 149_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The whole oak in leaf from the lawn, early November. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
       },
       "curation_status": "flagged",
       "notes": "Girth 264cm and height 23m from the region's official remarkable-trees inventory (register id 649), the same dataset already used for bru_011. Wood Wide Web's atlas page for this species (id_120) conflates the two Egmont Turner's oaks' measurements in its prose, a conflation already flagged in bru_011's own notes; only the register-sourced figures for 649 are used here, not the page's own attribution of them. No age estimate: no planting record for this specific tree, and no growth factor for this garden hybrid was found this pass; the 1901 park remaking is stated as context only, not bridged into an age.",
@@ -887,7 +984,54 @@
         "name": "Inventaire légal des arbres remarquables (heritage.brussels), no. 649",
         "url": "https://sites.heritage.brussels/fr/trees/649"
       },
-      "height_m": 23
+      "height_m": 23,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-2.jpg",
+          "license": "Used with permission from Arboretum Wespelaar; credit required",
+          "source": "mail",
+          "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+          "status": "approved",
+          "width": 768,
+          "height": 1024,
+          "taken_month": 7,
+          "permission": {
+            "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+            "date": "2026-10-29"
+          },
+          "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.14734 - 2015.0704 004_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The oak in July from the path, the trunk and full crown. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-3.jpg",
+          "license": "Used with permission from Arboretum Wespelaar; credit required",
+          "source": "mail",
+          "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+          "status": "approved",
+          "width": 768,
+          "height": 1024,
+          "taken_month": 7,
+          "permission": {
+            "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+            "date": "2026-10-29"
+          },
+          "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.14734 - 2015.0704 005_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The trunk close, where it forks, in July. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bru_021-the-second-turners-oak-of-parc-degmont-wespelaar-4.jpg",
+          "license": "Used with permission from Arboretum Wespelaar; credit required",
+          "source": "mail",
+          "attribution": "Philippe de Spoelberch, © Arboretum Wespelaar",
+          "status": "approved",
+          "width": 972,
+          "height": 1024,
+          "taken_month": 1,
+          "permission": {
+            "words": "Joke Ossaer, Arboretum Wespelaar, 2026-10-29: the Beltrees photographs may be used 'mits vermelding ©Arboretum Wespelaar'; resent by WeTransfer 2026-11-19 after Hidde asked.",
+            "date": "2026-10-29"
+          },
+          "note": "Beltrees databank (Arboretum Wespelaar), sent by WeTransfer 2026-11-19, file 'Quercus x turneri 'Pseudoturneri' - EGMON, BD.14734 - 20240117_154327_(c) Philippe de Spoelberch.jpg'. Looked at 2026-11-20: The oak under snow in January 2024. Daylight and colour. Not an open licence: credit as given and ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "bru_022",
