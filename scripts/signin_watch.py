@@ -15,7 +15,9 @@ through the same hook, so it takes the route the rule gives it):
   - any other address: once, after an hour.
 
 Never more, so a person who simply changed their mind hears from us at most
-twice. An ask older than three days is left alone (`--days N` reaches further
+twice. Never at all to an address whose earlier mail bounced (read from the
+inbox), or when the same name before the @ already got in on another account
+(a typo they fixed themselves: outlook.co, tahoo.com; Hidde, 2026-11-20). An ask older than three days is left alone (`--days N` reaches further
 back, for a one-off catch-up a session runs on Hidde's word). What was retried sits
 in data/signin-watch.json under people.ref codes, never an address.
 
@@ -125,6 +127,70 @@ def stuck_links(key):
     return out
 
 
+def in_elsewhere(email, all_users):
+    """Whether the person behind `email` already got in on another account
+    with the same name before the @ (pure, tested). Hidde, 2026-11-20, after
+    bounces to outlook.co and tahoo.com reached his inbox: both people had
+    signed up again a minute later with the right domain and were in, but the
+    watcher kept mailing the typo."""
+    local, _, domain = (email or "").lower().partition("@")
+    if not local:
+        return False
+    for u in all_users:
+        other = (u.get("email") or "").lower()
+        if other == (email or "").lower() or other.partition("@")[0] != local:
+            continue
+        if u.get("email_confirmed_at") or u.get("last_sign_in_at"):
+            return True
+    return False
+
+
+def bounced_addresses(days=7):
+    """Addresses whose mail came back as failed (a 5xx bounce notice) in the
+    Ancient Trees inbox, INBOX and Spam, read-only. Hidde, 2026-11-20: the
+    watcher re-sent to ista@, an unknown Gmail mailbox, and he got the bounce
+    again. A delay notice ("Gmail will retry") is not a failure. Without the
+    mailbox login, or on any error, an empty set: the watcher then behaves as
+    before, never worse."""
+    import email as email_lib
+    import imaplib
+    user = os.environ.get("OUTREACH_SMTP_USER")
+    pw = os.environ.get("OUTREACH_SMTP_PASS")
+    if not (user and pw):
+        return set()
+    out = set()
+    try:
+        box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
+        box.login(user, pw)
+        since = (datetime.date.today() - datetime.timedelta(days=days)).strftime("%d-%b-%Y")
+        for folder in ("INBOX", "[Gmail]/Spam"):
+            if box.select(f'"{folder}"', readonly=True)[0] != "OK":
+                continue
+            ok, data = box.search(None, f'(SINCE {since} OR FROM "mailer-daemon" FROM "postmaster")')
+            for n in data[0].split():
+                ok, full = box.fetch(n, "(BODY.PEEK[])")
+                out |= failed_recipients(email_lib.message_from_bytes(full[0][1]))
+        box.logout()
+    except Exception as e:  # never let the inbox stop the watcher
+        print("signin_watch: bounce check unavailable", type(e).__name__)
+        return set()
+    return out
+
+
+def failed_recipients(msg):
+    """The recipients a delivery report says failed for good (pure, tested)."""
+    out = set()
+    for part in msg.walk():
+        if part.get_content_type() != "message/delivery-status":
+            continue
+        for sub in part.get_payload():
+            rcpt = sub.get("Final-Recipient") or sub.get("Original-Recipient")
+            action = (sub.get("Action") or "").strip().lower()
+            if rcpt and action == "failed":
+                out.add(rcpt.split(";")[-1].strip().strip("<>").lower())
+    return out
+
+
 def due(start, email, tries, now):
     """Whether somebody who asked to sign in at `start` and never got in gets
     the mail again now (pure, tested). `tries` older than GIVE_UP belong to an
@@ -179,10 +245,21 @@ def main():
         if uid in all_users:
             starts[uid] = min(starts.get(uid, asked), asked)
     todo = []
+    bounced = bounced_addresses() if starts else set()
     for uid, start in starts.items():
         u = all_users[uid]
         code = people.ref(uid, key)
         if not u.get("email") or state["retried"].get(code, {}).get("undeliverable"):
+            continue
+        if u["email"].lower() in bounced:
+            # Their mail came back: the address does not exist or refuses us.
+            # Recorded, never retried (the address itself is never written).
+            state["retried"].setdefault(code, {"tries": []}).update(
+                {"undeliverable": now.isoformat(timespec="minutes"), "why": "bounced"})
+            print("BOUNCED, skipped", code)
+            continue
+        if in_elsewhere(u["email"], all_users.values()):
+            print("IN ON ANOTHER ACCOUNT, skipped", code)
             continue
         if ROUTE and ROUTE != ("signed" if mailer.wants_resend(u["email"], mailer.EXPECTED) else "gmail"):
             continue

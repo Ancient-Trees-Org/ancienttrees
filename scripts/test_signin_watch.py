@@ -23,7 +23,38 @@ def user(provider="email", confirmed=False, signed_in=False):
             "last_sign_in_at": "x" if signed_in else None}
 
 
+def report(action, rcpt):
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    from email.message import Message
+    m = MIMEMultipart("report")
+    m.attach(MIMEText("Delivery report"))
+    status = Message()
+    status.set_type("message/delivery-status")
+    per = Message()
+    per["Final-Recipient"] = "rfc822; " + rcpt
+    per["Action"] = action
+    status.set_payload([Message(), per])
+    m.attach(status)
+    return m
+
+
+TYPO = "pm" + AT + "tahoo.com"
+FIXED = {"email": "pm" + AT + "yahoo.com", "email_confirmed_at": "x"}
+STUCK = {"email": TYPO}
+OTHER_IN = {"email": "pmx" + AT + "yahoo.com", "last_sign_in_at": "x"}
+
 cases = [
+    ("typo fixed on a second account: skipped", w.in_elsewhere(TYPO, [STUCK, FIXED]), True),
+    ("only the stuck account itself: not skipped", w.in_elsewhere(TYPO, [STUCK]), False),
+    ("a different name that is in: not skipped", w.in_elsewhere(TYPO, [STUCK, OTHER_IN]), False),
+    ("second account also never in: not skipped",
+     w.in_elsewhere(TYPO, [STUCK, {"email": "pm" + AT + "yahoo.com"}]), False),
+    ("a failed bounce names the address", w.failed_recipients(report("failed", "Ista" + AT + "gmail.com")),
+     {"ista" + AT + "gmail.com"}),
+    ("a delay notice is not a bounce", w.failed_recipients(report("delayed", TYPO)), set()),
+    ("no login: no inbox read, empty set",
+     (os.environ.pop("OUTREACH_SMTP_USER", None), w.bounced_addresses())[1], set()),
     ("stuck an hour and more: first retry", w.due(ago(2), GMAIL, [], NOW), True),
     ("too fresh: waits", w.due(ago(0.5), GMAIL, [], NOW), False),
     ("older than three days: left alone", w.due(ago(80), GMAIL, [], NOW), False),
