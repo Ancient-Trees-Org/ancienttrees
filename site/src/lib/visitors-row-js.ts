@@ -20,17 +20,19 @@
 // the next one, as its place on the tree's own page does. Nothing is kept on
 // the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
+import { visitorSaveFn } from "./visitors-page-js";
 
 /** The row shows from this many tiles (NewFromVisitors.minimum). */
 export const VISITORS_MIN = 4;
 
-export function visitorsRowJs(visitorWord: string): string {
+export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: string): string {
   return `
 <script>
 (function () {
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
   var MIN = ${VISITORS_MIN};
+  ${visitorSaveFn(saveWord, savedWord)}
   function esc(t) { return String(t == null ? '' : t)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function load(token) {
@@ -67,6 +69,7 @@ export function visitorsRowJs(visitorWord: string): string {
         '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="home-visitors" data-detail="' + esc(r.tree_id) + '">' +
         '<span class="shelf-ph"><img src="' + esc(c.s[r.sighting_id]) + '" alt="" loading="lazy"></span>' +
         '<b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' +
+        nfvSave(r.tree_id, c, esc) +
         (real
           ? (r.author_id
               ? '<a class="nfv-who" href="/profile?u=' + encodeURIComponent(r.author_id) + '">' + line + '</a>'
@@ -77,6 +80,7 @@ export function visitorsRowJs(visitorWord: string): string {
     if (html.length < MIN) return;
     row.innerHTML = html.join('');
     box.hidden = false;
+    if (window.atPaintSaveButtons) window.atPaintSaveButtons();
   }
   document.addEventListener('click', function (e) {
     var b = e.target.closest && e.target.closest('.nfv-ask');

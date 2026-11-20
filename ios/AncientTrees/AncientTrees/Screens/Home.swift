@@ -829,6 +829,9 @@ struct HomeView: View {
                             }
                             .buttonStyle(.plain)
                             .accessibilityIdentifier("visitor-tile")
+                            // The card save, as on /visitors and the web row
+                            // (Hidde, 2026-11-19), over the link, not in it.
+                            .overlay(alignment: .topTrailing) { SaveHeart(tree: f.tree, look: .onPhoto).padding(6) }
                             visitorLine(f.row)
                         }
                     }

@@ -20,11 +20,24 @@ import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
 import { icon } from "./icons";
 
 // The save on each tile (Hidde, 2026-11-19: "het zou heel logisch zijn als er
-// een bookmark icontje is bij elke boom"): the card heart every list carries,
-// SaveHeart.astro look "card" and map.ts _heart(), painted and handled by
-// TREE_ACTIONS_JS, which VisitorsPage.astro includes. A sibling of the tile's
-// link, never inside it, so a tap saves and does not open the tree.
+// een bookmark icontje is bij elke boom", then "Yes, both" for the home row
+// too): the card heart every list carries, SaveHeart.astro look "card" and
+// map.ts _heart(), painted and handled by TREE_ACTIONS_JS, which the page
+// including this must ship. A sibling of the tile's link, never inside it, so
+// a tap saves and does not open the tree. One function for the home row and
+// /visitors, so the two tiles cannot drift.
 const BM = icon("bookmark-simple", "bold", "heart hi-off") + icon("bookmark-simple", "fill", "heart hi-on");
+export function visitorSaveFn(saveWord: string, savedWord: string): string {
+  return `function nfvSave(id, c, esc) {
+    ${visitorSaveFn(saveWord, savedWord)}
+    return '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + esc(id) + '"' +
+      ' data-name="' + esc(c.n) + '" data-url="' + esc(c.u) + '"' + (c.p ? ' data-photo="' + esc(c.p) + '"' : '') +
+      (c.c ? ' data-meta="' + esc(c.c) + '"' : '') +
+      ' data-l-save="' + esc(SAVE) + '" data-l-saved="' + esc(SAVED) + '"' +
+      ' aria-pressed="' + (window.atHasSaved && window.atHasSaved(id) ? 'true' : 'false') + '"' +
+      ' aria-label="' + esc(SAVE + ' ' + c.n) + '">' + BM + '<span class="sr-only">' + esc(SAVE) + '</span></button>';
+  }`;
+}
 
 /** Tiles per request: two screens on a laptop, four on a phone. */
 export const VISITORS_PAGE = 24;
@@ -35,7 +48,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
 (function () {
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
-  var SAVE = ${JSON.stringify(saveWord)}, SAVED = ${JSON.stringify(savedWord)}, BM = ${JSON.stringify(BM)};
+  ${visitorSaveFn(saveWord, savedWord)}
   var N = ${VISITORS_PAGE};
   var cards = {}, rows = [], cursor = null, done = false, busy = false, token = null, paged = true;
   var grid, more, end, cols = [], ncols = 0;
@@ -86,12 +99,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
       : '<span class="nfv-who">' + line + '</span>';
     var el = document.createElement('div');
     el.className = 'shelf-card nfv-card';
-    var save = '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + esc(r.tree_id) + '"' +
-      ' data-name="' + esc(c.n) + '" data-url="' + esc(c.u) + '"' + (c.p ? ' data-photo="' + esc(c.p) + '"' : '') +
-      (c.c ? ' data-meta="' + esc(c.c) + '"' : '') +
-      ' data-l-save="' + esc(SAVE) + '" data-l-saved="' + esc(SAVED) + '"' +
-      ' aria-pressed="' + (window.atHasSaved && window.atHasSaved(r.tree_id) ? 'true' : 'false') + '"' +
-      ' aria-label="' + esc(SAVE + ' ' + c.n) + '">' + BM + '<span class="sr-only">' + esc(SAVE) + '</span></button>';
+    var save = nfvSave(r.tree_id, c, esc);
     el.innerHTML = '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="visitors-page" data-detail="' + esc(r.tree_id) + '">' +
       '<span class="shelf-ph">' + img + '</span><b>' + esc(c.n) + '</b><span class="shelf-meta">' + esc(c.c) + '</span></a>' + save + who;
     return el;

@@ -132,6 +132,11 @@ struct VisitorPhotosView: View {
             }
             .buttonStyle(.plain)
             .accessibilityIdentifier("visitor-tile")
+            // The save on the photograph's top right, as on every card
+            // (Hidde, 2026-11-19: "een bookmark icontje bij elke boom"; the
+            // web's /visitors tile carries the same). Over the link, not in
+            // it, so a tap saves and does not open the tree.
+            .overlay(alignment: .topTrailing) { SaveHeart(tree: it.tree, look: .onPhoto).padding(6) }
             VisitorLine(row: it.row, width: width) { _ in open(it) }
         }
         .onAppear {
