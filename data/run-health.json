@@ -2,62 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-12T17:38:11+00:00",
-   "date": "2026-09-12",
-   "run_id": "34705751292",
-   "minutes": 118.5,
-   "minutes_basis": "measured",
-   "attempts": 2,
-   "turns": 354,
-   "denials": 37,
-   "denials_source": "permission_denials: Bash(bash), Bash(cat), Bash(curl), Bash(diff), Bash(for), Bash(gh), Bash(git), Bash(python3), Bash(rm), Bash(until), Bash(wc)",
-   "ended": "success",
-   "tokens": 63214073,
-   "claims_held": [],
-   "commits": 21,
-   "cities_touched": 9,
-   "cities": [
-    {
-     "city": "warsaw",
-     "trees": 11
-    },
-    {
-     "city": "kaunas",
-     "trees": 3
-    },
-    {
-     "city": "florence",
-     "trees": 2
-    },
-    {
-     "city": "vainiai",
-     "trees": 2
-    },
-    {
-     "city": "dallas",
-     "trees": 1
-    },
-    {
-     "city": "degsne",
-     "trees": 1
-    },
-    {
-     "city": "pagramantis-regional-park",
-     "trees": 1
-    },
-    {
-     "city": "plauginiai-forest",
-     "trees": 1
-    },
-    {
-     "city": "zalgiriai",
-     "trees": 1
-    }
-   ],
-   "trees": 23,
-   "logged": true
-  },
-  {
    "started": "2026-09-12T19:50:25+00:00",
    "date": "2026-09-12",
    "run_id": "34715312499",
@@ -18307,6 +18251,89 @@
    "commits": 7,
    "cities_touched": 0,
    "cities": [],
+   "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-20T09:33:11+00:00",
+   "date": "2026-11-20",
+   "run_id": "44711591346",
+   "minutes": 5.7,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 77,
+   "denials": 4,
+   "denials_source": "permission_denials: Bash(cat | head ; grep | ? ...), Bash(cd ; cat ; import ; if ...), Bash(cd ; for ; do ; python3 ...), Bash(env)",
+   "ended": "success",
+   "tokens": 231425,
+   "claims_held": [
+    "sheffield",
+    "leeds"
+   ],
+   "commits": 13,
+   "cities_touched": 15,
+   "cities": [
+    {
+     "city": "balmerino",
+     "trees": 0
+    },
+    {
+     "city": "barcelona",
+     "trees": 0
+    },
+    {
+     "city": "bologna",
+     "trees": 0
+    },
+    {
+     "city": "cambridge",
+     "trees": 0
+    },
+    {
+     "city": "cork",
+     "trees": 0
+    },
+    {
+     "city": "djanet",
+     "trees": 0
+    },
+    {
+     "city": "dujiangyan",
+     "trees": 0
+    },
+    {
+     "city": "ferrara",
+     "trees": 0
+    },
+    {
+     "city": "geashill",
+     "trees": 0
+    },
+    {
+     "city": "humboldt-redwoods-state-park",
+     "trees": 0
+    },
+    {
+     "city": "lewes",
+     "trees": 0
+    },
+    {
+     "city": "narita",
+     "trees": 0
+    },
+    {
+     "city": "oslo",
+     "trees": 0
+    },
+    {
+     "city": "quito",
+     "trees": 0
+    },
+    {
+     "city": "zaanstad",
+     "trees": 0
+    }
+   ],
    "trees": 0,
    "logged": true
   }
