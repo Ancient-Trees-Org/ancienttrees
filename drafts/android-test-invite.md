@@ -11,6 +11,28 @@ Two waves, agreed in chat the same evening:
 2. The other ~1,700 a few days later, with the build that fixes what wave 1
    found. Spread over several days to stay under the sending limits.
 
+**WAVE 3, prepared 2026-11-20 (Hidde: "Yes, prepare it", then "what ever you think works"): through a Google Group, not the e-mail list.**
+Play's tester list refuses some addresses with no reason (two in wave 3's first
+50; probably not Google accounts), so finding each one by halving would take
+hundreds of saves. Instead: the Google Group **groups.google.com/g/ancienttrees-android-testers**
+(anyone can join, findable on the web, members list for managers only, posting
+and conversations owners only; its info page shows Hidde as owner with his
+Gmail address) is the tester list of a **second closed track, "Beta (Google
+Group)"**, with the same build 4, all countries. Play allows one access method
+per track, so Alpha keeps its e-mail list (485, including wave 3 lines 1 to 11)
+untouched. The Beta release was saved for review on 2026-11-20 and waits for
+Hidde's "indienen voor beoordeling" click. New testers need Beta approved.
+Batch: drafts/batches/android-test-invite-wave3-2026-11-20.json (gitignored),
+777 Gmail addresses (out/play/wave3.csv minus the line Play refused), status
+draft, same text plus the group step:
+"You can sign up to be a tester in two steps, with the Google account of this email address:
+1. Join the tester group: https://groups.google.com/g/ancienttrees-android-testers
+2. Then sign up here: https://play.google.com/apps/testing/app.ancienttrees.android"
+Send only after Play shows the Beta release approved, on Hidde's "verstuur",
+about 170 a day: `OUTREACH_DAILY_CAP=170 python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-wave3-2026-11-20.json --send`
+on three to five days in a row (re-running skips who already had it).
+Later waves: just mail the same text; nobody has to be added to Play by hand.
+
 **WAVE 2 SENT IN PART, 2026-11-19:** Play's list now holds 474 (wave 1's
 172, Lisa and Genziana from the private tester list, and the first 300 of
 wave2.csv; Play refused 400 and 500 at once, so a bad address sits in

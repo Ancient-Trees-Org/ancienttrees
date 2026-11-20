@@ -147,6 +147,13 @@ No product change. Rung 1: one reader photograph (3c544597, 52.3972 4.8739, Amst
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-20 session: wave 3 of the Android test goes through a Google Group on a second track
+
+- **Changed in Play** (Hidde: "Yes, prepare it", "what ever you think works"): a Google Group, groups.google.com/g/ancienttrees-android-testers (anyone can join; members list managers only; posting and conversations owners only), is the tester list of a new closed track "Beta (Google Group)" with build 4 and all countries, saved for review and waiting for Hidde's "indienen voor beoordeling" click. Alpha is untouched: its e-mail list holds 485 (wave 3 lines 1 to 11 were added before the switch).
+- **Why**: Play's tester list refuses some addresses without saying which (two in wave 3's first 50), so adding 778 by halving would take hundreds of saves. Play allows one access method per track (its help: "select your preferred tester access method"), so the group gets its own track. Later waves need no Play edits at all.
+- **Ready, not sent**: drafts/batches/android-test-invite-wave3-2026-11-20.json, 777 waitlist Gmail addresses, Hidde's text plus a "join the tester group" step; send after Beta is approved, on his "verstuur", about 170 a day (command in drafts/android-test-invite.md).
+- **For Hidde**: the group's public info page shows him as owner with his Gmail address. Adding the info address as a manager does not hide the owner; only moving ownership to another account would.
+
 ## 2026-11-20 session: Android 0.1.0 (4) sent to Google for review on the Alpha track
 
 - **Submitted** (Hidde's click, "gedaan, ingediend"): release 4 (0.1.0) on closed test "Alpha", full rollout, Play shows "Wijzigingen worden beoordeeld". Same devices as build 3 (8,642 phones, 5,349 tablets). Only warning: no native debug symbols (MapLibre).
@@ -154,7 +161,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Fixed on the way (test in ExitWatchTest)**: the crash watcher's first look left its mark at 0 when the phone had no exits on record, so the next look counted as "first" again and dropped the first crash after a clean install. Freezes (ANR) and map crashes carry no note, so those were lost completely. The first look now sets the mark to now.
 - **Proven (RELEASE_CHECKLIST "A crash must name its line")**: minified build 4 on the emulator, clean install, `am crash`, reopen: `app_exit_abnormal` reason crash, on screen yes, with its trace, in PostHog at 09:40:58 UTC. Two traps for the next proof: the Play build sends nothing on an emulator by design (use `assembleMinified` with `--esa args -measure`), and `am crash` does not land while the location dialog is on top (`pm grant ... ACCESS_FINE_LOCATION` first).
 - **Not done**: MapLibre native symbols. Its Maven .so files come stripped, so `ndk.debugSymbolLevel` put nothing in the bundle and Play's warning stays (noted in build.gradle.kts). The instrumented walks (android_prelaunch.py) did not run this time; unit tests are green.
-- **Next**: wave 3 of the invitations (the ~540 remaining Gmail waitlist addresses, drafts/android-test-invite.md) goes once Play shows build 4 approved, on Hidde's "verstuur", about 170 a day as agreed.
+- **Next**: wave 3, see the entry above.
 
 ## 2026-11-20 session: the sign-in watcher stops re-mailing bounced addresses
 
