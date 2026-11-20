@@ -1,6 +1,10 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-20": [
+      {"date": "2026-11-20", "kind": "verify", "target": "birmingham", "tokens": 108883, "trees": 0, "note": "ninth dry pass; Garden Explorer champion tour is JS-only, Highbury survey PDF image-only, Wikidata 0; claim released"},
+      {"date": "2026-11-20", "kind": "verify", "target": "miami", "tokens": 89565, "trees": 0, "note": "one flagged Deering black olive (mia_017, register and 2026 blog girths conflict), approximate pin, not merged; city a wall"}
+    ],
     "2026-11-19": [
       {"date": "2026-11-19", "kind": "verify", "target": "san-francisco", "tokens": 74000, "trees": 0, "note": "eleventh pass on an exhausted register; nothing new, lead note appended"},
       {"date": "2026-11-19", "kind": "verify", "target": "birmingham", "tokens": 90890, "trees": 0, "note": "eighth dry pass; Garden Explorer champion tour unreadable to curl, Northfield yew still one source"},

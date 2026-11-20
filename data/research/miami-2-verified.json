@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mia_017",
+    "name": "Deering Estate's Champion Black Olive",
+    "species": "Black Olive (Bucida buceras)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 401,
+    "height_m": 19.5,
+    "location": {"address": "Charles Deering Estate, 16701 SW 72nd Ave, Palmetto Bay, FL 33157 (beside the Stone House)", "latitude": 25.61593, "longitude": -80.30663, "neighbourhood": "Cutler / Palmetto Bay"},
+    "verified_sources": [
+      "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/886",
+      "https://blogs.ifas.ufl.edu/miamidadeco/2026/09/11/chasing-the-champion-tree/"
+    ],
+    "official_register": {"name": "Florida Forest Service Champion Tree Register (National Champion, OBJECTID 223)", "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/886"},
+    "access": "Paid entry to the Deering Estate grounds (about $15 to $18 for adults per search pointers; hours not confirmed on a fetched official page, deeringestate.org returns 403 or a JS shell). Check hours before going. The Stone House itself was reported closed for restoration from 2025-04-28 but the tree stands outside it.",
+    "location_precision": "approximate",
+    "location_site": null,
+    "curation_status": "flagged",
+    "verify_notes": "ONE SOURCE PLUS A 2026 OBSERVATION, flagged. Register (official, fetched via Wayback snapshot 2023-05-02 in an earlier pass): National Champion Bucida buceras, 158 in = 401 cm circumference, 64 ft = 19.5 m, crown 83 x 59 ft, measured 2020-01, register coordinate 25.61593,-80.30663 (beside the Stone House, built 1922 by Charles Deering). UF/IFAS Extension Miami-Dade blog dated 2026-09-11 (fetched this pass) shows a Florida Forest Service forester and Deering Estate's conservation specialist visiting a black olive at Deering Estate 'next to a building' with 'an old cavity in its trunk' and measuring 182 in circumference, 70 ft, crown 81 ft, 272 points; the author calls it the biggest black olive in Florida and maybe in the continental USA. This is evidence the champion is alive in 2026. CONFLICT: girth 182 in (2026) vs 158 in (2020 register); a 24 in rise in six years is implausible for growth, so either remeasurement differences (cavity, buttress height) or a different tree. Not proven to be the same tree; the writer must say 'register' and 'extension blog' figures separately and not merge them. Girth_cm and height_m here use the register values only. Age: no source; Stone House dates 1922, but no source ties this tree to that planting, so no age. Pin is the register point, approximate (no tree-level evidence). Not rich; tree is paid entry. Nearby, same estate, still leads: Florida Strangler Fig (OBJECTID 439, 25.62356,-80.30434) and Gumbo-limbo (OBJECTID 694, 25.618,-80.30654). Hosts: deeringestate.org 403/JS shell (two attempts, Wayback plan-your-visit snapshot is an empty shell); ffs.fdacs.gov refuses connections, Wayback only."
+  }
+]
