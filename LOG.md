@@ -10,6 +10,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: the sign-in watcher stops re-mailing bounced addresses
+
+- **Status (Hidde: "quite some failing emails again")**: no delivery fault. 14 bounce notices since 11-18, all dead or mistyped addresses (two Gmail mailboxes that do not exist, hotmail.co.uk mailbox gone, a company server refusing outside mail, typo domains outlook.co, tahoo.com, hoymail.com) plus 4 dead press addresses from the Guardian press batch. Sign-ups since 11-18: 109 of 110 in; the one out is the tahoo.com typo, who signed up again with yahoo.com and is in, as is the outlook.co person. The 12 Yahoo/Apple/BT catch-ups went through Resend at 01:37 UTC; none clicked yet at 06:40. Resend load low (the Android wave goes through Gmail).
+- **Live (commit 849a4b94c)**: scripts/signin_watch.py now reads failed delivery reports from the inbox (read-only, INBOX and Spam, 7 days; nothing without the login) and marks those accounts undeliverable, and skips an account whose name before the @ already got in on another account. Dry run on live data: 6 bounced and 1 fixed typo skipped, 0 due. Tests in scripts/test_signin_watch.py (the "older than three days" case fails until 18:00 UTC today only because of the CATCH_UP window).
+- Not done: the 4 dead press addresses are not marked anywhere; Gmail's own retries to tahoo.com end by themselves.
+
 ## 2026-11-20 reader judge: a Fuchu keyaki tip recorded as a lead
 
 - **Tip 1294** (Tokyo, no photograph): a reader says the largest of the many keyaki (Japanese zelkova) at Okunitama Shrine in Fuchu is worth the walk. The pin was placed by hand in the shrine grounds, the reader picked no single trunk, and no source confirms one, so nothing shipped. It is now a lead in data/leads/tokyo.json with what is missing (a photograph or GPS fix at the trunk, or a register entry). The shrine's keyaki avenue is a national natural monument, which makes it a register check for a later pass. Verdict `lead`. No mail went out: none of the standard hold replies fits a tip without a photograph.
