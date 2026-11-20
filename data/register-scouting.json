@@ -1236,6 +1236,13 @@
    "country": "Switzerland",
    "status": "stalled",
    "note": "SCOUTED 2026-11-15. Stadt Zuerich Geschuetzte Einzelbaeume (data.stadt-zuerich.ch/dataset/geo_geschuetzte_einzelbaeume), licence CC0 per the portal CKAN record, WFS https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Geschuetzte_Einzelbaeume TYPENAME geschuetzteeinzelbaeume. Imported as data/registers/zurich-geschuetzte-einzelbaeume.json: only 27 trees, species, address, protection date, no girth/height/age, mostly private plots; clusters at Erismannstrasse 45-55 (7 trees) and Binzmuehlestrasse 370 (8 trees). Nothing verified (no access or size evidence), leads in data/leads/zurich.json. Baumkataster (CC0, WFS baumkataster_baumstandorte) and Bauminventar are bulk city-tree inventories with pflanzjahr and crown diameter but no girth or designation: not a supply source. Kanton Zuerich Natur- und Heimatschutzinventar (GIS-ZH 127.10/127.20, 1980) not checked for single trees. Next angle: confirm Erismannstrasse 45-55 and Binzmuehlestrasse 370 on site descriptions; Zurich still wants hand leads (Lindenhof, Zuerich Botanical Garden, Friedhof Sihlfeld, Zuerich famous trees: Marthalen and Boezberg already day-trip famous leads)."
+  },
+  {
+   "place": "Hungary (dendromania.hu)",
+   "country": "Hungary",
+   "status": "stalled",
+   "note": "ADDED 2026-11-20 on Hidde's word (\"add the register to our source base\"), after Abel Feher pointed us to it. dendromania.hu is Gyorgy Posfai's survey of Hungary's biggest trees (index.php?ful=terkep map, ful=reszletes tables), built on his book 'Magyarorszag legnagyobb fai - Dendromania' (Alexandra, 2005): about 1,300 trees with a girth over 6 m (lower bars for oaks, limes, chestnuts), each with GPS coordinates, girth measured as the smallest between ground and 130 cm, and the year of measurement; open to contributions. An enthusiast inventory, not an official designation. No licence stated on the site (checked ful=terkep and ful=tudnivalok): use it as a finding aid for facts, girths and pins (one source of two, like monumentaltrees), never copy its text or photos and never import it. Next: ask Posfai for permission to import or to use photos, and check the official Hungarian protected-tree list (termeszetvedelem.hu) as the register layer.",
+   "source_url": "https://dendromania.hu/index.php?ful=terkep"
   }
  ],
  "out_of_focus": {
