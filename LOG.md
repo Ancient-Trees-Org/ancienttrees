@@ -62,6 +62,13 @@ Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished ve
 - **Nothing else waited from strangers**: no open reports, no new tips, no open feedback, no readers' words to quote. The other 37 leads with status `lead` in _sightings.json are all our own account's photographs (`mine`); fetch_waiting_photos.py skips those by design, so none is on disk and none was judged. That includes 3c544597 (Amsterdam, near ams_032, sent "not sure which tree").
 - Pin catch-up for the photographs could not read coordinates (HTTPError); mil_014's pin is already confirmed, so nothing moves.
 
+## 2026-11-20 session: the heart on a visitor's photograph (web, iPhone, Android)
+
+- **Built on Hidde's "Ja, bouw het hartje"**: a heart at the end of the photographer's line on the home row, /visitors, Discover's row, New from visitors, under the hero and in the opened photograph, web and both apps. Count from one, public; who gave it is never shown; signed out a tap opens sign-in and gives nothing (seen in the simulator); a refused write puts it back. Privacy page says what is kept.
+- **FOR HIDDE: paste supabase/photo-likes.sql** in the Supabase SQL editor. Until then the hearts show empty and a signed-in tap goes back to empty.
+- photo-authors-time.sql is pasted (Hidde): the tree page shows "Rooted Pine 0518 · 7 hours ago" live.
+- Not done: the photographer is not told yet (in the app or the weekly photo mail); notes get no heart (2026-10-24 ruling stands).
+
 ## 2026-11-20 session: one visitor tile, who and when (web)
 
 - **Live with this deploy, web**: the visitor tile on home and /visitors is the apps' tile now (Hidde: "A, met boomnaam"): the city as a tag on the photograph, the bookmark top right, the tree's name, then the byline with when it was sent ("2h", "3d", "Oct 2026", in each language by the browser). Under a reader's photograph on the tree page and in the opened photograph the line is face, name and "2 hours ago". Privacy and terms say the time shows beside the name. Design and benchmark: CONVENTIONS.md "A heart for a visitor's photograph ... who and when on it"; mockup drafts/design-2026-11-20-photo-heart/overal.html.
