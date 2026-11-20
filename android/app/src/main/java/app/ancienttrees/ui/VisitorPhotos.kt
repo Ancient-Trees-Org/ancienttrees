@@ -185,6 +185,8 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
                     ) {
                         RemoteImage(it.shot.card, null, Modifier.fillMaxSize())
                         TagPill(it.tree.city, Modifier.align(Alignment.BottomStart).padding(6.dp))
+                        // The card save, as VisitorPhotos.swift (Hidde, 2026-11-19).
+                        Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(it.tree, onPhoto = true) }
                     }
                     androidx.compose.foundation.layout.BoxWithConstraints(Modifier.fillMaxWidth()) {
                         VisitorLine(it.row, maxWidth) { _ -> open(it) }

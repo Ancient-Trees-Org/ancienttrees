@@ -404,7 +404,7 @@ private fun LazyListScope.discoverContent(
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
                     items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot) { act.openTree(tree) }
+                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot, saveable = true) { act.openTree(tree) }
                             VisitorLine(row, TILE_WIDTH, openVisitor)
                         }
                     }
@@ -522,7 +522,7 @@ private fun LazyListScope.discoverContent(
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
                 modifier = Modifier.padding(horizontal = 16.dp).padding(top = if (i == 0) 12.dp else 6.dp),
             ) {
-                for (t in rows[i]) Tile(t, tag(t), Modifier.weight(1f).semantics { contentDescription = "tree-card" }) { act.openTree(t) }
+                for (t in rows[i]) Tile(t, tag(t), Modifier.weight(1f).semantics { contentDescription = "tree-card" }, saveable = true) { act.openTree(t) }
                 repeat(3 - rows[i].size) { Spacer(Modifier.weight(1f)) }
             }
         }
@@ -633,7 +633,7 @@ private fun TileShelf(trees: List<Tree>, tag: (Tree) -> String, onOpen: (Tree) -
     val brand = Brand.colors
     Shelf {
         items(trees, key = { it.id }) { t ->
-            Tile(t, tag(t), Modifier.width(TILE_WIDTH).semantics { contentDescription = "tree-card" }) { onOpen(t) }
+            Tile(t, tag(t), Modifier.width(TILE_WIDTH).semantics { contentDescription = "tree-card" }, saveable = true) { onOpen(t) }
         }
         // Grey bookmark tiles finishing a short row, not tappable (Hidde, 2026-10-12, 2026-10-13).
         items(ghosts) {
@@ -652,7 +652,7 @@ private fun GhostMark() {
 
 /** CollectedTile.swift (.ours): a photograph in a 3:4 tile and its tag, nothing else. */
 @Composable
-private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, shot: app.ancienttrees.feed.Photo? = null, onOpen: () -> Unit) {
+private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, shot: app.ancienttrees.feed.Photo? = null, saveable: Boolean = false, onOpen: () -> Unit) {
     val brand = Brand.colors
     Box(
         modifier
@@ -677,6 +677,10 @@ private fun Tile(tree: Tree, tag: String, modifier: Modifier = Modifier, shot: a
             )
         }
         if (tag.isNotEmpty()) TagPill(tag, Modifier.align(Alignment.BottomStart).padding(6.dp))
+        // The card save on a tile that is a tree (Hidde, 2026-11-20, Airbnb's
+        // line: a heart on every listing card, never on a place, list or
+        // person; Home.swift's overlay, SaveHeart .onPhoto padded 6).
+        if (saveable) Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(tree, onPhoto = true) }
     }
 }
 

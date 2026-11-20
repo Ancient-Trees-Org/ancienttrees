@@ -933,6 +933,8 @@ struct HomeView: View {
                         }
                         .buttonStyle(.plain)
                         .accessibilityIdentifier("tree-card")
+                        // The card save, as every tree tile (2026-11-20).
+                        .overlay(alignment: .topTrailing) { SaveHeart(tree: t, look: .onPhoto).padding(6) }
                     }
                 }
                 .padding(.horizontal, 16)
