@@ -25,7 +25,10 @@
 
 - **Breakage, found by a tester** (journalist reply to wave 3: "it says I don't have permission"): the Google Group was set to "who can view conversations: owners only", so its link in the wave-3 mail showed non-members "You don't have permission to access this content" instead of the group. About 266 of the 277 wave-3 mails sent today pointed there (the first 11 are also on Alpha's e-mail list). The group had 12 members.
 - **Fixed in Chrome on Hidde's word**: who can view conversations is now "anyone on the web" (posting stays owners only, members list managers only, anyone can join). Seen signed out: the page now reads "No conversations yet" instead of the error. Google shows the Join button only to someone signed in, which every tester is (a Gmail address). Not seen as a signed-in non-member.
-- **Open**: a short "fixed now" reply to the journalist and maybe a one-line follow-up to the other wave-3 recipients, on Hidde's word. The 500 still waiting can go as they are.
+- **Tested by Hidde** with a second Google account: join works.
+- **Added by hand**: 37 of wave 3 straight into the group ("Leden rechtstreeks toevoegen"). Google takes at most 10 per round and asks a captcha every round, so after four rounds Hidde stopped it ("dit schiet niet op"). Not a route for later waves.
+- **SENT on Hidde's "Verstuur"**: a follow-up to the 262 wave-3 recipients not yet in the group, through Resend (batch android-test-invite-wave3-fixup-2026-11-20, gitignored): the 37 we added got the Play link only, 225 got both steps. All 262 sent, none held. Group at 54 members at send time.
+- **Open**: the 500 of wave 3 still waiting can go with the existing text, each day on his word.
 
 ## 2026-11-20 reader judge: the Betsey Williams Sycamore, Providence (a new place)
 
