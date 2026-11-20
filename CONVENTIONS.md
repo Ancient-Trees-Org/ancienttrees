@@ -3247,6 +3247,16 @@ aria-label.
 
 ## A tree in a list: the whole card is the link, the heart sits on the photo (2026-10-04)
 
+**Where the heart goes (Hidde, 2026-11-20: "is het normaal om die bookmark
+door het hele platform te zetten ... hoe doet airbnb het", then "ja trek die
+ook gelijk, web en app").** Airbnb puts the heart on every card that is a
+listing, wherever it appears (search results, the home page's rows, the map
+card, "more places nearby", the listing page), and never on a destination,
+category, host or review. Ours: every card that is a tree carries the card
+save, on web and app, including the small shelf tiles (home and Discover
+rows, New from visitors); a city, country, species, park, list, island or
+person never does.
+
 Hidde, on a Barcelona card on his phone: "the save and I've seen this one
 clutter this page I think there should only be a button towards the tree
 detail page - but honestly the app just makes the whole tile clickable. Which
