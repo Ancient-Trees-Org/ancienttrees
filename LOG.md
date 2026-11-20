@@ -20,6 +20,11 @@ No product change. Rung 1: one reader photo of an unmapped tree (3c544597, 52.39
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-20 reader judge: the Inada Gobo ginkgo gets its first photograph
+
+- **Live**: the Leaf-Seed Ginkgo of Inada Gobo in Kasama (kas_001) had no photograph. A reader sent one from the tree's web page: the giant ginkgo in golden autumn leaf beside a small shrine and a stone lantern in the Sainen-ji temple court. It is the lead now, filed under November (the photo's own date). The photo-live mail went with `--send`. The pin is still approximate, because the row carried our own coordinate and no GPS fix.
+- The other waiting leads in _sightings.json are all from our own account (`mine`) and none has its photo on disk, so they are not reader work. No open reports, no unjudged feedback, no tips. For Hidde: nothing.
+
 ## 2026-11-20 later window (night run)
 
 Product change: 7 trees live. Fort Lauderdale gains six (ftl_011 to ftl_016: the Las Olas palm, Flamingo Gardens' apple blossom tree, cluster fig, Bo tree and the champion and challenger strangler figs), and Miami the Deering Estate champion black olive (mia_017). All approximate pins, no photographs, no ages, registers plus the garden's own page as sources. Fort Lauderdale's intro and FAQ no longer promise four trees. Verify pass found the Flamingo Gardens champions by listing the whole Broward register layer; five other Flamingo entries blocked on a name-word match probably deserve the same re-check, and a Panama tree and peltophorum are open leads. Taiwan a28_001 skipped (duplicate of alh_002). Open: the reader photo 3c544597 is still not on disk. Porto and Portland are full.

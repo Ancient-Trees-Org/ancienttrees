@@ -23,7 +23,9 @@
         "longitude": 140.202592,
         "neighbourhood": "Inada"
       },
-      "location_site": {"name": "Sainen-ji temple grounds (Inada Gobo)"},
+      "location_site": {
+        "name": "Sainen-ji temple grounds (Inada Gobo)"
+      },
       "story": "By the temple's own account, this ginkgo was planted around 1218, when the monk Shinran built a thatched hut at Inada. He lived there for years, and the temple says he worked on his main book, the Kyogyoshinsho, in that hut. The temple that grew on the spot is Sainen-ji, also called Inada Gobo, and the tree still stands in its grounds.\n\nIt is an ohatsuki ginkgo, a rare form that sets some of its seeds on the edges of its leaves instead of on stalks of their own. Ibaraki Prefecture made it a natural monument in November 2000. Its record gives a trunk 7.5 metres round, a height of 35 metres and a crown 23 metres across, and says no other leaf-seed ginkgo in the prefecture has a wider trunk, the national monument at Mito's Hachimangu included. It also calls the tree vigorous.\n\nThe prefecture puts its age at more than 300 years, the cautious figure, and the reader who sent it to us says about 300 as well. The planting date of 1218 is the temple's own story, and nobody has measured it.\n\nThat reader also told us when to come. In autumn, they say, its colours are spectacular. The grounds are free to walk into by day, about fifteen minutes on foot from Inada Station.",
       "how_to_recognise": "The giant ginkgo in the grounds of Sainen-ji at Inada: a trunk about 7.5 metres round rising some 35 metres, with a crown 23 metres across; some of its leaves carry seeds on their edges.",
       "verified_sources": [
@@ -49,10 +51,17 @@
       },
       "verify_notes": "2026-11-19 reader judge: a reader's website tip (submission 1233) with no photograph: 'Ginkgo biloba (var. epiphylla) on temple grounds', Kasama, girth 750 cm, 'Old (300 years) and large; spectacular colours in autumn; rather uncommon ginkgo variation', and a Google Maps link resolving to 'Ginkgo Biloba at Inada Gobo, 562-1 Inada, Kasama'. Official register (Ibaraki Prefecture Board of Education, ken-160) names the tree, its temple and address, its measurements, and calls its vigour strong; the reader's tip of this autumn is the life check. Published under CLAUDE.md 'Verify' (one official register plus a life check) and the tip rule in BRIEF_READER_JUDGE.md. Pin: the temple node in OpenStreetMap (36.36452, 140.20259); Google's place for the tree gives 562-1 Inada against the register's 469, so the pin stays approximate until a photograph with GPS or a source places the trunk. Superlatives: the register's girth comparison is stated as the register's; our Mito page (mit_001) calls the Shirahatayama tree the largest leaf-seed ginkgo known, while this register gives Inada the wider trunk (7.5 m against 6 m): the Mito line wants a session's look. No photograph yet: the reader may have one.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/kas_001-the-leaf-seed-ginkgo-of-inada-gobo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 915,
+        "height": 720,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_ed78f0fc4542478a0ccd3d87",
+        "sighting_id": "64169b01-449c-4395-9b89-cc55315d2cfa",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: Photograph viewed: a huge old ginkgo in full golden autumn leaf, its thick trunk beside a small roofed shrine and a stone lantern, in the gravel court of a Buddhist temple hall; daylight, colour, the tree fills the left of the frame. The tree has no photograph yet. Species seen: ginkgo: fan-shaped leaves turned clear yellow, fallen leaves carpeting the ground, massive furrowed trunk. Fits the description: a giant ginkgo with a very broad crown in the grounds of a temple with a large tiled hall (Sainen-ji at Inada), the tree dwarfing the people and lantern.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "best_time": {
         "months": [

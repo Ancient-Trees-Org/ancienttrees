@@ -18,6 +18,28 @@
    "agreed": null
   },
   {
+   "id": "sight:64169b01-449c-4395-9b89-cc55315d2cfa",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Leaf-Seed Ginkgo of Inada Gobo",
+   "city": "Kasama",
+   "species": "Ohatsuki Ginkgo (Ginkgo biloba var. epiphylla)",
+   "photo": "out/sightings/64169b01-449c-4395-9b89-cc55315d2cfa.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ohatsuki Ginkgo (Ginkgo biloba var. epiphylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the giant ginkgo in golden autumn leaf beside a small shrine and stone lantern in the Sainen-ji temple court; now the first photograph, as lead of kasama/kas_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -2018,6 +2040,34 @@
    "reason": "Photograph viewed 2026-11-19: a tall redwood with a bench built round its foot, visitors for scale, GPS fix in the woods at Castleboro, Co. Wexford. Species read from the photo as coast redwood (the reader chose Irish Yew). Live as castleboro/cbo_001.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e76d23cf-91f2-441d-90f1-177bfa474c52",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "Old Albert",
+   "city": "Auckland",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "p_da7bff2975b2673b6e5ad8d7/E76D23CF-91F2-441D-90F1-177BFA474C52.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: Old Albert's curtain of aerial roots and many trunks beside the Devonport Library; now the tree's first photograph, as lead of auckland/akl_001."
+  },
+  {
+   "id": "sight:ace82d0b-cdb7-4142-8454-22e586cbdb32",
+   "seen": "2026-11-19",
+   "kind": "photo of a tree we map",
+   "tree": "Old Albert",
+   "city": "Auckland",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "p_da7bff2975b2673b6e5ad8d7/ACE82D0B-CDB7-4142-8454-22E586CBDB32.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole fig from across Windsor Reserve, fountain in front, library at right; in the strip of auckland/akl_001 behind the reader's close shot."
   },
   {
    "id": "lead:12a88725-88e2-4a96-85f6-0966bb59db6b",
@@ -19161,34 +19211,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:e76d23cf-91f2-441d-90f1-177bfa474c52",
-   "seen": "2026-11-19",
-   "kind": "photo of a tree we map",
-   "tree": "Old Albert",
-   "city": "Auckland",
-   "species": "Moreton Bay Fig (Ficus macrophylla)",
-   "photo": "p_da7bff2975b2673b6e5ad8d7/E76D23CF-91F2-441D-90F1-177BFA474C52.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: Old Albert's curtain of aerial roots and many trunks beside the Devonport Library; now the tree's first photograph, as lead of auckland/akl_001."
-  },
-  {
-   "id": "sight:ace82d0b-cdb7-4142-8454-22e586cbdb32",
-   "seen": "2026-11-19",
-   "kind": "photo of a tree we map",
-   "tree": "Old Albert",
-   "city": "Auckland",
-   "species": "Moreton Bay Fig (Ficus macrophylla)",
-   "photo": "p_da7bff2975b2673b6e5ad8d7/ACE82D0B-CDB7-4142-8454-22E586CBDB32.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed: the whole fig from across Windsor Reserve, fountain in front, library at right; in the strip of auckland/akl_001 behind the reader's close shot."
   }
  ]
 }
