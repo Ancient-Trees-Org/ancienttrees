@@ -670,18 +670,33 @@
         "url": "https://capgeo.sig.paris.fr/PdfEtImages/ArbresRemarquables/PDF/132669.pdf"
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/par_016-the-twisted-beech-of-square-des-arenes-de-lutece.jpg",
+        "url": "https://ancienttrees.app/photos/par_016-the-twisted-beech-of-square-des-arenes-de-lutece-7734217f.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
-        "height": 1600,
+        "width": 1600,
+        "height": 1200,
         "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
-        "sighting_id": "bf2d7d04-5191-485b-8371-73799f57cdda",
-        "note": "Photographed by a reader and sent through the app (2026-11-02); a viewing pass approved it on 2026-11-02: Whole contorted crown behind the square's green railing, daylight and colour; the tree's first photograph. Species seen: beech leaves turning yellow, smooth grey limbs twisting and drooping to the ground, the Tortuosa form. Fits the description: low, knotted, twisted branches under a dome of leaves, fenced bed above a stone wall, as at the Arenes de Lutece.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
+        "sighting_id": "7734217f-6c6a-45a2-8dce-58cf64dd2477",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: The low twisted dome in autumn copper and gold, its contorted branches visible through the leaves, behind the railings, with the park's own 'Faux de Verzy' plaque in the frame. A different season from the lead. Species seen: beech leaves turning gold and copper, contorted down-turned branches, plaque reading 'Faux de Verzy, Fagus sylvatica'. Fits the description: a low dome of spiralling down-turned branches, barely shrub height, in the square garden by the railings.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/par_016-the-twisted-beech-of-square-des-arenes-de-lutece.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+          "sighting_id": "bf2d7d04-5191-485b-8371-73799f57cdda",
+          "note": "Photographed by a reader and sent through the app (2026-11-02); a viewing pass approved it on 2026-11-02: Whole contorted crown behind the square's green railing, daylight and colour; the tree's first photograph. Species seen: beech leaves turning yellow, smooth grey limbs twisting and drooping to the ground, the Tortuosa form. Fits the description: low, knotted, twisted branches under a dome of leaves, fenced bed above a stone wall, as at the Arenes de Lutece.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "par_017",

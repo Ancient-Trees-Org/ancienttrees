@@ -1411,6 +1411,15 @@
      "city_slug": "benmore",
      "display_name": null,
      "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "0cece63a-83e2-492f-9f2e-2e2096a92cfa",
+     "tree_id": "stb_003",
+     "tree_name": "The Silky Oaks of Largo Marques de Pombal",
+     "city": "Setubal",
+     "city_slug": "setubal",
+     "display_name": null,
+     "live": "2026-11-20"
     }
    ],
    "sent": [
@@ -2468,6 +2477,21 @@
      "tree_name": "The Last Elm of Stationsplein",
      "city": "Amsterdam",
      "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
+  },
+  "p_81c58c51dd7f98c91361dc6c": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7734217f-6c6a-45a2-8dce-58cf64dd2477",
+     "tree_id": "par_016",
+     "tree_name": "The Twisted Beech of Square des Arenes de Lutece",
+     "city": "Paris",
+     "city_slug": "paris",
      "display_name": null,
      "live": "2026-11-20"
     }

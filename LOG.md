@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: two reader photographs live (Setubal, Paris)
+
+- **Setubal, The Silky Oaks of Largo Marques de Pombal (stb_003)**: a reader's photograph of both trees of the pair, looking up from the square, is now the lead. The tree had no photograph before. Pin was already confirmed, nothing moved.
+- **Paris, The Twisted Beech of Square des Arenes de Lutece (par_016)**: a reader's autumn shot of the low contorted dome in copper and gold, the park's "Faux de Verzy" plaque in frame, added (`add`) beside the earlier reader photo.
+- Both checked against species and description; verdicts in data/judgements.json; mails via `sightings_publish.py --send`. The pin catch-up step could not read coordinates (HTTPError from Supabase); neither tree needed a move.
+- Still open: lead 3c544597 (Amsterdam, "not sure which tree", near The Last Elm of Stationsplein) is our own account's (`mine`) and its photo is not on disk; not judged blind. No other strangers' leads, reports, tips or feedback waiting.
+
 ## 2026-11-20 session: the digest's photo rows count by the day a photo was sent
 
 - **Fixed (Hidde: "can we fix the photo counts?")**: the day-by-day table's Website, iPhone and Android photo rows left out every photo Hidde had already looked at on the digest page and dated the rest by `updated_at`, which every app sync moves. So the Guardian week read 0 photos from 11-15 to 11-18. They now count each sighting's photo on the day the file reached the bucket (`_photo_uploaded()` in scripts/daily_digest.py, one bucket listing per account). From 11-14 to 11-20: 466 iPhone, 26 Android (all on 11-19, the first Android test day), 24 website; 185 iPhone photos on 11-15 alone.

@@ -5698,6 +5698,28 @@
    "date": "2026-11-20",
    "tree_id": "lyo_022",
    "reason": "duplicate: the same frame from the same reader as fdead4bd, sent twice"
+  },
+  "0cece63a-83e2-492f-9f2e-2e2096a92cfa": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "stb_003",
+   "city_slug": "setubal",
+   "file": "stb_003-the-silky-oaks-of-largo-marques-de-pombal.jpg",
+   "reason": "Both silky oaks of the square in one daylight frame, looking up from the car park: two tall trunks metres apart under pale ferny crowns, the old painted houses of the square behind. Closes a gap, the tree had no photograph. Species seen: fern-like pinnate grey-green foliage, dark furrowed bark on ta",
+   "lat": 38.523495,
+   "lon": -8.89868833333333,
+   "pin_checked": "2026-11-20"
+  },
+  "7734217f-6c6a-45a2-8dce-58cf64dd2477": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "par_016",
+   "city_slug": "paris",
+   "file": "par_016-the-twisted-beech-of-square-des-arenes-de-lutece-7734217f.jpg",
+   "reason": "The low twisted dome in autumn copper and gold, its contorted branches visible through the leaves, behind the railings, with the park's own 'Faux de Verzy' plaque in the frame. A different season from the lead. Species seen: beech leaves turning gold and copper, contorted down-turned branches, plaqu",
+   "lat": 48.8449966666667,
+   "lon": 2.35388833333333,
+   "pin_checked": "2026-11-20"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

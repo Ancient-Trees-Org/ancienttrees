@@ -130,10 +130,17 @@
       "access": "Free, open public square",
       "transport": "In the centre, about 200 m from Largo Jose Afonso",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/stb_003-the-silky-oaks-of-largo-marques-de-pombal.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1228,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+        "sighting_id": "0cece63a-83e2-492f-9f2e-2e2096a92cfa",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: Both silky oaks of the square in one daylight frame, looking up from the car park: two tall trunks metres apart under pale ferny crowns, the old painted houses of the square behind. Closes a gap, the tree had no photograph. Species seen: fern-like pinnate grey-green foliage, dark furrowed bark on tall straight trunks: Grevillea robusta. Fits the description: a pair of tall trees standing metres apart in an urban square with parking, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Two registered trees of the same species metres apart, distinguished in the register only by girth, so this entry is the pair. The spring flowering is stated by the parish itself rather than inferred from the species.",

@@ -448,6 +448,50 @@
    "agreed": null
   },
   {
+   "id": "sight:0cece63a-83e2-492f-9f2e-2e2096a92cfa",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Silky Oaks of Largo Marques de Pombal",
+   "city": "Setubal",
+   "species": "Silky Oak (Grevillea robusta)",
+   "photo": "out/sightings/0cece63a-83e2-492f-9f2e-2e2096a92cfa.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 11,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Silky Oak (Grevillea robusta)"
+   },
+   "verdict": "publish",
+   "reason": "Both silky oaks of the square in daylight, ferny Grevillea crowns on tall dark trunks, as described; first photograph the tree has, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7734217f-6c6a-45a2-8dce-58cf64dd2477",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Beech of Square des Arenes de Lutece",
+   "city": "Paris",
+   "species": "Twisted Beech (Fagus sylvatica 'Tortuosa')",
+   "photo": "out/sightings/7734217f-6c6a-45a2-8dce-58cf64dd2477.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Twisted Beech (Fagus sylvatica 'Tortuosa')"
+   },
+   "verdict": "publish",
+   "reason": "The twisted beech's low contorted dome in autumn colour with the park's Faux de Verzy plaque in frame; added beside the earlier reader photo.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
