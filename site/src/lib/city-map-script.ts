@@ -1,6 +1,5 @@
 // Ported from city_map_script(), build_site.py:1532-2058. The city page's
-// map: tree pins, walk switching (redraw, not navigation), the zoom-out
-// city chooser, the passport (account-only since 2026-09-02, read through
+// map: tree pins, walk switching (redraw, not navigation), the passport (account-only since 2026-09-02, read through
 // visited-sync-js.ts; the ancienttrees_seen key it used to write is gone),
 // and "where am I" GPS.
 //
@@ -21,8 +20,6 @@
 import {MAP_STYLE, MAP_CREDIT} from "./site-config";
 import { mapScript, pinPriority, PILES_JS, ONE_WORLD } from "./map";
 import { treePinsJs } from "./tree-pins-js";
-import { placeCardJs } from "./browse-card";
-import { ui } from "./i18n";
 import { distSpan } from "./trees";
 import type { WalkMarker, Walk } from "./walks";
 import { mapCardJs } from "./map-card-js";
@@ -117,14 +114,11 @@ export function cityMapScript(
     markers.map((m, i) => i).sort((a, b) =>
       pinPriority(markers[a].shot, markers[a].saves ?? 0) - pinPriority(markers[b].shot, markers[b].saves ?? 0) || a - b)
   );
-  const ranked = [...otherCities].sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99) || b.n - a.n);
-  const chooserCitiesJson = JSON.stringify(
-    ranked.map((c) => ({ url: c.slug, city: c.city, country: c.country, n: c.n, ph: c.ph, lat: c.lat, lng: c.lng }))
-  );
+  void otherCities;
 
   const home = homeBounds(inTown && inTown.length >= 2 ? inTown : markers);
 
-  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${placeCardJs()}${mapFiltersJs()}
+  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
 var markers = ${data};
 // THE FILTER ROW (lib/map-filters-js.ts), the explore map's, wired here before
 // the map for the reason given there (Hidde, 2026-11-01: "put the filters also
@@ -209,14 +203,10 @@ new ResizeObserver(function() { map.resize(); }).observe(document.getElementById
 // at every zoom, and a tap opens the tree's card, never another page. Since
 // 2026-11-20 all of them are one pin set (tree-pins-js.ts) with this city's
 // trees ahead where two collide, so a map zoomed out looks the same from every
-// page. Below FAR the list turns to the cities in view (updatePanelMode). The
-// other places' rows come from /api/pins.json, fetched once and cached.
+// page. The other places' rows come from /api/pins.json, fetched once and
+// cached.
 var HOME_IDS = {};
 markers.forEach(function(m) { HOME_IDS[m.id] = 1; });
-var FAR = 9;
-// A city that opens wider than FAR (an island, a spread region) keeps its
-// own pins until it is zoomed out past where it opened.
-function farAt() { return homeZoom !== null ? Math.min(FAR, homeZoom - 1.2) : FAR; }
 var PIN_ORDER = ${pinOrderJson};
 // The pins go on as soon as the style is there, not at 'load', which waits for
 // every tile: the smoke test and a slow phone both see the trees first.
@@ -265,66 +255,17 @@ function initPins() {
 }
 map.on('style.load', initPins);
 if (map.isStyleLoaded()) { initPins(); }
-var CHOOSER_CITIES = ${chooserCitiesJson};
-var cityPanel = document.querySelector('.panel');
-// The chooser goes INSIDE the sheet's scroller, never beside it. .panel's own
-// children are the grab handle and the body, and the loop below hides every
-// sibling of the chooser: appending here meant that zooming out until other
-// cities appeared hid the grab handle itself, which is the only thing you can
-// drag, so the sheet froze where it stood (Hidde, 2026-08-18: "dan loopt de
-// bottombar vast, je kunt hem dan niet omhoog slepen").
-var chooserHost = (cityPanel && cityPanel.querySelector('.sheet-body')) || cityPanel;
-var chooserBox = null;
-var chooserOn = false;
-var homeZoom = null;
-function ensureChooserBox() {
-  if (chooserBox) { return chooserBox; }
-  chooserBox = document.createElement('div');
-  chooserBox.className = 'panel-chooser';
-  chooserBox.style.display = 'none';
-  chooserHost.appendChild(chooserBox);
-  return chooserBox;
-}
-// The one place card (lib/browse-card.ts placeCardHtml, 2026-11-20); the
-// count in the page's language (it said "trees" in English on every page).
-var TREES_N = ${JSON.stringify(ui(lang).homeTreesCount(98765).replace("98765", "{n}"))};
-function _pesc(t) { return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); }
-function chooserCard(c) {
-  return atPlaceCard({ href: '/' + c.url, name: c.city, face: c.ph || null,
-    sub: _pesc(TREES_N.replace('{n}', String(c.n))) + ' &middot; ' + _pesc(c.country) });
-}
-function updatePanelMode() {
-  if (!cityPanel || !CHOOSER_CITIES.length) { return; }
-  // At the zoom where the map turns to every place's trees (farAt), never a
-  // step before it, so the list and the map change together.
-  chooserOn = map.getZoom() < farAt();
-  var box = ensureChooserBox();
-  var b = map.getBounds();
-  var inview = CHOOSER_CITIES.filter(function(c) { return b.contains([c.lng, c.lat]); });
-  // The list says what is in view (Hidde, 2026-11-01, Curacao's one tree
-  // gave way to "No other mapped cities in view"): with no other city in
-  // view, this place's own trees are what the map shows, so they stay.
-  var showChooser = chooserOn && inview.length > 0;
-  for (var i = 0; i < chooserHost.children.length; i++) {
-    var el = chooserHost.children[i];
-    if (el !== box) { el.style.display = showChooser ? 'none' : ''; }
-  }
-  if (showChooser) {
-    box.innerHTML = '<div class="exc-cityhead"><h2>Cities in view</h2></div>' +
-      inview.slice(0, 10).map(chooserCard).join('');
-    box.style.display = '';
-  } else {
-    box.style.display = 'none';
-  }
-}
+// NO "CITIES IN VIEW" ANY MORE (Hidde, 2026-11-20, shown the city map and
+// /explore zoomed out side by side: "B, bomen in beeld"). Zoomed out, the
+// city map's list turned into a list of other cities, which no other map and
+// neither app does; the list now stays this city's trees at every zoom, and
+// the other places stay on the map as pins (data/map-parity.json).
 if (markers.length > 1) {
   var _b = new maplibregl.LngLatBounds(HOME[0], HOME[1]);
   var _el = document.getElementById('map');
   var _pad = Math.max(30, Math.min(90, Math.floor(Math.min(_el.clientWidth, _el.clientHeight) * 0.16)));
   map.fitBounds(_b, { padding: _pad, maxZoom: 14.5, duration: 0 });
-  homeZoom = map.getZoom();
 }
-map.on('moveend', updatePanelMode);
 
 // The opened tree, as an index into markers (a neighbour's tree is -1).
 var activeIdx = -1;

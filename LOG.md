@@ -49,6 +49,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: the city map keeps its trees when zoomed out
+
+- **What changes for visitors**: zoomed out, a city page's list no longer turns into "Cities in view"; it stays the city's trees, and the other places stay on the map as pins. Hidde chose it with both maps live side by side ("B, bomen in beeld"), so the city map, /explore and both apps now agree. data/map-parity.json row closed.
+
 ## 2026-11-20 session: one place card
 
 - **What changes for visitors**: the translated cities pages say "12 árboles" under a city instead of a bare "12"; the city map's zoomed-out list of cities says the count in the page's language (it said "trees" in English on every page). Everything else looks as before: placeCardHtml() in site/src/lib/browse-card.ts writes every place card (browse indexes, /cities in every language, the city map's cities in view, /explore's nearest tree), and scripts carry its own source. Run on the answers of 600 live place cards (/cities, /species, /collections, /countries, /parks) it gave the same markup. qa `check_one_place_card()` refuses one written by hand. **Two open rows in data/map-parity.json, one for Hidde**: the city map's zoomed-out cities list exists nowhere else (explore and both apps list the trees in view); and /explore's nearest tree says km where the apps use the reader's units.

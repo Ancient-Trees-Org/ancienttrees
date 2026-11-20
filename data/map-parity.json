@@ -56,11 +56,11 @@
     {
       "what": "Zoomed out, the list turns to the cities in view",
       "since": "2026-11-01",
-      "web": "the city map only (city-map-script.ts updatePanelMode, now the one place card); /explore keeps listing the trees in view",
+      "web": "none since 2026-11-20: the city map's list stays its own trees at every zoom, the other places stay pins; /explore lists the trees in view",
       "ios": "none: the map's list is always the trees in view",
       "android": "none, as iOS",
-      "status": "open",
-      "owed": "a choice for Hidde: keep the city map's cities-in-view list (web only) or list the trees in view there too, as /explore and both apps do"
+      "status": "done",
+      "decided": "Hidde, 2026-11-20, both shown side by side: \"B, bomen in beeld\""
     }
   ]
 }
