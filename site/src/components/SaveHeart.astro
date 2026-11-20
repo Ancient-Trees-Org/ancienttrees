@@ -1,5 +1,5 @@
 ---
-import { icon } from "../lib/icons";
+import { saveButtonHtml, SAVE_ICONS } from "../lib/save-button";
 // The save heart, everywhere a tree renders (Hidde, 2026-08-14: "please make
 // the ux better", closing audit gap #2: AllTrails puts the heart on every
 // card in every list, ours lived on the tree page alone). One component, one
@@ -40,26 +40,9 @@ interface Props {
 }
 const { treeId, treeName, compact = false, labelSave = "Save", labelSaved = "Saved",
         treeUrl, photo, meta, look = "pill" } = Astro.props;
-// Phosphor's outline and filled hearts, the app's heart / heart.fill pair
-// (2026-09-24: no hand-drawn icons). CSS shows one or the other on aria-pressed.
-// A BOOKMARK, the app's SaveHeart glyph since 2026-10-09 (Hidde: the list
-// is "Want to visit", and a bookmark is what you put on a place to go).
-const off = icon("bookmark-simple", "bold", "heart hi-off");
-const on = icon("bookmark-simple", "fill", "heart hi-on");
+// ONE FUNCTION, server and browser (lib/save-button.ts, 2026-11-20): every
+// script that draws this button calls the same saveButtonHtml().
+const html = saveButtonHtml({ id: treeId, name: treeName, save: labelSave, saved: labelSaved,
+  url: treeUrl, photo, meta, look, compact }, SAVE_ICONS);
 ---
-<button
-  class={`save-btn heart-btn${compact ? " heart-compact" : ""}${look === "round" ? " heart-round" : ""}${look === "card" ? " heart-card" : ""}`}
-  type="button"
-  data-tree={treeId}
-  data-name={treeName}
-  data-l-save={labelSave}
-  data-l-saved={labelSaved}
-  data-url={treeUrl}
-  data-photo={photo}
-  data-meta={meta}
-  aria-pressed="false"
-  aria-label={`${labelSave} ${treeName}`}
->
-  <Fragment set:html={off + on} />
-  <span class={look === "round" || look === "card" ? "sr-only" : undefined}>{labelSave}</span>
-</button>
+<Fragment set:html={html} />

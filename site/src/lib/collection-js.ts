@@ -33,11 +33,9 @@
 // out takes the list off the screen and the next sign-in brings it all back,
 // because it lives in the account rather than on the glass.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
-import { icon } from "./icons";
+import { saveButtonJs } from "./save-button";
 // The card's save control is the app's bookmark (2026-10-09), the same pair
 // SaveHeart.astro renders, shown one at a time by aria-pressed.
-const BM_OFF = icon("bookmark-simple", "bold", "heart hi-off");
-const BM_ON = icon("bookmark-simple", "fill", "heart hi-on");
 
 export const COLLECTION_JS = `
 <script>
@@ -45,6 +43,7 @@ export const COLLECTION_JS = `
 // recent searches, 2026-11-04), so the first copy wins and a second is a no-op:
 // one session check per page, never two doors.
 window.atCollection = window.atCollection || (function() {
+${saveButtonJs()}
   var SB = '${SUPABASE_URL}', KEY = '${SUPABASE_KEY}';
   // In memory for the life of this page only. Deliberately not sessionStorage:
   // that is storage too, and the rule is the rule.
@@ -199,15 +198,10 @@ window.atCollection = window.atCollection || (function() {
     // The card heart (TreeCard.astro, 2026-10-04): on the photograph, or at
     // the end of the name row when there is none. No action row, no "Read
     // more": the whole card is the link.
-    var HEART = ''
-      + '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + esc(id) + '"'
-      + ' data-name="' + esc(c.n) + '" data-url="' + esc(c.u || '') + '"'
-      + ' data-l-save="Save" data-l-saved="Saved"'
-      + ' aria-pressed="' + (on ? 'true' : 'false') + '"'
-      + ' aria-label="' + (on ? 'Saved ' : 'Save ') + esc(c.n) + '">'
-      + '${BM_OFF}${BM_ON}'
-      + '<span class="sr-only">' + (on ? 'Saved' : 'Save') + '</span></button>'
-      ;
+    // The one save button (lib/save-button.ts), the same function SaveHeart
+    // renders with.
+    var HEART = atSaveButton({ id: id, name: c.n, save: 'Save', saved: 'Saved', url: c.u || '',
+      photo: c.p || '', meta: c.m || '', look: 'card', pressed: on });
     return '<article class="tree-card tree-card-nonum tree-card-link" data-tree-id="' + esc(id) + '">'
       + (c.p ? '<div class="tree-card-photo">'
                + '<img src="' + esc(c.p) + '" srcset="'

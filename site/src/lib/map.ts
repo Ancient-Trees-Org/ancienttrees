@@ -9,6 +9,7 @@ import { mapFiltersJs } from "./map-filters-js";
 import { ui } from "./i18n";
 import { icon } from "./icons";
 import { treePinsJs } from "./tree-pins-js";
+import { saveButtonJs } from "./save-button";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -560,7 +561,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
   const speciesLatinJson = JSON.stringify(speciesLatin);
   return (
     mapScript(
-    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${mapFiltersJs()}
+    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${saveButtonJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
 // The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
@@ -580,7 +581,6 @@ var CHEVRON = ${JSON.stringify(icon("caret-right", "bold", "ic city-box-chev"))}
 // The Seen badge on a collected tree's photograph (Phosphor's check-circle).
 var SEEN_MARK = ${JSON.stringify(icon("check-circle", "fill", "seen-ic"))};
 var BOX_IC = ${JSON.stringify({ amb: icon("seal-check", "bold", "ic city-box-ic"), plus: icon("sparkle", "fill", "ic city-box-ic") })};
-var BM = ${JSON.stringify(icon("bookmark-simple", "bold", "heart hi-off") + icon("bookmark-simple", "fill", "heart hi-on"))};
 // The trees the filter row keeps; the list counts only those.
 var SHOWN = DATA.features;
 // THE FILTER ROW is lib/map-filters-js.ts, shared with the city map; it is
@@ -876,15 +876,10 @@ function _treeBits(f) {
   return {id: p.id || '', name: p.name || k.n || '', href: p.url ? '/' + p.url : '',
           photo: k.p || '', credit: k.cr || '', meta: meta, metaText: [common, p.as || ''].filter(Boolean).join(' · '), ic: ic};
 }
-// The save, the card heart every list carries (SaveHeart.astro, look "card").
+// The save, the one button (lib/save-button.ts), SaveHeart's own function.
 function _heart(t) {
-  return '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + _esc(t.id) + '"' +
-    ' data-name="' + _esc(t.name) + '" data-url="' + _esc(t.href) + '"' +
-    (t.photo ? ' data-photo="' + _esc(t.photo) + '"' : '') +
-    (t.metaText ? ' data-meta="' + _esc(t.metaText) + '"' : '') +
-    ' data-l-save="' + _esc(WORDS.save) + '" data-l-saved="' + _esc(WORDS.saved) + '"' +
-    ' aria-pressed="false" aria-label="' + _esc(WORDS.save + ' ' + t.name) + '">' + BM +
-    '<span class="sr-only">' + _esc(WORDS.save) + '</span></button>';
+  return atSaveButton({ id: t.id, name: t.name, save: WORDS.save, saved: WORDS.saved, url: t.href,
+    photo: t.photo, meta: t.metaText, look: 'card' });
 }
 function _nameHtml(t) { return t.href ? '<a href="' + _esc(t.href) + '">' + _esc(t.name) + '</a>' : _esc(t.name); }
 function _creditHtml(t) { return t.credit ? '<p class="tree-card-credit">' + _esc(WORDS.credit.replace('{c}', t.credit)) + '</p>' : ''; }

@@ -17,7 +17,7 @@
 // with each photograph's size, so a tile takes its place before it loads.
 // Nothing is kept on the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
-import { icon } from "./icons";
+import { saveButtonJs } from "./save-button";
 
 // The save on each tile (Hidde, 2026-11-19: "het zou heel logisch zijn als er
 // een bookmark icontje is bij elke boom", then "Yes, both" for the home row
@@ -26,16 +26,14 @@ import { icon } from "./icons";
 // including this must ship. A sibling of the tile's link, never inside it, so
 // a tap saves and does not open the tree. One function for the home row and
 // /visitors, so the two tiles cannot drift.
-const BM = icon("bookmark-simple", "bold", "heart hi-off") + icon("bookmark-simple", "fill", "heart hi-on");
+// The button is the one save button (lib/save-button.ts), SaveHeart's own
+// function; this only says what goes in it. The meta is the city here.
 export function visitorSaveFn(saveWord: string, savedWord: string): string {
-  return `function nfvSave(id, c, esc) {
-    var SAVE = ${JSON.stringify(saveWord)}, SAVED = ${JSON.stringify(savedWord)}, BM = ${JSON.stringify(BM)};
-    return '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + esc(id) + '"' +
-      ' data-name="' + esc(c.n) + '" data-url="' + esc(c.u) + '"' + (c.p ? ' data-photo="' + esc(c.p) + '"' : '') +
-      (c.c ? ' data-meta="' + esc(c.c) + '"' : '') +
-      ' data-l-save="' + esc(SAVE) + '" data-l-saved="' + esc(SAVED) + '"' +
-      ' aria-pressed="' + (window.atHasSaved && window.atHasSaved(id) ? 'true' : 'false') + '"' +
-      ' aria-label="' + esc(SAVE + ' ' + c.n) + '">' + BM + '<span class="sr-only">' + esc(SAVE) + '</span></button>';
+  return `${saveButtonJs()}
+  function nfvSave(id, c, esc) {
+    return atSaveButton({ id: id, name: c.n, save: ${JSON.stringify(saveWord)}, saved: ${JSON.stringify(savedWord)},
+      url: c.u, photo: c.p, meta: c.c, look: 'card',
+      pressed: Boolean(window.atHasSaved && window.atHasSaved(id)) });
   }`;
 }
 

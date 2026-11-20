@@ -23,6 +23,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: one save button, server and browser
+
+- **What changes**: nothing a visitor sees on purpose; the save button on the explore list, the map cards, the visitors row and the home shelf is now the very same markup SaveHeart renders (the catalogue card's button now carries its photo and meta, so saving from a map card stores the same card as saving from a list). saveButtonHtml() in site/src/lib/save-button.ts is one function: SaveHeart.astro renders with it, and every script carries its own source (saveButtonJs()), so there is no copy to drift. The build stops if the compiler ever changes that function into something a browser cannot run as is. qa `check_one_save_button()` refuses a button written by hand. Tested: the function in JavaScriptCore on quotes, ampersands, Spanish words and every look; every script that carries it parses. Next: the tree card the same way (five hand-built copies).
+
 ## 2026-11-20 session: one tree pin on every map (Hidde: "ik wil gewoon 1 goede")
 
 - **And it is the app's pin** (Hidde, after both side by side: "B, de app-pin"; "maken we hier gelijk ook 1 component van?"): every website map now draws the app's moss pin with the species in white, 1.5 times the size when chosen, moss dots. Its numbers live once, `PIN_SPEC` in lib/map.ts; tree-pins-js.ts writes the pin's CSS from them (the base rules left style.css) and qa compares them with TreeMap.swift, so web and app are one pin.

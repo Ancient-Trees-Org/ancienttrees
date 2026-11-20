@@ -3778,6 +3778,30 @@ def check_one_tree_card_on_every_map():
     return problems
 
 
+def check_one_save_button():
+    """The save button is one function, saveButtonHtml() in
+    site/src/lib/save-button.ts: SaveHeart.astro renders through it and every
+    script that draws a button carries it (saveButtonJs()). Before 2026-11-20
+    four scripts wrote the button by hand, each a little different (Hidde:
+    "we zijn nu de hele tijd verschillende versies aan het onderhouden ik wil
+    gewoon 1 goede"). This refuses a button written anywhere else.
+
+    Removing this needs Hidde."""
+    problems = []
+    src = ROOT / "site" / "src"
+    one = src / "lib" / "save-button.ts"
+    if not one.exists() or "export function saveButtonHtml(" not in one.read_text():
+        return ["site/src/lib/save-button.ts no longer defines saveButtonHtml(), the one save button"]
+    for f in sorted(list(src.rglob("*.ts")) + list(src.rglob("*.astro"))):
+        if f == one:
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if re.search(r"save-btn heart-btn", line):
+                problems.append("%s:%d writes the save button by hand; use saveButtonHtml / atSaveButton"
+                                % (f.relative_to(ROOT), i))
+    return problems
+
+
 def check_the_noindex_split_holds():
     """Pages Google alone is asked not to list carry the googlebot tag and only
     that; everything else on the noindex list carries the generic robots tag;
@@ -4724,6 +4748,7 @@ def main():
         check_every_map_shows_one_world,
         check_a_map_is_only_built_when_it_can_be,
         check_one_tree_card_on_every_map,
+        check_one_save_button,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in
