@@ -129,13 +129,14 @@ No product change. Rung 1: one reader photograph (3c544597, 52.3972 4.8739, Amst
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-20 session: Android 0.1.0 (4) built, waits for the Play upload
+## 2026-11-20 session: Android 0.1.0 (4) sent to Google for review on the Alpha track
 
-- **In build 4** (Hidde: "Yes, build 4"): the crash note with the code line (3304a0b94), plus everything on main since build 3: Sign in on small phones, the Move-the-pin bar, the visitor-tile bookmark, "That address can't receive mail", "Look in your spam folder", and `build_number` on every event. Signed bundle: out/play/ancient-trees-0.1.0-4.aab (upload key), commit cf5e2b706.
+- **Submitted** (Hidde's click, "gedaan, ingediend"): release 4 (0.1.0) on closed test "Alpha", full rollout, Play shows "Wijzigingen worden beoordeeld". Same devices as build 3 (8,642 phones, 5,349 tablets). Only warning: no native debug symbols (MapLibre).
+- **In build 4** (Hidde: "Yes, build 4"): the crash note with the code line (3304a0b94), plus everything on main up to d7fe34ba0: Sign in on small phones, the Move-the-pin bar, the bookmark on every tree tile (5fdc00d58), a photo's own date kept in collect (412379465), the visitor-tile bookmark, "That address can't receive mail", "Look in your spam folder", and `build_number` on every event. Rebuilt twice so those two late commits went in; unit tests green and the Play build opened on the emulator each time.
 - **Fixed on the way (test in ExitWatchTest)**: the crash watcher's first look left its mark at 0 when the phone had no exits on record, so the next look counted as "first" again and dropped the first crash after a clean install. Freezes (ANR) and map crashes carry no note, so those were lost completely. The first look now sets the mark to now.
 - **Proven (RELEASE_CHECKLIST "A crash must name its line")**: minified build 4 on the emulator, clean install, `am crash`, reopen: `app_exit_abnormal` reason crash, on screen yes, with its trace, in PostHog at 09:40:58 UTC. Two traps for the next proof: the Play build sends nothing on an emulator by design (use `assembleMinified` with `--esa args -measure`), and `am crash` does not land while the location dialog is on top (`pm grant ... ACCESS_FINE_LOCATION` first).
 - **Not done**: MapLibre native symbols. Its Maven .so files come stripped, so `ndk.debugSymbolLevel` put nothing in the bundle and Play's warning stays (noted in build.gradle.kts). The instrumented walks (android_prelaunch.py) did not run this time; unit tests are green.
-- **For Hidde**: upload the .aab to the closed test "Alpha" in Play Console. Wave 3 of the invitations waits for Google's approval of build 4.
+- **Next**: wave 3 of the invitations (the ~540 remaining Gmail waitlist addresses, drafts/android-test-invite.md) goes once Play shows build 4 approved, on Hidde's "verstuur", about 170 a day as agreed.
 
 ## 2026-11-20 session: the sign-in watcher stops re-mailing bounced addresses
 
