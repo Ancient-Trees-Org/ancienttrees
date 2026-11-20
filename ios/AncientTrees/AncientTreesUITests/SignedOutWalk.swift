@@ -139,6 +139,14 @@ final class SignedOutWalk: XCTestCase {
         tap(app, "visitor-name"); expectSignIn(app, after: "visitor-name")
     }
 
+    func testPhotoHeartAsks() {
+        // The heart on a visitor's photograph (Kit/PhotoLikes.swift,
+        // 2026-11-20): signed out it asks for a sign-in and gives nothing.
+        let app = launch(["-tab=1", "-open=visitors:all"])
+        _ = app.descendants(matching: .any)["visitor-tile"].firstMatch.waitForExistence(timeout: 30)
+        tap(app, "photo-like"); expectSignIn(app, after: "photo-like")
+    }
+
     func testFollowOnAProfileAsks() {
         // Somebody's public profile (PersonProfile.swift, 2026-10-19): the
         // -people-demo person a1 is public, so Follow is on screen.
