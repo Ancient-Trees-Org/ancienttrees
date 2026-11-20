@@ -3262,6 +3262,11 @@ div.tb-register > b { color: var(--ink); }
   .td-tall .tree-block > .tb-cols { flex: 2 1 0; min-width: 0; }
   .td-tall .tree-block > .tb-row.tb-species { flex: 1 1 0; min-width: 0; border-top: 0;
     border-left: 1px solid rgba(0,0,0,0.10); padding: 0.8rem 1rem 0.7rem; }
+  /* In this narrow third cell the Latin name beside the common one broke the
+     common name in two ("White / Willow Salix alba", 2026-11-20); here it takes
+     its own line under the name, and the chevron stays on the name's line. */
+  .td-tall .tree-block > .tb-row.tb-species > b { align-items: baseline; }
+  .td-tall .tree-block > .tb-row.tb-species .tb-sp-latin { display: block; margin: 1px 0 0; }
   .td-tall .tree-block > .tb-loc, .td-tall .tree-block > .tb-ticket { flex: 1 0 100%; }
   .td-tall .td-stick { display: flex; flex-wrap: wrap; gap: 10px; }
   .td-tall .td-stick > .td-open, .td-tall .td-stick > .td-side-map { flex: 1 0 100%; }
