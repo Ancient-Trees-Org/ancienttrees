@@ -8271,6 +8271,42 @@
    "seen": "2026-11-20",
    "hold": "doubt_location",
    "judged": "2026-11-20"
+  },
+  {
+   "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "White Oak in Willistown",
+   "unsure_among": null,
+   "species": "White Oak",
+   "age": "300+",
+   "girth_cm": 510,
+   "girth_hugs": null,
+   "note": "The spread of this oak is half the front lawn of this house.",
+   "latitude": 40.0324349936899,
+   "longitude": -75.4943385841863,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3bb2d9b77f839015a3f92de9/69CF3021-612B-4AF4-A051-E91406FAC8CA.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/69cf3021-612b-4af4-a051-e91406fac8ca-extra-1.jpg",
+    "out/sightings/69cf3021-612b-4af4-a051-e91406fac8ca-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-20: the whole oak from the street side in late-autumn sun, a short pale trunk under a huge crown of crooked limbs reaching over a front lawn and past a low house roof, rusty last leaves, daylight, colour; two more frames from the lawn edge show the trunk with its burrs and the limbs spreading level from it. Live as willistown/wtn_002 under the closed list (Hidde, 2026-11-17); private lawn, seen from the street.",
+   "seen": "2026-11-20",
+   "judged": "2026-11-20",
+   "published_as": "willistown/wtn_002"
   }
  ]
 }

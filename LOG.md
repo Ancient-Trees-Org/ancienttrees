@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: a white oak in Willistown, and 7.25 m on the Brandywine Sycamore
+
+- **Live**: wtn_002, The White Oak of Bryan Avenue (Willistown, now two trees, so the place page's intro, meta, answer, context and FAQ cover both). A huge open-grown white oak on a private front lawn, in plain view from the street; three photographs from the reader (whole tree, limbs, burred trunk), filed in November from their own date. Their figures (510 cm, 300+ years) are stated as theirs; pin hand-placed, so approximate; access says stay on the street. Very likely the front-yard oak from Joey's 2026-11-17 mail; the page says nothing about the owner. Congratulation mail goes once the tree is in the live feed (tree_approved.py on the next knock).
+- **Strip**: the same reader's photograph of school children (faces blurred by them) holding hands round the Brandywine Sycamore (Chadds Ford, cdf_001) is in the strip behind the lead, not the lead.
+- **Report 1000104** (same reader, their own words): they measured the sycamore with the park staff at 7.25 m. Added to the story as their figure (girth_cm stays the college's 559); closed `holds`, no mail. For Hidde: a suggested reply in drafts/reply-reader-1000104-2026-11-20.md.
+- **Not judged**: 3c544597 (Amsterdam, our own account) still has no file on disk.
+
 ## 2026-11-20 daily publish: queue empty
 
 - **Daily publish: queue empty.** No builder newer than build_write_2026_11_17 and no out/tmp/held_build.py; every written tree in the verified files touched since then (frankfurt, fort-lauderdale, stuck-tips-2026-11-20, san-francisco, innsbruck, key-west, noto, miami-2, birmingham) is already in data/cities, and tonight's hst_008 and cft_001 went in with their write pass. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.

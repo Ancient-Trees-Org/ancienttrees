@@ -2,8 +2,8 @@
   "city": "Willistown",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek. A reader sent us a big American sycamore that stands by the old stone bridge where White Horse Road crosses the creek, closer to Paoli than to Media. They measured it at about 6.5 metres round. Nothing has been written about it that we can find, so its age is unknown; look from the road side, as the ground may be private.",
-  "meta_description": "A big American sycamore by the stone bridge where White Horse Road crosses Crum Creek, Willistown, Pennsylvania, sent in by a reader.",
+  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek, with quiet suburban streets on its edge by Malvern. Readers have sent us two big trees here: an American sycamore about 6.5 metres round by the old stone bridge where White Horse Road crosses the creek, and a white oak on Bryan Avenue whose crown fills half a front lawn. Both stand on private ground, so look from the road.",
+  "meta_description": "Two big trees readers sent from Willistown, Pennsylvania: a sycamore by the Crum Creek bridge and a wide white oak on Bryan Avenue.",
   "hero_tree_id": "wtn_001",
   "oldest_tree_id": "wtn_001",
   "trees": [
@@ -79,23 +79,101 @@
         "date": "2026-11-15",
         "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       }
+    },
+    {
+      "id": "wtn_002",
+      "name": "The White Oak of Bryan Avenue",
+      "species": "White Oak (Quercus alba)",
+      "age_estimate": "more than 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Bryan Avenue, Duffryn Mawr, Willistown Township, Chester County, PA 19355",
+        "latitude": 40.0324349936899,
+        "longitude": -75.4943385841863,
+        "neighbourhood": "Duffryn Mawr"
+      },
+      "story": "\"The spread of this oak is half the front lawn of this house,\" wrote the reader who sent it to us from Bryan Avenue, a quiet residential street in the Duffryn Mawr corner of Willistown Township, Chester County.\n\nTheir photographs bear that out. The trunk is short and massive, its pale grey bark broken into long shallow plates and swollen with burrs, and only a few metres up it splits into a crown of thick, crooked limbs. They run out almost level over the grass, one of them reaching past the roof of the low house behind, and with most of the leaves down in November you can follow every bend of them against the sky. The last leaves hang on in rusty red, the way a white oak holds its foliage late into autumn.\n\nThe reader puts it at more than 300 years old and its girth at about 510 centimetres. Those figures are theirs; we have found nothing written about this tree. If they are right, the oak was growing here long before the street was laid out around it. If you know its history, or the story the neighbours tell about it, tell us.\n\nIt stands on a private front lawn. Look at it from the street, and leave the garden to the people who live there.",
+      "how_to_recognise": "A huge, low-branched oak alone on a front lawn on Bryan Avenue: a short pale trunk with burrs on it, splitting a few metres up into thick crooked limbs that reach out over the grass and past the roof of the low grey house behind.",
+      "verified_sources": [
+        "A reader's three photographs and note through the app, 2026-11-20, with a pin they placed by hand on Bryan Avenue, Willistown Township"
+      ],
+      "access": "Seen from Bryan Avenue. The lawn it stands on is a private front garden, so stay on the street.",
+      "found_by_reader": {
+        "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+        "date": "2026-11-20"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+        "date": "2026-11-20",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. It reverse-geocodes (Nominatim) onto Bryan Avenue, Duffryn Mawr, which the street in the photographs fits."
+      },
+      "verify_notes": "2026-11-20 reader judge: sent by a reader through the app (69cf3021-612b-4af4-a051-e91406fac8ca), three photographs viewed: the whole oak from the street side in late-autumn sun, a short pale trunk under a huge crown of crooked limbs reaching over a front lawn and past a low house roof, rusty last leaves, daylight, colour; two more frames from the lawn edge show the trunk with its burrs and the limbs spreading level from it. The reader's own figures: name 'White Oak in Willistown', species 'White Oak', age '300+', girth 510 cm; note: 'The spread of this oak is half the front lawn of this house.'. Species from the photographs: lobed oak leaves held late in rusty red, pale platy bark: white oak, as the reader named it. On a private front lawn but in plain view from the street (the photographs are taken from the street side), so it ships with an access line to stay on the street (Hidde 2026-11-17, 'not public is also not 100% dismiss if its viewable'). Published under the closed list for a reader's tree; approximate because the pin was placed by hand. Second tree of Willistown; same reader as wtn_001.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wtn_002-the-white-oak-of-bryan-avenue.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved 2026-11-20: the whole oak from the street side. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wtn_002-the-white-oak-of-bryan-avenue-limbs.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+          "note": "Same sighting, second photograph, viewed 2026-11-20: the trunk and the limbs spreading from it, from the lawn edge. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wtn_002-the-white-oak-of-bryan-avenue-trunk.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "69cf3021-612b-4af4-a051-e91406fac8ca",
+          "note": "Same sighting, third photograph, viewed 2026-11-20: the burred trunk close, limbs above. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ],
-  "question_meta": "A big American sycamore by the White Horse Road bridge over Crum Creek in Willistown, PA: what a reader measured and how to see it.",
-  "question_answer": "A reader sent us an American sycamore by the old stone bridge where White Horse Road crosses Crum Creek in Willistown Township, Chester County. They measured it at about 650 cm round. No age has been published. See it from the road.",
-  "question_context": "The tree came to us from a reader through the app in November 2026, with two photographs and a girth of about 650 cm by their own measure. They placed it near an old stone bridge over Crum Creek in Willistown Township, closer to Paoli than to Media, and their pin falls on the White Horse Road crossing. We have found nothing written about it, so its age and history are unknown. The American sycamore is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. The ground it grows on may be private, so look from the road and leave the fences alone. The reader's pin was placed by hand on the map rather than taken from the phone, so it marks the bridge they described; the tree stands close by, its base on a grassy bank beside a split-rail fence. Their photographs show pale upper limbs and mottled grey bark, the marks of the species.",
+  "question_meta": "The biggest trees readers have found in Willistown, PA: a sycamore by the Crum Creek bridge and a white oak on Bryan Avenue, and how to see them.",
+  "question_answer": "Readers have sent us two big trees in Willistown Township, Chester County. An American sycamore stands by the old stone bridge where White Horse Road crosses Crum Creek, about 650 cm round by a reader's measure. A white oak on Bryan Avenue in Duffryn Mawr is about 510 cm round and more than 300 years old by a reader's estimate. No age has been published for either. See both from the road.",
+  "question_context": "Both trees came to us from a reader through the app in November 2026, with photographs and their own measurements. The sycamore grows near an old stone bridge over Crum Creek, closer to Paoli than to Media, its base on a grassy bank beside a split-rail fence; their photographs show the pale upper limbs and mottled grey bark of the species, which is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. The white oak is about four kilometres north-west, on a front lawn on Bryan Avenue, a residential street in the Duffryn Mawr corner of the township near Malvern. Its crooked limbs spread over half the lawn, and the reader puts it at more than 300 years old. We have found nothing written about either tree, so their figures are the only ones. Both stand on private ground: look from the road and leave fences and gardens alone.",
   "faq": [
     {
-      "q": "How big is it?",
-      "a": "About 650 cm round, by the measure of the reader who sent it. Nobody else has published a figure."
+      "q": "How big are they?",
+      "a": "The sycamore is about 650 cm round and the white oak about 510 cm, both by the measure of the reader who sent them. Nobody else has published a figure."
     },
     {
-      "q": "How old is it?",
-      "a": "Nobody has published an age. If you know its history, tell us."
+      "q": "How old are they?",
+      "a": "The reader puts the white oak at more than 300 years. Nobody has published an age for either tree. If you know their history, tell us."
     },
     {
-      "q": "Where is it?",
-      "a": "Beside White Horse Road at its stone bridge over Crum Creek in Willistown Township, Chester County, nearer Paoli than Media. The pin is approximate."
+      "q": "Where are they?",
+      "a": "The sycamore is beside White Horse Road at its stone bridge over Crum Creek; the white oak is on a front lawn on Bryan Avenue in Duffryn Mawr. Both pins are approximate, and both trees are seen from the road."
     }
   ]
 }

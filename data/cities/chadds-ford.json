@@ -46,11 +46,12 @@
         "https://www.ucc.edu/tree-grove/tree-28/",
         "https://www.brandywinebattlefield.org/plan-a-visit/"
       ],
+      "verify_notes": "2026-11-20 reader judge: report 1000104 from the reader who sent the photographs says they measured the girth with the park staff at 7.25 m; added to the story as their figure, girth_cm left at the college's 559 (readers' girths stay in the story). Their photograph of school children round the trunk (faces blurred by them, teachers' permission per their note) went in the strip behind the lead.",
       "access": "Free. A reader who visited in November 2026 tells us you can walk up to the Gideon Gilpin House and the sycamore beside it at any time; only the inside of the house is seen on a guided tour. The tree stands outside the house on the park grounds.",
       "transport": "No public transit found; car only. Roughly 40 km / 45-60 minutes by road from central Philadelphia, over the ~30-minute public-transport day-trip threshold, so this is its own place (Chadds Ford, PA) rather than folded into Philadelphia.",
       "location_precision": "approximate",
       "curation_status": "ai_generated",
-      "story": "This sycamore was already 168 years old on the day the Battle of Brandywine broke around it. That figure comes from Union County College, which raised a seedling from its seed in 1997 and recorded the parent at 220 inches around, 111 feet tall and dating from about 1609. On 11 September 1777 the fighting ran through these fields, and the Marquis de Lafayette, nineteen years old and shot through the leg, was carried into the Gideon Gilpin farmhouse the tree stands beside to have the wound dressed. The tree is still there: five and a half metres round, thirty-four metres up, with the mottled white upper limbs an American sycamore shows once the outer bark flakes off. A bicentennial marker went in beside it in 1987. Worth saying plainly what a witness tree is and is not. Nothing in the wood records the battle. The claim rests on the tree's age and its position beside a house the wounded were brought into, and both of those are documented. The battlefield is a National Historic Landmark and the grounds are free to walk; the Gilpin house interior is timed guided tours only, Thursday to Sunday. The pin here marks the house rather than the trunk, because no tree-level fix exists, but the two stand within a yard of each other.",
+      "story": "This sycamore was already 168 years old on the day the Battle of Brandywine broke around it. That figure comes from Union County College, which raised a seedling from its seed in 1997 and recorded the parent at 220 inches around, 111 feet tall and dating from about 1609. On 11 September 1777 the fighting ran through these fields, and the Marquis de Lafayette, nineteen years old and shot through the leg, was carried into the Gideon Gilpin farmhouse the tree stands beside to have the wound dressed. The tree is still there: five and a half metres round, thirty-four metres up, with the mottled white upper limbs an American sycamore shows once the outer bark flakes off. A bicentennial marker went in beside it in 1987. Worth saying plainly what a witness tree is and is not. Nothing in the wood records the battle. The claim rests on the tree's age and its position beside a house the wounded were brought into, and both of those are documented. The battlefield is a National Historic Landmark and the grounds are free to walk; the Gilpin house interior is timed guided tours only, Thursday to Sunday. A reader who came in November 2026 measured the trunk with help from the park staff and made it 7.25 metres round; that figure is theirs, taken nearly thirty years after the college's.",
       "best_time": {
         "months": [
           1,
@@ -73,7 +74,22 @@
         "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",
         "note": "Photographed by a reader and sent through the app (2026-11-19); a viewing pass approved it on 2026-11-19: Looking up a massive single trunk into pale, mottled white limbs in late-autumn sun; the reader's other frames show the stone Gilpin house beside it and the 1987 bicentennial plaque at its foot. This is the Brandywine Sycamore, and the tree had no photograph. Species seen: flaking bark leaving smooth white upper limbs over a grey-brown lower trunk, a few remaining palmate leaves: American sycamore. Fits the description: a very large old trunk with white upper limbs; the extra frames show the fieldstone farmhouse beside it and the 1787-1987 arborist plaque the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by the mottled white upper limbs a sycamore shows once its bark flakes off, over a trunk five and a half metres round. It stands beside the Gideon Gilpin House, with a 1987 marker at its foot."
+      "how_to_recognise": "You can recognise it by the mottled white upper limbs a sycamore shows once its bark flakes off, over a trunk five and a half metres round. It stands beside the Gideon Gilpin House, with a 1987 marker at its foot.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cdf_001-the-brandywine-sycamore-lafayette-sycamore-8587a0c8.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "8587a0c8-80d2-4576-9e46-25d9cd95be6a",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: This sycamore's huge pale trunk with five children (faces blurred by the sender) holding hands round it, the red barn and the stone outbuildings of the Gilpin homestead behind, autumn leaves, bright daylight, colour. A hug measure of the trunk; goes in the strip behind the lead, which shows the whole tree without people. Species seen: Mottled pale flaking bark, white upper limbs, fallen plane-type leaves: American sycamore. Fits the description: A trunk about five people round beside the Gilpin farm's stone buildings, as the story and recognition line say.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

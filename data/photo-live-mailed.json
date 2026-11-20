@@ -682,6 +682,15 @@
      "city_slug": "media-pennsylvania",
      "display_name": null,
      "live": "2026-11-20"
+    },
+    {
+     "sighting_id": "8587a0c8-80d2-4576-9e46-25d9cd95be6a",
+     "tree_id": "cdf_001",
+     "tree_name": "The Brandywine Sycamore (Lafayette Sycamore)",
+     "city": "Chadds Ford",
+     "city_slug": "chadds-ford",
+     "display_name": null,
+     "live": "2026-11-20"
     }
    ],
    "sent": [

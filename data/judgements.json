@@ -708,6 +708,78 @@
    "agreed": null
   },
   {
+   "id": "sight:8587a0c8-80d2-4576-9e46-25d9cd95be6a",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Brandywine Sycamore (Lafayette Sycamore)",
+   "city": "Chadds Ford",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/8587a0c8-80d2-4576-9e46-25d9cd95be6a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore (Platanus occidentalis)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: the Brandywine Sycamore's trunk with school children (faces blurred by the sender) holding hands round it, Gilpin stone buildings behind, daylight. This tree, a hug measure; in the strip behind the lead, not the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:69cf3021-612b-4af4-a051-e91406fac8ca",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The White Oak of Bryan Avenue",
+   "city": "Willistown",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/69cf3021-612b-4af4-a051-e91406fac8ca.jpg",
+   "reader_note": "The spread of this oak is half the front lawn of this house.",
+   "reader_girth_cm": 510,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "reader's girth 510 cm, stated as theirs"
+   },
+   "verdict": "publish",
+   "reason": "The reader's three photographs, viewed in this run (whole oak from the street side, the limbs, the burred trunk), are the lead and strip of willistown/wtn_002, the tree they made.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:69cf3021-612b-4af4-a051-e91406fac8ca",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "White Oak in Willistown",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_3bb2d9b77f839015a3f92de9/69CF3021-612B-4AF4-A051-E91406FAC8CA.jpg",
+   "reader_note": "The spread of this oak is half the front lawn of this house.",
+   "reader_girth_cm": 510,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": "publish",
+   "reason": "Three photographs viewed: a huge open-grown white oak on a front lawn on Bryan Avenue, Willistown, crown over half the lawn, reader's girth 510 cm and age 300+. Private lawn, plainly seen from the street; live as willistown/wtn_002, approximate (hand-placed pin), access line says stay on the street.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
