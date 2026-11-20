@@ -60,6 +60,23 @@
       "reason": "2026-11-13: search pointer only (parquesdesintra.pt/media/0tvma3d4/pgf_2025-2027_resumo_publico.pdf), PDF not fetched, no girth, age, spot or alive check; wording suggests the tree stood and may be gone. No photo or exact pin in reach. 2026-11-16: PDF downloaded (2.4 MB, curl 200) but image-based/compressed; no PDF text tool on the runner and WebFetch could not read it either. Still unverified.",
       "species": "Eucalyptus (Eucalyptus sp.)",
       "species_basis": "genus read from the tree's own name; ask the reader which species"
+    },
+    {
+      "name": "The classified planes of Volta do Duche, Sintra (Camara Municipal 'arvores classificadas', Zona A, 14 trees; the largest is Arvore 10)",
+      "species": "Platanus x acerifolia (London Plane); one Celtis australis and one Ligustrum lucidum in the same zone list",
+      "lat": 38.79718,
+      "lng": -9.38945,
+      "status": "lead",
+      "reason": "2026-11-20 deepen pass. Official source: the Camara Municipal de Sintra's own classified-tree pages (fetched via sintraromantica.net, curl -k because its certificate has expired; visitsintra.travel hangs, curl and WebFetch both timed out). Zona A, Volta do Duche / Reservatorio Duche, per-tree measurements (girth at breast height / base / height): No.3 3.80/4.50 m/12.8 m; No.4 4.50/8.60/16.0; No.7 4.40/5.00/22.4; No.8 5.20/7.90/16.9; No.10 5.40/8.00/25-30 m (crown 25-30 m); No.12 5.30/8.00/17.6; the rest 2.1 to 4.0 m. Commons file 'Plátano do Duche 01.jpg' (CC BY-SA 4.0, taken 2025-06-23, geotag 38.797181,-9.389453) shows the municipal plaque on a plane there, so the stand is alive in 2025. Why it stays a lead: the pages give no coordinate per tree and the plaque photo does not show which numbered tree it is, so no individual tree can be pinned or told apart; the 14 planes line a public road (Volta do Duche), an avenue, which is not one collectible point. No Overpass (406), so no OSM tree nodes. A future pass with a trunk photo showing the plaque number next to a GPS fix could ship No.10 (largest) or No.8 as one tree, approximate to confirmed.",
+      "species_basis": "species from the council's own classification pages"
+    },
+    {
+      "name": "Other Camara Municipal de Sintra classified trees (Zona A lindens, Zona C Alameda dos Combatentes lindens and planes, Largo D. Manuel I limes, Largo D. Fernando II planes and ashes)",
+      "species": "Tilia, Platanus, Fraxinus angustifolia, Celtis australis",
+      "lat": null,
+      "lng": null,
+      "status": "lead",
+      "reason": "2026-11-20 deepen pass. Same council source as the Volta do Duche entry (91 per-tree pages scraped, measurements recorded there). All are street or square avenues with girths of 0.2 to 3.5 m (largest outside Volta do Duche: Zona A lode No.5 3.30 m; planes No.9 3.50 m), no per-tree coordinate, no age. Not collectible points and not remarkable for their species. Kept as a list, nothing to ship."
     }
   ],
   "blocked": [

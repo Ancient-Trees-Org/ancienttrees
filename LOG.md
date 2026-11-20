@@ -9,6 +9,14 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 night run (18:13 window): iOS red fixed, two dry verify passes
+
+- **App:** ios.yml was red from today's visitor tile (appfit: the tree name under each visitor photograph was a second link 34 points high, and one ended 8 points short of the right edge). The name is now plain text, the photograph stays the tile's one control. Not verified on a simulator here; the next ios.yml run says. For Hidde: tapping the name itself no longer opens the tree, only the photograph does; say if you want the name to be the tap target at 44 points instead.
+- **Web:** closed the pin-stacking bug row (fixed in 352553498, qa refuses a position on .pin-tree). One new web error type on one page, under the threshold.
+- **Verify passes, both dry (0 trees):** Birmingham (a tenth; a ninth already ran earlier today and I did not see it when claiming; its `cft_001` rests partly on Woodland Trust record 253329, so it must not ship) and Sintra (the council's 91-tree classified survey has girths but no per-tree coordinates; Volta do Duche planes kept as leads). Both claims released, Sintra is a wall for 48h.
+- **Rung 1:** one reader photograph of an unmapped tree (3c544597, Amsterdam 52.3972 4.8739) is not on this runner's disk, so no verdict; left open for the reader judge or a session with the key.
+- The verified pile is empty (2 York READY leads, under the six-tree floor), so shelf refill is the only lane and the shelves are dry.
+
 ## 2026-11-20 reader judge: two photographs of the Bazlen plane, Milan
 
 - **Live**: a reader's two autumn photographs (taken 2025-11-27) of Il Platano del Giardino Bazlen (mil_014). The trunk shot (fc36a7af) is now the lead, filed under November; the Commons summer photo moved into the strip; the wide crown shot (66e7f16a) sits behind them in the strip. Species and description checked against the pixels: plane bark and leaves, topped stocky tree in the playground square. Verdicts in data/judgements.json; the "on the page" mail went through sightings_publish.py --send.

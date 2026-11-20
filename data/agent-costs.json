@@ -2,6 +2,8 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-20": [
+      {"date": "2026-11-20", "kind": "verify", "target": "birmingham", "tokens": 95348, "trees": 0, "note": "tenth dry pass (a ninth ran earlier today, not seen when claimed); OSM bbox API works but names no veteran; cft_001 rests partly on Woodland Trust record 253329, must not ship"},
+      {"date": "2026-11-20", "kind": "verify", "target": "sintra", "tokens": 113021, "trees": 0, "note": "council classified-tree survey (91 trees) found, no per-tree pins; Volta do Duche planes kept as leads"},
       {"date": "2026-11-20", "kind": "verify", "target": "birmingham", "tokens": 108883, "trees": 0, "note": "ninth dry pass; Garden Explorer champion tour is JS-only, Highbury survey PDF image-only, Wikidata 0; claim released"},
       {"date": "2026-11-20", "kind": "verify", "target": "miami", "tokens": 89565, "trees": 0, "note": "one flagged Deering black olive (mia_017, register and 2026 blog girths conflict), approximate pin, not merged; city a wall"}
     ],
