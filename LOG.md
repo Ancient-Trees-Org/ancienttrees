@@ -8,6 +8,9 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 07:40 run: no trees published
+
+No product change. Rung 1: one reader photograph (3c544597, 52.3972 4.8739, Amsterdam area) of an unmapped tree is not on the runner's disk, so no verdict (never judged blind); it waits for a session with the key. Rung 2: health only flagged 5 of 12 knocks delivered (GitHub dropping cron). Shelf empty (READY 0), so I claimed Chicago for a verify pass: it came back with 8 "verified" trees that were all already live under older ids (same Cook County record numbers; chi_065 to chi_072 duplicate chi_018, 022, 021, 029, 023, 011, 012, 026). The write pass caught it and merged nothing; I reverted the research file and released the claim (Chicago walled 48h). Lesson for the brief: passcheck.py's Chicago candidate list does not exclude register records already live. Birmingham claimed and released without a pass (seven earlier dry passes, no naming body, no coordinates). Portland refused (33/30). Venlo's scout_next BUILD is walled. pagegaps lists only noindexed species/park pages, skipped under the strict cut. Not done: any new tree.
 
 <!-- archive-index -->
 
