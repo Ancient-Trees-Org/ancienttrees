@@ -2409,6 +2409,21 @@
     }
    ],
    "sent": []
+  },
+  "p_373e5fd038454aac3df00232": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "9f0baaf2-c507-40f9-ab10-b3ca7c33e821",
+     "tree_id": "lon_041",
+     "tree_name": "The St Mary Magdalene Plane",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

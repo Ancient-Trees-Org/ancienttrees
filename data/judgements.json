@@ -186,6 +186,56 @@
    "agreed": null
   },
   {
+   "id": "sight:42f66634-36d7-46df-8a02-739114680321",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Great Zelkova of the Ōkunitama Approach",
+   "photo": "p_697eb4a0c77311e0508c5fb0/42F66634-36D7-46DF-8A02-739114680321.jpg",
+   "reader_note": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a huge roped zelkova trunk inside a red fence on the shrine approach, autumn leaves, daylight, colour. Lead photograph of tokyo/tok_024.",
+   "city": "Tokyo",
+   "species": "Saw-leaf Zelkova (Zelkova serrata)"
+  },
+  {
+   "id": "sight:1c528293-5004-4f58-9db6-1d635195b42a",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Holm Oak above the Scrub at Altafulla",
+   "photo": "p_83881dd161bc1e19d059a7d6/1C528293-5004-4F58-9DB6-1D635195B42A.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a broad dark-crowned holm oak standing above pines and scrub, overcast daylight, colour. Lead photograph of tarragona/tgn_005.",
+   "city": "Tarragona",
+   "species": "Holm Oak (Quercus ilex)"
+  },
+  {
+   "id": "sight:9f0baaf2-c507-40f9-ab10-b3ca7c33e821",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The St Mary Magdalene Plane",
+   "city": "London",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/9f0baaf2-c507-40f9-ab10-b3ca7c33e821.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: the huge burred multi-stemmed London plane in St Mary Magdalene Gardens, whole trunk and crown in daylight, autumn leaf fall. First photograph of london/lon_041.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -19357,34 +19407,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:42f66634-36d7-46df-8a02-739114680321",
-   "seen": "2026-11-20",
-   "kind": "a tree we do not map",
-   "tree": "The Great Zelkova of the Ōkunitama Approach",
-   "photo": "p_697eb4a0c77311e0508c5fb0/42F66634-36D7-46DF-8A02-739114680321.jpg",
-   "reader_note": "There are a large number of Keyaki (Japanese Elm) trees around the shrine. This appears to be the largest.",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: a huge roped zelkova trunk inside a red fence on the shrine approach, autumn leaves, daylight, colour. Lead photograph of tokyo/tok_024.",
-   "city": "Tokyo",
-   "species": "Saw-leaf Zelkova (Zelkova serrata)"
-  },
-  {
-   "id": "sight:1c528293-5004-4f58-9db6-1d635195b42a",
-   "seen": "2026-11-20",
-   "kind": "a tree we do not map",
-   "tree": "The Holm Oak above the Scrub at Altafulla",
-   "photo": "p_83881dd161bc1e19d059a7d6/1C528293-5004-4F58-9DB6-1D635195B42A.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: a broad dark-crowned holm oak standing above pines and scrub, overcast daylight, colour. Lead photograph of tarragona/tgn_005.",
-   "city": "Tarragona",
-   "species": "Holm Oak (Quercus ilex)"
   }
  ]
 }

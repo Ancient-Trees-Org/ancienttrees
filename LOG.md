@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: first photograph of the St Mary Magdalene Plane
+
+- **Live**: a reader's app photograph is now the lead photograph of London's St Mary Magdalene Plane (lon_041), which had none. Viewed first: the huge burred, multi-stemmed plane in its garden, daylight, autumn leaf fall; species and description both match. Filed under November (the photo's own date, and it shows leaf fall). The reader's coordinate was our own pin, so the pin stays approximate. The reader got the "on the page" mail (`sightings_publish.py --send`).
+- **Left for the next run**: lead 3c544597 (Amsterdam, our own account, sent "not sure which tree") has no photograph on disk; not judged blind.
+- No open reports, no tips, no feedback without a verdict, no reader notes to quote. The other waiting leads in _sightings.json are all our own account's test photographs, not readers'.
+- qa source checks, preflight (0 problems) and i18ncheck clean.
+
 ## 2026-11-20 session: site build fixed; "Not there? Look in your spam folder." on the sign-in step
 
 - **Breakage, fixed (commit 3b71622ed)**: from 09:07 UTC the site did not build. d5213f19d (bookmark on the home row) had `visitorSaveFn` call itself where its SAVE/SAVED/BM declarations belonged, so every page with visitor tiles overflowed the stack (/de/visitors first) and no deploy went out. The three values now sit inside `nfvSave`. Not yet seen in a finished build: every smoke and deploy run since was cancelled by a newer push (a busy morning of reader-judge commits); the build ran minutes past the old crash point before its cancel.
