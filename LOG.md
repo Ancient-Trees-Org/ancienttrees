@@ -9,6 +9,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 night run (second attempt, same window): nothing shipped
+
+Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished verified (Birmingham, Taiwan), under the six a write pass needs. Fort Worth claimed and released at once: 0 unmined candidates, now a 48h wall. Porto, Munich and Portland refused as full against target. scout_next says BUILD, nothing to scout; translations paused by TRANSLATIONS_OUT. The one reader photograph with no verdict (3c544597, 52.3972 4.8739) is not on disk here, so it stays open rather than judged blind: the session with the key should look. Next: refill needs a new source (iNaturalist or a reader), not another staged city.
+
 ## 2026-11-20 night run (18:13 window): iOS red fixed, two dry verify passes
 
 - **App:** ios.yml was red from today's visitor tile (appfit: the tree name under each visitor photograph was a second link 34 points high, and one ended 8 points short of the right edge). The name is now plain text, the photograph stays the tile's one control. Not verified on a simulator here; the next ios.yml run says. For Hidde: tapping the name itself no longer opens the tree, only the photograph does; say if you want the name to be the tap target at 44 points instead.
