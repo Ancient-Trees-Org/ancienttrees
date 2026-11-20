@@ -136,6 +136,18 @@ final class Sightings {
         /// stays the tree's picture. At most `maxExtras`. Optional so older
         /// files decode.
         var extraPhotos: [String]?
+        /// The month (1 to 12) each further photograph was taken, in the order
+        /// of `extraPhotos`, nil where its file did not say (Hidde,
+        /// 2026-11-20: the tree page files every photograph under a season,
+        /// and an extra carried no date of its own). The month only, as the
+        /// website's tip form sends it. Optional so older files decode.
+        var extraMonths: [Int?]?
+        /// Whether `date` is the photograph's own ("photo": the camera's
+        /// moment, the library's creation date or the file's EXIF date) or
+        /// the moment a library photo without a date was picked ("fallback").
+        /// Sent as `taken_basis`, so a summer photo picked in November is not
+        /// filed under autumn. Nil on a sighting from before 2026-11-20.
+        var dateBasis: String?
         /// Where the coordinate came from ("GPS, standing at the tree"), kept
         /// on a draft so the submission sent on Save can say it.
         var fixNote: String?
@@ -433,7 +445,8 @@ final class Sightings {
         guard !has(sighting.id) else { return }
         var made = sighting
         made.signPhoto = nil
-        made.extraPhotos = writeExtras(extras, for: made.id)
+        (made.extraPhotos, made.extraMonths) = writeExtras(extras, months: sighting.extraMonths ?? [],
+                                                           for: made.id)
         if let image, let data = Self.downsized(image) {
             let file = made.id.uuidString + ".jpg"
             try? data.write(to: folder.appendingPathComponent(file))
@@ -466,10 +479,17 @@ final class Sightings {
         let kept = all[i].photo
         let keptSign = all[i].signPhoto
         let keptExtras = all[i].extraPhotos
+        let keptMonths = all[i].extraMonths
         all[i] = remote
         all[i].photo = kept
         all[i].signPhoto = keptSign
-        all[i].extraPhotos = (keptExtras ?? []).isEmpty ? writeExtras(extras, for: remote.id) : keptExtras
+        if (keptExtras ?? []).isEmpty {
+            (all[i].extraPhotos, all[i].extraMonths) = writeExtras(extras, months: remote.extraMonths ?? [],
+                                                                   for: remote.id)
+        } else {
+            all[i].extraPhotos = keptExtras
+            all[i].extraMonths = keptMonths ?? remote.extraMonths
+        }
         if keptSign == nil, let sign { all[i].signPhoto = writeSign(sign, for: remote.id) }
         if kept == nil, let image, let data = Self.downsized(image) {
             let file = remote.id.uuidString + ".jpg"
@@ -572,7 +592,47 @@ final class Sightings {
         }
     }
 
+    /// The further photographs with the month each was taken, skipping a
+    /// file that is gone, so the months the row sends stay in step with the
+    /// files it sends.
+    func extraImagesWithMonths(_ s: Sighting) -> [(image: UIImage, month: Int?)] {
+        let months = s.extraMonths ?? []
+        return (s.extraPhotos ?? []).enumerated().compactMap { n, f in
+            UIImage(contentsOfFile: folder.appendingPathComponent(f).path)
+                .map { ($0, n < months.count ? months[n] : nil) }
+        }
+    }
+
     static let maxExtras = 3
+
+    /// The two answers `dateBasis` carries; see the property.
+    nonisolated static let photoDate = "photo"
+    nonisolated static let fallbackDate = "fallback"
+
+    /// The date to file a new photograph under and what it rests on. The
+    /// camera's moment is the photograph's own, so is a date the library or
+    /// the file gave; a library photo whose file says nothing gets the moment
+    /// it was picked, marked as such.
+    nonisolated static func dated(taken: Date?, fromCamera: Bool,
+                                  now: Date = Date()) -> (date: Date, basis: String) {
+        if let taken { return (taken, photoDate) }
+        return (now, fromCamera ? photoDate : fallbackDate)
+    }
+
+    /// The month (1 to 12) a photograph was taken, nil when unknown.
+    nonisolated static func month(of date: Date?) -> Int? {
+        date.map { Calendar.current.component(.month, from: $0) }
+    }
+
+    /// The month of each file in `extraPhotos`, aligned to it, for the row.
+    /// Nil when none is known, so an older row stays as it was.
+    nonisolated static func extraMonthsAligned(_ s: Sighting) -> [Int?]? {
+        let files = s.extraPhotos ?? []
+        guard !files.isEmpty else { return nil }
+        let months = s.extraMonths ?? []
+        let out = files.indices.map { $0 < months.count ? months[$0] : nil }
+        return out.contains { $0 != nil } ? out : nil
+    }
 
     /// The file name of the n-th further photograph, here and in the bucket.
     nonisolated static func extraFile(_ id: UUID, _ n: Int) -> String {
@@ -580,16 +640,29 @@ final class Sightings {
     }
 
     private func writeExtras(_ images: [UIImage], for id: UUID) -> [String]? {
-        let files = images.prefix(Self.maxExtras).enumerated().compactMap { n, img -> String? in
-            guard let data = Self.downsized(img) else { return nil }
+        writeExtras(images, months: [], for: id).files
+    }
+
+    /// The files written and the month of each, kept in step: a file that
+    /// could not be written takes its month with it.
+    private func writeExtras(_ images: [UIImage], months: [Int?],
+                             for id: UUID) -> (files: [String]?, months: [Int?]?) {
+        var files: [String] = []
+        var kept: [Int?] = []
+        for (n, img) in images.prefix(Self.maxExtras).enumerated() {
+            guard let data = Self.downsized(img) else { continue }
             let file = Self.extraFile(id, n + 1)
-            return (try? data.write(to: folder.appendingPathComponent(file))) != nil ? file : nil
+            guard (try? data.write(to: folder.appendingPathComponent(file))) != nil else { continue }
+            files.append(file)
+            kept.append(n < months.count ? months[n] : nil)
         }
-        return files.isEmpty ? nil : files
+        if files.isEmpty { return (nil, nil) }
+        return (files, kept.contains { $0 != nil } ? kept : nil)
     }
 
     /// A further photograph, added on the tree's own page.
-    func addExtra(_ id: UUID, image: UIImage) {
+    /// `month` is the month the photograph was taken, nil when unknown.
+    func addExtra(_ id: UUID, image: UIImage, month: Int? = nil) {
         guard let i = all.firstIndex(where: { $0.id == id }) else { return }
         var files = all[i].extraPhotos ?? []
         guard files.count < Self.maxExtras, let data = Self.downsized(image) else { return }
@@ -598,8 +671,13 @@ final class Sightings {
         }.max() ?? 0) + 1
         let file = Self.extraFile(id, n)
         guard (try? data.write(to: folder.appendingPathComponent(file))) != nil else { return }
+        var months = all[i].extraMonths ?? []
+        while months.count < files.count { months.append(nil) }
+        months = Array(months.prefix(files.count))
         files.append(file)
+        months.append(month)
         all[i].extraPhotos = files
+        all[i].extraMonths = months.contains { $0 != nil } ? months : nil
         persist()
         if all[i].draft != true { Self.syncOne?(all[i]) }
     }
@@ -645,6 +723,11 @@ final class Sightings {
         if let girthCm { all[i].girthCm = girthCm > 0 ? girthCm : nil }
         if let note { all[i].note = note }
         persist()
+        // TO THE ACCOUNT AT ONCE, like every other change here (audit,
+        // 2026-11-20): an edit used to wait for the next full sync, so a
+        // species or status fixed on the phone reached nobody until the app
+        // next signed in. A draft stays on this phone until Save.
+        if all[i].draft != true { Self.syncOne?(all[i]) }
     }
 
     /// "4.2", "4,2", "4.2 m" and "420 cm" all mean the same trunk. A bare
@@ -755,7 +838,8 @@ final class Sightings {
                 unsureOf: [String]? = nil, girthHugs: String? = nil,
                 place: String? = nil, sign: UIImage? = nil,
                 draft: Bool = false, fixNote: String? = nil,
-                extras: [UIImage] = []) -> Sighting {
+                extras: [UIImage] = [], extraMonths: [Int?] = [],
+                dateBasis: String? = nil) -> Sighting {
         var s = Sighting(treeId: treeId, name: Self.oneLine(name), note: note,
                          lat: lat, lng: lng, date: date, photo: nil, status: status)
         s.unsureOf = unsureOf
@@ -771,7 +855,10 @@ final class Sightings {
             s.photo = file
         }
         if let sign { s.signPhoto = writeSign(sign, for: s.id) }
-        if !extras.isEmpty { s.extraPhotos = writeExtras(extras, for: s.id) }
+        if !extras.isEmpty {
+            (s.extraPhotos, s.extraMonths) = writeExtras(extras, months: extraMonths, for: s.id)
+        }
+        s.dateBasis = dateBasis
         if draft { s.draft = true }
         s.fixNote = fixNote
         all.append(s)

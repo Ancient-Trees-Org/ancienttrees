@@ -266,6 +266,64 @@ struct RecordingATreeOfYourOwn {
         #expect(deleted == 1)
     }
 
+    /// An edit reaches the account at once (audit, 2026-11-20): species,
+    /// age, girth, name, story and status fixed on the phone used to wait
+    /// for the next full sync. A draft still stays on the phone until Save.
+    @Test func anEditGoesToTheAccountAtOnce() {
+        let p = Patch(); defer { p.clean() }
+        var pushed: [String?] = []
+        Sightings.syncOne = { pushed.append($0.species) }
+        defer { Sightings.syncOne = nil }
+
+        let s = Sightings(folder: p.url)
+        let made = s.record(treeId: nil, name: "The oak", lat: 52.37, lng: 4.89, image: nil)
+        let draft = s.record(treeId: nil, name: "Draft", lat: 52.37, lng: 4.89, image: nil, draft: true)
+        pushed = []
+
+        s.update(made.id, species: "Oak (Quercus sp.)")
+        s.update(made.id, status: .sent)
+        s.update(draft.id, species: "Yew")
+
+        #expect(pushed == ["Oak (Quercus sp.)", "Oak (Quercus sp.)"],
+                "an edit waited for the next sync, or a draft left the phone: \(pushed)")
+    }
+
+    /// A library photo without a date is filed at the moment it was picked,
+    /// and says so; the camera's moment and a file's own date are the
+    /// photograph's (2026-11-20: a summer photo picked in November was filed
+    /// under autumn).
+    @Test func aPickedMomentIsMarkedAsAFallback() {
+        let now = Date(timeIntervalSince1970: 1_763_600_000)
+        let july = Date(timeIntervalSince1970: 1_752_500_000)
+        #expect(Sightings.dated(taken: nil, fromCamera: false, now: now).basis == Sightings.fallbackDate)
+        #expect(Sightings.dated(taken: nil, fromCamera: true, now: now).basis == Sightings.photoDate)
+        let fromFile = Sightings.dated(taken: july, fromCamera: false, now: now)
+        #expect(fromFile.basis == Sightings.photoDate && fromFile.date == july)
+
+        let p = Patch(); defer { p.clean() }
+        let s = Sightings(folder: p.url)
+        let made = s.record(treeId: nil, name: "The oak", lat: 52.37, lng: 4.89, image: nil,
+                            dateBasis: Sightings.fallbackDate)
+        #expect(Sightings(folder: p.url).all.first { $0.id == made.id }?.dateBasis == Sightings.fallbackDate,
+                "the basis did not survive a relaunch")
+    }
+
+    /// Each further photograph keeps the month its file gave, in step with
+    /// the files, also when one is added later on the tree's page.
+    @Test func extrasKeepTheirMonths() {
+        let p = Patch(); defer { p.clean() }
+        let s = Sightings(folder: p.url)
+        let made = s.record(treeId: nil, name: "The oak", lat: 52.37, lng: 4.89, image: pixel(),
+                            extras: [pixel(), pixel()], extraMonths: [7, nil])
+        #expect(s.all.first?.extraMonths == [7, nil])
+        s.addExtra(made.id, image: pixel(), month: 4)
+        let now = Sightings(folder: p.url).all.first { $0.id == made.id }
+        #expect(now?.extraPhotos?.count == 3)
+        #expect(now?.extraMonths == [7, nil, 4])
+        #expect(now.flatMap(Sightings.extraMonthsAligned) == [7, nil, 4])
+        #expect(s.extraImagesWithMonths(now!).map(\.month) == [7, nil, 4])
+    }
+
     /// Twice is once. A second merge must not double the collection.
     @Test func adoptingTheSameTreeTwiceKeepsOneOfIt() {
         let p = Patch(); defer { p.clean() }

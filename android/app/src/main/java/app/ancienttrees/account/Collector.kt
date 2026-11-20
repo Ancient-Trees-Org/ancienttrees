@@ -37,6 +37,32 @@ object Collector {
     /** A photograph off the phone: its bytes, and what the file itself says. */
     data class Picked(val raw: ByteArray, val lat: Double?, val lng: Double?, val taken: Date?)
 
+    /** Sightings.photoDate / .fallbackDate: what a row's taken_at rests on (taken_basis). */
+    const val PHOTO_DATE = "photo"
+    const val FALLBACK_DATE = "fallback"
+
+    /**
+     * Sightings.dated: the date to file a new photograph under and what it rests on.
+     * The camera's moment and a file's own date are the photograph's; a library photo
+     * whose file says nothing gets the moment it was picked, marked as such (audit,
+     * 2026-11-20: a summer photo picked in November was filed under autumn).
+     */
+    data class Dated(val date: Date, val basis: String)
+
+    fun dated(taken: Date?, fromCamera: Boolean, now: Date = Date()): Dated =
+        if (taken != null) Dated(taken, PHOTO_DATE) else Dated(now, if (fromCamera) PHOTO_DATE else FALLBACK_DATE)
+
+    /** Sightings.month(of:): 1 to 12 in the phone's own calendar, null when unknown. */
+    fun month(date: Date?): Int? =
+        date?.let { java.util.Calendar.getInstance().apply { time = it }.get(java.util.Calendar.MONTH) + 1 }
+
+    /** The file's own EXIF date, null when it has none. */
+    fun takenIn(raw: ByteArray): Date? = runCatching {
+        ExifInterface(ByteArrayInputStream(raw)).getAttribute(ExifInterface.TAG_DATETIME_ORIGINAL)?.let {
+            SimpleDateFormat("yyyy:MM:dd HH:mm:ss", Locale.ROOT).parse(it)
+        }
+    }.getOrNull()
+
     /** A library file read with its own GPS and date, when the picker left them in. */
     suspend fun read(context: Context, uri: Uri): Picked? = withContext(Dispatchers.IO) {
         runCatching {
@@ -117,6 +143,10 @@ object Collector {
         extras: List<String> = emptyList(),
         age: String? = null,
         girthCm: Int? = null,
+        /** PHOTO_DATE or FALLBACK_DATE; see [dated]. */
+        takenBasis: String? = null,
+        /** The month of each of [extras], same order, null where unknown. */
+        extraMonths: List<Int?> = emptyList(),
     ): JSONObject =
         JSONObject()
             .put("user_id", userId)
@@ -139,6 +169,11 @@ object Collector {
                 if (age != null) put("age", age)
                 if (girthCm != null) put("girth_cm", girthCm)
                 if (extras.isNotEmpty()) put("extra_photos", JSONArray(extras))
+                // supabase/sighting-photo-dates.sql, as the iPhone sends them (2026-11-20).
+                if (takenBasis != null) put("taken_basis", takenBasis)
+                if (extras.isNotEmpty() && extraMonths.any { it != null }) {
+                    put("extra_photo_months", JSONArray(extras.indices.map { extraMonths.getOrNull(it) ?: JSONObject.NULL }))
+                }
             }
 
     /** Sightings.extraFile: the further photographs beside the first, private like the sign. */
@@ -192,6 +227,8 @@ object Collector {
         storedPath: String? = null,
         age: String? = null,
         girthCm: Int? = null,
+        takenBasis: String? = null,
+        extraMonths: List<Int?> = emptyList(),
     ): Boolean {
         val s = account.fresh() ?: return false
         // -signed-in's stand-in (Account.useStandIn): the iPhone keeps the row on the
@@ -204,17 +241,24 @@ object Collector {
             stored = path
             upload("shared-sightings", path, jpeg, s.accessToken)
         }
-        val extrasStored = extras.mapIndexedNotNull { i, data ->
+        // Each one that landed with its month, in step (2026-11-20).
+        val landed = extras.mapIndexedNotNull { i, data ->
             val path = extraPath(s.userId, id, i + 1)
-            path.takeIf { upload("sightings", it, data, s.accessToken) }
+            (path to extraMonths.getOrNull(i)).takeIf { upload("sightings", path, data, s.accessToken) }
         }
+        val extrasStored = landed.map { it.first }
         val full = row(s.userId, id, treeId, name, lat, lng, stored, taken = taken, status = status,
-            note = note, species = species, extras = extrasStored, age = age, girthCm = girthCm)
+            note = note, species = species, extras = extrasStored, age = age, girthCm = girthCm,
+            takenBasis = takenBasis, extraMonths = landed.map { it.second })
         val url = "/rest/v1/sightings?on_conflict=user_id,id"
         // Until supabase/sightings.sql's `client` column is live, a row carrying it is
         // refused; the photograph matters more than the label, so it goes again without.
         val ok = Supa.upsert(url, s.accessToken, JSONArray().put(full)) ||
             Supa.upsert(url, s.accessToken, JSONArray().put(full.apply { remove("client") })) ||
+            // Until supabase/sighting-photo-dates.sql is pasted: without the date's basis
+            // and the extras' months, every older field kept (SightingSync.push).
+            ((full.has("taken_basis") || full.has("extra_photo_months")) &&
+                Supa.upsert(url, s.accessToken, JSONArray().put(full.apply { remove("taken_basis"); remove("extra_photo_months") }))) ||
             (full.has("extra_photos") && Supa.upsert(url, s.accessToken, JSONArray().put(full.apply { remove("extra_photos") })))
         // A NEW sighting, not a row changed afterwards (Sightings.record and .commit). The
         // name, note and coordinates of somebody's own tree are deliberately not sent.
@@ -249,8 +293,11 @@ object Collector {
         lng: Double,
         extras: List<ByteArray> = emptyList(),
         taken: Date = Date(),
+        takenBasis: String? = null,
+        extraMonths: List<Int?> = emptyList(),
     ): Boolean {
-        if (!send(account, newId(), treeId, name, lat, lng, jpeg, extras, taken)) return false
+        if (!send(account, newId(), treeId, name, lat, lng, jpeg, extras, taken,
+                takenBasis = takenBasis, extraMonths = extraMonths)) return false
         return tick(account, treeId)
     }
 
@@ -262,7 +309,7 @@ object Collector {
     suspend fun saveDraft(account: Account, d: Draft, city: String?): Boolean {
         if (account.standIn) return true
         if (!send(account, d.id, null, d.name, d.lat, d.lng, d.jpeg, d.extras, d.taken, note = d.note, species = d.species,
-                age = d.age, girthCm = d.girthCm)) {
+                age = d.age, girthCm = d.girthCm, takenBasis = d.takenBasis, extraMonths = d.extraMonths)) {
             return false
         }
         val hint = String.format(Locale.ROOT, "%.5f, %.5f (%s)", d.lat, d.lng, d.fixNote)
@@ -270,7 +317,7 @@ object Collector {
         if (offered) {
             val uid = account.fresh()?.userId
             send(account, d.id, null, d.name, d.lat, d.lng, null, taken = d.taken, status = "sent", note = d.note,
-                species = d.species, age = d.age, girthCm = d.girthCm, storedPath = if (d.jpeg != null && uid != null) "$uid/${d.id}.jpg" else null)
+                species = d.species, age = d.age, girthCm = d.girthCm, takenBasis = d.takenBasis, storedPath = if (d.jpeg != null && uid != null) "$uid/${d.id}.jpg" else null)
         }
         return true
     }
@@ -290,5 +337,9 @@ object Collector {
         val species: String? = null,
         val age: String? = null,
         val girthCm: Int? = null,
+        /** What [taken] rests on: PHOTO_DATE or FALLBACK_DATE (Sighting.dateBasis). */
+        val takenBasis: String? = null,
+        /** The month of each of [extras], same order, null where unknown. */
+        val extraMonths: List<Int?> = emptyList(),
     )
 }

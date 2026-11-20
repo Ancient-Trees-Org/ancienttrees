@@ -296,8 +296,12 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         if (uris.isEmpty() || t == null) return@rememberGalleryPick
         scope.launch {
             val p = Collector.read(context, uris.first()) ?: return@launch
-            val more = uris.drop(1).mapNotNull { Collector.read(context, it)?.raw?.let { r -> Collector.downsized(r) } }
-            collectStart = app.ancienttrees.ui.CollectStart(about = t.name, knownTree = t.id, pickedIn = p, pickedMore = more)
+            // Each further one with the month its own file says (2026-11-20).
+            val more = uris.drop(1).mapNotNull { u ->
+                Collector.read(context, u)?.let { m -> Collector.downsized(m.raw)?.let { it to Collector.month(m.taken) } }
+            }
+            collectStart = app.ancienttrees.ui.CollectStart(about = t.name, knownTree = t.id, pickedIn = p,
+                pickedMore = more.map { it.first }, pickedMoreMonths = more.map { it.second })
         }
     }
     // READ AT THE TAP, not captured: the tab bar is remembered movable content, so

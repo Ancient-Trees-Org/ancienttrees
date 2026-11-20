@@ -49,6 +49,8 @@ data class OwnSighting(
     /** mine, sent, checking, published, declined. */
     val status: String = "mine",
     val extras: List<String> = emptyList(),
+    /** extra_photo_months: the month of each of [extras], null where unknown. */
+    val extraMonths: List<Int?> = emptyList(),
     val sign: String? = null,
     /** "It is one of these": belongs to no tree yet, so not one of your own finds. */
     val unsure: Boolean = false,
@@ -271,7 +273,7 @@ class MyTrees(private val account: Account) {
      * A further photograph on your own tree (morePhotosRow): to the private bucket
      * beside the first, then the row's extra_photos, as SightingSync.push sends it.
      */
-    suspend fun addExtra(id: String, jpeg: ByteArray): Boolean {
+    suspend fun addExtra(id: String, jpeg: ByteArray, month: Int? = null): Boolean {
         val was = byId(id) ?: return false
         if (was.extras.size >= MAX_EXTRAS || demoSeeded) return false
         val s = account.fresh() ?: return false
@@ -279,14 +281,21 @@ class MyTrees(private val account: Account) {
         val up = upload(path, jpeg, s.accessToken)
         if (!up) return false
         val extras = was.extras + path
-        val ok = Supa.send(
+        // The month of each, in step with the files (2026-11-20, Sightings.addExtra).
+        val months = was.extras.indices.map { was.extraMonths.getOrNull(it) } + month
+        suspend fun patch(withMonths: Boolean) = Supa.send(
             "/rest/v1/sightings?user_id=eq.${s.userId}&id=eq.${enc(was.id)}",
             method = "PATCH",
             token = s.accessToken,
-            body = JSONObject().put("extra_photos", JSONArray(extras)).put("updated_at", Collector.iso()).toString(),
+            body = JSONObject().put("extra_photos", JSONArray(extras)).put("updated_at", Collector.iso()).apply {
+                if (withMonths) put("extra_photo_months", JSONArray(months.map { it ?: JSONObject.NULL }))
+            }.toString(),
             prefer = "return=minimal",
         ).ok
-        if (ok) replace(was.copy(extras = extras))
+        // Without the months until supabase/sighting-photo-dates.sql is pasted.
+        val hasMonth = months.any { it != null }
+        val ok = (hasMonth && patch(true)) || patch(false)
+        if (ok) replace(was.copy(extras = extras, extraMonths = months))
         return ok
     }
 
@@ -359,6 +368,9 @@ class MyTrees(private val account: Account) {
             photo = o.str("photo"),
             status = o.str("status") ?: "mine",
             extras = o.optJSONArray("extra_photos")?.let { a -> (0 until a.length()).mapNotNull { a.optString(it).ifEmpty { null } } }.orEmpty(),
+            extraMonths = o.optJSONArray("extra_photo_months")?.let { a ->
+                (0 until a.length()).map { if (a.isNull(it)) null else a.optInt(it).takeIf { m -> m in 1..12 } }
+            }.orEmpty(),
             sign = o.str("sign_photo"),
             unsure = unsure,
         )

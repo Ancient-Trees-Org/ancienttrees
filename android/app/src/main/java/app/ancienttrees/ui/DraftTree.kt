@@ -134,6 +134,7 @@ fun DraftTree(
     var species by remember { mutableStateOf("") }
     var story by remember { mutableStateOf("") }
     var extras by remember { mutableStateOf(draft.extras) }
+    var extraMonths by remember { mutableStateOf(draft.extras.indices.map { draft.extraMonths.getOrNull(it) }) }
     var editing by remember { mutableStateOf<Field?>(null) }
     var choosingSpecies by remember { mutableStateOf(false) }
     var confirmingDiscard by remember { mutableStateOf(false) }
@@ -168,7 +169,7 @@ fun DraftTree(
 
     fun save() {
         val d = draft.copy(name = name, note = story, species = species.ifEmpty { null }, age = age.ifEmpty { null },
-            girthCm = girth, extras = extras)
+            girthCm = girth, extras = extras, extraMonths = extraMonths)
         if (account == null || mine == null) {
             onSave(d, city)
             return
@@ -191,10 +192,15 @@ fun DraftTree(
     // A FURTHER PHOTOGRAPH (morePhotosRow): camera or your photos, kept with the draft.
     val shotFile = remember { java.io.File(context.cacheDir, "photos").apply { mkdirs() }.let { java.io.File(it, "draft-extra.jpg") } }
     val shotUri = remember { FileProvider.getUriForFile(context, context.packageName + ".photos", shotFile) }
-    fun addExtra(raw: ByteArray?) {
+    // Each with the month its file says, the camera's being now (2026-11-20).
+    fun addExtra(raw: ByteArray?, fromCamera: Boolean = false) {
         scope.launch {
             val jpeg = raw?.let { Collector.downsized(it) } ?: return@launch
-            if (extras.size < Collector.MAX_EXTRAS) extras = extras + jpeg
+            val month = Collector.month(Collector.takenIn(raw) ?: if (fromCamera) java.util.Date() else null)
+            if (extras.size < Collector.MAX_EXTRAS) {
+                extras = extras + jpeg
+                extraMonths = extraMonths + month
+            }
         }
     }
     val extraCamera = rememberLauncherForActivityResult(ActivityResultContracts.TakePicture()) { ok ->
@@ -203,7 +209,7 @@ fun DraftTree(
         shotFile.delete()
         // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
         raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
-        addExtra(raw)
+        addExtra(raw, fromCamera = true)
     }
     val room = (Collector.MAX_EXTRAS - extras.size).coerceAtLeast(1)
     val extraLibrary = rememberGalleryPick(maxOf(2, Collector.MAX_EXTRAS)) { uris ->
@@ -374,7 +380,8 @@ fun DraftTree(
                 scope.launch {
                     val jpeg = draft.jpeg
                     val ok = if (jpeg != null) {
-                        Collector.collect(account, t.id, t.name, jpeg, draft.lat, draft.lng, extras, draft.taken)
+                        Collector.collect(account, t.id, t.name, jpeg, draft.lat, draft.lng, extras, draft.taken,
+                            draft.takenBasis, extraMonths)
                     } else {
                         Collector.tick(account, t.id)
                     }

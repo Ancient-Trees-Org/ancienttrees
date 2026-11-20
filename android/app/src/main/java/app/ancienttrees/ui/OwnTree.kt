@@ -480,10 +480,12 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
     var menu by remember { mutableStateOf(false) }
     val shot = remember { java.io.File(context.cacheDir, "photos").apply { mkdirs() }.let { java.io.File(it, "extra.jpg") } }
     val shotUri = remember { FileProvider.getUriForFile(context, context.packageName + ".photos", shot) }
-    fun add(bytes: ByteArray?) {
+    // Each with the month its file says, the camera's being now (2026-11-20).
+    fun add(bytes: ByteArray?, fromCamera: Boolean = false) {
         scope.launch {
             val jpeg = bytes?.let { Collector.downsized(it) } ?: return@launch
-            mine.addExtra(s.id, jpeg)
+            val month = Collector.month(Collector.takenIn(bytes) ?: if (fromCamera) java.util.Date() else null)
+            mine.addExtra(s.id, jpeg, month)
         }
     }
     val camera = rememberLauncherForActivityResult(ActivityResultContracts.TakePicture()) { ok ->
@@ -492,7 +494,7 @@ private fun MorePhotos(s: OwnSighting, mine: MyTrees) {
         shot.delete()
         // Every camera photograph also in the gallery (CameraPicker.swift: CameraRoll.keep).
         raw?.let { r -> kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { app.ancienttrees.account.CameraRoll.keep(context, r) } }
-        add(raw)
+        add(raw, fromCamera = true)
     }
     val room = (MyTrees.MAX_EXTRAS - s.extras.size).coerceAtLeast(1)
     val library = rememberGalleryPick(maxOf(2, room)) { uris ->

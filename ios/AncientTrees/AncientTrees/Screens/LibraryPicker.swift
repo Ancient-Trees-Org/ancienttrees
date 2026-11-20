@@ -54,6 +54,11 @@ struct LibraryPicker: UIViewControllerRepresentable {
         var taken: Date?
         /// Further photographs chosen with this one, in the order chosen.
         var extras: [UIImage] = []
+        /// When each of them was taken, in the same order, nil where its file
+        /// does not say (2026-11-20: an extra carried no date of its own).
+        var extraDates: [Date?] = []
+        /// The month each extra was taken, for `Sightings.record`.
+        var extraMonths: [Int?] { extraDates.map(Sightings.month(of:)) }
     }
 
     /// How many may be chosen at once. One for the sign, several for a tree.
@@ -124,10 +129,15 @@ struct LibraryPicker: UIViewControllerRepresentable {
                 // a large file, and running four at once is the memory spike
                 // this file exists to avoid.
                 var more: [UIImage] = []
+                var dates: [Date?] = []
                 for r in rest {
-                    if let img = await Self.read(r)?.image { more.append(img) }
+                    if let p = await Self.read(r) {
+                        more.append(p.image)
+                        dates.append(p.taken)
+                    }
                 }
                 picked?.extras = more
+                picked?.extraDates = dates
                 await MainActor.run {
                     parent.onPicked(picked)
                     parent.dismiss()

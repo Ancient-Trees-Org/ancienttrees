@@ -143,6 +143,16 @@ struct CollectSheet: View {
     /// Further photographs chosen together with the first one, at most
     /// `Sightings.maxExtras`. The first stays the tree's picture.
     @State private var extras: [UIImage] = []
+    /// The month each of `extras` was taken, same order, nil where unknown.
+    @State private var extraMonths: [Int?] = []
+    /// Whether the photograph came off the library rather than the camera:
+    /// a library photo whose file has no date gets the moment it was picked,
+    /// and the row says so (`Sightings.dated`, 2026-11-20).
+    @State private var fromLibrary = false
+    /// The date to file the photograph under and what it rests on.
+    private var dated: (date: Date, basis: String) {
+        Sightings.dated(taken: taken, fromCamera: !fromLibrary)
+    }
     /// Whether the tick that led to the last screen was a NEW one (2026-10-12,
     /// Hidde: adding more photos to a tree already collected "shouldnt say you
     /// found"). True by default so every other way into .ticked is unchanged.
@@ -604,6 +614,7 @@ struct CollectSheet: View {
     private func resolve(_ image: UIImage?) {
         guard let image else { return }
         taken = nil
+        fromLibrary = false
         switch Self.route(cameraShot: true,
                           locationKnown: location.known,
                           photoHasCoordinate: false) {
@@ -626,7 +637,9 @@ struct CollectSheet: View {
         guard let p else { return }
         shot = p.image
         extras = p.extras
+        extraMonths = p.extraMonths
         taken = p.taken
+        fromLibrary = true
         // From the tree's own page a missing coordinate is no reason to ask
         // where it stands: the person told us which tree it is.
         if p.coordinate == nil, let t = known {
@@ -800,8 +813,10 @@ struct CollectSheet: View {
         // these on a map either, since only sightings WITHOUT a tree id are
         // drawn (Collect.swift, `yoursOnly`).
         sightings.record(treeId: t.id, name: t.name, lat: here.lat, lng: here.lng,
-                         image: image, date: taken ?? Date(), extras: extras)
+                         image: image, date: dated.date, extras: extras,
+                         extraMonths: extraMonths, dateBasis: dated.basis)
         extras = []
+        extraMonths = []
         withAnimation(.snappy) { stage = .ticked(t.id) }
         // "You found \(t.name)" below is the payoff moment; see
         // ReviewPrompt.swift and CONVENTIONS.md for why the native ask may
@@ -1058,9 +1073,11 @@ struct CollectSheet: View {
         let s = sightings.record(treeId: nil,
                                  name: picks.first?.name ?? "A tree I could not place",
                                  lat: here.lat, lng: here.lng, image: shot,
-                                 date: taken ?? Date(),
-                                 unsureOf: picks.map(\.id), extras: extras)
+                                 date: dated.date,
+                                 unsureOf: picks.map(\.id), extras: extras,
+                                 extraMonths: extraMonths, dateBasis: dated.basis)
         extras = []
+        extraMonths = []
         shot = nil
         withAnimation(.snappy) { stage = .unsure }
         Task { await reportUnsure(sighting: s.id, among: picks, at: here) }
@@ -1262,8 +1279,14 @@ struct CollectSheet: View {
 
     /// The photograph joins the tree you already added, and its page opens.
     private func addToYours(_ s: Sightings.Sighting) {
-        for img in ([shot].compactMap { $0 } + extras) { sightings.addExtra(s.id, image: img) }
+        // Each with its month: the shot's own when the date is the photo's,
+        // then the extras' (2026-11-20).
+        let shotMonth = dated.basis == Sightings.photoDate ? Sightings.month(of: dated.date) : nil
+        let added: [(UIImage, Int?)] = (shot.map { [($0, shotMonth)] } ?? [])
+            + extras.enumerated().map { n, img in (img, n < extraMonths.count ? extraMonths[n] : nil) }
+        for (img, month) in added { sightings.addExtra(s.id, image: img, month: month) }
         extras = []
+        extraMonths = []
         shot = nil
         dismiss()
         navigator.push = .mine(s.id)
@@ -1458,9 +1481,11 @@ struct CollectSheet: View {
         let s = sightings.record(treeId: nil,
                                  name: Sightings.fallbackName(species: nil, place: place),
                                  lat: here.lat, lng: here.lng, image: shot,
-                                 date: taken ?? Date(), place: place,
-                                 draft: true, fixNote: fix.note, extras: extras)
+                                 date: dated.date, place: place,
+                                 draft: true, fixNote: fix.note, extras: extras,
+                                 extraMonths: extraMonths, dateBasis: dated.basis)
         extras = []
+        extraMonths = []
         shot = nil
         // STRAIGHT TO THE TREE'S OWN PAGE, as a draft with Save at the foot
         // (Hidde, 2026-09-26: the form in front of it "asks the same info").

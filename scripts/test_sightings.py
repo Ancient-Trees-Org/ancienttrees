@@ -252,6 +252,17 @@ class TestPhotoDate(unittest.TestCase):
         row = {"taken_at": "2026-11-20T09:00:00+00:00", "from_tip": True, "photo_month": 6}
         self.assertEqual(inbox.taken_month(row), 6)
 
+    def test_an_app_fallback_date_is_not_the_photos(self):
+        # A library photo without a date, picked in November: the app says
+        # the date is the moment it was picked (Hidde, 2026-11-20).
+        row = {"taken_at": "2026-11-20T09:00:00+00:00", "taken_basis": "fallback", "note": "x"}
+        self.assertIsNone(inbox.photo_taken_at(row))
+        self.assertIsNone(inbox.taken_month(row))
+
+    def test_an_app_photo_date_is_kept(self):
+        row = {"taken_at": "2025-07-14T16:02:11+00:00", "taken_basis": "photo", "note": "x"}
+        self.assertEqual(inbox.taken_month(row), 7)
+
 
 if __name__ == "__main__":
     unittest.main()

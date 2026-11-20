@@ -424,13 +424,19 @@ struct TreeDetail: View {
         }
         .fullScreenCover(isPresented: $extraCamera) {
             CameraPicker { image in
-                if let image, let m = live { sightings.addExtra(m.id, image: image) }
+                if let image, let m = live {
+                    sightings.addExtra(m.id, image: image, month: Sightings.month(of: Date()))
+                }
             }.ignoresSafeArea()
         }
         .fullScreenCover(isPresented: $extraLibrary) {
             LibraryPicker(limit: max(1, Sightings.maxExtras - (live.map { sightings.extraImages($0).count } ?? 0))) { p in
                 guard let p, let m = live else { return }
-                for img in [p.image] + p.extras { sightings.addExtra(m.id, image: img) }
+                // Each with the month its file says, nil when it does not.
+                let months = [Sightings.month(of: p.taken)] + p.extraMonths
+                for (n, img) in ([p.image] + p.extras).enumerated() {
+                    sightings.addExtra(m.id, image: img, month: n < months.count ? months[n] : nil)
+                }
             }.ignoresSafeArea()
         }
         .toolbar {

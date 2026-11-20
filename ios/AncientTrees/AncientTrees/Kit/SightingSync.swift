@@ -89,6 +89,7 @@ enum SightingSync {
             // know.
             made.syncedAt = Date()
             made.girthHugs = row["girth_hugs"] as? String
+            made.dateBasis = row["taken_basis"] as? String
             if let st = row["status"] as? String,
                let k = Sightings.Status(rawValue: st) { made.status = k }
             made.shared = row["shared"] as? Bool
@@ -111,12 +112,18 @@ enum SightingSync {
             }
             // And the further photographs, only when this phone has none.
             var extras: [UIImage] = []
+            var extraMonths: [Int?] = []
+            let rowMonths = (row["extra_photo_months"] as? [Any]) ?? []
             if (known?.extraPhotos ?? []).isEmpty, let files = row["extra_photos"] as? [String] {
-                for file in files.prefix(Sightings.maxExtras) {
+                for (n, file) in files.prefix(Sightings.maxExtras).enumerated() {
                     if let data = await download(file, token: s.accessToken),
-                       let img = UIImage(data: data) { extras.append(img) }
+                       let img = UIImage(data: data) {
+                        extras.append(img)
+                        extraMonths.append(n < rowMonths.count ? rowMonths[n] as? Int : nil)
+                    }
                 }
             }
+            if extraMonths.contains(where: { $0 != nil }) { made.extraMonths = extraMonths }
             if known == nil {
                 sightings.adopt(made, image: picture, sign: sign, extras: extras)
             } else {
@@ -240,11 +247,16 @@ enum SightingSync {
         // THE FURTHER PHOTOGRAPHS, private like the sign, for the same reason:
         // evidence for whoever checks the tree, never its picture.
         var extrasStored: [String] = []
-        let extraImages = sightings.extraImages(sighting)
-        for (n, img) in extraImages.enumerated() {
-            guard let data = Sightings.downsized(img) else { continue }
+        // The month of each one that landed, in the same order (2026-11-20).
+        var extraMonths: [Int?] = []
+        let extraImages = sightings.extraImagesWithMonths(sighting)
+        for (n, extra) in extraImages.enumerated() {
+            guard let data = Sightings.downsized(extra.image) else { continue }
             let path = "\(s.userId)/\(Sightings.extraFile(sighting.id, n + 1))"
-            if await upload(path, data: data, token: s.accessToken) { extrasStored.append(path) }
+            if await upload(path, data: data, token: s.accessToken) {
+                extrasStored.append(path)
+                extraMonths.append(extra.month)
+            }
         }
 
         var row: [String: Any] = [
@@ -276,6 +288,14 @@ enum SightingSync {
         // Only when there is one, for the same reason as girth_hugs above.
         if let signStored { row["sign_photo"] = signStored }
         if !extrasStored.isEmpty { row["extra_photos"] = extrasStored }
+        // WHAT THE DATE RESTS ON and each extra's month (2026-11-20,
+        // supabase/sighting-photo-dates.sql): "fallback" tells the inbox that
+        // taken_at is the moment a library photo without a date was picked,
+        // so it is never filed as the photograph's season. Only when known.
+        if let basis = sighting.dateBasis { row["taken_basis"] = basis }
+        if !extrasStored.isEmpty, extraMonths.contains(where: { $0 != nil }) {
+            row["extra_photo_months"] = extraMonths.map { $0 as Any? ?? NSNull() }
+        }
         // Explicit, like every other field here, rather than left to the
         // column's own default: the LOCAL value is the one somebody may have
         // just changed by tapping "Stop sharing the link", and omitting the
@@ -299,6 +319,14 @@ enum SightingSync {
         //
         // `sign_photo` (2026-09-24) takes the same retry for the same reason:
         // the sign is the least valuable thing in the row, never worth the tree.
+        // The date's basis and the extras' months (2026-11-20) go first and
+        // alone, so a database without them yet keeps every older field.
+        if !landed, row["taken_basis"] != nil || row["extra_photo_months"] != nil {
+            row["taken_basis"] = nil
+            row["extra_photo_months"] = nil
+            landed = await Supa.post("/rest/v1/sightings?on_conflict=user_id,id",
+                                     token: s.accessToken, body: [row])
+        }
         if !landed, row["girth_hugs"] != nil || row["sign_photo"] != nil
                         || row["extra_photos"] != nil {
             row["girth_hugs"] = nil

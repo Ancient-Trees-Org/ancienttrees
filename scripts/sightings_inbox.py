@@ -103,6 +103,11 @@ def photo_taken_at(row):
         return None
     if "page on the website" in note and "photograph’s own date" not in note:
         return None
+    # The apps say which since build 42 / Android 5 (Hidde, 2026-11-20):
+    # 'fallback' is the moment a library photo without a date was picked,
+    # no evidence of the season. Null is an older row, read as before.
+    if row.get("taken_basis") == "fallback":
+        return None
     return when
 
 
@@ -773,12 +778,14 @@ def main():
     # sign_photo (2026-09-24) takes the same path: optional, dropped if absent.
     select_cols = ["user_id", "id", "tree_id", "name", "note", "species", "age",
                    "girth_cm", "girth_hugs", "lat", "lng", "taken_at", "status",
-                   "photo", "sign_photo", "extra_photos", "shared", "updated_at"]
+                   "photo", "sign_photo", "extra_photos", "shared", "updated_at",
+                   "taken_basis", "extra_photo_months"]
     query = ("/rest/v1/sightings?select=%s"
              "&photo=not.is.null&shared=eq.true&order=updated_at.asc")
     try:
         rows = read_optional(query, select_cols,
-                             ["girth_hugs", "sign_photo", "extra_photos"], "sightings")
+                             ["girth_hugs", "sign_photo", "extra_photos",
+                              "taken_basis", "extra_photo_months"], "sightings")
     except urllib.error.HTTPError as e:
         print(f"sightings inbox: could not read sightings (HTTPError: {str(e)[:80]})")
         return 0
@@ -938,7 +945,8 @@ def main():
                     "sign_file": fetch_sign(row),
                     "extra_files": fetch_extras(row),
                     # Month per extra file, same order (a tip's form reads them
-                    # from each file since 2026-11-20); None when unknown.
+                    # from each file since 2026-11-20, the apps send the same
+                    # array on the sightings row); None when unknown.
                     "extra_months": row.get("extra_photo_months"),
                     "nearest_published_m": dist,
                     # HAS ANYBODY OFFICIAL ALREADY SAID THIS IS REMARKABLE

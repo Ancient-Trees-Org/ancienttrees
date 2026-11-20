@@ -120,6 +120,8 @@ data class CollectStart(
     val pickedIn: Collector.Picked? = null,
     /** Further photographs chosen with [pickedIn], already downsized. */
     val pickedMore: List<ByteArray> = emptyList(),
+    /** The month each of [pickedMore] was taken, same order, null where unknown. */
+    val pickedMoreMonths: List<Int?> = emptyList(),
 )
 
 /** The sweep's launch arguments for the flow (ios Kit/Launch.swift). */
@@ -202,6 +204,12 @@ fun CollectSheet(
     var placing by remember { mutableStateOf<Here?>(null) }
     var shot by remember { mutableStateOf<ByteArray?>(null) }
     var extras by remember { mutableStateOf<List<ByteArray>>(emptyList()) }
+    // The month of each of extras, and whether the photo came off the library: a
+    // library photo without a date is filed at the moment it was picked, marked as
+    // such (Collector.dated, 2026-11-20).
+    var extraMonths by remember { mutableStateOf<List<Int?>>(emptyList()) }
+    var fromLibrary by remember { mutableStateOf(false) }
+    fun dated() = Collector.dated(taken, fromCamera = !fromLibrary)
     var newFind by remember { mutableStateOf(true) }
     var at by remember { mutableStateOf<Here?>(null) }
     var confirmingDiscard by remember { mutableStateOf(false) }
@@ -230,10 +238,12 @@ fun CollectSheet(
         val isNew = t.id !in host.collected
         newFind = isNew
         val more = extras
-        val when_ = taken ?: Date()
+        val months = extraMonths
+        val d = dated()
         extras = emptyList()
+        extraMonths = emptyList()
         host.ticked(t.id)
-        host.send { Collector.collect(host.account, t.id, t.name, image, h.lat, h.lng, more, when_) }
+        host.send { Collector.collect(host.account, t.id, t.name, image, h.lat, h.lng, more, d.date, d.basis, months) }
         stage = Stage.Ticked(t.id)
     }
 
@@ -258,10 +268,12 @@ fun CollectSheet(
         host.openDraft(
             Collector.Draft(
                 id = Collector.newId(), name = name, lat = h.lat, lng = h.lng, jpeg = shot, extras = extras,
-                taken = taken ?: Date(), fixNote = fix.note, place = place,
+                taken = dated().date, fixNote = fix.note, place = place,
+                takenBasis = dated().basis, extraMonths = extraMonths,
             ),
         )
         extras = emptyList()
+        extraMonths = emptyList()
         shot = null
         onDismiss()
     }
@@ -283,13 +295,18 @@ fun CollectSheet(
     // The photograph joins the tree you already added, and its page opens.
     fun addToYours(s: OwnSighting) {
         val store = host.mine ?: return
-        val images = listOfNotNull(shot) + extras
+        // Each with its month: the shot's when its date is the photo's, then the extras'.
+        val d = dated()
+        val shotMonth = if (d.basis == Collector.PHOTO_DATE) Collector.month(d.date) else null
+        val images = listOfNotNull(shot?.let { it to shotMonth }) +
+            extras.mapIndexed { i, e -> e to extraMonths.getOrNull(i) }
         host.send {
             var ok = true
-            for (img in images) ok = store.addExtra(s.id, img) && ok
+            for ((img, month) in images) ok = store.addExtra(s.id, img, month) && ok
             ok
         }
         extras = emptyList()
+        extraMonths = emptyList()
         shot = null
         onDismiss()
         host.openMine(s.id)
@@ -298,6 +315,7 @@ fun CollectSheet(
     // THE CAMERA PATH: standing there is the fix, unless the phone has none.
     fun resolve(image: ByteArray) {
         taken = null
+        fromLibrary = false
         when (val r = CollectRules.route(cameraShot = true, locationKnown = located, photoHasCoordinate = false)) {
             is CollectRules.Route.Settle -> settle(image, origin, r.fix)
             CollectRules.Route.AskForThePin -> {
@@ -313,10 +331,12 @@ fun CollectSheet(
     }
 
     // THE CAMERA ROLL PATH: the photograph's own coordinate, or we ask.
-    fun picked(first: ByteArray, p: Collector.Picked, more: List<ByteArray>) {
+    fun picked(first: ByteArray, p: Collector.Picked, more: List<ByteArray>, moreMonths: List<Int?> = emptyList()) {
         shot = first
         extras = more
+        extraMonths = moreMonths
         taken = p.taken
+        fromLibrary = true
         val lat = p.lat
         val lng = p.lng
         if ((lat == null || lng == null) && known != null) {
@@ -355,9 +375,10 @@ fun CollectSheet(
             val all = uris.mapNotNull { Collector.read(context, it) }
             val first = all.firstOrNull()
             val firstJpeg = first?.let { Collector.downsized(it.raw) }
-            val more = all.drop(1).mapNotNull { Collector.downsized(it.raw) }
+            // Each further one with the month its own file says (2026-11-20).
+            val rest = all.drop(1).mapNotNull { p -> Collector.downsized(p.raw)?.let { it to Collector.month(p.taken) } }
             reading = false
-            if (first != null && firstJpeg != null) picked(firstJpeg, first, more)
+            if (first != null && firstJpeg != null) picked(firstJpeg, first, rest.map { it.first }, rest.map { it.second })
         }
     }
 
@@ -388,13 +409,15 @@ fun CollectSheet(
         val picks = candidates
         val image = shot
         val more = extras
+        val months = extraMonths
         val id = Collector.newId()
         val name = picks.firstOrNull()?.name ?: context.getString(R.string.cf_unplaced)
-        val when_ = taken ?: Date()
+        val d = dated()
         val note = fix.note
         val city = CollectRules.nearestTree(h.lat, h.lng, trees)?.first?.city.orEmpty()
         host.send {
-            val ok = Collector.send(host.account, id, null, name, h.lat, h.lng, image, more, when_)
+            val ok = Collector.send(host.account, id, null, name, h.lat, h.lng, image, more, d.date,
+                takenBasis = d.basis, extraMonths = months)
             Submission.correction(
                 city, id, String.format(Locale.ROOT, "%.5f, %.5f (%s)", h.lat, h.lng, note),
                 "could not tell which tree: " + picks.joinToString("; ") { "${it.name} (${it.id})" },
@@ -403,6 +426,7 @@ fun CollectSheet(
             ok
         }
         extras = emptyList()
+        extraMonths = emptyList()
         shot = null
         stage = Stage.Unsure
     }
@@ -438,7 +462,7 @@ fun CollectSheet(
             launch.identify -> { at = origin; shot = stand; stage = Stage.Identify }
             launch.place -> { placing = origin; stage = Stage.Place }
             start.shotIn != null -> resolve(start.shotIn)
-            start.pickedIn != null -> Collector.downsized(start.pickedIn.raw)?.let { picked(it, start.pickedIn, start.pickedMore) }
+            start.pickedIn != null -> Collector.downsized(start.pickedIn.raw)?.let { picked(it, start.pickedIn, start.pickedMore, start.pickedMoreMonths) }
         }
     }
 

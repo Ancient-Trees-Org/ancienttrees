@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: the apps say whether a photo's date is its own, send each extra photo's month, and iOS edits sync at once
+
+- **What changes for readers' trees**: a library photograph whose file has no date (a screenshot, anything forwarded through a messenger) was filed at the moment it was picked, unmarked, so a summer photo picked in November went on the page under autumn. Both apps now send `taken_basis` on the sightings row: `photo` (camera moment, library creation date or EXIF) or `fallback` (the moment it was picked). `sightings_inbox.photo_taken_at()` skips a fallback, so such a photo gets no season instead of a wrong one (tests in scripts/test_sightings.py). Extra photographs now carry their own month (`extra_photo_months`, in the order of `extra_photos`), read into the lead's `extra_months` like the tip form's: iOS LibraryPicker, CollectSheet and the tree page's add-photo; Android CollectSheet, DraftTree, OwnTree and MyTrees.addExtra, the camera's month being now.
+- **iOS edits reach the account at once**: `Sightings.update` (species, age, girth, name, story, status) now calls `syncOne` like every other change, never for a draft. Before, an edit waited for the next full sync. Android already did this.
+- **FOR HIDDE, one paste**: supabase/sighting-photo-dates.sql (two columns on `sightings`; metadata about the date already stored, and a month per extra photo, nothing new about a person). Until it is pasted both apps retry without the two keys and keep every older field, and the inbox reads them as optional. The privacy page's sightings sentence names both (privacycheck green).
+- **The next builds carry it**: iPhone build 42 and Android 5. Tested: iOS RecordingATreeOfYourOwn (three new tests) and SyncOnlyChangedTests in the simulator; Android full unit suite (CollectorTest, three new); test_sightings.py 27 OK. Not tested live: a real upload with the column pasted. Nothing archived, uploaded or submitted.
+
 ## 2026-11-20 session: sign-in mail limit raised to 150 an hour; one last link for the Guardian-day sign-ups
 
 - **Live (Hidde: "doe beide maar")**: Supabase's `rate_limit_email_sent` went from 30 to 150 sign-in and welcome mails an hour, project-wide, through the Management API. The Guardian morning peaked at 25 email sign-ups an hour plus sign-in links, so a press day could hit "rate limit exceeded". Gmail's roughly 500 a day is the next ceiling.
