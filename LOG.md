@@ -29,6 +29,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: clear dots on the iPhone and Android too
+
+- **What changes in the apps**: a dot no longer sits half under a pin on either phone; a tree whose dot would touch a pin or another dot waits for a zoom, as on the website (Airbnb's mini-pins). TreeMap.swift and TreeMapView.kt draw the dots as symbol layers that may not overlap, under the pins. Seen in Baarn on the iPhone 17 Pro simulator and the Android emulator; Android's unit tests pass; iOS CI runs on the push. qa now holds Android's pin to PIN_SPEC too. **For Hidde: the next iPhone and Android builds carry it.** Open in data/map-parity.json: a second dot seen once on Android with `-select`, cause not yet known.
+
 ## 2026-11-20 session: a map change crosses every platform, or says why not
 
 - **The rule, now a check** (Hidde: "wees zelf kritisch als we dingen in een kaart aanpakken moeten we altijd over platformen heen denken"): scripts/mapparity.py in the pre-push hook refuses a push that changes a website map without the phones' map (or the reverse) unless data/map-parity.json is updated: what each platform does, and the open debt or why it is one-sided. Verified both ways. **Open in the ledger now**: the phones still draw dots under pins (iOS and Android both use a plain circle layer), and Android's pin is not yet held to PIN_SPEC.
