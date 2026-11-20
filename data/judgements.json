@@ -577,6 +577,28 @@
    "agreed": null
   },
   {
+   "id": "sight:5df3b5ab-3be0-4590-82f9-5f6e1ffd7246",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "Tyler Arboretum Painter Ginkgo",
+   "city": "Media",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/5df3b5ab-3be0-4590-82f9-5f6e1ffd7246.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 754,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the Painter ginkgo in full yellow autumn leaf, many-stemmed trunk with the split-rail fence and lightning cable the recognition line names; now the lead photograph of mdp_002 and its GPS fix the pin",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",

@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: Tyler ginkgo gets its photo and pin, the Tyler cedar is gone
+
+- **Live**: a reader's photograph of the Tyler Arboretum Painter Ginkgo (Media, mdp_002), the trunk in full yellow leaf with the fence and lightning cable the recognition line names, is now the page's lead (it had none), filed under November. Its GPS fix became the pin (confirmed), 754 m from our arboretum centroid, so moved by hand past move_pin's 300 m limit; the same reader's hand-moved pin (report 1000101) lands 17 m from it. Pin thank-you sent.
+- **Retired**: the Painter Cedar of Lebanon (mdp_003). Two reports today ("dead or gone", then "Stump"), and Tyler's own page "Remembrance for the Cedar of Lebanon" (tylerarboretum.org/?p=22350) says it was taken down after cuttings in December 2020. Dead thank-you on 1000100; 1000102 carries a word of their own, closed `holds` with no mail. Media now has two trees: intro, meta, question_meta and question_context rewritten to match (the place keeps its page at two).
+- **Not judged**: every waiting lead in _sightings.json (38) is our own account's (`mine`), none on disk; 3c544597 (Amsterdam, mine) still has no file. No feedback, tips or reader words open.
+
 ## 2026-11-20 night run (second attempt, same window): nothing shipped
 
 Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished verified (Birmingham, Taiwan), under the six a write pass needs. Fort Worth claimed and released at once: 0 unmined candidates, now a 48h wall. Porto, Munich and Portland refused as full against target. scout_next says BUILD, nothing to scout; translations paused by TRANSLATIONS_OUT. The one reader photograph with no verdict (3c544597, 52.3972 4.8739) is not on disk here, so it stays open rather than judged blind: the session with the key should look. Next: refill needs a new source (iNaturalist or a reader), not another staged city.

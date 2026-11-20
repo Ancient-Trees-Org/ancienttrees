@@ -655,6 +655,15 @@
      "city_slug": "chadds-ford",
      "display_name": null,
      "live": "2026-11-19"
+    },
+    {
+     "sighting_id": "5df3b5ab-3be0-4590-82f9-5f6e1ffd7246",
+     "tree_id": "mdp_002",
+     "tree_name": "Tyler Arboretum Painter Ginkgo",
+     "city": "Media",
+     "city_slug": "media-pennsylvania",
+     "display_name": null,
+     "live": "2026-11-20"
     }
    ],
    "sent": [

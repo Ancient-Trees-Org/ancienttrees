@@ -1,0 +1,43 @@
+{
+ "leads": [
+  {
+   "id": "mdp_003",
+   "name": "Tyler Arboretum Painter Cedar of Lebanon",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "age_estimate": "roughly 160 to 185 years",
+   "age_min": 155,
+   "age_max": 190,
+   "location": {
+    "address": "Tyler Arboretum, 515 Painter Road, Media, PA 19063",
+    "latitude": 39.9347,
+    "longitude": -75.4311,
+    "neighbourhood": "Media, Delaware County"
+   },
+   "story": "Pennsylvania's champion Cedar of Lebanon is in decline, and Tyler Arboretum says so plainly. It may not be here many more years, which is the best reason to see it soon.\n\nThe Scott Arboretum's register of Pennsylvania champion trees lists a Cedar of Lebanon at Tyler, and Wikipedia agrees. Neither publishes a height or a girth, so the title stands without a number we can show you.\n\nIt is one of the Painter plantings. The Painter brothers planted a collection of trees on this ground between the 1840s and the 1860s, and of everything they put in, 21 plants survive. This cedar is one. No source gives its own planting year, so its age is that window, roughly 160 to 185 years, and every one of those years was spent a long way from the mountains of Lebanon and Turkey where its species grows wild.\n\nThe arboretum fences its specimen trees to protect the roots, and this one carries the blue tag of the Painter legacy collection. Its exact spot in the grounds is not published and the pin marks the arboretum as a whole, so ask at the entrance before you set off. If you know the spot, or have a photograph, tell us, while there is still a tree to photograph.\n\nTyler charges admission and is well over half an hour from Center City by public transport.",
+   "how_to_recognise": "You can recognise it by the blue Painter legacy tag and the fence round its roots. Its spot in the arboretum is not published, so ask at the entrance for the Painter cedar.",
+   "verified_sources": [
+    "https://tylerarboretum.org/?p=20905",
+    "https://www.scottarboretum.org/state-champion-trees/"
+   ],
+   "official_register": {
+    "name": "Tyler Arboretum Painter Collection (arboretum's own legacy-plant list)",
+    "url": "https://tylerarboretum.org/?p=16641"
+   },
+   "access": "Paid entry: adults $18, seniors $15, ages 3-17 $10, under 3 free (tylerarboretum.org hours page, read 2026-11-04). Open daily; April to October 9 am to 6 pm, November to March 9 am to 4 pm; closed Thanksgiving, Dec 24 and 25. Specimen trees are fenced to protect roots.",
+   "transport": "No SEPTA stop at the gate and the arboretum publishes no transit directions. Nearest rail is Media station (Media/Wawa line), several kilometres away, then a taxi or local bus; realistically well over 30 minutes from Center City Philadelphia (about 1 hour or more door to door). Not a 30-minute day trip. Travel time not verified against a timetable.",
+   "location_precision": "approximate",
+   "curation_status": "flagged",
+   "verify_notes": "Re-id from phl_037 (Tyler Arboretum is its own place, Media, slug media-pennsylvania). Painter-era legacy plant (1840s-1860s window, no tree-specific year). Arboretum page says it is in decline; Scott Arboretum's champion page lists a Cedrus libani at Tyler as a Pennsylvania state champion, Wikipedia agrees (no figures anywhere). Alive but declining, may be lost soon: flagged. Exact location within the arboretum not found; pin is the arboretum centroid. recognise: blue legacy tag, fenced. Transport well over 30 minutes from Philadelphia.",
+   "photo": {
+    "url": null,
+    "license": null,
+    "attribution": null,
+    "status": "missing"
+   },
+   "paid_entry": true,
+   "removed": "2026-11-20",
+   "removed_reason": "dead: taken down by Tyler Arboretum (its own page 'Remembrance for the Cedar of Lebanon', https://tylerarboretum.org/?p=22350; cuttings taken 2020-12-16); two reader reports 1000100 and 1000102 ('Stump') on 2026-11-20"
+  }
+ ],
+ "blocked": []
+}
