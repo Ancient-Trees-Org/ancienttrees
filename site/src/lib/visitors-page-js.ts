@@ -29,7 +29,7 @@ import { icon } from "./icons";
 const BM = icon("bookmark-simple", "bold", "heart hi-off") + icon("bookmark-simple", "fill", "heart hi-on");
 export function visitorSaveFn(saveWord: string, savedWord: string): string {
   return `function nfvSave(id, c, esc) {
-    ${visitorSaveFn(saveWord, savedWord)}
+    var SAVE = ${JSON.stringify(saveWord)}, SAVED = ${JSON.stringify(savedWord)}, BM = ${JSON.stringify(BM)};
     return '<button class="save-btn heart-btn heart-card" type="button" data-tree="' + esc(id) + '"' +
       ' data-name="' + esc(c.n) + '" data-url="' + esc(c.u) + '"' + (c.p ? ' data-photo="' + esc(c.p) + '"' : '') +
       (c.c ? ' data-meta="' + esc(c.c) + '"' : '') +
