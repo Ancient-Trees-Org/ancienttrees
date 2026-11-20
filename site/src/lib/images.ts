@@ -269,6 +269,24 @@ export function heroFrame(p: unknown): number {
   return r >= HERO_OWN_SHAPE_BELOW ? 1.5 : Math.round(Math.max(r, 0.8) * 10000) / 10000;
 }
 
+/** The width the file at `resolved` really has, for its srcset descriptor.
+ *
+ * The descriptor used to be the width we ASKED for, but thumbUrl answers with
+ * the nearest file we have: a 250 request got our 500 copy and called it 250w,
+ * and an 800 request got the 1600 original and called it 800w. The browser
+ * believed the labels, so a 64 pt row thumbnail loaded 500 pixels and a 191 pt
+ * home card loaded 1600 (photocheck.py --live, HEAVY, 2026-11-20). An honest
+ * label lets the browser pick the right file on its own. */
+function fileWidth(resolved: string, original: string, requested: number, intrinsic: number): number {
+  let w = requested;
+  const local = resolved !== original && resolved.match(/^\/photos\/.+-(\d+)\.jpg$/);
+  const wiki = resolved.match(/\/wikipedia\/commons\/thumb\/.+\/(\d+)px-[^/]+$/);
+  if (local) w = Number(local[1]);
+  else if (wiki) w = Number(wiki[1]);
+  else if (resolved === original && intrinsic > 0) w = intrinsic;
+  return intrinsic > 0 ? Math.min(w, intrinsic) : w;
+}
+
 /** src/srcset/sizes attribute string for a photo url, ready to spread into an <img>.
  *
  * `intrinsic` is the file's real width. Offering a 960w candidate for a 375px
@@ -289,9 +307,10 @@ export function imgSrcset(
     const u = thumbUrl(url, w);
     if (!seen.has(u)) {
       seen.add(u);
-      pairs.push([u, w]);
+      pairs.push([u, fileWidth(u, url, w, intrinsic)]);
     }
   }
+  pairs.sort((a, b) => a[1] - b[1]);
   const srcset = pairs.map(([u, w]) => `${u} ${w}w`).join(", ");
   const out: { src: string; srcset: string; sizes: string; width?: number; height?: number } = {
     src: thumbUrl(url, widths[0]),

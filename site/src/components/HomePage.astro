@@ -256,7 +256,7 @@ function shelfCard(href: string, photoUrl: string, title: string, meta: string, 
   const evAttrs = ev ? ` data-ev="${ev}" data-detail="${esc(detail ?? "")}"` : "";
   return (
     `<a class="shelf-card" href="${href}"${evAttrs}>` +
-    `<span class="shelf-ph"><img ${cardImg(photoUrl, "(max-width: 800px) 72vw, 20vw")} alt="" loading="lazy"></span>` +
+    `<span class="shelf-ph"><img ${cardImg(photoUrl, "(max-width: 800px) 72vw, 200px")} alt="" loading="lazy"></span>` +
     `<b>${esc(title)}</b>` +
     `<span class="shelf-meta">${meta}</span></a>`
   );
@@ -326,7 +326,7 @@ for (const cs of FAVOURITE_CITIES) {
   usedPhotos.add(photo.url);
   favCards.push(
     `<a class="shelf-card" href="${cityHref(lang, cs)}" data-ev="home-fav" data-detail="${esc(cs)}">` +
-      `<span class="shelf-ph"><img ${cardImg(photo.url, "(max-width: 800px) 72vw, 20vw")} alt="" loading="lazy"></span>` +
+      `<span class="shelf-ph"><img ${cardImg(photo.url, "(max-width: 800px) 72vw, 200px")} alt="" loading="lazy"></span>` +
       `<b>${esc(e.data.city)}</b>` +
       `<span class="shelf-meta">${esc(u.homeShelfMeta(renderableTrees(e).length, e.data.country))}</span></a>`,
   );
