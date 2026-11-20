@@ -286,6 +286,84 @@
    "agreed": null
   },
   {
+   "id": "sight:094a2107-6343-4ef6-bf83-c771cebc64b3",
+   "seen": "2026-11-20",
+   "kind": "a tree we do not map",
+   "tree": "The Tree House Rain Tree of the Netravati Promenade",
+   "photo": "p_d08befbb4870fc0971e550d1/094A2107-6343-4EF6-BF83-C771CEBC64B3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: a big leaning rain tree with a wooden tree house in its limbs on the Netravati riverfront promenade in Bolar, river and railway bridge behind, daylight, colour. Live as mangaluru/mlr_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:808db90d-fc21-4413-a407-fc01effd1aff",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Last Elm of Stationsplein",
+   "city": "Amsterdam",
+   "species": "Dutch Elm (Ulmus x hollandica)",
+   "photo": "out/sightings/808db90d-fc21-4413-a407-fc01effd1aff.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 110,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Dutch Elm (Ulmus x hollandica)"
+   },
+   "verdict": "publish",
+   "reason": "The Last Elm of Stationsplein (ams_032): the whole bare crown in front of Centraal, heart plaque on the trunk, daylight; the tree's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c1aa836e-139f-4011-b726-0089a9bf8d7b",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Last Elm of Stationsplein",
+   "city": "Amsterdam",
+   "species": "Dutch Elm (Ulmus x hollandica)",
+   "photo": "out/sightings/c1aa836e-139f-4011-b726-0089a9bf8d7b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 110,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Dutch Elm (Ulmus x hollandica)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate of 808db90d: the same account sent the identical frame, which already leads the page of the Last Elm of Stationsplein.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a2b98e69-d805-4827-acee-a5da974e83a9",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Last Elm of Stationsplein",
+   "city": "Amsterdam",
+   "species": "Dutch Elm (Ulmus x hollandica)",
+   "photo": "out/sightings/a2b98e69-d805-4827-acee-a5da974e83a9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 38,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Dutch Elm (Ulmus x hollandica)"
+   },
+   "verdict": "publish",
+   "reason": "The Last Elm of Stationsplein (ams_032): a second reader's wide shot from the quay side, Centraal on the left; in the strip beside the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
    "seen": "2026-11-19",
    "kind": "a tree we do not map",
@@ -19693,18 +19771,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:094a2107-6343-4ef6-bf83-c771cebc64b3",
-   "seen": "2026-11-20",
-   "kind": "a tree we do not map",
-   "tree": "The Tree House Rain Tree of the Netravati Promenade",
-   "photo": "p_d08befbb4870fc0971e550d1/094A2107-6343-4EF6-BF83-C771CEBC64B3.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: a big leaning rain tree with a wooden tree house in its limbs on the Netravati riverfront promenade in Bolar, river and railway bridge behind, daylight, colour. Live as mangaluru/mlr_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

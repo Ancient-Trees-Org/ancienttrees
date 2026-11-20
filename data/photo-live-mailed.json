@@ -2434,6 +2434,36 @@
     }
    ],
    "sent": []
+  },
+  "p_93268936c7d94f408d689cef": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "808db90d-fc21-4413-a407-fc01effd1aff",
+     "tree_id": "ams_032",
+     "tree_name": "The Last Elm of Stationsplein",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
+  },
+  "p_356d4ffeb1ba645c8598cdc8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a2b98e69-d805-4827-acee-a5da974e83a9",
+     "tree_id": "ams_032",
+     "tree_name": "The Last Elm of Stationsplein",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-20"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

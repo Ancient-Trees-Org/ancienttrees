@@ -975,10 +975,18 @@
       "access": "Free, on the public square in front of Amsterdam Centraal.",
       "transport": "Amsterdam Centraal; the tree stands on the square in front of the station",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/ams_032-the-last-elm-of-stationsplein.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_93268936c7d94f408d689cef",
+        "sighting_id": "808db90d-fc21-4413-a407-fc01effd1aff",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: The one old elm in front of Amsterdam Centraal, whole crown in frame against the station facade, heart plaque on the trunk, bright daylight; fills the frame and survives the centre crop. First photograph this tree has. Species seen: bare winter crown of fine twiggy upswept branches, grey furrowed bark, elm habit. Fits the description: a single large old elm standing alone on Stationsplein by the tram shelters, with the Centraal station building behind it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month_basis": "the photograph's own date"
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -988,7 +996,23 @@
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1694179",
         "url": null
       },
-      "girth_cm": 311
+      "girth_cm": 311,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ams_032-the-last-elm-of-stationsplein-a2b98e69.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_356d4ffeb1ba645c8598cdc8",
+          "sighting_id": "a2b98e69-d805-4827-acee-a5da974e83a9",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: A second reader's wide shot of the same elm from the quay side, station on the left, Sint-Nicolaaskerk behind; shows where it stands, so it goes beside the lead in the strip. Species seen: bare elm crown with upswept branches, dark furrowed trunk. Fits the description: the lone old tree on the Stationsplein pavement between the tram shelters and the water, Centraal behind it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
     },
     {
       "id": "ams_034",

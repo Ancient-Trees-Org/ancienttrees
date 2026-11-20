@@ -5649,6 +5649,34 @@
   "094a2107-6343-4ef6-bf83-c771cebc64b3": {
    "outcome": "published",
    "date": "2026-11-20"
+  },
+  "808db90d-fc21-4413-a407-fc01effd1aff": {
+   "outcome": "published",
+   "date": "2026-11-20",
+   "tree_id": "ams_032",
+   "city_slug": "amsterdam",
+   "file": "ams_032-the-last-elm-of-stationsplein.jpg",
+   "reason": "The one old elm in front of Amsterdam Centraal, whole crown in frame against the station facade, heart plaque on the trunk, bright daylight; fills the frame and survives the centre crop. First photograph this tree has. Species seen: bare winter crown of fine twiggy upswept branches, grey furrowed ba",
+   "lat": 52.377725,
+   "lon": 4.89882166666667,
+   "pin_checked": "2026-11-20"
+  },
+  "c1aa836e-139f-4011-b726-0089a9bf8d7b": {
+   "outcome": "rejected",
+   "date": "2026-11-20",
+   "tree_id": "ams_032",
+   "reason": "Duplicate: the same account sent the identical frame as 808db90d, which leads the page."
+  },
+  "a2b98e69-d805-4827-acee-a5da974e83a9": {
+   "outcome": "added",
+   "date": "2026-11-20",
+   "tree_id": "ams_032",
+   "city_slug": "amsterdam",
+   "file": "ams_032-the-last-elm-of-stationsplein-a2b98e69.jpg",
+   "reason": "A second reader's wide shot of the same elm from the quay side, station on the left, Sint-Nicolaaskerk behind; shows where it stands, so it goes beside the lead in the strip. Species seen: bare elm crown with upswept branches, dark furrowed trunk. Fits the description: the lone old tree on the Stati",
+   "lat": 52.3784133333333,
+   "lon": 4.89884166666667,
+   "pin_checked": "2026-11-20"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

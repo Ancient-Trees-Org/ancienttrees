@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 reader judge: the Last Elm of Stationsplein gets its first photographs
+
+- **Live**: two readers photographed Amsterdam's last 1889 elm in front of Centraal today (ams_032), which had no photograph at all. 808db90d leads (the whole bare crown against the station, heart plaque on the trunk); a2b98e69 from a second reader, a wide shot from the quay side, sits in the strip. sightings_publish made the wide shot the lead as `add` does; swapped by hand so the cleaner frame leads, both with `taken_month` 11 from the photographs' own date. The readers' mails went through `--send`.
+- **Rejected**: c1aa836e, the same account's identical frame as 808db90d (duplicate).
+- No open reports, no unjudged tips, no feedback without a verdict, no reader words waiting. The 38 waiting leads in _sightings.json are all our own account's (`mine`, never auto-published), photographs not on this machine; left as they are.
+- Pins: sightings_publish could not read coordinates (HTTPError) for its pin catch-up; ams_032's pin is already confirmed, so nothing waits on it.
+
 ## 2026-11-20 reader judge: a second rain tree in Mangaluru, with a tree house
 
 - **Live**: mangaluru/mlr_002, The Tree House Rain Tree of the Netravati Promenade, sent through the app by the same reader who gave us the Rain Tree of Bolar (mlr_001) on 11-17. Photograph viewed: a big leaning rain tree with a wooden tree house and stair in its limbs, the river and railway bridge behind. Device fix (pin confirmed), photo filed in November from its own date, access free (the promenade is Mangaluru Smart City's public riverfront, source in verified_sources). Mangaluru now has two trees, so its intro, question texts and FAQ speak of both.
