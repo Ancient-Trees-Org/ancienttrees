@@ -3616,7 +3616,45 @@ def check_every_map_shows_pins_the_same_way():
         # app-pin", "maken we hier gelijk ook 1 component van?"): PIN_SPEC in
         # lib/map.ts against what TreeMap.swift draws.
         problems += pin_spec_problems(web, src)
+    # And Android draws the same pin (Hidde, 2026-11-20; data/map-parity.json).
+    kt_dir = ROOT / "android" / "app" / "src" / "main" / "java" / "app" / "ancienttrees" / "map"
+    if (kt_dir / "TreeMapView.kt").exists():
+        problems += android_pin_problems(web, (kt_dir / "TreeMapView.kt").read_text(),
+                                         (kt_dir / "PinRules.kt").read_text())
     return problems
+
+
+def android_pin_problems(web, kt, rules):
+    """PIN_SPEC (lib/map.ts) against Android's pinBitmap() and its dots."""
+    out = []
+    spec = re.search(r"export const PIN_SPEC = \{(.*?)\} as const;", web, re.S)
+    if not spec:
+        return ["lib/map.ts no longer exports PIN_SPEC"]
+    def num(key):
+        m = re.search(r"\b%s:\s*([0-9.]+)" % key, spec.group(1))
+        return float(m.group(1)) if m else None
+    fill = re.search(r'fill:\s*"#([0-9a-fA-F]{6})"', spec.group(1))
+    moss = re.search(r"private val MOSS = Color\.rgb\((\d+), (\d+), (\d+)\)", kt)
+    if fill and moss and "".join("%02x" % int(v) for v in moss.groups()) != fill.group(1).lower():
+        out.append("the pin is #%s on the web and rgb%s on Android" % (fill.group(1), moss.groups()))
+    body = kt.split("private fun pinBitmap(", 1)
+    body = body[1][:1600] if len(body) > 1 else ""
+    size = re.search(r"const val PIN_SIZE = ([0-9.]+)f", rules)
+    ring = re.search(r"strokeWidth = ([0-9.]+) \* density", body)
+    glyph = re.search(r"val glyph = ([0-9.]+) \* density", body)
+    scale = re.search(r"iconSize\(([0-9.]+)f\)", kt)
+    dr = re.search(r"const val DOT_RADIUS = ([0-9.]+)f", rules)
+    dw = re.search(r"const val DOT_RING = ([0-9.]+)f", rules)
+    pairs = [("size", float(size.group(1)) - 4 if size else None), ("ringWidth", float(ring.group(1)) if ring else None),
+             ("glyph", float(glyph.group(1)) if glyph else None), ("chosenScale", float(scale.group(1)) if scale else None),
+             ("dotRadius", float(dr.group(1)) if dr else None), ("dotRing", float(dw.group(1)) if dw else None)]
+    for key, app in pairs:
+        w = num(key)
+        if app is None or w is None:
+            out.append("PIN_SPEC.%s or its Android counterpart is missing" % key)
+        elif abs(app - w) > 0.01:
+            out.append("PIN_SPEC.%s is %g on the web and %g on Android: one pin" % (key, w, app))
+    return out
 
 
 def pin_spec_problems(web, swift):
@@ -3647,10 +3685,8 @@ def pin_spec_problems(web, swift):
              ("glyph", float(gl.group(1)) if gl else None)]
     sc = re.search(r"chosen\.iconScale = NSExpression\(forConstantValue: ([0-9.]+)\)", swift)
     pairs.append(("chosenScale", float(sc.group(1)) if sc else None))
-    dots = swift.split('identifier: live(dotLayer, on: style)', 1)
-    dots = dots[1][:600] if len(dots) > 1 else ""
-    dr = re.search(r"dots\.circleRadius = NSExpression\(forConstantValue: ([0-9.]+)\)", dots)
-    dw = re.search(r"dots\.circleStrokeWidth = NSExpression\(forConstantValue: ([0-9.]+)\)", dots)
+    dr = re.search(r"static let dotRadius: CGFloat = ([0-9.]+)", swift)
+    dw = re.search(r"static let dotRing: CGFloat = ([0-9.]+)", swift)
     pairs += [("dotRadius", float(dr.group(1)) if dr else None), ("dotRing", float(dw.group(1)) if dw else None)]
     for key, app in pairs:
         w = num(key)

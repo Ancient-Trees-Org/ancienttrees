@@ -53,7 +53,6 @@ import org.maplibre.android.maps.MapLibreMap
 import org.maplibre.android.maps.MapView
 import org.maplibre.android.maps.Style
 import org.maplibre.android.style.expressions.Expression
-import org.maplibre.android.style.layers.CircleLayer
 import org.maplibre.android.style.layers.Property
 import org.maplibre.android.style.layers.PropertyFactory
 import org.maplibre.android.style.layers.SymbolLayer
@@ -67,6 +66,8 @@ internal const val STYLE_DARK = "https://ancienttrees.app/assets/map-style-dark.
 private const val SOURCE = "at-trees"
 private const val LAYER_MINI = "at-mini"
 private const val LAYER_DOTS = "at-dots"
+private const val DOT_ICON = "at-dot"
+private const val MINI_ICON = "at-dot-mini"
 private const val LAYER_PINS = "at-pins"
 private const val LAYER_FAR = "at-pins-far"
 private const val LAYER_CHOSEN = "at-chosen"
@@ -208,6 +209,8 @@ fun TreeMapView(
                         for (f in listOf(false, true)) for (c in listOf(false, true))
                             style.addImage(iconName(shape, t, f, c), pinBitmap(context, shape, ticket = t, fav = f, seen = c))
                     for (n in 2..STACK_ICONS) style.addImage(stackName(n), stackBitmap(context, n))
+                    style.addImage(DOT_ICON, dotBitmap(context, PinRules.DOT_RADIUS, PinRules.DOT_RING))
+                    style.addImage(MINI_ICON, dotBitmap(context, PinRules.MINI_RADIUS, 1f))
                     installLayers(style)
                     style.addImage(MINE_ICON, minePinBitmap(context))
                     installMine(style)
@@ -525,25 +528,28 @@ private fun feature(t: Tree, lat: Double, lng: Double, n: Int, spot: String, spr
 private fun installLayers(style: Style) {
     style.addSource(GeoJsonSource(SOURCE, FeatureCollection.fromFeatures(emptyList<Feature>())))
 
+    // EVERY TREE THAT FITS AS A DOT, under the pins: Airbnb's mini-pins, as
+    // TreeMap.swift draws them (2026-11-20). A SYMBOL layer that may not
+    // overlap, under the pin layers, so MapLibre places the pins first and
+    // drops every dot that would touch a pin or another dot; a tree whose dot
+    // did not fit is drawn once a zoom makes room. It was a circle layer,
+    // which never collides, and a dot could sit half under a pin (Hidde, on
+    // Baarn). data/map-parity.json.
+    fun dots(id: String, icon: String) = SymbolLayer(id, SOURCE).withProperties(
+        PropertyFactory.iconImage(icon),
+        PropertyFactory.iconAllowOverlap(false),
+        PropertyFactory.iconIgnorePlacement(false),
+        PropertyFactory.iconPadding(PinRules.DOT_CLEARANCE),
+        PropertyFactory.iconAnchor(Property.ICON_ANCHOR_CENTER),
+        PropertyFactory.symbolSortKey(Expression.get("pr")),
+    )
     style.addLayer(
-        CircleLayer(LAYER_MINI, SOURCE).withProperties(
-            PropertyFactory.circleColor(MOSS),
-            PropertyFactory.circleRadius(PinRules.MINI_RADIUS),
-            PropertyFactory.circleStrokeColor(Color.WHITE),
-            PropertyFactory.circleStrokeWidth(1f),
-        ).apply {
+        dots(LAYER_MINI, MINI_ICON).apply {
             setFilter(Expression.eq(Expression.get("mini"), Expression.literal(true)))
             maxZoom = PinRules.FAR_ZOOM
         },
     )
-    style.addLayer(
-        CircleLayer(LAYER_DOTS, SOURCE).withProperties(
-            PropertyFactory.circleColor(MOSS),
-            PropertyFactory.circleRadius(4f),
-            PropertyFactory.circleStrokeColor(Color.WHITE),
-            PropertyFactory.circleStrokeWidth(1.5f),
-        ).apply { minZoom = PinRules.FAR_ZOOM },
-    )
+    style.addLayer(dots(LAYER_DOTS, DOT_ICON).apply { minZoom = PinRules.FAR_ZOOM })
 
     fun pins(id: String, distance: Float) = SymbolLayer(id, SOURCE).withProperties(
         PropertyFactory.iconImage(Expression.get("icon")),
@@ -636,6 +642,23 @@ private fun spreadOut(map: MapLibreMap, spot: String, trees: List<Tree>, context
 private const val STACK_ICONS = 99
 
 private fun stackName(n: Int) = "at-stack-$n"
+
+/** A dot as an image, for the dot layers: a moss disc in a white ring (TreeMap.swift dotImage). */
+private fun dotBitmap(context: Context, radius: Float, ring: Float): Bitmap {
+    val metrics = context.resources.displayMetrics
+    val density = metrics.density
+    val size = Math.ceil(((radius + ring) * 2 * density).toDouble()).toInt()
+    val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
+    bitmap.density = metrics.densityDpi
+    val canvas = Canvas(bitmap)
+    val centre = size / 2f
+    val paint = Paint(Paint.ANTI_ALIAS_FLAG)
+    paint.color = Color.WHITE
+    canvas.drawCircle(centre, centre, (radius + ring) * density, paint)
+    paint.color = MOSS
+    canvas.drawCircle(centre, centre, radius * density, paint)
+    return bitmap
+}
 
 /** A pile's bubble: moss, white ring, the count in white, one size whatever the count. */
 private fun stackBitmap(context: Context, n: Int): Bitmap {

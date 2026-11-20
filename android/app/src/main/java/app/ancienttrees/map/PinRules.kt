@@ -10,6 +10,11 @@ object PinRules {
     const val FAR_ZOOM = 6.5f
     const val FAR_PIN_DISTANCE = 90f
     const val MINI_RADIUS = 3f
+    /** The dot: radius 4 in a 1.5 white ring (the website's PIN_SPEC, TreeMap.swift dotRadius/dotRing). */
+    const val DOT_RADIUS = 4f
+    const val DOT_RING = 1.5f
+    /** Room around a dot before it counts as touching a pin or another dot (TreeMap.swift dotClearance). */
+    const val DOT_CLEARANCE = 3f
     const val WORLD_MIN_ZOOM = 1.5
 
     /** Half the room two pin centres must keep beyond the pin itself. */

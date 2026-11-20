@@ -6,18 +6,16 @@
       "since": "2026-11-20",
       "web": "tree-pins-js.ts from PIN_SPEC (lib/map.ts)",
       "ios": "TreeMap.swift pin(colour:...), the source of the numbers; qa pin_spec_problems() holds the web to it",
-      "android": "TreeMapView.kt, said to copy iOS; not held by a check yet",
-      "status": "open",
-      "owed": "android: hold TreeMapView.kt's pin to PIN_SPEC in qa, as iOS is"
+      "android": "TreeMapView.kt pinBitmap(), PinRules; qa android_pin_problems() holds it to PIN_SPEC",
+      "status": "done"
     },
     {
       "what": "A dot only where it stands clear of every pin and every other dot (Airbnb's mini-pins); the rest wait for a zoom",
       "since": "2026-11-20",
       "web": "tree-pins-js.ts place(): dots filtered to those that clear the full pins",
-      "ios": "dots are a plain circle layer under the pins (TreeMap.swift dotLayer), so a dot can sit half under a pin",
-      "android": "the same circle layer (TreeMapView.kt), the same fault",
-      "status": "open",
-      "owed": "ios and android: draw the dots as a symbol layer that may not overlap, after the pins, so the map's own collision drops a dot under a pin"
+      "ios": "TreeMap.swift: dots and minis a symbol layer that may not overlap, under the pins (2026-11-20, in the next build)",
+      "android": "TreeMapView.kt: the same symbol layers (2026-11-20, in the next build)",
+      "status": "done"
     },
     {
       "what": "Pointing at a tree in the list lights its pin",
@@ -36,6 +34,15 @@
       "android": "as iOS",
       "status": "one-sided",
       "why": "Hidde chose both, CONVENTIONS.md \"Tapping a pin on a map that has a list in a sheet\" (2026-10-19, 2026-10-24)"
+    },
+    {
+      "what": "A tree chosen at launch (-select) while it is a dot",
+      "since": "2026-11-20",
+      "web": "the chosen tree is always a full pin (tree-pins-js.ts)",
+      "ios": "not seen (the 2026-11-20 check opened Baarn without a choice)",
+      "android": "seen once on the emulator with -select=brn_001 in Baarn: a second dot half under the first; without -select the map is as iOS. Not yet known whether the clear-dot change caused it",
+      "status": "open",
+      "owed": "android: open Baarn with -select on the build before 2026-11-20 and this one; if new, the chosen layer must hide that tree's dot as iOS does (pinPredicate without the selected id)"
     }
   ]
 }

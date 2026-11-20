@@ -1137,6 +1137,15 @@ enum MapLayers {
     static let stackLayer = "at-cluster"
     /// Every tree as a dot, under the pins: what shows where a pin did not fit.
     static let dotLayer = "at-trees-dot"
+    /// The dot: a moss disc of radius 4 in a 1.5 white ring, the website's
+    /// PIN_SPEC dotRadius and dotRing (qa holds the two equal).
+    static let dotRadius: CGFloat = 4
+    static let dotRing: CGFloat = 1.5
+    static let dotImageName = "at-dot"
+    static let miniImageName = "at-dot-mini"
+    /// Room around a dot, in points, before it counts as touching a pin or
+    /// another dot: 3, the website's CLEAR margin (tree-pins-js.ts).
+    static let dotClearance: CGFloat = 3
     /// Far out (below farZoom): the wider-spaced pins and the mini pins.
     static let farLayer = "at-trees-far"
     static let miniLayer = "at-trees-mini"
@@ -1288,6 +1297,8 @@ enum MapLayers {
         states.setObject(StyleState(seq: seq), forKey: style)
         style.setImage(pin(colour: moss, glyph: nil), forName: "at-pin-default")
         style.setImage(minePin(), forName: "at-pin-mine")
+        style.setImage(dotImage(radius: dotRadius, ring: dotRing), forName: dotImageName)
+        style.setImage(dotImage(radius: CGFloat(miniRadius), ring: 1), forName: miniImageName)
 
         // The source is NEVER given MapLibre's own clustering options. They do
         // not work: see the note on cluster() below. We cluster ourselves and
@@ -1728,25 +1739,34 @@ enum MapLayers {
     /// with it.
     private static func addTreeLayers(on style: MLNStyle, source trees: MLNShapeSource,
                                       declutter: Bool) {
-        // EVERY TREE AS A DOT, under the pins. A pin's image covers its own
-        // dot; where MapLibre did not place the pin the dot is what shows. A
-        // circle layer never collides, so no tree is ever simply gone.
-        let dots = MLNCircleStyleLayer(identifier: live(dotLayer, on: style), source: trees)
+        // EVERY TREE THAT FITS AS A DOT, under the pins: Airbnb's mini-pins.
+        // A SYMBOL layer that may not overlap, under the pin layers, so
+        // MapLibre places the pins first and then drops every dot that would
+        // touch a pin or another dot (dotClearance apart); a tree whose dot
+        // did not fit is drawn once a zoom makes room. Until 2026-11-20 this
+        // was a circle layer, which never collides, and a dot could sit half
+        // under a neighbour's pin (Hidde, on Baarn: "je sommige pins niet ziet
+        // omdat andere eroverheen gaat"). The website does the same
+        // (tree-pins-js.ts); data/map-parity.json. Where the dot rule is off
+        // (a tree's page, a walk, the picker) every dot stays.
+        func dotLayerFor(_ id: String, image: String) -> MLNSymbolStyleLayer {
+            let l = MLNSymbolStyleLayer(identifier: live(id, on: style), source: trees)
+            l.iconImageName = NSExpression(forConstantValue: image)
+            l.iconAllowsOverlap = NSExpression(forConstantValue: !declutter)
+            l.iconIgnoresPlacement = NSExpression(forConstantValue: false)
+            l.iconPadding = NSExpression(forConstantValue: dotClearance)
+            l.symbolSortKey = NSExpression(forKeyPath: "pr")
+            l.iconAnchor = NSExpression(forConstantValue: "center")
+            return l
+        }
+        let dots = dotLayerFor(dotLayer, image: dotImageName)
         dots.predicate = NSPredicate(format: "at_kind == 'tree' OR at_kind == 'mine'")
-        dots.circleColor = NSExpression(forConstantValue: moss)
-        dots.circleRadius = NSExpression(forConstantValue: 4)
-        dots.circleStrokeColor = NSExpression(forConstantValue: UIColor.white)
-        dots.circleStrokeWidth = NSExpression(forConstantValue: 1.5)
         // Far out, a mini pin for the trees the feed marks and nothing for the
         // rest (farZoom). Your own trees are never thinned: they stay dots.
         if declutter {
             dots.minimumZoomLevel = Float(farZoom)
-            let mini = MLNCircleStyleLayer(identifier: live(miniLayer, on: style), source: trees)
+            let mini = dotLayerFor(miniLayer, image: miniImageName)
             mini.predicate = NSPredicate(format: "(at_kind == 'tree' AND mini == YES) OR at_kind == 'mine'")
-            mini.circleColor = NSExpression(forConstantValue: moss)
-            mini.circleRadius = NSExpression(forConstantValue: miniRadius)
-            mini.circleStrokeColor = NSExpression(forConstantValue: UIColor.white)
-            mini.circleStrokeWidth = NSExpression(forConstantValue: 1)
             mini.maximumZoomLevel = Float(farZoom)
             style.addLayer(mini)
         }
@@ -1903,6 +1923,17 @@ enum MapLayers {
         UIColor.white.setFill()
         UIBezierPath(ovalIn: r).fill()
         ctx?.restoreGState()
+    }
+
+    /// A dot as an image, for the dot layers: a moss disc in a white ring.
+    static func dotImage(radius: CGFloat, ring: CGFloat) -> UIImage {
+        let d = (radius + ring) * 2
+        return UIGraphicsImageRenderer(size: .init(width: d, height: d)).image { _ in
+            UIColor.white.setFill()
+            UIBezierPath(ovalIn: .init(x: 0, y: 0, width: d, height: d)).fill()
+            moss.setFill()
+            UIBezierPath(ovalIn: .init(x: ring, y: ring, width: radius * 2, height: radius * 2)).fill()
+        }
     }
 
     private static func pin(colour: UIColor, glyph: UIImage?, collected: Bool = false,
