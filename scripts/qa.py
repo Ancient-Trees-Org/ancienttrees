@@ -960,6 +960,34 @@ def check_ambassador_requests_reach_hidde():
     return []
 
 
+def check_fixed_bugs_reach_the_digest():
+    """The digest shows what was fixed since Hidde last looked, and every
+    fixed bug names the commit that fixed it (the date the table goes by).
+
+    Hidde, 2026-11-20, "do i get an overview of the bugs fixed in dd?", then
+    "Yes, add it": daily_digest.fixed_section() under the quality line. A
+    data/code-audit.json row set `fixed` without `fixed_in` would never
+    reach it. Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    out = []
+    try:
+        src = (root / "scripts" / "daily_digest.py").read_text(encoding="utf-8")
+    except OSError:
+        src = ""
+    if "fixed = fixed_section(today)" not in src:
+        out.append("scripts/daily_digest.py: the digest no longer shows the bugs fixed since Hidde's "
+                   "last look (check_fixed_bugs_reach_the_digest).")
+    try:
+        rows = json.loads((root / "data" / "code-audit.json").read_text(encoding="utf-8")).get("findings") or []
+    except (OSError, ValueError):
+        rows = []
+    for r in rows:
+        if r.get("status") == "fixed" and not r.get("fixed_in"):
+            out.append(f"data/code-audit.json: {r.get('id')} is fixed without `fixed_in` (the commit), "
+                       "so the digest's Fixed table cannot date it (check_fixed_bugs_reach_the_digest).")
+    return out
+
+
 def check_the_quality_line_stays_in_the_digest():
     """The quality line sits under Hidde's numbers, on DATA.md and on the
     digest page, with every input it was given.
@@ -4554,6 +4582,7 @@ def main():
         check_notes_are_read_before_they_are_marked_read,
         check_ambassador_requests_reach_hidde,
         check_the_quality_line_stays_in_the_digest,
+        check_fixed_bugs_reach_the_digest,
         check_the_privacy_page_names_what_we_store,
         check_a_given_photo_records_the_yes,
         check_a_reader_photo_is_filed_by_season,
@@ -4771,6 +4800,7 @@ def main():
     failures += check_notes_are_read_before_they_are_marked_read()
     failures += check_ambassador_requests_reach_hidde()
     failures += check_the_quality_line_stays_in_the_digest()
+    failures += check_fixed_bugs_reach_the_digest()
     failures += check_the_privacy_page_names_what_we_store()
     failures += check_a_given_photo_records_the_yes()
     failures += check_a_reader_photo_is_filed_by_season()

@@ -543,6 +543,7 @@
    "fix": "Clear the session only on 400/401/403 (refresh token spent or revoked); on 429, 5xx or a network error leave it in place.",
    "first_seen": "2026-11-18",
    "status": "fixed",
+   "fixed_in": "453f075e4",
    "test": "scripts/qa.py check_a_server_blip_does_not_sign_out()"
   },
   {

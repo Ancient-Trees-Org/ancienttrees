@@ -2047,6 +2047,113 @@ def reader_trees_to_inspect(today):
     ])
 
 
+FIXED_MAX_ROWS = 12
+
+
+def _commit_dates(shas):
+    """{short sha: commit datetime (UTC)} for the commits the checkout holds."""
+    import subprocess
+    shas = sorted({s for s in shas if s})
+    if not shas:
+        return {}
+    out = {}
+    for sha in shas:  # one call each: an unknown sha fails alone, not the batch
+        try:
+            r = subprocess.run(["git", "show", "-s", "--format=%cI", sha], cwd=ROOT,
+                               capture_output=True, text=True, timeout=10)
+        except Exception:
+            continue
+        if r.returncode == 0 and r.stdout.strip():
+            when = datetime.datetime.fromisoformat(r.stdout.strip().replace("Z", "+00:00"))
+            out[sha] = when.astimezone(datetime.timezone.utc)
+    return out
+
+
+def fixed_rows(since):
+    """Bugs and crashes fixed after `since` (aware datetime), newest first.
+
+    Sources: data/code-audit.json rows with status fixed (the weekly review's
+    findings and the bugs people found, escaped.py), dated by their
+    `fixed_in` commit; data/crash-fixes.json entries, dated by `fix_commit`."""
+    rows = []
+    try:
+        audit = json.load(open(os.path.join(ROOT, "data", "code-audit.json"), encoding="utf-8"))
+        audit = [r for r in audit.get("findings") or [] if r.get("status") == "fixed"]
+    except Exception:
+        audit = []
+    try:
+        crashes_ = json.load(open(os.path.join(ROOT, "data", "crash-fixes.json"),
+                                  encoding="utf-8")).get("fixes") or []
+    except Exception:
+        crashes_ = []
+    dates = _commit_dates([r.get("fixed_in") for r in audit] + [c.get("fix_commit") for c in crashes_])
+    for r in audit:
+        when = dates.get(r.get("fixed_in"))
+        if not when or when <= since:
+            continue
+        surface = r.get("surface") or "?"
+        if surface == "APP":
+            surface = "Android" if str(r.get("file", "")).startswith("android/") else "iPhone"
+        elif surface == "WEB":
+            surface = "Web"
+        found = "a person" if r.get("found_by") else "code review"
+        rows.append({"when": when, "surface": surface, "what": r.get("summary") or r.get("id"),
+                     "found": found, "test": "yes" if r.get("test") else "no",
+                     "commit": r.get("fixed_in")})
+    for c in crashes_:
+        when = dates.get(c.get("fix_commit"))
+        if not when or when <= since:
+            continue
+        plat = "Android" if c.get("platform") == "android" else "iPhone"
+        fixed_build = c.get("first_fixed_build")
+        rows.append({"when": when, "surface": plat,
+                     "what": "Crash: " + (c.get("what") or c.get("signature") or "?")
+                             + (" (fixed from build %s)" % fixed_build if fixed_build else ""),
+                     "found": "crash report", "test": "?", "commit": c.get("fix_commit")})
+    rows.sort(key=lambda r: r["when"], reverse=True)
+    return rows
+
+
+def fixed_section(today):
+    """What was fixed since Hidde last looked at the digest page, as a table.
+
+    Hidde, 2026-11-20, asked whether the digest showed the bugs that were
+    fixed ("do i get an overview of the bugs fixed in dd?"): it showed only
+    the open ones, in the quality line, so a fix vanished from the count
+    without a word. "Yes, add it". Since data/digest-seen.json's seen_at,
+    at most 14 days back, at least the digest's own day."""
+    floor = datetime.datetime.combine(today - datetime.timedelta(days=14), datetime.time(),
+                                      tzinfo=datetime.timezone.utc)
+    day = datetime.datetime.combine(today - datetime.timedelta(days=1), datetime.time(),
+                                    tzinfo=datetime.timezone.utc)
+    since = floor
+    try:
+        seen = json.load(open(os.path.join(ROOT, "data", "digest-seen.json"), encoding="utf-8")).get("seen_at")
+        if seen:
+            s = datetime.datetime.fromisoformat(seen)
+            if s.tzinfo is None:
+                s = s.replace(tzinfo=datetime.timezone.utc)
+            since = max(floor, s)
+    except Exception:
+        pass
+    since = min(since, day)
+    rows = fixed_rows(since)
+    if not rows:
+        return ""
+    lines = ["**Fixed since %s: %d.**" % (since.strftime("%d %b").lstrip("0"), len(rows)), "",
+             "| Day | Where | What was wrong | Found by | Test |", "|---|---|---|---|---|"]
+    for r in rows[:FIXED_MAX_ROWS]:
+        what = r["what"].replace("|", "/").replace("\n", " ")
+        if len(what) > 140:
+            what = what[:137].rstrip() + "..."
+        lines.append("| %s | %s | %s | %s | %s |" % (r["when"].strftime("%d %b").lstrip("0"), r["surface"],
+                                                     what, r["found"], r["test"]))
+    if len(rows) > FIXED_MAX_ROWS:
+        lines.append("")
+        lines.append("And %d more (data/code-audit.json, data/crash-fixes.json)." % (len(rows) - FIXED_MAX_ROWS))
+    return "\n".join(lines)
+
+
 def open_for_you_section(today):
     """Feedback and reports that need Hidde, and nothing else.
 
@@ -4474,6 +4581,15 @@ def main():
         blocks.insert(1, quality_section(today))
     except Exception as e:
         blocks.insert(1, "**Quality**: failed today (%s)." % str(e)[:90])
+    # What was fixed since his last look, under the quality line's open
+    # bugs (Hidde, 2026-11-20: "Yes, add it"). The Plus block below inserts
+    # at 2 too and so stands above it.
+    try:
+        fixed = fixed_section(today)
+        if fixed:
+            blocks.insert(2, fixed)
+    except Exception as e:
+        blocks.insert(2, "**Fixed**: failed today (%s)." % str(e)[:90])
     # The Plus question's answers, under the quality line (Hidde, 2026-11-05).
     try:
         plus = plus_section(today)

@@ -16,6 +16,10 @@
 - **FOR HIDDE, one paste**: supabase/sighting-photo-dates.sql (two columns on `sightings`; metadata about the date already stored, and a month per extra photo, nothing new about a person). Until it is pasted both apps retry without the two keys and keep every older field, and the inbox reads them as optional. The privacy page's sightings sentence names both (privacycheck green).
 - **The next builds carry it**: iPhone build 42 and Android 5. Tested: iOS RecordingATreeOfYourOwn (three new tests) and SyncOnlyChangedTests in the simulator; Android full unit suite (CollectorTest, three new); test_sightings.py 27 OK. Not tested live: a real upload with the column pasted. Nothing archived, uploaded or submitted.
 
+## 2026-11-20 session: the digest shows what was fixed since your last look
+
+Hidde asked whether the digest showed the bugs that were fixed; it showed only the open ones. Now a "Fixed since <day>" table sits under the quality line: day, web/iPhone/Android, what was wrong, found by a person or the code review, test yes/no. It reads data/code-audit.json (dated by each fix's `fixed_in` commit) and data/crash-fixes.json, from his last look (data/digest-seen.json), at most 14 days back. qa `check_fixed_bugs_reach_the_digest()` holds the table and refuses a fixed row without its commit; the one such row (web sign-out blip) got 453f075e4. First appears in tomorrow's digest.
+
 ## 2026-11-20 session: sign-in mail limit raised to 150 an hour; one last link for the Guardian-day sign-ups
 
 - **Live (Hidde: "doe beide maar")**: Supabase's `rate_limit_email_sent` went from 30 to 150 sign-in and welcome mails an hour, project-wide, through the Management API. The Guardian morning peaked at 25 email sign-ups an hour plus sign-in links, so a press day could hit "rate limit exceeded". Gmail's roughly 500 a day is the next ceiling.
