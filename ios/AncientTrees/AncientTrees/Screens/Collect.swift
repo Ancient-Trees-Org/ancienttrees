@@ -479,8 +479,14 @@ struct CollectView: View {
         // Signed out it draws the streets around you and nothing on them. See
         // showsYourCollection: a page nobody is signed in to does not put
         // somebody's pins on a map either.
-        let mineShown = showsYourCollection ? sightings.yoursOnly : []
-        let visitedShown = showsYourCollection ? allVisited : []
+        // THE MAP FOLLOWS THE LANE (Hidde, 2026-11-20: "als je op de
+        // Collected-pagina zit, zie je de Collected-bomen op je kaart, en als
+        // je op de Want to Visit bent, zie je de Want to Visit"): Collected
+        // draws the trees you collected and the ones you added, Want to visit
+        // the trees you saved, as AllTrails' lists do and as the website's
+        // profile map does (data/map-parity.json).
+        let mineShown = showsYourCollection && lane == .seen ? sightings.yoursOnly : []
+        let visitedShown = showsYourCollection ? (lane == .want ? wishlist : allVisited) : []
         // Always the flat map every other screen uses. A 3D globe lived here
         // from 2026-09-13 to 2026-09-26 and came out on Hidde's word ("haal de
         // hele 3d map er maar uit, val terug op de platte kaart die we overal

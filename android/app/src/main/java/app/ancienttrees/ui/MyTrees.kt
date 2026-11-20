@@ -273,8 +273,11 @@ private fun MyTreesInner(
         TreeMapView(
             // Ours as pins; YOUR OWN in your photograph, as the iPhone's TreeMap(mine:)
             // and our Map tab draw them (Hidde 2026-11-17: "waarom zoveel grijs").
-            trees = visited,
-            mine = ownTrees,
+            // THE MAP FOLLOWS THE LANE, as Collect.swift's coverMap (Hidde,
+            // 2026-11-20): Collected draws your collected trees and your own,
+            // Want to visit the trees you saved.
+            trees = if (lane == TreesLane.WANT) wishlist else visited,
+            mine = if (lane == TreesLane.WANT) emptyList() else ownTrees,
             minePhoto = { path -> mine.photoBytes(path) },
             onMine = { id -> ownTrees.firstOrNull { it.id == id }?.let { selected = it.asTree() } },
             selected = selected,
