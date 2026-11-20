@@ -41,7 +41,7 @@ STATE = os.path.join(ROOT, "data", "signin-last-call.json")
 SIGNED_UP = ("2026-11-15", "2026-11-19")          # created_at from, before
 SEND_FROM = datetime.datetime(2026, 11, 27, 8, 0, tzinfo=datetime.timezone.utc)
 EXPIRES = datetime.datetime(2026, 11, 30, 0, 0, tzinfo=datetime.timezone.utc)
-APPROVED = False   # Hidde's yes to the text below
+APPROVED = True    # Hidde's yes to the text below, 2026-11-20: "Yes, send it then"
 BATCH = "signin-last-call-2026-11-27"
 REDIRECT = "https://ancienttrees.app/account"
 
