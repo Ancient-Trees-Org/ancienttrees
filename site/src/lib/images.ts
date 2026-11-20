@@ -466,6 +466,19 @@ export function creditPieces(line: string, p: { url?: string | null; attribution
   return { before: line.slice(0, i), name, nameHref, between: rest.slice(0, j), licence: lic, licenceHref, after: rest.slice(j + lic.length) };
 }
 
+/** The credit line as HTML, the one way it is printed (CreditLine.astro and
+ *  tree-card.ts both use it): the photographer's name linked to the source,
+ *  the licence linked to its deed, each only when the address is known. */
+export function creditLineHtml(line: string, p: { url?: string | null; attribution?: string | null; attribution_url?: string | null; license?: string | null }): string {
+  const c = creditPieces(line, p);
+  const e = (s: string) => esc(s);
+  return e(c.before) +
+    (c.nameHref ? `<a href="${e(c.nameHref)}" rel="noopener">${e(c.name)}</a>` : e(c.name)) +
+    e(c.between) +
+    (c.licence ? (c.licenceHref ? `<a href="${e(c.licenceHref)}" rel="license noopener">${e(c.licence)}</a>` : e(c.licence)) : "") +
+    e(c.after);
+}
+
 export function creditText(attribution?: string | null, licenseStr?: string | null): string | null {
   const name = creditName(attribution);
   if (!name) return null;

@@ -9,7 +9,7 @@ import { mapFiltersJs } from "./map-filters-js";
 import { ui } from "./i18n";
 import { icon } from "./icons";
 import { treePinsJs } from "./tree-pins-js";
-import { saveButtonJs } from "./save-button";
+import { treeCardJs } from "./tree-card";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -553,7 +553,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
     inView: counted(U.treesInView), all: counted(U.allTrees), highlights: U.highlights,
     more: U.zoomForMore, app: U.readInApp, save: U.cardSave, saved: U.cardSaved,
     credit: U.photoCredit("{c}"),
-    collected: U.mapFilterMine, seen: U.seenChip,
+    collected: U.mapFilterMine, seen: U.seenChip, noPhoto: U.noPhotoYet,
     ambThe: U.ambassadorBecomeThe("{p}"), ambA: U.ambassadorBecomeA("{p}"), plus: U.plusRow,
   };
   const citiesJson = JSON.stringify(cities);
@@ -561,7 +561,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
   const speciesLatinJson = JSON.stringify(speciesLatin);
   return (
     mapScript(
-    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${saveButtonJs()}${mapFiltersJs()}
+    `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeCardJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
 // The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
@@ -578,8 +578,6 @@ var SP_ICONS = ${JSON.stringify(list.icons)};
 var SP_IC = ${JSON.stringify(list.speciesIcon)};
 var WORDS = ${JSON.stringify(words)};
 var CHEVRON = ${JSON.stringify(icon("caret-right", "bold", "ic city-box-chev"))};
-// The Seen badge on a collected tree's photograph (Phosphor's check-circle).
-var SEEN_MARK = ${JSON.stringify(icon("check-circle", "fill", "seen-ic"))};
 var BOX_IC = ${JSON.stringify({ amb: icon("seal-check", "bold", "ic city-box-ic"), plus: icon("sparkle", "fill", "ic city-box-ic") })};
 // The trees the filter row keeps; the list counts only those.
 var SHOWN = DATA.features;
@@ -868,44 +866,24 @@ function _plusHtml(trees) {
   return '<div class="city-box exc-box plus-under"><div class="plus-bar"><button type="button" class="plus-row city-box-row" data-from="explore" data-city="' + _esc(pl.n) + '">' +
     BOX_IC.plus + '<span class="city-box-label">' + _esc(WORDS.plus) + '</span>' + CHEVRON + '</button></div></div>';
 }
-function _treeBits(f) {
+// THE ONE CARD (lib/tree-card.ts, 2026-11-20): the highlight and the row
+// are TreeCard's own, written by the same function, fed what the pin and the
+// card catalogue know. Before, this list wrote both by hand.
+function _cardModel(f, variant) {
   var p = f.properties, k = (CARDS && p.id && CARDS[p.id]) || {};
-  var common = (p.sp !== undefined && p.sp !== null && SPECIES[p.sp]) || String(k.sp || '').replace(/\\s*\\(.*\\)\\s*$/, '');
-  var meta = [common, p.as || ''].filter(Boolean).map(_esc).join(' &middot; ');
+  var common = (p.sp !== undefined && p.sp !== null && SPECIES[p.sp]) || String(k.sp || '').replace(/\s*\(.*\)\s*$/, '');
   var ic = SP_ICONS[(p.sp !== undefined && p.sp !== null && SP_IC[p.sp]) || 'broadleaf'] || '';
-  return {id: p.id || '', name: p.name || k.n || '', href: p.url ? '/' + p.url : '',
-          photo: k.p || '', credit: k.cr || '', meta: meta, metaText: [common, p.as || ''].filter(Boolean).join(' · '), ic: ic};
+  var img = k.p ? { src: k.p } : null;
+  return { id: p.id || '', name: p.name || k.n || '', href: p.url ? '/' + p.url : '', variant: variant, h: 3,
+    metaParts: [common, p.as || ''], photo: img, hl: img, thumb: img, savePhoto: k.p || '',
+    tileIcon: ic, commonName: common, seen: Boolean(VISITED && VISITED[p.id]), creditHtml: k.ch || '',
+    // An app-only tree (lib/app-first.ts APP_ONLY_PINS) has no page: its name
+    // is no link and the card says where its story is, as its pin's card does.
+    appHtml: p.url ? '' : '<p class="tree-meta tree-app-only"><a href="/app" data-app-download>' + _esc(WORDS.app) + '</a></p>' };
 }
-// The save, the one button (lib/save-button.ts), SaveHeart's own function.
-function _heart(t) {
-  return atSaveButton({ id: t.id, name: t.name, save: WORDS.save, saved: WORDS.saved, url: t.href,
-    photo: t.photo, meta: t.metaText, look: 'card' });
-}
-function _nameHtml(t) { return t.href ? '<a href="' + _esc(t.href) + '">' + _esc(t.name) + '</a>' : _esc(t.name); }
-function _creditHtml(t) { return t.credit ? '<p class="tree-card-credit">' + _esc(WORDS.credit.replace('{c}', t.credit)) + '</p>' : ''; }
-// An app-only tree (lib/app-first.ts APP_ONLY_PINS) has no page: its name is
-// no link and the row says where its story is, as its pin's card does.
-function _appHtml(t) { return t.href ? '' : '<p class="tree-meta tree-app-only"><a href="/app" data-app-download>' + _esc(WORDS.app) + '</a></p>'; }
-// A highlight, TreeCard.astro's "highlight" variant.
-function _hlHtml(f) {
-  var t = _treeBits(f);
-  var seen = VISITED && VISITED[t.id] ? '<span class="tree-card-seen">' + SEEN_MARK + '<span>' + _esc(WORDS.seen) + '</span></span>' : '';
-  return '<article class="tree-hl tree-card-link" data-tree-id="' + _esc(t.id) + '">' +
-    '<div class="tree-hl-photo">' + (t.photo ? '<img src="' + _esc(t.photo) + '" alt="' + _esc(t.name) + '" loading="lazy">' : '') + seen + _heart(t) + '</div>' +
-    '<p class="tree-name tree-hl-name">' + _nameHtml(t) + '</p>' +
-    (t.meta ? '<p class="tree-meta">' + t.meta + '</p>' : '') + _appHtml(t) + _creditHtml(t) + '</article>';
-}
-// A row, TreeCard.astro's "row" variant: the 64px thumbnail (the species on
-// the pale tile without a photograph), name, meta, the save at the end.
-function _rowHtml(f) {
-  var t = _treeBits(f);
-  return '<article class="tree-card tree-card-link tree-card-nonum tree-card-row' + (t.photo ? '' : ' tree-card-hastile') + '" data-tree-id="' + _esc(t.id) + '">' +
-    '<div class="tree-row-thumb' + (t.photo ? '' : ' tree-row-thumb-none') + '" aria-hidden="true">' +
-      (t.photo ? '<img src="' + _esc(t.photo) + '" alt="" loading="lazy">' : '<svg viewBox="0 0 40 40">' + t.ic + '</svg>') + '</div>' +
-    '<div class="tree-row-text"><div class="tree-card-top"><h3 class="tree-name">' + _nameHtml(t) + '</h3></div>' +
-      (t.meta ? '<p class="tree-meta">' + t.meta + '</p>' : '') + _appHtml(t) + _creditHtml(t) + '</div>' +
-    '<div class="tree-row-save">' + _heart(t) + '</div></article>';
-}
+var _CARD_WORDS = { save: WORDS.save, saved: WORDS.saved, noPhoto: WORDS.noPhoto, seen: WORDS.seen };
+function _hlHtml(f) { return atTreeCard(_cardModel(f, 'highlight'), _CARD_WORDS); }
+function _rowHtml(f) { return atTreeCard(_cardModel(f, 'row'), _CARD_WORDS); }
 function renderPanel() {
   if (!panel || typeof map === 'undefined' || !map) return;
   var b = map.getBounds();

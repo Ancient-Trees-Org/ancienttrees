@@ -33,7 +33,10 @@ import { getCollection } from "astro:content";
 // Since 2026-11-06 the app-only trees too (lib/app-first.ts APP_ONLY_PINS),
 // with no "u": there is no page to open, and the card says so (collection-js).
 import { cityIsOnMap, mapTrees, treeHasPage, treeSlugsForCity } from "../../lib/trees";
-import { usablePhoto, thumbUrl, creditRequired, creditName } from "../../lib/images";
+import { usablePhoto, thumbUrl, creditRequired, creditText, creditLineHtml } from "../../lib/images";
+import { ui } from "../../lib/i18n";
+
+const EN = ui("en");
 import { ageShort } from "../../lib/age-short";
 import { seasonKey } from "../../lib/phenology";
 import { speciesIconKey } from "../../lib/species-icons";
@@ -57,7 +60,10 @@ export async function GET() {
         .map((s) => String(s ?? "").trim())
         .filter(Boolean)
         .join(" · ");
-      const credit = photo && creditRequired(photo.license) ? creditName(photo.attribution) : null;
+      // The credit as the card prints it, links and all (images.ts
+      // creditLineHtml, the one printer): the card script writes it as is.
+      const creditLine = photo && creditRequired(photo.license) ? creditText(photo.attribution, photo.license) : null;
+      const age = ageShort(tree) ?? "";
       out[tree.id] = {
         n: tree.name,
         ...(page ? { u: `/${city.id}/${slugs[tree.id]}` } : { a: 1 }),
@@ -83,7 +89,10 @@ export async function GET() {
         ...(photo?.url
           ? { p: thumbUrl(photo.url, 500), p9: thumbUrl(photo.url, 900) }
           : {}),
-        ...(credit ? { cr: `${credit} (${photo!.license})` } : {}),
+        ...(creditLine ? { ch: creditLineHtml(EN.photoCredit(creditLine), photo!) } : {}),
+        // The card's own meta line is the common name and this short age
+        // (TreeCard.astro); "m" stays the longer line /saved prints.
+        ...(age ? { ag: age } : {}),
         ...(tree.best_time?.months?.length ? { bt: tree.best_time.months, ...(seasonKey(tree) ? { sk: seasonKey(tree) } : {}) } : {}),
       };
     }

@@ -3802,6 +3802,34 @@ def check_one_save_button():
     return problems
 
 
+def check_one_tree_card():
+    """The tree card is one function, treeCardHtml() in site/src/lib/tree-card.ts:
+    TreeCard.astro renders through it and every script that draws a tree's
+    card carries it (treeCardJs()). Before 2026-11-20 the card catalogue and
+    the explore list wrote it by hand and had drifted (no credit links,
+    English words, a third "seen" badge). This refuses a tree card or a
+    highlight written anywhere else. The two exceptions are the trees a person
+    added themselves on their own profile (my-trees-js.ts, profile.astro's
+    ownTile): a card of their own design with no save, because such a tree is
+    not in the catalogue.
+
+    Removing this needs Hidde."""
+    problems = []
+    src = ROOT / "site" / "src"
+    one = src / "lib" / "tree-card.ts"
+    if not one.exists() or "export function treeCardHtml(" not in one.read_text():
+        return ["site/src/lib/tree-card.ts no longer defines treeCardHtml(), the one tree card"]
+    allowed = {one, src / "lib" / "my-trees-js.ts", src / "pages" / "profile.astro"}
+    for f in sorted(list(src.rglob("*.ts")) + list(src.rglob("*.astro"))):
+        if f in allowed:
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if re.search(r"""<article class=["'\\]*(tree-card|tree-hl)""", line):
+                problems.append("%s:%d writes a tree card by hand; use treeCardHtml / atTreeCard"
+                                % (f.relative_to(ROOT), i))
+    return problems
+
+
 def check_the_noindex_split_holds():
     """Pages Google alone is asked not to list carry the googlebot tag and only
     that; everything else on the noindex list carries the generic robots tag;
@@ -4749,6 +4777,7 @@ def main():
         check_a_map_is_only_built_when_it_can_be,
         check_one_tree_card_on_every_map,
         check_one_save_button,
+        check_one_tree_card,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in

@@ -33,7 +33,13 @@
 // out takes the list off the screen and the next sign-in brings it all back,
 // because it lives in the account rather than on the glass.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
-import { saveButtonJs } from "./save-button";
+import { treeCardJs } from "./tree-card";
+import { seasonChipHtml } from "./phenology";
+import { ui } from "./i18n";
+
+const EN = ui("en");
+// The season chips the card can show, by key, as the server writes them.
+const CHIPS = Object.fromEntries(["bloom", "autumn", "fruit", "leaves", "catkins", "winter"].map((k) => [k, seasonChipHtml(k, EN)]));
 // The card's save control is the app's bookmark (2026-10-09), the same pair
 // SaveHeart.astro renders, shown one at a time by aria-pressed.
 
@@ -43,7 +49,9 @@ export const COLLECTION_JS = `
 // recent searches, 2026-11-04), so the first copy wins and a second is a no-op:
 // one session check per page, never two doors.
 window.atCollection = window.atCollection || (function() {
-${saveButtonJs()}
+${treeCardJs()}
+var CARD_WORDS = ${JSON.stringify({ save: EN.cardSave, saved: EN.cardSaved, noPhoto: EN.noPhotoYet, seen: EN.seenChip })};
+var CARD_CHIPS = ${JSON.stringify(CHIPS)};
   var SB = '${SUPABASE_URL}', KEY = '${SUPABASE_KEY}';
   // In memory for the life of this page only. Deliberately not sessionStorage:
   // that is storage too, and the rule is the rule.
@@ -177,48 +185,25 @@ ${saveButtonJs()}
   // card's own true state, so My trees and Favourites read as the same
   // unmarked card everywhere (Hidde, 2026-09-03).
   function card(id, c, hearted, visited) {
-    var meta = c.m || '';
-    if (c.c) meta = meta ? meta + ' \\u00b7 ' + c.c : c.c;
-    // The season chip (phenology.ts seasonChipHtml, 2026-10-04): the moment's
-    // own name and tint, on the photograph when there is one. English, as the
-    // rest of this card is; the key arrives from /api/cards.json.
-    var chip = '';
-    var words = { bloom: 'In bloom', autumn: 'Autumn colour', fruit: 'In fruit', leaves: 'Fresh leaves',
-                  catkins: 'Catkins', winter: 'Winter shape' };
-    // No key, no chip: an unnamed "In season" said nothing (2026-10-05).
-    if (c.bt && words[c.sk] && c.bt.indexOf(new Date().getMonth() + 1) !== -1) {
-      chip = '<span class="best-now-inline sn-chip sn-' + c.sk + '">' + words[c.sk] + '</span>';
-    }
-    // The tag row (TreeCard.astro, 2026-10-04): season first, then Seen.
-    var seen = visited ? '<span class="tree-card-seen">'
-      + '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4A6B2A"/><path d="M7.5 12.5l3 3 6-6.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
-      + '<span>Collected</span></span>' : '';
-    var tags = (chip || seen) ? '<div class="tag-row' + (c.p ? '' : ' tag-row-under') + '">' + chip + seen + '</div>' : '';
-    var on = hearted !== false;
-    // The card heart (TreeCard.astro, 2026-10-04): on the photograph, or at
-    // the end of the name row when there is none. No action row, no "Read
-    // more": the whole card is the link.
-    // The one save button (lib/save-button.ts), the same function SaveHeart
-    // renders with.
-    var HEART = atSaveButton({ id: id, name: c.n, save: 'Save', saved: 'Saved', url: c.u || '',
-      photo: c.p || '', meta: c.m || '', look: 'card', pressed: on });
-    return '<article class="tree-card tree-card-nonum tree-card-link" data-tree-id="' + esc(id) + '">'
-      + (c.p ? '<div class="tree-card-photo">'
-               + '<img src="' + esc(c.p) + '" srcset="'
-               + esc(c.p) + ' 500w, ' + esc(c.p9 || c.p) + ' 900w" '
-               + 'sizes="(max-width: 800px) 100vw, 560px" alt="' + esc(c.n)
-               + '" loading="lazy">' + HEART + tags + '</div>' : '')
-      + (c.cr ? '<p class="tree-card-credit">Photo: ' + esc(c.cr) + '</p>' : '')
-      // An app-only tree (cards.json "a", 2026-11-06) has a pin and this card
-      // but no page: the name is not a link, and the card says where its
-      // story is, through the one "get the app" control (data-app-download:
-      // the App Store on iOS, the Android waitlist, the QR on a laptop).
-      + '<div class="tree-card-top">' + (c.p ? '' : HEART) + '<h3 class="tree-name">'
-        + (c.u ? '<a href="' + esc(c.u) + '">' + esc(c.n) + '</a>' : esc(c.n)) + '</h3></div>'
-      + (c.p ? '' : tags)
-      + (meta ? '<p class="tree-meta">' + meta + '</p>' : '')
-      + (c.a ? '<p class="tree-meta tree-app-only"><a href="/app" data-app-download>Read its story in the app</a></p>' : '')
-      + '</article>';
+    var common = String(c.sp || '').replace(/\\s*\\(.*\\)\\s*$/, '').trim();
+    var month = new Date().getMonth() + 1;
+    var icons = window.AT_PIN_ICONS || null;
+    return atTreeCard({
+      id: id, name: c.n || '', href: c.u || '', variant: 'compact', index: null, h: 3,
+      metaParts: [common, c.ag || ''],
+      photo: c.p ? { src: c.p, srcset: c.p + ' 500w, ' + (c.p9 || c.p) + ' 900w', sizes: '(max-width: 800px) 100vw, 560px' } : null,
+      savePhoto: c.p || '',
+      // The species drawing for a tree without a photograph, where the page
+      // carries the pins' drawings (every map does); else the broadleaf crown.
+      tileIcon: c.p ? '' : (icons ? (icons[c.ic || 'broadleaf'] || icons.broadleaf) : ''),
+      commonName: common,
+      chipHtml: c.bt && c.sk && CARD_CHIPS[c.sk] && c.bt.indexOf(month) !== -1 ? CARD_CHIPS[c.sk] : '',
+      seen: Boolean(visited),
+      creditHtml: c.ch || '',
+      // An app-only tree (cards.json "a") has no page: the name is no link,
+      // and the card says where its story is.
+      appHtml: c.a ? '<p class="tree-meta tree-app-only"><a href="/app" data-app-download>Read its story in the app</a></p>' : ''
+    }, CARD_WORDS);
   }
 
   function ids(path) {
