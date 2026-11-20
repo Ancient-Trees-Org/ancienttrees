@@ -1,0 +1,67 @@
+{
+  "city": "Tsitsikamma",
+  "country": "South Africa",
+  "status": "needs_curation",
+  "intro": "The Tsitsikamma section of the Garden Route National Park runs along the coast of South Africa's Eastern Cape, around the village of Storms River. In its Plaatbos forest, a short walk from the N2, stands the Big Tree, an Outeniqua yellowwood 36 metres tall that more than 80,000 people a year come to see. A reader sent it to us. Its age is estimated anywhere from 600 to more than 1,000 years.",
+  "meta_description": "The Big Tree of Tsitsikamma near Storms River: an Outeniqua yellowwood 36 metres tall, estimated at 600 to over 1,000 years. Fees and hours.",
+  "question_meta": "Tsitsikamma's tree to see is the Big Tree near Storms River, an Outeniqua yellowwood 36 metres tall, put at 600 to over 1,000 years.",
+  "question_answer": "The tree to see in Tsitsikamma is the Big Tree in Plaatbos forest near Storms River: an Outeniqua yellowwood 36 metres tall with a trunk about nine metres round, estimated at anywhere from 600 to more than 1,000 years.",
+  "question_context": "The measurements come from South Africa's champion tree register, which lists a height of 36 metres, a trunk 9.15 metres round and a crown 34 metres wide, and calls it one of the most accessible of the Tsitsikamma Big Trees, visited by more than 80,000 people a year. Nobody knows its exact age. National Geographic gives estimates from 600 to more than a thousand years, and other sources say 800 or 1,000. The tree stands in Plaatbos forest, in the Tsitsikamma section of the Garden Route National Park near Storms River Village, at the end of a short boardwalk trail from a car park with toilets just off the N2. Since 1 December 2025 one SANParks daily permit covers the Big Tree and the Plaatbos and Goesa trails, R96 per international adult and R27 per South African adult until October 2026. Gates open 07:00 to 18:00 from September to April and 08:00 to 17:00 from May to August.",
+  "hero_tree_id": "tsi_001",
+  "oldest_tree_id": "tsi_001",
+  "trees": [
+    {
+      "id": "tsi_001",
+      "name": "The Big Tree of Tsitsikamma",
+      "species": "Outeniqua Yellowwood (Afrocarpus falcatus)",
+      "age_estimate": "estimated 600 to 1,000 years, exact age unknown",
+      "age_min": 600,
+      "age_max": 1000,
+      "age_basis": "source",
+      "girth_cm": 915,
+      "height_m": 36,
+      "location": {
+        "address": "Plaatbos Nature Reserve, near Storms River Village, Garden Route National Park (Tsitsikamma), Eastern Cape",
+        "latitude": -33.96606,
+        "longitude": 23.89531,
+        "neighbourhood": "Storms River"
+      },
+      "story": "More than 80,000 people a year walk a short trail near Storms River to stand under one tree. South Africa's champion tree register says they are looking at an Outeniqua yellowwood 36 metres tall, with a trunk about nine metres round and a crown 34 metres wide.\n\nHow long it has stood there is a matter of estimates, and they are generous. National Geographic says nobody knows its exact age, and that some put it at only 600 years, others at more than a thousand. A News24 headline in 2020 said 1,000. Wikipedia captions it at 800. A reader who sent it to us says 600 to 800. Call it several centuries at the least, and take any single number with care.\n\nIt is the best known of the Tsitsikamma forest's big trees because it is one of the easiest to reach. The register calls it one of the most accessible, and National Geographic describes what that means in practice, with its own car park, toilets and a boardwalk just off the N2. The forest around it is Plaatbos, part of the Garden Route National Park.\n\nA reader sent it to us. Its trunk has been measured for the register. Its age is still an argument, and if you know of a better estimate, tell us.",
+      "how_to_recognise": "You can recognise it as the end of the signed Big Tree trail in Plaatbos forest: an Outeniqua yellowwood 36 metres tall with a trunk about nine metres round.",
+      "paid_entry": true,
+      "access": "Paid: SANParks charges a daily conservation fee at a staffed gate, and since 1 December 2025 one permit covers the Big Tree and the Plaatbos and Goesa trails (to 31 October 2026: R96 per international adult, R27 per South African adult with ID). Open 07:00 to 18:00 from September to April and 08:00 to 17:00 from May to August. Car park and toilets just off the N2 near Storms River Village.",
+      "found_by_reader": {
+        "tip": "939",
+        "date": "2026-11-16"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 939. Official register: South African Champion Trees entry 25 (via Wikipedia's list): 36 m, stem 9.15 m, crown 34 m, over 80,000 visitors a year, one of the most accessible Big Trees. Age conflict stated on the page: Wikipedia caption 800, News24 2020 headline 1,000, National Geographic 'nobody knows the exact age, some estimate only 600, others more than a thousand' (re-checked on the page 2026-11-20; it also describes the car park, restrooms and boardwalk off the N2), reader 600 to 800. Fees and hours re-checked 2026-11-20 on the George Herald page (14 Nov 2025): fees from 1 December 2025 to 31 October 2026, one daily permit for Plaatbos, Goesa and the Big Tree, hours as stated; the 'card only' line was not found and is left out. Pin approximate: reader's plus code and the register list's coordinate differ by about 125 m.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa",
+        "https://www.georgeherald.com/News/Article/Environment/entry-fees-for-plaatbos-and-goesa-forest-trails-in-tsitsikamma-202511131055",
+        "https://www.nationalgeographic.com/travel/article/the-big-tree",
+        "https://www.news24.com/multimedia/must-see-1-000-years-old-and-36-metres-tall-tsitsikammas-big-tree-site-is-open-for-business-20200920"
+      ],
+      "official_register": {
+        "name": "South African Champion Trees (National Forests Act; entry 25, Tsitsikamma Big Tree, size index 379)",
+        "url": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+      },
+      "location_precision": "approximate",
+      "pin_source": "Plus code 2VMW+H4 (reader, Google Maps) recovered to -33.96606,23.89531; Wikipedia's champion register list gives -33.96583,23.89667 (arcsecond rounded). The two differ by about 125 m, so kept approximate; tree stands at the end of a short signed forest boardwalk trail"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the Big Tree in Tsitsikamma?",
+      "a": "Nobody knows exactly. Estimates run from about 600 years to more than 1,000, and the figures quoted most often are 800 and 1,000."
+    },
+    {
+      "q": "Do I have to pay to see the Big Tree?",
+      "a": "Yes. SANParks charges a daily conservation fee at a staffed gate; one permit covers the Big Tree and the Plaatbos and Goesa trails. Check the current fee before you go."
+    },
+    {
+      "q": "How far is the walk to the Big Tree?",
+      "a": "It is short: a boardwalk trail from a car park just off the N2 near Storms River Village, which is why it is one of the most visited big trees in the forest."
+    }
+  ]
+}

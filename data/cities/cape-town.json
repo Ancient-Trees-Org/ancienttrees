@@ -1,0 +1,66 @@
+{
+  "city": "Cape Town",
+  "country": "South Africa",
+  "status": "needs_curation",
+  "intro": "Arderne Gardens in Claremont, in Cape Town's southern suburbs, was started in 1845 by a timber merchant from Cheshire and now holds more than 300 trees on 4.5 hectares, six of them national champion trees. The biggest is the Wedding Tree, a Moreton Bay fig by the entrance that the national register lists as the largest tree in the Western Cape. A reader sent it to us. Entry to the garden is free.",
+  "meta_description": "The Wedding Tree in Arderne Gardens, Claremont: a Moreton Bay fig listed as the largest tree in the Western Cape. Free entry, where it stands.",
+  "question_meta": "Cape Town's tree to see is the Wedding Tree in Arderne Gardens, Claremont, a Moreton Bay fig listed as the Western Cape's largest tree.",
+  "question_answer": "The tree to see in Cape Town is the Wedding Tree in Arderne Gardens, Claremont: a Moreton Bay fig 32.5 metres tall with a crown 44.3 metres across, which South Africa's champion tree register lists as the largest tree in the Western Cape.",
+  "question_context": "The fig stands near the entrance of Arderne Gardens on Main Road, where wedding parties have posed among its surface roots for decades. Its trunk is 11.89 metres round by the register's measurement, its crown 44.3 metres across, and its branches reach out more than 30 metres. The species is native to Australia. The garden was founded in 1845 by Ralph Henry Arderne, a timber merchant from Cheshire, and declared a National Monument in 1979, but no record dates the fig's own planting; the register puts the Arderne trees at about 160 years and the reader who sent it to us says 180. More than 300 trees grow on the garden's 4.5 hectares, six of them designated champion trees. Two other champions have been lost, a cork oak that fell and a Turkey oak that collapsed in October 2023. The garden is at 222 Main Road, Claremont, free to enter and published as open daily from 8am to 6pm.",
+  "hero_tree_id": "cpt_001",
+  "oldest_tree_id": "cpt_001",
+  "trees": [
+    {
+      "id": "cpt_001",
+      "name": "The Wedding Tree",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "age_estimate": "roughly 160 to 180 years",
+      "age_min": 150,
+      "age_max": 180,
+      "age_basis": "source",
+      "girth_cm": 1189,
+      "height_m": 32.5,
+      "location": {
+        "address": "Arderne Gardens, 222 Main Road, Claremont, Cape Town (near the park entrance)",
+        "latitude": -33.98731,
+        "longitude": 18.46494,
+        "neighbourhood": "Claremont"
+      },
+      "story": "For decades Cape Town's wedding parties have posed under this fig, which is why the city knows it as the Wedding Tree. The photographs tend to include the roots. They run across the ground from the trunk in every direction, Moreton Bay fig roots on a scale that makes a bridal party look small.\n\nSouth Africa's champion tree register lists it as the largest tree in the Western Cape, 32.5 metres tall, with a trunk 11.89 metres round and a crown 44.3 metres across. Its branches reach out more than 30 metres. The species is native to Australia, a long way from Claremont.\n\nThe garden around it was started in 1845 by Ralph Henry Arderne, a timber merchant from Cheshire, and declared a National Monument in 1979. More than 300 trees grow on its 4.5 hectares, and six of them are designated champions. Two others lost the title the hard way. The cork oak fell, and the Turkey oak collapsed in October 2023.\n\nWhen the fig itself went in, no record we have found says, and the garden's founding year is not its planting date. Describing other figs in Newlands, the register calls them the same vintage as the Arderne trees, about 160 years. A reader who sent it to us says 180. Somewhere between the two is the best we can do, and if you know when it was planted, tell us.",
+      "how_to_recognise": "You can recognise it by the huge surface roots running out from the trunk in every direction, where wedding parties pose. It stands near the entrance of Arderne Gardens on Main Road, Claremont.",
+      "access": "Free entry. Arderne Gardens is a public park at 222 Main Road, Claremont, published as open daily 8am to 6pm (hours from 2021; check before going).",
+      "found_by_reader": {
+        "tip": "937",
+        "date": "2026-11-16"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 937. Official register: South African Champion Trees, entry 34 'Wedding Tree and Arderne Fig Tree' (via Wikipedia's list): largest tree in the Western Cape, 32.5 m, stem 11.89 m, crown 44.3 m. Echoed by the Friends of Arderne Gardens (branches over 30 m, native to Australia), the Heritage Portal (Wedding Tree, wedding parties for decades, surface roots, hours 8 to 6) and Wikipedia Arderne Gardens (1845, R. H. Arderne, monument 1979). Alive: present in the Friends and Heritage Portal pages; the register list records the cork oak and Turkey oak collapses but not the fig; no dated 2025-26 photo seen. Age: no source dates this fig; the 1845 founding is not bridged to it; the 160 comes from the register's Fernwood note, the 180 from the reader. Reader's girth 1120 cm replaced by the register's 1189. Pin approximate (no source maps the tree as a point; garden coordinates within about 15 m).",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa",
+        "https://en.wikipedia.org/wiki/Arderne_Gardens",
+        "https://www.theheritageportal.co.za/article/arderne-gardens-home-largest-collection-champion-trees-south-africa",
+        "https://www.ardernegardens.org.za/champion-trees"
+      ],
+      "official_register": {
+        "name": "South African Champion Trees (National Forests Act, Dept of Forestry; entry no. 34, Wedding Tree and Arderne Fig Tree)",
+        "url": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+      },
+      "location_precision": "approximate",
+      "pin_source": "Plus code 2F77+3X (reader, Google Maps) recovered to -33.98731,18.46494 (cell about 14 m); Heritage Portal gives a garden coordinate -33.987276,18.465053 and Wikipedia -33.987281,18.464864; all within about 15 m, but the tree is not mapped as a point by any source, so kept approximate; the tree is the big fig by the entrance"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why is it called the Wedding Tree?",
+      "a": "Wedding parties in Cape Town have posed for photographs under this fig and among its huge surface roots for decades."
+    },
+    {
+      "q": "How old is the Wedding Tree?",
+      "a": "No record dates its planting. The national register puts the Arderne Gardens trees at about 160 years, and the reader who sent it to us says 180."
+    },
+    {
+      "q": "Can I visit Arderne Gardens?",
+      "a": "Yes, entry is free. The garden is at 222 Main Road, Claremont, and was published as open daily from 8am to 6pm; check the hours before you go."
+    }
+  ]
+}

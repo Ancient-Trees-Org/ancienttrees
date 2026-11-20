@@ -2,11 +2,11 @@
   "city": "Heidelberg",
   "country": "Germany",
   "status": "needs_curation",
-  "intro": "Heidelberg protects seven designated trees, from a hollow, cable-strapped linden by the funicular's upper station to a stand of horse chestnuts on the way up to the castle and a pair of oaks on a forest track above Ziegelhausen. Most carry no recorded age, only a designation date, so this page says so plainly rather than guessing. The Molkenkur Linden is the closest to a documented age, put at roughly 200 years by the local paper. All seven are free to visit, and six of seven pins are approximate rather than fixed at the trunk.",
+  "intro": "Heidelberg protects seven designated trees, from a hollow, cable-strapped linden by the funicular's upper station to horse chestnuts on the way up to the castle and a pair of oaks above Ziegelhausen. Up in the city forest stand two more, a champion giant sequoia in the arboretum and a hollow, spiral-grown oak on the Heiligenberg. Most carry no recorded age, and this page says so rather than guessing. The Molkenkur Linden comes closest, put at roughly 200 years by the local paper. All nine are free to visit, and eight of the nine pins are approximate.",
   "meta_description": "Heidelberg's ancient trees: a hollow, cable-strapped linden above the castle, horse chestnuts, a rare hybrid linden, oaks and more. All free.",
   "question_meta": "Heidelberg's best-documented old tree is the Molkenkur Linden above the castle, put at roughly 200 years by the local paper. Where it stands.",
-  "question_answer": "The closest thing to a documented age among Heidelberg's designated trees belongs to the Molkenkur Linden, hollow inside and held together with cables, put at roughly 200 years by the Rhein-Neckar-Zeitung. It stands at the Molkenkur viewpoint above Heidelberg Castle. The other six trees on this page carry no recorded age at all, only the date they were designated a natural monument.",
-  "question_context": "The 200-year figure for the Molkenkur Linden comes from a newspaper feature rather than a growth-rate reading or a ring count, and this page carries it as a loose middle point, 150 to 250 years, rather than a precise number. The trunk is genuinely hollow, and the crown has been held together with steel cables for twenty years, a maintenance choice the city has committed to rather than felling it. Nothing else here has comparable evidence. The Schlossberg Beech, the Neuenheimer Landstrasse Swamp Cypress, the Zwingerstrasse Horse Chestnuts, the Bergstrasse Crimean Linden, the Ringstrasse Oak and the Münchelstrasse Oaks are each documented only by a state register entry giving a name, a coordinate and a designation date between 1939 and 1986, with no age, girth or description attached to any. Six of the seven pins here come from that register's own coordinate rather than a reading at the trunk, hence approximate: expect the right stretch of street or garden rather than the exact spot. Where a tree's age or position is unknown, this page states that rather than inventing a number, and asks a visitor who can measure or place it more precisely to tell us.",
+  "question_answer": "The closest thing to a documented age among Heidelberg's designated trees belongs to the Molkenkur Linden, hollow inside and held together with cables, put at roughly 200 years by the Rhein-Neckar-Zeitung. It stands at the Molkenkur viewpoint above Heidelberg Castle. The other six designated trees on this page carry no recorded age at all, only the date they were designated a natural monument.",
+  "question_context": "The 200-year figure for the Molkenkur Linden comes from a newspaper feature rather than a growth-rate reading or a ring count, and this page carries it as a loose middle point, 150 to 250 years, rather than a precise number. The trunk is genuinely hollow, and the crown has been held together with steel cables for twenty years, a maintenance choice the city has committed to rather than felling it. Nothing else here has comparable evidence. The Schlossberg Beech, the Neuenheimer Landstrasse Swamp Cypress, the Zwingerstrasse Horse Chestnuts, the Bergstrasse Crimean Linden, the Ringstrasse Oak and the Münchelstrasse Oaks are each documented only by a state register entry giving a name, a coordinate and a designation date between 1939 and 1986, with no age, girth or description. Six of the seven register pins come from its own coordinate rather than a reading at the trunk, hence approximate. Two forest trees sit outside the register. Two tree registers estimate the Arboretum Giant Sequoia's planting at around 1876, and the Holdermann Oak has no recorded age at all. If you can measure or place any of them more precisely, tell us.",
   "hero_tree_id": "hei_001",
   "oldest_tree_id": "hei_001",
   "faq": [
@@ -20,11 +20,11 @@
     },
     {
       "q": "Are the pins for these trees exact?",
-      "a": "Six of the seven are approximate: the coordinate comes from the state register's own map rather than a GPS reading taken at the trunk, so expect the right street or garden rather than the exact spot."
+      "a": "Eight of the nine are approximate: the coordinate comes from a register's map or a mapped point rather than a GPS reading taken at the trunk, so expect the right street, garden or stretch of forest path rather than the exact spot."
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes. Six stand on open public ground: a viewpoint, a castle garden, streets and a tram stop. The Münchelstrasse oaks stand on or beside a public forest track above Ziegelhausen; keep to the track. No ticket needed for any of them, though the castle courtyard itself is separately ticketed."
+      "a": "Yes. Six stand on open public ground: a viewpoint, a castle garden, streets and a tram stop. The Münchelstrasse oaks stand on or beside a public forest track above Ziegelhausen; keep to the track. The arboretum sequoia and the Holdermann Oak are on open paths in the city forest. No ticket needed for any of them, though the castle courtyard itself is separately ticketed."
     }
   ],
   "trees": [
@@ -300,6 +300,75 @@
       "location_precision": "approximate",
       "curation_status": "flagged",
       "verify_notes": "Two separately registered pedunculate oaks, 82210001208 'Stieleiche Münchelstrasse (1)' (LUBW map centre 49.416813, 8.77382) and 82210001209 '(2)' (49.417398, 8.774223), about 70 m apart, folded into one entry. Both designated 1951-04-05. The register's 'Linde Münchelstrasse' (82210001211, 49.418177, 8.774663, also designated 1951-04-05, about 50 m further on) belongs to the same group and could be named in the story; no photo of it found. Coordinates are LUBW-derived map centres (de.wikipedia comment: 'von Kartenmittelpunkt (LUBW) abgeleitet'), so approximate; the Commons Object location on both photos is identical to the register centre, so it is not an independent GPS fix. Alive: both trunks photographed 2024-11-04 by Commons user Albrecht62 (CC BY-SA 4.0), files 'Stieleiche Münchelstraße-1.jpg' (pageid 154870714) and 'Stieleiche Münchelstraße-2.jpg' (pageid 154870908), Commons category Natural monuments in Heidelberg. Species: register name 'Stieleiche' plus Commons description; single register source, so flagged 'register only'. No girth, height or age found: LUBW Steckbriefe carry none (earlier pass 2026-10-14), no other source found in two searches. Age left empty; the page asks the reader. Photo route is open (photographs exist), judging the frame is for the photo pass. Not verified: whether the trunks stand on public ground or beside the track."
+    },
+    {
+      "id": "hei_008",
+      "name": "The Arboretum Giant Sequoia",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "age_estimate": "roughly 150 years (planted around 1876)",
+      "age_min": 140,
+      "age_max": 160,
+      "age_basis": "source",
+      "girth_cm": 765,
+      "height_m": 35,
+      "location": {
+        "address": "Arboretum 1, Sprunghöhe, Heidelberg city forest (69117 / 69115), reached from the forest car park on Klingenteichstraße towards Gaiberg",
+        "latitude": 49.40037,
+        "longitude": 8.70965,
+        "neighbourhood": "Sprunghöhe, Heidelberg city forest"
+      },
+      "story": "The ring of wooden logs around this tree's foot is not its own size. It marks the girth of the General Sherman Tree in California, about 31 metres round, laid out on the forest floor so you can hold the Heidelberg sequoia up against its most famous relative.\n\nThe Heidelberg one holds up well for a newcomer. It is the strongest giant sequoia in Arboretum 1 on the Sprunghöhe, and the German Dendrology Society lists it among the country's champion trees, at 7.92 metres round in 2021. A Baumkunde visit in September 2025 measured 7.65 metres and a height of 35; the society's estimate is nearer 40. Two tapes, two numbers, so call it about 7.7 to 7.9 metres.\n\nIts planting is estimated at around 1876. That is also the year Heidelberg's head forester decided to start planting non-native trees in the city forest, which is why these slopes hold so many exotics. Treat the date as an estimate for this trunk rather than a record, so roughly 150 years.\n\nThe arboretum around it is themed on North America, with a bench carrying a totem pole and a table shaped like a bald eagle along the circular path. The city calls the giant redwood one of the most awe-inspiring trees in its forest. A reader sent it to us, and the society last recorded it as fully vital.",
+      "how_to_recognise": "You can recognise it as the thickest giant sequoia in Arboretum 1, about 7.7 metres round. It stands inside a ring of wooden logs laid out to show the girth of the General Sherman Tree.",
+      "access": "Free, open forest walk in the Heidelberg city forest. The Arboretum 1 circular path starts at the forest car park beside a log cabin on the road from Klingenteichstrasse towards Gaiberg, past a rhododendron garden.",
+      "verified_sources": [
+        "https://ddg-web.de/rekordbaeume.html?VCardId=7000",
+        "https://www.baumkunde.de/baumregister/11174-bergmammutbaum_1_im_arboretum_1_bei_heidelberg/",
+        "https://www.heidelberg.de/english/Home/Visit/the+arboretums.html"
+      ],
+      "official_register": {
+        "name": "Deutsche Dendrologische Gesellschaft, Liste der Rekordbäume (Champion Trees), ID 7000, rank DE 16, BW 11",
+        "url": "https://ddg-web.de/rekordbaeume.html?VCardId=7000"
+      },
+      "location_precision": "approximate",
+      "pin_source": "OSM natural=tree node 1129572660 (49.4003654, 8.7096497), which carries the DDG, Baumkunde and Monumentaltrees refs for this tree; Baumkunde's own coordinate (N49°24.008' E8°42.585' = 49.40013, 8.70975) lies about 25 m away, and the arboretum's other giant sequoias stand within 100 m, so kept approximate",
+      "found_by_reader": {
+        "tip": "1061",
+        "date": "2026-11-17"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 1061. Two independent registers (DDG champion list ID 7000: 792 cm in 2021, 761 cm in 2017, height est. about 40 m, age est. about 150 years, about 1876, fully vital; Baumkunde register visit 2025-09-20: 765 cm, 35.0 m, planted 1876, vital) plus the city's arboretum page (exotic planting from 1876, North America theme, giant redwood). girth_cm is the newest measurement; the story gives both tapes. 1876 is an estimate for this trunk, stated as such. Pin: OSM node 1129572660 carrying the DDG and Baumkunde refs; Baumkunde's own coordinate is about 25 m off and other sequoias stand within 100 m, so approximate. The reader's ring of seats is not independently sourced and is left out; the ring of logs is DDG's. Same tree as the older Arboretum 1 sequoia lead in data/leads/heidelberg.json."
+    },
+    {
+      "id": "hei_009",
+      "name": "The Holdermann Oak",
+      "species": "Oak (Quercus sp.)",
+      "age_estimate": "not documented, centuries old by reputation",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Heiligenberg forest above Handschuhsheim / Ziegelhausen, Heidelberg (forest path, no street address)",
+        "latitude": 49.43134,
+        "longitude": 8.71967,
+        "neighbourhood": "Handschuhsheim, Heiligenberg"
+      },
+      "story": "Prussian troops and the Volkswehr fought a skirmish at this oak on 21 June 1849, according to a Heidelberg local history of the fortifications on the Heiligenberg. The oak is the landmark the report uses to say where the shooting was.\n\nThe name is older gossip. It belongs to Friedrich Holdermann, a wealthy Heidelberg innkeeper who owned the White Bear in Kettengasse, a beer house and a coffee house. A story repeated by walkers says he shot himself at the oak in 1764. We have found it only in that retelling, never in a record, so take it as the forest's version rather than history.\n\nWhat stands there now is a hollow oak whose trunk grew in a spiral, at a junction of paths in the city forest above Handschuhsheim, with one of Heidelberg's signpost stones beside it. Walkers describe the cavity, and mapping volunteers tag it as a natural monument, though we have not found its entry in the city's register.\n\nThat entry would tell us the rest. Nobody we can find has published its girth, its age or even which species of oak it is, so its centuries are a local reputation rather than a measurement. A reader sent it to us. If you have put a tape round it, or know its register number, tell us and we will add it.\n\nThe forest paths up the Heiligenberg get slippery after rain.",
+      "how_to_recognise": "You can recognise it by the hollow trunk, grown in a spiral. It stands at a junction of forest paths on the Heiligenberg above Handschuhsheim, beside a Heidelberg signpost stone.",
+      "access": "Free, on open public paths in the Heidelberg city forest (Naturpark Neckartal-Odenwald), about 1.4 km along the climb from Handschuhsheim to the Heiligenberg. Paths can be slippery after rain.",
+      "verified_sources": [
+        "https://www.komoot.com/highlight/142249",
+        "https://www.komoot.com/smarttour/29264",
+        "https://regionalia.blb-karlsruhe.de/files/24534/BLB_Mumm_Freischarenschanze_Heidenknoerzel.pdf",
+        "https://www.openstreetmap.org/node/1879169245"
+      ],
+      "location_precision": "approximate",
+      "pin_source": "OSM natural=tree node 1879169245 'Holdermannseiche' (49.4313408, 8.7196703), tagged denotation=natural_monument and monument=yes, with a note citing the city's Wegweiserstein (signpost stone) list; the reader's Google place 'Holdermanns-Eiche, 69121' carries no coordinate in its link",
+      "found_by_reader": {
+        "tip": "1063",
+        "date": "2026-11-17"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 1063. Flagged, thin: no official register entry, no girth, age or species found. Existence from three independent mentions: OSM node 1879169245 (denotation=natural_monument, note citing the city's signpost stone list), komoot highlight 142249 and tour 29264, and a regional history PDF (BLB Karlsruhe) placing a skirmish between Prussian troops and the Volkswehr at the Holdermannseiche on 1849-06-21. The 1764 suicide anecdote comes from a komoot user and is told on the page as a retelling. Alive: lifecheck RECENT 2026-04-26 (iNaturalist near the pin, not confirmed to be this trunk); komoot 2017-18 describe the hollow spiral trunk. Species left as genus. Pin approximate (OSM node)."
     }
   ]
 }

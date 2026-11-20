@@ -1,0 +1,63 @@
+{
+  "city": "Mouriscas",
+  "country": "Portugal",
+  "status": "needs_curation",
+  "intro": "Mouriscas is a village in the municipality of Abrantes, in Portugal's Médio Tejo. On Rua do Mouchão, inside a low stone wall, stands an olive that a 2016 study by the University of Trás-os-Montes e Alto Douro put at about 3,350 years, one of the oldest estimates for any tree in the country. It is a Tree of Public Interest, still bears olives, and is free to see at any hour. A reader sent it to us.",
+  "meta_description": "The Olive of Mouchão in Mouriscas, Abrantes: estimated at about 3,350 years, still fruiting, a Tree of Public Interest. Where it stands.",
+  "question_meta": "The tree to see in Mouriscas is the Olive of Mouchão, put at about 3,350 years by a 2016 study, still fruiting beside Rua do Mouchão.",
+  "question_answer": "The tree to see in Mouriscas is the Olive of Mouchão, a hollow olive estimated at about 3,350 years by a 2016 study from the University of Trás-os-Montes e Alto Douro, which still bears olives beside Rua do Mouchão.",
+  "question_context": "The estimate is dendrometric, read from the trunk's measurements, and a hollow olive cannot be dated by measurement alone, so the figure is one study's. The same method has put an olive in Vidigueira at more than 3,700 years. A council plaque gives a girth of 6.52 metres at chest height and 11.12 metres at the stump; the trunk is cut off a little over three metres up and the tree is about ten metres tall. It is a Galician-type olive grafted onto a wild one, still bears olives, and is reported to house a colony of bats. It has been a Tree of Public Interest since 2007 and came second in the Tree of the Year contest in 2020 and 2021. Its name comes from mouchão fishing, because fishermen gathered at the tree before going out. A stone wall and fresh soil were added around its base after the age study. It stands in a small walled public space, free to visit at any hour.",
+  "hero_tree_id": "mou_001",
+  "oldest_tree_id": "mou_001",
+  "trees": [
+    {
+      "id": "mou_001",
+      "name": "The Olive of Mouchão",
+      "species": "Olive (Olea europaea)",
+      "age_estimate": "about 3,350 years (University of Trás-os-Montes estimate, 2% margin)",
+      "age_min": 3280,
+      "age_max": 3420,
+      "age_basis": "source",
+      "girth_cm": 652,
+      "height_m": 10,
+      "location": {
+        "address": "Rua do Mouchão, Cascalhos, Mouriscas, Abrantes",
+        "latitude": 39.473214,
+        "longitude": -8.080941,
+        "neighbourhood": "Mouriscas"
+      },
+      "story": "In 2016 a forestry scientist from the University of Trás-os-Montes e Alto Douro put this olive at about 3,350 years, give or take two percent. If that holds, it was already more than five centuries old when Rome was founded.\n\nHold that loosely. The method reads age from the trunk's measurements, and a hollow olive, as this one is, cannot be dated by measurement alone. So 3,350 is one study's estimate. The same university's method has put another olive near Lisbon at about 2,850 and one in Vidigueira at more than 3,700, so this is one of Portugal's oldest olives by these estimates, not the only contender.\n\nA plaque from the Abrantes council gives 6.52 metres round at chest height and 11.12 metres at the stump. The trunk is hollowed out and cut off a little over three metres up, and from that stump the tree still grows about ten metres tall and still bears olives. It is a Galician-type olive grafted onto a wild one, and a colony of bats is reported to live in it.\n\nThe name comes from mouchão fishing. From the early twentieth century, fishermen gathered at the tree before heading out. It has been a Tree of Public Interest since 2007, came second in the Tree of the Year contest in 2020 and again in 2021, and since the age study has stood inside a stone wall with fresh soil at its feet. A reader sent it to us.",
+      "how_to_recognise": "You can recognise it by the hollow, gnarled trunk cut off just over three metres up, inside a low stone wall with a granite slab and a council plaque giving 3,350 years. It stands beside Rua do Mouchão.",
+      "access": "Free and open at all hours: a small walled public space beside Rua do Mouchão in Mouriscas, seen from the street. No ticket.",
+      "found_by_reader": {
+        "tip": "850",
+        "date": "2026-11-15"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 850 (the reader named the Wikipedia article). Official register: ICNF Tree of Public Interest, process KNJ1/478, aviso 4 of 2007-01-02, as quoted by Wikipedia (the ICNF ficha itself not fetched). Wikipedia gives the 2016 dendrometric estimate by José Luís Lousada (UTAD), about 3,350 years with a 2% margin, and its caveat that dendrometry alone cannot date a hollow olive; the plaque figures (652 cm at breast height, 1,112 cm at the stump, stem 320 cm); about 10 m tall; still fruiting (2024); Galician-type grafted on wild olive; bats reported; Tree of the Year second in 2020 and 2021; mouchão fishing name; wall and soil after the study. Not called the oldest in Portugal: our Lisbon page (lis_036) already names a Vidigueira olive at over 3,700 by the same method. Rome comparison is arithmetic on the study's figure, hedged. Pin confirmed: OSM tree node and Wikipedia coordinate agree within 1 m. The verifier's OSM entry in verified_sources was not a URL and is dropped; the node is recorded in pin_source.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+      ],
+      "official_register": {
+        "name": "ICNF Árvore de Interesse Público, process KNJ1/478, aviso 4 of 2007-01-02",
+        "url": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+      },
+      "location_precision": "confirmed",
+      "pin_source": "OSM natural=tree node (Oliveira do Mouchão) 39.473214,-8.080941; Wikipedia coordinate 39.4732194,-8.0809472 agrees within 1 m; reader's Google Maps place also named Oliveira do Mouchão, Mouriscas"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the Olive of Mouchão?",
+      "a": "About 3,350 years by a 2016 estimate from the University of Trás-os-Montes e Alto Douro, with a two percent margin. The method reads age from the trunk's size, and a hollow olive cannot be dated that way alone, so treat it as one study's figure."
+    },
+    {
+      "q": "Is it the oldest tree in Portugal?",
+      "a": "It is one of the oldest by these estimates. The same method has put an olive in Vidigueira at more than 3,700 years."
+    },
+    {
+      "q": "Can I visit the Olive of Mouchão?",
+      "a": "Yes, at any hour and for free. It stands inside a low stone wall in a small public space beside Rua do Mouchão in Mouriscas."
+    }
+  ]
+}

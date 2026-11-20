@@ -1,0 +1,66 @@
+{
+  "city": "Camaldoli",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Camaldoli is a monastery and hamlet in the forests of the Casentino, in the province of Arezzo, inside the Foreste Casentinesi national park. A short path from the monastery leads to the Castagno Miraglia, a completely hollow sweet chestnut 880 centimetres round that is considered the biggest chestnut in Tuscany, with an age put somewhere between 300 and 500 years. A reader sent us its pin. The walk is free.",
+  "meta_description": "The Castagno Miraglia near Camaldoli Monastery: a hollow sweet chestnut 8.8 m round, put at 300 to 500 years. Where it stands, how to walk there.",
+  "question_meta": "The tree to see at Camaldoli is the Castagno Miraglia, a hollow sweet chestnut 8.8 metres round, put at 300 to 500 years old.",
+  "question_answer": "The tree to see at Camaldoli is the Castagno Miraglia, a completely hollow sweet chestnut 880 centimetres round and about 20 metres tall, the largest tree in the Foreste Casentinesi national park, with an age put between 300 and 500 years.",
+  "question_context": "The national park authority puts the chestnut at 500 years at least, from an analysis of its diameter and height; the forest's historic register gave about 200 years more than a century ago, which would make it nearer 300 now. The park describes it as completely hollow and about 20 metres tall, and Wikipedia gives its girth as 880 centimetres, the largest of the park's trees and the biggest chestnut in Tuscany. Its trunk is split by a cavity about ten metres high and a metre and a half deep, which once held a table and chairs. It is named after Elena Miraglia, wife of a late-nineteenth-century director general at the agriculture ministry, who liked to sit in it; a folk story about an admiral who admired it is treated as legend. Despite its decay the tree is alive. Since the late 1990s a wooden fence has kept visitors off its roots. It stands alone in a clearing a little over a kilometre from the monastery.",
+  "hero_tree_id": "cml_001",
+  "oldest_tree_id": "cml_001",
+  "trees": [
+    {
+      "id": "cml_001",
+      "name": "Castagno Miraglia",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "roughly 300 to 500 years",
+      "age_min": 300,
+      "age_max": 500,
+      "age_basis": "source",
+      "girth_cm": 880,
+      "height_m": 20,
+      "location": {
+        "address": "Camaldoli, Poppi, Arezzo (path from the road just before Camaldoli Monastery), Parco Nazionale delle Foreste Casentinesi",
+        "latitude": 43.79,
+        "longitude": 11.8171,
+        "neighbourhood": "Camaldoli"
+      },
+      "story": "For years there was a table and chairs inside this chestnut. The cavity that splits its trunk runs about ten metres up and a metre and a half deep, and Elena Miraglia, wife of Nicola Miraglia, a director general at the agriculture ministry in the late nineteenth century, is said to have liked sitting in it. The tree carries her name.\n\nA folk version prefers an admiral, an ammiraglio, who stopped to admire it, ammirare, and left the pun behind. The Italian Botanical Heritage project files that one under legend.\n\nIts size is less in doubt. It is 880 centimetres round and about 20 metres tall, the largest of the trees in the Foreste Casentinesi national park, and considered the biggest chestnut in Tuscany. Its age is another matter. The park authority says at least 500 years, the figure an analysis of its diameter and height gives. The forest's historic register put it at about 200 more than a century ago, which would make it nearer 300 today.\n\nIt stands alone in a clearing on a short path from the Camaldoli monastery, completely hollow and twisted as if screwed round on itself, yet still alive and still carrying food up to its crown. Since the late 1990s a wooden fence has kept visitors off the roots, which trampling could suffocate, and the table went when the fence came. A reader sent us the pin.",
+      "how_to_recognise": "You can recognise it by the hollow trunk, split by a cavity about ten metres high and twisted as if screwed round. It stands alone in a forest clearing behind a wooden fence, a short walk from Camaldoli Monastery.",
+      "access": "Free, open walk in the Foreste Casentinesi national park: a short path, a little over 2 km there and back from Camaldoli Monastery with under 100 m of climb, to the fenced tree. The fence keeps visitors off the roots. No ticket published.",
+      "found_by_reader": {
+        "tip": "970",
+        "date": "2026-11-16"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 970, which supplied the coordinate the held Castagno Miraglia lead lacked. Existence, species and size from the national park authority's trekking page (at least 500 years, hollow, about 20 m, about 9 m round), it.wikipedia (880 cm, largest of the park's trees, considered the biggest chestnut in Tuscany, age contested 500 versus about 300 from the historic register, the Miraglia naming, the 10 m by 1.5 m cavity, table removed when the fence went up in the late 1990s, alive and feeding its crown) and Italian Botanical Heritage (the admiral story as legend). Reader's 2000 cm girth not supported by any source; 880 used. Height 20 m (park, wiki infobox). Pin confirmed: OSM node and the reader's Google place agree within 20 m. lifecheck not run; wiki page edited 2025-09 states alive.",
+      "verified_sources": [
+        "https://it.wikipedia.org/wiki/Castagno_Miraglia",
+        "https://trekking.parcoforestecasentinesi.it/en/poi/castagno-miraglia/",
+        "https://luoghi.italianbotanicalheritage.com/en/?p=33280",
+        "https://ilbelcasentino.it/itinerary-camaldoli-castagno-miraglia.en.php"
+      ],
+      "official_register": {
+        "name": "Parco Nazionale delle Foreste Casentinesi official trekking portal (park authority page for this tree)",
+        "url": "https://trekking.parcoforestecasentinesi.it/en/poi/castagno-miraglia/"
+      },
+      "location_precision": "confirmed",
+      "pin_source": "OSM natural=tree node 'Castagno Miraglia' 43.78999,11.81700 and the reader's Google Maps place (Castagno Miraglia) 43.7900547,11.8171987 agree within 20 m; the tree stands alone in a clearing inside a fence"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the Castagno Miraglia?",
+      "a": "Somewhere between about 300 and 500 years. The park authority says at least 500, from its size; the forest's historic register gave about 200 more than a century ago."
+    },
+    {
+      "q": "Why is it called Miraglia?",
+      "a": "After Elena Miraglia, wife of Nicola Miraglia, a late-nineteenth-century director general at the agriculture ministry, who liked to sit inside its cavity. A folk story about an admiral is usually filed as legend."
+    },
+    {
+      "q": "How do I walk to the Castagno Miraglia?",
+      "a": "From Camaldoli Monastery, a short forest path of a little over 2 km there and back, with under 100 m of climb, leads to the tree. It is free and the tree stands behind a wooden fence."
+    }
+  ]
+}

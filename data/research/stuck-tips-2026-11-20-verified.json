@@ -1,0 +1,650 @@
+[
+ {
+  "tip": "1062",
+  "verdict": "LEAD",
+  "name": "Romantik-Eiche",
+  "species": "Oak (Quercus sp.)",
+  "age_estimate": "reader says about 200 years (unsourced)",
+  "age_min": null,
+  "age_max": null,
+  "age_basis": "source",
+  "girth_cm": null,
+  "height_m": null,
+  "location": {
+   "address": "Eichendorff-Anlage, Philosophenweg 27, 69120 Heidelberg",
+   "latitude": 49.41569,
+   "longitude": 8.70029,
+   "neighbourhood": "Neuenheim, Philosophenweg"
+  },
+  "location_precision": "approximate",
+  "pin_source": "The reader's Google link resolves to the place 'Eichendorff-Anlage, Philosophenweg 27' (no tree coordinate); OSM Eichendorff-Anlage memorial stele node 419293998 is 49.4156869, 8.7002928. Wikipedia-style park level only; about ten unnamed oak nodes stand within 20 m in OSM, none named Romantik",
+  "access": "Eichendorff-Anlage is a public memorial spot on the Philosophenweg reached by 27 steps or across a meadow; free",
+  "verified_sources": [],
+  "official_register": null,
+  "recognise": "",
+  "facts": [
+   {
+    "f": "Eichendorff-Anlage is a memorial for the poet Joseph von Eichendorff on the Philosophenweg, marked by a stele; the city has a signpost stone (ref II01Xg).",
+    "u": "https://www.openstreetmap.org/node/419293998"
+   }
+  ],
+  "verify_notes": "No source I found uses the name 'Romantik-Eiche' for any Heidelberg tree (three searches, a komoot, OSM and Wikipedia pass). OSM has about ten Quercus nodes within 20 m of the memorial (several unnamed deciduous, a cork oak with a DDG ref, holm oaks), so which trunk the reader means is unknown. No age, girth or register. Not shipped: nothing independent names or dates it, and no tree-level pin. Can ship if the reader's own photograph or GPS fix (they sent a map link only) identifies the trunk, or the city's tree register names it.",
+  "missing": "any second source naming 'Romantik-Eiche' or dating the oak; which of the several oaks at the Eichendorff-Anlage it is (tree-level pin)"
+ },
+ {
+  "tip": "1061",
+  "verdict": "SHIP",
+  "name": "Bergmammutbaum 1 im Arboretum 1",
+  "species": "Giant Sequoia (Sequoiadendron giganteum)",
+  "age_estimate": "roughly 150 years (planted around 1876)",
+  "age_min": 140,
+  "age_max": 160,
+  "age_basis": "source",
+  "girth_cm": 765,
+  "height_m": 35,
+  "location": {
+   "address": "Arboretum 1, Sprunghöhe, Heidelberg city forest (69117 / 69115), reached from the forest car park on Klingenteichstraße towards Gaiberg",
+   "latitude": 49.40037,
+   "longitude": 8.70965,
+   "neighbourhood": "Sprunghöhe, Heidelberg city forest"
+  },
+  "location_precision": "approximate",
+  "pin_source": "OSM natural=tree node 1129572660 (49.4003654, 8.7096497), which carries the DDG, Baumkunde and Monumentaltrees refs for this tree; Baumkunde's own coordinate (N49°24.008' E8°42.585' = 49.40013, 8.70975) lies about 25 m away, and the arboretum's other giant sequoias stand within 100 m, so kept approximate",
+  "access": "Free, open forest walk (DDG: publicly accessible); the arboretum circular path starts from the forest car park beside a log cabin on the road towards Gaiberg; rhododendron garden on the way; city bus 21 to Klinik Schmieder for Arboretum 2",
+  "verified_sources": [
+   "https://ddg-web.de/rekordbaeume.html?VCardId=7000",
+   "https://www.baumkunde.de/baumregister/11174-bergmammutbaum_1_im_arboretum_1_bei_heidelberg/",
+   "https://www.heidelberg.de/english/Home/Visit/the+arboretums.html"
+  ],
+  "official_register": {
+   "name": "Deutsche Dendrologische Gesellschaft, Liste der Rekordbäume (Champion Trees), ID 7000, rank DE 16, BW 11",
+   "url": "https://ddg-web.de/rekordbaeume.html?VCardId=7000"
+  },
+  "recognise": "The strongest giant sequoia of Arboretum 1, with a flared trunk foot, standing in the stand but with plenty of room, ringed by wooden logs that mark the girth of the General Sherman Tree (about 31 m); the reader also reports a ring of seats around it.",
+  "facts": [
+   {
+    "f": "DDG champion tree list: trunk girth 792 cm at 1.3 m (March 2021; 761 cm in April 2017), height estimated about 40 m, age about 150 years (estimated about 1876); strongest giant sequoia of the arboretum; condition fully vital.",
+    "u": "https://ddg-web.de/rekordbaeume.html?VCardId=7000"
+   },
+   {
+    "f": "The surrounding wooden logs mark the girth of the world's stoutest giant sequoia, the General Sherman Tree, about 31 m.",
+    "u": "https://ddg-web.de/rekordbaeume.html?VCardId=7000"
+   },
+   {
+    "f": "Baumkunde, visited 2025-09-20: girth 7.65 m measured, height 35.0 m, planted 1876, state vital.",
+    "u": "https://www.baumkunde.de/baumregister/11174-bergmammutbaum_1_im_arboretum_1_bei_heidelberg/"
+   },
+   {
+    "f": "In 1876 Heidelberg's head forester decided to start planting non-native trees in the city forest, which is why it holds many exotics.",
+    "u": "https://www.heidelberg.de/english/Home/Visit/the+arboretums.html"
+   },
+   {
+    "f": "Arboretum 1 (Sprunghöhe) is themed 'Impressions of North America': rest areas and the circular path are inspired by Native American views of nature, with a bench with totem pole and a 'bald eagle' table.",
+    "u": "https://www.heidelberg.de/english/Home/Visit/the+arboretums.html"
+   },
+   {
+    "f": "The city calls the giant redwood one of the most awe-inspiring trees of its forest.",
+    "u": "https://www.heidelberg.de/english/Home/Visit/the+arboretums.html"
+   }
+  ],
+  "verify_notes": "Two independent trees registers (DDG champion list; Baumkunde, 2025 visit) plus the city's own page: existence, species, size, planting year agree. Alive: Baumkunde 2025-09-20 vital; OSM node has check_date. Girth: DDG 792 (2021) vs Baumkunde 765 (2025) vs reader 765: the DDG figure is higher; two measurers, quote 'about 7.7 to 7.9 m'; I used the newest 765 for girth_cm. Height 35 m (2025) vs DDG estimate 40 m. Age: 1876 is DDG 'estimated' and Baumkunde plants date; the city says exotic planting began in 1876 in the forest generally. Do not state 1876 as documented for this tree: 'around 1876'. Other giant sequoias (one OSM node dated start_date 1969) stand within 100 m; this is the thickest. OSM node ref:monumentaltrees used only to confirm identity, not for facts. Reader's 'ring of seats' not independently sourced (the logs ring is). Replaces the older Arboretum 1 sequoia lead in data/leads/heidelberg.json (same tree).",
+  "missing": ""
+ },
+ {
+  "tip": "1063",
+  "verdict": "SHIP",
+  "name": "Holdermanns-Eiche",
+  "species": "Oak (Quercus sp.)",
+  "age_estimate": "not documented, centuries old by reputation",
+  "age_min": null,
+  "age_max": null,
+  "age_basis": "source",
+  "girth_cm": null,
+  "height_m": null,
+  "location": {
+   "address": "Heiligenberg forest above Handschuhsheim / Ziegelhausen, Heidelberg (forest path, no street address)",
+   "latitude": 49.43134,
+   "longitude": 8.71967,
+   "neighbourhood": "Handschuhsheim, Heiligenberg"
+  },
+  "location_precision": "approximate",
+  "pin_source": "OSM natural=tree node 1879169245 'Holdermannseiche' (49.4313408, 8.7196703), tagged denotation=natural_monument and monument=yes, with a note citing the city's Wegweiserstein (signpost stone) list; the reader's Google place 'Holdermanns-Eiche, 69121' carries no coordinate in its link",
+  "access": "Free, open public forest paths in the Heidelberg city forest (Naturpark Neckartal-Odenwald); komoot routes place it about 1.4 km from the Handschuhsheim climb to the Heiligenberg; trails can be slippery after rain",
+  "verified_sources": [
+   "https://www.komoot.com/highlight/142249",
+   "https://www.komoot.com/smarttour/29264",
+   "https://regionalia.blb-karlsruhe.de/files/24534/BLB_Mumm_Freischarenschanze_Heidenknoerzel.pdf",
+   "https://www.openstreetmap.org/node/1879169245"
+  ],
+  "official_register": null,
+  "recognise": "A hollow, spiral-grown old oak at a forest path junction with a Heidelberg city signpost stone; named after the innkeeper Friedrich Holdermann.",
+  "facts": [
+   {
+    "f": "Named after Friedrich Holdermann, a wealthy Heidelberg citizen and innkeeper who owned the White Bear at Kettengasse 19, the Heldische Bierhaus and the Holdermannsche Kaffeehaus; he is said to have shot himself at the oak in 1764.",
+    "u": "https://www.komoot.com/smarttour/29264"
+   },
+   {
+    "f": "A 2017 komoot visitor describes a beautiful spiral-grown old tree whose trunk is quite hollow.",
+    "u": "https://www.komoot.com/highlight/142249"
+   },
+   {
+    "f": "Komoot lists it as a Natural Monument; OSM tags it natural_monument.",
+    "u": "https://www.komoot.com/highlight/142249"
+   },
+   {
+    "f": "A skirmish between Prussian troops and the Volkswehr took place at the Holdermannseiche on 21 June 1849 (Heidelberg local history text on the Heidenknörzel fortification).",
+    "u": "https://regionalia.blb-karlsruhe.de/files/24534/BLB_Mumm_Freischarenschanze_Heidenknoerzel.pdf"
+   }
+  ],
+  "verify_notes": "Thin, flag 'no official register seen': I did not find the city of Heidelberg's Naturdenkmal register entry or any measurement, age or girth. Existence: three independent mentions (OSM with city signpost reference, komoot highlight and tour tips, a regional history publication). Alive: lifecheck.py gave RECENT 2026-04-26 (an iNaturalist observation near the pin, https://www.inaturalist.org/observations/355591739), not confirmed to be of this trunk; komoot comments 2017-18 describe the hollow trunk. Species unknown beyond oak: leave genus. The 1764 suicide anecdote is 'said to', quoted from a komoot user; I did not verify it. Reader's 'hollow core' matches komoot. A hotel listing says about 5 km from the centre / about 7 minutes' walk from a hotel: ignore, inconsistent.",
+  "missing": "city Naturdenkmal register entry with girth and age, species (Stieleiche or Traubeneiche); optional"
+ },
+ {
+  "tip": "1065",
+  "verdict": "SHIP",
+  "name": "Banyan of Bách Tùng Diệp Park",
+  "species": "Banyan (Ficus sp.)",
+  "age_estimate": "said to be over 300 years",
+  "age_min": null,
+  "age_max": null,
+  "age_basis": "source",
+  "girth_cm": null,
+  "height_m": null,
+  "location": {
+   "address": "Bách Tùng Diệp (Lý Tự Trọng) Park, between Nam Kỳ Khởi Nghĩa and Pasteur streets, District 1, Ho Chi Minh City",
+   "latitude": 10.7764,
+   "longitude": 106.6993,
+   "neighbourhood": "District 1"
+  },
+  "location_precision": "approximate",
+  "pin_source": "Park level only: reader's Google place 'QMGX+HP3 Bach Tung Diep Park' (plus code recovered to 10.77639,106.69930) and Wikipedia park coordinate 10.7762,106.6991, about 25 m apart. No source gives a tree-level coordinate; mia.vn says the banyan stands in the middle of the park",
+  "access": "Free, open public city park in central District 1 (Wikipedia: open all year; no ticket); near Opera House station of Metro Line 1; opening hours not found",
+  "verified_sources": [
+   "https://en.wikipedia.org/wiki/B%C3%A1ch_T%C3%B9ng_Di%E1%BB%87p_Park",
+   "https://www.saigoneer.com/saigon-heritage/6473-how-b%C3%A1ch-t%C3%B9ng-di%E1%BB%87p-became-a-saigon-park-from-earmarked-consulate-land",
+   "https://mia.vn/cam-nang-du-lich/cong-vien-bach-tung-diep-16723",
+   "https://www.greensm.com/vn-vi/news/cong-vien-bach-tung-diep-quan-1"
+  ],
+  "official_register": null,
+  "recognise": "A centuries-old banyan with five trunks standing in the middle of a small (about 5,000 m2) park, with a huge root system.",
+  "facts": [
+   {
+    "f": "Wikipedia: within the park stands a centuries-old banyan with five trunks, estimated to be over 300 years old as of the early 2000s (cites a 2004 Người Lao Động article).",
+    "u": "https://en.wikipedia.org/wiki/B%C3%A1ch_T%C3%B9ng_Di%E1%BB%87p_Park"
+   },
+   {
+    "f": "The site was the 'Jardin d'Espagne' from 1864, land France handed to Spain for a consulate; the botanical and zoological garden staff cared for its 'ancient banyan tree'; British consulate plans of 1927 were dropped.",
+    "u": "https://www.saigoneer.com/saigon-heritage/6473-how-b%C3%A1ch-t%C3%B9ng-di%E1%BB%87p-became-a-saigon-park-from-earmarked-consulate-land"
+   },
+   {
+    "f": "Under King Tu Duc a market called Cây Da Còm stood in this area, frequented by students buying clothes and hats before the court exams (Pétrus Ký, via Wikipedia).",
+    "u": "https://en.wikipedia.org/wiki/B%C3%A1ch_T%C3%B9ng_Di%E1%BB%87p_Park"
+   },
+   {
+    "f": "Mia.vn: the banyan in the middle of the park is over 300 years old with a huge, impressive root system; Saigoneer's other piece calls a cây đa in Lý Tự Trọng Park 'rumored' to be Saigon's most ancient tree at over 300 years.",
+    "u": "https://mia.vn/cam-nang-du-lich/cong-vien-bach-tung-diep-16723"
+   },
+   {
+    "f": "The park doubled in size in the early 1980s and now spans the block; formerly Liên Hiệp Park; also called Lý Tự Trọng Park.",
+    "u": "https://www.saigoneer.com/saigon-heritage/6473-how-b%C3%A1ch-t%C3%B9ng-di%E1%BB%87p-became-a-saigon-park-from-earmarked-consulate-land"
+   }
+  ],
+  "verify_notes": "Flag: no register, age is a repeated rumour or estimate from about 2004; state 'said to be over 300 years', no figure sharpened. Existence: Wikipedia (citing 2004 press), Saigoneer 2026 (ancient banyan cared for in the 1920s), mia.vn and greensm tourism pages, not independent in origin but several. Alive: Saigoneer 2026 article about the park; no dated photo of the tree seen, lifecheck.py not run. Species: banyan, Ficus sp.; no source gives the exact species. The reader's lotus ponds are NOT confirmed by any source I read: omit. The reader's park 'overlooked' wording unverified. Pin is park-level (about 5,000 m2); the tree is said to be in the middle. Park is outside the 'small named site' guidance (never a park) so findability relies on the recognition line; decide on the shelf.",
+  "missing": "tree-level coordinate and a measurement; lotus ponds claim unverified"
+ },
+ {
+  "tip": "1032",
+  "verdict": "SHIP",
+  "name": "Gran Abuelo (Alerce Milenario, Lañilawal)",
+  "species": "Patagonian Cypress (Fitzroya cupressoides)",
+  "age_estimate": "estimated 3,500 to over 5,000 years (a contested 2022 model estimate of 5,484 years)",
+  "age_min": 3500,
+  "age_max": 5500,
+  "age_basis": "source",
+  "girth_cm": 1100,
+  "height_m": 28,
+  "location": {
+   "address": "Sector Mirador, Alerce Costero National Park, Sendero Alerce Milenario, between La Unión and Corral, Los Ríos Region, Chile",
+   "latitude": -40.195163,
+   "longitude": -73.451199,
+   "neighbourhood": "Alerce Costero National Park"
+  },
+  "location_precision": "confirmed",
+  "pin_source": "OSM natural=tree node named 'Gran Abuelo Alerce' at -40.1951633,-73.4511986 on the Sendero Alerce Milenario (path 2,196 m); the viewing platform stands 2 m from the tree (Scientific American)",
+  "access": "Paid and guided: tickets bought in advance on Pasesparques.cl (2026 chile.travel: foreign adult CLP 10,000, Chilean adult CLP 4,700); Sector Mirador entry only with a park ranger in set turns, winter 10:30 only, summer 10:30 and 14:30, groups of at most 15; park open Tuesday to Sunday per one source; gravel road about 48 km from La Unión, no public transport; walk about 1.5 h each way, medium difficulty (trail guide: 5.3 km). Confirm times with CONAF before going.",
+  "verified_sources": [
+   "https://en.wikipedia.org/wiki/Alerce_Milenario",
+   "https://www.scientificamerican.com/article/this-might-be-the-worlds-oldest-tree-and-it-could-die-of-thirst/",
+   "https://www.chile.travel/blog/conoce-el-arbol-mas-viejo-del-mundo-trekking-en-el-parque-nacional-alerce-costero/",
+   "https://www.meteored.cl/noticias/ciencia/gran-abuelo-alerce-tiene-5484-anos-de-edad-y-aun-vive-chile.html"
+  ],
+  "official_register": null,
+  "recognise": "The largest tree of the park, a 4.2 m wide, lichen and moss covered alerce in a ravine, with a viewing platform two metres from its trunk; much of its crown has fallen and only about 28 percent is alive.",
+  "facts": [
+   {
+    "f": "2020: Jonathan Barichivich and Antonio Lara (Universidad Austral de Chile) took a partial increment core; the 2022 study estimated 5,484 years, extrapolated from a core through 40 percent of the diameter with 2,400 rings, climate data and other alerces.",
+    "u": "https://www.scientificamerican.com/article/this-might-be-the-worlds-oldest-tree-and-it-could-die-of-thirst/"
+   },
+   {
+    "f": "The age is a model estimate; Ed Cook says only counting all rings truly dates a tree, and the tree's rotten centre prevents a full core.",
+    "u": "https://en.wikipedia.org/wiki/Alerce_Milenario"
+   },
+   {
+    "f": "Earlier estimates were about 3,500 years; the 2022 study (Science) raised it past 5,400.",
+    "u": "https://www.chile.travel/blog/conoce-el-arbol-mas-viejo-del-mundo-trekking-en-el-parque-nacional-alerce-costero/"
+   },
+   {
+    "f": "Trunk 4.2 m wide, 28 m tall (Scientific American); chile.travel gives 4.2 m diameter and 11 m perimeter.",
+    "u": "https://www.scientificamerican.com/article/this-might-be-the-worlds-oldest-tree-and-it-could-die-of-thirst/"
+   },
+   {
+    "f": "Only about 28 percent of the tree is alive, mostly in the roots; walking on nearby soil damages the last living parts (Barichivich).",
+    "u": "https://en.wikipedia.org/wiki/Alerce_Milenario"
+   },
+   {
+    "f": "The viewing platform sits two metres from the tree and blocks about half the rain reaching its roots; park authorities limit visits near it.",
+    "u": "https://www.scientificamerican.com/article/this-might-be-the-worlds-oldest-tree-and-it-could-die-of-thirst/"
+   },
+   {
+    "f": "The Mapuche called the species lahuán; growth under 1 mm a year.",
+    "u": "https://www.chile.travel/blog/conoce-el-arbol-mas-viejo-del-mundo-trekking-en-el-parque-nacional-alerce-costero/"
+   },
+   {
+    "f": "Guardian reported more than 10,000 tourists a year walk to the platform (Wikipedia calls the visitor number dubious).",
+    "u": "https://en.wikipedia.org/wiki/Alerce_Milenario"
+   }
+  ],
+  "verify_notes": "Existence, species, size, age: Scientific American plus Wikipedia plus chile.travel (national tourism board, 2026 blog) plus Meteored: independent. No official register entry. Alive: 2026 chile.travel guide describes current ranger-led visits; Barichivich says 28% alive. Conflicts: chile.travel says 60 m tall, which is implausible against 28 m (Sci Am): use 28. Reader's girth 420 cm is the DIAMETER (4.2 m); girth taken from chile.travel perimeter 11 m (4.2 m x pi would be 13 m, so the trunk is not round; say 'about 11 m'). Age: do not state 5,484 as fact; state as the 2022 study's estimate, contested; age_min/max are my loose bracket from the pre-2022 figure 3,500 to the study. Entry price and hours come from a travel blog and a search summary (chile.travel blog fully read; CONAF page not found), re-check before publishing figures.",
+  "missing": ""
+ },
+ {
+  "tip": "906",
+  "verdict": "SHIP",
+  "name": "Cat Island Champion Bald Cypress",
+  "species": "Bald Cypress (Taxodium distichum)",
+  "age_estimate": "estimated 1,200 to 1,500 years (hollow, so no ring count)",
+  "age_min": 1000,
+  "age_max": 1500,
+  "age_basis": "source",
+  "girth_cm": 1646,
+  "height_m": 25,
+  "location": {
+   "address": "Big Cypress Trail, Cat Island National Wildlife Refuge, about 4.8 miles from the refuge entrance gate, near St. Francisville, West Feliciana Parish, Louisiana",
+   "latitude": 30.76444,
+   "longitude": -91.47606,
+   "neighbourhood": "Cat Island National Wildlife Refuge"
+  },
+  "location_precision": "approximate",
+  "pin_source": "Google Maps place 'QG7F+QH Cat Island Cypress, St Francisville' from the reader's link, plus code recovered to 30.76444,-91.47606 (cell about 14 m); not cross-checked against a second coordinate (no OSM node, Atlas Obscura page gave none). Tree is the end point of the 0.75 mile Big Cypress Trail so the pin is probably on it, but kept approximate",
+  "access": "Free, no entry fee. Primitive parking at the Big Cypress Trail start, then a 0.75 mile round-trip walk to the tree and a wooden observation deck. Refuge floods roughly December to June: Wikipedia and FWS text say no access to the tree once the Baton Rouge river gauge reaches about 26 ft; WorldAtlas says questionable from 20 ft; reachable only by boat in flood. No toilets or water. Check refuge guidance first.",
+  "verified_sources": [
+   "https://americanpress.com/?p=255424",
+   "https://en.wikipedia.org/wiki/Cat_Island_National_Wildlife_Refuge",
+   "https://www.fws.gov/refuge/Cat-Island/",
+   "https://www.worldatlas.com/forests/the-biggest-tree-east-of-the-mississippi.html"
+  ],
+  "official_register": {
+   "name": "US Fish and Wildlife Service, Cat Island NWR (National Champion baldcypress; American Forests champion register not opened)",
+   "url": "https://www.fws.gov/refuge/Cat-Island/"
+  },
+  "recognise": "A buttressed trunk that looks like two trees grown together (DNA says one tree), buttresses deep enough for a person to hide in, at the end of the Big Cypress Trail beside a wooden observation deck.",
+  "facts": [
+   {
+    "f": "American Press 2022-11-20: height 83 ft, circumference 54 ft, diameter 17 ft; largest bald cypress in the US, sixth largest tree in the US, largest tree of any species east of the Sierra Nevada.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "FWS figures reported elsewhere: 96 ft tall, 56 ft circumference. Two sources differ; American Press values (83 ft, 54 ft = about 1,646 cm) are the ones I saw on the page.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "Trunk looks like two trees grown together, but DNA testing showed one tree.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "Age uncertain because hollow: refuge signs say 1,000 years, FWS page 1,500; the Friends of Cat Island president gives a range of 1,200 to 1,500.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "Buttressed trunk splits into two canopies; buttresses deep enough for a person to hide inside.",
+    "u": "https://en.wikipedia.org/wiki/Cat_Island_National_Wildlife_Refuge"
+   },
+   {
+    "f": "Refuge surrounded by Mississippi River and Bayou Sara on three sides and Tunica Hills on the fourth; flooding typically December to June, 15-20 ft of water in places.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "Friends of Cat Island were rebuilding the wooden observation deck after flood damage in 2021-22; refuge established October 2000.",
+    "u": "https://americanpress.com/?p=255424"
+   },
+   {
+    "f": "Other large old-growth cypress stand near the champion tree; trail closed to hunting.",
+    "u": "https://americanpress.com/?p=255424"
+   }
+  ],
+  "verify_notes": "Existence: American Press (dated news, visit 2022-11-11, named Friends president quoted) plus FWS refuge page (via search, my direct fetch returned only 225 chars) plus Wikipedia (which copies FWS). US: one credible source suffices, flagged. Life check: 2022 visit report; WECT/WAFB 2026-11-16 TV piece on Louisiana cypress conservation appeared in search but I did not open it. No dated 2026 sighting of this tree seen: flag 'alive per 2022 report'. Girth 54 ft = 1,646 cm from American Press (reader's 1650 matches). Height 83 ft = 25 m (FWS 96 ft = 29 m reported by search only, not seen on a page). Age: 'often called oldest' is not claimed; one aggregator claims older bald cypresses exist elsewhere (Black River). Reader's 'national champion' claim supported by FWS/Wikipedia text.",
+  "missing": ""
+ },
+ {
+  "tip": "937",
+  "verdict": "SHIP",
+  "name": "The Wedding Tree (Arderne Fig)",
+  "species": "Moreton Bay Fig (Ficus macrophylla)",
+  "age_estimate": "roughly 160 to 180 years",
+  "age_min": 150,
+  "age_max": 180,
+  "age_basis": "source",
+  "girth_cm": 1189,
+  "height_m": 32.5,
+  "location": {
+   "address": "Arderne Gardens, 222 Main Road, Claremont, Cape Town (near the park entrance)",
+   "latitude": -33.98731,
+   "longitude": 18.46494,
+   "neighbourhood": "Claremont"
+  },
+  "location_precision": "approximate",
+  "pin_source": "Plus code 2F77+3X (reader, Google Maps) recovered to -33.98731,18.46494 (cell about 14 m); Heritage Portal gives garden GPS -33.987276,18.465053 and Wikipedia -33.987281,18.464864; all within about 15 m, but the tree is not mapped as a point by any source, so kept approximate; the tree is the big fig by the entrance",
+  "access": "Free entry, open daily 8am to 6pm (Heritage Portal, 2021; check current hours), public park and arboretum, 222 Main Road Claremont",
+  "verified_sources": [
+   "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa",
+   "https://en.wikipedia.org/wiki/Arderne_Gardens",
+   "https://www.theheritageportal.co.za/article/arderne-gardens-home-largest-collection-champion-trees-south-africa",
+   "https://www.ardernegardens.org.za/champion-trees"
+  ],
+  "official_register": {
+   "name": "South African Champion Trees (National Forests Act, Dept of Forestry; entry no. 34, Wedding Tree and Arderne Fig Tree)",
+   "url": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+  },
+  "recognise": "A huge fig beside the park entrance with a vast surface root system spreading in all directions like a nest of boa constrictors, where wedding parties are photographed.",
+  "facts": [
+   {
+    "f": "Champion Tree register entry: Wedding Tree and Arderne Fig Tree, largest tree in the Western Cape, height 32.5 m, stem size 11.89 m, crown 44.3 m, size index 347.",
+    "u": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+   },
+   {
+    "f": "Known throughout Cape Town as the Wedding Tree; wedding parties have posed under it for many decades, beside its enormous surface roots.",
+    "u": "https://www.theheritageportal.co.za/article/arderne-gardens-home-largest-collection-champion-trees-south-africa"
+   },
+   {
+    "f": "Arderne Gardens were established in 1845 by Ralph Henry Arderne, a timber merchant from Cheshire; park declared a National Historical Monument in 1979.",
+    "u": "https://en.wikipedia.org/wiki/Arderne_Gardens"
+   },
+   {
+    "f": "The park holds six designated Champion Trees (the Cork Oak fell and the Turkey Oak collapsed in October 2023) and over 300 trees on 4.5 hectares.",
+    "u": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+   },
+   {
+    "f": "Fig branches spread more than 30 m; native to Australia.",
+    "u": "https://www.ardernegardens.org.za/champion-trees"
+   },
+   {
+    "f": "The register notes the Fernwood Avenue figs in Newlands as 'of the same vintage as the Arderne Garden trees (about 160 years old)'.",
+    "u": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+   }
+  ],
+  "verify_notes": "Existence, species, size: national champion register (via Wikipedia list) plus the Friends of Arderne Gardens page plus Heritage Portal and Wikipedia Arderne Gardens: independent enough, official register is enough anyway. Alive: Heritage Portal 2021 and Friends page describe it as present; Wikipedia list (edited this decade) records the two collapsed champions (cork oak, Turkey oak 2023) but not the fig, so it was standing at that point; no dated 2025-26 photo seen. Age: no source dates THIS fig. Garden founded 1845; register says Arderne-garden trees about 160 years (by implication of the Fernwood note); reader says 180. Do not bridge the 1845 founding date to the tree; state about 160 to 180 years as derived/loose, say the date is not documented. Reader's girth 1120 cm differs from register 1189 cm: use 1189. Pin approximate (no point for the tree); tell visitors near the park entrance. Not run through lifecheck.py.",
+  "missing": ""
+ },
+ {
+  "tip": "939",
+  "verdict": "SHIP",
+  "name": "Big Tree, Tsitsikamma",
+  "species": "Outeniqua Yellowwood (Afrocarpus falcatus)",
+  "age_estimate": "estimated 600 to 1,000 years, exact age unknown",
+  "age_min": 600,
+  "age_max": 1000,
+  "age_basis": "source",
+  "girth_cm": 915,
+  "height_m": 36,
+  "location": {
+   "address": "Plaatbos Nature Reserve, near Storms River Village, Garden Route National Park (Tsitsikamma), Eastern Cape",
+   "latitude": -33.96606,
+   "longitude": 23.89531,
+   "neighbourhood": "Storms River"
+  },
+  "location_precision": "approximate",
+  "pin_source": "Plus code 2VMW+H4 (reader, Google Maps) recovered to -33.96606,23.89531; Wikipedia's champion register list gives -33.96583,23.89667 (arcsecond rounded). The two differ by about 125 m, so kept approximate; tree stands at the end of a short signed forest boardwalk trail",
+  "access": "Paid: SANParks daily conservation fee covers Plaatbos, Goesa forest trails and the Big Tree (daily entry at the Storms River Village gates fully in force from 1 Dec 2025; card only). Hours summer (Sep-Apr) 07:00-18:00, winter (May-Aug) 08:00-17:00. Confirm the current fee with SANParks (Tsitsikamma office 042 281 1607). Visited by more than 80,000 tourists a year.",
+  "verified_sources": [
+   "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa",
+   "https://www.georgeherald.com/News/Article/Environment/entry-fees-for-plaatbos-and-goesa-forest-trails-in-tsitsikamma-202511131055",
+   "https://www.nationalgeographic.com/travel/article/the-big-tree",
+   "https://www.news24.com/multimedia/must-see-1-000-years-old-and-36-metres-tall-tsitsikammas-big-tree-site-is-open-for-business-20200920"
+  ],
+  "official_register": {
+   "name": "South African Champion Trees (National Forests Act; entry 25, Tsitsikamma Big Tree, size index 379)",
+   "url": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+  },
+  "recognise": "The Big Tree of Plaatbos forest: an Outeniqua yellowwood about 36 m tall with a roughly 9 m trunk girth and a 34 m crown, the destination of the signed Big Tree trail (register figures).",
+  "facts": [
+   {
+    "f": "Champion tree register: height 36 m, stem size 9.15 m, crown 34 m, size index 379; described as one of the most accessible and famous Big Trees in Tsitsikamma Forest, visited by over 80,000 tourists a year.",
+    "u": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+   },
+   {
+    "f": "Wikipedia captions it an 800-year-old Outeniqua yellowwood.",
+    "u": "https://en.wikipedia.org/wiki/Champion_Trees_of_South_Africa"
+   },
+   {
+    "f": "News24 (2020) headline: 1,000 years old and 36 metres tall; site open for business again. (Seen only from the headline and a search summary; page blocked.)",
+    "u": "https://www.news24.com/multimedia/must-see-1-000-years-old-and-36-metres-tall-tsitsikammas-big-tree-site-is-open-for-business-20200920"
+   },
+   {
+    "f": "National Geographic: nobody knows the tree's exact age (from a search summary, page not read).",
+    "u": "https://www.nationalgeographic.com/travel/article/the-big-tree"
+   },
+   {
+    "f": "SANParks entry fee for Plaatbos, Goesa and the Big Tree started in late 2025.",
+    "u": "https://www.georgeherald.com/News/Article/Environment/entry-fees-for-plaatbos-and-goesa-forest-trails-in-tsitsikamma-202511131055"
+   }
+  ],
+  "verify_notes": "Existence, species, size: champion register (official) which is enough; independently echoed by National Geographic and News24. Alive: the 2025 George Herald fee story and 2020 reopening show it is a managed attraction; no dated 2026 photo seen. Age conflict: reader 600-800, Wikipedia 800, News24 1,000, NatGeo unknown; state as estimates, broadly. I did NOT fetch the George Herald page or NatGeo: those facts come from search summaries and must be re-checked by the writer before quoting figures (fees especially). Register 'stem size' 9.15 m is circumference; the search summary spoke of 2.77 m DBH (= 8.7 m girth), small mismatch, use 915 as listed by the register on Wikipedia and say 'about nine metres'. Reader's girth 900 cm consistent. Pin conflict 125 m between sources: approximate.",
+  "missing": ""
+ },
+ {
+  "tip": "943",
+  "verdict": "LEAD",
+  "name": "Nossob Camel Thorn (sociable weaver tree)",
+  "species": "Camel Thorn (Vachellia erioloba)",
+  "age_estimate": "not documented",
+  "age_min": null,
+  "age_max": null,
+  "age_basis": "source",
+  "girth_cm": null,
+  "height_m": null,
+  "location": {
+   "address": "Nossob riverbed road, Kgalagadi Transfrontier Park, Northern Cape, South Africa",
+   "latitude": null,
+   "longitude": null,
+   "neighbourhood": "Kgalagadi Transfrontier Park"
+  },
+  "location_precision": "approximate",
+  "pin_source": "none",
+  "access": "Inside Kgalagadi Transfrontier Park, SANParks daily conservation fee and park gate rules apply; seen from the Nossob road (a gravel road you drive, not a walk); the tree is a roadside stop",
+  "verified_sources": [
+   "https://www.africawild-forum.com/viewtopic.php?p=529560",
+   "https://doaj.org/article/5062a25549354026b284e39bd14ce8ea"
+  ],
+  "official_register": null,
+  "recognise": "A huge camel thorn carrying a massive sociable weaver nest, reported by one forum post at about 20 km from Twee Rivieren along the Nossob road (unconfirmed).",
+  "facts": [
+   {
+    "f": "A forum trip report places a huge camelthorn with a massive sociable weaver nest about 20 km from Twee Rivieren on the Nossob road.",
+    "u": "https://www.africawild-forum.com/viewtopic.php?p=529560"
+   },
+   {
+    "f": "Research (Ecology and Evolution, 2020) found soil nitrogen higher below camel thorns with sociable weaver nests and canopy volume reduced by the nests.",
+    "u": "https://doaj.org/article/5062a25549354026b284e39bd14ce8ea"
+   }
+  ],
+  "verify_notes": "No source I could open gives a coordinate, a name, an age or a measurement for 'the famous Nossob camel thorn'; the only location clue is a forum post (not a source: blog or forum class) saying about 20 km from Twee Rivieren on the Nossob road. Many camel thorns along the Nossob carry weaver nests, so one cannot be identified without a coordinate (hard rule: no faked precision). Twee Rivieren gate is at 26°28'26\"S 20°36'48\"E (SANParks), useful only as an anchor. SANParks Kamelsleep waypoint 25°49'38.7\"S 20°45'18.1\"E is a different site. Overpass was down when I tried an OSM natural=tree search in the park bbox: retry that, and Tracks4Africa / SANParks roadside points of interest, before giving up.",
+  "missing": "a coordinate (OSM tree node, SANParks or Tracks4Africa waypoint, or a geotagged photo) identifying which roadside camel thorn; any source naming it as a recognised landmark; age or size; whether it still stands (dated sighting within a few years)"
+ },
+ {
+  "tip": "970",
+  "verdict": "SHIP",
+  "name": "Castagno Miraglia",
+  "species": "Sweet Chestnut (Castanea sativa)",
+  "age_estimate": "roughly 300 to 500 years",
+  "age_min": 300,
+  "age_max": 500,
+  "age_basis": "source",
+  "girth_cm": 880,
+  "height_m": 20,
+  "location": {
+   "address": "Camaldoli, Poppi, Arezzo (path from the road just before Camaldoli Monastery), Parco Nazionale delle Foreste Casentinesi",
+   "latitude": 43.79,
+   "longitude": 11.8171,
+   "neighbourhood": "Camaldoli"
+  },
+  "location_precision": "confirmed",
+  "pin_source": "OSM natural=tree node 'Castagno Miraglia' 43.78999,11.81700 and the reader's Google Maps place (Castagno Miraglia) 43.7900547,11.8171987 agree within 20 m; the tree stands alone in a clearing inside a fence",
+  "access": "Free, open walk in the national park forest: short path (a little over 2 km return from Camaldoli Monastery, under 100 m climb) to the fenced tree; fence keeps visitors from trampling the roots; no ticket published",
+  "verified_sources": [
+   "https://it.wikipedia.org/wiki/Castagno_Miraglia",
+   "https://trekking.parcoforestecasentinesi.it/en/poi/castagno-miraglia/",
+   "https://luoghi.italianbotanicalheritage.com/en/?p=33280",
+   "https://ilbelcasentino.it/itinerary-camaldoli-castagno-miraglia.en.php"
+  ],
+  "official_register": {
+   "name": "Parco Nazionale delle Foreste Casentinesi official trekking portal (park authority page for this tree)",
+   "url": "https://trekking.parcoforestecasentinesi.it/en/poi/castagno-miraglia/"
+  },
+  "recognise": "A huge, completely hollow chestnut standing alone in a forest clearing behind a wooden fence, trunk split by a long cavity about 10 m high and 1.5 m deep and twisted as if screwed on itself.",
+  "facts": [
+   {
+    "f": "Park authority: at least 500 years old, completely hollow, about 20 m high, circumference about nine metres.",
+    "u": "https://trekking.parcoforestecasentinesi.it/en/poi/castagno-miraglia/"
+   },
+   {
+    "f": "Wikipedia: circumference 880 cm, largest of the park's trees; considered the biggest chestnut in Tuscany.",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Age contested: diameter and height analysis gives 500 years, while the forest's historic register gave about 200 years over a century ago, so about 300 now.",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Named after Elena, wife of commendatore Nicola Miraglia, a late-19th-century director general in the agriculture ministry, who used to sit in its cavity; a table and chairs once stood inside it.",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Longitudinal opening of about 10 m, 1.5 m deep, large enough in past years to hold a table (removed when the fence went up in the late 1990s).",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Fence and wooden railing protect it from trampling that could asphyxiate the roots, and from wild animals.",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Despite its decay the tree is alive and still carries nutrients to the crown.",
+    "u": "https://it.wikipedia.org/wiki/Castagno_Miraglia"
+   },
+   {
+    "f": "Folk legend: name from 'ammiraglio' plus 'ammirare', an admiral who admired it; Italian Botanical Heritage calls this legend and prefers Mrs Miraglia.",
+    "u": "https://luoghi.italianbotanicalheritage.com/en/?p=33280"
+   }
+  ],
+  "verify_notes": "Existence, species and size from the national park authority plus Wikipedia plus Italian Botanical Heritage (independent). Pin from OSM node and Google place within 20 m. Alive: Wikipedia states alive (page edited 2025-09); fence installed late 1990s; park page current 2024. Conflict: reader's girth 2000 cm is not supported by any source (wiki 880 cm, park about 9 m, IBH 27.8 ft = 847 cm); use 880. Park says height about 20 m, wiki body 22 m in one place and 20 in infobox; use 20. Age is contested between 300 and 500 years; state both broadly. Not run through lifecheck.py. Earlier held lead only lacked a coordinate, now supplied.",
+  "missing": ""
+ },
+ {
+  "tip": "802",
+  "verdict": "LEAD",
+  "name": "Oak of Viale delle Terme, Bagni di Lusnizza",
+  "species": "Pedunculate Oak (Quercus robur)",
+  "age_estimate": "reader says about 300 years (unsourced)",
+  "age_min": null,
+  "age_max": null,
+  "age_basis": "source",
+  "girth_cm": null,
+  "height_m": null,
+  "location": {
+   "address": "Viale delle Terme, Bagni di Lusnizza, Malborghetto Valbruna, Udine",
+   "latitude": null,
+   "longitude": null,
+   "neighbourhood": "Bagni di Lusnizza"
+  },
+  "location_precision": "approximate",
+  "pin_source": "none for the tree; OSM place node Bagni di Lusnizza hamlet 46.5021,13.3777 is village level only",
+  "access": "Unknown: Bagni di Lusnizza is a spa hamlet; whether the oak stands on a public road or inside the thermal establishment's grounds is not established",
+  "verified_sources": [],
+  "official_register": null,
+  "recognise": "",
+  "facts": [
+   {
+    "f": "Reader: about 300 years old, 454 cm girth, 22 m high (unverified).",
+    "u": "data/leads/bagni-di-lusnizza.json"
+   }
+  ],
+  "verify_notes": "Four searches (Italian and English, FVG regional list, MASAF national list, place plus oak) returned nothing naming a monumental oak at Bagni di Lusnizza or anywhere in Malborghetto-Valbruna; the MASAF database holds Udine farnie elsewhere (Bertiolo, Villa Colloredo Venier) but not here per the search summary, which is a pointer only. I could not open the FVG regional list (webgis, JavaScript) or the MASAF viewer. The 454 cm girth and 22 m height sound like a register-style entry but I did not see them anywhere. Overpass (OSM) was down for a natural=tree search around 46.50,13.38; retry. Not a hold on merit: simply unsourced and unpinned.",
+  "missing": "an official entry (FVG regional elenco alberi monumentali, MASAF elenco nazionale) or a second source naming this oak; a coordinate on the tree (the reader's wording is only a street); public access to the spot (street versus spa grounds)"
+ },
+ {
+  "tip": "850",
+  "verdict": "SHIP",
+  "name": "Olive Tree of Mouchão (Oliveira do Mouchão)",
+  "species": "Olive (Olea europaea)",
+  "age_estimate": "about 3,350 years (University of Trás-os-Montes estimate, 2% margin)",
+  "age_min": 3280,
+  "age_max": 3420,
+  "age_basis": "source",
+  "girth_cm": 652,
+  "height_m": 10,
+  "location": {
+   "address": "Rua do Mouchão, Cascalhos, Mouriscas, Abrantes",
+   "latitude": 39.473214,
+   "longitude": -8.080941,
+   "neighbourhood": "Mouriscas"
+  },
+  "location_precision": "confirmed",
+  "pin_source": "OSM natural=tree node (Oliveira do Mouchão) 39.473214,-8.080941; Wikipedia coordinate 39.4732194,-8.0809472 agrees within 1 m; reader's Google Maps place also named Oliveira do Mouchão, Mouriscas",
+  "access": "Free, open all hours; stands in a small walled public space beside Rua do Mouchão in Mouriscas village, behind a low stone wall, no ticket, street-side",
+  "verified_sources": [
+   "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o",
+   "https://www.openstreetmap.org (natural=tree node via nominatim: Oliveira do Mouchão, Rua do Mouchão, Mouriscas)",
+   "ICNF Ficha da Árvore de Interesse Público, Nº Processo KNJ1/478, Aviso nº 4 de 02/01/2007 (cited by Wikipedia)"
+  ],
+  "official_register": {
+   "name": "ICNF Árvore de Interesse Público, process KNJ1/478, aviso 4 of 2007-01-02",
+   "url": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+  },
+  "recognise": "A hollowed, gnarled olive stump cut off a little over three metres up, inside a stone wall with a granite slab carrying a José Luís Peixoto excerpt and a Câmara Municipal de Abrantes plaque giving 3350 years.",
+  "facts": [
+   {
+    "f": "Classified a Tree of Public Interest by ICNF since 2007 (aviso 4, 02/01/2007).",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "2016 dendrometric estimate by José Luís Lousada (UTAD) of about 3,350 years, margin 2%; Wikipedia notes dendrometry alone cannot fix the age of a hollow olive.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "Plaque certifies girth at breast height 652 cm, girth at the stump 1,112 cm, stem height 320 cm.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "About 10 m tall, trunk hollowed and cut off a little over 3 m up; still produces olives; reportedly a bat colony.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "Galician-type olive, grafted with a wild olive.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "Second place in the Tree of the Year contest in 2020 and in 2021.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "Name comes from mouchão fishing: from early 20th century fishermen gathered at the tree before fishing.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   },
+   {
+    "f": "Stone wall and fresh soil added around the base after the age study.",
+    "u": "https://en.wikipedia.org/wiki/Olive_Tree_of_Mouch%C3%A3o"
+   }
+  ],
+  "verify_notes": "Wikipedia (which reproduces the ICNF ficha and the municipal plaque) plus the ICNF register entry: official register is enough. Pin: OSM tree node and Wikipedia coordinate agree to a metre. Alive: still fruiting per Wikipedia citing a 2024 Prehistoric Portugal post; Tree of the Year 2020/2021. The 3,350-year figure is a single study's estimate; state as such, broadly. I did not fetch the ICNF PDF itself (not searched); register number is as quoted by Wikipedia. Local pt coordinate OSM names the point 'Oliveira do Mouchão (3350 anos)' memorial 0.3 m away.",
+  "missing": ""
+ }
+]

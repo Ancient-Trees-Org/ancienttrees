@@ -139,6 +139,15 @@
       "Albukwér kwé",
       "Arapakēreki"
     ],
+    "alerce-costero": [
+      "Nationaal park Alerce Costero",
+      "Nationalpark Alerce Costero",
+      "Parc national Alerce Costero",
+      "Parque nacional Alerce Costero",
+      "Park Narodowy Alerce Costero",
+      "Alerse Kostero nacionālais parks",
+      "Vườn quốc gia Alerce Costero"
+    ],
     "algiers": [
       "Alger",
       "El Djazaïr",
@@ -973,6 +982,18 @@
       "Cantorbéry",
       "Cantwaraburg",
       "Kenterberi"
+    ],
+    "cape-town": [
+      "Kaapstad",
+      "Kapstadt",
+      "Le Cap",
+      "Ciudad del Cabo",
+      "Città del Capo",
+      "Cidade do Cabo",
+      "Ciutat del Cap",
+      "Kapstaden",
+      "Kapkaupunki",
+      "Kapsztad"
     ],
     "capeni": [
       "Baraolt",
@@ -2172,6 +2193,18 @@
       "Hiroxima",
       "Hiroŝimo",
       "Xirosima"
+    ],
+    "ho-chi-minh-city": [
+      "Ho Chi Minhstad",
+      "Ho-Chi-Minh-Stadt",
+      "Hô Chi Minh-Ville",
+      "Ciudad Ho Chi Minh",
+      "Ho Chi Minh",
+      "Cidade de Ho Chi Minh",
+      "Ciutat Ho Chi Minh",
+      "Ho Chi Minh-byen",
+      "Ho Chi Minh-staden",
+      "Hồ Chí Minhin kaupunki"
     ],
     "hobart": [
       "Hobartas",
@@ -4682,6 +4715,9 @@
       "Arx Sancti Augustini",
       "Sankta Aŭgusteno"
     ],
+    "st-francisville": [
+      "Saint Francisville"
+    ],
     "st-georgen-im-attergau": [
       "Sankt Georgen im Attergau"
     ],
@@ -5014,6 +5050,16 @@
       "Triesti",
       "Triesto",
       "Triests"
+    ],
+    "tsitsikamma": [
+      "Nationaal park Tsitsikamma",
+      "Tsitsikamma-Nationalpark",
+      "Parc national de Tsitsikamma",
+      "Parco nazionale Tsitsikamma",
+      "Parcul Național Tsitsikamma",
+      "Tsitsikamma Parke Nazionala",
+      "Tsitsikamma- Nasionale Park",
+      "Mbuga ya Taifa ya Tsitsikamma"
     ],
     "tsuruoka": [
       "Curuoka",
@@ -5525,6 +5571,7 @@
     "akaroa": "Akaroa",
     "albersdorf": "Albersdorf",
     "albuquerque": "Albuquerque, New Mexico",
+    "alerce-costero": "Alerce Costero National Park",
     "algiers": "Algiers",
     "alicante": "Alicante",
     "alishan": "Alishan, Chiayi",
@@ -5654,11 +5701,13 @@
     "cairo": "Cairo",
     "cajvana": "Cajvana",
     "calvos": "Calvos e Frades",
+    "camaldoli": "Camaldoli",
     "cambridge": "Cambridge",
     "canberra": "Canberra",
     "canicosa-de-la-sierra": "Canicosa de la Sierra",
     "cannock-chase": "Cannock Chase",
     "canterbury": "Canterbury",
+    "cape-town": "Cape Town",
     "capeni": "Baraolt",
     "cara": "Čara",
     "cardiff": "Cardiff",
@@ -5879,6 +5928,7 @@
     "himi": "Himi, Toyama",
     "hiroshima": "Hiroshima",
     "hniszow": "Hniszów",
+    "ho-chi-minh-city": "Ho Chi Minh City",
     "hobart": "Hobart",
     "hochneukirchen-gschaidt": "Hochneukirchen-Gschaidt",
     "hochosterwitz": "Hochosterwitz Castle",
@@ -6106,6 +6156,7 @@
     "moss-vale": "Moss Vale",
     "motosu": "Motosu, Gifu",
     "mottisfont": "Mottisfont",
+    "mouriscas": "Mouriscas",
     "msecke-zehrovice": "Mšecké Žehrovice",
     "mumbai": "Mumbai",
     "munich": "Munich",
@@ -6346,6 +6397,7 @@
     "spoleto": "Spoleto",
     "sremski-karlovci": "Sremski Karlovci",
     "st-augustine": "St. Augustine, Florida",
+    "st-francisville": "St. Francisville, Louisiana",
     "st-georgen-im-attergau": "Sankt Georgen im Attergau",
     "st-louis": "St. Louis",
     "stanislaus-national-forest": "Stanislaus National Forest",
@@ -6412,6 +6464,7 @@
     "tricase": "Tricase",
     "trieste": "Trieste",
     "trollskogen": "Trollskogen",
+    "tsitsikamma": "Tsitsikamma National Park",
     "tsuruoka": "Tsuruoka",
     "tuatapere": "Tuatapere",
     "tucson": "Tucson, Arizona",
@@ -6532,6 +6585,7 @@
     "broadwindsor": "Broadwindsor",
     "cairns": "Cairns",
     "calvos": "Calvos e Frades",
+    "camaldoli": "Camaldoli",
     "canicosa-de-la-sierra": "Canicosa de la Sierra",
     "cara": "Čara",
     "castlemorton": "Castlemorton",
@@ -6635,6 +6689,7 @@
     "mistley": "Mistley",
     "moss-vale": "Moss Vale",
     "mottisfont": "Mottisfont",
+    "mouriscas": "Mouriscas",
     "msecke-zehrovice": "Mšecké Žehrovice",
     "nedvedice": "Nedvědice",
     "nether-alderley": "Nether Alderley",

@@ -1,0 +1,60 @@
+{
+  "city": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "status": "needs_curation",
+  "intro": "In the middle of a small park in District 1 of Ho Chi Minh City stands a banyan with five trunks and a huge spread of roots, said to be more than 300 years old. The block around it has been a market under the emperor Tự Đức, a garden earmarked for a Spanish consulate from 1864, and a city park twice its old size since the 1980s. A reader sent it to us. Its species and size have never been published, and we would like to know them.",
+  "meta_description": "The five-trunked banyan in Bách Tùng Diệp Park, District 1, Ho Chi Minh City, said to be over 300 years old: its story and where it stands.",
+  "question_meta": "Ho Chi Minh City's old tree to see is the five-trunked banyan in Bách Tùng Diệp Park, District 1, said to be more than 300 years old.",
+  "question_answer": "The tree to see in Ho Chi Minh City is the banyan in Bách Tùng Diệp Park, also called Lý Tự Trọng Park, in District 1: five trunks over a huge root system, said to be more than 300 years old.",
+  "question_context": "The 300-year figure has been repeated since a 2004 newspaper article and is an estimate, not a ring count, and Saigon writers describe the tree as rumoured to be the city's most ancient. The banyan stands in the middle of the park, which fills the block between Nam Kỳ Khởi Nghĩa and Pasteur streets in District 1 and goes by three names, Bách Tùng Diệp, Lý Tự Trọng and, before that, Liên Hiệp. Under the emperor Tự Đức a market called Cây Da Còm stood in this area, where students bought clothes and hats before the court exams. From 1864 the land was the Jardin d'Espagne, handed by the French to Spain for a consulate, and the staff of the city's botanical and zoological garden looked after it and its ancient banyan. A British consulate planned here in 1927 was dropped, and the park doubled in size in the early 1980s. Entry is free all year, near Opera House station on Metro Line 1. Nobody has published the banyan's species, girth or height. If you know them, tell us on its page.",
+  "hero_tree_id": "hcm_001",
+  "oldest_tree_id": "hcm_001",
+  "trees": [
+    {
+      "id": "hcm_001",
+      "name": "The Banyan of Bách Tùng Diệp Park",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "said to be over 300 years",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Bách Tùng Diệp (Lý Tự Trọng) Park, between Nam Kỳ Khởi Nghĩa and Pasteur streets, District 1, Ho Chi Minh City",
+        "latitude": 10.7764,
+        "longitude": 106.6993,
+        "neighbourhood": "District 1"
+      },
+      "story": "Under the emperor Tự Đức, a market called Cây Da Còm stood on this corner of Saigon, and students bought clothes and hats there before sitting the court exams. Cây da is Vietnamese for a banyan. Whether the market was named for this one, nothing we have read says, but a banyan with five trunks still stands in the middle of the block, said to be more than 300 years old.\n\nThe block has changed hands around it. From 1864 it was the Jardin d'Espagne, land the French handed to Spain for a consulate, and staff of the city's botanical and zoological garden looked after it and its ancient banyan. A British plan to build a consulate here in 1927 was dropped. In the early 1980s the park doubled in size, and it now fills the block between Nam Kỳ Khởi Nghĩa and Pasteur streets under three names: Bách Tùng Diệp, Lý Tự Trọng, and before that Liên Hiệp.\n\nThe 300 years is an estimate repeated since a 2004 newspaper article, not a count, and Saigon writers call the tree rumoured to be the city's most ancient. What a visitor can check is the root system, which travel writers keep coming back to for its sheer size.\n\nNobody has published its species or a measurement. A reader sent it to us. If you know which banyan it is, or have put a tape round those trunks, tell us.",
+      "how_to_recognise": "You can recognise it by its five trunks and the huge spread of roots around them. It stands in the middle of the park, on the block between Nam Kỳ Khởi Nghĩa and Pasteur streets.",
+      "access": "Free, open public city park in District 1, open all year with no ticket; opening hours not found. Near Opera House station on Metro Line 1.",
+      "found_by_reader": {
+        "tip": "1065",
+        "date": "2026-11-17"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 1065. Flagged: no register, the age is an estimate repeated since a 2004 Nguoi Lao Dong article (via Wikipedia), stated as 'said to be more than 300 years'. Existence from Wikipedia (five trunks, over 300 years as of the early 2000s, the Cay Da Com market under Tu Duc), Saigoneer 2026 (Jardin d'Espagne from 1864, garden staff caring for its ancient banyan, 1927 British plan dropped, park doubled in the early 1980s), mia.vn and greensm (banyan in the middle of the park, huge root system). Several sources, not independent in origin. Species not given by any source: genus only, as Fig (Ficus sp.), the canonical name for Ficus sp. elsewhere; the name keeps 'banyan'. The reader's lotus ponds are unconfirmed and left out. Pin is park level (about 5,000 m2), so approximate; the recognition line carries the findability. No dated photo of the tree seen; lifecheck not run.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/B%C3%A1ch_T%C3%B9ng_Di%E1%BB%87p_Park",
+        "https://www.saigoneer.com/saigon-heritage/6473-how-b%C3%A1ch-t%C3%B9ng-di%E1%BB%87p-became-a-saigon-park-from-earmarked-consulate-land",
+        "https://mia.vn/cam-nang-du-lich/cong-vien-bach-tung-diep-16723",
+        "https://www.greensm.com/vn-vi/news/cong-vien-bach-tung-diep-quan-1"
+      ],
+      "location_precision": "approximate",
+      "pin_source": "Park level only: reader's Google place 'QMGX+HP3 Bach Tung Diep Park' (plus code recovered to 10.77639,106.69930) and Wikipedia park coordinate 10.7762,106.6991, about 25 m apart. No source gives a tree-level coordinate; mia.vn says the banyan stands in the middle of the park"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the banyan in Bách Tùng Diệp Park?",
+      "a": "It is said to be more than 300 years old, an estimate repeated since a 2004 newspaper article rather than a count of its rings."
+    },
+    {
+      "q": "Which kind of banyan is it?",
+      "a": "No source we have read names the species, only that it is a banyan with five trunks. If you know, tell us on its page."
+    },
+    {
+      "q": "Can I visit the banyan?",
+      "a": "Yes. Bách Tùng Diệp Park is a free public park in District 1, open all year, between Nam Kỳ Khởi Nghĩa and Pasteur streets, near Opera House station on Metro Line 1."
+    }
+  ]
+}

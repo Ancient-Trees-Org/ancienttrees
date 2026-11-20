@@ -1,0 +1,66 @@
+{
+  "city": "St. Francisville",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "St. Francisville sits on the Mississippi in West Feliciana Parish, Louisiana, and a few miles from it lies Cat Island National Wildlife Refuge, bottomland the river floods for half the year. At the end of a short trail there stands the national champion bald cypress, 54 feet round by one 2022 measurement and put at somewhere between 1,000 and 1,500 years. A reader sent it to us. In flood season the trail goes under and the tree is reached only by boat.",
+  "meta_description": "The national champion bald cypress in Cat Island Wildlife Refuge near St. Francisville, Louisiana: 54 feet round, flooded half the year.",
+  "question_meta": "The tree to see near St. Francisville is the champion bald cypress in Cat Island refuge, 54 feet round and 1,000 to 1,500 years old.",
+  "question_answer": "The tree to see near St. Francisville, Louisiana, is the Cat Island Bald Cypress, the national champion of its species: 54 feet round and 83 feet tall in a 2022 report, with estimates of its age between 1,000 and 1,500 years.",
+  "question_context": "The tree stands at the end of the Big Cypress Trail in Cat Island National Wildlife Refuge, a 0.75 mile round trip from primitive parking about 4.8 miles in from the refuge gate, beside a wooden observation deck. The refuge was established in 2000 on land the Mississippi River and Bayou Sara surround on three sides. Its age is uncertain because the trunk is hollow. Refuge signs say 1,000 years, the Fish and Wildlife Service 1,500, the Friends of Cat Island 1,200 to 1,500. The American Press, visiting in 2022, gave 83 feet of height and 54 feet of girth and called it the largest tree of any species east of the Sierra Nevada. The trunk looks like two trees grown together, but DNA testing showed it is one, and its buttresses are deep enough for a person to hide inside. The refuge floods roughly December to June, and once the Baton Rouge gauge reaches about 26 feet the tree can be reached only by boat. Entry is free; there are no toilets or water.",
+  "hero_tree_id": "stf_001",
+  "oldest_tree_id": "stf_001",
+  "trees": [
+    {
+      "id": "stf_001",
+      "name": "The Cat Island Bald Cypress",
+      "species": "Bald Cypress (Taxodium distichum)",
+      "age_estimate": "estimated 1,200 to 1,500 years (hollow, so no ring count)",
+      "age_min": 1000,
+      "age_max": 1500,
+      "age_basis": "source",
+      "girth_cm": 1646,
+      "height_m": 25,
+      "location": {
+        "address": "Big Cypress Trail, Cat Island National Wildlife Refuge, about 4.8 miles from the refuge entrance gate, near St. Francisville, West Feliciana Parish, Louisiana",
+        "latitude": 30.76444,
+        "longitude": -91.47606,
+        "neighbourhood": "Cat Island National Wildlife Refuge"
+      },
+      "story": "DNA settled one argument about this tree. It looks like two bald cypresses grown together, and the testing showed it is one.\n\nThe other arguments stay open. The refuge's own signs say 1,000 years, the Fish and Wildlife Service page says 1,500, and the president of the Friends of Cat Island gives 1,200 to 1,500. The trunk is hollow, so there are no rings to count. In 2022 the American Press put it at 83 feet tall and 54 feet round, about 25 and 16.5 metres, and called it the largest bald cypress in the United States and the largest tree of any species east of the Sierra Nevada. The Fish and Wildlife Service lists it as the national champion. Its buttresses are deep enough for a person to hide inside, and above them the trunk splits into two crowns.\n\nIt stands in Cat Island National Wildlife Refuge near St. Francisville, on low ground the Mississippi River and Bayou Sara wrap on three sides. From roughly December to June the river comes in, 15 to 20 feet deep in places, and then the only way to the tree is by boat. The refuge was established in 2000, and in 2022 volunteers were rebuilding the wooden observation deck after flood damage. Other big old cypresses stand around it.\n\nA reader sent it to us, along with that newspaper story. The 2022 visit is our latest report of it standing, so if you have been since, tell us.",
+      "how_to_recognise": "You can recognise it by the trunk that looks like two trees grown together, with buttresses deep enough to hide in. It stands at the end of the Big Cypress Trail, beside the wooden observation deck.",
+      "access": "Free, no entry fee. Primitive parking at the start of the Big Cypress Trail, about 4.8 miles in from the refuge entrance gate, then a 0.75 mile round-trip walk to the tree and its observation deck. The refuge floods roughly December to June: once the Mississippi gauge at Baton Rouge reaches about 26 feet (some guides say 20) the tree cannot be reached on foot, only by boat. No toilets or water. Check the refuge's current guidance before going.",
+      "found_by_reader": {
+        "tip": "906",
+        "date": "2026-11-16"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 906 (the reader named the American Press article). Flagged: alive per a 2022 visit report only; no dated 2026 sighting seen. Sources: American Press 2022-11-20 (visit 2022-11-11; 83 ft, 54 ft circumference, 17 ft diameter; largest bald cypress in the US, largest tree east of the Sierra Nevada; DNA one tree; ages 1,000 signs / 1,500 FWS / 1,200 to 1,500 Friends president; flooding; deck being rebuilt), Wikipedia (buttresses, two canopies, national champion, flood gauge), FWS refuge page (fetched only partly), WorldAtlas (20 ft gauge). girth_cm 1646 and height_m 25 are American Press's 54 ft and 83 ft; FWS's reported 96 ft / 56 ft were seen only in a search summary and are left out. Pin from the reader's Google place (plus code QG7F+QH), approximate. No 'oldest' claim made.",
+      "verified_sources": [
+        "https://americanpress.com/?p=255424",
+        "https://en.wikipedia.org/wiki/Cat_Island_National_Wildlife_Refuge",
+        "https://www.fws.gov/refuge/Cat-Island/",
+        "https://www.worldatlas.com/forests/the-biggest-tree-east-of-the-mississippi.html"
+      ],
+      "official_register": {
+        "name": "US Fish and Wildlife Service, Cat Island NWR (National Champion baldcypress; American Forests champion register not opened)",
+        "url": "https://www.fws.gov/refuge/Cat-Island/"
+      },
+      "location_precision": "approximate",
+      "pin_source": "Google Maps place 'QG7F+QH Cat Island Cypress, St Francisville' from the reader's link, plus code recovered to 30.76444,-91.47606 (cell about 14 m); not cross-checked against a second coordinate (no OSM node, Atlas Obscura page gave none). Tree is the end point of the 0.75 mile Big Cypress Trail so the pin is probably on it, but kept approximate"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the Cat Island bald cypress?",
+      "a": "Nobody knows exactly, because the trunk is hollow. Refuge signs say 1,000 years, the Fish and Wildlife Service says 1,500, and the Friends of Cat Island give 1,200 to 1,500."
+    },
+    {
+      "q": "When can I walk to the Cat Island cypress?",
+      "a": "Outside the flood season. The refuge floods roughly December to June, and once the Mississippi gauge at Baton Rouge reaches about 26 feet the tree can only be reached by boat. Check the refuge's guidance before going."
+    },
+    {
+      "q": "Is it really two trees?",
+      "a": "It looks like two bald cypresses grown together, but DNA testing showed it is a single tree whose trunk splits into two crowns."
+    }
+  ]
+}

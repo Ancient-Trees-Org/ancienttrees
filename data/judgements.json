@@ -71,10 +71,13 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "Okunitama Shrine, Fuchu: the reader names the largest of the shrine's keyaki, but there is no photograph or GPS fix and no source pins one trunk. Recorded in data/leads/tokyo.json with what is missing; the shrine's keyaki avenue register is the next check.",
+   "verdict": "publish",
+   "reason": "Same keyaki another reader photographed the same day: live as the Great Zelkova of the Okunitama Approach (tokyo), so this tip is answered by that page.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "lead:1776f5e7-9154-4a89-90ce-b69c6ad32464",
@@ -908,7 +911,10 @@
    "verdict": "hold",
    "reason": "Looked: the Abbots' Palace and parterre fill the frame; the maple pair cannot be picked out (rejected as bad frame)",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:c20222fc-c87b-41b4-97de-6030b35d9d13",
@@ -996,7 +1002,10 @@
    "verdict": "hold",
    "reason": "Looked: the Ivy Elm lying fallen under a walnut, ivy over the log; gda_012 was retired as fallen the same day, photograph rejected",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:f261cbe2-99af-4783-9aa0-bbe079002399",
@@ -1074,7 +1083,10 @@
    "verdict": "hold",
    "reason": "Looked: young dragon trees on a roadside viewpoint above Funchal, the reader gives 15 years; not_special, no mail",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:29f56212-ae72-4f86-ba3f-0a71803945bf",
@@ -1570,7 +1582,10 @@
    "verdict": "hold",
    "reason": "Same frame as aab2b8be a moment later; rejected as a duplicate.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:8fa25dfc-55ff-4925-a144-70ee258e5496",
@@ -1614,7 +1629,10 @@
    "verdict": "hold",
    "reason": "Nearly the same frame as 701ab274; rejected as a duplicate.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:f6e889ad-bec9-43d7-bf19-ecfdb0ed552c",
@@ -1812,7 +1830,10 @@
    "verdict": "hold",
    "reason": "Looked at: a slender young tree in regrowing scrub by a dirt track in Thailand; not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "lead:e99b9502-2495-44d6-a73f-687c631291e0",
@@ -1840,7 +1861,10 @@
    "verdict": "hold",
    "reason": "Looked at: a medium street tree under cables on a Jakarta pavement, not plainly a fig; not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:31968732-9995-4dd2-8a5e-4bfdeb71592c",
@@ -1862,7 +1886,10 @@
    "verdict": "hold",
    "reason": "Photo viewed: sent for the Bernardinai Amur cork trees but taken 1.9 km away in another park; another tree, not ours. Became a lead, held not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:f11ffcb7-8a53-44c8-803e-9e0a8c47948d",
@@ -1933,7 +1960,10 @@
    "verdict": "hold",
    "reason": "Photo viewed: an ordinary multi-stemmed park tree on a lawn in Vilnius, nothing big, old or striking. Held not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
@@ -1967,7 +1997,10 @@
    "verdict": "hold",
    "reason": "Photo viewed: sent for the Sapiegos linden (a storm-broken veteran) but shows an intact multi-stemmed park tree 243 m away, same GPS fix as the reader's earlier Vilnius photo; another tree, not ours. Became a lead, held not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "lead:792fd983-0f7d-4818-9112-8fbdf8e8c409",
@@ -2044,7 +2077,10 @@
    "verdict": "hold",
    "reason": "Photo viewed: an ordinary multi-stemmed broadleaf with a full crown on a park lawn in Vilnius, nothing big, old or striking. Held not_special.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:792fd983-0f7d-4818-9112-8fbdf8e8c409",
@@ -2395,7 +2431,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2442,7 +2480,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2555,7 +2595,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2583,7 +2625,8 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
    ]
   },
   {
@@ -2607,7 +2650,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2656,7 +2701,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2775,7 +2822,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -2984,7 +3033,11 @@
    "verdict": "hold",
    "reason": "Duplicate: the same photograph by the same reader already leads fuj_001.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:d692d0b9-929c-4599-a852-8929dad58135",
@@ -3028,7 +3081,11 @@
    "verdict": "hold",
    "reason": "Duplicate: the same frame as d692d0b9, which is now on bcn_011.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:ee95229b-3389-4229-8679-a5847d52b5ca",
@@ -3132,7 +3189,11 @@
    "verdict": "hold",
    "reason": "not_theirs: the lead photo is a screenshot of another person's post in a photo app (their name and like buttons over it), the sender's profile carries a different name; standard not_theirs mail sent, their own photo puts it live",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:tip-709",
@@ -3820,7 +3881,11 @@
    "verdict": "hold",
    "reason": "Photographs viewed: the Signal Tree, Akron, whole tree and 1986 plaque. Held not_public: Summit Metro Parks still lists the Chuckery Area closed through at least 2028 (alerts page, read 2026-11-18). Ships when it reopens or the reader shows it can be seen from open ground; answer drafted for Hidde (reply-reader-1115).",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:b496e5e0-e922-41e7-a23f-a0201fe141b7",
@@ -4296,7 +4361,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4476,7 +4543,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4494,7 +4563,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4512,7 +4583,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4620,7 +4693,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4638,7 +4713,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -4901,7 +4978,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ],
    "decided": "2026-11-17"
   },
@@ -4963,7 +5042,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ],
    "decided": "2026-11-17"
   },
@@ -5122,7 +5203,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ],
    "decided": "2026-11-17"
   },
@@ -5155,7 +5238,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ],
    "decided": "2026-11-17"
   },
@@ -5220,7 +5305,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ],
    "decided": "2026-11-17"
   },
@@ -5632,7 +5719,9 @@
    "agreed": null,
    "decided": "2026-11-17",
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -5951,7 +6040,11 @@
    "verdict": "hold",
    "reason": "Same dead trunk; held.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:e9aa481b-add6-4a30-841d-1d7e36f5bce7",
@@ -6113,12 +6206,14 @@
    "species": "Pecan",
    "photo": "out/sightings/ec026f7b-a1b8-4316-b8ea-07c111061c44.jpg",
    "reader_note": "",
-   "verdict": "lead",
-   "reason": "Looked at 2026-11-17: a large pecan, but it stands at Meadowlark 1939 in Griffin, a wedding venue, so no public access we can show; the only source is the venue's own page (about 100 years). Stays a lead.",
+   "verdict": "hold",
+   "reason": "doubt_info: the photo shows a big pecan, but the reader's own note says the Meadowlark 1939 pecans were destroyed by a tornado in January 2023, so it may no longer stand; and it is on a wedding venue's private ground (not_public). Ships if a current photo shows it standing and visible from public ground.",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6166,7 +6261,11 @@
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 363d64d1, byte-identical file (same md5), which is published instead.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:7ba4add6-6efd-4c2b-bf9c-97438647a3bd",
@@ -6235,7 +6334,11 @@
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 96cc87f7, byte-identical file (same md5), which is published instead.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
@@ -6370,7 +6473,11 @@
    "verdict": "hold",
    "reason": "Photographs viewed 2026-11-17: a black mulberry cut back to a hollow stump with fresh regrowth on the lawn of Ladywell House, Lewisham (the former vicarage rebuilt in 1692); the second picture shows it in full leaf before the 2022 damage. Alive and with a story, but in the private garden of a house a developer bought in 2022. Held: not_public (closed list, Hidde 2026-11-17) unless the reader says it is seen from the street.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:ea481510-d49d-44c4-8cf9-c27c49f968e8",
@@ -6488,7 +6595,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6519,7 +6628,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6547,7 +6658,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6605,7 +6718,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6644,7 +6759,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -6906,7 +7023,11 @@
    "verdict": "hold",
    "reason": "Photo viewed: a child smiling from inside the yew's foliage, the trunk hidden by needles. Rejected as wrong_subject; the same reader's other frame of the crown went into the gallery.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "sight:4bc25502-4712-4388-ab52-97d23703d9fe",
@@ -6986,7 +7107,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7010,7 +7133,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7034,7 +7159,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7058,7 +7185,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7082,7 +7211,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7120,11 +7251,13 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "reason": "Verified 2026-11-20: no source names the Romantik-Eiche; the map link lands on the Eichendorff-Anlage memorial with about ten oaks within 20 m, so the trunk is unidentified. Missing: a photo or GPS fix at the tree.",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7137,12 +7270,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 765,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Same tree as the Arboretum 1 sequoia lead; the reader's link may give the missing pin.",
+   "verdict": "publish",
+   "reason": "live as heidelberg/hei_008 (Arboretum Giant Sequoia); DDG champion list ID 7000, Baumkunde 2025 visit, heidelberg.de arboretums page",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7155,12 +7290,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/heidelberg.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "verdict": "publish",
+   "reason": "live as heidelberg/hei_009 (Holdermann Oak), flagged thin: OSM natural-monument node, komoot highlight and tour, BLB Karlsruhe local history (1849 skirmish); no register entry found",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7173,12 +7310,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/ho-chi-minh-city.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "verdict": "publish",
+   "reason": "live as ho-chi-minh-city/hcm_001 (Banyan of Bach Tung Diep Park), flagged: Wikipedia, Saigoneer, mia.vn, greensm; age said over 300 years, park-level pin",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7191,12 +7330,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 420,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/alerce-costero.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Age is a model estimate, to be stated broadly as the study's.",
+   "verdict": "publish",
+   "reason": "live as alerce-costero/alc_001 (Gran Abuelo): Scientific American, Wikipedia, chile.travel, Meteored; age stated as a contested 3,500 to 5,484 range, pin confirmed from OSM",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7361,7 +7502,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7525,7 +7668,11 @@
    "verdict": "hold",
    "reason": "Duplicate of d73aaf2c, the same photographs sent twice; that one is on the page",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-19",
+    "2026-11-20"
+   ]
   },
   {
    "id": "lead:58efdc92-c382-4b03-b495-c53f027b4e58",
@@ -7639,7 +7786,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -7903,7 +8052,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8060,7 +8211,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8098,12 +8251,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 122,
-   "verdict": "lead",
-   "reason": "The Signal Tree, Akron: a three-pronged bur oak of 250 to 350 years, alive and cared for (Summit Metro Parks, Davey 2025). Not live because the Chuckery Area of Cascade Valley Metro Park and its Peck Road entrance have been closed since 2023 for the Gorge Dam work, through at least 2028. Recorded in data/leads/akron.json; ships when the area reopens or a source shows it can be seen from open ground. The tip carries the reader's own words, so any answer is a draft for Hidde.",
+   "verdict": "hold",
+   "reason": "not_public: the Signal Tree stands in the Chuckery Area of Cascade Valley Metro Park, closed since 2023 for the Gorge Dam work through at least 2028; ships when it reopens or a source shows it can be seen from open ground. Lead in data/leads/akron.json.",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8633,7 +8788,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8666,7 +8823,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8727,7 +8886,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -8760,7 +8921,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -9191,7 +9354,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10049,7 +10214,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10090,7 +10257,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10245,7 +10414,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10472,7 +10643,9 @@
    "agreed": null,
    "shown": [
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10643,12 +10816,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1650,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/st-francisville.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a press source; US, so first in line.",
+   "verdict": "publish",
+   "reason": "live as st-francisville/stf_001 (Cat Island Bald Cypress), flagged alive per 2022 report: American Press 2022, Wikipedia, FWS refuge page, WorldAtlas; flood-season access in the access line",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10661,12 +10836,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 1120,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/cape-town.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "verdict": "publish",
+   "reason": "live as cape-town/cpt_001 (The Wedding Tree): SA Champion Trees register entry 34, Friends of Arderne Gardens, Heritage Portal, Wikipedia",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10679,12 +10856,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 900,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/tsitsikamma.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "verdict": "publish",
+   "reason": "live as tsitsikamma/tsi_001 (Big Tree of Tsitsikamma): SA Champion Trees register entry 25, National Geographic, News24, George Herald (fees)",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10698,11 +10877,13 @@
    "reader_note": "",
    "reader_girth_cm": null,
    "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/kgalagadi.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Location is a stretch of road; needs a coordinate.",
+   "reason": "Verified 2026-11-20: only a forum post places it about 20 km from Twee Rivieren; no coordinate, age or measure, and many roadside camel thorns carry weaver nests. Missing: a photo or GPS fix at the tree.",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -10733,12 +10914,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": 2000,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/_famous-italy.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Adds a map link to the held Castagno Miraglia lead whose only gap was a coordinate.",
+   "verdict": "publish",
+   "reason": "live as camaldoli/cml_001 (Castagno Miraglia): Foreste Casentinesi park page, it.wikipedia, Italian Botanical Heritage, ilbelcasentino; pin confirmed from OSM and the reader's place",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -11111,7 +11294,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -11381,7 +11566,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -11578,7 +11765,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12033,7 +12222,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12109,7 +12300,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12326,7 +12519,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12369,7 +12564,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12384,7 +12581,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12413,7 +12612,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12428,7 +12629,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -12485,7 +12688,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -13232,7 +13437,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -13287,7 +13494,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -13498,7 +13707,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -13957,7 +14168,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -14517,14 +14730,16 @@
     "score": null,
     "note": "nothing measurable about English Hawthorn (Crataegus laevigata)"
    },
-   "verdict": "lead",
-   "reason": "Looked 2026-11-15: a hawthorn in full blossom near Caldas da Rainha, reads as a big bush; the reader's 200 years and 50 cm girth do not make it big for its species. Lead, season row candidate.",
+   "verdict": "hold",
+   "reason": "not_special: a hawthorn in full blossom near Caldas da Rainha that reads as a big bush; 50 cm girth is not big for its species (looked 2026-11-15).",
    "hidde": null,
    "agreed": null,
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15414,7 +15629,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15441,7 +15658,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15520,7 +15739,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15573,7 +15794,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15600,7 +15823,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -15867,7 +16092,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16117,7 +16344,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16306,7 +16535,9 @@
    "shown": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16440,11 +16671,13 @@
    "reader_note": "",
    "reader_girth_cm": 454,
    "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/bagni-di-lusnizza.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree.",
+   "reason": "Verified 2026-11-20: no source names it (FVG and MASAF registers could not be opened); no coordinate, access unknown. Missing: a photo or GPS fix at the tree, or the regional register entry.",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16472,12 +16705,14 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": "lead",
-   "reason": "Recorded as a lead (data/leads/mouriscas.json) with the reader's words and map link; needs sources and a resolved pin before it ships as a reader-found tree. Reader named a Wikipedia source; Portugal is a focus country.",
+   "verdict": "publish",
+   "reason": "live as mouriscas/mou_001 (Olive of Mouchao): ICNF Tree of Public Interest KNJ1/478 via Wikipedia; 3,350 years stated as one study's estimate; pin confirmed from OSM",
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16495,7 +16730,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16513,7 +16750,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {
@@ -16546,7 +16785,9 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
    ]
   },
   {

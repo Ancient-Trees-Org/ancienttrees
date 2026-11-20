@@ -1,0 +1,63 @@
+{
+  "city": "Alerce Costero",
+  "country": "Chile",
+  "status": "needs_curation",
+  "intro": "Alerce Costero National Park covers more than 24,000 hectares of temperate rainforest in the coastal range of southern Chile, between La Unión and Corral in the Los Ríos Region. At the end of a forest trail in its Sector Mirador stands the Gran Abuelo, a Patagonian cypress 4.2 metres across that one 2022 study put at 5,484 years, a figure other scientists dispute. A reader sent it to us. Visits are ranger-led and booked in advance.",
+  "meta_description": "The Gran Abuelo, a Patagonian cypress in Chile's Alerce Costero National Park, dated by a disputed 2022 study at 5,484 years: how to visit.",
+  "question_meta": "The tree to see in Alerce Costero is the Gran Abuelo, a Patagonian cypress 4.2 m across, put at 3,500 to over 5,000 years.",
+  "question_answer": "The tree to see in Alerce Costero National Park is the Gran Abuelo, a Patagonian cypress 28 metres tall and 4.2 metres across. Its age is estimated between about 3,500 and over 5,000 years, the higher figure from a disputed 2022 model.",
+  "question_context": "In 2020 Jonathan Barichivich and Antonio Lara of the Universidad Austral de Chile took a partial core through 40 percent of the trunk and counted 2,400 rings; their 2022 study modelled the rest from climate records and other alerces and reached 5,484 years. The centre is rotten, so no complete ring count is possible, and critics such as Ed Cook say only a full count dates a tree. Earlier estimates were about 3,500 years. The tree itself is 28 metres tall, 4.2 metres across and about 11 metres round. Only about 28 percent of it is still alive, mostly in its roots, and the viewing platform two metres away blocks about half the rain that reaches them, so visits are ranger-led and limited. It stands at the end of the Sendero Alerce Milenario in Sector Mirador, reached by 45 km of difficult road from La Unión on Ruta T-80 and then a 2.5 km trail of medium difficulty. Tickets are booked in advance on Pasesparques.cl.",
+  "hero_tree_id": "alc_001",
+  "oldest_tree_id": "alc_001",
+  "trees": [
+    {
+      "id": "alc_001",
+      "name": "Gran Abuelo",
+      "species": "Patagonian Cypress (Fitzroya cupressoides)",
+      "age_estimate": "estimated 3,500 to over 5,000 years (a contested 2022 model estimate of 5,484 years)",
+      "age_min": 3500,
+      "age_max": 5500,
+      "age_basis": "source",
+      "girth_cm": 1100,
+      "height_m": 28,
+      "location": {
+        "address": "Sector Mirador, Alerce Costero National Park, Sendero Alerce Milenario, between La Unión and Corral, Los Ríos Region, Chile",
+        "latitude": -40.195163,
+        "longitude": -73.451199,
+        "neighbourhood": "Alerce Costero National Park"
+      },
+      "story": "Nobody can count this tree's rings, because its heart has rotted away, and that gap is the whole argument about how old it is.\n\nIn 2020 Jonathan Barichivich and Antonio Lara of the Universidad Austral de Chile drew a core through 40 percent of the trunk's width and counted 2,400 rings. Using climate records and other alerces, their 2022 study modelled the rest and arrived at 5,484 years. Earlier estimates said about 3,500. The dendrochronologist Ed Cook objects that only counting every ring truly dates a tree. So the honest answer is somewhere between 3,500 and over 5,000 years, with the higher figure still a model.\n\nThe size is not in dispute. The trunk is 4.2 metres across and about 11 metres round, and the tree stands 28 metres tall. It is a Patagonian cypress, alerce in Chile, lahuán to the Mapuche, a species that adds less than a millimetre of growth a year.\n\nIt is also in trouble. Barichivich says only about 28 percent of it is still alive, mostly in the roots, and walking on the soil nearby damages them. The viewing platform, two metres from the trunk, blocks about half the rain that would reach those roots, which is why park authorities now limit visits. Rangers walk people in, at most fifteen at a time.\n\nA reader sent it to us, from the coastal forest between La Unión and Corral, where felling alerce has been banned since 1976.",
+      "how_to_recognise": "You can recognise it as the giant at the end of the Sendero Alerce Milenario, a moss-covered trunk 4.2 metres across with much of its crown fallen. It stands two metres from the viewing platform.",
+      "paid_entry": true,
+      "access": "Paid and guided. Buy tickets in advance on Pasesparques.cl (2026: foreign adults CLP 10,000, Chilean adults CLP 4,700, under-12s free). Sector Mirador only with a park ranger, groups of at most 15: winter entry at 10:30 only, summer at 10:30 and 14:30. 45 km from La Unión on Ruta T-80, a difficult road best driven in a 4x4, then a 2.5 km trail of medium difficulty. Check with CONAF before going.",
+      "found_by_reader": {
+        "tip": "1032",
+        "date": "2026-11-17"
+      },
+      "curation_status": "ai_generated",
+      "verify_notes": "2026-11-20 verify and write: reader's tip 1032. Existence, species, size and age from Scientific American, Wikipedia (Alerce Milenario), chile.travel (national tourism board, 2026) and Meteored, independent. Age: the 2022 study's 5,484 years is a model extrapolated from a partial core (40 percent of the diameter, 2,400 rings); earlier estimates about 3,500; Ed Cook's objection via Wikipedia. Stated as a contested estimate; age_min/max bracket the two. Girth: the reader's 420 cm is the diameter; chile.travel gives 11 m perimeter (trunk not round). Height 28 m (Scientific American); chile.travel's 60 m is implausible and not used. No 'oldest tree in the world' claim made. Access re-checked 2026-11-20 on the chile.travel page itself: prices, Pasesparques.cl, ranger-led turns (winter 10:30, summer 10:30 and 14:30, max 15), 45 km on Ruta T-80, 4x4 advised, 2.5 km medium trek; the same page gives the park's 24,000+ hectares and the 1976 ban on felling alerce. The 'Tuesday to Sunday' opening line was not confirmed and is left out. Pin confirmed: OSM tree node on the trail, platform 2 m from the tree.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Alerce_Milenario",
+        "https://www.scientificamerican.com/article/this-might-be-the-worlds-oldest-tree-and-it-could-die-of-thirst/",
+        "https://www.chile.travel/blog/conoce-el-arbol-mas-viejo-del-mundo-trekking-en-el-parque-nacional-alerce-costero/",
+        "https://www.meteored.cl/noticias/ciencia/gran-abuelo-alerce-tiene-5484-anos-de-edad-y-aun-vive-chile.html"
+      ],
+      "location_precision": "confirmed",
+      "pin_source": "OSM natural=tree node named 'Gran Abuelo Alerce' at -40.1951633,-73.4511986 on the Sendero Alerce Milenario (path 2,196 m); the viewing platform stands 2 m from the tree (Scientific American)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old is the Gran Abuelo?",
+      "a": "Estimates run from about 3,500 years to 5,484, the higher figure from a 2022 model built on a partial core. Its centre is rotten, so nobody can count every ring, and the figure is disputed."
+    },
+    {
+      "q": "How do I visit the Gran Abuelo?",
+      "a": "Book a ticket in advance on Pasesparques.cl. Rangers lead groups of at most fifteen into Sector Mirador, at 10:30 in winter and at 10:30 or 14:30 in summer, on a 2.5 km trail of medium difficulty."
+    },
+    {
+      "q": "Why can I not get close to the tree?",
+      "a": "Only about 28 percent of it is still alive, mostly in the roots, and walking on the soil nearby damages them. The viewing platform two metres away is as close as visits go."
+    }
+  ]
+}
