@@ -307,15 +307,17 @@ const t = ui("en");
       fill("visited-list", "mine-empty", visited, own.map(ownTile).join(""));
       fill("saved-list", "saved-empty", saves);
       if (!window.atSetMyTrees) return;
-      var got = {};
+      var got = {}, savedIds = {};
       visited.forEach(function(id) { got[id] = true; });
+      saves.forEach(function(id) { savedIds[id] = true; });
       var all = visited.concat(saves.filter(function(id) { return !got[id]; }));
       window.atSetMyTrees(all.filter(function(id) {
         var c = cards[id]; return c && typeof c.x === "number" && typeof c.y === "number";
       }).map(function(id) {
         var c = cards[id];
         return { type: "Feature", geometry: { type: "Point", coordinates: [c.x, c.y] },
-                 properties: { id: id, name: c.n, city: c.c || "", url: c.u, ic: c.ic, got: got[id] ? 1 : 0 } };
+                 properties: { id: id, name: c.n, city: c.c || "", url: c.u, ic: c.ic, got: got[id] ? 1 : 0,
+                               saved: savedIds[id] ? 1 : 0 } };
       }).concat(own.filter(function(o) { return typeof o.lat === "number" && typeof o.lng === "number"; })
         .map(function(o) {
           return { type: "Feature", geometry: { type: "Point", coordinates: [o.lng, o.lat] },

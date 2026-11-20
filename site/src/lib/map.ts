@@ -1061,15 +1061,43 @@ var T = atTreeMap({
   },
   ready: function(p) {
     pins = p;
-    if (pending) { paint(pending); pending = null; }
+    if (pending) { pending = null; paint(true); }
   }
 });
 var map = T.map;
 
-function paint(features) {
+// THE MAP FOLLOWS THE TAB (Hidde, 2026-11-20: "als je op de Collected-pagina
+// zit, zie je de Collected-bomen op je kaart, en als je op de Want to Visit
+// bent, zie je de Want to Visit"): Collected draws the trees you collected and
+// the ones you added; Want to visit draws the trees you saved. AllTrails'
+// lists do the same: the map shows what the list shows. The app's profile map
+// follows its lane too (data/map-parity.json).
+var ALL_MINE = [];
+var firstPaint = true;
+function laneNow() {
+  var w = document.getElementById('lane-saved');
+  return w && w.classList.contains('on') ? 'saved' : 'mine';
+}
+function shownNow() {
+  var l = laneNow();
+  return ALL_MINE.filter(function(f) { return l === 'saved' ? f.properties.saved === 1 : f.properties.got === 1; });
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest || !e.target.closest('#lane-mine, #lane-saved')) { return; }
+  // After the page's own handler has switched the tab. The map keeps its
+  // frame: it is made once, when your trees first arrive, never again on a
+  // lane change, as in both apps (Hidde, 2026-11-17: the map jumping from Asia
+  // to Norway was the thing to stop).
+  setTimeout(function() { if (pins) { paint(false); } }, 0);
+});
+
+function paint(frame) {
+  var features = shownNow();
   pins.setData(features);
-  // Back from a tree page, the place kept in the address wins.
-  if (!features.length || T.fromAddress) { return; }
+  // Back from a tree page, the place kept in the address wins, once.
+  var keep = firstPaint && T.fromAddress;
+  firstPaint = false;
+  if (!frame || !features.length || keep) { return; }
   // Frame the whole collection. One tree gets a city-level zoom rather than
   // a bounding box of nothing.
   var b = new maplibregl.LngLatBounds();
@@ -1081,7 +1109,8 @@ function paint(features) {
 // Called by profile-js once the account has said which trees are yours. It
 // may arrive before or after the style loads, so both orders work.
 window.atSetMyTrees = function(features) {
-  if (pins) { paint(features); } else { pending = features; }
+  ALL_MINE = features || [];
+  if (pins) { paint(true); } else { pending = true; }
 };
 `);
 }

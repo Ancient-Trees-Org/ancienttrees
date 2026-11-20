@@ -81,6 +81,8 @@ var AT_PIN_ICONS = ${JSON.stringify(SPECIES_ICONS)};
 var AT_PIN_MARKS = ${JSON.stringify({ got: PIN_TICK, fav: PIN_BOOKMARK, paid: PIN_TICKET })};
 // Every map on a page that draws trees, so one save or tick repaints them all.
 var AT_PIN_SETS = [];
+// A pointer that can point (a computer, not a phone): hover lights a pin.
+var AT_CAN_HOVER = Boolean(window.matchMedia && window.matchMedia('(hover: hover)').matches);
 // The pin's markup, the one place it is written. Exposed for the city map's
 // list, which needs nothing else from it.
 // iconKey: a key of AT_PIN_ICONS, or the drawing itself (the city map's
@@ -126,7 +128,12 @@ function atTreePins(map, o) {
       var f = e.features[0];
       o.open(f.properties, f.geometry.coordinates);
     });
-    map.on('mouseenter', l, function() { map.getCanvas().style.cursor = 'pointer'; });
+    // A dot under the pointer becomes its tree's full, lit pin (then the pin's
+    // own mouseleave lets it go), as on Airbnb's map.
+    map.on('mouseenter', l, function(e) {
+      map.getCanvas().style.cursor = 'pointer';
+      if (AT_CAN_HOVER && e.features && e.features[0]) { api.hover(String(e.features[0].properties.id)); }
+    });
     map.on('mouseleave', l, function() { map.getCanvas().style.cursor = ''; });
   });
 
@@ -154,6 +161,14 @@ function atTreePins(map, o) {
       tapAt = Date.now();
       o.open(p, f.geometry.coordinates);
     });
+    // POINTING AT A PIN LIGHTS IT, the same as pointing at its row in the list
+    // (Hidde, 2026-11-20: "als ik ... over een pin hover, dan komt er opeens
+    // geen vergroting ... overal deze ervaring hetzelfde"): Airbnb's pin turns
+    // to its chosen look under the pointer, and the card waits for a click.
+    if (AT_CAN_HOVER) {
+      el.addEventListener('mouseenter', function() { api.hover(idOf(f)); });
+      el.addEventListener('mouseleave', function() { api.hover(null); });
+    }
     var marker = new maplibregl.Marker({element: el}).setLngLat(f.geometry.coordinates).addTo(map);
     // After addTo: MapLibre labels every marker "Map marker".
     if (p.name) { el.setAttribute('aria-label', p.name); }

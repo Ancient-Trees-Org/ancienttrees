@@ -91,6 +91,12 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: the profile map follows the tab, everywhere; pointing at a pin lights it
+
+- **Profile map** (Hidde: "bouw dit overal"): Collected shows the trees you collected and the ones you added, Want to visit the trees you saved, on the website, the iPhone and Android. Before: the website showed both at once (and since the one pin you could no longer tell them apart), the apps only Collected. The frame is made once and kept on a tab switch, as Hidde asked on 2026-11-17. iOS builds, Android builds and its unit tests pass; not seen signed in on a phone.
+- **Pointing at a pin or a dot on any web map lights it** as pointing at its list row does (Hidde: "als ik ... over een pin hover, dan komt er opeens geen vergroting"), and moves no other pin; the card still waits for a click (Airbnb). Tested on the Kyoto test page.
+- **Next, from Hidde's question "welke vraag moet ik jou stellen"**: a map walk in deploy's Chrome check that does the same hovers and taps on every web map at desktop and laptop width and stops the deploy when one map behaves differently.
+
 ## 2026-11-20 session: the tapped tree's card never covers its own pin
 
 - **Live check of the pin fix** (Kyoto, 16:16): eight hovers along the list, no pin moved; markers absolute; a tapped pin opens its card with photo. **Found on the way**: at about 1024 wide (a laptop with the list beside the map) the card fitted neither right nor left of the pin and was pushed against the edge, over the chosen pin. Now it stands above the pin, else below (Airbnb), and its photograph loads at once instead of lazily. map-card-js.ts; checked on the live page with the same arithmetic.

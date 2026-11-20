@@ -193,8 +193,9 @@ export const PROFILE_JS = `
   }
 
   function pins(saves, visited, cards) {
-    var got = {};
+    var got = {}, savedIds = {};
     visited.forEach(function(id) { got[id] = true; });
+    saves.forEach(function(id) { savedIds[id] = true; });
     var all = visited.concat(saves.filter(function(id) { return !got[id]; }));
     var features = [];
     all.forEach(function(id) {
@@ -205,7 +206,8 @@ export const PROFILE_JS = `
         geometry: { type: 'Point', coordinates: [c.x, c.y] },
         // pr: the order the list is built in, collected first, decides which
         // pin shows where two collide (tree-pins-js.ts).
-        properties: { id: id, name: c.n, city: c.c || '', url: c.u, ic: c.ic, got: got[id] ? 1 : 0, pr: features.length }
+        properties: { id: id, name: c.n, city: c.c || '', url: c.u, ic: c.ic, got: got[id] ? 1 : 0,
+                      saved: savedIds[id] ? 1 : 0, pr: features.length }
       });
     });
     ourPins = features;

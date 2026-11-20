@@ -11,6 +11,15 @@
       "why": "the same map on each platform; the controls follow the platform (MapLibre's buttons on the web, the app's own recentre button over the sheet, CONVENTIONS.md \"A my-location control over a bottom sheet\")"
     },
     {
+      "what": "The profile map follows the tab: Collected shows the trees you collected (and your own), Want to visit the trees you saved",
+      "since": "2026-11-20",
+      "web": "myTreesMapScript (map.ts) filters on the tab; frame made once, kept on a tab switch",
+      "ios": "Collect.swift coverMap follows `lane`; frame made once",
+      "android": "MyTrees.kt TreeMapView follows `lane`, as iOS; frame made once",
+      "status": "done",
+      "decided": "Hidde, 2026-11-20: \"bouw dit overal\" (before: the web showed both lanes at once, the apps only Collected)"
+    },
+    {
       "what": "The one tree pin: moss disc, white ring, species in white, 1.5x when chosen, moss dots",
       "since": "2026-11-20",
       "web": "tree-pins-js.ts from PIN_SPEC (lib/map.ts)",
@@ -27,9 +36,9 @@
       "status": "done"
     },
     {
-      "what": "Pointing at a tree in the list lights its pin",
+      "what": "Pointing at a tree, in the list or on the map, lights its pin",
       "since": "2026-11-20",
-      "web": "atPinsFollowList (tree-pins-js.ts) on every map with a list; the pointed-at pin turns full and chosen-looking over the rest and moves no other pin (2026-11-20, after the pins jumped on Kyoto)",
+      "web": "atPinsFollowList and the pin's and dot's own hover (tree-pins-js.ts) on every map: the pin turns full and chosen-looking over the rest and moves no other pin; the card waits for a click (Airbnb)",
       "ios": "none",
       "android": "none",
       "status": "one-sided",
