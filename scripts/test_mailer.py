@@ -81,7 +81,7 @@ fails = 0
 def _raises(fn):
     try:
         fn()
-    except smtplib.SMTPResponseException:
+    except (smtplib.SMTPResponseException, mailer.ReserveKept):
         return True
     return False
 
@@ -117,6 +117,15 @@ expect("reserve: strangers use their share of resend, then gmail; yahoo keeps re
 expect("reserve: share used up, gmail refusing raises rather than eat the reserve",
        "raised" if _raises(lambda: run(mailer.FIRST, ["a@x.org"], {"gmail": "refuse"}, resend_left=0)) else "sent",
        "raised")
+expect("reserve: an expected batch spilling off a full gmail stops at the share (wave 3, 2026-11-20)",
+       "raised" if _raises(lambda: run(mailer.EXPECTED, [A_GMAIL, "b@y.org"], {"gmail": "refuse"}, resend_left=1)) else "sent",
+       "raised")
+expect("reserve: the spill uses only its share before raising",
+       (lambda: (_raises(lambda: run(mailer.EXPECTED, [A_GMAIL, "b@y.org", "c@z.org"], {"gmail": "refuse"}, resend_left=1)), list(sent))[1])(),
+       [("resend", A_GMAIL)])
+expect("reserve: yahoo still gets resend with the share used up",
+       run(mailer.EXPECTED, [B_YAHOO], {}, resend_left=0),
+       [("resend", B_YAHOO)])
 expect("reserve: share counted from the logged routes",
        mailer.resend_left_for_strangers({"sent": [{"date": "d", "route": "resend"}] * 58
                                                  + [{"date": "d", "route": "gmail"}] * 9

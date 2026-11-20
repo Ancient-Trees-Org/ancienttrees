@@ -152,6 +152,11 @@ def _open(host, port, user, pw, timeout):
 _REFUSED = (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused)
 
 
+class ReserveKept(smtplib.SMTPException):
+    """Nothing sent: the only route left is Resend's sign-in reserve. A batch
+    stops here and sends the rest another day."""
+
+
 class _Server:
     """Both routes, opened when first needed, each mail on the route the rule
     gives it (wants_resend), the other route when that one refuses or cannot be
@@ -208,22 +213,32 @@ class _Server:
             msg["Message-ID"] = make_msgid(domain="ancienttrees.app")
         order = ["resend", "gmail"] if wants_resend(to, self._kind) else ["gmail", "resend"]
         needs_signed = on_yahoo(to) or on_apple_relay(to)
-        by_kind_only = order[0] == "resend" and not needs_signed
-        if by_kind_only and self._resend_left is not None and self._resend_left <= 0:
-            order = ["gmail"]  # the rest of Resend's day is the sign-in reserve
         last_refusal = None
+        kept_reserve = False
         for name in order:
+            # THE RESERVE HOLDS FOR A SPILL TOO (2026-11-20, wave 3 of the
+            # Android invitation): an "expected" batch went through Gmail until
+            # Gmail's daily limit, then the other 97 of it fell to Resend and
+            # used up the 100 that sign-in mail needs. Any mail that does not
+            # need a signature uses Resend only within `resend_left`, whether it
+            # wanted Resend by kind or lands there because Gmail refused.
+            unsigned_resend = name == "resend" and not needs_signed
+            if unsigned_resend and self._resend_left is not None and self._resend_left <= 0:
+                kept_reserve = True
+                continue  # the rest of Resend's day is the sign-in reserve
             if self._conn(name) is None:
                 continue
             try:
                 self._send(name, msg)
-                if name == "resend" and by_kind_only and self._resend_left is not None:
+                if unsigned_resend and self._resend_left is not None:
                     self._resend_left -= 1
                 return name
             except _REFUSED as e:
                 print(f"mailer: {name} refused ({type(e).__name__} {str(e)[:120]}); trying the other route")
                 self._dead.add(name)
                 last_refusal = e
+        if kept_reserve:
+            raise ReserveKept(f"{to}: the other route refused today and Resend's rest is kept for sign-in mail")
         if last_refusal is not None:
             raise last_refusal
         raise smtplib.SMTPServerDisconnected("no mail route reachable on this machine")

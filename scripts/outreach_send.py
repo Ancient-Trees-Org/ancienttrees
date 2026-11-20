@@ -174,6 +174,7 @@ def main():
 
     server = None
     results = []
+    routes_full = None  # set when a send found no route left: the rest waits
     for m in batch["mails"]:
         to = (m.get("to") or "").strip()
         label = m.get("outlet", to or "?")
@@ -259,6 +260,9 @@ def main():
             results.append(f"HOLD  {label}: daily cap of {DAILY_CAP} reached, "
                            f"re-run tomorrow")
             continue
+        if routes_full:
+            results.append(f"HOLD  {label}: no mail route left today ({routes_full}), re-run tomorrow")
+            continue
         if not really:
             _cc = (m.get("cc") or "").strip()
             results.append(f"DRY   {label}: would send {m['subject']!r} to {to}"
@@ -323,7 +327,16 @@ def main():
             kind = mailer.EXPECTED if batch.get("kind") == mailer.EXPECTED else mailer.FIRST
             server = mailer.connect(creds, timeout=30, kind=kind,
                                     resend_left=mailer.resend_left_for_strangers(sent_log, today))
-        route = server.send_message(msg, recent_ok=recent_ok or None)
+        # A ROUTE THAT IS FULL STOPS THE BATCH (2026-11-20): Gmail's daily
+        # limit mid-batch used to crash the run, or spill the rest onto Resend's
+        # sign-in reserve. Now this mail and the rest wait for another day.
+        try:
+            route = server.send_message(msg, recent_ok=recent_ok or None)
+        except (mailer.ReserveKept, smtplib.SMTPResponseException,
+                smtplib.SMTPServerDisconnected) as e:
+            routes_full = f"{type(e).__name__}: {str(e)[:100]}"
+            results.append(f"HOLD  {label}: no mail route left today ({routes_full}), re-run tomorrow")
+            continue
         if not m.get("in_reply_to"):
             sent_today += 1
         record = {"date": today, "to": to, "outlet": label,
