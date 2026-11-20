@@ -8,6 +8,12 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+
+## 2026-11-20 session: site build fixed; "Not there? Look in your spam folder." on the sign-in step
+
+- **Breakage, fixed (commit 3b71622ed)**: from 09:07 UTC the site did not build. d5213f19d (bookmark on the home row) had `visitorSaveFn` call itself where its SAVE/SAVED/BM declarations belonged, so every page with visitor tiles overflowed the stack (/de/visitors first) and no deploy went out. The three values now sit inside `nfvSave`. Not yet seen in a finished build: every smoke and deploy run since was cancelled by a newer push (a busy morning of reader-judge commits); the build ran minutes past the old crash point before its cancel.
+- **On main (commit e4515e26e, Hidde: "Yes, add it")**: the check-your-inbox step says "Not there? Look in your spam folder." on the website (eight languages, `spam` in site/src/lib/signin-strings.ts), iOS (SignIn.swift, next build) and Android (`signin_check_spam`, eight languages). Why: 29 Guardian-day email sign-ups never got in after two mails each, and our Gmail route is unsigned for our domain. Not looked at rendered yet (waits for the deploy). Seen while there: Android's unused `signin_sent_2` still says "expires in 15 minutes" in every language; nothing draws it.
+
 ## 2026-11-20 session: every route trees come in by, checked for consistent metadata; 33 hand-placed pins were called GPS fixes
 
 - **What was wrong on the site:** 33 readers' trees said "confirmed, reader GPS fix", and 17 stories (plus 5 translations, ja/pt/es) said "with a GPS fix", while the app had recorded that the reader placed the pin on the map by hand. The app writes that into the tree's submissions row (`location_hint`, "placed on the map by hand"); nothing read it, and the build pattern called any coordinate a fix. Now approximate, `pin_source` "reader's hand-placed pin", the sentences rewritten to what is true.
