@@ -1,14 +1,14 @@
 {
  "generated": "scripts/tagged_shown.py",
  "since": "2026-11-01",
- "google_data_through": "2026-11-18",
- "tagged_pages_shown": 1025,
- "impressions": 4317,
+ "google_data_through": "2026-11-19",
+ "tagged_pages_shown": 1023,
+ "impressions": 4324,
  "clicks": 83,
  "pages": [
   {
    "path": "/united-states/maryland",
-   "impressions": 34,
+   "impressions": 35,
    "clicks": 5,
    "days": [
     "2026-11-01",
@@ -17,10 +17,11 @@
     "2026-11-08",
     "2026-11-09",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
    ],
    "first_day": "2026-11-01",
-   "last_day": "2026-11-18"
+   "last_day": "2026-11-19"
   },
   {
    "path": "/switzerland",
@@ -327,6 +328,21 @@
    "last_day": "2026-11-14"
   },
   {
+   "path": "/it/cagliari/jacaranda-of-giardini-pubblici",
+   "impressions": 8,
+   "clicks": 1,
+   "days": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-17",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-19"
+  },
+  {
    "path": "/kyoto/reclining-dragon-pine",
    "impressions": 8,
    "clicks": 1,
@@ -427,20 +443,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-08"
-  },
-  {
-   "path": "/it/cagliari/jacaranda-of-giardini-pubblici",
-   "impressions": 6,
-   "clicks": 1,
-   "days": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10",
-    "2026-11-17"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-17"
   },
   {
    "path": "/it/cagliari/tintitaco",
@@ -665,6 +667,17 @@
    "last_day": "2026-11-05"
   },
   {
+   "path": "/ottawa/swamp-white-oak-of-the-north-lookout",
+   "impressions": 3,
+   "clicks": 1,
+   "days": [
+    "2026-11-03",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-19"
+  },
+  {
    "path": "/bologna/himalayan-cedar-of-villa-ghigi",
    "impressions": 2,
    "clicks": 1,
@@ -709,16 +722,6 @@
   },
   {
    "path": "/montreal/last-elm-of-mont-royal",
-   "impressions": 2,
-   "clicks": 1,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
-   "path": "/ottawa/swamp-white-oak-of-the-north-lookout",
    "impressions": 2,
    "clicks": 1,
    "days": [
@@ -1097,7 +1100,7 @@
   },
   {
    "path": "/monterey/lone-cypress",
-   "impressions": 44,
+   "impressions": 46,
    "clicks": 0,
    "days": [
     "2026-11-01",
@@ -1112,10 +1115,11 @@
     "2026-11-14",
     "2026-11-15",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
    ],
    "first_day": "2026-11-01",
-   "last_day": "2026-11-18"
+   "last_day": "2026-11-19"
   },
   {
    "path": "/sequoia-national-park/washington-tree",
@@ -1138,7 +1142,7 @@
   },
   {
    "path": "/species/bodhi-tree",
-   "impressions": 40,
+   "impressions": 41,
    "clicks": 0,
    "days": [
     "2026-11-01",
@@ -1148,10 +1152,11 @@
     "2026-11-09",
     "2026-11-10",
     "2026-11-13",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-19"
    ],
    "first_day": "2026-11-01",
-   "last_day": "2026-11-17"
+   "last_day": "2026-11-19"
   },
   {
    "path": "/taiwan",
@@ -1309,6 +1314,25 @@
    "last_day": "2026-11-14"
   },
   {
+   "path": "/species/cork-oak",
+   "impressions": 24,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-13",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-19"
+  },
+  {
    "path": "/cambridge/newtons-apple-tree",
    "impressions": 23,
    "clicks": 0,
@@ -1325,24 +1349,6 @@
    ],
    "first_day": "2026-11-01",
    "last_day": "2026-11-16"
-  },
-  {
-   "path": "/species/cork-oak",
-   "impressions": 23,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-13",
-    "2026-11-15",
-    "2026-11-16",
-    "2026-11-17"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-17"
   },
   {
    "path": "/prague/nerudas-pear-tree",
@@ -1640,6 +1646,21 @@
    "last_day": "2026-11-10"
   },
   {
+   "path": "/de/vienna/ginkgo-of-schonbrunn",
+   "impressions": 13,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-19"
+  },
+  {
    "path": "/es/granada",
    "impressions": 13,
    "clicks": 0,
@@ -1709,20 +1730,6 @@
    ],
    "first_day": "2026-11-01",
    "last_day": "2026-11-14"
-  },
-  {
-   "path": "/de/vienna/ginkgo-of-schonbrunn",
-   "impressions": 12,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-10"
   },
   {
    "path": "/es/alicante/ficus-of-parque-de-canalejas-south",
@@ -3679,6 +3686,20 @@
    "last_day": "2026-11-01"
   },
   {
+   "path": "/rome/ginkgo-of-villa-sciarra",
+   "impressions": 5,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-18",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-19"
+  },
+  {
    "path": "/sapporo",
    "impressions": 5,
    "clicks": 0,
@@ -3923,18 +3944,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-03"
-  },
-  {
-   "path": "/chadds-ford/brandywine-sycamore-lafayette-sycamore",
-   "impressions": 4,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-09"
   },
   {
    "path": "/chicago",
@@ -4434,19 +4443,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/rome/ginkgo-of-villa-sciarra",
-   "impressions": 4,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-08",
-    "2026-11-18"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-18"
-  },
-  {
    "path": "/singapore",
    "impressions": 4,
    "clicks": 0,
@@ -4684,6 +4680,17 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
+  },
+  {
+   "path": "/cambridge/oriental-plane-of-jesus-college",
+   "impressions": 3,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-19"
   },
   {
    "path": "/christchurch",
@@ -6005,16 +6012,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/cambridge/oriental-plane-of-jesus-college",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
    "path": "/caserta/bottle-tree-of-the-english-garden",
    "impressions": 2,
    "clicks": 0,
@@ -6995,6 +6992,17 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/los-angeles/oldest-palm-tree-in-los-angeles",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-09",
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-09",
+   "last_day": "2026-11-19"
   },
   {
    "path": "/lukavice",
@@ -9071,16 +9079,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/gdansk/ivy-elm-of-park-oliwski",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-01"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-01"
-  },
-  {
    "path": "/geneva/atlas-cedar-of-parc-la-grange",
    "impressions": 1,
    "clicks": 0,
@@ -9911,16 +9909,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/los-angeles/oldest-palm-tree-in-los-angeles",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-09",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/lucca",
    "impressions": 1,
    "clicks": 0,
@@ -9929,26 +9917,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
-  },
-  {
-   "path": "/lyon",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-10"
-   ],
-   "first_day": "2026-11-10",
-   "last_day": "2026-11-10"
-  },
-  {
-   "path": "/lyon/plane-tree-of-place-antoine-rivoire",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-04"
-   ],
-   "first_day": "2026-11-04",
-   "last_day": "2026-11-04"
   },
   {
    "path": "/maastricht",
@@ -10209,6 +10177,16 @@
    ],
    "first_day": "2026-11-09",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/nara/giant-camphor-of-naratsuhiko-shrine",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-19"
+   ],
+   "first_day": "2026-11-19",
+   "last_day": "2026-11-19"
   },
   {
    "path": "/nara/roben-sugi-of-nigatsu-do",
@@ -10809,6 +10787,16 @@
    ],
    "first_day": "2026-11-04",
    "last_day": "2026-11-04"
+  },
+  {
+   "path": "/rudy",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-18"
+   ],
+   "first_day": "2026-11-18",
+   "last_day": "2026-11-18"
   },
   {
    "path": "/seattle/aype-lombardy-poplar",

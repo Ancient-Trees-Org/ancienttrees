@@ -424,6 +424,21 @@
    }
   },
   {
+   "common": "Apple Blossom Tree",
+   "latin": "Cassia javanica",
+   "names": {
+    "en": [
+     "apple blossom"
+    ],
+    "fr": [
+     "Casse de Java"
+    ],
+    "pt": [
+     "Cássia-javanesa"
+    ]
+   }
+  },
+  {
    "common": "Apple Box",
    "latin": "Eucalyptus bridgesiana",
    "names": {
@@ -3209,6 +3224,18 @@
    }
   },
   {
+   "common": "Cluster Fig",
+   "latin": "Ficus racemosa",
+   "names": {
+    "ja": [
+     "うどんげ",
+     "ウドンゲ",
+     "フサナリイチジク",
+     "優曇華"
+    ]
+   }
+  },
+  {
    "common": "Coast Coral Tree",
    "latin": "Erythrina caffra",
    "names": {
@@ -5676,6 +5703,10 @@
    }
   },
   {
+   "common": "Florida Strangler Fig",
+   "latin": "Ficus aurea"
+  },
+  {
    "common": "Floss Silk Tree",
    "latin": "Ceiba chodatii",
    "names": {
@@ -5761,6 +5792,10 @@
   {
    "common": "German Ash",
    "latin": "Fraxinus holotricha"
+  },
+  {
+   "common": "Ghost Gum",
+   "latin": "Corymbia aparrerinja"
   },
   {
    "common": "Ghost Pine",
@@ -10408,6 +10443,38 @@
     "ja": [
      "アメリカトチノキ",
      "オハイオトチノキ"
+    ]
+   }
+  },
+  {
+   "common": "Okanzakura Cherry",
+   "latin": "Prunus 'Okanzakura'",
+   "names": {
+    "en": [
+     "plum",
+     "the Cherries"
+    ],
+    "nl": [
+     "bloesemboom",
+     "prunis",
+     "sierboom"
+    ],
+    "de": [
+     "Amygdaloideae",
+     "Prunoideae",
+     "Steinobstgewächse"
+    ],
+    "es": [
+     "Amygdalopersica",
+     "Amygdalophora",
+     "Amygdalopsis",
+     "Cerapadus"
+    ],
+    "ja": [
+     "サクラ属",
+     "スモモ属",
+     "プルヌス属",
+     "広義のサクラ属"
     ]
    }
   },
@@ -18307,11 +18374,6 @@
    }
   },
   {
-   "common": "Florida Strangler Fig",
-   "latin": "Ficus aurea",
-   "mapped": false
-  },
-  {
    "common": "Fiddleleaf Fig",
    "latin": "Ficus lyrata",
    "mapped": false,
@@ -19272,6 +19334,26 @@
    "common": "Mochocho / Msavia",
    "latin": "Pachystela msolo",
    "mapped": false
+  },
+  {
+   "common": "Peltophorum",
+   "latin": "Peltophorum pterocarpum",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Yellow Flame Tree",
+     "yellow ponciana"
+    ],
+    "de": [
+     "Gelber Flammenbaum"
+    ],
+    "es": [
+     "Arbol llama amarilla",
+     "Baryxylum inerme",
+     "Caesalpinia arborea",
+     "Caesalpinia ferruginea"
+    ]
+   }
   },
   {
    "common": "Parrotia persica",
@@ -20721,7 +20803,7 @@
    }
   },
   {
-   "common": "Panama Tree",
+   "common": "Panama tree",
    "latin": "Sterculia apetala",
    "mapped": false
   },
