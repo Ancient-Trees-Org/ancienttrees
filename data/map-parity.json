@@ -1,0 +1,41 @@
+{
+  "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
+  "rows": [
+    {
+      "what": "The one tree pin: moss disc, white ring, species in white, 1.5x when chosen, moss dots",
+      "since": "2026-11-20",
+      "web": "tree-pins-js.ts from PIN_SPEC (lib/map.ts)",
+      "ios": "TreeMap.swift pin(colour:...), the source of the numbers; qa pin_spec_problems() holds the web to it",
+      "android": "TreeMapView.kt, said to copy iOS; not held by a check yet",
+      "status": "open",
+      "owed": "android: hold TreeMapView.kt's pin to PIN_SPEC in qa, as iOS is"
+    },
+    {
+      "what": "A dot only where it stands clear of every pin and every other dot (Airbnb's mini-pins); the rest wait for a zoom",
+      "since": "2026-11-20",
+      "web": "tree-pins-js.ts place(): dots filtered to those that clear the full pins",
+      "ios": "dots are a plain circle layer under the pins (TreeMap.swift dotLayer), so a dot can sit half under a pin",
+      "android": "the same circle layer (TreeMapView.kt), the same fault",
+      "status": "open",
+      "owed": "ios and android: draw the dots as a symbol layer that may not overlap, after the pins, so the map's own collision drops a dot under a pin"
+    },
+    {
+      "what": "Pointing at a tree in the list lights its pin",
+      "since": "2026-11-20",
+      "web": "atPinsFollowList (tree-pins-js.ts) on every map with a list",
+      "ios": "none",
+      "android": "none",
+      "status": "one-sided",
+      "why": "a phone has no pointer to hover with; Airbnb's apps have none either"
+    },
+    {
+      "what": "A tapped pin's card",
+      "since": "2026-10-24",
+      "web": "Airbnb's card floats on the map (map-card-js.ts)",
+      "ios": "the tree's own card rises in the sheet (Apple Maps)",
+      "android": "as iOS",
+      "status": "one-sided",
+      "why": "Hidde chose both, CONVENTIONS.md \"Tapping a pin on a map that has a list in a sheet\" (2026-10-19, 2026-10-24)"
+    }
+  ]
+}

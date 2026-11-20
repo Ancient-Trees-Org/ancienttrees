@@ -3830,6 +3830,38 @@ def check_one_tree_card():
     return problems
 
 
+def check_map_parity_ledger():
+    """data/map-parity.json, the ledger of how the maps differ between the
+    website, the iPhone and Android (scripts/mapparity.py makes a one-sided
+    map push write to it). Every row names what each platform does and a
+    status; an open row names what is owed, a one-sided row says why.
+    Hidde, 2026-11-20: "als we dingen in een kaart aanpakken moeten we altijd
+    over platformen heen denken. niet alles moet hetzelfde maar als het kan wel".
+
+    Removing this needs Hidde."""
+    path = ROOT / "data" / "map-parity.json"
+    if not path.exists():
+        return ["data/map-parity.json is gone: the maps' cross-platform ledger"]
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8")).get("rows", [])
+    except ValueError as e:
+        return ["data/map-parity.json does not parse: %s" % e]
+    problems = []
+    for i, r in enumerate(rows):
+        label = r.get("what", "row %d" % i)[:60]
+        for k in ("what", "since", "web", "ios", "android", "status"):
+            if not str(r.get(k, "")).strip():
+                problems.append("map-parity row '%s' has no %s" % (label, k))
+        st = r.get("status")
+        if st not in ("open", "one-sided", "done"):
+            problems.append("map-parity row '%s' has status %r (open, one-sided or done)" % (label, st))
+        if st == "open" and not str(r.get("owed", "")).strip():
+            problems.append("map-parity row '%s' is open but says nothing about what is owed" % label)
+        if st == "one-sided" and not str(r.get("why", "")).strip():
+            problems.append("map-parity row '%s' is one-sided without a why" % label)
+    return problems
+
+
 def check_the_noindex_split_holds():
     """Pages Google alone is asked not to list carry the googlebot tag and only
     that; everything else on the noindex list carries the generic robots tag;
@@ -4778,6 +4810,7 @@ def main():
         check_one_tree_card_on_every_map,
         check_one_save_button,
         check_one_tree_card,
+        check_map_parity_ledger,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in

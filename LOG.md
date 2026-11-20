@@ -23,6 +23,10 @@
 - **Photos**: every srcset now names each file's real width (a 500 copy was labelled 250w, a 1600 original 800w), home cards say their real 200 px, and the deploy makes a 250 copy of every 500 for row thumbnails (vendor_photos.py --small, gitignored, ~50 MB never committed). photocheck.py --live: 1605 photographs, all sharp and right-sized.
 - **For Hidde**: replies to Deb (1232, ambassador of her hometown) and Teresa (1240, La Tene versus Latena) wait for his yes.
 
+## 2026-11-20 session: a map change crosses every platform, or says why not
+
+- **The rule, now a check** (Hidde: "wees zelf kritisch als we dingen in een kaart aanpakken moeten we altijd over platformen heen denken"): scripts/mapparity.py in the pre-push hook refuses a push that changes a website map without the phones' map (or the reverse) unless data/map-parity.json is updated: what each platform does, and the open debt or why it is one-sided. Verified both ways. **Open in the ledger now**: the phones still draw dots under pins (iOS and Android both use a plain circle layer), and Android's pin is not yet held to PIN_SPEC.
+
 ## 2026-11-20 session: one tree card, server and browser
 
 - **What changes for visitors**: the map cards (explore, country, state, profile and the city map's neighbours), the profile grid and the explore list's Highlights and rows are now TreeCard's own card. They gain what had drifted away: the photo credit with its links, the species tile where there is no photograph, the same "Collected" badge as the city page, the save button that stores the photo and meta. A map card shows common name and short age, as every list card does, and no longer the full species and city line.

@@ -68,6 +68,20 @@ while read -r _local_ref local_sha _remote_ref remote_sha; do
 $(git diff --name-only "$base" "$local_sha" 2>/dev/null)"
 done
 
+# A MAP CHANGE CROSSES EVERY PLATFORM, or says why not (Hidde, 2026-11-20:
+# "als we dingen in een kaart aanpakken moeten we altijd over platformen heen
+# denken"). A push that changes the website's maps without the phones', or the
+# reverse, must update data/map-parity.json with what each platform does and
+# what is owed.
+if ! out=$(echo "$CHANGED" | sort -u | xargs python3 scripts/mapparity.py 2>&1); then
+    echo ""
+    echo "pre-push: a map changed on one platform only"
+    echo "$out" | sed 's/^/  /'
+    echo ""
+    echo "Nothing was pushed."
+    exit 1
+fi
+
 # PITCH COPY, checked before it can leave (2026-09-04). The nudge hook puts the
 # calibration in front of a first draft; this is the net under it, because the
 # draft that reaches a stranger is the one in a file. Narrow on purpose:
