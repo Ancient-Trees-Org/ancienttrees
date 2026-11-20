@@ -1569,6 +1569,18 @@ struct TreeDetail: View {
     /// in 16 against the 19 its neighbours use, and only the name was the
     /// tap target, padded to 44 points, which left a band of empty card under
     /// it. Label plus name is already about 44, so the target needs no padding.
+    private var speciesName: Text {
+        let common = Text(tree.commonName)
+            .font(.brand(19, .bold, relativeTo: .headline))
+            .foregroundColor(Brand.moss)
+        guard let latin = tree.scientificName, !latin.isEmpty else { return common }
+        return common + Text("  " + latin)
+            // The system face, as the story's Latin names: Gabarito has no
+            // italic, and a slanted name is the botanical convention.
+            .font(.subheadline.italic())
+            .foregroundColor(Brand.inkSoft)
+    }
+
     @ViewBuilder private var speciesColumn: some View {
         Button {
             // ON YOUR OWN TREE THIS NAMES THE SPECIES, it does not browse
@@ -1584,12 +1596,14 @@ struct TreeDetail: View {
                 if mine != nil, tree.species.isEmpty {
                     addValue
                 } else {
-                    // Common name only: the Latin name is on the species
-                    // page, which is what the chevron is for.
-                    HStack(spacing: 4) {
-                        Text(tree.commonName)
-                            .font(.brand(19, .bold, relativeTo: .headline))
-                            .lineLimit(2)
+                    // The common name, then the Latin name small and italic
+                    // on the same baseline (Hidde, 2026-11-20: "Yes, build
+                    // it", after a Gdansk dendrologist missed it; the website
+                    // shows the same in its facts card). One Text, so a long
+                    // pair wraps as a sentence and the baselines never part.
+                    HStack(alignment: .firstTextBaseline, spacing: 4) {
+                        speciesName
+                            .lineLimit(3)
                             .multilineTextAlignment(.leading)
                         Image(systemName: "chevron.right")
                             .font(.system(size: 11, weight: .semibold))

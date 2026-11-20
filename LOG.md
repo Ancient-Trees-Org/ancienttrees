@@ -14,6 +14,13 @@
 - **Live**: the Préfargier place page and its five trees say Laténa, the local name the reader and ambassador there asked for (Hidde: "follow the local"). The intro names La Tène once as the official name; "La Tène" stays a search name; URL /la-tene unchanged.
 - **Reply sent** to the reader (feedback 1240, Hidde: "Verstuur") through contributor_reply.py: name changed, her 4.23 m girth on the cedars' page, ambassador for Laténa, her next photos welcome. Row closed as handled.
 
+## 2026-11-20 session: the Latin name is back on the tree page, web and app
+
+- **Product:** the facts card shows the scientific name after the common one, small, grey and italic, on the same baseline ("White Willow *Salix alba* >"). Hidde chose the same-line version over a second line ("takes up a lot of space"), then "Yes, build it". Asked for by the Gdansk ambassador, a dendrologist. Reverses the 2026-09-24 "common name only" card.
+- Web: site/src/components/TreeDetail.astro (`spLatin`, `.tb-sp-latin` in style.css). Not built locally (no Node); CI builds and pagecheck runs it before deploy.
+- iOS: Screens/TreeDetail.swift `speciesName` (one Text, system italic since Gabarito has none). Built and looked at in the simulator on the Gdansk willow. Ships with the next build.
+- **Owed:** Android copies it before its next release.
+
 ## 2026-11-20 session: three ambassadors answered, two York trees in
 
 - **Replies sent** (Hidde: "Send all three"), threaded, batch reply-ambassadors-york-gdansk-sofia-2026-11-20: Laurie (York), Jakub (Gdansk), Kaloyan (Sofia, the mail signed "K"). Their mails had sat as "not yet read" since 11-18/19 with no draft.

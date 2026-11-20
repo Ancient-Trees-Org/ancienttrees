@@ -3065,6 +3065,11 @@ main.content-page.td-page { padding-top: calc(var(--header-h) + 0.75rem); paddin
 .tb-row > span { display: block; }
 .tb-row > b { display: flex; align-items: center; gap: 3px; font-size: 16px; color: var(--moss); margin-top: 2px; }
 .tb-row { padding: 0.6rem 1rem 0.8rem; }
+/* The scientific name beside the common one, on the same baseline (Hidde,
+   2026-11-20, on a Gdansk dendrologist's ask): name and Latin share one
+   inline box, so the flex row centres them together and the smaller italic
+   stays on the name's baseline. */
+.tb-sp-latin { font-style: italic; font-weight: 400; font-size: 0.8em; color: var(--ink-light); margin-left: 6px; }
 /* The official register (lib/official-register.ts): a link out when the
    authority has a record for this tree, plain text when it only names it. */
 .tb-register > b { flex-wrap: wrap; overflow-wrap: anywhere; }
