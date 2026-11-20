@@ -27,6 +27,12 @@ Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished ve
 - **Rung 1:** one reader photograph of an unmapped tree (3c544597, Amsterdam 52.3972 4.8739) is not on this runner's disk, so no verdict; left open for the reader judge or a session with the key.
 - The verified pile is empty (2 York READY leads, under the six-tree floor), so shelf refill is the only lane and the shelves are dry.
 
+## 2026-11-20 session: Kate's googlemail address
+
+- **SENT on Hidde's "Added, send it"**: Kate's Play account shows @googlemail.com while we had listed the @gmail.com form. Hidde added the googlemail form to the Alpha tester list in Play Console; the reply tells her and asks her to try the opt-in link again in a few hours. Batch reply-kate-2026-11-20c.
+- **For the next Android "not available for my account"**: a UK or German Gmail account may be googlemail.com underneath; put both forms on the tester list.
+- Still owed to Kate: the Rannoch Moor rowan (see below).
+
 ## 2026-11-20 reader judge: two photographs of the Bazlen plane, Milan
 
 - **Live**: a reader's two autumn photographs (taken 2025-11-27) of Il Platano del Giardino Bazlen (mil_014). The trunk shot (fc36a7af) is now the lead, filed under November; the Commons summer photo moved into the strip; the wide crown shot (66e7f16a) sits behind them in the strip. Species and description checked against the pixels: plane bark and leaves, topped stocky tree in the playground square. Verdicts in data/judgements.json; the "on the page" mail went through sightings_publish.py --send.
