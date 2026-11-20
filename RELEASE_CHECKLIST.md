@@ -207,6 +207,18 @@ are wide, and still a dead ambassador seat reached his phone on build 40. Two
 habits every app team keeps, both cheap. `release.py` prints them after every
 archive.
 
+**A crash must name its line, proven before release** (Hidde, 2026-11-20: "yes
+to this also remember this for the next ios version"). Android build 3 carried
+PostHog's crash handler, and eleven crashes on four testers' phones arrived as
+"crash" with no line, so nobody could fix them. Before any build goes out, iPhone
+or Android: crash it on purpose once (Android: `adb shell am crash
+app.ancienttrees.android` on a build with `-measure`; iPhone: a debug-only crash
+on a device), open it again, and see the report with its code line in
+`python3 scripts/app_crashes.py --all --days 1`. Android 4 adds its own crash
+note (ExitWatch.install, `trace`); the next iPhone build (42) is the first with
+PostHog's crash handler (Kit/CrashReporter.swift) and gets the same proof, plus
+its dSYMs uploaded so the line reads as a file and line. No report, no release.
+
 **Red stops it first.** `release.py` refuses to archive while the newest
 finished `ios.yml` run on main is not green; only Hidde passes
 `--despite-red "<why>"`.

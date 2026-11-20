@@ -474,6 +474,10 @@ jobs:
           # = runs skip reading submissions, never broken. Hidde adds it as a
           # GitHub secret when he is ready to open the tap.
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # health.py reads crashes on strangers' phones from PostHog
+          # (scripts/app_crashes.py, Hidde 2026-11-20: "if you find about
+          # crashes you dive into them i shouldnt have to ask you").
+          POSTHOG_READ_KEY: ${{ secrets.POSTHOG_READ_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # Without this the action REFUSES any run a bot started: "Workflow
@@ -962,6 +966,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          POSTHOG_READ_KEY: ${{ secrets.POSTHOG_READ_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_bots: "github-actions[bot]"
@@ -1016,6 +1021,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          POSTHOG_READ_KEY: ${{ secrets.POSTHOG_READ_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_bots: "github-actions[bot]"
@@ -1054,6 +1060,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          POSTHOG_READ_KEY: ${{ secrets.POSTHOG_READ_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_bots: "github-actions[bot]"

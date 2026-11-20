@@ -8,6 +8,16 @@
 - [2026-09](archive/LOG-2026-09.md)
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
+## 2026-11-20 session: crashes are now found and dived into without asking
+
+**What changed.** Hidde: "we need a system in place where if you find about crashes you dive into them i shouldnt have to ask you". scripts/app_crashes.py reads the crashes the app reports itself to PostHog (both platforms: `app_exit_abnormal`, `app_crash_note`, `$exception`), strangers only, with what each phone did in the ten minutes before. health.py rings on any crash of 48 hours that has no answer in data/crash-fixes.json, so it is rung-2 work for the night run (POSTHOG_READ_KEY now in its three agent steps). Until today only the iPhone's MetricKit table was read, so eleven Android crashes sat unread.
+
+**Android 4 (not built for Play yet):** a crash note. ExitWatch.install writes the exception types and our top code lines to the phone at the crash, the next launch sends it as `trace` and deletes it; R8 keeps our class names so it reads without the mapping file. Proven on the emulator end to end: a forced crash arrived in PostHog with its trace. Unit tests in ExitWatchTest.
+
+**The crashes.** 11 on 4 testers' phones, 11-17 to 11-19, builds 1 to 3, all "crash" with no line: PostHog's own crash handler (in since build 2) delivered none, though it works on the emulator, and Play vitals shows nothing (testers do not share diagnostics). Lead: the 11-17 phone crashed four times in a row on opening My trees right after recording a sighting; the others crashed after My trees or a collect. Not reproduced. Answered in crash-fixes.json until build 4's notes arrive.
+
+**For the next iPhone build (42):** RELEASE_CHECKLIST.md "A crash must name its line": crash it on purpose once and see the line in app_crashes.py before release, dSYMs uploaded. 42 is the first iPhone build with PostHog's crash handler.
+
 ## 2026-11-20 session: a hard typo of a big mail provider is refused at sign-up
 
 - **Live in the hook since 09:11 UTC (send-email v10, Hidde: "ok doe")**: a sign-in or sign-up link to a misspelt Gmail, Outlook, Hotmail, Live, Yahoo or iCloud domain is refused even when that domain has a mail server: the provider's name misspelt (hoymail, tahoo, gmial) or ".com" mistyped (outlook.co, gmail.con). The screens already show "That address can't receive mail." with the right spelling. A different country ending (yahoo.dk, live.ie, outlook.be) stays a warning only: the first version of the rule would have blocked two real readers on yahoo.dk and live.ie, so it was narrowed before deploying. Checked against all 882 accounts: refuses the three that never got in (hoymail.com, outlook.co, tahoo.com) and nobody who did. Tested live: an unsigned call refused (401); a sign-in link to apptest@ arrived through v10. Not tested live: the refusal itself (it needs a new account on a typo domain); the rule was run in a Python copy over the probes and accounts (out/tmp/typo_rule_check.py).

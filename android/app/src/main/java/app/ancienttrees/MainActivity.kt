@@ -87,6 +87,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         // First, so a crash anywhere after this line is caught (account/CrashReporter.kt).
         app.ancienttrees.account.CrashReporter.start(this)
+        // In front of it: a one-line note of where it crashed, kept for the next launch.
+        app.ancienttrees.account.ExitWatch.install(this)
         // The system splash, then the app's theme (themes.xml Theme.AncientTrees.Starting).
         androidx.core.splashscreen.SplashScreen.Companion.run { installSplashScreen() }
         super.onCreate(savedInstanceState)

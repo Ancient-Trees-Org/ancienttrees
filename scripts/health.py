@@ -778,6 +778,27 @@ def main():
     except Exception as e:
         unknown.append(f"app crashes ({e.__class__.__name__})")
 
+    # CRASHES THE APP REPORTS ITSELF, BOTH PLATFORMS (Hidde, 2026-11-20: "we
+    # need a system in place where if you find about crashes you dive into
+    # them i shouldnt have to ask you"). Five crashes on three Android
+    # collectors' phones sat in PostHog for a day while the block above,
+    # which reads only the iPhone's MetricKit table, said ok. Every crash on
+    # a stranger's phone in 48 hours with no entry in data/crash-fixes.json is
+    # rung-2 work: one crash, not a burst, while the app is this young.
+    try:
+        import app_crashes
+        rows = app_crashes.load(days=2)
+        if rows is None:
+            unknown.append("app crashes in PostHog (no POSTHOG_READ_KEY)")
+        else:
+            line = app_crashes.health_line(rows)
+            print(f"  {'App crashes (own)':20s} {'ACT' if line else 'ok':10s} "
+                  f"{len(rows)} in 48h, {len(app_crashes.open_crashes(rows))} not looked into")
+            if line:
+                problems.append("The app crashed on readers' phones: " + line)
+    except Exception as e:
+        unknown.append(f"app crashes in PostHog ({e.__class__.__name__})")
+
     # THE REST OF THE DIGEST'S QUALITY LINE (Hidde, 2026-11-05: "wordt die
     # vervolgens ook automatisch aangepakt?", and "voor alle errors buiten web
     # ook"). CLAUDE.md made red web errors and open BUG rows rung-2 work on

@@ -10,3 +10,9 @@
 # MapLibre's native code calls back into Java by name.
 -keep class org.maplibre.** { *; }
 -dontwarn org.maplibre.**
+
+# Our own classes keep their names (not their code: R8 still shrinks them), so a
+# crash note from a phone reads as MyTreesKt.photo:950 without the mapping file,
+# on any machine (account/ExitWatch.kt, Hidde 2026-11-20 after five crashes on
+# build 3 arrived with no line).
+-keepnames class app.ancienttrees.** { *; }
