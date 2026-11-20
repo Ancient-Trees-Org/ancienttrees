@@ -27,6 +27,38 @@
    "reason": "2026-11-04: named on York Museum Gardens plants page with no size or age; Wollemi pine is a young planting. Not remarkable on current evidence.",
    "species": "Ginkgo (Ginkgo sp.)",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
+  },
+  {
+   "name": "Minster Yard Beech",
+   "species": "European Beech (Fagus sylvatica)",
+   "latitude": 53.963144,
+   "longitude": -1.081523,
+   "location_precision": "confirmed",
+   "pin_source": {
+    "kind": "ambassador's what3words",
+    "words": "sheep.film.falls",
+    "date": "2026-11-20"
+   },
+   "sources": [
+    "https://thestreettree.substack.com/p/12-minster-yard-beech (Paul Wood, The Street Tree, no. 12 of 'great individual trees from Britain and Ireland'; full text paywalled)"
+   ],
+   "reason": "2026-11-20: named by the York ambassador by mail (19 Nov) with a what3words square north of the chapter house. One published source (Paul Wood's series of great individual trees). READY to write; no photo yet, the ambassador may add one in the app.",
+   "found_by": "york ambassador (mail)"
+  },
+  {
+   "name": "Riverside London Plane, Museum Gardens",
+   "species": "London Plane (Platanus x hispanica)",
+   "latitude": 53.960449,
+   "longitude": -1.087023,
+   "location_precision": "confirmed",
+   "pin_source": {
+    "kind": "ambassador's what3words",
+    "words": "bills.falls.local",
+    "date": "2026-11-20"
+   },
+   "sources": [],
+   "reason": "2026-11-20: named by the York ambassador by mail (19 Nov) with a what3words square on the Ouse edge of Museum Gardens, about 50 m from yor_004. No written source found yet (the gardens' Tree Register champions list names no plane). A reader's tree under the closed list once a photo shows it is somewhat special.",
+   "found_by": "york ambassador (mail)"
   }
  ],
  "blocked": [

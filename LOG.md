@@ -9,6 +9,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-20 session: three ambassadors answered, two York trees in
+
+- **Replies sent** (Hidde: "Send all three"), threaded, batch reply-ambassadors-york-gdansk-sofia-2026-11-20: Laurie (York), Jakub (Gdansk), Kaloyan (Sofia, the mail signed "K"). Their mails had sat as "not yet read" since 11-18/19 with no draft.
+- **York**: Laurie's two trees decoded from what3words and added to data/leads/york.json with her pins: Minster Yard Beech (53.963144, -1.081523; source: Paul Wood, The Street Tree no. 12) and a riverside London plane in Museum Gardens (53.960449, -1.087023; no source yet, waits for a photo). Not live yet: the beech needs a story.
+- **For Hidde:** Jakub (dendrologist) asks for the Latin name on the tree page. It is hidden by your 2026-09-24 call ("maak het zoals app"); the reply only says "I'll look into it". Say if you want it back under the common name, web and app.
+- Deb's girth question (Daintree) had already been answered earlier today (row 1232).
+
 ## 2026-11-20 session: the Android tester group said "no permission" to everyone
 
 - **Breakage, found by a tester** (journalist reply to wave 3: "it says I don't have permission"): the Google Group was set to "who can view conversations: owners only", so its link in the wave-3 mail showed non-members "You don't have permission to access this content" instead of the group. About 266 of the 277 wave-3 mails sent today pointed there (the first 11 are also on Alpha's e-mail list). The group had 12 members.
