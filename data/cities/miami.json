@@ -527,6 +527,43 @@
       "verify_notes": "Vizcaya's own page (vizcaya.org/champions/, fetched 2026-11-17) names the Pigeon Plum as a champion 'located in the Cascades in front of the Main House' and says these trees (pigeon plum and redberry stopper together) 'have thrived for almost 400 years'; the page gives no measurements and says 'As of 2020, Vizcaya is home to 7 national or state Champion Trees'. Register (Wayback snapshot 2025-08-11, fetched): PK 950 PIGEON-PLUM Coccoloba diversifolia, National Co-Champion, status date 2012-10-02, measured 2012-09-26 (new nomination, verified by county forester), Vizcaya Museum & Gardens, ownership public (Miami-Dade County), circumference 76 in = 193 cm at 1.9 ft on the north side, height 42 ft = 12.8 m, crown 30 x 25 ft, 125 points, condition good; coordinate 25.74471,-80.21071. Girth converted from inches (the register column is inches). CAVEATS: (1) Vizcaya's 'almost 400 years' is wording about 'these trees' and ambiguous whether it means this specimen or the species in the hammock; no source measures the age; a 193 cm Coccoloba is plausible for centuries but the claim is the owner's, state it as theirs. (2) Register is 2012; Hurricane Irma 2017 and later storms not checked; Vizcaya's 2020-dated page still lists the champion, which is the only alive evidence (lifecheck on the register point not run; no tree-dated photo). (3) Register coordinate is the nomination point, not shown tied to a crown, so approximate; Vizcaya's 'Cascades in front of the Main House' wording is the visible clue for the writer. Same grounds as mia_002, mia_004, mia_005 (paid entry): the Miami paid share is high, so this is the weakest candidate to publish; deliver anyway because the owner names the tree and the register measures it. Other Vizcaya register champions without owner naming stay leads (Paradise-tree PK 1028, Inkwood PK 874, White Stopper PK 875).",
       "story": "By Vizcaya's own account, the champion trees by the Cascades have been here for almost 400 years. The estate's champion-tree page says it of this pigeon plum and a redberry stopper together, without saying which trunk it means or how anyone knows. Read it as the owner's claim. Nobody has cored either tree.\n\nWhat has been measured is size. In September 2012 a county forester verified this pigeon plum for the Florida Forest Service champion register. It found a trunk 193 centimetres round, a height of 12.8 metres and a crown about nine metres across. That made it a national co-champion, tied for the largest of its species on the list. The register recorded its condition as good.\n\nIt stands at the Cascades in front of the Main House, the villa James Deering built on the Brickell Hammock between 1914 and 1922. The house gets the attention. The pigeon plum is the one with a national ranking.\n\nThose figures are from 2012. Hurricane Irma came through in 2017, and we have found no measurement since, though Vizcaya still counted the tree among its seven national or state champions in 2020. If you have seen it lately, tell us how it looks.\n\nEntry is with a ticket to Vizcaya Museum and Gardens, which is closed on Tuesdays.",
       "how_to_recognise": "You can recognise it by its size, 12.8 metres tall with a trunk 1.93 metres round when last measured. It stands at the Cascades in front of Vizcaya's Main House."
+    },
+    {
+      "id": "mia_017",
+      "name": "Deering Estate's Champion Black Olive",
+      "species": "Black Olive (Bucida buceras)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 401,
+      "height_m": 19.5,
+      "location": {
+        "address": "Charles Deering Estate, 16701 SW 72nd Ave, Palmetto Bay, FL 33157 (beside the Stone House)",
+        "latitude": 25.61593,
+        "longitude": -80.30663,
+        "neighbourhood": "Cutler / Palmetto Bay"
+      },
+      "verified_sources": [
+        "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/886",
+        "https://blogs.ifas.ufl.edu/miamidadeco/2026/09/11/chasing-the-champion-tree/"
+      ],
+      "official_register": {
+        "name": "Florida Forest Service Champion Tree Register (National Champion, OBJECTID 223)",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/886"
+      },
+      "access": "Paid entry to the Deering Estate grounds (about $15 to $18 for adults per search pointers; hours not confirmed on a fetched official page, deeringestate.org returns 403 or a JS shell). Check hours before going. The Stone House itself was reported closed for restoration from 2025-04-28 but the tree stands outside it.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "ONE SOURCE PLUS A 2026 OBSERVATION, flagged. Register (official, fetched via Wayback snapshot 2023-05-02 in an earlier pass): National Champion Bucida buceras, 158 in = 401 cm circumference, 64 ft = 19.5 m, crown 83 x 59 ft, measured 2020-01, register coordinate 25.61593,-80.30663 (beside the Stone House, built 1922 by Charles Deering). UF/IFAS Extension Miami-Dade blog dated 2026-09-11 (fetched this pass) shows a Florida Forest Service forester and Deering Estate's conservation specialist visiting a black olive at Deering Estate 'next to a building' with 'an old cavity in its trunk' and measuring 182 in circumference, 70 ft, crown 81 ft, 272 points; the author calls it the biggest black olive in Florida and maybe in the continental USA. This is evidence the champion is alive in 2026. CONFLICT: girth 182 in (2026) vs 158 in (2020 register); a 24 in rise in six years is implausible for growth, so either remeasurement differences (cavity, buttress height) or a different tree. Not proven to be the same tree; the writer must say 'register' and 'extension blog' figures separately and not merge them. Girth_cm and height_m here use the register values only. Age: no source; Stone House dates 1922, but no source ties this tree to that planting, so no age. Pin is the register point, approximate (no tree-level evidence). Not rich; tree is paid entry. Nearby, same estate, still leads: Florida Strangler Fig (OBJECTID 439, 25.62356,-80.30434) and Gumbo-limbo (OBJECTID 694, 25.618,-80.30654). Hosts: deeringestate.org 403/JS shell (two attempts, Wayback plan-your-visit snapshot is an empty shell); ffs.fdacs.gov refuses connections, Wayback only.",
+      "story": "The biggest black olive in the United States, by the state register, grows beside Charles Deering's Stone House in Palmetto Bay. The Florida Forest Service lists it as the National Champion of its species, measured in January 2020 at 19.5 metres tall, with a trunk 401 centimetres round and a crown about 25 by 18 metres.\n\nThen came a second measurement, and it does not agree. In September 2026 the University of Florida's extension office in Miami-Dade published an account of a state forester and the estate's conservation specialist measuring a black olive at Deering Estate, next to a building, with an old cavity in its trunk. They found 182 inches round, about 4.6 metres, and 70 feet tall, and the author called it the biggest black olive in Florida and perhaps the continental US. That is 60 centimetres more trunk than the register found six years earlier, too much for growth alone. Either the tape went round a different height of a hollowed trunk, or it is another tree. Nobody has said which.\n\nThe Stone House went up in 1922. No source ties the tree to that year, so it has no age on our page. If you know when it was planted, tell us.\n\nEntry to the Deering Estate grounds is paid, so check opening hours before you go. The Stone House was reported closed for restoration from April 2025, but the tree stands outside it. Our pin is the register's point, not a fix on the trunk.",
+      "how_to_recognise": "You can recognise it by a trunk about four metres round, with an old cavity in it if this is the tree the 2026 measurers saw. It stands beside the Stone House on the Deering Estate.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "paid_entry": true
     }
   ]
 }

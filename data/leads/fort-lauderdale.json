@@ -323,6 +323,102 @@
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "verified",
    "note": "delivered as ftl_009 in data/research/fort-lauderdale-verified.json, 2026-11-14"
+  },
+  {
+   "name": "Cluster fig",
+   "species": "Cluster fig (Ficus racemosa)",
+   "lat": 26.0735,
+   "lng": -80.31211,
+   "register_location": "Flamingo Gardens",
+   "girth_cm": 1420,
+   "height_m": 27.4,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1135&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "verified",
+   "note": "delivered as ftl_013 in data/research/fort-lauderdale-verified.json, 2026-11-20"
+  },
+  {
+   "name": "Bo tree",
+   "species": "Bo tree (Ficus religiosa)",
+   "lat": 26.07344,
+   "lng": -80.31293,
+   "register_location": "Near Flamingo Gardens parrot enclosure.",
+   "girth_cm": 584,
+   "height_m": 26.5,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1292&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "verified",
+   "note": "delivered as ftl_014, 2026-11-20"
+  },
+  {
+   "name": "Florida Strangler Fig (champion)",
+   "species": "Florida Strangler Fig (champion) (Ficus aurea)",
+   "lat": 26.07318,
+   "lng": -80.31276,
+   "register_location": "Flamingo Gardens arboretum.",
+   "girth_cm": 894,
+   "height_m": 30.2,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1300&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "verified",
+   "note": "delivered as ftl_015, 2026-11-20"
+  },
+  {
+   "name": "Florida Strangler Fig (challenger)",
+   "species": "Florida Strangler Fig (challenger) (Ficus aurea)",
+   "lat": 26.0735,
+   "lng": -80.31174,
+   "register_location": "Flamingo Gardens.",
+   "girth_cm": 841,
+   "height_m": 31.4,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1299&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "verified",
+   "note": "delivered as ftl_016, 2026-11-20; earlier block 'already published as Earpod tree' was a name-word match, different species"
+  },
+  {
+   "name": "Panama tree",
+   "species": "Panama tree (Sterculia apetala)",
+   "lat": 26.07336,
+   "lng": -80.31316,
+   "register_location": "Flamingo Gardens",
+   "girth_cm": 627,
+   "height_m": 33.2,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1057&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "open",
+   "note": "2026-11-20: Florida Champion, 247 in (627 cm), 109 ft (33.2 m), measured 2016 only; same ground and bar as ftl_013 to ftl_016, held for the four-candidate cap, not rejected. Deliver next pass."
+  },
+  {
+   "name": "Peltophorum",
+   "species": "Peltophorum (Peltophorum pterocarpum)",
+   "lat": 26.07378,
+   "lng": -80.31203,
+   "register_location": "Flamingo Gardens",
+   "girth_cm": 556,
+   "height_m": 26.5,
+   "register_status": "Florida Champion",
+   "sources": [
+    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1138&outFields=*&f=json"
+   ],
+   "source": "Florida Forest Service champion tree register (government), ArcGIS public view, fetched 2026-11-20.",
+   "status": "open",
+   "note": "2026-11-20: Florida Champion, 219 in, 87 ft, crown 95 ft, measured 2016; unreviewed, next pass. Also unreviewed at Flamingo Gardens: Nyasaland mahogany PK 1054 (193 in, 108 ft, 26.07353,-80.31245), Quipo PK 1131, white silk floss PK 1132, tabog PK 1141, cohune palm PK 1137, pink trumpet-tree PK 1142."
   }
  ],
  "blocked": [
@@ -427,23 +523,6 @@
    "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
    "status": "open",
    "reason": "already published as The Earpod Tree of Flamingo Gardens (fort-lauderdale), 63 m away with matching name words"
-  },
-  {
-   "name": "Florida Strangler Fig (Florida Challenger)",
-   "species": "Florida Strangler Fig (Ficus aurea)",
-   "lat": 26.0735,
-   "lng": -80.31174,
-   "register_location": "Flamingo Gardens.",
-   "girth_cm": 841,
-   "height_m": 31.4,
-   "register_status": "Florida Challenger",
-   "measured": 1727975619000,
-   "sources": [
-    "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/725"
-   ],
-   "source": "Florida Forest Service champion tree register (government; one official register is enough for layer 1, 2026-09-28). Licence is an accuracy disclaimer only: use the facts, never republish the dataset. Units converted from inches/feet.",
-   "status": "open",
-   "reason": "already published as The Earpod Tree of Flamingo Gardens (fort-lauderdale), 69 m away with matching name words"
   }
  ]
 }

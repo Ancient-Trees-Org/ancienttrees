@@ -199,7 +199,9 @@
     "access": "Free. Stands beside a public sidewalk on City of Fort Lauderdale land (register owner: City of Fort Lauderdale, ownership Public); no entry needed.",
     "location_precision": "approximate",
     "curation_status": "flagged",
-    "verify_notes": "Florida Champion Canary Island date palm, Broward County. Register (Florida Forest Service, government): circumference 80 in (203 cm), height 62 ft (18.9 m), crown spread 22 ft max, 147 total points, measured 2016-02-22, status COMPLETE, title Florida Champion. Location text on the register detail page (Wayback copy 2023-05-06, the live host ffs.fdacs.gov refuses connections): 'south of the east ramp of the Las Olas Blvd.-Intracoastal Waterway Bridge along the south side of the sidewalk that is located east of the City parking lot'. Owner on the page: City of Fort Lauderdale. Nominator comment: bark/boot remnants are sloughing off but the tree has many more years of growth left. Register coordinate 26.11925,-80.10743 is the register's own point, not placed on a crown, so approximate; the sidewalk description is specific enough to find it. Alive: lifecheck.py RECENT, iNaturalist observation 197703362 dated 2024-01-15 within range of the pin (not confirmed to be this individual palm, so thin). Flagged: one source (US, government register), register measured 2016, no age basis (palm, no planting record found). Girth is of a palm trunk (diameter-style measure from register circumference). Earlier pass 2026-11-14 passed on it as 'palm, vague location'; the location text is in fact specific."
+    "verify_notes": "Florida Champion Canary Island date palm, Broward County. Register (Florida Forest Service, government): circumference 80 in (203 cm), height 62 ft (18.9 m), crown spread 22 ft max, 147 total points, measured 2016-02-22, status COMPLETE, title Florida Champion. Location text on the register detail page (Wayback copy 2023-05-06, the live host ffs.fdacs.gov refuses connections): 'south of the east ramp of the Las Olas Blvd.-Intracoastal Waterway Bridge along the south side of the sidewalk that is located east of the City parking lot'. Owner on the page: City of Fort Lauderdale. Nominator comment: bark/boot remnants are sloughing off but the tree has many more years of growth left. Register coordinate 26.11925,-80.10743 is the register's own point, not placed on a crown, so approximate; the sidewalk description is specific enough to find it. Alive: lifecheck.py RECENT, iNaturalist observation 197703362 dated 2024-01-15 within range of the pin (not confirmed to be this individual palm, so thin). Flagged: one source (US, government register), register measured 2016, no age basis (palm, no planting record found). Girth is of a palm trunk (diameter-style measure from register circumference). Earlier pass 2026-11-14 passed on it as 'palm, vague location'; the location text is in fact specific.",
+    "story": "Florida's champion Canary Island date palm grows beside a city parking lot at the foot of a bridge. The Florida Forest Service measured it in February 2016 at 18.9 metres tall, with a trunk 203 centimetres round and a crown about 6.7 metres across, and ranked it the biggest of its species in the state.\n\nIt stands just south of the east ramp of the Las Olas Boulevard bridge over the Intracoastal Waterway, on the south side of the sidewalk that runs east of the City of Fort Lauderdale's parking lot. That is the register's own description, and it is more precise than our pin, which is the register's coordinate rather than a fix at the trunk.\n\nThe palm wears its growth on the outside. The person who nominated it noted that the old leaf bases on the trunk, the boots, were sloughing off, and judged that the tree had many more years of growth left. The city owns the ground, so there is no gate and no ticket.\n\nTwo honest limits. The measurement is ten years old, and the register is the only source we have for this palm, so read the title as the state's verdict of 2016. And nobody has recorded when it was planted. A palm lays down no rings to count, so it has no age on our page. If you know when it went in, tell us.",
+    "how_to_recognise": "You can recognise it by the thick palm trunk, 203 centimetres round, shedding its old leaf bases. It stands on the south side of the sidewalk east of the City parking lot, just south of the Las Olas bridge's east ramp."
   },
   {
     "id": "ftl_012",
@@ -227,6 +229,132 @@
     "access": "Paid entry to Flamingo Gardens (see ftl_008). Open daily 9:30 AM to 5 PM (summary, not a fetched page).",
     "location_precision": "approximate",
     "curation_status": "flagged",
-    "verify_notes": "Florida Champion Java cassia (apple blossom tree), measured 2024-10-03 per the register's DATE_MEASU (fresh, within two months of the newest champion measurements at the garden). Register: circumference 60 in (152 cm), height 48 ft (14.6 m), crown spread 54 ft max, owner type Public in the register, location text only 'Flamingo gardens.' Register coordinate 26.07488,-80.30776 is about 110 m from the sandbox tree (ftl_008, 26.07388,-80.30753) and about 215 m from the candlenut (ftl_010); different tree, so not a twin. Because the register text names only the garden, the pin is approximate (garden-level, not crown-level); the garden is a walk-through botanical garden so no location_site. Owner and manager of the ground is Flamingo Gardens (a botanical garden), which counts as the second source for existence; Wikipedia's Flamingo Gardens article describes the champion-tree collection (it names champions, not this tree specifically; I did not see this species on the fetched article). Species note: Cassia javanica is known for pink-and-white spring flowers (late spring); no bloom date recorded for this tree. Alive: lifecheck.py RECENT, iNaturalist observation 262768449 dated 2025-02-20 within range of the pin (not confirmed to be this individual). Flagged: register-only for the tree itself, measurement recent. The official Detail/1304 page has no Wayback copy and the live host refuses connections, so the register fields above come from the ArcGIS public view layer. Access price and hours not re-fetched (flamingogardens.org 403s); reuse ftl_008's wording until a pass can see the page."
+    "verify_notes": "Florida Champion Java cassia (apple blossom tree), measured 2024-10-03 per the register's DATE_MEASU (fresh, within two months of the newest champion measurements at the garden). Register: circumference 60 in (152 cm), height 48 ft (14.6 m), crown spread 54 ft max, owner type Public in the register, location text only 'Flamingo gardens.' Register coordinate 26.07488,-80.30776 is about 110 m from the sandbox tree (ftl_008, 26.07388,-80.30753) and about 215 m from the candlenut (ftl_010); different tree, so not a twin. Because the register text names only the garden, the pin is approximate (garden-level, not crown-level); the garden is a walk-through botanical garden so no location_site. Owner and manager of the ground is Flamingo Gardens (a botanical garden), which counts as the second source for existence; Wikipedia's Flamingo Gardens article describes the champion-tree collection (it names champions, not this tree specifically; I did not see this species on the fetched article). Species note: Cassia javanica is known for pink-and-white spring flowers (late spring); no bloom date recorded for this tree. Alive: lifecheck.py RECENT, iNaturalist observation 262768449 dated 2025-02-20 within range of the pin (not confirmed to be this individual). Flagged: register-only for the tree itself, measurement recent. The official Detail/1304 page has no Wayback copy and the live host refuses connections, so the register fields above come from the ArcGIS public view layer. Access price and hours not re-fetched (flamingogardens.org 403s); reuse ftl_008's wording until a pass can see the page.",
+    "story": "Florida's biggest apple blossom tree is wider than it is tall. When the Florida Forest Service measured it in October 2024, it stood 14.6 metres high under a crown that spread about 16.5 metres at its widest, on a trunk 152 centimetres round. That was enough for the state champion title.\n\nThe common name is for the flowers. Cassia javanica blooms pink and white in late spring, which is when a tree like this earns its place in a garden. Nobody has recorded the dates this particular tree flowers, so take the season from the species rather than from the trunk.\n\nIt grows in Flamingo Gardens in Davie, which began as the Wray family's homestead in 1927 and has become a collection of Florida champion trees. The register gives its location as just \"Flamingo Gardens\", so our pin is the register's own point, about 110 metres from the garden's challenger sandbox tree, and not a fix on this trunk. Staff at the garden are the quickest way to the right crown.\n\nThe measurement is recent, so the title is current. It also rests on the register alone, the only source that names this tree. Nobody has published when it was planted, so it has no age on our page. If you know, tell us. Entry to the garden is paid, and it opens daily from 9:30 am to 5 pm.",
+    "how_to_recognise": "You can recognise it by a crown about 16.5 metres across on a tree only 14.6 metres tall, pink and white with flowers in late spring. It stands near our pin in Flamingo Gardens, about 110 metres from the challenger sandbox tree."
+  },
+  {
+    "id": "ftl_013",
+    "name": "Flamingo Gardens cluster fig",
+    "species": "Cluster Fig (Ficus racemosa)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 1420,
+    "height_m": 27.4,
+    "location": {
+      "address": "Flamingo Gardens, 3750 S Flamingo Rd, Davie, FL 33330",
+      "neighbourhood": "Davie",
+      "latitude": 26.0735,
+      "longitude": -80.31211
+    },
+    "verified_sources": [
+      "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1135&outFields=*&f=json",
+      "https://flamingogardens.org/botanical-garden/",
+      "https://flamingogardens.org/visit/"
+    ],
+    "official_register": {
+      "name": "Florida Forest Service Florida Champion Tree Register (PK 1135)",
+      "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1135"
+    },
+    "access": "Paid entry to Flamingo Gardens: adults (12+) US$24, children 3-11 US$17, under 3 and members free; open daily 9:30 AM to 5 PM, last entry 4 PM, closed Thanksgiving and Christmas Day; parking free (flamingogardens.org/visit, fetched 2026-11-20).",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Register (Florida Forest Service, ArcGIS public view, fetched 2026-11-20): Florida Champion, circumference 559 in = 1420 cm, height 90 ft = 27.4 m, measured 2016-02-23 (DATE_MEASU 1456246430000); register location text: 'Flamingo Gardens'. Register pin (26.07350, -80.31211) is the register's own point inside a walk-through garden, not placed on a crown, so approximate; no location_site (walk-through garden). Owner and manager of the ground: Flamingo Gardens (non-profit, Floyd L. Wray Memorial Foundation); the garden's own Botanical Gardens page says it holds 23 Florida Champion Trees certified by the Florida Forest Service; Wikipedia: garden began as the Wray homestead in 1927. Planting date not found, no age stated. Alive: lifecheck.py RECENT (iNaturalist observations 2026 within range of the pin, not confirmed to be this individual); flagged for that. CONFLICT in size: the garden's own page says this is the largest tree in the Florida Champion Tree register, a non-native Cluster Fig of 649 in (54 ft 1 in) circumference, 102 ft tall, crown span 95 ft; the register entry PK 1135 reads 559 in (1420 cm), 90 ft, crown 112.5 ft max. Recorded girth is the register's 1420 cm; the garden's 649 in = 1648 cm is the larger claim, possibly a later or different measurement, unresolved. Either way a trunk 14 to 16 m round, the widest registered trunk in the Broward set. Register date is 2016, so the measurement is old. Sits ~37 m from the published Earpod tree (ftl_001) and ~75 m from the champion strangler fig; one cluster at the garden's west side.",
+    "story": "By its owner's account, this fig is the largest tree in Florida's entire champion register, of any species. Flamingo Gardens says so on its own botanical garden page, and gives the cluster fig a trunk 649 inches round, about 16.5 metres, a height of 102 feet and a crown 95 feet across.\n\nThe state's own record tells it differently. The Florida Forest Service entry, measured in February 2016, has a trunk 14.2 metres round, a height of 27.4 metres and a crown up to about 34 metres wide. The two sets of figures do not match, and we have not found which measurement came later. Either way, the trunk is somewhere between 14 and 16 metres round, the widest the register holds in Broward County.\n\nIt is not a native. The garden lists it as a non-native champion, one of 23 Florida champion trees on grounds that began as the Wray family's homestead in 1927. This one stands on the garden's west side, about 37 metres from the earpod tree and 75 from the champion strangler fig, so the three make a single stop. Our pin is the register's point, not a fix on the trunk.\n\nThe register measurement is ten years old, and nobody has published when the tree was planted, so it has no age on our page. If you know, tell us. Entry to the garden is paid, and it is open daily from 9:30 am, last entry at 4 pm.",
+    "how_to_recognise": "You can recognise it by the trunk, 14 to 16 metres round, wider than any other champion in the garden. It stands on the garden's west side, about 37 metres from the earpod tree."
+  },
+  {
+    "id": "ftl_014",
+    "name": "Flamingo Gardens Bo tree",
+    "species": "Bodhi Tree (Ficus religiosa)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 584,
+    "height_m": 26.5,
+    "location": {
+      "address": "Flamingo Gardens, 3750 S Flamingo Rd, Davie, FL 33330",
+      "neighbourhood": "Davie",
+      "latitude": 26.07344,
+      "longitude": -80.31293
+    },
+    "verified_sources": [
+      "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1292&outFields=*&f=json",
+      "https://flamingogardens.org/botanical-garden/",
+      "https://flamingogardens.org/visit/"
+    ],
+    "official_register": {
+      "name": "Florida Forest Service Florida Champion Tree Register (PK 1292)",
+      "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1292"
+    },
+    "access": "Paid entry to Flamingo Gardens: adults (12+) US$24, children 3-11 US$17, under 3 and members free; open daily 9:30 AM to 5 PM, last entry 4 PM, closed Thanksgiving and Christmas Day; parking free (flamingogardens.org/visit, fetched 2026-11-20).",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Register (Florida Forest Service, ArcGIS public view, fetched 2026-11-20): Florida Champion, circumference 230 in = 584 cm, height 87 ft = 26.5 m, measured 2024-08-27 (DATE_MEASU 1724778255000); register location text: 'Near Flamingo Gardens parrot enclosure.'. Register pin (26.07344, -80.31293) is the register's own point inside a walk-through garden, not placed on a crown, so approximate; no location_site (walk-through garden). Owner and manager of the ground: Flamingo Gardens (non-profit, Floyd L. Wray Memorial Foundation); the garden's own Botanical Gardens page says it holds 23 Florida Champion Trees certified by the Florida Forest Service; Wikipedia: garden began as the Wray homestead in 1927. Planting date not found, no age stated. Alive: lifecheck.py RECENT (iNaturalist observations 2026 within range of the pin, not confirmed to be this individual); flagged for that. Sacred fig of South Asia, planted here. Register measurement recent (2024). Landmark for the walker: the parrot enclosure.",
+    "story": "The species the Buddha is said to have sat beneath grows to state-record size beside a parrot enclosure in Davie. This is Florida's champion bodhi tree, measured by the Florida Forest Service in August 2024 at 26.5 metres tall, with a trunk 5.84 metres round.\n\nFicus religiosa is the sacred fig of South Asia, the tree Buddhist tradition honours at Bodh Gaya. In Florida it is not wild. Somebody planted this one, and it has grown into a big tree in a garden full of them. Flamingo Gardens began as the Wray family's homestead in 1927 and now counts 23 Florida champion trees on its grounds.\n\nThe register's directions are short. \"Near Flamingo Gardens parrot enclosure,\" it says, and the parrots are the easier landmark to find. Our pin is the register's own point rather than a fix on the trunk. It lands about 34 metres from the garden's pink trumpet tree and a short walk from the champion strangler fig, so several of the garden's record trees can be seen in one loop.\n\nThe measurement is two years old, so the title is current. What nobody has written down is when the tree went into the ground, so it has no age on our page. If you know, tell us. Entry to the garden is paid, and it is open daily from 9:30 am to 5 pm, last entry at 4.",
+    "how_to_recognise": "You can recognise it by the trunk, 5.84 metres round, on a fig 26.5 metres tall. It stands near the parrot enclosure in Flamingo Gardens, which is how the register itself finds it."
+  },
+  {
+    "id": "ftl_015",
+    "name": "Flamingo Gardens champion strangler fig",
+    "species": "Florida Strangler Fig (Ficus aurea)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 894,
+    "height_m": 30.2,
+    "location": {
+      "address": "Flamingo Gardens, 3750 S Flamingo Rd, Davie, FL 33330",
+      "neighbourhood": "Davie",
+      "latitude": 26.07318,
+      "longitude": -80.31276
+    },
+    "verified_sources": [
+      "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1300&outFields=*&f=json",
+      "https://flamingogardens.org/botanical-garden/",
+      "https://flamingogardens.org/visit/"
+    ],
+    "official_register": {
+      "name": "Florida Forest Service Florida Champion Tree Register (PK 1300)",
+      "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1300"
+    },
+    "access": "Paid entry to Flamingo Gardens: adults (12+) US$24, children 3-11 US$17, under 3 and members free; open daily 9:30 AM to 5 PM, last entry 4 PM, closed Thanksgiving and Christmas Day; parking free (flamingogardens.org/visit, fetched 2026-11-20).",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Register (Florida Forest Service, ArcGIS public view, fetched 2026-11-20): Florida Champion, circumference 352 in = 894 cm, height 99 ft = 30.2 m, measured 2024-10-03 (DATE_MEASU 1727970735000); register location text: 'Flamingo Gardens arboretum.'. Register pin (26.07318, -80.31276) is the register's own point inside a walk-through garden, not placed on a crown, so approximate; no location_site (walk-through garden). Owner and manager of the ground: Flamingo Gardens (non-profit, Floyd L. Wray Memorial Foundation); the garden's own Botanical Gardens page says it holds 23 Florida Champion Trees certified by the Florida Forest Service; Wikipedia: garden began as the Wray homestead in 1927. Planting date not found, no age stated. Alive: lifecheck.py RECENT (iNaturalist observations 2026 within range of the pin, not confirmed to be this individual); flagged for that. Native species (Ficus aurea), crown spread 145 ft max in the register. The garden's champion strangler fig; a second, challenger strangler fig (PK 1299, 331 in = 841 cm, 103 ft, 2024) stands ~110 m east at 26.0735,-80.31174, delivered as ftl_016. Earlier pass blocked the challenger as 'already published as the Earpod tree' by name-word match; that is a different species and trunk (about 69 m from the Earpod), so it is not a twin.",
+    "story": "Florida's champion strangler fig spreads its crown 44 metres across, nearly half as wide again as the tree is tall. The Florida Forest Service measured it in October 2024 in the arboretum at Flamingo Gardens: 30.2 metres high, a trunk 8.94 metres round, and that enormous crown, which the register puts at 145 feet at its widest.\n\nUnlike most of the garden's record trees, this one belongs here. Ficus aurea is native to South Florida, a fig that typically begins life as a seed lodged high in another tree and sends its roots down to the ground. Nobody has recorded how this particular one started.\n\nIt has company. About 110 metres east, the same register lists a challenger strangler fig, measured the same October day. That one is taller, at 31.4 metres, but its trunk is narrower, and the title stays here. Between and around them stand the garden's cluster fig, which the garden calls the largest tree in the whole state register, and the earpod tree. Flamingo Gardens began as the Wray family's homestead in 1927 and now counts 23 Florida champions.\n\nOur pin is the register's point in the arboretum, not a fix on the trunk. Nobody has published when the tree took root, so it has no age on our page. If you know, tell us. Entry to the garden is paid, and it opens daily from 9:30 am to 5 pm.",
+    "how_to_recognise": "You can recognise it by the crown, about 44 metres across on a tree 30.2 metres tall. It stands in the arboretum at Flamingo Gardens, about 110 metres west of the taller challenger strangler fig."
+  },
+  {
+    "id": "ftl_016",
+    "name": "Flamingo Gardens strangler fig (challenger)",
+    "species": "Florida Strangler Fig (Ficus aurea)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "girth_cm": 841,
+    "height_m": 31.4,
+    "location": {
+      "address": "Flamingo Gardens, 3750 S Flamingo Rd, Davie, FL 33330",
+      "neighbourhood": "Davie",
+      "latitude": 26.0735,
+      "longitude": -80.31174
+    },
+    "verified_sources": [
+      "https://services3.arcgis.com/XYg2eF8UuxZVuVmF/arcgis/rest/services/Florida_Champion_Trees_Public_View/FeatureServer/0/query?where=PK%3D1299&outFields=*&f=json",
+      "https://flamingogardens.org/botanical-garden/",
+      "https://flamingogardens.org/visit/"
+    ],
+    "official_register": {
+      "name": "Florida Forest Service Florida Champion Tree Register (PK 1299)",
+      "url": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Detail/1299"
+    },
+    "access": "Paid entry to Flamingo Gardens: adults (12+) US$24, children 3-11 US$17, under 3 and members free; open daily 9:30 AM to 5 PM, last entry 4 PM, closed Thanksgiving and Christmas Day; parking free (flamingogardens.org/visit, fetched 2026-11-20).",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Register (Florida Forest Service, ArcGIS public view, fetched 2026-11-20): Florida Challenger, circumference 331 in = 841 cm, height 103 ft = 31.4 m, measured 2024-10-03 (DATE_MEASU 1727975619000); register location text: 'Flamingo Gardens.'. Register pin (26.07350, -80.31174) is the register's own point inside a walk-through garden, not placed on a crown, so approximate; no location_site (walk-through garden). Owner and manager of the ground: Flamingo Gardens (non-profit, Floyd L. Wray Memorial Foundation); the garden's own Botanical Gardens page says it holds 23 Florida Champion Trees certified by the Florida Forest Service; Wikipedia: garden began as the Wray homestead in 1927. Planting date not found, no age stated. Alive: lifecheck.py RECENT (iNaturalist observations 2026 within range of the pin, not confirmed to be this individual); flagged for that. Native species. Taller than the champion (103 ft vs 99 ft) but narrower trunk. Pairs with ftl_015, ~110 m west of it; about 69 m east of the published Earpod tree (ftl_001), a different species, so not a twin. Could be told as one stop with ftl_015.",
+    "story": "This strangler fig is taller than Florida's champion of its species, and it still is not the champion. The Florida Forest Service measured both trees at Flamingo Gardens on the same October day in 2024. This one reached 31.4 metres, about a metre more than the title holder, on a trunk 8.41 metres round. The champion, about 110 metres west in the arboretum, has the thicker trunk at 8.94 metres and an enormous crown, and the register files this one as a Florida Challenger, the tree next in line.\n\nFicus aurea is a South Florida native, growing in a garden full of imported giants. The species typically starts as a seed in the branches of another tree and sends roots down to the soil.\n\nThe challenger stands close to two of the garden's other record trees. The earpod tree, already on our map, is about 69 metres west by our pins, and the cluster fig, which the garden calls the largest tree in the whole state register, is closer still. Flamingo Gardens began as the Wray family's homestead in 1927 and counts 23 Florida champions today. Seeing both strangler figs and the cluster fig makes one short walk.\n\nOur pin is the register's point, not a fix on the trunk, and nobody has published when the tree took root. If you know, tell us. Entry to the garden is paid.",
+    "how_to_recognise": "You can recognise it as the taller of the garden's two registered strangler figs, 31.4 metres high on a trunk 8.41 metres round. It stands about 110 metres east of the champion, near the cluster fig and the earpod tree."
   }
 ]
