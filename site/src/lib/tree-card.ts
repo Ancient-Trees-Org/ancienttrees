@@ -16,6 +16,7 @@
 // Like saveButtonHtml() it reads nothing outside its arguments and stays
 // plain ES5, because it ships as its own source.
 import { saveButtonHtml, saveButtonJs, SAVE_ICONS } from "./save-button";
+import { icon } from "./icons";
 
 /** One <img>: the src, and the srcset and sizes when there are widths. */
 export interface CardImg { src: string; srcset?: string; sizes?: string }
@@ -131,9 +132,10 @@ export function treeCardHtml(m: CardModel, w: CardWords): string {
   return out + "</article>";
 }
 
-// The "seen" badge's mark: a green disc with a white tick, the app's
-// checkmark.seal drawn flat.
-export const SEEN_MARK = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4A6B2A"/><path d="M7.5 12.5l3 3 6-6.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+// The "seen" badge's mark: Phosphor's check-circle, filled, in moss (style.css
+// .seen-ic), the app's checkmark.seal. It was a disc drawn by hand until the
+// card became one function (2026-11-20; never draw icons).
+export const SEEN_MARK = icon("check-circle", "fill", "seen-ic");
 
 /** The words for the server, in the page's language. */
 export function cardWords(U: { cardSave: string; cardSaved: string; noPhotoYet: string; seenChip: string }): CardWords {
