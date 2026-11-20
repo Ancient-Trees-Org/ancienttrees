@@ -42,19 +42,26 @@ const PIN_TICKET = icon("ticket", "fill", "pin-ticket-ic");
 // corners (.pin-got, .pin-fav, .pin-ticket) stay in style.css. The hover is a
 // deeper shadow only: MapLibre places a marker with an inline transform, so a
 // scale on :hover never applied.
-const S = PIN_SPEC;
-const CHOSEN = Math.round(S.size * S.chosenScale);
-const CHOSEN_GLYPH = Math.round(S.glyph * S.chosenScale);
-const PIN_CSS =
-  `.pin-tree{position:relative;width:${S.size}px;height:${S.size}px;box-sizing:border-box;border-radius:50%;` +
+//
+// READ AT CALL TIME, NEVER AT LOAD: map.ts imports this file and this file
+// imports PIN_SPEC from map.ts, so at load PIN_SPEC is still undefined. A
+// module-level `const S = PIN_SPEC` broke every deploy on 2026-11-20 ("Cannot
+// read properties of undefined (reading 'size')" while generating routes).
+function pinCss(S: typeof PIN_SPEC): string {
+  const CHOSEN = Math.round(S.size * S.chosenScale);
+  const CHOSEN_GLYPH = Math.round(S.glyph * S.chosenScale);
+  return `.pin-tree{position:relative;width:${S.size}px;height:${S.size}px;box-sizing:border-box;border-radius:50%;` +
   `background:${S.fill};border:${S.ringWidth}px solid ${S.ring};box-shadow:0 3px 10px rgba(26,26,20,0.28);` +
   `cursor:pointer;display:flex;align-items:center;justify-content:center;transition:box-shadow .18s ease}` +
   `.pin-tree>svg{width:${S.glyph}px;height:${S.glyph}px;color:${S.ring}}` +
   `.pin-tree:hover{box-shadow:0 5px 16px rgba(26,26,20,0.4)}` +
   `.pin-tree.active{width:${CHOSEN}px;height:${CHOSEN}px;z-index:5;box-shadow:0 5px 16px rgba(26,26,20,0.4)}` +
   `.pin-tree.active>svg{width:${CHOSEN_GLYPH}px;height:${CHOSEN_GLYPH}px}`;
+}
 
 export function treePinsJs(): string {
+  const S = PIN_SPEC;
+  const PIN_CSS = pinCss(S);
   return `
 (function() {
   if (document.getElementById('at-pin-css')) { return; }
