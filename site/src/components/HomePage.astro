@@ -53,6 +53,7 @@ import { ldScript, SITE_SCHEMA, BASE_URL } from "../lib/schema";
 import { byCityListOrderEntry } from "../lib/city-order";
 import { FAVOURITE_CITIES } from "../lib/favourites";
 import { SPECIES_ICONS } from "../lib/species-icons";
+import { icon as phIcon } from "../lib/icons";
 import { searchForm, searchWidgetJs } from "../lib/search-form";
 import { ui, languagesForCity, cityHref, hreflangSet, translatedLanguages } from "../lib/i18n";
 
@@ -262,6 +263,29 @@ function shelfCard(href: string, photoUrl: string, title: string, meta: string, 
   );
 }
 
+// A TREE on a shelf carries the card save, as every tree card does (Hidde,
+// 2026-11-20: "ja trek die ook gelijk, web en app", after the Airbnb
+// benchmark: the heart on every card that is a listing, never on a place,
+// category or person). So only tree shelves use this; cities, countries,
+// species and parks keep shelfCard. The link and the button are siblings, so
+// a tap on the bookmark saves and does not open the tree. Painted and handled
+// by TREE_ACTIONS_JS, as SaveHeart.astro look "card".
+const BOOKMARK = phIcon("bookmark-simple", "bold", "heart hi-off") + phIcon("bookmark-simple", "fill", "heart hi-on");
+function treeShelfCard(t: AnyTree, href: string, photoUrl: string, meta: string, metaText: string, ev: string): string {
+  return (
+    `<div class="shelf-card shelf-tree">` +
+    `<a class="shelf-link" href="${href}" data-ev="${ev}" data-detail="${esc(t.id)}">` +
+    `<span class="shelf-ph"><img ${cardImg(photoUrl, "(max-width: 800px) 72vw, 200px")} alt="" loading="lazy"></span>` +
+    `<b>${esc(t.name)}</b>` +
+    `<span class="shelf-meta">${meta}</span></a>` +
+    `<button class="save-btn heart-btn heart-card" type="button" data-tree="${esc(t.id)}" data-name="${esc(t.name)}"` +
+    ` data-url="${href}" data-photo="${esc(thumbUrl(photoUrl, 500))}" data-meta="${esc(metaText)}"` +
+    ` data-l-save="${esc(u.cardSave)}" data-l-saved="${esc(u.cardSaved)}" aria-pressed="false"` +
+    ` aria-label="${esc(u.cardSave + " " + t.name)}">${BOOKMARK}<span class="sr-only">${esc(u.cardSave)}</span></button>` +
+    `</div>`
+  );
+}
+
 // --- The oldest trees we map ---
 // The app's own shelf (Home.swift), brought to the web because it is the one
 // row that shows what the database actually holds rather than a way of
@@ -293,8 +317,8 @@ const oldestCards = renderable
   .map((o) => {
     const url = usablePhoto(o.t)!.url;
     usedPhotos.add(url);
-    return shelfCard(`/${o.slug}/${slugify(o.t.name)}`, url, o.t.name,
-      `${shortAge(o.t)} &middot; ${esc(o.city)}`, "home-oldest", o.t.id);
+    return treeShelfCard(o.t, `/${o.slug}/${slugify(o.t.name)}`, url,
+      `${shortAge(o.t)} &middot; ${esc(o.city)}`, [shortAge(o.t), o.city].filter(Boolean).join(" · "), "home-oldest");
   });
 const oldestShelf = wideShelf(u.homeOldestShelfH, "/collections/trees-older-than-400-years", u.homeOldestOfAll, oldestCards);
 

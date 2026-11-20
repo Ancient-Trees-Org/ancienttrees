@@ -1415,9 +1415,12 @@ dialog.at-sheet .priv-step .set-foot { text-align: left; }
 .nfv-card { display: flex; flex-direction: column; }
 /* The save on a /visitors tile (2026-11-19): the highlight card's 32px heart
    at the photograph's top right; it sits beside the tile's link, not in it. */
-.nfv-card { position: relative; }
-.nfv-card > .heart-card { position: absolute; z-index: 2; top: 8px; right: 8px; width: 32px; height: 32px; }
-.nfv-card > .heart-btn.heart-card .heart { width: 16px; height: 16px; }
+.nfv-card, .shelf-tree { position: relative; }
+.nfv-card > .heart-card, .shelf-tree > .heart-card { position: absolute; z-index: 2; top: 8px; right: 8px; width: 32px; height: 32px; }
+.nfv-card > .heart-btn.heart-card .heart, .shelf-tree > .heart-btn.heart-card .heart { width: 16px; height: 16px; }
+/* A tree on a home shelf (2026-11-20): the shelf card's link inside a box, so
+   the bookmark beside it is not inside the link. */
+.shelf-link { display: block; text-decoration: none; color: inherit; }
 .nfv-tree { display: block; flex: 1 0 auto; text-decoration: none; color: inherit; }
 /* Two lines at most, so one long name does not push every line in the row down. */
 .nfv-card b { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

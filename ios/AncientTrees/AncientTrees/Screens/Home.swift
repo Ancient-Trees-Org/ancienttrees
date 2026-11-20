@@ -568,6 +568,11 @@ struct HomeView: View {
                 NavigationLink(value: Route.tree(t.id)) { CollectedTile(kind: .ours(t), city: tag(t)).frame(width: Self.tileWidth).clipShape(Self.tileShape) }
                     .buttonStyle(.plain)
                     .accessibilityIdentifier("tree-card")
+                    // The card save on every tree tile (Hidde, 2026-11-20:
+                    // "ja trek die ook gelijk, web en app", after the Airbnb
+                    // benchmark: a heart on every card that is a listing,
+                    // never on a place, list or person). Over the link.
+                    .overlay(alignment: .topTrailing) { SaveHeart(tree: t, look: .onPhoto).padding(6) }
             }
             // Grey bookmark tiles finishing a short row, the empty row's own
             // shape, so one or two kept trees still read as a list to fill
@@ -602,6 +607,12 @@ struct HomeView: View {
             // same update; iOS 27 kept showing the page it had pushed.
             Button { navigator.push = route } label: { face }
                 .buttonStyle(.plain)
+        case .tree:
+            // A record is a tree, so it carries the card save; a list, an
+            // island or a city does not (Airbnb's line, 2026-11-20).
+            NavigationLink(value: route) { face }
+                .buttonStyle(.plain)
+                .overlay(alignment: .topTrailing) { SaveHeart(tree: tree, look: .onPhoto).padding(6) }
         default:
             NavigationLink(value: route) { face }
                 .buttonStyle(.plain)
