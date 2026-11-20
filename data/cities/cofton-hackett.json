@@ -1,0 +1,68 @@
+{
+  "city": "Cofton Hackett",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Cofton Hackett is a small parish in Worcestershire, just over Birmingham's southern edge, with a mostly fourteenth-century church, St Michael and All Angels, listed Grade II*. South-west of the church, in the open churchyard, lies an ancient yew that fell and kept growing from its own broken trunk, the form tree surveyors call a phoenix. Two surveys, in 2002 and 2024, class it as ancient. Nobody has dated it; if you know its story, tell us.",
+  "meta_description": "A fallen ancient yew still growing in St Michael and All Angels churchyard, Cofton Hackett, on Birmingham's southern edge: where it lies and what we know.",
+  "hero_tree_id": "cft_001",
+  "oldest_tree_id": "cft_001",
+  "question_meta": "A fallen ancient yew still growing in St Michael and All Angels churchyard, Cofton Hackett: where it lies and what we know.",
+  "question_answer": "The yew lies in the churchyard of St Michael and All Angels at Cofton Hackett, south-west of the church, on Birmingham's southern edge in Worcestershire. The churchyard is open to walk into.",
+  "question_context": "Owen Johnson surveyed the yew for the Tree Register of the British Isles in March 2024, for the Woodland Trust's Ancient Tree Inventory, and recorded it as ancient and alive, a phoenix yew, fallen or fragmented, regrowing from a hollowing trunk. He measured it at 8.00 metres round, taken at ten centimetres off the ground. Girth is normally taken at about one and a half metres, so that figure is not comparable with most published yew girths. Tim Hills of the Ancient Yew Group visited in March 2002 and recorded it as ancient, with a girth of five to seven metres, noting a fallen yew growing south-west of the church. The two figures were taken at different heights, twenty-two years apart, on a tree that is coming apart, and neither is the last word. The Church of England's heritage record lists one veteran common yew on the site. No source gives the tree an age. The church is mostly fourteenth century, restored in 1861 and listed Grade II*; the churchyard is open to walk into, and the pin marks the recorded point rather than an exact fix.",
+  "faq": [
+    {
+      "q": "Where is the Cofton Hackett yew?",
+      "a": "In the churchyard of St Michael and All Angels, Cofton Church Lane, Cofton Hackett, south-west of the church."
+    },
+    {
+      "q": "How old is it?",
+      "a": "Nobody has published a date. The Ancient Yew Group and the Tree Register both class it as ancient."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes, the churchyard is open to walk into. Whether the church itself is open we have not checked."
+    }
+  ],
+  "trees": [
+    {
+      "id": "cft_001",
+      "name": "Cofton Hackett churchyard yew",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 800,
+      "location": {
+        "address": "St Michael and All Angels churchyard, Cofton Church Lane, Cofton Hackett, B45 8BD",
+        "latitude": 52.37599,
+        "longitude": -1.98425,
+        "neighbourhood": "Cofton Hackett (Bromsgrove district, on Birmingham's southern edge)"
+      },
+      "verified_sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329",
+        "https://www.ancient-yew.org/yew_tree_database/cofton-hackett/",
+        "https://heritage.churchofengland.org/buildings/724"
+      ],
+      "official_register": {
+        "name": "Woodland Trust Ancient Tree Inventory",
+        "url": "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329"
+      },
+      "access": "Free; open churchyard (ATI: public, open access; AYG: access Public). Opening of the church itself not checked.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "St Michael and All Angels churchyard, Cofton Hackett",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "story": "This yew fell over and did not die. It lies in the churchyard of St Michael and All Angels at Cofton Hackett, south-west of the church, and keeps growing from its own wreckage.\n\nTree people call the form a phoenix: a yew that has come down, or broken apart, and sent up new growth from what is left. Owen Johnson surveyed it for the Tree Register in March 2024 and recorded it as alive and ancient, its trunk hollowing and fragmented. He put a tape round it at ten centimetres off the ground and got eight metres.\n\nThat number needs a footnote. Girth is usually taken at about one and a half metres, and a measurement this low on a broken trunk is not comparable with one. When Tim Hills of the Ancient Yew Group visited in 2002 he recorded it as ancient with a girth of five to seven metres. Two surveys, twenty-two years apart, measured at different heights on a tree that is coming apart. Both are honest; neither is the last word.\n\nThe church beside it is mostly fourteenth century, restored in 1861, and listed Grade II*. Nobody has put a date on the yew. If you know its story, tell us.\n\nCofton Hackett sits in Worcestershire, just over Birmingham's southern edge, and the churchyard is open to walk into.",
+      "how_to_recognise": "You can recognise it as the yew lying on the ground, a fallen and broken trunk with new growth rising from it. It stands south-west of the church of St Michael and All Angels, in the churchyard.",
+      "verify_notes": "Two independent records. (1) Woodland Trust Ancient Tree Inventory 253329, recorded by Owen Johnson for the Tree Register of the British Isles, surveyed 2 March 2024: ancient tree, alive, form 'phoenix', standing or fallen 'fragmented', girth 8.00 m at 0.10 m (a low measurement on a hollowing, fragmented trunk, so not comparable with a girth at 1.5 m), condition hollowing trunk, surroundings churchyard, public open access, grid ref SP0116975328. (2) Ancient Yew Group database, site Cofton Hackett (St Michael and All Angels, Diocese of Birmingham, parochial church council), visited 22 March 2002 by Tim Hills: 'Ancient 5m-7m', note 'A fallen yew grows SW of this 14th century church'. The two girths differ (5-7 m in 2002 against 8.00 m at 0.10 m in 2024), different heights and a fragmenting tree; both given. (3) Church of England Church Heritage Record lists 1 veteran common yew on the site. Church is Grade II* listed, mainly 14th century, restored 1861 by Henry Day (Wikipedia, britishlistedbuildings). Alive: ATI 2024 survey. Age: no source gives one; leave empty. Tree is a fallen or fragmented phoenix yew regrowing from its own remains, not an upright trunk. Pin is the ATI recorded point inside a churchyard of roughly 100 m by 100 m (Nominatim grave_yard way 109883467), approximate, use location_site; the tree is SW of the church per AYG. Cofton Hackett is in Worcestershire (Bromsgrove district), not the City of Birmingham; real place name to be used. Public transport time from Birmingham not checked. Only the one tree here, so it ships as a lone tree page, not a Birmingham city page. No photograph sought.",
+      "photo": {
+        "url": "",
+        "license": "",
+        "attribution": "",
+        "status": "missing"
+      }
+    }
+  ]
+}

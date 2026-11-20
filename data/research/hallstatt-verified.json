@@ -30,7 +30,13 @@
     "curation_status": "flagged",
     "story": "The name says a thousand years. The register that protects it says 400 to 500.\n\nThis large-leaved lime stands on the right bank of the Traun in Bad Ischl, about 40 metres before the old Traun bridge, south of a house the official file uses as its landmark: the Lindenvilla. Whether the villa took its name from the tree, no source says.\n\nWhen Upper Austria made it a natural monument on 18 December 1980, the trunk measured 5.45 metres round at a metre off the ground, the crown spread 14 metres and the top stood about 20 metres up. Those are 1980 numbers and the tree has grown since; nobody has published a newer count. The age came from the same file, an estimate rather than a ring count. If even the low end holds, the lime was already well over two centuries old when Emperor Franz Joseph began spending his summers in Bad Ischl. Legend rounded it up to a millennium. The state did not.\n\nThe most recent sign of it is a citizen-science record from July 2026 of a large lime about 20 metres from the register's point. That fits, but nobody has confirmed it is this tree. If you stand under it, tell us.\n\nBad Ischl is not Hallstatt. It lies about 20 kilometres north, past Bad Goisern on the Salzkammergut railway, so this tree extends the walk by a train ride rather than joining it.",
     "how_to_recognise": "You can recognise it by the trunk, 5.45 metres round when measured in 1980, under a crown about 14 metres wide. It stands on the right bank of the Traun, about 40 metres before the old Traun bridge, south of the Lindenvilla.",
-    "best_time": {"months": [6], "kind": "flowers", "label": "June, when the scented pale yellow flowers open and the crown is loud with bees"},
+    "best_time": {
+      "months": [
+        6
+      ],
+      "kind": "flowers",
+      "label": "June, when the scented pale yellow flowers open and the crown is loud with bees"
+    },
     "verify_notes": "Register (Land Oberösterreich Naturschutzbuch nd137, protected 1980-12-18) names it 'Tausendjährige Linde', Sommerlinde, with the position given in words: right bank of the Traun, about 40 m before the old Traun bridge, south of the Lindenvilla, Griesgasse 4. The register page itself carries no measurements; the figures come from the de.wikipedia Liste der Naturdenkmäler im Bezirk Gmunden (which reproduces the register text): at designation girth 5.45 m measured at 1 m height, crown diameter 14 m, height 20 m, age estimated 400 to 500 years. So the name says a thousand years but the register's own estimate is 400 to 500; both go to the writer, the name is a legend-level label. Girth is at designation (1980), so it has grown since. Coordinate 47.709517, 13.620289 is the register/Wikipedia coordinate (the Commons photo geotag is the same number, so it is not an independent fix); kept approximate. Alive: iNaturalist observation 381042935 on 2026-07-13 records a Sommerlinde at 47.70938, 13.62011 (about 20 m from the register point, cc-by-nc, needs_id), which supports a large linden still standing there but is not a confirmed ID of this tree; Commons photo from 2015-06-29. Flagged: register-only plus one recent nearby observation. Not the Kirchham 'Tausendjährige Linde' (a different tree in Eisengattern). Commons category: OÖ-Naturdenkmal nd137 1000jährige Linde, Bad Ischl. Bad Ischl is a separate valley town north of Hallstatt, so it extends the walk by about 20 km; the 12 km span of the city is already stretched."
   },
   {
@@ -57,10 +63,53 @@
     "access": "Free; stands in the village centre by the municipal office and forestry office, visible from the road (private ground not entered).",
     "transport": "Gosau village centre; about 9 km from Hallstatt by the regional bus over the Gosau valley (journey time not checked this pass).",
     "location_precision": "approximate",
-    "location_site": {"name": "Forstverwaltung Gosau, opposite the Gemeindeamt", "radius_m": 30},
+    "location_site": {
+      "name": "Forstverwaltung Gosau, opposite the Gemeindeamt",
+      "radius_m": 30
+    },
     "curation_status": "flagged",
     "story": "Upper Austria's list of natural monuments calls this elm one of the largest of a rare species in the province: a wych elm 27 metres tall, standing opposite the village office in Gosau.\n\nThe province protected it on 18 December 1980, the same day as the copper beech on the hill about 80 metres away, and described the spot with a precision most registers never bother with: opposite the Gemeindeamt, about eight metres west of the forestry office building. The file gives a height and nothing else. No girth, no age. Nobody has dated this tree; if you know when it went in, or have put a tape round it, tell us.\n\nThen the honest part. The most recent dated evidence that it still stands is a photograph taken in October 2015. Wych elm is one of the species Dutch elm disease kills, and eleven years is long enough for that to happen without anyone updating a register. We have no report that it has gone, and none that it is still there. If you pass the forestry office, a photograph would settle it.\n\nWhat the register does make easy is finding it. With the beech, it turns Gosau into one stop rather than two: a pair of trees protected on the same winter day, a short walk apart, on the valley road up from Bad Goisern. Look from the road; the register's directions are all you need.",
     "how_to_recognise": "You can recognise it by its height, 27 metres when protected; the round-crowned copper beech 80 metres off is its neighbour. It stands about eight metres west of the Forstverwaltung building, opposite the Gemeindeamt.",
     "verify_notes": "Register nd147 (Land Oberösterreich Naturschutzbuch, protected 1980-12-18, parcel 206/4): Bergulme (Ulmus glabra), position 'opposite the Gemeindeamt Gosau, about 8 m west of the Forstverwaltung building'. Wikipedia list (reproducing the register): 27 m tall, one of the largest specimens of this rare species in Upper Austria. No girth or age in either source. Alive: not confirmed recently. lifecheck returned NONE; the only dated evidence is a Commons photograph taken 2015-10-23. Wych elm is exposed to Dutch elm disease, so flagged with 'register only, last seen 2015'. Coordinate is the register/Commons coordinate (same number on the Commons photo, not an independent fix), approximate. The register's own text gives the offset from a named building, which makes the spot findable at a glance. Neighbouring Blutbuche (ND148) is already live as hst_005, about 80 m away, so the two form one stop in Gosau."
+  },
+  {
+    "id": "hst_008",
+    "name": "Sterzen's Abendsitz Lindens (Evening Seat), Bad Ischl",
+    "species": "Large-leaved Lime (Tilia platyphyllos)",
+    "age_estimate": "not documented",
+    "girth_cm": 220,
+    "location": {
+      "address": "Poschbichl moraine hillock, Sterzens Abendsitz, reached via Dr.-Sterz-Strasse or Noebauerweg, 4820 Bad Ischl",
+      "latitude": 47.707252,
+      "longitude": 13.630479,
+      "neighbourhood": "Reiterndorf, Bad Ischl"
+    },
+    "verified_sources": [
+      "https://e-gov.ooe.gv.at/ndbinternet/NDBInternetGenisysDetail.jsp?mod=NSB&genisysInventarNr=nd138",
+      "https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_im_Bezirk_Gmunden",
+      "https://badischl.salzkammergut.at/en/oesterreich-tour/detail/430002345/round-walk-to-sterzens-abendsitz.html",
+      "https://www.ich-geh-wandern.de/ueber-sterzens-abendsitz-zur-rettenbachklamm-bad-ischl"
+    ],
+    "official_register": {
+      "name": "Naturschutzbuch Oberoesterreich, Naturdenkmal nd138",
+      "url": "https://e-gov.ooe.gv.at/ndbinternet/NDBInternetGenisysDetail.jsp?mod=NSB&genisysInventarNr=nd138"
+    },
+    "access": "Free. A signposted walk promoted by the Bad Ischl tourist board (route 6, 3.2 km circular from the Trinkhalle, about 1 hour): asphalt to the hillock, then a narrow path with some steps up to benches under the lindens.",
+    "location_precision": "approximate",
+    "location_site": {
+      "name": "Sterzens Abendsitz hillock, lindens in a circle round a seating plateau",
+      "radius_m": 30
+    },
+    "curation_status": "flagged",
+    "story": "Upper Austria's register cannot agree with itself about how many trees it protects here. The title says seven limes. The description says six.\n\nBoth were true at some point. Seven large-leaved limes were protected in 1980 on top of a small moraine hill north of Reiterndorf, on the edge of Bad Ischl, and by 2014 one of them had gone. The six that remain stand in a circle round a flat plateau with benches, their crowns run together into one canopy about 22 metres across. Their trunks average 2.2 metres round, a figure for the group rather than for any one tree.\n\nThe name belongs to the seat, not the trees. Abendsitz means evening seat, and a walkers' guide says the spot was given in 1835 by Dr Sterz, a colleague of Dr Wirer, one of the men who made Bad Ischl a spa town. That date is for the seat. Nobody has published when the limes went in. If you know, tell us.\n\nWhat you sit and look at, according to the town's tourist board, is Bad Ischl itself. Its signposted route 6 makes a 3.2 kilometre circle from the Trinkhalle in about an hour, on asphalt to the foot of the hill, then up a narrow path with some steps.\n\nOur latest count is that 2014 six; a photograph from the benches would update it. The lime named for a thousand years stands on the Traun about 800 metres west, so the two make one visit.",
+    "how_to_recognise": "You can recognise it by the ring of six large-leaved limes round a small plateau with benches. It stands on top of the moraine hillock north of Reiterndorf, on the tourist board's signposted route 6.",
+    "best_time": {
+      "months": [
+        6
+      ],
+      "kind": "flowers",
+      "label": "June, when six crowns of scented pale yellow flowers open over the benches"
+    },
+    "verify_notes": "ENSEMBLE, one place to stand: six large-leaved limes (Sommerlinde) in a circle round a plateau with benches, on the top of a moraine hillock north of Reiterndorf. Land OOe register nd138 (title says 7 Linden; description field says 6 Sommerlinden), protected by Bescheid of 1980 (Wikipedia list: December 1980; Bescheid also amended, entered in land register 1986). De.wikipedia list reproducing the register: of seven limes protected in 1980, six remained in 2014; average girth 2.2 m, shared crown about 22 m across. So girth_cm 220 is an AVERAGE per stem, 2014 figure, not one tree. Tourist board text: viewpoint over Bad Ischl, benches under the linden trees. Walker blog (undated): site donated 1835 by Dr Sterz, colleague of Dr Wirer, one of the founders of Bad Ischl as a spa; the group a natural monument since 1980. The 1835 date is for the SEAT/site, not the trees: NO age bridged to the trees (age not documented; a search summary mentioned five old limes plus two younger replacements, seen only in a summary, not recorded). Register Lage text: 'north of Reiterndorf on the top of a moraine hill, in the northern part of the so-called Gschwandtner-Feld, about 600 m from the cemetery'. Coordinate 47.707252, 13.630479 is the register/Wikidata point (Q119889618), not an independent fix; approximate with 30 m site. ALIVE: thin. Wikipedia 2014 count of six; tourist board route page current but undated; lifecheck NONE; iNaturalist goat moth larva (research grade) 2026-08-21 at 47.70721, 13.63133 about 65 m east of the point, consistent with trees there but not an ID of the lindens. Flagged: register plus tourism page, alive not confirmed since 2014. Register photo (c) Land OOe / Siegfried Kapl, editorial use with credit only: not an open licence, do not use; Wikidata P18 Commons file '6 Linden.jpg' not checked for licence (no photo hunt this pass). Bad Ischl lies about 20 km north of Hallstatt by the Salzkammergut railway, a separate cluster beside hst_006 (Tausendjaehrige Linde, about 0.8 km to the west-northwest by straight line, so the two can be one Bad Ischl visit). Travel time not checked."
   }
 ]

@@ -44,6 +44,24 @@
       "reason": "Not researched this pass (time and the four-candidate limit; Bad Ischl already added via the Tausendjährige Linde). Q119889618 Sterzens Abendsitz has a Commons image. Rauhgarten is a circle of 13 beeches in a park-like area (group, would need one place to stand)."
     },
     {
+      "name": "Linde in Bachgasse, Bad Ischl (nd529, Q119887605)",
+      "location": {"latitude": 47.702264, "longitude": 13.629542, "note": "register point, Reiterndorf"},
+      "reason": "blocked 2026-11-20: land OOe register nd529 places this Sommerlinde in the garden of the house Bachgasse 6 (private ground, no source of public access or street view); girth 3.1 m and 26 m tall in 1994, modest for the species. Recheck only if a source shows it is clearly seen from public ground.",
+      "status": "blocked"
+    },
+    {
+      "name": "3 Linden, Reiterndorf, Bad Ischl (nd510, Q119879440)",
+      "location": {"latitude": 47.702962, "longitude": 13.629261, "note": "register point"},
+      "reason": "blocked 2026-11-20: register text says two of the three Sommerlinden of unknown age stand together on a garden plot, the third about 50 m away; protected for landscape character only, no measurements, private garden, not one collectible point.",
+      "status": "blocked"
+    },
+    {
+      "name": "13 Rotbuchen im Rauhgarten, Bad Ischl (nd167, Q119879492)",
+      "location": {"latitude": 47.708824, "longitude": 13.610467, "note": "register point, Kaltenbach"},
+      "reason": "Lead 2026-11-20: circle of 13 copper beeches in a park-like area west of Bad Ischl (register text, protected 1981-09-15). No girth, age or access source found; the park's ground owner and whether the public may enter are unknown. Would need an access source and a recent photo or observation before shipping.",
+      "status": "lead"
+    },
+    {
       "name": "Landauer Linde (47.71714, 13.43661)",
       "location": {"latitude": 47.71714, "longitude": 13.43661, "note": "salzburg-naturdenkmale register"},
       "reason": "Not researched: 20 km from the Hallstatt centre in a different valley (Salzburg state), outside the day-trip boundary."
