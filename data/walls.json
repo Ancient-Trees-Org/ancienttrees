@@ -315,6 +315,11 @@
       "slug": "sheffield",
       "kind": "verify",
       "released_at": "2026-11-20T01:54:15+00:00"
+    },
+    {
+      "slug": "milwaukee",
+      "kind": "verify",
+      "released_at": "2026-11-20T01:54:59+00:00"
     }
   ]
 }
