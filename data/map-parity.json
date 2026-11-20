@@ -29,7 +29,7 @@
     {
       "what": "Pointing at a tree in the list lights its pin",
       "since": "2026-11-20",
-      "web": "atPinsFollowList (tree-pins-js.ts) on every map with a list",
+      "web": "atPinsFollowList (tree-pins-js.ts) on every map with a list; the pointed-at pin turns full and chosen-looking over the rest and moves no other pin (2026-11-20, after the pins jumped on Kyoto)",
       "ios": "none",
       "android": "none",
       "status": "one-sided",
