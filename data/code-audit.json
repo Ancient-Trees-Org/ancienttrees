@@ -577,9 +577,10 @@
    "file": "site/src/lib/tree-pins-js.ts",
    "summary": "Map pins stacked under each other and jumped on hover; the chosen pin stood far from its card (pin CSS set position:relative over MapLibre's absolute markers)",
    "first_seen": "2026-11-20",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/qa.py check_every_map_shows_pins_the_same_way: refuses a position on .pin-tree in pinCss() and style.css"
+   "test": "scripts/qa.py check_every_map_shows_pins_the_same_way: refuses a position on .pin-tree in pinCss() and style.css",
+   "fixed_in": "352553498"
   }
  ]
 }
