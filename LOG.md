@@ -11,6 +11,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 late run (rung 2: broken deploy)
+
+Build and deploy had failed on every run since the afternoon: the Dominion Arboretum park page (Ottawa) promised "7 More" trees but the web counts 5, because three of its trees are app-only. Preflight counts 8 and the Astro build counts 5, so any number in the title fails one of them; the title now carries no count ("and the Trees Around It"), and the intro closer says "All of them". Pushed (4ea780763). I could not dispatch deploy.yml (HTTP 403 from the runner), so the next scheduled or laptop build carries it. Rung 1: sighting 3c544597 (52.3972, 4.8739, not on the map) has no photograph on disk, so it was not judged blind and stays open. Nothing else done this window. For Hidde: preflight and the build disagree on whether app-only trees count toward a park's total; worth making them agree.
+
 ## 2026-11-21 reader judge: a Royal Paulownia in Springs, East Hampton, held until we know it can be seen from the street
 
 - **Held `not_public`**: fba415e7, sent through the app as "Empress Tree". Three photographs, all viewed: a tall Royal Paulownia whose trunk carries a botanical label, at the back of a mown lawn with a house close behind it, in autumn sun. It is worth a page. The pin was placed by hand on a house lot on Winding Way, a residential street in Springs, Town of East Hampton, NY. No public garden is in reach; the Folly Tree Arboretum is 2.5 km away. The photos were taken from inside the lawn, so we cannot tell whether the tree can be seen from the street. If the reader says it can, it goes live with the pin on the viewing spot. hold_reply.py only takes website submissions, so no standard mail went out for this app sighting. That gap was already logged on 11-21 and is still not fixed.
