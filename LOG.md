@@ -11,6 +11,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge (second run): the Le Porge plane's 2003 listing now has a source
+
+A second reader-judge run started on the same four trees (Downleaze copper beech, Elizabeth Park oak, the Kandy bodhi tree, the Le Porge plane). The earlier run had already published them, so this run's duplicates were dropped before any push. The one thing it adds is a source for lpo_001. The techno-science list of Arbres remarquables de France names the "Platane du Porge" under the Gironde, estimated at 130 years in 2003 and 4.75 m round. That confirms the reader's 2003 claim, so the story, the place context and the FAQ now cite it instead of saying no source was found. No reports were open and no feedback was waiting. This run sent no mail.
+
 ## 2026-11-21 second attempt: nothing shipped
 
 - Found no standing claims and one READY lead (York), under the six-tree minimum for a write pass. `passcheck.py --pending` shows only 2 unwritten verified trees (York, Taiwan); the rest of the 385 are stale files.
