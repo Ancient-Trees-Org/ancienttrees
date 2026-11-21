@@ -3,10 +3,10 @@
   "country": "United States",
   "status": "needs_curation",
   "intro": "Most of the best trees here stand at Morris Arboretum. Bartram's Ginkgo, the oldest ginkgo in America, grows alone at Bartram's Garden on the Schuylkill, planted in 1785 by William Hamilton and outliving the two he kept for himself. Across town at Morris Arboretum stand a natural oak hybrid nobody bred, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a world's fair, a 1947 move, and the 2024 storm that killed its twin.",
-  "meta_description": "Bartram's Ginkgo, America's oldest, grows by the Schuylkill. Three more at Morris Arboretum: a wild oak hybrid, a fragrant katsura, a weeping hemlock.",
-  "question_answer": "The oldest tree in Philadelphia is Bartram's Ginkgo, growing east of the Bartram Barn at Bartram's Garden in Southwest Philadelphia, believed to be around 240 years old. It grew from a sapling William Hamilton shipped from London in 1785 and gave to his friend William Bartram, and it is thought to be the oldest ginkgo in North America. The garden is free and open every day, dawn to dusk. Three more trees are mapped at Morris Arboretum across town: a wild oak hybrid that may run nearly as old, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a 1947 move and the 2024 storm that killed its twin.",
-  "question_meta": "Bartram's Ginkgo, planted 1785, roughly 240 years old, is Philadelphia's oldest tree and America's oldest ginkgo, one of four mapped here.",
-  "question_context": "The date rests on a specific claim rather than a general one. In 1785, William Hamilton of The Woodlands shipped three ginkgo saplings from London, the first of their kind to reach North America. He kept two at his own estate and gave the third to his friend William Bartram, whose garden on the Schuylkill was already the oldest botanic garden on the continent. Both of Hamilton's trees were cut down in the 1980s, leaving Bartram's the sole survivor and the oldest ginkgo known in the country. It is a male tree, sparing the garden the foul-smelling seed ginkgoes are known for. The garden is free, open every day, dawn to dusk, a 10 minute walk from the Woodland Avenue trolley.\n\nThree more trees stand across town at Morris Arboretum, a paid garden: a Bender Oak hybrid nobody bred, possibly close to the ginkgo's own age; a katsura whose autumn leaves smell of brown sugar; and a weeping hemlock, moved to its current spot in 1947, that outlived a 2024 storm which killed its twin by the pond.",
+  "meta_description": "Bartram's Ginkgo, America's oldest, grows by the Schuylkill. At Morris Arboretum: a wild oak hybrid, a fragrant katsura, a weeping hemlock, a sawtooth oak.",
+  "question_answer": "The oldest tree in Philadelphia is Bartram's Ginkgo, growing east of the Bartram Barn at Bartram's Garden in Southwest Philadelphia, believed to be around 240 years old. It grew from a sapling William Hamilton shipped from London in 1785 and gave to his friend William Bartram, and it is thought to be the oldest ginkgo in North America. The garden is free and open every day, dawn to dusk. Six more trees are mapped at Morris Arboretum across town, among them a wild oak hybrid that may run nearly as old, a katsura whose autumn leaves smell of brown sugar, and a weeping hemlock that survived a 1947 move and the 2024 storm that killed its twin.",
+  "question_meta": "Bartram's Ginkgo, planted 1785, roughly 240 years old, is Philadelphia's oldest tree and America's oldest ginkgo, one of 14 mapped here.",
+  "question_context": "The date rests on a specific claim rather than a general one. In 1785, William Hamilton of The Woodlands shipped three ginkgo saplings from London, the first of their kind to reach North America. He kept two at his own estate and gave the third to his friend William Bartram, whose garden on the Schuylkill was already the oldest botanic garden on the continent. Both of Hamilton's trees were cut down in the 1980s, leaving Bartram's the sole survivor and the oldest ginkgo known in the country. It is a male tree, sparing the garden the foul-smelling seed ginkgoes are known for. The garden is free, open every day, dawn to dusk, a 10 minute walk from the Woodland Avenue trolley.\n\nSix more trees stand across town at Morris Arboretum, a paid garden, among them a Bender Oak hybrid nobody bred, possibly close to the ginkgo's own age; a katsura whose autumn leaves smell of brown sugar; and a weeping hemlock, moved to its current spot in 1947, that outlived a 2024 storm which killed its twin by the pond.",
   "hero_tree_id": "phl_001",
   "oldest_tree_id": "phl_001",
   "faq": [
@@ -20,7 +20,7 @@
     },
     {
       "q": "Is it free to visit?",
-      "a": "Yes. Bartram's Garden is a city-owned public garden and National Historic Landmark, free and open every day, dawn to dusk. Morris Arboretum, where the other three trees on this page stand, charges general admission."
+      "a": "Yes. Bartram's Garden is a city-owned public garden and National Historic Landmark, free and open every day, dawn to dusk. Morris Arboretum, where six of the trees on this page stand, charges general admission."
     },
     {
       "q": "How do I get there?",
@@ -28,7 +28,7 @@
     },
     {
       "q": "What trees are at Morris Arboretum?",
-      "a": "Three on this page: the Bender Oak, a natural hybrid that happened on its own; the arboretum's signature Katsura, whose fallen leaves smell of brown sugar each October; and a weeping hemlock that survived the 1876 Centennial Exposition, a 1947 move, and the 2024 storm that took down its twin by the pond."
+      "a": "Six on this page, among them the Bender Oak, a natural hybrid that happened on its own; the arboretum's signature Katsura, whose fallen leaves smell of brown sugar each October; and a weeping hemlock that survived the 1876 Centennial Exposition, a 1947 move, and the 2024 storm that took down its twin by the pond."
     }
   ],
   "trees": [
@@ -530,6 +530,53 @@
         "status": "missing"
       },
       "paid_entry": true
+    },
+    {
+      "id": "phl_023",
+      "name": "The Sawtooth Oak of Morris Arboretum",
+      "species": "Sawtooth Oak (Quercus acutissima)",
+      "age_estimate": "about 73 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Morris Arboretum & Gardens, 100 E Northwestern Ave, Philadelphia, PA 19118",
+        "latitude": 40.0866588357001,
+        "longitude": -75.2217810539523,
+        "neighbourhood": "Chestnut Hill"
+      },
+      "how_to_recognise": "A broad oak that splits low into several leaning stems, its long narrow leaves edged with bristle-tipped teeth like a chestnut's, in a planted bed beside a paved path, a low white polytunnel showing through behind it.",
+      "access": "Paid entry to Morris Arboretum & Gardens (adults $22, seniors $20, youth $12, children 2 and under free, per the arboretum's site in Nov 2026); open daily, hours on the arboretum's site.",
+      "story": "A reader walking Morris Arboretum in November sent us this oak, and it is easy to see why they stopped. It is a sawtooth oak, Quercus acutissima, a tree of East Asia, and it looks little like the oaks most people know. Its leaves are long and narrow with a row of bristle-tipped teeth down each edge, closer to a sweet chestnut's than to an English oak's, and in the reader's photograph, taken late in the autumn, they are still mostly green with the first touches of yellow.\n\nThe trunk is short. Almost at once it splits into several stems that lean apart and then climb together into one broad, airy crown, which fills the whole frame and runs out over the neighbouring shrubs. A planted bed edged with stone setts lies along its foot, and behind it a low white polytunnel shows through the branches.\n\nThe reader puts it at about 73 years old. That is their estimate; we have no planting record or girth for it yet. If you know when the arboretum planted it, tell us here and we will add it.\n\nStand back on the path to take in the whole crown, then step up to the bed and look closely at a leaf.",
+      "age_basis": "source",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "dac0493f-948b-4aec-a3fb-10fd3bd90692",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "dac0493f-948b-4aec-a3fb-10fd3bd90692",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (dac0493f-948b-4aec-a3fb-10fd3bd90692). Photograph viewed: the whole oak from the paved path, a short trunk splitting low into several leaning stems under one broad crown of long narrow toothed leaves, still green with first yellow, a planted bed in front and a low white polytunnel behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Sawtooth Oak in Philadelphia', species 'Sawtooth Oak', age '73'. Species seen in the photo: long narrow bristle-toothed chestnut-like leaves, consistent with Quercus acutissima. No register entry within 100 m; nearest tree of ours 164 m (the same reader photographed the katsura and the weeping beech here today). Every figure on the page is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/phl_023-sawtooth-oak-of-morris-arboretum.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "dac0493f-948b-4aec-a3fb-10fd3bd90692",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: the whole oak from the paved path, a short trunk splitting low into several leaning stems under one broad crown of long narrow toothed leaves, still green with first yellow, a planted bed in front and a low white polytunnel behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

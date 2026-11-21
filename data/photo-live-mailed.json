@@ -2821,6 +2821,21 @@
     }
    ],
    "sent": []
+  },
+  "p_5a515e0f132d13f33cc32d58": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "50bb7c61-d179-43ba-89ed-e53a7465e4b0",
+     "tree_id": "wai_001",
+     "tree_name": "Tāne Mahuta",
+     "city": "Waipoua Forest",
+     "city_slug": "waipoua-forest",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

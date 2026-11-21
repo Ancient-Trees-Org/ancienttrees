@@ -50,17 +50,17 @@
       "access": "Free. A short, easy, wheelchair- and buggy-accessible boardwalk (166 m, about 5 minutes one way) from a roadside car park directly off State Highway 12, open 9am-3pm daily (hours can shift seasonally, check DOC's page). A mandatory shoe/gear cleaning station sits at the entrance to stop kauri dieback disease spreading; visitors must stay on the boardwalk at all times to protect the tree's shallow, disease-vulnerable roots.",
       "transport": "No public transport; reached by car on SH12. Roughly 65 km / under an hour from Dargaville to the south, 18 km from Omapere to the north.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/wai_001-t-ne-mahuta-d8b996ea.jpg",
+        "url": "https://ancienttrees.app/photos/wai_001-t-ne-mahuta-50bb7c61.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1600,
-        "height": 1200,
-        "taken_month": 9,
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 8,
         "source": "contributor",
-        "contributor_user_id": "p_492afbdde23d69af867aff0f",
-        "sighting_id": "d8b996ea-fdbf-4d4b-9db7-ceffd5957f1f",
-        "note": "Photographed by a reader and sent through the app (2007-09-08); a viewing pass approved it on 2026-11-15: Plainly Tane Mahuta: the classic view from the platform, and the same reader's sign photo from the same day places them there; the 6.8 km is the fix, not the tree. Daylight, colour, dim forest light. Species seen: Massive pale grey columnar trunk with knobby scale-shed bark and epiphyte-laden crown: kauri.. Fits the description: A colossal kauri trunk rising out of kiekie and ferns with the crown breaking at the top, the view of Tane Mahuta at the end of the boardwalk... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_5a515e0f132d13f33cc32d58",
+        "sighting_id": "50bb7c61-d179-43ba-89ed-e53a7465e4b0",
+        "note": "Photographed by a reader and sent through the app (2024-08-07); a viewing pass approved it on 2026-11-21: The whole pale kauri trunk from the ferns to the epiphyte-laden crown, daylight, colour; brighter and more complete than the current lead, so it leads and the old one moves to the strip. Species seen: kauri: massive straight pale grey column with flaking hammered bark, no branches until the crown, epiphytes in the crown. Fits the description: an enormous single trunk rising from tree ferns in podocarp forest, the crown of broken limbs carrying epiphytes, matching the largest kauri at the end of the boardwalk; photo taken 22 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -72,6 +72,19 @@
         "url": "https://www.treeregister.nz/tree/view/800"
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wai_001-t-ne-mahuta-d8b996ea.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "d8b996ea-fdbf-4d4b-9db7-ceffd5957f1f",
+          "note": "Photographed by a reader and sent through the app (2007-09-08); a viewing pass approved it on 2026-11-15: Plainly Tane Mahuta: the classic view from the platform, and the same reader's sign photo from the same day places them there; the 6.8 km is the fix, not the tree. Daylight, colour, dim forest light. Species seen: Massive pale grey columnar trunk with knobby scale-shed bark and epiphyte-laden crown: kauri.. Fits the description: A colossal kauri trunk rising out of kiekie and ferns with the crown breaking at the top, the view of Tane Mahuta at the end of the boardwalk... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/00_29_0496_Waipoua_Forest_NZ_-_Kauri_Baum_Tane_Mahuta.jpg",
           "license": "CC BY-SA 4.0",

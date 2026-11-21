@@ -1550,6 +1550,56 @@
    "agreed": null
   },
   {
+   "id": "sight:50bb7c61-d179-43ba-89ed-e53a7465e4b0",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "Tāne Mahuta",
+   "city": "Waipoua Forest",
+   "species": "Kauri (Agathis australis)",
+   "photo": "out/sightings/50bb7c61-d179-43ba-89ed-e53a7465e4b0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 22,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kauri (Agathis australis)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the whole kauri trunk from the ferns to the epiphyte crown, daylight, colour; brighter and fuller than the old lead, so it leads Tāne Mahuta and the old one moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:dac0493f-948b-4aec-a3fb-10fd3bd90692",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Sawtooth Oak in Philadelphia",
+   "city": null,
+   "species": "Sawtooth Oak",
+   "photo": "p_3bb2d9b77f839015a3f92de9/DAC0493F-948B-4AEC-A3FB-10FD3BD90692.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sawtooth Oak"
+   },
+   "verdict": "publish",
+   "reason": "Whole broad sawtooth oak in Morris Arboretum, several stems under one crown, toothed chestnut-like leaves, daylight, colour, device GPS fix; live as philadelphia/phl_023 with the reader's 73 years as their estimate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -22062,6 +22112,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:dac0493f-948b-4aec-a3fb-10fd3bd90692",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Sawtooth Oak of Morris Arboretum",
+   "photo": "p_3bb2d9b77f839015a3f92de9/DAC0493F-948B-4AEC-A3FB-10FD3BD90692.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole broad sawtooth oak at Morris Arboretum, several stems under one crown, daylight, colour. Live as philadelphia/phl_023 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

@@ -9194,6 +9194,39 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "zierenberg/zbg_001"
+  },
+  {
+   "sighting_id": "dac0493f-948b-4aec-a3fb-10fd3bd90692",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "Sawtooth Oak in Philadelphia",
+   "unsure_among": null,
+   "species": "Sawtooth Oak",
+   "age": "73",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 40.0866588357001,
+   "longitude": -75.2217810539523,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3bb2d9b77f839015a3f92de9/DAC0493F-948B-4AEC-A3FB-10FD3BD90692.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 164,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole oak from the paved path, a short trunk splitting low into several leaning stems under one broad crown of long narrow toothed leaves, still green with first yellow, a planted bed in front and a low white polytunnel behind, daylight, colour. Live as philadelphia/phl_023 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "philadelphia/phl_023"
   }
  ]
 }

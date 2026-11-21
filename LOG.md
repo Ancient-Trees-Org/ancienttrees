@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a sawtooth oak at Morris Arboretum goes live, a reader's photo leads Tāne Mahuta
+
+- **New tree, Philadelphia phl_023, The Sawtooth Oak of Morris Arboretum**: the same reader who photographed the katsura and the weeping beech today sent the whole broad oak (several stems under one crown, toothed chestnut-like leaves, November, daylight) with a device GPS fix inside the arboretum, 164 m from our nearest tree. Live under the closed list, pin confirmed, their 73 years given as their estimate, photo filed in November from its own date. The Philadelphia texts now say six trees at Morris and 14 on the page (meta, question answer and context, two FAQ). The congratulation mail waits for the deploy (tree_approved.py: not in the live feed yet).
+- **Tāne Mahuta (wai_001)**: a reader's photograph of the whole trunk from the ferns to the crown, brighter and fuller than the old lead, now leads; the old one moved to the strip (`add`). The tree's pin is confirmed already; the pin catch-up could not read coordinates (HTTPError), nothing to move.
+- **Left waiting**: 3c544597 (Amsterdam, near the Last Elm of Stationsplein) is one of our own photographs (`mine`), and its file is not on disk; never judged blind, so it stays for a session.
+- No open reports, no feedback without a verdict, no tips without a photograph, no reader words waiting.
+
 ## 2026-11-21 reader judge: the Morris Arboretum weeping beech gets its first photograph
 
 - **philadelphia/phl_020 The Weeping European Beech at Morris Arboretum**: a reader's photo under the hanging canopy, layered stems in autumn leaf, with the arboretum's own sign for this tree in frame. It is now the page's first photograph (`approve`), filed under November. Its GPS fix moved our approximate pin 106 m, and the pin is now confirmed.
