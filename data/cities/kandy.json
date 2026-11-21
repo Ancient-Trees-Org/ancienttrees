@@ -57,6 +57,49 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "kdy_002",
+      "name": "The Bodhi Tree in the Hillside Shrine",
+      "species": "Bodhi Tree (Ficus religiosa)",
+      "location": {
+        "address": "Hillside temple above Kandy, Central Province",
+        "latitude": 7.29553333333333,
+        "longitude": 80.630875,
+        "neighbourhood": "Kandy"
+      },
+      "how_to_recognise": "Inside a gold-railed shrine enclosure with white walls: a bodhi tree whose pale trunk splits into several limbs above a gravel floor, a small seated Buddha statue at its foot and red tiled roofs on every side.",
+      "access": "Inside a temple compound. The reader photographed it from a higher level looking down into the enclosure. Dress modestly and ask before entering the shrine itself.",
+      "story": "A reader sent us this tree from a hillside temple above Kandy, and the way it was photographed tells you a lot about it. The picture looks down from above, past the leaves, into a small gold-railed enclosure where the trunk rises out of a floor of pale gravel.\n\nIt is a bodhi tree, Ficus religiosa, the sacred fig whose heart-shaped leaves with long drawn tips fill the frame. Buddhists revere it as the species under which the Buddha is said to have found enlightenment, and in Sri Lanka these trees are planted at temples and tended with care. The limbs fan out from one base in long pale arms, patched with grey lichen, and the whole tree is many times the height of the enclosure's railing.\n\nAt its foot sits a small seated Buddha, and a white wall with a gold railing keeps the ground around it clear. Red tiled roofs of the temple's other buildings spread out below.\n\nWe do not yet know the temple's name, or how old the tree is. If you know both, tell us here.\n\nLook for the stairs that lead up to the vantage the reader used.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "ade84360-ee78-453e-b6f1-36db50f6bc90",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ade84360-ee78-453e-b6f1-36db50f6bc90",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 run: sent by a reader (ade84360-ee78-453e-b6f1-36db50f6bc90). Photograph viewed: the whole multi-stemmed bodhi tree seen from above, its pale limbs rising out of a gravel enclosure with a seated Buddha at its foot, red-tiled temple roofs around it, daylight, colour. Published under the closed list for a reader's tree. Reader's own figures: name 'A tree in Kandy', species 'None', age 'None', girth None cm; every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kdy_002-bodhi-tree-in-the-hillside-shrine.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7299f0be8eeb0bd88d7dafca",
+        "sighting_id": "ade84360-ee78-453e-b6f1-36db50f6bc90",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees; viewed and approved on 2026-11-21: the whole multi-stemmed bodhi tree seen from above, its pale limbs rising out of a gravel enclosure with a seated Buddha at its foot, red-tiled temple roofs around it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

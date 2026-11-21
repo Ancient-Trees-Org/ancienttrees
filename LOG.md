@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a bodhi tree in a Kandy shrine
+
+- **kandy/kdy_002 The Bodhi Tree in the Hillside Shrine**: a reader's photograph from above of a multi-stemmed bodhi tree in a gold-railed temple enclosure, a seated Buddha at its foot. Pin confirmed from the photo. The reader gave no name or note, so the temple's name is open and the story asks for it. The lead is the shot without the monk; the second photograph is not published.
+- A parallel run had already published the Bristol, Leamington Spa and Le Porge trees from the same queue, so this run dropped its own copies (kept on local branch backup-mine-1121) and only added Kandy. Left open: `3c544597`, an Amsterdam photograph sent as "not sure which tree"; its file is not on this machine, so it is not judged blind.
+
 ## 2026-11-21 reader judge: a copper beech on a Bristol street corner, an oak opens Leamington Spa, a church-square plane opens Le Porge
 
 - **bristol/bri_026 The Copper Beech of Downleaze**: a reader's photo shows a big copper beech in full autumn colour on the corner of Downleaze and Julian Road in Sneyd Park, with Henry Dare Bryan's 1898 villas behind it. The photo's own GPS puts the pin at the tree, so it is confirmed. The trunk stands behind a hedge in a private garden, and `access` says it is seen from the pavement. Their 130 to 135 years and the architect story appear as theirs. Bristol now has 26 trees, and its intro and meta count all 26.

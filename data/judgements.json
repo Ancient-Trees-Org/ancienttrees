@@ -21856,6 +21856,38 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:ade84360-ee78-453e-b6f1-36db50f6bc90",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Kandy",
+   "city": null,
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Bodhi tree in a hillside shrine, Kandy, live as kdy_002",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ade84360-ee78-453e-b6f1-36db50f6bc90",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Bodhi Tree in the Hillside Shrine",
+   "city": "Kandy",
+   "species": "Bodhi Tree (Ficus religiosa)",
+   "photo": "https://ancienttrees.app/photos/kdy_002-bodhi-tree-in-the-hillside-shrine.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Bodhi tree in a temple shrine above Kandy; live as kdy_002.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
