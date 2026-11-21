@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 daily publish: queue empty
+
+- **Daily publish: queue empty.** The builders newer than build_write_2026_11_17 are build_write_2026_11_21, 21b and 21c (stu_014 to stu_017, ott_023 to ott_026), and every one of those trees is already in data/cities; no out/tmp/held_build.py. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
+
 ## 2026-11-21 reader judge: a heritage white oak in Ontario, the Survivor Tree's first photo
 - **New tree, new place: Oakville, Canada** (oakville/okv_001, The Heritage White Oak of Bronte Creek). A reader sent the whole oak in spring leaf and a photo of the park's sign: germinated around 1685, Ontario Heritage Tree since 2022, 684 cm round, 19 m tall (girth and height from the sign). Waymarking and a park tour page back it up. The pin was placed by hand, so it stays approximate. The file's November date came from a screenshot, so the photo is filed as May by its fresh leaves.
 - **Moffat, The Survivor Tree (crf_001)** has its first photograph: a reader's 2021 shot of the lone rowan in flower above the Carrifran Burn. Now that the page is indexable, its colon reveal sentence has been rewritten.
