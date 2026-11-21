@@ -177,6 +177,28 @@
    "agreed": null
   },
   {
+   "id": "sight:869c8d36-3764-40a1-a159-da4f7c51e5d2",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Chestnut Avenue of the Hauptallee",
+   "city": "Vienna",
+   "species": "Horse Chestnut (Aesculus hippocastanum)",
+   "photo": "out/sightings/869c8d36-3764-40a1-a159-da4f7c51e5d2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Horse Chestnut (Aesculus hippocastanum)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Hauptallee in October colour, rows of old horse chestnuts both sides; now the avenue's lead photograph, replacing nothing approved (the old Commons one was held as a bark close-up).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",

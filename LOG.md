@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: the Hauptallee chestnuts get their first photograph
+
+- **vienna/vie_003, The Chestnut Avenue of the Hauptallee**: a reader's photograph (869c8d36) of the whole avenue in October: rows of old horse chestnuts on both sides of the gravel walk, with crowns turning yellow. The avenue had no approved photo, because the Commons bark close-up was held, so this is now the lead (`taken_month` 10 from the photo's own date). The pin stays as it was: the reader's GPS is on our confirmed register pin.
+- Nothing else waited: no open reports, tips, feedback or reader notes. 3c544597 is our own account's photo, is still not on disk, and was left alone.
+- Checks: qa --source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-21 reader judge: a new lead photo for the Birnam Oak, a third view of Fortingall, and Tyler's 1856
 
 - **dunkeld/dnk_002, The Birnam Oak**: a reader's photograph sent as Niel Gow's Oak (bb5b6aff). Its GPS fix is on the Birnam Oak's pin and 1.85 km from Niel Gow's Oak. It shows the Birnam Oak: the hollow trunk with its tall opening, full leaf, the riverside path. The queue entry was pointed at dnk_002 before applying. It is now the lead photo (June), and the earlier upward shot moved into the strip. Niel Gow's Oak still has no photograph.

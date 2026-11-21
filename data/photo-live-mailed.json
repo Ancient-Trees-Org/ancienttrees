@@ -2574,6 +2574,21 @@
     }
    ],
    "sent": []
+  },
+  "p_230ca0c6269992f101ed0a8d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",
+     "tree_id": "vie_003",
+     "tree_name": "The Chestnut Avenue of the Hauptallee",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

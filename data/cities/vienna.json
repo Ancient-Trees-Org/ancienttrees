@@ -139,20 +139,29 @@
         "label": "late April, when the avenue turns white with chestnut blossom"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Horse_chestnut_tree_at_Prater_Hauptallee.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Herzi Pinki, via Wikimedia Commons",
-        "status": "held",
-        "width": 6000,
-        "height": 4000,
-        "held_reason": "Fails the Cadiz standard: it is a close-up of bark, not of a tree. The crown is not readable and the trunk is cropped, and the red survey paint ringing an old wound reads as crude graffiti at thumbnail size. Hidde flagged it on 2026-08-23 while it was serving as the face of the whole Horse Chestnut species page. Good photograph, wrong subject; kept in the file so nobody re-finds it and approves it again.",
-        "taken_month": 8
+        "url": "https://ancienttrees.app/photos/vie_003-the-chestnut-avenue-of-the-hauptallee.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 10,
+        "source": "contributor",
+        "contributor_user_id": "p_230ca0c6269992f101ed0a8d",
+        "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",
+        "note": "Photographed by a reader and sent through the app (2026-10-06); a viewing pass approved it on 2026-11-21: The whole Hauptallee in early autumn: rows of mature horse chestnuts both sides of the gravel avenue, crowns turning yellow, daylight and colour. The entry's subject is the avenue itself, and this shows it far better than the held bark close-up; the tree had no approved photograph. Species seen: horse chestnut: palmate compound leaves, dark ridged trunks, conkers' leaf litter browning on the verges. Fits the description: a long avenue lined with rows of old chestnuts running to a vanishing point, a park setting with paths beside it, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Corrected 2026-07-29: the entry previously stated the two oldest survivors as 236 and 266 years old, citing two sources that, re-checked directly, did not actually support that figure (German Wikipedia's Hauptallee article names no individual tree ages at all; traveltips.at only says the avenue's trees date to the 19th century). Traced the 236/266 figures to monumentaltrees.com via web search, permitted for verification only under hard rule 1, never as a citable source, and unreachable this session (HTTP 403) to confirm even that. Resolved properly rather than just softened: queried Vienna's own Baumkataster (data.wien.gv.at WFS, layer ogdwien:BAUMKATOGD) with a CQL_FILTER on OBJEKT_STRASSE (avoiding the BBOX reprojection problem that returned zero features on an earlier attempt this session, since the layer's native coordinates are in a projected CRS, not lat/long) and got real per-tree data: 251 individually registered trees on Hauptallee, 247 of them Aesculus hippocastanum, with real planting years. The oldest, BAUM_ID 39288 (254cm girth, planted 1840, at 48.20571418/16.41414589 in EPSG:4326), is now this entry's anchor tree and pin, replacing the old avenue-midpoint estimate and the unverifiable 236/266 claim with a specific, government-registered, individually documented specimen. Requeried this same record a second time before applying to guard against the single-query extraction inconsistency this session hit once (a different BAUM_ID's planting year came back differently across two summarized reads); this one held steady both times.",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by the four to six rows of horse chestnuts running the whole 4.5 kilometre avenue, white with candle-shaped blossom each spring. The oldest, 254 centimetres round, stands near the Praterstern end.",
-      "girth_cm": 254
+      "girth_cm": 254,
+      "photo_replaced": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Horse_chestnut_tree_at_Prater_Hauptallee.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Herzi Pinki, via Wikimedia Commons",
+        "status": "held"
+      }
     },
     {
       "id": "vie_004",
