@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a reader's photograph leads the Søndermarken Oak (Copenhagen)
+
+- Copenhagen cop_043, the Søndermarken Oak: a reader's photo shows the bare oak alone on its open lawn in autumn, 40 m from our pin. It is now the lead and replaces the dendron.dk photo, which was never approved. It is filed under November.
+- A second reader-judge run started in parallel and judged the Athens ombu and holm oak the same way (entry below). I kept that run's Athens changes and added only the Copenhagen photo on top. No mail went out twice: both Athens photos are in a single pending bundle.
+
 ## 2026-11-21 reader judge: a new Athens tree, the ombu of the National Garden
 
 - New tree live: athens/ath_013, the Ombu of the National Garden. A reader sent it from the garden with a GPS fix, 89 m from our holm oak. The photograph shows a huge swollen base spilling over the paving, with a cluster of trunks rising from it. The story is 215 words: the species stated as fact, nothing invented about its age or size, and an invitation for readers to tell us more. The photo is filed under November, the photograph's own month. Athens now has 13 trees.

@@ -21057,6 +21057,28 @@
    "reason": "Photograph viewed 2026-11-21: the swollen grey base of a huge ombu poured over the paving, a cluster of trunks rising from it, a marble pavilion beside it, daylight, colour. Lead photograph of athens/ath_013.",
    "city": "Athens",
    "species": "Ombu (Phytolacca dioica)"
+  },
+  {
+   "id": "sight:a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Søndermarken Oak",
+   "city": "Copenhagen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/a04c40d2-ceaf-48c1-bc57-9907a4f68daa.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 40,
+   "current_photo": "found_needs_check",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Søndermarken Oak bare on its open lawn, 40 m from our pin; our old photo was never approved, so the reader's leads.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

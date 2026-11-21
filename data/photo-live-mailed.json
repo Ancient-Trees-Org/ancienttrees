@@ -378,6 +378,15 @@
      "city_slug": "copenhagen",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+     "tree_id": "cop_043",
+     "tree_name": "The Søndermarken Oak",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [

@@ -2029,19 +2029,29 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "http://www.dendron.dk/dtr/photos/Eg_S%C3%B8ndermarken_HEL_MG_2627.JPG",
-        "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
-        "attribution": "Hans Erik Lund",
-        "status": "found_needs_check",
-        "note": "Viewed 2026-10-01; tree shown matches species and setting in the register entry. Credit '(c) Hans Erik Lund' by his written permission 2026-09-20.",
-        "width": 1000,
-        "height": 1500
+        "url": "https://ancienttrees.app/photos/cop_043-the-s-ndermarken-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: A tall bare oak standing alone on an open lawn in Søndermarken, autumn leaves on the grass, 40 m from our pin; the only lone big tree on the lawn in frame. Our lead photo was never approved, so this one leads. Species seen: bare winter crown of crooked, zigzag oak branching, a few brown leaves held on, dark furrowed trunk: oak. Fits the description: a single tall trunk rising from an open lawn into a high crown, a walker for scale.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "story": "Thirty-one and a half metres is a great deal of height for a pedunculate oak, and this one in Søndermarken carries it on a single trunk 5.40 metres round at chest height. Those are the Danish Tree Register's figures, taken by the dendrologist Hans Erik Lund, who stood here on 5 September 2016, measured it, fixed its position and recorded it as alive.\n\nPut it beside its neighbour and the numbers start to mean something. The oak we map across the road in Frederiksberg Have is 28.8 metres tall and 4.95 metres round. This one is taller and thicker, and it has no name, no legend and no plaque. The register calls it remarkable at municipal level and leaves it there.\n\nThat is the whole of its paperwork, and it is worth being plain about what it does not say. Nobody has dated this oak. There is no planting record in the register entry and no age estimate, and a park full of oaks gives no easy clue about which generation this one belongs to. So the honest answer to how old it is: we do not know, and if you do, tell us.\n\nThe register's last visit was Lund's, in 2016. Somebody photographed something within thirty metres of the pin at the end of 2025, which in a park of many oaks proves less than it sounds. If you stand under it, tell us it is still there.",
       "how_to_recognise": "You can recognise it by the single straight trunk, 5.40 metres round at chest height, under a crown 31.5 metres tall. It stands on an open lawn in Søndermarken, at the pin.",
       "official_register": {
         "name": "Dansk Trærregister (Dendrologisk Forening)",
         "url": "https://www.dendron.dk/dtr/detaljer.asp?Individual_id=826"
+      },
+      "photo_replaced": {
+        "url": "http://www.dendron.dk/dtr/photos/Eg_S%C3%B8ndermarken_HEL_MG_2627.JPG",
+        "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
+        "attribution": "Hans Erik Lund",
+        "status": "found_needs_check"
       }
     },
     {
