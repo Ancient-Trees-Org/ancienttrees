@@ -9,6 +9,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 night run (00:53 window): iOS red fixed, nothing else moved
+
+Rung 2. The iOS app run of 11-20 22:57 failed on appfit SMALL: Discover's "New from visitors" tree-name link was 34 pt high (the same fault b2bdf38ba fixed on /visitors). The name is now plain text under the photograph (Home.swift), pushed as cbbe420b0; ios.yml has to go green on it, not yet seen. Rung 1: reader photo 3c544597 (52.3972, 4.8739, unmapped) is not on disk here, so it stays unjudged rather than judged blind. Not touched: 1 unpasted migration (needs Hidde's paste), nightly knocks 6 of 12 (GitHub dropped cron), one orange web error (getBound... null in inline script). No trees written this window; the shelf needs a verify pass first (907 leads short only a source).
+
 ## 2026-11-21 reader judge: the great cedar of Parc Chambrun is live in Nice
 
 - **New tree, Nice (nce_011, The Great Cedar of Parc Chambrun)**: a reader's tip through the website (tip-1340) with two daylight photographs of a cedar of Lebanon towering over the park's palms beside the Temple de l'Amour. The City of Nice's own park page names "un énorme Cèdre du Liban" planted at the end of the 18th century, so the age is the city's; the reader's photographs are the life check. Their words are quoted on the page, unnamed. No location came with it, so the pin is approximate at the park (the coordinates the city's page links). Both photographs filed in November (their own date). English story plus the kept French overlay; Nice's counts now say eleven, and the French title stops saying ten.
