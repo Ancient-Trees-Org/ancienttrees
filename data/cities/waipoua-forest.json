@@ -131,13 +131,17 @@
       "access": "Free. A 730 m, roughly 20-minute walk on a well-maintained, partly boardwalked track from the Kauri Walks car park off SH12, open 9am-4pm daily. Ends at a viewing platform about 10 m from the trunk; visitors must stay on the track and use the mandatory boot-cleaning wash stations to protect the tree from kauri dieback disease.",
       "transport": "No public transport; reached by car on SH12, about 61 km from Dargaville and 21 km from Omapere. Shares the same car park area as the Four Sisters and Yakas Kauri walks, though those two are currently closed (see fam blocked note).",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%27Father_of_the_Forest%27_Te_Matua_Ngahere.jpg",
-        "license": "CC BY 4.0",
-        "attribution": "Pseudopanax, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-ba2053f1.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3240,
-        "height": 4700,
-        "taken_month": 1
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_5a515e0f132d13f33cc32d58",
+        "sighting_id": "ba2053f1-d621-43fb-a205-06ddae5fc806",
+        "note": "Photographed by a reader and sent through the app (2025-09-12); a viewing pass approved it on 2026-11-21: Viewed 2026-11-21: the classic view of Te Matua Ngahere from the viewing platform, the DOC plaque naming it on the rail in front, daylight, colour; taken 50 m from our pin. Species seen: massive pale grey columnar trunk with scaly hammered bark and epiphyte clumps, kauri. Fits the description: a barrel of a trunk that stops short, the crown broken at the top, at the end of the walk's viewing platform with the tree's own plaque.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -157,6 +161,15 @@
       },
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%27Father_of_the_Forest%27_Te_Matua_Ngahere.jpg",
+          "license": "CC BY 4.0",
+          "attribution": "Pseudopanax, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3240,
+          "height": 4700,
+          "taken_month": 1
+        },
+        {
           "url": "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-ab926a56.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
@@ -169,6 +182,32 @@
           "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
           "note": "Photographed by a reader and sent through the app (2026-11-15); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-98edec0c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_5a515e0f132d13f33cc32d58",
+          "sighting_id": "98edec0c-2a19-4935-a60b-2b03654c4113",
+          "note": "Photographed by a reader and sent through the app (2025-09-12); a viewing pass approved it on 2026-11-21: Viewed 2026-11-21: the same reader's closer view up the trunk from the ferns, the stems splitting where the leader was lost, daylight, colour; a second picture for the gallery behind the platform view. Species seen: thick grey kauri trunk with knobbed scaly bark and epiphytes in the forks. Fits the description: the short enormous trunk opening into several stems with no central leader, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-403b354b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "taken_month": 9,
+          "source": "contributor",
+          "contributor_user_id": "p_5a515e0f132d13f33cc32d58",
+          "sighting_id": "403b354b-ac75-4621-9604-2f04bf862e7e",
+          "note": "Photographed by a reader and sent through the app (2025-09-12); a viewing pass approved it on 2026-11-21: Viewed 2026-11-21: the tree's own track sign, 'Te Matua Ngahere, 2nd largest kauri, 15 mins', at the start of the walk; a sign of the tree goes in the gallery (Hidde, 2026-11-15). Species seen: no trunk in frame; the sign names the tree as a kauri. Fits the description: the start of the Te Matua Ngahere walk the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
     }

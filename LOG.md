@@ -11,7 +11,12 @@
 
 <!-- archive-index -->
 
-## 2026-11-21 reader judge: a sawtooth oak at Morris Arboretum goes live, a reader's photo leads Tāne Mahuta
+## 2026-11-21 reader judge: a reader's photographs now lead Te Matua Ngahere
+
+- **waipoua-forest/wai_002 Te Matua Ngahere**: this is the same reader as this evening's Tāne Mahuta photo, who sent four photographs from one visit. Their view from the viewing platform, with the tree's own plaque in frame and taken 50 m from our pin, now leads the page in place of the Commons photo (`add`). Their close view up the trunk and the tree's own track sign ("2nd largest kauri, 15 mins") went into the gallery (`strip`). Their photo of the car-park trailhead board listing three walks was rejected: no tree in frame, 610 m away.
+- A parallel run had already pushed the sawtooth oak (phl_023) and the Tāne Mahuta lead while this one was judging them. This run's duplicate of that work was dropped, and only the four Te Matua Ngahere photographs, which that run never saw, were applied on top.
+- No open reports, tips, feedback or reader words waiting.
+ at Morris Arboretum goes live, a reader's photo leads Tāne Mahuta
 
 - **New tree, Philadelphia phl_023, The Sawtooth Oak of Morris Arboretum**: the same reader who photographed the katsura and the weeping beech today sent the whole broad oak (several stems under one crown, toothed chestnut-like leaves, November, daylight) with a device GPS fix inside the arboretum, 164 m from our nearest tree. Live under the closed list, pin confirmed, their 73 years given as their estimate, photo filed in November from its own date. The Philadelphia texts now say six trees at Morris and 14 on the page (meta, question answer and context, two FAQ). The congratulation mail waits for the deploy (tree_approved.py: not in the live feed yet).
 - **Tāne Mahuta (wai_001)**: a reader's photograph of the whole trunk from the ferns to the crown, brighter and fuller than the old lead, now leads; the old one moved to the strip (`add`). The tree's pin is confirmed already; the pin catch-up could not read coordinates (HTTPError), nothing to move.
