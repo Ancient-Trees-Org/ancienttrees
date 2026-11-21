@@ -1,9 +1,9 @@
 {
  "_note": "de overlay for heidelberg, written 2026-09-17 from data/cities/heidelberg.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Heidelberg",
- "title": "Alte Bäume in Heidelberg: 9 bemerkenswerte Exemplare",
+ "title": "Alte Bäume in Heidelberg: 10 bemerkenswerte Exemplare",
  "meta_description": "Heidelbergs alte Bäume: eine hohle, mit Seilen gehaltene Linde über dem Schloss, Rosskastanien, eine seltene Hybridlinde, Eichen. Alle frei zugänglich.",
- "intro": "Heidelberg schützt sieben ausgewiesene Bäume, von einer hohlen, mit Seilen gesicherten Linde an der Bergstation der Bergbahn bis zu Rosskastanien am Weg hinauf zum Schloss und einem Eichenpaar über Ziegelhausen. Oben im Stadtwald stehen zwei weitere, ein Rekord-Mammutbaum im Arboretum und eine hohle, spiralig gewachsene Eiche am Heiligenberg. Die meisten tragen kein festgehaltenes Alter, und diese Seite sagt das, statt zu raten. Die Molkenkur-Linde kommt einem belegten Alter am nächsten, die Lokalzeitung setzt sie auf etwa 200 Jahre. Alle neun sind frei zugänglich, und acht der neun Markierungen sind ungefähr.",
+ "intro": "Heidelberg schützt sieben ausgewiesene Bäume, von einer hohlen, mit Seilen gesicherten Linde an der Bergstation der Bergbahn bis zu Rosskastanien am Weg hinauf zum Schloss und einem Eichenpaar über Ziegelhausen. Oben im Stadtwald stehen zwei weitere, ein Rekord-Mammutbaum im Arboretum und eine hohle, spiralig gewachsene Eiche am Heiligenberg, und ein Leser hat uns eine hohe Eiche an einem Waldweg über Schlierbach geschickt. Die Molkenkur-Linde kommt einem belegten Alter am nächsten, die Lokalzeitung setzt sie auf etwa 200 Jahre. Alle zehn sind frei zugänglich, und acht der zehn Markierungen sind ungefähr.",
  "question_title": "Was ist der älteste Baum Heidelbergs? Nur einer ist datiert",
  "question_meta": "Heidelbergs bestbelegter alter Baum ist die Molkenkur-Linde über dem Schloss, von der Lokalzeitung auf etwa 200 Jahre gesetzt. Wo sie steht.",
  "question_answer": "Einem belegten Alter am nächsten kommt unter Heidelbergs ausgewiesenen Bäumen die Molkenkur-Linde, innen hohl und mit Seilen zusammengehalten, von der Rhein-Neckar-Zeitung auf etwa 200 Jahre gesetzt. Sie steht am Aussichtspunkt Molkenkur über dem Heidelberger Schloss. Die anderen sechs ausgewiesenen Bäume dieser Seite tragen überhaupt kein festgehaltenes Alter, nur das Datum, an dem sie zum Naturdenkmal erklärt wurden.",
@@ -19,11 +19,11 @@
   },
   {
    "q": "Sind die Markierungen für diese Bäume genau?",
-   "a": "Acht der neun sind ungefähr verortet, erwarten Sie also die richtige Straße, den richtigen Garten oder Waldwegabschnitt und nicht die genaue Stelle."
+   "a": "Acht der zehn sind ungefähr verortet, erwarten Sie also die richtige Straße, den richtigen Garten oder Waldwegabschnitt und nicht die genaue Stelle."
   },
   {
    "q": "Sind diese Bäume frei zugänglich?",
-   "a": "Ja. Sechs stehen auf offenem öffentlichem Grund: ein Aussichtspunkt, ein Schlossgarten, Straßen und eine Haltestelle. Die Eichen an der Münchelstraße stehen an oder neben einem öffentlichen Waldweg über Ziegelhausen; bleiben Sie auf dem Weg. Der Mammutbaum im Arboretum und die Holdermanns-Eiche stehen an offenen Wegen im Stadtwald. Für keinen von ihnen braucht es ein Ticket, für den Schlosshof selbst allerdings schon."
+   "a": "Ja. Sechs stehen auf offenem öffentlichem Grund: ein Aussichtspunkt, ein Schlossgarten, Straßen und eine Haltestelle. Die Eichen an der Münchelstraße stehen an oder neben einem öffentlichen Waldweg über Ziegelhausen; bleiben Sie auf dem Weg. Der Mammutbaum im Arboretum, die Holdermanns-Eiche und die Eiche am Drachenhöhlenweg stehen an offenen Wegen im Stadtwald. Für keinen von ihnen braucht es ein Ticket, für den Schlosshof selbst allerdings schon."
   }
  ],
  "trees": {
@@ -94,6 +94,14 @@
    "access": "Frei, an offenen öffentlichen Wegen im Heidelberger Stadtwald (Naturpark Neckartal-Odenwald), etwa 1,4 km auf dem Aufstieg von Handschuhsheim zum Heiligenberg. Die Wege können nach Regen rutschig sein.",
    "story": "Preußische Truppen und die Volkswehr lieferten sich am 21. Juni 1849 an dieser Eiche ein Gefecht, so eine Heidelberger Ortsgeschichte der Schanzen auf dem Heiligenberg. Die Eiche ist der Orientierungspunkt, mit dem der Bericht sagt, wo geschossen wurde.\n\nDer Name ist älterer Klatsch. Er gehört Friedrich Holdermann, einem wohlhabenden Heidelberger Wirt, dem der Weiße Bär in der Kettengasse, ein Bierhaus und ein Kaffeehaus gehörten. Eine Geschichte, die Wanderer weitererzählen, sagt, er habe sich 1764 an der Eiche erschossen. Wir haben sie nur in dieser Nacherzählung gefunden, nie in einer Akte, also gilt sie als die Version des Waldes und nicht als Geschichte.\n\nWas heute dort steht, ist eine hohle Eiche, deren Stamm spiralig gewachsen ist, an einer Wegkreuzung im Stadtwald über Handschuhsheim, mit einem der Heidelberger Wegweisersteine daneben. Wanderer beschreiben die Höhlung, und Kartierer verzeichnen sie als Naturdenkmal, doch ihren Eintrag im Register der Stadt haben wir nicht gefunden.\n\nDieser Eintrag würde uns den Rest verraten. Niemand, den wir finden konnten, hat ihren Umfang, ihr Alter oder auch nur ihre Eichenart veröffentlicht, ihre Jahrhunderte sind also ein örtlicher Ruf und keine Messung. Ein Leser hat sie uns geschickt. Wenn Sie ein Maßband um sie gelegt haben oder ihre Registernummer kennen, sagen Sie es uns, und wir ergänzen es.\n\nDie Waldwege auf den Heiligenberg werden nach Regen rutschig.",
    "how_to_recognise": "Sie erkennen sie am hohlen, spiralig gewachsenen Stamm. Sie steht an einer Kreuzung von Waldwegen am Heiligenberg über Handschuhsheim, neben einem Heidelberger Wegweiserstein."
+  },
+  "hei_010": {
+   "name": "Die Eiche am Drachenhöhlenweg",
+   "species": "Eiche (Quercus sp.)",
+   "age_estimate": "etwa 200 Jahre, nach Schätzung eines Lesers",
+   "access": "Frei, an einem Waldweg im Heidelberger Stadtwald über Schlierbach. Nach Regen festes Schuhwerk.",
+   "story": "Ein Leser, der im November durch den Wald über Schlierbach am östlichen Rand Heidelbergs ging, blieb an dieser Eiche am Mittleren Drachenhöhlenweg stehen und schickte uns ihr Foto.\n\nSie ist die Art Baum, die ein Wald behält, während er den Rest kommen und gehen lässt. Buchen drängen sich auf beiden Seiten des Wegs, ihr Laub kupferfarben, und die Eiche steigt auf einem dunklen, geraden Stamm durch sie hindurch, der lange frei läuft, bevor er sich zu einer hohen Krone aus krummen schwarzen Ästen öffnet, an denen vor dem blauen Himmel noch ein paar braune Blätter hängen. An ihrem Fuß steht ein kleines Schild auf einem Pfosten, jemand hielt sie also für markierenswert.\n\nDer Leser schätzt sie auf etwa 200 Jahre. Diese Zahl ist seine; wir haben noch keinen Umfang, keinen Registereintrag und keine schriftliche Quelle, und wir wissen nicht, welche Eiche es ist, Stiel- oder Traubeneiche. Wenn Sie das Schild lesen, den Stamm messen oder die beiden Eichen an den Eichelstielen unterscheiden können, sagen Sie es uns hier, und wir ergänzen es.\n\nGehen Sie ein Stück an ihr vorbei und schauen Sie zurück, dort steht der Stamm am klarsten vor den Buchen.",
+   "how_to_recognise": "Am Waldweg: eine einzelne hohe Eiche mit dunklem, geradem Stamm, der frei über die Buchen ringsum hinauswächst, an ihrem Fuß ein kleines Schild auf einem Pfosten."
   }
  }
 }

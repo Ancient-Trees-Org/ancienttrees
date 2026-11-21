@@ -2,7 +2,7 @@
   "city": "Heidelberg",
   "country": "Germany",
   "status": "needs_curation",
-  "intro": "Heidelberg protects seven designated trees, from a hollow, cable-strapped linden by the funicular's upper station to horse chestnuts on the way up to the castle and a pair of oaks above Ziegelhausen. Up in the city forest stand two more, a champion giant sequoia in the arboretum and a hollow, spiral-grown oak on the Heiligenberg. Most carry no recorded age, and this page says so rather than guessing. The Molkenkur Linden comes closest, put at roughly 200 years by the local paper. All nine are free to visit, and eight of the nine pins are approximate.",
+  "intro": "Heidelberg protects seven designated trees, from a hollow, cable-strapped linden by the funicular's upper station to horse chestnuts on the way up to the castle and a pair of oaks above Ziegelhausen. Up in the city forest stand two more, a champion giant sequoia in the arboretum and a hollow, spiral-grown oak on the Heiligenberg, and a reader sent us a tall oak on a forest track above Schlierbach. The Molkenkur Linden comes closest, put at roughly 200 years by the local paper. All ten are free to visit, and eight of the ten pins are approximate.",
   "meta_description": "Heidelberg's ancient trees: a hollow, cable-strapped linden above the castle, horse chestnuts, a rare hybrid linden, oaks and more. All free.",
   "question_meta": "Heidelberg's best-documented old tree is the Molkenkur Linden above the castle, put at roughly 200 years by the local paper. Where it stands.",
   "question_answer": "The closest thing to a documented age among Heidelberg's designated trees belongs to the Molkenkur Linden, hollow inside and held together with cables, put at roughly 200 years by the Rhein-Neckar-Zeitung. It stands at the Molkenkur viewpoint above Heidelberg Castle. The other six designated trees on this page carry no recorded age at all, only the date they were designated a natural monument.",
@@ -20,11 +20,11 @@
     },
     {
       "q": "Are the pins for these trees exact?",
-      "a": "Eight of the nine are approximate, so expect the right street, garden or stretch of forest path rather than the exact spot."
+      "a": "Eight of the ten are approximate, so expect the right street, garden or stretch of forest path rather than the exact spot."
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes. Six stand on open public ground: a viewpoint, a castle garden, streets and a tram stop. The Münchelstrasse oaks stand on or beside a public forest track above Ziegelhausen; keep to the track. The arboretum sequoia and the Holdermann Oak are on open paths in the city forest. No ticket needed for any of them, though the castle courtyard itself is separately ticketed."
+      "a": "Yes. Six stand on open public ground: a viewpoint, a castle garden, streets and a tram stop. The Münchelstrasse oaks stand on or beside a public forest track above Ziegelhausen; keep to the track. The arboretum sequoia, the Holdermann Oak and the oak on the Drachenhöhlenweg are on open paths in the city forest. No ticket needed for any of them, though the castle courtyard itself is separately ticketed."
     }
   ],
   "trees": [
@@ -369,6 +369,53 @@
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-20 verify and write: reader's tip 1063. Flagged, thin: no official register entry, no girth, age or species found. Existence from three independent mentions: OSM node 1879169245 (denotation=natural_monument, note citing the city's signpost stone list), komoot highlight 142249 and tour 29264, and a regional history PDF (BLB Karlsruhe) placing a skirmish between Prussian troops and the Volkswehr at the Holdermannseiche on 1849-06-21. The 1764 suicide anecdote comes from a komoot user and is told on the page as a retelling. Alive: lifecheck RECENT 2026-04-26 (iNaturalist near the pin, not confirmed to be this trunk); komoot 2017-18 describe the hollow spiral trunk. Species left as genus. Pin approximate (OSM node)."
+    },
+    {
+      "id": "hei_010",
+      "name": "The Oak on the Drachenhöhlenweg",
+      "species": "Oak (Quercus sp.)",
+      "age_estimate": "about 200 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Mittlerer Drachenhöhlenweg, city forest above Schlierbach, Heidelberg",
+        "latitude": 49.393725,
+        "longitude": 8.764405,
+        "neighbourhood": "Schlierbach"
+      },
+      "how_to_recognise": "Beside the forest track: a single tall oak with a dark, straight trunk rising clear of the beeches around it, a small sign on a post at its foot.",
+      "access": "Free, beside a forest track in the Heidelberg city forest above Schlierbach. Stout shoes after rain.",
+      "story": "A reader walking the forest above Schlierbach, on Heidelberg's eastern edge, stopped at this oak on the Mittlerer Drachenhöhlenweg in November and sent us its photograph.\n\nIt is the kind of tree a forest keeps when it lets the rest come and go. Beeches crowd in on both sides of the track, their leaves gone copper, and the oak rises through them on a dark, straight trunk that runs clear for a long way before it opens into a high crown of crooked black limbs, still holding a scatter of brown leaves against the blue sky. At its foot a small sign stands on a post, so someone has thought it worth marking.\n\nThe reader puts it at about 200 years. That figure is theirs; we have no girth, no register entry and no written record of it yet, and we do not know which oak it is, pedunculate or sessile. If you can read the sign, measure the trunk or tell the two oaks apart by the acorn stalks, tell us here and we will add it.\n\nWalk on past it a little way and look back, where the trunk stands clearest against the beeches.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995), photo location in the file. Photograph viewed: a tall oak standing straight beside a forest track among beeches in copper autumn leaf, a small sign at its foot, blue sky, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Oak in Heidelberg', species 'Oak', age '200'. Every figure on the page is stated as theirs; no register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hei_010-oak-on-the-drachenhoehlenweg.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_84b0a53f820e2574ec877490",
+        "sighting_id": "ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: a tall oak standing straight beside a forest track among beeches in copper autumn leaf, a small sign at its foot, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

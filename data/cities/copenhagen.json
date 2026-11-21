@@ -510,13 +510,17 @@
       "access": "Free, open access; Frederiksberg Have is a public park, protected (fredet) under Danish nature conservation law",
       "transport": "Frederiksberg Alle metro station (M1/M2/M3), roughly 10-15 minute walk via Frederiksberg Runddel, the garden's main entrance",
       "photo": {
-        "url": "https://www.dendron.dk/dtr/photos/Eg_Frederiksberg_Have_HEL_MG_2866.JPG",
-        "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
-        "attribution": "Hans Erik Lund",
+        "url": "https://ancienttrees.app/photos/cop_010-the-pedunculate-oak-of-frederiksberg-have-dda08364.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1000,
-        "height": 1500,
-        "note": "Photographed by Hans Erik Lund, who runs the Dansk Traeregister, and given to us by mail on 2026-09-20 in answer to our own request: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Looked at before approving on 2026-09-23. The whole tree in leaf, trunk and crown both readable, daylight, path for scale. photo_light OK. Danish Tree Register id 839."
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "dda08364-04c1-4679-8441-6a8154e559c8",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The whole oak from the lawn, its stout single trunk forking into a broad bare crown, autumn leaves on the grass and a park path behind it; daylight, colour, 27 m from our pin. Species seen: deeply furrowed grey oak bark, crooked oak branching, oak leaves on the ground; leafless in November. Fits the description: a big lone oak with room on every side on an open lawn in a landscape park, much taller and thicker than the trees around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -534,7 +538,18 @@
       "official_register": {
         "name": "Dansk Traeregister (Dansk Dendrologisk Forening), no. 839",
         "url": "https://www.dendron.dk/dtr/detaljer.asp?Individual_id=839"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://www.dendron.dk/dtr/photos/Eg_Frederiksberg_Have_HEL_MG_2866.JPG",
+          "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
+          "attribution": "Hans Erik Lund",
+          "status": "approved",
+          "width": 1000,
+          "height": 1500,
+          "note": "Photographed by Hans Erik Lund, who runs the Dansk Traeregister, and given to us by mail on 2026-09-20 in answer to our own request: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Looked at before approving on 2026-09-23. The whole tree in leaf, trunk and crown both readable, daylight, path for scale. photo_light OK. Danish Tree Register id 839."
+        }
+      ]
     },
     {
       "id": "cop_011",

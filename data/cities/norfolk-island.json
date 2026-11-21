@@ -1,0 +1,91 @@
+{
+  "city": "Norfolk Island",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Norfolk Island is a small volcanic island in the South Pacific, an Australian territory between New Caledonia and New Zealand, best known for the tall pines named after it. By St Barnabas Chapel grows a fig whose buttress roots spread across the grass like walls, under a crown of many pale stems. A reader sent us its photographs and calls it a white fig, about 150 years old.",
+  "meta_description": "The fig by St Barnabas Chapel on Norfolk Island, its buttress roots spread like walls: what a reader told us about it and how to find it.",
+  "hero_tree_id": "nfk_001",
+  "oldest_tree_id": "nfk_001",
+  "trees": [
+    {
+      "id": "nfk_001",
+      "name": "The Fig of St Barnabas Chapel",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Grounds of St Barnabas Chapel, Douglas Drive, Norfolk Island",
+        "latitude": -29.0341055,
+        "longitude": 167.928436666667,
+        "neighbourhood": "Burnt Pine"
+      },
+      "how_to_recognise": "On the grass by St Barnabas Chapel: a fig whose roots run out in tall, ribbed, lichen-pale buttresses on every side, under a crown of many pale stems spreading far over the lawn.",
+      "access": "In the grounds of St Barnabas Chapel on Douglas Drive, where the reader walked up to it. Visit quietly and keep clear of services.",
+      "story": "\"This glorious White Fig can be found at Saint Barnabas' church on Norfolk Island,\" wrote the reader who sent us this tree from the small Pacific island halfway between Australia and New Zealand.\n\nThe photographs show why they stopped. The roots do not go into the ground so much as pour across it, in tall ribbed buttresses grey with lichen, curving out on every side like the walls of a stone chapel of their own. Out of them a dozen pale stems climb into a crown that spreads far over the grass, and the two visitors standing at its edge come up to barely a third of the height of the buttresses.\n\nThe reader calls it a white fig and puts it at about 150 years. Both are theirs; we have no measurement of it and have not confirmed the species, so tell us if you know which fig it is.\n\nThey also left a tip for anyone who comes: \"While there you can see the magnificent Morton Bay Figs in the nearby 100 Acre Wood and the abundant Norfolk Pines.\"\n\nWalk all the way round the trunk, between the buttresses, and look up through the stems.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf), photo location in the file. Photograph viewed: the whole fig from its foot, great ribbed buttress roots spreading over the grass, many pale stems into a wide crown, two visitors small beside it; a second photograph shows the full spread of the buttresses with two people standing between the stems; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Moreton Bay Fig', species 'Moreton Bay Fig', age '150 years'. Every figure on the page is stated as theirs; no register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nfk_001-fig-of-st-barnabas-chapel.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 6,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+        "sighting_id": "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: the whole fig from its foot, great ribbed buttress roots spreading over the grass, many pale stems into a wide crown, two visitors small beside it; a second photograph shows the full spread of the buttresses with two people standing between the stems; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nfk_001-fig-of-st-barnabas-chapel-3fb92f89.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "taken_month_basis": "the photograph's own date",
+          "source": "contributor",
+          "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+          "sighting_id": "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: the whole fig from its foot, great ribbed buttress roots spreading over the grass, many pale stems into a wide crown, two visitors small beside it; a second photograph shows the full spread of the buttresses with two people standing between the stems; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The fig by St Barnabas Chapel on Norfolk Island, about 150 years old by a reader's estimate: where it stands and what we know.",
+  "question_answer": "The Fig of St Barnabas Chapel stands in the grounds of the chapel on Douglas Drive, Norfolk Island. A reader who sent us its photographs puts it at about 150 years old; no register or measurement we have seen gives its age.",
+  "question_context": "A reader sent us this fig from the grounds of St Barnabas Chapel on Norfolk Island, the small Australian territory in the South Pacific between New Caledonia and New Zealand. They call it a white fig and put it at about 150 years old. Both are the reader's figures: we have seen no register entry, no measurement and no written record of when it was planted, and we have not confirmed which fig it is. What the photographs show is a tree worth the walk. Its roots spread across the grass in tall, ribbed buttresses grey with lichen, and from them a dozen pale stems climb into a crown that reaches far over the lawn, with two visitors standing small at its foot. The same reader points anyone who comes to the Moreton Bay figs of the nearby 100 Acre Wood and to the island's Norfolk pines. If you know the tree's history, its girth or its species, tell us and we will add it.",
+  "faq": [
+    {
+      "q": "Where is the fig at St Barnabas Chapel?",
+      "a": "In the grounds of St Barnabas Chapel on Douglas Drive, Norfolk Island. Look for the buttress roots spreading over the grass beside the chapel."
+    },
+    {
+      "q": "How old is the fig at St Barnabas Chapel?",
+      "a": "About 150 years, by the estimate of the reader who sent it to us. We have no register or measurement that dates it."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes, it stands in the chapel grounds, where the reader walked up to it. Visit quietly and keep clear of services."
+    }
+  ]
+}

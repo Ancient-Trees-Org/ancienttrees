@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a fig on Norfolk Island and an oak above Heidelberg go live; a Castlemaine ambassador
+
+- New place, **Norfolk Island** (norfolk-island/nfk_001, the Fig of St Barnabas Chapel). A reader sent two photographs of the fig: tall ribbed buttress roots spread over the grass, two visitors small beside it. It has a confirmed pin from the photo location, and their note and their tip about the 100 Acre Wood are quoted. The reader calls it a white fig but named it Moreton Bay fig, so the species is "Fig (Ficus sp.)" and the page asks readers. Age ~150 years is the reader's estimate. Filed under June (the photo's own date).
+- **Heidelberg** now has ten trees: hei_010, the Oak on the Drachenhöhlenweg, a tall oak among autumn beeches on a forest track above Schlierbach. It has a small sign at its foot and a confirmed pin. The species is "Oak (Quercus sp.)", asked on the page, and ~200 years is the reader's estimate. The English and German intro, title and FAQ counts are updated, and the German overlay has the tree.
+- **Copenhagen** cop_010, the Pedunculate Oak of Frederiksberg Have: a reader's bare November photograph of the whole open-grown oak is now the lead. The old lead moved to the strip.
+- **Mail reply 1362**: the Norfolk fig's sender, invited for Castlemaine, said yes. Badge granted (ambassador.py --grant, castlemaine). They also offered to cover Central Victoria (Ballarat, Bendigo, Maryborough, Daylesford, Kyneton), none of which is on the map. That is closed `needs_hidde`, with a suggested answer in drafts/reply-reader-1362-2026-11-21.md.
+- No open reports. 3c544597 (Amsterdam, our own account, "not sure which" with ams_032) still has no photo on this runner, so it is left for a run that has the file.
+
 ## 2026-11-21 reader judge: the Beech by the Boat Trip gets its first photograph (Copenhagen)
 
 - copenhagen/cop_009, the Beech by the Boat Trip, has its first photograph. A reader's wide autumn shot of the Frederiksberg Have jetty and boat hut shows the big tree standing over them, exactly where the recognition line puts it. It is filed under November.

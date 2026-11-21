@@ -8718,6 +8718,74 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "athens/ath_013"
+  },
+  {
+   "sighting_id": "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+   "user_id": "p_5ad3b6676edab0c30c98329c",
+   "mine": false,
+   "name": "Moreton Bay Fig",
+   "unsure_among": null,
+   "species": "Moreton Bay Fig",
+   "age": "150 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "This glorious White Fig can be found at Saint Barnabas’ church on Norfolk Island.\nWhile there you can see the magnificent Morton Bay Figs in the nearby 100 Acre Wood and the abundant Norfolk Pines.",
+   "latitude": -29.0341055,
+   "longitude": 167.928436666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 6,
+   "photo": "p_5ad3b6676edab0c30c98329c/3FB92F89-3FEC-4C52-BF64-9D8DFDCC08CF.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole fig from its foot, great ribbed buttress roots spreading over the grass, many pale stems into a wide crown, two visitors small beside it; a second photograph shows the full spread of the buttresses with two people standing between the stems; daylight, colour. Live as norfolk-island/nfk_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "norfolk-island/nfk_001"
+  },
+  {
+   "sighting_id": "ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
+   "user_id": "p_84b0a53f820e2574ec877490",
+   "mine": false,
+   "name": "Oak in Heidelberg",
+   "unsure_among": null,
+   "species": "Oak",
+   "age": "200",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 49.393725,
+   "longitude": 8.764405,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_84b0a53f820e2574ec877490/CE8ED8FD-2125-4C9A-AE9A-9CC6B2AD0995.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: a tall oak standing straight beside a forest track among beeches in copper autumn leaf, a small sign at its foot, blue sky, daylight, colour. Live as heidelberg/hei_010 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "heidelberg/hei_010"
   }
  ]
 }

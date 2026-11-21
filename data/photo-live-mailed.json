@@ -396,6 +396,15 @@
      "city_slug": "copenhagen",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "dda08364-04c1-4679-8441-6a8154e559c8",
+     "tree_id": "cop_010",
+     "tree_name": "The Pedunculate Oak of Frederiksberg Have",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [

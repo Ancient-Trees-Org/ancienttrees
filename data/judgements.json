@@ -529,6 +529,142 @@
    "agreed": null
   },
   {
+   "id": "sight:f01add8b-dd50-44f7-aafa-ca85190b2fff",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Ombu of the National Garden",
+   "photo": "p_1d47e3a4246db671958cd9a8/F01ADD8B-DD50-44F7-AAFA-CA85190B2FFF.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the swollen grey base of a huge ombu poured over the paving, a cluster of trunks rising from it, a marble pavilion beside it, daylight, colour. Lead photograph of athens/ath_013.",
+   "city": "Athens",
+   "species": "Ombu (Phytolacca dioica)"
+  },
+  {
+   "id": "sight:a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Søndermarken Oak",
+   "city": "Copenhagen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/a04c40d2-ceaf-48c1-bc57-9907a4f68daa.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 40,
+   "current_photo": "found_needs_check",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Søndermarken Oak bare on its open lawn, 40 m from our pin; our old photo was never approved, so the reader's leads.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:679b77fd-5c9c-45a9-aba0-4b93f760ee78",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Beech by the Boat Trip",
+   "city": "Copenhagen",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/679b77fd-5c9c-45a9-aba0-4b93f760ee78.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 66,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The jetty and boat hut in Frederiksberg Have with the big tree standing over them, as the recognition line says; the first photograph this beech has, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:dda08364-04c1-4679-8441-6a8154e559c8",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Pedunculate Oak of Frederiksberg Have",
+   "city": "Copenhagen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/dda08364-04c1-4679-8441-6a8154e559c8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 27,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole oak bare on an open lawn beside a park path, oak bark and branching, fits the open-grown 4.95 m oak; now the lead photograph of copenhagen/cop_010.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Moreton Bay Fig",
+   "city": null,
+   "species": "Moreton Bay Fig",
+   "photo": "p_5ad3b6676edab0c30c98329c/3FB92F89-3FEC-4C52-BF64-9D8DFDCC08CF.jpg",
+   "reader_note": "This glorious White Fig can be found at Saint Barnabas’ church on Norfolk Island.\nWhile there you can see the magnificent Morton Bay Figs in the nearby 100 Acre Wood and the abundant Norfolk Pines.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a spectacular fig with tall ribbed buttress roots by St Barnabas Chapel, photo location in the file; live as norfolk-island/nfk_001, species asked of readers (the reader names both white fig and Moreton Bay fig).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Oak in Heidelberg",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_84b0a53f820e2574ec877490/CE8ED8FD-2125-4C9A-AE9A-9CC6B2AD0995.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall straight oak rising through autumn beeches on a forest track above Schlierbach, a sign at its foot, photo location in the file; live as heidelberg/hei_010, oak species asked of readers.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -21045,62 +21181,38 @@
    "agreed": null
   },
   {
-   "id": "sight:f01add8b-dd50-44f7-aafa-ca85190b2fff",
+   "id": "sight:ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995",
    "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Ombu of the National Garden",
-   "photo": "p_1d47e3a4246db671958cd9a8/F01ADD8B-DD50-44F7-AAFA-CA85190B2FFF.jpg",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak on the Drachenhöhlenweg",
+   "city": "Heidelberg",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/ce8ed8fd-2125-4c9a-ae9a-9cc6b2ad0995.jpg",
    "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "this tree, the lead photograph of heidelberg/hei_010 (looked at the photograph, 2026-11-21)",
    "hidde": null,
    "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: the swollen grey base of a huge ombu poured over the paving, a cluster of trunks rising from it, a marble pavilion beside it, daylight, colour. Lead photograph of athens/ath_013.",
-   "city": "Athens",
-   "species": "Ombu (Phytolacca dioica)"
+   "shown": []
   },
   {
-   "id": "sight:a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+   "id": "sight:3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf",
    "seen": "2026-11-21",
    "kind": "photo of a tree we map",
-   "tree": "The Søndermarken Oak",
-   "city": "Copenhagen",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "photo": "out/sightings/a04c40d2-ceaf-48c1-bc57-9907a4f68daa.jpg",
-   "reader_note": "",
+   "tree": "The Fig of St Barnabas Chapel",
+   "city": "Norfolk Island",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf.jpg",
+   "reader_note": "This glorious White Fig can be found at Saint Barnabas’ church on Norfolk Island.",
    "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 40,
-   "current_photo": "found_needs_check",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
-   },
+   "measure": null,
    "verdict": "publish",
-   "reason": "The Søndermarken Oak bare on its open lawn, 40 m from our pin; our old photo was never approved, so the reader's leads.",
+   "reason": "this tree, the lead and strip photographs of norfolk-island/nfk_001 (looked at both photographs, 2026-11-21)",
    "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:679b77fd-5c9c-45a9-aba0-4b93f760ee78",
-   "seen": "2026-11-21",
-   "kind": "photo of a tree we map",
-   "tree": "The Beech by the Boat Trip",
-   "city": "Copenhagen",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": "out/sightings/679b77fd-5c9c-45a9-aba0-4b93f760ee78.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 66,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Beech (Fagus sylvatica)"
-   },
-   "verdict": "publish",
-   "reason": "The jetty and boat hut in Frederiksberg Have with the big tree standing over them, as the recognition line says; the first photograph this beech has, now its lead.",
-   "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": []
   }
  ]
 }
