@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-20T18:15Z",
+  "synced": "2026-11-21T08:26Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,15 +20,6 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "braga",
-      "place_name": "Braga",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -53,6 +44,15 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "vales",
       "place_name": "Vales",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "braga",
+      "place_name": "Braga",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -131,12 +131,12 @@
       "profile_public": true
     },
     {
-      "user_id": "003fead1-db2b-4f48-adef-4d7a14eb9a9d",
-      "place_slug": "toronto",
-      "place_name": "Toronto",
+      "user_id": "88440c17-61af-4607-a533-7ff50753d1be",
+      "place_slug": "colchester",
+      "place_name": "Colchester",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "Cher T.",
+      "display_name": "Laura T.",
       "profile_public": true
     },
     {
@@ -149,12 +149,12 @@
       "profile_public": true
     },
     {
-      "user_id": "88440c17-61af-4607-a533-7ff50753d1be",
-      "place_slug": "colchester",
-      "place_name": "Colchester",
+      "user_id": "003fead1-db2b-4f48-adef-4d7a14eb9a9d",
+      "place_slug": "toronto",
+      "place_name": "Toronto",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "Laura T.",
+      "display_name": "Cher T.",
       "profile_public": true
     },
     {
@@ -281,6 +281,15 @@
       "public": true,
       "since": "2026-11-20",
       "display_name": "Kathryn T",
+      "profile_public": true
+    },
+    {
+      "user_id": "288df7e0-e991-4bce-98ba-14debec1cce5",
+      "place_slug": "istanbul",
+      "place_name": "Istanbul",
+      "public": true,
+      "since": "2026-11-21",
+      "display_name": "Nick H.",
       "profile_public": true
     },
     {
@@ -1853,6 +1862,13 @@
       "place_slug": "stratford-upon-avon",
       "place_name": "Stratford-upon-Avon",
       "date": "2026-11-20"
+    },
+    {
+      "row": 1352,
+      "user_id": "p_4f64496a1aa7d576bbdb483e",
+      "place_slug": "istanbul",
+      "place_name": "Istanbul",
+      "date": "2026-11-21"
     }
   ],
   "told": {
