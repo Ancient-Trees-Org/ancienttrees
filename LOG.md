@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: four reader views of the Ankerwycke Yew go in its strip
+
+- **runnymede/ank_001, The Ankerwycke Yew**: one reader sent four photographs from January 2022. All four were taken 16 to 31 m from our pin, and each shows yew bark and sprays. They show the whole split hollow trunk (backlit), the burred lower trunk with a cloth ribbon, a bark close-up going up the trunk, and a view into the hollow. All four are in the gallery behind the current lead, which is another reader's photo of the whole tree in May and the stronger frame. They are filed as winter (`taken_month` 1). The reader got the "on the page" mail (sent with `--send`). The pin catch-up step could not read coordinates (HTTPError). The pin is unchanged and needs nothing.
+- Nothing else was waiting: no open reports, tips without a photograph, feedback or reader notes. The 37 older own-account leads (Japan, Tokyo, Baarn) and 3c544597 still have no photograph on disk, so they were left alone again.
+
 ## 2026-11-21 reader judge: Rome's Piazza Vittorio podocarp gets its first photograph
 
 - **rome/rom_019, The Podocarp of Piazza Vittorio**: a reader's photograph (08d9dca8) shows the whole tree in daylight. It has a dense crown of narrow podocarp leaves, and the garden's railings and autumn plane trees are around it. This is the tree's first photo, so it is now the lead, with `taken_month` 11 from the photo's own date. The reader got the "on the page" mail. With a reader's photo the page now counts as indexable, so preflight's colon-reveal check caught the story's first sentence ("for one reason: it should not be here"). That sentence is rewritten in English and in the Italian overlay.

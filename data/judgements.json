@@ -221,6 +221,94 @@
    "agreed": null
   },
   {
+   "id": "sight:218adf66-34a0-4da0-8d01-c2cd2e63788b",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/218adf66-34a0-4da0-8d01-c2cd2e63788b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Inside the Ankerwycke Yew's hollow: twisted inner stems within the shell, the decay from the middle the story describes. Into the strip behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e843e619-7414-4576-aca6-58a3dc6f5668",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/e843e619-7414-4576-aca6-58a3dc6f5668.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 22,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "The Ankerwycke Yew's lower trunk in winter sun, burred and fluted, a cloth ribbon tied on it; a visitor's arm at the edge, no face. Into the strip behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7a13092f-31be-4a43-8aa7-0f12693c611a",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/7a13092f-31be-4a43-8aa7-0f12693c611a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 16,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "Close view up the Ankerwycke Yew's fluted trunk, purple-red scaling yew bark, GPS 16 m from our pin. Into the strip behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ccbebb84-c500-4f3a-a769-10ad14a2f0c3",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Ankerwycke Yew",
+   "city": "Runnymede",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/ccbebb84-c500-4f3a-a769-10ad14a2f0c3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 9,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "The Ankerwycke Yew whole, backlit, the hollow trunk split in two; yew sprays and fluted red bark, GPS 31 m or less from our pin. Into the strip behind the stronger reader lead, January 2022 (winter).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
