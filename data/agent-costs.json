@@ -2,6 +2,7 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-21": [
+      {"date": "2026-11-21", "kind": "verify", "target": "spokane", "tokens": 87221, "trees": 0, "note": "dry: every register lead already live; Reid Family Tree is a private-residence maple with no second source, left as lead"},
       {"date": "2026-11-21", "kind": "verify", "target": "birmingham", "tokens": 74029, "trees": 0, "note": "twelfth dry pass; one blog-only Cannon Hill oak lead added; no named body or coordinates; cft_001 stays held (Woodland Trust source)"},
       {"date": "2026-11-21", "kind": "session", "target": "york", "tokens": 0, "trees": 1, "note": "reader's Minster Beech (yor_007) folded with the ambassador's Minster Yard Beech lead"}
     ],
