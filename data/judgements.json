@@ -21213,6 +21213,94 @@
    "hidde": null,
    "agreed": null,
    "shown": []
+  },
+  {
+   "id": "sight:e4cf0655-44e5-40db-95e3-89aebe9564ff",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Ginkgo of Bodaiji",
+   "city": "Nagi",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/e4cf0655-44e5-40db-95e3-89aebe9564ff.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 27,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the great ginkgo itself, multi-stemmed with hanging chichi and a stone marker at its foot, 27 m from our pin; the tree had no photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ca38515b-5cfe-4ffd-8287-3a9de66bef46",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Catalpa of Haveselskabets Have",
+   "city": "Copenhagen",
+   "species": "Southern Catalpa (Catalpa bignonioides)",
+   "photo": "out/sightings/ca38515b-5cfe-4ffd-8287-3a9de66bef46.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Catalpa (Catalpa bignonioides)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the low-forking catalpa with its heart-shaped leaves by the garden signpost, 12 m from our pin; the reader's photograph now leads, the old one moves into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b40ceb87-e4e0-4441-8c93-32d663a7cc50",
+   "seen": "2026-11-21",
+   "kind": "a reader's photograph leading the tree it added",
+   "tree": "The Plane by the Mercat del Lleó",
+   "city": "Girona",
+   "species": "London Plane",
+   "photo": "out/sightings/b40ceb87-e4e0-4441-8c93-32d663a7cc50.jpg",
+   "reader_note": "Beautiful large and old plane with a wide canopy next to Mercat Lleo.",
+   "reader_girth_cm": 350,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the plane in its cobbled ring by the Mercat del Lleó, looking up into the crown, daylight; lead photograph of girona/gir_008.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b40ceb87-e4e0-4441-8c93-32d663a7cc50",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "London Plane near Girona",
+   "city": null,
+   "species": "London Plane",
+   "photo": "p_be126bb947b306af45801aa8/B40CEB87-E4E0-4441-8C93-32D663A7CC50.jpg",
+   "reader_note": "Beautiful large and old plane with a wide canopy next to Mercat Lleo.",
+   "reader_girth_cm": 350,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.684,
+    "via": "girth",
+    "note": "68% of the genus reference (512 cm, n=2, max 512)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big London plane in a cobbled ring on the square by the Mercat del Lleó, device GPS at the tree. Live as girona/gir_008, the reader's 350 cm girth stated as theirs.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

@@ -405,6 +405,15 @@
      "city_slug": "copenhagen",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "ca38515b-5cfe-4ffd-8287-3a9de66bef46",
+     "tree_id": "cop_035",
+     "tree_name": "The Catalpa of Haveselskabets Have",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [
@@ -2690,6 +2699,21 @@
      "tree_name": "The Holm Oak of the National Garden",
      "city": "Athens",
      "city_slug": "athens",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
+  },
+  "p_52c62076d46304de372415fd": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e4cf0655-44e5-40db-95e3-89aebe9564ff",
+     "tree_id": "ngi_001",
+     "tree_name": "The Great Ginkgo of Bodaiji",
+     "city": "Nagi",
+     "city_slug": "nagi",
      "display_name": null,
      "live": "2026-11-21"
     }

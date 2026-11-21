@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: Girona's first tree in the city itself, the Nagi ginkgo's first photograph, a reader's catalpa
+
+- **girona/gir_008, The Plane by the Mercat del Lleó** (new, closed list): a big London plane in a cobbled ring on the square beside the market, with vans around it. The pin is the reader's device GPS, so confirmed, and the photo is filed under November from its own date. The reader's note is quoted and their 350 cm girth stated as theirs. It is the first tree in Girona itself, so the intro no longer says "None of these trees is in Girona". The title and FAQ counts went from seven to eight, in English and in the es overlay, which has the tree.
+- **nagi/ngi_001, the Great Ginkgo of Bodaiji**: first photograph, a reader's view up the giant with its hanging chichi and stone marker, 27 m from our pin. The colon reveal in its story ("two others nearby: one at...") is now two sentences; preflight flagged it once the page had a photograph.
+- **copenhagen/cop_035, the Catalpa of Haveselskabets Have**: a reader's photograph (heart-shaped leaves, the low fork, the garden's signpost) now leads, and the dendron.dk photo moves into the strip.
+- This run also judged the Heidelberg oak, the Norfolk fig, the Frederiksberg oak and mail reply 1362. The parallel run's versions (entry below) reached main first and stand; only the three above were added on top. Both photo readers are in the pending mail bundle.
+
 ## 2026-11-21 reader judge: a fig on Norfolk Island and an oak above Heidelberg go live; a Castlemaine ambassador
 
 - New place, **Norfolk Island** (norfolk-island/nfk_001, the Fig of St Barnabas Chapel). A reader sent two photographs of the fig: tall ribbed buttress roots spread over the grass, two visitors small beside it. It has a confirmed pin from the photo location, and their note and their tip about the 100 Acre Wood are quoted. The reader calls it a white fig but named it Moreton Bay fig, so the species is "Fig (Ficus sp.)" and the page asks readers. Age ~150 years is the reader's estimate. Filed under June (the photo's own date).

@@ -6080,6 +6080,32 @@
    "lat": 55.6760666666667,
    "lon": 12.5205866666667,
    "pin_checked": "2026-11-21"
+  },
+  "e4cf0655-44e5-40db-95e3-89aebe9564ff": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "ngi_001",
+   "city_slug": "nagi",
+   "file": "ngi_001-the-great-ginkgo-of-bodaiji.jpg",
+   "reason": "The Great Ginkgo itself, looking up into the crown: a vast multi-stemmed trunk with hanging chichi (aerial burrs), a long horizontal limb on posts and a stone marker at its foot. Daylight, colour. Closes the gap: the tree had no photograph. Species seen: fan-shaped ginkgo leaves, fresh green turning",
+   "lat": 35.1560861666667,
+   "lon": 134.203596666667,
+   "pin_checked": "2026-11-21"
+  },
+  "ca38515b-5cfe-4ffd-8287-3a9de66bef46": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "cop_035",
+   "city_slug": "copenhagen",
+   "file": "cop_035-the-catalpa-of-haveselskabets-have-ca38515b.jpg",
+   "reason": "The catalpa beside a garden path with the garden's own signpost (Gruspladsen, Brøndsalen, Paradehuset) under it. Daylight, colour. Species seen: huge heart-shaped leaves, low-forking crooked trunk. Fits the description: trunk forking low into two leaning stems, inside the Horticultural Society's gar",
+   "lat": 55.674555,
+   "lon": 12.531255,
+   "pin_checked": "2026-11-21"
+  },
+  "b40ceb87-e4e0-4441-8c93-32d663a7cc50": {
+   "outcome": "published",
+   "date": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

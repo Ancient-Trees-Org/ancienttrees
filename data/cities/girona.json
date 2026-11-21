@@ -2,7 +2,7 @@
   "city": "Girona",
   "country": "Spain",
   "status": "needs_curation",
-  "intro": "None of these trees is in Girona. The city's own great planting is the Devesa, an avenue of some two thousand five hundred plane trees that are among the tallest in Catalonia, and because they are a grove rather than individuals none of them is on the regional register. What is on it stands in the hills within half an hour's drive: a sessile oak of 38 metres, a chestnut nine metres round behind a hermitage, and two Mediterranean shrubs, a mastic and a strawberry tree, that have been left alone so long they have turned into trees.",
+  "intro": "Only one of these trees stands in Girona itself: a big plane a reader sent us from the square beside the Mercat del Lleó. The city's great planting, the Devesa, is an avenue of some two thousand five hundred planes, and as a grove none of them is on the regional register. What is on it stands in the hills within half an hour's drive: a sessile oak of 38 metres, a chestnut nine metres round behind a hermitage, and a mastic and a strawberry tree left alone so long they have turned into trees.",
   "meta_description": "The monumental trees around Girona: a 38 metre oak, a chestnut nine metres round behind a hermitage, and a mastic shrub that grew into a tree.",
   "question_answer": "Nobody publishes ages for Catalonia's monumental trees, so the oldest around Girona cannot be named. The biggest by trunk is the sweet chestnut at the Pla de Sant Nicolau, 9.70 metres round, and the tallest is the sessile oak at Ca n'Iglesies in Osor, at 38.5 metres.",
   "question_meta": "Catalonia does not record tree ages, so Girona's oldest is unknown. What the register does measure, and 7 monumental trees within half an hour.",
@@ -23,11 +23,11 @@
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes, all seven. Four stand inside designated natural areas in the Guilleries and Rocacorba hills, one is beside a road junction, one beside a track, and one behind a hermitage. None charges anything."
+      "a": "Yes, all eight. Four stand inside designated natural areas in the Guilleries and Rocacorba hills, one is beside a road junction, one beside a track, and one behind a hermitage. The eighth, the plane by the Mercat del Lleó, stands on a city square. None charges anything."
     },
     {
       "q": "Can you walk between them?",
-      "a": "Two of them, yes: the oak and the pine at Ca n'Iglesies in Osor are about 480 metres apart in the same valley. The rest are separate stops between 16 and 25 kilometres from Girona in four different directions."
+      "a": "Two of them, yes: the oak and the pine at Ca n'Iglesies in Osor are about 480 metres apart in the same valley. The plane by the Mercat del Lleó is in the city itself. The rest are separate stops between 16 and 25 kilometres from Girona in four different directions."
     }
   ],
   "trees": [
@@ -290,6 +290,49 @@
       "location_precision": "confirmed",
       "notes": "Declared a Catalan monumental tree in 1990, also inside the EIN les Guilleries. Height 29 m, trunk perimeter 3.16 m, mean crown 16.5 m, condition normal, from the register. No age published. The 482 m separation from gir_001 is computed from the two register coordinates. A Commons photograph exists under the tree's own name and has not been checked.",
       "how_to_recognise": "You can recognise it by its height, 29 metres, unusual for a pine subspecies that normally favours dry limestone further west. It stands at L'Espinau, Osor."
+    },
+    {
+      "id": "gir_008",
+      "name": "The Plane by the Mercat del Lleó",
+      "species": "London Plane (Platanus x acerifolia)",
+      "location": {
+        "address": "Plaça de Francesc Calvet i Rubalcaba, beside the Mercat del Lleó, Girona",
+        "latitude": 41.9795969001347,
+        "longitude": 2.82333100164535,
+        "neighbourhood": "el Mercadal"
+      },
+      "how_to_recognise": "On the square beside the Mercat del Lleó: a single big plane in a ring of cobbles, its pale mottled trunk flaring at the base before it splits into five great limbs, with market vans parked around it in the morning.",
+      "access": "Free. On a public square beside the market, open at all hours.",
+      "story": "\"Beautiful large and old plane with a wide canopy next to Mercat Lleo,\" wrote the reader who sent us this tree from Girona.\n\nThe Mercat del Lleó is the city's covered food market in the Mercadal, and this plane stands on the square beside it, in a ring of cobbles laid in circles around its foot. The reader photographed it from close in, looking up. The trunk is the plane's pale patchwork of grey, cream and olive where old bark has flaked away, and it swells at the base like a bottle before splitting into five great limbs that reach out over the square. In November the crown was just turning, yellow among the green, and the market's delivery vans were parked all around it, crates stacked by their doors.\n\nThe reader measured its trunk at about 350 centimetres round. That is their figure; we have no age for it. If you know when the square was planted, tell us here.\n\nCome on a market morning and stand in the cobbled ring under the canopy.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b40ceb87-e4e0-4441-8c93-32d663a7cc50",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b40ceb87-e4e0-4441-8c93-32d663a7cc50",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (b40ceb87-e4e0-4441-8c93-32d663a7cc50, 2026-11-21, through the app). Photograph viewed: the whole plane from the foot of its trunk in a cobbled ring up into a wide crown just turning yellow, market vans parked around it, a tower block behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'London Plane near Girona', species 'London Plane', age 'None', girth 350 cm. Place named from OpenStreetMap at the pin. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gir_008-plane-by-the-mercat-del-lle.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_be126bb947b306af45801aa8",
+        "sighting_id": "b40ceb87-e4e0-4441-8c93-32d663a7cc50",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole plane from the foot of its trunk in a cobbled ring up into a wide crown just turning yellow, market vans parked around it, a tower block behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

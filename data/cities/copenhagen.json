@@ -1670,18 +1670,33 @@
       "story": "The catalpa is among the last trees in any garden to come into leaf, so for several weeks each spring it stands there looking dead while everything around it is green. Then it produces leaves the size of a hand, white foxglove-shaped flowers in midsummer, and long thin seed pods that hang on through the winter.\n\nThis one is just inside the entrance of Haveselskabets Have, the Danish Horticultural Society's garden in Frederiksberg, 2.17 metres round and 12 metres tall. It forks about two metres up and continues as a pair of limbs, which is the ordinary way a southern catalpa builds itself: wide rather than high, more umbrella than column.\n\nThe garden is free and open all year, roughly from six in the morning until somewhere between five and ten at night depending on the season, which makes this one of the easier trees on this list to get to. It is a couple of minutes from Frederiksberg Allé metro.\n\nOnly the register names the tree. The garden is well documented and this catalpa is not, beyond a survey in September 2023 that measured it and recorded it healthy. Nobody has dated it, and no age is guessed at here.",
       "how_to_recognise": "You can recognise it by the huge heart-shaped leaves and the long thin seed pods hanging from the crown, on a trunk that forks in two about two metres up. It stands just inside the garden entrance.",
       "photo": {
-        "url": "https://www.dendron.dk/dtr/photos/2023/Trompetkrone_Haveselsk_HEL_20230920_M4_6841.JPG",
-        "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
-        "attribution": "Hans Erik Lund",
+        "url": "https://ancienttrees.app/photos/cop_035-the-catalpa-of-haveselskabets-have-ca38515b.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2000,
-        "height": 1628,
-        "note": "Photographed by Hans Erik Lund of the Dansk Traeregister, given by mail on 2026-09-20: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Viewing pass 2026-09-23: The whole catalpa in fresh leaf against a blue sky with cloud, centred and filling the frame, forking at about two metres exactly as the register says. Big heart-shaped leaves and the open airy crown of Catalpa bignonioides, and the garden's own label in the next frame names the species on this trunk. The hedge screens the lowest metre of the bole."
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "ca38515b-5cfe-4ffd-8287-3a9de66bef46",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The catalpa beside a garden path with the garden's own signpost (Gruspladsen, Brøndsalen, Paradehuset) under it. Daylight, colour. Species seen: huge heart-shaped leaves, low-forking crooked trunk. Fits the description: trunk forking low into two leaning stems, inside the Horticultural Society's garden by a path, 12 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "official_register": {
         "name": "Dansk Trærregister (Dendrologisk Forening)",
         "url": "https://www.dendron.dk/dtr/detaljer.asp?Individual_id=1881"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://www.dendron.dk/dtr/photos/2023/Trompetkrone_Haveselsk_HEL_20230920_M4_6841.JPG",
+          "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
+          "attribution": "Hans Erik Lund",
+          "status": "approved",
+          "width": 2000,
+          "height": 1628,
+          "note": "Photographed by Hans Erik Lund of the Dansk Traeregister, given by mail on 2026-09-20: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Viewing pass 2026-09-23: The whole catalpa in fresh leaf against a blue sky with cloud, centred and filling the frame, forking at about two metres exactly as the register says. Big heart-shaped leaves and the open airy crown of Catalpa bignonioides, and the garden's own label in the next frame names the species on this trunk. The hedge screens the lowest metre of the bole."
+        }
+      ]
     },
     {
       "id": "cop_036",

@@ -1,9 +1,9 @@
 {
  "_note": "es overlay for girona, written 2026-09-17 from data/cities/girona.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Girona",
- "title": "Árboles monumentales de Girona: 7, de las Guilleries al mar",
+ "title": "Árboles monumentales de Girona: 8, de las Guilleries al mar",
  "meta_description": "Los árboles monumentales de Girona: un roble de 38 metros, un castaño de nueve metros de perímetro tras una ermita y un lentisco hecho árbol.",
- "intro": "Ninguno de estos árboles está en Girona. La gran plantación de la ciudad es la Devesa, una alameda de unos dos mil quinientos plátanos que están entre los más altos de Cataluña, y como son arboleda y no ejemplares sueltos ninguno figura en el registro autonómico. Lo que sí figura crece en las colinas, a media hora en coche: un roble albar de 38 metros, un castaño de nueve metros de perímetro tras una ermita y dos arbustos mediterráneos, un lentisco y un madroño, a los que se ha dejado en paz tanto tiempo que se han vuelto árboles.",
+ "intro": "Solo uno de estos árboles está en la propia Girona: un gran plátano que un lector nos envió desde la plaza junto al Mercat del Lleó. La gran plantación de la ciudad, la Devesa, es una alameda de unos dos mil quinientos plátanos, y como arboleda ninguno figura en el registro autonómico. Lo que sí figura crece en las colinas, a media hora en coche: un roble albar de 38 metros, un castaño de nueve metros de perímetro tras una ermita, y un lentisco y un madroño que, dejados en paz tanto tiempo, se han vuelto árboles.",
  "question_title": "¿Cuál es el árbol más antiguo de Girona? (nadie los anota)",
  "question_meta": "Cataluña no anota la edad de sus árboles, así que el más antiguo de Girona se desconoce. Qué sí mide el registro y 7 monumentales a media hora.",
  "question_answer": "Nadie publica edades de los árboles monumentales de Cataluña, así que no se puede nombrar el más antiguo de los alrededores de Girona. El mayor de tronco es el castaño del Pla de Sant Nicolau, con 9,70 metros de perímetro, y el más alto es el roble albar de Ca n'Iglesies, en Osor, con 38,5 metros.",
@@ -23,11 +23,11 @@
   },
   {
    "q": "¿Se pueden visitar gratis estos árboles?",
-   "a": "Sí, los siete. Cuatro están dentro de espacios naturales protegidos de las Guilleries y de Rocacorba, uno junto a un cruce de carreteras, otro junto a un camino y otro detrás de una ermita. Ninguno cobra nada."
+   "a": "Sí, los ocho. Cuatro están dentro de espacios naturales protegidos de las Guilleries y de Rocacorba, uno junto a un cruce de carreteras, otro junto a un camino y otro detrás de una ermita. El octavo, el plátano del Mercat del Lleó, está en una plaza de la ciudad. Ninguno cobra nada."
   },
   {
    "q": "¿Se puede ir andando de uno a otro?",
-   "a": "De dos de ellos, sí: el roble y el pino de Ca n'Iglesies, en Osor, están a unos 480 metros el uno del otro en el mismo valle. El resto son paradas sueltas, de 16 a 25 kilómetros de Girona en cuatro direcciones distintas."
+   "a": "De dos de ellos, sí: el roble y el pino de Ca n'Iglesies, en Osor, están a unos 480 metros el uno del otro en el mismo valle. El plátano del Mercat del Lleó está en la propia ciudad. El resto son paradas sueltas, de 16 a 25 kilómetros de Girona en cuatro direcciones distintas."
   }
  ],
  "trees": {
@@ -81,6 +81,13 @@
    "access": "Gratuito, en el espacio natural protegido de las Guilleries, a unos 480 m del gran roble",
    "transport": "Osor, a unos 21 km al suroeste de Girona por carretera de montaña, y luego a pie",
    "story": "A unos 480 metros del gran roble crece un pino que se protegió el mismo día. Los dos árboles de Ca n'Iglesies, en Osor, se declararon monumentales en 1990 y los dos quedan dentro del espacio natural protegido de las Guilleries, y juntos son la única pareja de árboles protegidos a un paseo uno del otro en todo el entorno de Girona. Este mide 29 metros de alto, con un tronco de 3,16 metros de perímetro y una copa de 16,5 metros de diámetro. Es un pino salgareño, la subespecie salzmannii, que es el pino de montaña del interior de la península y crece sobre caliza y en suelos pobres donde casi nada más da madera; la suya se usó para mástiles y vigas porque crece recto y su contenido en resina hace que tarde en pudrirse. Ver uno de 29 metros en los valles húmedos de las Guilleries sorprende un poco, porque la subespecie está más en su sitio sobre calizas secas más al oeste. El registro lo anota en estado normal. No se publica edad, y el emparejamiento con el roble es la razón de que esta parada sea la parada que es."
+  },
+  "gir_008": {
+   "name": "El plátano del Mercat del Lleó",
+   "species": "Plátano de sombra (Platanus x acerifolia)",
+   "access": "Gratuito. En una plaza pública junto al mercado, abierta a todas horas.",
+   "story": "\"Beautiful large and old plane with a wide canopy next to Mercat Lleo\", escribió el lector que nos envió este árbol desde Girona: un plátano grande y viejo, de copa ancha, junto al Mercat del Lleó.\n\nEl Mercat del Lleó es el mercado cubierto de la ciudad, en el Mercadal, y este plátano está en la plaza de al lado, en un anillo de adoquines dispuestos en círculos alrededor de su pie. El lector lo fotografió de cerca, mirando hacia arriba. El tronco es el mosaico pálido del plátano, gris, crema y oliva donde la corteza vieja se ha desprendido, y se ensancha en la base como una botella antes de abrirse en cinco grandes ramas que se extienden sobre la plaza. En noviembre la copa empezaba a cambiar, amarilla entre el verde, y las furgonetas de reparto del mercado estaban aparcadas a su alrededor, con cajas apiladas junto a las puertas.\n\nEl lector midió su tronco en unos 350 centímetros de perímetro. Es su cifra; no tenemos edad para él. Si sabe cuándo se plantó la plaza, cuéntenoslo aquí.\n\nVenga una mañana de mercado y quédese en el anillo de adoquines, bajo la copa.",
+   "how_to_recognise": "En la plaza junto al Mercat del Lleó: un único plátano grande en un anillo de adoquines, con el tronco pálido y moteado que se ensancha en la base antes de abrirse en cinco grandes ramas, y furgonetas del mercado aparcadas alrededor por la mañana."
   }
  }
 }
