@@ -6192,6 +6192,28 @@
    "city_slug": "kandy",
    "note": "the photograph kdy_002 was built from (found_by_reader); queued again because it was missing here",
    "pin_checked": "2026-11-21"
+  },
+  "2e39b8cc-fef3-4717-a56f-8eaec302fd0b": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "bgy_001",
+   "city_slug": "bingley",
+   "file": "bgy_001-the-old-beech-of-st-ives-estate-2e39b8cc.jpg",
+   "reason": "A broad bare beech with a fallen limb at its foot, low sun behind; roughly the tree, shown in the strip. Species seen: bare smooth-barked beech crown, copper leaves still clinging. Fits the description: a large old beech standing in woodland with a great fallen bough beside it.",
+   "lat": 53.8472283333333,
+   "lon": -1.86795333333333,
+   "pin_checked": "2026-11-21"
+  },
+  "e79f5d34-e33f-4522-81f1-7a65eab19816": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "has_001",
+   "city_slug": "hasselt",
+   "file": "has_001-the-oak-of-kiewit-e79f5d34.jpg",
+   "reason": "A broad old oak in autumn colour, full frame, daylight; fits the tree. Species seen: oak: lobed leaves, deeply fissured trunk, broad spreading crown. Fits the description: a big old oak standing in a clearing beside a rail fence.",
+   "lat": 50.9605466666667,
+   "lon": 5.37643,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

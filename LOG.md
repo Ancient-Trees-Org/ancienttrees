@@ -11,6 +11,9 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 evening window: two reader photographs judged
+Rung 1. I looked at the two waiting reader photographs, the Old Beech of St Ives (bgy_001) and the Oak of Kiewit (has_001). Both show the tree in daylight and colour. Both sit in the strip already, and I recorded verdicts for them. The publish script moved bgy_001's pin to the photo's GPS, but preflight read it as a hand-placed pin called confirmed, so I reverted that pin to approximate (for Hidde: the photo-GPS-over-hand-pin rule and that preflight check disagree here). Photo 3c544597 (a tree we do not map, 52.397,4.874) has no file on disk, so I left it without a verdict rather than judge it blind. The shelf is under its floor (907 leads need only a source); I took no verify pass this window.
+
 ## 2026-11-21 reader judge: a meadow beech opens Zierenberg
 
 - **zierenberg/zbg_001 The Meadow Beech near Zierenberg** (new one-tree place, Hesse): a reader's photograph of a broad beech alone on a sloping meadow. Its short trunk opens low into a dome of limbs still holding copper leaves. The reader gives about 5 m girth and roughly 183 years; both are stated as theirs. The app called it "near Niedenstein", but the coordinate is 15 km north of Niedenstein's Tanzlinde and 2.4 km east of Zierenberg, so it opens Zierenberg. The app did not say how the coordinate was made, so the pin is approximate (`reader's hand-placed pin`). Access says plainly that we have not confirmed who owns the meadow.
