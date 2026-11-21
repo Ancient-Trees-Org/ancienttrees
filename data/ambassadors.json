@@ -1518,6 +1518,26 @@
         "The Split Oak on the Stoke Park Slope"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5ad3b6676edab0c30c98329c",
+      "place_slug": "castlemaine",
+      "place_name": "Castlemaine",
+      "date": "2026-11-21",
+      "trees": [
+        "The Royal Oak of Castlemaine"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_4c5c59fc607d6f9203d60706",
+      "place_slug": "nice",
+      "place_name": "Nice",
+      "date": "2026-11-21",
+      "trees": [
+        "The Great Cedar of Parc Chambrun"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
