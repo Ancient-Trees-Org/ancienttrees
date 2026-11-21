@@ -18,6 +18,27 @@
    "agreed": null
   },
   {
+   "id": "lead:tip-1340",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The great cedar from Parc Chambrun",
+   "city": "Nice",
+   "species": null,
+   "photo": "p_4c5c59fc607d6f9203d60706/deb73596-37e2-4afd-89e2-d937560b63c2.jpg",
+   "reader_note": "This great colossus is said to have been planted during the XVIIIth century. It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as nice/nce_011, the Great Cedar of Parc Chambrun. Two daylight photographs viewed: the whole cedar towering over the park's palms beside the Temple de l'Amour, and from the street below. The City of Nice's own park page names an enormous cedar of Lebanon planted at the end of the 18th century; the reader's photos are the life check. Pin approximate at the park (no location sent).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -1097,6 +1118,30 @@
    "reason": "Viewed: the thick-trunked willow on the canal lawn, bright daylight; the lead photograph of ottawa/ott_022, the tree this reader made.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "photo": "p_e2c999cdc7d88128b77253b8/DB51A305-E1BC-4FE9-9FE3-6D9C5ED9FA07.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: the whole Moreton Bay fig on its buttress roots at the Canning Street side of Curtain Square. Lead photograph of melbourne/mel_005; its pin moved 110 m to this photograph's GPS (the register point is the elm mel_021)."
+  },
+  {
+   "id": "sight:72e483a0-37d2-44ba-91d8-6a7d28bde297",
+   "seen": "2026-11-20",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "photo": "p_222183a8bfd1e5262ec0f187/72E483A0-37D2-44BA-91D8-6A7D28BDE297.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-20: sent for the plane mel_006 but shows the same Moreton Bay fig, 13 m from db51a305. In mel_005's strip."
   },
   {
    "id": "lead:e6963b72-7820-4989-bd78-f36b52607eba",
@@ -20510,28 +20555,16 @@
    "agreed": null
   },
   {
-   "id": "sight:db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
-   "seen": "2026-11-20",
-   "kind": "photo of a tree we map",
-   "tree": "The Moreton Bay Fig of Curtain Square",
-   "photo": "p_e2c999cdc7d88128b77253b8/DB51A305-E1BC-4FE9-9FE3-6D9C5ED9FA07.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
+   "id": "sight:tip-1340",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The great cedar from Parc Chambrun",
+   "photo": "p_4c5c59fc607d6f9203d60706/deb73596-37e2-4afd-89e2-d937560b63c2.jpg",
+   "reader_note": "This great colossus is said to have been planted during the XVIIIth century. It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: the whole Moreton Bay fig on its buttress roots at the Canning Street side of Curtain Square. Lead photograph of melbourne/mel_005; its pin moved 110 m to this photograph's GPS (the register point is the elm mel_021)."
-  },
-  {
-   "id": "sight:72e483a0-37d2-44ba-91d8-6a7d28bde297",
-   "seen": "2026-11-20",
-   "kind": "photo of a tree we map",
-   "tree": "The Moreton Bay Fig of Curtain Square",
-   "photo": "p_222183a8bfd1e5262ec0f187/72E483A0-37D2-44BA-91D8-6A7D28BDE297.jpg",
-   "reader_note": "",
+   "reason": "Live as nice/nce_011, the Great Cedar of Parc Chambrun. Two daylight photographs viewed: the whole cedar towering over the park's palms beside the Temple de l'Amour, and from the street below. The City of Nice's own park page names an enormous cedar of Lebanon planted at the end of the 18th century; the reader's photos are the life check. Pin approximate at the park (no location sent).",
    "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-20: sent for the plane mel_006 but shows the same Moreton Bay fig, 13 m from db51a305. In mel_005's strip."
+   "agreed": null
   }
  ]
 }

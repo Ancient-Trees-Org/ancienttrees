@@ -6,7 +6,7 @@
   "intro": "Nice's oldest trees are almost all olives, and almost all stand on one hill. Cimiez, the Roman-era district above the old town, has been gardened since Franciscan monks arrived in 1546, leaving a grove of olive trees now reckoned in the hundreds of years old, one shading Henri Matisse's own grave. Everywhere else the story is younger and more deliberate: a public garden planted in 1851, a promenade lined with palms from 1862, a forest replanted by hand after the hillside above it was stripped bare. Nice grew its green spaces on purpose, within living memory of photography.",
   "meta_description": "Nice's oldest trees are centuries-old olives on one hill above the old town. Meet the Cimiez olive grove, Matisse's own tree, and France's first palm.",
   "question_answer": "Nice's oldest documented trees are the olive trees of the Cimiez monastery garden, some individually estimated at more than 400 years old, growing in a walled garden whose grid layout has not changed since Franciscan monks laid it out after settling on the hill in 1546. No single tree there has an individually measured age; the figure comes from the grove's general estimate rather than one named specimen.",
-  "question_meta": "Nice's oldest trees are 400-plus-year-old olives in the Cimiez monastery garden. Their story, exact location, and nine more remarkable trees in the city.",
+  "question_meta": "Nice's oldest trees are 400-plus-year-old olives in the Cimiez monastery garden. Their story, exact location, and ten more remarkable trees in the city.",
   "question_context": "Nice is unusual on this list for how recent most of its remarkable trees actually are: the city as a modern resort dates almost entirely from the mid-19th century onward, when the Promenade des Anglais, the Jardin Albert 1er and the forested hillsides around the bay were all laid out within a few decades of each other. That makes the Cimiez olive grove the clear outlier, a garden whose grid layout has been unchanged since the 1540s, planted with olives whose exact ages were never individually recorded but which local sources place at four centuries and beyond for at least some specimens, decades older than anything the 19th century resort boom produced. The garden is free, faces the Roman arena and the Monastery of Cimiez, and adjoins the cemetery where Matisse is buried under an olive tree of his own. It sits a 20 minute uphill walk, or a short bus ride, from central Nice.",
   "faq": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "q": "Are Nice's remarkable trees free to see?",
-      "a": "Almost all of them. Eight of the ten stand in free public parks, gardens or streets. Château de Crémat, a working vineyard estate, charges for guided tours, and the Cimiez olive grove and monastery garden are free year-round."
+      "a": "Almost all of them. Nine of the eleven stand in free public parks, gardens or streets. Château de Crémat, a working vineyard estate, charges for guided tours, and the Cimiez olive grove and monastery garden are free year-round."
     },
     {
       "q": "Why does Nice have so many palm trees?",
@@ -410,6 +410,70 @@
         "name": "Arbre Remarquable de France (label A.R.B.R.E.S.), Nice (château de Crémat), Arbousier, validated May-June 2023",
         "url": "https://www.arbres.org/labels-valides-p2.htm"
       }
+    },
+    {
+      "id": "nce_011",
+      "name": "The Great Cedar of Parc Chambrun",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "age_estimate": "planted at the end of the 18th century, per the City of Nice",
+      "age_min": 220,
+      "age_max": 250,
+      "age_basis": "source",
+      "location": {
+        "address": "Parc Chambrun, 14 avenue Châteaubriand, 06100 Nice",
+        "latitude": 43.72294,
+        "longitude": 7.262548,
+        "neighbourhood": "Saint-Maurice"
+      },
+      "story": "\"This great colossus is said to have been planted during the XVIIIth century,\" wrote the reader who sent us this cedar from Parc Chambrun in Nice. \"It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.\"\n\nThe city tells the same story. Nice's own page for the park describes an enormous cedar of Lebanon whose planting is thought to go back to the end of the eighteenth century, which would make it older than the Jardin Albert 1er or the palms of the Promenade des Anglais. The park, in the Saint-Maurice district north of the centre, is what remains of the estate of the Count of Chambrun, and its centrepiece is the Temple de l'Amour, an old bandstand built in imitation of the Temple of the Sibyl at Tivoli.\n\nThe reader's photographs show the cedar standing far above the palms and cypresses around it. Its dark trunk divides into several tall stems, each carrying the flat, layered shelves of foliage that old cedars of Lebanon spread, with the white columns of the temple at its foot.\n\nWalk the streets around the park and you will see it long before you reach the gate.",
+      "how_to_recognise": "The tallest tree in the park, high above its palms and cypresses: a dark trunk splitting into several tall stems topped with flat, layered shelves of foliage, beside the white columns of the Temple de l'Amour.",
+      "access": "Free. A city park, open every day from 8.30 until 18.00 (November to March) or 20.00 (April to October); the cedar can also be seen from the surrounding streets.",
+      "verified_sources": [
+        "https://www.nice.fr/fr/parcs-et-jardins/le-parc-chambrun (City of Nice, Parc Chambrun: \"un énorme Cèdre du Liban dont la plantation remonterait à la fin du XVIIIème siècle\"; 14 avenue Châteaubriand, 1.1 ha, open daily)",
+        "A reader's two photographs of the standing tree, 2026-11-21 (tip-1340), the life check."
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-1340",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "park location",
+        "date": "2026-11-21",
+        "note": "The coordinates the City of Nice's park page links for Parc Chambrun; the reader sent no location. Approximate: marks the park, not the trunk."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the website (tip-1340). Photographs viewed: the whole cedar from below, several tall dark stems rising from one trunk into flat layered shelves of foliage, high above palms, cypresses and a yellowing tree, the white columns of the Temple de l'Amour at its foot, daylight, colour. / the same cedar from the street below the park, towering over the palms at the top of a residential street with parked cars, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17); the City of Nice (owner of the park) names the cedar and its late-18th-century planting, the reader's photographs are the life check. The reader's own figures: name 'The great cedar from Parc Chambrun', age 'planted during the XVIIIth century'.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nce_011-great-cedar-of-parc-chambrun.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4c5c59fc607d6f9203d60706",
+        "sighting_id": "tip-1340",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the website); viewed and approved on 2026-11-21: the whole cedar from below, several tall dark stems rising from one trunk into flat layered shelves of foliage, high above palms, cypresses and a yellowing tree, the white columns of the Temple de l'Amour at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nce_011-great-cedar-of-parc-chambrun-b.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_4c5c59fc607d6f9203d60706",
+          "sighting_id": "tip-1340",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the website); viewed and approved on 2026-11-21: the same cedar from the street below the park, towering over the palms at the top of a residential street with parked cars, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

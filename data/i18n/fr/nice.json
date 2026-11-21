@@ -1,11 +1,11 @@
 {
  "_note": "Overlay français de Nice, écrit à la main le 2026-08-22. Traduction de rendu, pas de recherche : chaque fait, âge, espèce et note d'accès vient de data/cities/nice.json et y reste vérifié, réserves comprises. Le vocabulaire suit celui que lit un Niçois sur un panneau municipal, arbres remarquables, circonférence du tronc, houppier, plutôt qu'un calque de l'anglais, et les lieux gardent leurs noms d'ici, Cimiez, colline du Château, jardin Albert Ier. Texte seul : coordonnées, photos, licences et parcours restent dans le fichier anglais.",
  "city": "Nice",
- "title": "Arbres remarquables de Nice : les 10 plus beaux",
+ "title": "Arbres remarquables de Nice : les plus anciens",
  "meta_description": "Les plus vieux arbres de Nice sont des oliviers séculaires sur une colline : l'oliveraie de Cimiez, l'arbre de Matisse et le premier palmier de France.",
  "intro": "Les plus vieux arbres de Nice sont presque tous des oliviers, et presque tous sur la même colline. Cimiez, le quartier romain au-dessus du vieux Nice, est jardiné depuis l'arrivée des franciscains en 1546, et il en reste une oliveraie que l'on compte en siècles, dont un arbre ombrage la tombe de Matisse. Ailleurs, l'histoire est plus récente et plus volontaire : un jardin public planté en 1851, une promenade bordée de palmiers dès 1862, une forêt replantée à la main sur un versant mis à nu. Nice a fait pousser ses espaces verts exprès, à l'époque des premières photographies.",
  "question_title": "Quel est le plus vieil arbre de Nice ? (Cimiez)",
- "question_meta": "Les plus vieux arbres de Nice sont les oliviers du monastère de Cimiez, plus de 400 ans. Leur histoire, où les voir, et neuf autres arbres remarquables.",
+ "question_meta": "Les plus vieux arbres de Nice sont les oliviers du monastère de Cimiez, plus de 400 ans. Leur histoire, où les voir, et dix autres arbres remarquables.",
  "question_answer": "Les plus vieux arbres documentés de Nice sont les oliviers du jardin du monastère de Cimiez, dont certains sont estimés individuellement à plus de 400 ans, dans un jardin clos dont le plan en damier n'a pas changé depuis que les franciscains l'ont tracé en s'installant sur la colline en 1546. Aucun arbre n'y a d'âge mesuré individuellement : le chiffre vient de l'estimation générale de l'oliveraie et non d'un sujet nommé.",
  "question_context": "Nice détonne dans cette collection par la jeunesse de la plupart de ses arbres remarquables : la ville de villégiature moderne date presque entièrement du milieu du XIXe siècle, quand la Promenade des Anglais, le jardin Albert Ier et les versants boisés autour de la baie ont été dessinés à quelques décennies d'intervalle. L'oliveraie de Cimiez fait donc figure d'exception nette : un jardin dont le plan en damier n'a pas changé depuis les années 1540, planté d'oliviers dont l'âge exact n'a jamais été relevé individuellement, mais que les sources locales situent à quatre siècles et au-delà pour certains sujets, soit des décennies de plus que tout ce qu'a produit l'essor balnéaire du XIXe siècle. Le jardin est gratuit, il fait face aux arènes romaines et au monastère de Cimiez, et il jouxte le cimetière où Matisse est enterré sous un olivier à lui. Comptez vingt minutes de montée à pied depuis le centre de Nice, ou un court trajet en bus.",
  "faq": [
@@ -19,7 +19,7 @@
   },
   {
    "q": "Les arbres remarquables de Nice sont-ils gratuits ?",
-   "a": "Presque tous. Neuf des dix se trouvent dans des parcs, des jardins ou des rues publics et gratuits. Le Château de Crémat, domaine viticole en activité, fait payer ses visites guidées ; l'oliveraie et le jardin du monastère de Cimiez sont gratuits toute l'année."
+   "a": "Presque tous. Dix des onze se trouvent dans des parcs, des jardins ou des rues publics et gratuits. Le Château de Crémat, domaine viticole en activité, fait payer ses visites guidées ; l'oliveraie et le jardin du monastère de Cimiez sont gratuits toute l'année."
   },
   {
    "q": "Pourquoi y a-t-il autant de palmiers à Nice ?",
@@ -107,6 +107,13 @@
    "access": "Visites guidées du lundi au samedi, de 10h à 17h30, réservation obligatoire sur le site du domaine",
    "transport": "Voiture conseillée ; collines de Bellet, au nord-ouest de Nice",
    "story": "Cet arbre pousse sur un domaine viticole dont les propriétaires n'ont cessé de rebâtir la même colline en versions toujours plus grandioses. Antoine Mari achète le terrain sur la colline de Crémat en 1906 et y fait construire un château de style médiéval avec une tour à mâchicoulis, sur l'appellation Bellet, qui produit du raisin sur les collines de l'arrière-pays niçois depuis l'époque romaine. Irène Bretz, riche Américaine qui reprend le domaine en 1923, y ajoute des touches néo-toscanes et développe les jardins alentour : c'est le décor dans lequel se tient cet Arbutus unedo, inscrit avec des coordonnées précises à l'inventaire régional des arbres remarquables des Alpes-Maritimes. L'espèce porte en automne, sur les mêmes rameaux et en même temps, ses fleurs et ses fruits rouges en forme de fraise, ce qui est peu commun chez un persistant méditerranéen. Aucun âge individuel n'est documenté pour ce sujet, au-delà de son classement comme spécimen notable. Le domaine produit toujours un vin de Bellet cultivé en bio et fait visiter sur réservation ses jardins, sa collection d'art et ses caves : c'est l'un des rares arbres de cette liste qui se termine par une dégustation."
+  },
+  "nce_011": {
+   "name": "Le grand cèdre du parc Chambrun",
+   "species": "Cèdre du Liban (Cedrus libani)",
+   "age_estimate": "planté à la fin du XVIIIe siècle, selon la Ville de Nice",
+   "access": "Gratuit. Parc municipal ouvert tous les jours de 8 h 30 à 18 h (novembre à mars) ou 20 h (avril à octobre) ; le cèdre se voit aussi depuis les rues voisines.",
+   "story": "« This great colossus is said to have been planted during the XVIIIth century », nous a écrit la personne qui nous a envoyé ce cèdre du parc Chambrun, à Nice. Ce colosse aurait été planté au XVIIIe siècle. « Il domine tout le parc, impossible de le manquer, même en se promenant simplement dans le quartier. J'ai grandi à côté, et il m'émerveille toujours quand je rentre chez moi. »\n\nLa Ville raconte la même histoire. Sa page consacrée au parc décrit un énorme cèdre du Liban dont la plantation remonterait à la fin du XVIIIe siècle, ce qui le rendrait plus ancien que le jardin Albert Ier ou les palmiers de la Promenade des Anglais. Le parc, dans le quartier Saint-Maurice au nord du centre, est ce qui reste du domaine du comte de Chambrun, et sa pièce maîtresse est le temple de l'Amour, un ancien kiosque à musique imité du temple de la Sibylle à Tivoli.\n\nLes photographies montrent le cèdre bien au-dessus des palmiers et des cyprès qui l'entourent. Son tronc sombre se divise en plusieurs hautes tiges, chacune portant les plateaux de feuillage étagés des vieux cèdres du Liban, et à son pied les colonnes blanches du temple.\n\nPromenez-vous dans les rues autour du parc, et vous le verrez bien avant d'atteindre la grille."
   }
  }
 }

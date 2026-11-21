@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 reader judge: the great cedar of Parc Chambrun is live in Nice
+
+- **New tree, Nice (nce_011, The Great Cedar of Parc Chambrun)**: a reader's tip through the website (tip-1340) with two daylight photographs of a cedar of Lebanon towering over the park's palms beside the Temple de l'Amour. The City of Nice's own park page names "un énorme Cèdre du Liban" planted at the end of the 18th century, so the age is the city's; the reader's photographs are the life check. Their words are quoted on the page, unnamed. No location came with it, so the pin is approximate at the park (the coordinates the city's page links). Both photographs filed in November (their own date). English story plus the kept French overlay; Nice's counts now say eleven, and the French title stops saying ten.
+- Left: 3c544597 (sent from one of our own accounts, "not sure which tree" near Amsterdam Stationsplein) still has no photograph on disk, so it was not judged; the next intake with the key fetches it.
+- No open reports, no open feedback, no readers' notes waiting to be quoted.
+
 ## 2026-11-20 reader judge: the Curtain Square fig's first photographs, and its pin is now where the fig stands
 
 - **mel_005, The Moreton Bay Fig of Curtain Square**: two readers photographed the fig itself at the Canning Street side of the square. db51a305 is the lead photograph. 72e483a0 was sent for the plane (mel_006) but shows the same fig 13 m away, so it went into the strip. The pin moved 110 m to the photograph's GPS fix and is confirmed again; this settles the run above's "approximate until a photograph of the fig places it". The readers' mails are pending in the weekly bundle.

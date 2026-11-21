@@ -8514,6 +8514,39 @@
    "seen": "2026-11-20",
    "judged": "2026-11-20",
    "published_as": "melbourne/mel_021"
+  },
+  {
+   "sighting_id": "tip-1340",
+   "user_id": "p_4c5c59fc607d6f9203d60706",
+   "mine": false,
+   "name": "The great cedar from Parc Chambrun",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "This great colossus is said to have been planted during the XVIIIth century. It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.",
+   "latitude": null,
+   "longitude": null,
+   "location_kind": null,
+   "near": "Nice",
+   "taken_month": 11,
+   "photo": "p_4c5c59fc607d6f9203d60706/deb73596-37e2-4afd-89e2-d937560b63c2.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/tip-1340-extra-1.jpg"
+   ],
+   "extra_months": [
+    11
+   ],
+   "nearest_published_m": null,
+   "register": null,
+   "status": "published",
+   "why": "Photographs viewed 2026-11-21: the whole cedar from below, several tall dark stems rising from one trunk into flat layered shelves of foliage, high above palms, cypresses and a yellowing tree, the white columns of the Temple de l'Amour at its foot, daylight, colour. Live as nice/nce_011 under the closed list (Hidde, 2026-11-17); the City of Nice names the cedar.",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "nice/nce_011"
   }
  ]
 }
