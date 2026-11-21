@@ -183,6 +183,15 @@
       "sources": [
         "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329"
       ]
+    },
+    {
+      "name": "Oak near Cannon Hill Park (girth 6 m, c. 400 years)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham",
+      "reason": "Only a local blog (coppicing.blogspot.com/2017/09/mapping-oaks.html, fetched 2026-11-21) gives girth 6 m and about 400 years; no exact location, not shown inside the park, no second source. Chamberlain Oak, Highbury, same page: no girth, c.1840 caption only. Pass 12 dry.",
+      "sources": [
+        "https://coppicing.blogspot.com/2017/09/mapping-oaks.html"
+      ]
     }
   ],
   "blocked": [

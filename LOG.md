@@ -15,6 +15,7 @@
 
 - **york/yor_007, The Minster Beech**: a reader sent a photograph from near York Minster (bee85803), looking up a pale forked beech trunk under a full crown, daylight, colour. It goes live under the closed list for a reader's tree. The pin is the reader's hand-placed one, so it stays approximate. Age (150 to 190 years) and species are stated as theirs. No register entry or encyclopaedia article lies within 300 m. The reader's photo is the lead. Preflight 0 problems.
 - It is the same tree as the READY lead "Minster Yard Beech" (the York ambassador's mail of 19 Nov, 10 m from the reader's pin). Folded in: the tree is now "The Minster Yard Beech", the ambassador's what3words square makes the pin confirmed, and Paul Wood's Street Tree no. 12 is its source. The lead is marked published.
+- **Birmingham verify pass: dry, the twelfth.** The top of `city_queue.py --next` still lists Birmingham (0 trees, 19 leads), but no pass has found a named body, a coordinate or a second source for any of them. One blog-only oak near Cannon Hill Park went to the leads. cft_001 (Cofton Hackett yew) stays held because its source is Woodland Trust Ancient Tree Inventory data. Claim released. For whoever picks the queue next: Birmingham wants a rendering browser (the Botanical Gardens champion tour is JS-only), not another search pass.
 - 3c544597 (an own-account photo, no file on disk) still can't be judged.
 
 ## 2026-11-21 reader judge: four reader views of the Ankerwycke Yew go in its strip

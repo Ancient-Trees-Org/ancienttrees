@@ -1,6 +1,10 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-21": [
+      {"date": "2026-11-21", "kind": "verify", "target": "birmingham", "tokens": 74029, "trees": 0, "note": "twelfth dry pass; one blog-only Cannon Hill oak lead added; no named body or coordinates; cft_001 stays held (Woodland Trust source)"},
+      {"date": "2026-11-21", "kind": "session", "target": "york", "tokens": 0, "trees": 1, "note": "reader's Minster Beech (yor_007) folded with the ambassador's Minster Yard Beech lead"}
+    ],
     "2026-11-20": [
       {"date": "2026-11-20", "kind": "verify", "target": "coimbra", "tokens": 77544, "trees": 0, "note": "4 unmined ICNF rows all within 80 m of live trees; botanical garden eucalyptus blocked on UC tomography PDF 302 loop; claim released with --force, wall set"},
       {"date": "2026-11-20", "kind": "verify", "target": "birmingham", "tokens": 95348, "trees": 0, "note": "tenth dry pass (a ninth ran earlier today, not seen when claimed); OSM bbox API works but names no veteran; cft_001 rests partly on Woodland Trust record 253329, must not ship"},
