@@ -28,7 +28,7 @@
       "builds": [
         "4"
       ],
-      "what": "Species picker with no rows (a search matching nothing): groupedSection read key(0) for its gap item while count was 0, so rows[0] threw. Fixed 2026-11-21 in SpeciesChooser.kt: an empty section draws nothing. Needs a device build to ship; no unit test (Compose lazy scope, no JVM harness for it).",
+      "what": "Species picker with no rows (a search matching nothing): groupedSection read key(0) for its gap item while count was 0, so rows[0] threw. Fixed 2026-11-21 in SpeciesChooser.kt: an empty section draws nothing. Needs a device build to ship. Test: GroupedSectionTest (a recording LazyListScope; fails without the guard, checked 2026-11-21).",
       "fixed_in": "SpeciesChooser.kt groupedSection count==0 guard"
     }
   ]
