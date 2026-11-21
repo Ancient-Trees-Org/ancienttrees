@@ -1,0 +1,74 @@
+{
+  "city": "Zierenberg",
+  "country": "Germany",
+  "status": "needs_curation",
+  "intro": "Zierenberg is a small town in the hills north-west of Kassel, in northern Hesse. On an open meadow a couple of kilometres east of it stands a broad beech that a reader photographed in November, its crown still holding some copper leaves. They put its girth at about five metres and its age at roughly 183 years. We have not yet seen a measurement or a record of it, and we would like to.",
+  "meta_description": "A broad old beech on a meadow near Zierenberg, north-west of Kassel, sent by a reader: where it stands and what we know so far.",
+  "question_meta": "A broad old beech on a meadow near Zierenberg, north-west of Kassel, sent by a reader: where it stands and what we know so far.",
+  "question_answer": "The Meadow Beech near Zierenberg stands alone on a sloping meadow a couple of kilometres east of the town, north-west of Kassel in Hesse. A reader puts its girth at about five metres and its age at roughly 183 years.",
+  "question_context": "A reader sent us this beech in November 2026, photographed on a sloping meadow in the hills east of Zierenberg, a small town north-west of Kassel. It is a European beech that has had open grass around it for its whole life, and it shows: instead of the tall bare trunk of a forest beech, it has a short, heavy trunk that opens low into dozens of limbs and a crown almost as wide as it is tall. In the photograph the last copper leaves still hang on the twigs and a drift of fallen ones lies on the grass downhill. The reader puts its girth at about five metres and its age at roughly 183 years; those figures are theirs, as we have not found a register entry or a published measurement. We have not confirmed who owns the meadow or whether it is grazed, so keep to paths and close any gates. If you know the tree, a local name for it, or its history, tell us on its page.",
+  "hero_tree_id": "zbg_001",
+  "oldest_tree_id": "zbg_001",
+  "faq": [
+    {
+      "q": "Where is the old beech near Zierenberg?",
+      "a": "On a sloping meadow a couple of kilometres east of Zierenberg, north-west of Kassel in Hesse. The map on its page shows the spot."
+    },
+    {
+      "q": "How old is the beech near Zierenberg?",
+      "a": "The reader who sent it to us puts it at roughly 183 years, with a girth of about five metres. We have not yet found a record that confirms either figure."
+    },
+    {
+      "q": "Can I visit the beech near Zierenberg?",
+      "a": "The reader walked up to it across the meadow. We have not confirmed who owns the ground, so keep to paths and close any gates."
+    }
+  ],
+  "trees": [
+    {
+      "id": "zbg_001",
+      "name": "The Meadow Beech near Zierenberg",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "about 183 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Open meadow east of Zierenberg, Landkreis Kassel, Hesse",
+        "latitude": 51.3714968646424,
+        "longitude": 9.33644930832958,
+        "neighbourhood": "Zierenberg"
+      },
+      "how_to_recognise": "Alone on a sloping meadow: a broad beech whose short dark trunk opens low into a dome of fine limbs, a drift of brown leaves on the grass below it and a hedge of scrub along the bank behind.",
+      "access": "On open grassland east of Zierenberg; the reader walked up to it across the meadow. We have not confirmed who owns the ground or whether livestock graze it, so keep to paths and close any gates.",
+      "story": "A reader sent us this beech from the hills near Zierenberg, north-west of Kassel in northern Hesse, photographed in November with the last of its copper leaves still on the twigs.\n\nIt stands on its own on a sloping meadow. Beeches in a forest race upwards on long bare trunks; with open grass all round it, this one has spread instead. A short, heavy trunk opens low into dozens of limbs that fan up and out into a crown almost as wide as it is tall, a dome of fine grey twigs against the clouds. Its fallen leaves lie in a rust-brown drift on the grass below and spill down the slope, and a hedge of scrub and smaller trees runs along the bank behind it.\n\nThe reader puts its girth at about five metres and its age at roughly 183 years. Those figures are theirs: we have not seen a measurement or a record of when it was planted. If you know this tree, a name the village gives it, or who keeps the meadow, tell us here and we will add it.\n\nGo in late autumn, as the reader did, when the crown turns copper, and walk round to the downhill side to see how low the limbs leave the trunk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "4a800dc5-825c-4742-831f-61059aa5201c",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "4a800dc5-825c-4742-831f-61059aa5201c",
+        "date": "2026-11-21",
+        "note": "The app did not say how this coordinate was made; treated as placed by hand, not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (4a800dc5-825c-4742-831f-61059aa5201c, 2026-11-21, through the app). Photograph viewed: a broad beech standing alone on a sloping grass meadow, its short dark trunk opening low into a dome of fine limbs still holding some copper leaves, a drift of fallen leaves on the grass below, scrub and a hedge behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The app labelled it 'near Niedenstein', but the coordinate is about 15 km north of Niedenstein's town lime (ndn_001) and about 2.4 km east of Zierenberg, so it opens Zierenberg. The reader's own figures: name 'European Beech near Niedenstein', species 'European Beech', age '183 roughly', girth 500 cm. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/zbg_001-meadow-beech-near-zierenberg.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3dc43d53fcb5db6c3d0f0224",
+        "sighting_id": "4a800dc5-825c-4742-831f-61059aa5201c",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: a broad beech standing alone on a sloping grass meadow, its short dark trunk opening low into a dome of fine limbs still holding some copper leaves, a drift of fallen leaves on the grass below, scrub and a hedge behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

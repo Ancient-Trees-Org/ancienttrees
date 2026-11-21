@@ -9161,6 +9161,39 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "le-porge/lpo_001"
+  },
+  {
+   "sighting_id": "4a800dc5-825c-4742-831f-61059aa5201c",
+   "user_id": "p_3dc43d53fcb5db6c3d0f0224",
+   "mine": false,
+   "name": "European Beech near Niedenstein",
+   "unsure_among": null,
+   "species": "European Beech",
+   "age": "183 roughly",
+   "girth_cm": 500,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 51.3714968646424,
+   "longitude": 9.33644930832958,
+   "location_kind": null,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3dc43d53fcb5db6c3d0f0224/4A800DC5-825C-4742-831F-61059AA5201C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: a broad beech standing alone on a sloping grass meadow, its short dark trunk opening low into a dome of fine limbs still holding some copper leaves, a drift of fallen leaves on the grass below, scrub and a hedge behind, overcast daylight, colour. Live as zierenberg/zbg_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "zierenberg/zbg_001"
   }
  ]
 }

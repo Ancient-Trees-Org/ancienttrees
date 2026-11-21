@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a meadow beech opens Zierenberg
+
+- **zierenberg/zbg_001 The Meadow Beech near Zierenberg** (new one-tree place, Hesse): a reader's photograph of a broad beech alone on a sloping meadow. Its short trunk opens low into a dome of limbs still holding copper leaves. The reader gives about 5 m girth and roughly 183 years; both are stated as theirs. The app called it "near Niedenstein", but the coordinate is 15 km north of Niedenstein's Tanzlinde and 2.4 km east of Zierenberg, so it opens Zierenberg. The app did not say how the coordinate was made, so the pin is approximate (`reader's hand-placed pin`). Access says plainly that we have not confirmed who owns the meadow.
+- The Kandy sighting `ade84360` was queued again: the earlier run built kdy_002 from it but never recorded it in data/sightings-processed.json. It is now recorded as published and taken off the queue. It was not sent through `sightings_publish.py`, because `reject` would have told the app the reader's photo was "declined" while it leads the page.
+- Still open: `3c544597` (Amsterdam, our own account) has no photo file on this machine. No open reports, no unjudged feedback, no reader notes waiting to be quoted.
+
 ## 2026-11-21 reader judge (second run): the Le Porge plane's 2003 listing now has a source
 
 A second reader-judge run started on the same four trees (Downleaze copper beech, Elizabeth Park oak, the Kandy bodhi tree, the Le Porge plane). The earlier run had already published them, so this run's duplicates were dropped before any push. The one thing it adds is a source for lpo_001. The techno-science list of Arbres remarquables de France names the "Platane du Porge" under the Gironde, estimated at 130 years in 2003 and 4.75 m round. That confirms the reader's 2003 claim, so the story, the place context and the FAQ now cite it instead of saying no source was found. No reports were open and no feedback was waiting. This run sent no mail.
