@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 retry attempt (window 119 min unspent)
+
+- Resolved a LOG.md rebase conflict (kept both sides). No claims were standing.
+- Write pass on the 2 READY York leads shipped nothing: the beech's only source is paywalled, the plane has no source. Both are `READY` only on paper (species plus pin). Need the York ambassador's words or a photograph.
+- Rung 1: reader sighting 3c544597 (52.3972, 4.8739) is not on disk, so it was not judged blind; left open.
+- Claimed birmingham (UK first, 19 leads, 0 trees) and dispatched a verify agent; its output merges next.
+
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
 
 - [2026-11](archive/LOG-2026-11.md)
