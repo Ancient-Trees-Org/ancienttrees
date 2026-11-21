@@ -8,7 +8,7 @@
   "oldest_tree_id": "lpo_001",
   "question_meta": "The tall plane tree beside the Église Saint-Seurin in Le Porge, Gironde, sent by a reader: where it stands and what we know about it.",
   "question_answer": "The Plane Tree of Place Saint-Seurin stands on the grass beside the south wall of the Église Saint-Seurin, on the village square of Le Porge in Gironde. It is free to visit at any hour.",
-  "question_context": "A reader sent us this plane tree from Le Porge, a village in the pine country of the Médoc, a few kilometres from the Atlantic coast of Gironde. It stands on the grass of Place Saint-Seurin, against the long side wall of the Église Saint-Seurin, the church on the old pilgrim road to Santiago. In the reader's photograph the trunk rises straight and pale, flaking in grey, cream and olive patches, before forking high above the church roof into two great stems; a person at its foot reaches barely a fifth of the way to the fork. The reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. We have not yet found that label in a source, so we state it as theirs and ask anyone who knows the village's record to tell us. The square is public and open at all hours.",
+  "question_context": "A reader sent us this plane tree from Le Porge, a village in the pine country of the Médoc, a few kilometres from the Atlantic coast of Gironde. It stands on the grass of Place Saint-Seurin, against the long side wall of the Église Saint-Seurin, the church on the old pilgrim road to Santiago. In the reader's photograph the trunk rises straight and pale, flaking in grey, cream and olive patches, before forking high above the church roof into two great stems; a person at its foot reaches barely a fifth of the way to the fork. The reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. A published list of France's remarkable trees bears them out, naming the Platane du Porge under the Gironde with an age estimated at 130 years in 2003 and a girth of 4.75 metres. The square is public and open at all hours.",
   "faq": [
     {
       "q": "Where is the old plane tree in Le Porge?",
@@ -20,7 +20,7 @@
     },
     {
       "q": "How old is the plane tree in Le Porge?",
-      "a": "The reader who sent it to us says it was planted in the late nineteenth century, about 145 years ago. We have not yet found a record that confirms it."
+      "a": "The reader who sent it to us says it was planted in the late nineteenth century, about 145 years ago. A list of France's remarkable trees estimated it at 130 years in 2003, with a girth of 4.75 metres."
     }
   ],
   "trees": [
@@ -40,9 +40,10 @@
       "how_to_recognise": "On the grass beside the long south wall of the Église Saint-Seurin: a tall plane with a pale, mottled trunk that forks high up into two great stems, a picnic table near its foot and the war memorial off to the right.",
       "access": "Free, on the village square beside the church, open at all hours.",
       "verified_sources": [
-        "https://www.openstreetmap.org/way/483532215 (OpenStreetMap: Église Saint-Seurin on Place Saint-Seurin, Le Porge, where the reader's photograph places the tree)"
+        "https://www.openstreetmap.org/way/483532215 (OpenStreetMap: Église Saint-Seurin on Place Saint-Seurin, Le Porge, where the reader's photograph places the tree)",
+        "https://www.techno-science.net/fr/definitions/arbres-remarquables-de-france (Arbres remarquables de France, Gironde: Platane du Porge, estimated at 130 years in 2003, 4.75 m round)"
       ],
-      "story": "Le Porge is a village in the pine country of the Médoc, a few kilometres in from the Atlantic dunes, and on its square, against the long side wall of the Église Saint-Seurin, stands this plane. A reader sent us its photograph from the foot of the trunk.\n\nThe picture shows why they stopped. The trunk rises straight and pale, flaking in the camouflage patches of grey, cream and olive that planes are known for, then forks high above the church roof into two great stems that spread a crown wider than the nave. The person standing at its foot reaches barely a fifth of the way to the fork. The church spire, in the same pale stone, rises behind it.\n\nThe reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. Those facts are theirs: we have not yet found the label in a source, and if you know the village's record of this tree, tell us here and we will add it.\n\nStand on the grass by the church wall and look straight up the trunk to the fork.",
+      "story": "Le Porge is a village in the pine country of the Médoc, a few kilometres in from the Atlantic dunes, and on its square, against the long side wall of the Église Saint-Seurin, stands this plane. A reader sent us its photograph from the foot of the trunk.\n\nThe picture shows why they stopped. The trunk rises straight and pale, flaking in the camouflage patches of grey, cream and olive that planes are known for, then forks high above the church roof into two great stems that spread a crown wider than the nave. The person standing at its foot reaches barely a fifth of the way to the fork. The church spire, in the same pale stone, rises behind it.\n\nThe reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. A published list of France's remarkable trees bears them out. Under the Gironde it names the Platane du Porge, estimated at 130 years old in 2003 and 4.75 metres round. If you have measured it since, tell us here and we will add your figures.\n\nStand on the grass by the church wall and look straight up the trunk to the fork.",
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "tip-1387",
@@ -55,7 +56,7 @@
         "note": "No coordinate came with the tip; the pin is the Église Saint-Seurin (OpenStreetMap way 483532215), beside which the photograph shows the tree."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-21 reader judge: sent by a reader (tip-1387, 2026-11-21, through the website). Photograph viewed: looking up a tall plane tree beside the nave of a stone church, its pale mottled trunk forking into two great stems, browning autumn leaves, a person standing at the foot for scale, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Plane tree', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (tip-1387, 2026-11-21, through the website). Photograph viewed: looking up a tall plane tree beside the nave of a stone church, its pale mottled trunk forking into two great stems, browning autumn leaves, a person standing at the foot for scale, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Plane tree', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-21 reader judge (second run): the 2003 listing confirmed in the techno-science list of Arbres remarquables de France, Gironde: 'Platane du Porge, d'age estime a 130 ans (2003), 4,75 m de circonference'.",
       "photo": {
         "url": "https://ancienttrees.app/photos/lpo_001-plane-tree-of-place-saint-seurin.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
