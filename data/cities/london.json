@@ -673,10 +673,17 @@
       "access": "Free, stands on the open public pavement directly outside the small Garden of Rest, no restriction",
       "transport": "6 min walk from Baker Street station (Bakerloo, Circle, District, Hammersmith & City, Jubilee, Metropolitan Lines)",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lon_014-the-marylebone-elm.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_1930a537941dd45cebc49579",
+        "sighting_id": "29c28107-0cee-412b-911e-62cb94a71313",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The whole elm from the pavement of Marylebone High Street, tall single trunk rising to a broad crown in yellowing autumn leaf, the Memorial Garden railings and hedge beside it; the low sun behind the trunk darkens it but the tree is plainly recognisable. First photograph of this tree. Species seen: elm: small toothed oval leaves turning yellow, dark ridged bark, tall straight bole branching into a high spreading crown. Fits the description: a very tall tree on the pavement of a busy shopping street beside a railed garden, leaning out over the walkway toward the road, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

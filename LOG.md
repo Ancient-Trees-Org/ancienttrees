@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: the Marylebone Elm gets its first photograph
+
+- **london/lon_014, The Marylebone Elm**: first photograph, a reader's view up the whole elm from the Marylebone High Street pavement, crown yellowing, the railings of the Memorial Garden beside it. Backlit, so the light check called it WEAK, but it is plainly this tree and a reader's photo is never refused on light. Filed under November from its own date. The pin was already confirmed, so it stays where it is (the pin step could not reach Supabase, which made no difference here).
+- **tip 1364, Nichinan (Tottori)**: just a coordinate from the app. Its photograph has not reached the server, and the reader sent no name or note. There is no register entry or article near it. Recorded as a lead in data/leads/nichinan-tottori.json, to be judged from the photograph when the sighting arrives.
+- **Not judged, photograph not on this runner**: the new not-sure-which-tree lead 3c544597 (Amsterdam West, 52.3972,4.8739), plus the older waiting Japan and Baarn leads, nearly all from our own account. Leaving them for a run that has the files.
+- No open reports, no feedback without a verdict, no reader notes waiting to be quoted. qa source, preflight and i18ncheck clean.
+
 ## 2026-11-21 reader judge: Girona's first tree in the city itself, the Nagi ginkgo's first photograph, a reader's catalpa
 
 - **girona/gir_008, The Plane by the Mercat del Lleó** (new, closed list): a big London plane in a cobbled ring on the square beside the market, with vans around it. The pin is the reader's device GPS, so confirmed, and the photo is filed under November from its own date. The reader's note is quoted and their 350 cm girth stated as theirs. It is the first tree in Girona itself, so the intro no longer says "None of these trees is in Girona". The title and FAQ counts went from seven to eight, in English and in the es overlay, which has the tree.

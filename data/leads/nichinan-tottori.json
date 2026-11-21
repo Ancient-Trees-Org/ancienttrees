@@ -1,0 +1,14 @@
+{
+  "leads": [
+    {
+      "name": "A tree a reader sent from Nichinan, Tottori",
+      "species": null,
+      "latitude": 35.06346,
+      "longitude": 133.05765,
+      "location_precision": "approximate",
+      "source": "reader tip, submission 1364 (2026-11-21), coordinate from the photograph's own location",
+      "why": "2026-11-21 reader judge: the app sent the coordinate of a photograph but the photograph has not reached the server yet; no name, no note, no register entry within 100 m and no encyclopaedia article within 300 m. Judge again from the photograph as soon as the sighting arrives (it will come as a lead in _sightings.json); nothing else is missing."
+    }
+  ],
+  "blocked": []
+}
