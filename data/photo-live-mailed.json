@@ -2552,100 +2552,68 @@
    ]
   },
   "p_e0e73e0270033f449047144b": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "bb5b6aff-ddf6-455c-a4c6-32d0c274226d",
      "tree_id": "dnk_002",
-     "tree_name": "The Birnam Oak",
-     "city": "Dunkeld",
-     "city_slug": "dunkeld",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "4338584e-8437-4d91-bc51-82756fc43138",
      "tree_id": "for_001",
-     "tree_name": "The Fortingall Yew",
-     "city": "Fortingall",
-     "city_slug": "fortingall",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_230ca0c6269992f101ed0a8d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",
      "tree_id": "vie_003",
-     "tree_name": "The Chestnut Avenue of the Hauptallee",
-     "city": "Vienna",
-     "city_slug": "vienna",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_b411fdc6cd3d1a6d15f76de6": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "08d9dca8-6910-4532-9104-3882784466f6",
      "tree_id": "rom_019",
-     "tree_name": "The Podocarp of Piazza Vittorio",
-     "city": "Rome",
-     "city_slug": "rome",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_b88d0387be93737c1e25f04f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "ccbebb84-c500-4f3a-a769-10ad14a2f0c3",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "e843e619-7414-4576-aca6-58a3dc6f5668",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "7a13092f-31be-4a43-8aa7-0f12693c611a",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "218adf66-34a0-4da0-8d01-c2cd2e63788b",
      "tree_id": "ank_001",
-     "tree_name": "The Ankerwycke Yew",
-     "city": "Runnymede",
-     "city_slug": "runnymede",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
