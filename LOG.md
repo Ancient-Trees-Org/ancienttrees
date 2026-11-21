@@ -11,6 +11,9 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 night window, retry: four Ottawa trees written
+Verify pass on Ottawa's Dominion Arboretum gave four trees (ott_023 to ott_026: ginkgo, Duke of Connaught's red oak, cucumber tree, Macoun Garden sycamore), written and merged (aa96a3e33), app-only under APP FIRST. Three pins are approximate, said so in the prose. Five leads and one young-tree lead were kept. The Dominion Arboretum park page now says eight trees. York's Riverside London Plane is listed READY but has no source or photograph, so it was not written. Claim released.
+
 ## 2026-11-21 evening window: two reader photographs judged
 Rung 1. I looked at the two waiting reader photographs, the Old Beech of St Ives (bgy_001) and the Oak of Kiewit (has_001). Both show the tree in daylight and colour. Both sit in the strip already, and I recorded verdicts for them. The publish script moved bgy_001's pin to the photo's GPS, but preflight read it as a hand-placed pin called confirmed, so I reverted that pin to approximate (for Hidde: the photo-GPS-over-hand-pin rule and that preflight check disagree here). Photo 3c544597 (a tree we do not map, 52.397,4.874) has no file on disk, so I left it without a verdict rather than judge it blind. The shelf is under its floor (907 leads need only a source); I then ran a Birmingham verify pass, the top of the UK list: it was dry again (the fourteenth dry pass; no naming body, and the Gardens' Plant Explorer and the Highbury survey need a rendering browser). The claim is released. I should have read the earlier dry passes before claiming it. The other staged cities are walls or already published, so nothing was left to write (taiwan has one tree awaiting a story, and Taiwan is not a focus country). Stop plain-web Birmingham passes until one of those two sources can be read.
 
