@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 second attempt: nothing shipped
+
+- Found no standing claims and one READY lead (York), under the six-tree minimum for a write pass. `passcheck.py --pending` shows only 2 unwritten verified trees (York, Taiwan); the rest of the 385 are stale files.
+- Munich refused (63 of 60). London claimed for verify and released at once: 0 of 30 open leads carry a coordinate, so it is walled 48h in data/walls.json. Translation lane is paused (`TRANSLATIONS_OUT`); register scouting reads BUILD.
+- `3c544597` (Amsterdam, not on the map) still has no photo file on this machine, so it stays unjudged.
+- Needs a source that yields coordinates (a council survey, iNaturalist with GPS) before another UK verify pass is worth the tokens.
+
 ## 2026-11-21 reader judge: a bodhi tree in a Kandy shrine
 
 - **kandy/kdy_002 The Bodhi Tree in the Hillside Shrine**: a reader's photograph from above of a multi-stemmed bodhi tree in a gold-railed temple enclosure, a seated Buddha at its foot. Pin confirmed from the photo. The reader gave no name or note, so the temple's name is open and the story asks for it. The lead is the shot without the monk; the second photograph is not published.
