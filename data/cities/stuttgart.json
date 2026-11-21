@@ -512,6 +512,73 @@
       },
       "age_basis": "source",
       "paid_entry": true
+    },
+    {
+      "id": "stu_014",
+      "name": "The Pfaffeneiche",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "roughly 300 years",
+      "age_min": 250,
+      "age_max": 350,
+      "girth_cm": 595,
+      "height_m": 26,
+      "location": {
+        "address": "Pfaffeneichenweg, south part of the Naturschutzgebiet Rotwildpark, near the south shore of the Pfaffensee, Stuttgart-West",
+        "latitude": 48.75765,
+        "longitude": 9.105855,
+        "neighbourhood": "Rotwildpark (Glemswald), Stuttgart-West"
+      },
+      "story": "Few forests in Germany pack this many giant oaks into so little ground. Rainer Lippert, who records the country's monumental oaks, counts 14 oaks over 5.5 metres round in the Rotwildpark, ten of them over six, and says he knows nowhere else in Germany with so many six-metre oaks on so small an area. The Pfaffeneiche is one of the 14. He measured it in 2023 at 5.95 metres round at chest height.\n\nIt grew up in a forest, and it shows. The trunk runs almost to the top, and the crown is narrow and set very high, about 15 metres across on a tree 26 metres tall. Up one side runs a vertical lightning groove, to about five metres.\n\nLippert puts it at about 300 years. That is his estimate; no planting is recorded. In 1994 Hans Joachim Fröhlich measured 5.70 metres for his guide to old trees in Baden-Württemberg, so the trunk has added about 25 centimetres in 29 years. Some call it Pfaffeneiche II; Lippert keeps Fröhlich's name.\n\nAbout 100 metres west in the forest stands the Lanzeiche, wider still at 6.05 metres and now dead. The Pfaffeneiche is alive and stands beside the path named after it, the Pfaffeneichenweg, near the south shore of the Pfaffensee.\n\nThe Rotwildpark was opened to the public after the monarchy ended, and its footpaths are free to walk. The 16 Buchen, a beech of many stems, stands about 1.1 kilometres west.",
+      "how_to_recognise": "You can recognise it by the trunk, 5.95 metres round and running almost to the top of a narrow, high crown, with a lightning groove up one side. It stands beside the Pfaffeneichenweg near the Pfaffensee's south shore.",
+      "verified_sources": [
+        "https://www.monumentale-eichen.de/baden-w%C3%BCrttemberg/3-kategorie/stuttgart-2",
+        "https://www.monumentale-eichen.de/baden-w%C3%BCrttemberg/stuttgart/",
+        "https://www.stuttgart-tourist.de/stuttgart-entdecken/lieblingsviertel/go-west/the-wild-side-of-life-schwarz-und-rotwildpark"
+      ],
+      "official_register": {
+        "name": "Naturschutzgebiet Rotwildpark Stuttgart (area protection since 1939; no per-tree register record)",
+        "url": "https://www.stuttgart-tourist.de/stuttgart-entdecken/lieblingsviertel/go-west/the-wild-side-of-life-schwarz-und-rotwildpark"
+      },
+      "access": "Free. Open woodland nature reserve with a public network of walking paths (city tourism board: the forest was opened to the public after the monarchy ended, many footpaths cross it); the tree stands beside the path called Pfaffeneichenweg. No ticket. Bus 92 to Solitude is the public transport the tourism board names for the area; exact walk from a stop to the tree not verified.",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "stu_015",
+      "name": "The 16 Buchen (multi-stem beech)",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "roughly 200 to 250 years",
+      "age_min": 150,
+      "age_max": 250,
+      "girth_cm": 731,
+      "height_m": 30,
+      "location": {
+        "address": "Schattenallee, Rotwildpark / Glemswald near Büsnau, Stuttgart-West",
+        "latitude": 48.756978,
+        "longitude": 9.091986,
+        "neighbourhood": "Büsnau / Rotwildpark, Stuttgart-West"
+      },
+      "story": "Sixteen beeches were planted here as one tree, and ten of them still stand. The list of notable trees in Baden-Württemberg calls the 16 Buchen a bundle planting, several young beeches set together so that they grow up as a single mass of stems.\n\nThat is how a beech gets a girth of 7.31 metres, measured in 2008. Read it as the measure round a cluster of stems, not a single trunk. The crown reaches about 30 metres.\n\nThe same list puts the tree at roughly 200 to 250 years. No planting date is recorded, so take that as an estimate rather than a count, and if you know when the bundle went in, tell us.\n\nIt has a following. Stuttgart's tourism board, writing about the many-stemmed trees of the Rotwildpark, says the 16 Buchen on the Schattenallee has reached celebrity status. The forest around it is a nature reserve, opened to the public after the monarchy ended and crossed by footpaths, and the tree stands on the Schattenallee track itself, free to walk to.\n\nOne caution about the pin. It comes from the list's coordinate and lands on the right track, but nobody has placed this trunk independently, so walk the Schattenallee and look for the cluster of beech stems rather than trusting the exact point.\n\nThe Pfaffeneiche, an oak 5.95 metres round, stands about 1.1 kilometres east in the same reserve.",
+      "how_to_recognise": "You can recognise it by its many trunks, ten beech stems rising together as one cluster, about 30 metres tall. It stands on the Schattenallee track in the Rotwildpark near Büsnau.",
+      "verified_sources": [
+        "https://de.wikipedia.org/wiki/Liste_markanter_und_alter_Baumexemplare_in_Baden-W%C3%BCrttemberg",
+        "https://www.stuttgart-tourist.de/stuttgart-entdecken/lieblingsviertel/go-west/the-wild-side-of-life-schwarz-und-rotwildpark"
+      ],
+      "access": "Free. Stands on the public track Schattenallee inside the Naturschutzgebiet Rotwildpark, a woodland opened to the public with many footpaths; bus 92 to Solitude is named for the area by the city tourism board (exact stop to the tree not verified).",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }
