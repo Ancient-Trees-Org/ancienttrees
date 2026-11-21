@@ -1,0 +1,83 @@
+{
+  "city": "Castlemaine",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Castlemaine is a gold-rush town in central Victoria, about an hour and a half north-west of Melbourne. In its Botanical Gardens grows an English oak planted in 1863 to mark a royal wedding, the oldest planting in the gardens and the National Trust's Victorian Tree of the Year for 2021. A reader sent us its photograph and the two plaques at its foot.",
+  "meta_description": "The 1863 English oak in Castlemaine Botanical Gardens, Victorian Tree of the Year 2021: its royal wedding story and where to find it.",
+  "hero_tree_id": "cmn_001",
+  "oldest_tree_id": "cmn_001",
+  "trees": [
+    {
+      "id": "cmn_001",
+      "name": "The Royal Oak of Castlemaine",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "planted in 1863",
+      "age_min": 163,
+      "age_max": 163,
+      "age_basis": "source",
+      "location": {
+        "address": "Castlemaine Botanical Gardens, Walker Street, Castlemaine, Victoria",
+        "latitude": -37.0502445,
+        "longitude": 144.217086666667,
+        "neighbourhood": "Castlemaine Botanical Gardens"
+      },
+      "story": "\"Planted May 20th 1863 to celebrate marriage of Prince and Princess of Wales. Victorian Tree of the Year 2021,\" wrote the reader who sent us this oak from the Castlemaine Botanical Gardens, with photographs of the two plaques at its foot.\n\nThe older plaque gives the day as 26 May 1863 and calls the tree the oldest existing planting in the gardens. The Prince and Princess of Wales were the future Edward VII and Alexandra, married in March that year, and towns across the colony of Victoria planted oaks to mark it, a few years after the gold rush made Castlemaine. The newer plaque is the National Trust's: in 2021 the people of Victoria voted this English oak their Tree of the Year, and the Trust counts it among the largest and oldest English oaks in the state.\n\nThe photograph shows why it won. A short, dark trunk, thick as a cart, opens low into a handful of limbs that run out almost level, one of them sweeping far over the children's playground before it lifts into the crown. In late spring the whole dome is fresh green against the sky, wider than it is tall.\n\nWalk under the long limb towards the playground, then step back onto the path to see the crown whole.",
+      "how_to_recognise": "Beside the children's playground: a short dark trunk opening low into long, almost level limbs, one sweeping over the play equipment, with a granite block carrying the 1863 bronze plaque and a National Trust stone at its foot.",
+      "verified_sources": [
+        "Plaque at the tree, photographed by the reader: planted 26 May 1863 to celebrate the marriage of the Prince and Princess of Wales, the oldest existing planting in the Castlemaine Botanical Gardens",
+        "https://www.nationaltrust.org.au/?p=114797 (National Trust of Australia, Victoria: Castlemaine's English Oak crowned 2021 Victorian Tree of the Year; planted 1863, one of the largest and oldest known English oaks in Victoria)",
+        "https://monumentaustralia.org.au/themes/people/imperial/display/100034-prince-and-princess-of-wales (Monument Australia: the 1863 planting plaque in the Castlemaine Botanical Gardens)"
+      ],
+      "access": "Free, in the Castlemaine Botanical Gardens, a public park open every day.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd",
+        "date": "2026-11-21"
+      },
+      "official_register": {
+        "name": "National Trust of Australia (Victoria), 2021 Victorian Tree of the Year",
+        "url": "https://www.nationaltrust.org.au/?p=114797"
+      },
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (sighting de314993-8df5-496c-897d-b262d6f0d3cd), photograph's own location. Photograph viewed: the whole oak in full leaf from the path, a short massive trunk opening into long low limbs that reach over the playground, blue sky, daylight, colour; two further pictures show the 1863 planting plaque and the National Trust 2021 Victorian Tree of the Year plaque (Quercus robur) at its foot. The reader wrote 20 May 1863; the plaque and Monument Australia give 26 May, which the page uses, quoting the reader's note as theirs. Age 163 years from the documented planting. Published under the closed list for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cmn_001-royal-oak-of-castlemaine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+        "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved by the reader judge on 2026-11-21. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The oldest tree in Castlemaine Botanical Gardens: an English oak planted in 1863 for a royal wedding, Victorian Tree of the Year 2021.",
+  "question_answer": "The oldest planting in the Castlemaine Botanical Gardens is the Royal Oak, an English oak planted on 26 May 1863 to celebrate the marriage of the Prince and Princess of Wales. It stands beside the children's playground and is free to visit.",
+  "question_context": "The Royal Oak of Castlemaine is a pedunculate oak, the tree Australians call the English oak, in the Castlemaine Botanical Gardens in central Victoria, planted on 26 May 1863 to celebrate the marriage of the Prince and Princess of Wales, the future Edward VII and Alexandra. A bronze plaque on a granite block at its foot gives that date and calls it the oldest existing planting in the gardens. In 2021 the National Trust of Australia (Victoria) named it Victorian Tree of the Year after a public vote, and the Trust counts it among the largest and oldest English oaks in the state. A reader sent us its photograph and both plaques. The tree stands beside the children's playground: a short dark trunk that opens low into long, almost level limbs, one of them reaching far over the play equipment, under a broad green dome. The gardens are a free public park, open every day, a short walk from the town centre.",
+  "faq": [
+    {
+      "q": "Can I visit The Royal Oak of Castlemaine?",
+      "a": "Yes. It stands in the Castlemaine Botanical Gardens, a free public park open every day, beside the children's playground."
+    },
+    {
+      "q": "How old is the oak in Castlemaine Botanical Gardens?",
+      "a": "It was planted on 26 May 1863, according to the plaque at its foot, which makes it the oldest existing planting in the gardens."
+    },
+    {
+      "q": "Why was it Victorian Tree of the Year?",
+      "a": "In 2021 the National Trust of Australia (Victoria) ran a public vote and this English oak won. The Trust counts it among the largest and oldest English oaks in Victoria."
+    }
+  ]
+}

@@ -39,6 +39,60 @@
    "agreed": null
   },
   {
+   "id": "sight:tip-1340",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The great cedar from Parc Chambrun",
+   "photo": "p_4c5c59fc607d6f9203d60706/deb73596-37e2-4afd-89e2-d937560b63c2.jpg",
+   "reader_note": "This great colossus is said to have been planted during the XVIIIth century. It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.",
+   "verdict": "publish",
+   "reason": "Live as nice/nce_011, the Great Cedar of Parc Chambrun. Two daylight photographs viewed: the whole cedar towering over the park's palms beside the Temple de l'Amour, and from the street below. The City of Nice's own park page names an enormous cedar of Lebanon planted at the end of the 18th century; the reader's photos are the life check. Pin approximate at the park (no location sent).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:de314993-8df5-496c-897d-b262d6f0d3cd",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Royal Oak of Castlemaine",
+   "city": "Castlemaine",
+   "species": "English Oak (Quercus robur)",
+   "photo": "https://ancienttrees.app/photos/cmn_001-royal-oak-of-castlemaine.jpg",
+   "reader_note": "Planted May 20th 1863 to celebrate marriage of Prince and Princess of Wales. \nVictorian Tree of the Year 2021.",
+   "verdict": "publish",
+   "reason": "The reader's photograph is the lead photo of castlemaine/cmn_001: the whole oak in full leaf, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:de314993-8df5-496c-897d-b262d6f0d3cd",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_5ad3b6676edab0c30c98329c/DE314993-8DF5-496C-897D-B262D6F0D3CD.jpg",
+   "reader_note": "Planted May 20th 1863 to celebrate marriage of Prince and Princess of Wales. \nVictorian Tree of the Year 2021.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole 1863 royal-wedding English oak in Castlemaine Botanical Gardens in full leaf, plus both plaques (planting 26 May 1863; National Trust Victorian Tree of the Year 2021). Live as castlemaine/cmn_001, pin from the photograph's location.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -20551,18 +20605,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-1340",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The great cedar from Parc Chambrun",
-   "photo": "p_4c5c59fc607d6f9203d60706/deb73596-37e2-4afd-89e2-d937560b63c2.jpg",
-   "reader_note": "This great colossus is said to have been planted during the XVIIIth century. It towers over the whole park, you can't miss it, even if you are just walking on the neighborhood. I grew up next to it and I am always in awe of it whenever I go home.",
-   "verdict": "publish",
-   "reason": "Live as nice/nce_011, the Great Cedar of Parc Chambrun. Two daylight photographs viewed: the whole cedar towering over the park's palms beside the Temple de l'Amour, and from the street below. The City of Nice's own park page names an enormous cedar of Lebanon planted at the end of the 18th century; the reader's photos are the life check. Pin approximate at the park (no location sent).",
    "hidde": null,
    "agreed": null
   }

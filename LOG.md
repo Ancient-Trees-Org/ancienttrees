@@ -9,6 +9,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 reader judge: the 1863 Royal Oak of Castlemaine is live
+
+- **New tree, new place**: castlemaine/cmn_001, The Royal Oak of Castlemaine (Victoria, Australia), sent by a reader through the app with the photograph's own location. Three photographs viewed: the whole oak in full leaf beside the gardens' playground, the 1863 bronze planting plaque, and the National Trust's 2021 Victorian Tree of the Year stone. Sources: the plaque, the National Trust (Victoria) announcement, Monument Australia. The reader wrote 20 May 1863; the plaque says 26 May, which the page uses, and their note is quoted as theirs. Pin confirmed (photo GPS), `taken_month` 11 from the photograph. A one-tree place, so no place page yet (PLACE_PAGE_MIN_TREES 2); the tree page carries it.
+- Nothing else waited: no queued photographs of our trees, no open reports, no feedback, no unjudged tips. The other 38 `status: lead` rows in _sightings.json are our own account's test photographs (`mine`), not readers'; 3c544597 (mine, Amsterdam) has no photo on disk.
+- Checks: qa --source-only clean, preflight 0 problems (fixed hard rule 9 on the way: Pedunculate Oak, not English Oak), i18ncheck clean.
+
 ## 2026-11-21 night run, second attempt: nothing shippable, no trees shipped
 
 No claims stood. READY held only the two York leads (beech source paywalled, plane unsourced), and every "awaiting a writer" file is already live under another id. Portland and Munich claims were refused (cities full); scout_next says BUILD with nothing to scout; translations stay paused (TRANSLATIONS_OUT). Reader photo 3c544597 (52.3972, 4.8739) is not on disk, so it stays without a verdict rather than judged blind. Next useful work: a verify pass on the 907 source-less leads once a claimable city with room exists, and the Amsterdam reader photo when the inbox has the key.

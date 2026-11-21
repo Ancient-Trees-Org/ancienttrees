@@ -8547,6 +8547,42 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "nice/nce_011"
+  },
+  {
+   "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd",
+   "user_id": "p_5ad3b6676edab0c30c98329c",
+   "mine": false,
+   "name": "Pedunculate Oak",
+   "unsure_among": null,
+   "species": "Pedunculate Oak",
+   "age": "163 years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Planted May 20th 1863 to celebrate marriage of Prince and Princess of Wales. \nVictorian Tree of the Year 2021.",
+   "latitude": -37.0502445,
+   "longitude": 144.217086666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_5ad3b6676edab0c30c98329c/DE314993-8DF5-496C-897D-B262D6F0D3CD.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/de314993-8df5-496c-897d-b262d6f0d3cd-extra-1.jpg",
+    "out/sightings/de314993-8df5-496c-897d-b262d6f0d3cd-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole oak in full leaf from the path, a short massive trunk opening into long low limbs that reach over the playground, blue sky, daylight, colour; two further pictures show the 1863 planting plaque and the National Trust 2021 Victorian Tree of the Year plaque (Quercus robur) at its foot. Live as castlemaine/cmn_001 under the closed list.",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "castlemaine/cmn_001"
   }
  ]
 }
