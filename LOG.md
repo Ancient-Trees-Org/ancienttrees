@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: Bingley grows to three trees, a forked beech and an Atlas cedar on the St Ives Estate
+
+- **bingley/bgy_002 The Forked Beech of St Ives** and **bingley/bgy_003 The Atlas Cedar of St Ives**: the same reader as bgy_001 sent both a few minutes later, and they reached this runner after the run before had finished. bgy_002 is a beech whose trunk splits into two equal stems in a clean U; its second photo, the fork close up, is in the strip. bgy_003 is a tall Atlas cedar whose second stem bends out in a long S. The reader placed both pins by hand, so they are approximate. Their ages (100 to 150 and 150 to 200) appear as their estimates. Both photos are filed under November, their own date.
+- **bgy_001** now has the reader's second photo, of the torn trunk and the fallen limb, in its strip.
+- With three trees, Bingley's intro, meta, question fields and FAQ now cover all three.
+- This run had first made the same Turin, Bingley and Curaçao trees and the bri_023 change in parallel with the run before. Its push clashed, so it dropped its duplicates and kept that run's versions; only the two trees above and the strip photo are new. qa source, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-21 reader judge: a weeping beech in Turin's royal gardens, an old beech opens Bingley, a restaurant's fig in Willemstad; the Bishops Knoll conifer is a coast redwood
 
 - **turin/tor_012 The Weeping Beech of the Giardini Reali**: a reader's photo of a big weeping beech, its hanging branches turning yellow and copper, with one long bare limb reaching low across the lawn. The pin is confirmed from the phone's GPS. It stands 150 m from the garden's registered Caucasian elm. Their 200 years appear as their estimate. The photo is filed under November, its own date.

@@ -2,6 +2,110 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "lead:cc4293ff-8120-4c19-a667-25947845b4ff",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Forked European Beech near St Ives, Bingley",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_064cc750d7e96fa90046487e/CC4293FF-8120-4C19-A667-25947845B4FF.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a beech forked into two equal stems in a clean U, St Ives Estate woods; hand-placed pin (approximate); the reader's 100 to 150 years stated as theirs. Live as bingley/bgy_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Atlas Cedar in St Ives, Bingley",
+   "city": null,
+   "species": "Atlas Cedar",
+   "photo": "p_064cc750d7e96fa90046487e/F36E78E1-93F1-4CA3-A6B4-85DDB9FE1830.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Atlas Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a tall Atlas cedar with a second stem bending in a long S, St Ives Estate woods; hand-placed pin (approximate); the reader's 150 to 200 years stated as theirs. Live as bingley/bgy_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cc4293ff-8120-4c19-a667-25947845b4ff",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Forked Beech of St Ives",
+   "photo": "p_064cc750d7e96fa90046487e/CC4293FF-8120-4C19-A667-25947845B4FF.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a beech forked into two equal stems in a clean U, St Ives Estate woods; hand-placed pin (approximate); the reader's 100 to 150 years stated as theirs. Live as bingley/bgy_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Atlas Cedar of St Ives",
+   "photo": "p_064cc750d7e96fa90046487e/F36E78E1-93F1-4CA3-A6B4-85DDB9FE1830.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a tall Atlas cedar with a second stem bending in a long S, St Ives Estate woods; hand-placed pin (approximate); the reader's 150 to 200 years stated as theirs. Live as bingley/bgy_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cc4293ff-8120-4c19-a667-25947845b4ff-extra-1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Forked Beech of St Ives",
+   "photo": "out/sightings/cc4293ff-8120-4c19-a667-25947845b4ff-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Second photograph viewed 2026-11-21: the fork close up, two mossy stems curving apart in a U; in the tree's strip. Live with bingley/bgy_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e4c07e02-2e9d-4391-8581-47e61bab1fc6-extra-1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Old Beech of St Ives Estate",
+   "photo": "out/sightings/e4c07e02-2e9d-4391-8581-47e61bab1fc6-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Second photograph viewed 2026-11-21: the same beech from the other side, the great fallen limb still joined at the split foot; in the tree's strip. Live with bingley/bgy_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",

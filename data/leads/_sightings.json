@@ -8994,6 +8994,74 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "curacao/cuw_002"
+  },
+  {
+   "sighting_id": "cc4293ff-8120-4c19-a667-25947845b4ff",
+   "user_id": "p_064cc750d7e96fa90046487e",
+   "mine": false,
+   "name": "Forked European Beech near St Ives, Bingley",
+   "unsure_among": null,
+   "species": "European Beech",
+   "age": "100-150",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 53.8456711687521,
+   "longitude": -1.86742905437718,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_064cc750d7e96fa90046487e/CC4293FF-8120-4C19-A667-25947845B4FF.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/cc4293ff-8120-4c19-a667-25947845b4ff-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole beech in low evening sun, a single trunk dividing into two tall, equal stems in a U, among Scots pines and bare beeches, wooden rails behind, daylight, colour. Live as bingley/bgy_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "bingley/bgy_002"
+  },
+  {
+   "sighting_id": "f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+   "user_id": "p_064cc750d7e96fa90046487e",
+   "mine": false,
+   "name": "Atlas Cedar in St Ives, Bingley",
+   "unsure_among": null,
+   "species": "Atlas Cedar",
+   "age": "150-200",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 53.8458761648004,
+   "longitude": -1.86459597089591,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_064cc750d7e96fa90046487e/F36E78E1-93F1-4CA3-A6B4-85DDB9FE1830.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: looking up a tall cedar: a straight main trunk and beside it a second stem that bends out and back in a long S before climbing into a dense blue-green crown, bare woodland around, daylight, colour. Live as bingley/bgy_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "bingley/bgy_003"
   }
  ]
 }

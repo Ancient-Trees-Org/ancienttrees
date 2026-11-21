@@ -2,8 +2,8 @@
   "city": "Bingley",
   "country": "United Kingdom",
   "status": "needs_curation",
-  "intro": "Bingley is a town in the Aire valley in West Yorkshire, and above it lies the St Ives Estate, a country park of woods and open moor that Bradford Council has kept open to the public since 1974. Among its Scots pines stands an old beech with a broken limb at its foot, which a reader photographed and sent to us. We do not yet know its girth or age.",
-  "meta_description": "An old beech in the woods of the St Ives Estate at Bingley, West Yorkshire, sent by a reader: where it stands and what we know so far.",
+  "intro": "Bingley is a town in the Aire valley in West Yorkshire, and above it lies the St Ives Estate, a country park of woods and open moor that Bradford Council has kept open to the public since 1974. A reader walking its woods in November sent us three trees from one corner of it: an old beech with a great broken limb at its foot, a beech forked like a tuning fork, and an Atlas cedar with a twisting second stem. We do not yet know any of their girths.",
+  "meta_description": "Three trees a reader found in the woods of the St Ives Estate at Bingley, West Yorkshire: an old beech, a forked beech and an Atlas cedar.",
   "hero_tree_id": "bgy_001",
   "oldest_tree_id": "bgy_001",
   "trees": [
@@ -54,20 +54,150 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: looking up a thick, ribbed, mossy beech trunk into a wide crown of fine branches with the last copper leaves, Scots pines around, a big fallen limb at its foot, low sun, colour; a second photograph shows the trunk torn open where the limb broke off. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bgy_001-old-beech-of-st-ives-estate-fallen-limb.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_064cc750d7e96fa90046487e",
+          "sighting_id": "e4c07e02-2e9d-4391-8581-47e61bab1fc6-extra-1",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the same beech from the other side, its trunk split at the foot where a great mossy limb has come down and lies along the ground, still joined to the tree, pines behind, low sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "sent with the lead photograph the same day; the same autumn shows in it"
+        }
+      ]
+    },
+    {
+      "id": "bgy_002",
+      "name": "The Forked Beech of St Ives",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "100 to 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Woodland on the St Ives Estate, between Bingley and Harden, West Yorkshire",
+        "latitude": 53.8456711687521,
+        "longitude": -1.86742905437718,
+        "neighbourhood": "St Ives Estate"
+      },
+      "how_to_recognise": "A beech whose mossy grey trunk splits a little above head height into two equal stems curving apart in a clean U, among tall Scots pines, with low wooden rails behind.",
+      "access": "Free. The St Ives Estate is a country park owned by Bradford Council, open all year; keep to the signed paths where they ask you to.",
+      "verified_sources": [
+        "https://bradforddistrictparks.org/park/st-ives-estate-country-park/ (Bradford District Parks: St Ives Estate country park, open all year)",
+        "https://en.wikipedia.org/wiki/Bingley_St_Ives (Bingley St Ives: a 550-acre country park and former estate between Bingley and Harden, owned by Bradford Council, open to the public since 1974)"
+      ],
+      "story": "A reader in the woods of St Ives, on the edge of Bingley, sent us two photographs of this beech in the late afternoon light, and the second one shows why they stopped.\n\nMost beeches carry one trunk up into the crown. This one splits a little above head height into two stems of the same thickness, which lean apart and then sweep upward again, so that the trunk makes a clean U, a giant tuning fork in grey bark green with moss. Stand at its foot and the pines behind are framed between the two arms. From further back the two stems run up side by side through the bare beeches and the dark Scots pines into one shared crown.\n\nA fork like this often begins when a young tree loses its leading shoot and two side shoots race to replace it. Nobody we know of recorded when that happened here. The reader puts the tree at 100 to 150 years old; that is their estimate, and we have no measurement for it yet. If you measure the trunk below the fork, tell us here.\n\nStand close to the trunk and look up between the arms.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "cc4293ff-8120-4c19-a667-25947845b4ff",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "cc4293ff-8120-4c19-a667-25947845b4ff",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (cc4293ff-8120-4c19-a667-25947845b4ff, 2026-11-21, through the app). Photograph viewed: the whole beech in low evening sun, a single trunk dividing into two tall, equal stems in a U, among Scots pines and bare beeches, wooden rails behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Forked European Beech near St Ives, Bingley', species 'European Beech', age '100-150'. Pin: placed by hand on the map by the reader, so approximate. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bgy_002-forked-beech-of-st-ives.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_064cc750d7e96fa90046487e",
+        "sighting_id": "cc4293ff-8120-4c19-a667-25947845b4ff",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole beech in low evening sun, a single trunk dividing into two tall, equal stems in a U, among Scots pines and bare beeches, wooden rails behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bgy_002-forked-beech-of-st-ives-the-fork.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_064cc750d7e96fa90046487e",
+          "sighting_id": "cc4293ff-8120-4c19-a667-25947845b4ff-extra-1",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: close up the fork itself, two mossy grey stems curving apart from one base in a clean U, pines framed between them, low sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "sent with the lead photograph the same day; the same autumn shows in it"
+        }
+      ]
+    },
+    {
+      "id": "bgy_003",
+      "name": "The Atlas Cedar of St Ives",
+      "species": "Atlas Cedar (Cedrus atlantica)",
+      "age_estimate": "150 to 200 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Woodland on the St Ives Estate, between Bingley and Harden, West Yorkshire",
+        "latitude": 53.8458761648004,
+        "longitude": -1.86459597089591,
+        "neighbourhood": "St Ives Estate"
+      },
+      "how_to_recognise": "A tall evergreen cedar among bare broadleaves: a straight main trunk with a second stem beside it that bends out and back in a long S before climbing into the blue-green crown.",
+      "access": "Free. The St Ives Estate is a country park owned by Bradford Council, open all year; keep to the signed paths where they ask you to.",
+      "verified_sources": [
+        "https://bradforddistrictparks.org/park/st-ives-estate-country-park/ (Bradford District Parks: St Ives Estate country park, open all year)",
+        "https://en.wikipedia.org/wiki/Bingley_St_Ives (Bingley St Ives: a 550-acre country park and former estate between Bingley and Harden, owned by Bradford Council, open to the public since 1974)"
+      ],
+      "story": "Atlas cedars come from the mountains of Morocco and Algeria, and they reached English parks with the Victorian taste for trees from far away. A reader walking in St Ives, the old estate on the edge of Bingley that is now a country park, found this one among the native beeches and sent us its photograph.\n\nIn November it stands out at once, a dense blue-green crown among bare branches. What makes it worth the walk is the trunk. A straight main stem runs up through the middle, and beside it a second stem leaves the base, bends out sideways, curls back in a long S and only then turns upward to climb into the crown alongside the first, as if it had changed its mind twice on the way.\n\nThe reader puts the cedar at 150 to 200 years old. That is their estimate; we have no planting record or measurement for it, and nothing we have read says who planted it. If you know, or have measured its girth, tell us here and we will add it.\n\nStand at the foot of the trunk and follow the S of the second stem upward.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830, 2026-11-21, through the app). Photograph viewed: looking up a tall cedar: a straight main trunk and beside it a second stem that bends out and back in a long S before climbing into a dense blue-green crown, bare woodland around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Atlas Cedar in St Ives, Bingley', species 'Atlas Cedar', age '150-200'. Pin: placed by hand on the map by the reader, so approximate. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bgy_003-atlas-cedar-of-st-ives.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_064cc750d7e96fa90046487e",
+        "sighting_id": "f36e78e1-93f1-4ca3-a6b4-85ddb9fe1830",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: looking up a tall cedar: a straight main trunk and beside it a second stem that bends out and back in a long S before climbing into a dense blue-green crown, bare woodland around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
       }
     }
   ],
-  "question_meta": "The old beech on the St Ives Estate at Bingley, West Yorkshire: where it stands, how old a reader thinks it is, and how to visit.",
-  "question_answer": "The Old Beech of St Ives Estate stands in the woods of the St Ives Estate, the country park between Bingley and Harden in West Yorkshire. A reader puts it at 180 to 250 years old. The estate is owned by Bradford Council and open all year, free.",
-  "question_context": "The St Ives Estate is a country park of about 550 acres between Bingley and Harden in the Aire valley, a former private estate that Bradford Council took over in 1974 and opened to the public. Its woods mix tall Scots pines with broadleaves, and in them a reader found and photographed this beech in November. It is short and thick in the trunk, ribbed and green with moss, with a wide crown of fine grey branches. A great limb has broken away and lies across the leaf litter at its foot, and a second photograph from the reader shows the wood split open where it tore from the trunk. The reader puts the tree at 180 to 250 years old. That is their estimate, and we have not seen a measurement of its girth or a record of when it was planted, so anyone who knows more is welcome to tell us. The estate is open all year and free to walk, though some routes are signed for walkers only, so follow the signs on the paths.",
+  "question_meta": "The oldest tree we map in Bingley is a beech on the St Ives Estate, 180 to 250 years old by the estimate of the reader who sent it.",
+  "question_answer": "The oldest tree we map in Bingley is the Old Beech of St Ives Estate, in the woods of the country park between Bingley and Harden, which the reader who sent it puts at 180 to 250 years old. That is their estimate; we have not seen a measurement. The Atlas cedar a few hundred metres east, at 150 to 200 years by the same reader's estimate, may run it close. The estate is owned by Bradford Council and open all year, free.",
+  "question_context": "Every age on this page is a reader's estimate, because none of these trees has a published measurement that we know of. All three stand on the St Ives Estate, a country park of about 550 acres between Bingley and Harden in the Aire valley, a former private estate that Bradford Council took over in 1974 and opened to the public. Its woods mix tall Scots pines with broadleaves, and the two beeches and the cedar stand within about three hundred metres of one another among them. The old beech, short and thick in the trunk with a great broken limb at its foot, is the one the reader thinks oldest, at 180 to 250 years. They put the Atlas cedar, with its second stem bending in a long S, at 150 to 200, and the forked beech, whose trunk splits into two equal stems in a clean U, at 100 to 150. A girth would settle more than any of us can from a photograph, so if you walk there with a tape, tell us on the tree's page. The estate is open all year and free, though some routes are signed for walkers only.",
   "faq": [
     {
-      "q": "Where is the old beech on the St Ives Estate?",
-      "a": "In the woods of the St Ives Estate, the country park between Bingley and Harden in West Yorkshire, among tall Scots pines. Our pin is approximate, so look around it for a thick mossy beech with a broken limb at its foot."
+      "q": "Where are the trees on the St Ives Estate?",
+      "a": "In the woods of the St Ives Estate, the country park between Bingley and Harden in West Yorkshire, within about three hundred metres of one another among tall Scots pines. Our pins are approximate, so use each tree's recognition line."
     },
     {
-      "q": "How old is it?",
-      "a": "A reader puts it at 180 to 250 years old. That is their estimate; we have not seen a measurement or a planting record."
+      "q": "How old are they?",
+      "a": "By the estimate of the reader who sent them: 180 to 250 years for the old beech, 150 to 200 for the Atlas cedar and 100 to 150 for the forked beech. We have not seen measurements or planting records."
     },
     {
       "q": "Does it cost anything to visit?",
