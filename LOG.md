@@ -9,6 +9,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 night run, second attempt: nothing shippable, no trees shipped
+
+No claims stood. READY held only the two York leads (beech source paywalled, plane unsourced), and every "awaiting a writer" file is already live under another id. Portland and Munich claims were refused (cities full); scout_next says BUILD with nothing to scout; translations stay paused (TRANSLATIONS_OUT). Reader photo 3c544597 (52.3972, 4.8739) is not on disk, so it stays without a verdict rather than judged blind. Next useful work: a verify pass on the 907 source-less leads once a claimable city with room exists, and the Amsterdam reader photo when the inbox has the key.
+
 ## 2026-11-21 write pass: nothing to write, no trees shipped
 
 Asked for up to 20 verified trees, US and UK first. The shelf is empty. Every file `passcheck.py --pending` lists as awaiting a writer or as an id collision is already live under another id: bri_017 (live as itself), car_001 (= crd_004), nyc_027 (live), nyc_031 (= nyc_130), wol_001 (= wvh_001), Taiwan a28_001 (= alh_002). The files the brief named (new-york-3, wisconsin, us-photo-batch-1, washington-dc-2, wales-yews, somerset-dorset-yews) are fully published and only stale. Of the two READY York leads, neither was written. The Minster Yard Beech's one source (Paul Wood, The Street Tree no. 12) is paywalled and answers 403 to curl, the API and a fetcher, so we have no fact about the tree beyond species and site, and 150 words would be invented. The Museum Gardens plane has no source at all and waits for the ambassador's photograph, as its lead says. Both pins are good (the ambassador's what3words). The next useful step is a verify pass on the 907 leads that are short only a source, not another write pass.
