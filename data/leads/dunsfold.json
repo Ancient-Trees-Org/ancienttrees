@@ -1,0 +1,14 @@
+{
+  "leads": [
+    {
+      "name": "A tree a reader sent from near Dunsfold, Surrey",
+      "species": null,
+      "latitude": 51.21043,
+      "longitude": -0.45852,
+      "location_precision": "approximate",
+      "source": "reader tip, submission 1371 (2026-11-21), coordinate from the app's GPS standing at the tree",
+      "why": "2026-11-21 reader judge: the app sent a GPS fix at the tree but the photograph (sighting EAF6795D) has not reached the server yet; no name, no note, no register entry within 100 m and no encyclopaedia article within 300 m. Two minutes later the same reader dragged the pin by hand to 51.225314, -0.458788 (report 1000109); when the photograph arrives, judge it and decide the pin from it (a photograph's own fix beats a hand-moved pin). Nothing else is missing."
+    }
+  ],
+  "blocked": []
+}

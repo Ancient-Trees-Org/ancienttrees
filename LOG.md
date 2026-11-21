@@ -11,6 +11,15 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a giant sequoia avenue opens Peterborough; a reader's photograph leads the Molkenkur Linden
+
+- New place, **Peterborough** (peterborough/pbo_001, The Giant Sequoia of the Orton Hall Avenue). A reader sent four photographs of a double line of giant sequoias along a broad earth path beside Orton Hall in Orton Longueville. The thickest trunk, ivy on it, is the tree. The pin is confirmed from the photo's own location. The photo is filed under August from its own date. Their 589 cm girth and ~150 years are stated as theirs. The app had named the lead "near Bowthorpe" (the nearest place we had), but the reader's own report named Orton Hall. We have not confirmed who owns the ground or when the path is open, and the access line says so.
+- **heidelberg/hei_001, The Molkenkur Linden**: the reader's photograph now leads: the whole cabled linden, bare in November, on the viewpoint terrace. The old photo moves into the strip. The pin moved 14 m to their fix.
+- **Reports 1000106, 1000107, 1000108** (same reader as the sequoia) are closed `holds` with no mail. Two were pins they dragged while adding the sequoia. The photo's own location was kept because the trunk stands right by the camera (GPS over a hand-moved pin). The third was "A whole avenue of trees / Orton Hall", filed on the Bowthorpe Oak by mistake. That is where the sequoia's site came from, so it is used, and no draft is needed.
+- **tip 1371, near Dunsfold (Surrey)**: just a GPS coordinate from the app. The photo (sighting EAF6795D) has not reached the server. Recorded as a lead in data/leads/dunsfold.json, to be judged from the photo when it arrives. Report 1000109, the same reader dragging that pin about 1.6 km north, is closed `holds` and noted in the lead.
+- **Still not judged, photo not on this runner**: lead 3c544597 (Amsterdam, our own account).
+- No feedback without a verdict, no reader words waiting to be quoted. Four new tree notes are left for the night run's rung 1. qa source, preflight (0 problems; it notes Peterborough's names in other languages are not looked up yet) and i18ncheck are clean.
+
 ## 2026-11-21 reader judge: the Marylebone Elm gets its first photograph
 
 - **london/lon_014, The Marylebone Elm**: first photograph, a reader's view up the whole elm from the Marylebone High Street pavement, crown yellowing, the railings of the Memorial Garden beside it. Backlit, so the light check called it WEAK, but it is plainly this tree and a reader's photo is never refused on light. Filed under November from its own date. The pin was already confirmed, so it stays where it is (the pin step could not reach Supabase, which made no difference here).

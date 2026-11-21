@@ -8819,6 +8819,43 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "girona/gir_008"
+  },
+  {
+   "sighting_id": "b57c3977-d5d3-4a97-a199-76433a04d573",
+   "user_id": "p_b88d0387be93737c1e25f04f",
+   "mine": false,
+   "name": "Giant Sequoia near Bowthorpe",
+   "unsure_among": null,
+   "species": "Giant Sequoia",
+   "age": "150",
+   "girth_cm": 589,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 52.551195,
+   "longitude": -0.281536666666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 8,
+   "photo": "p_b88d0387be93737c1e25f04f/B57C3977-D5D3-4A97-A199-76433A04D573.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b57c3977-d5d3-4a97-a199-76433a04d573-extra-1.jpg",
+    "out/sightings/b57c3977-d5d3-4a97-a199-76433a04d573-extra-2.jpg",
+    "out/sightings/b57c3977-d5d3-4a97-a199-76433a04d573-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: a double avenue of tall giant sequoias along a broad earth path, the nearest trunk thick, red and ivy-clad in the foreground; extras show the avenue running on, one sequoia whole from foot to spire, and the crowns from below. Summer daylight, colour. Live as peterborough/pbo_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "peterborough/pbo_001"
   }
  ]
 }

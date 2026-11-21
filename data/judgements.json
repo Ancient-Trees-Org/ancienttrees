@@ -743,6 +743,21 @@
    "agreed": null
   },
   {
+   "id": "sight:b57c3977-d5d3-4a97-a199-76433a04d573",
+   "seen": "2026-11-21",
+   "kind": "a reader's photograph leading the tree it added",
+   "tree": "The Giant Sequoia of the Orton Hall Avenue",
+   "city": "Peterborough",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/b57c3977-d5d3-4a97-a199-76433a04d573.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 589,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the ivy-clad red trunk at the head of a double sequoia avenue on a broad earth path, summer daylight; lead photograph of peterborough/pbo_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:b40ceb87-e4e0-4441-8c93-32d663a7cc50",
    "seen": "2026-11-21",
    "kind": "a reader's photograph leading the tree it added",
@@ -820,6 +835,71 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "Only a coordinate (from a photograph that has not reached the server yet) in Nichinan, Tottori; no name or note, no register entry or article near it. Kept in data/leads/nichinan-tottori.json; judged again from the photograph when the sighting arrives.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a9759d2d-4122-4d95-bb74-edbf65865996",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Molkenkur Linden",
+   "city": "Heidelberg",
+   "species": "Lime (Tilia sp.)",
+   "photo": "out/sightings/a9759d2d-4122-4d95-bb74-edbf65865996.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lime (Tilia sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Molkenkur linden bare in November, cabled crown, banded trunk on the viewpoint terrace, daylight, colour. A reader's photo, so it leads the page (add); the old lead moved into the strip. Pin moved 14 m to their fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b57c3977-d5d3-4a97-a199-76433a04d573",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Giant Sequoia near Bowthorpe",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_b88d0387be93737c1e25f04f/B57C3977-D5D3-4A97-A199-76433A04D573.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 589,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a double avenue of tall giant sequoias beside Orton Hall, Peterborough, the thick ivy-clad foreground trunk the reader's (589 cm by their tape). Photo plus the photograph's own GPS fix, somewhat special: live as peterborough/pbo_001, a new place. The app had named it near Bowthorpe; the reader's report named Orton Hall.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1371",
+   "seen": "2026-11-21",
+   "kind": "a tip without a photograph",
+   "tree": "EAF6795D-B900-4A06-B31A-8850AC13FDA4",
+   "city": "Dunsfold",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "A coordinate from the app (GPS at the tree, near Dunsfold) whose photograph has not reached the server; no name or note, no register or article near it. Kept as a lead in data/leads/dunsfold.json, judged from the photograph when the sighting arrives. The reader's later hand-moved pin (report 1000109) is noted there.",
    "hidde": null,
    "agreed": null
   },

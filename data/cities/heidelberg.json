@@ -37,8 +37,8 @@
       "age_max": 250,
       "location": {
         "address": "Molkenkur, Heidelberg (below the Schlosshotel Molkenkur, on the Königstuhl slope above the castle)",
-        "latitude": 49.4071,
-        "longitude": 8.71269,
+        "latitude": 49.407047,
+        "longitude": 8.712872,
         "neighbourhood": "Molkenkur, above Heidelberg Castle"
       },
       "story": "Hollow inside and completely vital. That is the local paper's verdict on this linden, and the two halves of it are both true. The trunk is empty, the tree is in no trouble, and for the last twenty years its crown has been held together with cables so that it stays that way. The city has no intention of felling it.\n\nIt stands at the Molkenkur, the shoulder of the Königstuhl directly above Heidelberg Castle, where the funicular makes its stop and where people come for one of Heidelberg's best-known views. The linden has been a protected natural monument since October 1958, so it has spent the whole postwar life of the city on a register.\n\nIts age is given as roughly two hundred years by the newspaper that wrote it up, and nobody has done better than that. No ring count, no girth measurement, and the register does not even settle which linden it is, large-leaved or small-leaved. Treat two hundred as the middle of a wide band rather than a fact.\n\nOne thing to know before you climb. Our pin comes from the register's map tile rather than a reading taken at the trunk, so it puts you in the right place at the Molkenkur and not on the exact spot. Look for the cables, because a hollow veteran wearing steel is not hard to pick out.",
@@ -50,16 +50,20 @@
       "access": "Free, public viewpoint area at Molkenkur; no ticket needed to reach or stand by the tree.",
       "transport": "Heidelberg funicular (Bergbahn) from Kornmarkt to the Molkenkur stop, a few minutes; also reachable on foot via the Klingentor path from the castle, roughly 15-20 minutes uphill.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Linde_Molkenkur_im_Fr%C3%BChling%2C_Heidelberg.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Hartmut Schmidt Heidelberg, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/hei_001-the-molkenkur-linden-a9759d2d.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 4
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_84b0a53f820e2574ec877490",
+        "sighting_id": "a9759d2d-4122-4d95-bb74-edbf65865996",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The whole Molkenkur linden from the viewpoint terrace in bare winter form: a short thick trunk with two steel bands and the protected-tree triangle, the crooked crown held by cables, the Rhine plain and the Odenwald slope behind, autumn-yellow scrub around it. Daylight, colour, the tree fills the frame. Species seen: bare lime: dense twiggy crown with zigzag shoots, dark ridged bark, a short trunk breaking into several crooked limbs. Fits the description: cabled crown (the cable visible between the upper limbs), a steel-banded old trunk on a raised walled terrace at a viewpoint above the plain, as the recognition line and story describe.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by its hollow trunk and cabled crown, standing at the viewpoint where the funicular stops above Heidelberg Castle. It stands at the Molkenkur, on the Konigstuhl slope.",
       "official_register": {
         "name": "Naturdenkmal, Einzelgebilde (LUBW Schutzgebietssteckbrief), no. 82210001216",
@@ -72,6 +76,24 @@
         ],
         "label": "late June, when the Molkenkur linden flowers above the castle, scented and loud with bees",
         "kind": "flowers"
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Linde_Molkenkur_im_Fr%C3%BChling%2C_Heidelberg.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Hartmut Schmidt Heidelberg, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 4
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a9759d2d-4122-4d95-bb74-edbf65865996",
+        "moved_m": 14,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
