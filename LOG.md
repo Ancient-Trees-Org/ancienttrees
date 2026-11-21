@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: reader photos for the Athens holm oak and the Hampstead beech
+
+- Two readers' photographs are live, each now the lead photo on its tree. Athens ath_005, the Holm Oak of the National Garden: looking up into the many-limbed evergreen, the garden's label on the trunk. Its approximate pin moved 57 m to the reader's fix. London lon_052, the Gnarled Beech of Hampstead Heath: the hollow base and rope fence in autumn colour, an exact match for the recognition line. Both are filed under November.
+- Feedback 1358 ("can't change the country I live in", app profile) is closed `needs_hidde`. Both apps have a Country row in Edit profile, so the reader either missed it or the save failed. A reply asking which phone they use is in drafts/reply-reader-1358-2026-11-21.md.
+- No open reports, no new tips. The 38 waiting leads in _sightings.json are older ones from September to November, mostly our own account's test photos (Japan, Baarn, and 3c544597 in Amsterdam). None has its file on this runner, so they stay for a run that has the photographs.
+
 ## 2026-11-21 reader judge: York beech photo stops coming back
 
 - The York Minster Yard Beech's own photograph (bee85803, the one yor_007 was built from) had stayed `lead` in data/sightings-processed.json. The intake matched it to yor_007 and queued it again as a photo "of a tree we map". It is now `published` with tree_id yor_007, so the next intake skips it.

@@ -2156,7 +2156,17 @@
   },
   "p_1930a537941dd45cebc49579": {
    "last": "2026-11-18",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "ac011137-15ee-4125-ab0e-dd8b588d4709",
+     "tree_id": "lon_052",
+     "tree_name": "The Gnarled Beech of Hampstead Heath",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "145ff4d3-da0a-437e-8295-38c085728740",
@@ -2634,6 +2644,21 @@
      "mailed": "2026-11-21"
     }
    ]
+  },
+  "p_1d47e3a4246db671958cd9a8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
+     "tree_id": "ath_005",
+     "tree_name": "The Holm Oak of the National Garden",
+     "city": "Athens",
+     "city_slug": "athens",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -5974,7 +5974,8 @@
    "outcome": "published",
    "date": "2026-11-21",
    "tree_id": "yor_007",
-   "reason": "The photograph this reader's tree was built from (york/yor_007)."
+   "reason": "The photograph this reader's tree was built from (york/yor_007).",
+   "pin_checked": "2026-11-21"
   },
   "7a10db8b-7f67-4ceb-855c-185e9355c736": {
    "outcome": "published",
@@ -6001,6 +6002,28 @@
   "3d93957a-f9bc-4e6a-945d-80943ef691f1": {
    "outcome": "published",
    "date": "2026-11-21"
+  },
+  "61b034b0-f171-4340-bc4f-1df7ed9bdc2f": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "ath_005",
+   "city_slug": "athens",
+   "file": "ath_005-the-holm-oak-of-the-national-garden-61b034b0.jpg",
+   "reason": "Looking up into a broad, many-limbed evergreen oak in full leaf with a garden label on the trunk, 57 m from our pin in the National Garden; this is the holm oak. Species seen: small leathery evergreen leaves, finely chequered dark grey bark, low multi-stemmed crown: holm oak. Fits the description: a",
+   "lat": 37.974024061149,
+   "lon": 23.7371481210214,
+   "pin_checked": "2026-11-21"
+  },
+  "ac011137-15ee-4125-ab0e-dd8b588d4709": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "lon_052",
+   "city_slug": "london",
+   "file": "lon_052-the-gnarled-beech-of-hampstead-heath-ac011137.jpg",
+   "reason": "The fluted veteran beech with the dark hollow split open at its base, a low rope fence around it and autumn leaves underfoot, 15 m from our pin: exactly the recognition line. Species seen: smooth grey fluted bark, copper and gold beech leaves on the ground and in the crown. Fits the description: dar",
+   "lat": 51.5636970498549,
+   "lon": -0.17219220896056,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

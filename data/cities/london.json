@@ -2343,18 +2343,17 @@
       "verify_notes": "2026-11-15: sent by a reader through the app (submission 733) as 'European Beech in London', note 'Amazing gnarley trunk', GPS standing at the tree on Hampstead Heath. No register entry within 100 m. Published on the 2026-10-21 rule.",
       "access": "Free, on Hampstead Heath, open every day.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath.jpg",
-        "taken_month": 11,
-        "taken_month_basis": "yellow and orange autumn leaf in the crown and copper beech litter on the ground: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
+        "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath-ac011137.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_ba79d4e725f3f8a59bf76f41",
-        "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
-        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole beech with its hollow base in autumn colour, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        "contributor_user_id": "p_1930a537941dd45cebc49579",
+        "sighting_id": "ac011137-15ee-4125-ab0e-dd8b588d4709",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The fluted veteran beech with the dark hollow split open at its base, a low rope fence around it and autumn leaves underfoot, 15 m from our pin: exactly the recognition line. Species seen: smooth grey fluted bark, copper and gold beech leaves on the ground and in the crown. Fits the description: dark hollow at the base, fluted grey trunk, low rope fence, woodland on the Heath.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -2363,7 +2362,23 @@
         "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_052-the-gnarled-beech-of-hampstead-heath.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "yellow and orange autumn leaf in the crown and copper beech litter on the ground: autumn (sent date 2026-09-04 looks like an import date, not used) (season pass, 2026-11-19)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_ba79d4e725f3f8a59bf76f41",
+          "sighting_id": "cfd86b34-8abd-47e1-b301-a3501dfa4a31",
+          "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole beech with its hollow base in autumn colour, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     },
     {
       "id": "lon_053",

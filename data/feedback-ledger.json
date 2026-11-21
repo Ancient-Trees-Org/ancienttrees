@@ -256,6 +256,11 @@
    "status": "handled",
    "what": "Reply to our mail: the reader plans to send a coast redwood when home in a few weeks; nothing to act on until it arrives."
   },
+  "1358": {
+   "date": "2026-11-21",
+   "status": "needs_hidde",
+   "what": "Cannot change their home country; both apps have the Country row in Edit profile, so finding it or a failing save; reply drafted asking which platform"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

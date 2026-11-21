@@ -349,6 +349,136 @@
    "agreed": null
   },
   {
+   "id": "sight:7a10db8b-7f67-4ceb-855c-185e9355c736",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Husalle Lindens",
+   "city": "Copenhagen",
+   "species": "Small-leaved Lime (Tilia cordata)",
+   "photo": "out/sightings/7a10db8b-7f67-4ceb-855c-185e9355c736.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 119,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Small-leaved Lime (Tilia cordata)"
+   },
+   "verdict": "publish",
+   "reason": "An old pollarded linden of the row in Kongens Have, Rosenborg behind; first photograph of the avenue, now its lead; pin moved 119 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:85138489-8105-46ff-b500-3c08c04ce8b1",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Waldmüllerpark Wingnuts",
+   "city": "Vienna",
+   "species": "Caucasian Wingnut (Pterocarya fraxinifolia)",
+   "photo": "out/sightings/85138489-8105-46ff-b500-3c08c04ce8b1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Caucasian Wingnut (Pterocarya fraxinifolia)"
+   },
+   "verdict": "publish",
+   "reason": "The two spreading wingnuts either side of the playground in autumn leaf; first photograph of the pair, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3d93957a-f9bc-4e6a-945d-80943ef691f1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Castle Linden of Cmurek",
+   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole bare three-stemmed lime on the castle terrace, benches and an information board at its foot, daylight, colour. Lead photograph of trate/trt_001.",
+   "city": "Trate",
+   "species": "Lime (Tilia sp.)"
+  },
+  {
+   "id": "lead:3d93957a-f9bc-4e6a-945d-80943ef691f1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Linden",
+   "city": null,
+   "species": "Linden",
+   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 780,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Linden"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge three-stemmed old lime on the terrace of Cmurek Castle, Trate (Slovenia), benches and an information board at its foot. Plainly worth the walk; hand-placed pin approximate at the castle. Live as trate/trt_001, a new one-tree place; 500 years and 780 cm stated as the reader's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Holm Oak of the National Garden",
+   "city": "Athens",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/61b034b0-f171-4340-bc4f-1df7ed9bdc2f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 57,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the holm oak itself, many-limbed evergreen crown with the garden's label on the trunk; added beside the Commons photo as lead, pin moved to the reader's fix 57 m off",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ac011137-15ee-4125-ab0e-dd8b588d4709",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Gnarled Beech of Hampstead Heath",
+   "city": "London",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/ac011137-15ee-4125-ab0e-dd8b588d4709.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 15,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the hollow-based fluted beech inside its rope fence in autumn colour, exactly the recognition line; added as the tree's new lead photo",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -20861,92 +20991,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:7a10db8b-7f67-4ceb-855c-185e9355c736",
-   "seen": "2026-11-21",
-   "kind": "photo of a tree we map",
-   "tree": "The Husalle Lindens",
-   "city": "Copenhagen",
-   "species": "Small-leaved Lime (Tilia cordata)",
-   "photo": "out/sightings/7a10db8b-7f67-4ceb-855c-185e9355c736.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 119,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Small-leaved Lime (Tilia cordata)"
-   },
-   "verdict": "publish",
-   "reason": "An old pollarded linden of the row in Kongens Have, Rosenborg behind; first photograph of the avenue, now its lead; pin moved 119 m to the reader's fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:85138489-8105-46ff-b500-3c08c04ce8b1",
-   "seen": "2026-11-21",
-   "kind": "photo of a tree we map",
-   "tree": "The Waldmüllerpark Wingnuts",
-   "city": "Vienna",
-   "species": "Caucasian Wingnut (Pterocarya fraxinifolia)",
-   "photo": "out/sightings/85138489-8105-46ff-b500-3c08c04ce8b1.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Caucasian Wingnut (Pterocarya fraxinifolia)"
-   },
-   "verdict": "publish",
-   "reason": "The two spreading wingnuts either side of the playground in autumn leaf; first photograph of the pair, now its lead.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:3d93957a-f9bc-4e6a-945d-80943ef691f1",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Castle Linden of Cmurek",
-   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
-   "reader_note": "",
-   "hidde": null,
-   "agreed": null,
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: the whole bare three-stemmed lime on the castle terrace, benches and an information board at its foot, daylight, colour. Lead photograph of trate/trt_001.",
-   "city": "Trate",
-   "species": "Lime (Tilia sp.)"
-  },
-  {
-   "id": "lead:3d93957a-f9bc-4e6a-945d-80943ef691f1",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "Linden",
-   "city": null,
-   "species": "Linden",
-   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
-   "reader_note": "",
-   "reader_girth_cm": 780,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Linden"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: a huge three-stemmed old lime on the terrace of Cmurek Castle, Trate (Slovenia), benches and an information board at its foot. Plainly worth the walk; hand-placed pin approximate at the castle. Live as trate/trt_001, a new one-tree place; 500 years and 780 cm stated as the reader's.",
    "hidde": null,
    "agreed": null
   }

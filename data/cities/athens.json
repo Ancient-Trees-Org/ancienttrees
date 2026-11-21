@@ -223,8 +223,8 @@
       "age_max": 187,
       "location": {
         "address": "National Garden of Athens, Vasilissis Amalias 1, Athens 10557",
-        "latitude": 37.9744,
-        "longitude": 23.7367,
+        "latitude": 37.974024,
+        "longitude": 23.737148,
         "neighbourhood": "Syntagma"
       },
       "story": "The largest holm oak in the National Garden of Athens is old enough to have been planted by Queen Amalia's own gardeners, and big enough that it is rarely matched by wild specimens anywhere else in Greece. Amalia, the Bavarian-born wife of Greece's first king, Otto, commissioned the garden in 1839 as the country's first Western-style landscaped park, bringing in the French landscape architect François-Louis Bareaud to lay it out and filling it with species from across the Mediterranean and beyond. The holm oak is one of the survivors of that original planting scheme, now well past 150 years old, its evergreen canopy dense enough to blacken the ground beneath it even at midday. Unlike the garden's more famous palms and the eucalyptus that arrived later from Australia, Quercus ilex is native to Greece, so this particular tree represents restraint rather than imperial botanical trophy hunting, a local species given room to reach a size it rarely gets in the wild once grazing and firewood collecting are factored in. The tree stands among the garden's quieter paths, away from the pond and the small zoo that draw most visitors. Entry to the National Garden is free, every day, year round.",
@@ -236,17 +236,39 @@
       "transport": "Syntagma metro station (Lines 2 and 3), 5 min walk",
       "curation_status": "flagged",
       "notes": "Individual tree identification and age rest primarily on one detailed naturalist source (Athens Nature Journal); the garden's 1839 founding date and general presence of centenarian holm oaks is independently confirmed by the European Garden Heritage Network. Kept because the underlying facts check out even though this specific tree isn't cross-confirmed by a second dedicated source. Photo fetched and viewed directly: a genuinely massive spreading holm oak over a garden path, matching the description.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Holm_Oak_in_the_National_Garden%2C_Athens_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attribution": "macrolepis, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/ath_005-the-holm-oak-of-the-national-garden-61b034b0.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2816,
-        "height": 2112,
-        "taken_month": 10
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_1d47e3a4246db671958cd9a8",
+        "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: Looking up into a broad, many-limbed evergreen oak in full leaf with a garden label on the trunk, 57 m from our pin in the National Garden; this is the holm oak. Species seen: small leathery evergreen leaves, finely chequered dark grey bark, low multi-stemmed crown: holm oak. Fits the description: a big old evergreen with a dense dark canopy in a park setting, a garden label on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by its dense, dark evergreen canopy, unlike the garden's palms and eucalyptus. It stands among the National Garden's quieter paths, away from the pond."
+      "how_to_recognise": "You can recognise it by its dense, dark evergreen canopy, unlike the garden's palms and eucalyptus. It stands among the National Garden's quieter paths, away from the pond.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Holm_Oak_in_the_National_Garden%2C_Athens_-_panoramio.jpg",
+          "license": "CC BY 3.0",
+          "attribution": "macrolepis, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2816,
+          "height": 2112,
+          "taken_month": 10
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
+        "moved_m": 57,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "ath_006",
