@@ -186,6 +186,11 @@ Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished ve
 - **iPhone and Android, on main for the next builds**: the same tile (tree name under the photo, sent time after the name) on Discover's row and New from visitors, and face, name and time under the hero and in the opened photograph. Seen in the simulator on New from visitors ("Anthony B. · 2h"); Android compiles, not yet looked at on a device. SentAgoTests in ios.yml.
 - **Not yet**: the heart (needs his yes on a likes table, new personal data).
 
+## 2026-11-21 session: the Rannoch Rowan, Kate's tip, is on the map
+
+- **Live with the next deploy: rannoch-moor/rnm_001, the Rannoch Rowan**, the lone rowan growing out of a boulder beside the A82 near Achallader ("the loneliest tree in Scotland" in Forestry and Land Scotland's words, as quoted on Geograph). A reader's mail tip (`found_by_reader.tip`), so it gets a page; one tree, so no place page. Sources: Geograph 7619434 and 6464305, two photographers naming it. Photo: Brian Deegan's Geograph 7619434 via Commons (CC BY-SA 2.0), looked at, photo_light OK. Pin approximate (photographer's grid reference). No age published, so none given; the page asks. Kate's own words not quoted (no yes asked).
+- **Owed**: tell Kate it is up, once the page is live. Not done in this session.
+
 ## 2026-11-20 session: two Android "can't get it" mails answered
 
 - **SENT on Hidde's "send both mails out"**: Kate Fry (Woodland Trust Scotland, on the Alpha list by hand) got the Play opt-in link and a check that Play is signed in with the account she gave; Monique (wave 3) got the two steps again. Batch reply-kate-monique-2026-11-20.

@@ -1,0 +1,64 @@
+{
+  "city": "Rannoch Moor",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Rannoch Moor is the wide, wet upland the A82 crosses between Bridge of Orchy and Glen Coe, and one tree on its southern edge has become a landmark for everyone who drives it. The Rannoch Rowan grows out of the top of a giant boulder beside the road, the only tree in sight, which is why Forestry and Land Scotland once called it the loneliest tree in Scotland.",
+  "meta_description": "The Rannoch Rowan: a lone rowan growing out of a boulder beside the A82 on the edge of Rannoch Moor, Scotland. Where it is and how to see it.",
+  "hero_tree_id": "rnm_001",
+  "oldest_tree_id": "rnm_001",
+  "trees": [
+    {
+      "id": "rnm_001",
+      "name": "The Rannoch Rowan",
+      "species": "Rowan (Sorbus aucuparia)",
+      "location": {
+        "address": "Beside the A82 near Achallader, on the southern edge of Rannoch Moor, Argyll and Bute",
+        "latitude": 56.580939,
+        "longitude": -4.754875,
+        "neighbourhood": "Rannoch Moor"
+      },
+      "story": "Drive the A82 north from Bridge of Orchy towards Glen Coe and, where the road climbs onto the edge of Rannoch Moor, one tree stands up out of the bare grass. It is a rowan, and it is not growing in the ground. Its roots grip the top of a giant boulder, grey and furred with lichen, and a thin, weathered crown rises from that perch.\n\nForestry and Land Scotland once called it the loneliest tree in Scotland, and their explanation for why it is there at all is the boulder. Sheep and deer graze the moor, and a seedling on open ground does not last long. Up on the rock, out of their reach, this one did.\n\nPhotographers know it as the Rannoch Rowan, and it turns up again and again on Geograph, shot from the roadside under every kind of sky, sometimes with the road curving past below it.\n\nNobody has published its age. Rowans are not long-lived trees, and Forestry and Land Scotland gives the species a lifespan of around 120 years, so this is a stop for where it stands rather than for its years. If you know when it took hold, or have seen it in an old photograph, tell us on this page.",
+      "how_to_recognise": "You can recognise it as the only tree in sight on this stretch of the A82: a single rowan growing out of the top of a big lichen-covered boulder on the open moor, a few metres up from the road.",
+      "verified_sources": [
+        "https://www.geograph.org.uk/photo/7619434",
+        "https://www.geograph.org.uk/photo/6464305",
+        "https://nrs.preservation.mirrorweb.com/public/20210415051358mp_/https://forestryandland.gov.scot/learn/trees/rowan"
+      ],
+      "found_by_reader": {
+        "tip": "mail, 2026-11-20"
+      },
+      "verify_notes": "2026-11-21 session: a tip by mail (2026-11-20) from a Woodland Trust Scotland contact, linking Geograph 7619434 as 'the loneliest tree in Scotland'; no name kept here. Sources: Geograph 7619434 (Brian Deegan, 2023-09-17, 'Rannoch Rowan Tree'): growing on a large boulder by the A82, photographer parked in a nearby layby and walked back; his description quotes Forestry and Land Scotland's rowan page section 'The loneliest tree in Scotland' (a solitary rowan on Rannoch Moor visible from the A82 between Glen Coe and Bridge of Orchy, roots on a giant lichen-covered boulder, survival put down to its elevated position out of reach of sheep and deer). That section is gone from the live FLS page; the archived copy (National Records of Scotland web archive, 2021-04-15) is listed but could not be fetched (browser check), so the FLS words are taken as quoted on Geograph. Geograph 6464305 (Steve Daniels, 2019-07-08, 'The A82 passes the Rannoch Rowan'): growing out of a giant boulder on the edge of Rannoch Moor. Geograph 5327446 (Jim Barton) calls it the 'well-known' Rannoch Rowan. Commons holds further photos under the same name (777172, 18722, 4245984, 1549218). Lifespan of 120 years is FLS's figure for the species, not this tree. Age: no source, left empty. Not checked whether 'boulder is a glacial erratic' is said of this tree; left out. Pin: Geograph 7619434's subject position NN 3089 4662 (10 m), 56.580939 -4.754875; 6464305's point 56.580781 -4.753886 is 70 m off by the road; a photographer's grid reference, not a GPS fix, so approximate. Photo: Commons copy of Geograph 7619434 (2000x1334), looked at: the whole tree on its boulder, moor and hills behind, overcast daylight, colour, the tree inside the centre crop; photo_light OK. Kate's own words not quoted (a mail, no yes asked).",
+      "access": "Free, on open moorland beside the A82, under Scotland's right of responsible access. It is seen from the road; there is no path or sign. One photographer parked in a nearby layby and walked back along the verge, and the road is fast, so take care.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": "Geograph 7619434 subject grid reference NN 3089 4662 (10 m precision), placed by the photographer",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rannoch_Rowan_Tree_-_geograph.org.uk_-_7619434.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Brian Deegan, via Geograph Britain and Ireland / Wikimedia Commons",
+        "attribution_url": "https://www.geograph.org.uk/photo/7619434",
+        "status": "approved",
+        "width": 2000,
+        "height": 1334,
+        "taken_month": 9
+      }
+    }
+  ],
+  "question_meta": "The Rannoch Rowan grows out of a boulder beside the A82 on Rannoch Moor. Where it is and how to see it.",
+  "question_answer": "The Rannoch Rowan is a lone rowan (Sorbus aucuparia) growing out of the top of a giant lichen-covered boulder beside the A82, on the southern edge of Rannoch Moor near Achallader, between Bridge of Orchy and Glen Coe. Forestry and Land Scotland called it the loneliest tree in Scotland.",
+  "question_context": "The tree stands on open moor where sheep and deer graze, which keeps young trees from growing; Forestry and Land Scotland put this one's survival down to its perch on the boulder, out of their reach. Its roots grip the top of the rock, which is grey and covered in lichen, and its crown is thin and weathered by the wind off the moor. The A82 curves past just below it, and on that stretch it is the only tree in sight, so anyone driving between Bridge of Orchy and Glen Coe sees it against the sky. It is photographed often from the roadside, under the name the Rannoch Rowan, in every season and every kind of weather. Its age is not published. Rowans are short-lived as trees go, around 120 years by Forestry and Land Scotland's figure for the species, so it is worth the stop for where it grows rather than for its age. There is no path or sign; photographers park in a nearby layby and walk back, and the A82 is a fast road.",
+  "faq": [
+    {
+      "q": "Where is the Rannoch Rowan?",
+      "a": "Beside the A82 on the southern edge of Rannoch Moor, near Achallader, between Bridge of Orchy and Glen Coe."
+    },
+    {
+      "q": "Why does it grow on a rock?",
+      "a": "Forestry and Land Scotland put its survival down to the boulder: up there it is out of reach of the sheep and deer that graze the moor."
+    },
+    {
+      "q": "How old is it?",
+      "a": "No age has been published. If you know, tell us on the tree's page."
+    }
+  ]
+}
