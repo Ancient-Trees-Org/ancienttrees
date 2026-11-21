@@ -2776,6 +2776,30 @@
      "city_slug": "hasselt",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "65c79ad5-cbfa-4ed0-bd1e-69f39ed0780c",
+     "tree_id": "has_001",
+     "tree_name": "The Oak of Kiewit",
+     "city": "Hasselt",
+     "city_slug": "hasselt",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
+  },
+  "p_4881f05a5b317ab4de78c178": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "bad6bea5-2672-4a6a-9c4f-479ee2d3f1ef",
+     "tree_id": "sgp_002",
+     "tree_name": "The Fort Canning Rain Tree",
+     "city": "Singapore",
+     "city_slug": "singapore",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": []

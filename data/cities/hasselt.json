@@ -55,7 +55,7 @@
       },
       "photos": [
         {
-          "url": "https://ancienttrees.app/photos/has_001-the-oak-of-kiewit-e79f5d34.jpg",
+          "url": "https://ancienttrees.app/photos/has_001-the-oak-of-kiewit-65c79ad5.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
           "attribution": null,
           "status": "approved",
@@ -64,9 +64,8 @@
           "taken_month": 11,
           "source": "contributor",
           "contributor_user_id": "p_22c8aa9b88602739b67d46a4",
-          "sighting_id": "e79f5d34-e33f-4522-81f1-7a65eab19816",
-          "note": "Photographed by a reader and sent through the app (2026-11-21); in the strip since 2026-11-21, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-21"
+          "sighting_id": "65c79ad5-cbfa-4ed0-bd1e-69f39ed0780c",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: Closer frame of the same Kiewit oak from the rail: the dark mossy trunk and the crooked limbs under bronze autumn leaf, daylight, colour. The reader's wider shot stays the lead; this goes in the gallery. Species seen: lobed oak leaves in bronze autumn colour, furrowed dark trunk, crooked spreading limbs. Fits the description: lone oak in a grassy clearing behind a low wooden rail, straight dark trunk mossy at the foot, wide crown.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
     }

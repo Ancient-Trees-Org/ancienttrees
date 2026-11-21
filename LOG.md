@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a reader's photograph now leads the Fort Canning rain tree
+
+- **singapore/sgp_002 The Fort Canning Rain Tree**: a reader's photo now leads the page, replacing the Commons picture (`add`). It looks up into the crown over the brick stairway to Hill Street, with ferns on every limb. It was sent from the tree's page, so its coordinate is our own pin and the pin was not touched.
+- **hasselt/has_001 The Oak of Kiewit**: the same reader's closer view of the trunk and crooked limbs goes in the gallery (`strip`). Their other photo (`e79f5d34`) was the same frame as the lead photo and came out of the strip as a duplicate.
+- **bingley/bgy_001 The Old Beech of St Ives Estate**: `2e39b8cc` was the same frame as the fallen-limb photo already in the gallery. It came out of the strip as a duplicate.
+- Not judged: the Amsterdam lead `3c544597` (the reader was unsure which tree), because its photo is not on this runner. The older waiting leads in data/leads/_sightings.json (our own test photos in Japan and Baarn, plus the Nara and Kyoto ones) have no files here either. No open reports, no tips, no new feedback, no reader words waiting.
+- The 17:09 run had already put `e79f5d34` and `2e39b8cc` in the strip as `added`, without noticing that each repeats a frame already on its page. This run's duplicate verdicts replace those two entries in data/sightings-processed.json and data/judgements.json.
+
 ## 2026-11-21 night window, retry (later): Stuttgart two oaks
 Stuttgart pass gave the Adlereiche (stu_016, confirmed pin) and the Alte Eiche (stu_017, approximate), written and merged (d6e329a63), app-only. Every named shelf (boston, wales-yews, wisconsin and the rest) is already published; the "awaiting a writer" list is stale duplicates, not work. Madeira refused as a wall (0 of 12 leads have coordinates), claim released. Open question for a session: live bri_017 (Blaise Meadow Sweet Chestnut) sits about 1 km from the pin in its research file.
 

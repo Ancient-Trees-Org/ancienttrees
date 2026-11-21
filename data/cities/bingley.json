@@ -69,20 +69,6 @@
           "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the same beech from the other side, its trunk split at the foot where a great mossy limb has come down and lies along the ground, still joined to the tree, pines behind, low sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
           "taken_month": 11,
           "taken_month_basis": "sent with the lead photograph the same day; the same autumn shows in it"
-        },
-        {
-          "url": "https://ancienttrees.app/photos/bgy_001-the-old-beech-of-st-ives-estate-2e39b8cc.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1200,
-          "height": 1600,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_064cc750d7e96fa90046487e",
-          "sighting_id": "2e39b8cc-fef3-4717-a56f-8eaec302fd0b",
-          "note": "Photographed by a reader and sent through the app (2026-11-21); in the strip since 2026-11-21, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-21"
         }
       ]
     },
