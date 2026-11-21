@@ -2749,6 +2749,36 @@
     }
    ],
    "sent": []
+  },
+  "p_064cc750d7e96fa90046487e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "2e39b8cc-fef3-4717-a56f-8eaec302fd0b",
+     "tree_id": "bgy_001",
+     "tree_name": "The Old Beech of St Ives Estate",
+     "city": "Bingley",
+     "city_slug": "bingley",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
+  },
+  "p_22c8aa9b88602739b67d46a4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e79f5d34-e33f-4522-81f1-7a65eab19816",
+     "tree_id": "has_001",
+     "tree_name": "The Oak of Kiewit",
+     "city": "Hasselt",
+     "city_slug": "hasselt",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

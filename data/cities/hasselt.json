@@ -52,7 +52,23 @@
         "contributor_user_id": "p_22c8aa9b88602739b67d46a4",
         "sighting_id": "081afcee-57a6-4622-8de5-607f1c1a328c",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole oak standing alone in a clearing of rough grass, a straight dark trunk mossy at the foot under a broad crown of crooked limbs in bronze autumn leaf, a wooden rail along a path in front, blue sky, daylight, colour. The second file is the same frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/has_001-the-oak-of-kiewit-e79f5d34.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_22c8aa9b88602739b67d46a4",
+          "sighting_id": "e79f5d34-e33f-4522-81f1-7a65eab19816",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); in the strip since 2026-11-21, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-21"
+        }
+      ]
     }
   ],
   "question_meta": "The oak of Kiewit in Hasselt, Belgian Limburg: a lone, wide-crowned oak a reader photographed, where it stands and what we know so far.",
