@@ -10732,6 +10732,22 @@
    }
   },
   {
+   "common": "Outeniqua Yellowwood",
+   "latin": "Afrocarpus falcatus",
+   "names": {
+    "en": [
+     "Common Yellowwood"
+    ],
+    "nl": [
+     "Kalander",
+     "Outeniquageelhout"
+    ],
+    "de": [
+     "Gewöhnliches Afrogelbholz"
+    ]
+   }
+  },
+  {
    "common": "Overcup Oak",
    "latin": "Quercus lyrata",
    "names": {
@@ -10840,6 +10856,39 @@
    "names": {
     "en": [
      "paradisetree"
+    ]
+   }
+  },
+  {
+   "common": "Patagonian Cypress",
+   "latin": "Fitzroya cupressoides",
+   "names": {
+    "en": [
+     "Alerce"
+    ],
+    "nl": [
+     "Fitzroya"
+    ],
+    "de": [
+     "Alerce",
+     "Patagonische Zypresse"
+    ],
+    "es": [
+     "Alerce",
+     "Falso cipres de Patagonia",
+     "Lahuan"
+    ],
+    "fr": [
+     "Cyprès de Patagonie"
+    ],
+    "pt": [
+     "Cipreste-da-patagónia"
+    ],
+    "ja": [
+     "アレルシ",
+     "アレルセ",
+     "アレース",
+     "チリヒノキ"
     ]
    }
   },
@@ -16160,6 +16209,49 @@
    }
   },
   {
+   "common": "Willow",
+   "latin": "Salix sp.",
+   "names": {
+    "en": [
+     "osier",
+     "sallow"
+    ],
+    "nl": [
+     "Wilg",
+     "beekwilg"
+    ],
+    "de": [
+     "Weide",
+     "Weiden",
+     "Weidenbaumrinde",
+     "Weidenrinde"
+    ],
+    "es": [
+     "Anemocoria",
+     "Sauce",
+     "Sauces"
+    ],
+    "it": [
+     "Salice",
+     "Salici"
+    ],
+    "fr": [
+     "Marsaul",
+     "saule"
+    ],
+    "pt": [
+     "Salgueiro",
+     "Salso"
+    ],
+    "ja": [
+     "やなぎ",
+     "ウィロー",
+     "ヤナギ",
+     "ヤナギ属"
+    ]
+   }
+  },
+  {
    "common": "Willow Oak",
    "latin": "Quercus phellos",
    "names": {
@@ -16745,24 +16837,6 @@
    "common": "Red Horsechestnut",
    "latin": "Aesculus carnea",
    "mapped": false
-  },
-  {
-   "common": "Podocarpus",
-   "latin": "Afrocarpus falcatus",
-   "mapped": false,
-   "names": {
-    "en": [
-     "Common Yellowwood",
-     "Outeniqua Yellowwood"
-    ],
-    "nl": [
-     "Kalander",
-     "Outeniquageelhout"
-    ],
-    "de": [
-     "Gewöhnliches Afrogelbholz"
-    ]
-   }
   },
   {
    "common": "Peppermint Tree",
@@ -18409,40 +18483,6 @@
    "common": "Triangle Fig",
    "latin": "Ficus triangularis",
    "mapped": false
-  },
-  {
-   "common": "Patagonian Cypress",
-   "latin": "Fitzroya cupressoides",
-   "mapped": false,
-   "names": {
-    "en": [
-     "Alerce"
-    ],
-    "nl": [
-     "Fitzroya"
-    ],
-    "de": [
-     "Alerce",
-     "Patagonische Zypresse"
-    ],
-    "es": [
-     "Alerce",
-     "Falso cipres de Patagonia",
-     "Lahuan"
-    ],
-    "fr": [
-     "Cyprès de Patagonie"
-    ],
-    "pt": [
-     "Cipreste-da-patagónia"
-    ],
-    "ja": [
-     "アレルシ",
-     "アレルセ",
-     "アレース",
-     "チリヒノキ"
-    ]
-   }
   },
   {
    "common": "Oregon Ash",
