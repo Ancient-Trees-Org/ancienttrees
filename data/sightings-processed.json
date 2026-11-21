@@ -5971,8 +5971,10 @@
    "pin_checked": "2026-11-21"
   },
   "bee85803-fdec-48c4-84bb-e5b061af1994": {
-   "outcome": "lead",
-   "date": "2026-11-21"
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "yor_007",
+   "reason": "The photograph this reader's tree was built from (york/yor_007)."
   },
   "7a10db8b-7f67-4ceb-855c-185e9355c736": {
    "outcome": "published",

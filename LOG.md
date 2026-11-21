@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: York beech photo stops coming back
+
+- The York Minster Yard Beech's own photograph (bee85803, the one yor_007 was built from) had stayed `lead` in data/sightings-processed.json. The intake matched it to yor_007 and queued it again as a photo "of a tree we map". It is now `published` with tree_id yor_007, so the next intake skips it.
+- This run also judged the Cmurek linden. A parallel run's Trate page reached main first, so it stands and mine was dropped. Its choice not to cite the unreadable gazette PDF is the right one.
+- 3c544597 (our own account, near Amsterdam Stationsplein) is still not on disk and is left alone. Nothing else was waiting: no open reports, tips, feedback or reader notes.
+
 ## 2026-11-21 reader judge: a castle lime in Slovenia goes live (Trate, trt_001)
 
 - **trate/trt_001, The Castle Linden of Cmurek** (new one-tree place, Trate, Slovenia): a reader sent a huge old lime with three stems (3d93957a). It stands on the terrace of Cmurek Castle, across the Mura from Mureck, with benches and an information board at its foot. The reader gave about 500 years and 780 cm; the page states both as their figures. The pin was placed by hand, so it is approximate (OSM puts it at the castle). A search summary says Slovenia's 2025 decree protecting the castle names a centuries-old castle linden. The PDF would not open (expired certificate), so the decree is noted in `verify_notes` but not cited on the page. The congratulation mail waits for the deploy.
