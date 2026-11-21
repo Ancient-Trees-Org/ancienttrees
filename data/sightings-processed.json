@@ -5881,6 +5881,28 @@
   "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8": {
    "outcome": "published",
    "date": "2026-11-21"
+  },
+  "bb5b6aff-ddf6-455c-a4c6-32d0c274226d": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "dnk_002",
+   "city_slug": "dunkeld",
+   "file": "dnk_002-the-birnam-oak-bb5b6aff.jpg",
+   "reason": "Sent for Niel Gow's Oak, but its GPS fix stands on the Birnam Oak's pin (0 m; Niel Gow's Oak is 1.85 km west) and it shows the Birnam Oak: the whole tree in full leaf, the hollow trunk with its tall opening at the base, the gravel riverside path. The best whole-tree view this page has, so it leads. ",
+   "lat": 56.561345,
+   "lon": -3.57565833333333,
+   "pin_checked": "2026-11-21"
+  },
+  "4338584e-8437-4d91-bc51-82756fc43138": {
+   "outcome": "added",
+   "date": "2026-11-21",
+   "tree_id": "for_001",
+   "city_slug": "fortingall",
+   "file": "for_001-the-fortingall-yew-4338584e.jpg",
+   "reason": "The Fortingall Yew in daylight: the yew towering over its 1785 walled enclosure with the 'THE YEW' plaque and gate, plus a second frame of the split stems inside the wall. Both belong on the page; the current lead (also a reader's trunk portrait) stays. Species seen: Yew: flat dark-green needles in ",
+   "lat": 56.5981633333333,
+   "lon": -4.0511695,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

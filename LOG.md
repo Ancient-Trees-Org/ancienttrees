@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a new lead photo for the Birnam Oak, a third view of Fortingall, and Tyler's 1856
+
+- **dunkeld/dnk_002, The Birnam Oak**: a reader's photograph sent as Niel Gow's Oak (bb5b6aff). Its GPS fix is on the Birnam Oak's pin and 1.85 km from Niel Gow's Oak. It shows the Birnam Oak: the hollow trunk with its tall opening, full leaf, the riverside path. The queue entry was pointed at dnk_002 before applying. It is now the lead photo (June), and the earlier upward shot moved into the strip. Niel Gow's Oak still has no photograph.
+- **fortingall/for_001, The Fortingall Yew**: 4338584e shows the yew over its walled enclosure with the "THE YEW" plaque (July). It went into the strip. The reader's trunk portrait stays the lead. Their second frame nearly repeats that lead and was not added.
+- **Report 1000105 (media-pennsylvania/mdp_001, the Tyler Arboretum sequoia)**: "Planted 1856". This agrees with the Commons year the story already gave, so the story now names both. The age stays broad because the arboretum only gives the 1840s to 1860s. The report is their own words, so it was closed `holds` with no mail and no draft needed.
+- Nothing else waited: no other leads, tips, feedback or reader notes. 3c544597 is our own account's photo and is still not on disk.
+- Checks: qa --source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-21 second retry attempt
 
 - Shipped 2 Stuttgart trees (Pfaffeneiche stu_014, 16 Buchen stu_015), app-only under APP FIRST. Preflight 0 problems.

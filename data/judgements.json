@@ -121,6 +121,62 @@
    "agreed": null
   },
   {
+   "id": "sight:4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Forked Stone Pine of Castlemaine",
+   "photo": "p_5ad3b6676edab0c30c98329c/4DFF68AA-5E39-4DB5-BE9E-D2CDF8C261D8.jpg",
+   "reader_note": "Appears in the Victorian Register of Significant Trees.",
+   "verdict": "publish",
+   "reason": "The reader's photograph is the lead photo of castlemaine/cmn_002, viewed in daylight and colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bb5b6aff-ddf6-455c-a4c6-32d0c274226d",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "Niel Gow's Oak",
+   "city": "Dunkeld",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "out/sightings/bb5b6aff-ddf6-455c-a4c6-32d0c274226d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1850,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sessile Oak (Quercus petraea)"
+   },
+   "verdict": "publish",
+   "reason": "Sent for Niel Gow's Oak, but the GPS fix is on the Birnam Oak's pin and the photo shows the Birnam Oak's hollow trunk in full leaf. Now the lead photo of dunkeld/dnk_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4338584e-8437-4d91-bc51-82756fc43138",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Fortingall Yew",
+   "city": "Fortingall",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/4338584e-8437-4d91-bc51-82756fc43138.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 16,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "The Fortingall Yew over its walled enclosure with the THE YEW plaque, in daylight. Added to the gallery of fortingall/for_001; the reader's trunk lead stays.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -20633,18 +20689,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Forked Stone Pine of Castlemaine",
-   "photo": "p_5ad3b6676edab0c30c98329c/4DFF68AA-5E39-4DB5-BE9E-D2CDF8C261D8.jpg",
-   "reader_note": "Appears in the Victorian Register of Significant Trees.",
-   "verdict": "publish",
-   "reason": "The reader's photograph is the lead photo of castlemaine/cmn_002, viewed in daylight and colour.",
    "hidde": null,
    "agreed": null
   }

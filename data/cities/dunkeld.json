@@ -90,23 +90,36 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "photo": {
-        "url": "https://ancienttrees.app/photos/dnk_002-the-birnam-oak-d9a75ee5.jpg",
+        "url": "https://ancienttrees.app/photos/dnk_002-the-birnam-oak-bb5b6aff.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "taken_month": 11,
+        "taken_month": 6,
         "source": "contributor",
-        "contributor_user_id": "p_53e5eeacd2e1f82aeabf0d49",
-        "sighting_id": "d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e",
-        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Looking up the Birnam Oak's trunk into its crown, the long lower limb reaching out at left; a different view from the reader's other upload. Weaker as a card, fine in the strip. Species seen: Oak: lobed oak leaves against blue sky, ridged bark with an old wound. Fits the description: Thick old oak trunk with a long low limb running out sideways, same tree and same reader as 885730b7.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_e0e73e0270033f449047144b",
+        "sighting_id": "bb5b6aff-ddf6-455c-a4c6-32d0c274226d",
+        "note": "Photographed by a reader and sent through the app (2026-06-05); a viewing pass approved it on 2026-11-21: Sent for Niel Gow's Oak, but its GPS fix stands on the Birnam Oak's pin (0 m; Niel Gow's Oak is 1.85 km west) and it shows the Birnam Oak: the whole tree in full leaf, the hollow trunk with its tall opening at the base, the gravel riverside path. The best whole-tree view this page has, so it leads. Species seen: Oak: lobed oak leaves, deeply ridged bark, burrs, mossy spreading limbs. Fits the description: Very large hollow trunk with a tall opening at its base, long lower limbs reaching out sideways, beside a gravel path in woodland.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "pin_source": "OpenStreetMap natural=tree node 3639903710 (name The Birnam Oak, wikidata Q4916880, last edited 2025-07-31); agrees within about 40 m with Wikidata Q4916880 (56.5609,-3.5766) and Geograph subject points.",
       "verify_notes": "Last recognised survivor of Birnam Wood in Shakespeare's Macbeth, by local tradition; the tree itself is far younger than the 11th-century Macbeth. Wikipedia: trunk 5.5 m wide (Wikipedia calls this width, not girth), age 'around 600 years' from girth, so already mature if Shakespeare visited Perthshire with strolling players in 1589 (Britain Express, 'believed', not documented). Forestry and Land Scotland lists it among Scotland's most famous oaks (per Wikipedia). International Oak Society (Shaun Haddock, 2016): girth 7 m, height 27 m, hollow trunk recently worked on by specialists. OSM tag diameter=7000 (mm; roughly 7 m girth or diameter, unclear which; use girth 7 m as IOS gives). Hidden Scotland: first few metres of the trunk hollow, mossy bark, riverside path; lowest long branches held on wooden props (Britain Express: held upright by timber props). Sources differ: trunk 5.5 m wide (Wikipedia) versus girth 7 m (IOS); not a conflict if 5.5 m is the diameter, but written as 'wide'. Growing on low-lying ground behind flood levees; Britain Express (via search summary only, not read on the fetched page) mentions flood damage to roots in 2016 (Storm Desmond); treat as unverified. ALIVE: dated Geograph photo 2023-07-01 (Ralph Greig); OSM node edited 2025-07-31, after Storm Eowyn (Jan 2025); no report of storm damage found. Age is a size-derived estimate, no record exists. Nearby: the Birnam Sycamore (dnk_003) about 40 m away on the same path, a separate lead for the same stand; Niel Gow's Oak (dnk_001) is across the Tay on the Inver Walk.",
       "how_to_recognise": "You can recognise it by the hollow trunk, about 7 metres round, and the long lower limbs resting on timber props. It stands beside the riverside path on the Tay's south bank, a few steps from the Birnam Sycamore.",
       "story": "In Macbeth, the king is safe until Birnam Wood comes to Dunsinane. This oak is said to be the last tree of that wood still standing, which is a better story than it is history. The real Macbeth died in the 11th century, and this tree is far younger.\n\nNot young, though. Estimates from its size put it at roughly 500 to 600 years. The International Oak Society gives the trunk as 7 metres round and the tree as 27 metres tall, while Wikipedia describes the trunk as 5.5 metres wide, which may be the same trunk measured across rather than around. Either way it was already a sizeable oak if, as is believed but not documented, Shakespeare passed through Perthshire with a company of players in 1589.\n\nThe age shows. The first few metres of the trunk are hollow, the bark is thick with moss, and the long lower limbs reach so far out that they now rest on timber props. Specialists had recently worked on the hollow trunk when the Oak Society visited in 2016. It grows on low ground behind the Tay's flood banks, was photographed in full leaf in July 2023 and was still on the map in 2025.\n\nIt stands on the riverside path on the south bank of the Tay, a few minutes from Birnam village, free at any hour. A few steps along the same path is a sycamore that local tourist literature calls an oak.",
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/dnk_002-the-birnam-oak-d9a75ee5.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_53e5eeacd2e1f82aeabf0d49",
+          "sighting_id": "d9a75ee5-b09a-4375-bcaa-f9e3e755aa5e",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Looking up the Birnam Oak's trunk into its crown, the long lower limb reaching out at left; a different view from the reader's other upload. Weaker as a card, fine in the strip. Species seen: Oak: lobed oak leaves against blue sky, ridged bark with an old wound. Fits the description: Thick old oak trunk with a long low limb running out sideways, same tree and same reader as 885730b7.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://ancienttrees.app/photos/dnk_002-the-birnam-oak-885730b7.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
