@@ -1,0 +1,129 @@
+[
+ {
+  "id": "ott_023",
+  "name": "The Maidenhair Tree of the Dominion Arboretum",
+  "species": "Ginkgo (Ginkgo biloba)",
+  "age_estimate": "not documented",
+  "location": {
+   "address": "Dominion Arboretum, Central Experimental Farm, Ottawa, ON (near the Macoun Memorial Garden)",
+   "latitude": 45.38981896965041,
+   "longitude": -75.70912191455102,
+   "neighbourhood": "Central Experimental Farm / The Glebe"
+  },
+  "verified_sources": [
+   "data/registers/canada-capital-ncc-remarkable-trees.json (objectid 42)",
+   "https://en.wikipedia.org/wiki/Dominion_Arboretum",
+   "https://www.inaturalist.org/observations/251072667 (2024-11-05, Ginkgo biloba, coordinate within about 1 m of the register point)"
+  ],
+  "location_precision": "confirmed",
+  "verify_notes": "Register (objectid 42, NCC 2020): 'the oldest and most spectacular of the maidenhair trees in the Capital region'; credits the Experimental Farm's 19th-century hardiness trials for the ginkgo's spread. Categories: Age and dimensions, Rare taxon. No age or girth given; none recorded. Alive: iNaturalist observation 2024-11-05 identified Ginkgo biloba at 45.389816,-75.709184 (casual grade, positional accuracy 28 m), matching the register point to about 1 m; lifecheck RECENT. Otherwise register only, hence flagged. The Friends of the Farm CelebriTrees ginkgos (#70, #71) are young donor trees on the Circle road, a different tree; not used. Pin: register point corroborated by an observation; confirmed.",
+  "official_register": {
+   "name": "NCC 'A Living Legacy: Remarkable Trees of Canada's Capital' (Open Government Licence - Canada)",
+   "url": "https://ncc-hub-ncc-ccn.hub.arcgis.com/datasets/c60634aad7e84314a4a0431a885474ed_0"
+  },
+  "access": "Free. Inside the Dominion Arboretum, Central Experimental Farm (Agriculture and Agri-Food Canada); open to walk in dawn to dusk, no admission charge (Wikipedia, Dominion Arboretum, citing AAFC; one aggregator lists 10:00 to 16:00, treated as outdated).",
+  "curation_status": "flagged",
+  "story": "The National Capital Commission calls this the oldest and most spectacular ginkgo in the Capital region, and then declines to say how old that is. No planting date, no girth, no estimate. The claim stands on the register's word alone.\n\nWhat the register does offer is a reason ginkgos grow here at all. In the nineteenth century the Central Experimental Farm ran hardiness trials, planting trees from milder places to learn which could survive an Ottawa winter, and the register credits those trials with the spread of the ginkgo through the region. Whether this particular tree went in as one of them, it does not say.\n\nThe species has a stranger history than the Farm. Ginkgo biloba is the last living member of a lineage the fossil record carries back through the age of the dinosaurs, and its fan-shaped leaves look like nothing else in the Arboretum. In late autumn the whole crown turns butter gold, then lets go of its leaves within a day or two, which is the reason to come in early November, and to come back if you miss it.\n\nThe tree was last logged alive and identified by a naturalist in November 2024. Nobody has published its age. If you know when it was planted, tell us.",
+  "how_to_recognise": "You can recognise it by its fan-shaped leaves, which turn butter gold all at once in late autumn. It stands at the Central Experimental Farm near the Macoun Memorial Garden.",
+  "best_time": {
+   "months": [
+    10,
+    11
+   ],
+   "kind": "autumn colour",
+   "label": "late October into November, when the whole crown turns butter gold and drops within a day or two"
+  }
+ },
+ {
+  "id": "ott_024",
+  "name": "The Duke of Connaught's Red Oak",
+  "species": "Northern Red Oak (Quercus rubra)",
+  "age_estimate": "about 115 years",
+  "age_min": 110,
+  "age_max": 120,
+  "location": {
+   "address": "Dominion Arboretum, Central Experimental Farm, Ottawa, ON (Arboretum lawns)",
+   "latitude": 45.39022903326518,
+   "longitude": -75.70989267698587,
+   "neighbourhood": "Central Experimental Farm / The Glebe"
+  },
+  "verified_sources": [
+   "data/registers/canada-capital-ncc-remarkable-trees.json (objectid 29)",
+   "https://en.wikipedia.org/wiki/Dominion_Arboretum"
+  ],
+  "location_precision": "approximate",
+  "verify_notes": "Register (objectid 29): 'magnificent, hundred-year-old red oak planted in 1911 by the Honourable Duke of Connaught, governor general of Canada, living at Rideau Hall. That same year he had also planted a twin red oak on the property.' Age basis: documented planting 1911 per register, about 115 years in 2026; basis source. Register Indigenous name Mitigominj. No girth or height given. Alive: lifecheck RECENT only via an iNaturalist observation 2026-07-21 near the pin whose taxon is unresolved (needs_id), so thin; flagged, register only. Pin: register coordinate on the arboretum lawns with other trees within 100 m (ginkgo, cucumber tree); not shown to land on one crown, so approximate. The twin oak's location is not given. Connaught was governor general 1911 to 1916.",
+  "official_register": {
+   "name": "NCC 'A Living Legacy: Remarkable Trees of Canada's Capital' (Open Government Licence - Canada)",
+   "url": "https://ncc-hub-ncc-ccn.hub.arcgis.com/datasets/c60634aad7e84314a4a0431a885474ed_0"
+  },
+  "access": "Free. Inside the Dominion Arboretum, Central Experimental Farm (Agriculture and Agri-Food Canada); open to walk in dawn to dusk, no admission charge (Wikipedia, Dominion Arboretum, citing AAFC; one aggregator lists 10:00 to 16:00, treated as outdated).",
+  "curation_status": "flagged",
+  "story": "Queen Victoria's son planted this oak in 1911, and a twin the same year that the record never quite places. Prince Arthur, Duke of Connaught, had just become governor general and was living at Rideau Hall. The National Capital Commission's register records the twin as planted \"on the property\" and leaves it there, without saying which property or whether that oak still stands.\n\nSo this is the one you can find. It is a red oak, a species of eastern Canada's own woods, which makes it a native choice for a ceremonial planting rather than one of the imported species the Farm was trialling for hardiness. Connaught stayed in office until 1916, which means the tree had only a few summers in the ground before its planter found himself the King's representative in a country at war. By its documented planting it is about 115 years old now. The register also records an Indigenous name for it, Mitigominj, and describes a magnificent tree.\n\nTwo caveats, plainly. The pin is the register's point on the lawns, with other old trees within a hundred metres, and it has not been matched to a single crown. And the register is the last firm word on the tree. If you have stood under it lately, tell us.",
+  "how_to_recognise": "You can recognise it by its pointed, bristle-tipped oak leaves, red in October. It stands on the Dominion Arboretum lawns, within about 100 metres of the register's ginkgo and cucumber tree.",
+  "best_time": {
+   "months": [
+    10
+   ],
+   "kind": "autumn colour",
+   "label": "October, when the leaves turn a rich red"
+  }
+ },
+ {
+  "id": "ott_025",
+  "name": "The Cucumber Tree of the Arboretum Lawn",
+  "species": "Cucumber Tree Magnolia (Magnolia acuminata)",
+  "age_estimate": "about 130 years",
+  "age_min": 120,
+  "age_max": 135,
+  "location": {
+   "address": "Dominion Arboretum, Central Experimental Farm, Ottawa, ON (main lawn)",
+   "latitude": 45.39092928750054,
+   "longitude": -75.70997261910297,
+   "neighbourhood": "Central Experimental Farm / The Glebe"
+  },
+  "verified_sources": [
+   "data/registers/canada-capital-ncc-remarkable-trees.json (objectid 44)",
+   "https://friendsofthefarm.ca/plan-your-visit/collections/magnolias/the-magnolia-collection-at-the-central-experimental-farm/",
+   "https://en.wikipedia.org/wiki/Dominion_Arboretum"
+  ],
+  "location_precision": "approximate",
+  "verify_notes": "Register (objectid 44): planted at the Ottawa Experimental Farm in 1897; the only magnolia native to Canada; considered at risk because its native range is confined to the Carolinian forest. Second source: Crispin Wood, Lead Hand, Arboretum, AAFC (the ground's manager), on the Friends of the Farm magnolia page: 'The Cucumber Tree (M. acuminata) on the main lawn is unique in size and age. It's one of my favourite trees.' That page does not state 1897; the date rests on the register alone (a Streets of Toronto article says the Farm's first magnolia went in 1897, a pointer only, not fetched). Age basis: register planting date, about 129 years. Alive: the staff page is current; the lifecheck RECENT hit was an unrelated Prunus observation, not used. Pin: register coordinate in the main lawn area, not shown to land on one crown, approximate. Categories: Age and dimensions, Rarity and vulnerability, Picturesque.",
+  "official_register": {
+   "name": "NCC 'A Living Legacy: Remarkable Trees of Canada's Capital' (Open Government Licence - Canada)",
+   "url": "https://ncc-hub-ncc-ccn.hub.arcgis.com/datasets/c60634aad7e84314a4a0431a885474ed_0"
+  },
+  "access": "Free. Inside the Dominion Arboretum, Central Experimental Farm (Agriculture and Agri-Food Canada); open to walk in dawn to dusk, no admission charge (Wikipedia, Dominion Arboretum, citing AAFC; one aggregator lists 10:00 to 16:00, treated as outdated).",
+  "curation_status": "flagged",
+  "story": "Canada has exactly one native magnolia, and in the wild it is rare enough to be considered at risk. This one has been growing on a lawn in Ottawa since 1897.\n\nThe cucumber tree belongs to the Carolinian forest, the narrow band of southern Ontario along Lake Erie where the country's warmest woods grow, and that small range is the reason for its risk status. Ottawa sits a long way north of it. The National Capital Commission's register dates the planting to 1897, which makes it about 129 years old. That date rests on the register alone. The Arboretum's own staff do not give a year, but they do not hedge either. Writing for the Friends of the Farm, the Arboretum's lead hand, Crispin Wood, called the cucumber tree on the main lawn \"unique in size and age\" and added, \"It's one of my favourite trees.\"\n\nThe name comes from the fruit. Before it ripens it is green and knobbly, close enough to a small cucumber to have stuck. The flowers are a quieter affair than the magnolias people plant in front gardens, greenish and high in the crown, easy to walk past.\n\nThe pin marks the register's point on the main lawn, not a surveyed crown, so look up rather than at the dot.",
+  "how_to_recognise": "You can recognise it in late summer by its green, knobbly fruit, shaped like small cucumbers. It stands on the main lawn of the Dominion Arboretum, north of the Duke of Connaught's red oak."
+ },
+ {
+  "id": "ott_026",
+  "name": "The Macoun Garden Sycamore",
+  "species": "American Sycamore (Platanus occidentalis)",
+  "age_estimate": "about 130 years",
+  "age_min": 120,
+  "age_max": 135,
+  "location": {
+   "address": "Central Experimental Farm, Ottawa, ON (central flower bed, Macoun Memorial Garden)",
+   "latitude": 45.38931931991039,
+   "longitude": -75.70821192212668,
+   "neighbourhood": "Central Experimental Farm / The Glebe"
+  },
+  "verified_sources": [
+   "data/registers/canada-capital-ncc-remarkable-trees.json (objectid 69)",
+   "https://en.wikipedia.org/wiki/Dominion_Arboretum"
+  ],
+  "location_precision": "approximate",
+  "verify_notes": "Register (objectid 69): 'giant sycamore in the Experimental Farm's central flower bed, planted in 1897 from seeds originating from England' and set in the garden dedicated to William Terrill Macoun (William Saunders' assistant from 1888, head of the Horticultural Division 1898 to 1910, Dominion Horticulturalist 1910 to 1933). Register notes the irony: a North American species grown from English-sourced seed. Categories: Age and dimensions, Northern eccentric, Rare taxon. No girth or height given. Age basis: register planting date 1897, about 129 years. Alive: the lifecheck RECENT hit was a sunflower observation, not used; register only, flagged. Pin: register point in a garden bed with the Scots and Austrian pines (register ids 68, 65) and the bristlecone pine (id 61) within 30 m; approximate. Site name for the writer: Macoun Memorial Garden. CelebriTree Sycamore #82 is a different, young tree near the South Lookout.",
+  "official_register": {
+   "name": "NCC 'A Living Legacy: Remarkable Trees of Canada's Capital' (Open Government Licence - Canada)",
+   "url": "https://ncc-hub-ncc-ccn.hub.arcgis.com/datasets/c60634aad7e84314a4a0431a885474ed_0"
+  },
+  "access": "Free. Inside the Dominion Arboretum, Central Experimental Farm (Agriculture and Agri-Food Canada); open to walk in dawn to dusk, no admission charge (Wikipedia, Dominion Arboretum, citing AAFC; one aggregator lists 10:00 to 16:00, treated as outdated).",
+  "curation_status": "flagged",
+  "story": "An American sycamore is a North American tree, and this one was grown from seed that came from England. It went into the Central Experimental Farm's central flower bed in 1897, and the National Capital Commission's register points out the irony itself.\n\nThat makes it about 129 years old by its documented planting, and the register calls it a giant, though nobody has published a girth or a height to go with the word.\n\nThe bed around it is the Macoun Memorial Garden, named for William Terrill Macoun. He came to the Farm in 1888 as assistant to William Saunders, took charge of the Horticultural Division in 1898 and served as Dominion Horticulturist from 1910 to 1933. The sycamore was already a year in the ground when he took over the division, and it has outlasted his career by more than ninety years. Who actually planted it, the register does not say.\n\nIt shares the bed with conifers the register also lists, a Scots pine, an Austrian pine and a bristlecone pine, all within about 30 metres. The pin is the register's point among them rather than a surveyed trunk. If you have a tape, tell us what it says.",
+  "how_to_recognise": "You can recognise it by its bark, shedding in plates to leave pale patches, the broadleaf giant of the bed. It stands in the central bed of the Macoun Memorial Garden, with a Scots, an Austrian and a bristlecone pine within 30 metres."
+ }
+]

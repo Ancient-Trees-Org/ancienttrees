@@ -1,46 +1,86 @@
 {
-  "leads": [
-    {
-      "species": "Golden Weeping Willow (Salix x sepulcralis)",
-      "register_objectid": 144,
-      "sector": "OUL",
-      "latitude": 45.41084884158057,
-      "longitude": -75.68331241850933,
-      "reason": "Near-duplicate of ott_013 (register objectid 143), a golden weeping willow roughly 300m south along the same Queen Elizabeth Driveway pathway. This one's NCC description is a generic species blurb with no planting date or distinguishing detail ('an ideal ornamental species for areas near ponds, lakes...'), unlike ott_013's dated, specimen-specific description. Shipping both this close together, of the same species with one having nothing to say for itself, would read as padding. Worth reconsidering only if a distinguishing fact turns up for this specific tree."
-    },
-    {
-      "species": "Black Locust (Robinia pseudoacacia)",
-      "register_objectid": 9,
-      "sector": "CORE",
-      "latitude": 45.44130906018505,
-      "longitude": -75.69279233944413,
-      "reason": "Location confirmed via reverse geocoding as the Rideau River Eastern Pathway, New Edinburgh/Rockcliffe Park border, Ottawa (genuinely in Ottawa, unlike the Jacques-Cartier Park entries below). But the NCC register description is entirely generic ('a hardy species... planted extensively in North America... able to reproduce in the wild'), naming no age, size or specific history for this individual tree, so it does not argue for itself as worth the walk. Note for whoever picks this up: Rockcliffe Park does have a well-documented 'grove of Black Locust trees' embellished with a stone circle by Carver, Hazeland and Graham as part of a 1967 Centennial Village Green project (rockcliffepark.ca/environment-and-outdoor-spaces), but that feature sits near Springfield Road and Mariposa Avenue, a different location within the historic district from this tree's coordinate on the Rideau River pathway. Do not bridge that story onto this specimen without confirming they are the same trees; it looks like they are not."
-    },
-    {
-      "species": "White Oak (Quercus alba)",
-      "register_objectid": 2,
-      "sector": "CORE",
-      "latitude": 45.43861890292773,
-      "longitude": -75.70710250194185,
-      "reason": "Register describes this as standing in Jacques-Cartier Park, which reverse geocoding confirms is in Hull, Gatineau, Quebec, not Ottawa, Ontario. Out of scope for the Ottawa city file; would need a Gatineau city file if/when one exists. Do not publish under Ottawa."
-    },
-    {
-      "species": "Douglas-fir (Pseudotsuga menziesii var. menziesii)",
-      "register_objectid": 80,
-      "sector": "OUL",
-      "latitude": 45.39891,
-      "longitude": -75.70421,
-      "reason": "2026-09-16 verify pass. Register (NCC 'A Living Legacy') description is strong on narrative ('This magnificent Douglas-fir in Commissioners Park serves as an introduction to the Ottawa lumber tycoon John Rudolphus Booth, who took advantage of the depression of 1874-1876 to buy forest concessions at a discount') and Commissioners Park's own history as Booth's former lumberyard is independently confirmed (Wikipedia, 'Commissioners Park (Ottawa)'), but that confirms the PARK's history, not this specific tree: no second source was found naming or dating this individual specimen. Checked iNaturalist for Pseudotsuga menziesii/Pseudotsuga at 100m, 300m and 500m radius: zero matching observations within 100-300m, one casual-grade Pseudotsuga menziesii var. glauca observation (id 114935111, 2022) roughly 500m away, too far and the wrong variety to be this tree. Two WebSearch attempts (Commissioners Park Douglas fir Booth; Commissioners Park Douglas-fir conifer tour) found nothing further. One source only; does not clear the two-independent-sources bar. Worth reconsidering if a Commissioners Park tree walk, tulip-festival press piece or NCC blog post naming this conifer turns up."
-    },
-    {
-      "species": "Cypress Oak / English fastigiate oak (Quercus robur f. fastigiata)",
-      "register_objectid": 122,
-      "sector": "OUL",
-      "latitude": 45.40446,
-      "longitude": -75.68236,
-      "reason": "2026-09-16 verify pass. Register (NCC 'A Living Legacy') description: 'This Queen Elizabeth Driveway Cyprus oak and the surrounding and accompanying trees in this area were planted in all likelihood in the mid-1950s, around the time when the Dominion Arboretum began growing this variety' (note the register's own hedge, 'in all likelihood', which is itself a vague-source estimate rather than a documented date). No second source found: iNaturalist has zero Quercus/Quercus robur observations within 150m of the coordinate, and a WebSearch for the cultivar on Queen Elizabeth Driveway/Dominion Arboretum returned only generic background on what a 'cypress oak' cultivar is, nothing about this planting. One source only; does not clear the two-independent-sources bar. Distinct from ott_002/ott_003 (Tilia platyphyllos 'Vitifolia', a different QED avenue tree already published) and not a duplicate of anything live."
-    }
-  ],
-  "blocked": [],
-  "note": "This is a small slice of the National Capital Commission 'Remarkable Trees' register reviewed during the 2026-09-10 Ottawa deepen pass, not an exhaustive triage. 106 of the 114 candidates in data/research/ottawa-register-candidates.json (all except the 8 already published as ott_001-008) remain unresearched: most are in sectors RH, QUL and CEF_ARBORETUM (the Dominion Arboretum at the Central Experimental Farm), further from the core cluster. A future pass can pick up from that file directly; the 6 candidates verified this pass (ott_009 to ott_014) and the 3 leads above are the only ones reviewed so far.\n\n2026-09-16 verify pass (deepen, id range ott_020+): picked 4 named candidates per BRIEF_RESEARCH.md's exposure rule, all from the 120 unmined register entries. Two verified with a second independent source (American elm objectid 134 -> ott_020; Northern red oak objectid 123 -> ott_021, both on Queen Elizabeth Driveway south of Dow's Lake, both corroborated by a research-grade iNaturalist observation within ~15m of the register coordinate). Two failed only on the two-source bar and are recorded above as leads (Douglas-fir objectid 80 in Commissioners Park; Cypress oak objectid 122 on QED), not blocked: either could ship later if a second source turns up. 116 of the 120 unmined register candidates remain untouched."
+ "leads": [
+  {
+   "species": "Golden Weeping Willow (Salix x sepulcralis)",
+   "register_objectid": 144,
+   "sector": "OUL",
+   "latitude": 45.41084884158057,
+   "longitude": -75.68331241850933,
+   "reason": "Near-duplicate of ott_013 (register objectid 143), a golden weeping willow roughly 300m south along the same Queen Elizabeth Driveway pathway. This one's NCC description is a generic species blurb with no planting date or distinguishing detail ('an ideal ornamental species for areas near ponds, lakes...'), unlike ott_013's dated, specimen-specific description. Shipping both this close together, of the same species with one having nothing to say for itself, would read as padding. Worth reconsidering only if a distinguishing fact turns up for this specific tree."
+  },
+  {
+   "species": "Black Locust (Robinia pseudoacacia)",
+   "register_objectid": 9,
+   "sector": "CORE",
+   "latitude": 45.44130906018505,
+   "longitude": -75.69279233944413,
+   "reason": "Location confirmed via reverse geocoding as the Rideau River Eastern Pathway, New Edinburgh/Rockcliffe Park border, Ottawa (genuinely in Ottawa, unlike the Jacques-Cartier Park entries below). But the NCC register description is entirely generic ('a hardy species... planted extensively in North America... able to reproduce in the wild'), naming no age, size or specific history for this individual tree, so it does not argue for itself as worth the walk. Note for whoever picks this up: Rockcliffe Park does have a well-documented 'grove of Black Locust trees' embellished with a stone circle by Carver, Hazeland and Graham as part of a 1967 Centennial Village Green project (rockcliffepark.ca/environment-and-outdoor-spaces), but that feature sits near Springfield Road and Mariposa Avenue, a different location within the historic district from this tree's coordinate on the Rideau River pathway. Do not bridge that story onto this specimen without confirming they are the same trees; it looks like they are not."
+  },
+  {
+   "species": "White Oak (Quercus alba)",
+   "register_objectid": 2,
+   "sector": "CORE",
+   "latitude": 45.43861890292773,
+   "longitude": -75.70710250194185,
+   "reason": "Register describes this as standing in Jacques-Cartier Park, which reverse geocoding confirms is in Hull, Gatineau, Quebec, not Ottawa, Ontario. Out of scope for the Ottawa city file; would need a Gatineau city file if/when one exists. Do not publish under Ottawa."
+  },
+  {
+   "species": "Douglas-fir (Pseudotsuga menziesii var. menziesii)",
+   "register_objectid": 80,
+   "sector": "OUL",
+   "latitude": 45.39891,
+   "longitude": -75.70421,
+   "reason": "2026-09-16 verify pass. Register (NCC 'A Living Legacy') description is strong on narrative ('This magnificent Douglas-fir in Commissioners Park serves as an introduction to the Ottawa lumber tycoon John Rudolphus Booth, who took advantage of the depression of 1874-1876 to buy forest concessions at a discount') and Commissioners Park's own history as Booth's former lumberyard is independently confirmed (Wikipedia, 'Commissioners Park (Ottawa)'), but that confirms the PARK's history, not this specific tree: no second source was found naming or dating this individual specimen. Checked iNaturalist for Pseudotsuga menziesii/Pseudotsuga at 100m, 300m and 500m radius: zero matching observations within 100-300m, one casual-grade Pseudotsuga menziesii var. glauca observation (id 114935111, 2022) roughly 500m away, too far and the wrong variety to be this tree. Two WebSearch attempts (Commissioners Park Douglas fir Booth; Commissioners Park Douglas-fir conifer tour) found nothing further. One source only; does not clear the two-independent-sources bar. Worth reconsidering if a Commissioners Park tree walk, tulip-festival press piece or NCC blog post naming this conifer turns up."
+  },
+  {
+   "species": "Cypress Oak / English fastigiate oak (Quercus robur f. fastigiata)",
+   "register_objectid": 122,
+   "sector": "OUL",
+   "latitude": 45.40446,
+   "longitude": -75.68236,
+   "reason": "2026-09-16 verify pass. Register (NCC 'A Living Legacy') description: 'This Queen Elizabeth Driveway Cyprus oak and the surrounding and accompanying trees in this area were planted in all likelihood in the mid-1950s, around the time when the Dominion Arboretum began growing this variety' (note the register's own hedge, 'in all likelihood', which is itself a vague-source estimate rather than a documented date). No second source found: iNaturalist has zero Quercus/Quercus robur observations within 150m of the coordinate, and a WebSearch for the cultivar on Queen Elizabeth Driveway/Dominion Arboretum returned only generic background on what a 'cypress oak' cultivar is, nothing about this planting. One source only; does not clear the two-independent-sources bar. Distinct from ott_002/ott_003 (Tilia platyphyllos 'Vitifolia', a different QED avenue tree already published) and not a duplicate of anything live."
+  },
+  {
+   "species": "Bebb's oak (Quercus x bebbiana)",
+   "register_objectid": 26,
+   "sector": "CEF_ARBORETUM",
+   "latitude": 45.38767,
+   "longitude": -75.70617,
+   "reason": "Register: hundred-year-old oak disfigured by winds that hit 22 Arboretum trees, being restored by arborists. 2026-11-21 verify pass: register description carries a specimen detail but the pass was capped at four trees; unverified beyond the register, no second source or alive check yet."
+  },
+  {
+   "species": "Japanese tree lilac (Syringa reticulata)",
+   "register_objectid": 43,
+   "sector": "CEF_ARBORETUM",
+   "latitude": 45.39066,
+   "longitude": -75.70864,
+   "reason": "Register: two enormous trunks, planted 1921 with Boston's Arnold Arboretum. 2026-11-21 verify pass: register description carries a specimen detail but the pass was capped at four trees; unverified beyond the register, no second source or alive check yet."
+  },
+  {
+   "species": "Yellow buckeye (Aesculus flava)",
+   "register_objectid": 46,
+   "sector": "CEF_ARBORETUM",
+   "latitude": 45.38963,
+   "longitude": -75.70548,
+   "reason": "Register: grown since 1908 in the Dominion Arboretum, 'wonderful size'. 2026-11-21 verify pass: register description carries a specimen detail but the pass was capped at four trees; unverified beyond the register, no second source or alive check yet."
+  },
+  {
+   "species": "Bottlebrush buckeye (Aesculus parviflora)",
+   "register_objectid": 47,
+   "sector": "CEF_ARBORETUM",
+   "latitude": 45.38986,
+   "longitude": -75.70585,
+   "reason": "Register: planted 1908, a shrub-tree about 10 m across. 2026-11-21 verify pass: register description carries a specimen detail but the pass was capped at four trees; unverified beyond the register, no second source or alive check yet."
+  },
+  {
+   "species": "Austrian pine entwined with Scots pine (ids 65, 68)",
+   "register_objectid": 65,
+   "sector": "CEF_ARBORETUM",
+   "latitude": 45.38956,
+   "longitude": -75.70805,
+   "reason": "Register: old Austrian pine entwined with a Scots pine with flaky orange bark, in the Macoun Memorial Garden; twins metres apart, fold into one entry. 2026-11-21 verify pass: register description carries a specimen detail but the pass was capped at four trees; unverified beyond the register, no second source or alive check yet."
+  }
+ ],
+ "blocked": [],
+ "note": "This is a small slice of the National Capital Commission 'Remarkable Trees' register reviewed during the 2026-09-10 Ottawa deepen pass, not an exhaustive triage. 106 of the 114 candidates in data/research/ottawa-register-candidates.json (all except the 8 already published as ott_001-008) remain unresearched: most are in sectors RH, QUL and CEF_ARBORETUM (the Dominion Arboretum at the Central Experimental Farm), further from the core cluster. A future pass can pick up from that file directly; the 6 candidates verified this pass (ott_009 to ott_014) and the 3 leads above are the only ones reviewed so far.\n\n2026-09-16 verify pass (deepen, id range ott_020+): picked 4 named candidates per BRIEF_RESEARCH.md's exposure rule, all from the 120 unmined register entries. Two verified with a second independent source (American elm objectid 134 -> ott_020; Northern red oak objectid 123 -> ott_021, both on Queen Elizabeth Driveway south of Dow's Lake, both corroborated by a research-grade iNaturalist observation within ~15m of the register coordinate). Two failed only on the two-source bar and are recorded above as leads (Douglas-fir objectid 80 in Commissioners Park; Cypress oak objectid 122 on QED), not blocked: either could ship later if a second source turns up. 116 of the 120 unmined register candidates remain untouched."
 }
