@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a heritage white oak in Ontario, the Survivor Tree's first photo
+- **New tree, new place: Oakville, Canada** (oakville/okv_001, The Heritage White Oak of Bronte Creek). A reader sent the whole oak in spring leaf and a photo of the park's sign: germinated around 1685, Ontario Heritage Tree since 2022, 684 cm round, 19 m tall (girth and height from the sign). Waymarking and a park tour page back it up. The pin was placed by hand, so it stays approximate. The file's November date came from a screenshot, so the photo is filed as May by its fresh leaves.
+- **Moffat, The Survivor Tree (crf_001)** has its first photograph: a reader's 2021 shot of the lone rowan in flower above the Carrifran Burn. Now that the page is indexable, its colon reveal sentence has been rewritten.
+- **Pin reports**: Trate's castle linden moved 48 m to the reader's hand-placed spot (still approximate). Philadelphia's katsura is kept at today's GPS fix from a reader photo taken at the trunk, which outranks a pin moved by hand. Both got the standard pin thank-you.
+- **Ambassador**: a reader whose oak went live today asked by mail to be ambassador. They were granted Royal Leamington Spa, where their tree stands (they called it "near Stratford-upon-Avon").
+- Not judged: sighting 3c544597 (Amsterdam-Noord, 52.3972,4.8739) has no photograph on disk. It waits for an intake with the key.
+
 ## 2026-11-21 second attempt: nothing shipped
 Verified 0 new trees. One READY lead (York), under the six-candidate minimum, so no write pass. San Francisco verify pass (12th) found nothing new: register exhausted, now a wall for 48h; one Golden Gate Park oak grove recorded as a lead (a grove is not one point). The "awaiting a writer" pile is mostly stale duplicates of live trees (Cyprus, Tenerife, Ronda, Croatia and others), needing a clean-up pass, not a write pass. The deploy failures of 20:38 and 20:53 predate the Dominion Arboretum count fix; a deploy was dispatched to confirm.
 
