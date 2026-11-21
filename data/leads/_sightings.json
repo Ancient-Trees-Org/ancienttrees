@@ -9227,6 +9227,42 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "philadelphia/phl_023"
+  },
+  {
+   "sighting_id": "fba415e7-7e56-4859-bbfa-88ca09a74fd6",
+   "user_id": "p_a94e34ccafeeffaec7bf9e05",
+   "mine": false,
+   "name": "Empress Tree",
+   "unsure_among": null,
+   "species": "Empress Tree",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 41.0117701103629,
+   "longitude": -72.1289934432633,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/FBA415E7-7E56-4859-BBFA-88CA09A74FD6.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/fba415e7-7e56-4859-bbfa-88ca09a74fd6-extra-1.jpg",
+    "out/sightings/fba415e7-7e56-4859-bbfa-88ca09a74fd6-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Viewed 2026-11-21: a tall Royal Paulownia (Paulownia tomentosa, per a black botanical label screwed to its trunk in the reader's second photo), a broad crown going yellow over a thick grey trunk, standing at the back of a mown lawn with a house close behind it; sunny autumn daylight, the tree fills the frame. Worth a page by its size for the species. The pin is hand-placed on a house lot on Winding Way, a residential street in Springs, East Hampton (NY); no public garden, park or arboretum within reach (the Folly Tree Arboretum is 2.5 km off), and the photo is taken from inside the lawn, so we cannot tell whether it is seen from the street. Held not_public until the reader says it can be seen from a street or path; then it goes live with the pin on that spot. No standard mail: hold_reply.py takes website submissions only.",
+   "seen": "2026-11-21",
+   "hold": "not_public",
+   "judged": "2026-11-21"
   }
  ]
 }

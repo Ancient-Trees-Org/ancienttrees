@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a Royal Paulownia in Springs, East Hampton, held until we know it can be seen from the street
+
+- **Held `not_public`**: fba415e7, sent through the app as "Empress Tree". Three photographs, all viewed: a tall Royal Paulownia whose trunk carries a botanical label, at the back of a mown lawn with a house close behind it, in autumn sun. It is worth a page. The pin was placed by hand on a house lot on Winding Way, a residential street in Springs, Town of East Hampton, NY. No public garden is in reach; the Folly Tree Arboretum is 2.5 km away. The photos were taken from inside the lawn, so we cannot tell whether the tree can be seen from the street. If the reader says it can, it goes live with the pin on the viewing spot. hold_reply.py only takes website submissions, so no standard mail went out for this app sighting. That gap was already logged on 11-21 and is still not fixed.
+- **Left open**: 3c544597 is our own photo (`mine`), sent as "not sure which tree" near the Last Elm of Stationsplein in Amsterdam. Its file is not on disk, so it was not judged blind. It waits for an intake that holds the key.
+- No open reports, no open feedback, and no reader notes waiting to be quoted.
+
 ## 2026-11-21 reader judge: a reader's photographs now lead Te Matua Ngahere
 
 - **waipoua-forest/wai_002 Te Matua Ngahere**: this is the same reader as this evening's Tāne Mahuta photo, who sent four photographs from one visit. Their view from the viewing platform, with the tree's own plaque in frame and taken 50 m from our pin, now leads the page in place of the Commons photo (`add`). Their close view up the trunk and the tree's own track sign ("2nd largest kauri, 15 mins") went into the gallery (`strip`). Their photo of the car-park trailhead board listing three walks was rejected: no tree in frame, 610 m away.
