@@ -2,8 +2,8 @@
   "city": "Curaçao",
   "country": "Curaçao",
   "status": "needs_curation",
-  "intro": "Curaçao maps one tree so far, the kapok of Hofi Pastor in Barber, which the island's guides call its oldest tree. How old is disputed, with claims from 300 to 800 years and no published dating. It stands in a ranger-run garden of native plants behind the village church, about 30 to 45 minutes by car from Willemstad, with two walking trails passing its trunk.",
-  "meta_description": "The great kapok of Hofi Pastor in Barber, called Curaçao's oldest tree: where it stands, how to get there and what to look for.",
+  "intro": "Curaçao maps two trees so far. The kapok of Hofi Pastor in Barber, which the island's guides call its oldest tree, stands in a ranger-run garden of native plants behind the village church, about 30 to 45 minutes by car from Willemstad; how old it is is disputed, with claims from 300 to 800 years. In Willemstad itself a great fig shades the courtyard of Kandela, a restaurant, its crown spreading far over the street wall.",
+  "meta_description": "Curaçao's great kapok of Hofi Pastor, called the island's oldest tree, and the fig over Kandela's courtyard in Willemstad: where they stand.",
   "question_meta": "Curaçao's best-known old tree is the kapok of Hofi Pastor in Barber, with age claims from 300 to 800 years.",
   "question_answer": "The tree most often called Curaçao's oldest is the kapok (Ceiba pentandra) of Hofi Pastor, a garden of native plants behind the church in Barber, in the north-west of the island. Guides and Wikipedia give it 800 years; other accounts say 300, 400 or 600, and no dating has been published, so its age is open. It stands on the garden's walking trails, about 30 to 45 minutes by car from Willemstad.",
   "question_context": "The age claims do not fit together. Wikipedia, citing a 2017 article in the island magazine Inlander and an ANWB guide, gives 800 years. A local blog says the Caquetío, the island's first people, brought the tree over about 400 years ago, which cannot both be true, and other accounts give 300 or 600. Kapok grows fast, and nobody has published a measurement or a dating, so its age is best called unknown, and anyone who knows more is welcome to say so. The tree itself is easy to tell apart: a pale grey trunk with buttress roots running out like thin walls, and limbs that twist out sideways above the scrub. Hofi Pastor covers about 12 hectares and opened as a garden of native plants in 1996, with a ranger at the entrance. Accounts differ on whether there is a small fee of about NAf 5 in cash or none. The ground was once an orchard, a hòfi in Papiamentu, owned in the nineteenth century by Monsignor Niewindt, and the Landhuis Barber plantation house, founded in the early eighteenth century, stands nearby. Buses to Barber are rare, so most visitors drive.",
@@ -62,6 +62,51 @@
       },
       "how_to_recognise": "You can recognise it by its pale grey trunk with wall-like buttress roots and limbs twisting out sideways, the largest tree on the trail through Hofi Pastor, behind Barber church.",
       "verify_notes": "Verify pass 2026-11-01, Hidde named the place. One source cluster (Wikipedia and tourism writing), so flagged. Age left empty: 800 years (Wikipedia, citing Inlander 2017 and ANWB 2017, not seen), 400 years brought by the Caiquetios (blog), 300 or 600 elsewhere; no dating found. Pin from a komoot visitor highlight (12.290883, -69.073447), Hofi Pastor bus stop about 130 m away; not confirmed on a crown, so approximate. Alive per takeyourbackpack, updated Oct 2026. Photo: Commons 'Hòfi pastor - kapokboom.jpg' (Hardscarf, 2020-11-03, CC BY-SA 4.0, categories Ceiba pentandra and Barber, Curaçao); no geotag, but the title names this kapok at this site; pixels viewed 2026-11-01 (trunk and buttresses fill the frame, daylight, in leaf; photo_light OK)."
+    },
+    {
+      "id": "cuw_002",
+      "name": "The Fig of Kandela",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Courtyard of Kandela restaurant, Willemstad, Curaçao",
+        "latitude": 12.1058879352807,
+        "longitude": -68.8915812141263,
+        "neighbourhood": "Willemstad"
+      },
+      "how_to_recognise": "Behind a green wall with KANDELA painted on it: a fig whose trunk is a bundle of pale fused roots inside a rope ring, a wooden deck with tables round its foot, its dark crown far wider than the building next door.",
+      "access": "In the courtyard of Kandela, a restaurant, open to its guests in opening hours. The crown can be seen over the wall from the street.",
+      "verified_sources": [
+        "https://www.curacao.com/en/directory/taste (Curaçao Tourist Board directory: Kandela, hidden beneath a majestic tree on one of Curaçao's busiest streets)",
+        "https://curacaotodo.com/en/?p=37739 (Curaçao Todo: Kandela restaurant in Willemstad, diners seated under the tree)"
+      ],
+      "story": "Curaçao's tourist board describes Kandela as hidden beneath a majestic tree on one of the island's busiest streets, and a reader who ate there sent us the tree.\n\nFrom the road you see a green wall with the restaurant's name on it, a few parked cars, and above them a dark dome of leaves far wider than the building next door. Step into the courtyard and the tree turns out to be a fig. Its trunk is not one trunk but a bundle of pale roots that came down from the branches, reached the ground and thickened until they fused, the way figs build themselves in the tropics. A rope ring keeps people off them, a wooden deck runs round the foot, and the tables stand in its shade with the limbs spreading out over the walls on every side.\n\nWhich fig it is we would like a reader to confirm, and we do not know its age or who planted it. If you know the tree's story, or the restaurant does, tell us here.\n\nThe way to see it properly is to sit down under it for a meal, and look up through the roots into the crown.",
+      "found_by_reader": {
+        "sighting_id": "023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (023bf7b4-8706-4819-ba17-6bc7fb6dc744, 2026-11-21, through the app). Photograph viewed: the whole fig from inside a walled courtyard, a trunk of many fused pale roots inside a rope ring, a wooden deck with tables round it, the crown spreading far over the walls, daylight, colour; a second photograph from the street shows the crown rising over the wall and parked cars, wider than the building beside it, the name KANDELA on the wall. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near Curaçao', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cuw_002-fig-of-kandela.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_12951aff1d07de7480564b95",
+        "sighting_id": "023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole fig from inside a walled courtyard, a trunk of many fused pale roots inside a rope ring, a wooden deck with tables round it, the crown spreading far over the walls, daylight, colour; a second photograph from the street shows the crown rising over the wall and parked cars, wider than the building beside it, the name KANDELA on the wall. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

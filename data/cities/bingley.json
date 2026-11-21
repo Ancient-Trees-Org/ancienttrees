@@ -1,0 +1,77 @@
+{
+  "city": "Bingley",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Bingley is a town in the Aire valley in West Yorkshire, and above it lies the St Ives Estate, a country park of woods and open moor that Bradford Council has kept open to the public since 1974. Among its Scots pines stands an old beech with a broken limb at its foot, which a reader photographed and sent to us. We do not yet know its girth or age.",
+  "meta_description": "An old beech in the woods of the St Ives Estate at Bingley, West Yorkshire, sent by a reader: where it stands and what we know so far.",
+  "hero_tree_id": "bgy_001",
+  "oldest_tree_id": "bgy_001",
+  "trees": [
+    {
+      "id": "bgy_001",
+      "name": "The Old Beech of St Ives Estate",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "180 to 250 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Woodland on the St Ives Estate, between Bingley and Harden, West Yorkshire",
+        "latitude": 53.8471454365425,
+        "longitude": -1.86819614134927,
+        "neighbourhood": "St Ives Estate"
+      },
+      "how_to_recognise": "In woodland among tall Scots pines: a short, thick, ribbed beech trunk green with moss, a wide crown of fine branches, and a great broken limb lying across the leaf litter at its foot.",
+      "access": "Free. The St Ives Estate is a country park owned by Bradford Council, open all year; keep to the signed paths where they ask you to.",
+      "verified_sources": [
+        "https://bradforddistrictparks.org/park/st-ives-estate-country-park/ (Bradford District Parks: St Ives Estate country park, open all year)",
+        "https://en.wikipedia.org/wiki/Bingley_St_Ives (Bingley St Ives: a 550-acre country park and former estate between Bingley and Harden, owned by Bradford Council, open to the public since 1974)"
+      ],
+      "story": "The St Ives Estate, between Bingley and Harden in West Yorkshire, was a private estate for centuries before Bradford Council took it over in 1974 and opened its woods to everyone. A reader walking there in November sent us this beech.\n\nAmong the straight, slim Scots pines it is easy to see why they stopped. The beech is short and thick in the trunk, ribbed and green with moss, and it spreads into a wide crown of fine grey branches that, in the reader's picture, still hold a few copper leaves against a blue sky. It has not had an easy life. A great limb has broken away and lies across the leaf litter at its foot, and their second photograph shows where it tore from the trunk, leaving the wood split open. The tree carries on regardless, its crown still full on the other side.\n\nThe reader puts it at 180 to 250 years old. That is their estimate; we have not seen a measurement of its girth or a record of its planting. If you know more about it, tell us here.\n\nGo on a low, late afternoon, as the reader did, when the sun comes through the pines.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (e4c07e02-2e9d-4391-8581-47e61bab1fc6, 2026-11-21, through the app). Photograph viewed: looking up a thick, ribbed, mossy beech trunk into a wide crown of fine branches with the last copper leaves, Scots pines around, a big fallen limb at its foot, low sun, colour; a second photograph shows the trunk torn open where the limb broke off. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'European Beech in St Ives Estate, Bingley', species 'European Beech', age '180-250'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bgy_001-old-beech-of-st-ives-estate.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_064cc750d7e96fa90046487e",
+        "sighting_id": "e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: looking up a thick, ribbed, mossy beech trunk into a wide crown of fine branches with the last copper leaves, Scots pines around, a big fallen limb at its foot, low sun, colour; a second photograph shows the trunk torn open where the limb broke off. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "The old beech on the St Ives Estate at Bingley, West Yorkshire: where it stands, how old a reader thinks it is, and how to visit.",
+  "question_answer": "The Old Beech of St Ives Estate stands in the woods of the St Ives Estate, the country park between Bingley and Harden in West Yorkshire. A reader puts it at 180 to 250 years old. The estate is owned by Bradford Council and open all year, free.",
+  "question_context": "The St Ives Estate is a country park of about 550 acres between Bingley and Harden in the Aire valley, a former private estate that Bradford Council took over in 1974 and opened to the public. Its woods mix tall Scots pines with broadleaves, and in them a reader found and photographed this beech in November. It is short and thick in the trunk, ribbed and green with moss, with a wide crown of fine grey branches. A great limb has broken away and lies across the leaf litter at its foot, and a second photograph from the reader shows the wood split open where it tore from the trunk. The reader puts the tree at 180 to 250 years old. That is their estimate, and we have not seen a measurement of its girth or a record of when it was planted, so anyone who knows more is welcome to tell us. The estate is open all year and free to walk, though some routes are signed for walkers only, so follow the signs on the paths.",
+  "faq": [
+    {
+      "q": "Where is the old beech on the St Ives Estate?",
+      "a": "In the woods of the St Ives Estate, the country park between Bingley and Harden in West Yorkshire, among tall Scots pines. Our pin is approximate, so look around it for a thick mossy beech with a broken limb at its foot."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader puts it at 180 to 250 years old. That is their estimate; we have not seen a measurement or a planting record."
+    },
+    {
+      "q": "Does it cost anything to visit?",
+      "a": "No. The St Ives Estate is a Bradford Council country park, open all year and free to walk."
+    }
+  ]
+}

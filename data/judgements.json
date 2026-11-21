@@ -966,6 +966,117 @@
    "agreed": null
   },
   {
+   "id": "lead:4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Turin",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_9958e447be18d50bb8fd84bc/4912EDD4-5E1A-4800-AB16-DC5CB9F63202.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big weeping beech in the Giardini Reali in autumn curtains, GPS fix at the tree. Live as turin/tor_012; the reader's 200 years stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in St Ives Estate, Bingley",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_064cc750d7e96fa90046487e/E4C07E02-2E9D-4391-8581-47E61BAB1FC6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a thick mossy veteran beech with a broken limb among Scots pines on the St Ives Estate (public council country park). Hand-placed pin, so approximate. Live as bingley/bgy_001, a one-tree place without a place page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Curaçao",
+   "city": null,
+   "species": null,
+   "photo": "p_12951aff1d07de7480564b95/023BF7B4-8706-4819-BA17-6BC7FB6DC744.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photographs viewed: a great fig of fused aerial roots filling the courtyard of Kandela restaurant in Willemstad, crown visible over the street wall; the tourist board names the restaurant's tree. Hand-placed pin, approximate. Live as curacao/cuw_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1379",
+   "seen": "2026-11-21",
+   "kind": "a tip without a photograph",
+   "tree": "61FACF32-6C1E-4B79-9F4E-F4BD901CCCEC",
+   "city": "Leeds",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "lead",
+   "reason": "GPS coordinate only, 30 m from the Bingley beech; its photograph (sighting 61FACF32) has not reached the server. Lead in data/leads/bingley.json, judged when the photograph arrives.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1373",
+   "seen": "2026-11-21",
+   "kind": "a tip without a photograph",
+   "tree": "081AFCEE-57A6-4622-8DE5-607F1C1A328C",
+   "city": "Geetbets",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "The app's row for sighting 081afcee, already live as hasselt/has_001 (The Oak of Kiewit); nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -21478,6 +21589,42 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Weeping Beech of the Giardini Reali",
+   "photo": "p_9958e447be18d50bb8fd84bc/4912EDD4-5E1A-4800-AB16-DC5CB9F63202.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a big weeping beech in autumn curtains in the Giardini Reali. Live as turin/tor_012 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Old Beech of St Ives Estate",
+   "photo": "p_064cc750d7e96fa90046487e/E4C07E02-2E9D-4391-8581-47E61BAB1FC6.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a thick mossy beech with a broken limb among Scots pines. Live as bingley/bgy_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Fig of Kandela",
+   "photo": "p_12951aff1d07de7480564b95/023BF7B4-8706-4819-BA17-6BC7FB6DC744.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a great fig of fused aerial roots in a restaurant courtyard. Live as curacao/cuw_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

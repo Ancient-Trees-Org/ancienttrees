@@ -1,0 +1,14 @@
+{
+  "leads": [
+    {
+      "name": "A tree a reader sent from the St Ives Estate, Bingley",
+      "species": null,
+      "latitude": 53.84703,
+      "longitude": -1.86781,
+      "location_precision": "approximate",
+      "source": "reader tip, submission 1379 (2026-11-21), coordinate from the app's GPS standing at the tree",
+      "why": "2026-11-21 reader judge: the app sent a GPS fix at the tree but the photograph (sighting 61FACF32) has not reached the server yet; no name or note. It is about 30 m from bingley/bgy_001 (the old beech, sent a minute earlier with a hand-placed pin, sighting e4c07e02). When the photograph arrives: if it shows that beech, its fix becomes bgy_001's pin (confirmed); if another tree, judge it as new."
+    }
+  ],
+  "blocked": []
+}

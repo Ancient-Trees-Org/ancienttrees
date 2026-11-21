@@ -525,6 +525,53 @@
         "url": null
       },
       "verify_notes": "Register number from Alberi monumentali del Piemonte (Regione Piemonte) no. 001/F335/TO/01 (data/registers/piemonte-alberi-monumentali.json), matched on our pin at 0 m (register_match.py, 2026-10-12)."
+    },
+    {
+      "id": "tor_012",
+      "name": "The Weeping Beech of the Giardini Reali",
+      "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+      "age_estimate": "about 200 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Giardini Reali, behind Palazzo Reale, Torino",
+        "latitude": 45.0720567391937,
+        "longitude": 7.68740924350378,
+        "neighbourhood": "Centro, Giardini Reali"
+      },
+      "how_to_recognise": "A beech whose branches hang to the ground in long curtains all round it, a thick grey trunk inside, and one great bare limb reaching out low across the grass on one side.",
+      "access": "Free, in the public Giardini Reali behind Palazzo Reale, open in daytime.",
+      "story": "A reader walking in the Giardini Reali, the old royal gardens behind Turin's Palazzo Reale, sent us this beech in November, and it is the kind of tree people walk into rather than past.\n\nIt is a weeping beech. Its branches climb a little way and then give up, falling back towards the grass in long hanging curtains until the whole crown becomes a tent with a grey trunk for a pole. In the reader's photograph the curtains are halfway through turning, green inside, yellow and copper on the outside, against a clear blue sky. Low on the left a great limb has gone bare and pale, reaching out across the lawn like an arm left behind, and a walker stands half hidden among the branches beyond it.\n\nThe reader puts it at about 200 years. That is their estimate; we have not found it in Piemonte's register of monumental trees or a measurement of its trunk. The garden's Caucasian elm, which is on that register, stands about 150 metres away.\n\nIf you know this tree's story, or have put a tape round it, tell us here.\n\nPart the curtain and step inside, where the light turns gold.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (4912edd4-5e1a-4800-ab16-dc5cb9f63202, 2026-11-21, through the app). Photograph viewed: the whole weeping beech from the lawn, curtains of hanging branches in yellow, copper and green, a thick grey trunk, one long bare limb reaching out low to the left, blue sky, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'European Beech in Turin', species 'European Beech', age '200'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tor_012-weeping-beech-of-the-giardini-reali.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9958e447be18d50bb8fd84bc",
+        "sighting_id": "4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole weeping beech from the lawn, curtains of hanging branches in yellow, copper and green, a thick grey trunk, one long bare limb reaching out low to the left, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

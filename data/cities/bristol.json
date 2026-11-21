@@ -906,7 +906,7 @@
     {
       "id": "bri_023",
       "name": "The Red-barked Conifer of Bishops Knoll",
-      "species": "Cypress family conifer (Cupressaceae, species to be confirmed)",
+      "species": "Coast Redwood (Sequoia sempervirens)",
       "location": {
         "address": "Bishops Knoll Wood, Bramble Lane, Stoke Bishop, Bristol BS9 1JH",
         "latitude": 51.473585303284,
@@ -918,7 +918,7 @@
       "verified_sources": [
         "https://www.woodlandtrust.org.uk/visiting-woods/woods/bishops-knoll/ (Bishops Knoll, Woodland Trust: the wood and its exotic trees from the old Knoll estate)"
       ],
-      "story": "A reader in Bishops Knoll Wood, above the Avon in Stoke Bishop, sent us this photograph from the foot of the trunk, a few dozen metres from where we mark the wood's great Monterey cypress.\n\nThey sent it as that cypress, but we do not think it is. The old cypress is famous for its girth and its railings; this tree is a single straight column of red-brown bark, soft and stringy, climbing clean through the canopy with slender branches leaving it in whorls, each hung with fine, feathery sprays. That looks to us like a western red cedar or a redwood, both of the cypress family and both planted in the old Knoll gardens' Victorian taste for trees from far away. We may be wrong, and if this is the Monterey cypress after all, tell us and we will put the photograph on its page instead.\n\nEither way it is a fine tree. Look up from its foot, as the reader did, and the trunk seems to go on for ever, the branches radiating from it like the spokes of a wheel, sycamore leaves catching the light around them.\n\nIf you know which tree this is, or have measured it, tell us here.",
+      "story": "A reader in Bishops Knoll Wood, above the Avon in Stoke Bishop, sent us this photograph from the foot of the trunk, a few dozen metres from the wood's great Monterey cypress.\n\nThey first sent it as that cypress. Then they went back, looked again, and wrote to tell us it is a coast redwood, the Californian giant the Victorians planted in gardens like this one. The Woodland Trust, which owns the wood, names a giant coast redwood among the exotic trees left from the grounds of The Knoll, the mansion that stood here until the 1970s. The cypress is the famous one, with its girth and its old railings; this tree is a single straight column of red-brown bark, soft and stringy, climbing clean through the canopy with slender branches leaving it in whorls, each hung with fine, feathery sprays.\n\nIt is a fine tree. Look up from its foot, as the reader did, and the trunk seems to go on for ever, the branches radiating from it like the spokes of a wheel, sycamore leaves catching the light around them.\n\nIf you know which tree this is, or have measured it, tell us here.",
       "found_by_reader": {
         "sighting_id": "40b57e0b-fc77-4f71-affd-50f82641ab10",
         "date": "2026-11-18"
@@ -932,7 +932,7 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-18 reader judge: sent by a reader (40b57e0b-fc77-4f71-affd-50f82641ab10, 2026-11-17, through the app (sent for bri_015)). Photograph viewed: looking up a straight, red-brown fibrous trunk with whorls of slender branches carrying fine feathery sprays, sycamore leaves top right, daylight, colour. Not the Monterey cypress of bri_015 by its foliage and form. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-18 reader judge: sent by a reader (40b57e0b-fc77-4f71-affd-50f82641ab10, 2026-11-17, through the app (sent for bri_015)). Photograph viewed: looking up a straight, red-brown fibrous trunk with whorls of slender branches carrying fine feathery sprays, sycamore leaves top right, daylight, colour. Not the Monterey cypress of bri_015 by its foliage and form. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name '', species 'None', age 'None'. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-21 reader judge: the same reader wrote back by mail (feedback 1381, thread of row 976) that the tree they photographed is a coast redwood (Sequoia sempervirens), not the Monterey cypress; species set to Coast Redwood on their identification, which matches the photograph's bark and whorled sprays and the Woodland Trust's giant coast redwood in these grounds. Their OS reference for the cypress (ST 55327 75129) lands 12 m from bri_015's pin, already moved to their photo's fix that morning.",
       "photo": {
         "url": "https://ancienttrees.app/photos/bri_023-red-barked-conifer-of-bishops-knoll.jpg",
         "taken_month": 11,
