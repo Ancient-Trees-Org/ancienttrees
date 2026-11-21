@@ -20863,6 +20863,50 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:7a10db8b-7f67-4ceb-855c-185e9355c736",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Husalle Lindens",
+   "city": "Copenhagen",
+   "species": "Small-leaved Lime (Tilia cordata)",
+   "photo": "out/sightings/7a10db8b-7f67-4ceb-855c-185e9355c736.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 119,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Small-leaved Lime (Tilia cordata)"
+   },
+   "verdict": "publish",
+   "reason": "An old pollarded linden of the row in Kongens Have, Rosenborg behind; first photograph of the avenue, now its lead; pin moved 119 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:85138489-8105-46ff-b500-3c08c04ce8b1",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Waldmüllerpark Wingnuts",
+   "city": "Vienna",
+   "species": "Caucasian Wingnut (Pterocarya fraxinifolia)",
+   "photo": "out/sightings/85138489-8105-46ff-b500-3c08c04ce8b1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Caucasian Wingnut (Pterocarya fraxinifolia)"
+   },
+   "verdict": "publish",
+   "reason": "The two spreading wingnuts either side of the playground in autumn leaf; first photograph of the pair, now its lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

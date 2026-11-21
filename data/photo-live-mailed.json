@@ -369,7 +369,17 @@
   },
   "p_f1fa71dcb9e46093382f0068": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "7a10db8b-7f67-4ceb-855c-185e9355c736",
+     "tree_id": "cop_004",
+     "tree_name": "The Husalle Lindens",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "fcdce151-c9a5-4421-8781-585b038bb4a3",
@@ -2569,7 +2579,17 @@
   },
   "p_230ca0c6269992f101ed0a8d": {
    "last": "2026-11-21",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "85138489-8105-46ff-b500-3c08c04ce8b1",
+     "tree_id": "vie_038",
+     "tree_name": "The Waldmüllerpark Wingnuts",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",

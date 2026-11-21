@@ -176,8 +176,8 @@
       "species": "Small-leaved Lime (Tilia cordata)",
       "location": {
         "address": "Husalle, Kongens Have, Copenhagen",
-        "latitude": 55.685078,
-        "longitude": 12.579981,
+        "latitude": 55.686037,
+        "longitude": 12.579147,
         "neighbourhood": "Indre By"
       },
       "story": "Kongens Have is Copenhagen's oldest public park, laid out from 1606 for King Christian IV beside his new Rosenborg Castle, and its formal linden avenues were planted soon after: Kavalergangen and Damegangen, the two clipped alleys nearest the castle, date to around 1664 and 1700. Almost none of those original trees survive; both avenues have been replanted more than once in the four centuries since. Husalle, a third avenue running parallel to the garden's main axis a little further north, has fared differently: its lindens are described by garden historians as among the oldest living trees in Denmark, having escaped the repeated replacements that emptied the more formal avenues nearer the castle of their original planting. The garden itself has survived far more than ordinary wear. It has hosted royal pleasure grounds, public promenades, and, in recent years, a summer sound installation that lets speakers hidden in ten of its trees tell stories to anyone who walks close enough to trigger them, a very modern use for trees old enough to have shaded Danish kings centuries before recorded sound existed. Husalle's lindens do their storytelling the old way, simply by having outlasted almost everything planted around them.",
@@ -188,14 +188,21 @@
       "access": "Free, open access, Kongens Have (public park, open daily)",
       "transport": "Norreport railway and metro station, short walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cop_004-the-husalle-lindens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f1fa71dcb9e46093382f0068",
+        "sighting_id": "7a10db8b-7f67-4ceb-855c-185e9355c736",
+        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-21: An old pollarded linden in Kongens Have with Rosenborg Castle behind, another trunk of the row at the right edge; bare November crown, daylight, colour. First photograph of the avenue. Species seen: lime: pollard knuckles, smooth grey trunk, twiggy crown typical of a clipped linden. Fits the description: a gnarled pollarded linden standing in a row in Kongens Have beside Rosenborg, as the recognition line describes the avenue.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Kongens Have's founding (1606) and the c.1664/c.1700 planting of Kavalergangen and Damegangen are documented by the official Danish heritage agency's Trap Danmark entry and corroborated by Danish Wikipedia; both also state that virtually no original trees remain in those two avenues. The claim that Husalle's lindens are 'among the oldest in the country' comes from the same sources but without an exact planting date for that specific avenue, so the age range given here (300-360 years) reflects the garden's documented 1660s-1700s planting era generally rather than a dated record for Husalle itself. This entry represents the avenue as a whole rather than a single named tree.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "best_time": {
         "months": [
           6,
@@ -205,7 +212,14 @@
         "kind": "flowers"
       },
       "how_to_recognise": "Not one tree but the avenue: the lindens lining Husallé, one of the three lime avenues of Kongens Have laid out from 1664. Walk it end to end; the widest, most gnarled trunks are the old ones.",
-      "verify_notes": "2026-11-15: a reader could not tell which tree is meant (submission 805). Age range removed: it came from the garden's planting era, not from a dated record of these trees; cores from Kavalergangen gave about 165 years (NNU 1996)."
+      "verify_notes": "2026-11-15: a reader could not tell which tree is meant (submission 805). Age range removed: it came from the garden's planting era, not from a dated record of these trees; cores from Kavalergangen gave about 165 years (NNU 1996).",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7a10db8b-7f67-4ceb-855c-185e9355c736",
+        "moved_m": 119,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "cop_005",

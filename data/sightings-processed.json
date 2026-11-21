@@ -5973,6 +5973,28 @@
   "bee85803-fdec-48c4-84bb-e5b061af1994": {
    "outcome": "lead",
    "date": "2026-11-21"
+  },
+  "7a10db8b-7f67-4ceb-855c-185e9355c736": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "cop_004",
+   "city_slug": "copenhagen",
+   "file": "cop_004-the-husalle-lindens.jpg",
+   "reason": "An old pollarded linden in Kongens Have with Rosenborg Castle behind, another trunk of the row at the right edge; bare November crown, daylight, colour. First photograph of the avenue. Species seen: lime: pollard knuckles, smooth grey trunk, twiggy crown typical of a clipped linden. Fits the descrip",
+   "lat": 55.6860366666667,
+   "lon": 12.5791466666667,
+   "pin_checked": "2026-11-21"
+  },
+  "85138489-8105-46ff-b500-3c08c04ce8b1": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "vie_038",
+   "city_slug": "vienna",
+   "file": "vie_038-the-waldm-llerpark-wingnuts.jpg",
+   "reason": "The two great spreading wingnuts either side of the Waldmüllerpark playground, in yellowing autumn leaf, overcast daylight, colour. First photograph of the pair. Species seen: long pinnate ash-like leaves turning yellow, broad multi-stemmed crowns, typical Pterocarya. Fits the description: a pair of",
+   "lat": 48.180707,
+   "lon": 16.365965,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

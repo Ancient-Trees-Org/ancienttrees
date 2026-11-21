@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: first photographs for Copenhagen's Husalle lindens and Vienna's Waldmüllerpark wingnuts
+
+- **copenhagen/cop_004, The Husalle Lindens**: a reader's photograph (7a10db8b) shows an old pollarded linden in the row in Kongens Have, with Rosenborg behind it, in bare November crown, daylight, colour. It is the tree's first photo, so it is now the lead. The approximate pin moved 119 m to the reader's fix (sightings_publish).
+- **vienna/vie_038, The Waldmüllerpark Wingnuts**: a reader's photograph (85138489) shows both spreading wingnuts on either side of the playground in yellowing autumn leaf. It is the pair's first photo, so it is now the lead.
+- Both readers' "on the page" mails are pending in data/photo-live-mailed.json (bundled under the one-a-week rule).
+- This run also judged the York beech and the four Ankerwycke photos. The night run and an earlier reader judge had already pushed both (entries below), so their versions stand and mine were dropped at the rebase. Nothing else waited: no open reports, tips, feedback or reader notes. 3c544597 is still not on disk.
+- Checks: qa --source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-21 night run (window from 09:04 UTC): York gets a reader's beech
 
 - **york/yor_007, The Minster Beech**: a reader sent a photograph from near York Minster (bee85803), looking up a pale forked beech trunk under a full crown, daylight, colour. It goes live under the closed list for a reader's tree. The pin is the reader's hand-placed one, so it stays approximate. Age (150 to 190 years) and species are stated as theirs. No register entry or encyclopaedia article lies within 300 m. The reader's photo is the lead. Preflight 0 problems.

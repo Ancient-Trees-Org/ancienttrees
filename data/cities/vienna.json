@@ -1526,12 +1526,18 @@
       "how_to_recognise": "A pair of tall wingnuts about 25 metres apart, with long ash-like leaves and, in summer, hanging chains of winged fruit.",
       "age_basis": "source",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/vie_038-the-waldm-llerpark-wingnuts.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_230ca0c6269992f101ed0a8d",
+        "sighting_id": "85138489-8105-46ff-b500-3c08c04ce8b1",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The two great spreading wingnuts either side of the Waldmüllerpark playground, in yellowing autumn leaf, overcast daylight, colour. First photograph of the pair. Species seen: long pinnate ash-like leaves turning yellow, broad multi-stemmed crowns, typical Pterocarya. Fits the description: a pair of tall, wide wingnuts some 25 m apart in the park, as recorded.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "verify_notes": "Pair folded into one entry: register ids 3257995 (48.180492,16.366176) and 3257996 (48.180707,16.365965). ND 845, protected 2019-01-07, de.wikipedia says 'der suedoestlichere der beiden Baeume' for the 48.180491 point. WARNING on pin: Baumkataster at 3257995 point returns a Celtis occidentalis 3.4 m away, not a wingnut, so only the 3257996 tree is confirmed by the cadastre (Pterocarya, BAUM_ID 193701, 251 cm, height class 31-35 m, PFLANZJAHR 0, 6.8 m offset). Pin set on 3257996. Commons file 'Wien 10 Waldmuellerpark b.jpg' is attached in the wiki list. No age basis. lifecheck RECENT (2026 iNaturalist).",
       "official_register": {
         "name": "Naturdenkmal Wien (Stadt Wien, data.wien.gv.at), no. 3257996",
