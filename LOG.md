@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a castle lime in Slovenia goes live (Trate, trt_001)
+
+- **trate/trt_001, The Castle Linden of Cmurek** (new one-tree place, Trate, Slovenia): a reader sent a huge old lime with three stems (3d93957a). It stands on the terrace of Cmurek Castle, across the Mura from Mureck, with benches and an information board at its foot. The reader gave about 500 years and 780 cm; the page states both as their figures. The pin was placed by hand, so it is approximate (OSM puts it at the castle). A search summary says Slovenia's 2025 decree protecting the castle names a centuries-old castle linden. The PDF would not open (expired certificate), so the decree is noted in `verify_notes` but not cited on the page. The congratulation mail waits for the deploy.
+- This run also judged the Minster Beech and the Copenhagen and Vienna photographs, but a parallel run had already put them on main. On rebase main's versions were kept, and only Trate was added.
+
 ## 2026-11-21 reader judge: first photographs for Copenhagen's Husalle lindens and Vienna's Waldmüllerpark wingnuts
 
 - **copenhagen/cop_004, The Husalle Lindens**: a reader's photograph (7a10db8b) shows an old pollarded linden in the row in Kongens Have, with Rosenborg behind it, in bare November crown, daylight, colour. It is the tree's first photo, so it is now the lead. The approximate pin moved 119 m to the reader's fix (sightings_publish).

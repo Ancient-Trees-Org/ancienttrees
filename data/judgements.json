@@ -20907,6 +20907,48 @@
    "reason": "The two spreading wingnuts either side of the playground in autumn leaf; first photograph of the pair, now its lead.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:3d93957a-f9bc-4e6a-945d-80943ef691f1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Castle Linden of Cmurek",
+   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole bare three-stemmed lime on the castle terrace, benches and an information board at its foot, daylight, colour. Lead photograph of trate/trt_001.",
+   "city": "Trate",
+   "species": "Lime (Tilia sp.)"
+  },
+  {
+   "id": "lead:3d93957a-f9bc-4e6a-945d-80943ef691f1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Linden",
+   "city": null,
+   "species": "Linden",
+   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 780,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Linden"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge three-stemmed old lime on the terrace of Cmurek Castle, Trate (Slovenia), benches and an information board at its foot. Plainly worth the walk; hand-placed pin approximate at the castle. Live as trate/trt_001, a new one-tree place; 500 years and 780 cm stated as the reader's.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

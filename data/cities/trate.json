@@ -1,0 +1,76 @@
+{
+  "city": "Trate",
+  "country": "Slovenia",
+  "status": "needs_curation",
+  "intro": "Trate is a village in the Slovene Hills of northeastern Slovenia, on a cliff above the Mura where the river forms the border with Austria, facing the town of Mureck across the bridge. Above it stands Cmurek Castle, first mentioned in 1148, and on the terrace beside the castle grows a huge old lime with three great stems, two benches at its foot and the plain spread out below. A reader photographed it and sent it to us.",
+  "meta_description": "The old lime on the terrace of Cmurek Castle in Trate, Slovenia, sent by a reader: where it stands, what we know and how to find it.",
+  "question_meta": "The old lime on the terrace of Cmurek Castle in Trate, Slovenia, sent by a reader: where it stands, what we know and how to find it.",
+  "question_answer": "The tree to see at Trate is the Castle Linden of Cmurek: a huge old lime with three great stems on the terrace beside Cmurek Castle, above the Mura across from Mureck in Austria.",
+  "question_context": "A reader sent us this lime from the terrace beside Cmurek Castle in Trate, a village in the Slovene Hills on the Slovenian bank of the Mura, across the bridge from the Austrian town of Mureck. The castle stands on a cliff above the river and is first mentioned in 1148. The tree in the reader's photograph is bare, as limes are in late autumn, which shows its whole shape. A massive, gnarled trunk splits low into three great stems, each as thick as a tree of its own, carrying a wide crown of crooked branches. Two benches stand at its foot and an information board beside it, on a paved yard with the flat Mura plain beyond the fence. The reader puts it at about 500 years old and its trunk at 780 centimetres round. Those figures are theirs, not a measurement we have seen, and we do not yet know which lime it is or what the board says. If you have stood there and read it, tell us on the tree's page and we will add it.",
+  "faq": [
+    {
+      "q": "Where is the Castle Linden of Cmurek?",
+      "a": "On the terrace beside Cmurek Castle in Trate, Slovenia, on the cliff above the Mura across the river from Mureck in Austria."
+    },
+    {
+      "q": "How old is the Castle Linden of Cmurek?",
+      "a": "The reader who sent it puts it at about 500 years. We have not seen a measurement or record that dates it."
+    },
+    {
+      "q": "Can I visit the Castle Linden of Cmurek?",
+      "a": "The reader stood on the open paved yard in front of it. We have not confirmed the opening hours of the castle grounds, so check before you go."
+    }
+  ],
+  "hero_tree_id": "trt_001",
+  "oldest_tree_id": "trt_001",
+  "trees": [
+    {
+      "id": "trt_001",
+      "name": "The Castle Linden of Cmurek",
+      "species": "Lime (Tilia sp.)",
+      "age_estimate": "about 500 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Cmurek Castle, Trate 7, Zgornja Velka, Šentilj",
+        "latitude": 46.7054992091681,
+        "longitude": 15.7864660397255,
+        "neighbourhood": "Trate"
+      },
+      "how_to_recognise": "On the paved terrace by Cmurek Castle: a huge lime whose gnarled trunk splits low into three great stems, two benches at its foot and an information board beside it, the Mura plain beyond the fence.",
+      "access": "On the open terrace by Cmurek Castle, where the reader stood on the paved yard in front of it. We have not confirmed the opening hours of the castle grounds.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Cmurek_Castle (Cmurek Castle in Trate, on a cliff above the Mura on the border with Austria, first mentioned in 1148; the castle, not the tree)"
+      ],
+      "story": "\"500 years,\" says the reader who sent us this linden from Cmurek Castle in Trate, on the Slovenian side of the Mura, across the river from the Austrian town of Mureck. They put its trunk at 780 centimetres round.\n\nThe castle stands on a cliff above the river and is first mentioned in 1148. The lime grows on the open terrace beside it, and the reader photographed it bare in late autumn. Its massive, gnarled trunk splits low into three great stems, each thick enough to be a tree of its own, rising into a wide crown of crooked branches against a sky of streaked cloud. Two benches stand at its foot and an information board beside it, and beyond the fence the view opens over the flat Mura plain.\n\nThe age and the girth are the reader's figures, not a measurement we have seen, and we do not yet know what the board beside the tree says, or which lime it is. If you have read it, tell us here and we will add it.\n\nCome in early summer for the scent of the flowers, or in winter, as the reader did, to see the shape of the whole tree.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "3d93957a-f9bc-4e6a-945d-80943ef691f1",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "3d93957a-f9bc-4e6a-945d-80943ef691f1",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (3d93957a-f9bc-4e6a-945d-80943ef691f1), pin placed by hand. Photograph viewed: the whole bare lime on the castle terrace, a massive gnarled trunk splitting low into three great stems, two benches and an information board at its foot, the plain beyond, daylight, colour. corroborate.py: no register entry within 100 m, no encyclopaedia article within 300 m. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Linden', species 'Linden', age '500 years', girth 780 cm; every figure on the page not in verified_sources is stated as theirs. OSM reverse lookup of the pin: Cmurek Castle, Trate 7, Šentilj, Slovenia. A web search summary says the 2025 Uradni list decree protecting Trate - Grad Cmurek (EID 1-00069) names a centuries-old castle linden; the PDF could not be read (expired certificate), so it is not cited on the page.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/trt_001-castle-linden-of-cmurek.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_295caeff712bf82da1299717",
+        "sighting_id": "3d93957a-f9bc-4e6a-945d-80943ef691f1",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: the whole bare lime on the castle terrace, a massive gnarled trunk splitting low into three great stems, two benches and an information board at its foot, the plain beyond, daylight, colour. Not an open licence: ask before reuse elsewhere."
+      }
+    }
+  ]
+}

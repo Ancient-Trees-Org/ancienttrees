@@ -8652,6 +8652,39 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "york/yor_007"
+  },
+  {
+   "sighting_id": "3d93957a-f9bc-4e6a-945d-80943ef691f1",
+   "user_id": "p_295caeff712bf82da1299717",
+   "mine": false,
+   "name": "Linden",
+   "unsure_among": null,
+   "species": "Linden",
+   "age": "500 years",
+   "girth_cm": 780,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 46.7054992091681,
+   "longitude": 15.7864660397255,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_295caeff712bf82da1299717/3D93957A-F9BC-4E6A-945D-80943EF691F1.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole bare lime on the castle terrace, a massive gnarled trunk splitting low into three great stems, two benches and an information board at its foot, the plain beyond, daylight, colour. Live as trate/trt_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "trate/trt_001"
   }
  ]
 }
