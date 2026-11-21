@@ -24,6 +24,15 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-21
+
+Web half: the last 24 hours were reader-judge photographs (Castlemaine's two trees, Birnam Oak, Fortingall Yew, Vienna's Hauptallee), the Stuttgart Rotwildpark write pass, an Android picker crash fix and a Discover link fix. The new Castlemaine, Dunkeld, Fortingall and Stuttgart pages hold no em dashes or banned words, and reader photographs carry their licence line. Earlier findings stand, all still present in site/dist (checked by grep):
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" as page text (fifth review). Public copy never narrates our process. Replacement for the access line: "Free. Open access; opening hours not confirmed." Add a preflight check for "writer must" in `access` and `story`.
+- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are". Fifteenth review; app-only pins open a card without a story. Replacement: "Each pin opens a tree; some stories are in the app."
+- WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-sixth review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
+- WARN site/dist/collections/ancient-oaks-of-europe.html and europes-most-remarkable-yews.html still say "every coordinate verified" (sixth review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
+
 ## 2026-11-20
 
 Web half: the last 24 hours were reader-judge photographs (Lyon, London), the bookmark on tree tiles (web and app, iOS and Android), the sign-in last-call script, row thumbnails and Birmingham verify leads. Nothing new broke in what was sampled; the earlier findings are all still present in site/dist (checked by grep):
