@@ -1,225 +1,237 @@
 {
- "leads": [
-  {
-   "name": "Old Yew Tree, Rocky Lane, Perry Barr",
-   "species": "Yew (assumed)",
-   "city": "Birmingham",
-   "reason": "Only an 1898 Birmingham archive photograph (council directory record 143126, 403 to curl, seen via search summary). No evidence it stands now. Not pursued.",
-   "sources": [
-    "https://www.birmingham.gov.uk/directory_record/143126/the_old_yew_tree"
-   ]
-  },
-  {
-   "name": "Northfield churchyard yew (St Laurence)",
-   "species": "Yew (Taxus baccata)",
-   "city": "Birmingham",
-   "lat": 52.4083,
-   "lon": -1.9647,
-   "reason": "One source only (Ancient Yew Group tree 7124, 'Notable', girth 400 cm at 1 m, taken from Street View and unverified, earliest mention a 1921 photograph). No age basis, no photo, no coordinate beyond churchyard grid ref SP0255079342. Churchyard public. Could ship as approximate with location_site if a second source or a Geograph photo of the yew turns up. Recheck 2026-11-19: northfield-uk.blogspot.com 2015 church post returned an empty shell to curl; no second source for the yew (search found none); still one source.",
-   "how_to_recognise": "A twisted yew at the top of the steps leading into St Laurence church (AYG Street View note).",
-   "sources": [
-    "https://www.ancient-yew.org/yew_tree_database/northfield/",
-    "https://www.ancient-yew.org/yew_trees/northfield/"
-   ]
-  },
-  {
-   "name": "Cofton Hackett fallen yew (St Michael and All Angels)",
-   "species": "Yew (Taxus baccata)",
-   "city": "Birmingham (day trip, Cofton Hackett, Worcestershire; transport time not verified)",
-   "reason": "AYG class 'Ancient', girth 5-7 m, fallen male yew SW of the 14th-century church, visited 2002 (Tim Hills); 'reputed more than 800 years old' per a 1946 rector quote relayed by AYG text on a blog mirror. One source, last visit 2002, not alive-checked, outside the city, 30-minute public transport not confirmed.",
-   "how_to_recognise": "Fallen, horse-shoe shaped yew lying SW of the church, per AYG.",
-   "sources": [
-    "https://www.ancient-yew.org/yew_tree_database/cofton-hackett/"
-   ]
-  },
-  {
-   "name": "Highbury Park yew (Moseley)",
-   "species": "Yew (Taxus baccata)",
-   "city": "Birmingham",
-   "reason": "Only a local blog (coppicing.blogspot.com/2016/02/the-yew.html) mentions a single yew of significant age near the old Highbury estate quadrangle of yews; no age, girth, coordinate or register. Blog is not a source.",
-   "sources": [
-    "https://coppicing.blogspot.com/2016/02/the-yew.html"
-   ]
-  },
-  {
-   "name": "Acocks Green Oak (Arden Road, B27)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham",
-   "reason": "Street oak standing in the road; only a paywalled Substack post (2023) and a search summary; no age, girth or coordinate seen on a fetched page.",
-   "sources": [
-    "https://thestreettree.substack.com/p/34-acocks-green-oak"
-   ]
-  },
-  {
-   "name": "Birmingham Botanical Gardens copper beech",
-   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
-   "city": "Birmingham (Edgbaston)",
-   "lat": 52.4664,
-   "lon": -1.9292,
-   "reason": "Owner's own pages (fetched 2026-11-18): 'older than the Gardens' (opened 1832), on maps from Holly Bank Farm days, 'our 200-year-old treasure', mulched and protected in 2025 (alive), near the main lawn. Paid entry (day ticket). No tree-level coordinate (lat/lon is the garden's, approximate), a walk-through garden so no location_site allowed, no photo. Becomes shippable with an OSM node, a geotagged photo or a reader's GPS fix at the beech. Pass 2026-11-19 (7th): the Gardens say they hold 7 Tree Register national champion trees and 32 locally significant specimens, listed in birmingham.gardenexplorer.org tour 'Champion Trees' (#12); that site is an ASP.NET app, tour.aspx?id=12 and a viewstate postback both returned an empty tour list to curl, so the named champions and their coordinates were not read. A session with a rendering browser could open that tour and the per-specimen map points. Pass 2026-11-20 (8th): tried the ASP.NET postback with the tour selected and a direct POST to tour.aspx/GetFeatures (returns {\"d\":null} without session state); still no champion list. Highbury Park 2018 survey PDF is image-only (no text layer; WebFetch and a raw stream read both failed), so the 515 cm oak stays unverified. Wikidata individual-tree (Q811534) query within 20 km of central Birmingham returned 0 items. Pass 2026-11-20 (9th): OSM API 0.6 map bbox (api.openstreetmap.org, works; Overpass does not) around the Gardens returns species-level natural=tree nodes mapped by a local user (some with ref:TROBI), e.g. Fagus sylvatica 52.46683,-1.93098 and Cedrus libani 52.46740,-1.93070, but none is tagged purpurea or tied to the owner's 'older than the Gardens' beech, so no node can be called THE tree; pin stays unconfirmed. Northfield St Laurence yew: web search found no second source or Church Heritage Record entry.",
-   "sources": [
-    "https://birminghambotanicalgardens.org.uk/birmingham-botanical-gardens-turns-193-years-old/",
-    "https://birminghambotanicalgardens.org.uk/tree-mendous-supporters-06-25/"
-   ]
-  },
-  {
-   "name": "Moseley Bog 300-year-old oak",
-   "species": "Pedunculate Oak (Quercus robur) (species assumed from 'oak', not stated)",
-   "city": "Birmingham (Moseley)",
-   "reason": "Wildlife Trust for Birmingham and Black Country (manager of the reserve) says 'many gnarled old trees here, including a 300 year old oak', grid ref SP 094 821 for the reserve only. Which oak is not stated, whole reserve, no pin possible.",
-   "sources": [
-    "https://www.wildlifetrusts.org/where-see-ancient-and-unusual-trees"
-   ]
-  },
-  {
-   "name": "Mills Avenue oak, Sutton Coldfield (c. 250 years, TPO)",
-   "species": "Oak",
-   "city": "Birmingham (Sutton Coldfield)",
-   "reason": "Express and Star (page 403s, search summary only) says a c. 250-year-old oak on council land at Mills Avenue is protected and a resident fought a felling plan. Nothing seen on a fetched page, outcome unknown, no coordinate.",
-   "sources": [
-    "https://www.expressandstar.com/news/birmingham/sutton-coldfield/resident-fights-plans-to-chop-down-250-year-old-sutton-coldfield-tree-5961257"
-   ]
-  },
-  {
-   "name": "Sutton Park veteran oak (ATI 249969)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham (Royal Sutton Coldfield)",
-   "reason": "Woodland Trust Ancient Tree Inventory (fetched 2026-11-18): veteran, standing, girth 3.95 m at 1.5 m, decaying wood, holly crowding it, grid ref SP1093796185 (about 52.57N, 1.84W, not converted or checked). Recorded by a volunteer 2023, last visited 2024. No age, no photo, a nameless oak in a 900-hectare walk-through park so no location_site; modest girth. One source, approximate at best; not worth a page alone.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=249969"
-   ]
-  },
-  {
-   "name": "Solihull bowling green yew (Ramada/George Hotel, near St Alphege)",
-   "species": "Yew (Taxus baccata)",
-   "city": "Solihull (borough next to Birmingham)",
-   "reason": "Ancient Yew Group 'Notable', tree 1204, access 'Public' but it is in a hotel's bowling green; no girth, no grid ref ('not known'), one source. Access unclear.",
-   "sources": [
-    "https://www.ancient-yew.org/yew_tree_database/solihull/"
-   ]
-  },
-  {
-   "name": "Grove Park cedar, Harborne",
-   "species": "Cedar of Lebanon (Cedrus libani)",
-   "city": "Birmingham (Harborne)",
-   "reason": "Council park (Grove Park, Harborne Park Road, B17 0BJ, free). normanfield.com (fetched 2026-11-18, local history page) calls it the ancient centre-piece of The Grove and says it is thought planted about 1785 by Thomas Green; The Street Tree substack (paywalled, 403, search summary only) says it may have been planted by Thomas Attwood (lived there 1823 to 1846) and calls it one of Birmingham finest cedars. Planter conflict, no girth, no register, no tree-level coordinate, no Commons photo; lifecheck NONE. Park is not a small site. Needs a GPS fix or photograph to ship.",
-   "sources": [
-    "http://normanfield.com/index.php/grove/",
-    "https://thestreettree.substack.com/p/127-attwoods-cedar"
-   ]
-  },
-  {
-   "name": "Highbury Park biggest veteran oak (515 cm)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham (Kings Heath/Moseley)",
-   "reason": "Friends of Highbury Park veteran survey (2018 leaflet, PDF unreadable; figure seen only in search summaries and Grokipedia): 38 veterans over 3 m, largest an oak at 515 cm, beech 420 cm. Survey table at highburyparkfriends.org.uk/database/trees/hpftreesurvey.php is dead (returns 0 rows). No location, no figure seen on a fetched page. Council park, open. Needs the Friends survey table or a GPS fix.",
-   "sources": [
-    "https://highburyparkfriends.org.uk/wp/plant-and-bird-records/habitat-wildlife/tree-surveys/"
-   ]
-  },
-  {
-   "name": "Sutton Park holly coppice stool, Holly Hurst edge (ATI 268643)",
-   "species": "Holly (Ilex aquifolium)",
-   "city": "Birmingham (Sutton Coldfield)",
-   "latitude": 52.56287,
-   "longitude": -1.84895,
-   "reason": "Woodland Trust Ancient Tree Inventory page fetched 2026-11-19: veteran, standing, alive, coppice stool girth 7.17 m at 0.15 m, GPS, surveyed and verified Nov 2024 by one recorder, public open access beside a footpath outside Holly Hurst. Single source (ATI), a coppice stool not a collectible trunk, no photograph in reach; not shipped.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=268643"
-   ]
-  },
-  {
-   "name": "Fatty Oak, Gilson (near Coleshill)",
-   "species": "Oak (Quercus sp.), pollard",
-   "city": "Birmingham area (North Warwickshire)",
-   "latitude": 52.509292,
-   "longitude": -1.721191,
-   "reason": "ATI 142879 (Jill Butler, 2015; one comment 2022): veteran pollard, girth 7.21 m at 1.5 m, in a field, 'private, visible from public access', grid SP1902090192. Single source, last survey 2015, a field in Warwickshire outside Birmingham; no web mention of the name found. Needs a second source or a reader GPS fix.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=142879"
-   ]
-  },
-  {
-   "name": "Moseley veteran oak (ATI 64085)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham (Moseley)",
-   "reason": "ATI 64085: veteran maiden oak, fragmented, girth 5.15 m at 1.5 m, public open space, grid SP06748249, last visited 23 Sep 2024, alive. Single source, nameless, no site named.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=64085"
-   ]
-  },
-  {
-   "name": "Bournbrook veteran oak (ATI 177089)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham (Bournbrook/Selly Oak)",
-   "reason": "ATI 177089: veteran, standing, hollow trunk, girth 5.73 m at 1.5 m (updated 2023), parkland/woodland public open access, grid SP0630383288, last visited Mar 2025. Single source, park not named.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=177089"
-   ]
-  },
-  {
-   "name": "Olton multi-stem sweet chestnut (ATI 178375)",
-   "species": "Sweet Chestnut (Castanea sativa)",
-   "city": "Birmingham (Olton)",
-   "reason": "ATI 178375: veteran multi-stem, girth 10.30 m recorded at 10.30 m height (field looks corrupt), public open access, grid SP1432182106, surveyed 2015 by an individual. Location falls on Summerfield Road houses per Nominatim. Unreliable single record.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=178375"
-   ]
-  },
-  {
-   "name": "Sutton Park multi-stem sycamore (ATI 263263)",
-   "species": "Sycamore (Acer pseudoplatanus)",
-   "city": "Birmingham (Sutton Coldfield, Four Oaks Park)",
-   "reason": "ATI 263263 (Michael Glasson, 2024): ancient, multi-stem, girth 8.10 m at 1.5 m, hollow trunk with opening, Sutton Park mediaeval deer park, public open access, grid SP1131096379. Single source, walk-through park so no location_site, multi-stem; not a clear collectible trunk.",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=263263"
-   ]
-  },
-  {
-   "name": "Cofton Hackett fallen yew",
-   "species": "Common Yew (Taxus baccata)",
-   "city": "Birmingham (Cofton Hackett)",
-   "reason": "Verified 2026-11-20 and delivered in data/research/birmingham-verified.json as cft_001 (ATI 253329 plus Ancient Yew Group site record).",
-   "sources": [
-    "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329"
-   ]
-  },
-  {
-   "name": "Oak near Cannon Hill Park (girth 6 m, c. 400 years)",
-   "species": "Pedunculate Oak (Quercus robur)",
-   "city": "Birmingham",
-   "reason": "Only a local blog (coppicing.blogspot.com/2017/09/mapping-oaks.html, fetched 2026-11-21) gives girth 6 m and about 400 years; no exact location, not shown inside the park, no second source. Chamberlain Oak, Highbury, same page: no girth, c.1840 caption only. Pass 12 dry.",
-   "sources": [
-    "https://coppicing.blogspot.com/2017/09/mapping-oaks.html"
-   ]
-  },
-  {
-   "name": "Edgbaston Old Church (St Bartholomew) churchyard yews",
-   "why": "Pass 13, 2026-11-21: only a travel-guide blurb (search summary) mentions 'ancient yews'; no girth, age, register or coordinate seen on a fetched page. Kings Norton St Nicolas churchyard: search found no yew record (AYG ids 2530 and 6690 are other St Nicholas sites, 2530 is in Wales).",
-   "species": "Yew (Taxus sp.)",
-   "species_basis": "genus read from the tree's own name; ask the reader which species"
-  }
- ],
- "blocked": [
-  {
-   "name": "Selly Oak (the original oak)",
-   "reason": "Felled 1906/1909; only a stump remains in Selly Oak Park (Wikipedia, Selly Oak Park). Not alive."
-  },
-  {
-   "name": "Centenary Square plane (Birmingham's 'oldest tree', 80 to 90 years)",
-   "reason": "Felled 2017 for the square's redesign."
-  },
-  {
-   "name": "Sutton Park 'Witching' oak at Town Gate",
-   "reason": "Reported dead (Yahoo News UK via search summary)."
-  },
-  {
-   "name": "Cannon Hill Park burnt oak (c. 250 years)",
-   "reason": "Reported set on fire 2019 and to be cut down (Express & Star via search summary; page itself not fetched, Cloudflare). Not alive-confirmed."
-  },
-  {
-   "name": "Uffculme House yew, Kings Heath",
-   "reason": "Felled March 2016 by the Birmingham and Solihull Mental Health Trust after a survey found decay; ITV Central 2016-03-24 (search summary) and the Ancient Yew Group Lost Yews page list it. Not alive."
-  }
- ]
+  "leads": [
+    {
+      "name": "Old Yew Tree, Rocky Lane, Perry Barr",
+      "species": "Yew (assumed)",
+      "city": "Birmingham",
+      "reason": "Only an 1898 Birmingham archive photograph (council directory record 143126, 403 to curl, seen via search summary). No evidence it stands now. Not pursued.",
+      "sources": [
+        "https://www.birmingham.gov.uk/directory_record/143126/the_old_yew_tree"
+      ]
+    },
+    {
+      "name": "Northfield churchyard yew (St Laurence)",
+      "species": "Yew (Taxus baccata)",
+      "city": "Birmingham",
+      "lat": 52.4083,
+      "lon": -1.9647,
+      "reason": "One source only (Ancient Yew Group tree 7124, 'Notable', girth 400 cm at 1 m, taken from Street View and unverified, earliest mention a 1921 photograph). No age basis, no photo, no coordinate beyond churchyard grid ref SP0255079342. Churchyard public. Could ship as approximate with location_site if a second source or a Geograph photo of the yew turns up. Recheck 2026-11-19: northfield-uk.blogspot.com 2015 church post returned an empty shell to curl; no second source for the yew (search found none); still one source.",
+      "how_to_recognise": "A twisted yew at the top of the steps leading into St Laurence church (AYG Street View note).",
+      "sources": [
+        "https://www.ancient-yew.org/yew_tree_database/northfield/",
+        "https://www.ancient-yew.org/yew_trees/northfield/"
+      ]
+    },
+    {
+      "name": "Cofton Hackett fallen yew (St Michael and All Angels)",
+      "species": "Yew (Taxus baccata)",
+      "city": "Birmingham (day trip, Cofton Hackett, Worcestershire; transport time not verified)",
+      "reason": "AYG class 'Ancient', girth 5-7 m, fallen male yew SW of the 14th-century church, visited 2002 (Tim Hills); 'reputed more than 800 years old' per a 1946 rector quote relayed by AYG text on a blog mirror. One source, last visit 2002, not alive-checked, outside the city, 30-minute public transport not confirmed.",
+      "how_to_recognise": "Fallen, horse-shoe shaped yew lying SW of the church, per AYG.",
+      "sources": [
+        "https://www.ancient-yew.org/yew_tree_database/cofton-hackett/"
+      ]
+    },
+    {
+      "name": "Highbury Park yew (Moseley)",
+      "species": "Yew (Taxus baccata)",
+      "city": "Birmingham",
+      "reason": "Only a local blog (coppicing.blogspot.com/2016/02/the-yew.html) mentions a single yew of significant age near the old Highbury estate quadrangle of yews; no age, girth, coordinate or register. Blog is not a source.",
+      "sources": [
+        "https://coppicing.blogspot.com/2016/02/the-yew.html"
+      ]
+    },
+    {
+      "name": "Acocks Green Oak (Arden Road, B27)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham",
+      "reason": "Street oak standing in the road; only a paywalled Substack post (2023) and a search summary; no age, girth or coordinate seen on a fetched page.",
+      "sources": [
+        "https://thestreettree.substack.com/p/34-acocks-green-oak"
+      ]
+    },
+    {
+      "name": "Birmingham Botanical Gardens copper beech",
+      "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+      "city": "Birmingham (Edgbaston)",
+      "lat": 52.4664,
+      "lon": -1.9292,
+      "reason": "Owner's own pages (fetched 2026-11-18): 'older than the Gardens' (opened 1832), on maps from Holly Bank Farm days, 'our 200-year-old treasure', mulched and protected in 2025 (alive), near the main lawn. Paid entry (day ticket). No tree-level coordinate (lat/lon is the garden's, approximate), a walk-through garden so no location_site allowed, no photo. Becomes shippable with an OSM node, a geotagged photo or a reader's GPS fix at the beech. Pass 2026-11-19 (7th): the Gardens say they hold 7 Tree Register national champion trees and 32 locally significant specimens, listed in birmingham.gardenexplorer.org tour 'Champion Trees' (#12); that site is an ASP.NET app, tour.aspx?id=12 and a viewstate postback both returned an empty tour list to curl, so the named champions and their coordinates were not read. A session with a rendering browser could open that tour and the per-specimen map points. Pass 2026-11-20 (8th): tried the ASP.NET postback with the tour selected and a direct POST to tour.aspx/GetFeatures (returns {\"d\":null} without session state); still no champion list. Highbury Park 2018 survey PDF is image-only (no text layer; WebFetch and a raw stream read both failed), so the 515 cm oak stays unverified. Wikidata individual-tree (Q811534) query within 20 km of central Birmingham returned 0 items. Pass 2026-11-20 (9th): OSM API 0.6 map bbox (api.openstreetmap.org, works; Overpass does not) around the Gardens returns species-level natural=tree nodes mapped by a local user (some with ref:TROBI), e.g. Fagus sylvatica 52.46683,-1.93098 and Cedrus libani 52.46740,-1.93070, but none is tagged purpurea or tied to the owner's 'older than the Gardens' beech, so no node can be called THE tree; pin stays unconfirmed. Northfield St Laurence yew: web search found no second source or Church Heritage Record entry.",
+      "sources": [
+        "https://birminghambotanicalgardens.org.uk/birmingham-botanical-gardens-turns-193-years-old/",
+        "https://birminghambotanicalgardens.org.uk/tree-mendous-supporters-06-25/"
+      ]
+    },
+    {
+      "name": "Moseley Bog 300-year-old oak",
+      "species": "Pedunculate Oak (Quercus robur) (species assumed from 'oak', not stated)",
+      "city": "Birmingham (Moseley)",
+      "reason": "Wildlife Trust for Birmingham and Black Country (manager of the reserve) says 'many gnarled old trees here, including a 300 year old oak', grid ref SP 094 821 for the reserve only. Which oak is not stated, whole reserve, no pin possible.",
+      "sources": [
+        "https://www.wildlifetrusts.org/where-see-ancient-and-unusual-trees"
+      ]
+    },
+    {
+      "name": "Mills Avenue oak, Sutton Coldfield (c. 250 years, TPO)",
+      "species": "Oak",
+      "city": "Birmingham (Sutton Coldfield)",
+      "reason": "Express and Star (page 403s, search summary only) says a c. 250-year-old oak on council land at Mills Avenue is protected and a resident fought a felling plan. Nothing seen on a fetched page, outcome unknown, no coordinate.",
+      "sources": [
+        "https://www.expressandstar.com/news/birmingham/sutton-coldfield/resident-fights-plans-to-chop-down-250-year-old-sutton-coldfield-tree-5961257"
+      ]
+    },
+    {
+      "name": "Sutton Park veteran oak (ATI 249969)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham (Royal Sutton Coldfield)",
+      "reason": "Woodland Trust Ancient Tree Inventory (fetched 2026-11-18): veteran, standing, girth 3.95 m at 1.5 m, decaying wood, holly crowding it, grid ref SP1093796185 (about 52.57N, 1.84W, not converted or checked). Recorded by a volunteer 2023, last visited 2024. No age, no photo, a nameless oak in a 900-hectare walk-through park so no location_site; modest girth. One source, approximate at best; not worth a page alone.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=249969"
+      ]
+    },
+    {
+      "name": "Solihull bowling green yew (Ramada/George Hotel, near St Alphege)",
+      "species": "Yew (Taxus baccata)",
+      "city": "Solihull (borough next to Birmingham)",
+      "reason": "Ancient Yew Group 'Notable', tree 1204, access 'Public' but it is in a hotel's bowling green; no girth, no grid ref ('not known'), one source. Access unclear.",
+      "sources": [
+        "https://www.ancient-yew.org/yew_tree_database/solihull/"
+      ]
+    },
+    {
+      "name": "Grove Park cedar, Harborne",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "city": "Birmingham (Harborne)",
+      "reason": "Council park (Grove Park, Harborne Park Road, B17 0BJ, free). normanfield.com (fetched 2026-11-18, local history page) calls it the ancient centre-piece of The Grove and says it is thought planted about 1785 by Thomas Green; The Street Tree substack (paywalled, 403, search summary only) says it may have been planted by Thomas Attwood (lived there 1823 to 1846) and calls it one of Birmingham finest cedars. Planter conflict, no girth, no register, no tree-level coordinate, no Commons photo; lifecheck NONE. Park is not a small site. Needs a GPS fix or photograph to ship.",
+      "sources": [
+        "http://normanfield.com/index.php/grove/",
+        "https://thestreettree.substack.com/p/127-attwoods-cedar"
+      ]
+    },
+    {
+      "name": "Highbury Park biggest veteran oak (515 cm)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham (Kings Heath/Moseley)",
+      "reason": "Friends of Highbury Park veteran survey (2018 leaflet, PDF unreadable; figure seen only in search summaries and Grokipedia): 38 veterans over 3 m, largest an oak at 515 cm, beech 420 cm. Survey table at highburyparkfriends.org.uk/database/trees/hpftreesurvey.php is dead (returns 0 rows). No location, no figure seen on a fetched page. Council park, open. Needs the Friends survey table or a GPS fix.",
+      "sources": [
+        "https://highburyparkfriends.org.uk/wp/plant-and-bird-records/habitat-wildlife/tree-surveys/"
+      ]
+    },
+    {
+      "name": "Sutton Park holly coppice stool, Holly Hurst edge (ATI 268643)",
+      "species": "Holly (Ilex aquifolium)",
+      "city": "Birmingham (Sutton Coldfield)",
+      "latitude": 52.56287,
+      "longitude": -1.84895,
+      "reason": "Woodland Trust Ancient Tree Inventory page fetched 2026-11-19: veteran, standing, alive, coppice stool girth 7.17 m at 0.15 m, GPS, surveyed and verified Nov 2024 by one recorder, public open access beside a footpath outside Holly Hurst. Single source (ATI), a coppice stool not a collectible trunk, no photograph in reach; not shipped.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=268643"
+      ]
+    },
+    {
+      "name": "Fatty Oak, Gilson (near Coleshill)",
+      "species": "Oak (Quercus sp.), pollard",
+      "city": "Birmingham area (North Warwickshire)",
+      "latitude": 52.509292,
+      "longitude": -1.721191,
+      "reason": "ATI 142879 (Jill Butler, 2015; one comment 2022): veteran pollard, girth 7.21 m at 1.5 m, in a field, 'private, visible from public access', grid SP1902090192. Single source, last survey 2015, a field in Warwickshire outside Birmingham; no web mention of the name found. Needs a second source or a reader GPS fix.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=142879"
+      ]
+    },
+    {
+      "name": "Moseley veteran oak (ATI 64085)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham (Moseley)",
+      "reason": "ATI 64085: veteran maiden oak, fragmented, girth 5.15 m at 1.5 m, public open space, grid SP06748249, last visited 23 Sep 2024, alive. Single source, nameless, no site named.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=64085"
+      ]
+    },
+    {
+      "name": "Bournbrook veteran oak (ATI 177089)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham (Bournbrook/Selly Oak)",
+      "reason": "ATI 177089: veteran, standing, hollow trunk, girth 5.73 m at 1.5 m (updated 2023), parkland/woodland public open access, grid SP0630383288, last visited Mar 2025. Single source, park not named.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=177089"
+      ]
+    },
+    {
+      "name": "Olton multi-stem sweet chestnut (ATI 178375)",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "city": "Birmingham (Olton)",
+      "reason": "ATI 178375: veteran multi-stem, girth 10.30 m recorded at 10.30 m height (field looks corrupt), public open access, grid SP1432182106, surveyed 2015 by an individual. Location falls on Summerfield Road houses per Nominatim. Unreliable single record.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=178375"
+      ]
+    },
+    {
+      "name": "Sutton Park multi-stem sycamore (ATI 263263)",
+      "species": "Sycamore (Acer pseudoplatanus)",
+      "city": "Birmingham (Sutton Coldfield, Four Oaks Park)",
+      "reason": "ATI 263263 (Michael Glasson, 2024): ancient, multi-stem, girth 8.10 m at 1.5 m, hollow trunk with opening, Sutton Park mediaeval deer park, public open access, grid SP1131096379. Single source, walk-through park so no location_site, multi-stem; not a clear collectible trunk.",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=263263"
+      ]
+    },
+    {
+      "name": "Cofton Hackett fallen yew",
+      "species": "Common Yew (Taxus baccata)",
+      "city": "Birmingham (Cofton Hackett)",
+      "reason": "Verified 2026-11-20 and delivered in data/research/birmingham-verified.json as cft_001 (ATI 253329 plus Ancient Yew Group site record).",
+      "sources": [
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=253329"
+      ]
+    },
+    {
+      "name": "Oak near Cannon Hill Park (girth 6 m, c. 400 years)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham",
+      "reason": "Only a local blog (coppicing.blogspot.com/2017/09/mapping-oaks.html, fetched 2026-11-21) gives girth 6 m and about 400 years; no exact location, not shown inside the park, no second source. Chamberlain Oak, Highbury, same page: no girth, c.1840 caption only. Pass 12 dry.",
+      "sources": [
+        "https://coppicing.blogspot.com/2017/09/mapping-oaks.html"
+      ]
+    },
+    {
+      "name": "Edgbaston Old Church (St Bartholomew) churchyard yews",
+      "why": "Pass 13, 2026-11-21: only a travel-guide blurb (search summary) mentions 'ancient yews'; no girth, age, register or coordinate seen on a fetched page. Kings Norton St Nicolas churchyard: search found no yew record (AYG ids 2530 and 6690 are other St Nicholas sites, 2530 is in Wales).",
+      "species": "Yew (Taxus sp.)",
+      "species_basis": "genus read from the tree's own name; ask the reader which species"
+    },
+    {
+      "name": "OSM veteran-tagged oaks at Birmingham churches (Yardley St Edburgha's, Tyseley St Mary, Kings Norton, Harborne, Acocks Green and others)",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "city": "Birmingham",
+      "lat": 52.473151,
+      "lon": -1.808468,
+      "reason": "Pass 14, 2026-11-21: OSM natural=tree nodes tagged denotation=veteran (e.g. node 4736426184 at St Edburgha's Yardley 52.47315,-1.80847; 4727650779 Tyseley 52.45099,-1.82777; 4724065385 Kings Norton 52.40737,-1.92372; 4737553882 Harborne 52.46203,-1.97030; 4722417718 Acocks Green 52.44285,-1.82311), found through Tristan Hotham's open OSM study data. Tags carry no girth, age or source; a searched St Edburgha's Yardley gave no tree facts. One tag is not a source. Useful only as tree-level pins if a second source or a photograph turns up. Also: 'The Huggy Tree' node 1089507954 (52.53257,-1.95211, Hamstead): unidentified, no source found.",
+      "sources": [
+        "https://github.com/Tristan-Hotham/ancient-trees",
+        "https://www.openstreetmap.org/node/4736426184"
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "name": "Selly Oak (the original oak)",
+      "reason": "Felled 1906/1909; only a stump remains in Selly Oak Park (Wikipedia, Selly Oak Park). Not alive."
+    },
+    {
+      "name": "Centenary Square plane (Birmingham's 'oldest tree', 80 to 90 years)",
+      "reason": "Felled 2017 for the square's redesign."
+    },
+    {
+      "name": "Sutton Park 'Witching' oak at Town Gate",
+      "reason": "Reported dead (Yahoo News UK via search summary)."
+    },
+    {
+      "name": "Cannon Hill Park burnt oak (c. 250 years)",
+      "reason": "Reported set on fire 2019 and to be cut down (Express & Star via search summary; page itself not fetched, Cloudflare). Not alive-confirmed."
+    },
+    {
+      "name": "Uffculme House yew, Kings Heath",
+      "reason": "Felled March 2016 by the Birmingham and Solihull Mental Health Trust after a survey found decay; ITV Central 2016-03-24 (search summary) and the Ancient Yew Group Lost Yews page list it. Not alive."
+    }
+  ]
 }
