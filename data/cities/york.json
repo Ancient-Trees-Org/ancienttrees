@@ -424,6 +424,7 @@
         "status": "approved",
         "width": 1600,
         "height": 1200,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
         "sighting_id": "bee85803-fdec-48c4-84bb-e5b061af1994",
