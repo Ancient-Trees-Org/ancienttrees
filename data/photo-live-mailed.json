@@ -2589,6 +2589,21 @@
     }
    ],
    "sent": []
+  },
+  "p_b411fdc6cd3d1a6d15f76de6": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "08d9dca8-6910-4532-9104-3882784466f6",
+     "tree_id": "rom_019",
+     "tree_name": "The Podocarp of Piazza Vittorio",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

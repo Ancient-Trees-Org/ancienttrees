@@ -818,12 +818,19 @@
       "transport": "Vittorio Emanuele metro (Line A), on the square; 1.7km from the Capitoline cluster",
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
-      "story": "Italy put this tree on its national monumental register in October 2025 for one reason: it should not be here. Podocarpus neriifolius grows wild in the forests of the Himalayan foothills and southeast Asia, and Rome holds very few of any size. This is one of the largest, 230 centimetres around and 20 metres tall, in the public garden inside Piazza Vittorio Emanuele II.\n\nIts age is not known. No planting record survives and neither register that lists it carries a date, so a century, give or take, is as precise as anyone can honestly be. The square around it was laid out in the 1880s for the new capital's civil servants, in an arcaded Turinese style that still makes this corner of Rome look imported from somewhere else, and a garden of exotic trees was exactly what that decade planted.\n\nIt has stood through the more restless version of Rome. The square's ruined fountain, the Trofei di Mario, sits a few steps away and predates it by seventeen centuries. The food market that filled the arcades for a hundred years packed up and moved around the corner in 2001. The neighbourhood became the most polyglot in the city. The podocarp, evergreen and unbothered, looks much the same in February as in August. Its health was recorded as good in November 2025.",
+      "story": "Italy put this tree on its national monumental register in October 2025, and what sets it apart is that it should not be here at all. Podocarpus neriifolius grows wild in the forests of the Himalayan foothills and southeast Asia, and Rome holds very few of any size. This is one of the largest, 230 centimetres around and 20 metres tall, in the public garden inside Piazza Vittorio Emanuele II.\n\nIts age is not known. No planting record survives and neither register that lists it carries a date, so a century, give or take, is as precise as anyone can honestly be. The square around it was laid out in the 1880s for the new capital's civil servants, in an arcaded Turinese style that still makes this corner of Rome look imported from somewhere else, and a garden of exotic trees was exactly what that decade planted.\n\nIt has stood through the more restless version of Rome. The square's ruined fountain, the Trofei di Mario, sits a few steps away and predates it by seventeen centuries. The food market that filled the arcades for a hundred years packed up and moved around the corner in 2001. The neighbourhood became the most polyglot in the city. The podocarp, evergreen and unbothered, looks much the same in February as in August. Its health was recorded as good in November 2025.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rom_019-the-podocarp-of-piazza-vittorio.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b411fdc6cd3d1a6d15f76de6",
+        "sighting_id": "08d9dca8-6910-4532-9104-3882784466f6",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The whole tree fills the frame in daylight: a tall dense evergreen conifer with long narrow willow-like leaves, single dark trunk ringed by a tree pit, in the paved public garden of Piazza Vittorio with its iron railing, plane trees and arcaded blocks behind. The tree has no photograph yet. Species seen: dense dark-green crown of long narrow strap-like leaves on a single reddish fibrous trunk: a podocarp, not a yew or pine. Fits the description: the largest tree in a paved square garden inside railings with apartment blocks around, evergreen among autumn-yellowing planes, about 20 m tall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": 230,
       "how_to_recognise": "In the garden inside Piazza Vittorio, 2.3 metres round and evergreen in every month of the year, a few steps from the ruined Trofei di Mario.",

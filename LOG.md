@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: Rome's Piazza Vittorio podocarp gets its first photograph
+
+- **rome/rom_019, The Podocarp of Piazza Vittorio**: a reader's photograph (08d9dca8) shows the whole tree in daylight. It has a dense crown of narrow podocarp leaves, and the garden's railings and autumn plane trees are around it. This is the tree's first photo, so it is now the lead, with `taken_month` 11 from the photo's own date. The reader got the "on the page" mail. With a reader's photo the page now counts as indexable, so preflight's colon-reveal check caught the story's first sentence ("for one reason: it should not be here"). That sentence is rewritten in English and in the Italian overlay.
+- Nothing else waited: no open reports, tips, feedback or reader notes. 3c544597 (our own account's photo) is still not on disk and was left alone.
+- Checks: qa --source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-21 reader judge: the Hauptallee chestnuts get their first photograph
 
 - **vienna/vie_003, The Chestnut Avenue of the Hauptallee**: a reader's photograph (869c8d36) of the whole avenue in October: rows of old horse chestnuts on both sides of the gravel walk, with crowns turning yellow. The avenue had no approved photo, because the Commons bark close-up was held, so this is now the lead (`taken_month` 10 from the photo's own date). The pin stays as it was: the reader's GPS is on our confirmed register pin.

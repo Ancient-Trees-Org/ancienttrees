@@ -199,6 +199,28 @@
    "agreed": null
   },
   {
+   "id": "sight:08d9dca8-6910-4532-9104-3882784466f6",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Podocarp of Piazza Vittorio",
+   "city": "Rome",
+   "species": "Willowleaf Podocarp (Podocarpus neriifolius)",
+   "photo": "out/sightings/08d9dca8-6910-4532-9104-3882784466f6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Willowleaf Podocarp (Podocarpus neriifolius)"
+   },
+   "verdict": "publish",
+   "reason": "Whole tree in daylight in the Piazza Vittorio garden, podocarp leaves and the railings match; first photograph of this tree, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
