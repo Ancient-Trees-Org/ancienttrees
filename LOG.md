@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: the Morris Arboretum weeping beech gets its first photograph
+
+- **philadelphia/phl_020 The Weeping European Beech at Morris Arboretum**: a reader's photo under the hanging canopy, layered stems in autumn leaf, with the arboretum's own sign for this tree in frame. It is now the page's first photograph (`approve`), filed under November. Its GPS fix moved our approximate pin 106 m, and the pin is now confirmed.
+- **Report 1000114** (the same tree, pin moved by hand 106 m): their spot is about 8 m from the photograph's GPS fix, so the two agree. The report closed with the standard pin thank-you, since it carried no words of their own.
+- Not judged again: the Amsterdam lead `3c544597` (one of our own accounts, `mine`), because its photo is still not on this runner. No tips, no new feedback, no reader words waiting.
+
 ## 2026-11-21 reader judge: the Morris Arboretum katsura gets its first photograph
 
 - **philadelphia/phl_003 The Katsura-Tree of Morris Arboretum**: a reader's photo of the whole base, a dozen stems fanning out from one root plate in autumn yellow, is now the page's first photograph (`approve`). It is filed under November. Its GPS fix moved our approximate pin 215 m, and the pin is now confirmed.

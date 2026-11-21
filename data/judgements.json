@@ -1528,6 +1528,28 @@
    "agreed": null
   },
   {
+   "id": "sight:74f4a12b-4119-4694-ab59-125839f977f8",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Weeping European Beech at Morris Arboretum",
+   "city": "Philadelphia",
+   "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+   "photo": "out/sightings/74f4a12b-4119-4694-ab59-125839f977f8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 106,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping Beech (Fagus sylvatica 'Pendula')"
+   },
+   "verdict": "publish",
+   "reason": "This weeping beech grove, in autumn leaf, with the arboretum's own sign for it in frame; now the tree's first photograph and its pin moved 106 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",

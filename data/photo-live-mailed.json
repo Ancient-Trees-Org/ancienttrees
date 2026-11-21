@@ -746,6 +746,15 @@
      "city_slug": "philadelphia",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "74f4a12b-4119-4694-ab59-125839f977f8",
+     "tree_id": "phl_020",
+     "tree_name": "The Weeping European Beech at Morris Arboretum",
+     "city": "Philadelphia",
+     "city_slug": "philadelphia",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [
