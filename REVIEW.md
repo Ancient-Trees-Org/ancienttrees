@@ -33,6 +33,11 @@ Web half: the last 24 hours were reader-judge photographs (Castlemaine's two tre
 - WARN site/dist/contribute.html still says "verified against independent sources before it goes live". Twenty-sixth review. False since "Good reader input IS the source" (2026-10-12). Replacement: "We read every submission before it is kept."
 - WARN site/dist/collections/ancient-oaks-of-europe.html and europes-most-remarkable-yews.html still say "every coordinate verified" (sixth review). Hard rule 2, faked precision. Replacement: "every entry is publicly accessible and links onward with a map".
 
+App half (iPhone SE: refused, review-ask, search, signin-email, signin, species-pick): looked at all six. The location, rating and sign-in sheets and search results read honestly.
+
+- NOTE APP signin-email.png is pixel-identical to signin.png (three buttons, "Continue with email" not opened), so the sweep's email step does not show the email form; worth a session checking that the capture taps through.
+- NOTE APP species-pick.png: the bare numbers (320, 149, 129...) beside each species have no label, and the checked Pedunculate Oak has none. A reader cannot tell they are tree counts; a session decides whether a unit ("320 trees") or no number is right.
+
 ## 2026-11-20
 
 Web half: the last 24 hours were reader-judge photographs (Lyon, London), the bookmark on tree tiles (web and app, iOS and Android), the sign-in last-call script, row thumbnails and Birmingham verify leads. Nothing new broke in what was sampled; the earlier findings are all still present in site/dist (checked by grep):
