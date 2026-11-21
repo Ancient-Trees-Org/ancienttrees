@@ -21,6 +21,15 @@
       ],
       "what": "11 Java crashes on 4 testers' phones 11-17 to 11-19, all signed in and collecting; most came right after the My trees tab or a collect. Dove in 2026-11-20: not reproduced (3,000 monkey taps, My trees and camera collect signed in, don't-keep-activities); PostHog's crash handler delivered none of them, though it works on the emulator. Build 4 carries the crash note (ExitWatch.install), so the next one names its line.",
       "next": "first crash on build 4: read its trace with scripts/app_crashes.py and fix it"
+    },
+    {
+      "platform": "android",
+      "signature": "IndexOutOfBoundsException @ Preconditions.outOfBounds:100",
+      "builds": [
+        "4"
+      ],
+      "what": "Species picker with no rows (a search matching nothing): groupedSection read key(0) for its gap item while count was 0, so rows[0] threw. Fixed 2026-11-21 in SpeciesChooser.kt: an empty section draws nothing. Needs a device build to ship; no unit test (Compose lazy scope, no JVM harness for it).",
+      "fixed_in": "SpeciesChooser.kt groupedSection count==0 guard"
     }
   ]
 }

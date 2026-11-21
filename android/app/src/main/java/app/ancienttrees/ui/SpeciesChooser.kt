@@ -250,6 +250,9 @@ internal fun LazyListScope.groupedSection(
     footer: (@Composable () -> String)? = null,
     row: @Composable (Int) -> Unit,
 ) {
+    // An empty section (a search that finds nothing) has no row 0 for key(0) to read:
+    // that was the IndexOutOfBounds crash on build 4 (2026-11-21). Draw nothing.
+    if (count == 0) return
     if (header != null) {
         item(key = "h-$header") {
             Text(
