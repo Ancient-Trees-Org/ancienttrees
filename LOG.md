@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-21 05:54 run: Android build 4 crash fixed, nothing else shipped
+
+Rung 2. The Android species picker crashed twice on one phone (IndexOutOfBounds, `groupedSection` reading `key(0)` with zero rows, e.g. a search that matches nothing). Fixed in SpeciesChooser.kt (an empty section draws nothing), recorded in data/crash-fixes.json. No unit test: no JVM harness for a Compose lazy scope. For Hidde: next Android build carries the fix for IndexOutOfBoundsException @ Preconditions.outOfBounds:100.
+Not acted on: one reader photo of an unmapped tree (3c544597) is not on disk in this runner, so it stays unjudged for the reader judge; a web error (getBoundingClientRect on null) seen once on one page, below the red threshold. No trees added, no verify pass dispatched this window.
+
 ## 2026-11-21 reader judge: the Castlemaine stone pine is live, so the place has two trees
 
 - **New tree**: `castlemaine/cmn_002` is The Forked Stone Pine of Castlemaine, from the same reader as the oak below. It stands about 80 m south of the oak and its photo carries its own location. The photograph shows a tall pine forking into two stems under an umbrella crown, in daylight. The reader says it is about 150 years old and on the Victorian significant tree register; the page gives both as theirs. Its `taken_month` is 11, from the photo's own date. A parallel run had published only the oak and left this lead waiting. Castlemaine now has two web trees, which is enough for a place page, so its intro and meta now name the pine. My own duplicate of the oak (cmv_001) was dropped in favour of cmn_001.
