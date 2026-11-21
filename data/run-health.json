@@ -2,57 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-13T13:33:17+00:00",
-   "date": "2026-09-13",
-   "run_id": "34758373772",
-   "minutes": 36.3,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 263,
-   "denials": 16,
-   "denials_source": "permission_denials: Bash(cat), Bash(cd), Bash(echo), Bash(env), Bash(for), Bash(ls), Bash(mkdir), Bash(pip), Bash(python3), Bash(rm)",
-   "ended": "success",
-   "tokens": 3572960,
-   "claims_held": [
-    "milan",
-    "leiden"
-   ],
-   "commits": 12,
-   "cities_touched": 7,
-   "cities": [
-    {
-     "city": "berlin",
-     "trees": 0
-    },
-    {
-     "city": "krakow",
-     "trees": 0
-    },
-    {
-     "city": "prague",
-     "trees": 0
-    },
-    {
-     "city": "singapore",
-     "trees": 0
-    },
-    {
-     "city": "utrecht",
-     "trees": 0
-    },
-    {
-     "city": "valencia",
-     "trees": 0
-    },
-    {
-     "city": "vienna",
-     "trees": 0
-    }
-   ],
-   "trees": 0,
-   "logged": true
-  },
-  {
    "started": "2026-09-13T15:03:54+00:00",
    "date": "2026-09-13",
    "run_id": "34764453372",
@@ -18277,6 +18226,44 @@
     }
    ],
    "trees": 1,
+   "logged": true
+  },
+  {
+   "started": "2026-11-21T16:16:38+00:00",
+   "date": "2026-11-21",
+   "run_id": "44923603706",
+   "minutes": 8.9,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 162,
+   "denials": 2,
+   "denials_source": "permission_denials: Bash(cat ; import ; ? ; no ...), Bash(git)",
+   "ended": "success",
+   "tokens": 655646,
+   "claims_held": [
+    "potsdam"
+   ],
+   "commits": 8,
+   "cities_touched": 4,
+   "cities": [
+    {
+     "city": "bristol",
+     "trees": 1
+    },
+    {
+     "city": "kandy",
+     "trees": 1
+    },
+    {
+     "city": "le-porge",
+     "trees": 1
+    },
+    {
+     "city": "leamington-spa",
+     "trees": 1
+    }
+   ],
+   "trees": 4,
    "logged": true
   }
  ],
