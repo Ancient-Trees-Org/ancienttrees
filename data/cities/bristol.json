@@ -590,8 +590,8 @@
       "girth_cm": 710,
       "location": {
         "address": "Bishops Knoll Wood, Bramble Lane, Stoke Bishop, Bristol BS9 1JH",
-        "latitude": 51.47389,
-        "longitude": -2.64527,
+        "latitude": 51.473328,
+        "longitude": -2.64442,
         "neighbourhood": "Stoke Bishop"
       },
       "verified_sources": [
@@ -600,15 +600,29 @@
       ],
       "access": "Free. Woodland Trust wood, open access; main entrance on Bramble Lane (public road with pavement, wide gate). A public footpath crosses the site; some uneven steps. No car park, a few spaces on Bramble Lane.",
       "transport": "Nearest bus stop Julian Road, 1 km walk on pavement (Woodland Trust).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "how_to_recognise": "You can recognise it by the Victorian iron railings still standing round its trunk, which is over seven metres in girth. It stands inside Bishops Knoll Wood, among the old grounds of the demolished Knoll mansion.",
       "story": "The house whose garden this cypress grew up in has been gone for half a century, and its railings have not. Bishops Knoll Wood was once the grounds of The Knoll, a mansion built in the late 19th century for Peter Prankerd and demolished in the 1970s. The Monterey cypress still stands inside the Victorian ironwork that was put round it, a fence guarding a garden that no longer exists.\n\nIt has grown into what the Bristol Tree Forum calls a colossal specimen. The Forum measured the trunk at 7.1 metres round, and the Woodland Trust, which now owns the wood, gives it a girth of over seven metres.\n\nThe Forum's age is a piece of reasoning rather than a record. Monterey cypress reached Britain in 1839, and the Forum argues this one cannot have gone in earlier than 1860, which puts it somewhere around 150 to 170 years old. Nobody has a planting date.\n\nThe species has a second claim on British gardens. The Forum points out that Monterey cypress is one parent of the Leyland cypress, the fast-growing conifer behind so many garden hedges. This is what one side of that family looks like when it is left alone for a century and a half.\n\nThe wood is free to walk into from Bramble Lane. A giant coast redwood and a vast Austrian black pine stand in the same old grounds.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bri_015-the-monterey-cypress-at-bishops-knoll.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
+        "sighting_id": "9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The huge multi-limbed cypress inside its ring of old iron railings, in daylight; the tree has no photograph yet. Species seen: Cupressus: stringy, fibrous reddish bark, many heavy ascending limbs, scale-leaf foliage. Fits the description: a very wide trunk with a large burr, standing inside curved Victorian iron railings in woodland, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
+        "moved_m": 86,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

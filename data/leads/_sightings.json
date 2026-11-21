@@ -8856,6 +8856,41 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "peterborough/pbo_001"
+  },
+  {
+   "sighting_id": "081afcee-57a6-4622-8de5-607f1c1a328c",
+   "user_id": "p_22c8aa9b88602739b67d46a4",
+   "mine": false,
+   "name": "Oak near Geetbets",
+   "unsure_among": null,
+   "species": "Oak",
+   "age": "Approx 350 yrs",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 50.9606035240469,
+   "longitude": 5.37656659260893,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_22c8aa9b88602739b67d46a4/081AFCEE-57A6-4622-8DE5-607F1C1A328C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/081afcee-57a6-4622-8de5-607f1c1a328c-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole oak standing alone in a clearing of rough grass, a straight dark trunk mossy at the foot under a broad crown of crooked limbs in bronze autumn leaf, a wooden rail along a path in front, blue sky, daylight, colour. The second file is the same frame. Live as hasselt/has_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "hasselt/has_001"
   }
  ]
 }

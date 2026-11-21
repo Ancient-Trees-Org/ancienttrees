@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: an oak at Kiewit opens Hasselt; first photograph for the Bishops Knoll cypress in Bristol
+
+- **hasselt/has_001 The Oak of Kiewit** (new place, one tree, so no place page yet): a reader sent this oak from the app. The app labelled it "near Geetbets", our nearest place 19 km away, but the phone's GPS puts it at Domein Kiewit by the visitor centre in Hasselt (OpenStreetMap). The photo shows a lone oak with a wide crown in bronze autumn leaf, in a clearing beside a railed path. The pin is confirmed from the device's GPS. The species is "Oak (Quercus sp.)" and the reader's 350 years appear as their estimate. The photo is filed under November, its own date. Hasselt's names in other languages were looked up.
+- **bristol/bri_015 The Monterey Cypress at Bishops Knoll**: the reader's photo is now the lead. It shows the burred trunk inside its Victorian iron railings, as the recognition line says. The pin moved 86 m to the photo's GPS fix and is now confirmed. The same reader's pin report (1000111) landed 3 m from that fix, so I closed it with the standard pin thank-you.
+- Left for the next run: sighting 3c544597 (an unnamed tree in Amsterdam at 52.3972,4.8739). Its photo is not on disk, and it is not judged blind.
+- No tips, feedback or reader words waiting. qa source, preflight (0 problems) and i18ncheck clean.
+
 ## 2026-11-21 reader judge (second run, same items): Peterborough's sequoia avenue gets its planting date
 
 - Two reader-judge runs took the same sighting and photo at once, and the other pushed first, so I dropped my duplicate commit. I added only what its version lacked. **peterborough/pbo_001** now has its source and age: Parks and Gardens UK records the Orton Longueville avenue of Wellingtonias, 700 yards along the estate's south boundary, planted as seedlings in 1861 by the 10th Marquess of Huntly and Maria. The photo's location falls on that avenue. The story, question text and FAQ now give 1861 where they asked readers for it; the reader's 150 years and 589 cm stay theirs. Peterborough's names in other languages were also looked up.

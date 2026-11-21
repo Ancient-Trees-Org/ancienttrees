@@ -1,0 +1,75 @@
+{
+  "city": "Hasselt",
+  "country": "Belgium",
+  "status": "needs_curation",
+  "intro": "Hasselt is the capital of the Belgian province of Limburg. On its northern edge lies Kiewit, a wooded domain with a visitor centre, footpaths and open clearings. In one of those clearings stands a broad oak that a reader photographed in autumn and sent to us, about 350 years old by their estimate. We have no measurement or register entry for it yet, and we would welcome one from anyone who knows it.",
+  "meta_description": "The oak of Kiewit in Hasselt, Belgian Limburg: a lone, wide-crowned oak a reader photographed, where it stands and what we know so far.",
+  "hero_tree_id": "has_001",
+  "oldest_tree_id": "has_001",
+  "trees": [
+    {
+      "id": "has_001",
+      "name": "The Oak of Kiewit",
+      "species": "Oak (Quercus sp.)",
+      "age_estimate": "about 350 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Domein Kiewit, near the visitor centre, Putvennestraat, Hasselt, Limburg",
+        "latitude": 50.9606035240469,
+        "longitude": 5.37656659260893,
+        "neighbourhood": "Kiewit"
+      },
+      "how_to_recognise": "A lone oak in a clearing of rough grass beside a path with a low wooden rail: one straight dark trunk, mossy at the foot, under a wide rounded crown of crooked limbs.",
+      "access": "Free. In the Kiewit domain, on open grass beside a footpath where the reader stood.",
+      "story": "A reader walking in Kiewit, the wooded domain on the northern edge of Hasselt, stopped at this oak and sent us a photograph from the path beside it. They put it at about 350 years old.\n\nThe photograph shows why it caught their eye. The oak stands on its own in a clearing of rough grass, a single straight trunk, dark and mossy at the foot, rising clear of the undergrowth before it breaks into heavy, crooked limbs. Nothing has crowded it, so the crown has spread wide in every direction, a great rounded dome against the sky. In the reader's November picture the leaves have turned the colour of old bronze under a clear blue sky, while a maple at the edge of the clearing has already gone yellow.\n\nThe age is the reader's estimate. We have not seen a measurement or a register entry for this tree, and we do not yet know which of Belgium's two native oaks it is. If you have put a tape round the trunk, or know its story, tell us here and we will add your figures.\n\nStand by the wooden rail on the path and look up through the crown.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "081afcee-57a6-4622-8de5-607f1c1a328c",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "081afcee-57a6-4622-8de5-607f1c1a328c",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (081afcee-57a6-4622-8de5-607f1c1a328c, 2026-11-21, through the app). The app named it 'near Geetbets' (our nearest place, 19 km off); the GPS fix is at Bezoekerscentrum Kiewit, Putvennestraat, Hasselt (OpenStreetMap reverse lookup). Photograph viewed: the whole oak standing alone in a clearing of rough grass, a straight dark trunk mossy at the foot under a broad crown of crooked limbs in bronze autumn leaf, a wooden rail along a path in front, blue sky, daylight, colour. The second file is the same frame. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: species 'Oak', age 'Approx 350 yrs'. No register entry within 100 m; age stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/has_001-oak-of-kiewit.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_22c8aa9b88602739b67d46a4",
+        "sighting_id": "081afcee-57a6-4622-8de5-607f1c1a328c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole oak standing alone in a clearing of rough grass, a straight dark trunk mossy at the foot under a broad crown of crooked limbs in bronze autumn leaf, a wooden rail along a path in front, blue sky, daylight, colour. The second file is the same frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The oak of Kiewit in Hasselt, Belgian Limburg: a lone, wide-crowned oak a reader photographed, where it stands and what we know so far.",
+  "question_answer": "The Oak of Kiewit stands in a grassy clearing beside a footpath in Domein Kiewit, near the visitor centre on the northern edge of Hasselt in Belgian Limburg. It can be reached freely on foot.",
+  "question_context": "A reader walking in Kiewit, the wooded domain on the northern edge of Hasselt, sent us a photograph of this oak, which stands near the Kiewit visitor centre on Putvennestraat. What makes it worth the walk is its shape. It stands alone in a clearing of rough grass, so for its whole life it has had light on every side, and an oak with that much room grows wide rather than only tall. A single straight trunk, dark and mossy at the base, rises clear of the undergrowth and then divides into heavy, crooked limbs that hold a broad, rounded crown. In autumn the leaves turn bronze before they fall. A footpath with a low wooden rail runs past the clearing, which is where the reader stood. The reader puts the tree at about 350 years old; that is their estimate, and we have not seen a girth measurement or a register entry that would confirm it. Nor do we yet know whether it is a pedunculate or a sessile oak, the two oaks native to Belgium. If you know its story or have measured it, tell us on the page and we will add it.",
+  "faq": [
+    {
+      "q": "Where is the Oak of Kiewit?",
+      "a": "In a grassy clearing beside a footpath in Domein Kiewit, near the visitor centre on Putvennestraat, on the northern edge of Hasselt, Belgium."
+    },
+    {
+      "q": "Can I visit the Oak of Kiewit?",
+      "a": "Yes. It stands on open grass beside a footpath in the Kiewit domain, where the reader walked up to it."
+    },
+    {
+      "q": "How old is the Oak of Kiewit?",
+      "a": "About 350 years by the estimate of the reader who sent it to us. We have not seen a measurement or register entry; if you know more, tell us on the page."
+    }
+  ]
+}

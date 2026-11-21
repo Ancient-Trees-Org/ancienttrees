@@ -1387,7 +1387,17 @@
   },
   "p_7b2115b8e39fa3b6538f86e3": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
+     "tree_id": "bri_015",
+     "tree_name": "The Monterey Cypress at Bishops Knoll",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "1b2096fe-4e2d-41f0-9517-b288ef04b372",

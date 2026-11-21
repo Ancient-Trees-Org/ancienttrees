@@ -904,6 +904,68 @@
    "agreed": null
   },
   {
+   "id": "sight:9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Monterey Cypress at Bishops Knoll",
+   "city": "Bristol",
+   "species": "Monterey Cypress (Cupressus macrocarpa)",
+   "photo": "out/sightings/9a59c1b4-6a1f-45ee-970d-7c8762e6791e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 86,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress (Cupressus macrocarpa)"
+   },
+   "verdict": "publish",
+   "reason": "The cypress inside its old iron railings, as the recognition line says; first photograph for bristol/bri_015, pin moved 86 m to the reader's fix and now confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:081afcee-57a6-4622-8de5-607f1c1a328c",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Oak of Kiewit",
+   "photo": "p_22c8aa9b88602739b67d46a4/081AFCEE-57A6-4622-8DE5-607F1C1A328C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a lone wide-crowned oak in bronze autumn leaf in a clearing beside a railed path. Live as hasselt/has_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:081afcee-57a6-4622-8de5-607f1c1a328c",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Oak near Geetbets",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_22c8aa9b88602739b67d46a4/081AFCEE-57A6-4622-8DE5-607F1C1A328C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "A lone wide-crowned oak in a clearing at Domein Kiewit, Hasselt (the app's 'near Geetbets' was 19 km off), with a GPS fix; live as hasselt/has_001, the reader's 350 years stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
