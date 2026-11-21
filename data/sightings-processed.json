@@ -6307,6 +6307,22 @@
    "outcome": "held",
    "date": "2026-11-21",
    "reason": "held not_public: Royal Paulownia on a private-looking lawn in Springs, East Hampton; visibility from the street unknown"
+  },
+  "27e529b6-7e49-4fd7-853e-6acc23a947e9": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "reason": "live as oakville/okv_001"
+  },
+  "5917dc6f-2a08-4fd5-9d2f-b981cd453cf3": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "crf_001",
+   "city_slug": "moffat",
+   "file": "crf_001-the-survivor-tree.jpg",
+   "reason": "A lone rowan in flower on the steep grassy bank above the Carrifran Burn, bare hillside around it with only young planted saplings: the survivor of the stripped valley, sent at our pin (0 m). Daylight, colour, the whole tree in frame. Closes a gap: the tree had no photograph. Species seen: pinnate l",
+   "lat": 55.40154,
+   "lon": -3.33824,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

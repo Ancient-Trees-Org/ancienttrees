@@ -157,7 +157,8 @@
         "moved_m": 215,
         "date": "2026-11-21",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "verify_notes": " 2026-11-21 reader judge: report 1000116 moved the pin by hand 120 m (40.087549, -75.220129); kept the reader photograph's GPS fix of the same day, the photo taken at the foot of the trunk (Hidde, 2026-11-17: GPS beats a hand-moved pin)."
     },
     {
       "id": "phl_004",

@@ -1,0 +1,80 @@
+{
+  "city": "Oakville",
+  "country": "Canada",
+  "status": "needs_curation",
+  "intro": "Oakville is a town on the north shore of Lake Ontario between Toronto and Hamilton. In Bronte Creek Provincial Park, on its western edge, a white oak that likely germinated around 1685 spreads over an open meadow, one of the few trees in the region older than European settlement and an Ontario Heritage Tree since 2022. A reader sent us its photograph.",
+  "meta_description": "The heritage white oak of Bronte Creek Provincial Park in Oakville, Ontario: about 340 years old, 684 cm round, and how to find it.",
+  "hero_tree_id": "okv_001",
+  "oldest_tree_id": "okv_001",
+  "trees": [
+    {
+      "id": "okv_001",
+      "name": "The Heritage White Oak of Bronte Creek",
+      "species": "White Oak (Quercus alba)",
+      "age_estimate": "about 340 years (likely germinated around 1685, by the park's sign); about 300 by a reader's estimate",
+      "age_min": 300,
+      "age_max": 345,
+      "age_basis": "source",
+      "girth_cm": 684,
+      "height_m": 19,
+      "location": {
+        "address": "Bronte Creek Provincial Park, Oakville, Ontario",
+        "latitude": 43.4112671025026,
+        "longitude": -79.7724317345125,
+        "neighbourhood": "Bronte Creek Provincial Park"
+      },
+      "story": "\"It survived centuries of development intact,\" wrote the reader who sent us this white oak from Bronte Creek Provincial Park, between Oakville and Burlington on the shore of Lake Ontario.\n\nThe park's own sign, which the reader photographed too, says the same at greater length. The tree likely germinated around 1685, and it is one of the few left in the region that are older than European settlement. It was already standing when the Mississaugas and the British Crown signed the Head of the Lake Treaty in 1806, through the lumber boom of the 1800s and the farming and suburbs that followed. In 2022 it was recognised as an Ontario Heritage Tree.\n\nThe sign gives its measurements as well: 218 centimetres across the trunk at breast height, 684 centimetres round, 19 metres tall and a crown 32 metres wide. That is the shape a white oak takes when it grows in the open. The photograph shows a short, dark trunk dividing low into great grey limbs that reach out level over the grass, the crown far wider than the tree is tall.\n\nThe reader puts it at 300 years. A split-rail fence keeps a ring of ground clear around the roots. Stand by the sign and read the question it asks: how do you measure the value of a tree?",
+      "how_to_recognise": "Alone on a mown meadow: a broad white oak whose short dark trunk splits low into long level limbs, ringed by a wooden split-rail fence with a blue trilingual sign in front.",
+      "verified_sources": [
+        "The park's interpretive sign beside the tree (Ontario, Forests Ontario, Friends of Bronte Creek Park), photographed by the reader: White Oak (Quercus alba), likely germinated 1685, Ontario Heritage Tree since 2022, DBH 218 cm, circumference 684 cm, crown spread 32 m, height 19 m",
+        "https://www.waymarking.com/waymarks/WM2J1W_BCPP_Quercus_Alba (a white oak in Bronte Creek Provincial Park, about 350 years old, Oakville heritage white oak award 2007)",
+        "https://pocketsights.stqry.com/tour/53986/preview (Bronte Creek Provincial Park tour: the white oak recognised as an Ontario Heritage Tree in 2022)"
+      ],
+      "access": "In Bronte Creek Provincial Park; the park charges a day-use fee per vehicle. The tree stands on open grass behind a low fence.",
+      "found_by_reader": {
+        "sighting_id": "27e529b6-7e49-4fd7-853e-6acc23a947e9",
+        "date": "2026-11-21"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "27e529b6-7e49-4fd7-853e-6acc23a947e9",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (27e529b6-7e49-4fd7-853e-6acc23a947e9), name 'Oak near Toronto', species 'Oak', age '300 years', note 'It survived centuries of development intact', pin placed by hand. Photographs viewed: the whole white oak in fresh spring leaf on a mown meadow, a split-rail fence and a blue sign in front of it, blue sky, daylight, colour; a second picture shows the park's sign in English, Anishinaabemowin and French. The sign gives the species, germination around 1685, Ontario Heritage Tree 2022, DBH 218 cm, circumference 684 cm, crown 32 m, height 19 m; girth_cm and height_m are from that sign. Park identified from the sign's Friends of Bronte Creek Park logo and the pin. Both pictures are screenshots (black side bars) of the reader's own camera roll; the sign was photographed on site in autumn, so the visit is theirs. Published under the closed list (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/okv_001-the-heritage-white-oak-of-bronte-creek.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 990,
+        "height": 750,
+        "source": "contributor",
+        "contributor_user_id": "p_8bd7bfeb4f7185d67df893e0",
+        "sighting_id": "27e529b6-7e49-4fd7-853e-6acc23a947e9",
+        "taken_month": 5,
+        "taken_month_basis": "fresh spring leaf in the photograph; the file's November date belongs to the screenshot and the autumn sign photo, not this picture",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved on 2026-11-21: the whole white oak in fresh spring leaf on a mown meadow, a split-rail fence and a blue sign in front of it, blue sky, daylight, colour; a second picture shows the park's sign in English, Anishinaabemowin and French. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The heritage white oak of Bronte Creek Provincial Park in Oakville, Ontario: about 340 years old, 684 cm round, and how to find it.",
+  "question_answer": "The tree to see at Oakville is the Heritage White Oak of Bronte Creek, a white oak that likely germinated around 1685, on an open meadow in Bronte Creek Provincial Park.",
+  "question_context": "Bronte Creek Provincial Park lies on the western edge of Oakville, between Oakville and Burlington, on the north shore of Lake Ontario. On an open meadow in the park stands a white oak, Quercus alba, that the park's own sign says likely germinated around 1685. That makes it one of the few trees left in the region older than European settlement, and in 2022 it was recognised as an Ontario Heritage Tree. The sign gives its size as 218 centimetres across the trunk at breast height, 684 centimetres round, 19 metres tall and 32 metres across the crown, the low, wide shape a white oak takes in the open. It stood through the Head of the Lake Treaty between the Mississaugas and the British Crown in 1806, the lumber boom of the 1800s and the farms and suburbs after it. A reader who sent us its photograph puts it at 300 years and says it survived centuries of development intact. A split-rail fence rings the roots, and the sign beside it asks how you measure the value of a tree.",
+  "faq": [
+    {
+      "q": "Where is the Heritage White Oak of Bronte Creek?",
+      "a": "On an open meadow in Bronte Creek Provincial Park, on the western edge of Oakville, Ontario, inside a split-rail fence with a sign beside it."
+    },
+    {
+      "q": "How old is the Heritage White Oak of Bronte Creek?",
+      "a": "The park's sign says it likely germinated around 1685, which makes it about 340 years old. A reader puts it at about 300."
+    },
+    {
+      "q": "Can I visit the Heritage White Oak of Bronte Creek?",
+      "a": "Yes. It stands in Bronte Creek Provincial Park, which charges a day-use fee; a low fence keeps visitors off the roots."
+    }
+  ]
+}

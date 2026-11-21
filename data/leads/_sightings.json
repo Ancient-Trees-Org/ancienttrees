@@ -9263,6 +9263,41 @@
    "seen": "2026-11-21",
    "hold": "not_public",
    "judged": "2026-11-21"
+  },
+  {
+   "sighting_id": "27e529b6-7e49-4fd7-853e-6acc23a947e9",
+   "user_id": "p_8bd7bfeb4f7185d67df893e0",
+   "mine": false,
+   "name": "Oak near Toronto",
+   "unsure_among": null,
+   "species": "Oak",
+   "age": "300 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "It survived centuries of development intact",
+   "latitude": 43.4112671025026,
+   "longitude": -79.7724317345125,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_8bd7bfeb4f7185d67df893e0/27E529B6-7E49-4FD7-853E-6ACC23A947E9.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/27e529b6-7e49-4fd7-853e-6acc23a947e9-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole white oak in fresh spring leaf on a mown meadow, a split-rail fence and a blue sign in front of it, blue sky, daylight, colour; a second picture shows the park's sign in English, Anishinaabemowin and French. Live as oakville/okv_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "oakville/okv_001"
   }
  ]
 }

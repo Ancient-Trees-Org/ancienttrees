@@ -51,12 +51,19 @@
       "transport": "No public transport serves the site. By car via the A708 between Moffat and Selkirk; the small Carrifran Wildwood car park is signed off the road (look for the farm gate just west of a cattle grid). Moffat is the nearest town, roughly 10km away.",
       "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "When the Borders Forest Trust bought the Carrifran valley in 2000, this rowan was very nearly the only tree standing in it. Centuries of grazing had stripped the glen bare to the tops and the rowan held on where nothing else had. Its photograph went onto the fundraising leaflet under the line 'Where one tree survives... a million trees will grow', and some 700,000 trees have gone in around it since.\n\nBy the usual measures it is unremarkable. No source dates it more precisely than under a hundred years, nobody has recorded a girth, and in a hedgerow you would walk past it. What it has watched is the reason to come: a stripped valley turning back into native woodland from the inside, one planting season at a time, until the survivor on the poster stood inside a forest. Woodland Trust Scotland made it Scotland's Tree of the Year in 2020, and it was the UK entry in the 2021 European Tree of the Year, finishing eleventh.\n\nYou need a car. The small Carrifran car park is signed off the A708 between Moffat and Selkirk, by the farm gate just west of a cattle grid, and a clear path runs up the valley from there. Access is open across the whole site, though the made paths are the sensible line, and dogs go on a lead from 1 April to 31 July for the nesting birds. Keep going and the same walk carries on up towards White Coomb.",
+      "story": "When the Borders Forest Trust bought the Carrifran valley in 2000, this rowan was very nearly the only tree standing in it. Centuries of grazing had stripped the glen bare to the tops and the rowan held on where nothing else had. Its photograph went onto the fundraising leaflet under the line 'Where one tree survives... a million trees will grow', and some 700,000 trees have gone in around it since.\n\nBy the usual measures it is unremarkable. No source dates it more precisely than under a hundred years, nobody has recorded a girth, and in a hedgerow you would walk past it. You come for what it has watched. A stripped valley has turned back into native woodland from the inside, one planting season at a time, until the survivor on the poster stood inside a forest. Woodland Trust Scotland made it Scotland's Tree of the Year in 2020, and it was the UK entry in the 2021 European Tree of the Year, finishing eleventh.\n\nYou need a car. The small Carrifran car park is signed off the A708 between Moffat and Selkirk, by the farm gate just west of a cattle grid, and a clear path runs up the valley from there. Access is open across the whole site, though the made paths are the sensible line, and dogs go on a lead from 1 April to 31 July for the nesting birds. Keep going and the same walk carries on up towards White Coomb.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/crf_001-the-survivor-tree.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 6,
+        "source": "contributor",
+        "contributor_user_id": "p_cabf15a107d0c1a54ccea8fa",
+        "sighting_id": "5917dc6f-2a08-4fd5-9d2f-b981cd453cf3",
+        "note": "Photographed by a reader and sent through the app (2021-06-14); a viewing pass approved it on 2026-11-21: A lone rowan in flower on the steep grassy bank above the Carrifran Burn, bare hillside around it with only young planted saplings: the survivor of the stripped valley, sent at our pin (0 m). Daylight, colour, the whole tree in frame. Closes a gap: the tree had no photograph. Species seen: pinnate leaves and creamy flat flower heads, smooth grey stems: rowan. Fits the description: an ordinary-sized rowan alone on a bare valley side above the burn, young planted trees scattered around it, as the recognition line and story say.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it as an ordinary-looking rowan, unremarkable in size, standing out only because it was nearly the sole tree left in the valley before replanting began around it. It stands partway up the Carrifran valley path."
     }

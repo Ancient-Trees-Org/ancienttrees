@@ -2843,6 +2843,21 @@
      "mailed": "2026-11-21"
     }
    ]
+  },
+  "p_cabf15a107d0c1a54ccea8fa": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "5917dc6f-2a08-4fd5-9d2f-b981cd453cf3",
+     "tree_id": "crf_001",
+     "tree_name": "The Survivor Tree",
+     "city": "Moffat",
+     "city_slug": "moffat",
+     "display_name": null,
+     "live": "2026-11-21"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

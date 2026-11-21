@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Heritage White Oak of Bronte Creek",
+   "photo": "p_8bd7bfeb4f7185d67df893e0/27E529B6-7E49-4FD7-853E-6ACC23A947E9.jpg",
+   "reader_note": "It survived centuries of development intact",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole white oak in spring leaf behind a split-rail fence and the park's sign. Live as oakville/okv_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -1708,6 +1720,56 @@
    },
    "verdict": "hold",
    "reason": "not_public: a tall Royal Paulownia (labelled on its trunk) at the back of a private-looking lawn on Winding Way, Springs, East Hampton NY; pin hand-placed on a house lot, photo taken from inside the lawn, so whether it is seen from the street is unknown. Goes live with the pin on the viewing spot once the reader says it can be seen from a street or path.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5917dc6f-2a08-4fd5-9d2f-b981cd453cf3",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Survivor Tree",
+   "city": "Moffat",
+   "species": "Rowan (Sorbus aucuparia)",
+   "photo": "out/sightings/5917dc6f-2a08-4fd5-9d2f-b981cd453cf3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Rowan (Sorbus aucuparia)"
+   },
+   "verdict": "publish",
+   "reason": "The lone rowan in flower on the bank above the Carrifran Burn, at our pin; first photograph of the Survivor Tree, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:27e529b6-7e49-4fd7-853e-6acc23a947e9",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Oak near Toronto",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_8bd7bfeb4f7185d67df893e0/27E529B6-7E49-4FD7-853E-6ACC23A947E9.jpg",
+   "reader_note": "It survived centuries of development intact",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "The whole white oak in spring leaf behind a split-rail fence, plus the park's sign (germinated c.1685, Ontario Heritage Tree 2022, 684 cm round). Live as oakville/okv_001, hand-placed pin kept approximate.",
    "hidde": null,
    "agreed": null
   },

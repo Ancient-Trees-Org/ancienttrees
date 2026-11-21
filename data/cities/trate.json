@@ -33,8 +33,8 @@
       "age_max": null,
       "location": {
         "address": "Cmurek Castle, Trate 7, Zgornja Velka, Šentilj",
-        "latitude": 46.7054992091681,
-        "longitude": 15.7864660397255,
+        "latitude": 46.705064,
+        "longitude": 15.786506,
         "neighbourhood": "Trate"
       },
       "how_to_recognise": "On the paved terrace by Cmurek Castle: a huge lime whose gnarled trunk splits low into three great stems, two benches at its foot and an information board beside it, the Mura plain beyond the fence.",
@@ -51,12 +51,17 @@
       "location_precision": "approximate",
       "pin_source": {
         "kind": "reader's hand-placed pin",
-        "sighting_id": "3d93957a-f9bc-4e6a-945d-80943ef691f1",
+        "report": "1000117",
         "date": "2026-11-21",
-        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+        "moved_m": 48,
+        "from": [
+          46.7054992091681,
+          15.7864660397255
+        ],
+        "note": "A reader moved our approximate pin by hand; with nothing better, the reader's spot wins (Hidde, 2026-11-17). Placed by hand, so it stays approximate."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (3d93957a-f9bc-4e6a-945d-80943ef691f1), pin placed by hand. Photograph viewed: the whole bare lime on the castle terrace, a massive gnarled trunk splitting low into three great stems, two benches and an information board at its foot, the plain beyond, daylight, colour. corroborate.py: no register entry within 100 m, no encyclopaedia article within 300 m. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Linden', species 'Linden', age '500 years', girth 780 cm; every figure on the page not in verified_sources is stated as theirs. OSM reverse lookup of the pin: Cmurek Castle, Trate 7, Šentilj, Slovenia. A web search summary says the 2025 Uradni list decree protecting Trate - Grad Cmurek (EID 1-00069) names a centuries-old castle linden; the PDF could not be read (expired certificate), so it is not cited on the page.",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (3d93957a-f9bc-4e6a-945d-80943ef691f1), pin placed by hand. Photograph viewed: the whole bare lime on the castle terrace, a massive gnarled trunk splitting low into three great stems, two benches and an information board at its foot, the plain beyond, daylight, colour. corroborate.py: no register entry within 100 m, no encyclopaedia article within 300 m. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Linden', species 'Linden', age '500 years', girth 780 cm; every figure on the page not in verified_sources is stated as theirs. OSM reverse lookup of the pin: Cmurek Castle, Trate 7, Šentilj, Slovenia. A web search summary says the 2025 Uradni list decree protecting Trate - Grad Cmurek (EID 1-00069) names a centuries-old castle linden; the PDF could not be read (expired certificate), so it is not cited on the page. 2026-11-21 reader judge: pin moved 48 m to a reader's hand-placed spot (report 1000117); stays approximate.",
       "photo": {
         "url": "https://ancienttrees.app/photos/trt_001-castle-linden-of-cmurek.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
