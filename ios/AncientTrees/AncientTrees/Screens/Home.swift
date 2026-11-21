@@ -848,11 +848,12 @@ struct HomeView: View {
                             // boomnaam"). Top-aligned so a one-line name
                             // keeps every person line in the row level.
                             VStack(alignment: .leading, spacing: 2) {
-                                NavigationLink(value: Route.tree(f.tree.id)) {
-                                    VisitorTitle(name: f.tree.name, width: Self.tileWidth)
-                                        .frame(height: VisitorTitle.height, alignment: .topLeading)
-                                }
-                                .buttonStyle(.plain)
+                                // Plain text, not a second link: the photograph
+                                // above is the tile's one control (a 34 point
+                                // link failed appfit SMALL, ios.yml red 2026-11-21).
+                                VisitorTitle(name: f.tree.name, width: Self.tileWidth)
+                                    .frame(height: VisitorTitle.height, alignment: .topLeading)
+                                    .accessibilityHidden(true)
                                 visitorLine(f.row)
                             }
                         }
