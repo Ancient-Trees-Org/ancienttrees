@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: the Beech by the Boat Trip gets its first photograph (Copenhagen)
+
+- copenhagen/cop_009, the Beech by the Boat Trip, has its first photograph. A reader's wide autumn shot of the Frederiksberg Have jetty and boat hut shows the big tree standing over them, exactly where the recognition line puts it. It is filed under November.
+- Fixed while there: cop_009 became indexable with its photograph, and preflight caught a colon reveal in its story ("careful on the point: ..."). It is now two plain sentences. Copenhagen has no translation overlay.
+- A parallel run had already published the same reader's Søndermarken Oak photo (entry below). I kept that version and added only the beech on top. The beech joins that reader's pending mail bundle, so they get one mail. No open reports, no tips, no feedback without a verdict, no reader notes to quote. 3c544597 (Amsterdam) still has no file on this runner.
+
 ## 2026-11-21 reader judge: a reader's photograph leads the Søndermarken Oak (Copenhagen)
 
 - Copenhagen cop_043, the Søndermarken Oak: a reader's photo shows the bare oak alone on its open lawn in autumn, 40 m from our pin. It is now the lead and replaces the dendron.dk photo, which was never approved. It is filed under November.

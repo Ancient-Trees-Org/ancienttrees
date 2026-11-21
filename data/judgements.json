@@ -21079,6 +21079,28 @@
    "reason": "The Søndermarken Oak bare on its open lawn, 40 m from our pin; our old photo was never approved, so the reader's leads.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:679b77fd-5c9c-45a9-aba0-4b93f760ee78",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Beech by the Boat Trip",
+   "city": "Copenhagen",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/679b77fd-5c9c-45a9-aba0-4b93f760ee78.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 66,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The jetty and boat hut in Frederiksberg Have with the big tree standing over them, as the recognition line says; the first photograph this beech has, now its lead.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

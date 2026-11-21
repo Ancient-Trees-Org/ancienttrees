@@ -387,6 +387,15 @@
      "city_slug": "copenhagen",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "679b77fd-5c9c-45a9-aba0-4b93f760ee78",
+     "tree_id": "cop_009",
+     "tree_name": "The Beech by the Boat Trip",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [
