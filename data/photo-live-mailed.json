@@ -2656,6 +2656,15 @@
      "city_slug": "athens",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "d6631bb7-8ba3-496b-a79e-70b515afc573",
+     "tree_id": "ath_005",
+     "tree_name": "The Holm Oak of the National Garden",
+     "city": "Athens",
+     "city_slug": "athens",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": []

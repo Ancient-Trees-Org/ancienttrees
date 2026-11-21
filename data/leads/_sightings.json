@@ -8685,6 +8685,39 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "trate/trt_001"
+  },
+  {
+   "sighting_id": "f01add8b-dd50-44f7-aafa-ca85190b2fff",
+   "user_id": "p_1d47e3a4246db671958cd9a8",
+   "mine": false,
+   "name": "Ombu in Athens",
+   "unsure_among": null,
+   "species": "Ombu",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 37.9742055414825,
+   "longitude": 23.7381407625249,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_1d47e3a4246db671958cd9a8/F01ADD8B-DD50-44F7-AAFA-CA85190B2FFF.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 89,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: the whole foot of a huge ombu, its swollen base poured out over the paving like a frozen flow, several pale trunks rising from it, a marble-walled pavilion with a tiled roof on the left, daylight, colour. Live as athens/ath_013 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "athens/ath_013"
   }
  ]
 }

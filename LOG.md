@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a new Athens tree, the ombu of the National Garden
+
+- New tree live: athens/ath_013, the Ombu of the National Garden. A reader sent it from the garden with a GPS fix, 89 m from our holm oak. The photograph shows a huge swollen base spilling over the paving, with a cluster of trunks rising from it. The story is 215 words: the species stated as fact, nothing invented about its age or size, and an invitation for readers to tell us more. The photo is filed under November, the photograph's own month. Athens now has 13 trees.
+- The same reader sent a second photograph of the holm oak (ath_005). It shows the whole tree, trunk to crown, on its garden path, and it is plainly the same trunk (the hollow at the fork, the garden label). It now leads, and this morning's upward shot moves into the strip.
+- Fixed while there: the Athens FAQ said "Eight of the twelve are free" and named Kaisariani Monastery, which is no longer on the page. It now says all but one of the thirteen are free, the exception being the Acropolis olive. The question meta says "the full thirteen".
+- The congratulation mail for ath_013 waits for the deploy (tree_approved.py found it not yet in the live feed). No open reports, no tips, no feedback without a verdict. 3c544597 (Amsterdam) still has no file on this runner and stays waiting.
+
 ## 2026-11-21 reader judge: reader photos for the Athens holm oak and the Hampstead beech
 
 - Two readers' photographs are live, each now the lead photo on its tree. Athens ath_005, the Holm Oak of the National Garden: looking up into the many-limbed evergreen, the garden's label on the trunk. Its approximate pin moved 57 m to the reader's fix. London lon_052, the Gnarled Beech of Hampstead Heath: the hollow base and rope fence in autumn colour, an exact match for the recognition line. Both are filed under November.

@@ -479,6 +479,56 @@
    "agreed": null
   },
   {
+   "id": "sight:d6631bb7-8ba3-496b-a79e-70b515afc573",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Holm Oak of the National Garden",
+   "city": "Athens",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/d6631bb7-8ba3-496b-a79e-70b515afc573.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "publish",
+   "reason": "The whole holm oak from the garden path, same trunk as the lead (the hollow at the fork, the garden label); shows its size and setting better, so it leads now and the upward shot moves into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f01add8b-dd50-44f7-aafa-ca85190b2fff",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Ombu in Athens",
+   "city": null,
+   "species": "Ombu",
+   "photo": "p_1d47e3a4246db671958cd9a8/F01ADD8B-DD50-44F7-AAFA-CA85190B2FFF.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ombu"
+   },
+   "verdict": "publish",
+   "reason": "A huge ombu in the National Garden of Athens, its swollen base poured over the paving under a cluster of trunks; device GPS fix, 89 m from our holm oak and a different tree. Live as athens/ath_013.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",
@@ -20993,6 +21043,20 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:f01add8b-dd50-44f7-aafa-ca85190b2fff",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Ombu of the National Garden",
+   "photo": "p_1d47e3a4246db671958cd9a8/F01ADD8B-DD50-44F7-AAFA-CA85190B2FFF.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the swollen grey base of a huge ombu poured over the paving, a cluster of trunks rising from it, a marble pavilion beside it, daylight, colour. Lead photograph of athens/ath_013.",
+   "city": "Athens",
+   "species": "Ombu (Phytolacca dioica)"
   }
  ]
 }

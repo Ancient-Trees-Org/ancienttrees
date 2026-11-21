@@ -5,7 +5,7 @@
   "intro": "Athens burned, was besieged, and was rebuilt too many times over three millennia for medieval trees to survive here. What the city kept instead is continuity: an olive replanted where Athena is said to have grown the first one, another regrown from the roots of Plato's own Academy, and a 1950s grove now ranked among the century's landscape masterpieces. Only one true old-growth contender made the list, a disputed 2,500-year-old olive, so far never independently dated by science.",
   "meta_description": "Athens' most remarkable trees are mythological olives and a 1950s masterpiece grove, not medieval survivors. Real stories, exact locations.",
   "question_answer": "Most likely the Olive Tree of Pisistratus, a protected olive in a small park in Agioi Anargyroi, a western Athens suburb, traditionally dated to more than 2,500 years by a 1919 Hellenic Archaeological Society survey. Modern dendrochronology of comparably old Mediterranean olives has repeatedly found real ages closer to three or four centuries once tested with radiocarbon methods, a test this specific tree has never had, so its true age is unverified rather than settled.",
-  "question_meta": "Athens' likeliest oldest tree is a 2,500-year-old olive claim nobody has scientifically tested. What that means, where it stands, and the full twelve.",
+  "question_meta": "Athens' likeliest oldest tree is a 2,500-year-old olive claim nobody has scientifically tested. What that means, where it stands, and the full thirteen.",
   "question_context": "Olive trunks complicate every claim like this: the wood rots hollow from the centre as the tree ages, taking the earliest growth rings with it, so there is no ring count to check the Pisistratus olive's 2,500-year figure against, only the archaeological society's own 1919 measurement methods. Recent radiocarbon studies of other Mediterranean olives with similarly dramatic folk ages have generally found true ages in the low hundreds rather than the thousands, which is why this page states the claim without adopting it. What isn't disputed is the tree's resilience: part of its trunk was cut for firewood during the wartime occupation of the 1940s, and it grew back anyway, a protected natural monument since. Athens' more famous old tree, the mythologised olive beside the Acropolis's Erechtheion, loses on raw age despite the bigger story: the physical wood standing there today was replanted sometime in the early to mid 20th century after wartime damage, younger than the suburb's contender by a wide margin whichever date is used. The Pisistratus olive is free to visit, in a small park behind the church of Agioi Anargyroi, a short walk from Agioi Anargyroi railway station.",
   "faq": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "q": "Are Athens' ancient trees free to visit?",
-      "a": "Eight of the twelve are free. The exceptions are the Acropolis's sacred olive, included in the standard Acropolis ticket, and Kaisariani Monastery, which charges a small entry fee."
+      "a": "All but one of the thirteen are free. The exception is the Acropolis's sacred olive, included in the standard Acropolis ticket."
     },
     {
       "q": "Why does Athens have so few truly ancient trees compared to other European capitals?",
@@ -238,7 +238,7 @@
       "notes": "Individual tree identification and age rest primarily on one detailed naturalist source (Athens Nature Journal); the garden's 1839 founding date and general presence of centenarian holm oaks is independently confirmed by the European Garden Heritage Network. Kept because the underlying facts check out even though this specific tree isn't cross-confirmed by a second dedicated source. Photo fetched and viewed directly: a genuinely massive spreading holm oak over a garden path, matching the description.",
       "location_precision": "confirmed",
       "photo": {
-        "url": "https://ancienttrees.app/photos/ath_005-the-holm-oak-of-the-national-garden-61b034b0.jpg",
+        "url": "https://ancienttrees.app/photos/ath_005-the-holm-oak-of-the-national-garden-d6631bb7.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -247,11 +247,24 @@
         "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_1d47e3a4246db671958cd9a8",
-        "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
-        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: Looking up into a broad, many-limbed evergreen oak in full leaf with a garden label on the trunk, 57 m from our pin in the National Garden; this is the holm oak. Species seen: small leathery evergreen leaves, finely chequered dark grey bark, low multi-stemmed crown: holm oak. Fits the description: a big old evergreen with a dense dark canopy in a park setting, a garden label on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "sighting_id": "d6631bb7-8ba3-496b-a79e-70b515afc573",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: The whole holm oak from the path, trunk to crown, in daylight and full leaf: the same trunk as the current lead (the round hollow where the limbs part, the white garden label on the trunk), a bench and a blue garden sign at its foot. It shows the tree's size and setting better than the upward shot, so it leads and the upward shot moves into the strip. Species seen: small leathery evergreen leaves, finely chequered dark bark, broad low-forking crown: holm oak. Fits the description: a big old evergreen oak with a dense dark canopy over a quiet gravel garden path, a garden label on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its dense, dark evergreen canopy, unlike the garden's palms and eucalyptus. It stands among the National Garden's quieter paths, away from the pond.",
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ath_005-the-holm-oak-of-the-national-garden-61b034b0.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_1d47e3a4246db671958cd9a8",
+          "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: Looking up into a broad, many-limbed evergreen oak in full leaf with a garden label on the trunk, 57 m from our pin in the National Garden; this is the holm oak. Species seen: small leathery evergreen leaves, finely chequered dark grey bark, low multi-stemmed crown: holm oak. Fits the description: a big old evergreen with a dense dark canopy in a park setting, a garden label on the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Holm_Oak_in_the_National_Garden%2C_Athens_-_panoramio.jpg",
           "license": "CC BY 3.0",
@@ -510,6 +523,49 @@
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by the large plane canopy shading a taverna's tables. It stands at Diogenous 4 in Plaka, just north of the Roman Agora entrance."
+    },
+    {
+      "id": "ath_013",
+      "name": "The Ombu of the National Garden",
+      "species": "Ombu (Phytolacca dioica)",
+      "location": {
+        "address": "National Garden of Athens, Vasilissis Amalias 1, Athens 10557",
+        "latitude": 37.9742055414825,
+        "longitude": 23.7381407625249,
+        "neighbourhood": "Syntagma"
+      },
+      "story": "Most of what makes an ombu remarkable sits at its feet, and the one a reader sent us from the National Garden of Athens shows it as well as any.\n\nThe base of the tree does not so much meet the ground as pour over it. A great grey mass of wood spreads out across the paving in folds and lobes, as if it had been molten once and set where it ran. From that pedestal a crowd of trunks goes up together, the thickest ones scaled and knobbled, the younger ones pale and smooth, into a light green crown. A marble-walled pavilion under a tiled roof stands a few steps away on the left.\n\nThe ombu, Phytolacca dioica, comes from the grasslands of Argentina, Uruguay and southern Brazil, where a lone one could be the only shade for miles. Its wood is soft and full of water, nearer a giant herb's than an oak's, which is how it swells like this. Gardens around the Mediterranean took it up for exactly that strange foot.\n\nWe do not know when this one was planted or how wide its base runs. If you know, tell us here and we will add it as yours.\n\nWalk all the way round the base, which looks different from every side.",
+      "how_to_recognise": "A huge grey base spilling over the paving in folds and lobes, a cluster of trunks rising from it, beside a small marble-walled pavilion with a tiled roof.",
+      "access": "Free, National Garden of Athens, open daily.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "f01add8b-dd50-44f7-aafa-ca85190b2fff",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f01add8b-dd50-44f7-aafa-ca85190b2fff",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (f01add8b-dd50-44f7-aafa-ca85190b2fff). Photograph viewed: the whole foot of a huge ombu, its swollen base poured out over the paving like a frozen flow, several pale trunks rising from it, a marble-walled pavilion with a tiled roof on the left, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader named it 'Ombu in Athens', species 'Ombu'; the swollen spreading base and clustered pale trunks match Phytolacca dioica. 89 m from our holm oak (ath_005), a different tree. A child sits at the base, seen from behind; no face in frame.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ath_013-ombu-of-the-national-garden.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_1d47e3a4246db671958cd9a8",
+        "sighting_id": "f01add8b-dd50-44f7-aafa-ca85190b2fff",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole foot of a huge ombu, its swollen base poured out over the paving like a frozen flow, several pale trunks rising from it, a marble-walled pavilion with a tiled roof on the left, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }
