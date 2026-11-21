@@ -9,6 +9,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 write pass: nothing to write, no trees shipped
+
+Asked for up to 20 verified trees, US and UK first. The shelf is empty. Every file `passcheck.py --pending` lists as awaiting a writer or as an id collision is already live under another id: bri_017 (live as itself), car_001 (= crd_004), nyc_027 (live), nyc_031 (= nyc_130), wol_001 (= wvh_001), Taiwan a28_001 (= alh_002). The files the brief named (new-york-3, wisconsin, us-photo-batch-1, washington-dc-2, wales-yews, somerset-dorset-yews) are fully published and only stale. Of the two READY York leads, neither was written. The Minster Yard Beech's one source (Paul Wood, The Street Tree no. 12) is paywalled and answers 403 to curl, the API and a fetcher, so we have no fact about the tree beyond species and site, and 150 words would be invented. The Museum Gardens plane has no source at all and waits for the ambassador's photograph, as its lead says. Both pins are good (the ambassador's what3words). The next useful step is a verify pass on the 907 leads that are short only a source, not another write pass.
+
 ## 2026-11-21 night run (00:53 window): iOS red fixed, nothing else moved
 
 Rung 2. The iOS app run of 11-20 22:57 failed on appfit SMALL: Discover's "New from visitors" tree-name link was 34 pt high (the same fault b2bdf38ba fixed on /visitors). The name is now plain text under the photograph (Home.swift), pushed as cbbe420b0; ios.yml has to go green on it, not yet seen. Rung 1: reader photo 3c544597 (52.3972, 4.8739, unmapped) is not on disk here, so it stays unjudged rather than judged blind. Not touched: 1 unpasted migration (needs Hidde's paste), nightly knocks 6 of 12 (GitHub dropped cron), one orange web error (getBound... null in inline script). No trees written this window; the shelf needs a verify pass first (907 leads short only a source).
