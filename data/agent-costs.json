@@ -4,6 +4,7 @@
     "2026-11-21": [
       {"date": "2026-11-21", "kind": "verify", "target": "spokane", "tokens": 87221, "trees": 0, "note": "dry: every register lead already live; Reid Family Tree is a private-residence maple with no second source, left as lead"},
       {"date": "2026-11-21", "kind": "verify", "target": "birmingham", "tokens": 74029, "trees": 0, "note": "twelfth dry pass; one blog-only Cannon Hill oak lead added; no named body or coordinates; cft_001 stays held (Woodland Trust source)"},
+      {"date": "2026-11-21", "kind": "verify", "target": "birmingham", "tokens": 79707, "trees": 0, "note": "fourteenth dry pass, three searches, nothing new; stop plain-web passes until the Gardens Plant Explorer can be rendered or the Highbury survey read"},
       {"date": "2026-11-21", "kind": "session", "target": "york", "tokens": 0, "trees": 1, "note": "reader's Minster Beech (yor_007) folded with the ambassador's Minster Yard Beech lead"}
     ],
     "2026-11-21": [
