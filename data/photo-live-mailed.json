@@ -737,6 +737,15 @@
      "city_slug": "chadds-ford",
      "display_name": null,
      "live": "2026-11-20"
+    },
+    {
+     "sighting_id": "c2a1f582-4998-479f-ab00-9c0c2758cf20",
+     "tree_id": "phl_003",
+     "tree_name": "The Katsura-Tree of Morris Arboretum",
+     "city": "Philadelphia",
+     "city_slug": "philadelphia",
+     "display_name": null,
+     "live": "2026-11-21"
     }
    ],
    "sent": [

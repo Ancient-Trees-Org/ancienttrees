@@ -1506,6 +1506,28 @@
    "agreed": null
   },
   {
+   "id": "sight:c2a1f582-4998-479f-ab00-9c0c2758cf20",
+   "seen": "2026-11-21",
+   "kind": "photo of a tree we map",
+   "tree": "The Katsura-Tree of Morris Arboretum",
+   "city": "Philadelphia",
+   "species": "Katsura (Cercidiphyllum japonicum)",
+   "photo": "out/sightings/c2a1f582-4998-479f-ab00-9c0c2758cf20.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 215,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Katsura (Cercidiphyllum japonicum)"
+   },
+   "verdict": "publish",
+   "reason": "the whole multi-stemmed katsura in autumn yellow, plainly the Morris Arboretum tree; first photograph the page has, pin moved to its GPS fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",
    "seen": "2026-11-20",
    "kind": "a tree we do not map",

@@ -115,8 +115,8 @@
       "age_basis": "source",
       "location": {
         "address": "Morris Arboretum, 100 East Northwestern Avenue, Chestnut Hill, Philadelphia, PA 19118 (stop 7 of the Great Trees tour)",
-        "latitude": 40.0882721,
-        "longitude": -75.2212804,
+        "latitude": 40.087036,
+        "longitude": -75.219336,
         "neighbourhood": "Chestnut Hill, Philadelphia"
       },
       "verified_sources": [
@@ -126,7 +126,7 @@
       ],
       "access": "Paid entry at Morris Arboretum & Gardens (University of Pennsylvania): adults $22, seniors 65+ $20, youth 3 to 17 $12, children 2 and under free (prices as shown on the Arboretum's own site). Hours change with the season, so check the site before you go.",
       "transport": "Chestnut Hill, northwest Philadelphia; SEPTA Chestnut Hill West line to Allen Lane, then about a 15-20 minute walk",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "story": "Philadelphia Magazine once called this the largest tree in Philadelphia, which is a bold thing to say about a tree barely 120 years old. It is a katsura, native to Japan and China, planted around 1902 by the Morris family on the estate that became Morris Arboretum, and it has grown into one of the largest of its kind in North America.\n\nThe arboretum calls it its signature tree, and it earns the title in two ways. The first is plain size. The second arrives in autumn, when the leaves turn yellow and apricot and the air under the crown starts to smell of cinnamon and brown sugar, a bakery where you expected a garden.\n\nIn the century and a bit since it went in, the Morris estate around it has become a public garden run by the University of Pennsylvania, and a family planting has become the tree the arboretum puts forward as its emblem. It is stop seven on the arboretum's own Great Trees tour.\n\nEntry to the arboretum is paid. The pin marks the arboretum rather than the tree, so follow the tour to stop seven, and in October let your nose help.",
       "how_to_recognise": "You can recognise it by its size, unusual for a katsura, and in autumn by the yellow and apricot leaves that smell of brown sugar. It stands at stop seven of the arboretum's Great Trees tour.",
@@ -138,12 +138,26 @@
         "label": "October, when the leaves turn yellow and apricot and smell of brown sugar"
       },
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/phl_003-the-katsura-tree-of-morris-arboretum.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "c2a1f582-4998-479f-ab00-9c0c2758cf20",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-21: the whole base of the katsura in daylight: a dozen stems fanning from one root plate, autumn leaves on the ground Species seen: small heart-shaped leaves turning yellow, shaggy vertically fissured bark, many stems from one base: katsura. Fits the description: a very large multi-stemmed katsura in autumn yellow, in a planted arboretum setting with a rockery beside it; the size and autumn colour the recognition line points at.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "paid_entry": true
+      "paid_entry": true,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c2a1f582-4998-479f-ab00-9c0c2758cf20",
+        "moved_m": 215,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "phl_004",

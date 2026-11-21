@@ -6226,6 +6226,17 @@
    "date": "2026-11-21",
    "tree_id": "bgy_001",
    "reason": "Duplicate: the same frame as the fallen-limb photograph already in this tree's gallery (sent by the same reader with the lead)."
+  },
+  "c2a1f582-4998-479f-ab00-9c0c2758cf20": {
+   "outcome": "published",
+   "date": "2026-11-21",
+   "tree_id": "phl_003",
+   "city_slug": "philadelphia",
+   "file": "phl_003-the-katsura-tree-of-morris-arboretum.jpg",
+   "reason": "the whole base of the katsura in daylight: a dozen stems fanning from one root plate, autumn leaves on the ground Species seen: small heart-shaped leaves turning yellow, shaggy vertically fissured bark, many stems from one base: katsura. Fits the description: a very large multi-stemmed katsura in au",
+   "lat": 40.0870355112069,
+   "lon": -75.2193357517785,
+   "pin_checked": "2026-11-21"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
