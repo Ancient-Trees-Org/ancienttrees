@@ -1556,6 +1556,96 @@
         "The Great Cedar of Parc Chambrun"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1d47e3a4246db671958cd9a8",
+      "place_slug": "athens",
+      "place_name": "Athens",
+      "date": "2026-11-21",
+      "trees": [
+        "The Ombu of the National Garden"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_064cc750d7e96fa90046487e",
+      "place_slug": "bingley",
+      "place_name": "Bingley",
+      "date": "2026-11-21",
+      "trees": [
+        "The Old Beech of St Ives Estate"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_12951aff1d07de7480564b95",
+      "place_slug": "curacao",
+      "place_name": "Curaçao",
+      "date": "2026-11-21",
+      "trees": [
+        "The Fig of Kandela"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_be126bb947b306af45801aa8",
+      "place_slug": "girona",
+      "place_name": "Girona",
+      "date": "2026-11-21",
+      "trees": [
+        "The Plane by the Mercat del Lleó"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_22c8aa9b88602739b67d46a4",
+      "place_slug": "hasselt",
+      "place_name": "Hasselt",
+      "date": "2026-11-21",
+      "trees": [
+        "The Oak of Kiewit"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_84b0a53f820e2574ec877490",
+      "place_slug": "heidelberg",
+      "place_name": "Heidelberg",
+      "date": "2026-11-21",
+      "trees": [
+        "The Oak on the Drachenhöhlenweg"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b88d0387be93737c1e25f04f",
+      "place_slug": "peterborough",
+      "place_name": "Peterborough",
+      "date": "2026-11-21",
+      "trees": [
+        "The Giant Sequoia of the Orton Hall Avenue"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_295caeff712bf82da1299717",
+      "place_slug": "trate",
+      "place_name": "Trate",
+      "date": "2026-11-21",
+      "trees": [
+        "The Castle Linden of Cmurek"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9958e447be18d50bb8fd84bc",
+      "place_slug": "turin",
+      "place_name": "Turin",
+      "date": "2026-11-21",
+      "trees": [
+        "The Weeping Beech of the Giardini Reali"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2690,6 +2780,14 @@
         "ist_012",
         "ist_013",
         "ist_014"
+      ],
+      "since": "2026-11-21",
+      "mailed": []
+    },
+    "castlemaine": {
+      "trees": [
+        "cmn_001",
+        "cmn_002"
       ],
       "since": "2026-11-21",
       "mailed": []

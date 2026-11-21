@@ -2725,19 +2725,15 @@
    "sent": []
   },
   "p_52c62076d46304de372415fd": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e4cf0655-44e5-40db-95e3-89aebe9564ff",
      "tree_id": "ngi_001",
-     "tree_name": "The Great Ginkgo of Bodaiji",
-     "city": "Nagi",
-     "city_slug": "nagi",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_84b0a53f820e2574ec877490": {
    "last": null,
