@@ -212,5 +212,57 @@
   "story": "Sixteen beeches were planted here as one tree, and ten of them still stand. The list of notable trees in Baden-Württemberg calls the 16 Buchen a bundle planting, several young beeches set together so that they grow up as a single mass of stems.\n\nThat is how a beech gets a girth of 7.31 metres, measured in 2008. Read it as the measure round a cluster of stems, not a single trunk. The crown reaches about 30 metres.\n\nThe same list puts the tree at roughly 200 to 250 years. No planting date is recorded, so take that as an estimate rather than a count, and if you know when the bundle went in, tell us.\n\nIt has a following. Stuttgart's tourism board, writing about the many-stemmed trees of the Rotwildpark, says the 16 Buchen on the Schattenallee has reached celebrity status. The forest around it is a nature reserve, opened to the public after the monarchy ended and crossed by footpaths, and the tree stands on the Schattenallee track itself, free to walk to.\n\nOne caution about the pin. It comes from the list's coordinate and lands on the right track, but nobody has placed this trunk independently, so walk the Schattenallee and look for the cluster of beech stems rather than trusting the exact point.\n\nThe Pfaffeneiche, an oak 5.95 metres round, stands about 1.1 kilometres east in the same reserve.",
   "how_to_recognise": "You can recognise it by its many trunks, ten beech stems rising together as one cluster, about 30 metres tall. It stands on the Schattenallee track in the Rotwildpark near Büsnau.",
   "verify_notes": "Multi-stem beech bundle (Bündelpflanzung per the Wikipedia list, which cites Blümle 2023); originally 16 stems, only 10 remain today (same list). Girth 7.31 m (measured 2008, a multi-stem mass, label as such), height about 30 m, age 200 to 250 years, all from the Wikipedia list page fetched as wikitext. A search summary of the baumkunde.de register (page 403, not fetched) mentions a 2026 measure of 7.63 m and 150 to 200 years: NOT seen on a page, do not use. The city tourism board (Stuttgart-Marketing, page fetched) names it: Besonders sind die vielstämmigen Bäume: Die 16 Buchen in der Schattenallee hat Promistatus erreicht. A Naturfreunde Stuttgart trail leaflet (Naturatrail Krummbachtal Büsnau PDF) reportedly calls it a Naturdenkmal; PDF not text-read, and it is absent from the de.wikipedia Naturdenkmal list of Stuttgart (wikitext fetched), so do not state a designation. Pin: coordinate from the Wikipedia list; Nominatim reverse puts it on the track named Schattenallee, matching the tourism board, so the street is right but the individual trunk is not independently placed, hence approximate; no small-site claim (woodland track). Alive: lifecheck RECENT (iNaturalist 2023-07-04 at the spot, species not checked). Existence has two independent sources; species, girth and age rest on the list alone: flagged. No Commons photo within 200 m by geosearch. Stands about 1.1 km west of stu_014 Pfaffeneiche; one walk through the Rotwildpark."
+ },
+ {
+  "id": "stu_016",
+  "name": "The Adlereiche",
+  "species": "Pedunculate Oak (Quercus robur)",
+  "age_estimate": "roughly 350 years",
+  "age_min": 300,
+  "age_max": 400,
+  "girth_cm": 655,
+  "height_m": 27,
+  "location": {
+   "address": "North shore of the Pfaffensee, Naturschutzgebiet Rotwildpark, Stuttgart-West",
+   "latitude": 48.759206,
+   "longitude": 9.107359,
+   "neighbourhood": "Rotwildpark / Glemswald, Stuttgart-West"
+  },
+  "verified_sources": [
+   "https://www.monumentale-eichen.de/baden-w%C3%BCrttemberg/2-kategorie/stuttgart/",
+   "https://commons.wikimedia.org/wiki/File:Die_Adlereiche.jpg",
+   "https://de.wikipedia.org/wiki/Parkseen_(Stuttgart)"
+  ],
+  "access": "Free. Stands in the Naturschutzgebiet Rotwildpark on the north shore of the Pfaffensee, by the public hiking path around the Parkseen; stay on the paths (nature reserve).",
+  "location_precision": "confirmed",
+  "curation_status": "flagged",
+  "story": "Ospreys nested in this oak until a few decades ago, and the tree still carries their name. In German the osprey is the Fischadler, the fish eagle, hence Adlereiche. That is the account of the two men who have measured it, Hans Joachim Fröhlich in 1995 and Rainer Lippert, who records Germany's monumental oaks, in 2023.\n\nTheir tapes tell a slow story. Fröhlich found 6.45 metres round at chest height and called it one of the strongest oaks of the Rotwildpark. Lippert measured 6.55 metres 28 years later, on a tree 27 metres tall with a crown about 15 metres across. He puts it at about 350 years. Nobody recorded a planting, so that is his judgement from the trunk, and the honest band runs from 300 to 400.\n\nFröhlich described a columnar trunk with burrs and branch stubs and a loose but vital crown. Lippert's notes show the years since. The trunk is half covered in moss and runs straight for about eight metres before it splits into two limbs, and several limbs have broken. He still judged its vitality quite good.\n\nIt stands on the north shore of the Pfaffensee, by the hiking path that follows the lakes. The forest is a nature reserve, so keep to the paths. It is one of ten oaks here that Lippert has measured at over six metres round, and the Pfaffeneiche stands about 190 metres away, near the lake's south shore, close enough to make one walk.",
+  "how_to_recognise": "You can recognise it by the trunk, 6.55 metres round and half covered in moss, running straight for about eight metres before it splits into two limbs. It stands by the path on the north shore of the Pfaffensee.",
+  "verify_notes": "Lippert (monumentale-eichen.de, fetched 2026-11-21): girth 6.55 m at 1.3 m, waist 6.28 m, height 27 m, crown about 15 m, measured 2023, page updated 29 Mar 2023; age about 350 years (his estimate, derived). Froehlich, Wege zu alten Baeumen Bd 12 BW 1995 (cited by Lippert, not seen): girth 6.45 m in 1995, 'one of the strongest oaks of the Rotwildpark', columnar trunk with burrs and branch stubs, loose but vital crown. Also in Bluemle 'Sinnliche Wanderungen in und um Stuttgart' 2019 p10 and Pater 'Riesige Eichen' 2017 pp298-9 (cited, not seen). Named for ospreys that nested here until a few decades ago (Froehlich/Lippert). Lippert 2023: trunk half mossy, straight about 8 m then splits in two limbs, several limbs broken, vitality still quite good. Pin: Lippert coordinate 48.759206, 9.107359 and Commons File:Die_Adlereiche.jpg geotag 48.759090, 9.107293 (CC BY-SA 3.0, Wald-Burger8, EXIF 16 Apr 2017) agree within about 14 m; photo not looked at by this pass, a lead for the photo step. Alive: Lippert 2023 and photo 2017. Flagged: one measuring source seen (two further books cited). One of ten oaks over 6 m in the reserve; about 190 m from stu_014 Pfaffeneiche, can be walked together. Access: de.wikipedia Parkseen article says a hiking path runs along the lakes; no OSM check (Overpass dead)."
+ },
+ {
+  "id": "stu_017",
+  "name": "The Alte Eiche (Wapiti-Eiche)",
+  "species": "Pedunculate Oak (Quercus robur)",
+  "age_estimate": "roughly 400 years",
+  "age_min": 300,
+  "age_max": 450,
+  "girth_cm": 710,
+  "height_m": 24,
+  "location": {
+   "address": "Free-standing on a meadow clearing 350 m north of the Baerenschloessle, Rotwildpark, Stuttgart-West",
+   "latitude": 48.763999,
+   "longitude": 9.09057,
+   "neighbourhood": "Rotwildpark / Glemswald, Stuttgart-West"
+  },
+  "verified_sources": [
+   "https://www.monumentale-eichen.de/baden-w%C3%BCrttemberg/stuttgart/stuttgart-1/"
+  ],
+  "access": "Free. Stands in the open on a meadow in the Naturschutzgebiet Rotwildpark beside the Wapiti-Weg, a public track; stay on the paths.",
+  "location_precision": "approximate",
+  "curation_status": "flagged",
+  "story": "In a forest known for giant oaks, the second-largest stands alone on a meadow. Rainer Lippert, who records Germany's monumental oaks, measured it in 2021 at 7.10 metres round at chest height, the second-strongest oak on his list for the Rotwildpark, where ten pass six metres.\n\nThe number flatters it a little, and Lippert says so. At chest height his tape runs partly over buttresses that spread at the base like an elephant's foot. Round the waist the trunk measures 6.23 metres. Above that it is closed and straight, under a sparse, irregular crown about 24 metres high and 13 across. Many of its limbs have broken or been cut, and he still judged it in fine health.\n\nHe puts it at about 400 years. That is his estimate from the tree, not a planting record, so read it as somewhere between 300 and 450. We have found no record of what it has seen in that time, and if you know its history, tell us.\n\nIt goes by two names, the Alte Eiche, simply the old oak, and the Wapiti-Eiche, after the Wapiti-Weg, the public track beside it. A memorial stone for Otto Lanz, set in 1930, stands nearby.\n\nLippert's page is our only source, and the pin is his coordinate on the meadow, about 350 metres north of the Bärenschlössle, so treat it as approximate. This is a nature reserve; keep to the paths. The 16 Buchen, a beech of many stems, is about 1.3 kilometres away.",
+  "how_to_recognise": "You can recognise it as the big oak standing alone on a meadow, its trunk 7.10 metres round over buttresses at the base. It stands beside the Wapiti-Weg, about 350 metres north of the Bärenschlössle.",
+  "verify_notes": "One source: Lippert (monumentale-eichen.de, fetched 2026-11-21): girth 7.10 m at 1.3 m (measured 2021, page updated 1 May 2021; measurement runs partly over elephant-foot buttresses, waist 6.23 m), height 24 m, crown about 13 m, age about 400 years (his estimate), vitality 'still fine', sparse irregular crown, trunk closed and straight; many broken or cut limbs. Also called Wapiti-Eiche after the nearby Wapiti-Weg. A memorial stone for Otto Lanz (1930) stands nearby. Cited in Bluemle 2019 p18 and Pater 2017 pp298-9 (not seen). Second-strongest oak of the Rotwildpark per Lippert list (ten over 6 m). Pin from Lippert coordinate on an open meadow, no photo geotag found: approximate. Flagged one source, no photo in hand. About 1.3 km from stu_015 16 Buchen."
  }
 ]
