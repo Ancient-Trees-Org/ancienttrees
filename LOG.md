@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 second retry attempt
+
+- Shipped 2 Stuttgart trees (Pfaffeneiche stu_014, 16 Buchen stu_015), app-only under APP FIRST. Preflight 0 problems.
+- Birmingham verify: dry again (11th pass), nothing new. Blocker: tree-level pins; only a rendering browser on birmingham.gardenexplorer.org tour 12 "Champion Trees" might help. Claim released.
+- York x2 READY leads unwritable (paywalled or no source); Taiwan a28_001 duplicates alh_002.
+- Next: Stuttgart Adlereiche (Lippert page); Hallstatt, Madeira.
+
 ## 2026-11-21 retry attempt (window 119 min unspent)
 
 - Resolved a LOG.md rebase conflict (kept both sides). No claims were standing.
