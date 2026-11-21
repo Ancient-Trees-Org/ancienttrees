@@ -43,7 +43,10 @@
     "https://thestreettree.substack.com/p/12-minster-yard-beech (Paul Wood, The Street Tree, no. 12 of 'great individual trees from Britain and Ireland'; full text paywalled)"
    ],
    "reason": "2026-11-20: named by the York ambassador by mail (19 Nov) with a what3words square north of the chapter house. One published source (Paul Wood's series of great individual trees). READY to write; no photo yet, the ambassador may add one in the app.",
-   "found_by": "york ambassador (mail)"
+   "found_by": "york ambassador (mail)",
+   "status": "published",
+   "published_as": "york/yor_007",
+   "why": "Folded into yor_007 on 2026-11-21: the reader's photograph of the same tree (10 m apart) made the page; this lead gave the confirmed pin and the source."
   },
   {
    "name": "Riverside London Plane, Museum Gardens",
