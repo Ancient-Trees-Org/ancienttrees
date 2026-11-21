@@ -8583,6 +8583,42 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "castlemaine/cmn_001"
+  },
+  {
+   "sighting_id": "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
+   "user_id": "p_5ad3b6676edab0c30c98329c",
+   "mine": false,
+   "name": "Stone Pine",
+   "unsure_among": null,
+   "species": "Stone Pine",
+   "age": "150 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Appears in the Victorian Register of Significant Trees.",
+   "latitude": -37.0509945,
+   "longitude": 144.217025,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_5ad3b6676edab0c30c98329c/4DFF68AA-5E39-4DB5-BE9E-D2CDF8C261D8.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/4dff68aa-5e39-4db5-be9e-d2cdf8c261d8-extra-1.jpg",
+    "out/sightings/4dff68aa-5e39-4db5-be9e-d2cdf8c261d8-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: looking up a forked stone pine with deeply plated red-brown bark and a small label on its trunk, its umbrella crown high against blue sky, another forked pine beside it, daylight, colour. Live as castlemaine/cmn_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "castlemaine/cmn_002"
   }
  ]
 }

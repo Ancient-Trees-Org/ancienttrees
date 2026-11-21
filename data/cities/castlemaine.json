@@ -2,8 +2,8 @@
   "city": "Castlemaine",
   "country": "Australia",
   "status": "needs_curation",
-  "intro": "Castlemaine is a gold-rush town in central Victoria, about an hour and a half north-west of Melbourne. In its Botanical Gardens grows an English oak planted in 1863 to mark a royal wedding, the oldest planting in the gardens and the National Trust's Victorian Tree of the Year for 2021. A reader sent us its photograph and the two plaques at its foot.",
-  "meta_description": "The 1863 English oak in Castlemaine Botanical Gardens, Victorian Tree of the Year 2021: its royal wedding story and where to find it.",
+  "intro": "Castlemaine is a gold-rush town in central Victoria, about an hour and a half north-west of Melbourne. In its Botanical Gardens grows an English oak planted in 1863 to mark a royal wedding, the oldest planting in the gardens and the National Trust's Victorian Tree of the Year for 2021, and a short walk south of it a tall forked stone pine. A reader sent us both, with photographs of the two plaques at the oak's foot.",
+  "meta_description": "The 1863 English oak in Castlemaine Botanical Gardens, Victorian Tree of the Year 2021, and a forked stone pine nearby: where to find them.",
   "hero_tree_id": "cmn_001",
   "oldest_tree_id": "cmn_001",
   "trees": [
@@ -60,6 +60,53 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved by the reader judge on 2026-11-21. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "cmn_002",
+      "name": "The Forked Stone Pine of Castlemaine",
+      "species": "Stone Pine (Pinus pinea)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Castlemaine Botanical Gardens, Walker Street, Castlemaine, Victoria",
+        "latitude": -37.0509945,
+        "longitude": 144.217025,
+        "neighbourhood": "Castlemaine Botanical Gardens"
+      },
+      "story": "A reader who walked the Castlemaine Botanical Gardens in central Victoria sent us this stone pine, which stands about eighty metres south of the gardens' Royal Oak of 1863, and wrote that it \"appears in the Victorian Register of Significant Trees\".\n\nStone pines come from the shores of the Mediterranean, where they shade Roman roads and Tuscan farmhouses, and they keep that flat-topped silhouette wherever they are planted. This one has grown tall and bare-stemmed in the way they do as they age. Its trunk rises from a flared foot in thick plates of red-brown bark, carries a small label just below the fork, and then splits into two long stems that lean apart and climb a long way before they open into the umbrella crown, high above the grass. Beside it stands another forked pine of the same kind, so the pair frame the sky between them.\n\nThe reader puts it at about 150 years old. That figure is theirs, and we have not yet found its entry in the register; if you know its number, or its girth, tell us here and we will add them.\n\nLie back on the grass beneath it and look up the fork into the crown.",
+      "how_to_recognise": "On open grass among other tall pines: a stone pine whose plated red-brown trunk splits into two long stems a few metres up, a small label fixed to it just below the fork, its flat umbrella crown far overhead.",
+      "verified_sources": [],
+      "access": "Free, in the Castlemaine Botanical Gardens, a public park open every day.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
+        "date": "2026-11-21"
+      },
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (sighting 4dff68aa-5e39-4db5-be9e-d2cdf8c261d8), photograph's own location. Photograph viewed: looking up a forked stone pine with deeply plated red-brown bark and a small label on its trunk, its umbrella crown high against blue sky, another forked pine beside it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: age '150 years', note 'Appears in the Victorian Register of Significant Trees.'. Age and register listing stated as theirs. A further photograph shows a twin-stemmed stone pine by a gazebo; not used, since it may be a different tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cmn_002-forked-stone-pine-of-castlemaine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+        "sighting_id": "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved by the reader judge on 2026-11-21: looking up a forked stone pine with deeply plated red-brown bark and a small label on its trunk, its umbrella crown high against blue sky, another forked pine beside it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ],

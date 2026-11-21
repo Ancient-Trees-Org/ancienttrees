@@ -9,6 +9,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-21 reader judge: the Castlemaine stone pine is live, so the place has two trees
+
+- **New tree**: `castlemaine/cmn_002` is The Forked Stone Pine of Castlemaine, from the same reader as the oak below. It stands about 80 m south of the oak and its photo carries its own location. The photograph shows a tall pine forking into two stems under an umbrella crown, in daylight. The reader says it is about 150 years old and on the Victorian significant tree register; the page gives both as theirs. Its `taken_month` is 11, from the photo's own date. A parallel run had published only the oak and left this lead waiting. Castlemaine now has two web trees, which is enough for a place page, so its intro and meta now name the pine. My own duplicate of the oak (cmv_001) was dropped in favour of cmn_001.
+- Checks: `qa.py --source-only` was clean, `preflight.py` reported 0 problems, `i18ncheck.py` was clean.
+
 ## 2026-11-21 reader judge: the 1863 Royal Oak of Castlemaine is live
 
 - **New tree, new place**: castlemaine/cmn_001, The Royal Oak of Castlemaine (Victoria, Australia), sent by a reader through the app with the photograph's own location. Three photographs viewed: the whole oak in full leaf beside the gardens' playground, the 1863 bronze planting plaque, and the National Trust's 2021 Victorian Tree of the Year stone. Sources: the plaque, the National Trust (Victoria) announcement, Monument Australia. The reader wrote 20 May 1863; the plaque says 26 May, which the page uses, and their note is quoted as theirs. Pin confirmed (photo GPS), `taken_month` 11 from the photograph. A one-tree place, so no place page yet (PLACE_PAGE_MIN_TREES 2); the tree page carries it.
