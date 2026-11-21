@@ -229,6 +229,15 @@
       "status": "lead",
       "reason": "Brief and earlier lead notes (10-27 to 11-17) re-read; the nine unmined register rows were already judged (private yards, published, or earlier leads). No new naming body or reader tree has arrived, so no fetch was run and nothing was added to the delivery file. Stop re-running this city until one does.",
       "sources": []
+    },
+    {
+      "candidate": "Coast live oak grove behind McLaren Lodge, Golden Gate Park (Oak Woodlands Natural Area, Fulton Ave at 6th Ave)",
+      "status": "lead",
+      "reason": "2026-11-21 twelfth pass, new angle (Golden Gate Park native oaks). fromthethicket.com (2014, landscape historian blog, citing Elizabeth McClintock) says these coast live oaks are the only truly native trees in the park and some predate it (Menzies 1792 described scrubby oaks there). A blog is a finding aid: no individual trunk, girth, age or pin; a grove is an ensemble, not one collectible point. Needs an individual oak with a measurement or mapped trunk (sfnaturalareas.org/sites/4, sfrecpark Oak Woodlands Natural Area page) and a second source. Nothing verified; nearby sfo_001 (Uncle John's Tree) is already live. Delivery-file ids sfo_014 and sfo_015 duplicate live sfo_003 and sfo_006, so new ids start at sfo_016.",
+      "sources": [
+        "https://fromthethicket.com/2014/07/17/oak-woodlands/",
+        "https://sfrecpark.org/facilities/facility/details/Oak-Woodlands-Natural-Area-413"
+      ]
     }
   ],
   "blocked": [

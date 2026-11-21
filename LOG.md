@@ -11,6 +11,9 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 second attempt: nothing shipped
+Verified 0 new trees. One READY lead (York), under the six-candidate minimum, so no write pass. San Francisco verify pass (12th) found nothing new: register exhausted, now a wall for 48h; one Golden Gate Park oak grove recorded as a lead (a grove is not one point). The "awaiting a writer" pile is mostly stale duplicates of live trees (Cyprus, Tenerife, Ronda, Croatia and others), needing a clean-up pass, not a write pass. The deploy failures of 20:38 and 20:53 predate the Dominion Arboretum count fix; a deploy was dispatched to confirm.
+
 ## 2026-11-21 late run (rung 2: broken deploy)
 
 Build and deploy had failed on every run since the afternoon: the Dominion Arboretum park page (Ottawa) promised "7 More" trees but the web counts 5, because three of its trees are app-only. Preflight counts 8 and the Astro build counts 5, so any number in the title fails one of them; the title now carries no count ("and the Trees Around It"), and the intro closer says "All of them". Pushed (4ea780763). I could not dispatch deploy.yml (HTTP 403 from the runner), so the next scheduled or laptop build carries it. Rung 1: sighting 3c544597 (52.3972, 4.8739, not on the map) has no photograph on disk, so it was not judged blind and stays open. Nothing else done this window. For Hidde: preflight and the build disagree on whether app-only trees count toward a park's total; worth making them agree.
