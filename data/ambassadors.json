@@ -1646,6 +1646,36 @@
         "The Weeping Beech of the Giardini Reali"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1d51f247b2edfb80a49fe6a5",
+      "place_slug": "le-porge",
+      "place_name": "Le Porge",
+      "date": "2026-11-21",
+      "trees": [
+        "The Plane Tree of Place Saint-Seurin"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c571dc455621f9521a0fc1f6",
+      "place_slug": "leamington-spa",
+      "place_name": "Royal Leamington Spa",
+      "date": "2026-11-21",
+      "trees": [
+        "The Oak at the Gate of Elizabeth Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3dc43d53fcb5db6c3d0f0224",
+      "place_slug": "zierenberg",
+      "place_name": "Zierenberg",
+      "date": "2026-11-21",
+      "trees": [
+        "The Meadow Beech near Zierenberg"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [

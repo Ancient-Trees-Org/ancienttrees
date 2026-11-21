@@ -2808,61 +2808,41 @@
    "sent": []
   },
   "p_4881f05a5b317ab4de78c178": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "bad6bea5-2672-4a6a-9c4f-479ee2d3f1ef",
      "tree_id": "sgp_002",
-     "tree_name": "The Fort Canning Rain Tree",
-     "city": "Singapore",
-     "city_slug": "singapore",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_5a515e0f132d13f33cc32d58": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "50bb7c61-d179-43ba-89ed-e53a7465e4b0",
      "tree_id": "wai_001",
-     "tree_name": "Tāne Mahuta",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "ba2053f1-d621-43fb-a205-06ddae5fc806",
      "tree_id": "wai_002",
-     "tree_name": "Te Matua Ngahere",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "98edec0c-2a19-4935-a60b-2b03654c4113",
      "tree_id": "wai_002",
-     "tree_name": "Te Matua Ngahere",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     },
     {
      "sighting_id": "403b354b-ac75-4621-9604-2f04bf862e7e",
      "tree_id": "wai_002",
-     "tree_name": "Te Matua Ngahere",
-     "city": "Waipoua Forest",
-     "city_slug": "waipoua-forest",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
