@@ -1,0 +1,86 @@
+{
+  "city": "Royal Leamington Spa",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Royal Leamington Spa is a Regency spa town on the River Leam in Warwickshire, its streets of white stucco laid out when people came to take the waters. At the entrance to Elizabeth Park, by Princes Drive and the railway viaduct, a reader found a wide old oak standing alone on a grassy bank and sent it to us with their own measurement of its trunk.",
+  "meta_description": "A wide old oak at the entrance to Elizabeth Park in Royal Leamington Spa, sent by a reader: where it stands, its girth and how to find it.",
+  "hero_tree_id": "lsp_001",
+  "oldest_tree_id": "lsp_001",
+  "question_meta": "A wide old oak at the entrance to Elizabeth Park in Royal Leamington Spa, sent by a reader: where it stands, its girth and how to find it.",
+  "question_answer": "The Oak at the Gate of Elizabeth Park stands on a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, Royal Leamington Spa, with the railway viaduct behind it. It is free to visit at any hour.",
+  "question_context": "A reader who sent us this oak from Royal Leamington Spa called it a magnificent oak tree at the entrance to Elizabeth Park, and their photographs show why. It stands alone on a grassy bank by Princes Drive, in Milverton on the west side of the town, with the stone arches of the railway viaduct behind it and a flight of black-railed steps running down a white wall beside it. The trunk is short and thick and leans a little, then breaks into crooked limbs that spread wider than the tree is tall, the open-grown shape of an oak that has never had to compete for light. The reader measured its trunk at 375 centimetres round. That is their figure; we have no planting record yet, and we do not know for certain which oak species it is, so readers who know are asked to tell us. The park is public and open at all hours, and the tree is at its entrance.",
+  "faq": [
+    {
+      "q": "Where is the old oak at Elizabeth Park in Leamington Spa?",
+      "a": "On a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, with the railway viaduct behind it."
+    },
+    {
+      "q": "Can I visit the oak?",
+      "a": "Yes. It stands at the entrance to a public park, free and open at all hours."
+    },
+    {
+      "q": "How big is the oak at Elizabeth Park?",
+      "a": "The reader who sent it to us measured its trunk at 375 centimetres round. We have no record of its height or planting yet."
+    }
+  ],
+  "trees": [
+    {
+      "id": "lsp_001",
+      "name": "The Oak at the Gate of Elizabeth Park",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Entrance to Elizabeth Park, by Princes Drive, Milverton, Royal Leamington Spa",
+        "latitude": 52.2866276137535,
+        "longitude": -1.55004195978529,
+        "neighbourhood": "Milverton"
+      },
+      "how_to_recognise": "A single wide oak on a grassy bank at the park entrance, with the stone arches of the railway viaduct behind it and a flight of black-railed steps running down a white wall to its right.",
+      "access": "Free, at the entrance to a public park, open at all hours.",
+      "story": "\"Magnificent oak tree at entrance to Elizabeth Park,\" wrote the reader who sent us this tree from Royal Leamington Spa, and the photographs make the case for the word.\n\nIt stands alone on a grassy bank by Princes Drive, with the stone arches of the railway viaduct behind it and a new flight of steps running down a white wall beside it. The trunk is short and thick and leans a little, and within a few metres of the ground it breaks into great crooked limbs that spread wider than the tree is tall, the shape an oak takes when nothing has crowded it. In the reader's November pictures the leaves are turning yellow against a clear sky, and the crown reaches out almost to the steps.\n\nThe reader measured it: 375 centimetres round the trunk. That is their figure, and a girth like that puts an open-grown oak well into its second century, though we have no record yet of when it was planted or what stood here before the park. If you know, tell us here.\n\nWalk round to the viaduct side to see the trunk against the arches.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "83d58764-b0b1-44a2-800a-74f016802b7e",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "83d58764-b0b1-44a2-800a-74f016802b7e",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (83d58764-b0b1-44a2-800a-74f016802b7e, 2026-11-21, through the app). Photograph viewed: the whole broad oak on a grassy bank in yellowing autumn leaf under a clear blue sky, a stone railway viaduct and a white wall with new steps behind, daylight, colour; a second photograph from a step further left shows the same tree and steps. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Oak near Stratford-upon-Avon', species 'Oak', age 'None', girth 375 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lsp_001-oak-at-the-gate-of-elizabeth-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1201,
+        "source": "contributor",
+        "contributor_user_id": "p_c571dc455621f9521a0fc1f6",
+        "sighting_id": "83d58764-b0b1-44a2-800a-74f016802b7e",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole broad oak on a grassy bank in yellowing autumn leaf under a clear blue sky, a stone railway viaduct and a white wall with new steps behind, daylight, colour; a second photograph from a step further left shows the same tree and steps. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lsp_001-oak-at-the-gate-of-elizabeth-park-from-the-left.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1201,
+          "source": "contributor",
+          "contributor_user_id": "p_c571dc455621f9521a0fc1f6",
+          "sighting_id": "83d58764-b0b1-44a2-800a-74f016802b7e-extra-1",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the same oak from a step further left, its leaning trunk and wide yellowing crown, the viaduct arch and the steps behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    }
+  ]
+}

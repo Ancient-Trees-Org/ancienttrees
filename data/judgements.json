@@ -2,6 +2,70 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:f0ac690d-989a-4400-a70a-cee219b24988",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Copper Beech of Downleaze",
+   "photo": "p_7b2115b8e39fa3b6538f86e3/F0AC690D-989A-4400-A70A-CEE219B24988.jpg",
+   "reader_note": "Large Purple Beech situated at the corner of Downleaze and Julian Rd. Believed to have been planted around 135 years ago and situated in an impressive street of villas designed by the Bristol architect Henry Dare Bryan (1869–1909) and built in 1898 in the Queen Anne Revival style.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole copper beech on the Downleaze corner in autumn colour. Live as bristol/bri_026 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:83d58764-b0b1-44a2-800a-74f016802b7e",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Oak at the Gate of Elizabeth Park",
+   "photo": "p_c571dc455621f9521a0fc1f6/83D58764-B0B1-44A2-800A-74F016802B7E.jpg",
+   "reader_note": "Magnificent oak tree at entrance to Elizabeth Park, Leamington Spa",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a wide open-grown oak by the viaduct at the park entrance. Live as leamington-spa/lsp_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:83d58764-b0b1-44a2-800a-74f016802b7e-extra-1",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Oak at the Gate of Elizabeth Park",
+   "photo": "out/sightings/83d58764-b0b1-44a2-800a-74f016802b7e-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the same oak from a step further left; in the tree's strip. Live as leamington-spa/lsp_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1387",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Plane Tree of Place Saint-Seurin",
+   "photo": "p_1d51f247b2edfb80a49fe6a5/04b55336-8691-4eee-bcb5-29e6c9a17e2b.jpg",
+   "reader_note": "Planted in the late 19th century, this ~145-year-old plane tree on Place Saint Seurin—recognized as a Remarkable Tree of France in 2003—is prized for its shade and flaking bark, and stands as a lasting symbol of local natural heritage.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a tall forked plane beside the church wall. Live as le-porge/lpo_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:cc4293ff-8120-4c19-a667-25947845b4ff",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -102,22 +166,6 @@
    "reader_note": "",
    "verdict": "publish",
    "reason": "Second photograph viewed 2026-11-21: the same beech from the other side, the great fallen limb still joined at the split foot; in the tree's strip. Live with bingley/bgy_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
   },
@@ -1177,6 +1225,119 @@
    "reader_girth_cm": null,
    "verdict": "publish",
    "reason": "The app's row for sighting 081afcee, already live as hasselt/has_001 (The Oak of Kiewit); nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4912edd4-5e1a-4800-ab16-dc5cb9f63202",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Weeping Beech of the Giardini Reali",
+   "photo": "p_9958e447be18d50bb8fd84bc/4912EDD4-5E1A-4800-AB16-DC5CB9F63202.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a big weeping beech in autumn curtains in the Giardini Reali. Live as turin/tor_012 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e4c07e02-2e9d-4391-8581-47e61bab1fc6",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Old Beech of St Ives Estate",
+   "photo": "p_064cc750d7e96fa90046487e/E4C07E02-2E9D-4391-8581-47E61BAB1FC6.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a thick mossy beech with a broken limb among Scots pines. Live as bingley/bgy_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:023bf7b4-8706-4819-ba17-6bc7fb6dc744",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Fig of Kandela",
+   "photo": "p_12951aff1d07de7480564b95/023BF7B4-8706-4819-BA17-6BC7FB6DC744.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: a great fig of fused aerial roots in a restaurant courtyard. Live as curacao/cuw_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f0ac690d-989a-4400-a70a-cee219b24988",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Copper Beech in Bristol",
+   "city": null,
+   "species": "Copper Beech",
+   "photo": "p_7b2115b8e39fa3b6538f86e3/F0AC690D-989A-4400-A70A-CEE219B24988.jpg",
+   "reader_note": "Large Purple Beech situated at the corner of Downleaze and Julian Rd. Believed to have been planted around 135 years ago and situated in an impressive street of villas designed by the Bristol architect Henry Dare Bryan (1869–1909) and built in 1898 in the Queen Anne Revival style.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole copper beech on the Downleaze corner in autumn colour, photo GPS at the tree; live as bristol/bri_026, seen from the street, garden private.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:83d58764-b0b1-44a2-800a-74f016802b7e",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Oak near Stratford-upon-Avon",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_c571dc455621f9521a0fc1f6/83D58764-B0B1-44A2-800A-74F016802B7E.jpg",
+   "reader_note": "Magnificent oak tree at entrance to Elizabeth Park, Leamington Spa",
+   "reader_girth_cm": 375,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a wide open-grown oak at the Elizabeth Park entrance by the viaduct, 375 cm girth by the reader; hand-placed pin kept approximate; live as leamington-spa/lsp_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1387",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "Plane tree",
+   "city": "Le Porge",
+   "species": null,
+   "photo": "p_1d51f247b2edfb80a49fe6a5/04b55336-8691-4eee-bcb5-29e6c9a17e2b.jpg",
+   "reader_note": "Planted in the late 19th century, this ~145-year-old plane tree on Place Saint Seurin—recognized as a Remarkable Tree of France in 2003—is prized for its shade and flaking bark, and stands as a lasting symbol of local natural heritage.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall plane beside the Eglise Saint-Seurin, forked crown, person for scale; pinned approximate at the church; the 2003 Remarkable Tree label found in no source, stated as the reader's; live as le-porge/lpo_001.",
    "hidde": null,
    "agreed": null
   },
@@ -21693,42 +21854,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:4912edd4-5e1a-4800-ab16-dc5cb9f63202",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Weeping Beech of the Giardini Reali",
-   "photo": "p_9958e447be18d50bb8fd84bc/4912EDD4-5E1A-4800-AB16-DC5CB9F63202.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: a big weeping beech in autumn curtains in the Giardini Reali. Live as turin/tor_012 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:e4c07e02-2e9d-4391-8581-47e61bab1fc6",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Old Beech of St Ives Estate",
-   "photo": "p_064cc750d7e96fa90046487e/E4C07E02-2E9D-4391-8581-47E61BAB1FC6.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: a thick mossy beech with a broken limb among Scots pines. Live as bingley/bgy_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:023bf7b4-8706-4819-ba17-6bc7fb6dc744",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Fig of Kandela",
-   "photo": "p_12951aff1d07de7480564b95/023BF7B4-8706-4819-BA17-6BC7FB6DC744.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: a great fig of fused aerial roots in a restaurant courtyard. Live as curacao/cuw_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

@@ -1,0 +1,75 @@
+{
+  "city": "Le Porge",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Le Porge is a village in the pine forests of the Médoc in Gironde, a few kilometres in from the Atlantic dunes. On Place Saint-Seurin, beside the long south wall of its stone church, stands a tall plane tree with a pale mottled trunk that forks high above the roof. A reader sent us its photograph and tells us it was planted in the late nineteenth century.",
+  "meta_description": "The tall plane tree beside the Église Saint-Seurin in Le Porge, Gironde, sent by a reader: where it stands and what we know about it.",
+  "hero_tree_id": "lpo_001",
+  "oldest_tree_id": "lpo_001",
+  "question_meta": "The tall plane tree beside the Église Saint-Seurin in Le Porge, Gironde, sent by a reader: where it stands and what we know about it.",
+  "question_answer": "The Plane Tree of Place Saint-Seurin stands on the grass beside the south wall of the Église Saint-Seurin, on the village square of Le Porge in Gironde. It is free to visit at any hour.",
+  "question_context": "A reader sent us this plane tree from Le Porge, a village in the pine country of the Médoc, a few kilometres from the Atlantic coast of Gironde. It stands on the grass of Place Saint-Seurin, against the long side wall of the Église Saint-Seurin, the church on the old pilgrim road to Santiago. In the reader's photograph the trunk rises straight and pale, flaking in grey, cream and olive patches, before forking high above the church roof into two great stems; a person at its foot reaches barely a fifth of the way to the fork. The reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. We have not yet found that label in a source, so we state it as theirs and ask anyone who knows the village's record to tell us. The square is public and open at all hours.",
+  "faq": [
+    {
+      "q": "Where is the old plane tree in Le Porge?",
+      "a": "On the grass of Place Saint-Seurin, beside the south wall of the Église Saint-Seurin in the village centre."
+    },
+    {
+      "q": "Can I visit the plane tree in Le Porge?",
+      "a": "Yes. It stands on the public village square, free and open at all hours."
+    },
+    {
+      "q": "How old is the plane tree in Le Porge?",
+      "a": "The reader who sent it to us says it was planted in the late nineteenth century, about 145 years ago. We have not yet found a record that confirms it."
+    }
+  ],
+  "trees": [
+    {
+      "id": "lpo_001",
+      "name": "The Plane Tree of Place Saint-Seurin",
+      "species": "London Plane (Platanus x acerifolia)",
+      "age_estimate": "about 145 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Place Saint-Seurin, beside the Église Saint-Seurin, Le Porge, Gironde",
+        "latitude": 44.8728883,
+        "longitude": -1.0932619,
+        "neighbourhood": "Le Porge"
+      },
+      "how_to_recognise": "On the grass beside the long south wall of the Église Saint-Seurin: a tall plane with a pale, mottled trunk that forks high up into two great stems, a picnic table near its foot and the war memorial off to the right.",
+      "access": "Free, on the village square beside the church, open at all hours.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/483532215 (OpenStreetMap: Église Saint-Seurin on Place Saint-Seurin, Le Porge, where the reader's photograph places the tree)"
+      ],
+      "story": "Le Porge is a village in the pine country of the Médoc, a few kilometres in from the Atlantic dunes, and on its square, against the long side wall of the Église Saint-Seurin, stands this plane. A reader sent us its photograph from the foot of the trunk.\n\nThe picture shows why they stopped. The trunk rises straight and pale, flaking in the camouflage patches of grey, cream and olive that planes are known for, then forks high above the church roof into two great stems that spread a crown wider than the nave. The person standing at its foot reaches barely a fifth of the way to the fork. The church spire, in the same pale stone, rises behind it.\n\nThe reader tells us it was planted in the late nineteenth century, which would make it about 145 years old, and that it was recognised as a Remarkable Tree of France in 2003. Those facts are theirs: we have not yet found the label in a source, and if you know the village's record of this tree, tell us here and we will add it.\n\nStand on the grass by the church wall and look straight up the trunk to the fork.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "tip-1387",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "named site",
+        "date": "2026-11-21",
+        "note": "No coordinate came with the tip; the pin is the Église Saint-Seurin (OpenStreetMap way 483532215), beside which the photograph shows the tree."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (tip-1387, 2026-11-21, through the website). Photograph viewed: looking up a tall plane tree beside the nave of a stone church, its pale mottled trunk forking into two great stems, browning autumn leaves, a person standing at the foot for scale, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Plane tree', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lpo_001-plane-tree-of-place-saint-seurin.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_1d51f247b2edfb80a49fe6a5",
+        "sighting_id": "tip-1387",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the website); viewed and approved on 2026-11-21: looking up a tall plane tree beside the nave of a stone church, its pale mottled trunk forking into two great stems, browning autumn leaves, a person standing at the foot for scale, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "autumn colour: the leaves are browning and falling on the grass, and it was sent in November"
+      }
+    }
+  ]
+}

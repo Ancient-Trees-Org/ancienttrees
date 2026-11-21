@@ -3,8 +3,8 @@
   "country": "United Kingdom",
   "status": "needs_curation",
   "oldest_tree_id": "bri_001",
-  "intro": "Five of Bristol's remarkable trees stand on one walk of about two kilometres through the centre: the planes of Queen Square, a fig growing out of the harbour wall by Bristol Bridge, the city's largest black mulberry in Royal Fort Gardens, the oldest oak on Brandon Hill and a cedar 5.95 metres round in Clifton's Victoria Square. The oldest stand further out, in parkland estates the city inherited from merchant families: Ashton Court's Domesday Oak, around 700 years old, a Repton-era cedar at Blaise Castle and an oak older than Vanbrugh's house at Kings Weston. Twenty-five trees in all.",
-  "meta_description": "Twenty-five remarkable trees in Bristol: a central walk from Queen Square's planes to a Clifton cedar, plus Ashton Court's 700-year-old Domesday Oak.",
+  "intro": "Five of Bristol's remarkable trees stand on one walk of about two kilometres through the centre: the planes of Queen Square, a fig growing out of the harbour wall by Bristol Bridge, the city's largest black mulberry in Royal Fort Gardens, the oldest oak on Brandon Hill and a cedar 5.95 metres round in Clifton's Victoria Square. The oldest stand further out, in parkland estates the city inherited from merchant families: Ashton Court's Domesday Oak, around 700 years old, a Repton-era cedar at Blaise Castle and an oak older than Vanbrugh's house at Kings Weston. Twenty-six trees in all.",
+  "meta_description": "Twenty-six remarkable trees in Bristol: a central walk from Queen Square's planes to a Clifton cedar, plus Ashton Court's 700-year-old Domesday Oak.",
   "question_answer": "Bristol's oldest tree is the Domesday Oak in Ashton Court Estate, estimated at around 700 years old and named for the estate's mention in the 1086 Domesday Book. Its trunk has partially collapsed and is now held together with timber struts and wire, but it is still alive, one of Britain's 50 Great Trees named by the Tree Council in 2002. It stands free to visit in Ashton Court, a short bus ride from central Bristol.",
   "question_meta": "The Domesday Oak in Ashton Court, around 700 years old, is Bristol's oldest tree, still alive despite a partly collapsed, wire-supported trunk.",
   "question_context": "Ashton Court was a private deer park for centuries before Bristol City Council bought it in 1959 and opened it to the public. Its oldest surviving oak, thought to be around 700 years old, takes its name from the estate's own appearance in the Domesday Book of 1086, not from its age. At about 700 years old, it first came into leaf some two centuries after that record was made. In 2002, to mark the Queen's golden jubilee, the Tree Council selected it as one of 50 Great British Trees. Its trunk has since partially collapsed, split and settled toward the ground, and is now held upright with timber struts and steel wire. It is thinner in the canopy than it was, but still comes into leaf each year. It stands, easy to miss without signage, among Ashton Court's wider population of ancient pollard oaks, more than a hundred of them, the largest such cluster in Britain outside Windsor Great Park. In the city centre, the oldest tree on record is the oak on Brandon Hill, which the Bristol Tree Forum estimates at around 300 years, five metres round, standing just inside the park keepers' compound.",
@@ -1032,6 +1032,53 @@
         "contributor_user_id": "p_baa455d3bbb4cc97a884e051",
         "sighting_id": "bd71c73b-e90b-4f73-80b5-881761c55479",
         "note": "Photographed by a reader and sent through the app (2026-11-20); viewed and approved on 2026-11-20: looking up a tall ridged oak trunk into twisting limbs and bare crooked spires above an orange and copper crown, younger trees and pines around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "bri_026",
+      "name": "The Copper Beech of Downleaze",
+      "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+      "age_estimate": "about 130 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Corner of Downleaze and Julian Road, Sneyd Park, Bristol BS9",
+        "latitude": 51.473055,
+        "longitude": -2.62834666666667,
+        "neighbourhood": "Sneyd Park"
+      },
+      "how_to_recognise": "On the street corner where Downleaze meets Julian Road: a broad copper beech rising from behind a clipped hedge and iron railings, its crown as tall as the stone villa behind it, the Downleaze street sign at its foot.",
+      "access": "Seen from the pavement at the corner of Downleaze and Julian Road. The trunk stands behind a hedge and railings; the garden is private.",
+      "story": "On the corner where Downleaze meets Julian Road, in the villa streets that run down from the Downs at Sneyd Park, a copper beech fills the sky above the pavement. A reader sent it to us on a November afternoon, when its leaves had turned from purple to a burnt orange and the low sun lit the whole crown.\n\nThey tell us the street of villas around it was designed by the Bristol architect Henry Dare Bryan and built in 1898 in the Queen Anne Revival style, and the beech is believed to have been planted around 135 years ago. They put it at about 130. Those are their figures; we have not yet seen a planting record or a girth.\n\nThe photograph shows a tree that has grown into the space it was given. A single grey trunk rises from behind a clipped hedge and iron railings and divides into a dome of pale branches, as tall as the gabled stone villa behind it and wider than the corner itself. Copper beeches are purple in summer and turn this colour in autumn, so the tree changes the corner with the seasons.\n\nStand across the road on Julian Road, where the reader did, to see the whole crown against the houses.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "f0ac690d-989a-4400-a70a-cee219b24988",
+        "date": "2026-11-21"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f0ac690d-989a-4400-a70a-cee219b24988",
+        "moved_m": 0,
+        "date": "2026-11-21",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader (f0ac690d-989a-4400-a70a-cee219b24988, 2026-11-21, through the app). Photograph viewed: the whole copper beech on the corner of Downleaze in low sun, its crown copper and orange against a blue sky with cloud, the trunk behind a hedge and railings, villas behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Copper Beech in Bristol', species 'Copper Beech', age '130 years', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bri_026-copper-beech-of-downleaze.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
+        "sighting_id": "f0ac690d-989a-4400-a70a-cee219b24988",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole copper beech on the corner of Downleaze in low sun, its crown copper and orange against a blue sky with cloud, the trunk behind a hedge and railings, villas behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
       }
     }
   ]

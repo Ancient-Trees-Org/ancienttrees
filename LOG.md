@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge: a copper beech on a Bristol street corner, an oak opens Leamington Spa, a church-square plane opens Le Porge
+
+- **bristol/bri_026 The Copper Beech of Downleaze**: a reader's photo shows a big copper beech in full autumn colour on the corner of Downleaze and Julian Road in Sneyd Park, with Henry Dare Bryan's 1898 villas behind it. The photo's own GPS puts the pin at the tree, so it is confirmed. The trunk stands behind a hedge in a private garden, and `access` says it is seen from the pavement. Their 130 to 135 years and the architect story appear as theirs. Bristol now has 26 trees, and its intro and meta count all 26.
+- **leamington-spa/lsp_001 The Oak at the Gate of Elizabeth Park** (new place, one tree, so no place page yet): the reader's two photos show a wide, open-grown oak on a bank by Princes Drive, with the railway viaduct behind it. Their 375 cm girth is in the story. The species is "Oak (Quercus sp.)", and the page asks readers which oak it is. The reader placed the pin by hand, so it is approximate. They had named the place "near Stratford-upon-Avon", but their own note and the pin both say Leamington.
+- **le-porge/lpo_001 The Plane Tree of Place Saint-Seurin** (new place, one tree): this was a website tip with a photo but no coordinate. The photo shows a tall forked plane against the south wall of the Église Saint-Seurin, so it is pinned (approximate) at the church from OpenStreetMap. Their note reads like a pasted summary. Its claims of "about 145 years" and "Remarkable Tree of France in 2003" are not in any source I could find, so the story gives them as the reader's and asks for a record. The photo is filed under November for its browning autumn leaves.
+- No open reports, no feedback without a verdict, no reader words waiting. Lead 3c544597 (our own account) still has no photo on this runner. qa source, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-21 reader judge: Bingley grows to three trees, a forked beech and an Atlas cedar on the St Ives Estate
 
 - **bingley/bgy_002 The Forked Beech of St Ives** and **bingley/bgy_003 The Atlas Cedar of St Ives**: the same reader as bgy_001 sent both a few minutes later, and they reached this runner after the run before had finished. bgy_002 is a beech whose trunk splits into two equal stems in a clean U; its second photo, the fork close up, is in the strip. bgy_003 is a tall Atlas cedar whose second stem bends out in a long S. The reader placed both pins by hand, so they are approximate. Their ages (100 to 150 and 150 to 200) appear as their estimates. Both photos are filed under November, their own date.
