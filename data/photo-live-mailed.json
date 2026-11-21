@@ -2470,34 +2470,26 @@
    ]
   },
   "p_83548a11e2ad9963ef049f04": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "f79d2df8-48e9-4231-b534-afa657d1b611",
      "tree_id": "hni_003",
-     "tree_name": "The banyan of Nhan Dan, 71 Hang Trong",
-     "city": "Hanoi",
-     "city_slug": "hanoi",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_373e5fd038454aac3df00232": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "9f0baaf2-c507-40f9-ab10-b3ca7c33e821",
      "tree_id": "lon_041",
-     "tree_name": "The St Mary Magdalene Plane",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_93268936c7d94f408d689cef": {
    "last": "2026-11-20",
@@ -2549,19 +2541,15 @@
    ]
   },
   "p_e2c999cdc7d88128b77253b8": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-21",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "db51a305-e1bc-4fe9-9fe3-6d9c5ed9fa07",
      "tree_id": "mel_005",
-     "tree_name": "The Moreton Bay Fig of Curtain Square",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-20"
+     "mailed": "2026-11-21"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

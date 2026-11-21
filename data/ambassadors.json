@@ -1508,6 +1508,16 @@
         "The Holm Oak above the Scrub at Altafulla"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_baa455d3bbb4cc97a884e051",
+      "place_slug": "bristol",
+      "place_name": "Bristol",
+      "date": "2026-11-21",
+      "trees": [
+        "The Split Oak on the Stoke Park Slope"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
