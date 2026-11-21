@@ -385,6 +385,50 @@
       "how_to_recognise": "You can recognise it by the shape, tall and arrow-straight to 25 metres where the garden's other champions are contorted, over a trunk nearly three metres round.",
       "girth_cm": 280,
       "height_m": 25
+    },
+    {
+      "id": "yor_007",
+      "name": "The Minster Beech",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "150 to 190 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Near York Minster, York",
+        "latitude": 53.9631695871001,
+        "longitude": -1.08166779176682,
+        "neighbourhood": "City centre"
+      },
+      "how_to_recognise": "A tall beech near the Minster whose smooth pale trunk forks low into several stout stems under a broad, dense crown.",
+      "access": "Photographed from public ground near the Minster. We have not confirmed exactly where the tree stands; the pin is the reader's.",
+      "story": "\"In the shadow of York Minster, this is an example of a Beech Tree in its prime: tall and proud,\" wrote the reader who sent us this tree from the Minster precinct.\n\nThe photograph is taken from the foot of the trunk, looking up, and it shows why they stopped. The bark is pale grey and smooth, the way beech bark stays, marked with a few old scars and a patch of moss on the shaded side. A short way up, the trunk divides into several stout stems that climb together and then branch again and again, until the sky is almost gone behind a roof of translucent green leaves. A beech grown in the open, as this one has been, keeps its branches low and wide and its crown full, and it throws a dense shade of its own.\n\nThe reader puts it at 150 to 190 years old. That is their estimate; we have not seen a measurement or a planting record, and we would like one. If you know the tree, or have wrapped a tape round it, tell us here.\n\nStand close to the trunk and look up, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "bee85803-fdec-48c4-84bb-e5b061af1994",
+        "date": "2026-11-21"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "bee85803-fdec-48c4-84bb-e5b061af1994",
+        "date": "2026-11-21",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-21 session: sent by a reader (bee85803-fdec-48c4-84bb-e5b061af1994, through the app). Photograph viewed: looking straight up a pale, smooth beech trunk that forks into several stems under a full green crown, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry or encyclopaedia article within 300 m. The reader's own figures: name 'The Minster Beech', species 'European Beech', age '150-190 years'. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/yor_007-minster-beech.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+        "sighting_id": "bee85803-fdec-48c4-84bb-e5b061af1994",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: looking straight up a pale, smooth beech trunk that forks into several stems under a full green crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

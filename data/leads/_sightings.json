@@ -8647,9 +8647,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-21"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-21: looking straight up a pale, smooth beech trunk that forks into several stems under a full green crown, daylight, colour. Live as york/yor_007 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-21",
+   "judged": "2026-11-21",
+   "published_as": "york/yor_007"
   }
  ]
 }

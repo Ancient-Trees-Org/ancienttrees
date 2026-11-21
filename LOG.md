@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 night run (window from 09:04 UTC): York gets a reader's beech
+
+- **york/yor_007, The Minster Beech**: a reader sent a photograph from near York Minster (bee85803), looking up a pale forked beech trunk under a full crown, daylight, colour. It goes live under the closed list for a reader's tree. The pin is the reader's hand-placed one, so it stays approximate. Age (150 to 190 years) and species are stated as theirs. No register entry or encyclopaedia article lies within 300 m. The reader's photo is the lead. Preflight 0 problems.
+- 3c544597 (an own-account photo, no file on disk) still can't be judged.
+
 ## 2026-11-21 reader judge: four reader views of the Ankerwycke Yew go in its strip
 
 - **runnymede/ank_001, The Ankerwycke Yew**: one reader sent four photographs from January 2022. All four were taken 16 to 31 m from our pin, and each shows yew bark and sprays. They show the whole split hollow trunk (backlit), the burred lower trunk with a cloth ribbon, a bark close-up going up the trunk, and a view into the hollow. All four are in the gallery behind the current lead, which is another reader's photo of the whole tree in May and the stronger frame. They are filed as winter (`taken_month` 1). The reader got the "on the page" mail (sent with `--send`). The pin catch-up step could not read coordinates (HTTPError). The pin is unchanged and needs nothing.
