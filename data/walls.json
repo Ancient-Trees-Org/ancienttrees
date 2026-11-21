@@ -217,11 +217,6 @@
       "released_at": "2026-11-18T23:20:50+00:00"
     },
     {
-      "slug": "madeira",
-      "kind": "verify",
-      "released_at": "2026-11-18T23:20:57+00:00"
-    },
-    {
       "slug": "stuttgart",
       "kind": "verify",
       "released_at": "2026-11-18T23:22:50+00:00"
@@ -330,6 +325,11 @@
       "slug": "leeds",
       "kind": "verify",
       "released_at": "2026-11-21T16:31:34+00:00"
+    },
+    {
+      "slug": "madeira",
+      "kind": "verify",
+      "released_at": "2026-11-21T17:20:21+00:00"
     }
   ]
 }

@@ -11,6 +11,9 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 night window, retry (later): Stuttgart two oaks
+Stuttgart pass gave the Adlereiche (stu_016, confirmed pin) and the Alte Eiche (stu_017, approximate), written and merged (d6e329a63), app-only. Every named shelf (boston, wales-yews, wisconsin and the rest) is already published; the "awaiting a writer" list is stale duplicates, not work. Madeira refused as a wall (0 of 12 leads have coordinates), claim released. Open question for a session: live bri_017 (Blaise Meadow Sweet Chestnut) sits about 1 km from the pin in its research file.
+
 ## 2026-11-21 night window, retry: four Ottawa trees written
 Verify pass on Ottawa's Dominion Arboretum gave four trees (ott_023 to ott_026: ginkgo, Duke of Connaught's red oak, cucumber tree, Macoun Garden sycamore), written and merged (aa96a3e33), app-only under APP FIRST. Three pins are approximate, said so in the prose. Five leads and one young-tree lead were kept. The Dominion Arboretum park page now says eight trees. York's Riverside London Plane is listed READY but has no source or photograph, so it was not written. Claim released.
 
