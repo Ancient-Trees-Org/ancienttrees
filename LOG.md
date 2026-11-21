@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-21 reader judge (second run, same items): Peterborough's sequoia avenue gets its planting date
+
+- Two reader-judge runs took the same sighting and photo at once, and the other pushed first, so I dropped my duplicate commit. I added only what its version lacked. **peterborough/pbo_001** now has its source and age: Parks and Gardens UK records the Orton Longueville avenue of Wellingtonias, 700 yards along the estate's south boundary, planted as seedlings in 1861 by the 10th Marquess of Huntly and Maria. The photo's location falls on that avenue. The story, question text and FAQ now give 1861 where they asked readers for it; the reader's 150 years and 589 cm stay theirs. Peterborough's names in other languages were also looked up.
+- **heidelberg/hei_001**: the story's last paragraph (English and German) still said our pin came from the register's map tile. The reader's photo has now confirmed the pin, so that paragraph now describes their November photograph instead.
+- qa source, preflight (0 problems) and i18ncheck de/heidelberg clean.
+
 ## 2026-11-21 reader judge: a giant sequoia avenue opens Peterborough; a reader's photograph leads the Molkenkur Linden
 
 - New place, **Peterborough** (peterborough/pbo_001, The Giant Sequoia of the Orton Hall Avenue). A reader sent four photographs of a double line of giant sequoias along a broad earth path beside Orton Hall in Orton Longueville. The thickest trunk, ivy on it, is the tree. The pin is confirmed from the photo's own location. The photo is filed under August from its own date. Their 589 cm girth and ~150 years are stated as theirs. The app had named the lead "near Bowthorpe" (the nearest place we had), but the reader's own report named Orton Hall. We have not confirmed who owns the ground or when the path is open, and the access line says so.

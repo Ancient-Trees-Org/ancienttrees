@@ -11,9 +11,9 @@
       "id": "pbo_001",
       "name": "The Giant Sequoia of the Orton Hall Avenue",
       "species": "Giant Sequoia (Sequoiadendron giganteum)",
-      "age_estimate": "about 150 years, by a reader's estimate",
-      "age_min": null,
-      "age_max": null,
+      "age_estimate": "about 165 years (the avenue was planted as seedlings in 1861); about 150 by a reader's estimate",
+      "age_min": 165,
+      "age_max": 165,
       "age_basis": "source",
       "location": {
         "address": "Sequoia avenue beside Orton Hall, Orton Longueville, Peterborough",
@@ -21,10 +21,12 @@
         "longitude": -0.281536666666667,
         "neighbourhood": "Orton Longueville"
       },
-      "story": "\"A whole avenue of trees,\" is how the reader who sent us this sequoia described the place they found it, beside Orton Hall on the western edge of Peterborough.\n\nTheir photographs show what they mean. A broad earth path runs straight through the woods, and on either side of it stands a line of giant sequoias, their soft red trunks rising bare for a long way before the blue-green foliage begins. Ivy has climbed the nearest ones and browned in patches against the bark. This tree is the big trunk in the foreground on the left, thicker than any of its neighbours, and beyond it the line keeps going until the path disappears among the trunks.\n\nGiant sequoias reached Britain in the 1850s, and estates up and down the country planted them in rows like this one as soon as they could, so a Victorian avenue of them is a familiar sight. A walk between two lines of them is not.\n\nThe reader measured this one at 589 centimetres round and puts it at about 150 years old. Those are their figures, not a measurement we have seen. If you know when the avenue was planted, or who planted it, tell us here.\n\nWalk the length of the path and look up as you pass each spire.",
+      "story": "\"A whole avenue of trees,\" is how the reader who sent us this sequoia described the place they found it, beside Orton Hall on the western edge of Peterborough.\n\nTheir photographs show what they mean. A broad earth path runs straight through the woods, and on either side of it stands a line of giant sequoias, their soft red trunks rising bare for a long way before the blue-green foliage begins. Ivy has climbed the nearest ones and browned in patches against the bark. This tree is the big trunk in the foreground on the left, thicker than any of its neighbours, and beyond it the line keeps going until the path disappears among the trunks.\n\nGiant sequoias reached Britain in the 1850s, and this avenue followed fast. Parks and Gardens UK records that the Marquess of Huntly and his wife Maria, keen gardeners at Orton Hall, planted a 700-yard avenue of Wellingtonias, as the Victorians called them, along the estate's south boundary as seedlings in 1861.\n\nThe reader measured this one at 589 centimetres round and puts it at about 150 years old. Those are their figures, not a measurement we have seen; the planting date is the record's.\n\nWalk the length of the path and look up as you pass each spire.",
       "how_to_recognise": "On a broad earth path lined on both sides with tall red-barked sequoias: the thick, ivy-clad trunk wider than any of its neighbours in the line.",
       "access": "The reader photographed it from the broad path through the avenue beside Orton Hall. We have not confirmed who owns the ground or when the path is open; check before you go.",
-      "verified_sources": [],
+      "verified_sources": [
+        "https://www.parksandgardens.org/places/orton-longueville-hall (Parks and Gardens UK, Orton Longueville Hall: the 10th Marquess of Huntly and his wife Maria planted a 700 yard long avenue of Wellingtonias along the south boundary as seedlings in 1861)"
+      ],
       "found_by_reader": {
         "sighting_id": "b57c3977-d5d3-4a97-a199-76433a04d573",
         "date": "2026-11-21"
@@ -38,7 +40,7 @@
         "note": "The pin marks where a reader stood to photograph this tree, from the photograph's own location; the reader also dragged a pin 60 m north-east (report 1000108) while adding it, and the photograph's fix was kept because the trunk stands right beside the camera (Hidde, 2026-11-17: GPS over a hand-moved pin)."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (b57c3977-d5d3-4a97-a199-76433a04d573). Photographs viewed: a double avenue of tall giant sequoias along a broad earth path, the nearest trunk thick, red and ivy-clad in the foreground; extras show the avenue running on, one sequoia whole from foot to spire, and the crowns from below. Summer daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Giant Sequoia near Bowthorpe', species 'Giant Sequoia', age '150', girth 589 cm; the site 'Orton Hall' and 'A whole avenue of trees' came in their report 1000107, filed on the Bowthorpe Oak by mistake of place (the app named the lead 'near Bowthorpe'). No register entry within 100 m, no encyclopaedia article within 300 m. Every figure on the page is theirs.",
+      "verify_notes": "2026-11-21 reader judge: sent by a reader through the app (b57c3977-d5d3-4a97-a199-76433a04d573). Photographs viewed: a double avenue of tall giant sequoias along a broad earth path, the nearest trunk thick, red and ivy-clad in the foreground; extras show the avenue running on, one sequoia whole from foot to spire, and the crowns from below. Summer daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Giant Sequoia near Bowthorpe', species 'Giant Sequoia', age '150', girth 589 cm; the site 'Orton Hall' and 'A whole avenue of trees' came in their report 1000107, filed on the Bowthorpe Oak by mistake of place (the app named the lead 'near Bowthorpe'). No register entry within 100 m, no encyclopaedia article within 300 m. Every figure on the page is theirs, except the planting date: a second reader-judge run the same afternoon found Parks and Gardens UK's record of the Orton Longueville Wellingtonia avenue (south boundary, seedlings planted 1861 by the 10th Marquess of Huntly and Maria), on which the photograph's location falls, and added it as the source.",
       "photo": {
         "url": "https://ancienttrees.app/photos/pbo_001-giant-sequoia-of-the-orton-hall-avenue.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -56,8 +58,8 @@
     }
   ],
   "question_meta": "The giant sequoia avenue beside Orton Hall in Peterborough: where the biggest trunk stands and what we know about it.",
-  "question_answer": "The Giant Sequoia of the Orton Hall Avenue stands beside Orton Hall in Orton Longueville, on the western edge of Peterborough, at the start of a long double line of sequoias along a broad earth path.",
-  "question_context": "A reader who walked the path beside Orton Hall, in Orton Longueville on the western edge of Peterborough, sent us this tree and called the place \"a whole avenue of trees\". Their photographs show a broad earth path running straight through the woods with a line of giant sequoias on each side, their soft red trunks bare for a long way before the blue-green foliage begins, ivy climbing the nearest of them. The tree on this page is the thick trunk in the foreground on the left, much wider than its neighbours. Giant sequoias, Sequoiadendron giganteum, come from the western slopes of the Sierra Nevada in California and reached Britain in the 1850s, after which estates planted them in rows and avenues. The reader measured this one at 589 centimetres round and puts it at about 150 years old; those are their figures, not a measurement we have seen. We have not confirmed who owns the ground or when the path is open, so check before you go, and if you know when the avenue was planted, tell us.",
+  "question_answer": "The Giant Sequoia of the Orton Hall Avenue stands beside Orton Hall in Orton Longueville, on the western edge of Peterborough, at the start of a long double line of sequoias along a broad earth path, planted as seedlings in 1861.",
+  "question_context": "A reader who walked the path beside Orton Hall, in Orton Longueville on the western edge of Peterborough, sent us this tree and called the place \"a whole avenue of trees\". Their photographs show a broad earth path running straight through the woods with a line of giant sequoias on each side, their soft red trunks bare for a long way before the blue-green foliage begins, ivy climbing the nearest of them. The tree on this page is the thick trunk in the foreground on the left, much wider than its neighbours. Giant sequoias, Sequoiadendron giganteum, come from the western slopes of the Sierra Nevada in California and reached Britain in the 1850s. Parks and Gardens UK records that the 10th Marquess of Huntly and his wife Maria planted a 700-yard avenue of them along the south boundary of the Orton Hall estate as seedlings in 1861. The reader measured this one at 589 centimetres round and puts it at about 150 years old; those are their figures, not a measurement we have seen. We have not confirmed who owns the ground or when the path is open, so check before you go.",
   "faq": [
     {
       "q": "Where is the giant sequoia avenue in Peterborough?",
@@ -65,7 +67,7 @@
     },
     {
       "q": "How big is the Giant Sequoia of the Orton Hall Avenue?",
-      "a": "The reader who sent it measured it at 589 centimetres round and puts it at about 150 years old. Those are their figures; we have not seen a published measurement."
+      "a": "The reader who sent it measured it at 589 centimetres round and puts it at about 150 years old. Those are their figures; we have not seen a published measurement. The avenue itself was planted as seedlings in 1861, by Parks and Gardens UK's record."
     },
     {
       "q": "Can I visit the Orton Hall sequoia avenue?",

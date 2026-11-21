@@ -3933,6 +3933,11 @@
       "Comuna Perušić",
       "Perušičius"
     ],
+    "peterborough": [
+      "Piterboras",
+      "Pīterboro",
+      "Petroburgum"
+    ],
     "philadelphia": [
       "Philadelphie",
       "Filadelfia",
@@ -6283,6 +6288,7 @@
     "peruc": "Peruc",
     "perugia": "Perugia",
     "perusic": "Perušić",
+    "peterborough": "Peterborough",
     "philadelphia": "Philadelphia",
     "pianello": "Pianello",
     "pisa": "Pisa",
