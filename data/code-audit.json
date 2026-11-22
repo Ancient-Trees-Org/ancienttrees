@@ -581,6 +581,16 @@
    "found_by": "hidde",
    "test": "scripts/qa.py check_every_map_shows_pins_the_same_way: refuses a position on .pin-tree in pinCss() and style.css",
    "fixed_in": "352553498"
+  },
+  {
+   "id": "ESC-2026-11-22-photo-live-bundle-mail-sightings-publish",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/sightings_publish.py",
+   "summary": "Photo-live bundle mail (sightings_publish.flush_mail) lists photographs that the judge later held, rejected or unstripped: a reader was told on 2026-11-22 that six photos were on the pages when they had been taken out on 2026-11-15. Pending items must be rechecked against data/cities before the mail goes.",
+   "first_seen": "2026-11-22",
+   "status": "open",
+   "found_by": "reader"
   }
  ]
 }

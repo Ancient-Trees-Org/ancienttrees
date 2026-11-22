@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge, a second run beside the first: one bug recorded, one report closed
+
+- Two reader-judge runs took the same work at once; this one's Delhi tree and takedown were dropped for the first run's (below), nothing lost.
+- **Report 1000119** (Tsagarada pin) closed `holds`, no mail: not a tree of ours (the Tsagarada plane is only an unpinned famous lead), so it is the reader placing their own new tree; their tree is judged when it arrives.
+- **Escaped bug** ESC-2026-11-22-photo-live-bundle-mail-sightings-publish: the bundle mail that reader 1419 answered told them six photographs were on the pages that had been held or rejected on 11-15 (Muckross, Dartmoor, Crom, Belfast twice, Palma); `flush_mail` never rechecks pending items against data/cities. Rung-2 work for a session. The draft reply to 1419 might mention it to Hidde: some of the photos they saw listed were never up.
+
 ## 2026-11-22 reader judge: a Delhi peepal live, two photos with faces taken down
 
 - **Live**: delhi/dlh_001, The Peepal on the Plinth, a huge sacred fig on a stone plinth in a garden near Humayun's Tomb, sent through the app with a GPS fix from the photo (confirmed pin). Both photographs viewed; the second goes in the strip. New one-tree place Delhi (India is out of focus for our own research only, never for a reader's tree). The garden is not named on the page: the pin fits Sundar Nursery, but nothing confirms it.
