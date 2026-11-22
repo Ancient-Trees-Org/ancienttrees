@@ -1261,6 +1261,46 @@
    "agreed": null
   },
   {
+   "id": "lead:84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Riesenmammutbaum Riesenberger Friedhof",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_8ee7625f534ac175ae1c0c68/84541E96-06D1-42E2-BEC6-1C2CD9DFB5D7.jpg",
+   "reader_note": "The national heritage tree of 2022. The tree belongs to the 100 trees that carries the most significance in Germany.",
+   "reader_girth_cm": 730,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a giant sequoia in the Riensberger Friedhof, Bremen, its sign naming it a Nationalerbe-Baum of Germany (10 February 2022, one of the 100 most significant trees); GPS fix in the cemetery. Live as horn-bremen/hrn_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Riesenmammutbaum Riesenberger Friedhof",
+   "photo": "p_8ee7625f534ac175ae1c0c68/84541E96-06D1-42E2-BEC6-1C2CD9DFB5D7.jpg",
+   "reader_note": "The national heritage tree of 2022. The tree belongs to the 100 trees that carries the most significance in Germany.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole giant sequoia from beside its railed grave plot in the Riensberger Friedhof, red fluted trunk, autumn oaks round it, blue sky, daylight, colour; its sign names it a Nationalerbe-Baum. Live as horn-bremen/hrn_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

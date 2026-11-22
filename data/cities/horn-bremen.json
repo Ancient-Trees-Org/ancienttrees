@@ -2,8 +2,8 @@
   "city": "Horn-Lehe",
   "country": "Germany",
   "status": "needs_curation",
-  "intro": "Horn-Lehe is a Bremen district built around a churchyard tree old enough to have hosted the medieval court before the city ever reached this far out. Three trunks fused into one mass more than four metres round, and in 2026 the city fitted it with a crane-lifted support frame. A short walk west, by the Focke-Museum, stands a pedunculate oak its plaque calls about 350 years old, which a reader sent us in autumn gold.",
-  "meta_description": "Two old trees in Horn-Lehe, Bremen: the Horner Linde, a fused lime possibly 900 years old, and a 350-year oak by the Focke-Museum.",
+  "intro": "Horn-Lehe is a Bremen district built around a churchyard tree old enough to have hosted the medieval court before the city ever reached this far out. Three trunks fused into one mass more than four metres round, and in 2026 the city fitted it with a crane-lifted support frame. A short walk west, by the Focke-Museum, stands a pedunculate oak its plaque calls about 350 years old, and just beyond it, in the Riensberg cemetery, a giant sequoia named one of Germany's national heritage trees in 2022.",
+  "meta_description": "Three old trees in Horn-Lehe and Riensberg, Bremen: the Horner Linde, a 350-year oak by the Focke-Museum and a national heritage sequoia.",
   "question_meta": "The Horner Linde is Bremen's oldest tree, a fused lime disputed at 600 to 900 years old, standing where the district's medieval court once met.",
   "question_answer": "Bremen's oldest tree stands in an ordinary tram suburb: the Horner Linde, a large-leaved lime on the churchyard in front of the Horner Kirche in Horn-Lehe. Three trunks grew together into a single mass over four metres round. The medieval Thing, or court assembly, met on this exact spot before the district existed in any formal sense, which makes this a Gerichtslinde, a court lime, thought to have been planted shortly after Dutch settlers built the first chapel here early in the 12th century.",
   "question_context": "The tree's age is genuinely disputed, and both figures are recorded rather than resolved. The memorial plaque at its foot and long-standing local tradition put it at about 900 years, tied to the settlement's founding; a dendrological survey taken in August 2025 reads 600 to 700 years off a girth of 6.1 metres, the usual gap between documentary dating and growth-rate dating on a tree this hollow. It appears in writing as early as 1380. In spring 2026 the city of Bremen fitted the tree with a crane-installed support frame, reported by the public broadcaster buten un binnen, protecting both the ancient trunk and the churchyard visitors who walk beneath it. It stands on open, public ground in front of the Horner Kirche, reachable by ordinary Bremen tram and bus, with no fee or restriction of any kind. Horn-Lehe is a residential district on Bremen's eastern edge, and the tree's setting is unglamorous by design: a working churchyard among family graves, still visited for burials and quiet walks rather than laid out for tourists, which is much of what makes finding a tree this old in an ordinary city suburb worth the detour.",
@@ -29,6 +29,10 @@
     {
       "q": "Is there another old tree nearby?",
       "a": "Yes. About 700 metres west, beside the path Unter den Eichen at the Focke-Museum, stands a pedunculate oak that the plaque at its foot puts at about 350 years, one of the oldest oaks in Bremen."
+    },
+    {
+      "q": "Is there a national heritage tree nearby?",
+      "a": "Yes. In the Riensberger Friedhof, a few minutes' walk west of the Focke-Museum oak, stands a giant sequoia that Germany's Nationalerbe-Baum board named a national heritage tree on 10 February 2022, one of the hundred most significant trees in the country."
     }
   ],
   "trees": [
@@ -120,6 +124,55 @@
         "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
         "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole oak from the path, a tall straight trunk rising into a broad crown of yellow autumn leaves, an old white house with dark shutters behind, a bench at its foot, sunny daylight, colour; a second frame looks up the furrowed trunk, a third shows the steel plaque at its foot: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen', number 138. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "hrn_003",
+      "name": "The Nationalerbe Sequoia of Riensberg Cemetery",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "age_estimate": "about 160 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Riensberger Friedhof, Schwachhausen, Bremen",
+        "latitude": 53.0914722383517,
+        "longitude": 8.85997893289557,
+        "neighbourhood": "Riensberg, Schwachhausen"
+      },
+      "how_to_recognise": "A giant sequoia with a straight, red, fluted trunk inside a family grave plot fenced with black iron railings, a steel sign headed 'Nationalerbe Baum' on a post in front; its dark green spire stands above the oaks around it.",
+      "access": "Inside the Riensberger Friedhof, a public cemetery open in daylight hours; seen from the path. The sign asks visitors to keep off the ground around it to spare the roots.",
+      "verified_sources": [
+        "Sign beside the tree, photographed by the reader on 2026-11-22: 'Dieser Bergmammutbaum (Sequoiadendron giganteum) wurde vom zuständigen Kuratorium am 10. Februar 2022 als Nationalerbe-Baum Deutschlands ausgerufen ... Er gehört damit zu den 100 bedeutendsten Bäumen Deutschlands.' (Deutsche Dendrologische Gesellschaft, Umweltbetrieb Bremen, nationalerbe-baeume.de)"
+      ],
+      "story": "\"The national heritage tree of 2022,\" wrote the reader who sent us this giant sequoia from Bremen's Riensberg cemetery, and the steel sign in front of it bears them out. On 10 February 2022 the board behind Germany's national heritage trees named it a Nationalerbe-Baum, one of the hundred most significant trees in the country, to be protected and cared for so that it can live on for centuries more. The same reader had just photographed an old oak nearby and sent us both on one November day.\n\nIt stands among family graves behind black iron railings. From below, its reddish trunk climbs straight and fluted through tiers of drooping, curling limbs until it clears the oaks and beeches around it. From across the cemetery the crown is a dark green spire against the sky, taller than anything near it, and close up the soft, stringy bark runs in deep vertical ridges.\n\nThe reader puts it at about 160 years old and 7.3 metres round; those are their figures, not a measurement we have seen. The sign adds that a giant sequoia can live well beyond a thousand years, so by the standards of its own kind this one is still young.\n\nThe heritage scheme is an initiative of the German Dendrological Society, here with Bremen's Umweltbetrieb. The sign asks visitors to keep off the ground around the tree to spare its roots, so look up from the path.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (84541e96-06d1-42e2-bec6-1c2cd9dfb5d7, 2026-11-22, through the app). Photographs viewed: looking up the whole giant sequoia from beside its railed grave plot, a straight reddish fluted trunk under tiers of drooping, curling limbs, autumn oaks around it, blue sky, daylight, colour; a second frame shows the steel sign in front of it ('Nationalerbe Baum, Riesenmammutbaum': Sequoiadendron giganteum, declared a Nationalerbe-Baum of Germany by the Kuratorium on 10 February 2022, one of the 100 most significant trees in Germany, an initiative of the Deutsche Dendrologische Gesellschaft with Umweltbetrieb Bremen); a third looks straight up the soft, ridged trunk; a fourth shows the dark green spire standing above the cemetery's oaks and gravestones. The GPS fix lies in the Riensberger Friedhof, about 245 m west of hrn_002. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Riesenmammutbaum Riesenberger Friedhof', species 'Giant Sequoia', age '160', girth 730 cm; the age and girth are theirs only, the heritage status is the sign's. No register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hrn_003-nationalerbe-sequoia-riensberg.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+        "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: looking up the whole giant sequoia from beside its railed grave plot, a straight reddish fluted trunk under tiers of drooping, curling limbs, autumn oaks around it, blue sky, daylight, colour; a second frame shows the steel sign in front of it ('Nationalerbe Baum, Riesenmammutbaum': Sequoiadendron giganteum, declared a Nationalerbe-Baum of Germany by the Kuratorium on 10 February 2022, one of the 100 most significant trees in Germany, an initiative of the Deutsche Dendrologische Gesellschaft with Umweltbetrieb Bremen); a third looks straight up the soft, ridged trunk; a fourth shows the dark green spire standing above the cemetery's oaks and gravestones. Not an open licence: ask before reuse elsewhere.",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
       }

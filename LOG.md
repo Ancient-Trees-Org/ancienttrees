@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (sixth run): a national heritage sequoia in Bremen live
+
+- **New tree, horn-bremen/hrn_003, "The Nationalerbe Sequoia of Riensberg Cemetery".** It came from the same reader as this afternoon's Focke-Museum oak, through the app, with four photographs: the whole giant sequoia from beside its railed grave plot, the steel sign in front of it, the trunk from below, and its spire above the cemetery oaks. The sign says the Kuratorium named it a Nationalerbe-Baum of Germany on 10 February 2022, one of the 100 most significant trees in the country (Deutsche Dendrologische Gesellschaft with Umweltbetrieb Bremen). The pin is the reader's GPS fix, so it is confirmed. It stands in the Riensberger Friedhof, 245 m west of hrn_002. The 160 years and the 7.3 m girth are the reader's figures and appear in the story only. The story opens with the reader's own words, quoted. The photo is filed in November, the month it was taken.
+- **Horn-Lehe now has three trees.** I updated its intro and meta and added a FAQ entry for the sequoia. There is no kept translation to update.
+- 3c544597 (Amsterdam) is still our own photo (`mine`) and its file is still not on disk, so I left it alone. There were no open reports, no open feedback and no tips without a photo.
+
 ## 2026-11-22 reader judge (fifth run): a 350-year oak in Bremen live
 
 - **New tree, horn-bremen/hrn_002, "The Old Oak by the Focke-Museum".** A reader sent it today through the app with three photographs: the whole oak in autumn yellow, the trunk from below, and a plaque at its foot. The plaque reads "Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen", number 138. The pin is the reader's GPS fix, confirmed. It lands on the path Unter den Eichen in Riensberg (Schwachhausen), about 140 m south of the Focke-Museum and 730 m from the Horner Linde, so it joined Horn-Lehe rather than starting a one-tree place. The age comes from the plaque; the 6 m girth is the reader's and stays in the story only. The photo is filed in November, the photograph's own month.

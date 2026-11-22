@@ -9798,6 +9798,43 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "horn-bremen/hrn_002"
+  },
+  {
+   "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7",
+   "user_id": "p_8ee7625f534ac175ae1c0c68",
+   "mine": false,
+   "name": "Riesenmammutbaum Riesenberger Friedhof",
+   "unsure_among": null,
+   "species": "Giant Sequoia",
+   "age": "160",
+   "girth_cm": 730,
+   "girth_hugs": null,
+   "note": "The national heritage tree of 2022. The tree belongs to the 100 trees that carries the most significance in Germany.",
+   "latitude": 53.0914722383517,
+   "longitude": 8.85997893289557,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_8ee7625f534ac175ae1c0c68/84541E96-06D1-42E2-BEC6-1C2CD9DFB5D7.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-1.jpg",
+    "out/sightings/84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-2.jpg",
+    "out/sightings/84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": 245,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: looking up the whole giant sequoia from beside its railed grave plot, a straight reddish fluted trunk under tiers of drooping, curling limbs, autumn oaks around it, blue sky, daylight, colour; a second frame shows the steel sign in front of it ('Nationalerbe Baum, Riesenmammutbaum': Sequoiadendron giganteum, declared a Nationalerbe-Baum of Germany by the Kuratorium on 10 February 2022, one of the 100 most significant trees in Germany, an initiative of the Deutsche Dendrologische Gesellschaft with Umweltbetrieb Bremen); a third looks straight up the soft, ridged trunk; a fourth shows the dark green spire standing above the cemetery's oaks and gravestones. Live as horn-bremen/hrn_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "horn-bremen/hrn_003"
   }
  ]
 }
