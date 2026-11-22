@@ -1044,6 +1044,14 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     root = {
                         // What the floating tab bar frosts (Glass.kt).
                         Box(Modifier.fillMaxSize().glassSource(barGlass)) {
+                        // Discover's tiles carry the bookmark and the photo heart too: without
+                        // this provider they fell back to TreeMarks()'s do-nothing default and
+                        // every Save on Discover was dead (ButtonWalk, 2026-11-20 to 11-22).
+                        CompositionLocalProvider(
+                            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
+                                signedIn = signedIn, token = { account.fresh()?.accessToken },
+                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }),
+                        ) {
                         DiscoverScreen(
                             catalogue = cat,
                             origin = origin,
@@ -1061,6 +1069,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             myPlaces = profiles.myPlaces.map { it.placeName },
                             act = discoverActions,
                         )
+                        }
                         }
                         if (nav.tab == 1) Bar()
                     },
