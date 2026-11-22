@@ -141,6 +141,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ams_002-the-leidsebosje-planes-ecbf8b3f.jpg": {
+   "base": "ams_002-the-leidsebosje-planes-ecbf8b3f",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/d/d3/2022_Wertheimpark%2C_Asd-Gewone_vleugelnoot_%281%29.jpg": {
    "base": "ams_004-the-wertheimpark-wingnut",
    "widths": [
@@ -211,6 +217,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/3/36/Ocotea_foetens.JPG": {
    "base": "agh_002-til-of-terra-ch",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ant_001-the-copper-beech-of-sint-willibrorduskerk.jpg": {
+   "base": "ant_001-the-copper-beech-of-sint-willibrorduskerk",
    "widths": [
     500
    ]
@@ -558,12 +570,30 @@
     1280
    ]
   },
+  "https://ancienttrees.app/photos/bhg_007-tall-oak-in-the-taunus-beeches.jpg": {
+   "base": "bhg_007-tall-oak-in-the-taunus-beeches",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bhg_007-tall-oak-in-the-taunus-beeches-below.jpg": {
+   "base": "bhg_007-tall-oak-in-the-taunus-beeches-below",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/ned_001-h-ter-des-feldes-the-rasierpinselbaum.jpg": {
    "base": "ned_001-h-ter-des-feldes-the-rasierpinselbaum",
    "widths": [
     500,
     1000,
     1280
+   ]
+  },
+  "https://ancienttrees.app/photos/bsv_001-weeping-willow-of-via-dante-alighieri.jpg": {
+   "base": "bsv_001-weeping-willow-of-via-dante-alighieri",
+   "widths": [
+    500
    ]
   },
   "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tanzlinde_Baldenhain_34200.JPG": {
@@ -828,6 +858,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/9/94/Albero_della_bugia.jpg": {
    "base": "bar_004-the-lie-tree-of-quasano",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bms_001-thousand-year-oak-of-barmstedt.jpg": {
+   "base": "bms_001-thousand-year-oak-of-barmstedt",
    "widths": [
     500
    ]
@@ -1304,6 +1340,36 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bgy_001-old-beech-of-st-ives-estate.jpg": {
+   "base": "bgy_001-old-beech-of-st-ives-estate",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bgy_001-old-beech-of-st-ives-estate-fallen-limb.jpg": {
+   "base": "bgy_001-old-beech-of-st-ives-estate-fallen-limb",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bgy_002-forked-beech-of-st-ives.jpg": {
+   "base": "bgy_002-forked-beech-of-st-ives",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bgy_002-forked-beech-of-st-ives-the-fork.jpg": {
+   "base": "bgy_002-forked-beech-of-st-ives-the-fork",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bgy_003-atlas-cedar-of-st-ives.jpg": {
+   "base": "bgy_003-atlas-cedar-of-st-ives",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/2/28/Bioul_AR1aJPG.jpg": {
    "base": "bio_001-the-grand-tilleul-of-bioul",
    "widths": [
@@ -1576,6 +1642,24 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bri_007-the-cedar-of-lebanon-in-victoria-square.jpg": {
+   "base": "bri_007-the-cedar-of-lebanon-in-victoria-square",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bri_015-the-monterey-cypress-at-bishops-knoll.jpg": {
+   "base": "bri_015-the-monterey-cypress-at-bishops-knoll",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bri_015-the-monterey-cypress-at-bishops-knoll-f6be5d35.jpg": {
+   "base": "bri_015-the-monterey-cypress-at-bishops-knoll-f6be5d35",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/bri_016-the-bundle-planted-sessile-oak-bishops-knoll.jpg": {
    "base": "bri_016-the-bundle-planted-sessile-oak-bishops-knoll",
    "widths": [
@@ -1608,6 +1692,12 @@
   },
   "https://ancienttrees.app/photos/bri_025-antlered-oak.jpg": {
    "base": "bri_025-antlered-oak",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bri_026-copper-beech-of-downleaze.jpg": {
+   "base": "bri_026-copper-beech-of-downleaze",
    "widths": [
     500
    ]
@@ -1960,6 +2050,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cda_001-old-mulberry-of-taranta.jpg": {
+   "base": "cda_001-old-mulberry-of-taranta",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/a/a5/456%2C_Ga%C5%A1tan_jedl%C3%BD_v_%C4%8Castej_-_poh%C4%BEad_z_juhov%C3%BDchodu.jpg": {
    "base": "cst_001-the-great-chestnut-of-asta",
    "widths": [
@@ -2093,6 +2189,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar-01c3e58d.jpg": {
+   "base": "gnp_001-the-gennett-poplar-01c3e58d",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar.jpg": {
    "base": "gnp_001-the-gennett-poplar",
    "widths": [
@@ -2217,6 +2319,18 @@
   },
   "https://www.dendron.dk/dtr/photos/2023/Morb%E6r_Proviant_HEL_20230726_IMG_3505.JPG": {
    "base": "cop_001-the-mulberry-of-proviantgarden",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_001-the-mulberry-of-proviantgarden-5277b1c0.jpg": {
+   "base": "cop_001-the-mulberry-of-proviantgarden-5277b1c0",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_003-thorvaldsen-s-robinia.jpg": {
+   "base": "cop_003-thorvaldsen-s-robinia",
    "widths": [
     500
    ]
@@ -2593,6 +2707,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cuw_002-fig-of-kandela.jpg": {
+   "base": "cuw_002-fig-of-kandela",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/3/36/2021_Curinga_plane_IT.jpg": {
    "base": "cur_001-platano-di-curinga",
    "widths": [
@@ -2665,6 +2785,24 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/dlh_001-peepal-on-the-plinth.jpg": {
+   "base": "dlh_001-peepal-on-the-plinth",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/dlh_001-peepal-on-the-plinth-trunk.jpg": {
+   "base": "dlh_001-peepal-on-the-plinth-trunk",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/dlh_002-banyan-by-the-arcades.jpg": {
+   "base": "dlh_002-banyan-by-the-arcades",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/6/6c/Weichselboom_%283000295248%29.jpg": {
    "base": "dbo_001-the-weichselboom-of-parklaan",
    "widths": [
@@ -2673,6 +2811,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/7/7a/Lindeboom_op_de_terp_-_panoramio.jpg": {
    "base": "dbo_012-the-annenborch-lime",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/der_001-boab-prison-tree-86314456.jpg": {
+   "base": "der_001-boab-prison-tree-86314456",
    "widths": [
     500
    ]
@@ -3142,8 +3286,38 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/emm_001-the-lime-of-the-noordeind.jpg": {
+   "base": "emm_001-the-lime-of-the-noordeind",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/emm_002-the-oak-in-hunebed-d42-184fee5d.jpg": {
+   "base": "emm_002-the-oak-in-hunebed-d42-184fee5d",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hunebed_in_Drenthe_06_v2.jpg": {
    "base": "emm_002-the-oak-in-hunebed-d42",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/emm_003-the-oak-at-the-long-grave.jpg": {
+   "base": "emm_003-the-oak-at-the-long-grave",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/emm_005-the-copper-beech-of-nieuw-schoonebeek.jpg": {
+   "base": "emm_005-the-copper-beech-of-nieuw-schoonebeek",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/emm_006-the-plane-of-the-bonifatius-park.jpg": {
+   "base": "emm_006-the-plane-of-the-bonifatius-park",
    "widths": [
     500
    ]
@@ -3240,6 +3414,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/fsh_001-pando-14402db3.jpg": {
+   "base": "fsh_001-pando-14402db3",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/b/b9/121003-FS-Fishlake-JZ-001_%2845410482591%29.jpg": {
    "base": "fsh_001-pando",
    "widths": [
@@ -3312,8 +3492,38 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/fln_001-plaque-tree-on-the-shore-of-ribeir-o-da-ilha.jpg": {
+   "base": "fln_001-plaque-tree-on-the-shore-of-ribeir-o-da-ilha",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/fln_001-the-plaque-tree-on-the-shore-of-ribeir-o-da-ilha-2f6e03ed.jpg": {
+   "base": "fln_001-the-plaque-tree-on-the-shore-of-ribeir-o-da-ilha-2f6e03ed",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/fln_002-fig-of-the-hanging-roots-in-coqueiros.jpg": {
+   "base": "fln_002-fig-of-the-hanging-roots-in-coqueiros",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c.jpg": {
+   "base": "fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/5/56/Tilleul_Turenne_%C3%A0_Fontaine_2008_1.jpg": {
    "base": "fte_001-the-turenne-lime",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/fon_001-sequoia-of-the-chateau-lawn.jpg": {
+   "base": "fon_001-sequoia-of-the-chateau-lawn",
    "widths": [
     500
    ]
@@ -3587,6 +3797,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/flt_001-wide-oak-of-fulltofta.jpg": {
+   "base": "flt_001-wide-oak-of-fulltofta",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/e/eb/20150819_155632-old-tjikko.jpg": {
    "base": "ful_001-old-tjikko",
    "widths": [
@@ -3833,6 +4049,12 @@
   },
   "https://ancienttrees.app/photos/gla_005-the-argyle-street-ash-c62d8c77.jpg": {
    "base": "gla_005-the-argyle-street-ash-c62d8c77",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/gla_005-the-argyle-street-ash-dcffbd99.jpg": {
+   "base": "gla_005-the-argyle-street-ash-dcffbd99",
    "widths": [
     500
    ]
@@ -4095,6 +4317,24 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/gwy_001-gwytherin-yews.jpg": {
+   "base": "gwy_001-gwytherin-yews",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/gwy_001-gwytherin-yews-trunk.jpg": {
+   "base": "gwy_001-gwytherin-yews-trunk",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/gwy_001-gwytherin-yews-limbs.jpg": {
+   "base": "gwy_001-gwytherin-yews-limbs",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/2/28/H%C3%A4gerums_ek%2C_juni_2019a.jpg": {
    "base": "hgr_001-h-gerums-ek",
    "widths": [
@@ -4175,6 +4415,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/has_001-oak-of-kiewit.jpg": {
+   "base": "has_001-oak-of-kiewit",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/has_001-the-oak-of-kiewit-65c79ad5.jpg": {
+   "base": "has_001-the-oak-of-kiewit-65c79ad5",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/hat_001-bone-tree-of-hatley.jpg": {
    "base": "hat_001-bone-tree-of-hatley",
    "widths": [
@@ -4191,6 +4443,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/5/51/Old_plane_tree_Terworm_-_panoramio.jpg": {
    "base": "hee_006-the-plane-of-terworm",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hei_001-the-molkenkur-linden-a9759d2d.jpg": {
+   "base": "hei_001-the-molkenkur-linden-a9759d2d",
    "widths": [
     500
    ]
@@ -4251,6 +4509,24 @@
   },
   "https://ancienttrees.app/photos/hil_001-the-oriental-plane-of-landgoed-bantam.jpg": {
    "base": "hil_001-the-oriental-plane-of-landgoed-bantam",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hil_002-the-coronation-lime-of-the-spanderslaan.jpg": {
+   "base": "hil_002-the-coronation-lime-of-the-spanderslaan",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hil_004-the-bernhard-chestnut-of-the-hilvertsweg.jpg": {
+   "base": "hil_004-the-bernhard-chestnut-of-the-hilvertsweg",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hil_005-the-juliana-lime-of-the-hilvertsweg.jpg": {
+   "base": "hil_005-the-juliana-lime-of-the-hilvertsweg",
    "widths": [
     500
    ]
@@ -4403,6 +4679,18 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/4/4a/Horner_Kirche_-_Linde_jh.jpg": {
    "base": "hrn_001-horner-linde",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hrn_002-old-oak-by-the-focke-museum.jpg": {
+   "base": "hrn_002-old-oak-by-the-focke-museum",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/hrn_003-nationalerbe-sequoia-riensberg.jpg": {
+   "base": "hrn_003-nationalerbe-sequoia-riensberg",
    "widths": [
     500
    ]
@@ -4681,6 +4969,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/kdy_002-bodhi-tree-in-the-hillside-shrine.jpg": {
+   "base": "kdy_002-bodhi-tree-in-the-hillside-shrine",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/knk_001-tall-tree-on-the-kanker-forest-track.jpg": {
    "base": "knk_001-tall-tree-on-the-kanker-forest-track",
    "widths": [
@@ -4953,6 +5247,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/kmm_001-great-ginkgo-of-kumamoto-castle.jpg": {
+   "base": "kmm_001-great-ginkgo-of-kumamoto-castle",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/knx_001-hollow-boab-of-rowing-club-road.jpg": {
    "base": "knx_001-hollow-boab-of-rowing-club-road",
    "widths": [
@@ -5207,6 +5507,36 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/e/e7/Horn%C3%AD_Lazy_Past%C3%BD%C5%99sk%C3%BD_buk.jpg": {
    "base": "laz_001-past-sk-buk-shepherd-s-beech",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lpo_001-plane-tree-of-place-saint-seurin.jpg": {
+   "base": "lpo_001-plane-tree-of-place-saint-seurin",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lsp_001-oak-at-the-gate-of-elizabeth-park.jpg": {
+   "base": "lsp_001-oak-at-the-gate-of-elizabeth-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lsp_001-oak-at-the-gate-of-elizabeth-park-from-the-left.jpg": {
+   "base": "lsp_001-oak-at-the-gate-of-elizabeth-park-from-the-left",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lsp_002-redwood-at-the-gate-of-victoria-park-from-the-path.jpg": {
+   "base": "lsp_002-redwood-at-the-gate-of-victoria-park-from-the-path",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lsp_002-redwood-at-the-gate-of-victoria-park.jpg": {
+   "base": "lsp_002-redwood-at-the-gate-of-victoria-park",
    "widths": [
     500
    ]
@@ -5669,6 +5999,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lgy_001-the-llangernyw-yew-a1f47e20.jpg": {
+   "base": "lgy_001-the-llangernyw-yew-a1f47e20",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/b/b5/Llangernyw_yew.jpg": {
    "base": "lgy_001-the-llangernyw-yew",
    "widths": [
@@ -5783,6 +6119,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lon_010-the-evelyn-mulberry-d7c735de.jpg": {
+   "base": "lon_010-the-evelyn-mulberry-d7c735de",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/a/ac/Barney_of_Barn_Elms_plane_tree_2026-05-06.jpg": {
    "base": "lon_008-barney-the-plane",
    "widths": [
@@ -5809,6 +6151,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/0/03/Dorchester_Plane_%281%29.jpg": {
    "base": "lon_013-the-dorchester-plane",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lon_014-the-marylebone-elm.jpg": {
+   "base": "lon_014-the-marylebone-elm",
    "widths": [
     500
    ]
@@ -6269,6 +6617,24 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-89fa82ed.jpg": {
+   "base": "mdr_005-the-witch-tree-of-fanal-89fa82ed",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493.jpg": {
+   "base": "mdr_005-the-witch-tree-of-fanal-bb454493",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-9f5df706.jpg": {
+   "base": "mdr_005-the-witch-tree-of-fanal-9f5df706",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/d/dc/N%C3%BAcleo_dos_Dragoeiros_das_Neves%2C_Funchal%2C_Madeira_-_2012-03-03_-_DSC04664.jpg": {
    "base": "mdr_006-the-dragon-tree-grove-of-neves",
    "widths": [
@@ -6427,6 +6793,12 @@
   },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/155424945/medium.jpeg": {
    "base": "mlc_005-the-alzina-d-en-pere",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mlm_001-weeping-beech-of-magistratsparken.jpg": {
+   "base": "mlm_001-weeping-beech-of-magistratsparken",
    "widths": [
     500
    ]
@@ -6956,6 +7328,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/crf_001-the-survivor-tree.jpg": {
+   "base": "crf_001-the-survivor-tree",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lone_Cypress_Pebble_Beach_%28133242637%29.jpeg": {
    "base": "mty_001-the-lone-cypress",
    "widths": [
@@ -7054,6 +7432,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/a/ae/Zwei_Flatterulmen_Ulmus_laevis_Englischer_Garten_Muenchen-1.jpg": {
    "base": "muc_005-the-twin-elms-of-the-englischer-garten",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/muc_006-the-fern-leaved-beech-c3977a17.jpg": {
+   "base": "muc_006-the-fern-leaved-beech-c3977a17",
    "widths": [
     500
    ]
@@ -7810,6 +8194,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/okv_001-the-heritage-white-oak-of-bronte-creek.jpg": {
+   "base": "okv_001-the-heritage-white-oak-of-bronte-creek",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/5/5e/Grand_Squared_Buddhist_Pine_in_Ogi_Park_1.jpg": {
    "base": "ogi_001-kakumaki-ogi-park",
    "widths": [
@@ -8495,8 +8885,32 @@
     500
    ]
   },
-  "https://inaturalist-open-data.s3.amazonaws.com/photos/104286818/medium.jpg": {
+  "https://ancienttrees.app/photos/pbo_001-giant-sequoia-of-the-orton-hall-avenue.jpg": {
+   "base": "pbo_001-giant-sequoia-of-the-orton-hall-avenue",
+   "widths": [
+    500
+   ]
+  },
+  "https://inaturalist-open-data.s3.amazonaws.com/photos/104286818/large.jpg": {
    "base": "phl_001-bartram-s-ginkgo",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_003-the-katsura-tree-of-morris-arboretum.jpg": {
+   "base": "phl_003-the-katsura-tree-of-morris-arboretum",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_020-the-weeping-european-beech-at-morris-arboretum.jpg": {
+   "base": "phl_020-the-weeping-european-beech-at-morris-arboretum",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_023-sawtooth-oak-of-morris-arboretum.jpg": {
+   "base": "phl_023-sawtooth-oak-of-morris-arboretum",
    "widths": [
     500
    ]
@@ -8925,6 +9339,12 @@
   },
   "https://ancienttrees.app/photos/rsf_001-erler-femeiche.jpg": {
    "base": "rsf_001-erler-femeiche",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/rgs_001-moreton-bay-figs-of-donnafugata-castle-park.jpg": {
+   "base": "rgs_001-moreton-bay-figs-of-donnafugata-castle-park",
    "widths": [
     500
    ]
@@ -9486,6 +9906,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d0a46fec.jpg": {
+   "base": "sal_001-the-hundred-horse-chestnut-d0a46fec",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d88315af.jpg": {
+   "base": "sal_001-the-hundred-horse-chestnut-d88315af",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/6/64/Castagno_Sant%27Agata.jpg": {
    "base": "sal_002-the-ship-s-chestnut",
    "widths": [
@@ -9765,6 +10197,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/sev_009-the-fig-of-the-glorieta-de-goya-2fabeea6.jpg": {
+   "base": "sev_009-the-fig-of-the-glorieta-de-goya-2fabeea6",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/9/98/Glorieta_de_Goya.jpg": {
    "base": "sev_009-the-fig-of-the-glorieta-de-goya",
    "widths": [
@@ -9786,6 +10224,18 @@
   },
   "https://ancienttrees.app/photos/sev_044-the-card-n-of-the-expo-770b668b.jpg": {
    "base": "sev_044-the-card-n-of-the-expo-770b668b",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/sha_001-great-plane-of-zhongshan-park.jpg": {
+   "base": "sha_001-great-plane-of-zhongshan-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/shf_002-vernon-oak.jpg": {
+   "base": "shf_002-vernon-oak",
    "widths": [
     500
    ]
@@ -9834,6 +10284,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/1/1c/Tembusu_tree_at_Lawn_E%2C_Singapore_Botanic_Gardens_20240210_182325.jpg": {
    "base": "sgp_001-the-tembusu-of-lawn-e",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/sgp_002-the-fort-canning-rain-tree-bad6bea5.jpg": {
+   "base": "sgp_002-the-fort-canning-rain-tree-bad6bea5",
    "widths": [
     500
    ]
@@ -10355,6 +10811,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tew_001-great-beech-of-tewkesbury-abbey.jpg": {
+   "base": "tew_001-great-beech-of-tewkesbury-abbey",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/thm_001-st-wolfgang-s-oak-wolfgangseiche.jpg": {
    "base": "thm_001-st-wolfgang-s-oak-wolfgangseiche",
    "widths": [
@@ -10759,6 +11221,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tor_012-weeping-beech-of-the-giardini-reali.jpg": {
+   "base": "tor_012-weeping-beech-of-the-giardini-reali",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/4/46/Kalmin_tammi_26012025_03.jpg": {
    "base": "tku_001-kalm-s-oak",
    "widths": [
@@ -11121,6 +11589,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/vie_016-the-pagoda-tree-of-the-stadtpark-969cecfa.jpg": {
+   "base": "vie_016-the-pagoda-tree-of-the-stadtpark-969cecfa",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/f/f2/Stadtpark_Japanischer_Schnurbaum.jpg": {
    "base": "vie_016-the-pagoda-tree-of-the-stadtpark",
    "widths": [
@@ -11129,6 +11603,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/b/b2/Wien-Alsergrund_-_Naturdenkmal_762_-_Judasbaum_im_Alten_AKH_-_1.jpg": {
    "base": "vie_017-the-judas-tree-of-the-altes-akh",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/vie_023-the-plane-of-dr-karl-lueger-platz-7d61fd79.jpg": {
+   "base": "vie_023-the-plane-of-dr-karl-lueger-platz-7d61fd79",
    "widths": [
     500
    ]
@@ -11159,6 +11639,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/7/70/Naturdenkmal_818_2014-03-20_%2812%29_Wien02_Belvedereallee_Traubeneiche_GuentherZ.JPG": {
    "base": "vie_031-the-sessile-oak-of-belvedereallee",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/vie_037-the-alois-drasche-park-beech.jpg": {
+   "base": "vie_037-the-alois-drasche-park-beech",
    "widths": [
     500
    ]
@@ -11249,6 +11735,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/wai_001-t-ne-mahuta-50bb7c61.jpg": {
+   "base": "wai_001-t-ne-mahuta-50bb7c61",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/wai_001-t-ne-mahuta-d8b996ea.jpg": {
    "base": "wai_001-t-ne-mahuta-d8b996ea",
    "widths": [
@@ -11267,6 +11759,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-ba2053f1.jpg": {
+   "base": "wai_002-te-matua-ngahere-ba2053f1",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/b/b1/%27Father_of_the_Forest%27_Te_Matua_Ngahere.jpg": {
    "base": "wai_002-te-matua-ngahere",
    "widths": [
@@ -11275,6 +11773,18 @@
   },
   "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-ab926a56.jpg": {
    "base": "wai_002-te-matua-ngahere-ab926a56",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-98edec0c.jpg": {
+   "base": "wai_002-te-matua-ngahere-98edec0c",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/wai_002-te-matua-ngahere-403b354b.jpg": {
+   "base": "wai_002-te-matua-ngahere-403b354b",
    "widths": [
     500
    ]
@@ -11787,6 +12297,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/zbg_001-meadow-beech-near-zierenberg.jpg": {
+   "base": "zbg_001-meadow-beech-near-zierenberg",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/8/83/Platan_javorolist%C3%BD%2C_Budat%C3%ADnsk%C3%BD_park%2C_Budat%C3%ADn%2C_%C5%BDilina%2C_okres_%C5%BDilina.jpg": {
    "base": "zil_001-the-plane-tree-of-budat-n-park",
    "widths": [
@@ -11805,6 +12321,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/boz_001-the-linden-of-linn-8e633401.jpg": {
+   "base": "boz_001-the-linden-of-linn-8e633401",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/d/d5/Linde_von_Linn_%28AG%2C_Schweiz%29%2C_M%C3%A4rz_2014.JPG": {
    "base": "boz_001-the-linden-of-linn",
    "widths": [
@@ -11817,6 +12339,30 @@
     500,
     1000,
     1280
+   ]
+  },
+  "https://ancienttrees.app/photos/zwo_002-the-beech-of-the-boschwijk-avenue.jpg": {
+   "base": "zwo_002-the-beech-of-the-boschwijk-avenue",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/zwo_013-the-plane-by-restaurant-urbana.jpg": {
+   "base": "zwo_013-the-plane-by-restaurant-urbana",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/zwo_016-huis-de-paddestoel-s-swamp-cypress.jpg": {
+   "base": "zwo_016-huis-de-paddestoel-s-swamp-cypress",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/zwo_020-the-weeping-beech-of-park-boschwijk.jpg": {
+   "base": "zwo_020-the-weeping-beech-of-park-boschwijk",
+   "widths": [
+    500
    ]
   },
   "https://upload.wikimedia.org/wikipedia/commons/0/0d/D%C4%85b_Franciszek%2C_Park_%C5%BBywiecki%2C_%C5%BBywiec_01.jpg": {

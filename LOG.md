@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22, night run (window from 17:04 UTC), rung 1
+
+- **Live:** a reader's giant sequoia in the gardens of the Château de Fontainebleau is a new place, `fontainebleau/fon_001` (photograph viewed, GPS fix at the tree, nothing in a register or Wikipedia within 300 m, so age, girth and height are stated as unknown). The reader's Argyle Street ash frame for Glasgow was already in that tree's gallery, so nothing changed there.
+- **Left open:** the Amsterdam lead `3c544597` (unsure which of ours, `ams_032` 2650 m away): its photograph was not on this machine, so it was not judged blind; the next reader-judge run takes it. The two open BUG rows in data/code-audit.json were written today by other sessions (app country save, web explore search) and carry a fix or test of their own; not touched.
+- **Prepare:** the shelf is under 60 writable leads (5 ready, 907 one field from a source). No verify pass was dispatched this window; the time went to the reader work. `vendor_photos.py` copied the one new Philadelphia lead photograph onto our own domain.
+- Nothing was refused by the tool list. `health.py` exits 1 for 6 of 12 knocks delivered and the two open BUG rows above.
+
 ## 2026-11-22 reader judge (fifteenth run): a reader's photo leads the Boab Prison Tree, and a reader's 1,500-year estimate goes on its page
 
 Live: a reader's wide October frame of the Boab Prison Tree (der_001, Derby), showing the whole trunk inside its fence with the sign in front, now leads the page, and the earlier reader photo moves to the gallery. Their second upload was the same file and was rejected as a duplicate. The photo's GPS sits 80 km away, so no pin moved (ours is confirmed).
