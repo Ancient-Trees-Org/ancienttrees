@@ -6700,7 +6700,8 @@
    "outcome": "published",
    "date": "2026-11-22",
    "tree_id": "bsv_001",
-   "city_slug": "bagnolo-san-vito"
+   "city_slug": "bagnolo-san-vito",
+   "pin_checked": "2026-11-22"
   },
   "d7c735de-a7f0-4e93-b70a-62161f7918cb": {
    "outcome": "added",

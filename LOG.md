@@ -21,6 +21,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (fourth run): nothing new from readers to publish
+
+- **Feedback 1446** closed `handled`. It is a third copy of the "remove all photos" mail, sent at 12:52, before the 1419 session finished removing them. Every photo is already off and on data/photos-withheld.json. The draft reply still waits for Hidde.
+- No reader trees or photos were waiting. 3c544597 is still our own photo (`mine`), and its file is not on this machine. There are no open reports, and reader_words had nothing to quote.
+- **Unblocked preflight**: the bell commit (f7c623216) read "See all" from `ui()` in Base.astro, and preflight's chrome check only accepts `chrome()` strings, so it failed. The words were already translated, so this was a false positive. `seeAll` now lives in `chrome()` (site/src/lib/ui-strings.ts) with the same eight translations, Base.astro reads `{t.seeAll}`, and what visitors see is unchanged.
+- Also committed the third run's leftover bookkeeping: its willow judgement moved to the top of data/judgements.json, and `pin_checked` was added on the sighting.
+
 ## 2026-11-22 reader judge (third run): a weeping willow near Mantua live, an autumn Evelyn Mulberry in the gallery
 
 - **Live**: the Weeping Willow of Via Dante Alighieri (bagnolo-san-vito/bsv_001), a new one-tree place south-east of Mantua. It's a very wide willow whose curtain of shoots falls almost to the grass. The photo was taken about 3 m from a public lane (OpenStreetMap), so it ships with an honest access line: the ground is private and the tree is seen from the road. The reader gave no note or figures, so the story claims no age. The photo is filed in May, from its own date.

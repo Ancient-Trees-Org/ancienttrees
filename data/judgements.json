@@ -1208,6 +1208,18 @@
    "agreed": null
   },
   {
+   "id": "sight:f22530ff-c15b-4e83-8afe-2320d295db24",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Weeping Willow",
+   "photo": "p_b0c76ee5cc71345251a28fed/F22530FF-C15B-4E83-8AFE-2320D295DB24.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole weeping willow from a gravel drive beside Via Dante Alighieri, its curtain of shoots almost to the grass, overcast daylight, colour. Private ground seen from the lane. Live as bagnolo-san-vito/bsv_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -23704,18 +23716,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f22530ff-c15b-4e83-8afe-2320d295db24",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Weeping Willow",
-   "photo": "p_b0c76ee5cc71345251a28fed/F22530FF-C15B-4E83-8AFE-2320D295DB24.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole weeping willow from a gravel drive beside Via Dante Alighieri, its curtain of shoots almost to the grass, overcast daylight, colour. Private ground seen from the lane. Live as bagnolo-san-vito/bsv_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

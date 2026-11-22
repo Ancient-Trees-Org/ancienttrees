@@ -36,6 +36,7 @@ export interface UiStrings {
   theApp: string;
   account: string;
   activity: string;
+  seeAll: string;
   menu: string;
   /** The header's search button and its field (2026-10-12). */
   search: string;
@@ -92,7 +93,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Collections", yours: "Yours", savedTrees: "My trees",
     yourAccount: "Settings", suggestTree: "Suggest a tree",
     sponsor: "Sponsor this project", getApp: "Download the app", theApp: "The app",
-    account: "Account", activity: "Activity", search: "Search", searchPlaceholder: "Search a city or tree", back: "Back", menu: "Menu", support: "Support", privacy: "Privacy",
+    account: "Account", activity: "Activity", seeAll: "See all", search: "Search", searchPlaceholder: "Search a city or tree", back: "Back", menu: "Menu", support: "Support", privacy: "Privacy",
     terms: "Terms",
     takePart: "Take part", signIn: "Sign in", close: "Close",
     sources: "Sources",
@@ -108,7 +109,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Colecciones", yours: "Tu perfil", savedTrees: "Mis árboles",
     yourAccount: "Ajustes", suggestTree: "Propón un árbol",
     sponsor: "Apoya este proyecto", getApp: "Descarga la app", theApp: "La app",
-    account: "Cuenta", activity: "Actividad", search: "Buscar", searchPlaceholder: "Busca una ciudad o un árbol", back: "Atrás", menu: "Menú", support: "Ayuda", privacy: "Privacidad",
+    account: "Cuenta", activity: "Actividad", seeAll: "Ver todo", search: "Buscar", searchPlaceholder: "Busca una ciudad o un árbol", back: "Atrás", menu: "Menú", support: "Ayuda", privacy: "Privacidad",
     terms: "Términos",
     takePart: "Participa", signIn: "Iniciar sesión", close: "Cerrar",
     sources: "Fuentes",
@@ -124,7 +125,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Collezioni", yours: "Il tuo profilo", savedTrees: "I miei alberi",
     yourAccount: "Impostazioni", suggestTree: "Segnala un albero",
     sponsor: "Sostieni il progetto", getApp: "Scarica l'app", theApp: "L'app",
-    account: "Account", activity: "Attività", search: "Cerca", searchPlaceholder: "Cerca una città o un albero", back: "Indietro", menu: "Menu", support: "Assistenza", privacy: "Privacy",
+    account: "Account", activity: "Attività", seeAll: "Vedi tutti", search: "Cerca", searchPlaceholder: "Cerca una città o un albero", back: "Indietro", menu: "Menu", support: "Assistenza", privacy: "Privacy",
     terms: "Termini",
     takePart: "Partecipa", signIn: "Accedi", close: "Chiudi",
     sources: "Fonti",
@@ -140,7 +141,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Collecties", yours: "Jouw profiel", savedTrees: "Mijn bomen",
     yourAccount: "Instellingen", suggestTree: "Boom aandragen",
     sponsor: "Steun dit project", getApp: "Download de app", theApp: "De app",
-    account: "Account", activity: "Activiteit", search: "Zoeken", searchPlaceholder: "Zoek een stad of boom", back: "Terug", menu: "Menu", support: "Hulp", privacy: "Privacy",
+    account: "Account", activity: "Activiteit", seeAll: "Alles bekijken", search: "Zoeken", searchPlaceholder: "Zoek een stad of boom", back: "Terug", menu: "Menu", support: "Hulp", privacy: "Privacy",
     terms: "Voorwaarden",
     takePart: "Doe mee", signIn: "Inloggen", close: "Sluiten",
     sources: "Bronnen",
@@ -156,7 +157,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Sammlungen", yours: "Dein Profil", savedTrees: "Meine Bäume",
     yourAccount: "Einstellungen", suggestTree: "Baum vorschlagen",
     sponsor: "Projekt unterstützen", getApp: "App laden", theApp: "Die App",
-    account: "Konto", activity: "Aktivität", search: "Suchen", searchPlaceholder: "Suche eine Stadt oder einen Baum", back: "Zurück", menu: "Menü", support: "Hilfe", privacy: "Datenschutz",
+    account: "Konto", activity: "Aktivität", seeAll: "Alle ansehen", search: "Suchen", searchPlaceholder: "Suche eine Stadt oder einen Baum", back: "Zurück", menu: "Menü", support: "Hilfe", privacy: "Datenschutz",
     terms: "AGB",
     takePart: "Mitmachen", signIn: "Anmelden", close: "Schließen",
     sources: "Quellen",
@@ -172,7 +173,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Coleções", yours: "O teu perfil", savedTrees: "As minhas árvores",
     yourAccount: "Definições", suggestTree: "Sugerir uma árvore",
     sponsor: "Apoiar o projeto", getApp: "Obter a app", theApp: "A app",
-    account: "Conta", activity: "Atividade", search: "Pesquisar", searchPlaceholder: "Pesquise uma cidade ou árvore", back: "Voltar", menu: "Menu", support: "Ajuda", privacy: "Privacidade",
+    account: "Conta", activity: "Atividade", seeAll: "Ver tudo", search: "Pesquisar", searchPlaceholder: "Pesquise uma cidade ou árvore", back: "Voltar", menu: "Menu", support: "Ajuda", privacy: "Privacidade",
     terms: "Termos",
     takePart: "Participa", signIn: "Iniciar sessão", close: "Fechar",
     sources: "Fontes",
@@ -188,7 +189,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "Collections", yours: "Votre profil", savedTrees: "Mes arbres",
     yourAccount: "Paramètres", suggestTree: "Proposer un arbre",
     sponsor: "Soutenir le projet", getApp: "Télécharger l'app", theApp: "L'app",
-    account: "Compte", activity: "Activité", search: "Rechercher", searchPlaceholder: "Rechercher une ville ou un arbre", back: "Retour", menu: "Menu", support: "Aide", privacy: "Confidentialité",
+    account: "Compte", activity: "Activité", seeAll: "Tout voir", search: "Rechercher", searchPlaceholder: "Rechercher une ville ou un arbre", back: "Retour", menu: "Menu", support: "Aide", privacy: "Confidentialité",
     terms: "Conditions",
     takePart: "Participer", signIn: "Se connecter", close: "Fermer",
     sources: "Sources",
@@ -204,7 +205,7 @@ export const UI: Record<Lang, UiStrings> = {
     collections: "コレクション", yours: "マイページ", savedTrees: "自分の木",
     yourAccount: "設定", suggestTree: "木を教える",
     sponsor: "このプロジェクトを支援", getApp: "アプリを入手", theApp: "アプリ",
-    account: "アカウント", activity: "アクティビティ", search: "検索", searchPlaceholder: "都市や木を検索", back: "戻る", menu: "メニュー", support: "ヘルプ", privacy: "プライバシー",
+    account: "アカウント", activity: "アクティビティ", seeAll: "すべて見る", search: "検索", searchPlaceholder: "都市や木を検索", back: "戻る", menu: "メニュー", support: "ヘルプ", privacy: "プライバシー",
     terms: "利用規約",
     takePart: "参加する", signIn: "ログイン", close: "閉じる",
     sources: "出典",
