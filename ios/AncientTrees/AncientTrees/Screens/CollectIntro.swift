@@ -78,8 +78,12 @@ struct CollectIntro: View {
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
                 .padding(.horizontal, 18)
-            Text(addsPhoto ? "Your photograph goes on this tree's page."
-                 : "Photograph a tree you are standing in front of and add it to your collection.")
+            // Says the photo goes public, on the one sheet every upload passes
+            // (Hidde, 2026-11-22, after a reader who added holiday photos
+            // asked for them all to come down: "Add a tree" only said "your
+            // collection"). "Share" carries it, as on Google Maps and Instagram.
+            Text(addsPhoto ? "Share your photo on this tree's page."
+                 : "Photograph a tree to add it to your collection and share it on the map.")
                 .font(.system(size: 15))
                 .foregroundStyle(Brand.inkSoft)
                 .multilineTextAlignment(.center)

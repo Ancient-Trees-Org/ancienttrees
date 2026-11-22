@@ -3,8 +3,8 @@
     <string name="cf_add_photo">写真を追加</string>
     <string name="cf_add_tree">木を追加</string>
     <string name="cf_add_this_tree">この木を追加</string>
-    <string name="cf_intro_photo">あなたの写真はこの木のページに載ります。</string>
-    <string name="cf_intro">目の前の木を撮影して、コレクションに加えましょう。</string>
+    <string name="cf_intro_photo">この木のページで写真を共有しましょう。</string>
+    <string name="cf_intro">木を撮影してコレクションに加え、地図で共有しましょう。</string>
     <string name="cf_take">写真を撮る</string>
     <string name="cf_choose">写真から選ぶ</string>
     <string name="cf_discard_title">この木を破棄しますか？</string>

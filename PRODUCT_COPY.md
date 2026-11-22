@@ -101,6 +101,15 @@ Hidde, 2026-09-26, on the settings footer that read "3,375 trees, updated whenev
 
 **No line that explains what the screen already shows** (Hidde, 2026-11-03, on "Its flag shows after your name." under the country picker: "less is more ... stop putting random sentences when unnecessary"). A footnote that says what a control does, where its result appears, or who sees it, when the person will see that for themselves, is noise. Removed that day from Edit profile on app and web, with the picture's "People who follow you see it beside your name." and the name's "Any name you like. It does not have to be your real one." (Hidde: "unnecessary" too). The default is no footnote at all.
 
+## Saying something goes public: "share", not a warning
+
+Hidde, 2026-11-22, on "Photograph a tree and add it to your collection. Everyone can see your photo on its page.": "doesnt feel like the smoothest copy". A second sentence that announces who can see it reads as a warning bolted onto an invitation.
+
+> bad **Photograph a tree and add it to your collection. Everyone can see your photo on its page.**
+> good **Photograph a tree to add it to your collection and share it on the map.**
+
+The verb "share" says it is public inside the one sentence, the way Google Maps and Instagram do.
+
 ## An option in a choice is a label, not a pitch
 
 Hidde, 2026-11-04, on the Plus question where each option carried a sentence ("City guides: only a weekend in a city? The three walks that take you past its best trees."): "je omschrijving is echt veel te fucking lang ... gaat hij dit allemaal lezen?"
