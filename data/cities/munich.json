@@ -310,13 +310,17 @@
       "access": "Free, public park",
       "transport": "10 min walk from Chinesischer Turm bus stop",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Farnblaettrige_Buche_Englischer_Garten_Muenchen-1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Peterf, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/muc_006-the-fern-leaved-beech-c3977a17.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4050,
-        "height": 3615,
-        "taken_month": 10
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_21d7ce197280a385f71075e3",
+        "sighting_id": "c3977a17-feb2-4a51-bd10-3648dd1b1ce2",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The trunk seen from the east bank of the Schwabinger Bach, bare in November, benches on the path beside it; the same straight stem with one big limb leaning off low as in the Commons photograph from the other side. Unique reader photo, a clean frame. Species seen: beech: smooth grey bark, fine twiggy bare crown; the cut leaves cannot be seen in winter. Fits the description: a single tall beech on the west bank of the stream in the Englischer Garten, one main stem with a big leaning second stem, benches beside it, matching the existing photograph's trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Protected for rarity of form rather than age; no source gives a planting date or age estimate, so the age range here is a rough guess based on trunk girth rather than a documented figure, flagged accordingly. Photo viewed directly: shows a large dome-shaped beech with a finely textured autumn canopy in a park setting with benches beneath it, consistent with a protected specimen beech. Approved. Pin corrected 2026-07-27, about 1.4km, using German Wikipedia's Naturdenkmäler list coordinates (see muc_005 for the independent Monopteros cross-check that validated this same table for its immediate neighbour).",
@@ -327,7 +331,18 @@
         "name": "Naturdenkmal (Landeshauptstadt München, LfU Bayern), no. ND-01950",
         "url": null
       },
-      "girth_cm": 367
+      "girth_cm": 367,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Farnblaettrige_Buche_Englischer_Garten_Muenchen-1.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Peterf, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4050,
+          "height": 3615,
+          "taken_month": 10
+        }
+      ]
     },
     {
       "id": "muc_007",

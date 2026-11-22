@@ -6519,6 +6519,45 @@
   "803eb2f3-6367-4d67-befe-146a0b5d262d": {
    "outcome": "published",
    "date": "2026-11-22"
+  },
+  "e8b95c9a-fdf5-4c65-abfd-c2b86fbb5ad4": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "ant_001",
+   "city_slug": "antwerp",
+   "file": "ant_001-the-copper-beech-of-sint-willibrorduskerk.jpg",
+   "reason": "The tree fills the frame in low November sun: a huge copper beech in the small paved square beside the church, its trunk inside a low stone-and-iron railing. The tree had no photograph. Species seen: beech: smooth grey trunk, broad dome crown, copper-brown leaves still hanging. Fits the description:",
+   "lat": 51.192658,
+   "lon": 4.420416,
+   "pin_checked": "2026-11-22"
+  },
+  "c3977a17-feb2-4a51-bd10-3648dd1b1ce2": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "muc_006",
+   "city_slug": "munich",
+   "file": "muc_006-the-fern-leaved-beech-c3977a17.jpg",
+   "reason": "The trunk seen from the east bank of the Schwabinger Bach, bare in November, benches on the path beside it; the same straight stem with one big limb leaning off low as in the Commons photograph from the other side. Unique reader photo, a clean frame. Species seen: beech: smooth grey bark, fine twigg",
+   "lat": 48.1510040396824,
+   "lon": 11.5918127540499,
+   "pin_checked": "2026-11-22"
+  },
+  "3210008a-b498-4029-9452-a9f5cf11c1ad": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "muc_006",
+   "reason": "Duplicate: the same reader's wider shot of the same trunk minutes apart, from the same bank; the closer frame (c3977a17) goes on the page."
+  },
+  "ecbf8b3f-ba6e-46a1-a985-cee9151f2428": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "ams_002",
+   "city_slug": "amsterdam",
+   "file": "ams_002-the-leidsebosje-planes-ecbf8b3f.jpg",
+   "reason": "The Leidsebosje planes from across the tram tracks, sun through the crowns and the kiosks behind; plainly these trees but backlit with wires across the sky, so it goes in the strip behind the reader's lead photograph. Species seen: plane: mottled trunks, broad maple-like leaves yellowing. Fits the d",
+   "lat": 52.36250545,
+   "lon": 4.8810195,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

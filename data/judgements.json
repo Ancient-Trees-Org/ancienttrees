@@ -668,6 +668,94 @@
    "agreed": null
   },
   {
+   "id": "sight:e8b95c9a-fdf5-4c65-abfd-c2b86fbb5ad4",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Copper Beech of Sint-Willibrorduskerk",
+   "city": "Antwerp",
+   "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+   "photo": "out/sightings/e8b95c9a-fdf5-4c65-abfd-c2b86fbb5ad4.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech (Fagus sylvatica f. purpurea)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph for ant_001, which had none: the huge copper beech fills the frame in its little square by the church, low November sun, copper leaves still on.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3210008a-b498-4029-9452-a9f5cf11c1ad",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fern-leaved Beech",
+   "city": "Munich",
+   "species": "Fern-leaved Beech (Fagus sylvatica f. asplenifolia)",
+   "photo": "out/sightings/3210008a-b498-4029-9452-a9f5cf11c1ad.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 153,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fern-leaved Beech (Fagus sylvatica f. asplenifolia)"
+   },
+   "verdict": "hold",
+   "reason": "Not used: a wider duplicate of the same reader's shot of muc_006 taken minutes apart; the closer frame went on the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c3977a17-feb2-4a51-bd10-3648dd1b1ce2",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fern-leaved Beech",
+   "city": "Munich",
+   "species": "Fern-leaved Beech (Fagus sylvatica f. asplenifolia)",
+   "photo": "out/sightings/c3977a17-feb2-4a51-bd10-3648dd1b1ce2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 34,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fern-leaved Beech (Fagus sylvatica f. asplenifolia)"
+   },
+   "verdict": "publish",
+   "reason": "New lead photograph for muc_006 (the Commons shot moves to the strip): the same trunk with its low leaning limb, seen bare from across the Schwabinger Bach.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ecbf8b3f-ba6e-46a1-a985-cee9151f2428",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Leidsebosje Planes",
+   "city": "Amsterdam",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/ecbf8b3f-ba6e-46a1-a985-cee9151f2428.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Into the strip of ams_002 behind the reader's lead: the Leidsebosje planes backlit from across the tram tracks.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

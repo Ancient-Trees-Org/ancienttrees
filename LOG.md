@@ -21,6 +21,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: the Antwerp copper beech gets its first photograph
+
+- **Antwerp, ant_001** (The Copper Beech of Sint-Willibrorduskerk): a reader's photograph from the website is now its lead, the first picture the tree has had. It shows the whole beech filling its little square in low November sun.
+- **Munich, muc_006** (The Fern-leaved Beech): a reader's photograph is the new lead and the Commons one moves to the strip. It shows the trunk bare, from across the Schwabinger Bach, and matches the Commons trunk from the other side. A second, wider shot by the same person minutes earlier was rejected as a duplicate.
+- **Amsterdam, ams_002** (Leidsebosje Planes): a reader's backlit shot goes in the strip behind the reader's photograph that already leads.
+- All three are filed under November (`taken_month` 11). Readers were mailed through sightings_publish.py --send.
+- Notes: I read 12 new tree notes and hid none. A Bristol note gives OS grid reference ST 55327 75129 for bri_015, which converts to 12 m from its confirmed GPS pin, so the pin stays.
+- Nothing else waiting: 0 open reports, 0 tips, 0 feedback without a verdict, 0 words to quote. The 37 older waiting leads in _sightings.json are all our own account's test photographs with no file on this runner, which fetch_waiting_photos.py skips. 3c544597 (Amsterdam, near ams_032) is one of them; I did not judge it because it has no file.
+
 ## 2026-11-22 session: inbox replies, and every new ambassador now gets the ambassador mail
 
 - **Product**: a badge given through `ambassador.py --grant` (a reader's yes by mail, the reader judge's route) gave no mail at all; only the app's button sent "Looking after <place>". Now `--grant ... --send` sends that standard mail once per person, and a place with one tree gets it without "check the list / remove" (`request_mail()`). BRIEF_READER_JUDGE.md says `--send`. Catch-up `--welcome-missing` found three who never had it and mailed them on Hidde's word: Joanna (Leamington Spa), Teresa (Laténa), David (Castlemaine). The one-line ask under the congratulation mail no longer counts as that mail.
