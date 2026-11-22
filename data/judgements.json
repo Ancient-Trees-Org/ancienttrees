@@ -1480,13 +1480,147 @@
    "agreed": null
   },
   {
-   "id": "sight:2fabeea6-e1e1-49fb-aba4-07fddea81246",
+   "id": "sight:8e633401-7b56-4592-ae53-0f35da4fcb7a",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
-   "tree": "The Fig of the Glorieta de Goya",
-   "city": "Seville",
-   "species": "Moreton Bay Fig (Ficus macrophylla)",
-   "photo": "out/sightings/2fabeea6-e1e1-49fb-aba4-07fddea81246.jpg",
+   "tree": "The Linden of Linn",
+   "city": "Zurich",
+   "species": "Large-leaved Lime (Tilia platyphyllos)",
+   "photo": "https://ancienttrees.app/photos/boz_001-the-linden-of-linn-8e633401.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "The Linden of Linn whole in August leaf, benches round its foot, by the road at the village edge; added as the lead photograph, filed in summer",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:eaaa1074-cc85-4770-a25f-1f2f7b6d6dbf",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Linden of Linn",
+   "city": "Zurich",
+   "species": "Large-leaved Lime (Tilia platyphyllos)",
+   "photo": "out/sightings/eaaa1074-cc85-4770-a25f-1f2f7b6d6dbf.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Duplicate of 8e633401, the same frame sent twice by the same reader; the other copy is on the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e5a801bf-b473-40d2-8796-3747acdbe016",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Redford Wood Redwood",
+   "city": "Edinburgh",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/e5a801bf-b473-40d2-8796-3747acdbe016.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5956,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected: a photograph of a framed print of a fallen log with stone art, taken in central Edinburgh 6 km from Redford Wood, plus a small maple in a rock garden; neither is the redwood.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Torna Hällestad",
+   "city": null,
+   "species": null,
+   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "A broad veteran oak, bare in November, long level limbs over young birches, at the edge of a wood near Fulltofta, Hörby; photo GPS. Live as fulltofta/flt_001, Oak (Quercus sp.).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1463",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Unknown Tree",
+   "city": "Andaman Island",
+   "species": null,
+   "photo": "p_fc3f7e1848340d7730f9be1b/dc10337e-23ef-45c9-bb61-424251b41da8.jpg",
+   "reader_note": "Old Huge , high, Big trunk",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "no_location: a huge buttressed rainforest trunk worth a page, but only 'Andaman Island' given and no location in the photo; standard reply asks where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Torna Hällestad",
+   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a broad bare oak against a blue sky, long crooked level limbs over young birches on a scrubby bank, daylight, colour; taken at Fulltofta, Hörby. Live as fulltofta/flt_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2f6e03ed-e150-4ecf-b68a-c52313d2c6b5",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Plaque Tree on the Shore of Ribeirão da Ilha",
+   "city": "Florianópolis",
+   "species": "False Kamani (Terminalia catappa)",
+   "photo": "out/sightings/2f6e03ed-e150-4ecf-b68a-c52313d2c6b5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about False Kamani (Terminalia catappa)"
+   },
+   "verdict": "publish",
+   "reason": "The tree's own hand-burnt plaque 'A arvore que fala' on its burred trunk, false kamani leaves above: in the gallery of florianopolis/fln_001 behind the dusk lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1eefef4c-ae9c-4f79-ac36-91fb08061476",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig of the Hanging Roots in Coqueiros",
+   "city": "Florianópolis",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/1eefef4c-ae9c-4f79-ac36-91fb08061476.jpg",
    "reader_note": "",
    "reader_girth_cm": null,
    "match": "app",
@@ -1494,10 +1628,137 @@
    "current_photo": "approved",
    "measure": {
     "score": null,
-    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+    "note": "nothing measurable about Fig (Ficus sp.)"
    },
-   "verdict": "publish",
-   "reason": "Photograph viewed: the whole Moreton Bay fig in its railed round bed in the Glorieta de Goya, crown complete; same setting as the Commons lead. Now the lead photo of seville/sev_009, Commons moved to the strip.",
+   "verdict": "hold",
+   "reason": "Duplicate: the same reader's same upward shot into the fig's crown that already leads florianopolis/fln_002; rejected, nothing new for the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c9139a4e-9e9a-4065-8dd9-865527b71c83",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Banyan by the Arcades",
+   "city": "Delhi",
+   "species": "Indian Banyan (Ficus benghalensis)",
+   "photo": "out/sightings/c9139a4e-9e9a-4065-8dd9-865527b71c83.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan (Ficus benghalensis)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same frame that already leads delhi/dlh_002 (Banyan by the Arcades), sent again under a second id; rejected.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:afbeedb0-236e-42cc-814b-b8aa7ab6fabb",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Peepal on the Plinth",
+   "city": "Delhi",
+   "species": "Bodhi Tree (Ficus religiosa)",
+   "photo": "out/sightings/afbeedb0-236e-42cc-814b-b8aa7ab6fabb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bodhi Tree (Ficus religiosa)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same frame that already leads delhi/dlh_001 (Peepal on the Plinth), sent again under a second id; rejected.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2f66b206-9ece-4aff-9bb8-0ae799968efb",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Bad Homburg",
+   "city": null,
+   "species": null,
+   "photo": "p_b9fc85a912a6ec8808c306b0/2F66B206-9ECE-4AFF-9BB8-0AE799968EFB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "dead: the photograph shows felled oak logs cut in sections and spray-marked for sale in a beech wood near Bad Homburg, no standing tree to walk to. No mail under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d281addd-4fa0-40e8-aaef-e25205565573",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Figueira de duas pernas",
+   "city": null,
+   "species": "Fig",
+   "photo": "p_02edf756ac8c1a596232f1a1/D281ADDD-4FA0-40E8-AAEF-E25205565573.jpg",
+   "reader_note": "Uma figueira que parece um guardião no caminho das cachaçarias do ribeirão da ilha",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig"
+   },
+   "verdict": "hold",
+   "reason": "not_theirs: a screenshot of Google Maps Street View (Feb 2026) of a tall split-trunk fig on a lane in Ribeirao da Ilha, hand-placed pin. The standard friendly mail asks for their own photo, which would put it live.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1468",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "C9139A4E-9E9A-4065-8DD9-865527B71C83",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row to sighting c9139a4e, itself a resend of the photo leading delhi/dlh_002; no words, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1469",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "AFBEEDB0-236E-42CC-814B-B8AA7AB6FABB",
+   "city": "Delhi",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "Duplicate: the app's companion row to sighting afbeedb0, itself a resend of the photo leading delhi/dlh_001; no words, nothing to add.",
    "hidde": null,
    "agreed": null
   },
@@ -23998,143 +24259,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:8e633401-7b56-4592-ae53-0f35da4fcb7a",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Linden of Linn",
-   "city": "Zurich",
-   "species": "Large-leaved Lime (Tilia platyphyllos)",
-   "photo": "https://ancienttrees.app/photos/boz_001-the-linden-of-linn-8e633401.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "The Linden of Linn whole in August leaf, benches round its foot, by the road at the village edge; added as the lead photograph, filed in summer",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:eaaa1074-cc85-4770-a25f-1f2f7b6d6dbf",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Linden of Linn",
-   "city": "Zurich",
-   "species": "Large-leaved Lime (Tilia platyphyllos)",
-   "photo": "out/sightings/eaaa1074-cc85-4770-a25f-1f2f7b6d6dbf.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "Duplicate of 8e633401, the same frame sent twice by the same reader; the other copy is on the page",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:e5a801bf-b473-40d2-8796-3747acdbe016",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Redford Wood Redwood",
-   "city": "Edinburgh",
-   "species": "Giant Sequoia (Sequoiadendron giganteum)",
-   "photo": "out/sightings/e5a801bf-b473-40d2-8796-3747acdbe016.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 5956,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
-   },
-   "verdict": "hold",
-   "reason": "Rejected: a photograph of a framed print of a fallen log with stone art, taken in central Edinburgh 6 km from Redford Wood, plus a small maple in a rock garden; neither is the redwood.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "A tree near Torna Hällestad",
-   "city": null,
-   "species": null,
-   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "publish",
-   "reason": "A broad veteran oak, bare in November, long level limbs over young birches, at the edge of a wood near Fulltofta, Hörby; photo GPS. Live as fulltofta/flt_001, Oak (Quercus sp.).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:tip-1463",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Unknown Tree",
-   "city": "Andaman Island",
-   "species": null,
-   "photo": "p_fc3f7e1848340d7730f9be1b/dc10337e-23ef-45c9-bb61-424251b41da8.jpg",
-   "reader_note": "Old Huge , high, Big trunk",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "no_location: a huge buttressed rainforest trunk worth a page, but only 'Andaman Island' given and no location in the photo; standard reply asks where it stands.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "A tree near Torna Hällestad",
-   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: a broad bare oak against a blue sky, long crooked level limbs over young birches on a scrubby bank, daylight, colour; taken at Fulltofta, Hörby. Live as fulltofta/flt_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:2f66b206-9ece-4aff-9bb8-0ae799968efb",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "A tree in Bad Homburg",
-   "city": null,
-   "species": null,
-   "photo": "p_b9fc85a912a6ec8808c306b0/2F66B206-9ECE-4AFF-9BB8-0AE799968EFB.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
-   "verdict": "hold",
-   "reason": "Looked at: felled timber, sawn sections of a big trunk lying in a beech wood with paint marks. A cut, fallen trunk: held as dead, no mail.",
    "hidde": null,
    "agreed": null
   }

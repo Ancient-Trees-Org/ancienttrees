@@ -65,7 +65,22 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole tree at dusk on a paved waterfront point, a massive twisted trunk with plaques fixed to it and limbs reaching out over the water, a man standing at its foot for scale, the bay and hills behind, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 7,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/fln_001-the-plaque-tree-on-the-shore-of-ribeir-o-da-ilha-2f6e03ed.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 7,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "2f6e03ed-e150-4ecf-b68a-c52313d2c6b5",
+          "note": "Photographed by a reader and sent through the app (2022-07-10); a viewing pass approved it on 2026-11-22: Looking up the trunk of the shore tree at its plaque, hand-burnt 'A ARVORE QUE FALA', a big lichened burr behind it, the broad leaves of a false kamani above with a few turning red; the tree's own sign, so it belongs in the gallery behind the wide dusk lead, not in front of it. Species seen: large obovate leaves clustered at the twig tips, some turning red, flaking dark bark: Terminalia catappa. Fits the description: a massive twisted dark trunk with a plaque fixed to it, as the recognition line says (two plaques).. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "fln_002",

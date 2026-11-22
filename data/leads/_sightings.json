@@ -10054,9 +10054,42 @@
     "nearest": []
    },
    "status": "held",
-   "why": "Photograph viewed 2026-11-22: felled timber, several sawn sections of a big conifer trunk lying on the forest floor with paint marks on the cut ends, beech wood behind. A fallen, cut trunk, not a standing tree (closed list: dead). No mail.",
+   "why": "The photograph shows felled timber, not a standing tree: big oak logs cut into sections and spray-marked for sale ('Volk', blue crosses) on the leaf litter of a beech wood near Bad Homburg. A fallen trunk under the closed list; nothing standing to walk to.",
    "seen": "2026-11-22",
    "hold": "dead",
+   "judged": "2026-11-22"
+  },
+  {
+   "sighting_id": "d281addd-4fa0-40e8-aaef-e25205565573",
+   "user_id": "p_02edf756ac8c1a596232f1a1",
+   "mine": false,
+   "name": "Figueira de duas pernas",
+   "unsure_among": null,
+   "species": "Fig",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Uma figueira que parece um guardião no caminho das cachaçarias do ribeirão da ilha",
+   "latitude": -27.7636173797323,
+   "longitude": -48.5304467787414,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_02edf756ac8c1a596232f1a1/D281ADDD-4FA0-40E8-AAEF-E25205565573.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "The picture is a screenshot of Google Maps Street View (February 2026, the Maps sheet 'Figueira de duas pernas' below it), not a photograph the reader took: a tall fig with a split lower trunk and bromeliads on its limbs beside a lane on the way to the cachacarias of Ribeirao da Ilha. Hand-placed pin. Their own photo would put it live.",
+   "seen": "2026-11-22",
+   "hold": "not_theirs",
    "judged": "2026-11-22"
   }
  ]

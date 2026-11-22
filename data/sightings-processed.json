@@ -6785,6 +6785,39 @@
   "2f66b206-9ece-4aff-9bb8-0ae799968efb": {
    "outcome": "held",
    "date": "2026-11-22"
+  },
+  "d281addd-4fa0-40e8-aaef-e25205565573": {
+   "outcome": "held",
+   "date": "2026-11-22"
+  },
+  "2f6e03ed-e150-4ecf-b68a-c52313d2c6b5": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "fln_001",
+   "city_slug": "florianopolis",
+   "file": "fln_001-the-plaque-tree-on-the-shore-of-ribeir-o-da-ilha-2f6e03ed.jpg",
+   "reason": "Looking up the trunk of the shore tree at its plaque, hand-burnt 'A ARVORE QUE FALA', a big lichened burr behind it, the broad leaves of a false kamani above with a few turning red; the tree's own sign, so it belongs in the gallery behind the wide dusk lead, not in front of it. Species seen: large o",
+   "lat": -27.7172916666667,
+   "lon": -48.56392,
+   "pin_checked": "2026-11-22"
+  },
+  "1eefef4c-ae9c-4f79-ac36-91fb08061476": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "fln_002",
+   "reason": "Duplicate: the same reader's same upward shot into the fig's crown and hanging roots as the lead photograph (its second extra is the lead's file itself, the first a third take of the same view); nothing new for the page."
+  },
+  "c9139a4e-9e9a-4065-8dd9-865527b71c83": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "dlh_002",
+   "reason": "Duplicate: pixel for pixel the photograph that already leads the Banyan by the Arcades (sent again under a second sighting id the same day)."
+  },
+  "afbeedb0-236e-42cc-814b-b8aa7ab6fabb": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "dlh_001",
+   "reason": "Duplicate: the same frame as the photograph that already leads the Peepal on the Plinth (sent again under a second sighting id the same day)."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

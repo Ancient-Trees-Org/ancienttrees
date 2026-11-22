@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (eleventh run): the talking tree's plaque in the Ribeirão gallery, the Street View fig held
+
+Live: a reader's photo of the hand-burnt plaque "A árvore que fala" on the trunk of the Plaque Tree on the Shore of Ribeirão da Ilha (florianopolis/fln_001) goes in its gallery behind the dusk lead (July, from the photo's own date).
+Held: the Figueira de duas pernas in Ribeirão da Ilha (1467) is a Google Street View screenshot (`not_theirs`); the standard friendly reply asking for their own photo goes at the next knock.
+Rejected as duplicates: second copies of the photos that already lead the two Delhi trees (dlh_001, dlh_002; their companion rows 1468 and 1469 too), and a repeat of the upward shot that leads the Coqueiros fig (fln_002).
+Breakage, caught at the rebase: this run also held the Bad Homburg logs as `dead`, as the tenth run below had already done; same verdict, the rebase kept one entry each. The merge left judgements.json with duplicate ids from both runs, including one already on main (2fabeea6); deduped, keeping the entry with a verdict.
+Left: queue item 3c544597 (Amsterdam, `mine`) still has no photograph on disk. sightings_publish's pin step could not read coordinates (HTTPError); fln_001's pin came from the reader's own photo GPS the same day and the new photo stands 5 m from it, so nothing needed moving.
+
 ## 2026-11-22 reader judge (tenth run): the Bad Homburg felled trunk held, the Coqueiros fig's pin moved
 
 Held: the Bad Homburg sighting (2f66b206), sawn sections of a felled trunk lying in a beech wood, held as `dead` with no mail.

@@ -3028,6 +3028,21 @@
     }
    ],
    "sent": []
+  },
+  "p_02edf756ac8c1a596232f1a1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "2f6e03ed-e150-4ecf-b68a-c52313d2c6b5",
+     "tree_id": "fln_001",
+     "tree_name": "The Plaque Tree on the Shore of Ribeirão da Ilha",
+     "city": "Florianópolis",
+     "city_slug": "florianopolis",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
