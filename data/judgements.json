@@ -422,8 +422,11 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same picture as 3b40b69a, sent twice for the same tree.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:dd50d6ca-cbed-40f2-85e5-d670600373c4",
@@ -1646,8 +1649,11 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "Only a coordinate (from a photograph that has not reached the server yet) in Nichinan, Tottori; no name or note, no register entry or article near it. Kept in data/leads/nichinan-tottori.json; judged again from the photograph when the sighting arrives.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:a9759d2d-4122-4d95-bb74-edbf65865996",
@@ -1711,8 +1717,11 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "A coordinate from the app (GPS at the tree, near Dunsfold) whose photograph has not reached the server; no name or note, no register or article near it. Kept as a lead in data/leads/dunsfold.json, judged from the photograph when the sighting arrives. The reader's later hand-moved pin (report 1000109) is noted there.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
@@ -1869,8 +1878,11 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "GPS coordinate only, 30 m from the Bingley beech; its photograph (sighting 61FACF32) has not reached the server. Lead in data/leads/bingley.json, judged when the photograph arrives.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "tip:1373",
@@ -2117,8 +2129,11 @@
    },
    "verdict": "hold",
    "reason": "Duplicate of the fallen-limb photograph already in the gallery of bgy_001 (same frame, same reader); taken out of the strip, nothing lost.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:e79f5d34-e33f-4522-81f1-7a65eab19816",
@@ -2139,8 +2154,11 @@
    },
    "verdict": "hold",
    "reason": "Duplicate of the lead photograph of has_001 (same frame, same reader); taken out of the strip, nothing lost.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:bad6bea5-2672-4a6a-9c4f-479ee2d3f1ef",
@@ -2339,8 +2357,11 @@
    "current_photo": "approved",
    "verdict": "hold",
    "reason": "Rejected: the DOC trailhead board at the car park 610 m away, listing three walks, no tree in frame; the same reader's other three photographs of the visit carry the tree.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "lead:fba415e7-7e56-4859-bbfa-88ca09a74fd6",
@@ -2367,8 +2388,11 @@
    },
    "verdict": "hold",
    "reason": "not_public: a tall Royal Paulownia (labelled on its trunk) at the back of a private-looking lawn on Winding Way, Springs, East Hampton NY; pin hand-placed on a house lot, photo taken from inside the lawn, so whether it is seen from the street is unknown. Goes live with the pin on the viewing spot once the reader says it can be seen from a street or path.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:5917dc6f-2a08-4fd5-9d2f-b981cd453cf3",
@@ -2782,8 +2806,12 @@
    },
    "verdict": "hold",
    "reason": "Duplicate of 808db90d: the same account sent the identical frame, which already leads the page of the Last Elm of Stationsplein.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-21",
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:a2b98e69-d805-4827-acee-a5da974e83a9",
@@ -2848,8 +2876,12 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same frame from the same reader as fdead4bd, sent twice; that one is live on lyo_022.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-21",
+    "2026-11-22"
+   ]
   },
   {
    "id": "lead:c4c911de-781d-4234-998d-c5c657a9c223",
@@ -3064,8 +3096,12 @@
    },
    "verdict": "hold",
    "reason": "A stump: the Painter cedar Tyler took down in 2020, retired today on this reader's reports; no tree to show",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-21",
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:cc326e86-1b97-4fec-81d7-561e3dea6b91",
@@ -3107,8 +3143,12 @@
    "measure": null,
    "verdict": "hold",
    "reason": "doubt_location: a tall conical sequoia worth a page, but its coordinate repeats our old centroid pin's longitude exactly, so where it stands is unknown",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-21",
+    "2026-11-22"
+   ]
   },
   {
    "id": "sight:8587a0c8-80d2-4576-9e46-25d9cd95be6a",
@@ -3298,8 +3338,11 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: a slender young sweetgum in autumn colour in a park in Caceres, one of a group of similar trees; nothing sets it apart in size, age or story.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
+   "shown": [
+    "2026-11-22"
+   ]
   },
   {
    "id": "lead:bd71c73b-e90b-4f73-80b5-881761c55479",
@@ -4175,10 +4218,12 @@
    },
    "verdict": "hold",
    "reason": "Looked: the Abbots' Palace and parterre fill the frame; the maple pair cannot be picked out (rejected as bad frame)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -4266,10 +4311,12 @@
    },
    "verdict": "hold",
    "reason": "Looked: the Ivy Elm lying fallen under a walnut, ivy over the log; gda_012 was retired as fallen the same day, photograph rejected",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -4347,10 +4394,12 @@
    },
    "verdict": "hold",
    "reason": "Looked: young dragon trees on a roadside viewpoint above Funchal, the reader gives 15 years; not_special, no mail",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -4846,10 +4895,12 @@
    },
    "verdict": "hold",
    "reason": "Same frame as aab2b8be a moment later; rejected as a duplicate.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -4893,10 +4944,12 @@
    },
    "verdict": "hold",
    "reason": "Nearly the same frame as 701ab274; rejected as a duplicate.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5097,7 +5150,8 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
    ]
   },
   {
@@ -5125,10 +5179,12 @@
    },
    "verdict": "hold",
    "reason": "Looked at: a medium street tree under cables on a Jakarta pavement, not plainly a fig; not_special.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5150,10 +5206,12 @@
    },
    "verdict": "hold",
    "reason": "Photo viewed: sent for the Bernardinai Amur cork trees but taken 1.9 km away in another park; another tree, not ours. Became a lead, held not_special.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5224,10 +5282,12 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Photo viewed: an ordinary multi-stemmed park tree on a lawn in Vilnius, nothing big, old or striking. Held not_special.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5261,10 +5321,12 @@
    },
    "verdict": "hold",
    "reason": "Photo viewed: sent for the Sapiegos linden (a storm-broken veteran) but shows an intact multi-stemmed park tree 243 m away, same GPS fix as the reader's earlier Vilnius photo; another tree, not ours. Became a lead, held not_special.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5341,10 +5403,12 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Photo viewed: an ordinary multi-stemmed broadleaf with a full crown on a park lawn in Vilnius, nothing big, old or striking. Held not_special.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5693,12 +5757,14 @@
    },
    "verdict": "hold",
    "reason": "Rejected: no tree in frame, only the National Park Service entrance sign for Pawling Farm. The tree keeps this reader's earlier photographs.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5742,12 +5808,14 @@
    },
    "verdict": "hold",
    "reason": "Same tree by the skate bowl as cf563d69; rejected as a duplicate, can join that tree's strip once it is live.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5857,12 +5925,14 @@
    },
    "verdict": "hold",
    "reason": "Same frame as 83d2e9a2, the red gum now on mel_002; not the mahogany it was sent for. Rejected as a duplicate.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5912,12 +5982,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "wrong_tree: backlit gum that may be mel_002 or mel_019 seen from another side; needs a clearer frame or the reader's word.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -5963,12 +6035,14 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: sent for the Bidwill Kauri Pine, but every frame is the Wishing Tree (syd_006, GPS 0 m from its pin, the Norfolk Island pine label); the same images are already its lead and strip photographs. Rejected as a duplicate, nothing lost.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -6084,12 +6158,14 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: sent for mel_004 (Darling Gardens), but it shows the Finer Holm Oak of Edinburgh Gardens (mel_001, GPS 38 m from its pin), and this same picture is already mel_001's lead photograph. Rejected as a duplicate, nothing lost.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -6297,11 +6373,13 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same photograph by the same reader already leads fuj_001.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -6345,11 +6423,13 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same frame as d692d0b9, which is now on bcn_011.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -6453,11 +6533,13 @@
    },
    "verdict": "hold",
    "reason": "not_theirs: the lead photo is a screenshot of another person's post in a photo app (their name and like buttons over it), the sender's profile carries a different name; standard not_theirs mail sent, their own photo puts it live",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7145,11 +7227,13 @@
    },
    "verdict": "hold",
    "reason": "Photographs viewed: the Signal Tree, Akron, whole tree and 1986 plaque. Held not_public: Summit Metro Parks still lists the Chuckery Area closed through at least 2028 (alerts page, read 2026-11-18). Ships when it reopens or the reader shows it can be seen from open ground; answer drafted for Hidde (reply-reader-1115).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7622,13 +7706,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "wrong_tree, found on reader report 1000061 (2026-11-17): the same picture the reader sent for lax_011, byte for byte; it shows the Queensland kauri (broad leaves, orange flaking trunk, the champion sign at its foot), not a Montezuma cypress. Taken off lax_017; the kauri keeps it.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7804,13 +7890,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "one picture sent for two trees, 380 m from this pin; kept on the closer one (looked at the photograph, 2026-11-17)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7824,13 +7912,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "the tree's sign, not the tree; the tree has the other photograph (looked at the photograph, 2026-11-17)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7844,13 +7934,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "duplicate of a photograph already approved (looked at the photograph, 2026-11-17)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7954,13 +8046,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "duplicate of a photograph sent with the first (looked at the photograph, 2026-11-17)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -7974,13 +8068,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "duplicate of a photograph sent with the first (looked at the photograph, 2026-11-17)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -8239,13 +8335,15 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a multi-trunk southern magnolia in the front garden of an apartment block at 845; a healthy street-size tree with nothing a visitor would walk for. Held: not_special (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ],
    "decided": "2026-11-17"
   },
@@ -8303,13 +8401,15 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a lone oak far off across a crop field, the trunk a speck; nobody could tell it from any field oak, and it stands in farmland. Held: bad_frame (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ],
    "decided": "2026-11-17"
   },
@@ -8464,13 +8564,15 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a mid-sized jacaranda in the ISA courtyard, a tidy campus tree. Held: not_special (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ],
    "decided": "2026-11-17"
   },
@@ -8499,13 +8601,15 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a Judas tree in flower in the ISA grounds; pretty in April, not a tree worth a trip. Held: not_special (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ],
    "decided": "2026-11-17"
   },
@@ -8566,13 +8670,15 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a Queensland kauri crown 40 m from our syd_001 (Palm Grove, 1853); the garden has a second big kauri on Central Avenue and the reader's '1916' fits neither for certain. Ask the reader which one. Held: wrong_tree (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ],
    "decided": "2026-11-17"
   },
@@ -8980,13 +9086,15 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17: a large pecan at Meadowlark 1939 in Griffin, GA, a wedding venue; no public access shown. Held: not_public (closed list, Hidde 2026-11-17).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "decided": "2026-11-17",
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9304,11 +9412,13 @@
    "match": "app",
    "verdict": "hold",
    "reason": "Same dead trunk; held.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9473,12 +9583,14 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "doubt_info: the photo shows a big pecan, but the reader's own note says the Meadowlark 1939 pecans were destroyed by a tornado in January 2023, so it may no longer stand; and it is on a wedding venue's private ground (not_public). Ships if a current photo shows it standing and visible from public ground.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9525,11 +9637,13 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 363d64d1, byte-identical file (same md5), which is published instead.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9598,11 +9712,13 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed 2026-11-17 (reject): Duplicate of 96cc87f7, byte-identical file (same md5), which is published instead.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9737,11 +9853,13 @@
    },
    "verdict": "hold",
    "reason": "Photographs viewed 2026-11-17: a black mulberry cut back to a hollow stump with fresh regrowth on the lawn of Ladywell House, Lewisham (the former vicarage rebuilt in 1692); the second picture shows it in full leaf before the 2022 damage. Alive and with a story, but in the private garden of a house a developer bought in 2022. Held: not_public (closed list, Hidde 2026-11-17) unless the reader says it is seen from the street.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9857,12 +9975,14 @@
    },
    "verdict": "hold",
    "reason": "Rejected for lon_021: the photograph shows a London plane (lobed leaves, plane bark), not the Japanese pagoda tree. Judged again as a tree of its own (lead:5234d132).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9890,12 +10010,14 @@
    },
    "verdict": "hold",
    "reason": "not_theirs: photograph viewed 2026-11-17, an autumn oak above a hedge line, low resolution with a copyright mark in the corner, the look of a Street View crop. Goes live at their GPS fix once they confirm the picture is theirs or send their own.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9920,12 +10042,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: photograph viewed 2026-11-17, a pruned street fig under power lines at night in North Melbourne, 2.3 km from the Curtain Square fig the app named. Report 1000070 answered.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -9980,12 +10104,14 @@
    },
    "verdict": "hold",
    "reason": "not_special: a tall mature London plane in autumn yellow in Finsbury Circus Gardens, daylight, GPS. One of many of its size in central London, no note or figure setting it apart.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10021,12 +10147,14 @@
    },
    "verdict": "hold",
    "reason": "dead, for want of a photograph only: the reader says this chestnut on Mount Ochi has been dead for years. Under the standing-dead rule (Hidde 2026-11-17) it goes live once a photo shows it standing; the reply asks for one. The living forest is a lead in data/leads/karystos.json.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10287,11 +10415,13 @@
    },
    "verdict": "hold",
    "reason": "Photo viewed: a child smiling from inside the yew's foliage, the trunk hidden by needles. Rejected as wrong_subject; the same reader's other frame of the crown went into the gallery.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10369,12 +10499,14 @@
    },
    "verdict": "hold",
    "reason": "dead: Queen Elizabeth's Oak in Greenwich Park is a fallen hollow trunk (the reader's photo and the Royal Parks board they also photographed say so). A fallen trunk never ships; retired from London on 2026-07-27 for the same reason.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10395,12 +10527,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Viewed 2026-11-17: a bare forked deciduous park tree beside a path, a person at its trunk for scale; a normal-sized tree among many like it.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10421,12 +10555,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Viewed 2026-11-17: a medium tree with long toothed leaves in a Paris square, a wooden label post beside it; not big, old-looking or unusual in frame.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10447,12 +10583,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Viewed 2026-11-17: a small weeping pagoda tree in a front garden behind a gate (no. 7A), seen from the street; an ornamental of ordinary size.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10473,12 +10611,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Viewed 2026-11-17: a tall beech on a wooded slope beside a leaf-strewn path; a good tree but one of many of its size in the park.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10517,12 +10657,14 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "Verified 2026-11-20: no source names the Romantik-Eiche; the map link lands on the Eichendorff-Anlage memorial with about ten oaks within 20 m, so the trunk is unidentified. Missing: a photo or GPS fix at the tree.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10764,12 +10906,14 @@
    "measure": null,
    "verdict": "hold",
    "reason": "doubt_location: a fig with curtains of aerial roots, sent from azo_001's page so its coordinate is our pin; a different trunk from our lead photo. Held until we know where it stands.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -10932,11 +11076,13 @@
    },
    "verdict": "hold",
    "reason": "Duplicate of d73aaf2c, the same photographs sent twice; that one is on the page",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -11048,12 +11194,14 @@
    },
    "verdict": "hold",
    "reason": "not_special: an ordinary street orange in fruit; the big pine behind it is the tree, and that one is live (quito/uio_001)",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -11314,12 +11462,14 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "no_location: the app's companion row to a sighting no longer on the server; no place, coordinate, name or words, nothing to place or record.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -11473,12 +11623,14 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "Duplicate: the app's companion row (submission 1112, same coordinate 6.47771, -73.11742, same minute) to the Colombian roadside tree sent as sighting 034185b2, judged on its own lead; no words, nothing more to record.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -11518,12 +11670,14 @@
    "reader_girth_cm": 122,
    "verdict": "hold",
    "reason": "not_public: the Signal Tree stands in the Chuckery Area of Cascade Valley Metro Park, closed since 2023 for the Gorge Dam work through at least 2028; ships when it reopens or a source shows it can be seen from open ground. Lead in data/leads/akron.json.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -12048,14 +12202,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a straight elm trunk in Nebraska woodland, nothing showing unusual size or age.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -12083,14 +12239,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a broad cottonwood crown behind a mown path with a person standing in front; a good-sized cottonwood but not unusual for the species.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -12146,14 +12304,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a tall slender oak among others in woodland, nothing showing great size or age.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -12181,14 +12341,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a tall straight red oak in autumn woodland in Pennsylvania, nothing showing great size or age.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -12615,13 +12777,15 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: the Kolpa Landscape Park sign for Močile - lipa (NV 8628): girth 166 cm, height 16 m (2010). A registered lime, but modest for its species; registered is not a reason.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -13475,13 +13639,15 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed: a tall tree in full orange autumn colour with lobed, maple-like leaves, not an oak, so not Prince Eugen's Oak. Could be the wrong tree; waits for a photograph of the oak itself.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -13518,13 +13684,15 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: an avenue of London planes along a brick path beside a cemetery in Helmond, none singled out and none big.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -13675,13 +13843,15 @@
    "reader_note": "",
    "verdict": "hold",
    "reason": "Trunk is ridged and furrowed, not smooth grey like a beech; the fountain behind is the only link. Species unsure.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): held as wrong_tree, cannot tell it is our tree, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -13904,13 +14074,15 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: the straight red-barked lower trunk of a redwood in autumn woodland near Westonbirt, no note; a good tree but like many nineteenth-century redwoods in English woods.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -14143,12 +14315,14 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "Verified 2026-11-20: only a forum post places it about 20 km from Twee Rivieren; no coordinate, age or measure, and many roadside camel thorns carry weaver nests. Missing: a photo or GPS fix at the tree.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -14554,14 +14728,16 @@
    },
    "verdict": "hold",
    "reason": "doubt_info: Photograph viewed again 2026-11-17: a big London plane on the lawn of a Lincoln's Inn court, wet daylight. The note names a collection of dawn redwoods, so what was sent and what was meant do not match; the reply asks whether the plane was meant or for a photo of the redwoods.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -14826,14 +15002,16 @@
    },
    "verdict": "hold",
    "reason": "Not the trunk in azo_001's lead photograph: other_tree, held as doubt_location (coordinate is our pin).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15025,14 +15203,16 @@
    "measure": null,
    "verdict": "hold",
    "reason": "The Majesty Oak in Fredville Park is on private land with no public access (Nonington village site, Kent Heritage Trees); hard rule 10. Photo looks like a screenshot, not theirs",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15482,14 +15662,16 @@
    },
    "verdict": "hold",
    "reason": "A phone screenshot of the same photograph as fda250f8 (King of the Forest), from a second account; duplicate.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15560,14 +15742,16 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a young Norfolk Island pine, slim trunk, on a lawn above the sea at Waitangi, no GPS and only 'Huge' for a note. A fine tree, but nothing old or remarkable shows.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15779,14 +15963,16 @@
    "photo": "out/sightings/5419e3e3-fe95-4937-8f7e-bfc23bcdd505.jpg",
    "verdict": "hold",
    "reason": "A big beech on the church lawn beside the Nieuwe Kerk, but its trunk is hidden behind low branches so neither register scar can be seen, and the lawn holds about thirty beeches. Cannot tell it is one of the pair.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): held as wrong_tree, cannot tell it is our tree, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15824,14 +16010,16 @@
    "photo": "out/sightings/5568e36a-d957-4799-9ca6-bd3345160d04.jpg",
    "verdict": "hold",
    "reason": "Duplicate upload: byte-identical files to sighting 137b17f1 of the same tree, which is approved.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15841,14 +16029,16 @@
    "photo": "out/sightings/bf041a80-69e5-46b7-b32b-256193485efc.jpg",
    "verdict": "hold",
    "reason": "Duplicate upload: the same image as sighting 16e3ea1f of the Stara Maslina, which is approved.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15872,14 +16062,16 @@
    "photo": "out/sightings/58e7b5f6-025f-4687-b50b-e55a25e3d5d2.jpg",
    "verdict": "hold",
    "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15889,14 +16081,16 @@
    "photo": "out/sightings/f794c1b9-76cf-449c-bc8f-d2db151c4eea.jpg",
    "verdict": "hold",
    "reason": "Duplicate upload: byte-identical files to sighting 16e3ea1f, which is approved.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -15948,14 +16142,16 @@
    "photo": "out/sightings/0942bd2b-6e73-4443-a4b2-de9c6b4f3028.jpg",
    "verdict": "hold",
    "reason": "A snow-covered Japanese black pine in Kenrokuen with props and yukitsuri ropes, but taken 95 metres from the pin and without the pond or the low wide spread over the water that marks the Karasaki pine. The garden rigs hundreds of pines; cannot tell this is that one.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): held as wrong_tree, cannot tell it is our tree, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -16704,7 +16900,9 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -16754,14 +16952,16 @@
    },
    "verdict": "hold",
    "reason": "For Hidde tomorrow: the Marton Oak (plaque in the reader's photo) stands on private land, owner's permission needed to view per Wikipedia; ships if it is plainly visible from Oak Lane. Photos ready.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -16974,7 +17174,9 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -17428,14 +17630,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a young jacaranda in full purple bloom on a lawn in Melbourne's Royal Botanic Gardens, slender trunk. Pretty, but one of thousands in the city.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -17997,14 +18201,16 @@
    },
    "verdict": "hold",
    "reason": "not_special: a hawthorn in full blossom near Caldas da Rainha that reads as a big bush; 50 cm girth is not big for its species (looked 2026-11-15).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -18891,12 +19097,14 @@
    },
    "verdict": "hold",
    "reason": "Viewed: A meadow with a car and a conifer plantation; not Wistman's Wood.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -18918,14 +19126,16 @@
    },
    "verdict": "hold",
    "reason": "Viewed: Two recognisable people fill the frame; the oak is background. Out of the strip for privacy.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -18999,14 +19209,16 @@
    },
    "verdict": "hold",
    "reason": "Viewed: Ruins and a backlit bare tree; cannot tell it is a yew.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19054,14 +19266,16 @@
    },
    "verdict": "hold",
    "reason": "Viewed: A crowd of people at a graduation fills the frame; the redwood is a distant background.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19083,14 +19297,16 @@
    },
    "verdict": "hold",
    "reason": "Viewed: Museum giants figures, no tree.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19352,14 +19568,16 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: Photograph viewed again 2026-11-17: a young Bismarck-type fan palm on a roadside bend near Chiang Mai.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19604,14 +19822,16 @@
    },
    "verdict": "hold",
    "reason": "not_theirs: Photograph viewed again 2026-11-17: a bald cypress and a plane by the pond in Villa Smeraldi park, but the picture carries another photographer's signature and there is no GPS. The reply asks whether the signature is theirs; if so, the tree goes live with their figures (422 cm, 23 to 25 m).",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19795,14 +20015,16 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Viewed: a quad and sky, no tree in frame; wrong subject.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19937,12 +20159,14 @@
    "reader_girth_cm": 454,
    "verdict": "lead",
    "reason": "Verified 2026-11-20: no source names it (FVG and MASAF registers could not be opened); no coordinate, access unknown. Missing: a photo or GPS fix at the tree, or the regional register entry.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -19992,12 +20216,14 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "Duplicate: the app's companion row to sighting 71f93157, already rejected as a duplicate of the photograph that made lyt_001 (Lytham) live on 2026-11-15.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -20012,12 +20238,14 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "no_location: the app's companion row to a sighting no longer on the server; no place, coordinate, name or words, nothing to place or record.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
@@ -20047,12 +20275,14 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "no_location: the app's companion row to a sighting no longer on the server; only the words 'Ridiculously tall', no place, coordinate or name, nothing to place.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
    ]
   },
   {
