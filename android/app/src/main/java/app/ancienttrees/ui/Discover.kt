@@ -147,6 +147,8 @@ sealed class DiscoverPage {
     data class Index(val kind: IndexKind) : DiscoverPage()
     /** Every photograph visitors sent, the See all behind New from visitors (Route.visitors). */
     data object Visitors : DiscoverPage()
+    /** The hearts other people gave your photographs, behind the bell (Route.activity). */
+    data object Activity : DiscoverPage()
 }
 
 enum class IndexKind { CITIES, COUNTRIES, SPECIES, OLDEST }
@@ -276,14 +278,18 @@ fun DiscoverScreen(
                 .padding(horizontal = 16.dp)
                 .padding(top = 4.dp, bottom = 10.dp),
         ) {
-            Text(
-                stringResource(R.string.tab_discover),
-                fontFamily = BrandFace,
-                fontWeight = FontWeight.Bold,
-                fontSize = 32.sp,
-                color = brand.ink,
-                modifier = Modifier.semantics { heading() },
-            )
+            androidx.compose.foundation.layout.Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    stringResource(R.string.tab_discover),
+                    fontFamily = BrandFace,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 32.sp,
+                    color = brand.ink,
+                    modifier = Modifier.weight(1f).semantics { heading() },
+                )
+                // THE BELL (Home.swift ActivityBell, 2026-11-22): signed in only.
+                if (signedIn) ActivityBell(act) { act.openPage(DiscoverPage.Activity) }
+            }
             SearchField { searching = true }
         }
         // While the header is away, the status bar keeps a solid strip.
@@ -1153,6 +1159,7 @@ fun DiscoverPageScreen(p: DiscoverPage, catalogue: Catalogue, act: DiscoverActio
         } ?: Box(Modifier.fillMaxSize().background(Brand.colors.ground))
         is DiscoverPage.Index -> IndexPage(p.kind, catalogue, act, onBack = onBack)
         DiscoverPage.Visitors -> VisitorPhotosPage(catalogue, act, onBack = onBack)
+        DiscoverPage.Activity -> ActivityPage(catalogue, act, onBack = onBack)
     }
 }
 

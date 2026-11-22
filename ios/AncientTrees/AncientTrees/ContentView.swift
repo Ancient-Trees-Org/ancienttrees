@@ -178,6 +178,8 @@ struct ContentView: View {
         // Every photograph visitors sent, Discover's See all (2026-11-18):
         // -open=visitors:all.
         case "visitors": return .visitors
+        // Activity, the bell on Discover (2026-11-22): -open=activity:me.
+        case "activity": return .activity
         // A tree of YOURS, which was the last screen here no argument could
         // open. Sightings.demoIDs are the two that -mine-demo always creates.
         case "mine": return UUID(uuidString: value).map { Route.mine($0) }
@@ -494,6 +496,8 @@ struct ContentView: View {
             PeopleView(source: followers ? .followers : .following, catalogue: cat)
         case .visitors:
             VisitorPhotosView(catalogue: cat)
+        case .activity:
+            ActivityView(catalogue: cat)
         case .treeMap(let id):
             if let t = cat.tree(id) {
                 TreeMapPage(tree: t, catalogue: cat)

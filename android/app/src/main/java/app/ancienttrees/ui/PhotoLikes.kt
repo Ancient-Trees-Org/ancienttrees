@@ -6,7 +6,17 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -90,34 +100,104 @@ object PhotoLikes {
     }
 }
 
-/** PhotoHeart (Kit/PhotoLikes.swift): outlined, filled moss once given, the count from one; signed out it asks for a sign-in. */
+/**
+ * PhotoHeart (Kit/PhotoLikes.swift): outlined, filled moss once given, the count from one.
+ * Two taps since 2026-11-22: the heart gives or takes back, the count opens who gave one
+ * (PhotoLikersSheet). Signed out either asks for a sign-in.
+ */
 @Composable
 fun PhotoHeart(photoId: String, onDark: Boolean = false) {
     val marks = LocalTreeMarks.current
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
     val s = PhotoLikes.state(photoId)
+    var likers by remember { mutableStateOf(false) }
     LaunchedEffect(photoId, marks.signedIn) { PhotoLikes.want(photoId, marks.token()) }
     val tint = when {
         s.mine -> if (onDark) Color.White else brand.moss
         else -> if (onDark) Color.White.copy(alpha = 0.85f) else brand.inkSoft
     }
-    Row(
-        horizontalArrangement = Arrangement.spacedBy(3.dp, Alignment.End),
-        verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
-            .widthIn(min = 44.dp)
-            .heightIn(min = 44.dp)
-            .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, role = Role.Button) {
-                if (marks.signedIn) {
-                    scope.launch { marks.token()?.let { PhotoLikes.toggle(photoId, it) } }
-                } else {
-                    marks.signIn()
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier
+                .widthIn(min = 26.dp)
+                .heightIn(min = 44.dp)
+                .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, role = Role.Button) {
+                    if (marks.signedIn) {
+                        scope.launch { marks.token()?.let { PhotoLikes.toggle(photoId, it) } }
+                    } else {
+                        marks.signIn()
+                    }
                 }
+                .semantics { contentDescription = "photo-like" },
+        ) {
+            Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(15.dp))
+        }
+        if (s.count > 0) {
+            Box(
+                contentAlignment = Alignment.CenterStart,
+                modifier = Modifier
+                    .widthIn(min = 22.dp)
+                    .heightIn(min = 44.dp)
+                    .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, role = Role.Button) {
+                        if (marks.signedIn) likers = true else marks.signIn()
+                    }
+                    .semantics { contentDescription = "photo-like-count" },
+            ) {
+                Text("${s.count}", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = tint)
             }
-            .semantics { contentDescription = "photo-like" },
+        }
+    }
+    if (likers) PhotoLikersSheet(photoId) { likers = false }
+}
+
+/** Kit/PhotoLikes.swift PhotoLikersSheet: who gave one, oldest first; a private profile is "A visitor". */
+@Composable
+fun PhotoLikersSheet(photoId: String, onDismiss: () -> Unit) {
+    val marks = LocalTreeMarks.current
+    val brand = Brand.colors
+    data class Liker(val userId: String?, val name: String?, val avatar: String?)
+    val rows = remember { mutableStateListOf<Liker>() }
+    LaunchedEffect(photoId) {
+        val r = Supa.send("/rest/v1/rpc/photo_likers", token = marks.token(), body = JSONObject().put("photo", photoId).toString())
+        if (r.ok) runCatching {
+            val a = JSONArray(r.body)
+            rows.clear()
+            for (i in 0 until a.length()) {
+                val o = a.getJSONObject(i)
+                rows.add(Liker(o.optString("user_id").ifEmpty { null }.takeIf { !o.isNull("user_id") },
+                    o.optString("display_name").takeIf { !o.isNull("display_name") },
+                    o.optString("avatar_url").takeIf { !o.isNull("avatar_url") && it.isNotEmpty() }))
+            }
+        }
+    }
+    val n = maxOf(rows.size, PhotoLikes.state(photoId).count)
+    BrandSheet(
+        title = if (n == 1) "1 heart" else "$n hearts",
+        onDismiss = onDismiss,
+        buttons = emptyList(),
     ) {
-        Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(15.dp))
-        if (s.count > 0) Text("${s.count}", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = tint)
+        rows.forEach { p ->
+            val name = p.name ?: "A visitor"
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 56.dp)
+                    .clickable(enabled = p.userId != null) { p.userId?.let { onDismiss(); marks.openPerson(it) } },
+            ) {
+                Box(
+                    Modifier.size(40.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.12f)),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    if (p.avatar != null) RemoteImage(p.avatar, null, Modifier.fillMaxSize())
+                    else Text(name.take(1).uppercase(), fontSize = 16.sp, fontWeight = FontWeight.Black, color = brand.moss)
+                }
+                Text(name, fontSize = 16.sp, fontWeight = if (p.name == null) FontWeight.Normal else FontWeight.SemiBold,
+                    color = if (p.name == null) brand.inkSoft else brand.ink)
+            }
+        }
     }
 }

@@ -83,6 +83,7 @@ GLYPHS = {
     "BookmarkFill": ("bookmark", True, 400, False),  # bookmark.fill
     "Heart": ("favorite", False, 600, False),  # heart, a visitor's photograph (PhotoLikes.swift, 2026-11-20)
     "HeartFill": ("favorite", True, 600, False),  # heart.fill
+    "Bell": ("notifications", False, 600, False),  # bell, Discover's Activity (Activity.swift, 2026-11-22)
     "Verified": ("verified", False, 400, False),  # checkmark.seal
     "VerifiedFill": ("verified", True, 400, False),  # checkmark.seal.fill
     "Feedback": ("feedback", False, 400, False),  # exclamationmark.bubble

@@ -61,6 +61,8 @@ data class TreeMarks(
     val signedIn: Boolean = false,
     val token: suspend () -> String? = { null },
     val signIn: () -> Unit = {},
+    /** Who gave a heart opens their profile (PhotoLikersSheet, 2026-11-22). */
+    val openPerson: (String) -> Unit = {},
 )
 
 val LocalTreeMarks = compositionLocalOf { TreeMarks() }

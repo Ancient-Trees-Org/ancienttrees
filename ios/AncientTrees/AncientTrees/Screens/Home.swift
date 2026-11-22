@@ -290,6 +290,11 @@ struct HomeView: View {
                             .font(.screenTitle)
                             .foregroundStyle(Brand.ink)
                         Spacer(minLength: 8)
+                        // THE BELL (Hidde, 2026-11-22, "voor nu is het ok"):
+                        // the hearts on your photographs, Screens/Activity.swift.
+                        // Strava's and Instagram's place, top right of the
+                        // first screen with other people's news.
+                        ActivityBell()
                         // Aligned on the TITLE'S CAP HEIGHT, not on its
                         // line box. A 34 point line box carries descender
                         // room that "Explore" never uses, so centring the

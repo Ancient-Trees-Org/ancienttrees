@@ -381,7 +381,25 @@ struct WorthItButton: View {
             HStack(spacing: compact ? 4 : 6) {
                 Image(systemName: cast ? "hand.thumbsup.fill" : "hand.thumbsup")
                     .font(.system(size: compact ? 13 : 16, weight: .semibold))
-                if let n = counts.up(tree.id) {
+                if compact {
+                    // THE WORDS BESIDE THE THUMB (Hidde, 2026-11-22: "to not
+                    // have confusion about the thumbs and heart ... should we
+                    // write out worth the visit maybe?", reversing 2026-09-04's
+                    // "de worth the visit tekst mag helemaal weg" now that a
+                    // heart sits on the photographer's line). Google Maps
+                    // writes "Helpful" by its thumb, komoot "Recommended by";
+                    // the heart stays bare (CONVENTIONS.md, "Thumb beside
+                    // heart"). No background (Hidde: the pill "niet echt de
+                    // moeite").
+                    Text("Worth the visit")
+                        .font(.subheadline.weight(.semibold))
+                        .lineLimit(1)
+                    if let n = counts.up(tree.id) {
+                        Text("· \(n)")
+                            .font(.subheadline)
+                            .monospacedDigit()
+                    }
+                } else if let n = counts.up(tree.id) {
                     Text("\(n)")
                         .font(compact ? .subheadline : .brand(15, .semibold, relativeTo: .subheadline))
                         .monospacedDigit()

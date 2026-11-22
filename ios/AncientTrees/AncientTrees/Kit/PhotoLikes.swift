@@ -70,42 +70,138 @@ final class PhotoLikes {
     }
 }
 
-/// The heart at the end of a photographer's line: outlined, filled moss once
+/// The heart right after a photographer's line: outlined, filled moss once
 /// you gave one, the count beside it from one (Hidde, 2026-08-26: "pas van 1
-/// tellen"). Signed out a tap asks for a sign-in first and gives nothing.
+/// tellen"). TWO TAPS since 2026-11-22, Instagram's and Strava's (Hidde: "kun
+/// je ook zien ... wie je dat heeft gegeven?"): the heart gives or takes back,
+/// the count opens who gave one (PhotoLikersSheet). Signed out either asks
+/// for a sign-in first and gives nothing.
 struct PhotoHeart: View {
     let photoId: String
     var onDark = false
     @Environment(Account.self) private var account
     @Environment(Nudge.self) private var nudge
+    @State private var showingLikers = false
     private var store: PhotoLikes { PhotoLikes.shared }
 
     var body: some View {
         let s = store.state(photoId)
-        Button {
-            if account.isSignedIn {
-                Task { if let t = await account.freshToken() { await store.toggle(photoId, token: t) } }
-            } else {
-                nudge.require(.general) {}
-            }
-        } label: {
-            HStack(spacing: 3) {
+        let tint = s.mine ? (onDark ? Color.white : Brand.moss) : (onDark ? Color.white.opacity(0.85) : Brand.inkSoft)
+        HStack(spacing: 0) {
+            Button {
+                if account.isSignedIn {
+                    Task { if let t = await account.freshToken() { await store.toggle(photoId, token: t) } }
+                } else {
+                    nudge.require(.general) {}
+                }
+            } label: {
                 Image(systemName: s.mine ? "heart.fill" : "heart")
                     .font(.system(size: 14, weight: .semibold))
-                if s.count > 0 {
-                    Text("\(s.count)").font(.system(size: 12, weight: .semibold)).monospacedDigit()
-                }
+                    .foregroundStyle(tint)
+                    .frame(minWidth: 26, minHeight: 44)
+                    .contentShape(Rectangle())
             }
-            .foregroundStyle(s.mine ? (onDark ? Color.white : Brand.moss) : (onDark ? Color.white.opacity(0.85) : Brand.inkSoft))
-            .frame(minWidth: 44, minHeight: 44, alignment: .trailing)
-            .contentShape(Rectangle())
+            .buttonStyle(.plain)
+            .accessibilityLabel(s.mine ? "You liked this photo" : "Like this photo")
+            .accessibilityIdentifier("photo-like")
+            if s.count > 0 {
+                Button {
+                    if account.isSignedIn { showingLikers = true } else { nudge.require(.general) {} }
+                } label: {
+                    Text("\(s.count)").font(.system(size: 12, weight: .semibold)).monospacedDigit()
+                        .foregroundStyle(tint)
+                        .frame(minWidth: 22, minHeight: 44, alignment: .leading)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(s.count == 1 ? "1 heart. See who gave a heart" : "\(s.count) hearts. See who gave a heart")
+                .accessibilityIdentifier("photo-like-count")
+            }
         }
-        .buttonStyle(.plain)
-        .accessibilityLabel(s.mine ? "You liked this photo" : "Like this photo")
-        .accessibilityValue(s.count > 0 ? "\(s.count)" : "")
-        .accessibilityIdentifier("photo-like")
         .task(id: photoId + (account.session?.userId ?? "")) {
             store.want(photoId, token: await account.freshToken())
+        }
+        .sheet(isPresented: $showingLikers) {
+            PhotoLikersSheet(photoId: photoId)
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
+        }
+    }
+}
+
+/// Who gave a photograph a heart, oldest first (photo_likers in
+/// supabase/photo-hearts-who.sql, signed in only): the followers list's row,
+/// a face and a name that opens the profile; a private profile is "A visitor"
+/// and opens nothing.
+struct PhotoLikersSheet: View {
+    let photoId: String
+    @Environment(Account.self) private var account
+    @Environment(Navigator.self) private var navigator
+    @Environment(\.dismiss) private var dismiss
+
+    struct Row: Decodable, Identifiable {
+        let user_id: String?
+        let display_name: String?
+        let avatar_url: String?
+        let created_at: String
+        var id: String { (user_id ?? "") + created_at }
+    }
+    @State private var rows: [Row] = []
+
+    var body: some View {
+        VStack(spacing: 0) {
+            Text(rows.count == 1 ? "1 heart" : "\(max(rows.count, PhotoLikes.shared.state(photoId).count)) hearts")
+                .font(.brand(26, .black, relativeTo: .title2))
+                .foregroundStyle(Brand.ink)
+                .padding(.top, 24).padding(.bottom, 12)
+            ScrollView {
+                LazyVStack(spacing: 0) {
+                    ForEach(rows) { r in
+                        Button {
+                            guard let id = r.user_id else { return }
+                            dismiss()
+                            Task { @MainActor in
+                                try? await Task.sleep(for: .milliseconds(300))
+                                navigator.push = .person(id)
+                            }
+                        } label: {
+                            HStack(spacing: 12) {
+                                let name = r.display_name ?? "A visitor"
+                                ZStack {
+                                    Circle().fill(Brand.moss.opacity(0.12))
+                                    if let a = r.avatar_url, let u = URL(string: a) {
+                                        TreePhoto(url: u) { Color.clear }.clipShape(.circle)
+                                    } else {
+                                        Text(String(name.prefix(1)).uppercased())
+                                            .font(.brand(16, .black, relativeTo: .body))
+                                            .foregroundStyle(Brand.moss)
+                                    }
+                                }
+                                .frame(width: 40, height: 40)
+                                Text(name)
+                                    .font(.callout.weight(r.display_name == nil ? .regular : .semibold))
+                                    .foregroundStyle(r.display_name == nil ? Brand.inkSoft : Brand.ink)
+                                Spacer()
+                            }
+                            .padding(.vertical, 8)
+                            .contentShape(.rect)
+                        }
+                        .buttonStyle(.plain)
+                        .disabled(r.user_id == nil)
+                        Divider()
+                    }
+                }
+                .padding(.horizontal, 20)
+            }
+        }
+        .brandGround()
+        .accessibilityIdentifier("photo-likers")
+        .task {
+            let r = Supa.request("/rest/v1/rpc/photo_likers", token: await account.freshToken(), body: ["photo": photoId])
+            guard let (data, resp) = try? await Net.data(for: r),
+                  let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
+                  let got = try? JSONDecoder().decode([Row].self, from: data) else { return }
+            rows = got
         }
     }
 }

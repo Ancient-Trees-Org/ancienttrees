@@ -951,8 +951,11 @@ private fun WorthItButton(tree: Tree, votes: MyVotes, counts: VoteCounts, signed
         val tint = if (cast) brand.moss else brand.ink
         // WorthItButton(compact: true): hand.thumbsup at 13 semibold.
         Icon(if (cast) Sym.ThumbUpFillSemibold else Sym.ThumbUpSemibold, null, tint = tint, modifier = Modifier.size(17.dp))
+        // The words beside the thumb (WorthIt.swift, Hidde 2026-11-22: "should we write
+        // out worth the visit maybe?"), no background; the count after a middle dot.
+        Text("Worth the visit", fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = tint, maxLines = 1)
         counts.up(tree.id)?.let { n ->
-            Text("$n", fontSize = 15.sp, color = tint, textDecoration = TextDecoration.Underline)
+            Text("· $n", fontSize = 15.sp, color = tint)
         }
     }
 }
