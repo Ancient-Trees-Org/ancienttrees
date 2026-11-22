@@ -2944,6 +2944,60 @@
     }
    ],
    "sent": []
+  },
+  "p_60ec57a96e4f27d4f6d47a15": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3",
+     "tree_id": "shf_002",
+     "tree_name": "Vernon Oak",
+     "city": "Sheffield",
+     "city_slug": "sheffield",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
+  },
+  "p_9ec0328688bf2cc97f49a822": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814",
+     "tree_id": "sal_001",
+     "tree_name": "The Hundred-Horse Chestnut",
+     "city": "Sant'Alfio",
+     "city_slug": "santalfio",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "d88315af-8100-48c3-8152-db0d21001544",
+     "tree_id": "sal_001",
+     "tree_name": "The Hundred-Horse Chestnut",
+     "city": "Sant'Alfio",
+     "city_slug": "santalfio",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
+  },
+  "p_3e4c652ec8f264c3b887587f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026",
+     "tree_id": "mdr_005",
+     "tree_name": "The Witch Tree of Fanal",
+     "city": "Madeira",
+     "city_slug": "madeira",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

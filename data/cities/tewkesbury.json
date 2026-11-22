@@ -1,0 +1,75 @@
+{
+  "city": "Tewkesbury",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Tewkesbury is a market town in Gloucestershire where the Avon meets the Severn, built around a great Norman abbey church. On the lawn of the abbey grounds grows a beech with a fluted grey trunk and limbs that spread low in every direction, which a reader photographed in autumn and sent to us. They put its girth at about seven metres.",
+  "meta_description": "The great beech in the grounds of Tewkesbury Abbey, sent by a reader: a fluted grey trunk about seven metres round by their measure, and how to find it.",
+  "question_meta": "The great beech in the grounds of Tewkesbury Abbey, sent by a reader: a fluted grey trunk about seven metres round by their measure, and how to find it.",
+  "question_answer": "The Great Beech of Tewkesbury Abbey grows on an open lawn in the grounds of Tewkesbury Abbey in Gloucestershire. The grounds are free to walk in daylight.",
+  "question_context": "A reader who photographed this beech in November calls it very beautiful, with a monumental girth, craggy and full of character, and well worth a hug. It stands on its own on a lawn in the grounds of Tewkesbury Abbey, the Norman abbey church that has stood near the meeting of the Severn and the Avon since the twelfth century. The photograph shows a European beech of the kind that makes people stop: a short, enormously thick trunk in smooth grey bark, folded and swollen where old branches grew, roots spreading over the grass around its foot, and heavy knotted limbs reaching out low in every direction before they turn upward. The reader stood against the trunk for scale and it dwarfs them. They put its girth at about seven metres and its age at around 250 years. Neither figure comes from a register or a measurement we have seen, so both are theirs. The tree is free to visit in daylight, and the best way to see it is to walk right round the trunk.",
+  "faq": [
+    {
+      "q": "Can I visit The Great Beech of Tewkesbury Abbey?",
+      "a": "Yes. It grows on an open lawn in the grounds of Tewkesbury Abbey, free to walk in daylight."
+    },
+    {
+      "q": "How big is the beech at Tewkesbury Abbey?",
+      "a": "The reader who sent it puts its girth at about seven metres. That is their figure; we have not seen a published measurement."
+    },
+    {
+      "q": "How old is the beech at Tewkesbury Abbey?",
+      "a": "About 250 years, by the estimate of the reader who sent it. We have no planting record yet."
+    }
+  ],
+  "hero_tree_id": "tew_001",
+  "oldest_tree_id": "tew_001",
+  "trees": [
+    {
+      "id": "tew_001",
+      "name": "The Great Beech of Tewkesbury Abbey",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "about 250 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Grounds of Tewkesbury Abbey, Church Street, Tewkesbury, Gloucestershire",
+        "latitude": 51.9907283333333,
+        "longitude": -2.15958616666667,
+        "neighbourhood": "Abbey precinct"
+      },
+      "story": "\"It is very beautiful with a monumental girth,\" wrote the reader who sent us this beech from the grounds of Tewkesbury Abbey. \"It is craggy and full of character. Well worth a hug.\"\n\nTheir photograph shows what they mean. A woman stands against the trunk, and the trunk makes her look small. It rises out of the lawn on a skirt of roots that spread over the grass like poured grey wax, then breaks into a crown of heavy limbs, ridged and knotted, that reach out low in every direction before they climb. The bark is the smooth elephant grey of a beech, folded and swollen where old branches once grew. In the reader's November picture the leaves are going copper, and the grass beneath is scattered with them.\n\nThe reader puts its girth at about seven metres and its age at around 250 years. Those are their figures, not a measurement we have seen; a beech of that girth would be among the bigger ones in England, so if you have measured it, or know when it was planted, tell us here.\n\nTewkesbury's Norman abbey church has stood beside the meeting of the Severn and the Avon since the twelfth century. Walk out across the lawn to the tree and go all the way round the trunk, where the roots run widest.",
+      "how_to_recognise": "A lone beech on an open lawn with a short, massively fluted grey trunk, roots flaring out over the grass all round it and long knotted limbs spreading low on every side.",
+      "access": "Free. In the grounds of Tewkesbury Abbey, on an open lawn; visit in daylight.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app (59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8). Photograph viewed: the whole beech from the open lawn, a vast fluted grey trunk with roots flaring over the grass and great limbs spreading low in every direction, a visitor standing at its foot for scale, autumn leaves turning, overcast daylight, colour. A second frame from further back shows the same tree whole. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'European Beech near Castlemorton', species 'European Beech', age '250 years estimate', girth 700 cm, note placing it in the churchyard of Tewkesbury Abbey. Every figure on the page is stated as theirs; no register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tew_001-great-beech-of-tewkesbury-abbey.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_b940ea18aaf6152172df1c2f",
+        "sighting_id": "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole beech from the open lawn, a vast fluted grey trunk with roots flaring over the grass and great limbs spreading low in every direction, a visitor standing at its foot for scale, autumn leaves turning, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

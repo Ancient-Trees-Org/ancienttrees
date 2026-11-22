@@ -21,6 +21,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: a new place, Tewkesbury, for a reader's great beech; the Vernon Oak's first photograph
+
+- **New: Tewkesbury, The Great Beech of Tewkesbury Abbey (tew_001)**. A reader sent this beech from the abbey grounds with the photograph's own GPS. Looked at both frames: a huge fluted grey trunk with roots flaring over the lawn and low spreading limbs, the reader standing at its foot for scale, autumn leaves. Their girth (about 7 m) and age (about 250 years) are on the page as theirs; their words open the story. It is a one-tree place: intro, question block and three FAQ written. Filed under November from the photo's own date.
+- **Sheffield, Vernon Oak (shf_002)**: its first photograph, from a reader. The whole oak in the pavement of Vernon Road in low autumn sun, matching the recognition line. Their coordinate is our own pin, so the pin did not move.
+- **Strip only, 3 photos**: two of the Hundred-Horse Chestnut (sal_001; the propped stems in April, bare, and the crown in flower from beneath) stay behind the in-leaf lead. The Witch Tree of Fanal (mdr_005) gets a shot of the Fanal grove in fog; it shows the grove, not that tree, so never the lead.
+- **Held, doubt_photo: tip-1433, the Tsagarada plane (Pelion)**. The picture is the tree at night under snow, with black letterbox bars like a screenshot of a shared picture, so it may not be the reader's own. No mail. The tree is already the famous lead in data/leads/_famous-greece.json, waiting for a verify pass. Another reader sent the same tree this morning with a GPS fix (submission 1414); its photo has not come in yet.
+- **Report 1000121, Perth Old Jarrah Tree (per_005)**: our pin was a rounded approximate one; the reader's hand-placed spot 99 m away is now the pin, still approximate. Closed with the standard pin thank-you.
+- **Left open for the next run, photos not here yet**: tip:1435 (Como, sent at 11:52 with a photo location) and report 1000122 (Ragusa, "which tree", sighting B478E704, Donnafugata figs). Neither photo has reached the queue, so neither was judged blind. The `mine` lead 3c544597 still has no file. Feedback: nothing new. Reader words: nothing to quote.
+
 ## 2026-11-22 session: Android build 5 sent to Google for review
 
 - **In review** (Hidde: "Ja, indienen"): build 5 (0.1.0) on both closed tracks, Alpha and Beta (Google Group), full rollout, replacing build 4. Hidde had uploaded the bundle to the library but it was in no release; the session put it into an Alpha release and a new Beta release in his Chrome and saved both. Play Console then showed "Wijzigingen worden beoordeeld" (pre-review checks up to 14 minutes, then Google's review). Only warning: no native debug symbols (MapLibre), as on build 4.

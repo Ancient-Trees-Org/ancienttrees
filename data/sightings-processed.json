@@ -6589,6 +6589,58 @@
    "lat": 48.2037016203708,
    "lon": 16.3790076963701,
    "pin_checked": "2026-11-22"
+  },
+  "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8": {
+   "outcome": "published",
+   "date": "2026-11-22"
+  },
+  "tip-1433": {
+   "outcome": "held",
+   "date": "2026-11-22"
+  },
+  "cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "shf_002",
+   "city_slug": "sheffield",
+   "file": "shf_002-vernon-oak.jpg",
+   "reason": "The whole oak standing in the pavement of a stone-built residential road in Dore, the only tree on the street, late autumn with the last copper leaves, low sun, clear daylight. Closes the gap: the tree had no photograph. Species seen: Oak: broad irregular crown of crooked twigs, rugged grey trunk, l",
+   "lat": 53.3221,
+   "lon": -1.5287,
+   "pin_checked": "2026-11-22"
+  },
+  "d0a46fec-6bdf-4c48-b343-214b305c2814": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "sal_001",
+   "city_slug": "santalfio",
+   "file": "sal_001-the-hundred-horse-chestnut-d0a46fec.jpg",
+   "reason": "The Hundred-Horse Chestnut's enclosure in April before leaf-out: the great gnarled central stem on its wooden props between the big stems, rope path and green paling fence. A good view of the stems; the current lead is in leaf, so this goes in the strip behind it. Species seen: Sweet chestnut: deepl",
+   "lat": 37.7500716666667,
+   "lon": 15.1304445,
+   "pin_checked": "2026-11-22"
+  },
+  "d88315af-8100-48c3-8152-db0d21001544": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "sal_001",
+   "city_slug": "santalfio",
+   "file": "sal_001-the-hundred-horse-chestnut-d88315af.jpg",
+   "reason": "Looking up into the crown in June: chestnut leaves and the long pale catkins in flower on dark spreading limbs. A detail of the tree in flower, behind the lead in the strip. Species seen: Sweet chestnut: long lanceolate serrated leaves, upright cream flowering catkins, dark ridged limbs. Fits the de",
+   "lat": 37.7503666666667,
+   "lon": 15.1303805,
+   "pin_checked": "2026-11-22"
+  },
+  "bb454493-9642-49f0-b41b-8b3e7a67d026": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "mdr_005",
+   "city_slug": "madeira",
+   "file": "mdr_005-the-witch-tree-of-fanal-bb454493.jpg",
+   "reason": "The Fanal grove in fog: the twisted, moss-coated til trees on the open grass behind a post fence, walkers in the mist. Our pin marks the grove rather than the Witch Tree itself, and this shows the grove; in the strip, never the lead. Species seen: Til: dense dark evergreen laurel-type crowns on shor",
+   "lat": 32.8116362,
+   "lon": -17.144537,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

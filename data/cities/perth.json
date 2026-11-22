@@ -200,8 +200,8 @@
       "girth_cm": null,
       "location": {
         "address": "Corner of Third Road and Church Avenue (near 206 Jull St), Armadale",
-        "latitude": -32.154,
-        "longitude": 116.017,
+        "latitude": -32.15453,
+        "longitude": 116.016143,
         "neighbourhood": "Armadale"
       },
       "verified_sources": [
@@ -227,6 +227,13 @@
       "official_register": {
         "name": "inHerit, Heritage Council of WA (Place 09009, Jarrah Tree, Armadale; State Register of Heritage Places)",
         "url": "https://inherit.dplh.wa.gov.au/public/inventory/details/6e3eaf7e-a3ca-4843-a21f-bad1f8e1da9e"
+      },
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "report": "1000121",
+        "date": "2026-11-22",
+        "moved_m": 99,
+        "note": "Reader report 1000121: our pin was a rounded approximate; the reader placed it 99 m away by hand on the map. Kept approximate."
       }
     },
     {

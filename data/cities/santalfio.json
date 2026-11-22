@@ -78,7 +78,35 @@
         "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 01/I216/CT/19",
         "url": null
       },
-      "verify_notes": "Register number from Elenco degli alberi monumentali d'Italia (MASAF) no. 01/I216/CT/19 (data/registers/italy-masaf.json), matched on our pin at 0 m (register_match.py, 2026-10-12)."
+      "verify_notes": "Register number from Elenco degli alberi monumentali d'Italia (MASAF) no. 01/I216/CT/19 (data/registers/italy-masaf.json), matched on our pin at 0 m (register_match.py, 2026-10-12).",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d0a46fec.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 4,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814",
+          "note": "Photographed by a reader and sent through the app (2022-04-16); a viewing pass approved it on 2026-11-22: The Hundred-Horse Chestnut's enclosure in April before leaf-out: the great gnarled central stem on its wooden props between the big stems, rope path and green paling fence. A good view of the stems; the current lead is in leaf, so this goes in the strip behind it. Species seen: Sweet chestnut: deeply furrowed spiralling bark, massive burred multi-stemmed trunks, bare in spring. Fits the description: Three great stems from one base inside a rope and paling fence on a slope, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d88315af.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d88315af-8100-48c3-8152-db0d21001544",
+          "note": "Photographed by a reader and sent through the app (2025-06-14); a viewing pass approved it on 2026-11-22: Looking up into the crown in June: chestnut leaves and the long pale catkins in flower on dark spreading limbs. A detail of the tree in flower, behind the lead in the strip. Species seen: Sweet chestnut: long lanceolate serrated leaves, upright cream flowering catkins, dark ridged limbs. Fits the description: The crown of a great chestnut seen from beneath, taken 20 m from our pin at Sant'Alfio.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "sal_002",

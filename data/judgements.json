@@ -791,6 +791,180 @@
    "agreed": null
   },
   {
+   "id": "sight:7d61fd79-4873-4949-a216-1ddb64960ae6",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Dr. Karl Lueger-Platz",
+   "city": "Vienna",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/7d61fd79-4873-4949-a216-1ddb64960ae6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Added to vie_023: the plane's buttressed trunk and low limbs over the benches in autumn leaf",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Vernon Oak",
+   "city": "Sheffield",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "The whole oak in the pavement of Vernon Road, low autumn sun: the Vernon Oak's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d88315af-8100-48c3-8152-db0d21001544",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Hundred-Horse Chestnut",
+   "city": "Sant'Alfio",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/d88315af-8100-48c3-8152-db0d21001544.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "publish",
+   "reason": "The Hundred-Horse Chestnut's crown in flower from beneath: in the strip behind the in-leaf lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d0a46fec-6bdf-4c48-b343-214b305c2814",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Hundred-Horse Chestnut",
+   "city": "Sant'Alfio",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/d0a46fec-6bdf-4c48-b343-214b305c2814.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "publish",
+   "reason": "The Hundred-Horse Chestnut's stems and propped central trunk in April, bare: in the strip behind the in-leaf lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bb454493-9642-49f0-b41b-8b3e7a67d026",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Witch Tree of Fanal",
+   "city": "Madeira",
+   "species": "Til / Stinkwood (Ocotea foetens)",
+   "photo": "out/sightings/bb454493-9642-49f0-b41b-8b3e7a67d026.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Til / Stinkwood (Ocotea foetens)"
+   },
+   "verdict": "publish",
+   "reason": "The Fanal til grove in fog, where the Witch Tree stands: in the strip, never the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "European Beech near Castlemorton",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_b940ea18aaf6152172df1c2f/59A9BF8F-4D59-4C58-B206-3ECC2A7F7EA8.jpg",
+   "reader_note": "It is in the churchyard of Tewkesbury Abbey. It is very beautiful with a monumental girth. It is craggy and  full of character. Well worth a hug.",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "A huge fluted beech on the lawn of Tewkesbury Abbey's grounds with a visitor for scale, photo GPS: live as tewkesbury/tew_001, a new place.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1433",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Oldest Plane Tree in Europe",
+   "city": "Τσαγκαράδα",
+   "species": null,
+   "photo": "p_fb3e66be25ed35bc713a96ab/cc6b74ae-dd7e-46b7-8705-9dccdf6d8f11.jpg",
+   "reader_note": "Is over 1000 years old, with 13 meters circumference",
+   "reader_girth_cm": 1300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_photo: the Tsagarada plane at night in snow, framed by letterbox bars like a screenshot of a shared picture. The tree is the famous Greek lead awaiting a verify pass.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1435",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "57F46EDF-95E2-4A21-935F-5B12D0B23E94",
+   "city": "Como",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -23291,26 +23465,21 @@
    "agreed": null
   },
   {
-   "id": "sight:7d61fd79-4873-4949-a216-1ddb64960ae6",
+   "id": "sight:59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
-   "tree": "The Plane of Dr. Karl Lueger-Platz",
-   "city": "Vienna",
-   "species": "London Plane (Platanus x acerifolia)",
-   "photo": "out/sightings/7d61fd79-4873-4949-a216-1ddb64960ae6.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 20,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
-   },
+   "tree": "The Great Beech of Tewkesbury Abbey",
+   "city": "Tewkesbury",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8.jpg",
+   "reader_note": "It is in the churchyard of Tewkesbury Abbey. It is very beautiful with a monumental girth. It is craggy and  full of character. Well worth a hug.",
+   "reader_girth_cm": 700,
+   "measure": null,
    "verdict": "publish",
-   "reason": "Added to vie_023: the plane's buttressed trunk and low limbs over the benches in autumn leaf",
+   "reason": "this tree (looked at the photograph, 2026-11-22)",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": []
   }
  ]
 }

@@ -80,10 +80,17 @@
       "location_precision": "approximate",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/shf_002-vernon-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_60ec57a96e4f27d4f6d47a15",
+        "sighting_id": "cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-22: The whole oak standing in the pavement of a stone-built residential road in Dore, the only tree on the street, late autumn with the last copper leaves, low sun, clear daylight. Closes the gap: the tree had no photograph. Species seen: Oak: broad irregular crown of crooked twigs, rugged grey trunk, last brown lobed leaves held in the crown. Fits the description: A single large tree growing in the pavement of a suburban road lined with stone houses and hedges, no other street tree on the road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       }
     }
   ]
