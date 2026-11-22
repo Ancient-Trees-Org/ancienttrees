@@ -83,7 +83,7 @@
     {
       "what": "The map search field: the whole field takes a tap, a grey clear cross at its end",
       "since": "2026-11-22",
-      "web": "fixed 2026-11-22: the explore field was only as wide as its text and showed the browser's blue cross halfway; now it fills the pill with our grey cross",
+      "web": "fixed 2026-11-22: the explore field was only as wide as its text and showed the browser's blue cross halfway; now it fills the pill with our grey cross; on a desktop the bar's field is the map's search and the panel has none (AllTrails' /explore, Hidde 2026-11-22), on a phone the sheet keeps its field",
       "ios": "the system search field: whole field tappable, grey clear cross",
       "android": "as iOS",
       "status": "one-sided",

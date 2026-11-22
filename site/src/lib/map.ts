@@ -952,19 +952,26 @@ if (panel) panel.addEventListener('click', function(e) {
 function _endSearch(clearField) {
   if (!FOCUS) { return; }
   FOCUS = null;
-  var q = document.getElementById('ex-q');
-  if (clearField && q) {
-    q.value = '';
-    var clr = q.parentNode && q.parentNode.querySelector('.ats-clr');
-    if (clr) { clr.hidden = true; }
+  // Both fields that search this map: the panel's (phone) and the bar's
+  // (desktop, AllTrails' way, 2026-11-22).
+  if (clearField) {
+    ['ex-q', 'bar-q'].forEach(function(id) {
+      var q = document.getElementById(id);
+      if (!q) { return; }
+      q.value = '';
+      var clr = q.parentNode && q.parentNode.querySelector('.ats-clr');
+      if (clr) { clr.hidden = true; }
+    });
   }
   applyFilters();
 }
 map.on('dragstart', function() { _endSearch(true); });
 map.on('zoomstart', function(e) { if (e && e.originalEvent) { _endSearch(true); } });
 (function() {
-  var q = document.getElementById('ex-q');
-  if (q) { q.addEventListener('input', function() { _endSearch(false); }); }
+  ['ex-q', 'bar-q'].forEach(function(id) {
+    var q = document.getElementById(id);
+    if (q) { q.addEventListener('input', function() { _endSearch(false); }); }
+  });
 })();
 map.on('moveend', renderPanel);
 // The photographs, from the catalogue the pins' cards share. Not behind the

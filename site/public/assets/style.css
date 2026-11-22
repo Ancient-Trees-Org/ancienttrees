@@ -3891,8 +3891,13 @@ i[lang="la"], .sr-body i[lang="la"] { font-style: italic; }
 .nav-search .bar-search-btn::after { content: none; }
 .nav-search .bar-search-btn .ic { width: 18px; height: 18px; display: block; }
 /* Where the page already shows a search field, the bar does not repeat it. */
-body:has(form.hero-search) .bar-find, body:has(form.ex-search) .bar-find,
+body:has(form.hero-search) .bar-find,
 body:has(form.hero-search) .nav-search, body:has(form.ex-search) .nav-search { display: none !important; }
+/* On the map the BAR's field is the map's search on a desktop, AllTrails'
+   /explore (Hidde, 2026-11-22: "Ja, zoals AllTrails"; CONVENTIONS.md "Where
+   the search field lives"), so the bar is the same on every page but home.
+   The panel keeps its field on a phone, where the panel is the sheet. */
+@media (min-width: 801px) { .panel-head .ex-search { display: none; } }
 @media (max-width: 799px) {
   /* The 375px bar had 42px free in English (measured 2026-10-12): a 36px
      circle with a 44px tap area, 6px gaps, and a pill 4px narrower. */
