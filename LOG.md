@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 04:39 UTC run (rung 2: red deploy)
+
+- Deploy was red on two qa lines. Fixed both in data/cities/philadelphia.json: the verify note on the Morris Arboretum weeping beech held the banned phrase "hidden gems" (a source's post title, rendered on the page), reworded; Bartram's Ginkgo hero was the 375px iNaturalist medium file, now large.jpg (768x1024, same photograph and licence). Preflight 0 problems. Not rebuilt here; the next deploy confirms.
+- Rung 1: 11 new tree notes read, none on the hide list, marked seen. Sighting 3c544597 (Amsterdam) still has no file on this runner, no verdict written.
+- Smoke test failure of 11-21 not investigated this window.
+
 ## 2026-11-22 reader judge: Shanghai's great plane
 
 - **New tree, new place: The Great Plane of Zhongshan Park (shanghai/sha_001).** A reader sent an "Oriental Plane" from Zhongshan Park with the GPS fix in the photograph: the whole tree behind its rail in a bed of red gravel, the crown just turning. Beside it stands the Shanghai greening bureau's sign. It names the tree as ancient plane no. 0909 and says it was planted in 1866, a gift Thomas Hanbury brought from Italy for Mr Hogg, whose garden became the park. It calls it "East China's No. 1 Plane" (widest crown, thickest trunk, five adults to reach round) and lists it as one of the park's twelve views, "A Lone Tree Braving the Frost". The sign is the source. The species is `Platanus sp.` (the sign does not say which plane, and the story gives "oriental plane" as the reader's word). The reader's 160 years matches the sign. Their girth of 1500 cm is left off because the sign's five adults suggests a slip. Pin confirmed, photo filed as November. Their second picture, a phone translation of the sign, is not published. One tree, so no place page. City names looked up (`city_names.py`).
