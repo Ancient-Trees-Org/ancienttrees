@@ -591,6 +591,16 @@
    "first_seen": "2026-11-22",
    "status": "open",
    "found_by": "reader"
+  },
+  {
+   "id": "ESC-2026-11-22-the-country-picked-in-the-app-was-never-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/Profiles.swift",
+   "summary": "The country picked in the app was never saved: the apps' upsert was refused for an empty display_name (fixed server-side by supabase/flag-upsert-fix.sql); Android has the same save",
+   "first_seen": "2026-11-22",
+   "status": "open",
+   "found_by": "reader"
   }
  ]
 }

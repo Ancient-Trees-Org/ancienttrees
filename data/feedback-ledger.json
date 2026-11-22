@@ -259,7 +259,7 @@
   "1358": {
    "date": "2026-11-22",
    "status": "handled",
-   "what": "answered how to change the country in Edit profile, 2026-11-22"
+   "what": "answered how to change the country in Edit profile, 2026-11-22; they were right, the app's save was broken: fixed server-side and a second reply sent the same day"
   },
   "1362": {
    "date": "2026-11-22",
