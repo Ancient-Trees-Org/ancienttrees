@@ -27,6 +27,12 @@ Not done: city_names.py not run for birmingham.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: the + sheet now says a photo is shared
+
+- **Product**: the sheet behind the middle + button (every upload passes it, both phones) said only "add it to your collection", which is how a reader put four holiday photos on public pages without knowing. Now, in Hidde's words: "Photograph a tree to add it to your collection and share it on the map." and, on a tree's page, "Share your photo on this tree's page." Android in all eight languages; the website's photo field adds "They're shared on the tree's page." Seen on the iPhone simulator and the Android emulator. Reaches phones with the next iOS and Android builds, the web line with the next deploy.
+- Recorded: PRODUCT_COPY.md ("share", not a warning) and CONVENTIONS.md.
+- **Left open for Hidde**: the website's thank-you after adding a photo says "We look at every photograph before it goes on a page", not true when the tree already has a lead photo (live first). The emulator holds a debug build now; uninstall before testing the Play build.
+
 ## 2026-11-22 reader judge (eighth run): a forest oak above Bad Homburg live
 
 - **New tree**: bad-homburg/bhg_007, The Tall Oak in the Taunus Beeches (Oak, Quercus sp.), a reader's two photographs looking up a furrowed oak trunk among beeches in autumn colour, pinned from the phone's fix about 4 km north-west of the Schlosspark. The reader's words ("one of the older trees here that are now endangered by logging") are quoted as theirs. The place FAQ "Can I see them all in one walk?" now says the forest oak is a walk of its own.
