@@ -79,6 +79,15 @@
       "android": "none, as iOS",
       "status": "done",
       "decided": "Hidde, 2026-11-20, both shown side by side: \"B, bomen in beeld\""
+    },
+    {
+      "what": "The map search field: the whole field takes a tap, a grey clear cross at its end",
+      "since": "2026-11-22",
+      "web": "fixed 2026-11-22: the explore field was only as wide as its text and showed the browser's blue cross halfway; now it fills the pill with our grey cross",
+      "ios": "the system search field: whole field tappable, grey clear cross",
+      "android": "as iOS",
+      "status": "one-sided",
+      "why": "a web layout fault only; the phones already behave this way"
     }
   ]
 }
