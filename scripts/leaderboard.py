@@ -26,6 +26,7 @@ import os
 import sys
 import urllib.request
 import json
+import math
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import inbox  # noqa: E402
@@ -56,6 +57,52 @@ def fetch_all(path, key):
         start += step
 
 
+def load_trees():
+    """tree id -> place name, and (lat, lng, place) for nearest-tree lookups."""
+    root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "cities")
+    by_id, pts = {}, []
+    for fn in os.listdir(root):
+        if not fn.endswith(".json"):
+            continue
+        with open(os.path.join(root, fn)) as f:
+            d = json.load(f)
+        place = d.get("city") or fn[:-5]
+        for t in d.get("trees", []):
+            by_id[t["id"]] = place
+            by_id["%s/%s" % (fn[:-5], t["id"])] = place
+            loc = t.get("location") or {}
+            if loc.get("latitude") is not None:
+                pts.append((loc["latitude"], loc["longitude"], place))
+    return by_id, pts
+
+
+def nearest(lat, lng, pts):
+    best, bd = None, 0.25  # about 25 km; further than that is "elsewhere"
+    k = math.cos(math.radians(lat))
+    for plat, plng, place in pts:
+        d = (plat - lat) ** 2 + ((plng - lng) * k) ** 2
+        if d < bd * bd:
+            best, bd = place, math.sqrt(d)
+    return best or "elsewhere"
+
+
+def active_places(key, since):
+    """Where each account's photos and visits are, by our place names."""
+    by_id, pts = load_trees()
+    out = collections.defaultdict(collections.Counter)
+    for r in fetch_all("/rest/v1/sightings?select=user_id,tree_id,lat,lng" + since.replace("created_at", "taken_at"), key):
+        place = by_id.get(r.get("tree_id") or "") or nearest(r["lat"], r["lng"], pts)
+        out[r["user_id"]][place] += 1
+    for r in fetch_all("/rest/v1/visited?select=user_id,tree_id" + since, key):
+        place = by_id.get(r.get("tree_id") or "")
+        if place:
+            out[r["user_id"]][place] += 1
+    for r in fetch_all("/rest/v1/submissions?select=user_id,city&kind=in.(tree,city)" + since, key):
+        if r.get("user_id") and r.get("city"):
+            out[r["user_id"]][r["city"].split(",")[0].strip()[:30]] += 1
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--top", type=int, default=25)
@@ -81,8 +128,10 @@ def main():
             if uid and not ours.is_ours(uid):
                 counts[uid][col] += 1
 
-    names = {p["user_id"]: p.get("display_name") or "?"
-             for p in fetch_all("/rest/v1/profiles?select=user_id,display_name", key)}
+    profiles = fetch_all("/rest/v1/profiles?select=user_id,display_name,country", key)
+    names = {p["user_id"]: p.get("display_name") or "?" for p in profiles}
+    home = {p["user_id"]: p.get("country") or "" for p in profiles}
+    where = active_places(key, since)
 
     board = []
     for uid, c in counts.items():
@@ -93,10 +142,13 @@ def main():
     span = "last %d days" % a.days if a.days else "all time"
     print("Most active readers, %s (%d active accounts)\n" % (span, len(board)))
     cols = list(WEIGHTS)
-    print("%3s  %-24s %6s  " % ("#", "name", "score") + " ".join("%6s" % k for k in cols))
+    print("%3s  %-24s %4s %6s  " % ("#", "name", "home", "score")
+          + " ".join("%6s" % k for k in cols) + "  active in")
     for i, (score, uid, c) in enumerate(board[:a.top], 1):
         name = names.get(uid, "(no profile)")[:24]
-        print("%3d  %-24s %6g  " % (i, name, score) + " ".join("%6d" % c[k] for k in cols))
+        places = ", ".join("%s %d" % pc for pc in where.get(uid, collections.Counter()).most_common(3))
+        print("%3d  %-24s %4s %6g  " % (i, name, home.get(uid, ""), score)
+              + " ".join("%6d" % c[k] for k in cols) + "  " + places)
     tot = collections.Counter()
     for _, _, c in board:
         tot.update(c)
