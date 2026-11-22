@@ -27,6 +27,12 @@ Not done: city_names.py not run for birmingham.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (eighth run): a forest oak above Bad Homburg live
+
+- **New tree**: bad-homburg/bhg_007, The Tall Oak in the Taunus Beeches (Oak, Quercus sp.), a reader's two photographs looking up a furrowed oak trunk among beeches in autumn colour, pinned from the phone's fix about 4 km north-west of the Schlosspark. The reader's words ("one of the older trees here that are now endangered by logging") are quoted as theirs. The place FAQ "Can I see them all in one walk?" now says the forest oak is a walk of its own.
+- **Seville sev_009**: I judged the same Goya fig photo the same way (`add`, the reader's photo leads), but the parallel run below had already pushed it, so I kept its version at the rebase.
+- Nothing else was waiting: no open reports, no feedback, no unjudged tips, no readers' words to quote. The 38 `mine` leads are our own account's photos and are left alone. Lead 3c544597 (Amsterdam) is ours too and has no file on disk.
+- preflight 0 problems, qa source clean, i18ncheck clean.
 ## 2026-11-22 session: Report and Block on a person's profile, all three surfaces
 
 - The ... top right of someone's profile now opens Report and Block, as on AllTrails and Instagram (Hidde: "Ja, bouw het"). The app's menu was only on rows in Find people; it is now one shared piece used by both places (iOS and Android). The website had no report or block at all; its profile page has them now, writing the same reports and blocks rows the apps write.

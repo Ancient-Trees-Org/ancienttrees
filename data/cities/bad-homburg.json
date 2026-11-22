@@ -28,7 +28,7 @@
     },
     {
       "q": "Can I see them all in one walk?",
-      "a": "Yes. They stand within a few hundred metres of each other in a thirteen-hectare park, the cedars by the palace and the rest around the pond and the lake."
+      "a": "The six in the Schlosspark, yes. They stand within a few hundred metres of each other in a thirteen-hectare park, the cedars by the palace and the rest around the pond and the lake. The tall oak a reader sent us grows in the Taunus forest about four kilometres north-west, a walk of its own."
     }
   ],
   "trees": [
@@ -280,6 +280,65 @@
       "verify_notes": "Published 2026-09-26 on Hidde's instruction ('luister naar leon'), applying his 2026-09-25 ruling that this contributor's tips are true. Single source: the reader's own submissions, flagged. Girth about 500cm and height about 36m are HIS figures, not measured by us; the story says so. The baumkunde.de entry he mentions was not found (searched 2026-09-25). Reader submissions rows 116, 166 and 230 (2026-09-20, 2026-09-23, 2026-09-25), one contributor whom Hidde calls a genuine tree expert and whose tips he rules are to be taken as true. A pedunculate oak of about 5m girth (second-thickest in the park, behind bhg_003's 5.39m and ahead of bhg_005's 4.94m, which matches exactly), in perfect condition with a huge undamaged and unusually vital crown, self-estimated at about 36m tall, which would be taller than anything else measured in this park. He says he also presented it on baumkunde.de years ago under the same name; a site search of the register and the baumkunde.de search tool itself (2026-09-25) found no matching entry, under this name or otherwise, in Bad Homburg. It is NOT bhg_003 (5.39m, bridge) and NOT bhg_005 (4.94m, south-west of the lake).\nLOCATION NOW GIVEN: row 230 supplied 50deg13'44.49\"N 8deg36'33.84\"E via the app, converting to 50.229025, 8.6094, which is 95m from the plane (bhg_004) on the side toward the Altstadt, consistent with his description in row 166. Set to confirmed on that basis, matching how bhg_003/004/005 (also single-source GPS from a citizen surveyor) are treated.\nSTILL A LEAD, NOT PUBLISHED: check_every_tree_names_a_source() in preflight.py refuses a city-page tree with an empty verified_sources array, precisely the Nara failure mode (a tree published on one contributor's word alone with nothing else). We have no register entry, no press mention and no photograph independent of his own account, only his own repeated say-so, however detailed and consistent. Asked him (2026-09-25 reply) for the baumkunde.de link or a photo of the trunk, either of which would supply the missing source. Publish as bhg_006 the day either arrives.\nHEIGHT 2026-09-27: height_m 36 is Leon's own estimate, entered on Hidde's word ('listen to what he says, he is an expert'), an exception to the survey-or-plaque rule for heights, made for this contributor.\n2026-10-02, the contributor again, by mail to Hidde with the Baumkunde thread on this oak: the 4.6 m girth in that thread is his own figure from 2010; in 2025 he taped exactly 5.0 m at breast height. girth_cm stays 500 (it already carried his 2025 figure from submission 230); the thread is now a named source so the 4.6 m a reader may find there is explained as the older measurement.",
       "height_m": 36,
       "girth_basis": "measured"
+    },
+    {
+      "id": "bhg_007",
+      "name": "The Tall Oak in the Taunus Beeches",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Taunus forest north-west of Dornholzhausen, Bad Homburg vor der Hohe, Hessen, Germany",
+        "latitude": 50.2505316666667,
+        "longitude": 8.564955,
+        "neighbourhood": "Taunus forest"
+      },
+      "story": "\"It's a beautiful tree,\" wrote the reader who sent us this oak from the woods above Bad Homburg, \"one of the older trees here that are now endangered by logging.\"\n\nIt stands in the beech forest of the Taunus, a few kilometres up the hill from the town's Schlosspark, and the reader's photographs are taken from its foot looking straight up. The trunk is dark and deeply furrowed, the bark of an oak, and it climbs clean and straight past the slimmer beeches around it before breaking into a handful of crooked limbs. Those limbs twist and double back on themselves as they spread, the way an oak's do once it has outgrown its neighbours, and in November they carry the same copper and amber as the beech crowns pressing in on every side.\n\nWe do not know its girth, its age or exactly which oak it is, and the reader's worry about logging is theirs; we have no record of plans for this stand. If you know this tree or the forest it grows in, tell us here and we will add it.\n\nStand at the foot of the trunk and look up, as the reader did, to see where it leaves the beeches behind.",
+      "verified_sources": [],
+      "access": "Free. In open forest on the hill above Bad Homburg, reached on foot along the forest paths.",
+      "how_to_recognise": "A tall oak among slimmer beeches: a dark, deeply furrowed trunk rising straight and bare before it breaks into a few crooked, twisting limbs high in the canopy.",
+      "found_by_reader": {
+        "sighting_id": "6315b918-2200-4671-8eab-e0771a6065a5",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6315b918-2200-4671-8eab-e0771a6065a5",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (6315b918-2200-4671-8eab-e0771a6065a5, through the app). Photograph viewed: two frames looking up a tall, furrowed oak trunk in beech woodland, its crooked limbs spreading into a crown of turning leaves, overcast daylight, colour. Bark furrowed like an oak's; species left at the genus for readers to settle. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree in Bad Homburg', species 'None', age 'None', girth None cm. Their note on logging is quoted as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bhg_007-tall-oak-in-the-taunus-beeches.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_b9fc85a912a6ec8808c306b0",
+        "sighting_id": "6315b918-2200-4671-8eab-e0771a6065a5",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: two frames looking up a tall, furrowed oak trunk in beech woodland, its crooked limbs spreading into a crown of turning leaves, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bhg_007-tall-oak-in-the-taunus-beeches-below.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "source": "contributor",
+          "contributor_user_id": "p_b9fc85a912a6ec8808c306b0",
+          "sighting_id": "6315b918-2200-4671-8eab-e0771a6065a5",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: two frames looking up a tall, furrowed oak trunk in beech woodland, its crooked limbs spreading into a crown of turning leaves, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

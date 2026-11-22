@@ -1301,6 +1301,173 @@
    "agreed": null
   },
   {
+   "id": "sight:e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Beech of the Solbosch Woods",
+   "city": "Brussels",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/e4cfea4f-5e7b-4793-a06a-3e1a631f76bf.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed: a two-trunked tree on an open lawn in yellow leaf, tulip-tree-like leaves, not the 5.1 m Solbosch beech it was sent for; its coordinate is our pin, so held doubt_location as a lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_02edf756ac8c1a596232f1a1/84D248DD-6FA9-4DD5-ACD3-1A33EC1A319D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a massive twisted tree with plaques on a paved waterfront point at Ribeirão da Ilha, a person for scale, dusk, colour; photo GPS fix. Live as florianopolis/fln_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:553f2448-0e51-4ae4-9f09-7553dc660819",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Fig",
+   "city": null,
+   "species": "Fig",
+   "photo": "p_02edf756ac8c1a596232f1a1/553F2448-0E51-4AE4-9F09-7553DC660819.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: up into a big fig with curtains of aerial roots, daylight; hand-placed pin in Coqueiros, so approximate, access stated as unconfirmed. Live as florianopolis/fln_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Brussels",
+   "species": null,
+   "photo": "p_1096fdc351dbd860c622d33a/E4CFEA4F-5E7B-4793-A06A-3E1A631F76BF.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a two-trunked tree on an open lawn in yellow leaf, sent for the Solbosch beech but not it; its coordinate is that tree's pin, so where it stands is unknown.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Tree on the shore of Ribeirão da Ilha, Florianópolis",
+   "photo": "p_02edf756ac8c1a596232f1a1/84D248DD-6FA9-4DD5-ACD3-1A33EC1A319D.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a massive twisted trunk with two plaques on a paved waterfront point, limbs over the bay, a man at its foot for scale, dusk, colour. Live as florianopolis/fln_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:553f2448-0e51-4ae4-9f09-7553dc660819",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Fig in Coqueiros, Florianópolis",
+   "photo": "p_02edf756ac8c1a596232f1a1/553F2448-0E51-4AE4-9F09-7553DC660819.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: up from the foot of a big fig into its crown, curtains of aerial roots, daylight, colour. Live as florianopolis/fln_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2fabeea6-e1e1-49fb-aba4-07fddea81246",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig of the Glorieta de Goya",
+   "city": "Seville",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/2fabeea6-e1e1-49fb-aba4-07fddea81246.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Same fig as our Commons photo (railed ring, fenced earth paths, lamps); whole crown in daylight, now the lead photo of sev_009, Commons one in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6315b918-2200-4671-8eab-e0771a6065a5",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Bad Homburg",
+   "city": null,
+   "species": null,
+   "photo": "p_b9fc85a912a6ec8808c306b0/6315B918-2200-4671-8EAB-E0771A6065A5.jpg",
+   "reader_note": "it's a beautiful tree. one of the older trees here that are now endangered by logging.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Tall furrowed oak among beeches in the Taunus forest above Bad Homburg, two upward frames in autumn colour, device GPS fix. Live as bad-homburg/bhg_007, species left at Quercus sp.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -23801,122 +23968,14 @@
    "agreed": null
   },
   {
-   "id": "sight:e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Great Beech of the Solbosch Woods",
-   "city": "Brussels",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": "out/sightings/e4cfea4f-5e7b-4793-a06a-3e1a631f76bf.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "none",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about European Beech (Fagus sylvatica)"
-   },
-   "verdict": "hold",
-   "reason": "Photograph viewed: a two-trunked tree on an open lawn in yellow leaf, tulip-tree-like leaves, not the 5.1 m Solbosch beech it was sent for; its coordinate is our pin, so held doubt_location as a lead.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+   "id": "sight:6315b918-2200-4671-8eab-e0771a6065a5",
    "seen": "2026-11-22",
    "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "city": null,
-   "species": null,
-   "photo": "p_02edf756ac8c1a596232f1a1/84D248DD-6FA9-4DD5-ACD3-1A33EC1A319D.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": null,
+   "tree": "A tree in Bad Homburg",
+   "photo": "p_b9fc85a912a6ec8808c306b0/6315B918-2200-4671-8EAB-E0771A6065A5.jpg",
+   "reader_note": "it's a beautiful tree. one of the older trees here that are now endangered by logging.",
    "verdict": "publish",
-   "reason": "Photograph viewed: a massive twisted tree with plaques on a paved waterfront point at Ribeirão da Ilha, a person for scale, dusk, colour; photo GPS fix. Live as florianopolis/fln_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:553f2448-0e51-4ae4-9f09-7553dc660819",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Fig",
-   "city": null,
-   "species": "Fig",
-   "photo": "p_02edf756ac8c1a596232f1a1/553F2448-0E51-4AE4-9F09-7553DC660819.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Fig"
-   },
-   "verdict": "publish",
-   "reason": "Photograph viewed: up into a big fig with curtains of aerial roots, daylight; hand-placed pin in Coqueiros, so approximate, access stated as unconfirmed. Live as florianopolis/fln_002.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "",
-   "city": "Brussels",
-   "species": null,
-   "photo": "p_1096fdc351dbd860c622d33a/E4CFEA4F-5E7B-4793-A06A-3E1A631F76BF.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "doubt_location: a two-trunked tree on an open lawn in yellow leaf, sent for the Solbosch beech but not it; its coordinate is that tree's pin, so where it stands is unknown.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Tree on the shore of Ribeirão da Ilha, Florianópolis",
-   "photo": "p_02edf756ac8c1a596232f1a1/84D248DD-6FA9-4DD5-ACD3-1A33EC1A319D.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: a massive twisted trunk with two plaques on a paved waterfront point, limbs over the bay, a man at its foot for scale, dusk, colour. Live as florianopolis/fln_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:553f2448-0e51-4ae4-9f09-7553dc660819",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Fig in Coqueiros, Florianópolis",
-   "photo": "p_02edf756ac8c1a596232f1a1/553F2448-0E51-4AE4-9F09-7553DC660819.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: up from the foot of a big fig into its crown, curtains of aerial roots, daylight, colour. Live as florianopolis/fln_002 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-22: two frames looking up a tall, furrowed oak trunk in beech woodland, crooked limbs into a crown of turning leaves, overcast daylight, colour. Live as bad-homburg/bhg_007 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
