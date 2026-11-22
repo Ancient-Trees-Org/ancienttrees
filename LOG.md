@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (ninth run): an oak at Fulltofta live, the Andaman tip held
+
+Live: a reader's bare November oak at Fulltofta, Hörby, Skåne is a new tree, fulltofta/flt_001 "The Wide Oak of Fulltofta" (Oak, Quercus sp.; the photograph's own location, which the app had named "near Torna Hällestad", 25 km off; one-tree place, so no place page).
+Held: the Andaman Islands tip (1463), a huge buttressed trunk with only "Andaman Island" as its place, `no_location`; the standard reply asking where it stands goes at the next knock.
+Rejected: a photo sent for the Redford Wood Redwood (Edinburgh) that is a picture of a framed print of a fallen log, taken in central Edinburgh, plus a small maple.
+Breakage, caught at the rebase: this run also judged the Linden of Linn photos, which the run above had already published; the rebase kept that run's version.
+Left: lead 3c544597 (Amsterdam, `mine`) still has no photograph on disk. No open reports, feedback or mail replies. city_names.py found no Wikipedia article for Fulltofta.
+
 ## 2026-11-22 reader judge: a summer photo for the Linden of Linn
 
 Live: the Linden of Linn (zurich/boz_001) took a reader's August photo as its lead, filed in summer. The same reader had sent the frame twice, so the second copy was rejected as a duplicate.

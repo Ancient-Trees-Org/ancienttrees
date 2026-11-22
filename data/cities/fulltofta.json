@@ -1,0 +1,71 @@
+{
+  "city": "Fulltofta",
+  "country": "Sweden",
+  "status": "needs_curation",
+  "intro": "Fulltofta is a hamlet in Hörby municipality in central Skåne, in the south of Sweden, among farmland and woods north-east of Lund. A reader sent us one of its trees: a broad old oak at the edge of a wood, photographed bare in November, its long crooked limbs reaching out almost level over a bank of young birches. We do not know its girth or age yet, and we would like to.",
+  "meta_description": "A broad old oak at Fulltofta in Skåne, sent by a reader: where it stands, what it looks like and how to find it.",
+  "hero_tree_id": "flt_001",
+  "oldest_tree_id": "flt_001",
+  "trees": [
+    {
+      "id": "flt_001",
+      "name": "The Wide Oak of Fulltofta",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Edge of a wood near Fulltofta, Hörby, Skåne",
+        "latitude": 55.8810366666667,
+        "longitude": 13.6135716666667,
+        "neighbourhood": "Fulltofta"
+      },
+      "story": "A reader sent us this oak from the edge of a wood at Fulltofta, in the farmland and beech country of central Skåne, photographed on a bright November day after its leaves had come down.\n\nBare, it hides nothing. A short, thick trunk rises out of a bank of scrub and, at about head height, breaks into great crooked limbs that run out sideways, almost level, before they turn upwards. Each of them divides again and again until the crown is a dark net drawn across the sky, far wider than the trunk would lead you to expect. Thin young birches stand all round its foot, pale and straight, and they make the old tree look even broader by comparison.\n\nWe do not know its girth, its age, or which of Sweden's two native oaks it is, pedunculate or sessile. A few brown leaves still hanging in the photograph are not enough to tell. If you stand under it with a tape measure, or know what the people of Fulltofta call it, tell us here and we will add your figures as yours.\n\nCome in winter, as the reader did, when every limb stands clear against the light, and walk all the way round the trunk to see how far the branches reach.",
+      "how_to_recognise": "A broad old oak on a scrubby bank at the edge of a wood: a short thick trunk that splits at head height into long crooked limbs reaching out almost level, with thin young birches crowding its foot.",
+      "verified_sources": [],
+      "access": "Countryside near Fulltofta, Hörby. The reader walked up to it; we have not confirmed who owns the land. Sweden's right of public access lets you cross open land on foot, away from gardens and growing crops.",
+      "found_by_reader": {
+        "sighting_id": "ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+        "date": "2026-11-22"
+      },
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app (sighting ad8664d1-e182-4244-9fa2-a6f3ab7cca1e), no words, the app's place name 'A tree near Torna Hällestad' was its nearest place of ours; the photograph's location reverse-geocodes to Fulltofta, Hörby (OpenStreetMap Nominatim). No register entry within 100 m (corroborate.py). Photograph viewed: the whole bare oak from below against a blue sky: a thick short trunk rising from a scrubby bank, breaking at head height into long crooked limbs that reach out almost level and divide into a dense net, young birches and scrub around its foot, a few brown oak leaves still hanging, daylight, colour. Species left as the genus: bare twigs and a few dead leaves cannot settle pedunculate or sessile. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/flt_001-wide-oak-of-fulltofta.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_602ee350069d3265c04c9dc1",
+        "sighting_id": "ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+        "note": "Photographed by a reader and sent through the app; viewed and approved on 2026-11-22: the whole bare oak from below against a blue sky: a thick short trunk rising from a scrubby bank, breaking at head height into long crooked limbs that reach out almost level and divide into a dense net, young birches and scrub around its foot, a few brown oak leaves still hanging, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A broad old oak at Fulltofta in Skåne, sent by a reader: where it stands, what it looks like and how to find it.",
+  "question_answer": "The Wide Oak of Fulltofta stands at the edge of a wood near Fulltofta, in Hörby municipality in Skåne. It is in open countryside; Sweden's right of public access lets you walk to it.",
+  "question_context": "Fulltofta is a small place in Hörby municipality, in the middle of Skåne, Sweden's southernmost province, among farmland and woods north-east of Lund. A reader sent us a photograph of an oak there, taken in November after the leaves had fallen, and that is the tree on our map. The photograph shows a short, thick trunk on a scrubby bank at the edge of a wood, breaking at head height into long crooked limbs that reach out almost level before turning up, so the crown is far wider than the trunk. Thin young birches crowd its foot. We do not yet know its girth or age, or whether it is a pedunculate or a sessile oak, the two oaks native to Sweden. The land around it is countryside; we have not confirmed who owns it, but Sweden's right of public access lets anyone cross open land on foot, keeping away from gardens and growing crops. Winter, when the limbs are bare, shows its shape best.",
+  "faq": [
+    {
+      "q": "Can I visit The Wide Oak of Fulltofta?",
+      "a": "Yes, on foot. It stands in open countryside near Fulltofta, and Sweden's right of public access lets you walk to it, away from gardens and growing crops."
+    },
+    {
+      "q": "How old is the oak at Fulltofta?",
+      "a": "We do not know yet. If you have measured its girth or know its history, tell us on its page and we will add your figures."
+    },
+    {
+      "q": "When is the best time to see it?",
+      "a": "Winter shows its shape best, when the long bare limbs stand clear against the sky, as in the reader's November photograph."
+    }
+  ]
+}

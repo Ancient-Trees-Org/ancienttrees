@@ -6767,6 +6767,20 @@
    "date": "2026-11-22",
    "tree_id": "boz_001",
    "reason": "duplicate: the same frame as 8e633401, sent twice by the same reader, which went on the page"
+  },
+  "e5a801bf-b473-40d2-8796-3747acdbe016": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "edi_021",
+   "reason": "no tree of ours in frame: the main picture is a photograph of a framed print on a wall (a moss-covered fallen log over a stream, laid with lines of stones, the frame edge visible at the bottom right), its GPS in central Edinburgh about 6 km from Redford Wood; the extra picture is a small maple in au"
+  },
+  "ad8664d1-e182-4244-9fa2-a6f3ab7cca1e": {
+   "outcome": "published",
+   "date": "2026-11-22"
+  },
+  "tip-1463": {
+   "outcome": "held",
+   "date": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

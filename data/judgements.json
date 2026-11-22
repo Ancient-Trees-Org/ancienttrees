@@ -24032,6 +24032,86 @@
    "reason": "Duplicate of 8e633401, the same frame sent twice by the same reader; the other copy is on the page",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e5a801bf-b473-40d2-8796-3747acdbe016",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Redford Wood Redwood",
+   "city": "Edinburgh",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "out/sightings/e5a801bf-b473-40d2-8796-3747acdbe016.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 5956,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia (Sequoiadendron giganteum)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected: a photograph of a framed print of a fallen log with stone art, taken in central Edinburgh 6 km from Redford Wood, plus a small maple in a rock garden; neither is the redwood.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Torna Hällestad",
+   "city": null,
+   "species": null,
+   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "A broad veteran oak, bare in November, long level limbs over young birches, at the edge of a wood near Fulltofta, Hörby; photo GPS. Live as fulltofta/flt_001, Oak (Quercus sp.).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1463",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Unknown Tree",
+   "city": "Andaman Island",
+   "species": null,
+   "photo": "p_fc3f7e1848340d7730f9be1b/dc10337e-23ef-45c9-bb61-424251b41da8.jpg",
+   "reader_note": "Old Huge , high, Big trunk",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "no_location: a huge buttressed rainforest trunk worth a page, but only 'Andaman Island' given and no location in the photo; standard reply asks where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Torna Hällestad",
+   "photo": "p_602ee350069d3265c04c9dc1/AD8664D1-E182-4244-9FA2-A6F3AB7CCA1E.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a broad bare oak against a blue sky, long crooked level limbs over young birches on a scrubby bank, daylight, colour; taken at Fulltofta, Hörby. Live as fulltofta/flt_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
