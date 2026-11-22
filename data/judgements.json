@@ -16100,11 +16100,12 @@
    "photo": "out/sightings/1b533cdf-ddaf-459a-a771-f9c1d8702d78.jpg",
    "verdict": "hold",
    "reason": "This is not a ginkgo: smooth grey columnar trunk and a fine crown of small oval leaves, with beech leaves on the path, so most likely a beech near the ginkgo. Wrong tree for this entry.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands (its lead is held not_special), not shown to him",
+   "agreed": true,
    "shown": [
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-22"
    ]
   },
   {
