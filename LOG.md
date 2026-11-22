@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (sixteenth run): a reader's November view of the Cedar of Jussieu joins its gallery
+
+paris/par_002: a reader's photograph (sighting a56bc4d5, 30 m from our pin) went into the gallery behind the reader's lead photo. It shows the cedar's arching side limb and flat crown over the gold ginkgo lawn, but it is overcast and partly screened. It was the one photo the parallel run (9e999d9f2) left unjudged, so it was put back in the queue and published through `sightings_publish.py`. This run had judged the Fontainebleau sequoia, the Argyle Street ash and both Boab frames too, but the parallel run pushed first with the same verdicts (fon_001 live), so that duplicate commit was dropped.
+Left: lead 3c544597 (Amsterdam, `mine`) still has no file on disk. No open reports, feedback, tips or readers' words.
+
 ## 2026-11-22, night run (window from 17:04 UTC), rung 1
 
 - **Live:** a reader's giant sequoia in the gardens of the Château de Fontainebleau is a new place, `fontainebleau/fon_001` (photograph viewed, GPS fix at the tree, nothing in a register or Wikipedia within 300 m, so age, girth and height are stated as unknown). The reader's Argyle Street ash frame for Glasgow was already in that tree's gallery, so nothing changed there.
