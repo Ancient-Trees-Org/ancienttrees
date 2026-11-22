@@ -29,6 +29,7 @@ struct ProfileEditor: View {
     @State private var saving = false
     @State private var failed = false
     @State private var reason: String?
+    @State private var filled = false
 
     var body: some View {
         NavigationStack {
@@ -113,6 +114,13 @@ struct ProfileEditor: View {
                 }
             }
             .task {
+                // ONCE PER OPENING (2026-11-22, a reader: "helaas wil het land
+                // bij mij nog niet blijven staan"). The Country list is pushed
+                // over this Form, so coming back from it runs this task again;
+                // without the guard it put the saved country back over the one
+                // just picked, and a typed name with it. CountryStaysWalk.
+                guard !filled else { return }
+                filled = true
                 name = profiles.me?.display_name ?? ""
                 // Unchosen and no row yet: the phone's region, stored with
                 // the first Save. "Don't show" stays as chosen.
