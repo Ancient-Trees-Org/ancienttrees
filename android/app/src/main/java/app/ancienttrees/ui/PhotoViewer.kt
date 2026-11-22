@@ -277,15 +277,10 @@ fun PhotoViewer(
                     }
                     val credit = shown.credit
                     val author = shown.by?.let { authors[it] }
-                    if (credit != null) {
-                        Text(
-                            credit,
-                            fontSize = 11.sp,
-                            color = Color.White.copy(alpha = 0.85f),
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.padding(horizontal = 20.dp),
-                        )
-                    } else if (author?.authorName != null) {
+                    // The byline first: a visitor's photograph also carries a licence
+                    // line, which used to win and hid the name, time and heart
+                    // (Kit/PhotoViewer.swift, found 2026-11-22).
+                    if (author?.authorName != null) {
                         // A visitor's photograph: who and when (Kit/PhotoViewer.swift, 2026-11-20).
                         androidx.compose.foundation.layout.Row(
                             horizontalArrangement = Arrangement.spacedBy(5.dp),
@@ -299,6 +294,14 @@ fun PhotoViewer(
                             }
                             shown.by?.let { PhotoHeart(it.lowercase(), onDark = true) }
                         }
+                    } else if (credit != null) {
+                        Text(
+                            credit,
+                            fontSize = 11.sp,
+                            color = Color.White.copy(alpha = 0.85f),
+                            textAlign = TextAlign.Center,
+                            modifier = Modifier.padding(horizontal = 20.dp),
+                        )
                     }
                 }
             } }

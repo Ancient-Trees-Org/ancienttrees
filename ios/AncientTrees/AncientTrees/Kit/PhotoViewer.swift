@@ -143,13 +143,11 @@ struct PhotoViewer: View {
                                 .foregroundStyle(.white.opacity(0.9))
                                 .accessibilityIdentifier("photo-count")
                         }
-                        if let photo = shown, let credit = Photos.credit(photo) {
-                            Text(credit)
-                                .font(.caption2)
-                                .foregroundStyle(.white.opacity(0.85))
-                                .multilineTextAlignment(.center)
-                                .padding(.horizontal, 20)
-                        } else if let by = shown?.by, let a = authors[by], let name = a.author_name {
+                        // The byline first: a visitor's photograph also carries
+                        // a licence line ("Provided by a reader ..."), which
+                        // used to win and hid the name, time and heart
+                        // (found 2026-11-22 on the Copenhagen mulberry).
+                        if let by = shown?.by, let a = authors[by], let name = a.author_name {
                             // A visitor's photograph: who and when, the tree
                             // page's byline (Hidde, 2026-11-20; Google Maps
                             // names the maker and the date in its viewer).
@@ -164,6 +162,12 @@ struct PhotoViewer: View {
                             .foregroundStyle(.white.opacity(0.9))
                             .lineLimit(1)
                             .padding(.horizontal, 20)
+                        } else if let photo = shown, let credit = Photos.credit(photo) {
+                            Text(credit)
+                                .font(.caption2)
+                                .foregroundStyle(.white.opacity(0.85))
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 20)
                         }
                     }
                     .padding(.bottom, 16)
