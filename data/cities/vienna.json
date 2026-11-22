@@ -745,13 +745,17 @@
         "kind": "flowers"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Stadtpark_Japanischer_Schnurbaum.jpg",
-        "license": "CC BY-SA 3.0 AT",
-        "attribution": "Thomas Ledl, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/vie_016-the-pagoda-tree-of-the-stadtpark-969cecfa.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2448,
-        "height": 3538,
-        "taken_month": 5
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3c788cea8bd6bb5caafb5b4d",
+        "sighting_id": "969cecfa-4f13-4256-928d-3b9042a42166",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The trunk and crown of the pagoda tree in the Stadtpark, deeply furrowed bark, forking low with one stem leaning hard away; daylight and colour, 8 m from our pin, the park balustrade behind. Species seen: pinnate leaves of small leaflets still green in November, deeply ridged grey-brown bark. Fits the description: a thick trunk forking low into stems that lean away from each other in two directions, in open park lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Naturdenkmal Nr. 276, protected 16 December 1941 (Vienna monument register, register_id 3257446, 48.203669/16.379102). Baumkataster BAUM_ID 193786 at the same point to within 0.0 m: PFLANZJAHR 1860, girth 444 cm, height class 5 (21-25 m), crown class 6 (16-18 m). Note the Baumkataster still files the species under the old name Sophora japonica; the corpus canonical name is 'Japanese Pagoda Tree (Styphnolobium japonicum)', which seven other trees on the site already use. A second, much younger pagoda tree (BAUM_ID 193723, 1938, 238 cm) stands 18 m away and is not the monument. The 1860-versus-1862 point is stated as the tension it is rather than resolved, because the register's planting year is the city's own figure and no planting document has been seen. Photo viewed directly at 960x1387 before approval: daylight, colour, blue sky, the tree fills the frame from root flare to crown, the low fork clearly readable, a small white stone monument behind it for scale. Portrait format, but the tree is centred so the wide card crop still lands on trunk and lower crown.",
@@ -761,7 +765,18 @@
         "name": "Naturdenkmale (Stadt Wien, MA 22), no. 3257446",
         "url": null
       },
-      "girth_cm": 444
+      "girth_cm": 444,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Stadtpark_Japanischer_Schnurbaum.jpg",
+          "license": "CC BY-SA 3.0 AT",
+          "attribution": "Thomas Ledl, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2448,
+          "height": 3538,
+          "taken_month": 5
+        }
+      ]
     },
     {
       "id": "vie_017",

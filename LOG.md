@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: the Vienna pagoda tree gets the same reader's photograph
+
+- **Vienna, The Pagoda Tree of the Stadtpark (vie_016)**: the same reader who sent the plane (below) sent this one from 8 m off our pin, taken today. Looked at it: pinnate leaves still green, deeply furrowed trunk forking low with one stem leaning hard away, as the recognition line says, the park balustrade behind. It now leads; the Commons photograph moves to the strip. Filed under November from the photo's own date. The reader's mail joins the weekly bundle with the plane's.
+- This run also judged the plane and agreed; the earlier run's entry for it is kept. Nothing else waited: no reports, tips, feedback or notes to quote. The only lead listed (3c544597, Amsterdam) is our own account's photo (`mine`) and has no file here.
+
 ## 2026-11-22 session: the Species filter says when a search finds nothing (iPhone and Android)
 
 - **What changes in the apps** (Hidde: "build it for both apps"): on the map's Species sheet, a search with no match showed a blank grey screen. Both apps now show "No species by that name." where the list was, the website's own line, in small grey text. Android in all eight languages from the site's translations. Seen on the iPhone 17 Pro simulator (no match; "oak" still lists every oak) and the Android emulator.

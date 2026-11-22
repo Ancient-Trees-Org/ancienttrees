@@ -756,6 +756,41 @@
    "agreed": null
   },
   {
+   "id": "sight:tip-763",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Weeping Beech of Magistratsparken",
+   "photo": "p_fc14e72a5774c09d7ee8ace0/fb15cfeb-8524-4156-b736-b8218bd6acc6.jpg",
+   "reader_note": "Majestic Hängbok, (Fagus sylvatica 'Pendula'), Magistratsparken, Malmö, Sweden.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole weeping beech on a park lawn, a three-peaked green dome of hanging branches, summer daylight, colour. Live as malmo/mlm_001 on Hidde's ask (off-list hold reversed).",
+   "hidde": "Session 2026-11-22 on Hidde's ask: off-list hold reversed, published",
+   "agreed": true,
+   "shown": []
+  },
+  {
+   "id": "sight:969cecfa-4f13-4256-928d-3b9042a42166",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Pagoda Tree of the Stadtpark",
+   "city": "Vienna",
+   "species": "Japanese Pagoda Tree (Styphnolobium japonicum)",
+   "photo": "out/sightings/969cecfa-4f13-4256-928d-3b9042a42166.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 8,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Pagoda Tree (Styphnolobium japonicum)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: pinnate leaves, deeply furrowed trunk forking low with one stem leaning hard away, Stadtpark balustrade behind, 8 m from our pin. Added beside the existing photograph (reader's now leads).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -17267,19 +17302,6 @@
     "2026-11-21",
     "2026-11-22"
    ]
-  },
-  {
-   "id": "sight:tip-763",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "The Weeping Beech of Magistratsparken",
-   "photo": "p_fc14e72a5774c09d7ee8ace0/fb15cfeb-8524-4156-b736-b8218bd6acc6.jpg",
-   "reader_note": "Majestic Hängbok, (Fagus sylvatica 'Pendula'), Magistratsparken, Malmö, Sweden.",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole weeping beech on a park lawn, a three-peaked green dome of hanging branches, summer daylight, colour. Live as malmo/mlm_001 on Hidde's ask (off-list hold reversed).",
-   "hidde": "Session 2026-11-22 on Hidde's ask: off-list hold reversed, published",
-   "agreed": true,
-   "shown": []
   },
   {
    "id": "lead:fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",

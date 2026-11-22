@@ -1630,6 +1630,15 @@
      "city_slug": "vienna",
      "display_name": null,
      "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "969cecfa-4f13-4256-928d-3b9042a42166",
+     "tree_id": "vie_016",
+     "tree_name": "The Pagoda Tree of the Stadtpark",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": [
