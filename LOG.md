@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 session: the country you pick on iPhone stays picked
+
+- Reader 1358 wrote again after this morning's flag fix: "Helaas wil het land bij mij nog niet blijven staan". The server takes the apps' save now (round-trip on apptest: BE, then NL). Her row still said NL, so her new choice had never reached it.
+- The cause sat in the iPhone app. Edit profile filled the name and country in a `.task` on its Form, and the Country list is pushed over that Form, so coming back from the list ran the task again and put the saved country back before Save. It now fills once per opening (ProfileEditor.swift). CountryStaysWalk picks Don't show over NL: without the guard it fails ("Netherlands" back on the row), with it it passes. Android was already fine (`remember`).
+- Escaped bug ESC-2026-11-22-edit-profile-put-the-saved-country-back- is recorded, caught and fixed in 36d7ad09e. The fix reaches readers with the next iOS build; until then the website's /account sets the country.
+- For Hidde: a reply to her is drafted in drafts/reply-reader-1358-2026-11-22b.md. It waits for your yes.
+
 ## 2026-11-22 session: a dropped pin, double tap for a heart, a second tap on Map and My trees
 
 - **Touch and hold the map drops a pin**, iPhone, Android and website (right-click on a computer), built to Apple's and Google's own help pages (Hidde: "build it exactly as them"). One red pin above our trees, a "Dropped pin" card with the coordinates, Add a tree here and Directions; a tap elsewhere takes it away. Add a tree here opens the add flow at that spot.

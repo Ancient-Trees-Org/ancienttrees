@@ -614,6 +614,18 @@
    "status": "open",
    "found_by": "hidde",
    "test": "scripts/pagecheck.py walk(): the search field fills its pill"
+  },
+  {
+   "id": "ESC-2026-11-22-edit-profile-put-the-saved-country-back-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/ProfileEditor.swift",
+   "summary": "Edit profile put the saved country back after picking another (the .task on the Form re-ran when the Country list popped)",
+   "first_seen": "2026-11-22",
+   "status": "fixed",
+   "found_by": "reader",
+   "test": "AncientTreesUITests/CountryStaysWalk",
+   "fixed_in": "36d7ad09e"
   }
  ]
 }
