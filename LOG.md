@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 session: Chiang Mai has an ambassador
+
+Live: Jonardon G., who added the Bodhi Tree at Sunset (cnx_003), answered the congratulation mail's P.S. with "Yes happy to be an ambassador". Badge granted (`ambassador.py --grant`), named on /chiang-mai because the profile is public, and the standard "Looking after Chiang Mai" mail sent once from the Ancient Trees address.
+Breakage: `--grant` without `--send` is not a dry run when the Supabase key is on the machine; it granted at once. Loading ~/.ancienttrees-mail.env whole overrides the Supabase key (401), so only its OUTREACH_ lines were loaded for the mail.
+
 ## 2026-11-22 reader judge (seventeenth run): the Tortworth Chestnut and a Paris bur oak go live from readers
 
 - **Live:** the Tortworth Chestnut (`tortworth/ttw_001`, a new place). The reader sent a May frame of the hollow, fluted giant and a second frame of its 1800 plaque ("six hundred years old"). Wikipedia confirms the tree and the accounts of 1664 and 1712. The reader's 900 years is stated as theirs. The pin is their hand-placed spot, which they moved 70 m while adding the tree (report 1000128, closed `holds`, no mail because it was their own new tree), so it stays approximate.

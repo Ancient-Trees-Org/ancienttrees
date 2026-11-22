@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-22T16:40Z",
+  "synced": "2026-11-22T17:44Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -2168,6 +2168,14 @@
       "place_name": "Lisbon",
       "date": "2026-11-22",
       "note": "not mailed: Hidde, 2026-11-22, \"No, skip Hugo\" (personal thread since October); counts as handled so --welcome-missing never sends it"
+    },
+    {
+      "row": null,
+      "user_id": "p_729e302d7f04d07965d7a3fc",
+      "place_slug": "chiang-mai",
+      "place_name": "Chiang Mai",
+      "date": "2026-11-22",
+      "note": "granted by --grant (yes by mail 2026-11-22)"
     }
   ],
   "told": {
