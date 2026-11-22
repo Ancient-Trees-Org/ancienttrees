@@ -80,6 +80,10 @@
             "exclude": true
           },
           {
+            "/": "/activity",
+            "exclude": true
+          },
+          {
             "/": "/press",
             "exclude": true
           },
@@ -176,6 +180,10 @@
             "exclude": true
           },
           {
+            "/": "/de/activity",
+            "exclude": true
+          },
+          {
             "/": "/es",
             "exclude": true
           },
@@ -185,6 +193,10 @@
           },
           {
             "/": "/es/visitors",
+            "exclude": true
+          },
+          {
+            "/": "/es/activity",
             "exclude": true
           },
           {
@@ -200,6 +212,10 @@
             "exclude": true
           },
           {
+            "/": "/fr/activity",
+            "exclude": true
+          },
+          {
             "/": "/it",
             "exclude": true
           },
@@ -209,6 +225,10 @@
           },
           {
             "/": "/it/visitors",
+            "exclude": true
+          },
+          {
+            "/": "/it/activity",
             "exclude": true
           },
           {
@@ -224,6 +244,10 @@
             "exclude": true
           },
           {
+            "/": "/nl/activity",
+            "exclude": true
+          },
+          {
             "/": "/pt",
             "exclude": true
           },
@@ -236,6 +260,10 @@
             "exclude": true
           },
           {
+            "/": "/pt/activity",
+            "exclude": true
+          },
+          {
             "/": "/ja",
             "exclude": true
           },
@@ -245,6 +273,10 @@
           },
           {
             "/": "/ja/visitors",
+            "exclude": true
+          },
+          {
+            "/": "/ja/activity",
             "exclude": true
           },
           {
