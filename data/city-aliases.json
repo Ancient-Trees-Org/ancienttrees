@@ -1650,6 +1650,10 @@
       "Floriānopolisa",
       "Florianburg"
     ],
+    "fontainebleau": [
+      "Fontenblo",
+      "Fons Bleaudi"
+    ],
     "fonte-colombo": [
       "Santuario di Fonte Colombo"
     ],
@@ -5956,6 +5960,7 @@
     "florence-court": "Florence Court",
     "florianopolis": "Florianópolis",
     "fond-du-lac": "Fond du Lac, Wisconsin",
+    "fontainebleau": "Fontainebleau",
     "fonte-colombo": "Sanctuary of Greccio",
     "fontenay-abbey": "Abbey of Fontenay",
     "foresta-umbra": "Gargano",

@@ -1917,6 +1917,78 @@
    "agreed": null
   },
   {
+   "id": "sight:86314456-dad2-4cf1-b3aa-a0b3046022fb",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/86314456-dad2-4cf1-b3aa-a0b3046022fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 79837,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "publish",
+   "reason": "A wider frame of the Boab Prison Tree from the car park, the whole swollen trunk inside its post-and-wire fence with the sign in front, daylight; now leads der_001, the earlier reader photo moves to the gallery. Its GPS is 80 km off, so no pin moved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a38920a8-bbfc-454a-ac18-bd224b2a21ec",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/a38920a8-bbfc-454a-ac18-bd224b2a21ec.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 79837,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same file as 86314456 from the same reader, which went on the page; rejected.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:dd9b94e4-2439-4129-9b72-3c8c1796dc1b",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Giant Sequoia",
+   "city": null,
+   "species": "Giant Sequoia",
+   "photo": "p_81c58c51dd7f98c91361dc6c/DD9B94E4-2439-4129-9B72-3C8C1796DC1B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Giant Sequoia"
+   },
+   "verdict": "publish",
+   "reason": "Giant sequoia towering over bare trees in the gardens of the Château de Fontainebleau, GPS fix at the tree, striking in daylight and colour. Live as fontainebleau/fon_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -24417,46 +24489,34 @@
    "agreed": null
   },
   {
-   "id": "sight:86314456-dad2-4cf1-b3aa-a0b3046022fb",
+   "id": "sight:dd9b94e4-2439-4129-9b72-3c8c1796dc1b",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
-   "tree": "Boab Prison Tree",
-   "city": "Derby",
-   "species": "Boab (Adansonia gregorii)",
-   "photo": "out/sightings/86314456-dad2-4cf1-b3aa-a0b3046022fb.jpg",
+   "tree": "The Sequoia of the Château Lawn",
+   "city": "Fontainebleau",
+   "species": "Giant Sequoia (Sequoiadendron giganteum)",
+   "photo": "https://ancienttrees.app/photos/fon_001-sequoia-of-the-chateau-lawn.jpg",
    "reader_note": "",
    "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 79837,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Boab (Adansonia gregorii)"
-   },
+   "measure": null,
    "verdict": "publish",
-   "reason": "A wider frame of the Boab Prison Tree from the car park, the whole swollen trunk inside its post-and-wire fence with the sign in front, daylight; now leads der_001, the earlier reader photo moves to the gallery. Its GPS is 80 km off, so no pin moved.",
+   "reason": "Reader's photograph is the lead of the new tree fon_001: the whole sequoia, daylight, colour, GPS fix at the tree.",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:a38920a8-bbfc-454a-ac18-bd224b2a21ec",
+   "id": "sight:dcffbd99-b1c4-403e-87c3-48ae83bf6d51",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
-   "tree": "Boab Prison Tree",
-   "city": "Derby",
-   "species": "Boab (Adansonia gregorii)",
-   "photo": "out/sightings/a38920a8-bbfc-454a-ac18-bd224b2a21ec.jpg",
+   "tree": "The Argyle Street Ash",
+   "city": "Glasgow",
+   "species": "European Ash (Fraxinus excelsior)",
+   "photo": "out/sightings/dcffbd99-b1c4-403e-87c3-48ae83bf6d51.jpg",
    "reader_note": "",
    "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 79837,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Boab (Adansonia gregorii)"
-   },
-   "verdict": "hold",
-   "reason": "Duplicate: the same file as 86314456 from the same reader, which went on the page; rejected.",
+   "measure": null,
+   "verdict": "publish",
+   "reason": "The whole bare ash from pavement to crown against the tenement, daylight, colour; this is the lone street tree of the recognition line. Already on the page.",
    "hidde": null,
    "agreed": null
   }

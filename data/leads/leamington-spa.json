@@ -1,39 +1,43 @@
 {
-  "city": "Royal Leamington Spa",
-  "country": "United Kingdom",
-  "note": "Jephson Gardens deepen pass 2026-11-22. Source: Warwick District Council tree directory + 2024 tree-walk leaflet.",
-  "leads": [
-    {
-      "name": "Holm oak, last of the 1848 Ceremony of Oaks (Jephson Gardens)",
-      "lat": 52.2875,
-      "lng": -1.5325,
-      "why": "Council record (directory_record/17416) calls it the last of the oaks planted at the 1848 Ceremony of Oaks; says a much younger holm oak stands next to it nearer the main gate. Not shown to be a different tree from the lakeside holm oak felled 2025-07-15, so it may be gone. Needs a visit or a dated photo of a standing 1848 holm oak. Leaflet mark 92 points (west half) are 52.2870-52.2876, -1.5321 to -1.5327, unidentified."
-    },
-    {
-      "name": "Silver pendant lime (Tilia tomentosa Petiolaris), by the lake path",
-      "lat": 52.28767,
-      "lng": -1.5331,
-      "why": "Council says view from the path by the lake; leaflet 110 has two marks (52.2877,-1.5331 and 52.2892,-1.5279), lake is near 52.2876,-1.5321, so neither pins it. Ordinary size evidence none."
-    },
-    {
-      "name": "Deodar cedar possibly planted by Dr Hitchman",
-      "lat": 52.2874,
-      "lng": -1.5339,
-      "why": "Council record says \"may have been\" planted by Hitchman (late 1830s-40s). A prominent cedar near the Parade entrance and Hitchman Fountain was felled the week of 2024-10-14 (honey fungus, council notice 1234), likely the same tree; check before using."
-    },
-    {
-      "name": "Coast redwood, Wellingtonia, Cedar of Lebanon, monkey puzzle, dawn redwood (Jephson Gardens)",
-      "lat": 52.2884,
-      "lng": -1.531,
-      "why": "Council records give species notes only, no girth, size or position; wellingtonia record says it does not yet look that big; dawn redwood is mid-20th-century planting. Nothing a visitor can single out without a visit."
-    }
-  ],
-  "blocked": [
-    {
-      "name": "Lakeside holm oak, UK Tree of the Year 2023 shortlist (Jephson Gardens)",
-      "reason": "Felled by Warwick District Council on 2025-07-15 (basal decay, did not recover from pollarding; seating retained, replacement to be planted nearby), council news 1334 and Warwickshire World. Girth 5 m and about 175 years were its figures. Dead, never ship.",
-      "lat": 52.2878,
-      "lng": -1.5318
-    }
-  ]
+ "city": "Royal Leamington Spa",
+ "country": "United Kingdom",
+ "note": "Jephson Gardens deepen pass 2026-11-22. Source: Warwick District Council tree directory + 2024 tree-walk leaflet.",
+ "leads": [
+  {
+   "name": "Holm oak, last of the 1848 Ceremony of Oaks (Jephson Gardens)",
+   "lat": 52.2875,
+   "lng": -1.5325,
+   "why": "Council record (directory_record/17416) calls it the last of the oaks planted at the 1848 Ceremony of Oaks; says a much younger holm oak stands next to it nearer the main gate. Not shown to be a different tree from the lakeside holm oak felled 2025-07-15, so it may be gone. Needs a visit or a dated photo of a standing 1848 holm oak. Leaflet mark 92 points (west half) are 52.2870-52.2876, -1.5321 to -1.5327, unidentified."
+  },
+  {
+   "name": "Silver pendant lime (Tilia tomentosa Petiolaris), by the lake path",
+   "lat": 52.28767,
+   "lng": -1.5331,
+   "why": "Council says view from the path by the lake; leaflet 110 has two marks (52.2877,-1.5331 and 52.2892,-1.5279), lake is near 52.2876,-1.5321, so neither pins it. Ordinary size evidence none.",
+   "species": "Lime (Tilia sp.)",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
+  },
+  {
+   "name": "Deodar cedar possibly planted by Dr Hitchman",
+   "lat": 52.2874,
+   "lng": -1.5339,
+   "why": "Council record says \"may have been\" planted by Hitchman (late 1830s-40s). A prominent cedar near the Parade entrance and Hitchman Fountain was felled the week of 2024-10-14 (honey fungus, council notice 1234), likely the same tree; check before using."
+  },
+  {
+   "name": "Coast redwood, Wellingtonia, Cedar of Lebanon, monkey puzzle, dawn redwood (Jephson Gardens)",
+   "lat": 52.2884,
+   "lng": -1.531,
+   "why": "Council records give species notes only, no girth, size or position; wellingtonia record says it does not yet look that big; dawn redwood is mid-20th-century planting. Nothing a visitor can single out without a visit.",
+   "species": "Coast Redwood (Sequoia sp.)",
+   "species_basis": "genus read from the tree's own name; ask the reader which species"
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Lakeside holm oak, UK Tree of the Year 2023 shortlist (Jephson Gardens)",
+   "reason": "Felled by Warwick District Council on 2025-07-15 (basal decay, did not recover from pollarding; seating retained, replacement to be planted nearby), council news 1334 and Warwickshire World. Girth 5 m and about 175 years were its figures. Dead, never ship.",
+   "lat": 52.2878,
+   "lng": -1.5318
+  }
+ ]
 }

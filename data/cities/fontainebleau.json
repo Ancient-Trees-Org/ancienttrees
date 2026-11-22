@@ -1,0 +1,71 @@
+{
+  "city": "Fontainebleau",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Fontainebleau is a town in the forest south-east of Paris, built around a royal château that French kings lived in for centuries. In the château's gardens stands a giant sequoia, a Californian tree towering over the bare broadleaf trees around it, which a reader photographed and sent to us. We do not yet know its age or size, and we would like to.",
+  "meta_description": "The giant sequoia in the gardens of the Château de Fontainebleau, sent by a reader: where it stands and what we still want to know.",
+  "hero_tree_id": "fon_001",
+  "oldest_tree_id": "fon_001",
+  "trees": [
+    {
+      "id": "fon_001",
+      "name": "The Sequoia of the Château Lawn",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "location": {
+        "address": "Gardens of the Château de Fontainebleau, Fontainebleau, Seine-et-Marne",
+        "latitude": 48.4012966666667,
+        "longitude": 2.69738333333333,
+        "neighbourhood": "Château de Fontainebleau"
+      },
+      "how_to_recognise": "A single tall, narrow evergreen cone standing alone at the back of a wide lawn beside the palace wing, towering over bare broadleaf trees, with rockwork and a bronze figure on a pedestal on the grass in front of it.",
+      "access": "In the gardens of the Château de Fontainebleau, seen from the lawn and the gravel path beside the palace. Check the gardens' opening hours before you go.",
+      "story": "A reader sent us this giant sequoia from the gardens of the Château de Fontainebleau, south-east of Paris, and the photograph shows why it caught their eye.\n\nIt stands alone at the back of a wide lawn beside the palace's long wing, a dark, narrow spire that rises clear above the plane trees and chestnuts around it. In November those neighbours are bare, while the sequoia keeps its dense blue-green foliage in one tall cone from the ground up, so it reads at once as the tree that does not belong to the season. Its trunk comes out of a patch of bare earth at the edge of the grass.\n\nGiant sequoias are Californian trees, brought to Europe from the 1850s, and French estates planted them as showpieces in the decades after. We do not yet know when this one was planted, how tall it stands or how thick it is. If you know the gardens' records, or have measured it, tell us here and we will add your figures.\n\nRockwork and a bronze figure on a pedestal stand on the lawn in front of it, which makes it easy to find from the gravel path along the palace wall. Come in winter, when the bare trees around it make its shape plain.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "dd9b94e4-2439-4129-9b72-3c8c1796dc1b",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "dd9b94e4-2439-4129-9b72-3c8c1796dc1b",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (dd9b94e4-2439-4129-9b72-3c8c1796dc1b, through the app). Photograph viewed: a tall, narrow giant sequoia standing alone at the back of a wide lawn beside the palace wing, bare broadleaf trees round it, a bronze figure on a pedestal and rockwork in front, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). No register entry or encyclopaedia article within 300 m (corroborate.py). Species is the reader's, consistent with the conical crown; no age, girth or height known, stated as unknown on the page.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fon_001-sequoia-of-the-chateau-lawn.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
+        "sighting_id": "dd9b94e4-2439-4129-9b72-3c8c1796dc1b",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: a tall, narrow giant sequoia standing alone at the back of a wide lawn beside the palace wing, bare broadleaf trees round it, a bronze figure on a pedestal and rockwork in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The giant sequoia in the gardens of the Château de Fontainebleau: where it stands, how to find it, and what we still want to know.",
+  "question_answer": "The Sequoia of the Château Lawn stands in the gardens of the Château de Fontainebleau, alone at the back of a wide lawn beside the palace wing. Check the gardens' opening hours before you go.",
+  "question_context": "A reader sent us a photograph of this giant sequoia from the gardens of the Château de Fontainebleau, the royal residence in the forest south-east of Paris. The picture shows a tall, narrow cone of dense blue-green foliage standing alone at the back of a wide lawn, well above the bare plane trees and chestnuts around it, with rockwork and a bronze figure on a pedestal on the grass in front. Giant sequoias come from California and were planted on French estates as showpieces from the second half of the nineteenth century. We have no planting record, height or girth for this one, and no register lists it, so we say so rather than guess. Readers who know the gardens' records or have measured the trunk can add them on the tree's page. The château is a short train ride from Paris and its gardens are easy to fit into a visit to the palace, so the sequoia can be found from the gravel path along the palace wall. The pin on this page marks where the reader stood to photograph the tree.",
+  "faq": [
+    {
+      "q": "Where is the Fontainebleau sequoia?",
+      "a": "In the gardens of the Château de Fontainebleau, alone at the back of a wide lawn beside the palace's long wing."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know. No register or source we have seen gives its planting date, height or girth. If you know the gardens' records, tell us on the tree's page."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It is in the gardens of the Château de Fontainebleau and can be seen from the lawn and the gravel path beside the palace. Check the gardens' opening hours before you go."
+    }
+  ]
+}

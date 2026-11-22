@@ -1,51 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-22",
- "queue": [
-  {
-   "sighting_id": "dcffbd99-b1c4-403e-87c3-48ae83bf6d51",
-   "user_id": "p_4064b82aff8911752e244c2a",
-   "tree_id": "gla_005",
-   "city_slug": "glasgow",
-   "city": "Glasgow",
-   "tree_name": "The Argyle Street Ash",
-   "match": "app",
-   "distance_m": 20,
-   "mine": false,
-   "current_photo": "approved",
-   "current_source": null,
-   "tree_species": "European Ash (Fraxinus excelsior)",
-   "recognise": "You can recognise it by being the only tree on Argyle Street, an ash about 23 metres tall that rises above the tenement behind it. It stands in the small front garden strip outside 1223 Argyle Street, at Franklin Terrace.",
-   "tree_girth_cm": null,
-   "tree_height_m": 23,
-   "story": "The only tree on Argyle Street arrived by accident, in the roots of a primrose. In the 1850s the first residents of a new tenement at Franklin Terrace came back from holiday with primroses for their scrap of front garden, and an ash seed came with them in the soil. Nobody wrote down the year, so its age of roughly 175 years is counted from that story rather than from a ring.\n\nBy 1951, when James Cowan described it in From Glasgow's Treasure Chest, it stood 75 feet tall, about 23 metres, and had outgrown the building that planted it without meaning to. It went on to become the first tree in Glasgow to receive a Tree Preservation Order. In 2025 it was voted the UK's Tree of the Year, and in 20",
-   "name": "The Argyle Street Ash",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-22",
-   "photo_path": "p_4064b82aff8911752e244c2a/DCFFBD99-B1C4-403E-87C3-48AE83BF6D51.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [],
-   "latitude": 55.8658416666667,
-   "longitude": -4.287555,
-   "file": "out/sightings/dcffbd99-b1c4-403e-87c3-48ae83bf6d51.jpg",
-   "light": {
-    "verdict": "OK: daylight, colour, subject separated",
-    "brightness": 117.2,
-    "contrast": 53.8,
-    "colour": 0.21,
-    "blown": 0.0,
-    "dark": 0.0,
-    "subject": 117.1,
-    "subject_colour": 0.21
-   },
-   "vouched": null,
-   "rank": 1,
-   "worth": "the tree already has one: ship this only if it is better"
-  }
- ]
+ "queue": []
 }

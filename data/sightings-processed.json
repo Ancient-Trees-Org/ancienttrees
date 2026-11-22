@@ -6904,8 +6904,19 @@
    "reason": "Duplicate: the same file as 86314456 from the same reader, pixel for pixel (same frame, same light figures); that one goes into the gallery."
   },
   "dd9b94e4-2439-4129-9b72-3c8c1796dc1b": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-22"
+  },
+  "dcffbd99-b1c4-403e-87c3-48ae83bf6d51": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "gla_005",
+   "city_slug": "glasgow",
+   "file": "gla_005-the-argyle-street-ash-dcffbd99.jpg",
+   "reason": "The whole bare ash from pavement to crown against a sandstone tenement, a person looking up beside it: shows the lone street tree the recognition line describes, daylight, colour. A reader's frame joins the gallery beside the current one. Species seen: bare ash crown, pale furrowed trunk, upswept tw",
+   "lat": 55.8658416666667,
+   "lon": -4.287555,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

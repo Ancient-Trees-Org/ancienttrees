@@ -10121,9 +10121,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-22"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: a tall, narrow giant sequoia standing alone at the back of a wide lawn beside the palace wing, bare broadleaf trees round it, a bronze figure on a pedestal and rockwork in front, daylight, colour. Live as fontainebleau/fon_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "fontainebleau/fon_001"
   }
  ]
 }
