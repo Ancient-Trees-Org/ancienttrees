@@ -3603,6 +3603,38 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "nyc_029",
+      "name": "The American Hornbeam of Prospect Park",
+      "species": "American Hornbeam (Carpinus caroliniana)",
+      "age_estimate": "not documented",
+      "height_m": 25.7,
+      "location": {
+        "address": "Across from the Camperdown Elm where three trails meet, Prospect Park, Brooklyn",
+        "latitude": 40.6605,
+        "longitude": -73.9655,
+        "neighbourhood": "Prospect Park, Brooklyn"
+      },
+      "story": "New York's official list of Great Trees includes a species that normally lives in the shade of others. The American hornbeam is a native understory tree, and this one in Prospect Park is among the few the city has singled out.\n\nNYC Parks describes its limbs as blue-grey, sinewy and smooth, twisting and swelling like muscular arms. Of all the things a register could say about a tree, that is the one you can check standing in front of it.\n\nThe register's numbers are harder to take at face value. It gives a height of about 84 feet, 25.7 metres, and a canopy averaging 72 feet across. Both are big for a hornbeam, the height especially. The trunk figure in the same entry cannot be right for this species at all, which points to a slip in the units or the tape, so we print no girth. Read the height as the register's claim rather than a checked fact.\n\nIt stands across from the Camperdown Elm, where three trails meet, so one short walk takes in both. A visitor logged a hornbeam near the register's point in October 2026, though nobody has confirmed it was this trunk, and our pin is the register's map point rather than a surveyed crown.\n\nThere is no planting record and no age in any source. If you know when it went in, or you have measured it, tell us.",
+      "how_to_recognise": "You can recognise it by the smooth blue-grey limbs that twist and swell like muscle. It stands across from the Camperdown Elm, at the spot where three trails meet.",
+      "verified_sources": [
+        "https://www.nycgovparks.org/facilities/great-trees?id=9"
+      ],
+      "official_register": {
+        "name": "NYC Parks Great Trees (Prop ID B073, tree code Bk15)",
+        "url": "https://www.nycgovparks.org/facilities/great-trees?id=9"
+      },
+      "access": "Free, open public park; stands at a path junction.",
+      "transport": "Subway to Prospect Park (B, Q) or Grand Army Plaza (2, 3); walk time not measured. The Camperdown Elm is the landmark.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

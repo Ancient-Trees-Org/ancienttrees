@@ -262,7 +262,8 @@
     "transport": "Subway to Prospect Park (B, Q) or Grand Army Plaza (2, 3); walk time not measured. The Camperdown Elm is the landmark.",
     "location_precision": "approximate",
     "curation_status": "flagged",
-    "verify_notes": "Register only (NYC Parks Great Trees, read on a Wayback snapshot dated 2026-07-15; nycgovparks.org itself returns 405). Register fields: height 84.46 ft (25.7 m), average canopy spread 72.5 ft, trunk diameter 115 in, AFA points 464. Description: 'located across from the camperdown elm in Prospect Park... known for its distinctive blue-grey limbs, sinewy and smooth, that twist and swell like muscular arms.' SANITY FLAG: 115 in diameter (292 cm) is not plausible for a hornbeam; the AFA total (464) only works if 115 is read as a diameter and circumference 361 in, which is as implausible. The unit or measurement is probably corrupt; no girth recorded here and none should be printed. Height 84 ft is also very tall for the species. Hence flagged. Alive: iNaturalist observation 2026-10-13 within range of the register point (https://www.inaturalist.org/observations/408768204; not confirmed to be this trunk). Register page map point 40.6605, -73.9655 sits beside the Camperdown Elm (nyc_003): approximate, not one proven crown. No planting date or age in any source. Unusual among Great Trees as a native understory species. Same spot as nyc_003 (Camperdown Elm), so one walk."
+    "story": "New York's official list of Great Trees includes a species that normally lives in the shade of others. The American hornbeam is a native understory tree, and this one in Prospect Park is among the few the city has singled out.\n\nNYC Parks describes its limbs as blue-grey, sinewy and smooth, twisting and swelling like muscular arms. Of all the things a register could say about a tree, that is the one you can check standing in front of it.\n\nThe register's numbers are harder to take at face value. It gives a height of about 84 feet, 25.7 metres, and a canopy averaging 72 feet across. Both are big for a hornbeam, the height especially. The trunk figure in the same entry cannot be right for this species at all, which points to a slip in the units or the tape, so we print no girth. Read the height as the register's claim rather than a checked fact.\n\nIt stands across from the Camperdown Elm, where three trails meet, so one short walk takes in both. A visitor logged a hornbeam near the register's point in October 2026, though nobody has confirmed it was this trunk, and our pin is the register's map point rather than a surveyed crown.\n\nThere is no planting record and no age in any source. If you know when it went in, or you have measured it, tell us.",
+    "how_to_recognise": "You can recognise it by the smooth blue-grey limbs that twist and swell like muscle. It stands across from the Camperdown Elm, at the spot where three trails meet."
   },
   {
     "id": "nyc_030",
@@ -325,13 +326,21 @@
     "species": "Willow Oak (Quercus phellos)",
     "age_estimate": "not documented",
     "girth_cm": 271,
-    "location": {"address": "86 Herbert Street, East Williamsburg, Brooklyn (street tree on the sidewalk)", "latitude": 40.72033361, "longitude": -73.94151476, "neighbourhood": "East Williamsburg"},
+    "location": {
+      "address": "86 Herbert Street, East Williamsburg, Brooklyn (street tree on the sidewalk)",
+      "latitude": 40.72033361,
+      "longitude": -73.94151476,
+      "neighbourhood": "East Williamsburg"
+    },
     "verified_sources": [
       "https://www.brooklynpaper.com/parks-adds-17-bk-trees-great-trees-list/",
       "https://greenpointers.com/2024/10/09/mcgolrick-park-tree-earns-nyc-parks-great-trees-of-new-york-city-designation/",
       "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?tree_id=237873"
     ],
-    "official_register": {"name": "NYC Parks Great Trees of New York City (2024 update, id=83)", "url": "https://www.nycgovparks.org/facilities/great-trees/83"},
+    "official_register": {
+      "name": "NYC Parks Great Trees of New York City (2024 update, id=83)",
+      "url": "https://www.nycgovparks.org/facilities/great-trees/83"
+    },
     "access": "Free. Street tree on the public sidewalk of Herbert Street; view from the pavement, no entry needed.",
     "transport": "About 700 m, a ten minute walk, from the Graham Av stop on the L train.",
     "story": "Most of the Great Trees of New York City stand in parks and cemeteries. This willow oak stands on the sidewalk in front of 86 Herbert Street, in East Williamsburg, and in 2024 NYC Parks added it to the list in an update that brought 17 Brooklyn trees on board.\n\nThe city's street tree census counted it in 2015 at 34 inches across at chest height, about 2.7 metres around the trunk, alive and in good health. It is the only willow oak recorded at that address.\n\nWillow oak is a southern species, native across the south-eastern United States. It takes its name from its leaves, which are long and narrow like a willow's rather than lobed like those of the northern oaks, so it looks unlike the oaks most New Yorkers know.\n\nNo source we found gives the year it was planted, so this page gives no age. One press report calls it a weeping oak, while the census and the Parks list both say willow oak.\n\nYou can see all of it from the public pavement, and nothing is needed to get in.",

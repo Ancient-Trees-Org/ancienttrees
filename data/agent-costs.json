@@ -1,6 +1,9 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-22": [
+      {"date": "2026-11-22", "kind": "write", "target": "las-vegas+new-york", "tokens": 95000, "trees": 3, "note": "pending pool nearly empty: lvg_015, lvg_016, nyc_029 written (proximity flags checked by hand, different species); every other unpublished entry live under another id, folded, or Birmingham hwp_001 (verify claim in flight); estimate"}
+    ],
     "2026-11-21": [
       {"date": "2026-11-21", "kind": "verify", "target": "birmingham", "tokens": 140000, "trees": 0, "note": "pass 14: hwp_001 Handsworth Park black poplar verified (2 of 4 needed for a page); OSM veteran oaks left as one lead; Botanical Gardens list unreadable"},
       {"date": "2026-11-21", "kind": "verify", "target": "spokane", "tokens": 87221, "trees": 0, "note": "dry: every register lead already live; Reid Family Tree is a private-residence maple with no second source, left as lead"},
