@@ -21,6 +21,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: reply to Nick (Bristol) sent
+
+- Sent on Hidde's "Send it": the reply to feedback 1381 (his redwood correction), in his own mail thread, from info@. It says bri_023 is now a coast redwood and the bri_015 cypress pin sits 12 m from his OS reference, and asks whether both are right now. Text in drafts/reply-nick-bristol-redwood-2026-11-22.md; logged in the send log, row 1381 stamped `replied_at`. No data change needed: the reader judge had fixed both trees on 2026-11-21.
+
 ## 2026-11-22 reader judge: a new place, Tewkesbury, for a reader's great beech; the Vernon Oak's first photograph
 
 - **New: Tewkesbury, The Great Beech of Tewkesbury Abbey (tew_001)**. A reader sent this beech from the abbey grounds with the photograph's own GPS. Looked at both frames: a huge fluted grey trunk with roots flaring over the lawn and low spreading limbs, the reader standing at its foot for scale, autumn leaves. Their girth (about 7 m) and age (about 250 years) are on the page as theirs; their words open the story. It is a one-tree place: intro, question block and three FAQ written. Filed under November from the photo's own date.
@@ -50,6 +54,10 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Vienna, vie_023** (The Plane of Dr. Karl Lueger-Platz): a reader's photograph of the buttressed trunk and low limbs in autumn leaf, benches round it on the square. It now leads, and the old photograph moves to the strip. Filed under November. The reader's mail is queued in the weekly bundle.
 - This run judged the same Antwerp, Munich and Amsterdam photographs as the earlier "Antwerp copper beech" run. It agreed on everything except Munich's wider shot (3210008a), which this run would have added. I kept the first run's verdicts, and that file stays off the site. No reader was mailed twice: the mails were only queued, never sent.
 - Nothing else waited: no reports, no tips, no feedback. The waiting leads still have no file on this runner.
+
+## 2026-11-22 session: Waste Magazine article, first version
+
+- drafts/waste-article-2026-11.md: the Crann article turned to Spain for Waste Magazine (Spanish to send, English to check), seven trees (Granada cypress, Escaleretas pinsapo, Lecina carrasca, Cartuja ombú, Pino Gordo, El Titán, Retiro ahuehuete), seven open-licence photos with credits, bio, cover mail. Waste is cited on seven of our Granada trees; the cover mail says so. Nothing sent; waits for Hidde's read.
 
 ## 2026-11-22 reader judge: two off-list holds reversed on Hidde's ask (Malmö weeping beech live, Witch Tree photo in the strip)
 
