@@ -32,16 +32,46 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
   var MIN = ${VISITORS_MIN};
+  var CARDS = {};
   ${visitorSaveFn(saveWord, savedWord)}
   ${visitorTileFn()}
   function esc(t) { return String(t == null ? '' : t)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-  function load(token) {
-    return fetch(SB + '/rest/v1/rpc/new_from_visitors', {
+  function rpc(name, body, token) {
+    return fetch(SB + '/rest/v1/rpc/' + name, {
       method: 'POST',
       headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + (token || KEY), 'Content-Type': 'application/json' },
-      body: JSON.stringify({ n: 12 })
+      body: JSON.stringify(body)
     }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
+  }
+  // Only a photograph this build carries as THAT visitor's: one that went
+  // live after the build used to show the tree's lead in its place, the
+  // same picture as another tile (Hidde, 2026-11-19: "i see a lot of
+  // duplicates here"). It appears with the next deploy, as in the apps.
+  function usable(r, cards) { var c = cards[r.tree_id]; return !!(c && c.s && c.s[r.sighting_id]); }
+  // THE ROW NEVER DEPENDS ON A FRESH DEPLOY (2026-11-22). The newest 24 first
+  // (each person once before anyone twice); when fewer than MIN of them are in
+  // this build, older photographs from the See all page's feed (visitor_photos,
+  // newest first) fill it, a few pages back at most. A deploy that fell eleven
+  // hours behind once left all twelve newest unknown and the row vanished.
+  function load(token, cards, ask) {
+    return (ask || rpc('new_from_visitors', { n: 24 }, token)).then(function (first) {
+      first = Array.isArray(first) ? first : [];
+      var out = first.slice(), trees = {}, pages = 0;
+      first.forEach(function (r) { if (usable(r, cards)) trees[r.tree_id] = 1; });
+      function more(cursor) {
+        if (Object.keys(trees).length >= MIN * 2 || pages >= 4) return out;
+        pages++;
+        var body = { n: 48 };
+        if (cursor) { body.before_at = cursor.published_at; body.before_id = cursor.sighting_id; }
+        return rpc('visitor_photos', body, token).then(function (list) {
+          list = Array.isArray(list) ? list : [];
+          list.forEach(function (r) { out.push(r); if (usable(r, cards)) trees[r.tree_id] = 1; });
+          return list.length < 48 ? out : more(list[list.length - 1]);
+        });
+      }
+      return Object.keys(trees).length >= MIN ? out : more(null);
+    });
   }
   function paint(rows, cards) {
     var box = document.getElementById('nfv');
@@ -50,11 +80,7 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
     var seen = {}, html = [];
     rows.forEach(function (r) {
       var c = cards[r.tree_id];
-      // Only a photograph this build carries as THAT visitor's: one that went
-      // live after the build used to show the tree's lead in its place, the
-      // same picture as another tile (Hidde, 2026-11-19: "i see a lot of
-      // duplicates here"). It appears with the next deploy, as in the apps.
-      if (!c || seen[r.tree_id] || !(c.s && c.s[r.sighting_id])) return;
+      if (html.length >= 12 || seen[r.tree_id] || !usable(r, cards)) return;
       seen[r.tree_id] = 1;
       // A generated name prints and links like any other (Hidde, 2026-11-07:
       // "a visitor is weird that its unclickable just give the link to their
@@ -82,7 +108,7 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
     var C = window.atCollection;
     if (!C || !C.gate) { ask(); return; }
     C.gate(function (s) {
-      load(s.access_token).then(function (rows) {
+      load(s.access_token, CARDS).then(function (rows) {
         var hit = (rows || []).filter(function (r) { return r.sighting_id === b.dataset.sighting; })[0];
         if (hit && hit.author_id) location.href = '/profile?u=' + encodeURIComponent(hit.author_id);
       });
@@ -101,7 +127,7 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
     if (!C || !C.gate) return;
     window.atPendingVisitor = null;
     C.gate(function (s) {
-      load(s.access_token).then(function (rows) {
+      load(s.access_token, CARDS).then(function (rows) {
         var hit = (rows || []).filter(function (r) { return r.sighting_id === id; })[0];
         if (hit && hit.author_id) location.href = '/profile?u=' + encodeURIComponent(hit.author_id);
       });
@@ -114,15 +140,26 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
     if (!el) return;
     var cards = {};
     try { cards = JSON.parse(el.textContent || '{}'); } catch (e) { return; }
-    // The server decides who is signed in (atCollection.gate), never the browser.
+    CARDS = cards;
+    // FIRST PAINT WAITS FOR NOTHING BUT THE PHOTOS (2026-11-22, Hidde: "it
+    // takes quite a time to load ... shows up later than the rest"). It used
+    // to wait for the page to finish and then for the server's sign-in answer
+    // before it even asked. Names show to everyone, so the public answer
+    // paints the row; a tap on a name resolves the profile itself (the click
+    // handler above). The server still decides who is signed in
+    // (atCollection.gate): for them the row is painted again with the names as
+    // direct links, the same tiles in the same order.
+    var signed = false;
+    load(null, cards, EARLY).then(function (r) { if (!signed) paint(r, cards); });
     var C = window.atCollection;
     if (C && C.gate) {
-      C.gate(function (s) { load(s.access_token).then(function (r) { paint(r, cards); }); },
-                    function () { load(null).then(function (r) { paint(r, cards); }); });
-    } else {
-      load(null).then(function (r) { paint(r, cards); });
+      C.gate(function (s) { load(s.access_token, cards).then(function (r) { signed = true; paint(r, cards); }); },
+             function () {});
     }
   }
+  // The first question leaves as soon as this script runs, before the page has
+  // finished, so the answer is usually there by the time the row can be drawn.
+  var EARLY = rpc('new_from_visitors', { n: 24 }, null);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();
 </script>`;

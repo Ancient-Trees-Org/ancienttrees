@@ -78,15 +78,43 @@ function textLabel(raw: string): string {
 // reads as a duplicate rather than as two sources (Lisbon's jacarandas cited
 // A Mensagem twice on the day this shipped). Where a host repeats, the last
 // meaningful path segment is added so the two are told apart.
+//
+// The hint is somebody else's slug printed as our text, so it must not carry a
+// phrase our copy bans: "morrisarboretum.org, morris hidden gems" failed qa and
+// held every deploy for eleven hours (2026-11-21/22), which hid the homepage's
+// New from visitors row because the live build fell behind. Such a segment is
+// skipped and the one before it named. The list is copy_rules.py's own, read at
+// build time, so the bar stays written down once.
+let BANNED: string[] | null = null;
+function banned(): string[] {
+  if (BANNED) return BANNED;
+  BANNED = [];
+  try {
+    const py = fs.readFileSync(path.join(process.cwd(), "../scripts/copy_rules.py"), "utf-8");
+    const m = py.match(/^BANNED_WORDS\s*=\s*\[([^\]]*)\]/m);
+    if (m) BANNED = [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1].toLowerCase());
+  } catch { /* no scripts directory: nothing to skip */ }
+  return BANNED;
+}
+function carriesBanned(hint: string): boolean {
+  const h = hint.toLowerCase();
+  // "must-see" is written with a hyphen in the list and a space in a hint.
+  return banned().some((w) => h.includes(w) || h.includes(w.replace(/-/g, " ")));
+}
+
 function pathHint(url: string): string {
   try {
     const parts = new URL(url).pathname.split("/").filter(Boolean);
-    // Decoded, or a German article reads "Burgsdorff L%C3%A4rche" (2026-10-04).
-    let last = parts[parts.length - 1] ?? "";
-    try { last = decodeURIComponent(last); } catch { /* keep it as it came */ }
-    const hint = last.replace(/\.\w{2,5}$/, "").replace(/[-_]+/g, " ").trim();
-    if (!hint) return "";
-    return hint.length > 40 ? hint.slice(0, 39).trimEnd() + "…" : hint;
+    for (let i = parts.length - 1; i >= 0; i--) {
+      // Decoded, or a German article reads "Burgsdorff L%C3%A4rche" (2026-10-04).
+      let seg = parts[i];
+      try { seg = decodeURIComponent(seg); } catch { /* keep it as it came */ }
+      const hint = seg.replace(/\.\w{2,5}$/, "").replace(/[-_]+/g, " ").trim();
+      if (!hint) return "";
+      if (carriesBanned(hint)) continue;
+      return hint.length > 40 ? hint.slice(0, 39).trimEnd() + "…" : hint;
+    }
+    return "";
   } catch {
     return "";
   }
