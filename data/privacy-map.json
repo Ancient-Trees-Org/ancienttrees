@@ -23,6 +23,7 @@
     "private-files.sql": {"phrase": "private list"},
     "profile-at-signup.sql": {"phrase": "Every account has a profile from the start"},
     "profiles.sql": {"phrase": "Edit profile"},
+    "flag-upsert-fix.sql": {"phrase": "Edit profile"},
     "public-profiles.sql": {"phrase": "A public profile can be seen by anybody signed in"},
     "approved-on-profiles.sql": {"phrase": "the trees you added yourself with their photograph and the spot where they stand"},
     "recent-searches.sql": {"phrase": "last picked from a search"},
