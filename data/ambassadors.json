@@ -1685,6 +1685,96 @@
         "The Meadow Beech near Zierenberg"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b0c76ee5cc71345251a28fed",
+      "place_slug": "bagnolo-san-vito",
+      "place_name": "Bagnolo San Vito",
+      "date": "2026-11-22",
+      "trees": [
+        "The Weeping Willow of Via Dante Alighieri"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_949f61179af58ceb312cf9dd",
+      "place_slug": "barmstedt",
+      "place_name": "Barmstedt",
+      "date": "2026-11-22",
+      "trees": [
+        "The Thousand-Year Oak of Barmstedt"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ef440ba9274ea313cb8568a3",
+      "place_slug": "cassano-dadda",
+      "place_name": "Cassano d'Adda",
+      "date": "2026-11-22",
+      "trees": [
+        "The Old Mulberry of Taranta"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_e255e7a69d7743de7443b511",
+      "place_slug": "delhi",
+      "place_name": "Delhi",
+      "date": "2026-11-22",
+      "trees": [
+        "The Peepal on the Plinth"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_618de01d056ef7fe726027bb",
+      "place_slug": "gwytherin",
+      "place_name": "Gwytherin",
+      "date": "2026-11-22",
+      "trees": [
+        "The Gwytherin Yews"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c19d55d83dfa148535100e72",
+      "place_slug": "kumamoto",
+      "place_name": "Kumamoto",
+      "date": "2026-11-22",
+      "trees": [
+        "The Great Ginkgo of Kumamoto Castle"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_fc14e72a5774c09d7ee8ace0",
+      "place_slug": "malmo",
+      "place_name": "Malmö",
+      "date": "2026-11-22",
+      "trees": [
+        "The Weeping Beech of Magistratsparken"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_8bd7bfeb4f7185d67df893e0",
+      "place_slug": "oakville",
+      "place_name": "Oakville",
+      "date": "2026-11-22",
+      "trees": [
+        "The Heritage White Oak of Bronte Creek"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b940ea18aaf6152172df1c2f",
+      "place_slug": "tewkesbury",
+      "place_name": "Tewkesbury",
+      "date": "2026-11-22",
+      "trees": [
+        "The Great Beech of Tewkesbury Abbey"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [

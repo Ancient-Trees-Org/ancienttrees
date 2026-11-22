@@ -2892,166 +2892,118 @@
    "sent": []
   },
   "p_11ba938518e45421db94eb78": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "01b1e6c6-99cb-4345-bdde-eba08dd5a625",
      "tree_id": "cop_003",
-     "tree_name": "Thorvaldsen's Robinia",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     },
     {
      "sighting_id": "5277b1c0-a525-4e16-b107-814ca9468b92",
      "tree_id": "cop_001",
-     "tree_name": "The Mulberry of Proviantgarden",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_d18fb9e35689e992c2e95529": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e8b95c9a-fdf5-4c65-abfd-c2b86fbb5ad4",
      "tree_id": "ant_001",
-     "tree_name": "The Copper Beech of Sint-Willibrorduskerk",
-     "city": "Antwerp",
-     "city_slug": "antwerp",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_21d7ce197280a385f71075e3": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "c3977a17-feb2-4a51-bd10-3648dd1b1ce2",
      "tree_id": "muc_006",
-     "tree_name": "The Fern-leaved Beech",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_60ec57a96e4f27d4f6d47a15": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "cf1f2c7d-bc5c-4188-99c7-d276fa97d5a3",
      "tree_id": "shf_002",
-     "tree_name": "Vernon Oak",
-     "city": "Sheffield",
-     "city_slug": "sheffield",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_9ec0328688bf2cc97f49a822": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814",
      "tree_id": "sal_001",
-     "tree_name": "The Hundred-Horse Chestnut",
-     "city": "Sant'Alfio",
-     "city_slug": "santalfio",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     },
     {
      "sighting_id": "d88315af-8100-48c3-8152-db0d21001544",
      "tree_id": "sal_001",
-     "tree_name": "The Hundred-Horse Chestnut",
-     "city": "Sant'Alfio",
-     "city_slug": "santalfio",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_3e4c652ec8f264c3b887587f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026",
      "tree_id": "mdr_005",
-     "tree_name": "The Witch Tree of Fanal",
-     "city": "Madeira",
-     "city_slug": "madeira",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     },
     {
      "sighting_id": "9f5df706-e6bc-45a6-a8e3-05da298af38f",
      "tree_id": "mdr_005",
-     "tree_name": "The Witch Tree of Fanal",
-     "city": "Madeira",
-     "city_slug": "madeira",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_661c1fc4ea4df0fec2022da4": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "49257d3e-b709-4715-b6fd-a56239e35c0d",
      "tree_id": "bri_007",
-     "tree_name": "The Cedar of Lebanon in Victoria Square",
-     "city": "Bristol",
-     "city_slug": "bristol",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_9797f583f1e19f3c4c5854e8": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "5b3f2cb0-14f6-4477-b221-56b2911f76b2",
      "tree_id": "rgs_001",
-     "tree_name": "Moreton Bay Figs of Donnafugata Castle Park",
-     "city": "Ragusa",
-     "city_slug": "ragusa",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_d016b999a58f70a88f49fba6": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d7c735de-a7f0-4e93-b70a-62161f7918cb",
      "tree_id": "lon_010",
-     "tree_name": "The Evelyn Mulberry",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
