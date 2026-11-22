@@ -31,6 +31,7 @@ export function searchWidgetJs(lang = "en"): string {
     nearest: U.nearestTree, kmFrom: U.kmFrom, none: U.searchNoMatch,
     explore: lang === "en" ? "/explore" : `/${lang}/explore`,
     recent: U.searchRecent, clearAll: U.searchClearAll, removeRecent: U.searchRemoveRecent,
+    clear: U.searchClear,
   };
   return `
 <script>
@@ -420,6 +421,7 @@ export function searchWidgetJs(lang = "en"): string {
     if (pk && window.atMapPlace && window.atMapPlace(pk, row.getAttribute('data-pv'))) {
       var b = row.querySelector('b');
       if (b) input.value = b.textContent;
+      syncClr();
       drop.hidden = true; active = -1;
       input.blur();
       return;
@@ -431,6 +433,33 @@ export function searchWidgetJs(lang = "en"): string {
     if (i >= 0 && rows[i]) { rows[i].classList.add('active'); rows[i].scrollIntoView({block: 'nearest'}); }
     active = i;
   }
+  // The clear cross, ours rather than the browser's (2026-11-22): grey, at
+  // the pill's end, only while there is text. Clearing sends an input event,
+  // so the map ends its search as it does for typing.
+  var clr = document.createElement('button');
+  clr.type = 'button'; clr.className = 'ats-clr'; clr.hidden = true;
+  clr.setAttribute('aria-label', STR.clear); clr.innerHTML = XI;
+  form.insertBefore(clr, drop);
+  function syncClr() { clr.hidden = !input.value; }
+  clr.addEventListener('mousedown', function(e) { e.preventDefault(); });
+  clr.addEventListener('click', function() {
+    input.value = '';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    input.focus();
+  });
+  // The whole pill is the field: a press anywhere on it that is not the
+  // cross, a button or the dropdown puts the caret in the input.
+  form.addEventListener('mousedown', function(e) {
+    if (e.target === input || drop.contains(e.target)) return;
+    if (e.target.closest && e.target.closest('button')) return;
+    e.preventDefault();
+    input.focus();
+  });
+  // The index is fetched when a pointer comes near, so the first letters
+  // typed find it there instead of waiting on the network.
+  form.addEventListener('pointerenter', load);
+  form.addEventListener('touchstart', load, { passive: true });
+  input.addEventListener('input', syncClr);
   input.addEventListener('input', show);
   input.addEventListener('focus', function() { load(); show(); });
   input.addEventListener('blur', function() { setTimeout(hide, 150); });

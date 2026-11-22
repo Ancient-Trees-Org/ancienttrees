@@ -1183,7 +1183,9 @@ dialog.at-sheet .priv-step .set-foot { text-align: left; }
 .cindex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.35rem 1rem; margin-left: -0.45rem; }
 .exc-empty { font-size: 13px; color: var(--ink-mid); padding: 0.5rem 0.45rem; }
 
-.panel-head .ex-search { margin-top: 0.75rem; display: block; width: 100%; }
+/* flex, as every .at-search: as a block the field was only as wide as its text,
+   so most of the pill took no click and the cross sat halfway (2026-11-22). */
+.panel-head .ex-search { margin-top: 0.75rem; display: flex; width: 100%; box-sizing: border-box; }
 .explore-head { padding: 1.1rem 2rem 0.9rem; display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1.5rem; align-items: center; }
 .explore-head h1 { font-size: 1.45rem; font-weight: 800; letter-spacing: -0.015em; }
 .explore-head p { font-size: 13px; color: var(--ink-mid); margin-top: 0.2rem; max-width: 46rem; grid-column: 1; }
@@ -1199,6 +1201,15 @@ dialog.at-sheet .priv-step .set-foot { text-align: left; }
 .ex-search { grid-column: 2; grid-row: 1 / span 2; width: min(30rem, 100%); }
 .at-search { position: relative; }
 .at-search input::-webkit-search-decoration { display: none; }
+/* Our own clear cross at the pill's end, grey, the Google Maps field; the
+   browser's own (blue in Chrome, absent in Firefox) is hidden. */
+.at-search input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; display: none; }
+.at-search .ats-clr { flex: none; width: 36px; height: 36px; border: 0; border-radius: 999px; background: none; padding: 0;
+  color: var(--ink-light); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.at-search .ats-clr[hidden] { display: none; }
+.at-search .ats-clr svg { width: 14px; height: 14px; }
+.at-search .ats-clr:hover { background: #F1EFE8; }
+.at-search { cursor: text; }
 .ats-drop { position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: #fff; border-radius: 14px; box-shadow: 0 14px 44px rgba(0,0,0,0.22); overflow: hidden; overflow-y: auto; max-height: min(21rem, 55vh); z-index: 80; text-align: left; }
 .ats-row { display: block; padding: 0.55rem 1.1rem; text-decoration: none; color: var(--ink); font-family: var(--sans); }
 .ats-row b { display: block; font-size: 14.5px; font-weight: 600; }

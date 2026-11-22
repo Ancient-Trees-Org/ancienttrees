@@ -658,6 +658,7 @@ export interface UIStrings {
   searchNoMatch: string;
   searchRecent: string;
   searchClearAll: string;
+  searchClear: string;
   searchRemoveRecent: string;
   notesEmptyAsk: string;
   noteWrite: string;
@@ -1044,6 +1045,7 @@ const EN: UIStrings = {
   searchNoMatch: "Nothing matches “{q}”. Check the spelling, or try a town nearby.",
   searchRecent: "Recent",
   searchClearAll: "Clear all",
+  searchClear: "Clear search",
   searchRemoveRecent: "Remove {name} from recent",
   notesEmptyAsk: "Did you visit the tree? Leave a note for the next visitor.",
   noteWrite: "Write a note",
@@ -1125,6 +1127,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Nada coincide con «{q}». Revisa la ortografía o prueba con un pueblo cercano.",
     searchRecent: "Recientes",
     searchClearAll: "Borrar todo",
+    searchClear: "Borrar búsqueda",
     searchRemoveRecent: "Quitar {name} de recientes",
     notesEmptyAsk: "¿Has visitado el árbol? Deja una nota para el próximo visitante.",
     noteWrite: "Escribir una nota",
@@ -1506,6 +1509,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Nessun risultato per «{q}». Controlla l'ortografia o prova un paese vicino.",
     searchRecent: "Recenti",
     searchClearAll: "Cancella tutto",
+    searchClear: "Cancella ricerca",
     searchRemoveRecent: "Rimuovi {name} dai recenti",
     notesEmptyAsk: "Hai visitato l'albero? Lascia una nota per il prossimo visitatore.",
     noteWrite: "Scrivi una nota",
@@ -1887,6 +1891,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Niets gevonden voor ‘{q}’. Controleer de spelling, of probeer een plaats in de buurt.",
     searchRecent: "Recent",
     searchClearAll: "Alles wissen",
+    searchClear: "Zoekopdracht wissen",
     searchRemoveRecent: "{name} uit recent verwijderen",
     notesEmptyAsk: "Ben je bij de boom geweest? Laat een notitie achter voor de volgende bezoeker.",
     noteWrite: "Schrijf een notitie",
@@ -2268,6 +2273,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Keine Treffer für „{q}“. Prüfen Sie die Schreibweise oder versuchen Sie einen Ort in der Nähe.",
     searchRecent: "Zuletzt gesucht",
     searchClearAll: "Alle löschen",
+    searchClear: "Suche löschen",
     searchRemoveRecent: "{name} aus dem Verlauf entfernen",
     notesEmptyAsk: "Warst du am Baum? Hinterlass eine Notiz für den nächsten Besucher.",
     noteWrite: "Notiz schreiben",
@@ -2649,6 +2655,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Nada corresponde a «{q}». Verifique a ortografia ou tente uma localidade próxima.",
     searchRecent: "Recentes",
     searchClearAll: "Limpar tudo",
+    searchClear: "Limpar pesquisa",
     searchRemoveRecent: "Remover {name} dos recentes",
     notesEmptyAsk: "Visitou a árvore? Deixe uma nota para o próximo visitante.",
     noteWrite: "Escrever uma nota",
@@ -3030,6 +3037,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "Aucun résultat pour « {q} ». Vérifiez l’orthographe ou essayez une ville voisine.",
     searchRecent: "Récents",
     searchClearAll: "Tout effacer",
+    searchClear: "Effacer la recherche",
     searchRemoveRecent: "Retirer {name} des récents",
     notesEmptyAsk: "Vous avez vu l'arbre ? Laissez une note au prochain visiteur.",
     noteWrite: "Écrire une note",
@@ -3411,6 +3419,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     searchNoMatch: "「{q}」に一致するものはありません。綴りを確認するか、近くの町で試してください。",
     searchRecent: "最近の検索",
     searchClearAll: "すべて消去",
+    searchClear: "検索をクリア",
     searchRemoveRecent: "{name}を履歴から削除",
     notesEmptyAsk: "この木を訪れましたか？次に訪れる人にメモを残しましょう。",
     noteWrite: "メモを書く",

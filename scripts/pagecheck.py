@@ -247,6 +247,13 @@ def walk(browser, base, path, embedded, size):
             bad.append("%d find-me buttons, not %d" % (s0["geo"], want_geo))
         if s0["full"]:
             bad.append("a full-screen button, which no other map has")
+        # The search field fills its pill (2026-11-22, Hidde: only the text
+        # took a click, the cross sat halfway, because the form was a block).
+        narrow = page.evaluate("""() => Array.from(document.querySelectorAll('form.at-search')).filter(f => {
+            const i = f.querySelector('input'); const a = f.getBoundingClientRect(), b = i.getBoundingClientRect();
+            return a.width > 0 && b.width < a.width - 110; }).map(f => f.className)""")
+        if narrow:
+            bad.append("the search field fills only part of its pill (%s), so most of it takes no click" % narrow[0])
 
         # Pointing at a pin.
         seen = [p for p in s0["pins"] if _inside(p, m)]

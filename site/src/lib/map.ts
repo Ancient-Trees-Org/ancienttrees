@@ -953,7 +953,11 @@ function _endSearch(clearField) {
   if (!FOCUS) { return; }
   FOCUS = null;
   var q = document.getElementById('ex-q');
-  if (clearField && q) { q.value = ''; }
+  if (clearField && q) {
+    q.value = '';
+    var clr = q.parentNode && q.parentNode.querySelector('.ats-clr');
+    if (clr) { clr.hidden = true; }
+  }
   applyFilters();
 }
 map.on('dragstart', function() { _endSearch(true); });
