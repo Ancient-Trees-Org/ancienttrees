@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge, a second run beside the first: four more Emmen trees from the same reader
+
+- Ran at the same time as the entry below and judged the same ten photographs the same way; this run's files are kept because they also carry four photos the other run had not reached: the Lime of the Noordeind (emm_001) and the Oak at the Long Grave (emm_003) get their first photograph, the Plane of the Bonifatius Park (emm_006) too, its pin moved 20 m to the reader's fix and now confirmed, and the Oak in Hunebed D42 (emm_002) takes the reader's golden-light frame as its lead, the old photo moved into the strip. Story wording of emm_005 and zwo_016 is this run's (no colon, same facts). No mail went out from either run: all nine wait in the reader's weekly bundle.
+- Left open, as below: 3c544597 and the older own-account leads have no photo on this machine. qa source clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-22 reader judge: five Dutch trees get their first photograph
 
 - **Five trees that had no photo now have one, all from one reader's summer walk**: The Plane by Restaurant Urbana (zwo_013, Loetje sign in shot), Huis de Paddestoel's Swamp Cypress (zwo_016), The Weeping Beech of Park Boschwijk (zwo_020), The Beech of the Boschwijk Avenue (zwo_002) in Zwolle, and The Copper Beech of Nieuw-Schoonebeek (emm_005) in Emmen. Each is within 5 to 20 m of our pin, species and description checked against the pixels, taken_month from the photo's date. Pins were already confirmed, nothing moved.

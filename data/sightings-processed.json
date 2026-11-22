@@ -6359,13 +6359,35 @@
    "outcome": "published",
    "date": "2026-11-22"
   },
+  "28ac3881-d738-4fee-9fec-165b598b965c": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "emm_001",
+   "city_slug": "emmen",
+   "file": "emm_001-the-lime-of-the-noordeind.jpg",
+   "reason": "A heavy, tall lime alone on the grass by the Noordeind, in leaf, daylight. Species seen: dense lime crown, heart-shaped leaves, many-stemmed base. Fits the description: a very heavy old lime standing alone beside the street and path.",
+   "lat": 52.7912716666667,
+   "lon": 6.89062833333333,
+   "pin_checked": "2026-11-22"
+  },
+  "ad808749-88be-4c22-b04e-ebaaabd7a349": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "emm_006",
+   "city_slug": "emmen",
+   "file": "emm_006-the-plane-of-the-bonifatius-park.jpg",
+   "reason": "Tall forked plane in the small park, pale patched bark at the fork, a boulder at its edge; GPS 20 m from our pin. Species seen: patchy pale bark in the fork, broad open crown of a plane. Fits the description: a big, low-forked plane in a small wooded park.",
+   "lat": 52.6464783333333,
+   "lon": 6.988155,
+   "pin_checked": "2026-11-22"
+  },
   "778ba740-bace-47fe-aed6-681f156c7250": {
    "outcome": "published",
    "date": "2026-11-22",
    "tree_id": "zwo_013",
    "city_slug": "zwolle",
    "file": "zwo_013-the-plane-by-restaurant-urbana.jpg",
-   "reason": "The plane standing in front of the Loetje restaurant, tree fills the frame in daylight; the restaurant sign is in shot. Species seen: mottled bark flaking in pale plates, maple-shaped leaves, broad plane crown. Fits the description: beside the former Urbana tea house, now Loetje, sign visible over t",
+   "reason": "The plane in front of Loetje, the former Urbana tea house, sign in frame, summer daylight. Species seen: mottled bark flaking in pale plates, maple-shaped leaves. Fits the description: the plane beside the former Urbana tea house, now Loetje.",
    "lat": 52.5063033333333,
    "lon": 6.12339716666667,
    "pin_checked": "2026-11-22"
@@ -6376,9 +6398,20 @@
    "tree_id": "emm_005",
    "city_slug": "emmen",
    "file": "emm_005-the-copper-beech-of-nieuw-schoonebeek.jpg",
-   "reason": "A large purple-leaved beech in a small fenced garden between brick parish buildings, whole tree in frame. Species seen: dark purple-brown beech leaves, smooth grey beech trunk with flared base. Fits the description: large copper beech in the small park behind a brick parish building.",
+   "reason": "Large purple-leaved beech in the small fenced garden behind the parish centre. Species seen: dark purple beech leaves, smooth grey trunk. Fits the description: the large copper beech in the small park behind the parish centre.",
    "lat": 52.646625,
    "lon": 6.98763,
+   "pin_checked": "2026-11-22"
+  },
+  "b4225b8f-1324-4d9f-9a9d-22c9a4f9a84e": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "emm_003",
+   "city_slug": "emmen",
+   "file": "emm_003-the-oak-at-the-long-grave.jpg",
+   "reason": "Big oak rising beside the kerb stones of the long grave; dim woodland light but clearly this tree. Species seen: deeply fissured oak bark, lobed oak leaves. Fits the description: the large oak alongside the ring of kerb stones of hunebed D43.",
+   "lat": 52.7930283333333,
+   "lon": 6.88707166666667,
    "pin_checked": "2026-11-22"
   },
   "733793ad-e3d2-4afa-b298-a16f1a78f92e": {
@@ -6387,7 +6420,7 @@
    "tree_id": "zwo_016",
    "city_slug": "zwolle",
    "file": "zwo_016-huis-de-paddestoel-s-swamp-cypress.jpg",
-   "reason": "A tall conifer with a single straight fibrous trunk on a residential road verge, full height in frame. Species seen: soft feathery needle foliage, reddish fibrous stringy bark, tall straight bole. Fits the description: a tall tree on the verge along a residential road with houses either side.",
+   "reason": "Tall conifer with fibrous red-brown bark on the Herenweg verge, house number 133 in frame. Species seen: feathery deciduous-conifer foliage, fibrous reddish bark of a Taxodium. Fits the description: the tall swamp cypress on the road verge at Herenweg 131 to 133.",
    "lat": 52.50743,
    "lon": 6.12192783333333,
    "pin_checked": "2026-11-22"
@@ -6398,7 +6431,7 @@
    "tree_id": "zwo_020",
    "city_slug": "zwolle",
    "file": "zwo_020-the-weeping-beech-of-park-boschwijk.jpg",
-   "reason": "A big weeping beech on a park lawn, curtains of hanging branches down to the grass, trunk visible. Species seen: beech leaves on long pendulous branches, grey beech trunk. Fits the description: drooping branches, standing on the lawn of a park.",
+   "reason": "Great weeping beech curtain on the lawn of Park Boschwijk, summer light. Species seen: beech leaves on long hanging branches, smooth grey trunk. Fits the description: a weeping beech with drooping branches in the park lawn.",
    "lat": 52.49907,
    "lon": 6.13762783333333,
    "pin_checked": "2026-11-22"
@@ -6407,7 +6440,7 @@
    "outcome": "rejected",
    "date": "2026-11-22",
    "tree_id": "zwo_020",
-   "reason": "duplicate: the same file as 3b40b69a (identical frame, light and coordinates), which goes on the page"
+   "reason": "Duplicate: the same picture as 3b40b69a, sent twice for the same tree."
   },
   "dd50d6ca-cbed-40f2-85e5-d670600373c4": {
    "outcome": "published",
@@ -6415,9 +6448,20 @@
    "tree_id": "zwo_002",
    "city_slug": "zwolle",
    "file": "zwo_002-the-beech-of-the-boschwijk-avenue.jpg",
-   "reason": "A massive old beech trunk with burrs and a hollow, in the Boschwijk grounds, 5 m from our pin. Species seen: smooth grey beech bark, beech leaves, beech mast litter underfoot. Fits the description: a very heavy trunk, thicker than the trees around it.",
+   "reason": "Massive beech trunk with burrs and a hollow, beech mast on the ground in the Boschwijk woods. Species seen: smooth grey beech bark, beech leaves and mast. Fits the description: a very heavy beech trunk, thicker than its neighbours.",
    "lat": 52.4980466666667,
    "lon": 6.1393,
+   "pin_checked": "2026-11-22"
+  },
+  "184fee5d-424a-4239-b26a-b79c26050b45": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "emm_002",
+   "city_slug": "emmen",
+   "file": "emm_002-the-oak-in-hunebed-d42-184fee5d.jpg",
+   "reason": "The oak growing out of the hunebed stones in low gold light; a reader's own picture, so it takes the lead. Species seen: lobed oak leaves, broad oak crown, rough trunk. Fits the description: a single big oak rising from the middle of the megalithic stones.",
+   "lat": 52.79603,
+   "lon": 6.87057833333333,
    "pin_checked": "2026-11-22"
   }
  },

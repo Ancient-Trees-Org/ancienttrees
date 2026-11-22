@@ -194,6 +194,50 @@
    "agreed": null
   },
   {
+   "id": "sight:28ac3881-d738-4fee-9fec-165b598b965c",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Lime of the Noordeind",
+   "city": "Emmen",
+   "species": "Common Lime (Tilia x europaea)",
+   "photo": "out/sightings/28ac3881-d738-4fee-9fec-165b598b965c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 23,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Common Lime (Tilia x europaea)"
+   },
+   "verdict": "publish",
+   "reason": "A heavy, tall lime alone on the grass by the Noordeind, in leaf, daylight.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad808749-88be-4c22-b04e-ebaaabd7a349",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of the Bonifatius Park",
+   "city": "Emmen",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/ad808749-88be-4c22-b04e-ebaaabd7a349.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Tall forked plane in the small park, pale patched bark at the fork, a boulder at its edge; GPS 20 m from our pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:778ba740-bace-47fe-aed6-681f156c7250",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -211,7 +255,7 @@
     "note": "nothing measurable about London Plane (Platanus x acerifolia)"
    },
    "verdict": "publish",
-   "reason": "The plane in front of Loetje, sign in shot; lead photo of zwo_013",
+   "reason": "The plane in front of Loetje, the former Urbana tea house, sign in frame, summer daylight.",
    "hidde": null,
    "agreed": null
   },
@@ -233,7 +277,29 @@
     "note": "nothing measurable about Copper Beech (Fagus sylvatica f. purpurea)"
    },
    "verdict": "publish",
-   "reason": "Large copper beech in the fenced garden behind the parish buildings; lead photo of emm_005",
+   "reason": "Large purple-leaved beech in the small fenced garden behind the parish centre.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b4225b8f-1324-4d9f-9a9d-22c9a4f9a84e",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak at the Long Grave",
+   "city": "Emmen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/b4225b8f-1324-4d9f-9a9d-22c9a4f9a84e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Big oak rising beside the kerb stones of the long grave; dim woodland light but clearly this tree.",
    "hidde": null,
    "agreed": null
   },
@@ -255,7 +321,7 @@
     "note": "nothing measurable about Bald Cypress (Taxodium distichum)"
    },
    "verdict": "publish",
-   "reason": "Tall bald cypress, fibrous trunk, on the Herenweg verge; lead photo of zwo_016",
+   "reason": "Tall conifer with fibrous red-brown bark on the Herenweg verge, house number 133 in frame.",
    "hidde": null,
    "agreed": null
   },
@@ -277,7 +343,7 @@
     "note": "nothing measurable about Weeping Beech (Fagus sylvatica 'Pendula')"
    },
    "verdict": "publish",
-   "reason": "Weeping beech on the Boschwijk lawn, curtains to the grass; lead photo of zwo_020",
+   "reason": "Great weeping beech curtain on the lawn of Park Boschwijk, summer light.",
    "hidde": null,
    "agreed": null
   },
@@ -299,7 +365,7 @@
     "note": "nothing measurable about Weeping Beech (Fagus sylvatica 'Pendula')"
    },
    "verdict": "hold",
-   "reason": "Duplicate of 3b40b69a (same frame), which is on the page; rejected as a duplicate",
+   "reason": "Duplicate: the same picture as 3b40b69a, sent twice for the same tree.",
    "hidde": null,
    "agreed": null
   },
@@ -321,7 +387,29 @@
     "note": "nothing measurable about European Beech (Fagus sylvatica)"
    },
    "verdict": "publish",
-   "reason": "Massive burred beech trunk in Boschwijk, 5 m from our pin; lead photo of zwo_002",
+   "reason": "Massive beech trunk with burrs and a hollow, beech mast on the ground in the Boschwijk woods.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:184fee5d-424a-4239-b26a-b79c26050b45",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak in Hunebed D42",
+   "city": "Emmen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/184fee5d-424a-4239-b26a-b79c26050b45.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 18,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The oak growing out of the hunebed stones in low gold light; a reader's own picture, so it takes the lead.",
    "hidde": null,
    "agreed": null
   },

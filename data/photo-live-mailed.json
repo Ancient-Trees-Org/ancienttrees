@@ -991,6 +991,24 @@
    "last": "2026-11-22",
    "pending": [
     {
+     "sighting_id": "28ac3881-d738-4fee-9fec-165b598b965c",
+     "tree_id": "emm_001",
+     "tree_name": "The Lime of the Noordeind",
+     "city": "Emmen",
+     "city_slug": "emmen",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "ad808749-88be-4c22-b04e-ebaaabd7a349",
+     "tree_id": "emm_006",
+     "tree_name": "The Plane of the Bonifatius Park",
+     "city": "Emmen",
+     "city_slug": "emmen",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
      "sighting_id": "778ba740-bace-47fe-aed6-681f156c7250",
      "tree_id": "zwo_013",
      "tree_name": "The Plane by Restaurant Urbana",
@@ -1003,6 +1021,15 @@
      "sighting_id": "ab9898e3-e14b-4cbb-bec8-f96bb08b3fd1",
      "tree_id": "emm_005",
      "tree_name": "The Copper Beech of Nieuw-Schoonebeek",
+     "city": "Emmen",
+     "city_slug": "emmen",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "b4225b8f-1324-4d9f-9a9d-22c9a4f9a84e",
+     "tree_id": "emm_003",
+     "tree_name": "The Oak at the Long Grave",
      "city": "Emmen",
      "city_slug": "emmen",
      "display_name": null,
@@ -1032,6 +1059,15 @@
      "tree_name": "The Beech of the Boschwijk Avenue",
      "city": "Zwolle",
      "city_slug": "zwolle",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "184fee5d-424a-4239-b26a-b79c26050b45",
+     "tree_id": "emm_002",
+     "tree_name": "The Oak in Hunebed D42",
+     "city": "Emmen",
+     "city_slug": "emmen",
      "display_name": null,
      "live": "2026-11-22"
     }
