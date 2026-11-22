@@ -19,6 +19,7 @@ import { BASE_URL } from "../lib/schema";
 import { SUPABASE_URL, SUPABASE_KEY } from "../lib/site-config";
 import { visitorCards, cardsJson } from "../lib/visitor-cards";
 import { AGO_FN } from "../lib/time-ago-js";
+import { ACTIVITY_ROWS_FN, activityWords } from "../lib/activity-js";
 
 interface Props { lang?: string }
 const { lang = "en" } = Astro.props as Props;
@@ -26,10 +27,7 @@ const u = ui(lang);
 const t = chrome(lang);
 const path = lang === "en" ? "/activity" : `/${lang}/activity`;
 const data = cardsJson(await visitorCards(lang));
-const words = {
-  one: u.activityOne, two: u.activityTwo, more: u.activityMore,
-  fresh: u.activityNew, earlier: u.activityEarlier, empty: u.activityEmpty, anon: u.noteVisitor,
-};
+const words = activityWords(lang);
 const js = `<script>
 (function () {
   ${AGO_FN}
@@ -37,44 +35,8 @@ const js = `<script>
   var W = ${JSON.stringify(words)};
   var cards = JSON.parse(document.getElementById('act-data').textContent || '{}');
   var list = document.getElementById('act-list');
-  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); }
-  function line(r, tree) {
-    var names = r.names || [], n = Number(r.hearts) || 0;
-    var a = '<b>' + esc(names[0] || W.anon) + '</b>';
-    var t = '<b>' + esc(tree) + '</b>';
-    if (n <= 1) return W.one.replace('{a}', a).replace('{t}', t);
-    if (n === 2 && names[1]) return W.two.replace('{a}', a).replace('{b}', '<b>' + esc(names[1]) + '</b>').replace('{t}', t);
-    return W.more.replace('{a}', a).replace('{n}', '<b>' + (n - 1) + '</b>').replace('{t}', t);
-  }
-  function faces(r) {
-    var names = r.names || [], avs = r.avatars || [];
-    var out = '';
-    for (var i = 0; i < Math.max(1, Math.min(2, names.length)); i++) {
-      var nm = names[i] || W.anon, av = avs[i];
-      out += av && /^https:/.test(av)
-        ? '<span class="act-face" style="background-image:url(' + esc(av.replace(/[()'"]/g, '')) + ')"></span>'
-        : '<span class="act-face">' + esc(nm.charAt(0).toUpperCase()) + '</span>';
-    }
-    return out;
-  }
-  function row(r) {
-    var c = cards[r.tree_id] || null;
-    var img = c ? (c.s[String(r.photo_id).toLowerCase()] || c.p) : '';
-    var href = c ? c.u : '#';
-    return '<li><a class="act-row' + (r.is_new ? ' is-new' : '') + '" href="' + esc(href) + '">'
-      + '<span class="act-faces">' + faces(r) + '</span>'
-      + '<span class="act-text">' + line(r, c ? c.n : '') + ' <span class="act-when">' + esc(atAgo(r.latest_at, false)) + '</span></span>'
-      + (img ? '<img class="act-ph" src="' + esc(img) + '" alt="" loading="lazy">' : '')
-      + '</a></li>';
-  }
-  function paint(rows) {
-    var fresh = rows.filter(function (r) { return r.is_new; });
-    var old = rows.filter(function (r) { return !r.is_new; });
-    var html = '';
-    if (fresh.length) html += '<li class="act-day">' + esc(W.fresh) + '</li>' + fresh.map(row).join('');
-    if (old.length) html += '<li class="act-day">' + esc(W.earlier) + '</li>' + old.map(row).join('');
-    list.innerHTML = html || '<li class="act-empty">' + esc(W.empty) + '</li>';
-  }
+  ${ACTIVITY_ROWS_FN}
+  function paint(rows) { list.innerHTML = atActRows(rows, cards, W); }
   function go(s) {
     var h = { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' };
     fetch(SB + '/rest/v1/rpc/my_photo_activity', { method: 'POST', headers: h, body: '{"n":60}' })

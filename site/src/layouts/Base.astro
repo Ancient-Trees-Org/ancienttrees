@@ -20,6 +20,8 @@ import { toEnglishPath, ui } from "../lib/i18n";
 import { isNoindexed, noindexScope, cleanPath } from "../lib/noindex";
 import { chrome } from "../lib/ui-strings";
 import { icon } from "../lib/icons";
+import { bellDropJs } from "../lib/activity-js";
+import { AGO_FN } from "../lib/time-ago-js";
 import { searchForm, searchWidgetJs } from "../lib/search-form";
 import { COLLECTION_JS } from "../lib/collection-js";
 // My trees in the phone sheet, the app's tab and leaf. The desktop account
@@ -63,6 +65,9 @@ const { title, description, canonical, ogType = "article", headExtra = "", foote
 // its stories in Spanish or Japanese inside an English frame; see
 // site/src/lib/ui-strings.ts for the measurement and the convention behind it.
 const t = chrome(lang);
+// The bell's page and its dropdown's words (lib/activity-js.ts, 2026-11-22).
+const u = ui(lang);
+const activityHref = lang === "en" ? "/activity" : `/${lang}/activity`;
 /** The English path of whatever page this is, derived from its own URL rather
  * than passed in, so the language picker below needs no cooperation from any
  * page and keeps working for page types that do not exist yet. */
@@ -292,7 +297,15 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
             the menu). Signed in only; opens /activity, the hearts other people
             gave your photographs. A dot while something came after you last
             opened it. Strava's and Instagram's web bars carry the same. */}
-        <a href="/activity" id="bar-bell" class="bar-bell only-desktop" aria-label={t.activity} hidden><Fragment set:html={icon("bell", "bold")} /><span class="bell-dot" hidden></span></a>
+        <span class="bar-bell-wrap only-desktop">
+          <a href={activityHref} id="bar-bell" class="bar-bell" aria-label={t.activity} aria-haspopup="true" aria-expanded="false" hidden><Fragment set:html={icon("bell", "bold")} /><span class="bell-dot" hidden></span></a>
+          {/* The dropdown (lib/activity-js.ts bellDropJs, Hidde 2026-11-22: "oke laten we a doen"). */}
+          <div id="bell-drop" class="bell-drop" hidden>
+            <p class="bell-drop-h">{t.activity}</p>
+            <ul class="act-list"></ul>
+            <a class="bell-drop-all" href={activityHref}>{u.seeAll}</a>
+          </div>
+        </span>
         <a href="/account" id="bar-login" class="nav-acct bar-face only-desktop" aria-label={t.account}><span class="acct-face" aria-hidden="true"></span><span class="acct-word sr-only">{t.account}</span></a>
       </Fragment>
     )}
@@ -674,6 +687,7 @@ window.atPaintBell = function(inNow) {
   } catch (e) {}
 })();
 </script>
+{AUTH_ENABLED && <Fragment set:html={bellDropJs(lang, SUPABASE_URL, SUPABASE_KEY, AGO_FN)} />}
 {/* THE SIGN-IN SHEET, on every page, for the reason the comment above gives
     about units: a component every page has to remember to include is one a
     page will forget. It had been included by hand in twelve places and so it
