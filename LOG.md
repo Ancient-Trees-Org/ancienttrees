@@ -241,6 +241,13 @@ Supply: every "awaiting a writer" file is stale (already published); READY is 4 
 - **Mail replies from the Horn-Lehe reader.** In 1492 she asks to be ambassador of "this part of Bremen": badge granted for horn-bremen (`ambassador.py --grant ... --send`). This machine had no mail credentials, so the "Looking after Horn-Lehe" welcome did **not** go out; a session or knock with credentials needs to send it. In 1491 she says the country she picks in the app still does not stay, even after a restart and after today's flag-upsert fix. Closed as `needs_hidde`; it is the open BUG row ESC-2026-11-22, and a session should check her profile row and her phone and build. Both rows are closed in reader_words as not about the tree.
 - Left: lead 3c544597 (Amsterdam, `mine`) still has no photo on disk. There were no open reports.
 
+## 2026-11-22 session: the country you pick on iPhone stays picked
+
+- Reader 1358 wrote again after this morning's flag fix: "Helaas wil het land bij mij nog niet blijven staan". The server takes the apps' save now (round-trip on apptest: BE, then NL). Her row still said NL, so her new choice had never reached it.
+- The cause sat in the iPhone app. Edit profile filled the name and country in a `.task` on its Form, and the Country list is pushed over that Form, so coming back from the list ran the task again and put the saved country back before Save. It now fills once per opening (ProfileEditor.swift). CountryStaysWalk picks Don't show over NL: without the guard it fails ("Netherlands" back on the row), with it it passes. Android was already fine (`remember`).
+- Escaped bug ESC-2026-11-22-edit-profile-put-the-saved-country-back- is recorded, caught and fixed in 36d7ad09e. The fix reaches readers with the next iOS build; until then the website's /account sets the country.
+- For Hidde: a reply to her is drafted in drafts/reply-reader-1358-2026-11-22b.md. It waits for your yes.
+
 ## 2026-11-22 reader judge (seventeenth run): a Patagonia mesquite held for its location; the Tortworth reader's feedback closed
 
 This run judged the same trees as the parallel run (770f4f383), which had already published the Tortworth Chestnut, the Paris bur oak and the Spirit Tree lead. I dropped my duplicate and added only what it had not covered:
