@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (seventeenth run): a Patagonia mesquite held for its location; the Tortworth reader's feedback closed
+
+This run judged the same trees as the parallel run (770f4f383), which had already published the Tortworth Chestnut, the Paris bur oak and the Spirit Tree lead. I dropped my duplicate and added only what it had not covered:
+- **tip-1487, a mesquite on a town lot in Patagonia, Arizona**: photograph viewed. It is a big, many-limbed mesquite, 14 m tall and 18 m wide by the reader's figures. Held as `no_location`, because "Patagonia" and "town lot" are all we have. The standard reply (`hold_reply.py`) goes at the next knock.
+- **Feedback 1488**: the Tortworth reader said the app listed their chestnut under Westonbirt Arboretum. It is now live as tortworth/twc_001, its own place, so the row is closed as `handled`.
+Left: lead 3c544597 (Amsterdam, `mine`) still has no file on disk. No open reports, and no new readers' words.
+
 ## 2026-11-22 session: an Android tester from the ABC Darwin interview
 
 Sent on Hidde's "Verstuur": a reply to Vincent (North Carolina), who heard Hidde on ABC Darwin and asked to test the Android app. His address is Gmail, so it is the Google Group route (group link, then the Play opt-in link) with no Play Console edit; it ends with a question about a North Carolina tree for the map. He is on the tester list as invited (`android_testers.py`, pushed).

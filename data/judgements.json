@@ -24644,6 +24644,27 @@
    "reason": "Reader's photograph is the lead of the new tree par_076: the whole bare oak by the garden gate, daylight, colour, the photograph's own GPS.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:tip-1487",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Ancient mesquite",
+   "city": "Patagonia",
+   "species": null,
+   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
+   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "no_location: a big many-limbed mesquite, worth the walk by the reader's figures (14 m tall, 18 m wide), but only 'Patagonia' and 'town lot' to place it. Standard no_location reply asks where it stands.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

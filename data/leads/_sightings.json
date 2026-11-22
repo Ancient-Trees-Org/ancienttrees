@@ -10194,6 +10194,35 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "paris/par_076"
+  },
+  {
+   "sighting_id": "tip-1487",
+   "user_id": "p_158314cb4b1892ca53e88c7d",
+   "mine": false,
+   "name": "Ancient mesquite",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": 300,
+   "girth_hugs": null,
+   "note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
+   "latitude": null,
+   "longitude": null,
+   "location_kind": null,
+   "near": "Patagonia",
+   "taken_month": 11,
+   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": null,
+   "status": "held",
+   "why": "Photograph viewed 2026-11-22: looking up a big, many-limbed mesquite with shaggy bark and pruned stubs, daylight, colour; worth the walk by the reader's figures (about 14 m tall, 18 m wide, 300 cm round). Held no_location: only 'Patagonia' and 'town lot', no coordinate or street to pin it. The standard reply asks where it stands.",
+   "seen": "2026-11-22",
+   "hold": "no_location",
+   "judged": "2026-11-22"
   }
  ]
 }
