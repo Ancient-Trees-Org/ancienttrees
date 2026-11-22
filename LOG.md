@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: a banyan joins the Delhi peepal
+
+- New tree live: The Banyan by the Arcades (delhi/dlh_002), an Indian banyan whose trunk is a bundle of root pillars beside a Mughal pavilion near Humayun's Tomb, sent through the app by the same reader as the peepal. Pin from the photograph's own position (confirmed), 302 m from dlh_001; photo filed in November from its own date. Delhi now has two trees, so its place page comes back (PLACE_PAGE_MIN_TREES 2); intro, meta, question texts and FAQ rewritten for both trees. The garden is still not named on the page (it looks like Sundar Nursery, nothing confirms it).
+- Left: lead 3c544597 (Amsterdam, our own account, "not sure which tree" near ams_032): its photo is not on this machine, so it was not judged.
+- No open reports, no feedback without a verdict, no reader notes waiting to be quoted. No mail sent; the congratulation goes through tree_approved.py on the next knock.
+
 ## 2026-11-22 reader judge, a second run beside the first: four more Emmen trees from the same reader
 
 - Ran at the same time as the entry below and judged the same ten photographs the same way; this run's files are kept because they also carry four photos the other run had not reached: the Lime of the Noordeind (emm_001) and the Oak at the Long Grave (emm_003) get their first photograph, the Plane of the Bonifatius Park (emm_006) too, its pin moved 20 m to the reader's fix and now confirmed, and the Oak in Hunebed D42 (emm_002) takes the reader's golden-light frame as its lead, the old photo moved into the strip. Story wording of emm_005 and zwo_016 is this run's (no colon, same facts). No mail went out from either run: all nine wait in the reader's weekly bundle.

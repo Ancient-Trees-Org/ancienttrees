@@ -9405,6 +9405,39 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "delhi/dlh_001"
+  },
+  {
+   "sighting_id": "272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+   "user_id": "p_e255e7a69d7743de7443b511",
+   "mine": false,
+   "name": "Indian Banyan",
+   "unsure_among": null,
+   "species": "Indian Banyan",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 28.5958716666667,
+   "longitude": 77.24633,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_e255e7a69d7743de7443b511/272EEA9F-3EBD-4F3A-927C-CCD96B21AB9D.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 302,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole banyan from the garden path, a wide spreading crown of broad leathery leaves over a trunk made of many hanging roots grown into pillars, a bed of ground cover at its foot, a Mughal pavilion of white cusped arches on red walls behind, people walking past, daylight, colour. Live as delhi/dlh_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "delhi/dlh_002"
   }
  ]
 }

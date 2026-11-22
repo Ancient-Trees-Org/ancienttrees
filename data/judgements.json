@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Banyan by the Arcades",
+   "photo": "p_e255e7a69d7743de7443b511/272EEA9F-3EBD-4F3A-927C-CCD96B21AB9D.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole banyan, root-pillar trunk, Mughal arcade behind, daylight, colour. Lead photograph of delhi/dlh_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -410,6 +422,34 @@
    },
    "verdict": "publish",
    "reason": "The oak growing out of the hunebed stones in low gold light; a reader's own picture, so it takes the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Indian Banyan",
+   "city": null,
+   "species": "Indian Banyan",
+   "photo": "p_e255e7a69d7743de7443b511/272EEA9F-3EBD-4F3A-927C-CCD96B21AB9D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Indian Banyan"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a wide banyan whose trunk is a bundle of hanging roots grown into pillars, beside a Mughal pavilion of cusped arches, daylight, colour; position from the photograph. Live as delhi/dlh_002 under the closed list.",
    "hidde": null,
    "agreed": null
   },

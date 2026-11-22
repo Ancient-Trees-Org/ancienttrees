@@ -2,8 +2,8 @@
   "city": "Delhi",
   "country": "India",
   "status": "needs_curation",
-  "intro": "Delhi is India's capital, a city of Mughal tombs, gardens and wide green lawns among the traffic. Near Humayun's Tomb a reader found a peepal, the sacred fig of India, grown into a vast rounded crown over a trunk of fused stems on a stone plinth, and sent us two photographs of it. We do not yet know its age or its girth.",
-  "meta_description": "A huge peepal, the sacred fig, on a stone plinth in a garden near Humayun's Tomb in Delhi, sent by a reader: where it stands and what we know.",
+  "intro": "Delhi is India's capital, a city of Mughal tombs, gardens and wide green lawns among the traffic. Near Humayun's Tomb a reader found two great figs about 300 metres apart and sent us their photographs: a peepal, the sacred fig of India, with a vast rounded crown over a trunk of fused stems on a stone plinth, and a banyan whose hanging roots have grown into pillars beside an arcaded Mughal pavilion. We do not yet know their ages.",
+  "meta_description": "Two great figs near Humayun's Tomb in Delhi, sent by a reader: a peepal on a stone plinth and a banyan of root pillars beside a Mughal pavilion.",
   "hero_tree_id": "dlh_001",
   "oldest_tree_id": "dlh_001",
   "trees": [
@@ -67,23 +67,68 @@
           "taken_month_basis": "sent with the lead photograph the same day"
         }
       ]
+    },
+    {
+      "id": "dlh_002",
+      "name": "The Banyan by the Arcades",
+      "species": "Indian Banyan (Ficus benghalensis)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Garden near Humayun's Tomb, Nizamuddin, New Delhi",
+        "latitude": 28.5958716666667,
+        "longitude": 77.24633,
+        "neighbourhood": "Nizamuddin"
+      },
+      "how_to_recognise": "A wide banyan beside a Mughal pavilion of white cusped arches on red walls: its trunk is a bundle of pale hanging roots grown into pillars, with a round bed of ground cover at its foot.",
+      "access": "In a landscaped garden where people walk the paths and sit on the lawns; the reader walked up to it. We have not confirmed the garden's opening hours or whether it charges entry; check before you go.",
+      "story": "A reader sent us this banyan from a garden of lawns and paths a few minutes' walk from Humayun's Tomb in Delhi, and named it an Indian Banyan.\n\nA banyan, Ficus benghalensis, is India's national tree, and it grows in a way no other tree does. Its branches let down thin roots that hang in the air until they reach the soil, then thicken into new trunks, so an old banyan slowly turns into a grove that is still one tree. This one is well on its way. In the reader's photograph the trunk is not one stem but a bundle of pale roots grown into pillars, and the long limbs reach out sideways far over the paths, the broad leathery leaves hanging thick enough to shade everyone walking below.\n\nBehind it stands an old building of white cusped arches set in red walls, Mughal in style, so close that the banyan seems to lean against its arcade. People stroll the paths and sit on the grass under the outer branches.\n\nWe do not know its age, its girth or who planted it. If you know this tree, tell us here and we will add what you know.\n\nIt stands about 300 metres from The Peepal on the Plinth, our other Delhi tree, so the two make a short walk.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (272eea9f-3ebd-4f3a-927c-ccd96b21ab9d, 2026-11-22, through the app). Photograph viewed: the whole banyan from the garden path, a wide spreading crown of broad leathery leaves over a trunk made of many hanging roots grown into pillars, a bed of ground cover at its foot, a Mughal pavilion of white cusped arches on red walls behind, people walking past, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Indian Banyan', species 'Indian Banyan'; no age, girth or note. No register entry within 100 m and no encyclopaedia article within 300 m (corroborate.py). 302 m from dlh_001, a different tree and species. The garden and the pavilion are not named on the page: the pin fits the Sundar Nursery heritage park near Humayun's Tomb, but nothing confirms it. India is out of focus for our own research only, never for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dlh_002-banyan-by-the-arcades.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_e255e7a69d7743de7443b511",
+        "sighting_id": "272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole banyan from the garden path, a wide spreading crown of broad leathery leaves over a trunk made of many hanging roots grown into pillars, a bed of ground cover at its foot, a Mughal pavilion of white cusped arches on red walls behind, people walking past, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ],
-  "question_meta": "A huge peepal on a stone plinth near Humayun's Tomb in Delhi, sent by a reader: where it stands, how to recognise it and what we know.",
-  "question_answer": "The Peepal on the Plinth stands on the lawns of a landscaped garden near Humayun's Tomb in Nizamuddin, Delhi. A reader sent it to us; its age is not yet known.",
-  "question_context": "A reader sent us this tree from a garden of lawns and stone water channels near Humayun's Tomb in Delhi and named it a Bodhi tree. It is a peepal, Ficus religiosa, the fig under which the Buddha is said to have found enlightenment, sacred to Hindus and Jains as well, which is why so many peepals are left to grow old across India. This one has had room to spread. Its crown is a huge rounded mass, wider than it is tall, and the people picnicking on the grass beneath it look tiny. The trunk sits on a raised stone plinth, short and very thick, made of many grey stems and roots grown together. Its heart-shaped leaves, each drawn out into a long thin tip, hang thick enough to hide the sky, and across the lawn an old domed building rises behind arcaded walls. We have no age, girth or planting record for it yet, and we would like to hear from anyone who knows this tree or the garden's own story of it.",
+  "question_meta": "A peepal on a stone plinth and a banyan beside a Mughal pavilion near Humayun's Tomb in Delhi, sent by a reader: where they stand and what we know.",
+  "question_answer": "The Peepal on the Plinth stands on the lawns of a landscaped garden near Humayun's Tomb in Nizamuddin, Delhi, with The Banyan by the Arcades about 300 metres away. A reader sent both; their ages are not yet known.",
+  "question_context": "A reader sent us two trees from the gardens near Humayun's Tomb in Delhi. The first is a peepal, Ficus religiosa, the fig under which the Buddha is said to have found enlightenment, sacred to Hindus and Jains as well, which is why so many peepals are left to grow old across India. Its crown is a huge rounded mass, wider than it is tall, and its short, very thick trunk of grey stems grown together sits on a raised stone plinth. About 300 metres away stands a banyan, Ficus benghalensis, India's national tree. A banyan lets down roots from its branches that thicken into new trunks when they reach the soil, and this one's trunk has become a bundle of pale root pillars, its long limbs spreading over the paths beside a Mughal pavilion of white cusped arches on red walls. We have no age, girth or planting record for either tree yet, and we would like to hear from anyone who knows them or the garden's own story of them.",
   "faq": [
     {
-      "q": "Where is The Peepal on the Plinth?",
-      "a": "On the lawns of a landscaped garden near Humayun's Tomb in Nizamuddin, Delhi. Look for the huge rounded crown over a trunk on a raised stone plinth."
+      "q": "Where are the old trees near Humayun's Tomb in Delhi?",
+      "a": "In the landscaped gardens of Nizamuddin, close to Humayun's Tomb: The Peepal on the Plinth on an open lawn, and The Banyan by the Arcades about 300 metres away beside an arcaded Mughal pavilion."
     },
     {
-      "q": "How old is The Peepal on the Plinth?",
-      "a": "We do not know yet. No record of its age or girth has reached us; if you know it, tell us on the tree's page."
+      "q": "How old are these trees?",
+      "a": "We do not know yet. No record of their age or girth has reached us; if you know it, tell us on the tree's page."
     },
     {
-      "q": "Can I visit The Peepal on the Plinth?",
-      "a": "Yes. It stands in a garden where people picnic on the lawns. We have not confirmed opening hours or an entry fee, so check before you go."
+      "q": "Can I visit them?",
+      "a": "Yes. Both stand in a garden where people walk the paths and picnic on the lawns. We have not confirmed opening hours or an entry fee, so check before you go."
     }
   ]
 }
