@@ -21,6 +21,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: a Delhi peepal live, two photos with faces taken down
+
+- **Live**: delhi/dlh_001, The Peepal on the Plinth, a huge sacred fig on a stone plinth in a garden near Humayun's Tomb, sent through the app with a GPS fix from the photo (confirmed pin). Both photographs viewed; the second goes in the strip. New one-tree place Delhi (India is out of focus for our own research only, never for a reader's tree). The garden is not named on the page: the pin fits Sundar Nursery, but nothing confirms it.
+- **Photos with faces removed on request** (feedback 1419, a reader's mail reply: "Please remove the photos, as include faces"): of their four live photographs, the two with a person in them came out of the strips with `sightings_publish.py --unstrip` (bat_003 Bath Circus planes, cdb_001 Córdoba olive). cdb_002 (distant figures only) and gra_007 (no people) stay. A confirming answer is drafted in drafts/reply-reader-1419-2026-11-22.md; row closed `needs_hidde`. For Hidde: the reply to 1419 is ready to send; the app's bundled catalogue still names the two photos until the next build.
+- **Left open**: report 1000119 (a moved pin, "Oriental Plane in Tsagarada, Greece"): no tree of ours by that name or within 2 km; probably a reader's own tree that has not reached our data yet, so it stays open for the next run. Lead 3c544597 (Amsterdam, our own account) still has no photo on disk.
+- Checks: qa source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-22 fourth attempt: nothing shipped, and why
 
 No claims stood. READY leads: 2 (york, guimaraes), under the six-candidate minimum. `--pending` holds only duplicates and id clashes. Staged focus cities portland, munich and vienna are refused as full; translations are paused by `TRANSLATIONS_OUT`; the register backup says BUILD. The one unjudged reader photo (3c544597) is not on disk, so it stays open rather than judged blind. A deploy dispatch is refused (403) here; the last dispatched deploy (04:12) failed before fix 64bd619, so a session should re-dispatch one. Next: a verify pass on a city with room, or iNaturalist as a new source.

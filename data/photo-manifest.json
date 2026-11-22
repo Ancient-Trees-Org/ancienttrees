@@ -844,12 +844,6 @@
     500
    ]
   },
-  "https://ancienttrees.app/photos/bat_003-the-plane-trees-of-the-circus-3b39d16a.jpg": {
-   "base": "bat_003-the-plane-trees-of-the-circus-3b39d16a",
-   "widths": [
-    500
-   ]
-  },
   "https://upload.wikimedia.org/wikipedia/commons/e/e1/2014_Wybicki_Oak_at_B%C4%99domin_PL.jpg": {
    "base": "bed_001-the-wybicki-oak-d-b-wybickiego",
    "widths": [
@@ -2523,12 +2517,6 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/4/47/Olivo_del_Patio_de_los_Naranjos_-_Mezquita_de_C%C3%B3rdoba.jpg": {
    "base": "cdb_001-the-olive-of-the-orange-courtyard",
-   "widths": [
-    500
-   ]
-  },
-  "https://ancienttrees.app/photos/cdb_001-the-olive-of-the-orange-courtyard-79e27623.jpg": {
-   "base": "cdb_001-the-olive-of-the-orange-courtyard-79e27623",
    "widths": [
     500
    ]

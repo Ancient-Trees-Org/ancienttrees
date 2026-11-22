@@ -9370,6 +9370,41 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "shanghai/sha_001"
+  },
+  {
+   "sighting_id": "d6e19c81-357b-4bb8-a5a1-c3c3af4931f8",
+   "user_id": "p_e255e7a69d7743de7443b511",
+   "mine": false,
+   "name": "Bodhi Tree",
+   "unsure_among": null,
+   "species": "Bodhi Tree",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 28.5979633333333,
+   "longitude": 77.2443616666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_e255e7a69d7743de7443b511/D6E19C81-357B-4BB8-A5A1-C3C3AF4931F8.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/d6e19c81-357b-4bb8-a5a1-c3c3af4931f8-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole tree from the lawn, a vast rounded crown over a short trunk of fused stems on a raised stone plinth, picnickers on the grass, a water channel and red sandstone pavilions behind, daylight, colour. Live as delhi/dlh_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "delhi/dlh_001"
   }
  ]
 }

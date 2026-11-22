@@ -1358,6 +1358,18 @@
       "Delfum",
       "Gemeente Delft"
     ],
+    "delhi": [
+      "Deli",
+      "Dillí",
+      "Delis",
+      "Deilí",
+      "Dellium",
+      "Dehli",
+      "Delhio",
+      "Dilhi",
+      "Dähli",
+      "Ndéli"
+    ],
     "den-bosch": [
       "'s-Hertogenbosch",
       "Bois-le-Duc",
@@ -5853,6 +5865,7 @@
     "deblin": "Dęblin",
     "defynnog": "Defynnog",
     "delft": "Delft",
+    "delhi": "Delhi",
     "den-bosch": "'s-Hertogenbosch",
     "den-hout": "Den Hout",
     "dengfeng": "Dengfeng",
