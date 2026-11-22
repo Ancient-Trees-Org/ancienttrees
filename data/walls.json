@@ -82,11 +82,6 @@
       "released_at": "2026-10-28T07:56:55+00:00"
     },
     {
-      "slug": "dublin",
-      "kind": "verify",
-      "released_at": "2026-10-31T19:56:06+00:00"
-    },
-    {
       "slug": "porto",
       "kind": "verify",
       "released_at": "2026-11-02T06:47:52+00:00"
@@ -217,11 +212,6 @@
       "released_at": "2026-11-18T23:20:50+00:00"
     },
     {
-      "slug": "stuttgart",
-      "kind": "verify",
-      "released_at": "2026-11-18T23:22:50+00:00"
-    },
-    {
       "slug": "hamburg",
       "kind": "verify",
       "released_at": "2026-11-18T23:29:01+00:00"
@@ -330,6 +320,16 @@
       "slug": "nuremberg",
       "kind": "verify",
       "released_at": "2026-11-22T01:48:40+00:00"
+    },
+    {
+      "slug": "stuttgart",
+      "kind": "verify",
+      "released_at": "2026-11-22T04:45:22+00:00"
+    },
+    {
+      "slug": "dublin",
+      "kind": "verify",
+      "released_at": "2026-11-22T04:45:35+00:00"
     }
   ]
 }

@@ -11,6 +11,9 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 night run, third attempt: nothing shipped, shelf still dry
+No product change. Released the standing stuttgart claim (wall for 48h). READY has 2 leads (York, Guimaraes), under the 6-candidate floor; the "awaiting a writer" files are stale or duplicates. Portland refused (full, 33 of 30). Dublin claimed and released at once: 0 of 9 leads carry a coordinate, so a pass would fail on the pin (now a 48h wall). Translations stay paused (TRANSLATIONS_OUT) and register scouting says BUILD with nothing left. The blocker is the same as the last attempts: supply needs a coordinate source (a rendering browser for Birmingham's Botanical Gardens list, or iNaturalist points), not another search pass. Health reds (deploy and smoke on schedule, app catalogue 175 behind) not touched.
+
 ## 2026-11-22 04:39 UTC run (rung 2: red deploy)
 
 - Deploy was red on two qa lines. Fixed both in data/cities/philadelphia.json: the verify note on the Morris Arboretum weeping beech held the banned phrase "hidden gems" (a source's post title, rendered on the page), reworded; Bartram's Ginkgo hero was the 375px iNaturalist medium file, now large.jpg (768x1024, same photograph and licence). Preflight 0 problems. Not rebuilt here; the next deploy confirms.
