@@ -202,7 +202,22 @@
         "kind": "flowers",
         "label": "August and September, when it hangs cream flowers over the water and almost nothing else is flowering"
       },
-      "height_m": 20
+      "height_m": 20,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hbg_005-the-japanese-pagoda-tree-of-alsterufer-bc7a74af.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_b81a3a3687bb06105a51977f",
+          "sighting_id": "bc7a74af-25a5-4044-80e7-f61a09268e6c",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-22: the readers' own selfie at the tree at dusk, the whole bare crown behind them and the heritage-tree sign they point at; belongs in the gallery, never the lead Species seen: bare winter crown of a pagoda tree, wide low limbs, dark furrowed trunk, small pinnate leaves still hanging. Fits the description: one large tree standing clear on the lawn of the Alsterufer with the white villas behind, its information sign at the foot; GPS 15 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "hbg_006",
@@ -277,12 +292,19 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/hbg_007-the-lehmann-plane-of-planten-un-blomen.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b81a3a3687bb06105a51977f",
+        "sighting_id": "6faa04dc-a1c6-418e-a574-ec468f6296fe",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: the Lehmann plane in autumn sun, the whole trunk and crown in frame, its interpretation sign at the foot; daylight and colour Species seen: flaking plane bark with pale patches, palmate plane leaves turning gold. Fits the description: a massive slightly crooked trunk with one heavy limb angling off low to the left at about three metres, in the park with the Heinrich-Hertz tower and the congress-centre glass behind; the GPS fix is 9 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "story": "Most old trees are dated by argument. This one has a date: 6 November 1821, when Professor Johann Georg Christian Lehmann put it in the ground as the first tree of Hamburg's new botanical garden, which he had founded and would direct. That makes it about 205 years old, and it is one of the few trees in this city whose age needs no tolerance attached to it.\n\nThe garden it was planted to open has since moved on and the ground around it has become Planten un Blomen, a public park in the old ramparts on the edge of the centre. The plane stayed put and kept growing: 29 metres tall and 6.15 metres round when it was measured on 1 November 2020, with a trunk that leans slightly out of true and throws its first branch off low and steeply, at about three metres.\n\nHamburgers call it the Lehmann-Platane. The botanical garden's own history describes it as its living founding document, which is unusually good phrasing for an institution writing about itself, and accurate: the garden was founded around this planting, and the planting is still standing, free to walk up to.",
+      "story": "Most old trees are dated by argument. This one has a date: 6 November 1821, when Professor Johann Georg Christian Lehmann put it in the ground as the first tree of Hamburg's new botanical garden, which he had founded and would direct. That makes it about 205 years old, and it is one of the few trees in this city whose age needs no tolerance attached to it.\n\nThe garden it was planted to open has since moved on and the ground around it has become Planten un Blomen, a public park in the old ramparts on the edge of the centre. The plane stayed put and kept growing: 29 metres tall and 6.15 metres round when it was measured on 1 November 2020, with a trunk that leans slightly out of true and throws its first branch off low and steeply, at about three metres.\n\nHamburgers call it the Lehmann-Platane. The botanical garden's own history describes it as its living founding document, which is unusually good phrasing for an institution writing about itself, and accurate. The garden was founded around this planting, and the planting is still standing, free to walk up to.",
       "how_to_recognise": "A tall plane with a slightly crooked trunk and one heavy branch angling off low, at about three metres, near the park exit toward the CCH congress centre."
     }
   ]

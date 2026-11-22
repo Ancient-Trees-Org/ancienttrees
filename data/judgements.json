@@ -2267,6 +2267,72 @@
    "agreed": null
   },
   {
+   "id": "sight:6faa04dc-a1c6-418e-a574-ec468f6296fe",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Lehmann Plane of Planten un Blomen",
+   "city": "Hamburg",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/6faa04dc-a1c6-418e-a574-ec468f6296fe.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 9,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "the Lehmann plane in autumn sun, crooked trunk and the low heavy limb in frame, 9 m from our pin; now its first photograph",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bc7a74af-25a5-4044-80e7-f61a09268e6c",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Japanese Pagoda Tree of Alsterufer",
+   "city": "Hamburg",
+   "species": "Japanese Pagoda Tree (Styphnolobium japonicum)",
+   "photo": "out/sightings/bc7a74af-25a5-4044-80e7-f61a09268e6c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 15,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Pagoda Tree (Styphnolobium japonicum)"
+   },
+   "verdict": "publish",
+   "reason": "the readers at the pagoda tree at dusk, whole bare crown and heritage sign behind them; in the gallery behind the Commons lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:15fdc51f-8f67-4820-bf71-f26b55ff2000",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Bur Oak by the Cuvier Gate",
+   "city": "Paris",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "photo": "out/sightings/15fdc51f-8f67-4820-bf71-f26b55ff2000.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bur Oak (Quercus macrocarpa)"
+   },
+   "verdict": "publish",
+   "reason": "the bur oak in full autumn leaf by the gate, 0 m from our pin; now the lead, the bare November frame moves to the gallery",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

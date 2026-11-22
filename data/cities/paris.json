@@ -2609,19 +2609,34 @@
       "curation_status": "flagged",
       "verify_notes": "2026-11-22 reader judge: sent by a reader (1da9fe2d-d3b4-4ee8-9e85-287491efb629, through the app, submission 1484). Photograph viewed: a tall bare oak just inside the garden railings by a gate, a single straight dark trunk breaking into a wide crown of heavy limbs, a label at its foot behind a low hooped railing, apartment buildings and the Pharmacie Cuvier across the street, November daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: species 'Bur Oak', age '215 years old', stated as theirs. No register entry within 100 m (corroborate.py); 79 m from par_002, a different tree and species.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/par_076-bur-oak-by-the-cuvier-gate.jpg",
-        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "url": "https://ancienttrees.app/photos/par_076-the-bur-oak-by-the-cuvier-gate-15fdc51f.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "source": "contributor",
-        "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
-        "sighting_id": "1da9fe2d-d3b4-4ee8-9e85-287491efb629",
         "taken_month": 11,
-        "taken_month_basis": "the photograph's own date",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: a tall bare oak just inside the garden railings by a gate, a single straight dark trunk breaking into a wide crown of heavy limbs, a label at its foot behind a low hooped railing, apartment buildings and the Pharmacie Cuvier across the street, November daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+        "source": "contributor",
+        "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+        "sighting_id": "15fdc51f-8f67-4820-bf71-f26b55ff2000",
+        "note": "Photographed by a reader and sent through the app (2026-11-02); a viewing pass approved it on 2026-11-22: the bur oak in full autumn leaf, straight dark trunk to the crown, the gate pier and railings at the right; a better lead than the bare November frame Species seen: deeply lobed bur-oak leaves turning gold and brown, ridged dark bark. Fits the description: a single straight dark trunk inside the garden wall, its label at the foot, the wide crown reaching over the gate beside it; GPS 0 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/par_076-bur-oak-by-the-cuvier-gate.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
+          "sighting_id": "1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: a tall bare oak just inside the garden railings by a gate, a single straight dark trunk breaking into a wide crown of heavy limbs, a label at its foot behind a low hooped railing, apartment buildings and the Pharmacie Cuvier across the street, November daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

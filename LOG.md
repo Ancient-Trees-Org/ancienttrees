@@ -1,5 +1,14 @@
 # LOG
 
+## 2026-11-22 reader judge: three readers' photographs live (Hamburg, Paris)
+
+- Hamburg's Lehmann plane (hbg_007) has its first photograph: a reader's autumn shot of the crooked trunk and the low heavy limb, 9 m from our pin. Its page now has reader content, so preflight read its story as indexed and caught a colon reveal; rewritten in English and the German overlay.
+- Hamburg's Japanese pagoda tree (hbg_005): the readers' dusk selfie at the tree, whole crown and heritage sign behind them, goes in the gallery behind the Commons lead (strip, never lead).
+- Paris's bur oak by the Cuvier gate (par_076): a reader's frame in full autumn leaf is now the lead; the bare November photo moves to the gallery.
+- Feedback 1499, a mail reply saying thanks and promising photos on a next visit: closed handled, not quoted.
+- No open reports. The 38 waiting leads in _sightings.json are all our own account's (`mine`) with no file on disk, including 3c544597 by Amsterdam Centraal; left, never judged blind.
+For Hidde: none.
+
 ## 2026-11-22 night run, third attempt: Coimbra verify dispatched
 
 Claimed coimbra (only 4 unmined register candidates, 17 open leads) and dispatched a verify agent; portland and porto refused (already over target). 4 READY leads still under the six minimum; pending write files are all stale, duplicates or id clashes. Reader sighting 3c544597 still has no photo on disk, left open. Nothing published yet.
