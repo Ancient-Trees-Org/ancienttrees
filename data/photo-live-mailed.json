@@ -2242,15 +2242,6 @@
      "live": "2026-11-19"
     },
     {
-     "sighting_id": "3c0bacd4-a433-464b-ba29-4c86c955cab8",
-     "tree_id": "mel_001",
-     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-19"
-    },
-    {
      "sighting_id": "269a3040-d241-4af0-ab00-ab8db2ee2ecf",
      "tree_id": "mel_019",
      "tree_name": "The Gum by the Edinburgh Gardens Skate Bowl",
@@ -2418,15 +2409,6 @@
   "p_57c98e1ef3e54e44a10e0ab7": {
    "last": "2026-11-19",
    "pending": [
-    {
-     "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
-     "tree_id": "nol_002",
-     "tree_name": "The Anseman Oak",
-     "city": "New Orleans",
-     "city_slug": "new-orleans",
-     "display_name": null,
-     "live": "2026-11-19"
-    },
     {
      "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
      "tree_id": "nol_001",
@@ -2833,17 +2815,7 @@
   },
   "p_064cc750d7e96fa90046487e": {
    "last": null,
-   "pending": [
-    {
-     "sighting_id": "2e39b8cc-fef3-4717-a56f-8eaec302fd0b",
-     "tree_id": "bgy_001",
-     "tree_name": "The Old Beech of St Ives Estate",
-     "city": "Bingley",
-     "city_slug": "bingley",
-     "display_name": null,
-     "live": "2026-11-21"
-    }
-   ],
+   "pending": [],
    "sent": []
   },
   "p_22c8aa9b88602739b67d46a4": {
@@ -3051,19 +3023,15 @@
    ]
   },
   "p_e27473e4c4acc8441dc59e17": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "8e633401-7b56-4592-ae53-0f35da4fcb7a",
      "tree_id": "boz_001",
-     "tree_name": "The Linden of Linn",
-     "city": "Zurich",
-     "city_slug": "zurich",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_02edf756ac8c1a596232f1a1": {
    "last": null,
@@ -3090,19 +3058,15 @@
    "sent": []
   },
   "p_f87e49ff8c6e119f0836c2fb": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "86314456-dad2-4cf1-b3aa-a0b3046022fb",
      "tree_id": "der_001",
-     "tree_name": "Boab Prison Tree",
-     "city": "Derby",
-     "city_slug": "derby",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

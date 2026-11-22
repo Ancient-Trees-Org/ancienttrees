@@ -1784,6 +1784,36 @@
         "The Great Beech of Tewkesbury Abbey"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b9fc85a912a6ec8808c306b0",
+      "place_slug": "bad-homburg",
+      "place_name": "Bad Homburg",
+      "date": "2026-11-22",
+      "trees": [
+        "The Tall Oak in the Taunus Beeches"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_02edf756ac8c1a596232f1a1",
+      "place_slug": "florianopolis",
+      "place_name": "Florianópolis",
+      "date": "2026-11-22",
+      "trees": [
+        "The Plaque Tree on the Shore of Ribeirão da Ilha"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_8ee7625f534ac175ae1c0c68",
+      "place_slug": "horn-bremen",
+      "place_name": "Horn-Lehe",
+      "date": "2026-11-22",
+      "trees": [
+        "The Old Oak by the Focke-Museum"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2965,6 +2995,15 @@
     "leamington-spa": {
       "trees": [
         "lsp_001"
+      ],
+      "since": "2026-11-22",
+      "mailed": []
+    },
+    "chiang-mai": {
+      "trees": [
+        "cnx_001",
+        "cnx_002",
+        "cnx_003"
       ],
       "since": "2026-11-22",
       "mailed": []
