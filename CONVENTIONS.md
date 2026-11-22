@@ -4260,3 +4260,22 @@ Hidde, on his Galaxy S21 Ultra after the tab bar: the rest of the iPhone's syste
 - **Text fields.** Material 3's outlined text field (m3.material.io/components/text-fields): the label inside the outline, floating up into it on focus or once there is text, the value left-aligned; a choice from a list is a read-only field with a down arrow (the exposed dropdown, m3.material.io/components/menus). The iPhone's is Apple's contact-card row: the label left, the value or a grey prompt right-aligned in the same row.
 
 **Ours on Android now:** every form and every sheet with a title row goes through one bar, SheetNavBar (ui/Settings.kt): X, title left, the action as a moss text button; the X keeps the word it replaces (Cancel, Close, Done) for a screen reader and the walks. Edit profile, Feedback and Tell us (Send moved from the foot of the form into the bar), the own tree's field editor, Sources, Delete account and the country, species and merge choosers. Every pushed page goes through PushedBar (same file): species, a collection, Settings, Privacy settings, Find people, a person, a tree's map, a shared tree. Settings, Discover's index rows and a place's ambassador and Plus rows lost their chevrons; section headers (Eyebrow in ui/TreeRows.kt, the choosers' headers, Feedback's) are sentence case in moss. Edit profile's Name and Country and the Feedback and Tell us fields are outlined fields (FormField, ui/Settings.kt), moss when focused, at our 12 corner. Brand, type, colour and copy stay ours; the iPhone keeps all four of its own. data/android-parity.json `_android_forced` lists each.
+
+## Blocking or reporting somebody, from their own profile (2026-11-22, looked up)
+
+**AllTrails** (support.alltrails.com 360019244871, read through its help-centre JSON): in the app, open the person's profile and tap the "..." overflow menu, then "Remove follower" or "Block user"; on the website, "Block" under their profile image. Your blocked list is managed in Privacy settings. The same article: on your own profile "Click the number next to 'Followers'" to open the list, so the counts are buttons. **Instagram** (help.instagram.com 426700567389543, "Blocking people"; the path, the ... on the profile with Block and Report, from memory, the article text would not load). **Apple App Review Guidelines 1.2** (read 2026-11-22): an app with user-generated content needs a way to filter objectionable material, a way to report it with timely responses, "the ability to block abusive users", and published contact details.
+
+Ours: Report and Block sit only behind the ... on a row in Find people (People.swift); a person's profile (PersonProfile.swift, web /profile?u=) has no menu, and another person's follower counts are plain text. Gap list: drafts/convention-gaps-2026-11-22.md rows 3 and 4. Not built; waits for Hidde.
+
+## Back on a phone closes what is open first, on the web too (2026-11-22, tested ours, references from memory)
+
+Android's system Back and the browser's Back dismiss the topmost thing before they leave a page: Instagram's web opens a post over the feed under its own address so Back closes it, Google Maps' mobile web and Airbnb's mobile web close the open panel or photo tour (from memory). Ours, tested live on /london/totteridge-yew at 375 px: with the photograph open, Back left the site page altogether; no sheet or viewer writes a history entry. Gap list row 1. Not built; waits for Hidde.
+
+## Everyday reflexes on a phone: pull to refresh, a long press on the map, double tap on a feed photo (2026-11-22, mostly from memory)
+
+- **Pull to refresh** on every feed and profile (Instagram, Strava, AllTrails; from memory, Apple's "Refresh content controls" page no longer loads). Ours: Discover and Find people only.
+- **A long press on the map drops a pin** you can save, share or turn into a missing place (Google Maps, support.google.com/maps/answer/3092445 lists "Drop a pin on the map"; the touch-and-hold step from memory; Apple Maps the same). Ours: no map answers a long press.
+- **Double tap on a photo in a feed gives it a heart** (Instagram, from memory). In a full-screen viewer double tap zooms (Apple Photos), which ours does and keeps.
+- **Long-press menus**: Apple HIG Context menus (read 2026-11-22): the most likely commands only, "Support context menus consistently throughout your app", and every item also reachable in the main interface. Ours has none anywhere, which is consistent rather than wrong.
+
+Ranked with the rest in drafts/convention-gaps-2026-11-22.md. None built.
