@@ -4290,3 +4290,11 @@ Android's system Back and the browser's Back dismiss the topmost thing before th
 - **Long-press menus**: Apple HIG Context menus (read 2026-11-22): the most likely commands only, "Support context menus consistently throughout your app", and every item also reachable in the main interface. Ours has none anywhere, which is consistent rather than wrong.
 
 Ranked with the rest in drafts/convention-gaps-2026-11-22.md. None built.
+
+## Editing your own profile from your photo, name and flag (2026-11-22, looked up and from memory)
+
+Hidde, finding the web harder than the app: "Waarom niet gewoon zoals in de app: dat je op je profielfoto of naam kan klikken, of de vlag, en dat dat edit-scherm naar boven komt", turning down a full-width Edit profile button as "een hele grote knop in prime space", and then the camera badge on the photo ("is dat cameratje nodig?").
+
+**References.** AllTrails: "Tap your profile image at top right", then Edit profile (support.alltrails.com 4409900896148, looked up 2026-11-22 by the convention-gaps session). Instagram and Polarsteps: a tap on your own picture changes it, with no badge on it (from memory; help pages would not load). Everyone sends your own name, tapped anywhere, to your own editable profile rather than the view a stranger gets (from memory). Our own app since 2026-09-27: Collect.swift opens ProfileEditor from the photo and the name.
+
+**Ours, web and both apps.** On your own profile your photo, your name and your flag open Edit profile, the one sheet (components/ProfileEditor.astro on the web, also opened from Settings' card; ProfileEditor.swift in the app). No button, no camera badge; on the web a hand and a slightly darker photo or an underlined name on hover. Your own name anywhere else (a tree page's note or photo, Activity, a follower list) opens your own profile: /profile?u=<you> sends you to /account, and the app switches to My trees. Settings' "See your public profile" still shows the stranger's view (view=public on the web).
