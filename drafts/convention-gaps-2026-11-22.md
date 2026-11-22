@@ -32,8 +32,10 @@ Recorded in CONVENTIONS.md and present in the code, so left out of the ranking: 
 
 ## Questions for Hidde (top five, in Dutch)
 
-1. Moet de terugknop van de telefoon op de website eerst de open foto of het open blad sluiten, zoals bij Instagram en Google Maps, in plaats van de pagina te verlaten?
-2. Willen we pushmeldingen sturen als iemand je foto een hartje geeft, je volgt of je boom live gaat, zoals Strava en komoot, met een keuze per soort?
-3. Zullen we Blokkeren en Melden in het ...-menu op iemands profiel zetten, zoals AllTrails, en niet alleen in Mensen zoeken?
-4. Mogen de aantallen volgers en volgend op andermans profiel aantikbaar worden, zodat je die lijst ziet, zoals bij AllTrails en Strava?
-5. Willen we omlaag trekken om te verversen ook op Mijn bomen, profielen en Activiteit, zoals Instagram dat overal doet?
+```text
+- Moet de terugknop van de telefoon op de website eerst de open foto of het open blad sluiten, zoals bij Instagram en Google Maps, in plaats van de pagina te verlaten?
+- Willen we pushmeldingen sturen als iemand je foto een hartje geeft, je volgt of je boom live gaat, zoals Strava en komoot, met een keuze per soort?
+- Zullen we Blokkeren en Melden in het ...-menu op iemands profiel zetten, zoals AllTrails, en niet alleen in Mensen zoeken?
+- Mogen de aantallen volgers en volgend op andermans profiel aantikbaar worden, zodat je die lijst ziet, zoals bij AllTrails en Strava?
+- Willen we omlaag trekken om te verversen ook op Mijn bomen, profielen en Activiteit, zoals Instagram dat overal doet?
+```
