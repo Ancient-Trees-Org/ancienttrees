@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: the Species filter says when a search finds nothing (iPhone and Android)
+
+- **What changes in the apps** (Hidde: "build it for both apps"): on the map's Species sheet, a search with no match showed a blank grey screen. Both apps now show "No species by that name." where the list was, the website's own line, in small grey text. Android in all eight languages from the site's translations. Seen on the iPhone 17 Pro simulator (no match; "oak" still lists every oak) and the Android emulator.
+- **For Hidde**: in the next iPhone build and Android build 6, not in build 5. Nothing archived or uploaded.
+- Also checked before this: the signed build 5 on the emulator, signed out (map, pin card, its close, Discover bookmark, empty species search, My trees, Collect), no crashes. Signed-in not walked on the Play build.
+
 ## 2026-11-22 reader judge, a second run beside the first: the Vienna plane
 
 - **Vienna, vie_023** (The Plane of Dr. Karl Lueger-Platz): a reader's photograph of the buttressed trunk and low limbs in autumn leaf, benches round it on the square. It now leads, and the old photograph moves to the strip. Filed under November. The reader's mail is queued in the weekly bundle.
