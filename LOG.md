@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 session: the photo heart's tap area (iOS check red)
+
+- ios.yml went red on Visitors: the heart on a visitor's photograph was a 26-point button since it split from its count. Hidde picked A of two screenshots (drafts/heart-tap-A-vs-B.png): the heart and the count now have Apple's 44-point tap area and look exactly as before (negative padding, PhotoLikes.swift). Seen on the simulator; CI is the proof.
+- Flags after supabase/flag-upsert-fix.sql: 186 to 211 accounts with a flag within two hours (Apple 5 to 16).
+
 ## 2026-11-22 night run (resumed attempt)
 
 Live: Miami gained three Florida champions (mia_018 Bayshore Park rubber fig, mia_019 Chase Avenue sea grape, mia_020 Miami Beach Botanical Garden weeping fig) and Handsworth Park black poplar (hwp_001) went in as a lone Birmingham tree. Earlier in the window, three more trees (lvg_015, lvg_016, nyc_029) went into the app.
