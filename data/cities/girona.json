@@ -23,7 +23,7 @@
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes, all eight. Four stand inside designated natural areas in the Guilleries and Rocacorba hills, one is beside a road junction, one beside a track, and one behind a hermitage. The eighth, the plane by the Mercat del Lleó, stands on a city square. None charges anything."
+      "a": "Yes, all seven. Three stand in the hills, two of them inside the Guilleries designated natural area, one is beside a road junction, one beside a track, and one behind a hermitage. The seventh, the plane by the Mercat del Lleó, stands on a city square. None charges anything."
     },
     {
       "q": "Can you walk between them?",
@@ -144,43 +144,6 @@
       "how_to_recognise": "You can recognise it by its short, massive pollarded trunk carrying a crown that is entirely regrowth, 5.90 metres round. It stands at L'Aulet, Vidreres.",
       "age_basis": "girth",
       "verify_notes": "Age derived from girth, not from a source: 590 cm at Mitchell's 2.5 to 1.5 cm of girth a year for an open-grown to shaded temperate broadleaf. Any measured or documented age replaces this outright."
-    },
-    {
-      "id": "gir_004",
-      "name": "The Great Pine of Romanya",
-      "species": "Stone Pine (Pinus pinea)",
-      "age_estimate": "",
-      "age_min": null,
-      "age_max": null,
-      "girth_cm": 381,
-      "height_m": 30.5,
-      "location": {
-        "address": "330 metres south of Romanya de la Selva, Santa Cristina d'Aro 17246, Girona",
-        "latitude": 41.85018,
-        "longitude": 2.98288,
-        "neighbourhood": "Romanya de la Selva"
-      },
-      "story": "Thirty and a half metres is very tall for a stone pine, which usually spends its effort going sideways into the flat-topped umbrella everybody recognises. This one went up instead, on a trunk 3.81 metres round with a crown only 18.8 metres across, which is narrow for the height. It stands 330 metres south of Romanya de la Selva, a hamlet on a ridge above the Costa Brava best known for its neighbour, the Cova d'en Daina, a megalithic passage grave with a stone circle around it, built somewhere around 3000 BC and one of the best preserved in Catalonia. Whatever this pine's age, the ground it stands on has been a place people go to for five thousand years. Catalonia declared it a monumental tree in 1991 under two names, the Pi Gros d'en Cama and the Pi de Romanya, which is normal for these trees. The register keeps the farm name and the village name side by side because both are in local use. Its condition is recorded as normal and no age is published.",
-      "verified_sources": [
-        "https://mediambient.gencat.cat/ca/05_ambits_dactuacio/patrimoni_natural/arbres-monumentals/am_arbres_monumentals_fitxes/baix-emporda-4/",
-        "https://ca.wikipedia.org/wiki/Llista_d'arbres_monumentals_de_Catalunya"
-      ],
-      "access": "Free, in open country south of the hamlet",
-      "transport": "Romanya de la Selva, about 20 km southeast of Girona",
-      "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pi_Gros_d%27en_Cama.jpg",
-        "license": "Attribution",
-        "attribution": "Generalitat de Catalunya, Departament de Territori i Sostenibilitat, via Wikimedia Commons",
-        "status": "approved",
-        "width": 250,
-        "height": 380,
-        "taken_month": 8
-      },
-      "curation_status": "flagged",
-      "location_precision": "confirmed",
-      "notes": "Declared a Catalan monumental tree in 1991. Height 30.5 m, trunk perimeter 3.81 m, mean crown 18.8 m, condition normal, from the register, which also gives the location as 330 m south of Romanya de la Selva. No age published. The Cova d'en Daina is a separate monument beside the hamlet and the story does not connect the two beyond geography.",
-      "how_to_recognise": "You can recognise it by its narrow, upright shape, 30.5 metres tall, unlike the flat umbrella crown a stone pine usually spreads. It stands south of Romanya de la Selva.",
-      "verify_notes": "2026-11-22: reader report 1000126 says only a stump stands at the spot. No photograph, no news found, register still lists it; kept until a stump photo or second account; draft drafts/reply-reader-1000126-2026-11-22.md asks for one."
     },
     {
       "id": "gir_005",

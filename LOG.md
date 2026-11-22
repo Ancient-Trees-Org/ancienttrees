@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (fourteenth run): the Great Pine of Romanya is gone and comes off the map; Chiang Mai has an ambassador
+
+Off the map: girona/gir_004, the Great Pine of Romanya. A reader's photograph from the app (sighting 3771a756, taken today 7 m from our pin) shows cut sections of a big trunk on a mound and open sky where a 30 m pine would stand. Together with this afternoon's report 1000126 ("could only find a stump") that is the evidence the rule asks for. The tree was retired with `retire.py` (kept as blocked in data/leads/girona.json, the page redirects), and the photograph was rejected for the page and recorded as the evidence. Girona now has seven trees: its FAQ count was fixed in English and Spanish, the Spanish title (now "7, del monte a la ciudad") and the overlay's gir_004 entry were updated too. Because the reporter wrote words, no standard mail went. For Hidde: drafts/reply-reader-1000126-2026-11-22.md is rewritten to thank them and say the tree is off the map.
+Ambassador: a reader replied by mail "Yes happy to be an ambassador" (feedback 1478, the Chiang Mai tree's adder), so the Chiang Mai badge is granted. This run had no mail credentials, so the standard "Looking after Chiang Mai" mail was not sent; `ambassador.py --welcome-missing --send` on a later knock picks it up.
+Left: lead 3c544597 (Amsterdam, `mine`) still has no file on disk. No open reports, tips or readers' words.
+
 ## 2026-11-22 reader judge (thirteenth run): three Hilversum royal trees get readers' photographs; the Romanyà pine reported as a stump
 
 Live: readers' photographs now lead three Hilversum trees that had none: the Coronation Lime of the Spanderslaan (hil_002; its railing with the gilded crown and W, filed under autumn by its fallen leaves), the Bernhard Chestnut (hil_004, with its boulder) and the Juliana Lime (hil_005, the whole tree on the Hilvertsweg). The pages now enter Google's reader cut, so preflight's colon-reveal check caught two sentences in hil_002 and hil_004; both were rewritten (Hilversum has no translation).

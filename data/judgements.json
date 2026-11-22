@@ -1895,6 +1895,28 @@
    "agreed": null
   },
   {
+   "id": "sight:3771a756-a5a3-4878-b942-ea6efed006b9",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Pine of Romanya",
+   "city": "Girona",
+   "species": "Stone Pine (Pinus pinea)",
+   "photo": "out/sightings/3771a756-a5a3-4878-b942-ea6efed006b9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 7,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Stone Pine (Pinus pinea)"
+   },
+   "verdict": "hold",
+   "reason": "Not a photo for the page: taken 7 m from the pin, it shows cut trunk sections and open sky where the 30 m pine stood. With report 1000126 (a stump) it is the evidence the pine is gone; gir_004 retired the same day.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

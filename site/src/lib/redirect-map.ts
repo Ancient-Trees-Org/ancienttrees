@@ -204,6 +204,8 @@ const CROSS_CITY_MERGED_TREE_SLUGS: [string, string, string, string][] = [
 // rather than a cleanup: check_register_says_the_tree_is_gone() in
 // scripts/preflight.py now fails on any published tree citing a status-5 row.
 const REMOVED_TREE_SLUGS: [string, string][] = [
+  // 2026-11-22, scripts/retire.py: dead: felled, a reader's photograph of 2026-11-22 (sighting 3771a756, 7 m from the pin) sh
+  ["girona", "great-pine-of-romanya"],
   // 2026-11-20, scripts/retire.py: dead: taken down by Tyler Arboretum (its own page 'Remembrance for the Cedar of Lebanon', 
   ["media-pennsylvania", "tyler-arboretum-painter-cedar-of-lebanon"],
   // 2026-10-27, scripts/retire.py: Reported dead or gone on 2026-10-26 by Miguel Portugal of ICNF Norte, who works on the Arv

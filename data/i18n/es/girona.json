@@ -1,7 +1,7 @@
 {
  "_note": "es overlay for girona, written 2026-09-17 from data/cities/girona.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Girona",
- "title": "Árboles monumentales de Girona: 8, de las Guilleries al mar",
+ "title": "Árboles monumentales de Girona: 7, del monte a la ciudad",
  "meta_description": "Los árboles monumentales de Girona: un roble de 38 metros, un castaño de nueve metros de perímetro tras una ermita y un lentisco hecho árbol.",
  "intro": "Solo uno de estos árboles está en la propia Girona: un gran plátano que un lector nos envió desde la plaza junto al Mercat del Lleó. La gran plantación de la ciudad, la Devesa, es una alameda de unos dos mil quinientos plátanos, y como arboleda ninguno figura en el registro autonómico. Lo que sí figura crece en las colinas, a media hora en coche: un roble albar de 38 metros, un castaño de nueve metros de perímetro tras una ermita, y un lentisco y un madroño que, dejados en paz tanto tiempo, se han vuelto árboles.",
  "question_title": "¿Cuál es el árbol más antiguo de Girona? (nadie los anota)",
@@ -23,7 +23,7 @@
   },
   {
    "q": "¿Se pueden visitar gratis estos árboles?",
-   "a": "Sí, los ocho. Cuatro están dentro de espacios naturales protegidos de las Guilleries y de Rocacorba, uno junto a un cruce de carreteras, otro junto a un camino y otro detrás de una ermita. El octavo, el plátano del Mercat del Lleó, está en una plaza de la ciudad. Ninguno cobra nada."
+   "a": "Sí, los siete. Tres están en las colinas, dos de ellos dentro del espacio natural protegido de las Guilleries, uno junto a un cruce de carreteras, otro junto a un camino y otro detrás de una ermita. El séptimo, el plátano del Mercat del Lleó, está en una plaza de la ciudad. Ninguno cobra nada."
   },
   {
    "q": "¿Se puede ir andando de uno a otro?",
@@ -53,13 +53,6 @@
    "access": "Gratuito, en campo abierto en L'Aulet",
    "transport": "Vidreres, a unos 20 km al sur de Girona",
    "story": "Un tronco de 5,90 metros de perímetro es muchísimo fresno. Fraxinus angustifolia es el fresno del sur de Europa, un árbol de ribera que sigue los cursos de agua por tierras demasiado secas para la especie del norte, y se desmochó durante siglos por toda Cataluña porque las ramas con hoja dan buen forraje y la madera es lo bastante flexible para mangos de herramienta. Cortar un árbol así una y otra vez es lo que produce esta forma: un tronco corto y enorme que sostiene una copa que es todo rebrote, en este caso de 23 metros de diámetro en un árbol de 21 metros de alto. Cataluña lo declaró árbol monumental en el año 2000, de las incorporaciones tardías. Crece en L'Aulet, en el término de Vidreres, al pie de la llanura de la Selva, donde el agua queda cerca de la superficie, que es el único suelo en el que un fresno de este tamaño podía llegar hasta aquí. El registro lo da en estado normal y no le pone edad, como no se la pone a ninguno de los 299 árboles que protege. Si sabe cuándo se desmochó por última vez, eso lo dataría mejor que ninguna otra cosa."
-  },
-  "gir_004": {
-   "name": "El gran pino de Romanya",
-   "species": "Pino piñonero (Pinus pinea)",
-   "access": "Gratuito, en campo abierto al sur de la aldea",
-   "transport": "Romanya de la Selva, a unos 20 km al sureste de Girona",
-   "story": "Treinta metros y medio es muchísimo para un pino piñonero, que suele gastar el esfuerzo en irse de lado hasta formar el parasol de copa plana que todo el mundo reconoce. Este tiró hacia arriba, sobre un tronco de 3,81 metros de perímetro y con una copa de solo 18,8 metros de diámetro, estrecha para esa altura. Crece 330 metros al sur de Romanya de la Selva, una aldea de una loma sobre la Costa Brava conocida sobre todo por lo que tiene al lado: la Cova d'en Daina, un sepulcro megalítico de corredor rodeado de un círculo de piedras, levantado hacia el 3000 a. C. y de los mejor conservados de Cataluña. Sea cual sea la edad de este pino, el terreno donde crece lleva cinco mil años siendo un sitio al que la gente va. Cataluña lo declaró árbol monumental en 1991 con dos nombres, el Pi Gros d'en Cama y el Pi de Romanya, cosa normal en estos árboles: el registro guarda el nombre de la casa y el del pueblo uno al lado del otro porque los dos se usan en la zona. Su estado figura como normal y no se publica edad."
   },
   "gir_005": {
    "name": "El lentisco de Torrent",
