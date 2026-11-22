@@ -9438,6 +9438,43 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "delhi/dlh_002"
+  },
+  {
+   "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+   "user_id": "p_618de01d056ef7fe726027bb",
+   "mine": false,
+   "name": "Gwytherin yew trees",
+   "unsure_among": null,
+   "species": "European Yew",
+   "age": "2,000+ years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Two ancient yew trees in the churchyard of St Winifred’s. A row of four standing stones is also in the churchyard.",
+   "latitude": 53.1384416666667,
+   "longitude": -3.68123,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_618de01d056ef7fe726027bb/B92312A8-2D7F-43F8-90EE-5A1D2021BF87.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/b92312a8-2d7f-43f8-90ee-5a1d2021bf87-extra-1.jpg",
+    "out/sightings/b92312a8-2d7f-43f8-90ee-5a1d2021bf87-extra-2.jpg",
+    "out/sightings/b92312a8-2d7f-43f8-90ee-5a1d2021bf87-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-22: both yews whole from the churchyard grass, their dark crowns either side of the path to the church, slate headstones in front, overcast daylight, colour; further pictures of the two fluted red trunks up close and of the standing stones beside the church. Live as gwytherin/gwy_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "gwytherin/gwy_001"
   }
  ]
 }

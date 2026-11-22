@@ -2,18 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "The Banyan by the Arcades",
-   "photo": "p_e255e7a69d7743de7443b511/272EEA9F-3EBD-4F3A-927C-CCD96B21AB9D.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole banyan, root-pillar trunk, Mughal arcade behind, daylight, colour. Lead photograph of delhi/dlh_002.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -26,6 +14,18 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:272eea9f-3ebd-4f3a-927c-ccd96b21ab9d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Banyan by the Arcades",
+   "photo": "p_e255e7a69d7743de7443b511/272EEA9F-3EBD-4F3A-927C-CCD96B21AB9D.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole banyan, root-pillar trunk, Mughal arcade behind, daylight, colour. Lead photograph of delhi/dlh_002.",
    "hidde": null,
    "agreed": null
   },
@@ -450,6 +450,121 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-22: a wide banyan whose trunk is a bundle of hanging roots grown into pillars, beside a Mughal pavilion of cusped arches, daylight, colour; position from the photograph. Live as delhi/dlh_002 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a1f47e20-f01a-4035-986e-1b25814dee8d",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Llangernyw Yew",
+   "city": "Llangernyw",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/a1f47e20-f01a-4035-986e-1b25814dee8d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 22,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew (Taxus baccata)"
+   },
+   "verdict": "publish",
+   "reason": "The whole split trunk of the Llangernyw yew in low evening light; a reader's own picture, so it takes the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f6be5d35-0554-45c6-96c4-34f7af316709",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Monterey Cypress at Bishops Knoll",
+   "city": "Bristol",
+   "species": "Monterey Cypress (Cupressus macrocarpa)",
+   "photo": "out/sightings/f6be5d35-0554-45c6-96c4-34f7af316709.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 13,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Monterey Cypress (Cupressus macrocarpa)"
+   },
+   "verdict": "publish",
+   "reason": "The cypress's crown through the wood's bare branches, 13 m from our pin; roughly this tree, weaker than the lead, so into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Gwytherin yew trees",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_618de01d056ef7fe726027bb/B92312A8-2D7F-43F8-90EE-5A1D2021BF87.jpg",
+   "reader_note": "Two ancient yew trees in the churchyard of St Winifred’s. A row of four standing stones is also in the churchyard.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-22: two big yews either side of the churchyard path at St Winifred's, Gwytherin, fluted red trunks up close, daylight, colour; position from the photograph. Live as gwytherin/gwy_001 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Gwytherin yew trees",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_618de01d056ef7fe726027bb/B92312A8-2D7F-43F8-90EE-5A1D2021BF87.jpg",
+   "reader_note": "Two ancient yew trees in the churchyard of St Winifred’s. A row of four standing stones is also in the churchyard.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Both yews whole either side of the churchyard path at Gwytherin, plus two trunk close-ups; a reader's own pictures, the lead and the strip of gwytherin/gwy_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1423",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "9536657E-9A06-4CE1-9352-DAECAD3E049B",
+   "city": "Llangernyw",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Same reader, same photograph location and the same minute as submission 1421, no words and no photograph on file: the Gwytherin yews, now live as gwytherin/gwy_001. Nothing to add; if its photograph arrives, the intake matches it to that tree.",
    "hidde": null,
    "agreed": null
   },

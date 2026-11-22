@@ -1,0 +1,105 @@
+{
+  "city": "Gwytherin",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Gwytherin is a small village in the hills of Conwy in north Wales, a few miles south of Llangernyw and its famous yew. In the churchyard of St Winifred's, two old yews stand either side of the path to the church, their crowns almost meeting overhead, and a row of four standing stones keeps them company. A reader photographed them and sent them to us; they put the yews at more than 2,000 years old.",
+  "meta_description": "The two churchyard yews of Gwytherin in Conwy, sent by a reader: where they stand, what they look like and what we know so far.",
+  "hero_tree_id": "gwy_001",
+  "oldest_tree_id": "gwy_001",
+  "trees": [
+    {
+      "id": "gwy_001",
+      "name": "The Gwytherin Yews",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "more than 2,000 years, by a reader's estimate",
+      "age_min": 2000,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Churchyard of St Winifred's, Gwytherin, Conwy",
+        "latitude": 53.1384416666667,
+        "longitude": -3.68123,
+        "neighbourhood": "Gwytherin"
+      },
+      "how_to_recognise": "Two big yews facing each other across the path through the churchyard, their dark crowns almost meeting overhead, with slate headstones in the grass on either side.",
+      "access": "Free. A village churchyard; the path to the church runs between the two yews.",
+      "story": "Two yews stand either side of the path into the churchyard at Gwytherin, a small village in the hills of Conwy, and a reader who walked between them in November 2026 sent us their photographs.\n\n\"Two ancient yew trees in the churchyard of St Winifred's,\" they wrote, and they put the pair at more than 2,000 years old. That is their estimate, not a measurement we have seen. Churchyard yews are famously hard to date, because an old trunk goes hollow and loses the rings that would tell.\n\nWhat the pictures show needs no figure. The two crowns rise dark and wide over rows of slate headstones, almost meeting above the path, so that you walk up to the church through the gap between them. Up close the trunks are red-brown and fluted into deep vertical ropes, the wood twisting round the base as if it had been poured and left to set.\n\nThe reader also pointed out a row of four standing stones in the same churchyard, along the side of the church.\n\nWalk the path between the two yews, then go slowly round each trunk in turn.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph these trees; the photograph was checked to show them."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (b92312a8-2d7f-43f8-90ee-5a1d2021bf87, through the app). Photographs viewed: both yews whole from the churchyard grass, their dark crowns either side of the path to the church, slate headstones in front, overcast daylight, colour; further pictures of the two fluted red trunks up close and of the standing stones beside the church. Published under the closed list for a reader's tree (Hidde, 2026-11-17). An ensemble of two yews on one path, one place to stand. The reader's own figures: name 'Gwytherin yew trees', species 'European Yew', age '2,000+ years'. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gwy_001-gwytherin-yews.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_618de01d056ef7fe726027bb",
+        "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: both yews whole from the churchyard grass, their dark crowns either side of the path to the church, slate headstones in front, overcast daylight, colour; further pictures of the two fluted red trunks up close and of the standing stones beside the church. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gwy_001-gwytherin-yews-trunk.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_618de01d056ef7fe726027bb",
+          "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: one of the two trunks close up, red-brown and fluted, ivy at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/gwy_001-gwytherin-yews-limbs.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_618de01d056ef7fe726027bb",
+          "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the other trunk from its base up into the spreading limbs, headstones behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    }
+  ],
+  "question_meta": "The Gwytherin yews in Conwy, north Wales: where the two churchyard yews stand, how to find them, and what we still want to know.",
+  "question_answer": "The Gwytherin Yews are two old yews either side of the path through the churchyard of St Winifred's in Gwytherin, a village in the hills of Conwy, north Wales. The churchyard is free to visit.",
+  "question_context": "A reader sent us photographs of these two yews from the churchyard of St Winifred's at Gwytherin, a small village in the hills of Conwy in north Wales. The trees stand either side of the path up to the church, their dark crowns almost meeting overhead, with rows of slate headstones in the grass around them. Close to, both trunks are red-brown and deeply fluted, the bark running in thick vertical ropes and twisting at the base. The reader puts the pair at more than 2,000 years old. That is their estimate; we have no measured girth or written source for the age, and churchyard yews are hard to date because an old trunk goes hollow and loses its rings. The same churchyard holds a row of four standing stones along the side of the church, which the reader also pointed out. Gwytherin lies a few miles south of Llangernyw, whose churchyard yew is one of the best known in Wales, so the two villages make a short tour of old yews. Readers who have measured the Gwytherin trunks can add their figures on the tree's page.",
+  "faq": [
+    {
+      "q": "Where are the Gwytherin yews?",
+      "a": "In the churchyard of St Winifred's at Gwytherin, Conwy, either side of the path up to the church. Gwytherin is a few miles south of Llangernyw."
+    },
+    {
+      "q": "How old are they?",
+      "a": "More than 2,000 years by a reader's estimate. No register or measurement we have seen gives their age or girth, and churchyard yews are hard to date. If you know more, tell us on the tree's page."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "Yes. It is a village churchyard and free to walk into; the path to the church runs between the two trees."
+    }
+  ]
+}

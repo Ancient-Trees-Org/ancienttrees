@@ -1407,6 +1407,15 @@
      "city_slug": "bristol",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "f6be5d35-0554-45c6-96c4-34f7af316709",
+     "tree_id": "bri_015",
+     "tree_name": "The Monterey Cypress at Bishops Knoll",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": [
@@ -2838,6 +2847,21 @@
      "mailed": "2026-11-22"
     }
    ]
+  },
+  "p_618de01d056ef7fe726027bb": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a1f47e20-f01a-4035-986e-1b25814dee8d",
+     "tree_id": "lgy_001",
+     "tree_name": "The Llangernyw Yew",
+     "city": "Llangernyw",
+     "city_slug": "llangernyw",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

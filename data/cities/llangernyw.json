@@ -52,13 +52,17 @@
       "access": "Free. Public churchyard, open access with no restriction (Woodland Trust Ancient Tree Inventory records it explicitly as 'Public - open access'). No fee, no gate, no booking.",
       "transport": "Rural North Wales; a car is the practical way to reach it. Llangernyw sits on the A548 in the Conwy valley, roughly 6 miles (15-20 min drive) from Abergele and its mainline rail station, and about 10 miles from Llanrwst. No regular public transport serves the village directly; the nearest useful railheads are Abergele & Pensarn or Colwyn Bay on the North Wales coast line.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Llangernyw_yew.jpg",
-        "license": "CC BY-SA 2.5",
-        "attribution": "Stemonitis, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lgy_001-the-llangernyw-yew-a1f47e20.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
         "width": 1600,
         "height": 1200,
-        "taken_month": 1
+        "taken_month": 10,
+        "source": "contributor",
+        "contributor_user_id": "p_618de01d056ef7fe726027bb",
+        "sighting_id": "a1f47e20-f01a-4035-986e-1b25814dee8d",
+        "note": "Photographed by a reader and sent through the app (2026-10-31); a viewing pass approved it on 2026-11-22: the whole split trunk of the Llangernyw yew in low evening light, several thick stems from one base in the churchyard: exactly what the recognition line describes, and a stronger picture than the lead Species seen: yew: red flaking bark, fluted stems, dark flat needles in the crown. Fits the description: a trunk split into several thick stems reading as a stand of trees, gravestones round it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -83,7 +87,18 @@
       "official_register": {
         "name": "Ancient Tree Inventory (Woodland Trust), Llangernyw Yew, tree 5126",
         "url": "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=5126"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Llangernyw_yew.jpg",
+          "license": "CC BY-SA 2.5",
+          "attribution": "Stemonitis, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 1
+        }
+      ]
     }
   ]
 }

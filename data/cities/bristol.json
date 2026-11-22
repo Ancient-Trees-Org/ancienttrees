@@ -623,7 +623,22 @@
         "moved_m": 86,
         "date": "2026-11-21",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bri_015-the-monterey-cypress-at-bishops-knoll-f6be5d35.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_7b2115b8e39fa3b6538f86e3",
+          "sighting_id": "f6be5d35-0554-45c6-96c4-34f7af316709",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-22: the cypress's crown seen up through bare branches in Bishops Knoll Wood, 13 m from our pin; roughly this tree but weaker than the lead, so it goes in the strip Species seen: Monterey cypress: dense dark scale-leaf sprays on many upswept stems. Fits the description: a big multi-stemmed cypress inside the wood, 13 m from the pin; the railings are out of frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "bri_016",

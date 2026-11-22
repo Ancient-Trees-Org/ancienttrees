@@ -21,6 +21,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: the Gwytherin yews, and a reader's Llangernyw yew takes the lead
+
+- New place and tree live: The Gwytherin Yews (gwytherin/gwy_001), two old yews either side of the churchyard path at St Winifred's, Gwytherin, Conwy, sent through the app with four photographs. The lead shows both crowns; two trunk close-ups go in the strip. Pin from the photograph's own position (confirmed); the reader's "2,000+ years" on the page as their estimate; photos filed in November from their own date. A one-tree place, so no place page (PLACE_PAGE_MIN_TREES 2); its texts name Llangernyw, a few miles north.
+- Same reader, the Llangernyw Yew (lgy_001): their evening shot of the whole split trunk is now the lead (verdict `add`, the old lead moved into the strip). The light score said underexposed. A reader's photo is never refused on light, and this one is the better picture. Their night shot was not used.
+- Bristol, Monterey Cypress at Bishops Knoll (bri_015): a reader's view of the crown through the wood went into the strip, behind the existing lead.
+- tip:1423 is the same reader, the same spot and minute as the Gwytherin send, with no words and no photograph: its verdict names gwy_001.
+- Left: lead 3c544597 (Amsterdam, our own account), photo still not on this machine. The older waiting leads in _sightings.json are September and October ones, nearly all from our own account (`mine`), as earlier runs left them.
+- No open reports, no feedback without a verdict, no reader notes waiting to be quoted. The photo-live mail for the two existing trees went through sightings_publish.py; the congratulation for Gwytherin goes through tree_approved.py on the next knock.
+
 ## 2026-11-22 reader judge: a banyan joins the Delhi peepal
 
 - New tree live: The Banyan by the Arcades (delhi/dlh_002), an Indian banyan whose trunk is a bundle of root pillars beside a Mughal pavilion near Humayun's Tomb, sent through the app by the same reader as the peepal. Pin from the photograph's own position (confirmed), 302 m from dlh_001; photo filed in November from its own date. Delhi now has two trees, so its place page comes back (PLACE_PAGE_MIN_TREES 2); intro, meta, question texts and FAQ rewritten for both trees. The garden is still not named on the page (it looks like Sundar Nursery, nothing confirms it).
