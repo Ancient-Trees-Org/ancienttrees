@@ -122,9 +122,10 @@ struct PhotoHeart: View {
             store.want(photoId, token: await account.freshToken())
         }
         .sheet(isPresented: $showingLikers) {
-            PhotoLikersSheet(photoId: photoId)
-                .presentationDetents([.medium, .large])
-                .presentationDragIndicator(.visible)
+            // The one sheet (BrandSheet), the list as its extra.
+            BrandSheet(title: s.count == 1 ? "1 heart" : "\(s.count) hearts", buttons: []) {
+                PhotoLikersList(photoId: photoId)
+            }
         }
     }
 }
@@ -133,7 +134,7 @@ struct PhotoHeart: View {
 /// supabase/photo-hearts-who.sql, signed in only): the followers list's row,
 /// a face and a name that opens the profile; a private profile is "A visitor"
 /// and opens nothing.
-struct PhotoLikersSheet: View {
+struct PhotoLikersList: View {
     let photoId: String
     @Environment(Account.self) private var account
     @Environment(Navigator.self) private var navigator
@@ -150,11 +151,6 @@ struct PhotoLikersSheet: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Text(rows.count == 1 ? "1 heart" : "\(max(rows.count, PhotoLikes.shared.state(photoId).count)) hearts")
-                .font(.brand(26, .black, relativeTo: .title2))
-                .foregroundStyle(Brand.ink)
-                .padding(.top, 24).padding(.bottom, 12)
-            ScrollView {
                 LazyVStack(spacing: 0) {
                     ForEach(rows) { r in
                         Button {
@@ -191,10 +187,9 @@ struct PhotoLikersSheet: View {
                         Divider()
                     }
                 }
-                .padding(.horizontal, 20)
-            }
+                .padding(.horizontal, 4)
+                .padding(.top, 8)
         }
-        .brandGround()
         .accessibilityIdentifier("photo-likers")
         .task {
             let r = Supa.request("/rest/v1/rpc/photo_likers", token: await account.freshToken(), body: ["photo": photoId])
