@@ -5,6 +5,7 @@
     <string name="sp_on_map">%1$d sur la carte</string>
     <string name="sp_any">Toutes les espèces</string>
     <string name="sp_which">Quelle espèce d\'arbre ?</string>
+    <string name="sp_no_match">Aucune espèce de ce nom.</string>
     <string name="sp_picker_title">Espèce</string>
     <string name="sp_not_mapped">Pas encore sur la carte</string>
 

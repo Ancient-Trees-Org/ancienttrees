@@ -5,6 +5,7 @@
     <string name="sp_on_map">%1$d en el mapa</string>
     <string name="sp_any">Cualquier especie</string>
     <string name="sp_which">¿Qué tipo de árbol?</string>
+    <string name="sp_no_match">Ninguna especie con ese nombre.</string>
     <string name="sp_picker_title">Especie</string>
     <string name="sp_not_mapped">Aún no está en el mapa</string>
 

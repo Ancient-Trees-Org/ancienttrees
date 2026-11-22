@@ -5,6 +5,7 @@
     <string name="sp_on_map">%1$d auf der Karte</string>
     <string name="sp_any">Jede Baumart</string>
     <string name="sp_which">Welche Baumart?</string>
+    <string name="sp_no_match">Keine Art mit diesem Namen.</string>
     <string name="sp_picker_title">Baumart</string>
     <string name="sp_not_mapped">Noch nicht auf der Karte</string>
 

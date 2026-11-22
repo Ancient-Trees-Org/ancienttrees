@@ -5,6 +5,7 @@
     <string name="sp_on_map">地図上に%1$d本</string>
     <string name="sp_any">すべての種類</string>
     <string name="sp_which">どんな木ですか？</string>
+    <string name="sp_no_match">その名前の樹種はありません。</string>
     <string name="sp_picker_title">種類</string>
     <string name="sp_not_mapped">まだ地図にありません</string>
 

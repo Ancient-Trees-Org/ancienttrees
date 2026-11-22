@@ -9,7 +9,10 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.ui.platform.testTag
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -75,6 +78,19 @@ fun SpeciesPicker(
                     SpeciesRowName(catalogue, name, hit, modifier = Modifier.weight(1f))
                     if (selection == name) Icon(Sym.Check, null, tint = brand.moss, modifier = Modifier.size(20.dp))
                     else Text("${counts[name] ?: 0}", fontSize = 15.sp, color = brand.inkSoft)
+                }
+            }
+            // A search that finds nothing says so, as the iPhone's SpeciesPicker
+            // does (Hidde, 2026-11-22: a blank list read as broken).
+            if (rows.isEmpty() && query.isNotBlank()) {
+                item(key = "no-match") {
+                    Text(
+                        stringResource(R.string.sp_no_match),
+                        fontSize = 13.sp,
+                        color = brand.inkSoft,
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth().padding(top = 30.dp).testTag("species-no-match"),
+                    )
                 }
             }
         }

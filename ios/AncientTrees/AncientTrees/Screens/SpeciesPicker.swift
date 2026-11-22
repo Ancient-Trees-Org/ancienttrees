@@ -103,9 +103,31 @@ struct SpeciesPicker: View {
                     }
                     .buttonStyle(.plain)
                 }
+                // A search that finds nothing says so (Hidde, 2026-11-22: a blank
+                // list read as broken). The website's speciesNoMatch, word for word,
+                // drawn as MapTab's own no-match line.
+                if rows.isEmpty && !query.trimmingCharacters(in: .whitespaces).isEmpty {
+                    Text("No species by that name.")
+                        .font(.footnote).foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, 30)
+                        .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                        .accessibilityIdentifier("species-no-match")
+                }
             }
             .searchable(text: $query, prompt: "Which kind of tree?")
-            .task { build() }
+            .task {
+                build()
+                #if DEBUG
+                // `-species -speciesq=<words>`: the sheet opens with a search typed,
+                // so the simulator can show what a search finds (or does not).
+                if let q = ProcessInfo.processInfo.arguments
+                    .first(where: { $0.hasPrefix("-speciesq=") })?.dropFirst(10) {
+                    query = String(q)
+                }
+                #endif
+            }
             .navigationTitle("Species")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

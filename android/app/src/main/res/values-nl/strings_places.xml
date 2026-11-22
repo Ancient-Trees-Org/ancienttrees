@@ -5,6 +5,7 @@
     <string name="sp_on_map">%1$d op de kaart</string>
     <string name="sp_any">Elke soort</string>
     <string name="sp_which">Welke soort boom?</string>
+    <string name="sp_no_match">Geen soort met die naam.</string>
     <string name="sp_picker_title">Soort</string>
     <string name="sp_not_mapped">Nog niet op de kaart</string>
 
