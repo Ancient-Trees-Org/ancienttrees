@@ -46,7 +46,7 @@ struct PrivacySettingsView: View {
                     .font(.footnote).foregroundStyle(Brand.inkSoft)
                     .padding(.horizontal, 16)
                 if isPublic, let uid = account.session?.userId {
-                    Button("See your public profile") { navigator.push = .person(uid) }
+                    Button("See your public profile") { navigator.push = .personAsOthers(uid) }
                         .font(.footnote.weight(.semibold)).foregroundStyle(Brand.moss)
                         .padding(.horizontal, 16)
                         .frame(minHeight: 44)

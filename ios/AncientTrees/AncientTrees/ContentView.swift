@@ -488,7 +488,7 @@ struct ContentView: View {
             }
         case .profile:
             ProfileView(catalogue: cat)
-        case .person(let id):
+        case .person(let id), .personAsOthers(let id):
             PersonProfileView(userId: id, catalogue: cat)
         case .findPeople:
             PeopleView(catalogue: cat)
@@ -720,6 +720,17 @@ struct ContentView: View {
             if case .country(let name) = new {
                 navigator.push = nil
                 navigator.searchOnMap = SearchOnMap(hit: .country(name))
+                return
+            }
+            // YOUR OWN NAME OPENS YOUR OWN PROFILE (Hidde, 2026-11-22), the
+            // one you can edit, from a tree's note or photo, Activity or a
+            // list: My trees, as Instagram's and AllTrails' own name does.
+            // The website's /profile?u=<you> goes to /account the same way.
+            if case .person(let id) = new, let me = account.session?.userId,
+               id.lowercased() == me.lowercased() {
+                navigator.push = nil
+                path(2).wrappedValue = []
+                tab = 2
                 return
             }
             path(tab).wrappedValue.append(new)

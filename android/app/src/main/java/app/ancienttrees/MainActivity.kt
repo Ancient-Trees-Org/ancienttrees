@@ -245,6 +245,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     val profiles = remember { app.ancienttrees.account.Profiles(launch.args) }
     val moderation = remember { app.ancienttrees.ui.Moderation() }
     val routes = remember { app.ancienttrees.ui.ProfileRoutes(launch.args, nav) }
+    routes.me = { account.session?.userId }
     var signInReason by remember { mutableStateOf<app.ancienttrees.ui.SignInReason?>(null) }
     var recovering by remember { mutableStateOf("-refused" in launch.args) }
     // THE REVIEW ASK (ui/ReviewAsk.kt): trees looked at, asked at a pause, drawn at the root.

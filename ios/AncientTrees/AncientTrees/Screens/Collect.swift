@@ -952,8 +952,18 @@ struct CollectView: View {
                         .accessibilityIdentifier("mytrees-edit-profile")
                         .accessibilityAddTraits(.isButton)
                         .accessibilityLabel(editable ? "Edit your profile" : "Sign in")
-                        if editable {
+                        if editable, profiles.myCountry != nil {
+                            // THE FLAG OPENS THE SAME EDITOR as the photo and
+                            // the name (Hidde, 2026-11-22: "of de vlag"), where
+                            // your country is chosen; 44 points to hit.
                             CountryFlag(code: profiles.myCountry)
+                                .frame(minWidth: 44, minHeight: 44)
+                                .contentShape(.rect)
+                                .padding(.vertical, -12)
+                                .tapUnlessDragged { editingProfile = true }
+                                .accessibilityAddTraits(.isButton)
+                                .accessibilityLabel("Edit your profile")
+                                .accessibilityIdentifier("mytrees-edit-flag")
                         }
                     }
                     if account.isSignedIn {

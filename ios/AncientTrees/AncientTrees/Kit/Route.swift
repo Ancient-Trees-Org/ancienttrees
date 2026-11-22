@@ -53,6 +53,10 @@ public enum Route: Hashable {
     /// public, or a line saying it is private. Opened from People and from a
     /// city's ambassador row.
     case person(String)
+    /// YOUR OWN PROFILE AS OTHERS SEE IT, only from Privacy settings' "See
+    /// your public profile". A plain .person with your own id goes to My
+    /// trees instead (Hidde, 2026-11-22, ContentView's onChange of push).
+    case personAsOthers(String)
     /// FIND PEOPLE, pushed from My trees (Hidde, 2026-11-04: "i like all your
     /// proposals please build"): the field on top, then Suggested. It was a
     /// full-height sheet with white under the share row.

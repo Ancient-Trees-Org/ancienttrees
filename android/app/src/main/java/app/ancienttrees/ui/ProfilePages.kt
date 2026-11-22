@@ -37,7 +37,20 @@ class ProfileRoutes(args: List<String>, private val nav: Nav) {
     fun openSettings() = nav.push(Page.Settings)
     fun openPrivacy() = nav.push(Page.Privacy)
     fun openPeople(source: PeopleSource, owner: String? = null) = nav.push(Page.People(source, owner))
-    fun openPerson(userId: String) = nav.push(Page.Person(userId))
+    /** Who is signed in, the server's session (set by MainActivity). */
+    var me: () -> String? = { null }
+    /**
+     * YOUR OWN NAME OPENS YOUR OWN PROFILE (Hidde, 2026-11-22), the one you can
+     * edit: My trees, as ContentView.swift's onChange of push does, from a tree's
+     * note or photo, Activity or a list.
+     */
+    fun openPerson(userId: String) {
+        val mine = me()
+        if (mine != null && mine.equals(userId, ignoreCase = true)) { nav.clear(2); nav.tab = 2; return }
+        nav.push(Page.Person(userId))
+    }
+    /** Your own profile as others see it: Privacy settings' "See your public profile" only. */
+    fun openPersonAsOthers(userId: String) = nav.push(Page.Person(userId))
     fun back() = nav.pop()
     /** Signed out: no profile page stays open on any tab. */
     fun clear() = nav.removeAll { it.isProfile }
@@ -52,7 +65,7 @@ fun ProfilePageScreen(page: Page, routes: ProfileRoutes, settings: SettingsHost,
             settings.account, settings.profiles, people.userId,
             onBack = { routes.back() },
             editName = { routes.editProfile = true },
-            openPerson = { routes.openPerson(it) },
+            openPerson = { routes.openPersonAsOthers(it) },
         )
         is Page.People -> FindPeopleScreen(people, page.source, page.owner, onBack = { routes.back() })
         is Page.Person -> PersonProfileScreen(people, page.userId, onBack = { routes.back() })

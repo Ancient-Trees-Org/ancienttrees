@@ -525,7 +525,25 @@ private fun WhoRow(signedIn: Boolean, email: String?, mine: MyTrees, actions: My
                             .semantics { contentDescription = nameLabel },
                     )
                     // YOUR FLAG AFTER YOUR NAME, Polarsteps' round flag (Hidde, 2026-10-16).
-                    if (signedIn) me?.country?.let { CountryFlag(it) }
+                    // THE FLAG OPENS THE SAME EDITOR as the photo and the name
+                    // (Hidde, 2026-11-22: "of de vlag"; Collect.swift): 44 to hit,
+                    // its own 20 to lay out, as the name above.
+                    if (signedIn) me?.country?.let { code ->
+                        val flagLabel = stringResource(R.string.mt_edit_profile)
+                        Box(
+                            Modifier
+                                .layout { m, c ->
+                                    val p = m.measure(c)
+                                    val t = 12.dp.roundToPx()
+                                    layout(p.width, (p.height - 2 * t).coerceAtLeast(0)) { p.place(0, -t) }
+                                }
+                                .widthIn(min = 44.dp)
+                                .heightIn(min = 44.dp)
+                                .clickable(role = Role.Button) { actions.editProfile() }
+                                .semantics { contentDescription = flagLabel },
+                            contentAlignment = Alignment.Center,
+                        ) { CountryFlag(code) }
+                    }
                 }
                 if (signedIn) {
                     Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
