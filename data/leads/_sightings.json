@@ -10327,6 +10327,39 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "xalapa/xal_001"
+  },
+  {
+   "sighting_id": "441ff6ca-2691-46b5-95f6-2273991de5b3",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "White Oak on Grubb Road",
+   "unsure_among": null,
+   "species": "White Oak",
+   "age": "225",
+   "girth_cm": 435,
+   "girth_hugs": null,
+   "note": "This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow.",
+   "latitude": 40.0171348739827,
+   "longitude": -75.480192641231,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 8,
+   "photo": "p_3bb2d9b77f839015a3f92de9/441FF6CA-2691-46B5-95F6-2273991DE5B3.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 523,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole oak from the foot of its bank looking up, a grey deeply furrowed trunk flaring into roots over the slope, great crooked limbs, one running out level over a meadow behind a split-rail fence, a bicycle leaning on the fence, full summer leaf, bright daylight, colour. Live as willistown/wtn_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "willistown/wtn_003"
   }
  ]
 }

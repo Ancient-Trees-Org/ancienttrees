@@ -2,8 +2,8 @@
   "city": "Willistown",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek, with quiet suburban streets on its edge by Malvern. Readers have sent us two big trees here: an American sycamore about 6.5 metres round by the old stone bridge where White Horse Road crosses the creek, and a white oak on Bryan Avenue whose crown fills half a front lawn. Both stand on private ground, so look from the road.",
-  "meta_description": "Two big trees readers sent from Willistown, Pennsylvania: a sycamore by the Crum Creek bridge and a wide white oak on Bryan Avenue.",
+  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek, with quiet suburban streets on its edge by Malvern. A reader has sent us three big trees here: an American sycamore about 6.5 metres round by the old stone bridge where White Horse Road crosses the creek, a white oak on Bryan Avenue whose crown fills half a front lawn, and another white oak on a bank beside Grubb Road at the edge of a fenced meadow. All three stand on private ground or beside it, so look from the road.",
+  "meta_description": "Three big trees a reader sent from Willistown, Pennsylvania: a sycamore by the Crum Creek bridge and white oaks on Bryan Avenue and Grubb Road.",
   "hero_tree_id": "wtn_001",
   "oldest_tree_id": "wtn_001",
   "trees": [
@@ -157,23 +157,71 @@
           "note": "Same sighting, third photograph, viewed 2026-11-20: the burred trunk close, limbs above. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
         }
       ]
+    },
+    {
+      "id": "wtn_003",
+      "name": "The White Oak on Grubb Road",
+      "species": "White Oak (Quercus alba)",
+      "age_estimate": "about 225 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside Grubb Road, Duffryn Mawr, Willistown Township, Chester County, PA 19355",
+        "latitude": 40.0171348739827,
+        "longitude": -75.480192641231,
+        "neighbourhood": "Duffryn Mawr"
+      },
+      "story": "\"This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow,\" wrote the reader who sent it to us from Grubb Road in Willistown Township, Chester County. It is the third big tree they have found for us here, half a kilometre from their sycamore at the Crum Creek bridge.\n\nTheir photograph, taken on a bright August day with a bicycle leaning on the fence, looks up from the foot of the bank. The trunk is grey and deeply furrowed, flaring at the base where its roots grip the slope, and a few metres up it splits into great crooked limbs. One of them runs out almost level over the meadow behind the rails before turning up into a high, open crown full of light.\n\nThe reader puts its girth at 435 centimetres and its age at about 225 years. Those figures are theirs; we have found nothing written about this oak, and nobody we have read has measured it. If you know its story, or what the neighbours call it, tell us and we will add it.\n\nLook at it from the roadside, where the reader stood, and leave the meadow fence alone. Summer is the time to see the crown at its fullest, as in their picture.",
+      "how_to_recognise": "On a sloping bank beside Grubb Road: a grey, deeply furrowed oak trunk flaring into roots over the slope, a split-rail fence right behind it at the edge of a meadow, and one long limb reaching out level over the field.",
+      "verified_sources": [
+        "A reader's photograph and note through the app, 2026-11-22, with a pin they placed by hand on Grubb Road, Willistown Township"
+      ],
+      "access": "Seen from Grubb Road, on the bank at the roadside. The meadow behind the fence is not known to be public, so stay on the road side and take care with traffic.",
+      "found_by_reader": {
+        "sighting_id": "441ff6ca-2691-46b5-95f6-2273991de5b3",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "441ff6ca-2691-46b5-95f6-2273991de5b3",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. It reverse-geocodes (Nominatim) onto Grubb Road, Duffryn Mawr, Willistown Township, which the reader's note names."
+      },
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app (441ff6ca-2691-46b5-95f6-2273991de5b3). Photograph viewed: the whole oak from the foot of its bank looking up, a grey deeply furrowed trunk flaring into roots over the slope, great crooked limbs, one running out level over a meadow behind a split-rail fence, a bicycle leaning on the fence, full summer leaf, bright daylight, colour. The reader's own figures: name 'White Oak on Grubb Road', species 'White Oak', age '225', girth 435 cm; note: 'This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow.'. Species from the photograph: lobed oak leaves, pale grey furrowed bark: white oak, as the reader named it. Beside the road and in plain view from it. Third tree of Willistown, same reader as wtn_001 and wtn_002; 524 m from wtn_001 and a different tree (oak bark and leaves, not the sycamore's mottled bark). Published under the closed list for a reader's tree (Hidde, 2026-11-17); approximate because the pin was placed by hand. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wtn_003-the-white-oak-on-grubb-road.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "441ff6ca-2691-46b5-95f6-2273991de5b3",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved 2026-11-22: the whole oak from the foot of its roadside bank. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
-  "question_meta": "The biggest trees readers have found in Willistown, PA: a sycamore by the Crum Creek bridge and a white oak on Bryan Avenue, and how to see them.",
-  "question_answer": "Readers have sent us two big trees in Willistown Township, Chester County. An American sycamore stands by the old stone bridge where White Horse Road crosses Crum Creek, about 650 cm round by a reader's measure. A white oak on Bryan Avenue in Duffryn Mawr is about 510 cm round and more than 300 years old by a reader's estimate. No age has been published for either. See both from the road.",
-  "question_context": "Both trees came to us from a reader through the app in November 2026, with photographs and their own measurements. The sycamore grows near an old stone bridge over Crum Creek, closer to Paoli than to Media, its base on a grassy bank beside a split-rail fence; their photographs show the pale upper limbs and mottled grey bark of the species, which is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. The white oak is about four kilometres north-west, on a front lawn on Bryan Avenue, a residential street in the Duffryn Mawr corner of the township near Malvern. Its crooked limbs spread over half the lawn, and the reader puts it at more than 300 years old. We have found nothing written about either tree, so their figures are the only ones. Both stand on private ground: look from the road and leave fences and gardens alone.",
+  "question_meta": "The biggest trees readers have found in Willistown, PA: a sycamore by the Crum Creek bridge, white oaks on Bryan Avenue and Grubb Road, and where to look.",
+  "question_answer": "Readers have sent us three big trees in Willistown Township, Chester County. An American sycamore stands by the old stone bridge where White Horse Road crosses Crum Creek, about 650 cm round by a reader's measure. A white oak on Bryan Avenue in Duffryn Mawr is about 510 cm round and more than 300 years old by a reader's estimate, and another beside Grubb Road is about 435 cm round and about 225 years old by the same reader's figures. No age has been published for any of them. See all three from the road.",
+  "question_context": "All three trees came to us from one reader through the app in November 2026, with photographs and their own measurements. The sycamore grows near an old stone bridge over Crum Creek, closer to Paoli than to Media, its base on a grassy bank beside a split-rail fence; the species is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. Half a kilometre north-west, a white oak hugs the sloping bank of Grubb Road at the edge of a fenced meadow, one long limb reaching out over the field. The other white oak is about two kilometres further north-west, on a front lawn on Bryan Avenue in the Duffryn Mawr corner of the township near Malvern; its crooked limbs spread over half the lawn, and the reader puts it at more than 300 years old. We have found nothing written about any of them, so the reader's figures are the only ones. Look from the road and leave fences and gardens alone.",
   "faq": [
     {
       "q": "How big are they?",
-      "a": "The sycamore is about 650 cm round and the white oak about 510 cm, both by the measure of the reader who sent them. Nobody else has published a figure."
+      "a": "The sycamore is about 650 cm round, the Bryan Avenue white oak about 510 cm and the Grubb Road white oak about 435 cm, all by the measure of the reader who sent them. Nobody else has published a figure."
     },
     {
       "q": "How old are they?",
-      "a": "The reader puts the white oak at more than 300 years. Nobody has published an age for either tree. If you know their history, tell us."
+      "a": "The reader puts the Bryan Avenue oak at more than 300 years and the Grubb Road oak at about 225. Nobody has published an age for any of the three. If you know their history, tell us."
     },
     {
       "q": "Where are they?",
-      "a": "The sycamore is beside White Horse Road at its stone bridge over Crum Creek; the white oak is on a front lawn on Bryan Avenue in Duffryn Mawr. Both pins are approximate, and both trees are seen from the road."
+      "a": "The sycamore is beside White Horse Road at its stone bridge over Crum Creek, the Grubb Road oak on the roadside bank half a kilometre north-west of it, and the Bryan Avenue oak on a front lawn in Duffryn Mawr. All three pins are approximate, and all three trees are seen from the road."
     }
   ]
 }

@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-22 reader judge: a third Willistown tree, the white oak on Grubb Road
+
+- New tree live: willistown/wtn_003, The White Oak on Grubb Road. The same reader sent the Crum Creek sycamore and the Bryan Avenue oak. Their August photograph shows the whole oak on a roadside bank by a split-rail meadow fence, in daylight. They give 435 cm round and about 225 years; both figures are stated as theirs. The pin was placed by hand and lands on Grubb Road (Nominatim), so it is approximate. Access: see it from the road. The photo is filed in August, the month the photo was taken.
+- Willistown's intro, meta, question texts and FAQ now count three trees. There is no kept translation.
+- No open reports, no feedback without a verdict, no readers' notes waiting to be quoted. The other waiting leads are our own account's (`mine`) with no file on disk, including 3c544597 by Amsterdam Centraal. I left them, because we never judge a photo we haven't seen.
+For Hidde: none.
+
 ## 2026-11-22 reader judge: one mail reply filed, nothing else waiting
 
 - Nothing changed on the site. No photographs in the queue, no open reports, no unjudged tips, no readers' notes waiting to be quoted.

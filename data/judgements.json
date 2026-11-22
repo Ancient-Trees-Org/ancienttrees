@@ -2333,6 +2333,49 @@
    "agreed": null
   },
   {
+   "id": "lead:441ff6ca-2691-46b5-95f6-2273991de5b3",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "White Oak on Grubb Road",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_3bb2d9b77f839015a3f92de9/441FF6CA-2691-46B5-95F6-2273991DE5B3.jpg",
+   "reader_note": "This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow.",
+   "reader_girth_cm": 435,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big white oak on a roadside bank by a split-rail meadow fence, whole tree, daylight. Reader gives 435 cm and about 225 years. Live as willistown/wtn_003, approximate (pin placed by hand on Grubb Road), seen from the road.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:441ff6ca-2691-46b5-95f6-2273991de5b3",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The White Oak on Grubb Road",
+   "city": "Willistown",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/441ff6ca-2691-46b5-95f6-2273991de5b3.jpg",
+   "reader_note": "This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow.",
+   "reader_girth_cm": 435,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole oak from the foot of its roadside bank, split-rail meadow fence behind, summer leaf, daylight, colour. Lead photo of willistown/wtn_003, filed in August (the photograph's own month).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
