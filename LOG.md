@@ -21,6 +21,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: Android build 5 sent to Google for review
+
+- **In review** (Hidde: "Ja, indienen"): build 5 (0.1.0) on both closed tracks, Alpha and Beta (Google Group), full rollout, replacing build 4. Hidde had uploaded the bundle to the library but it was in no release; the session put it into an Alpha release and a new Beta release in his Chrome and saved both. Play Console then showed "Wijzigingen worden beoordeeld" (pre-review checks up to 14 minutes, then Google's review). Only warning: no native debug symbols (MapLibre), as on build 4.
+
 ## 2026-11-22 reader judge: the Vienna pagoda tree gets the same reader's photograph
 
 - **Vienna, The Pagoda Tree of the Stadtpark (vie_016)**: the same reader who sent the plane (below) sent this one from 8 m off our pin, taken today. Looked at it: pinnate leaves still green, deeply furrowed trunk forking low with one stem leaning hard away, as the recognition line says, the park balustrade behind. It now leads; the Commons photograph moves to the strip. Filed under November from the photo's own date. The reader's mail joins the weekly bundle with the plane's.
