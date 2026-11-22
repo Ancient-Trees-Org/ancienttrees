@@ -625,7 +625,7 @@
    "status": "fixed",
    "found_by": "reader",
    "test": "AncientTreesUITests/CountryStaysWalk",
-   "fixed_in": "36d7ad09e"
+   "fixed_in": "eef9c2bcb"
   }
  ]
 }

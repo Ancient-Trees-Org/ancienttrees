@@ -15,8 +15,9 @@
 
 - Reader 1358 wrote again after this morning's flag fix: "Helaas wil het land bij mij nog niet blijven staan". The server takes the apps' save now (round-trip on apptest: BE, then NL). Her row still said NL, so her new choice had never reached it.
 - The cause sat in the iPhone app. Edit profile filled the name and country in a `.task` on its Form, and the Country list is pushed over that Form, so coming back from the list ran the task again and put the saved country back before Save. It now fills once per opening (ProfileEditor.swift). CountryStaysWalk picks Don't show over NL: without the guard it fails ("Netherlands" back on the row), with it it passes. Android was already fine (`remember`).
-- Escaped bug ESC-2026-11-22-edit-profile-put-the-saved-country-back- is recorded, caught and fixed in 36d7ad09e. The fix reaches readers with the next iOS build; until then the website's /account sets the country.
+- Escaped bug ESC-2026-11-22-edit-profile-put-the-saved-country-back- is recorded, caught and fixed in eef9c2bcb. The fix reaches readers with the next iOS build; until then the website's /account sets the country.
 - For Hidde: a reply to her is drafted in drafts/reply-reader-1358-2026-11-22b.md. It waits for your yes.
+- The Horn-Lehe reader (mail 1491, eighteenth reader-judge run below) reported the same thing; this is the same cause and the same fix. The morning's server row (ESC-2026-11-22-the-country-picked-in-the-app-was-never-) stays open for the apps' PATCH.
 
 ## 2026-11-22 session: a dropped pin, double tap for a heart, a second tap on Map and My trees
 
