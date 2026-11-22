@@ -21,6 +21,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: inbox replies, and every new ambassador now gets the ambassador mail
+
+- **Product**: a badge given through `ambassador.py --grant` (a reader's yes by mail, the reader judge's route) gave no mail at all; only the app's button sent "Looking after <place>". Now `--grant ... --send` sends that standard mail once per person, and a place with one tree gets it without "check the list / remove" (`request_mail()`). BRIEF_READER_JUDGE.md says `--send`. Catch-up `--welcome-missing` found three who never had it and mailed them on Hidde's word: Joanna (Leamington Spa), Teresa (Laténa), David (Castlemaine). The one-line ask under the congratulation mail no longer counts as that mail.
+- **Held for Hidde**: Hugo (Lisbon, Quercus), the one other account ambassador without it; the six mail ambassadors with no account (Copenhagen, Florence, Lisbon, Prague, Stockholm, Brighton) are personal threads of his.
+- **Sent on his word** (outreach_send): Devika (CTV, interview moved to the weekend after or a weekday), Martin, Arthur, Hélène, Mark, Simon (Android test), Michèle (Réno-Valdieu, winter photos), Beresford (two photos with faces offline, checked live first; feedback 1419 closed).
+- **Breakage found**: ~/.ancienttrees-mail.env holds a placeholder SUPABASE_SERVICE_KEY, which made account codes wrong when both env files were sourced; ambassador.py now reads the key through people.service_key(). The placeholder line itself is his file.
+- Android test score: 8 willing of 12, none joined yet. Waiting: Andrea, Waste Magazine, Kate, readers 1358 and 1362.
+
 ## 2026-11-22 session: Android build 5 built for Play (Hidde: "ok lets do it")
 
 - **Fixed, live on build 4 and dead for every tester**: the bookmark on Discover's tree tiles did nothing (no save signed in, no sign-in sheet signed out), because Discover's tab root never got the save action the other tabs have. The daily ButtonWalk had been red on exactly this since 11-20 and nobody acted on it. Seen on the emulator on build 4 (dead) and on the fix (sign-in sheet; filled mark and "Added to Want to visit"). Commit on main with versionCode 5.

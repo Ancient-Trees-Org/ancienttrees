@@ -9,7 +9,8 @@ name, earned by what the person already did. The rule for who is asked lives in
 CLAUDE.md ("Ambassadors"); this script only records the answer.
 
     python3 scripts/ambassador.py --list
-    python3 scripts/ambassador.py --grant <user_id> <place_slug>
+    python3 scripts/ambassador.py --grant <user_id> <place_slug> [--send]
+    python3 scripts/ambassador.py --welcome-missing [--send] [--skip <slug>,<uid prefix>]
     python3 scripts/ambassador.py --public <user_id> <place_slug> yes|no
     python3 scripts/ambassador.py --revoke <user_id> <place_slug>
     python3 scripts/ambassador.py --sync
@@ -98,7 +99,10 @@ import glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
-KEY = os.environ.get("SUPABASE_SERVICE_KEY")
+# Through people.service_key(), which reads ~/.ancienttrees-supabase.env when
+# the environment holds no key: the same key the account codes are made with,
+# so _had_ambassador_mail and the address lookup can never disagree.
+KEY = people.service_key()
 FILE = os.path.join(ROOT, "data", "ambassadors.json")
 
 
@@ -143,8 +147,17 @@ def _grant_row(user_id, slug):
     return True
 
 
-def grant(user_id, slug):
+def grant(user_id, slug, send=False):
+    """The badge, and the standard editor mail when this person never had one.
+
+    Hidde, 2026-11-22, on Joanna in Leamington Spa: a reader who said yes BY
+    MAIL got the badge through --grant and no mail at all, because only the
+    app's button (--requests) sent the "Looking after" mail. "this one should
+    go out to all ambassador that are confirmed": every route that grants a
+    badge now sends it, once per person (_had_ambassador_mail)."""
     if _grant_row(user_id, slug):
+        if send:
+            welcome(user_id, slug, send=True, why="granted by --grant")
         sync()
 
 
@@ -585,6 +598,135 @@ REQUEST_BODY = (
 )
 
 
+# A place with one tree on the web has no list to check or trim (Hidde,
+# 2026-11-22, Joanna's single oak in Leamington Spa): the two points that
+# only fit a list go, the rest is the same mail.
+REQUEST_BODY_ONE_TREE = (
+    "Hi,\n\n"
+    "Thank you so much for offering to look after our {place} list. You are our ambassador for "
+    "{place} now, with the badge beside your name. People who know the trees on the ground are "
+    "what make these pages good. Here is the list as it stands:\n{listlink}\n\n"
+    "You could really help by:\n"
+    "- telling us which trees to add\n"
+    "- helping us get photographs of the trees\n\n"
+    "Whatever you have time for is welcome. Just reply to this mail.\n\n"
+    "Thanks again for your support,\nHidde\nAncient Trees\n"
+)
+
+
+def _tree_count(slug):
+    try:
+        with open(os.path.join(ROOT, "data", "cities", slug + ".json"), encoding="utf-8") as fh:
+            return len(json.load(fh).get("trees") or [])
+    except Exception:
+        return 0
+
+
+def request_mail(slug):
+    """Subject and body of the standard editor mail for one place."""
+    place = place_name(slug)
+    body = REQUEST_BODY_ONE_TREE if _tree_count(slug) < 2 else REQUEST_BODY
+    return REQUEST_SUBJECT.format(place=place), body.format(place=place, listlink=_list_link(slug))
+
+
+def _had_ambassador_mail(doc, uid):
+    """True when this person ever got an editor mail or an invitation, for any
+    place: one person, one mail (Hidde, 2026-10-28, Miguel's five places)."""
+    ref = people.ref(uid)
+    # The one-line ask under the congratulation mail (tree_approved.py) is
+    # recorded as an invitation, but it carries no list and no ways to help:
+    # their yes to it still needs the editor mail (Joanna, Teresa, David).
+    return any(r.get("user_id") in (ref, uid) and r.get("date")
+               and not (r.get("note") or "").startswith("asked in a P.S.")
+               for r in doc.get("requested", []) + doc.get("invited", []))
+
+
+def welcome(uid, slug, send, why):
+    """Send the standard editor mail to one badge holder who never had one,
+    record it under "requested" and in the send log. Returns True when sent."""
+    with open(FILE, encoding="utf-8") as fh:
+        doc = json.load(fh)
+    if _had_ambassador_mail(doc, uid):
+        print(f"welcome {uid[:8]} / {slug}: already had an ambassador mail, nothing sent")
+        return False
+    subject, body = request_mail(slug)
+    try:
+        from contributor_reply import mailcheck_ok
+    except Exception:
+        mailcheck_ok = None
+    if mailcheck_ok:
+        ok, problems = mailcheck_ok(body, app_user=True)
+        if not ok:
+            print(f"welcome {uid[:8]} / {slug}: held by mailcheck\n{problems}")
+            return False
+    addr = _address(uid)
+    creds = {k: os.environ.get(f"OUTREACH_{k}") for k in ("SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASS", "FROM")}
+    if not send or not addr or not all(creds.values()):
+        reason = "dry run" if not send else ("no address" if not addr else "no mail credentials")
+        print(f"welcome {uid[:8]} / {slug} ({reason}):\n  {subject}\n" + "\n".join("  " + l for l in body.splitlines()))
+        return False
+    if "burgmans.hidde" in creds["FROM"].lower():
+        print("REFUSED: a mail would go out under a personal address")
+        return False
+    msg = EmailMessage()
+    msg["From"], msg["To"], msg["Subject"] = creds["FROM"], addr, subject
+    msg.set_content(body)
+    try:
+        with mailer.connect(creds, timeout=60, kind=mailer.EXPECTED) as server:
+            server.send_message(msg, recent_ok="the ambassador mail for a badge they said yes to")
+    except Exception as e:
+        print(f"welcome {uid[:8]} / {slug}: transport failed ({e.__class__.__name__}: {e})")
+        return False
+    today = datetime.date.today().isoformat()
+    doc.setdefault("requested", []).append({"row": None, "user_id": people.ref(uid), "place_slug": slug,
+                                            "place_name": place_name(slug), "date": today, "note": why})
+    with open(FILE, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
+    try:
+        log_path = os.path.join(ROOT, "data", "outreach-sent.json")
+        with open(log_path, encoding="utf-8") as fh:
+            log = json.load(fh)
+        log.setdefault("sent", []).append({"date": today, "to": addr, "outlet": "ambassador editor mail",
+                                           "subject": subject, "batch": "ambassador-welcome"})
+        with open(log_path, "w", encoding="utf-8") as fh:
+            json.dump(log, fh, indent=2, ensure_ascii=False)
+            fh.write("\n")
+    except Exception:
+        pass
+    print(f"welcome {uid[:8]} / {slug}: editor mail sent")
+    return True
+
+
+def welcome_missing(send, skip=()):
+    """Every badge holder with an account who never had an ambassador mail
+    (Hidde, 2026-11-22: "also send it out to the other ambassadors who never
+    got it"). Our own accounts and anyone in `skip` (a slug or a user id
+    prefix) are left out; a mail ambassador without an account is printed."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import ours
+    with open(FILE, encoding="utf-8") as fh:
+        doc = json.load(fh)
+    n = 0
+    done = set()
+    for a in doc.get("ambassadors", []):
+        uid, slug = a.get("user_id"), a["place_slug"]
+        if not uid:
+            print(f"welcome-missing {a.get('place_name')}: a mail ambassador with no account, by hand")
+            continue
+        if ours.is_ours(uid) or uid in done or any(s == slug or uid.startswith(s) for s in skip):
+            continue
+        if _had_ambassador_mail(doc, uid):
+            continue
+        done.add(uid)
+        if welcome(uid, slug, send, why="catch-up 2026-11-22: badge given without the mail"):
+            n += 1
+            with open(FILE, encoding="utf-8") as fh:
+                doc = json.load(fh)
+    print(f"ambassador --welcome-missing: {n} mail(s) sent")
+    return 0
+
+
 def _slug_for(city):
     """The page slug for the English city name the request row carries."""
     want = (city or "").strip().lower()
@@ -660,8 +802,7 @@ def requests_scan(send):
                 granted += 1
             continue
         place = place_name(slug)
-        subject = REQUEST_SUBJECT.format(place=place)
-        body = REQUEST_BODY.format(place=place, listlink=_list_link(slug))
+        subject, body = request_mail(slug)
         if mailcheck_ok:
             ok, why = mailcheck_ok(body, app_user=True)
             if not ok:
@@ -1035,9 +1176,12 @@ def main(argv):
     if "--grant-named" in argv:
         i = argv.index("--grant-named")
         return grant_named(argv[i + 1], argv[i + 2])
+    if "--welcome-missing" in argv:
+        skip = argv[argv.index("--skip") + 1].split(",") if "--skip" in argv else ()
+        return welcome_missing("--send" in argv, skip)
     if "--grant" in argv:
         i = argv.index("--grant")
-        return grant(argv[i + 1], argv[i + 2])
+        return grant(argv[i + 1], argv[i + 2], send="--send" in argv)
     if "--public" in argv:
         i = argv.index("--public")
         return set_public(argv[i + 1], argv[i + 2], argv[i + 3].lower() in ("yes", "true", "1"))

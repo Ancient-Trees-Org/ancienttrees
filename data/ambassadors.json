@@ -2007,6 +2007,30 @@
       "place_slug": "istanbul",
       "place_name": "Istanbul",
       "date": "2026-11-21"
+    },
+    {
+      "row": null,
+      "user_id": "p_2e79bf68318b596d2c9298dc",
+      "place_slug": "la-tene",
+      "place_name": "Laténa",
+      "date": "2026-11-22",
+      "note": "catch-up 2026-11-22: badge given without the mail"
+    },
+    {
+      "row": null,
+      "user_id": "p_5ad3b6676edab0c30c98329c",
+      "place_slug": "castlemaine",
+      "place_name": "Castlemaine",
+      "date": "2026-11-22",
+      "note": "catch-up 2026-11-22: badge given without the mail"
+    },
+    {
+      "row": null,
+      "user_id": "p_c571dc455621f9521a0fc1f6",
+      "place_slug": "leamington-spa",
+      "place_name": "Royal Leamington Spa",
+      "date": "2026-11-22",
+      "note": "catch-up 2026-11-22: badge given without the mail"
     }
   ],
   "told": {
