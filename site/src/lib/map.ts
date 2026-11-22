@@ -685,6 +685,12 @@ window.addEventListener('hashchange', _placeFromHash);
 // the whole spread of the country or city in view, never its page. Returns
 // false for a place this map holds no tree of, and the search then navigates.
 window.atMapPlace = function(kind, key) {
+  // A city opens its own page from this map too, as from every other search
+  // field: one Zurich, never a second version of it on /explore (Hidde,
+  // 2026-11-22: "waarom zijn dit twee verschillende zurich pagina ... er
+  // moeten niet meerdere kaarten bestaan. the design of the city map is
+  // good"). false makes the search follow the row's link.
+  if (kind === 'city') { return false; }
   // The place searched for leads the list under the map until the search
   // field changes (Hidde, 2026-11-06: searching United Kingdom fitted the
   // Benelux in too; then the Airbnb rule, the search holds while you drag).

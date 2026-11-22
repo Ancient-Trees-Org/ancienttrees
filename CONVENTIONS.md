@@ -1263,6 +1263,11 @@ the Greece page): on /explore a country or city row moves the map
 `/explore#country=<name>`. A city still opens its page, which is itself a map
 with the walk and the page Google sends people to.
 
+**Since 2026-11-22 a city opens its page from /explore too** (Hidde, after
+searching Zurich on /explore and getting a second, worse Zurich: "ik wil dat
+alles 1 en hetzelfde ... the design of the city map is good the explore map is
+not"). One city, one page; only a country frames /explore.
+
 **How the app's map opens on a picked place (Hidde, 2026-11-04, "Yes, build
 it", after a before-and-after of the United States, Japan and Cadiz):** Apple
 Maps and Google Maps lift their sheet to a middle stop for a picked place, with

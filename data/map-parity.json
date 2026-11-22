@@ -88,6 +88,15 @@
       "android": "as iOS",
       "status": "one-sided",
       "why": "a web layout fault only; the phones already behave this way"
+    },
+    {
+      "what": "A city picked in the search on the big map",
+      "since": "2026-11-22",
+      "web": "opens the city's own page (/<city>), from /explore as from every other field; a country still frames /explore",
+      "ios": "frames the city on the one map, under the city's header",
+      "android": "as iOS",
+      "status": "one-sided",
+      "why": "the app has one map and no second Zurich; the website had two (the /explore panel and the city page) and Hidde wants one, the city page (2026-11-22)"
     }
   ]
 }
