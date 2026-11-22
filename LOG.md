@@ -11,6 +11,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 session: an Android tester from the ABC Darwin interview
+
+Sent on Hidde's "Verstuur": a reply to Vincent (North Carolina), who heard Hidde on ABC Darwin and asked to test the Android app. His address is Gmail, so it is the Google Group route (group link, then the Play opt-in link) with no Play Console edit; it ends with a question about a North Carolina tree for the map. He is on the tester list as invited (`android_testers.py`, pushed).
+
 ## 2026-11-22 session: Chiang Mai has an ambassador
 
 Live: Jonardon G., who added the Bodhi Tree at Sunset (cnx_003), answered the congratulation mail's P.S. with "Yes happy to be an ambassador". Badge granted (`ambassador.py --grant`), named on /chiang-mai because the profile is public, and the standard "Looking after Chiang Mai" mail sent once from the Ancient Trees address.
