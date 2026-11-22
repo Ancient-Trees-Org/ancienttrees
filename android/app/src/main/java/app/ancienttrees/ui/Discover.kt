@@ -185,7 +185,7 @@ fun DiscoverScreen(
         Shelves.build(catalogue, origin.lat, origin.lng, located, month)
     }
     var visitorRows by remember { mutableStateOf<List<NewFromVisitors.Row>>(emptyList()) }
-    LaunchedEffect(signedIn) { visitorRows = NewFromVisitors.load(token()) }
+    LaunchedEffect(signedIn) { visitorRows = NewFromVisitors.load(token()) { NewFromVisitors.known(it) { id -> catalogue.tree(id) } } }
     LaunchedEffect(openCollection) { openCollection?.let { act.openPage(DiscoverPage.Collection(it.second)) } }
     var searching by remember { mutableStateOf(false) }
     LaunchedEffect(searching) { act.searching(searching) }
@@ -200,7 +200,7 @@ fun DiscoverScreen(
         val id = r.authorId
         if (id != null && signedIn) act.openPerson(id) else act.signIn {
             scope.launch {
-                val rows = NewFromVisitors.load(token())
+                val rows = NewFromVisitors.load(token()) { NewFromVisitors.known(it) { id -> catalogue.tree(id) } }
                 visitorRows = rows
                 rows.firstOrNull { it.sightingId == r.sightingId }?.authorId?.let(act.openPerson)
             }

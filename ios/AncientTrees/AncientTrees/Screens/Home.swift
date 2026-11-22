@@ -375,7 +375,7 @@ struct HomeView: View {
         .task(id: "\(catalogue.version)|\(location.known)|\(Int(origin.lat * 10))|\(Int(origin.lng * 10))") { buildShelves() }
         // Asked again on a sign-in or out: the account id comes only to a
         // signed-in caller, so the names turn into links without a relaunch.
-        .task(id: account.isSignedIn) { visitorRows = await NewFromVisitors.load(token: await account.freshToken()) }
+        .task(id: account.isSignedIn) { visitorRows = await NewFromVisitors.load(token: await account.freshToken(), known: { NewFromVisitors.known($0) { catalogue.tree($0) } }) }
     }
 
     /// The website leads with one tree rather than with a grid, and so does
@@ -547,7 +547,7 @@ struct HomeView: View {
         if let id = r.author_id, account.isSignedIn { navigator.push = .person(id); return }
         nudge.require(.general) {
             Task { @MainActor in
-                let rows = await NewFromVisitors.load(token: await account.freshToken())
+                let rows = await NewFromVisitors.load(token: await account.freshToken(), known: { NewFromVisitors.known($0) { catalogue.tree($0) } })
                 visitorRows = rows
                 if let id = rows.first(where: { $0.sighting_id == r.sighting_id })?.author_id {
                     navigator.push = .person(id)
