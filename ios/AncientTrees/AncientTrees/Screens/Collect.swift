@@ -90,6 +90,7 @@ struct CollectView: View {
     // photograph the Polarsteps transition here as well as on the map tab
     // (Hidde, 2026-10-02: "this transition should also be on the map page and
     // the my trees page"; it is one component, so it is).
+    @State private var scrollTopToken: UUID?
     @State private var sheetHeight: SheetHeight =
         ProcessInfo.processInfo.arguments.contains("-sheet=full") ? .full : .half
     @State private var selectedTree: Tree?
@@ -302,6 +303,14 @@ struct CollectView: View {
             settingsButton.frame(maxWidth: .infinity, alignment: .trailing)
         }
         .pinSelection($selectedTree, height: $sheetHeight)
+        // TAPPING MY TREES WHILE ON IT scrolls the list back up (Hidde,
+        // 2026-11-22, "3 makes sense"; Instagram's profile tab, Strava's You).
+        .environment(\.sheetScrollTop, scrollTopToken)
+        .onChange(of: navigator.scrollToTop?.token) { _, _ in
+            guard navigator.scrollToTop?.tab == 2 else { return }
+            selectedTree = nil
+            scrollTopToken = UUID()
+        }
         .brandGround()
         .toolbar(.hidden, for: .navigationBar)
         .onAppear {

@@ -153,6 +153,43 @@ export function photoLikesJs(): string {
       write(id, give, s).then(function (ok) { if (!ok) { state[id] = was; show(id); } });
     }, ask);
   }, true);
+  // DOUBLE TAP A PHOTOGRAPH FOR A HEART (Hidde, 2026-11-22, "2 sounds good";
+  // Instagram; the apps' DoubleTapHeart): on a visitor's photo in a feed, the
+  // first click waits a quarter second for a second one, then opens as it did;
+  // a second click gives a heart (never takes one back) and a white heart pops
+  // over the photo. Signed out it asks. A click with a modifier key opens at once.
+  var dblWait = null;
+  function burst(ph) {
+    var b = document.createElement('span');
+    b.className = 'dbl-burst';
+    b.innerHTML = ON;
+    ph.appendChild(b);
+    setTimeout(function () { if (b.parentNode) b.parentNode.removeChild(b); }, 900);
+  }
+  document.addEventListener('click', function (e) {
+    var ph = e.target.closest && e.target.closest('[data-dbl-heart]');
+    if (!ph || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    var a = ph.closest('a');
+    e.preventDefault();
+    if (dblWait && dblWait.ph === ph) {
+      clearTimeout(dblWait.t); dblWait = null;
+      var id = ph.getAttribute('data-dbl-heart');
+      var ask = function () { if (window.atOpenSignIn) window.atOpenSignIn(); };
+      var C = window.atCollection;
+      if (!C || !C.gate) { ask(); return; }
+      C.gate(function (s) {
+        burst(ph);
+        var was = state[id] || { n: 0, mine: false };
+        if (was.mine) return;
+        state[id] = { n: was.n + 1, mine: true };
+        show(id);
+        write(id, true, s).then(function (ok) { if (!ok) { state[id] = was; show(id); } });
+      }, ask);
+      return;
+    }
+    if (dblWait) clearTimeout(dblWait.t);
+    dblWait = { ph: ph, t: setTimeout(function () { dblWait = null; if (a && a.href) location.href = a.href; }, 250) };
+  });
   window.atPhotoLikes = { load: load };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', load); else load();
 })();

@@ -224,6 +224,8 @@ const headExtra = ldScript(graph);
   // the page the reader came from already knows the city and the tree
   if (params.get('city')) { document.getElementById('sg-city').value = params.get('city'); }
   if (params.get('tree')) { document.getElementById('sg-tree').value = params.get('tree'); }
+  // A dropped pin's spot ("Add a tree here" on a map, tree-map-js.ts): its coordinates in "where".
+  if (params.get('where')) { document.getElementById('sg-where').value = params.get('where'); }
   // A draft survives the sign-in round trip: the magic link reloads this
   // page, and eating a paragraph someone typed would be the worst possible
   // answer to "please sign in".

@@ -36,6 +36,13 @@ struct MapTab: View {
     @State private var mapIdle = false
 
     @State private var selected: Tree?
+    /// The one dropped pin (DroppedPin.swift), or nil. A tree and a pin are
+    /// never selected together: choosing one lets the other go.
+    @State private var dropped: CLLocationCoordinate2D?
+    /// The sheet's height before the pin's card raised it, to go back to.
+    @State private var beforeDrop: SheetHeight?
+    /// A second tap on the Map tab: back to where you are (TreeMap.recentreToken).
+    @State private var recentreToken: UUID?
     /// Whether map_moved went out since the app started (see onUserMove).
     private static var movedThisLaunch = false
     /// Set when the tapped pin is one of YOUR trees, so its card wears your
@@ -532,6 +539,18 @@ struct MapTab: View {
                             Measure.event("map_moved")
                         }
                     },
+                    // TOUCH AND HOLD DROPS A PIN (Apple Maps, Google Maps;
+                    // DroppedPin.swift). A tap on open map takes it away.
+                    onLongPress: { c in
+                        selected = nil
+                        if dropped == nil { beforeDrop = sheetHeight }
+                        dropped = c
+                        Measure.event("pin_dropped")
+                        withAnimation(.spring(duration: 0.3)) { sheetHeight = .card }
+                    },
+                    onTapEmpty: { if dropped != nil { clearDropped() } },
+                    dropped: dropped,
+                    recentreToken: recentreToken,
                     focus: .init(latitude: origin.lat, longitude: origin.lng),
                     // So the map can tell a fix from Dam square and retake its
                     // opening shot when the phone finally answers. See
@@ -564,7 +583,9 @@ struct MapTab: View {
                 // Otherwise the count, outside the scroll view: it
                 // stays visible while the list scrolls and it is the handle
                 // that makes the sheet draggable again once it has (2026-08-25).
-                if selected == nil {
+                if let d = dropped, selected == nil {
+                    DroppedPinHeader(spot: d, onClose: clearDropped)
+                } else if selected == nil {
                     countStrip
                 } else if let t = selected {
                     // Apple Maps' place row: share, name, cross. See
@@ -597,6 +618,13 @@ struct MapTab: View {
                                       if let m = mine(for: t) { navigator.push = .mine(m.id) }
                                       else { navigator.push = .tree(t.id) }
                                   })
+                } else if let d = dropped {
+                    DroppedPinBody(spot: d) {
+                        // The add flow, its place map opening at the pin.
+                        navigator.collectAt = [d.latitude, d.longitude]
+                        navigator.collectNearby = true
+                        clearDropped()
+                    }
                 } else {
                     sheet
                 }
@@ -776,6 +804,30 @@ struct MapTab: View {
         // A tapped pin: TreePlaceSheet.swift's PinSelection, shared with a
         // city's map and My trees.
         .pinSelection($selected, height: $sheetHeight)
+        // TAPPING MAP WHILE ON IT: a chosen tree or pin goes, and the map comes
+        // back to where you are, as its locate arrow does (Hidde, 2026-11-22).
+        .onChange(of: navigator.scrollToTop?.token) { _, _ in
+            guard navigator.scrollToTop?.tab == 0 else { return }
+            selected = nil
+            if dropped != nil { clearDropped() }
+            recentreToken = UUID()
+        }
+        // Debug scaffolding, the -at and -tab family: simctl cannot touch and
+        // hold, so -drop=lat,lng shows the dropped pin's card for a screenshot.
+        .task {
+            if let arg = ProcessInfo.processInfo.arguments.first(where: { $0.hasPrefix("-drop=") }) {
+                let n = arg.dropFirst(6).split(separator: ",").compactMap { Double($0) }
+                if n.count == 2 {
+                    try? await Task.sleep(for: .seconds(2))
+                    beforeDrop = sheetHeight
+                    dropped = .init(latitude: n[0], longitude: n[1])
+                    sheetHeight = .card
+                }
+            }
+        }
+        // A tree chosen lets the pin go; lowering the sheet to its foot does too.
+        .onChange(of: selected) { _, new in if new != nil, dropped != nil { dropped = nil; beforeDrop = nil } }
+        .onChange(of: sheetHeight) { _, new in if (new == .peek || new == .bar), dropped != nil { dropped = nil; beforeDrop = nil } }
     }
 
     /// What a search result does to the map, from this tab's own search or
@@ -878,6 +930,15 @@ struct MapTab: View {
 
     /// The cross: the list comes back at the height it had, the pin shrinks.
     private func closePlace() { selected = nil }
+
+    /// The pin goes, and the sheet back to where it was before it came.
+    private func clearDropped() {
+        dropped = nil
+        if let b = beforeDrop {
+            withAnimation(.spring(duration: 0.3)) { sheetHeight = b }
+            beforeDrop = nil
+        }
+    }
 
     /// Close enough to see it. Beyond this the honest thing is to point rather
     /// than to offer a tick, because a tick you can press from your sofa is

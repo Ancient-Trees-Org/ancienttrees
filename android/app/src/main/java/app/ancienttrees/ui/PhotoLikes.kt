@@ -18,6 +18,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.ui.graphics.drawscope.translate
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.heightIn
@@ -84,6 +87,12 @@ object PhotoLikes {
     }
 
     /** Give or take back, shown at once; refused, it goes back. */
+    /** A double tap only ever gives (Instagram); a heart already given stays. */
+    suspend fun give(id: String, token: String) {
+        if (state(id).mine) return
+        toggle(id, token)
+    }
+
     suspend fun toggle(id: String, token: String) {
         val was = state(id)
         val give = !was.mine
@@ -105,6 +114,54 @@ object PhotoLikes {
  * Two taps since 2026-11-22: the heart gives or takes back, the count opens who gave one
  * (PhotoLikersSheet). Signed out either asks for a sign-in.
  */
+/**
+ * DOUBLE TAP A PHOTOGRAPH FOR A HEART (PhotoLikes.swift DoubleTapHeart; Hidde,
+ * 2026-11-22, "2 sounds good"; Instagram): a big white heart pops over the photo
+ * and the heart under it fills. Gives only; signed out it asks. The single tap
+ * still opens, a moment later, as on Instagram.
+ */
+@OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
+@Composable
+fun Modifier.doubleTapHeart(photoId: String, onTap: () -> Unit): Modifier {
+    val marks = LocalTreeMarks.current
+    val scope = rememberCoroutineScope()
+    val haptic = androidx.compose.ui.platform.LocalHapticFeedback.current
+    var burst by remember { mutableStateOf(false) }
+    val scale by androidx.compose.animation.core.animateFloatAsState(if (burst) 1f else 0.4f, label = "heart-scale")
+    val alpha by androidx.compose.animation.core.animateFloatAsState(if (burst) 1f else 0f, label = "heart-alpha")
+    return this
+        .combinedClickable(
+            interactionSource = remember { MutableInteractionSource() },
+            indication = androidx.compose.foundation.LocalIndication.current,
+            onClick = onTap,
+            onDoubleClick = {
+                if (!marks.signedIn) { marks.signIn(); return@combinedClickable }
+                haptic.performHapticFeedback(androidx.compose.ui.hapticfeedback.HapticFeedbackType.LongPress)
+                burst = true
+                scope.launch {
+                    marks.token()?.let { PhotoLikes.give(photoId, it) }
+                    kotlinx.coroutines.delay(650)
+                    burst = false
+                }
+            },
+        )
+        .wrapHeart(scale, alpha)
+}
+
+@Composable
+private fun Modifier.wrapHeart(scale: Float, alpha: Float): Modifier {
+    val heart = androidx.compose.ui.graphics.vector.rememberVectorPainter(Sym.HeartFill)
+    return this.drawWithContent {
+        drawContent()
+        if (alpha > 0f) {
+            val s = 72.dp.toPx() * scale
+            translate(left = (size.width - s) / 2f, top = (size.height - s) / 2f) {
+                with(heart) { draw(androidx.compose.ui.geometry.Size(s, s), alpha = alpha, colorFilter = androidx.compose.ui.graphics.ColorFilter.tint(Color.White)) }
+            }
+        }
+    }
+}
+
 @Composable
 fun PhotoHeart(photoId: String, onDark: Boolean = false) {
     val marks = LocalTreeMarks.current

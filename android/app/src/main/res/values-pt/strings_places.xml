@@ -52,4 +52,7 @@
     <string name="plus_opt_log">Um registo mais rico de cada árvore que colecionaste</string>
     <string name="plus_opt_other">Outra coisa</string>
     <string name="plus_other_hint">O que gostarias?</string>
+    <string name="dropped_pin">Local marcado</string>
+    <string name="dropped_add">Adicionar uma árvore aqui</string>
+    <string name="dropped_share">Partilhar este local</string>
 </resources>

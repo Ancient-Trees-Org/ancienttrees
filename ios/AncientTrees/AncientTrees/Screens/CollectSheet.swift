@@ -75,6 +75,10 @@ struct CollectSheet: View {
     /// choose" screen. nil for both shows the intro.
     var shotIn: UIImage? = nil
     var pickedIn: LibraryPicker.Picked? = nil
+    /// A dropped pin's spot ("Add a tree here", 2026-11-22): the place map
+    /// opens there when the photograph does not say where it was taken. The
+    /// photograph's own GPS, or the phone's at the shutter, still wins.
+    var droppedAt: (lat: Double, lng: Double)? = nil
     @State private var started = false
 
     @Environment(Saved.self) private var saved
@@ -626,7 +630,7 @@ struct CollectSheet: View {
                 return
             }
             shot = image
-            placing = .init(latitude: origin.lat, longitude: origin.lng)
+            placing = .init(latitude: (droppedAt ?? origin).lat, longitude: (droppedAt ?? origin).lng)
             withAnimation(.snappy) { stage = .place }
         }
     }
@@ -655,7 +659,7 @@ struct CollectSheet: View {
         if case .settle(let fix) = route, let c = p.coordinate {
             settle(p.image, at: (c.latitude, c.longitude), fix: fix)
         } else {
-            placing = .init(latitude: origin.lat, longitude: origin.lng)
+            placing = .init(latitude: (droppedAt ?? origin).lat, longitude: (droppedAt ?? origin).lng)
             withAnimation(.snappy) { stage = .place }
         }
     }

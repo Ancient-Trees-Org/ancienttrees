@@ -361,6 +361,10 @@ export interface UIStrings {
   /** Link under the sources to /about (2026-10-01). */
   howWeCheck: string;
   takeMeThere: string;
+  /** A dropped pin on a map (tree-map-js.ts, 2026-11-22): its card title, the add button, directions. */
+  droppedPin: string;
+  droppedAdd: string;
+  droppedDirections: string;
   /** The app's tree page on the web (2026-09-24): the Open-in-the-app CTA, the
    *  corner map, the maps-app choice and the drag-the-pin correction. */
   showOnMap: string;
@@ -846,6 +850,9 @@ const EN: UIStrings = {
   sourcesLine: "Where the facts on this page come from. The story was written with AI from these sources, and readers who know the tree correct it.",
     howWeCheck: "How we choose and check trees",
   takeMeThere: "Take me there",
+  droppedPin: "Dropped pin",
+  droppedAdd: "Add a tree here",
+  droppedDirections: "Directions",
   showOnMap: "Show on the map",
   showPhoto: "Show the photograph",
   openFullMap: "Open the full map",
@@ -1241,6 +1248,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "De dónde salen los datos de esta página. La historia se escribió con IA a partir de estas fuentes, y los lectores que conocen el árbol la corrigen.",
     howWeCheck: "Cómo elegimos y comprobamos los árboles",
     takeMeThere: "Cómo llegar",
+    droppedPin: "Ubicación marcada",
+    droppedAdd: "Añadir un árbol aquí",
+    droppedDirections: "Cómo llegar",
     showOnMap: "Ver en el mapa",
     showPhoto: "Ver la fotografía",
     openFullMap: "Abrir el mapa completo",
@@ -1623,6 +1633,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "Da dove vengono i dati di questa pagina. La storia è stata scritta con l'IA a partire da queste fonti, e i lettori che conoscono l'albero la correggono.",
     howWeCheck: "Come scegliamo e verifichiamo gli alberi",
     takeMeThere: "Portami lì",
+    droppedPin: "Segnaposto",
+    droppedAdd: "Aggiungi un albero qui",
+    droppedDirections: "Indicazioni",
     showOnMap: "Mostra sulla mappa",
     showPhoto: "Mostra la fotografia",
     openFullMap: "Apri la mappa completa",
@@ -2005,6 +2018,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "Waar de gegevens op deze pagina vandaan komen. Het verhaal is met AI geschreven op basis van deze bronnen, en lezers die de boom kennen verbeteren het.",
     howWeCheck: "Hoe we bomen kiezen en controleren",
     takeMeThere: "Breng me erheen",
+    droppedPin: "Gemarkeerde plek",
+    droppedAdd: "Voeg hier een boom toe",
+    droppedDirections: "Route",
     showOnMap: "Toon op de kaart",
     showPhoto: "Toon de foto",
     openFullMap: "Open de hele kaart",
@@ -2387,6 +2403,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "Woher die Angaben auf dieser Seite stammen. Die Geschichte wurde mit KI aus diesen Quellen geschrieben, und Leser, die den Baum kennen, korrigieren sie.",
     howWeCheck: "Wie wir Bäume auswählen und prüfen",
     takeMeThere: "Route planen",
+    droppedPin: "Markierter Ort",
+    droppedAdd: "Hier einen Baum hinzufügen",
+    droppedDirections: "Route",
     showOnMap: "Auf der Karte zeigen",
     showPhoto: "Foto zeigen",
     openFullMap: "Ganze Karte öffnen",
@@ -2769,6 +2788,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "De onde vêm os dados desta página. A história foi escrita com IA a partir destas fontes, e os leitores que conhecem a árvore corrigem-na.",
     howWeCheck: "Como escolhemos e verificamos as árvores",
     takeMeThere: "Como chegar",
+    droppedPin: "Local marcado",
+    droppedAdd: "Adicionar uma árvore aqui",
+    droppedDirections: "Direções",
     showOnMap: "Ver no mapa",
     showPhoto: "Ver a fotografia",
     openFullMap: "Abrir o mapa completo",
@@ -3151,6 +3173,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "D’où viennent les informations de cette page. L’histoire a été écrite avec une IA à partir de ces sources, et les lecteurs qui connaissent l’arbre la corrigent.",
     howWeCheck: "Comment nous choisissons et vérifions les arbres",
     takeMeThere: "M'y emmener",
+    droppedPin: "Repère placé",
+    droppedAdd: "Ajouter un arbre ici",
+    droppedDirections: "Itinéraire",
     showOnMap: "Voir sur la carte",
     showPhoto: "Voir la photo",
     openFullMap: "Ouvrir la carte complète",
@@ -3532,6 +3557,9 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     sourcesLine: "このページの情報の出どころ。物語はこれらの出典をもとにAIが書き、木を知る読者が直しています。",
     howWeCheck: "木の選び方と確認の方法",
     takeMeThere: "ここへ行く",
+    droppedPin: "ドロップしたピン",
+    droppedAdd: "ここに木を追加",
+    droppedDirections: "経路",
     showOnMap: "地図で見る",
     showPhoto: "写真を見る",
     openFullMap: "地図を大きく開く",

@@ -2143,6 +2143,18 @@ footer { border-top: 1px solid var(--cream-dark); }
   .panel { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
 }
 .maplibregl-popup-content { font-family: var(--sans); font-size: 13px; padding: 0.75rem 1rem; border-radius: 4px; }
+/* A dropped pin's card (tree-map-js.ts, 2026-11-22): Google's pop-up at the
+   spot, the coordinates under the title, the sheet's two pills. */
+.drop-pop .maplibregl-popup-content { padding: 12px 14px 14px; border-radius: 14px; background: var(--surface, #fff); color: var(--ink); box-shadow: 0 6px 24px rgba(0,0,0,.16); }
+.drop-pop .maplibregl-popup-tip { display: none; }
+.drop-card { display: grid; gap: 8px; min-width: 200px; }
+.drop-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.drop-head strong { font-size: 16px; font-weight: 750; }
+.drop-x { width: 32px; height: 32px; margin: -6px -6px -6px 0; border: 0; border-radius: 50%; background: var(--cream-dark); color: var(--ink); font-size: 20px; line-height: 1; cursor: pointer; }
+.drop-coords { margin: -4px 0 2px; color: var(--ink-mid); font-size: 13px; user-select: text; }
+.drop-add, .drop-go { display: flex; align-items: center; justify-content: center; height: 40px; border-radius: 999px; font-weight: 650; font-size: 15px; text-decoration: none; }
+.drop-add { background: var(--moss); color: #fff; }
+.drop-go { background: var(--cream-dark); color: var(--ink); }
 .maplibregl-popup-content strong { font-family: var(--sans); font-weight: 750; letter-spacing: -0.015em; font-size: 15px; font-weight: 400; }
 
 @media (max-width: 800px) {
@@ -4223,3 +4235,12 @@ button.city-box-row:disabled { cursor: default; }
 a.city-box-row { text-decoration: none; }
 @media (hover: hover) { a.city-box-row:hover .city-box-label { text-decoration: underline; } }
 .ex-more { margin: 4px var(--gutter) 0; font-size: 13px; color: var(--ink-mid); }
+
+/* A double tap's heart over a visitor's photograph (photo-likes-js.ts, 2026-11-22). */
+[data-dbl-heart] { position: relative; touch-action: manipulation; }
+.dbl-burst { position: absolute; left: 50%; top: 50%; width: 72px; height: 72px; margin: -36px 0 0 -36px; color: #fff; pointer-events: none;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,.3)); animation: dbl-burst .9s ease-out forwards; }
+.dbl-burst svg { width: 100%; height: 100%; fill: currentColor; }
+@keyframes dbl-burst { 0% { transform: scale(.4); opacity: 0; } 20% { transform: scale(1.1); opacity: 1; } 35% { transform: scale(1); } 75% { opacity: 1; } 100% { transform: scale(1); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .dbl-burst { animation: none; opacity: 0; } }
+

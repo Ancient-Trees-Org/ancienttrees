@@ -53,6 +53,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import app.ancienttrees.R
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.animation.core.tween
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
@@ -164,6 +167,10 @@ fun MapTab(
     onOpen: (Tree) -> Unit,
     onCollect: (Tree) -> Unit,
     onAddTree: () -> Unit,
+    /** "Add a tree here" on a dropped pin: the add flow, its place map at the pin. */
+    onAddTreeAt: (Double, Double) -> Unit = { _, _ -> },
+    /** A second tap on Map: the card or pin goes and the map comes back to you (MapTab.swift, 2026-11-22). */
+    retap: Int = 0,
     onShare: (Tree) -> Unit,
     onSearching: (Boolean) -> Unit,
     /** The stop the sheet settled on (the tab bar hides at the bar, build 42). */
@@ -186,6 +193,15 @@ fun MapTab(
     val sheet = remember { SheetState(launch.sheet) }
     var selected by remember { mutableStateOf<Tree?>(null) }
     var before by remember { mutableStateOf<SheetHeight?>(null) }
+    // THE ONE DROPPED PIN (MapTab.swift dropped; DroppedPin.swift): a tree and a
+    // pin are never chosen together.
+    var dropped by remember { mutableStateOf<Here?>(null) }
+    var beforeDrop by remember { mutableStateOf<SheetHeight?>(null) }
+    fun clearDropped() {
+        dropped = null
+        beforeDrop?.let { sheet.height = it }
+        beforeDrop = null
+    }
     var region by remember { mutableStateOf<ViewBox?>(null) }
     var filters by remember { mutableStateOf(MapFilters()) }
     var focusPlace by remember { mutableStateOf<FocusPlace?>(null) }
@@ -230,6 +246,19 @@ fun MapTab(
     // Never while a page covers the map: there back closed the hidden card or cleared
     // the searched place, and the page stayed (the user walk, 2026-11-17).
     BackHandler(enabled = !covered && selected != null) { selected = null }
+    LaunchedEffect(retap) {
+        if (retap > 0) {
+            selected = null
+            if (dropped != null) clearDropped()
+            if (granted) recentre++
+        }
+    }
+    // Back takes the pin away, as on Google Maps for Android.
+    BackHandler(enabled = !covered && dropped != null && selected == null) { clearDropped() }
+    LaunchedEffect(selected?.id) { if (selected != null && dropped != null) { dropped = null; beforeDrop = null } }
+    LaunchedEffect(sheet.height) {
+        if ((sheet.height == SheetHeight.PEEK || sheet.height == SheetHeight.BAR) && dropped != null) { dropped = null; beforeDrop = null }
+    }
     // BACK FROM A SEARCHED PLACE RETURNS TO THE MAP, as the field's cross does
     // (visual review 2026-11-11, flow 163: it left the app). Below a chosen tree.
     BackHandler(enabled = !covered && focusPlace != null && selected == null) { focusPlace = null }
@@ -392,6 +421,15 @@ fun MapTab(
             onMine = onMine,
             collected = marks.collected,
             favourites = marks.saved,
+            onLongPress = { lat, lng ->
+                selected = null
+                if (dropped == null) beforeDrop = sheet.height
+                dropped = Here(lat, lng)
+                app.ancienttrees.account.Measure.event("pin_dropped")
+                sheet.height = SheetHeight.CARD
+            },
+            onTapEmpty = { if (dropped != null) clearDropped() },
+            dropped = dropped,
             modifier = Modifier.fillMaxSize().graphicsLayer { translationY = sheet.parallax() },
         )
 
@@ -450,7 +488,10 @@ fun MapTab(
             header = {
                 val t = selected
                 androidx.compose.foundation.layout.Column {
-                    if (t == null) {
+                    val d = dropped
+                    if (t == null && d != null) {
+                        DroppedPinHeader(d, onClose = { clearDropped() })
+                    } else if (t == null) {
                         CountStrip(inReach, fold = sheet.pageProgress)
                     } else {
                         TreePlaceHeader(t, onShare = { onShare(t) }, onClose = { selected = null })
@@ -464,8 +505,14 @@ fun MapTab(
             },
         ) {
             val t = selected
+            val d = dropped
             if (t != null) {
                 TreePlaceBody(t, onOpen = { onOpen(t) })
+            } else if (d != null) {
+                DroppedPinBody(d, onAdd = {
+                    clearDropped()
+                    onAddTreeAt(d.lat, d.lng)
+                })
             } else {
                 Column(
                     Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 110.dp),
@@ -717,6 +764,57 @@ private fun CountStrip(inReach: Int, fold: Float) {
             .padding(bottom = 11.dp),
     )
 }
+
+/**
+ * A DROPPED PIN's card (DroppedPin.swift): Apple Maps' place row with "Dropped pin"
+ * and Google's coordinates under it, then Add a tree here and Directions.
+ */
+@Composable
+private fun DroppedPinHeader(spot: Here, onClose: () -> Unit) {
+    val brand = Brand.colors
+    val context = LocalContext.current
+    val title = stringResource(R.string.dropped_pin)
+    val coords = droppedCoords(spot)
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp).offset(y = (-14).dp).padding(bottom = 2.dp),
+    ) {
+        PlaceCircle(Sym.Share, stringResource(R.string.dropped_share)) {
+            app.ancienttrees.account.Measure.event("share_tapped", mapOf("where" to "dropped_pin"))
+            val link = "https://ancienttrees.app/explore?utm_source=share&utm_medium=app&utm_campaign=dropped_pin#map=17/" +
+                String.format(java.util.Locale.ROOT, "%.5f/%.5f", spot.lat, spot.lng)
+            val send = android.content.Intent(android.content.Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                putExtra(android.content.Intent.EXTRA_SUBJECT, title)
+                putExtra(android.content.Intent.EXTRA_TEXT, "$coords $link")
+            }
+            context.startActivity(android.content.Intent.createChooser(send, null))
+        }
+        Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
+            Text(title, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 20.sp, lineHeight = 24.sp,
+                color = brand.ink, maxLines = 1, textAlign = TextAlign.Center)
+            androidx.compose.foundation.text.selection.SelectionContainer {
+                Text(coords, fontSize = 15.sp, color = brand.inkSoft, maxLines = 1)
+            }
+        }
+        PlaceCircle(Sym.Close, stringResource(R.string.close), onClose)
+    }
+}
+
+@Composable
+private fun DroppedPinBody(spot: Here, onAdd: () -> Unit) {
+    val context = LocalContext.current
+    Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        BigButton(stringResource(R.string.dropped_add), Sym.Add, Modifier.fillMaxWidth().testTag("dropped-add"), onClick = onAdd)
+        SecondaryButton(stringResource(R.string.settings_directions), Sym.TurnRight, Modifier.testTag("dropped-directions")) {
+            Directions.walk(context, spot.lat, spot.lng)
+        }
+    }
+}
+
+/** Five decimals, about a metre: what Google's card prints. */
+private fun droppedCoords(h: Here) = String.format(java.util.Locale.ROOT, "%.5f, %.5f", h.lat, h.lng)
 
 /** Apple Maps' place row (TreePlaceHeader): share, the name and its meta, a cross. */
 @Composable

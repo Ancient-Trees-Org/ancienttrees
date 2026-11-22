@@ -133,11 +133,13 @@ fun MyTreesScreen(
     mine: MyTrees,
     actions: MyTreesActions,
     initialSheet: SheetHeight = SheetHeight.HALF,
+    /** A second tap on My trees scrolls the list back up (Collect.swift sheetScrollTop, 2026-11-22). */
+    scrollTop: Int = 0,
     initialLane: TreesLane = TreesLane.SEEN,
     onUseMyLocation: () -> Unit = {},
 ) {
     PlainText {
-        MyTreesInner(catalogue, origin, located, granted, signedIn, email, saves, mine, actions, initialSheet, initialLane, onUseMyLocation)
+        MyTreesInner(catalogue, origin, located, granted, signedIn, email, saves, mine, actions, initialSheet, initialLane, onUseMyLocation, scrollTop)
     }
 }
 
@@ -155,6 +157,7 @@ private fun MyTreesInner(
     initialSheet: SheetHeight,
     initialLane: TreesLane,
     onUseMyLocation: () -> Unit,
+    scrollTop: Int = 0,
 ) {
     val density = LocalDensity.current
     // -sheet=full opens the sheet as the page (the Polarsteps transition).
@@ -318,6 +321,7 @@ private fun MyTreesInner(
         }
 
         MapSheet(
+            scrollTop = scrollTop,
             state = sheet,
             cardFits = selected != null,
             halfFits = !signedIn && selected == null,

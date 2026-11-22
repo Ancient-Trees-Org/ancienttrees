@@ -52,4 +52,7 @@
     <string name="plus_opt_log">Un journal plus riche de chaque arbre que vous avez collectionné</string>
     <string name="plus_opt_other">Autre chose</string>
     <string name="plus_other_hint">Que voudriez-vous ?</string>
+    <string name="dropped_pin">Repère placé</string>
+    <string name="dropped_add">Ajouter un arbre ici</string>
+    <string name="dropped_share">Partager ce lieu</string>
 </resources>

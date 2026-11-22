@@ -71,6 +71,19 @@ struct TreeMap: UIViewRepresentable {
     /// camera moves. The Map tab ends a search on it, Airbnb's rule (Hidde,
     /// 2026-11-06).
     var onUserMove: (() -> Void)? = nil
+    /// TOUCH AND HOLD DROPS A PIN (Hidde, 2026-11-22: "build it exactly as
+    /// them"; CONVENTIONS.md "A dropped pin"). Apple Maps: "Touch and hold the
+    /// map until a pin marker appears", one pin at a time; Google Maps: "touch
+    /// and hold an area of the map that isn't labeled". So a hold on a tree
+    /// does nothing here, a hold on open map calls this. nil: no dropping.
+    var onLongPress: ((CLLocationCoordinate2D) -> Void)? = nil
+    /// A tap that met no tree: the dropped pin goes away, as in both apps.
+    var onTapEmpty: (() -> Void)? = nil
+    /// The one dropped pin, drawn with the map's own marker, or nil.
+    var dropped: CLLocationCoordinate2D? = nil
+    /// A new token presses the map's own locate button: tapping the Map tab
+    /// while on it (Hidde, 2026-11-22, "3 makes sense").
+    var recentreToken: UUID? = nil
     var focus: CLLocationCoordinate2D?
     /// Whether what this map is aimed at came from the phone or from a guess.
     ///
@@ -307,6 +320,10 @@ struct TreeMap: UIViewRepresentable {
             existing.require(toFail: tap)
         }
         map.addGestureRecognizer(tap)
+        // Half a second, UIKit's default and the hold both apps ask for.
+        let hold = UILongPressGestureRecognizer(target: context.coordinator,
+                                                action: #selector(Coordinator.handleLongPress(_:)))
+        map.addGestureRecognizer(hold)
 
         // A first paint so the map never shows the Atlantic while it lays out.
         // It is deliberately NOT the final word: at this moment the view has no
@@ -322,6 +339,12 @@ struct TreeMap: UIViewRepresentable {
     func updateUIView(_ container: MapWithControls, context: Context) {
         let map = container.map
         context.coordinator.parent = self
+        context.coordinator.syncDropped(on: map)
+        if recentreToken != context.coordinator.recentreToken {
+            let first = context.coordinator.recentreToken == nil && recentreToken == nil
+            context.coordinator.recentreToken = recentreToken
+            if !first, recentreToken != nil { (context.coordinator.recentreView as? UIControl)?.sendActions(for: .touchUpInside) }
+        }
         // Asserted on every update, not once at creation: MapLibre brings its
         // own compass and info button back after a style or a layout pass, so
         // setting them in makeUIView held for a moment and the layout gate kept
@@ -592,6 +615,7 @@ struct TreeMap: UIViewRepresentable {
         var recentreLift: NSLayoutConstraint?
         /// And the control itself, so it can fade rather than be destroyed.
         weak var recentreView: UIView?
+        var recentreToken: UUID?
 
         init(_ p: TreeMap) { parent = p }
 
@@ -794,6 +818,70 @@ struct TreeMap: UIViewRepresentable {
             // Maps puts its list back on a tap on empty map.
             MapLayers.fold(on: style, zoom: map.zoomLevel, declutter: parent.declutter)
             if parent.onSelectTree == nil, parent.selected != nil { parent.selected = nil }
+            parent.onTapEmpty?()
+        }
+
+        /// The dropped pin on the map: one annotation, moved or removed when
+        /// `dropped` changes. No image of our own: MapLibre's standard marker,
+        /// the plain pin both reference apps draw for a spot with no name.
+        var droppedPin: MLNPointAnnotation?
+        @MainActor
+        func syncDropped(on map: MLNMapView) {
+            let want = parent.dropped
+            if let pin = droppedPin, let w = want,
+               pin.coordinate.latitude == w.latitude, pin.coordinate.longitude == w.longitude { return }
+            if want == nil, droppedPin == nil { return }
+            if let pin = droppedPin { map.removeAnnotation(pin); droppedPin = nil }
+            if let w = want {
+                let pin = MLNPointAnnotation()
+                pin.coordinate = w
+                // Known before it is added: the map asks for its view during the add.
+                droppedPin = pin
+                map.addAnnotation(pin)
+            }
+        }
+
+        /// The pin as a VIEW, so it stands above every tree pin the map
+        /// draws (a drawn annotation sat under them). Apple Maps' dropped pin:
+        /// a red disc with the pin glyph on a short point, from SF Symbols.
+        func mapView(_ mapView: MLNMapView, viewFor annotation: MLNAnnotation) -> MLNAnnotationView? {
+            guard let pin = droppedPin, annotation === pin else { return nil }
+            let v = MLNAnnotationView(reuseIdentifier: "dropped")
+            let size: CGFloat = 40
+            v.frame = CGRect(x: 0, y: 0, width: size, height: size + 10)
+            let point = UIImageView(image: UIImage(systemName: "arrowtriangle.down.fill"))
+            point.tintColor = .systemRed
+            point.frame = CGRect(x: size / 2 - 6, y: size - 4, width: 12, height: 12)
+            let disc = UIImageView(image: UIImage(systemName: "mappin.circle.fill",
+                withConfiguration: UIImage.SymbolConfiguration(paletteColors: [.white, .systemRed])))
+            disc.frame = CGRect(x: 0, y: 0, width: size, height: size)
+            v.addSubview(point)
+            v.addSubview(disc)
+            v.layer.shadowColor = UIColor.black.cgColor
+            v.layer.shadowOpacity = 0.25
+            v.layer.shadowRadius = 3
+            v.layer.shadowOffset = CGSize(width: 0, height: 1)
+            // The point's tip on the spot.
+            v.centerOffset = CGVector(dx: 0, dy: -(size + 8) / 2)
+            v.accessibilityLabel = "Dropped pin"
+            return v
+        }
+
+        /// Touch and hold: on a tree, nothing (Google: "an area of the map
+        /// that isn't labeled"); on open map, a pin and a firm tap of the
+        /// phone the moment it lands.
+        @MainActor
+        @objc func handleLongPress(_ g: UILongPressGestureRecognizer) {
+            guard g.state == .began, let drop = parent.onLongPress,
+                  let map = g.view as? MLNMapView, let style = map.style else { return }
+            let point = g.location(in: map)
+            let box = CGRect(x: point.x - 22, y: point.y - 22, width: 44, height: 44)
+            let ours = [MapLayers.treeLayer, MapLayers.spreadLayer, MapLayers.dotLayer, MapLayers.farLayer,
+                        MapLayers.miniLayer, MapLayers.mineLayer, MapLayers.stackLayer]
+                .map { MapLayers.live($0, on: style) }
+            if !map.visibleFeatures(in: box, styleLayerIdentifiers: Set(ours)).isEmpty { return }
+            UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+            drop(map.convert(point, toCoordinateFrom: map))
         }
 
         /// Pan the map and the list follows. Google Maps, Apple Maps and Airbnb

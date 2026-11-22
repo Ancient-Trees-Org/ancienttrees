@@ -82,6 +82,10 @@ public final class Navigator {
     /// Collect's own button asking for the nearby-trees sheet. The root owns
     /// every sheet, so the request travels rather than the presentation.
     public var collectNearby = false
+    /// "Add a tree here" on a dropped pin (2026-11-22): where the add flow's
+    /// "Where does it stand?" map opens when the photograph has no location of
+    /// its own. A GPS fix still wins. Cleared with collectAbout.
+    public var collectAt: [Double]? = nil
     /// WHICH TREE the camera was opened from, when it was opened from one
     /// (Hidde, 2026-09-04: "als je vanuit een boom op de camera knop klikt is
     /// de boodschap iets anders dan wil je iets zeggen als voeg deze boom toe

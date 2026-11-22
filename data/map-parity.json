@@ -97,6 +97,15 @@
       "android": "as iOS",
       "status": "one-sided",
       "why": "the app has one map and no second Zurich; the website had two (the /explore panel and the city page) and Hidde wants one, the city page (2026-11-22)"
+    },
+    {
+      "what": "Touch and hold (right-click on a computer) drops a pin: Dropped pin, its coordinates, Add a tree here, Directions",
+      "since": "2026-11-22",
+      "web": "tree-map-js.ts on every full map (not the small maps inside a page): right-click or a half-second hold, MapLibre's marker in red, a card at the pin; Add a tree here fills the contribute form's Where with the coordinates",
+      "ios": "TreeMap onLongPress on the Map tab: a red SF Symbols pin above the trees, the card in the sheet (DroppedPin.swift); Add a tree here opens the add flow, its place map at the pin when the photo has no location",
+      "android": "TreeMapView onLongPress on the Map tab: MapLibre's red marker, the card in the sheet, back takes it away",
+      "status": "done",
+      "decided": "Hidde, 2026-11-22: \"1 sounds cool but the interactio is quite specific and delecat can you build it exactly as them?\""
     }
   ]
 }

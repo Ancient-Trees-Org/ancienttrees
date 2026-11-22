@@ -903,7 +903,7 @@ internal fun VisitorFace(name: String, avatar: String?) {
 
 /** The sheet's grey pill (Style.swift BrandButtonStyle(prominent: false)): 48 tall, full width. */
 @Composable
-private fun SecondaryButton(text: String, icon: ImageVector?, modifier: Modifier = Modifier, onClick: () -> Unit) {
+internal fun SecondaryButton(text: String, icon: ImageVector?, modifier: Modifier = Modifier, onClick: () -> Unit) {
     val brand = Brand.colors
     Row(
         horizontalArrangement = Arrangement.Center,

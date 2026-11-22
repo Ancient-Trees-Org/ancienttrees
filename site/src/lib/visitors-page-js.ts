@@ -65,7 +65,7 @@ export function visitorTileFn(): string {
     // (lib/photo-likes-js.ts fills the slot; Hidde, 2026-11-20).
     var like = '<span class="nfv-like" data-photo-like="' + esc(String(r.sighting_id).toLowerCase()) + '"></span>';
     return '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="' + ev + '" data-detail="' + esc(r.tree_id) + '">' +
-      '<span class="shelf-ph">' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
+      '<span class="shelf-ph" data-dbl-heart="' + esc(String(r.sighting_id).toLowerCase()) + '">' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
       '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + '<div class="nfv-by">' + who + like + '</div>';
   }`;
 }

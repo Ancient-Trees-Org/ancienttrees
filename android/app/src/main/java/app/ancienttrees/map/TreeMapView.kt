@@ -81,6 +81,8 @@ private class Spread(val spot: String, val at: Map<String, LatLng>)
 
 /** What the map's listeners read, so they always see the newest trees and spread. */
 private class MapHolder {
+    /** The dropped pin's marker, while there is one. */
+    var dropped: org.maplibre.android.annotations.Marker? = null
     var trees: List<Tree> = emptyList()
     var spots: Map<String, List<Tree>> = emptyMap()
     /** Your collected and saved trees, so their pins wear the tick and the bookmark. */
@@ -169,6 +171,16 @@ fun TreeMapView(
     favourites: Set<String> = emptySet(),
     minePhoto: suspend (String) -> ByteArray? = { null },
     onMine: (String) -> Unit = {},
+    /**
+     * TOUCH AND HOLD DROPS A PIN (TreeMap.swift onLongPress; Apple Maps "Touch and
+     * hold the map until a pin marker appears", Google Maps "touch and hold an area
+     * of the map that isn't labeled"). A hold on a tree does nothing. Null: off.
+     */
+    onLongPress: ((Double, Double) -> Unit)? = null,
+    /** A tap that met no tree: the dropped pin goes away. */
+    onTapEmpty: () -> Unit = {},
+    /** The one dropped pin, MapLibre's own red marker, above every layer. */
+    dropped: Here? = null,
 ) {
     val latestView by rememberUpdatedState(onView)
     val latestUserMove by rememberUpdatedState(onUserMove)
@@ -182,6 +194,8 @@ fun TreeMapView(
     var ready by remember { mutableStateOf<Pair<MapLibreMap, Style>?>(null) }
     val latestSelected by rememberUpdatedState(selected)
     val latestOnMine by rememberUpdatedState(onMine)
+    val latestLongPress by rememberUpdatedState(onLongPress)
+    val latestTapEmpty by rememberUpdatedState(onTapEmpty)
 
     val mapView = remember {
         MapLibre.getInstance(context)
@@ -254,9 +268,28 @@ fun TreeMapView(
                     // A pin tap is a tree seen (TreeMap.swift, 2026-11-15).
                     if (tree != null) app.ancienttrees.account.Measure.event("pin_tapped", mapOf("tree" to tree.id))
                     latestSelect(tree)
+                    if (tree == null) latestTapEmpty()
+                    true
+                }
+                map.addOnMapLongClickListener { point ->
+                    val drop = latestLongPress ?: return@addOnMapLongClickListener false
+                    val at = map.projection.toScreenLocation(point)
+                    if (mineAt(map, at, context) != null || stackAt(map, at, context) != null ||
+                        treeAt(map, at, context, latestById) != null) return@addOnMapLongClickListener true
+                    view.performHapticFeedback(android.view.HapticFeedbackConstants.LONG_PRESS)
+                    drop(point.latitude, point.longitude)
                     true
                 }
             }
+        }
+    }
+
+    // THE DROPPED PIN: one marker, moved or taken away with `dropped`.
+    LaunchedEffect(ready, dropped) {
+        val map = ready?.first ?: return@LaunchedEffect
+        holder.dropped?.let { map.removeMarker(it) }
+        holder.dropped = dropped?.let {
+            map.addMarker(org.maplibre.android.annotations.MarkerOptions().position(LatLng(it.lat, it.lng)))
         }
     }
 

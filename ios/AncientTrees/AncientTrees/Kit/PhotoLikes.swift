@@ -70,6 +70,55 @@ final class PhotoLikes {
     }
 }
 
+extension PhotoLikes {
+    /// A double tap only ever gives (Instagram: a second double tap does not
+    /// take the like back); a heart you already gave stays as it is.
+    func give(_ id: String, token: String) async {
+        if state(id).mine { return }
+        await toggle(id, token: token)
+    }
+}
+
+/// DOUBLE TAP A PHOTOGRAPH FOR A HEART (Hidde, 2026-11-22, "2 sounds good";
+/// Instagram's double tap on a photo in the feed): a big white heart pops over
+/// the photograph and the heart under it fills. Gives only. Signed out it asks
+/// for a sign-in, as the heart button does. The single tap underneath still
+/// does what it did, a moment later, the trade Instagram makes too.
+struct DoubleTapHeart: ViewModifier {
+    let photoId: String
+    @Environment(Account.self) private var account
+    @Environment(Nudge.self) private var nudge
+    @State private var burst = false
+
+    func body(content: Content) -> some View {
+        content
+            .overlay {
+                Image(systemName: "heart.fill")
+                    .font(.system(size: 72))
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.25), radius: 8)
+                    .scaleEffect(burst ? 1 : 0.4)
+                    .opacity(burst ? 1 : 0)
+                    .allowsHitTesting(false)
+                    .accessibilityHidden(true)
+            }
+            .highPriorityGesture(TapGesture(count: 2).onEnded {
+                guard account.isSignedIn else { nudge.require(.general) {}; return }
+                UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                withAnimation(.spring(duration: 0.25, bounce: 0.5)) { burst = true }
+                Task {
+                    if let t = await account.freshToken() { await PhotoLikes.shared.give(photoId, token: t) }
+                    try? await Task.sleep(for: .milliseconds(650))
+                    withAnimation(.easeOut(duration: 0.2)) { burst = false }
+                }
+            })
+    }
+}
+
+extension View {
+    func doubleTapHeart(_ photoId: String) -> some View { modifier(DoubleTapHeart(photoId: photoId)) }
+}
+
 /// The heart right after a photographer's line: outlined, filled moss once
 /// you gave one, the count beside it from one (Hidde, 2026-08-26: "pas van 1
 /// tellen"). TWO TAPS since 2026-11-22, Instagram's and Strava's (Hidde: "kun

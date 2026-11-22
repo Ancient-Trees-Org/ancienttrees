@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 session: a dropped pin, double tap for a heart, a second tap on Map and My trees
+
+- **Touch and hold the map drops a pin**, iPhone, Android and website (right-click on a computer), built to Apple's and Google's own help pages (Hidde: "build it exactly as them"). One red pin above our trees, a "Dropped pin" card with the coordinates, Add a tree here and Directions; a tap elsewhere takes it away. Add a tree here opens the add flow at that spot.
+- **Double tap a visitor's photo in the feed gives a heart**, Instagram's way, on all three (gives only, a white heart pops over the photo).
+- **Tapping Map again** brings the map back to where you are; **tapping My trees again** scrolls the list up (phones; the website has no tab bar).
+- Looked at: the iPhone pin and card in the simulator, the web pin and card on a test map in the live explore page. Android compiles and has not been looked at on a phone; the website waits for CI's build.
 ## 2026-11-22 reader judge (eighteenth run): a cedar in Piazza Indipendenza, Verona, live; a Tennessee oak held; a Bremen ambassador
 
 - **New tree, verona/ver_010, "The Cedar of Piazza Indipendenza"** (tip-1490, through the app, "Old, very very beautiful"). The tip had two images. The first is a Google Street View capture, used only to place the tree: it is captioned Piazza Indipendenza, with parking and a hedge at the tree's foot, so it is not the Bra cedar (ver_001). The second is the reader's own November photo of the whole tiered cedar, and it is the lead photo, filed in November. The species is left as the genus, Cedrus sp.; the reader calls it a Himalayan cedar, and the story says so and asks. The pin is approximate, on the square's garden. Verona now counts nine trees in the city, plus San Bonifacio. I updated the intro, the question meta and the FAQ in English and in the kept Italian overlay, and added the Italian story.

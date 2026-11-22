@@ -332,11 +332,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // SIGN IN FIRST, THEN THE SHEET, and the sheet still opens after it (Hidde,
     // 2026-10-12: "first login than overlay"; ContentView.openCollect). Who is
     // signed in is the server's answer (account.state), never the phone's.
-    fun openCollect() {
+    fun openCollect(at: app.ancienttrees.feed.Here? = null) {
         if (signedInNow()) {
-            collectStart = app.ancienttrees.ui.CollectStart()
+            collectStart = app.ancienttrees.ui.CollectStart(droppedAt = at)
         } else {
-            pendingAfterSignIn = { collectStart = app.ancienttrees.ui.CollectStart() }
+            pendingAfterSignIn = { collectStart = app.ancienttrees.ui.CollectStart(droppedAt = at) }
             asking = true
         }
     }
@@ -724,6 +724,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // The tabs: Map, Discover (Home.swift), and My trees (Collect.swift).
     // Tapping Discover while on Discover scrolls back up (navigator.scrollToTop).
     var discoverTop by remember { mutableIntStateOf(0) }
+    // And Map back to where you are, My trees back up (2026-11-22, "3 makes sense").
+    var mapTop by remember { mutableIntStateOf(0) }
+    var mineTop by remember { mutableIntStateOf(0) }
     var discoverSearching by remember { mutableStateOf(false) }
     // Android's back on another tab's root goes to the map (a forced difference: the iPhone has no back there).
     BackHandler(enabled = nav.tab != 0 && nav.stack.isEmpty()) { nav.tab = 0 }
@@ -940,7 +943,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                 if (i == nav.tab) {
                                     // The tab you are on: back to its root, and on the root, to the
                                     // top (ContentView.tabSelection).
-                                    if (nav.stack.isNotEmpty()) nav.clear(i) else if (i == 1) discoverTop++
+                                    if (nav.stack.isNotEmpty()) nav.clear(i) else if (i == 1) discoverTop++ else if (i == 0) mapTop++ else if (i == 2) mineTop++
                                 } else {
                                     nav.tab = i
                                 }
@@ -1020,6 +1023,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             myTrees = myTrees,
                             onCollect = { collect(it) },
                             onAddTree = { nav.clear(0) },
+                            onAddTreeAt = { lat, lng -> openCollect(app.ancienttrees.feed.Here(lat, lng)) },
+                            retap = mapTop,
                             onShare = { t -> share(context, t) },
                             onSearching = { searching = it },
                             onSheetStop = { mapStop = it },
@@ -1106,6 +1111,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         ) {
                             androidx.compose.runtime.key(myLane) {
                                 app.ancienttrees.ui.MyTreesScreen(
+                                    scrollTop = mineTop,
                                     catalogue = cat,
                                     origin = origin,
                                     located = located,

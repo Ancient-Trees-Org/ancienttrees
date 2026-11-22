@@ -132,6 +132,8 @@ fun MapSheet(
     pageClose: (() -> Unit)? = null,
     /** BottomSheet's sheetResults (build 42): the bar stop, and full as the page under the field. */
     results: Boolean = false,
+    /** A new number scrolls the list to its top: a second tap on the tab (BottomSheet.swift sheetScrollTop). */
+    scrollTop: Int = 0,
     header: @Composable () -> Unit,
     content: @Composable () -> Unit,
 ) {
@@ -140,6 +142,7 @@ fun MapSheet(
     val top = WindowInsets.statusBars.getTop(density).toFloat()
     val bottom = WindowInsets.navigationBars.getBottom(density).toFloat()
     val scroll = rememberScrollState()
+    LaunchedEffect(scrollTop) { if (scrollTop > 0) scroll.animateScrollTo(0) }
     var headerBottom by remember { mutableFloatStateOf(0f) }
     var contentHeight by remember { mutableFloatStateOf(0f) }
     var headerHeight by remember { mutableFloatStateOf(0f) }

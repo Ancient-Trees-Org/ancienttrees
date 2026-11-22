@@ -28,7 +28,7 @@ Recorded in CONVENTIONS.md and present in the code, so left out of the ranking: 
 
 ## Hidde's answers (2026-11-22)
 
-1 yes (built), 2 later, 3 not answered yet, 4 yes (built), 5 yes (built on profiles and Activity; My trees left out, see CONVENTIONS.md). Rows 6 to 10 not asked yet.
+1 yes (built), 2 later, 3 not answered yet, 4 yes (built), 5 yes (built on profiles and Activity; My trees left out, see CONVENTIONS.md). Rows 6 to 10 asked later the same day: 6 (dropped pin), 7 (double tap) and 8 (second tab tap) built; 9 (long-press menus) left out; 10 (signed-out /profile) explained, no answer yet.
 
 ## Questions for Hidde (top five, in Dutch)
 

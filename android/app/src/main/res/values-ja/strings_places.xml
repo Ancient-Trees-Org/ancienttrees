@@ -52,4 +52,7 @@
     <string name="plus_opt_log">集めた木すべてのより豊かな記録</string>
     <string name="plus_opt_other">その他</string>
     <string name="plus_other_hint">どんなことを望みますか？</string>
+    <string name="dropped_pin">ドロップしたピン</string>
+    <string name="dropped_add">ここに木を追加</string>
+    <string name="dropped_share">この場所を共有</string>
 </resources>

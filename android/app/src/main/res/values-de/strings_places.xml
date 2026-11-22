@@ -52,4 +52,7 @@
     <string name="plus_opt_log">Ein reichhaltigeres Logbuch aller Bäume, die du gesammelt hast</string>
     <string name="plus_opt_other">Etwas anderes</string>
     <string name="plus_other_hint">Was wünschst du dir?</string>
+    <string name="dropped_pin">Markierter Ort</string>
+    <string name="dropped_add">Hier einen Baum hinzufügen</string>
+    <string name="dropped_share">Diesen Ort teilen</string>
 </resources>

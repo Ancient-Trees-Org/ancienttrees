@@ -131,6 +131,7 @@ struct VisitorPhotosView: View {
                     .accessibilityLabel("\(it.tree.name), \(it.tree.city)")
             }
             .buttonStyle(.plain)
+            .doubleTapHeart(it.row.sighting_id.uuidString.lowercased())
             .accessibilityIdentifier("visitor-tile")
             // The save on the photograph's top right, as on every card
             // (Hidde, 2026-11-19: "een bookmark icontje bij elke boom"; the

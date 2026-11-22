@@ -52,4 +52,7 @@
     <string name="plus_opt_log">Een rijker logboek van elke boom die je hebt verzameld</string>
     <string name="plus_opt_other">Iets anders</string>
     <string name="plus_other_hint">Wat zou je willen?</string>
+    <string name="dropped_pin">Gemarkeerde plek</string>
+    <string name="dropped_add">Voeg hier een boom toe</string>
+    <string name="dropped_share">Deel deze plek</string>
 </resources>

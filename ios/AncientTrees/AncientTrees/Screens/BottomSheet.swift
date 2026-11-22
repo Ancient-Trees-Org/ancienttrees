@@ -314,6 +314,8 @@ struct BottomSheet<Header: View, Content: View>: View {
     /// boom als je door de lijst gaat"). Optional, because a sheet holding a
     /// walk has nothing to report.
     var topItem: Binding<String?>? = nil
+    /// A new value scrolls the list to its top (a second tap on the tab).
+    @Environment(\.sheetScrollTop) private var scrollTop
     /// A row that stays OUTSIDE the scroll view, under the grabber.
     ///
     /// Hidde, 2026-08-25: "het is vrijwel onmogelijk om de lijst over de map nog
@@ -584,13 +586,24 @@ struct BottomSheet<Header: View, Content: View>: View {
                     }
 
                 ScrollView {
+                    // TAPPING THE TAB YOU ARE ON SCROLLS BACK UP (Hidde,
+                    // 2026-11-22, "3 makes sense"; Instagram, Strava): a screen
+                    // sets sheetScrollTop to a new token and the list goes to
+                    // its top. A marker in an overlay, so the list's own
+                    // layout and its scroll targets stay as they are.
+                    ScrollViewReader { proxy in
                     content
+                        .overlay(alignment: .top) { Color.clear.frame(height: 1).id("sheet-top").allowsHitTesting(false) }
+                        .onChange(of: scrollTop) { _, new in
+                            if new != nil { withAnimation(.snappy) { proxy.scrollTo("sheet-top", anchor: .top) } }
+                        }
                         .opacity(listShown)
                         .frame(maxWidth: .infinity, alignment: .top)
                         .onGeometryChange(for: CGFloat.self) { $0.size.height } action: {
                             // The same point of slack as headerBottom above.
                             if abs($0 - contentHeight) >= 1 { contentHeight = $0 }
                         }
+                    }
                 }
                 // ROOM AT THE END OF THE LIST, not a shorter list.
                 //
@@ -863,3 +876,8 @@ private struct SheetResultsKey: EnvironmentKey { static let defaultValue = false
 /// custom detent resolved from the content; Google Maps raises a place card
 /// to its own height. Off by default, so lists and walks keep their stops.
 private struct SheetCardFitsKey: EnvironmentKey { static let defaultValue = false }
+
+extension EnvironmentValues {
+    /// A token: when it changes, the sheet's list scrolls to its top.
+    @Entry var sheetScrollTop: UUID? = nil
+}

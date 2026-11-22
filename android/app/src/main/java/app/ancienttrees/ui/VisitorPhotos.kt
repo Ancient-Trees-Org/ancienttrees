@@ -180,7 +180,7 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
                             .aspectRatio(it.ratio)
                             .clip(VP_SHAPE)
                             .background(brand.surfaceMuted)
-                            .clickable { act.openTree(it.tree) }
+                            .doubleTapHeart(it.row.sightingId.lowercase()) { act.openTree(it.tree) }
                             .semantics { contentDescription = "visitor-tile" },
                     ) {
                         RemoteImage(it.shot.card, null, Modifier.fillMaxSize())

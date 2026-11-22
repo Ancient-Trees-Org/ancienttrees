@@ -122,6 +122,8 @@ data class CollectStart(
     val pickedMore: List<ByteArray> = emptyList(),
     /** The month each of [pickedMore] was taken, same order, null where unknown. */
     val pickedMoreMonths: List<Int?> = emptyList(),
+    /** A dropped pin's spot ("Add a tree here", CollectSheet.swift droppedAt): the place map opens there when the photograph has no location of its own. */
+    val droppedAt: Here? = null,
 )
 
 /** The sweep's launch arguments for the flow (ios Kit/Launch.swift). */
@@ -323,7 +325,7 @@ fun CollectSheet(
                     settle(image, Here(known.lat, known.lng), Fix.PLACED)
                 } else {
                     shot = image
-                    placing = origin
+                    placing = start.droppedAt ?: origin
                     stage = Stage.Place
                 }
             }
@@ -347,7 +349,7 @@ fun CollectSheet(
         if (r is CollectRules.Route.Settle && lat != null && lng != null) {
             settle(first, Here(lat, lng), r.fix)
         } else {
-            placing = origin
+            placing = start.droppedAt ?: origin
             stage = Stage.Place
         }
     }

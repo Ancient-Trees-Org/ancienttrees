@@ -834,13 +834,15 @@ struct ContentView: View {
                                  addsPhoto: navigator.collectAddsPhoto,
                                  knownTree: navigator.collectTree,
                                  shotIn: navigator.collectShot,
-                                 pickedIn: navigator.collectPicked)
+                                 pickedIn: navigator.collectPicked,
+                                 droppedAt: navigator.collectAt.flatMap { $0.count == 2 ? (lat: $0[0], lng: $0[1]) : nil })
                         .onDisappear {
                             navigator.collectAbout = nil
                             navigator.collectAddsPhoto = false
                             navigator.collectTree = nil
                             navigator.collectShot = nil
                             navigator.collectPicked = nil
+                            navigator.collectAt = nil
                         }
                 }
             }

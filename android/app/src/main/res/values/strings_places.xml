@@ -52,4 +52,7 @@
     <string name="plus_opt_log">A richer log of every tree you\'ve collected</string>
     <string name="plus_opt_other">Something else</string>
     <string name="plus_other_hint">What would you want?</string>
+    <string name="dropped_pin">Dropped pin</string>
+    <string name="dropped_add">Add a tree here</string>
+    <string name="dropped_share">Share this spot</string>
 </resources>
