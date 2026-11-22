@@ -9298,6 +9298,42 @@
    "seen": "2026-11-21",
    "judged": "2026-11-21",
    "published_as": "oakville/okv_001"
+  },
+  {
+   "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+   "user_id": "p_c19d55d83dfa148535100e72",
+   "mine": false,
+   "name": "Ginkgo near Ueki",
+   "unsure_among": null,
+   "species": "Ginkgo",
+   "age": "Approx 400 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 32.806102,
+   "longitude": 130.70618,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_c19d55d83dfa148535100e72/9C8D024B-96BA-4A22-ABEA-504A5D5E4A34.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/9c8d024b-96ba-4a22-abea-504a5d5e4a34-extra-1.jpg",
+    "out/sightings/9c8d024b-96ba-4a22-abea-504a5d5e4a34-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-22: the whole ginkgo from the ramp below the castle walls, its crown turning from green to yellow against a blue sky, dark stone walls and a railing in front, daylight, colour; a second picture shows the double trunk inside a low black fence beside the stone marked 'keep entrance'; a third shows Kumamoto City's sign, 'The Great Gingko Tree'. Live as kumamoto/kmm_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "kumamoto/kmm_001"
   }
  ]
 }

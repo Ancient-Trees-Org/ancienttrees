@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge: Kumamoto Castle's Great Ginkgo
+
+- **New tree, new place: The Great Ginkgo of Kumamoto Castle (kumamoto/kmm_001).** A reader sent it as "Ginkgo near Ueki" with three photographs: the whole crown turning yellow above the castle walls, the double trunk inside its fence, and Kumamoto City's sign. The sign and the city's old-trees page (city.kumamoto.jp/kiji00353094) give the story: said to be planted by Kato Kiyomasa, the origin of the name Ginkgo Castle, burned in 1877 and regrown from the stump; a male tree that bears no nuts. The reader's "about 400 years" is on the page as theirs, belonging to the roots. Pin: the reader's own hand-moved spot by the keep (report 1000118, 148 m from their first pin), approximate; the report closed `holds`, no mail (a move on their own new tree). Paid entry. One tree, so no place page yet; congratulation mail waits for the deploy.
+- **Not judged: sighting 3c544597** (a tree near 52.397, 4.874, Amsterdam-Noord): its photograph is not on disk. Left for the next run.
+- No feedback rows open, no reader words to quote. preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-22 night run, second attempt: nothing shipped
 
 No product change. Shelf has 2 READY leads (York, Guimaraes), under the 6-candidate floor; the 386 "awaiting a writer" are stale files or duplicates of live trees. Verify pass on Birmingham found no new tree (14th dry pass; Moseley oak ATI 64085 alive but park-level pin only; the Botanical Gardens plant explorer is the one untried route to tree-level pins). Graz and Nuremberg claimed and released at once (under a quarter of leads carry a coordinate), both now 48h walls. Portland refused (full). Needs a coordinate source before more verify passes in these cities. Standing health reds (deploy and smoke failing on schedule, app catalogue 173 trees behind) not touched this attempt.

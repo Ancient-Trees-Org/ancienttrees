@@ -18,6 +18,18 @@
    "agreed": null
   },
   {
+   "id": "sight:9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Great Ginkgo of Kumamoto Castle",
+   "photo": "p_c19d55d83dfa148535100e72/9C8D024B-96BA-4A22-ABEA-504A5D5E4A34.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-22: the whole ginkgo turning yellow above the castle walls, its double trunk, and Kumamoto City's sign. Live as kumamoto/kmm_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:01c3e58d-dd58-4bee-8ebc-c45524f340cb",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -36,6 +48,34 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-22: the full height of the Gennett Poplar from the trail, a visitor and two dogs at its foot. Now the lead on chattahoochee-national-forest/gnp_001; the earlier reader photograph moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo near Ueki",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_c19d55d83dfa148535100e72/9C8D024B-96BA-4A22-ABEA-504A5D5E4A34.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "publish",
+   "reason": "Kumamoto Castle's Great Ginkgo in front of the keep, whole crown turning yellow, the double trunk and the city's own sign in the reader's three photographs; confirmed by Kumamoto City's old-trees page. Live as kumamoto/kmm_001 on the reader's moved pin (approximate, hand-placed).",
    "hidde": null,
    "agreed": null
   },

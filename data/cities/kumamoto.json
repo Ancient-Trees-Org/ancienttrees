@@ -1,0 +1,76 @@
+{
+  "city": "Kumamoto",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Kumamoto is the castle city of central Kyushu, built around the fortress Kato Kiyomasa raised around 1600. In front of the castle keep stands a great ginkgo that grew from the roots of his tree after fire burned the castle in 1877, and the city says it gave the castle its other name, Ginkgo Castle. A reader sent us its photograph in November, as the crown was turning yellow.",
+  "meta_description": "The Great Ginkgo of Kumamoto Castle: regrown from a stump burned in 1877, the tree behind the name Ginkgo Castle, and where to find it.",
+  "question_meta": "The tree to see in Kumamoto is the Great Ginkgo in front of Kumamoto Castle's keep, regrown from roots that burned in 1877.",
+  "question_answer": "The tree to see in Kumamoto is the Great Ginkgo in front of Kumamoto Castle's keep. Its roots are said to belong to a ginkgo planted by Kato Kiyomasa around 1600; the trunk regrew from the stump after fire in 1877.",
+  "question_context": "Kumamoto Castle was built by the warlord Kato Kiyomasa around 1600, and tradition says he planted a ginkgo in front of its keep. Kumamoto City names that tree as the origin of the castle's other name, Ginnan-jo, Ginkgo Castle. In 1877, during the Satsuma Rebellion, fire destroyed the keep, the Honmaru palace and the old ginkgo. New shoots grew from the burnt stump, and the city's sign beside the tree says they grew into the great ginkgo that stands there now, with what is left of the burnt trunk still beside it. The sign also answers an old story: the ginkgo is said to have been planted so its nuts could feed the castle in a siege, but it is a male tree and bears none. A reader who sent us its photograph puts it at about 400 years, the age of the roots rather than the trunk. It stands inside the castle grounds, where admission is charged, beside a stone pointing to the keep entrance. Late November, when the crown turns gold above the black stone walls, is the time to go.",
+  "faq": [
+    {
+      "q": "Where is the Great Ginkgo of Kumamoto Castle?",
+      "a": "In front of the keep of Kumamoto Castle, inside a low black fence beside the stone that points to the keep entrance."
+    },
+    {
+      "q": "How old is the Great Ginkgo of Kumamoto Castle?",
+      "a": "Its roots are said to come from a ginkgo Kato Kiyomasa planted around 1600. The trunk regrew from the stump after fire in 1877. A reader puts it at about 400 years."
+    },
+    {
+      "q": "When does the Kumamoto Castle ginkgo turn yellow?",
+      "a": "In November; the reader's photographs from mid-November show the crown turning from green to yellow, so the end of the month is the time to go."
+    }
+  ],
+  "hero_tree_id": "kmm_001",
+  "oldest_tree_id": "kmm_001",
+  "trees": [
+    {
+      "id": "kmm_001",
+      "name": "The Great Ginkgo of Kumamoto Castle",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "regrown from the roots of a tree said to be planted around 1600, after fire in 1877; about 400 years by a reader's estimate",
+      "age_basis": "source",
+      "location": {
+        "address": "Honmaru, in front of the keep, Kumamoto Castle, 1-1 Honmaru, Chuo Ward, Kumamoto",
+        "latitude": 32.806102,
+        "longitude": 130.70618,
+        "neighbourhood": "Kumamoto Castle"
+      },
+      "story": "The ginkgo in front of Kumamoto Castle's keep is said to have been planted by Kato Kiyomasa, the warlord who built the castle around 1600, and Kumamoto City says it is the tree behind the castle's other name, Ginnan-jo, Ginkgo Castle.\n\nThe tree a reader photographed is not quite that tree. In 1877, in the Satsuma Rebellion, fire swept the castle and the keep, the palace and the old ginkgo burned. The city's sign beside it tells what happened next: new shoots grew from the burnt stump and became the great tree visitors see today, and what is left of the burnt trunk still stands beside it as a reminder of the fire. The same sign adds a small surprise. People say the ginkgo was planted so its nuts could feed a besieged castle, but it is a male tree and has never borne any.\n\nThe reader puts it at about 400 years, which is the age of the roots; the trunk itself has grown since 1877. In their photographs, taken in November, the crown is a tall green dome going yellow, with the old dark trunk split in two at the foot inside a low black fence, beside the stone that points the way to the keep entrance.\n\nCome in late November, when the whole crown turns gold above the black walls.",
+      "how_to_recognise": "In front of the keep: a tall ginkgo whose dark trunk splits in two at the foot inside a low black fence, beside a stone carved with the way to the keep entrance and a sign headed 'The Great Gingko Tree'.",
+      "verified_sources": [
+        "Kumamoto City's sign beside the tree, photographed by the reader: 'The Great Gingko Tree', said to have been planted by Kato Kiyomasa, burned with the keep and the Honmaru palace in 1877 in the Satsuma Rebellion, regrown from the burnt stump, the remains of the old tree beside it; a male tree that bears no nuts",
+        "https://www.city.kumamoto.jp/kiji00353094/index.html (Kumamoto City, old trees: the ginkgo in front of the keep, said to have been planted by Kato Kiyomasa and the origin of the name Ginnan-jo; burned in the Satsuma war fire and regrown from its shoots, part of the burnt trunk remaining)"
+      ],
+      "access": "Inside Kumamoto Castle, in front of the keep; the castle charges admission to this area. Check opening hours before you go.",
+      "paid_entry": true,
+      "found_by_reader": {
+        "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app and moved it 148 m to the keep (report 1000118); not a GPS fix."
+      },
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app (9c8d024b-96ba-4a22-abea-504a5d5e4a34), name 'Ginkgo near Ueki', species 'Ginkgo', age 'Approx 400 years', no note, pin placed by hand and then moved 148 m nearer the keep by the same reader (report 1000118). Photographs viewed: the whole ginkgo from the ramp below the castle walls, its crown turning from green to yellow against a blue sky, dark stone walls and a railing in front, daylight, colour; a second picture shows the double trunk inside a low black fence beside the stone marked 'keep entrance'; a third shows Kumamoto City's sign, 'The Great Gingko Tree'. Identified as Kumamoto Castle's Great Ginkgo (大イチョウ, 天守前のイチョウ) from the city's sign and the 天守閣入口 stone. The 'about 400 years' is the reader's and belongs to the roots; the trunk regrew after 1877. Published under the closed list (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kmm_001-great-ginkgo-of-kumamoto-castle.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c19d55d83dfa148535100e72",
+        "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved on 2026-11-22: the whole ginkgo from the ramp below the castle walls, its crown turning from green to yellow against a blue sky, dark stone walls and a railing in front, daylight, colour; a second picture shows the double trunk inside a low black fence beside the stone marked 'keep entrance'; a third shows Kumamoto City's sign, 'The Great Gingko Tree'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}
