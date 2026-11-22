@@ -1621,7 +1621,17 @@
   },
   "p_3c788cea8bd6bb5caafb5b4d": {
    "last": "2026-11-17",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "7d61fd79-4873-4949-a216-1ddb64960ae6",
+     "tree_id": "vie_023",
+     "tree_name": "The Plane of Dr. Karl Lueger-Platz",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "57a1afed-1a15-4782-b4a1-4aeaf08a9f04",

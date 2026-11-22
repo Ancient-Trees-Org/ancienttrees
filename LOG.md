@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge, a second run beside the first: the Vienna plane
+
+- **Vienna, vie_023** (The Plane of Dr. Karl Lueger-Platz): a reader's photograph of the buttressed trunk and low limbs in autumn leaf, benches round it on the square. It now leads, and the old photograph moves to the strip. Filed under November. The reader's mail is queued in the weekly bundle.
+- This run judged the same Antwerp, Munich and Amsterdam photographs as the earlier "Antwerp copper beech" run. It agreed on everything except Munich's wider shot (3210008a), which this run would have added. I kept the first run's verdicts, and that file stays off the site. No reader was mailed twice: the mails were only queued, never sent.
+- Nothing else waited: no reports, no tips, no feedback. The waiting leads still have no file on this runner.
+
 ## 2026-11-22 reader judge: two off-list holds reversed on Hidde's ask (Malmö weeping beech live, Witch Tree photo in the strip)
 
 - **New tree, malmo/mlm_001, The Weeping Beech of Magistratsparken** (tip-763, sent 2026-11-15 through the website): the whole tree fills the frame, a three-peaked dome of hanging branches, summer daylight. Held on 11-15 for "no GPS and no written source", neither on the closed list. Reader's words quoted unnamed ("Majestic Hängbok"), story 217 words, nothing about age or girth invented. Pin **approximate** at the park's centre (OpenStreetMap way 28482241): no source places the tree inside the park (Overpass timed out, Commons geosearch and a web search found nothing). Malmö is a one-tree place, so no place page; the tree page is live as a reader-found tree. The congratulation mail waits for the deploy (tree_approved.py: "not in the live feed yet"); the knock sends it.

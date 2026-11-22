@@ -1011,15 +1011,30 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329230142/medium.jpeg",
-        "license": "CC BY",
-        "attribution": "Flora_DUMO, via iNaturalist",
+        "url": "https://ancienttrees.app/photos/vie_023-the-plane-of-dr-karl-lueger-platz-7d61fd79.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 500,
-        "height": 375
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3c788cea8bd6bb5caafb5b4d",
+        "sighting_id": "7d61fd79-4873-4949-a216-1ddb64960ae6",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The plane's thick, buttressed trunk and wide low limbs in autumn leaf, benches round it on the square, Ring buildings behind. Daylight and colour, the trunk is the subject. Species seen: plane: patchy flaking bark, broad palmate leaves turning, seed balls hanging. Fits the description: a single broad trunk over four metres round with limbs spreading low over benches on a small city square.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the trunk, 434 centimetres round on a tree planted in 1928. It stands on Dr. Karl Lueger-Platz, the only protected tree on the stretch of Ring between Stubentor and the Stadtpark.",
-      "girth_cm": 434
+      "girth_cm": 434,
+      "photos": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329230142/medium.jpeg",
+          "license": "CC BY",
+          "attribution": "Flora_DUMO, via iNaturalist",
+          "status": "approved",
+          "width": 500,
+          "height": 375
+        }
+      ]
     },
     {
       "id": "vie_025",
