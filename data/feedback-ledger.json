@@ -301,6 +301,16 @@
    "status": "handled",
    "what": "The reader's chestnut went live as tree twc_001 in its own place, Tortworth, not under Westonbirt."
   },
+  "1491": {
+   "date": "2026-11-22",
+   "status": "needs_hidde",
+   "what": "App country still does not stay after a restart, in reply to our mail of 13:35, after today's server fix; the open BUG row ESC-2026-11-22 (country never saved) covers it. Needs a session to check this account's profile row and their phone and build"
+  },
+  "1492": {
+   "date": "2026-11-22",
+   "status": "handled",
+   "what": "Wish to be ambassador of their part of Bremen: badge granted for Horn-Lehe (horn-bremen); the welcome mail could not go from this run (no mail credentials)"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

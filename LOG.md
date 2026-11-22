@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (eighteenth run): a cedar in Piazza Indipendenza, Verona, live; a Tennessee oak held; a Bremen ambassador
+
+- **New tree, verona/ver_010, "The Cedar of Piazza Indipendenza"** (tip-1490, through the app, "Old, very very beautiful"). The tip had two images. The first is a Google Street View capture, used only to place the tree: it is captioned Piazza Indipendenza, with parking and a hedge at the tree's foot, so it is not the Bra cedar (ver_001). The second is the reader's own November photo of the whole tiered cedar, and it is the lead photo, filed in November. The species is left as the genus, Cedrus sp.; the reader calls it a Himalayan cedar, and the story says so and asks. The pin is approximate, on the square's garden. Verona now counts nine trees in the city, plus San Bonifacio. I updated the intro, the question meta and the FAQ in English and in the kept Italian overlay, and added the Italian story.
+- **Held `not_public`: d440dd95**, an app sighting from the countryside north-east of Clarksville, Tennessee. All three photographs were viewed. They show a massive old oak in copper and gold leaf, clearly special, standing in a mown yard beside a barn, a coop and a house. Every photo was taken from inside the yard. If the reader says it can be seen from a road, it goes live with the pin on the viewing spot. hold_reply.py only takes website submissions, so no mail went out.
+- **Mail replies from the Horn-Lehe reader.** In 1492 she asks to be ambassador of "this part of Bremen": badge granted for horn-bremen (`ambassador.py --grant ... --send`). This machine had no mail credentials, so the "Looking after Horn-Lehe" welcome did **not** go out; a session or knock with credentials needs to send it. In 1491 she says the country she picks in the app still does not stay, even after a restart and after today's flag-upsert fix. Closed as `needs_hidde`; it is the open BUG row ESC-2026-11-22, and a session should check her profile row and her phone and build. Both rows are closed in reader_words as not about the tree.
+- Left: lead 3c544597 (Amsterdam, `mine`) still has no photo on disk. There were no open reports.
+
 ## 2026-11-22 reader judge (seventeenth run): a Patagonia mesquite held for its location; the Tortworth reader's feedback closed
 
 This run judged the same trees as the parallel run (770f4f383), which had already published the Tortworth Chestnut, the Paris bur oak and the Spirit Tree lead. I dropped my duplicate and added only what it had not covered:

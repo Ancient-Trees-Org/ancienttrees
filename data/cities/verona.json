@@ -3,10 +3,10 @@
   "country": "Italy",
   "face_tree_id": "ver_005",
   "status": "needs_curation",
-  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, eight in the city itself, plus a ninth a short train ride east, the holm oak in front of San Bonifacio station.",
+  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, nine in the city itself, plus a tenth a short train ride east, the holm oak in front of San Bonifacio station.",
   "meta_description": "Verona's most remarkable trees, from the century-old cedar just saved beside the Arena to the cypress avenue that captivated Goethe in 1786.",
   "question_answer": "Verona's oldest precisely documented tree is the Cedar of Lebanon in Piazza Bra, planted in 1873 as part of the square's original garden design and still standing beside the Roman Arena today, roughly 153 years old. It stands free to visit in the city's largest and most central square.",
-  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and seven more remarkable trees.",
+  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and nine more remarkable trees.",
   "question_context": "Verona's tree heritage is thinner in the official record than some Italian cities: only three specimens within the city itself appear on the national Alberi Monumentali d'Italia register, all added in recent years. Among those, and among the wider set of well-documented specimens across the city's parks and gardens, the Cedar of Lebanon in Piazza Bra has the most precisely traceable planting date, tied to the square's 1870s garden redesign rather than a rounder estimate. It made local headlines in 2025 when arborists raced to stabilise it after its roots showed signs of failure, a rescue completed and re-verified stable by October of that year. Giardino Giusti's cypress avenue, older in reputation and once admired by Goethe on his 1786 visit, cannot match that precision: its most famous original tree came down in a 2020 storm and was replanted, so the avenue's age today is a mix of survivors and regrowth rather than one dated planting. The square itself is free and always open.",
   "faq": [
     {
@@ -22,8 +22,8 @@
       "a": "Most standing in public squares and parks are free. The Giardino Giusti charges an entry fee, and the Himalayan cedar of Villa Bersani grows on private property, visible from the street corner it overlooks rather than from inside the grounds."
     },
     {
-      "q": "Why does this list have only eight trees in the city?",
-      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to eight well-researched trees in the city, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
+      "q": "Why does this list have only nine trees in the city?",
+      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to nine well-researched trees in the city, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
     }
   ],
   "trees": [
@@ -385,6 +385,50 @@
         "source": "Elenco degli alberi monumentali d'Italia (MASAF), 01/H783/VR/05",
         "date": "2026-11-16",
         "note": "The national register's coordinate for this tree."
+      }
+    },
+    {
+      "id": "ver_010",
+      "name": "The Cedar of Piazza Indipendenza",
+      "species": "Cedar (Cedrus sp.)",
+      "location": {
+        "address": "Piazza Indipendenza, 37121 Verona",
+        "latitude": 45.4429,
+        "longitude": 10.9998,
+        "neighbourhood": "Centro Storico"
+      },
+      "story": "\"Old, very very beautiful,\" wrote the reader who sent us this cedar from Piazza Indipendenza, the garden square in the middle of old Verona, a short walk from Piazza delle Erbe.\n\nVerona already knows this square for its trees, since a giant plane and a group of ginkgos on Italy's national register share the same small garden. The cedar stands at the garden's edge, by the hedges and the parking bays, and once you look up it is hard to miss. Its trunk climbs straight and dark through a dense lower skirt of branches, then the crown opens into broad flat layers, one above the other, standing well clear of the roofs around it. Halfway up, one long limb juts out sideways, bare and crooked, before the green begins again.\n\nThe reader knows it as a Himalayan cedar. Which cedar it is, how tall and how old, we do not yet know; if you can tell, send us a word or a closer photograph of its needles and cones.\n\nLook at it from the pavement across the road, where the whole tiered crown fits in view.",
+      "verified_sources": [
+        "Reader's tip 1490 (2026-11-22, through the app): the cedar named, with the reader's own photograph and a street-level view captioned Piazza Indipendenza, Verona, showing the tree at the edge of the square's garden"
+      ],
+      "access": "Free, at the edge of a public square, open at all hours.",
+      "how_to_recognise": "A tall cedar at the edge of the Piazza Indipendenza garden, by the hedges and parking bays: a dense lower skirt of branches, a crown in broad flat layers, and one bare crooked limb jutting sideways halfway up.",
+      "location_precision": "approximate",
+      "found_by_reader": {
+        "sighting_id": "tip-1490",
+        "date": "2026-11-22"
+      },
+      "pin_source": {
+        "kind": "reader's named site",
+        "sighting_id": "tip-1490",
+        "date": "2026-11-22",
+        "note": "No coordinate came with the tip; pinned on Piazza Indipendenza's garden from the place the tip's street-level view names. Approximate."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (tip-1490, through the app, place given as Verona). Photographs viewed: their own photograph from the pavement across the road: the whole cedar, a dense lower skirt, a straight dark trunk and a crown in broad flat layers, one bare crooked limb jutting sideways, a yellow palazzo on the right, parked cars in front, blue sky, daylight, colour. The tip's first image is a Google Street View screenshot (captioned Piazza Indipendenza, a monument base beside the tree); it locates the tree and is not used as a photograph. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Not the Cedar of Piazza Bra (ver_001): the street-level view names Piazza Indipendenza and shows parking and a hedge at the tree's foot, which the Bra garden does not have. Species left as the genus; the reader's own name for it is Himalayan cedar.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ver_010-cedar-of-piazza-indipendenza.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 778,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_bf43ebca22541711ebb200c2",
+        "sighting_id": "tip-1490",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: their own photograph from the pavement across the road: the whole cedar, a dense lower skirt, a straight dark trunk and a crown in broad flat layers, one bare crooked limb jutting sideways, a yellow palazzo on the right, parked cars in front, blue sky, daylight, colour. The tip's first image is a Google Street View screenshot (captioned Piazza Indipendenza, a monument base beside the tree); it locates the tree and is not used as a photograph. Not an open licence: ask before reuse elsewhere."
       }
     }
   ],

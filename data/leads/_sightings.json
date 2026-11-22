@@ -10223,6 +10223,75 @@
    "seen": "2026-11-22",
    "hold": "no_location",
    "judged": "2026-11-22"
+  },
+  {
+   "sighting_id": "d440dd95-0e37-4a40-9200-2795b7ff549a",
+   "user_id": "p_2005f7210aced291684bdf26",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 36.5912333333333,
+   "longitude": -87.23033,
+   "location_kind": null,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_2005f7210aced291684bdf26/D440DD95-0E37-4A40-9200-2795B7FF549A.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/d440dd95-0e37-4a40-9200-2795b7ff549a-extra-1.jpg",
+    "out/sightings/d440dd95-0e37-4a40-9200-2795b7ff549a-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Three photographs viewed 2026-11-22: a massive old oak (lobed leaves turning copper and gold), short thick furrowed trunk, wide crown, standing in a mown yard beside a weathered barn, a hoop coop and a white house with a fence, pickups parked under a row of big trees behind; daylight, colour. Clearly special. The pin (no location kind, so treated as hand-placed) is in the countryside NE of Clarksville, Tennessee, no register or park within reach, and every photograph is taken from inside the yard, so we cannot tell whether it can be seen from a road. If the reader says it can, it goes live with the pin on the viewing spot.",
+   "seen": "2026-11-22",
+   "hold": "not_public",
+   "judged": "2026-11-22"
+  },
+  {
+   "sighting_id": "tip-1490",
+   "user_id": "p_bf43ebca22541711ebb200c2",
+   "mine": false,
+   "name": "The cedar of Himalaya",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Old, very very beautiful",
+   "latitude": null,
+   "longitude": null,
+   "location_kind": null,
+   "near": "Verona",
+   "taken_month": 11,
+   "photo": "p_bf43ebca22541711ebb200c2/9e7ba2a4-6a65-4db2-99f8-4b1181154a47.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/tip-1490-extra-1.jpg"
+   ],
+   "extra_months": [
+    11
+   ],
+   "nearest_published_m": null,
+   "register": null,
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: their own photograph from the pavement across the road: the whole cedar, a dense lower skirt, a straight dark trunk and a crown in broad flat layers, one bare crooked limb jutting sideways, a yellow palazzo on the right, parked cars in front, blue sky, daylight, colour. The tip's first image is a Google Street View screenshot (captioned Piazza Indipendenza, a monument base beside the tree); it locates the tree and is not used as a photograph. Live as verona/ver_010 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "verona/ver_010"
   }
  ]
 }

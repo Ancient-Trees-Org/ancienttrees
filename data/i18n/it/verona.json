@@ -1,11 +1,11 @@
 {
  "_note": "it overlay for verona, written 2026-10-06 from data/cities/verona.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Verona",
- "title": "Alberi monumentali di Verona: i 9 più notevoli",
+ "title": "Alberi monumentali di Verona: i 10 più notevoli",
  "meta_description": "Gli alberi più notevoli di Verona, dal cedro secolare appena salvato accanto all'Arena al viale di cipressi che conquistò Goethe nel 1786.",
- "intro": "Verona conta meno alberi monumentali censiti della vicina Bologna o di Napoli, appena tre nell'elenco nazionale entro i confini comunali, ma quelli che ha si raccolgono attorno a luoghi che tutti visitano già: il cedro che fa ombra alla piazza davanti all'Arena, il viale di cipressi di cui Goethe scrisse a casa, un platano che riempie da solo un intero giardino pubblico. La lista aggiunge il giardino rinascimentale sopravvissuto al suo albero più famoso e alcuni esemplari che la città ha difeso: otto in città, più il leccio davanti alla stazione di San Bonifacio.",
+ "intro": "Verona conta meno alberi monumentali censiti della vicina Bologna o di Napoli, appena tre nell'elenco nazionale entro i confini comunali, ma quelli che ha si raccolgono attorno a luoghi che tutti visitano già: il cedro che fa ombra alla piazza davanti all'Arena, il viale di cipressi di cui Goethe scrisse a casa, un platano che riempie da solo un intero giardino pubblico. La lista aggiunge il giardino rinascimentale sopravvissuto al suo albero più famoso e alcuni esemplari che la città ha difeso: nove in città, più il leccio davanti alla stazione di San Bonifacio.",
  "question_title": "Qual è l'albero più antico di Verona? (piantato nel 1873)",
- "question_meta": "L'albero più antico documentato di Verona è un cedro piantato nel 1873 in Piazza Bra, accanto all'Arena. La sua storia e altri sette alberi.",
+ "question_meta": "L'albero più antico documentato di Verona è un cedro piantato nel 1873 in Piazza Bra, accanto all'Arena. La sua storia e altri nove alberi.",
  "question_answer": "L'albero di Verona con la data più precisamente documentata è il cedro del Libano di Piazza Bra, piantato nel 1873 nell'ambito del primo progetto di giardino della piazza e ancora in piedi accanto all'Arena romana, a circa 153 anni di età. Si visita gratuitamente nella piazza più grande e centrale della città.",
  "question_context": "Il patrimonio arboreo di Verona è più esile, nei registri ufficiali, di quello di altre città italiane: solo tre esemplari entro i confini comunali compaiono nell'elenco nazionale degli Alberi Monumentali d'Italia, tutti aggiunti negli ultimi anni. Fra questi, e fra gli esemplari ben documentati nei parchi e nei giardini della città, il cedro del Libano di Piazza Bra ha la data di impianto più precisamente ricostruibile, legata al riallestimento del giardino della piazza negli anni Settanta dell'Ottocento più che a una stima arrotondata. Nel 2025 è finito sui giornali locali quando gli arboricoltori si sono affrettati a stabilizzarlo dopo che le radici avevano mostrato segni di cedimento, un salvataggio concluso e verificato stabile entro ottobre di quell'anno. Il viale dei cipressi del Giardino Giusti, più antico per fama e ammirato da Goethe nella sua visita del 1786, non può vantare la stessa precisione: il suo albero originale più famoso è caduto in una tempesta nel 2020 ed è stato ripiantato, quindi l'età del viale oggi è un insieme di superstiti e ricrescita più che un impianto datato. La piazza è gratuita e sempre aperta.",
  "faq": [
@@ -22,8 +22,8 @@
    "a": "Quasi tutti quelli in piazze e parchi pubblici sono gratuiti. Il Giardino Giusti chiede un biglietto d'ingresso, e il cedro dell'Himalaya di Villa Bersani cresce su una proprietà privata e si vede dall'angolo di strada su cui si affaccia, non dall'interno del giardino."
   },
   {
-   "q": "Perché in questa lista ci sono solo otto alberi in città?",
-   "a": "Il patrimonio arboreo documentato ufficialmente a Verona è più piccolo di quello di diverse altre città italiane. Questa lista si ferma a otto alberi ben documentati in città, più il leccio monumentale davanti alla stazione di San Bonifacio, a un breve tragitto in treno verso est; altri potranno aggiungersi quando emergeranno fonti migliori."
+   "q": "Perché in questa lista ci sono solo nove alberi in città?",
+   "a": "Il patrimonio arboreo documentato ufficialmente a Verona è più piccolo di quello di diverse altre città italiane. Questa lista si ferma a nove alberi ben documentati in città, più il leccio monumentale davanti alla stazione di San Bonifacio, a un breve tragitto in treno verso est; altri potranno aggiungersi quando emergeranno fonti migliori."
   }
  ],
  "trees": {
@@ -98,6 +98,13 @@
    "access": "Gratuito, sul prato pubblico del piazzale della stazione.",
    "how_to_recognise": "L'unica quercia sempreverde, bassa e larga, sul prato del piazzale davanti alla stazione di San Bonifacio, con una chioma di circa 20 metri, molto più larga che alta.",
    "story": "Scendete dal treno regionale a San Bonifacio, circa un quarto d'ora a est di Verona, e la prima cosa che vi trovate davanti è questo leccio, da solo sul prato del piazzale della stazione. È nell'Elenco degli alberi monumentali d'Italia, scheda 01/H783/VR/05.\n\nIl registro gli assegna una circonferenza di 263 centimetri e un'altezza di nove metri, che non è molto. Ciò che merita la sosta è la larghezza. Un lettore che ce lo ha segnalato dà alla chioma 20 metri di ampiezza, più del doppio dell'altezza dell'albero, e si allarga bassa, fitta e scura sull'erba del piazzale.\n\nIl leccio tiene le sue piccole foglie coriacee per tutto l'inverno, così a gennaio appare quasi come a luglio. Il registro non indica un'età e nessuna fonte in nostro possesso lo data, quindi questa pagina non ne inventa una. Se sapete quando fu piantato, scriveteci qui.\n\nPensatelo come una breve gita in treno da Verona, o una sosta sulla strada per Vicenza."
+  },
+  "ver_010": {
+   "name": "Il Cedro di Piazza Indipendenza",
+   "species": "Cedro (Cedrus sp.)",
+   "access": "Gratuito, sul bordo di una piazza pubblica, sempre aperto.",
+   "how_to_recognise": "Un cedro alto sul bordo del giardino di Piazza Indipendenza, accanto alle siepi e ai parcheggi: una fitta gonna di rami bassi, una chioma ad ampi strati piatti e un ramo spoglio e storto che sporge di lato a metà altezza.",
+   "story": "\"Vecchio, molto molto bello,\" ha scritto chi ci ha mandato questo cedro da Piazza Indipendenza, la piazza giardino nel cuore della Verona antica, a pochi passi da Piazza delle Erbe.\n\nVerona conosce già questa piazza per i suoi alberi, perché un platano gigante e un gruppo di ginkgo iscritti nell'elenco nazionale dividono lo stesso piccolo giardino. Il cedro sta sul bordo del giardino, accanto alle siepi e ai parcheggi, e una volta alzato lo sguardo è difficile non notarlo. Il tronco sale dritto e scuro attraverso una fitta gonna di rami bassi, poi la chioma si apre in ampi strati piatti, uno sopra l'altro, ben più alta dei tetti intorno. A metà altezza un lungo ramo sporge di lato, spoglio e storto, prima che il verde ricominci.\n\nChi ce l'ha mandato lo conosce come cedro dell'Himalaya. Quale cedro sia, quanto sia alto e quanti anni abbia non lo sappiamo ancora; se sai dirlo, scrivici o mandaci una foto ravvicinata degli aghi e delle pigne.\n\nGuardalo dal marciapiede dall'altra parte della strada, da dove tutta la chioma a strati entra nella vista."
   }
  }
 }

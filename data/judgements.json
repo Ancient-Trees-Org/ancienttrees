@@ -2021,6 +2021,198 @@
    "agreed": null
   },
   {
+   "id": "sight:a56bc4d5-e195-4279-8549-d512ec7db388",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Jussieu",
+   "city": "Paris",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/a56bc4d5-e195-4279-8549-d512ec7db388.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "The Jussieu cedar on the labyrinth slope, the ginkgo lawn gold below; in the par_002 gallery behind the reader's lead (overcast, partly screened).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Tortworth Chestnut",
+   "city": null,
+   "species": "Sweet Chestnut",
+   "photo": "p_7c68929b744714f2d4168a9b/4504258B-6E45-4EAC-8A8F-F4D3FDFC951A.jpg",
+   "reader_note": "It is one if the oldest sweet chestnuts in the UK and lies next to the Parish Church of Tortworth. \nJust close to Junction 14 on the M5 so would make a nice picnic stop as farm shop nearby too.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "The Tortworth Chestnut, viewed: a vast hollow fluted sweet chestnut in May leaf beside Tortworth church, plus the reader's photograph of its 1800 plaque ('six hundred years old'); Wikipedia confirms the tree and the 1664/1712 accounts. Live as tortworth/ttw_001, a new one-tree place, pin the reader's hand-placed spot (moved 70 m by them while adding), approximate. 900 years stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Bur Oak in Paris",
+   "city": null,
+   "species": "Bur Oak",
+   "photo": "p_81c58c51dd7f98c91361dc6c/1DA9FE2D-D3B4-4EE8-9E85-287491EFB629.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bur Oak"
+   },
+   "verdict": "publish",
+   "reason": "A tall bare bur oak inside the Jardin des Plantes railings by the gate opposite the Pharmacie Cuvier, label at its foot, photograph's own GPS. Somewhat special: a big 215-year-old (reader's estimate) prairie oak in Paris. Live as paris/par_076 with its French overlay; age stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1486",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "Spirit Tree ancient cottonwood tree",
+   "city": "Patagonia",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 600,
+   "verdict": "lead",
+   "reason": "Spirit Tree, a ~200-year-old Fremont cottonwood (reader's estimate) at the Spirit Tree Inn on Harshaw Creek Road near Patagonia, Arizona. No photograph and no written source; on an inn's grounds, view from the road unconfirmed. Recorded in data/leads/patagonia-arizona.json with the reader's map-link coordinate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Tortworth Chestnut",
+   "city": "Tortworth",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "https://ancienttrees.app/photos/ttw_001-tortworth-chestnut.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Reader's photograph is the lead of the new tree ttw_001: the whole ancient chestnut in May leaf, daylight, colour; their plaque frame confirms which tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Bur Oak by the Cuvier Gate",
+   "city": "Paris",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "photo": "https://ancienttrees.app/photos/par_076-bur-oak-by-the-cuvier-gate.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Reader's photograph is the lead of the new tree par_076: the whole bare oak by the garden gate, daylight, colour, the photograph's own GPS.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1487",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Ancient mesquite",
+   "city": "Patagonia",
+   "species": null,
+   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
+   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "no_location: a big many-limbed mesquite, worth the walk by the reader's figures (14 m tall, 18 m wide), but only 'Patagonia' and 'town lot' to place it. Standard no_location reply asks where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d440dd95-0e37-4a40-9200-2795b7ff549a",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_2005f7210aced291684bdf26/D440DD95-0E37-4A40-9200-2795B7FF549A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_public: three photographs viewed, a massive old oak in autumn colour, clearly special, but it stands in a yard beside a barn and a house in the countryside NE of Clarksville, Tennessee, every photo taken from inside the yard; goes live with the pin on the viewing spot if the reader says it can be seen from a road. App sighting, so hold_reply.py cannot mail them.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1490",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The cedar of Himalaya",
+   "city": "Verona",
+   "species": null,
+   "photo": "p_bf43ebca22541711ebb200c2/9e7ba2a4-6a65-4db2-99f8-4b1181154a47.jpg",
+   "reader_note": "Old, very very beautiful",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Own photograph viewed: a tall tiered cedar at the edge of the Piazza Indipendenza garden, daylight, colour; the tip's other image is a Street View capture, used only to place it. Live as verona/ver_010, species as the genus (reader calls it Himalayan cedar), approximate pin on the square.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -24521,148 +24713,15 @@
    "agreed": null
   },
   {
-   "id": "sight:a56bc4d5-e195-4279-8549-d512ec7db388",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Cedar of Jussieu",
-   "city": "Paris",
-   "species": "Cedar of Lebanon (Cedrus libani)",
-   "photo": "out/sightings/a56bc4d5-e195-4279-8549-d512ec7db388.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 30,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
-   },
-   "verdict": "publish",
-   "reason": "The Jussieu cedar on the labyrinth slope, the ginkgo lawn gold below; in the par_002 gallery behind the reader's lead (overcast, partly screened).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "id": "sight:tip-1490",
    "seen": "2026-11-22",
    "kind": "a tree we do not map",
-   "tree": "The Tortworth Chestnut",
-   "city": null,
-   "species": "Sweet Chestnut",
-   "photo": "p_7c68929b744714f2d4168a9b/4504258B-6E45-4EAC-8A8F-F4D3FDFC951A.jpg",
-   "reader_note": "It is one if the oldest sweet chestnuts in the UK and lies next to the Parish Church of Tortworth. \nJust close to Junction 14 on the M5 so would make a nice picnic stop as farm shop nearby too.",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Sweet Chestnut"
-   },
+   "tree": "The cedar of Himalaya",
+   "city": "Verona",
+   "photo": "p_bf43ebca22541711ebb200c2/9e7ba2a4-6a65-4db2-99f8-4b1181154a47.jpg",
+   "reader_note": "Old, very very beautiful",
    "verdict": "publish",
-   "reason": "The Tortworth Chestnut, viewed: a vast hollow fluted sweet chestnut in May leaf beside Tortworth church, plus the reader's photograph of its 1800 plaque ('six hundred years old'); Wikipedia confirms the tree and the 1664/1712 accounts. Live as tortworth/ttw_001, a new one-tree place, pin the reader's hand-placed spot (moved 70 m by them while adding), approximate. 900 years stated as theirs.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Bur Oak in Paris",
-   "city": null,
-   "species": "Bur Oak",
-   "photo": "p_81c58c51dd7f98c91361dc6c/1DA9FE2D-D3B4-4EE8-9E85-287491EFB629.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Bur Oak"
-   },
-   "verdict": "publish",
-   "reason": "A tall bare bur oak inside the Jardin des Plantes railings by the gate opposite the Pharmacie Cuvier, label at its foot, photograph's own GPS. Somewhat special: a big 215-year-old (reader's estimate) prairie oak in Paris. Live as paris/par_076 with its French overlay; age stated as theirs.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "tip:1486",
-   "seen": "2026-11-22",
-   "kind": "a tip without a photograph",
-   "tree": "Spirit Tree ancient cottonwood tree",
-   "city": "Patagonia",
-   "species": null,
-   "photo": null,
-   "reader_note": "",
-   "reader_girth_cm": 600,
-   "verdict": "lead",
-   "reason": "Spirit Tree, a ~200-year-old Fremont cottonwood (reader's estimate) at the Spirit Tree Inn on Harshaw Creek Road near Patagonia, Arizona. No photograph and no written source; on an inn's grounds, view from the road unconfirmed. Recorded in data/leads/patagonia-arizona.json with the reader's map-link coordinate.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Tortworth Chestnut",
-   "city": "Tortworth",
-   "species": "Sweet Chestnut (Castanea sativa)",
-   "photo": "https://ancienttrees.app/photos/ttw_001-tortworth-chestnut.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Reader's photograph is the lead of the new tree ttw_001: the whole ancient chestnut in May leaf, daylight, colour; their plaque frame confirms which tree.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Bur Oak by the Cuvier Gate",
-   "city": "Paris",
-   "species": "Bur Oak (Quercus macrocarpa)",
-   "photo": "https://ancienttrees.app/photos/par_076-bur-oak-by-the-cuvier-gate.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Reader's photograph is the lead of the new tree par_076: the whole bare oak by the garden gate, daylight, colour, the photograph's own GPS.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:tip-1487",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Ancient mesquite",
-   "city": "Patagonia",
-   "species": null,
-   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
-   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
-   "reader_girth_cm": 300,
-   "coords": [
-    null,
-    null
-   ],
-   "register": null,
-   "measure": null,
-   "verdict": "hold",
-   "reason": "no_location: a big many-limbed mesquite, worth the walk by the reader's figures (14 m tall, 18 m wide), but only 'Patagonia' and 'town lot' to place it. Standard no_location reply asks where it stands.",
+   "reason": "Photographs viewed 2026-11-22: the reader's own photograph (the tip's second image) shows the whole tiered cedar from across the road, daylight, colour, and is the lead photo of verona/ver_010, filed in November. The first image is a Street View capture and is not used.",
    "hidde": null,
    "agreed": null
   }

@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-22T17:44Z",
+  "synced": "2026-11-22T18:13Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -131,12 +131,12 @@
       "profile_public": true
     },
     {
-      "user_id": "0a819e62-0180-45de-8658-cbc56ec1c35d",
-      "place_slug": "edinburgh",
-      "place_name": "Edinburgh",
+      "user_id": "9577aee4-d231-453d-9a5a-944451418721",
+      "place_slug": "adelaide",
+      "place_name": "Adelaide",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "Ross B.",
+      "display_name": "Damien C.",
       "profile_public": true
     },
     {
@@ -167,12 +167,12 @@
       "profile_public": true
     },
     {
-      "user_id": "9577aee4-d231-453d-9a5a-944451418721",
-      "place_slug": "adelaide",
-      "place_name": "Adelaide",
+      "user_id": "0a819e62-0180-45de-8658-cbc56ec1c35d",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "Damien C.",
+      "display_name": "Ross B.",
       "profile_public": true
     },
     {
@@ -317,6 +317,15 @@
       "public": true,
       "since": "2026-11-22",
       "display_name": "Jonardon G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "e9fbc8d1-1c6a-4d4f-8e5b-2b53d42a6d0b",
+      "place_slug": "horn-bremen",
+      "place_name": "Horn-Lehe",
+      "public": true,
+      "since": "2026-11-22",
+      "display_name": "ElleP",
       "profile_public": true
     },
     {
