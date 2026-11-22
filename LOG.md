@@ -497,7 +497,7 @@ Shipped no tree. Claims stood: none. READY leads: 2 (York) plus 2 unpublished ve
 ## 2026-11-21 session: the Rannoch Rowan, Kate's tip, is on the map
 
 - **Live with the next deploy: rannoch-moor/rnm_001, the Rannoch Rowan**, the lone rowan growing out of a boulder beside the A82 near Achallader ("the loneliest tree in Scotland" in Forestry and Land Scotland's words, as quoted on Geograph). A reader's mail tip (`found_by_reader.tip`), so it gets a page; one tree, so no place page. Sources: Geograph 7619434 and 6464305, two photographers naming it. Photo: Brian Deegan's Geograph 7619434 via Commons (CC BY-SA 2.0), looked at, photo_light OK. Pin approximate (photographer's grid reference). No age published, so none given; the page asks. Kate's own words not quoted (no yes asked).
-- **Owed**: tell Kate it is up, once the page is live. Not done in this session.
+- **Live since the 2026-11-21 deploy** at /rannoch-moor/rannoch-rowan, looked at on phone and desktop. **SENT 2026-11-22 on Hidde's "Send it"**: Kate told it is up (batch reply-kate-2026-11-22, in her thread).
 
 ## 2026-11-20 session: two Android "can't get it" mails answered
 
