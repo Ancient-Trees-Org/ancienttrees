@@ -589,8 +589,10 @@
    "file": "scripts/sightings_publish.py",
    "summary": "Photo-live bundle mail (sightings_publish.flush_mail) lists photographs that the judge later held, rejected or unstripped: a reader was told on 2026-11-22 that six photos were on the pages when they had been taken out on 2026-11-15. Pending items must be rechecked against data/cities before the mail goes.",
    "first_seen": "2026-11-22",
-   "status": "open",
-   "found_by": "reader"
+   "status": "fixed",
+   "found_by": "reader",
+   "test": "scripts/test_sightings.py TestBundleMailChecksThePage: flush_mail drops pending photographs no longer on their tree's page (still_on_the_page)",
+   "fixed_in": "this commit"
   },
   {
    "id": "ESC-2026-11-22-the-country-picked-in-the-app-was-never-",

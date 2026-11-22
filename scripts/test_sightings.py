@@ -264,5 +264,41 @@ class TestPhotoDate(unittest.TestCase):
         self.assertEqual(inbox.taken_month(row), 7)
 
 
+class TestBundleMailChecksThePage(unittest.TestCase):
+    """2026-11-22: the photo-live mail listed photographs the judge had taken
+    out of the pages a week earlier. A pending photo is mailed only while it is
+    still on its tree's page."""
+
+    def setUp(self):
+        import json
+        import tempfile
+        self.root = tempfile.mkdtemp()
+        os.makedirs(os.path.join(self.root, "data", "cities"))
+        city = {"trees": [{"id": "t_1", "photo": {"sighting_id": "aaaa1111-x", "url": "u/t_1.jpg"},
+                           "photos": [{"sighting_id": "bbbb2222-y", "url": "u/t_1-bbbb2222.jpg"}]},
+                          {"id": "t_2", "photo": {"sighting_id": "other", "url": "u/t_2.jpg"}}]}
+        with open(os.path.join(self.root, "data", "cities", "town.json"), "w") as f:
+            json.dump(city, f)
+        self.old = pub.ROOT
+        pub.ROOT = self.root
+
+    def tearDown(self):
+        pub.ROOT = self.old
+
+    def pending(self, tree_id, sid):
+        return {"sighting_id": sid, "tree_id": tree_id, "city_slug": "town"}
+
+    def test_the_lead_and_a_strip_photo_count(self):
+        self.assertTrue(pub.still_on_the_page(self.pending("t_1", "aaaa1111-x")))
+        self.assertTrue(pub.still_on_the_page(self.pending("t_1", "bbbb2222-y")))
+
+    def test_a_photo_taken_out_does_not(self):
+        self.assertFalse(pub.still_on_the_page(self.pending("t_1", "cccc3333-z")))
+        self.assertFalse(pub.still_on_the_page(self.pending("t_2", "aaaa1111-x")))
+
+    def test_a_missing_city_does_not(self):
+        self.assertFalse(pub.still_on_the_page({"sighting_id": "a", "tree_id": "t_1", "city_slug": "gone"}))
+
+
 if __name__ == "__main__":
     unittest.main()

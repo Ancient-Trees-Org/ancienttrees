@@ -679,9 +679,31 @@ def queue_mail(entry, today):
     save(MAILED, doc)
 
 
+def still_on_the_page(p):
+    """Is this queued photograph still on its tree's page? A photograph the
+    judge held, rejected or unstripped after it went live must not be listed in
+    the mail (2026-11-22, escaped bug: a reader was told six photos were on the
+    pages when they had been taken out a week earlier)."""
+    path = os.path.join(ROOT, "data", "cities", f"{p.get('city_slug')}.json")
+    try:
+        city = json.load(open(path, encoding="utf-8"))
+    except (OSError, ValueError):
+        return False
+    sid = str(p.get("sighting_id") or "")
+    for t in city.get("trees", []):
+        if t.get("id") != p.get("tree_id"):
+            continue
+        for x in [t.get("photo")] + list(t.get("photos") or []):
+            if x and (x.get("sighting_id") == sid or sid[:8] and sid[:8] in str(x.get("url") or "")):
+                return True
+    return False
+
+
 def flush_mail(really, today):
     """Send what is due: a first mail at once, a bundle once the gap has passed."""
     doc = load(MAILED, {"readers": {}})
+    for r in doc["readers"].values():
+        r["pending"] = [p for p in r["pending"] if still_on_the_page(p)]
     # ONE MAIL A DAY FROM US, WHATEVER THE ROUTE (2026-11-15, the Guardian
     # day: readers who had a congratulation, a reply or an ambassador answer
     # that afternoon were about to get this one as well). Somebody in the send

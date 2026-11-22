@@ -21,6 +21,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 night run: photo-live bundle mail no longer lists photographs taken out of the pages
+
+Rung 1 had already been handled by the seventh reader-judge run (it put Florianópolis live while this run judged the same two photographs, so this run's duplicate commit was dropped). The run took the open web BUG row instead: `flush_mail` in scripts/sightings_publish.py now rechecks every pending photograph against data/cities and drops one the judge later held, rejected or unstripped (`still_on_the_page`, three new tests in scripts/test_sightings.py, row set fixed). Not touched: the iOS app red (that run's failing assertions need reading in its log), the open APP BUG row on the country pick (Swift and Android, needs the app worktree), and sighting 3c544597 (ours, photo not on disk).
+
 ## 2026-11-22 reader judge (seventh run): two trees in Florianópolis live, a Brussels photo held
 
 - **New place, Florianópolis (Brazil), two trees from one reader.** fln_001 is a massive twisted tree on a paved waterfront point at Ribeirão da Ilha, with two plaques on its trunk, photographed at dusk. The pin is the photo's GPS fix, confirmed. I filed it as False Kamani (Terminalia catappa) from the leaves, and the story asks readers to confirm. fln_002 is a fig hung with aerial roots in Coqueiros. Its pin was placed by hand, so it is approximate, and its access line says we have not confirmed it stands on public ground. Each photo is filed under its own month (July, May).
