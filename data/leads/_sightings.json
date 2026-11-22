@@ -10126,6 +10126,74 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "fontainebleau/fon_001"
+  },
+  {
+   "sighting_id": "4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "user_id": "p_7c68929b744714f2d4168a9b",
+   "mine": false,
+   "name": "The Tortworth Chestnut",
+   "unsure_among": null,
+   "species": "Sweet Chestnut",
+   "age": "900 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "It is one if the oldest sweet chestnuts in the UK and lies next to the Parish Church of Tortworth. \nJust close to Junction 14 on the M5 so would make a nice picnic stop as farm shop nearby too.",
+   "latitude": 51.6369075819751,
+   "longitude": -2.42857615158169,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 5,
+   "photo": "p_7c68929b744714f2d4168a9b/4504258B-6E45-4EAC-8A8F-F4D3FDFC951A.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/4504258b-6e45-4eac-8a8f-f4d3fdfc951a-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole ancient chestnut in fresh May leaf: a vast hollow, fluted grey trunk from which a crowd of younger stems climbs into the crown, white flowers in the grass at its foot, an ivy-clad trunk to the left, evening daylight, colour. A second frame shows the engraved plaque: 'This tree supposed to be six hundred years old 1st Jany 1800'. Live as tortworth/ttw_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "tortworth/ttw_001"
+  },
+  {
+   "sighting_id": "1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+   "user_id": "p_81c58c51dd7f98c91361dc6c",
+   "mine": false,
+   "name": "Bur Oak in Paris",
+   "unsure_among": null,
+   "species": "Bur Oak",
+   "age": "215 years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 48.843895,
+   "longitude": 2.35528833333333,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_81c58c51dd7f98c91361dc6c/1DA9FE2D-D3B4-4EE8-9E85-287491EFB629.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 79,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: a tall bare oak just inside the garden railings by a gate, a single straight dark trunk breaking into a wide crown of heavy limbs, a label at its foot behind a low hooped railing, apartment buildings and the Pharmacie Cuvier across the street, November daylight, colour. Live as paris/par_076 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "paris/par_076"
   }
  ]
 }

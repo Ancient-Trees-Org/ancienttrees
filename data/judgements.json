@@ -24541,6 +24541,109 @@
    "reason": "The Jussieu cedar on the labyrinth slope, the ginkgo lawn gold below; in the par_002 gallery behind the reader's lead (overcast, partly screened).",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Tortworth Chestnut",
+   "city": null,
+   "species": "Sweet Chestnut",
+   "photo": "p_7c68929b744714f2d4168a9b/4504258B-6E45-4EAC-8A8F-F4D3FDFC951A.jpg",
+   "reader_note": "It is one if the oldest sweet chestnuts in the UK and lies next to the Parish Church of Tortworth. \nJust close to Junction 14 on the M5 so would make a nice picnic stop as farm shop nearby too.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "The Tortworth Chestnut, viewed: a vast hollow fluted sweet chestnut in May leaf beside Tortworth church, plus the reader's photograph of its 1800 plaque ('six hundred years old'); Wikipedia confirms the tree and the 1664/1712 accounts. Live as tortworth/ttw_001, a new one-tree place, pin the reader's hand-placed spot (moved 70 m by them while adding), approximate. 900 years stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Bur Oak in Paris",
+   "city": null,
+   "species": "Bur Oak",
+   "photo": "p_81c58c51dd7f98c91361dc6c/1DA9FE2D-D3B4-4EE8-9E85-287491EFB629.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bur Oak"
+   },
+   "verdict": "publish",
+   "reason": "A tall bare bur oak inside the Jardin des Plantes railings by the gate opposite the Pharmacie Cuvier, label at its foot, photograph's own GPS. Somewhat special: a big 215-year-old (reader's estimate) prairie oak in Paris. Live as paris/par_076 with its French overlay; age stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1486",
+   "seen": "2026-11-22",
+   "kind": "a tip without a photograph",
+   "tree": "Spirit Tree ancient cottonwood tree",
+   "city": "Patagonia",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 600,
+   "verdict": "lead",
+   "reason": "Spirit Tree, a ~200-year-old Fremont cottonwood (reader's estimate) at the Spirit Tree Inn on Harshaw Creek Road near Patagonia, Arizona. No photograph and no written source; on an inn's grounds, view from the road unconfirmed. Recorded in data/leads/patagonia-arizona.json with the reader's map-link coordinate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Tortworth Chestnut",
+   "city": "Tortworth",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "https://ancienttrees.app/photos/ttw_001-tortworth-chestnut.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Reader's photograph is the lead of the new tree ttw_001: the whole ancient chestnut in May leaf, daylight, colour; their plaque frame confirms which tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1da9fe2d-d3b4-4ee8-9e85-287491efb629",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Bur Oak by the Cuvier Gate",
+   "city": "Paris",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "photo": "https://ancienttrees.app/photos/par_076-bur-oak-by-the-cuvier-gate.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Reader's photograph is the lead of the new tree par_076: the whole bare oak by the garden gate, daylight, colour, the photograph's own GPS.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

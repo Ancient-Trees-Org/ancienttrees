@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (seventeenth run): the Tortworth Chestnut and a Paris bur oak go live from readers
+
+- **Live:** the Tortworth Chestnut (`tortworth/ttw_001`, a new place). The reader sent a May frame of the hollow, fluted giant and a second frame of its 1800 plaque ("six hundred years old"). Wikipedia confirms the tree and the accounts of 1664 and 1712. The reader's 900 years is stated as theirs. The pin is their hand-placed spot, which they moved 70 m while adding the tree (report 1000128, closed `holds`, no mail because it was their own new tree), so it stays approximate.
+- **Live:** a bur oak just inside the Jardin des Plantes railings by the gate opposite the Pharmacie Cuvier (`paris/par_076`). It has the photograph's own GPS, and its 215 years is the reader's estimate. It has a French overlay entry, and the Paris meta counts went to 58 more in English and French.
+- **Lead:** tip 1486, the Spirit Tree, a cottonwood at an inn near Patagonia, Arizona. It has no photograph and no source, and it is not yet clear whether it can be seen from the road. It is recorded in data/leads/patagonia-arizona.json with the coordinate from the reader's map link.
+- **Overlap:** this run also put the Cedar of Jussieu frame into the gallery, but the sixteenth run below pushed it first, so its version stands.
+- **Skipped:** the Amsterdam lead `3c544597` was not judged blind because its photograph is still not on this machine. The other waiting leads are our own account's (`mine`), never published. No open feedback and no reader words to quote. Congratulation mails are left to the knock (`tree_approved.py --send`).
+
 ## 2026-11-22 reader judge (sixteenth run): a reader's November view of the Cedar of Jussieu joins its gallery
 
 paris/par_002: a reader's photograph (sighting a56bc4d5, 30 m from our pin) went into the gallery behind the reader's lead photo. It shows the cedar's arching side limb and flat crown over the gold ginkgo lawn, but it is overcast and partly screened. It was the one photo the parallel run (9e999d9f2) left unjudged, so it was put back in the queue and published through `sightings_publish.py`. This run had judged the Fontainebleau sequoia, the Argyle Street ash and both Boab frames too, but the parallel run pushed first with the same verdicts (fon_001 live), so that duplicate commit was dropped.

@@ -1,0 +1,77 @@
+{
+  "city": "Tortworth",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Tortworth is a small parish in South Gloucestershire, a few minutes from Junction 14 of the M5. Next to its parish church grows the Tortworth Chestnut, a sweet chestnut that writers in 1664 and 1712 already described as centuries old, with a brass plate of 1800 calling it six hundred years old. A reader photographed it in May and sent it to us.",
+  "meta_description": "The Tortworth Chestnut in South Gloucestershire, a sweet chestnut over 800 years old by old accounts: where it stands, its 1800 plaque, and how to find it.",
+  "hero_tree_id": "ttw_001",
+  "oldest_tree_id": "ttw_001",
+  "trees": [
+    {
+      "id": "ttw_001",
+      "name": "The Tortworth Chestnut",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "over 800 years by accounts of 1664 and 1712; 900 by a reader's estimate",
+      "age_min": 800,
+      "age_max": 900,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside the parish church of St Leonard, Tortworth, South Gloucestershire",
+        "latitude": 51.637541,
+        "longitude": -2.42868,
+        "neighbourhood": "Tortworth"
+      },
+      "how_to_recognise": "A vast hollow, twisted grey trunk beside the church, a crowd of younger stems rising out of it, with an engraved brass plaque dated 1800 on a stone base at its foot.",
+      "access": "Free. Beside the parish church of Tortworth, where the reader walked up to the tree and its plaque.",
+      "story": "\"This tree supposed to be six hundred years old 1st Jany 1800,\" reads the brass plate a reader photographed at the foot of the Tortworth Chestnut, above a verse that begins \"May Man still guard thy Venerable form.\" By that reckoning it is now past 820. Older accounts reach further back: writers in 1664 and 1712 recorded it as already growing in the twelfth and thirteenth centuries, and a legend has it sprouting from a nut planted in the reign of King Egbert.\n\nThe reader who sent it calls it one of the oldest sweet chestnuts in the UK and puts it at 900 years. Their photograph, taken in May, shows why few people argue. The old trunk has become a hollow, fluted mass of grey wood, split and twisted, and out of it a crowd of younger stems climbs into fresh green leaf. White flowers fill the grass around its foot, and an ivy-clad trunk stands close by on the left.\n\nIt grows next to the parish church of Tortworth in South Gloucestershire, close to Junction 14 of the M5. The reader suggests it as a picnic stop, with a farm shop nearby.\n\nWalk all the way round it, then find the plaque and read the rest of the verse.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Tortworth_Chestnut (Wikipedia: an ancient sweet chestnut in Tortworth, South Gloucestershire; accounts of 1664 and 1712 record it growing in the 12th and 13th centuries)",
+        "Reader's photograph of the plaque at the tree (sighting 4504258b-6e45-4eac-8a8f-f4d3fdfc951a): 'This tree supposed to be six hundred years old 1st Jany 1800'"
+      ],
+      "found_by_reader": {
+        "sighting_id": "4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+        "date": "2026-11-22"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app and moved it 70 m while adding the tree (report 1000128); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (4504258b-6e45-4eac-8a8f-f4d3fdfc951a, through the app, submission 1483). Photograph viewed: the whole ancient chestnut in fresh May leaf: a vast hollow, fluted grey trunk from which a crowd of younger stems climbs into the crown, white flowers in the grass at its foot, an ivy-clad trunk to the left, evening daylight, colour. A second frame shows the engraved plaque: 'This tree supposed to be six hundred years old 1st Jany 1800'. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: species 'Sweet Chestnut', age '900 years'. The ages of 1664 and 1712 are from Wikipedia's article; the 1800 plaque from the reader's own photograph. Pin is the reader's hand-placed spot, moved 70 m by them while adding (report 1000128), approximate.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ttw_001-tortworth-chestnut.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7c68929b744714f2d4168a9b",
+        "sighting_id": "4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
+        "taken_month": 5,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole ancient chestnut in fresh May leaf: a vast hollow, fluted grey trunk from which a crowd of younger stems climbs into the crown, white flowers in the grass at its foot, an ivy-clad trunk to the left, evening daylight, colour. A second frame shows the engraved plaque: 'This tree supposed to be six hundred years old 1st Jany 1800'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "How old is the Tortworth Chestnut? What the 1800 plaque, the accounts of 1664 and 1712 and a reader say about this sweet chestnut, and where to find it.",
+  "question_answer": "The Tortworth Chestnut is a sweet chestnut beside the parish church of Tortworth in South Gloucestershire. Accounts from 1664 and 1712 describe it as already growing in the twelfth and thirteenth centuries, which would make it over 800 years old.",
+  "question_context": "A reader sent us a photograph of the Tortworth Chestnut taken in May, with a second frame of the engraved brass plate at its foot. The plate reads \"This tree supposed to be six hundred years old 1st Jany 1800\" and carries a short verse asking that people guard it from storms. Two older accounts, from 1664 and 1712, describe the tree as already growing in the twelfth and thirteenth centuries, and a legend says it grew from a nut planted under King Egbert, so its age is a matter of old writing rather than a ring count. The reader puts it at 900 years. The photograph shows a vast hollow, fluted grey trunk with a crowd of younger stems rising out of it into the crown. The tree stands next to the parish church, close to Junction 14 of the M5, and the reader recommends it as a picnic stop with a farm shop nearby. Our pin is where the reader placed it on the map, so look for the church and the plaque when you arrive.",
+  "faq": [
+    {
+      "q": "Where is the Tortworth Chestnut?",
+      "a": "Next to the parish church of Tortworth in South Gloucestershire, a few minutes from Junction 14 of the M5."
+    },
+    {
+      "q": "How old is the Tortworth Chestnut?",
+      "a": "Nobody has counted its rings. Accounts from 1664 and 1712 describe it as already growing in the twelfth and thirteenth centuries, a plaque of 1800 calls it six hundred years old, and the reader who sent it gives 900 years."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. The reader walked up to it beside the church and photographed the plaque at its foot."
+    }
+  ]
+}

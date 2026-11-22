@@ -1,0 +1,20 @@
+{
+ "city": "patagonia-arizona",
+ "leads": [
+  {
+   "name": "The Spirit Tree",
+   "species": "Fremont Cottonwood (Populus fremontii)",
+   "lat": 31.5224655,
+   "lng": -110.7033548,
+   "register_location": "Harshaw Creek Road, near Patagonia, Santa Cruz County, Arizona",
+   "girth_cm": null,
+   "height_m": null,
+   "register_status": null,
+   "sources": [],
+   "source": "Reader tip 1486 (2026-11-22, through the website): the namesake tree of the Spirit Tree Inn bed and breakfast, about 200 years old by the reader's estimate, beside Harshaw Creek Road. Coordinate from the reader's own map link (a dropped pin).",
+   "status": "open",
+   "missing": "No photograph and no written source yet; it stands on an inn's grounds, so whether it is seen from Harshaw Creek Road needs confirming. A photograph from the road, or one source naming the tree, puts it live.",
+   "found": "2026-11-22"
+  }
+ ]
+}
