@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: a redwood joins the Leamington oak
+
+- Leamington Spa has a second tree (lsp_002), so it now gets a place page. The same reader who sent the Elizabeth Park oak sent this one: a towering red-trunked sequoia at the entrance to Victoria Park. The whole-tree shot leads and the trunk shot sits in the strip. The reader measured it at 450 cm round, and the page states that as their figure. They placed the pin by hand, so it stays approximate. They called it a coast redwood, but the hanging cord-like shoots in both photographs look like a giant sequoia, so the species is Giant Sequoia and the story asks readers which it is. The place's intro, meta, question texts and FAQ now count two trees. No kept translation exists for this place.
+- Nothing else waited: no queue photographs, no open reports, no feedback, no tips. Lead 3c544597 (Amsterdam, our own account, `mine`) has no photograph on this runner, so it is left unjudged for a run that has the file.
+
 ## 2026-11-22 session: New from visitors stays up; deploys unblocked
 
 - **Why the homepage row vanished**: every deploy since 11-21 22:52 failed qa on one line, the Morris weeping beech's Sources line printing the slug of its blog source ("morris hidden gems", a banned phrase). The live build fell eleven hours behind, none of the 12 newest visitor photos were in it, and the row hides under four tiles.

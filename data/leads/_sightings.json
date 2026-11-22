@@ -9475,6 +9475,43 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "gwytherin/gwy_001"
+  },
+  {
+   "sighting_id": "803eb2f3-6367-4d67-befe-146a0b5d262d",
+   "user_id": "p_c571dc455621f9521a0fc1f6",
+   "mine": false,
+   "name": "Costal Redwood in Royal Leamington Spa",
+   "unsure_among": null,
+   "species": "Costal Redwood (Sequoiadendron sempervirens)",
+   "age": null,
+   "girth_cm": 450,
+   "girth_hugs": null,
+   "note": "Beautiful Redwood at entrance to Victoria Park, Leamington Spa.",
+   "latitude": 52.2868033690713,
+   "longitude": -1.54833372407248,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_c571dc455621f9521a0fc1f6/803EB2F3-6367-4D67-BEFE-146A0B5D262D.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/803eb2f3-6367-4d67-befe-146a0b5d262d-extra-1.jpg"
+   ],
+   "extra_months": [
+    11
+   ],
+   "nearest_published_m": 118,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-22: the whole tall tree from the path at its foot, its flared red trunk rising through a narrow dark crown, railings and a path in front and the arches of a viaduct behind, daylight, colour. / looking straight up the thick, deeply furrowed red-brown trunk into a high crown of hanging, cord-like blue-green shoots, low sun, blue sky, colour. Live as leamington-spa/lsp_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "leamington-spa/lsp_002"
   }
  ]
 }

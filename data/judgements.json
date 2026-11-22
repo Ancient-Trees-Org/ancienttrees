@@ -2,6 +2,22 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:5277b1c0-a525-4e16-b107-814ca9468b92",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -42,22 +58,6 @@
    },
    "verdict": "publish",
    "reason": "A black locust alone on the Slotsholmen cobbles at our register pin, furrowed bark and pinnate leaves; the tree's first photograph, now its lead.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
   },
@@ -609,6 +609,58 @@
    "reader_girth_cm": null,
    "verdict": "publish",
    "reason": "Same reader, same photograph location and the same minute as submission 1421, no words and no photograph on file: the Gwytherin yews, now live as gwytherin/gwy_001. Nothing to add; if its photograph arrives, the intake matches it to that tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:803eb2f3-6367-4d67-befe-146a0b5d262d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Costal Redwood in Royal Leamington Spa",
+   "city": null,
+   "species": "Costal Redwood (Sequoiadendron sempervirens)",
+   "photo": "p_c571dc455621f9521a0fc1f6/803EB2F3-6367-4D67-BEFE-146A0B5D262D.jpg",
+   "reader_note": "Beautiful Redwood at entrance to Victoria Park, Leamington Spa.",
+   "reader_girth_cm": 450,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Costal Redwood (Sequoiadendron sempervirens)"
+   },
+   "verdict": "publish",
+   "reason": "Both photographs viewed: a very tall red-trunked sequoia at the Victoria Park entrance, viaduct behind, daylight, colour; reader girth 450 cm. Live as leamington-spa/lsp_002, hand-placed pin kept approximate. Species set as Giant Sequoia from the hanging shoots; the story says the reader called it a coast redwood and asks.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:803eb2f3-6367-4d67-befe-146a0b5d262d-extra-1",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Redwood at the Gate of Victoria Park",
+   "photo": "out/sightings/803eb2f3-6367-4d67-befe-146a0b5d262d-extra-1.jpg",
+   "reader_note": "Beautiful Redwood at entrance to Victoria Park, Leamington Spa.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole tall sequoia from the path, viaduct behind; the lead photograph. Live as leamington-spa/lsp_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:803eb2f3-6367-4d67-befe-146a0b5d262d",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Redwood at the Gate of Victoria Park",
+   "photo": "p_c571dc455621f9521a0fc1f6/803EB2F3-6367-4D67-BEFE-146A0B5D262D.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: straight up the furrowed red trunk into the crown, low sun; in the tree's strip. Live as leamington-spa/lsp_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },

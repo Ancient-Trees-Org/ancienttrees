@@ -2,25 +2,25 @@
   "city": "Royal Leamington Spa",
   "country": "United Kingdom",
   "status": "needs_curation",
-  "intro": "Royal Leamington Spa is a Regency spa town on the River Leam in Warwickshire, its streets of white stucco laid out when people came to take the waters. At the entrance to Elizabeth Park, by Princes Drive and the railway viaduct, a reader found a wide old oak standing alone on a grassy bank and sent it to us with their own measurement of its trunk.",
-  "meta_description": "A wide old oak at the entrance to Elizabeth Park in Royal Leamington Spa, sent by a reader: where it stands, its girth and how to find it.",
+  "intro": "Royal Leamington Spa is a Regency spa town on the River Leam in Warwickshire, its streets of white stucco laid out when people came to take the waters. One reader has sent us two of its trees, both by the railway viaduct on the west side of town: a wide old oak on a grassy bank at the entrance to Elizabeth Park, and a towering redwood at the entrance to Victoria Park, each with their own measurement of its trunk.",
+  "meta_description": "Two trees readers found in Royal Leamington Spa: a wide old oak at Elizabeth Park and a towering redwood at Victoria Park, and how to find them.",
   "hero_tree_id": "lsp_001",
   "oldest_tree_id": "lsp_001",
-  "question_meta": "A wide old oak at the entrance to Elizabeth Park in Royal Leamington Spa, sent by a reader: where it stands, its girth and how to find it.",
-  "question_answer": "The Oak at the Gate of Elizabeth Park stands on a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, Royal Leamington Spa, with the railway viaduct behind it. It is free to visit at any hour.",
-  "question_context": "A reader who sent us this oak from Royal Leamington Spa called it a magnificent oak tree at the entrance to Elizabeth Park, and their photographs show why. It stands alone on a grassy bank by Princes Drive, in Milverton on the west side of the town, with the stone arches of the railway viaduct behind it and a flight of black-railed steps running down a white wall beside it. The trunk is short and thick and leans a little, then breaks into crooked limbs that spread wider than the tree is tall, the open-grown shape of an oak that has never had to compete for light. The reader measured its trunk at 375 centimetres round. That is their figure; we have no planting record yet, and we do not know for certain which oak species it is, so readers who know are asked to tell us. The park is public and open at all hours, and the tree is at its entrance.",
+  "question_meta": "Two trees readers found in Royal Leamington Spa: a wide old oak at Elizabeth Park and a towering redwood at Victoria Park, and how to find them.",
+  "question_answer": "The Oak at the Gate of Elizabeth Park stands on a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, and the Redwood at the Gate of Victoria Park stands beside the path at the entrance to Victoria Park, a short walk away. Both are free to visit.",
+  "question_context": "Both of Royal Leamington Spa's trees on our map came from the same reader, and both stand near the stone arches of the railway viaduct on the west side of town. The first is an oak at the entrance to Elizabeth Park, by Princes Drive: a short, thick trunk that leans a little and breaks into crooked limbs spreading wider than the tree is tall, the open-grown shape of an oak that has never had to compete for light. The reader measured its trunk at 375 centimetres round. The second is a redwood at the entrance to Victoria Park, a red, flared trunk rising far above its neighbours. The reader measured it at 450 centimetres round and calls it a coast redwood; its hanging shoots look to us like a giant sequoia, so we ask readers who know. Those figures are theirs, and we have no planting records for either tree yet. Both parks are public.",
   "faq": [
     {
-      "q": "Where is the old oak at Elizabeth Park in Leamington Spa?",
-      "a": "On a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, with the railway viaduct behind it."
+      "q": "Where are the old trees in Royal Leamington Spa?",
+      "a": "An old oak stands at the entrance to Elizabeth Park, by Princes Drive in Milverton, and a tall redwood at the entrance to Victoria Park, a short walk away. Both are near the railway viaduct."
     },
     {
-      "q": "Can I visit the oak?",
-      "a": "Yes. It stands at the entrance to a public park, free and open at all hours."
+      "q": "Can I visit them?",
+      "a": "Yes. Both stand at the entrances to public parks and are free to visit."
     },
     {
-      "q": "How big is the oak at Elizabeth Park?",
-      "a": "The reader who sent it to us measured its trunk at 375 centimetres round. We have no record of its height or planting yet."
+      "q": "How big are the trees?",
+      "a": "The reader who sent them measured the oak's trunk at 375 centimetres round and the redwood's at 450. We have no record of their heights or planting yet."
     }
   ],
   "trees": [
@@ -77,6 +77,64 @@
           "contributor_user_id": "p_c571dc455621f9521a0fc1f6",
           "sighting_id": "83d58764-b0b1-44a2-800a-74f016802b7e-extra-1",
           "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the same oak from a step further left, its leaning trunk and wide yellowing crown, the viaduct arch and the steps behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    },
+    {
+      "id": "lsp_002",
+      "name": "The Redwood at the Gate of Victoria Park",
+      "species": "Giant Sequoia (Sequoiadendron giganteum)",
+      "location": {
+        "address": "Entrance to Victoria Park, Royal Leamington Spa",
+        "latitude": 52.2868033690713,
+        "longitude": -1.54833372407248,
+        "neighbourhood": "Victoria Park"
+      },
+      "how_to_recognise": "A single very tall conifer beside the path at the park entrance, its red, flared trunk rising far above the trees around it, with the arches of the railway viaduct behind.",
+      "access": "Free, at the entrance to a public park.",
+      "story": "\"Beautiful Redwood at entrance to Victoria Park,\" wrote the reader who sent us this tree from Royal Leamington Spa, the same reader who sent us the old oak at the gate of Elizabeth Park a short walk away.\n\nTheir two photographs show a tree that dwarfs everything around it. One, taken from the path at its foot, shows a red, flared trunk rising straight past the bare winter limbs of its neighbours, through a narrow dark crown, with the arches of the railway viaduct behind. The other looks straight up the trunk, deeply furrowed and glowing in low sun, into branches hung with long blue-green shoots.\n\nThe reader calls it a coast redwood. Those hanging, cord-like shoots look to us more like its cousin the giant sequoia, the Wellingtonia that Victorian towns planted in their new parks, so we ask readers who know to tell us which it is. The reader measured its trunk at 450 centimetres round. That is their figure; we have no record yet of its height or of when it was planted.\n\nStand at the foot of the trunk and look up, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "803eb2f3-6367-4d67-befe-146a0b5d262d",
+        "date": "2026-11-22"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "803eb2f3-6367-4d67-befe-146a0b5d262d",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (803eb2f3-6367-4d67-befe-146a0b5d262d, 2026-11-22, through the app). Photographs viewed: looking straight up the thick, deeply furrowed red-brown trunk into a high crown of hanging, cord-like blue-green shoots, low sun, blue sky, colour. / the whole tall tree from the path at its foot, its flared red trunk rising through a narrow dark crown, railings and a path in front and the arches of a viaduct behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Costal Redwood in Royal Leamington Spa', species 'Costal Redwood (Sequoiadendron sempervirens)', girth 450 cm. Species set as Giant Sequoia from the photographs (hanging cord-like scale-leaf shoots, not the flat two-ranked sprays of Sequoia sempervirens); the story says the reader called it a coast redwood and asks. corroborate.py: no register entry within 100 m, no article within 300 m. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lsp_002-redwood-at-the-gate-of-victoria-park-from-the-path.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 742,
+        "height": 1599,
+        "source": "contributor",
+        "contributor_user_id": "p_c571dc455621f9521a0fc1f6",
+        "sighting_id": "803eb2f3-6367-4d67-befe-146a0b5d262d-extra-1",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole tall tree from the path at its foot, its flared red trunk rising through a narrow dark crown, railings and a path in front and the arches of a viaduct behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lsp_002-redwood-at-the-gate-of-victoria-park.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1201,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c571dc455621f9521a0fc1f6",
+          "sighting_id": "803eb2f3-6367-4d67-befe-146a0b5d262d",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: looking straight up the thick, deeply furrowed red-brown trunk into a high crown of hanging, cord-like blue-green shoots, low sun, blue sky, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
           "taken_month": 11,
           "taken_month_basis": "the photograph's own date"
         }
