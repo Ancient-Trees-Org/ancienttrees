@@ -1758,6 +1758,15 @@
      "city_slug": "trollskogen",
      "display_name": null,
      "live": "2026-11-17"
+    },
+    {
+     "sighting_id": "2fabeea6-e1e1-49fb-aba4-07fddea81246",
+     "tree_id": "sev_009",
+     "tree_name": "The Fig of the Glorieta de Goya",
+     "city": "Seville",
+     "city_slug": "seville",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": [

@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (seventh run, second copy): a reader's photo now leads the Seville Goya fig
+
+- **Seville sev_009 (Glorieta de Goya fig):** the reader's photo shows the same railed round bed, cars and bougainvillea as the Commons lead, and it has the whole crown, which the Commons photo cuts off. It went in as `add`, so the reader's photo now leads and the Commons one moved to the strip. It is filed in September, the month in the photo. The reader's mail is queued in the weekly bundle.
+- **This ran in parallel with the seventh run.** Both built Florianópolis and both held the Brussels photo. I kept that run's version and dropped mine at the rebase. Only the Seville verdict, which it had not reached, is new here.
+
 ## 2026-11-22 write pass: three trees into the app, the pending pool is empty
 
 - **Product**: three new trees in the app (APP FIRST, no web page until a reader adds to one): the Nevada champion Mondell pine behind UNLV's Carlson Education Building (lvg_015, Nevada Big Tree Register 2023), the holm oak beside White Hall that UNLV calls a state champion (lvg_016; the state register does not list it, and the story says so), and the American hornbeam across from Prospect Park's Camperdown Elm (nyc_029, NYC Parks Great Trees; the register's trunk figure is impossible for the species, so no girth printed). Merged by scripts/build_write_2026_11_22.py; preflight 0 problems; app-only, so the pace is untouched.

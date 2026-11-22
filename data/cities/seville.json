@@ -342,18 +342,33 @@
       "access": "Free, public park",
       "transport": "5 min walk from Plaza de España, inside Parque de María Luisa",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Glorieta_de_Goya.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "CarlosVdeHabsburgo, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/sev_009-the-fig-of-the-glorieta-de-goya-2fabeea6.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4320,
-        "height": 3240,
-        "taken_month": 10
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_d5b6b02503ae50c0b89c742a",
+        "sighting_id": "2fabeea6-e1e1-49fb-aba4-07fddea81246",
+        "note": "Photographed by a reader and sent through the app (2022-09-28); a viewing pass approved it on 2026-11-22: The whole fig from the path, its buttressed trunk inside the round low railing of the glorieta, a full dark crown above, lamps and bougainvillea around; the same bed, railing and setting as the current Commons lead, which cuts the crown off. Sunny daylight, colour. A reader's photograph leads. Species seen: large leathery dark-green oval leaves, ribbed buttress roots flaring from a fluted trunk, dense evergreen dome: a Moreton Bay fig. Fits the description: a single big fig in a circular clearing of Parque de Maria Luisa, ringed by a low iron railing, matching the Commons photograph of the Glorieta de Goya; the columns are out of frame.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Photo fetched and viewed directly 2026-07-27: a large Moreton Bay fig with buttress roots filling a circular railed clearing, its own caption confirming 'gran ficus en el centro' at the Glorieta de Goya, an unambiguous match. The 1929 pavilion history and surviving columns confirmed by two independent sources. No precise planting date found for the fig itself; age is estimated from the species' early-20th-century introduction to Seville. Pin corrected 2026-07-27, about 190m, via an OpenStreetMap feature individually named 'Glorieta de Goya' (an exact name match); no GPS coordinates were found in either original source, so the prior pin was estimated from a described position near Plaza de España's north tower rather than surveyed.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by two four-metre marble Doric columns framing its crown, the last trace of a demolished pavilion. It stands in the Glorieta de Goya, Parque de Maria Luisa."
+      "how_to_recognise": "You can recognise it by two four-metre marble Doric columns framing its crown, the last trace of a demolished pavilion. It stands in the Glorieta de Goya, Parque de Maria Luisa.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Glorieta_de_Goya.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "CarlosVdeHabsburgo, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4320,
+          "height": 3240,
+          "taken_month": 10
+        }
+      ]
     },
     {
       "id": "sev_010",

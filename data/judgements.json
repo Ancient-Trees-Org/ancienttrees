@@ -23919,6 +23919,28 @@
    "reason": "Photograph viewed 2026-11-22: up from the foot of a big fig into its crown, curtains of aerial roots, daylight, colour. Live as florianopolis/fln_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:2fabeea6-e1e1-49fb-aba4-07fddea81246",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig of the Glorieta de Goya",
+   "city": "Seville",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/2fabeea6-e1e1-49fb-aba4-07fddea81246.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Moreton Bay fig in its railed round bed in the Glorieta de Goya, crown complete; same setting as the Commons lead. Now the lead photo of seville/sev_009, Commons moved to the strip.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
