@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 night run (resumed attempt)
+
+Live: Miami gained three Florida champions (mia_018 Bayshore Park rubber fig, mia_019 Chase Avenue sea grape, mia_020 Miami Beach Botanical Garden weeping fig) and Handsworth Park black poplar (hwp_001) went in as a lone Birmingham tree. Earlier in the window, three more trees (lvg_015, lvg_016, nyc_029) went into the app.
+Nothing useful: Birmingham's 15th verify pass was dry (claim released). Sheffield was claimed and released at once, because 0 of 4 leads carry a coordinate; it is walled for 48h. The READY pile is empty, so the shelf needs a verify pass on a city whose leads have coordinates.
+Not done: city_names.py not run for birmingham.
+
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
 
 - [2026-11](archive/LOG-2026-11.md)
