@@ -98,10 +98,14 @@ struct PhotoHeart: View {
                 Image(systemName: s.mine ? "heart.fill" : "heart")
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundStyle(tint)
-                    .frame(minWidth: 26, minHeight: 44)
+                    .frame(minWidth: 44, minHeight: 44)
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
+            // Apple's 44 by 44 tap area, drawn where the 26-point heart always
+            // stood (Hidde, 2026-11-22, option A of two screenshots: "a"): the
+            // nine points either side reach past the heart without moving it.
+            .padding(.horizontal, -9)
             .accessibilityLabel(s.mine ? "You liked this photo" : "Like this photo")
             .accessibilityIdentifier("photo-like")
             if s.count > 0 {
@@ -110,10 +114,13 @@ struct PhotoHeart: View {
                 } label: {
                     Text("\(s.count)").font(.system(size: 12, weight: .semibold)).monospacedDigit()
                         .foregroundStyle(tint)
-                        .frame(minWidth: 22, minHeight: 44, alignment: .leading)
+                        .frame(minWidth: 44, minHeight: 44, alignment: .leading)
                         .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
+                // The same 44 for the count, reaching right into empty space
+                // so the number stays where it stood.
+                .padding(.trailing, -22)
                 .accessibilityLabel(s.count == 1 ? "1 heart. See who gave a heart" : "\(s.count) hearts. See who gave a heart")
                 .accessibilityIdentifier("photo-like-count")
             }
