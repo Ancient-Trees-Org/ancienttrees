@@ -2031,6 +2031,14 @@
       "place_name": "Royal Leamington Spa",
       "date": "2026-11-22",
       "note": "catch-up 2026-11-22: badge given without the mail"
+    },
+    {
+      "row": null,
+      "user_id": "p_742e4f4b38d1bead996f5a7d",
+      "place_slug": "lisbon",
+      "place_name": "Lisbon",
+      "date": "2026-11-22",
+      "note": "not mailed: Hidde, 2026-11-22, \"No, skip Hugo\" (personal thread since October); counts as handled so --welcome-missing never sends it"
     }
   ],
   "told": {
