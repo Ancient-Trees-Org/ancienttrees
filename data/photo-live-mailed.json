@@ -3079,19 +3079,15 @@
    ]
   },
   "p_4064b82aff8911752e244c2a": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "dcffbd99-b1c4-403e-87c3-48ae83bf6d51",
      "tree_id": "gla_005",
-     "tree_name": "The Argyle Street Ash",
-     "city": "Glasgow",
-     "city_slug": "glasgow",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

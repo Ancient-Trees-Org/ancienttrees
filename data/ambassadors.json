@@ -1823,6 +1823,46 @@
         "The Old Oak by the Focke-Museum"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_81c58c51dd7f98c91361dc6c",
+      "place_slug": "fontainebleau",
+      "place_name": "Fontainebleau",
+      "date": "2026-11-22",
+      "trees": [
+        "The Sequoia of the Château Lawn"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_602ee350069d3265c04c9dc1",
+      "place_slug": "fulltofta",
+      "place_name": "Fulltofta",
+      "date": "2026-11-22",
+      "trees": [
+        "The Wide Oak of Fulltofta"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7c68929b744714f2d4168a9b",
+      "place_slug": "tortworth",
+      "place_name": "Tortworth",
+      "date": "2026-11-22",
+      "trees": [
+        "The Tortworth Chestnut"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_bf43ebca22541711ebb200c2",
+      "place_slug": "verona",
+      "place_name": "Verona",
+      "date": "2026-11-22",
+      "trees": [
+        "The Cedar of Piazza Indipendenza"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -2625,10 +2665,18 @@
         "par_072",
         "par_073",
         "par_074",
-        "par_075"
+        "par_075",
+        "par_076"
       ],
       "since": "2026-11-02",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-22",
+          "trees": [
+            "par_076"
+          ]
+        }
+      ]
     },
     "new-orleans": {
       "trees": [
@@ -3021,6 +3069,15 @@
         "cnx_001",
         "cnx_002",
         "cnx_003"
+      ],
+      "since": "2026-11-22",
+      "mailed": []
+    },
+    "horn-bremen": {
+      "trees": [
+        "hrn_001",
+        "hrn_002",
+        "hrn_003"
       ],
       "since": "2026-11-22",
       "mailed": []
