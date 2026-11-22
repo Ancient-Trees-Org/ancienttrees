@@ -564,6 +564,114 @@
         "status": "missing"
       },
       "paid_entry": true
+    },
+    {
+      "id": "mia_018",
+      "name": "The Bayshore Park Rubber Tree",
+      "species": "Rubber Fig (Ficus elastica)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 671,
+      "height_m": 17.7,
+      "location": {
+        "address": "Bayshore Park, 2530 Pine Tree Drive, Miami Beach, FL 33140",
+        "latitude": 25.8035,
+        "longitude": -80.1302,
+        "neighbourhood": "Bayshore, Miami Beach"
+      },
+      "verified_sources": [
+        "https://www.miamibeachfl.gov/three-largest-trees-of-their-kind-in-florida-can-be-found-in-miami-beach",
+        "https://www.miamibeachfl.gov/de/city-hall/parks-and-recreation/parks-facilities-directory/bayshore-park/",
+        "https://api.inaturalist.org/v1/observations?nelat=25.8043&nelng=-80.1295&swlat=25.8009&swlng=-80.1334&taxon_name=Ficus"
+      ],
+      "access": "Free. City of Miami Beach park, open Monday to Sunday, sunrise to sunset (city park page; no entry fee listed, only rental fees).",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "City of Miami Beach press release dated 2026-09-14 (fetched): a rubber tree (spelled 'Fiscus elastica' in the release) in the newly opened Bayshore Park is the largest of its kind in Florida: 58 ft tall (17.7 m), 109 ft canopy (33 m), 264 in trunk circumference (671 cm). Measured 5 Aug 2026 by the city's Urban Forestry Division with the Florida Forest Service, recognised 12 Aug 2026. Commissioner Alex Fernandez calls it 'a true grande dame of Miami Beach'; the release calls it the park's central specimen. No age or planting date in any source: age empty. Park: 19.4 acres, former Par 3 golf course turned passive park, opened 28 Sep 2025 (a city presentation, search pointer, not fetched; do not state as fact). Park page address differs: 2500 Pine Tree Drive (directory) vs 2530 (project page); OSM park way 257950968 centroid 25.8027,-80.1317. Note the Spanish version of the release swaps the rubber tree and pigeon plum figures; English figures used. Pin: iNaturalist observations of Ficus in the park cluster at 25.8034 to 25.8036, -80.1300 to -80.1305 (2025-10 to 2026-03, 3 to 8 m accuracy, species labelled F. benghalensis or Ficus, not elastica), so the large fig stands about there; no source gives the trunk coordinate, so approximate. Species conflict: city says F. elastica, iNaturalist observers say banyan (F. benghalensis); keep the city's name, note the dispute. Reviews call the park paths 'ancient banyan trees' (informal, not a source). Alive: measured Aug 2026, iNat March 2026. Single owner source plus register recognition; flagged one source (US bar).",
+      "story": "The largest rubber tree in Florida stands in a Miami Beach park that has only just opened. On 5 August 2026 the city's Urban Forestry Division and the Florida Forest Service measured it at 17.7 metres tall, with a trunk 671 centimetres round and a canopy 33 metres across. A week later the state recognised it as the biggest of its kind in Florida.\n\nThe canopy is the number to picture. It is almost twice as wide as the tree is tall, and the city calls the tree the central specimen of the new Bayshore Park. City commissioner Alex Fernandez went further and called it \"a true grande dame of Miami Beach\".\n\nThere is one dispute, and it is about what the tree is. The city names it Ficus elastica, the rubber fig, and so do we. The naturalists who have photographed the big fig here on iNaturalist mostly log it as a banyan, Ficus benghalensis, or simply as a fig. Both are figs, and only one name can be right. If you know your figs, go and look, and tell us.\n\nNobody has published when it was planted, so it has no age on our page. If you know its story, tell us that too.\n\nBayshore Park is a free City of Miami Beach park on Pine Tree Drive, open every day from sunrise to sunset. Our pin marks where visitors' photographs of the big fig cluster, close to the trunk but not a survey of it.",
+      "how_to_recognise": "You can recognise it by its canopy, 33 metres across on a tree 17.7 metres tall, the park's central specimen. It stands in Bayshore Park off Pine Tree Drive, Miami Beach.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "mia_019",
+      "name": "The Chase Avenue Sea Grape",
+      "species": "Sea Grape (Coccoloba uvifera)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 792,
+      "height_m": 14.6,
+      "location": {
+        "address": "Municipal parking lot 60, 4000 Chase Avenue, Miami Beach, FL 33140",
+        "latitude": 25.8136,
+        "longitude": -80.1318,
+        "neighbourhood": "Nautilus, Miami Beach"
+      },
+      "verified_sources": [
+        "https://www.miamibeachfl.gov/three-largest-trees-of-their-kind-in-florida-can-be-found-in-miami-beach"
+      ],
+      "access": "Free to see from the public municipal parking lot at 4000 Chase Avenue; parking itself may be paid or restricted (not stated in the source).",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Municipal parking lot 60",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "verify_notes": "City of Miami Beach press release 2026-09-14 (fetched): sea grape in municipal parking lot 60 at 4000 Chase Ave, largest of its kind in Florida: 48 ft (14.6 m), 72 ft canopy (22 m), 312 in trunk circumference (792 cm). Measured 5 Aug 2026, recognised by the Florida Forest Service 12 Aug 2026. A circumference this large for a sea grape is almost certainly a multi-stemmed or fused trunk; record as stated by the source, say so. No age. Pin: Nominatim places the address 4000 Chase Avenue at 25.81357,-80.13177; the lot's exact extent and the tree's spot inside it are not in any source, so approximate with a 50 m site. No iNaturalist Coccoloba uvifera record found in the box, no photo. Florida Forest Service register search by owner/location found no matching record (the public view lags new nominations; a separate private national champion sea grape exists with withheld location, not necessarily this tree). Alive: measured Aug 2026. Single owner source: flagged one source. Must be re-pinned from a reader's GPS fix.",
+      "story": "The biggest sea grape in Florida grows in a municipal parking lot. Lot 60, at 4000 Chase Avenue in Miami Beach, holds the tree the city measured on 5 August 2026 at 14.6 metres tall, with a canopy 22 metres across and a trunk circumference of 792 centimetres. On 12 August the Florida Forest Service recognised it as the largest of its kind in the state.\n\nThat trunk figure needs a footnote. Almost eight metres round is a great deal for a sea grape, and a number like that almost certainly goes round several stems grown together rather than one. The city's announcement gives the figure without saying how the tape went round, so we pass it on as the city gave it.\n\nThe announcement is also, for now, the only written source. We have not found the tree on the state's public champion register, which tends to lag behind new nominations. Nobody has published its age either. If you know how long it has stood here, or what stood here before the cars, tell us.\n\nIt is free to see from the public lot, though parking itself may be paid or restricted, so read the signs. Our pin marks the lot's address, not the tree, because no source places it within the lot. A crown 22 metres wide should not be hard to spot. If you go, a photograph with your phone's location saved would put it exactly on the map.",
+      "how_to_recognise": "You can recognise it by its spread, a crown 22 metres wide over a trunk measured at 792 centimetres round. It stands in Miami Beach municipal parking lot 60, at 4000 Chase Avenue.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "mia_020",
+      "name": "The Weeping Fig of Miami Beach Botanical Garden",
+      "species": "Weeping Fig (Ficus benjamina)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "girth_cm": 518,
+      "height_m": 18.9,
+      "location": {
+        "address": "Miami Beach Botanical Garden, 2000 Convention Center Drive, Miami Beach, FL 33139",
+        "latitude": 25.7958,
+        "longitude": -80.1357,
+        "neighbourhood": "Miami Beach, beside the Convention Center"
+      },
+      "verified_sources": [
+        "https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/1312",
+        "https://www.mbgarden.org/visit"
+      ],
+      "official_register": {
+        "name": "Florida Forest Service Champion Trees register, PK 1312",
+        "url": "https://ffs.fdacs.gov/ChampionTrees/Home.mvc/Detail/1312"
+      },
+      "access": "Free entry (mbgarden.org/visit per the earlier pass for mia_010: 'always free'); opening days Tuesday to Sunday 9am to 5pm per the garden header, conflicting with another block on the same page.",
+      "location_precision": "approximate",
+      "location_site": {
+        "name": "Miami Beach Botanical Garden",
+        "radius_m": 50
+      },
+      "curation_status": "flagged",
+      "verify_notes": "Florida Forest Service register PK 1312 (fetched): Ficus benjamina, status Florida Champion (new nomination, 2025-05-01), 'Near the NW area of Miami Beach Botanical Gardens', owner Miami Beach Botanical Garden (public), circumference 204 in (518 cm) at 4.5 ft, height 62 ft (18.9 m), crown 96 ft max / 83 min, measured 2025-04-28. Units are not printed on the page; inch/foot reading checked against the sanity of a 518 cm, 19 m fig and against the register's other rows. Register coordinate reads 26.7956,-80.1355, a latitude typo (26.8 N is Palm Beach County); the longitude fits the garden, so the pin is garden level 25.7958,-80.1357 from mia_010's centroid, approximate, NOT the register latitude. Same garden holds the banyan delivered as mia_010: two big figs in one free garden, say which is which (the register places this one in the NW area, the banyan is the garden's surviving original tree). No photo or tree pin; no iNat check done. Alive: measured April 2025. Official register plus public owner; flagged register only (measured 2025, under five years).",
+      "story": "The species most people know as a potted plant by the window has grown here to 18.9 metres. In April 2025 the Florida Forest Service measured this weeping fig, Ficus benjamina, in the Miami Beach Botanical Garden at 518 centimetres round at chest height, with a crown 29 metres across at its widest, and named it the Florida Champion of its species.\n\nThe garden has two great figs, so it helps to know which is which. The register places this one near the north-west area of the garden. The other is the banyan, which the Miami Beach Garden Conservancy calls the only tree surviving from before the garden, when the ground was part of Carl Fisher's golf course. The banyan has a history and no measurements. The weeping fig has measurements and no history.\n\nNobody has published when it was planted. If you know, tell us.\n\nOne oddity in the paperwork. The register's own coordinate for this tree carries a typo in the latitude that would put it in Palm Beach County, more than a hundred kilometres north. The longitude fits the garden, so our pin marks the garden rather than the trunk. Head for the north-west part and look for a crown that is much wider than the tree is tall.\n\nEntry is free. The garden's own page gives different opening days in different places, so check before you go.",
+      "how_to_recognise": "You can recognise it by a crown 29 metres wide on a tree 18.9 metres tall, the garden's champion weeping fig, not its banyan. It stands near the north-west area of Miami Beach Botanical Garden.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
     }
   ]
 }

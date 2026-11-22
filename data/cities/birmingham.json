@@ -1,0 +1,61 @@
+{
+  "city": "Birmingham",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Handsworth Park in Birmingham was laid out in the 1880s as Victoria Park. At the edge of its pond, beside the 1903 bandstand, grows a black poplar that the park's own arts trail map labels Oldest Tree and puts at about 300 years, a round figure with no basis given. The Woodland Trust's Ancient Tree Inventory measured it at 5.28 metres round in 2009. Whether it is a native black poplar or a hybrid, the sources disagree.",
+  "meta_description": "Handsworth Park's black poplar, about 300 years old by the park's own map and 5.28 metres round, beside the pond and the 1903 bandstand.",
+  "hero_tree_id": "hwp_001",
+  "oldest_tree_id": "hwp_001",
+  "question_meta": "The black poplar in Handsworth Park, about 300 years old by the park's own map: where it stands and what we know.",
+  "question_answer": "On this map, the black poplar in Handsworth Park, which the park's arts trail map labels Oldest Tree and puts at about 300 years. It stands at the edge of the pond beside the 1903 bandstand, in a free public park.",
+  "question_context": "The age comes from the Handsworth Park Arts Trail map, drawn by Hunt Emerson for local arts groups, the Friends of Handsworth Park and the city council. It labels the tree beside the pond Oldest Tree and calls it a hybrid black poplar of about 300 years, without saying where the figure comes from, so somewhere between 200 and 300 years is the honest range. Nobody has dated it from the wood. The Woodland Trust's Ancient Tree Inventory recorded it in March 2009 as a wild black poplar, 5.28 metres round at chest height, a big girth for the species but not one that settles an age on its own. The two sources also disagree on what it is, a hybrid on the park's map and the native wild black poplar in the inventory, and that question is open too. A J Paxton photographed it coming into leaf in April 2023 and thinks it was probably planted rather than self-sown. The park was laid out in the 1880s as Victoria Park and is run by Birmingham City Council; the bandstand beside the tree dates from 1903 and is listed Grade II. If you know more about the tree, tell us.",
+  "faq": [
+    {
+      "q": "Where is the Handsworth Park black poplar?",
+      "a": "At the edge of the pond beside the bandstand in Handsworth Park, Handsworth, Birmingham."
+    },
+    {
+      "q": "How old is it?",
+      "a": "The park's arts trail map says about 300 years, a round figure with no basis given. Nobody has dated it from the wood."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. Handsworth Park is a free public park run by Birmingham City Council."
+    }
+  ],
+  "trees": [
+    {
+      "id": "hwp_001",
+      "name": "Handsworth Park black poplar",
+      "species": "Black Poplar (Populus nigra)",
+      "age_estimate": "roughly 300 years",
+      "age_min": 200,
+      "age_max": 300,
+      "girth_cm": 528,
+      "location": {
+        "address": "Handsworth Park, beside the pond near the bandstand, Hinstock Road side, Handsworth, Birmingham B21",
+        "latitude": 52.5102288,
+        "longitude": -1.9267241,
+        "neighbourhood": "Handsworth"
+      },
+      "verified_sources": [
+        "https://static1.squarespace.com/static/5e26d2ae1324310e95f79355/t/6194e5d238f289714cf85679/1637148116248/Park+Map+2+FINAL+%281%29.JPEG",
+        "https://www.geograph.org.uk/photo/7471081",
+        "https://www.openstreetmap.org/node/12526770050",
+        "https://ati.woodlandtrust.org.uk/tree-search/tree/?treeId=48371"
+      ],
+      "access": "Free; public park managed by Birmingham City Council, open access (ATI: public, open access). Opening hours not checked.",
+      "location_precision": "confirmed",
+      "curation_status": "flagged",
+      "verify_notes": "Facts only. (1) Handsworth Park Arts Trail map (Hunt Emerson, for Handsworth Creative with Birmingham City Council, Friends of Handsworth Park and Perry Barr Arts Forum; image read 2026-11-21) labels the tree beside the pond next to the bandstand: 'Oldest Tree - this hybrid Black Poplar is @ 300 years old.' The age is that map's round figure, no basis given; kept broad (age_max is the map's figure) and the basis is a community map, not a survey. (2) Geograph photo 7471081 by A J Paxton, taken 22 April 2023, shows a fine black poplar coming into leaf by the pond and bandstand: alive in 2023. The photographer cites the Woodland Trust ATI as wild black poplar (Populus nigra ssp. betulifolia) and thinks it likely planted, not natural. SPECIES CONFLICT: the map says 'hybrid Black Poplar', ATI says wild black poplar (betulifolia); recorded as Black Poplar (Populus nigra), hybrid vs native unresolved, page should say so. (3) Woodland Trust ATI 48371 (fact check only, not reused): wild black poplar, maiden, alive, girth 5.28 m at 1.5 m, notable, public open access, grid SP05089028, parkland, recorded and last visited 30 March 2009 (old; the 2023 Geograph photo is the life evidence). 5.28 m is plausible for a big black poplar, so about 300 years is possible but not proven by girth. (4) OSM node 12526770050 (added 2025-01-23, name 'Oldest Tree (>300 yrs)', natural=tree, species Populus nigra, start_date 1700 taken from that same park map): coordinates 52.51023,-1.92672 agree with the ATI grid SP05089028 and the Geograph position by the pond; pin on one clear crown, hence confirmed. The OSM age tag is not independent of the map. Park: Handsworth Park, laid out in the 1880s as Victoria Park, council managed. No bridge claim made between park and tree age. Which trunk: the park's one labelled 'Oldest Tree', at the pond edge beside the Grade II listed 1903 bandstand. Alive check: lifecheck NONE for the pin, relying on the dated Geograph photo. Geograph photo is CC BY-SA 2.0, a candidate for the photo pass, not hunted here.",
+      "story": "Handsworth Park's own map calls this black poplar about 300 years old, and does not say how anyone knows. The arts trail map, drawn by Hunt Emerson for local arts groups, the Friends of Handsworth Park and Birmingham City Council, labels it simply \"Oldest Tree\". Take the figure as the park's round number, not a count of rings, and somewhere between 200 and 300 years as the honest range.\n\nThe tape tells a steadier story. When the Woodland Trust's Ancient Tree Inventory recorded it in 2009, its trunk measured 5.28 metres round at chest height, a big girth for a black poplar, though not one that settles an age by itself.\n\nWhat kind of black poplar it is, the sources disagree. The park map calls it a hybrid. The inventory records it as the wild native black poplar, one of Britain's rarer trees. A J Paxton, who photographed it coming into leaf in April 2023, follows the inventory and thinks it was probably planted rather than self-sown. Nobody has settled it. If you can, tell us.\n\nThe park around it was laid out in the 1880s as Victoria Park, and the tree stands at the edge of the pond beside the bandstand of 1903, now listed Grade II. Handsworth Park is a free public park run by the city council, open to walk into.",
+      "how_to_recognise": "You can recognise it as the black poplar the park's arts trail map labels Oldest Tree, its trunk 5.28 metres round. It stands at the edge of the pond, beside the 1903 bandstand.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ]
+}
