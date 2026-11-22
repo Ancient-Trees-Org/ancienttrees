@@ -6802,10 +6802,15 @@
    "pin_checked": "2026-11-22"
   },
   "1eefef4c-ae9c-4f79-ac36-91fb08061476": {
-   "outcome": "rejected",
+   "outcome": "added",
    "date": "2026-11-22",
    "tree_id": "fln_002",
-   "reason": "Duplicate: the same reader's same upward shot into the fig's crown and hanging roots as the lead photograph (its second extra is the lead's file itself, the first a third take of the same view); nothing new for the page."
+   "city_slug": "florianopolis",
+   "file": "fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c.jpg",
+   "reason": "The same fig from a wider angle, looking up: the mossy limbs, curtains of aerial roots and the low wall at right. A second view beside the lead (same reader); its extra frames repeat the lead. Species seen: small leathery fig leaves, mossy grey stems, hanging aerial roots. Fits the description: limb",
+   "lat": -27.6120914754728,
+   "lon": -48.5779356816369,
+   "pin_checked": "2026-11-22"
   },
   "c9139a4e-9e9a-4065-8dd9-865527b71c83": {
    "outcome": "rejected",
@@ -6818,6 +6823,23 @@
    "date": "2026-11-22",
    "tree_id": "dlh_001",
    "reason": "Duplicate: the same frame as the photograph that already leads the Peepal on the Plinth (sent again under a second sighting id the same day)."
+  },
+  "4491f36f-c569-42f1-a84c-a9bab33dab9a": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "vie_037",
+   "city_slug": "vienna",
+   "file": "vie_037-the-alois-drasche-park-beech.jpg",
+   "reason": "The whole tree in a Wieden park in late autumn: a big free-standing tree with smooth grey limbs and a fluted base, a dark conifer beside it, benches along the path, daylight, colour. The page had no photograph shown (the Commons file was held), so this leads. Species seen: smooth grey bark on the li",
+   "lat": 48.185895,
+   "lon": 16.368166,
+   "pin_checked": "2026-11-22"
+  },
+  "2120e761-ef1b-4baf-86a2-9d311e0ea986": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "fln_002",
+   "reason": "Bad frame: a beach and the bay with leafy branches at the left edge; nothing in it shows the hanging-root fig or any one tree to recognise, and its coordinate repeats the tree's earlier pin, so it cannot be placed as a tree of its own."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -36,7 +36,7 @@
       },
       "how_to_recognise": "On a small paved point over the bay, beside a bench and a little blue building: a massive, twisted dark trunk with two plaques fixed to it, its limbs reaching out low over the water.",
       "access": "Free. It stands on a paved public spot on the waterfront, open at all hours.",
-      "story": "A reader sent us this tree from the shore of Ribeirão da Ilha, the old Azorean fishing village on the southwest coast of Santa Catarina Island, south of the centre of Florianópolis, and photographed it at dusk with the sun going down over the bay.\n\nThe picture explains why they stopped. On a small paved point between the road and the water, the trunk rises dark and enormous, twisting as it goes, and splits into limbs that run out almost level over the waves, one of them so long and low it looks ready to touch the surface. Someone has fixed two plaques to the trunk, and a man standing at its foot reaches only as high as where the bark begins to bulge. A bench and a little blue building keep it company, and the hills of the mainland line the far shore.\n\nThe broad leaves bunched at the tips of the twigs, a few turned red, look like those of a tropical almond, but we are not certain, and we do not know what the plaques say. If you have read them, tell us here and we will add it.\n\nCome at sunset, as the reader did.",
+      "story": "A reader sent us this tree from the shore of Ribeirão da Ilha, the old Azorean fishing village on the southwest coast of Santa Catarina Island, south of the centre of Florianópolis, and photographed it at dusk with the sun going down over the bay.\n\nThe picture explains why they stopped. On a small paved point between the road and the water, the trunk rises dark and enormous, twisting as it goes, and splits into limbs that run out almost level over the waves, one of them so long and low it looks ready to touch the surface. Someone has fixed two plaques to the trunk, and a man standing at its foot reaches only as high as where the bark begins to bulge. A bench and a little blue building keep it company, and the hills of the mainland line the far shore.\n\nThe broad leaves bunched at the tips of the twigs, a few turned red, are those of a tropical almond. A second photograph from the same reader, taken close to the trunk, shows one of the plaques, a strip of wood fixed to a great lichen-grey burl, the words burned into it by hand, \"A árvore que fala\", the tree that speaks. Who put it there, and what the other plaque says, we do not know. If you do, tell us here and we will add it.\n\nCome at sunset, as the reader did.",
       "verified_sources": [],
       "found_by_reader": {
         "sighting_id": "84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
@@ -51,7 +51,7 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-22 reader judge: sent by a reader (84d248dd-6fa9-4dd5-acd3-1a33ec1a319d, 2026-11-22, through the app). Photograph viewed: the whole tree at dusk on a paved waterfront point, a massive twisted trunk with plaques fixed to it and limbs reaching out over the water, a man standing at its foot for scale, the bay and hills behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (84d248dd-6fa9-4dd5-acd3-1a33ec1a319d, 2026-11-22, through the app). Photograph viewed: the whole tree at dusk on a paved waterfront point, a massive twisted trunk with plaques fixed to it and limbs reaching out over the water, a man standing at its foot for scale, the bay and hills behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs. 2026-11-22 reader judge: a second reader photograph (2f6e03ed) shows a hand-burned plaque on the trunk reading 'A ÁRVORE QUE FALA' and tropical-almond leaves turning red; the story now says so.",
       "photo": {
         "url": "https://ancienttrees.app/photos/fln_001-plaque-tree-on-the-shore-of-ribeir-o-da-ilha.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
@@ -124,7 +124,22 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: looking up from the foot of a big fig into its crown, many limbs and curtains of hanging aerial roots, a wall post at the right, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 5,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 5,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "1eefef4c-ae9c-4f79-ac36-91fb08061476",
+          "note": "Photographed by a reader and sent through the app (2026-05-19); a viewing pass approved it on 2026-11-22: The same fig from a wider angle, looking up: the mossy limbs, curtains of aerial roots and the low wall at right. A second view beside the lead (same reader); its extra frames repeat the lead. Species seen: small leathery fig leaves, mossy grey stems, hanging aerial roots. Fits the description: limbs from a knot of mossy stems, aerial roots hanging to the ground beside a low wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

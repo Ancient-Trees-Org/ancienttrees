@@ -2,6 +2,50 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Fig of the Hanging Roots in Coqueiros",
+   "city": "Florianópolis",
+   "species": "Fig (Ficus sp.)",
+   "photo": "out/sightings/2120e761-ef1b-4baf-86a2-9d311e0ea986.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 164,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig (Ficus sp.)"
+   },
+   "verdict": "hold",
+   "reason": "Rejected as a bad frame: a beach and the bay with foliage at the edge, no trunk, roots or wall of the fig, and its coordinate only repeats the tree's first pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4491f36f-c569-42f1-a84c-a9bab33dab9a",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Alois-Drasche-Park Beech",
+   "city": "Vienna",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/4491f36f-c569-42f1-a84c-a9bab33dab9a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "girth 337 cm from the Vienna tree cadastre"
+   },
+   "verdict": "publish",
+   "reason": "The Alois-Drasche-Park beech in late autumn, whole tree with the conifer beside it; now its lead photograph (the Commons file was held).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -1630,8 +1674,8 @@
     "score": null,
     "note": "nothing measurable about Fig (Ficus sp.)"
    },
-   "verdict": "hold",
-   "reason": "Duplicate: the same reader's same upward shot into the fig's crown that already leads florianopolis/fln_002; rejected, nothing new for the page.",
+   "verdict": "publish",
+   "reason": "A wider look-up view of the same Coqueiros fig (mossy limbs, hanging roots, the low wall); in the gallery behind the adder's own lead.",
    "hidde": null,
    "agreed": null
   },

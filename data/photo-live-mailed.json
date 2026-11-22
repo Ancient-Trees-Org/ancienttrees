@@ -2710,6 +2710,15 @@
      "city_slug": "vienna",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "4491f36f-c569-42f1-a84c-a9bab33dab9a",
+     "tree_id": "vie_037",
+     "tree_name": "The Alois-Drasche-Park Beech",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": [
@@ -3036,6 +3045,15 @@
      "sighting_id": "2f6e03ed-e150-4ecf-b68a-c52313d2c6b5",
      "tree_id": "fln_001",
      "tree_name": "The Plaque Tree on the Shore of Ribeirão da Ilha",
+     "city": "Florianópolis",
+     "city_slug": "florianopolis",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "1eefef4c-ae9c-4f79-ac36-91fb08061476",
+     "tree_id": "fln_002",
+     "tree_name": "The Fig of the Hanging Roots in Coqueiros",
      "city": "Florianópolis",
      "city_slug": "florianopolis",
      "display_name": null,

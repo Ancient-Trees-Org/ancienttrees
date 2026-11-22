@@ -11,6 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (twelfth run): the Vienna beech gets its first photograph, and the talking tree's plaque goes into its story
+
+Live: a reader's late-autumn photograph now leads vienna/vie_037, the Alois-Drasche-Park beech. Until now it showed no photograph, because the Commons file was held as a possible copper-beech neighbour. The page is now in Google's reader cut, so three colon reveals in its story were rewritten, in English and in the German overlay.
+Changed: fln_001's story used to say we did not know what its plaques say. It now names the hand-burned one ("A árvore que fala", the tree that speaks) from the gallery photo the eleventh run put up, says the leaves are a tropical almond's, and still asks about the second plaque.
+Live, against the eleventh run's verdict: 1eefef4c goes into the Coqueiros fig's gallery (fln_002). Its extra frames repeat the lead, but its main frame is a different, wider landscape view of the roots and the low wall. A reader's distinct frame of the tree is never rejected (2026-11-06).
+Rejected: 2120e761, a beach and bay view sent for the Coqueiros fig. Only foliage shows at the edge of the frame, and its coordinate repeats the tree's first pin.
+Breakage: this run overlapped the eleventh, judged the same queue, and was rebuilt on top of it at push. Along the way, sightings_publish.py moved fln_002's pin back 164 m as a confirmed "reader GPS fix". It took the new photo's coordinate for a fix, but that coordinate only repeats the first lead's hand-placed spot (`location_kind: placed`). The fig keeps the adder's own move (report 1000125, approximate). The script should check the lead's `location_kind` before move_pin(); that is not fixed here, so a later photo sent for a hand-placed tree can do the same again.
+
 ## 2026-11-22 reader judge (eleventh run): the talking tree's plaque in the Ribeirão gallery, the Street View fig held
 
 Live: a reader's photo of the hand-burnt plaque "A árvore que fala" on the trunk of the Plaque Tree on the Shore of Ribeirão da Ilha (florianopolis/fln_001) goes in its gallery behind the dusk lead (July, from the photo's own date).

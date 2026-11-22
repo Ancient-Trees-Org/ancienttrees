@@ -1504,20 +1504,22 @@
       "transport": "Wien Hauptbahnhof (U1, S-Bahn, trains), about 8 minutes on foot.",
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
-      "story": "When a city protects a tree for its profile, it is saying something simple: this one shapes the neighbourhood. Vienna entered the beech of the Alois-Drasche-Park in June 2018 as Natural Monument 842, and its description is exactly that, a mighty free-standing crown that marks the character of its surroundings. A beech grows into that shape only when nothing has crowded it for a long time.\n\nThe city's tree cadastre puts the planting at 1895, which makes it about 130 years old, and records the trunk at 337 centimetres round and the height in the 21 to 25 metre class. A planting year in a cadastre is a record rather than a birth certificate, so read the age as a broad range, but it fits the girth: a beech with a trunk like this is a large tree by any standard.\n\nThe park is a small green block in Wieden, a short walk from the Hauptbahnhof, and the beech is the thing in it you notice from a distance. A Serbian spruce and a yew stand beside it, both recorded in the cadastre as planted around 2000. They make a useful scale: the beech has been growing for more than four times as long as either. It is one of the more recently protected Natural Monuments in the register, and one of the easiest to reach.",
+      "story": "When a city protects a tree for its profile, it is saying something simple, that this one shapes the neighbourhood. Vienna entered the beech of the Alois-Drasche-Park in June 2018 as Natural Monument 842, and its description is exactly that, a mighty free-standing crown that marks the character of its surroundings. A beech grows into that shape only when nothing has crowded it for a long time.\n\nThe city's tree cadastre puts the planting at 1895, which makes it about 130 years old, and records the trunk at 337 centimetres round and the height in the 21 to 25 metre class. A planting year in a cadastre is a record rather than a birth certificate, so read the age as a broad range, but it fits the girth, and a beech with a trunk like this is a large tree by any standard.\n\nThe park is a small green block in Wieden, a short walk from the Hauptbahnhof, and the beech is the thing in it you notice from a distance. A Serbian spruce and a yew stand beside it, both recorded in the cadastre as planted around 2000. They make a useful scale, since the beech has been growing for more than four times as long as either. It is one of the more recently protected Natural Monuments in the register, and one of the easiest to reach.",
       "how_to_recognise": "The one big free-standing beech with a very wide crown, with a young Serbian spruce and a yew beside it.",
       "age_basis": "source",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Wiener_Naturdenkmal_842_-_Rotbuche%2C_Wieden_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Herzi Pinki, via Wikimedia Commons",
-        "status": "held",
-        "note": "the ND 842 file shows a PURPLE copper beech; our record says European Beech. Either the species line should read Copper Beech or this is a neighbour",
-        "width": 6000,
-        "height": 4000,
-        "taken_month": 6
+        "url": "https://ancienttrees.app/photos/vie_037-the-alois-drasche-park-beech.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_230ca0c6269992f101ed0a8d",
+        "sighting_id": "4491f36f-c569-42f1-a84c-a9bab33dab9a",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The whole tree in a Wieden park in late autumn: a big free-standing tree with smooth grey limbs and a fluted base, a dark conifer beside it, benches along the path, daylight, colour. The page had no photograph shown (the Commons file was held), so this leads. Species seen: smooth grey bark on the limbs, a fluted, muscled base, small brown leaves still held on the twigs in late November as a beech keeps them. Fits the description: one big free-standing tree with a wide crown in a small city park, a young dark conifer at its side as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "verify_notes": "Register entry 3257993 matches ND 842, protected 2018-06-18, wording from de.wikipedia: 'maechtige ortsbildpraegende Freistandskrone', protected for its special character for the surroundings. Baumkataster BAUM_ID 227677: PFLANZJAHR 1895, STAMMUMFANG 337, height class 21-25 m, offset 0.0 m. Age band 100-160 derived from the cadastre planting year (a recorded year, not independent). Neighbours in cadastre: Picea omorika planted 2001, Taxus baccata 1997 (my reading 'planted around 2000'). Commons photo file 'Wiener Naturdenkmal 842 - Rotbuche, Wieden 03.jpg' exists. lifecheck RECENT.",
       "official_register": {
         "name": "Naturdenkmal Wien (Stadt Wien, data.wien.gv.at), no. 3257993",
@@ -1530,6 +1532,12 @@
         ],
         "label": "late October and November, when the beech turns copper",
         "kind": "autumn colour"
+      },
+      "photo_replaced": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Wiener_Naturdenkmal_842_-_Rotbuche%2C_Wieden_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Herzi Pinki, via Wikimedia Commons",
+        "status": "held"
       }
     },
     {
