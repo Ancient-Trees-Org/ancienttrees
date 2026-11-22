@@ -2,8 +2,8 @@
   "city": "Horn-Lehe",
   "country": "Germany",
   "status": "needs_curation",
-  "intro": "Horn-Lehe is a Bremen district built around a churchyard tree old enough to have hosted the medieval court before the city ever reached this far out. Three trunks fused into one mass more than four metres round, and in 2026 the city fitted it with a crane-lifted support frame, half to protect the tree and half to protect the people who still walk beneath it.",
-  "meta_description": "The Horner Linde: Bremen's oldest tree, a fused three-trunked lime possibly 900 years old, once the seat of a medieval court.",
+  "intro": "Horn-Lehe is a Bremen district built around a churchyard tree old enough to have hosted the medieval court before the city ever reached this far out. Three trunks fused into one mass more than four metres round, and in 2026 the city fitted it with a crane-lifted support frame. A short walk west, by the Focke-Museum, stands a pedunculate oak its plaque calls about 350 years old, which a reader sent us in autumn gold.",
+  "meta_description": "Two old trees in Horn-Lehe, Bremen: the Horner Linde, a fused lime possibly 900 years old, and a 350-year oak by the Focke-Museum.",
   "question_meta": "The Horner Linde is Bremen's oldest tree, a fused lime disputed at 600 to 900 years old, standing where the district's medieval court once met.",
   "question_answer": "Bremen's oldest tree stands in an ordinary tram suburb: the Horner Linde, a large-leaved lime on the churchyard in front of the Horner Kirche in Horn-Lehe. Three trunks grew together into a single mass over four metres round. The medieval Thing, or court assembly, met on this exact spot before the district existed in any formal sense, which makes this a Gerichtslinde, a court lime, thought to have been planted shortly after Dutch settlers built the first chapel here early in the 12th century.",
   "question_context": "The tree's age is genuinely disputed, and both figures are recorded rather than resolved. The memorial plaque at its foot and long-standing local tradition put it at about 900 years, tied to the settlement's founding; a dendrological survey taken in August 2025 reads 600 to 700 years off a girth of 6.1 metres, the usual gap between documentary dating and growth-rate dating on a tree this hollow. It appears in writing as early as 1380. In spring 2026 the city of Bremen fitted the tree with a crane-installed support frame, reported by the public broadcaster buten un binnen, protecting both the ancient trunk and the churchyard visitors who walk beneath it. It stands on open, public ground in front of the Horner Kirche, reachable by ordinary Bremen tram and bus, with no fee or restriction of any kind. Horn-Lehe is a residential district on Bremen's eastern edge, and the tree's setting is unglamorous by design: a working churchyard among family graves, still visited for burials and quiet walks rather than laid out for tourists, which is much of what makes finding a tree this old in an ordinary city suburb worth the detour.",
@@ -25,6 +25,10 @@
     {
       "q": "Why does it have a support frame?",
       "a": "In spring 2026 the city of Bremen had a steel support frame crane-lifted into the crown, both to protect the ancient, hollow tree and to protect visitors walking beneath its heavy limbs."
+    },
+    {
+      "q": "Is there another old tree nearby?",
+      "a": "Yes. About 700 metres west, beside the path Unter den Eichen at the Focke-Museum, stands a pedunculate oak that the plaque at its foot puts at about 350 years, one of the oldest oaks in Bremen."
     }
   ],
   "trees": [
@@ -70,6 +74,55 @@
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it by its mass of three trunks fused together, over four metres across, held up since 2026 by a crane-lifted support frame. It stands on the churchyard in front of the Horner Kirche."
+    },
+    {
+      "id": "hrn_002",
+      "name": "The Old Oak by the Focke-Museum",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 350 years, by the plaque at its foot",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Unter den Eichen, by the Focke-Museum grounds, Riensberg, Bremen",
+        "latitude": 53.0911765290568,
+        "longitude": 8.86361788621252,
+        "neighbourhood": "Riensberg, Schwachhausen"
+      },
+      "how_to_recognise": "A tall, straight-trunked oak beside the path Unter den Eichen, a bench at its foot and a small steel plaque numbered 138, with an old white house with dark shutters behind it.",
+      "access": "Beside the public path Unter den Eichen at the edge of the Focke-Museum grounds; seen from the path.",
+      "verified_sources": [
+        "Plaque at the tree's foot, photographed by the reader on 2026-11-22: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen.' (No. 138)"
+      ],
+      "story": "\"One of the oldest oaks in Bremen,\" wrote the reader who sent us this tree, and the small steel plaque at its foot says the same thing in German. It names a pedunculate oak, Quercus robur, about 350 years old and among the oldest oaks in the city.\n\nIt stands beside the path called Unter den Eichen, under the oaks, at the edge of the Focke-Museum grounds on the border of Schwachhausen and Horn-Lehe, and the reader caught it on a clear November day with its whole crown gone yellow. The trunk rises tall and almost straight, grey and deeply furrowed, before it splits into a high spread of crooked limbs. Behind it an old white house with dark shutters sits low in the grass, and a bench waits at its foot.\n\nThe reader puts its girth at about six metres. That is their figure; we have not seen a measurement. If the plaque's 350 years is right, the oak was already growing when Bremen was a free city of merchants and the country round here was farms.\n\nCome in late autumn, as the reader did, and stand by the bench to look straight up through the gold.",
+      "found_by_reader": {
+        "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (6a9217d8-8466-480f-9831-3b3255721cce, 2026-11-22, through the app). Photographs viewed: the whole oak from the path, a tall straight trunk rising into a broad crown of yellow autumn leaves, an old white house with dark shutters behind, a bench at its foot, sunny daylight, colour; a second frame looks up the furrowed trunk, a third shows the steel plaque at its foot: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen', number 138. The GPS fix lies on the path Unter den Eichen, Riensberg (OpenStreetMap reverse lookup), about 140 m south of the Focke-Museum. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Pedunculate Oak in Horn-Lehe', species 'Pedunculate Oak', age '350', girth 600 cm; the age is also the plaque's, the girth is theirs only. No register entry within 100 m (corroborate.py).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hrn_002-old-oak-by-the-focke-museum.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+        "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole oak from the path, a tall straight trunk rising into a broad crown of yellow autumn leaves, an old white house with dark shutters behind, a bench at its foot, sunny daylight, colour; a second frame looks up the furrowed trunk, a third shows the steel plaque at its foot: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen', number 138. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

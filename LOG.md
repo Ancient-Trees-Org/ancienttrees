@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (fifth run): a 350-year oak in Bremen live
+
+- **New tree, horn-bremen/hrn_002, "The Old Oak by the Focke-Museum".** A reader sent it today through the app with three photographs: the whole oak in autumn yellow, the trunk from below, and a plaque at its foot. The plaque reads "Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen", number 138. The pin is the reader's GPS fix, confirmed. It lands on the path Unter den Eichen in Riensberg (Schwachhausen), about 140 m south of the Focke-Museum and 730 m from the Horner Linde, so it joined Horn-Lehe rather than starting a one-tree place. The age comes from the plaque; the 6 m girth is the reader's and stays in the story only. The photo is filed in November, the photograph's own month.
+- **Horn-Lehe now has two trees**, so it gets a place page (`PLACE_PAGE_MIN_TREES = 2`). Its intro and meta name both trees, and a FAQ entry points to the oak. It has no kept translation.
+- 3c544597 (Amsterdam) is still our own photo (`mine`) and its file is not on disk, so I left it alone. There were no open reports, no open feedback and no reader words to quote.
+
 ## 2026-11-22 reader judge (fourth run): nothing new from readers to publish
 
 - **Feedback 1446** closed `handled`. It is a third copy of the "remove all photos" mail, sent at 12:52, before the 1419 session finished removing them. Every photo is already off and on data/photos-withheld.json. The draft reply still waits for Hidde.

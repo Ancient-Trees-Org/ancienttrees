@@ -1220,6 +1220,47 @@
    "agreed": null
   },
   {
+   "id": "lead:6a9217d8-8466-480f-9831-3b3255721cce",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Horn-Lehe",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_8ee7625f534ac175ae1c0c68/6A9217D8-8466-480F-9831-3B3255721CCE.jpg",
+   "reader_note": "One of the oldest oaks in Bremen",
+   "reader_girth_cm": 600,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.531,
+    "via": "girth",
+    "note": "153% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall 350-year pedunculate oak in autumn gold by the Focke-Museum, Bremen, its plaque confirming species and age; GPS fix on the path. Live as horn-bremen/hrn_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6a9217d8-8466-480f-9831-3b3255721cce",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Horn-Lehe",
+   "photo": "p_8ee7625f534ac175ae1c0c68/6A9217D8-8466-480F-9831-3B3255721CCE.jpg",
+   "reader_note": "One of the oldest oaks in Bremen",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole oak from the path Unter den Eichen, crown in autumn yellow, old white house behind, sunny daylight, colour; plaque at its foot gives about 350 years. Live as horn-bremen/hrn_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

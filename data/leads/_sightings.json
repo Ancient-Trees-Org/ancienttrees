@@ -9762,6 +9762,42 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "bagnolo-san-vito/bsv_001"
+  },
+  {
+   "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce",
+   "user_id": "p_8ee7625f534ac175ae1c0c68",
+   "mine": false,
+   "name": "Pedunculate Oak in Horn-Lehe",
+   "unsure_among": null,
+   "species": "Pedunculate Oak",
+   "age": "350",
+   "girth_cm": 600,
+   "girth_hugs": null,
+   "note": "One of the oldest oaks in Bremen",
+   "latitude": 53.0911765290568,
+   "longitude": 8.86361788621252,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_8ee7625f534ac175ae1c0c68/6A9217D8-8466-480F-9831-3B3255721CCE.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/6a9217d8-8466-480f-9831-3b3255721cce-extra-1.jpg",
+    "out/sightings/6a9217d8-8466-480f-9831-3b3255721cce-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": 730,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole oak from the path, a tall straight trunk rising into a broad crown of yellow autumn leaves, an old white house with dark shutters behind, a bench at its foot, sunny daylight, colour; a second frame looks up the furrowed trunk, a third shows the steel plaque at its foot: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen', number 138. Live as horn-bremen/hrn_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "horn-bremen/hrn_002"
   }
  ]
 }
