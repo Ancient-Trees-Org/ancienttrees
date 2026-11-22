@@ -1,0 +1,113 @@
+{
+  "city": "Florianópolis",
+  "country": "Brazil",
+  "status": "needs_curation",
+  "intro": "Florianópolis is the capital of Santa Catarina in southern Brazil, a city spread over an island and a strip of the mainland facing it across a narrow bay. A reader sent us two of its trees: a massive twisted tree with plaques on its trunk on the waterfront of Ribeirão da Ilha, the old fishing village in the island's southwest, and a fig hung with aerial roots in Coqueiros, on the mainland side.",
+  "meta_description": "Two trees in Florianópolis sent by a reader: a plaqued waterfront giant at Ribeirão da Ilha and a fig hung with aerial roots in Coqueiros.",
+  "hero_tree_id": "fln_001",
+  "oldest_tree_id": "fln_001",
+  "question_meta": "Two old trees in Florianópolis, Brazil, sent by a reader: a twisted giant on the shore of Ribeirão da Ilha and a fig of hanging roots in Coqueiros.",
+  "question_answer": "The Plaque Tree on the Shore of Ribeirão da Ilha stands on a small paved point over the bay in the old fishing village of Ribeirão da Ilha, in the southwest of Santa Catarina Island. It is free to visit at any hour.",
+  "question_context": "A reader sent us both of the Florianópolis trees on our map from their own walks, with a photograph of each. The first stands on the waterfront of Ribeirão da Ilha, a village settled by families from the Azores in the eighteenth century, whose painted houses and oyster farms still line the bay south of the city centre. Its trunk is dark, massive and twisted, two plaques are fixed to it, and its limbs run out almost level over the water beside a bench where people come to watch the sun go down behind the mainland hills. Its broad leaves look like those of a tropical almond, but we have not confirmed the species, and we do not yet know what the plaques say. The second is a fig in Coqueiros, on the mainland side of the bay, a knot of mossy stems under a dense crown from which curtains of thin aerial roots hang to the ground. We have no ages or measurements for either tree. If you know them, or can read the plaques, tell us on the tree's page and we will add what you send, with your words if you want them used.",
+  "faq": [
+    {
+      "q": "Where is the tree with plaques in Ribeirão da Ilha?",
+      "a": "On a small paved point on the waterfront at Rua Paulo Pedro Heidenreich, in the village of Ribeirão da Ilha, in the southwest of Santa Catarina Island. It is free to visit at any hour."
+    },
+    {
+      "q": "How old are these trees?",
+      "a": "We do not know yet. Neither tree has a recorded age or girth. If you know one, tell us on the tree's page."
+    },
+    {
+      "q": "Is there a fig to see in Coqueiros?",
+      "a": "Yes. A reader sent us a big fig hung with aerial roots near Rua Vereador José do Vale Pereira in Coqueiros, on the mainland side of the bay. We have not confirmed whether it stands on public ground, so look for it from the street."
+    }
+  ],
+  "trees": [
+    {
+      "id": "fln_001",
+      "name": "The Plaque Tree on the Shore of Ribeirão da Ilha",
+      "species": "False Kamani (Terminalia catappa)",
+      "location": {
+        "address": "Waterfront at Rua Paulo Pedro Heidenreich, Ribeirão da Ilha, Florianópolis, Santa Catarina",
+        "latitude": -27.7172966666667,
+        "longitude": -48.56387,
+        "neighbourhood": "Ribeirão da Ilha"
+      },
+      "how_to_recognise": "On a small paved point over the bay, beside a bench and a little blue building: a massive, twisted dark trunk with two plaques fixed to it, its limbs reaching out low over the water.",
+      "access": "Free. It stands on a paved public spot on the waterfront, open at all hours.",
+      "story": "A reader sent us this tree from the shore of Ribeirão da Ilha, the old Azorean fishing village on the southwest coast of Santa Catarina Island, south of the centre of Florianópolis, and photographed it at dusk with the sun going down over the bay.\n\nThe picture explains why they stopped. On a small paved point between the road and the water, the trunk rises dark and enormous, twisting as it goes, and splits into limbs that run out almost level over the waves, one of them so long and low it looks ready to touch the surface. Someone has fixed two plaques to the trunk, and a man standing at its foot reaches only as high as where the bark begins to bulge. A bench and a little blue building keep it company, and the hills of the mainland line the far shore.\n\nThe broad leaves bunched at the tips of the twigs, a few turned red, look like those of a tropical almond, but we are not certain, and we do not know what the plaques say. If you have read them, tell us here and we will add it.\n\nCome at sunset, as the reader did.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (84d248dd-6fa9-4dd5-acd3-1a33ec1a319d, 2026-11-22, through the app). Photograph viewed: the whole tree at dusk on a paved waterfront point, a massive twisted trunk with plaques fixed to it and limbs reaching out over the water, a man standing at its foot for scale, the bay and hills behind, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fln_001-plaque-tree-on-the-shore-of-ribeir-o-da-ilha.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+        "sighting_id": "84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole tree at dusk on a paved waterfront point, a massive twisted trunk with plaques fixed to it and limbs reaching out over the water, a man standing at its foot for scale, the bay and hills behind, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 7,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "fln_002",
+      "name": "The Fig of the Hanging Roots in Coqueiros",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Near Rua Vereador José do Vale Pereira, Coqueiros, Florianópolis, Santa Catarina",
+        "latitude": -27.6120914754728,
+        "longitude": -48.5779356816369,
+        "neighbourhood": "Coqueiros"
+      },
+      "how_to_recognise": "A broad fig whose limbs spread from a knot of mossy grey stems, with curtains of thin aerial roots hanging from them down to the ground beside a low wall.",
+      "access": "The reader marked it near Rua Vereador José do Vale Pereira in Coqueiros. We have not confirmed whether it stands on public ground; look for it from the street.",
+      "story": "\"Fig,\" was all the reader wrote when they sent us this tree from Coqueiros, the neighbourhood on the mainland side of Florianópolis that looks back across the bay at the island and the old city.\n\nTheir photograph says the rest. It is taken from the foot of the tree, looking straight up, and the crown fills the frame from edge to edge. From a knot of grey stems, green with moss, the limbs climb and branch and branch again into a dense roof of small leathery leaves, and from everything hang curtains of thin aerial roots, dropping towards the ground the way a fig sends down new supports as it spreads. Some of them have already reached the earth and thickened, wrapping round the base like ropes. A low wall stands at its side.\n\nWe do not know which fig it is, how old, or how wide it spreads; many species are planted in Brazilian streets and squares. If you know this tree, tell us here and we will put your words on the page.\n\nStand under it and look up through the roots.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "553f2448-0e51-4ae4-9f09-7553dc660819",
+        "date": "2026-11-22"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "553f2448-0e51-4ae4-9f09-7553dc660819",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (553f2448-0e51-4ae4-9f09-7553dc660819, 2026-11-22, through the app). Photograph viewed: looking up from the foot of a big fig into its crown, many limbs and curtains of hanging aerial roots, a wall post at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Fig', species 'Fig', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fln_002-fig-of-the-hanging-roots-in-coqueiros.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+        "sighting_id": "553f2448-0e51-4ae4-9f09-7553dc660819",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: looking up from the foot of a big fig into its crown, many limbs and curtains of hanging aerial roots, a wall post at the right, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 5,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

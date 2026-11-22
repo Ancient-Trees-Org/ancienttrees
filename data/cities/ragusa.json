@@ -28,7 +28,7 @@
       "id": "rgs_001",
       "name": "Moreton Bay Figs of Donnafugata Castle Park",
       "species": "Moreton Bay Fig (Ficus macrophylla)",
-      "age_estimate": "not documented",
+      "age_estimate": "about 170 years, by a reader's estimate",
       "girth_cm": 950,
       "height_m": 25,
       "location": {
@@ -37,7 +37,7 @@
         "longitude": 14.564653,
         "neighbourhood": "Donnafugata, about 15 km from Ragusa"
       },
-      "story": "Two figs in the park of Donnafugata Castle have trunks more than nine metres round, and they stand only about twenty-five metres apart. Sicily's register of monumental trees gives one a girth of 9.5 metres and the other 9 metres, and puts both at 25 metres tall.\n\nThey are Moreton Bay figs, Ficus macrophylla, the Australian species that older guides called Ficus magnolioides. The Italian Botanical Heritage guide describes the first section of the park as shaded by large figs of that kind, and these two are the giants among them, standing on buttress roots that spread out across the ground before the trunks begin.\n\nDonnafugata is a castle and estate in the countryside about 20 kilometres from the town of Ragusa, and the park is visited with its own municipal ticket. Several figs grow in it, which is why our pin is approximate. Visitors have recorded Moreton Bay figs a few metres from the two registered points on iNaturalist, in March and June 2026, so the trees are alive and the area is right, but which crown belongs to which register sheet is not settled. The size should settle it on the day. Nothing else in the park comes close.\n\nNobody has published an age or a planting date for either fig. If you know when they went in, tell us. A photograph would help too, as we have not found one.",
+      "story": "Two figs in the park of Donnafugata Castle have trunks more than nine metres round, and they stand only about twenty-five metres apart. Sicily's register of monumental trees gives one a girth of 9.5 metres and the other 9 metres, and puts both at 25 metres tall.\n\nThey are Moreton Bay figs, Ficus macrophylla, the Australian species that older guides called Ficus magnolioides. The Italian Botanical Heritage guide describes the first section of the park as shaded by large figs of that kind, and these two are the giants among them, standing on buttress roots that spread out across the ground before the trunks begin.\n\nDonnafugata is a castle and estate in the countryside about 20 kilometres from the town of Ragusa, and the park is visited with its own municipal ticket. Several figs grow in it, which is why our pin is approximate. Visitors have recorded Moreton Bay figs a few metres from the two registered points on iNaturalist, in March and June 2026, so the trees are alive and the area is right, but which crown belongs to which register sheet is not settled. The size should settle it on the day. Nothing else in the park comes close.\n\nNobody has published an age or a planting date for either fig. A reader who sent us a photograph of the bigger one puts it at about 170 years, by their estimate. If you know when they went in, tell us.",
       "verified_sources": [
         "https://www.regione.sicilia.it/system/files/2026-07/elenco_degli_alberi_monumentali_di_sicilia_aggiornato_al_17.07.2026.pdf",
         "https://luoghi.italianbotanicalheritage.com/en/donnafugata-castle-and-park/",
@@ -75,7 +75,8 @@
         "moved_m": 26,
         "date": "2026-11-22",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "age_basis": "source"
     }
   ]
 }
