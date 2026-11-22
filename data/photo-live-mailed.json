@@ -66,27 +66,8 @@
    ]
   },
   "p_e8dba228047f1ba460227fd8": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "9c93b205-3812-4c19-9040-a4efe3511170",
-     "tree_id": "lon_052",
-     "tree_name": "The Gnarled Beech of Hampstead Heath",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "36bfbe9f-0328-43ce-a828-eb1001119352",
-     "tree_id": "lon_042",
-     "tree_name": "Grimston's Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "d8994b07-93c9-41a0-ae09-ab417f322b93",
@@ -122,6 +103,16 @@
      "sighting_id": "9b7fd3c7-4236-4ea1-bfa7-c49c49b9766f",
      "tree_id": "lon_044",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "9c93b205-3812-4c19-9040-a4efe3511170",
+     "tree_id": "lon_052",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "36bfbe9f-0328-43ce-a828-eb1001119352",
+     "tree_id": "lon_042",
+     "mailed": "2026-11-22"
     }
    ]
   },
@@ -455,18 +446,8 @@
    ]
   },
   "p_bf0eb996e2b54d6b87dae9bf": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
-     "tree_id": "lon_045",
-     "tree_name": "The Lewisham Elm",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "0c794f38-8f66-4856-8a22-20b91972520b",
@@ -477,49 +458,17 @@
      "sighting_id": "dd4f855b-da7e-4514-81ee-19b1e3bc7991",
      "tree_id": "lon_010",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "05aabbc7-f4a1-413e-89b7-75b40bfebe8b",
+     "tree_id": "lon_045",
+     "mailed": "2026-11-22"
     }
    ]
   },
   "p_c7a4ca5cb6b3ec857ef912cc": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "57a70549-ac95-452e-894b-3bf467dc26ae",
-     "tree_id": "gro_016",
-     "tree_name": "The Mespilifolia Oak of Noorderplantsoen",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "62eb3e8f-66ef-4dcb-9069-fac45b46797c",
-     "tree_id": "gro_007",
-     "tree_name": "The Oak of Martinikerkhof",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "b9cab82b-f47c-4dc3-bb04-b96abd73163c",
-     "tree_id": "gro_014",
-     "tree_name": "The Green Beeches of the Nieuwe Kerkhof",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f",
-     "tree_id": "gro_018",
-     "tree_name": "The ANWB Linden of Wilhelminakade",
-     "city": "Groningen",
-     "city_slug": "groningen",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",
@@ -530,58 +479,32 @@
      "sighting_id": "50c5d727-3dc2-417e-bf7b-68ed8571acfc",
      "tree_id": "gro_020",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "57a70549-ac95-452e-894b-3bf467dc26ae",
+     "tree_id": "gro_016",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "62eb3e8f-66ef-4dcb-9069-fac45b46797c",
+     "tree_id": "gro_007",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "b9cab82b-f47c-4dc3-bb04-b96abd73163c",
+     "tree_id": "gro_014",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f",
+     "tree_id": "gro_018",
+     "mailed": "2026-11-22"
     }
    ]
   },
   "p_33b43ae363d99d9b3112f7f6": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "a1e5696d-07f6-4ad8-b33d-af8a195ee53a",
-     "tree_id": "muc_011",
-     "tree_name": "The Copper Beech of the Badenburg",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "1d81ebf6-cb4f-4e67-80de-8f8122af0b3d",
-     "tree_id": "muc_013",
-     "tree_name": "The Fern-leaved Beech of the Amalienburg",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "f9aef0f0-825b-43a6-80c6-bdae5f77ce0d",
-     "tree_id": "muc_012",
-     "tree_name": "The Leaning Lime of the Badenburger See",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "31f72d8f-0bcc-4df5-88a8-46c14bbbb5cf",
-     "tree_id": "muc_012",
-     "tree_name": "The Leaning Lime of the Badenburger See",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "d2406863-a22d-466f-9fc8-2fb3e760c364",
-     "tree_id": "muc_014",
-     "tree_name": "The Weeping Beech of the Schwanenbrücke",
-     "city": "Munich",
-     "city_slug": "munich",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "29a3d214-ea17-429e-91f2-0e64ba8b92af",
@@ -607,6 +530,31 @@
      "sighting_id": "6baa97c2-a63b-4601-972b-b6174e4f4220",
      "tree_id": "muc_007",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "a1e5696d-07f6-4ad8-b33d-af8a195ee53a",
+     "tree_id": "muc_011",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "1d81ebf6-cb4f-4e67-80de-8f8122af0b3d",
+     "tree_id": "muc_013",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "f9aef0f0-825b-43a6-80c6-bdae5f77ce0d",
+     "tree_id": "muc_012",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "31f72d8f-0bcc-4df5-88a8-46c14bbbb5cf",
+     "tree_id": "muc_012",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "d2406863-a22d-466f-9fc8-2fb3e760c364",
+     "tree_id": "muc_014",
+     "mailed": "2026-11-22"
     }
    ]
   },
@@ -777,18 +725,8 @@
    ]
   },
   "p_3ede14c55de0e0de9b87562a": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "4e397a21-45e7-4e26-94b6-e90424547c63",
-     "tree_id": "war_007",
-     "tree_name": "King Jan's Linden",
-     "city": "Warsaw",
-     "city_slug": "warsaw",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "5b8c4e7a-86a1-4b3f-a434-83e7a0945553",
@@ -799,6 +737,11 @@
      "sighting_id": "770b668b-0152-47a4-9822-70e04183b599",
      "tree_id": "sev_044",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "4e397a21-45e7-4e26-94b6-e90424547c63",
+     "tree_id": "war_007",
+     "mailed": "2026-11-22"
     }
    ]
   },
@@ -936,95 +879,58 @@
    ]
   },
   "p_b4394ae41139d013921d623e": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "8b7f5345-ac50-432e-bc87-7f9fb01f07e1",
-     "tree_id": "dmr_001",
-     "tree_name": "Wistman's Wood",
-     "city": "Dartmoor",
-     "city_slug": "dartmoor",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "3b39d16a-da7e-41df-b566-3345170189b9",
-     "tree_id": "bat_003",
-     "tree_name": "The Plane Trees of the Circus",
-     "city": "Bath",
-     "city_slug": "bath",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "505b0039-de16-410f-817e-55e31e93c41a",
-     "tree_id": "cdb_002",
-     "tree_name": "The Orange Courtyard of the Mezquita",
-     "city": "Cordoba",
-     "city_slug": "cordoba",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "aa29f45d-e14e-4faa-8f21-9b38e5e269c5",
-     "tree_id": "crm_001",
-     "tree_name": "The Crom Yews",
-     "city": "Crom",
-     "city_slug": "crom",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "cc8de006-3714-424d-90ed-29ddd0adac6c",
-     "tree_id": "bfs_003",
-     "tree_name": "The Dawn Redwood by the Kelvin Statue",
-     "city": "Belfast",
-     "city_slug": "belfast",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "e67ce516-1f9b-4a80-81a0-9bdad8739ea2",
-     "tree_id": "plm_001",
-     "tree_name": "S'Olivera de Cort",
-     "city": "Palma de Mallorca",
-     "city_slug": "palma-de-mallorca",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "79e27623-4f57-4e8b-93ed-5809952ad465",
-     "tree_id": "cdb_001",
-     "tree_name": "The Olive of the Orange Courtyard",
-     "city": "Cordoba",
-     "city_slug": "cordoba",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "2da20219-c708-4cfc-a74b-ad7f0915edab",
-     "tree_id": "bfs_003",
-     "tree_name": "The Dawn Redwood by the Kelvin Statue",
-     "city": "Belfast",
-     "city_slug": "belfast",
-     "display_name": null,
-     "live": "2026-11-15"
-    },
-    {
-     "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
-     "tree_id": "gra_007",
-     "tree_name": "The Twin Cypresses of the Parador",
-     "city": "Granada",
-     "city_slug": "granada",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "8335e815-9828-4129-a977-f7e5c1d4487c",
      "tree_id": "kly_001",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "8b7f5345-ac50-432e-bc87-7f9fb01f07e1",
+     "tree_id": "dmr_001",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "3b39d16a-da7e-41df-b566-3345170189b9",
+     "tree_id": "bat_003",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "505b0039-de16-410f-817e-55e31e93c41a",
+     "tree_id": "cdb_002",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "aa29f45d-e14e-4faa-8f21-9b38e5e269c5",
+     "tree_id": "crm_001",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "cc8de006-3714-424d-90ed-29ddd0adac6c",
+     "tree_id": "bfs_003",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "e67ce516-1f9b-4a80-81a0-9bdad8739ea2",
+     "tree_id": "plm_001",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "79e27623-4f57-4e8b-93ed-5809952ad465",
+     "tree_id": "cdb_001",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "2da20219-c708-4cfc-a74b-ad7f0915edab",
+     "tree_id": "bfs_003",
+     "mailed": "2026-11-22"
+    },
+    {
+     "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
+     "tree_id": "gra_007",
+     "mailed": "2026-11-22"
     }
    ]
   },
@@ -1082,23 +988,18 @@
    ]
   },
   "p_46eb99793fa60c6d1e5a07ed": {
-   "last": "2026-11-15",
-   "pending": [
-    {
-     "sighting_id": "c82eb35c-e51c-40af-9225-927ebed2f0cb",
-     "tree_id": "emm_008",
-     "tree_name": "The Variegated Maple of Coevorden Castle",
-     "city": "Emmen",
-     "city_slug": "emmen",
-     "display_name": null,
-     "live": "2026-11-15"
-    }
-   ],
+   "last": "2026-11-22",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "eb13d715-dd45-415b-aeb6-2a986565e5fb",
      "tree_id": "hil_001",
      "mailed": "2026-11-15"
+    },
+    {
+     "sighting_id": "c82eb35c-e51c-40af-9225-927ebed2f0cb",
+     "tree_id": "emm_008",
+     "mailed": "2026-11-22"
     }
    ]
   },
@@ -2719,28 +2620,20 @@
    ]
   },
   "p_1d47e3a4246db671958cd9a8": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "61b034b0-f171-4340-bc4f-1df7ed9bdc2f",
      "tree_id": "ath_005",
-     "tree_name": "The Holm Oak of the National Garden",
-     "city": "Athens",
-     "city_slug": "athens",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     },
     {
      "sighting_id": "d6631bb7-8ba3-496b-a79e-70b515afc573",
      "tree_id": "ath_005",
-     "tree_name": "The Holm Oak of the National Garden",
-     "city": "Athens",
-     "city_slug": "athens",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_52c62076d46304de372415fd": {
    "last": "2026-11-21",
@@ -2754,19 +2647,15 @@
    ]
   },
   "p_84b0a53f820e2574ec877490": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "a9759d2d-4122-4d95-bb74-edbf65865996",
      "tree_id": "hei_001",
-     "tree_name": "The Molkenkur Linden",
-     "city": "Heidelberg",
-     "city_slug": "heidelberg",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_064cc750d7e96fa90046487e": {
    "last": null,
@@ -2784,28 +2673,20 @@
    "sent": []
   },
   "p_22c8aa9b88602739b67d46a4": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e79f5d34-e33f-4522-81f1-7a65eab19816",
      "tree_id": "has_001",
-     "tree_name": "The Oak of Kiewit",
-     "city": "Hasselt",
-     "city_slug": "hasselt",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     },
     {
      "sighting_id": "65c79ad5-cbfa-4ed0-bd1e-69f39ed0780c",
      "tree_id": "has_001",
-     "tree_name": "The Oak of Kiewit",
-     "city": "Hasselt",
-     "city_slug": "hasselt",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_4881f05a5b317ab4de78c178": {
    "last": "2026-11-21",
@@ -2845,19 +2726,15 @@
    ]
   },
   "p_cabf15a107d0c1a54ccea8fa": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "5917dc6f-2a08-4fd5-9d2f-b981cd453cf3",
      "tree_id": "crf_001",
-     "tree_name": "The Survivor Tree",
-     "city": "Moffat",
-     "city_slug": "moffat",
-     "display_name": null,
-     "live": "2026-11-21"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_dc8fac8edd6e90755a6d4f12": {
    "last": null,

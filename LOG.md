@@ -11,6 +11,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 night run, second attempt: nothing shipped
+
+No product change. Shelf has 2 READY leads (York, Guimaraes), under the 6-candidate floor; the 386 "awaiting a writer" are stale files or duplicates of live trees. Verify pass on Birmingham found no new tree (14th dry pass; Moseley oak ATI 64085 alive but park-level pin only; the Botanical Gardens plant explorer is the one untried route to tree-level pins). Graz and Nuremberg claimed and released at once (under a quarter of leads carry a coordinate), both now 48h walls. Portland refused (full). Needs a coordinate source before more verify passes in these cities. Standing health reds (deploy and smoke failing on schedule, app catalogue 173 trees behind) not touched this attempt.
+
 ## 2026-11-22 reader judge: a second reader's photo of the Gennett Poplar
 - **Chattahoochee National Forest, The Gennett Poplar (gnp_001)**: a second reader sent a photo from the same August 2024 visit: one visitor and two dogs at the foot, with the whole trunk rising into the crown. It is now the lead because it shows the height the first photo cropped. The first reader's photo with two visitors moved into the strip. Both are filed as August.
 - Lead 3c544597 (near Amsterdam's Last Elm, sent by one of our own accounts) has no file on this machine. It was not judged and is left for a run that can fetch it.

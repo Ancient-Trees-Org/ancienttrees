@@ -237,16 +237,6 @@
       "released_at": "2026-11-19T09:54:23+00:00"
     },
     {
-      "slug": "nuremberg",
-      "kind": "verify",
-      "released_at": "2026-11-19T21:56:43+00:00"
-    },
-    {
-      "slug": "graz",
-      "kind": "verify",
-      "released_at": "2026-11-19T21:56:46+00:00"
-    },
-    {
       "slug": "melbourne",
       "kind": "verify",
       "released_at": "2026-11-19T21:56:48+00:00"
@@ -330,6 +320,16 @@
       "slug": "guimaraes",
       "kind": "verify",
       "released_at": "2026-11-21T22:51:36+00:00"
+    },
+    {
+      "slug": "graz",
+      "kind": "verify",
+      "released_at": "2026-11-22T01:48:38+00:00"
+    },
+    {
+      "slug": "nuremberg",
+      "kind": "verify",
+      "released_at": "2026-11-22T01:48:40+00:00"
     }
   ]
 }

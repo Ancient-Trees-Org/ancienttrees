@@ -2830,6 +2830,13 @@
       ],
       "since": "2026-11-21",
       "mailed": []
+    },
+    "leamington-spa": {
+      "trees": [
+        "lsp_001"
+      ],
+      "since": "2026-11-22",
+      "mailed": []
     }
   }
 }
