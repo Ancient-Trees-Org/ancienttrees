@@ -43,8 +43,14 @@ export const PROFILE_EDITOR_JS = `
   // What the account already holds, read once when a page with the sheet
   // loads signed in, so the sheet opens filled rather than empty: an empty box
   // on a page that knows the answer reads as data lost.
-  var s = session();
-  if (s) {
+  // Read at load and again on open while it has not landed: a sign-in being
+  // renewed as the page loads (signin-js atRefreshing) left the first open
+  // empty (seen live 2026-11-22).
+  var loading = false;
+  function load() {
+    var s = session();
+    if (!s || loading || myId) return;
+    loading = true;
     fetch(SB + '/auth/v1/user', { headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token } })
       .then(function(r) { return r.ok ? r.json() : null; })
       .then(function(u) {
@@ -65,11 +71,16 @@ export const PROFILE_EDITOR_JS = `
             myCountry = c.country; myHidden = c.hidden;
             countryBox.value = c.country || (c.hidden ? '' : c.guess);
           }).catch(function() {});
-      }).catch(function() {});
+      }).catch(function() {}).then(function() { loading = false; });
   }
+  load();
+  window.addEventListener('load', function() {
+    if (window.atRefreshing) Promise.resolve(window.atRefreshing).catch(function() {}).then(load);
+  });
 
   window.atProfileEditor = {
     open: function(msg) {
+      load();
       if (msg) say(msg); else quiet();
       if (sheet.showModal && !sheet.open) sheet.showModal();
     }
