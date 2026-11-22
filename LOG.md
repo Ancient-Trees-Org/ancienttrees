@@ -21,6 +21,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: two off-list holds reversed on Hidde's ask (Malmö weeping beech live, Witch Tree photo in the strip)
+
+- **New tree, malmo/mlm_001, The Weeping Beech of Magistratsparken** (tip-763, sent 2026-11-15 through the website): the whole tree fills the frame, a three-peaked dome of hanging branches, summer daylight. Held on 11-15 for "no GPS and no written source", neither on the closed list. Reader's words quoted unnamed ("Majestic Hängbok"), story 217 words, nothing about age or girth invented. Pin **approximate** at the park's centre (OpenStreetMap way 28482241): no source places the tree inside the park (Overpass timed out, Commons geosearch and a web search found nothing). Malmö is a one-tree place, so no place page; the tree page is live as a reader-found tree. The congratulation mail waits for the deploy (tree_approved.py: "not in the live feed yet"); the knock sends it.
+- **The Witch Tree of Fanal (madeira/mdr_005)**: the reader's backlit til in fog (sighting 89fa82ed) goes in the strip, not the lead, via sightings_publish.py `strip` (re-queued from the 11-15 queue entry). The tree's own lead (an iNaturalist photo) is still `held`, so the reader's photo may be the first picture the page shows (not checked in the built page).
+- Verdicts: lead:tip-763, sight:tip-763 and sight:89fa82ed publish, each with Hidde's word filed as agreed. qa --source-only clean, preflight 0 problems, i18ncheck clean.
+
 ## 2026-11-22 reader judge: the Antwerp copper beech gets its first photograph
 
 - **Antwerp, ant_001** (The Copper Beech of Sint-Willibrorduskerk): a reader's photograph from the website is now its lead, the first picture the tree has had. It shows the whole beech filling its little square in low November sun.

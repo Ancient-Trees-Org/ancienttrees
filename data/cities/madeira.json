@@ -230,7 +230,22 @@
         "url": "https://www.openstreetmap.org/node/11893400096",
         "date": "2026-10-10",
         "moved_m": 0
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-89fa82ed.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1019,
+          "height": 1124,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_f2672ab7bbb88b12a4928f3e",
+          "sighting_id": "89fa82ed-c931-4070-a67b-e17d62682c1e",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-22: Session 2026-11-22 on Hidde's ask: off-list hold reversed. A backlit til in fog with arm-like limbs on the Fanal grass, sent for the Witch Tree; Fanal's tils look alike, so it goes in the strip, never the lead (Hidde, 2026-11-06: embrace reader content that is sort of the tree). Species seen: evergreen laurel-forest tree, dense dark leathery foliage, short twisted mossy trunk on open grass among other tils in fog: til. Fits the description: a hard-twisted mossy trunk whose limbs reach out sideways like arms, in the Fanal grove in fog.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "mdr_006",

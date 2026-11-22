@@ -16980,10 +16980,10 @@
     "score": null,
     "note": "nothing measurable about Til / Stinkwood (Ocotea foetens)"
    },
-   "verdict": "hold",
-   "reason": "Photograph viewed: a backlit til in fog with arm-like limbs, which could be the Witch Tree, but Fanal's tils look alike and the sighting's position is exactly our pin (no fix of its own), so the frame cannot settle which trunk. Held, as on 2026-11-15.",
-   "hidde": null,
-   "agreed": null,
+   "verdict": "publish",
+   "reason": "In the strip of mdr_005 (the Witch Tree of Fanal) on Hidde's ask 2026-11-22: a backlit til in fog with arm-like limbs, sort of the tree; not the lead, since Fanal's tils look alike.",
+   "hidde": "Session 2026-11-22 on Hidde's ask: off-list hold reversed, published",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
@@ -17254,10 +17254,10 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "For Hidde tomorrow: superb weeping beech in Magistratsparken, Malmo, but no GPS fix and no written source to place the trunk.",
-   "hidde": null,
-   "agreed": null,
+   "verdict": "publish",
+   "reason": "Live as malmo/mlm_001 on Hidde's ask 2026-11-22: a weeping beech filling the frame in Magistratsparken, Malmo, daylight, colour; held for no GPS and no written source, neither on the closed list. Pin approximate at the park centre (no source places the tree).",
+   "hidde": "Session 2026-11-22 on Hidde's ask: off-list hold reversed, published",
+   "agreed": true,
    "shown": [
     "2026-11-16",
     "2026-11-17",
@@ -17267,6 +17267,19 @@
     "2026-11-21",
     "2026-11-22"
    ]
+  },
+  {
+   "id": "sight:tip-763",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Weeping Beech of Magistratsparken",
+   "photo": "p_fc14e72a5774c09d7ee8ace0/fb15cfeb-8524-4156-b736-b8218bd6acc6.jpg",
+   "reader_note": "Majestic Hängbok, (Fagus sylvatica 'Pendula'), Magistratsparken, Malmö, Sweden.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole weeping beech on a park lawn, a three-peaked green dome of hanging branches, summer daylight, colour. Live as malmo/mlm_001 on Hidde's ask (off-list hold reversed).",
+   "hidde": "Session 2026-11-22 on Hidde's ask: off-list hold reversed, published",
+   "agreed": true,
+   "shown": []
   },
   {
    "id": "lead:fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",

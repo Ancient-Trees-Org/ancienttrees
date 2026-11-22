@@ -1466,8 +1466,12 @@
    "pin_checked": "2026-11-15"
   },
   "tip-763": {
-   "outcome": "lead",
-   "date": "2026-11-15"
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "mlm_001",
+   "city_slug": "malmo",
+   "file": "mlm_001-weeping-beech-of-magistratsparken.jpg",
+   "reason": "Off-list hold reversed on Hidde's ask, 2026-11-22"
   },
   "fcdce151-c9a5-4421-8781-585b038bb4a3": {
    "outcome": "published",
@@ -1949,10 +1953,15 @@
    "pin_checked": "2026-11-15"
   },
   "89fa82ed-c931-4070-a67b-e17d62682c1e": {
-   "outcome": "held",
-   "date": "2026-11-15",
+   "outcome": "added",
+   "date": "2026-11-22",
    "tree_id": "mdr_005",
-   "reason": "Fanal's laurels look alike in fog; the frame cannot settle which trunk is the Witch Tree"
+   "city_slug": "madeira",
+   "file": "mdr_005-the-witch-tree-of-fanal-89fa82ed.jpg",
+   "reason": "Session 2026-11-22 on Hidde's ask: off-list hold reversed. A backlit til in fog with arm-like limbs on the Fanal grass, sent for the Witch Tree; Fanal's tils look alike, so it goes in the strip, never the lead (Hidde, 2026-11-06: embrace reader content that is sort of the tree). Species seen: evergr",
+   "lat": 32.8116362,
+   "lon": -17.144537,
+   "pin_checked": "2026-11-22"
   },
   "fc04d59e-bb37-4b00-b069-2a4d28ebcf05": {
    "outcome": "held",

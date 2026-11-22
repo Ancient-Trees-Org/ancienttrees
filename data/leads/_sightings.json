@@ -2493,9 +2493,11 @@
    "extra_files": [],
    "nearest_published_m": null,
    "register": null,
-   "status": "held",
-   "why": "2026-11-15, for Hidde tomorrow: weeping beech in Magistratsparken, Malmo; superb photo but no GPS and no written source; needs an OSM or Malmo tree-map pin, or a GPS photo from the reader",
-   "seen": "2026-11-15"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole weeping beech on a park lawn, its hanging branches in a three-peaked green dome, the short dark trunk visible underneath, a gravel path, benches and apartment blocks around it, summer daylight, colour. Live as malmo/mlm_001 on Hidde's ask (2026-11-22): the 2026-11-15 hold for no GPS and no written source is not on the closed list.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-22",
+   "published_as": "malmo/mlm_001"
   },
   {
    "sighting_id": "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b",

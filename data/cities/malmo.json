@@ -1,0 +1,72 @@
+{
+  "city": "Malmö",
+  "country": "Sweden",
+  "status": "needs_curation",
+  "intro": "Malmö is Sweden's third city, at the southern tip of the country across the Öresund from Copenhagen. In Magistratsparken, a small city park in Rådmansvången, grows a weeping beech whose hanging branches have built a three-peaked green dome on the lawn, the trunk only visible from underneath. A reader sent us its photograph and calls it majestic. We do not yet know its age or girth.",
+  "meta_description": "The weeping beech in Magistratsparken, Malmö: a green dome of hanging branches a reader photographed, where it grows and what we know.",
+  "hero_tree_id": "mlm_001",
+  "oldest_tree_id": "mlm_001",
+  "trees": [
+    {
+      "id": "mlm_001",
+      "name": "The Weeping Beech of Magistratsparken",
+      "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Magistratsparken, Rådmansvången, Malmö",
+        "latitude": 55.5960076,
+        "longitude": 12.9978854,
+        "neighbourhood": "Rådmansvången"
+      },
+      "story": "\"Majestic Hängbok,\" wrote the reader who sent us this tree from Magistratsparken in Malmö, and the photograph bears the word out. Hängbok is Swedish for weeping beech, Fagus sylvatica 'Pendula', the form of the common European beech whose branches turn down instead of up.\n\nThis one has had a lawn to itself long enough to become a building of leaves. Its crown rises in three green peaks, like a small range of hills, and from every limb the branches pour straight down in curtains until they hang just above the grass, so that from the path it reads less as a tree than as a single green mass. Only underneath, in the shade, does the trunk show, short and dark, carrying the whole weight. Benches line the path along the edge of the crown.\n\nMagistratsparken is a small city park in Rådmansvången, close to Malmö Konsthall and the city theatre. We do not know when the beech was planted, how big round its trunk is, or how old it might be. If you know, or have measured it, tell us here and we will add it with your figures.\n\nOur pin marks the park, not the tree. Come in summer and walk right round it on the lawn, and watch the dome change shape with every step.",
+      "how_to_recognise": "On the lawn of Magistratsparken: a weeping beech whose hanging branches form a three-peaked green dome almost to the grass, a short dark trunk showing underneath, benches along the gravel path beside it.",
+      "access": "Free, in a public city park.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/28482241 (OpenStreetMap: Magistratsparken, the public park in Rådmansvången, Malmö, where the reader's note places this weeping beech)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-763",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "park centre",
+        "source": "OpenStreetMap way 28482241 (Magistratsparken)",
+        "date": "2026-11-22",
+        "note": "The reader named the park and sent no coordinate; the pin is the park's centre. The park is about 180 by 250 metres, so the tree stands within roughly 150 m of it."
+      },
+      "verify_notes": "2026-11-22 session, on Hidde's ask to reverse holds not on the closed list: sent by a reader through the website tip form (tip-763, 2026-11-15), note 'Majestic Hängbok, (Fagus sylvatica 'Pendula'), Magistratsparken, Malmö, Sweden.', no coordinate, no species field, no age or girth. Photograph viewed: the whole weeping beech on a park lawn, its hanging branches in a three-peaked green dome, the short dark trunk visible underneath, a gravel path, benches and apartment blocks around it, summer daylight, colour. Held on 2026-11-15 for no GPS fix and no written source, neither a reason under the closed list (Hidde, 2026-11-17). Pin: no source found that places the tree inside the park (Overpass timed out twice, Commons geosearch and a web search found nothing on it), so the pin is the park centre and approximate. Species is the reader's, and the photograph's habit agrees.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mlm_001-weeping-beech-of-magistratsparken.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 675,
+        "source": "contributor",
+        "contributor_user_id": "p_fc14e72a5774c09d7ee8ace0",
+        "sighting_id": "tip-763",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the website); viewed and approved on 2026-11-22: the whole weeping beech on a park lawn, its hanging branches in a three-peaked green dome, the short dark trunk visible underneath, a gravel path, benches and apartment blocks around it, summer daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The weeping beech in Magistratsparken, Malmö: a green dome of hanging branches a reader photographed, where it grows and what we know.",
+  "question_answer": "The Weeping Beech of Magistratsparken grows in Magistratsparken, a small public park in Rådmansvången, Malmö. Its age is not recorded.",
+  "question_context": "A reader sent us this tree from Magistratsparken in Malmö with two words for it: majestic Hängbok, the Swedish name for the weeping beech, Fagus sylvatica 'Pendula'. That is the form of the common European beech whose branches turn down instead of up, and in the reader's photograph it has grown into a single green mass on the lawn. The crown rises in three peaks and from every limb the branches hang straight down to just above the grass, so that the trunk, short and dark, only shows from underneath. Benches line the gravel path along the edge of the crown. Magistratsparken is a small city park in Rådmansvången, close to Malmö Konsthall and the city theatre, free to walk into. We have no record of when the beech was planted, of its girth or of its age, and we do not guess one. If you have measured it, or know its story, tell us on the tree's page and we will add it with your figures.",
+  "faq": [
+    {
+      "q": "Where is the weeping beech in Malmö?",
+      "a": "In Magistratsparken, a small public park in Rådmansvången, close to Malmö Konsthall."
+    },
+    {
+      "q": "Can I visit The Weeping Beech of Magistratsparken?",
+      "a": "Yes. It grows in a public city park and costs nothing to see."
+    },
+    {
+      "q": "How old is the weeping beech in Magistratsparken?",
+      "a": "We do not know. No age or girth is recorded for it yet; if you know, tell us on the tree's page."
+    }
+  ]
+}
