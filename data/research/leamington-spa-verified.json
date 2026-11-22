@@ -1,0 +1,71 @@
+[
+  {
+    "id": "lsp_003",
+    "name": "The Japanese Oak in Jephson Gardens",
+    "species": "Japanese Evergreen Oak (Quercus acuta)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "location": {
+      "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa",
+      "latitude": 52.28794,
+      "longitude": -1.53082,
+      "neighbourhood": "Sydenham"
+    },
+    "verified_sources": [
+      "https://www.warwickdc.gov.uk/directory_record/17417/japanese_oak",
+      "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+      "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+    ],
+    "access": "Free, public park (Green Flag, council-run), open daily; entrances on Newbold Terrace and The Parade. Opening hours not checked in this pass.",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Council record (owner of the ground, Warwick District Council \"Trees at Jephson's\" project): Quercus acuta, native to Japan; says it \"may be one of the finest Japanese oaks in the country\" and is best looked at from the bottom of the steps. Evergreen, slow-growing, very small acorns visible in autumn; its wood is used for martial-arts practice weapons (record says so). Leaflet numbers it 91, a single specimen on the map, east of the Jephson Memorial toward the Davis Clock Tower. No girth, height or planting date in any source seen; age left empty. Alive: council directory and 2024 leaflet list it as present, no dated photo of this tree found; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix. Recognition: stand at the foot of the steps and look up for a dark, glossy evergreen oak with narrow, toothed leaves (unlike the holm oaks nearby). Steps location is from the council text, not mapped by me."
+  },
+  {
+    "id": "lsp_004",
+    "name": "The Caucasian Oak in Jephson Gardens",
+    "species": "Caucasian Oak (Quercus macranthera)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "location": {
+      "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa",
+      "latitude": 52.28811,
+      "longitude": -1.53192,
+      "neighbourhood": "Sydenham"
+    },
+    "verified_sources": [
+      "https://www.warwickdc.gov.uk/directory_record/17407/caucasian_oak",
+      "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+      "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+    ],
+    "access": "Free, public park (Green Flag, council-run), open daily; entrances on Newbold Terrace and The Parade. Opening hours not checked in this pass.",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Council record: Quercus macranthera (Persian Oak), from the Caucasus; \"a large, rare tree\", notable for its height, with neighbouring trees still small though quite old; best seen from the path by the glasshouse. Leaflet number 93, one specimen on the map, about 25 m north of the Glasshouse (Commons/geograph place the Glasshouse at about 52.28788, -1.53200), consistent with the council wording. No girth, height or age in any source; age empty. Alive: listed in council directory and 2024 leaflet; no dated photo found; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix. Recognition: from the glasshouse path, the tall single-stemmed oak with large leaves standing above smaller trees."
+  },
+  {
+    "id": "lsp_005",
+    "name": "The Sweet Gum on the Aviary Path",
+    "species": "Sweet Gum (Liquidambar styraciflua)",
+    "age_estimate": "not documented",
+    "age_min": null,
+    "age_max": null,
+    "location": {
+      "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa (path from the Aviary towards Willes Road)",
+      "latitude": 52.28881,
+      "longitude": -1.52929,
+      "neighbourhood": "Sydenham"
+    },
+    "verified_sources": [
+      "https://www.warwickdc.gov.uk/directory_record/17423/sweet_gum",
+      "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+      "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+    ],
+    "access": "Free, public park (Green Flag, council-run), open daily; entrances on Newbold Terrace and The Parade. Opening hours not checked in this pass.",
+    "location_precision": "approximate",
+    "curation_status": "flagged",
+    "verify_notes": "Council record: several larger sweet gums in Jephson Gardens; the largest in Warwickshire is \"along the path from the Aviary towards Willes Road\" (superlative is the council's own, no measurement given; no Tree Register or champion listing found, TROBI not searched directly). Leaflet number 66 appears at several points; two marks about 7 m apart lie roughly 65 m east of the Aviary on that path (52.2888, -1.5293); I cannot tell from the map which is the largest, so the pin is the pair midpoint and the entry is one point. A third mark near 52.2893, -1.5288 is also on the east side. Leaflet says Sweet Gum and Sugar Maple give the deep reds of autumn colour in the gardens (best_time candidate: autumn colour, October to early November). No girth, height, age. Alive: listed 2024; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix."
+  }
+]

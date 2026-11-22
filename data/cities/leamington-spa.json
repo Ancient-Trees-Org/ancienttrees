@@ -2,25 +2,25 @@
   "city": "Royal Leamington Spa",
   "country": "United Kingdom",
   "status": "needs_curation",
-  "intro": "Royal Leamington Spa is a Regency spa town on the River Leam in Warwickshire, its streets of white stucco laid out when people came to take the waters. One reader has sent us two of its trees, both by the railway viaduct on the west side of town: a wide old oak on a grassy bank at the entrance to Elizabeth Park, and a towering redwood at the entrance to Victoria Park, each with their own measurement of its trunk.",
-  "meta_description": "Two trees readers found in Royal Leamington Spa: a wide old oak at Elizabeth Park and a towering redwood at Victoria Park, and how to find them.",
+  "intro": "Royal Leamington Spa is a Regency spa town on the River Leam in Warwickshire. Its old trees come in two groups. By the railway viaduct on the west side, a reader sent us a wide oak at the entrance to Elizabeth Park and a towering redwood at the entrance to Victoria Park. In Jephson Gardens, by the river in the centre, the council's own records point to a Japanese oak it calls one of the finest in the country, a rare Caucasian oak and the largest sweet gum in Warwickshire.",
+  "meta_description": "Old trees in Royal Leamington Spa: an oak at Elizabeth Park, a redwood at Victoria Park, and Warwickshire's largest sweet gum in Jephson Gardens.",
   "hero_tree_id": "lsp_001",
   "oldest_tree_id": "lsp_001",
-  "question_meta": "Two trees readers found in Royal Leamington Spa: a wide old oak at Elizabeth Park and a towering redwood at Victoria Park, and how to find them.",
-  "question_answer": "The Oak at the Gate of Elizabeth Park stands on a grassy bank at the entrance to Elizabeth Park, by Princes Drive in Milverton, and the Redwood at the Gate of Victoria Park stands beside the path at the entrance to Victoria Park, a short walk away. Both are free to visit.",
-  "question_context": "Both of Royal Leamington Spa's trees on our map came from the same reader, and both stand near the stone arches of the railway viaduct on the west side of town. The first is an oak at the entrance to Elizabeth Park, by Princes Drive: a short, thick trunk that leans a little and breaks into crooked limbs spreading wider than the tree is tall, the open-grown shape of an oak that has never had to compete for light. The reader measured its trunk at 375 centimetres round. The second is a redwood at the entrance to Victoria Park, a red, flared trunk rising far above its neighbours. The reader measured it at 450 centimetres round and calls it a coast redwood; its hanging shoots look to us like a giant sequoia, so we ask readers who know. Those figures are theirs, and we have no planting records for either tree yet. Both parks are public.",
+  "question_meta": "Old trees in Royal Leamington Spa: an oak at Elizabeth Park, a redwood at Victoria Park, and Warwickshire's largest sweet gum in Jephson Gardens.",
+  "question_answer": "The oldest trees we know of in Royal Leamington Spa are the Oak at the Gate of Elizabeth Park, by Princes Drive in Milverton, and the Redwood at the Gate of Victoria Park a short walk away; in Jephson Gardens the council's records point to a Japanese oak, a Caucasian oak and the county's largest sweet gum. All are free to visit.",
+  "question_context": "Two of Royal Leamington Spa's trees on our map came from the same reader, and both stand near the stone arches of the railway viaduct on the west side of town. The first is an oak at the entrance to Elizabeth Park, by Princes Drive: a short, thick trunk that leans a little and breaks into crooked limbs spreading wider than the tree is tall, the open-grown shape of an oak that has never had to compete for light. The reader measured its trunk at 375 centimetres round. The second is a redwood at the entrance to Victoria Park, a red, flared trunk rising far above its neighbours. The reader measured it at 450 centimetres round and calls it a coast redwood; its hanging shoots look to us like a giant sequoia, so we ask readers who know. Those figures are theirs, and we have no planting records for either tree yet. Both parks are public.",
   "faq": [
     {
       "q": "Where are the old trees in Royal Leamington Spa?",
-      "a": "An old oak stands at the entrance to Elizabeth Park, by Princes Drive in Milverton, and a tall redwood at the entrance to Victoria Park, a short walk away. Both are near the railway viaduct."
+      "a": "An old oak stands at the entrance to Elizabeth Park and a tall redwood at the entrance to Victoria Park, both near the railway viaduct. In Jephson Gardens, by the river in the town centre, stand a Japanese oak, a Caucasian oak and the sweet gum the council calls the largest in Warwickshire."
     },
     {
       "q": "Can I visit them?",
-      "a": "Yes. Both stand at the entrances to public parks and are free to visit."
+      "a": "Yes. They all stand in public parks or at their entrances and are free to visit."
     },
     {
       "q": "How big are the trees?",
-      "a": "The reader who sent them measured the oak's trunk at 375 centimetres round and the redwood's at 450. We have no record of their heights or planting yet."
+      "a": "The reader who sent the first two measured the oak's trunk at 375 centimetres round and the redwood's at 450. We have no measurements yet for the Jephson Gardens trees."
     }
   ],
   "trees": [
@@ -139,6 +139,114 @@
           "taken_month_basis": "the photograph's own date"
         }
       ]
+    },
+    {
+      "id": "lsp_003",
+      "name": "The Japanese Oak in Jephson Gardens",
+      "species": "Japanese Evergreen Oak (Quercus acuta)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa",
+        "latitude": 52.28794,
+        "longitude": -1.53082,
+        "neighbourhood": "Sydenham"
+      },
+      "story": "Warwick District Council, which looks after Jephson Gardens, says this may be one of the finest Japanese oaks in the country. Quercus acuta is not the oak most people picture. It keeps its leaves all winter, narrow, glossy and dark green, and its acorns are tiny. Its hard wood is used for martial-arts practice weapons, the council's record notes.\n\nThe gardens around it were laid out in the 1830s and 1840s beside the River Leam. The first plan lined the central walk with an avenue of twenty-eight holm oaks, the evergreen oak of the Mediterranean. Today the gardens hold more than 140 kinds of tree from Europe, Asia, the Americas and further, according to the council's tree walk leaflet. This oak came from the far end of that range, from Japan, and the council does not say when it was planted.\n\nWe have no measurement of its trunk or its height yet, and no record of its age, so the page leaves those empty rather than guess.\n\nThe council's advice for seeing it is precise: stand at the bottom of the steps and look up. In winter, when most of the garden is bare, its dark crown is easy to pick out.",
+      "how_to_recognise": "Stand at the foot of the steps and look up: a dark, glossy evergreen oak with narrow, toothed leaves, green all winter.",
+      "verified_sources": [
+        "https://www.warwickdc.gov.uk/directory_record/17417/japanese_oak",
+        "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+        "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+      ],
+      "access": "Free, in Jephson Gardens, a public park run by the council; entrances on Newbold Terrace and The Parade.",
+      "verify_notes": "Council record (owner of the ground, Warwick District Council \"Trees at Jephson's\" project): Quercus acuta, native to Japan; says it \"may be one of the finest Japanese oaks in the country\" and is best looked at from the bottom of the steps. Evergreen, slow-growing, very small acorns visible in autumn; its wood is used for martial-arts practice weapons (record says so). Leaflet numbers it 91, a single specimen on the map, east of the Jephson Memorial toward the Davis Clock Tower. No girth, height or planting date in any source seen; age left empty. Alive: council directory and 2024 leaflet list it as present, no dated photo of this tree found; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix. Recognition: stand at the foot of the steps and look up for a dark, glossy evergreen oak with narrow, toothed leaves (unlike the holm oaks nearby). Steps location is from the council text, not mapped by me. 2026-11-22: pointed to these council records by a reader, the Leamington ambassador.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "council tree walk leaflet map",
+        "date": "2026-11-22",
+        "note": "Read off the numbered species map in the 2024 Jephson Gardens tree walk leaflet, calibrated against five landmarks; about 10 to 20 m."
+      }
+    },
+    {
+      "id": "lsp_004",
+      "name": "The Caucasian Oak in Jephson Gardens",
+      "species": "Caucasian Oak (Quercus macranthera)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa",
+        "latitude": 52.28811,
+        "longitude": -1.53192,
+        "neighbourhood": "Sydenham"
+      },
+      "story": "The council's record calls this Caucasian oak a large, rare tree, and notes that neighbouring trees, though quite old themselves, are still small beside it.\n\nQuercus macranthera, also called the Persian oak, comes from the Caucasus and the mountains south of the Caspian Sea. Its leaves are big and deeply lobed, larger than those of the English oak, and its young shoots are soft with hairs.\n\nJephson Gardens was laid out in the 1830s and 1840s on the bank of the River Leam and now holds more than 140 species of tree, with at least fourteen hybrids, according to the council's tree walk leaflet. The leaflet says some of the trees are the finest examples in Warwickshire and have national significance. It does not say which, and it gives no age, girth or height for this oak, so we leave those empty for now.\n\nWhat a visitor can see is height. Find it from the path by the glasshouse, as the council suggests: a single tall oak with large leaves, standing clear above the smaller trees around it, a short walk north of the glass walls.",
+      "how_to_recognise": "From the path by the glasshouse, a short walk north of it: the tall single-stemmed oak with large lobed leaves, standing above the smaller trees around it.",
+      "verified_sources": [
+        "https://www.warwickdc.gov.uk/directory_record/17407/caucasian_oak",
+        "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+        "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+      ],
+      "access": "Free, in Jephson Gardens, a public park run by the council; entrances on Newbold Terrace and The Parade.",
+      "verify_notes": "Council record: Quercus macranthera (Persian Oak), from the Caucasus; \"a large, rare tree\", notable for its height, with neighbouring trees still small though quite old; best seen from the path by the glasshouse. Leaflet number 93, one specimen on the map, about 25 m north of the Glasshouse (Commons/geograph place the Glasshouse at about 52.28788, -1.53200), consistent with the council wording. No girth, height or age in any source; age empty. Alive: listed in council directory and 2024 leaflet; no dated photo found; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix. Recognition: from the glasshouse path, the tall single-stemmed oak with large leaves standing above smaller trees. 2026-11-22: pointed to these council records by a reader, the Leamington ambassador.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "council tree walk leaflet map",
+        "date": "2026-11-22",
+        "note": "Read off the numbered species map in the 2024 Jephson Gardens tree walk leaflet, calibrated against five landmarks; about 10 to 20 m."
+      }
+    },
+    {
+      "id": "lsp_005",
+      "name": "The Sweet Gum on the Aviary Path",
+      "species": "Sweet Gum (Liquidambar styraciflua)",
+      "age_estimate": "not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Jephson Gardens, Newbold Terrace / The Parade, Royal Leamington Spa (path from the Aviary towards Willes Road)",
+        "latitude": 52.28881,
+        "longitude": -1.52929,
+        "neighbourhood": "Sydenham"
+      },
+      "story": "The council says the largest sweet gum in Warwickshire grows on the path from the Aviary towards Willes Road in Jephson Gardens. Several big sweet gums stand in the gardens; this is the stretch to look along.\n\nLiquidambar styraciflua comes from the south-east of the United States. Its star-shaped leaves have five to seven pointed lobes and are easy to take for a maple's, until you notice they grow one at a time along the shoot instead of in pairs. The name comes from its resinous sap, which people in the American South once chewed like gum, according to the council's record.\n\nAutumn is its season. The gardens' tree walk leaflet names the sweet gum and the sugar maple for the deep reds of autumn here, set against the oranges of the swamp cypresses and the yellows of the black walnut and the Caucasian wingnut. In winter the bare branches keep their spiky round seed balls.\n\nWe have no measurement of the trunk yet and no planting date, so the county title is the council's word rather than ours. The leaflet's map marks two sweet gums close together on this path, and we cannot yet tell from it which is the big one, so the pin sits between them.",
+      "how_to_recognise": "On the path from the Aviary towards Willes Road, about 65 metres east of the Aviary: a broad tree with star-shaped leaves, deep red in autumn, spiky seed balls in winter.",
+      "verified_sources": [
+        "https://www.warwickdc.gov.uk/directory_record/17423/sweet_gum",
+        "https://www.warwickdc.gov.uk/download/downloads/id/8569/jephson_gardens_tree_walk_leaflet.pdf",
+        "https://www.warwickdc.gov.uk/directory/31/trees_in_jephson_gardens"
+      ],
+      "access": "Free, in Jephson Gardens, a public park run by the council; entrances on Newbold Terrace and The Parade.",
+      "verify_notes": "Council record: several larger sweet gums in Jephson Gardens; the largest in Warwickshire is \"along the path from the Aviary towards Willes Road\" (superlative is the council's own, no measurement given; no Tree Register or champion listing found, TROBI not searched directly). Leaflet number 66 appears at several points; two marks about 7 m apart lie roughly 65 m east of the Aviary on that path (52.2888, -1.5293); I cannot tell from the map which is the largest, so the pin is the pair midpoint and the entry is one point. A third mark near 52.2893, -1.5288 is also on the east side. Leaflet says Sweet Gum and Sugar Maple give the deep reds of autumn colour in the gardens (best_time candidate: autumn colour, October to early November). No girth, height, age. Alive: listed 2024; flagged. Pin read off the numbered species map in the 2024 tree-walk leaflet (Royal Leamington Spa Town Council, Leamington in Bloom, Warwick District Council), calibrated against OSM/Commons positions of the Hitchman Fountain, Willes Obelisk, Jephson Memorial, Davis Clock Tower and Aviary (residual 3 to 8 m); expect 10 to 20 m error. Approximate, not a GPS fix. 2026-11-22: pointed to these council records by a reader, the Leamington ambassador.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "council tree walk leaflet map",
+        "date": "2026-11-22",
+        "note": "Read off the numbered species map in the 2024 Jephson Gardens tree walk leaflet, calibrated against five landmarks; about 10 to 20 m."
+      }
     }
   ]
 }

@@ -18,6 +18,12 @@ Breakage, caught before push: this run also built the Bad Homburg oak (lead 6315
 Reports: 1000124 (same reader, "not showing up in the space for summer") is now true because the photo is live. The reader wrote their own words, so no standard mail went; a suggested answer is in drafts/reply-reader-1000124-2026-11-22.md and the report is closed `holds`. Its reader_words row is closed as a question to us.
 Left: lead 3c544597 (Amsterdam, `mine: true`, our own account) still has no photo on disk; not judged blind.
 
+## 2026-11-22 session: three Jephson Gardens trees, from the Leamington ambassador's links
+
+- Joanna (Leamington ambassador, sent lsp_001 and lsp_002 through the app) mailed Warwick District Council's Jephson Gardens tree walk leaflet and its "Trees in Jephson Gardens" records. A verify pass turned them into three trees, stories written here: lsp_003 Japanese oak ("may be one of the finest in the country"), lsp_004 Caucasian oak (large, rare), lsp_005 the sweet gum the council calls the largest in Warwickshire. Approximate pins read off the leaflet map, no photographs, so they are app trees with pins on the web map until a reader adds to them. Intro, meta and FAQ of /leamington-spa name them.
+- Not added: the lakeside holm oak shortlisted for Tree of the Year was felled in July 2025 (blocked); the 1848 Ceremony of Oaks holm oak may be the same tree, the silver pendant lime could not be pinned, the Hitchman deodar was probably felled in 2024 (all in data/leads/leamington-spa.json).
+- Reply to Joanna drafted (drafts/reply-joanna-leamington-2026-11-22.md), waits for Hidde's yes.
+
 ## 2026-11-22 session: the photo heart's tap area (iOS check red)
 
 - ios.yml went red on Visitors: the heart on a visitor's photograph was a 26-point button since it split from its count. Hidde picked A of two screenshots (drafts/heart-tap-A-vs-B.png): the heart and the count now have Apple's 44-point tap area and look exactly as before (negative padding, PhotoLikes.swift). Seen on the simulator; CI is the proof.

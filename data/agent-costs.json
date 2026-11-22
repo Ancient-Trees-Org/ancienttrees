@@ -2,6 +2,7 @@
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
     "2026-11-22": [
+      {"date": "2026-11-22", "kind": "verify", "target": "leamington-spa", "tokens": 174000, "trees": 3, "note": "Jephson Gardens deepen from a reader-ambassador's links: Japanese oak, Caucasian oak, sweet gum from the council's tree records, pins read off the 2024 leaflet map; Tree of the Year holm oak found felled 2025; 4 leads, 1 blocked. Stories written in the session."},
       {"date": "2026-11-22", "kind": "write", "target": "miami+birmingham", "tokens": 70000, "trees": 4, "note": "mia_018 Bayshore Park rubber fig, mia_019 Chase Avenue sea grape, mia_020 MBBG weeping fig (proximity flag to mia_010 checked by hand: different species, register-distinct), hwp_001 Handsworth Park black poplar as a one-tree Birmingham file; species renamed Rubber Fig per hard rule 9; no best_time (none has a real peak in the notes); estimate"},
       {"date": "2026-11-22", "kind": "write", "target": "las-vegas+new-york", "tokens": 95000, "trees": 3, "note": "pending pool nearly empty: lvg_015, lvg_016, nyc_029 written (proximity flags checked by hand, different species); every other unpublished entry live under another id, folded, or Birmingham hwp_001 (verify claim in flight); estimate"}
     ],
