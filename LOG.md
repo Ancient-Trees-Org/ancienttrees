@@ -241,6 +241,10 @@ Supply: every "awaiting a writer" file is stale (already published); READY is 4 
 - **Mail replies from the Horn-Lehe reader.** In 1492 she asks to be ambassador of "this part of Bremen": badge granted for horn-bremen (`ambassador.py --grant ... --send`). This machine had no mail credentials, so the "Looking after Horn-Lehe" welcome did **not** go out; a session or knock with credentials needs to send it. In 1491 she says the country she picks in the app still does not stay, even after a restart and after today's flag-upsert fix. Closed as `needs_hidde`; it is the open BUG row ESC-2026-11-22, and a session should check her profile row and her phone and build. Both rows are closed in reader_words as not about the tree.
 - Left: lead 3c544597 (Amsterdam, `mine`) still has no photo on disk. There were no open reports.
 
+## 2026-11-22 daily publish: queue empty
+
+- **Daily publish: queue empty.** The only builder newer than build_write_2026_11_21c is build_write_2026_11_22 (lvg_015, lvg_016, nyc_029), and all three are already on main in data/cities (243b8dd02); no out/tmp/held_build.py, and data/research/puglia-held/ was live before. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
+
 ## 2026-11-22 session: the country you pick on iPhone stays picked
 
 - Reader 1358 wrote again after this morning's flag fix: "Helaas wil het land bij mij nog niet blijven staan". The server takes the apps' save now (round-trip on apptest: BE, then NL). Her row still said NL, so her new choice had never reached it.
