@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge: a summer photo for the Linden of Linn
+
+Live: the Linden of Linn (zurich/boz_001) took a reader's August photo as its lead, filed in summer. The same reader had sent the frame twice, so the second copy was rejected as a duplicate.
+Breakage, caught before push: this run also built the Bad Homburg oak (lead 6315b918), but the eighth reader-judge run (314c4b0d7) had already published it as bhg_007 while this one was working. The rebase kept that run's tree and dropped this run's copy and photos. Two runs at once judged the same lead; the in-flight claim covers research passes only.
+Reports: 1000124 (same reader, "not showing up in the space for summer") is now true because the photo is live. The reader wrote their own words, so no standard mail went; a suggested answer is in drafts/reply-reader-1000124-2026-11-22.md and the report is closed `holds`. Its reader_words row is closed as a question to us.
+Left: lead 3c544597 (Amsterdam, `mine: true`, our own account) still has no photo on disk; not judged blind.
+
 ## 2026-11-22 session: the photo heart's tap area (iOS check red)
 
 - ios.yml went red on Visitors: the heart on a visitor's photograph was a 26-point button since it split from its count. Hidde picked A of two screenshots (drafts/heart-tap-A-vs-B.png): the heart and the count now have Apple's 44-point tap area and look exactly as before (negative padding, PhotoLikes.swift). Seen on the simulator; CI is the proof.

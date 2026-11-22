@@ -6750,6 +6750,23 @@
    "lat": 37.3785,
    "lon": -5.9885,
    "pin_checked": "2026-11-22"
+  },
+  "8e633401-7b56-4592-ae53-0f35da4fcb7a": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "boz_001",
+   "city_slug": "zurich",
+   "file": "boz_001-the-linden-of-linn-8e633401.jpg",
+   "reason": "The whole lime in full summer leaf, daylight, at the village edge by the road with benches ringed under the crown; the Linden of Linn Species seen: broad domed lime crown, heart-shaped leaves in dense summer foliage. Fits the description: a single huge free-standing lime on a grassy rise by the road",
+   "lat": 47.470833,
+   "lon": 8.132944,
+   "pin_checked": "2026-11-22"
+  },
+  "eaaa1074-cc85-4770-a25f-1f2f7b6d6dbf": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "boz_001",
+   "reason": "duplicate: the same frame as 8e633401, sent twice by the same reader, which went on the page"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

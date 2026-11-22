@@ -234,15 +234,17 @@
       "access": "Free, public. Directly at the 'Boezberg, Linn' bus stop, marking the village entrance; also reachable on a 20-minute waymarked walk from Boezberg-Neustalden station. Aargau Tourismus's own page (updated 2026-08-04) notes it is 'very popular and well-visited', suggesting a weekday or early Sunday visit for a quieter one.",
       "transport": "From Zurich: train to Brugg, then onward bus/local transport toward Boezberg/Linn; total journey likely 45-60 minutes each way (not independently timed step by step by us; this is a longer trip than the classic 30-minute day-trip case and should be labelled honestly as such).",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Linde_von_Linn_%28AG%2C_Schweiz%29%2C_M%C3%A4rz_2014.JPG",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Potentiam, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/boz_001-the-linden-of-linn-8e633401.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-13",
-        "width": 1024,
-        "height": 768,
-        "taken_month": 3
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_e27473e4c4acc8441dc59e17",
+        "sighting_id": "8e633401-7b56-4592-ae53-0f35da4fcb7a",
+        "note": "Photographed by a reader and sent through the app (2024-08-17); a viewing pass approved it on 2026-11-22: The whole lime in full summer leaf, daylight, at the village edge by the road with benches ringed under the crown; the Linden of Linn Species seen: broad domed lime crown, heart-shaped leaves in dense summer foliage. Fits the description: a single huge free-standing lime on a grassy rise by the road at the edge of the village, benches around its base, a person tiny under the crown.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -253,7 +255,20 @@
         "source_name": "Linner Linde",
         "qid": "Q584921",
         "views": 789
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Linde_von_Linn_%28AG%2C_Schweiz%29%2C_M%C3%A4rz_2014.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Potentiam, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-13",
+          "width": 1024,
+          "height": 768,
+          "taken_month": 3
+        }
+      ]
     }
   ]
 }
