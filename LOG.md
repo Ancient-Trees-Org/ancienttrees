@@ -21,6 +21,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: New from visitors stays up; deploys unblocked
+
+- **Why the homepage row vanished**: every deploy since 11-21 22:52 failed qa on one line, the Morris weeping beech's Sources line printing the slug of its blog source ("morris hidden gems", a banned phrase). The live build fell eleven hours behind, none of the 12 newest visitor photos were in it, and the row hides under four tiles.
+- **Fixed**: the source named in words (phl_020, URL in verify_notes); `pathHint()` in tree-sources.ts now skips a slug segment carrying a phrase from copy_rules.BANNED_WORDS (read at build), so a cited slug never fails a deploy again. Seven other trees cite such slugs, harmless while each is the only link on its host.
+- **The row never waits on a fresh build**: web, iOS and Android ask for 24 and page back through visitor_photos when fewer than four are known (live check against the stale build: 10 tiles). Web paints at once from the public call (it waited for page load, then the sign-in check); a signed-in visitor gets the same tiles repainted with profile links. App tests NewFromVisitorsTests / NewFromVisitorsTest, 4 of 4 each; simulator shows the row with a bundled feed 173 trees behind. The app fix ships with the next build.
+- Two stray thumbnails only on the Mac (bat_003, cdb_001 hashed -250.jpg) blocked the pre-push hook; moved to out/tmp/stray-photos/.
+- **The miss**: the start brief said deploys had not passed in 14 runs, and the reader-judge runs kept dispatching deploys for eleven hours without reading the failure.
+
 ## 2026-11-22 reader judge, a second run beside the first: two Copenhagen photographs
 
 - Thorvaldsen's Robinia (cop_003) has its first photograph: a reader's photo of a black locust standing alone on the Slotsholmen cobbles at our register pin. The Proviantgarden mulberry (cop_001) gets the same reader's yellow autumn shot in the strip. It is behind the lead because scaffolding stands round the tree today.
