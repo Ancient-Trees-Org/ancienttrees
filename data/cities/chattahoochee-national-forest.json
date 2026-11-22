@@ -36,18 +36,17 @@
       "verify_notes": "2026-11-17 night run: a reader's app photograph with a GPS fix at the tree. Hiking sites (Hike the South, Secret Falls, Komoot) agree on the tree and the Bear Creek trail; they disagree on the county (Gilmer or Murray). Age over 300 years and height over 100 ft come from one guide; girth about 18 ft (549 cm) from Secret Falls; 'second largest in Georgia' is a hiking site's claim and is stated as theirs. No champion-tree record was found for it. Pin is the reader's GPS fix: confirmed.",
       "access": "Free, public national forest land; about 0.8 miles on a trail from the end of the gravel Bear Creek Camp Road, with a few creek crossings.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar.jpg",
-        "taken_month": 8,
-        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
+        "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar-01c3e58d.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 8,
         "source": "contributor",
-        "contributor_user_id": "p_f127bf781505453e3305184d",
-        "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
-        "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The great trunk of the Gennett Poplar with two visitors for scale, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_dc8fac8edd6e90755a6d4f12",
+        "sighting_id": "01c3e58d-dd58-4bee-8ebc-c45524f340cb",
+        "note": "Photographed by a reader and sent through the app (2024-08-10); a viewing pass approved it on 2026-11-22: Looked at 2026-11-22: the full height of the Gennett Poplar from the trail, a visitor and two dogs at its foot, railing and steps behind; daylight. Same trunk as the lead (carved letters, steps), shows the height the lead crops. Species seen: deeply ridged straight grey trunk, single bole rising clear into a high crown, tulip-tree bark. Fits the description: one enormous straight ridged trunk beside the trail with railing and steps down to it, far wider than the person beside it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -56,7 +55,23 @@
         "source": "a reader's app photograph",
         "date": "2026-11-17",
         "note": "GPS fix at the tree."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar.jpg",
+          "taken_month": 8,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
+          "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The great trunk of the Gennett Poplar with two visitors for scale, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "The Gennett Poplar on Bear Creek in Georgia's Chattahoochee National Forest: a giant tulip tree, over 300 years old by one guide.",

@@ -11,10 +11,14 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge: a second reader's photo of the Gennett Poplar
+- **Chattahoochee National Forest, The Gennett Poplar (gnp_001)**: a second reader sent a photo from the same August 2024 visit: one visitor and two dogs at the foot, with the whole trunk rising into the crown. It is now the lead because it shows the height the first photo cropped. The first reader's photo with two visitors moved into the strip. Both are filed as August.
+- Lead 3c544597 (near Amsterdam's Last Elm, sent by one of our own accounts) has no file on this machine. It was not judged and is left for a run that can fetch it.
+- No open reports, tips, feedback or reader words to quote.
+
 ## 2026-11-21 daily publish: queue empty
 
 - **Daily publish: queue empty.** The builders newer than build_write_2026_11_17 are build_write_2026_11_21, 21b and 21c (stu_014 to stu_017, ott_023 to ott_026), and every one of those trees is already in data/cities; no out/tmp/held_build.py. Nothing published, pace untouched. For Hidde: the daily task "publish-held-trees-daily" can be switched off under Scheduled; write passes put trees straight into the app, so nothing waits for it.
-
 
 ## 2026-11-21 reader judge: a heritage white oak in Ontario, the Survivor Tree's first photo
 - **New tree, new place: Oakville, Canada** (oakville/okv_001, The Heritage White Oak of Bronte Creek). A reader sent the whole oak in spring leaf and a photo of the park's sign: germinated around 1685, Ontario Heritage Tree since 2022, 684 cm round, 19 m tall (girth and height from the sign). Waymarking and a park tour page back it up. The pin was placed by hand, so it stays approximate. The file's November date came from a screenshot, so the photo is filed as May by its fresh leaves.

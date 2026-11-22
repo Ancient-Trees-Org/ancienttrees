@@ -2,18 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
-   "seen": "2026-11-21",
-   "kind": "a tree we do not map",
-   "tree": "The Heritage White Oak of Bronte Creek",
-   "photo": "p_8bd7bfeb4f7185d67df893e0/27E529B6-7E49-4FD7-853E-6ACC23A947E9.jpg",
-   "reader_note": "It survived centuries of development intact",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-21: the whole white oak in spring leaf behind a split-rail fence and the park's sign. Live as oakville/okv_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -26,6 +14,40 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:01c3e58d-dd58-4bee-8ebc-c45524f340cb",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Gennett Poplar",
+   "city": "Chattahoochee National Forest",
+   "species": "Tulip Tree (Liriodendron tulipifera)",
+   "photo": "out/sightings/01c3e58d-dd58-4bee-8ebc-c45524f340cb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 2,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Tulip Tree (Liriodendron tulipifera)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the full height of the Gennett Poplar from the trail, a visitor and two dogs at its foot. Now the lead on chattahoochee-national-forest/gnp_001; the earlier reader photograph moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
+   "seen": "2026-11-21",
+   "kind": "a tree we do not map",
+   "tree": "The Heritage White Oak of Bronte Creek",
+   "photo": "p_8bd7bfeb4f7185d67df893e0/27E529B6-7E49-4FD7-853E-6ACC23A947E9.jpg",
+   "reader_note": "It survived centuries of development intact",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-21: the whole white oak in spring leaf behind a split-rail fence and the park's sign. Live as oakville/okv_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
