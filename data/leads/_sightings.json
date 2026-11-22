@@ -2299,8 +2299,9 @@
     "nearest": []
    },
    "status": "held",
-   "why": "2026-11-15, for Hidde tomorrow: the Marton Oak (plaque in the reader's photo), not on the map. Wikipedia: on private land, permission needed to view. Hard rule 10 unless it is plainly visible from Oak Lane; photos ready.",
-   "seen": "2026-11-15"
+   "why": "not_public: Hidde 2026-11-22 asked whether it can be seen from public ground; the Woodland Trust's Ancient Tree Inventory (tree 23583) says it is not visible from public land, in a private garden off Oak Lane, owner's permission needed (also Wikipedia). Clearly special; ships if that changes.",
+   "seen": "2026-11-15",
+   "hold": "not_public"
   },
   {
    "sighting_id": "5ebfb2e9-b400-49f6-9383-68ed78f7a7a9",

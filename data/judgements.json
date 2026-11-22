@@ -17040,8 +17040,8 @@
     "note": "nothing measurable about Pedunculate Oak"
    },
    "verdict": "hold",
-   "reason": "For Hidde tomorrow: the Marton Oak (plaque in the reader's photo) stands on private land, owner's permission needed to view per Wikipedia; ships if it is plainly visible from Oak Lane. Photos ready.",
-   "hidde": "Session 2026-11-22 on Hidde's ask ('handle the ones we didn't talk about'): verdict stands, not shown to him",
+   "reason": "not_public: Hidde 2026-11-22 asked whether it can be seen from public ground; the Woodland Trust's Ancient Tree Inventory (tree 23583) says it is not visible from public land, in a private garden off Oak Lane, owner's permission needed (also Wikipedia). Clearly special; ships if that changes.",
+   "hidde": "Hidde 2026-11-22: special; check whether it is visible from public ground (it is not)",
    "agreed": true,
    "shown": [
     "2026-11-16",
