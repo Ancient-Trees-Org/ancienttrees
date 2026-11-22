@@ -959,8 +959,144 @@
    "photo": null,
    "reader_note": "",
    "reader_girth_cm": null,
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "No photograph reached us and no words, only a coordinate near Lecco (45.891, 9.387). Nothing to judge yet; waits for the photo.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Beech of Tewkesbury Abbey",
+   "city": "Tewkesbury",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8.jpg",
+   "reader_note": "It is in the churchyard of Tewkesbury Abbey. It is very beautiful with a monumental girth. It is craggy and  full of character. Well worth a hug.",
+   "reader_girth_cm": 700,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "this tree (looked at the photograph, 2026-11-22)",
+   "hidde": null,
+   "agreed": null,
+   "shown": []
+  },
+  {
+   "id": "lead:b478e704-f01d-442f-a8de-1407aa063a0b",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_9797f583f1e19f3c4c5854e8/B478E704-F01D-442F-A8DE-1407AA063A0B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 3 m away (italy-masaf, Fico magnolioide): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 36.881967,
+      "lng": 14.564642,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Fico magnolioide",
+      "species": "Ficus macrophylla Desf. ex Pers.",
+      "girth_cm": 900.0,
+      "height_m": 25.0,
+      "distance_m": 2.9
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the same picture as sighting 5b3f2cb0, a Donnafugata fig. Goes on rgs_001, not a new tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:404ad610-9009-4c3c-824e-8f05e6ab60e8",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Trento",
+   "city": null,
+   "species": null,
+   "photo": "p_c75bbff2df45162786c11129/404AD610-9009-4C3C-824E-8F05E6AB60E8.jpg",
+   "reader_note": "the wonderful colors",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Photograph viewed: an autumn lakeshore forest mirrored in water, no single tree to walk to. Held wrong_subject; no mail.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a29ed9d7-1555-4579-ad0a-759824034cf3",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry near Milan",
+   "city": null,
+   "species": "Black Mulberry",
+   "photo": "p_ef440ba9274ea313cb8568a3/A29ED9D7-1555-4579-AD0A-759824034CF3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: an ancient pollarded mulberry with a gnarled trunk on props, in front of houses, a sign at its foot. Live as cassano-dadda/cda_001, approximate hand-placed pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2dbab77d-6bcf-46e9-aa36-00369790ac15",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Hamburg",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_949f61179af58ceb312cf9dd/2DBAB77D-6BCF-46E9-AA36-00369790AC15.jpg",
+   "reader_note": "This tree is known as the 1,000 year oak. It is an impressive tree, even amongst the other oaks in the area. It is partially hollow a s knotted. It is a monument, more can be read about it here: \n\nhttps://de.wikipedia.org/wiki/Eiche_von_Barmstedt",
+   "reader_girth_cm": 750,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 1.913,
+    "via": "girth",
+    "note": "191% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the hollow, three-stemmed oak by the road at the Rantzauer See; Naturdenkmal 01/03 of Kreis Pinneberg per de.wikipedia. Live as barmstedt/bms_001.",
    "hidde": null,
    "agreed": null
   },
@@ -23465,21 +23601,61 @@
    "agreed": null
   },
   {
-   "id": "sight:59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
+   "id": "sight:2dbab77d-6bcf-46e9-aa36-00369790ac15",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Hamburg",
+   "photo": "p_949f61179af58ceb312cf9dd/2DBAB77D-6BCF-46E9-AA36-00369790AC15.jpg",
+   "reader_note": "This tree is known as the 1,000 year oak. It is an impressive tree, even amongst the other oaks in the area. It is partially hollow a s knotted. It is a monument, more can be read about it here: \n\nhttps://de.wikipedia.org/wiki/Eiche_von_Barmstedt",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Live as barmstedt/bms_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a29ed9d7-1555-4579-ad0a-759824034cf3",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry near Milan",
+   "photo": "p_ef440ba9274ea313cb8568a3/A29ED9D7-1555-4579-AD0A-759824034CF3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole pollarded mulberry in front of a row of houses, a gnarled dark trunk and a ring of grey arms each ending in a tuft of green leaves, metal props, a small sign at its foot, a clipped hedge, daylight, colour. Live as cassano-dadda/cda_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:49257d3e-b709-4715-b6fd-a56239e35c0d",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
-   "tree": "The Great Beech of Tewkesbury Abbey",
-   "city": "Tewkesbury",
-   "species": "European Beech (Fagus sylvatica)",
-   "photo": "out/sightings/59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8.jpg",
-   "reader_note": "It is in the churchyard of Tewkesbury Abbey. It is very beautiful with a monumental girth. It is craggy and  full of character. Well worth a hug.",
-   "reader_girth_cm": 700,
-   "measure": null,
+   "tree": "The Cedar of Lebanon in Victoria Square",
+   "city": "Bristol",
    "verdict": "publish",
-   "reason": "this tree (looked at the photograph, 2026-11-22)",
+   "reason": "Photograph viewed 2026-11-22: the whole cedar in Victoria Square garden with the terraces behind; species and description match. Lead photo of bri_007, pin to the reader's fix.",
    "hidde": null,
-   "agreed": null,
-   "shown": []
+   "agreed": null
+  },
+  {
+   "id": "sight:5b3f2cb0-14f6-4477-b221-56b2911f76b2",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Moreton Bay Figs of Donnafugata Castle Park",
+   "city": "Ragusa",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a Donnafugata Moreton Bay fig on its buttress roots inside the stone ring, MASAF register entry 3 m from the photo's location. Lead photo of rgs_001, pin to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9f5df706-e6bc-45a6-a8e3-05da298af38f",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Witch Tree of Fanal",
+   "city": "Madeira",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a twisted til in fog at Fanal. In the strip of mdr_005; which trunk is the Witch Tree the photo cannot settle.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

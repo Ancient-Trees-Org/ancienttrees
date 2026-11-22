@@ -405,8 +405,8 @@
       "age_basis": "source",
       "location": {
         "address": "Victoria Square, Clifton, Bristol BS8 4ES",
-        "latitude": 51.45553,
-        "longitude": -2.61623,
+        "latitude": 51.455361,
+        "longitude": -2.616404,
         "neighbourhood": "Clifton"
       },
       "story": "Before the war, you needed a key to stand under this cedar. Victoria Square in Clifton was a residents' garden behind four locked gates, and only keyholders got in. Then its railings were taken away in wartime, the garden was left open to everyone, and it has stayed that way. Bristol City Council now looks after it as a public park.\n\nThe cedar is the reason to come. Its trunk is 5.95 metres round and its branches run out horizontally for about twenty metres. The Bristol Tree Forum counts it among the few trees left from the square's original planting and estimates its age at 150 years. When that planting happened is less settled. The Clifton and Hotwells Improvement Society dates the square to about 1840, another source to about 1860, and no source ties the cedar to either year, so somewhere between 150 and 190 years is the honest answer.\n\nA memoir published by the same society remembers a large stone urn standing beneath the cedar. The urn is gone, and so is much of the old planting. The garden was cleared and replanted in 2015, and the cedar stayed.\n\nIt keeps old company. A fern-leaved beech nearby, 4.8 metres round, also belongs to the original planting by the Forum's account, and the square holds an old black mulberry growing sideways, an Italian maple and a chimera hornbeam besides. Twenty minutes' walk west of Queen Square, it is where a walk through central Bristol's old trees ends.",
@@ -418,15 +418,28 @@
       "access": "Free. Victoria Square garden is a council-maintained public park (it was a keyholders' garden until the wartime removal of its railings), open to walk through.",
       "transport": "Central Clifton, about 1.6 km (20 min walk) west of Queen Square and about 10 min walk up from College Green and Park Street.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bri_007-the-cedar-of-lebanon-in-victoria-square.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_661c1fc4ea4df0fec2022da4",
+        "sighting_id": "49257d3e-b709-4715-b6fd-a56239e35c0d",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The whole cedar in Victoria Square garden, Georgian terraces behind, a stone urn at its foot; overcast daylight, colour. Species seen: flat layered blue-green needle sprays, dark furrowed bark, a cedar's horizontal tiers. Fits the description: a big forked trunk with long limbs running out level over the lawn, the largest tree in the square garden.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Source A, Bristol Tree Forum veteran survey (Richard Bland, ST 5728 7313, which converts to 51.45553,-2.61623, inside the square): girth 595 cm, 'age 150 years', 'one of the few trees from the original planting', horizontal branches about 20 m long. BTF's age is its own estimate, so the range here is broad (BTF says 150; the Clifton and Hotwells society dates the square's first planting to about 1840, and another source gives about 1860; no source says this tree belongs to a dated planting, so no bridge made). Source B, Clifton and Hotwells Improvement Society's communal-gardens guide: Victoria Square (ca. 1840) is now a public park, the Council maintains it, and a fine Lebanon cedar is among the surviving original plantings; a 2015 clearance and replanting is recorded. Source C, Dick Isles memoir (same society): a large stone urn once stood under the cedar of Lebanon; before the war the gardens had four locked gates and residents held keys; wartime railing removal left them open to all. Alive: lifecheck.py 51.4562 -2.6163 returned RECENT 2026-05-17 (iNaturalist, generic nearby observation, not proof for this trunk); the square was replanted 2015 and the cedar is described as surviving. Same spot, other trees to fold into the page as context only: Fern-leaved Beech (BTF, girth 480 cm, original planting c1860, ST5727 7310), an old horizontal Black Mulberry, an Italian Maple (girth 280 cm), and a chimera hornbeam; none is a separate collectible point. Pin is the BTF grid reference (10 m resolution, judged unreliable by an earlier pass), so approximate; the square is small and the cedar is the dominant tree. Hard-rule check: this is not one of the private Clifton garden squares the earlier pass left out; the Clifton society and council sources say Victoria Square specifically is now public. Single-species survey plus two local-society pages; not a register.",
-      "location_precision": "approximate",
-      "pin_source": "Bristol Tree Forum veteran survey grid reference ST 5728 7313 (converted; approximate, inside the square)",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "49257d3e-b709-4715-b6fd-a56239e35c0d",
+        "moved_m": 22,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      },
       "location_site": {
         "name": "Victoria Square garden",
         "radius_m": 50

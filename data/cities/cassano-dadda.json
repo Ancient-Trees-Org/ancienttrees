@@ -1,0 +1,76 @@
+{
+  "city": "Cassano d'Adda",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Cassano d'Adda is a town on the river Adda east of Milan. In its quarter of Taranta, in front of a row of houses, grows an old pollarded mulberry whose thick grey arms rise from a gnarled trunk like the fingers of an open hand. A reader photographed it, sent it to us and puts it at 400 years old.",
+  "meta_description": "An old pollarded mulberry in Taranta, Cassano d'Adda, east of Milan, sent by a reader: where it stands and what we know about it.",
+  "hero_tree_id": "cda_001",
+  "oldest_tree_id": "cda_001",
+  "question_meta": "An old pollarded mulberry in Taranta, Cassano d'Adda, east of Milan, sent by a reader: where it stands and what we know about it.",
+  "question_answer": "The Old Mulberry of Taranta stands in front of houses in the Taranta quarter of Cassano d'Adda. It can be seen from the street; the ground around it is not open to visitors.",
+  "question_context": "A reader sent us this mulberry from Taranta, a quarter of Cassano d'Adda on the Adda east of Milan, and puts it at about 400 years old. That figure is theirs; we have not found a record of the tree. The photograph shows a tree shaped by centuries of cutting. A short, dark, gnarled trunk, split and swollen low down, carries a ring of thick grey arms that rise like the fingers of an open hand, each ending in a tuft of fresh leaves where it was pruned back. That is pollarding, the old way of cropping a mulberry for its leaves, and across Lombardy mulberries were once kept like this in great numbers to feed silkworms. Metal props help hold the arms, a small sign stands in front of the trunk and a clipped hedge surrounds it. The reader calls it a black mulberry; the leaves could be black or white mulberry, and we ask readers to tell us which. It stands in front of private houses, so the way to see it is from the street.",
+  "faq": [
+    {
+      "q": "Where is the old mulberry in Cassano d'Adda?",
+      "a": "In front of a row of houses in the Taranta quarter, near Piazza Generale Domenico Perrucchetti. Our pin is approximate."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "You can see it from the street. It stands in front of private houses, so stay on the pavement."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader puts it at about 400 years. We have not found a record of its age yet."
+    }
+  ],
+  "trees": [
+    {
+      "id": "cda_001",
+      "name": "The Old Mulberry of Taranta",
+      "species": "Mulberry (Morus sp.)",
+      "age_estimate": "about 400 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Near Piazza Generale Domenico Perrucchetti, Taranta, Cassano d'Adda",
+        "neighbourhood": "Taranta",
+        "latitude": 45.5256962093817,
+        "longitude": 9.5240270362858
+      },
+      "how_to_recognise": "In front of a row of houses behind a clipped hedge: a short, gnarled dark trunk with a ring of thick grey arms rising from its top like an open hand, held up on metal props, a small white sign in front.",
+      "access": "Seen from the street. It stands in front of houses, so look from the pavement.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/?mlat=45.5257&mlon=9.5240#map=19/45.5257/9.5240 (OpenStreetMap: the reader's pin falls by Piazza Generale Domenico Perrucchetti in Taranta, Cassano d'Adda)"
+      ],
+      "story": "A reader sent us this mulberry from Taranta, a quarter of Cassano d'Adda on the river Adda east of Milan, and puts it at 400 years old. That is their figure; we have not found a record of the tree yet.\n\nWhat the photograph shows is a tree that has been worked for a very long time. Its trunk is short, dark and gnarled, swollen and split low down, and from its top a ring of thick grey arms rises like the fingers of an open hand, each ending in a fresh green tuft where it has been cut back. That is pollarding, the old way of cropping a mulberry for its leaves, and across Lombardy mulberries were once kept like this by the thousand to feed silkworms. Metal props now help hold up the arms, a small sign stands in front of the trunk, and a clipped hedge rings it on a corner between the houses.\n\nThe reader calls it a black mulberry. The leaves in the picture could belong to the black or to the white, the silk farmers' tree; if you know which it is, tell us here.\n\nIt stands in front of private houses, so take it in from the street.",
+      "age_basis": "source",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "a29ed9d7-1555-4579-ad0a-759824034cf3",
+        "date": "2026-11-22",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "found_by_reader": {
+        "sighting_id": "a29ed9d7-1555-4579-ad0a-759824034cf3",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (a29ed9d7-1555-4579-ad0a-759824034cf3, 2026-11-22, through the app). Photograph viewed: the whole pollarded mulberry in front of a row of houses, a gnarled dark trunk and a ring of grey arms each ending in a tuft of green leaves, metal props, a small sign at its foot, a clipped hedge, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Black Mulberry near Milan', species 'Black Mulberry', age '400', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cda_001-old-mulberry-of-taranta.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1125,
+        "height": 826,
+        "source": "contributor",
+        "contributor_user_id": "p_ef440ba9274ea313cb8568a3",
+        "sighting_id": "a29ed9d7-1555-4579-ad0a-759824034cf3",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole pollarded mulberry in front of a row of houses, a gnarled dark trunk and a ring of grey arms each ending in a tuft of green leaves, metal props, a small sign at its foot, a clipped hedge, daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

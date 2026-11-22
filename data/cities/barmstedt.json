@@ -1,0 +1,77 @@
+{
+  "city": "Barmstedt",
+  "country": "Germany",
+  "status": "needs_curation",
+  "intro": "Barmstedt is a small town in the district of Pinneberg, north of Hamburg, beside the Rantzauer See. By the road at the lake's car park stands a pedunculate oak that locals call the thousand-year oak. The district lists it as a natural monument and gives its age as about 600 to 650 years, its oldest. A reader sent us its photograph.",
+  "meta_description": "The thousand-year oak of Barmstedt by the Rantzauer See: a 600-year-old natural monument north of Hamburg, where it stands and how to see it.",
+  "hero_tree_id": "bms_001",
+  "oldest_tree_id": "bms_001",
+  "question_meta": "The thousand-year oak of Barmstedt by the Rantzauer See: a 600-year-old natural monument north of Hamburg, where it stands and how to see it.",
+  "question_answer": "The Thousand-Year Oak of Barmstedt stands beside the L 75 at the turn into the car park of the Rantzauer See. It is free to see at any hour.",
+  "question_context": "People in Barmstedt call this pedunculate oak the Tausendjährige Eiche, the thousand-year oak. The district of Pinneberg, which has listed it as a natural monument since December 1997, gives a more careful age of about 600 to 650 years, and that still makes it the oldest natural monument in the district. It stands by the Landesstraße 75 where the road turns into the car park for the restaurant and playground on the Rantzauer See. A reader who sent us its photograph called it impressive even among the other oaks around the lake, partly hollow and knotted. The picture shows a massive grey trunk with a dark hollow at head height and three thick stems twisting apart into a wide crown. In 2011 the trunk measured 6.75 metres round at a metre above the ground. A wire mesh now guards the hollow, and the crown has been cut back to keep the old tree standing. It is beside a public road and car park, so it can be seen at any hour.",
+  "faq": [
+    {
+      "q": "Where is the thousand-year oak in Barmstedt?",
+      "a": "By the L 75 at the turn into the car park of the Rantzauer See, next to the lakeside restaurant and playground."
+    },
+    {
+      "q": "How old is the Barmstedt oak really?",
+      "a": "The district of Pinneberg gives about 600 to 650 years. The thousand years is the local nickname."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It stands beside a public road and car park and can be seen at any hour, free."
+    }
+  ],
+  "trees": [
+    {
+      "id": "bms_001",
+      "name": "The Thousand-Year Oak of Barmstedt",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 600 to 650 years",
+      "age_min": 600,
+      "age_max": 650,
+      "location": {
+        "address": "By the Landesstraße 75, at the turn to the car park of the Rantzauer See, Barmstedt",
+        "neighbourhood": "Rantzauer See",
+        "latitude": 53.7843915476464,
+        "longitude": 9.7582288008242
+      },
+      "how_to_recognise": "At the turn into the lakeside car park: a huge oak with a dark hollow in its trunk at head height and three thick stems twisting apart above it, a small yellow plaque on the bark.",
+      "access": "Free. Beside the road and the car park by the Rantzauer See, open at all hours.",
+      "verified_sources": [
+        "https://de.wikipedia.org/wiki/Eiche_von_Barmstedt (Eiche von Barmstedt: a pedunculate oak, Quercus robur, listed as natural monument 01/03 by the district of Pinneberg since 19 December 1997; about 600 to 650 years old; girth 6.75 m at one metre (2011); by the L 75 at the access to the car park of the restaurant Zum Bootssteg and the playground at the Rantzauer See)"
+      ],
+      "story": "In Barmstedt, north of Hamburg, people call this tree the Tausendjährige Eiche, the thousand-year oak. The district of Pinneberg is more modest. It has listed the pedunculate oak as a natural monument since December 1997 and gives its age as about 600 to 650 years, which still makes it the oldest natural monument in the district.\n\nA reader sent us its photograph from the roadside by the Rantzauer See, where the oak stands at the turn into the car park for the lakeside restaurant and playground. \"It is an impressive tree, even amongst the other oaks in the area,\" they wrote. \"It is partially hollow [and] knotted.\"\n\nThe picture shows exactly that. From a massive grey trunk, open in a dark hollow at head height, three great stems climb and twist apart, carrying a crown still full of russet leaves in November. The trunk measured 6.75 metres round at a metre above the ground in 2011, and a wire mesh protects the hollow from further damage. The crown has been cut back over the years to keep the old tree standing.\n\nStand back across the road to take in the whole crown, then walk up close to see the hollow.",
+      "age_basis": "source",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (2dbab77d-6bcf-46e9-aa36-00369790ac15, 2026-11-22, through the app). Photograph viewed: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Pedunculate Oak near Hamburg', species 'Pedunculate Oak', age '600-650 years', girth 750 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bms_001-thousand-year-oak-of-barmstedt.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_949f61179af58ceb312cf9dd",
+        "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

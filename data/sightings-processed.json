@@ -6641,6 +6641,60 @@
    "lat": 32.8116362,
    "lon": -17.144537,
    "pin_checked": "2026-11-22"
+  },
+  "49257d3e-b709-4715-b6fd-a56239e35c0d": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "bri_007",
+   "city_slug": "bristol",
+   "file": "bri_007-the-cedar-of-lebanon-in-victoria-square.jpg",
+   "reason": "The whole cedar in Victoria Square garden, Georgian terraces behind, a stone urn at its foot; overcast daylight, colour. Species seen: flat layered blue-green needle sprays, dark furrowed bark, a cedar's horizontal tiers. Fits the description: a big forked trunk with long limbs running out level ove",
+   "lat": 51.4553612496128,
+   "lon": -2.61640378946381,
+   "pin_checked": "2026-11-22"
+  },
+  "5b3f2cb0-14f6-4477-b221-56b2911f76b2": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "rgs_001",
+   "city_slug": "ragusa",
+   "file": "rgs_001-moreton-bay-figs-of-donnafugata-castle-park.jpg",
+   "reason": "The whole fig inside its dry-stone ring by the castle wall, buttress roots pouring out over the bank; daylight, colour. Same trunk as the MASAF register entry 3 m from the photo's location. Species seen: large leathery oval leaves with rusty undersides, smooth grey bark, plank buttress roots: Ficus ",
+   "lat": 36.8819916666667,
+   "lon": 14.5646533333333,
+   "pin_checked": "2026-11-22"
+  },
+  "9f5df706-e6bc-45a6-a8e3-05da298af38f": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "mdr_005",
+   "city_slug": "madeira",
+   "file": "mdr_005-the-witch-tree-of-fanal-9f5df706.jpg",
+   "reason": "A single twisted til in thick fog on the Fanal pasture, limbs flung out like arms. Fanal's grove beyond doubt; which trunk is the Witch Tree the photo cannot settle, so the strip, as with this reader's earlier photo. Species seen: dense evergreen laurel-forest crown, twisted mossy trunk: til. Fits t",
+   "lat": 32.8116362,
+   "lon": -17.144537,
+   "pin_checked": "2026-11-22"
+  },
+  "b478e704-f01d-442f-a8de-1407aa063a0b": {
+   "outcome": "published",
+   "date": "2026-11-22"
+  },
+  "404ad610-9009-4c3c-824e-8f05e6ab60e8": {
+   "outcome": "held",
+   "date": "2026-11-22"
+  },
+  "a29ed9d7-1555-4579-ad0a-759824034cf3": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "cda_001",
+   "city_slug": "cassano-dadda"
+  },
+  "2dbab77d-6bcf-46e9-aa36-00369790ac15": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "bms_001",
+   "city_slug": "barmstedt",
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

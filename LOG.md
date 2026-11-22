@@ -21,6 +21,20 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (second run): Barmstedt and Cassano d'Adda live, first photographs for the Bristol cedar and the Donnafugata figs
+
+This run worked through the same queue as the run below. It rebased onto that run's work and kept it (Tewkesbury, Vernon Oak, the three strip photos, Tsagarada held as `doubt_photo`). Only what that run left is added here.
+
+- **New trees, readers' own** (every photograph viewed):
+  - **Barmstedt, The Thousand-Year Oak (bms_001)**: the hollow three-stemmed oak by the Rantzauer See, north of Hamburg. The reader linked de.wikipedia, which gives natural monument 01/03 (Kreis Pinneberg, 1997), about 600 to 650 years and 6.75 m girth in 2011. The coordinates match the reader's GPS. One-tree place.
+  - **Cassano d'Adda, The Old Mulberry of Taranta (cda_001)**: an ancient pollarded mulberry on props in front of houses, seen from the street. The pin was placed by hand, so it is approximate. Species left as Morus sp.: the reader says black, and the page asks readers which it is. Their 400 years is stated as theirs. One-tree place.
+- **First photographs**: Bristol's Victoria Square cedar (bri_007; pin moved 22 m to the reader's fix, now confirmed) and Ragusa's Donnafugata figs (rgs_001; pin moved 26 m to the fix, now confirmed, 3 m from the MASAF register entry). That photo did reach the queue after all. The reader's second copy of it (b478e704, "not sure which tree") is settled onto rgs_001, and report 1000122 is closed.
+- **Strip**: one more from Fanal for the Witch Tree (mdr_005): a single twisted til in fog. As with this reader's other photos, it cannot settle which trunk is the Witch Tree.
+- **Held**: "A tree near Trento" (404ad610) as `wrong_subject`. It is a lakeshore forest in autumn colour with no single tree in it, so no mail goes.
+- **Report 1000123**: the Tewkesbury reader moved the pin on their own new tree, 55 m from the photo's GPS. The photo shows the whole tree from close by, not from far off, so the GPS stays. Closed `holds`, no mail.
+- **Corrected in this run**: before seeing the other run's verdict, this run wrote a standard `no_location` reply on submission 1433 (Tsagarada). It was withdrawn before any knock sent it (reply_text and outcome cleared, replied_at still empty), so the other run's `doubt_photo` with no mail stands.
+- **Still open**: tip:1435 (Como, sighting 57F46EDF) and submission 1414 (Tsagarada with a location from its photograph, 39.38674, 23.17459, sighting C50BB407). Neither photograph has reached out/sightings/ or the leads. 1414's location is enough to place the plane once a usable photograph exists.
+
 ## 2026-11-22 session: who gave a heart, Activity, and Worth the visit written out (web, iPhone, Android)
 
 What changed in the product (Hidde: "kun je ook zien als je een hartje krijgt wie je dat heeft gegeven?", design in drafts/design-2026-11-22-heart-who/product.html, the bell "voor nu is het ok"):

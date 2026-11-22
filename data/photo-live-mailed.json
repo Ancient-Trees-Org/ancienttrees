@@ -2995,6 +2995,45 @@
      "city_slug": "madeira",
      "display_name": null,
      "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "9f5df706-e6bc-45a6-a8e3-05da298af38f",
+     "tree_id": "mdr_005",
+     "tree_name": "The Witch Tree of Fanal",
+     "city": "Madeira",
+     "city_slug": "madeira",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
+  },
+  "p_661c1fc4ea4df0fec2022da4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "49257d3e-b709-4715-b6fd-a56239e35c0d",
+     "tree_id": "bri_007",
+     "tree_name": "The Cedar of Lebanon in Victoria Square",
+     "city": "Bristol",
+     "city_slug": "bristol",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
+   "sent": []
+  },
+  "p_9797f583f1e19f3c4c5854e8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "5b3f2cb0-14f6-4477-b221-56b2911f76b2",
+     "tree_id": "rgs_001",
+     "tree_name": "Moreton Bay Figs of Donnafugata Castle Park",
+     "city": "Ragusa",
+     "city_slug": "ragusa",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": []

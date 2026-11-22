@@ -33,8 +33,8 @@
       "height_m": 25,
       "location": {
         "address": "Parco del Castello di Donnafugata, Contrada Donnafugata, Ragusa",
-        "latitude": 36.88179,
-        "longitude": 14.56481,
+        "latitude": 36.881992,
+        "longitude": 14.564653,
         "neighbourhood": "Donnafugata, about 15 km from Ragusa"
       },
       "story": "Two figs in the park of Donnafugata Castle have trunks more than nine metres round, and they stand only about twenty-five metres apart. Sicily's register of monumental trees gives one a girth of 9.5 metres and the other 9 metres, and puts both at 25 metres tall.\n\nThey are Moreton Bay figs, Ficus macrophylla, the Australian species that older guides called Ficus magnolioides. The Italian Botanical Heritage guide describes the first section of the park as shaded by large figs of that kind, and these two are the giants among them, standing on buttress roots that spread out across the ground before the trunks begin.\n\nDonnafugata is a castle and estate in the countryside about 20 kilometres from the town of Ragusa, and the park is visited with its own municipal ticket. Several figs grow in it, which is why our pin is approximate. Visitors have recorded Moreton Bay figs a few metres from the two registered points on iNaturalist, in March and June 2026, so the trees are alive and the area is right, but which crown belongs to which register sheet is not settled. The size should settle it on the day. Nothing else in the park comes close.\n\nNobody has published an age or a planting date for either fig. If you know when they went in, tell us. A photograph would help too, as we have not found one.",
@@ -52,16 +52,30 @@
       "access": "Paid: the castle park is a municipal visit with its own ticket (one source gives 4 EUR for the park only, 10 EUR combined with the castle and museum). Hours disagree between sources and some list Monday closing; check with the Comune di Ragusa before going.",
       "transport": "Donnafugata is a castle estate in the countryside south-west of Ragusa, about 20 km from the town by road; easiest by car, and check locally for a seasonal bus.",
       "how_to_recognise": "You can recognise them by their size, two figs on buttress roots about 25 metres apart in the shaded first part of the park near the entrance, far bigger than the other figs there.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "verify_notes": "Two registered figs about 25 m apart in the park: sheet 02 girth 950 cm, height 25 m and sheet 01 girth 900 cm, height 25 m; folded into one entry using the larger. Italian Botanical Heritage describes the first section of the park as shaded by large Ficus magnolioides (the old name of this species) and says the park holds roughly a hundred surviving plants (that count seen only in a search summary, not on the page fetched: do not use). Alive: iNaturalist Ficus macrophylla records at 36.88178,14.56456 on 2026-06-11 and 2026-03-24, some 20 m from the two register points (several figs stand in the park, so which one is the big one is not settled; OSM node is the register copy, fixme resurvey): pin approximate. No Commons file found. Recognise: the two huge figs with buttress roots in the first, shaded part of the park near the entrance side, far larger than the other figs there. Register plus a heritage guide and dated observations.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rgs_001-moreton-bay-figs-of-donnafugata-castle-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 9,
+        "source": "contributor",
+        "contributor_user_id": "p_9797f583f1e19f3c4c5854e8",
+        "sighting_id": "5b3f2cb0-14f6-4477-b221-56b2911f76b2",
+        "note": "Photographed by a reader and sent through the app (2020-09-08); a viewing pass approved it on 2026-11-22: The whole fig inside its dry-stone ring by the castle wall, buttress roots pouring out over the bank; daylight, colour. Same trunk as the MASAF register entry 3 m from the photo's location. Species seen: large leathery oval leaves with rusty undersides, smooth grey bark, plank buttress roots: Ficus macrophylla. Fits the description: a huge fig on buttress roots in the shaded part of the park beside the castle, far bigger than the person in it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "paid_entry": true
+      "paid_entry": true,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "5b3f2cb0-14f6-4477-b221-56b2911f76b2",
+        "moved_m": 26,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     }
   ]
 }
