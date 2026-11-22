@@ -6,7 +6,7 @@
   "meta_description": "The Boab Prison Tree near Derby, WA: a giant hollow boab, 12.5m round, wrongly famous as a lock-up. Free roadside stop on the Gibb River Road.",
   "question_meta": "Derby's only mapped tree is the Boab Prison Tree, a giant hollow boab on the Gibb River Road whose prison legend does not hold up to the evidence.",
   "question_answer": "Derby's only mapped tree, and its oldest, is the Boab Prison Tree, a Boab (Adansonia gregorii) beside the Derby-Gibb River Road a few kilometres south of town. Its trunk measured about four metres through in 1905, close to twelve and a half metres around, and it is documented since 1916 as a shelter and burial place used by Aboriginal people, though the popular story of prisoners locked inside it has no supporting evidence.",
-  "question_context": "Historians Kristyn Harman and Elizabeth Grant, and separately the anthropologist Kim Akerman, traced the prison story to a 1948 newspaper description of an artwork and to a different, similarly named tree at Wyndham. No record has turned up of anyone held inside this particular trunk. What is documented is older: in 1916 the anthropologist Herbert Basedow photographed it as a living boab used for shelter and burial, and recorded human bones inside it, a use with real significance for the Nyikina and Warrwa people. The one trunk measurement on record, taken in 1905, gives a girth of 12.57 metres and an age estimate of roughly 500 years, which reads as a round guess rather than a dating; radiocarbon work since has reportedly suggested it is considerably older, so it is stated here as disputed. It stands free to visit on the road toward the Gibb River Road, ringed by a post-and-wire fence put up after visitors compacted its roots and carved into its bark.",
+  "question_context": "Historians Kristyn Harman and Elizabeth Grant, and separately the anthropologist Kim Akerman, traced the prison story to a 1948 newspaper description of an artwork and to a different, similarly named tree at Wyndham. No record has turned up of anyone held inside this particular trunk. What is documented is older: in 1916 the anthropologist Herbert Basedow photographed it as a living boab used for shelter and burial, and recorded human bones inside it, a use with real significance for the Nyikina and Warrwa people. The one trunk measurement on record, taken in 1905, gives a girth of 12.57 metres and an age estimate of roughly 500 years, which reads as a round guess rather than a dating; radiocarbon work since has reportedly suggested it is considerably older, so it is stated here as disputed; a reader puts it at about 1,500 years by their own estimate. It stands free to visit on the road toward the Gibb River Road, ringed by a post-and-wire fence put up after visitors compacted its roots and carved into its bark.",
   "hero_tree_id": "der_001",
   "oldest_tree_id": "der_001",
   "faq": [
@@ -16,7 +16,7 @@
     },
     {
       "q": "How old is it?",
-      "a": "Disputed. A 1905 record estimated roughly 500 years, but that reads as a guess rather than a measurement, and radiocarbon work since has been reported to suggest it is considerably older."
+      "a": "Disputed. A 1905 record estimated roughly 500 years, but that reads as a guess rather than a measurement, and radiocarbon work since has been reported to suggest it is considerably older. A reader puts it at about 1,500 years by their own estimate."
     },
     {
       "q": "Is it free to visit?",
@@ -32,7 +32,7 @@
       "id": "der_001",
       "name": "Boab Prison Tree",
       "species": "Boab (Adansonia gregorii)",
-      "age_estimate": "disputed, at least 500 years",
+      "age_estimate": "disputed, at least 500 years; about 1,500 years by a reader's estimate",
       "age_min": 500,
       "age_max": null,
       "girth_cm": 1257,
@@ -42,7 +42,7 @@
         "longitude": 123.670163,
         "neighbourhood": "Derby Town Commonage, ~4-6km south of Derby township, on the road toward the Gibb River Road"
       },
-      "story": "The prison in the name looks like a fiction. Historians Kristyn Harman and Elizabeth Grant, and separately the anthropologist Kim Akerman, traced the story of Aboriginal prisoners held inside this hollow boab back to a 1948 newspaper description of an artwork, and to a different, similarly named tree at Wyndham. No evidence has turned up that anyone was ever locked in this trunk.\n\nWhat is documented is older and quieter. In 1916 the anthropologist Herbert Basedow photographed it as a living boab used by Aboriginal people as a shelter and a burial place, and recorded bleached human bones inside it. The tree carries real significance for the Nyikina and Warrwa people, and that has nothing to do with the legend that put it on postcards.\n\nIt is a giant. The one measurement on record, taken in 1905, gives a trunk four metres through, which is close to twelve and a half metres around. The same record put its age at roughly 500 years, which would make it past 600 now, though that reads as a round guess rather than a dating, and radiocarbon work since has been reported to make it considerably older. Nobody has settled it.\n\nIt stands a few kilometres south of Derby on the road toward the Gibb River Road, free to visit, ringed by a post and wire fence put there because visitors compacted its roots and cut into its bark.",
+      "story": "The prison in the name looks like a fiction. Historians Kristyn Harman and Elizabeth Grant, and separately the anthropologist Kim Akerman, traced the story of Aboriginal prisoners held inside this hollow boab back to a 1948 newspaper description of an artwork, and to a different, similarly named tree at Wyndham. No evidence has turned up that anyone was ever locked in this trunk.\n\nWhat is documented is older and quieter. In 1916 the anthropologist Herbert Basedow photographed it as a living boab used by Aboriginal people as a shelter and a burial place, and recorded bleached human bones inside it. The tree carries real significance for the Nyikina and Warrwa people, and that has nothing to do with the legend that put it on postcards.\n\nIt is a giant. The one measurement on record, taken in 1905, gives a trunk four metres through, which is close to twelve and a half metres around. The same record put its age at roughly 500 years, which would make it past 600 now, though that reads as a round guess rather than a dating, and radiocarbon work since has been reported to make it considerably older. A reader who visited puts it at about 1,500 years, and nobody has settled it.\n\nIt stands a few kilometres south of Derby on the road toward the Gibb River Road, free to visit, ringed by a post and wire fence put there because visitors compacted its roots and cut into its bark.",
       "verified_sources": [
         "https://en.wikipedia.org/wiki/Boab_Prison_Tree,_Derby",
         "https://www.trusttrees.org.au/tree/WA/Derby/Adjacent_To_MyallS_Bore_Derby_Gibb_River_Rd",
@@ -51,17 +51,17 @@
       "access": "Free, unrestricted public access per the National Trust register; a well-known roadside stop on Derby-Gibb River Road, protected by a post-and-wire fence to stop soil compaction and carving, with interpretive signage. No entry fee found in any source.",
       "transport": "No public transport; self-drive, roughly 4-6km south of Derby town on the road toward the Gibb River Road (sources give slightly different distances: WA state heritage register says 4km, other tourism sources say 6km).",
       "photo": {
-        "url": "https://ancienttrees.app/photos/der_001-boab-prison-tree-121e99a2.jpg",
+        "url": "https://ancienttrees.app/photos/der_001-boab-prison-tree-86314456.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1600,
-        "height": 1067,
-        "taken_month": 6,
+        "height": 1200,
+        "taken_month": 10,
         "source": "contributor",
-        "contributor_user_id": "p_f54f27c5e506b597912db3c6",
-        "sighting_id": "121e99a2-68a9-4499-8fb9-0f3c32d0f672",
-        "note": "Photographed by a reader and sent through the app (2022-06-01); a viewing pass approved it on 2026-11-17: Looked at the pixels: the whole tree, a huge bottle-shaped hollow boab with its dark slit entrance, inside the post-and-rail fence on red earth, bare crown with a few fresh leaves and hanging nuts, daylight and blue sky; GPS fix 0 m from our pin. A reader's photograph of the tree leads (READER FIRST); the old lead moves into the gallery. Species seen: swollen bottle trunk with pitted grey bark, palmate leaves and hanging woody nuts: a boab, Adansonia gregorii. Fits the description: huge hollow trunk ringed by a post-and-rail fence beside a track, exactly as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_f87e49ff8c6e119f0836c2fb",
+        "sighting_id": "86314456-dad2-4cf1-b3aa-a0b3046022fb",
+        "note": "Photographed by a reader and sent through the app (2026-10-24); a viewing pass approved it on 2026-11-22: Looked at the pixels: the whole boab from the car park, its vast swollen grey trunk and low sideways limb inside the post-and-wire fence, the small sign on its post in front, bare crown with fresh leaves, red earth and blue sky in daylight. A different, wider frame than the lead, so it goes into the gallery. Its GPS sits about 80 km off, so it moves no pin (ours is confirmed). Species seen: swollen bottle trunk with smooth grey bark, palmate leaves on a few shoots, hanging woody nuts: a boab, Adansonia gregorii. Fits the description: huge hollow trunk ringed by a post-and-wire fence with signage beside the road, exactly as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -78,6 +78,19 @@
         "url": "https://www.trusttrees.org.au/tree/WA/Derby/Adjacent_To_MyallS_Bore_Derby_Gibb_River_Rd"
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/der_001-boab-prison-tree-121e99a2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1067,
+          "taken_month": 6,
+          "source": "contributor",
+          "contributor_user_id": "p_f54f27c5e506b597912db3c6",
+          "sighting_id": "121e99a2-68a9-4499-8fb9-0f3c32d0f672",
+          "note": "Photographed by a reader and sent through the app (2022-06-01); a viewing pass approved it on 2026-11-17: Looked at the pixels: the whole tree, a huge bottle-shaped hollow boab with its dark slit entrance, inside the post-and-rail fence on red earth, bare crown with a few fresh leaves and hanging nuts, daylight and blue sky; GPS fix 0 m from our pin. A reader's photograph of the tree leads (READER FIRST); the old lead moves into the gallery. Species seen: swollen bottle trunk with pitted grey bark, palmate leaves and hanging woody nuts: a boab, Adansonia gregorii. Fits the description: huge hollow trunk ringed by a post-and-rail fence beside a track, exactly as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/00_1996_Boab_Prison_Tree_-_Derby%2C_Westaustralien.jpg",
           "license": "CC BY-SA 4.0",
@@ -101,7 +114,8 @@
           "note": "Photographed by a reader and sent through the app (2022-09-09); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-17"
         }
-      ]
+      ],
+      "verify_notes": "2026-11-22: reader report 1000127 (correction) says it is estimated at 1,500 years, not 500; added to the page as a reader's estimate beside the 1905 figure, no source given."
     }
   ]
 }

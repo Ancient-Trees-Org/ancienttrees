@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (fifteenth run): a reader's photo leads the Boab Prison Tree, and a reader's 1,500-year estimate goes on its page
+
+Live: a reader's wide October frame of the Boab Prison Tree (der_001, Derby), showing the whole trunk inside its fence with the sign in front, now leads the page, and the earlier reader photo moves to the gallery. Their second upload was the same file and was rejected as a duplicate. The photo's GPS sits 80 km away, so no pin moved (ours is confirmed).
+Changed: report 1000127 (same Boab, "estimated a 1500 years old not 500"), plus the same reader's note. The page now gives "about 1,500 years by a reader's estimate" beside the disputed 1905 figure, in the story, age_estimate, the age FAQ and question_context. Derby has no translation. The report is closed `holds` with no mail, because it carried their words.
+Notes: three new notes were read (Boab age, Linden of Linn, Vernon Oak in Sheffield). None is on the closed list, so all are marked seen.
+Overlap: this run judged the same queue as the fourteenth run below. It reached the same verdicts on the Romanyà stump and the Chiang Mai ambassador. At push those were taken from the fourteenth run as they stand, and only the Boab work above was added on top. Still open: the Chiang Mai welcome mail (no credentials in either run).
+
 ## 2026-11-22 reader judge (fourteenth run): the Great Pine of Romanya is gone and comes off the map; Chiang Mai has an ambassador
 
 Off the map: girona/gir_004, the Great Pine of Romanya. A reader's photograph from the app (sighting 3771a756, taken today 7 m from our pin) shows cut sections of a big trunk on a mound and open sky where a 30 m pine would stand. Together with this afternoon's report 1000126 ("could only find a stump") that is the evidence the rule asks for. The tree was retired with `retire.py` (kept as blocked in data/leads/girona.json, the page redirects), and the photograph was rejected for the page and recorded as the evidence. Girona now has seven trees: its FAQ count was fixed in English and Spanish, the Spanish title (now "7, del monte a la ciudad") and the overlay's gir_004 entry were updated too. Because the reporter wrote words, no standard mail went. For Hidde: drafts/reply-reader-1000126-2026-11-22.md is rewritten to thank them and say the tree is off the map.

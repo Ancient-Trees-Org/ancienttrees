@@ -6885,6 +6885,23 @@
    "date": "2026-11-22",
    "tree_id": "gir_004",
    "reason": "No pine in frame: taken 7 m from our pin, it shows cut sections of a large trunk on a mound beside a holm oak, with open sky where a 30 m pine would stand. Evidence the Great Pine is gone (with report 1000126), not a photo for its page; the tree is retired."
+  },
+  "86314456-dad2-4cf1-b3aa-a0b3046022fb": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "der_001",
+   "city_slug": "derby",
+   "file": "der_001-boab-prison-tree-86314456.jpg",
+   "reason": "Looked at the pixels: the whole boab from the car park, its vast swollen grey trunk and low sideways limb inside the post-and-wire fence, the small sign on its post in front, bare crown with fresh leaves, red earth and blue sky in daylight. A different, wider frame than the lead, so it goes into the",
+   "lat": -17.8239716666667,
+   "lon": 124.233938333333,
+   "pin_checked": "2026-11-22"
+  },
+  "a38920a8-bbfc-454a-ac18-bd224b2a21ec": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "der_001",
+   "reason": "Duplicate: the same file as 86314456 from the same reader, pixel for pixel (same frame, same light figures); that one goes into the gallery."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

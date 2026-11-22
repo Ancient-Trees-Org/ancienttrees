@@ -24415,6 +24415,50 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:86314456-dad2-4cf1-b3aa-a0b3046022fb",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/86314456-dad2-4cf1-b3aa-a0b3046022fb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 79837,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "publish",
+   "reason": "A wider frame of the Boab Prison Tree from the car park, the whole swollen trunk inside its post-and-wire fence with the sign in front, daylight; now leads der_001, the earlier reader photo moves to the gallery. Its GPS is 80 km off, so no pin moved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a38920a8-bbfc-454a-ac18-bd224b2a21ec",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Boab Prison Tree",
+   "city": "Derby",
+   "species": "Boab (Adansonia gregorii)",
+   "photo": "out/sightings/a38920a8-bbfc-454a-ac18-bd224b2a21ec.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 79837,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Boab (Adansonia gregorii)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same file as 86314456 from the same reader, which went on the page; rejected.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
