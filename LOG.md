@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 night run (20:34 UTC window): nothing published
+
+Rung 1: the one open reader photograph (3c544597, Amsterdam, our own account's `mine`) has no file on disk, so it stays open, never judged blind. Rung 2: health red only on open BUG rows. Closed the web row for the explore search pill (fix and pagecheck test already in b8c48b9ae). The app row for the country save stays open: its fix (supabase/flag-upsert-fix.sql) waits for Hidde's paste. For Hidde: paste supabase/flag-upsert-fix.sql.
+Supply: every "awaiting a writer" file is stale (already published); READY is 4 leads in walled cities; braga has 4 unmined candidates (under six, released, wall 48h); munich has no coordinates; scout_next says nothing left. No agent dispatched because no lane held six real candidates. Translations stay paused (TRANSLATIONS_OUT).
+
 ## 2026-11-22 reader judge (twentieth run): a giant Mexican sycamore live in Xalapa
 
 - **New tree: The Mexican Sycamore of Río Sedeño**, xalapa/xal_001, a new one-tree place in Mexico. A reader sent it through the app with a GPS fix from the path of the Parque Lineal Río Sedeño. The trunk is pale and patched white and olive, with a mossy crown above. The page states the reader's figures as theirs: about 150 years old and 650 cm round. The lead photograph is their second picture, which shows the whole tree. Their first picture, a close portrait of a child at the trunk, is **not** published. The photo is filed in November.

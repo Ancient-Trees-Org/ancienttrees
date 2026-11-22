@@ -267,11 +267,6 @@
       "released_at": "2026-11-20T19:08:23+00:00"
     },
     {
-      "slug": "braga",
-      "kind": "verify",
-      "released_at": "2026-11-20T19:09:53+00:00"
-    },
-    {
       "slug": "hallstatt",
       "kind": "verify",
       "released_at": "2026-11-21T06:08:24+00:00"
@@ -330,6 +325,11 @@
       "slug": "sheffield",
       "kind": "verify",
       "released_at": "2026-11-22T14:14:17+00:00"
+    },
+    {
+      "slug": "braga",
+      "kind": "verify",
+      "released_at": "2026-11-22T20:39:50+00:00"
     }
   ]
 }

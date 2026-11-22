@@ -611,9 +611,10 @@
    "file": "",
    "summary": "Explore map search: only the typed text took a click and the browser's blue clear cross sat halfway the pill (.panel-head .ex-search was display:block)",
    "first_seen": "2026-11-22",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/pagecheck.py walk(): the search field fills its pill"
+   "test": "scripts/pagecheck.py walk(): the search field fills its pill",
+   "fixed_in": "b8c48b9ae"
   },
   {
    "id": "ESC-2026-11-22-edit-profile-put-the-saved-country-back-",
