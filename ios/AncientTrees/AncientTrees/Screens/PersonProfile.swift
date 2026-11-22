@@ -37,6 +37,8 @@ struct PersonProfileView: View {
     /// Their picture, full screen (CONVENTIONS.md "Tapping somebody's
     /// profile picture to see it bigger", 2026-11-16).
     @State private var viewingAvatar = false
+    /// Who the Report / Block menu is about (PersonActions, People.swift).
+    @State private var acting: Profiles.Profile?
 
     private static let tileShape = RoundedRectangle(cornerRadius: 12, style: .continuous)
 
@@ -68,6 +70,26 @@ struct PersonProfileView: View {
         // No bar title: the name is the header's, and a page that says its
         // own name twice is the "title twice" fault (Profile.swift).
         .navigationBarTitleDisplayMode(.inline)
+        // THE ELLIPSIS top right: Report and Block, as AllTrails' and
+        // Instagram's "..." on a profile (Hidde, 2026-11-22, "Ja, bouw het").
+        // Not on your own profile; signed out, it asks you to sign in.
+        .toolbar {
+            if loaded, account.session?.userId != userId {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        guard account.isSignedIn else { signingIn = true; return }
+                        acting = Profiles.Profile(user_id: userId,
+                                                  display_name: profile?.display_name ?? knownName ?? "",
+                                                  avatar_url: nil, units: nil)
+                    } label: {
+                        Image(systemName: "ellipsis")
+                    }
+                    .accessibilityLabel("More about \(profile?.display_name ?? knownName ?? "this person")")
+                    .accessibilityIdentifier("person-profile-more")
+                }
+            }
+        }
+        .modifier(PersonActions(acting: $acting) { Task { await load() } })
         .sheet(isPresented: $signingIn) {
             // Names the person (2026-10-28), as the website's sheet does.
             SignInSheet(reason: profile.map { .follow($0.display_name) } ?? .general)

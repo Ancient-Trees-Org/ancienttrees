@@ -53,9 +53,6 @@ struct PeopleView: View {
     /// Who the report-or-block sheet is about. One optional rather than a
     /// boolean and an id, so the sheet cannot be open about nobody.
     @State private var acting: Profiles.Profile?
-    @State private var reporting: Profiles.Profile?
-    @State private var reported = false
-    @State private var pendingReport: Profiles.Profile?
     /// Signed out, Follow and search ask for an account instead of doing
     /// nothing (2026-10-02, the same gate the heart and the tick carry).
     @State private var signingIn = false
@@ -310,49 +307,9 @@ struct PeopleView: View {
                 ShareSheet(items: [Self.shareLine, item.url]).presentationDetents([.medium, .large])
             }
             .sheet(isPresented: $editingName) { ProfileEditor() }
-            // THE ONE SHEET (Kit/BrandSheet.swift, 2026-10-10) for the
-            // person menu, the reasons and the thanks. One sheet cannot hand
-            // over to the next in the same frame, so the report waits for the
-            // menu to close (pendingReport) before its own sheet opens.
-            .sheet(isPresented: Binding(get: { acting != nil }, set: { if !$0 { acting = nil } }),
-                   onDismiss: {
-                       if let p = pendingReport { pendingReport = nil; reported = false; reporting = p }
-                   }) {
-                if let p = acting {
-                    let hidden = moderation.hides(p.user_id)
-                    BrandSheet(
-                        title: p.display_name,
-                        message: "Blocking hides them from you, and neither of you follows the other any more.",
-                        buttons: [
-                            .secondary("Report this person", id: "person-report") {
-                                pendingReport = p
-                                acting = nil
-                            },
-                            hidden
-                                ? .secondary("Unblock this person", id: "person-block") { block(p); acting = nil }
-                                : .destructive("Block this person", id: "person-block") { block(p); acting = nil },
-                        ])
-                }
-            }
-            // The reasons as buttons rather than a text field: a field asks
-            // somebody to write an essay about an offensive picture; four
-            // buttons take one tap, which is what Apple's own report sheets do.
-            // The thanks is the same sheet's next step.
-            .sheet(isPresented: Binding(get: { reporting != nil }, set: { if !$0 { reporting = nil } })) {
-                if reported {
-                    BrandSheet(
-                        icon: "checkmark",
-                        title: "Thank you",
-                        message: "We look at every report. If you would rather not see this person at all, block them too.",
-                        buttons: [.primary("Done", id: "report-thanks-done") { reporting = nil }])
-                } else {
-                    BrandSheet(
-                        title: "Why are you reporting this?",
-                        buttons: Moderation.Reason.allCases.map { r in
-                            .secondary(r.rawValue) { send(r) }
-                        })
-                }
-            }
+            // THE PERSON MENU, the reasons and the thanks: PersonActions below,
+            // shared with a person's profile (2026-11-22).
+            .modifier(PersonActions(acting: $acting))
             .task {
                 // Debug scaffolding, the same family as -tab and -signed-in:
                 // this list needs a live database with strangers in it, so
@@ -553,32 +510,6 @@ struct PeopleView: View {
         .padding(.vertical, 2)
     }
 
-    /// Send the report, and say so. The row stays where it is: reporting is
-    /// not blocking, and doing both silently would take a choice away from the
-    /// person who only wanted to flag something.
-    private func block(_ p: Profiles.Profile) {
-        guard let s = account.session else { return }
-        Task {
-            // A token that is still good: see Account.freshToken.
-            guard let t = await account.freshToken() else { return }
-            if moderation.hides(p.user_id) {
-                await moderation.unblock(p.user_id, me: s.userId, token: t)
-            } else {
-                await moderation.block(p.user_id, me: s.userId, token: t)
-            }
-        }
-    }
-
-    private func send(_ reason: Moderation.Reason) {
-        guard let p = reporting, let s = account.session else { return }
-        Task {
-            guard let t = await account.freshToken() else { return }
-            _ = await moderation.report(subject: p.user_id, reason: reason.rawValue,
-                                        reporter: s.userId, token: t)
-            reported = true
-        }
-    }
-
     private func toggle(_ p: Profiles.Profile) {
         guard let s = account.session else { signingIn = true; return }
         let wasFollowing = followingIds.contains(p.user_id)
@@ -631,4 +562,95 @@ private struct SearchableWhen: ViewModifier {
             content
         }
     }
+}
+
+/// THE PERSON MENU (Report, Block or Unblock), its reasons and its thanks: one
+/// version for Find people's rows and for the ellipsis on a person's profile
+/// (Hidde, 2026-11-22, "Ja, bouw het"; AllTrails: the "..." on the person's
+/// profile, "Block user", support.alltrails.com 360019244871; Instagram the
+/// same; App Store guideline 1.2 asks for report and block). `onChange` runs
+/// after a block or unblock, so a profile can read itself again.
+struct PersonActions: ViewModifier {
+    @Binding var acting: Profiles.Profile?
+    var onChange: () -> Void = {}
+    @Environment(Account.self) private var account
+    @Environment(Moderation.self) private var moderation
+    @State private var reporting: Profiles.Profile?
+    @State private var reported = false
+    @State private var pendingReport: Profiles.Profile?
+
+    func body(content: Content) -> some View {
+        content
+        // THE ONE SHEET (Kit/BrandSheet.swift, 2026-10-10) for the
+        // person menu, the reasons and the thanks. One sheet cannot hand
+        // over to the next in the same frame, so the report waits for the
+        // menu to close (pendingReport) before its own sheet opens.
+        .sheet(isPresented: Binding(get: { acting != nil }, set: { if !$0 { acting = nil } }),
+               onDismiss: {
+                   if let p = pendingReport { pendingReport = nil; reported = false; reporting = p }
+               }) {
+            if let p = acting {
+                let hidden = moderation.hides(p.user_id)
+                BrandSheet(
+                    title: p.display_name,
+                    message: "Blocking hides them from you, and neither of you follows the other any more.",
+                    buttons: [
+                        .secondary("Report this person", id: "person-report") {
+                            pendingReport = p
+                            acting = nil
+                        },
+                        hidden
+                            ? .secondary("Unblock this person", id: "person-block") { block(p); acting = nil }
+                            : .destructive("Block this person", id: "person-block") { block(p); acting = nil },
+                    ])
+            }
+        }
+        // The reasons as buttons rather than a text field: a field asks
+        // somebody to write an essay about an offensive picture; four
+        // buttons take one tap, which is what Apple's own report sheets do.
+        // The thanks is the same sheet's next step.
+        .sheet(isPresented: Binding(get: { reporting != nil }, set: { if !$0 { reporting = nil } })) {
+            if reported {
+                BrandSheet(
+                    icon: "checkmark",
+                    title: "Thank you",
+                    message: "We look at every report. If you would rather not see this person at all, block them too.",
+                    buttons: [.primary("Done", id: "report-thanks-done") { reporting = nil }])
+            } else {
+                BrandSheet(
+                    title: "Why are you reporting this?",
+                    buttons: Moderation.Reason.allCases.map { r in
+                        .secondary(r.rawValue) { send(r) }
+                    })
+            }
+        }
+    }
+
+    /// Send the report, and say so. The row stays where it is: reporting is
+    /// not blocking, and doing both silently would take a choice away from the
+    /// person who only wanted to flag something.
+    private func block(_ p: Profiles.Profile) {
+        guard let s = account.session else { return }
+        Task {
+            // A token that is still good: see Account.freshToken.
+            guard let t = await account.freshToken() else { return }
+            if moderation.hides(p.user_id) {
+                await moderation.unblock(p.user_id, me: s.userId, token: t)
+            } else {
+                await moderation.block(p.user_id, me: s.userId, token: t)
+            }
+            onChange()
+        }
+    }
+
+    private func send(_ reason: Moderation.Reason) {
+        guard let p = reporting, let s = account.session else { return }
+        Task {
+            guard let t = await account.freshToken() else { return }
+            _ = await moderation.report(subject: p.user_id, reason: reason.rawValue,
+                                        reporter: s.userId, token: t)
+            reported = true
+        }
+    }
+
 }

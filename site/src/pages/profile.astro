@@ -61,6 +61,10 @@ const t = ui("en");
       {/* Follow where the gear sits on your own profile (Polarsteps). Your
           own public profile shows no button: you do not follow yourself. */}
       <button type="button" class="profile-follow-btn" id="pp-follow" hidden>Follow</button>
+      {/* Report and Block behind the ..., as AllTrails' and Instagram's on a
+          profile (Hidde, 2026-11-22, "Ja, bouw het"); the app's PersonActions.
+          Not on your own profile; signed out, it asks you to sign in. */}
+      <button type="button" class="pp-more" id="pp-more" aria-label="More" hidden><Fragment set:html={icon("dots-three", "bold")} /></button>
     </div>
     <div class="profile-badges">
       <p class="profile-ambassador" id="pp-ambassador" hidden></p>
@@ -102,6 +106,27 @@ const t = ui("en");
     <h3 class="at-sheet-h" id="pp-people-h"></h3>
     <ul class="people-list pl-list" id="pp-people-list" data-anon={t.noteVisitor}></ul>
   </Sheet>
+  <Sheet id="pp-mod">
+    <h3 class="at-sheet-h" id="pp-mod-h"></h3>
+    <p class="at-sheet-p" id="pp-mod-p">Blocking hides them from you, and neither of you follows the other any more.</p>
+    <div class="at-sheet-btns" id="pp-mod-btns">
+      <button type="button" class="sheet-b sheet-b--secondary" id="pp-report">Report this person</button>
+      <button type="button" class="sheet-b sheet-b--red" id="pp-block">Block this person</button>
+    </div>
+  </Sheet>
+  <Sheet id="pp-why">
+    <h3 class="at-sheet-h" id="pp-why-h">Why are you reporting this?</h3>
+    <p class="at-sheet-p" id="pp-why-p" hidden>We look at every report. If you would rather not see this person at all, block them too.</p>
+    <div class="at-sheet-btns" id="pp-why-btns">
+      <button type="button" class="sheet-b sheet-b--secondary" data-reason="An offensive name or picture">An offensive name or picture</button>
+      <button type="button" class="sheet-b sheet-b--secondary" data-reason="Pretending to be somebody else">Pretending to be somebody else</button>
+      <button type="button" class="sheet-b sheet-b--secondary" data-reason="Spam or advertising">Spam or advertising</button>
+      <button type="button" class="sheet-b sheet-b--secondary" data-reason="Something else">Something else</button>
+    </div>
+    <div class="at-sheet-btns" id="pp-why-done" hidden>
+      <button type="button" class="sheet-b sheet-b--primary" id="pp-why-close">Done</button>
+    </div>
+  </Sheet>
   <div class="stage">
     <div id="map" class="map"></div>
   </div>
@@ -109,6 +134,9 @@ const t = ui("en");
 <style>
   .pp-private { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 16px; color: var(--ink-mid); }
   .pp-private :global(svg) { width: 20px; height: 20px; flex: none; }
+  .pp-more { flex: none; width: 44px; height: 44px; margin-right: -10px; border: 0; background: none; color: var(--ink-mid); cursor: pointer; display: grid; place-items: center; }
+  .pp-more[hidden] { display: none; }
+  .pp-more :global(svg) { width: 22px; height: 22px; }
   .pp-count { border: 0; background: none; padding: 12px 0; margin: -12px 14px -12px 0; font: inherit; color: inherit; cursor: pointer; }
   .pp-count:hover b, .pp-count:focus-visible b { text-decoration: underline; }
   .pp-people-empty { margin: 0; padding: 4px 0 8px; color: var(--ink-mid); font-size: 15px; }
@@ -183,8 +211,87 @@ const t = ui("en");
     if (p.created_at && (!UNTIL || p.created_at < UNTIL)) el("pp-early").hidden = false;
     follow(p);
     people(p.user_id);
+    moderate(p);
     lists(p.visited || [], p.saves || [], p.approved || [], p.own || []);
     remeasure();
+  }
+
+  // REPORT AND BLOCK, the app's PersonActions on the web: a reports row and a
+  // blocks row written with the viewer's own session (supabase/reports.sql),
+  // the same English reasons, so one queue reads one language.
+  function moderate(p) {
+    var more = el("pp-more"), mod = el("pp-mod"), why = el("pp-why");
+    var me = null, blocked = false;
+    function call(s, method, path, body, prefer) {
+      var h = { "apikey": KEY, "Authorization": "Bearer " + s.access_token };
+      if (body) { h["Content-Type"] = "application/json"; h["Prefer"] = prefer || "return=minimal"; }
+      return fetch(SB + "/rest/v1/" + path, { method: method, headers: h, body: body ? JSON.stringify(body) : undefined })
+        .then(function(r) { return r.ok; }).catch(function() { return false; });
+    }
+    function paint() {
+      var b = el("pp-block");
+      b.textContent = blocked ? "Unblock this person" : "Block this person";
+      b.className = "sheet-b " + (blocked ? "sheet-b--secondary" : "sheet-b--red");
+    }
+    C.verify().then(function(ok) {
+      var s = ok && C.session();
+      if (!s) { more.hidden = false; return; }
+      fetch(SB + "/auth/v1/user", { headers: { "apikey": KEY, "Authorization": "Bearer " + s.access_token } })
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .then(function(u) {
+          me = u && u.id;
+          if (me === p.user_id) return;          // your own public profile
+          more.hidden = false;
+          if (!me) return;
+          fetch(SB + "/rest/v1/blocks?select=blocked&blocker=eq." + me + "&blocked=eq." + p.user_id,
+            { headers: { "apikey": KEY, "Authorization": "Bearer " + s.access_token } })
+            .then(function(r) { return r.ok ? r.json() : []; })
+            .then(function(rows) { blocked = !!(rows && rows.length); paint(); });
+        });
+    });
+    more.addEventListener("click", function() {
+      var ask = function() { if (window.atOpenSignIn) window.atOpenSignIn(); };
+      if (!C || !C.gate) { ask(); return; }
+      C.gate(function() {
+        el("pp-mod-h").textContent = p.display_name;
+        paint();
+        mod.showModal();
+      }, ask);
+    });
+    el("pp-report").addEventListener("click", function() {
+      mod.close();
+      el("pp-why-h").textContent = "Why are you reporting this?";
+      el("pp-why-p").hidden = true; el("pp-why-btns").hidden = false; el("pp-why-done").hidden = true;
+      // One sheet hands over to the next a moment later, as the app's pendingReport.
+      setTimeout(function() { why.showModal(); }, 60);
+    });
+    el("pp-block").addEventListener("click", function() {
+      C.gate(function(s) {
+        if (!me) return;
+        var was = blocked;
+        blocked = !was; paint(); mod.close();
+        var done = was
+          ? call(s, "DELETE", "blocks?blocker=eq." + me + "&blocked=eq." + p.user_id)
+          : call(s, "POST", "blocks?on_conflict=blocker,blocked", [{ blocker: me, blocked: p.user_id }], "resolution=merge-duplicates,return=minimal");
+        done.then(function(ok) {
+          if (!ok) { blocked = was; paint(); return; }
+          // A block ends following both ways, so the Follow button reads again.
+          if (!was) location.reload();
+        });
+      }, function() {});
+    });
+    el("pp-why-btns").addEventListener("click", function(e) {
+      var b = e.target.closest && e.target.closest("[data-reason]");
+      if (!b) return;
+      C.gate(function(s) {
+        if (!me) return;
+        call(s, "POST", "reports", [{ reporter: me, subject: p.user_id, reason: b.getAttribute("data-reason") }]).then(function() {
+          el("pp-why-h").textContent = "Thank you";
+          el("pp-why-p").hidden = false; el("pp-why-btns").hidden = true; el("pp-why-done").hidden = false;
+        });
+      }, function() {});
+    });
+    el("pp-why-close").addEventListener("click", function() { why.close(); });
   }
 
   // FOLLOWERS AND FOLLOWING, from the counts (the app's followListOf). Names

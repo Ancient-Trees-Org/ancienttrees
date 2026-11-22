@@ -168,8 +168,6 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
     val followingIds = remember { mutableStateListOf<String>() }
     var searching by remember { mutableStateOf(false) }
     var acting by remember { mutableStateOf<Profiles.Profile?>(null) }
-    var reporting by remember { mutableStateOf<Profiles.Profile?>(null) }
-    var reported by remember { mutableStateOf(false) }
     var askingPublic by remember { mutableStateOf(false) }
     var refreshing by remember { mutableStateOf(false) }
 
@@ -386,18 +384,32 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
             onNo = { askingPublic = false },
         )
     }
+    PersonActions(host, acting, onClose = { acting = null })
+}
+
+/**
+ * THE PERSON MENU (Report, Block or Unblock), its reasons and its thanks: one
+ * version for Find people's rows and the more button on a person's profile
+ * (Hidde, 2026-11-22, "Ja, bouw het"; People.swift PersonActions; AllTrails'
+ * "..." on a profile, "Block user"). onChange runs after a block or unblock.
+ */
+@Composable
+fun PersonActions(host: PeopleHost, acting: Profiles.Profile?, onClose: () -> Unit, onChange: () -> Unit = {}) {
+    val scope = rememberCoroutineScope()
+    var reporting by remember { mutableStateOf<Profiles.Profile?>(null) }
+    var reported by remember { mutableStateOf(false) }
     acting?.let { p ->
         val hidden = host.moderation.hides(p.userId)
         BrandSheet(
             title = p.displayName,
             message = stringResource(R.string.people_block_body),
-            onDismiss = { acting = null },
+            onDismiss = onClose,
             buttons = listOf(
-                SheetButton(stringResource(R.string.people_report), SheetKind.SECONDARY) { acting = null; reported = false; reporting = p },
+                SheetButton(stringResource(R.string.people_report), SheetKind.SECONDARY) { onClose(); reported = false; reporting = p },
                 if (hidden) {
-                    SheetButton(stringResource(R.string.people_unblock_person), SheetKind.SECONDARY) { block(host, p, scope); acting = null }
+                    SheetButton(stringResource(R.string.people_unblock_person), SheetKind.SECONDARY) { block(host, p, scope, onChange); onClose() }
                 } else {
-                    SheetButton(stringResource(R.string.people_block_person), SheetKind.DESTRUCTIVE) { block(host, p, scope); acting = null }
+                    SheetButton(stringResource(R.string.people_block_person), SheetKind.DESTRUCTIVE) { block(host, p, scope, onChange); onClose() }
                 },
             ),
         )
@@ -433,11 +445,12 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
     }
 }
 
-private fun block(host: PeopleHost, p: Profiles.Profile, scope: kotlinx.coroutines.CoroutineScope) {
+private fun block(host: PeopleHost, p: Profiles.Profile, scope: kotlinx.coroutines.CoroutineScope, onChange: () -> Unit = {}) {
     val me = host.userId ?: return
     scope.launch {
         val t = host.account.fresh()?.accessToken ?: return@launch
         if (host.moderation.hides(p.userId)) host.moderation.unblock(p.userId, me, t) else host.moderation.block(p.userId, me, t)
+        onChange()
     }
 }
 
@@ -636,6 +649,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
     var knownName by remember { mutableStateOf<String?>(null) }
     var lane by remember { mutableStateOf(0) }
     var viewingAvatar by remember { mutableStateOf(false) }
+    var acting by remember { mutableStateOf<Profiles.Profile?>(null) }
 
     suspend fun reload() {
         val token = if (demo) null else host.account.fresh()?.accessToken
@@ -669,7 +683,16 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
 
     Box(Modifier.fillMaxSize()) {
     Column(Modifier.fillMaxSize().background(brand.ground).testTag("person-profile")) {
-        PushedBar("", onBack)
+        // THE MORE BUTTON top right: Report and Block, as AllTrails' and
+        // Instagram's "..." on a profile (Hidde, 2026-11-22; PersonProfile.swift).
+        // Not on your own profile; signed out, it asks you to sign in.
+        val moreLabel = stringResource(R.string.people_more, profile?.displayName ?: knownName ?: "")
+        PushedBar("", onBack, trailing = if (loaded && host.userId != userId) ({
+            BarIcon(Sym.MoreVert, moreLabel, {
+                if (host.userId == null) host.signIn(SignInReason.General)
+                else acting = Profiles.Profile(userId, profile?.displayName ?: knownName ?: "", null)
+            }, Modifier.testTag("person-profile-more"))
+        }) else null)
         // Pull to refresh, as every profile in Instagram, Strava and AllTrails
         // (Hidde, 2026-11-22, "5 ja"; PersonProfile.swift .refreshable).
         PullRefresh({ reload() }) {
@@ -748,6 +771,8 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
         PhotoViewer(listOf(Photo(url = face, license = null, attribution = null, attributionShort = null, thumb = null,
             hero = null, creditRequired = false, creditLine = null, creditUrl = null, frame = null)), 0) { viewingAvatar = false }
     }
+    // Report and Block, the same menu Find people's rows open; a block reads the profile again.
+    PersonActions(host, acting, onClose = { acting = null }, onChange = { scope.launch { reload() } })
     }
 }
 

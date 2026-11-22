@@ -27,6 +27,11 @@ Not done: city_names.py not run for birmingham.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: Report and Block on a person's profile, all three surfaces
+
+- The ... top right of someone's profile now opens Report and Block, as on AllTrails and Instagram (Hidde: "Ja, bouw het"). The app's menu was only on rows in Find people; it is now one shared piece used by both places (iOS and Android). The website had no report or block at all; its profile page has them now, writing the same reports and blocks rows the apps write.
+- iOS and Android compile; not looked at on a phone. The website part waits for CI's build.
+
 ## 2026-11-22 session: three everyday reflexes the reference apps share, on Hidde's yes
 
 - **Website: the phone's Back closes what is open first** (a photograph, any sheet, sign-in) instead of leaving the page, as on Instagram's and Google Maps' websites (Hidde: "1 ja"). One place, lib/overlay-sheet-js.ts, on every page. Tested on the live Totteridge Yew page by injecting the script: Back closed the photo; after closing it with the cross, one Back returned to London.
