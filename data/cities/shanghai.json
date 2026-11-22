@@ -1,0 +1,77 @@
+{
+  "city": "Shanghai",
+  "country": "China",
+  "status": "needs_curation",
+  "intro": "Shanghai is China's great port city on the Huangpu River. In Zhongshan Park in Changning, once a private garden, stands a plane tree that the city's park authorities call East China's No. 1 Plane, with the widest crown and thickest trunk of any in the region. Their sign says it was brought from Italy as a gift in 1866. A reader sent us its photograph in November.",
+  "meta_description": "East China's No. 1 Plane in Shanghai's Zhongshan Park: planted in 1866, its sign's story, and where to find it by Gate 3.",
+  "question_meta": "The tree to see in Shanghai is the great plane in Zhongshan Park, planted in 1866 and called East China's No. 1 Plane.",
+  "question_answer": "The tree to see in Shanghai is the great plane beside Wutong Square in Zhongshan Park, near Gate 3. The park's sign says it was planted in 1866 and calls it East China's No. 1 Plane.",
+  "question_context": "Zhongshan Park in Shanghai's Changning District began as a private garden, and the sign beside its oldest plane tree tells how the tree arrived. In 1866, it says, Thomas Hanbury brought it from Italy as a gift for Mr Hogg, the owner of the garden, who planted it there. The garden later became Zhongshan Park, and the tree has stood through its whole history. The city's greening bureau numbers it 0909, protects it as an ancient tree, and says it has the widest crown, the thickest trunk and the tallest stem of any plane in East China, so wide that five adults are needed to reach round it. The park counts it among its twelve views as A Lone Tree Braving the Frost. It stands beside Wutong Square near Gate 3, alone in a bed of red gravel behind a low rail, its pale trunk splitting low into two great stems. A reader who sent us its photograph puts it at about 160 years, which fits the sign's date. Entry to the park is free.",
+  "faq": [
+    {
+      "q": "Where is the great plane tree in Zhongshan Park?",
+      "a": "Beside Wutong Square near Gate 3 of Zhongshan Park in Changning, behind a low rail with a white sign numbered 0909."
+    },
+    {
+      "q": "How old is the Zhongshan Park plane tree?",
+      "a": "The park's sign says it was planted in 1866, which makes it about 160 years old. A reader who photographed it gives the same age."
+    },
+    {
+      "q": "Can I visit the plane tree in Zhongshan Park?",
+      "a": "Yes. It stands in a public park with free entry; a low rail keeps visitors off its roots."
+    }
+  ],
+  "hero_tree_id": "sha_001",
+  "oldest_tree_id": "sha_001",
+  "trees": [
+    {
+      "id": "sha_001",
+      "name": "The Great Plane of Zhongshan Park",
+      "species": "Plane (Platanus sp.)",
+      "age_estimate": "planted in 1866 by the park's sign; about 160 years by a reader's estimate",
+      "age_min": 159,
+      "age_max": 160,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside Wutong Square, near Gate 3, Zhongshan Park, 780 Changning Road, Changning District, Shanghai",
+        "latitude": 31.2250466666667,
+        "longitude": 121.41095,
+        "neighbourhood": "Changning"
+      },
+      "story": "Shanghai's park authorities call this tree East China's No. 1 Plane. Their sign beside it, in Zhongshan Park next to Wutong Square by Gate 3, says no plane in the region has a wider crown, a thicker trunk or a taller stem, and that it takes five adults with linked arms to reach round it.\n\nThe same sign tells where it came from. In 1866, it says, Thomas Hanbury brought the young tree from Italy as a gift for Mr Hogg, owner of the garden that later became Zhongshan Park, and Hogg planted it there. It has stood through the whole life of the park since. The city now protects it as ancient tree number 0909 and counts it among the park's twelve views, under the name A Lone Tree Braving the Frost.\n\nA reader sent us its photograph on a clear November day. The pale, mottled trunk rises from a bed of red gravel and splits low into two great stems, which fork again and again into a crown that shades the whole lawn, its leaves just starting to turn. The reader knows it as an oriental plane and puts it at about 160 years, which fits the sign's date.\n\nStand at the rail by the sign first, then walk round to see how far the crown reaches.",
+      "how_to_recognise": "Beside Wutong Square near Gate 3: a big pale-barked plane alone in a bed of red gravel behind a low rail, its trunk splitting low into two great stems, with a tall white arched sign headed 0909 in front.",
+      "verified_sources": [
+        "Shanghai Municipal Bureau of Greenery and Public Sanitation sign beside the tree, photographed by the reader: ancient plane tree no. 0909 (悬铃木古树, Platanus) beside Wutong Square at Gate 3 of Zhongshan Park, over 150 years old, the largest crown, thickest trunk (five adults to encircle) and tallest of its kind in East China, called 'East China's No. 1 Plane'; a gift from Thomas Hanbury, brought from Italy in 1866 to Mr Hogg, owner of the garden that became Zhongshan Park, who planted it; one of the park's twelve views, 'A Lone Tree Braving the Frost' (独木傲霜); a second-class protected ancient tree of Shanghai"
+      ],
+      "access": "Free, in Zhongshan Park, a public park; the tree stands behind a low rail. Check the park's opening hours.",
+      "found_by_reader": {
+        "sighting_id": "04fd1169-96a7-42e1-9679-3f639c82dc35",
+        "date": "2026-11-22"
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "04fd1169-96a7-42e1-9679-3f639c82dc35",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app (04fd1169-96a7-42e1-9679-3f639c82dc35), name 'Oriental Plane', species 'Oriental Plane', age '160', girth 1500 cm, no note, location from the photograph. Photographs viewed: the whole plane from behind the rail beside its sign, a pale mottled trunk rising from a bed of red gravel and splitting low into two great stems, a wide crown just starting to turn, blue sky, daylight, colour; the sign reads 0909悬铃木古树 / Platanus. A second picture is the reader's phone translation of the sign (not published), a third repeats the first. Identified from the sign as Zhongshan Park's ancient plane no. 0909. Species left as Platanus sp.: the sign says only Platanus and the photograph does not settle oriental against London plane; the reader's 'oriental plane' is in the story as theirs. The reader's girth of 1500 cm is not used: the sign's 'five adults to encircle' suggests well under half that, so it looks like a slip; ask before it goes on the page. Age 1866 from the sign; Hanbury's name and the gift as the sign tells them. Published under the closed list (Hidde, 2026-11-17).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/sha_001-great-plane-of-zhongshan-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4a3e8be0cafb822ba00b39d3",
+        "sighting_id": "04fd1169-96a7-42e1-9679-3f639c82dc35",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved on 2026-11-22: the whole plane from behind the rail beside its sign, a pale mottled trunk rising from a bed of red gravel and splitting low into two great stems, a wide crown just starting to turn, blue sky, daylight, colour; the sign reads 0909悬铃木古树 / Platanus. A second picture is the reader's phone translation of the sign (not published), a third repeats the first. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

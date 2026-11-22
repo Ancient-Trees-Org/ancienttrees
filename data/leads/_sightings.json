@@ -9334,6 +9334,42 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "kumamoto/kmm_001"
+  },
+  {
+   "sighting_id": "04fd1169-96a7-42e1-9679-3f639c82dc35",
+   "user_id": "p_4a3e8be0cafb822ba00b39d3",
+   "mine": false,
+   "name": "Oriental Plane",
+   "unsure_among": null,
+   "species": "Oriental Plane",
+   "age": "160",
+   "girth_cm": 1500,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 31.2250466666667,
+   "longitude": 121.41095,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_4a3e8be0cafb822ba00b39d3/04FD1169-96A7-42E1-9679-3F639C82DC35.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/04fd1169-96a7-42e1-9679-3f639c82dc35-extra-1.jpg",
+    "out/sightings/04fd1169-96a7-42e1-9679-3f639c82dc35-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole plane from behind the rail beside its sign, a pale mottled trunk rising from a bed of red gravel and splitting low into two great stems, a wide crown just starting to turn, blue sky, daylight, colour; the sign reads 0909悬铃木古树 / Platanus. A second picture is the reader's phone translation of the sign (not published), a third repeats the first. Live as shanghai/sha_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "shanghai/sha_001"
   }
  ]
 }

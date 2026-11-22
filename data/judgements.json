@@ -2,6 +2,18 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:04fd1169-96a7-42e1-9679-3f639c82dc35",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Great Plane of Zhongshan Park",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/04FD1169-96A7-42E1-9679-3F639C82DC35.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole plane behind its rail by the park's sign no. 0909, crown just turning. Live as shanghai/sha_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -98,6 +110,34 @@
    },
    "verdict": "publish",
    "reason": "Reader's October photograph inside the Pando grove: white aspen stem in front, identical stems in yellow leaf behind; quaking aspen, fits the page. Added and leads; the old lead moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:04fd1169-96a7-42e1-9679-3f639c82dc35",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Oriental Plane",
+   "city": null,
+   "species": "Oriental Plane",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/04FD1169-96A7-42E1-9679-3F639C82DC35.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane"
+   },
+   "verdict": "publish",
+   "reason": "Live as shanghai/sha_001, The Great Plane of Zhongshan Park: photograph viewed, the whole plane by its official sign (ancient tree no. 0909, planted 1866, called East China's No. 1 Plane); GPS from the photo. Reader's 1500 cm girth left out as a likely slip.",
    "hidde": null,
    "agreed": null
   },

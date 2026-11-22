@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge: Shanghai's great plane
+
+- **New tree, new place: The Great Plane of Zhongshan Park (shanghai/sha_001).** A reader sent an "Oriental Plane" from Zhongshan Park with the GPS fix in the photograph: the whole tree behind its rail in a bed of red gravel, the crown just turning. Beside it stands the Shanghai greening bureau's sign. It names the tree as ancient plane no. 0909 and says it was planted in 1866, a gift Thomas Hanbury brought from Italy for Mr Hogg, whose garden became the park. It calls it "East China's No. 1 Plane" (widest crown, thickest trunk, five adults to reach round) and lists it as one of the park's twelve views, "A Lone Tree Braving the Frost". The sign is the source. The species is `Platanus sp.` (the sign does not say which plane, and the story gives "oriental plane" as the reader's word). The reader's 160 years matches the sign. Their girth of 1500 cm is left off because the sign's five adults suggests a slip. Pin confirmed, photo filed as November. Their second picture, a phone translation of the sign, is not published. One tree, so no place page. City names looked up (`city_names.py`).
+- **Still not judged: sighting 3c544597** (Amsterdam-Noord, `mine: true`): the photograph is not on disk, the third run in a row. A session with the key has to fetch it. No reports open, no feedback waiting, no reader words to quote. preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-22 reader judge: a reader's Pando in autumn
 
 - **Pando (fish-lake-utah/fsh_001) has a reader's photograph as its lead.** Taken 2020-10-07 inside the grove: a white aspen stem in front, the identical stems in yellow leaf behind. Quaking aspen, fits the page; `add`, so the old lead moves to the strip, filed as October. The GPS fix is 437 m from our pin, inside the clone's 106 acres, so the pin stays. Their three further frames (a wide shot of the yellow hillside among them) are not published: sightings_publish.py takes only the main file. The live-photo mail went through the script.
