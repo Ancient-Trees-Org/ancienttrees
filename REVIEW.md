@@ -220,19 +220,3 @@ App half (iPhone SE: collection-tab, collection-tab-full, collection, contribute
 - NOTE APP early-adopter-sheet.png: "you are one of them" is a claim to every viewer, and the sheet sits over a map with no sign of who is signed in; confirm it only opens for a granted badge. Nothing contradicted on screen.
 - directions.png, collection-tab.png: nothing found.
 
-## 2026-11-07
-
-Web half: the last 24 hours were data (walk routes, vendored photos, 16 app-only places, Préfargier duplicate) plus the New from visitors order. No em dashes in site/dist HTML.
-
-- WARN site/dist/explore.html:281 says "4169 trees in 834 places" and "Each pin opens a tree with its age, its species, why it is worth the walk, and directions", while app-only pins open a card with no story ("Read its story in the app"). Second review to see it; the count now also disagrees with yesterday's 4047. Hard rule 2 / "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
-- WARN site/src/pages/contribute.astro:17 and :401 still say "verified against independent sources" / "check every tip against independent sources". False since "Good reader input IS the source" (2026-10-12). Thirteenth review in a row.
-- NOTE the standing "year printed as age" finding needs its regex narrowed: 103 pages match `content="A (17|18|19|20)[0-9]{2}-year-old`, but some are real ages (Te Matua Ngahere, "A 2000-year-old Kauri", is a sourced age, not a year). A qa check must compare against age_basis, not the digits.
-- NOTE data/walk-routes.json (3d3fe5b0e, +684): still unchecked whether walks route through app-only trees that have no page (open since 11-06).
-
-App half (iPhone SE: collect-describe, collect-identify, collect-intro, collect-place, collect-ticked, collect-voted):
-
-- NOTE APP collect-describe.png: the new-tree page opens with a blank white hero of about half the screen above "A tree in Amsterdam", and the Species row is cut by the Save tree bar so its Add control is not visible. A reader sees an empty box and a half row; a placeholder or a shorter hero would show what the page is. For a session.
-- NOTE APP collect-identify.png: "Pick the one in your photograph" and "Not sure which? Tap (i) to compare" are shown over a list of one tree, so there is nothing to pick between or compare. Say it with one candidate ("Is this the one?"). For a session.
-- NOTE APP collect-place.png: the map's "Amsterdam" place label prints straight through the drag pin's stem, so the pin tip cannot be read against the label it sits on. For a session.
-- NOTE APP collect-ticked.png / collect-voted.png: "Lime, 128 years old" is the planting age of a 1898 commemorative tree, shown without its basis (the story says "around 128"). Honest enough, but the sheet states it as the tree's age. collect-intro and the thumbs-up note field read consistently, nothing contradicted.
-

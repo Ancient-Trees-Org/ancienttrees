@@ -4348,10 +4348,6 @@
    }
   },
   {
-   "common": "Cypress family conifer",
-   "latin": "Cupressaceae, species to be confirmed"
-  },
-  {
    "common": "Daimyo Oak",
    "latin": "Quercus dentata",
    "names": {
@@ -16839,6 +16835,27 @@
    "mapped": false
   },
   {
+   "common": "Bottlebrush buckeye",
+   "latin": "Aesculus parviflora",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Small-flowered buckeye"
+    ],
+    "nl": [
+     "herfst-paardenkastanje"
+    ],
+    "de": [
+     "Strauch-Rosskastanie",
+     "Strauchkastanie",
+     "Strauchrosskastanie"
+    ],
+    "ja": [
+     "アエスクルス・パルビフローラ"
+    ]
+   }
+  },
+  {
    "common": "Peppermint Tree",
    "latin": "Agonis flexuosa",
    "mapped": false,
@@ -20455,6 +20472,11 @@
    "mapped": false
   },
   {
+   "common": "Bebb's oak",
+   "latin": "Quercus × bebbiana",
+   "mapped": false
+  },
+  {
    "common": "Bartram Oak",
    "latin": "Quercus × heterophylla",
    "mapped": false
@@ -20874,6 +20896,25 @@
     ],
     "pt": [
      "Jerivá"
+    ]
+   }
+  },
+  {
+   "common": "Japanese tree lilac",
+   "latin": "Syringa reticulata",
+   "mapped": false,
+   "names": {
+    "de": [
+     "Japanischer Flieder"
+    ],
+    "es": [
+     "Ligustrina amurensis",
+     "Ligustrina amurensis var. japonica",
+     "Ligustrina amurensis var. mandshurica",
+     "Ligustrina amurensis var. pekinensis"
+    ],
+    "ja": [
+     "ハシドイ"
     ]
    }
   },
@@ -25106,6 +25147,29 @@
     ],
     "pt": [
      "Mogno"
+    ]
+   }
+  },
+  {
+   "common": "Lilac",
+   "latin": "Syringa",
+   "genus": true,
+   "names": {
+    "nl": [
+     "sering",
+     "seringen"
+    ],
+    "de": [
+     "Flieder"
+    ],
+    "it": [
+     "Lillà",
+     "Serenella"
+    ],
+    "ja": [
+     "ドスナラ",
+     "ハシドイ属",
+     "ライラック"
     ]
    }
   },

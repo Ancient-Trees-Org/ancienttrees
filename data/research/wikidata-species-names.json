@@ -2216,6 +2216,28 @@
    "Castanheiro-da-índia"
   ]
  },
+ "Aesculus parviflora": {
+  "en": [
+   "Aesculus alba",
+   "Aesculus macrostachya",
+   "Aesculus macrostachys",
+   "Aesculus odorata",
+   "Bottlebrush Buckeye",
+   "Bottlebrush buckeye",
+   "Small-flowered buckeye"
+  ],
+  "nl": [
+   "herfst-paardenkastanje"
+  ],
+  "de": [
+   "Strauch-Rosskastanie",
+   "Strauchkastanie",
+   "Strauchrosskastanie"
+  ],
+  "ja": [
+   "アエスクルス・パルビフローラ"
+  ]
+ },
  "Aesculus turbinata": {
   "ja": [
    "トチノキ",
@@ -34138,6 +34160,23 @@
   ]
  },
  "Quercus virginianna": {},
+ "Quercus × bebbiana": {
+  "de": [
+   "Quercus bebbiana"
+  ],
+  "es": [
+   "Quercus bebbiana"
+  ],
+  "it": [
+   "Quercus bebbiana"
+  ],
+  "nl": [
+   "Quercus bebbiana"
+  ],
+  "pt": [
+   "Quercus bebbiana"
+  ]
+ },
  "Quercus × benderi": {
   "de": [
    "Quercus benderi"
@@ -37415,6 +37454,90 @@
   ],
   "pt": [
    "Jerivá"
+  ]
+ },
+ "Syringa": {
+  "es": [
+   "Syringa"
+  ],
+  "fr": [
+   "Syringa"
+  ],
+  "it": [
+   "Lillà",
+   "Serenella",
+   "Syringa"
+  ],
+  "nl": [
+   "Syringa",
+   "sering",
+   "seringen"
+  ],
+  "pt": [
+   "Syringa"
+  ],
+  "de": [
+   "Flieder",
+   "Syringa",
+   "Syringa Mill. (1754) non. L. (1753)",
+   "Syringa Tour. ex Adanson (1763) non. L. (1753)"
+  ],
+  "en": [
+   "Lilac",
+   "Syringa",
+   "Syringa Mill. (1754) non. L. (1753)",
+   "Syringa Tour. ex Adanson (1763) non. L. (1753)",
+   "lilac"
+  ],
+  "ja": [
+   "ドスナラ",
+   "ハシドイ属",
+   "ライラック"
+  ]
+ },
+ "Syringa reticulata": {
+  "en": [
+   "Japanese Tree Lilac",
+   "Japanese tree lilac",
+   "Syringa reticulata"
+  ],
+  "es": [
+   "Ligustrina amurensis",
+   "Ligustrina amurensis var. japonica",
+   "Ligustrina amurensis var. mandshurica",
+   "Ligustrina amurensis var. pekinensis",
+   "Ligustrina japonica",
+   "Ligustrina pekinensis var. pendula",
+   "Ligustrina reticulata",
+   "Ligustrina reticulata f. bracteata",
+   "Ligustrina reticulata var. longifolia",
+   "Ligustrum pekinense",
+   "Syringa amurensis",
+   "Syringa amurensis f. bracteata",
+   "Syringa amurensis var. mandshurica",
+   "Syringa amurensis var. pekinensis",
+   "Syringa japonica",
+   "Syringa ligustrina",
+   "Syringa reticulata"
+  ],
+  "de": [
+   "Japanischer Flieder",
+   "Syringa reticulata"
+  ],
+  "fr": [
+   "Syringa reticulata"
+  ],
+  "it": [
+   "Syringa reticulata"
+  ],
+  "ja": [
+   "ハシドイ"
+  ],
+  "nl": [
+   "Syringa reticulata"
+  ],
+  "pt": [
+   "Syringa reticulata"
   ]
  },
  "Syzygium": {
