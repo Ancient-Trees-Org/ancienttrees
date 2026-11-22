@@ -21,6 +21,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: why profiles have no flag
+
+- Only 186 of 977 accounts had a flag (Apple 5 of 353, Google 119 of 299, email 62 of 325). Both apps save the flag with an upsert of user_id and country only; Postgres checks NOT NULL on the would-be insert before the conflict, so the empty display_name refused every app save (reproduced on apptest: 23502). The website PATCHes and works. Android accounts made 11-21 and 11-22 all lack a flag.
+- Fix: supabase/flag-upsert-fix.sql, a BEFORE INSERT trigger that takes the existing name when an insert brings none. Works for every installed build; both apps retry while the flag is empty.
+- For Hidde: paste supabase/flag-upsert-fix.sql in the Supabase SQL editor and Run.
+- Owed: the apps' saveCountry should PATCH like the web (next iOS and Android builds); a test that the save round-trips (SignedInRoundTrip).
+
 ## 2026-11-22 reader judge (second run): Barmstedt and Cassano d'Adda live, first photographs for the Bristol cedar and the Donnafugata figs
 
 This run worked through the same queue as the run below. It rebased onto that run's work and kept it (Tewkesbury, Vernon Oak, the three strip photos, Tsagarada held as `doubt_photo`). Only what that run left is added here.
