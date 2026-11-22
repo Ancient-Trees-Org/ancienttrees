@@ -93,6 +93,8 @@
     <string name="people_none">見つかりませんでした。</string>
     <string name="people_no_followers">まだフォロワーはいません。</string>
     <string name="people_no_following">まだ誰もフォローしていません。</string>
+    <string name="people_no_followers_them">まだフォロワーはいません。</string>
+    <string name="people_no_following_them">まだ誰もフォローしていません。</string>
     <string name="people_no_name">名前未設定</string>
     <string name="people_ambassador">アンバサダー</string>
     <string name="people_ambassador_of">%1$sのアンバサダー</string>

@@ -36,7 +36,7 @@ class ProfileRoutes(args: List<String>, private val nav: Nav) {
     val showing: Boolean get() = nav.top?.isProfile == true
     fun openSettings() = nav.push(Page.Settings)
     fun openPrivacy() = nav.push(Page.Privacy)
-    fun openPeople(source: PeopleSource) = nav.push(Page.People(source))
+    fun openPeople(source: PeopleSource, owner: String? = null) = nav.push(Page.People(source, owner))
     fun openPerson(userId: String) = nav.push(Page.Person(userId))
     fun back() = nav.pop()
     /** Signed out: no profile page stays open on any tab. */
@@ -54,7 +54,7 @@ fun ProfilePageScreen(page: Page, routes: ProfileRoutes, settings: SettingsHost,
             editName = { routes.editProfile = true },
             openPerson = { routes.openPerson(it) },
         )
-        is Page.People -> FindPeopleScreen(people, page.source, onBack = { routes.back() })
+        is Page.People -> FindPeopleScreen(people, page.source, page.owner, onBack = { routes.back() })
         is Page.Person -> PersonProfileScreen(people, page.userId, onBack = { routes.back() })
         else -> Unit
     }

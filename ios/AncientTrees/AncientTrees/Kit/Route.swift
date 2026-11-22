@@ -61,6 +61,10 @@ public enum Route: Hashable {
     /// like Find people beside them (Hidde, 2026-11-04: "build this"; Strava,
     /// Polarsteps). They were a sheet with Done. true is followers.
     case followList(followers: Bool)
+    /// SOMEBODY ELSE'S FOLLOWERS OR FOLLOWING, from the counts on their
+    /// profile (Hidde, 2026-11-22, "4 ja"; AllTrails: "Click the number next to
+    /// 'Followers'", support.alltrails.com 360019244871). The same list screen.
+    case followListOf(userId: String, followers: Bool)
     /// EVERY PHOTOGRAPH VISITORS SENT, the See all behind Discover's "New
     /// from visitors" (Hidde, 2026-11-18), the app's twin of the website's
     /// /visitors: Screens/VisitorPhotos.swift.

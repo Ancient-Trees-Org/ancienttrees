@@ -111,6 +111,12 @@ struct ActivityView: View {
             }
             .padding(.top, 6).padding(.bottom, 80)
         }
+        // Pull to refresh, as Instagram's Activity (Hidde, 2026-11-22, "5 ja").
+        .refreshable {
+            let t = await account.freshToken()
+            await store.load(token: t)
+            await store.seen(token: t)
+        }
         .brandGround()
         .navigationTitle("Activity")
         .navigationBarTitleDisplayMode(.inline)

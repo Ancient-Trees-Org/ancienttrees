@@ -44,6 +44,53 @@ export const OVERLAY_SHEET_JS = `
   }
   document.addEventListener('touchend', release);
   document.addEventListener('touchcancel', release);
+
+  // BACK CLOSES WHAT IS OPEN FIRST (Hidde, 2026-11-22, "1 ja"; CONVENTIONS.md
+  // "Back on a phone closes what is open first, on the web too"). Every modal
+  // <dialog> on the site, sheets, the photo viewer and sign-in alike, gets a
+  // history entry of its own when it opens, so the phone's Back (and the
+  // browser's) closes it instead of leaving the page, as on Instagram's and
+  // Google Maps' websites. The rule kept: one entry per open dialog. Opening
+  // adds one; Back takes one and closes the top dialog; a dialog closed any
+  // other way (cross, drag, Escape, a button) hands its entry back with
+  // history.go, one tick later, so a sheet that opens the next sheet reuses it.
+  if (window.HTMLDialogElement && !HTMLDialogElement.prototype.__atBack) {
+    HTMLDialogElement.prototype.__atBack = true;
+    var open = [], entries = 0, ignore = 0, leaving = false;
+    var showModal = HTMLDialogElement.prototype.showModal;
+    function settle() {
+      if (leaving || entries <= open.length) return;
+      var n = entries - open.length;
+      entries = open.length; ignore++;
+      try { history.go(-n); } catch (e) { ignore--; }
+    }
+    HTMLDialogElement.prototype.showModal = function() {
+      showModal.apply(this, arguments);
+      var d = this;
+      if (open.indexOf(d) > -1) return;
+      open.push(d);
+      if (entries < open.length) {
+        try { history.pushState(history.state, ''); entries++; } catch (e) {}
+      }
+      d.addEventListener('close', function gone() {
+        d.removeEventListener('close', gone);
+        var i = open.indexOf(d); if (i > -1) open.splice(i, 1);
+        setTimeout(settle, 0);
+      });
+    };
+    window.addEventListener('popstate', function() {
+      if (ignore) { ignore--; return; }
+      if (entries > 0) entries--;
+      var top = open[open.length - 1];
+      if (top && top.open) top.close();
+    });
+    window.addEventListener('beforeunload', function() { leaving = true; });
+    if (window.navigation && navigation.addEventListener) {
+      navigation.addEventListener('navigate', function(e) {
+        if (e.destination && !e.destination.sameDocument) leaving = true;
+      });
+    }
+  }
 })();
 </script>
 `;

@@ -93,6 +93,8 @@
     <string name="people_none">Persona non trovata.</string>
     <string name="people_no_followers">Nessuno ti segue ancora.</string>
     <string name="people_no_following">Non segui ancora nessuno.</string>
+    <string name="people_no_followers_them">Nessuno segue ancora questa persona.</string>
+    <string name="people_no_following_them">Questa persona non segue ancora nessuno.</string>
     <string name="people_no_name">Ancora senza nome</string>
     <string name="people_ambassador">Ambasciatore</string>
     <string name="people_ambassador_of">Ambasciatore di %1$s</string>

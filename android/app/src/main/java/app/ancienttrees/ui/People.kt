@@ -136,6 +136,8 @@ class PeopleHost(
     val signIn: (SignInReason) -> Unit,
     val editName: () -> Unit,
     val openPerson: (String) -> Unit,
+    /** Somebody else's followers (true) or following, from the counts on their profile. */
+    val openFollowList: (String, Boolean) -> Unit = { _, _ -> },
     val openTree: (Tree) -> Unit,
     /** Somebody's own tree: its shared page (SightingSync.url(for:)). */
     val openShared: (String) -> Unit = {},
@@ -149,15 +151,17 @@ private data class Suggestion(val profile: Profiles.Profile, val reason: String,
 private var lastSuggestions: Pair<String, List<Suggestion>>? = null
 
 @Composable
-fun FindPeopleScreen(host: PeopleHost, source: PeopleSource, onBack: () -> Unit) = PlainText { FindPeopleInner(host, source, onBack) }
+fun FindPeopleScreen(host: PeopleHost, source: PeopleSource, owner: String? = null, onBack: () -> Unit) = PlainText { FindPeopleInner(host, source, owner, onBack) }
 
 @Composable
-private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -> Unit) {
+private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: String?, onBack: () -> Unit) {
     val brand = Brand.colors
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     val demo = DemoPeople.on(host.args)
     val me = host.userId
+    // Whose list (People.swift owner): yours, or somebody else's from their profile.
+    val isMine = owner == null || owner == me
     var query by remember { mutableStateOf("") }
     var results by remember { mutableStateOf<List<Profiles.Profile>>(emptyList()) }
     var suggestions by remember { mutableStateOf(lastSuggestions?.takeIf { it.first == me && source == PeopleSource.SEARCH }?.second.orEmpty()) }
@@ -238,7 +242,8 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
         if (source == PeopleSource.SEARCH || me == null || demo) return@LaunchedEffect
         searching = true
         val t = token()
-        val ids = if (source == PeopleSource.FOLLOWERS) host.profiles.followerIds(me, t) else host.profiles.followingIds(me, t)
+        val whose = if (isMine) me else owner ?: me
+        val ids = if (source == PeopleSource.FOLLOWERS) host.profiles.followerIds(whose, t) else host.profiles.followingIds(whose, t)
         val known = host.profiles.byIds(ids, t).associateBy { it.userId }
         host.profiles.loadAmbassadors(ids, t)
         // A count and a list that disagree is worse than either: a follower with no name yet still gets a row.
@@ -256,12 +261,13 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
         searching = false
     }
 
-    val visible = results.filter { it.userId != me }.let { o -> o.filter { !host.moderation.hides(it.userId) } + o.filter { host.moderation.hides(it.userId) } }
+    // On somebody else's list you are a row too, so it agrees with the count.
+    val visible = results.filter { !isMine || it.userId != me }.let { o -> o.filter { !host.moderation.hides(it.userId) } + o.filter { host.moderation.hides(it.userId) } }
     val showsSuggestions = source == PeopleSource.SEARCH && me != null && query.isBlank() && suggestions.isNotEmpty()
     val emptyLine = when (source) {
         PeopleSource.SEARCH -> if (me == null) stringResource(R.string.people_sign_in) else if (query.isEmpty()) null else stringResource(R.string.people_none)
-        PeopleSource.FOLLOWERS -> stringResource(R.string.people_no_followers)
-        PeopleSource.FOLLOWING -> stringResource(R.string.people_no_following)
+        PeopleSource.FOLLOWERS -> stringResource(if (isMine) R.string.people_no_followers else R.string.people_no_followers_them)
+        PeopleSource.FOLLOWING -> stringResource(if (isMine) R.string.people_no_following else R.string.people_no_following_them)
     }
 
     fun toggle(p: Profiles.Profile) {
@@ -360,7 +366,7 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, onBack: () -
             } else {
                 items(visible, key = { it.userId }) { p ->
                     PersonRow(host, p, null, false, following = p.userId in followingIds, source = source,
-                        onFollow = { toggle(p) }, onMore = { acting = p })
+                        onFollow = { toggle(p) }, onMore = { acting = p }, mineList = isMine)
                 }
             }
         }
@@ -501,6 +507,7 @@ private fun PersonRow(
     source: PeopleSource,
     onFollow: () -> Unit,
     onMore: () -> Unit,
+    mineList: Boolean = true,
 ) {
     val brand = Brand.colors
     val keyboardNow = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
@@ -546,6 +553,8 @@ private fun PersonRow(
             }
         } }
         Spacer(Modifier.size(32.dp))
+        // Yourself, on somebody else's list: no Follow, no more button.
+        if (p.userId != host.userId) {
         if (hidden) {
             Text(
                 stringResource(R.string.people_unblock), fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.moss, textAlign = TextAlign.End,
@@ -557,7 +566,7 @@ private fun PersonRow(
         } else {
             FollowPill(
                 if (following) stringResource(R.string.people_following_state)
-                else if (source == PeopleSource.FOLLOWERS) stringResource(R.string.people_follow_back) else stringResource(R.string.people_follow),
+                else if (source == PeopleSource.FOLLOWERS && mineList) stringResource(R.string.people_follow_back) else stringResource(R.string.people_follow),
                 following, "person-follow", onFollow,
             )
         }
@@ -567,6 +576,7 @@ private fun PersonRow(
             Modifier.size(44.dp).clickable(role = Role.Button, onClick = onMore).semantics { contentDescription = more }.testTag("person-more"),
             contentAlignment = Alignment.Center,
         ) { Icon(Sym.MoreVert, null, tint = brand.inkSoft, modifier = Modifier.size(20.dp)) }
+        }
     }
 }
 
@@ -627,7 +637,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
     var lane by remember { mutableStateOf(0) }
     var viewingAvatar by remember { mutableStateOf(false) }
 
-    LaunchedEffect(userId) {
+    suspend fun reload() {
         val token = if (demo) null else host.account.fresh()?.accessToken
         val p = host.profiles.publicProfile(userId, token)
         profile = p
@@ -641,6 +651,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
         val me = host.userId
         if (me != null && me != userId && !demo) following = userId in host.profiles.followingIds(me, token)
     }
+    LaunchedEffect(userId) { reload() }
 
     fun toggle() {
         val me = host.userId ?: run { host.signIn(profile?.let { SignInReason.Follow(it.displayName) } ?: SignInReason.General); return }
@@ -659,6 +670,9 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
     Box(Modifier.fillMaxSize()) {
     Column(Modifier.fillMaxSize().background(brand.ground).testTag("person-profile")) {
         PushedBar("", onBack)
+        // Pull to refresh, as every profile in Instagram, Strava and AllTrails
+        // (Hidde, 2026-11-22, "5 ja"; PersonProfile.swift .refreshable).
+        PullRefresh({ reload() }) {
         Column(
             verticalArrangement = Arrangement.spacedBy(16.dp),
             modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(top = 8.dp, bottom = 40.dp),
@@ -680,7 +694,11 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                             color = brand.ink, maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
                         CountryFlag(profile?.country)
                     }
-                    profile?.let { p -> FollowLine(followers, p.following) }
+                    // Each number opens its list (Hidde, 2026-11-22, "4 ja"; AllTrails,
+                    // PersonProfile.swift openList). Signed out, it asks first.
+                    profile?.let { p -> FollowLine(followers, p.following,
+                        onFollowers = { if (host.userId == null) host.signIn(SignInReason.General) else host.openFollowList(userId, true) },
+                        onFollowing = { if (host.userId == null) host.signIn(SignInReason.General) else host.openFollowList(userId, false) }) }
                 }
                 if (profile != null && host.userId != userId) {
                     FollowPill(stringResource(if (following) R.string.people_following_state else R.string.people_follow), following, "person-profile-follow") { toggle() }
@@ -722,6 +740,7 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                 }
             }
         }
+        }
     }
     // Their own picture: no licence, so no credit line (creditRequired false).
     val face = profile?.avatarUrl
@@ -734,10 +753,18 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
 
 /** "12 followers   4 following", the numbers bold. */
 @Composable
-fun FollowLine(followers: Int, following: Int) {
+fun FollowLine(followers: Int, following: Int, onFollowers: (() -> Unit)? = null, onFollowing: (() -> Unit)? = null) {
     val brand = Brand.colors
     val f1 = stringResource(R.string.people_followers_word)
     val f2 = stringResource(R.string.people_following_word)
+    if (onFollowers != null && onFollowing != null) {
+        // Two taps, each 44 tall to hit, as the iPhone's countButton.
+        Row(horizontalArrangement = Arrangement.spacedBy(14.dp), verticalAlignment = Alignment.CenterVertically) {
+            FollowCount(followers, f1, "person-followers", onFollowers)
+            FollowCount(following, f2, "person-following", onFollowing)
+        }
+        return
+    }
     Text(
         buildAnnotatedString {
             withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("$followers") }
@@ -747,6 +774,20 @@ fun FollowLine(followers: Int, following: Int) {
         },
         fontSize = 13.sp, color = brand.inkSoft, maxLines = 1,
     )
+}
+
+@Composable
+private fun FollowCount(n: Int, word: String, tag: String, onClick: () -> Unit) {
+    val brand = Brand.colors
+    Box(Modifier.heightIn(min = 44.dp).clickable(role = Role.Button, onClick = onClick).testTag(tag), contentAlignment = Alignment.CenterStart) {
+        Text(
+            buildAnnotatedString {
+                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("$n") }
+                append(" $word")
+            },
+            fontSize = 13.sp, color = brand.inkSoft, maxLines = 1,
+        )
+    }
 }
 
 /** Collect.swift's two lanes, plain underlined tabs on a hairline. */

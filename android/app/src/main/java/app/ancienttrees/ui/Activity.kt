@@ -26,6 +26,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.launch
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.getValue
@@ -121,6 +122,8 @@ fun ActivityPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> Unit)
     }
     Column(Modifier.fillMaxSize().background(brand.ground)) {
         PushedBar("Activity", onBack)
+        // Pull to refresh, as Instagram's Activity (Hidde, 2026-11-22, "5 ja"; Activity.swift).
+        PullRefresh({ val t = act.token(); ActivityStore.load(t); ActivityStore.seen(t) }) {
         LazyColumn(Modifier.fillMaxSize()) {
             item {
                 Text("Hearts on your photographs.", fontSize = 15.sp, color = brand.inkSoft,
@@ -142,6 +145,7 @@ fun ActivityPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> Unit)
                         fontSize = 15.sp, color = brand.inkSoft, modifier = Modifier.padding(16.dp))
                 }
             }
+        }
         }
     }
 }
@@ -201,4 +205,17 @@ private fun ActivityRow(r: ActivityStore.Row, catalogue: Catalogue, act: Discove
             RemoteImage(it.card, null, Modifier.size(48.dp).clip(RoundedCornerShape(8.dp)))
         }
     }
+}
+
+/** Pull to refresh on a pushed page (Material's PullToRefreshBox), the iPhone's .refreshable. */
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+@Composable
+fun PullRefresh(onRefresh: suspend () -> Unit, content: @Composable () -> Unit) {
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    var refreshing by androidx.compose.runtime.remember { mutableStateOf(false) }
+    androidx.compose.material3.pulltorefresh.PullToRefreshBox(
+        isRefreshing = refreshing,
+        onRefresh = { scope.launch { refreshing = true; try { onRefresh() } finally { refreshing = false } } },
+        modifier = Modifier.fillMaxSize(),
+    ) { content() }
 }

@@ -26,6 +26,10 @@ Recorded in CONVENTIONS.md and present in the code, so left out of the ranking: 
 | 9 | **No long-press menu on a tree card** (Save, Share, Directions) | Apple HIG: context menus hold the most likely commands, "Support context menus consistently throughout your app", and every item must also be in the main interface (developer.apple.com/design/human-interface-guidelines/context-menus, looked up) | None anywhere, which is consistent, so not wrong | Low |
 | 10 | **Signed out, /profile says "This profile is private."** | AllTrails and Instagram send a signed-out visitor who opens "your profile" to sign in (from memory) | profile.astro:48 shows the private line for every unreadable case | Low, but it reads as a broken page |
 
+## Hidde's answers (2026-11-22)
+
+1 yes (built), 2 later, 3 not answered yet, 4 yes (built), 5 yes (built on profiles and Activity; My trees left out, see CONVENTIONS.md). Rows 6 to 10 not asked yet.
+
 ## Questions for Hidde (top five, in Dutch)
 
 1. Moet de terugknop van de telefoon op de website eerst de open foto of het open blad sluiten, zoals bij Instagram en Google Maps, in plaats van de pagina te verlaten?

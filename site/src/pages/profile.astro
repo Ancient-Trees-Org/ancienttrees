@@ -27,6 +27,7 @@ import { icon } from "../lib/icons";
 import { SHEET_JS } from "../lib/sheet-js";
 import { EARLY_ADOPTER_UNTIL } from "../lib/early-adopter";
 import { ui } from "../lib/i18n";
+import Sheet from "../components/Sheet.astro";
 
 const canonical = `${BASE_URL}/profile`;
 const SEAL = icon("seal-check", "fill", "ic").replace(/\n/g, "").replace(/'/g, "");
@@ -53,7 +54,9 @@ const t = ui("en");
       <span class="profile-avatar" id="pp-avatar" aria-hidden="true"></span>
       <div class="profile-who">
         <div class="profile-name"><h1 id="pp-name"></h1><img class="profile-flag" id="pp-flag" alt="" width="20" height="20" hidden /></div>
-        <p class="profile-follow"><b id="pp-followers">0</b> followers &nbsp; <b id="pp-following">0</b> following</p>
+        {/* Each number opens its list (Hidde, 2026-11-22, "4 ja"; AllTrails:
+            "Click the number next to 'Followers'"; the app's PersonProfile). */}
+        <p class="profile-follow"><button type="button" class="pp-count" data-list="followers"><b id="pp-followers">0</b> followers</button><button type="button" class="pp-count" data-list="following"><b id="pp-following">0</b> following</button></p>
       </div>
       {/* Follow where the gear sits on your own profile (Polarsteps). Your
           own public profile shows no button: you do not follow yourself. */}
@@ -93,6 +96,12 @@ const t = ui("en");
     <button type="button" class="pv-close" id="pp-photo-close" aria-label={t.photoClose}>&times;</button>
     <div class="pv-frame"><img id="pp-photo-img" alt="" /></div>
   </dialog>
+  {/* Their followers or who they follow: the one sheet, the rows the
+      hearts' list draws (PhotoLikers.astro), a row opens the profile. */}
+  <Sheet id="pp-people" class="pl-sheet">
+    <h3 class="at-sheet-h" id="pp-people-h"></h3>
+    <ul class="people-list pl-list" id="pp-people-list" data-anon={t.noteVisitor}></ul>
+  </Sheet>
   <div class="stage">
     <div id="map" class="map"></div>
   </div>
@@ -100,6 +109,9 @@ const t = ui("en");
 <style>
   .pp-private { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 16px; color: var(--ink-mid); }
   .pp-private :global(svg) { width: 20px; height: 20px; flex: none; }
+  .pp-count { border: 0; background: none; padding: 12px 0; margin: -12px 14px -12px 0; font: inherit; color: inherit; cursor: pointer; }
+  .pp-count:hover b, .pp-count:focus-visible b { text-decoration: underline; }
+  .pp-people-empty { margin: 0; padding: 4px 0 8px; color: var(--ink-mid); font-size: 15px; }
   .pp-empty { grid-column: 1 / -1; margin: 0; color: var(--ink-mid); font-size: 15px; }
   /* No credit bar under a face, so the picture takes the whole height. */
   .pp-photo .pv-frame { height: 100dvh; }
@@ -170,8 +182,59 @@ const t = ui("en");
     }
     if (p.created_at && (!UNTIL || p.created_at < UNTIL)) el("pp-early").hidden = false;
     follow(p);
+    people(p.user_id);
     lists(p.visited || [], p.saves || [], p.approved || [], p.own || []);
     remeasure();
+  }
+
+  // FOLLOWERS AND FOLLOWING, from the counts (the app's followListOf). Names
+  // are signed in only, so signed out the sign-in sheet asks first.
+  function people(id) {
+    var esc = function(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function(c) { return "&#" + c.charCodeAt(0) + ";"; }); };
+    function rest(s, path) {
+      return fetch(SB + "/rest/v1/" + path, { headers: { "apikey": KEY, "Authorization": "Bearer " + s.access_token } })
+        .then(function(r) { return r.ok ? r.json() : []; }).catch(function() { return []; });
+    }
+    function open(which, s) {
+      var d = el("pp-people"), list = el("pp-people-list");
+      el("pp-people-h").textContent = which === "followers" ? "Followers" : "Following";
+      list.innerHTML = "";
+      if (!d.open) d.showModal();
+      var path = which === "followers"
+        ? "follows?select=follower&followee=eq." + id + "&limit=200"
+        : "follows?select=followee&follower=eq." + id + "&limit=200";
+      var key = which === "followers" ? "follower" : "followee";
+      rest(s, path).then(function(rows) {
+        var ids = (rows || []).map(function(r) { return r[key]; }).filter(Boolean);
+        if (!ids.length) {
+          list.innerHTML = '<li class="pp-people-empty">' + (which === "followers" ? "No followers yet." : "Not following anybody yet.") + "</li>";
+          return;
+        }
+        rest(s, "profiles?select=user_id,display_name,avatar_url&user_id=in.(" + ids.join(",") + ")").then(function(ps) {
+          var by = {}; (ps || []).forEach(function(p) { by[p.user_id] = p; });
+          var anon = list.getAttribute("data-anon") || "";
+          list.innerHTML = ids.map(function(u) {
+            var p = by[u] || { user_id: u };
+            var name = p.display_name || anon;
+            var av = p.avatar_url && /^https:/.test(p.avatar_url)
+              ? '<span class="people-av" style="background-image:url(' + esc(String(p.avatar_url).replace(/[()'"]/g, "")) + ')"></span>'
+              : '<span class="people-av">' + esc(name.charAt(0).toUpperCase()) + "</span>";
+            var inner = av + '<span class="people-name' + (p.display_name ? "" : " none") + '">' + esc(name) + "</span>";
+            return "<li>" + (p.display_name
+              ? '<a class="people-who" href="/profile?u=' + encodeURIComponent(u) + '">' + inner + "</a>"
+              : '<span class="people-who">' + inner + "</span>") + "</li>";
+          }).join("");
+        });
+      });
+    }
+    document.querySelectorAll(".pp-count").forEach(function(b) {
+      b.addEventListener("click", function() {
+        var which = b.getAttribute("data-list");
+        var ask = function() { if (window.atOpenSignIn) window.atOpenSignIn(); };
+        if (!C || !C.gate) { ask(); return; }
+        C.gate(function(s) { open(which, s); }, ask);
+      });
+    });
   }
 
   function bigger(btn, src, name) {

@@ -27,6 +27,14 @@ Not done: city_names.py not run for birmingham.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: three everyday reflexes the reference apps share, on Hidde's yes
+
+- **Website: the phone's Back closes what is open first** (a photograph, any sheet, sign-in) instead of leaving the page, as on Instagram's and Google Maps' websites (Hidde: "1 ja"). One place, lib/overlay-sheet-js.ts, on every page. Tested on the live Totteridge Yew page by injecting the script: Back closed the photo; after closing it with the cross, one Back returned to London.
+- **Someone else's follower counts open their lists**, iPhone, Android and web (Hidde: "4 ja"; AllTrails does it). Signed out, it asks you to sign in.
+- **Pull to refresh on a person's profile and on Activity**, iPhone and Android (Hidde: "5 ja"). Not on My trees: it is a sheet over a map, where pulling down lowers the sheet.
+- iOS and Android both compile; not looked at on a phone yet. The website part is checked by CI's build (no Node here).
+- Research behind it: drafts/convention-gaps-2026-11-22.md, ten gaps ranked. For Hidde: block and report on a profile (question 3) and the five small ones (rows 6 to 10) still wait for his word; push notifications later, his call.
+
 ## 2026-11-22 reader judge (seventh run, second copy): a reader's photo now leads the Seville Goya fig
 
 - **Seville sev_009 (Glorieta de Goya fig):** the reader's photo shows the same railed round bed, cars and bougainvillea as the Commons lead, and it has the whole crown, which the Commons photo cuts off. It went in as `add`, so the reader's photo now leads and the Commons one moved to the strip. It is filed in September, the month in the photo. The reader's mail is queued in the weekly bundle.

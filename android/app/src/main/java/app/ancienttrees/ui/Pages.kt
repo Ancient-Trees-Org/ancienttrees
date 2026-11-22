@@ -63,7 +63,8 @@ sealed class Page {
     data class Discover(val page: DiscoverPage) : Page()
     data object Settings : Page()
     data object Privacy : Page()
-    data class People(val source: PeopleSource) : Page()
+    /** owner: whose list; null is yours (People.swift owner, 2026-11-22). */
+    data class People(val source: PeopleSource, val owner: String? = null) : Page()
     data class Person(val userId: String) : Page()
 
     val isProfile: Boolean get() = this is Settings || this is Privacy || this is People || this is Person

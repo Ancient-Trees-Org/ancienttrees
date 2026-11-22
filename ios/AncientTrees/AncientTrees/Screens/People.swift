@@ -25,6 +25,11 @@ struct PeopleView: View {
     /// reporting and the row itself cannot drift into two versions.
     enum Source: String { case search, followers, following }
     var source: Source = .search
+    /// WHOSE list: nil (or your own id) is yours, from My trees; another id is
+    /// somebody else's, from the counts on their profile (Hidde, 2026-11-22,
+    /// "4 ja"; AllTrails and Strava open the list from the number).
+    var owner: String? = nil
+    private var isMine: Bool { owner == nil || owner == account.session?.userId }
     /// Find people is a PUSHED PAGE since 2026-11-04 (Route.findPeople), the
     /// field on top and "Suggested" under it (Hidde: "i like all your
     /// proposals please build"; CONVENTIONS.md "The empty Find people
@@ -105,8 +110,10 @@ struct PeopleView: View {
     private var visible: [Profiles.Profile] {
         // Never yourself: following yourself is refused by the table and the
         // row used to show "Following" anyway (2026-10-02).
+        // On somebody else's list you are one of the rows, as on Instagram, so
+        // the list agrees with the count; your row has no Follow of its own.
         let me = account.session?.userId
-        let others = results.filter { $0.user_id != me }
+        let others = isMine ? results.filter { $0.user_id != me } : results
         return others.filter { !moderation.hides($0.user_id) }
             + others.filter { moderation.hides($0.user_id) }
     }
@@ -119,7 +126,7 @@ struct PeopleView: View {
     /// list unfollowed the person while the button turned to Following.
     private func followLabel(_ p: Profiles.Profile) -> String {
         if followingIds.contains(p.user_id) { return "Following" }
-        return source == .followers ? "Follow back" : "Follow"
+        return source == .followers && isMine ? "Follow back" : "Follow"
     }
 
     private func loadFollowing() async {
@@ -178,8 +185,8 @@ struct PeopleView: View {
         case .search: account.session == nil ? "Sign in to find people."
                       : query.isEmpty ? nil
                                       : "Couldn't find that person."
-        case .followers: "Nobody follows you yet."
-        case .following: "You do not follow anybody yet."
+        case .followers: isMine ? "Nobody follows you yet." : "Nobody follows them yet."
+        case .following: isMine ? "You do not follow anybody yet." : "They do not follow anybody yet."
         }
     }
 
@@ -365,7 +372,8 @@ struct PeopleView: View {
                     .environment(account)
             }
             .task(id: source) {
-                guard source != .search, let uid = account.session?.userId else { return }
+                guard source != .search, let me = account.session?.userId else { return }
+                let uid = isMine ? me : (owner ?? me)
                 searching = true
                 let token = await account.freshToken()
                 let ids = source == .followers
@@ -483,7 +491,10 @@ struct PeopleView: View {
             .accessibilityIdentifier("person-open")
             Spacer(minLength: 8)
 
-            if moderation.hides(p.user_id) {
+            if p.user_id == account.session?.userId {
+                // Yourself, on somebody else's list: no Follow, no ellipsis.
+                EmptyView()
+            } else if moderation.hides(p.user_id) {
                 Button("Unblock") {
                     guard let s = account.session else { return }
                     Task {
@@ -526,6 +537,7 @@ struct PeopleView: View {
             // checks by looking for exactly this control. Every app
             // with profiles puts it in the same place: trailing, on
             // the row or on the profile, opening a short sheet.
+            if p.user_id != account.session?.userId {
             Button { acting = p } label: {
                 Image(systemName: "ellipsis")
                     .font(.system(size: 15, weight: .semibold))
@@ -536,6 +548,7 @@ struct PeopleView: View {
             .buttonStyle(.plain)
             .accessibilityLabel("More about \(p.display_name)")
             .accessibilityIdentifier("person-more")
+            }
         }
         .padding(.vertical, 2)
     }

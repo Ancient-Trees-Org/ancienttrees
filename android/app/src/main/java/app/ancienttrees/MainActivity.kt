@@ -777,6 +777,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         signIn = { r -> signInReason = r; asking = true },
         editName = { routes.editProfile = true },
         openPerson = { routes.openPerson(it) },
+        openFollowList = { id, followers -> routes.openPeople(if (followers) app.ancienttrees.ui.PeopleSource.FOLLOWERS else app.ancienttrees.ui.PeopleSource.FOLLOWING, id) },
         openTree = { openTree(it) },
         // A reader's tree on a profile opens IN THE APP, never the website (Hidde,
         // 2026-11-17: "je moet nooit naar de website sturen"): yours as your tree,

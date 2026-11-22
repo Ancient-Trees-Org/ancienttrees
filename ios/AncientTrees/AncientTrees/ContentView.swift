@@ -494,6 +494,8 @@ struct ContentView: View {
             PeopleView(catalogue: cat)
         case .followList(let followers):
             PeopleView(source: followers ? .followers : .following, catalogue: cat)
+        case .followListOf(let id, let followers):
+            PeopleView(source: followers ? .followers : .following, owner: id, catalogue: cat)
         case .visitors:
             VisitorPhotosView(catalogue: cat)
         case .activity:

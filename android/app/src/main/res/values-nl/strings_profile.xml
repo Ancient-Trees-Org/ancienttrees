@@ -93,6 +93,8 @@
     <string name="people_none">Die persoon is niet gevonden.</string>
     <string name="people_no_followers">Nog niemand volgt je.</string>
     <string name="people_no_following">Je volgt nog niemand.</string>
+    <string name="people_no_followers_them">Nog niemand volgt deze persoon.</string>
+    <string name="people_no_following_them">Deze persoon volgt nog niemand.</string>
     <string name="people_no_name">Nog geen naam</string>
     <string name="people_ambassador">Ambassadeur</string>
     <string name="people_ambassador_of">Ambassadeur van %1$s</string>

@@ -22,6 +22,7 @@ struct PersonProfileView: View {
 
     @Environment(Profiles.self) private var profiles
     @Environment(Account.self) private var account
+    @Environment(Navigator.self) private var navigator
 
     private enum Lane { case seen, want }
     @State private var lane: Lane = .seen
@@ -60,6 +61,9 @@ struct PersonProfileView: View {
             }
             .padding(.horizontal, 16).padding(.top, 8).padding(.bottom, 40)
         }
+        // Pull to refresh, as every profile in Instagram, Strava and
+        // AllTrails (Hidde, 2026-11-22, "5 ja").
+        .refreshable { await load() }
         .brandGround()
         // No bar title: the name is the header's, and a page that says its
         // own name twice is the "title twice" fault (Profile.swift).
@@ -73,6 +77,25 @@ struct PersonProfileView: View {
             PhotoViewer(title: profile?.display_name ?? "", isPresented: $viewingAvatar,
                         remote: avatarURL)
         }
+    }
+
+    private func countButton(_ text: LocalizedStringKey, id: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Text(text)
+                .font(.footnote).foregroundStyle(Brand.inkSoft)
+                .lineLimit(1).minimumScaleFactor(0.8)
+                // 44 to hit, 20 to lay out, as My trees' counts (Collect.swift).
+                .frame(minHeight: 44)
+                .contentShape(.rect)
+        }
+        .buttonStyle(.plain)
+        .padding(.vertical, -12)
+        .accessibilityIdentifier(id)
+    }
+
+    private func openList(followers: Bool) {
+        guard account.isSignedIn else { signingIn = true; return }
+        navigator.push = .followListOf(userId: userId, followers: followers)
     }
 
     private var avatarURL: URL? { profile?.avatar_url.flatMap { URL(string: $0) } }
@@ -113,9 +136,18 @@ struct PersonProfileView: View {
                     CountryFlag(code: profile?.country)
                 }
                 if profile != nil {
-                    Text("**\(followers)** followers   **\(profile?.following ?? 0)** following")
-                        .font(.footnote).foregroundStyle(Brand.inkSoft)
-                        .lineLimit(1).minimumScaleFactor(0.8)
+                    // Each number opens its list (Hidde, 2026-11-22, "4 ja";
+                    // AllTrails "Click the number next to 'Followers'",
+                    // support.alltrails.com 360019244871; Strava, Polarsteps).
+                    // Signed out, the names are behind an account, so it asks.
+                    HStack(spacing: 14) {
+                        countButton("**\(followers)** followers", id: "person-followers") {
+                            openList(followers: true)
+                        }
+                        countButton("**\(profile?.following ?? 0)** following", id: "person-following") {
+                            openList(followers: false)
+                        }
+                    }
                 }
             }
             Spacer(minLength: 8)
