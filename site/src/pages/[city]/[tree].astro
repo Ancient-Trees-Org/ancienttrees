@@ -17,7 +17,7 @@ import { DOWNSIZE_JS } from "../../lib/image-downsize-js";
 import { ADD_PHOTO_JS } from "../../lib/add-photo-js";
 import { TREE_NOTES_JS } from "../../lib/tree-notes-js";
 import { READER_NAMES_JS } from "../../lib/reader-names-js";
-import { photoLikesJs } from "../../lib/photo-likes-js";
+import PhotoLikers from "../../components/PhotoLikers.astro";
 import { TREE_ACTIONS_JS } from "../../lib/tree-actions-js";
 import { VISITED_SYNC_JS } from "../../lib/visited-sync-js";
 import { seasonBlock } from "../../lib/phenology";
@@ -261,7 +261,7 @@ const hreflangBlock = hb ? "\n" + hb : "";
 const headExtra = mapHead() + ogImage + hreflangBlock + "\n" + ldScript(graph);
 // VISITED_SYNC_JS came back with the seal (2026-10-10): the collect sheet.
 const scripts = treePageScript(loc.latitude!, loc.longitude!, tree.id) + WORTHIT_JS + TREE_ACTIONS_JS + VISITED_SYNC_JS + SHARE_JS
-  + DOWNSIZE_JS + ADD_PHOTO_JS + READER_NAMES_JS + TREE_NOTES_JS + photoLikesJs();
+  + DOWNSIZE_JS + ADD_PHOTO_JS + READER_NAMES_JS + TREE_NOTES_JS;
 ---
 <Base title={title} description={description} canonical={canonical} headExtra={headExtra}>
   <TreeDetail
@@ -278,5 +278,6 @@ const scripts = treePageScript(loc.latitude!, loc.longitude!, tree.id) + WORTHIT
     parkUrl={parkPage ? `/parks/${parkPage.slug}` : null}
     nearNotes={nearNotes}
     shots={shots} nearby={nearbyCards} chips={chips} seasonHtml={seasonHtml} />
+  <PhotoLikers lang="en" />
   <Fragment slot="scripts" set:html={scripts} />
 </Base>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wie gaf het hartje</title>
+<link rel="stylesheet" href="https://ancienttrees.app/assets/style.css">
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<style>
+  body { background: var(--cream, #faf7f0); }
+  .mk { max-width: 1180px; margin: 0 auto; padding: 32px 16px 80px; }
+  .mk h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+  .mk h2 { font-size: 21px; font-weight: 800; margin: 48px 0 6px; padding-top: 24px; border-top: 1px solid rgba(38,48,30,.12); }
+  .lede { color: var(--ink-mid); max-width: 760px; font-size: 15px; line-height: 1.55; margin-bottom: 8px; }
+  .row { display: flex; gap: 28px; flex-wrap: wrap; align-items: flex-start; margin-top: 16px; }
+  .lab { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-light); margin-bottom: 8px; }
+  .note { font-size: 13px; color: var(--ink-mid); margin-top: 10px; line-height: 1.45; max-width: 330px; }
+  table.t { border-collapse: collapse; margin-top: 12px; font-size: 14px; max-width: 980px; }
+  table.t th, table.t td { text-align: left; padding: 9px 16px 9px 0; border-bottom: 1px solid rgba(38,48,30,.1); vertical-align: top; line-height: 1.45; }
+  table.t th { font-size: 11.5px; color: var(--ink-light); text-transform: uppercase; letter-spacing: .05em; }
+  .rule { background: #fff; border-radius: 16px; padding: 18px 20px; box-shadow: var(--shadow); max-width: 760px; margin-top: 16px; }
+  .rule ol { margin: 0; padding-left: 20px; } .rule li { margin: 7px 0; font-size: 15px; line-height: 1.5; }
+
+  .phone { position: relative; width: 330px; height: 690px; background: #fff; border-radius: 40px; box-shadow: 0 2px 14px rgba(0,0,0,.14); overflow: hidden; }
+  .phone.dark { background: #111; color: #eee; }
+  .status { height: 44px; }
+  .av { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--moss-light); color: var(--moss); font-size: 10px; font-weight: 700; }
+  .av.l { width: 40px; height: 40px; font-size: 15px; }
+  .av.b { background: #e9dfcf; color: #8a6a3a; } .av.c { background: #dfe6ef; color: #47617f; }
+
+  /* the opened photo */
+  .vtop { display: flex; align-items: center; gap: 10px; padding: 6px 16px; }
+  .vtop small { display: block; color: #aaa; font-size: 11.5px; }
+  .vtop b { font-size: 14px; }
+  .vx { margin-left: auto; width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.14); display: grid; place-items: center; }
+  .vimg { margin: 60px 0 0; width: 100%; height: 400px; object-fit: cover; display: block; }
+  .vfoot { position: absolute; left: 16px; right: 16px; bottom: 28px; display: flex; align-items: center; gap: 8px; font-size: 13px; color: #ccc; }
+  .vheart { margin-left: auto; display: inline-flex; align-items: center; gap: 0; background: rgba(255,255,255,.14); border-radius: 999px; font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; }
+  .vheart span { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; }
+  .vheart span + span { border-left: 1px solid rgba(255,255,255,.2); }
+  .vheart i { font-size: 18px; }
+  .tapme { outline: 2px dashed #e5b54a; outline-offset: 3px; border-radius: 999px; }
+
+  /* the sheet */
+  .dim { position: absolute; inset: 0; background: rgba(0,0,0,.45); }
+  .sheet { position: absolute; left: 0; right: 0; bottom: 0; height: 430px; background: #fff; color: var(--ink); border-radius: 26px 26px 0 0; padding: 8px 20px 20px; }
+  .grab { width: 38px; height: 5px; border-radius: 3px; background: rgba(0,0,0,.18); margin: 0 auto 14px; }
+  .sheet h3 { font-size: 26px; font-weight: 800; margin: 0 0 4px; }
+  .sheet .sub { font-size: 13px; color: var(--ink-mid); margin-bottom: 12px; }
+  .person { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid rgba(38,48,30,.08); }
+  .person .nm { font-weight: 600; font-size: 15px; }
+  .person .meta { font-size: 12px; color: var(--ink-light); }
+  .fol { margin-left: auto; font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 999px; background: var(--moss); color: #fff; }
+  .fol.on { background: var(--surface); color: var(--ink); }
+  .anon .nm { font-weight: 500; color: var(--ink-mid); }
+
+  /* My trees with the bell */
+  .head { display: flex; align-items: center; padding: 6px 20px 0; }
+  .head h3 { font-size: 34px; font-weight: 800; margin: 0; }
+  .bell { margin-left: auto; position: relative; width: 40px; height: 40px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 21px; color: var(--ink); }
+  .bell .dot { position: absolute; top: 7px; right: 8px; width: 9px; height: 9px; border-radius: 50%; background: #d8573f; border: 2px solid #fff; }
+  .stats { display: flex; gap: 10px; padding: 16px 20px; }
+  .stat { flex: 1; background: var(--surface); border-radius: 14px; padding: 10px 12px; font-size: 12px; color: var(--ink-mid); }
+  .stat b { display: block; font-size: 20px; color: var(--ink); }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; padding: 0 20px; }
+  .grid3 img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; border-radius: 6px; }
+
+  /* activity list */
+  .bar { display: flex; align-items: center; gap: 8px; padding: 6px 14px 10px; }
+  .bar b { font-size: 17px; font-weight: 800; margin: 0 auto; transform: translateX(-16px); }
+  .day { font-size: 13px; font-weight: 800; padding: 12px 20px 4px; }
+  .act { display: flex; align-items: center; gap: 12px; padding: 10px 20px; }
+  .act.new { background: #f3f6ec; }
+  .faces { position: relative; width: 44px; height: 40px; flex: 0 0 auto; }
+  .faces .av { position: absolute; width: 30px; height: 30px; font-size: 12px; border: 2px solid #fff; }
+  .faces .av:first-child { left: 0; top: 0; } .faces .av:last-child { left: 14px; top: 10px; }
+  .act p { margin: 0; font-size: 13.5px; line-height: 1.4; flex: 1; }
+  .act p small { color: var(--ink-light); }
+  .act img { width: 46px; height: 46px; object-fit: cover; border-radius: 8px; flex: 0 0 auto; }
+</style>
+</head>
+<body>
+<main class="mk">
+
+<h1>Wie gaf het hartje, en de fotograaf hoort het</h1>
+<p class="lede">Ontwerp, nog niet gebouwd. Twee stukken: (1) tik op het aantal hartjes en je ziet wie ze gaf; (2) de fotograaf ziet in de app dat er hartjes bij kwamen.</p>
+
+<h2>Benchmark</h2>
+<table class="t">
+  <tr><th>App</th><th>Wie gaf het?</th><th>Hoort de maker het?</th><th>Bron</th></tr>
+  <tr><td><b>Strava</b> (kudos)</td><td>Tik op het getal naast het kudos-icoon: lijst met namen</td><td>Ja, melding per kudos; per soort uit te zetten</td><td>support.strava.com 216918397, 15402139</td></tr>
+  <tr><td><b>Instagram</b> (hartje)</td><td>Tik op de regel "Liked by … and others": lijst, met Volgen-knop per persoon</td><td>Ja, in Activiteit (het hartje bovenin), gebundeld: "X and 12 others liked your photo"</td><td>Derde partijen (help-pagina's niet leesbaar)</td></tr>
+  <tr><td><b>komoot</b> (like)</td><td>Op een openbare tour: "4 people liked this tour", namen zichtbaar</td><td>Ja, per soort op telefoon of mail</td><td>komoot.com tourpagina's, help 10360427102362</td></tr>
+  <tr><td><b>Pinterest</b> (reactie)</td><td>Tik op het aantal: wie reageerde</td><td>Ja, de maker krijgt de reactie te zien</td><td>help.pinterest.com reactions</td></tr>
+  <tr><td><b>Google Maps</b> ("Helpful")</td><td><b>Nee</b>: "your name and info aren't shown"</td><td>Ja, de schrijver hoort het</td><td>support.google.com/maps 6230175</td></tr>
+  <tr><td><b>AllTrails</b></td><td colspan="2">Geen officiële uitleg gevonden over likes op foto's of wie ze gaf</td><td>support.alltrails.com</td></tr>
+</table>
+<p class="lede" style="margin-top:12px">De sociale apps (Strava, Instagram, komoot, Pinterest) laten allemaal zien wie het gaf, met een tik op het aantal. Alleen Google Maps houdt het anoniem, en daar is het hartje een stem over of een recensie klopt, geen aanmoediging. Iedereen meldt het de maker, en gebundeld in plaats van per tik.</p>
+
+<h2>1. Wie gaf het: tik op het aantal</h2>
+<p class="lede">Het hartje blijft één knop met twee delen, zoals bij Instagram en Strava: het hartje geeft of neemt terug, <b>het getal opent de lijst</b>. In de app een BrandSheet, op het web Sheet.astro.</p>
+<div class="row">
+  <div>
+    <div class="lab">Foto geopend, vóór de tik</div>
+    <div class="phone dark">
+      <div class="status"></div>
+      <div class="vtop"><span class="av" style="width:32px;height:32px">N</span><div><b>Nathy G.</b><small>The Mulberry of Proviantgården · 2 hours ago</small></div><span class="vx"><i class="ph ph-x"></i></span></div>
+      <img class="vimg" src="https://ancienttrees.app/photos/cop_001-the-mulberry-of-proviantgarden-5277b1c0-500.jpg" alt="">
+      <div class="vfoot"><span>Copenhagen</span><span class="vheart"><span><i class="ph-fill ph-heart" style="color:#fff"></i></span><span class="tapme">3</span></span></div>
+    </div>
+    <p class="note">Het hartje (jij gaf er een, gevuld) en het getal zijn twee tikvlakken. Onder de grote foto op de boompagina en in de tegels werkt het getal net zo.</p>
+  </div>
+  <div>
+    <div class="lab">Na de tik op "3"</div>
+    <div class="phone dark">
+      <div class="status"></div>
+      <img class="vimg" src="https://ancienttrees.app/photos/cop_001-the-mulberry-of-proviantgarden-5277b1c0-500.jpg" alt="">
+      <div class="dim"></div>
+      <div class="sheet">
+        <div class="grab"></div>
+        <h3>3 hearts</h3>
+        <div class="sub">For Nathy's photo of the Mulberry of Proviantgården</div>
+        <div class="person"><span class="av l">Y</span><div><div class="nm">You</div><div class="meta">2 hours ago</div></div></div>
+        <div class="person"><span class="av l b">M</span><div><div class="nm">Miguel P.</div><div class="meta">Lisbon · 1 hour ago</div></div><span class="fol">Follow</span></div>
+        <div class="person"><span class="av l c">R</span><div><div class="nm">Rooted Pine 0518</div><div class="meta">20 minutes ago</div></div><span class="fol on">Following</span></div>
+      </div>
+    </div>
+    <p class="note">Nieuwste onderaan. Naam tikken opent het profiel; Volgen staat erbij zoals bij Instagram (volgen wil je in fase 2 groter maken). Een privéprofiel staat er als "A visitor", zonder link, zoals bij notities. Uitgelogd vraagt de tik op het getal eerst om in te loggen: namen zijn alleen voor ingelogden.</p>
+  </div>
+</div>
+
+<h2>2. De fotograaf hoort het: een bel op My trees</h2>
+<p class="lede">De app heeft nog geen meldingen en geen pushberichten. Wat Instagram, Strava en komoot gemeen hebben is één plek met <b>activiteit</b>, een rood stipje als er iets nieuws is, en gebundelde regels. Voorstel: een bel rechtsboven op My trees (daar staan je eigen bomen en foto's), zonder push. Push is een latere stap met een eigen ja (toestemming van de telefoon, een nieuwe dienst).</p>
+<div class="row">
+  <div>
+    <div class="lab">My trees, met een nieuw hartje</div>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="head"><h3>My trees</h3><span class="bell"><i class="ph ph-bell"></i><span class="dot"></span></span></div>
+      <div class="stats"><div class="stat"><b>12</b>Seen</div><div class="stat"><b>31</b>Want to go</div><div class="stat"><b>5</b>Photos</div></div>
+      <div class="grid3">
+        <img src="https://ancienttrees.app/photos/emm_002-the-oak-in-hunebed-d42-184fee5d-500.jpg" alt="">
+        <img src="https://ancienttrees.app/photos/emm_003-the-oak-at-the-long-grave-500.jpg" alt="">
+        <img src="https://ancienttrees.app/photos/emm_005-the-copper-beech-of-nieuw-schoonebeek-500.jpg" alt="">
+        <img src="https://ancienttrees.app/photos/zwo_013-the-plane-by-restaurant-urbana-500.jpg" alt="">
+        <img src="https://ancienttrees.app/photos/lgy_001-the-llangernyw-yew-a1f47e20-500.jpg" alt="">
+      </div>
+    </div>
+    <p class="note">Het stipje verdwijnt zodra je de bel opent. De tabbalk krijgt geen stipje: dan zou elke tab om aandacht vragen. (Schematisch: de rest van My trees blijft zoals hij nu is.)</p>
+  </div>
+  <div>
+    <div class="lab">Na de tik op de bel</div>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="bar"><i class="ph ph-caret-left" style="font-size:22px"></i><b>Activity</b></div>
+      <div class="day">New</div>
+      <div class="act new"><div class="faces"><span class="av b">M</span><span class="av c">R</span></div><p><b>Miguel P.</b> and <b>2 others</b> gave your photo of the Oak in Hunebed D42 a heart. <small>1h</small></p><img src="https://ancienttrees.app/photos/emm_002-the-oak-in-hunebed-d42-184fee5d-500.jpg" alt=""></div>
+      <div class="day">Earlier</div>
+      <div class="act"><div class="faces"><span class="av">A</span><span class="av c">L</span></div><p><b>Anna K.</b> and <b>Leon W.</b> gave your photo of the Copper Beech of Nieuw-Schoonebeek a heart. <small>3d</small></p><img src="https://ancienttrees.app/photos/emm_005-the-copper-beech-of-nieuw-schoonebeek-500.jpg" alt=""></div>
+      <div class="act"><div class="faces"><span class="av b">S</span></div><p><b>Sam T.</b> gave your photo of the Plane by Restaurant Urbana a heart. <small>2w</small></p><img src="https://ancienttrees.app/photos/zwo_013-the-plane-by-restaurant-urbana-500.jpg" alt=""></div>
+    </div>
+    <p class="note">Eén regel per foto, gebundeld zoals Instagram. Tik op de regel: de foto geopend; tik op het getal daar: de lijst. Later kunnen hier ook andere dingen komen (iemand volgt je, je foto staat live), maar nu alleen hartjes.</p>
+  </div>
+</div>
+
+<h2>Web, mail en wat verandert</h2>
+<div class="rule"><ol>
+  <li><b>Web:</b> dezelfde lijst onder het getal (Sheet.astro). Activity komt in het menu achter je gezicht in de balk, met hetzelfde stipje op je gezicht.</li>
+  <li><b>Mail:</b> geen mail per hartje. Wel één regel in de wekelijkse mail die we al sturen als je foto live gaat ("Your photos got 5 hearts this week"), alleen als die mail toch al gaat. Zo blijft de week rust per adres.</li>
+  <li><b>Privacy:</b> de zin "nobody sees who gave them" wordt "signed-in visitors see who gave them; a private profile shows as A visitor". Ook de 4 hartjes die er al zijn (allemaal van jou) worden dan zichtbaar.</li>
+  <li><b>Wat er níet bij komt:</b> pushberichten, hartjes op notities, een getal op de tabbalk.</li>
+</ol></div>
+
+</main>
+</body>
+</html>

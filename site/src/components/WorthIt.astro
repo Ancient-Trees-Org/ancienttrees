@@ -116,6 +116,12 @@ const thumbs = icon("thumbs-up", "bold", "thumb th-off") + icon("thumbs-up", "fi
     {showVote && (
       <button type="button" class="worthit-btn" data-vote="up" aria-label={U.worthVote(treeName)}>
         <Fragment set:html={thumbs} />
+        {/* THE WORDS BESIDE THE THUMB (Hidde, 2026-11-22: "should we write out
+            worth the visit maybe?", reversing 2026-09-04 now that a heart sits
+            on the photographer's line; Google Maps writes "Helpful" by its
+            thumb). Inline only; no background (the pill was "niet echt de
+            moeite"). The count follows after a dot. */}
+        {part === "vote" && <span class="worthit-w">{U.worthTheVisit}</span>}
         {/* The count sits ON the control, which is the other half of the
             convention the app follows: nobody anywhere draws a number that is
             only a number beside a separate button that casts. Empty until the

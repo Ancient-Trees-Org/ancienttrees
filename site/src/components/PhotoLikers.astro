@@ -1,0 +1,22 @@
+---
+// WHO GAVE A VISITOR'S PHOTOGRAPH A HEART (Hidde, 2026-11-22: "kun je ook zien
+// als je een hartje krijgt wie je dat heeft gegeven?", design
+// drafts/design-2026-11-22-heart-who/product.html). Strava's kudos and
+// Instagram's likes: the count beside the heart opens the names (CONVENTIONS.md
+// "A heart for a visitor's photograph ... Who gave it"). The one sheet
+// (Sheet.astro); the rows are the followers list's (people-js.ts rowHtml):
+// face, name, a link to the profile. lib/photo-likes-js.ts fills it from
+// photo_likers() (supabase/photo-hearts-who.sql), signed in only.
+import Sheet from "./Sheet.astro";
+import { ui } from "../lib/i18n";
+import { photoLikesJs } from "../lib/photo-likes-js";
+
+interface Props { lang?: string }
+const { lang = "en" } = Astro.props as Props;
+const u = ui(lang);
+---
+<Sheet lang={lang} id="pl-sheet" class="pl-sheet">
+  <h3 class="at-sheet-h" id="pl-title"></h3>
+  <ul class="people-list pl-list" id="pl-list" data-anon={u.noteVisitor}></ul>
+</Sheet>
+<Fragment set:html={photoLikesJs()} />

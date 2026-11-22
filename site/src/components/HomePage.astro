@@ -44,7 +44,7 @@ import { cityIsRenderable, renderableTrees, slugify, mapTrees, cityIsOnMap, tree
 import { usablePhoto, imgSrcset, imgSrcsetAttrs, photoWidth, MIN_CARD_PX, cityFaceTree, faceTreesOf, thumbUrl } from "../lib/images";
 import { placeHasPage, exploreAt } from "../lib/place-page";
 import { visitorsRowJs } from "../lib/visitors-row-js";
-import { photoLikesJs } from "../lib/photo-likes-js";
+import PhotoLikers from "./PhotoLikers.astro";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
 import { visitorCards, cardsJson } from "../lib/visitor-cards";
 import { speciesCommon, COUNTRY_MIN_CITIES } from "../lib/species";
@@ -490,7 +490,7 @@ const collectedSpecies = [...lit, ...dim]
 const graph = SITE_SCHEMA;
 const headExtra = ldScript(graph);
 const heroImg = imgSrcset(HERO_PHOTO_URL, [1200, 2000, 2800], "100vw");
-const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVisitor, u.cardSave, u.cardSaved) + photoLikesJs();
+const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVisitor, u.cardSave, u.cardSaved);
 ---
 <Base title={title} description={description} canonical={canonical} lang={lang} ogType="website" headExtra={headExtra + "\n" + hreflangSet("/", homeVariants)}>
 <div class="home-hero poster">
@@ -634,5 +634,6 @@ const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVis
       needs a stronger ask than the footer's, it goes ABOVE the directory and
       says something the footer does not. */}
 </main>
+<PhotoLikers lang={lang} />
 <Fragment slot="scripts" set:html={scripts} />
 </Base>

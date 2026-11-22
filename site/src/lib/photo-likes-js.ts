@@ -4,16 +4,20 @@
 // photograph, beside save and Worth the visit; who and when on it": the
 // bookmark saves the TREE in the photograph's corner, the thumb says the tree
 // is worth the visit, and this heart thanks the PHOTOGRAPHER, at the end of
-// their line (face, name, when). Strava's kudos and Instagram's like: the
-// count is the button, one tap gives, a second takes it back. Google Maps'
-// "Helpful": the count is public, who gave it is not (supabase/photo-likes.sql).
+// their line (face, name, when).
+//
+// TWO TAPS, Instagram's and Strava's (2026-11-22, Hidde: "kun je ook zien ...
+// wie je dat heeft gegeven?"): the heart gives or takes back; the count beside
+// it opens who gave one (PhotoLikers.astro's sheet, signed in only, from
+// photo_likers() in supabase/photo-hearts-who.sql).
 //
 // One script for every place the byline stands (the home row, /visitors, the
 // tree page under the hero and in the opened photograph). A slot is
-// <span data-photo-like="<photo id>"></span>; this fills it with the button,
-// asks the server for the counts of every slot on the page in one call, and
-// keeps them in step. Signed out, a tap opens the sign-in sheet through the
-// one door (atCollection.gate) and changes nothing. Nothing kept on the device.
+// <span data-photo-like="<photo id>"></span>; this fills it with the two
+// buttons, asks the server for the counts of every slot on the page in one
+// call, and keeps them in step. Signed out, a tap opens the sign-in sheet
+// through the one door (atCollection.gate) and changes nothing. Nothing kept
+// on the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
 import { ui } from "./i18n";
 import { icon } from "./icons";
@@ -21,8 +25,11 @@ import { icon } from "./icons";
 const LANGS = ["en", "es", "it", "nl", "de", "pt", "fr", "ja"];
 
 export function photoLikesJs(): string {
-  const words: Record<string, [string, string]> = {};
-  for (const l of LANGS) words[l] = [ui(l).photoLike, ui(l).photoLiked];
+  const words: Record<string, string[]> = {};
+  for (const l of LANGS) {
+    const u = ui(l);
+    words[l] = [u.photoLike, u.photoLiked, u.photoHeartsOne, u.photoHeartsMany, u.photoHeartsWho];
+  }
   const off = icon("heart", "bold", "pl-off");
   const on = icon("heart", "fill", "pl-on");
   return `
@@ -35,11 +42,13 @@ export function photoLikesJs(): string {
   var lang = (document.documentElement.lang || 'en').slice(0, 2);
   var W = WORDS[lang] || WORDS.en;
   var state = {};
-  function rpc(ids, token) {
-    return fetch(SB + '/rest/v1/rpc/photo_like_counts', {
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); }
+  function hearts(n) { return n === 1 ? W[2] : W[3].replace('{n}', String(n)); }
+  function call(name, body, token) {
+    return fetch(SB + '/rest/v1/rpc/' + name, {
       method: 'POST',
       headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + (token || KEY), 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ids: ids })
+      body: JSON.stringify(body)
     }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
   }
   function show(id) {
@@ -52,13 +61,23 @@ export function photoLikesJs(): string {
         b.type = 'button';
         b.className = 'photo-like';
         b.setAttribute('data-photo', id);
-        b.innerHTML = OFF + ON + '<span class="pl-n"></span>';
+        b.innerHTML = OFF + ON;
         slot.appendChild(b);
+        var c = document.createElement('button');
+        c.type = 'button';
+        c.className = 'pl-count';
+        c.setAttribute('data-photo', id);
+        c.hidden = true;
+        slot.appendChild(c);
       }
       b.setAttribute('aria-pressed', s.mine ? 'true' : 'false');
-      b.setAttribute('aria-label', (s.mine ? W[1] : W[0]) + (s.n ? ', ' + s.n : ''));
+      b.setAttribute('aria-label', s.mine ? W[1] : W[0]);
       // From one, never a zero (Hidde, 2026-08-26: "pas van 1 tellen").
-      b.querySelector('.pl-n').textContent = s.n ? String(s.n) : '';
+      var cnt = slot.querySelector('.pl-count');
+      cnt.textContent = s.n ? String(s.n) : '';
+      cnt.hidden = !s.n;
+      cnt.classList.toggle('on', !!s.mine);
+      cnt.setAttribute('aria-label', s.n ? hearts(s.n) + '. ' + W[4] : W[4]);
     });
   }
   function load() {
@@ -70,7 +89,7 @@ export function photoLikesJs(): string {
     });
     if (!ids.length) return;
     var go = function (token) {
-      rpc(ids, token).then(function (rows) {
+      call('photo_like_counts', { ids: ids }, token).then(function (rows) {
         (rows || []).forEach(function (r) { state[r.photo_id] = { n: Number(r.likes) || 0, mine: !!r.mine }; });
         ids.forEach(show);
       });
@@ -88,15 +107,42 @@ export function photoLikesJs(): string {
       : fetch(SB + '/rest/v1/photo_likes?photo_id=eq.' + encodeURIComponent(id), { method: 'DELETE', headers: h });
     return req.then(function (r) { return r.ok; }).catch(function () { return false; });
   }
+  // Who gave one: the followers list's rows (people-js.ts), a private
+  // profile as "A visitor" without a link.
+  function openLikers(id, s) {
+    var dlg = document.getElementById('pl-sheet');
+    var list = document.getElementById('pl-list');
+    if (!dlg || !list) return;
+    var n = (state[id] || {}).n || 0;
+    document.getElementById('pl-title').textContent = hearts(n);
+    list.innerHTML = '';
+    if (dlg.showModal && !dlg.open) dlg.showModal();
+    call('photo_likers', { photo: id }, s.access_token).then(function (rows) {
+      var anon = list.getAttribute('data-anon') || '';
+      if (rows && rows.length) document.getElementById('pl-title').textContent = hearts(rows.length);
+      list.innerHTML = (rows || []).map(function (p) {
+        var name = p.display_name || anon;
+        var av = p.avatar_url && /^https:/.test(p.avatar_url)
+          ? '<span class="people-av" style="background-image:url(' + esc(String(p.avatar_url).replace(/[()'"]/g, '')) + ')"></span>'
+          : '<span class="people-av">' + esc(name.charAt(0).toUpperCase()) + '</span>';
+        var inner = av + '<span class="people-name' + (p.display_name ? '' : ' none') + '">' + esc(name) + '</span>';
+        return '<li>' + (p.user_id
+          ? '<a class="people-who" href="/profile?u=' + encodeURIComponent(p.user_id) + '">' + inner + '</a>'
+          : '<span class="people-who">' + inner + '</span>') + '</li>';
+      }).join('');
+    });
+  }
   document.addEventListener('click', function (e) {
-    var b = e.target.closest && e.target.closest('.photo-like');
-    if (!b) return;
+    var cnt = e.target.closest && e.target.closest('.pl-count');
+    var b = !cnt && e.target.closest && e.target.closest('.photo-like');
+    if (!cnt && !b) return;
     e.preventDefault();
     e.stopPropagation();
-    var id = b.getAttribute('data-photo');
+    var id = (cnt || b).getAttribute('data-photo');
     var ask = function () { if (window.atOpenSignIn) window.atOpenSignIn(); };
     var C = window.atCollection;
     if (!C || !C.gate) { ask(); return; }
+    if (cnt) { C.gate(function (s) { openLikers(id, s); }, ask); return; }
     C.gate(function (s) {
       var was = state[id] || { n: 0, mine: false };
       var give = !was.mine;

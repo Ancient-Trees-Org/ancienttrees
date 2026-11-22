@@ -205,7 +205,7 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
       </div>
     </details>
     <details class="nav-drop">
-      <summary aria-label={t.menu}><span class="sum-desktop">{t.explore}<Fragment set:html={CARET} /></span><span class="sum-mobile" aria-hidden="true"><Fragment set:html={icon("list", "bold")} /></span></summary>
+      <summary aria-label={t.menu}><span class="sum-desktop">{t.explore}<Fragment set:html={CARET} /></span><span class="sum-mobile" aria-hidden="true"><Fragment set:html={icon("list", "bold")} /><span class="bell-dot" hidden></span></span></summary>
       <div class="nav-drop-menu">
         {/* Below 800px this panel is a full-screen sheet rather than a
             dropdown, copied from AllTrails' own phone menu (CONVENTIONS.md
@@ -248,6 +248,10 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
           <Fragment>
             <p class="nav-group only-mobile nav-yours">{t.yours}</p>
             <a href="/account" class="only-mobile nav-yours"><span class="mi"><Fragment set:html={LEAF} /></span><span>{t.savedTrees}</span></a>
+            {/* The phone's bar has no room for the bell (42px free at 375,
+                2026-10-12), so Activity is a row here and the dot sits on the
+                menu button (2026-11-22). */}
+            <a href="/activity" class="only-mobile nav-yours nav-activity"><span class="mi"><Fragment set:html={icon("bell", "bold")} /></span><span>{t.activity}</span><span class="bell-dot" hidden></span></a>
           </Fragment>
         )}
         <p class="nav-group only-mobile">{t.takePart}</p>
@@ -283,6 +287,12 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
             Polarsteps do on the web and our own app's tab does. Settings sit
             behind the gear on the profile; the menu's two rows had become one
             page and its gear. The phone sheet keeps one row, My trees. */}
+        {/* THE BELL (Hidde, 2026-11-22: the bell "voor nu is het ok", not its
+            final place; an activity feed with the people you follow will want
+            the menu). Signed in only; opens /activity, the hearts other people
+            gave your photographs. A dot while something came after you last
+            opened it. Strava's and Instagram's web bars carry the same. */}
+        <a href="/activity" id="bar-bell" class="bar-bell only-desktop" aria-label={t.activity} hidden><Fragment set:html={icon("bell", "bold")} /><span class="bell-dot" hidden></span></a>
         <a href="/account" id="bar-login" class="nav-acct bar-face only-desktop" aria-label={t.account}><span class="acct-face" aria-hidden="true"></span><span class="acct-word sr-only">{t.account}</span></a>
       </Fragment>
     )}
@@ -606,6 +616,7 @@ window.atPaintNav = function(inNow) {
 // the device. Until it answers, or with no profile yet, a plain cream circle.
 // signin-js repaints after renewing a spent token, so this runs again then.
 window.atPaintFace = function(inNow) {
+  window.atPaintBell(inNow);
   var face = document.querySelector('#bar-login .acct-face');
   if (!face) return;
   face.textContent = ''; face.style.backgroundImage = ''; face.classList.remove('has-initial');
@@ -627,6 +638,28 @@ window.atPaintFace = function(inNow) {
           face.classList.add('has-initial');
         }
       }).catch(function() {});
+  } catch (e) {}
+};
+// THE BELL (2026-11-22): shown signed in; the dot when the server says a
+// heart came after you last opened Activity (supabase/photo-hearts-who.sql).
+window.atPaintBell = function(inNow) {
+  var bell = document.getElementById('bar-bell');
+  if (!bell) return;
+  var dots = document.querySelectorAll('header.bar .bell-dot');
+  bell.hidden = !inNow;
+  dots.forEach(function(d) { d.hidden = true; });
+  if (!inNow) return;
+  try {
+    var s = JSON.parse(localStorage.getItem('ancienttrees_session'));
+    fetch(faceSB + '/rest/v1/rpc/my_photo_activity', { method: 'POST',
+          headers: { 'apikey': faceKey, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' },
+          body: '{"n":5}' })
+      .then(function(r) { return r.ok ? r.json() : []; })
+      .then(function(rows) {
+        var fresh = (rows || []).some(function(r) { return r.is_new; });
+        dots.forEach(function(d) { d.hidden = !fresh; });
+      })
+      .catch(function() {});
   } catch (e) {}
 };
 (function() {
