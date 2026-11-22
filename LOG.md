@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (nineteenth run): two Horn-Lehe mail replies closed, nothing new to publish
+
+- No new trees, photographs, tips or reports came in. This run did nothing on the site.
+- **Mail reply 1493** says the country she picks still does not stay. It is the same report today's session fixed in eef9c2bcb, and its reply waits for Hidde in drafts/reply-reader-1358-2026-11-22b.md. Closed `handled`, and in reader_words as not about the tree.
+- **Mail reply 1494** asks to be ambassador of Bremen. Our only Bremen place is Horn-Lehe, and she already holds that badge. Closed `handled`. Her "Looking after Horn-Lehe" welcome still did **not** go out, because this machine has no mail credentials. A knock or session that has them should run `ambassador.py --welcome-missing --send`.
+- Left: lead 3c544597 (Amsterdam, `mine`) still has no photo on disk. It was not judged blind.
+
 ## 2026-11-22 session: the country you pick on iPhone stays picked
 
 - Reader 1358 wrote again after this morning's flag fix: "Helaas wil het land bij mij nog niet blijven staan". The server takes the apps' save now (round-trip on apptest: BE, then NL). Her row still said NL, so her new choice had never reached it.

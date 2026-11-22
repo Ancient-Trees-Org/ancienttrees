@@ -311,6 +311,16 @@
    "status": "handled",
    "what": "Wish to be ambassador of their part of Bremen: badge granted for Horn-Lehe (horn-bremen); the welcome mail could not go from this run (no mail credentials)"
   },
+  "1493": {
+   "date": "2026-11-22",
+   "status": "handled",
+   "what": "Same report as the session handled today: the iPhone Edit profile put the saved country back; fixed in eef9c2bcb with a test, escaped bug recorded, reaches readers with the next iOS build; a reply waits for Hidde in drafts/reply-reader-1358-2026-11-22b.md."
+  },
+  "1494": {
+   "date": "2026-11-22",
+   "status": "handled",
+   "what": "A wish to look after Bremen: the badge for Horn-Lehe, our only Bremen place, was granted this afternoon from the earlier reply; the welcome mail still waits for a run with mail credentials (ambassador.py --welcome-missing --send)."
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

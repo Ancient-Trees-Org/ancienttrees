@@ -2213,6 +2213,19 @@
    "agreed": null
   },
   {
+   "id": "sight:tip-1490",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The cedar of Himalaya",
+   "city": "Verona",
+   "photo": "p_bf43ebca22541711ebb200c2/9e7ba2a4-6a65-4db2-99f8-4b1181154a47.jpg",
+   "reader_note": "Old, very very beautiful",
+   "verdict": "publish",
+   "reason": "Photographs viewed 2026-11-22: the reader's own photograph (the tip's second image) shows the whole tiered cedar from across the road, daylight, colour, and is the lead photo of verona/ver_010, filed in November. The first image is a Street View capture and is not used.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -24709,19 +24722,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-1490",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "The cedar of Himalaya",
-   "city": "Verona",
-   "photo": "p_bf43ebca22541711ebb200c2/9e7ba2a4-6a65-4db2-99f8-4b1181154a47.jpg",
-   "reader_note": "Old, very very beautiful",
-   "verdict": "publish",
-   "reason": "Photographs viewed 2026-11-22: the reader's own photograph (the tip's second image) shows the whole tiered cedar from across the road, daylight, colour, and is the lead photo of verona/ver_010, filed in November. The first image is a Street View capture and is not used.",
    "hidde": null,
    "agreed": null
   }
