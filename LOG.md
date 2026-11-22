@@ -150,6 +150,7 @@ FOR HIDDE: paste supabase/photo-hearts-who.sql in the Supabase SQL editor. Until
 ## 2026-11-22 session: Android build 5 sent to Google for review
 
 - **In review** (Hidde: "Ja, indienen"): build 5 (0.1.0) on both closed tracks, Alpha and Beta (Google Group), full rollout, replacing build 4. Hidde had uploaded the bundle to the library but it was in no release; the session put it into an Alpha release and a new Beta release in his Chrome and saved both. Play Console then showed "Wijzigingen worden beoordeeld" (pre-review checks up to 14 minutes, then Google's review). Only warning: no native debug symbols (MapLibre), as on build 4.
+- **Live the same day**: Play Console shows Release 5 (0.1.0) green on both closed tracks, Alpha and Beta (Google Group), updated 22 Nov; Publishing overview has nothing waiting for review.
 
 ## 2026-11-22 reader judge: the Vienna pagoda tree gets the same reader's photograph
 
