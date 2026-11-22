@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-22 reader judge: one mail reply filed, nothing else waiting
+
+- Nothing changed on the site. No photographs in the queue, no open reports, no unjudged tips, no readers' notes waiting to be quoted.
+- Feedback 1500, a mail reply saying thanks and that the sender will photograph trees on a next visit: closed handled, not quoted.
+- The one waiting lead, 3c544597 by Amsterdam Centraal, is our own account's (`mine`) and its photograph is still not on disk. Left alone: we never judge a photo we haven't seen.
+For Hidde: none.
+
 ## 2026-11-22 reader judge: three readers' photographs live (Hamburg, Paris)
 
 - Hamburg's Lehmann plane (hbg_007) has its first photograph: a reader's autumn shot of the crooked trunk and the low heavy limb, 9 m from our pin. Its page now has reader content, so preflight read its story as indexed and caught a colon reveal; rewritten in English and the German overlay.
