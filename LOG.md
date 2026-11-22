@@ -11,6 +11,10 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 fourth attempt: nothing shipped, and why
+
+No claims stood. READY leads: 2 (york, guimaraes), under the six-candidate minimum. `--pending` holds only duplicates and id clashes. Staged focus cities portland, munich and vienna are refused as full; translations are paused by `TRANSLATIONS_OUT`; the register backup says BUILD. The one unjudged reader photo (3c544597) is not on disk, so it stays open rather than judged blind. A deploy dispatch is refused (403) here; the last dispatched deploy (04:12) failed before fix 64bd619, so a session should re-dispatch one. Next: a verify pass on a city with room, or iNaturalist as a new source.
+
 ## 2026-11-22 night run, third attempt: nothing shipped, shelf still dry
 No product change. Released the standing stuttgart claim (wall for 48h). READY has 2 leads (York, Guimaraes), under the 6-candidate floor; the "awaiting a writer" files are stale or duplicates. Portland refused (full, 33 of 30). Dublin claimed and released at once: 0 of 9 leads carry a coordinate, so a pass would fail on the pin (now a 48h wall). Translations stay paused (TRANSLATIONS_OUT) and register scouting says BUILD with nothing left. The blocker is the same as the last attempts: supply needs a coordinate source (a rendering browser for Birmingham's Botanical Gardens list, or iNaturalist points), not another search pass. Health reds (deploy and smoke on schedule, app catalogue 175 behind) not touched.
 
