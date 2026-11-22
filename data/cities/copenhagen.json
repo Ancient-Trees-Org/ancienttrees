@@ -87,6 +87,19 @@
           "width": 2000,
           "height": 1333,
           "note": "Photographed by Hans Erik Lund, who runs the Dansk Traeregister, and given to us by mail on 2026-09-20 in answer to our own request: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Looked at before approving on 2026-09-23. The fruit in July: dark, almost stalkless, on thick rough leaves. This is the evidence for the species correction."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cop_001-the-mulberry-of-proviantgarden-5277b1c0.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_11ba938518e45421db94eb78",
+          "sighting_id": "5277b1c0-a525-4e16-b107-814ca9468b92",
+          "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: The Proviantgarden mulberry in yellow autumn leaf, its propped, sprawling limbs against the red-brick storehouse wall; scaffolding around it today, so it joins the strip behind the lead. Species seen: mulberry: broad heart-shaped leaves turning yellow, gnarled sprawling limbs on props. Fits the description: the one mulberry in a courtyard closed in by red-brick naval storehouses.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ],
       "height_m": 5,
@@ -149,10 +162,17 @@
       "access": "Free, open access, public ground beside Thorvaldsens Museum",
       "transport": "Christianshavn metro station or Copenhagen Central Station, short walk across Slotsholmen",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cop_003-thorvaldsen-s-robinia.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_11ba938518e45421db94eb78",
+        "sighting_id": "01b1e6c6-99cb-4345-bdde-eba08dd5a625",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); a viewing pass approved it on 2026-11-22: A black locust standing alone on the cobbles of Slotsholmen, the reader's pick at our register pin; the tree had no photograph at all. Grey sky, but daylight and colour. Species seen: pinnate drooping leaflets, deeply furrowed bark, open locust crown. Fits the description: an old black locust on open public ground at Slotsholmen, a burred base forking into several stems up the trunk.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "The only detailed source found is the Danish Dendrological Society's own tree register entry, which itself frames Thorvaldsen's personal planting as tradition ('possibly brought Robinia seeds') rather than documented fact; flagged accordingly. Measurements (3.2m circumference, 1995) and coordinates (surveyed 2008) come directly from that official register, making the location one of this city's most precisely confirmed.",

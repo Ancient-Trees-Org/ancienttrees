@@ -2,6 +2,50 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:5277b1c0-a525-4e16-b107-814ca9468b92",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Mulberry of Proviantgarden",
+   "city": "Copenhagen",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/5277b1c0-a525-4e16-b107-814ca9468b92.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The Proviantgarden mulberry in yellow autumn leaf, propped limbs against the storehouse brick, scaffolding round it today; in the strip behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:01b1e6c6-99cb-4345-bdde-eba08dd5a625",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Thorvaldsen's Robinia",
+   "city": "Copenhagen",
+   "species": "Black Locust (Robinia pseudoacacia)",
+   "photo": "out/sightings/01b1e6c6-99cb-4345-bdde-eba08dd5a625.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Locust (Robinia pseudoacacia)"
+   },
+   "verdict": "publish",
+   "reason": "A black locust alone on the Slotsholmen cobbles at our register pin, furrowed bark and pinnate leaves; the tree's first photograph, now its lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",

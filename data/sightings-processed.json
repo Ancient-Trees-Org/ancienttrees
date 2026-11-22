@@ -6493,6 +6493,28 @@
    "lat": 51.4734466666667,
    "lon": -2.644455,
    "pin_checked": "2026-11-22"
+  },
+  "01b1e6c6-99cb-4345-bdde-eba08dd5a625": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "cop_003",
+   "city_slug": "copenhagen",
+   "file": "cop_003-thorvaldsen-s-robinia.jpg",
+   "reason": "A black locust standing alone on the cobbles of Slotsholmen, the reader's pick at our register pin; the tree had no photograph at all. Grey sky, but daylight and colour. Species seen: pinnate drooping leaflets, deeply furrowed bark, open locust crown. Fits the description: an old black locust on ope",
+   "lat": 55.676433,
+   "lon": 12.57745,
+   "pin_checked": "2026-11-22"
+  },
+  "5277b1c0-a525-4e16-b107-814ca9468b92": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "cop_001",
+   "city_slug": "copenhagen",
+   "file": "cop_001-the-mulberry-of-proviantgarden-5277b1c0.jpg",
+   "reason": "The Proviantgarden mulberry in yellow autumn leaf, its propped, sprawling limbs against the red-brick storehouse wall; scaffolding around it today, so it joins the strip behind the lead. Species seen: mulberry: broad heart-shaped leaves turning yellow, gnarled sprawling limbs on props. Fits the desc",
+   "lat": 55.6743,
+   "lon": 12.5829,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -21,6 +21,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge, a second run beside the first: two Copenhagen photographs
+
+- Thorvaldsen's Robinia (cop_003) has its first photograph: a reader's photo of a black locust standing alone on the Slotsholmen cobbles at our register pin. The Proviantgarden mulberry (cop_001) gets the same reader's yellow autumn shot in the strip. It is behind the lead because scaffolding stands round the tree today.
+- Breakage: this run judged the same queue in parallel with the run below and built Gwytherin, Llangernyw and Bristol a second time. On the rebase it dropped its own copies and kept that run's. Each run sent its own photo-live mail, so the Llangernyw and Bristol readers may have had two.
+
 ## 2026-11-22 reader judge: the Gwytherin yews, and a reader's Llangernyw yew takes the lead
 
 - New place and tree live: The Gwytherin Yews (gwytherin/gwy_001), two old yews either side of the churchyard path at St Winifred's, Gwytherin, Conwy, sent through the app with four photographs. The lead shows both crowns; two trunk close-ups go in the strip. Pin from the photograph's own position (confirmed); the reader's "2,000+ years" on the page as their estimate; photos filed in November from their own date. A one-tree place, so no place page (PLACE_PAGE_MIN_TREES 2); its texts name Llangernyw, a few miles north.
