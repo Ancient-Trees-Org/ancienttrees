@@ -1487,9 +1487,30 @@ a.nfv-who:hover .nfv-name, button.nfv-who:hover .nfv-name { text-decoration: und
 .pl-list .people-name.none { font-weight: 500; color: var(--ink-mid); }
 /* The bell (Base.astro, 2026-11-22): beside the face on desktop; on the
    phone a row in the menu and a dot on the menu button. */
-.bar-links a.bar-bell { position: relative; display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; color: var(--ink); }
+/* A white circle of 40, the bell 19 inside (Hidde, 2026-11-22: "het rondje is
+   nice maar ik zou het gewoon wit maken"; YouTube's 24 in 40). */
+.bar-links a.bar-bell { position: relative; display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  color: var(--ink); background: #fff; box-shadow: 0 0 0 1px var(--cream-dark); }
+.bar-links a.bar-bell:hover { color: var(--ink); background: var(--surface); }
 .bar-links a.bar-bell[hidden] { display: none; }
-.bar-bell .ic { width: 20px; height: 20px; }
+.bar-bell .ic { width: 19px; height: 19px; }
+.bar-bell .bell-dot { top: 7px; right: 8px; width: 8px; height: 8px; border-color: #fff; }
+/* THE BAR'S RHYTHM ON A COMPUTER (Hidde, 2026-11-22: "the spacing of the menu
+   as a whole and also the size of the icon feel a bit off"; measured that day:
+   AllTrails gives every item a 36 tall box with its own room and sets the boxes
+   4 to 8 apart, YouTube its 40 buttons 8 apart, and both end with your face).
+   Map and Explore get padded 36 boxes 4 apart with a soft hover, the app
+   button follows, then the bell and your face together in the corner. Done
+   with flex order, so the phone's bar (its own order below 800) is untouched. */
+@media (min-width: 801px) {
+  .bar-links { gap: 4px; }
+  .bar-links > a.bar-map, .bar-links > details.nav-drop > summary { display: inline-flex; align-items: center; height: 36px;
+    padding: 0 12px; border-radius: 999px; }
+  .bar-links > a.bar-map:hover, .bar-links > details.nav-drop > summary:hover { background: rgba(38,48,30,.06); }
+  .bar-links > a.bar-cta { order: 1; margin: 0 8px 0 12px; }
+  .bar-links > .bar-bell-wrap, .bar-links > a.bar-face, .bar-links > a.bar-signin { order: 2; }
+  .bar-links > a.bar-face { width: 40px; height: 40px; justify-content: center; border-radius: 50%; }
+}
 .bar-bell-wrap { position: relative; display: inline-flex; align-items: center; }
 /* The dropdown under the bell (lib/activity-js.ts bellDropJs): Strava's and
    Facebook's, 380 wide, right edge under the bell, six rows and See all. */

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>De balk opnieuw</title>
+<link rel="stylesheet" href="https://ancienttrees.app/assets/style.css">
+<style>
+  body { background: var(--cream, #faf7f0); }
+  .mk { max-width: 1000px; margin: 0 auto; padding: 32px 16px 80px; }
+  .mk h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+  .mk h2 { font-size: 19px; font-weight: 800; margin: 34px 0 6px; padding-top: 18px; border-top: 1px solid rgba(38,48,30,.12); }
+  .lede { color: var(--ink-mid); max-width: 820px; font-size: 15px; line-height: 1.55; }
+  .shot { display: block; max-width: 100%; border-radius: 10px; box-shadow: 0 1px 8px rgba(0,0,0,.14); margin-top: 10px; background: #fff; }
+  table.t { border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+  table.t th, table.t td { text-align: left; padding: 8px 18px 8px 0; border-bottom: 1px solid rgba(38,48,30,.1); vertical-align: top; }
+  table.t th { font-size: 11.5px; color: var(--ink-light); text-transform: uppercase; letter-spacing: .05em; }
+</style>
+</head>
+<body>
+<main class="mk">
+<h1>De balk: afstanden en de bel</h1>
+<p class="lede">Gemeten op de echte balken, in jouw Chrome (ingelogd waar je dat bent). De ontwerpen hieronder zijn jouw live balk met aangepaste afstanden, nog niets gebouwd.</p>
+
+<h2>Gemeten</h2>
+<table class="t">
+  <tr><th></th><th>Afstand tussen items</th><th>Icoon</th><th>Profielfoto</th><th>Volgorde rechts</th></tr>
+  <tr><td><b>Wij nu</b></td><td>20 px tussen de vakjes, maar de vakjes zijn ongelijk (tekst zonder ruimte, bel in een cirkel van 36): zichtbaar 20, 28, 28, 20</td><td>bel 20 px</td><td>32 px</td><td>Map, Explore, bel, gezicht, Download</td></tr>
+  <tr><td><b>AllTrails</b></td><td>elk item een vak van 36 hoog met eigen ruimte erin, vakken 4 tot 8 px uit elkaar: zichtbaar overal gelijk</td><td>geen bel</td><td>32 px</td><td>menu's, Get the app, Start free trial, <b>gezicht als laatste</b></td></tr>
+  <tr><td><b>YouTube</b></td><td>knoppen van 40, 8 px uit elkaar</td><td>bel 24 px in 40</td><td>32 px</td><td>Maken, bel, <b>gezicht als laatste</b></td></tr>
+  <tr><td><b>Strava</b></td><td colspan="3">(niet ingelogd, niet gemeten) help: de bel staat naast je profielfoto, rechtsboven</td><td>bel, gezicht</td></tr>
+</table>
+<p class="lede" style="margin-top:10px">Wat scheef voelt: de ruimte zit nu tússen ongelijke vakjes, dus het oog ziet 20, 28, 28, 20. De anderen geven elk item een even hoog vak met de ruimte erin, dan oogt alles even ver uit elkaar. En je gezicht staat bij hen helemaal rechts.</p>
+
+<h2>Nu</h2>
+<img class="shot" src="bar-now.png" alt="" style="max-width:460px">
+
+<h2>Referentie: AllTrails (jouw Chrome)</h2>
+<img class="shot" src="ref-alltrails-bar.png" alt="" style="max-width:600px">
+
+<h2>A: gelijke afstanden, gezicht als laatste (AllTrails, YouTube)</h2>
+<img class="shot" src="bar-a.png" alt="" style="max-width:460px">
+<p class="lede" style="margin-top:8px">Map en Explore in vakken van 36 hoog met 12 px ruimte, vakken 4 px uit elkaar; dan de knop; dan bel en gezicht, beide 40 rond, 4 px uit elkaar. Bel 19 px (was 20) en grijs rondje bij aanwijzen, zoals YouTube.</p>
+
+<h2>B: gelijke afstanden, jouw volgorde (bel, gezicht, knop)</h2>
+<img class="shot" src="bar-b.png" alt="" style="max-width:460px">
+<p class="lede" style="margin-top:8px">Zelfde maten, de knop blijft rechts.</p>
+
+<h2>Advies</h2>
+<p class="lede">A. Dan staan de twee persoonlijke dingen (bel en gezicht) samen in de hoek waar iedereen ze zoekt, en de knop "Download the app" staat bij de rest van de navigatie.</p>
+</main>
+</body>
+</html>
