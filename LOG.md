@@ -21,6 +21,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: Android build 5 built for Play (Hidde: "ok lets do it")
+
+- **Fixed, live on build 4 and dead for every tester**: the bookmark on Discover's tree tiles did nothing (no save signed in, no sign-in sheet signed out), because Discover's tab root never got the save action the other tabs have. The daily ButtonWalk had been red on exactly this since 11-20 and nobody acted on it. Seen on the emulator on build 4 (dead) and on the fix (sign-in sheet; filled mark and "Added to Want to visit"). Commit on main with versionCode 5.
+- **Build 5** (0.1.0, versionCode 5): out/play/ancient-trees-0.1.0-5.aab, signed with the upload key. Carries the species picker crash fix (30193f371, GroupedSectionTest) plus everything on main since build 4 (photo heart, clear dots, profile map tabs, photo dates, spam hint). Unit tests green; android.yml on the push was running at upload time.
+- **Crash proof**: ExitWatch is unchanged since build 4, whose proof stands (11-20), and build 4's first real crash on a stranger's phone arrived with its line. Not re-run for 5.
+- **Not done**: the instrumented walks locally; MapLibre native symbols (Play's warning stays). **Still open from the walk**: on the Map tab signed out, a pin's sheet "Close sheet" button does nothing (red since 11-20).
+- **Trap for the next session**: the shared emulator held the Play-signed build, so `adb install -r` of a debug build failed quietly and the old app kept running. Uninstall first.
+- **For Hidde**: upload the .aab to Alpha and Beta (Google Group) in Play Console and send for review.
+
 ## 2026-11-22 reader judge: a redwood joins the Leamington oak
 
 - Leamington Spa has a second tree (lsp_002), so it now gets a place page. The same reader who sent the Elizabeth Park oak sent this one: a towering red-trunked sequoia at the entrance to Victoria Park. The whole-tree shot leads and the trunk shot sits in the strip. The reader measured it at 450 cm round, and the page states that as their figure. They placed the pin by hand, so it stays approximate. They called it a coast redwood, but the hanging cord-like shoots in both photographs look like a giant sequoia, so the species is Giant Sequoia and the story asks readers which it is. The place's intro, meta, question texts and FAQ now count two trees. No kept translation exists for this place.
