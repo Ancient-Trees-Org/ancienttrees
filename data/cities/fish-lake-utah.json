@@ -58,17 +58,32 @@
         "label": "late September into early October, when every stem turns gold in the same week"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/121003-FS-Fishlake-JZ-001_%2845410482591%29.jpg",
-        "license": "Public domain",
-        "attribution": "Forest Service photo by John Zapell, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/fsh_001-pando-14402db3.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3264,
-        "height": 4928,
-        "taken_month": 10
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 10,
+        "source": "contributor",
+        "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+        "sighting_id": "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65",
+        "note": "Photographed by a reader and sent through the app (2020-10-07); a viewing pass approved it on 2026-11-22: A reader's own photograph inside Pando in October: a smooth white aspen stem in front, the grove of identical pale stems in yellow autumn leaf behind it, daylight, GPS fix 437 m from our pin and inside the clone's 106 acres. Species seen: smooth chalk-white bark with black branch scars, small round yellow leaves: quaking aspen. Fits the description: a hillside of thousands of identical pale aspen stems turning yellow together, which is what the page describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": null,
       "height_m": null,
-      "how_to_recognise": "You are looking for a hillside rather than a tree: some 40,000 identical aspen stems on one root system, all turning colour in the same week. The trail runs into it from the Old Spanish Trailhead on Highway 25."
+      "how_to_recognise": "You are looking for a hillside rather than a tree: some 40,000 identical aspen stems on one root system, all turning colour in the same week. The trail runs into it from the Old Spanish Trailhead on Highway 25.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/121003-FS-Fishlake-JZ-001_%2845410482591%29.jpg",
+          "license": "Public domain",
+          "attribution": "Forest Service photo by John Zapell, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3264,
+          "height": 4928,
+          "taken_month": 10
+        }
+      ]
     }
   ]
 }

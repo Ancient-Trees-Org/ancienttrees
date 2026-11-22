@@ -1038,7 +1038,17 @@
   },
   "p_d0011595a0e9b807c2d7281e": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65",
+     "tree_id": "fsh_001",
+     "tree_name": "Pando",
+     "city": "Fish Lake, Utah",
+     "city_slug": "fish-lake-utah",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc",

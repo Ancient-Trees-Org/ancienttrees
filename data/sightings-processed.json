@@ -6339,6 +6339,17 @@
    "outcome": "published",
    "date": "2026-11-22",
    "reason": "live as kumamoto/kmm_001"
+  },
+  "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "fsh_001",
+   "city_slug": "fish-lake-utah",
+   "file": "fsh_001-pando-14402db3.jpg",
+   "reason": "A reader's own photograph inside Pando in October: a smooth white aspen stem in front, the grove of identical pale stems in yellow autumn leaf behind it, daylight, GPS fix 437 m from our pin and inside the clone's 106 acres. Species seen: smooth chalk-white bark with black branch scars, small round ",
+   "lat": 38.5223916666667,
+   "lon": -111.753175,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -80,6 +80,28 @@
    "agreed": null
   },
   {
+   "id": "sight:14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Pando",
+   "city": "Fish Lake, Utah",
+   "species": "Quaking Aspen (Populus tremuloides)",
+   "photo": "out/sightings/14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 437,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Quaking Aspen (Populus tremuloides)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's October photograph inside the Pando grove: white aspen stem in front, identical stems in yellow leaf behind; quaking aspen, fits the page. Added and leads; the old lead moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

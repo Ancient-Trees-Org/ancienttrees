@@ -11,6 +11,11 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge: a reader's Pando in autumn
+
+- **Pando (fish-lake-utah/fsh_001) has a reader's photograph as its lead.** Taken 2020-10-07 inside the grove: a white aspen stem in front, the identical stems in yellow leaf behind. Quaking aspen, fits the page; `add`, so the old lead moves to the strip, filed as October. The GPS fix is 437 m from our pin, inside the clone's 106 acres, so the pin stays. Their three further frames (a wide shot of the yellow hillside among them) are not published: sightings_publish.py takes only the main file. The live-photo mail went through the script.
+- **Still not judged: sighting 3c544597** (Amsterdam-Noord, `mine: true`, so one of our own accounts): its photograph is still not on disk, the second run in a row. No reports open, no feedback waiting.
+
 ## 2026-11-22 reader judge: Kumamoto Castle's Great Ginkgo
 
 - **New tree, new place: The Great Ginkgo of Kumamoto Castle (kumamoto/kmm_001).** A reader sent it as "Ginkgo near Ueki" with three photographs: the whole crown turning yellow above the castle walls, the double trunk inside its fence, and Kumamoto City's sign. The sign and the city's old-trees page (city.kumamoto.jp/kiji00353094) give the story: said to be planted by Kato Kiyomasa, the origin of the name Ginkgo Castle, burned in 1877 and regrown from the stump; a male tree that bears no nuts. The reader's "about 400 years" is on the page as theirs, belonging to the roots. Pin: the reader's own hand-moved spot by the keep (report 1000118, 148 m from their first pin), approximate; the report closed `holds`, no mail (a move on their own new tree). Paid entry. One tree, so no place page yet; congratulation mail waits for the deploy.
