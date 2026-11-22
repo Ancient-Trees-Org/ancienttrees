@@ -2747,19 +2747,15 @@
    ]
   },
   "p_dc8fac8edd6e90755a6d4f12": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-22",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "01c3e58d-dd58-4bee-8ebc-c45524f340cb",
      "tree_id": "gnp_001",
-     "tree_name": "The Gennett Poplar",
-     "city": "Chattahoochee National Forest",
-     "city_slug": "chattahoochee-national-forest",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-22"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
