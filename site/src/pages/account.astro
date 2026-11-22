@@ -31,6 +31,9 @@ import { MY_TREES_JS } from "../lib/my-trees-js";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
 import SignInPanel from "../components/SignInPanel.astro";
 import Sheet from "../components/Sheet.astro";
+import ProfileEditor from "../components/ProfileEditor.astro";
+import { PROFILE_EDITOR_JS } from "../lib/profile-editor-js";
+import { DOWNSIZE_JS } from "../lib/image-downsize-js";
 import { myTreesMapScript, mapHead } from "../lib/map";
 import { SHEET_JS } from "../lib/sheet-js";
 import { PEOPLE_JS } from "../lib/people-js";
@@ -104,11 +107,16 @@ const canonical = `${BASE_URL}/account`;
         stats weghalen ... een stuk kleiner followers en de knop ernaast"):
         picture, name, followers and following small under it, the gear. */}
     <div class="profile-top">
-      <span class="profile-avatar" id="in-avatar" aria-hidden="true"></span>
+      {/* YOUR PHOTO, NAME AND FLAG OPEN EDIT PROFILE (Hidde, 2026-11-22:
+          "dat je op je profielfoto of naam kan klikken, of de vlag, en dat
+          dat edit-scherm naar boven komt"), the app's way (Collect.swift) and
+          Instagram's and Polarsteps': no button, no badge on the photo
+          ("is dat cameratje nodig?"), a hand and a darker face on hover. */}
+      <button type="button" class="profile-avatar profile-edit" id="in-avatar" data-edit-profile aria-label="Edit profile"></button>
       <div class="profile-who">
         {/* Your flag after your name (lib/countries.ts, 2026-10-16), the
             app's CountryFlag: the country picked in settings, none if not. */}
-        <div class="profile-name"><h1 id="in-handle">Your trees</h1><img class="profile-flag" id="in-flag" alt="" width="20" height="20" hidden /></div>
+        <div class="profile-name"><h1><button type="button" class="profile-edit profile-edit-name" id="in-handle" data-edit-profile>Your trees</button></h1><img class="profile-flag profile-edit" id="in-flag" data-edit-profile alt="" width="20" height="20" hidden /></div>
         {/* The counts open the lists, as the app's do (Collect.swift). */}
         <p class="profile-follow"><button type="button" class="profile-count" id="n-followers-btn" aria-haspopup="dialog"><b id="n-followers">0</b> followers</button> <button type="button" class="profile-count" id="n-following-btn" aria-haspopup="dialog"><b id="n-following">0</b> following</button></p>
       </div>
@@ -161,6 +169,8 @@ const canonical = `${BASE_URL}/account`;
   {/* FIND PEOPLE, FOLLOWERS, FOLLOWING: one sheet, the app's PeopleView
       (lib/people-js.ts). Search on top, as every website has it. The second
       step is the settings page's own "Make your profile public?". */}
+  {/* Edit profile, the same sheet Settings opens from your card. */}
+  <ProfileEditor />
   <Sheet lang="en" class="people-sheet" id="people-sheet" aria-labelledby="people-h">
     <div class="people-step" data-step="list">
       <h3 class="at-sheet-h" id="people-h" data-search="Find people" data-followers="Followers" data-following="Following">Find people</h3>
@@ -250,7 +260,31 @@ const canonical = `${BASE_URL}/account`;
     <div id="map" class="map"></div>
   </div>
 </div>
-<Fragment slot="scripts" set:html={TREE_ACTIONS_JS + myTreesMapScript() + COUNTRY_JS + PROFILE_JS + MY_TREES_JS + SHEET_JS + PEOPLE_JS + `
+<Fragment slot="scripts" set:html={TREE_ACTIONS_JS + myTreesMapScript() + COUNTRY_JS + DOWNSIZE_JS + PROFILE_JS + PROFILE_EDITOR_JS + MY_TREES_JS + SHEET_JS + PEOPLE_JS + `
+<script>
+// YOUR PHOTO, NAME AND FLAG open Edit profile (components/ProfileEditor.astro),
+// and a save there repaints them here without a reload.
+(function() {
+  document.querySelectorAll("[data-edit-profile]").forEach(function(n) {
+    n.addEventListener("click", function() { if (window.atProfileEditor) window.atProfileEditor.open(); });
+  });
+  document.addEventListener("at-profile", function(e) {
+    var d = e.detail || {};
+    var name = document.getElementById("in-handle");
+    var av = document.getElementById("in-avatar");
+    var flag = document.getElementById("in-flag");
+    if (d.name && name) name.textContent = d.name;
+    if (av) {
+      if (d.avatar) { av.textContent = ""; av.style.backgroundImage = "url(" + String(d.avatar).replace(/[()'"]/g, "") + ")"; }
+      else if (d.name && !av.style.backgroundImage) av.textContent = d.name.charAt(0).toUpperCase();
+    }
+    if (flag) {
+      if (d.country && /^[A-Z]{2}$/.test(d.country)) { flag.src = "/flags/" + d.country.toLowerCase() + ".svg"; flag.hidden = false; }
+      else flag.hidden = true;
+    }
+  });
+})();
+</script>
 <script>
 (function() {
   var SB = "${SUPABASE_URL}";

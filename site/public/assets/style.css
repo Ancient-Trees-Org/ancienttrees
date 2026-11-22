@@ -1058,6 +1058,14 @@ dialog.at-sheet .priv-step .set-foot { text-align: left; }
 /* The name and the round flag after it (account.astro, 2026-10-16), Polarsteps' flag. */
 .profile-name { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .profile-flag { width: 20px; height: 20px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1px rgba(0,0,0,0.08); }
+/* Your own photo, name and flag open Edit profile (account.astro, 2026-11-22), the app's and Instagram's way: no badge, a hand and a slightly darker photo on hover. */
+button.profile-avatar.profile-edit { border: 0; padding: 0; cursor: pointer; }
+.profile-edit-name { border: 0; padding: 0; margin: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; overflow-wrap: anywhere; }
+.profile-flag.profile-edit { cursor: pointer; }
+@media (hover: hover) {
+  button.profile-avatar.profile-edit:hover { filter: brightness(0.9); }
+  .profile-edit-name:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+}
 .profile-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .profile-badges .profile-ambassador, .profile-badges .profile-early { margin: 0; }
 .profile-badges:not(:has(> :not([hidden]))) { display: none; }

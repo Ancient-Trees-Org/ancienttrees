@@ -162,6 +162,22 @@ const t = ui("en");
   function closed() { el("pp-private").hidden = false; remeasure(); }
   if (!/^[0-9a-f-]{36}$/i.test(uid)) { closed(); return; }
 
+  // YOUR OWN NAME OPENS YOUR OWN PROFILE (Hidde, 2026-11-22), the one you can
+  // edit, wherever it was tapped: a tree page's note or photo, Activity, a
+  // list of followers. Instagram's and AllTrails' way. The server says who is
+  // looking (hard rule 11); Settings' "See your public profile" passes
+  // view=public to stay here and see what others see.
+  if (C && C.verify && new URLSearchParams(location.search).get("view") !== "public") {
+    C.verify().then(function(ok) {
+      var s = ok && C.session();
+      if (!s) return;
+      fetch(SB + "/auth/v1/user", { headers: { "apikey": KEY, "Authorization": "Bearer " + s.access_token } })
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .then(function(u) { if (u && u.id && u.id.toLowerCase() === uid.toLowerCase()) location.replace("/account"); })
+        .catch(function() {});
+    }).catch(function() {});
+  }
+
   fetch(SB + "/rest/v1/rpc/public_profile", {
     method: "POST",
     headers: { "apikey": KEY, "Authorization": "Bearer " + KEY, "Content-Type": "application/json" },

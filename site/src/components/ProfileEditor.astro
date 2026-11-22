@@ -1,0 +1,37 @@
+---
+// EDIT PROFILE, the one sheet for your picture, name and country (Hidde,
+// 2026-11-22: "dat je op je profielfoto of naam kan klikken, of de vlag, en
+// dat dat edit-scherm naar boven komt", the app's way: Collect.swift opens
+// ProfileEditor from the photo and the name). Lifted out of
+// account/settings.astro so /account opens the same sheet over your profile
+// and Settings keeps its row; one copy, as the app has one ProfileEditor.
+// Its script is PROFILE_EDITOR_JS (lib/profile-editor-js.ts), which needs
+// COUNTRY_JS and DOWNSIZE_JS on the page. Open it with
+// window.atProfileEditor.open(); a save fires "at-profile" on document with
+// { name, avatar, country } so the page around it repaints.
+import Sheet from "./Sheet.astro";
+import { countryOptions } from "../lib/countries";
+const countries = countryOptions();
+---
+<Sheet id="me-sheet" aria-labelledby="me-h">
+  <h3 class="at-sheet-h" id="me-h">Your profile</h3>
+  <div class="set-edit">
+    <span class="profile-avatar acct-pic" id="pic-preview" aria-hidden="true"></span>
+    <button type="button" id="pic-pick" class="sheet-b sheet-b--secondary set-pic-btn">Choose a photo</button>
+    <input id="in-pic" type="file" accept="image/*" hidden />
+    <label for="in-name" class="set-edit-label">Name</label>
+    <input id="in-name" type="text" maxlength="40" autocomplete="nickname" placeholder="The name people see" />
+    {/* The flag after your name (lib/countries.ts, 2026-10-16), the app's
+        Country row as the web's native dropdown. Unchosen, the country you
+        appear to be in; "Don't show" on top turns it off (2026-10-20). */}
+    <label for="in-country" class="set-edit-label">Country</label>
+    <select id="in-country" class="set-edit-select">
+      <option value="">Don't show</option>
+      {countries.map((c) => <option value={c.code}>{c.name}</option>)}
+    </select>
+  </div>
+  <div class="at-sheet-btns">
+    <button type="button" id="save-name" class="sheet-b sheet-b--primary">Save</button>
+  </div>
+  <p class="at-sheet-fine" id="name-status" role="status" hidden></p>
+</Sheet>

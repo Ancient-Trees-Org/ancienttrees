@@ -28,10 +28,11 @@ import { switchOn } from "../../lib/switches";
 const plusOn = switchOn("plus_ask");
 import { icon } from "../../lib/icons";
 import { DOWNSIZE_JS } from "../../lib/image-downsize-js";
+import ProfileEditor from "../../components/ProfileEditor.astro";
+import { PROFILE_EDITOR_JS } from "../../lib/profile-editor-js";
 import { SUPABASE_URL, SUPABASE_KEY } from "../../lib/site-config";
-import { countryOptions, COUNTRY_JS } from "../../lib/countries";
+import { COUNTRY_JS } from "../../lib/countries";
 
-const countries = countryOptions();
 const canonical = `${BASE_URL}/account/settings`;
 const crumbItems: [string, string | null][] = [
   ["Your trees", `${BASE_URL}/account`],
@@ -128,27 +129,8 @@ const crumbItems: [string, string | null][] = [
       behind a button is the web's picker for the app's PhotosPicker
       (CONVENTIONS.md); the 512px JPEG, the avatars/<user-id>/avatar.jpg and
       the profiles row are the app's, unchanged. */}
-  <Sheet id="me-sheet" aria-labelledby="me-h">
-    <h3 class="at-sheet-h" id="me-h">Your profile</h3>
-    <div class="set-edit">
-      <span class="profile-avatar acct-pic" id="pic-preview" aria-hidden="true"></span>
-      <button type="button" id="pic-pick" class="sheet-b sheet-b--secondary set-pic-btn">Choose a photo</button>
-      <input id="in-pic" type="file" accept="image/*" hidden />
-      <label for="in-name" class="set-edit-label">Name</label>
-      <input id="in-name" type="text" maxlength="40" autocomplete="nickname" placeholder="The name people see" />      {/* The flag after your name (lib/countries.ts, 2026-10-16), the app's
-          Country row as the web's native dropdown. Unchosen, the country you
-          appear to be in; "Don't show" on top turns it off (2026-10-20). */}
-      <label for="in-country" class="set-edit-label">Country</label>
-      <select id="in-country" class="set-edit-select">
-        <option value="">Don't show</option>
-        {countries.map((c) => <option value={c.code}>{c.name}</option>)}
-      </select>
-    </div>
-    <div class="at-sheet-btns">
-      <button type="button" id="save-name" class="sheet-b sheet-b--primary">Save</button>
-    </div>
-    <p class="at-sheet-fine" id="name-status" role="status" hidden></p>
-  </Sheet>
+  {/* Your picture, name and country: the one editor, shared with /account. */}
+  <ProfileEditor />
 
   {/* PRIVACY SETTINGS, the one sheet (Sheet.astro) with two steps, as the
       ambassador sheet has: the switch, and turning it on asks first and says
@@ -207,7 +189,7 @@ const crumbItems: [string, string | null][] = [
     </div>
   </Sheet>
 </main>
-<Fragment slot="scripts" set:html={COUNTRY_JS + DOWNSIZE_JS + `
+<Fragment slot="scripts" set:html={COUNTRY_JS + DOWNSIZE_JS + PROFILE_EDITOR_JS + `
 <script>
 (function() {
   var SB = "${SUPABASE_URL}", KEY = "${SUPABASE_KEY}";
@@ -261,27 +243,13 @@ const crumbItems: [string, string | null][] = [
         .then(function(rows) {
           if (!rows) return;               // no column, no switch
           if (rows[0] && rows[0].display_name) {
-            document.getElementById("in-name").value = rows[0].display_name;
-            document.getElementById("save-name").disabled = false;
             document.getElementById("me-name").textContent = rows[0].display_name;
             initial(rows[0].display_name);
           }
           if (rows[0] && rows[0].avatar_url) {
-            myAvatar = rows[0].avatar_url;
-            showPicture(myAvatar);
+            showPicture(rows[0].avatar_url);
           }
           units(rows[0] ? rows[0].units : null);
-        }).catch(function() {});
-      // YOUR COUNTRY, read on its own (profiles.country, 2026-10-16), so a
-      // database without the column yet costs the flag and never the name.
-      // Unchosen, it is the country you appear to be in, written once
-      // (countries.ts); with no profile row yet the guess is only preselected,
-      // so the first Save stores it along with the rest of the profile.
-      window.atSettleCountry(SB, KEY, s.access_token, u.id)
-        .then(function(c) {
-          myCountry = c.country;
-          myHidden = c.hidden;
-          document.getElementById("in-country").value = c.country || (c.hidden ? "" : c.guess);
         }).catch(function() {});
       // PRIVATE PROFILE, read on its own like the country, so a database
       // without profiles.public yet costs the switch and nothing else.
@@ -291,7 +259,6 @@ const crumbItems: [string, string | null][] = [
         .then(function(rows) { if (rows) privacy(rows[0] || null); })
         .catch(function() {});
     }).catch(function() {});
-  var myCountry = "", myHidden = false;
 
   // The switch reads "Public profile", so ON is public (Hidde, 2026-10-19:
   // "Private profile is heel negatief"; AllTrails words it Public first).
@@ -307,7 +274,9 @@ const crumbItems: [string, string | null][] = [
     val.textContent = val.getAttribute(isPublic ? "data-on" : "data-off");
     var link = document.getElementById("priv-link");
     link.hidden = !isPublic;
-    if (myId) link.firstChild.href = "/profile?u=" + encodeURIComponent(myId);
+    // view=public: you asked to see what others see, so profile.astro does
+    // not send you back to your own editable profile.
+    if (myId) link.firstChild.href = "/profile?u=" + encodeURIComponent(myId) + "&view=public";
   }
   function writePublic(want, done) {
     var cur = session();
@@ -336,7 +305,7 @@ const crumbItems: [string, string | null][] = [
     if (isPublic) { writePublic(false); return; }
     // A public profile needs a name to show: no profiles row exists until
     // somebody sets one (supabase/profiles.sql), so the name comes first.
-    if (!hasName) { shut("priv-sheet"); say("Add a name first; it is what your public profile shows."); open("me-sheet"); return; }
+    if (!hasName) { shut("priv-sheet"); window.atProfileEditor.open("Add a name first; it is what your public profile shows."); return; }
     step("ask");
   });
   document.getElementById("pub-yes").addEventListener("click", function() {
@@ -390,147 +359,22 @@ const crumbItems: [string, string | null][] = [
 
   function open(id) { var d = document.getElementById(id); if (d && d.showModal) d.showModal(); }
   function shut(id) { var d = document.getElementById(id); if (d && d.open) d.close(); }
-  document.getElementById("me-open").addEventListener("click", function() { open("me-sheet"); });
+  document.getElementById("me-open").addEventListener("click", function() { window.atProfileEditor.open(); });
 
-  // YOUR PICTURE, on the app's own terms (Screens/ProfileEditor.swift and its
-  // Avatars.upload). The numbers are not re-decided here: 512 on the long
-  // edge, JPEG at quality 0.8, posted to avatars/<user-id>/avatar.jpg with
-  // x-upsert, so one person owns one file and deleting the account leaves
-  // nothing pointing at it (supabase/profiles.sql).
-  //
-  // Nothing is uploaded on picking. The app's editor stages the picture and
-  // sends it when Save is pressed, so a person who changes their mind simply
-  // leaves, and that is what this does.
-  var picked = null;                  // the JPEG a Save will send
-  var myAvatar = null;                // what the account already has
-  var picBtn = document.getElementById("pic-pick");
-  var picFile = document.getElementById("in-pic");
-  var picPrev = document.getElementById("pic-preview");
-
+  // YOUR CARD's face and name. The editing itself is ProfileEditor's
+  // (lib/profile-editor-js.ts); a save there repaints the card here.
   var meAv = document.getElementById("me-av");
   function initial(name) {
-    var ch = (name || "?").charAt(0).toUpperCase();
-    if (!picPrev.style.backgroundImage) picPrev.textContent = ch;
-    if (meAv && !meAv.style.backgroundImage) meAv.textContent = ch;
+    if (meAv && !meAv.style.backgroundImage) meAv.textContent = (name || "?").charAt(0).toUpperCase();
   }
   function showPicture(url) {
-    var bg = "url(" + String(url).replace(/[()'"]/g, "") + ")";
-    picPrev.textContent = ""; picPrev.style.backgroundImage = bg;
-    if (meAv) { meAv.textContent = ""; meAv.style.backgroundImage = bg; }
-    picBtn.textContent = "Change photo";
+    if (!meAv || !url) return;
+    meAv.textContent = ""; meAv.style.backgroundImage = "url(" + String(url).replace(/[()'"]/g, "") + ")";
   }
-
-  // The downsizer lives in lib/image-downsize-js.ts since 2026-09-23, when a
-  // reader adding a photograph of a tree needed the same twenty lines. One
-  // copy, called with the edge this page wants.
-  function downsized(file, done) { window.atDownsize(file, 512, done); }
-
-  picBtn.addEventListener("click", function() { picFile.click(); });
-  picFile.addEventListener("change", function() {
-    var f = picFile.files && picFile.files[0];
-    if (!f) return;
-    downsized(f, function(blob) {
-      if (!blob) { say("That picture could not be read. Try another one."); return; }
-      picked = blob;
-      showPicture(URL.createObjectURL(blob));
-      say("Press Save to keep it.");
-    });
-  });
-
-  // The upload itself, and it runs before the row is written so a failed
-  // picture never leaves a url in the database pointing at nothing.
-  function sendPicture(token, cb) {
-    if (!picked) { cb(true, myAvatar); return; }
-    fetch(SB + "/storage/v1/object/avatars/" + encodeURIComponent(myId) + "/avatar.jpg", {
-      method: "POST",
-      headers: { "apikey": KEY, "Authorization": "Bearer " + token,
-                 "Content-Type": "image/jpeg", "x-upsert": "true" },
-      body: picked
-    }).then(function(r) {
-      cb(r.ok, r.ok ? SB + "/storage/v1/object/public/avatars/" + encodeURIComponent(myId) + "/avatar.jpg" : null);
-    }).catch(function() { cb(false, null); });
-  }
-
-  // The SAME upsert the app makes (profiles?on_conflict=user_id with
-  // resolution=merge-duplicates), so setting a name here and setting one in the
-  // app are one operation against one row rather than two paths that can
-  // disagree. CLAUDE.md's both-surfaces rule: the decision travels.
-  //
-  // SAVE IS DEAD WHILE THE BOX IS EMPTY, which is what the app's editor does
-  // (Save is disabled on an empty name). It replaces a sentence telling you
-  // afterwards that a name is between 1 and 40 characters, and 40 is what the
-  // field already refuses to take.
-  var nameBtn = document.getElementById("save-name");
-  var nameBox = document.getElementById("in-name");
-  nameBtn.disabled = true;
-  nameBox.addEventListener("input", function() {
-    nameBtn.disabled = nameBox.value.trim().length < 1;
-  });
-  function say(msg) {
-    var n = document.getElementById("name-status");
-    n.textContent = msg;
-    n.hidden = false;
-  }
-  //
-  // ONE SAVE FOR BOTH, as the app's editor has: its Save uploads the picture
-  // and then writes the row, and a person setting both should not have to
-  // press two buttons in an order nobody told them.
-  nameBtn.addEventListener("click", function() {
-    var box = nameBox;
-    var v = box.value.trim();
-    var cur = session();
-    if (!cur || !myId) { say("That did not save. Your sign-in has expired."); return; }
-    if (v.length < 1) return;
-    nameBtn.disabled = true;
-    say("Saving.");
-    sendPicture(cur.access_token, function(ok, url) {
-      if (!ok) {
-        nameBtn.disabled = false;
-        say("That did not save. The picture would not upload.");
-        return;
-      }
-      // avatar_url only travels when we KNOW one, because PostgREST writes
-      // the columns it is given: sending a null we merely failed to read
-      // would take somebody's picture off on a save that was about a name.
-      var row = { user_id: myId, display_name: v };
-      if (url) row.avatar_url = url;
-      fetch(SB + "/rest/v1/profiles?on_conflict=user_id", {
-        method: "POST",
-        headers: { "apikey": KEY, "Authorization": "Bearer " + cur.access_token,
-                   "Content-Type": "application/json", "Prefer": "resolution=merge-duplicates" },
-        body: JSON.stringify([row])
-      }).then(function(r) {
-        if (r.ok && url) { myAvatar = url; picked = null; }
-        if (!r.ok) { nameBtn.disabled = false; say("That did not save. Try again in a moment."); return; }
-        document.getElementById("me-name").textContent = v;
-        hasName = true;
-        // The country on its own write, like the app's saveCountry, and only
-        // when it changed. "Don't show" stores flag_hidden, so the default
-        // never comes back; a database without that column yet takes the
-        // country alone.
-        var want = document.getElementById("in-country").value;
-        var done = function(ok) {
-          nameBtn.disabled = false;
-          say(ok ? "Saved." : "That did not save. Your country would not save.");
-          if (ok) { myCountry = want; myHidden = !want; setTimeout(function() { shut("me-sheet"); }, 700); }
-        };
-        if (want === myCountry && (want || myHidden)) { done(true); return; }
-        var put = function(row) {
-          return fetch(SB + "/rest/v1/profiles?on_conflict=user_id", {
-            method: "POST",
-            headers: { "apikey": KEY, "Authorization": "Bearer " + cur.access_token,
-                       "Content-Type": "application/json", "Prefer": "resolution=merge-duplicates" },
-            body: JSON.stringify([row])
-          });
-        };
-        put({ user_id: myId, country: want || null, flag_hidden: !want })
-          .then(function(r2) { return r2.ok ? r2 : put({ user_id: myId, country: want || null }); })
-          .then(function(r3) { done(r3.ok); }).catch(function() { done(false); });
-      }).catch(function() {
-        nameBtn.disabled = false;
-        say("That did not save. Try again in a moment.");
-      });
-    });
+  document.addEventListener("at-profile", function(e) {
+    var d = e.detail || {};
+    if (d.name) { document.getElementById("me-name").textContent = d.name; hasName = true; initial(d.name); }
+    showPicture(d.avatar);
   });
 
   var outBtn = document.getElementById("signout");
