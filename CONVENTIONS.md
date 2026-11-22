@@ -3896,6 +3896,8 @@ Hidde: "make that settings things more consistent with the app thing", then "som
 
 Ours, as of 2026-10-12: the field exists on the homepage and /explore only (search-form.ts). Asked by Hidde the same day ("volgens mij heeft AllTrails hem in het menu en is hij er altijd").
 
+**One field per page, looked at 2026-11-22** (Hidde: "is het niet raar dat we die zoekfunctie weghalen uit de menubar"), desktop, in a browser: **AllTrails** home has no field in the header, only the big hero field ("Search by city, park, or trail name"), and none appears in the header after scrolling; a country page (/netherlands) and the map (/explore) carry the field in the header, and the map's left panel ("Explore trails") has NO field of its own: the header field is the map's search. **Booking.com** home: the hero search only, the header has none. **komoot** /discover: the field in the page ("Where?"), none in the header. Nobody shows two search fields on one page. Ours (style.css, `body:has(form.hero-search) .bar-find`): the header field hides on a page with its own; home matches AllTrails, /explore does not (our field sits in the panel, AllTrails keeps it in the header).
+
 Sources, read 2026-10-12 (AllTrails' own pages refuse an automated browser):
 - https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-field/1522-gap
 - https://designsystem.gov.scot/patterns/site-header
