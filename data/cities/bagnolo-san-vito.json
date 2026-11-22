@@ -1,0 +1,71 @@
+{
+  "city": "Bagnolo San Vito",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Bagnolo San Vito is a farming comune on the plain south-east of Mantua, in Lombardy, its hamlets strung along quiet lanes between the fields and the Po. A reader sent us one of its trees: a big weeping willow beside a house on Via Dante Alighieri in San Giacomo Po, its hanging crown falling almost to the grass. It stands on private ground and is seen from the lane. We would like to know its age and story.",
+  "meta_description": "A big weeping willow in Bagnolo San Vito, south-east of Mantua, sent by a reader: where it stands on Via Dante Alighieri and how to see it from the lane.",
+  "question_meta": "A big weeping willow in Bagnolo San Vito, south-east of Mantua, sent by a reader: where it stands on Via Dante Alighieri and how to see it from the lane.",
+  "question_answer": "The weeping willow stands beside a house on Via Dante Alighieri in San Giacomo Po, Bagnolo San Vito. The ground is private; see it from the lane, free, at any hour.",
+  "question_context": "Bagnolo San Vito lies on the flat farmland of the Po plain, a short drive south-east of Mantua, and its hamlets are joined by narrow country lanes. On one of them, Via Dante Alighieri in San Giacomo Po, a reader stopped to photograph a weeping willow and sent it to us. Their picture shows a tree that has been given room: a crown as wide as it is tall, its hanging green shoots falling almost to the grass on every side, with a dark trunk splitting into leaning stems hidden inside the curtain. A gravel drive runs up to it and a mown field opens behind. We do not yet know its age, its girth or who planted it. Weeping willows grow quickly and are rarely very long-lived, so this is more likely a tree of decades than of centuries, but few are left to grow this big. The willow stands beside a house on private ground, so look at it from the lane rather than walking up to it. The leaves are freshest in late spring and the crown stays green well into autumn.",
+  "faq": [
+    {
+      "q": "Where is the weeping willow in Bagnolo San Vito?",
+      "a": "Beside a house on Via Dante Alighieri, in the hamlet of San Giacomo Po, south-east of Mantua."
+    },
+    {
+      "q": "Can I visit the willow?",
+      "a": "You can see it from Via Dante Alighieri, a public lane, at any hour. The ground around the tree is private, so stay on the road."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. Weeping willows grow fast and seldom live for centuries. If you know its story, tell us on the tree's page."
+    }
+  ],
+  "hero_tree_id": "bsv_001",
+  "oldest_tree_id": "bsv_001",
+  "trees": [
+    {
+      "id": "bsv_001",
+      "name": "The Weeping Willow of Via Dante Alighieri",
+      "species": "Weeping Willow (Salix babylonica)",
+      "location": {
+        "address": "Via Dante Alighieri, Gazzo, San Giacomo Po, Bagnolo San Vito, province of Mantua",
+        "latitude": 45.0853195,
+        "longitude": 10.87412,
+        "neighbourhood": "San Giacomo Po"
+      },
+      "how_to_recognise": "Beside a house on Via Dante Alighieri: a lone, very wide weeping willow whose hanging shoots fall almost to the grass, a gravel drive in front of it and open fields behind.",
+      "access": "Seen from Via Dante Alighieri, a public country lane. The tree stands beside a house and the ground around it is private, so stay on the road.",
+      "verified_sources": [],
+      "story": "A reader sent us this weeping willow from the countryside south-east of Mantua, where the lanes of Bagnolo San Vito run between flat fields towards the Po.\n\nWeeping willows are usually garden trees, planted beside a pond and admired for a few decades, and few are given the room to grow as big as this one. Here the crown has been left to spread. In the reader's photograph it fills the sky above a gravel drive, a tall green curtain of hanging shoots that falls almost to the grass on every side. Through a gap in the curtain you can just make out the dark trunk, splitting low into several leaning stems, with a heap of cut branches at its foot and a mown field running away behind it.\n\nWe do not know how old it is, who planted it, or how big it is round the trunk. Willows grow fast and seldom live for centuries, so a tree of this size is more likely decades old than ages; if you know its story, tell us here and we will add it with your words.\n\nThe willow stands beside a house, and the ground around it is private. Look at it from Via Dante Alighieri, the lane that passes in front, ideally in late spring, when the new leaves are as bright as they are in this picture.",
+      "found_by_reader": {
+        "sighting_id": "f22530ff-c15b-4e83-8afe-2320d295db24",
+        "date": "2026-11-22"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f22530ff-c15b-4e83-8afe-2320d295db24",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood on Via Dante Alighieri to photograph this tree; the photograph was checked to show it. It is also the viewing spot, the tree being on private ground."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-22 reader judge: sent by a reader (f22530ff-c15b-4e83-8afe-2320d295db24, 2026-11-22, through the app). Photograph viewed: the whole weeping willow from a gravel drive, its hanging shoots falling almost to the grass on every side, a dark trunk splitting into leaning stems inside the curtain, a mown field behind, a house corner at the right, overcast daylight, colour. The photo's location is about 3 m from Via Dante Alighieri (OpenStreetMap reverse lookup), so the tree is seen from a public road and ships under Hidde's 2026-11-17 rule for private trees visible from the street. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Weeping Willow', species 'Weeping Willow', age 'None', girth None cm. No register entry within 100 m (corroborate.py).",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bsv_001-weeping-willow-of-via-dante-alighieri.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b0c76ee5cc71345251a28fed",
+        "sighting_id": "f22530ff-c15b-4e83-8afe-2320d295db24",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole weeping willow from a gravel drive, its hanging shoots falling almost to the grass on every side, a dark trunk splitting into leaning stems inside the curtain, a mown field behind, a house corner at the right, overcast daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 5,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

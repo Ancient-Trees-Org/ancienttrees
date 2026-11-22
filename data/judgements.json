@@ -1101,6 +1101,113 @@
    "agreed": null
   },
   {
+   "id": "sight:2dbab77d-6bcf-46e9-aa36-00369790ac15",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Hamburg",
+   "photo": "p_949f61179af58ceb312cf9dd/2DBAB77D-6BCF-46E9-AA36-00369790AC15.jpg",
+   "reader_note": "This tree is known as the 1,000 year oak. It is an impressive tree, even amongst the other oaks in the area. It is partially hollow a s knotted. It is a monument, more can be read about it here: \n\nhttps://de.wikipedia.org/wiki/Eiche_von_Barmstedt",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Live as barmstedt/bms_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a29ed9d7-1555-4579-ad0a-759824034cf3",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Black Mulberry near Milan",
+   "photo": "p_ef440ba9274ea313cb8568a3/A29ED9D7-1555-4579-AD0A-759824034CF3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole pollarded mulberry in front of a row of houses, a gnarled dark trunk and a ring of grey arms each ending in a tuft of green leaves, metal props, a small sign at its foot, a clipped hedge, daylight, colour. Live as cassano-dadda/cda_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:49257d3e-b709-4715-b6fd-a56239e35c0d",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Lebanon in Victoria Square",
+   "city": "Bristol",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole cedar in Victoria Square garden with the terraces behind; species and description match. Lead photo of bri_007, pin to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5b3f2cb0-14f6-4477-b221-56b2911f76b2",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Moreton Bay Figs of Donnafugata Castle Park",
+   "city": "Ragusa",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a Donnafugata Moreton Bay fig on its buttress roots inside the stone ring, MASAF register entry 3 m from the photo's location. Lead photo of rgs_001, pin to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9f5df706-e6bc-45a6-a8e3-05da298af38f",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Witch Tree of Fanal",
+   "city": "Madeira",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: a twisted til in fog at Fanal. In the strip of mdr_005; which trunk is the Witch Tree the photo cannot settle.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d7c735de-a7f0-4e93-b70a-62161f7918cb",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "The Evelyn Mulberry",
+   "city": "London",
+   "species": "Black Mulberry (Morus nigra)",
+   "photo": "out/sightings/d7c735de-a7f0-4e93-b70a-62161f7918cb.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 79,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Mulberry (Morus nigra)"
+   },
+   "verdict": "publish",
+   "reason": "The Evelyn Mulberry in autumn, fence, prop and stone marker in frame; into the gallery behind the summer lead (visitors at the right).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f22530ff-c15b-4e83-8afe-2320d295db24",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Weeping Willow",
+   "city": null,
+   "species": "Weeping Willow",
+   "photo": "p_b0c76ee5cc71345251a28fed/F22530FF-C15B-4E83-8AFE-2320D295DB24.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping Willow"
+   },
+   "verdict": "publish",
+   "reason": "A wide weeping willow with its curtain almost to the grass, photographed from beside Via Dante Alighieri; private ground seen from the lane. Live as bagnolo-san-vito/bsv_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",
@@ -23601,59 +23708,14 @@
    "agreed": null
   },
   {
-   "id": "sight:2dbab77d-6bcf-46e9-aa36-00369790ac15",
+   "id": "sight:f22530ff-c15b-4e83-8afe-2320d295db24",
    "seen": "2026-11-22",
    "kind": "a tree we do not map",
-   "tree": "Pedunculate Oak near Hamburg",
-   "photo": "p_949f61179af58ceb312cf9dd/2DBAB77D-6BCF-46E9-AA36-00369790AC15.jpg",
-   "reader_note": "This tree is known as the 1,000 year oak. It is an impressive tree, even amongst the other oaks in the area. It is partially hollow a s knotted. It is a monument, more can be read about it here: \n\nhttps://de.wikipedia.org/wiki/Eiche_von_Barmstedt",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Live as barmstedt/bms_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:a29ed9d7-1555-4579-ad0a-759824034cf3",
-   "seen": "2026-11-22",
-   "kind": "a tree we do not map",
-   "tree": "Black Mulberry near Milan",
-   "photo": "p_ef440ba9274ea313cb8568a3/A29ED9D7-1555-4579-AD0A-759824034CF3.jpg",
+   "tree": "Weeping Willow",
+   "photo": "p_b0c76ee5cc71345251a28fed/F22530FF-C15B-4E83-8AFE-2320D295DB24.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole pollarded mulberry in front of a row of houses, a gnarled dark trunk and a ring of grey arms each ending in a tuft of green leaves, metal props, a small sign at its foot, a clipped hedge, daylight, colour. Live as cassano-dadda/cda_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:49257d3e-b709-4715-b6fd-a56239e35c0d",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Cedar of Lebanon in Victoria Square",
-   "city": "Bristol",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: the whole cedar in Victoria Square garden with the terraces behind; species and description match. Lead photo of bri_007, pin to the reader's fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:5b3f2cb0-14f6-4477-b221-56b2911f76b2",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "Moreton Bay Figs of Donnafugata Castle Park",
-   "city": "Ragusa",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: a Donnafugata Moreton Bay fig on its buttress roots inside the stone ring, MASAF register entry 3 m from the photo's location. Lead photo of rgs_001, pin to the reader's fix.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:9f5df706-e6bc-45a6-a8e3-05da298af38f",
-   "seen": "2026-11-22",
-   "kind": "photo of a tree we map",
-   "tree": "The Witch Tree of Fanal",
-   "city": "Madeira",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-22: a twisted til in fog at Fanal. In the strip of mdr_005; which trunk is the Witch Tree the photo cannot settle.",
+   "reason": "Photograph viewed 2026-11-22: the whole weeping willow from a gravel drive beside Via Dante Alighieri, its curtain of shoots almost to the grass, overcast daylight, colour. Private ground seen from the lane. Live as bagnolo-san-vito/bsv_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

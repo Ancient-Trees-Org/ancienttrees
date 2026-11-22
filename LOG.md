@@ -21,6 +21,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge (third run): a weeping willow near Mantua live, an autumn Evelyn Mulberry in the gallery
+
+- **Live**: the Weeping Willow of Via Dante Alighieri (bagnolo-san-vito/bsv_001), a new one-tree place south-east of Mantua. It's a very wide willow whose curtain of shoots falls almost to the grass. The photo was taken about 3 m from a public lane (OpenStreetMap), so it ships with an honest access line: the ground is private and the tree is seen from the road. The reader gave no note or figures, so the story claims no age. The photo is filed in May, from its own date.
+- **Gallery**: a reader's November photo of the Evelyn Mulberry (lon_010), showing the fence, prop and stone marker in autumn leaf. It went in as `strip` behind the summer lead, not in place of it: a group of visitors stands at the right and the current lead is a clean reader photo. The first-photo mail went with `--send`.
+- **Feedback 1445** closed `handled`: it is the same "remove all photos" mail the 1419 session acted on this morning (all four photos off, data/photos-withheld.json). Its draft reply still waits for Hidde.
+- Not judged: 3c544597 is our own photograph (`mine`), not a reader's, and its file is not on this machine.
+- No open reports; reader_words had nothing to quote.
+
 ## 2026-11-22 session: every photograph of one reader off the site, on their second ask
 
 - **Removed** (feedback 1419, Hidde: "yes remove all his photos"): after the two with faces came down this morning, the reader asked for all photographs off and none uploaded again. The other two are gone too: the Córdoba courtyard through the arch (cdb_002, strip) and the Granada Parador cypresses (gra_007, lead; the tree is photo-less again). Files deleted, manifest entries out. The Granada pin stays where their GPS fix put it (a coordinate, not a photograph).

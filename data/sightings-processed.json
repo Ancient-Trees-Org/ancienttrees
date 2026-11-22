@@ -6695,6 +6695,23 @@
    "tree_id": "bms_001",
    "city_slug": "barmstedt",
    "pin_checked": "2026-11-22"
+  },
+  "f22530ff-c15b-4e83-8afe-2320d295db24": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "bsv_001",
+   "city_slug": "bagnolo-san-vito"
+  },
+  "d7c735de-a7f0-4e93-b70a-62161f7918cb": {
+   "outcome": "added",
+   "date": "2026-11-22",
+   "tree_id": "lon_010",
+   "city_slug": "london",
+   "file": "lon_010-the-evelyn-mulberry-d7c735de.jpg",
+   "reason": "The Evelyn Mulberry in autumn: the low sprawling mulberry inside its round iron fence, a metal prop under a limb and the stone marker at its foot, yellow leaves, Sayes Court Park's planes behind, daylight, colour. A group of visitors stands at the right, so it goes in the gallery behind the summer l",
+   "lat": 51.4847044979313,
+   "lon": -0.0309268219192326,
+   "pin_checked": "2026-11-22"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

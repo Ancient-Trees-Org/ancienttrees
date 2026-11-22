@@ -411,6 +411,11 @@
     "bad-staffelstein": [
       "Staffelsteinium"
     ],
+    "bagnolo-san-vito": [
+      "Balneolum",
+      "Bagnöl",
+      "San Vito Bagnöl"
+    ],
     "balfron": [
       "Balfrona"
     ],
@@ -5714,6 +5719,7 @@
     "bad-blumau": "Bad Blumau",
     "bad-homburg": "Bad Homburg",
     "bad-staffelstein": "Bad Staffelstein",
+    "bagnolo-san-vito": "Bagnolo San Vito",
     "balfron": "Balfron",
     "bali": "Bali",
     "balmerino": "Balmerino",

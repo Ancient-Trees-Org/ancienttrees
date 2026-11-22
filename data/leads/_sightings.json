@@ -9729,6 +9729,39 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "barmstedt/bms_001"
+  },
+  {
+   "sighting_id": "f22530ff-c15b-4e83-8afe-2320d295db24",
+   "user_id": "p_b0c76ee5cc71345251a28fed",
+   "mine": false,
+   "name": "Weeping Willow",
+   "unsure_among": null,
+   "species": "Weeping Willow",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 45.0853195,
+   "longitude": 10.87412,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 5,
+   "photo": "p_b0c76ee5cc71345251a28fed/F22530FF-C15B-4E83-8AFE-2320D295DB24.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-22: the whole weeping willow from a gravel drive, its hanging shoots falling almost to the grass on every side, a dark trunk splitting into leaning stems inside the curtain, a mown field behind, a house corner at the right, overcast daylight, colour. Seen from Via Dante Alighieri, a public lane. Live as bagnolo-san-vito/bsv_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "bagnolo-san-vito/bsv_001"
   }
  ]
 }
