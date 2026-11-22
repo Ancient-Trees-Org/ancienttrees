@@ -84,10 +84,17 @@
       "access": "Free. Open grounds east of the city.",
       "transport": "About 4 km east of Zwolle station, at Park Boschwijk.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/zwo_002-the-beech-of-the-boschwijk-avenue.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "dd50d6ca-cbed-40f2-85e5-d670600373c4",
+        "note": "Photographed by a reader and sent through the app (2026-07-28); a viewing pass approved it on 2026-11-22: A massive old beech trunk with burrs and a hollow, in the Boschwijk grounds, 5 m from our pin. Species seen: smooth grey beech bark, beech leaves, beech mast litter underfoot. Fits the description: a very heavy trunk, thicker than the trees around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "The heaviest tree on the west row of the beech avenue, thicker in the trunk than its neighbours.",
       "best_time": {
@@ -422,10 +429,17 @@
       "story": "The register says this plane was already standing when the tea house opened. The city's list says the tea house got here first.\n\nVilla Urbana began serving on the Wipstrikkerallee in 1924, an inn and tea house on a long avenue leading out of Zwolle, and it is still a restaurant today under the name Loetje. The national register of monumental trees bands the plane beside it at 1910 to 1920, which puts the tree a few years ahead of the building. Zwolle's own 2024 list records the same species on the same street under the same private ownership and dates it to 1930, which puts it a few years behind. Everything else in the two entries lines up, so the tree is roughly a century old and only the order of arrival is unsettled.\n\nIts condition is not in doubt, and the register is blunt about it: growth and vigour have diminished. This is a plane with a hundred years of roadside city life behind it and a crown that has thinned, rather than one in its prime.\n\nGo for the pairing instead. It stands with a copper beech at a corner of the avenue where people have been sitting outside with a drink for a century.",
       "how_to_recognise": "You can recognise it as the plane of the pair by the restaurant: mottled bark flaking in pale plates and broad maple-shaped leaves, where its neighbour is a dark purple beech. It stands beside the former Urbana tea house, now Loetje.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/zwo_013-the-plane-by-restaurant-urbana.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "778ba740-bace-47fe-aed6-681f156c7250",
+        "note": "Photographed by a reader and sent through the app (2026-07-28); a viewing pass approved it on 2026-11-22: The plane standing in front of the Loetje restaurant, tree fills the frame in daylight; the restaurant sign is in shot. Species seen: mottled bark flaking in pale plates, maple-shaped leaves, broad plane crown. Fits the description: beside the former Urbana tea house, now Loetje, sign visible over the entrance.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "official_register": {
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1688405",
@@ -447,7 +461,7 @@
         "longitude": 6.122003,
         "neighbourhood": "Wipstrik"
       },
-      "story": "Huis de Paddestoel means Toadstool House, and the bald cypress carrying its name stands where the paperwork about it does not quite agree with itself. The national register lists the tree's address as Herenweg 33, but its own coordinate sits nearly a kilometre away, at Herenweg 131 to 133 in the Wipstrik district, exactly where a 1991 photograph in a local historical archive identifies \"Huize de Paddestoel van Schulte Nordholt\". The municipality's 2015 survey of the city's protected trees lists only one Taxodium distichum on the entire street, also placed in Wipstrik, also municipally owned, which is almost certainly this same tree rather than a second one nobody else has recorded. Planted somewhere around 1920 to 1930, it now stands close to a century old on the public road verge, at what was once the edge of the private grounds around the house. Bald cypresses are unusual among conifers for dropping their needles every winter, turning a rust orange first, so the tree rewards two visits: one in leaf, one bare. The exact planting year has not been confirmed, so treat the century as an estimate rather than a measurement. The register itself calls the tree visible and open to the public, which the road verge it stands on bears out.",
+      "story": "Huis de Paddestoel means Toadstool House, and the bald cypress carrying its name stands where the paperwork about it does not quite agree with itself. The national register lists the tree's address as Herenweg 33, but its own coordinate sits nearly a kilometre away, at Herenweg 131 to 133 in the Wipstrik district, exactly where a 1991 photograph in a local historical archive identifies \"Huize de Paddestoel van Schulte Nordholt\". The municipality's 2015 survey of the city's protected trees lists only one Taxodium distichum on the entire street, also placed in Wipstrik, also municipally owned, which is almost certainly this same tree rather than a second one nobody else has recorded. Planted somewhere around 1920 to 1930, it now stands close to a century old on the public road verge, at what was once the edge of the private grounds around the house. Bald cypresses are unusual among conifers for dropping their needles every winter, turning a rust orange first, so the tree rewards two visits, one in leaf and one bare. The exact planting year has not been confirmed, so treat the century as an estimate rather than a measurement. The register itself calls the tree visible and open to the public, which the road verge it stands on bears out.",
       "how_to_recognise": "You can recognise it by the flat, feathery foliage that turns rust orange and drops completely each winter, unlike the evergreens nearby. It stands on the road verge along Herenweg at the old Huis de Paddestoel grounds.",
       "best_time": {
         "months": [
@@ -466,10 +480,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/zwo_016-huis-de-paddestoel-s-swamp-cypress.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "733793ad-e3d2-4afa-b298-a16f1a78f92e",
+        "note": "Photographed by a reader and sent through the app (2026-07-28); a viewing pass approved it on 2026-11-22: A tall conifer with a single straight fibrous trunk on a residential road verge, full height in frame. Species seen: soft feathery needle foliage, reddish fibrous stringy bark, tall straight bole. Fits the description: a tall tree on the verge along a residential road with houses either side.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": 440,
       "height_m": 28,
@@ -631,12 +652,18 @@
       "story": "The garden around this weeping beech was designed by a poet who was also the mayor of Zwolle. Rhijnvis Feith owned the Boschwijk estate and, after 1783, laid out its landscape garden on the southeast side of the house in the English style, with winding paths and water. The beech came more than a century after him. The national monumental tree register gives it a planting band of 1900 to 1910, which makes it around 120 years old, an age read from that band rather than from any planting record.\n\nWhat stands there now is a weeping beech in the lawn, the kind of tree whose branches hang down towards the grass rather than reaching out. The register says little more: its history field for this tree is blank. The national monument listing for Boschwijk's historic garden confirms the design, the protection and the public park, but does not mention this beech by name. So the tree rests on the register's word alone, and we flag it as such.\n\nIt is worth combining with two other register trees in the same park that are already on this map, the beech of the Boschwijk avenue and the red oak, which stands about 150 metres from here. Together they make a short loop through Feith's garden.\n\nNobody has published a girth or height for it. If you visit, a measurement sent to us would fill the gap.",
       "how_to_recognise": "You can recognise it by its drooping branches, the habit of a weeping beech. It stands in the lawn of Park Boschwijk, about 150 metres from the park's red oak.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/zwo_020-the-weeping-beech-of-park-boschwijk.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "3b40b69a-230c-4654-9929-f4df9ecdd2a0",
+        "note": "Photographed by a reader and sent through the app (2026-07-28); a viewing pass approved it on 2026-11-22: A big weeping beech on a park lawn, curtains of hanging branches down to the grass, trunk visible. Species seen: beech leaves on long pendulous branches, grey beech trunk. Fits the description: drooping branches, standing on the lawn of a park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "photos": [],
       "official_register": {
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1688446",
         "url": null

@@ -21,6 +21,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 reader judge: five Dutch trees get their first photograph
+
+- **Five trees that had no photo now have one, all from one reader's summer walk**: The Plane by Restaurant Urbana (zwo_013, Loetje sign in shot), Huis de Paddestoel's Swamp Cypress (zwo_016), The Weeping Beech of Park Boschwijk (zwo_020), The Beech of the Boschwijk Avenue (zwo_002) in Zwolle, and The Copper Beech of Nieuw-Schoonebeek (emm_005) in Emmen. Each is within 5 to 20 m of our pin, species and description checked against the pixels, taken_month from the photo's date. Pins were already confirmed, nothing moved.
+- be8ad361 rejected as a duplicate: the same frame as 3b40b69a, which went up.
+- The reader photo made emm_005 and zwo_016 indexable, so their colon sentences tripped preflight; both rewritten without the colon (emm_005 in English and in the nl overlay).
+- Left for the next run: lead 3c544597 (Amsterdam, 52.3972,4.8739, "not sure which tree"): the photo is not on disk, never judged blind. No open reports, no open feedback, no tips without a verdict.
+
 ## 2026-11-22 reader judge, a second run beside the first: one bug recorded, one report closed
 
 - Two reader-judge runs took the same work at once; this one's Delhi tree and takedown were dropped for the first run's (below), nothing lost.

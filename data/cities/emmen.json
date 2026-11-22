@@ -174,7 +174,7 @@
         "longitude": 6.98756,
         "neighbourhood": "Nieuw-Schoonebeek"
       },
-      "story": "The church is gone and only the tower is left. The presbytery has been rebuilt out of recognition. The park is still there, and so is this beech.\n\nA fine park was laid out at the old presbytery of the Catholic church of St Bonifatius in Nieuw-Schoonebeek at the beginning of the twentieth century. The beech, banded 1750 to 1800, is far older than that and was standing long before anyone laid out anything, which is the same pattern as almost every other church tree in this country: the ground was already planted and the institution arrived to join it.\n\nIf the band is right, this is as old as the lime at the Noordeind and one of the oldest trees in the municipality.\n\nA copper beech at two and a half centuries in a Drenthe village is also slightly improbable. The purple form was a scarce nursery product in the eighteenth century, largely confined to estates and botanic collections, so somebody with money and connections put it here.\n\nOctober, when it burns through to copper against a medieval tower stump.",
+      "story": "The church is gone and only the tower is left. The presbytery has been rebuilt out of recognition. The park is still there, and so is this beech.\n\nA fine park was laid out at the old presbytery of the Catholic church of St Bonifatius in Nieuw-Schoonebeek at the beginning of the twentieth century. The beech, banded 1750 to 1800, is far older than that and was standing long before anyone laid out anything. Almost every other church tree in this country follows the same pattern, where the ground was already planted and the institution arrived to join it.\n\nIf the band is right, this is as old as the lime at the Noordeind and one of the oldest trees in the municipality.\n\nA copper beech at two and a half centuries in a Drenthe village is also slightly improbable. The purple form was a scarce nursery product in the eighteenth century, largely confined to estates and botanic collections, so somebody with money and connections put it here.\n\nOctober, when it burns through to copper against a medieval tower stump.",
       "verified_sources": [
         "https://www.monumentalebomen.nl/",
         "https://services-eu1.arcgis.com/qONmLUR87PipcM5W/arcgis/rest/services/LRMB_v2024_openbaar/FeatureServer/1/query?where=nr%3D1682278&outFields=*&f=json"
@@ -182,10 +182,17 @@
       "access": "Free to see from Europaweg: the register notes the tree is clearly visible from the road. It stands on the grounds behind the parish centre (Europaweg 141-143), so look from the road; no opening times are published.",
       "transport": "About 20 km south of Emmen, at Nieuw-Schoonebeek on the Europaweg.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/emm_005-the-copper-beech-of-nieuw-schoonebeek.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 8,
+        "source": "contributor",
+        "contributor_user_id": "p_46eb99793fa60c6d1e5a07ed",
+        "sighting_id": "ab9898e3-e14b-4cbb-bec8-f96bb08b3fd1",
+        "note": "Photographed by a reader and sent through the app (2026-08-18); a viewing pass approved it on 2026-11-22: A large purple-leaved beech in a small fenced garden between brick parish buildings, whole tree in frame. Species seen: dark purple-brown beech leaves, smooth grey beech trunk with flared base. Fits the description: large copper beech in the small park behind a brick parish building.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "The large purple-leaved beech in the small park behind the parish centre.",
       "best_time": {

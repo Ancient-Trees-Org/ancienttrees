@@ -989,7 +989,53 @@
   },
   "p_46eb99793fa60c6d1e5a07ed": {
    "last": "2026-11-22",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "778ba740-bace-47fe-aed6-681f156c7250",
+     "tree_id": "zwo_013",
+     "tree_name": "The Plane by Restaurant Urbana",
+     "city": "Zwolle",
+     "city_slug": "zwolle",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "ab9898e3-e14b-4cbb-bec8-f96bb08b3fd1",
+     "tree_id": "emm_005",
+     "tree_name": "The Copper Beech of Nieuw-Schoonebeek",
+     "city": "Emmen",
+     "city_slug": "emmen",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "733793ad-e3d2-4afa-b298-a16f1a78f92e",
+     "tree_id": "zwo_016",
+     "tree_name": "Huis de Paddestoel's Swamp Cypress",
+     "city": "Zwolle",
+     "city_slug": "zwolle",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "3b40b69a-230c-4654-9929-f4df9ecdd2a0",
+     "tree_id": "zwo_020",
+     "tree_name": "The Weeping Beech of Park Boschwijk",
+     "city": "Zwolle",
+     "city_slug": "zwolle",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "dd50d6ca-cbed-40f2-85e5-d670600373c4",
+     "tree_id": "zwo_002",
+     "tree_name": "The Beech of the Boschwijk Avenue",
+     "city": "Zwolle",
+     "city_slug": "zwolle",
+     "display_name": null,
+     "live": "2026-11-22"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "eb13d715-dd45-415b-aeb6-2a986565e5fb",
