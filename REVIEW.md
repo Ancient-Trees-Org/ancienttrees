@@ -24,6 +24,21 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22
+
+Web half: the last 24 hours were reader-judge work (Delhi peepal live, five Zwolle and Emmen photographs, two face-photos taken down in Bath and Cordoba). The new Delhi and Zwolle pages hold no em dashes. Four earlier WARNs still stand in site/dist (checked by grep today); not repeated in full, replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html and site/dist/key-west/strangler-figs-of-the-key-west-cemetery.html still show "writer must not invent any" (sixth review; process narration).
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (sixteenth review).
+- WARN site/dist/contribute.html "verified against independent sources" (twenty-seventh review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html "every coordinate verified" (seventh review; hard rule 2).
+
+App half (iPhone SE: species, tree-nophoto, tree, visitors; iOS 18.5: city, city-map-full): looked at all six.
+
+- WARN APP city.png and city-map-full.png (Aachen, one tree): the Forster Linde appears twice in a row, once under "Highlights" and again under "The one tree", and the sheet header says "1 tree". A place of one tree repeats itself; Highlights should not render when it would list the whole list. Also "Become the Aachen ambassador" is offered for a place with one tree (CLAUDE.md Ambassadors: two trees in one place earn it).
+- NOTE APP city.png: the floating "Map" pill sits on top of the "Help create Ancient Trees Plus" card, cutting its title in half; reads as a collision, not a scroll crop.
+- NOTE APP species.png and visitors.png read honestly; no findings.
+
 ## 2026-11-21
 
 Web half: the last 24 hours were reader-judge photographs (Castlemaine's two trees, Birnam Oak, Fortingall Yew, Vienna's Hauptallee), the Stuttgart Rotwildpark write pass, an Android picker crash fix and a Discover link fix. The new Castlemaine, Dunkeld, Fortingall and Stuttgart pages hold no em dashes or banned words, and reader photographs carry their licence line. Earlier findings stand, all still present in site/dist (checked by grep):
