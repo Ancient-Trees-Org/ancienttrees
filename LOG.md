@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-22 night run, second attempt: nothing published
+
+Nothing shipped. Only 4 READY leads (leamington-spa 2, york 1, guimaraes 1), under the six-candidate minimum. The rest of "awaiting a writer" is duplicates within 50 m or id clashes with live trees (passcheck --pending), so not writable. Claimed fort-worth for a verify pass: its brief had 0 register candidates and the city holds 29 of its 30, so I released it (now a 48h wall). Translations are paused while TRANSLATIONS_OUT holds, and no register is left to scout. One reader sighting of an unmapped tree (3c544597, 52.397,4.874) has no photograph on disk and was left without a verdict, not judged blind.
+For Hidde: none.
+
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
 
