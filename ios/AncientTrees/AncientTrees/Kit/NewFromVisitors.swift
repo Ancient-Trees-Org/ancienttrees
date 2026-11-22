@@ -24,14 +24,36 @@ enum NewFromVisitors {
     /// The row shows from this many tiles, so it never stands half empty.
     static let minimum = 4
 
-    static func load(token: String?) async -> [Row] {
-        let r = Supa.request("/rest/v1/rpc/new_from_visitors", token: token, body: ["n": 12])
-        guard let (data, resp) = try? await Net.data(for: r),
-              let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
-              let rows = try? JSONDecoder().decode([Row].self, from: data) else { return [] }
-        // One tile per tree, its newest photograph.
-        var seen = Set<String>()
-        return rows.filter { seen.insert($0.tree_id).inserted }
+    /// THE ROW NEVER WAITS ON A FRESH FEED (2026-11-22, Hidde: "the feed
+    /// should always stay available"). The newest 24 first (each person once
+    /// before anyone twice); when fewer than `minimum` of them are photographs
+    /// this feed already carries (`known`), older ones from the See all
+    /// page's pages fill the row, four pages back at most. On the website a
+    /// deploy that fell eleven hours behind left all twelve newest unknown and
+    /// the row vanished; the feed here lags the same way. visitors-row-js.ts.
+    static func load(token: String?, known: (Row) -> Bool) async -> [Row] {
+        let r = Supa.request("/rest/v1/rpc/new_from_visitors", token: token, body: ["n": 24])
+        var rows: [Row] = []
+        if let (data, resp) = try? await Net.data(for: r),
+           let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
+           let first = try? JSONDecoder().decode([Row].self, from: data) {
+            rows = first
+        }
+        func knownTrees() -> Int { Set(rows.filter(known).map(\.tree_id)).count }
+        if knownTrees() < minimum {
+            var cursor: Row? = nil
+            for _ in 0..<4 {
+                guard let list = await page(after: cursor, n: 48, token: token) else { break }
+                rows += list
+                if knownTrees() >= minimum * 2 || list.count < 48 { break }
+                cursor = list.last
+            }
+        }
+        // Every row kept, in the server's order (the two lists overlap, so a
+        // photograph once): tiles() picks what this feed can show, and a feed
+        // that arrives later shows the newer ones without asking again.
+        var seen = Set<UUID>()
+        return rows.filter { seen.insert($0.sighting_id).inserted }
     }
 
     /// THE SEE ALL PAGE'S PAGES (Hidde, 2026-11-18: "bouw in nieuw gesprek
@@ -80,10 +102,20 @@ enum NewFromVisitors {
     /// (Hidde, 2026-11-16: "bij ios missen de eerste 4 een foto, bij web
     /// allemaal wel"). The website's rule (visitors-row-js.ts skips a tree its
     /// build does not know); the tile appears with the next feed.
+    /// One tile per tree, its newest photograph this feed carries, so an
+    /// unknown newer one never hides an older one that can show; twelve at
+    /// most, as before load() asked for more.
     static func tiles(_ rows: [Row], tree: (String) -> Tree?) -> [(row: Row, tree: Tree, shot: Photo)] {
-        rows.compactMap { r in
-            guard let t = tree(r.tree_id), let s = shot(r, in: t) else { return nil }
+        var seen = Set<String>()
+        return Array(rows.compactMap { r -> (row: Row, tree: Tree, shot: Photo)? in
+            guard let t = tree(r.tree_id), let s = shot(r, in: t), seen.insert(r.tree_id).inserted else { return nil }
             return (row: r, tree: t, shot: s)
-        }
+        }.prefix(12))
+    }
+
+    /// Whether this feed can show the row's photograph (load's test).
+    static func known(_ r: Row, tree: (String) -> Tree?) -> Bool {
+        guard let t = tree(r.tree_id) else { return false }
+        return shot(r, in: t) != nil
     }
 }

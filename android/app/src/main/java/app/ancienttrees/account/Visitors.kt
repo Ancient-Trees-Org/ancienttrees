@@ -39,9 +39,9 @@ object NewFromVisitors {
                 authorId = o.text("author_id"),
             )
         }
-        // One tile per tree, its newest photograph.
-        val seen = HashSet<String>()
-        rows.filter { seen.add(it.treeId) }
+        // Every row, in the server's order: tiles() picks one per tree from
+        // what this feed can show (NewFromVisitors.load in ios).
+        rows
     }.getOrDefault(emptyList())
 
     /**
@@ -60,12 +60,21 @@ object NewFromVisitors {
      * photograph, the website's rule (Hidde, 2026-11-16: the newest tiles stood empty until
      * the next deploy). NewFromVisitors.tiles in ios Kit/NewFromVisitors.swift.
      */
-    fun tiles(rows: List<Row>, tree: (String) -> app.ancienttrees.feed.Tree?): List<Triple<Row, app.ancienttrees.feed.Tree, app.ancienttrees.feed.Photo>> =
-        rows.mapNotNull { r ->
+    fun tiles(rows: List<Row>, tree: (String) -> app.ancienttrees.feed.Tree?): List<Triple<Row, app.ancienttrees.feed.Tree, app.ancienttrees.feed.Photo>> {
+        // One tile per tree, its newest photograph this feed carries, so an unknown newer one
+        // never hides an older one that can show; twelve at most (2026-11-22).
+        val seen = HashSet<String>()
+        return rows.mapNotNull { r ->
             val t = tree(r.treeId) ?: return@mapNotNull null
             val s = shot(r, t) ?: return@mapNotNull null
+            if (!seen.add(r.treeId)) return@mapNotNull null
             Triple(r, t, s)
-        }
+        }.take(12)
+    }
+
+    /** Whether this feed can show the row's photograph (load's test). NewFromVisitors.known in ios. */
+    fun known(row: Row, tree: (String) -> app.ancienttrees.feed.Tree?): Boolean =
+        tree(row.treeId)?.let { shot(row, it) } != null
 
     /**
      * THE SEE ALL PAGE'S PAGES (Hidde, 2026-11-18): every photograph, not one per tree,
@@ -100,9 +109,27 @@ object NewFromVisitors {
     suspend fun author(row: Row, prev: Row?, token: String?): String? =
         page(prev, token, n = 1)?.firstOrNull { it.sightingId == row.sightingId }?.authorId
 
-    suspend fun load(token: String?): List<Row> {
-        val r = Supa.send("/rest/v1/rpc/new_from_visitors", token = token, body = JSONObject().put("n", 12).toString())
-        return if (r.ok) parse(r.body) else emptyList()
+    /**
+     * THE ROW NEVER WAITS ON A FRESH FEED (2026-11-22, Hidde: "the feed should always stay
+     * available"). The newest 24 first; when fewer than [MINIMUM] trees of them are in this
+     * feed ([known]), older photographs from the See all pages fill the row, four pages back
+     * at most. Every row is kept (once), so a feed that arrives later shows the newer ones.
+     * NewFromVisitors.load in ios Kit/NewFromVisitors.swift.
+     */
+    suspend fun load(token: String?, known: (Row) -> Boolean): List<Row> {
+        val r = Supa.send("/rest/v1/rpc/new_from_visitors", token = token, body = JSONObject().put("n", 24).toString())
+        val rows = (if (r.ok) parse(r.body) else emptyList()).toMutableList()
+        fun knownTrees() = rows.filter(known).map { it.treeId }.toSet().size
+        if (knownTrees() < MINIMUM) {
+            var cursor: Row? = null
+            for (i in 0 until 4) {
+                val list = page(cursor, token, n = 48) ?: break
+                rows += list
+                if (knownTrees() >= MINIMUM * 2 || list.size < 48) break
+                cursor = list.last()
+            }
+        }
+        return rows.distinctBy { it.sightingId }
     }
 }
 
