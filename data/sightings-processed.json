@@ -6835,11 +6835,50 @@
    "lon": 16.368166,
    "pin_checked": "2026-11-22"
   },
+  "785f6913-8b07-4594-9e0d-1c57cc4f06b2": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "hil_002",
+   "city_slug": "hilversum",
+   "file": "hil_002-the-coronation-lime-of-the-spanderslaan.jpg",
+   "reason": "the lime's trunk inside its wrought iron railing, a gilded crown and W monogram on the fence, the path marker beside it; daylight, autumn leaves on the ground Species seen: tall straight trunk with ridged grey-brown bark under ivy, crown out of frame; consistent with a lime. Fits the description: th",
+   "lat": 52.245762,
+   "lon": 5.140086,
+   "pin_checked": "2026-11-22"
+  },
+  "78125c07-12d8-4584-b593-2f8a781df27f": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "hil_004",
+   "city_slug": "hilversum",
+   "file": "hil_004-the-bernhard-chestnut-of-the-hilvertsweg.jpg",
+   "reason": "the horse chestnut's thick forked trunk with a big boulder at its foot beside the road; daylight, colour Species seen: palmate compound leaves, flaking plated bark: horse chestnut. Fits the description: a broad old chestnut on a road verge with the boulder the story describes at its foot.",
+   "lat": 52.218619,
+   "lon": 5.167238,
+   "pin_checked": "2026-11-22"
+  },
+  "67f3e7c3-7574-4994-8482-b69990619ef0": {
+   "outcome": "published",
+   "date": "2026-11-22",
+   "tree_id": "hil_005",
+   "city_slug": "hilversum",
+   "file": "hil_005-the-juliana-lime-of-the-hilvertsweg.jpg",
+   "reason": "the whole lime from trunk to crown on the road verge, horse chestnut leaves of its partner at the top corner; overcast daylight, colour Species seen: heart-shaped leaves, dense rounded crown, ivy at the foot: a lime. Fits the description: a lime standing at a road with a horse chestnut beside it, as",
+   "lat": 52.218795,
+   "lon": 5.167259,
+   "pin_checked": "2026-11-22"
+  },
   "2120e761-ef1b-4baf-86a2-9d311e0ea986": {
    "outcome": "rejected",
    "date": "2026-11-22",
    "tree_id": "fln_002",
    "reason": "Bad frame: a beach and the bay with leafy branches at the left edge; nothing in it shows the hanging-root fig or any one tree to recognise, and its coordinate repeats the tree's earlier pin, so it cannot be placed as a tree of its own."
+  },
+  "723b9c72-72dd-419a-a848-1b3487f52e27": {
+   "outcome": "rejected",
+   "date": "2026-11-22",
+   "tree_id": "vie_037",
+   "reason": "Duplicate: the same reader's November photo of the beech, already leading vie_037 under sighting 4491f36f (published by the parallel run the same afternoon)."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

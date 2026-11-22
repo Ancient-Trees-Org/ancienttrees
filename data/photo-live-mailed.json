@@ -1070,6 +1070,33 @@
      "city_slug": "emmen",
      "display_name": null,
      "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "785f6913-8b07-4594-9e0d-1c57cc4f06b2",
+     "tree_id": "hil_002",
+     "tree_name": "The Coronation Lime of the Spanderslaan",
+     "city": "Hilversum",
+     "city_slug": "hilversum",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "78125c07-12d8-4584-b593-2f8a781df27f",
+     "tree_id": "hil_004",
+     "tree_name": "The Bernhard Chestnut of the Hilvertsweg",
+     "city": "Hilversum",
+     "city_slug": "hilversum",
+     "display_name": null,
+     "live": "2026-11-22"
+    },
+    {
+     "sighting_id": "67f3e7c3-7574-4994-8482-b69990619ef0",
+     "tree_id": "hil_005",
+     "tree_name": "The Juliana Lime of the Hilvertsweg",
+     "city": "Hilversum",
+     "city_slug": "hilversum",
+     "display_name": null,
+     "live": "2026-11-22"
     }
    ],
    "sent": [

@@ -11,6 +11,13 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (thirteenth run): three Hilversum royal trees get readers' photographs; the Romanyà pine reported as a stump
+
+Live: readers' photographs now lead three Hilversum trees that had none: the Coronation Lime of the Spanderslaan (hil_002; its railing with the gilded crown and W, filed under autumn by its fallen leaves), the Bernhard Chestnut (hil_004, with its boulder) and the Juliana Lime (hil_005, the whole tree on the Hilvertsweg). The pages now enter Google's reader cut, so preflight's colon-reveal check caught two sentences in hil_002 and hil_004; both were rewritten (Hilversum has no translation).
+Overlap: this run judged the same queue as the twelfth run below. Its Vienna beech photo (723b9c72) turned out to be a second copy of the one the twelfth run put up (4491f36f), so it is recorded as a duplicate and the twelfth run's page, photo and story wording stand. The beach view for the Coqueiros fig (2120e761) was rejected by both runs.
+Report 1000126 (Girona, gir_004 the Great Pine of Romanya, "dead or gone"): the reader writes they found only a stump and are fairly sure of the spot. No photograph, no news of a fall, and the Catalan register still lists the pine, so the tree stays and the report is closed `holds`; the report is noted in the tree's verify_notes. Because they wrote words, no standard mail. For Hidde: drafts/reply-reader-1000126-2026-11-22.md thanks them and asks for a photograph of the stump, which would take the tree off the same day.
+Left: lead 3c544597 (Amsterdam, `mine`) still has no file on disk. The Hilversum rows carried our own pin, so no pin moved. No open feedback, no tips.
+
 ## 2026-11-22 reader judge (twelfth run): the Vienna beech gets its first photograph, and the talking tree's plaque goes into its story
 
 Live: a reader's late-autumn photograph now leads vienna/vie_037, the Alois-Drasche-Park beech. Until now it showed no photograph, because the Commons file was held as a possible copper-beech neighbour. The page is now in Google's reader cut, so three colon reveals in its story were rewritten, in English and in the German overlay.
