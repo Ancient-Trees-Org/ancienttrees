@@ -21,6 +21,18 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: who gave a heart, Activity, and Worth the visit written out (web, iPhone, Android)
+
+What changed in the product (Hidde: "kun je ook zien als je een hartje krijgt wie je dat heeft gegeven?", design in drafts/design-2026-11-22-heart-who/product.html, the bell "voor nu is het ok"):
+- The count beside a visitor photograph's heart is its own tap and opens who gave one (signed in only; a private profile shows as "A visitor"). The heart sits right after the time, in the apps as on the web.
+- A bell: top right of Discover in the apps, beside your face in the website's bar (on the phone a menu row "Activity" and a dot on the menu button). It opens Activity: the hearts other people gave your photographs, one row per photograph, New above Earlier, a dot while something came after you last looked, the same on every device.
+- "Worth the visit · 2" written out beside the thumb, no background (reverses 2026-09-04's "de worth the visit tekst mag helemaal weg", now that a heart sits on the photographer's line).
+- Fixed on the way: the app's opened photograph showed the licence line instead of a visitor's name, time and heart.
+- Privacy page: signed-in visitors and the photographer see who gave hearts; we keep when you last opened Activity.
+- Commit b175ac666 carries this message but holds two other sessions' LOG entries (Nick reply, Waste article), which were staged in the shared checkout; their text is unchanged.
+
+FOR HIDDE: paste supabase/photo-hearts-who.sql in the Supabase SQL editor. Until then the list stays empty, the bell has no dot and Activity is empty. The apps carry it from their next build.
+
 ## 2026-11-22 session: reply to Nick (Bristol) sent
 
 - Sent on Hidde's "Send it": the reply to feedback 1381 (his redwood correction), in his own mail thread, from info@. It says bri_023 is now a coast redwood and the bri_015 cypress pin sits 12 m from his OS reference, and asks whether both are right now. Text in drafts/reply-nick-bristol-redwood-2026-11-22.md; logged in the send log, row 1381 stamped `replied_at`. No data change needed: the reader judge had fixed both trees on 2026-11-21.
