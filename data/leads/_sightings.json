@@ -10292,6 +10292,41 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "verona/ver_010"
+  },
+  {
+   "sighting_id": "59e87943-2f6c-4f17-b6c3-7a40b354062e",
+   "user_id": "p_b21b1a471219a6cf05cfddd3",
+   "mine": false,
+   "name": "Mexican Sycamore",
+   "unsure_among": null,
+   "species": "Mexican Sycamore",
+   "age": "150 years",
+   "girth_cm": 650,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 19.578433162261,
+   "longitude": -96.923086876362,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_b21b1a471219a6cf05cfddd3/59E87943-2F6C-4F17-B6C3-7A40B354062E.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/59e87943-2f6c-4f17-b6c3-7a40b354062e-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-22: the whole sycamore from the path, a massive pale trunk mottled white, cream and olive rising into a high crown hung with moss, two people small at its foot, daylight, colour. Live as xalapa/xal_001 under the closed list (Hidde, 2026-11-17); the child portrait is not published.",
+   "seen": "2026-11-22",
+   "judged": "2026-11-22",
+   "published_as": "xalapa/xal_001"
   }
  ]
 }

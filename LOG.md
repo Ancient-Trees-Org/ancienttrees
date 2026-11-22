@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (twentieth run): a giant Mexican sycamore live in Xalapa
+
+- **New tree: The Mexican Sycamore of Río Sedeño**, xalapa/xal_001, a new one-tree place in Mexico. A reader sent it through the app with a GPS fix from the path of the Parque Lineal Río Sedeño. The trunk is pale and patched white and olive, with a mossy crown above. The page states the reader's figures as theirs: about 150 years old and 650 cm round. The lead photograph is their second picture, which shows the whole tree. Their first picture, a close portrait of a child at the trunk, is **not** published. The photo is filed in November.
+- No reports, feedback or tips are open, and no reader words wait to be quoted.
+- Left: lead 3c544597 (Amsterdam, `mine`) still has no photo on disk. It was not judged blind.
+
 ## 2026-11-22 reader judge (nineteenth run): two Horn-Lehe mail replies closed, nothing new to publish
 
 - No new trees, photographs, tips or reports came in. This run did nothing on the site.

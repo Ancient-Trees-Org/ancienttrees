@@ -2226,6 +2226,47 @@
    "agreed": null
   },
   {
+   "id": "lead:59e87943-2f6c-4f17-b6c3-7a40b354062e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "Mexican Sycamore",
+   "city": null,
+   "species": "Mexican Sycamore",
+   "photo": "p_b21b1a471219a6cf05cfddd3/59E87943-2F6C-4F17-B6C3-7A40B354062E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 650,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mexican Sycamore"
+   },
+   "verdict": "publish",
+   "reason": "Live as xalapa/xal_001: a huge Mexican sycamore in the Parque Lineal Rio Sedeno, Xalapa, device GPS fix, public park path; whole-tree photograph viewed (daylight, colour). The reader's other picture, a close child portrait at the trunk, is not published.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:59e87943-2f6c-4f17-b6c3-7a40b354062e",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "The Mexican Sycamore of Río Sedeño",
+   "city": "Xalapa",
+   "photo": "out/sightings/59e87943-2f6c-4f17-b6c3-7a40b354062e-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-22: the whole sycamore from the park path, mottled pale trunk into a mossy crown, two people small and from behind, daylight, colour. Lead photo of xalapa/xal_001, filed in November. The reader's first picture (a close child portrait at the trunk) is not used.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:27e529b6-7e49-4fd7-853e-6acc23a947e9",
    "seen": "2026-11-21",
    "kind": "a tree we do not map",

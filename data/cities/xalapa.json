@@ -1,0 +1,75 @@
+{
+  "city": "Xalapa",
+  "country": "Mexico",
+  "status": "needs_curation",
+  "intro": "Xalapa is the capital of Veracruz, a hill city on the slopes of eastern Mexico's mountains, green with cloud forest and coffee. On its northern edge the Parque Lineal Río Sedeño follows a river, and beside its path stands a Mexican sycamore with a vast pale trunk mottled white and olive. A reader sent us its photograph, and puts the tree at about 150 years old.",
+  "meta_description": "A giant Mexican sycamore in the Parque Lineal Río Sedeño, Xalapa, sent by a reader: its mottled trunk, where it stands and how to find it.",
+  "hero_tree_id": "xal_001",
+  "oldest_tree_id": "xal_001",
+  "trees": [
+    {
+      "id": "xal_001",
+      "name": "The Mexican Sycamore of Río Sedeño",
+      "species": "Mexican Sycamore (Platanus mexicana)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Parque Lineal Río Sedeño, El Naranjal de Agua Santa, Xalapa, Veracruz",
+        "latitude": 19.578433162261,
+        "longitude": -96.923086876362,
+        "neighbourhood": "Río Sedeño"
+      },
+      "story": "A reader sent us this tree from the Parque Lineal Río Sedeño, the riverside park on the northern edge of Xalapa, and the photograph shows why they stopped on the path.\n\nIt is a Mexican sycamore, Platanus mexicana, a plane tree native to the mountains of eastern Mexico, and this one has grown to a size that makes the people walking past it look like children's toys. The trunk is the thing to see. It rises from a flare of thick roots like a pale column, its bark shedding in patches so that the whole surface is a map of white, cream and olive, as if it had been camouflaged. High up it opens into long white limbs, and the crown above them is hung with grey strands of moss. A bench stands at its foot, and the path runs right past.\n\nThe reader puts it at about 150 years old and its trunk at some six and a half metres round. Those figures are theirs, not a measurement we have seen. If you know the tree's history, or what the people of Xalapa call it, tell us here.\n\nWalk round to the bench and sit with your back to the roots, then look straight up the trunk.",
+      "how_to_recognise": "Beside the park's earth path: a huge pale trunk patched white, cream and olive where the bark has shed, on a flare of thick roots, with a wooden bench at its foot and long white limbs hung with moss above.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "59e87943-2f6c-4f17-b6c3-7a40b354062e",
+        "date": "2026-11-22"
+      },
+      "access": "Free. On the path through the Parque Lineal Río Sedeño, a public riverside park.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "59e87943-2f6c-4f17-b6c3-7a40b354062e",
+        "moved_m": 0,
+        "date": "2026-11-22",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "verify_notes": "2026-11-22 reader judge: sent by a reader through the app with a device GPS fix (sighting 59e87943-2f6c-4f17-b6c3-7a40b354062e), named 'Mexican Sycamore', species 'Mexican Sycamore', age '150 years', girth 650 cm, no note. Both photographs viewed: the first a child sitting at the trunk (not published, a close portrait of a child); the second the whole sycamore from the path, a massive pale trunk mottled white, cream and olive rising into a high crown hung with moss, two people small at its foot, daylight, colour. Place from OpenStreetMap at the fix: Parque Lineal Río Sedeño, Xalapa. No register entry within 100 m. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Age and girth are the reader's; Mexico is out of focus for our own research only, never for a reader's tree.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/xal_001-mexican-sycamore-of-rio-sedeno.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b21b1a471219a6cf05cfddd3",
+        "sighting_id": "59e87943-2f6c-4f17-b6c3-7a40b354062e",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date (sent with the reader's November picture, same visit: the same people in both)",
+        "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved on 2026-11-22: the whole sycamore from the path, a massive pale trunk mottled white, cream and olive rising into a high crown hung with moss, two people small at its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A giant Mexican sycamore in the Parque Lineal Río Sedeño, Xalapa, sent by a reader: its mottled trunk, where it stands and how to find it.",
+  "question_answer": "The Mexican Sycamore of Río Sedeño stands beside the path in the Parque Lineal Río Sedeño, on the northern edge of Xalapa. The park is public and free.",
+  "question_context": "A reader sent us this tree from the Parque Lineal Río Sedeño, the riverside park on the northern edge of Xalapa, the capital of Veracruz. It is a Mexican sycamore, Platanus mexicana, a plane tree native to the mountains of eastern Mexico. The trunk is what draws people: it rises from a flare of thick roots like a pale column, its bark shedding in patches so that the surface is a map of white, cream and olive. High up it opens into long white limbs, and the crown above them is hung with grey strands of moss. A wooden bench stands at its foot, and the park's earth path runs right past it, so anyone walking the park passes under it. The reader puts it at about 150 years old and its trunk at some six and a half metres round. Those figures are theirs, not a measurement from a register, and we would welcome a source for its history or the name local people give it.",
+  "faq": [
+    {
+      "q": "Can I visit The Mexican Sycamore of Río Sedeño?",
+      "a": "Yes. It stands beside the path in the Parque Lineal Río Sedeño, a free public park in Xalapa."
+    },
+    {
+      "q": "How old is the Mexican sycamore in the Parque Lineal Río Sedeño?",
+      "a": "About 150 years, by the estimate of the reader who sent it to us. No register gives an age for it yet."
+    },
+    {
+      "q": "How do I recognise it?",
+      "a": "Look for a huge pale trunk patched white, cream and olive beside the path, with a wooden bench at its foot."
+    }
+  ]
+}
