@@ -253,17 +253,10 @@
       "access": "Free via the public cafe/restaurant terrace (Parador hotel grounds)",
       "transport": "Alhambra bus (C30/C32) or 25 min walk uphill from the city centre",
       "photo": {
-        "url": "https://ancienttrees.app/photos/gra_007-the-twin-cypresses-of-the-parador.jpg",
-        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "url": null,
+        "license": null,
         "attribution": null,
-        "status": "approved",
-        "width": 1200,
-        "height": 1600,
-        "taken_month": 5,
-        "source": "contributor",
-        "contributor_user_id": "p_b4394ae41139d013921d623e",
-        "sighting_id": "1dde934f-5b8b-415c-9b32-febb864eac2a",
-        "note": "Photographed by a reader and sent through the app (2026-05-23); a viewing pass approved it on 2026-11-15: Two tall cypresses against the Parador wall, twisted bark, daylight. Species seen: Mediterranean cypress, fluted grey trunks. Fits the description: twin cypresses by the church wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "status": "missing"
       },
       "curation_status": "flagged",
       "notes": "Both sources are from the same publisher (wastemagazine.es, two separate dedicated articles); treated as closer to single-sourced for this specific pair's age and exact positioning, though the Parador's history and garden layout are independently documented by the hotel's own listings. No individual planting date found; age left as a broad centenarian estimate. No usable photo found.",

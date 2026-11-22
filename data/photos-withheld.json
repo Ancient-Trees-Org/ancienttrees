@@ -1,0 +1,9 @@
+{
+  "_note": "Readers who asked for none of their photographs to be on the site. Keyed by account code (people.ref), never the id. sightings_publish.py skips their photographs on every route, and preflight's check_a_withheld_readers_photo_stays_off() refuses any city file that carries one. Removing a row needs the reader's own new yes.",
+  "people": {
+    "p_b4394ae41139d013921d623e": {
+      "since": "2026-11-22",
+      "why": "Feedback 1419: asked by mail for all their photographs to come down and for none to go up again. Hidde: \"yes remove all his photos\"."
+    }
+  }
+}

@@ -2492,6 +2492,32 @@ def check_contributor_photos_are_traceable():
     return out
 
 
+def check_a_withheld_readers_photo_stays_off():
+    """A reader who asked for none of their photographs on the site gets none.
+
+    Hidde, 2026-11-22, feedback 1419: a reader asked for all four of their
+    photographs to come down "and don't upload any more". Their account code
+    is in data/photos-withheld.json; sightings_publish.py skips them, and this
+    catches every other route (a reader judge writing a tree by hand).
+    """
+    try:
+        with open("data/photos-withheld.json", encoding="utf-8") as fh:
+            withheld = set(json.load(fh).get("people", {}))
+    except FileNotFoundError:
+        return []
+    out = []
+    for path in sorted(glob.glob("data/cities/*.json")):
+        with open(path, encoding="utf-8") as fh:
+            city = json.load(fh)
+        for tree in city.get("trees", []):
+            for label, photo in all_photos(tree):
+                if photo.get("contributor_user_id") in withheld:
+                    out.append("%s: %s %s is a photograph of a reader who asked for "
+                               "none of theirs on the site (data/photos-withheld.json)."
+                               % (path, tree.get("id"), label))
+    return out
+
+
 def check_translated_components_are_neutral():
     """A component that renders every language must not have one typed into it.
 
@@ -3970,6 +3996,7 @@ def main():
                 + check_no_two_language_switch()
                 + check_pin_is_in_its_own_country()
                 + check_contributor_photos_are_traceable()
+                + check_a_withheld_readers_photo_stays_off()
                 + check_every_submission_got_a_verdict()
                 + check_a_reader_verdict_looked_at_the_photograph()
                 + check_a_closed_sighting_stays_closed()

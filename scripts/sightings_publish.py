@@ -836,6 +836,18 @@ def unstrip(entry):
     return gone
 
 
+def withheld(entry):
+    """A reader who asked for none of their photographs on the site
+    (data/photos-withheld.json, Hidde 2026-11-22, feedback 1419)."""
+    try:
+        with open(os.path.join(ROOT, "data", "photos-withheld.json"), encoding="utf-8") as fh:
+            codes = set(json.load(fh).get("people", {}))
+    except FileNotFoundError:
+        return False
+    uid = entry.get("user_id")
+    return bool(uid) and (uid in codes or people.ref(uid) in codes)
+
+
 def live_first(queue, today, really):
     """LIVE FIRST, THEN CHECKED (Hidde, 2026-10-24: "laten we dan de conventie
     aanhouden", after reading that AllTrails, komoot, iNaturalist, Polarsteps
@@ -857,7 +869,8 @@ def live_first(queue, today, really):
     (2026-09-07)."""
     n = 0
     for e in queue:
-        if e.get("mine") or not has_lead(e.get("current_photo")) or in_strip(e) or is_lead(e):
+        if (e.get("mine") or withheld(e) or not has_lead(e.get("current_photo"))
+                or in_strip(e) or is_lead(e)):
             continue
         src = os.path.join(ROOT, e["file"])
         if not os.path.exists(src):
@@ -1056,6 +1069,10 @@ def main():
             continue
         if not vouch:
             reason = f"{reason.strip()} Species seen: {seen}. Fits the description: {fits}.".strip()
+        if withheld(entry):
+            print(f"  REFUSED {entry['tree_id']} {entry['tree_name'][:40]}: this reader asked "
+                  f"for none of their photographs on the site (data/photos-withheld.json).")
+            continue
         src = os.path.join(ROOT, entry["file"])
         if not os.path.exists(src):
             print(f"  {sid}: file missing at {entry['file']}, run sightings_inbox.py again")

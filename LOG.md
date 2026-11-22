@@ -21,6 +21,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-22 session: every photograph of one reader off the site, on their second ask
+
+- **Removed** (feedback 1419, Hidde: "yes remove all his photos"): after the two with faces came down this morning, the reader asked for all photographs off and none uploaded again. The other two are gone too: the Córdoba courtyard through the arch (cdb_002, strip) and the Granada Parador cypresses (gra_007, lead; the tree is photo-less again). Files deleted, manifest entries out. The Granada pin stays where their GPS fix put it (a coordinate, not a photograph).
+- **Never again**: data/photos-withheld.json lists their account code. sightings_publish.py skips them on the live-first and judged routes, and preflight's new `check_a_withheld_readers_photo_stays_off()` refuses a city file that carries one.
+- Their photos were taken in February and May and sent around 14 November, so the "sent before 2026-10-04" exception did not apply this morning; it was their choice, not our error.
+- **For Hidde**: the reply (drafts/reply-reader-1419-2026-11-22b.md) waits for his yes. Their profile is public by default and may still show their own trees; not changed.
+
 ## 2026-11-22 session: why profiles have no flag
 
 - Only 186 of 977 accounts had a flag (Apple 5 of 353, Google 119 of 299, email 62 of 325). Both apps save the flag with an upsert of user_id and country only; Postgres checks NOT NULL on the would-be insert before the conflict, so the empty display_name refused every app save (reproduced on apptest: 23502). The website PATCHes and works. Android accounts made 11-21 and 11-22 all lack a flag.
