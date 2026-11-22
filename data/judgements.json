@@ -24112,6 +24112,31 @@
    "reason": "Photograph viewed 2026-11-22: a broad bare oak against a blue sky, long crooked level limbs over young birches on a scrubby bank, daylight, colour; taken at Fulltofta, Hörby. Live as fulltofta/flt_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:2f66b206-9ece-4aff-9bb8-0ae799968efb",
+   "seen": "2026-11-22",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Bad Homburg",
+   "city": null,
+   "species": null,
+   "photo": "p_b9fc85a912a6ec8808c306b0/2F66B206-9ECE-4AFF-9BB8-0AE799968EFB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "Looked at: felled timber, sawn sections of a big trunk lying in a beech wood with paint marks. A cut, fallen trunk: held as dead, no mail.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

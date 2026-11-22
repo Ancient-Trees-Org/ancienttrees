@@ -73,8 +73,8 @@
       "species": "Fig (Ficus sp.)",
       "location": {
         "address": "Near Rua Vereador José do Vale Pereira, Coqueiros, Florianópolis, Santa Catarina",
-        "latitude": -27.6120914754728,
-        "longitude": -48.5779356816369,
+        "latitude": -27.610736,
+        "longitude": -48.578597,
         "neighbourhood": "Coqueiros"
       },
       "how_to_recognise": "A broad fig whose limbs spread from a knot of mossy grey stems, with curtains of thin aerial roots hanging from them down to the ground beside a low wall.",
@@ -89,8 +89,10 @@
       "pin_source": {
         "kind": "reader's hand-placed pin",
         "sighting_id": "553f2448-0e51-4ae4-9f09-7553dc660819",
+        "report": 1000125,
+        "moved_m": 164,
         "date": "2026-11-22",
-        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+        "note": "Reader report 1000125: the same reader who added the tree dragged its pin 164 m in the app on the day it went live; their move taken. Still a hand-placed pin, not a GPS fix."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-22 reader judge: sent by a reader (553f2448-0e51-4ae4-9f09-7553dc660819, 2026-11-22, through the app). Photograph viewed: looking up from the foot of a big fig into its crown, many limbs and curtains of hanging aerial roots, a wall post at the right, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Fig', species 'Fig', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",

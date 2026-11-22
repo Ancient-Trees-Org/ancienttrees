@@ -10025,6 +10025,39 @@
    "seen": "2026-11-22",
    "hold": "no_location",
    "judged": "2026-11-22"
+  },
+  {
+   "sighting_id": "2f66b206-9ece-4aff-9bb8-0ae799968efb",
+   "user_id": "p_b9fc85a912a6ec8808c306b0",
+   "mine": false,
+   "name": "A tree in Bad Homburg",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 50.2373983333333,
+   "longitude": 8.55476666666667,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_b9fc85a912a6ec8808c306b0/2F66B206-9ECE-4AFF-9BB8-0AE799968EFB.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-22: felled timber, several sawn sections of a big conifer trunk lying on the forest floor with paint marks on the cut ends, beech wood behind. A fallen, cut trunk, not a standing tree (closed list: dead). No mail.",
+   "seen": "2026-11-22",
+   "hold": "dead",
+   "judged": "2026-11-22"
   }
  ]
 }

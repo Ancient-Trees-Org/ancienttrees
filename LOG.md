@@ -11,6 +11,12 @@
 
 <!-- archive-index -->
 
+## 2026-11-22 reader judge (tenth run): the Bad Homburg felled trunk held, the Coqueiros fig's pin moved
+
+Held: the Bad Homburg sighting (2f66b206), sawn sections of a felled trunk lying in a beech wood, held as `dead` with no mail.
+Changed: report 1000125. The reader who added the Coqueiros fig (florianopolis/fln_002) this morning dragged its pin 164 m. We took the move, kept the pin approximate as a hand-placed pin, and sent the standard pin thank-you.
+Breakage, caught at the rebase: this run also built the Fulltofta oak, held the Andaman tip and rejected the Redford redwood photo, but the ninth run had already pushed all three. The rebase kept that run's version (fulltofta/flt_001) and dropped this run's copy (horby/hrb_001). The Andaman hold mail was queued twice, once by each run; hold_reply writes the same reply_text, so the reader gets one mail. For the third time today, two runs judged the same leads at once.
+
 ## 2026-11-22 reader judge (ninth run): an oak at Fulltofta live, the Andaman tip held
 
 Live: a reader's bare November oak at Fulltofta, Hörby, Skåne is a new tree, fulltofta/flt_001 "The Wide Oak of Fulltofta" (Oak, Quercus sp.; the photograph's own location, which the app had named "near Torna Hällestad", 25 km off; one-tree place, so no place page).
