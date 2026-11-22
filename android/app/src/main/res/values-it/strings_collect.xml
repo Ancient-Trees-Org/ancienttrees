@@ -3,8 +3,8 @@
     <string name="cf_add_photo">Aggiungi una foto</string>
     <string name="cf_add_tree">Aggiungi un albero</string>
     <string name="cf_add_this_tree">Aggiungi questo albero</string>
-    <string name="cf_intro_photo">La tua foto va sulla pagina di questo albero.</string>
-    <string name="cf_intro">Fotografa un albero davanti a cui ti trovi e aggiungilo alla tua collezione.</string>
+    <string name="cf_intro_photo">Condividi la tua foto sulla pagina di questo albero.</string>
+    <string name="cf_intro">Fotografa un albero per aggiungerlo alla tua collezione e condividerlo sulla mappa.</string>
     <string name="cf_take">Scatta una foto</string>
     <string name="cf_choose">Scegli dalle tue foto</string>
     <string name="cf_discard_title">Scartare questo albero?</string>

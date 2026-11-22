@@ -3,8 +3,8 @@
     <string name="cf_add_photo">Foto toevoegen</string>
     <string name="cf_add_tree">Boom toevoegen</string>
     <string name="cf_add_this_tree">Deze boom toevoegen</string>
-    <string name="cf_intro_photo">Je foto komt op de pagina van deze boom.</string>
-    <string name="cf_intro">Fotografeer een boom waar je voor staat en voeg hem toe aan je collectie.</string>
+    <string name="cf_intro_photo">Deel je foto op de pagina van deze boom.</string>
+    <string name="cf_intro">Fotografeer een boom om hem aan je collectie toe te voegen en op de kaart te delen.</string>
     <string name="cf_take">Maak een foto</string>
     <string name="cf_choose">Kies uit je foto\'s</string>
     <string name="cf_discard_title">Deze boom weggooien?</string>

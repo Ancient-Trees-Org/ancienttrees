@@ -4211,6 +4211,10 @@ What they share: words typed with a photo are never private; they appear as the 
 
 Undecided by Hidde as of this date. The nearest fit for ours (one note per person per tree, the komoot tip shape): the text with a photo of a tree we already map becomes that person's note on it unless they already have one; on a new tree the words stay the quote in the story, so the page does not say them twice; and the field says plainly that what is typed shows on the page.
 
+## Saying a photo will be public before somebody adds it (2026-11-22, from memory, not re-read)
+
+A reader added four holiday photos through "Add a tree", whose line said only "add it to your collection", and asked for all of them to come down. Google Maps says it in one short line where you post ("Posting publicly"), and Instagram's verb is "Share"; neither explains in a footnote. Ours: the + sheet opens before every upload on both phones, so its one sentence carries it with "share" (Hidde chose the words): "Photograph a tree to add it to your collection and share it on the map." and, on a tree's page, "Share your photo on this tree's page." The website's photo field says "They're shared on the tree's page."
+
 ## A mistyped email address (2026-11-16, looked up)
 
 Hidde, after the Guardian weekend's sign-up mails bounced on mistyped addresses: "can we give a warning before sending", then "check conventions how to tackle this more thoroughly".

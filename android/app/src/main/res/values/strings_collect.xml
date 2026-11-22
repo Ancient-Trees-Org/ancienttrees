@@ -5,8 +5,8 @@
     <string name="cf_add_photo">Add a photo</string>
     <string name="cf_add_tree">Add a tree</string>
     <string name="cf_add_this_tree">Add this tree</string>
-    <string name="cf_intro_photo">Your photograph goes on this tree\'s page.</string>
-    <string name="cf_intro">Photograph a tree you are standing in front of and add it to your collection.</string>
+    <string name="cf_intro_photo">Share your photo on this tree\'s page.</string>
+    <string name="cf_intro">Photograph a tree to add it to your collection and share it on the map.</string>
     <string name="cf_take">Take a photograph</string>
     <string name="cf_choose">Choose from your photos</string>
 
