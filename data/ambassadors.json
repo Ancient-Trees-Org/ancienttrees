@@ -1909,6 +1909,56 @@
         "The Kaditzer Linde",
         "The Weeping Beech of Helfenberg Park"
       ]
+    },
+    {
+      "user_id": "p_c9d7d7122bebe14afd5b82d4",
+      "place_slug": "esrum",
+      "place_name": "Esrum",
+      "date": "2026-11-23",
+      "trees": [
+        "The Burred Oak of Esbønderup Kohave"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_5c52d5fff8db339a0c0b880e",
+      "place_slug": "hethersett",
+      "place_name": "Hethersett",
+      "date": "2026-11-23",
+      "trees": [
+        "Kett's Oak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_79e351a3759f50aa124b07d5",
+      "place_slug": "mcminnville",
+      "place_name": "McMinnville",
+      "date": "2026-11-23",
+      "trees": [
+        "The Great Oak of McMinnville"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_08d632aed8d74c97ce2aafdc",
+      "place_slug": "siliqua",
+      "place_name": "Siliqua",
+      "date": "2026-11-23",
+      "trees": [
+        "The Queen Olive of Siliqua"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_2d57f02847d77aa9cc40c5a1",
+      "place_slug": "varese",
+      "place_name": "Varese",
+      "date": "2026-11-23",
+      "trees": [
+        "The Great Cedar of Varese"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
@@ -3169,6 +3219,21 @@
         "dre_030",
         "dre_031",
         "dre_032"
+      ],
+      "since": "2026-11-23",
+      "mailed": []
+    },
+    "bergamo": {
+      "trees": [
+        "bgm_001",
+        "bgm_002",
+        "bgm_003",
+        "bgm_004",
+        "bgm_005",
+        "bgm_006",
+        "bgm_007",
+        "bgm_008",
+        "bgm_009"
       ],
       "since": "2026-11-23",
       "mailed": []

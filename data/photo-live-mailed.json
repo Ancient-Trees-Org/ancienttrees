@@ -3129,58 +3129,42 @@
    "sent": []
   },
   "p_6f0fc411c4867f6898ab03d7": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "24f17594-d71b-47fd-b1c2-30c43609034f",
      "tree_id": "rom_024",
-     "tree_name": "The Hackberry of the Parco degli Scipioni",
-     "city": "Rome",
-     "city_slug": "rome",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "49ad0d36-9014-440e-adc0-64bb5a26d48c",
      "tree_id": "rom_028",
-     "tree_name": "The Hackberry of the Mura Latine",
-     "city": "Rome",
-     "city_slug": "rome",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_c893a1a90f2b6f2c2e29bbd9": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
      "tree_id": "lon_036",
-     "tree_name": "The Chiswick House Cedars",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_dfaba0e9030577eb492dc27d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b0dd25ab-ff82-4ecf-828e-4943fb832358",
      "tree_id": "mel_005",
-     "tree_name": "The Moreton Bay Fig of Curtain Square",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_5c52d5fff8db339a0c0b880e": {
    "last": null,
@@ -3198,61 +3182,41 @@
    "sent": []
   },
   "p_da3da5a4ed100473ae2ad2cf": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "e585bee9-5973-43f0-83aa-027decd6bd22",
      "tree_id": "spl_002",
-     "tree_name": "The Ginkgo of Đardin",
-     "city": "Split",
-     "city_slug": "split",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "7fe3d1d4-b47a-428d-a08b-8fb11b0b67a1",
      "tree_id": "cdl_003",
-     "tree_name": "Mastrinka, the Olive of Kaštel Štafilić",
-     "city": "Kaštela",
-     "city_slug": "kastela",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "1e28fed5-dc3f-43f0-ac7c-db9df877e6e8",
      "tree_id": "cdl_003",
-     "tree_name": "Mastrinka, the Olive of Kaštel Štafilić",
-     "city": "Kaštela",
-     "city_slug": "kastela",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_6e7918e44dda8abbd75d7809": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "7c30394d-7e2f-4183-8196-51175dac5c43",
      "tree_id": "ttw_001",
-     "tree_name": "The Tortworth Chestnut",
-     "city": "Tortworth",
-     "city_slug": "tortworth",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "4c8d121f-3cab-4590-a335-7fda3aa316c1",
      "tree_id": "ttw_001",
-     "tree_name": "The Tortworth Chestnut",
-     "city": "Tortworth",
-     "city_slug": "tortworth",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
