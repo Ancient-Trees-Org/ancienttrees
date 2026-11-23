@@ -11620,6 +11620,41 @@
    "seen": "2026-11-23",
    "judged": "2026-11-23",
    "published_as": "washington-dc/wdc_043"
+  },
+  {
+   "sighting_id": "ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "mine": false,
+   "name": "Northern Pin Oak at Willistown Friends - Quaker Meetinghouse",
+   "unsure_among": null,
+   "species": "Northern Pin Oak",
+   "age": "150+",
+   "girth_cm": 400,
+   "girth_hugs": null,
+   "note": "This stands SW of the 1793 Quaker Meetinghouse — looking for “1793” below the peak of the east gable end of the meetinghouse. The biggest mightiest tree, another oak, was taken down to allow for a building expansion. Go to the open buggy shed west of the meetinghouse and you can see planks stacked for drying.",
+   "latitude": 39.9884529795555,
+   "longitude": -75.481145919452,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3bb2d9b77f839015a3f92de9/CA6BA683-9FF8-4DE1-ADF3-D8F2055E898D.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/ca6ba683-9ff8-4de1-adf3-d8f2055e898d-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-23: the whole tall oak on a lawn deep in fallen leaves, a straight grey trunk, the lower crown still in brown leaves and the top bare, a split-rail fence and small stone pillar to the left, a smaller oak with a bench to the right, November daylight, colour. Live as willistown/wtn_004 under the closed list (Hidde, 2026-11-17). The extra photograph shows stacked planks, not the tree.",
+   "seen": "2026-11-23",
+   "judged": "2026-11-23",
+   "published_as": "willistown/wtn_004"
   }
  ]
 }

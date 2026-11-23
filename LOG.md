@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: Willistown grows to four with the Quaker meetinghouse oak
+
+- **New reader's tree live**: willistown/wtn_004, The Meetinghouse Oak of Willistown, from the same reader as wtn_001 to wtn_003. Their photograph shows a tall, straight oak on the lawn of the Willistown Friends Meetinghouse in November. Its lower crown still holds brown leaves and its top is bare. The reader gives a girth of 400 cm and an age of more than 150 years; both are stated as theirs. The species is left as Quercus sp. The reader calls it a northern pin oak, but that is a Midwestern species, and the habit looks like pin oak, so the page asks readers which it is. Their note supplies the 1793 date on the east gable, the bigger oak felled for a building expansion and the buggy shed. All of it is in the story, partly quoted, with no bridge claim tying the planks to that oak. The pin is approximate because it was placed by hand. The photograph is filed under November, its own month. Their second photograph shows stacked planks, not the tree, so it stays off the page.
+- **Willistown's texts** (intro, meta, question texts, FAQ) now say four trees. The place has no translations.
+- No open reports and no feedback without a verdict. Reader notes are for the night run's rung 1. Amsterdam lead 3c544597 is still our own account with no file on this machine. The old Japan and Baarn leads in `status: lead` are owner-account shots whose files are not on this runner; they are left as they were.
+
 ## 2026-11-23 reader judge: the Laurel Hill Cutleaf Linden gets its first photograph and a better pin
 
 - **Photo on a tree we map**: a reader's three November photographs of the Laurel Hill Cutleaf Linden in Philadelphia (phl_007, which had none). The lead shows the whole broad tree beside a cemetery drive, autumn colour starting. The two others go in the strip: the hollow, buttressed trunk under cut, lobed leaves (the cultivar's mark), and the crown beside the Sheppard obelisk. All three filed under November. The reader is mailed that it is live.

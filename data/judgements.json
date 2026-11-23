@@ -2009,6 +2009,49 @@
    "agreed": null
   },
   {
+   "id": "lead:ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Northern Pin Oak at Willistown Friends - Quaker Meetinghouse",
+   "city": null,
+   "species": "Northern Pin Oak",
+   "photo": "p_3bb2d9b77f839015a3f92de9/CA6BA683-9FF8-4DE1-ADF3-D8F2055E898D.jpg",
+   "reader_note": "This stands SW of the 1793 Quaker Meetinghouse — looking for “1793” below the peak of the east gable end of the meetinghouse. The biggest mightiest tree, another oak, was taken down to allow for a building expansion. Go to the open buggy shed west of the meetinghouse and you can see planks stacked for drying.",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Northern Pin Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall straight oak on the Willistown Friends Meetinghouse lawn, lower crown in brown leaves, daylight, colour; reader's girth 400 cm. Live as willistown/wtn_004, pin approximate (placed by hand). The extra photo shows stacked planks, not the tree, and stays off the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Meetinghouse Oak of Willistown",
+   "city": "Willistown",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/ca6ba683-9ff8-4de1-adf3-d8f2055e898d.jpg",
+   "reader_note": "This stands SW of the 1793 Quaker Meetinghouse — looking for “1793” below the peak of the east gable end of the meetinghouse. The biggest mightiest tree, another oak, was taken down to allow for a building expansion. Go to the open buggy shed west of the meetinghouse and you can see planks stacked for drying.",
+   "reader_girth_cm": 400,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: the whole oak on the meetinghouse lawn, lower crown in brown leaves, top bare, November daylight, colour. Lead photo of willistown/wtn_004, filed in November (the photograph's own month).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",

@@ -2,8 +2,8 @@
   "city": "Willistown",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek, with quiet suburban streets on its edge by Malvern. A reader has sent us three big trees here: an American sycamore about 6.5 metres round by the old stone bridge where White Horse Road crosses the creek, a white oak on Bryan Avenue whose crown fills half a front lawn, and another white oak on a bank beside Grubb Road at the edge of a fenced meadow. All three stand on private ground or beside it, so look from the road.",
-  "meta_description": "Three big trees a reader sent from Willistown, Pennsylvania: a sycamore by the Crum Creek bridge and white oaks on Bryan Avenue and Grubb Road.",
+  "intro": "Willistown Township, in Chester County west of Philadelphia, is rolling farm and woodland cut by Crum Creek, with quiet suburban streets on its edge by Malvern. One reader has sent us four big trees here: an American sycamore about 6.5 metres round by the stone bridge where White Horse Road crosses the creek, white oaks on Bryan Avenue and Grubb Road, and a tall oak beside the 1793 Quaker meetinghouse. Look at the first three from the road; the meetinghouse oak stands on its lawn.",
+  "meta_description": "Four big trees a reader sent from Willistown, Pennsylvania: a sycamore by the Crum Creek bridge, two white oaks and the oak at the Quaker meetinghouse.",
   "hero_tree_id": "wtn_001",
   "oldest_tree_id": "wtn_001",
   "trees": [
@@ -205,23 +205,71 @@
         "sighting_id": "441ff6ca-2691-46b5-95f6-2273991de5b3",
         "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved 2026-11-22: the whole oak from the foot of its roadside bank. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
+    },
+    {
+      "id": "wtn_004",
+      "name": "The Meetinghouse Oak of Willistown",
+      "species": "Oak (Quercus sp.)",
+      "age_estimate": "more than 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Grounds of the Willistown Friends Meetinghouse, Willistown Township, Chester County, PA",
+        "latitude": 39.9884529795555,
+        "longitude": -75.481145919452,
+        "neighbourhood": "Willistown Township"
+      },
+      "story": "\"The biggest mightiest tree, another oak, was taken down to allow for a building expansion,\" wrote the reader who sent us this one from the grounds of the Willistown Friends Meetinghouse in Chester County. What still stands is this oak, south-west of the meetinghouse, which the reader dates to 1793: look for the year below the peak of the east gable.\n\nTheir photograph, taken on a November afternoon, shows how tall it has grown in the open. A single grey trunk rises from a lawn deep in fallen leaves and runs straight for a long way before it branches into a tall, narrow crown. The lower half still holds its leaves, brown and papery, while the top is already bare against the clouds. Keeping dead leaves on the lower branches into winter is a habit of the pin oaks, and the reader knows it as a northern pin oak; tell us if you can confirm which.\n\nThe reader puts its girth at 400 centimetres and its age at more than 150 years. Those figures are theirs; we have found nothing written about this tree.\n\nThey also send visitors on to the open buggy shed west of the meetinghouse, where planks are stacked for drying. Walk round the trunk first, then step back towards the meetinghouse to see the whole crown.",
+      "how_to_recognise": "On the lawn south-west of the meetinghouse: a tall, straight grey oak whose lower branches keep their brown leaves into winter, a split-rail fence and small stone pillar to its left, a smaller oak and bench to its right.",
+      "verified_sources": [
+        "A reader's photograph and note through the app, 2026-11-23, with a pin they placed by hand south-west of the Willistown Friends Meetinghouse, Willistown Township"
+      ],
+      "access": "On the grounds of a Quaker meetinghouse, beside the building. Walk in quietly, and keep clear while a meeting for worship is in session.",
+      "found_by_reader": {
+        "sighting_id": "ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+        "date": "2026-11-23"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. Their note puts the tree south-west of the 1793 meetinghouse."
+      },
+      "verify_notes": "2026-11-23 reader judge: sent by a reader through the app (ca6ba683-9ff8-4de1-adf3-d8f2055e898d). Photograph viewed: the whole tall oak on a lawn deep in fallen leaves, a straight grey trunk, the lower crown still in brown leaves and the top bare, a split-rail fence and small stone pillar to the left, a smaller oak with a bench to the right, November daylight, colour. The reader's own figures: name 'Northern Pin Oak at Willistown Friends - Quaker Meetinghouse', species 'Northern Pin Oak', age '150+', girth 400 cm; their note names the 1793 date on the meetinghouse's east gable, a bigger oak taken down for a building expansion, and planks drying in the buggy shed. A second photograph they sent shows those stacked planks, not the tree, so it is not on the page. Species left as Quercus sp.: the reader says northern pin oak (Q. ellipsoidalis), which is a Midwestern species; the retained lower leaves and the habit look like pin oak (Q. palustris). Published under the closed list for a reader's tree (Hidde, 2026-11-17); approximate because the pin was placed by hand. Same reader as wtn_001 to wtn_003. No register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wtn_004-the-meetinghouse-oak-of-willistown.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "ca6ba683-9ff8-4de1-adf3-d8f2055e898d",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); viewed and approved 2026-11-23: the whole oak on the meetinghouse lawn. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
-  "question_meta": "The biggest trees readers have found in Willistown, PA: a sycamore by the Crum Creek bridge, white oaks on Bryan Avenue and Grubb Road, and where to look.",
-  "question_answer": "Readers have sent us three big trees in Willistown Township, Chester County. An American sycamore stands by the old stone bridge where White Horse Road crosses Crum Creek, about 650 cm round by a reader's measure. A white oak on Bryan Avenue in Duffryn Mawr is about 510 cm round and more than 300 years old by a reader's estimate, and another beside Grubb Road is about 435 cm round and about 225 years old by the same reader's figures. No age has been published for any of them. See all three from the road.",
-  "question_context": "All three trees came to us from one reader through the app in November 2026, with photographs and their own measurements. The sycamore grows near an old stone bridge over Crum Creek, closer to Paoli than to Media, its base on a grassy bank beside a split-rail fence; the species is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. Half a kilometre north-west, a white oak hugs the sloping bank of Grubb Road at the edge of a fenced meadow, one long limb reaching out over the field. The other white oak is about two kilometres further north-west, on a front lawn on Bryan Avenue in the Duffryn Mawr corner of the township near Malvern; its crooked limbs spread over half the lawn, and the reader puts it at more than 300 years old. We have found nothing written about any of them, so the reader's figures are the only ones. Look from the road and leave fences and gardens alone.",
+  "question_meta": "The biggest trees readers found in Willistown, PA: a sycamore by Crum Creek, two white oaks, the Quaker meetinghouse oak, and where to look.",
+  "question_answer": "Readers have sent us four big trees in Willistown Township, Chester County. An American sycamore stands by the old stone bridge where White Horse Road crosses Crum Creek, about 650 cm round by a reader's measure. A white oak on Bryan Avenue in Duffryn Mawr is about 510 cm round and more than 300 years old by a reader's estimate, and another beside Grubb Road is about 435 cm round and about 225 years old by the same reader's figures. A tall oak on the grounds of the Willistown Friends Meetinghouse is about 400 cm round. No age has been published for any of them.",
+  "question_context": "All four trees came to us from one reader through the app in November 2026, with photographs and their own measurements. The sycamore grows near an old stone bridge over Crum Creek, its base on a grassy bank beside a split-rail fence; the species is counted among the largest broadleaf trees of the eastern United States and favours creek banks like this one. Half a kilometre north-west, a white oak hugs the sloping bank of Grubb Road at the edge of a fenced meadow. The other white oak is about two kilometres further north-west, on a front lawn on Bryan Avenue near Malvern, and the reader puts it at more than 300 years old. The fourth stands about three kilometres south of the bridge, on the lawn south-west of the Willistown Friends Meetinghouse, which the reader dates to 1793; a bigger oak beside it was taken down for a building expansion. We have found nothing written about any of them, so the reader's figures are the only ones.",
   "faq": [
     {
       "q": "How big are they?",
-      "a": "The sycamore is about 650 cm round, the Bryan Avenue white oak about 510 cm and the Grubb Road white oak about 435 cm, all by the measure of the reader who sent them. Nobody else has published a figure."
+      "a": "The sycamore is about 650 cm round, the Bryan Avenue white oak about 510 cm, the Grubb Road white oak about 435 cm and the meetinghouse oak about 400 cm, all by the measure of the reader who sent them. Nobody else has published a figure."
     },
     {
       "q": "How old are they?",
-      "a": "The reader puts the Bryan Avenue oak at more than 300 years and the Grubb Road oak at about 225. Nobody has published an age for any of the three. If you know their history, tell us."
+      "a": "The reader puts the Bryan Avenue oak at more than 300 years, the Grubb Road oak at about 225 and the meetinghouse oak at more than 150. Nobody has published an age for any of them. If you know their history, tell us."
     },
     {
       "q": "Where are they?",
-      "a": "The sycamore is beside White Horse Road at its stone bridge over Crum Creek, the Grubb Road oak on the roadside bank half a kilometre north-west of it, and the Bryan Avenue oak on a front lawn in Duffryn Mawr. All three pins are approximate, and all three trees are seen from the road."
+      "a": "The sycamore is beside White Horse Road at its stone bridge over Crum Creek, the Grubb Road oak on the roadside bank half a kilometre north-west of it, the Bryan Avenue oak on a front lawn in Duffryn Mawr, and the meetinghouse oak on the lawn of the Willistown Friends Meetinghouse. All four pins are approximate. See the first three from the road."
     }
   ]
 }
