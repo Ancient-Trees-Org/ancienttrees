@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: East Hampton grows to six (a sourwood and a zelkova), and the site is the Dayton Arboretum
+
+- **Live**: the same reader's last two photographs from East Hampton, which reached the intake after the earlier run: an old sourwood with deep blocky bark (ehp_005, GPS fix) and a Japanese zelkova in full orange autumn colour by the car park (ehp_006, hand pin, approximate), both named by the arboretum's labels in the reader's photos.
+- **Where they stand**: OpenStreetMap puts all six pins on Pleasant Lane, just west of Herrick Park's own outline, on the lots of the Douglas E. Dayton Arboretum (East Hampton Star, 2022-12-15: a former mayor's garden of specimen trees, bought by the town from 2017, still fenced in 2022 while the village worked to open it). All six access lines now say so and ask visitors to check it is open; place intro, question texts and FAQ rewritten for six trees.
+- This run first built all six itself and collided with the earlier run's push; the four already live were kept as they were. Its six duplicate photo files were moved to out/tmp/ on this runner, never committed.
+- The paulownia held 11-21 on a hand pin in Springs (fba415e7) is very likely ehp_002 with the pin dropped 5 km off; noted on the lead, stays held. No reports, feedback or reader notes waiting.
+
 ## 2026-11-23 session: held app trees get the question too
 
 - The Shanghai ginkgos (submission 1506, held `not_public`) now carry the standard "can it be seen from a street or path?" question; it goes at the next knock. The judge had skipped it believing an app tree cannot be mailed; it can, through the row the app writes when a tree is sent.

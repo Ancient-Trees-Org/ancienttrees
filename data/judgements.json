@@ -26548,6 +26548,86 @@
    "reason": "Photograph viewed 2026-11-23: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Live as east-hampton/ehp_004 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:2b13f306-caea-438e-906d-a1ceae4d9891",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Sourwood",
+   "city": null,
+   "species": "Sourwood",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sourwood"
+   },
+   "verdict": "publish",
+   "reason": "An old sourwood (arboretum label) with deep blocky bark and twisting limbs, big for a small species. Live as east-hampton/ehp_005, GPS fix confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2b13f306-caea-438e-906d-a1ceae4d9891",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Old Sourwood of the Dayton Arboretum",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_005 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:05617476-9451-4e3b-964a-30cd0a06e17f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Zelkova",
+   "city": null,
+   "species": "Saw-leaf Zelkova",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
+   "reader_note": "Size",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Saw-leaf Zelkova"
+   },
+   "verdict": "publish",
+   "reason": "A broad Japanese zelkova (arboretum label) in full orange autumn colour beside the car park. Live as east-hampton/ehp_006, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:05617476-9451-4e3b-964a-30cd0a06e17f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Zelkova by the Car Park",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
+   "reader_note": "Size",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_006 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

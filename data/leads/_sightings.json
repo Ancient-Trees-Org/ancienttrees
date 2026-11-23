@@ -9262,7 +9262,7 @@
     "nearest": []
    },
    "status": "held",
-   "why": "Viewed 2026-11-21: a tall Royal Paulownia (Paulownia tomentosa, per a black botanical label screwed to its trunk in the reader's second photo), a broad crown going yellow over a thick grey trunk, standing at the back of a mown lawn with a house close behind it; sunny autumn daylight, the tree fills the frame. Worth a page by its size for the species. The pin is hand-placed on a house lot on Winding Way, a residential street in Springs, East Hampton (NY); no public garden, park or arboretum within reach (the Folly Tree Arboretum is 2.5 km off), and the photo is taken from inside the lawn, so we cannot tell whether it is seen from the street. Held not_public until the reader says it can be seen from a street or path; then it goes live with the pin on that spot. No standard mail: hold_reply.py takes website submissions only.",
+   "why": "Viewed 2026-11-21: a tall Royal Paulownia (Paulownia tomentosa, per a black botanical label screwed to its trunk in the reader's second photo), a broad crown going yellow over a thick grey trunk, standing at the back of a mown lawn with a house close behind it; sunny autumn daylight, the tree fills the frame. Worth a page by its size for the species. The pin is hand-placed on a house lot on Winding Way, a residential street in Springs, East Hampton (NY); no public garden, park or arboretum within reach (the Folly Tree Arboretum is 2.5 km off), and the photo is taken from inside the lawn, so we cannot tell whether it is seen from the street. Held not_public until the reader says it can be seen from a street or path; then it goes live with the pin on that spot. No standard mail: hold_reply.py takes website submissions only. 2026-11-23: the same reader sent a Royal Paulownia with the same arboretum label from the Douglas E. Dayton Arboretum in East Hampton village (sighting f973faab), live as east-hampton/ehp_002; very likely this same tree with the hand-placed pin dropped 5 km off. Its photo was not on disk to compare; stays held, never published twice.",
    "seen": "2026-11-21",
    "hold": "not_public",
    "judged": "2026-11-21"
@@ -11413,6 +11413,78 @@
    "seen": "2026-11-23",
    "judged": "2026-11-23",
    "published_as": "east-hampton/ehp_004"
+  },
+  {
+   "sighting_id": "2b13f306-caea-438e-906d-a1ceae4d9891",
+   "user_id": "p_a94e34ccafeeffaec7bf9e05",
+   "mine": false,
+   "name": "Sourwood",
+   "unsure_among": null,
+   "species": "Sourwood",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 40.9631246808851,
+   "longitude": -72.1913408750653,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/2b13f306-caea-438e-906d-a1ceae4d9891-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-23: looking straight up a thick, deeply furrowed trunk that forks into twisting limbs against a blue sky, dark conifers around; a second photo shows the arboretum label, Sourwood, Oxydendrum arboreum, on the blocky ridged bark; sunny daylight, colour. Live as east-hampton/ehp_005 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-23",
+   "judged": "2026-11-23",
+   "published_as": "east-hampton/ehp_005"
+  },
+  {
+   "sighting_id": "05617476-9451-4e3b-964a-30cd0a06e17f",
+   "user_id": "p_a94e34ccafeeffaec7bf9e05",
+   "mine": false,
+   "name": "Zelkova",
+   "unsure_among": null,
+   "species": "Saw-leaf Zelkova",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Size",
+   "latitude": 40.9631246419021,
+   "longitude": -72.1913408750565,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/05617476-9451-4e3b-964a-30cd0a06e17f-extra-1.jpg",
+    "out/sightings/05617476-9451-4e3b-964a-30cd0a06e17f-extra-2.jpg",
+    "out/sightings/05617476-9451-4e3b-964a-30cd0a06e17f-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-23: the whole broad zelkova in full orange-red autumn colour behind a row of parked cars, its short dark trunk on a carpet of fallen leaves; further photos show the arboretum label, Japanese Zelkova, Zelkova serrata, on the mottled trunk, and the crown from below; sunny daylight, colour. Live as east-hampton/ehp_006 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-23",
+   "judged": "2026-11-23",
+   "published_as": "east-hampton/ehp_006"
   }
  ]
 }
