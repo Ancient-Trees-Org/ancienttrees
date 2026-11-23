@@ -74,8 +74,8 @@
       "age_max": 160,
       "location": {
         "address": "Strossmayerov perivoj (Đardin), north of the Golden Gate, Split",
-        "latitude": 43.5095,
-        "longitude": 16.4404,
+        "latitude": 43.509872,
+        "longitude": 16.441251,
         "neighbourhood": "Grad (Old Town)"
       },
       "story": "Split's own park authority has only ever given one tree its highest rarity grade, and it stands a few steps from the busiest gate of Diocletian's Palace. The ginkgo in Đardin, the compact 19th-century garden wedged between two old Venetian bastions just north of the Golden Gate, was singled out in a municipal botanical survey as a Category I rarity, officially the single most valuable tree in the park and, by the same assessment, in the city. Ginkgo biloba is itself a botanical anomaly wherever it grows, a conifer relative with fan-shaped leaves and no living close cousins, a lineage old enough to have shared the planet with dinosaurs and simply outlasted them. No record gives this particular specimen's planting date, only its rank, so its age here is an estimate rather than a documented figure. What is documented is the garden around it: cleared as parkland in 1808, when the wall between two Venetian bastions came down under French rule, and made the city's main public garden in 1859. The tree has outgrown both the empire that freed its ground and the kingdom that gave the park its purpose, and neither gets a plaque nearly as pointed as the one the city's own botanists gave the tree itself.",
@@ -112,7 +112,7 @@
         "kind": "reader's hand-placed pin",
         "report_id": 1000132,
         "date": "2026-11-23",
-        "note": "Reader report 1000132 moved the pin by hand 80 m inside Strossmayerov perivoj; taken as the better spot (when we cannot tell, the reader wins). The same reader's photograph (sighting e585bee9, 2026-11-23) carries the same spot, with no location kind, so it stays approximate."
+        "note": "Reader report 1000132 moved the pin by hand 80 m inside Strossmayerov perivoj; taken as the better spot (when we cannot tell, the reader wins). Sighting e585bee9 (2026-11-23) carried 43.5095,16.4404, our old pin from before this report echoed back by the app, not a fix; the pin stays at the reader's spot, approximate."
       }
     },
     {

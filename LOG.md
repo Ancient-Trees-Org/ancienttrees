@@ -15,9 +15,9 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-23 reader judge (later): Split ginkgo gets its first photo, 4 gallery photos, a Marjan cypress held
 
 **What changed in the product**
-- **Split spl_002, the Ginkgo of Đardin**: its first photograph, a reader's shot of it in full yellow leaf (November). The pin is now the spot the reader placed by hand in report 1000132. HEAD had recorded that move but never applied the coordinate. It stays approximate.
+- **Split spl_002, the Ginkgo of Đardin**: its first photograph, a reader's shot of it in full yellow leaf (November). Pin: approximate, at the spot the reader placed by hand in report 1000132 (43.509872,16.441251). *Corrected by a parallel run:* this entry first said HEAD had never applied the move and set the pin to 43.5095,16.4404. Git history shows that coordinate is the original pin from d92d6d942, and 4911c5f8b had already moved it to the reader's spot; the sighting carried the old pin echoed back by the app. The reader's spot is restored.
 - **Tortworth ttw_001**: two reader photographs in the gallery behind the lead (the fenced ring in autumn leaf, and the estate's interpretation board).
-- **Kaštela cdl_003, Mastrinka**: two reader photographs in the gallery (the whole olive on its lawn, and two visitors sitting inside the split trunk).
+- **Kaštela cdl_003, Mastrinka**: two reader photographs in the gallery (the whole olive on its lawn, and two visitors sitting inside the split trunk). Neither is filed under a month (corrected after the fact). taken_month 11 came from the day they were sent; the files had no date, and a green lawn with daisies is not November.
 - Varese var_002: the reader sent the same photograph that already leads the page, rejected as a duplicate.
 
 **Held**
