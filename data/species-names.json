@@ -277,6 +277,30 @@
    }
   },
   {
+   "common": "American Hornbeam",
+   "latin": "Carpinus caroliniana",
+   "names": {
+    "en": [
+     "Blue beech",
+     "Hornbeam",
+     "Musclewood",
+     "blue-beech"
+    ],
+    "de": [
+     "Amerikanische Hainbuche"
+    ],
+    "es": [
+     "Alisillo",
+     "Carpe americano",
+     "capillero",
+     "caxin"
+    ],
+    "fr": [
+     "Charme d'Amérique"
+    ]
+   }
+  },
+  {
    "common": "American Lime",
    "latin": "Tilia americana Nova",
    "names": {
@@ -1970,7 +1994,7 @@
      "Roble bur"
     ],
     "fr": [
-     "chêne à gros fruits"
+     "Chêne à gros fruits"
     ],
     "pt": [
      "Carvalho-carrapicho"
@@ -7545,6 +7569,24 @@
    "latin": "Ulmus davidiana var. japonica"
   },
   {
+   "common": "Japanese Evergreen Oak",
+   "latin": "Quercus acuta",
+   "names": {
+    "es": [
+     "Encina japonesa"
+    ],
+    "fr": [
+     "Chêne vert du Japon"
+    ],
+    "ja": [
+     "アカガシ",
+     "オオガシ",
+     "オオバガシ",
+     "赤樫"
+    ]
+   }
+  },
+  {
    "common": "Japanese Fir / Momi",
    "latin": "Abies firma",
    "names": {
@@ -9480,6 +9522,10 @@
      "Moltke-Linde"
     ]
    }
+  },
+  {
+   "common": "Mondell Pine",
+   "latin": "Pinus eldarica"
   },
   {
    "common": "Mongolian Oak",
@@ -12752,6 +12798,37 @@
      "榕",
      "赤榕",
      "赤秀"
+    ]
+   }
+  },
+  {
+   "common": "Sea Grape",
+   "latin": "Coccoloba uvifera",
+   "names": {
+    "en": [
+     "seagrape"
+    ],
+    "nl": [
+     "Stranddruif",
+     "Zusterdruif"
+    ],
+    "de": [
+     "Meertraubenbaum",
+     "Seetraube"
+    ],
+    "es": [
+     "Cocoloba",
+     "Uva caleta",
+     "uva de playa"
+    ],
+    "fr": [
+     "Raisinier bord de mer"
+    ],
+    "pt": [
+     "Uva-da-praia"
+    ],
+    "ja": [
+     "ハマベブドウ"
     ]
    }
   },
@@ -17299,31 +17376,6 @@
    }
   },
   {
-   "common": "Muslewood",
-   "latin": "Carpinus caroliniana",
-   "mapped": false,
-   "names": {
-    "en": [
-     "American Hornbeam",
-     "Blue beech",
-     "Hornbeam",
-     "Musclewood"
-    ],
-    "de": [
-     "Amerikanische Hainbuche"
-    ],
-    "es": [
-     "Alisillo",
-     "Carpe americano",
-     "capillero",
-     "caxin"
-    ],
-    "fr": [
-     "Charme d'Amérique"
-    ]
-   }
-  },
-  {
    "common": "Pignut Hickory",
    "latin": "Carya glabra",
    "mapped": false,
@@ -17597,38 +17649,6 @@
    "names": {
     "en": [
      "Scotch attorney"
-    ]
-   }
-  },
-  {
-   "common": "SEAGRAPE",
-   "latin": "Coccoloba uvifera",
-   "mapped": false,
-   "names": {
-    "en": [
-     "Sea grape"
-    ],
-    "nl": [
-     "Stranddruif",
-     "Zusterdruif"
-    ],
-    "de": [
-     "Meertraubenbaum",
-     "Seetraube"
-    ],
-    "es": [
-     "Cocoloba",
-     "Uva caleta",
-     "uva de playa"
-    ],
-    "fr": [
-     "Raisinier bord de mer"
-    ],
-    "pt": [
-     "Uva-da-praia"
-    ],
-    "ja": [
-     "ハマベブドウ"
     ]
    }
   },
@@ -19519,11 +19539,6 @@
    }
   },
   {
-   "common": "Mondell/Afghan Pine",
-   "latin": "Pinus eldarica",
-   "mapped": false
-  },
-  {
    "common": "Limber Pine",
    "latin": "Pinus flexilis",
    "mapped": false,
@@ -19786,6 +19801,17 @@
      "Indian beech",
      "Pongame oiltree",
      "Pongamia"
+    ]
+   }
+  },
+  {
+   "common": "Fremont Cottonwood",
+   "latin": "Populus fremontii",
+   "mapped": false,
+   "names": {
+    "en": [
+     "Alamo cottonwood",
+     "Fremont's cottonwood"
     ]
    }
   },

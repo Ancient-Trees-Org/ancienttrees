@@ -95,7 +95,7 @@
    "country": "Spain",
    "slug": "girona",
    "status": "published",
-   "trees": 8,
+   "trees": 7,
    "note": "Opened 2026-08-31 from the same Catalan register. None is in Girona itself: the city's own Devesa is a grove of ~2,500 planes and the register declares individuals only. Four of the seven are inside designated natural areas. The register records vitality, so the dead entries near Girona were excluded from the data rather than by guess."
   },
   {
@@ -240,7 +240,7 @@
    "country": "United States",
    "slug": "new-york",
    "status": "published",
-   "trees": 98
+   "trees": 99
   },
   {
    "city": "Bogota",
@@ -249,14 +249,6 @@
    "status": "pending",
    "demand_views_90d": null,
    "trees": 0
-  },
-  {
-   "city": "Shanghai",
-   "country": "China",
-   "slug": "shanghai",
-   "status": "published",
-   "demand_views_90d": null,
-   "trees": 1
   },
   {
    "city": "Funchal",
@@ -482,7 +474,7 @@
    "country": "France",
    "slug": "paris",
    "status": "published",
-   "trees": 58
+   "trees": 59
   },
   {
    "city": "Prague",
@@ -617,14 +609,6 @@
    "trees": 8
   },
   {
-   "city": "Miami",
-   "country": "United States",
-   "slug": "miami",
-   "status": "published",
-   "demand_views_90d": null,
-   "trees": 16
-  },
-  {
    "city": "Santiago",
    "country": "Chile",
    "slug": "santiago",
@@ -646,6 +630,14 @@
    "status": "published",
    "demand_views_90d": 140824,
    "trees": 38
+  },
+  {
+   "city": "Miami",
+   "country": "United States",
+   "slug": "miami",
+   "status": "published",
+   "demand_views_90d": null,
+   "trees": 19
   },
   {
    "city": "Ljubljana",
@@ -830,7 +822,7 @@
    "status": "published",
    "note": "Hidde, 2026-08-02: he is travelling there, so this one is worth doing properly and soon. Search order per Step 1: name the shrine and temple precincts first (Kushida-jinja and its ginkgo, Sumiyoshi-jinja, Shofuku-ji, Tochoji, Ohori Park, Maizuru Park and the castle ruins, Rakusuien, Atago-jinja), then the national Natural Monument register, then the generic sweep. Note the CURATION.md entry closing Fukuoka is about the REGISTER LAYER only (no openly licensed prefectural dataset), which says nothing about whether the city has remarkable trees to curate.",
    "demand_views_90d": 77485,
-   "trees": 18
+   "trees": 19
   },
   {
    "city": "Athens",
@@ -995,6 +987,14 @@
    "status": "published",
    "demand_views_90d": 162269,
    "trees": 21
+  },
+  {
+   "city": "Shanghai",
+   "country": "China",
+   "slug": "shanghai",
+   "status": "published",
+   "demand_views_90d": null,
+   "trees": 1
   },
   {
    "city": "Reykjavik",
@@ -1264,7 +1264,7 @@
    "slug": "verona",
    "status": "published",
    "demand_views_90d": 77646,
-   "trees": 9
+   "trees": 10
   },
   {
    "city": "Bath",
@@ -1496,7 +1496,7 @@
    "country": "Germany",
    "slug": "bad-homburg",
    "status": "published",
-   "trees": 6
+   "trees": 7
   },
   {
    "city": "Bansko",
@@ -1600,9 +1600,9 @@
    "city": "Delhi",
    "country": "India",
    "slug": "delhi",
-   "status": "pending",
+   "status": "published",
    "demand_views_90d": null,
-   "trees": 0
+   "trees": 2
   },
   {
    "city": "Denpasar",
