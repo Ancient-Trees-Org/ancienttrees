@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-23T02:09Z",
+  "synced": "2026-11-23T08:09Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -131,12 +131,12 @@
       "profile_public": true
     },
     {
-      "user_id": "9577aee4-d231-453d-9a5a-944451418721",
-      "place_slug": "adelaide",
-      "place_name": "Adelaide",
+      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
+      "place_slug": "willistown",
+      "place_name": "Willistown",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "Damien C.",
+      "display_name": "JOEY R.",
       "profile_public": true
     },
     {
@@ -176,12 +176,12 @@
       "profile_public": true
     },
     {
-      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
-      "place_slug": "willistown",
-      "place_name": "Willistown",
+      "user_id": "9577aee4-d231-453d-9a5a-944451418721",
+      "place_slug": "adelaide",
+      "place_name": "Adelaide",
       "public": true,
       "since": "2026-11-16",
-      "display_name": "JOEY R.",
+      "display_name": "Damien C.",
       "profile_public": true
     },
     {
@@ -334,6 +334,15 @@
       "place_name": "Dresden",
       "public": false,
       "since": "2026-11-23"
+    },
+    {
+      "user_id": "240eaf08-99c3-4433-a7da-b2744ccd45ac",
+      "place_slug": "bergamo",
+      "place_name": "Bergamo",
+      "public": true,
+      "since": "2026-11-23",
+      "display_name": "Nunzio F.",
+      "profile_public": true
     },
     {
       "user_id": null,
@@ -2262,6 +2271,13 @@
       "place_name": "Chiang Mai",
       "date": "2026-11-22",
       "note": "granted by --grant (yes by mail 2026-11-22)"
+    },
+    {
+      "row": 1518,
+      "user_id": "p_91c472c444982adc61d6b71c",
+      "place_slug": "bergamo",
+      "place_name": "Bergamo",
+      "date": "2026-11-23"
     }
   ],
   "told": {
