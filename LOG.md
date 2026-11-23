@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: Supabase egress, the cause found and the waste stopped
+
+- **Why Supabase's free plan ran out**: 12.5 of 5 GB egress this month. Edge logs, last 24 hours: ~690 MB a day was our own runners downloading readers' photographs from the private `sightings` bucket, 784 downloads of 91 files. Every Reader judge run starts on a clean runner and fetched every waiting photograph again in full size; a burst of submissions starts many runs. Visitors' own photo traffic is ~110 MB a day.
+- **Live (8f4c60a7e)**: reader-judge.yml and nightly.yml keep out/sightings in GitHub's cache (restore before the intake, save only when the file set changed, files untouched 30 days drop out). Each photograph now leaves Supabase once.
+- **Still needs Hidde**: this month's overage cannot be undone, so Pro ($25/month, spend cap on) before the restriction of 25 Nov stands. Without the waste we expect ~3.5 to 4 GB a month, close to the free 5 GB; whether to go back to Free is next month's call on the measured number.
+- Measuring it again: the Management API's logs endpoint changed (`analytics/endpoints/logs`, ClickHouse SQL, `FROM logs WHERE source = 'edge_logs'`, `log_attributes['response.headers.content_length']`); REST rows carry no length, so database egress is not measurable this way.
+
 ## 2026-11-23 session: deploys faster, readers' trees live sooner
 
 **What changed:** a reader's tree took one to two hours from the judge to the site, sometimes longer (Hidde: "ja wel heel traag"). The deploy took about an hour, and 37 minutes of that went to `qa.py` on the built site (28,938 pages). Two changes:
