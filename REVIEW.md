@@ -24,6 +24,22 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23
+
+Web half: last 24 hours were a reader-judge batch (Varese, Esrum, McMinnville, Siliqua, Rungis, new Birkerod and Paris trees). The new city pages hold no em dashes. The four earlier WARNs still stand in site/dist (grep today), not repeated in full; replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html, key-west/strangler-figs-of-the-key-west-cemetery.html (and miami.gpx, key-west.gpx, api/trees.json) still carry "writer must not invent any" (seventh review; public copy never narrates process).
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (seventeenth review).
+- WARN site/dist/contribute.html "verified against independent sources" (twenty-eighth review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html "every coordinate verified" (eighth review; hard rule 2).
+
+App half (iPhone SE, collect flow: away, compare, describe, identify, intro, place): looked at all six.
+
+- WARN APP collect-identify.png / collect-compare.png (Amsterdam): the sheet says "You are standing among trees we map. Pick the one in your photograph." but its only candidate is the Wilhelminalinde, "325 m south". A tree 325 m away is not one you stand among; the copy promises a nearness the list does not show. Say it only when a candidate is within a plausible distance, else go straight to "Add a new tree".
+- NOTE APP collect-describe.png: the new-tree page opens with a large blank white area where the photograph should sit (hero empty above "A tree in Amsterdam"); reads as a failed image load, not a placeholder.
+- NOTE APP collect-place.png: the pin is drawn through the map's "Amsterdam" label, so the label is struck by the pin stem.
+- NOTE APP collect-away.png and collect-intro.png are the same screen; no finding.
+
 ## 2026-11-22
 
 Web half: the last 24 hours were reader-judge work (Delhi peepal live, five Zwolle and Emmen photographs, two face-photos taken down in Bath and Cordoba). The new Delhi and Zwolle pages hold no em dashes. Four earlier WARNs still stand in site/dist (checked by grep today); not repeated in full, replacements as in the 2026-11-21 entry:
