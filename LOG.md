@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: a reader's gold ginkgo in Greenwich is live (lon_055)
+
+Both photographs were viewed. There were no open reports, tips, feedback or readers' words waiting.
+
+- **lon_055 The Golden Ginkgo of Greenwich**, London: a big ginkgo in full autumn gold, behind low railings beside a public path a few streets west of Greenwich Park. The pin is the photograph's own GPS, so it is confirmed. The lead photo is filed in November from its own date. A second shot from the railings went in the strip, also filed in November, by its autumn colour. We have no age, girth or source yet; the story asks readers for them. London's texts carry no tree count, and there is no London overlay, so nothing else changed.
+- The other leads with status `lead` in data/leads/_sightings.json are all our own account's test photos (`mine`), not readers', so they were left as they are.
+- Tree notes (rung 1, the night run's) were read but not marked seen. One on the Thalmassing oak (thm_001) describes "a cedar of Lebanon, in Varese, planted in 1859". It looks like it was meant for var_001, but it is not on the hide list, so it stays.
+
 ## 2026-11-23 reader judge: five readers' trees live (two Châtenay arboretum trees, a Tamarit oak, a bristlecone, the Patagonia mesquite); one held; Varese ginkgo gets its planting year
 
 Every photograph was viewed. No open reports.

@@ -1388,6 +1388,94 @@
    "agreed": null
   },
   {
+   "id": "sight:b19ea802-78de-410b-9b8d-2367eb9b8e59",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon in Chatenay-Malabry",
+   "photo": "p_cdc28055a82c5ea92ef49afc/B19EA802-78DE-410B-9B8D-2367EB9B8E59.jpg",
+   "reader_note": "This tree lost 5 meters of its crown during the storm Lothar in 1999.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: the whole cedar from the lawn, straight grey trunk and layered blue-green shelves of foliage, a flattened top, blue sky, daylight, colour; a second photograph shows the department's label at its foot. Live as chatenay-malabry/cma_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Tulip Tree in Chatenay-Malabry",
+   "photo": "p_cdc28055a82c5ea92ef49afc/A79615A3-47BC-4C00-A0BF-8BAD7B370BFB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking up a lumpy, swollen trunk rising from a broad mossy mound into a crown of turning yellow tulip-tree leaves, railings behind, daylight, colour; a second photograph shows the department's label. Live as chatenay-malabry/cma_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Tarragona",
+   "photo": "p_83881dd161bc1e19d059a7d6/BCEE6D6B-18FF-46D5-AD1D-D93C603A4D75.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking up into a big evergreen oak whose dark limb arches over the path, an old stone and brick wall on the left, low sun, daylight, colour. Live as tarragona/tgn_006 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f7766292-5fa0-4270-967c-f350519f351c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Bristlecone pine near Ancient Bristlecone Pine Forest",
+   "photo": "p_a675b175e9164f884aa9e3c8/F7766292-5FA0-4270-967C-F350519F351C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a bristlecone of twisted orange and cream bare wood with green bottle-brush tops, roots over white rock, the trail beside it, deep blue sky, daylight, colour; two further photographs show the same tree from the trail. Live as ancient-bristlecone-pine-forest/abp_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1487",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ancient mesquite",
+   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
+   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking straight up a big, many-limbed mesquite with dark shaggy bark and old sawn stubs, a fine web of twigs and feathery leaves above, daylight, colour. Live as patagonia-arizona/pag_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo in London",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_8b86d4aa9a803a2e23ac0f7a/C5A932E5-AB17-4E42-AA7B-E9367C26CB4F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a big ginkgo in full golden autumn leaf, whole crown and trunk behind low black railings beside a path, white house and brick walls around, clear blue sky, daylight, colour; a second photograph shows the same tree. Seen from public ground, GPS from the photograph. Live as london/lon_055 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -26242,66 +26330,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:b19ea802-78de-410b-9b8d-2367eb9b8e59",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Cedar of Lebanon in Chatenay-Malabry",
-   "photo": "p_cdc28055a82c5ea92ef49afc/B19EA802-78DE-410B-9B8D-2367EB9B8E59.jpg",
-   "reader_note": "This tree lost 5 meters of its crown during the storm Lothar in 1999.",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: the whole cedar from the lawn, straight grey trunk and layered blue-green shelves of foliage, a flattened top, blue sky, daylight, colour; a second photograph shows the department's label at its foot. Live as chatenay-malabry/cma_002 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Tulip Tree in Chatenay-Malabry",
-   "photo": "p_cdc28055a82c5ea92ef49afc/A79615A3-47BC-4C00-A0BF-8BAD7B370BFB.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: looking up a lumpy, swollen trunk rising from a broad mossy mound into a crown of turning yellow tulip-tree leaves, railings behind, daylight, colour; a second photograph shows the department's label. Live as chatenay-malabry/cma_003 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "A tree in Tarragona",
-   "photo": "p_83881dd161bc1e19d059a7d6/BCEE6D6B-18FF-46D5-AD1D-D93C603A4D75.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: looking up into a big evergreen oak whose dark limb arches over the path, an old stone and brick wall on the left, low sun, daylight, colour. Live as tarragona/tgn_006 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f7766292-5fa0-4270-967c-f350519f351c",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Bristlecone pine near Ancient Bristlecone Pine Forest",
-   "photo": "p_a675b175e9164f884aa9e3c8/F7766292-5FA0-4270-967C-F350519F351C.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a bristlecone of twisted orange and cream bare wood with green bottle-brush tops, roots over white rock, the trail beside it, deep blue sky, daylight, colour; two further photographs show the same tree from the trail. Live as ancient-bristlecone-pine-forest/abp_002 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-1487",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Ancient mesquite",
-   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
-   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: looking straight up a big, many-limbed mesquite with dark shaggy bark and old sawn stubs, a fine web of twigs and feathery leaves above, daylight, colour. Live as patagonia-arizona/pag_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

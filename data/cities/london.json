@@ -2526,6 +2526,65 @@
         "sighting_id": "5e81af24-c36d-4b03-a6ed-92b1030ccca3",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole leaning tree in a fenced garden bed, its trunk swollen with burrs and propped by a wooden post, bare autumn crown, a woven hazel hurdle and chestnut paling behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
+    },
+    {
+      "id": "lon_055",
+      "name": "The Golden Ginkgo of Greenwich",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "location": {
+        "address": "Behind railings beside a path, west of Greenwich Park, Greenwich, London SE10",
+        "latitude": 51.4793166666667,
+        "longitude": -0.00698888333333333,
+        "neighbourhood": "Greenwich"
+      },
+      "how_to_recognise": "Behind low black railings beside a path: a single dark, ridged trunk rising from a small lawn, a white house with an arched door on one side and a high brick wall on the other, and a crown that turns all gold in autumn.",
+      "access": "Seen from the public path and pavement beside its railings; the lawn it stands on is fenced off.",
+      "verified_sources": [],
+      "story": "A reader walking through Greenwich in November sent us this ginkgo, photographed from the path at its railings a few streets west of Greenwich Park, on a day when the whole crown had turned gold.\n\nIt is a big tree for a ginkgo in London. A single stout trunk, dark and ridged, rises from a lawn behind low black railings and divides into a tangle of limbs, and the crown above spreads wider than the white house beside it and climbs well clear of the brick walls around. In autumn every fan-shaped leaf turns the same butter yellow, and in the reader's photograph the grass beneath is already carpeted with them while the tree still holds the rest against a clear blue sky.\n\nGinkgos are known for letting their leaves go in a rush once they have turned, so the gold does not last long. We do not yet know who planted this one, or when, or how thick its trunk is. If you know its story, tell us here and we will add it.\n\nCome in late autumn and stand at the railings on the path side, where the low sun comes through the crown.",
+      "found_by_reader": {
+        "sighting_id": "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (c5a932e5-ab17-4e42-aa7b-e9367c26cb4f, 2026-11-23, through the app). Photograph viewed: the whole ginkgo in full golden autumn leaf from its trunk to the top of the crown, low black railings and a path in front, brick walls and a white house around it, fallen leaves on the lawn, clear blue sky, daylight, colour. A second photograph shows the same tree. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Ginkgo in London', species 'Ginkgo', age 'None', girth None cm. Nearest tree of ours 802 m (Greenwich Park chestnuts), so a new tree. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_055-golden-ginkgo-of-greenwich.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1475,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+        "sighting_id": "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the whole ginkgo in full golden autumn leaf from its trunk to the top of the crown, low black railings and a path in front, brick walls and a white house around it, fallen leaves on the lawn, clear blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_055-golden-ginkgo-of-greenwich-railings.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+          "sighting_id": "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the same ginkgo from the railings, its trunk by a white house with an arched door, crown all gold, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "autumn colour, sent with the lead photograph dated November"
+        }
+      ]
     }
   ]
 }
