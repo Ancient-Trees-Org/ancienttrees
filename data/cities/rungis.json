@@ -66,7 +66,22 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a tall many-stemmed lime standing in a ring of sanded path, a small label on the trunk, its crown turning in autumn, yew beside it, blue sky, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/rng_001-the-large-leaved-lime-of-rungis-7759ac15.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 10,
+          "source": "contributor",
+          "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+          "sighting_id": "7759ac15-4448-4656-8b4d-6a3b0ba89f83",
+          "note": "Photographed by a reader and sent through the app (2026-10-21); a viewing pass approved it on 2026-11-23: The same lime in its oval kerbed bed with the sanded path round it, seen in October, still mostly green, seed bracts hanging, daylight and colour. A good frame of the same view as the lead; it goes in the gallery as the tree's October look and the November lead stays. Species seen: heart-shaped lime leaves with hanging seed bracts, dark finely ridged bark on a trunk splitting low into several stems. Fits the description: trunk splitting low into several stems, oval bed edged with a kerb, sanded path looping round it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

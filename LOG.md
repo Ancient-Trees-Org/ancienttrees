@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge (afternoon): a second Rungis lime photo
+
+**What changed in the product**
+- **Rungis rng_001, The Large-leaved Lime**: an October photograph of the lime in its kerbed bed, from the reader who added it, is now in the gallery (`strip`, filed under October) behind their November lead. Its verdict is recorded.
+
+**Overlap**: this run judged the par_077 plate photo at the same time as the run below and reached the same verdict. The rebase kept that run's version, so only the Rungis photo is new here. The 38 waiting leads in _sightings.json are all our own account's (`mine`) and have no photo on disk, so none was judged.
+
 ## 2026-11-23 reader judge: the Jardin des Plantes plane's own label proves its age
 
 **What changed in the product**

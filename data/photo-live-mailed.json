@@ -38,6 +38,15 @@
      "city_slug": "paris",
      "display_name": null,
      "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "7759ac15-4448-4656-8b4d-6a3b0ba89f83",
+     "tree_id": "rng_001",
+     "tree_name": "The Large-leaved Lime of Rungis",
+     "city": "Rungis",
+     "city_slug": "rungis",
+     "display_name": null,
+     "live": "2026-11-23"
     }
    ],
    "sent": [

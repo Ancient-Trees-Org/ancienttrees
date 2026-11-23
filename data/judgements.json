@@ -26048,6 +26048,28 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:7759ac15-4448-4656-8b4d-6a3b0ba89f83",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Large-leaved Lime of Rungis",
+   "city": "Rungis",
+   "species": "Large-leaved Lime (Tilia platyphyllos)",
+   "photo": "out/sightings/7759ac15-4448-4656-8b4d-6a3b0ba89f83.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Large-leaved Lime (Tilia platyphyllos)"
+   },
+   "verdict": "publish",
+   "reason": "October photograph of the lime in its kerbed bed, same view as the lead; in the gallery of rng_001 behind the November lead",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
