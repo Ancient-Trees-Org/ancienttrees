@@ -373,6 +373,18 @@ jobs:
             git push
           fi
 
+      # Readers' photographs survive between runs, shared with the reader
+      # judge (2026-11-23: every clean runner fetched them all again, 12.5 GB
+      # of Supabase's 5 GB free egress). Saved just before "Run health"
+      # below only when the set of files changed.
+      - name: Restore readers' photographs from the cache
+        id: photocache
+        uses: actions/cache/restore@v4
+        with:
+          path: out/sightings
+          key: sightings-restore-only
+          restore-keys: sightings-
+
       - name: Read the photographs readers sent through the app
         # The middle of the loop, built 2026-09-04. The app has said since
         # 2026-09-03 that a photograph somebody sends can appear on the tree's
@@ -1160,6 +1172,22 @@ jobs:
       # trees that reached data/cities, claims left behind); a LOG.md stub only
       # when the run wrote none of its own. It cannot fail the job: the work is
       # already done and pushed by the time this runs.
+      - name: Name the photograph cache
+        id: photokey
+        if: always()
+        run: |
+          mkdir -p out/sightings
+          find out/sightings -type f -mtime +30 -delete
+          echo "key=sightings-$(ls out/sightings | sort | sha1sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+
+      - name: Save readers' photographs to the cache
+        if: always() && steps.photokey.outputs.key != steps.photocache.outputs.cache-matched-key
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: out/sightings
+          key: ${{ steps.photokey.outputs.key }}
+
       - name: Run health
         # Not for a knock the work gate skipped: no agent ran, and the record
         # would add a "said nothing" stub to LOG.md every two hours.

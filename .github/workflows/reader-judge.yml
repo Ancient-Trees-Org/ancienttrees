@@ -91,6 +91,22 @@ jobs:
             echo "new=no" >> "$GITHUB_OUTPUT"
           fi
 
+      # Readers' photographs survive between runs (2026-11-23). Every run
+      # starts on a clean runner, so the intake below fetched every waiting
+      # photograph again in full size: 784 downloads of 91 files in one day,
+      # 12.5 GB of Supabase's 5 GB free egress in the month. The cache is
+      # GitHub's (free); fetch_photo() skips a file already on disk, so each
+      # photograph leaves Supabase once. Revert: delete this step and the
+      # two at the end of the job.
+      - name: Restore readers' photographs from the cache
+        id: photocache
+        if: steps.poll.outputs.new == 'yes'
+        uses: actions/cache/restore@v4
+        with:
+          path: out/sightings
+          key: sightings-restore-only
+          restore-keys: sightings-
+
       - name: Read what readers sent and fetch every waiting photograph
         if: steps.poll.outputs.new == 'yes'
         env:
@@ -210,6 +226,25 @@ jobs:
             git commit -q -m "reader judge: readers' words written as their notes"
             git push -q || true
           fi
+
+      # Saved only when the set of files changed, so a run that fetched
+      # nothing new uploads nothing. Files untouched for 30 days drop out;
+      # one still needed is fetched once more.
+      - name: Name the photograph cache
+        id: photokey
+        if: always() && steps.poll.outputs.new == 'yes'
+        run: |
+          mkdir -p out/sightings
+          find out/sightings -type f -mtime +30 -delete
+          echo "key=sightings-$(ls out/sightings | sort | sha1sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+
+      - name: Save readers' photographs to the cache
+        if: always() && steps.poll.outputs.new == 'yes' && steps.photokey.outputs.key != steps.photocache.outputs.cache-matched-key
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: out/sightings
+          key: ${{ steps.photokey.outputs.key }}
 
       - name: Deploy what went live
         if: steps.work.outputs.go == 'yes'
