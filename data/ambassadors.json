@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-23T08:09Z",
+  "synced": "2026-11-23T17:46Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -342,6 +342,15 @@
       "public": true,
       "since": "2026-11-23",
       "display_name": "Nunzio F.",
+      "profile_public": true
+    },
+    {
+      "user_id": "3893fe0b-e122-4eda-b8b5-7f58dbfe3075",
+      "place_slug": "mexico-city",
+      "place_name": "Mexico City",
+      "public": true,
+      "since": "2026-11-23",
+      "display_name": "Manuel G.",
       "profile_public": true
     },
     {
@@ -2327,6 +2336,13 @@
       "user_id": "p_91c472c444982adc61d6b71c",
       "place_slug": "bergamo",
       "place_name": "Bergamo",
+      "date": "2026-11-23"
+    },
+    {
+      "row": 1550,
+      "user_id": "p_b21b1a471219a6cf05cfddd3",
+      "place_slug": "mexico-city",
+      "place_name": "Mexico City",
       "date": "2026-11-23"
     }
   ],
