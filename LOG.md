@@ -1,5 +1,15 @@
 # LOG
 
+## 2026-11-23 - Night run 2026-11-23 02:08 UTC ended without saying anything
+
+Written by the workflow's Run health step, not by the run. 0.0 minutes of its 120 minute window, 1 turns, ended clean (success). 3 commit(s), none of them a published tree.
+
+This entry exists because the run wrote none. The prompt asks every run to log even when it ships nothing, and a run that gives up is exactly the one that skips that instruction, so the count above is measured rather than reported.
+
+What each attempt said as it stopped, in its own words (secrets scrubbed):
+
+- Attempt 1: Failed to authenticate: OAuth token revoked. Please log in again or contact your administrator.
+
 ## 2026-11-23 reader judge: a golden ginkgo at Sakurai Shrine, Itoshima
 
 - New tree live: fukuoka/fuk_019, The Ginkgo of Sakurai Shrine in Itoshima. It sits with the other Itoshima day trips on the Fukuoka page. The reader also sent the Kumamoto Castle ginkgo. Their November photograph shows the crown in full gold behind the shrine's old copper-roofed halls. The shrine facts (founded 1632 by Kuroda Tadayuki, three buildings made Important Cultural Properties in 2023) come from ja.wikipedia. No source mentions the tree itself, so the page asks readers for a girth and a name. The pin was placed by hand, so it is approximate. The photo is filed in November, best_time is November gold, and there is a Japanese overlay entry. The Fukuoka counts in question_meta (en) and in the ja title, meta and question_meta now follow the new number.
