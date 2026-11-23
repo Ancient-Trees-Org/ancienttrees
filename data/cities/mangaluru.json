@@ -93,7 +93,23 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: the whole tree from the promenade path, a thick leaning trunk opening into long low limbs under a wide lacy crown, a wooden tree house with stairs built among the limbs, the river and a railway bridge behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mlr_002-the-tree-house-rain-tree-of-the-netravati-promenade-1bd94bb4.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_d08befbb4870fc0971e550d1",
+          "sighting_id": "1bd94bb4-b914-4baf-861c-c17b843afede",
+          "note": "Photographed by a reader and sent through the app (2026-11-22); in the strip since 2026-11-23, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-23"
+        }
+      ]
     }
   ],
   "question_meta": "Two giant rain trees in Bolar, Mangaluru, sent by a reader: one over a lane, one with a tree house on the Netravati promenade, and how to find them.",

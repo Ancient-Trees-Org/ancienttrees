@@ -10393,6 +10393,41 @@
    "seen": "2026-11-23",
    "judged": "2026-11-23",
    "published_as": "fukuoka/fuk_019"
+  },
+  {
+   "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2",
+   "user_id": "p_02edf756ac8c1a596232f1a1",
+   "mine": false,
+   "name": "Palmeira leque near Florianópolis",
+   "unsure_among": null,
+   "species": "Palmeira leque",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Esta palmeira fica em uma pequena trilha calçada que sai ao lado da casinha principal do horto, ao lado do parquinho e vai em direção ao estacionamento superior.",
+   "latitude": -27.5981688764585,
+   "longitude": -48.5104536744825,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_02edf756ac8c1a596232f1a1/81BFA129-EA0E-4F2A-82CD-4625248520D2.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-1.jpg",
+    "out/sightings/81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-2.jpg",
+    "out/sightings/81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-23"
   }
  ]
 }

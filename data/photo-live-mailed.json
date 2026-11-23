@@ -3036,6 +3036,21 @@
      "mailed": "2026-11-23"
     }
    ]
+  },
+  "p_d08befbb4870fc0971e550d1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "1bd94bb4-b914-4baf-861c-c17b843afede",
+     "tree_id": "mlr_002",
+     "tree_name": "The Tree House Rain Tree of the Netravati Promenade",
+     "city": "Mangaluru",
+     "city_slug": "mangaluru",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
