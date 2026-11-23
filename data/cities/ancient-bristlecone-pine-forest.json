@@ -2,17 +2,17 @@
   "city": "Ancient Bristlecone Pine Forest",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "One tree, the largest bristlecone pine ever measured. The Patriarch Tree stands in Patriarch Grove, not the more famous Schulman Grove where Methuselah, at 4,858 years the oldest tree species record-holder, grows unmarked and unnamed to protect it. The Patriarch is a different tree in a different grove, and its fame is bulk rather than age: broader and less twisted than the wind-carved bristlecones around it, on bare rock at nearly 3,440 metres in California's White Mountains. Nobody has published its age, its height or its girth.",
+  "intro": "The largest bristlecone pine ever measured, the Patriarch, stands in Patriarch Grove, not the more famous Schulman Grove where Methuselah, at 4,858 years the oldest tree species record-holder, grows unmarked to protect it. Its fame is bulk rather than age. It is broader and less twisted than the wind-carved bristlecones around it, on bare rock at nearly 3,440 metres in California's White Mountains, and nobody has published its age, height or girth. Near Schulman Grove a reader photographed a second, all ribbons of bare orange wood beside a rocky trail.",
   "meta_description": "The Patriarch Tree is the largest bristlecone pine known, in Patriarch Grove, California's White Mountains. Nobody has published its age.",
-  "question_meta": "The Ancient Bristlecone Pine Forest's mapped tree is the Patriarch, the largest bristlecone pine known, in Patriarch Grove, not Schulman Grove.",
-  "question_answer": "The Patriarch Tree, in Patriarch Grove, about 13 miles north of the more visited Schulman Grove. It is the largest bristlecone pine known by trunk volume, though a broader and comparatively untwisted trunk rather than a taller or older one: Methuselah, the species' age record-holder at 4,858 years, grows in Schulman Grove and is a different tree entirely. Nobody has published the Patriarch's age, height or girth. It is the only tree mapped here, published alone under the single-tree exception because it is the destination, not a list.",
-  "question_context": "The Ancient Bristlecone Pine Forest sits in the White Mountains of eastern California, inside Inyo National Forest, and holds the oldest confirmed trees on Earth, some past 4,800 years. This page maps only one of them. The Patriarch stands in Patriarch Grove, at about 3,440 metres, roughly 13 miles by a rough but maintained dirt road north of the Schulman Grove visitor centre, where the modest entry fee is paid; a spare tyre is recommended for the drive. It is almost the first tree on the Timberline Ancients Trail from the grove's car park.\n\nIts fame is size rather than age. Most bristlecones nearby are twisted into knots and ribbons of bare wood by the wind and cold at this elevation; the Patriarch is broader and comparatively straightforward, the bulkiest bristlecone anywhere by trunk volume. Methuselah, the oldest dated tree of any species at 4,858 years, grows in the Schulman Grove area, a different tree in a different grove, its exact location deliberately withheld to protect it. Nobody has published a height, girth or age for the Patriarch; if you know of a core or a count, tell us. The forest is open mid-May through November.",
+  "question_meta": "The Ancient Bristlecone Pine Forest's best-known mapped tree is the Patriarch, the largest bristlecone pine known, in Patriarch Grove, not Schulman Grove.",
+  "question_answer": "The Patriarch Tree, in Patriarch Grove, about 13 miles north of the more visited Schulman Grove. It is the largest bristlecone pine known by trunk volume, though a broader and comparatively untwisted trunk rather than a taller or older one: Methuselah, the species' age record-holder at 4,858 years, grows in Schulman Grove and is a different tree entirely. Nobody has published the Patriarch's age, height or girth. A second tree on this page, a twisted bristlecone beside a trail near Schulman Grove, came from a reader.",
+  "question_context": "The Ancient Bristlecone Pine Forest sits in the White Mountains of eastern California, inside Inyo National Forest, and holds the oldest confirmed trees on Earth, some past 4,800 years. This page maps two of them. The Patriarch stands in Patriarch Grove, at about 3,440 metres, roughly 13 miles by a rough but maintained dirt road north of the Schulman Grove visitor centre, where the modest entry fee is paid. It is almost the first tree on the Timberline Ancients Trail from the grove's car park.\n\nIts fame is size rather than age. Most bristlecones nearby are twisted into knots and ribbons of bare wood by the wind and cold at this elevation; the Patriarch is broader and comparatively straightforward, the bulkiest bristlecone anywhere by trunk volume. Methuselah, the oldest dated tree of any species at 4,858 years, grows in the Schulman Grove area, a different tree in a different grove, its exact location deliberately withheld to protect it. Nobody has published a height, girth or age for the Patriarch. The second, a twisted bristlecone beside a rocky trail near the Schulman Grove visitor centre, came from a reader; its age is unknown. The forest is open mid-May through November.",
   "hero_tree_id": "abp_001",
   "oldest_tree_id": "abp_001",
   "faq": [
     {
       "q": "What is the oldest tree in the Ancient Bristlecone Pine Forest?",
-      "a": "The mapped tree here, the Patriarch, has no published age. The forest's oldest tree of any kind is Methuselah, dated at 4,858 years, in the nearby but separate Schulman Grove; its exact location is withheld to protect it, so it is not one we can map."
+      "a": "Neither tree mapped here has a published age. The forest's oldest tree of any kind is Methuselah, dated at 4,858 years, in the nearby but separate Schulman Grove; its exact location is withheld to protect it, so it is not one we can map."
     },
     {
       "q": "Why is it called the Patriarch if it isn't the oldest?",
@@ -65,6 +65,79 @@
         "height": 768
       },
       "paid_entry": true
+    },
+    {
+      "id": "abp_002",
+      "name": "The Twisted Bristlecone by the Rocky Trail",
+      "species": "Great Basin Bristlecone Pine (Pinus longaeva)",
+      "location": {
+        "address": "Trail below Schulman Grove, Ancient Bristlecone Pine Forest, Inyo National Forest, White Mountains, California",
+        "latitude": 37.381175,
+        "longitude": -118.172128333333,
+        "neighbourhood": "Schulman Grove"
+      },
+      "how_to_recognise": "Right beside a rocky trail: two stems of bare, twisted wood in ribbons of orange and cream, with green bottle-brush branches only at the top, and roots snaking over broken white rock.",
+      "access": "On a public trail in the Ancient Bristlecone Pine Forest; there is an entry fee at the Schulman Grove visitor centre, and the forest is generally open mid-May through November.",
+      "verified_sources": [],
+      "story": "A reader walking the trails of the Ancient Bristlecone Pine Forest in August sent us this pine, photographed from the rocky path at its foot, less than a kilometre from the Schulman Grove visitor centre in California's White Mountains.\n\nIt looks the way people picture the oldest trees on Earth. Most of what you see is bare wood, stripped of bark and polished by wind, ice and blown grit into twisting ribbons of orange, cream and brown. Only a few strips of living bark still climb the stems to feed the green bottle-brush branches at the top. That is how bristlecones last so long: as the years go on they let most of themselves die back and keep a narrow lifeline alive. Below, the roots grip the broken white rock as if they had poured over it.\n\nWe do not know its age. Bristlecones in this forest run to thousands of years, and the oldest are deliberately left unmarked to protect them, so this page claims no record for this one and does not try to rank it. If you know more about it, tell us here.\n\nWalk slowly along the path and look up at it against the deep blue of the mountain sky.",
+      "found_by_reader": {
+        "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (f7766292-5fa0-4270-967c-f350519f351c, 2026-11-23, through the app). Photograph viewed: a bristlecone of twisted orange and cream bare wood with green bottle-brush tops, roots over white rock, the trail beside it, deep blue sky, daylight, colour; two further photographs show the same tree from the trail. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Bristlecone pine near Ancient Bristlecone Pine Forest', species 'Bristlecone pine', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a675b175e9164f884aa9e3c8",
+        "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a bristlecone of twisted orange and cream bare wood with green bottle-brush tops, roots over white rock, the trail beside it, deep blue sky, daylight, colour; two further photographs show the same tree from the trail. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail-trail.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a675b175e9164f884aa9e3c8",
+          "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the same bristlecone from lower on the trail, its two twisted stems on a rocky bank. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 8,
+          "taken_month_basis": "the photograph's own date"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail-bank.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a675b175e9164f884aa9e3c8",
+          "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the same bristlecone closer, bare orange wood and green tops against the sky. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 8,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
     }
   ]
 }

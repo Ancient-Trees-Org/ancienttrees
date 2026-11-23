@@ -2,10 +2,10 @@
   "city": "Tarragona",
   "country": "Spain",
   "status": "needs_curation",
-  "intro": "Catalonia has protected individual trees by law since 1987, and cutting one is simply forbidden. There are 299 declared monumental trees in the region and three of them stand within reach of Tarragona on ground anybody can walk onto: a plane filling a village square, a pair of cypresses in a town hall courtyard beside a Cistercian monastery, and a wild pear on a track in the Prades mountains. The register's other trees near here stand on private farms. A fourth came from a reader: a big holm oak rising out of the scrub above Altafulla.",
-  "meta_description": "Tarragona's remarkable trees: a plane that fills a village square, cypresses in a monastery courtyard, a wild pear in the hills and a reader's holm oak.",
+  "intro": "Catalonia has protected individual trees by law since 1987, and cutting one is simply forbidden. There are 299 declared monumental trees in the region and three of them stand within reach of Tarragona on ground anybody can walk onto: a plane filling a village square, a pair of cypresses in a town hall courtyard beside a Cistercian monastery, and a wild pear on a track in the Prades mountains. Readers sent two more holm oaks: one rising out of the scrub above Altafulla, and one arching over an old wall near Tamarit.",
+  "meta_description": "Tarragona's remarkable trees: a plane that fills a village square, cypresses in a monastery courtyard, a wild pear in the hills and two readers' holm oaks.",
   "question_answer": "Nobody publishes ages for Catalonia's monumental trees, so Tarragona's oldest cannot be named. The register records species, condition, height, trunk girth and crown width, and the tallest of the register's three here is the plane of the Riera de Gaià square, 23 metres high.",
-  "question_meta": "Catalonia's register does not record tree ages, so Tarragona's oldest is unknown. What the register does measure, and 4 trees worth the trip.",
+  "question_meta": "Catalonia's register does not record tree ages, so Tarragona's oldest is unknown. What the register does measure, and 5 trees worth the trip.",
   "question_context": "The Catalan register is precise about everything except age. For each declared tree it publishes the species, the condition, the total height, the trunk perimeter at 1.3 metres and the average crown diameter, along with a location to five decimal places and an official record page, and it carries no age column at all. That is a deliberate choice rather than an oversight: dating a living tree without coring it is guesswork, and the register was built to protect trees rather than to date them. What it does record is that these three are alive and in normal condition, which matters more than it sounds, because the same register marks a good number of trees in this province as dead while keeping them listed. So the honest answer for Tarragona is a size rather than an age: the plane of the Riera de Gaià square is 23 metres tall, the register's own figure. Getting there: each stop is a short drive from Tarragona.",
   "oldest_tree_id": "tgn_001",
   "faq": [
@@ -19,7 +19,7 @@
     },
     {
       "q": "Are these trees free to visit?",
-      "a": "Yes, all four can be seen for free. One stands in a village square, two cypresses in the courtyard of a town hall beside the Santes Creus monastery, one on a track in the Prades mountains, and a reader's holm oak above Altafulla is seen from the edge of the scrub."
+      "a": "Yes, all five can be seen for free. One stands in a village square, two cypresses in the courtyard of a town hall beside the Santes Creus monastery, one on a track in the Prades mountains, a reader's holm oak above Altafulla is seen from the edge of the scrub, and another reader's oak near Tamarit from the path beside its wall."
     },
     {
       "q": "Why are there so few?",
@@ -27,7 +27,7 @@
     },
     {
       "q": "Can you walk between them?",
-      "a": "No. They are four separate stops spread over 30 kilometres, between 9 and 29 kilometres from Tarragona; Altafulla is a short train ride up the coast, the others a short drive."
+      "a": "No. They are five separate stops spread over 30 kilometres, between 9 and 29 kilometres from Tarragona; the two oaks near Altafulla and Tamarit are a short train ride up the coast, the others a short drive."
     }
   ],
   "trees": [
@@ -180,6 +180,48 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: a big evergreen oak with a broad dark dome of a crown standing well above young pines, broom and scrub, its grey forked trunk visible low down, overcast evening daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "tgn_006",
+      "name": "The Oak over the Wall at Tamarit",
+      "species": "Holm Oak (Quercus ilex)",
+      "location": {
+        "address": "Beside Carrer del Marqués de Tamarit, near the Mineta del Sifó spring, Tamarit, Tarragona 43893",
+        "latitude": 41.1369627788423,
+        "longitude": 1.36275819147989,
+        "neighbourhood": "Tamarit (on the coast between Tarragona and Altafulla)"
+      },
+      "how_to_recognise": "Above an old wall of stone and brick with a brick pillar in it: a big evergreen oak whose one great dark limb arches out over the path like a doorway, the crown of small dull leaves above.",
+      "access": "The reader photographed it from the path beside the wall. We have not confirmed who owns the ground behind the wall, so look from the path.",
+      "story": "A reader on the coast between Tarragona and Altafulla, near Tamarit, stopped under this oak and sent us the photograph they took looking straight up into it.\n\nThe tree grows above an old wall. The wall runs down the left of the picture, rough stone at the foot and brick higher up, with a brick pillar rising out of the greenery, and the oak stands on the ground behind and above it. One great dark limb leaves the trunk and arcs right out over the path, low enough to frame a window of blue sky, before it turns back up into the crown. Above that the tree divides again and again into grey, twisting branches under a canopy of small, dull leaves lit gold by a low sun.\n\nTo our eyes it is a holm oak, the alzina that grows wild along this coast and can live for centuries when it is left alone; tell us if you know it better. We do not know its age or girth, who built the wall, or whose ground it stands on. If you do, tell us here and we will add it as yours.\n\nCome late in the afternoon, as the reader did, and walk under the arching limb.",
+      "found_by_reader": {
+        "sighting_id": "bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (bcee6d6b-18ff-46d5-ad1d-d93c603a4d75, 2026-11-23, through the app). Photograph viewed: looking up into a big evergreen oak whose dark limb arches over the path, an old stone and brick wall on the left, low sun, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree in Tarragona', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tgn_006-oak-over-the-wall-at-tamarit.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_83881dd161bc1e19d059a7d6",
+        "sighting_id": "bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: looking up into a big evergreen oak whose dark limb arches over the path, an old stone and brick wall on the left, low sun, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
       }
     }
   ]

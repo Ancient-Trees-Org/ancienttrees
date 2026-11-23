@@ -12,6 +12,20 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: five readers' trees live (two Châtenay arboretum trees, a Tamarit oak, a bristlecone, the Patagonia mesquite); one held; Varese ginkgo gets its planting year
+
+Every photograph was viewed. No open reports.
+
+- **cma_002 The Cedar of Lebanon of the Vallée-aux-Loups** and **cma_003 The Elephant-Foot Tulip Tree**, Châtenay-Malabry, both sent by the reader who sent the weeping cedar. Each came with a photo of the Hauts-de-Seine label, which is now the source: the cedar was planted around 1750, is 24 m tall and lost 5 m of crown to Lothar in 1999; the tulip tree was probably planted in 1890 and is 21 m. Both labels went in the strip. The pins were placed by hand, so they are approximate. The place now has 3 trees, so the intro grew, and `oldest_tree_id` is now the cedar.
+- **tgn_006 The Oak over the Wall at Tamarit**: a big holm oak arching over a path above an old wall near Tamarit. The reader's phone fixed its position. Tarragona's texts and the es overlay now say five.
+- **abp_002 The Twisted Bristlecone by the Rocky Trail**, near Schulman Grove, pinned from the photo's GPS, with two more views in the strip. The forest's texts no longer say it maps one tree. The story names no tree and claims no record. Methuselah stays unmapped.
+- **pag_001 The Old Mesquite of North 4th Street**, Patagonia, Arizona (a new one-tree place, in us-states). The reader's mail reply (feedback 1547) answered our "where is it" mail with the address and a map pin. The pin was dropped by hand, so it is approximate; the tree is seen from the street because the lot is private.
+- **Held**: the "Hophornbeam" near Shelby NC (2505d7d8), as `not_special`. It is a medium tree in a planting bed by a loading dock. No mail goes.
+- **Rejected**: 2414d848 for wtn_003 Willistown. It duplicates the photo already leading that page, from the same reader.
+- **Mail replies 1542 and 1543** (the same mail twice, about the Paris plane's eroded roots) were closed as handled; the fact was already on par_077. tip:1530 is the submission row of the already-live rng_001.
+- **Readers' words**: var_002 Ginkgo of Varese now carries the reader's note that it was planted in 1865 in Villa Mirabello's garden, as theirs, and that is its age.
+- Not touched: the 38 waiting leads marked `mine` (our own photos, never auto-published).
+
 ## 2026-11-23 - Night run 2026-11-23 13:57 UTC ended without saying anything
 
 Written by the workflow's Run health step, not by the run. 0.0 minutes of its 120 minute window, 1 turns, ended clean (success). 3 commit(s), none of them a published tree.

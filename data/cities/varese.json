@@ -95,7 +95,7 @@
       "verified_sources": [
         "Italy's register of monumental trees (Alberi monumentali d'Italia, MASAF), entry 'Ginco', Ginkgo biloba, girth 365 cm, height 28 m, 15 m from the reader's photograph"
       ],
-      "story": "A few dozen metres from the great cedar of the same garden in Varese stands a ginkgo that Italy's national register of monumental trees also lists: 365 centimetres round and 28 metres tall. The same reader sent us both, in November, when this one was at its best.\n\nIn one sense ginkgo is the oldest tree on the planet, since the species has barely changed in some two hundred million years and was found by Europeans only in the temple gardens of China and Japan, from where it reached Europe in the eighteenth century. Planted in Italian parks, it became a favourite for exactly what the reader photographed, a few weeks each autumn when every fan-shaped leaf turns butter yellow at once.\n\nThe photograph looks straight up the trunk. It is thick, dark and ridged, and it opens into long limbs that reach out level in every direction, each one hung with gold against a hard blue sky. Soon after, a ginkgo drops nearly all its leaves within a few days, carpeting the ground.\n\nWe do not know when it was planted. If the garden's board or the register's file tells you, let us know here.\n\nCome in mid-November and stand right under it.",
+      "story": "A few dozen metres from the great cedar of the same garden in Varese stands a ginkgo that Italy's national register of monumental trees also lists: 365 centimetres round and 28 metres tall. The same reader sent us both, in November, when this one was at its best.\n\nIn one sense ginkgo is the oldest tree on the planet, since the species has barely changed in some two hundred million years and was found by Europeans only in the temple gardens of China and Japan, from where it reached Europe in the eighteenth century. Planted in Italian parks, it became a favourite for exactly what the reader photographed, a few weeks each autumn when every fan-shaped leaf turns butter yellow at once.\n\nThe photograph looks straight up the trunk. It is thick, dark and ridged, and it opens into long limbs that reach out level in every direction, each one hung with gold against a hard blue sky. Soon after, a ginkgo drops nearly all its leaves within a few days, carpeting the ground.\n\n\"It was planted in 1865, in Mirabello villa's garden,\" the reader who sent it tells us, \"near to the cedar of Lebanon.\" That date is theirs; the register does not give one.\n\nCome in mid-November and stand right under it.",
       "found_by_reader": {
         "sighting_id": "72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
         "date": "2026-11-23"
@@ -123,7 +123,11 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: looking straight up a thick ginkgo trunk into wide-spreading limbs, its leaves turned butter yellow against a blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "age_estimate": "about 161 years (planted in 1865, by a reader's account)",
+      "age_min": 161,
+      "age_max": 161,
+      "age_basis": "source"
     }
   ]
 }

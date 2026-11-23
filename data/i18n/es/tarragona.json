@@ -1,11 +1,11 @@
 {
  "_note": "es overlay for tarragona, written 2026-10-06 from data/cities/tarragona.json via scripts/transbrief.py. Text only: coordinates, photos, licences, age ranges, best_time and walks stay in the English file.",
  "city": "Tarragona",
- "title": "Árboles monumentales de Tarragona: 4 de libre acceso",
- "meta_description": "Árboles notables de Tarragona: un plátano que llena la plaza de un pueblo, cipreses junto a un monasterio, un peral silvestre y la encina de un lector.",
- "intro": "Cataluña protege por ley árboles concretos desde 1987, y talar uno está prohibido. En la región hay 299 árboles monumentales declarados, y tres de ellos están al alcance de Tarragona en terrenos de libre acceso: un plátano que llena la plaza de un pueblo, una pareja de cipreses en el patio de un ayuntamiento junto a un monasterio cisterciense y un peral silvestre en una pista de las montañas de Prades. Los demás árboles del registro cercanos están en fincas privadas. El cuarto llegó de un lector: una gran encina sobre el matorral de Altafulla.",
+ "title": "Árboles monumentales de Tarragona: 5 de libre acceso",
+ "meta_description": "Árboles notables de Tarragona: un plátano que llena la plaza de un pueblo, cipreses junto a un monasterio, un peral silvestre y dos encinas de lectores.",
+ "intro": "Cataluña protege por ley árboles concretos desde 1987, y talar uno está prohibido. En la región hay 299 árboles monumentales declarados, y tres de ellos están al alcance de Tarragona en terrenos de libre acceso: un plátano que llena la plaza de un pueblo, una pareja de cipreses en el patio de un ayuntamiento junto a un monasterio cisterciense y un peral silvestre en una pista de las montañas de Prades. Los lectores enviaron dos encinas más: una que se alza sobre el matorral de Altafulla y otra que se arquea sobre un viejo muro cerca de Tamarit.",
  "question_title": "¿Cuál es el árbol más antiguo de Tarragona? (sin datar)",
- "question_meta": "El registro catalán no recoge edades, así que el árbol más antiguo de Tarragona se desconoce. Lo que sí mide, y 4 árboles que merecen el viaje.",
+ "question_meta": "El registro catalán no recoge edades, así que el árbol más antiguo de Tarragona se desconoce. Lo que sí mide, y 5 árboles que merecen el viaje.",
  "question_answer": "Nadie publica la edad de los árboles monumentales de Cataluña, así que no se puede nombrar el más antiguo de Tarragona. El registro recoge especie, estado, altura, perímetro del tronco y anchura de copa, y el más alto de los tres del registro en esta página es el plátano de la plaza de la Riera de Gaià, con 23 metros de alto.",
  "question_context": "El registro catalán es preciso en todo menos en la edad. Para cada árbol declarado publica la especie, el estado, la altura total, el perímetro del tronco a 1,3 metros y el diámetro medio de copa, junto con una ubicación con cinco decimales y una página oficial de ficha, y no tiene ninguna columna de edad. Es una decisión deliberada y no un descuido: datar un árbol vivo sin extraer un testigo de madera es adivinar, y el registro se hizo para proteger árboles, no para datarlos. Lo que sí recoge es que estos tres están vivos y en estado normal, lo que importa más de lo que parece, porque el mismo registro marca como muertos a bastantes árboles de esta provincia sin dejar de listarlos. Así que la respuesta honesta para Tarragona es un tamaño y no una edad: el plátano de la plaza de la Riera de Gaià mide 23 metros de alto, la cifra del propio registro. Cómo llegar: a cada parada se llega con un trayecto corto en coche desde Tarragona.",
  "faq": [
@@ -19,7 +19,7 @@
   },
   {
    "q": "¿Se pueden visitar gratis?",
-   "a": "Sí, los cuatro se pueden ver gratis. Uno está en la plaza de un pueblo, dos cipreses en el patio de un ayuntamiento junto al monasterio de Santes Creus, uno en una pista de las montañas de Prades, y la encina de un lector sobre Altafulla se ve desde el borde del matorral."
+   "a": "Sí, los cinco se pueden ver gratis. Uno está en la plaza de un pueblo, dos cipreses en el patio de un ayuntamiento junto al monasterio de Santes Creus, uno en una pista de las montañas de Prades, la encina de un lector sobre Altafulla se ve desde el borde del matorral, y la de otro lector cerca de Tamarit desde el camino junto a su muro."
   },
   {
    "q": "¿Por qué hay tan pocos?",
@@ -27,7 +27,7 @@
   },
   {
    "q": "¿Se puede ir andando de uno a otro?",
-   "a": "No. Son cuatro paradas separadas, repartidas en 30 kilómetros, a entre 9 y 29 kilómetros de Tarragona; a Altafulla se llega con un trayecto corto en tren por la costa, y a las demás con un trayecto corto en coche."
+   "a": "No. Son cinco paradas separadas, repartidas en 30 kilómetros, a entre 9 y 29 kilómetros de Tarragona; a las dos encinas de Altafulla y Tamarit se llega con un trayecto corto en tren por la costa, y a las demás con un trayecto corto en coche."
   }
  ],
  "strings_note": "Per-tree fields: name, species (Spanish common name, same Latin), age_estimate, access, transport, story. Stories 150-250 words, same bar as the English, no em dashes. Catalan place names are kept as written on the sign.",
@@ -60,6 +60,13 @@
    "access": "El lector la fotografió desde el borde del matorral junto al Carrer dels Avellaners, en la parte alta de Altafulla. No hemos confirmado de quién es el terreno donde está, así que mírela desde donde se hizo la foto.",
    "how_to_recognise": "El único árbol grande que se alza sobre el matorral: una cúpula ancha y oscura de encina, mucho más alta y ancha que los pinos jóvenes y la retama de delante, con el tronco gris que se bifurca muy abajo.",
    "story": "Un lector que paseaba por la ladera sobre Altafulla, a pocos kilómetros costa arriba de Tarragona, nos envió esta encina, fotografiada desde donde la miraba.\n\nSe entiende por qué se detuvo. Todo lo que la rodea es joven: pinos que no pasan de la altura de una persona, retama amarilla, el verde denso y bajo del matorral mediterráneo. En medio se levanta una gran encina de hoja perenne, con la copa convertida en una cúpula oscura y ancha muchas veces mayor que cualquier cosa cercana y el tronco gris que se abre muy abajo en ramas gruesas. A nuestro juicio es una encina, la alzina de Cataluña, cuyas hojas pequeñas, duras y oscuras dan a la copa ese aspecto cerrado, casi lanoso; si la conoce mejor, díganoslo.\n\nNo sabemos su edad ni su perímetro, cuánto tiempo lleva el terreno de alrededor convertido en matorral ni quién la ha cuidado. Si usted lo sabe, cuéntenoslo aquí y lo añadiremos como dato suyo, y si puede acercarse, una foto del tronco ayudaría a la próxima persona a encontrarla.\n\nVenga al atardecer, cuando la copa se recorta oscura contra un cielo pálido y el matorral de abajo se vuelve dorado."
+  },
+  "tgn_006": {
+   "name": "La encina sobre el muro de Tamarit",
+   "species": "Encina (Quercus ilex)",
+   "access": "El lector la fotografió desde el camino junto al muro. No hemos confirmado de quién es el terreno detrás del muro, así que mírela desde el camino.",
+   "how_to_recognise": "Sobre un viejo muro de piedra y ladrillo con un pilar de ladrillo: una gran encina cuya enorme rama oscura se arquea sobre el camino como una puerta, con la copa de hojas pequeñas y mates encima.",
+   "story": "Un lector que paseaba por la costa entre Tarragona y Altafulla, cerca de Tamarit, se detuvo bajo esta encina y nos envió la foto que hizo mirando directamente hacia arriba.\n\nEl árbol crece por encima de un viejo muro. El muro baja por la izquierda de la imagen, de piedra tosca abajo y de ladrillo más arriba, con un pilar de ladrillo que asoma entre la vegetación, y la encina está en el terreno de detrás, más alto. Una gran rama oscura sale del tronco y se arquea sobre el camino, lo bastante baja como para enmarcar una ventana de cielo azul, antes de volver a subir hacia la copa. Por encima, el árbol se divide una y otra vez en ramas grises y retorcidas bajo un dosel de hojas pequeñas y mates, doradas por un sol bajo.\n\nA nuestro juicio es una encina, la alzina que crece silvestre en esta costa y puede vivir siglos si se la deja tranquila; si la conoce mejor, díganoslo. No sabemos su edad ni su perímetro, quién levantó el muro ni de quién es el terreno. Si usted lo sabe, cuéntenoslo aquí y lo añadiremos como dato suyo.\n\nVenga a última hora de la tarde, como hizo el lector, y pase bajo la rama en arco."
   }
  }
 }

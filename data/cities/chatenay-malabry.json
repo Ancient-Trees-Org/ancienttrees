@@ -2,13 +2,13 @@
   "city": "Chatenay-Malabry",
   "country": "France",
   "status": "needs_curation",
-  "intro": "Every blue weeping Atlas cedar in the world descends from this one tree, a mutation that appeared here around 1873. Roughly five metres round and only 14 metres tall, it spreads its drooping branches across an area the size of a tennis court, held up since 2011 by about thirty resin supports shaped like stalagmites, so visitors can still walk in underneath the canopy. It stands free in a public arboretum, a tram ride from Paris, and won France's national tree prize in 2015.",
+  "intro": "Every blue weeping Atlas cedar in the world descends from one tree here, a mutation that appeared around 1873. It spreads its drooping branches across an area the size of a tennis court, held up since 2011 by about thirty resin supports shaped like stalagmites, and won France's national tree prize in 2015. The same free arboretum, a tram ride from Paris, also holds a cedar of Lebanon planted around 1750, the park's oldest tree, and a tulip tree whose trunk spreads at the foot like an elephant's.",
   "meta_description": "The Cedre pleureur at Chatenay-Malabry is the origin of every blue weeping Atlas cedar. Free arboretum, tram from Paris.",
   "question_meta": "Chatenay-Malabry's remarkable tree is the original blue weeping Atlas cedar, ancestor of every specimen grown worldwide.",
   "question_answer": "Chatenay-Malabry's notable tree is the Cedre pleureur de la Vallee-aux-Loups, a Blue Weeping Atlas Cedar in the free public arboretum, about 150 years old and the original mutation from which every blue weeping Atlas cedar grown anywhere descends.",
   "question_context": "The cultivar Cedrus atlantica 'Glauca Pendula' appeared here as a mutation around 1873, and every specimen since has been a cutting or a graft descended from it, so any blue weeping Atlas cedar draped over a lawn elsewhere is a copy of this one. It is about 150 years old, roughly five metres round and only 14 metres tall, and it spreads its branches across roughly 700 square metres, near enough a tennis court; the department calls it the largest of its kind anywhere, which more or less follows from being the first. Weeping branches that long cannot hold themselves up, so in 2011 the artist Francis Ballu set around thirty resin supports shaped like stalagmites under the limbs, turning the ground beneath the canopy into something like a cave floor visitors can still walk through. Who raised the original mutation is not quite settled: the department and Wikipedia credit the nurseryman Gustave Croux, while some garden histories point instead to the Paillet nurseries in the same corner of Chatenay-Malabry, and nobody has untangled the two claims. It won France's national tree prize in 2015. The arboretum is free, and the T10 tram stops directly at Vallee aux Loups.",
   "hero_tree_id": "cma_001",
-  "oldest_tree_id": "cma_001",
+  "oldest_tree_id": "cma_002",
   "faq": [
     {
       "q": "What is the remarkable tree in Chatenay-Malabry?",
@@ -85,6 +85,136 @@
           "width": 2724,
           "height": 1269,
           "taken_month": 4
+        }
+      ]
+    },
+    {
+      "id": "cma_002",
+      "name": "The Cedar of Lebanon of the Vallée-aux-Loups",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "age_estimate": "about 270 years (planted probably around 1750, by the park's label)",
+      "age_min": 270,
+      "age_max": 276,
+      "height_m": 24,
+      "location": {
+        "address": "Arboretum, Domaine départemental de la Vallée-aux-Loups, 102 Rue de Chateaubriand, 92290 Châtenay-Malabry",
+        "latitude": 48.771032013975,
+        "longitude": 2.26959522415973,
+        "neighbourhood": "Arboretum de la Vallée-aux-Loups"
+      },
+      "how_to_recognise": "A single straight grey trunk on the open lawn carrying wide flat shelves of blue-green needles, the top of the crown cut off flat, with the department's dark label set on a cut log near its foot.",
+      "access": "Free, in the public arboretum of the Domaine départemental de la Vallée-aux-Loups; open in daytime.",
+      "verified_sources": [
+        "Hauts-de-Seine department, label at the foot of the tree in the Domaine départemental de la Vallée-aux-Loups: 'Cèdre du Liban, Cedrus libani', 24 m in 2026, planted probably around 1750, the oldest tree of the park, about 270 years, lost 5 m of its crown in the storm Lothar in 1999, label Arbre remarquable de France in 2026; photographed by a reader 2026-11-23 (sighting b19ea802)"
+      ],
+      "story": "This cedar of Lebanon is the oldest tree in the arboretum of the Vallée-aux-Loups, planted probably around 1750. The department's label at its foot counts it among the first cedars of Lebanon planted in France on record, and a reader photographed both the tree and the label and sent them to us.\n\nWhen it went into the ground the species was new to French gardens, brought from the mountains of Lebanon, Turkey and Syria. The label gives it about 270 years and 24 metres of height.\n\nIt has not come through untouched. \"This tree lost 5 meters of its crown during the storm Lothar in 1999,\" the reader wrote, and the label says the same. The great gale of December 1999 took the top five metres. Look at the photograph and you would hardly know. The cedar has kept the flat, tiered shape of its kind, broad shelves of blue-green needles spreading from a straight grey trunk, and the label credits that shape for hiding the loss.\n\nIn 2026 it was given the title Arbre remarquable de France. The weeping cedar that made this arboretum famous stands a short walk away.\n\nStand well back on the lawn and look at the top of the crown, where the storm broke it.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "b19ea802-78de-410b-9b8d-2367eb9b8e59",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "b19ea802-78de-410b-9b8d-2367eb9b8e59",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (b19ea802-78de-410b-9b8d-2367eb9b8e59, 2026-11-23, through the app). Photograph viewed: the whole cedar from the lawn, straight grey trunk and layered blue-green shelves of foliage, a flattened top, blue sky, daylight, colour; a second photograph shows the department's label at its foot. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Cedar of Lebanon in Chatenay-Malabry', species 'Cedar of Lebanon', age '275', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+        "sighting_id": "b19ea802-78de-410b-9b8d-2367eb9b8e59",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the whole cedar from the lawn, straight grey trunk and layered blue-green shelves of foliage, a flattened top, blue sky, daylight, colour; a second photograph shows the department's label at its foot. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups-label.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+          "sighting_id": "b19ea802-78de-410b-9b8d-2367eb9b8e59",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the Hauts-de-Seine label for this cedar on a cut log: Cedrus libani, 24 m in 2026, planted probably around 1750, about 270 years. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 10,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    },
+    {
+      "id": "cma_003",
+      "name": "The Elephant-Foot Tulip Tree of the Vallée-aux-Loups",
+      "species": "Tulip Tree (Liriodendron tulipifera)",
+      "age_estimate": "about 136 years (planted probably in 1890, by the park's label); 135 by a reader's estimate",
+      "age_min": 135,
+      "age_max": 136,
+      "height_m": 21,
+      "location": {
+        "address": "Arboretum, Domaine départemental de la Vallée-aux-Loups, 102 Rue de Chateaubriand, 92290 Châtenay-Malabry",
+        "latitude": 48.7704927944286,
+        "longitude": 2.27008651358551,
+        "neighbourhood": "Arboretum de la Vallée-aux-Loups"
+      },
+      "how_to_recognise": "A tulip tree whose trunk swells out at the foot into a broad mossy mound, the bark above it lumpy and the limbs crooked, between rhododendrons in front of an iron railing.",
+      "access": "Free, in the public arboretum of the Domaine départemental de la Vallée-aux-Loups; open in daytime.",
+      "verified_sources": [
+        "Hauts-de-Seine department, label at the foot of the tree in the Domaine départemental de la Vallée-aux-Loups: 'Tulipier de Virginie, Liriodendron tulipifera', 21 m in 2026, planted probably 1890, trunk base 'en pied d'éléphant', origin unknown, label Arbre remarquable de France in 2026; photographed by a reader 2026-11-23 (sighting a79615a3)"
+      ],
+      "story": "Tulip trees usually grow tall and straight, and this one does not, which is why the department of Hauts-de-Seine has put a label at its foot. A reader sent us the tree and the label from the arboretum of the Vallée-aux-Loups in Châtenay-Malabry.\n\nThe label calls its silhouette singular. The base of the trunk spreads into what it calls an elephant's foot, a broad mossy mound in the reader's photograph. Above it the bark is swollen and lumpy and the limbs wander off at crooked angles, nothing like the slender, upright habit of the species. Nobody knows why. The label offers four answers and settles on none of them. It may be an old variety since lost, a rare mutation, a gardener's trial, or the tree's response to some disease long ago.\n\nWhat it is, at least, is clear. Liriodendron tulipifera comes from the south and east of the United States and is a cousin of the magnolias, known by leaves that look cut off square at the tip and by flowers shaped like tulips. This one was probably planted in 1890, about 135 years ago by the reader's reckoning too, and stood 21 metres tall in 2026, the year it was named an Arbre remarquable de France.\n\nCome in October, as the reader did, when the leaves turn yellow.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (a79615a3-47bc-4c00-a0bf-8bad7b370bfb, 2026-11-23, through the app). Photograph viewed: looking up a lumpy, swollen trunk rising from a broad mossy mound into a crown of turning yellow tulip-tree leaves, railings behind, daylight, colour; a second photograph shows the department's label. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Tulip Tree in Chatenay-Malabry', species 'Tulip Tree', age '135 years estimated', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+        "sighting_id": "a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: looking up a lumpy, swollen trunk rising from a broad mossy mound into a crown of turning yellow tulip-tree leaves, railings behind, daylight, colour; a second photograph shows the department's label. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups-label.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+          "sighting_id": "a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the Hauts-de-Seine label for this tulip tree on a cut log: Liriodendron tulipifera, 21 m in 2026, planted probably 1890, the elephant's foot and its mysterious origin. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 10,
+          "taken_month_basis": "the photograph's own date"
         }
       ]
     }

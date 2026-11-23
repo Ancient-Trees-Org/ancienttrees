@@ -1192,6 +1192,202 @@
    "agreed": null
   },
   {
+   "id": "sight:7759ac15-4448-4656-8b4d-6a3b0ba89f83",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Large-leaved Lime of Rungis",
+   "city": "Rungis",
+   "species": "Large-leaved Lime (Tilia platyphyllos)",
+   "photo": "out/sightings/7759ac15-4448-4656-8b4d-6a3b0ba89f83.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Large-leaved Lime (Tilia platyphyllos)"
+   },
+   "verdict": "publish",
+   "reason": "October photograph of the lime in its kerbed bed, same view as the lead; in the gallery of rng_001 behind the November lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2414d848-fae0-4cc8-accc-c4ef3f60bd3e",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The White Oak on Grubb Road",
+   "city": "Willistown",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/2414d848-fae0-4cc8-accc-c4ef3f60bd3e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same photograph (bicycle against the split-rail fence, August) is already the lead of wtn_003 from this reader's earlier sighting 441ff6ca. Rejected as a duplicate in the queue; nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b19ea802-78de-410b-9b8d-2367eb9b8e59",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon in Chatenay-Malabry",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_cdc28055a82c5ea92ef49afc/B19EA802-78DE-410B-9B8D-2367EB9B8E59.jpg",
+   "reader_note": "This tree lost 5 meters of its crown during the storm Lothar in 1999.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole cedar of Lebanon on the arboretum lawn plus the Hauts-de-Seine label (planted about 1750, 24 m, lost 5 m of crown to Lothar in 1999). Live as chatenay-malabry/cma_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Tulip Tree in Chatenay-Malabry",
+   "city": null,
+   "species": "Tulip Tree",
+   "photo": "p_cdc28055a82c5ea92ef49afc/A79615A3-47BC-4C00-A0BF-8BAD7B370BFB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Tulip Tree"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tulip tree with an elephant-foot base in autumn yellow, plus the Hauts-de-Seine label (planted probably 1890, 21 m). Live as chatenay-malabry/cma_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Tarragona",
+   "city": null,
+   "species": null,
+   "photo": "p_83881dd161bc1e19d059a7d6/BCEE6D6B-18FF-46D5-AD1D-D93C603A4D75.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big holm oak whose dark limb arches over the path above an old stone and brick wall near Tamarit, device fix at the tree. Live as tarragona/tgn_006.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f7766292-5fa0-4270-967c-f350519f351c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Bristlecone pine near Ancient Bristlecone Pine Forest",
+   "city": null,
+   "species": "Bristlecone pine",
+   "photo": "p_a675b175e9164f884aa9e3c8/F7766292-5FA0-4270-967C-F350519F351C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bristlecone pine"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a twisted strip-bark bristlecone of orange bare wood beside a rocky trail near Schulman Grove, the photo's own GPS. Live as ancient-bristlecone-pine-forest/abp_002 with two more views in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2505d7d8-7607-45b8-ba13-297b511da5a2",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Hophornbeam",
+   "city": null,
+   "species": "Hophornbeam (Ostrya sp.)",
+   "photo": "p_2050a0571723a3a62475f8d3/2505D7D8-7607-45B8-BA13-297B511DA5A2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Hophornbeam (Ostrya sp.)"
+   },
+   "verdict": "hold",
+   "reason": "not_special: a medium tree in autumn colour in a planting bed by a loading dock, nothing in the frame marks it out as big, old or striking; species uncertain.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1530",
+   "seen": "2026-11-23",
+   "kind": "a tip without a photograph",
+   "tree": "2FF9E6A6-F9C3-4800-B312-549F353C53AD",
+   "city": "Chatenay-Malabry",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Not a separate tip: the submission row of the reader's tree already live as rungis/rng_001 (same sighting 2ff9e6a6). Nothing more to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -3335,8 +3531,8 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "no_location: a big many-limbed mesquite, worth the walk by the reader's figures (14 m tall, 18 m wide), but only 'Patagonia' and 'town lot' to place it. Standard no_location reply asks where it stands.",
+   "verdict": "publish",
+   "reason": "Re-judged 2026-11-23: the reader's mail (feedback 1547) gave the lot's address, 200 N 4th Street, and a hand-dropped map pin. Live as patagonia-arizona/pag_001, pin approximate, seen from the street.",
    "hidde": null,
    "agreed": null
   },
@@ -26050,24 +26246,62 @@
    "agreed": null
   },
   {
-   "id": "sight:7759ac15-4448-4656-8b4d-6a3b0ba89f83",
+   "id": "sight:b19ea802-78de-410b-9b8d-2367eb9b8e59",
    "seen": "2026-11-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Large-leaved Lime of Rungis",
-   "city": "Rungis",
-   "species": "Large-leaved Lime (Tilia platyphyllos)",
-   "photo": "out/sightings/7759ac15-4448-4656-8b4d-6a3b0ba89f83.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "match": "app",
-   "distance_m": 0,
-   "current_photo": "approved",
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Large-leaved Lime (Tilia platyphyllos)"
-   },
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon in Chatenay-Malabry",
+   "photo": "p_cdc28055a82c5ea92ef49afc/B19EA802-78DE-410B-9B8D-2367EB9B8E59.jpg",
+   "reader_note": "This tree lost 5 meters of its crown during the storm Lothar in 1999.",
    "verdict": "publish",
-   "reason": "October photograph of the lime in its kerbed bed, same view as the lead; in the gallery of rng_001 behind the November lead",
+   "reason": "Photograph viewed 2026-11-23: the whole cedar from the lawn, straight grey trunk and layered blue-green shelves of foliage, a flattened top, blue sky, daylight, colour; a second photograph shows the department's label at its foot. Live as chatenay-malabry/cma_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a79615a3-47bc-4c00-a0bf-8bad7b370bfb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Tulip Tree in Chatenay-Malabry",
+   "photo": "p_cdc28055a82c5ea92ef49afc/A79615A3-47BC-4C00-A0BF-8BAD7B370BFB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking up a lumpy, swollen trunk rising from a broad mossy mound into a crown of turning yellow tulip-tree leaves, railings behind, daylight, colour; a second photograph shows the department's label. Live as chatenay-malabry/cma_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bcee6d6b-18ff-46d5-ad1d-d93c603a4d75",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Tarragona",
+   "photo": "p_83881dd161bc1e19d059a7d6/BCEE6D6B-18FF-46D5-AD1D-D93C603A4D75.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking up into a big evergreen oak whose dark limb arches over the path, an old stone and brick wall on the left, low sun, daylight, colour. Live as tarragona/tgn_006 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f7766292-5fa0-4270-967c-f350519f351c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Bristlecone pine near Ancient Bristlecone Pine Forest",
+   "photo": "p_a675b175e9164f884aa9e3c8/F7766292-5FA0-4270-967C-F350519F351C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a bristlecone of twisted orange and cream bare wood with green bottle-brush tops, roots over white rock, the trail beside it, deep blue sky, daylight, colour; two further photographs show the same tree from the trail. Live as ancient-bristlecone-pine-forest/abp_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1487",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ancient mesquite",
+   "photo": "p_158314cb4b1892ca53e88c7d/331cfe2c-e7fb-4f4a-8de7-b1656d540d9b.jpg",
+   "reader_note": "Enormous gnarly old mesquite on town lot, currently undeveloped. Approximately 14 meters tall and 18 meters wide",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: looking straight up a big, many-limbed mesquite with dark shaggy bark and old sawn stubs, a fine web of twigs and feathery leaves above, daylight, colour. Live as patagonia-arizona/pag_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

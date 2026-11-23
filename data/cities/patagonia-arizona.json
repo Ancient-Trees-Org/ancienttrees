@@ -1,0 +1,70 @@
+{
+  "city": "Patagonia",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Patagonia is a small town in the grasslands of southern Arizona, in Santa Cruz County between the Santa Rita and Patagonia mountains, a short drive from the Mexican border. On an empty lot on North 4th Street grows a mesquite a reader calls enormous: about 14 metres tall and 18 metres across by their figures, its dark shaggy trunk breaking into a crowd of crooked limbs. A reader sent us its photograph.",
+  "meta_description": "A big old mesquite on an empty lot on North 4th Street in Patagonia, Arizona, sent by a reader: where it stands and what we know.",
+  "hero_tree_id": "pag_001",
+  "oldest_tree_id": "pag_001",
+  "question_meta": "The tree to see in Patagonia, Arizona is an old mesquite on North 4th Street, about 14 m tall and 18 m wide by a reader's figures.",
+  "question_answer": "The tree to see in Patagonia, Arizona is the old mesquite on an empty lot at 200 North 4th Street, about 14 metres tall and 18 metres across by the figures of the reader who sent it. Its age is not known.",
+  "question_context": "A reader sent us this mesquite from Patagonia, a small town in Santa Cruz County, southern Arizona, and called it an enormous, gnarly old tree on a town lot that is currently undeveloped. Their photograph looks straight up from the foot of the trunk: dark, shaggy bark broken into long plates, and a short trunk that splits into a crowd of heavy limbs wandering in every direction, several sawn off long ago and grown round at the cuts, under a fine web of feathery leaves. By their figures it is about 14 metres tall, 18 metres across and 300 centimetres round. Those are the reader's figures, not a measurement we have seen, and nobody has told us its age. Mesquites are more often shrubs or small trees, which is why one of this size stands out. The lot is private, so the way to see the tree is from North 4th Street.",
+  "faq": [
+    {
+      "q": "Where is the old mesquite in Patagonia, Arizona?",
+      "a": "On an empty lot at 200 North 4th Street, in the town of Patagonia, Santa Cruz County."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "You can see it from North 4th Street. The lot it stands on is private, undeveloped ground, so look from the street."
+    },
+    {
+      "q": "How old is it?",
+      "a": "Nobody has told us. A reader puts it at about 14 metres tall, 18 metres across and 300 centimetres round; if you know its age or history, tell us on its page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "pag_001",
+      "name": "The Old Mesquite of North 4th Street",
+      "species": "Mesquite (Prosopis sp.)",
+      "location": {
+        "address": "Empty lot at 200 N 4th Street, Patagonia, AZ 85624",
+        "latitude": 31.540454,
+        "longitude": -110.756788,
+        "neighbourhood": "Patagonia"
+      },
+      "how_to_recognise": "On an empty lot: a mesquite with dark, shaggy, plated bark whose short trunk breaks into a crowd of heavy crooked limbs, several of them sawn off short long ago and grown round at the cut.",
+      "access": "On an undeveloped private lot in town; look from North 4th Street.",
+      "verified_sources": [],
+      "story": "\"Enormous gnarly old mesquite on town lot, currently undeveloped,\" is how a reader described this tree when they sent it to us from Patagonia, a small town in the grasslands of southern Arizona. It stands on an empty lot on North 4th Street.\n\nTheir photograph looks straight up from the foot of the trunk, and gnarly is the word. The bark is dark and shaggy, broken into long rough plates. The trunk heaves itself up and splits into a whole crowd of heavy limbs that wander off in every direction, several of them sawn off short years ago and grown round at the cuts. Above them a fine web of twigs carries the small, feathery leaves of a mesquite against a pale sky.\n\nBy the reader's figures it is about 14 metres tall, 18 metres across and 300 centimetres round. Those figures are theirs; we have not seen a measurement, and we do not know its age. Mesquites are more often shrubs or small trees, so one of this size stands out. Which mesquite it is we would also like a reader to tell us.\n\nThe lot is private ground, so look from the street. If you know this tree's history, tell us here.",
+      "found_by_reader": {
+        "sighting_id": "tip-1487",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "tip-1487",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (tip-1487, 2026-11-22, through the website). Photograph viewed: looking straight up a big, many-limbed mesquite with dark shaggy bark and old sawn stubs, a fine web of twigs and feathery leaves above, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Ancient mesquite', species 'None', age 'None', girth 300 cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/pag_001-old-mesquite-of-north-4th-street.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1201,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_158314cb4b1892ca53e88c7d",
+        "sighting_id": "tip-1487",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the website); viewed and approved on 2026-11-23: looking straight up a big, many-limbed mesquite with dark shaggy bark and old sawn stubs, a fine web of twigs and feathery leaves above, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

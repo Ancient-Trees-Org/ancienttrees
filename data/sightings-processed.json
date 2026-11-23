@@ -6938,7 +6938,7 @@
    "date": "2026-11-22"
   },
   "tip-1487": {
-   "outcome": "held",
+   "outcome": "published",
    "date": "2026-11-22"
   },
   "d440dd95-0e37-4a40-9200-2795b7ff549a": {
@@ -7302,6 +7302,32 @@
    "lat": 48.7487438587201,
    "lon": 2.34860244460965,
    "pin_checked": "2026-11-23"
+  },
+  "b19ea802-78de-410b-9b8d-2367eb9b8e59": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "a79615a3-47bc-4c00-a0bf-8bad7b370bfb": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "bcee6d6b-18ff-46d5-ad1d-d93c603a4d75": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "f7766292-5fa0-4270-967c-f350519f351c": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "2505d7d8-7607-45b8-ba13-297b511da5a2": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "2414d848-fae0-4cc8-accc-c4ef3f60bd3e": {
+   "outcome": "rejected",
+   "date": "2026-11-23",
+   "tree_id": "wtn_003",
+   "reason": "duplicate: the same photograph (bicycle against the split-rail fence, August light) is already this tree's lead, from the same reader's earlier sighting 441ff6ca"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
