@@ -26,6 +26,90 @@ event on the list is unaffected.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## Weekly analysis 2026-11-23
+
+Seventeenth weekly analysis. Reads 11-16 to 11-22 against 11-09 to 11-15, from the 11-21
+and 11-22 daily entries. The 11-22 entry had no Search Console and no Google Analytics
+(HTTP 400), so web and Google rows run to 11-21 and app rows to 11-22; Apple's
+downloads lag a day. **Correction to last week's table:** it showed 14 first-time
+downloads for 11-09 to 11-15 because Apple had not reported 11-15 yet; the day table now
+shows 3,896 on 11-15, so that week is about 3,910.
+
+**Scorecard**
+
+| Week | Google impr. | Google clicks | CTR | Position | Bing impr. / clicks | Visitors (GA, new) | From Google | Downloads (first-time) | New accounts | Saves | Readers' contributions |
+|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 11-09 to 11-15 | ~1,800 | 221 | 12% | 5.5 to 58 | 934 / 48 | 1,818 | 38 | ~3,910 | 369+ | 191+ | 301 |
+| 11-16 to 11-22 | 570 (11-16 to 11-21) | 260 | 46% | 6.6 to 32.5 | 1,248 / 54 | 3,042 (11-15 to 11-21) | 70 | 3,061 (11-16 to 11-21, 11-22 not in) | 539 | 410 | 624 |
+
+Per day, accounts 199 / 100 / 62 / 39 / 31 / 41 / 67; downloads 1,588 / 712 / 351 / 153 /
+127 / 130; Google impressions 204 / 132 / 67 / 60 / 66 / 41; Google clicks 116 / 59 / 33 /
+19 / 20 / 13. Everything after the Guardian day (11-15) decays and then flattens at about
+130 downloads and 30 to 70 accounts a day, against 2 a day before 11-15. Android waitlist
+2,177 total on 11-22 (103 that day). Device split and per-visit ratios are not in the
+entries, so none is claimed.
+
+**Outreach yield** (data/mail-yield.json, mailbox read, built 11-22; weeks keyed by the Monday of our first mail; 11-09 is the week before last, 11-16 is too young to judge)
+
+| Group | Mailed, week of 11-09 | Answered of those | Mailed, total | Answered, total | Rate | Linked |
+|---|---:|---:|---:|---:|---:|---:|
+| archive | 2 | 2 | 27 | 6 | 22% | 0 |
+| nature | 0 | 0 | 81 | 8 | 10% | 1 |
+| guide | 1 | 0 | 41 | 2 | 5% | 1 |
+| source | 4 | 1 | 63 | 9 | 14% | 0 |
+| press | 5 | 2 | 156 | 10 | 6% | 0 |
+| tourism | 1 | 0 | 20 | 6 | 30% | 0 |
+| garden | 0 | 0 | 97 | 11 | 11% | 0 |
+| society | 0 | 0 | 148 | 25 | 17% | 1 |
+| council | 0 | 0 | 60 | 10 | 17% | 0 |
+| other | 187 | 15 | 1,594 | 96 | 6% | 2 |
+
+The week of 11-16 sent 1,284 mails (other 1,247, press 30, guide 4, council 2, tourism 1);
+28 of the 1,247 answered so far (2%), too young to judge. Five links in all, none new.
+
+**What moved:**
+1. The Guardian day is a decaying spike with a higher floor: downloads fell from 1,588 to
+   about 130 a day, accounts from 199 to 31 to 67, and the floor is still far above the
+   2 to 5 accounts a day of before 11-15.
+2. Google is brand search only: Google clicks fell 116, 59, 33, 19, 20, 13 a day, position
+   6.6 to 32.5; the top query is "ancient trees app" (487 impressions in 10 days, position
+   1), "ancient trees" 15 impressions at position 36. No tree query appears. Noise level
+   for page recovery.
+3. Readers carry the data: 315 people have sent a tree or photo (+207 this week), 49 on
+   more than one day; 410 iPhone photos, 204 trees sent, 71 tree notes, 38 Android photos.
+4. Bing grows quietly: 1,248 impressions and 54 clicks against 934 and 48; index 4,617 to
+   4,929 pages.
+5. Quality: Web next version red (deploy failure on main), iOS red (build failure on main),
+   Backup red; one new web error type ("null" in a promise). Phones back within 30 days
+   8 of 16 (an old cohort, not the Guardian one).
+
+**Suggestions, ranked:**
+1. **[run]** The deploy failure on main (Web next version red on both the 11-21 and 11-22
+   entries, "1 failed since" the last live build, iOS build also red). Fixes of the week
+   (3 listed) only help once a deploy goes green; read the failing run first, it is
+   rung-2 work.
+2. **[run]** Day-7 and day-30 read of the Guardian cohort: downloads and accounts have
+   settled at 130 and 30 to 70 a day, so the question is whether those phones return.
+   Compute phones back for the 11-15 and 11-16 arrivals at 11-22 and 12-15 (the 30-day row
+   only measures cohorts from five weeks ago, so it cannot answer this).
+3. **[FOR HIDDE]** Press is the only lane that has moved anything (6,957 downloads in a
+   week against 14, from one article); 156 press mails answered 10 (6%) with 0 links, and
+   the 1,247 "other" mails of 11-16 answered 2% so far. Choose between more volume and
+   fewer, pitched press stories; the first full read of the 11-16 batch comes in about
+   two weeks.
+4. **[run]** Search-term gaps in yesterday's site searches: "hove" (5), "victoria" (3),
+   "biella" (2) have no city file (Milan, Auckland, Brighton, Palermo, Perth, Toronto,
+   Bologna, Como, Baltimore do). Check each against data/leads and the register scouting
+   before building; "hove" may only need an alias to Brighton.
+5. **[sessie]** The Plus question has 20 answers (richer log of collected trees 8, offline
+   maps 7, walks 5, seasonal alerts 4); noise level, but it is the only paywall evidence.
+   Keep collecting; do not read it as a ranking yet.
+
+**Watch next week:** whether the daily floor holds at about 130 downloads and 30 to 70
+accounts or sinks toward the old 2 a day; Google clicks against the brand-query decay
+(13 a day on 11-21); whether Web goes green; the reader judge's agent minutes (981 in the
+last 7 days, 198 on the busiest day) against the weekly machine budget.
+
 ## 2026-11-22 (previous UTC day)
 
 **Today: 103 android waitlist signups arrived yesterday (2177 total); 34 tree submissions and 11 feedback reports arrived yesterday (597 submissions of every kind in all); 67 accounts were opened yesterday (990 accounts in all).**
