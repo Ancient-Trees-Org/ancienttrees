@@ -113,6 +113,28 @@ class PageScan(HTMLParser):
             self.text_parts.append(data)
 
 
+def _time_slow_checks(threshold=5.0):
+    """Print, as it happens, every check that takes longer than `threshold`
+    seconds (2026-11-23). After the page loop went from minutes to 50 s the
+    deploy's QA step still took 33 minutes, all of it before the page loop and
+    none of it visible, because nothing printed until the end. Wraps every
+    module-level check_ function; main() looks them up by name at call time,
+    so the wrapped ones are what runs."""
+    g = globals()
+    for name, fn in list(g.items()):
+        if not (name.startswith("check_") and callable(fn)):
+            continue
+
+        def timed(*a, _fn=fn, _name=name, **k):
+            t = time.time()
+            r = _fn(*a, **k)
+            d = time.time() - t
+            if d >= threshold:
+                print(f"qa timing: {_name} took {d:.0f}s", flush=True)
+            return r
+        g[name] = timed
+
+
 _LINK_FILES = {}
 
 
@@ -4947,6 +4969,8 @@ def main():
         print("qa source checks: %d checks, nothing to fix" % len(SOURCE_ONLY))
         return 0
 
+    _time_slow_checks()
+    qa_started = time.time()
     # FIRST, and it returns rather than accumulating: every failure below is
     # meaningless if the build is older than the data it should hold.
     stale = check_dist_is_newer_than_the_source()
@@ -5169,7 +5193,7 @@ def main():
             print(f"  ... and {len(failures) - 60} more")
         return 1
     print(f"QA passed: {len(pages)} pages, links resolve, text clean "
-          f"({len(_LINK_FILES)} distinct link targets)")
+          f"({len(_LINK_FILES)} distinct link targets, {time.time() - qa_started:.0f}s in all)")
     return 0
 
 
