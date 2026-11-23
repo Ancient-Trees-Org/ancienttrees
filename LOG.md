@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: the red iOS and deploy runs
+
+- **iOS (three scheduled runs red):** appfit failed the iOS 18 floor on one button, the country flag beside your name on My trees: 44 by 20, under Apple's 44 by 44. It was tappable over 44 points, but a -12 padding shrank what it measured. The tap area is now an overlay of 44 by 44 and the row looks the same. `appfit.py --os 18` on iPhone 16 Pro Max: 0 findings on 40 screens; looked at in the simulator. The next ios.yml run should be green.
+- **Deploy:** the red push run (12:35) was two deploys colliding at Pages ("in progress deployment"), which 5110d09b5's shared deploy queue already fixed; every deploy since 13:17 is green. Still open: the Pages artifact is 1.6 GB against GitHub's 1 GB limit (a warning today, "deployment might fail"), which is the next thing that can turn the deploy red.
+
 ## 2026-11-23 reader judge: four readers' trees live in East Hampton, Long Island
 
 **What changed:** a new place, East Hampton (New York). One reader sent four trees from the lawns beside Herrick Park in the village, all within about 100 m of each other, and all four are live:
