@@ -24896,6 +24896,30 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "lead:313c857a-ab44-4040-8562-8d940acc213e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Ginkgo of Sakurai Shrine",
+   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
+   "reader_note": "Sakurai jinja shrine",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:313c857a-ab44-4040-8562-8d940acc213e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Ginkgo of Sakurai Shrine",
+   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
+   "reader_note": "Sakurai jinja shrine",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }

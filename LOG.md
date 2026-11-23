@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-23 reader judge: a golden ginkgo at Sakurai Shrine, Itoshima
+
+- New tree live: fukuoka/fuk_019, The Ginkgo of Sakurai Shrine in Itoshima. It sits with the other Itoshima day trips on the Fukuoka page. The reader also sent the Kumamoto Castle ginkgo. Their November photograph shows the crown in full gold behind the shrine's old copper-roofed halls. The shrine facts (founded 1632 by Kuroda Tadayuki, three buildings made Important Cultural Properties in 2023) come from ja.wikipedia. No source mentions the tree itself, so the page asks readers for a girth and a name. The pin was placed by hand, so it is approximate. The photo is filed in November, best_time is November gold, and there is a Japanese overlay entry. The Fukuoka counts in question_meta (en) and in the ja title, meta and question_meta now follow the new number.
+- Paavola's Oak had been published by a parallel run (entry below), so I kept its version.
+For Hidde: none.
+
 ## 2026-11-23 reader judge: Paavola's Oak in Lohja gets its first photograph
 
 - New lead photo: lohja/loh_001, Paavola's Oak. Until now the tree had no photograph. The reader's picture shows the whole broad, low-limbed oak in summer leaf behind its rope fence on the trail, in daylight. Species and description both match. It has no season month: it is plain green, and the date in the file is the day it was sent.

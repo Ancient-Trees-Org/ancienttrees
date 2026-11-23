@@ -10360,6 +10360,39 @@
    "seen": "2026-11-22",
    "judged": "2026-11-22",
    "published_as": "willistown/wtn_003"
+  },
+  {
+   "sighting_id": "313c857a-ab44-4040-8562-8d940acc213e",
+   "user_id": "p_c19d55d83dfa148535100e72",
+   "mine": false,
+   "name": "Ginkgo in Fukuoka",
+   "unsure_among": null,
+   "species": "Ginkgo",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Sakurai jinja shrine",
+   "latitude": 33.6281182697109,
+   "longitude": 130.192125443398,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-23: a tall ginkgo in full gold autumn leaf rising behind and between the shrine's old wooden halls with curved copper roofs, its straight grey trunk visible at the back of the precinct, visitors and a rack of tied paper fortunes in front, blue sky, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-23",
+   "judged": "2026-11-23",
+   "published_as": "fukuoka/fuk_019"
   }
  ]
 }

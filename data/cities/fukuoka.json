@@ -5,7 +5,7 @@
   "intro": "Fukuoka's oldest trees stand watch over shrines the city grew up around, not the other way around. A cedar Empress Jingu is said to have planted with her own hand still guards Kashii Shrine's inner grounds. A stubbornly hollow ginkgo, already declared a thousand years old on a stone plaque installed in 1913, anchors Hakata's biggest festival. A giant camphor stands in the exact middle of Tenjin's shopping crowds, and another keeps a quieter neighbourhood's own calendar entirely. None of them are Fukuoka's famous sights. All of them were already old when the city's postwar skyline was still rice paddies.",
   "meta_description": "Fukuoka's oldest trees guard its shrines: a legendary cedar, a hollow thousand-year ginkgo, and a camphor rooted in the middle of Tenjin.",
   "question_answer": "The oldest tree in Fukuoka is, by tradition, the Ayasugi, a Japanese cedar at Kashii Shrine said to be around 1,800 years old and planted, by legend, by Empress Jingu herself. It stands 21.5 metres tall beside the shrine's main hall in Higashi-ku.",
-  "question_meta": "Kashii Shrine's Ayasugi cedar, said to be 1,800 years old, is Fukuoka's oldest tree. Its legend, exact location, and sixteen more remarkable trees nearby.",
+  "question_meta": "Kashii Shrine's Ayasugi cedar, said to be 1,800 years old, is Fukuoka's oldest tree. Its legend, exact location, and eighteen more remarkable trees nearby.",
   "question_context": "Fukuoka's claim to its oldest tree rests on tradition rather than measurement. The Ayasugi's roughly 1,800-year figure comes from Kashii Shrine's own founding legend, that Empress Jingu planted a cedar branch from her armor here on returning from a third-century campaign, a story with no ring count or scientific dating behind it. A more conservative rival stands across town: the ginkgo at Kushida Shrine, which a 1913 monument already called over a thousand years old, though a later trunk measurement suggested a real age closer to 600. Neither figure is settled science, which is honest for a city where almost every old tree grows on shrine ground with a founding myth attached rather than a documented planting record. What is not in dispute is which tree carries more ceremonial weight: the Ayasugi's cuttings have traditionally been sent to the Imperial court, and its shrine is one of the few in Japan that still receives a personal envoy from the Emperor. Getting there: JR Kashii-jingu-mae Station, about a five-minute walk to the shrine's inner grounds.",
   "oldest_tree_id": "fuk_001",
   "faq": [
@@ -740,6 +740,61 @@
       "location_site": {
         "name": "Rokusho Shrine precinct, Shima-Baba",
         "radius_m": 50.0
+      }
+    },
+    {
+      "id": "fuk_019",
+      "name": "The Ginkgo of Sakurai Shrine",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "Age not documented",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Sakurai Shrine (櫻井神社), Shima-Sakurai 4227, Itoshima, Fukuoka",
+        "latitude": 33.6281182697109,
+        "longitude": 130.192125443398,
+        "neighbourhood": "Shima-Sakurai, Itoshima"
+      },
+      "story": "Every November a ginkgo at the back of Sakurai Shrine turns the colour of the gold leaf on its old halls, and a reader who walked into the precinct on an autumn day sent us this photograph of it.\n\nSakurai Shrine stands in the wooded hills of the Itoshima peninsula, west of Fukuoka. Kuroda Tadayuki, the second lord of the Fukuoka domain, founded it in 1632, and three of its wooden buildings from his time, the main sanctuary, the worship hall and the two-storey gate, were named Important Cultural Properties of Japan in 2023.\n\nThe ginkgo rises behind and between them. In the reader's picture its crown is a tall column of yellow against a clear blue sky, higher than the curved copper roofs on either side, and its long grey trunk climbs straight out of the back of the precinct. In front, people stroll the gravel past a rack of paper fortunes tied up for luck.\n\nThe reader wrote only the shrine's name, and we have found no record of the tree itself. We know no girth, no age and no name of its own. If you know what the shrine calls it, or have stood at its foot with a tape, tell us here.\n\nCome in the second half of November, when the gold is at its fullest above the old roofs.",
+      "verified_sources": [
+        "https://ja.wikipedia.org/wiki/%E6%A1%9C%E4%BA%95%E7%A5%9E%E7%A4%BE_(%E7%B3%B8%E5%B3%B6%E5%B8%82) (Sakurai Shrine, Shima-Sakurai 4227, Itoshima: founded 1632 by Kuroda Tadayuki, second lord of the Fukuoka domain; main sanctuary, worship hall and two-storey gate designated Important Cultural Properties on 25 September 2023; the article does not mention the tree)",
+        "A reader's photograph from the shrine precinct, sent through the app on 2026-11-23"
+      ],
+      "access": "Shrine grounds, free, open in daytime.",
+      "how_to_recognise": "You can recognise it as the tall ginkgo rising behind and between the shrine's old wooden halls with curved copper roofs, its straight grey trunk at the back of the precinct.",
+      "best_time": {
+        "months": [
+          11
+        ],
+        "label": "Gold leaves in November",
+        "kind": "autumn colour"
+      },
+      "found_by_reader": {
+        "sighting_id": "313c857a-ab44-4040-8562-8d940acc213e",
+        "date": "2026-11-23"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "313c857a-ab44-4040-8562-8d940acc213e",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "verify_notes": "2026-11-23 reader judge: sent by a reader through the app (313c857a-ab44-4040-8562-8d940acc213e), name 'Ginkgo in Fukuoka', species 'Ginkgo', note 'Sakurai jinja shrine', pin placed by hand at the shrine. Photograph viewed: a tall ginkgo in full gold autumn leaf rising behind and between the shrine's old wooden halls with curved copper roofs, its straight grey trunk visible at the back of the precinct, visitors and a rack of tied paper fortunes in front, blue sky, daylight, colour. Shrine facts from ja.wikipedia (not the tree). No register entry within 100 m; no girth or age known. Published under the closed list (Hidde, 2026-11-17). Day-trip tree on the Fukuoka page under its real place name, Itoshima, as fuk_016 and fuk_018.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fuk_019-ginkgo-of-sakurai-shrine.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c19d55d83dfa148535100e72",
+        "sighting_id": "313c857a-ab44-4040-8562-8d940acc213e",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); viewed and approved on 2026-11-23: a tall ginkgo in full gold autumn leaf rising behind and between the shrine's old wooden halls with curved copper roofs, its straight grey trunk visible at the back of the precinct, visitors and a rack of tied paper fortunes in front, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]
