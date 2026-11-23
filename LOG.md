@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: readers hear their tree is live after the deploy, not at the next knock
+
+**What changed:** deploy.yml has a third job, `tell-readers`. After every deploy of main that goes through, it waits ten minutes for the Pages cache, then runs `tree_approved.py --send` and `sightings_publish.py --flush-mail --send` (private_store pull and push around them) and commits the two ledgers. Until now these mails went only from the nightly knock, so a tree the reader judge put live in minutes was announced hours later. Today's 13 readers' trees (judge, 11:42 UTC) had not been mailed because no knock had run since. Hidde, 2026-11-23: "is het niet logischer als de judge gelijk de mail activeert?" Not from the judge itself: the build takes about 40 minutes after it, and a link to a page that is not there yet is worse. The knock still sends as the safety net. Both scripts keep their own ledgers, so nobody gets a mail twice. Undo: delete the job.
+
+**Mail route today:** OUTREACH_SMTP_USER is now hidde@ancienttrees.app (Workspace). OUTREACH_SMTP_PASS still holds the old Gmail app password until Hidde sets the new one, so sending falls back to Resend (mailer.py), and reading the inbox (reader mail replies, sent_drafts, bounces) fails until then.
+
+**Not checked yet:** the first real run of the job, on the next deploy.
+
 ## 2026-11-23 reader judge (later): Split ginkgo gets its first photo, 4 gallery photos, a Marjan cypress held
 
 **What changed in the product**
