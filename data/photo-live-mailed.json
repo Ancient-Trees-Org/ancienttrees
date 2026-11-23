@@ -1,23 +1,18 @@
 {
  "readers": {
   "p_cdc28055a82c5ea92ef49afc": {
-   "last": "2026-10-23",
-   "pending": [
-    {
-     "sighting_id": "15fdc51f-8f67-4820-bf71-f26b55ff2000",
-     "tree_id": "par_076",
-     "tree_name": "The Bur Oak by the Cuvier Gate",
-     "city": "Paris",
-     "city_slug": "paris",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "0f3ee1e1-ad84-4a57-bf98-6a0b50826651",
      "tree_id": "cma_001",
      "mailed": "2026-10-23"
+    },
+    {
+     "sighting_id": "15fdc51f-8f67-4820-bf71-f26b55ff2000",
+     "tree_id": "par_076",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -369,54 +364,8 @@
    ]
   },
   "p_f1fa71dcb9e46093382f0068": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "7a10db8b-7f67-4ceb-855c-185e9355c736",
-     "tree_id": "cop_004",
-     "tree_name": "The Husalle Lindens",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
-     "tree_id": "cop_043",
-     "tree_name": "The Søndermarken Oak",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "679b77fd-5c9c-45a9-aba0-4b93f760ee78",
-     "tree_id": "cop_009",
-     "tree_name": "The Beech by the Boat Trip",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "dda08364-04c1-4679-8441-6a8154e559c8",
-     "tree_id": "cop_010",
-     "tree_name": "The Pedunculate Oak of Frederiksberg Have",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "ca38515b-5cfe-4ffd-8287-3a9de66bef46",
-     "tree_id": "cop_035",
-     "tree_name": "The Catalpa of Haveselskabets Have",
-     "city": "Copenhagen",
-     "city_slug": "copenhagen",
-     "display_name": null,
-     "live": "2026-11-21"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "fcdce151-c9a5-4421-8781-585b038bb4a3",
@@ -452,6 +401,31 @@
      "sighting_id": "40d6b9ff-509f-488b-9e02-4f507e7f889a",
      "tree_id": "cop_026",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "7a10db8b-7f67-4ceb-855c-185e9355c736",
+     "tree_id": "cop_004",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "a04c40d2-ceaf-48c1-bc57-9907a4f68daa",
+     "tree_id": "cop_043",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "679b77fd-5c9c-45a9-aba0-4b93f760ee78",
+     "tree_id": "cop_009",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "dda08364-04c1-4679-8441-6a8154e559c8",
+     "tree_id": "cop_010",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "ca38515b-5cfe-4ffd-8287-3a9de66bef46",
+     "tree_id": "cop_035",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -945,23 +919,18 @@
    ]
   },
   "p_4a3e8be0cafb822ba00b39d3": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "e5b4eedf-8140-4bf4-8ce2-c32a1f921168",
-     "tree_id": "bai_001",
-     "tree_name": "The Gomero de la Recoleta",
-     "city": "Buenos Aires",
-     "city_slug": "buenos-aires",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
      "tree_id": "wai_002",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "e5b4eedf-8140-4bf4-8ce2-c32a1f921168",
+     "tree_id": "bai_001",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -977,23 +946,18 @@
    ]
   },
   "p_856cd2e3820af4b001f6554a": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "a04e6933-4b0d-4172-90d1-5d13dcfec0e5",
-     "tree_id": "elh_001",
-     "tree_name": "Elleholmseken (The Oak of Elleholm)",
-     "city": "Elleholm",
-     "city_slug": "elleholm",
-     "display_name": null,
-     "live": "2026-11-16"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
      "tree_id": "rkm_001",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "a04e6933-4b0d-4172-90d1-5d13dcfec0e5",
+     "tree_id": "elh_001",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -1156,18 +1120,8 @@
    ]
   },
   "p_d0011595a0e9b807c2d7281e": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65",
-     "tree_id": "fsh_001",
-     "tree_name": "Pando",
-     "city": "Fish Lake, Utah",
-     "city_slug": "fish-lake-utah",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc",
@@ -1188,6 +1142,11 @@
      "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b",
      "tree_id": "plm_001",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65",
+     "tree_id": "fsh_001",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -1230,23 +1189,18 @@
    ]
   },
   "p_ccfec79b6fd8ef4fe71357b4": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "3cf4d1ae-05de-4dff-b168-0c0815960fd3",
-     "tree_id": "bwd_001",
-     "tree_name": "The Borrowdale Yews (the Fraternal Four)",
-     "city": "Borrowdale",
-     "city_slug": "borrowdale",
-     "display_name": null,
-     "live": "2026-11-16"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614",
      "tree_id": "bwd_001",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "3cf4d1ae-05de-4dff-b168-0c0815960fd3",
+     "tree_id": "bwd_001",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -1434,27 +1388,8 @@
    ]
   },
   "p_7b2115b8e39fa3b6538f86e3": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
-     "tree_id": "bri_015",
-     "tree_name": "The Monterey Cypress at Bishops Knoll",
-     "city": "Bristol",
-     "city_slug": "bristol",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "f6be5d35-0554-45c6-96c4-34f7af316709",
-     "tree_id": "bri_015",
-     "tree_name": "The Monterey Cypress at Bishops Knoll",
-     "city": "Bristol",
-     "city_slug": "bristol",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "1b2096fe-4e2d-41f0-9517-b288ef04b372",
@@ -1470,6 +1405,16 @@
      "sighting_id": "48e12498-8c41-4ce1-9e90-0b71c08d874a",
      "tree_id": "bri_018",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "9a59c1b4-6a1f-45ee-970d-7c8762e6791e",
+     "tree_id": "bri_015",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "f6be5d35-0554-45c6-96c4-34f7af316709",
+     "tree_id": "bri_015",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -1485,36 +1430,8 @@
    ]
   },
   "p_c35c044ba2fb9ea5470abeae": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "ea9d0b2f-f100-496d-a05c-6f492630635f",
-     "tree_id": "bil_001",
-     "tree_name": "The Plane Trees of Jardines de Albia",
-     "city": "Bilbao",
-     "city_slug": "bilbao",
-     "display_name": null,
-     "live": "2026-11-16"
-    },
-    {
-     "sighting_id": "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c",
-     "tree_id": "bil_003",
-     "tree_name": "The Centenary Trees of Parque de la Misericordia",
-     "city": "Bilbao",
-     "city_slug": "bilbao",
-     "display_name": null,
-     "live": "2026-11-16"
-    },
-    {
-     "sighting_id": "e593be60-987f-469d-97d7-7da2a69503d5",
-     "tree_id": "mad_004",
-     "tree_name": "The Bald Cypresses of the Crystal Palace Pond",
-     "city": "Madrid",
-     "city_slug": "madrid",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "53335cb3-ead5-4c24-802b-b1f1c1db0aa1",
@@ -1525,6 +1442,21 @@
      "sighting_id": "6fa67b16-2dfe-429c-a3c5-84f10d8c3c43",
      "tree_id": "bil_002",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "ea9d0b2f-f100-496d-a05c-6f492630635f",
+     "tree_id": "bil_001",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c",
+     "tree_id": "bil_003",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "e593be60-987f-469d-97d7-7da2a69503d5",
+     "tree_id": "mad_004",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -1550,32 +1482,23 @@
    ]
   },
   "p_dc0896ccc090a0d74571d474": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "4c161566-17bf-4859-a3cb-2148328999a9",
-     "tree_id": "bmr_001",
-     "tree_name": "Benmore Redwood Avenue",
-     "city": "Benmore",
-     "city_slug": "benmore",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "0cece63a-83e2-492f-9f2e-2e2096a92cfa",
-     "tree_id": "stb_003",
-     "tree_name": "The Silky Oaks of Largo Marques de Pombal",
-     "city": "Setubal",
-     "city_slug": "setubal",
-     "display_name": null,
-     "live": "2026-11-20"
-    }
-   ],
+   "last": "2026-11-23",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "f696cf2f-53e9-4a97-b27a-fba78e23a118",
      "tree_id": "stb_004",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "4c161566-17bf-4859-a3cb-2148328999a9",
+     "tree_id": "bmr_001",
+     "mailed": "2026-11-23"
+    },
+    {
+     "sighting_id": "0cece63a-83e2-492f-9f2e-2e2096a92cfa",
+     "tree_id": "stb_003",
+     "mailed": "2026-11-23"
     }
    ]
   },
@@ -2914,19 +2837,15 @@
    ]
   },
   "p_618de01d056ef7fe726027bb": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "a1f47e20-f01a-4035-986e-1b25814dee8d",
      "tree_id": "lgy_001",
-     "tree_name": "The Llangernyw Yew",
-     "city": "Llangernyw",
-     "city_slug": "llangernyw",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_11ba938518e45421db94eb78": {
    "last": "2026-11-22",
@@ -3054,28 +2973,20 @@
    ]
   },
   "p_02edf756ac8c1a596232f1a1": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "2f6e03ed-e150-4ecf-b68a-c52313d2c6b5",
      "tree_id": "fln_001",
-     "tree_name": "The Plaque Tree on the Shore of Ribeirão da Ilha",
-     "city": "Florianópolis",
-     "city_slug": "florianopolis",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "1eefef4c-ae9c-4f79-ac36-91fb08061476",
      "tree_id": "fln_002",
-     "tree_name": "The Fig of the Hanging Roots in Coqueiros",
-     "city": "Florianópolis",
-     "city_slug": "florianopolis",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f87e49ff8c6e119f0836c2fb": {
    "last": "2026-11-22",
@@ -3100,43 +3011,31 @@
    ]
   },
   "p_b81a3a3687bb06105a51977f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "6faa04dc-a1c6-418e-a574-ec468f6296fe",
      "tree_id": "hbg_007",
-     "tree_name": "The Lehmann Plane of Planten un Blomen",
-     "city": "Hamburg",
-     "city_slug": "hamburg",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-23"
     },
     {
      "sighting_id": "bc7a74af-25a5-4044-80e7-f61a09268e6c",
      "tree_id": "hbg_005",
-     "tree_name": "The Japanese Pagoda Tree of Alsterufer",
-     "city": "Hamburg",
-     "city_slug": "hamburg",
-     "display_name": null,
-     "live": "2026-11-22"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_6651dfcdba19b81aad20c23f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-23",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "22267ba3-4b26-4074-a420-e440906c2010",
      "tree_id": "loh_001",
-     "tree_name": "Paavola's Oak",
-     "city": "Lohja",
-     "city_slug": "lohja",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-23"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {

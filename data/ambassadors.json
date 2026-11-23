@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-22T18:13Z",
+  "synced": "2026-11-23T02:09Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -327,6 +327,13 @@
       "since": "2026-11-22",
       "display_name": "ElleP",
       "profile_public": true
+    },
+    {
+      "user_id": "032767ea-3b0b-45c3-8bea-48d74fe01551",
+      "place_slug": "dresden",
+      "place_name": "Dresden",
+      "public": false,
+      "since": "2026-11-23"
     },
     {
       "user_id": null,
@@ -1863,6 +1870,36 @@
         "The Cedar of Piazza Indipendenza"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c19d55d83dfa148535100e72",
+      "place_slug": "fukuoka",
+      "place_name": "Fukuoka",
+      "date": "2026-11-23",
+      "trees": [
+        "The Ginkgo of Sakurai Shrine"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b21b1a471219a6cf05cfddd3",
+      "place_slug": "xalapa",
+      "place_name": "Xalapa",
+      "date": "2026-11-23",
+      "trees": [
+        "The Mexican Sycamore of Río Sedeño"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d00d72ab54e49aca19cb8386",
+      "place_slug": "dresden",
+      "place_name": "Dresden",
+      "date": "2026-11-23",
+      "trees": [
+        "The Kaditzer Linde",
+        "The Weeping Beech of Helfenberg Park"
+      ]
     }
   ],
   "requested": [
@@ -3080,6 +3117,44 @@
         "hrn_003"
       ],
       "since": "2026-11-22",
+      "mailed": []
+    },
+    "dresden": {
+      "trees": [
+        "dre_001",
+        "dre_002",
+        "dre_003",
+        "dre_004",
+        "dre_005",
+        "dre_006",
+        "dre_007",
+        "dre_008",
+        "dre_009",
+        "dre_010",
+        "dre_011",
+        "dre_012",
+        "dre_013",
+        "dre_014",
+        "dre_015",
+        "dre_016",
+        "dre_017",
+        "dre_018",
+        "dre_019",
+        "dre_020",
+        "dre_021",
+        "dre_022",
+        "dre_023",
+        "dre_024",
+        "dre_025",
+        "dre_026",
+        "dre_027",
+        "dre_028",
+        "dre_029",
+        "dre_030",
+        "dre_031",
+        "dre_032"
+      ],
+      "since": "2026-11-23",
       "mailed": []
     }
   }
