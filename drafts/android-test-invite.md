@@ -28,9 +28,11 @@ draft, same text plus the group step:
 "You can sign up to be a tester in two steps, with the Google account of this email address:
 1. Join the tester group: https://groups.google.com/g/ancienttrees-android-testers
 2. Then sign up here: https://play.google.com/apps/testing/app.ancienttrees.android"
-Send only after Play shows the Beta release approved, on Hidde's "verstuur",
-about 170 a day: `OUTREACH_DAILY_CAP=170 python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-wave3-2026-11-20.json --send`
-on three to five days in a row (re-running skips who already had it).
+**ON HOLD since 2026-11-23 (Hidde: "eens").** Google blocked his Gmail on 11-23, right after a week of 250 to 400 mails a day through it (these invitations plus reader mail); the likely cause, never confirmed. 478 of 777 still unsent. In this order, nothing skipped:
+1. Wait until Play Developer Support has answered and Hidde is back in Play Console (the group and Play both hang on the blocked account).
+2. One tester tries the group link and the Play opt-in and confirms they got in.
+3. Only then the rest, through **Resend only, never a Google mailbox** (not the Workspace address either): the batch's `"kind": "expected"` routes through Gmail, so change it before any send, and small portions, each on Hidde's "verstuur".
+The old command (`OUTREACH_DAILY_CAP=170 python3 out/tmp/send_with_mail_env.py drafts/batches/android-test-invite-wave3-2026-11-20.json --send`) is not to be run as it stands.
 Later waves: just mail the same text; nobody has to be added to Play by hand.
 
 **WAVE 2 SENT IN PART, 2026-11-19:** Play's list now holds 474 (wave 1's

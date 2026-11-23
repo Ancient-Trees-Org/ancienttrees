@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: Android invitations on hold, no batch through a Google mailbox
+
+- **Android now**: build 5 live on both closed tracks; 22 phones on it by the 23rd (14 that day, 4 still on build 4), 158 Android phones ever; no unanswered crash.
+- **Decided (Hidde: "eens")**: the 478 unsent wave 3 invitations wait. The send log shows 250 to 400 mails a day through his Gmail from 11-19 to 11-22 (264 invitations on 11-20 alone, plus reader mail), and Google blocked the account on 11-23; the likely cause, not confirmed. Order now: Play access back, one tester confirms the group and opt-in work, then the rest through Resend only in small portions on his "verstuur". No batch goes through a Google mailbox again, Workspace included (CLAUDE.md mail route rule; drafts/android-test-invite.md). The batch's `"kind": "expected"` still routes through Gmail and must change before any send.
+
 ## 2026-11-23 session: Supabase egress, the cause found and the waste stopped
 
 - **Why Supabase's free plan ran out**: 12.5 of 5 GB egress this month. Edge logs, last 24 hours: ~690 MB a day was our own runners downloading readers' photographs from the private `sightings` bucket, 784 downloads of 91 files. Every Reader judge run starts on a clean runner and fetched every waiting photograph again in full size; a burst of submissions starts many runs. Visitors' own photo traffic is ~110 MB a day.
