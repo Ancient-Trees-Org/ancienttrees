@@ -10,6 +10,7 @@ reader can lift gets a mail that says what would put the tree on the map,
 written once here, never by a run.
 
     python3 scripts/hold_reply.py <submission id> not_theirs ["tree name"] [--dry]
+    python3 scripts/hold_reply.py <sighting id or lead:<id>> not_public ["tree name"]
 
 It writes the text as the row's reply_text with outcome `open_question`;
 contributor_reply.py mails it at the knock after mailcheck, like any answer.
@@ -77,6 +78,20 @@ def main(argv):
     sid, reason = args[0], args[1]
     import inbox
     key = inbox.load_key()
+    if not sid.isdigit():
+        # AN APP TREE IS ANSWERED THE SAME WAY (Hidde, 2026-11-23: "dit moet jij
+        # automatisch doen", after two app trees held `not_public` sat without
+        # the question because a run believed only website rows could be
+        # mailed). A tree sent with "add" in the app writes a submissions row
+        # with page app:collect and the sighting's id in `tree`; that row is the
+        # reply channel. A sighting with no such row was only kept in the
+        # reader's own collection, never sent to us: no mail.
+        sight = sid.split(":", 1)[-1]
+        rows = inbox.get("/rest/v1/submissions?select=id&tree=ilike.%s&order=id.desc&limit=1" % sight, key)
+        if not rows:
+            print("hold_reply: sighting %s was never sent to us as a tree (no submissions row), no mail" % sight)
+            return 0
+        sid = str(rows[0]["id"])
     row = inbox.get("/rest/v1/submissions?select=id,tree,why,reply_text,replied_at&id=eq.%d" % int(sid), key)[0]
     name = args[2] if len(args) > 2 else None
     body = text(reason, name)

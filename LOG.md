@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: held app trees get the question too
+
+- The Shanghai ginkgos (submission 1506, held `not_public`) now carry the standard "can it be seen from a street or path?" question; it goes at the next knock. The judge had skipped it believing an app tree cannot be mailed; it can, through the row the app writes when a tree is sent.
+- `hold_reply.py` now takes a sighting id (`lead:<id>`) and finds that row, and BRIEF_READER_JUDGE.md says app trees get the mail. A sighting only kept in the reader's own collection gets none: the Clarksville oak (d440dd95, photos from inside a yard by a house) was never sent to us, so it stays held and unmailed.
+
 ## 2026-11-23 session: the red iOS and deploy runs
 
 - **iOS (three scheduled runs red):** appfit failed the iOS 18 floor on one button, the country flag beside your name on My trees: 44 by 20, under Apple's 44 by 44. It was tappable over 44 points, but a -12 padding shrank what it measured. The tap area is now an overlay of 44 by 44 and the row looks the same. `appfit.py --os 18` on iPhone 16 Pro Max: 0 findings on 40 screens; looked at in the simulator. The next ios.yml run should be green.
