@@ -235,6 +235,15 @@ jobs:
           # mails only a tree it finds in the live /api/trees.json. Read it
           # straight after the deploy and the new trees are not in it yet.
           sleep 600
+          # The homepage's New from visitors row and the app's Discover row
+          # read a reader's photo only once its sighting points at the tree it
+          # became. That link was made only by the nightly knock, so a tree the
+          # judge put live stayed out of the row for hours (Hidde, 2026-11-23:
+          # "waarom zie ik ze niet tussen new from visitors"). Now right after
+          # the deploy that carries it, with the tiles' small copies.
+          python3 scripts/sightings_link.py || true
+          pip install --quiet pillow || true
+          python3 scripts/shared_thumbs.py || true
           # No pull, no send: an empty send log would make every address look
           # new and break the week's rest (private_store.py, mailer.py).
           python3 scripts/private_store.py pull
