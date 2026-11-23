@@ -277,11 +277,11 @@
       "age_estimate": "not documented",
       "location": {
         "address": "Laurel Hill Cemetery East, 3822 Ridge Ave, Philadelphia, PA 19132 (Section T, tag 473)",
-        "latitude": 40.0039,
-        "longitude": -75.1875,
+        "latitude": 40.001369,
+        "longitude": -75.188914,
         "neighbourhood": "East Falls / Fairmount Park"
       },
-      "story": "The cut-leaf form of the bigleaf linden is supposed to stay small. This one did not. Laurel Hill Cemetery calls it the second-largest bigleaf linden in Pennsylvania, counting the ordinary species too, and the state champion among cut-leaf trees.\n\nThe cultivar is the European bigleaf linden with its leaves remade. Where the species has a plain heart-shaped leaf, this one is irregularly lobed and cut, so the foliage looks snipped and shredded. It is normally a much smaller tree than the species it comes from. Somebody planted this one in Section T of Laurel Hill East, among the graves, and it kept growing until the cemetery put it on its list of notable trees.\n\nThat list is the only source for it, and it gives no girth, no height and no planting date. So the size claim is the cemetery's own, unmeasured as far as we can find, and the tree's age is an open question. If you know when it went in, or have measured it, tell us.\n\nLaurel Hill is large and the pin marks the cemetery, not the trunk. Go to Section T and look for tag 473, and for those ragged leaves. Entry is free; the gates open at 7am.",
+      "story": "The cut-leaf form of the bigleaf linden is supposed to stay small. This one did not. Laurel Hill Cemetery calls it the second-largest bigleaf linden in Pennsylvania, counting the ordinary species too, and the state champion among cut-leaf trees.\n\nThe cultivar is the European bigleaf linden with its leaves remade. Where the species has a plain heart-shaped leaf, this one is irregularly lobed and cut, so the foliage looks snipped and shredded. It is normally a much smaller tree than the species it comes from. Somebody planted this one in Section T of Laurel Hill East, among the graves, and it kept growing until the cemetery put it on its list of notable trees.\n\nThat list is the only source for it, and it gives no girth, no height and no planting date. So the size claim is the cemetery's own, unmeasured as far as we can find, and the tree's age is an open question. If you know when it went in, or have measured it, tell us.\n\nLaurel Hill is large. Go to Section T, where the old trunk stands hollowed at its foot beside a cemetery drive, and look for tag 473 and those ragged leaves. Entry is free; the gates open at 7am.",
       "how_to_recognise": "You can recognise it by the leaves, irregularly lobed and cut so they look shredded, and by its tag, number 473. It stands in Section T of Laurel Hill East.",
       "verified_sources": [
         "https://laurelhillphl.com/arboretum/notable-trees-collection-highlights/",
@@ -290,14 +290,52 @@
       "access": "Free; cemetery gates open 7am to 7pm spring to fall and 7am to 5pm fall to spring (owner page)",
       "transport": "SEPTA bus 61 or 35 to Ridge Ave and Huntingdon St, short walk; roughly 30 minutes from Center City",
       "location_precision": "approximate",
+      "pin_source": "reader report 1000135, pin moved by hand on the map 306 m from the cemetery coordinate, inside Laurel Hill East (2026-11-23)",
       "curation_status": "flagged",
-      "verify_notes": "One source, the owner (Laurel Hill Cemetery arboretum notable-trees page): tag 473, Section T, Laurel Hill East; 'second-largest bigleaf linden in the state'; 'State Champion cut-leaf cultivar'; the cultivar is usually much smaller than the species. No girth, height or age on the page. Pin is only the cemetery coordinate (wiki), trunk not placed; cemetery map section T / tag 473 needed for the exact spot. Not a small site: cemetery is large, so no location_site. Findability depends on a recognition clue: irregularly lobed, cut or shredded looking leaves, tag 473, Section T. Life: owner page current; iNaturalist RECENT 2026-07-06 within the cemetery only. The weeping beech (tag 2338) and weeping pagoda tree (tag 758) are champions at Laurel Hill West in Bala Cynwyd, outside the city, not delivered.",
+      "verify_notes": "2026-11-23 reader judge: a reader's photograph through the app is the lead (old hollow-based linden beside a cemetery drive, cut lobed leaves in the close-up), two further views in the strip; the same day a reader moved the pin by hand 306 m from our cemetery coordinate to a spot inside Laurel Hill East, taken (our pin was the cemetery, not the trunk), kept approximate because it is hand-placed. One source, the owner (Laurel Hill Cemetery arboretum notable-trees page): tag 473, Section T, Laurel Hill East; 'second-largest bigleaf linden in the state'; 'State Champion cut-leaf cultivar'; the cultivar is usually much smaller than the species. No girth, height or age on the page. Pin is only the cemetery coordinate (wiki), trunk not placed; cemetery map section T / tag 473 needed for the exact spot. Not a small site: cemetery is large, so no location_site. Findability depends on a recognition clue: irregularly lobed, cut or shredded looking leaves, tag 473, Section T. Life: owner page current; iNaturalist RECENT 2026-07-06 within the cemetery only. The weeping beech (tag 2338) and weeping pagoda tree (tag 758) are champions at Laurel Hill West in Bala Cynwyd, outside the city, not delivered.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
-      }
+        "status": "approved",
+        "width": 1600,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+        "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: A broad old linden in autumn leaf beside the drive among the monuments of Laurel Hill, the whole tree in frame, daylight and colour; a second view shows its wide spreading crown beside the Sheppard obelisk, and a trunk close-up shows the hollowed, buttressed base under cut, lobed leaves. Species seen: deeply lobed, cut leaves (the close-up), linden crown and furrowed old trunk. Fits the description: an old cut-leaf linden among the graves of Laurel Hill East, far larger than the cultivar usually grows; the cut leaves the recognition line points at are visible.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden-trunk.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70-extra-1",
+          "note": "Photographed by a reader and sent through the app (2026-11-23) with the lead photograph; viewed and approved on 2026-11-23: the trunk close up: furrowed, twisting bark, a hollow opening at the base among buttress roots, the cut, lobed leaves hanging in front of it, graves and the cemetery drive behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "sent with the lead photograph the same day; the same autumn shows in it"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden-crown.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70-extra-2",
+          "note": "Photographed by a reader and sent through the app (2026-11-23) with the lead photograph; viewed and approved on 2026-11-23: the whole tree from across the graves, its broad crown just turning yellow beside the Sheppard obelisk and the cemetery drive, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "sent with the lead photograph the same day; the same autumn shows in it"
+        }
+      ]
     },
     {
       "id": "phl_008",

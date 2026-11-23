@@ -733,6 +733,15 @@
      "city_slug": "philadelphia",
      "display_name": null,
      "live": "2026-11-21"
+    },
+    {
+     "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70",
+     "tree_id": "phl_007",
+     "tree_name": "The Laurel Hill Cutleaf Linden",
+     "city": "Philadelphia",
+     "city_slug": "philadelphia",
+     "display_name": null,
+     "live": "2026-11-23"
     }
    ],
    "sent": [
