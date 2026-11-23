@@ -1,0 +1,73 @@
+{
+  "city": "Esrum",
+  "country": "Denmark",
+  "status": "needs_curation",
+  "intro": "Esrum is a small village in North Zealand, by the lake of Esrum Sø and the old Cistercian abbey, about 50 km north of Copenhagen. In the woods of Esbønderup Kohave nearby, once wood pasture for cattle, a reader found a burred and broken veteran oak they put at about 600 years and sent us its photograph. Its age is the reader's estimate, not a measurement.",
+  "meta_description": "A veteran oak in the woods of Esbønderup Kohave near Esrum, North Zealand, that a reader puts at about 600 years: where it stands and how to find it.",
+  "question_meta": "A veteran oak in the woods of Esbønderup Kohave near Esrum, North Zealand, that a reader puts at about 600 years: where it stands and how to find it.",
+  "question_answer": "The Burred Oak of Esbønderup Kohave stands in open woodland by the lane called Tingbakken near Esrum, in Gribskov, North Zealand. It can be reached on foot from the lane.",
+  "question_context": "North Zealand was hunting country for Danish kings, and much of it is still forest, the woods of Gribskov among the largest in the country. Esrum lies at its edge, by the lake of Esrum Sø and the remains of a great Cistercian abbey. A reader who has been sending us the old trees of the region found this oak in Esbønderup Kohave, a wood whose name records what it used to be: a kohave, a pasture where cows grazed among the trees. Grazing kept the ground open, and in open ground an oak grows broad rather than tall. This one has that shape. Its trunk is grey, massive and covered in burrs, a hollow gapes at its foot, and the main stem has split and broken at the top, leaving living branches growing from a jagged crown. Young beech and hazel have grown up around it since the cattle left. The reader puts it at about 600 years. That is their estimate, not a measurement or a register figure we have seen, but the burrs, the hollow and the broken crown are what very old oaks look like. Tell us its girth on its page.",
+  "hero_tree_id": "esr_001",
+  "oldest_tree_id": "esr_001",
+  "faq": [
+    {
+      "q": "What is the old tree near Esrum?",
+      "a": "A veteran pedunculate oak in the woods of Esbønderup Kohave, its trunk covered in burrs and its top broken. A reader puts it at about 600 years."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. It stands in open woodland by a lane; the reader walked up to it."
+    },
+    {
+      "q": "How old is the oak?",
+      "a": "About 600 years by the reader's estimate. We have no measurement or register entry yet; if you have one, tell us on the tree's page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "esr_001",
+      "name": "The Burred Oak of Esbønderup Kohave",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 600 years, by a reader's estimate",
+      "location": {
+        "address": "Woodland by Tingbakken, Esbønderup Kohave, near Esrum, Gribskov",
+        "latitude": 56.0462861666667,
+        "longitude": 12.37162,
+        "neighbourhood": "Esbønderup Kohave"
+      },
+      "how_to_recognise": "A huge grey oak trunk among slender young trees, covered in burrs and knobs, with a great split, broken stem rising out of the top and a gaping hollow at its foot.",
+      "access": "In open woodland by a lane; the reader walked up to it. About 50 km north of Copenhagen, near Esrum.",
+      "story": "A reader who has been sending us the old trees of North Zealand gave this one about 600 years, and its trunk makes the figure easy to believe.\n\nIt stands in the woods of Esbønderup Kohave, near Esrum, where kohave means the cows' enclosure: wood pasture where cattle once grazed among the trees, which is how oaks like this got the light and room to grow so broad. Young beech and hazel have closed in around it since. The trunk is the colour of old stone and covered in burrs, knobs and swellings, and at its foot a hollow opens where the wood has rotted away and the tree has grown around the wound. Higher up, the main stem has split and shattered, leaving a jagged crown of broken timber with living branches still coming out of it.\n\nOaks this old often lose their tops and carry on for centuries as a hollow shell, and this one looks well on the way.\n\nThe 600 years are the reader's estimate; we have no measurement or register entry yet. If you know its girth or its name, tell us here.\n\nWalk all the way round it. The burrs on the far side are the best.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "612dba2e-2227-4ca5-87fd-41f581f70f79",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "612dba2e-2227-4ca5-87fd-41f581f70f79",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (612dba2e-2227-4ca5-87fd-41f581f70f79, through the app). Photograph viewed: the massive grey trunk of a veteran oak among young trees, swollen with burrs, a shattered stem at the top, autumn leaves on the ground, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Pedunculate Oak near Copenhagen', species 'Pedunculate Oak', age '600', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/esr_001-burred-oak-of-esb-nderup-kohave.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "612dba2e-2227-4ca5-87fd-41f581f70f79",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the massive grey trunk of a veteran oak among young trees, swollen with burrs, a shattered stem at the top, autumn leaves on the ground, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

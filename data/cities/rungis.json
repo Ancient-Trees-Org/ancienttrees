@@ -1,0 +1,72 @@
+{
+  "city": "Rungis",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Rungis, just south of Paris, is known around the world for its wholesale food market, but its old village centre keeps a quieter treasure. A reader found a many-stemmed large-leaved lime there, given its own oval bed and a path that loops around it, and puts it at about 200 years. A small label on its trunk may say more; tell us if you read it.",
+  "meta_description": "A many-stemmed large-leaved lime in the old village centre of Rungis, south of Paris, about 200 years old by a reader's estimate.",
+  "question_meta": "A many-stemmed large-leaved lime in the old village centre of Rungis, south of Paris, about 200 years old by a reader's estimate.",
+  "question_answer": "The Large-leaved Lime of Rungis stands in the old village centre of Rungis, Le Bourg Ancien, in its own oval bed with a sanded path around it.",
+  "question_context": "Most people who know the name Rungis know it for the vast wholesale food market that feeds Paris, moved here from Les Halles in 1969. The old village centre, Le Bourg Ancien, is a different place, a few streets of older houses and gardens that predate the market by centuries. A reader who has been sending us the remarkable trees south of Paris found this lime there. Someone clearly values it. It stands in its own oval bed, edged with a low kerb, with a sanded path looping all the way round and a small label fixed to the trunk. Low down the trunk divides into several stems that climb together into a tall crown. In November, when the reader came, the heart-shaped leaves were turning yellow and copper and the winged seed bracts still hung among them. The reader identifies it as a large-leaved lime, Tilia platyphyllos, the broad-leaved native lime of European woods and old parks, and gives it about 200 years, with one stem 120 centimetres round. Those figures are theirs; we have not yet seen the garden's own record. If you can read the label, tell us on the tree's page.",
+  "hero_tree_id": "rng_001",
+  "oldest_tree_id": "rng_001",
+  "faq": [
+    {
+      "q": "What is the remarkable tree in Rungis?",
+      "a": "A large-leaved lime in the old village centre whose trunk splits low into several stems, standing in its own oval bed."
+    },
+    {
+      "q": "How old is it?",
+      "a": "About 200 years by the estimate of the reader who sent it. We have not yet found the garden's own record."
+    },
+    {
+      "q": "Can I walk round it?",
+      "a": "Yes, a sanded path loops all the way round its bed."
+    }
+  ],
+  "trees": [
+    {
+      "id": "rng_001",
+      "name": "The Large-leaved Lime of Rungis",
+      "species": "Large-leaved Lime (Tilia platyphyllos)",
+      "age_estimate": "about 200 years, by a reader's estimate",
+      "location": {
+        "address": "Le Bourg Ancien, Rungis, Val-de-Marne",
+        "latitude": 48.7487438587201,
+        "longitude": 2.34860244460965,
+        "neighbourhood": "Le Bourg Ancien"
+      },
+      "how_to_recognise": "A tall lime whose trunk splits low into several stems, standing in its own oval bed edged with a kerb, a sanded path looping round it and a small label on the trunk.",
+      "access": "The reader photographed it from the sanded path around it. We have not confirmed the garden's opening hours.",
+      "story": "A reader who has been sending us the remarkable trees south of Paris found this lime in the old village centre of Rungis, better known to most people as the home of the great wholesale food market.\n\nThe tree has been given a place of honour. It stands in its own oval bed, edged with a low kerb, and a sanded path loops around it so that visitors can walk the whole way round. A small label is fixed to the trunk. Low down the trunk divides into several stems, dark and finely ridged, which climb together into a tall crown, the heart-shaped leaves turning yellow and copper when the reader came in November, with seed bracts hanging among them.\n\nThe reader identifies it as a large-leaved lime, Tilia platyphyllos, and gives it about 200 years; its girth they put at 120 centimetres for one stem. Those figures are theirs, and we have not yet found the garden's own record.\n\nIf you can read the label, or know the garden it stands in, tell us here and we will add it.\n\nWalk the path all the way round to see the stems part.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "2ff9e6a6-f9c3-4800-b312-549f353c53ad",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "2ff9e6a6-f9c3-4800-b312-549f353c53ad",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (2ff9e6a6-f9c3-4800-b312-549f353c53ad, through the app). Photograph viewed: a tall many-stemmed lime standing in a ring of sanded path, a small label on the trunk, its crown turning in autumn, yew beside it, blue sky, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Large-leaved lime near Chatenay-Malabry', species 'Large-leaved lime (Tilia platophyllos)', age '200 years estimated', girth 120 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/rng_001-large-leaved-lime-of-rungis.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+        "sighting_id": "2ff9e6a6-f9c3-4800-b312-549f353c53ad",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a tall many-stemmed lime standing in a ring of sanded path, a small label on the trunk, its crown turning in autumn, yew beside it, blue sky, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

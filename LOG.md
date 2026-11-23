@@ -12,6 +12,32 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: 13 readers' trees live, 12 photos placed, 3 reports closed
+
+**What changed in the product**
+- **New readers' trees, 13 live** (every photograph viewed). Paris par_077 is a tall plane in the Jardin des Plantes; the reader's 241 years are stated as theirs, and the French overlay is done. Copenhagen gets three trees in Birkerød: cop_051 (an oak on a footpath), cop_052 (an oak standing on bare roots) and cop_053 (a burred village tree by a thatched house; species asked of readers, a lime by its burrs). New places:
+  - Varese: var_001, a cedar of Lebanon, and var_002, a gold ginkgo. Both match MASAF register entries 36 m and 15 m away; the register's girth and height are on the ginkgo.
+  - Esrum: esr_001, a burred, broken veteran oak in Esbønderup Kohave, 600 years by the reader's estimate.
+  - McMinnville, Tennessee: mcm_001, a huge spreading oak with one limb resting on the grass. Added to data/us-states.json.
+  - Siliqua, Sardinia: slq_001, "the Queen" olive. The reader's 1,000 years and their Phoenician story are stated as theirs. Hand-placed pin, approximate.
+  - Rungis: rng_001, a many-stemmed large-leaved lime. Hand-placed pin, approximate.
+- **Photos of trees we map**: rom_024 has its first photograph. New lead photos on lon_036 (pin moved 44 m to the reader's fix), stb_002, par_016 and cma_001. Strip photos on mlr_002, mel_005, rom_028, wai_001 (a person in frame, so never the lead) and par_076.
+- **Kett's Oak (hth_001)**: a reader sent a photo marked "not sure which tree". It shows the oak itself (the 1910 plaque, the prop), so it is now hth_001's lead photo and report 1000131 is closed.
+- **par_076, the bur oak**: a reader photographed its Muséum label ("Arbre historique, planté en 1811"). The planting year is now on the page in English and French.
+- **thm_001**: a photo of the Varese cedar was sent for St. Wolfgang's Oak, 426 km away. Rejected as a duplicate of the Varese lead.
+- **rom_024**: rewrote a colon reveal in its story, since a reader photo now puts it in Google.
+- **Held, under the closed list**:
+  - c3cd1f53 `dead`: the reader says the beech was cut down.
+  - c519f040, d40d0b0e, 81bfa129, 8faa5fe0 `not_special`: an ordinary lane tree, a garden tree, a slender fan palm and a common pollard willow.
+  - 2beaef82 `not_public`: two ginkgos at Shanghai Jiao Tong University; we cannot tell whether they are visible from outside the campus. hold_reply.py only takes website submissions, so no mail went (the known gap).
+- **3c544597** (one of our own, no photo on disk) was left for the intake.
+
+**Reports**
+- **1000132, Split spl_002**: the pin moved 80 m to the reader's spot (approximate, hand-placed). Standard pin thank-you sent.
+- **1000130, Hamburg hbg_005**: the reader asked for their selfie to come off because their faces show. It is off the page (`--unstrip`), since a recognisable person is the one case that comes off on request. Closed `holds`, with a suggested reply in drafts/reply-reader-1000130-2026-11-23.md. For Hidde: their words were "I didn't realize adding my photo to my trees would post it on the page". Collect-flow photos going public surprised a reader.
+
+Checks: preflight 0 problems, i18ncheck fr/paris clean, qa source-only nothing to fix.
+
 ## 2026-11-23 - Night run 2026-11-23 02:08 UTC ended without saying anything
 
 Written by the workflow's Run health step, not by the run. 0.0 minutes of its 120 minute window, 1 turns, ended clean (success). 3 commit(s), none of them a published tree.

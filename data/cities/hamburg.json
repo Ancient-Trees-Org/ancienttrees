@@ -202,22 +202,7 @@
         "kind": "flowers",
         "label": "August and September, when it hangs cream flowers over the water and almost nothing else is flowering"
       },
-      "height_m": 20,
-      "photos": [
-        {
-          "url": "https://ancienttrees.app/photos/hbg_005-the-japanese-pagoda-tree-of-alsterufer-bc7a74af.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
-          "status": "approved",
-          "width": 1600,
-          "height": 1200,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_b81a3a3687bb06105a51977f",
-          "sighting_id": "bc7a74af-25a5-4044-80e7-f61a09268e6c",
-          "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-22: the readers' own selfie at the tree at dusk, the whole bare crown behind them and the heritage-tree sign they point at; belongs in the gallery, never the lead Species seen: bare winter crown of a pagoda tree, wide low limbs, dark furrowed trunk, small pinnate leaves still hanging. Fits the description: one large tree standing clear on the lawn of the Alsterufer with the white villas behind, its information sign at the foot; GPS 15 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-        }
-      ]
+      "height_m": 20
     },
     {
       "id": "hbg_006",

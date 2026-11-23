@@ -1,51 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-23",
- "queue": [
-  {
-   "sighting_id": "1bd94bb4-b914-4baf-861c-c17b843afede",
-   "user_id": "p_d08befbb4870fc0971e550d1",
-   "tree_id": "mlr_002",
-   "city_slug": "mangaluru",
-   "city": "Mangaluru",
-   "tree_name": "The Tree House Rain Tree of the Netravati Promenade",
-   "match": "app",
-   "distance_m": 20,
-   "mine": false,
-   "current_photo": "approved",
-   "current_source": "contributor",
-   "tree_species": "Rain Tree (Samanea saman)",
-   "recognise": "On the riverside promenade: the big leaning tree with a wooden tree house and a long timber stair built into its limbs, one huge limb reaching out low towards the river.",
-   "tree_girth_cm": null,
-   "tree_height_m": null,
-   "story": "A reader walking the new riverside promenade in Bolar, where Mangaluru meets the Netravati, sent us this tree, and it is easy to see why they stopped.\n\nThe trunk is thick and leans towards the water, and low down it throws out one enormous limb almost level with the ground, reaching out over the planted beds towards the river before it turns up to the light. Above it the crown spreads in every direction, a wide roof of fine leaves that lets the grey sky through in lace. Someone thought the tree strong enough to carry a house, and a wooden tree house with a railed deck now sits in the fork, reached by a long timber stair. Beyond it the railway bridge crosses the river.\n\nIt has the build of a ",
-   "name": "The Tree House Rain Tree of the Netravati Promenade",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-22",
-   "photo_path": "p_d08befbb4870fc0971e550d1/1BD94BB4-B914-4BAF-861C-C17B843AFEDE.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [],
-   "latitude": 12.8431133333333,
-   "longitude": 74.8552866666667,
-   "file": "out/sightings/1bd94bb4-b914-4baf-861c-c17b843afede.jpg",
-   "light": {
-    "verdict": "OK: daylight, colour, subject separated",
-    "brightness": 86.1,
-    "contrast": 58.7,
-    "colour": 0.21,
-    "blown": 0.0,
-    "dark": 0.03,
-    "subject": 86.1,
-    "subject_colour": 0.21
-   },
-   "vouched": null,
-   "rank": 1,
-   "worth": "the tree already has one: ship this only if it is better"
-  }
- ]
+ "queue": []
 }

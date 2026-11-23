@@ -2,7 +2,35 @@
  "readers": {
   "p_cdc28055a82c5ea92ef49afc": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "0298ec99-643a-4979-a63e-731f1a48b96b",
+     "tree_id": "par_016",
+     "tree_name": "The Twisted Beech of Square des Arenes de Lutece",
+     "city": "Paris",
+     "city_slug": "paris",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "9a75b453-1b54-495f-b324-eebda711e1c6",
+     "tree_id": "cma_001",
+     "tree_name": "The Weeping Cedar of the Vallée-aux-Loups (Cèdre pleureur)",
+     "city": "Chatenay-Malabry",
+     "city_slug": "chatenay-malabry",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "bf32ba20-2f33-4321-808f-9456ead136e1",
+     "tree_id": "par_076",
+     "tree_name": "The Bur Oak by the Cuvier Gate",
+     "city": "Paris",
+     "city_slug": "paris",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "0f3ee1e1-ad84-4a57-bf98-6a0b50826651",
@@ -920,7 +948,17 @@
   },
   "p_4a3e8be0cafb822ba00b39d3": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "e494bdab-3974-4a47-9974-23dbe270e2af",
+     "tree_id": "wai_001",
+     "tree_name": "Tāne Mahuta",
+     "city": "Waipoua Forest",
+     "city_slug": "waipoua-forest",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "ab926a56-7355-4115-aaeb-20715143d5c0",
@@ -1483,7 +1521,17 @@
   },
   "p_dc0896ccc090a0d74571d474": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "73aeb10a-7d8d-4715-acc3-7370c496056e",
+     "tree_id": "stb_002",
+     "tree_name": "The Plane of Largo Doutor Francisco Soveral",
+     "city": "Setubal",
+     "city_slug": "setubal",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "f696cf2f-53e9-4a97-b27a-fba78e23a118",
@@ -3046,6 +3094,75 @@
      "tree_name": "The Tree House Rain Tree of the Netravati Promenade",
      "city": "Mangaluru",
      "city_slug": "mangaluru",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_6f0fc411c4867f6898ab03d7": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "24f17594-d71b-47fd-b1c2-30c43609034f",
+     "tree_id": "rom_024",
+     "tree_name": "The Hackberry of the Parco degli Scipioni",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "49ad0d36-9014-440e-adc0-64bb5a26d48c",
+     "tree_id": "rom_028",
+     "tree_name": "The Hackberry of the Mura Latine",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_c893a1a90f2b6f2c2e29bbd9": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
+     "tree_id": "lon_036",
+     "tree_name": "The Chiswick House Cedars",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_dfaba0e9030577eb492dc27d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b0dd25ab-ff82-4ecf-828e-4943fb832358",
+     "tree_id": "mel_005",
+     "tree_name": "The Moreton Bay Fig of Curtain Square",
+     "city": "Melbourne",
+     "city_slug": "melbourne",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_5c52d5fff8db339a0c0b880e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "72e9f7bd-86b1-497e-ab3e-d702a42b134c",
+     "tree_id": "hth_001",
+     "tree_name": "Kett's Oak",
+     "city": "Hethersett",
+     "city_slug": "hethersett",
      "display_name": null,
      "live": "2026-11-23"
     }

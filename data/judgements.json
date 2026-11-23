@@ -108,8 +108,670 @@
     "score": null,
     "note": "nothing measurable about Palmeira leque"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "hold",
+   "reason": "not_special: a slender fan palm among forest trees on a park trail.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:24f17594-d71b-47fd-b1c2-30c43609034f",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Hackberry of the Parco degli Scipioni",
+   "city": "Rome",
+   "species": "Mediterranean Hackberry (Celtis australis)",
+   "photo": "out/sightings/24f17594-d71b-47fd-b1c2-30c43609034f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 35,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mediterranean Hackberry (Celtis australis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole hackberry, biggest tree in the park lawn; now the lead photo of rom_024, which had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:95f6b3b9-58df-469f-934c-6fc73c5ad755",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "St. Wolfgang's Oak (Wolfgangseiche)",
+   "city": "Thalmassing",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/95f6b3b9-58df-469f-934c-6fc73c5ad755.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 426324,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed: a cedar in a park 426 km from St. Wolfgang's Oak; the same photo the reader also sent as lead ecbeb1a2 (Varese), so rejected here as a duplicate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Chiswick House Cedars",
+   "city": "London",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 44,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Chiswick cedars among the statues, low sun; lead photo of lon_036, pin to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b0dd25ab-ff82-4ecf-828e-4943fb832358",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Curtain Square",
+   "city": "Melbourne",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/b0dd25ab-ff82-4ecf-828e-4943fb832358.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the fig's twin trunk and roots on the square's lawn; in the strip of mel_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:49ad0d36-9014-440e-adc0-64bb5a26d48c",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Hackberry of the Mura Latine",
+   "city": "Rome",
+   "species": "Mediterranean Hackberry (Celtis australis)",
+   "photo": "out/sightings/49ad0d36-9014-440e-adc0-64bb5a26d48c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mediterranean Hackberry (Celtis australis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the hackberry on its street corner; in the strip of rom_028.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e494bdab-3974-4a47-9974-23dbe270e2af",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "Tāne Mahuta",
+   "city": "Waipoua Forest",
+   "species": "Kauri (Agathis australis)",
+   "photo": "out/sightings/e494bdab-3974-4a47-9974-23dbe270e2af.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kauri (Agathis australis)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: Tane Mahuta's trunk rising from the ferns, a person at the bottom of the frame; in the strip, never the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:73aeb10a-7d8d-4715-acc3-7370c496056e",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Largo Doutor Francisco Soveral",
+   "city": "Setubal",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/73aeb10a-7d8d-4715-acc3-7370c496056e.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole plane in the cobbled Largo with its ring bench; lead photo of stb_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0298ec99-643a-4979-a63e-731f1a48b96b",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Beech of Square des Arenes de Lutece",
+   "city": "Paris",
+   "species": "Twisted Beech (Fagus sylvatica 'Tortuosa')",
+   "photo": "out/sightings/0298ec99-643a-4979-a63e-731f1a48b96b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Twisted Beech (Fagus sylvatica 'Tortuosa')"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: under the twisted beech, its contorted limbs; lead photo of par_016.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9a75b453-1b54-495f-b324-eebda711e1c6",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Weeping Cedar of the Vallée-aux-Loups (Cèdre pleureur)",
+   "city": "Chatenay-Malabry",
+   "species": "Blue Weeping Atlas Cedar (Cedrus atlantica 'Glauca Pendula')",
+   "photo": "out/sightings/9a75b453-1b54-495f-b324-eebda711e1c6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Blue Weeping Atlas Cedar (Cedrus atlantica 'Glauca Pendula')"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: under the weeping cedar, limbs on props; lead photo of cma_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bf32ba20-2f33-4321-808f-9456ead136e1",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Bur Oak by the Cuvier Gate",
+   "city": "Paris",
+   "species": "Bur Oak (Quercus macrocarpa)",
+   "photo": "out/sightings/bf32ba20-2f33-4321-808f-9456ead136e1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bur Oak (Quercus macrocarpa)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the garden's label on the trunk (Arbre historique, planted 1811); in the strip of par_076, and the planting year is now on the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:65e2af45-3f00-48f9-9926-93dea3e166ab",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_79e351a3759f50aa124b07d5/65E2AF45-3F00-48F9-9926-93DEA3E166AB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as mcminnville/mcm_001, a new one-tree place.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2beaef82-d143-42ab-96f8-0da147aa5ffa",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo in Shanghai",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/2BEAEF82-D143-42AB-96F8-0DA147AA5FFA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "hold",
+   "reason": "not_public: two ginkgos before a Shanghai Jiao Tong University building; cannot tell whether they can be seen without entering campus. hold_reply.py takes only website submissions, so no mail.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Olive",
+   "city": null,
+   "species": "Olive",
+   "photo": "p_08d632aed8d74c97ce2aafdc/A57AAE3B-B4F6-4CB6-BA60-EB4C2C5DEB6C.jpg",
+   "reader_note": "First: Possible Phoenician origin, so graft considered the tree is 5,000 years old\nSecond: magnificent twisted trank. \nThird: local people called it “The Queen”",
+   "reader_girth_cm": 1000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive"
+   },
+   "verdict": "publish",
+   "reason": "Live as siliqua/slq_001, a new one-tree place; the reader's 1,000 years and 5,000-year story stated as theirs; hand-placed pin, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:af63c929-b2a5-443b-a829-bc13a86ada8e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/AF63C929-B2A5-443B-A829-BC13A86ADA8E.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big crooked oak on a footpath between houses near Rude Skov, autumn light; live as copenhagen/cop_051.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c519f040-52d0-4e92-ae64-94ead678d2ee",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/C519F040-52D0-4E92-AE64-94EAD678D2EE.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a medium broadleaf at the end of a residential lane; nothing in the frame to walk for.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:72e9f7bd-86b1-497e-ab3e-d702a42b134c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_5c52d5fff8db339a0c0b880e/72E9F7BD-86B1-497E-AB3E-D702A42B134C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: Kett's Oak itself (1910 plaque, A-frame prop, railings); sent as unsure, now the lead photo of hth_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c3cd1f53-19d6-4281-8e1d-13b9c620e1b4",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "European Beech near Copenhagen",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/C3CD1F53-19D6-4281-8E1D-13B9C620E1B4.jpg",
+   "reader_note": "It was the most significant tree in the neighborhood, but recently it was cut down despite having no weaknesses.",
+   "reader_girth_cm": 200,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "hold",
+   "reason": "dead: the reader's own note says this beech was recently cut down.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b236b30f-6f5b-4a10-8cd2-11a7524b5403",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/B236B30F-6F5B-4A10-8CD2-11A7524B5403.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as copenhagen/cop_053 (Birkerod), species asked of readers (lime by its burrs).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d40d0b0e-3082-4d02-9810-a60256d6bcdd",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/D40D0B0E-3082-4D02-9810-A60256D6BCDD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a sizeable bare broadleaf in a private garden among bungalows; nothing says why a walker should come.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:8faa5fe0-68a1-43db-bfac-d5be097e97bd",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Jægerspris Nordskov",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/8FAA5FE0-68A1-43DB-BFAC-D5BE097E97BD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a common pollard willow by a playground path in Gadevang.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:7c8a8735-4486-4b48-a5ea-5ac657f58122",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "city": null,
+   "species": null,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/7C8A8735-4486-4B48-A5EA-5AC657F58122.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photographs viewed: a broad oak on a plate of bare roots by a field near Rude Skov; live as copenhagen/cop_052 with the whole-trunk frame as lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:612dba2e-2227-4ca5-87fd-41f581f70f79",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Copenhagen",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/612DBA2E-2227-4CA5-87FD-41F581F70F79.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "publish",
+   "reason": "Live as esrum/esr_001, a new one-tree place; age 600 as the reader's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2ff9e6a6-f9c3-4800-b312-549f353c53ad",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Large-leaved lime near Chatenay-Malabry",
+   "city": null,
+   "species": "Large-leaved lime (Tilia platophyllos)",
+   "photo": "p_cdc28055a82c5ea92ef49afc/2FF9E6A6-F9C3-4800-B312-549F353C53AD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 120,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Large-leaved lime (Tilia platophyllos)"
+   },
+   "verdict": "publish",
+   "reason": "Live as rungis/rng_001, a new one-tree place; hand-placed pin, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:28ece313-a518-403a-a24c-c960b32ccfe5",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Platanus x hispanica in Paris",
+   "city": null,
+   "species": "Platanus x hispanica",
+   "photo": "p_cdc28055a82c5ea92ef49afc/28ECE313-A518-403A-A24C-C960B32CCFE5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Platanus x hispanica"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall single plane trunk into a yellowing crown in the Jardin des Plantes, 160 m from the Buffon plane, which the same reader already photographed; live as paris/par_077, age as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ecbeb1a2-03b5-4ec4-b19c-4772926d63eb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Como",
+   "city": null,
+   "species": null,
+   "photo": "p_2d57f02847d77aa9cc40c5a1/ECBEB1A2-03B5-4EC4-B19C-4772926D63EB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 36 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 45.815556,
+      "lng": 8.822222,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Cedro del Libano",
+      "species": "Cedrus libani A.Richard",
+      "girth_cm": 1130.0,
+      "height_m": 34.0,
+      "distance_m": 35.9
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as varese/var_001 with the MASAF register line.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Como",
+   "city": null,
+   "species": null,
+   "photo": "p_2d57f02847d77aa9cc40c5a1/72D1CA58-7BBE-4B2B-B00E-5D5D3AD902D5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 15 m away (italy-masaf, Ginco): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 45.815,
+      "lng": 8.822778,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Ginco",
+      "species": "Ginkgo biloba L.",
+      "girth_cm": 365.0,
+      "height_m": 28.0,
+      "distance_m": 15.3
+     }
+    ]
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Live as varese/var_002 with the MASAF register girth and height.",
    "hidde": null,
    "agreed": null
   },
@@ -24968,6 +25630,138 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:72e9f7bd-86b1-497e-ab3e-d702a42b134c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "(unnamed)",
+   "photo": "p_5c52d5fff8db339a0c0b880e/72E9F7BD-86B1-497E-AB3E-D702A42B134C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: Kett's Oak itself (1910 plaque, A-frame prop, railings); the lead photo of hth_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:28ece313-a518-403a-a24c-c960b32ccfe5",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Platanus x hispanica in Paris",
+   "photo": "p_cdc28055a82c5ea92ef49afc/28ECE313-A518-403A-A24C-C960B32CCFE5.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall plane trunk into a yellowing crown, Jardin des Plantes; lead photo of par_077.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:af63c929-b2a5-443b-a829-bc13a86ada8e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/AF63C929-B2A5-443B-A829-BC13A86ADA8E.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big crooked oak on a footpath in Birkerod; lead photo of cop_051.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7c8a8735-4486-4b48-a5ea-5ac657f58122",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/7C8A8735-4486-4B48-A5EA-5AC657F58122.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a broad oak on bare roots by a field in Birkerod; lead photo of cop_052.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b236b30f-6f5b-4a10-8cd2-11a7524b5403",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/B236B30F-6F5B-4A10-8CD2-11A7524B5403.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big burred village tree by a thatched house in Birkerod; lead photo of cop_053.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:612dba2e-2227-4ca5-87fd-41f581f70f79",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak near Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/612DBA2E-2227-4CA5-87FD-41F581F70F79.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a burred, broken veteran oak in Esbonderup Kohave near Esrum; lead photo of esr_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:65e2af45-3f00-48f9-9926-93dea3e166ab",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_79e351a3759f50aa124b07d5/65E2AF45-3F00-48F9-9926-93DEA3E166AB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge spreading oak on a lawn in McMinnville, one limb on the grass; lead photo of mcm_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Olive",
+   "photo": "p_08d632aed8d74c97ce2aafdc/A57AAE3B-B4F6-4CB6-BA60-EB4C2C5DEB6C.jpg",
+   "reader_note": "First: Possible Phoenician origin, so graft considered the tree is 5,000 years old\nSecond: magnificent twisted trank. \nThird: local people called it “The Queen”",
+   "verdict": "publish",
+   "reason": "Photograph viewed: the vast twisted base of an ancient olive near Siliqua; lead photo of slq_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2ff9e6a6-f9c3-4800-b312-549f353c53ad",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Large-leaved lime near Chatenay-Malabry",
+   "photo": "p_cdc28055a82c5ea92ef49afc/2FF9E6A6-F9C3-4800-B312-549F353C53AD.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a many-stemmed lime in its own oval bed in Rungis; lead photo of rng_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ecbeb1a2-03b5-4ec4-b19c-4772926d63eb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Como",
+   "photo": "p_2d57f02847d77aa9cc40c5a1/ECBEB1A2-03B5-4EC4-B19C-4772926D63EB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a vast cedar of Lebanon in a Varese garden, register entry 36 m off; lead photo of var_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Como",
+   "photo": "p_2d57f02847d77aa9cc40c5a1/72D1CA58-7BBE-4B2B-B00E-5D5D3AD902D5.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a gold ginkgo from below in Varese, register entry 15 m off; lead photo of var_002.",
    "hidde": null,
    "agreed": null
   }

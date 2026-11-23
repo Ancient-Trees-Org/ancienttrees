@@ -7006,8 +7006,195 @@
    "date": "2026-11-23"
   },
   "81bfa129-ea0e-4f2a-82cd-4625248520d2": {
-   "outcome": "lead",
+   "outcome": "held",
    "date": "2026-11-23"
+  },
+  "65e2af45-3f00-48f9-9926-93dea3e166ab": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "2beaef82-d143-42ab-96f8-0da147aa5ffa": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "af63c929-b2a5-443b-a829-bc13a86ada8e": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "c519f040-52d0-4e92-ae64-94ead678d2ee": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "72e9f7bd-86b1-497e-ab3e-d702a42b134c": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "hth_001",
+   "city_slug": "hethersett",
+   "file": "hth_001-kett-s-oak-72e9f7bd.jpg",
+   "reason": "Kett's Oak from the verge: its railings with the 1910 plaque, the A-frame prop, the broad leaning crown against the sky, daylight. Species seen: oak: lobed leaves, deeply fissured trunk, wide crooked limbs. Fits the description: a broad leaning oak behind black railings on a verge, a long limb on a ",
+   "lat": 52.5878,
+   "lon": 1.15584444444444,
+   "pin_checked": "2026-11-23"
+  },
+  "c3cd1f53-19d6-4281-8e1d-13b9c620e1b4": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "b236b30f-6f5b-4a10-8cd2-11a7524b5403": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "d40d0b0e-3082-4d02-9810-a60256d6bcdd": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "8faa5fe0-68a1-43db-bfac-d5be097e97bd": {
+   "outcome": "held",
+   "date": "2026-11-23"
+  },
+  "7c8a8735-4486-4b48-a5ea-5ac657f58122": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "612dba2e-2227-4ca5-87fd-41f581f70f79": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "2ff9e6a6-f9c3-4800-b312-549f353c53ad": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "28ece313-a518-403a-a24c-c960b32ccfe5": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5": {
+   "outcome": "published",
+   "date": "2026-11-23"
+  },
+  "24f17594-d71b-47fd-b1c2-30c43609034f": {
+   "outcome": "published",
+   "date": "2026-11-23",
+   "tree_id": "rom_024",
+   "city_slug": "rome",
+   "file": "rom_024-the-hackberry-of-the-parco-degli-scipioni.jpg",
+   "reason": "The whole hackberry in the park lawn, the biggest tree in frame, daylight and colour; closes a gap. Species seen: grey smooth multi-limbed trunk, small toothed hackberry leaves thinning in autumn. Fits the description: a big lone tree in the middle of the park lawn, larger than everything round it.",
+   "lat": 41.8762992027745,
+   "lon": 12.5014365394002,
+   "pin_checked": "2026-11-23"
+  },
+  "95f6b3b9-58df-469f-934c-6fc73c5ad755": {
+   "outcome": "rejected",
+   "date": "2026-11-23",
+   "tree_id": "thm_001",
+   "reason": "Duplicate: the same photograph of the Varese cedar the same reader also sent as lead ecbeb1a2; it is 426 km from St. Wolfgang's Oak, so not our tree."
+  },
+  "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "lon_036",
+   "city_slug": "london",
+   "file": "lon_036-the-chiswick-house-cedars-0313e5e3.jpg",
+   "reason": "Two great cedars in the Chiswick House grounds with the sphinx and urns, low autumn sun, colour. Species seen: cedars: flat dark tiered foliage, pale grey trunks. Fits the description: the cedars among the statues and urns of the Chiswick gardens.",
+   "lat": 51.4838866666667,
+   "lon": -0.259545,
+   "pin_checked": "2026-11-23"
+  },
+  "1bd94bb4-b914-4baf-861c-c17b843afede": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "mlr_002",
+   "city_slug": "mangaluru",
+   "file": "mlr_002-the-tree-house-rain-tree-of-the-netravati-promenade-1bd94bb4.jpg",
+   "reason": "Taken from the tree house itself: the rain tree's limbs over the Netravati backwater through the railing. Belongs on the page, should not lead it. Species seen: rain tree: fine bipinnate leaves, long spreading limbs. Fits the description: the tree house platform built into the rain tree above the ri",
+   "lat": 12.8431133333333,
+   "lon": 74.8552866666667,
+   "pin_checked": "2026-11-23"
+  },
+  "b0dd25ab-ff82-4ecf-828e-4943fb832358": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "mel_005",
+   "city_slug": "melbourne",
+   "file": "mel_005-the-moreton-bay-fig-of-curtain-square-b0dd25ab.jpg",
+   "reason": "The fig's twin trunk and buttress roots close up, backlit, the square's lawn behind; a trunk view for the strip. Species seen: smooth grey fig trunk with flared roots, big leathery leaves. Fits the description: a fig on the lawn of a park square with terraced houses beyond.",
+   "lat": -37.7895065318674,
+   "lon": 144.973792451217,
+   "pin_checked": "2026-11-23"
+  },
+  "49ad0d36-9014-440e-adc0-64bb5a26d48c": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "rom_028",
+   "city_slug": "rome",
+   "file": "rom_028-the-hackberry-of-the-mura-latine-49ad0d36.jpg",
+   "reason": "The hackberry on its street corner by the stop sign and the old villa, daylight, colour; a little flare, so the strip. Species seen: hackberry: grey trunk, dense crown of small narrow leaves. Fits the description: a big tree on a street corner by the old wall area of Rome.",
+   "lat": 41.8764823729875,
+   "lon": 12.5026247924526,
+   "pin_checked": "2026-11-23"
+  },
+  "e494bdab-3974-4a47-9974-23dbe270e2af": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "wai_001",
+   "city_slug": "waipoua-forest",
+   "file": "wai_001-t-ne-mahuta-e494bdab.jpg",
+   "reason": "Tane Mahuta's pale trunk rising out of the forest; a person stands at the bottom of the frame, so it stays out of the lead. Species seen: kauri: massive pale scaly bole, crown high above. Fits the description: the giant kauri in Waipoua forest among ferns.",
+   "lat": -35.60111,
+   "lon": 173.5272,
+   "pin_checked": "2026-11-23"
+  },
+  "73aeb10a-7d8d-4715-acc3-7370c496056e": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "stb_002",
+   "city_slug": "setubal",
+   "file": "stb_002-the-plane-of-largo-doutor-francisco-soveral-73aeb10a.jpg",
+   "reason": "The whole plane in the cobbled square with its curved bench, cafe parasols and pastel houses, daylight, colour. Species seen: plane: mottled pale bark, maple-like leaves turning. Fits the description: a single plane in the middle of the Largo with a ring bench.",
+   "lat": 38.5236,
+   "lon": -8.8919,
+   "pin_checked": "2026-11-23"
+  },
+  "0298ec99-643a-4979-a63e-731f1a48b96b": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "par_016",
+   "city_slug": "paris",
+   "file": "par_016-the-twisted-beech-of-square-des-arenes-de-lutece-0298ec99.jpg",
+   "reason": "Under the twisted beech: the contorted grey limbs and low dome of leaves, daylight, colour. Species seen: beech: smooth grey bark, oval toothed leaves, Fagus sylvatica 'Tortuosa' shape. Fits the description: a twisted beech whose limbs snake over bare ground in the square.",
+   "lat": 48.8448875264065,
+   "lon": 2.35366916318936,
+   "pin_checked": "2026-11-23"
+  },
+  "9a75b453-1b54-495f-b324-eebda711e1c6": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "cma_001",
+   "city_slug": "chatenay-malabry",
+   "file": "cma_001-the-weeping-cedar-of-the-vall-e-aux-loups-c-dre-pleureur-9a75b453.jpg",
+   "reason": "Under the weeping cedar: the trunk and its long limbs spreading on props over the lawn, blue needles hanging, daylight. Species seen: blue-grey weeping cedar needles hanging in curtains. Fits the description: the great weeping cedar of the Vallee-aux-Loups with limbs on wooden props.",
+   "lat": 48.77117,
+   "lon": 2.27116,
+   "pin_checked": "2026-11-23"
+  },
+  "bf32ba20-2f33-4321-808f-9456ead136e1": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "par_076",
+   "city_slug": "paris",
+   "file": "par_076-the-bur-oak-by-the-cuvier-gate-bf32ba20.jpg",
+   "reason": "The garden's own label on the trunk: Arbre historique, Quercus macrocarpa, planted 1811. A sign belongs in the strip. Species seen: label reads Quercus macrocarpa; deeply ridged oak bark. Fits the description: the bur oak's trunk with the Jardin des Plantes historic tree label.",
+   "lat": 48.843895,
+   "lon": 2.35528833333333,
+   "pin_checked": "2026-11-23"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

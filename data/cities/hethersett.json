@@ -32,17 +32,17 @@
       "verify_notes": "2026-11-15: sent by a reader through the app (submissions 723 and 725, same account, same fix; 725 carried the photograph, 723 the note). Wikipedia: English oak beside the B1172 between Wymondham and Hethersett, one of the 50 Great British Trees, traditional site of the Ketts' address in 1549; poor condition, split filled with cement, iron bands (Norfolk Heritage Explorer), biochar applied to the roots by Norfolk County Council in August 2020. NHER 9451: veteran oak reputed locally to be the tree. No age published.",
       "access": "Free, on the grass verge of the B1172 behind railings; take care with traffic.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/hth_001-ketts-oak.jpg",
-        "taken_month_basis": "dark green oak crown with faint bronze patches, too slight to call autumn (season pass, 2026-11-19)",
+        "url": "https://ancienttrees.app/photos/hth_001-kett-s-oak-72e9f7bd.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_664d50650493d694066a41f5",
-        "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
-        "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole oak on its verge with railings and prop, overcast daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        "contributor_user_id": "p_5c52d5fff8db339a0c0b880e",
+        "sighting_id": "72e9f7bd-86b1-497e-ab3e-d702a42b134c",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Kett's Oak from the verge: its railings with the 1910 plaque, the A-frame prop, the broad leaning crown against the sky, daylight. Species seen: oak: lobed leaves, deeply fissured trunk, wide crooked limbs. Fits the description: a broad leaning oak behind black railings on a verge, a long limb on a timber A-frame prop.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -51,7 +51,22 @@
         "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood with a GPS fix while photographing this tree."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hth_001-ketts-oak.jpg",
+          "taken_month_basis": "dark green oak crown with faint bronze patches, too slight to call autumn (season pass, 2026-11-19)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_664d50650493d694066a41f5",
+          "sighting_id": "c3bc464b-c6e2-4ef3-8e24-471e4e4e92c1",
+          "note": "Photographed by a reader and sent through the app; looked at 2026-11-15: the whole oak on its verge with railings and prop, overcast daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ],
   "question_meta": "Kett's Oak near Hethersett, Norfolk: the 1549 rebellion story, its condition, and where to see it.",

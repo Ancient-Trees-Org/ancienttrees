@@ -1,0 +1,72 @@
+{
+  "city": "Siliqua",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Siliqua is a farming town in the south of Sardinia, in the plain below the castle of Acquafredda. In the countryside nearby grows an ancient olive that local people, a reader tells us, call the Queen: a trunk of twisted, hollowed wood wider than a car, which the reader puts at about a thousand years. Its age is the reader's estimate; we would love a measurement.",
+  "meta_description": "An ancient olive near Siliqua in south Sardinia that local people call the Queen, about 1,000 years old by a reader's estimate.",
+  "question_meta": "An ancient olive near Siliqua in south Sardinia that local people call the Queen, about 1,000 years old by a reader's estimate.",
+  "question_answer": "The Queen Olive of Siliqua grows in the countryside near Siliqua, in South Sardinia, inside a low wooden fence. The reader photographed it from the ground beside its trunk.",
+  "question_context": "Sardinia is olive country, and its oldest olives are among the oldest in the Mediterranean, their trunks twisted into shapes no young tree could make. Siliqua is a farming town in the south of the island, on the plain below the castle of Acquafredda, and in the countryside nearby grows the olive a reader sent us. Local people, they tell us, call it the Queen. The photograph shows a trunk that has become a sculpture: ribbed, knotted and hollowed, wider at the base than a car and wound round itself like rope, with silver-green branches still spreading overhead. That twisted, hollow shape is how an olive ages. Its heart rots away and the living wood grows on around the gap, so that a very old tree becomes a ring of columns twisting together. The reader puts it at about a thousand years and its girth at some ten metres, and adds a local story of Phoenician origin and a far greater age. All of that is theirs, not a measurement or a source we have seen, and olive ages are notoriously hard to pin down. The photograph shows a very old tree, worth the drive.",
+  "hero_tree_id": "slq_001",
+  "oldest_tree_id": "slq_001",
+  "faq": [
+    {
+      "q": "What is the Queen olive?",
+      "a": "An ancient olive near Siliqua in Sardinia whose trunk is a huge twisted mass of hollowed wood. A reader tells us local people call it the Queen."
+    },
+    {
+      "q": "How old is it?",
+      "a": "About 1,000 years by the reader's estimate. Olive ages are hard to settle, and we have no measurement yet."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "The reader stood beside it inside a low wooden fence. We have not confirmed who looks after the site or when it is open; ask locally."
+    }
+  ],
+  "trees": [
+    {
+      "id": "slq_001",
+      "name": "The Queen Olive of Siliqua",
+      "species": "Olive (Olea europaea)",
+      "age_estimate": "about 1,000 years, by a reader's estimate",
+      "location": {
+        "address": "Countryside near Siliqua, South Sardinia",
+        "latitude": 39.2547569888032,
+        "longitude": 8.76054942150984,
+        "neighbourhood": "Siliqua"
+      },
+      "how_to_recognise": "An olive whose trunk is a huge twisted mass of ribbed and hollowed wood, wider than it is tall, standing on bare ground inside a wooden rail fence.",
+      "access": "The reader photographed it from the ground inside a low wooden fence. We have not confirmed opening times or who looks after the site; ask locally.",
+      "story": "\"Local people called it 'The Queen',\" wrote the reader who sent us this olive from the countryside near Siliqua, in the south of Sardinia.\n\nThe photograph shows why. The trunk is less a trunk than a sculpture, a vast twisted mass of wood, ribbed, knotted and hollowed, wider at the base than a car and wound round itself like rope. Olives this old split, rot from the inside and keep growing around the gaps, so that the living tree becomes a ring of separate columns twisting together, and this one has been doing it for a very long time. Silver-green branches still spread above it, and a wooden rail fence keeps the ground around it clear.\n\nThe reader gives it about 1,000 years and its girth at some ten metres. They add a story of their own: \"Possible Phoenician origin, so graft considered the tree is 5,000 years old.\" Those are their figures and their story, not a measurement or a source we have seen; an olive's age is famously hard to settle.\n\nIf you know the Queen, her measurements or the name the village uses, tell us here.\n\nGo in the morning, before the Sardinian sun is high, and walk slowly round the trunk.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c, through the app). Photograph viewed: the vast twisted base of an ancient olive, its trunk a mass of ribbed, hollowed and knotted wood, silver leaves overhead, a wooden fence behind, bright summer daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Olive', species 'Olive', age '1000 years', girth 1000 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/slq_001-queen-olive-of-siliqua.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1066,
+        "source": "contributor",
+        "contributor_user_id": "p_08d632aed8d74c97ce2aafdc",
+        "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the vast twisted base of an ancient olive, its trunk a mass of ribbed, hollowed and knotted wood, silver leaves overhead, a wooden fence behind, bright summer daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 8,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

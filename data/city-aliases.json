@@ -4724,6 +4724,11 @@
     "silale": [
       "Šėlalė"
     ],
+    "siliqua": [
+      "Silique",
+      "Silikwa",
+      "Silikva"
+    ],
     "singapore": [
       "Singapur",
       "Singapour",
@@ -5286,6 +5291,16 @@
       "Vankuveris",
       "Vankūvera",
       "Vankuver"
+    ],
+    "varese": [
+      "Varezė",
+      "Baretium",
+      "Varais",
+      "Vareise",
+      "Vares",
+      "Varesi",
+      "Varexe",
+      "Varèis"
     ],
     "vassununga": [
       "Parque Estadual Vassununga"
@@ -6262,6 +6277,7 @@
     "maxaranguape": "Maxaranguape",
     "mbissel": "Mbissel",
     "mcely": "Mcely",
+    "mcminnville": "McMinnville, Tennessee",
     "meares-island": "Meares Island",
     "meikleour": "Meikleour",
     "melbourne": "Melbourne",
@@ -6464,6 +6480,7 @@
     "rudy": "Rudy",
     "rumskulla": "Vimmerby Municipality",
     "runa": "Runa, Portugal",
+    "rungis": "Rungis",
     "runnymede": "Runnymede",
     "s-gravenvoeren": "Voeren",
     "sachsenbrunn": "Sachsenbrunn",
@@ -6527,6 +6544,7 @@
     "shokawa": "Shokawa",
     "sila": "Sila National Park",
     "silale": "Šilalė",
+    "siliqua": "Siliqua",
     "silton": "Silton",
     "simsbury": "Simsbury, Connecticut",
     "singapore": "Singapore",
@@ -6639,6 +6657,7 @@
     "vallombrosa": "Vallombrosa",
     "vancouver": "Vancouver",
     "vancouver-washington": "Vancouver, Washington",
+    "varese": "Varese",
     "vassununga": "Vassununga State Park",
     "veliki-preslav": "Veliki Preslav",
     "velke-borove": "Veľké Borové",
@@ -6840,6 +6859,7 @@
     "maxaranguape": "Maxaranguape",
     "mbissel": "Mbissel",
     "mcely": "Mcely",
+    "mcminnville": "McMinnville, Tennessee",
     "meikleour": "Meikleour",
     "mendaza": "Mendaza",
     "miriam-vale": "Miriam Vale",
@@ -6876,6 +6896,7 @@
     "rogalin": "Rogalin",
     "rudy": "Rudy",
     "runa": "Runa, Portugal",
+    "rungis": "Rungis",
     "runnymede": "Runnymede",
     "sachsenbrunn": "Sachsenbrunn",
     "safety-harbor": "Safety Harbor, Florida",
@@ -6966,6 +6987,7 @@
     "eisolzried": "no article within 40 km, tried Eisolzried; Eisolzried, Germany",
     "erdmannrode": "no article within 40 km, tried Erdmannrode; Erdmannrode, Germany",
     "ermita-de-belen": "no article within 40 km, tried Ermita de Belen; Ermita de Belen, Spain; search: Belén Rueda; search: Cáceres, Spain; search: Popayán",
+    "esrum": "no article within 40 km, tried Esrum; Esrum, Denmark; search: Zealand; search: Hillerød (Hillerød, title does not match); search: Architecture of Denmark",
     "fertoujlak": "no article within 40 km, tried Fertőújlak; Fertőújlak, Hungary",
     "fontaine-belfort": "no article within 40 km, tried Fontaine (Fontaine, no coordinates, disambiguation page); Fontaine, France; search: Fontaine (Genshin Impact); search: Fontaine Bartholdi; search: Joan Fontaine",
     "frankenthal-sachsen": "no article within 40 km, tried Frankenthal (Frankenthal, 447 km away); Frankenthal, Germany (Frankenthal, 447 km away); search: Frankenthal; search: List of cities and towns in Germany; search: Frankenthal (disambiguation)",

@@ -2385,6 +2385,135 @@
         "sighting_id": "c60f88d1-bc14-496a-aba8-7b90d7286907",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole oak, bare, from the gravel path: a short thick trunk under a huge rounded crown of crooked limbs, a bench at its foot, a meadow and a misty forest edge behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere."
       }
+    },
+    {
+      "id": "cop_051",
+      "name": "The Oak on the Footpath in Birkerød",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Footpath between houses, Kajerød, Birkerød, Rudersdal, north of Copenhagen",
+        "latitude": 55.8472833333333,
+        "longitude": 12.4122783333333,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "A big oak right on a narrow footpath between a hedge and a yellow-brick bungalow, its trunk bending in an S before the crown, an old sawn-off limb sticking out like a stub at head height.",
+      "access": "On a public footpath between houses; the tree stands at the edge of the path. About 20 km north of central Copenhagen, a train and a walk.",
+      "story": "A reader walking the paths of Birkerød, north of Copenhagen, sent us this oak at the end of an autumn afternoon.\n\nIt grows where nobody planned a tree like it: right on the edge of a narrow footpath that runs between hedges and the back of a yellow-brick bungalow. The houses came long after the oak. Its trunk is thick and dark, ridged deep the way old oak bark is, and it does not go straight up. It bends in a slow S, throws out a stout limb that was sawn off long ago and left as a stub at head height, and then breaks into a crown of crooked branches far wider than the path.\n\nIn the reader's photograph the low sun catches the upper limbs and turns them gold, while the last leaves hang on in green and brown.\n\nWe do not know its age or its girth, or whether the oak is the older of a line of field boundary trees that once ran here. If you live nearby and know its story, tell us here.\n\nWalk the path in late afternoon, when the light comes in low under the crown.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "af63c929-b2a5-443b-a829-bc13a86ada8e",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "af63c929-b2a5-443b-a829-bc13a86ada8e",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (af63c929-b2a5-443b-a829-bc13a86ada8e, 2026-11-23, through the app). Photograph viewed: a big old oak beside a footpath between hedges and a brick house, its thick crooked trunk and wide crown lit gold by low autumn sun, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near Copenhagen', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_051-oak-on-the-footpath-in-birkerod.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "af63c929-b2a5-443b-a829-bc13a86ada8e",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a big old oak beside a footpath between hedges and a brick house, its thick crooked trunk and wide crown lit gold by low autumn sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "cop_052",
+      "name": "The Oak on Its Roots in Birkerød",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Edge of a path by a field, Kajerød, Birkerød, Rudersdal, north of Copenhagen",
+        "latitude": 55.843055,
+        "longitude": 12.406945,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "A broad oak standing on a raised plate of bare, knotted roots that spread metres out over the path, a wire fence and a field just behind it.",
+      "access": "Beside a public path at the edge of a field, with a fence behind. About 20 km north of central Copenhagen.",
+      "story": "What makes this oak stop people is not its crown but what it stands on. A reader who sent us several old trees from the country north of Copenhagen photographed it from the ground in Birkerød, and the ground is the story.\n\nThe path runs right up to the tree, and years of feet and rain have worn the soil away from its base. What is left is a raised plate of roots, grey and knotted, running out from the trunk in every direction and down into the path like the fingers of a hand gripping a ball. Above it the trunk is broad and deeply fissured, with a burr low on one side, and a few metres up it splits into thick limbs that reach out over a fence and a field.\n\nThe reader's pictures were taken in spring, before the leaves, when all of that shape is on show.\n\nWe do not know how old it is or how big round. If you have measured it, or know who planted the field edge it stands on, tell us here.\n\nWalk round it on the path side and look at the roots, but keep to the path so the soil around them can rest.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "7c8a8735-4486-4b48-a5ea-5ac657f58122",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7c8a8735-4486-4b48-a5ea-5ac657f58122",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (7c8a8735-4486-4b48-a5ea-5ac657f58122, 2026-11-23, through the app). Photograph viewed: the whole lower half of a big oak, its broad fissured trunk opening into thick limbs, standing on a wide plate of roots worn bare by feet, wood and fields behind, spring daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near Copenhagen', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_052-oak-on-its-roots-in-birkerod.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "7c8a8735-4486-4b48-a5ea-5ac657f58122",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the whole lower half of a big oak, its broad fissured trunk opening into thick limbs, standing on a wide plate of roots worn bare by feet, wood and fields behind, spring daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 4,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "cop_053",
+      "name": "The Village Tree by the Thatched House in Birkerød",
+      "species": "Lime (Tilia sp.)",
+      "location": {
+        "address": "Street corner by a thatched house, Kajerød, Birkerød, north of Copenhagen",
+        "latitude": 55.8468366666667,
+        "longitude": 12.4241166666667,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "On a street corner beside a white thatched farmhouse: a broad tree whose short dark trunk swells into knobbly burrs at the foot, under a tall rounded crown.",
+      "access": "On the street; seen from the pavement. About 20 km north of central Copenhagen.",
+      "story": "Where the old village of Kajerød meets the newer streets of Birkerød, north of Copenhagen, a white farmhouse with a deep thatched roof still stands on the corner, and beside it grows this tree. A reader sent us its photograph in spring, before the leaves came.\n\nBare, it shows everything. The trunk is short and enormously thick, and at the foot it swells into knobbly burrs and lumps, the way an old lime does after a century of sprouting and being trimmed. Above that it breaks into a dozen limbs that climb and spread into a tall, even dome of fine twigs, wider than the farmhouse beside it is long. Hedges and a lamp post stand in its shadow, and the road runs on past it towards the school.\n\nDanish villages often planted a tree like this by the farm or the crossroads. We think this is a lime from the burrs and the shape, but we are not sure, and we do not know how old it is. If you know, tell us here.\n\nCome back in July, when a village lime is in flower and the whole corner smells of honey.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b236b30f-6f5b-4a10-8cd2-11a7524b5403",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b236b30f-6f5b-4a10-8cd2-11a7524b5403",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (b236b30f-6f5b-4a10-8cd2-11a7524b5403, through the app). Photograph viewed: a big bare broadleaf on a village street corner by a thatched house, its short trunk swollen into burrs at the base, a wide dome of fine twigs, spring daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree in Copenhagen', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_053-village-tree-by-the-thatched-house-in-birker-d.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "b236b30f-6f5b-4a10-8cd2-11a7524b5403",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a big bare broadleaf on a village street corner by a thatched house, its short trunk swollen into burrs at the base, a wide dome of fine twigs, spring daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 4,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

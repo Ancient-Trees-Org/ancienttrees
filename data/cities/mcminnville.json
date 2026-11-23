@@ -1,0 +1,72 @@
+{
+  "city": "McMinnville",
+  "country": "United States",
+  "state": "Tennessee",
+  "status": "needs_curation",
+  "intro": "McMinnville is a small city in the hills of Middle Tennessee, the seat of Warren County and known for its plant nurseries. A reader passing through stopped for a great oak standing alone on a mown lawn among shops, one of its huge limbs lying along the grass, and sent us its photograph. We do not yet know which oak it is or how old; a local reader may.",
+  "meta_description": "A great spreading oak on an open lawn in McMinnville, Tennessee, one limb resting along the grass, sent to us by a reader.",
+  "question_meta": "A great spreading oak on an open lawn in McMinnville, Tennessee, one limb resting along the grass, sent to us by a reader.",
+  "question_answer": "The Great Oak of McMinnville stands on an open lawn beside a road in McMinnville, Warren County, Tennessee, among shops and car parks. It can be seen from the road.",
+  "question_context": "McMinnville sits on the edge of the Cumberland Plateau in Middle Tennessee, a nursery town whose fields grow trees for gardens across the country. Most of the trees here are young. This one is not. A reader passing through photographed a great oak standing alone on a mown lawn among shops and car parks, and it is easily the oldest living thing in sight. Its trunk is enormous and grey, ringed with the healed scars of limbs it lost long ago, and its crown spreads in every direction. The striking thing is one limb that has grown out and down in a long curve until it lies along the grass, then lifts again at its tip, metres from the trunk. Oaks that grow alone in open ground often spread like this, and a limb resting on the ground can live for decades. We do not know which oak species it is, how old it is or how big round it is. Those are the questions we would like a local reader to answer. Until then the figures on its page are blank rather than guessed, and the photograph does the talking.",
+  "hero_tree_id": "mcm_001",
+  "oldest_tree_id": "mcm_001",
+  "faq": [
+    {
+      "q": "What is the big tree in McMinnville?",
+      "a": "A huge spreading oak on an open lawn among shops, with one enormous limb that curves down and rests along the grass."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It stands on an open lawn by the road and can be seen from there. We have not confirmed who owns the lawn."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. If you know its age or girth, tell us on the tree's page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "mcm_001",
+      "name": "The Great Oak of McMinnville",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Open lawn by a road, McMinnville, Warren County, Tennessee",
+        "latitude": 35.69823,
+        "longitude": -85.7425783333333,
+        "neighbourhood": "McMinnville"
+      },
+      "how_to_recognise": "A massive oak alone on a mown lawn near shops, its thick trunk scarred with old branch wounds and one huge limb curving down until it rests along the grass.",
+      "access": "On an open lawn beside the road, where the reader stood. We have not confirmed who owns the lawn; stay on the grass edge if in doubt.",
+      "story": "A reader passing through McMinnville, in the hills of Middle Tennessee, stopped for this oak and sent us a photograph from its foot.\n\nIt stands alone on a mown lawn with shops and car parks around it, and it is easily the oldest thing in sight. The trunk is enormous, grey and furrowed, ringed with the healed scars of limbs lost long ago. From it the crown breaks out in every direction, and one great limb does something few trees manage for long. It sweeps out and down in a long curve until it lies along the grass, then lifts again at the far end, carrying its own small crown metres from the trunk.\n\nIn the reader's photograph the leaves are turning bronze for November, and someone's campaign sign lies in the grass at its feet, a reminder of how many elections this tree has stood through.\n\nWe do not know which oak it is, how big round it is or how old. If you know this tree, its story or its measurements, tell us here and we will add them.\n\nWalk out along the fallen limb, on the grass beside it, to see how far it reaches.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "65e2af45-3f00-48f9-9926-93dea3e166ab",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "65e2af45-3f00-48f9-9926-93dea3e166ab",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (65e2af45-3f00-48f9-9926-93dea3e166ab, through the app). Photograph viewed: a huge spreading oak on a mown lawn, its massive trunk and one enormous limb sweeping down to the grass, autumn leaves, commercial buildings behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mcm_001-great-oak-of-mcminnville.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_79e351a3759f50aa124b07d5",
+        "sighting_id": "65e2af45-3f00-48f9-9926-93dea3e166ab",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a huge spreading oak on a mown lawn, its massive trunk and one enormous limb sweeping down to the grass, autumn leaves, commercial buildings behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

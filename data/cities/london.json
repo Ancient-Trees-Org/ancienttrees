@@ -1589,8 +1589,8 @@
       "age_max": 310,
       "location": {
         "address": "Chiswick House Gardens, Burlington Lane, Chiswick W4 2RP",
-        "latitude": 51.48428,
-        "longitude": -0.25961,
+        "latitude": 51.483887,
+        "longitude": -0.259545,
         "neighbourhood": "Chiswick"
       },
       "verified_sources": [
@@ -1605,22 +1605,44 @@
       },
       "access": "Chiswick House Gardens are open to visitors daily, dawn to dusk (check the Trust's site for hours and any charges); the ground beneath the Beatles' cedar is roped off.",
       "transport": "Chiswick station (South Western Railway), about 10 minutes' walk; Turnham Green (District line), about 20 minutes.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "recognise": "The great cedars frame the house's garden front; the one filmed by the Beatles in 1966 has a low, huge limb, and stands diagonally across from the statue garden where the 'Paperback Writer' scenes were shot.",
       "curation_status": "flagged",
       "verify_notes": "Owner (Chiswick House and Gardens Trust): oldest trees date from the late 1720s when William Kent first worked on the garden; several came directly from Lebanon; avenue of cedars frames the house; prone to drop branches without warning, do not walk under or climb. Planting dates conflict across sources (1720, 1726 from Sutton Court, 1741, 1745), so age is broad. The Beatles' cedar was one of ten trees shortlisted for Woodland Trust Tree of the Year 2025 (BBC 2025-07-11); believed planted in the 1720s per Woodland Trust. Beatles filmed 'Rain' and 'Paperback Writer' promo films there on 20 May 1966 (Bob Whitaker cover photo for the Nowhere Man EP). Result of the 2025 award not established. Pin: no tree-level coordinate found (Friends of Chiswick House tree trail is Cloudflare-blocked from here). Chosen pin is an iNaturalist observation of Cedrus libani (2022-09-19, accuracy 8 m, https://www.inaturalist.org/observations/135647107) in the gardens; other Cedrus libani observations lie 51.4830,-0.2575 and 51.4851,-0.2627, so the cedars are spread across the grounds and the exact Beatles tree is not placed. Approximate. Walk-through garden, so no location_site. Several cedars, folded into one entry as one destination. Alive: iNaturalist Cedrus libani observations in 2025.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chiswick_House_103_cedars.JPG",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Patche99z, via Wikimedia Commons",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:Chiswick_House_103_cedars.JPG",
+        "url": "https://ancienttrees.app/photos/lon_036-the-chiswick-house-cedars-0313e5e3.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3648,
-        "height": 1870,
-        "taken_month": 4
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_c893a1a90f2b6f2c2e29bbd9",
+        "sighting_id": "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Two great cedars in the Chiswick House grounds with the sphinx and urns, low autumn sun, colour. Species seen: cedars: flat dark tiered foliage, pale grey trunks. Fits the description: the cedars among the statues and urns of the Chiswick gardens.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "story": "On 20 May 1966 the Beatles spent the day among these cedars, filming the promotional clips for 'Paperback Writer' and 'Rain'. One of them, a cedar with a huge low limb, is known as the Beatles' cedar, and in 2025 it made the Woodland Trust's shortlist of ten for Tree of the Year. Whether it won, we have not been able to establish.\n\nThe band were late arrivals. The Chiswick House and Gardens Trust, which owns the gardens, dates its oldest trees to the late 1720s, when William Kent first worked on the garden, and says several came directly from Lebanon. Other accounts put the planting at 1720, 1726, 1741 or 1745, one of them saying the trees came from Sutton Court, so the honest age is roughly three centuries with a couple of decades either way. Today an avenue of them frames the house.\n\nThis entry is the group rather than one trunk. The cedars are spread across the grounds and our pin marks the gardens, not the Beatles tree itself. To find that one, go to the statue garden where the 1966 scenes were shot and look diagonally across for the low limb.\n\nThe Trust notes that its cedars can drop branches without warning, and the ground under the famous one is roped off. The gardens are open daily, from dawn to dusk.",
-      "how_to_recognise": "You can recognise the Beatles' cedar by its huge low limb. It stands diagonally across from the statue garden where the 1966 films were shot, among the great cedars that frame the house's garden front."
+      "how_to_recognise": "You can recognise the Beatles' cedar by its huge low limb. It stands diagonally across from the statue garden where the 1966 films were shot, among the great cedars that frame the house's garden front.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chiswick_House_103_cedars.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Patche99z, via Wikimedia Commons",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:Chiswick_House_103_cedars.JPG",
+          "status": "approved",
+          "width": 3648,
+          "height": 1870,
+          "taken_month": 4
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
+        "moved_m": 44,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "lon_037",

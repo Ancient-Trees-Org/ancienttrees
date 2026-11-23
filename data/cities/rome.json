@@ -994,7 +994,7 @@
         "longitude": 12.501361,
         "neighbourhood": "Via Appia / Porta Latina, near the Aurelian Walls"
       },
-      "story": "Two official surveys measured this hackberry and agreed on its waist to within a centimetre: four metres around. They do not agree on its height. Italy's national monumental tree register records 20 metres. The Appia Antica park authority, in its own catalogue of notable trees, says 15. Both figures are current, neither has been withdrawn, and there is no way from here to tell which tape was right, so take the tree as somewhere between the two.\n\nIt is about a hundred years old, which makes it younger than nearly everything around it. The Parco degli Scipioni is laid out over the tomb of the Scipios, burial vault of the family that produced the general who beat Hannibal, with the columbarium of Pomponius Hylas a few steps away and the Aurelian Walls along the edge. The park in its present form is the work of Raffaele de Vico, who designed it around 1929, and this hackberry went in as part of that design: a piece of 20th century landscaping now the largest living thing in a park built on third century BC ground.\n\nThe park authority calls it one of its most important specimens, for its size, its bearing and the balance of its crown, and rates its health as good.\n\nA second hackberry, slightly stouter, stands about a hundred metres off against the Aurelian wall itself. It is on the register too. So far nobody else has written it down.",
+      "story": "Two official surveys measured this hackberry and agreed on its waist to within a centimetre: four metres around. They do not agree on its height. Italy's national monumental tree register records 20 metres. The Appia Antica park authority, in its own catalogue of notable trees, says 15. Both figures are current, neither has been withdrawn, and there is no way from here to tell which tape was right, so take the tree as somewhere between the two.\n\nIt is about a hundred years old, which makes it younger than nearly everything around it. The Parco degli Scipioni is laid out over the tomb of the Scipios, burial vault of the family that produced the general who beat Hannibal, with the columbarium of Pomponius Hylas a few steps away and the Aurelian Walls along the edge. The park in its present form is the work of Raffaele de Vico, who designed it around 1929, and this hackberry went in as part of that design. It is a piece of 20th century landscaping, now the largest living thing in a park built on third century BC ground.\n\nThe park authority calls it one of its most important specimens, for its size, its bearing and the balance of its crown, and rates its health as good.\n\nA second hackberry, slightly stouter, stands about a hundred metres off against the Aurelian wall itself. It is on the register too. So far nobody else has written it down.",
       "verified_sources": [
         "MASAF national register / Lazio regional register, sheet 66/H501/RM/12 (girth 401 cm, height 20 m)",
         "https://www.parcoappiaantica.it/il-territorio/alberi-di-pregio-appia-antica/ (Parco Regionale dell'Appia Antica's own 'alberi di pregio' catalogue: Parco degli Scipioni, Via di Porta Latina 16, height 15 m, circumference 400 cm, estimated age ~100 years, stato fitosanitario Buono; described as integrated into Raffaele de Vico's 1931 landscape design and as one of the park's most important specimens for its dimensions, bearing and balanced canopy)"
@@ -1002,10 +1002,17 @@
       "access": "Free, public park within the Parco Regionale dell'Appia Antica, standard park hours (roughly 7am to sunset)",
       "transport": "Entrance at Via di Porta Latina 16, near Porta Latina in the Aurelian Walls; roughly 20-25 minutes' walk from Circo Massimo (Metro B), or reachable by bus along Via Appia Antica",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rom_024-the-hackberry-of-the-parco-degli-scipioni.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_6f0fc411c4867f6898ab03d7",
+        "sighting_id": "24f17594-d71b-47fd-b1c2-30c43609034f",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The whole hackberry in the park lawn, the biggest tree in frame, daylight and colour; closes a gap. Species seen: grey smooth multi-limbed trunk, small toothed hackberry leaves thinning in autumn. Fits the description: a big lone tree in the middle of the park lawn, larger than everything round it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -1174,7 +1181,22 @@
       "official_register": {
         "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 65/H501/RM/12",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/rom_028-the-hackberry-of-the-mura-latine-49ad0d36.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_6f0fc411c4867f6898ab03d7",
+          "sighting_id": "49ad0d36-9014-440e-adc0-64bb5a26d48c",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The hackberry on its street corner by the stop sign and the old villa, daylight, colour; a little flare, so the strip. Species seen: hackberry: grey trunk, dense crown of small narrow leaves. Fits the description: a big tree on a street corner by the old wall area of Rome.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "rom_029",

@@ -1,0 +1,129 @@
+{
+  "city": "Varese",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Varese is the garden city of Lombardy, at the foot of the Alps between Lake Maggiore and Lake Como, its villas and parks full of trees planted in the nineteenth century. A reader sent us two that Italy's national register of monumental trees also lists: a vast Lebanon cedar 34 metres tall and a ginkgo 365 centimetres round that turns gold in November.",
+  "meta_description": "Varese's monumental trees: a vast cedar of Lebanon and a ginkgo that turns gold in November, both on Italy's national register.",
+  "question_meta": "Varese's monumental trees: a vast cedar of Lebanon and a ginkgo that turns gold in November, both on Italy's national register.",
+  "question_answer": "The cedar and the ginkgo stand a few dozen metres apart in a public garden off Viale Sant'Antonio in Varese. Both are free to see.",
+  "question_context": "Varese calls itself the garden city, and its villas and public parks hold some of the finest planted trees in Lombardy, many of them set out in the nineteenth century when exotic conifers and Asian trees were the fashion. Italy's national register of monumental trees, kept by the agriculture ministry, lists a number of them. A reader sent us two that stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and both match register entries. The first is a cedar of Lebanon, recorded at 34 metres tall, whose several trunks carry a dark, tiered crown so broad it fills the photograph, with benches and information boards set out in front of it like seats before a stage. The second is a ginkgo, recorded at 365 centimetres round and 28 metres tall, which the reader photographed from below in November with every leaf turned butter yellow. Ginkgo is a living fossil, almost unchanged for some two hundred million years, and reached Europe from Asian temple gardens in the eighteenth century. We do not know when either tree was planted. The garden's boards may say, and if they do, tell us on the trees' pages.",
+  "hero_tree_id": "var_001",
+  "oldest_tree_id": "var_001",
+  "faq": [
+    {
+      "q": "What are the monumental trees of Varese?",
+      "a": "A cedar of Lebanon 34 metres tall and a ginkgo 365 centimetres round, both listed on Italy's national register of monumental trees, standing in the same garden."
+    },
+    {
+      "q": "When is the ginkgo at its best?",
+      "a": "In mid-November, when its leaves turn butter yellow all at once, shortly before they fall."
+    },
+    {
+      "q": "Are they free to visit?",
+      "a": "Yes, they stand in a public garden."
+    }
+  ],
+  "trees": [
+    {
+      "id": "var_001",
+      "name": "The Great Cedar of Varese",
+      "species": "Cedar of Lebanon (Cedrus libani)",
+      "height_m": 34.0,
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF): Cedro del Libano, Varese",
+        "url": null
+      },
+      "location": {
+        "address": "Public garden off Viale Sant'Antonio, Varese",
+        "latitude": 45.81545,
+        "longitude": 8.82265833333333,
+        "neighbourhood": "Bosto"
+      },
+      "how_to_recognise": "A huge dark cedar with several trunks rising inside a low fence, information boards and a white bench with a red heart in front of it on the lawn.",
+      "access": "Free, in a public garden; the fence keeps visitors off the roots, the benches face the tree.",
+      "verified_sources": [
+        "Italy's register of monumental trees (Alberi monumentali d'Italia, MASAF), entry 'Cedro del Libano', Cedrus libani, height 34 m, 36 m from the reader's photograph"
+      ],
+      "story": "Italy keeps a national register of its monumental trees, and Varese, the garden city at the foot of the Alps between Lake Maggiore and Lake Como, has several. A reader sent us this one, and the register lists a Lebanon cedar here, 34 metres tall.\n\nThe photograph shows a tree that has outgrown its garden. Several trunks rise together from the lawn and carry a dark, tiered crown so broad that it fills the frame from side to side, the layered branches stepping out in the flat shelves that make a cedar of Lebanon recognisable from far away. At its foot a low fence keeps people off the roots, and in front of it the garden has set out benches, information boards and a white bench painted with a red heart, all facing the tree as if it were a stage.\n\nCedars of Lebanon came to Italy's gardens from the mountains of the eastern Mediterranean, and in the parks of Lombardy's villas some of the first plantings have grown into giants like this one. We do not know when this one was planted; the boards in front of it may say, and if they do, tell us here.\n\nSit on the heart bench and look up.",
+      "found_by_reader": {
+        "sighting_id": "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (ecbeb1a2-03b5-4ec4-b19c-4772926d63eb, through the app). Photograph viewed: a vast cedar of Lebanon on a lawn, its dark tiered crown far wider than the garden fence around its foot, benches and information boards in front, blue sky, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near Como', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/var_001-great-cedar-of-varese.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_2d57f02847d77aa9cc40c5a1",
+        "sighting_id": "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a vast cedar of Lebanon on a lawn, its dark tiered crown far wider than the garden fence around its foot, benches and information boards in front, blue sky, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "var_002",
+      "name": "The Ginkgo of Varese",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "girth_cm": 365,
+      "height_m": 28.0,
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF): Ginco, Varese",
+        "url": null
+      },
+      "location": {
+        "address": "Public garden off Viale Sant'Antonio, Varese",
+        "latitude": 45.815095,
+        "longitude": 8.82292,
+        "neighbourhood": "Bosto"
+      },
+      "how_to_recognise": "A tall ginkgo with a thick, dark, ridged trunk that opens into a ring of long horizontal limbs, fan-shaped leaves bright yellow in November.",
+      "access": "Free, in a public garden.",
+      "verified_sources": [
+        "Italy's register of monumental trees (Alberi monumentali d'Italia, MASAF), entry 'Ginco', Ginkgo biloba, girth 365 cm, height 28 m, 15 m from the reader's photograph"
+      ],
+      "story": "A few dozen metres from the great cedar of the same garden in Varese stands a ginkgo that Italy's national register of monumental trees also lists: 365 centimetres round and 28 metres tall. The same reader sent us both, in November, when this one was at its best.\n\nIn one sense ginkgo is the oldest tree on the planet, since the species has barely changed in some two hundred million years and was found by Europeans only in the temple gardens of China and Japan, from where it reached Europe in the eighteenth century. Planted in Italian parks, it became a favourite for exactly what the reader photographed, a few weeks each autumn when every fan-shaped leaf turns butter yellow at once.\n\nThe photograph looks straight up the trunk. It is thick, dark and ridged, and it opens into long limbs that reach out level in every direction, each one hung with gold against a hard blue sky. Soon after, a ginkgo drops nearly all its leaves within a few days, carpeting the ground.\n\nWe do not know when it was planted. If the garden's board or the register's file tells you, let us know here.\n\nCome in mid-November and stand right under it.",
+      "found_by_reader": {
+        "sighting_id": "72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5, through the app). Photograph viewed: looking straight up a thick ginkgo trunk into wide-spreading limbs, its leaves turned butter yellow against a blue sky, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree near Como', species 'None', age 'None', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/var_002-ginkgo-of-varese.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_2d57f02847d77aa9cc40c5a1",
+        "sighting_id": "72d1ca58-7bbe-4b2b-b00e-5d5d3ad902d5",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: looking straight up a thick ginkgo trunk into wide-spreading limbs, its leaves turned butter yellow against a blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}
