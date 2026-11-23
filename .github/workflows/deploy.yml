@@ -42,7 +42,13 @@ concurrency:
   # environment refuses its deploy (main only). It gets a group of its own so a
   # scheduled or manual run of main never replaces it while it waits, and it
   # never holds up main's (2026-09-24, a branch check was cancelled twice).
-  group: pages-${{ github.event_name == 'push' && 'push' || (github.ref == 'refs/heads/main' && 'manual' || github.ref) }}
+  # ONE QUEUE FOR MAIN (2026-11-23). Pushes and dispatched runs of main had a
+  # group each, so a push build and a dispatched build could reach the deploy
+  # at the same moment, and Pages refuses the second ("due to in progress
+  # deployment", 12:35 that day): an hour of building thrown away while
+  # readers' trees waited. Every run of main now waits in one line; a running
+  # build is still never cancelled, and only the newest waiting run is kept.
+  group: pages-${{ github.ref == 'refs/heads/main' && 'main' || github.ref }}
   # Never cancel a running build, pushes included (2026-09-26). A build takes
   # longer than the gap between two pushes on a busy evening, so cancelling
   # meant fifteen builds in a row were killed between 21:48 and 22:37 UTC and

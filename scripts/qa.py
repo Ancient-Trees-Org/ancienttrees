@@ -29,6 +29,7 @@ import struct
 import subprocess
 import sys
 import tempfile
+import time
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -110,6 +111,27 @@ class PageScan(HTMLParser):
     def handle_data(self, data):
         if not self._skip_depth:
             self.text_parts.append(data)
+
+
+_LINK_FILES = {}
+
+
+def _link_file(base: Path, path: str):
+    """The file a link from `base` to `path` lands on (exact file, file +
+    .html, or dir/index.html, as GitHub Pages resolves it), or None. Cached
+    per (base, path): one site-wide nav link is otherwise resolved against
+    the disk once on every page."""
+    key = (base, path)
+    if key not in _LINK_FILES:
+        target = (base / path.lstrip("/")).resolve()
+        found = None
+        for cand in (target, target.with_suffix(target.suffix + ".html"),
+                     target / "index.html"):
+            if cand.is_file():
+                found = cand
+                break
+        _LINK_FILES[key] = found
+    return _LINK_FILES[key]
 
 
 def resolves(target: Path) -> bool:
@@ -4977,10 +4999,21 @@ def main():
         print(f"QA: no pages found under {DIST}, run (cd site && npx astro build) first")
         return 1
 
+    # ONE PARSE PER PAGE, ONE DISK LOOKUP PER LINK TARGET (2026-11-23). The
+    # deploy's QA step had grown to 37 of its 60 minutes at 28,938 pages:
+    # every page went through the pure-Python HTML parser twice (here and again
+    # for the orphan check below), and every link was resolved against the
+    # disk again on every page that carries it, the same nav and footer links
+    # tens of thousands of times. Readers' trees waited for it (Hidde: "ja wel
+    # heel traag"). Same checks, same answers: the links are kept from this
+    # parse and each (directory, path) pair is resolved once.
+    started = time.time()
+    links_of = {}
     for page in pages:
         rel = page.relative_to(DIST)
         scan = PageScan()
         scan.feed(page.read_text(encoding="utf-8"))
+        links_of[page] = scan.links
         text = " ".join(scan.text_parts)
 
         if rel.name == "index.html" and rel.parent.name == "":
@@ -5048,9 +5081,9 @@ def main():
             if not path:
                 continue  # pure #anchor
             base = DIST if path.startswith("/") else page.parent
-            target = (base / path.lstrip("/")).resolve()
-            if not resolves(target):
+            if _link_file(base, path) is None:
                 failures.append(f"{rel}: dead internal link {url!r}")
+    print(f"qa: {len(pages)} pages scanned in {time.time() - started:.0f}s", flush=True)
 
     # Orphan check: the machine-testable half of the whole-page rule (Hidde,
     # 2026-08-04). Country pages shipped live with nothing linking to them for
@@ -5058,21 +5091,16 @@ def main():
     # nobody links to cannot be found by a visitor and is barely crawled.
     linked = set()
     for page in pages:
-        scan = PageScan()
-        scan.feed(page.read_text(encoding="utf-8"))
-        for url in scan.links:
+        for url in links_of[page]:
             if re.match(r"^(https?:|mailto:|data:|tel:|#)", url):
                 continue
             path = url.split("#", 1)[0].split("?", 1)[0]
             if not path:
                 continue
             base = DIST if path.startswith("/") else page.parent
-            target = (base / path.lstrip("/")).resolve()
-            for cand in (target, target.with_suffix(target.suffix + ".html"),
-                         target / "index.html"):
-                if cand.is_file():
-                    linked.add(cand)
-                    break
+            hit = _link_file(base, path)
+            if hit is not None:
+                linked.add(hit)
     # Redirect stubs and the noindexed account prototype are linked on purpose
     # by nothing; the homepage is the root.
     for page in pages:
@@ -5140,7 +5168,8 @@ def main():
         if len(failures) > 60:
             print(f"  ... and {len(failures) - 60} more")
         return 1
-    print(f"QA passed: {len(pages)} pages, links resolve, text clean")
+    print(f"QA passed: {len(pages)} pages, links resolve, text clean "
+          f"({len(_LINK_FILES)} distinct link targets)")
     return 0
 
 

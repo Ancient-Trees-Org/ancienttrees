@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 session: deploys faster, readers' trees live sooner
+
+**What changed:** a reader's tree took one to two hours from the judge to the site, sometimes longer (Hidde: "ja wel heel traag"). The deploy took about an hour, and 37 minutes of that went to `qa.py` on the built site (28,938 pages). Two changes:
+- **qa.py parses each page once, not twice.** The orphan check reuses the links from the first pass. Each link target is now looked up on disk once, not once per page that carries it. The checks and their answers are the same: on a test site with dead links, orphans, relative links, dir/index and .html links, the old and new versions reported exactly the same failures. On 3,000 test pages it went from 26 s to 3 s. The deploy log now prints `qa: N pages scanned in Ns`.
+- **One queue for deploys of main.** Pushes and dispatched runs each had their own queue, so two deploys could reach Pages at once, and Pages refuses the second (12:35 UTC today: an hour of building lost). Every run of main now waits in one line. A running build is still never cancelled.
+
+**Not checked yet:** the time of a real deploy with this change. Read it from the next deploy's QA step.
+
 ## 2026-11-23 reader judge: the Tight Grove in Albuquerque has its first photograph (abq_001)
 
 - **abq_001 Tight Grove, University of New Mexico**: a reader's photo of the grove, viewed before approval. It shows tall ponderosas around the Lobo wolf sculpture, with Hodgin Hall's pueblo-style front behind and cottonwoods in autumn yellow at the edge, which is what our recognition line describes. It is now the lead photograph (the tree had none) and is filed in November. The pin moved 73 m to the reader's GPS fix, now confirmed. The reader's "it is live" mail went through sightings_publish `--send`. The script's pins catch-up could not read coordinates (HTTPError), but the move itself was written.
