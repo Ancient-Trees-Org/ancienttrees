@@ -40,6 +40,80 @@
    "agreed": null
   },
   {
+   "id": "lead:313c857a-ab44-4040-8562-8d940acc213e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Ginkgo of Sakurai Shrine",
+   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
+   "reader_note": "Sakurai jinja shrine",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:313c857a-ab44-4040-8562-8d940acc213e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Ginkgo of Sakurai Shrine",
+   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
+   "reader_note": "Sakurai jinja shrine",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1bd94bb4-b914-4baf-861c-c17b843afede",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Tree House Rain Tree of the Netravati Promenade",
+   "city": "Mangaluru",
+   "species": "Rain Tree (Samanea saman)",
+   "photo": "out/sightings/1bd94bb4-b914-4baf-861c-c17b843afede.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Rain Tree (Samanea saman)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed 2026-11-23: the rain tree's canopy and leaning trunks over the Netravati, seen from the tree house platform; right tree, right place. Approved by Hidde in chat (2026-11-23: accepteer die twee bomen gewoon).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:81bfa129-ea0e-4f2a-82cd-4625248520d2",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Palmeira leque near Florianópolis",
+   "city": null,
+   "species": "Palmeira leque",
+   "photo": "p_02edf756ac8c1a596232f1a1/81BFA129-EA0E-4F2A-82CD-4625248520D2.jpg",
+   "reader_note": "Esta palmeira fica em uma pequena trilha calçada que sai ao lado da casinha principal do horto, ao lado do parquinho e vai em direção ao estacionamento superior.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Palmeira leque"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -24894,30 +24968,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:313c857a-ab44-4040-8562-8d940acc213e",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "The Ginkgo of Sakurai Shrine",
-   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
-   "reader_note": "Sakurai jinja shrine",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:313c857a-ab44-4040-8562-8d940acc213e",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "The Ginkgo of Sakurai Shrine",
-   "photo": "p_c19d55d83dfa148535100e72/313C857A-AB44-4040-8562-8D940ACC213E.jpg",
-   "reader_note": "Sakurai jinja shrine",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a tall ginkgo in full gold leaf behind the old halls of Sakurai Shrine, Itoshima, daylight, colour. Live as fukuoka/fuk_019 under the closed list (Hidde, 2026-11-17); pin approximate (hand-placed).",
    "hidde": null,
    "agreed": null
   }
