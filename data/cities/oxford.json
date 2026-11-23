@@ -358,6 +358,55 @@
         "kind": "flowers",
         "label": "July, when it flowers in creamy yellow, the source of the pigment Imperial Yellow"
       }
+    },
+    {
+      "id": "oxf_008",
+      "name": "The Magdalen Plane",
+      "species": "London Plane (Platanus × hispanica)",
+      "age_estimate": "about 225 years (planted 1801)",
+      "age_min": 225,
+      "age_max": 225,
+      "location": {
+        "address": "New Building lawn, Magdalen College, High Street, Oxford OX1 4AU",
+        "latitude": 51.7527123727487,
+        "longitude": -1.24657672455489,
+        "neighbourhood": "City centre"
+      },
+      "how_to_recognise": "On the lawn before Magdalen's New Building: a huge plane, its bulging grey and cream trunk splitting into great limbs, one reaching far out sideways, iron railings and the Grove beyond.",
+      "access": "Inside Magdalen College, which admits visitors for a fee at set hours; check the college's opening times before you go.",
+      "paid_entry": true,
+      "verified_sources": [
+        "https://florafauna.magd.ox.ac.uk/magdalen-grounds/ (Magdalen College, Flora and Fauna: the Magdalen Plane on the New Building lawns, planted in 1801 by Henry Philpotts, Fellow and later Bishop of Exeter; close to 100 ft high and 25 ft in girth at last measurement; the plaque says it is believed to be a hybrid plane of the kind first raised in the Botanic Garden in 1666)"
+      ],
+      "story": "Magdalen College planted this plane in 1801. The college's own account of its grounds names the man who put it in, Henry Philpotts, then a Fellow of Magdalen and later Bishop of Exeter, and gives it close to a hundred feet of height and twenty-five feet of girth at its last measurement. A plaque at its foot says it is believed to be a hybrid plane, the kind first raised in Oxford's Botanic Garden, just across the High Street, in the 1660s.\n\nA reader stood under it this November and sent us the photograph, with one line: planted 1801. It looks every year of it. The trunk is a great grey and cream column, flaking in plates and swollen with burrs, and low down it splits into limbs as thick as most trees, one of them striking out sideways almost level with the ground before it turns up into the crown. The leaves were going yellow and brown, and through the gaps the sky was a hard autumn blue. Beyond the iron railings the college's parkland was turning too.\n\nOur pin marks the reader's spot on the lawn in front of the New Building. Walk round to the side of the long limb and look along it.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "fa0eca37-16b1-434f-b012-6bfe32a4ed4b",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "fa0eca37-16b1-434f-b012-6bfe32a4ed4b",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app (or it came without a fix); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (fa0eca37-16b1-434f-b012-6bfe32a4ed4b, 2026-11-23, through the app). Photograph viewed: looking up the massive trunk of a plane, its mottled bark peeling in plates, great limbs spreading out under a yellowing crown, iron railings and parkland in autumn colour behind, sunny daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Plane in Oxford', species 'Plane', age 'Planted 1801', note ''. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/oxf_008-magdalen-plane.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_1e46f0e3fdd6ed0cd09842a4",
+        "sighting_id": "fa0eca37-16b1-434f-b012-6bfe32a4ed4b",
+        "note": "Photographed by a reader and sent through the app (2026-11-23, through the app); viewed and approved on 2026-11-23: looking up the massive trunk of a plane, its mottled bark peeling in plates, great limbs spreading out under a yellowing crown, iron railings and parkland in autumn colour behind, sunny daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

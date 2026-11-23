@@ -271,6 +271,49 @@
         "sighting_id": "tip-1111",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the website); viewed and approved on 2026-11-17: the whole horse chestnut from the bare, leaf-strewn ground beneath it: a leaning dark trunk, long crooked limbs sweeping out almost to the grass, palmate leaves overhead, park lawn and white apartment fronts behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
+    },
+    {
+      "id": "osl_006",
+      "name": "The Willow that Fell and Kept Growing",
+      "species": "Willow (Salix sp.)",
+      "location": {
+        "address": "Riverbank of the Akerselva, central Oslo",
+        "latitude": 59.9188716666667,
+        "longitude": 10.7562883333333,
+        "neighbourhood": "Akerselva"
+      },
+      "how_to_recognise": "On a low gravel bank at the water's edge: a willow trunk lying flat along the ground, its torn roots in the air at one end, with a row of stems standing straight up out of it like young trees.",
+      "access": "Free. On the open bank of the Akerselva, beside the river path.",
+      "story": "\"This willow looks like it fell over years ago,\" wrote the reader who sent us this tree from the bank of the Akerselva, the little river that runs down through the middle of Oslo. \"Its trunk is lying flat on the riverbank, yet it's still very much alive.\"\n\nTheir photograph shows exactly that. The old trunk lies along the gravel at the water's edge, its root plate torn up and standing on end at one side, the bark dark and split. And out of its back grows a whole new tree. \"What look like small trees growing in a row are actually its branches,\" the reader explains, \"reaching straight up from the fallen trunk.\" Those upright stems now carry a broad, airy crown of narrow leaves, still green and yellow in November, with a brick church spire showing through it and ducks on the river below.\n\nWillows are good at this. A fallen limb or trunk that keeps some of its roots in damp ground can send up new shoots along its length, and over the years they become stems of their own. The reader calls it a weeping willow hybrid; we have no name, age or measurement for it beyond that.\n\nStand on the river path opposite and follow the trunk from its roots to the stems.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b1cbd78e-14ec-4393-91a7-20141b439bd9",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b1cbd78e-14ec-4393-91a7-20141b439bd9",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (b1cbd78e-14ec-4393-91a7-20141b439bd9, 2026-11-23, through the app). Photograph viewed: the whole willow on a gravel riverbank, its old trunk lying flat with roots torn up at one end and a row of upright stems rising from it into a broad crown, a brick church spire behind, ducks on the river, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Weeping willow hybrid in Oslo', species 'Weeping willow hybrid', age 'None', note 'This willow looks like it fell over years ago. Its trunk is lying flat on the riverbank, yet it’s still very much alive. What look like small trees growing in a row are actually its branches, reaching straight up from the fallen trunk.'. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/osl_006-willow-that-fell-and-kept-growing.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_65aaeff88f32f9e9c6a9c7fd",
+        "sighting_id": "b1cbd78e-14ec-4393-91a7-20141b439bd9",
+        "note": "Photographed by a reader and sent through the app (2026-11-23, through the app); viewed and approved on 2026-11-23: the whole willow on a gravel riverbank, its old trunk lying flat with roots torn up at one end and a row of upright stems rising from it into a broad crown, a brick church spire behind, ducks on the river, daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

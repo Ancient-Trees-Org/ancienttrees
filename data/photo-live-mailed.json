@@ -3228,6 +3228,36 @@
      "mailed": "2026-11-23"
     }
    ]
+  },
+  "p_f0928aeb25ec62a35e302db8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3f14603e-26fa-4c63-b724-60c53457095d",
+     "tree_id": "cls_001",
+     "tree_name": "The Oak of Clingoe Hill",
+     "city": "Colchester",
+     "city_slug": "colchester",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_a94e34ccafeeffaec7bf9e05": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "b6555e27-0c13-4715-b4d6-45b7f2ed37c9",
+     "tree_id": "ehp_001",
+     "tree_name": "The Many-Stemmed Beech of East Hampton",
+     "city": "East Hampton",
+     "city_slug": "east-hampton",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

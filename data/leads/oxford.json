@@ -42,7 +42,10 @@
    "latitude": 51.7513,
    "longitude": -1.2416,
    "location_precision": "approximate",
-   "reason": "Magdalen Flora and Fauna page (florafauna.magd.ox.ac.uk/magdalen-grounds, via search summary; the page itself fetched empty): planted 1801 by Henry Philpotts, 'close to 100 ft high, 25 ft girth at last measurement' (about 762 cm), plaque said to descend from the 1666 Botanic Garden hybrid. Past tense in the text and no recent sighting: alive NOT confirmed, may have fallen. Check with a dated photo before use; paid college entry."
+   "reason": "Magdalen Flora and Fauna page (florafauna.magd.ox.ac.uk/magdalen-grounds, via search summary; the page itself fetched empty): planted 1801 by Henry Philpotts, 'close to 100 ft high, 25 ft girth at last measurement' (about 762 cm), plaque said to descend from the 1666 Botanic Garden hybrid. Past tense in the text and no recent sighting: alive NOT confirmed, may have fallen. Check with a dated photo before use; paid college entry.",
+   "status": "published",
+   "published_as": "oxford/oxf_008",
+   "reader_2026_11_23": "A reader's photograph of 2026-11-23 shows it alive; live as oxford/oxf_008 on the reader's pin."
   },
   {
    "name": "Giant sequoias and coast redwoods, Harcourt Arboretum (Nuneham Courtenay)",

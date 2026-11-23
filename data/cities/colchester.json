@@ -31,7 +31,7 @@
       "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting d8edd734) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows one very large rounded oak standing alone in a dry field, two visitors at its foot for scale. The reader's own label was 'Pedunculate Oak near Mistley', girth 600 cm, age 300 years; the GPS fix is on Clingoe Hill, Colchester, about 10 km from Mistley, so the page names Colchester and the verify note records the difference. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access: the tree stands in open grass in the photograph; no source of ours says who owns the ground.",
       "access": "The oak stands in open grassland on Clingoe Hill. We found no published access terms for the land, so follow any signs.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill.jpg",
+        "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-3f14603e.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
@@ -39,9 +39,9 @@
         "height": 1600,
         "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_48178e92fdea8f66a594fb70",
-        "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
-        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a huge domed oak alone in open grass, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
+        "sighting_id": "3f14603e-26fa-4c63-b724-60c53457095d",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The whole Clingoe Hill oak in autumn leaf against a clear sky, the same hollowed, burred trunk with its pale markers as the current lead, open ground and other oaks behind; a second reader's view, no people in frame. Species seen: lobed oak leaves turning bronze, short massive furrowed trunk, broad domed crown. Fits the description: a huge domed oak standing alone in open grass, its short wide trunk hollowed and burred, trees behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -52,7 +52,22 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
-      "girth_cm": 600
+      "girth_cm": 600,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
+          "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a huge domed oak alone in open grass, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "A very large oak stands on Clingoe Hill in Colchester. Where it is and what a reader says about it.",

@@ -1329,6 +1329,49 @@
       },
       "location_precision": "approximate",
       "curation_status": "ai_generated"
+    },
+    {
+      "id": "wdc_043",
+      "name": "The Twin-Stemmed White Oak by the Trail",
+      "species": "White Oak (Quercus alba)",
+      "location": {
+        "address": "Beside a woodland footpath near Boyds, Montgomery County, Maryland",
+        "latitude": 39.1994621168067,
+        "longitude": -77.3172710308467,
+        "neighbourhood": "Boyds (Montgomery County, MD), about 45 km north-west of downtown DC"
+      },
+      "how_to_recognise": "Right at the edge of a dirt path in bare woods: a broad grey oak trunk made of two stems fused into one base, its bark hanging in long loose plates on one side, a rotten log lying against its foot.",
+      "access": "Beside a woodland footpath, where the reader stood. We have not confirmed who manages the land; check before you go.",
+      "story": "A reader walking in the woods near Boyds, in Montgomery County, Maryland, stopped at this oak beside the path and sent us a photograph of its trunk. They named it a white oak, and the bark agrees: pale grey, and on one side lifting away in long, loose, shaggy plates, the way an old white oak's does.\n\nThe photograph is taken close, and the trunk fills it. Two great stems rise side by side and have grown together at the base into one broad foot, a seam running up between them where they meet, the whole thing wider than the path beside it. Around it the woods are bare, a November understorey of thin young trunks, and fallen oak leaves lie in drifts at its roots, against a rotten log that has come to rest there.\n\nWhite oaks are among the longest lived trees of the eastern woods, and a trunk this broad among so many thin ones has clearly been here much longer than its neighbours. We have no measurement or age for it yet. If you have put a tape round it, tell us here and we will add your figures.\n\nWalk round to the far side and look up between the two stems.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2, 2026-11-23, through the app). Photograph viewed: the lower trunk of a big oak beside a woodland dirt path, two great stems fused into one broad base, grey bark in long shaggy plates on the left, fallen oak leaves and a rotten log at its foot, bare woods behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'White Oak near Washington DC', species 'White Oak', age 'None', note ''. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wdc_043-twin-stemmed-white-oak-by-the-trail.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7000e289bb3522744b204b19",
+        "sighting_id": "a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2",
+        "note": "Photographed by a reader and sent through the app (2026-11-23, through the app); viewed and approved on 2026-11-23: the lower trunk of a big oak beside a woodland dirt path, two great stems fused into one broad base, grey bark in long shaggy plates on the left, fallen oak leaves and a rotten log at its foot, bare woods behind, daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }

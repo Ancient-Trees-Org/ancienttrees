@@ -39,7 +39,7 @@
       "verified_sources": [
         "https://www.easthamptonstar.com/government/20221215/trees-axed-edge-arboretum (The East Hampton Star, 2022-12-15: the Douglas E. Dayton Arboretum, 3.2 acres at the end of Muchmore Lane and on Pleasant Lane beside Herrick Park, bought by the Town of East Hampton from 2017 with community preservation money, managed by the village; the gardens of Douglas Dayton, a former village mayor; 'specimen trees'. Names the site, not this tree)"
       ],
-      "story": "The reader who sent us this tree from East Hampton, on the South Fork of Long Island, named it a ginkgo. The photograph shows something else, we think. Smooth, elephant-grey bark, a trunk that flares at the foot into thick roots gripping the lawn, and a vast dome of small oval leaves going copper and gold are how a beech looks in November. Tell us if we have it wrong.\n\nWhatever its name, it is the kind of tree you notice from across a park. The trunk is short and broad and splits low into several great stems that climb together, so the crown is nearly as wide as it is tall and shades a whole stretch of grass. In the reader's picture the ground beneath it is covered in fallen leaves, and a line of other big trees runs off behind it, their dark trunks standing on a bright lawn.\n\nWe do not know its age or its girth. If you have stood under it with a tape, or know the history of this lawn beside Herrick Park, tell us here and we will add your figures.\n\nWalk in under the crown on a sunny autumn afternoon, when the light comes through the turning leaves.",
+      "story": "The reader who sent us this tree from East Hampton, on the South Fork of Long Island, named it a ginkgo. The photograph shows something else, we think. Smooth, elephant-grey bark, a trunk that flares at the foot into thick roots gripping the lawn, and a vast dome of small oval leaves going copper and gold are how a beech looks in November. Tell us if we have it wrong.\n\nWhatever its name, it is the kind of tree you notice from across a park. The trunk is short and broad and splits low into several great stems that climb together, so the crown is nearly as wide as it is tall and shades a whole stretch of grass. In the reader's picture the ground beneath it is covered in fallen leaves, and a line of other big trees runs off behind it, their dark trunks standing on a bright lawn.\n\nWith a second photograph, of the trunk, the reader named it a European beech and puts its girth at about 300 centimetres; those are their figures. We do not know its age. If you have stood under it with a tape, or know the history of this lawn beside Herrick Park, tell us here and we will add your figures.\n\nWalk in under the crown on a sunny autumn afternoon, when the light comes through the turning leaves.",
       "found_by_reader": {
         "sighting_id": "f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
         "date": "2026-11-23"
@@ -49,7 +49,7 @@
         "kind": "reader's hand-placed pin",
         "sighting_id": "f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
         "date": "2026-11-23",
-        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix. Kept on 2026-11-23: the trunk photograph b6555e27 came with a hand-placed spot 31 m off, not a fix."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-23 reader judge: sent by a reader (f2fc1760-9eaf-40e7-84c3-c0b294e94b16, 2026-11-23, through the app). Photograph viewed: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Ginkgo', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
@@ -67,7 +67,22 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
       },
-      "location_site": "Douglas E. Dayton Arboretum, East Hampton"
+      "location_site": "Douglas E. Dayton Arboretum, East Hampton",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_001-the-many-stemmed-beech-of-east-hampton-b6555e27.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "b6555e27-0c13-4715-b4d6-45b7f2ed37c9",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: A close view of the beech's lower trunk: stems fused into one broad smooth grey trunk, flaring into thick roots on a leaf-covered lawn, yellow beech leaves, cars on the lane beyond. The same reader's many-stemmed beech, 31 m from our pin; a trunk view behind the whole-tree lead. Species seen: smooth elephant-grey bark, oval toothed yellowing leaves, root flare: a beech. Fits the description: a short broad trunk splitting low into several stems, flaring at the foot into thick roots gripping the lawn, fallen leaves.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "ehp_002",

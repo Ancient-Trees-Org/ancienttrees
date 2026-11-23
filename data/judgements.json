@@ -1629,6 +1629,290 @@
    "agreed": null
   },
   {
+   "id": "sight:f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F2FC1760-9EAF-40E7-84C3-C0B294E94B16.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Live as east-hampton/ehp_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F973FAAB-F5C6-4C6E-A229-CAFAB41E9CDB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall Royal Paulownia at the far edge of a mown lawn, a thick pale grey trunk under a high crown of big leaves turning yellow, dark conifers beside it, blue sky, daylight, colour; a second photograph shows the black label on its trunk, 'Royal Paulownia, Paulownia tomentosa'. Live as east-hampton/ehp_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/D2B837B4-3747-420B-82CA-EB1FE69BD65C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a southern magnolia standing alone on open grass, a short dark trunk under a full rounded evergreen crown, ball fields, a backstop and a goalpost behind, blue sky, daylight, colour; a second photograph shows its big glossy leaves close up. Live as east-hampton/ehp_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6fb2ee82-0df9-4f02-8885-66f4d018275b",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Sahara Cypress",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/6FB2EE82-0DF9-4F02-8885-66F4D018275B.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Live as east-hampton/ehp_004 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2b13f306-caea-438e-906d-a1ceae4d9891",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Sourwood",
+   "city": null,
+   "species": "Sourwood",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sourwood"
+   },
+   "verdict": "publish",
+   "reason": "An old sourwood (arboretum label) with deep blocky bark and twisting limbs, big for a small species. Live as east-hampton/ehp_005, GPS fix confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2b13f306-caea-438e-906d-a1ceae4d9891",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Old Sourwood of the Dayton Arboretum",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_005 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:05617476-9451-4e3b-964a-30cd0a06e17f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Zelkova",
+   "city": null,
+   "species": "Saw-leaf Zelkova",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
+   "reader_note": "Size",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Saw-leaf Zelkova"
+   },
+   "verdict": "publish",
+   "reason": "A broad Japanese zelkova (arboretum label) in full orange autumn colour beside the car park. Live as east-hampton/ehp_006, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:05617476-9451-4e3b-964a-30cd0a06e17f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Zelkova by the Car Park",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
+   "reader_note": "Size",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_006 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3f14603e-26fa-4c63-b724-60c53457095d",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak of Clingoe Hill",
+   "city": "Colchester",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/3f14603e-26fa-4c63-b724-60c53457095d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 6,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The whole Clingoe Hill oak in autumn leaf, same hollowed burred trunk as the lead; added, now the lead, the old photo in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b6555e27-0c13-4715-b4d6-45b7f2ed37c9",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Sawara Cypress by the Bench",
+   "city": "East Hampton",
+   "species": "Sawara Cypress (Chamaecyparis pisifera)",
+   "photo": "out/sightings/b6555e27-0c13-4715-b4d6-45b7f2ed37c9.jpg",
+   "reader_note": "Very large",
+   "reader_girth_cm": 300,
+   "match": "distance",
+   "distance_m": 21,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sawara Cypress (Chamaecyparis pisifera)"
+   },
+   "verdict": "publish",
+   "reason": "Matched to the Sawara cypress by distance, but the photo is a beech trunk: the same reader's many-stemmed beech ehp_001 31 m away. Put in its strip; their girth of about 300 cm and 'European beech' go in its story as theirs; its pin moved to their fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b1cbd78e-14ec-4393-91a7-20141b439bd9",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Weeping willow hybrid in Oslo",
+   "city": null,
+   "species": "Weeping willow hybrid",
+   "photo": "p_65aaeff88f32f9e9c6a9c7fd/B1CBD78E-14EC-4393-91A7-20141B439BD9.jpg",
+   "reader_note": "This willow looks like it fell over years ago. Its trunk is lying flat on the riverbank, yet it’s still very much alive. What look like small trees growing in a row are actually its branches, reaching straight up from the fallen trunk.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping willow hybrid"
+   },
+   "verdict": "publish",
+   "reason": "A willow lying flat on the Akerselva bank with its branches grown up as a row of stems; photo GPS. Live as oslo/osl_006, their note quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:fa0eca37-16b1-434f-b012-6bfe32a4ed4b",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Plane in Oxford",
+   "city": null,
+   "species": "Plane",
+   "photo": "p_1e46f0e3fdd6ed0cd09842a4/FA0ECA37-16B1-434F-B012-6BFE32A4ED4B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Plane"
+   },
+   "verdict": "publish",
+   "reason": "The Magdalen Plane, planted 1801 (Magdalen College's own grounds page, and our research lead that only lacked a life check): the reader's November photo is that check. Live as oxford/oxf_008, approximate pin.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Atlantic White Cedar",
+   "city": null,
+   "species": "Atlantic White Cedar",
+   "photo": "p_40d48e30460963925dc95fa5/48DC4E46-0F57-4C74-96B8-ECBBAA5DDB1D.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Atlantic White Cedar"
+   },
+   "verdict": "publish",
+   "reason": "A twisted Atlantic white cedar on the swamp boardwalk at the Marconi Station Site, Wellfleet (NPS trail page names the site). Hand-placed pin, approximate. Live as wellfleet/wfl_001, a one-tree place.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "White Oak near Washington DC",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_7000e289bb3522744b204b19/A64C6A5A-DB8D-4168-B1E0-43F3B8CAF6A2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": "publish",
+   "reason": "A broad twin-stemmed white oak trunk beside a woodland path near Boyds, Maryland; trunk photo with a device fix at the tree. Live as washington-dc/wdc_043.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -26502,130 +26786,50 @@
    "agreed": null
   },
   {
-   "id": "sight:f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+   "id": "sight:b1cbd78e-14ec-4393-91a7-20141b439bd9",
    "seen": "2026-11-23",
    "kind": "a tree we do not map",
-   "tree": "Ginkgo",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/F2FC1760-9EAF-40E7-84C3-C0B294E94B16.jpg",
+   "tree": "The Willow that Fell and Kept Growing",
+   "photo": "p_65aaeff88f32f9e9c6a9c7fd/B1CBD78E-14EC-4393-91A7-20141B439BD9.jpg",
+   "reader_note": "This willow looks like it fell over years ago. Its trunk is lying flat on the riverbank, yet it’s still very much alive. What look like small trees growing in a row are actually its branches, reaching straight up from the fallen trunk.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23. Live as oslo/osl_006 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fa0eca37-16b1-434f-b012-6bfe32a4ed4b",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "The Magdalen Plane",
+   "photo": "p_1e46f0e3fdd6ed0cd09842a4/FA0ECA37-16B1-434F-B012-6BFE32A4ED4B.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Live as east-hampton/ehp_001 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-23. Live as oxford/oxf_008 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+   "id": "sight:48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d",
    "seen": "2026-11-23",
    "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/F973FAAB-F5C6-4C6E-A229-CAFAB41E9CDB.jpg",
+   "tree": "The Twisted Cedar of the Swamp Boardwalk",
+   "photo": "p_40d48e30460963925dc95fa5/48DC4E46-0F57-4C74-96B8-ECBBAA5DDB1D.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a tall Royal Paulownia at the far edge of a mown lawn, a thick pale grey trunk under a high crown of big leaves turning yellow, dark conifers beside it, blue sky, daylight, colour; a second photograph shows the black label on its trunk, 'Royal Paulownia, Paulownia tomentosa'. Live as east-hampton/ehp_002 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-23. Live as wellfleet/wfl_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   },
   {
-   "id": "sight:d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+   "id": "sight:a64c6a5a-db8d-4168-b1e0-43f3b8caf6a2",
    "seen": "2026-11-23",
    "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/D2B837B4-3747-420B-82CA-EB1FE69BD65C.jpg",
+   "tree": "The Twin-Stemmed White Oak by the Trail",
+   "photo": "p_7000e289bb3522744b204b19/A64C6A5A-DB8D-4168-B1E0-43F3B8CAF6A2.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a southern magnolia standing alone on open grass, a short dark trunk under a full rounded evergreen crown, ball fields, a backstop and a goalpost behind, blue sky, daylight, colour; a second photograph shows its big glossy leaves close up. Live as east-hampton/ehp_003 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:6fb2ee82-0df9-4f02-8885-66f4d018275b",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Sahara Cypress",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/6FB2EE82-0DF9-4F02-8885-66F4D018275B.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Live as east-hampton/ehp_004 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:2b13f306-caea-438e-906d-a1ceae4d9891",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Sourwood",
-   "city": null,
-   "species": "Sourwood",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Sourwood"
-   },
-   "verdict": "publish",
-   "reason": "An old sourwood (arboretum label) with deep blocky bark and twisting limbs, big for a small species. Live as east-hampton/ehp_005, GPS fix confirmed.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2b13f306-caea-438e-906d-a1ceae4d9891",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "The Old Sourwood of the Dayton Arboretum",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/2B13F306-CAEA-438E-906D-A1CEAE4D9891.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_005 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "lead:05617476-9451-4e3b-964a-30cd0a06e17f",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "Zelkova",
-   "city": null,
-   "species": "Saw-leaf Zelkova",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
-   "reader_note": "Size",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "unlisted",
-    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
-    "nearest": []
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Saw-leaf Zelkova"
-   },
-   "verdict": "publish",
-   "reason": "A broad Japanese zelkova (arboretum label) in full orange autumn colour beside the car park. Live as east-hampton/ehp_006, approximate.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:05617476-9451-4e3b-964a-30cd0a06e17f",
-   "seen": "2026-11-23",
-   "kind": "a tree we do not map",
-   "tree": "The Zelkova by the Car Park",
-   "photo": "p_a94e34ccafeeffaec7bf9e05/05617476-9451-4E3B-964A-30CD0A06E17F.jpg",
-   "reader_note": "Size",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-23. Live as east-hampton/ehp_006 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-23. Live as washington-dc/wdc_043 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

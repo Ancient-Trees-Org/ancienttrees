@@ -1,0 +1,72 @@
+{
+  "city": "Wellfleet",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Wellfleet is a town on the outer arm of Cape Cod, Massachusetts, much of it inside the Cape Cod National Seashore. Near the Marconi Station Site, where wireless messages once crossed the Atlantic, a short trail drops into a swamp of Atlantic white cedars and crosses it on a wooden boardwalk. A reader walked it in November and sent us one of its trees, a twisted cedar beside the walkway.",
+  "meta_description": "A twisted Atlantic white cedar on the swamp boardwalk at the Marconi Station Site in Wellfleet, Cape Cod, sent by a reader, and how to find it.",
+  "question_meta": "Where to see old Atlantic white cedars in Wellfleet, Cape Cod: the boardwalk of the Atlantic White Cedar Swamp Trail at the Marconi Station Site.",
+  "question_answer": "The Atlantic White Cedar Swamp Trail starts at the Marconi Station Site car park in South Wellfleet, in the Cape Cod National Seashore, and crosses a cedar swamp on a boardwalk. It is a 1.2 mile loop.",
+  "question_context": "Atlantic white cedar is a tree of wet ground along the eastern seaboard of the United States, and on Cape Cod it grows in a few hollows where water stands. The best known is the swamp below the Marconi Station Site in South Wellfleet, inside the Cape Cod National Seashore. The National Park Service's trail there is a loop of 1.2 miles: it starts by the car park, descends through stunted oak and pitch pine, and then crosses the swamp on a wooden boardwalk among tall, close-set cedars with reddish, stringy bark, before returning along the old Wireless Road, the sandy track that once served Marconi's transatlantic station. Pets are not allowed on the trail. In November a reader walked the boardwalk and sent us a photograph of one cedar in particular, a dark, twisted trunk studded with old branch stubs, with a person beside it for scale. We have no age or measurement for it yet, and we would like to hear from anyone who knows the swamp's history.",
+  "faq": [
+    {
+      "q": "Where is the Atlantic White Cedar Swamp Trail?",
+      "a": "At the Marconi Station Site in South Wellfleet, in the Cape Cod National Seashore. Follow the signs for the Marconi Station Site from Route 6; the trail starts beside the car park."
+    },
+    {
+      "q": "How long is the Atlantic White Cedar Swamp Trail?",
+      "a": "The National Park Service gives it as a 1.2 mile loop, out through oak and pine woods, across the swamp on a boardwalk and back by the old Wireless Road."
+    },
+    {
+      "q": "Can I bring my dog on the cedar swamp trail?",
+      "a": "No. The National Park Service does not allow pets on the Atlantic White Cedar Swamp Trail."
+    }
+  ],
+  "hero_tree_id": "wfl_001",
+  "oldest_tree_id": "wfl_001",
+  "trees": [
+    {
+      "id": "wfl_001",
+      "name": "The Twisted Cedar of the Swamp Boardwalk",
+      "species": "Atlantic White Cedar (Chamaecyparis thyoides)",
+      "location": {
+        "address": "Atlantic White Cedar Swamp Trail, Marconi Station Site, Cape Cod National Seashore, South Wellfleet, Massachusetts",
+        "latitude": 41.9132349549457,
+        "longitude": -69.9734360826351,
+        "neighbourhood": "Marconi Station Site"
+      },
+      "how_to_recognise": "Right beside the boardwalk where it curves through the swamp: a dark, twisted cedar trunk studded with stubs of old branches, its long bare limbs reaching out over the walkway.",
+      "access": "Free. On the boardwalk of the Atlantic White Cedar Swamp Trail, a 1.2 mile loop from the Marconi Station Site car park in the Cape Cod National Seashore; no pets on the trail.",
+      "verified_sources": [
+        "https://www.nps.gov/caco/planyourvisit/atlanticwhitecedar.htm (National Park Service, Cape Cod National Seashore: the Atlantic White Cedar Swamp Trail, a 1.2 mile loop from the Marconi Station Site in Wellfleet, down through oak and pine woods to a boardwalk through the cedar swamp, back by the old Wireless Road. Names the site, not this tree)"
+      ],
+      "story": "A reader sent us this cedar from the boardwalk of the Atlantic White Cedar Swamp Trail in Wellfleet, out on the far arm of Cape Cod, and their photograph puts a person beside it for scale.\n\nThe trail starts at the Marconi Station Site, where Guglielmo Marconi's towers once sent wireless messages across the Atlantic, and drops down through scrubby oak and pine into a hollow of standing water. There the woods change. Atlantic white cedars grow close together out of the swamp, tall and straight, their bark in long reddish strips, and a wooden boardwalk winds between them just above the wet ground. The park service brings walkers back along the old Wireless Road.\n\nThe reader's tree is the twisted one. Where its neighbours rise clean and straight, this trunk is dark and gnarled, turned on itself, studded with the stubs of old branches, and its long bare limbs reach out across the walkway. In the photograph a man stands on the boardwalk with his hand on the bark, looking up.\n\nWe have no age or measurement for it. Our pin is where the reader placed it on the trail; walk the boardwalk and look for the twisted trunk at a bend.",
+      "found_by_reader": {
+        "sighting_id": "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin on the map in the app (or it came without a fix); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d, 2026-11-23, through the app). Photograph viewed: a gnarled dark cedar beside a curving wooden boardwalk in a swamp forest, its trunk twisted and studded with broken branch stubs, a man seen from behind reaching up to touch it, a tall straight cedar in the foreground; further photos show the boardwalk among red-barked cedars and a knotted trunk from below; sunny daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Atlantic White Cedar', species 'Atlantic White Cedar', age 'None', note ''. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wfl_001-twisted-cedar-of-the-swamp-boardwalk.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_40d48e30460963925dc95fa5",
+        "sighting_id": "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d",
+        "note": "Photographed by a reader and sent through the app (2026-11-23, through the app); viewed and approved on 2026-11-23: a gnarled dark cedar beside a curving wooden boardwalk in a swamp forest, its trunk twisted and studded with broken branch stubs, a man seen from behind reaching up to touch it, a tall straight cedar in the foreground; further photos show the boardwalk among red-barked cedars and a knotted trunk from below; sunny daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ]
+}

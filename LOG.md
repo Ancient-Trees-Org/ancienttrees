@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: four readers' trees live (Oslo, Oxford's Magdalen Plane, a Cape Cod cedar, a Maryland white oak), two photos on trees we map
+
+- **Live, new trees**: a willow lying flat on the Akerselva bank in Oslo with its branches grown up into a row of stems, the reader's note quoted (osl_006, photo GPS); **the Magdalen Plane** in Oxford, planted 1801 per Magdalen College's grounds page. It sat in data/leads/oxford.json waiting only for a sign it still stands, and the reader's November photo is that sign (oxf_008, approximate pin on the New Building lawn, paid college entry); a twisted Atlantic white cedar on the swamp boardwalk at the Marconi Station Site, Wellfleet, Cape Cod (wfl_001, a new one-tree place with its texts, hand pin, NPS trail page as source); a broad twin-stemmed white oak beside a woodland path near Boyds, Maryland (wdc_043 in Washington DC, device fix).
+- **Photos on our trees**: a second reader's autumn view of the Clingoe Hill oak (cls_001) is now the lead, the earlier photo in the strip. A trunk photo that matched the Sawara cypress (ehp_004) by distance shows a beech, the same reader's many-stemmed beech ehp_001 31 m away; it goes in that tree's strip. Its story now carries their "European beech" and about 300 cm girth as theirs. The photo's location was hand-placed, so the beech's pin stays where it was.
+- No reports, feedback, tips or reader notes waiting. The 38 `mine` leads (our own photos, Japan and Baarn) are not reader work and were left as they are.
+
 ## 2026-11-23 reader judge: East Hampton grows to six (a sourwood and a zelkova), and the site is the Dayton Arboretum
 
 - **Live**: the same reader's last two photographs from East Hampton, which reached the intake after the earlier run: an old sourwood with deep blocky bark (ehp_005, GPS fix) and a Japanese zelkova in full orange autumn colour by the car park (ehp_006, hand pin, approximate), both named by the arboretum's labels in the reader's photos.
