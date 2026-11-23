@@ -1,0 +1,249 @@
+{
+  "city": "East Hampton",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "East Hampton is a village on the South Fork of Long Island, New York, about a hundred miles east of Manhattan. A reader walking the lawns beside Herrick Park, off Newtown Lane in the middle of the village, sent us four of its trees in November: a Royal Paulownia and a Sawara cypress, both labelled on their trunks, a broad beech in autumn colour, and a southern magnolia standing alone by the ball fields, all within about a hundred metres of each other.",
+  "meta_description": "Four trees beside Herrick Park in East Hampton, Long Island, sent by a reader: a paulownia, a beech, a magnolia and a Sawara cypress.",
+  "hero_tree_id": "ehp_001",
+  "oldest_tree_id": "ehp_001",
+  "question_meta": "Four trees to see beside Herrick Park in East Hampton village, Long Island: a beech, a Royal Paulownia, a southern magnolia and a Sawara cypress.",
+  "question_answer": "The trees to see in East Hampton village are four that stand within about a hundred metres of each other on the lawns beside Herrick Park, off Newtown Lane: a broad many-stemmed beech, a tall Royal Paulownia, a southern magnolia by the ball fields and a big Sawara cypress beside a bench.",
+  "question_context": "A reader sent us all four in November, walking the open lawns beside Herrick Park in the middle of East Hampton village on Long Island's South Fork. Two of them carry small black botanical labels screwed to their trunks, which name them: a Royal Paulownia, Paulownia tomentosa, its pale corky trunk rising high above the conifers around it, and a Sawara cypress, Chamaecyparis pisifera 'Squarrosa', a Japanese garden form usually sold as a shrub, grown here into a tall tree with long crooked limbs. The third is a beech with smooth grey bark that splits low into several stems under a wide dome of leaves, copper and gold in autumn; the reader named it a ginkgo, and we would like someone to settle it. The fourth is a southern magnolia, evergreen and standing alone on open grass in front of the ball fields, a long way north of where its species grows wild. We do not know the age, girth or planting history of any of them yet. The lawn is open parkland, and the four make a short walk of a few minutes.",
+  "faq": [
+    {
+      "q": "Where are the old trees in East Hampton village?",
+      "a": "On the open lawns beside Herrick Park, off Newtown Lane in the middle of the village. All four stand within about a hundred metres of each other."
+    },
+    {
+      "q": "Can I visit them?",
+      "a": "Yes, the reader walked up to each of them across mown parkland beside the ball fields. Nobody has told us of any gate or fee."
+    },
+    {
+      "q": "How old are they?",
+      "a": "We do not know yet. If you know when these trees were planted, or have measured one, tell us on its page and we will add your figures."
+    }
+  ],
+  "trees": [
+    {
+      "id": "ehp_001",
+      "name": "The Many-Stemmed Beech of East Hampton",
+      "species": "Beech (Fagus sp.)",
+      "location": {
+        "address": "Lawns beside Herrick Park, off Newtown Lane, Village of East Hampton, NY 11937",
+        "latitude": 40.9633413621812,
+        "longitude": -72.1911414424555,
+        "neighbourhood": "East Hampton village"
+      },
+      "how_to_recognise": "On the open lawn: a broad beech with smooth elephant-grey bark whose short trunk flares into thick roots at the foot and splits low into several stems, under a dome of small oval leaves.",
+      "access": "On open, mown parkland beside Herrick Park's ball fields, where the reader walked up to it; we have not confirmed who looks after this lawn.",
+      "verified_sources": [],
+      "story": "The reader who sent us this tree from East Hampton, on the South Fork of Long Island, named it a ginkgo. The photograph shows something else, we think. Smooth, elephant-grey bark, a trunk that flares at the foot into thick roots gripping the lawn, and a vast dome of small oval leaves going copper and gold are how a beech looks in November. Tell us if we have it wrong.\n\nWhatever its name, it is the kind of tree you notice from across a park. The trunk is short and broad and splits low into several great stems that climb together, so the crown is nearly as wide as it is tall and shades a whole stretch of grass. In the reader's picture the ground beneath it is covered in fallen leaves, and a line of other big trees runs off behind it, their dark trunks standing on a bright lawn.\n\nWe do not know its age or its girth. If you have stood under it with a tape, or know the history of this lawn beside Herrick Park, tell us here and we will add your figures.\n\nWalk in under the crown on a sunny autumn afternoon, when the light comes through the turning leaves.",
+      "found_by_reader": {
+        "sighting_id": "f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (f2fc1760-9eaf-40e7-84c3-c0b294e94b16, 2026-11-23, through the app). Photograph viewed: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Ginkgo', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ehp_001-many-stemmed-beech-of-east-hampton.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+        "sighting_id": "f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "ehp_002",
+      "name": "The Royal Paulownia of East Hampton",
+      "species": "Empress Tree (Paulownia tomentosa)",
+      "location": {
+        "address": "Lawns beside Herrick Park, off Newtown Lane, Village of East Hampton, NY 11937",
+        "latitude": 40.9636911327744,
+        "longitude": -72.1918785007546,
+        "neighbourhood": "East Hampton village"
+      },
+      "how_to_recognise": "At the far edge of the lawn, in front of a dark-roofed house: a thick, pale grey trunk with rough corky bark and a small black label, rising high above the dark conifers beside it.",
+      "access": "On open, mown parkland beside Herrick Park's ball fields, where the reader walked up to it; we have not confirmed who looks after this lawn.",
+      "verified_sources": [
+        "Botanical label on the trunk: 'Royal Paulownia, Paulownia tomentosa'; photographed by a reader 2026-11-23 (sighting f973faab)"
+      ],
+      "story": "A reader walking the lawns beside Herrick Park in East Hampton sent us this tree, with a second photograph of the black label screwed to its trunk: Royal Paulownia, Paulownia tomentosa. It is the tree also called the empress or princess tree, a native of China named after Anna Pavlovna, the Russian grand duchess who became queen of the Netherlands.\n\nPaulownias are famous for growing fast, and most of the ones planted in gardens stay slim. This one has not. In the reader's picture its pale grey trunk rises thick and straight from the far edge of a mown lawn, the bark broken into the rough, corky plates of an old tree, and the crown climbs well above the dark conifers beside it, its big heart-shaped leaves turning yellow in the November sun. On the other side, a bare tree has already dropped its leaves.\n\nIn spring, before the leaves come, a paulownia carries upright sprays of violet flowers shaped like foxgloves, sweetly scented, high in the crown.\n\nWe do not know its height, its girth or who planted it. If you know this lawn and its labelled trees, tell us here.\n\nCome in May, when it flowers.",
+      "found_by_reader": {
+        "sighting_id": "f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (f973faab-f5c6-4c6e-a229-cafab41e9cdb, 2026-11-23, through the app). Photograph viewed: a tall Royal Paulownia at the far edge of a mown lawn, a thick pale grey trunk under a high crown of big leaves turning yellow, dark conifers beside it, blue sky, daylight, colour; a second photograph shows the black label on its trunk, 'Royal Paulownia, Paulownia tomentosa'. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ehp_002-royal-paulownia-of-east-hampton.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+        "sighting_id": "f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a tall Royal Paulownia at the far edge of a mown lawn, a thick pale grey trunk under a high crown of big leaves turning yellow, dark conifers beside it, blue sky, daylight, colour; a second photograph shows the black label on its trunk, 'Royal Paulownia, Paulownia tomentosa'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_002-royal-paulownia-of-east-hampton-label.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the black botanical label screwed to its corky grey bark: 'Royal Paulownia, Paulownia tomentosa'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    },
+    {
+      "id": "ehp_003",
+      "name": "The Southern Magnolia by the Ball Fields",
+      "species": "Southern Magnolia (Magnolia grandiflora)",
+      "location": {
+        "address": "Lawns beside Herrick Park, off Newtown Lane, Village of East Hampton, NY 11937",
+        "latitude": 40.9634322132292,
+        "longitude": -72.1909309215781,
+        "neighbourhood": "East Hampton village"
+      },
+      "how_to_recognise": "Alone on the open grass in front of the ball fields: a dark, full, rounded evergreen crown of big glossy leaves on a short dark trunk, green when the trees around it are bare.",
+      "access": "On open, mown parkland beside Herrick Park's ball fields, where the reader walked up to it; we have not confirmed who looks after this lawn.",
+      "verified_sources": [],
+      "story": "Southern magnolias grow wild on the warm coastal plain of the American South, and Long Island is a long way north of there. A reader sent us this one from East Hampton village, standing alone on open grass beside Herrick Park, with ball fields, a backstop and a goalpost behind it.\n\nAlone is how a magnolia likes to grow. With nothing crowding it, this one has made a broad, full crown on a short dark trunk, every branch thick with big leathery leaves. A second photograph the reader sent shows them close up, longer than a hand, glossy dark green above with the rusty brown felt underneath that gives the species away. In a park where November had stripped the trees around it, it was still in full leaf, because it is evergreen.\n\nIn early summer it opens creamy white flowers as big as dinner plates, with a scent people often compare to lemon.\n\nWe do not know its age, its girth or who planted it. If you do, tell us here.\n\nCome in June or July for the flowers, or in the middle of winter, when it is the only green crown on the field.",
+      "found_by_reader": {
+        "sighting_id": "d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+        "date": "2026-11-23",
+        "note": "The reader placed this pin by hand (in the app, or a map link sent by mail); not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (d2b837b4-3747-420b-82ca-eb1fe69bd65c, 2026-11-23, through the app). Photograph viewed: a southern magnolia standing alone on open grass, a short dark trunk under a full rounded evergreen crown, ball fields, a backstop and a goalpost behind, blue sky, daylight, colour; a second photograph shows its big glossy leaves close up. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ehp_003-southern-magnolia-by-the-ball-fields.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+        "sighting_id": "d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a southern magnolia standing alone on open grass, a short dark trunk under a full rounded evergreen crown, ball fields, a backstop and a goalpost behind, blue sky, daylight, colour; a second photograph shows its big glossy leaves close up. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_003-southern-magnolia-by-the-ball-fields-leaves.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a spray of its big, glossy, leathery leaves close up, rusty brown on the undersides. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    },
+    {
+      "id": "ehp_004",
+      "name": "The Sawara Cypress by the Bench",
+      "species": "Sawara Cypress (Chamaecyparis pisifera)",
+      "location": {
+        "address": "Lawns beside Herrick Park, off Newtown Lane, Village of East Hampton, NY 11937",
+        "latitude": 40.9632704034829,
+        "longitude": -72.1910269093441,
+        "neighbourhood": "East Hampton village"
+      },
+      "how_to_recognise": "Two tall cypresses on the lawn with a wooden bench between them: this is the one in front, its thick reddish trunk shedding long fibrous strips, a small black label on it, its long limbs snaking out sideways.",
+      "access": "On open, mown parkland beside Herrick Park's ball fields, where the reader walked up to it; we have not confirmed who looks after this lawn.",
+      "verified_sources": [
+        "Botanical label on the trunk: 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'; photographed by a reader 2026-11-23 (sighting 6fb2ee82)"
+      ],
+      "story": "A small black label on this trunk names it: Sawara Cypress, Chamaecyparis pisifera 'Squarrosa'. A reader photographed the label and the tree on a lawn beside Herrick Park in East Hampton, and sent us both.\n\nSawara cypress comes from the mountains of central and southern Japan. 'Squarrosa' is a garden form, chosen for its soft, feathery, blue-grey foliage, and it is usually planted as a shrub or a small tree at the edge of a border. This one has been left alone long enough to become something else. Its reddish trunk, shedding bark in long fibrous strips, rises thick and straight past a wooden bench and then throws out long crooked limbs that snake sideways and up into a high, open crown. A second big cypress stands just behind it, with the bench between the two, and the lawn runs off under more old trees.\n\nWe do not know its age, its height or its girth. If you know who planted the labelled trees on this lawn, or when, tell us here and we will add it.\n\nSit on the bench between the two trunks and look up into the limbs.",
+      "found_by_reader": {
+        "sighting_id": "6fb2ee82-0df9-4f02-8885-66f4d018275b",
+        "date": "2026-11-23"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "6fb2ee82-0df9-4f02-8885-66f4d018275b",
+        "moved_m": 0,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (6fb2ee82-0df9-4f02-8885-66f4d018275b, 2026-11-23, through the app). Photograph viewed: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Sahara Cypress', species 'Sawara Cypress (Chamaecyparis pisifera)', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ehp_004-sawara-cypress-by-the-bench.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+        "sighting_id": "6fb2ee82-0df9-4f02-8885-66f4d018275b",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_004-sawara-cypress-by-the-bench-label.jpg",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "6fb2ee82-0df9-4f02-8885-66f4d018275b",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the black botanical label on its fibrous trunk: 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date"
+        }
+      ]
+    }
+  ]
+}

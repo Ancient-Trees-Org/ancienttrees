@@ -12,6 +12,20 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: four readers' trees live in East Hampton, Long Island
+
+**What changed:** a new place, East Hampton (New York). One reader sent four trees from the lawns beside Herrick Park in the village, all within about 100 m of each other, and all four are live:
+- ehp_001 a broad many-stemmed beech in autumn colour. The reader named it Ginkgo, but the bark, leaves and form are a beech's, so it went live as Beech (Fagus sp.) and the story asks readers to settle it.
+- ehp_002 a tall Royal Paulownia (its species from the label on its trunk, which the reader also photographed).
+- ehp_003 a southern magnolia standing alone by the ball fields.
+- ehp_004 a big Sawara cypress 'Squarrosa', also labelled. Its pin is the reader's device fix, so it is `confirmed`. The other three were pinned by hand and stay `approximate`.
+
+All four photos are from November (`taken_month` 11). Label and leaf photos are in each tree's strip. East Hampton is added to data/us-states.json as New York. The place has intro, question block and three FAQ.
+
+**Also:** tip:1400 is the website copy of the Springs paulownia (sighting fba415e7), whose lead has been held `not_public` since 11-21. It is recorded as `hold`, same reason.
+
+**Left:** sighting 3c544597 (Amsterdam, `mine: true`, our own photo) has no photo on disk. Our own photos are never auto-published, so it waits as before. No reports or feedback were open. `city_names.py` has not been run for east-hampton yet (a preflight note).
+
 ## 2026-11-23 session: Android invitations on hold, no batch through a Google mailbox
 
 - **Android now**: build 5 live on both closed tracks; 22 phones on it by the 23rd (14 that day, 4 still on build 4), 158 Android phones ever; no unanswered crash.

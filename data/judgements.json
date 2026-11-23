@@ -1526,6 +1526,109 @@
    "agreed": null
   },
   {
+   "id": "lead:f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F973FAAB-F5C6-4C6E-A229-CAFAB41E9CDB.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall Royal Paulownia with a thick corky trunk and a high crown turning yellow, labelled Paulownia tomentosa on its trunk (reader's second photo), on the lawns beside Herrick Park, East Hampton NY. Big for the species. Live as east-hampton/ehp_002, hand-placed pin kept approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "city": null,
+   "species": null,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F2FC1760-9EAF-40E7-84C3-C0B294E94B16.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad many-stemmed beech in copper autumn leaf on the lawns beside Herrick Park, East Hampton NY. The reader named it Ginkgo; bark, leaves and form are a beech's, so it went live as Beech (Fagus sp.) and the page asks. Live as east-hampton/ehp_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_a94e34ccafeeffaec7bf9e05/D2B837B4-3747-420B-82CA-EB1FE69BD65C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a southern magnolia standing alone on open grass by the Herrick Park ball fields in East Hampton NY, full evergreen crown, leaves close up in a second photo. Well north of its wild range. Live as east-hampton/ehp_003, hand-placed pin kept approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6fb2ee82-0df9-4f02-8885-66f4d018275b",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Sahara Cypress",
+   "city": null,
+   "species": "Sawara Cypress (Chamaecyparis pisifera)",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/6FB2EE82-0DF9-4F02-8885-66F4D018275B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sawara Cypress (Chamaecyparis pisifera)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big Sawara cypress 'Squarrosa' (label on the trunk in the second photo), thick fibrous trunk and long crooked limbs beside a bench, on the lawns beside Herrick Park in East Hampton NY; a garden form usually kept as a shrub, grown into a tall tree. Live as east-hampton/ehp_004, device GPS pin confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
@@ -5657,6 +5760,21 @@
    },
    "verdict": "publish",
    "reason": "The whole white oak in spring leaf behind a split-rail fence, plus the park's sign (germinated c.1685, Ontario Heritage Tree 2022, 684 cm round). Live as oakville/okv_001, hand-placed pin kept approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1400",
+   "seen": "2026-11-21",
+   "kind": "a tip without a photograph",
+   "tree": "FBA415E7-7E56-4859-BBFA-88CA09A74FD6",
+   "city": "",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "hold",
+   "reason": "The website copy of the app sighting fba415e7 (the Royal Paulownia on a house lot on Winding Way, Springs). Its lead is held not_public since 2026-11-21: the photo is taken from inside a private lawn and we cannot tell whether it is seen from the street. Goes live with the pin on the viewing spot once the reader says it can be seen from a road or path.",
    "hidde": null,
    "agreed": null
   },
@@ -26380,6 +26498,54 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f2fc1760-9eaf-40e7-84c3-c0b294e94b16",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F2FC1760-9EAF-40E7-84C3-C0B294E94B16.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a broad beech in copper and gold autumn leaf on a park lawn, smooth grey trunk flaring into roots and splitting low into several stems, fallen leaves, blue sky, daylight, colour. The reader named it Ginkgo; the bark, leaves and form are a beech's. Live as east-hampton/ehp_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f973faab-f5c6-4c6e-a229-cafab41e9cdb",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/F973FAAB-F5C6-4C6E-A229-CAFAB41E9CDB.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a tall Royal Paulownia at the far edge of a mown lawn, a thick pale grey trunk under a high crown of big leaves turning yellow, dark conifers beside it, blue sky, daylight, colour; a second photograph shows the black label on its trunk, 'Royal Paulownia, Paulownia tomentosa'. Live as east-hampton/ehp_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d2b837b4-3747-420b-82ca-eb1fe69bd65c",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/D2B837B4-3747-420B-82CA-EB1FE69BD65C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a southern magnolia standing alone on open grass, a short dark trunk under a full rounded evergreen crown, ball fields, a backstop and a goalpost behind, blue sky, daylight, colour; a second photograph shows its big glossy leaves close up. Live as east-hampton/ehp_003 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6fb2ee82-0df9-4f02-8885-66f4d018275b",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Sahara Cypress",
+   "photo": "p_a94e34ccafeeffaec7bf9e05/6FB2EE82-0DF9-4F02-8885-66F4D018275B.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-23: a big Sawara cypress on a park lawn, a thick reddish fibrous trunk rising past a wooden bench into long crooked limbs and a high open crown, a second cypress behind the bench, daylight, colour; a second photograph shows its label, 'Sawara Cypress, Chamaecyparis pisifera Squarrosa'. Live as east-hampton/ehp_004 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
