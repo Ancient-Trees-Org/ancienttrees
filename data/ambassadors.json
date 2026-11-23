@@ -1968,6 +1968,26 @@
         "The Great Cedar of Varese"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a675b175e9164f884aa9e3c8",
+      "place_slug": "ancient-bristlecone-pine-forest",
+      "place_name": "Ancient Bristlecone Pine Forest",
+      "date": "2026-11-23",
+      "trees": [
+        "The Twisted Bristlecone by the Rocky Trail"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_158314cb4b1892ca53e88c7d",
+      "place_slug": "patagonia-arizona",
+      "place_name": "Patagonia",
+      "date": "2026-11-23",
+      "trees": [
+        "The Old Mesquite of North 4th Street"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
