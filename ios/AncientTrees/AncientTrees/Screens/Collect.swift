@@ -965,14 +965,26 @@ struct CollectView: View {
                             // THE FLAG OPENS THE SAME EDITOR as the photo and
                             // the name (Hidde, 2026-11-22: "of de vlag"), where
                             // your country is chosen; 44 points to hit.
+                            // THE 44 IS AN OVERLAY, NOT A FRAME SHRUNK BACK
+                            // (2026-11-23): a 44 frame pulled in by -12 padding
+                            // laid out right but measured 44 by 20, and appfit
+                            // failed the iOS 18 floor on it three nights running.
+                            // The overlay hits and measures 44 by 44 and takes
+                            // no room, so the row keeps the flag's own height.
                             CountryFlag(code: profiles.myCountry)
-                                .frame(minWidth: 44, minHeight: 44)
-                                .contentShape(.rect)
-                                .padding(.vertical, -12)
-                                .tapUnlessDragged { editingProfile = true }
-                                .accessibilityAddTraits(.isButton)
-                                .accessibilityLabel("Edit your profile")
-                                .accessibilityIdentifier("mytrees-edit-flag")
+                                .accessibilityHidden(true)
+                                .frame(minWidth: 44)
+                                .overlay {
+                                    Rectangle()
+                                        .fill(.clear)
+                                        .frame(width: 44, height: 44)
+                                        .contentShape(.rect)
+                                        .tapUnlessDragged { editingProfile = true }
+                                        .accessibilityElement()
+                                        .accessibilityAddTraits(.isButton)
+                                        .accessibilityLabel("Edit your profile")
+                                        .accessibilityIdentifier("mytrees-edit-flag")
+                                }
                         }
                     }
                     if account.isSignedIn {
