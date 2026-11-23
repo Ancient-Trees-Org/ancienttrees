@@ -1476,6 +1476,56 @@
    "agreed": null
   },
   {
+   "id": "sight:7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "Tight Grove, University of New Mexico",
+   "city": "Albuquerque",
+   "species": "Ponderosa Pine (Pinus ponderosa) and Rio Grande Cottonwood (Populus deltoides subsp. wislizeni)",
+   "photo": "out/sightings/7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 73,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ponderosa Pine (Pinus ponderosa) and Rio Grande Cottonwood (Populus deltoides subsp. wislizeni)"
+   },
+   "verdict": "publish",
+   "reason": "The Tight Grove itself: tall ponderosas around the Lobo wolf sculpture, Hodgin Hall behind, as the recognition line says. The tree's first photograph; pin moved 73 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c5a932e5-ab17-4e42-aa7b-e9367c26cb4f",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo in London",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_8b86d4aa9a803a2e23ac0f7a/C5A932E5-AB17-4E42-AA7B-E9367C26CB4F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo"
+   },
+   "verdict": "publish",
+   "reason": "Already live as lon_055, the gold ginkgo in Greenwich (published in the previous reader-judge run).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",

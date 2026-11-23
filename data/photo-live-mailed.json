@@ -3217,6 +3217,21 @@
      "mailed": "2026-11-23"
     }
    ]
+  },
+  "p_b3737c9881fe83062eb023db": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0",
+     "tree_id": "abq_001",
+     "tree_name": "Tight Grove, University of New Mexico",
+     "city": "Albuquerque",
+     "city_slug": "albuquerque",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

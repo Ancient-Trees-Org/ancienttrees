@@ -7332,7 +7332,19 @@
   "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f": {
    "outcome": "published",
    "date": "2026-11-23",
-   "tree_id": "lon_055"
+   "tree_id": "lon_055",
+   "pin_checked": "2026-11-23"
+  },
+  "7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0": {
+   "outcome": "published",
+   "date": "2026-11-23",
+   "tree_id": "abq_001",
+   "city_slug": "albuquerque",
+   "file": "abq_001-tight-grove-university-of-new-mexico.jpg",
+   "reason": "The Tight Grove itself: tall ponderosas with long bare trunks and high crowns around the bronze Lobo wolf on its rocks, the pueblo-style building behind, cottonwoods in autumn yellow at the edge. Daylight, colour. The first photograph this tree has. Species seen: tall pines with long clean trunks, p",
+   "lat": 35.0816398671108,
+   "lon": -106.626210613163,
+   "pin_checked": "2026-11-23"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

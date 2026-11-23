@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: the Tight Grove in Albuquerque has its first photograph (abq_001)
+
+- **abq_001 Tight Grove, University of New Mexico**: a reader's photo of the grove, viewed before approval. It shows tall ponderosas around the Lobo wolf sculpture, with Hodgin Hall's pueblo-style front behind and cottonwoods in autumn yellow at the edge, which is what our recognition line describes. It is now the lead photograph (the tree had none) and is filed in November. The pin moved 73 m to the reader's GPS fix, now confirmed. The reader's "it is live" mail went through sightings_publish `--send`. The script's pins catch-up could not read coordinates (HTTPError), but the move itself was written.
+- The judgement for the Greenwich ginkgo lead (c5a932e5, already live as lon_055) was recorded.
+- There were no open reports, tips, feedback or readers' words. The only remaining waiting lead (3c544597, Amsterdam) is our own account's test photo (`mine`), and its file is not on disk, so it was left.
+
 ## 2026-11-23 reader judge: a reader's gold ginkgo in Greenwich is live (lon_055)
 
 Both photographs were viewed. There were no open reports, tips, feedback or readers' words waiting.

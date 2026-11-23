@@ -34,8 +34,8 @@
       "age_basis": "source",
       "location": {
         "address": "Southwest corner of main campus beside Hodgin Hall, 1889 Central Ave NE, Albuquerque, NM 87131",
-        "latitude": 35.08167,
-        "longitude": -106.62541,
+        "latitude": 35.08164,
+        "longitude": -106.626211,
         "neighbourhood": "University of New Mexico / Nob Hill"
       },
       "location_site": {
@@ -52,13 +52,27 @@
       ],
       "access": "Free. Open campus grounds of the University of New Mexico (state-designated arboretum since 1994, ArbNet Level I; trees on public display per sustainability.unm.edu). No entry fee or hours stated for the grounds.",
       "transport": "On Central Ave NE at the university's west edge; ABQ RIDE Central Ave routes stop nearby (not checked against a timetable). Walk of a few minutes from the stop.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/abq_001-tight-grove-university-of-new-mexico.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b3737c9881fe83062eb023db",
+        "sighting_id": "7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The Tight Grove itself: tall ponderosas with long bare trunks and high crowns around the bronze Lobo wolf on its rocks, the pueblo-style building behind, cottonwoods in autumn yellow at the edge. Daylight, colour. The first photograph this tree has. Species seen: tall pines with long clean trunks, plated bark and tufted long-needle crowns (ponderosa); yellow broadleaf at the right edge (cottonwood). Fits the description: a grove of pines and grass around a Lobo sculpture, a tan pueblo-revival building like Hodgin Hall behind, exactly what the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7bb79552-adf1-4ccf-a0e3-5a6d7d129ff0",
+        "moved_m": 73,
+        "date": "2026-11-23",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     }
   ]
