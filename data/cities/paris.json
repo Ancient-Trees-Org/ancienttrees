@@ -2670,19 +2670,21 @@
       "id": "par_077",
       "name": "The Tall Plane of the Jardin des Plantes",
       "species": "London Plane (Platanus x acerifolia)",
-      "age_estimate": "about 241 years, by a reader's estimate",
-      "age_min": null,
-      "age_max": null,
+      "age_estimate": "241 years (planted in 1785)",
+      "age_min": 241,
+      "age_max": 241,
       "location": {
-        "address": "Jardin des Plantes, Rue Cuvier side, 75005 Paris",
+        "address": "Jardin des Plantes, on the slope of the labyrinth hill (Rue Cuvier side), 75005 Paris",
         "latitude": 48.8436224920378,
         "longitude": 2.35549012809443,
         "neighbourhood": "Jardin des Plantes, 5th arrondissement"
       },
-      "how_to_recognise": "A single straight plane trunk rising very high before it branches, its bark flaking in cream and grey patches, with ivy climbing the lower few metres.",
+      "how_to_recognise": "A tall, straight plane trunk flaking cream and grey, ivy on its lower metres, bare roots on the eroded slope of the labyrinth hill and the garden's label at its foot.",
       "access": "Free, Jardin des Plantes open daily.",
-      "story": "A reader who has been sending us the old trees of the Jardin des Plantes one by one added this plane, and gave it about 241 years.\n\nIf that is right, it was planted in the 1780s, when this was still the King's garden of medicinal plants and the naturalist Buffon was running it. The Revolution turned the garden into the national natural history museum a few years later, and the tree has grown up with the museum ever since. The age is the reader's figure; we have not yet found the garden's own record for this trunk, so treat it as theirs until a label or a register says otherwise.\n\nThe photograph looks straight up the trunk, and what it shows is height. A single column of bark, flaking away in cream, olive and grey patches the way plane bark does, climbs a long way before it opens into limbs, and ivy wraps the bottom few metres. Far above, the crown spreads in a loose canopy of maple-shaped leaves, turning yellow in November.\n\nThe reader calls it Platanus x hispanica, the hybrid plane that lines half the boulevards of Paris. If you find a label at its foot, tell us what it says.\n\nStand at the base and look up the trunk, as the reader did.",
-      "verified_sources": [],
+      "story": "A reader who has been sending us the old trees of the Jardin des Plantes one by one added this plane and gave it about 241 years. Then they photographed the label at its foot, and the garden agrees with them. The museum's Arbres historiques et remarquables plate says it was planted under Buffon in 1785.\n\nThat puts it in the last years of the King's garden of medicinal plants, when the naturalist Buffon had run it for almost half a century. He died in 1788, the Revolution turned the garden into the national natural history museum in 1793, and this tree has grown up with the museum ever since. Elsewhere in the garden stands the oriental plane Buffon planted the same year; this one is the common hybrid plane, Platanus x hispanica, as the label names it.\n\nThe label points at something you can see. Erosion has worn down the slopes of the labyrinth hill beside it and laid its roots bare across the ground. The museum uses the tree to make a point about roots, mostly hidden and often reckoned to match the crown in volume.\n\nThen look up. A single column of cream, olive and grey flaking bark climbs a long way before it opens into limbs, with ivy wrapping its lower few metres.",
+      "verified_sources": [
+        "Muséum national d'Histoire naturelle, 'Arbres historiques & remarquables' label at the foot of the tree ('Cet arbre a été planté sous Buffon en 1785', Platanus x hispanica), photographed by a reader 2026-11-02 (sighting f06ad221)"
+      ],
       "age_basis": "source",
       "found_by_reader": {
         "sighting_id": "28ece313-a518-403a-a24c-c960b32ccfe5",
@@ -2696,7 +2698,7 @@
         "note": "The reader placed this pin on the map in the app; not a GPS fix."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-23 reader judge: sent by a reader (28ece313-a518-403a-a24c-c960b32ccfe5, 2026-11-23, through the app). Photograph viewed: looking straight up a tall single plane trunk, mottled cream and grey bark with ivy on its lower part, into a high crown of yellowing leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Platanus x hispanica in Paris', species 'Platanus x hispanica', age '241 years estimated', girth None cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (28ece313-a518-403a-a24c-c960b32ccfe5, 2026-11-23, through the app). Photograph viewed: looking straight up a tall single plane trunk, mottled cream and grey bark with ivy on its lower part, into a high crown of yellowing leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Platanus x hispanica in Paris', species 'Platanus x hispanica', age '241 years estimated', girth None cm. Every figure on the page not in verified_sources is stated as theirs. 2026-11-23 reader judge: the same reader sent the tree's own MNHN label (sighting f06ad221): Platane commun, Platanus x hispanica, planted under Buffon in 1785, roots bared by erosion of the labyrinth slopes. Age now sourced; it agrees with the reader's 241 years. Not par_004 (the oriental Buffon Plane on the open sanded path).",
       "photo": {
         "url": "https://ancienttrees.app/photos/par_077-tall-plane-of-the-jardin-des-plantes.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
@@ -2710,7 +2712,22 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: looking straight up a tall single plane trunk, mottled cream and grey bark with ivy on its lower part, into a high crown of yellowing leaves, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/par_077-the-tall-plane-of-the-jardin-des-plantes-f06ad221.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_cdc28055a82c5ea92ef49afc",
+          "sighting_id": "f06ad221-ad18-496b-b15a-50f61b06504c",
+          "note": "Photographed by a reader and sent through the app (2026-11-02); a viewing pass approved it on 2026-11-23: The tree's own MNHN label at its foot (Platane commun, Platanus x hispanica, planted under Buffon in 1785), beside an ivy-covered plane trunk and bared roots; belongs behind the lead in the gallery. Species seen: label names Platanus x hispanica; ivy on a plane trunk, plane leaves on the ground. Fits the description: ivy on the lower trunk, roots bared on a slope, matching the recognition line and the reader's own tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

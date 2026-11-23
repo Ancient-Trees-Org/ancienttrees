@@ -7280,6 +7280,17 @@
    "tree_id": "yor_008",
    "reason": "Not the beech: a big London plane in Dean's Park with York Minster's tower behind and the old Archbishop's Palace arcade at the right, plane leaves on the grass, mottled flaking trunk. The reader named it 'Minster London Plane'; judged as a new tree.",
    "city_slug": "york"
+  },
+  "f06ad221-ad18-496b-b15a-50f61b06504c": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "par_077",
+   "city_slug": "paris",
+   "file": "par_077-the-tall-plane-of-the-jardin-des-plantes-f06ad221.jpg",
+   "reason": "The tree's own MNHN label at its foot (Platane commun, Platanus x hispanica, planted under Buffon in 1785), beside an ivy-covered plane trunk and bared roots; belongs behind the lead in the gallery. Species seen: label names Platanus x hispanica; ivy on a plane trunk, plane leaves on the ground. Fit",
+   "lat": 48.8436224920378,
+   "lon": 2.35549012809443,
+   "pin_checked": "2026-11-23"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

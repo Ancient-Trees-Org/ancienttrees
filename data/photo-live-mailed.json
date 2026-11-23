@@ -29,6 +29,15 @@
      "city_slug": "paris",
      "display_name": null,
      "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "f06ad221-ad18-496b-b15a-50f61b06504c",
+     "tree_id": "par_077",
+     "tree_name": "The Tall Plane of the Jardin des Plantes",
+     "city": "Paris",
+     "city_slug": "paris",
+     "display_name": null,
+     "live": "2026-11-23"
     }
    ],
    "sent": [

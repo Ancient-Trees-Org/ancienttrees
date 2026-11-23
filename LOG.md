@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge: the Jardin des Plantes plane's own label proves its age
+
+**What changed in the product**
+- **Paris par_077, The Tall Plane of the Jardin des Plantes**: the reader who added it this morning also sent a photograph of its museum label ("Arbres historiques & remarquables": Platanus x hispanica, "planted under Buffon in 1785", its roots bared by erosion of the labyrinth slopes). The label is in the gallery behind their trunk shot (`strip`) and is now the page's source. The age is now 241 years (planted 1785), sourced, which matches the reader's own figure. The story and recognition line are rewritten in English and French to include the label and the bare roots. It is not par_004, the oriental Buffon Plane on the open path; the verify_notes say so. The pin stays approximate (hand-placed).
+- tip:1531 is the submission row of that same tree, so its verdict is publish (par_077), with nothing more to add.
+
+**Left as it is**
+- Sighting 3c544597 (Amsterdam, "not sure which" near ams_032) is one of our own photos (`mine`) and is not on disk, so it was not judged blind.
+- No open reports, no feedback without a verdict, and no reader notes waiting to be quoted.
+
 ## 2026-11-23 reader judge (evening): a York plane live, a second Minster Yard beech photo
 
 **What changed in the product**

@@ -1155,6 +1155,43 @@
    "agreed": null
   },
   {
+   "id": "sight:f06ad221-ad18-496b-b15a-50f61b06504c",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Plane of the Jardin des Plantes",
+   "city": "Paris",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/f06ad221-ad18-496b-b15a-50f61b06504c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the tree's own MNHN label (Platanus x hispanica, planted under Buffon in 1785) at an ivy-covered plane trunk with bared roots. Into par_077's gallery behind the lead; the label now sources its age, which matches the reader's 241 years.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1531",
+   "seen": "2026-11-23",
+   "kind": "a tip without a photograph",
+   "tree": "28ECE313-A518-403A-A24C-C960B32CCFE5",
+   "city": "Paris",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Not a separate tip: the submission row of the reader's tree already live as par_077 (The Tall Plane of the Jardin des Plantes, Paris), same sighting 28ece313 and same hand-placed pin. Nothing more to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
