@@ -431,6 +431,63 @@
         "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
         "sighting_id": "bee85803-fdec-48c4-84bb-e5b061af1994",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: looking straight up a pale, smooth beech trunk that forks into several stems under a full green crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/yor_007-the-minster-yard-beech-bfc1e32d.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+          "sighting_id": "bfc1e32d-1f10-4f87-917c-fc19570af1dd",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The whole beech, bare in November, its domed crown of fine twigs rising behind the railings and hedge of the Minster Yard houses; the same reader's in-leaf trunk shot stays the lead (in leaf beats bare), this one shows the whole tree and where it stands. Species seen: bare winter crown of dense fine twigs, smooth grey trunk, domed open-grown shape: beech. Fits the description: a tall broad-crowned tree in the Minster precinct, 17 m from our pin, sent by the reader who added the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
+    },
+    {
+      "id": "yor_008",
+      "name": "The Minster London Plane",
+      "species": "London Plane (Platanus x acerifolia)",
+      "location": {
+        "address": "Dean's Park, north side of York Minster, York",
+        "latitude": 53.9631198,
+        "longitude": -1.081726,
+        "neighbourhood": "City centre"
+      },
+      "how_to_recognise": "On the open lawn of Dean's Park, off the path from the Minster: a plane standing on its own in the grass, its short, dark, knobbly trunk splitting at head height into a crown much wider than it is tall.",
+      "access": "Free. In Dean's Park, the public lawns on the north side of York Minster.",
+      "story": "\"Only metres from the Minster, a beautiful example of the London Plane,\" wrote the reader who sent us this tree from Dean's Park, the lawns on the north side of York Minster.\n\nTheir photograph was taken under the crown in late November, and it is mostly branches. The trunk is short and very thick, dark and knobbly at the foot where it flares out into the grass, and at about head height it breaks into a handful of great limbs that lean out in every direction and divide again and again, so the crown is far wider than it is tall. The last leaves hang on the outer twigs; the rest lie in a brown carpet across the lawn. To the left the Minster's tower rises over the path, and slimmer trees line the walk beside it, but this is the one that holds the eye.\n\nThe reader puts the trunk at about 325 centimetres round. That is their figure, not one we have checked. London planes went into British towns by the thousand in the nineteenth century because they shrug off soot and hard pruning; when this one was planted we do not know. If you do, tell us here.\n\nWalk in off the path, stand under the limbs, and look back at the Minster through them.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+        "date": "2026-11-23"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+        "date": "2026-11-23",
+        "note": "The coordinate the app sent with the photograph, location kind not recorded; treated as approximate, not a GPS fix. It may be where the reader stood, a few metres from the trunk."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-23 reader judge: sent by a reader (edc354c1-8f72-43fc-99b8-3b1921a03b2e, through the app) as a photograph of yor_007, the Minster Yard beech, by the same reader who added that tree; it shows a different tree, so judged as new (other_tree). Photograph viewed: a big London plane on the lawn of Dean's Park, its short thick trunk flaring into the grass and splitting at head height into wide limbs, bare but for the last leaves, the Minster's tower at the left, a stone arcade at the right, fallen plane leaves over the grass, overcast daylight, colour. Published under the closed list for a reader's tree. The reader's own figures: name 'Minster London Plane', species 'London Plane', girth 325 cm; every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/yor_008-minster-london-plane.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "taken_month_basis": "the day it was sent, which agrees with what it shows: autumn leaf-fall, plane leaves on the lawn",
+        "source": "contributor",
+        "contributor_user_id": "p_01ea1753df5e9ff4dabdde36",
+        "sighting_id": "edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a big London plane on the lawn of Dean's Park, its short thick trunk flaring into the grass and splitting at head height into wide limbs, bare but for the last leaves, the Minster's tower at the left, a stone arcade at the right, fallen plane leaves over the grass, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

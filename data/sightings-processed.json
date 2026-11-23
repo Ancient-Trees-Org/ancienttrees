@@ -7262,6 +7262,24 @@
    "date": "2026-11-23",
    "tree_id": "var_002",
    "reason": "Duplicate: the same picture already leads the Ginkgo of Varese's page (same reader, sent again)."
+  },
+  "bfc1e32d-1f10-4f87-917c-fc19570af1dd": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "yor_007",
+   "city_slug": "york",
+   "file": "yor_007-the-minster-yard-beech-bfc1e32d.jpg",
+   "reason": "The whole beech, bare in November, its domed crown of fine twigs rising behind the railings and hedge of the Minster Yard houses; the same reader's in-leaf trunk shot stays the lead (in leaf beats bare), this one shows the whole tree and where it stands. Species seen: bare winter crown of dense fine",
+   "lat": 53.9630515,
+   "lon": -1.0817224,
+   "pin_checked": "2026-11-23"
+  },
+  "edc354c1-8f72-43fc-99b8-3b1921a03b2e": {
+   "outcome": "published",
+   "date": "2026-11-23",
+   "tree_id": "yor_008",
+   "reason": "Not the beech: a big London plane in Dean's Park with York Minster's tower behind and the old Archbishop's Palace arcade at the right, plane leaves on the grass, mottled flaking trunk. The reader named it 'Minster London Plane'; judged as a new tree.",
+   "city_slug": "york"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

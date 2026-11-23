@@ -2497,7 +2497,17 @@
   },
   "p_01ea1753df5e9ff4dabdde36": {
    "last": "2026-11-20",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "bfc1e32d-1f10-4f87-917c-fc19570af1dd",
+     "tree_id": "yor_007",
+     "tree_name": "The Minster Yard Beech",
+     "city": "York",
+     "city_slug": "york",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",

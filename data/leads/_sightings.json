@@ -11042,6 +11042,31 @@
    "seen": "2026-11-23",
    "hold": "doubt_location",
    "judged": "2026-11-23"
+  },
+  {
+   "sighting_id": "edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+   "user_id": "p_01ea1753df5e9ff4dabdde36",
+   "mine": false,
+   "name": "",
+   "species": "London Plane",
+   "age": null,
+   "girth_cm": 325,
+   "girth_hugs": null,
+   "note": "Only metres from the Minster, a beautiful example of the London Plane.",
+   "latitude": 53.9631198,
+   "longitude": -1.081726,
+   "near": "York",
+   "photo": "p_01ea1753df5e9ff4dabdde36/EDC354C1-8F72-43FC-99B8-3B1921A03B2E.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 14,
+   "sent_for": "yor_007",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-23: a big London plane on the lawn of Dean's Park, its short thick trunk flaring into the grass and splitting at head height into wide limbs, bare but for the last leaves, the Minster's tower at the left, a stone arcade at the right, fallen plane leaves over the grass, overcast daylight, colour. Live as york/yor_008 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-23",
+   "judged": "2026-11-23",
+   "published_as": "york/yor_008"
   }
  ]
 }

@@ -12,6 +12,19 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge (evening): a York plane live, a second Minster Yard beech photo
+
+**What changed in the product**
+- **York yor_008, The Minster London Plane** (new, a reader's tree): the York reader who added the Minster Yard beech sent a photograph "of the beech" that shows a big London plane on the Dean's Park lawn, with the Minster tower behind it. Judged `other_tree` and published as its own tree. Their note is quoted and their 325 cm girth is stated as theirs. The pin is approximate: the lead has no `location_kind`, so it is not a fix. The photo is filed under November (leaf-fall, the day it was sent).
+- **York yor_007, The Minster Yard Beech**: the same reader's wide shot of the whole beech, bare in November, is in the gallery (`strip`) behind their in-leaf lead. The confirmed what3words pin is unchanged.
+
+**Skipped**
+- The Amsterdam lead `3c544597` is still not on this machine and is our own account's (`mine`). It was not judged.
+- No open reports, no feedback without a verdict, no tips, no reader words waiting. The congratulation for yor_008 goes out after the deploy (deploy.yml's tell-readers job), the knock as safety net.
+
+**Breakage**
+- sightings_publish.py's pin catch-up hit an HTTPError ("could not read coordinates"). No pin was affected this run.
+
 ## 2026-11-23 session: readers hear their tree is live after the deploy, not at the next knock
 
 **What changed:** deploy.yml has a third job, `tell-readers`. After every deploy of main that goes through, it waits ten minutes for the Pages cache, then runs `tree_approved.py --send` and `sightings_publish.py --flush-mail --send` (private_store pull and push around them) and commits the two ledgers. Until now these mails went only from the nightly knock, so a tree the reader judge put live in minutes was announced hours later. Today's 13 readers' trees (judge, 11:42 UTC) had not been mailed because no knock had run since. Hidde, 2026-11-23: "is het niet logischer als de judge gelijk de mail activeert?" Not from the judge itself: the build takes about 40 minutes after it, and a link to a page that is not there yet is worse. The knock still sends as the safety net. Both scripts keep their own ledgers, so nobody gets a mail twice. Undo: delete the job.

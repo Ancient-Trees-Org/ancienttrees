@@ -1086,6 +1086,75 @@
    "agreed": null
   },
   {
+   "id": "sight:bfc1e32d-1f10-4f87-917c-fc19570af1dd",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Minster Yard Beech",
+   "city": "York",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/bfc1e32d-1f10-4f87-917c-fc19570af1dd.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 17,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Minster Yard beech, bare in November, from the same reader who added it; on the page in the gallery behind their in-leaf lead (yor_007).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+   "seen": "2026-11-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Minster Yard Beech",
+   "city": "York",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/edc354c1-8f72-43fc-99b8-3b1921a03b2e.jpg",
+   "reader_note": "Only metres from the Minster, a beautiful example of the London Plane.",
+   "reader_girth_cm": 325,
+   "match": "distance",
+   "distance_m": 14,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: not the beech it was sent for but a big London plane in Dean's Park beside the Minster (other_tree); live as its own tree, york/yor_008.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:edc354c1-8f72-43fc-99b8-3b1921a03b2e",
+   "seen": "2026-11-23",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "York",
+   "species": "London Plane",
+   "photo": "p_01ea1753df5e9ff4dabdde36/EDC354C1-8F72-43FC-99B8-3B1921A03B2E.jpg",
+   "reader_note": "Only metres from the Minster, a beautiful example of the London Plane.",
+   "reader_girth_cm": 325,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": 0.635,
+    "via": "girth",
+    "note": "63% of the genus reference (512 cm, n=2, max 512)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad, thick-trunked London plane on the Dean's Park lawn, Minster tower behind, reader's girth 325 cm; somewhat special, public ground. Live as york/yor_008, approximate pin (location kind not recorded).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2120e761-ef1b-4baf-86a2-9d311e0ea986",
    "seen": "2026-11-22",
    "kind": "photo of a tree we map",
