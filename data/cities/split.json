@@ -74,8 +74,8 @@
       "age_max": 160,
       "location": {
         "address": "Strossmayerov perivoj (Đardin), north of the Golden Gate, Split",
-        "latitude": 43.509872,
-        "longitude": 16.441251,
+        "latitude": 43.5095,
+        "longitude": 16.4404,
         "neighbourhood": "Grad (Old Town)"
       },
       "story": "Split's own park authority has only ever given one tree its highest rarity grade, and it stands a few steps from the busiest gate of Diocletian's Palace. The ginkgo in Đardin, the compact 19th-century garden wedged between two old Venetian bastions just north of the Golden Gate, was singled out in a municipal botanical survey as a Category I rarity, officially the single most valuable tree in the park and, by the same assessment, in the city. Ginkgo biloba is itself a botanical anomaly wherever it grows, a conifer relative with fan-shaped leaves and no living close cousins, a lineage old enough to have shared the planet with dinosaurs and simply outlasted them. No record gives this particular specimen's planting date, only its rank, so its age here is an estimate rather than a documented figure. What is documented is the garden around it: cleared as parkland in 1808, when the wall between two Venetian bastions came down under French rule, and made the city's main public garden in 1859. The tree has outgrown both the empire that freed its ground and the kingdom that gave the park its purpose, and neither gets a plaque nearly as pointed as the one the city's own botanists gave the tree itself.",
@@ -86,10 +86,17 @@
       "access": "Free, public garden, open daily",
       "transport": "At the Golden Gate, a 5 minute walk from Diocletian's Palace's Peristil",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/spl_002-the-ginkgo-of-ardin.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1184,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
+        "sighting_id": "e585bee9-5973-43f0-83aa-027decd6bd22",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: A tall multi-stemmed ginkgo in full yellow autumn leaf in a paved town garden with old stone walls behind: the Đardin ginkgo, the tree had no photograph. Species seen: fan-shaped leaves turned butter yellow, dark ridged multi-stem trunk. Fits the description: a big ginkgo standing in the paved public garden by the old walls, the garden's standout tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",
@@ -105,7 +112,7 @@
         "kind": "reader's hand-placed pin",
         "report_id": 1000132,
         "date": "2026-11-23",
-        "note": "Reader report 1000132 moved the pin by hand 80 m inside Strossmayerov perivoj; taken as the better spot (when we cannot tell, the reader wins)."
+        "note": "Reader report 1000132 moved the pin by hand 80 m inside Strossmayerov perivoj; taken as the better spot (when we cannot tell, the reader wins). The same reader's photograph (sighting e585bee9, 2026-11-23) carries the same spot, with no location kind, so it stays approximate."
       }
     },
     {

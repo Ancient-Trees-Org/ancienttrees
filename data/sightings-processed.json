@@ -7195,6 +7195,73 @@
    "lat": 48.843895,
    "lon": 2.35528833333333,
    "pin_checked": "2026-11-23"
+  },
+  "e585bee9-5973-43f0-83aa-027decd6bd22": {
+   "outcome": "published",
+   "date": "2026-11-23",
+   "tree_id": "spl_002",
+   "city_slug": "split",
+   "file": "spl_002-the-ginkgo-of-ardin.jpg",
+   "reason": "A tall multi-stemmed ginkgo in full yellow autumn leaf in a paved town garden with old stone walls behind: the Đardin ginkgo, the tree had no photograph. Species seen: fan-shaped leaves turned butter yellow, dark ridged multi-stem trunk. Fits the description: a big ginkgo standing in the paved publi",
+   "lat": 43.5095,
+   "lon": 16.4404,
+   "pin_checked": "2026-11-23"
+  },
+  "72bb031f-c5bd-4bc8-977e-4420760280c5": {
+   "outcome": "held",
+   "date": "2026-11-23",
+   "tree_id": "spl_003",
+   "reason": "The plaque reads 'Čempres Dra Šimuna Tudora ... MCMXXX': the cypress planted in 1930 on Marjan's path for Šimun Tudor (drustvomarjan.hr chronology), not the 1908 Kolombatović cypress by the Natural History Museum. The coordinate is our pin, not where it was taken."
+  },
+  "7c30394d-7e2f-4183-8196-51175dac5c43": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "ttw_001",
+   "city_slug": "tortworth",
+   "file": "ttw_001-the-tortworth-chestnut-7c30394d.jpg",
+   "reason": "The fenced ring of the Tortworth Chestnut in autumn leaf, seen from the field: shows where it stands; the current lead shows the trunk better. Species seen: sweet chestnut crowns in yellow-brown autumn leaf, long toothed leaves on the ground. Fits the description: a mass of chestnut stems inside the",
+   "lat": 51.6377175006288,
+   "lon": -2.42883629865151,
+   "pin_checked": "2026-11-23"
+  },
+  "4c8d121f-3cab-4590-a335-7fda3aa316c1": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "ttw_001",
+   "city_slug": "tortworth",
+   "file": "ttw_001-the-tortworth-chestnut-4c8d121f.jpg",
+   "reason": "The tree's own interpretation board, carved 'The Tortworth Chestnut': belongs in the gallery, never the lead. Species seen: the board names the sweet chestnut; chestnut leaves above it. Fits the description: the estate's board at the tree.",
+   "lat": 51.6373866632727,
+   "lon": -2.4287864750852,
+   "pin_checked": "2026-11-23"
+  },
+  "7fe3d1d4-b47a-428d-a08b-8fb11b0b67a1": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "cdl_003",
+   "city_slug": "kastela",
+   "file": "cdl_003-mastrinka-the-olive-of-ka-tel-tafili-7fe3d1d4.jpg",
+   "reason": "Mastrinka whole, standing alone on its lawn with the shrine niche and railings behind: a good wide view beside the current lead's trunk close-up. Species seen: grey-green olive foliage, massive fluted hollow olive trunk. Fits the description: the huge broad olive alone on the fenced lawn with its sm",
+   "lat": 43.55055,
+   "lon": 16.335669,
+   "pin_checked": "2026-11-23"
+  },
+  "1e28fed5-dc3f-43f0-ac7c-db9df877e6e8": {
+   "outcome": "added",
+   "date": "2026-11-23",
+   "tree_id": "cdl_003",
+   "city_slug": "kastela",
+   "file": "cdl_003-mastrinka-the-olive-of-ka-tel-tafili-1e28fed5.jpg",
+   "reason": "Two visitors sitting inside Mastrinka's split trunk: shows its scale; weaker light and people in it, so never the lead. Species seen: olive leaves, deeply fluted olive trunk split into columns. Fits the description: the same hollow multi-column trunk and propped limb as the lead.",
+   "lat": 43.55055,
+   "lon": 16.335669,
+   "pin_checked": "2026-11-23"
+  },
+  "d4eb7852-67e9-4a04-a8f1-682b3029c1f8": {
+   "outcome": "rejected",
+   "date": "2026-11-23",
+   "tree_id": "var_002",
+   "reason": "Duplicate: the same picture already leads the Ginkgo of Varese's page (same reader, sent again)."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

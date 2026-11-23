@@ -116,7 +116,35 @@
         "contributor_user_id": "p_4cefec9f5644f57abdf55de5",
         "sighting_id": "tip-928",
         "note": "Photographed by a reader and sent through the website with an account (2026-11-16); a viewing pass approved it on 2026-11-16: the whole twisted trunk and the crown above it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cdl_003-mastrinka-the-olive-of-ka-tel-tafili-7fe3d1d4.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1263,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
+          "sighting_id": "7fe3d1d4-b47a-428d-a08b-8fb11b0b67a1",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Mastrinka whole, standing alone on its lawn with the shrine niche and railings behind: a good wide view beside the current lead's trunk close-up. Species seen: grey-green olive foliage, massive fluted hollow olive trunk. Fits the description: the huge broad olive alone on the fenced lawn with its small shrine.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cdl_003-mastrinka-the-olive-of-ka-tel-tafili-1e28fed5.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1290,
+          "height": 705,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
+          "sighting_id": "1e28fed5-dc3f-43f0-ac7c-db9df877e6e8",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Two visitors sitting inside Mastrinka's split trunk: shows its scale; weaker light and people in it, so never the lead. Species seen: olive leaves, deeply fluted olive trunk split into columns. Fits the description: the same hollow multi-column trunk and propped limb as the lead.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ]
 }

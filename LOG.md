@@ -12,6 +12,21 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-23 reader judge (later): Split ginkgo gets its first photo, 4 gallery photos, a Marjan cypress held
+
+**What changed in the product**
+- **Split spl_002, the Ginkgo of Đardin**: its first photograph, a reader's shot of it in full yellow leaf (November). The pin is now the spot the reader placed by hand in report 1000132. HEAD had recorded that move but never applied the coordinate. It stays approximate.
+- **Tortworth ttw_001**: two reader photographs in the gallery behind the lead (the fenced ring in autumn leaf, and the estate's interpretation board).
+- **Kaštela cdl_003, Mastrinka**: two reader photographs in the gallery (the whole olive on its lawn, and two visitors sitting inside the split trunk).
+- Varese var_002: the reader sent the same photograph that already leads the page, rejected as a duplicate.
+
+**Held**
+- A reader's photo sent for spl_003 (the Kolombatović cypress) shows a different tree. Its plaque names the cypress planted in 1930 on Marjan's path for Šimun Tudor. The Društvo Marjan chronology confirms it and notes that the plaque wrongly says "first president". It is now a lead, "The Cypress of Šimun Tudor, Marjan", held `doubt_location`: its coordinate is our spl_003 pin, and the path is long. It is an app sighting with no submission row, so hold_reply.py could not mail the reader.
+
+**Breakage**
+- sightings_publish.py turned two coordinates with no `location_kind` into a confirmed "reader GPS fix": ttw_001 moved 22 m, spl_002 moved 80 m. preflight refused ttw_001 (`check_a_hand_placed_pin_is_not_a_fix`). I put both back by hand to an honest approximate pin. The script should not call a coordinate a fix when the queue entry's location kind is empty. That is for a session to fix.
+- No open reports, no feedback without a verdict, no reader words waiting.
+
 ## 2026-11-23 reader judge: 13 readers' trees live, 12 photos placed, 3 reports closed
 
 **What changed in the product**

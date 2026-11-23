@@ -11015,6 +11015,33 @@
    "seen": "2026-11-23",
    "judged": "2026-11-23",
    "published_as": "varese/var_002"
+  },
+  {
+   "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5",
+   "user_id": "p_da3da5a4ed100473ae2ad2cf",
+   "mine": false,
+   "name": "The Cypress of Šimun Tudor, Marjan",
+   "species": "Mediterranean Cypress (Cupressus sempervirens)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 43.5085,
+   "longitude": 16.4259,
+   "near": "Split",
+   "photo": "p_da3da5a4ed100473ae2ad2cf/72BB031F-C5BD-4BC8-977E-4420760280C5.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/72bb031f-c5bd-4bc8-977e-4420760280c5-extra-1.jpg"
+   ],
+   "nearest_published_m": 0,
+   "sent_for": "spl_003",
+   "status": "held",
+   "why": "A tall columnar Mediterranean cypress behind a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX': planted in 1930 on Marjan's path for Šimun Tudor, the Marjan Society's second president (https://drustvomarjan.hr/o-drustvu-marjan/kronologija-drustva, which notes the plaque wrongly says 'first'). Worth a page, but its coordinate is our pin for spl_003, not where it was taken, and the path is long: held until we know where on Marjanski put it stands. An app sighting, no submission row, so no hold_reply mail.",
+   "seen": "2026-11-23",
+   "hold": "doubt_location",
+   "judged": "2026-11-23"
   }
  ]
 }

@@ -37,7 +37,7 @@
         "kind": "reader's hand-placed pin",
         "sighting_id": "4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
         "date": "2026-11-22",
-        "note": "The reader placed this pin on the map in the app and moved it 70 m while adding the tree (report 1000128); not a GPS fix."
+        "note": "The reader placed this pin on the map in the app and moved it 70 m while adding the tree (report 1000128); not a GPS fix. Kept 2026-11-23: two further photographs that day carried no location kind, one a wide view from the field, so they did not move it."
       },
       "curation_status": "flagged",
       "verify_notes": "2026-11-22 reader judge: sent by a reader (4504258b-6e45-4eac-8a8f-f4d3fdfc951a, through the app, submission 1483). Photograph viewed: the whole ancient chestnut in fresh May leaf: a vast hollow, fluted grey trunk from which a crowd of younger stems climbs into the crown, white flowers in the grass at its foot, an ivy-clad trunk to the left, evening daylight, colour. A second frame shows the engraved plaque: 'This tree supposed to be six hundred years old 1st Jany 1800'. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: species 'Sweet Chestnut', age '900 years'. The ages of 1664 and 1712 are from Wikipedia's article; the 1800 plaque from the reader's own photograph. Pin is the reader's hand-placed spot, moved 70 m by them while adding (report 1000128), approximate.",
@@ -54,7 +54,35 @@
         "taken_month": 5,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole ancient chestnut in fresh May leaf: a vast hollow, fluted grey trunk from which a crowd of younger stems climbs into the crown, white flowers in the grass at its foot, an ivy-clad trunk to the left, evening daylight, colour. A second frame shows the engraved plaque: 'This tree supposed to be six hundred years old 1st Jany 1800'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ttw_001-the-tortworth-chestnut-7c30394d.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_6e7918e44dda8abbd75d7809",
+          "sighting_id": "7c30394d-7e2f-4183-8196-51175dac5c43",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The fenced ring of the Tortworth Chestnut in autumn leaf, seen from the field: shows where it stands; the current lead shows the trunk better. Species seen: sweet chestnut crowns in yellow-brown autumn leaf, long toothed leaves on the ground. Fits the description: a mass of chestnut stems inside the wooden parkland railing the estate restored.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ttw_001-the-tortworth-chestnut-4c8d121f.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_6e7918e44dda8abbd75d7809",
+          "sighting_id": "4c8d121f-3cab-4590-a335-7fda3aa316c1",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: The tree's own interpretation board, carved 'The Tortworth Chestnut': belongs in the gallery, never the lead. Species seen: the board names the sweet chestnut; chestnut leaves above it. Fits the description: the estate's board at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     }
   ],
   "question_meta": "How old is the Tortworth Chestnut? What the 1800 plaque, the accounts of 1664 and 1712 and a reader say about this sweet chestnut, and where to find it.",

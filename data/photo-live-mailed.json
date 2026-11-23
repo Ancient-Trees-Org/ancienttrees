@@ -3168,6 +3168,63 @@
     }
    ],
    "sent": []
+  },
+  "p_da3da5a4ed100473ae2ad2cf": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e585bee9-5973-43f0-83aa-027decd6bd22",
+     "tree_id": "spl_002",
+     "tree_name": "The Ginkgo of Đardin",
+     "city": "Split",
+     "city_slug": "split",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "7fe3d1d4-b47a-428d-a08b-8fb11b0b67a1",
+     "tree_id": "cdl_003",
+     "tree_name": "Mastrinka, the Olive of Kaštel Štafilić",
+     "city": "Kaštela",
+     "city_slug": "kastela",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "1e28fed5-dc3f-43f0-ac7c-db9df877e6e8",
+     "tree_id": "cdl_003",
+     "tree_name": "Mastrinka, the Olive of Kaštel Štafilić",
+     "city": "Kaštela",
+     "city_slug": "kastela",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
+  },
+  "p_6e7918e44dda8abbd75d7809": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7c30394d-7e2f-4183-8196-51175dac5c43",
+     "tree_id": "ttw_001",
+     "tree_name": "The Tortworth Chestnut",
+     "city": "Tortworth",
+     "city_slug": "tortworth",
+     "display_name": null,
+     "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "4c8d121f-3cab-4590-a335-7fda3aa316c1",
+     "tree_id": "ttw_001",
+     "tree_name": "The Tortworth Chestnut",
+     "city": "Tortworth",
+     "city_slug": "tortworth",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
