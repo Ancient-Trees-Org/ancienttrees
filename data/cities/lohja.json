@@ -49,10 +49,17 @@
       "access": "Free. Stands beside a clearly marked 1 to 1.5km nature trail with 15 information posts inside the Paavolan tammikko nature reserve (protected 1994); a picnic table sits near the tree. Parking at Pietiläntie 23 (about 700m walk to the tree). Part of the surrounding grove is on private land per the reserve's own description, but the tree and the marked trail past it are open to the public.",
       "transport": "No public transport to the trailhead; roughly 45 to 60 minutes by car from Helsinki (about 58km), or Lohja town by train/bus then a local taxi/car to Lohjansaari",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/loh_001-paavola-s-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1179,
+        "height": 1552,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_6651dfcdba19b81aad20c23f",
+        "sighting_id": "22267ba3-4b26-4074-a420-e440906c2010",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Paavola's Oak in full summer leaf, the whole broad low-branched crown in frame behind its rope fence on the trail; daylight, colour; fills the gap of a tree with no photograph. Species seen: lobed oak leaves, rugged dark bark, broad spreading crown of a pedunculate oak. Fits the description: a massive old open-grown oak with a thick trunk and wide low limbs, roped off beside a marked path in a reserve woodland.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",

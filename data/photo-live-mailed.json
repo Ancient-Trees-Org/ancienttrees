@@ -3122,6 +3122,21 @@
     }
    ],
    "sent": []
+  },
+  "p_6651dfcdba19b81aad20c23f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "22267ba3-4b26-4074-a420-e440906c2010",
+     "tree_id": "loh_001",
+     "tree_name": "Paavola's Oak",
+     "city": "Lohja",
+     "city_slug": "lohja",
+     "display_name": null,
+     "live": "2026-11-23"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-23 reader judge: Paavola's Oak in Lohja gets its first photograph
+
+- New lead photo: lohja/loh_001, Paavola's Oak. Until now the tree had no photograph. The reader's picture shows the whole broad, low-limbed oak in summer leaf behind its rope fence on the trail, in daylight. Species and description both match. It has no season month: it is plain green, and the date in the file is the day it was sent.
+- No open reports, no unjudged tips, no feedback without a verdict, no readers' notes waiting to be quoted. Lead 3c544597 (by Amsterdam Centraal) is still our own account's (`mine`) with no file on disk, so I left it unjudged.
+For Hidde: none.
+
 ## 2026-11-22 reader judge: a third Willistown tree, the white oak on Grubb Road
 
 - New tree live: willistown/wtn_003, The White Oak on Grubb Road. The same reader sent the Crum Creek sycamore and the Bryan Avenue oak. Their August photograph shows the whole oak on a roadside bank by a split-rail meadow fence, in daylight. They give 435 cm round and about 225 years; both figures are stated as theirs. The pin was placed by hand and lands on Grubb Road (Nominatim), so it is approximate. Access: see it from the road. The photo is filed in August, the month the photo was taken.
