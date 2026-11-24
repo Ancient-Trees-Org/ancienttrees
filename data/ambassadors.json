@@ -2288,6 +2288,16 @@
         "The Broken Oak of the Castle Howard Car Park"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f60ddafc587ad9f79b118aa6",
+      "place_slug": "mirano",
+      "place_name": "Mirano",
+      "date": "2026-11-24",
+      "trees": [
+        "The Magnolia of Villa Belvedere"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
