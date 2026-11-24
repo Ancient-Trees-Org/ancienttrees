@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-24 session: weak points after the Google block; incoming-mail alarm live
+
+- **Live**: an alarm when mail stops reaching us (Hidde: "dit lijkt me slim"). The reader judge's existing mailbox login now records in data/inbox-health.json whether the login worked and the day the newest mail arrived (scripts/inbox_health.py, 9 tests). health.py goes red when the login fails, when nothing has arrived for 2 days, or when the check has not run for 2 days. It adds no extra login. Tried against the real mailbox: newest mail today, ok.
+- **Found**: the database backup has failed all 20 runs since 2026-11-05. Hidde set the secrets today, but the run at 18:30 failed with `password authentication failed for user "postgres"`. The pooler needs the user `postgres.caimvxiyrtifilimlkqw` and the database password.
+- **Found, for a decision**: the reader judge logs in to the Workspace mailbox about 125 times a day from changing US datacenters. That is the same pattern as the Gmail before its block. Still open: whether to read the mailbox less often.
+- **Found, his**: the Workspace trial needs billing, the recovery address is koos.agency, there is one super admin, Time Machine has no disk, and the Claude login method is unknown. The new GitHub account is one day old and running ~600 runs a day; www still CNAMEs to the old account's github.io, and the domain is not verified for Pages on the new account.
+
 ## 2026-11-24 session: new Play app created, build 6 sent for Google's review
 
 - **The new app exists**: "Ancient Trees: Old Tree Map", `app.ancienttrees.map`, app id 4975394642791101357 under developer account 6289749847935270102. Hidde's ID and phone are verified.
