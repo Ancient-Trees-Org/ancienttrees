@@ -2145,6 +2145,36 @@
         "The Plane of Agia Paraskevi"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1096fdc351dbd860c622d33a",
+      "place_slug": "brussels",
+      "place_name": "Brussels",
+      "date": "2026-11-24",
+      "trees": [
+        "The Golden Tulip Tree by the Solbosch Beech"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_def84f4332241b7d0ced972d",
+      "place_slug": "formigine",
+      "place_name": "Formigine",
+      "date": "2026-11-24",
+      "trees": [
+        "The Golden Ginkgos of Villa Gandini"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_da3da5a4ed100473ae2ad2cf",
+      "place_slug": "split",
+      "place_name": "Split",
+      "date": "2026-11-24",
+      "trees": [
+        "The Cypress of Šimun Tudor"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
