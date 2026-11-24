@@ -649,9 +649,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
    "summary": "Tree page Age field cut a thousands separator as a clause break: about 1,000 years showed as about 1 on 24 trees (report 1000138); Android the same",
    "first_seen": "2026-11-24",
-   "status": "open",
+   "status": "fixed",
    "found_by": "reader",
-   "test": "AgeClauseTests.testAThousandsSeparatorIsNotAClauseBreak (iOS); AgeClauseTest.aThousandsSeparatorIsNotAClauseBreak (Android)"
+   "test": "AgeClauseTests.testAThousandsSeparatorIsNotAClauseBreak (iOS); AgeClauseTest.aThousandsSeparatorIsNotAClauseBreak (Android)",
+   "fixed_in": "4f6167146"
   }
  ]
 }
