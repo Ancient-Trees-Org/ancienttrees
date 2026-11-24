@@ -34,6 +34,7 @@
  "1493": "about the app's country setting, not the tree",
  "1499": "a thank-you mail reply, nothing about the tree itself",
  "1542": "Mail reply about the Paris plane par_077 (matched here to the wrong tree); its fact is already on par_077's page, and mail words need a yes before quoting.",
+ "1570": "A mail answer about access, not a note on the tree; its fact is the page's access line, and mail is never quoted without the sender's yes.",
  "194": "quoted in English translation on fwd_001, 2026-10-22",
  "2733129b-fa14-4fe4-9f30-7ba889ca94c3": "a pasted 1905 newspaper extract and a generic encyclopedia-style paragraph, not the reader's own words; facts only, never quoted as theirs",
  "4887a7bf-c121-4574-a1f0-8944f1ac00b7": "the 'largest in the world' claim is on tar_001 from the sign at the tree; nothing more to quote",

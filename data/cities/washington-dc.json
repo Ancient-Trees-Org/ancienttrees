@@ -633,20 +633,35 @@
       "access": "Free. Stands in the shopping centre's forecourt with a fence, patio and seating, open to anyone shopping or passing; public parking lot.",
       "transport": "About 45 to 60 minutes by car from downtown DC; Metro Red Line to Shady Grove plus a Ride On bus is the transit route (not route-checked), so a half-day trip.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/TravilahOak2020.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "TwoScarsUp, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/wdc_016-travilah-oak-a104b938.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-18",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 3
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_7000e289bb3522744b204b19",
+        "sighting_id": "a104b938-9cfc-492e-bb48-0babab021f3b",
+        "note": "Photographed by a reader and sent through the app (2026-07-10); a viewing pass approved it on 2026-11-24: The Travilah Oak in full summer leaf, whole crown from the split-rail fence, with three more: the crown again, the flagstone patio and benches under the limbs, and the trunk with its bicentennial plaque. Daylight, colour, this trunk. Species seen: lobed white-oak leaves, pale scaly grey bark, broad spreading crown. Fits the description: fence, patio with benches, floodlight fittings in the grass and the National Arborist Association bicentennial plaque at a huge single trunk by Travilah Road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "girth_cm": 582,
-      "how_to_recognise": "You can recognise it by the fence, patio and floodlights around its trunk, 5.82 metres round. It stands in the forecourt of the Potomac Oak Shopping Center, at the corner of Travilah Road and Glen Road."
+      "how_to_recognise": "You can recognise it by the fence, patio and floodlights around its trunk, 5.82 metres round. It stands in the forecourt of the Potomac Oak Shopping Center, at the corner of Travilah Road and Glen Road.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/TravilahOak2020.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "TwoScarsUp, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-18",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 3
+        }
+      ]
     },
     {
       "id": "wdc_018",

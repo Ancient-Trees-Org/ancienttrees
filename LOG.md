@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge (third run): Travilah Oak gets a reader's lead photo, Shanghai's ginkgos live
+
+- **Live**: shanghai/sha_002, **The Twin Ginkgos of Jiao Tong University**, Shanghai's second tree. It was held `not_public` on 11-23. The reader answered our mail (feedback 1570) that the campus can be entered from the street, so the lead was re-opened and published. Pin from the photo's GPS, age "about 200 years, by a reader's estimate", and the story asks what the inscribed stone says. Shanghai's intro and meta now name both trees. Their mail is not quoted (no yes asked); its fact is the access line.
+- **Reader photo**: washington-dc/wdc_016, the Travilah Oak. The reader's summer photo of the whole crown from the split-rail fence is now the lead. The Commons photo moved into the strip. The app sent the same four files six times, so the five copies were rejected as duplicates.
+- No open reports, no tips, no other waiting leads (3c544597 in Amsterdam is one of ours, `mine`).
+
 ## 2026-11-24 reader judge (second run): the Ngāhinapōuri plane re-judged and live
 
 - **Live**: ngahinapouri/ngh_001, **The Plane of Stewart Reid Memorial Park** (Waikato, NZ), a new one-tree place. The run before held lead 48b2515d `not_special` because the site looked like a school field. The GPS fix in fact stands in Stewart Reid Memorial Park, beside the school. NZHistory: the land was given in 1946 in memory of pilot officer Stewart Reid and planted with 34 memorial trees, one per local man who served in WWII. The park's flagpole on its stepped base shows in the photo. The story does not claim this plane is one of the 34 and asks readers instead. Hidde, overturn it in judgements.json if a memorial park does not make it somewhat special.

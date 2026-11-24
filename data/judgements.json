@@ -71,6 +71,174 @@
    "agreed": null
   },
   {
+   "id": "sight:04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Macedon Oak of Cruden Farm",
+   "city": "langwarrin",
+   "species": "Macedon Oak",
+   "photo": null,
+   "reader_note": "National trust, listed on the register of significant trees of Victoria.",
+   "reader_girth_cm": null,
+   "coords": [
+    -38.1574690257966,
+    145.179166912189
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "32 m tall (National Trust register, 2010)"
+   },
+   "verdict": "publish",
+   "reason": "Three photographs viewed 2026-11-24: the Macedon Oak at Cruden Farm whole from the lawn, from below the tennis lawn with the farmhouse behind, and its National Trust plaque; the reader's own frames. Live as the lead and two strip photographs of langwarrin/lwr_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:48b2515d-e2ed-48aa-93b6-638df9ccf956",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_997e42533afdc70e8a2d88ad/48B2515D-E2ED-48AA-93B6-638DF9CCF956.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "The reader's photograph is the lead photo of ngahinapouri/ngh_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a104b938-9cfc-492e-bb48-0babab021f3b",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/a104b938-9cfc-492e-bb48-0babab021f3b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "publish",
+   "reason": "The Travilah Oak whole in summer leaf from the split-rail fence, this trunk by its patio, benches and bicentennial plaque; now the lead of washington-dc/wdc_016, the Commons photograph moved into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c0494bd2-4a5a-4831-9704-6d0964b133ed",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/c0494bd2-4a5a-4831-9704-6d0964b133ed.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:35426040-ef78-4255-9366-2cb41930c905",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/35426040-ef78-4255-9366-2cb41930c905.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:50e0cb5a-5209-4472-bb29-f11d0a5d77f9",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/50e0cb5a-5209-4472-bb29-f11d0a5d77f9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f4ce51d6-70d9-46cc-a301-d06fe5c7fa92",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/f4ce51d6-70d9-46cc-a301-d06fe5c7fa92.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0ae6a416-90f8-4979-81c8-addff4eeb4b5",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Travilah Oak",
+   "city": "Washington DC",
+   "species": "White Oak (Quercus alba)",
+   "photo": "out/sightings/0ae6a416-90f8-4979-81c8-addff4eeb4b5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak (Quercus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -434,8 +602,8 @@
     "score": null,
     "note": "nothing measurable about Ginkgo"
    },
-   "verdict": "hold",
-   "reason": "not_public: two ginkgos before a Shanghai Jiao Tong University building; cannot tell whether they can be seen without entering campus. hold_reply.py takes only website submissions, so no mail.",
+   "verdict": "publish",
+   "reason": "Live as shanghai/sha_002: two tall ginkgos before a campus building of Shanghai Jiao Tong University with an inscribed stone, the reader's GPS fix at them; held not_public on 11-23 until the reader answered that the grounds open from the street.",
    "hidde": null,
    "agreed": null
   },
@@ -27026,38 +27194,14 @@
    "agreed": null
   },
   {
-   "id": "sight:04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
-   "seen": "2026-11-24",
-   "kind": "photo of a tree we map",
-   "tree": "The Macedon Oak of Cruden Farm",
-   "city": "langwarrin",
-   "species": "Macedon Oak",
-   "photo": null,
-   "reader_note": "National trust, listed on the register of significant trees of Victoria.",
-   "reader_girth_cm": null,
-   "coords": [
-    -38.1574690257966,
-    145.179166912189
-   ],
-   "register": null,
-   "measure": {
-    "score": null,
-    "note": "32 m tall (National Trust register, 2010)"
-   },
-   "verdict": "publish",
-   "reason": "Three photographs viewed 2026-11-24: the Macedon Oak at Cruden Farm whole from the lawn, from below the tennis lawn with the farmhouse behind, and its National Trust plaque; the reader's own frames. Live as the lead and two strip photographs of langwarrin/lwr_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:48b2515d-e2ed-48aa-93b6-638df9ccf956",
+   "id": "sight:2beaef82-d143-42ab-96f8-0da147aa5ffa",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
-   "tree": "A tree I found",
-   "photo": "p_997e42533afdc70e8a2d88ad/48B2515D-E2ED-48AA-93B6-638DF9CCF956.jpg",
+   "tree": "Ginkgo in Shanghai",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/2BEAEF82-D143-42AB-96F8-0DA147AA5FFA.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "The reader's photograph is the lead photo of ngahinapouri/ngh_001.",
+   "reason": "Photograph viewed: two tall ginkgos before a Shanghai Jiao Tong University building with an inscribed stone; lead photo of sha_002.",
    "hidde": null,
    "agreed": null
   }

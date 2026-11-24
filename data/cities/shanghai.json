@@ -2,8 +2,8 @@
   "city": "Shanghai",
   "country": "China",
   "status": "needs_curation",
-  "intro": "Shanghai is China's great port city on the Huangpu River. In Zhongshan Park in Changning, once a private garden, stands a plane tree that the city's park authorities call East China's No. 1 Plane, with the widest crown and thickest trunk of any in the region. Their sign says it was brought from Italy as a gift in 1866. A reader sent us its photograph in November.",
-  "meta_description": "East China's No. 1 Plane in Shanghai's Zhongshan Park: planted in 1866, its sign's story, and where to find it by Gate 3.",
+  "intro": "Shanghai is China's great port city on the Huangpu River. In Zhongshan Park in Changning, once a private garden, stands a plane tree that the city's park authorities call East China's No. 1 Plane, with the widest crown and thickest trunk of any in the region. Their sign says it was brought from Italy as a gift in 1866. A reader sent us its photograph in November. Another reader sent us two tall ginkgos on a campus of Shanghai Jiao Tong University, photographed in November as their leaves began to turn yellow.",
+  "meta_description": "East China's No. 1 Plane in Zhongshan Park, planted in 1866, and two ginkgos on a Jiao Tong University campus: Shanghai's old trees and where to find them.",
   "question_meta": "The tree to see in Shanghai is the great plane in Zhongshan Park, planted in 1866 and called East China's No. 1 Plane.",
   "question_answer": "The tree to see in Shanghai is the great plane beside Wutong Square in Zhongshan Park, near Gate 3. The park's sign says it was planted in 1866 and calls it East China's No. 1 Plane.",
   "question_context": "Zhongshan Park in Shanghai's Changning District began as a private garden, and the sign beside its oldest plane tree tells how the tree arrived. In 1866, it says, Thomas Hanbury brought it from Italy as a gift for Mr Hogg, the owner of the garden, who planted it there. The garden later became Zhongshan Park, and the tree has stood through its whole history. The city's greening bureau numbers it 0909, protects it as an ancient tree, and says it has the widest crown, the thickest trunk and the tallest stem of any plane in East China, so wide that five adults are needed to reach round it. The park counts it among its twelve views as A Lone Tree Braving the Frost. It stands beside Wutong Square near Gate 3, alone in a bed of red gravel behind a low rail, its pale trunk splitting low into two great stems. A reader who sent us its photograph puts it at about 160 years, which fits the sign's date. Entry to the park is free.",
@@ -71,6 +71,53 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved on 2026-11-22: the whole plane from behind the rail beside its sign, a pale mottled trunk rising from a bed of red gravel and splitting low into two great stems, a wide crown just starting to turn, blue sky, daylight, colour; the sign reads 0909悬铃木古树 / Platanus. A second picture is the reader's phone translation of the sign (not published), a third repeats the first. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    },
+    {
+      "id": "sha_002",
+      "name": "The Twin Ginkgos of Jiao Tong University",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "about 200 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Planted bed before a campus building, Shanghai Jiao Tong University, Shanghai",
+        "latitude": 31.2074333333333,
+        "longitude": 121.42128,
+        "neighbourhood": "Shanghai Jiao Tong University"
+      },
+      "story": "A reader sent us these two ginkgos from a campus of Shanghai Jiao Tong University in November, just as their leaves were beginning to turn.\n\nThey stand side by side in a planted bed in front of a white six-storey building, their trunks painted white at the foot, as campus and street trees often are in China, each with a small round plate set in the ground beside it. In front of them lies a long pale stone carved with an inscription and the university's red seal, and a lamp post by the path carries the university's banners. The two trees climb nearly as high as the building, their crowns open and airy, the fan-shaped leaves still mostly green with the first yellow coming through.\n\nThe ginkgo is a living fossil, the last of a family that goes back to the age of the dinosaurs, and in China it has long been planted beside temples and schools. The reader puts these two at about 200 years. That figure is theirs; we have not seen a record, and we would like to know what the stone in front of them says. If you can read it, tell us here.\n\nCome in late November, when ginkgos turn butter yellow almost all at once.",
+      "how_to_recognise": "Two tall ginkgos side by side in a bed in front of a white six-storey building, their trunks painted white at the foot, with a long pale inscribed stone bearing the university's red seal before them.",
+      "verified_sources": [],
+      "access": "On a Shanghai Jiao Tong University campus; the reader tells us the grounds can be entered from the street. The trees stand in a planted bed beside the path.",
+      "found_by_reader": {
+        "sighting_id": "2beaef82-d143-42ab-96f8-0da147aa5ffa",
+        "date": "2026-11-24"
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2beaef82-d143-42ab-96f8-0da147aa5ffa",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph these trees; the photograph was checked to show them."
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (2beaef82-d143-42ab-96f8-0da147aa5ffa), name 'Ginkgo in Shanghai', species 'Ginkgo', age '200', location from the photograph. Photograph viewed: two tall ginkgos side by side in a planted bed before a white six-storey campus building, trunks whitewashed at the foot, a long inscribed stone with the university's red seal in front, Shanghai Jiao Tong University banners on a lamp post, leaves green turning yellow, overcast daylight, colour. Held not_public on 2026-11-23; the reader answered by mail (feedback row 1570) that it stands on university grounds that can be entered from the street, so live under the closed list (Hidde, 2026-11-17). The age is the reader's figure.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/sha_002-twin-ginkgos-of-jiao-tong-university.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_4a3e8be0cafb822ba00b39d3",
+        "sighting_id": "2beaef82-d143-42ab-96f8-0da147aa5ffa",
+        "note": "Photographed by a reader and sent to Ancient Trees through the app; viewed and approved on 2026-11-24: two tall ginkgos side by side in a planted bed before a white six-storey campus building, trunks whitewashed at the foot, a long inscribed stone with the university's red seal in front, Shanghai Jiao Tong University banners on a lamp post, leaves green turning yellow, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

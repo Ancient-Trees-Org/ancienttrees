@@ -7014,7 +7014,7 @@
    "date": "2026-11-23"
   },
   "2beaef82-d143-42ab-96f8-0da147aa5ffa": {
-   "outcome": "held",
+   "outcome": "published",
    "date": "2026-11-23"
   },
   "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c": {
@@ -7434,6 +7434,47 @@
   "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23": {
    "outcome": "published",
    "date": "2026-11-24"
+  },
+  "a104b938-9cfc-492e-bb48-0babab021f3b": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "city_slug": "washington-dc",
+   "file": "wdc_016-travilah-oak-a104b938.jpg",
+   "reason": "The Travilah Oak in full summer leaf, whole crown from the split-rail fence, with three more: the crown again, the flagstone patio and benches under the limbs, and the trunk with its bicentennial plaque. Daylight, colour, this trunk. Species seen: lobed white-oak leaves, pale scaly grey bark, broad ",
+   "lat": 39.0678833333333,
+   "lon": -77.26348,
+   "pin_checked": "2026-11-24"
+  },
+  "c0494bd2-4a5a-4831-9704-6d0964b133ed": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
+  },
+  "35426040-ef78-4255-9366-2cb41930c905": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
+  },
+  "50e0cb5a-5209-4472-bb29-f11d0a5d77f9": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
+  },
+  "f4ce51d6-70d9-46cc-a301-d06fe5c7fa92": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
+  },
+  "0ae6a416-90f8-4979-81c8-addff4eeb4b5": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wdc_016",
+   "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
