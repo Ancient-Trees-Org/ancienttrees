@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 night run (second attempt, 18:47 window): nothing shipped, shelf checked again
+
+- No claims standing. `leads.py --ready` lists one lead (York, Riverside London Plane): an ambassador's what3words pin, no photograph, no written source, so no story can be written without inventing one; it waits for a photo. The 382 "awaiting a writer" trees are almost all stale research files or duplicates of live ids (passcheck --pending flags them); folding them is a hand job, not a write pass.
+- reader_words (4 mail sentences wait for the sender's yes), recognise --stuck and enrich --next all empty. Own research stays paused. No agent dispatched.
+
 ## 2026-11-24 night run (window 18:47): nothing shipped, two reds read
 
 - Rung 1: one tree note (Colchester oak, a how-to-find tip, nothing to hide) read and marked seen; reader backlog empty. The unmapped sighting 3c544597 stays with the reader judge.
