@@ -512,6 +512,8 @@ def check_app_crashes_reach_a_person():
         ("health.py", "app_crashes.health_line(", "health.py no longer rings for crashes the app reports to PostHog"),
         # 2026-11-24: an unanswered report rings until answered, not 48 hours.
         ("health.py", "crashes.load(days=crashes.UNANSWERED_DAYS)", "health.py reads only recent crashes again, so an unanswered one expires"),
+        ("health.py", "app_crashes.load(days=app_crashes.UNANSWERED_DAYS)", "health.py reads only recent app reports again, so an unanswered one expires"),
+        ("app_crashes.py", "reason, on_screen = IOS_EXIT", "app_crashes.py drops the iPhone's own exit reports again (they carry no reason)"),
     ]
     for name, needle, why in wiring:
         if needle not in text(name):

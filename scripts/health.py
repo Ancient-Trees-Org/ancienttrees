@@ -792,13 +792,15 @@ def main():
     # rung-2 work: one crash, not a burst, while the app is this young.
     try:
         import app_crashes
-        rows = app_crashes.load(days=2)
+        # Until answered, not 48 hours (2026-11-24): app_crashes.UNANSWERED_DAYS.
+        rows = app_crashes.load(days=app_crashes.UNANSWERED_DAYS)
         if rows is None:
             unknown.append("app crashes in PostHog (no POSTHOG_READ_KEY)")
         else:
             line = app_crashes.health_line(rows)
             print(f"  {'App crashes (own)':20s} {'ACT' if line else 'ok':10s} "
-                  f"{len(rows)} in 48h, {len(app_crashes.open_crashes(rows))} not looked into")
+                  f"{len(rows)} in {app_crashes.UNANSWERED_DAYS} days, "
+                  f"{len(app_crashes.open_crashes(rows))} not looked into")
             if line:
                 problems.append("The app crashed on readers' phones: " + line)
     except Exception as e:

@@ -29,7 +29,10 @@ signature this script prints) and "builds" (the build numbers it covers) or
 "first_fixed_build" (every build below it). A run that dives into a crash
 records what it found there in the same change, also when it found no cause
 ("no trace yet; build 4 carries the crash note"), so the same crash does not
-ring twice. health.py rings for every open crash of the last 48 hours: rung 2.
+ring twice. health.py rings for every open crash until it is answered
+(UNANSWERED_DAYS; it was 48 hours until 2026-11-24): rung 2. An iPhone exit
+on screen (no reason: iOS cannot tell a crash from a flat battery) rings once
+IOS_EXIT_PHONES phones end the same way, or one phone does it twice.
 
 PRIVACY: installs are printed as the first eight characters of their random
 id, as scripts/posthog.py does; no account, no place beyond the tree ids the
@@ -48,6 +51,15 @@ import posthog as ph  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIXES = os.path.join(ROOT, "data", "crash-fixes.json")
 CRASH_REASONS = ("crash", "crash_native", "init_failure")
+IOS_EXIT = "exit_on_screen"
+# An iPhone exit on screen cannot tell a crash from a flat battery, so one
+# alone is not a signal: it rings when this many phones end the same way, or
+# one phone does it twice (2026-11-24).
+IOS_EXIT_PHONES = 2
+# Every report counts until data/crash-fixes.json answers it, not only the
+# last 48 hours (2026-11-24, the leak crashes.py had too); health.py loads
+# this many days.
+UNANSWERED_DAYS = 14
 
 
 def _q(sql):
@@ -81,7 +93,8 @@ def load(days=14, all_installs=False):
     rows = _q("""
         SELECT timestamp, distinct_id, event, properties.reason, properties.on_screen,
                properties.trace, properties.detail, properties.os, properties.build_number,
-               properties.app_version, toString(properties.$exception_list)
+               properties.app_version, toString(properties.$exception_list),
+               properties.ended_build, properties.last
         FROM events
         WHERE event IN ('app_exit_abnormal', 'app_crash_note', '$exception')
               AND NOT startsWith(distinct_id, 'crash-probe')
@@ -90,8 +103,18 @@ def load(days=14, all_installs=False):
     if rows is None:
         return None
     out = []
-    for t, inst, ev, reason, on_screen, trace, detail, os_name, build, version, exc in rows:
-        if ev == "app_exit_abnormal":
+    for t, inst, ev, reason, on_screen, trace, detail, os_name, build, version, exc, ended, last in rows:
+        if ev == "app_exit_abnormal" and not reason and platform(os_name) == "ios":
+            # THE IPHONE'S EXIT REPORT HAS NO REASON (ExitWatch.swift: iOS
+            # cannot say whether it was a crash, the memory killer, the
+            # watchdog or a flat battery), and every row without one was
+            # dropped below, so the iPhone's own reports could never ring
+            # (found 2026-11-24). It is an exit while on screen, from the
+            # build that ended, signed by the last thing measured before it.
+            reason, on_screen = IOS_EXIT, "yes"
+            build = ended or build
+            detail = detail or ("last: %s" % last if last else "")
+        elif ev == "app_exit_abnormal":
             if not (reason in CRASH_REASONS or (reason == "anr" and on_screen == "yes")):
                 continue
         elif ev == "app_crash_note":
@@ -104,6 +127,8 @@ def load(days=14, all_installs=False):
              "os": os_name or "?", "platform": platform(os_name), "build": str(build or "?"),
              "version": version or "?"}
         r["signature"] = signature(r)
+        if reason == IOS_EXIT:
+            r["signature"] = "exit on screen after %s" % (last or "nothing measured")
         out.append(r)
     return out
 
@@ -163,16 +188,22 @@ def open_crashes(rows, hours=None):
 
 
 def health_line(rows):
-    """What health.py says about open crashes of the last 48 hours, or None."""
-    fresh = open_crashes(rows, hours=48)
+    """What health.py says about every open crash in `rows`, or None: an
+    unanswered one rings until data/crash-fixes.json answers it."""
+    fresh = open_crashes(rows)
     if not fresh:
         return None
     groups = {}
     for r in fresh:
-        g = groups.setdefault((r["platform"], r["signature"]), {"n": 0, "phones": set(), "builds": set()})
+        g = groups.setdefault((r["platform"], r["signature"]),
+                              {"n": 0, "phones": set(), "builds": set(), "ios_exit": r["reason"] == IOS_EXIT})
         g["n"] += 1
         g["phones"].add(r["install"])
         g["builds"].add(r["build"])
+    groups = {k: g for k, g in groups.items()
+              if not g["ios_exit"] or len(g["phones"]) >= IOS_EXIT_PHONES or g["n"] >= 2}
+    if not groups:
+        return None
     parts = ["%s build %s: %s (%d on %d phone%s)" % (
         p, "/".join(sorted(g["builds"])), sig, g["n"], len(g["phones"]), "" if len(g["phones"]) == 1 else "s")
         for (p, sig), g in sorted(groups.items(), key=lambda kv: -kv[1]["n"])]

@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: the iPhone's own crash reports can ring
+
+- **Why build 41's crashes never showed in the app's own reports**: two reasons. Build 41 predates the iPhone's exit watcher (added 11-16), so it sends none; build 42 will. And scripts/app_crashes.py dropped every report without a reason, which is every iPhone report (iOS cannot tell a crash from a flat battery), so even build 42's would have been lost. Now an iPhone exit on screen is kept, signed by the last thing the app measured, and rings once two phones end the same way or one phone twice. Both phones' reports also ring until answered, not 48 hours. Test: scripts/test_app_crashes_ios.py.
+
 ## 2026-11-24 session: four leaks in bug handling closed
 
 - **An iPhone crash rings until it is answered**, not for 48 hours. Four build 41 reports had expired unread while GitHub dropped half the night's knocks. An answer is a fix build, a server remedy, or `answered_at` with what was looked at; a newer report rings again. The two crashes with no cause found are now recorded that way in data/crash-fixes.json.
