@@ -87,6 +87,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/abq_001-tight-grove-university-of-new-mexico.jpg": {
+   "base": "abq_001-tight-grove-university-of-new-mexico",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/alg_001-the-tarzan-tree.jpg": {
    "base": "alg_001-the-tarzan-tree",
    "widths": [
@@ -147,6 +153,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ams_003-the-vondelpark-poplar.jpg": {
+   "base": "ams_003-the-vondelpark-poplar",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/d/d3/2022_Wertheimpark%2C_Asd-Gewone_vleugelnoot_%281%29.jpg": {
    "base": "ams_004-the-wertheimpark-wingnut",
    "widths": [
@@ -201,6 +213,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ams_041-canadian-poplar-of-entrepothof.jpg": {
+   "base": "ams_041-canadian-poplar-of-entrepothof",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/amn_001-eiche-am-forsthaus-gruener-jaeger.jpg": {
    "base": "amn_001-eiche-am-forsthaus-gruener-jaeger",
    "widths": [
@@ -211,6 +229,24 @@
   },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/540601405/large.jpg": {
    "base": "abp_001-the-patriarch-tree",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail.jpg": {
+   "base": "abp_002-twisted-bristlecone-by-the-rocky-trail",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail-trail.jpg": {
+   "base": "abp_002-twisted-bristlecone-by-the-rocky-trail-trail",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/abp_002-twisted-bristlecone-by-the-rocky-trail-bank.jpg": {
+   "base": "abp_002-twisted-bristlecone-by-the-rocky-trail-bank",
    "widths": [
     500
    ]
@@ -1846,6 +1882,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bru_036-golden-tulip-tree-by-the-solbosch-beech.jpg": {
+   "base": "bru_036-golden-tulip-tree-by-the-solbosch-beech",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/9/9f/D%C4%85b_Gniewko%2C_Brzoza%2C_Gmina_Wielka_Nieszawka%2C_okr._Toru%C5%88.jpg": {
    "base": "brp_001-gniewko-oak",
    "widths": [
@@ -2195,6 +2237,30 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups.jpg": {
+   "base": "cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups-label.jpg": {
+   "base": "cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups-label",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups.jpg": {
+   "base": "cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups-label.jpg": {
+   "base": "cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups-label",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar-01c3e58d.jpg": {
    "base": "gnp_001-the-gennett-poplar-01c3e58d",
    "widths": [
@@ -2243,8 +2309,26 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-3f14603e.jpg": {
+   "base": "cls_001-the-oak-of-clingoe-hill-3f14603e",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill.jpg": {
    "base": "cls_001-the-oak-of-clingoe-hill",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cls_002-the-cedar-near-clingoe-hill-c3ef540c.jpg": {
+   "base": "cls_002-the-cedar-near-clingoe-hill-c3ef540c",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cls_002-cedar-near-clingoe-hill.jpg": {
+   "base": "cls_002-cedar-near-clingoe-hill",
    "widths": [
     500
    ]
@@ -3173,6 +3257,66 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ehp_001-many-stemmed-beech-of-east-hampton.jpg": {
+   "base": "ehp_001-many-stemmed-beech-of-east-hampton",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_001-the-many-stemmed-beech-of-east-hampton-b6555e27.jpg": {
+   "base": "ehp_001-the-many-stemmed-beech-of-east-hampton-b6555e27",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_002-royal-paulownia-of-east-hampton.jpg": {
+   "base": "ehp_002-royal-paulownia-of-east-hampton",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_002-royal-paulownia-of-east-hampton-label.jpg": {
+   "base": "ehp_002-royal-paulownia-of-east-hampton-label",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_003-southern-magnolia-by-the-ball-fields.jpg": {
+   "base": "ehp_003-southern-magnolia-by-the-ball-fields",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_003-southern-magnolia-by-the-ball-fields-leaves.jpg": {
+   "base": "ehp_003-southern-magnolia-by-the-ball-fields-leaves",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_004-sawara-cypress-by-the-bench.jpg": {
+   "base": "ehp_004-sawara-cypress-by-the-bench",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_004-sawara-cypress-by-the-bench-label.jpg": {
+   "base": "ehp_004-sawara-cypress-by-the-bench-label",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_005-old-sourwood-of-the-dayton-arboretum.jpg": {
+   "base": "ehp_005-old-sourwood-of-the-dayton-arboretum",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ehp_006-zelkova-by-the-car-park.jpg": {
+   "base": "ehp_006-zelkova-by-the-car-park",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sceneric_beech_tree_at_Ede._Its_nice_shape_gives_good_feelings_-_panoramio.jpg": {
    "base": "ede_005-beuk-marjan",
    "widths": [
@@ -3546,6 +3690,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/fln_003-fan-palm-above-the-horto-trail.jpg": {
+   "base": "fln_003-fan-palm-above-the-horto-trail",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/5/56/Tilleul_Turenne_%C3%A0_Fontaine_2008_1.jpg": {
    "base": "fte_001-the-turenne-lime",
    "widths": [
@@ -3554,6 +3704,30 @@
   },
   "https://ancienttrees.app/photos/fon_001-sequoia-of-the-chateau-lawn.jpg": {
    "base": "fon_001-sequoia-of-the-chateau-lawn",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini.jpg": {
+   "base": "frm_001-the-golden-ginkgos-of-villa-gandini",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-whole.jpg": {
+   "base": "frm_001-the-golden-ginkgos-of-villa-gandini-whole",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-crown.jpg": {
+   "base": "frm_001-the-golden-ginkgos-of-villa-gandini-crown",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-leaves.jpg": {
+   "base": "frm_001-the-golden-ginkgos-of-villa-gandini-leaves",
    "widths": [
     500
    ]
@@ -5155,6 +5329,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/kya_001-hollow-strangler-fig-of-khao-yai.jpg": {
+   "base": "kya_001-hollow-strangler-fig-of-khao-yai",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/a/ab/Yew_tree_in_the_Cloisters_at_Muckross_Abbey_-_geograph.org.uk_-_7874141.jpg": {
    "base": "kly_001-the-muckross-abbey-yew",
    "widths": [
@@ -5507,6 +5687,24 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/9/96/Evangeline_Oak%2C_St._Martinville%2C_LA_2013_01.jpg": {
    "base": "lfy_002-evangeline-oak",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm.jpg": {
+   "base": "lwr_001-the-macedon-oak-of-cruden-farm",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm-extra1.jpg": {
+   "base": "lwr_001-the-macedon-oak-of-cruden-farm-extra1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm-extra2.jpg": {
+   "base": "lwr_001-the-macedon-oak-of-cruden-farm-extra2",
    "widths": [
     500
    ]
@@ -6029,6 +6227,12 @@
     1000
    ]
   },
+  "https://ancienttrees.app/photos/lis_038-the-pohutukawa-of-campo-santana-c34cee42.jpg": {
+   "base": "lis_038-the-pohutukawa-of-campo-santana-c34cee42",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/lis_039-portuguese-oak-of-the-agronomy-cloister.jpg": {
    "base": "lis_039-portuguese-oak-of-the-agronomy-cloister",
    "widths": [
@@ -6511,6 +6715,24 @@
   },
   "https://ancienttrees.app/photos/lon_054-burred-mulberry-of-morden-hall-park.jpg": {
    "base": "lon_054-burred-mulberry-of-morden-hall-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lon_055-golden-ginkgo-of-greenwich.jpg": {
+   "base": "lon_055-golden-ginkgo-of-greenwich",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lon_055-golden-ginkgo-of-greenwich-railings.jpg": {
+   "base": "lon_055-golden-ginkgo-of-greenwich-railings",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/lon_056-pine-tree-way-mulberry.jpg": {
+   "base": "lon_056-pine-tree-way-mulberry",
    "widths": [
     500
    ]
@@ -7880,6 +8102,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/nap_032-moreton-bay-fig-of-the-palazzo-reale-gardens.jpg": {
+   "base": "nap_032-moreton-bay-fig-of-the-palazzo-reale-gardens",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/c/ca/Naratsuhiko-Jinja-Kusu.jpg": {
    "base": "nra_001-the-giant-camphor-of-naratsuhiko-shrine",
    "widths": [
@@ -8050,6 +8278,12 @@
   },
   "https://ancienttrees.app/photos/nyc_130-the-circus-ground-oak-of-saratoga-park.jpg": {
    "base": "nyc_130-the-circus-ground-oak-of-saratoga-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ngh_001-plane-of-stewart-reid-memorial-park.jpg": {
+   "base": "ngh_001-plane-of-stewart-reid-memorial-park",
    "widths": [
     500
    ]
@@ -8440,6 +8674,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/osl_006-willow-that-fell-and-kept-growing.jpg": {
+   "base": "osl_006-willow-that-fell-and-kept-growing",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/otg_001-great-zelkova-of-kanayama.jpg": {
+   "base": "otg_001-great-zelkova-of-kanayama",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/1/15/800_year_old_rimu_%286706301087%29.jpg": {
    "base": "mko_001-moko",
    "widths": [
@@ -8484,6 +8730,12 @@
   },
   "https://ancienttrees.app/photos/oxf_004-the-pococke-plane.jpg": {
    "base": "oxf_004-the-pococke-plane",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/oxf_008-magdalen-plane.jpg": {
+   "base": "oxf_008-magdalen-plane",
    "widths": [
     500
    ]
@@ -8945,6 +9197,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/pag_001-old-mesquite-of-north-4th-street.jpg": {
+   "base": "pag_001-old-mesquite-of-north-4th-street",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/6/68/Peesten_Tanzlinde-20200823-RM-153802.jpg": {
    "base": "pee_001-tanzlinde-peesten",
    "widths": [
@@ -9031,6 +9289,24 @@
   },
   "https://ancienttrees.app/photos/phl_003-the-katsura-tree-of-morris-arboretum.jpg": {
    "base": "phl_003-the-katsura-tree-of-morris-arboretum",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden.jpg": {
+   "base": "phl_007-the-laurel-hill-cutleaf-linden",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden-trunk.jpg": {
+   "base": "phl_007-the-laurel-hill-cutleaf-linden-trunk",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/phl_007-the-laurel-hill-cutleaf-linden-crown.jpg": {
+   "base": "phl_007-the-laurel-hill-cutleaf-linden-crown",
    "widths": [
     500
    ]
@@ -9672,6 +9948,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/3/3a/Leccio_secolare%2C_laghetto_di_Villa_Borghese.jpg": {
    "base": "rom_006-the-leccio-of-the-lake",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/rom_008-the-cedar-of-celimontana-d5762513.jpg": {
+   "base": "rom_008-the-cedar-of-celimontana-d5762513",
    "widths": [
     500
    ]
@@ -10396,6 +10678,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/sha_002-twin-ginkgos-of-jiao-tong-university.jpg": {
+   "base": "sha_002-twin-ginkgos-of-jiao-tong-university",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/shf_002-vernon-oak.jpg": {
    "base": "shf_002-vernon-oak",
    "widths": [
@@ -10566,6 +10854,12 @@
   },
   "https://ancienttrees.app/photos/spl_002-the-ginkgo-of-ardin.jpg": {
    "base": "spl_002-the-ginkgo-of-ardin",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/spl_006-cypress-of-imun-tudor.jpg": {
+   "base": "spl_006-cypress-of-imun-tudor",
    "widths": [
     500
    ]
@@ -10907,6 +11201,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tgn_006-oak-over-the-wall-at-tamarit.jpg": {
+   "base": "tgn_006-oak-over-the-wall-at-tamarit",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/4/44/2016_The_Thousand_Year_Old_Lime_CZ.jpg": {
    "base": "tat_001-the-thousand-year-lime-of-tatobity",
    "widths": [
@@ -11239,6 +11539,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tnk_001-silver-limbed-oak-of-tranekaer.jpg": {
+   "base": "tnk_001-silver-limbed-oak-of-tranekaer",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/trt_001-castle-linden-of-cmurek.jpg": {
    "base": "trt_001-castle-linden-of-cmurek",
    "widths": [
@@ -11319,6 +11625,36 @@
   },
   "https://ancienttrees.app/photos/trs_001-trolleken-the-troll-oak-of-trollskogen-54dc7d2a.jpg": {
    "base": "trs_001-trolleken-the-troll-oak-of-trollskogen-54dc7d2a",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-17ff735e.jpg": {
+   "base": "tsg_001-the-plane-of-agia-paraskevi-17ff735e",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi.jpg": {
+   "base": "tsg_001-the-plane-of-agia-paraskevi",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-extra1.jpg": {
+   "base": "tsg_001-the-plane-of-agia-paraskevi-extra1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-extra2.jpg": {
+   "base": "tsg_001-the-plane-of-agia-paraskevi-extra2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-03cf52a9.jpg": {
+   "base": "tsg_001-the-plane-of-agia-paraskevi-03cf52a9",
    "widths": [
     500
    ]
@@ -11661,6 +11997,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ven_012-hackberry-of-the-certosa.jpg": {
+   "base": "ven_012-hackberry-of-the-certosa",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/6/67/Le_majestueux_ch%C3%AAne_de_Venon.jpg": {
    "base": "vno_001-chene-de-venon",
    "widths": [
@@ -11685,8 +12027,20 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ver_003-the-ginkgo-of-piazza-indipendenza-fbbb5d62.jpg": {
+   "base": "ver_003-the-ginkgo-of-piazza-indipendenza-fbbb5d62",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ginkgo_biloba_piazza_Indipendenza_Verona.jpg": {
    "base": "ver_003-the-ginkgo-of-piazza-indipendenza",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ver_003-the-ginkgo-of-piazza-indipendenza-1dac0633.jpg": {
+   "base": "ver_003-the-ginkgo-of-piazza-indipendenza-1dac0633",
    "widths": [
     500
    ]
@@ -11699,6 +12053,24 @@
   },
   "https://ancienttrees.app/photos/ver_010-cedar-of-piazza-indipendenza.jpg": {
    "base": "ver_010-cedar-of-piazza-indipendenza",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ver_011-silk-mulberry-of-ca-di-david.jpg": {
+   "base": "ver_011-silk-mulberry-of-ca-di-david",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ver_011-silk-mulberry-trunk.jpg": {
+   "base": "ver_011-silk-mulberry-trunk",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ver_011-silk-mulberry-field.jpg": {
+   "base": "ver_011-silk-mulberry-field",
    "widths": [
     500
    ]
@@ -12005,6 +12377,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/wfd_001-horse-chestnut-of-the-coach-and-horses.jpg": {
+   "base": "wfd_001-horse-chestnut-of-the-coach-and-horses",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/f/f6/Giant_Red_Tingle_Tree%2C_Valley_of_the_Giants_Walpole_Western_Australia_314.jpg": {
    "base": "wlp_001-the-giant-tingle-tree",
    "widths": [
@@ -12143,6 +12521,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/wdc_016-travilah-oak-a104b938.jpg": {
+   "base": "wdc_016-travilah-oak-a104b938",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/9/97/TravilahOak2020.jpg": {
    "base": "wdc_016-travilah-oak",
    "widths": [
@@ -12167,8 +12551,20 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/wdc_043-twin-stemmed-white-oak-by-the-trail.jpg": {
+   "base": "wdc_043-twin-stemmed-white-oak-by-the-trail",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/wee_001-fern-lined-myrtle-beech-of-the-otways.jpg": {
    "base": "wee_001-fern-lined-myrtle-beech-of-the-otways",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/wfl_001-twisted-cedar-of-the-swamp-boardwalk.jpg": {
+   "base": "wfl_001-twisted-cedar-of-the-swamp-boardwalk",
    "widths": [
     500
    ]
@@ -12245,6 +12641,12 @@
   },
   "https://ancienttrees.app/photos/wtn_003-the-white-oak-on-grubb-road.jpg": {
    "base": "wtn_003-the-white-oak-on-grubb-road",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/wtn_004-the-meetinghouse-oak-of-willistown.jpg": {
+   "base": "wtn_004-the-meetinghouse-oak-of-willistown",
    "widths": [
     500
    ]
