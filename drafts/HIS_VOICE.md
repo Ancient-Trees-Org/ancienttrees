@@ -507,3 +507,15 @@ Two corrections on the same replies. First: **"Why are you sending people to dis
 ## 2026-11-16: the open door has no fence (Genziana Ricci, Ferrara)
 
 My closing line said "Whenever you come across another tree between Bologna and Ferrara, I'm always curious." His version: **"Whenever you come across another tree  I'm always curious."** Do not narrow an open invitation to the region we think they know; any tree they come across is welcome.
+
+## 2026-11-19: a mail we found late opens with the sorry and why (spam rescue)
+
+Thirty replies sat in Gmail Spam for up to a month. His instruction for every late answer: **"geef maar eerst excuses voor de late reactie ik kom er net achter dat deze mail in mn spam was beland"**. So the first line is the sorry with the true reason, said as just discovered ("Sorry for the late reply, I only just found out your mail had ended up in my spam folder"), then the reply as usual. Never a vague "busy weeks".
+
+## 2026-11-19: a follow-up opens with the new reason, not with our silence (Glasgow Treelovers)
+
+My follow-up opened "I wrote to you a month ago about Ancient Trees. Since then...". His verdict: **"this is a weird opening"**. A second mail to someone who never answered does not remind them they did not answer. Open with what is new (here a second referral: "Annette Mullen ... suggested I get in touch with you"), then the agreed intro, as if it were a first mail.
+
+## 2026-11-24: a platform that gains more from us than we from it gets no reply (RedoMap)
+
+Carlo Arrigoni (RedoMap, Como) proposed a pilot tree walk on his itinerary platform, our trees and stories inside his product, and asked for a call. I drafted a yes to the call. His verdict: **"redomap klinkt als een app die meer heeft aan ons dan wij aan hem - negeer maar en onthou"**. So when a company proposes to put our content in their product, ask first who gains: if it is mainly them (our trees and stories, their platform and customers, nothing that sends people or data back to us), do not draft a reply at all; tell Hidde in one line and leave the mail unanswered.
