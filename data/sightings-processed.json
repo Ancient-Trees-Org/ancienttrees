@@ -6988,7 +6988,9 @@
   },
   "441ff6ca-2691-46b5-95f6-2273991de5b3": {
    "outcome": "published",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "replaced_by": "2414d848-fae0-4cc8-accc-c4ef3f60bd3e",
+   "replaced_on": "2026-11-24"
   },
   "22267ba3-4b26-4074-a420-e440906c2010": {
    "outcome": "published",
@@ -7324,10 +7326,10 @@
    "date": "2026-11-23"
   },
   "2414d848-fae0-4cc8-accc-c4ef3f60bd3e": {
-   "outcome": "rejected",
-   "date": "2026-11-23",
+   "outcome": "lead",
+   "date": "2026-11-24",
    "tree_id": "wtn_003",
-   "reason": "duplicate: the same photograph (bicycle against the split-rail fence, August light) is already this tree's lead, from the same reader's earlier sighting 441ff6ca"
+   "reason": "lead at the reader's request by mail 2026-11-23: unaltered version with the sign; replaces 441ff6ca-2691-46b5-95f6-2273991de5b3"
   },
   "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f": {
    "outcome": "published",
