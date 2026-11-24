@@ -130,7 +130,15 @@ export const ACTIVITY_ROWS_FN = `
       var C = window.atCollection, id = b.getAttribute('data-id');
       if (!C || !C.gate || !id) return;
       C.gate(function (s) {
-        var me = s.user && s.user.id;
+        // The stored session holds tokens only; the user id is the JWT's sub claim.
+        var me = (s.user && s.user.id) || null;
+        if (!me) {
+          try {
+            var tb = s.access_token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+            while (tb.length % 4) tb += '=';
+            me = JSON.parse(atob(tb)).sub || null;
+          } catch (e) { me = null; }
+        }
         if (!me) return;
         var on = b.classList.contains('on');
         var h = { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' };
