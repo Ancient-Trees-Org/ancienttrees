@@ -41,6 +41,7 @@
  */
 import { imgSrcset, photoDims, creditRequired, creditText, heroFrame, readerPhotoId } from "../lib/images";
 import CreditLine from "./CreditLine.astro";
+import { icon } from "../lib/icons";
 import { ui } from "../lib/i18n";
 
 type Shot = { url: string; license?: string | null; attribution?: string | null; attribution_url?: string | null };
@@ -168,6 +169,16 @@ const swipe = variant === "hero" && (many || withAdd);
 
   <dialog class="photo-view" aria-label={alt} data-count={set.length}>
     <button type="button" class="pv-close" aria-label={t.photoClose}>&times;</button>
+    {/* SHARE BESIDE THE CROSS (Hidde, 2026-11-24, after the apps: "Ja, ook
+        web"; Google Maps' and Airbnb's viewers carry one at the top). The
+        page's own link through share-js.ts, never the file, so the credit
+        goes with it; campaign "photo", as PhotoViewer.swift and .kt. The
+        viewer only lives on a tree page, so the default URL is the tree. */}
+    <button type="button" class="pv-share" data-share data-share-where="photo"
+      data-share-copied={t.shareCopied} aria-label={t.share}
+      style="position:absolute;top:8px;right:60px;width:44px;height:44px;border:0;border-radius:999px;background:rgba(0,0,0,0.45);color:#fff;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;z-index:1;font-size:20px">
+      <Fragment set:html={icon("export")} />
+    </button>
     {shots.map((s, i) => (
       <div class="pv-slide" data-i={i} hidden={i !== 0}>
         <div class="pv-frame">
