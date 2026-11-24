@@ -106,6 +106,15 @@
       "android": "TreeMapView onLongPress on the Map tab: MapLibre's red marker, the card in the sheet, back takes it away",
       "status": "done",
       "decided": "Hidde, 2026-11-22: \"1 sounds cool but the interactio is quite specific and delecat can you build it exactly as them?\""
+    },
+    {
+      "what": "No crash when a tree pin layer's name is drawn twice (build 41 crash, 2026-11-20)",
+      "since": "2026-11-24",
+      "web": "nothing to change: maplibre-gl adds its tree layers once per map and updates the source in place",
+      "ios": "TreeMap.swift swaps a new source and new layers on every redraw; names carry the style state's seq (MapLayers.layerID) and every tree layer goes through addFresh",
+      "android": "nothing to change: TreeMapView.kt installLayers adds fixed-name layers once per style and updates the one source with setGeoJson",
+      "status": "one-sided",
+      "why": "only the iPhone renames its layers on every redraw, so only it could meet a name twice"
     }
   ]
 }
