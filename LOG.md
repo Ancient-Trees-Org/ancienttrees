@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-24 session: US local press, two rounds of 25
+
+- **Why** (Hidde: "teleurgesteld dat we geen enkele reactie uit de US hebben"): US readers are second only to the UK (41 trees, 123 photos since 11-10), but about 30 US press pitches after the Guardian got no answer, while Irish, Australian and Canadian desks did. Reading: the "Dutch designer" angle is not local news in the US. Hidde chose to try more US papers with the same mail plus one local tree in the P.S.
+- **Round 1, approved** ("Verstuur alle 25"): drafts/batches/press-us-local-2026-11-24.json (private), 25 local outlets in 20 places, Guardian text word for word with "Earlier this month", a P.S. with a tree page in their city (two quote the outlet's own article). Held by today's daily cap of 100 (the Android wave 3 sent 100 today), so the night run's outreach_continue sends it after midnight, through Resend with the mail brake.
+- **Round 2, waits for his word**: drafts/batches/press-us-local-2026-11-25.json, 25 more (Block Club Chicago, Times-Picayune, Houston Public Media, East Hampton Star and others); three are a one-time follow-up to October mails (San Antonio Report, West Side Rag, LAist) with a resend_reason. mailcheck clean.
+- Not mailed: Cincinnati, Milwaukee, Madison, St. Louis, Atlanta (except one Decatur ginkgo), Nashville, Tucson and Tacoma have app-only trees and no web page to link.
+- Measure: replies from these 50 in data/mail-yield.json (press group) by 12-08.
+
 ## 2026-11-24 session: Google sign-in chooser, swipe down on a pin's card checked
 
 - Live (web on the next deploy, apps in their next build): Sign in with Google always shows Google's account chooser (`prompt=select_account` on iOS OAuth.swift, Android Account.kt, web signin-js.ts). Hidde's Samsung took the browser's unknown account with no way to switch. Supabase forwards the parameter (read on the live authorize redirect). Test AccountTest.googleAlwaysAsksWhichAccount; escaped bug recorded.
