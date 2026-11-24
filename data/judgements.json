@@ -534,6 +534,28 @@
    "agreed": null
   },
   {
+   "id": "sight:d5762513-97f9-4f10-87eb-f80e6a8bdc4d",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Celimontana",
+   "city": "Rome",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/d5762513-97f9-4f10-87eb-f80e6a8bdc4d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 21,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "A reader's photograph of the Celimontana cedar from the lawn path, whole tree in frame, tiered cedar boughs, pine beside it, 21 m from our pin; leads now, the Commons picture moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",

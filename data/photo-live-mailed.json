@@ -3065,7 +3065,17 @@
   },
   "p_6f0fc411c4867f6898ab03d7": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "d5762513-97f9-4f10-87eb-f80e6a8bdc4d",
+     "tree_id": "rom_008",
+     "tree_name": "The Cedar of Celimontana",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "24f17594-d71b-47fd-b1c2-30c43609034f",

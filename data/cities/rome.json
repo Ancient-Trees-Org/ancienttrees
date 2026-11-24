@@ -348,13 +348,17 @@
       "access": "Free, open access, Villa Celimontana",
       "transport": "5 min walk from Metro B Colosseo, via Piazza della Navicella",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cedro_del_Libano_-_Villa_Celimontana.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Beatrice, Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/rom_008-the-cedar-of-celimontana-d5762513.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3995,
-        "height": 2653,
-        "taken_month": 5
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_6f0fc411c4867f6898ab03d7",
+        "sighting_id": "d5762513-97f9-4f10-87eb-f80e6a8bdc4d",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: A reader's own photograph of the Celimontana cedar from the lawn path: the whole tree in frame, tiered drooping cedar boughs against the sky, an umbrella pine's branches at top left. Backlit but daylight and colour; unique to us, so it leads over the Commons picture. Species seen: dense dark conifer with flat tiered, drooping branch layers and a thick multi-limbed trunk, the shape of an old Cedrus. Fits the description: a big dark cedar standing alone on the lawn of a villa park, a pine beside it, taken 21 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "No source gives a planting date or age figure; the municipal registry designates it monumental without a number. Age range here is a conservative placeholder, not a sourced estimate. Pin corrected 2026-07-26: the already-approved photo's own embedded GPS (41.885192, 12.494350) places this named, identified cedar precisely; a second independent Commons photo of the same named tree by a different photographer (Albarubescens, 2019) carries an almost identical GPS reading, and a third (Piroetta, 2021) lands about 26m away, consistent with the same tree. Also cross-checked against the neighbouring Aleppo pine's (rom_009) MASAF registry point, about 20-25m away, matching this story's \"a few meters apart\" framing.",
@@ -366,7 +370,18 @@
       "official_register": {
         "name": "Alberi monumentali del Lazio (Regione Lazio, elenco 2025), no. 14/H501/RM/12",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cedro_del_Libano_-_Villa_Celimontana.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Beatrice, Wikimedia Commons",
+          "status": "approved",
+          "width": 3995,
+          "height": 2653,
+          "taken_month": 5
+        }
+      ]
     },
     {
       "id": "rom_009",

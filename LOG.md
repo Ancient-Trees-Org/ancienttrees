@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: a reader's photograph leads the Rome cedar
+
+- **Live**: a reader's own photograph of The Cedar of Celimontana (rom_008, Rome) from the lawn path, whole tree, tiered cedar boughs, 21 m from our pin. It is now the lead (unique to us), the Commons picture behind it; filed under November. Verdict `add` through sightings_publish.py; the reader's mail went with `--send`. The pin catch-up could not read coordinates (HTTPError); the pin is confirmed, so nothing to move.
+- **Left**: lead 3c544597 (Amsterdam, unsure between it and the Stationsplein elm) and 37 older Japan/Baarn leads are our own photographs (`mine`), never auto-published, and their files are not on this machine.
+- No open reports, no unjudged tips, no feedback without a verdict, no reader words waiting. qa source, preflight (0 problems) and i18ncheck clean.
+
 ## 2026-11-24 session: build 6 prepared, and a test that reached Hidde's phone
 
 - **Breakage, caused by this session**: `android_walk.py` (ButtonWalk on three screens) ran at about 12:35 with no emulator running and Hidde's Samsung on the USB cable. adb took the phone; the script found "another build's signature", uninstalled his Play copy of `app.ancienttrees.android` and installed a debug build (firstInstallTime 12:36, DEBUGGABLE). Nothing of his is lost on the server (rule 11: nothing a person does lives on the device); he has to install the app again from Play and sign in.

@@ -7528,6 +7528,17 @@
   "e604000d-20cf-4082-885d-3e34c988c961": {
    "outcome": "held",
    "date": "2026-11-24"
+  },
+  "d5762513-97f9-4f10-87eb-f80e6a8bdc4d": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "rom_008",
+   "city_slug": "rome",
+   "file": "rom_008-the-cedar-of-celimontana-d5762513.jpg",
+   "reason": "A reader's own photograph of the Celimontana cedar from the lawn path: the whole tree in frame, tiered drooping cedar boughs against the sky, an umbrella pine's branches at top left. Backlit but daylight and colour; unique to us, so it leads over the Commons picture. Species seen: dense dark conifer",
+   "lat": 41.885337831394,
+   "lon": 12.494506827738,
+   "pin_checked": "2026-11-24"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
