@@ -12166,6 +12166,37 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "venice/ven_012"
+  },
+  {
+   "sighting_id": "0b7fae72-a8fb-4712-be01-c4957f2cc664",
+   "user_id": "p_d20c07c3bb18c7bfeadb2ddc",
+   "mine": false,
+   "name": "Horse Chestnut near Oxford",
+   "unsure_among": null,
+   "species": "Horse Chestnut",
+   "age": "150 - 180 years old",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "It has grown immediately adjacent and to an extent from the ground of The Coach and Horses public house. Sadly it is due to be cut down in the immediate future hence the temporary fencing in the photo.",
+   "latitude": 51.59962,
+   "longitude": -1.12851116666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_d20c07c3bb18c7bfeadb2ddc/0B7FAE72-A8FB-4712-BE01-C4957F2CC664.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-24"
   }
  ]
 }
