@@ -448,7 +448,10 @@ def pipeline_status():
                       + ", ".join("%d on %s" % (n, k.split(" (")[0])
                                   for k, n in sorted(single.items(),
                                                      key=lambda kv: -kv[1])))
-            if top and top.startswith("species"):
+            from findable import OWN_RESEARCH_PAUSED
+            if OWN_RESEARCH_PAUSED:
+                print("  (own research paused: no refill pass; the shelf fills from readers' tips)")
+            elif top and top.startswith("species"):
                 print(f"  *** the writable pile is under {READY_FLOOR}. Widening "
                       f"data/genus-names.json is the cheap way to refill it: every word "
                       f"added there turns leads into writable trees for nothing. ***")
@@ -687,6 +690,17 @@ def backup_lanes():
                                   text=True, timeout=120).stdout
         except Exception:
             return ""
+    from findable import OWN_RESEARCH_PAUSED
+    if OWN_RESEARCH_PAUSED:
+        print("\n  OWN RESEARCH PAUSED (findable.py, Hidde 2026-11-24): no verify pass, no register")
+        print("  scouting, no refill for trees of our own. Readers bring the new trees. Write what is")
+        print("  already verified on the shelf, finish readers' and ambassadors' tips (passcheck.py")
+        print("  --claim <place> --tip \"<whose>\"), then depth on trees readers touched:")
+        print("    python3 scripts/reader_words.py      readers' words onto their pages")
+        print("    python3 scripts/enrich.py --next     photo, measurements, best_time, recognition")
+        print("    python3 scripts/recognise.py --stuck")
+        print("    open SPEED and CODE rows in data/code-audit.json (rung 10)")
+        return
     print("\n  BACKUP, when nothing above moves (no READY lead, no claimable staged city,")
     print("  no refill batch): never end the window empty, do ONE of these, both are real work.")
     scout = next((l for l in run("scripts/scout_next.py", "--target").splitlines() if l.strip()), "")

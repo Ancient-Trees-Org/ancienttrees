@@ -578,6 +578,11 @@ jobs:
             changes what a reader can see today. So the order is not a
             preference, it is what the stages actually do.
 
+            WHEN prepare.py --status PRINTS "OWN RESEARCH PAUSED", the refill,
+            scout and city-order paragraphs below do not apply: no verify pass
+            without --tip, no scout_next.py, no city_queue.py --next. Take the
+            lanes that block names instead.
+
             AND WHEN THERE IS NOT ONE TO DO, YOUR FIRST DISPATCH REFILLS THE
             SHELF. If prepare.py printed "REFILL THE SHELF FIRST", the writable
             pile is under its floor and the rule above has nothing to act on:

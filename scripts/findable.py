@@ -154,6 +154,18 @@ PHOTO_EXEMPT_COUNTRIES = {"Portugal"}
 # web page until a reader adds to it, so the website freezes by structure and
 # this switch goes back off. The baseline file stays, read by app_only().
 SUPPLY_PAUSED = False
+
+# OWN RESEARCH PAUSED 2026-11-24 (Hidde: "mss beter om de nachtruns niet langer
+# nieuwe bomen te laten zoeken nu we zoveel input krijgen", then "Ja, stop het").
+# The night runs of 11-21 to 11-24 ended mostly on walls ("nothing publishable",
+# Fort Worth, Braga, Miami, Sheffield, Birmingham dry) while readers sent dozens
+# of trees in the same days, US and UK included. So no verify pass and no
+# register scouting for trees of our own: passcheck.py --claim refuses a verify
+# claim unless it finishes a reader's or ambassador's tip (--tip "<whose tip>"),
+# and prepare.py --status prints no refill or scout directive. Writing trees
+# already verified on the shelf, reader work, outreach and depth go on.
+# False lifts it.
+OWN_RESEARCH_PAUSED = True
 SUPPLY_PAUSE_BASELINE = "data/web-freeze-baseline.json"
 SUPPLY_PAUSE_UNTIL = "2026-12-03"
 

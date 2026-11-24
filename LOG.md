@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: night runs stop looking for new trees of their own
+
+- **What changed** (Hidde: "mss beter om de nachtruns niet langer nieuwe bomen te laten zoeken nu we zoveel input krijgen", then "Ja, stop het"). From 11-21 to 11-24 the night runs ended mostly on walls (Fort Worth, Braga, Miami, Sheffield and Birmingham came back dry) while readers sent dozens of trees, in the US and UK too. So there are no more verify passes, register scouting or shelf refills for trees of our own.
+- **What goes on**: rungs 1 to 4 (readers, health, corrections, outreach) are unchanged. Trees already verified on the shelf still get written (382 are waiting for a writer). A reader's or ambassador's tip is still finished: `passcheck.py --claim <place> --kind verify --tip "<whose>"`. After that comes depth on trees readers touched: their words, enrichment, recognition lines, code rows.
+- **How**: the switch is `OWN_RESEARCH_PAUSED = True` in scripts/findable.py. passcheck.py refuses a verify claim without `--tip`. prepare.py --status prints no refill or scout directive and names the depth lanes instead. The nightly.yml prompt follows that block. CLAUDE.md rung 5 carries the rule.
+- **Undo**: set `OWN_RESEARCH_PAUSED = False`.
+
 ## 2026-11-24 reader judge: the second Tsagarada reader's trunk photograph leads
 
 - **Product**: The Plane of Agia Paraskevi (tsagarada/tsg_001) now leads with the second reader's photograph (sighting 17ff735e): the huge double trunk in its stone bed at night, with a person and dogs for scale. The first reader's lead moved into the gallery. A parallel run (4f6167146) had already taken the same reader's wide view (03cf52a9), the age note and the app's comma fix, so this run added only the trunk frame.

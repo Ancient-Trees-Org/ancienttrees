@@ -1014,8 +1014,17 @@ def record_wall(target, kind):
         fh.write("\n")
 
 
-def do_claim(target, kind, by, deepen=None, outside_us=None, country=None, retry=None):
+def do_claim(target, kind, by, deepen=None, outside_us=None, country=None, retry=None, tip=None):
     doc, live = load_inflight()
+
+    from findable import OWN_RESEARCH_PAUSED
+    if OWN_RESEARCH_PAUSED and kind == "verify" and not tip:
+        print(f"REFUSED: own research is paused (OWN_RESEARCH_PAUSED in findable.py, Hidde")
+        print("  2026-11-24): readers bring the new trees now. A verify pass only finishes a")
+        print("  tip a reader or ambassador sent:")
+        print(f'  python3 scripts/passcheck.py --claim {target} --kind verify --tip "<whose tip, where>"')
+        print("  Otherwise take the lanes prepare.py --status names.")
+        return 1
 
     if kind == "verify" and not retry and not deepen:
         walled = recent_walls().get(_slug(target))
@@ -1718,11 +1727,16 @@ def main():
             i = args.index("--country")
             country = args[i + 1] if i + 1 < len(args) else None
             del args[i:i + 2]
+        tip = None
+        if "--tip" in args:
+            i = args.index("--tip")
+            tip = args[i + 1] if i + 1 < len(args) else None
+            del args[i:i + 2]
         if not args:
             print("usage: passcheck.py --claim <place> [--kind verify|write|photo|enrich] [--by who] "
-                  "[--deepen why] [--outside-us why] [--country name] [--retry why]")
+                  "[--deepen why] [--outside-us why] [--country name] [--retry why] [--tip whose]")
             return 1
-        return do_claim(" ".join(args), kind, by, deepen, outside_us, country, retry)
+        return do_claim(" ".join(args), kind, by, deepen, outside_us, country, retry, tip)
     if "--release" in args:
         args.remove("--release")
         if not args:
