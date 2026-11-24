@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 night run (retry, window 12:57): nothing shipped, rebase repaired
+
+- An earlier attempt had left three unpushed commits that conflicted with the reader judge's (lisbon.json photo note, LOG.md, reader-words-done.json). Resolved keeping the judge's approved note and both sets of lines; pushed. No claims standing.
+- Shelf re-checked: 4 READY leads (under the six-tree floor), 1 unpublished verified tree (taiwan, near a live tree, outside focus). Own research is paused, so no verify pass. Nothing to dispatch; the window found no work the rules allow.
+
 ## 2026-11-24 reader judge: a second reader photo of the Lisbon pohutukawa; Girona ambassador question
 
 - **Lisbon, lis_038, The Pohutukawa of Campo Santana** (app, sighting c34cee42): a wide daylight view of the garden, with the pohutukawa's leaning stems and its hanging red root mats in the middle. It is this tree (species and recognition line match), so the photo goes into the gallery behind the current reader lead, which shows the roots closer and which Hidde had picked. Filed as November. The pin catch-up hit an HTTPError, which does not matter here because the pin is already a confirmed GPS fix.
