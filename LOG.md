@@ -5,6 +5,13 @@
 - **Lisbon, lis_038, The Pohutukawa of Campo Santana** (app, sighting c34cee42): a wide daylight view of the garden, with the pohutukawa's leaning stems and its hanging red root mats in the middle. It is this tree (species and recognition line match), so the photo goes into the gallery behind the current reader lead, which shows the roots closer and which Hidde had picked. Filed as November. The pin catch-up hit an HTTPError, which does not matter here because the pin is already a confirmed GPS fix.
 - **Girona, feedback 1603** (mail reply from the reader who added gir_008): they don't know the tree's age yet, and they ask what being an ambassador would involve before saying yes. Closed `needs_hidde`. A suggested answer is in drafts/reply-reader-1603-2026-11-24.md (mailcheck clean). No badge yet, because they have not said yes. reader_words row 1603 closed: it is a question to us, with nothing to quote.
 - Left as it was: the 37 waiting leads in _sightings.json are all `mine` (our own account), so they are not readers' trees, and none of their photos is on disk. Lead 3c544597 is one of them. No open reports. preflight 0, qa source clean, i18ncheck clean.
+## 2026-11-24 night run (window 12:57): quiet, nothing to write
+
+- Rung 1: reader backlog empty. Read 12 new tree notes, none on the closed list, marked seen. Left lis_038's photo and the Amsterdam lead to the reader judge, as the rule says.
+- Rung 2: health.py clear (live-pages light GREY only because gh is unavailable here). Code-audit SPEED and CODE rows all fixed.
+- Rung 5: own research is paused. Of 382 "awaiting a writer" trees only one is unpublished (taiwan, outside focus, claim refused); the rest are stale research files. 4 READY leads (leamington-spa 2, york 1, guimaraes 1) are under the six-tree floor for a write pass, so not dispatched.
+- Depth: `reader_words.py` showed one row (feedback 1603, no tree words), marked done. `recognise.py --stuck` empty.
+- No trees added.
 
 ## 2026-11-24 reader judge: two readers' trees live (Verona mulberry, Ota zelkova)
 
