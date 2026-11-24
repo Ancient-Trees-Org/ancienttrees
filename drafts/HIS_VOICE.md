@@ -524,3 +524,21 @@ Carlo Arrigoni (RedoMap, Como) proposed a pilot tree walk on his itinerary platf
 
 Kat wrote she is disabled and homebound for the moment. My reply said "sorry to hear you're stuck at home" and "I hope you feel better soon". His verdict: **"mss is ze forever disabled vrij inconsiderate mail"**. A disability may be permanent; "stuck", "sorry" and "get well" assume it is a passing illness and a misfortune. When someone mentions a disability or illness, do not comment on it, pity it or wish it away: thank them and say you are glad to have them.
 Second try, same day: "No rush at all, the trees aren't going anywhere" still assumed she will go out one day. His verdict: **"nu ga je er nog steeds vanuit dat ze weg kan"**. So no line about visiting, going out or later at all; offer only what anyone can do from where they are (their view on the list), as an option.
+
+## 2026-11-24: his standard answer to "what does being ambassador involve?" (Jakob, Girona)
+
+A reader who got the ambassador P.S. asked what it would entail. My draft explained the role as "light" and asked "Would you like to be our ambassador?". His line: **it is for people who enjoy helping, don't think about it too heavily, and completely fine if it's not for you.** He approved the result and said: **"onthou deze reactie mochten vaker gevraagd worden"**. Use it as the standard whenever somebody asks what the role means, with their name and place filled in:
+
+> Hi <name>,
+>
+> Thanks for your reply[, and <one line answering anything else they asked>].
+>
+> Being ambassador is for people who enjoy helping out, so don't think about it too heavily. Whenever you feel like it, you can check the <place> list, tell us which trees are missing, or add a photo when you walk past one. You get a badge for <place> beside your name.
+> https://ancienttrees.app/<place>
+>
+> And it's completely fine if it's not your thing.
+>
+> Thanks again,
+> Hidde / Ancient Trees
+
+No direct "would you like to be our ambassador?": the no-pressure line closes it, and their yes comes on its own.

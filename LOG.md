@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 session: Girona answer sent, Astro update merged
+
+- **Girona, feedback 1603**: Jakob's question about the ambassador role was answered on Hidde's line ("for people who enjoy helping, don't think about it too heavily, completely fine if it's not your thing"), sent through contributor_reply.py on his "stuur girona". He asked to keep it as the standard answer: drafts/HIS_VOICE.md 2026-11-24. No badge until Jakob says yes.
+- **Dependabot**: Astro 7.2.0 to 7.4.13 merged (#68); the deploy's Chrome check is the test. supabase-js (#67) has a merge conflict and waits for Dependabot to rebase it.
+
 ## 2026-11-24 reader judge: a full-size reader photograph now leads the Palermo fig
 
 - **Palermo, pal_001 The Ficus of Piazza Marina** (app, one reader, sightings d9c64779 and a41fc623, taken 2026-10-20). Both files were opened and they are the same photograph, sent twice. It shows the whole colonnade of aerial-root trunks under the crown, from inside the garden, in daylight and colour. The species and description match. d9c64779 goes on as `add`: it is now the lead photograph (1200x1600, filed as October, its own month), and the earlier small reader photo (579x833) moves into the strip. a41fc623 is rejected as a duplicate. The pin move could not read coordinates (HTTPError). pal_001's pin was left as it is.
