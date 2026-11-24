@@ -1324,23 +1324,18 @@
    ]
   },
   "p_4ef71b74f814d07e898bb5c1": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "017db4cf-3739-467d-986a-cb2f811ab0a1",
-     "tree_id": "bng_001",
-     "tree_name": "The Rhodes Bald Cypress",
-     "city": "Richard Bong State Recreation Area",
-     "city_slug": "richard-bong-state-recreation-area",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "50567b0d-1b7c-437c-afea-03cbaf003531",
      "tree_id": "bng_001",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "017db4cf-3739-467d-986a-cb2f811ab0a1",
+     "tree_id": "bng_001",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -1655,27 +1650,8 @@
    ]
   },
   "p_3c788cea8bd6bb5caafb5b4d": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "7d61fd79-4873-4949-a216-1ddb64960ae6",
-     "tree_id": "vie_023",
-     "tree_name": "The Plane of Dr. Karl Lueger-Platz",
-     "city": "Vienna",
-     "city_slug": "vienna",
-     "display_name": null,
-     "live": "2026-11-22"
-    },
-    {
-     "sighting_id": "969cecfa-4f13-4256-928d-3b9042a42166",
-     "tree_id": "vie_016",
-     "tree_name": "The Pagoda Tree of the Stadtpark",
-     "city": "Vienna",
-     "city_slug": "vienna",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "57a1afed-1a15-4782-b4a1-4aeaf08a9f04",
@@ -1696,6 +1672,16 @@
      "sighting_id": "161c7f67-f76d-4527-84b1-d24ab59c798f",
      "tree_id": "vie_007",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "7d61fd79-4873-4949-a216-1ddb64960ae6",
+     "tree_id": "vie_023",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "969cecfa-4f13-4256-928d-3b9042a42166",
+     "tree_id": "vie_016",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -1765,45 +1751,8 @@
    ]
   },
   "p_d5b6b02503ae50c0b89c742a": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
-     "tree_id": "trs_001",
-     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
-     "city": "Trollskogen",
-     "city_slug": "trollskogen",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "c9571128-bcb5-4b44-a87d-5fd433b1a10b",
-     "tree_id": "trs_001",
-     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
-     "city": "Trollskogen",
-     "city_slug": "trollskogen",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
-     "tree_id": "trs_001",
-     "tree_name": "Trolleken (the Troll Oak of Trollskogen)",
-     "city": "Trollskogen",
-     "city_slug": "trollskogen",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "2fabeea6-e1e1-49fb-aba4-07fddea81246",
-     "tree_id": "sev_009",
-     "tree_name": "The Fig of the Glorieta de Goya",
-     "city": "Seville",
-     "city_slug": "seville",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "54dc7d2a-aaf6-4158-8784-3f3c256942a3",
@@ -1814,6 +1763,26 @@
      "sighting_id": "3c756f92-fc89-4a76-a714-06e8a6361b0f",
      "tree_id": "plm_001",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "ef187fe2-7b84-4b0c-8a97-1b809f26fb89",
+     "tree_id": "trs_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "c9571128-bcb5-4b44-a87d-5fd433b1a10b",
+     "tree_id": "trs_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "df61ce54-1440-4120-be2d-446bf82ff986",
+     "tree_id": "trs_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "2fabeea6-e1e1-49fb-aba4-07fddea81246",
+     "tree_id": "sev_009",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -1829,39 +1798,24 @@
    ]
   },
   "p_24edc9a8bd5f07a00e0b3133": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "0b414558-8782-4832-839f-d51b2893b13a",
-     "tree_id": "tua_001",
-     "tree_name": "The Big Totara of Lillburn Monowai Road",
-     "city": "Tuatapere",
-     "city_slug": "tuatapere",
-     "display_name": null,
-     "live": "2026-11-17"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "45e7ad05-a36e-480b-8c4b-fc0e4d5c5a47",
      "tree_id": "tua_001",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "0b414558-8782-4832-839f-d51b2893b13a",
+     "tree_id": "tua_001",
+     "mailed": "2026-11-24"
     }
    ]
   },
   "p_222183a8bfd1e5262ec0f187": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "72e483a0-37d2-44ba-91d8-6a7d28bde297",
-     "tree_id": "mel_005",
-     "tree_name": "The Moreton Bay Fig of Curtain Square",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-20"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "4be001d1-ee21-48f8-81df-67bf1bb02d41",
@@ -1872,6 +1826,11 @@
      "sighting_id": "f05d3a86-b304-47ac-bf24-2e0f88ad99a1",
      "tree_id": "syd_006",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "72e483a0-37d2-44ba-91d8-6a7d28bde297",
+     "tree_id": "mel_005",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -1897,77 +1856,48 @@
    ]
   },
   "p_43296b4149990a775a24a4a6": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "3484b62a-ae0a-496b-a474-05de96094149",
-     "tree_id": "slc_005",
-     "tree_name": "The Temple Square Cedar of Lebanon",
-     "city": "Salt Lake City",
-     "city_slug": "salt-lake-city",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "49cdc6d5-8952-40a5-9fa6-fe5f82bd438c",
-     "tree_id": "slc_003",
-     "tree_name": "The Washington Square Ohio Buckeye",
-     "city": "Salt Lake City",
-     "city_slug": "salt-lake-city",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "211c1179-f19f-4b15-8cd1-69eaabcb8a91",
-     "tree_id": "slc_002",
-     "tree_name": "The Washington Square Hackberry",
-     "city": "Salt Lake City",
-     "city_slug": "salt-lake-city",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "d7c5b35b-ede0-40f0-877e-dec7e8baf8c6",
-     "tree_id": "slc_001",
-     "tree_name": "The Liberty Park London Planetree",
-     "city": "Salt Lake City",
-     "city_slug": "salt-lake-city",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "af1c1d0b-3f96-4736-b2df-92468b44d5d8",
-     "tree_id": "lgc_001",
-     "tree_name": "Jardine Juniper",
-     "city": "Logan Canyon",
-     "city_slug": "logan-canyon",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "f2e99426-d46c-4a73-9ab9-25f92c7edf6a",
-     "tree_id": "for_001",
-     "tree_name": "The Fortingall Yew",
-     "city": "Fortingall",
-     "city_slug": "fortingall",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "691e83b3-fa05-4961-a56f-9912db89c1ac",
-     "tree_id": "rlg_001",
-     "tree_name": "Dughall Mor and the Reelig Glen giants",
-     "city": "Reelig Glen",
-     "city_slug": "reelig-glen",
-     "display_name": null,
-     "live": "2026-11-18"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "ee80ee46-48b1-4e89-bc8d-23c892d50b1d",
      "tree_id": "sdg_001",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "3484b62a-ae0a-496b-a474-05de96094149",
+     "tree_id": "slc_005",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "49cdc6d5-8952-40a5-9fa6-fe5f82bd438c",
+     "tree_id": "slc_003",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "211c1179-f19f-4b15-8cd1-69eaabcb8a91",
+     "tree_id": "slc_002",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "d7c5b35b-ede0-40f0-877e-dec7e8baf8c6",
+     "tree_id": "slc_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "af1c1d0b-3f96-4736-b2df-92468b44d5d8",
+     "tree_id": "lgc_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "f2e99426-d46c-4a73-9ab9-25f92c7edf6a",
+     "tree_id": "for_001",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "691e83b3-fa05-4961-a56f-9912db89c1ac",
+     "tree_id": "rlg_001",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -2063,32 +1993,23 @@
    ]
   },
   "p_0f6b42161f64e6f916e0bea7": {
-   "last": "2026-11-17",
-   "pending": [
-    {
-     "sighting_id": "4ffdc2fe-39a1-473b-8816-5b881f38f2c7",
-     "tree_id": "ams_002",
-     "tree_name": "The Leidsebosje Planes",
-     "city": "Amsterdam",
-     "city_slug": "amsterdam",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "ecbf8b3f-ba6e-46a1-a985-cee9151f2428",
-     "tree_id": "ams_002",
-     "tree_name": "The Leidsebosje Planes",
-     "city": "Amsterdam",
-     "city_slug": "amsterdam",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-24",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "c7d330dc-6134-4098-87f1-ee6360aa7295",
      "tree_id": "ams_021",
      "mailed": "2026-11-17"
+    },
+    {
+     "sighting_id": "4ffdc2fe-39a1-473b-8816-5b881f38f2c7",
+     "tree_id": "ams_002",
+     "mailed": "2026-11-24"
+    },
+    {
+     "sighting_id": "ecbf8b3f-ba6e-46a1-a985-cee9151f2428",
+     "tree_id": "ams_002",
+     "mailed": "2026-11-24"
     }
    ]
   },
@@ -3123,19 +3044,15 @@
    ]
   },
   "p_d08befbb4870fc0971e550d1": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-24",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "1bd94bb4-b914-4baf-861c-c17b843afede",
      "tree_id": "mlr_002",
-     "tree_name": "The Tree House Rain Tree of the Netravati Promenade",
-     "city": "Mangaluru",
-     "city_slug": "mangaluru",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-24"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_6f0fc411c4867f6898ab03d7": {
    "last": "2026-11-23",
@@ -3176,19 +3093,15 @@
    ]
   },
   "p_5c52d5fff8db339a0c0b880e": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-24",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "72e9f7bd-86b1-497e-ab3e-d702a42b134c",
      "tree_id": "hth_001",
-     "tree_name": "Kett's Oak",
-     "city": "Hethersett",
-     "city_slug": "hethersett",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-24"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_da3da5a4ed100473ae2ad2cf": {
    "last": "2026-11-23",

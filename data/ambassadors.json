@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-23T17:46Z",
+  "synced": "2026-11-24T00:09Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -24,26 +24,8 @@
     },
     {
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "calvos",
-      "place_name": "Calvos",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "guimaraes",
       "place_name": "Guimaraes",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "vales",
-      "place_name": "Vales",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -59,12 +41,21 @@
       "profile_public": true
     },
     {
-      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
-      "place_slug": "pamplona",
-      "place_name": "Pamplona",
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "calvos",
+      "place_name": "Calvos",
       "public": true,
-      "since": "2026-11-02",
-      "display_name": "Mikel B.",
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "vales",
+      "place_name": "Vales",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -83,6 +74,15 @@
       "public": true,
       "since": "2026-11-02",
       "display_name": "William G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
+      "place_slug": "pamplona",
+      "place_name": "Pamplona",
+      "public": true,
+      "since": "2026-11-02",
+      "display_name": "Mikel B.",
       "profile_public": true
     },
     {
@@ -131,15 +131,6 @@
       "profile_public": true
     },
     {
-      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
-      "place_slug": "willistown",
-      "place_name": "Willistown",
-      "public": true,
-      "since": "2026-11-16",
-      "display_name": "JOEY R.",
-      "profile_public": true
-    },
-    {
       "user_id": "04e23b6d-749a-4f67-9508-bd0bb94cfba7",
       "place_slug": "melbourne",
       "place_name": "Melbourne",
@@ -182,6 +173,15 @@
       "public": true,
       "since": "2026-11-16",
       "display_name": "Damien C.",
+      "profile_public": true
+    },
+    {
+      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
+      "place_slug": "willistown",
+      "place_name": "Willistown",
+      "public": true,
+      "since": "2026-11-16",
+      "display_name": "JOEY R.",
       "profile_public": true
     },
     {
@@ -351,6 +351,42 @@
       "public": true,
       "since": "2026-11-23",
       "display_name": "Manuel G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "11cad0c8-9f8c-4316-985f-9704512626eb",
+      "place_slug": "olympic-national-park",
+      "place_name": "Olympic National Park",
+      "public": true,
+      "since": "2026-11-24",
+      "display_name": "Tonya R.",
+      "profile_public": true
+    },
+    {
+      "user_id": "27fb56a0-ec1b-476c-ac17-e8d2a89efdd8",
+      "place_slug": "ardkinglas",
+      "place_name": "Ardkinglas",
+      "public": true,
+      "since": "2026-11-24",
+      "display_name": "Eryl T.",
+      "profile_public": true
+    },
+    {
+      "user_id": "7ef55adc-1907-4732-a120-127b5613f09a",
+      "place_slug": "houston",
+      "place_name": "Houston",
+      "public": true,
+      "since": "2026-11-24",
+      "display_name": "Katharyn J.",
+      "profile_public": true
+    },
+    {
+      "user_id": "bad933cd-7242-41c6-ac42-850adeebb00a",
+      "place_slug": "boston",
+      "place_name": "Boston",
+      "public": true,
+      "since": "2026-11-24",
+      "display_name": "Ged R.",
       "profile_public": true
     },
     {
@@ -1998,6 +2034,47 @@
         "The Many-Stemmed Beech of East Hampton"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1eb12dc79856c2f3c36b83bd",
+      "place_slug": "olympic-national-park",
+      "place_name": "Olympic National Park",
+      "date": "2026-11-24",
+      "trees": [
+        "The Tree of Life",
+        "The Quinault Big Spruce"
+      ]
+    },
+    {
+      "user_id": "p_2fb168cd887679f3b6633670",
+      "place_slug": "ardkinglas",
+      "place_name": "Ardkinglas",
+      "date": "2026-11-24",
+      "trees": [
+        "Ardkinglas Grand Fir",
+        "Ardkinglas Silver Fir, the Mightiest Conifer"
+      ]
+    },
+    {
+      "user_id": "p_ab50071883c0a2df1b7a50bb",
+      "place_slug": "houston",
+      "place_name": "Houston",
+      "date": "2026-11-24",
+      "trees": [
+        "The Old Pecan Tree",
+        "The Becks Prime Augusta Live Oaks"
+      ]
+    },
+    {
+      "user_id": "p_5774dc8ff2d6e8e3fdb946d4",
+      "place_slug": "boston",
+      "place_name": "Boston",
+      "date": "2026-11-24",
+      "trees": [
+        "The Public Garden Pagoda Tree",
+        "The Public Garden Ginkgo",
+        "The Public Garden Bur Oak"
+      ]
     }
   ],
   "requested": [
@@ -2962,10 +3039,22 @@
         "lon_049",
         "lon_050",
         "lon_051",
-        "lon_052"
+        "lon_052",
+        "lon_053",
+        "lon_054",
+        "lon_055"
       ],
       "since": "2026-11-15",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-24",
+          "trees": [
+            "lon_053",
+            "lon_054",
+            "lon_055"
+          ]
+        }
+      ]
     },
     "media-pennsylvania": {
       "trees": [
@@ -3004,10 +3093,26 @@
         "mel_013",
         "mel_014",
         "mel_015",
-        "mel_016"
+        "mel_016",
+        "mel_017",
+        "mel_018",
+        "mel_019",
+        "mel_020",
+        "mel_021"
       ],
       "since": "2026-11-16",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-24",
+          "trees": [
+            "mel_017",
+            "mel_018",
+            "mel_019",
+            "mel_020",
+            "mel_021"
+          ]
+        }
+      ]
     },
     "toronto": {
       "trees": [
@@ -3016,10 +3121,18 @@
         "tro_003",
         "tro_004",
         "tro_005",
-        "tro_006"
+        "tro_006",
+        "tro_007"
       ],
       "since": "2026-11-16",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-24",
+          "trees": [
+            "tro_007"
+          ]
+        }
+      ]
     },
     "colchester": {
       "trees": [
@@ -3031,10 +3144,18 @@
     "adelaide": {
       "trees": [
         "ads_001",
-        "ads_002"
+        "ads_002",
+        "ads_003"
       ],
       "since": "2026-11-16",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-24",
+          "trees": [
+            "ads_003"
+          ]
+        }
+      ]
     },
     "willistown": {
       "trees": [
@@ -3282,6 +3403,104 @@
         "bgm_009"
       ],
       "since": "2026-11-23",
+      "mailed": []
+    },
+    "mexico-city": {
+      "trees": [
+        "mex_001",
+        "mex_002",
+        "mex_003",
+        "mex_005",
+        "mex_006",
+        "mex_007",
+        "mex_008",
+        "mex_009",
+        "mex_010",
+        "mex_011"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "olympic-national-park": {
+      "trees": [
+        "oly_001",
+        "oly_002",
+        "oly_003",
+        "oly_004"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "ardkinglas": {
+      "trees": [
+        "akw_001",
+        "akw_002"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "houston": {
+      "trees": [
+        "hou_001",
+        "hou_002",
+        "hou_003",
+        "hou_004",
+        "hou_005",
+        "hou_006",
+        "hou_007",
+        "hou_008",
+        "hou_009",
+        "hou_010",
+        "hou_011",
+        "hou_012"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "boston": {
+      "trees": [
+        "bos_001",
+        "bos_002",
+        "bos_003",
+        "bos_004",
+        "bos_005",
+        "bos_006",
+        "bos_007",
+        "bos_008",
+        "bos_009",
+        "bos_010",
+        "bos_011",
+        "bos_012",
+        "bos_013",
+        "bos_014",
+        "bos_015",
+        "bos_016",
+        "bos_017",
+        "bos_018",
+        "bos_019",
+        "bos_020",
+        "bos_021",
+        "bos_022",
+        "bos_023",
+        "bos_030",
+        "bos_031",
+        "bos_032",
+        "bos_033",
+        "bos_034",
+        "bos_035",
+        "bos_036",
+        "bos_037",
+        "bos_038",
+        "bos_046",
+        "bos_047",
+        "bos_048",
+        "bos_049",
+        "bos_050",
+        "bos_051",
+        "bos_052",
+        "bos_053"
+      ],
+      "since": "2026-11-24",
       "mailed": []
     }
   }
