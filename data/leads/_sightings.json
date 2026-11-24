@@ -11783,6 +11783,37 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "colchester/cls_002"
+  },
+  {
+   "sighting_id": "5ecc87a6-c5d8-4c48-8755-934bdc698220",
+   "user_id": "p_9b9df2402876220d58842e1a",
+   "mine": false,
+   "name": "Black Mulberry in London",
+   "unsure_among": null,
+   "species": "Black Mulberry",
+   "age": "160",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Thought to have been on the site of a Victorian boy’s school. Still fruits heavily every year.",
+   "latitude": 51.462599348154,
+   "longitude": -0.0156979967303101,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_9b9df2402876220d58842e1a/5ECC87A6-C5D8-4C48-8755-934BDC698220.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-24"
   }
  ]
 }
