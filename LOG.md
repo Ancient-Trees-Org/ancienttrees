@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 night run 10:01 UTC: build fixed, nothing else to take
+
+- Rung 2: every deploy since the title fix failed on one more over-long meta description, /parks/botanic-garden-cambridge (164 chars, cap 155). Shortened it (b09c0e2dd, pushed). Preflight 0 problems; the deploy after it was not watched to green by this run.
+- Rung 1: the one waiting sighting (3c544597, Amsterdam) has no photo on disk and wtn_003 was already fixed in 8e10faa79; reader work belongs to the reader judge, so left alone.
+- Own research is paused, so no verify, scout or refill. No trees added.
+
 ## 2026-11-24 session: no database backup has ever been made
 
 - **Found**: db-backup.yml has failed every day since it was built (2026-11-04): the secrets `SUPABASE_DB_URL` and `BACKUP_PASSPHRASE` were never set, so no `ancienttrees-backup-*` artifact exists. Accounts, submissions, notes and readers' photographs exist only in Supabase.
