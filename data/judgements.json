@@ -18,6 +18,34 @@
    "agreed": null
   },
   {
+   "id": "sight:81bfa129-ea0e-4f2a-82cd-4625248520d2",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Palmeira leque near Florianópolis",
+   "city": null,
+   "species": "Palmeira leque",
+   "photo": "p_02edf756ac8c1a596232f1a1/81BFA129-EA0E-4F2A-82CD-4625248520D2.jpg",
+   "reader_note": "Esta palmeira fica em uma pequena trilha calçada que sai ao lado da casinha principal do horto, ao lado do parquinho e vai em direção ao estacionamento superior.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Palmeira leque"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: a tall fan palm whose crown of broad fans stands above the forest canopy, daylight, colour. Live as florianopolis/fln_003 on Hidde's word.",
+   "hidde": "ik vind die palm in florianopolis wel vet waarom niet?",
+   "agreed": true
+  },
+  {
    "id": "sight:5ecc87a6-c5d8-4c48-8755-934bdc698220",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
@@ -515,8 +543,8 @@
    },
    "verdict": "hold",
    "reason": "not_special: a slender fan palm among forest trees on a park trail.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "ik vind die palm in florianopolis wel vet waarom niet?",
+   "agreed": false
   },
   {
    "id": "sight:24f17594-d71b-47fd-b1c2-30c43609034f",
@@ -866,8 +894,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: a medium broadleaf at the end of a residential lane; nothing in the frame to walk for.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:72e9f7bd-86b1-497e-ab3e-d702a42b134c",
@@ -919,8 +947,8 @@
    },
    "verdict": "hold",
    "reason": "dead: the reader's own note says this beech was recently cut down.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:b236b30f-6f5b-4a10-8cd2-11a7524b5403",
@@ -969,8 +997,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: a sizeable bare broadleaf in a private garden among bungalows; nothing says why a walker should come.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:8faa5fe0-68a1-43db-bfac-d5be097e97bd",
@@ -994,8 +1022,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_special: a common pollard willow by a playground path in Gadevang.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:7c8a8735-4486-4b48-a5ea-5ac657f58122",
@@ -1487,8 +1515,8 @@
    },
    "verdict": "hold",
    "reason": "doubt_location: a sourced 1930 memorial cypress worth a page, but the coordinate is our spl_003 pin and the path is long",
-   "hidde": null,
-   "agreed": null
+   "hidde": "this is sort of a special tree no?",
+   "agreed": false
   },
   {
    "id": "sight:bfc1e32d-1f10-4f87-917c-fc19570af1dd",
@@ -1774,8 +1802,8 @@
    },
    "verdict": "hold",
    "reason": "not_special: a medium tree in autumn colour in a planting bed by a loading dock, nothing in the frame marks it out as big, old or striking; species uncertain.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "tip:1530",
@@ -2475,8 +2503,8 @@
    },
    "verdict": "hold",
    "reason": "Rejected as a bad frame: a beach and the bay with foliage at the edge, no trunk, roots or wall of the fig, and its coordinate only repeats the tree's first pin.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "sight:4491f36f-c569-42f1-a84c-a9bab33dab9a",
@@ -3444,8 +3472,8 @@
    "reader_girth_cm": null,
    "verdict": "lead",
    "reason": "No photograph reached us and no words, only a coordinate near Lecco (45.891, 9.387). Nothing to judge yet; waits for the photo.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "sight:59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
@@ -3523,8 +3551,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Photograph viewed: an autumn lakeshore forest mirrored in water, no single tree to walk to. Held wrong_subject; no mail.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:a29ed9d7-1555-4579-ad0a-759824034cf3",
@@ -4013,8 +4041,8 @@
    },
    "verdict": "hold",
    "reason": "Rejected: a photograph of a framed print of a fallen log with stone art, taken in central Edinburgh 6 km from Redford Wood, plus a small maple in a rock garden; neither is the redwood.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
@@ -4059,8 +4087,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "no_location: a huge buttressed rainforest trunk worth a page, but only 'Andaman Island' given and no location in the photo; standard reply asks where it stands.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "sight:ad8664d1-e182-4244-9fa2-a6f3ab7cca1e",
@@ -4184,8 +4212,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "dead: the photograph shows felled oak logs cut in sections and spray-marked for sale in a beech wood near Bad Homburg, no standing tree to walk to. No mail under the closed list.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:d281addd-4fa0-40e8-aaef-e25205565573",
@@ -4212,8 +4240,8 @@
    },
    "verdict": "hold",
    "reason": "not_theirs: a screenshot of Google Maps Street View (Feb 2026) of a tall split-trunk fig on a lane in Ribeirao da Ilha, hand-placed pin. The standard friendly mail asks for their own photo, which would put it live.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "tip:1468",
@@ -4352,8 +4380,8 @@
    },
    "verdict": "hold",
    "reason": "Not a photo for the page: taken 7 m from the pin, it shows cut trunk sections and open sky where the 30 m pine stood. With report 1000126 (a stump) it is the evidence the pine is gone; gir_004 retired the same day.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "sight:86314456-dad2-4cf1-b3aa-a0b3046022fb",
@@ -4549,8 +4577,8 @@
    "reader_girth_cm": 600,
    "verdict": "lead",
    "reason": "Spirit Tree, a ~200-year-old Fremont cottonwood (reader's estimate) at the Spirit Tree Inn on Harshaw Creek Road near Patagonia, Arizona. No photograph and no written source; on an inn's grounds, view from the road unconfirmed. Recorded in data/leads/patagonia-arizona.json with the reader's map-link coordinate.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "sight:4504258b-6e45-4eac-8a8f-f4d3fdfc951a",
@@ -4627,8 +4655,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "not_public: three photographs viewed, a massive old oak in autumn colour, clearly special, but it stands in a yard beside a barn and a house in the countryside NE of Clarksville, Tennessee, every photo taken from inside the yard; goes live with the pin on the viewing spot if the reader says it can be seen from a road. App sighting, so hold_reply.py cannot mail them.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:tip-1490",
@@ -6651,8 +6679,8 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "The website copy of the app sighting fba415e7 (the Royal Paulownia on a house lot on Winding Way, Springs). Its lead is held not_public since 2026-11-21: the photo is taken from inside a private lawn and we cannot tell whether it is seen from the street. Goes live with the pin on the viewing spot once the reader says it can be seen from a road or path.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "the rest i agree with",
+   "agreed": true
   },
   {
    "id": "lead:decf2f9f-db6f-4555-8c46-b940b0550979",

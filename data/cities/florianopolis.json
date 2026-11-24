@@ -140,6 +140,48 @@
           "note": "Photographed by a reader and sent through the app (2026-05-19); a viewing pass approved it on 2026-11-22: The same fig from a wider angle, looking up: the mossy limbs, curtains of aerial roots and the low wall at right. A second view beside the lead (same reader); its extra frames repeat the lead. Species seen: small leathery fig leaves, mossy grey stems, hanging aerial roots. Fits the description: limbs from a knot of mossy stems, aerial roots hanging to the ground beside a low wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
+    },
+    {
+      "id": "fln_003",
+      "name": "The Fan Palm above the Horto Trail",
+      "species": "Fan Palm (Arecaceae)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Parque Ecológico do Córrego Grande (the old Horto Florestal), Florianópolis",
+        "latitude": -27.5981688764585,
+        "longitude": -48.5104536744825,
+        "neighbourhood": "Córrego Grande"
+      },
+      "how_to_recognise": "On the small paved trail that leaves beside the park's main little house, next to the playground, towards the upper car park: a palm with a rough reddish trunk whose crown of broad fans rises above the trees around it.",
+      "access": "Free, in a public park. Open in daytime.",
+      "story": "\"Esta palmeira fica em uma pequena trilha calçada que sai ao lado da casinha principal do horto,\" wrote the reader who sent us this palm from Florianópolis. It stands, they explain, on a small paved trail that leaves beside the main little house of the horto, next to the playground, heading for the upper car park.\n\nTheir photograph is taken from the foot of the trunk, looking straight up, and it shows why they stopped. The trunk is rough and reddish, wrapped in the fibres and old leaf bases a fan palm keeps as it grows, and it climbs clean through the younger forest around it. At the top the leaves open into wide, stiff fans, dark against the light, and the whole crown stands above the canopy of the trees beside it. Smaller palms crowd the undergrowth below, as if waiting their turn.\n\nThe reader calls it a palmeira leque, a fan palm. Which fan palm it is, and how old, we do not know yet; if you can tell from the leaves or the trunk, or know the park's records, tell us here.\n\nWalk the trail from the playground and look up as the path climbs towards the car park.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 session: sent by a reader (81bfa129-ea0e-4f2a-82cd-4625248520d2, 2026-11-14, through the app). Photograph viewed: looking up a tall fan palm from the foot of its rough red-brown trunk, its crown of wide fans standing above the forest canopy, daylight, colour. Hidde overruled our hold on 2026-11-24 (ik vind die palm in florianopolis wel vet waarom niet?); published under the closed list for a reader's tree (2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'Palmeira leque near Florianópolis', species 'Palmeira leque', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/fln_003-fan-palm-above-the-horto-trail.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+        "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-14, through the app); viewed and approved on 2026-11-24: looking up a tall fan palm from the foot of its rough red-brown trunk, its crown of wide fans standing above the forest canopy, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

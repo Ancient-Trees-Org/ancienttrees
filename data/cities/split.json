@@ -226,6 +226,52 @@
         "attribution": null,
         "status": "missing"
       }
+    },
+    {
+      "id": "spl_006",
+      "name": "The Cypress of Šimun Tudor",
+      "species": "Mediterranean Cypress (Cupressus sempervirens)",
+      "age_estimate": "planted in 1930, by its plaque",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Path on Marjan hill, Split",
+        "latitude": 43.5085,
+        "longitude": 16.4259,
+        "neighbourhood": "Marjan"
+      },
+      "how_to_recognise": "A tall columnar cypress standing right behind a dry-stone plinth with a white marble plaque reading 'Čempres Dra Šimuna Tudora ... Marjan', beside a path of stone steps.",
+      "access": "Free, on the public paths of Marjan hill, open daily.",
+      "verified_sources": [
+        "https://drustvomarjan.hr/o-drustvu-marjan/kronologija-drustva (Društvo Marjan, the society's own chronology: Šimun Tudor among its early presidents; the society notes the plaque calls him the first)"
+      ],
+      "story": "On Marjan, the wooded hill at the end of Split's peninsula, one cypress carries its own name in stone. A reader sent us its photograph of a tall tree standing straight up like a dark green column, with a dry-stone plinth at its foot and a white marble tablet set into it.\n\nThe tablet reads \"Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX\", which means the cypress of Dr Šimun Tudor, first president of the Marjan Society, 1930. The society is the association that looks after the hill, and its own chronology lists Tudor among its early presidents, though it puts him second rather than first, as the stone has it.\n\nBy its plaque, then, the tree has stood here since 1930, a living memorial to the man the society chose to honour. It has grown into the narrow, flame-shaped column Mediterranean cypresses take, rising above the pines on the slope beside it, with a path of rough stone steps climbing past its foot.\n\nOur pin marks this part of Marjan, not the exact spot. Look for the plinth and the plaque beside the stone steps, and stand back on the path to see the whole column.",
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "approximate, from the tree it was sent for",
+        "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5",
+        "date": "2026-11-24",
+        "note": "The photograph was sent for spl_003, so its coordinate is that tree's pin on the same part of Marjan; the plaque is how a visitor finds it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 session: sent by a reader (72bb031f-c5bd-4bc8-977e-4420760280c5, 2026-11-23, through the app). Photograph viewed: the whole tall column of the cypress above a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX', on a stepped path among pines, daylight, colour. Hidde overruled our hold on 2026-11-24 (this is sort of a special tree no?); published under the closed list for a reader's tree (2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"). The reader's own figures: name 'The Cypress of Šimun Tudor, Marjan', species 'Mediterranean Cypress (Cupressus sempervirens)', age 'None', girth None cm. Every figure on the page that is not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/spl_006-cypress-of-imun-tudor.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1198,
+        "height": 1589,
+        "source": "contributor",
+        "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
+        "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-24: the whole tall column of the cypress above a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX', on a stepped path among pines, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

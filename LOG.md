@@ -35,6 +35,12 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Fixed** (5eb0a042d): one QA check, `check_one_tree_places_have_no_question_page`, took 1,395 of QA's 1,663 seconds. It ran one regex per small place on every one of 29,121 pages. It now reads each page once: `links_to_small_question()`, with the same answer on 19 test hrefs, old against new. That should save about 23 minutes on every deploy. The next deploy's "qa timing" lines will show whether it did.
 - Left alone: another session's unfinished `check_one_place_head` in scripts/qa.py. PlaceHead.astro is not committed yet, so that check stays out of this commit.
 
+## 2026-11-24 session: two readers' trees Hidde put live, and the judge's lesson
+
+- **Live**: florianopolis/fln_003, a fan palm in the Córrego Grande park whose crown stands above the forest (held `not_special`; Hidde: "ik vind die palm in florianopolis wel vet waarom niet?"), and split/spl_006, the cypress of Šimun Tudor on Marjan with its 1930 plaque (held `doubt_location`; Hidde: "this is sort of a special tree no?"). Both pins approximate, both readers' words or plaque on the page.
+- **Lesson in BRIEF_READER_JUDGE.md**: `not_special` is the rare verdict, a tree that stands out in its own setting is special; and a tree with its own plaque or sign on a path past our pin goes live instead of `doubt_location`.
+- Hidde agreed with the other 16 verdicts on his page. Two stay open: the golden tulip tree sent for the Solbosch beech (special, but where it stands is unknown) and the snowy Tsagarada night photo (may not be the sender's own).
+
 ## 2026-11-24 session: resends no longer reach Hidde
 
 - Hidde on 14 resends on his readers' trees page (the same photograph sent again): "A mag je afwijzen en niet meer vragen". Filed as agreed, and `inspect_readers.is_duplicate()` now keeps any verdict that names a duplicate off his page. 20 trees remain for him (closed-list holds, not-special calls, real doubts).

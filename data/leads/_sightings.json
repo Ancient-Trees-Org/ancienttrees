@@ -10425,11 +10425,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "Photograph viewed 2026-11-23: a slender fan palm among forest trees on a park trail; nothing in the frame stands out in size or age.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: looking up a tall fan palm from the foot of its rough red-brown trunk, its crown of wide fans standing above the forest canopy, daylight, colour. Live as florianopolis/fln_003: Hidde overruled our hold on 2026-11-24 (ik vind die palm in florianopolis wel vet waarom niet?); published under the closed list for a reader's tree (2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\").",
    "seen": "2026-11-23",
-   "hold": "not_special",
-   "judged": "2026-11-23"
+   "judged": "2026-11-24",
+   "published_as": "florianopolis/fln_003"
   },
   {
    "sighting_id": "65e2af45-3f00-48f9-9926-93dea3e166ab",
@@ -11037,11 +11037,11 @@
    ],
    "nearest_published_m": 0,
    "sent_for": "spl_003",
-   "status": "held",
-   "why": "A tall columnar Mediterranean cypress behind a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX': planted in 1930 on Marjan's path for Šimun Tudor, the Marjan Society's second president (https://drustvomarjan.hr/o-drustvu-marjan/kronologija-drustva, which notes the plaque wrongly says 'first'). Worth a page, but its coordinate is our pin for spl_003, not where it was taken, and the path is long: held until we know where on Marjanski put it stands. An app sighting, no submission row, so no hold_reply mail.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole tall column of the cypress above a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX', on a stepped path among pines, daylight, colour. Live as split/spl_006: Hidde overruled our hold on 2026-11-24 (this is sort of a special tree no?); published under the closed list for a reader's tree (2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\").",
    "seen": "2026-11-23",
-   "hold": "doubt_location",
-   "judged": "2026-11-23"
+   "judged": "2026-11-24",
+   "published_as": "split/spl_006"
   },
   {
    "sighting_id": "edc354c1-8f72-43fc-99b8-3b1921a03b2e",
