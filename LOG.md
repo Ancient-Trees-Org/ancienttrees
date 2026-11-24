@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: the repo moved to hidde-ancient-trees
+
+- **Live**: github.com/hidde-ancient-trees/ancienttrees (and ancienttrees-open). The old account (burgmanshidde-ancienttrees) signs in with the blocked Google account, so the repo, its secrets and every run hung on a login that could vanish. Transferred through the API with the old account's gh token (no sudo code was asked), accepted by Hidde on the new account. All 23 secrets, the Pages settings (cname ancienttrees.app) and the github-pages environment came along; hidde-ancient-trees is admin, the old account stays a write collaborator.
+- Owner name and commit identity switched in workflows and scripts; supabase/reader-judge-trigger.sql re-applied through the Management API with the new URL; Hidde put a new fine-grained token (contents write, this repo only) in the Vault as `github_dispatch_token`; a test dispatch from Supabase got 204. Claude GitHub app installed on the new account by Hidde. The Mac's gh and git push as hidde-ancient-trees.
+- **Also today**: two park titles over the 60-character cap had stopped every deploy since 09:13 (Barcelona from the night run's park intros, and Brooklyn); shortened.
+- Not moved: the org `ancienttrees` (old account the only owner, empty) and `SELF_DISPATCH_TOKEN` (an old-account token, inert while self-chaining is off).
+
 ## 2026-11-24 session: Joanna answered; Nathalie's mail attachment never used
 
 - Sent via Resend on Hidde's "joanna mag eruit": a short thanks to Joanna (Leamington ambassador) for the promised photos and for looking at the holm oak (drafts/reply-joanna-leamington-2026-11-24.md).
