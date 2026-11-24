@@ -12194,9 +12194,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-24"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole bare horse chestnut from across the Kinecroft green, its huge domed crown rising over the brick pub and spreading past both ends of it, temporary fencing along the front, overcast daylight, colour. Live as wallingford/wfd_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "wallingford/wfd_001"
   }
  ]
 }

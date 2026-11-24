@@ -1026,6 +1026,58 @@
    "agreed": null
   },
   {
+   "id": "sight:2f5cf480-f2c6-4497-809b-5f41110d0860",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Hackberry of the Certosa",
+   "photo": "p_9958e447be18d50bb8fd84bc/2F5CF480-F2C6-4497-809B-5F41110D0860.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: looking up a thick smooth grey ivy-wound trunk dividing low into several limbs, tall open crown turning yellow-green, daylight, colour. Live as venice/ven_012 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0b7fae72-a8fb-4712-be01-c4957f2cc664",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Horse Chestnut of the Coach and Horses",
+   "photo": "p_d20c07c3bb18c7bfeadb2ddc/0B7FAE72-A8FB-4712-BE01-C4957F2CC664.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole bare horse chestnut over the Coach and Horses pub from the Kinecroft green, daylight, colour. Live as wallingford/wfd_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0b7fae72-a8fb-4712-be01-c4957f2cc664",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Horse Chestnut near Oxford",
+   "city": null,
+   "species": "Horse Chestnut",
+   "photo": "p_d20c07c3bb18c7bfeadb2ddc/0B7FAE72-A8FB-4712-BE01-C4957F2CC664.jpg",
+   "reader_note": "It has grown immediately adjacent and to an extent from the ground of The Coach and Horses public house. Sadly it is due to be cut down in the immediate future hence the temporary fencing in the photo.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Horse Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole bare horse chestnut from across the Kinecroft green, its domed crown far over the Coach and Horses pub, fencing in front, daylight, colour. Wallingford Town Council (2022) names the tree. Live as wallingford/wfd_001 under the closed list; the reader says it is due to be felled soon, the page says so.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27992,18 +28044,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2f5cf480-f2c6-4497-809b-5f41110d0860",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Hackberry of the Certosa",
-   "photo": "p_9958e447be18d50bb8fd84bc/2F5CF480-F2C6-4497-809B-5F41110D0860.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: looking up a thick smooth grey ivy-wound trunk dividing low into several limbs, tall open crown turning yellow-green, daylight, colour. Live as venice/ven_012 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

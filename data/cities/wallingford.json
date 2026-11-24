@@ -1,0 +1,76 @@
+{
+  "city": "Wallingford",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Wallingford is a market town on the Thames in south Oxfordshire, still ringed on its west side by the grassy banks of a Saxon town wall. Inside them lies the Kinecroft, an open green, and at its edge a great horse chestnut towers over the Coach and Horses pub. A reader sent us its photograph and told us it is due to be felled soon.",
+  "meta_description": "The great horse chestnut over the Coach and Horses on Wallingford's Kinecroft, due to be felled: where it stands and what we know.",
+  "hero_tree_id": "wfd_001",
+  "oldest_tree_id": "wfd_001",
+  "trees": [
+    {
+      "id": "wfd_001",
+      "name": "The Horse Chestnut of the Coach and Horses",
+      "species": "Horse Chestnut (Aesculus hippocastanum)",
+      "age_estimate": "150 to 180 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Behind the Coach and Horses, Kinecroft, Wallingford, Oxfordshire",
+        "latitude": 51.599424,
+        "longitude": -1.128161,
+        "neighbourhood": "Kinecroft"
+      },
+      "story": "On the edge of the Kinecroft, the open green inside Wallingford's old Saxon earth walls, a horse chestnut has grown so close to the Coach and Horses that it seems to rise out of the pub itself. A reader sent us this photograph from the grass, and wrote that the tree \"has grown immediately adjacent and to an extent from the ground of The Coach and Horses public house.\"\n\nThe picture shows a tree far bigger than the building. A thick grey trunk stands right against the pub's back wall, and above the roof and chimney its crown opens into a huge dome of bare branches, wider than the whole frontage and twice its height. The reader puts it at 150 to 180 years old; that figure is theirs.\n\nIt may not be here for long. \"Sadly it is due to be cut down in the immediate future,\" the reader wrote, \"hence the temporary fencing in the photo.\" Wallingford Town Council called it a prominent tree of significant landscape value in 2022, while reporting that it was declining with a fungal disease and had structural defects that shorten its safe life.\n\nIf you want to see it, go soon, and stand on the Kinecroft where the reader stood. If it has already come down, tell us here and we will take it off the map.",
+      "how_to_recognise": "From the Kinecroft green: a huge domed horse chestnut rising straight up behind the low brick Coach and Horses pub, its crown far above the chimney and wider than the building.",
+      "verified_sources": [
+        "https://wallingfordtowncouncil.gov.uk/2022/04/tree-update-horse-chestnut-in-the-kinecroft-coach-and-horses-location (Wallingford Town Council, 2022: the horse chestnut at the Coach and Horses on the Kinecroft, a prominent tree of significant landscape value, reported to be declining with a fungal disease and with structural defects)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "0b7fae72-a8fb-4712-be01-c4957f2cc664",
+        "date": "2026-11-24"
+      },
+      "access": "Seen from the Kinecroft, a free public green. The pub garden around the trunk is fenced off for now.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "0b7fae72-a8fb-4712-be01-c4957f2cc664",
+        "date": "2026-11-24",
+        "note": "The reader photographed the tree from the green (photo GPS 51.59962, -1.12851) and moved the pin 32 m onto the tree while adding it (report 1000147); their placed spot is kept."
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (sighting 0b7fae72-a8fb-4712-be01-c4957f2cc664). Photograph viewed: the whole bare horse chestnut from across the Kinecroft green, its huge domed crown rising over the brick pub and spreading past both ends of it, temporary fencing along the front, overcast daylight, colour. Published under the closed list (Hidde, 2026-11-17). The reader's own figures: name 'Horse Chestnut near Oxford', species 'Horse Chestnut', age '150 - 180 years old'. Wallingford Town Council's 2022 tree update names this horse chestnut at the Coach and Horses on the Kinecroft and its decline; the felling date is the reader's. Re-check it stands.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wfd_001-horse-chestnut-of-the-coach-and-horses.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_d20c07c3bb18c7bfeadb2ddc",
+        "sighting_id": "0b7fae72-a8fb-4712-be01-c4957f2cc664",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole bare horse chestnut from across the Kinecroft green, its huge domed crown rising over the brick pub and spreading past both ends of it, temporary fencing along the front, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The great horse chestnut over the Coach and Horses on Wallingford's Kinecroft, due to be felled: where it stands and what we know.",
+  "question_answer": "The Horse Chestnut of the Coach and Horses stands against the back of the Coach and Horses pub on the Kinecroft, the open green in Wallingford, Oxfordshire. It is seen from the green, which is free and open.",
+  "question_context": "A reader who photographed this tree from the Kinecroft in Wallingford sent it to us with a warning: it is due to be cut down in the immediate future, which is why temporary fencing stands along the front of the pub. The tree is a horse chestnut that has grown right beside the Coach and Horses, and to an extent from its ground, in the reader's words. In the photograph its bare crown rises far above the brick building and its chimney and spreads past both ends of it, a dome of branches twice the height of the pub. The reader puts it at 150 to 180 years old; that figure is theirs. Wallingford Town Council wrote in 2022 that it is a prominent tree of significant landscape value, and that it was reported to be declining with a fungal disease and had structural defects shortening its safe life. The Kinecroft is an open green inside the town's old Saxon earth walls, and the best view of the tree is from the grass in front of the pub. Go soon if you want to see it standing.",
+  "faq": [
+    {
+      "q": "Where is the big horse chestnut in Wallingford?",
+      "a": "Against the back of the Coach and Horses pub, on the edge of the Kinecroft green inside the town's Saxon walls."
+    },
+    {
+      "q": "Can I visit The Horse Chestnut of the Coach and Horses?",
+      "a": "Yes, you see it from the Kinecroft, a free public green. The pub's garden is fenced off for now."
+    },
+    {
+      "q": "Is the Wallingford horse chestnut being cut down?",
+      "a": "A reader told us in November 2026 that it is due to be felled soon, and fencing was up around it. If it has gone, tell us and we will take it off the map."
+    }
+  ]
+}
