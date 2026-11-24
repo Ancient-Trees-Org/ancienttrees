@@ -1,6 +1,11 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-24": [
+      {"date": "2026-11-24", "kind": "session", "target": "reader judge: tsagarada/tsg_001", "tokens": 0, "trees": 1, "note": "session work, no agent: submission 1414 (main photo empty, three further photos) never reached a lead; Tsagarada plane live as a one-tree place; sightings_inbox fixed to read such rows"},
+      {"date": "2026-11-24", "kind": "verify", "target": "san-francisco", "tokens": 45000, "trees": 0, "note": "13th pass, register exhausted; Presidio and Golden Gate Park planted-forest angle found no individual specimen; claim released with --force, wall set; estimate"},
+      {"date": "2026-11-24", "kind": "write", "target": "page intros: 5 parks + Vietnam", "tokens": 140000, "trees": 0, "note": "page gaps: Flamingo Gardens, Wright Park, Bute Park, Jardin des Plantes, Bois de Boulogne, Vietnam country intro; no trees; estimate"}
+    ],
     "2026-11-22": [
       {"date": "2026-11-22", "kind": "session", "target": "reader judge: fontainebleau/fon_001", "tokens": 0, "trees": 1, "note": "session work, no agent: reader's giant sequoia in the Fontainebleau gardens live as a new place; Argyle Street ash frame already in the gallery"},
       {"date": "2026-11-22", "kind": "verify", "target": "leamington-spa", "tokens": 174000, "trees": 3, "note": "Jephson Gardens deepen from a reader-ambassador's links: Japanese oak, Caucasian oak, sweet gum from the council's tree records, pins read off the 2024 leaflet map; Tree of the Year holm oak found felled 2025; 4 leads, 1 blocked. Stories written in the session."},
