@@ -3717,11 +3717,13 @@ def check_park_descriptions_fit():
     the build, leaving no tree live for hours. Caught here it costs seconds.
     """
     out = []
-    # Parks only: the park page prints meta_description as written and the
-    # build throws over the cap. Country files carry longer ones the build
-    # never prints whole (eleven were over on 2026-11-24 with green builds),
-    # so checking them would refuse pushes for nothing.
-    for kind in ("parks",):
+    # Parks print meta_description as written. Countries print it with
+    # {trees}, {cities} and {places} filled in ([country].astro), and the build
+    # throws over the cap all the same: India at 160 failed the 11:32 build on
+    # 2026-11-24. Raw, the placeholders read longer than the numbers they
+    # become, which is why countries looked over and green at once; so they
+    # are measured filled, at a generous 999 trees and 99 places.
+    for kind in ("parks", "countries"):
         for p in sorted(glob.glob(os.path.join("data", kind, "*.json"))):
             try:
                 with open(p, encoding="utf-8") as fh:
@@ -3730,6 +3732,9 @@ def check_park_descriptions_fit():
                 continue
             name = "%s/%s" % (kind, os.path.basename(p)[:-5])
             v = d.get("meta_description") or ""
+            if kind == "countries":
+                v = (v.replace("{trees}", "999").replace("{cities}", "99")
+                     .replace("{places}", "99"))
             if len(v) > DESC_MAX:
                 out.append("%s: meta_description is %d chars, the limit is %d"
                            % (name, len(v), DESC_MAX))
