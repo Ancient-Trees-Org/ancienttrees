@@ -185,7 +185,22 @@
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1690648",
         "url": null
       },
-      "height_m": 38
+      "height_m": 38,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ams_003-the-vondelpark-poplar-720f86c7.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_3fb43f5e6eaea7434db9a7e8",
+          "sighting_id": "720f86c7-9f24-4969-83c4-6214a5ac80dd",
+          "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: A close-up of the base of the same massive trunk behind its iron railing, a hollow at the foot, fallen yellow poplar leaves on the path. Same reader who sent today's lead photograph; a bark close-up belongs behind the lead, in the strip. Species seen: deeply furrowed grey ridged bark of a very thick trunk, triangular poplar leaves yellowing on the ground: a hybrid black poplar. Fits the description: a very wide single trunk at the path edge behind a low railing among shrubs, 36 m from our pin, as the lead photo shows.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "ams_004",

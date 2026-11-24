@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 reader judge: a second view of the Vondelpark Poplar
+
+- **Amsterdam, The Vondelpark Poplar (ams_003)**: the reader whose photograph became this tree's lead earlier today sent another (sighting 720f86c7): a close-up of the base of the same huge furrowed trunk behind its iron railing, with a hollow at the foot and yellow poplar leaves on the path, 36 m from our pin. Species and setting match the entry. It went into the gallery behind their lead (`strip`). They already got the "it's live" mail for the lead today, so this photo waits in their weekly bundle (data/photo-live-mailed.json). The pins catch-up could not read coordinates (HTTPError), but the pin is confirmed, so nothing needed to move.
+- Left waiting: 38 leads in data/leads/_sightings.json that are `status: lead` with no `hold`. All of them are our own account's photographs (`mine`: Nara, Kyoto, Kyushu, Tokyo, Baarn, and 3c544597 in Amsterdam), and none of their files is on disk, so none was judged blind. They are not readers' trees.
+- No open reports, no feedback without a verdict, no tips unjudged, no reader words to quote. qa source checks, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-24 reader judge: the Kirkstall Abbey ginkgo has its first photograph
 
 - **Leeds, Kirkstall Abbey ginkgo (lds_003)**: a reader sent it from the app (sighting d229e334, taken November 2022): the whole tree in full gold on the lawn among the abbey ruins, leaves fallen in a ring. Species and setting match the entry; the tree had no photograph, so it is now the lead, filed under November. Pin moved 43 m from the Abbot's Lodging board to the reader's GPS fix (confirmed); the story's line "The pin is the Abbot's Lodging, not a fix at the trunk" was false after that and named how the pin was made, so it now reads only "No source gives a girth or a height." (no translations of Leeds). The live mail went with `--send`; the pins catch-up could not read coordinates (HTTPError), the move itself is in data.
