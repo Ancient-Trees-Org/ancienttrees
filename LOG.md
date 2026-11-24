@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: a reader's cedar live in Colchester
+
+- **Live: colchester/cls_002, The Cedar near Clingoe Hill** (sighting 9f5e1316, app). The photograph shows a big cedar on mown parkland whose trunk splits low into tiered, curving limbs, its lowest branches lying along the grass. The pin is the photograph's own GPS fix (confirmed), 199 m east of the Clingoe Hill oak (cls_001), sent by the reader who gave that oak its current lead photograph. The species is the reader's (Cedrus libani), which fits the habit; verify_notes says an Atlas cedar is possible. November photo month taken from the file. No register entry or encyclopaedia article nearby. Colchester now has two trees, so it gets a place page (PLACE_PAGE_MIN_TREES 2): the intro, meta, question_meta, question_context and FAQ are rewritten for two trees. Colchester has no translation overlay.
+- Verdicts are recorded (`lead:` and `sight:` 9f5e1316 publish), and the lead and sightings-processed are marked published.
+- No open report, no feedback without a verdict, no tip stub, and no reader's words waiting to be quoted.
+- Sighting 3c544597 (Amsterdam) is still our own account's `mine` photo and still not on disk, so it was left alone.
+
 ## 2026-11-24 reader judge: nothing new waiting
 
 - No reader photograph in the queue, no waiting reader lead, no open report, no tip without a verdict.

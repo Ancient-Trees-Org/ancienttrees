@@ -7475,6 +7475,11 @@
    "date": "2026-11-24",
    "tree_id": "wdc_016",
    "reason": "duplicate: the same four files as a104b938, sent again by the same reader"
+  },
+  "9f5e1316-edcc-411d-96b7-6009ed8872c1": {
+   "outcome": "published",
+   "date": "2026-11-24",
+   "tree_id": "cls_002"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

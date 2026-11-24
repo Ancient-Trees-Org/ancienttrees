@@ -2,6 +2,25 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:9f5e1316-edcc-411d-96b7-6009ed8872c1",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Cedar near Clingoe Hill",
+   "city": "Colchester",
+   "species": "Cedar of Lebanon",
+   "photo": "out/sightings/9f5e1316-edcc-411d-96b7-6009ed8872c1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": null,
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole cedar on mown parkland with its low skirt of branches, the reader's own frame, daylight and colour. Live as the lead photograph of colchester/cls_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -247,6 +266,31 @@
    "reader_note": "",
    "verdict": "publish",
    "reason": "Photograph viewed: two tall ginkgos before a Shanghai Jiao Tong University building with an inscribed stone; lead photo of sha_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:9f5e1316-edcc-411d-96b7-6009ed8872c1",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon",
+   "city": null,
+   "species": null,
+   "photo": "p_f0928aeb25ec62a35e302db8/9F5E1316-EDCC-411D-96B7-6009ED8872C1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "A big cedar of Lebanon on mown parkland, trunk splitting low into tiered curving limbs, lowest branches along the ground; photograph's own GPS fix, 199 m east of cls_001. Somewhat special and placeable: live as colchester/cls_002.",
    "hidde": null,
    "agreed": null
   },
