@@ -3275,6 +3275,21 @@
      "mailed": "2026-11-24"
     }
    ]
+  },
+  "p_74d82d85405fc11a9307f26e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "e5c72d4f-5cb4-4055-9a5f-f1b66454d474",
+     "tree_id": "crt_002",
+     "tree_name": "The Olive Tree of Azoria (Kavousi)",
+     "city": "Crete",
+     "city_slug": "crete",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

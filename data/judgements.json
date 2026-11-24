@@ -1196,6 +1196,28 @@
    "agreed": null
   },
   {
+   "id": "sight:e5c72d4f-5cb4-4055-9a5f-f1b66454d474",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Olive Tree of Azoria (Kavousi)",
+   "city": "Crete",
+   "species": "Olive (Olea europaea)",
+   "photo": "out/sightings/e5c72d4f-5cb4-4055-9a5f-f1b66454d474.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 55,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Olive (Olea europaea)"
+   },
+   "verdict": "publish",
+   "reason": "The Kavousi olive itself in daylight, its whole fluted base behind the site's rail; the reader's own July photograph leads the page now, the Commons picture moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",

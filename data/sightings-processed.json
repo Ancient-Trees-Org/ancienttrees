@@ -7660,6 +7660,17 @@
    "date": "2026-11-24",
    "tree_id": "pal_001",
    "reason": "Duplicate: the same file as d9c64779 from the same reader, sent twice; that copy goes on the page."
+  },
+  "e5c72d4f-5cb4-4055-9a5f-f1b66454d474": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "crt_002",
+   "city_slug": "crete",
+   "file": "crt_002-the-olive-tree-of-azoria-kavousi-e5c72d4f.jpg",
+   "reason": "The Kavousi olive itself, whole base in frame behind the wooden rail: a massive many-stemmed fluted trunk with buttress roots spread over the gravel, olive crown above, bench and fencing of the signposted site around it. Daylight, colour, the reader's own July photograph 55 m from our pin; it become",
+   "lat": 35.1151721666667,
+   "lon": 25.86063,
+   "pin_checked": "2026-11-24"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

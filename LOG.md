@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 reader judge: a reader's photograph now leads the Kavousi olive on Crete
+
+- **Crete, crt_002 The Olive Tree of Azoria (Kavousi)** (app, sighting e5c72d4f, taken 2026-07-23, 55 m from our pin). The photo was opened. It shows the whole base of the olive behind the site's wooden rail in daylight and colour: a huge fluted, many-stemmed trunk with buttress roots spread over the gravel, and a bench beside it. The species and description match. It went on as `add`, so the reader's photo is now the lead (1200x1600, filed as July, its own month), and the Commons picture moves into the strip. The reader was mailed. The pin was left as it is: it is confirmed, and the pin step could not read coordinates (HTTPError).
+- Left alone again: 3c544597 (our own account, no photo on disk). There were no open reports, feedback or tips, reader_words had nothing to place, and the backlog is empty. qa source clean, preflight 0, i18ncheck clean.
+
 ## 2026-11-24 session: Girona answer sent, Astro update merged
 
 - **Girona, feedback 1603**: Jakob's question about the ambassador role was answered on Hidde's line ("for people who enjoy helping, don't think about it too heavily, completely fine if it's not your thing"), sent through contributor_reply.py on his "stuur girona". He asked to keep it as the standard answer: drafts/HIS_VOICE.md 2026-11-24. No badge until Jakob says yes.

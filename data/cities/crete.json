@@ -103,13 +103,17 @@
       "access": "Free, publicly signposted ('Old Olive Tree' / palia elia signs from the east entrance of Kavousi). It stands beside a public road next to the Azoria archaeological site, and no permission is needed.",
       "transport": "No public transport. A car is the realistic way: about 1 km south of Kavousi village, roughly 20 minutes from Ierapetra and about an hour from Agios Nikolaos.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Monumental_Olive_tree_near_Kavousi_%28Crete%29_01.jpg",
-        "license": "CC BY 4.0",
-        "attribution": "Unukorno, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/crt_002-the-olive-tree-of-azoria-kavousi-e5c72d4f.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3018,
-        "height": 2264,
-        "taken_month": 5
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 7,
+        "source": "contributor",
+        "contributor_user_id": "p_74d82d85405fc11a9307f26e",
+        "sighting_id": "e5c72d4f-5cb4-4055-9a5f-f1b66454d474",
+        "note": "Photographed by a reader and sent through the app (2026-07-23); a viewing pass approved it on 2026-11-24: The Kavousi olive itself, whole base in frame behind the wooden rail: a massive many-stemmed fluted trunk with buttress roots spread over the gravel, olive crown above, bench and fencing of the signposted site around it. Daylight, colour, the reader's own July photograph 55 m from our pin; it becomes the lead and the Commons picture moves to the strip. Species seen: narrow grey-green willow-like leaves, pale twisting branches, deeply fluted grey olive bark. Fits the description: an enormous gnarled olive base many metres round, fenced and gravelled with a bench, as at the signposted Azoria site.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -131,7 +135,18 @@
         "qid": "Q105501045",
         "views": 2
       },
-      "height_m": 9
+      "height_m": 9,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Monumental_Olive_tree_near_Kavousi_%28Crete%29_01.jpg",
+          "license": "CC BY 4.0",
+          "attribution": "Unukorno, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3018,
+          "height": 2264,
+          "taken_month": 5
+        }
+      ]
     },
     {
       "id": "crt_003",
