@@ -1,0 +1,74 @@
+{
+  "city": "Toblach",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Toblach, Dobbiaco in Italian, is a village in the Puster valley of South Tyrol, where the road south to Cortina turns into the Dolomites. South of the village a valley of spruce and larch runs between high limestone walls, and on a gravel path through it a reader stopped under a larch so tall it rises far above the forest. They sent us its photograph in autumn, the crown gone gold against a blue sky.",
+  "meta_description": "A very tall European larch beside a forest path south of Toblach in the Dolomites, sent by a reader: what it looks like and how to find it.",
+  "hero_tree_id": "tbl_001",
+  "oldest_tree_id": "tbl_001",
+  "trees": [
+    {
+      "id": "tbl_001",
+      "name": "The Tall Larch of the Landro Valley",
+      "species": "European Larch (Larix decidua)",
+      "age_estimate": "70 to 100 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Forest path in the valley south of Toblach (Dobbiaco), South Tyrol",
+        "latitude": 46.6954269606676,
+        "longitude": 12.2157413562477,
+        "neighbourhood": "Landro valley"
+      },
+      "story": "\"Look at the photo… it's very very very tall!\" wrote the reader who sent us this larch from the valley south of Toblach, in the Dolomites of South Tyrol.\n\nThey are right, and the photograph is taken to prove it. A gravel path runs into the forest under a wall of mountain, four walkers on it, and beside them a European larch climbs on a bare, straight trunk far past the spruces around it. Most of its height is clean pole; only near the top does it open into a narrow crown, and in the reader's picture that crown has turned the deep gold larches take in autumn, lit against a blue sky while the forest below is still in shade.\n\nThe larch is the one conifer of the Alps that drops its needles every winter, which is why the slopes behind it are speckled with the same orange in November. Few of them stand out like this one.\n\nThe reader puts it at 70 to 100 years old and its trunk at about 170 centimetres round. Those figures are theirs; we have not seen a measurement or a record of this tree. Our pin marks the stretch of path, not the trunk itself, so look for the tallest gold crown beside it. If you know this tree, tell us here.\n\nCome in late October or early November, when the needles turn.",
+      "how_to_recognise": "Beside a gravel path through spruce forest: one larch on a bare, straight trunk standing far taller than every tree around it, its narrow crown gold in autumn.",
+      "access": "Free. It stands beside a public gravel path through the forest, where the reader walked.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (0ba26d05-e4e9-4a8d-90aa-dc21290bf57e), pin placed by hand in the valley south of Toblach. Photograph viewed: a single very tall larch beside a gravel forest path, a bare straight trunk rising far above the spruces, its narrow crown gold in autumn against a blue sky, four walkers on the path below, a mountain behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17) and the not_special rule (Hidde, 2026-11-24: a column above the pines is special). No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). The reader's own figures: name 'European Larch', species 'European Larch', age '70-100', girth 170 cm, note 'Look at the photo… it’s very very very tall!'. Every figure on the page is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tbl_001-tall-larch-of-the-landro-valley.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1067,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ba9c39f8f83aa18649d4019f",
+        "sighting_id": "0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: a single very tall larch beside a gravel forest path, a bare straight trunk rising far above the spruces, its narrow crown gold in autumn against a blue sky, four walkers on the path below, a mountain behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A very tall European larch beside a forest path south of Toblach in the Dolomites, sent by a reader: what it looks like and how to find it.",
+  "question_answer": "The Tall Larch of the Landro Valley stands beside a gravel forest path in the valley south of Toblach, in the Dolomites of South Tyrol. It is free to see from the path.",
+  "question_context": "A reader who walked the forest south of Toblach, Dobbiaco in Italian, in the Dolomites of South Tyrol, sent us this larch with a note that it is very, very tall. The photograph bears them out. A gravel path runs into spruce forest under a mountain wall, four walkers on it, and beside them a European larch climbs on a bare, straight trunk far past every tree around it. Most of its height is clean pole; only near the top does it open into a narrow crown, which in the reader's picture had turned the deep gold larches take in autumn. The larch is the one conifer of the Alps that drops its needles every winter, so the slopes behind it carry the same orange in November, but few larches stand out like this one. The reader puts it at 70 to 100 years old and its trunk at about 170 centimetres round; those figures are theirs, not a measurement we have seen. Our pin marks the stretch of path rather than the trunk, so look for the tallest gold crown beside it.",
+  "faq": [
+    {
+      "q": "Can I visit The Tall Larch of the Landro Valley?",
+      "a": "Yes. It stands beside a public gravel path through the forest south of Toblach, free to walk."
+    },
+    {
+      "q": "How do I recognise it?",
+      "a": "Look for one larch on a bare, straight trunk standing far taller than the spruces around it, its narrow crown gold in autumn."
+    },
+    {
+      "q": "When is the best time to see it?",
+      "a": "Late October and early November, when its needles turn gold before they fall."
+    }
+  ]
+}

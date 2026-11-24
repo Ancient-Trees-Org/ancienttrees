@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-24 reader judge: a tall golden larch in the Dolomites, a first photo for the Madison tupelo
+
+- **New place, Toblach (Dobbiaco), South Tyrol:** a reader's very tall European larch beside a forest path south of the village. Its golden crown rises far above the spruces, a column above the pines. Live as toblach/tbl_001. The reader placed the pin by hand, so it is approximate and the story says it marks the stretch of path. Their age (70 to 100) and girth (170 cm) are stated as theirs. Photo filed in November, from the photograph's own date. (`tob` belongs to Toba, so the id is `tbl`.)
+- **Madison, the Carolyn Black Tupelo (msn_001):** its first photograph, a reader's bare winter silhouette at dusk with the Visitor Center behind. The reader's location was 2 km from our pin, so the pin stayed where it was.
+- Left alone: sighting 3c544597 (Amsterdam, unsure among ams_032). It is from our own account and its file is not on disk.
+- No open reports, no open feedback. reader_words: nothing new to quote.
+
 ## 2026-11-24 night window, second attempt: checked, shipped nothing
 
 - No claims stood. 4 READY leads (leamington-spa 2, york 1, guimaraes 1) plus 1 Taiwan entry is under the six-candidate floor for a write pass; the "awaiting a writer" list is mostly stale research files.

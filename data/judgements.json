@@ -1373,6 +1373,80 @@
    "agreed": null
   },
   {
+   "id": "sight:fd7d9144-7117-4787-95fa-41774c530290",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Carolyn Black Tupelo",
+   "city": "Madison",
+   "species": "Black Tupelo (Nyssa sylvatica)",
+   "photo": "out/sightings/fd7d9144-7117-4787-95fa-41774c530290.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 2056,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Tupelo (Nyssa sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "Bare black tupelo in winter silhouette at dusk, tiered horizontal limbs on one straight leader, the low Visitor Center building and prairie behind; the tree had no photograph, now its lead. The reader's location was 2 km off our pin, so the pin was not moved.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Larch of the Landro Valley",
+   "city": "Toblach",
+   "species": "European Larch",
+   "photo": "out/sightings/0ba26d05-e4e9-4a8d-90aa-dc21290bf57e.jpg",
+   "reader_note": "Look at the photo… it’s very very very tall!",
+   "reader_girth_cm": 170,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Larch"
+   },
+   "verdict": "publish",
+   "reason": "The reader's photograph, viewed, is the lead of toblach/tbl_001: a very tall larch rising far above the spruces beside a forest path, crown gold in autumn, daylight, colour.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "European Larch",
+   "city": null,
+   "species": "European Larch",
+   "photo": "p_ba9c39f8f83aa18649d4019f/0BA26D05-E4E9-4A8D-90AA-DC21290BF57E.jpg",
+   "reader_note": "Look at the photo… it’s very very very tall!",
+   "reader_girth_cm": 170,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Larch"
+   },
+   "verdict": "publish",
+   "reason": "A very tall larch on a bare straight trunk rising far above the spruces beside a forest path south of Toblach, its crown gold in autumn: a column above the pines. Live as toblach/tbl_001 with the reader's hand-placed pin, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",

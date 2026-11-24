@@ -1,42 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-24",
- "queue": [
-  {
-   "sighting_id": "fd7d9144-7117-4787-95fa-41774c530290",
-   "user_id": "p_aad7d9ef9052b9ddb73256d9",
-   "tree_id": "msn_001",
-   "city_slug": "madison",
-   "city": "Madison",
-   "tree_name": "The Carolyn Black Tupelo",
-   "match": "app",
-   "distance_m": 2056,
-   "mine": false,
-   "current_photo": "none",
-   "current_source": null,
-   "tree_species": "Black Tupelo (Nyssa sylvatica)",
-   "recognise": "You can recognise it by its deep maroon autumn colour, on a tree 11.9 metres tall. It stands at the Visitor Center's north-west corner, just east of the gate between the north and south parking lots.",
-   "tree_girth_cm": 161,
-   "tree_height_m": 11.9,
-   "story": "This tree cost forty cents. The University of Wisconsin Arboretum bought it as a seedling in 1956, grew it on in the nursery for five years, and on 3 October 1961 moved it to the corner of the ground where the Visitor Center now stands. It has not moved since.\n\nBlack tupelo barely belongs in Wisconsin. In the wild it grows in a single county, Kenosha, in the state's south-east corner. This planted one has done well enough to become the champion of its species in the Wisconsin DNR register, at 1.61 metres round, 11.9 metres tall, with a crown about 13.5 metres across. It is one of two state champions in the Arboretum's Longenecker Horticultural Gardens.\n\nThe Arboretum later named the selectio",
-   "name": "The Carolyn Black Tupelo",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-24",
-   "photo_path": "p_aad7d9ef9052b9ddb73256d9/FD7D9144-7117-4787-95FA-41774C530290.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [],
-   "latitude": 43.0508157,
-   "longitude": -89.4525012,
-   "file": "out/sightings/fd7d9144-7117-4787-95fa-41774c530290.jpg",
-   "light": null,
-   "vouched": null,
-   "rank": 0,
-   "worth": "closes a gap: this tree has no photograph at all"
-  }
- ]
+ "queue": []
 }

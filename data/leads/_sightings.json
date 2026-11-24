@@ -12314,6 +12314,39 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "mirano/mir_001"
+  },
+  {
+   "sighting_id": "0ba26d05-e4e9-4a8d-90aa-dc21290bf57e",
+   "user_id": "p_ba9c39f8f83aa18649d4019f",
+   "mine": false,
+   "name": "European Larch",
+   "unsure_among": null,
+   "species": "European Larch",
+   "age": "70-100",
+   "girth_cm": 170,
+   "girth_hugs": null,
+   "note": "Look at the photo… it’s very very very tall!",
+   "latitude": 46.6954269606676,
+   "longitude": 12.2157413562477,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_ba9c39f8f83aa18649d4019f/0BA26D05-E4E9-4A8D-90AA-DC21290BF57E.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: a single very tall larch beside a gravel forest path, a bare straight trunk rising far above the spruces, its narrow crown gold in autumn against a blue sky, four walkers on the path below, a mountain behind, daylight, colour. Live as toblach/tbl_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "toblach/tbl_001"
   }
  ]
 }
