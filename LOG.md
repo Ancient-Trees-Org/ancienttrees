@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 night window (22:47 UTC): checked, shipped nothing
+
+- Rung 1: the reader judge owns the waiting photographs (the Carolyn Black Tupelo, msn_001; one unmapped sighting whose file is not on disk), so I left them.
+- Rung 2: health.py red on iOS app only. Its newest runs failed with "job was not acquired by runner of type hosted" (macOS capacity), not an app fault, so no fix. Web errors orange: two new types, one page each, below the red threshold.
+- Own research is paused, so no verify pass. 4 READY leads wait for a writer. Nothing was committed.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
