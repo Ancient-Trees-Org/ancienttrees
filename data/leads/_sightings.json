@@ -12269,6 +12269,49 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "castle-howard/cah_002"
+  },
+  {
+   "sighting_id": "f976cbc6-e809-4da0-98ac-5367e26dc9be",
+   "user_id": "p_f60ddafc587ad9f79b118aa6",
+   "mine": false,
+   "name": "Magnolia di Villa Belvedere",
+   "unsure_among": null,
+   "species": "Southern Magnolia",
+   "age": "155",
+   "girth_cm": 378,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 45.4954670033482,
+   "longitude": 12.1115580655772,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 10,
+   "photo": "p_f60ddafc587ad9f79b118aa6/F976CBC6-E809-4DA0-98AC-5367E26DC9BE.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 15 m away (italy-masaf, Magnolia): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 45.495594,
+      "lng": 12.111606,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Magnolia",
+      "species": "Magnolia grandiflora L.",
+      "girth_cm": 378.0,
+      "height_m": 20.5,
+      "distance_m": 14.6
+     }
+    ]
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-24"
   }
  ]
 }
