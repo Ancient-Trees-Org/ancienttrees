@@ -3709,6 +3709,27 @@ def check_no_orphan_photos():
     return out
 
 
+def check_park_descriptions_fit():
+    """A park's meta_description fits DESC_MAX, the cap the Astro build enforces.
+
+    Twice on 2026-11-24 (Cambridge Botanic Garden at 164, the Douglas E. Dayton
+    Arboretum at 161) a park description over 155 passed the push and failed
+    the build, leaving no tree live for hours. Caught here it costs seconds.
+    """
+    out = []
+    for p in sorted(glob.glob(os.path.join("data", "parks", "*.json"))):
+        try:
+            with open(p, encoding="utf-8") as fh:
+                d = json.load(fh)
+        except (OSError, ValueError):
+            continue
+        v = d.get("meta_description") or ""
+        if len(v) > DESC_MAX:
+            out.append("%s: meta_description is %d chars, the limit is %d"
+                       % (os.path.basename(p)[:-5], len(v), DESC_MAX))
+    return out
+
+
 def check_park_words_match():
     """The park keyword list says the same thing in Python and in TypeScript.
 
@@ -4031,6 +4052,7 @@ def main():
                 + check_register_says_the_tree_is_gone()
                 + check_no_published_tree_is_a_redirect()
                 + check_park_words_match()
+                + check_park_descriptions_fit()
                 + check_park_count_promises()
                 + check_no_orphan_photos()
                 + check_a_vendored_copy_is_the_same_picture()
