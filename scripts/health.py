@@ -753,6 +753,20 @@ def main():
                   f"checked {(mh.get('last_ok_at') or '?')[:16]}, "
                   f"last sent {(mh.get('last_sent_at') or 'never')[:16]}")
 
+    # IS MAIL STILL REACHING US (Hidde, 2026-11-24, the day after Google
+    # disabled the Gmail and mail to @ancienttrees.app bounced for hours in
+    # silence). The reader judge's own mailbox login records it.
+    try:
+        import inbox_health
+        ok, line = inbox_health.assess()
+        print(f"  {'Incoming mail':20s} {('ok' if ok else 'FAILING' if ok is False else '?'):10s} {line}")
+        if ok is False:
+            problems.append("Incoming mail: " + line)
+        elif ok is None:
+            unknown.append("incoming mail (no check recorded yet)")
+    except Exception as e:
+        unknown.append(f"incoming mail ({e.__class__.__name__})")
+
     # THE APP CRASHING ON READERS' PHONES (2026-10-16). MetricKit posts every
     # crash to the `diagnostics` table, and for three days one reader's 1.0.2
     # crashed 37 times there while nothing read it; he had to mail. A signature

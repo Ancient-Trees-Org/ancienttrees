@@ -78,11 +78,14 @@ jobs:
           OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
         run: |
           python3 scripts/private_store.py pull
-          python3 scripts/reader_mail_replies.py --file
-          if ! git diff --quiet -- data/mail-replies-seen.json || [ -n "$(git status --porcelain -- data/mail-replies-seen.json)" ]; then
+          # Not stopped by a failed login: the same call records it in
+          # data/inbox-health.json (scripts/inbox_health.py), which health.py
+          # turns red, so it must still be committed below.
+          python3 scripts/reader_mail_replies.py --file || true
+          if [ -n "$(git status --porcelain -- data/mail-replies-seen.json data/inbox-health.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/mail-replies-seen.json
+            git add data/mail-replies-seen.json data/inbox-health.json
             git commit -q -m "reader judge: readers' mail replies filed"
             git pull -q --rebase --autostash origin main && git push -q || true
           fi
