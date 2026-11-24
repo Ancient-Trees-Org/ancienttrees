@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-24 session: new Play app created, build 6 sent for Google's review
+
+- **The new app exists**: "Ancient Trees: Old Tree Map", `app.ancienttrees.map`, app id 4975394642791101357 under developer account 6289749847935270102. Hidde's ID and phone are verified.
+- **Filled in from drafts/play-console-forms.md and play-store-listing.md**: privacy policy, app access, ads, content rating, target audience (16+), data safety (9 types, collected, none shared), advertising ID, government, finance, health, category (Travel & Local) and contact (info@, https://ancienttrees.app). The listing went in with icon, feature graphic and the 4 phone screenshots, in en-GB plus 8 translations.
+- **Closed test "Alpha"**: available in all 178 countries. Testers are the email list "Android testers": 772 of the 778 wave 3 addresses, after Play refused 6. Feedback goes to info@. The release is 6 (0.1.0), notes "First test of Ancient Trees on Android." Hidde dragged the .aab in himself, because the browser tool's upload limit is 10 MB. All 23 changes were sent for review on 2026-11-24; Google says up to 7 days.
+- **assetlinks.json**: the new app signing key 00:A4:FA:…:BF:80 has been added for `app.ancienttrees.map`.
+- **Still open**: once Google approves, the opt-in link is on the Testers tab. Then rewrite the wave 3 batch with that link and show Hidde the text. No mail goes out without his yes. Old testers stay untouched. Play warns about missing native debug symbols, which is known (see android/app/build.gradle.kts).
+
 ## 2026-11-24 reader judge: a reader's photograph now leads the Kavousi olive on Crete
 
 - **Crete, crt_002 The Olive Tree of Azoria (Kavousi)** (app, sighting e5c72d4f, taken 2026-07-23, 55 m from our pin). The photo was opened. It shows the whole base of the olive behind the site's wooden rail in daylight and colour: a huge fluted, many-stemmed trunk with buttress roots spread over the gravel, and a bench beside it. The species and description match. It went on as `add`, so the reader's photo is now the lead (1200x1600, filed as July, its own month), and the Commons picture moves into the strip. The reader was mailed. The pin was left as it is: it is confirmed, and the pin step could not read coordinates (HTTPError).
