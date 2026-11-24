@@ -21,7 +21,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-PROPERTY = "558526877"
+PROPERTY = "565667139"  # under hidde@ancienttrees.app since 2026-11-24; the old 558526877 sat on the disabled Gmail
 API = "https://analyticsdata.googleapis.com/v1beta/properties/%s:runReport" % PROPERTY
 
 

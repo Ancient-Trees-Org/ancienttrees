@@ -92,8 +92,10 @@ export const APPLE_JS_RETURN = "https://ancienttrees.app/";
 // Google Analytics 4, chosen by Hidde 2026-10-12 over PostHog on the web
 // ("id rather use google analytics im used to it"). Loaded only after the
 // visitor presses Accept on the cookie bar (components/ConsentBar.astro);
-// empty means no bar and no tag anywhere.
-export const GA_MEASUREMENT_ID = "G-2GNH06K02G";
+// empty means no bar and no tag anywhere. New property under
+// hidde@ancienttrees.app since 2026-11-24 (the old G-2GNH06K02G sat on the
+// disabled Gmail; its history stays there).
+export const GA_MEASUREMENT_ID = "G-QQ8TM0E6KY";
 
 // The project identity, never the owner's name (Hidde, 2026-08-01).
 // build_site.py:847.
