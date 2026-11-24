@@ -1066,6 +1066,15 @@
       "Castiellammare 'e Stabbia",
       "Kastellammare di Stabiya"
     ],
+    "castle-howard": [
+      "Château Howard",
+      "Castillo de Howard",
+      "Castell de Howard",
+      "Howard",
+      "Grad Howard",
+      "Howard Kalesi",
+      "Howard gaztelua"
+    ],
     "castlepollard": [
       "Baile na gCros"
     ],
@@ -5903,6 +5912,7 @@
     "cassano-dadda": "Cassano d'Adda",
     "castelbuono": "Castelbuono",
     "castellammare-di-stabia": "Castellammare di Stabia",
+    "castle-howard": "Castle Howard",
     "castlemaine": "Castlemaine, Victoria",
     "castlemorton": "Castlemorton",
     "castlepollard": "Castlepollard",
@@ -7122,6 +7132,7 @@
     "visnova": "no article within 40 km, tried Višňová (Višňová, no coordinates, disambiguation page); Višňová, Czech Republic; search: List of municipalities in the Czech Republic; search: List of German names for places in the Czech Republic; search: Liberec-Jablonec agglomeration",
     "volkenroda": "no article within 40 km, tried Volkenroda; Volkenroda, Germany; search: Loccum; search: Pilgrims' way; search: Kamp Abbey",
     "vytogala": "no article for the village; the lookup matched Silale District Municipality, a different place 9 km away, so its names are not this place's names",
+    "wallingford": "no article within 40 km, tried Wallingford (Wallingford, no coordinates, disambiguation page); Wallingford, United Kingdom; search: Wallingford; search: New York City; search: Wallingford (constituency)",
     "weeaproinah": "no article within 40 km, tried Weeaproinah; Weeaproinah, Australia; search: Great Otway National Park (Great Otway National Park, title does not match); search: List of localities in Victoria; search: Shire of Colac Otway (Shire of Colac Otway, title does not match)",
     "wells": "no article within 40 km, tried Wells (Wells, no coordinates, disambiguation page); Wells, United Kingdom; search: List of cities in the United Kingdom; search: City status in the United Kingdom; search: London",
     "weywertz": "no article within 40 km, tried Weywertz; Weywertz, Belgium; search: Luc Eymael; search: 2018–19 Belgian Cup; search: 2017–18 Belgian Cup",
