@@ -1,5 +1,51 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-24",
- "queue": []
+ "queue": [
+  {
+   "sighting_id": "2414d848-fae0-4cc8-accc-c4ef3f60bd3e",
+   "user_id": "p_3bb2d9b77f839015a3f92de9",
+   "tree_id": "wtn_003",
+   "city_slug": "willistown",
+   "city": "Willistown",
+   "tree_name": "The White Oak on Grubb Road",
+   "match": "app",
+   "distance_m": 0,
+   "mine": false,
+   "current_photo": "approved",
+   "current_source": "contributor",
+   "tree_species": "White Oak (Quercus alba)",
+   "recognise": "On a sloping bank beside Grubb Road: a grey, furrowed oak trunk with an old rust-red sign on it, its roots gripping the slope, a split-rail fence behind it, and one long limb reaching out level over the field.",
+   "tree_girth_cm": null,
+   "tree_height_m": null,
+   "story": "\"This splendid white oak hugs the inclined bank on the side of the road on the edge of split rail fenced meadow,\" wrote the reader who sent it to us from Grubb Road in Willistown Township, Chester County. It is the third big tree they have found for us here, half a kilometre from their sycamore at the Crum Creek bridge.\n\nTheir photograph, taken on a bright August day with their bicycle on its kickstand by the fence, looks up from the foot of the bank. The trunk is grey and deeply furrowed, flaring at the base where its roots grip the slope, and a few metres up it splits into great crooked limbs. One of them runs out almost level over the meadow behind the rails before turning up into a high,",
+   "name": "The White Oak on Grubb Road",
+   "species": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "taken_at": "2026-11-23",
+   "photo_path": "p_3bb2d9b77f839015a3f92de9/2414D848-FAE0-4CC8-ACCC-C4EF3F60BD3E.jpg",
+   "age": null,
+   "sign_path": null,
+   "sign_file": null,
+   "extra_files": [],
+   "latitude": 40.0171348739827,
+   "longitude": -75.480192641231,
+   "file": "out/sightings/2414d848-fae0-4cc8-accc-c4ef3f60bd3e.jpg",
+   "light": {
+    "verdict": "OK: daylight, colour, subject separated",
+    "brightness": 75.4,
+    "contrast": 44.3,
+    "colour": 0.29,
+    "blown": 0.0,
+    "dark": 0.0,
+    "subject": 75.4,
+    "subject_colour": 0.29
+   },
+   "vouched": null,
+   "rank": 1,
+   "worth": "the tree already has one: ship this only if it is better"
+  }
+ ]
 }
