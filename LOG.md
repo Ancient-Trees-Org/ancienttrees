@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: sponsor button back on About
+
+- Live after the next deploy: /about has a "Sponsor this project" button under Hidde's signature, straight to ko-fi.com/ancienttrees (event `about-sponsor`), after the first Ko-fi sponsor came in. It sat there on 2026-10-14 and went in that afternoon's rewrite. Looked at on the live page with the button injected, 375px and desktop. Footer and /sponsor unchanged; the app stays without it (Apple 3.1.1).
+
 ## 2026-11-24 session: inbox read, three replies drafted, Joey's oak fixed
 
 - Live: willistown/wtn_003 (White Oak on Grubb Road) leads with the reader's unaltered photo showing the old No Trespassing sign on the trunk, at their request by mail; the story's bicycle now stands on its kickstand; the recognition line names the sign. The reader judge had rejected that photo as a duplicate.

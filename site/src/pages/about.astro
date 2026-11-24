@@ -30,6 +30,7 @@ import Base from "../layouts/Base.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../lib/schema";
 import { submitLink } from "../lib/tree-copy";
+import { SPONSOR_URL } from "../lib/site-config";
 
 const canonical = `${BASE_URL}/about`;
 const GUARDIAN_URL = "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-";
@@ -85,6 +86,12 @@ const graph = [
     <p>If you really want to help, you can <a href="/cities">become a city ambassador</a> and help guide others to see the most remarkable trees in your city.</p>
     <p>The photo is me under a Japanese cedar we found recently, on a trip while we were testing the app. I work on the app every day to make it better. For questions, feedback or anything else, mail me at <a href="mailto:info@ancienttrees.app">info@ancienttrees.app</a>.</p>
     <p class="about-sign">Thanks,<br>Hidde</p>
+    {/* The sponsor button is back under his signature (Hidde, 2026-11-24,
+        after the first Ko-fi sponsor: "mss wel de sponsor knop aan de about
+        pagina toevoegen?"). It sat here on 2026-10-14 and went in that
+        afternoon's rewrite. Straight to Ko-fi, one click fewer than /sponsor,
+        where a reader has just met the person they would support. */}
+    {SPONSOR_URL ? <p class="about-sponsor"><a class="go-btn" href={SPONSOR_URL} rel="noopener" data-ev="about-sponsor">Sponsor this project</a></p> : null}
     <div class="about-where">
       <h2>Where the trees come from</h2>
       <p>Most trees come from official registers of protected and monumental trees, the rest from tree societies, local newspapers and readers. The stories are written with AI, and readers who know the trees correct them. All sources are on the <a href="/sources">sources page</a>.</p>
@@ -105,6 +112,7 @@ const graph = [
   .about-words .about-sign { color: var(--ink); font-weight: 500; }
   .about-words p { font-size: 17px; line-height: 1.75; color: var(--ink-mid); font-weight: 300; margin: 0 0 1.1rem; }
   .about-mark { color: var(--ink); font-weight: 500; }
+  .about-words .about-sponsor { margin: 1.5rem 0 0; }
   .about-press { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line, rgba(0, 0, 0, .08)); }
   .about-press-label { font-size: 12px; line-height: 1; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-mid); font-weight: 500; margin: 0 0 12px; }
   .about-press-logos { display: flex; align-items: flex-start; gap: 32px; }
