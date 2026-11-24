@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: a second photograph and the reader's figures for the Colchester cedar
+
+- **colchester/cls_002, The Cedar near Clingoe Hill: a new lead photograph** (sighting c3ef540c, app). It comes from the same reader, 3 m from our pin, a step back from their first frame, and shows the whole crown with the sky above it, the low skirt of branches and the paved path. It is a better lead than the first, which cut off the top. Sent with `add` through sightings_publish.py, so the first photograph moved into the strip. The light score is WEAK, but it is a reader's photo in daylight and colour, so it ships. The second picture (needles and upright cones) confirms a true cedar.
+- **The reader's figures are on the page as theirs**: a girth of about 555 cm and an age of about 155 years. The story's sentence "we have no girth or age" now carries them, and `age_estimate` reads "about 155 years, by a reader's estimate". Preflight caught a colon reveal in my first wording, and it was rewritten. Colchester has no overlay.
+- `tip:1573` is the app's row for the cedar (sighting 9f5e1316), which is already live, so the verdict is publish with nothing to add.
+- **Left for the next run**: lead 3c544597 (Amsterdam, 52.3972,4.8739, "not sure which tree") has no photograph on this runner, so it was not judged blind. The older waiting leads in _sightings.json (Japan and Baarn, mostly from our own accounts) have no files on disk either.
+- No open report, no feedback without a verdict, and no reader's words waiting to be quoted.
+
 ## 2026-11-24 reader judge: a reader's cedar live in Colchester
 
 - **Live: colchester/cls_002, The Cedar near Clingoe Hill** (sighting 9f5e1316, app). The photograph shows a big cedar on mown parkland whose trunk splits low into tiered, curving limbs, its lowest branches lying along the grass. The pin is the photograph's own GPS fix (confirmed), 199 m east of the Clingoe Hill oak (cls_001), sent by the reader who gave that oak its current lead photograph. The species is the reader's (Cedrus libani), which fits the habit; verify_notes says an Atlas cedar is possible. November photo month taken from the file. No register entry or encyclopaedia article nearby. Colchester now has two trees, so it gets a place page (PLACE_PAGE_MIN_TREES 2): the intro, meta, question_meta, question_context and FAQ are rewritten for two trees. Colchester has no translation overlay.

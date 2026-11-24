@@ -7479,7 +7479,19 @@
   "9f5e1316-edcc-411d-96b7-6009ed8872c1": {
    "outcome": "published",
    "date": "2026-11-24",
-   "tree_id": "cls_002"
+   "tree_id": "cls_002",
+   "pin_checked": "2026-11-24"
+  },
+  "c3ef540c-ec5e-417e-bdc0-56886dab62d4": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "cls_002",
+   "city_slug": "colchester",
+   "file": "cls_002-the-cedar-near-clingoe-hill-c3ef540c.jpg",
+   "reason": "Same cedar, same reader, a step back from the first frame: the whole crown in frame with sky above, the low skirt of branches on the ground and the paved path in front. Shows the full shape better than the current lead, which crops the top. Species seen: flat tiered plates of dark blue-green needles",
+   "lat": 51.8789533333333,
+   "lon": 0.951796666666667,
+   "pin_checked": "2026-11-24"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

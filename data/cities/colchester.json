@@ -79,7 +79,7 @@
         "longitude": 0.951786666666667,
         "neighbourhood": "Greenstead"
       },
-      "story": "A couple of hundred metres from the great oak on Clingoe Hill, on the east side of Colchester, stands this cedar. It was sent to us by the same reader who photographed that oak in its autumn leaf, and they know it as a cedar of Lebanon.\n\nCedars of Lebanon have been planted in English parks since the seventeenth century, and given room they grow into one of the grandest shapes a tree can take. In the photograph the trunk divides low into several great limbs, and these sweep out and up in long curves, tier above tier, carrying flat dark plates of foliage. The lowest branches have come right down and spread across the ground, so the tree seems to stand in a pool of its own needles, with mown grass and a path beyond. A second picture shows a branch up close, short tufts of blue-green needles and pale green cones standing upright on the twigs like candles.\n\nWe have no girth, age or planting date for it. If you know its history, or measure the trunk at chest height, tell us here and we will add your figures.\n\nWalk round to where the low branches meet the grass and look up through the arches of the limbs.",
+      "story": "A couple of hundred metres from the great oak on Clingoe Hill, on the east side of Colchester, stands this cedar. It was sent to us by the same reader who photographed that oak in its autumn leaf, and they know it as a cedar of Lebanon.\n\nCedars of Lebanon have been planted in English parks since the seventeenth century, and given room they grow into one of the grandest shapes a tree can take. In the photograph the trunk divides low into several great limbs, and these sweep out and up in long curves, tier above tier, carrying flat dark plates of foliage. The lowest branches have come right down and spread across the ground, so the tree seems to stand in a pool of its own needles, with mown grass and a path beyond. A second picture shows a branch up close, short tufts of blue-green needles and pale green cones standing upright on the twigs like candles.\n\nThe reader came back with figures of their own, a girth of about 555 centimetres and an age of about 155 years by their estimate. We have found no survey or planting record to set beside them, so if you know its history, tell us here.\n\nWalk round to where the low branches meet the grass and look up through the arches of the limbs.",
       "how_to_recognise": "A broad cedar whose trunk splits low into great curving limbs in tiers, its lowest branches lying along the ground in a wide skirt of dark needles, mown grass and a path behind it.",
       "verified_sources": [],
       "access": "The reader photographed it from mown grass beside a path. We found no published access terms for the ground, so follow any signs.",
@@ -89,18 +89,17 @@
       },
       "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (9f5e1316-edcc-411d-96b7-6009ed8872c1). Photograph viewed: the whole cedar on mown parkland, its trunk splitting low into great curving limbs in tiers, the lowest branches lying along the ground in a wide skirt, a path and bollards behind, overcast daylight, colour; a second picture shows blue-green needle tufts and upright pale green cones. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own label: name 'Cedar of Lebanon'. Same account sent the lead photo of cls_001, 199 m west. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Species from the reader's name and the photograph's tiered, flat-topped habit; the bluish needles could also suit an Atlas cedar, so a reader who knows may correct it.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/cls_002-cedar-near-clingoe-hill.jpg",
+        "url": "https://ancienttrees.app/photos/cls_002-the-cedar-near-clingoe-hill-c3ef540c.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
         "taken_month": 11,
-        "taken_month_basis": "the photograph's own date",
         "source": "contributor",
         "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
-        "sighting_id": "9f5e1316-edcc-411d-96b7-6009ed8872c1",
-        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole cedar on mown parkland, its trunk splitting low into great curving limbs in tiers, the lowest branches lying along the ground in a wide skirt, a path and bollards behind, overcast daylight, colour; a second picture shows blue-green needle tufts and upright pale green cones. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        "sighting_id": "c3ef540c-ec5e-417e-bdc0-56886dab62d4",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: Same cedar, same reader, a step back from the first frame: the whole crown in frame with sky above, the low skirt of branches on the ground and the paved path in front. Shows the full shape better than the current lead, which crops the top. Species seen: flat tiered plates of dark blue-green needles, great curving limbs from a low-dividing trunk; the second picture shows needle tufts and upright barrel cones of a true cedar. Fits the description: trunk splitting low into great curving limbs in tiers, lowest branches lying along the ground in a wide skirt, mown grass and a path.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
@@ -110,7 +109,24 @@
         "moved_m": 0,
         "date": "2026-11-24",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cls_002-cedar-near-clingoe-hill.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date",
+          "source": "contributor",
+          "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
+          "sighting_id": "9f5e1316-edcc-411d-96b7-6009ed8872c1",
+          "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole cedar on mown parkland, its trunk splitting low into great curving limbs in tiers, the lowest branches lying along the ground in a wide skirt, a path and bollards behind, overcast daylight, colour; a second picture shows blue-green needle tufts and upright pale green cones. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "age_estimate": "about 155 years, by a reader's estimate"
     }
   ],
   "question_meta": "A very large oak and a spreading cedar stand near Clingoe Hill in Colchester. Where they are and what readers say about them.",

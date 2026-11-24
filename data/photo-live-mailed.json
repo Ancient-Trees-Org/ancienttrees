@@ -3153,7 +3153,17 @@
   },
   "p_f0928aeb25ec62a35e302db8": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "c3ef540c-ec5e-417e-bdc0-56886dab62d4",
+     "tree_id": "cls_002",
+     "tree_name": "The Cedar near Clingoe Hill",
+     "city": "Colchester",
+     "city_slug": "colchester",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "3f14603e-26fa-4c63-b724-60c53457095d",
