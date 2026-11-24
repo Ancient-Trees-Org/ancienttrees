@@ -591,7 +591,10 @@ struct TreeDetail: View {
         .fullScreenCover(isPresented: $showingPhoto) {
             if let p = tree.photo {
                 PhotoViewer(photo: p, photos: tree.shots, startAt: photoAt,
-                            title: tree.name, isPresented: $showingPhoto, authors: photoAuthors)
+                            title: tree.name, isPresented: $showingPhoto, authors: photoAuthors,
+                            // Only where the tree has a page (the toolbar's rule).
+                            shareURL: mine == nil ? URL(string: "https://ancienttrees.app" + tree.url) : nil,
+                            shareMessage: "\(tree.name), \(tree.city).")
             }
         }
         .fullScreenCover(item: $viewingOwn) { s in

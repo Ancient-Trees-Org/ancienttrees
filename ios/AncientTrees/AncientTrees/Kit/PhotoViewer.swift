@@ -49,6 +49,13 @@ struct PhotoViewer: View {
     /// Who sent each visitor's photograph, by Photo.by, as the tree page
     /// already asked the server (PhotoAuthors); empty elsewhere.
     var authors: [String: PhotoAuthors.Row] = [:]
+    /// The tree's page, shared from beside the cross (Hidde, 2026-11-24: "is
+    /// het logisch om ook een deelknop te hebben op een uitvergrote foto",
+    /// then "bouw"). Google Maps' and Airbnb's viewers carry one at the top.
+    /// The link, never the file: the page keeps the credit the licence asks
+    /// for and brings the person who opens it to the tree. Nil: no button.
+    var shareURL: URL? = nil
+    var shareMessage: String = ""
     @State private var confirmingDelete = false
 
     @State private var scale: CGFloat = 1
@@ -117,6 +124,19 @@ struct PhotoViewer: View {
                             .accessibilityIdentifier("photo-delete")
                         }
                         Spacer()
+                        if let shareURL {
+                            ShareLink(item: Shared.tag(shareURL, from: "photo"),
+                                      subject: Text(title), message: Text(shareMessage)) {
+                                Image(systemName: "square.and.arrow.up")
+                                    .font(.system(size: 15, weight: .semibold))
+                                    .foregroundStyle(.white)
+                                    .frame(width: 44, height: 44)
+                                    .background(.black.opacity(0.45), in: Circle())
+                            }
+                            .countsShare("photo")
+                            .accessibilityLabel("Share this tree")
+                            .accessibilityIdentifier("photo-share")
+                        }
                         Button { isPresented = false } label: {
                             Image(systemName: "xmark")
                                 .font(.system(size: 15, weight: .semibold))

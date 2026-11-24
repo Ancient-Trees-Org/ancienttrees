@@ -216,7 +216,15 @@ fun MapSheet(
             val stops = SheetHeight.entries.filter {
                 (it != SheetHeight.CARD || cardFits) && (it != SheetHeight.BAR || results)
             }
-            val next = stops.minBy { abs(stop(it) - settled) }
+            var next = stops.minBy { abs(stop(it) - settled) }
+            // A tapped tree goes with a short swipe down (Hidde, 2026-11-24: the card
+            // sprang back, "zowel ios als android overal"): Material 3's sheet lets go
+            // after 56 dp of drag or a 125 dp/s flick (BottomSheetDefaults), as
+            // BottomSheet.swift does.
+            val down = latestTarget - now
+            if (cardFits && state.height == SheetHeight.CARD && next == SheetHeight.CARD &&
+                (down > with(density) { 56.dp.toPx() } || velocity > with(density) { 125.dp.toPx() })
+            ) next = SheetHeight.PEEK
             if (next == state.height) {
                 scope.launch { anim.animateTo(latestTarget, SheetStops.motion) }
             } else {

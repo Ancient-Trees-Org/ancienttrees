@@ -810,6 +810,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                 onHeart = { heart(tree) },
                 onCollect = { collect(tree) },
                 onShare = { share(context, tree, "tree", "${tree.name}, ${tree.city}.") },
+                onSharePhoto = { share(context, tree, "photo", "${tree.name}, ${tree.city}.") },
                 onGo = { hit -> goOnMap(hit) },
                 onNeedsSignIn = { then ->
                     pendingAfterSignIn = then

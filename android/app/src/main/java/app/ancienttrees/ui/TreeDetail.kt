@@ -127,6 +127,8 @@ class TreePageActions(
     /** Collect: sign in first, then the camera (the app's one collect route on Android). */
     val onCollect: () -> Unit,
     val onShare: () -> Unit,
+    /** The same page, shared from the photo viewer (campaign "photo", PhotoViewer.swift shareURL). */
+    val onSharePhoto: (() -> Unit)? = null,
     /** A place, a species or the tree itself on the map (until those pages are ported). */
     val onGo: (SearchHit) -> Unit,
     /** Signed out: the sign-in sheet, then [then] once signed in. */
@@ -455,7 +457,7 @@ private fun TreeDetailInner(
         )
     }
 
-    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt, authors = photoAuthors) { viewerAt = -1 }
+    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt, authors = photoAuthors, onShare = actions.onSharePhoto) { viewerAt = -1 }
     if (ownViewerAt >= 0) {
         val shots = actions.ownShots.filter { it.photo != null }
         PhotoViewer(

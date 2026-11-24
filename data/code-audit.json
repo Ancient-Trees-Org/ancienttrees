@@ -664,6 +664,16 @@
    "status": "open",
    "found_by": "hidde",
    "test": "android AccountTest.googleAlwaysAsksWhichAccount"
+  },
+  {
+   "id": "ESC-2026-11-24-a-tapped-pin-s-card-would-not-swipe-away",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/BottomSheet.swift",
+   "summary": "A tapped pin's card would not swipe away: it needed half the card's height of drag; now 56 or a light flick (Material 3), iOS and Android",
+   "first_seen": "2026-11-24",
+   "status": "open",
+   "found_by": "hidde"
   }
  ]
 }

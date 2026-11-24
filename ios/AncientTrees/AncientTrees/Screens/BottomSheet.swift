@@ -768,10 +768,21 @@ struct BottomSheet<Header: View, Content: View>: View {
                         let stops = SheetHeight.allCases.filter {
                             ($0 != .card || cardFits) && ($0 != .bar || results)
                         }
-                        let next = stops.min {
+                        var next = stops.min {
                             abs(($0 == .full ? page : stop($0)) - settled)
                                 < abs(($1 == .full ? page : stop($1)) - settled)
                         } ?? .peek
+                        // A TAPPED TREE GOES WITH A SHORT SWIPE DOWN (Hidde,
+                        // 2026-11-24: people swipe the card down to close it
+                        // and it springs back, "zowel ios als android overal").
+                        // The nearest stop asked for half the card's height.
+                        // Material 3's sheet lets go after 56 of drag or a
+                        // flick of 125 a second (BottomSheetDefaults), the
+                        // same on Android (MapSheet.kt).
+                        if cardFits, height == .card, next == .card,
+                           value.translation.height > 56 || value.velocity.height > 125 {
+                            next = .peek
+                        }
                         // ONE change, not two (2026-09-26). The stop and the
                         // drag used to be set one after the other, so for a
                         // frame the sheet was the NEW stop plus the OLD drag:

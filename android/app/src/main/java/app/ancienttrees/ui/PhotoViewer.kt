@@ -73,6 +73,9 @@ fun PhotoViewer(
     onDelete: ((Int) -> Unit)? = null,
     /** Who sent each visitor's photograph, by Photo.by (Kit/PhotoViewer.swift authors); empty elsewhere. */
     authors: Map<String, app.ancienttrees.account.PhotoAuthors.Row> = emptyMap(),
+    /** The tree's page, shared from beside the X (Kit/PhotoViewer.swift shareURL; Hidde,
+     *  2026-11-24: Google Maps' and Airbnb's viewers carry one). Null: no button. */
+    onShare: (() -> Unit)? = null,
     onClose: () -> Unit,
 ) {
     if (photos.isEmpty()) return
@@ -238,6 +241,26 @@ fun PhotoViewer(
                             .testTag("photo-delete"),
                     ) {
                         Icon(Sym.Delete, null, tint = Color.White, modifier = Modifier.size(20.dp))
+                    }
+                }
+                if (onShare != null) {
+                    // Share the tree's page, beside the X; Android's own share glyph
+                    // (Airbnb's line: system signs take the platform's form).
+                    val label = stringResource(R.string.share_tree)
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier
+                            .align(Alignment.TopEnd)
+                            .windowInsetsPadding(WindowInsets.statusBarsIgnoringVisibility)
+                            .padding(end = if (onDelete != null) 112.dp else 60.dp)
+                            .size(44.dp)
+                            .clip(CircleShape)
+                            .clickable(role = Role.Button) { onShare() }
+                            .background(Color.Black.copy(alpha = 0.45f), CircleShape)
+                            .semantics { contentDescription = label }
+                            .testTag("photo-share"),
+                    ) {
+                        Icon(Sym.Share, null, tint = Color.White, modifier = Modifier.size(20.dp))
                     }
                 }
                 Box(
