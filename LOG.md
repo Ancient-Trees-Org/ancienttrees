@@ -20,6 +20,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Page gaps**: intros for the parks Flamingo Gardens (Fort Lauderdale), Wright Park (Tacoma), Bute Park (Cardiff), Jardin des Plantes and Bois de Boulogne (Paris), and the Vietnam country page, each from its own trees. Arnold Arboretum still reads as a gap: its park file says "Arnold Arboretum of Harvard University" and the trees are grouped as "Arnold Arboretum"; left alone.
 - **Dry**: San Francisco 13th verify pass, register exhausted, wall set 48h. Nothing on the shelf is writable: the "awaiting a writer" pile is stale entries and duplicates under other ids.
 - **iOS app red**: the newest run's `look` job passed (appfit fixed); its `test` job was never acquired by a macOS runner ("not acquired by Runner of type hosted"), so it is GitHub capacity, not code. Nothing to fix; the next schedule retries.
+- `gh workflow run ios.yml` was refused (HTTP 403, the runner's token cannot dispatch workflows), so the iOS re-run waits for the next schedule or a session.
 - Amsterdam lead 3c544597 is still our own account with no file on this machine. Nothing sent to anyone; no Reddit.
 
 ## 2026-11-23 reader judge: Willistown grows to four with the Quaker meetinghouse oak
