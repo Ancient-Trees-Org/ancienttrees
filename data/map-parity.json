@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "A tapped pin's card lets go with a short swipe down: 56 of drag or a 125/s flick (Material 3's sheet thresholds)",
+      "since": "2026-11-24",
+      "web": "on a phone the card floats over the map (Airbnb's mobile site) and a tap on the map lets it go; it has no sheet to swipe",
+      "ios": "BottomSheet.swift onEnded, from the card stop",
+      "android": "MapSheet.kt settle, from the card stop",
+      "status": "one-sided",
+      "why": "the phones hold the tree in their sheet, the web's phone map uses Airbnb's floating card (CONVENTIONS.md \"Tapping a pin on a map that has a list in a sheet\"), so there is no swipe to tune"
+    },
+    {
       "what": "The map itself: zoom buttons, one locate button, the place kept in the address, the trees, the card, the list that lights a pin",
       "since": "2026-11-20",
       "web": "one component, atTreeMap (tree-map-js.ts), on the city map, /explore, the country and state maps and the profile map; the fullscreen button (city map only) and the city map's own locate button are gone; the state pages' map stays an embedded box (no scroll zoom, no locate)",
