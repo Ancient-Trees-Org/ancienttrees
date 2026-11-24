@@ -11853,6 +11853,51 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "formigine/frm_001"
+  },
+  {
+   "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961",
+   "user_id": "p_3bb792528c3370538a708e62",
+   "mine": false,
+   "name": "Roverella",
+   "unsure_among": null,
+   "species": "Roverella",
+   "age": "400 anni",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "The tree named “Bella” is perfectly harmonious and reminiscent of the fractals",
+   "latitude": 43.4965936093941,
+   "longitude": 11.8621993057527,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3bb792528c3370538a708e62/E604000D-20CF-4082-885D-3E34C988C961.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 42 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 43.496911,
+      "lng": 11.862469,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Roverella",
+      "species": "Quercus pubescens Willd.",
+      "girth_cm": 570.0,
+      "height_m": 24.0,
+      "distance_m": 41.5
+     }
+    ]
+   },
+   "status": "held",
+   "hold": "doubt_photo",
+   "why": "Photograph viewed 2026-11-24: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a yellow villa gate behind it. The file is a cropped phone screenshot (1206 px wide, a 4:5 social-media crop, no camera data, a filtered look, summer leaf under a November date), as with the Tsagarada plane: a real doubt that it is the reader's own photograph, so it does not go on a page. The tree itself is real and special: the official register lists it 41 m from the reader's hand-placed pin as Albero monumentale d'Italia 01/A390/AR/09, Roverella (Quercus pubescens), 570 cm round, 24 m tall, Casa Fredda, Loc. Ceciliano 82, Arezzo. A register-backed page needs a life check and a check that it is seen from public ground (the address is a house); their own photograph, or that check, puts it live. Their words: named 'Bella', 400 years by their estimate.",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24"
   }
  ]
 }

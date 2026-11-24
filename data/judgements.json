@@ -2,20 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Golden Ginkgos of Villa Gandini",
-   "city": "Formigine",
-   "species": "Ginkgo (Ginkgo biloba)",
-   "photo": "p_def84f4332241b7d0ced972d/745E0FD4-ABAF-413B-A870-67EB466731E0.jpg",
-   "reader_note": "The spectacular foliage in November",
-   "verdict": "publish",
-   "reason": "Four photographs viewed: the pair in gold beyond the pond at Villa Gandini, one whole with its trunk; lead photo and three in the strip of frm_001.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -28,6 +14,20 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Golden Ginkgos of Villa Gandini",
+   "city": "Formigine",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "p_def84f4332241b7d0ced972d/745E0FD4-ABAF-413B-A870-67EB466731E0.jpg",
+   "reader_note": "The spectacular foliage in November",
+   "verdict": "publish",
+   "reason": "Four photographs viewed: the pair in gold beyond the pond at Villa Gandini, one whole with its trunk; lead photo and three in the strip of frm_001.",
    "hidde": null,
    "agreed": null
   },
@@ -490,6 +490,46 @@
    },
    "verdict": "publish",
    "reason": "Four photographs viewed: the pair of ginkgos on the south side of Villa Gandini, Formigine, in full gold over the pond, one shown whole with its trunk. Somewhat special by any walker's eye; the comune's tourism page names them the park's symbols. Live as formigine/frm_001, approximate (hand-placed pin).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e604000d-20cf-4082-885d-3e34c988c961",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Roverella",
+   "city": null,
+   "species": "Roverella",
+   "photo": "p_3bb792528c3370538a708e62/E604000D-20CF-4082-885D-3E34C988C961.jpg",
+   "reader_note": "The tree named “Bella” is perfectly harmonious and reminiscent of the fractals",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 42 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 43.496911,
+      "lng": 11.862469,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Roverella",
+      "species": "Quercus pubescens Willd.",
+      "girth_cm": 570.0,
+      "height_m": 24.0,
+      "distance_m": 41.5
+     }
+    ]
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Roverella"
+   },
+   "verdict": "hold",
+   "reason": "Photograph viewed: a broad downy oak in full summer leaf before a villa gate. The file is a cropped phone screenshot (no camera data, 4:5 social crop, summer leaf under a November date), a real doubt it is the reader's own: held doubt_photo, as the Tsagarada plane. The tree is real: Albero monumentale d'Italia 01/A390/AR/09, 570 cm round, 24 m, 41 m from their hand-placed pin at Ceciliano, Arezzo; a register-backed page needs a life check and a public-view check.",
    "hidde": null,
    "agreed": null
   },

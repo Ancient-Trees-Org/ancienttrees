@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: "Bella", a registered oak near Arezzo, held over its photo
+
+- Held e604000d, a downy oak a reader calls "Bella" at Ceciliano, Arezzo, as `doubt_photo` (no mail, same as the Tsagarada plane on 11-22). The picture is a cropped phone screenshot: 1206 px wide in a 4:5 social-media crop, no camera data, a filtered look, and summer leaf under a November date. The tree itself is real and special. The official Italian register lists it 41 m from the reader's hand-placed pin: Albero monumentale d'Italia 01/A390/AR/09, 570 cm round, 24 m tall, at "Casa Fredda, Loc. Ceciliano 82". That address is a house, so a register-backed page would still need a life check and a check that the tree can be seen from public ground. A photo the reader took themselves would also put it live.
+- Not judged: 3c544597 (Amsterdam, our own account) still has no photo on this machine.
+- There were no reports, tips, feedback or readers' words waiting.
+
 ## 2026-11-24 reader judge: the golden ginkgos of Formigine live
 
 - Live after the next deploy: formigine/frm_001, The Golden Ginkgos of Villa Gandini (Formigine, near Modena). A reader sent four autumn photographs of the two ginkgos on the villa's south side, which the comune's tourism page calls the park's symbols. Lead photo is the pair in gold over the pond; the other three are in the strip. The pin is approximate because the reader placed it by hand. Age (135 to 150) and girth (457 cm) are the reader's. Best time is November. It's a one-tree place, so it has no place page.
