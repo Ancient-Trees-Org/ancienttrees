@@ -13,15 +13,50 @@ session that dies lets go by itself.
         ...
 
     python3 scripts/emulator_lock.py --who      # who holds it now
+
+THE EMULATOR, NEVER HIS PHONE (2026-11-24): with Hidde's Samsung on the USB
+cable and no emulator running, a bare `adb` reached the phone, and a ButtonWalk
+uninstalled his Play copy of the app ("another build's signature") and put a
+debug build in its place. Holding the lock now pins ANDROID_SERIAL to a running
+emulator (every adb and gradle call underneath inherits it) and refuses when
+none runs. A script meant for his phone does not take this lock.
 """
 import contextlib
 import fcntl
 import os
 import pathlib
+import subprocess
 import sys
 import time
 
 LOCK = pathlib.Path.home() / "Library" / "Caches" / "ancienttrees-emulator.lock"
+ADB = str(pathlib.Path.home() / "Library" / "Android" / "sdk" / "platform-tools" / "adb")
+
+
+def emulators(listing):
+    """Serials of emulators in `adb devices` output; a phone on a cable is never one."""
+    out = []
+    for line in listing.splitlines()[1:]:
+        parts = line.split()
+        if len(parts) >= 2 and parts[1] == "device" and parts[0].startswith("emulator-"):
+            out.append(parts[0])
+    return out
+
+
+def pin_to_emulator():
+    """ANDROID_SERIAL set to a running emulator, or exit: never a real phone."""
+    try:
+        listing = subprocess.run([ADB, "devices"], capture_output=True, text=True, timeout=20).stdout
+    except (OSError, subprocess.TimeoutExpired) as e:
+        sys.exit(f"adb did not answer ({e}); start the emulator first")
+    found = emulators(listing)
+    wanted = os.environ.get("ANDROID_SERIAL")
+    if wanted and wanted not in found:
+        sys.exit(f"ANDROID_SERIAL={wanted} is not a running emulator; refusing (a real phone is never tested on)")
+    if not found:
+        sys.exit("no emulator running; refusing to use a phone on the cable. Start the emulator first.")
+    os.environ["ANDROID_SERIAL"] = wanted or found[0]
+    return os.environ["ANDROID_SERIAL"]
 
 
 @contextlib.contextmanager
@@ -48,6 +83,7 @@ def emulator(who, wait_minutes=30):
     f.write(f"{who}, pid {os.getpid()}, since {time.strftime('%H:%M:%S')}\n")
     f.flush()
     try:
+        pin_to_emulator()
         yield
     finally:
         f.seek(0)

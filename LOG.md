@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: build 6 prepared, and a test that reached Hidde's phone
+
+- **Breakage, caused by this session**: `android_walk.py` (ButtonWalk on three screens) ran at about 12:35 with no emulator running and Hidde's Samsung on the USB cable. adb took the phone; the script found "another build's signature", uninstalled his Play copy of `app.ancienttrees.android` and installed a debug build (firstInstallTime 12:36, DEBUGGABLE). Nothing of his is lost on the server (rule 11: nothing a person does lives on the device); he has to install the app again from Play and sign in.
+- **Fixed so it cannot happen again**: the emulator lock (scripts/emulator_lock.py), which every installing script takes, now pins ANDROID_SERIAL to a running emulator and refuses when only a phone is attached or ANDROID_SERIAL names one. Tests in scripts/test_emulator_lock.py (6, pass).
+- **Android CI red since 11-22, read**: ButtonWalk's Discover saves and "Another maps app" did not repeat locally (both passed); map-pin could not be judged (the run was on the phone, screen off). Spacing failed on the profile flag and the Worth the visit count because data/ios-frames.json was from 11-12, before both changed on both phones; refreshed today from an iPhone 17 Pro appfit run (40 screens, 0 findings).
+- **Build 6 not built**: Android moved to a new Play account and package (`app.ancienttrees.map`, entry below) the same hour. The first upload there waits on Hidde's ID check, so the bundle is built when the account is ready, from main as it stands then.
+
 ## 2026-11-24 session: Android moves to a new Play account
 
 - **What changed**: Google disabled the Gmail account that owns the old Play developer account (policy mail of 23 Nov to the recovery address; appeal blocked at the SMS step on every phone). Hidde chose to start over: a new personal Play developer account **Ancient Trees Map** (id 6289749847935270102) under hidde@ancienttrees.app, non-trader, created today. The old name "Ancient Trees" stays taken by the old account. The sign-up names the old account honestly ("can't verify", with a short explanation).
