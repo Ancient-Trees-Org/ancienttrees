@@ -13,13 +13,6 @@
       "by": "night-run",
       "claimed_at": "2026-11-24T01:35:42+00:00",
       "trees_at_claim": 1
-    },
-    {
-      "target": "spokane",
-      "kind": "verify",
-      "by": "night-run",
-      "claimed_at": "2026-11-24T01:37:30+00:00",
-      "trees_at_claim": 18
     }
   ]
 }
