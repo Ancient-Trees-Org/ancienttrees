@@ -2215,6 +2215,26 @@
         "The Silk Mulberry of Ca' di David"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_86871a29a30bc55c14deb2b6",
+      "place_slug": "amsterdam",
+      "place_name": "Amsterdam",
+      "date": "2026-11-24",
+      "trees": [
+        "The Canadian Poplar of Entrepothof"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_19280672174196861df923eb",
+      "place_slug": "tranekaer",
+      "place_name": "Tranekær",
+      "date": "2026-11-24",
+      "trees": [
+        "The Silver-Limbed Oak of Tranekær"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
