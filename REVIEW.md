@@ -24,6 +24,12 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 compliance
+
+- privacy-date-stale: the privacy page's "Last updated: 10 November 2026" did not move though the page changed on 11-18, 11-20 and 11-22, and it promises the date changes with it.
+- privacy-mail-route-sentence: "Mail we send goes out through Resend" is not the whole route; replies and ambassador mail still go through Gmail.
+- Checked and still true: hearts and who gave them, photo month, profile links on notes and photos, the 90-day error reports. Open row hans-photos-app-only-yes stands, not repeated.
+
 ## 2026-11-24
 
 Web half: the last 24 hours were reader-judge batches (East Hampton to six, Willistown to four, the Oslo willow, the Magdalen Plane, Albuquerque, Greenwich, Laurel Hill) plus deploy, mail and qa speed work. The new East Hampton, Willistown, Oxford and Oslo pages hold no em dashes. Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:

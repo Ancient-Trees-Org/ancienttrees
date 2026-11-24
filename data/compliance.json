@@ -85,6 +85,24 @@
       "summary": "Hans Hofele's Eschersheimer Linde photographs (data/cities/frankfurt.json) are recorded as agreed by phone for 'the app', but the tree has a web page, so the photo is also published on the website and credited there.",
       "law": "Copyright: a licence by permission covers only the use the maker agreed to",
       "fix": "Mail Hans once to confirm the website use too (and record his words in the photo's permission), or keep the photo to the app until he says yes."
+    },
+    {
+      "id": "privacy-date-stale",
+      "owner": "session",
+      "first_seen": "2026-11-24",
+      "status": "open",
+      "summary": "The privacy page still says 'Last updated: 10 November 2026' and 'When this page changes, the date below changes with it', but it changed on 11-18, 11-20 and 11-22 (photo months, hearts and who gave them, profile links) without the date moving.",
+      "law": "GDPR art. 12 and 13 (accurate, transparent information); a false promise on the page itself",
+      "fix": "Set the date to the day of the last edit and have privacycheck.py fail a push that edits privacy.astro without moving it."
+    },
+    {
+      "id": "privacy-mail-route-sentence",
+      "owner": "session",
+      "first_seen": "2026-11-24",
+      "status": "open",
+      "summary": "The privacy page says 'Mail we send goes out through Resend', but replies, congratulations and ambassador mail still go through Gmail (mailer.EXPECTED, with Resend first only for sign-in and welcome since 11-20), and Google is listed as the inbox only.",
+      "law": "GDPR art. 13(1)(e) recipients and processors",
+      "fix": "Reword to 'Mail we send goes out through Resend or, for replies, through our Gmail inbox' (Google is already in the processor list), then run privacycheck.py."
     }
   ]
 }
