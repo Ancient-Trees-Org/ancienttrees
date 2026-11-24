@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-24T00:09Z",
+  "synced": "2026-11-24T16:56Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,15 +20,6 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "guimaraes",
-      "place_name": "Guimaraes",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -53,6 +44,15 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "vales",
       "place_name": "Vales",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "guimaraes",
+      "place_name": "Guimaraes",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -194,21 +194,21 @@
       "profile_public": true
     },
     {
-      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
-      "place_slug": "media-pennsylvania",
-      "place_name": "Media",
-      "public": true,
-      "since": "2026-11-17",
-      "display_name": "JOEY R.",
-      "profile_public": true
-    },
-    {
       "user_id": "6c1fe98c-3afc-4122-8bbe-2ee3bdd574fb",
       "place_slug": "sofia",
       "place_name": "Sofia",
       "public": true,
       "since": "2026-11-17",
       "display_name": "Калоян Р.",
+      "profile_public": true
+    },
+    {
+      "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
+      "place_slug": "media-pennsylvania",
+      "place_name": "Media",
+      "public": true,
+      "since": "2026-11-17",
+      "display_name": "JOEY R.",
       "profile_public": true
     },
     {
@@ -388,6 +388,20 @@
       "since": "2026-11-24",
       "display_name": "Ged R.",
       "profile_public": true
+    },
+    {
+      "user_id": "67fb8609-5c7a-4ce5-b526-6dbb6da5616b",
+      "place_slug": "rome",
+      "place_name": "Rome",
+      "public": false,
+      "since": "2026-11-24"
+    },
+    {
+      "user_id": "67fb8609-5c7a-4ce5-b526-6dbb6da5616b",
+      "place_slug": "glasgow",
+      "place_name": "Glasgow",
+      "public": false,
+      "since": "2026-11-24"
     },
     {
       "user_id": null,
@@ -2641,6 +2655,21 @@
       "place_slug": "mexico-city",
       "place_name": "Mexico City",
       "date": "2026-11-23"
+    },
+    {
+      "row": 1623,
+      "user_id": "p_0ddef0e98eb66d46e84f8d2c",
+      "place_slug": "rome",
+      "place_name": "Rome",
+      "date": "2026-11-24"
+    },
+    {
+      "row": 1624,
+      "user_id": "p_0ddef0e98eb66d46e84f8d2c",
+      "place_slug": "glasgow",
+      "place_name": "Glasgow",
+      "date": null,
+      "note": "same person as row 1623; answered in that thread"
     }
   ],
   "told": {
@@ -3689,6 +3718,60 @@
         "bos_051",
         "bos_052",
         "bos_053"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "rome": {
+      "trees": [
+        "rom_001",
+        "rom_002",
+        "rom_003",
+        "rom_004",
+        "rom_005",
+        "rom_006",
+        "rom_007",
+        "rom_008",
+        "rom_009",
+        "rom_010",
+        "rom_011",
+        "rom_012",
+        "rom_013",
+        "rom_014",
+        "rom_015",
+        "rom_016",
+        "rom_017",
+        "rom_018",
+        "rom_019",
+        "rom_020",
+        "rom_021",
+        "rom_022",
+        "rom_023",
+        "rom_024",
+        "rom_025",
+        "rom_026",
+        "rom_027",
+        "rom_028",
+        "rom_029",
+        "rom_030",
+        "rom_031",
+        "rom_032"
+      ],
+      "since": "2026-11-24",
+      "mailed": []
+    },
+    "glasgow": {
+      "trees": [
+        "gla_001",
+        "gla_002",
+        "gla_003",
+        "gla_004",
+        "gla_005",
+        "gla_006",
+        "gla_007",
+        "gla_009",
+        "gla_010",
+        "gla_011"
       ],
       "since": "2026-11-24",
       "mailed": []
