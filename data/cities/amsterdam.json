@@ -154,7 +154,7 @@
         "longitude": 4.8747576,
         "neighbourhood": "Oud-Zuid, Amsterdam-Zuid"
       },
-      "story": "One of the tallest trees in Amsterdam stands on the edge of a bicycle path, not in a forest. Sources disagree on exactly when this Canadian poplar went into the ground, sometime between the park's founding around 1870 and a specifically documented 1885, but either way it has reached roughly 38.5 meters, taller than most buildings in the surrounding Oud-Zuid neighborhood. Its trunk measures 617 centimeters around, the third thickest in the city behind only the two plane trees in Leidsebosje. Poplars grow fast and die relatively young for a tree, rarely making it past 150 years, so this one is closer to the end of its run than the beginning, and unlike an oak it will not get centuries more to look forward to. Vondelpark's own written guide to its old trees singles this poplar out specifically, distinguishing it from an ash of similar age elsewhere in the park that never got nearly as large. Whether anything in the city stands taller is an open question: the elm at the Oudemanhuispoort is the usual rival and we have found no measurement of it we trust, so if you know one, tell us. Cyclists and joggers pass beneath this crown on Van Eeghenlaan every day without registering that one of the tallest trees in a city of canals and gabled houses is a poplar nobody planted to be a landmark.",
+      "story": "One of the tallest trees in Amsterdam stands on the edge of a bicycle path, not in a forest. Sources disagree on exactly when this Canadian poplar went into the ground, sometime between the park's founding around 1870 and a specifically documented 1885, but either way it has reached roughly 38.5 meters, taller than most buildings in the surrounding Oud-Zuid neighborhood. Its trunk measures 617 centimeters around, the third thickest in the city behind only the two plane trees in Leidsebosje. Poplars grow fast and die relatively young for a tree, rarely making it past 150 years, so this one is closer to the end of its run than the beginning, and unlike an oak it will not get centuries more to look forward to. Vondelpark's own written guide to its old trees singles this poplar out specifically, distinguishing it from an ash of similar age elsewhere in the park that never got nearly as large. Whether anything in the city stands taller is an open question; the elm at the Oudemanhuispoort is the usual rival and we have found no measurement of it we trust, so if you know one, tell us. Cyclists and joggers pass beneath this crown on Van Eeghenlaan every day without registering that one of the tallest trees in a city of canals and gabled houses is a poplar nobody planted to be a landmark.",
       "verified_sources": [
         "http://www.bomeninfo.nl/amsterdam.htm",
         "https://www.inhetvondelpark.nl/oudebomen.html",
@@ -164,10 +164,17 @@
       "access": "Free, public park, open 24 hours",
       "transport": "Tram 2, Emmastraat, or Tram 3/12, Van Baerlestraat, then 5-10 min walk into the park",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/ams_003-the-vondelpark-poplar.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_3fb43f5e6eaea7434db9a7e8",
+        "sighting_id": "4f2dbb86-f2a1-4c74-874c-3d18bec6703e",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: Looking up a single massive straight trunk with deep, criss-crossed grey furrows into a high crown of thick spreading limbs, the last poplar leaves yellow in low sun, daylight, colour. Taken 11 m from our pin. Species seen: deeply furrowed grey poplar bark, triangular yellowing poplar leaves on the lower shoots, tall open crown of heavy ascending limbs: a hybrid black poplar. Fits the description: one very tall, very thick trunk towering over the park's other trees, standing among shrubs at the edge of a path, 11 m from the pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Sources disagree on planting date (park-establishment era around 1870 vs a specific 1885 date); age range widened to cover both. Coordinates now geocoded precisely to Van Eeghenlaan 27 (Nominatim/OpenStreetMap), the address the tree stands directly opposite on the park side; multiple sources independently describe it that way (bomeninfo.nl: \"opposite house number 27\"; inhetvondelpark.nl: \"on the slope between the raised Van Eeghenlaan and the sunken Vondelpark\"). Not a surveyed trunk position, but a specific, walkable spot rather than a general park area. Cross-checked 2026-07-26 against Amsterdam's municipal tree registry (stamgegevens WFS): exactly two Populus canadensis 'Serotina' trees are marked 'Monumentale boom' in this stretch of the park, ids 989556 (planted 1862) and 989580 (planted 1892), about 30m apart and both within the existing pin's radius. Neither planting year lines up cleanly with the 140-156 age range already carried here, and there is no way from this dataset alone to tell which of the two is the specific record-holder the sources describe, so the address-based pin stands rather than moving to either registry point on a guess. No photo found for either candidate.",

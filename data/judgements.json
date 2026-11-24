@@ -975,6 +975,57 @@
    "agreed": null
   },
   {
+   "id": "sight:4f2dbb86-f2a1-4c74-874c-3d18bec6703e",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Vondelpark Poplar",
+   "city": "Amsterdam",
+   "species": "Canadian Poplar (Populus x canadensis 'Serotina')",
+   "photo": "out/sightings/4f2dbb86-f2a1-4c74-874c-3d18bec6703e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 11,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Canadian Poplar (Populus x canadensis 'Serotina')"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Vondelpark poplar's massive furrowed trunk and high crown, 11 m from our pin, daylight. Its first photograph, now the lead on ams_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2f5cf480-f2c6-4497-809b-5f41110d0860",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Common Hackberry in Venice",
+   "city": null,
+   "species": "Common Hackberry",
+   "photo": "p_9958e447be18d50bb8fd84bc/2F5CF480-F2C6-4497-809B-5F41110D0860.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.942,
+    "via": "girth",
+    "note": "94% of the genus reference (531 cm, n=1, max 531)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big multi-limbed hackberry with smooth grey ivy-wound trunk on the Certosa island, GPS fix at the tree, reader gives 500 cm and 200 to 300 years. Somewhat special: live as venice/ven_012, species kept to the genus.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27941,6 +27992,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2f5cf480-f2c6-4497-809b-5f41110d0860",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Hackberry of the Certosa",
+   "photo": "p_9958e447be18d50bb8fd84bc/2F5CF480-F2C6-4497-809B-5F41110D0860.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: looking up a thick smooth grey ivy-wound trunk dividing low into several limbs, tall open crown turning yellow-green, daylight, colour. Live as venice/ven_012 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

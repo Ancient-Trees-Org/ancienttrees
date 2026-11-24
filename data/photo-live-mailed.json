@@ -3254,6 +3254,21 @@
      "mailed": "2026-11-24"
     }
    ]
+  },
+  "p_3fb43f5e6eaea7434db9a7e8": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "4f2dbb86-f2a1-4c74-874c-3d18bec6703e",
+     "tree_id": "ams_003",
+     "tree_name": "The Vondelpark Poplar",
+     "city": "Amsterdam",
+     "city_slug": "amsterdam",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

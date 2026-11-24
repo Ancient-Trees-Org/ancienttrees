@@ -6,7 +6,7 @@
   "intro": "Venice's historic islands are built on water and packed with stone, leaving almost nowhere for a tree to grow old by accident. Every remarkable tree here survives because someone deliberately made room for it: Napoleon's engineers draining marshland for a public garden in 1810, Armenian monks building a monastery garden from 1717, a cemetery planted with cypress the year it opened. The oldest trees hide on islands and behind garden walls rather than lining streets, and the closest thing to a forest stands on the mainland in Mestre. Venice's green history is told in gardens and avenues, not single record-holders.",
   "meta_description": "Venice has almost no room for old trees to grow by accident. Meet the cypresses, cedars and garden trees planted deliberately on its islands since 1717.",
   "question_answer": "Venice has no single, individually dated oldest tree the way some cities do. Its best-documented old plantings are the trees of the Giardini della Biennale (the Napoleonic Gardens) in Castello, laid out by Giannantonio Selva for the garden's 1810 opening, which makes some of its lindens, hackberries and plane trees up to around 216 years old, though no individual specimen there has been separately measured or aged.",
-  "question_meta": "Venice's oldest documented trees grow in the 1810 Napoleonic Gardens. Why the city has no single record-holder, and eleven remarkable trees worth the walk.",
+  "question_meta": "Venice's oldest documented trees grow in the 1810 Napoleonic Gardens. Why the city has no single record-holder, and twelve remarkable trees worth the walk.",
   "question_context": "Ring counts and growth-based estimates work poorly in Venice's own record because almost nothing here has been measured the way a monumental tree in Milan or Rome has. What the city does have is documented planting and construction dates for the gardens themselves: the Giardini della Biennale (Castello) laid out in 1810, the cemetery island of San Michele completed in 1813, San Lazzaro degli Armeni's monastery garden begun in 1717. Those dates set an upper bound on how old any tree standing there today could be, but they are not proof that any single tree dates back that far, since replanting is common and mostly undocumented. That gap between a garden's founding date and an individual tree's real age is stated honestly across every entry on this list rather than smoothed into a false precision. The Giardini della Biennale is reachable on foot from the Giardini vaporetto stop (lines 1, 4.1, 4.2), a few minutes from the Biennale's own entrance on Riva dei Sette Martiri.",
   "faq": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "q": "Are Venice's remarkable trees free to visit?",
-      "a": "Most are. Eight of the eleven stand in free public parks and gardens. San Lazzaro degli Armeni charges a small fee for its guided tour, San Francesco del Deserto asks for a donation and requires a private boat, and Ca' Zenobio's garden is open mainly during scheduled exhibitions."
+      "a": "Most are. Nine of the twelve stand in free public parks and gardens. San Lazzaro degli Armeni charges a small fee for its guided tour, San Francesco del Deserto asks for a donation and requires a private boat, and Ca' Zenobio's garden is open mainly during scheduled exhibitions."
     },
     {
       "q": "Where can I see trees in the Venice lagoon islands rather than the main city?",
@@ -409,6 +409,53 @@
       "verify_notes": "Height 10.5 m from the italy-masaf register, matched on our own pin (0 m away).",
       "girth_cm": 188,
       "how_to_recognise": "You can recognise it by standing right at the boat landing, the first tree to meet arriving visitors, its trunk 1.88 metres round. It stands on Isola di San Servolo."
+    },
+    {
+      "id": "ven_012",
+      "name": "The Hackberry of the Certosa",
+      "species": "Hackberry (Celtis sp.)",
+      "age_estimate": "200 to 300 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Isola della Certosa, 30122 Venezia",
+        "latitude": 45.4362421603182,
+        "longitude": 12.3766834062961,
+        "neighbourhood": "Certosa"
+      },
+      "story": "A reader walking on the Certosa, the wooded island a short boat ride east of San Marco, stopped under this tree and sent it to us as a common hackberry, about five metres round and two to three hundred years old by their estimate.\n\nThe photograph is taken from the foot of the trunk looking up, and it shows why they stopped. A thick grey trunk, smooth-barked and wound with the stems of old ivy, divides low into several great limbs, and those climb together into a tall, open crown of slender branches. In the reader's November picture the small leaves are just turning, yellow-green against a pale sky.\n\nHackberries are old companions of Venice, and the gardens of Villa Groggia and the Giardini hold them too. Whether this one is the American common hackberry the reader names or the Mediterranean hackberry of Italian gardens, we would like a reader to confirm.\n\nThe Certosa was a Carthusian monastery from 1424, then a military store for more than a century, and after the army left in 1997 its ground grew wild. The girth and age here are the reader's figures; we have not seen a measurement. If you know more about this tree, tell us here.\n\nWalk in close and stand under the limbs to see the crown open above you.",
+      "verified_sources": [],
+      "access": "Free. On the Certosa island, open from dawn to sunset; the vaporetto stops at Certosa.",
+      "how_to_recognise": "A hackberry whose thick, smooth grey trunk, wound with old ivy stems, splits low into several limbs that climb into a tall open crown.",
+      "found_by_reader": {
+        "sighting_id": "2f5cf480-f2c6-4497-809b-5f41110d0860",
+        "date": "2026-11-24"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2f5cf480-f2c6-4497-809b-5f41110d0860",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (2f5cf480-f2c6-4497-809b-5f41110d0860, 2026-11-24, through the app). Photograph viewed: looking up from the foot of a thick, smooth grey trunk wound with old ivy stems, dividing low into several limbs that climb into a tall open crown of small leaves turning yellow-green, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). 258 m from ven_005 (a black poplar, different tree). The reader's own figures: name 'Common Hackberry in Venice', species 'Common Hackberry', age '200-309', girth 500 cm. Species kept to the genus: the reader names Celtis occidentalis, Celtis australis is the usual one in Venice; the photograph does not settle it.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ven_012-hackberry-of-the-certosa.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_9958e447be18d50bb8fd84bc",
+        "sighting_id": "2f5cf480-f2c6-4497-809b-5f41110d0860",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: looking up from the foot of a thick, smooth grey trunk wound with old ivy stems, dividing low into several limbs that climb into a tall open crown of small leaves turning yellow-green, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
   "oldest_tree_id": "ven_001"

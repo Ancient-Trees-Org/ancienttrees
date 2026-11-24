@@ -12133,6 +12133,39 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "tranekaer/tnk_001"
+  },
+  {
+   "sighting_id": "2f5cf480-f2c6-4497-809b-5f41110d0860",
+   "user_id": "p_9958e447be18d50bb8fd84bc",
+   "mine": false,
+   "name": "Common Hackberry in Venice",
+   "unsure_among": null,
+   "species": "Common Hackberry",
+   "age": "200-309",
+   "girth_cm": 500,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 45.4362421603182,
+   "longitude": 12.3766834062961,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_9958e447be18d50bb8fd84bc/2F5CF480-F2C6-4497-809B-5F41110D0860.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 258,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: looking up from the foot of a thick, smooth grey trunk wound with old ivy stems, dividing low into several limbs that climb into a tall open crown of small leaves turning yellow-green, daylight, colour. Live as venice/ven_012 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "venice/ven_012"
   }
  ]
 }
