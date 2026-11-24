@@ -661,9 +661,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/account/Account.kt",
    "summary": "Sign in with Google took the browser's account with no chooser; prompt=select_account on iOS, Android and web",
    "first_seen": "2026-11-24",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "android AccountTest.googleAlwaysAsksWhichAccount"
+   "test": "android AccountTest.googleAlwaysAsksWhichAccount",
+   "fixed_in": "e54350666"
   },
   {
    "id": "ESC-2026-11-24-a-tapped-pin-s-card-would-not-swipe-away",
@@ -672,8 +673,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/BottomSheet.swift",
    "summary": "A tapped pin's card would not swipe away: it needed half the card's height of drag; now 56 or a light flick (Material 3), iOS and Android",
    "first_seen": "2026-11-24",
-   "status": "open",
-   "found_by": "hidde"
+   "status": "fixed",
+   "found_by": "hidde",
+   "no_test_reason": "the threshold lives inside each sheet's gesture; checked by hand in the iOS simulator and the Android emulator with a slow 60 pt drag that sprang back before and closes now",
+   "fixed_in": "52899c936"
   }
  ]
 }

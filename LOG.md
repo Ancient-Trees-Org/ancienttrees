@@ -3,7 +3,8 @@
 ## 2026-11-24 session: Google sign-in chooser, swipe down on a pin's card checked
 
 - Live (web on the next deploy, apps in their next build): Sign in with Google always shows Google's account chooser (`prompt=select_account` on iOS OAuth.swift, Android Account.kt, web signin-js.ts). Hidde's Samsung took the browser's unknown account with no way to switch. Supabase forwards the parameter (read on the live authorize redirect). Test AccountTest.googleAlwaysAsksWhichAccount; escaped bug recorded.
-- Swipe down on a tapped pin's card: already built on both phones (PinSelection / MapTab.kt), and it works in current source in the iOS simulator and the Android emulator (a short quick swipe and a slow 80 pt drag both let the tree go; a slow 60 pt drag springs back, the nearest-stop rule). Nothing changed; asked Hidde which phone and build he saw it on.
+- Swipe down on a tapped pin's card (Hidde: springs back "zowel ios als android overal"): the let-go needed half the card's height; now 56 or a 125/s flick, Material 3's threshold, both phones (BottomSheet.swift, MapSheet.kt). Checked in simulator and emulator: a slow 60 pt drag that sprang back now closes. Next app builds.
+- Share on the full-size photo, both phones: a round share beside the X shares the tree's page (campaign `photo`), as Google Maps and Airbnb do. Web lightbox not yet. CONVENTIONS.md entry added.
 
 ## 2026-11-24 night run (second attempt, 18:47 window): nothing shipped, shelf checked again
 
