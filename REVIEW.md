@@ -24,6 +24,21 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24
+
+Web half: the last 24 hours were reader-judge batches (East Hampton to six, Willistown to four, the Oslo willow, the Magdalen Plane, Albuquerque, Greenwich, Laurel Hill) plus deploy, mail and qa speed work. The new East Hampton, Willistown, Oxford and Oslo pages hold no em dashes. Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html (and key-west strangler figs, gpx, api/trees.json) still carry "writer must not invent any" (eighth review; public copy never narrates process).
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (eighteenth review).
+- WARN site/dist/contribute.html "verified against independent sources" (twenty-ninth review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html "every coordinate verified" (ninth review; hard rule 2). The same sentence now shows in the app (collection.png, "Every entry is publicly accessible, every coordinate verified"), so the fix must reach the feed text, not only the web page.
+
+App half (iPhone SE: collect-ticked, collect-voted, collection-tab, collection-tab-full, collection, contribute): looked at all six.
+
+- NOTE APP collection-tab-full.png (signed-in test account): both collected trees render as the same grey-green placeholder tree with only an "Amsterdam" chip and no tree name or photograph; a person cannot tell what they collected. Fine if the test fixture has no photos, a real gap if a collected tree without a lead photo looks like this.
+- NOTE APP collect-voted.png: the note placeholder "Leave a note: share something you'd like the next visitors to read about this tree" uses a colon to join two clauses; "Leave a note for the next visitors" would do. The Wilhelminalinde "128 years old" is stated flat while the tree's own age is an estimate (age_basis); check it reads "about" elsewhere.
+- NOTE APP collection.png, contribute.png, collect-ticked.png read honestly; no findings.
+
 ## 2026-11-23
 
 Web half: last 24 hours were a reader-judge batch (Varese, Esrum, McMinnville, Siliqua, Rungis, new Birkerod and Paris trees). The new city pages hold no em dashes. The four earlier WARNs still stand in site/dist (grep today), not repeated in full; replacements as in the 2026-11-21 entry:
