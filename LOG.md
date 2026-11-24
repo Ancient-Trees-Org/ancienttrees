@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-24 night run (window from 11:55 UTC): nothing to ship
+
+Rung 1: no reader backlog; read the 11 new tree notes, none on the closed hide list, marked seen. One unmapped reader photo (3c544597, Amsterdam) is the reader judge's. Rung 2: health.py flagged the 11:32 build failure, but the India and South Africa description fix and later builds were already running; no new fault found. Code audit has one open row, a UX row (not a run's). Own research is paused; `reader_words`, `recognise --stuck` and enrich are empty; pagegaps only lists species pages under the strict cut. The 4 READY leads (Leamington Spa, York, Guimaraes) only have a verify brief, not a write path, so nothing was written. Nothing committed except this entry.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
