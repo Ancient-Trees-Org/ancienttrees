@@ -325,8 +325,11 @@ def main():
             # waitlist addresses went as FIRST and filled Resend by 09:36;
             # Hidde: "dit wilde we dus niet"). Default stays FIRST: signed.
             kind = mailer.EXPECTED if batch.get("kind") == mailer.EXPECTED else mailer.FIRST
+            # Every batch goes through Resend only, never a Google mailbox
+            # (CLAUDE.md mail route rule; mailer google=False).
             server = mailer.connect(creds, timeout=30, kind=kind,
-                                    resend_left=mailer.resend_left_for_strangers(sent_log, today))
+                                    resend_left=mailer.resend_left_for_strangers(sent_log, today),
+                                    google=False)
         # A ROUTE THAT IS FULL STOPS THE BATCH (2026-11-20): Gmail's daily
         # limit mid-batch used to crash the run, or spill the rest onto Resend's
         # sign-in reserve. Now this mail and the rest wait for another day.

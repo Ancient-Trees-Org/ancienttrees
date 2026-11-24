@@ -59,7 +59,7 @@ def msg(to):
     return m
 
 
-def run(kind, tos, behaviour, env=ENV, resend_left=None):
+def run(kind, tos, behaviour, env=ENV, resend_left=None, google=True):
     sent.clear()
     Fake.behaviour = behaviour
     with mock.patch.object(smtplib, "SMTP", Fake), mock.patch.dict(os.environ, env, clear=False), \
@@ -68,7 +68,7 @@ def run(kind, tos, behaviour, env=ENV, resend_left=None):
         if not env:
             for k in ENV:
                 os.environ.pop(k, None)
-        s = mailer.connect(CREDS, kind=kind, resend_left=resend_left)
+        s = mailer.connect(CREDS, kind=kind, resend_left=resend_left, google=google)
         for t in tos:
             s.send_message(msg(t))
         s.quit()
@@ -131,6 +131,15 @@ expect("reserve: share counted from the logged routes",
                                                  + [{"date": "d", "route": "gmail"}] * 9
                                                  + [{"date": "old", "route": "resend"}] * 50}, "d"),
        mailer.RESEND_FOR_STRANGERS - 58)
+expect("batch (google=False): an expected batch goes through resend, never gmail (2026-11-24)",
+       run(mailer.EXPECTED, [A_GMAIL, B_YAHOO], {}, google=False),
+       [("resend", A_GMAIL), ("resend", B_YAHOO)])
+expect("batch (google=False): resend refusing raises instead of falling to gmail",
+       "raised" if _raises(lambda: run(mailer.FIRST, ["a@x.org"], {"resend": "refuse"}, google=False)) else "sent",
+       "raised")
+expect("batch (google=False): the share used up holds the mail, never gmail",
+       "raised" if _raises(lambda: run(mailer.EXPECTED, [A_GMAIL], {}, resend_left=0, google=False)) else "sent",
+       "raised")
 try:
     run(mailer.FIRST, ["a@x.org"], {"resend": "refuse", "gmail": "refuse"})
     expect("both refuse: raises", "no error", "error")

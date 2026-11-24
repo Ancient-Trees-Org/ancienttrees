@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: no batch can reach a Google mailbox any more
+
+- **Breakage found**: the "on hold" for the Android wave 3 invitations (2026-11-23) lived only in words; the batch file kept `approved_by_hidde`, so the night run's "Continue an approved outreach batch" step sent another 100 today through the Workspace mailbox (route gmail). about 380 of 777 are still unsent.
+- **Fixed**: the batch is `on_hold` (pushed to the private store, read back). And in code: outreach_send.py opens mailer with `google=False`, so every batch goes through Resend only; what Resend will not take waits, it never falls to Gmail or Workspace. Tests in scripts/test_mailer.py (three new cases, all pass). Hidde, 2026-11-24: "lijkt me een slecht idee".
+- Still through Workspace, by design: single expected mails from the other scripts (photo-live, ambassador, contributor replies), about 30 a day. Sign-in mail goes through Resend first.
+- CTV: Devika mailed via Resend in her thread to resend her interview time to hidde@ancienttrees.app; her answer may sit in the blocked Gmail (ImprovMX forwarded info@ there until the MX switch on 11-23).
+
 ## 2026-11-24 reader judge: the Pine Tree Way mulberry in Lewisham is live
 
 - **Live**: london/lon_056, The Pine Tree Way Mulberry, a black mulberry on the corner of Pine Tree Way and Elmira Street, Lewisham, from a reader's app photograph (sighting 5ecc87a6). Morus Londinium confirms it (heritage and notable, 9 m, 126 cm, probably planted in an 1860s boys' school playground, about 150 years); the reader's 160 years and their note stand beside it. Their pin was placed by hand, so approximate. The photo has no camera data, but the app strips that from every photograph, and it is not the picture Morus Londinium publishes.

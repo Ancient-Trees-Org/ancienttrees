@@ -168,8 +168,14 @@ class _Server:
     unsigned for our domain, so on a full day Yahoo bounces it; everyone else
     hears from us the same day."""
 
-    def __init__(self, creds=None, timeout=30, kind=FIRST, resend_left=None):
+    def __init__(self, creds=None, timeout=30, kind=FIRST, resend_left=None, google=True):
         self._creds, self._timeout, self._kind = creds, timeout, kind
+        # NO BATCH THROUGH A GOOGLE MAILBOX (Hidde, 2026-11-23 "eens", after
+        # Google blocked his Gmail; 2026-11-24 "lijkt me een slecht idee", after
+        # the night run still sent 100 Android invitations through Workspace).
+        # google=False closes the Gmail/Workspace route for this connection:
+        # what Resend cannot take waits for a later knock.
+        self._google = google
         # RESEND'S RESERVE (Hidde, 2026-11-19, "ja graag", after a batch filled
         # Resend's 100 a day and Yahoo's sign-in mail had nowhere to go): a mail
         # that wants Resend only because it is a first mail to a stranger may
@@ -181,6 +187,8 @@ class _Server:
         self._dead = set()        # routes that refused or could not be reached
 
     def _route(self, name):
+        if name != "resend" and not self._google:
+            return None
         return _resend_route() if name == "resend" else _gmail_route(self._creds)
 
     def _conn(self, name):
@@ -286,11 +294,11 @@ def resend_left_for_strangers(sent_log, today):
     return max(0, RESEND_FOR_STRANGERS - used)
 
 
-def connect(creds, timeout=30, kind=FIRST, resend_left=None):
+def connect(creds, timeout=30, kind=FIRST, resend_left=None, google=True):
     """A sender for one batch. `kind` is FIRST for a first mail to a stranger
     (the default, signed) and EXPECTED for mail a person asked for or expects.
     Connections open on the first mail that needs them, so a machine without
     one of the two routes still sends through the other."""
-    if not _resend_route() and not _gmail_route(creds):
+    if not _resend_route() and not (google and _gmail_route(creds)):
         raise smtplib.SMTPServerDisconnected("no mail route configured on this machine")
-    return _Server(creds, timeout, kind, resend_left)
+    return _Server(creds, timeout, kind, resend_left, google)
