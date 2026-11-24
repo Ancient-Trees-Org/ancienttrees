@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-24 reader judge: nothing new from readers
+
+- Nothing changed in the product. No reader's photograph or tree is waiting, no reports are open, no tips are unjudged and no readers' words need quoting. Nothing a reader sent has waited over 24 hours.
+- Feedback 1633 (a mail reply about Verona) was only an emoji reaction to our mail. Closed `handled`.
+- Still waiting: lead 3c544597 in Amsterdam. It is our own account's photograph (`mine`), the file is not on disk and the fetcher skips `mine` rows by design, so it was not judged blind.
+- data/judgements.json: the scan put the Mirano magnolia entry in a new place in the file. The content is unchanged.
+
 ## 2026-11-24 reader judge: the monumental magnolia of Mirano
 
 - **New place Mirano (Venice), The Magnolia of Villa Belvedere (mir_001)**: a reader sent it from the app (sighting f976cbc6, taken October): a giant southern magnolia whose knotted grey trunk breaks low into a dozen snaking limbs, the reader standing at its foot with arms spread for scale, daylight. Italy's national register (MASAF 02/F241/VE/05, Villa Morosini, Via Luigi Mariutto 4) lists a southern magnolia 15 m from their pin with the same girth, 378 cm, and 20.5 m tall; `girth_cm`, `height_m` and `official_register` are the register's, the 155 years is the reader's. Their pin was placed by hand, so it stays approximate. A one-tree place, so no place page on the web (the tree page only). The congratulation mail (`tree_approved.py --send`) waits until the tree is in the live feed after the deploy.

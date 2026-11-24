@@ -1339,6 +1339,18 @@
    "agreed": null
   },
   {
+   "id": "sight:f976cbc6-e809-4da0-98ac-5367e26dc9be",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Magnolia of Villa Belvedere",
+   "photo": "p_f60ddafc587ad9f79b118aa6/F976CBC6-E809-4DA0-98AC-5367E26DC9BE.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole southern magnolia from beneath its crown, the reader at its foot for scale, daylight, colour. Live as mirano/mir_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -28305,18 +28317,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f976cbc6-e809-4da0-98ac-5367e26dc9be",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Magnolia of Villa Belvedere",
-   "photo": "p_f60ddafc587ad9f79b118aa6/F976CBC6-E809-4DA0-98AC-5367E26DC9BE.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the whole southern magnolia from beneath its crown, the reader at its foot for scale, daylight, colour. Live as mirano/mir_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
