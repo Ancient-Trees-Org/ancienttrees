@@ -510,12 +510,14 @@ def check_app_crashes_reach_a_person():
         # Hidde, 2026-11-20: "if you find about crashes you dive into them i
         # shouldnt have to ask you": the app's own reports ring in health.py.
         ("health.py", "app_crashes.health_line(", "health.py no longer rings for crashes the app reports to PostHog"),
+        # 2026-11-24: an unanswered report rings until answered, not 48 hours.
+        ("health.py", "crashes.load(days=crashes.UNANSWERED_DAYS)", "health.py reads only recent crashes again, so an unanswered one expires"),
     ]
     for name, needle, why in wiring:
         if needle not in text(name):
             out.append(f"scripts/{name}: {why} (check_app_crashes_reach_a_person).")
     limits = {"BURST": 3, "BURST_HOURS": 24, "URGENT_SAME_PHONE": 3,
-              "URGENT_PHONES": 2}
+              "URGENT_PHONES": 2, "HANG_REPEAT": 2}
     src = text("crashes.py")
     for name, most in limits.items():
         m = re.search(r"^%s = (\d+)" % name, src, re.M)
@@ -537,9 +539,16 @@ def check_app_crashes_reach_a_person():
                 continue
             if not f.get("signature") or not f.get("build"):
                 out.append("data/crash-fixes.json: an entry without signature or build.")
-            if not (f.get("first_fixed_build") or f.get("server_remedy")):
+            # `answered_at` (looked into, no cause found, 2026-11-24) quiets only
+            # the reports before it, so a newer one rings again; it needs what
+            # was looked at, or it is a silencer.
+            if f.get("answered_at") and not (f.get("first_fixed_build") or f.get("server_remedy")):
+                if not f.get("what") or not re.match(r"\d{4}-\d{2}-\d{2}", str(f["answered_at"])):
+                    out.append(f"data/crash-fixes.json: {f.get('signature')} has answered_at "
+                               "without a date or without what was looked at.")
+            elif not (f.get("first_fixed_build") or f.get("server_remedy")):
                 out.append(f"data/crash-fixes.json: {f.get('signature')} names neither a "
-                           "fixed build nor a server remedy, so it would hide a live crash.")
+                           "fixed build, a server remedy nor answered_at, so it would hide a live crash.")
     except (OSError, ValueError) as e:
         out.append(f"data/crash-fixes.json unreadable ({e.__class__.__name__}).")
     return out

@@ -37,6 +37,18 @@
       "what": "Crash during a pan (iOS 27.2.1, 2026-11-20): MapLibre threw from style.addLayer in MapLayers.addTreeLayers (TreeMap.swift:1749 on build 41), from redraw in regionDidChangeAnimated. Its only throw there is a layer name the style already holds. Layer names were base#generation, and the generation restarts at 0 when a style's StyleState is made again (states holds the style weakly) while the last set is still drawn. Names now carry the state's own seq (MapLayers.layerID) and every tree layer goes through addFresh, which removes a same-named layer first. Test: PinRuleTests.aStateMadeAgainNeverReusesALayerName.",
       "fix_commit": "fix/crash-layer-ids",
       "first_fixed_build": "42"
+    },
+    {
+      "signature": "AncientTrees+0x2409a0",
+      "build": "41",
+      "answered_at": "2026-11-24",
+      "what": "One crash (2026-11-16, iOS 18.7.8): SIGSEGV at 0xfffffffffffffff0 while SwiftUI destroyed a TreeMap and released a closure MapTab.body captured (closure #4 in closure #1). A released-twice or torn-down object, no line of ours that does it, not reproducible from one report. Looked into 2026-11-24, no cause found; a newer report rings again."
+    },
+    {
+      "signature": "(no AncientTrees frame)",
+      "build": "41",
+      "answered_at": "2026-11-24",
+      "what": "One crash (2026-11-15, iOS 18.7.8): EXC_BREAKPOINT / SIGTRAP, empty stack on the crashed thread, no frame of ours on any thread. Nothing to read; looked into 2026-11-24, no cause found; a newer report rings again."
     }
   ]
 }

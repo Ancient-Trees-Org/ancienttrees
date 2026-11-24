@@ -70,7 +70,12 @@ FIXES = os.path.join(ROOT, "data", "crash-fixes.json")
 
 BURST = 3          # crashes of one signature on a store build ...
 BURST_HOURS = 24   # ... inside this many hours is an act item
-ONE_CRASH_HOURS = 48  # a single crash with no answer on file acts too (2026-11-24)
+# A report with no answer in data/crash-fixes.json rings until it has one,
+# read over this many days (health.py loads them; a build stays on sale far
+# shorter than this between our releases).
+UNANSWERED_DAYS = 30
+HANG_REPEAT = 2       # hangs of one signature, unanswered, that ring ...
+HANG_LONG_SECS = 5.0  # ... or one hang at least this long
 
 # URGENT (Hidde, 2026-10-16: flag "when a crash needs an immediate update"):
 # the app is unusable for someone (one phone crashing URGENT_SAME_PHONE times
@@ -160,6 +165,18 @@ def _top_frame(diag):
     return None, None, None
 
 
+def _secs(text):
+    """'2 sec', '1.25 sec', '750 ms' -> seconds as a float; 0 when absent."""
+    m = re.match(r"\s*([\d.]+)\s*(ms|sec|s)?", str(text or ""))
+    if not m:
+        return 0.0
+    try:
+        v = float(m.group(1))
+    except ValueError:
+        return 0.0
+    return v / 1000 if m.group(2) == "ms" else v
+
+
 def diagnostics(rows):
     """One record per crash or hang inside the rows' payloads."""
     out = []
@@ -182,6 +199,8 @@ def diagnostics(rows):
                     "uuid": uuid,
                     "offset": off,
                     "at": r.get("created_at"),
+                    # How long a hang held the app ("2 sec"), 0 for a crash.
+                    "secs": _secs(meta.get("hangDuration") or d.get("hangDuration")),
                     # In memory only, to count phones; never printed.
                     "_phone": (meta.get("deviceType"), meta.get("osVersion"),
                                meta.get("regionFormat")),
@@ -265,6 +284,7 @@ def group(diags, symbolicate=True):
         s["last"] = max(s["last"], d["at"])
         s["_phone_times"].setdefault(d["_phone"], []).append(d["at"])
         s["times"].append(d["at"])
+        s.setdefault("_secs", []).append((d["at"], d.get("secs", 0.0)))
     fixes = load_fixes()
     out = []
     for s in sigs.values():
@@ -273,7 +293,8 @@ def group(diags, symbolicate=True):
                       if s["offset"] is not None else "(no %s frame)" % BINARY)
         s["symbol"] = symbol(s["binary"], s["uuid"], s["offset"]) if symbolicate else None
         s["fix"] = next((f for f in fixes if f.get("signature") == s["frame"]
-                         and str(f.get("build")) == s["build"]), None)
+                         and str(f.get("build")) == s["build"]
+                         and f.get("kind", "crash") == s["kind"]), None)
         out.append(s)
     out.sort(key=lambda s: (-s["count"], s["last"]))
     return out
@@ -383,9 +404,32 @@ def assess(sigs, stores, now=None):
     now = now or datetime.datetime.now(datetime.timezone.utc)
     out = []
     for s in sigs:
-        if s["kind"] != "crash" or not is_store(s["build"], stores):
+        if not is_store(s["build"], stores):
             continue
         f = s.get("fix") or {}
+        # UNANSWERED RINGS UNTIL ANSWERED (2026-11-24, Hidde: "is this a solid
+        # system without leaks?"). It used to ring for 48 hours and then go
+        # quiet, answered or not; with GitHub dropping half the night's knocks
+        # four build 41 reports expired unread. Now every report on a build
+        # on sale counts until data/crash-fixes.json answers it: a fix build,
+        # a server remedy, or `answered_at` (looked into, no cause found),
+        # after which only newer reports count again.
+        answered = f.get("first_fixed_build") or f.get("server_remedy")
+        stamp = str(f.get("answered_at") or "")
+        if len(stamp) == 10:  # a date alone means that whole day was read
+            stamp += "T23:59:59"
+        since = _when(stamp) if (stamp and not answered) else None
+        open_times = ([] if answered else
+                      [t for ts in s["_phone_times"].values() for t in ts
+                       if since is None or _when(t) > since])
+        if s["kind"] == "hang":
+            # A HANG rings when it repeats or is long: one short hang at
+            # launch on a phone in low power mode is the system, not us.
+            longest = max((sec for t, sec in s.get("_secs", []) if t in open_times), default=0.0)
+            if len(open_times) >= HANG_REPEAT or longest >= HANG_LONG_SECS:
+                out.append({"s": s, "level": "act", "n": len(open_times), "phones": max(1, s["phones"]),
+                            "same_phone": 0, "label": "", "hours": None, "longest": longest})
+            continue
         cut = now - datetime.timedelta(hours=BURST_HOURS)
         if f.get("contained_at"):
             cut = max(cut, _when(f["contained_at"]))
@@ -399,19 +443,14 @@ def assess(sigs, stores, now=None):
         pattern = same_phone >= URGENT_SAME_PHONE or phones >= URGENT_PHONES
         # One crash on a stranger's phone is enough while no answer is on
         # file (Hidde, 2026-11-20, the rule app_crashes.py already kept for
-        # the app's own reports; this MetricKit reader still waited for a
-        # burst, so four single crashes on build 41 rang nothing, found
-        # 2026-11-24). Read over ONE_CRASH_HOURS: MetricKit posts a day late.
-        if not f:
-            one_cut = now - datetime.timedelta(hours=ONE_CRASH_HOURS)
-            single = sum(1 for ts in s["_phone_times"].values() for t in ts if _when(t) >= one_cut)
-        else:
-            single = 0
+        # the app's own reports; this MetricKit reader waited for a burst
+        # until 2026-11-24).
+        single = len(open_times)
         if not (pattern or n >= BURST or single):
             continue
         hours = BURST_HOURS
         if single > n:
-            n, phones, hours = single, max(phones, 1), ONE_CRASH_HOURS
+            n, phones, hours = single, max(phones, 1), None
         if f.get("server_remedy"):
             level = "reapply"
         elif f.get("first_fixed_build"):
@@ -428,8 +467,15 @@ def assess(sigs, stores, now=None):
 def message(a):
     """One sentence a run, or Hidde, can act on."""
     s, f = a["s"], a["s"].get("fix") or {}
-    head = ("%s on store build %s (%s): %d crash(es) on %d phone(s) in %dh"
-            % (where(s), s["version"], s["build"], a["n"], a["phones"], a.get("hours", BURST_HOURS)))
+    what = "hang(s)" if s.get("kind") == "hang" else "crash(es)"
+    head = "%s on store build %s (%s): %d %s on %d phone(s)" % (
+        where(s), s["version"], s["build"], a["n"], what, a["phones"])
+    head += (" in %dh" % a["hours"]) if a.get("hours") else ", not answered yet"
+    if a.get("longest"):
+        head += ", the longest %.1f s" % a["longest"]
+    if a["level"] == "act":
+        head += (". Answer it in data/crash-fixes.json: first_fixed_build with the fix, "
+                 "or answered_at plus what was looked at when no cause is found")
     if a["same_phone"] >= URGENT_SAME_PHONE:
         head += ", one phone %d times inside %dh (a crash at every launch)" % (
             a["same_phone"], URGENT_PHONE_HOURS)

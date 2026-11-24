@@ -23,11 +23,14 @@ digest page).
     python3 scripts/feedback.py --open            unhandled feedback, words in full
     python3 scripts/feedback.py --count           how many wait (for the workflow gate)
     python3 scripts/feedback.py --close <id> handled|needs_hidde|doubt "what was done"
+    python3 scripts/feedback.py --close <id> bug <code-audit BUG id> "what was done"
     python3 scripts/feedback.py --for-hidde       the rows that need him (digest)
 
 Statuses: `handled` (done, nothing for him: a fix made, a lead recorded, an
-idea filed, no answer needed), `needs_hidde` (a reply drafted for his yes, or
-a decision that is his), `doubt` (we could not settle it; say why).
+idea filed, no answer needed), `bug` (something broken: the BUG row it names
+in data/code-audit.json is rung-2 work until a test closes it, never his
+call), `needs_hidde` (a reply drafted for his yes, or a decision that is
+his), `doubt` (we could not settle it; say why).
 """
 import datetime
 import json
@@ -39,7 +42,17 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 LEDGER = os.path.join(ROOT, "data", "feedback-ledger.json")
 VOTES = ("worth it", "not worth it", "vote undone")
-STATUSES = ("handled", "needs_hidde", "doubt")
+STATUSES = ("handled", "needs_hidde", "doubt", "bug")
+AUDIT = os.path.join(ROOT, "data", "code-audit.json")
+
+
+def bug_ids():
+    """Every BUG row id in data/code-audit.json (escaped.py --add writes them)."""
+    try:
+        doc = json.load(open(AUDIT, encoding="utf-8"))
+    except (OSError, ValueError):
+        return set()
+    return {f.get("id") for f in doc.get("findings", []) if f.get("kind") == "BUG"}
 
 
 def ledger():
@@ -108,8 +121,22 @@ def main():
         if status not in STATUSES:
             print("status must be one of " + ", ".join(STATUSES))
             return 2
+        row = {"status": status, "what": what, "date": datetime.date.today().isoformat()}
+        if status == "bug":
+            # A READER'S BUG IS A BUG, NOT HIDDE'S CALL (2026-11-24: report
+            # 1491, the country that would not stay, sat two days as
+            # needs_hidde while a fix was the work). It names the BUG row in
+            # data/code-audit.json, which makes it rung-2 work until a test
+            # closes it; a reply drafted for his yes still shows in drafts/.
+            bug, _, what = what.partition(" ")
+            if bug not in bug_ids():
+                print("bug needs the id of a BUG row in data/code-audit.json first "
+                      "(python3 scripts/escaped.py --add ... --found-by reader), then: "
+                      "--close <id> bug <bug-id> \"what was done\"")
+                return 2
+            row.update(bug=bug, what=what.strip())
         doc = ledger()
-        doc["rows"][str(rid)] = {"status": status, "what": what, "date": datetime.date.today().isoformat()}
+        doc["rows"][str(rid)] = row
         save(doc)
         print("%s: %s" % (rid, status))
         return 0

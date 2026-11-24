@@ -10,16 +10,17 @@ You review; you never fix. Write only REVIEW.md, data/code-audit.json and one li
 
 - Every review: what changed in the last seven days, plus the files those changes call into or are called from (a bug usually lives where new code meets old).
   - App: `git log --since=7.days --stat -- ios/AncientTrees/AncientTrees` and the diffs.
+  - Android app (2026-11-24, Hidde: "also for bugs and android?"; it shipped without any code review): `git log --since=7.days --stat -- android/app/src/main` and the diffs, read as Kotlin and Compose. Also the iPhone change of the same week that Android copies (CLAUDE.md "Android copies the iOS app exactly"): a bug fixed on one phone and still in the other is a BUG on the other.
   - Website: `git log --since=7.days --stat -- site/src` and the diffs. The scripts a visitor runs live as template strings in site/src/lib/*-js.ts and site/src/lib/map*.ts; read them as JavaScript.
-- A full sweep (the workflow says FULL SWEEP: yes, when the last one is 28 or more days old): the whole app (ios/AncientTrees/AncientTrees/Screens and Kit) and the website's scripts (site/src/lib/*-js.ts, site/src/lib/map*.ts, site/src/components), largest files first.
+- A full sweep (the workflow says FULL SWEEP: yes, when the last one is 28 or more days old): the whole iPhone app (ios/AncientTrees/AncientTrees/Screens and Kit), the whole Android app (android/app/src/main/java) and the website's scripts (site/src/lib/*-js.ts, site/src/lib/map*.ts, site/src/components), largest files first.
 - data/code-audit.json first: anything already listed is not reported again, unless it was marked fixed and is back (then it is a regression, say so).
 - The corpus that sets the standard: CLAUDE.md (What this is, How to work, Design-time checks, hard rules), PRODUCT_COPY.md. For an interaction, grep CONVENTIONS.md's `^## ` headings and read only the matching entry.
 
 ## What to look for
 
-Each finding gets a surface, APP or WEB, and one of five kinds:
+Each finding gets a surface, APP or WEB, and one of five kinds. An Android finding is APP too, its `file` under android/ and its summary starting "Android:", so it reaches the same rung-2 work and quality line as the iPhone's.
 
-- `BUG`: something wrong for a person. App: a crash path (force unwrap on data, index out of range), state out of sync, work done twice at once, a task never cancelled, a change that never reaches the screen, something that breaks offline or signed out. Web: a script that throws for one kind of page or visitor, a listener added twice, a fetch whose failure leaves a control dead, a signed-out or signed-in path that cannot work, a gate that does not go through atCollection.gate.
+- `BUG`: something wrong for a person. App: a crash path (force unwrap on data, index out of range; on Android `!!` on data, `[0]` on a list that can be empty, a coroutine outliving its screen, work on the main thread that can freeze it), state out of sync, work done twice at once, a task never cancelled, a change that never reaches the screen, something that breaks offline or signed out. Web: a script that throws for one kind of page or visitor, a listener added twice, a fetch whose failure leaves a control dead, a signed-out or signed-in path that cannot work, a gate that does not go through atCollection.gate.
 - `SPEED`: App: work in a SwiftUI body or computed property on every redraw (filtering or sorting the catalogue, big arrays, images decoded on the main thread, network on every appearance, timers nobody needs). Web: work on every scroll, move or keystroke over all trees, a large file loaded on pages that never use it, layout thrash, images without the srcset every image should carry.
 - `UX`: an interaction that differs from the convention (AllTrails, Google Maps, Airbnb, komoot, Polarsteps, Apple's own apps), two ways to do one thing, a tap that does something unexpected, or the app and the website doing the same thing differently. Name the convention and its source and describe before and after in one or two sentences so it can be drawn.
 - `CUT`: a screen, control, setting, copy or code path nobody needs, or one that only duplicates another.
@@ -36,6 +37,6 @@ Verify every finding by reading the code; leave out what you are not sure of. Th
 
 ## Who acts on it
 
-- BUG and SPEED: the night run, CLAUDE.md rung 2 (bugs) and rung 10 (speed). App work in a .claude/worktrees/ worktree with a unit test where the logic allows; web work verified by build output or a parsed script. Never a visible change; set the row to fixed with the commit.
+- BUG and SPEED: the night run, CLAUDE.md rung 2 (bugs) and rung 10 (speed). App work in a .claude/worktrees/ worktree with a unit test where the logic allows (Android: a test under android/app/src/test, which android.yml runs, since this Mac cannot build Android); web work verified by build output or a parsed script. Never a visible change; set the row to fixed with the commit.
 - UX and CUT: never a run. A session draws the before and after for Hidde and builds only on his yes.
 - CODE: rung 10, when nothing above it has work.

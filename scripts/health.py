@@ -759,7 +759,9 @@ def main():
     # on a store build that fires BURST times in a day is rung-2 work.
     try:
         import crashes
-        sigs, stores = crashes.load(days=2)
+        # Every report until it is answered (crashes.UNANSWERED_DAYS,
+        # 2026-11-24), not only the last 48 hours.
+        sigs, stores = crashes.load(days=crashes.UNANSWERED_DAYS)
         if sigs is None:
             unknown.append("app crashes (no service key)")
         else:
@@ -769,10 +771,13 @@ def main():
             live = sum(s["count"] for s in sigs if crashes.is_store(s["build"], stores))
             worst = found[0]["level"].upper() if found else "ok"
             print(f"  {'App crashes':20s} {worst:10s} "
-                  f"{live} from store builds in 48h")
+                  f"{live} from store builds in {crashes.UNANSWERED_DAYS} days, "
+                  f"{sum(1 for a in found if a['level'] != 'waiting')} not answered")
             for a in found:
                 if a["level"] == "waiting":
                     notes.append("App crash " + crashes.message(a))
+                elif a["s"].get("kind") == "hang":
+                    problems.append("The app hangs: " + crashes.message(a))
                 else:
                     problems.append("The app is crashing: " + crashes.message(a))
     except Exception as e:

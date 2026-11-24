@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: four leaks in bug handling closed
+
+- **An iPhone crash rings until it is answered**, not for 48 hours. Four build 41 reports had expired unread while GitHub dropped half the night's knocks. An answer is a fix build, a server remedy, or `answered_at` with what was looked at; a newer report rings again. The two crashes with no cause found are now recorded that way in data/crash-fixes.json.
+- **iPhone hangs ring** when one kind repeats or lasts 5 seconds; one short hang stays quiet (the 11-21 launch hang). Test: scripts/test_crash_single.py.
+- **A reader who says something is broken is a bug, never Hidde's call**: `feedback.py --close <id> bug <bug-id>` names the code-audit row, which is rung-2 work. Report 1491 (the country) moved off his list to its bug row this way.
+- **The weekly code review reads Android** (BRIEF_CODE_AUDIT.md); it had only read the iPhone and the website.
+
 ## 2026-11-24 session: build 41's crashes looked into, the map crash fixed, single iPhone crashes ring
 
 - **The map crash during a pan is fixed for build 42** (one phone, iOS 27.2.1, 11-20). MapLibre stopped the app when a layer of tree pins was added under a name the map already held. Layer names were a counter per map that can start over while the old pins are still drawn. Names now carry the map's own number (`MapLayers.layerID`), and every pin layer removes a same-named one first (`addFresh`). Test: `PinRuleTests.aStateMadeAgainNeverReusesALayerName`. Looked at in the simulator: pins and dots draw as before. For Hidde: next build carries fix for AncientTrees+0x35fccc.
