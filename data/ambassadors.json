@@ -2115,6 +2115,36 @@
         "The Twisted Cedar of the Swamp Boardwalk"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a3f2a2d73be01cc431f88202",
+      "place_slug": "langwarrin",
+      "place_name": "Langwarrin",
+      "date": "2026-11-24",
+      "trees": [
+        "The Macedon Oak of Cruden Farm"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_997e42533afdc70e8a2d88ad",
+      "place_slug": "ngahinapouri",
+      "place_name": "Ngāhinapōuri",
+      "date": "2026-11-24",
+      "trees": [
+        "The Plane of Stewart Reid Memorial Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7fa80e0b4fffedc4d05bc6ba",
+      "place_slug": "tsagarada",
+      "place_name": "Tsagarada",
+      "date": "2026-11-24",
+      "trees": [
+        "The Plane of Agia Paraskevi"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
