@@ -556,6 +556,55 @@
    "agreed": null
   },
   {
+   "id": "lead:2cbeafcc-400d-4069-a050-cee475026121",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "city": null,
+   "species": "White Mulberry",
+   "photo": "p_0a92b73bb85b607e09b323ee/2CBEAFCC-400D-4069-A050-CEE475026121.jpg",
+   "reader_note": "A historic local plant that was used for Silk growing farming in the Veronese countryside.",
+   "reader_girth_cm": 320,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad old white mulberry, trunk splitting low around a hollow, pollard knuckles, by a road behind a wire fence; special in its setting. Live as verona/ver_011, approximate pin at the reader's last hand-placed spot, seen from the road.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1598",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Zelkova serrata of Kanayama",
+   "city": "Ota, Japan",
+   "species": null,
+   "photo": "p_ed78f0fc4542478a0ccd3d87/505318cd-1911-44de-a416-151693fb4cf9.jpg",
+   "reader_note": "800 years old, has a name (金山の大ケヤキ) and a sign.",
+   "reader_girth_cm": 680,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge spreading zelkova in autumn colour, limbs on props, chain fence, at a shrine. Gunma Prefecture's Kanayama walking guide and Ota City's landscape plan name the great zelkova of Kanayama at Nitta Shrine. Live as ota/otg_001, pin at the shrine, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27522,6 +27571,54 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "p_0a92b73bb85b607e09b323ee/2CBEAFCC-400D-4069-A050-CEE475026121.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole lower mulberry in summer leaf, trunk splitting low around a hollow, wire fence and road behind, daylight, colour. Lead photograph of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-1",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the pollarded trunk close up, two stems and cut knuckles, daylight, colour. In the strip of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-3",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the trunk from the field side under the crown, daylight, colour. In the strip of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1598",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Zelkova serrata of Kanayama",
+   "photo": "p_ed78f0fc4542478a0ccd3d87/505318cd-1911-44de-a416-151693fb4cf9.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole zelkova in late autumn, limbs on props, chain fence, gravel paths, daylight, colour. Lead photograph of ota/otg_001.",
    "hidde": null,
    "agreed": null
   }

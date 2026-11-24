@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-24 reader judge: two readers' trees live (Verona mulberry, Ota zelkova)
+
+- **Verona, ver_011, The Silk Mulberry of Ca' di David** (app, sighting 2cbeafcc): an old pollarded white mulberry splitting low around a hollow, by a country road on Verona's southern edge. The reader's words go on the page quoted (silk farming), and their 120 to 130 years and 320 cm are stated as theirs. The pin is approximate: they placed it by hand, then moved it twice after sending (reports 1000140/1000141, same account), and their last spot is used. Those two reports are closed `holds` with no mail, because they were part of adding their own tree. The tree is behind a wire fence, so `access` says to look from the road. Lead photo (May, the photo's own date) plus two strip frames. Verona's counts are updated in English and in the kept Italian overlay, whose title no longer says 10.
+- **Ota (Gunma), otg_001, The Great Zelkova of Kanayama** (website tip 1598, new one-tree place, so no place page): a huge spreading zelkova in autumn colour at Nitta Shrine on the Kanayama Castle summit. Sourced from Gunma Prefecture's Kanayama walking guide ("樹齢800年とも伝えられる「金山の大ケヤキ」") and Ota City's landscape plan. The pin is at the shrine and approximate, with the photo filed as November from the autumn colour. Its girth of 680 cm is the reader's.
+- Left as it was: lead 3c544597 (Amsterdam) is `mine` (our own account) and its photo is not on disk, so the run did not judge it.
+- No feedback waiting, and reader_words was empty. preflight 0, qa source clean, i18ncheck it/verona clean.
+
 ## 2026-11-24 night run (window from 11:55 UTC): nothing to ship
 
 Rung 1: no reader backlog; read the 11 new tree notes, none on the closed hide list, marked seen. One unmapped reader photo (3c544597, Amsterdam) is the reader judge's. Rung 2: health.py flagged the 11:32 build failure, but the India and South Africa description fix and later builds were already running; no new fault found. Code audit has one open row, a UX row (not a run's). Own research is paused; `reader_words`, `recognise --stuck` and enrich are empty; pagegaps only lists species pages under the strict cut. The 4 READY leads (Leamington Spa, York, Guimaraes) only have a verify brief, not a write path, so nothing was written. Nothing committed except this entry.

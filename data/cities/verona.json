@@ -3,10 +3,10 @@
   "country": "Italy",
   "face_tree_id": "ver_005",
   "status": "needs_curation",
-  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, nine in the city itself, plus a tenth a short train ride east, the holm oak in front of San Bonifacio station.",
+  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, ten within the city's bounds, plus an eleventh a short train ride east, the holm oak in front of San Bonifacio station.",
   "meta_description": "Verona's most remarkable trees, from the century-old cedar just saved beside the Arena to the cypress avenue that captivated Goethe in 1786.",
   "question_answer": "Verona's oldest precisely documented tree is the Cedar of Lebanon in Piazza Bra, planted in 1873 as part of the square's original garden design and still standing beside the Roman Arena today, roughly 153 years old. It stands free to visit in the city's largest and most central square.",
-  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and nine more remarkable trees.",
+  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and ten more remarkable trees.",
   "question_context": "Verona's tree heritage is thinner in the official record than some Italian cities: only three specimens within the city itself appear on the national Alberi Monumentali d'Italia register, all added in recent years. Among those, and among the wider set of well-documented specimens across the city's parks and gardens, the Cedar of Lebanon in Piazza Bra has the most precisely traceable planting date, tied to the square's 1870s garden redesign rather than a rounder estimate. It made local headlines in 2025 when arborists raced to stabilise it after its roots showed signs of failure, a rescue completed and re-verified stable by October of that year. Giardino Giusti's cypress avenue, older in reputation and once admired by Goethe on his 1786 visit, cannot match that precision: its most famous original tree came down in a 2020 storm and was replanted, so the avenue's age today is a mix of survivors and regrowth rather than one dated planting. The square itself is free and always open.",
   "faq": [
     {
@@ -22,8 +22,8 @@
       "a": "Most standing in public squares and parks are free. The Giardino Giusti charges an entry fee, and the Himalayan cedar of Villa Bersani grows on private property, visible from the street corner it overlooks rather than from inside the grounds."
     },
     {
-      "q": "Why does this list have only nine trees in the city?",
-      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to nine well-researched trees in the city, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
+      "q": "Why does this list have only ten trees in the city?",
+      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to ten trees in the city, nine well researched and one a reader sent from the southern fields,, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
     }
   ],
   "trees": [
@@ -430,6 +430,78 @@
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: their own photograph from the pavement across the road: the whole cedar, a dense lower skirt, a straight dark trunk and a crown in broad flat layers, one bare crooked limb jutting sideways, a yellow palazzo on the right, parked cars in front, blue sky, daylight, colour. The tip's first image is a Google Street View screenshot (captioned Piazza Indipendenza, a monument base beside the tree); it locates the tree and is not used as a photograph. Not an open licence: ask before reuse elsewhere."
       }
+    },
+    {
+      "id": "ver_011",
+      "name": "The Silk Mulberry of Ca' di David",
+      "species": "White Mulberry (Morus alba)",
+      "age_estimate": "120 to 130 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside a country road at Ca' di David, south of Verona",
+        "latitude": 45.379173,
+        "longitude": 11.011438,
+        "neighbourhood": "Ca' di David"
+      },
+      "story": "\"A historic local plant that was used for silk growing farming in the Veronese countryside,\" wrote the reader who sent us this white mulberry from Ca' di David, on the southern edge of Verona where the city gives way to fields.\n\nMulberry leaves are what silkworms eat, and farms on the Veneto plain once kept these trees by the hundred, cutting them back hard to harvest the leaves. The reader's photographs show a tree that looks like it lived that life. The trunk is short and broad and splits low into two thick stems with a dark hollow between them, and the tops of the stems are swollen into knuckles of old wood where branches were cut again and again. From those knuckles springs a crown of big, glossy, heart-shaped leaves.\n\nThe reader puts it at 120 to 130 years old and its girth at 320 centimetres. Those figures are theirs; we have not seen a register entry or a measurement of our own.\n\nIt stands on mown grass just inside a wire fence, a few steps from a quiet road. We do not know who owns that ground, so look from the road. Our pin marks the spot the reader gave; if you find the tree, send us a photograph and we will check it.",
+      "how_to_recognise": "Just inside a wire fence beside a quiet road: a short, broad trunk that splits low into two stems with a dark hollow between them, their tops swollen into knuckles of old cut wood under a crown of big heart-shaped leaves.",
+      "access": "Seen from the road a few steps away. The fenced ground it stands on may be private; we have not confirmed who owns it.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (2cbeafcc-400d-4069-a050-cee475026121, 2026-11-24, through the app). Photograph viewed: the whole lower tree in summer leaf, a short trunk splitting low into two stems around a dark hollow, a wire fence and a road just behind it, daylight, colour; three more frames of the pollarded trunk. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'White Mulberry near Verona', species 'White Mulberry', age '120 / 130 years', girth 320 cm, note 'A historic local plant that was used for Silk growing farming in the Veronese countryside.'. Every figure on the page not in verified_sources is stated as theirs.",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app and moved it twice more after sending (reports 1000140 and 1000141, same account); their last spot is used. Not a GPS fix."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-of-ca-di-david.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1024,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
+        "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the whole lower tree in summer leaf, a short trunk splitting low into two stems around a dark hollow, a wire fence and a road just behind it, daylight, colour; three more frames of the pollarded trunk. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 5,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-trunk.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
+          "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121-extra-1",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the pollarded trunk close up, its two stems and cut knuckles, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-field.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
+          "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121-extra-3",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the trunk from the field side under the crown, mown grass, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ],
   "oldest_tree_id": "ver_001"

@@ -1,0 +1,77 @@
+{
+  "city": "Ota",
+  "country": "Japan",
+  "status": "needs_curation",
+  "intro": "Ota is a manufacturing city in southeastern Gunma, on the plain north of Tokyo, and its landmark is Mount Kanayama, a wooded hill crowned by the stone walls of Kanayama Castle. On the summit, in the grounds of Nitta Shrine, grows a great zelkova that local tradition puts at 800 years. A reader photographed it in autumn colour and sent it to us.",
+  "meta_description": "The great zelkova of Kanayama in Ota, Gunma: an 800-year-old tree by tradition beside Nitta Shrine on the castle summit, and how to walk up to it.",
+  "question_meta": "Ota's great zelkova of Kanayama, reputed to be 800 years old, grows beside Nitta Shrine on the summit of Kanayama Castle.",
+  "question_answer": "The oldest tree we map in Ota is the Great Zelkova of Kanayama, reputed to be 800 years old. It grows in the grounds of Nitta Shrine on the summit of Mount Kanayama, where the main enclosure of Kanayama Castle stood, and it is free to visit on foot.",
+  "question_context": "Gunma Prefecture's walking guide to the Kanayama area describes Nitta Shrine, built on the site of Kanayama Castle's main enclosure, and the great zelkova of Kanayama beside it, which tradition says is 800 years old. That is a reputed age, not a ring count, and no official measurement has reached us. The reader who sent us its photograph puts the girth at 680 centimetres and says a sign beside the tree gives its name. The photograph shows a short, massive trunk breaking almost at once into huge twisting limbs, two of them resting on wooden props, inside a low chain fence with gravel paths around it. The shrine, founded in 1875, honours Nitta Yoshisada, the medieval warlord whose clan held this country. The castle ruins on the hill are among Japan's 100 Fine Castles, and walking routes climb from the Daikoin temple or the observation deck car park to the summit, so the tree comes at the end of a climb past the old stone walls.",
+  "faq": [
+    {
+      "q": "How old is the great zelkova of Kanayama?",
+      "a": "Tradition puts it at about 800 years, the figure Gunma Prefecture's walking guide repeats. It is a reputed age, not a measured one."
+    },
+    {
+      "q": "Where exactly is it?",
+      "a": "In the grounds of Nitta Shrine on the summit of Mount Kanayama in Ota, on the site of the main enclosure of Kanayama Castle."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "Yes. The shrine grounds and the castle ruins are open to walkers, and the tree is reached on foot up the hill."
+    }
+  ],
+  "hero_tree_id": "otg_001",
+  "oldest_tree_id": "otg_001",
+  "trees": [
+    {
+      "id": "otg_001",
+      "name": "The Great Zelkova of Kanayama",
+      "species": "Saw-leaf Zelkova (Zelkova serrata)",
+      "age_estimate": "about 800 years, by tradition",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Nitta Shrine, site of the main enclosure of Kanayama Castle, Kanayama-cho, Ota, Gunma",
+        "latitude": 36.317611,
+        "longitude": 139.377778,
+        "neighbourhood": "Kanayama"
+      },
+      "story": "On the summit of Mount Kanayama in Ota, where the main enclosure of Kanayama Castle once stood, a shrine to the medieval warlord Nitta Yoshisada has occupied the old castle ground since 1875. Beside it grows the great zelkova of Kanayama, 金山の大ケヤキ, which Gunma Prefecture's walking guide to the hill says is reputed to be 800 years old, and a reader sent us its photograph.\n\nThat age is tradition rather than a count of rings, but the reader's photograph shows a tree that looks the part. A short, massive trunk, grey and mossy, breaks almost at once into great twisting limbs that reach out in every direction, two of them resting on wooden props. In the picture it is late autumn, the last orange leaves hanging in the crown and the ground around it carpeted copper. A low chain fence on green posts keeps feet off its roots, and gravel paths circle it.\n\nThe reader puts its girth at 680 centimetres and says a sign beside it gives its name. That measure is theirs; we have not seen an official one.\n\nThe castle ruins are among Japan's 100 Fine Castles, so the climb up past their stone walls and the tree at the top make one walk.",
+      "how_to_recognise": "In the grounds of Nitta Shrine at the top of Mount Kanayama: a short, massive mossy trunk that breaks at once into huge twisting limbs, two of them on wooden props, inside a low chain fence on green posts with gravel paths around it.",
+      "access": "Free. In the grounds of Nitta Shrine on the summit of Mount Kanayama, reached on foot through the castle ruins.",
+      "verified_sources": [
+        "https://www.pref.gunma.jp/uploaded/attachment/42349.pdf (Gunma Prefecture, walking guide to the Kanayama area: Nitta Shrine on the site of Kanayama Castle's main enclosure, and the great zelkova of Kanayama, reputed to be 800 years old)",
+        "https://www.city.ota.gunma.jp/uploaded/attachment/9989.pdf (Ota City landscape plan: the great zelkovas of Kanayama and Ichiba among the big trees of the Kanayama and Hachioji hills)",
+        "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%94%B0%E7%A5%9E%E7%A4%BE_(%E5%A4%AA%E7%94%B0%E5%B8%82) (Nitta Shrine, Ota: founded 1875 on the castle's main enclosure; location of the shrine)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "tip-1598",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (tip-1598, 2026-11-24, through the website). Photograph viewed: the whole tree in late autumn, a massive short trunk breaking into twisting limbs on wooden props, a low chain fence on green posts, gravel paths, leaf-covered ground, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Zelkova serrata of Kanayama', species 'None', age 'None', girth 680 cm, note '800 years old, has a name (金山の大ケヤキ) and a sign.'. Every figure on the page not in verified_sources is stated as theirs.",
+      "pin_source": {
+        "kind": "named site",
+        "date": "2026-11-24",
+        "note": "The reader gave no coordinate; the pin is Nitta Shrine (ja.wikipedia), in whose grounds the tree grows."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/otg_001-great-zelkova-of-kanayama.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1500,
+        "height": 1000,
+        "source": "contributor",
+        "contributor_user_id": "p_ed78f0fc4542478a0ccd3d87",
+        "sighting_id": "tip-1598",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the website); viewed and approved on 2026-11-24: the whole tree in late autumn, a massive short trunk breaking into twisting limbs on wooden props, a low chain fence on green posts, gravel paths, leaf-covered ground, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "autumn colour in the photograph (no date in the file)"
+      }
+    }
+  ]
+}
