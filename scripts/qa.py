@@ -2281,6 +2281,20 @@ def check_walks_go_to_the_app():
     return out
 
 
+def links_to_small_question(html, small, qslugs):
+    """True when `html` has an href ending in /<slug>/<question slug> (one
+    optional trailing slash) for a slug in `small`: the same match as
+    r'href="[^"]*/<slug>/(?:<q>)/?"' tried per slug, in one read."""
+    for m in re.finditer(r'href="([^"]*)"', html):
+        h = m.group(1)
+        if h.endswith("/"):
+            h = h[:-1]
+        parts = h.split("/")
+        if len(parts) >= 3 and parts[-1] in qslugs and parts[-2] in small:
+            return True
+    return False
+
+
 def check_one_tree_places_have_no_question_page():
     """Contract B v1.18 (2026-09-17): a place with one tree publishes no
     question page, and its old URL keeps resolving.
@@ -2350,15 +2364,17 @@ def check_one_tree_places_have_no_question_page():
                    "rule 3; redirect-map.ts should emit a stub, e.g. %s"
                    % (len(unresolved), ", ".join(unresolved[:5])))
 
+    # One pass per page (2026-11-24): this loop ran one regex per small place
+    # on every page, ~300 x 29,000, and took 23 of the deploy's 28 QA minutes
+    # while readers waited for their tree to go live. links_to_small_question()
+    # reads each href once and gives the same answer.
     linking = []
     for page in sorted(DIST.rglob("*.html")):
         html = page.read_text(encoding="utf-8")
-        if is_stub(html):
+        if not any(q in html for q in qslugs) or is_stub(html):
             continue
-        for slug in small:
-            if re.search(r'href="[^"]*/%s/(?:%s)/?"' % (re.escape(slug), "|".join(map(re.escape, qslugs))), html):
-                linking.append(str(page.relative_to(DIST)))
-                break
+        if links_to_small_question(html, small, qslugs):
+            linking.append(str(page.relative_to(DIST)))
     if linking:
         out.append("%d page(s) link to a question page of a one-tree place, which "
                    "Contract B v1.18 retired, e.g. %s"
