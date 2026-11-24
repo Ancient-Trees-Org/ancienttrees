@@ -27,7 +27,7 @@ Batch: drafts/batches/android-test-invite-wave3-2026-11-20.json (gitignored),
 draft, same text plus the group step:
 "You can sign up to be a tester in two steps, with the Google account of this email address:
 1. Join the tester group: https://groups.google.com/g/ancienttrees-android-testers
-2. Then sign up here: https://play.google.com/apps/testing/app.ancienttrees.android"
+2. Then sign up here: https://play.google.com/apps/testing/app.ancienttrees.map"
 **ON HOLD since 2026-11-23 (Hidde: "eens").** Google blocked his Gmail on 11-23, right after a week of 250 to 400 mails a day through it (these invitations plus reader mail); the likely cause, never confirmed. 478 of 777 still unsent. In this order, nothing skipped:
 1. Wait until Play Developer Support has answered and Hidde is back in Play Console (the group and Play both hang on the blocked account).
 2. One tester tries the group link and the Play opt-in and confirms they got in.
@@ -122,7 +122,7 @@ Hey,
 Thanks for signing up for the Android app. We are working hard on it at the moment and are looking for people to test the first version. We expect a live version in 3 to 4 weeks.
 
 You can sign up to be a tester here, with the Google account of this email address:
-https://play.google.com/apps/testing/app.ancienttrees.android
+https://play.google.com/apps/testing/app.ancienttrees.map
 
 Thanks so much for your help and your patience. Looking forward to hearing what you think!
 

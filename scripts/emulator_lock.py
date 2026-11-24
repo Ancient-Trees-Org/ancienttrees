@@ -2,7 +2,7 @@
 """emulator_lock.py - one session at a time on the one Android emulator.
 
 Found 2026-11-10: a flow walk failed with "Process crashed" because another
-session ran `am force-stop app.ancienttrees.android` on the same emulator in the
+session ran `am force-stop app.ancienttrees.map` on the same emulator in the
 middle of it. Several Android sessions share Hidde's one emulator, so every
 script that installs, starts or photographs the app takes this lock first and
 waits while another holds it. The lock is the operating system's (flock), so a

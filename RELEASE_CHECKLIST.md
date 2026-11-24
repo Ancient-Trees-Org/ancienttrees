@@ -212,7 +212,7 @@ to this also remember this for the next ios version"). Android build 3 carried
 PostHog's crash handler, and eleven crashes on four testers' phones arrived as
 "crash" with no line, so nobody could fix them. Before any build goes out, iPhone
 or Android: crash it on purpose once (Android: `adb shell am crash
-app.ancienttrees.android` on a build with `-measure`; iPhone: a debug-only crash
+app.ancienttrees.map` on a build with `-measure`; iPhone: a debug-only crash
 on a device), open it again, and see the report with its code line in
 `python3 scripts/app_crashes.py --all --days 1`. Android 4 adds its own crash
 note (ExitWatch.install, `trace`); the next iPhone build (42) is the first with

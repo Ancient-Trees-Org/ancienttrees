@@ -609,7 +609,7 @@ def check_intro_to_someone_who_wrote_first(path, text, body):
              "are (then 'intro-asked: <their words>' in the notes).")]
 
 
-ANDROID_TEST_LINK = "https://play.google.com/apps/testing/app.ancienttrees.android"
+ANDROID_TEST_LINK = "https://play.google.com/apps/testing/app.ancienttrees.map"
 
 
 def check_android_invite_has_link(path, body):

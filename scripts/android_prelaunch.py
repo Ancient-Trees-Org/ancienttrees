@@ -72,12 +72,12 @@ step("Play build (aab + apk)", [sys.executable, "scripts/android_release.py", "-
 if "--skip-walks" not in sys.argv:
     session = test_session()
     # A Play-signed install left by an earlier walk refuses the debug-signed test apk.
-    subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.android"], capture_output=True)
+    subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.map"], capture_output=True)
     step("every instrumented test on the Play build's R8 (minified)",
          gradle + ["-PtestMinified", "connectedMinifiedAndroidTest",
                    f"-Pandroid.testInstrumentationRunnerArguments.AT_SESSION={session}"], cwd=android)
     # The test run uninstalls the app; the Play apk goes on fresh for the finger walk.
-    subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.android"], capture_output=True)
+    subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.map"], capture_output=True)
     step("the Play apk opened by finger", [sys.executable, "scripts/android_release_walk.py"])
     step("spacing against the iPhone", [sys.executable, "scripts/android_spacing.py"])
 

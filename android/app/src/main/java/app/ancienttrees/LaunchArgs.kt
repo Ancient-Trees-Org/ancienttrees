@@ -2,7 +2,7 @@
 // script opens the same state on both phones: `-open=tree:ath_004`,
 // `-select=ath_004`, `-at=37.97,23.72`, `-sheet=full|half|card`, `-search[=lis]`, `-signin`, `-tab=2`.
 // Read only from a debuggable build, passed as
-//   adb shell am start -n app.ancienttrees.android/app.ancienttrees.MainActivity --esa args "-tab=0,-open=tree:ath_004"
+//   adb shell am start -n app.ancienttrees.map/app.ancienttrees.MainActivity --esa args "-tab=0,-open=tree:ath_004"
 
 package app.ancienttrees
 

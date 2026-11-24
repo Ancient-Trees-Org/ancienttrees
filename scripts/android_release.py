@@ -111,7 +111,7 @@ def main():
             adb = str(SDK / "platform-tools" / "adb")
             with emulator("android_release"):
                 # A debug build has another signature: it goes first, or the install is refused.
-                subprocess.run([adb, "uninstall", "app.ancienttrees.android"], capture_output=True)
+                subprocess.run([adb, "uninstall", "app.ancienttrees.map"], capture_output=True)
                 r = subprocess.run([adb, "install", "-r", str(dest_apk)])
                 if r.returncode:
                     sys.exit("install failed")

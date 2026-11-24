@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: Android moves to a new Play account
+
+- **What changed**: Google disabled the Gmail account that owns the old Play developer account (policy mail of 23 Nov to the recovery address; appeal blocked at the SMS step on every phone). Hidde chose to start over: a new personal Play developer account **Ancient Trees Map** (id 6289749847935270102) under hidde@ancienttrees.app, non-trader, created today. The old name "Ancient Trees" stays taken by the old account. The sign-up names the old account honestly ("can't verify", with a short explanation).
+- **The app**: applicationId is now `app.ancienttrees.map` (Hidde's pick); the old `app.ancienttrees.android` stays bound to the old account. Scripts, the tester link in mailcheck and drafts/android-test-invite.md follow. assetlinks.json carries both packages; the new app's Play signing fingerprint is added once Play shows it.
+- **For Hidde**: tick the trader declaration and Save, upload your ID, sign in to the Play Console app on an Android phone, verify the phone number once ID is approved. Then the store page, forms and closed test (12 testers, 14 days) start again. Never both apps public at once.
+
 ## 2026-11-24 session: the repo moved to hidde-ancient-trees
 
 - **Live**: github.com/hidde-ancient-trees/ancienttrees (and ancienttrees-open). The old account (burgmanshidde-ancienttrees) signs in with the blocked Google account, so the repo, its secrets and every run hung on a login that could vanish. Transferred through the API with the old account's gh token (no sudo code was asked), accepted by Hidde on the new account. All 23 secrets, the Pages settings (cname ancienttrees.app) and the github-pages environment came along; hidde-ancient-trees is admin, the old account stays a write collaborator.

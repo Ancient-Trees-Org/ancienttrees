@@ -39,7 +39,7 @@ STATUS = ROOT / "data" / "android-parity.json"
 SDK = pathlib.Path.home() / "Library" / "Android" / "sdk"
 ADB = str(SDK / "platform-tools" / "adb")
 JBR = "/Applications/Android Studio.app/Contents/jbr/Contents/Home"
-PACKAGE = "app.ancienttrees.android"
+PACKAGE = "app.ancienttrees.map"
 ACTIVITY = PACKAGE + "/app.ancienttrees.MainActivity"
 IOS_DEVICE = "iPhone 17 Pro"
 # appsweep.py stands every frame at Dam square unless the frame names its own

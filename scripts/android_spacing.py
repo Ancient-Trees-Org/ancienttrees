@@ -64,7 +64,7 @@ IOS_FRAMES = ROOT / "data" / "ios-frames.json"
 # it, and from then on CI holds it to the iPhone.
 PENDING = ROOT / "data" / "android-spacing-pending.json"
 STATUS = ROOT / "data" / "android-parity.json"
-PACKAGE = "app.ancienttrees.android"
+PACKAGE = "app.ancienttrees.map"
 ACTIVITY = PACKAGE + "/app.ancienttrees.MainActivity"
 ORIGIN = "-at=52.3731,4.8922"
 

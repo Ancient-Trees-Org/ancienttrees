@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        applicationId = "app.ancienttrees.android"
+        applicationId = "app.ancienttrees.map"
         minSdk = 26
         targetSdk = 36
         versionCode = 5

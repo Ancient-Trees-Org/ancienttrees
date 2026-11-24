@@ -22,7 +22,7 @@ from emulator_lock import emulator  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ADB = str(pathlib.Path.home() / "Library" / "Android" / "sdk" / "platform-tools" / "adb")
-PKG = "app.ancienttrees.android"
+PKG = "app.ancienttrees.map"
 OUT = ROOT / "out" / "play" / "walk"
 
 
