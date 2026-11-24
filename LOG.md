@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: no database backup has ever been made
+
+- **Found**: db-backup.yml has failed every day since it was built (2026-11-04): the secrets `SUPABASE_DB_URL` and `BACKUP_PASSPHRASE` were never set, so no `ancienttrees-backup-*` artifact exists. Accounts, submissions, notes and readers' photographs exist only in Supabase.
+- **Decided (Hidde)**: Pro stays this month (this month's egress overage cannot be undone; Pro adds Supabase's own daily backups, 7 days). Back to Free is mid-December's call on the measured egress after the 11-23 cache fix (~3.5 to 4 GB of 5 expected).
+- **Still needs Hidde**: the two secrets (BACKUP_RESTORE.md "Setup, once"). Then a session runs the workflow, checks the artifact, and keeps a copy off GitHub.
+
 ## 2026-11-24 session: sponsor button back on About
 
 - Live after the next deploy: /about has a "Sponsor this project" button under Hidde's signature, straight to ko-fi.com/ancienttrees (event `about-sponsor`), after the first Ko-fi sponsor came in. It sat there on 2026-10-14 and went in that afternoon's rewrite. Looked at on the live page with the button injected, 375px and desktop. Footer and /sponsor unchanged; the app stays without it (Apple 3.1.1).
@@ -28,6 +34,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Breakage found**: the "on hold" for the Android wave 3 invitations (2026-11-23) lived only in words; the batch file kept `approved_by_hidde`, so the night run's "Continue an approved outreach batch" step sent another 100 today through the Workspace mailbox (route gmail). about 380 of 777 are still unsent.
 - **Fixed**: the batch is `on_hold` (pushed to the private store, read back). And in code: outreach_send.py opens mailer with `google=False`, so every batch goes through Resend only; what Resend will not take waits, it never falls to Gmail or Workspace. Tests in scripts/test_mailer.py (three new cases, all pass). Hidde, 2026-11-24: "lijkt me een slecht idee".
 - **And then all of it** (Hidde: "Ja, doe het"): `GOOGLE_ROUTE = False` in scripts/mailer.py, so the single expected mails too (photo-live, ambassador, contributor replies, about 30 a day) go through Resend; no script sends through Google, which now sees only what Hidde types. Sign-in mail already went Resend first. CLAUDE.md mail route rule updated; test_mailer.py passes.
+- **Inbox reading widened**: scripts/outreach_inbox.py now opens mail to any @ancienttrees.app address (the Workspace mailbox is all project mail; mail to hidde@ was counted and never opened). Martin Winn (London ambassador) gave the Morden Hall mulberry 200 to 300 years: on the page as a reader's estimate (lon_054). Replies drafted for Felicity (Brisbane Times), Heybat (Azerbaijan Tourism Board), Martin; waiting for Hidde's word.
 - CTV: Devika mailed via Resend in her thread to resend her interview time to hidde@ancienttrees.app; her answer may sit in the blocked Gmail (ImprovMX forwarded info@ there until the MX switch on 11-23).
 
 ## 2026-11-24 reader judge: the Pine Tree Way mulberry in Lewisham is live

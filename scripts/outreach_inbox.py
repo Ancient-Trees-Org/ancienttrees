@@ -357,7 +357,12 @@ def main():
                    "info@ancienttrees.app"} - {""}
         rcpts = {a.lower() for _n, a in email.utils.getaddresses(
             [h.get("To", ""), h.get("Cc", "")])}
-        to_project = bool(project & rcpts)
+        # Since 2026-11-23 the mailbox is Workspace on our own domain
+        # (hidde@, with info@, hello@ and press@ as aliases), not his private
+        # Gmail: mail to any address there is mail to Ancient Trees. Found
+        # 2026-11-24, when mail to hidde@ was counted and never opened.
+        to_project = bool(project & rcpts) or any(
+            a.endswith("@ancienttrees.app") for a in rcpts)
         if not frm or (frm not in addrs and frm.split("@")[-1] not in domains
                        and not by_subject and not to_project):
             skipped += 1                       # never opened, never printed
