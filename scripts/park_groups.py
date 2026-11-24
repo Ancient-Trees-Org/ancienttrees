@@ -54,10 +54,16 @@ def explicit_parks():
 
 
 def renderable(tree):
-    """trees.ts treeIsRenderable(): a story and both coordinates."""
+    """trees.ts treeIsRenderable(): a story, both coordinates, and not app-only
+    (2026-11-24: the build counted 5 Bute Park trees, this counted 8, so
+    preflight passed a title the build refused and main's deploy went red)."""
     loc = tree.get("location") or {}
-    return bool(tree.get("story")) and loc.get("latitude") is not None \
-        and loc.get("longitude") is not None
+    if not (bool(tree.get("story")) and loc.get("latitude") is not None
+            and loc.get("longitude") is not None):
+        return False
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    from findable import app_only
+    return not app_only(tree)
 
 
 def park_key(tree):
