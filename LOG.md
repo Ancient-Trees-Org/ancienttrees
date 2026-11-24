@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 night run 01:29 UTC: red deploy fixed
+
+- **Rung 2, the site was not updating.** Every deploy since the Cardiff app-only trees went in died on one line: the Bute Park title promised "8 to Find" but the page holds 5, because the build skips app-only trees. Preflight counted all 8, so it passed. Title now says 5; `park_groups.renderable()` skips app-only trees like `treeIsRenderable`, so preflight now sees the same count. Preflight 0 problems; pushed (80f4da4f0).
+- `gh workflow run deploy.yml` was refused (HTTP 403, integration token), so the deploy has not been re-run from here. For Hidde: dispatch Build and deploy once, or let the next knock do it, to confirm green.
+- Not touched: iOS app red on schedule, the 1 unjudged sighting 3c544597 is our own `mine` photo (Amsterdam). No trees added this window.
+
 ## 2026-11-24 reader judge (third run): Travilah Oak gets a reader's lead photo, Shanghai's ginkgos live
 
 - **Live**: shanghai/sha_002, **The Twin Ginkgos of Jiao Tong University**, Shanghai's second tree. It was held `not_public` on 11-23. The reader answered our mail (feedback 1570) that the campus can be entered from the street, so the lead was re-opened and published. Pin from the photo's GPS, age "about 200 years, by a reader's estimate", and the story asks what the inscribed stone says. Shanghai's intro and meta now name both trees. Their mail is not quoted (no yes asked); its fact is the access line.
