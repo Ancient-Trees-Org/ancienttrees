@@ -9921,11 +9921,11 @@
    "extra_files": [],
    "nearest_published_m": 0,
    "sent_for": "bru_034",
-   "status": "held",
-   "why": "Photograph viewed 2026-11-22: a tree of two trunks forking low on an open lawn in yellow autumn leaf, leaves like a tulip tree's; not the Solbosch beech (bru_034) it was sent for. Its coordinate is that tree's pin, not where it was taken, so where it stands is unknown. hold_reply.py takes only website submissions, so no standard mail.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: a broad tree whose two trunks fork low, alone on an open lawn, its whole crown gold with autumn leaves shaped like a tulip tree's, a path and woods behind, overcast daylight, colour. Live as brussels/bru_036 on Hidde's word (this also looks like a special tree; je hebt toch een locatie van de foto van solbosch het is er gewoon een paar meter van).",
    "seen": "2026-11-22",
-   "hold": "doubt_location",
-   "judged": "2026-11-22"
+   "judged": "2026-11-24",
+   "published_as": "brussels/bru_036"
   },
   {
    "sighting_id": "6315b918-2200-4671-8eab-e0771a6065a5",

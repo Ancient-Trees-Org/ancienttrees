@@ -39,7 +39,9 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Live**: florianopolis/fln_003, a fan palm in the Córrego Grande park whose crown stands above the forest (held `not_special`; Hidde: "ik vind die palm in florianopolis wel vet waarom niet?"), and split/spl_006, the cypress of Šimun Tudor on Marjan with its 1930 plaque (held `doubt_location`; Hidde: "this is sort of a special tree no?"). Both pins approximate, both readers' words or plaque on the page.
 - **Lesson in BRIEF_READER_JUDGE.md**: `not_special` is the rare verdict, a tree that stands out in its own setting is special; and a tree with its own plaque or sign on a path past our pin goes live instead of `doubt_location`.
-- Hidde agreed with the other 16 verdicts on his page. Two stay open: the golden tulip tree sent for the Solbosch beech (special, but where it stands is unknown) and the snowy Tsagarada night photo (may not be the sender's own).
+- Hidde agreed with the other 16 verdicts on his page.
+- **Also live: brussels/bru_036**, the golden tulip tree a reader photographed by the Solbosch beech (Hidde: "this also looks like a special tree", "het is er gewoon een paar meter van"). The app stored bru_034's pin with the photo, so that is its approximate pin. preflight's `reader_found()` now also takes `SENT_FOR_PIN` (a pin from the tree a photo was sent for) beside a hand-placed one, per his 11-17 rule (a GPS fix or a photo). French overlay entry written, count 34 to 35.
+- **For Hidde: a reply to reader 1433** (Tsagarada, the snowy night photo) asks whether they took it and may we use it: drafts/reply-reader-1433-2026-11-24.md, mailcheck clean, waits for his yes.
 
 ## 2026-11-24 session: resends no longer reach Hidde
 

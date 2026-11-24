@@ -1617,6 +1617,47 @@
         "url": "https://sites.heritage.brussels/fr/trees/3423"
       },
       "height_m": 21
+    },
+    {
+      "id": "bru_036",
+      "name": "The Golden Tulip Tree by the Solbosch Beech",
+      "species": "Tulip Tree (Liriodendron sp.)",
+      "location": {
+        "address": "Open lawn by the Solbosch woods, northern end of the Bois de la Cambre, Brussels",
+        "latitude": 50.81113188945266,
+        "longitude": 4.377591209594096,
+        "neighbourhood": "Ixelles / Solbosch"
+      },
+      "how_to_recognise": "Alone on the open lawn near the Great Beech of the Solbosch: a broad tree whose trunk forks low into two, with a crown that turns entirely gold in autumn.",
+      "access": "Free, a public lawn at the edge of the woods, open at all hours.",
+      "story": "A reader who went to see the Great Beech of the Solbosch, at the northern end of the Bois de la Cambre, sent us a photograph of a different tree on the same visit, and it is easy to see why it caught their eye.\n\nIt stands alone on an open lawn, so nothing hides its shape. The trunk forks low into two, and the two stems climb together into one tall, rounded crown. On the first morning of November, when the photograph was taken, every leaf in that crown had turned the same deep gold, and the tree stood out against the grey sky and the darker woods behind it like a lamp left on.\n\nThe leaves, broad and squared off at the tip, look like a tulip tree's, the North American giant that parks across Europe planted for its height and its autumn colour. We would like a reader to confirm it, and to tell us its girth or its story if they know them.\n\nOur pin marks the Solbosch beech, and the reader found this tree close by. Come in late October or early November to see it at its brightest.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "approximate, from the tree it was sent for",
+        "sighting_id": "e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
+        "date": "2026-11-24",
+        "note": "The photograph was sent for bru_034 and the app stored that tree's pin with it; Hidde places this tree a few metres from it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 session: sent by a reader (e4cfea4f-5e7b-4793-a06a-3e1a631f76bf, through the app, photographed 2026-11-01). Photograph viewed: a broad tree whose two trunks fork low, alone on an open lawn, its whole crown gold with autumn leaves shaped like a tulip tree's, a path and woods behind, overcast daylight, colour. Held doubt_location on 2026-11-22; live on Hidde's word (this also looks like a special tree; je hebt toch een locatie van de foto van solbosch het is er gewoon een paar meter van). Species read from the leaves, genus only.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bru_036-golden-tulip-tree-by-the-solbosch-beech.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_1096fdc351dbd860c622d33a",
+        "sighting_id": "e4cfea4f-5e7b-4793-a06a-3e1a631f76bf",
+        "taken_month": 11,
+        "note": "Photographed by a reader and sent to Ancient Trees (through the app); viewed and approved on 2026-11-24: a broad tree whose two trunks fork low, alone on an open lawn, its whole crown gold with autumn leaves shaped like a tulip tree's, a path and woods behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
   "hero_tree_id": "bru_003"

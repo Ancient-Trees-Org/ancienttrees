@@ -263,6 +263,11 @@ GPS_IS_THE_PIN = re.compile(
 
 
 HAND_PLACED = "reader's hand-placed pin"
+# A photograph sent for one of our trees carries that tree's pin (the app
+# stores it), so the new tree stands near it, approximate (Hidde, 2026-11-24,
+# on the Solbosch tulip tree: "het is er gewoon een paar meter van"). With the
+# reader's own photograph it is evidence the same way a hand-placed pin is.
+SENT_FOR_PIN = "approximate, from the tree it was sent for"
 
 
 def check_a_hand_placed_pin_is_not_a_fix():
@@ -1120,7 +1125,7 @@ def reader_found(tree):
     # special"). Since 2026-11-20 a pin the reader placed by hand is recorded
     # as such and stays approximate (check_a_hand_placed_pin_is_not_a_fix);
     # with their own photograph below it still stands in for a source.
-    hand = isinstance(tree.get("pin_source"), dict) and tree["pin_source"].get("kind") == HAND_PLACED
+    hand = isinstance(tree.get("pin_source"), dict) and tree["pin_source"].get("kind") in (HAND_PLACED, SENT_FOR_PIN)
     if tree.get("location_precision") != "confirmed" and not hand:
         return False
     shots = [tree.get("photo") or {}] + list(tree.get("photos") or [])
