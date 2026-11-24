@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: a reader's photograph of the Tule tree, added
+
+- A reader's photograph of El Árbol del Tule (tul_001, Santa María del Tule) is now on the page, beside the photo it already had. It shows the whole buttressed trunk under its crown in the courtyard, in daylight. The species and description match, and the photo is filed under October, the month it was taken. The reader is mailed through `sightings_publish.py --send`; the verdict is in data/judgements.json.
+- No reports are open, no feedback or tips lack a verdict, no readers' words need quoting, and nothing has waited over 24 hours.
+- Still waiting: lead 3c544597 (Amsterdam). It is our own photograph and the file is not on disk, so it was not judged blind.
+
 ## 2026-11-24 reader judge: nothing new from readers
 
 - Nothing changed in the product. No reader's photograph or tree is waiting, no reports are open, no tips are unjudged and no readers' words need quoting. Nothing a reader sent has waited over 24 hours.
