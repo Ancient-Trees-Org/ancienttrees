@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: Joanna answered; Nathalie's mail attachment never used
+
+- Sent via Resend on Hidde's "joanna mag eruit": a short thanks to Joanna (Leamington ambassador) for the promised photos and for looking at the holm oak (drafts/reply-joanna-leamington-2026-11-24.md).
+- Nathalie's Shanghai mail carried one attachment, IMG_7535.png (likely a screenshot, not her own photo, per Hidde). It was never opened or used: the inbox script reads no attachments, and sha_002 shows only her own app photograph (GPS on the campus, taken this month).
+
 ## 2026-11-24 session: Waste Magazine article sent
 
 - Sent to Waste Magazine on Hidde's "prima verstuur": the Spanish article as a Word file (drafts/waste-article-2026-11.md turned into a document, 973 words, with bio and photo credits) and seven open-licence photos (drafts/waste-photos/, 8.8 MB). The cover mail is in the Crann shape (drafts/reply-waste-magazine-2026-11-24.md).
