@@ -2075,6 +2075,46 @@
         "The Public Garden Ginkgo",
         "The Public Garden Bur Oak"
       ]
+    },
+    {
+      "user_id": "p_65aaeff88f32f9e9c6a9c7fd",
+      "place_slug": "oslo",
+      "place_name": "Oslo",
+      "date": "2026-11-24",
+      "trees": [
+        "The Willow that Fell and Kept Growing"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1e46f0e3fdd6ed0cd09842a4",
+      "place_slug": "oxford",
+      "place_name": "Oxford",
+      "date": "2026-11-24",
+      "trees": [
+        "The Magdalen Plane"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7000e289bb3522744b204b19",
+      "place_slug": "washington-dc",
+      "place_name": "Washington DC",
+      "date": "2026-11-24",
+      "trees": [
+        "The Twin-Stemmed White Oak by the Trail"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_40d48e30460963925dc95fa5",
+      "place_slug": "wellfleet",
+      "place_name": "Wellfleet",
+      "date": "2026-11-24",
+      "trees": [
+        "The Twisted Cedar of the Swamp Boardwalk"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
