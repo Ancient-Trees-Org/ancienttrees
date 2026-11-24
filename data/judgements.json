@@ -2,6 +2,20 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Golden Ginkgos of Villa Gandini",
+   "city": "Formigine",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "p_def84f4332241b7d0ced972d/745E0FD4-ABAF-413B-A870-67EB466731E0.jpg",
+   "reader_note": "The spectacular foliage in November",
+   "verdict": "publish",
+   "reason": "Four photographs viewed: the pair in gold beyond the pond at Villa Gandini, one whole with its trunk; lead photo and three in the strip of frm_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -447,6 +461,35 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: the whole gnarled black mulberry in full leaf on the corner of Pine Tree Way, Lewisham, street sign in front, daylight. Morus Londinium records it (heritage and notable, 9 m, 126 cm girth, about 150 years, on the site of an 1860s boys' school), on public street ground. Live as london/lon_056; hand-placed pin, so approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:745e0fd4-abaf-413b-a870-67eb466731e0",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Golden Ginkos",
+   "city": null,
+   "species": "Ginkgo",
+   "photo": "p_def84f4332241b7d0ced972d/745E0FD4-ABAF-413B-A870-67EB466731E0.jpg",
+   "reader_note": "The spectacular foliage in November",
+   "reader_girth_cm": 457,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.689,
+    "via": "girth",
+    "note": "69% of the genus reference (663 cm, n=86, max 1520)"
+   },
+   "verdict": "publish",
+   "reason": "Four photographs viewed: the pair of ginkgos on the south side of Villa Gandini, Formigine, in full gold over the pond, one shown whole with its trunk. Somewhat special by any walker's eye; the comune's tourism page names them the park's symbols. Live as formigine/frm_001, approximate (hand-placed pin).",
    "hidde": null,
    "agreed": null
   },
@@ -2481,6 +2524,21 @@
    "reader_girth_cm": 400,
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-23: the whole oak on the meetinghouse lawn, lower crown in brown leaves, top bare, November daylight, colour. Lead photo of willistown/wtn_004, filed in November (the photograph's own month).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1533",
+   "seen": "2026-11-23",
+   "kind": "a tip without a photograph",
+   "tree": "72D1CA58-7BBE-4B2B-B00E-5D5D3AD902D5",
+   "city": "Como",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "The app's row for sighting 72d1ca58, a tree already live in Varese (varese.json); nothing to add.",
    "hidde": null,
    "agreed": null
   },

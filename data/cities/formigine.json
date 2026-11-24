@@ -1,0 +1,127 @@
+{
+  "city": "Formigine",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Formigine is a small town in the plain just south of Modena, and at its centre the neoclassical Villa Gandini stands in a public park, the Parco della Resistenza, with ponds, ducks and old trees. The two ginkgos on the villa's south side are the park's symbols, and each autumn they turn a clear gold over the water. A reader sent us their photographs.",
+  "meta_description": "The two golden ginkgos of Villa Gandini in Formigine, near Modena: where they stand in the park, when they turn, and what a reader told us.",
+  "hero_tree_id": "frm_001",
+  "oldest_tree_id": "frm_001",
+  "trees": [
+    {
+      "id": "frm_001",
+      "name": "The Golden Ginkgos of Villa Gandini",
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_estimate": "135 to 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Parco di Villa Gandini (Parco della Resistenza), south side of the villa, Formigine, Modena",
+        "latitude": 44.5720230553827,
+        "longitude": 10.8497766110956,
+        "neighbourhood": "Centro"
+      },
+      "story": "\"The two grand ginkgo bilobas on the south side of Villa Gandini are the symbols of the park,\" says Formigine's own tourism office, and in autumn a reader stood across the pond from them and sent us what they saw.\n\nIn their photographs the two crowns have turned the clear, even gold that only a ginkgo manages, so bright that the pale front of the villa looks grey beside them. The pond holds the whole scene upside down, ducks drifting through it, its surface scattered with small fan-shaped leaves already falling. Closer in, the reader shows one of the pair alone, its dark, short trunk under a crown so wide that its lowest limbs sweep down almost to the gravel, a bench in its shade and a wooden fence running along the water.\n\nThe reader puts the trees at 135 to 150 years old and one trunk at 457 centimetres round. Those figures are theirs; we have not seen them written down elsewhere, and we do not know who planted the pair.\n\nA ginkgo tends to drop its leaves within days of turning, so the reader's \"spectacular foliage in November\" is a short show. Come then, and walk all the way round the pond.",
+      "how_to_recognise": "On the south side of the pale villa: two big ginkgos side by side beyond a pond with a small statue in it, a rail fence along the water, the nearer one a short dark trunk under a crown that sweeps almost to the gravel.",
+      "verified_sources": [
+        "https://www.visitformigine.it/the-resistenza-park/?lang=en (Comune di Formigine tourism: \"The two grand ginkgo bilobas on the south side of Villa Gandini are the symbols of the park.\" Open all days.)"
+      ],
+      "access": "Free, in the public park around Villa Gandini, open every day.",
+      "best_time": {
+        "months": [
+          11
+        ],
+        "label": "November, when the pair turns gold over the pond",
+        "kind": "autumn colour"
+      },
+      "found_by_reader": {
+        "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+        "date": "2026-11-24"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. It falls in Formigine by Villa Gandini, which the photographs show."
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (745e0fd4-abaf-413b-a870-67eb466731e0). Photographs viewed: four photographs: the two ginkgos in full gold beyond the pond with the villa on the right, reflected in the water, blue sky; the crown of one sweeping almost to the ground with people under it; one framed through ginkgo leaves; one whole, its dark short trunk, a bench and the pond fence, overcast daylight. All colour, daylight. The reader's own figures: name 'The Golden Ginkos', species 'Ginkgo', age '135-150', girth 457 cm; note: 'The spectacular foliage in November'. Identified as the pair of ginkgos on the south side of Villa Gandini, Formigine, named by the comune's tourism page as the park's symbols; the villa, pond and fence in the photographs agree. An ensemble: the pair is the destination, seen from one spot across the pond. Published under the closed list for a reader's tree (Hidde, 2026-11-17); approximate because the pin was placed by hand. Age and girth are the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_def84f4332241b7d0ced972d",
+        "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved 2026-11-24: the two ginkgos in gold beyond the pond, the villa on the right. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-whole.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "taken_month_basis": "autumn colour shown in the photograph",
+          "source": "contributor",
+          "contributor_user_id": "p_def84f4332241b7d0ced972d",
+          "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+          "note": "Same sighting, viewed 2026-11-24: one ginkgo whole, its short dark trunk, a bench and the pond fence. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-crown.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "taken_month_basis": "autumn colour shown in the photograph",
+          "source": "contributor",
+          "contributor_user_id": "p_def84f4332241b7d0ced972d",
+          "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+          "note": "Same sighting, viewed 2026-11-24: the gold crown sweeping almost to the ground. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/frm_001-the-golden-ginkgos-of-villa-gandini-leaves.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "taken_month_basis": "autumn colour shown in the photograph",
+          "source": "contributor",
+          "contributor_user_id": "p_def84f4332241b7d0ced972d",
+          "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+          "note": "Same sighting, viewed 2026-11-24: one ginkgo framed through its own leaves. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The two golden ginkgos of Villa Gandini in Formigine, near Modena: where they stand in the park, when they turn, and what a reader told us.",
+  "question_answer": "The Golden Ginkgos of Villa Gandini stand on the south side of the villa in Formigine's Parco della Resistenza, a public park open every day.",
+  "question_context": "The two ginkgos on the south side of Villa Gandini are the symbols of the Parco della Resistenza in Formigine, a small town just south of Modena, according to the town's own tourism office. A reader sent us four photographs of them in autumn. In them the two crowns have turned the clear, even gold that only a ginkgo manages, so bright that the pale front of the villa looks grey beside them, and the pond in front of them holds the whole scene upside down, with ducks drifting across it and small fan-shaped leaves already on the water. One of the pair has a short dark trunk under a crown so wide that its lowest limbs sweep down almost to the gravel path, with a bench in its shade. The reader puts the trees at 135 to 150 years old and one trunk at 457 centimetres round; those figures are theirs. The park is public and open every day. Ginkgos tend to drop their leaves within days of turning, so November is the time to go.",
+  "faq": [
+    {
+      "q": "Can I visit The Golden Ginkgos of Villa Gandini?",
+      "a": "Yes. They stand in the public park around Villa Gandini in Formigine, which is free and open every day."
+    },
+    {
+      "q": "When do the ginkgos of Villa Gandini turn gold?",
+      "a": "In autumn, usually in November, as in the reader's photographs. Ginkgos tend to drop their leaves within days of turning."
+    },
+    {
+      "q": "How old are the ginkgos of Villa Gandini?",
+      "a": "A reader puts them at 135 to 150 years old. We have not found a written record of when they were planted."
+    }
+  ]
+}

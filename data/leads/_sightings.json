@@ -11816,6 +11816,43 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "london/lon_056"
+  },
+  {
+   "sighting_id": "745e0fd4-abaf-413b-a870-67eb466731e0",
+   "user_id": "p_def84f4332241b7d0ced972d",
+   "mine": false,
+   "name": "The Golden Ginkos",
+   "unsure_among": null,
+   "species": "Ginkgo",
+   "age": "135-150",
+   "girth_cm": 457,
+   "girth_hugs": null,
+   "note": "The spectacular foliage in November",
+   "latitude": 44.5720230553827,
+   "longitude": 10.8497766110956,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 12,
+   "photo": "p_def84f4332241b7d0ced972d/745E0FD4-ABAF-413B-A870-67EB466731E0.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/745e0fd4-abaf-413b-a870-67eb466731e0-extra-1.jpg",
+    "out/sightings/745e0fd4-abaf-413b-a870-67eb466731e0-extra-2.jpg",
+    "out/sightings/745e0fd4-abaf-413b-a870-67eb466731e0-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-24: four photographs: the two ginkgos in full gold beyond the pond with the villa on the right, reflected in the water, blue sky; the crown of one sweeping almost to the ground with people under it; one framed through ginkgo leaves; one whole, its dark short trunk, a bench and the pond fence, overcast daylight. All colour, daylight. Live as formigine/frm_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "formigine/frm_001"
   }
  ]
 }

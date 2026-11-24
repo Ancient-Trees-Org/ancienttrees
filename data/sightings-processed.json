@@ -7514,6 +7514,16 @@
   "5ecc87a6-c5d8-4c48-8755-934bdc698220": {
    "outcome": "published",
    "date": "2026-11-24"
+  },
+  "745e0fd4-abaf-413b-a870-67eb466731e0": {
+   "outcome": "published",
+   "date": "2026-11-24"
+  },
+  "2414d848-fae0-4cc8-accc-c4ef3f60bd3e": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "wtn_003",
+   "reason": "duplicate: the same picture as the lead photograph already on the page (same reader, same frame of the trunk, rust-red sign, bicycle against the split-rail fence)"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

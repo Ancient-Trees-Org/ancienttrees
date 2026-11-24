@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: the golden ginkgos of Formigine live
+
+- Live after the next deploy: formigine/frm_001, The Golden Ginkgos of Villa Gandini (Formigine, near Modena). A reader sent four autumn photographs of the two ginkgos on the villa's south side, which the comune's tourism page calls the park's symbols. Lead photo is the pair in gold over the pond; the other three are in the strip. The pin is approximate because the reader placed it by hand. Age (135 to 150) and girth (457 cm) are the reader's. Best time is November. It's a one-tree place, so it has no place page.
+- Rejected 2414d848 (Grubb Road white oak) as a duplicate: it's the same picture the session already made wtn_003's lead today.
+- tip:1533 is the app's row for the Varese ginkgo already live (var_002); verdict publish, nothing to add.
+- Not judged: 3c544597 (Amsterdam, our own account) has no photo on this machine. Older leads still marked `lead` (Nara, Kyoto, Taketa, Kagoshima, Tokyo, Baarn: mostly our own account's from September and October) have no files here either, so they wait for a run that has them.
+- No open reports, no open feedback, no reader notes to quote.
+
 ## 2026-11-24 night run 10:01 UTC: build fixed, nothing else to take
 
 - Rung 2: every deploy since the title fix failed on one more over-long meta description, /parks/botanic-garden-cambridge (164 chars, cap 155). Shortened it (b09c0e2dd, pushed). Preflight 0 problems; the deploy after it was not watched to green by this run.
