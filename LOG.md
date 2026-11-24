@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: a waiting reader judge no longer redoes the run before it
+
+- **Breakage fixed**: reader-judge.yml and nightly.yml now check out `ref: main`. Before, a dispatched run that waited in the queue started from the commit of when it was *created*, so it treated the previous run's work as still open. The 03:53 run re-judged the Colchester cedar for 15 agent minutes that way. The runs never truly overlapped: the concurrency group already ran them one after another.
+- The many "cancelled" reader judge runs (201 in a week) are harmless. They are waiting runs replaced by a newer waiting run when a burst of Supabase triggers arrives, and none of them did any work.
+
 ## 2026-11-24 session: night runs stop looking for new trees of their own
 
 - **What changed** (Hidde: "mss beter om de nachtruns niet langer nieuwe bomen te laten zoeken nu we zoveel input krijgen", then "Ja, stop het"). From 11-21 to 11-24 the night runs ended mostly on walls (Fort Worth, Braga, Miami, Sheffield and Birmingham came back dry) while readers sent dozens of trees, in the US and UK too. So there are no more verify passes, register scouting or shelf refills for trees of our own.
