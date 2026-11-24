@@ -3203,28 +3203,20 @@
    "sent": []
   },
   "p_f0c4b3c42fa99912d3ce18aa": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-24",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "03cf52a9-7db9-4487-a240-be778790a315",
      "tree_id": "tsg_001",
-     "tree_name": "The Plane of Agia Paraskevi",
-     "city": "Tsagarada",
-     "city_slug": "tsagarada",
-     "display_name": null,
-     "live": "2026-11-24"
+     "mailed": "2026-11-24"
     },
     {
      "sighting_id": "17ff735e-17dc-4bb7-96b3-e2323b355f4c",
      "tree_id": "tsg_001",
-     "tree_name": "The Plane of Agia Paraskevi",
-     "city": "Tsagarada",
-     "city_slug": "tsagarada",
-     "display_name": null,
-     "live": "2026-11-24"
+     "mailed": "2026-11-24"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
