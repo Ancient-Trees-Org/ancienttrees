@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 write pass: nothing shipped, the writing pool is empty
+
+- **0 trees written.** `passcheck.py --pending` holds no tree that needs a story. Every suggested file (wisconsin, washington-dc-2, us-photo-batch-1, wales-yews, somerset-dorset-yews, new-york-3) is fully published. The id-collision entries (bri_017, car_001, nyc_027, nyc_031, wol_001, cdl_003, lar_001, tro_001 to 003, sct_001) are all live under other ids by name. Taiwan's a28_001 duplicates alh_002.
+- **The 4 READY leads are not ready**: `leads.py` marks them READY because nothing blocks them, not because they hold enough to write. Leamington's silver pendant lime has no pin and no size evidence. The Jephson Gardens conifer line is five species with no single tree to stand at. York's riverside plane (ambassador's what3words) has no source, photo or description, so 150 words would be invented. The Guimaraes Mexican cypress stands in Pacos de Ferreira, 15.7 km out, and is not checked alive or for access. Each needs a verify pass (or the York ambassador's photo), not a writer.
+- Stale research files (all-published) can be deleted in a clean-up; not done here.
+
 ## 2026-11-24 night run 01:29 UTC: red deploy fixed
 
 - **Rung 2, the site was not updating.** Every deploy since the Cardiff app-only trees went in died on one line: the Bute Park title promised "8 to Find" but the page holds 5, because the build skips app-only trees. Preflight counted all 8, so it passed. Title now says 5; `park_groups.renderable()` skips app-only trees like `treeIsRenderable`, so preflight now sees the same count. Preflight 0 problems; pushed (80f4da4f0).
