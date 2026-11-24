@@ -105,6 +105,11 @@ def sender(sid, j, who):
                             if re.match(r"^([0-9a-f-]{36}|p_[0-9a-f]{24})/", photo) else None)
 
 
+def is_duplicate(j):
+    """A verdict that says the row is a resend of something already judged."""
+    return bool(re.search(r"\bduplicate\b|companion row", j.get("reason") or "", re.I))
+
+
 def selection(include_answered=False, live=None, fresh_days=2):
     """[(sighting id, judgement row, how many sightings of the same tree)],
     strangers only, one row per tree, newest first as judgements.json keeps them.
@@ -148,6 +153,11 @@ def selection(include_answered=False, live=None, fresh_days=2):
         # held, a lead or open reaches him, where the system may have been too
         # strict. A reader still reports a live tree that is wrong.
         if not include_answered and (j.get("verdict") == "publish" or sid in live):
+            continue
+        # A RESEND IS NOT HIS TO SEE (Hidde, 2026-11-24, on 14 of them: "A mag
+        # je afwijzen en niet meer vragen"): the same photograph again, whose
+        # first copy was already judged, asks him nothing.
+        if not include_answered and is_duplicate(j):
             continue
         key =((j.get("tree") or sid).lower(), (j.get("city") or "").lower())
         if key in by_tree:

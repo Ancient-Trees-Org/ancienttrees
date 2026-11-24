@@ -185,8 +185,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same four files as sighting a104b938 from the same reader, now the lead of wdc_016; rejected as a duplicate in the queue, nothing to add.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:35426040-ef78-4255-9366-2cb41930c905",
@@ -559,8 +559,8 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed: a cedar in a park 426 km from St. Wolfgang's Oak; the same photo the reader also sent as lead ecbeb1a2 (Varese), so rejected here as a duplicate.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e",
@@ -1353,8 +1353,8 @@
    },
    "verdict": "hold",
    "reason": "Its plaque names Šimun Tudor and 1930: a different cypress on Marjan's path, not our 1908 Kolombatović cypress; made a lead",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:7c30394d-7e2f-4183-8196-51175dac5c43",
@@ -1463,8 +1463,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate of the picture already leading the Varese ginkgo's page (same reader); rejected as a duplicate",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "lead:72bb031f-c5bd-4bc8-977e-4420760280c5",
@@ -1637,8 +1637,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same photograph (bicycle against the split-rail fence, August) is already the lead of wtn_003 from this reader's earlier sighting 441ff6ca. Rejected as a duplicate in the queue; nothing to add.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "lead:b19ea802-78de-410b-9b8d-2367eb9b8e59",
@@ -3191,8 +3191,8 @@
    },
    "verdict": "hold",
    "reason": "Not used: a wider duplicate of the same reader's shot of muc_006 taken minutes apart; the closer frame went on the page.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:c3977a17-feb2-4a51-bd10-3648dd1b1ce2",
@@ -3802,8 +3802,8 @@
    },
    "verdict": "hold",
    "reason": "Photograph viewed: a two-trunked tree on an open lawn in yellow leaf, tulip-tree-like leaves, not the 5.1 m Solbosch beech it was sent for; its coordinate is our pin, so held doubt_location as a lead.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "lead:84d248dd-6fa9-4dd5-acd3-1a33ec1a319d",
@@ -3991,8 +3991,8 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Duplicate of 8e633401, the same frame sent twice by the same reader; the other copy is on the page",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:e5a801bf-b473-40d2-8796-3747acdbe016",
@@ -4137,8 +4137,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same frame that already leads delhi/dlh_002 (Banyan by the Arcades), sent again under a second id; rejected.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:afbeedb0-236e-42cc-814b-b8aa7ab6fabb",
@@ -4159,8 +4159,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same frame that already leads delhi/dlh_001 (Peepal on the Plinth), sent again under a second id; rejected.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "lead:2f66b206-9ece-4aff-9bb8-0ae799968efb",
@@ -4227,8 +4227,8 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "Duplicate: the app's companion row to sighting c9139a4e, itself a resend of the photo leading delhi/dlh_002; no words, nothing to add.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "tip:1469",
@@ -4242,8 +4242,8 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "Duplicate: the app's companion row to sighting afbeedb0, itself a resend of the photo leading delhi/dlh_001; no words, nothing to add.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:785f6913-8b07-4594-9e0d-1c57cc4f06b2",
@@ -4330,8 +4330,8 @@
    },
    "verdict": "hold",
    "reason": "duplicate: the same reader's November beech photo already leads vie_037 under sighting 4491f36f; rejected as a duplicate",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "sight:3771a756-a5a3-4878-b942-ea6efed006b9",
@@ -4396,8 +4396,8 @@
    },
    "verdict": "hold",
    "reason": "Duplicate: the same file as 86314456 from the same reader, which went on the page; rejected.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "A mag je afwijzen en niet meer vragen",
+   "agreed": true
   },
   {
    "id": "lead:dd9b94e4-2439-4129-9b72-3c8c1796dc1b",

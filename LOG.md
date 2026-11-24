@@ -35,6 +35,10 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Fixed** (5eb0a042d): one QA check, `check_one_tree_places_have_no_question_page`, took 1,395 of QA's 1,663 seconds. It ran one regex per small place on every one of 29,121 pages. It now reads each page once: `links_to_small_question()`, with the same answer on 19 test hrefs, old against new. That should save about 23 minutes on every deploy. The next deploy's "qa timing" lines will show whether it did.
 - Left alone: another session's unfinished `check_one_place_head` in scripts/qa.py. PlaceHead.astro is not committed yet, so that check stays out of this commit.
 
+## 2026-11-24 session: resends no longer reach Hidde
+
+- Hidde on 14 resends on his readers' trees page (the same photograph sent again): "A mag je afwijzen en niet meer vragen". Filed as agreed, and `inspect_readers.is_duplicate()` now keeps any verdict that names a duplicate off his page. 20 trees remain for him (closed-list holds, not-special calls, real doubts).
+
 ## 2026-11-24 session: the iPhone's own crash reports can ring
 
 - **Why build 41's crashes never showed in the app's own reports**: two reasons. Build 41 predates the iPhone's exit watcher (added 11-16), so it sends none; build 42 will. And scripts/app_crashes.py dropped every report without a reason, which is every iPhone report (iOS cannot tell a crash from a flat battery), so even build 42's would have been lost. Now an iPhone exit on screen is kept, signed by the last thing the app measured, and rings once two phones end the same way or one phone twice. Both phones' reports also ring until answered, not 48 hours. Test: scripts/test_app_crashes_ios.py.
