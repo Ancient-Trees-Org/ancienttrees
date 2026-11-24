@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: inbox read, three replies drafted, Joey's oak fixed
+
+- Live: willistown/wtn_003 (White Oak on Grubb Road) leads with the reader's unaltered photo showing the old No Trespassing sign on the trunk, at their request by mail; the story's bicycle now stands on its kickstand; the recognition line names the sign. The reader judge had rejected that photo as a duplicate.
+- The inbox reader works again: the Workspace app password is in ~/.ancienttrees-mail.env (the old value was not an app password).
+- For Hidde: drafts waiting for his yes: drafts/reply-azerbaijan-tourism-2026-11-24.md (data list + accepting their meeting), drafts/reply-felicity-brisbanetimes-2026-11-24.md (call at her 7am, his 22:00), drafts/reply-joey-willistown-2026-11-24.md.
+- No reply needed: Kat (Houston, closing note), Loïc (Paris roots fact already in the story), the Patagonia mesquite and the Shanghai ginkgo (judge mailed them live), Volkskrant (Hidde answered).
+
 ## 2026-11-24 session: no batch can reach a Google mailbox any more
 
 - **Breakage found**: the "on hold" for the Android wave 3 invitations (2026-11-23) lived only in words; the batch file kept `approved_by_hidde`, so the night run's "Continue an approved outreach batch" step sent another 100 today through the Workspace mailbox (route gmail). about 380 of 777 are still unsent.
