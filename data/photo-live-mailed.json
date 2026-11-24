@@ -3335,19 +3335,15 @@
    ]
   },
   "p_aad7d9ef9052b9ddb73256d9": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-24",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "fd7d9144-7117-4787-95fa-41774c530290",
      "tree_id": "msn_001",
-     "tree_name": "The Carolyn Black Tupelo",
-     "city": "Madison",
-     "city_slug": "madison",
-     "display_name": null,
-     "live": "2026-11-24"
+     "mailed": "2026-11-24"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
