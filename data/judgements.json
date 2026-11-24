@@ -37,8 +37,8 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "hold",
-   "reason": "not_special: a mid-sized London plane in full leaf, one of a row of similar planes along a mown field with school-like buildings behind; nothing in the frame or the empty note sets it apart, no register or write-up within 300 m. Kept as a held lead with its coordinate; no mail (not a reason the reader can fix).",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: looking up the smooth mottled trunk of a London plane into its summer crown, a line of trees along a mown field, the stepped base of a flagpole at the left, school buildings behind, daylight, colour. Re-judged the same morning: an earlier run held it not_special, reading the site as a school field. The GPS fix stands in Stewart Reid Memorial Park, Ngahinapouri: land given in 1946 in memory of pilot officer Stewart Reid and planted with 34 memorial trees, one per local man who served in WWII (NZHistory). The flagpole on its stepped base in the photo is the park's. A mature plane in a war-memorial park is somewhat special. Live as ngahinapouri/ngh_001 under the closed list (Hidde, 2026-11-17); the story does not claim it is one of the 34.",
    "hidde": null,
    "agreed": null
   },
@@ -27046,6 +27046,18 @@
    },
    "verdict": "publish",
    "reason": "Three photographs viewed 2026-11-24: the Macedon Oak at Cruden Farm whole from the lawn, from below the tennis lawn with the farmhouse behind, and its National Trust plaque; the reader's own frames. Live as the lead and two strip photographs of langwarrin/lwr_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:48b2515d-e2ed-48aa-93b6-638df9ccf956",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "photo": "p_997e42533afdc70e8a2d88ad/48B2515D-E2ED-48AA-93B6-638DF9CCF956.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "The reader's photograph is the lead photo of ngahinapouri/ngh_001.",
    "hidde": null,
    "agreed": null
   }

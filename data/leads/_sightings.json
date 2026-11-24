@@ -11706,11 +11706,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "Photograph viewed 2026-11-24: looking up the trunk of a London plane (mottled flaking bark, maple-like leaves) in full leaf, one of a row of similar planes along a mown field with low white school-like buildings behind, daylight, colour. A healthy mid-sized plane, no bigger than its neighbours in the row; nothing in the frame (girth, form, plaque, note) sets it apart, and no register entry or write-up within 300 m. Kept with its coordinate; a second account or a measurement would reopen it.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: looking up the smooth mottled trunk of a London plane into its summer crown, a line of trees along a mown field, the stepped base of a flagpole at the left, school buildings behind, daylight, colour. Re-judged the same morning: an earlier run held it not_special, reading the site as a school field. The GPS fix stands in Stewart Reid Memorial Park, Ngahinapouri: land given in 1946 in memory of pilot officer Stewart Reid and planted with 34 memorial trees, one per local man who served in WWII (NZHistory). The flagpole on its stepped base in the photo is the park's. A mature plane in a war-memorial park is somewhat special. Live as ngahinapouri/ngh_001 under the closed list (Hidde, 2026-11-17); the story does not claim it is one of the 34.",
    "seen": "2026-11-24",
-   "hold": "not_special",
-   "judged": "2026-11-24"
+   "judged": "2026-11-24",
+   "published_as": "ngahinapouri/ngh_001"
   },
   {
    "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",

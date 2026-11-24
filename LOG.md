@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge (second run): the Ngāhinapōuri plane re-judged and live
+
+- **Live**: ngahinapouri/ngh_001, **The Plane of Stewart Reid Memorial Park** (Waikato, NZ), a new one-tree place. The run before held lead 48b2515d `not_special` because the site looked like a school field. The GPS fix in fact stands in Stewart Reid Memorial Park, beside the school. NZHistory: the land was given in 1946 in memory of pilot officer Stewart Reid and planted with 34 memorial trees, one per local man who served in WWII. The park's flagpole on its stepped base shows in the photo. The story does not claim this plane is one of the 34 and asks readers instead. Hidde, overturn it in judgements.json if a memorial park does not make it somewhat special.
+- This run also judged the Langwarrin oak and published it ten minutes after the first run had. That duplicate was dropped in the rebase; the first run's lwr_001 stands.
+
 ## 2026-11-24 reader judge: the Macedon Oak of Cruden Farm, Langwarrin
 
 - **Live**: langwarrin/lwr_001, The Macedon Oak of Cruden Farm (Victoria, Australia), a new one-tree place. A reader sent three photographs through the app: the whole oak, a wide shot with the farmhouse, and the National Trust plaque. The National Trust register and the Victorian Heritage Database list it (Quercus 'Firthii', 32 m tall in 2010, classified 1982). The reader had picked "Macedonian Oak (Quercus trojana)"; the page uses the plaque's name. Paid, booked garden entry. The id prefix `lgw` was already taken by Longwood, so the tree is `lwr`.

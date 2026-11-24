@@ -1,0 +1,73 @@
+{
+  "city": "Ngāhinapōuri",
+  "country": "New Zealand",
+  "status": "needs_curation",
+  "intro": "Ngāhinapōuri is a farming village in the Waikato, south-west of Hamilton, with its hall, its school and a memorial park side by side on Kakaramea Road. The park was given to the district in 1946 in memory of a young pilot, and thirty-four trees were planted in it for the local men who served in the Second World War. A reader sent us a plane from it.",
+  "meta_description": "A London plane in Stewart Reid Memorial Park at Ngāhinapōuri in the Waikato, the park given in 1946 and planted with 34 memorial trees.",
+  "hero_tree_id": "ngh_001",
+  "oldest_tree_id": "ngh_001",
+  "trees": [
+    {
+      "id": "ngh_001",
+      "name": "The Plane of Stewart Reid Memorial Park",
+      "species": "London Plane (Platanus x acerifolia)",
+      "location": {
+        "address": "Stewart Reid Memorial Park, Kakaramea Road, Ngāhinapōuri, Waikato",
+        "latitude": -37.8978843614429,
+        "longitude": 175.204007858749,
+        "neighbourhood": "Ngāhinapōuri"
+      },
+      "how_to_recognise": "In the memorial park beside the school: a plane whose smooth trunk is patched olive, cream and grey, standing at the head of a line of trees along the mown grass, with the flagpole's stepped concrete base off to one side.",
+      "access": "Free. A public memorial park beside the hall and the school on Kakaramea Road.",
+      "verified_sources": [
+        "https://nzhistory.govt.nz/media/photo/stewart-reid-memorial-park-ngahinapouri (NZHistory, Ministry for Culture and Heritage: land given in 1946 by Neil and Gracie Reid in memory of their son Stewart; 34 memorial trees planted in the park, one for each man of the district who served in the Second World War; a flagpole on a stepped concrete base; the Ngāhinapōuri war memorial stands in the park)"
+      ],
+      "story": "In 1946 Neil and Gracie Reid gave five and a quarter acres of land at Ngāhinapōuri, south-west of Hamilton, to the people of the district in memory of their son Stewart, a pilot officer killed on active service in 1942. The ground became Stewart Reid Memorial Park, and thirty-four trees were planted in it, one for each man from the district who went away to the Second World War. A reader sent us this plane from the park.\n\nIt is a London plane, and its trunk is what holds the eye: smooth, swelling at the foot and patched all over in olive, cream and grey where the old bark has flaked away. Above head height it forks into long pale limbs under a broad summer crown of maple-shaped leaves. More trees stand in a line along the edge of the grass, and at the left of the reader's picture is the stepped concrete base the park's flagpole stands on.\n\nWhether this plane is one of the thirty-four memorial trees we do not know, because the record we found does not name their species. If you know, or know whose name it carries, tell us here.\n\nThe village war memorial stands in the same park. Walk the line of trees from the flagpole and stop under this one.",
+      "found_by_reader": {
+        "sighting_id": "48b2515d-e2ed-48aa-93b6-638df9ccf956",
+        "date": "2026-11-24"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "48b2515d-e2ed-48aa-93b6-638df9ccf956",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (48b2515d-e2ed-48aa-93b6-638df9ccf956). Photograph viewed: looking up the smooth mottled trunk of a plane into its summer crown, a line of trees along a mown field, the stepped base of a flagpole at the left, school buildings behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'A tree I found', species 'None', note ''. Every figure on the page comes from verified_sources.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ngh_001-plane-of-stewart-reid-memorial-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_997e42533afdc70e8a2d88ad",
+        "sighting_id": "48b2515d-e2ed-48aa-93b6-638df9ccf956",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date; plane in full summer leaf",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: looking up the smooth mottled trunk of a plane into its summer crown, a line of trees along a mown field, the stepped base of a flagpole at the left, school buildings behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A London plane in Stewart Reid Memorial Park at Ngāhinapōuri in the Waikato, the park given in 1946 and planted with 34 memorial trees.",
+  "question_answer": "The Plane of Stewart Reid Memorial Park grows in the memorial park on Kakaramea Road in Ngāhinapōuri, beside the hall and the school. The park is public and free.",
+  "question_context": "Stewart Reid Memorial Park is the village green of Ngāhinapōuri, a farming district of the Waikato south-west of Hamilton. Neil and Gracie Reid gave the land, five and a quarter acres, to the people of Ngāhinapōuri and Tuhikaramea on 1 March 1946, in memory of their son Stewart, a pilot officer killed on active service in February 1942. Thirty-four trees were planted in the park, one for each man from the district who went away to serve in the Second World War, and a plaque lists the names of the men they honour. The village war memorial stands in the park too, and a flagpole rises from a stepped concrete base. A reader sent us the plane on this page from the park: a London plane with a smooth trunk flaking in patches of olive, cream and grey, at the head of a line of trees along the grass. Whether it is one of the thirty-four we cannot yet say. If you know which trees were planted for which men, tell us.",
+  "faq": [
+    {
+      "q": "Can I visit The Plane of Stewart Reid Memorial Park?",
+      "a": "Yes. It stands in a public memorial park on Kakaramea Road in Ngāhinapōuri, free to walk into."
+    },
+    {
+      "q": "Why were trees planted in Stewart Reid Memorial Park?",
+      "a": "The park was given to the district in 1946 in memory of pilot officer Stewart Reid, and 34 trees were planted in it, one for each local man who served in the Second World War."
+    },
+    {
+      "q": "Is the plane one of the memorial trees?",
+      "a": "We do not know yet. The record we found does not name the species of the 34 memorial trees; if you know, tell us on the tree's page."
+    }
+  ]
+}
