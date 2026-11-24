@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 night window, second attempt: checked, shipped nothing
+
+- No claims stood. 4 READY leads (leamington-spa 2, york 1, guimaraes 1) plus 1 Taiwan entry is under the six-candidate floor for a write pass; the "awaiting a writer" list is mostly stale research files.
+- reader_words, recognise --stuck, enrich --next: nothing to do. Own research stays paused.
+- iOS app red answered with `health.py --answer`: run 45469395864 never got a macOS runner (capacity), no code ran.
+
 ## 2026-11-24 night window (22:47 UTC): checked, shipped nothing
 
 - Rung 1: the reader judge owns the waiting photographs (the Carolyn Black Tupelo, msn_001; one unmapped sighting whose file is not on disk), so I left them.

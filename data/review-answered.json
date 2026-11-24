@@ -148,6 +148,10 @@
     "2026-11-18": {
       "note": "Open web bug (readers' photographs had no 500 copy) was already fixed in ba0575b69 with check_every_own_photo_has_a_card_copy; row closed.",
       "at": "2026-11-18T16:42:42+00:00"
+    },
+    "2026-11-24": {
+      "note": "iOS app run 45469395864 failed because GitHub's macOS runner was never acquired (capacity), no app code ran; not an app fault",
+      "at": "2026-11-24T22:51:59+00:00"
     }
   }
 }
