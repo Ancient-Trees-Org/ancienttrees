@@ -676,6 +676,23 @@ def status():
 
 
 
+def promote_extra_photo(rows):
+    """A sighting whose main photograph is empty but whose further photographs
+    are not (the Tsagarada plane, submission 1414, 2026-11-22) was never read:
+    the query asked for `photo` only, so no lead was written and the tree sat
+    unjudged for two days. The first further photograph stands in as the main
+    one; a row with neither is dropped."""
+    out = []
+    for r in rows:
+        extras = [p for p in (r.get("extra_photos") or []) if p]
+        if not r.get("photo"):
+            if not extras:
+                continue
+            r = dict(r, photo=extras[0], extra_photos=extras[1:])
+        out.append(r)
+    return out
+
+
 def tips_with_photographs():
     """Photographs sent with a TIP, shaped like sightings so nothing else changes.
 
@@ -781,7 +798,7 @@ def main():
                    "photo", "sign_photo", "extra_photos", "shared", "updated_at",
                    "taken_basis", "extra_photo_months"]
     query = ("/rest/v1/sightings?select=%s"
-             "&photo=not.is.null&shared=eq.true&order=updated_at.asc")
+             "&or=(photo.not.is.null,extra_photos.not.is.null)&shared=eq.true&order=updated_at.asc")
     try:
         rows = read_optional(query, select_cols,
                              ["girth_hugs", "sign_photo", "extra_photos",
@@ -792,6 +809,7 @@ def main():
     except Exception as e:
         print(f"sightings inbox: could not read sightings ({e.__class__.__name__}: {str(e)[:80]})")
         return 0
+    rows = promote_extra_photo(rows)
     # AND THE PHOTOGRAPHS SENT WITH A TIP, which arrive in another table and
     # are the same job once they are on disk.
     tips = tips_with_photographs()

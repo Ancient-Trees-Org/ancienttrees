@@ -627,6 +627,17 @@
    "found_by": "reader",
    "test": "AncientTreesUITests/CountryStaysWalk",
    "fixed_in": "eef9c2bcb"
+  },
+  {
+   "id": "ESC-2026-11-24-a-tree-sent-from-the-app-with-only-furth",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "scripts/sightings_inbox.py",
+   "summary": "A tree sent from the app with only further photographs (main photo empty) was never read by sightings_inbox, so no lead existed and it sat unjudged for two days (Tsagarada plane, submission 1414)",
+   "first_seen": "2026-11-24",
+   "status": "open",
+   "found_by": "test",
+   "test": "scripts/test_sightings.py:TestExtraOnlySighting"
   }
  ]
 }

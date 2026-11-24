@@ -300,5 +300,19 @@ class TestBundleMailChecksThePage(unittest.TestCase):
         self.assertFalse(pub.still_on_the_page({"sighting_id": "a", "tree_id": "t_1", "city_slug": "gone"}))
 
 
+class TestExtraOnlySighting(unittest.TestCase):
+    def test_first_extra_stands_in_for_an_empty_main_photograph(self):
+        rows = inbox.promote_extra_photo([
+            {"id": "a", "photo": None, "extra_photos": ["u/a-extra-1.jpg", "u/a-extra-2.jpg"]},
+            {"id": "b", "photo": "u/b.jpg", "extra_photos": ["u/b-extra-1.jpg"]},
+            {"id": "c", "photo": None, "extra_photos": []},
+            {"id": "d", "photo": None, "extra_photos": None},
+        ])
+        self.assertEqual([r["id"] for r in rows], ["a", "b"])
+        self.assertEqual(rows[0]["photo"], "u/a-extra-1.jpg")
+        self.assertEqual(rows[0]["extra_photos"], ["u/a-extra-2.jpg"])
+        self.assertEqual(rows[1]["photo"], "u/b.jpg")
+
+
 if __name__ == "__main__":
     unittest.main()
