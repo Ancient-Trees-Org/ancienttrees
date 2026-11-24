@@ -16,6 +16,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **What changed** (Hidde, "Alleen 1 en 2"). Readers' photographs, trees, reports and feedback no longer start a night window. The reader judge already handles them within about 15 minutes, and two agents were judging the same rows. The switch is `READER_WORK_STARTS_WINDOW = False` in scripts/claude_gate.py. Notes on trees still start a window, because only the night run reads them. Anything the judge misses goes red after 24 hours (reader_backlog.py) and is rung-2 work in the next slot.
 - **Contact and press-desk sourcing pauses** while sent_drafts.py lists a batch as open or partly sent. Today that is the Guardian press batch (31 of 39) and the Android wave 3 invitations. CLAUDE.md rung 4 carries the rule.
+- **The digest's contacts line is gone** (Hidde: "contacten qua outreach? die mag dan weg"). That line gave the addresses ready to mail per group and the "no new contacts in two days" warning. Switch: `OUTREACH_READY_LINE = False` in scripts/daily_digest.py.
 - **Kept, not changed**: the two-hour knock and its four agent slots a day (point 3 of the proposal).
 
 ## 2026-11-24 session: a waiting reader judge no longer redoes the run before it

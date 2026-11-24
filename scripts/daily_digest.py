@@ -2604,13 +2604,19 @@ def waiting_for_you_section(today):
                 continue
             seen.add(key)
             lines.append("- %s" % text[:220])
-    ready = outreach_ready_line()
+    # The contacts line is off (Hidde, 2026-11-24: "contacten qua outreach?
+    # die mag dan weg", once contact sourcing paused while batches wait).
+    # True brings back outreach_ready_line() and its sourcing note.
+    ready = outreach_ready_line() if OUTREACH_READY_LINE else ""
     if not lines and not ready:
         return ""
     if ready:
         lines = [ready] + lines[:8]
     return "**Waiting for you** (what the runs left for you since %s)\n\n%s" % (
         since, "\n".join(lines[:9]))
+
+
+OUTREACH_READY_LINE = False
 
 
 def outreach_ready_line():
