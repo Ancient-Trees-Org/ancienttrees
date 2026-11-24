@@ -119,12 +119,14 @@ def keep_copy(msg):
     not the send."""
     user = os.environ.get("OUTREACH_SMTP_USER") or ""
     pw = os.environ.get("OUTREACH_SMTP_PASS")
-    if not (user.endswith("@gmail.com") and pw):
+    # The mailbox moved from Gmail to Workspace on 2026-11-23; both are Google IMAP.
+    if not (user.endswith(("@gmail.com", "@ancienttrees.app")) and pw):
         return
     try:
+        from imap_folders import folder
         box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
         box.login(user, pw)
-        box.append('"[Gmail]/Sent Mail"', "\\Seen",
+        box.append(folder(box, '"[Gmail]/Sent Mail"'), "\\Seen",
                    imaplib.Time2Internaldate(time.time()), msg.as_bytes())
         box.logout()
     except Exception as e:  # noqa: BLE001

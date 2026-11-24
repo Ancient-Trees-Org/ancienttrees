@@ -210,7 +210,8 @@ def mailbox(since, wanted_to, wanted_subj):
         return None
     d = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
     d.login(user, pw)
-    d.select('"[Gmail]/Sent Mail"', readonly=True)
+    from imap_folders import folder
+    d.select(folder(d, '"[Gmail]/Sent Mail"'), readonly=True)
     day = datetime.date.fromisoformat(since)
     ok, data = d.search(None, "(SINCE %s)" % day.strftime("%d-%b-%Y"))
     hits = []

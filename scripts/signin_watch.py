@@ -163,8 +163,9 @@ def bounced_addresses(days=7):
         box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
         box.login(user, pw)
         since = (datetime.date.today() - datetime.timedelta(days=days)).strftime("%d-%b-%Y")
+        from imap_folders import folder as role_folder
         for folder in ("INBOX", "[Gmail]/Spam"):
-            if box.select(f'"{folder}"', readonly=True)[0] != "OK":
+            if box.select(role_folder(box, f'"{folder}"'), readonly=True)[0] != "OK":
                 continue
             ok, data = box.search(None, f'(SINCE {since} OR FROM "mailer-daemon" FROM "postmaster")')
             for n in data[0].split():

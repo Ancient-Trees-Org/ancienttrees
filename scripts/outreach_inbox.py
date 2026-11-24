@@ -41,6 +41,9 @@ import os
 import sys
 from email.header import decode_header, make_header
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from imap_folders import folder  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIRST_BATCH = "2026-08-08"
 SPAM = '"[Gmail]/Spam"'                      # the space needs the quotes
@@ -291,7 +294,7 @@ def main():
     # The same sender filter applies in both folders; still readonly.
     ids = []
     for box in BOXES:
-        if d.select(box, readonly=True)[0] != "OK":   # readonly: cannot change his mail
+        if d.select(folder(d, box), readonly=True)[0] != "OK":   # readonly: cannot change his mail
             print(f"({box} not readable)")
             continue
         ok, data = d.search(None, f'(SINCE {int(dd)}-{month}-{y})')
@@ -300,7 +303,7 @@ def main():
     current = None
     for i in ids:
         if i[0] != current:
-            d.select(i[0], readonly=True)
+            d.select(folder(d, i[0]), readonly=True)
             current = i[0]
         ok, hdr = d.fetch(i[1], "(BODY.PEEK[HEADER.FIELDS (FROM TO CC DATE SUBJECT)])")
         if ok != "OK" or not hdr or not hdr[0]:
@@ -373,7 +376,7 @@ def main():
         print(f"--- {date}{where}\n    from: {frm}\n    subj: {subj}")
         if read_bodies:
             if i[0] != current:
-                d.select(i[0], readonly=True)
+                d.select(folder(d, i[0]), readonly=True)
                 current = i[0]
             ok, raw = d.fetch(i[1], "(BODY.PEEK[])")
             if ok == "OK" and raw and raw[0]:
@@ -408,7 +411,7 @@ def main():
             incoming[frm] = t
     answered = {}
     try:
-        d.select('"[Gmail]/Sent Mail"', readonly=True)   # the space needs the quotes
+        d.select(folder(d, '"[Gmail]/Sent Mail"'), readonly=True)   # the space needs the quotes
         ok, sdata = d.search(None, f'(SINCE {int(dd)}-{month}-{y})')
         for i in sdata[0].split():
             ok, hdr = d.fetch(i, "(BODY.PEEK[HEADER.FIELDS (TO DATE SUBJECT)])")

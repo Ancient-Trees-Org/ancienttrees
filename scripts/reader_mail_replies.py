@@ -43,6 +43,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from outreach_inbox import strip_prefixes, decode, body_of, BOXES  # noqa: E402
+from imap_folders import folder  # noqa: E402
 
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 SENT = os.path.join(ROOT, "data", "outreach-sent.json")
@@ -79,7 +80,7 @@ def folder_ids(imap, since):
     """Message numbers in INBOX, then in Spam, each folder selected (readonly)
     before its numbers are yielded, so a fetch inside the loop hits it."""
     for box in BOXES:
-        if imap.select(box, readonly=True)[0] != "OK":
+        if imap.select(folder(imap, box), readonly=True)[0] != "OK":
             continue
         _, ids = imap.search(None, "SINCE", since)
         for mid in (ids[0] or b"").split():

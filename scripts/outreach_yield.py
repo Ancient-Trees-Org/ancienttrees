@@ -71,7 +71,10 @@ def inbox(since):
     me = ours()
     d = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
     d.login(user, pw)
-    d.select('"[Gmail]/All Mail"', readonly=True)
+    from imap_folders import folder
+    if d.select(folder(d, '"[Gmail]/All Mail"'), readonly=True)[0] != "OK":
+        d.logout()
+        return None
     day = datetime.date.fromisoformat(since)
     ok, data = d.search(None, "(SINCE %s)" % day.strftime("%d-%b-%Y"))
     ids = data[0].split() if ok == "OK" else []
