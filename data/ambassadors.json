@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-24T16:56Z",
+  "synced": "2026-11-24T19:21Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -194,12 +194,12 @@
       "profile_public": true
     },
     {
-      "user_id": "6c1fe98c-3afc-4122-8bbe-2ee3bdd574fb",
-      "place_slug": "sofia",
-      "place_name": "Sofia",
+      "user_id": "93021247-88bb-4324-b177-89875bc1a0e5",
+      "place_slug": "budapest",
+      "place_name": "Budapest",
       "public": true,
       "since": "2026-11-17",
-      "display_name": "Калоян Р.",
+      "display_name": "daninegyeri",
       "profile_public": true
     },
     {
@@ -212,12 +212,12 @@
       "profile_public": true
     },
     {
-      "user_id": "93021247-88bb-4324-b177-89875bc1a0e5",
-      "place_slug": "budapest",
-      "place_name": "Budapest",
+      "user_id": "6c1fe98c-3afc-4122-8bbe-2ee3bdd574fb",
+      "place_slug": "sofia",
+      "place_name": "Sofia",
       "public": true,
       "since": "2026-11-17",
-      "display_name": "daninegyeri",
+      "display_name": "Калоян Р.",
       "profile_public": true
     },
     {
@@ -402,6 +402,15 @@
       "place_name": "Glasgow",
       "public": false,
       "since": "2026-11-24"
+    },
+    {
+      "user_id": "a469dfa2-201b-4959-bc95-8aee711ade79",
+      "place_slug": "girona",
+      "place_name": "Girona",
+      "public": true,
+      "since": "2026-11-24",
+      "display_name": "Jakob G.",
+      "profile_public": true
     },
     {
       "user_id": null,

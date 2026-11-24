@@ -1218,6 +1218,43 @@
    "agreed": null
   },
   {
+   "id": "sight:421f46f9-e2f0-4010-9611-dc19762ef95d",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Silk Mulberry of Ca' di David",
+   "city": "Verona",
+   "species": "White Mulberry (Morus alba)",
+   "photo": "out/sightings/421f46f9-e2f0-4010-9611-dc19762ef95d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry (Morus alba)"
+   },
+   "verdict": "publish",
+   "reason": "A second July view of the same mulberry from the field side (the pale-rimmed knot hole matches); in the gallery behind the reader's lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1612",
+   "seen": "2026-11-24",
+   "kind": "a tip without a photograph",
+   "tree": "54CF46DD-E218-47F7-9F93-07D8509AF63E",
+   "city": "Verona",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Not a separate tip: the row of app sighting 54cf46dd, the Verona mulberry already live as ver_011 (that sighting was judged a duplicate of 2cbeafcc). Nothing to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",

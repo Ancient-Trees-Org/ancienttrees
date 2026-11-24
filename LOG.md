@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-24 reader judge: a third view of the Verona mulberry; Girona has its ambassador
+
+- **Verona, The Silk Mulberry of Ca' di David (ver_011)**: the reader who added it sent another photograph (sighting 421f46f9, taken in July): the same trunk from the field side, its pale-rimmed knot hole matching their earlier frames, water standing on the grass. Into the gallery behind their lead (`strip`), filed under July. Pin untouched (their coordinate is our pin, not a GPS fix).
+- **Girona, feedback 1630**: Jakob answered our ambassador explanation with "I'd be happy to do so!". Badge granted (`ambassador.py --grant`, synced). The "Looking after Girona" mail was only printed: this run has no mail credentials, so `ambassador.py --welcome-missing --send` on the next run that has them owes it. Closed `handled`.
+- tip:1612 is the submissions row of app sighting 54cf46dd, already judged a duplicate of the live mulberry: verdict publish, nothing to add.
+- Left waiting: lead 3c544597 (Amsterdam, our own account's photo, `mine`), photograph not on disk; never judged blind.
+- No open reports. Nothing a reader sent has waited over 24 hours.
+
 ## 2026-11-24 session: a new follower shows in Activity
 
 - Live on the server now, web on the next deploy, apps in their next build: whoever follows you appears in Activity (the bell) as "X started following you." with Follow back or Following, Instagram's row; the bell's dot lights for it. Before, a new follower was told nothing at all. Asked by Hidde, design approved ("Ja, bouw het").
