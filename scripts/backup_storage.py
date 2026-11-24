@@ -23,12 +23,18 @@ Needs SUPABASE_SERVICE_KEY. Prints counts only, never a path or a name.
 import json
 import os
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
 import urllib.parse
 import urllib.request
 
 URL = "https://caimvxiyrtifilimlkqw.supabase.co"
 BUCKETS = ["avatars", "sightings"]
 KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+# The first full copy (2026-11-24) ran one file at a time and hit the job's
+# 40 minutes before it was done. Several at once, and one file that will not
+# come is counted and left out instead of losing the whole backup.
+WORKERS = 8
 
 
 def req(path, body=None):
@@ -58,29 +64,49 @@ def walk(bucket, prefix=""):
         offset += 1000
 
 
+def fetch(b, path, out):
+    dst = os.path.join(out, b, path)
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    quoted = urllib.parse.quote(path)
+    for attempt in range(3):
+        try:
+            data = req(f"/storage/v1/object/authenticated/{b}/{quoted}")
+            break
+        except Exception:
+            if attempt == 2:
+                return None
+            time.sleep(2 * (attempt + 1))
+    with open(dst, "wb") as fh:
+        fh.write(data)
+    return len(data)
+
+
 def main(out, since=""):
     if not KEY:
         sys.exit("backup_storage: no SUPABASE_SERVICE_KEY")
-    total = skipped = size = 0
+    total = skipped = size = failed = 0
     for b in BUCKETS:
-        n = 0
+        todo = []
         for path, changed in walk(b):
             # ISO timestamps compare as text. A file without a date is taken.
             if since and changed and changed[:10] < since:
                 skipped += 1
                 continue
-            dst = os.path.join(out, b, path)
-            os.makedirs(os.path.dirname(dst), exist_ok=True)
-            quoted = urllib.parse.quote(path)
-            data = req(f"/storage/v1/object/authenticated/{b}/{quoted}")
-            with open(dst, "wb") as fh:
-                fh.write(data)
-            size += len(data)
-            n += 1
-        print(f"backup_storage: {b}: {n} file(s)")
+            todo.append(path)
+        n = 0
+        with ThreadPoolExecutor(WORKERS) as pool:
+            for got in pool.map(lambda p: fetch(b, p, out), todo):
+                if got is None:
+                    failed += 1
+                else:
+                    size += got
+                    n += 1
+        print(f"backup_storage: {b}: {n} file(s)", flush=True)
         total += n
     print(f"backup_storage: {total} file(s) in all, {size / 1e6:.1f} MB downloaded"
           + (f"; {skipped} unchanged since {since} left out" if since else ""))
+    if failed:
+        print(f"::warning::backup_storage: {failed} file(s) could not be fetched")
 
 
 if __name__ == "__main__":
