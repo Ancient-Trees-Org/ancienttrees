@@ -193,7 +193,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       # The reader mail runs in its own workflow (tell-readers.yml), started
       # here once the site is live. It used to be a job of this run, so the
