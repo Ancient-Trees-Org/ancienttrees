@@ -1,17 +1,18 @@
 # Google Play: wat jij klikt, in de volgorde van de console
 
-**Sinds 2026-11-24 het nieuwe account**: ontwikkelaar "Ancient Trees Map",
-account-id 6289749847935270102, ingelogd als hidde@ancienttrees.app
-(play.google.com/console/u/0/developers/6289749847935270102/home). De app heet
-nu `app.ancienttrees.map`; het oude account en `app.ancienttrees.android`
-zitten vast onder het uitgezette Gmail-account. Nooit beide apps tegelijk
-openbaar.
-
 Alles wat zonder jou kon is klaar. De teksten staan in
 drafts/play-store-listing.md, de antwoorden op de formulieren in
 drafts/play-console-forms.md, het app-bestand en de plaatjes in out/play/ op de
 Mac (`python3 scripts/android_release.py` maakt het .aab opnieuw). Dit begint
 pas als Google je identiteit heeft bevestigd.
+
+**Sinds 2026-11-24 het nieuwe account**: ontwikkelaar "Ancient Trees Map",
+account-id 6289749847935270102, ingelogd met het Workspace-adres op
+ancienttrees.app
+(play.google.com/console/u/0/developers/6289749847935270102/home). De app heet
+nu `app.ancienttrees.map`; het oude account en `app.ancienttrees.android`
+zitten vast onder het uitgezette Gmail-account. Nooit beide apps tegelijk
+openbaar.
 
 ## 1. De app aanmaken
 
