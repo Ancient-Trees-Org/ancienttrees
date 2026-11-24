@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: Waste Magazine article sent
+
+- Sent to Waste Magazine on Hidde's "prima verstuur": the Spanish article as a Word file (drafts/waste-article-2026-11.md turned into a document, 973 words, with bio and photo credits) and seven open-licence photos (drafts/waste-photos/, 8.8 MB). The cover mail is in the Crann shape (drafts/reply-waste-magazine-2026-11-24.md).
+- Waste's mail of 11-20 sits in the blocked Gmail, so its Message-ID can't be read, and the 10-27 message it would answer had already been replied to. scripts/outreach_send.py now takes `second_reply` (a sentence saying why) for a deliberate second answer to one message, still once per batch, so the mail went in their thread and outside the outreach cap.
+- Potential: Waste is a web-only nature magazine from Granada, around since 1997, and it publishes no audience numbers. Expect a modest number of visitors and one good Spanish link.
+
 ## 2026-11-24 reader judge: "Bella", a registered oak near Arezzo, held over its photo
 
 - Held e604000d, a downy oak a reader calls "Bella" at Ceciliano, Arezzo, as `doubt_photo` (no mail, same as the Tsagarada plane on 11-22). The picture is a cropped phone screenshot: 1206 px wide in a 4:5 social-media crop, no camera data, a filtered look, and summer leaf under a November date. The tree itself is real and special. The official Italian register lists it 41 m from the reader's hand-placed pin: Albero monumentale d'Italia 01/A390/AR/09, 570 cm round, 24 m tall, at "Casa Fredda, Loc. Ceciliano 82". That address is a house, so a register-backed page would still need a life check and a check that the tree can be seen from public ground. A photo the reader took themselves would also put it live.

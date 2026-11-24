@@ -204,8 +204,17 @@ def main():
         # came back into the original batch through a merge and went a second
         # time: the resend_reason that let the first through let the copy
         # through too.
+        # A deliberate second answer to the same message carries
+        # `second_reply` (a sentence why), and still goes only once per batch.
+        # Added 2026-11-24: Waste Magazine's article request of 11-20 sits in
+        # the blocked Gmail, so the article could only answer their 10-27
+        # message, which our 11-19 reply had already answered.
         irt = " ".join((m.get("in_reply_to") or "").split())
-        if irt and any((s2.get("to") or "").lower() == to.lower()
+        same_batch = any((s2.get("to") or "").lower() == to.lower()
+                         and s2.get("batch") == batch.get("batch")
+                         for s2 in sent_log["sent"])
+        second_ok = len((m.get("second_reply") or "").split()) >= 5 and not same_batch
+        if irt and not second_ok and any((s2.get("to") or "").lower() == to.lower()
                        and s2.get("in_reply_to") == irt
                        for s2 in sent_log["sent"]):
             results.append(f"SKIP  {label}: {to}, that message was already "
