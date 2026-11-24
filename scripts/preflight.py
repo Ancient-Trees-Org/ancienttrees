@@ -3717,16 +3717,29 @@ def check_park_descriptions_fit():
     the build, leaving no tree live for hours. Caught here it costs seconds.
     """
     out = []
-    for p in sorted(glob.glob(os.path.join("data", "parks", "*.json"))):
-        try:
-            with open(p, encoding="utf-8") as fh:
-                d = json.load(fh)
-        except (OSError, ValueError):
-            continue
-        v = d.get("meta_description") or ""
-        if len(v) > DESC_MAX:
-            out.append("%s: meta_description is %d chars, the limit is %d"
-                       % (os.path.basename(p)[:-5], len(v), DESC_MAX))
+    # Parks only: the park page prints meta_description as written and the
+    # build throws over the cap. Country files carry longer ones the build
+    # never prints whole (eleven were over on 2026-11-24 with green builds),
+    # so checking them would refuse pushes for nothing.
+    for kind in ("parks",):
+        for p in sorted(glob.glob(os.path.join("data", kind, "*.json"))):
+            try:
+                with open(p, encoding="utf-8") as fh:
+                    d = json.load(fh)
+            except (OSError, ValueError):
+                continue
+            name = "%s/%s" % (kind, os.path.basename(p)[:-5])
+            v = d.get("meta_description") or ""
+            if len(v) > DESC_MAX:
+                out.append("%s: meta_description is %d chars, the limit is %d"
+                           % (name, len(v), DESC_MAX))
+            # The park page throws on a hand-written title over TITLE_MAX
+            # (site/src/pages/parks/[slug].astro): Barcelona's Jardi Botanic
+            # Historic at 62 failed the 09:13 build the same morning.
+            t = d.get("title") or ""
+            if kind == "parks" and len(t) > TITLE_MAX:
+                out.append("%s: title is %d chars, the limit is %d"
+                           % (name, len(t), TITLE_MAX))
     return out
 
 
