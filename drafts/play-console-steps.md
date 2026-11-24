@@ -40,7 +40,7 @@ Elk punt hieronder staat met het antwoord in drafts/play-console-forms.md.
 1. **Kies eerst**: categorie (Travel & Local of Maps & Navigation) en het contactadres dat openbaar op de pagina staat. Beide staan als vraag in de listing-draft.
 2. Store settings: categorie, contactmail, website `https://ancienttrees.app`.
 3. Main store listing: naam, korte en lange beschrijving uit de Engelse sectie.
-4. Graphics: `out/play/icon-512.png`, `out/play/feature-graphic-1024x500.png`, en de telefoon-screenshots `out/play/phone-*.png` (in volgorde 1 tot 4).
+4. Graphics: `out/play/icon-512.png`, `out/play/feature-graphic-1024x500.png`, en de INGELIJSTE telefoon-screenshots `out/play/framed/0-hero.png` tot `4-city.png` (in volgorde 0 tot 4; scripts/play_frames.py, gevraagd op 2026-11-17). Niet de kale `out/play/phone-*.png`: dat zijn de ruwe schermen waar de lijsten van gemaakt worden.
 5. **Translations** > Add your own translation text: en-US, nl-NL, de-DE, fr-FR, es-ES, it-IT, pt-PT, ja-JP, elk met de drie velden uit de draft. De plaatjes mogen voor alle talen dezelfde blijven.
 6. Save.
 

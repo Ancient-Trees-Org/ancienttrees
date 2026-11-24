@@ -357,4 +357,6 @@ Full description:
   It is plain on purpose: Play shows it behind a video or at the top of the
   listing, and a photograph of a tree there is a design decision that is yours.
 - `phone-*.png`: phone screenshots, 1080 by 1920, from the release build on the
-  emulator, signed out, the same scenes as the iPhone listing.
+  emulator, signed out, the same scenes as the iPhone listing. These are the RAW
+  screens: the listing gets `framed/0-hero.png` to `framed/4-city.png`
+  (scripts/play_frames.py, the iPhone panels' dress; Hidde 2026-11-17).
