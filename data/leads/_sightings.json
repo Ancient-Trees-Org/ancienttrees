@@ -11678,6 +11678,75 @@
    "seen": "2026-11-22",
    "judged": "2026-11-24",
    "published_as": "tsagarada/tsg_001"
+  },
+  {
+   "sighting_id": "48b2515d-e2ed-48aa-93b6-638df9ccf956",
+   "user_id": "p_997e42533afdc70e8a2d88ad",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -37.8978843614429,
+   "longitude": 175.204007858749,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_997e42533afdc70e8a2d88ad/48B2515D-E2ED-48AA-93B6-638DF9CCF956.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-24: looking up the trunk of a London plane (mottled flaking bark, maple-like leaves) in full leaf, one of a row of similar planes along a mown field with low white school-like buildings behind, daylight, colour. A healthy mid-sized plane, no bigger than its neighbours in the row; nothing in the frame (girth, form, plaque, note) sets it apart, and no register entry or write-up within 300 m. Kept with its coordinate; a second account or a measurement would reopen it.",
+   "seen": "2026-11-24",
+   "hold": "not_special",
+   "judged": "2026-11-24"
+  },
+  {
+   "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+   "user_id": "p_a3f2a2d73be01cc431f88202",
+   "mine": false,
+   "name": "Macedonian Oak",
+   "unsure_among": null,
+   "species": "Macedonian Oak (Quercus trojana)",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "National trust, listed on the register of significant trees of Victoria.",
+   "latitude": -38.1574690257966,
+   "longitude": 145.179166912189,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a3f2a2d73be01cc431f88202/04CF3B8E-6EEF-4ED2-A40A-D4443F49DD23.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/04cf3b8e-6eef-4ed2-a40a-d4443f49dd23-extra-1.jpg",
+    "out/sightings/04cf3b8e-6eef-4ed2-a40a-d4443f49dd23-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-24: the whole oak from the lawn, a dark twisting trunk in a bed of ivy, long narrow leaves hanging in curtains, a white bench beneath, daylight, colour; a second frame from below the tennis lawn with the white farmhouse behind; a third of the National Trust plaque at the trunk reading Quercus 'Firthii', Macedon Oak. Live as langwarrin/lwr_001 under the closed list; National Trust register entry confirms it (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "langwarrin/lwr_001"
   }
  ]
 }

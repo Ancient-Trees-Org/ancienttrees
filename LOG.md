@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: the Macedon Oak of Cruden Farm, Langwarrin
+
+- **Live**: langwarrin/lwr_001, The Macedon Oak of Cruden Farm (Victoria, Australia), a new one-tree place. A reader sent three photographs through the app: the whole oak, a wide shot with the farmhouse, and the National Trust plaque. The National Trust register and the Victorian Heritage Database list it (Quercus 'Firthii', 32 m tall in 2010, classified 1982). The reader had picked "Macedonian Oak (Quercus trojana)"; the page uses the plaque's name. Paid, booked garden entry. The id prefix `lgw` was already taken by Longwood, so the tree is `lwr`.
+- **Held** `not_special`: lead 48b2515d, a mid-sized London plane in a row on a mown field (school-like buildings) in Waikato, New Zealand. No note, nothing sets it apart. No mail, since this is not a reason the reader can fix.
+- **Not judged, photo not on disk**: lead 3c544597 (Amsterdam-west, 52.3972,4.8739, "not sure which tree"). sightings_inbox says to run the intake with the key. The older Japan and Baarn leads (mostly our own account) also have no file here and were left as they were.
+- Reader words: submission 1414 (Tsagarada) closed with `--done`. It is a pasted travel text, and its figures are already on the page as the reader's.
+- No open reports and no open feedback.
+
 ## 2026-11-24 night run: the Tsagarada plane, a reader-intake fix, five park intros and Vietnam
 
 - **New reader's tree live**: tsagarada/tsg_001, The Plane of Agia Paraskevi, a new one-tree place on Mount Pelion, Greece. Submission 1414 (sent 2026-11-22 from the app) had an empty main photograph and three further ones, so no lead was ever written and it sat unjudged for two days (health's reader backlog went red on it). All three frames were viewed: the plane in its village square at night, lit from below, one great limb resting on a stone pillar. Pin from the photograph's own location (confirmed). Their note repeats a travel text, so it is not quoted; their figures (about 1,000 years, 14 to 15 m girth) are stated as theirs. The famous lead for the same tree is marked published. tip-1433 (another reader, a screenshot) stays held `doubt_photo`.

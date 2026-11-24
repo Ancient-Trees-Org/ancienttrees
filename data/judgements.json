@@ -18,6 +18,59 @@
    "agreed": null
   },
   {
+   "id": "lead:48b2515d-e2ed-48aa-93b6-638df9ccf956",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_997e42533afdc70e8a2d88ad/48B2515D-E2ED-48AA-93B6-638DF9CCF956.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a mid-sized London plane in full leaf, one of a row of similar planes along a mown field with school-like buildings behind; nothing in the frame or the empty note sets it apart, no register or write-up within 300 m. Kept as a held lead with its coordinate; no mail (not a reason the reader can fix).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Macedonian Oak",
+   "city": null,
+   "species": "Macedonian Oak (Quercus trojana)",
+   "photo": "p_a3f2a2d73be01cc431f88202/04CF3B8E-6EEF-4ED2-A40A-D4443F49DD23.jpg",
+   "reader_note": "National trust, listed on the register of significant trees of Victoria.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Macedonian Oak (Quercus trojana)"
+   },
+   "verdict": "publish",
+   "reason": "Live as langwarrin/lwr_001, The Macedon Oak of Cruden Farm: the reader's three photographs show the whole oak, the tennis lawn and farmhouse, and the National Trust plaque (Quercus 'Firthii'); the National Trust register and the Victorian Heritage Database list it (32 m tall in 2010, classified 1982). Paid, booked garden entry. Reader's species name corrected to the plaque's.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -4430,6 +4483,30 @@
    },
    "verdict": "publish",
    "reason": "Three photographs viewed 2026-11-24: the Tsagarada plane in its village square at night, lit from below, the stone pillar under its great limb; the reader's own frames with the photograph's location. Live as tsagarada/tsg_001 under the closed list (Hidde, 2026-11-17). Their note repeats a travel text, so it is not quoted.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c50bb407-3ade-4813-b8d8-9c3a9256b713",
+   "seen": "2026-11-22",
+   "kind": "photo of a tree we map",
+   "tree": "Oriental Plane",
+   "city": null,
+   "species": "Oriental Plane",
+   "photo": null,
+   "reader_note": "(a travel text about the Tsagarada plane, not quoted)",
+   "reader_girth_cm": 1500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane"
+   },
+   "verdict": "publish",
+   "reason": "Three photographs viewed 2026-11-24: the Tsagarada plane in its village square at night, lit from below, the stone pillar under its great limb; the reader's own frames. Live as the lead and two strip photographs of tsagarada/tsg_001.",
    "hidde": null,
    "agreed": null
   },
@@ -26949,26 +27026,26 @@
    "agreed": null
   },
   {
-   "id": "sight:c50bb407-3ade-4813-b8d8-9c3a9256b713",
-   "seen": "2026-11-22",
+   "id": "sight:04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+   "seen": "2026-11-24",
    "kind": "photo of a tree we map",
-   "tree": "Oriental Plane",
-   "city": null,
-   "species": "Oriental Plane",
+   "tree": "The Macedon Oak of Cruden Farm",
+   "city": "langwarrin",
+   "species": "Macedon Oak",
    "photo": null,
-   "reader_note": "(a travel text about the Tsagarada plane, not quoted)",
-   "reader_girth_cm": 1500,
+   "reader_note": "National trust, listed on the register of significant trees of Victoria.",
+   "reader_girth_cm": null,
    "coords": [
-    null,
-    null
+    -38.1574690257966,
+    145.179166912189
    ],
    "register": null,
    "measure": {
     "score": null,
-    "note": "nothing measurable about Oriental Plane"
+    "note": "32 m tall (National Trust register, 2010)"
    },
    "verdict": "publish",
-   "reason": "Three photographs viewed 2026-11-24: the Tsagarada plane in its village square at night, lit from below, the stone pillar under its great limb; the reader's own frames. Live as the lead and two strip photographs of tsagarada/tsg_001.",
+   "reason": "Three photographs viewed 2026-11-24: the Macedon Oak at Cruden Farm whole from the lawn, from below the tennis lawn with the farmhouse behind, and its National Trust plaque; the reader's own frames. Live as the lead and two strip photographs of langwarrin/lwr_001.",
    "hidde": null,
    "agreed": null
   }

@@ -1,0 +1,113 @@
+{
+  "city": "Langwarrin",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Langwarrin is a suburb on the south-eastern edge of Melbourne, between Frankston and Cranbourne. Its best-known garden is Cruden Farm, once the home of Dame Elisabeth Murdoch, whose avenue of lemon-scented gums lines the drive. Above the tennis lawn grows a Macedon Oak on the National Trust's Register of Significant Trees of Victoria, 32 metres tall when measured in 2010. A reader sent us its photograph.",
+  "meta_description": "The Macedon Oak at Cruden Farm, Langwarrin: a rare Victorian oak on the National Trust register, 32 metres tall, and how to visit the garden.",
+  "hero_tree_id": "lwr_001",
+  "oldest_tree_id": "lwr_001",
+  "trees": [
+    {
+      "id": "lwr_001",
+      "name": "The Macedon Oak of Cruden Farm",
+      "species": "Macedon Oak (Quercus 'Firthii')",
+      "location": {
+        "address": "Cruden Farm, Frankston-Cranbourne Road, Langwarrin, Victoria",
+        "latitude": -38.1574690257966,
+        "longitude": 145.179166912189,
+        "neighbourhood": "Langwarrin"
+      },
+      "height_m": 32,
+      "story": "A reader walking the garden at Cruden Farm, in Langwarrin on the south-eastern edge of Melbourne, sent us this oak together with the small plaque at its foot: National Trust, listed on the Register of Significant Trees of Victoria, Quercus 'Firthii', Macedon Oak.\n\nThe name carries a small mystery. The National Trust's entry says the seed is believed to have come from Sefton, a garden at Mount Macedon, and that the tree is thought to be a natural hybrid between two North American oaks, the willow oak and the red oak. Only a few others are known, at Firth Park in the Wombat State Forest, at Creswick and at Mount Macedon itself. The Trust classified this one in 1982 and measured it at 32 metres tall in 2010; it notes a smaller specimen by the drive at the front of the house.\n\nThe reader's photographs show a dark, twisting trunk rising from a bed of ivy, limbs swinging out low over the lawn, and long narrow leaves hanging in curtains that look more like a willow's than an oak's. It stands above the tennis lawn, with the white farmhouse behind.\n\nCruden Farm was the garden of Dame Elisabeth Murdoch, who planted the avenue of lemon-scented gums at its gate around 1930. Walk in under the hanging edge of the oak's crown and look up.",
+      "how_to_recognise": "Above the tennis lawn, in front of the white farmhouse: a broad oak whose long narrow leaves hang in curtains to the grass, its dark twisting trunk in a bed of ivy with a small National Trust plaque and a white bench beneath.",
+      "access": "Paid entry to the Cruden Farm garden, booked online for a chosen day; it opens on weekdays and some Sundays. Check crudenfarm.com.au before you go.",
+      "official_register": {
+        "name": "National Trust of Australia (Victoria), Register of Significant Trees",
+        "url": "https://www.trusttrees.org.au/tree/VIC/Langwarrin/Cruden_Farm_Frankston_Cranbourne_Road"
+      },
+      "verified_sources": [
+        "https://www.trusttrees.org.au/tree/VIC/Langwarrin/Cruden_Farm_Frankston_Cranbourne_Road (National Trust of Australia, Register of Significant Trees: Macedon Oak, Quercus 'Firthii', Cruden Farm, Langwarrin; 32 m tall, measured 2010; classified 1982; seed believed from Sefton, Mt Macedon, thought a natural hybrid of Q. phellos and Q. rubra)",
+        "https://vhd.heritagecouncil.vic.gov.au/places/71010 (Victorian Heritage Database, Quercus 'Macedon' at Cruden Farm: National Trust significant tree, in the shrubbery south-west of the tennis court)",
+        "https://www.trusttrees.org.au/tree/VIC/Langwarrin/Cruden_Farm_Frankston_Cranbourne_Road_3 (National Trust: the lemon-scented gum avenue at Cruden Farm, planted by Dame Elisabeth Murdoch circa 1930)",
+        "https://crudenfarm.com.au/visit-us/ (Cruden Farm: visiting, tickets)",
+        "A reader's app submission with three photographs, one of the National Trust plaque, 2026-11-24"
+      ],
+      "found_by_reader": {
+        "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+        "date": "2026-11-24"
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (sighting 04cf3b8e-6eef-4ed2-a40a-d4443f49dd23). Photographs viewed: the whole oak from the lawn, a dark twisting trunk in a bed of ivy, long narrow leaves hanging in curtains, a white bench beneath, daylight, colour; a second frame from below the tennis lawn with the white farmhouse behind; a third of the National Trust plaque at the trunk reading Quercus 'Firthii', Macedon Oak. The reader named it 'Macedonian Oak (Quercus trojana)'; the plaque and the National Trust register say Quercus 'Firthii', Macedon Oak, so the register's name is used. Register (trusttrees.org.au) gives height 32 m (2010), diameter 1 m, condition poor, classified 1982; VHD places it south-west of the tennis court, which the second photograph matches (tennis lawn in front, farmhouse behind), and the register's smaller specimen by the front drive is not this one. Girth not set: the two register readings disagree (1 m diameter vs a VHD summary figure not read first-hand). Access: paid, booked entry (crudenfarm.com.au).",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, November 2026 (spring in Victoria, the oak in full leaf)",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a3f2a2d73be01cc431f88202",
+        "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-24: the whole oak from the lawn, its hanging curtains of leaves and ivy bed, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm-extra1.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, November 2026 (spring in Victoria, the oak in full leaf)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a3f2a2d73be01cc431f88202",
+          "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+          "note": "The same reader's further photograph, looked at 2026-11-24: the oak from below the tennis lawn with the white farmhouse behind. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lwr_001-the-macedon-oak-of-cruden-farm-extra2.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, November 2026 (spring in Victoria, the oak in full leaf)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a3f2a2d73be01cc431f88202",
+          "sighting_id": "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23",
+          "note": "The same reader's further photograph, looked at 2026-11-24: the National Trust plaque (Quercus 'Firthii', Macedon Oak) against the trunk. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ],
+      "paid_entry": true
+    }
+  ],
+  "question_meta": "The Macedon Oak at Cruden Farm, Langwarrin: a rare Victorian oak on the National Trust register, 32 metres tall, and how to visit the garden.",
+  "question_answer": "The Macedon Oak of Cruden Farm stands in the garden of Cruden Farm in Langwarrin, above the tennis lawn in front of the farmhouse. The garden has paid entry, booked online for a chosen day.",
+  "question_context": "A reader sent us photographs of this oak from the garden of Cruden Farm in Langwarrin, on the south-eastern edge of Melbourne, with the National Trust plaque at its foot. The tree is a Macedon Oak, Quercus 'Firthii', listed on the National Trust's Register of Significant Trees of Victoria. The Trust classified it in 1982 and measured it at 32 metres tall in 2010. Its entry says the seed is believed to have come from Sefton, a garden at Mount Macedon, and that the tree is thought to be a natural hybrid between the willow oak and the red oak of North America; a few other specimens are known, at Firth Park in the Wombat State Forest, at Creswick and at Mount Macedon. In the reader's photographs a dark, twisting trunk rises from a bed of ivy, and long narrow leaves hang in curtains to the lawn. It stands above the tennis lawn, with the white farmhouse behind. Cruden Farm was the garden of Dame Elisabeth Murdoch, and its drive is lined by the avenue of lemon-scented gums she planted around 1930. Entry is paid and booked online, so check the garden's opening days before you go.",
+  "faq": [
+    {
+      "q": "Can I visit The Macedon Oak of Cruden Farm?",
+      "a": "Yes. It grows in the Cruden Farm garden in Langwarrin, which has paid entry booked online for a chosen day; it opens on weekdays and some Sundays."
+    },
+    {
+      "q": "What is a Macedon Oak?",
+      "a": "An oak raised in Victoria, Quercus 'Firthii'. The National Trust's register says the seed is believed to have come from Sefton at Mount Macedon and that it is thought to be a natural hybrid of the willow oak and the red oak."
+    },
+    {
+      "q": "How tall is the Macedon Oak at Cruden Farm?",
+      "a": "The National Trust measured it at 32 metres tall in 2010."
+    }
+  ]
+}
