@@ -926,6 +926,43 @@
    "agreed": null
   },
   {
+   "id": "sight:ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Canadian Poplar of Entrepothof",
+   "photo": "p_86871a29a30bc55c14deb2b6/CA3121A2-A7D7-4193-91D8-1AA8D9838B9F.jpg",
+   "reader_note": "Age and height",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank beside a waterside path, daylight, colour. City register no. 486309 (planted 1930, 585 cm, champion tree) 25 m away. Live as amsterdam/ams_041 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:35263410-988c-419f-9141-f49826a2f81c",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Taasinge",
+   "city": null,
+   "species": null,
+   "photo": "p_19280672174196861df923eb/35263410-988C-419F-9141-F49826A2F81C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big old oak at a wood's edge across a meadow, its trunk forking into two stems, bleached silver dead limbs reaching sideways; stands out even among the oaks around it. GPS fix from the device, about 500 m east of Tranekaer Slot on Langeland (the app's 'near Taasinge' name was the nearest place we map). Live as tranekaer/tnk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27896,14 +27933,14 @@
    "agreed": null
   },
   {
-   "id": "sight:ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+   "id": "sight:35263410-988c-419f-9141-f49826a2f81c",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
-   "tree": "The Canadian Poplar of Entrepothof",
-   "photo": "p_86871a29a30bc55c14deb2b6/CA3121A2-A7D7-4193-91D8-1AA8D9838B9F.jpg",
-   "reader_note": "Age and height",
+   "tree": "The Silver-Limbed Oak of Tranekær",
+   "photo": "p_19280672174196861df923eb/35263410-988C-419F-9141-F49826A2F81C.jpg",
+   "reader_note": "",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank beside a waterside path, daylight, colour. City register no. 486309 (planted 1930, 585 cm, champion tree) 25 m away. Live as amsterdam/ams_041 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-24: a big old oak at a wood's edge across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways, late autumn, daylight, colour. Live as tranekaer/tnk_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

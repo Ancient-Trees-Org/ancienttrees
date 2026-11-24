@@ -5164,6 +5164,18 @@
       "Tuluz",
       "Tuluzo"
     ],
+    "tranekaer": [
+      "Langeland",
+      "Comune di Langeland",
+      "Municipi de Langeland",
+      "Langeland Kommune",
+      "Langelands kommun",
+      "Langelandin kunta",
+      "Gmina Langeland",
+      "Langeland község",
+      "Comuna Langeland",
+      "Munisipalitas Langeland"
+    ],
     "trencianske-stankovce": [
       "Trencsénsztankóc"
     ],
@@ -6660,6 +6672,7 @@
     "toronto": "Toronto",
     "toul": "Toul",
     "toulouse": "Toulouse",
+    "tranekaer": "Langeland Municipality",
     "trate": "Trate",
     "trencianske-stankovce": "Trenčianske Stankovce",
     "trento": "Trento",

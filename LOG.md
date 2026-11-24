@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 reader judge: an old oak with silver limbs at Tranekær, Langeland, live
+
+- **Tranekær (new one-tree place), tnk_001, The Silver-Limbed Oak of Tranekær** (app, sighting 35263410, a GPS fix from the device): a big old oak at the edge of a wood, photographed across an open meadow. Its trunk forks into two stems, and a tangle of bleached silver-white dead limbs reaches out sideways from its lower half. It stands out even among the oaks around it. The app named it "A tree near Taasinge", but the fix is on Langeland, about 500 m east of Tranekær Slot and 14 km from our Tåsinge oak, so it is its own place rather than a second Tåsinge tree. Access comes from VisitLangeland: the castle grounds outside the moats are open to walkers all year. The reader sent no species, age or girth, so the species is Oak (Quercus sp.) and the page asks readers for the rest. Filed as November, the photo's own month. The place has an intro, question fields and three FAQ, and city_names.py was run. With one tree it stays a tree page under PLACE_PAGE_MIN_TREES.
+- Left alone: 3c544597 (our own account, no photo on disk). There were no open reports, feedback or tips, and reader_words had nothing to place. preflight 0, i18ncheck clean, qa source clean.
+
 ## 2026-11-24 reader judge: a register champion poplar in Amsterdam live, a reader's golden ginkgo now leads in Verona
 
 - **Amsterdam, ams_041, The Canadian Poplar of Entrepothof** (app, sighting ca3121a2, GPS from the photo): several heavy, leaning stems on a bank by the waterside path in the Oostelijk Havengebied, photographed bare in November. The city's Bijzondere Bomen register (no. 486309) is 25 m away and lists it as planted in 1930, with a 585 cm girth and the champion-tree flag. That planting year matches the reader's "96 years". The girth comes from the register and is stored as `girth_cm`. The Dutch overlay has the tree as Canadapopulier, the name already used for ams_027. Both meta lines now count 27 more trees. Filed as November, the photo's own month.

@@ -1,0 +1,73 @@
+{
+  "city": "Tranekær",
+  "country": "Denmark",
+  "status": "needs_curation",
+  "intro": "Tranekær is a village in the north of Langeland, the long island south of Funen, gathered around a red castle whose grounds outside the moats are open to walkers. At the edge of the castle woods, above an open meadow, a reader found an old oak with a tangle of silver-white dead limbs and sent us its photograph. We do not yet know its age or girth.",
+  "meta_description": "An old oak with silver-white dead limbs at the edge of the castle woods in Tranekær on Langeland, sent by a reader: where it stands and what we know.",
+  "question_meta": "The remarkable tree at Tranekær on Langeland: an old oak with silver-white dead limbs at the edge of the castle woods, sent by a reader.",
+  "question_answer": "The Silver-Limbed Oak of Tranekær stands at the edge of the castle woods, about half a kilometre east of Tranekær Slot on Langeland. The castle grounds outside the moats are open to walkers.",
+  "question_context": "A reader walking at Tranekær in November 2026 sent us a photograph of this oak from the meadow at the edge of the castle woods. It stands out even among the old oaks around it. A thick, dark trunk leans out of the undergrowth and forks into two stems that carry a high crown, and from its lower half a tangle of dead limbs, bleached silver-white, twists out sideways, bright against the darker wood. Dead wood like this is normal on an old oak, which can keep it for decades, and it is valuable habitat for beetles, fungi and woodpeckers. Tranekær Slot, the red castle the village grew around, is not open inside except on guided tours, but its grounds outside the moats are open to walkers all year, with paths through the park. The oak is about half a kilometre east of the castle. We have no age, girth or exact species for it yet, and we would like readers who know it to tell us.",
+  "faq": [
+    {
+      "q": "What is the remarkable tree at Tranekær?",
+      "a": "An old oak at the edge of the castle woods, with a tangle of silver-white dead limbs, sent to us by a reader."
+    },
+    {
+      "q": "Is it free to visit?",
+      "a": "The castle grounds outside the moats are open to walkers all year. The castle itself opens only for guided tours."
+    },
+    {
+      "q": "When is the best time to see it?",
+      "a": "Late autumn and winter, when the leaves are down and the pale dead limbs stand out against the wood."
+    }
+  ],
+  "hero_tree_id": "tnk_001",
+  "oldest_tree_id": "tnk_001",
+  "trees": [
+    {
+      "id": "tnk_001",
+      "name": "The Silver-Limbed Oak of Tranekær",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Edge of the castle woods, about 500 m east of Tranekær Slot, Tranekær, Langeland, Denmark",
+        "latitude": 55.001169804001,
+        "longitude": 10.8635058795371,
+        "neighbourhood": "Tranekær, Langeland"
+      },
+      "how_to_recognise": "Where the wood meets an open meadow: a dark, leaning oak trunk that forks into two stems, with a tangle of bleached silver-white dead limbs reaching out sideways from its lower half.",
+      "access": "The castle grounds outside the moats are open to walkers; the reader stood on the meadow at the edge of the wood. We have not confirmed which path passes closest.",
+      "verified_sources": [
+        "https://www.govisitlangeland.com/langeland/plan-journey/tranekaer-slot-gdk612254 (VisitLangeland: Tranekær Slot; outside the moats you can walk the path through the park, open all year)"
+      ],
+      "story": "A reader walking the woods of Tranekær on Langeland in November stopped at the edge of a meadow and sent us this oak.\n\nEven among the old oaks around it, this one stands apart. Its trunk leans out of the undergrowth, thick, dark and furrowed, and then forks into two great stems that climb into a high crown of crooked branches. Lower down it carries a tangle of dead limbs, bleached silver-white and twisting out sideways like antlers, so that from across the grass the tree seems to glow against the darker wood behind it. Old oaks keep dead wood like this for decades, and for beetles, fungi and woodpeckers those pale limbs are some of the richest wood in the forest.\n\nTranekær is the village around the red castle of the same name in the north of Langeland, and the castle's grounds outside the moats are open to walkers. The oak stands about half a kilometre east of the castle, where the wood meets an open meadow.\n\nWe do not know its age, its girth or exactly which oak it is. If you have stood under it, tell us what you measured or what you know of it, and we will add it with your figures.\n\nCome in late autumn, when the leaves are down and the silver limbs show best.",
+      "found_by_reader": {
+        "sighting_id": "35263410-988c-419f-9141-f49826a2f81c",
+        "date": "2026-11-24"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "35263410-988c-419f-9141-f49826a2f81c",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (35263410-988c-419f-9141-f49826a2f81c, through the app). Photograph viewed: a big old oak at the edge of a wood across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways from its lower half, late autumn, daylight, colour. The app named it 'A tree near Taasinge', but the fix is on Langeland, about 500 m east of Tranekær Slot, so it is its own place. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader gave no species, age, girth or note.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tnk_001-silver-limbed-oak-of-tranekaer.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_19280672174196861df923eb",
+        "sighting_id": "35263410-988c-419f-9141-f49826a2f81c",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: a big old oak at the edge of a wood across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways from its lower half, late autumn, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

@@ -12100,6 +12100,39 @@
    "seen": "2026-11-24",
    "hold": "doubt_location",
    "judged": "2026-11-24"
+  },
+  {
+   "sighting_id": "35263410-988c-419f-9141-f49826a2f81c",
+   "user_id": "p_19280672174196861df923eb",
+   "mine": false,
+   "name": "A tree near Taasinge",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 55.001169804001,
+   "longitude": 10.8635058795371,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_19280672174196861df923eb/35263410-988C-419F-9141-F49826A2F81C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: a big old oak at the edge of a wood across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways from its lower half, late autumn, daylight, colour. Live as tranekaer/tnk_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "tranekaer/tnk_001"
   }
  ]
 }
