@@ -52,6 +52,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # The tip of main NOW, not the commit of when this run was created.
+          # A dispatched run waits in the concurrency queue (and sleeps 600 s)
+          # and checkout would otherwise use that older commit: on 2026-11-24
+          # the 03:53 run started at 04:06 from a commit before the 04:05
+          # run's work, re-judged the Colchester cedar and tip 1573, and spent
+          # 15 agent minutes finding it had all been done.
+          ref: main
 
       - name: Mark the starting point
         id: start
