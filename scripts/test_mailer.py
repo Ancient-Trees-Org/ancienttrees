@@ -140,6 +140,9 @@ expect("batch (google=False): resend refusing raises instead of falling to gmail
 expect("batch (google=False): the share used up holds the mail, never gmail",
        "raised" if _raises(lambda: run(mailer.EXPECTED, [A_GMAIL], {}, resend_left=0, google=False)) else "sent",
        "raised")
+expect("default (GOOGLE_ROUTE off): reader mail goes through resend, never gmail (2026-11-24)",
+       run(mailer.EXPECTED, [A_GMAIL, "b@y.org"], {}, google=None),
+       [("resend", A_GMAIL), ("resend", "b@y.org")])
 try:
     run(mailer.FIRST, ["a@x.org"], {"resend": "refuse", "gmail": "refuse"})
     expect("both refuse: raises", "no error", "error")

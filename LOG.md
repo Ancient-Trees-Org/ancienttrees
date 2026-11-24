@@ -16,7 +16,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - **Breakage found**: the "on hold" for the Android wave 3 invitations (2026-11-23) lived only in words; the batch file kept `approved_by_hidde`, so the night run's "Continue an approved outreach batch" step sent another 100 today through the Workspace mailbox (route gmail). about 380 of 777 are still unsent.
 - **Fixed**: the batch is `on_hold` (pushed to the private store, read back). And in code: outreach_send.py opens mailer with `google=False`, so every batch goes through Resend only; what Resend will not take waits, it never falls to Gmail or Workspace. Tests in scripts/test_mailer.py (three new cases, all pass). Hidde, 2026-11-24: "lijkt me een slecht idee".
-- Still through Workspace, by design: single expected mails from the other scripts (photo-live, ambassador, contributor replies), about 30 a day. Sign-in mail goes through Resend first.
+- **And then all of it** (Hidde: "Ja, doe het"): `GOOGLE_ROUTE = False` in scripts/mailer.py, so the single expected mails too (photo-live, ambassador, contributor replies, about 30 a day) go through Resend; no script sends through Google, which now sees only what Hidde types. Sign-in mail already went Resend first. CLAUDE.md mail route rule updated; test_mailer.py passes.
 - CTV: Devika mailed via Resend in her thread to resend her interview time to hidde@ancienttrees.app; her answer may sit in the blocked Gmail (ImprovMX forwarded info@ there until the MX switch on 11-23).
 
 ## 2026-11-24 reader judge: the Pine Tree Way mulberry in Lewisham is live

@@ -294,11 +294,22 @@ def resend_left_for_strangers(sent_log, today):
     return max(0, RESEND_FOR_STRANGERS - used)
 
 
-def connect(creds, timeout=30, kind=FIRST, resend_left=None, google=True):
+# ALL AUTOMATIC MAIL THROUGH RESEND (Hidde, 2026-11-24, "Ja, doe het"):
+# Google blocked his Gmail on 2026-11-23 after a week of 250 to 400 machine
+# mails a day through it, and the night run then sent 100 more through the
+# Workspace mailbox. With Resend Pro (50,000 a month) there is room, so no
+# script sends through a Google mailbox; Google sees only the mail Hidde
+# types himself. True brings the Gmail/Workspace route back as it was.
+GOOGLE_ROUTE = False
+
+
+def connect(creds, timeout=30, kind=FIRST, resend_left=None, google=None):
     """A sender for one batch. `kind` is FIRST for a first mail to a stranger
     (the default, signed) and EXPECTED for mail a person asked for or expects.
     Connections open on the first mail that needs them, so a machine without
     one of the two routes still sends through the other."""
+    if google is None:
+        google = GOOGLE_ROUTE
     if not _resend_route() and not (google and _gmail_route(creds)):
         raise smtplib.SMTPServerDisconnected("no mail route configured on this machine")
     return _Server(creds, timeout, kind, resend_left, google)
