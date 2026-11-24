@@ -298,7 +298,11 @@ export const SIGNIN_JS = `
     // ever while twelve accounts existed, so every account on the site had
     // arrived by a path nothing recorded and nobody could say which.
     try { at.track('signin-oauth', provider); } catch (e) {}
+    // Google's account chooser every time (Hidde, 2026-11-24: "i cant switch
+    // account and i dont know the account it suggests"); without it Google
+    // takes the account the browser is signed in to.
     location.href = SB + '/auth/v1/authorize?provider=' + provider
+      + (provider === 'google' ? '&prompt=select_account' : '')
       + '&redirect_to=' + encodeURIComponent(back);
   };
   document.addEventListener('click', function(e) {

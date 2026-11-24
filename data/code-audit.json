@@ -653,6 +653,17 @@
    "found_by": "reader",
    "test": "AgeClauseTests.testAThousandsSeparatorIsNotAClauseBreak (iOS); AgeClauseTest.aThousandsSeparatorIsNotAClauseBreak (Android)",
    "fixed_in": "4f6167146"
+  },
+  {
+   "id": "ESC-2026-11-24-sign-in-with-google-took-the-browser-s-a",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/account/Account.kt",
+   "summary": "Sign in with Google took the browser's account with no chooser; prompt=select_account on iOS, Android and web",
+   "first_seen": "2026-11-24",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "android AccountTest.googleAlwaysAsksWhichAccount"
   }
  ]
 }

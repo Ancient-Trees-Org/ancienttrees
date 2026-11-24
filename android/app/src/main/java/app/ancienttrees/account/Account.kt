@@ -302,7 +302,14 @@ class Account(context: Context) {
 
         /** Supabase's authorize URL for one provider, coming back to the app's callback. */
         fun authorizeUrl(provider: String): String =
-            "${Supa.URL_BASE}/auth/v1/authorize?provider=$provider&redirect_to=" + URLEncoder.encode(Supa.CALLBACK, "UTF-8")
+            "${Supa.URL_BASE}/auth/v1/authorize?provider=$provider" +
+                // Google's account chooser every time (Hidde, 2026-11-24, on his
+                // Samsung: "i cant switch account and i dont know the account it
+                // suggests"). Without it Google silently takes whatever account the
+                // browser behind the Custom Tab is signed in to. Supabase passes
+                // extra query parameters on to the provider.
+                (if (provider == "google") "&prompt=select_account" else "") +
+                "&redirect_to=" + URLEncoder.encode(Supa.CALLBACK, "UTF-8")
 
         /** Supabase's token reply; null when it carries no tokens. */
         fun parse(body: String, now: Long = System.currentTimeMillis()): Session? = runCatching {

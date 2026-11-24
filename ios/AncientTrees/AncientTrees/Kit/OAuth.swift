@@ -32,6 +32,10 @@ public enum OAuth {
     public static func run(provider: String) async -> [String: String]? {
         let url = URL(string: Supa.url
             + "/auth/v1/authorize?provider=\(provider)"
+            // Google's account chooser every time (Hidde, 2026-11-24: "i cant
+            // switch account and i dont know the account it suggests"); without
+            // it Google takes the account the browser is signed in to.
+            + (provider == "google" ? "&prompt=select_account" : "")
             + "&redirect_to=\(callback.addingPercentEncoding(withAllowedCharacters: .alphanumerics) ?? callback)")!
 
         let anchor = PresentationAnchor()

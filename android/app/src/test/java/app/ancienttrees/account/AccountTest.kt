@@ -42,5 +42,14 @@ class AccountTest {
         val u = Account.authorizeUrl("apple")
         assertTrue(u.startsWith(Supa.URL_BASE + "/auth/v1/authorize?provider=apple&"))
         assertTrue(u.endsWith("redirect_to=ancienttrees%3A%2F%2Fauth-callback"))
+        assertTrue(!u.contains("prompt="))
+    }
+
+    /** Google always shows its account chooser (Hidde's Samsung, 2026-11-24: it took the
+     *  browser's account, one he did not know, with no way to switch). */
+    @Test fun googleAlwaysAsksWhichAccount() {
+        val u = Account.authorizeUrl("google")
+        assertTrue(u.contains("provider=google&prompt=select_account&"))
+        assertTrue(u.endsWith("redirect_to=ancienttrees%3A%2F%2Fauth-callback"))
     }
 }
