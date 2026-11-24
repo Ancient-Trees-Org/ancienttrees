@@ -2381,25 +2381,6 @@ def feedback_kind(why):
     return "Written feedback"
 
 
-def feedback_lines(subs, days):
-    """The feedback of the last day and of the week, by kind (see feedback_kind)."""
-    last = days[-1]
-    day, week = collections.Counter(), collections.Counter()
-    for r in subs:
-        k = feedback_kind(r.get("why"))
-        week[k] += 1
-        if str(r.get("created_at"))[:10] == last:
-            day[k] += 1
-    if not week:
-        return []
-    out = ["", "**Feedback by kind** (the Feedback row above, split; their words are in the readers-in-full block)", "",
-           "| Kind | %s | **7 days** |" % last[5:], "|---|---:|---:|"]
-    for k in FEEDBACK_KINDS:
-        if week[k]:
-            out.append("| %s | %d | **%d** |" % (k, day[k], week[k]))
-    return out
-
-
 def day_by_day_section(today):
     """The last seven days, one row a day, strangers only: the table Hidde
     keeps track by (2026-10-25: "ik mis het dagelijkse overzicht van de
@@ -2411,8 +2392,8 @@ def day_by_day_section(today):
     cols = collections.OrderedDict((k, None) for k in (
         "Visitors", "New accounts", "Saves", "Android waitlist", "App downloads",
         "App deletions", "App phones", "Trees opened in the app", "Trees collected",
-        "Trees sent", "Feedback", "Worth-it votes", "Ambassador asks", "Website photos", "iPhone photos",
-        "Android photos", "Tree notes",
+        "Trees sent") + FEEDBACK_KINDS + ("Worth-it votes", "Ambassador asks", "Website photos", "iPhone photos",
+        "Android photos", "Tree notes", "Photo likes",
         "App Store reviews"))
     totals = {}  # a row whose week is not the sum of its days
     pending = {}  # row -> days the source has not reported yet: "–", never 0
@@ -2448,6 +2429,13 @@ def day_by_day_section(today):
                                    _supa_rows("/rest/v1/tree_notes?select=user_id,created_at"
                                               "&created_at=gte.%s&order=created_at" % since, key)
                                    if not is_ours(r.get("user_id"))],
+            # The heart on a visitor's photograph (supabase/photo-likes.sql),
+            # on the day it was given; an undone like is a deleted row, so it
+            # drops out (Hidde, 2026-11-24: "can you add 'likes'").
+            "Photo likes": lambda: [(r.get("created_at"), 1) for r in
+                                    _supa_rows("/rest/v1/photo_likes?select=user_id,created_at"
+                                               "&created_at=gte.%s&order=created_at" % since, key)
+                                    if not is_ours(r.get("user_id"))],
         }
         for name, fn in steps.items():
             try:
@@ -2484,7 +2472,13 @@ def day_by_day_section(today):
             fill("Ambassador asks", ((r["created_at"], 1) for r in subs if r.get("kind") == "ambassador"))
             feedback = [r for r in subs if r.get("kind") not in ("tree", "city", "ambassador")
                         and not is_vote(r)]
-            fill("Feedback", ((r["created_at"], 1) for r in feedback))
+            # One row per kind, in the table itself (Hidde, 2026-11-24: "can
+            # you seperate feedback in that way"); a kind with nothing all
+            # week stays out.
+            for kind in FEEDBACK_KINDS:
+                mine = [(r["created_at"], 1) for r in feedback if feedback_kind(r.get("why")) == kind]
+                if mine:
+                    fill(kind, mine)
             # From tree_votes (vote_rows), where votes live since 2026-11-16.
             fill("Worth-it votes", ((r["created_at"], 1) for r in vote_rows(key, since[:10])))
         except Exception as e:
@@ -2568,7 +2562,6 @@ def day_by_day_section(today):
         out.append("- App deletions count only phones that share analytics with developers, "
                    "and Apple leaves out days too small to show: read it against the "
                    "installs of the same day, not as a total.")
-    out += feedback_lines(feedback, days)
     return "\n".join(out)
 
 
