@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: the Pine Tree Way mulberry in Lewisham is live
+
+- **Live**: london/lon_056, The Pine Tree Way Mulberry, a black mulberry on the corner of Pine Tree Way and Elmira Street, Lewisham, from a reader's app photograph (sighting 5ecc87a6). Morus Londinium confirms it (heritage and notable, 9 m, 126 cm, probably planted in an 1860s boys' school playground, about 150 years); the reader's 160 years and their note stand beside it. Their pin was placed by hand, so approximate. The photo has no camera data, but the app strips that from every photograph, and it is not the picture Morus Londinium publishes.
+- **Not judged, no file on this machine**: 3c544597 (Amsterdam, sent "not sure which tree", near ams_032): the photograph is still not on disk, so it waits for an intake that can fetch it. The 37 older waiting leads (Japan from September, Baarn and Amersfoort from October, several of them our own account's shots) have no photograph on this machine either, so they were not re-judged under the closed list; they need a run that fetches their files.
+- No open reports, no feedback, no tips waiting. reader_words: nothing new to quote.
+
 ## 2026-11-24 session: a November photo no longer lands under Winter
 
 - **Seasons row fixed** (Hidde, on the Rungis lime: "dit gaat niet goed qua seizoenen"). The reader's green November photo sat under Winter. The reason: the lime's phenology file says it colours in October only, and `seasonOfMonth` in site/src/lib/seasons.ts filed every month after the colour months as winter. Now a September to November photo after the colour months stays autumn; winter is December to February. A photo before the colour starts still goes to summer (the 11-03 Canton Park rule). The feed carries `season`, so the app follows on the next deploy. New check `check_autumn_months_never_file_as_winter()` in qa.py. Rungis now shows both photos under Autumn and Winter as an empty ask.

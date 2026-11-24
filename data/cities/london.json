@@ -2585,6 +2585,55 @@
           "taken_month_basis": "autumn colour, sent with the lead photograph dated November"
         }
       ]
+    },
+    {
+      "id": "lon_056",
+      "name": "The Pine Tree Way Mulberry",
+      "species": "Black Mulberry (Morus nigra)",
+      "age_estimate": "about 150 years; about 160 by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Corner of Pine Tree Way and Elmira Street, Lewisham, London SE13",
+        "latitude": 51.462599348154,
+        "longitude": -0.0156979967303101,
+        "neighbourhood": "Lewisham"
+      },
+      "story": "\"Thought to have been on the site of a Victorian boy's school. Still fruits heavily every year,\" wrote the reader who sent us this black mulberry from the corner of Pine Tree Way in Lewisham, close to the station.\n\nThe street name is a joke the tree has outlived. Pine Tree Way belongs to the River Mill housing finished in 2007, which replaced a 1960s estate, which in turn was built over Victorian ground. Morus Londinium, the project mapping London's mulberries, found a boys' school of the 1860s on this spot and thinks the tree was planted in its playground, which would make it about 150 years old; the reader puts it at around 160. The project lists it as heritage and notable, about nine metres tall and 126 centimetres round.\n\nWhat the photograph shows is a mulberry that has had a hard and interesting life. Its short, crooked trunk, hung with ivy, splits into great snaking limbs, one of them bending out almost flat before turning up, and all of it now stands inside a low brick bed with the street sign planted in front. Each redevelopment built around it instead of through it.\n\nCome in late summer, when the fruit falls dark red on the paving.",
+      "verified_sources": [
+        "https://www.moruslondinium.org/map/pine-tree-way-lewisham/ (Morus Londinium, London Mulberries: black mulberry on Pine Tree Way, Lewisham, on the site of a school building on the 1894 OS map; street access; heritage and notable; height 9 m, girth 126 cm)",
+        "https://moruslondinium.org/research/not-a-pine-tree (Morus Londinium research note, 2016: the Elmira Street / Pine Tree Way mulberry, more than 50 years old, on the corner of Pine Tree Way in the River Mill development of 2007; a Victorian boys' school of the 1860s on the site, the tree probably planted in its playground, about 150 years old)"
+      ],
+      "how_to_recognise": "On the corner of Pine Tree Way by its street sign: a low, crooked mulberry trunk hung with ivy, splitting into wide snaking limbs inside a raised brick bed in front of a yellow-brick block of flats.",
+      "access": "Free. It stands on the street corner, open at all hours.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "5ecc87a6-c5d8-4c48-8755-934bdc698220",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. It falls at Pine Tree Way, where Morus Londinium records the tree."
+      },
+      "found_by_reader": {
+        "sighting_id": "5ecc87a6-c5d8-4c48-8755-934bdc698220",
+        "date": "2026-11-24"
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (5ecc87a6-c5d8-4c48-8755-934bdc698220). Photograph viewed: the whole mulberry in full leaf on the corner of Pine Tree Way, its crooked, ivy-hung trunk splitting into wide snaking limbs inside a low brick bed, the 'Pine Tree Way, London Borough of Lewisham, SE13' street sign in front, flats behind, daylight, colour. Not the photograph Morus Londinium publishes (theirs is a spring shot from another angle). The app strips camera data from every photograph, so the missing EXIF says nothing. Morus Londinium confirms the tree, its street access, its measurements, the 1860s boys' school and an age of about 150 years. The reader's own figure: age '160'.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lon_056-pine-tree-way-mulberry.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1125,
+        "height": 1474,
+        "source": "contributor",
+        "contributor_user_id": "p_9b9df2402876220d58842e1a",
+        "sighting_id": "5ecc87a6-c5d8-4c48-8755-934bdc698220",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

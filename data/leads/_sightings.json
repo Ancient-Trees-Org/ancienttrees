@@ -11811,9 +11811,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-24"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole mulberry in full leaf on the corner of Pine Tree Way, its crooked, ivy-hung trunk splitting into wide snaking limbs inside a low brick bed, the 'Pine Tree Way, London Borough of Lewisham, SE13' street sign in front, flats behind, daylight, colour. Not the photograph Morus Londinium publishes (theirs is a spring shot from another angle). Live as london/lon_056 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "london/lon_056"
   }
  ]
 }
