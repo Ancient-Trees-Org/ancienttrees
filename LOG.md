@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: a November photo no longer lands under Winter
+
+- **Seasons row fixed** (Hidde, on the Rungis lime: "dit gaat niet goed qua seizoenen"). The reader's green November photo sat under Winter. The reason: the lime's phenology file says it colours in October only, and `seasonOfMonth` in site/src/lib/seasons.ts filed every month after the colour months as winter. Now a September to November photo after the colour months stays autumn; winter is December to February. A photo before the colour starts still goes to summer (the 11-03 Canton Park rule). The feed carries `season`, so the app follows on the next deploy. New check `check_autumn_months_never_file_as_winter()` in qa.py. Rungis now shows both photos under Autumn and Winter as an empty ask.
+
 ## 2026-11-24 session: readers' trees go live about 23 minutes sooner
 
 - **Where the hours went** (Hidde: "waarom zat er dan zo vaak een gat van 4h tussen gister?"). The reader judge was never the slow part. Every tree submitted on 11-23 got a judge run within minutes, and that run finished 15 to 25 minutes later. The deploy after it took 1 to 2 hours. The build itself takes about 47 minutes, 28 of them QA, and a deploy also waits behind the one already running. The gaps of about 4 hours between trees were mostly gaps in what readers sent, overnight in both Europe and the US.

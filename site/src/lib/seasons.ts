@@ -53,14 +53,18 @@ export function colourMonths(tree: Tree): number[] | undefined {
  * `colour` is the species' colour months from its phenology file (northern
  * months, shifted six south of the equator): a photo in those months is
  * autumn, one in the meteorological autumn before they start is still summer,
- * one after they end is winter. Without a phenology file the calendar stands. */
+ * one after they end is still autumn (Hidde, 2026-11-24, the Rungis lime: a
+ * green November photo filed under winter because the lime's file says it
+ * colours in October only; "dit gaat niet goed qua seizoenen"). Winter is
+ * December to February, never a month of the meteorological autumn.
+ * Without a phenology file the calendar stands. */
 export function seasonOfMonth(month: number | null | undefined, lat: number, colour?: number[]): Season | null {
   if (!month || month < 1 || month > 12) return null;
   if (colour && colour.length) {
     // Into the northern calendar, where the colour months are written.
     const m = lat < 0 ? ((month + 5) % 12) + 1 : month;
     if (colour.includes(m)) return "autumn";
-    if (m >= 9 && m <= 11) return m < Math.min(...colour) ? "summer" : "winter";
+    if (m >= 9 && m <= 11) return m < Math.min(...colour) ? "summer" : "autumn";
   }
   const north = month >= 3 && month <= 5 ? 0 : month <= 8 && month >= 6 ? 1 : month >= 9 && month <= 11 ? 2 : 3;
   return SEASONS[lat < 0 ? (north + 2) % 4 : north];

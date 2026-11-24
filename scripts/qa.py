@@ -1531,6 +1531,31 @@ def check_a_reader_photo_is_filed_by_season():
     return out
 
 
+def check_autumn_months_never_file_as_winter():
+    """A photograph from September, October or November is never filed under
+    Winter (north; flipped south). seasons.ts may move an early-autumn photo
+    to summer when the species has not started colouring, but a month after
+    the colour months stays autumn.
+
+    Hidde, 2026-11-24, the Rungis lime: a green November photo sat under
+    Winter because the lime's phenology file colours in October only ("dit
+    gaat niet goed qua seizoenen"). Reads the one line in seasonOfMonth.
+    Removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    try:
+        src = (root / "site" / "src" / "lib" / "seasons.ts").read_text(encoding="utf-8")
+    except OSError:
+        return ["site/src/lib/seasons.ts: missing, so no photograph is filed by season"]
+    line = next((l for l in src.splitlines() if "m >= 9 && m <= 11" in l), "")
+    if not line:
+        return ["site/src/lib/seasons.ts: the autumn-month rule in seasonOfMonth is gone; "
+                "check a November photo still files as autumn (Hidde, 2026-11-24)"]
+    if '"winter"' in line:
+        return ["site/src/lib/seasons.ts: seasonOfMonth files an autumn month under winter; "
+                "a month after the colour months stays autumn (Hidde, 2026-11-24, the Rungis lime)"]
+    return []
+
+
 def check_no_gps_in_public_copy():
     """Shown text never narrates how a pin was obtained ("with a GPS fix
     taken at its foot"); coordinates a visitor can type in are fine.
@@ -4947,6 +4972,7 @@ def main():
         check_the_privacy_page_names_what_we_store,
         check_a_given_photo_records_the_yes,
         check_a_reader_photo_is_filed_by_season,
+        check_autumn_months_never_file_as_winter,
         check_no_gps_in_public_copy,
         check_every_reader_photo_reaches_hidde,
         check_everything_sent_reaches_hidde,
@@ -5178,6 +5204,7 @@ def main():
     failures += check_the_privacy_page_names_what_we_store()
     failures += check_a_given_photo_records_the_yes()
     failures += check_a_reader_photo_is_filed_by_season()
+    failures += check_autumn_months_never_file_as_winter()
     failures += check_no_gps_in_public_copy()
     failures += check_every_own_photo_has_a_card_copy()
     failures += check_every_copy_is_its_photograph()
