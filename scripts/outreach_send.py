@@ -59,6 +59,7 @@ import os
 import re
 import smtplib
 
+import mail_brake
 import mailer
 import sys
 from email.message import EmailMessage
@@ -174,6 +175,7 @@ def main():
 
     server = None
     results = []
+    brake = mail_brake.Brake()
     routes_full = None  # set when a send found no route left: the rest waits
     for m in batch["mails"]:
         to = (m.get("to") or "").strip()
@@ -272,6 +274,15 @@ def main():
         if routes_full:
             results.append(f"HOLD  {label}: no mail route left today ({routes_full}), re-run tomorrow")
             continue
+        # THE BRAKE (Hidde, 2026-11-24, "ok bouw rem"; scripts/mail_brake.py):
+        # first mails go in steps, and too many bounces or any spam complaint
+        # holds the rest, so Resend never suspends the account that also
+        # carries the sign-in mail. A reply in a thread is never braked.
+        if really and not m.get("in_reply_to"):
+            braked = brake.check()
+            if braked:
+                results.append(f"HOLD  {label}: the mail brake stopped this batch ({braked})")
+                continue
         if not really:
             _cc = (m.get("cc") or "").strip()
             results.append(f"DRY   {label}: would send {m['subject']!r} to {to}"
@@ -351,6 +362,7 @@ def main():
             continue
         if not m.get("in_reply_to"):
             sent_today += 1
+            brake.sent(to)
         record = {"date": today, "to": to, "outlet": label,
                   "subject": m["subject"], "batch": batch.get("batch"),
                   "via": "outreach_send", "route": route}
@@ -366,6 +378,14 @@ def main():
     print(f"batch {batch.get('batch')} ({'SEND' if really else 'dry run'}):")
     for r in results:
         print(" ", r)
+    if really:
+        after = brake.last_look()
+        if after:
+            print(f"\nMAIL BRAKE: {after}. Send no more batches until it is looked at "
+                  f"(python3 scripts/mail_brake.py).")
+        elif not brake.key:
+            print(f"\nmail brake: blind (no RESEND_READ_KEY), at most "
+                  f"{mail_brake.BLIND_CAP} first mails per run.")
     if really and any(r.startswith("SENT") for r in results):
         print("\nAdd the sends to OUTREACH.md's log table, and commit "
               "data/outreach-sent.json in the same commit.")

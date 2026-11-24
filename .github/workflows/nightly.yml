@@ -256,6 +256,7 @@ jobs:
           OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
           RESEND_SMTP_HOST: ${{ secrets.RESEND_SMTP_HOST }}
           RESEND_SMTP_PASS: ${{ secrets.RESEND_SMTP_PASS }}
+          RESEND_READ_KEY: ${{ secrets.RESEND_READ_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
         run: |
           # People's addresses live in Supabase, not in this public repository
@@ -318,6 +319,7 @@ jobs:
           OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
           RESEND_SMTP_HOST: ${{ secrets.RESEND_SMTP_HOST }}
           RESEND_SMTP_PASS: ${{ secrets.RESEND_SMTP_PASS }}
+          RESEND_READ_KEY: ${{ secrets.RESEND_READ_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
         run: |
           python3 scripts/private_store.py pull
