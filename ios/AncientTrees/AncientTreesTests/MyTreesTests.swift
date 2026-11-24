@@ -903,6 +903,16 @@ struct WhenPermissionIsRefused {
         #expect(MapLayers.spotKey(a) == MapLayers.spotKey(b))
         #expect(MapLayers.spotKey(a) != MapLayers.spotKey(c))
     }
+
+    /// A map whose state is made again starts its generations at 0 while
+    /// the old pins are still drawn; its layer names must never meet the
+    /// old ones, or MapLibre throws and the app ends (build 41, 2026-11-20).
+    @Test func aStateMadeAgainNeverReusesALayerName() {
+        let before = (0...50).map { MapLayers.layerID("at-trees-pin", seq: 1, gen: $0) }
+        let after = (0...50).map { MapLayers.layerID("at-trees-pin", seq: 2, gen: $0) }
+        #expect(Set(before).isDisjoint(with: after))
+        #expect(MapLayers.layerID("at-trees-pin", seq: 1, gen: 12) != MapLayers.layerID("at-trees-pin", seq: 11, gen: 2))
+    }
 }
 
 // A correction made somewhere else, reaching the phone that holds the row.

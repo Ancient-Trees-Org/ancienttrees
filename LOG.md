@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: build 41's crashes looked into, the map crash fixed, single iPhone crashes ring
+
+- **The map crash during a pan is fixed for build 42** (one phone, iOS 27.2.1, 11-20). MapLibre stopped the app when a layer of tree pins was added under a name the map already held. Layer names were a counter per map that can start over while the old pins are still drawn. Names now carry the map's own number (`MapLayers.layerID`), and every pin layer removes a same-named one first (`addFresh`). Test: `PinRuleTests.aStateMadeAgainNeverReusesALayerName`. Looked at in the simulator: pins and dots draw as before. For Hidde: next build carries fix for AncientTrees+0x35fccc.
+- **Two crashes have no cause found**, each recorded in data/crash-fixes.json so a second report is read at once. On 11-16 the app crashed while closing a map, on memory already freed, with no line of ours. On 11-15 the stack was empty.
+- **The 11-21 hang was the system**: 2 seconds at launch preparing graphics, on an iPhone 12 in low power mode. Hangs are not checked automatically yet.
+- **One iPhone crash now rings health.py** (e83d9c94d). Before, the check waited for 3 of one kind within a day, so these four rang nothing. The digest's day by day also gained Photo likes and splits Feedback into its kinds (e3d87efc4).
+
 ## 2026-11-24 session: the night run leaves readers to the judge, and stops sourcing contacts while a batch waits
 
 - **What changed** (Hidde, "Alleen 1 en 2"). Readers' photographs, trees, reports and feedback no longer start a night window. The reader judge already handles them within about 15 minutes, and two agents were judging the same rows. The switch is `READER_WORK_STARTS_WINDOW = False` in scripts/claude_gate.py. Notes on trees still start a window, because only the night run reads them. Anything the judge misses goes red after 24 hours (reader_backlog.py) and is rung-2 work in the next slot.

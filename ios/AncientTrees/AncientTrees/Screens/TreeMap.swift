@@ -1330,7 +1330,30 @@ enum MapLayers {
     /// The identifier a pin layer has on screen right now. The base names
     /// above stay the vocabulary; every redraw appends its generation.
     static func live(_ base: String, on style: MLNStyle) -> String {
-        base + "#\(state(for: style).gen)"
+        let st = state(for: style)
+        return layerID(base, seq: st.seq, gen: st.gen)
+    }
+
+    /// THE STATE'S OWN NUMBER IN EVERY NAME (crash on build 41, 2026-11-20,
+    /// iOS 27.2.1, data/crash-fixes.json): MapLibre threw from addLayer
+    /// inside addTreeLayers during a pan. Its only throw there is a layer
+    /// name the style already holds. The generation alone restarts at 0
+    /// whenever this style's StyleState is made again (`states` holds the
+    /// style weakly), while the last set of layers is still on the map, so a
+    /// later redraw could reach a name already drawn. `seq` is new for every
+    /// state, so a state made again never names a layer the old one made.
+    nonisolated static func layerID(_ base: String, seq: Int, gen: Int) -> String {
+        "\(base)#\(seq).\(gen)"
+    }
+
+    /// Adds a pin layer, taking away first any layer of that name the style
+    /// still holds, so a name drawn twice redraws instead of ending the app
+    /// with MapLibre's redundant-identifier exception (same crash as above).
+    private static func addFresh(_ layer: MLNStyleLayer, on style: MLNStyle) {
+        if let old = style.layer(withIdentifier: layer.identifier) {
+            style.removeLayer(old)
+        }
+        style.addLayer(layer)
     }
 
     /// Points the big pin at one tree, or at none.
@@ -1856,9 +1879,9 @@ enum MapLayers {
             let mini = dotLayerFor(miniLayer, image: miniImageName)
             mini.predicate = NSPredicate(format: "(at_kind == 'tree' AND mini == YES) OR at_kind == 'mine'")
             mini.maximumZoomLevel = Float(farZoom)
-            style.addLayer(mini)
+            addFresh(mini, on: style)
         }
-        style.addLayer(dots)
+        addFresh(dots, on: style)
 
         // THE PIN, placed by MapLibre: see pinDistance. Overlap is allowed
         // only where the dot rule is off (a tree's page, a walk, the picker).
@@ -1881,10 +1904,10 @@ enum MapLayers {
             farPins.iconPadding = NSExpression(forConstantValue: (farPinDistance - 38) / 2)
             farPins.predicate = pins.predicate
             farPins.maximumZoomLevel = Float(farZoom)
-            style.addLayer(pins)
-            style.addLayer(farPins)
+            addFresh(pins, on: style)
+            addFresh(farPins, on: style)
         } else {
-            style.addLayer(pins)
+            addFresh(pins, on: style)
         }
 
         let spread = MLNSymbolStyleLayer(identifier: live(spreadLayer, on: style), source: trees)
@@ -1892,7 +1915,7 @@ enum MapLayers {
         spread.iconAllowsOverlap = NSExpression(forConstantValue: true)
         spread.iconAnchor = NSExpression(forConstantValue: "center")
         spread.predicate = NSPredicate(format: "at_kind == 'spread'")
-        style.addLayer(spread)
+        addFresh(spread, on: style)
 
         // Matches nothing until a tree is selected; select(_:on:) aims it.
         let chosen = MLNSymbolStyleLayer(identifier: live(selectedLayer, on: style), source: trees)
@@ -1901,7 +1924,7 @@ enum MapLayers {
         chosen.iconAnchor = NSExpression(forConstantValue: "center")
         chosen.iconScale = NSExpression(forConstantValue: 1.5)
         chosen.predicate = NSPredicate(format: "%K == %@", idKey, state(for: style).selectedID ?? "")
-        style.addLayer(chosen)
+        addFresh(chosen, on: style)
         if declutter {
             // THE SAME-SPOT STACK'S BUBBLE. A SYMBOL layer with a rendered
             // image, not a circle layer plus a text layer. Two days went into
@@ -1915,7 +1938,7 @@ enum MapLayers {
             bubble.iconImageName = NSExpression(forKeyPath: "icon")
             bubble.iconAllowsOverlap = NSExpression(forConstantValue: true)
             bubble.iconAnchor = NSExpression(forConstantValue: "center")
-            style.addLayer(bubble)
+            addFresh(bubble, on: style)
         }
 
         // YOURS, LAST, so a tree you added sits on top of ours where they
@@ -1931,7 +1954,7 @@ enum MapLayers {
         let minePins = MLNSymbolStyleLayer(identifier: live(mineLayer, on: style), source: trees)
         place(minePins)
         minePins.predicate = NSPredicate(format: "at_kind == 'mine'")
-        style.addLayer(minePins)
+        addFresh(minePins, on: style)
     }
 
     static func setMine(_ mine: [(id: UUID, lat: Double, lng: Double, name: String, photo: UIImage?)],
