@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: readers' trees go live about 23 minutes sooner
+
+- **Where the hours went** (Hidde: "waarom zat er dan zo vaak een gat van 4h tussen gister?"). The reader judge was never the slow part. Every tree submitted on 11-23 got a judge run within minutes, and that run finished 15 to 25 minutes later. The deploy after it took 1 to 2 hours. The build itself takes about 47 minutes, 28 of them QA, and a deploy also waits behind the one already running. The gaps of about 4 hours between trees were mostly gaps in what readers sent, overnight in both Europe and the US.
+- **Fixed** (5eb0a042d): one QA check, `check_one_tree_places_have_no_question_page`, took 1,395 of QA's 1,663 seconds. It ran one regex per small place on every one of 29,121 pages. It now reads each page once: `links_to_small_question()`, with the same answer on 19 test hrefs, old against new. That should save about 23 minutes on every deploy. The next deploy's "qa timing" lines will show whether it did.
+- Left alone: another session's unfinished `check_one_place_head` in scripts/qa.py. PlaceHead.astro is not committed yet, so that check stays out of this commit.
+
 ## 2026-11-24 session: the iPhone's own crash reports can ring
 
 - **Why build 41's crashes never showed in the app's own reports**: two reasons. Build 41 predates the iPhone's exit watcher (added 11-16), so it sends none; build 42 will. And scripts/app_crashes.py dropped every report without a reason, which is every iPhone report (iOS cannot tell a crash from a flat battery), so even build 42's would have been lost. Now an iPhone exit on screen is kept, signed by the last thing the app measured, and rings once two phones end the same way or one phone twice. Both phones' reports also ring until answered, not 48 hours. Test: scripts/test_app_crashes_ios.py.
