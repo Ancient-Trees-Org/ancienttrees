@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 reader judge: the monumental magnolia of Mirano
+
+- **New place Mirano (Venice), The Magnolia of Villa Belvedere (mir_001)**: a reader sent it from the app (sighting f976cbc6, taken October): a giant southern magnolia whose knotted grey trunk breaks low into a dozen snaking limbs, the reader standing at its foot with arms spread for scale, daylight. Italy's national register (MASAF 02/F241/VE/05, Villa Morosini, Via Luigi Mariutto 4) lists a southern magnolia 15 m from their pin with the same girth, 378 cm, and 20.5 m tall; `girth_cm`, `height_m` and `official_register` are the register's, the 155 years is the reader's. Their pin was placed by hand, so it stays approximate. A one-tree place, so no place page on the web (the tree page only). The congratulation mail (`tree_approved.py --send`) waits until the tree is in the live feed after the deploy.
+- Left waiting: lead 3c544597 (Amsterdam, our own account's photo, `mine`) and the other old `mine` leads, photographs not on disk; never judged blind.
+- No open reports, no feedback without a verdict, no tips unjudged, no reader words to quote. qa source checks, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-24 reader judge: a second view of the Vondelpark Poplar
 
 - **Amsterdam, The Vondelpark Poplar (ams_003)**: the reader whose photograph became this tree's lead earlier today sent another (sighting 720f86c7): a close-up of the base of the same huge furrowed trunk behind its iron railing, with a hollow at the foot and yellow poplar leaves on the path, 36 m from our pin. Species and setting match the entry. It went into the gallery behind their lead (`strip`). They already got the "it's live" mail for the lead today, so this photo waits in their weekly bundle (data/photo-live-mailed.json). The pins catch-up could not read coordinates (HTTPError), but the pin is confirmed, so nothing needed to move.

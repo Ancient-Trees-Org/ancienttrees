@@ -12309,9 +12309,11 @@
      }
     ]
    },
-   "status": "lead",
-   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
-   "seen": "2026-11-24"
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole lower tree from beneath the crown: a massive grey trunk splitting low into a dozen snaking limbs, glossy evergreen magnolia leaves, fallen leaves on the ground, a park lawn behind, the reader standing at its foot with arms spread, daylight, colour. Live as mirano/mir_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "mirano/mir_001"
   }
  ]
 }

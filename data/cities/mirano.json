@@ -1,0 +1,82 @@
+{
+  "city": "Mirano",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Mirano is a small town on the Venetian mainland, about twenty kilometres west of Venice, where the old families of the lagoon built their country villas and parks. In one of those parks grows a southern magnolia that Italy's national register of monumental trees lists at 378 centimetres round and 20.5 metres tall. A reader stood at its foot with arms spread wide and sent us the photograph.",
+  "meta_description": "The monumental southern magnolia of Villa Belvedere in Mirano, near Venice: 378 cm round on Italy's national register, photographed by a reader.",
+  "hero_tree_id": "mir_001",
+  "oldest_tree_id": "mir_001",
+  "trees": [
+    {
+      "id": "mir_001",
+      "name": "The Magnolia of Villa Belvedere",
+      "species": "Southern Magnolia (Magnolia grandiflora)",
+      "age_estimate": "about 155 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Villa park, Via Luigi Mariutto, Mirano (Venice)",
+        "latitude": 45.4954670033482,
+        "longitude": 12.1115580655772,
+        "neighbourhood": "Mirano"
+      },
+      "story": "\"Magnolia di Villa Belvedere,\" the reader called this tree when they sent it to us from Mirano, a small town on the mainland west of Venice, and their photograph makes the case better than any name. They stand at the foot of the trunk with their arms flung wide, and the trunk is still wider.\n\nIt is a southern magnolia, Magnolia grandiflora, the evergreen of the American South and a long favourite of Italian villa gardens. Most stay neat. This one has grown into a giant, with a short grey trunk, knotted and scaled, that breaks low into a dozen limbs snaking out in every direction, each one thick as a tree, under a roof of glossy dark leaves. Its old leaves lie in a brown carpet all around.\n\nItaly's national register of monumental trees lists a southern magnolia a few steps from the reader's pin, at Villa Morosini on Via Luigi Mariutto, 378 centimetres round and 20.5 metres tall. The reader gives the same girth, and puts the tree at about 155 years old.\n\nWalk in under the crown, as the reader did, and look up through the limbs.",
+      "how_to_recognise": "On the villa lawn: a magnolia whose short, knotted grey trunk breaks low into a dozen thick limbs snaking out in every direction under glossy dark evergreen leaves, a carpet of brown fallen leaves beneath.",
+      "access": "In the villa park in Mirano, where the reader walked up to the trunk. Check the park's opening hours before you go.",
+      "verified_sources": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260 (MASAF national monumental trees register, sheet 02/F241/VE/05: Magnolia grandiflora, Villa Morosini, Via Luigi Mariutto 4, Mirano, girth 378 cm, height 20.5 m)"
+      ],
+      "girth_cm": 378,
+      "height_m": 20.5,
+      "official_register": {
+        "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 02/F241/VE/05",
+        "url": null
+      },
+      "found_by_reader": {
+        "sighting_id": "f976cbc6-e809-4da0-98ac-5367e26dc9be",
+        "date": "2026-11-24"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "f976cbc6-e809-4da0-98ac-5367e26dc9be",
+        "date": "2026-11-24",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. The MASAF register point is 15 m away."
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app (f976cbc6-e809-4da0-98ac-5367e26dc9be). Photograph viewed: the whole lower tree from beneath the crown: a massive grey trunk splitting low into a dozen snaking limbs, glossy evergreen magnolia leaves, fallen leaves on the ground, a park lawn behind, the reader standing at its foot with arms spread, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Magnolia di Villa Belvedere', species 'Southern Magnolia', age '155', girth 378 cm. MASAF register entry 02/F241/VE/05 (Magnolia grandiflora, Villa Morosini, Via Luigi Mariutto 4, Mirano) sits 15 m from the reader's pin with the same girth, 378 cm; girth_cm and height_m are the register's. The reader names the park Villa Belvedere, the register Villa Morosini; the age is the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mir_001-magnolia-of-villa-belvedere.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_f60ddafc587ad9f79b118aa6",
+        "sighting_id": "f976cbc6-e809-4da0-98ac-5367e26dc9be",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole lower tree from beneath the crown: a massive grey trunk splitting low into a dozen snaking limbs, glossy evergreen magnolia leaves, fallen leaves on the ground, a park lawn behind, the reader standing at its foot with arms spread, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The monumental southern magnolia of Villa Belvedere in Mirano, near Venice: 378 cm round on Italy's national register, photographed by a reader.",
+  "question_answer": "The Magnolia of Villa Belvedere grows in the villa park on Via Luigi Mariutto in Mirano, west of Venice. Italy's national register of monumental trees lists it at 378 centimetres round and 20.5 metres tall.",
+  "question_context": "A reader sent us this southern magnolia from Mirano, a town on the Venetian mainland about twenty kilometres west of Venice, and named it after Villa Belvedere. Their photograph shows them standing at the foot of the trunk with their arms spread wide, and the trunk is wider still. The tree is a Magnolia grandiflora, the evergreen magnolia of the American South, a long favourite of Italian villa gardens. This one has a short, knotted grey trunk that breaks low into a dozen thick limbs reaching out in every direction under a dense roof of glossy leaves. Italy's national register of monumental trees lists a southern magnolia a few steps from the reader's pin, at Villa Morosini on Via Luigi Mariutto, 378 centimetres round and 20.5 metres tall. The reader gives the same girth and puts the tree at about 155 years old, a figure that is theirs, not the register's. The pin marks the area the reader placed by hand on the map, so look for the biggest magnolia on the lawn when you get there.",
+  "faq": [
+    {
+      "q": "Where is the Magnolia of Villa Belvedere?",
+      "a": "In the villa park on Via Luigi Mariutto in Mirano, a town about twenty kilometres west of Venice. Our pin marks the area a reader placed by hand."
+    },
+    {
+      "q": "How big is the Mirano magnolia?",
+      "a": "Italy's national register of monumental trees lists it at 378 centimetres round and 20.5 metres tall."
+    },
+    {
+      "q": "How old is the Mirano magnolia?",
+      "a": "About 155 years, by a reader's estimate. The national register gives no age."
+    }
+  ]
+}
