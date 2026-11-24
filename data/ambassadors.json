@@ -2175,6 +2175,46 @@
         "The Cypress of Šimun Tudor"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_c16a4c599219c1f278d75265",
+      "place_slug": "khao-yai",
+      "place_name": "Khao Yai",
+      "date": "2026-11-24",
+      "trees": [
+        "The Hollow Strangler Fig of Khao Yai"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_0d02973d80cde9477b2b846d",
+      "place_slug": "naples",
+      "place_name": "Naples",
+      "date": "2026-11-24",
+      "trees": [
+        "The Moreton Bay Fig of the Palazzo Reale Gardens"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ed78f0fc4542478a0ccd3d87",
+      "place_slug": "ota",
+      "place_name": "Ota",
+      "date": "2026-11-24",
+      "trees": [
+        "The Great Zelkova of Kanayama"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_0a92b73bb85b607e09b323ee",
+      "place_slug": "verona",
+      "place_name": "Verona",
+      "date": "2026-11-24",
+      "trees": [
+        "The Silk Mulberry of Ca' di David"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
