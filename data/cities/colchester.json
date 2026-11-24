@@ -96,6 +96,7 @@
         "width": 1200,
         "height": 1600,
         "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
         "source": "contributor",
         "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
         "sighting_id": "c3ef540c-ec5e-417e-bdc0-56886dab62d4",

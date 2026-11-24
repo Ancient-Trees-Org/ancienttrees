@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: nothing new; a parallel run had the cedar first
+
+- A second run picked up the same Colchester sighting (c3ef540c) and tip 1573. The run below pushed first, so this run dropped its duplicate commit. The only change kept: `taken_month_basis` on cls_002's new lead photo, which the other run had left off.
+- No other waiting reader photograph, lead, report, feedback or words to quote. Sighting 3c544597 (Amsterdam, our own `mine`) is still not on disk.
+
 ## 2026-11-24 reader judge: a second photograph and the reader's figures for the Colchester cedar
 
 - **colchester/cls_002, The Cedar near Clingoe Hill: a new lead photograph** (sighting c3ef540c, app). It comes from the same reader, 3 m from our pin, a step back from their first frame, and shows the whole crown with the sky above it, the low skirt of branches and the paved path. It is a better lead than the first, which cut off the top. Sent with `add` through sightings_publish.py, so the first photograph moved into the strip. The light score is WEAK, but it is a reader's photo in daylight and colour, so it ships. The second picture (needles and upright cones) confirms a true cedar.
