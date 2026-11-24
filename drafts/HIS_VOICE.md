@@ -519,3 +519,7 @@ My follow-up opened "I wrote to you a month ago about Ancient Trees. Since then.
 ## 2026-11-24: a platform that gains more from us than we from it gets no reply (RedoMap)
 
 Carlo Arrigoni (RedoMap, Como) proposed a pilot tree walk on his itinerary platform, our trees and stories inside his product, and asked for a call. I drafted a yes to the call. His verdict: **"redomap klinkt als een app die meer heeft aan ons dan wij aan hem - negeer maar en onthou"**. So when a company proposes to put our content in their product, ask first who gains: if it is mainly them (our trees and stories, their platform and customers, nothing that sends people or data back to us), do not draft a reply at all; tell Hidde in one line and leave the mail unanswered.
+
+## 2026-11-24: never guess at someone's health (Kat, Houston)
+
+Kat wrote she is disabled and homebound for the moment. My reply said "sorry to hear you're stuck at home" and "I hope you feel better soon". His verdict: **"mss is ze forever disabled vrij inconsiderate mail"**. A disability may be permanent; "stuck", "sorry" and "get well" assume it is a passing illness and a misfortune. When someone mentions a disability or illness, do not comment on it, pity it or wish it away: thank them, take the pressure off ("no rush, the trees aren't going anywhere"), and say you are glad to have them.
