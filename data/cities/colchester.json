@@ -2,8 +2,8 @@
   "city": "Colchester",
   "country": "United Kingdom",
   "status": "needs_curation",
-  "intro": "Colchester, in Essex, has two readers' trees on our map, a couple of hundred metres apart near Clingoe Hill in Greenstead, on the east side of the town. One is a very large pedunculate oak standing alone in open grass, its short wide trunk hollowed and burred, which a reader puts at 600 centimetres round and about 300 years old. The other is a cedar of Lebanon whose lowest branches spread across the ground in a wide skirt of dark needles. Both came to us as readers' photographs.",
-  "meta_description": "Two readers' trees near Clingoe Hill in Colchester: a very large oak and a spreading cedar of Lebanon, where they stand and what we know.",
+  "intro": "Colchester, in Essex, has two readers' trees on our map, a couple of hundred metres apart near Clingoe Hill in Greenstead, on the east side of the town. One is a huge pedunculate oak standing alone in open grass, its short wide trunk hollowed and burred, which the Woodland Trust's Ancient Tree Inventory knows as the Wivenhoe Whopper and measures at 9.10 metres round. The other is a cedar of Lebanon whose lowest branches spread across the ground in a wide skirt of dark needles. Both came to us as readers' photographs.",
+  "meta_description": "Two readers' trees near Clingoe Hill in Colchester: the Wivenhoe Whopper, a huge ancient oak, and a spreading cedar of Lebanon, and where they stand.",
   "hero_tree_id": "cls_001",
   "oldest_tree_id": "cls_001",
   "trees": [
@@ -11,7 +11,7 @@
       "id": "cls_001",
       "name": "The Oak of Clingoe Hill",
       "species": "Pedunculate Oak (Quercus robur)",
-      "age_estimate": "about 300 years, by a reader's estimate",
+      "age_estimate": "about 300 to 800 years, by readers' estimates",
       "age_min": null,
       "age_max": null,
       "age_basis": null,
@@ -21,15 +21,17 @@
         "longitude": 0.949016666666667,
         "neighbourhood": "Greenstead"
       },
-      "story": "A reader photographed a great pedunculate oak in an open field on Clingoe Hill in Greenstead, on the east side of Colchester. They gave a girth of 600 centimetres and an age of about 300 years.\n\nThe photograph shows a tree that fills the frame. The crown is a full, rounded dome of dark green leaves, and under it a short, wide trunk with deep hollows and burrs at head height. Two people stand at its foot, one with arms spread wide against the bark, and they look small. The grass around it is dry and pale, the crown still green, so the picture was taken in a dry late summer.\n\nWe found no register entry or survey for this oak, so the girth and the age are the reader's figures. A girth of six metres is large for a pedunculate oak.\n\nIf you stand with your arms out against it, you can tell us how many hugs it takes.",
+      "story": "Locally this oak has a name, the Wivenhoe Whopper. It stands alone in open grass on Clingoe Hill in Greenstead, on the east side of Colchester, and the Woodland Trust's Ancient Tree Inventory records it as an ancient pedunculate oak with a girth of 9.10 metres at a height of 1.3 metres. Its recorder later noted a careful measurement of 8.57 metres and called it one of the biggest trees in Essex.\n\nThe inventory calls it a lapsed pollard, a tree once cut back above head height for its wood and then left to grow on. Readers' photographs show what that made. Under a full, rounded dome of leaves the trunk is short and enormously wide, with deep hollows and burrs at head height. In one, two people stand at its foot, one with arms spread against the bark, and they look small. The inventory lists a hollowing trunk, decaying wood in the crown, lichen and moss on the bark, and beefsteak fungus.\n\nNobody has dated it. One reader puts it at about 300 years; another, working from the Woodland Trust's guide to estimating the age of an oak from its girth, at about 800. Both are readers' estimates.\n\nThe inventory gives the ground as parkland and school or college land, with partial public access beside a footpath or road, so keep to the paths and follow any signs.",
       "how_to_recognise": "A huge domed oak standing alone in open dry grass, its short wide trunk hollowed and burred, with a few trees behind it.",
-      "verified_sources": [],
+      "verified_sources": [
+        "Woodland Trust Ancient Tree Inventory, tree 177493 'Wivenhoe Whopper': pedunculate oak, lapsed pollard, standing and alive, girth 9.10 m at 1.30 m, ancient tree, grid reference TM0306224237, last visited 2025-02-17 (https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=177493)"
+      ],
       "found_by_reader": {
         "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
         "date": "2026-11-15"
       },
-      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting d8edd734) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows one very large rounded oak standing alone in a dry field, two visitors at its foot for scale. The reader's own label was 'Pedunculate Oak near Mistley', girth 600 cm, age 300 years; the GPS fix is on Clingoe Hill, Colchester, about 10 km from Mistley, so the page names Colchester and the verify note records the difference. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access: the tree stands in open grass in the photograph; no source of ours says who owns the ground.",
-      "access": "The oak stands in open grassland on Clingoe Hill. We found no published access terms for the land, so follow any signs.",
+      "verify_notes": "2026-11-15: published from a reader's app photograph and GPS fix (sighting d8edd734) on Hidde's 2026-10-21 ruling that a good photograph with a GPS fix is not held. The photograph shows one very large rounded oak standing alone in a dry field, two visitors at its foot for scale. The reader's own label was 'Pedunculate Oak near Mistley', girth 600 cm, age 300 years; the GPS fix is on Clingoe Hill, Colchester, about 10 km from Mistley, so the page names Colchester and the verify note records the difference. No register entry within 100 m and no encyclopaedia article within 300 m (scripts/corroborate.py). Access: the tree stands in open grass in the photograph; no source of ours says who owns the ground. 2026-11-24 reader judge: reports 1000136 and 1000137 from a reader pointed to the Woodland Trust Ancient Tree Inventory record 177493 'Wivenhoe Whopper' and an age of about 800 years from the Woodland Trust's oak-age guide (wbrc.org.uk PDF). Record read: pedunculate oak, lapsed pollard, alive, girth 9.10 m at 1.30 m, grid TM0306224237, which converts to 51.87970, 0.94882, 25 m from our pin (a reader's standing point), on the Greenstead Estate: the same tree. The recorder's 2017 comment gives 8.57 m on a more careful measurement; the record's girth field still reads 9.10 m (last visited 2025-02-17), so girth_cm follows the field and the story gives both. The 600 cm and 300 years of the first reader stay as theirs; the 800 years is the second reader's.",
+      "access": "The Ancient Tree Inventory lists partial public access, next to a footpath or road, on parkland and school or college ground. Keep to the paths and follow any signs.",
       "photo": {
         "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-3f14603e.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -52,7 +54,7 @@
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
-      "girth_cm": 600,
+      "girth_cm": 910,
       "photos": [
         {
           "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill.jpg",
@@ -67,7 +69,11 @@
           "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
           "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a huge domed oak alone in open grass, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
-      ]
+      ],
+      "official_register": {
+        "name": "Woodland Trust Ancient Tree Inventory, tree 177493 (Wivenhoe Whopper)",
+        "url": "https://ati.woodlandtrust.org.uk/tree-search/tree?treeid=177493"
+      }
     },
     {
       "id": "cls_002",
@@ -131,8 +137,8 @@
     }
   ],
   "question_meta": "A very large oak and a spreading cedar stand near Clingoe Hill in Colchester. Where they are and what readers say about them.",
-  "question_answer": "A reader found a very large pedunculate oak (Quercus robur) on Clingoe Hill, Greenstead, Colchester, with a girth of about 600 cm and an age of about 300 years by their estimate.",
-  "question_context": "Everything this page says comes from readers' photographs and figures, sent through the app. The oak stands alone in open grass on Clingoe Hill in Greenstead, on the east side of Colchester; the first reader's own label placed it near Mistley, about ten kilometres away, so we have put it where it stands. We found no register entry or published survey for it, so the girth of about 600 centimetres and the age of about 300 years are the reader's. Its photographs show a rounded crown over a short trunk with deep hollows and burrs at head height. A couple of hundred metres to the east, a second reader photographed a cedar of Lebanon whose trunk splits low into curving limbs and whose lowest branches lie along the grass. We have no girth or age for the cedar yet. We found no published terms for access to either piece of ground, so follow any signs. If you have measured a trunk or know a tree's history, tell us on its page and it goes into this answer.",
+  "question_answer": "A huge pedunculate oak (Quercus robur) stands on Clingoe Hill, Greenstead, Colchester. The Woodland Trust's Ancient Tree Inventory knows it as the Wivenhoe Whopper and records a girth of 9.10 metres; readers put it at about 300 to 800 years old.",
+  "question_context": "Both trees on this page came to us as readers' photographs, sent through the app. The oak stands alone in open grass on Clingoe Hill in Greenstead, on the east side of Colchester; the first reader's own label placed it near Mistley, about ten kilometres away, so we have put it where it stands. A second reader pointed us to its record in the Woodland Trust's Ancient Tree Inventory, where it is the Wivenhoe Whopper: an ancient pedunculate oak and lapsed pollard with a girth of 9.10 metres at 1.3 metres, which its recorder later measured more carefully at 8.57 metres. Its photographs show a rounded crown over a short trunk with deep hollows and burrs at head height. Nobody has dated it; readers' estimates run from about 300 to about 800 years. A couple of hundred metres to the east, a reader photographed a cedar of Lebanon whose trunk splits low into curving limbs and whose lowest branches lie along the grass. The inventory lists partial public access beside a footpath or road for the oak, so keep to the paths. If you know a tree's history, tell us on its page and it goes into this answer.",
   "faq": [
     {
       "q": "Which trees are on the map in Colchester?",
@@ -144,7 +150,7 @@
     },
     {
       "q": "How big is the oak?",
-      "a": "A reader gave a girth of about 600 centimetres. We have found no survey to compare."
+      "a": "The Woodland Trust's Ancient Tree Inventory records a girth of 9.10 metres at 1.3 metres; its recorder later measured it more carefully at 8.57 metres."
     }
   ]
 }

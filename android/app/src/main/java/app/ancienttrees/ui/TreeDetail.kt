@@ -1018,7 +1018,7 @@ private fun Columns(tree: Tree, actions: TreePageActions) {
                 null
             }
             val shortAge = tree.age?.let { raw ->
-                val first = raw.split(',', ';', '(').first().trim()
+                val first = Tree.firstAgeClause(raw).ifEmpty { raw }
                 if (first.length > 24) stringResource(R.string.age_see_story) else first
             } ?: stringResource(R.string.age_not_recorded)
             FactColumn(

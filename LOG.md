@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: the Colchester oak is the Wivenhoe Whopper; an app age bug a reader caught
+
+- **Colchester, cls_001**: a reader's two reports pointed to Woodland Trust Ancient Tree Inventory record 177493, the "Wivenhoe Whopper". Read it: pedunculate oak, lapsed pollard, alive, 9.10 m at 1.30 m, grid TM0306224237, 25 m from our pin, so the same tree. The page now has the local name, the register link, `girth_cm` 910 (the recorder's later 8.57 m in the story), the register as source, the register's access line, and "about 300 to 800 years, by readers' estimates". Intro, question answer and context, and FAQ follow it. Reports 1000136 and 1000137 closed `holds` with no mail, because they carry the reader's own words. Suggested reply in drafts/reply-reader-1000137-2026-11-24.md.
+- **App bug found by a reader (report 1000138, Tsagarada)**: the tree page's Age field cut the age at the first comma, so "about 1,000 years" read "about 1". That hit 24 trees, iPhone and Android alike. The website and the data were right. Fixed in both sources (`Tree.firstAgeClause`, a comma between digits is no clause break), with AgeClauseTests.swift and AgeClauseTest.kt, and recorded with escaped.py. The tests were not run here (no Gradle or Xcode on this runner), so CI decides. Suggested reply in drafts/reply-reader-1000138-2026-11-24.md. For Hidde: the next build carries the fix for the "about 1" age on the tree page.
+- **Tsagarada, tsg_001**: a second reader's night photograph from a balcony over the square went into the gallery behind the lead (`strip`): it shows this plane, but from further off than the current lead.
+- Not judged: lead 3c544597 (Amsterdam, "not sure which tree", ams_032 named). Its photograph is not on this runner, so it is left for the next run rather than judged blind.
+
 ## 2026-11-24 reader judge: nothing new; a parallel run had the cedar first
 
 - A second run picked up the same Colchester sighting (c3ef540c) and tip 1573. The run below pushed first, so this run dropped its duplicate commit. The only change kept: `taken_month_basis` on cls_002's new lead photo, which the other run had left off.

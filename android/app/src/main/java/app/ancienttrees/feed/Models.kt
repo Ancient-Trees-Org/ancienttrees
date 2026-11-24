@@ -132,6 +132,27 @@ data class Tree(
 
         fun accessPlainFree(a: String): Boolean =
             STARTS_FREE.containsMatchIn(a) && !SOMETHING_TO_MEET.containsMatchIn(a)
+
+        /**
+         * The first clause of an age sentence, for the tree page's Age field
+         * (Models.swift firstAgeClause). A comma between two digits is a
+         * thousands separator, never a clause break: cutting there showed
+         * "about 1" for "about 1,000 years" (report 1000138, 2026-11-24).
+         */
+        fun firstAgeClause(raw: String): String {
+            var end = raw.length
+            for (i in raw.indices) {
+                val c = raw[i]
+                if (c == ';' || c == '(') { end = i; break }
+                if (c == ',') {
+                    val digitBefore = i > 0 && raw[i - 1].isDigit()
+                    val digitAfter = i + 1 < raw.length && raw[i + 1].isDigit()
+                    if (digitBefore && digitAfter) continue
+                    end = i; break
+                }
+            }
+            return raw.substring(0, end).trim()
+        }
     }
 }
 

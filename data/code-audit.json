@@ -641,6 +641,17 @@
    "found_by": "test",
    "test": "scripts/test_sightings.py:TestExtraOnlySighting",
    "fixed_in": "1aaa5402e"
+  },
+  {
+   "id": "ESC-2026-11-24-tree-page-age-field-cut-a-thousands-sepa",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
+   "summary": "Tree page Age field cut a thousands separator as a clause break: about 1,000 years showed as about 1 on 24 trees (report 1000138); Android the same",
+   "first_seen": "2026-11-24",
+   "status": "open",
+   "found_by": "reader",
+   "test": "AgeClauseTests.testAThousandsSeparatorIsNotAClauseBreak (iOS); AgeClauseTest.aThousandsSeparatorIsNotAClauseBreak (Android)"
   }
  ]
 }

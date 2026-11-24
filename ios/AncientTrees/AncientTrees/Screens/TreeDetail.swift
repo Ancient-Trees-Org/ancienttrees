@@ -1378,10 +1378,8 @@ struct TreeDetail: View {
     /// room for a sentence.
     private var shortAge: String {
         guard let raw = tree.age else { return mine != nil ? "Add" : "not recorded" }
-        let first = raw.split(whereSeparator: { ",;(".contains($0) })
-            .first.map(String.init)?
-            .trimmingCharacters(in: .whitespaces) ?? raw
-        return first.count > 24 ? "see the story" : first
+        let first = Tree.firstAgeClause(of: raw)
+        return first.isEmpty ? raw : (first.count > 24 ? "see the story" : first)
     }
 
     /// One sheet for every blank, because four sheets that differ by a

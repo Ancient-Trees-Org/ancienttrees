@@ -322,6 +322,26 @@ public struct Tree: Codable, Identifiable, Hashable, Sendable {
             .trimmingCharacters(in: .whitespaces)
         return inner.isEmpty ? nil : inner
     }
+
+    /// The first clause of an age sentence, for the tree page's Age field.
+    /// A comma between two digits is a thousands separator, never a clause
+    /// break: cutting there showed "about 1" for "about 1,000 years" on 24
+    /// trees (report 1000138, Tsagarada, 2026-11-24).
+    public static func firstAgeClause(of raw: String) -> String {
+        let chars = Array(raw)
+        var end = chars.count
+        for i in chars.indices {
+            let c = chars[i]
+            if c == ";" || c == "(" { end = i; break }
+            if c == "," {
+                let digitBefore = i > 0 && chars[i - 1].isNumber
+                let digitAfter = i + 1 < chars.count && chars[i + 1].isNumber
+                if digitBefore && digitAfter { continue }
+                end = i; break
+            }
+        }
+        return String(chars[..<end]).trimmingCharacters(in: .whitespaces)
+    }
 }
 
 public struct Walk: Codable, Hashable, Sendable {

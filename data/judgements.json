@@ -332,6 +332,28 @@
    "agreed": null
   },
   {
+   "id": "sight:03cf52a9-7db9-4487-a240-be778790a315",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Agia Paraskevi",
+   "city": "Tsagarada",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/03cf52a9-7db9-4487-a240-be778790a315.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 62,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane (Platanus orientalis)"
+   },
+   "verdict": "publish",
+   "reason": "A second reader's night view of the plane from a balcony over the square, whole lit crown in autumn gold; this tree, further off than the lead, so it went into the gallery behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
