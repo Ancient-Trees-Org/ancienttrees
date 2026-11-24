@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 session: the night run leaves readers to the judge, and stops sourcing contacts while a batch waits
+
+- **What changed** (Hidde, "Alleen 1 en 2"). Readers' photographs, trees, reports and feedback no longer start a night window. The reader judge already handles them within about 15 minutes, and two agents were judging the same rows. The switch is `READER_WORK_STARTS_WINDOW = False` in scripts/claude_gate.py. Notes on trees still start a window, because only the night run reads them. Anything the judge misses goes red after 24 hours (reader_backlog.py) and is rung-2 work in the next slot.
+- **Contact and press-desk sourcing pauses** while sent_drafts.py lists a batch as open or partly sent. Today that is the Guardian press batch (31 of 39) and the Android wave 3 invitations. CLAUDE.md rung 4 carries the rule.
+- **Kept, not changed**: the two-hour knock and its four agent slots a day (point 3 of the proposal).
+
 ## 2026-11-24 session: a waiting reader judge no longer redoes the run before it
 
 - **Breakage fixed**: reader-judge.yml and nightly.yml now check out `ref: main`. Before, a dispatched run that waited in the queue started from the commit of when it was *created*, so it treated the previous run's work as still open. The 03:53 run re-judged the Colchester cedar for 15 agent minutes that way. The runs never truly overlapped: the concurrency group already ran them one after another.

@@ -35,6 +35,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 00, 06, 12 and 18 UTC, each two hours wide.
 SLOT_HOURS = {0, 1, 6, 7, 12, 13, 18, 19}
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
+READER_WORK_STARTS_WINDOW = False
 
 
 def sighting_queue():
@@ -95,9 +96,17 @@ def main():
     hour = datetime.datetime.now(datetime.timezone.utc).hour
     if hour in SLOT_HOURS:
         reasons.append("fixed slot (%02d UTC)" % hour)
-    for label, n in (("app photograph(s) in the queue", sighting_queue()),
-                     ("submission(s) sent since the last knock", fresh_submissions()),
-                     ("unread note(s) on trees", unread_notes())):
+    # Readers' photographs, trees, reports and feedback are the reader judge's
+    # (reader-judge.yml, within about 15 minutes), so they no longer start a
+    # night window: two agents judged the same rows (Hidde, 2026-11-24, "Alleen
+    # 1 en 2"). What slips past the judge turns red in reader_backlog.py after
+    # 24 hours and is rung-2 work in the next fixed slot. Notes on trees stay:
+    # only the night run reads them. READER_WORK_STARTS_WINDOW = True undoes it.
+    checks = [("unread note(s) on trees", unread_notes())]
+    if READER_WORK_STARTS_WINDOW:
+        checks = [("app photograph(s) in the queue", sighting_queue()),
+                  ("submission(s) sent since the last knock", fresh_submissions())] + checks
+    for label, n in checks:
         if n is None:
             reasons.append("could not read %s, so looking" % label.split("(s)")[0].strip())
         elif n:
