@@ -963,6 +963,18 @@
    "agreed": null
   },
   {
+   "id": "sight:35263410-988c-419f-9141-f49826a2f81c",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Silver-Limbed Oak of Tranekær",
+   "photo": "p_19280672174196861df923eb/35263410-988C-419F-9141-F49826A2F81C.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: a big old oak at a wood's edge across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways, late autumn, daylight, colour. Live as tranekaer/tnk_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27929,18 +27941,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:35263410-988c-419f-9141-f49826a2f81c",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Silver-Limbed Oak of Tranekær",
-   "photo": "p_19280672174196861df923eb/35263410-988C-419F-9141-F49826A2F81C.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: a big old oak at a wood's edge across an open meadow, its dark leaning trunk forking into two stems, a tangle of bleached silver-white dead limbs reaching sideways, late autumn, daylight, colour. Live as tranekaer/tnk_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }
