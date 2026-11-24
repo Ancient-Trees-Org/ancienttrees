@@ -1,7 +1,7 @@
 {
  "_note": "Overlay italiano per Napoli, scritto a mano il 2026-09-02. Reso da data/cities/naples.json, che resta la fonte di verità: coordinate, foto, licenze, età e note di accesso vivono lì e qui non cambia nulla. I termini di ricerca sono l'unica cosa che non è una traduzione: il termine legale e quotidiano in Italia è 'alberi monumentali', quindi titolo, meta description e campi della domanda sono scritti come li cercherebbe un lettore italiano e non come resa letterale dell'inglese. Una differenza rispetto alla pagina inglese: la FAQ inglese parla di cinque alberi nell'Orto Botanico, ma sono sette, e l'italiano scrive sette.",
  "city": "Napoli",
- "title": "Alberi monumentali di Napoli: 24 giganti da vedere",
+ "title": "Alberi monumentali di Napoli: 25 giganti da vedere",
  "meta_description": "Gli alberi più notevoli di Napoli, in due passeggiate: la tenuta borbonica di Capodimonte con il suo canforo di 220 anni e l'Orto Botanico del 1807.",
  "intro": "Napoli ha più alberi monumentali censiti di qualsiasi altra città italiana, e li tiene in due posti che valgono una mattinata ciascuno. Il Real Bosco di Capodimonte è un'ex tenuta di caccia borbonica che la corte ha passato due secoli a riempire di esemplari arrivati dalla Cina, dal Messico e dall'Australia, e dieci di questi alberi crescono lì. La seconda passeggiata è il Real Orto Botanico, fondato per decreto nel 1807, dove altri sette stanno nel giro di 150 metri, compreso il tronco più largo del registro cittadino. Gli altri sono sparsi per la città.",
  "question_title": "Qual è l'albero più antico di Napoli? (220 anni)",
@@ -15,7 +15,7 @@
   },
   {
    "q": "Perché Capodimonte ha tanti degli alberi più antichi di Napoli?",
-   "a": "Perché i re Borbone hanno passato circa due secoli a trasformare una tenuta reale di caccia in una vetrina botanica funzionante, importando la canfora dalla Cina, il cipresso dal Messico e l'eucalipto dall'Australia. Dieci dei ventiquattro alberi di questa lista, e più della metà degli alberi monumentali ufficialmente censiti in tutta Napoli, crescono dentro i suoi 134 ettari."
+   "a": "Perché i re Borbone hanno passato circa due secoli a trasformare una tenuta reale di caccia in una vetrina botanica funzionante, importando la canfora dalla Cina, il cipresso dal Messico e l'eucalipto dall'Australia. Dieci dei venticinque alberi di questa lista, e più della metà degli alberi monumentali ufficialmente censiti in tutta Napoli, crescono dentro i suoi 134 ettari."
   },
   {
    "q": "Che fine ha fatto il famoso Pino di Posillipo?",
@@ -23,7 +23,7 @@
   },
   {
    "q": "Gli alberi notevoli di Napoli si visitano gratis?",
-   "a": "Sì, tutti e ventiquattro: stanno in parchi e piazze pubbliche, nel cortile di un archivio di Stato e in uno universitario. I giardini all'aperto del Real Bosco di Capodimonte sono gratuiti, mentre il museo e alcune sezioni restaurate hanno orari propri. Anche il Real Orto Botanico è gratuito e non chiede prenotazione, ma apre solo nei giorni feriali, fino alle 14:00 il lunedì, il mercoledì e il venerdì e fino alle 16:00 il martedì e il giovedì, quindi i sette alberi che ci stanno dentro non si possono vedere nel fine settimana."
+   "a": "Sì, tutti e venticinque: stanno in parchi e piazze pubbliche, nel cortile di un archivio di Stato e in uno universitario. I giardini all'aperto del Real Bosco di Capodimonte sono gratuiti, mentre il museo e alcune sezioni restaurate hanno orari propri. Anche il Real Orto Botanico è gratuito e non chiede prenotazione, ma apre solo nei giorni feriali, fino alle 14:00 il lunedì, il mercoledì e il venerdì e fino alle 16:00 il martedì e il giovedì, quindi i sette alberi che ci stanno dentro non si possono vedere nel fine settimana."
   }
  ],
  "strings_note": "Campi per albero: name, species (nome comune italiano, stesso nome latino), age_estimate, access, transport, story. Storie da 150 a 250 parole, stesso standard dell'inglese, nessun trattino lungo.",
@@ -219,6 +219,13 @@
    "access": "Gratuito, senza prenotazione. Aperto solo nei giorni feriali: lun, mer, ven 9:00-14:00, mar e gio 9:00-16:00, chiuso il sabato e la domenica",
    "transport": "10 minuti a piedi dalla metro Cavour o Museo, oppure autobus lungo Via Foria",
    "story": "Il registro nazionale italiano chiama questa pianta Nolina longifolia. Il registro regionale della Campania, rilevando lo stesso tronco alla stessa coordinata, la chiama Nolina recurvata. Non stanno descrivendo due piante diverse: entrambi i nomi sono stati nel frattempo accorpati nel genere Beaucarnea, e i giardinieri napoletani hanno comunque sempre chiamato tutte e due con lo stesso soprannome, pianta mangiafumo, per una dieta di smog cittadino che nessuno ha mai davvero dimostrato. Su cosa i due registri sono d'accordo, al centimetro, è il tronco: 560 cm di circonferenza alla base, gonfio in un piede succulento e grigio che si assottiglia fino a modesti quattro metri di altezza. È il secondo tronco più largo di tutto l'orto botanico, dietro solo all'albero della seta lì vicino, e la forma più strana che ci sia dentro.\n\nLa Nolina e la sua stretta parente Beaucarnea immagazzinano acqua come fa un baobab, in una base a barile che si restringe in una chioma di lunghe foglie a nastro, un adattamento fatto per la macchia arida degli altopiani messicani e non per un'estate napoletana. Quale delle due specie affini stia qui davvero non è mai stato chiarito per iscritto: gli elenchi pubblicati dal giardino sulle sue collezioni desertica e di arboreto non la citano affatto, quindi non c'è una terza fonte a sciogliere il dubbio, e nessuno ha registrato quando è stata piantata.\n\nSe riuscite a leggere il cartellino alla sua base, o se il giardino sa dirvi quale delle due ha piantato, ditecelo."
+  },
+  "nap_032": {
+   "name": "Il ficus magnolioide dei Giardini di Palazzo Reale",
+   "species": "Ficus magnolioide (Ficus macrophylla)",
+   "access": "Gratuito, nei Giardini di Palazzo Reale, aperti di giorno. Controllate gli orari prima di andare.",
+   "how_to_recognise": "Nei giardini del palazzo, dietro un basso cordone: un fico grigio chiaro il cui tronco è un fascio di fusti lisci saldati insieme, segnati da sottili anelli, con tende di radici aeree brune che pendono tra l'uno e l'altro e radici piatte distese sulla terra nuda.",
+   "story": "Un lettore ci ha mandato questo ficus magnolioide, il fico di Moreton Bay, dai Giardini di Palazzo Reale, il palazzo reale sul lungomare di Napoli, e lo ha fotografato dove l'albero colpisce di più: proprio ai suoi piedi.\n\nI fichi di Moreton Bay vengono dalle foreste pluviali dell'Australia orientale e diventano enormi ovunque gli inverni restino miti, ed è per questo che Napoli ne ha diversi. Questo mostra come ci riescono. Il tronco non è una colonna sola ma un fascio di fusti grigi e lisci, segnati da sottili anelli come la pelle della zampa di un elefante, che sono cresciuti l'uno dentro l'altro e continuano a fondersi salendo. Le radici aeree pendono in tende brune tra di loro, e dove toccano il suolo si ingrossano in nuovi sostegni. In basso l'intera massa si apre in radici piatte sulla terra nuda, e dietro, tra le foglie, corre la lunga facciata chiara di un palazzo.\n\nLa specie l'ha indicata il lettore. Non conosciamo ancora la sua età, la sua circonferenza né chi l'abbia piantato; se conoscete l'albero, o cosa ne dicono i giardini del palazzo, scriveteci qui e lo aggiungeremo.\n\nIl nostro segnaposto è approssimativo, quindi cercatelo nei giardini. Fate tutto il giro del tronco per vedere le radici da ogni lato."
   }
  }
 }

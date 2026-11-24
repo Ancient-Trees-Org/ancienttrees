@@ -1,0 +1,75 @@
+{
+  "city": "Khao Yai",
+  "country": "Thailand",
+  "status": "needs_curation",
+  "intro": "Khao Yai was Thailand's first national park, a sweep of monsoon forest and grassland on the hills north-east of Bangkok. Beside one of its forest trails stands a giant strangler fig whose trunk is a hollow cage of roots, the tree it once grew on long gone from the middle. A reader sent us its photograph, with daylight shining through the gaps in its roots.",
+  "meta_description": "A giant strangler fig in Khao Yai National Park, Thailand, hollow where its host tree stood: what a reader found and how to see it.",
+  "hero_tree_id": "kya_001",
+  "oldest_tree_id": "kya_001",
+  "trees": [
+    {
+      "id": "kya_001",
+      "name": "The Hollow Strangler Fig of Khao Yai",
+      "species": "Fig (Ficus sp.)",
+      "age_estimate": "about 500 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Beside a forest trail (the reader's Route 3), Khao Yai National Park",
+        "latitude": 14.4646216666667,
+        "longitude": 101.363725,
+        "neighbourhood": "Khao Yai National Park"
+      },
+      "how_to_recognise": "Beside the trail on a slope of red earth: a giant fig whose trunk is a cage of grey roots, hollow inside where its host tree once stood, with daylight showing through the gaps and great flat roots running down the slope.",
+      "access": "Inside Khao Yai National Park, which charges an entry fee. Some of the park's forest trails may only be walked with a ranger or guide; ask at the visitor centre.",
+      "story": "\"There used to be another tree in the middle,\" wrote the reader who sent us this fig from Khao Yai National Park, Thailand's first national park, and the photograph shows what they mean.\n\nThis is a strangler fig. These figs start life as a seed left by a bird high in the branches of another tree, and send their roots down its trunk to the soil. Over the years the roots thicken, press together and close round the host, which dies inside them and rots away. What stands in the forest now is the fig's own cage of roots, a lattice of grey columns climbing out of the red earth into a crown far above, with daylight shining through the gaps where the other tree once stood.\n\nThe scale is in the picture too. A person standing at its foot reaches barely past the first flare of the roots, which spread down the slope in great flat ribs.\n\nThe reader puts it at 500 years old and its girth at thirty metres. Those figures are theirs, not a measurement we have seen, and a fig with no single trunk is hard to measure or to date. Which fig it is we would like a reader to tell us.\n\nStand back on the path and look up into the hollow where the host tree used to be.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+        "date": "2026-11-24"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (55890f31-4eaa-43a5-93a5-9f8d0e298ad5, 2026-11-24, through the app). Photograph viewed: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Fig', species 'Fig', age '500', girth 3000 cm, note 'There used to be another tree in the middle. This tree is in Khao Yai National Park, Route 3.'. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kya_001-hollow-strangler-fig-of-khao-yai.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c16a4c599219c1f278d75265",
+        "sighting_id": "55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "A giant strangler fig in Khao Yai National Park, Thailand, hollow where its host tree stood: what a reader found and how to see it.",
+  "question_answer": "The Hollow Strangler Fig of Khao Yai stands beside a forest trail in Khao Yai National Park, which the reader calls Route 3. The park charges an entry fee.",
+  "question_context": "A reader who walked a forest trail in Khao Yai National Park sent us this fig, with a note that says it all: there used to be another tree in the middle. It is a strangler fig, a tree that begins as a seed in the branches of another and sends its roots down to the ground. Those roots thicken and fuse around the host until it dies and rots away inside them, and what is left is the fig's own trunk, a cage of grey roots, hollow in the centre. In the reader's photograph daylight shines through the gaps where the host once stood, and the roots flare out across a slope of red earth in great flat ribs, dwarfing a person at the foot. The reader puts the fig at about 500 years old and its girth at thirty metres; those are their figures, not a measurement we have seen, and a fig without a single trunk is hard to date. Khao Yai was Thailand's first national park; it charges an entry fee, and some of its forest trails are walked with a ranger or guide, so ask at the visitor centre before you set out.",
+  "faq": [
+    {
+      "q": "Where is the strangler fig in Khao Yai?",
+      "a": "Beside a forest trail in Khao Yai National Park that the reader who sent it calls Route 3. Our pin marks where they stood."
+    },
+    {
+      "q": "Can I visit the Hollow Strangler Fig of Khao Yai?",
+      "a": "Yes. It stands inside Khao Yai National Park, which charges an entry fee; some forest trails may only be walked with a ranger or guide, so ask at the visitor centre."
+    },
+    {
+      "q": "How old is the strangler fig in Khao Yai?",
+      "a": "The reader who sent it puts it at about 500 years. That is their estimate; we have no measurement or record of its age."
+    }
+  ]
+}

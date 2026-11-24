@@ -14,7 +14,7 @@
     },
     {
       "q": "Why does Capodimonte have so many of Naples's oldest trees?",
-      "a": "Because the Bourbon kings spent roughly two centuries turning a royal hunting estate into a working botanical showcase, importing camphor from China, cypress from Mexico and eucalyptus from Australia. Ten of the twenty-four trees on this list, and more than half of Naples's officially catalogued monumental trees citywide, grow within its 134 hectares."
+      "a": "Because the Bourbon kings spent roughly two centuries turning a royal hunting estate into a working botanical showcase, importing camphor from China, cypress from Mexico and eucalyptus from Australia. Ten of the twenty-five trees on this list, and more than half of Naples's officially catalogued monumental trees citywide, grow within its 134 hectares."
     },
     {
       "q": "What happened to the famous Pino di Posillipo?",
@@ -22,7 +22,7 @@
     },
     {
       "q": "Are Naples's remarkable trees free to see?",
-      "a": "All twenty-four are, standing in free public parks, squares and a state archive courtyard. What varies is the hours rather than the price. The Real Bosco di Capodimonte's outdoor gardens are free, though its museum and some restored sections keep separate hours. The Real Orto Botanico is also free and needs no booking, but it opens on weekdays only, until 14:00 on Monday, Wednesday and Friday and 16:00 on Tuesday and Thursday, so the seven trees there cannot be seen at a weekend."
+      "a": "All twenty-five are, standing in free public parks, squares and a state archive courtyard. What varies is the hours rather than the price. The Real Bosco di Capodimonte's outdoor gardens are free, though its museum and some restored sections keep separate hours. The Real Orto Botanico is also free and needs no booking, but it opens on weekdays only, until 14:00 on Monday, Wednesday and Friday and 16:00 on Tuesday and Thursday, so the seven trees there cannot be seen at a weekend."
     }
   ],
   "trees": [
@@ -1274,6 +1274,48 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "nap_032",
+      "name": "The Moreton Bay Fig of the Palazzo Reale Gardens",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "location": {
+        "address": "Giardini del Palazzo Reale, Piazza del Plebiscito, 80132 Napoli",
+        "latitude": 40.833362,
+        "longitude": 14.250035,
+        "neighbourhood": "San Ferdinando"
+      },
+      "how_to_recognise": "In the palace gardens, behind a low cord fence: a pale grey fig whose trunk is a bundle of smooth fused stems, ridged with fine rings, with curtains of brown aerial roots hanging between them and flat roots spread over the bare ground.",
+      "access": "Free, in the gardens of the Palazzo Reale, open in daytime. Check the opening hours before you go.",
+      "story": "A reader sent us this Moreton Bay fig from the gardens of the Palazzo Reale, the royal palace on the Naples waterfront, and took the picture where the tree is most impressive: right at its foot.\n\nMoreton Bay figs come from the rainforests of eastern Australia and grow huge wherever the winters stay mild, which is why Naples has several. This one shows how they do it. The trunk is not a single column but a bundle of smooth grey stems, ridged with fine rings like the skin of an elephant's leg, that have grown into one another and go on fusing as they rise. Aerial roots hang in brown curtains between them, and where they reach the soil they thicken into new props. At the bottom the whole mass splays into flat roots over the bare earth, and behind it, through the leaves, runs the long pale front of a palace.\n\nThe reader named its species. We do not yet know its age, its girth or who planted it; if you know the tree, or what the palace gardens say about it, tell us here and we will add it.\n\nOur pin is approximate, so look for it in the gardens. Walk right round the trunk to see the roots from every side.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "8bea95ca-5896-4a4e-a003-bfd05305ef05",
+        "date": "2026-11-24"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "8bea95ca-5896-4a4e-a003-bfd05305ef05",
+        "date": "2026-11-24",
+        "note": "The reader first placed the pin by hand near Lago Patria, then moved it themselves (reports 1000142 to 1000145, 2026-11-24) into the gardens of the Palazzo Reale, which matches the palace front in their photograph. Hand-placed, so approximate."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-24 reader judge: sent by a reader (8bea95ca-5896-4a4e-a003-bfd05305ef05, 2026-11-24, through the app). Photograph viewed: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Ficus macrophylla near Naples', species 'Ficus macrophylla (Villa di)', age 'None', girth None cm, note ''. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nap_032-moreton-bay-fig-of-the-palazzo-reale-gardens.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_0d02973d80cde9477b2b846d",
+        "sighting_id": "8bea95ca-5896-4a4e-a003-bfd05305ef05",
+        "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 10,
+        "taken_month_basis": "the photograph's own date"
       }
     }
   ]

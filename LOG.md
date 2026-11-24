@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 reader judge: two readers' trees live, a Naples palace-garden fig and a hollow strangler fig in Khao Yai
+
+- **Naples, nap_032, The Moreton Bay Fig of the Palazzo Reale Gardens** (app, sighting 8bea95ca): the photo is a close shot of the fused grey trunk, with aerial roots and a long pale palace front behind it. The reader first dropped the pin by hand near Lago Patria, 20 km out of town, then moved it four times themselves (reports 1000142 to 1000145) and ended in the Palazzo Reale gardens, which fits the palace in the photo. Because it was placed by hand the pin is approximate, and the story says so. The reports are closed `holds`, with no mail: these were moves on their own new tree. The Naples FAQ and the Italian overlay now count 25 trees, and the overlay has the new tree (ficus magnolioide). Filed as October, the photo's own month.
+- **Khao Yai (new one-tree place), kya_001, The Hollow Strangler Fig of Khao Yai** (app, sighting 55890f31, GPS from the photo): a giant strangler fig, hollow where its host tree once stood, with a person at its foot for scale. The reader's note is quoted ("There used to be another tree in the middle"). Their 500 years and 30 m girth are given as their own figures. Species is Fig (Ficus sp.), and the page asks readers which fig it is. The access line says Khao Yai charges an entry fee and that some trails need a ranger or guide. The place has an intro, question fields and three FAQ; city_names.py was run.
+- Left alone: the 38 other waiting leads are all `mine` (our own account), and 3c544597 has no photo on disk. There is no open feedback and no tip to judge. reader_words is clear. preflight 0, i18ncheck clean, qa source clean. The congratulation mail goes from deploy.yml once the pages are live.
+
 ## 2026-11-24 night run (retry, window 12:57): nothing shipped, rebase repaired
 
 - An earlier attempt had left three unpushed commits that conflicted with the reader judge's (lisbon.json photo note, LOG.md, reader-words-done.json). Resolved keeping the judge's approved note and both sets of lines; pushed. No claims standing.

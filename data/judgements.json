@@ -675,6 +675,62 @@
    "agreed": null
   },
   {
+   "id": "lead:8bea95ca-5896-4a4e-a003-bfd05305ef05",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Ficus macrophylla near Naples",
+   "city": null,
+   "species": "Ficus macrophylla (Villa di)",
+   "photo": "p_0d02973d80cde9477b2b846d/8BEA95CA-5896-4A4E-A003-BFD05305EF05.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ficus macrophylla (Villa di)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Live as naples/nap_032 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Fig",
+   "city": null,
+   "species": "Fig",
+   "photo": "p_c16a4c599219c1f278d75265/55890F31-4EAA-43A5-93A5-9F8D0E298AD5.jpg",
+   "reader_note": "There used to be another tree in the middle. This tree is in Khao Yai National Park, Route 3.",
+   "reader_girth_cm": 3000,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Fig"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Live as khao-yai/kya_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27641,6 +27697,30 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8bea95ca-5896-4a4e-a003-bfd05305ef05",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Moreton Bay Fig of the Palazzo Reale Gardens",
+   "photo": "p_0d02973d80cde9477b2b846d/8BEA95CA-5896-4A4E-A003-BFD05305EF05.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Live as naples/nap_032 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Hollow Strangler Fig of Khao Yai",
+   "photo": "p_c16a4c599219c1f278d75265/55890F31-4EAA-43A5-93A5-9F8D0E298AD5.jpg",
+   "reader_note": "There used to be another tree in the middle. This tree is in Khao Yai National Park, Route 3.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Live as khao-yai/kya_001 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

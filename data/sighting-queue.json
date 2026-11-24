@@ -1,51 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-24",
- "queue": [
-  {
-   "sighting_id": "c34cee42-d585-4200-926b-7409b75205e1",
-   "user_id": "p_9d1616429a79ae63e672bbf8",
-   "tree_id": "lis_038",
-   "city_slug": "lisbon",
-   "city": "Lisbon",
-   "tree_name": "The Pohutukawa of Campo Santana",
-   "match": "app",
-   "distance_m": 30,
-   "mine": false,
-   "current_photo": "approved",
-   "current_source": "contributor",
-   "tree_species": "Pohutukawa (Metrosideros excelsa)",
-   "recognise": "A leaning, many-stemmed trunk at the edge of the play area, with mats of reddish roots hanging from its limbs almost to the ground.",
-   "tree_girth_cm": null,
-   "tree_height_m": null,
-   "story": "Curtains of reddish roots hang from the limbs of this tree, thin as string where they start and matted into thick ropes where they gather, above the tables and the playground of the Jardim Braamcamp Freire on Campo Santana. It is a Pohutukawa, Metrosideros excelsa, a coastal tree of New Zealand's North Island, where it grows on sea cliffs and is known as the New Zealand Christmas tree for the crimson flowers it carries in December. Here the roots have no rock to hold and simply keep growing down. Portugal classified it in 2018 as part of a group of public interest that also takes in four bela-sombra trees, and the national register gives that group an age of 123 years at its 2016 survey, so ",
-   "name": "The Pohutukawa of Campo Santana",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-24",
-   "photo_path": "p_9d1616429a79ae63e672bbf8/C34CEE42-D585-4200-926B-7409B75205E1.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [],
-   "latitude": 38.7229189663724,
-   "longitude": -9.13947829582809,
-   "file": "out/sightings/c34cee42-d585-4200-926b-7409b75205e1.jpg",
-   "light": {
-    "verdict": "OK: daylight, colour, subject separated",
-    "brightness": 85.8,
-    "contrast": 42.9,
-    "colour": 0.2,
-    "blown": 0.0,
-    "dark": 0.01,
-    "subject": 85.8,
-    "subject_colour": 0.2
-   },
-   "vouched": null,
-   "rank": 1,
-   "worth": "the tree already has one: ship this only if it is better"
-  }
- ]
+ "queue": []
 }
