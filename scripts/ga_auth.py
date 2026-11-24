@@ -9,6 +9,11 @@ GSC_REFRESH_TOKEN). This is the same pattern for a second, read-only scope.
 
 Run on the Mac, once:
     python3 scripts/ga_auth.py ~/Downloads/client_secret_XXXX.json
+    python3 scripts/ga_auth.py --gsc ~/Downloads/client_secret_XXXX.json
+
+--gsc mints the Search Console token instead (GSC_* in ~/.ancienttrees-gsc.env).
+Both were redone under hidde@ancienttrees.app after Google disabled the old
+Gmail on 2026-11-23, which killed both refresh tokens.
 
 It opens the browser, Hidde signs in with the account that owns the GA
 property, and the client id, secret and refresh token are written to
@@ -33,11 +38,19 @@ SCOPE = "https://www.googleapis.com/auth/analytics.readonly"
 OUT = Path.home() / ".ancienttrees-ga.env"
 
 
+GSC_SCOPE = "https://www.googleapis.com/auth/webmasters.readonly"
+GSC_OUT = Path.home() / ".ancienttrees-gsc.env"
+
+
 def main():
-    if len(sys.argv) != 2:
-        print("usage: python3 scripts/ga_auth.py <client_secret.json>")
+    args = sys.argv[1:]
+    gsc = "--gsc" in args
+    args = [a for a in args if a != "--gsc"]
+    if len(args) != 1:
+        print("usage: python3 scripts/ga_auth.py [--gsc] <client_secret.json>")
         return 2
-    raw = json.loads(Path(sys.argv[1]).expanduser().read_text())
+    scope, out, prefix = (GSC_SCOPE, GSC_OUT, "GSC") if gsc else (SCOPE, OUT, "GA")
+    raw = json.loads(Path(args[0]).expanduser().read_text())
     c = raw.get("installed") or raw.get("web") or {}
     cid, csec = c.get("client_id"), c.get("client_secret")
     if not cid or not csec:
@@ -65,11 +78,11 @@ def main():
     redirect = "http://127.0.0.1:%d/" % srv.server_port
     url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
         "client_id": cid, "redirect_uri": redirect, "response_type": "code",
-        "scope": SCOPE, "access_type": "offline", "prompt": "consent", "state": state,
+        "scope": scope, "access_type": "offline", "prompt": "consent", "state": state,
     })
     t = threading.Thread(target=srv.handle_request)
     t.start()
-    print("Opening the browser. Sign in with the account that owns the Google Analytics property.")
+    print("Opening the browser. Sign in as hidde@ancienttrees.app.")
     webbrowser.open(url)
     t.join(timeout=600)
     srv.server_close()
@@ -87,9 +100,9 @@ def main():
     if not refresh:
         print("Google returned no refresh token; remove the app's access at myaccount.google.com/permissions and run again")
         return 1
-    OUT.write_text("GA_CLIENT_ID=%s\nGA_CLIENT_SECRET=%s\nGA_REFRESH_TOKEN=%s\n" % (cid, csec, refresh))
-    os.chmod(OUT, 0o600)
-    print("written to %s (not printed). Next: tell Claude it worked." % OUT)
+    out.write_text("{0}_CLIENT_ID={1}\n{0}_CLIENT_SECRET={2}\n{0}_REFRESH_TOKEN={3}\n".format(prefix, cid, csec, refresh))
+    os.chmod(out, 0o600)
+    print("written to %s (not printed). Next: tell Claude it worked." % out)
     return 0
 
 
