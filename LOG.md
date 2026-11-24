@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 reader judge: the Kirkstall Abbey ginkgo has its first photograph
+
+- **Leeds, Kirkstall Abbey ginkgo (lds_003)**: a reader sent it from the app (sighting d229e334, taken November 2022): the whole tree in full gold on the lawn among the abbey ruins, leaves fallen in a ring. Species and setting match the entry; the tree had no photograph, so it is now the lead, filed under November. Pin moved 43 m from the Abbot's Lodging board to the reader's GPS fix (confirmed); the story's line "The pin is the Abbot's Lodging, not a fix at the trunk" was false after that and named how the pin was made, so it now reads only "No source gives a girth or a height." (no translations of Leeds). The live mail went with `--send`; the pins catch-up could not read coordinates (HTTPError), the move itself is in data.
+- Left waiting: lead 3c544597 (Amsterdam, our own account's photo, `mine`), photograph still not on disk; never judged blind.
+- No open reports, no feedback without a verdict, no tips unjudged, no reader words to quote. Nothing has waited over 24 hours.
+
 ## 2026-11-24 reader judge: a third view of the Verona mulberry; Girona has its ambassador
 
 - **Verona, The Silk Mulberry of Ca' di David (ver_011)**: the reader who added it sent another photograph (sighting 421f46f9, taken in July): the same trunk from the field side, its pale-rimmed knot hole matching their earlier frames, water standing on the grass. Into the gallery behind their lead (`strip`), filed under July. Pin untouched (their coordinate is our pin, not a GPS fix).

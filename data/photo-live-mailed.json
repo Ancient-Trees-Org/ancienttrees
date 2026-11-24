@@ -3301,6 +3301,21 @@
     }
    ],
    "sent": []
+  },
+  "p_16d7943edfd395d2a903824f": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "d229e334-6754-4887-9f4f-1bbee161a5e6",
+     "tree_id": "lds_003",
+     "tree_name": "Kirkstall Abbey ginkgo",
+     "city": "Leeds",
+     "city_slug": "leeds",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

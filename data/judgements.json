@@ -1255,6 +1255,28 @@
    "agreed": null
   },
   {
+   "id": "sight:d229e334-6754-4887-9f4f-1bbee161a5e6",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "Kirkstall Abbey ginkgo",
+   "city": "Leeds",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/d229e334-6754-4887-9f4f-1bbee161a5e6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 43,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "The Kirkstall Abbey ginkgo in full November gold among the abbey ruins, whole tree in daylight; species and setting match; first photograph of this tree, now its lead, pin moved 43 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",

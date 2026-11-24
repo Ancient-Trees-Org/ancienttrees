@@ -28,8 +28,8 @@
       "age_max": 150,
       "location": {
         "address": "Outside the Abbot's Lodging, Kirkstall Abbey, Abbey Road, Leeds LS5 3EH",
-        "latitude": 53.82026,
-        "longitude": -1.60636,
+        "latitude": 53.820575,
+        "longitude": -1.605992,
         "neighbourhood": "Kirkstall"
       },
       "verified_sources": [
@@ -39,22 +39,36 @@
         "https://museumsandgalleries.leeds.gov.uk/kirkstall-abbey/"
       ],
       "access": "Ruins and grounds of Kirkstall Abbey, run by Leeds Museums and Galleries, set in a public park on the north bank of the River Aire; opening hours and any admission are on the Leeds Museums page (general admission tickets bookable on site), which has not been settled to a price here. Say 'check opening times' on the page.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "location_site": {
         "name": "Abbot's Lodging, Kirkstall Abbey",
         "radius_m": 30
       },
       "curation_status": "flagged",
       "verify_notes": "Tree stands outside the Abbot's Lodging in the abbey grounds. Age: Yorkshire Evening Post (17 Nov 2026) says it is believed to date from around the late 19th century, when parts of the site were landscaped; the interpretation board transcribed on HMDB marker 278660 says it 'was only planted in the late 19th century' (the board is probably the YEP's source, so these two are not independent on the date). Wording to keep: the tree is NOT medieval despite the setting; a 2017 blog claims the abbot's garden had a ginkgo, not supported by the board. Colonel John North bought the abbey buildings in the late 1800s and gave the ruins and grounds to Leeds Corporation (YEP); no source ties his gift to this planting, do not bridge. Board: many people think the tree has medicinal properties (popular belief). Draws local press each November when it turns bright gold: YEP photo piece 17 Nov 2026 and West Leeds Dispatch 16 Nov 2025, plus a Flickr photo dated 20 Nov 2024 (nigel_turner) show it alive and gold. ALIVE: yes, YEP 17 Nov 2026. PIN: HMDB marker for the Abbot's Lodging board at 53 49.215 N, 1 36.382 W (53.82026,-1.60636), the board mentions the tree 'outside the abbot's lodging'; no tree-level coordinate found (Flickr not geotagged), so approximate on a 30 m site. No girth or height in any source. Season: strong autumn gold, mid to late November per the press pieces (best_time candidate for the writer's phenology check).",
-      "story": "Every November a ginkgo outside the Abbot's Lodging at Kirkstall Abbey turns bright gold, and the local papers send photographers. The Yorkshire Evening Post ran its pictures on 17 November this year, and the West Leeds Dispatch did the same a year earlier.\n\nThe setting is medieval and the tree is not. An interpretation board at the abbey says it was only planted in the late 19th century, and the Evening Post gives the same date, so call it about 130 years old. The board is probably the paper's source, so those two count as one account. A 2017 blog says the abbot's garden had a ginkgo, but the board does not back that up.\n\nThe board adds that many people believe the tree has medicinal properties. It presents that as popular belief, and so do we.\n\nKirkstall Abbey is run by Leeds Museums and Galleries and stands in a public park on the north bank of the River Aire. Check its opening times before you go, because we have not settled whether there is a charge. The pin is the Abbot's Lodging, not a fix at the trunk, and no source gives a girth or a height. If you have measured it, tell us.",
+      "story": "Every November a ginkgo outside the Abbot's Lodging at Kirkstall Abbey turns bright gold, and the local papers send photographers. The Yorkshire Evening Post ran its pictures on 17 November this year, and the West Leeds Dispatch did the same a year earlier.\n\nThe setting is medieval and the tree is not. An interpretation board at the abbey says it was only planted in the late 19th century, and the Evening Post gives the same date, so call it about 130 years old. The board is probably the paper's source, so those two count as one account. A 2017 blog says the abbot's garden had a ginkgo, but the board does not back that up.\n\nThe board adds that many people believe the tree has medicinal properties. It presents that as popular belief, and so do we.\n\nKirkstall Abbey is run by Leeds Museums and Galleries and stands in a public park on the north bank of the River Aire. Check its opening times before you go, because we have not settled whether there is a charge. No source gives a girth or a height. If you have measured it, tell us.",
       "how_to_recognise": "You can recognise it as the ginkgo standing outside the Abbot's Lodging at Kirkstall Abbey, a tree that turns bright gold in November.",
       "age_basis": "source",
       "transport": "",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/lds_003-kirkstall-abbey-ginkgo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_16d7943edfd395d2a903824f",
+        "sighting_id": "d229e334-6754-4887-9f4f-1bbee161a5e6",
+        "note": "Photographed by a reader and sent through the app (2022-11-25); a viewing pass approved it on 2026-11-24: The Kirkstall Abbey ginkgo in full gold among the abbey ruins, leaves fallen in a ring on the lawn; daylight, whole tree in frame. The tree had no photograph. Species seen: fan-shaped leaves turned clear butter-yellow, upright ginkgo crown with spreading lower limbs. Fits the description: a lone ginkgo standing on the lawn inside the ruined abbey buildings, bright gold in November, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d229e334-6754-4887-9f4f-1bbee161a5e6",
+        "moved_m": 43,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
