@@ -752,6 +752,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             openPage = { nav.push(app.ancienttrees.ui.Page.Discover(it)) },
             signedIn = { account.state is SignIn.SignedIn },
             token = { account.fresh()?.accessToken },
+            follow = { id, on ->
+                val me = account.session?.userId
+                val t = account.fresh()?.accessToken
+                me != null && t != null && (if (on) profiles.follow(id, me, t) else profiles.unfollow(id, me, t))
+            },
         )
 
     val settingsHost = app.ancienttrees.ui.SettingsHost(

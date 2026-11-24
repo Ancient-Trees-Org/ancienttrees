@@ -9,7 +9,11 @@
 // heart"), New above Earlier, the photograph at the row's end; a tap opens the
 // tree. Design: drafts/design-2026-11-22-heart-who/product.html.
 //
-// From the server (supabase/photo-hearts-who.sql my_photo_activity), read
+// Since 2026-11-24 a new follower too (Hidde: "Ja, bouw het"): "X started
+// following you." with Follow back, one row per person, never bundled
+// (drafts/design-2026-11-24-follow-activity).
+//
+// From the server (supabase/follow-activity.sql my_activity), read
 // each time the screen opens; opening it calls activity_seen(), which takes
 // the bell's dot away on every device. Nothing kept on the phone (hard rule 11).
 import SwiftUI
@@ -18,15 +22,22 @@ import SwiftUI
 final class ActivityStore {
     static let shared = ActivityStore()
 
+    /// One row of my_activity (supabase/follow-activity.sql): kind "heart"
+    /// (one per photograph, bundled) or "follow" (one per person who follows
+    /// you, with whether you follow them back; Hidde, 2026-11-24).
     struct Row: Decodable, Identifiable {
-        let photo_id: String
+        let kind: String?
+        let photo_id: String?
         let tree_id: String?
         let hearts: Int
         let latest_at: String
         let names: [String]?
         let avatars: [String]?
         let is_new: Bool
-        var id: String { photo_id }
+        let user_id: String?
+        let following: Bool?
+        var isFollow: Bool { kind == "follow" }
+        var id: String { isFollow ? "f-" + (user_id ?? latest_at) : (photo_id ?? latest_at) }
     }
 
     private(set) var rows: [Row] = []
@@ -36,13 +47,24 @@ final class ActivityStore {
 
     func load(token: String?, n: Int = 60) async {
         guard let token else { rows = []; fresh = false; return }
-        let r = Supa.request("/rest/v1/rpc/my_photo_activity", token: token, body: ["n": n])
+        let r = Supa.request("/rest/v1/rpc/my_activity", token: token, body: ["n": n])
         guard let (data, resp) = try? await Net.data(for: r),
               let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
               let got = try? JSONDecoder().decode([Row].self, from: data) else { return }
         rows = got
         loaded = true
         fresh = got.contains { $0.is_new }
+    }
+
+    /// Follow back, or take it back, from a follower's row: the pill moves at
+    /// once and goes back if the account refuses (People.swift toggle).
+    func setFollowing(_ on: Bool, for userId: String) {
+        rows = rows.map { r in
+            guard r.isFollow, r.user_id == userId else { return r }
+            return Row(kind: r.kind, photo_id: r.photo_id, tree_id: r.tree_id, hearts: r.hearts,
+                       latest_at: r.latest_at, names: r.names, avatars: r.avatars,
+                       is_new: r.is_new, user_id: r.user_id, following: on)
+        }
     }
 
     func seen(token: String?) async {
@@ -90,12 +112,13 @@ struct ActivityView: View {
     let catalogue: Catalogue
     @Environment(Account.self) private var account
     @Environment(Navigator.self) private var navigator
+    @Environment(Profiles.self) private var profiles
     private var store: ActivityStore { ActivityStore.shared }
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Hearts on your photographs.")
+                Text("Hearts on your photographs, and new followers.")
                     .font(.subheadline).foregroundStyle(Brand.inkSoft)
                     .padding(.horizontal, 16).padding(.bottom, 8)
                 let fresh = store.rows.filter(\.is_new)
@@ -103,7 +126,7 @@ struct ActivityView: View {
                 if !fresh.isEmpty { section("New", fresh) }
                 if !old.isEmpty { section("Earlier", old) }
                 if store.loaded && store.rows.isEmpty {
-                    Text("No hearts yet. When someone gives one of your photographs a heart, it shows here.")
+                    Text("Nothing yet. When someone gives one of your photographs a heart or follows you, it shows here.")
                         .font(.callout).foregroundStyle(Brand.inkSoft)
                         .padding(16)
                         .accessibilityIdentifier("activity-empty")
@@ -134,9 +157,70 @@ struct ActivityView: View {
         ForEach(rows) { row($0) }
     }
 
+    /// A NEW FOLLOWER (Hidde, 2026-11-24, "Ja, bouw het"; Instagram's
+    /// Activity, design drafts/design-2026-11-24-follow-activity): their face,
+    /// "X started following you.", and Follow back or Following at the end,
+    /// the pill Find people draws. The face and words open their profile.
+    @ViewBuilder private func followRow(_ r: ActivityStore.Row) -> some View {
+        let name = r.names?.first ?? "A visitor"
+        let on = r.following ?? false
+        HStack(spacing: 12) {
+            Button {
+                if let u = r.user_id { navigator.push = .person(u) }
+            } label: {
+                HStack(spacing: 12) {
+                    ActivityFace(name: name, avatar: r.avatars?.first.flatMap { $0.isEmpty ? nil : $0 })
+                        .frame(width: 44, height: 40)
+                    (Text((try? AttributedString(markdown: "**\(name)** started following you.")) ?? AttributedString(name))
+                     + Text("  " + (SentAgo.short(r.latest_at) ?? "")).foregroundColor(Brand.inkSoft))
+                        .font(.system(size: 14))
+                        .foregroundStyle(Brand.ink)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .multilineTextAlignment(.leading)
+                }
+                .contentShape(.rect)
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("activity-follow-open")
+            Button { toggle(r) } label: {
+                Text(on ? "Following" : "Follow back")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(on ? Brand.ink : .white)
+                    .padding(.horizontal, 14)
+                    .frame(minWidth: 96, minHeight: 34)
+                    .background(on ? Color.clear : Brand.moss, in: .capsule)
+                    .overlay { if on { Capsule().strokeBorder(Brand.hairline, lineWidth: 1) } }
+                    .frame(minHeight: 44)
+                    .contentShape(.rect)
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("activity-follow")
+        }
+        .padding(.horizontal, 16).padding(.vertical, 6)
+        .background(r.is_new ? Brand.moss.opacity(0.08) : .clear)
+        .accessibilityIdentifier("activity-row")
+    }
+
+    private func toggle(_ r: ActivityStore.Row) {
+        guard let other = r.user_id, let me = account.session?.userId else { return }
+        let was = r.following ?? false
+        store.setFollowing(!was, for: other)
+        Task {
+            guard let t = await account.freshToken() else { store.setFollowing(was, for: other); return }
+            let ok = was
+                ? await profiles.unfollow(other, me: me, token: t)
+                : await profiles.follow(other, me: me, token: t)
+            if !ok { store.setFollowing(was, for: other) }
+        }
+    }
+
     @ViewBuilder private func row(_ r: ActivityStore.Row) -> some View {
+        if r.isFollow { followRow(r) } else { heartRow(r) }
+    }
+
+    @ViewBuilder private func heartRow(_ r: ActivityStore.Row) -> some View {
         let tree = r.tree_id.flatMap { catalogue.tree($0) }
-        let shot = tree?.shots.first { $0.sighting == r.photo_id.lowercased() }
+        let shot = tree?.shots.first { $0.sighting == r.photo_id?.lowercased() }
         Button {
             if let t = tree { navigator.push = .tree(t.id) }
         } label: {

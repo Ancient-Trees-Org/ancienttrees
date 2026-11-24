@@ -2,7 +2,8 @@
 // behind the bell top right of Discover (Hidde, 2026-11-22: the bell "voor nu
 // is het ok"). Instagram's Activity: one row per photograph, bundled, New above
 // Earlier, the photograph at the row's end, a tap opens the tree. From
-// my_photo_activity() (supabase/photo-hearts-who.sql); opening it calls
+// my_activity() (supabase/follow-activity.sql; since 2026-11-24 a new follower
+// too, "X started following you." with Follow back); opening it calls
 // activity_seen(), so the dot goes on every device. Nothing kept on the phone.
 
 package app.ancienttrees.ui
@@ -49,6 +50,8 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 object ActivityStore {
+    /** One row of my_activity (supabase/follow-activity.sql): a heart (one per
+     *  photograph, bundled) or a new follower (Hidde, 2026-11-24), Activity.swift's Row. */
     data class Row(
         val photoId: String,
         val treeId: String?,
@@ -57,7 +60,19 @@ object ActivityStore {
         val names: List<String>,
         val avatars: List<String>,
         val isNew: Boolean,
-    )
+        val kind: String = "heart",
+        val userId: String? = null,
+        val following: Boolean = false,
+    ) {
+        val isFollow: Boolean get() = kind == "follow"
+        val key: String get() = if (isFollow) "f" + (userId ?: latestAt) else photoId
+    }
+
+    /** Follow back, or take it back: the pill moves at once (Activity.swift setFollowing). */
+    fun setFollowing(userId: String, on: Boolean) {
+        val i = rows.indexOfFirst { it.isFollow && it.userId == userId }
+        if (i >= 0) rows[i] = rows[i].copy(following = on)
+    }
 
     val rows = mutableStateListOf<Row>()
     var loaded by mutableStateOf(false)
@@ -66,15 +81,17 @@ object ActivityStore {
 
     suspend fun load(token: String?, n: Int = 60) {
         if (token == null) { rows.clear(); fresh = false; return }
-        val r = Supa.send("/rest/v1/rpc/my_photo_activity", token = token, body = JSONObject().put("n", n).toString())
+        val r = Supa.send("/rest/v1/rpc/my_activity", token = token, body = JSONObject().put("n", n).toString())
         if (!r.ok) return
         runCatching {
             val a = JSONArray(r.body)
             val got = (0 until a.length()).map { i ->
                 val o = a.getJSONObject(i)
                 fun list(k: String): List<String> = o.optJSONArray(k)?.let { arr -> (0 until arr.length()).map { arr.optString(it) } } ?: emptyList()
-                Row(o.getString("photo_id"), o.optString("tree_id").ifEmpty { null }, o.optInt("hearts"),
-                    o.optString("latest_at"), list("names"), list("avatars"), o.optBoolean("is_new"))
+                fun str(k: String): String? = if (o.isNull(k)) null else o.optString(k).ifEmpty { null }
+                Row(str("photo_id") ?: "", str("tree_id"), o.optInt("hearts"),
+                    o.optString("latest_at"), list("names"), list("avatars"), o.optBoolean("is_new"),
+                    kind = str("kind") ?: "heart", userId = str("user_id"), following = o.optBoolean("following"))
             }
             rows.clear(); rows.addAll(got)
             loaded = true
@@ -126,22 +143,22 @@ fun ActivityPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> Unit)
         PullRefresh({ val t = act.token(); ActivityStore.load(t); ActivityStore.seen(t) }) {
         LazyColumn(Modifier.fillMaxSize()) {
             item {
-                Text("Hearts on your photographs.", fontSize = 15.sp, color = brand.inkSoft,
+                Text("Hearts on your photographs, and new followers.", fontSize = 15.sp, color = brand.inkSoft,
                     modifier = Modifier.padding(horizontal = 16.dp).padding(bottom = 8.dp))
             }
             val fresh = ActivityStore.rows.filter { it.isNew }
             val old = ActivityStore.rows.filter { !it.isNew }
             if (fresh.isNotEmpty()) {
                 item { Day("New") }
-                items(fresh, key = { "n" + it.photoId }) { ActivityRow(it, catalogue, act) }
+                items(fresh, key = { "n" + it.key }) { ActivityRow(it, catalogue, act) }
             }
             if (old.isNotEmpty()) {
                 item { Day("Earlier") }
-                items(old, key = { "o" + it.photoId }) { ActivityRow(it, catalogue, act) }
+                items(old, key = { "o" + it.key }) { ActivityRow(it, catalogue, act) }
             }
             if (ActivityStore.loaded && ActivityStore.rows.isEmpty()) {
                 item {
-                    Text("No hearts yet. When someone gives one of your photographs a heart, it shows here.",
+                    Text("Nothing yet. When someone gives one of your photographs a heart or follows you, it shows here.",
                         fontSize = 15.sp, color = brand.inkSoft, modifier = Modifier.padding(16.dp))
                 }
             }
@@ -156,8 +173,67 @@ private fun Day(title: String) {
         modifier = Modifier.padding(start = 16.dp, top = 14.dp, bottom = 4.dp))
 }
 
+/** One face, the hearts row's 30 dp circle (Activity.swift ActivityFace). */
+@Composable
+private fun Face(name: String, avatar: String?) {
+    val brand = Brand.colors
+    Box(
+        Modifier.size(30.dp).clip(CircleShape).background(Color(0xFFE4EBD6)).border(2.dp, brand.ground, CircleShape),
+        contentAlignment = Alignment.Center,
+    ) {
+        if (avatar != null) RemoteImage(avatar, null, Modifier.fillMaxSize())
+        else Text(name.take(1).uppercase(), fontSize = 12.sp, fontWeight = FontWeight.Bold, color = brand.moss)
+    }
+}
+
+/** A NEW FOLLOWER (Hidde, 2026-11-24; Activity.swift followRow): their face,
+ *  "X started following you.", Follow back or Following, Find people's pill. */
+@Composable
+private fun FollowRow(r: ActivityStore.Row, act: DiscoverActions) {
+    val brand = Brand.colors
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    val name = r.names.firstOrNull() ?: "A visitor"
+    val words = buildAnnotatedString {
+        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(name) }
+        append(" started following you.  ")
+        withStyle(SpanStyle(color = brand.inkSoft)) { append(SentAgo.short(r.latestAt) ?: "") }
+    }
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .background(if (r.isNew) brand.moss.copy(alpha = 0.08f) else Color.Transparent)
+            .padding(horizontal = 16.dp, vertical = 6.dp)
+            .semantics { contentDescription = "activity-row" },
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        Row(
+            Modifier.weight(1f).clickable { r.userId?.let { act.openPerson(it) } }.padding(vertical = 4.dp)
+                .semantics { contentDescription = "activity-follow-open" },
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Box(Modifier.size(44.dp, 40.dp), contentAlignment = Alignment.Center) {
+                Face(name, r.avatars.firstOrNull()?.ifEmpty { null })
+            }
+            Text(words, fontSize = 14.sp, color = brand.ink, modifier = Modifier.weight(1f))
+        }
+        val on = r.following
+        FollowPill(
+            if (on) androidx.compose.ui.res.stringResource(app.ancienttrees.R.string.people_following_state)
+            else androidx.compose.ui.res.stringResource(app.ancienttrees.R.string.people_follow_back),
+            on, "activity-follow",
+        ) {
+            val id = r.userId ?: return@FollowPill
+            ActivityStore.setFollowing(id, !on)
+            scope.launch { if (!act.follow(id, !on)) ActivityStore.setFollowing(id, on) }
+        }
+    }
+}
+
 @Composable
 private fun ActivityRow(r: ActivityStore.Row, catalogue: Catalogue, act: DiscoverActions) {
+    if (r.isFollow) { FollowRow(r, act); return }
     val brand = Brand.colors
     val tree = r.treeId?.let { catalogue.tree(it) }
     val shot = tree?.shots?.firstOrNull { it.sighting == r.photoId.lowercase() } ?: tree?.photo

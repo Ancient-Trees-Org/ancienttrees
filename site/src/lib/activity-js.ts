@@ -15,6 +15,7 @@ export function activityWords(lang: string) {
   return {
     one: u.activityOne, two: u.activityTwo, more: u.activityMore,
     fresh: u.activityNew, earlier: u.activityEarlier, empty: u.activityEmpty, anon: u.noteVisitor,
+    follow: u.activityFollow, back: u.activityFollowBack, following: u.activityFollowing,
   };
 }
 
@@ -34,12 +35,13 @@ export function bellDropJs(lang: string, sb: string, key: string, agoFn: string)
   var bell = document.getElementById('bar-bell'), drop = document.getElementById('bell-drop');
   if (!bell || !drop) return;
   var list = drop.querySelector('.act-list'), cards = null;
+  atActFollowBind(drop, SB, KEY);
   function close() { drop.hidden = true; bell.setAttribute('aria-expanded', 'false'); }
   function open(s) {
     drop.hidden = false; bell.setAttribute('aria-expanded', 'true');
     list.innerHTML = '<li class="act-wait"><span class="vp-spin" role="status"></span></li>';
     var h = { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' };
-    var rows = fetch(SB + '/rest/v1/rpc/my_photo_activity', { method: 'POST', headers: h, body: '{"n":6}' })
+    var rows = fetch(SB + '/rest/v1/rpc/my_activity', { method: 'POST', headers: h, body: '{"n":6}' })
       .then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
     var cs = cards ? Promise.resolve(cards) : fetch('/api/visitor-cards.json')
       .then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; });
@@ -87,7 +89,21 @@ export const ACTIVITY_ROWS_FN = `
       }
       return out;
     }
+    // A NEW FOLLOWER (Hidde, 2026-11-24, "Ja, bouw het"; Instagram's Activity
+    // row: their face, "X started following you.", Follow back or Following at
+    // the end). The face and name open their profile; the pill follows back.
+    function followRow(r) {
+      var names = r.names || [], id = String(r.user_id || '');
+      var a = '<b>' + esc(names[0] || W.anon) + '</b>';
+      var on = !!r.following;
+      return '<li class="act-li-follow"><a class="act-row act-follow' + (r.is_new ? ' is-new' : '') + '" href="/profile?u=' + encodeURIComponent(id) + '">'
+        + '<span class="act-faces is-one">' + faces(r) + '</span>'
+        + '<span class="act-text">' + W.follow.replace('{a}', a) + ' <span class="act-when">' + esc(atAgo(r.latest_at, false)) + '</span></span>'
+        + '</a><button type="button" class="act-pill' + (on ? ' on' : '') + '" data-id="' + esc(id) + '" data-back="' + esc(W.back) + '" data-following="' + esc(W.following) + '" aria-pressed="' + (on ? 'true' : 'false') + '">'
+        + esc(on ? W.following : W.back) + '</button></li>';
+    }
     function row(r) {
+      if (r.kind === 'follow') return followRow(r);
       var c = cards[r.tree_id] || null;
       var img = c ? (c.s[String(r.photo_id).toLowerCase()] || c.p) : '';
       return '<li><a class="act-row' + (r.is_new ? ' is-new' : '') + '" href="' + esc(c ? c.u : '#') + '">'
@@ -102,5 +118,33 @@ export const ACTIVITY_ROWS_FN = `
     if (fresh.length) html += '<li class="act-day">' + esc(W.fresh) + '</li>' + fresh.map(row).join('');
     if (old.length) html += '<li class="act-day">' + esc(W.earlier) + '</li>' + old.map(row).join('');
     return html || '<li class="act-empty">' + esc(W.empty) + '</li>';
+  }
+  // Follow back and Following on a follower's row, the people sheet's write
+  // (people-js.ts): the pill moves at once, and goes back if the account
+  // refuses. Bound once on the list's container; rows are repainted freely.
+  function atActFollowBind(root, SB, KEY) {
+    root.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('.act-pill');
+      if (!b) return;
+      e.preventDefault();
+      var C = window.atCollection, id = b.getAttribute('data-id');
+      if (!C || !C.gate || !id) return;
+      C.gate(function (s) {
+        var me = s.user && s.user.id;
+        if (!me) return;
+        var on = b.classList.contains('on');
+        var h = { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' };
+        function set(v) {
+          b.classList.toggle('on', v); b.setAttribute('aria-pressed', v ? 'true' : 'false');
+          b.textContent = b.getAttribute(v ? 'data-following' : 'data-back');
+        }
+        set(!on); b.disabled = true;
+        var req = on
+          ? fetch(SB + '/rest/v1/follows?follower=eq.' + me + '&followee=eq.' + id, { method: 'DELETE', headers: h })
+          : fetch(SB + '/rest/v1/follows', { method: 'POST', headers: h, body: JSON.stringify({ follower: me, followee: id }) });
+        req.then(function (r) { b.disabled = false; if (!r.ok) set(on); })
+          .catch(function () { b.disabled = false; set(on); });
+      }, function () { if (window.atOpenSignIn) window.atOpenSignIn(); });
+    });
   }
 `;

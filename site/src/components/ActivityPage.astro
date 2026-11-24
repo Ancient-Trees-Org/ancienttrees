@@ -1,5 +1,7 @@
 ---
-// /activity: the hearts other people gave your photographs (Hidde,
+// /activity: the hearts other people gave your photographs, and since
+// 2026-11-24 who started following you, with Follow back (my_activity(),
+// supabase/follow-activity.sql; design drafts/design-2026-11-24-follow-activity). (Hidde,
 // 2026-11-22: "kun je ook zien als je een hartje krijgt wie je dat heeft
 // gegeven?"; the bell "voor nu is het ok"; he expects a real activity feed
 // with the people you follow later, in the menu). Convention: Instagram's
@@ -37,9 +39,10 @@ const js = `<script>
   var list = document.getElementById('act-list');
   ${ACTIVITY_ROWS_FN}
   function paint(rows) { list.innerHTML = atActRows(rows, cards, W); }
+  atActFollowBind(list, SB, KEY);
   function go(s) {
     var h = { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' };
-    fetch(SB + '/rest/v1/rpc/my_photo_activity', { method: 'POST', headers: h, body: '{"n":60}' })
+    fetch(SB + '/rest/v1/rpc/my_activity', { method: 'POST', headers: h, body: '{"n":60}' })
       .then(function (r) { return r.ok ? r.json() : []; })
       .then(function (rows) {
         paint(rows || []);

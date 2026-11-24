@@ -1569,6 +1569,15 @@ a.nfv-who:hover .nfv-name, button.nfv-who:hover .nfv-name { text-decoration: und
 .act-text { flex: 1; min-width: 0; font-size: 14px; line-height: 1.4; }
 .act-when { color: var(--ink-light); }
 .act-ph { flex: none; width: 48px; height: 48px; object-fit: cover; border-radius: 8px; }
+/* A new follower: Follow back at the row's end, the people sheet's pill
+   (.people-pill), laid over the row so the row itself stays one link. */
+.act-li-follow { position: relative; }
+.act-li-follow .act-row { padding-right: calc(var(--page-pad) + 120px); }
+.act-pill { position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 34px; min-width: 96px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--moss); background: var(--moss); color: #fff; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.act-pill.on { background: transparent; border-color: #D3D1C8; color: var(--ink); }
+.act-pill:disabled { opacity: 0.55; }
+.bell-drop .act-li-follow .act-row { padding-right: 136px; }
+.bell-drop .act-pill { right: 16px; }
 .act-empty, .act-wait { color: var(--ink-mid); padding: 12px 0; }
 .vp-page { max-width: var(--page-max); margin: 0 auto; padding: calc(var(--header-h) + 2.25rem) var(--page-pad) 3.5rem; }
 .vp-page h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 0.4rem; }

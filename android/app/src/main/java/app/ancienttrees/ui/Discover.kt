@@ -139,6 +139,8 @@ class DiscoverActions(
     val signedIn: () -> Boolean = { false },
     /** Your session's token, fresh, or null signed out (account.freshToken()). */
     val token: suspend () -> String? = { null },
+    /** Follow (true) or unfollow (false) somebody; true when the account took it (Activity's Follow back). */
+    val follow: suspend (userId: String, on: Boolean) -> Boolean = { _, _ -> false },
 )
 
 /** One page pushed on Discover's own stack: a list, or a See all. */

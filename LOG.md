@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 session: a new follower shows in Activity
+
+- Live on the server now, web on the next deploy, apps in their next build: whoever follows you appears in Activity (the bell) as "X started following you." with Follow back or Following, Instagram's row; the bell's dot lights for it. Before, a new follower was told nothing at all. Asked by Hidde, design approved ("Ja, bouw het").
+- Server: `my_activity()` (supabase/follow-activity.sql), run on Supabase through the Management API; it returns hearts and followers in one list. `my_photo_activity` stays for app builds already out (their bell lights only for hearts). No new data: follows already carried their date.
+- Checked: iPhone simulator signed in as apptest with a temporary follow from our +1 account (removed afterwards); the web row rendered from the real style.css and row code at 375 px; Android compiles. 75 follows between 43 people today.
+
 ## 2026-11-24 session: US local press, two rounds of 25
 
 - **Why** (Hidde: "teleurgesteld dat we geen enkele reactie uit de US hebben"): US readers are second only to the UK (41 trees, 123 photos since 11-10), but about 30 US press pitches after the Guardian got no answer, while Irish, Australian and Canadian desks did. Reading: the "Dutch designer" angle is not local news in the US. Hidde chose to try more US papers with the same mail plus one local tree in the P.S.

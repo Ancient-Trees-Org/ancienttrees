@@ -654,7 +654,8 @@ window.atPaintFace = function(inNow) {
   } catch (e) {}
 };
 // THE BELL (2026-11-22): shown signed in; the dot when the server says a
-// heart came after you last opened Activity (supabase/photo-hearts-who.sql).
+// heart or a follower came after you last opened Activity
+// (supabase/follow-activity.sql my_activity, 2026-11-24).
 window.atPaintBell = function(inNow) {
   var bell = document.getElementById('bar-bell');
   if (!bell) return;
@@ -664,7 +665,7 @@ window.atPaintBell = function(inNow) {
   if (!inNow) return;
   try {
     var s = JSON.parse(localStorage.getItem('ancienttrees_session'));
-    fetch(faceSB + '/rest/v1/rpc/my_photo_activity', { method: 'POST',
+    fetch(faceSB + '/rest/v1/rpc/my_activity', { method: 'POST',
           headers: { 'apikey': faceKey, 'Authorization': 'Bearer ' + s.access_token, 'Content-Type': 'application/json' },
           body: '{"n":5}' })
       .then(function(r) { return r.ok ? r.json() : []; })

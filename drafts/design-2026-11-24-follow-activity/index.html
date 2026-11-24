@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nieuwe volger in Activity</title>
+<link rel="stylesheet" href="https://ancienttrees.app/assets/style.css">
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<style>
+  :root { --ink: #2b2b24; --ink-mid: #5c5c52; --ink-light: #8a8a7e; --moss: #4A6B2A; }
+  body { background: var(--cream, #faf7f0); font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); margin: 0; }
+  .mk { max-width: 1240px; margin: 0 auto; padding: 32px 16px 80px; }
+  .mk h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+  .mk h2 { font-size: 21px; font-weight: 800; margin: 44px 0 6px; padding-top: 22px; border-top: 1px solid rgba(38,48,30,.12); }
+  .lede { color: var(--ink-mid); max-width: 780px; font-size: 15px; line-height: 1.55; }
+  .row { display: flex; gap: 22px; flex-wrap: wrap; align-items: flex-start; margin-top: 16px; }
+  .lab { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-light); margin-bottom: 8px; }
+  .lab.new { color: var(--moss); }
+  .note { font-size: 13px; color: var(--ink-mid); margin-top: 10px; line-height: 1.45; max-width: 280px; }
+  .fa { flex: 0 0 auto; border-radius: 50%; display: grid; place-items: center; font-weight: 700; }
+  .c1 { background: #e9dfcf; color: #8a6a3a; } .c2 { background: #dfe6ef; color: #47617f; } .c3 { background: #e4ebd6; color: #4a6b2a; } .c4 { background: #efe0e0; color: #8a4a4a; }
+
+  /* phone frame, same as the 2026-11-22 heart design */
+  .app { width: 280px; height: 609px; background: #fff; border-radius: 30px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.16); position: relative; }
+  .app.web { border-radius: 14px; height: auto; padding-bottom: 14px; }
+  .app .top { display: flex; align-items: center; padding: 44px 14px 10px; }
+  .app .back { width: 34px; height: 34px; border-radius: 50%; background: #fff; box-shadow: 0 1px 8px rgba(0,0,0,.1); display: grid; place-items: center; font-size: 15px; }
+  .app .top b { flex: 1; text-align: center; font-size: 15px; font-weight: 800; margin-right: 34px; }
+  .app .intro { font-size: 12px; color: var(--ink-mid); padding: 0 14px 4px; margin: 0; }
+  .app .day { font-size: 12.5px; font-weight: 800; padding: 10px 14px 4px; }
+  .wbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid rgba(38,48,30,.08); font-size: 13px; font-weight: 800; color: var(--moss); }
+  .wbar .me { width: 26px; height: 26px; font-size: 11px; }
+  .app.web h3 { font-size: 22px; font-weight: 800; margin: 16px 14px 2px; }
+
+  .act { display: flex; align-items: center; gap: 9px; padding: 9px 14px; }
+  .act.new { background: #f1f5ea; }
+  .faces { position: relative; width: 38px; height: 34px; flex: 0 0 auto; }
+  .faces .fa { position: absolute; width: 26px; height: 26px; font-size: 10.5px; border: 2px solid #fff; }
+  .faces .fa:first-child { left: 0; top: 0; } .faces .fa:last-child { left: 12px; top: 9px; }
+  .faces.one .fa { width: 34px; height: 34px; left: 0; top: 0; font-size: 13px; }
+  .act p { margin: 0; flex: 1; font-size: 12px; line-height: 1.38; color: var(--ink); }
+  .act p small { color: var(--ink-light); }
+  .act img { width: 40px; height: 40px; object-fit: cover; border-radius: 7px; flex: 0 0 auto; }
+  .fb { flex: 0 0 auto; font-size: 11.5px; font-weight: 700; padding: 7px 12px; border-radius: 999px; background: var(--moss); color: #fff; white-space: nowrap; }
+  .fb.on { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px rgba(38,48,30,.22); }
+  .ring { outline: 2px dashed #e5b54a; outline-offset: -3px; }
+
+  /* reference wireframe */
+  .ref { width: 280px; background: #fff; border-radius: 14px; box-shadow: 0 2px 12px rgba(0,0,0,.10); padding: 10px 0; }
+  .ref .act p { font-size: 12px; }
+  .ref .fb { background: #4a5bd8; } .ref .fb.on { background: #efefef; box-shadow: none; }
+  .ref .sq { width: 40px; height: 40px; border-radius: 4px; background: #d9d9d9; flex: 0 0 auto; }
+
+  table { border-collapse: collapse; margin-top: 14px; max-width: 900px; font-size: 14px; }
+  td, th { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid rgba(38,48,30,.1); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-light); }
+</style>
+</head>
+<body>
+<main class="mk">
+<h1>"Is je gaan volgen" in Activity</h1>
+<p class="lede">Nu ziet niemand dat hij een nieuwe volger heeft. Voorstel: dezelfde Activity-lijst achter de bel waar de hartjes al staan, met per volger één regel en een knop om terug te volgen. Geen pushbericht en geen mail, zoals bij de hartjes. Gele stippellijn = de nieuwe regels.</p>
+
+<h2>Referentie: Instagram</h2>
+<div class="row">
+  <div>
+    <div class="lab">Instagram Activity (uit geheugen, schets)</div>
+    <div class="ref">
+      <div class="act"><span class="faces one"><span class="fa c2">S</span></span><p><b>sam_t</b> started following you. <small>2h</small></p><span class="fb">Follow back</span></div>
+      <div class="act"><span class="faces one"><span class="fa c1">A</span></span><p><b>anna.k</b> started following you. <small>1d</small></p><span class="fb on">Following</span></div>
+      <div class="act"><span class="faces"><span class="fa c3">M</span><span class="fa c4">L</span></span><p><b>miguel</b> and <b>3 others</b> liked your photo. <small>1d</small></p><span class="sq"></span></div>
+    </div>
+    <p class="note">Een volger staat in dezelfde lijst als de likes. Aan het eind van de regel: <b>Follow back</b> (gevuld) als jij die persoon nog niet volgt, anders <b>Following</b>. Tik op de naam = profiel. Strava doet hetzelfde ("Notify me when someone follows me"), met een schakelaar in de instellingen.</p>
+  </div>
+</div>
+
+<h2>iPhone en Android</h2>
+<div class="row">
+  <div>
+    <div class="lab new">Nieuw: Activity</div>
+    <div class="app">
+      <div class="top"><span class="back"><i class="ph-bold ph-caret-left"></i></span><b>Activity</b></div>
+      <p class="intro">Hearts on your photographs, and new followers.</p>
+      <div class="day">New</div>
+      <div class="act new ring"><span class="faces one"><span class="fa c2">S</span></span><p><b>Sam T.</b> started following you. <small>2h</small></p><span class="fb">Follow back</span></div>
+      <div class="act new"><span class="faces"><span class="fa c1">M</span><span class="fa c2">R</span></span><p><b>Miguel P.</b> and <b>2 others</b> gave your photograph of the Oak in Hunebed D42 a heart. <small>3h</small></p><img src="https://ancienttrees.app/photos/emm_002-the-oak-in-hunebed-d42-184fee5d-500.jpg" alt=""></div>
+      <div class="day">Earlier</div>
+      <div class="act ring"><span class="faces one"><span class="fa c3">A</span></span><p><b>Anna K.</b> started following you. <small>3d</small></p><span class="fb on">Following</span></div>
+      <div class="act"><span class="faces"><span class="fa c3">A</span><span class="fa c2">L</span></span><p><b>Anna K.</b> and <b>Leon W.</b> gave your photograph of the Copper Beech of Nieuw-Schoonebeek a heart. <small>3d</small></p><img src="https://ancienttrees.app/photos/emm_005-the-copper-beech-of-nieuw-schoonebeek-500.jpg" alt=""></div>
+      <div class="act"><span class="faces one"><span class="fa c4">R</span></span><p><b>Rooted Pine 0518</b> started following you. <small>2w</small></p><span class="fb">Follow back</span></div>
+    </div>
+    <p class="note">Hartjes en volgers door elkaar, nieuwste boven. Tik op de regel = hun profiel. Tik op <b>Follow back</b> = je volgt ze, de knop wordt <b>Following</b> (dezelfde knop als in Find people).</p>
+  </div>
+  <div>
+    <div class="lab new">Nieuw: leeg</div>
+    <div class="app">
+      <div class="top"><span class="back"><i class="ph-bold ph-caret-left"></i></span><b>Activity</b></div>
+      <p class="intro">Hearts on your photographs, and new followers.</p>
+      <p class="intro" style="padding-top:14px;font-size:12.5px">Nothing yet. When someone gives one of your photographs a heart or follows you, it shows here.</p>
+    </div>
+    <p class="note">Was: "No hearts yet. When someone gives one of your photographs a heart, it shows here."</p>
+  </div>
+</div>
+
+<h2>Website (telefoon, 375 breed)</h2>
+<div class="row">
+  <div>
+    <div class="lab new">Nieuw: /activity</div>
+    <div class="app web">
+      <div class="wbar">Ancient Trees <span class="fa c3 me">H</span></div>
+      <h3>Activity</h3>
+      <p class="intro">Hearts on your photographs, and new followers.</p>
+      <div class="day">New</div>
+      <div class="act new ring"><span class="faces one"><span class="fa c2">S</span></span><p><b>Sam T.</b> started following you. <small>2h</small></p><span class="fb">Follow back</span></div>
+      <div class="act new"><span class="faces"><span class="fa c1">M</span><span class="fa c2">R</span></span><p><b>Miguel P.</b> and <b>2 others</b> gave your photograph of the Oak in Hunebed D42 a heart. <small>3h</small></p><img src="https://ancienttrees.app/photos/emm_002-the-oak-in-hunebed-d42-184fee5d-500.jpg" alt=""></div>
+      <div class="day">Earlier</div>
+      <div class="act ring"><span class="faces one"><span class="fa c3">A</span></span><p><b>Anna K.</b> started following you. <small>3d</small></p><span class="fb on">Following</span></div>
+    </div>
+    <p class="note">Dezelfde regels, op de bestaande pagina achter je gezicht. Het stipje op je gezicht en op de bel gaat aan bij een nieuwe volger, net als bij een hartje.</p>
+  </div>
+</div>
+
+<h2>Keuzes</h2>
+<table>
+  <tr><th>Vraag</th><th>Voorstel</th><th>Waarom</th></tr>
+  <tr><td>Eén regel per volger, of gebundeld ("Sam T. en 3 anderen")?</td><td>Eén per volger</td><td>Dan heeft elke regel zijn eigen Follow back. Met 4 volgrelaties in totaal komt bundelen nog lang niet aan bod.</td></tr>
+  <tr><td>Iemand ontvolgt je</td><td>Regel verdwijnt, geen melding</td><td>Strava en Instagram melden een ontvolging nooit.</td></tr>
+  <tr><td>Ontvolgen en opnieuw volgen</td><td>Eén regel, met de nieuwste tijd</td><td>Wie aan en uit klikt, kan zo niemand bestoken.</td></tr>
+  <tr><td>Pushbericht of mail</td><td>Nee, alleen het stipje</td><td>Net als bij de hartjes. Pushberichten bestaan nog niet in de app.</td></tr>
+  <tr><td>Nieuwe gegevens?</td><td>Nee</td><td>Wie je volgt en wanneer staat al in de tabel <code>follows</code>; je volgerslijst laat die namen al zien.</td></tr>
+</table>
+</main>
+</body>
+</html>
