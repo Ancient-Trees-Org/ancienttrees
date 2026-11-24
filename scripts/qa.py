@@ -1425,6 +1425,41 @@ def check_one_mail_route_rule():
     return out
 
 
+def check_no_script_mails_through_google():
+    """No script mails through a Google mailbox (Hidde, 2026-11-23 and
+    2026-11-24: Google blocked his Gmail after a week of machine mail through
+    it, and the next day the night run still sent 100 through Workspace).
+    GOOGLE_ROUTE stays False in scripts/mailer.py, outreach_send.py opens
+    mailer with google=False, and no script outside mailer.py passes
+    google=True or opens its own SMTP connection. Only the sign-in hook in
+    supabase/ keeps Gmail as a fallback when Resend is down. Flipping
+    GOOGLE_ROUTE or removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    out = []
+    py = (root / "scripts" / "mailer.py").read_text(encoding="utf-8")
+    if not re.search(r"^GOOGLE_ROUTE = False\s*$", py, re.M):
+        out.append("scripts/mailer.py must say GOOGLE_ROUTE = False (no script mails "
+                   "through Google; flipping it needs Hidde)")
+    send = (root / "scripts" / "outreach_send.py").read_text(encoding="utf-8")
+    calls = re.findall(r"mailer\.connect\((?:[^()]|\([^()]*\))*\)", send)
+    if not calls:
+        out.append("outreach_send.py no longer calls mailer.connect; check its route by hand")
+    for call in calls:
+        if "google=False" not in call:
+            out.append("outreach_send.py calls %s without google=False" % " ".join(call.split()))
+    skip = {"mailer.py", "qa.py", "test_mailer.py"}
+    for f in sorted((root / "scripts").rglob("*.py")):
+        if f.name in skip:
+            continue
+        src = f.read_text(encoding="utf-8", errors="ignore")
+        rel = f.relative_to(root)
+        if re.search(r"google\s*=\s*True", src):
+            out.append("%s passes google=True to the mailer (no script mails through Google)" % rel)
+        if re.search(r"smtplib\.SMTP(_SSL)?\(", src):
+            out.append("%s opens its own SMTP connection; mail goes through mailer.py" % rel)
+    return out
+
+
 def check_one_email_domain_list():
     """"Did you mean ...?" under the email field (Hidde, 2026-11-16; CONVENTIONS.md
     "A mistyped email address") runs on three surfaces from one list,
@@ -4949,6 +4984,7 @@ def main():
         check_no_daily_cap_on_reader_mail,
         check_a_website_tree_says_approved_on_my_trees,
         check_one_mail_route_rule,
+        check_no_script_mails_through_google,
         check_one_email_domain_list,
         check_a_readers_words_go_public_only_after_the_field_said_so,
         check_a_pull_keeps_unpushed_send_lines,
