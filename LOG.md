@@ -7,6 +7,10 @@
 - Left as it was: lead 3c544597 (Amsterdam) is `mine` (our own account) and its photo is not on disk, so the run did not judge it.
 - No feedback waiting, and reader_words was empty. preflight 0, qa source clean, i18ncheck it/verona clean.
 
+## 2026-11-24 session: Search Console back, under hidde@ancienttrees.app
+
+Google disabled the old Gmail, which killed the GSC and GA refresh tokens (token endpoint 400). Search Console: Domain property ancienttrees.app added under hidde@ancienttrees.app, verified automatically by the existing DNS TXT, all 16 months of history there. Cloud project "Ancient Trees" (ancient-trees-515618): Search Console API and Analytics Data API enabled, Desktop OAuth client "Digest" made. New GSC_CLIENT_ID / GSC_CLIENT_SECRET / GSC_REFRESH_TOKEN minted with `scripts/ga_auth.py --gsc` (new flag), in ~/.ancienttrees-gsc.env and the GitHub secrets; a test read 14 to 22 Nov fine. Still open: Google Analytics needs a new GA4 property (the old one cannot be handed over), then a new tag in site-config.ts and `ga_auth.py` with the same client file.
+
 ## 2026-11-24 night run (window from 11:55 UTC): nothing to ship
 
 Rung 1: no reader backlog; read the 11 new tree notes, none on the closed hide list, marked seen. One unmapped reader photo (3c544597, Amsterdam) is the reader judge's. Rung 2: health.py flagged the 11:32 build failure, but the India and South Africa description fix and later builds were already running; no new fault found. Code audit has one open row, a UX row (not a run's). Own research is paused; `reader_words`, `recognise --stuck` and enrich are empty; pagegaps only lists species pages under the strict cut. The 4 READY leads (Leamington Spa, York, Guimaraes) only have a verify brief, not a write path, so nothing was written. Nothing committed except this entry.
