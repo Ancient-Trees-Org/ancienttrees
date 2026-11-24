@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 reader judge: a full-size reader photograph now leads the Palermo fig
+
+- **Palermo, pal_001 The Ficus of Piazza Marina** (app, one reader, sightings d9c64779 and a41fc623, taken 2026-10-20). Both files were opened and they are the same photograph, sent twice. It shows the whole colonnade of aerial-root trunks under the crown, from inside the garden, in daylight and colour. The species and description match. d9c64779 goes on as `add`: it is now the lead photograph (1200x1600, filed as October, its own month), and the earlier small reader photo (579x833) moves into the strip. a41fc623 is rejected as a duplicate. The pin move could not read coordinates (HTTPError). pal_001's pin was left as it is.
+- Left alone again: the 38 waiting leads in _sightings.json, all from our own account (`mine`) with no photo on disk, 3c544597 among them. There were no open reports, feedback or tips, and reader_words had nothing to place. qa source clean, preflight 0, i18ncheck clean.
+
 ## 2026-11-24 reader judge: two old oaks in the Castle Howard car park live
 
 - **Castle Howard (new two-tree place, North Yorkshire), cah_001 The Broken Oak of the Castle Howard Car Park and cah_002 The Twisting Oak of the Castle Howard Car Park** (app, one reader, sightings f7d1128b and 09bc8573, each with GPS from the photo itself, about 60 m apart). Photographs viewed. cah_001 has a broad fluted trunk whose top broke off, with a whole new crown grown sideways from one limb, beside the footpath. cah_002 is a short, massive, ivy-clad trunk among parked cars, its limbs bending, doubling back and crossing. Both are clearly veterans and seen without a ticket. The reader gave no name, species, age or girth, so the species stays "Oak (Quercus sp.)" and the page asks for figures. Both photos are filed as November, their own month. The reader also sent three extra photos with f7d1128b. One shows cah_002 again; two show other big oaks in the same car park. Extras are never published, so those two are noted in verify_notes for a later look. No register entry and no source within 100 m; a reader's tree needs neither.

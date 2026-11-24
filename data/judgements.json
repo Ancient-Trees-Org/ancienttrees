@@ -1128,6 +1128,74 @@
    "agreed": null
   },
   {
+   "id": "sight:f7d1128b-0fa1-443a-84eb-6d78c0625404",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Broken Oak of the Castle Howard Car Park",
+   "photo": "p_a46a552e6ad9aa21ccff4426/F7D1128B-0FA1-443A-84EB-6D78C0625404.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the broken-topped oak with its new crown by the footpath in the Castle Howard car park, overcast daylight, colour. Live as castle-howard/cah_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:09bc8573-e772-4d62-bfc1-7b4647f4d2ad",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Twisting Oak of the Castle Howard Car Park",
+   "photo": "p_a46a552e6ad9aa21ccff4426/09BC8573-E772-4D62-BFC1-7B4647F4D2AD.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the twisting, ivy-clad oak among the parked cars at Castle Howard, overcast daylight, colour. Live as castle-howard/cah_002 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:d9c64779-8637-49ca-b6ec-f3ce13842d8a",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Ficus of Piazza Marina",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/d9c64779-8637-49ca-b6ec-f3ce13842d8a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 23,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "publish",
+   "reason": "On The Ficus of Piazza Marina (Palermo) as its lead photograph: the whole colonnade of aerial-root trunks in daylight, full-size; the earlier small reader photo moved into the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a41fc623-213a-4f75-a6c7-27846610d281",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Ficus of Piazza Marina",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/a41fc623-213a-4f75-a6c7-27846610d281.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 23,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate of sight:d9c64779 (the same photograph sent twice by the same reader); that copy is on the page",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -28094,30 +28162,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f7d1128b-0fa1-443a-84eb-6d78c0625404",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Broken Oak of the Castle Howard Car Park",
-   "photo": "p_a46a552e6ad9aa21ccff4426/F7D1128B-0FA1-443A-84EB-6D78C0625404.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the broken-topped oak with its new crown by the footpath in the Castle Howard car park, overcast daylight, colour. Live as castle-howard/cah_001 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:09bc8573-e772-4d62-bfc1-7b4647f4d2ad",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Twisting Oak of the Castle Howard Car Park",
-   "photo": "p_a46a552e6ad9aa21ccff4426/09BC8573-E772-4D62-BFC1-7B4647F4D2AD.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the twisting, ivy-clad oak among the parked cars at Castle Howard, overcast daylight, colour. Live as castle-howard/cah_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

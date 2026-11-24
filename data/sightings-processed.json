@@ -7643,6 +7643,23 @@
   "09bc8573-e772-4d62-bfc1-7b4647f4d2ad": {
    "outcome": "published",
    "date": "2026-11-24"
+  },
+  "d9c64779-8637-49ca-b6ec-f3ce13842d8a": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "pal_001",
+   "city_slug": "palermo",
+   "file": "pal_001-the-ficus-of-piazza-marina-d9c64779.jpg",
+   "reason": "The Piazza Marina fig whole, from inside the garden: the colonnade of fused aerial-root trunks under the broad crown, a palm and the square's pale buildings behind the railings. Daylight, colour, the tree fills the frame; a full-size file that beats the small reader lead it replaces. Species seen: F",
+   "lat": 38.1173666666667,
+   "lon": 13.3694133333333,
+   "pin_checked": "2026-11-24"
+  },
+  "a41fc623-213a-4f75-a6c7-27846610d281": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "pal_001",
+   "reason": "Duplicate: the same file as d9c64779 from the same reader, sent twice; that copy goes on the page."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

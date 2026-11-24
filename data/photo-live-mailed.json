@@ -2573,7 +2573,17 @@
   },
   "p_93268936c7d94f408d689cef": {
    "last": "2026-11-20",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "d9c64779-8637-49ca-b6ec-f3ce13842d8a",
+     "tree_id": "pal_001",
+     "tree_name": "The Ficus of Piazza Marina",
+     "city": "Palermo",
+     "city_slug": "palermo",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "808db90d-fc21-4413-a407-fc01effd1aff",
