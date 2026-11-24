@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: the second Tsagarada reader's trunk photograph leads
+
+- **Product**: The Plane of Agia Paraskevi (tsagarada/tsg_001) now leads with the second reader's photograph (sighting 17ff735e): the huge double trunk in its stone bed at night, with a person and dogs for scale. The first reader's lead moved into the gallery. A parallel run (4f6167146) had already taken the same reader's wide view (03cf52a9), the age note and the app's comma fix, so this run added only the trunk frame.
+- No waiting leads, no open reports, no open feedback.
+
 ## 2026-11-24 reader judge: the Colchester oak is the Wivenhoe Whopper; an app age bug a reader caught
 
 - **Colchester, cls_001**: a reader's two reports pointed to Woodland Trust Ancient Tree Inventory record 177493, the "Wivenhoe Whopper". Read it: pedunculate oak, lapsed pollard, alive, 9.10 m at 1.30 m, grid TM0306224237, 25 m from our pin, so the same tree. The page now has the local name, the register link, `girth_cm` 910 (the recorder's later 8.57 m in the story), the register as source, the register's access line, and "about 300 to 800 years, by readers' estimates". Intro, question answer and context, and FAQ follow it. Reports 1000136 and 1000137 closed `holds` with no mail, because they carry the reader's own words. Suggested reply in drafts/reply-reader-1000137-2026-11-24.md.

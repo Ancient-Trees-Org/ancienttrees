@@ -3213,6 +3213,15 @@
      "city_slug": "tsagarada",
      "display_name": null,
      "live": "2026-11-24"
+    },
+    {
+     "sighting_id": "17ff735e-17dc-4bb7-96b3-e2323b355f4c",
+     "tree_id": "tsg_001",
+     "tree_name": "The Plane of Agia Paraskevi",
+     "city": "Tsagarada",
+     "city_slug": "tsagarada",
+     "display_name": null,
+     "live": "2026-11-24"
     }
    ],
    "sent": []

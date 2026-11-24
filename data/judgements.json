@@ -27307,6 +27307,28 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:17ff735e-17dc-4bb7-96b3-e2323b355f4c",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Agia Paraskevi",
+   "city": "Tsagarada",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/17ff735e-17dc-4bb7-96b3-e2323b355f4c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 24,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane (Platanus orientalis)"
+   },
+   "verdict": "publish",
+   "reason": "A second reader's night photograph of the plane's vast trunk in its stone-edged bed; now the lead photograph of tsg_001, the earlier lead moved into the strip.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
