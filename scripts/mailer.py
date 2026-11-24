@@ -33,6 +33,7 @@ Let through without the check: a reply in a thread (In-Reply-To set), and a
 caller that passes recent_ok, a sentence saying why (an answer to a message
 the person just sent us).
 """
+import atexit
 import datetime
 import imaplib
 import json
@@ -113,24 +114,55 @@ def _resend_route():
     return None
 
 
+_COPY_BOX = {}   # one mailbox login per run, not one per mail
+
+
+def _close_copy_box():
+    box = _COPY_BOX.pop("box", None)
+    if box is not None:
+        try:
+            box.logout()
+        except Exception:  # noqa: BLE001
+            pass
+
+
 def keep_copy(msg):
     """File a sent mail in Gmail's Sent folder, read with the same app password
     the inbox reader uses. Never raises: a missing copy costs a thread view,
-    not the send."""
+    not the send.
+
+    One login per run (2026-11-24): it logged in once for every mail, 367 times
+    on 2026-11-20 from GitHub's servers, the pattern that came before Google
+    disabled the Gmail. The connection now stays open for the run and closes
+    when the script ends; a broken one is dropped and opened once more."""
     user = os.environ.get("OUTREACH_SMTP_USER") or ""
     pw = os.environ.get("OUTREACH_SMTP_PASS")
     # The mailbox moved from Gmail to Workspace on 2026-11-23; both are Google IMAP.
     if not (user.endswith(("@gmail.com", "@ancienttrees.app")) and pw):
         return
-    try:
-        from imap_folders import folder
-        box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
-        box.login(user, pw)
-        box.append(folder(box, '"[Gmail]/Sent Mail"'), "\\Seen",
-                   imaplib.Time2Internaldate(time.time()), msg.as_bytes())
-        box.logout()
-    except Exception as e:  # noqa: BLE001
-        print(f"mailer: sent, but no copy in Gmail's Sent folder ({type(e).__name__})")
+    from imap_folders import folder
+    for attempt in (1, 2):
+        try:
+            box = _COPY_BOX.get("box")
+            if box is None:
+                box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
+                box.login(user, pw)
+                _COPY_BOX["box"] = box
+                if not _COPY_BOX.get("exit_hook"):
+                    atexit.register(_close_copy_box)
+                    _COPY_BOX["exit_hook"] = True
+            box.append(folder(box, '"[Gmail]/Sent Mail"'), "\\Seen",
+                       imaplib.Time2Internaldate(time.time()), msg.as_bytes())
+            return
+        except imaplib.IMAP4.error as e:
+            # A refused login or append: a second login would only repeat it.
+            _COPY_BOX.pop("box", None)
+            print(f"mailer: sent, but no copy in Gmail's Sent folder ({type(e).__name__})")
+            return
+        except Exception as e:  # noqa: BLE001 (a dropped connection: one fresh try)
+            _COPY_BOX.pop("box", None)
+            if attempt == 2:
+                print(f"mailer: sent, but no copy in Gmail's Sent folder ({type(e).__name__})")
 
 
 def _gmail_route(creds):

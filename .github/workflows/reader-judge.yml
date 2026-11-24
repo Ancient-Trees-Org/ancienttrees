@@ -70,7 +70,30 @@ jobs:
       # "Mail replies first"). Read-only on the mailbox, only senders we mailed
       # and only our reader-mail subjects (scripts/reader_mail_replies.py). The
       # new row is what the poll then sees.
+      # Once every three hours, not every run (Hidde, 2026-11-24: "Eens mss
+      # zelfs minder?"). Every run logged in to the Workspace mailbox, about
+      # 125 times a day from changing GitHub servers in the US: the pattern
+      # that came before Google disabled the Gmail. A reader's answer to our
+      # question can wait three hours. One read per three-hour slot, kept
+      # exact by an empty cache entry named after the slot (a late or extra
+      # run in the same slot finds it and skips). A manual dispatch reads.
+      - name: Is a mailbox read due
+        id: mailslot
+        run: |
+          echo "key=mailbox-read-$(date -u +%Y%m%d)-$(( 10#$(date -u +%H) / 3 ))" >> "$GITHUB_OUTPUT"
+          mkdir -p out/mailslot
+          touch out/mailslot/read
+
+      - name: Was this slot already read
+        id: mailread
+        uses: actions/cache/restore@v4
+        with:
+          path: out/mailslot
+          key: ${{ steps.mailslot.outputs.key }}
+          lookup-only: true
+
       - name: Readers' mail replies become rows
+        if: github.event_name == 'workflow_dispatch' || steps.mailread.outputs.cache-hit != 'true'
         continue-on-error: true
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
@@ -89,6 +112,14 @@ jobs:
             git commit -q -m "reader judge: readers' mail replies filed"
             git pull -q --rebase --autostash origin main && git push -q || true
           fi
+
+      - name: Mark this slot read
+        if: steps.mailread.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: out/mailslot
+          key: ${{ steps.mailslot.outputs.key }}
 
       - name: Did a reader send anything new
         id: poll
