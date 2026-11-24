@@ -1078,6 +1078,56 @@
    "agreed": null
   },
   {
+   "id": "lead:f7d1128b-0fa1-443a-84eb-6d78c0625404",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree near York",
+   "city": null,
+   "species": null,
+   "photo": "p_a46a552e6ad9aa21ccff4426/F7D1128B-0FA1-443A-84EB-6D78C0625404.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big oak with a broken-off top and a new crown grown from one limb, by the footpath in the Castle Howard visitor car park; GPS from the photo. Live as castle-howard/cah_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:09bc8573-e772-4d62-bfc1-7b4647f4d2ad",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "A tree near York",
+   "city": null,
+   "species": null,
+   "photo": "p_a46a552e6ad9aa21ccff4426/09BC8573-E772-4D62-BFC1-7B4647F4D2AD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a massive ivy-clad oak with twisting, crossing limbs among parked cars in the Castle Howard visitor car park; GPS from the photo. Live as castle-howard/cah_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -28044,6 +28094,30 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f7d1128b-0fa1-443a-84eb-6d78c0625404",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Broken Oak of the Castle Howard Car Park",
+   "photo": "p_a46a552e6ad9aa21ccff4426/F7D1128B-0FA1-443A-84EB-6D78C0625404.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the broken-topped oak with its new crown by the footpath in the Castle Howard car park, overcast daylight, colour. Live as castle-howard/cah_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:09bc8573-e772-4d62-bfc1-7b4647f4d2ad",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Twisting Oak of the Castle Howard Car Park",
+   "photo": "p_a46a552e6ad9aa21ccff4426/09BC8573-E772-4D62-BFC1-7B4647F4D2AD.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the twisting, ivy-clad oak among the parked cars at Castle Howard, overcast daylight, colour. Live as castle-howard/cah_002 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

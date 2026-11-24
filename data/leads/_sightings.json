@@ -12199,6 +12199,76 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "wallingford/wfd_001"
+  },
+  {
+   "sighting_id": "f7d1128b-0fa1-443a-84eb-6d78c0625404",
+   "user_id": "p_a46a552e6ad9aa21ccff4426",
+   "mine": false,
+   "name": "A tree near York",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 54.1204221666667,
+   "longitude": -0.912066666666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a46a552e6ad9aa21ccff4426/F7D1128B-0FA1-443A-84EB-6D78C0625404.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/f7d1128b-0fa1-443a-84eb-6d78c0625404-extra-1.jpg",
+    "out/sightings/f7d1128b-0fa1-443a-84eb-6d78c0625404-extra-2.jpg",
+    "out/sightings/f7d1128b-0fa1-443a-84eb-6d78c0625404-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole oak beside a path at the edge of the car park: a broad fluted trunk whose top has broken off, one great limb carrying a wide new crown with the last brown leaves, a wooden rail and parked cars behind, overcast daylight, colour. Live as castle-howard/cah_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "castle-howard/cah_001"
+  },
+  {
+   "sighting_id": "09bc8573-e772-4d62-bfc1-7b4647f4d2ad",
+   "user_id": "p_a46a552e6ad9aa21ccff4426",
+   "mine": false,
+   "name": "A tree near York",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 54.1204638333333,
+   "longitude": -0.913003333333333,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a46a552e6ad9aa21ccff4426/09BC8573-E772-4D62-BFC1-7B4647F4D2AD.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole oak among parked cars: a short massive trunk with ivy, limbs twisting, doubling back and crossing into a knotted crown with cut stubs, rough grass and a low wooden rail in front, overcast daylight, colour. Live as castle-howard/cah_002 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "castle-howard/cah_002"
   }
  ]
 }
