@@ -239,6 +239,18 @@
    "agreed": null
   },
   {
+   "id": "sight:2beaef82-d143-42ab-96f8-0da147aa5ffa",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Ginkgo in Shanghai",
+   "photo": "p_4a3e8be0cafb822ba00b39d3/2BEAEF82-D143-42AB-96F8-0DA147AA5FFA.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: two tall ginkgos before a Shanghai Jiao Tong University building with an inscribed stone; lead photo of sha_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27190,18 +27202,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2beaef82-d143-42ab-96f8-0da147aa5ffa",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "Ginkgo in Shanghai",
-   "photo": "p_4a3e8be0cafb822ba00b39d3/2BEAEF82-D143-42AB-96F8-0DA147AA5FFA.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed: two tall ginkgos before a Shanghai Jiao Tong University building with an inscribed stone; lead photo of sha_002.",
    "hidde": null,
    "agreed": null
   }

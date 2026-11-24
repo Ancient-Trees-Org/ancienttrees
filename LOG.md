@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-24 reader judge: nothing new waiting
+
+- No reader photograph in the queue, no waiting reader lead, no open report, no tip without a verdict.
+- Nathalie's mail reply (feedback 1572, "on university grounds, accessible from the street") closed `handled`: the previous run already put the Shanghai ginkgos (sha_002) live on it.
+- Sighting 3c544597 (Amsterdam, near the Last Elm of Stationsplein) is our own account's `mine` photo, not on disk; left alone, never judged blind.
+
 ## 2026-11-24 write pass: nothing shipped, the writing pool is empty
 
 - **0 trees written.** `passcheck.py --pending` holds no tree that needs a story. Every suggested file (wisconsin, washington-dc-2, us-photo-batch-1, wales-yews, somerset-dorset-yews, new-york-3) is fully published. The id-collision entries (bri_017, car_001, nyc_027, nyc_031, wol_001, cdl_003, lar_001, tro_001 to 003, sct_001) are all live under other ids by name. Taiwan's a28_001 duplicates alh_002.
