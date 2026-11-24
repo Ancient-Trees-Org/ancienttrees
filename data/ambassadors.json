@@ -2255,6 +2255,16 @@
         "The Horse Chestnut of the Coach and Horses"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_a46a552e6ad9aa21ccff4426",
+      "place_slug": "castle-howard",
+      "place_name": "Castle Howard",
+      "date": "2026-11-24",
+      "trees": [
+        "The Broken Oak of the Castle Howard Car Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
