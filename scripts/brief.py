@@ -538,7 +538,7 @@ try:
     env["PATH"] = os.path.expanduser("~/.local/bin") + ":" + env.get("PATH", "")
     subprocess.Popen(
         ["gh", "workflow", "run", "presence.yml",
-         "--repo", "burgmanshidde-ancienttrees/ancienttrees"],
+         "--repo", "hidde-ancient-trees/ancienttrees"],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env)
 except Exception:
     pass

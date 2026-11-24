@@ -121,7 +121,7 @@ export const SPONSOR_URL = "https://ko-fi.com/ancienttrees";
 export const APP_STORE_ID = "6806177833";
 export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_STORE_ID}`;
 /** Where "Open in app" points: a domain of its own, so iOS hands the tap to
- *  the app (github.com/burgmanshidde-ancienttrees/ancienttrees-open). */
+ *  the app (github.com/hidde-ancient-trees/ancienttrees-open). */
 export const OPEN_APP_URL = "https://open.ancienttrees.app/open";
 export const APP_BUNDLE_ID = "app.ancienttrees.AncientTrees";
 export const APPLE_TEAM_ID = "5EWWC3M8L2";

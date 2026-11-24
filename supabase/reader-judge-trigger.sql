@@ -32,7 +32,7 @@ begin
     return new;  -- no token stored yet: the two-hourly knock still picks it up
   end if;
   perform net.http_post(
-    url := 'https://api.github.com/repos/burgmanshidde-ancienttrees/ancienttrees/dispatches',
+    url := 'https://api.github.com/repos/hidde-ancient-trees/ancienttrees/dispatches',
     body := jsonb_build_object('event_type', 'reader-tree'),
     headers := jsonb_build_object(
       'Authorization', 'Bearer ' || tok,

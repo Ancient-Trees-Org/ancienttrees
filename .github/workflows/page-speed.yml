@@ -34,8 +34,8 @@ jobs:
         run: python3 scripts/page_speed.py --if-due
       - name: Commit the measurement
         run: |
-          git config user.name "burgmanshidde-ancienttrees"
-          git config user.email "304936064+burgmanshidde-ancienttrees@users.noreply.github.com"
+          git config user.name "hidde-ancient-trees"
+          git config user.email "360303856+hidde-ancient-trees@users.noreply.github.com"
           git add data/page-speed.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing new measured."

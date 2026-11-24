@@ -291,8 +291,8 @@ jobs:
 
       - name: Commit if there is a new entry
         run: |
-          git config user.name "burgmanshidde-ancienttrees"
-          git config user.email "304936064+burgmanshidde-ancienttrees@users.noreply.github.com"
+          git config user.name "hidde-ancient-trees"
+          git config user.email "360303856+hidde-ancient-trees@users.noreply.github.com"
           # LEDGER.html joined this list on 2026-08-18 because leaving it out
           # killed the whole run. city_queue.py rewrites it, it was not staged,
           # and so `git pull --rebase` refused with "cannot pull with rebase:

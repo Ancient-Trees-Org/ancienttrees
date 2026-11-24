@@ -3144,7 +3144,7 @@ def deploy_standing():
     prints nothing without it, like fetch_machine.
     """
     tok = os.environ.get("GITHUB_TOKEN")
-    repo = os.environ.get("GITHUB_REPOSITORY", "burgmanshidde-ancienttrees/ancienttrees")
+    repo = os.environ.get("GITHUB_REPOSITORY", "hidde-ancient-trees/ancienttrees")
     if not tok:
         return None
     req = urllib.request.Request(
@@ -3252,7 +3252,7 @@ def fetch_machine(today):
     real work time. Answers Hidde's standing question (2026-07-28) whether his
     subscription's windows actually get used."""
     tok = os.environ.get("GITHUB_TOKEN")
-    repo = os.environ.get("GITHUB_REPOSITORY", "burgmanshidde-ancienttrees/ancienttrees")
+    repo = os.environ.get("GITHUB_REPOSITORY", "hidde-ancient-trees/ancienttrees")
     if not tok:
         return None
     yday = (today - datetime.timedelta(days=1)).isoformat()
