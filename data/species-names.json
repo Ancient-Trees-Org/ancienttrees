@@ -1009,6 +1009,36 @@
    }
   },
   {
+   "common": "Beech",
+   "latin": "Fagus sp.",
+   "names": {
+    "en": [
+     "the beech genus"
+    ],
+    "nl": [
+     "Beuk"
+    ],
+    "de": [
+     "Buchen"
+    ],
+    "es": [
+     "Phegos"
+    ],
+    "it": [
+     "faggio"
+    ],
+    "fr": [
+     "hêtre"
+    ],
+    "pt": [
+     "Faia"
+    ],
+    "ja": [
+     "ブナ属"
+    ]
+   }
+  },
+  {
    "common": "Bender Oak, a natural hybrid of Scarlet Oak x Northern Red Oak",
    "latin": "Quercus x benderi"
   },
@@ -8861,36 +8891,22 @@
    "latin": "Platanus x acerifolia",
    "names": {
     "nl": [
-     "Gewone plataan",
-     "Plataan"
+     "Gewone plataan"
     ],
     "de": [
-     "Ahornblättrige Platane",
-     "Gewöhnliche Platane",
-     "Platane"
+     "Ahornblättrige Platane"
     ],
     "es": [
-     "Plátano de sombra",
-     "Plátano de Londres",
-     "Plátano híbrido común",
-     "Plátano híbrido español"
+     "Plátano de sombra"
     ],
     "it": [
-     "Platano comune",
-     "Platano ibrido",
-     "Platano londinese",
-     "Platano spagnolo"
+     "Platano comune"
     ],
     "fr": [
-     "Platane commun",
-     "Platane à feuille d'érable"
+     "Platane commun"
     ],
     "pt": [
      "Plátano"
-    ],
-    "ja": [
-     "カエデバスズカケノキ",
-     "モミジバスズカケノキ"
     ]
    }
   },
@@ -8969,6 +8985,42 @@
      "マカダミアナッツ",
      "マカダミア・ナッツ",
      "マカデミア"
+    ]
+   }
+  },
+  {
+   "common": "Macedon Oak",
+   "latin": "Quercus 'Firthii'",
+   "names": {
+    "en": [
+     "Oak",
+     "oak tree",
+     "oaks",
+     "the oak genus"
+    ],
+    "nl": [
+     "Eik"
+    ],
+    "de": [
+     "Eiche",
+     "Eichen"
+    ],
+    "es": [
+     "Roble"
+    ],
+    "it": [
+     "Quercia"
+    ],
+    "fr": [
+     "Chêne",
+     "chênes"
+    ],
+    "pt": [
+     "Carvalho"
+    ],
+    "ja": [
+     "オーク",
+     "コナラ属"
     ]
    }
   },
@@ -9307,6 +9359,22 @@
   {
    "common": "Mengkulang",
    "latin": "Heritiera elata"
+  },
+  {
+   "common": "Mesquite",
+   "latin": "Prosopis sp.",
+   "names": {
+    "nl": [
+     "muskietboom"
+    ],
+    "de": [
+     "Mesquitebaum",
+     "Mesquiten"
+    ],
+    "ja": [
+     "プロソピス属"
+    ]
+   }
   },
   {
    "common": "Mexican Blue Palm",
@@ -12648,6 +12716,35 @@
    }
   },
   {
+   "common": "Sawara Cypress",
+   "latin": "Chamaecyparis pisifera",
+   "names": {
+    "de": [
+     "Erbsenfrüchtige Scheinzypresse",
+     "Faden-Scheinzypresse",
+     "Sawara-Scheinzypresse"
+    ],
+    "es": [
+     "Cameciparis Sawara",
+     "Cipres de Hondo",
+     "Cipres de guisantes",
+     "Cipres pisifero"
+    ],
+    "pt": [
+     "Cipreste sawara",
+     "Cipreste-sawara",
+     "Tuia azul",
+     "Tuia macarrão"
+    ],
+    "ja": [
+     "サワラ",
+     "ヒムロ杉",
+     "椹",
+     "檜榁"
+    ]
+   }
+  },
+  {
    "common": "Sawtooth Oak",
    "latin": "Quercus acutissima",
    "names": {
@@ -13665,6 +13762,30 @@
      "ドイツトウヒ",
      "ドイツマツ",
      "ドイツ松"
+    ]
+   }
+  },
+  {
+   "common": "Sourwood",
+   "latin": "Oxydendrum arboreum",
+   "names": {
+    "nl": [
+     "Oxydendrum"
+    ],
+    "de": [
+     "Oxydendreae",
+     "Sauerampferbaum",
+     "Sauerbaum"
+    ],
+    "es": [
+     "Oxidendro",
+     "Oxydendrum"
+    ],
+    "pt": [
+     "Oxydendrum"
+    ],
+    "ja": [
+     "スイバノキ"
     ]
    }
   },
@@ -17471,36 +17592,6 @@
    "names": {
     "fr": [
      "Cercocarpe de montagne"
-    ]
-   }
-  },
-  {
-   "common": "Sawara Cypress",
-   "latin": "Chamaecyparis pisifera",
-   "mapped": false,
-   "names": {
-    "de": [
-     "Erbsenfrüchtige Scheinzypresse",
-     "Faden-Scheinzypresse",
-     "Sawara-Scheinzypresse"
-    ],
-    "es": [
-     "Cameciparis Sawara",
-     "Cipres de Hondo",
-     "Cipres de guisantes",
-     "Cipres pisifero"
-    ],
-    "pt": [
-     "Cipreste sawara",
-     "Cipreste-sawara",
-     "Tuia azul",
-     "Tuia macarrão"
-    ],
-    "ja": [
-     "サワラ",
-     "ヒムロ杉",
-     "椹",
-     "檜榁"
     ]
    }
   },
@@ -24137,6 +24228,11 @@
      "アサダ属"
     ]
    }
+  },
+  {
+   "common": "Sourwood",
+   "latin": "Oxydendrum",
+   "genus": true
   },
   {
    "common": "Ironwood",
