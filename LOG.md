@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-24 reader judge: a register champion poplar in Amsterdam live, a reader's golden ginkgo now leads in Verona
+
+- **Amsterdam, ams_041, The Canadian Poplar of Entrepothof** (app, sighting ca3121a2, GPS from the photo): several heavy, leaning stems on a bank by the waterside path in the Oostelijk Havengebied, photographed bare in November. The city's Bijzondere Bomen register (no. 486309) is 25 m away and lists it as planted in 1930, with a 585 cm girth and the champion-tree flag. That planting year matches the reader's "96 years". The girth comes from the register and is stored as `girth_cm`. The Dutch overlay has the tree as Canadapopulier, the name already used for ams_027. Both meta lines now count 27 more trees. Filed as November, the photo's own month.
+- **Verona, ver_003 ginkgo**: the reader's full golden portrait (fbbb5d62) is now the lead photo, and the Commons photo has moved behind it. The same reader's 2024 shot (1dac0633) is in the strip.
+- **Verona, ver_001 cedar, held**: the same reader sent two night photos from Piazza Bra. bf974f50 shows a tree wrapped in Christmas lights, and the lights hide leaf and bark, so we can't tell whether it is the cedar. Held. b11a2e87 shows a deciduous tree in autumn leaf, so it is `other_tree`. Its new lead is held `doubt_location` because the coordinate is where the phone sent it from, 600 m away. hold_reply found no submissions row for it, so no mail went.
+- **Verona, ver_011 mulberry**: 54cf46dd was rejected as a duplicate. Its four files have the same checksums as sighting 2cbeafcc, which is already live.
+- Left alone: 3c544597 (our own account, no photo on disk) and the old `mine` leads. No open reports, no open feedback, reader_words clear. preflight 0, i18ncheck clean, qa source clean.
+
 ## 2026-11-24 reader judge: two readers' trees live, a Naples palace-garden fig and a hollow strangler fig in Khao Yai
 
 - **Naples, nap_032, The Moreton Bay Fig of the Palazzo Reale Gardens** (app, sighting 8bea95ca): the photo is a close shot of the fused grey trunk, with aerial roots and a long pale palace front behind it. The reader first dropped the pin by hand near Lago Patria, 20 km out of town, then moved it four times themselves (reports 1000142 to 1000145) and ended in the Palazzo Reale gardens, which fits the palace in the photo. Because it was placed by hand the pin is approximate, and the story says so. The reports are closed `holds`, with no mail: these were moves on their own new tree. The Naples FAQ and the Italian overlay now count 25 trees, and the overlay has the new tree (ficus magnolioide). Filed as October, the photo's own month.

@@ -731,6 +731,201 @@
    "agreed": null
   },
   {
+   "id": "sight:8bea95ca-5896-4a4e-a003-bfd05305ef05",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Moreton Bay Fig of the Palazzo Reale Gardens",
+   "photo": "p_0d02973d80cde9477b2b846d/8BEA95CA-5896-4A4E-A003-BFD05305EF05.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Live as naples/nap_032 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "The Hollow Strangler Fig of Khao Yai",
+   "photo": "p_c16a4c599219c1f278d75265/55890F31-4EAA-43A5-93A5-9F8D0E298AD5.jpg",
+   "reader_note": "There used to be another tree in the middle. This tree is in Khao Yai National Park, Route 3.",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Live as khao-yai/kya_001 under the closed list (Hidde, 2026-11-17).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bf974f50-cd09-4f72-8f18-b010bd334f3d",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Piazza Bra",
+   "city": "Verona",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/bf974f50-cd09-4f72-8f18-b010bd334f3d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 621,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "hold",
+   "reason": "Night shot of a tree wrapped in Christmas lights in Piazza Bra; the lights hide leaf and bark, so we cannot tell it is the cedar.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b11a2e87-fbcc-400b-b029-966b64e2e894",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Piazza Bra",
+   "city": "Verona",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/b11a2e87-fbcc-400b-b029-966b64e2e894.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 621,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "hold",
+   "reason": "A deciduous tree in autumn leaf in Piazza Bra at night, not the cedar it was sent for; moved to a lead of its own.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1dac0633-bdf5-4a8e-89ec-f76e4652a9ac",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Piazza Indipendenza",
+   "city": "Verona",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/1dac0633-bdf5-4a8e-89ec-f76e4652a9ac.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "The same ginkgo in gold, partly behind a cedar, November 2024; in the tree's strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fbbb5d62-a663-48e7-a6ad-cb638ae823a2",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Piazza Indipendenza",
+   "city": "Verona",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/fbbb5d62-a663-48e7-a6ad-cb638ae823a2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 16,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "The whole ginkgo in gold in Piazza Indipendenza, daylight; now the tree's lead photograph, the Commons one moved behind it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:54cf46dd-e218-47f7-9f93-07d8509af63e",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Silk Mulberry of Ca' di David",
+   "city": "Verona",
+   "species": "White Mulberry (Morus alba)",
+   "photo": "out/sightings/54cf46dd-e218-47f7-9f93-07d8509af63e.jpg",
+   "reader_note": "A historic tree from the Veronese countryside that was used for silkworm farming, from which silk was obtained.",
+   "reader_girth_cm": 320,
+   "match": "distance",
+   "distance_m": 8,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry (Morus alba)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same four files as sighting 2cbeafcc, already live on the mulberry; nothing new to add.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Canadian Poplar in Amsterdam",
+   "city": null,
+   "species": "Canadian Poplar",
+   "photo": "p_86871a29a30bc55c14deb2b6/CA3121A2-A7D7-4193-91D8-1AA8D9838B9F.jpg",
+   "reader_note": "Age and height",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 25 m away (amsterdam-bijzondere-bomen): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 52.369299,
+      "lng": 4.9359693,
+      "source": "amsterdam-bijzondere-bomen",
+      "designation": "",
+      "name": "",
+      "species": "Canadese populier",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 25.1
+     }
+    ]
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Canadian Poplar"
+   },
+   "verdict": "publish",
+   "reason": "Big multi-stemmed Canadian poplar by the water at Entrepothof, Amsterdam; the city register (no. 486309, planted 1930, 585 cm, champion tree) stands 25 m away and agrees with the reader's 96 years. Live as amsterdam/ams_041.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b11a2e87-fbcc-400b-b029-966b64e2e894",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Verona",
+   "species": null,
+   "photo": "p_0ff8aaa6b520db6499506ff3/B11A2E87-FBCC-400B-B029-966B64E2E894.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: big broadleaf in autumn leaf at night in Piazza Bra; the coordinate is where the phone sent it from, 600 m off, and nothing in frame places the trunk. No submissions row, so no hold mail.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27701,26 +27896,14 @@
    "agreed": null
   },
   {
-   "id": "sight:8bea95ca-5896-4a4e-a003-bfd05305ef05",
+   "id": "sight:ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
-   "tree": "The Moreton Bay Fig of the Palazzo Reale Gardens",
-   "photo": "p_0d02973d80cde9477b2b846d/8BEA95CA-5896-4A4E-A003-BFD05305EF05.jpg",
-   "reader_note": "",
+   "tree": "The Canadian Poplar of Entrepothof",
+   "photo": "p_86871a29a30bc55c14deb2b6/CA3121A2-A7D7-4193-91D8-1AA8D9838B9F.jpg",
+   "reader_note": "Age and height",
    "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the fused grey trunk of a Moreton Bay fig from its foot, aerial roots hanging between the stems, flat roots over bare earth, a long pale palace front and a garden lawn behind, overcast daylight, colour. Live as naples/nap_032 under the closed list (Hidde, 2026-11-17).",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:55890f31-4eaa-43a5-93a5-9f8d0e298ad5",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "The Hollow Strangler Fig of Khao Yai",
-   "photo": "p_c16a4c599219c1f278d75265/55890F31-4EAA-43A5-93A5-9F8D0E298AD5.jpg",
-   "reader_note": "There used to be another tree in the middle. This tree is in Khao Yai National Park, Route 3.",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: a giant strangler fig from below on a slope of red earth, its trunk a lattice of grey roots with daylight through the gaps where the host tree stood, a person at its foot for scale, forest around, daylight, colour. Live as khao-yai/kya_001 under the closed list (Hidde, 2026-11-17).",
+   "reason": "Photograph viewed 2026-11-24: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank beside a waterside path, daylight, colour. City register no. 486309 (planted 1930, 585 cm, champion tree) 25 m away. Live as amsterdam/ams_041 under the closed list (Hidde, 2026-11-17).",
    "hidde": null,
    "agreed": null
   }

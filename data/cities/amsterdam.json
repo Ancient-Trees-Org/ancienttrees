@@ -3,7 +3,7 @@
   "country": "Netherlands",
   "status": "needs_curation",
   "intro": "Amsterdam's oldest tree is 275 years old, modest against London's millennium-old yews, and that gap says something about the city: built on drained peat and remade repeatedly by fire and war, little here gets left alone for long. What survived did so on purpose, behind a zoo fence, botanical garden glass or a canal-house garden wall. Amsterdam also became one of Europe's great elm cities, and the range runs from the last of thirty elms at Centraal Station to the city's tallest tree, an elm of 35 metres in a university courtyard. Twenty-nine of the thirty-nine are free.",
-  "meta_description": "Amsterdam's oldest tree is a 275-year-old oak in Artis. Meet it and 26 more remarkable trees, from a 300-year-old cycad to the city's tallest.",
+  "meta_description": "Amsterdam's oldest tree is a 275-year-old oak in Artis. Meet it and 27 more remarkable trees, from a 300-year-old cycad to the city's tallest.",
   "question_answer": "The oldest tree in Amsterdam is the Heimanseik, a pedunculate oak in Artis Park estimated at around 275 years old, rooted since roughly 1750, decades before the zoo itself was founded in 1838. It stands near the chimpanzee enclosure and can be visited with a ticket to Artis, a short walk from the Artis tram stop.",
   "question_meta": "The Heimanseik, a 275-year-old oak in Artis, is Amsterdam's oldest tree. Its story, exact location and 26 more remarkable trees in the city.",
   "question_context": "Amsterdam's peat foundations and history of fires, floods and rebuilding mean the city holds nothing like London's thousand-year yews or Paris's four-century black locusts. Its oldest confirmed tree, the Heimanseik, dates to around 1750 and owes its survival to an accident of geography: the oak was already mature when Artis was founded around it in 1838, so the zoo grew up incorporating the tree rather than the other way round. It is named after Eli Heimans, a naturalist who wrote about the oak in 1903 and helped popularize the idea that ordinary urban nature deserved close attention. Two fungi now grow in its trunk, a common condition in oaks this age, and arborists inspect it annually to judge how much longer it can safely stand. Summer oaks can live seven centuries, which makes 275 modest for the species even if it is a record for the city. Amsterdam's runners up are largely elms and wingnuts in the 100 to 175 year range, survivors of Dutch elm disease and redevelopment rather than centuries of neglect. Getting there: Tram 14 to Artis, then a short walk to the oak near the chimpanzee enclosure.",
@@ -1198,6 +1198,61 @@
         "url": null
       },
       "girth_cm": 216
+    },
+    {
+      "id": "ams_041",
+      "name": "The Canadian Poplar of Entrepothof",
+      "species": "Canadian Poplar (Populus x canadensis)",
+      "age_estimate": "about 96 years, planted 1930",
+      "age_min": 96,
+      "age_max": 96,
+      "age_basis": "source",
+      "location": {
+        "address": "Waterside path by Entrepothof, 1019 DJ Amsterdam",
+        "latitude": 52.3692333333333,
+        "longitude": 4.93561666666667,
+        "neighbourhood": "Oostelijk Havengebied, Amsterdam-Oost"
+      },
+      "story": "In 1930 the city planted a Canadian poplar here, beside the water in Amsterdam's old eastern harbour district. The quays have since been rebuilt as housing, apartment blocks now stand all around it, and the poplar is still here. A reader sent us its photograph from the path along the water.\n\nThe city's own register of special trees lists it with a trunk 585 centimetres round and a crown fifteen to twenty metres across, and marks it as one of its champion trees. The reader gives it 96 years, which agrees with the register's planting date.\n\nCanadian poplars are hybrids of the European and the American black poplar. The Netherlands planted them widely along roads, dikes and canals because they grow fast and give shade and timber quickly, and a poplar planted for that is rarely left to grow old in a city.\n\nIn the reader's November photograph the tree is bare, and that shows what its age has done. Several heavy stems climb from one base on a green bank and lean out over the path, then split into a wide net of grey branches that reaches higher than the balconies beside it. Ivy climbs the foot of the trunk.\n\nWalk the path along the water past it, then turn and look back up from the steps in the bank.",
+      "verified_sources": [
+        "https://maps.amsterdam.nl/bomen_bijzonder/ (Bijzondere Bomen, Gemeente Amsterdam, no. 486309: Canadese populier, plantjaar 1930, stamomtrek 585 cm, kroondiameter 15 - 20 m, kampioenboom, owner Gemeente; 25 m from the reader's photograph)"
+      ],
+      "access": "Free. On public ground beside a waterside footpath, always open.",
+      "transport": "",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ams_041-canadian-poplar-of-entrepothof.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_86871a29a30bc55c14deb2b6",
+        "sighting_id": "ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank with steps, beside a brick waterside path between apartment blocks, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it. The city register's point for no. 486309 is 25 m off."
+      },
+      "how_to_recognise": "Beside the brick path along the water at Entrepothof: several heavy grey stems leaning out from one ivy-wrapped base on a green bank with steps, between a round tower of balconies and a low dark-brick building.",
+      "official_register": {
+        "name": "Bijzondere Bomen (Gemeente Amsterdam), no. 486309",
+        "url": null
+      },
+      "girth_cm": 585,
+      "found_by_reader": {
+        "sighting_id": "ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+        "date": "2026-11-24"
+      },
+      "verify_notes": "2026-11-24 reader judge: sent by a reader through the app. Photograph viewed: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank with steps, beside a brick waterside path between apartment blocks, daylight, colour. The reader's own figures: name 'Canadian Poplar in Amsterdam', species 'Canadian Poplar', age '96 years', note 'Age and height'. Register no. 486309 (city of Amsterdam, special trees) gives planting year 1930, girth 585 cm and the champion flag; the reader's age agrees. Published under the closed list (Hidde, 2026-11-17)."
     }
   ],
   "oldest_tree_id": "ams_001",

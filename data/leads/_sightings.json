@@ -12030,6 +12030,76 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "khao-yai/kya_001"
+  },
+  {
+   "sighting_id": "ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
+   "user_id": "p_86871a29a30bc55c14deb2b6",
+   "mine": false,
+   "name": "Canadian Poplar in Amsterdam",
+   "unsure_among": null,
+   "species": "Canadian Poplar",
+   "age": "96 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Age and height",
+   "latitude": 52.3692333333333,
+   "longitude": 4.93561666666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_86871a29a30bc55c14deb2b6/CA3121A2-A7D7-4193-91D8-1AA8D9838B9F.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 356,
+   "register": {
+    "verdict": "designated",
+    "why": "a register entry sits 25 m away (amsterdam-bijzondere-bomen): an official body already calls this one remarkable",
+    "nearest": [
+     {
+      "lat": 52.369299,
+      "lng": 4.9359693,
+      "source": "amsterdam-bijzondere-bomen",
+      "designation": "",
+      "name": "",
+      "species": "Canadese populier",
+      "girth_cm": null,
+      "height_m": null,
+      "distance_m": 25.1
+     }
+    ]
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: the whole bare poplar in November, several heavy grey stems leaning from one base on a green bank with steps, beside a brick waterside path between apartment blocks, daylight, colour. Register no. 486309 (planted 1930, 585 cm, champion tree) stands 25 m away. Live as amsterdam/ams_041 under the closed list.",
+   "seen": "2026-11-24",
+   "judged": "2026-11-24",
+   "published_as": "amsterdam/ams_041"
+  },
+  {
+   "sighting_id": "b11a2e87-fbcc-400b-b029-966b64e2e894",
+   "user_id": "p_0ff8aaa6b520db6499506ff3",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 45.4438466666667,
+   "longitude": 10.9971216666667,
+   "near": "Verona",
+   "photo": "p_0ff8aaa6b520db6499506ff3/B11A2E87-FBCC-400B-B029-966B64E2E894.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 621,
+   "sent_for": "ver_001",
+   "status": "held",
+   "why": "Photograph viewed 2026-11-24: a big broadleaf tree in yellow autumn leaf at night in Piazza Bra, Verona, behind two flagpoles, the Liston's lamps and crowd to the left. Sent for our cedar (ver_001), but it is deciduous, so another tree. Its coordinate is where the phone was when it sent the photo, about 600 m from Piazza Bra, and the photo carries no marker that places one trunk among the square's gardens; held until the reader says where it stands.",
+   "seen": "2026-11-24",
+   "hold": "doubt_location",
+   "judged": "2026-11-24"
   }
  ]
 }

@@ -140,13 +140,17 @@
       "access": "Free, public square",
       "transport": "10 min walk from Piazza delle Erbe",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ginkgo_biloba_piazza_Indipendenza_Verona.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Garonzi Stefania, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/ver_003-the-ginkgo-of-piazza-indipendenza-fbbb5d62.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2736,
-        "height": 3648,
-        "taken_month": 9
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_0ff8aaa6b520db6499506ff3",
+        "sighting_id": "fbbb5d62-a663-48e7-a6ad-cb638ae823a2",
+        "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-24: The whole ginkgo in full gold from the lawn of Piazza Indipendenza, brick building and railings behind, clear daylight; a better portrait than the Commons lead, so the reader's leads. Species seen: fan-shaped ginkgo leaves turned gold, grey furrowed trunk. Fits the description: the big ginkgo in the small square garden with railings, a cedar beside it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Dimensions (323cm average circumference, 23.5m average height) from the official AMI national monumental-trees listing; the tree's own dedicated Wikimedia Commons category (structured data, coordinates matching Piazza Indipendenza) independently corroborates its identity and location. Presented as a group entry since the register itself lists it that way rather than as one single specimen. Photo verified directly: shows unmistakable ginkgo fan-shaped foliage and bark, matching the species and general setting. Coordinates now taken from the register's own GIS record for this entry (its circumference and height match this story's figures exactly, confirmed identically across two independent fetches of the source spreadsheet), about 45m from the previous square-wide estimate. The plane tree and cedar entries in the same register file could not be matched with the same confidence this pass (the tool's reads of those two rows were inconsistent across attempts), so ver_002 and ver_004 stay approximate rather than risk a wrong pin.",
@@ -155,7 +159,31 @@
       "official_register": {
         "name": "Elenco degli alberi monumentali d'Italia (MASAF), no. 01/L781/VR/05",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ginkgo_biloba_piazza_Indipendenza_Verona.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Garonzi Stefania, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2736,
+          "height": 3648,
+          "taken_month": 9
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ver_003-the-ginkgo-of-piazza-indipendenza-1dac0633.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_0ff8aaa6b520db6499506ff3",
+          "sighting_id": "1dac0633-bdf5-4a8e-89ec-f76e4652a9ac",
+          "note": "Photographed by a reader and sent through the app (2024-11-29); a viewing pass approved it on 2026-11-24: The same ginkgo in gold from across the garden, partly behind a cedar, November 2024, daylight; a second view for the strip. Species seen: golden ginkgo crown with fan leaves. Fits the description: the ginkgo in the Piazza Indipendenza garden, gravel paths and benches.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "ver_004",

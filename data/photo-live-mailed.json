@@ -3238,6 +3238,30 @@
      "mailed": "2026-11-24"
     }
    ]
+  },
+  "p_0ff8aaa6b520db6499506ff3": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "fbbb5d62-a663-48e7-a6ad-cb638ae823a2",
+     "tree_id": "ver_003",
+     "tree_name": "The Ginkgo of Piazza Indipendenza",
+     "city": "Verona",
+     "city_slug": "verona",
+     "display_name": null,
+     "live": "2026-11-24"
+    },
+    {
+     "sighting_id": "1dac0633-bdf5-4a8e-89ec-f76e4652a9ac",
+     "tree_id": "ver_003",
+     "tree_name": "The Ginkgo of Piazza Indipendenza",
+     "city": "Verona",
+     "city_slug": "verona",
+     "display_name": null,
+     "live": "2026-11-24"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

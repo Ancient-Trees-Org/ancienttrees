@@ -7566,6 +7566,50 @@
   "55890f31-4eaa-43a5-93a5-9f8d0e298ad5": {
    "outcome": "published",
    "date": "2026-11-24"
+  },
+  "ca3121a2-a7d7-4193-91d8-1aa8d9838b9f": {
+   "outcome": "published",
+   "date": "2026-11-24"
+  },
+  "fbbb5d62-a663-48e7-a6ad-cb638ae823a2": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "ver_003",
+   "city_slug": "verona",
+   "file": "ver_003-the-ginkgo-of-piazza-indipendenza-fbbb5d62.jpg",
+   "reason": "The whole ginkgo in full gold from the lawn of Piazza Indipendenza, brick building and railings behind, clear daylight; a better portrait than the Commons lead, so the reader's leads. Species seen: fan-shaped ginkgo leaves turned gold, grey furrowed trunk. Fits the description: the big ginkgo in the",
+   "lat": 45.4431116666667,
+   "lon": 10.9993333333333,
+   "pin_checked": "2026-11-24"
+  },
+  "1dac0633-bdf5-4a8e-89ec-f76e4652a9ac": {
+   "outcome": "added",
+   "date": "2026-11-24",
+   "tree_id": "ver_003",
+   "city_slug": "verona",
+   "file": "ver_003-the-ginkgo-of-piazza-indipendenza-1dac0633.jpg",
+   "reason": "The same ginkgo in gold from across the garden, partly behind a cedar, November 2024, daylight; a second view for the strip. Species seen: golden ginkgo crown with fan leaves. Fits the description: the ginkgo in the Piazza Indipendenza garden, gravel paths and benches.",
+   "lat": 45.44292,
+   "lon": 10.99955,
+   "pin_checked": "2026-11-24"
+  },
+  "54cf46dd-e218-47f7-9f93-07d8509af63e": {
+   "outcome": "rejected",
+   "date": "2026-11-24",
+   "tree_id": "ver_011",
+   "reason": "Duplicate: the same four files (identical checksums) as sighting 2cbeafcc, already live on this tree as lead and strip."
+  },
+  "b11a2e87-fbcc-400b-b029-966b64e2e894": {
+   "outcome": "held",
+   "date": "2026-11-24",
+   "tree_id": "ver_001",
+   "reason": "A broadleaf tree in yellow autumn leaf at night in Piazza Bra, behind two flagpoles; deciduous, so not the cedar it was sent for."
+  },
+  "bf974f50-cd09-4f72-8f18-b010bd334f3d": {
+   "outcome": "held",
+   "date": "2026-11-24",
+   "tree_id": "ver_001",
+   "reason": "Night photograph of a big tree wrapped in thousands of Christmas lights in Piazza Bra; the lights hide leaf and bark, and the same reader's other photo from that spot shows a deciduous tree by the same flagpoles, so we cannot tell whether this is the cedar."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
