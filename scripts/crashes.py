@@ -70,6 +70,7 @@ FIXES = os.path.join(ROOT, "data", "crash-fixes.json")
 
 BURST = 3          # crashes of one signature on a store build ...
 BURST_HOURS = 24   # ... inside this many hours is an act item
+ONE_CRASH_HOURS = 48  # a single crash with no answer on file acts too (2026-11-24)
 
 # URGENT (Hidde, 2026-10-16: flag "when a crash needs an immediate update"):
 # the app is unusable for someone (one phone crashing URGENT_SAME_PHONE times
@@ -396,8 +397,21 @@ def assess(sigs, stores, now=None):
         same_phone = max((_max_in_window(ts, URGENT_PHONE_HOURS)
                           for ts in recent.values()), default=0)
         pattern = same_phone >= URGENT_SAME_PHONE or phones >= URGENT_PHONES
-        if not (pattern or n >= BURST):
+        # One crash on a stranger's phone is enough while no answer is on
+        # file (Hidde, 2026-11-20, the rule app_crashes.py already kept for
+        # the app's own reports; this MetricKit reader still waited for a
+        # burst, so four single crashes on build 41 rang nothing, found
+        # 2026-11-24). Read over ONE_CRASH_HOURS: MetricKit posts a day late.
+        if not f:
+            one_cut = now - datetime.timedelta(hours=ONE_CRASH_HOURS)
+            single = sum(1 for ts in s["_phone_times"].values() for t in ts if _when(t) >= one_cut)
+        else:
+            single = 0
+        if not (pattern or n >= BURST or single):
             continue
+        hours = BURST_HOURS
+        if single > n:
+            n, phones, hours = single, max(phones, 1), ONE_CRASH_HOURS
         if f.get("server_remedy"):
             level = "reapply"
         elif f.get("first_fixed_build"):
@@ -405,7 +419,7 @@ def assess(sigs, stores, now=None):
         else:
             level = "urgent" if pattern else "act"
         out.append({"s": s, "level": level, "n": n, "phones": phones,
-                    "same_phone": same_phone, "label": fix_label(s, stores)})
+                    "same_phone": same_phone, "label": fix_label(s, stores), "hours": hours})
     order = {"urgent": 0, "reapply": 1, "act": 2, "waiting": 3}
     out.sort(key=lambda a: (order[a["level"]], -a["n"]))
     return out
@@ -415,7 +429,7 @@ def message(a):
     """One sentence a run, or Hidde, can act on."""
     s, f = a["s"], a["s"].get("fix") or {}
     head = ("%s on store build %s (%s): %d crash(es) on %d phone(s) in %dh"
-            % (where(s), s["version"], s["build"], a["n"], a["phones"], BURST_HOURS))
+            % (where(s), s["version"], s["build"], a["n"], a["phones"], a.get("hours", BURST_HOURS)))
     if a["same_phone"] >= URGENT_SAME_PHONE:
         head += ", one phone %d times inside %dh (a crash at every launch)" % (
             a["same_phone"], URGENT_PHONE_HOURS)
