@@ -2235,6 +2235,26 @@
         "The Silver-Limbed Oak of Tranekær"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_9958e447be18d50bb8fd84bc",
+      "place_slug": "venice",
+      "place_name": "Venice",
+      "date": "2026-11-24",
+      "trees": [
+        "The Hackberry of the Certosa"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_d20c07c3bb18c7bfeadb2ddc",
+      "place_slug": "wallingford",
+      "place_name": "Wallingford",
+      "date": "2026-11-24",
+      "trees": [
+        "The Horse Chestnut of the Coach and Horses"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
