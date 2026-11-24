@@ -1,0 +1,72 @@
+name: Tell readers their tree is live
+
+# Started by deploy.yml right after a deploy of main went through, so the
+# deploy queue is free while this waits for the Pages cache and mails.
+# The nightly knock stays the safety net; both keep their own ledgers.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  # THE READER HEARS WHEN THE PAGE IS THERE (Hidde, 2026-11-23: "is het niet
+  # logischer als de judge gelijk de mail activeert?"). The congratulation for
+  # a reader's tree and the "your photograph is live" mail went only from the
+  # nightly knock, every two hours when GitHub fires it at all, so a tree the
+  # reader judge put live in minutes was announced hours later. Not from the
+  # judge itself: the build takes forty minutes after it, and a link that
+  # opens nothing is worse than a wait. So here, after a deploy of main went
+  # through. Both scripts read the live feed and keep their own ledgers, so
+  # the knock stays the safety net and nobody is mailed twice. Undo: delete
+  # this workflow and the "Start the reader mail" step in deploy.yml.
+  tell-readers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: reader-live-mail
+      cancel-in-progress: false
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Mail readers whose tree or photograph is now live
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OUTREACH_SMTP_HOST: ${{ secrets.OUTREACH_SMTP_HOST }}
+          OUTREACH_SMTP_PORT: ${{ secrets.OUTREACH_SMTP_PORT }}
+          OUTREACH_SMTP_USER: ${{ secrets.OUTREACH_SMTP_USER }}
+          OUTREACH_SMTP_PASS: ${{ secrets.OUTREACH_SMTP_PASS }}
+          RESEND_SMTP_HOST: ${{ secrets.RESEND_SMTP_HOST }}
+          RESEND_SMTP_PASS: ${{ secrets.RESEND_SMTP_PASS }}
+          OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
+        run: |
+          # GitHub Pages serves with a ten-minute cache, and tree_approved.py
+          # mails only a tree it finds in the live /api/trees.json. Read it
+          # straight after the deploy and the new trees are not in it yet.
+          sleep 600
+          # The homepage's New from visitors row and the app's Discover row
+          # read a reader's photo only once its sighting points at the tree it
+          # became. That link was made only by the nightly knock, so a tree the
+          # judge put live stayed out of the row for hours (Hidde, 2026-11-23:
+          # "waarom zie ik ze niet tussen new from visitors"). Now right after
+          # the deploy that carries it, with the tiles' small copies.
+          python3 scripts/sightings_link.py || true
+          pip install --quiet pillow || true
+          python3 scripts/shared_thumbs.py || true
+          # No pull, no send: an empty send log would make every address look
+          # new and break the week's rest (private_store.py, mailer.py).
+          python3 scripts/private_store.py pull
+          python3 scripts/tree_approved.py --send
+          python3 scripts/sightings_publish.py --flush-mail --send
+          python3 scripts/private_store.py push
+          if ! git diff --quiet data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json; then
+            git config user.name "claude[bot]"
+            git config user.email "41898282+claude[bot]@users.noreply.github.com"
+            git add data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json
+            git commit -m "Readers told their tree or photograph is live, after the deploy"
+            git pull --rebase origin main
+            git push
+          fi
