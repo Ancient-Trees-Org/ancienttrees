@@ -208,8 +208,8 @@ def mailbox(since, wanted_to, wanted_subj):
     user, pw = os.environ.get("OUTREACH_SMTP_USER"), os.environ.get("OUTREACH_SMTP_PASS")
     if not (user and pw):
         return None
-    d = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
-    d.login(user, pw)
+    import google_gate  # the one door to Google, with its ceiling
+    d = google_gate.mailbox()
     from imap_folders import folder
     d.select(folder(d, '"[Gmail]/Sent Mail"'), readonly=True)
     day = datetime.date.fromisoformat(since)

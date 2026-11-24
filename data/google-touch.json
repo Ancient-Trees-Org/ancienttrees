@@ -1,0 +1,29 @@
+{
+  "rule": "Every script that touches Hidde's Google account, where it runs and how often. Mailbox logins go through scripts/google_gate.py only. A new script that touches Google gets a row here in the same change; logins_per_day may not add up to more than the budget. Raising the budget or adding a new kind of Google traffic needs Hidde (2026-11-24, after Google disabled the Gmail).",
+  "mailbox_logins_per_day_budget": 40,
+  "touches": [
+    {"script": "reader_mail_replies.py", "kind": "mailbox", "logins_per_day": 8,
+     "where": "reader-judge.yml, once per three-hour slot (readers' replies, plus the incoming-mail alarm)"},
+    {"script": "mailer.py", "kind": "mailbox", "logins_per_day": 15,
+     "where": "keep_copy(): one login per run that sends mail through Resend, to file the copy in Sent"},
+    {"script": "signin_watch.py", "kind": "mailbox", "logins_per_day": 12,
+     "where": "nightly.yml bounce check, only in a knock that has a sign-in mail to resend"},
+    {"script": "sent_drafts.py", "kind": "mailbox", "logins_per_day": 1,
+     "where": "data-digest.yml once a day; sessions by hand"},
+    {"script": "outreach_yield.py", "kind": "mailbox", "logins_per_day": 1,
+     "where": "data-digest.yml once a day"},
+    {"script": "outreach_inbox.py", "kind": "mailbox", "logins_per_day": 0,
+     "where": "sessions only, on Hidde's Mac (not counted: his own machine and address)"},
+    {"script": "outreach_threads.py", "kind": "mailbox", "logins_per_day": 0,
+     "where": "sessions only, on Hidde's Mac (not counted: his own machine and address)"},
+    {"script": "daily_digest.py", "kind": "api", "where": "data-digest.yml once a day: Search Console read (OAuth, read-only)"},
+    {"script": "audience.py", "kind": "api", "where": "Search Console read (OAuth, read-only), by hand"},
+    {"script": "ga_auth.py", "kind": "api", "where": "one-off OAuth setup on the Mac for GA and Search Console"},
+    {"script": "ga_report.py", "kind": "api", "where": "data-digest.yml once a day: Analytics read (OAuth, read-only)"},
+    {"script": "gsc_inspect.py", "kind": "api", "where": "gsc-inspect.yml, by hand only: URL Inspection (read-only)"},
+    {"script": "seo_diagnose.py", "kind": "api", "where": "seo-diagnose.yml, by hand only: Search Console read"},
+    {"script": "page_speed.py", "kind": "api", "where": "page-speed.yml once a day: PageSpeed API, no account"},
+    {"script": "pagespeed.py", "kind": "api", "where": "by hand: PageSpeed API, no account"},
+    {"script": "outreach_send.py", "kind": "api", "where": "names Gmail only to refuse it: batches go through Resend (google=False)"}
+  ]
+}

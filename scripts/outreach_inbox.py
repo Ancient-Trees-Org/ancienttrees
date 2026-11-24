@@ -280,8 +280,8 @@ def main():
 
     addrs, domains, FREEMAIL_SEEN = allowed_senders()
     SUBJECTS = our_subjects()
-    d = imaplib.IMAP4_SSL(host)
-    d.login(user, pw)
+    import google_gate  # the one door to Google, with its ceiling
+    d = google_gate.mailbox()
     y, m, dd = since.split("-")
     month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][int(m) - 1]

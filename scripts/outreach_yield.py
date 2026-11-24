@@ -69,8 +69,8 @@ def inbox(since):
     if not (user and pw):
         return None
     me = ours()
-    d = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
-    d.login(user, pw)
+    import google_gate  # the one door to Google, with its ceiling
+    d = google_gate.mailbox()
     from imap_folders import folder
     if d.select(folder(d, '"[Gmail]/All Mail"'), readonly=True)[0] != "OK":
         d.logout()

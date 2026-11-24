@@ -44,6 +44,7 @@ Reference: data/cities/london.json. Per tree: `id`, `name`, `species` ("Common (
 - **The window is the job**: after every merged item go back to the shelf until 25 minutes remain. Commit the smallest complete step first.
 - Shell: one command per Bash call. No `&&`, pipes into a second binary, heredocs, loops, or multi-statement `python3 -c`; write a script to out/tmp/ and run it. Keep every path inside the repo. (`check_run_prompt_forbids_compound_commands()`.)
 - A run does not push builds; it dispatches one deploy at the end of its window.
+- **One door to Google, with a ceiling** (Hidde, 2026-11-24, after Google disabled the Gmail: "dat we niet ergens anders enthousiast dingen met google doen die ons weer gebanned kan krijgen"): every mailbox login goes through `scripts/google_gate.py` (one connection a run, at most two logins, never a retry after a refusal); every script that touches Google has a row in data/google-touch.json saying where and how often, and its mailbox logins a day stay within the budget (40; raising it is his). qa `check_google_is_touched_through_one_door()`. The reader judge reads the mailbox once per three hours. Sessions too: no bulk action in a Google account (Play, Workspace, Cloud, Search Console) by script or looping browser clicks.
 - Dependabot's pull requests (.github/dependabot.yml, Hidde 2026-11-04) are never auto-merged and the night run never merges one; a session reads it, lets CI build it, and merges by hand.
 
 ## Step 0: pick the work (the ladder)

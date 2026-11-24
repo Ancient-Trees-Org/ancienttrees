@@ -160,8 +160,8 @@ def bounced_addresses(days=7):
         return set()
     out = set()
     try:
-        box = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"), timeout=30)
-        box.login(user, pw)
+        import google_gate  # the one door to Google, with its ceiling
+        box = google_gate.mailbox()
         since = (datetime.date.today() - datetime.timedelta(days=days)).strftime("%d-%b-%Y")
         from imap_folders import folder as role_folder
         for folder in ("INBOX", "[Gmail]/Spam"):

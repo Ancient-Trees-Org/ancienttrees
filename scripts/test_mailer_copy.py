@@ -9,6 +9,7 @@ from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import mailer  # noqa: E402
+import google_gate  # noqa: E402
 
 
 class FakeBox:
@@ -33,15 +34,15 @@ class FakeBox:
 class OneLogin(unittest.TestCase):
     def setUp(self):
         FakeBox.logins = 0
-        mailer._close_copy_box()
+        google_gate.reset()
 
     def tearDown(self):
-        mailer._close_copy_box()
+        google_gate.reset()
 
     def test_many_mails_one_login(self):
         env = {"OUTREACH_SMTP_USER": "x@ancienttrees.app", "OUTREACH_SMTP_PASS": "p"}
         with mock.patch.dict(os.environ, env), \
-             mock.patch.object(mailer.imaplib, "IMAP4_SSL", FakeBox):
+             mock.patch.object(google_gate.imaplib, "IMAP4_SSL", FakeBox):
             for _ in range(25):
                 mailer.keep_copy(EmailMessage())
         self.assertEqual(FakeBox.logins, 1)
@@ -53,7 +54,7 @@ class OneLogin(unittest.TestCase):
                 raise mailer.imaplib.IMAP4.error("AUTHENTICATIONFAILED")
         env = {"OUTREACH_SMTP_USER": "x@ancienttrees.app", "OUTREACH_SMTP_PASS": "p"}
         with mock.patch.dict(os.environ, env), \
-             mock.patch.object(mailer.imaplib, "IMAP4_SSL", Refused):
+             mock.patch.object(google_gate.imaplib, "IMAP4_SSL", Refused):
             mailer.keep_copy(EmailMessage())
         self.assertEqual(FakeBox.logins, 1)
 

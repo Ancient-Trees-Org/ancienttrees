@@ -45,6 +45,7 @@ sys.path.insert(0, HERE)
 from outreach_inbox import strip_prefixes, decode, body_of, BOXES  # noqa: E402
 from imap_folders import folder  # noqa: E402
 import inbox_health  # noqa: E402
+import google_gate  # noqa: E402
 
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 SENT = os.path.join(ROOT, "data", "outreach-sent.json")
@@ -144,8 +145,7 @@ def main(argv):
     # The same login tells whether mail still reaches us (inbox_health.py,
     # Hidde 2026-11-24): no second login, a failure recorded before it raises.
     try:
-        imap = imaplib.IMAP4_SSL(os.environ.get("OUTREACH_IMAP_HOST", "imap.gmail.com"))
-        imap.login(user, pw)
+        imap = google_gate.mailbox()
     except Exception as e:
         inbox_health.record_failure(e)
         raise

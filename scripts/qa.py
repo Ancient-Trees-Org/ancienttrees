@@ -1460,6 +1460,45 @@ def check_no_script_mails_through_google():
     return out
 
 
+def check_google_is_touched_through_one_door():
+    """Nothing gets enthusiastic with Google again (Hidde, 2026-11-24: "kunnen
+    we ook iets inbouwen dat we niet ergens anders enthousiast dingen met
+    google doen die ons weer gebanned kan krijgen?"). Google disabled the
+    Gmail after weeks of machine traffic that each script had added a piece
+    of: hundreds of mails a day, ~125 mailbox logins a day from GitHub's
+    servers, one login per mail filed in Sent. So:
+    - only scripts/google_gate.py opens an IMAP connection;
+    - every script that names a Google host (imap/smtp.gmail.com,
+      googleapis.com, accounts.google.com) has a row in data/google-touch.json;
+    - the ledger's mailbox logins a day stay within its budget.
+    Raising the budget or removing this check needs Hidde."""
+    root = Path(__file__).resolve().parent.parent
+    out = []
+    try:
+        led = json.loads((root / "data" / "google-touch.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        return ["data/google-touch.json is missing or unreadable (%s)" % e.__class__.__name__]
+    listed = {r.get("script") for r in led.get("touches", [])}
+    google = re.compile(r"imap\.gmail\.com|smtp\.gmail\.com|googleapis\.com|accounts\.google\.com")
+    skip = {"google_gate.py", "qa.py"}
+    for f in sorted((root / "scripts").glob("*.py")):
+        if f.name in skip or f.name.startswith("test_"):
+            continue
+        src = f.read_text(encoding="utf-8", errors="ignore")
+        if re.search(r"IMAP4(_SSL)?\(", src):
+            out.append("scripts/%s opens its own IMAP connection; log in to Google through "
+                       "google_gate.mailbox() (one connection a run, a ceiling)" % f.name)
+        if (google.search(src) or "google_gate" in src) and f.name not in listed:
+            out.append("scripts/%s touches Google but has no row in data/google-touch.json "
+                       "(where it runs, how often a day)" % f.name)
+    total = sum(int(r.get("logins_per_day", 0) or 0) for r in led.get("touches", []))
+    budget = int(led.get("mailbox_logins_per_day_budget", 0) or 0)
+    if total > budget:
+        out.append("data/google-touch.json adds up to %d Google mailbox logins a day, over its "
+                   "budget of %d; raising it needs Hidde" % (total, budget))
+    return out
+
+
 def check_one_email_domain_list():
     """"Did you mean ...?" under the email field (Hidde, 2026-11-16; CONVENTIONS.md
     "A mistyped email address") runs on three surfaces from one list,
@@ -4985,6 +5024,7 @@ def main():
         check_a_website_tree_says_approved_on_my_trees,
         check_one_mail_route_rule,
         check_no_script_mails_through_google,
+        check_google_is_touched_through_one_door,
         check_one_email_domain_list,
         check_a_readers_words_go_public_only_after_the_field_said_so,
         check_a_pull_keeps_unpushed_send_lines,

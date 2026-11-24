@@ -13,8 +13,9 @@ addrs=[c['email'] for c in d['contacts'] if c['status'] in ('asked','replied','r
 P='data/outreach-threads.json'
 out=json.load(open(P)) if os.path.exists(P) else {}
 def conn():
-    M=imaplib.IMAP4_SSL(os.environ.get('OUTREACH_IMAP_HOST','imap.gmail.com'))
-    M.login(os.environ['OUTREACH_SMTP_USER'],os.environ['OUTREACH_SMTP_PASS'])
+    import google_gate  # one door, at most two logins a run: no reconnect storm
+    google_gate._close()
+    M=google_gate.mailbox()
     box=[b.decode().split(' "/" ')[-1] for b in M.list()[1] if b'\\All' in b][0]
     M.select(box, readonly=True); return M
 M=conn()
