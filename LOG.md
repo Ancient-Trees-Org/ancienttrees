@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-24 session: Google sign-in chooser, swipe down on a pin's card checked
+
+- Live (web on the next deploy, apps in their next build): Sign in with Google always shows Google's account chooser (`prompt=select_account` on iOS OAuth.swift, Android Account.kt, web signin-js.ts). Hidde's Samsung took the browser's unknown account with no way to switch. Supabase forwards the parameter (read on the live authorize redirect). Test AccountTest.googleAlwaysAsksWhichAccount; escaped bug recorded.
+- Swipe down on a tapped pin's card: already built on both phones (PinSelection / MapTab.kt), and it works in current source in the iOS simulator and the Android emulator (a short quick swipe and a slow 80 pt drag both let the tree go; a slow 60 pt drag springs back, the nearest-stop rule). Nothing changed; asked Hidde which phone and build he saw it on.
+
 ## 2026-11-24 night run (second attempt, 18:47 window): nothing shipped, shelf checked again
 
 - No claims standing. `leads.py --ready` lists one lead (York, Riverside London Plane): an ambassador's what3words pin, no photograph, no written source, so no story can be written without inventing one; it waits for a photo. The 382 "awaiting a writer" trees are almost all stale research files or duplicates of live ids (passcheck --pending flags them); folding them is a hand job, not a write pass.
