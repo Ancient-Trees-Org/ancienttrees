@@ -1,0 +1,99 @@
+{
+  "city": "Tsagarada",
+  "country": "Greece",
+  "status": "needs_curation",
+  "intro": "Tsagarada is a cluster of stone hamlets on the wooded eastern slope of Mount Pelion, in Greece, above the Aegean. In the square of Agia Paraskevi a huge plane tree shades the cafe tables, one of its great limbs carried on a stone pillar. A reader sent us three photographs of it, taken after dark with its branches lit from below, and puts its age at about a thousand years.",
+  "meta_description": "The giant plane in the square of Agia Paraskevi, Tsagarada, on Mount Pelion: what it looks like, where it stands and what readers say of its age.",
+  "hero_tree_id": "tsg_001",
+  "oldest_tree_id": "tsg_001",
+  "trees": [
+    {
+      "id": "tsg_001",
+      "name": "The Plane of Agia Paraskevi",
+      "species": "Oriental Plane (Platanus orientalis)",
+      "age_estimate": "about 1,000 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Agia Paraskevi square, Tsagarada, Pelion",
+        "latitude": 39.386745,
+        "longitude": 23.1745916667,
+        "neighbourhood": "Agia Paraskevi"
+      },
+      "story": "In the square of Agia Paraskevi, in the Pelion mountain village of Tsagarada, the cafe tables stand under a plane tree of enormous girth. A reader sent us three photographs of it, taken after dark with the branches lit from below.\n\nThe photographs show why people stop. The trunk comes up out of a stone-edged bed set into the paving, and from it the limbs leave almost sideways, thick as trunks themselves, and run out over the chairs. One of them rests on a square pillar of stacked stone, and another ends in a wide, rounded wound where an old branch was taken off. Where the light catches it, the bark shows in grey and cream patches, and the last autumn leaves hang gold in the crown.\n\nThe reader gives it as about a thousand years old, with a girth of 14 to 15 metres, and says the trunk starts four metres below the square's paving. Those are their figures, not a measurement we have seen. A tree of this kind is hard to date, and we would like to hear from anyone who has counted or measured it.\n\nGo in the evening, when the square's lamps come on, and walk all the way round the pillar to see how the great limb is held.",
+      "how_to_recognise": "A vast plane in the middle of the village square, rising from a stone-edged bed in the paving, with one great limb resting on a square pillar of stacked stone and cafe tables beneath.",
+      "verified_sources": [
+        "A reader's app submission with three photographs, 2026-11-22"
+      ],
+      "found_by_reader": {
+        "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+        "date": "2026-11-24"
+      },
+      "verify_notes": "2026-11-24 session: sent by a reader through the app (submission 1414, sighting c50bb407-3ade-4813-b8d8-9c3a9256b713, 2026-11-22). The photographs were viewed: three night frames of one plane with the stone pillar under its great limb, daylight not applicable, colour. Location from the photograph's own location. The reader's note repeats a travel text, so it is not quoted; their figures (about 1,000 years, 14 to 15 m girth, trunk starting 4 m below the paving) are stated as theirs. Another reader's tip of 2026-11-22 (tip-1433) for the same tree was held as doubt_photo (a screenshot); this reader's photographs are their own. The famous lead 'The Plane of Agia Paraskevi, Tsagarada (Pelion)' in data/leads/_famous-greece.json is this tree.",
+      "access": "Free. In the village square, with cafes around it; open at all hours.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+        "moved_m": 0,
+        "date": "2026-11-24",
+        "note": "The pin marks where a reader stood to photograph this tree; the photographs were checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, 2026-11-20 (autumn leaves still in the crown)",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7fa80e0b4fffedc4d05bc6ba",
+        "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+        "note": "Photographed by a reader and sent through the app; looked at 2026-11-24: the whole plane at night from the paving, its limbs lit from below, the stone pillar under the great limb, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-extra1.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, 2026-11-20 (autumn leaves still in the crown)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_7fa80e0b4fffedc4d05bc6ba",
+          "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+          "note": "The same reader's further photograph, looked at 2026-11-24: the lit crown and trunk over the cafe chairs. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-extra2.jpg",
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, 2026-11-20 (autumn leaves still in the crown)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7fa80e0b4fffedc4d05bc6ba",
+          "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+          "note": "The same reader's further photograph, looked at 2026-11-24: the great limb on its stone pillar and the pruning wound, with the bed round the trunk. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
+    }
+  ],
+  "question_meta": "The giant plane in the square of Agia Paraskevi, Tsagarada, on Mount Pelion: what it looks like, where it stands and what readers say of its age.",
+  "question_answer": "The Plane of Agia Paraskevi stands in the village square of Agia Paraskevi in Tsagarada, on Mount Pelion. It is in the open square among the cafe tables, free to see at any hour.",
+  "question_context": "A reader sent us three photographs of this plane tree in the square of Agia Paraskevi, in Tsagarada on Mount Pelion. The tree is an oriental plane, Platanus orientalis. In the photographs, taken after dark, the trunk rises from a stone-edged bed set into the paving and gives way almost at once to limbs as thick as trunks, which run out sideways over the cafe chairs. One rests on a square pillar of stacked stone, and another ends in a wide, rounded wound where an old branch was cut away. Lamps and floodlights pick out the grey and cream patches of the bark and the last gold leaves of the crown. The reader puts the tree at about a thousand years old, with a girth of 14 to 15 metres, and says the trunk starts four metres below the paving of the square. Those figures are theirs; we have not seen a measurement or a register entry for the tree. It stands in the middle of the square, so the way to see it is to sit down at one of the tables beneath it, or walk round the pillar and the bed at its foot.",
+  "faq": [
+    {
+      "q": "Can I visit The Plane of Agia Paraskevi?",
+      "a": "Yes. It stands in the village square of Agia Paraskevi in Tsagarada, among the cafe tables, and the square is open at any hour."
+    }
+  ]
+}

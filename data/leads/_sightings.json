@@ -11655,6 +11655,29 @@
    "seen": "2026-11-23",
    "judged": "2026-11-23",
    "published_as": "willistown/wtn_004"
+  },
+  {
+   "sighting_id": "c50bb407-3ade-4813-b8d8-9c3a9256b713",
+   "user_id": "p_7fa80e0b4fffedc4d05bc6ba",
+   "mine": false,
+   "name": "Oriental Plane",
+   "unsure_among": null,
+   "species": "Oriental Plane",
+   "age": "1000",
+   "girth_cm": 1500,
+   "girth_hugs": null,
+   "note": "(a travel text about the Tsagarada plane, not quoted)",
+   "latitude": 39.386745,
+   "longitude": 23.1745916667,
+   "location_kind": "photo",
+   "taken_month": 11,
+   "photo": null,
+   "extra_files": [],
+   "status": "published",
+   "why": "Photographs viewed 2026-11-24: three night frames of the Tsagarada plane in its square, the stone pillar under the great limb. Live as tsagarada/tsg_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-22",
+   "judged": "2026-11-24",
+   "published_as": "tsagarada/tsg_001"
   }
  ]
 }
