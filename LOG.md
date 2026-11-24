@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-24 reader judge: a second reader photo of the Lisbon pohutukawa; Girona ambassador question
+
+- **Lisbon, lis_038, The Pohutukawa of Campo Santana** (app, sighting c34cee42): a wide daylight view of the garden, with the pohutukawa's leaning stems and its hanging red root mats in the middle. It is this tree (species and recognition line match), so the photo goes into the gallery behind the current reader lead, which shows the roots closer and which Hidde had picked. Filed as November. The pin catch-up hit an HTTPError, which does not matter here because the pin is already a confirmed GPS fix.
+- **Girona, feedback 1603** (mail reply from the reader who added gir_008): they don't know the tree's age yet, and they ask what being an ambassador would involve before saying yes. Closed `needs_hidde`. A suggested answer is in drafts/reply-reader-1603-2026-11-24.md (mailcheck clean). No badge yet, because they have not said yes. reader_words row 1603 closed: it is a question to us, with nothing to quote.
+- Left as it was: the 37 waiting leads in _sightings.json are all `mine` (our own account), so they are not readers' trees, and none of their photos is on disk. Lead 3c544597 is one of them. No open reports. preflight 0, qa source clean, i18ncheck clean.
+
 ## 2026-11-24 reader judge: two readers' trees live (Verona mulberry, Ota zelkova)
 
 - **Verona, ver_011, The Silk Mulberry of Ca' di David** (app, sighting 2cbeafcc): an old pollarded white mulberry splitting low around a hollow, by a country road on Verona's southern edge. The reader's words go on the page quoted (silk farming), and their 120 to 130 years and 320 cm are stated as theirs. The pin is approximate: they placed it by hand, then moved it twice after sending (reports 1000140/1000141, same account), and their last spot is used. Those two reports are closed `holds` with no mail, because they were part of adding their own tree. The tree is behind a wire fence, so `access` says to look from the road. Lead photo (May, the photo's own date) plus two strip frames. Verona's counts are updated in English and in the kept Italian overlay, whose title no longer says 10.

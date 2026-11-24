@@ -605,6 +605,76 @@
    "agreed": null
   },
   {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "p_0a92b73bb85b607e09b323ee/2CBEAFCC-400D-4069-A050-CEE475026121.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole lower mulberry in summer leaf, trunk splitting low around a hollow, wire fence and road behind, daylight, colour. Lead photograph of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-1",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-1.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the pollarded trunk close up, two stems and cut knuckles, daylight, colour. In the strip of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-3",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "White Mulberry near Verona",
+   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the trunk from the field side under the crown, daylight, colour. In the strip of verona/ver_011.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1598",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Zelkova serrata of Kanayama",
+   "photo": "p_ed78f0fc4542478a0ccd3d87/505318cd-1911-44de-a416-151693fb4cf9.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-24: the whole zelkova in late autumn, limbs on props, chain fence, gravel paths, daylight, colour. Lead photograph of ota/otg_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:c34cee42-d585-4200-926b-7409b75205e1",
+   "seen": "2026-11-24",
+   "kind": "photo of a tree we map",
+   "tree": "The Pohutukawa of Campo Santana",
+   "city": "Lisbon",
+   "species": "Pohutukawa (Metrosideros excelsa)",
+   "photo": "out/sightings/c34cee42-d585-4200-926b-7409b75205e1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pohutukawa (Metrosideros excelsa)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the pohutukawa with its hanging red root mats, centre of a wide garden view in daylight; this tree, so it joins the gallery behind the reader lead (lis_038).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
    "seen": "2026-11-23",
    "kind": "photo of a tree we map",
@@ -27571,54 +27641,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "White Mulberry near Verona",
-   "photo": "p_0a92b73bb85b607e09b323ee/2CBEAFCC-400D-4069-A050-CEE475026121.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the whole lower mulberry in summer leaf, trunk splitting low around a hollow, wire fence and road behind, daylight, colour. Lead photograph of verona/ver_011.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-1",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "White Mulberry near Verona",
-   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-1.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the pollarded trunk close up, two stems and cut knuckles, daylight, colour. In the strip of verona/ver_011.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2cbeafcc-400d-4069-a050-cee475026121-extra-3",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "White Mulberry near Verona",
-   "photo": "out/sightings/2cbeafcc-400d-4069-a050-cee475026121-extra-3.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the trunk from the field side under the crown, daylight, colour. In the strip of verona/ver_011.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:tip-1598",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "Zelkova serrata of Kanayama",
-   "photo": "p_ed78f0fc4542478a0ccd3d87/505318cd-1911-44de-a416-151693fb4cf9.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed 2026-11-24: the whole zelkova in late autumn, limbs on props, chain fence, gravel paths, daylight, colour. Lead photograph of ota/otg_001.",
    "hidde": null,
    "agreed": null
   }

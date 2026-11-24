@@ -357,6 +357,11 @@
    "status": "handled",
    "what": "Reader confirmed the campus is reachable from the street; the Shanghai ginkgos went live on that in the previous run (sha_002)."
   },
+  "1603": {
+   "date": "2026-11-24",
+   "status": "needs_hidde",
+   "what": "Asks what the ambassador role involves before saying yes, no age known yet; suggested answer in drafts/reply-reader-1603-2026-11-24.md"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",
