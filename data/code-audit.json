@@ -601,8 +601,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/Profiles.swift",
    "summary": "The country picked in the app was never saved: the apps' upsert was refused for an empty display_name (fixed server-side by supabase/flag-upsert-fix.sql); Android has the same save",
    "first_seen": "2026-11-22",
-   "status": "open",
-   "found_by": "reader"
+   "status": "fixed",
+   "found_by": "reader",
+   "test": "scripts/test_flag_upsert.py:TestFlagUpsertFix",
+   "fixed_in": "1aaa5402e"
   },
   {
    "id": "ESC-2026-11-22-explore-map-search-only-the-typed-text-t",
@@ -635,9 +637,10 @@
    "file": "scripts/sightings_inbox.py",
    "summary": "A tree sent from the app with only further photographs (main photo empty) was never read by sightings_inbox, so no lead existed and it sat unjudged for two days (Tsagarada plane, submission 1414)",
    "first_seen": "2026-11-24",
-   "status": "open",
+   "status": "fixed",
    "found_by": "test",
-   "test": "scripts/test_sightings.py:TestExtraOnlySighting"
+   "test": "scripts/test_sightings.py:TestExtraOnlySighting",
+   "fixed_in": "1aaa5402e"
   }
  ]
 }
