@@ -1,5 +1,42 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-25",
- "queue": []
+ "queue": [
+  {
+   "sighting_id": "bddcda78-ceef-4f9d-bfd3-40836fc3667d",
+   "user_id": "p_2d57f02847d77aa9cc40c5a1",
+   "tree_id": "var_001",
+   "city_slug": "varese",
+   "city": "Varese",
+   "tree_name": "The Great Cedar of Varese",
+   "match": "distance",
+   "distance_m": 10,
+   "mine": false,
+   "current_photo": "approved",
+   "current_source": "contributor",
+   "tree_species": "Cedar of Lebanon (Cedrus libani)",
+   "recognise": "A huge dark cedar with several trunks rising inside a low fence, information boards and a white bench with a red heart in front of it on the lawn.",
+   "tree_girth_cm": null,
+   "tree_height_m": 34.0,
+   "story": "Italy keeps a national register of its monumental trees, and Varese, the garden city at the foot of the Alps between Lake Maggiore and Lake Como, has several. A reader sent us this one, and the register lists a Lebanon cedar here, 34 metres tall.\n\nThe photograph shows a tree that has outgrown its garden. Several trunks rise together from the lawn and carry a dark, tiered crown so broad that it fills the frame from side to side, the layered branches stepping out in the flat shelves that make a cedar of Lebanon recognisable from far away. At its foot a low fence keeps people off the roots, and in front of it the garden has set out benches, information boards and a white bench painted with a re",
+   "name": "Cedar of Lebanon in Varese",
+   "species": "Cedar of Lebanon",
+   "girth_cm": 1100,
+   "girth_hugs": null,
+   "note": "",
+   "taken_at": "2026-11-23",
+   "photo_path": "p_2d57f02847d77aa9cc40c5a1/BDDCDA78-CEEF-4F9D-BFD3-40836FC3667D.jpg",
+   "age": "177",
+   "sign_path": null,
+   "sign_file": null,
+   "extra_files": [],
+   "latitude": 45.8154133333333,
+   "longitude": 8.82277833333333,
+   "file": "out/sightings/bddcda78-ceef-4f9d-bfd3-40836fc3667d.jpg",
+   "light": null,
+   "vouched": null,
+   "rank": 1,
+   "worth": "the tree already has one: ship this only if it is better"
+  }
+ ]
 }

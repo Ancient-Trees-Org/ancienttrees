@@ -72,7 +72,23 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a vast cedar of Lebanon on a lawn, its dark tiered crown far wider than the garden fence around its foot, benches and information boards in front, blue sky, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/var_001-the-great-cedar-of-varese-bddcda78.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_2d57f02847d77aa9cc40c5a1",
+          "sighting_id": "bddcda78-ceef-4f9d-bfd3-40836fc3667d",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-25"
+        }
+      ]
     },
     {
       "id": "var_002",

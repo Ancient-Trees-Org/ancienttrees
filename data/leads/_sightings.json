@@ -12384,6 +12384,37 @@
    "seen": "2026-11-25",
    "judged": "2026-11-25",
    "published_as": "la-salle/lsa_001"
+  },
+  {
+   "sighting_id": "2b60934b-b1d3-4799-9020-d3189d754166",
+   "user_id": "p_b8a9f9498ee0e37cb3d2b9f3",
+   "mine": false,
+   "name": "Pedunculate Oak",
+   "unsure_among": null,
+   "species": "Pedunculate Oak",
+   "age": "410",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 51.396557246383,
+   "longitude": -1.69447305612424,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_b8a9f9498ee0e37cb3d2b9f3/2B60934B-B1D3-4799-9020-D3189D754166.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-25"
   }
  ]
 }

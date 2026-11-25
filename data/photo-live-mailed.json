@@ -3365,6 +3365,21 @@
      "mailed": "2026-11-25"
     }
    ]
+  },
+  "p_2d57f02847d77aa9cc40c5a1": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "bddcda78-ceef-4f9d-bfd3-40836fc3667d",
+     "tree_id": "var_001",
+     "tree_name": "The Great Cedar of Varese",
+     "city": "Varese",
+     "city_slug": "varese",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
