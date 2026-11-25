@@ -82,6 +82,18 @@ if ! out=$(echo "$CHANGED" | sort -u | xargs python3 scripts/mapparity.py 2>&1);
     exit 1
 fi
 
+# NOTHING PERSONAL IN A PUBLIC REPO (Hidde, 2026-11-25: "mss goed idee om
+# niet meer dit soort persoonlijke dingen erin te zetten"). His job, income,
+# benefits or employer in a line this push adds is refused.
+if ! out=$(python3 scripts/personalcheck.py "${base:-origin/main}" "${local_sha:-HEAD}" 2>&1); then
+    echo ""
+    echo "pre-push: personal details in a public file"
+    echo "$out" | sed 's/^/  /'
+    echo ""
+    echo "Nothing was pushed."
+    exit 1
+fi
+
 # PITCH COPY, checked before it can leave (2026-09-04). The nudge hook puts the
 # calibration in front of a first draft; this is the net under it, because the
 # draft that reaches a stranger is the one in a file. Narrow on purpose:
