@@ -1,44 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-25",
- "queue": [
-  {
-   "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46",
-   "user_id": "p_8debc1a01e9228232e31dc0d",
-   "tree_id": "tor_003",
-   "city_slug": "turin",
-   "city": "Turin",
-   "tree_name": "The Ginkgo of the Giardini Cavour",
-   "match": "app",
-   "distance_m": 0,
-   "mine": false,
-   "current_photo": "approved",
-   "current_source": null,
-   "tree_species": "Ginkgo (Ginkgo biloba)",
-   "recognise": "You can recognise it by its straight trunk, limbs coming off in level tiers, and fan-shaped leaves that turn hard yellow in November. It stands about 60 metres from the plane in the Giardini Cavour.",
-   "tree_girth_cm": 370,
-   "tree_height_m": 27.0,
-   "story": "Sixty metres from the plane stands a tree with no living relatives. Ginkgo biloba is the only surviving species of an entire order of plants, closer to the conifers than to anything else with a broad leaf, and near identical leaves come out of rock two hundred million years old. This one is twenty-seven metres tall and three metres seventy round, planted with the rest of the garden in the 1870s. The register lists it for its particular vegetative architecture rather than its size, and standing under it shows why. The trunk goes up hard and straight, the limbs come off it in tiers, and the fan shaped leaves sit in flat sprays instead of a dome. Go in November. Ginkgo autumn is one of the few ",
-   "name": "The Ginkgo of the Giardini Cavour",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-16",
-   "photo_path": "p_8debc1a01e9228232e31dc0d/75E408B1-04BB-4837-92C8-8A9E0AC8DD46.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [
-    "out/sightings/75e408b1-04bb-4837-92c8-8a9e0ac8dd46-extra-1.jpg"
-   ],
-   "latitude": 45.06329,
-   "longitude": 7.69029,
-   "file": "out/sightings/75e408b1-04bb-4837-92c8-8a9e0ac8dd46.jpg",
-   "light": null,
-   "vouched": null,
-   "rank": 1,
-   "worth": "the tree already has one: ship this only if it is better"
-  }
- ]
+ "queue": []
 }

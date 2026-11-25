@@ -3296,6 +3296,21 @@
      "mailed": "2026-11-25"
     }
    ]
+  },
+  "p_b9d53a1c0576cab509d0c6a6": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7dc57433-15cc-48bc-91cf-cbb6cf577004",
+     "tree_id": "bol_002",
+     "tree_name": "The Sequoia of the Giardini Margherita",
+     "city": "Bologna",
+     "city_slug": "bologna",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

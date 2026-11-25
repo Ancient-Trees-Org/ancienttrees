@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25 reader judge: Bologna redwood photo live
+
+- A reader's photograph of The Sequoia of the Giardini Margherita (bologna/bol_002) is on the page: the whole coast redwood from base to crown above autumn trees, 20 m from our pin, species and description match. Added as `add`, so it leads and the old photo moves to the strip; filed under November. The reader's mail went through sightings_publish --send. The pin catch-up could not read coordinates (HTTPError); our pin was left as it was.
+- Left waiting: sighting 3c544597 (Amsterdam, sent from one of our own accounts as `mine`, "not sure which tree" near ams_032). Its photograph is not on disk, so it was not judged blind. It is our own photo and never auto-publishes anyway.
+- No open reports, no unjudged feedback or tips, no reader words waiting to be quoted.
+
 ## 2026-11-25 night run (third attempt): nothing to ship
 
 No claims standing. Same three READY leads (york, guimaraes, leamington-spa), already handed back by the write pass, so not redispatched. prepare.py's "awaiting a writer" pile is stale files or duplicates of live trees (passcheck --pending). Own research is paused. Reader photo tor_003 is the reader judge's. Nothing changed in the product.

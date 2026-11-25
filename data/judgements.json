@@ -106,6 +106,28 @@
    "agreed": null
   },
   {
+   "id": "sight:7dc57433-15cc-48bc-91cf-cbb6cf577004",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Sequoia of the Giardini Margherita",
+   "city": "Bologna",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/7dc57433-15cc-48bc-91cf-cbb6cf577004.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 20,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coast Redwood (Sequoia sempervirens)"
+   },
+   "verdict": "publish",
+   "reason": "The whole coast redwood from base to crown, rising above autumn trees, 20 m from our pin; added beside the existing photo on bol_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",

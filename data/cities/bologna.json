@@ -82,13 +82,17 @@
       "access": "Free, public park",
       "transport": "15 min walk from Bologna city centre, or bus to Viale Gozzadini",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Giardini_margherita_albero_monumentale.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Aneta Malinowska, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bol_002-the-sequoia-of-the-giardini-margherita-7dc57433.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2976,
-        "height": 3968,
-        "taken_month": 3
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b9d53a1c0576cab509d0c6a6",
+        "sighting_id": "7dc57433-15cc-48bc-91cf-cbb6cf577004",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: The whole redwood fills the frame from the base to the crown, rising above the autumn trees around it. Overcast daylight, colour, and it is 20 m from our pin. Species seen: a dense, columnar conifer with flat, feathery dark green sprays and a reddish trunk showing through. This is a coast redwood. Fits the description: a single conifer much taller than the deciduous trees and bamboo around it, standing in parkland.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Dimensions (37.4m height, 520cm circumference) from a dedicated Bologna monumental-trees article, corroborated by Wikipedia's sourced article on the gardens' history and general species collection. No individual planting date documented. Photo found 2026-07-28, filename 'Giardini margherita albero monumentale' (monumental tree), Italian caption naming the species directly as 'sequoia sempreverde', an exact match to this entry's own Coast Redwood identification, the only sequoia species this park is sourced as holding. Viewed directly: a dramatic upward shot of the massive, deeply fissured fibrous red bark and multi-stemmed trunk unmistakable as Sequoia sempervirens, with an official monument tag visible attached to the bark. Approved. Pin corrected ~110m via Italy's national monumental tree registry (RAMI), whose own entry for this exact tree records an identical 37.40m height and 5.20m circumference.",
@@ -100,7 +104,18 @@
       "official_register": {
         "name": "Alberi Monumentali d'Italia (MASAF elenco, codice AMI), no. 02/A944/BO/08",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Giardini_margherita_albero_monumentale.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Aneta Malinowska, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2976,
+          "height": 3968,
+          "taken_month": 3
+        }
+      ]
     },
     {
       "id": "bol_003",
