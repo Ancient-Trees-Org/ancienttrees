@@ -10,6 +10,7 @@
 
 - **Fixed**: the card of a tapped pin on a phone-width city map threw "el is null" (Venice, Milan, Pisa, Vancouver; Chrome and Safari) when painting saves closed it again before it was measured. Live with the next deploy.
 - **The gap behind it**: web_errors.py counted Chrome's and Safari's wording of that one fault as two orange types, and one wording was seen once the week before, so it never counted as new and never turned red, and no run picked it up. Now one fault is one type in every browser's words, and a known type firing more in a day than in the whole week before, on 3+ pages, is red too. Tests in scripts/test_web_errors.py.
+- **For the runs:** health.py shows this error RED until its reports leave the 24-hour window (about 2026-11-26 08:00 UTC). The fix is on main, so do not fix it again. The iOS red at 08:29 was no macOS runner (capacity); a rerun is dispatched.
 - The other two orange ones stay orange: a WebGL gap in Firefox 91 (maplibre's getExtension) and a one-off "Error: Na" from an old build.
 - **Play Console is done** (Hidde, 2026-11-25): trader declaration, ID and phone are finished; the Play line under "Waiting for you" is closed.
 - Reader 1433 (Tsagarada, the snowy night photo): the reply already went on 2026-11-24 10:01 UTC (submissions.replied_at). The "For Hidde" line was stale; nothing waits.
