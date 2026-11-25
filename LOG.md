@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: a reader's photograph now leads the Battersea strawberry tree
+
+- **Live:** a reader's photograph of the Battersea Park Hybrid Strawberry Tree (london/lon_025). It shows the red peeling limbs twisting up into the evergreen crown, in daylight, taken 3 m from our pin. It is now the lead photograph and the old one has moved into the strip. Verdict sight:84640469 is `publish`, and the reader's "it is live" mail goes after the deploy.
+- **Still waiting:** sighting 3c544597 (Amsterdam). It comes from our own account (`mine`) and its photo is still not on disk, so it was not judged.
+- No open reports, tips, feedback or readers' words were waiting. qa (source), preflight and i18ncheck are clean.
+
 ## 2026-11-25 session: US round 3 ready, on hold
 
 - drafts/batches/press-us-local-round3.json (private, `on_hold`): 8 more US addresses on the approved text ("Recently" for "Earlier this month"): Charleston City Paper, South Carolina Wildlife, Big Island Now, Delaware County Daily Times, Audubon magazine, Friends of the Parks Chicago, Chicagology, Bronx.com. mailcheck clean, every address on the organisation's own page. Waits for Hidde after the answers to rounds 1 and 2 (about 12-02). That empties the useful US pool; a round 4 means new searching.

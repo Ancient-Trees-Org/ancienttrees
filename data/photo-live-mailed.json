@@ -3317,6 +3317,21 @@
      "mailed": "2026-11-25"
     }
    ]
+  },
+  "p_af1c73ae9ef8c0712acd13e9": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "84640469-c5f1-4fc4-b5fc-6b25bd76406f",
+     "tree_id": "lon_025",
+     "tree_name": "The Battersea Park Hybrid Strawberry Tree",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
