@@ -173,7 +173,7 @@ No claims standing. READY leads (york, guimaraes, leamington-spa) are the ones t
 ## 2026-11-24 session: a second owner everywhere; GitHub move to an organisation prepared
 
 - **Asked by Hidde: what if Google blocks the Workspace account too.** Sending keeps working (Resend). Incoming mail is restored by moving the MX records at TransIP to another mail host. Search Console comes back through DNS; GA would start empty again; Play is the real risk. The cheapest guard is putting billing on the Workspace trial. The recovery address koos.agency ends with his job in December.
-- **Second owner**: Hidde is adding a second person as owner on Google Cloud (project Ancient Trees), and the links for Search Console, GA, Play, Supabase and Resend were given. Not yet confirmed which are done.
+- **Second owner, done (Hidde, 2026-11-25)**: a second person is now owner or admin on Google Cloud (project Ancient Trees, after the Domain Restricted Sharing policy was overridden for that project only), Search Console, GA, Play, Supabase and Resend. GitHub is the one left; it waits for the organisation.
 - **Prepared, not done**: moving the repo into a GitHub organisation, since a personal repo cannot have a second admin. The steps are in .github/ORG_MOVE.md, and `scripts/move_to_org.py <org> [--write]` rewrites the 7 files that name the owner. Waiting for Hidde to create the org (`ancient-trees-app` suggested) and say "verhuis". After the move, the Supabase dispatch token must be remade with the org as resource owner, and www's CNAME (still on the old account's github.io) should point to the org.
 
 ## 2026-11-24 session: weak points after the Google block; incoming-mail alarm live
