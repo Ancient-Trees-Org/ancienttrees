@@ -383,6 +383,12 @@
    "status": "handled",
    "what": "second what3words spot for the Raincliffe Woods tips recorded on the leads; still no photo or source, stays a lead"
   },
+  "1686": {
+   "bug": "ESC-2026-11-25-a-reader-wrote-from-the-app-s-profile-fe",
+   "date": "2026-11-25",
+   "status": "bug",
+   "what": "Recorded as an open app bug; platform unknown, the account had sent nothing yet, so the add flow needs a reproduction on both apps."
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

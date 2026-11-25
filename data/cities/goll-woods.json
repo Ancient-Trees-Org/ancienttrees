@@ -1,0 +1,115 @@
+{
+  "city": "Goll Woods",
+  "country": "United States",
+  "state": "Ohio",
+  "status": "needs_curation",
+  "intro": "Goll Woods is a state nature preserve of old forest in Fulton County, in the farm country of north-west Ohio near Archbold. A reader walked its trails in November and sent us two of its oaks: a chinkapin oak rising straight and tall beside a preserve sign, and a white oak with pale, almost silver bark about three hundred metres away.",
+  "meta_description": "Two tall oaks in Goll Woods State Nature Preserve, Ohio, sent by a reader: a chinkapin oak and a white oak, and how to find them.",
+  "hero_tree_id": "gol_001",
+  "oldest_tree_id": "gol_001",
+  "trees": [
+    {
+      "id": "gol_001",
+      "name": "The Chinkapin Oak of Goll Woods",
+      "species": "Chinkapin Oak (Quercus muehlenbergii)",
+      "location": {
+        "address": "Goll Woods State Nature Preserve, Township Road 26, near Archbold, Fulton County, Ohio",
+        "latitude": 41.5508209708336,
+        "longitude": -84.3593797672016,
+        "neighbourhood": "Goll Woods"
+      },
+      "how_to_recognise": "A very tall, straight oak with a broad mossy flare at its foot, rising far above the younger trees, with a white Ohio Department of Natural Resources sign reading Chinkapin Oak on a post beside it.",
+      "access": "Free. In a state nature preserve, on its trails, open in daylight.",
+      "story": "In Goll Woods, a state nature preserve of old forest in the farm country of north-west Ohio, a reader stopped beside this chinkapin oak in November and sent us a photograph looking straight up a trunk that seems to go on for ever.\n\nIt flares at the foot into broad, mossy buttresses, then rises grey and plated and almost without a branch, far above the younger trees around it, and only spreads its crooked limbs once it has reached the light. That is how an oak grows in a closed forest, racing its neighbours upward, and it looks nothing like the wide, low shape the same species takes in a field.\n\nA sign from the Ohio Department of Natural Resources stands on a post beside it, and the reader photographed that too. Chinkapin oak, the sign says, has acorns among the sweetest of any oak, good enough to eat raw, and its name comes from an Algonquian word that may mean great fruit.\n\nThe reader gives its girth as 450 centimetres; that is their figure. We have no age for it yet. If you know this tree, tell us here.\n\nFind the sign post, then step back and look up.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "e6cdb912-6896-4dbb-b9c2-47113b0aa590",
+        "date": "2026-11-25"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "e6cdb912-6896-4dbb-b9c2-47113b0aa590",
+        "moved_m": 0,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting e6cdb912-6896-4dbb-b9c2-47113b0aa590), their name 'Chinkapin Oak', species 'Chinkapin Oak', age 'None', girth 450 cm, location_kind device. Photograph viewed: looking up the whole tall straight trunk from its buttressed foot to the bare crown, the preserve's sign post beside it, clear November daylight, colour; a second photograph shows the Ohio Department of Natural Resources sign naming it a chinkapin oak. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gol_001-chinkapin-oak-of-goll-woods.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ed3ce913cbfa6c389149b684",
+        "sighting_id": "e6cdb912-6896-4dbb-b9c2-47113b0aa590",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: looking up the whole tall straight trunk from its buttressed foot to the bare crown, the preserve's sign post beside it, clear November daylight, colour; a second photograph shows the Ohio Department of Natural Resources sign naming it a chinkapin oak. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "gol_002",
+      "name": "The White Oak of Goll Woods",
+      "species": "White Oak (Quercus alba)",
+      "location": {
+        "address": "Goll Woods State Nature Preserve, Township Road 26, near Archbold, Fulton County, Ohio",
+        "latitude": 41.5536616461039,
+        "longitude": -84.3590704560327,
+        "neighbourhood": "Goll Woods"
+      },
+      "how_to_recognise": "A tall oak with pale, almost silver bark in shallow scales, its trunk straight and branchless for a long way before it opens into a broad fan of grey limbs.",
+      "access": "Free. In a state nature preserve, on its trails, open in daylight.",
+      "story": "The reader who sent us the chinkapin oak in Goll Woods found this white oak about three hundred metres away, and photographed it from its foot on a clear November day.\n\nWhite oak is the great oak of the eastern American forests, and its bark gives it away: pale grey, almost silver in the sun, broken into shallow scales and plates rather than the deep ridges of its relatives. Here that pale trunk climbs straight and clean through the bare woods for a long way before it branches, and the crown opens high up into a broad fan of grey limbs against the sky. In front of it a sapling still holds its dark red leaves, the last colour left in the wood.\n\nGoll Woods is an Ohio state nature preserve of old forest, and trunks like this one, grown tall and straight among their neighbours, are the reason to walk its trails. We have no girth or age for this tree. If you have measured it, or know its story, tell us here and we will add your figures.\n\nGo in late autumn or winter, when the bare woods let you see it from top to bottom.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "017ca42d-d76d-4780-b798-67c72e4e0dca",
+        "date": "2026-11-25"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "017ca42d-d76d-4780-b798-67c72e4e0dca",
+        "moved_m": 0,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 017ca42d-d76d-4780-b798-67c72e4e0dca), their name 'White Oak', species 'White Oak', age 'None', girth None cm, location_kind device. Photograph viewed: looking up the pale, scaly trunk into a broad bare crown against blue sky, a sapling's red leaves in the foreground, clear November daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gol_002-white-oak-of-goll-woods.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ed3ce913cbfa6c389149b684",
+        "sighting_id": "017ca42d-d76d-4780-b798-67c72e4e0dca",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: looking up the pale, scaly trunk into a broad bare crown against blue sky, a sapling's red leaves in the foreground, clear November daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "Two tall oaks in Goll Woods State Nature Preserve, Ohio, sent by a reader: a chinkapin oak and a white oak, and how to find them.",
+  "question_answer": "A reader sent us two oaks in Goll Woods State Nature Preserve near Archbold, Ohio: a tall chinkapin oak beside a preserve sign and a pale-barked white oak nearby.",
+  "question_context": "Goll Woods is a state nature preserve of old forest in Fulton County, north-west Ohio, near the town of Archbold, and a reader who walked its trails in November sent us two of its oaks. The first is a chinkapin oak with a broad mossy flare at its foot, rising grey and almost branchless far above the younger trees before it spreads its crown. A sign from the Ohio Department of Natural Resources stands on a post beside it, naming the species and noting that chinkapin acorns are among the sweetest of any oak. The reader gives its girth as 450 centimetres. About three hundred metres away stands a white oak, its pale, almost silver bark broken into shallow scales, its trunk straight and clean for a long way before a broad crown opens high above the bare woods. We have no ages for either tree yet. The preserve is free to visit on its trails in daylight, and late autumn or winter, when the leaves are down, shows both trunks best.",
+  "faq": [
+    {
+      "q": "Where is Goll Woods?",
+      "a": "In Fulton County, north-west Ohio, near Archbold. It is a state nature preserve with trails, free to visit in daylight."
+    },
+    {
+      "q": "Which trees do we map in Goll Woods?",
+      "a": "A tall chinkapin oak beside an Ohio Department of Natural Resources sign, and a pale-barked white oak about three hundred metres away, both sent by a reader."
+    },
+    {
+      "q": "When is the best time to see them?",
+      "a": "Late autumn or winter, when the bare woods let you see each trunk from foot to crown."
+    }
+  ]
+}

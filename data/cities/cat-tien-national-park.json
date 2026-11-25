@@ -1,0 +1,72 @@
+{
+  "city": "Cat Tien National Park",
+  "country": "Vietnam",
+  "status": "needs_curation",
+  "intro": "Cat Tien National Park protects a great stretch of lowland forest and grassland in southern Vietnam, north-east of Ho Chi Minh City in Đồng Nai province. A reader sent us one of its giants: a tung tree whose fin-shaped buttress roots stand taller than a person, which they call the Thunder Lizard and put at more than 400 years old.",
+  "meta_description": "A giant buttressed tung tree in Cat Tien National Park, Vietnam, sent by a reader: what it looks like and how to find it on the trail.",
+  "hero_tree_id": "ctn_001",
+  "oldest_tree_id": "ctn_001",
+  "trees": [
+    {
+      "id": "ctn_001",
+      "name": "The Giant Tung of Cat Tien",
+      "species": "Tetrameles (Tetrameles nudiflora)",
+      "age_estimate": "more than 400 years, by a reader's estimate",
+      "location": {
+        "address": "Forest trail in Cat Tien National Park, Đắk Lua, Đồng Nai",
+        "latitude": 11.4397221745671,
+        "longitude": 107.417267501122,
+        "neighbourhood": "Cat Tien National Park"
+      },
+      "how_to_recognise": "Beside the forest trail: a pale grey trunk rising straight into the canopy from enormous fin-shaped buttress roots, taller than a person where they meet the trunk, spreading over a floor of dark stones.",
+      "access": "Inside Cat Tien National Park, on a forest trail; the park charges an entry fee. Our pin marks the area.",
+      "story": "The reader who sent us this tree from Cat Tien National Park, north-east of Ho Chi Minh City, calls it the Thunder Lizard, and the photograph shows why it needs a big name.\n\nIt is a tung, Tetrameles nudiflora, one of the giants of the lowland forests of South and South-East Asia, and its foot is the whole spectacle. Great buttress roots run out from the trunk like the fins of a rocket, taller than a person where they meet it and still knee-high metres away, before they sink into the stony forest floor. The visitor standing between two of them in the reader's picture comes barely a third of the way up. Above them the pale grey trunk rises straight into the canopy, far over the trees around it.\n\nThe reader puts it at more than 400 years old, and writes that it outlived the war, when bombing and defoliants destroyed much of the forest canopy in the region. Those are their words; we have not yet seen a source for this tree's age, and we would welcome one.\n\nWalk the trail slowly as you come near, and look for the fins first.",
+      "age_basis": "source",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "b0e1710a-8883-4f30-8d9e-a080d25e8d21",
+        "date": "2026-11-25"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "b0e1710a-8883-4f30-8d9e-a080d25e8d21",
+        "date": "2026-11-25",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting b0e1710a-8883-4f30-8d9e-a080d25e8d21), their name 'The Thunder Lizard - Cat Tien National Park, Vietnam', species 'Thunder Lizard', age '400', girth None cm, location_kind placed. Photograph viewed: the whole base of a giant buttressed tree in forest, a person standing between two buttresses for scale, the pale trunk rising out of frame, daylight, colour; two more views show the trunk's height and the trail past it. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ctn_001-giant-tung-of-cat-tien.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_474ac6c9446d8b3d5076a2e9",
+        "sighting_id": "b0e1710a-8883-4f30-8d9e-a080d25e8d21",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole base of a giant buttressed tree in forest, a person standing between two buttresses for scale, the pale trunk rising out of frame, daylight, colour; two more views show the trunk's height and the trail past it. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "A giant buttressed tung tree in Cat Tien National Park, Vietnam, sent by a reader: what it looks like and how to find it on the trail.",
+  "question_answer": "A reader sent us a giant tung tree, Tetrameles nudiflora, beside a forest trail in Cat Tien National Park, Vietnam; they call it the Thunder Lizard.",
+  "question_context": "Cat Tien National Park, in Đồng Nai province north-east of Ho Chi Minh City, protects one of the largest areas of lowland forest left in southern Vietnam. A reader who walked its trails sent us this tree, which they call the Thunder Lizard. It is a tung, Tetrameles nudiflora, one of the giants of the lowland forests of South and South-East Asia. Its foot is the spectacle: great buttress roots run out from the trunk like the fins of a rocket, taller than a person where they meet it and still knee-high metres away, before sinking into a stony forest floor. Above them the pale grey trunk rises straight into the canopy, far over the trees around it. The reader puts it at more than 400 years old and writes that it outlived the war, when bombing and defoliants destroyed much of the forest canopy in the region. We have not yet seen a source for its age. The tree stands beside a forest trail inside the park, which charges an entry fee.",
+  "faq": [
+    {
+      "q": "Where is the giant tung of Cat Tien?",
+      "a": "Beside a forest trail inside Cat Tien National Park, in Đồng Nai province, Vietnam. Our pin marks the area."
+    },
+    {
+      "q": "How old is it?",
+      "a": "The reader who sent it puts it at more than 400 years. That is their estimate; we have not seen a source."
+    },
+    {
+      "q": "Do I need to pay to see it?",
+      "a": "Cat Tien National Park charges an entry fee; the tree stands on a trail inside the park."
+    }
+  ]
+}

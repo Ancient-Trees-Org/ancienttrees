@@ -13,6 +13,22 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 reader judge: seven readers' trees live, six new places
+
+**Live** (every photograph viewed; all under the closed list, none held):
+- Casargo, Valsassina: the Great Beech (cgo_001), a huge many-limbed beech on the track to Chiarino; the reader's 600 years and 930 cm girth stated as theirs. Hand-placed pin, approximate.
+- Goll Woods State Nature Preserve, Ohio (new place, two trees): a tall chinkapin oak beside the ODNR sign (gol_001, the reader's 450 cm girth) and a pale-barked white oak 300 m away (gol_002). GPS fixes, confirmed.
+- Cape Neddick, Maine: a broad roadside oak, "Very old and very big!" (cpn_001). Approximate.
+- Cat Tien National Park, Vietnam: a giant buttressed tung, Tetrameles nudiflora, the reader's "Thunder Lizard" (ctn_001). Approximate. Their long note reads as pasted chatbot text, so it is not quoted (reader_words --done); its 400 years and wartime account are on the page as theirs.
+- Stanton upon Hine Heath, Shropshire: an oak whose limb loops back into its own trunk (sth_001), the reader's words quoted. Approximate. Access says plainly we have not confirmed the wood is open to all.
+- Thredbo, Kosciuszko National Park: a healthy snow gum among granite boulders (thr_001), the reader's words on snow gum dieback quoted. Approximate.
+
+**Waiting:** tips 1673 and 1675, two more Goll Woods trees from the same reader with GPS fixes, came with no sighting and no photograph on this machine. Left for the next run rather than judged blind.
+
+**Feedback 1686** ("Not able to add trees", app profile form, platform unknown, the account has never sent anything): recorded as an open app bug (ESC-2026-11-25-a-reader-wrote-from-the-app-s-profile-fe) with the line the reader gets once it is fixed. It needs a signed-in reproduction of Add a tree on both apps; rung-2 work.
+
+No open reports on our trees. preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-25 session: readers' trees waited five hours; the judge now runs on its own
 
 **What happened.** The repo moved to Ancient-Trees-Org at 13:50 without the Claude GitHub app, so the reader judge's agent died in 16 seconds on every run while the run said success. The intake still wrote readers' trees and photos into the data unjudged, and preflight then refused every deploy from 15:55 to 19:00 (nine red). On top, GitHub delivered the judge's 15-minute cron about once an hour and not at all from 18:26 to 21:46 CET, and the poll looked back only 25 minutes, so what readers sent in the gaps was never seen. The Supabase trigger has not fired since 13:31.

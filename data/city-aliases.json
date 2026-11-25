@@ -1050,6 +1050,10 @@
       "Moridunum Demetarum",
       "Karvyrdhin"
     ],
+    "casargo": [
+      "Casargum",
+      "Casargh"
+    ],
     "cascais": [
       "Cascais Kommune",
       "Kaškaišas"
@@ -1093,6 +1097,18 @@
     ],
     "castlewellan": [
       "Caisleán Uidhilín"
+    ],
+    "cat-tien-national-park": [
+      "Nationaal park Cát Tiên",
+      "Nationalpark Cát Tiên",
+      "Parc national de Cát Tiên",
+      "Parque nacional Cát Tiên",
+      "Parco nazionale di Cat Tien",
+      "Parque Nacional de Cat Tien",
+      "Parc Nacional de Cat Tien",
+      "Cát Tiênin kansallispuisto",
+      "Park Narodowy Cát Tiên",
+      "Národní park Cát Tiên"
     ],
     "catania": [
       "Catane",
@@ -1964,6 +1980,9 @@
     "goliad": [
       "Goliad",
       "Goliadas"
+    ],
+    "goll-woods": [
+      "Goll Woods Nature Preserve"
     ],
     "gonzales-texas": [
       "Gonzales"
@@ -5138,6 +5157,9 @@
       "Selanik",
       "Salonikai"
     ],
+    "thredbo": [
+      "Thredbo Village"
+    ],
     "tilburg": [
       "Tilbourg",
       "Tilburgo",
@@ -5938,11 +5960,13 @@
     "canicosa-de-la-sierra": "Canicosa de la Sierra",
     "cannock-chase": "Cannock Chase",
     "canterbury": "Canterbury",
+    "cape-neddick": "Cape Neddick, Maine",
     "cape-town": "Cape Town",
     "capeni": "Baraolt",
     "cara": "Čara",
     "cardiff": "Cardiff",
     "carmarthen": "Carmarthen",
+    "casargo": "Casargo",
     "cascais": "Cascais",
     "caserta": "Caserta",
     "cassano-dadda": "Cassano d'Adda",
@@ -5953,6 +5977,7 @@
     "castlemorton": "Castlemorton",
     "castlepollard": "Castlepollard",
     "castlewellan": "Castlewellan",
+    "cat-tien-national-park": "Cát Tiên National Park",
     "catania": "Catania",
     "cathedral-grove": "MacMillan Provincial Park",
     "cazorla": "Sierra de Cazorla",
@@ -6114,6 +6139,7 @@
     "glen-ellen": "Glen Ellen, California",
     "gliniak": "Gliniak",
     "goliad": "Goliad, Texas",
+    "goll-woods": "Goll Woods State Nature Preserve",
     "gonzales-texas": "Gonzales, Texas",
     "goose-island-state-park": "Goose Island State Park",
     "goostrey": "Goostrey",
@@ -6664,6 +6690,7 @@
     "st-georgen-im-attergau": "Sankt Georgen im Attergau",
     "st-louis": "St. Louis",
     "stanislaus-national-forest": "Stanislaus National Forest",
+    "stanton-upon-hine-heath": "Stanton upon Hine Heath",
     "stary-smokovec": "Starý Smokovec",
     "stedham": "Stedham",
     "stelmuze": "Stelmužė",
@@ -6710,6 +6737,7 @@
     "the-hague": "The Hague",
     "thessaloniki": "Thessaloniki",
     "thomasville": "Thomasville, Georgia",
+    "thredbo": "Thredbo",
     "tilaran": "Tilarán",
     "tilburg": "Tilburg",
     "tillamook": "Tillamook, Oregon",
@@ -6861,6 +6889,7 @@
     "calvos": "Calvos e Frades",
     "camaldoli": "Camaldoli",
     "canicosa-de-la-sierra": "Canicosa de la Sierra",
+    "cape-neddick": "Cape Neddick, Maine",
     "cara": "Čara",
     "castlemaine": "Castlemaine, Victoria",
     "castlemorton": "Castlemorton",
@@ -7017,6 +7046,7 @@
     "simsbury": "Simsbury, Connecticut",
     "sintra": "Sintra",
     "solon-springs": "Solon Springs, Wisconsin",
+    "stanton-upon-hine-heath": "Stanton upon Hine Heath",
     "stedham": "Stedham",
     "stoutenburg": "Stoutenburg",
     "stow-on-the-wold": "Stow-on-the-Wold",

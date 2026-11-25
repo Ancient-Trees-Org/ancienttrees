@@ -1,0 +1,70 @@
+{
+  "city": "Thredbo",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Thredbo is an alpine village in Kosciuszko National Park, in the Snowy Mountains of New South Wales, below Australia's highest peak. On the slopes near it a reader photographed a snow gum sprawling among granite boulders, its bark streaked grey, cream and olive, one of the rare healthy ones, they write, in a High Country where drought and a native beetle are killing many of the snow gums.",
+  "meta_description": "A healthy old snow gum among granite boulders near Thredbo, Kosciuszko National Park, sent by a reader: what it looks like and where.",
+  "hero_tree_id": "thr_001",
+  "oldest_tree_id": "thr_001",
+  "trees": [
+    {
+      "id": "thr_001",
+      "name": "The Snow Gum above Thredbo",
+      "species": "Snow Gum (Eucalyptus pauciflora)",
+      "location": {
+        "address": "Slopes above Thredbo, Kosciuszko National Park, New South Wales",
+        "latitude": -36.5057263022916,
+        "longitude": 148.286631945071,
+        "neighbourhood": "Thredbo"
+      },
+      "how_to_recognise": "A snow gum sprawling among big lichen-crusted granite boulders, several smooth trunks twisting out from one base, their bark streaked grey, cream and olive.",
+      "access": "In Kosciuszko National Park, on the slopes near Thredbo, reached on foot; park entry fees apply to vehicles. Our pin marks the area.",
+      "story": "\"Snow Gum dieback is affecting a very large number of the trees across the Australian High Country,\" wrote the reader who sent us this tree from the slopes near Thredbo in Kosciuszko National Park. \"Weakened by drought, a native beetle is now attacking the Snow Gums. This beauty is one of the rare healthy specimens we came across.\"\n\nSnow gums are the trees of the Australian Alps, the eucalypts that hold the treeline, bent and shaped by snow and wind. This one sprawls among lichen-crusted granite boulders, its trunks twisting out from one base and dividing again and again into a tangle of limbs. The bark is what makes snow gums famous, and here it is at its best: smooth, pale grey streaked with cream and olive, shed in ribbons so that each limb looks freshly painted.\n\nWe do not know its age or girth. Snow gums often regrow from a buried root base after fire, so the stems can be much younger than the tree itself. If you know this one, tell us here.\n\nOur pin marks the area on the slope. Look for the granite boulders that cradle its base.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "88830390-1b3a-4acb-81c0-8e97b27028ed",
+        "date": "2026-11-25"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "88830390-1b3a-4acb-81c0-8e97b27028ed",
+        "date": "2026-11-25",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 88830390-1b3a-4acb-81c0-8e97b27028ed), their name 'Snow Gum', species 'Snow Gum (Eucalyptus pauciflora)', age 'None', girth None cm, location_kind placed. Photograph viewed: the many-stemmed snow gum among lichened granite boulders, its smooth streaked bark and twisting limbs under a green crown, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/thr_001-snow-gum-above-thredbo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_808e308bc43966422bba227e",
+        "sighting_id": "88830390-1b3a-4acb-81c0-8e97b27028ed",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the many-stemmed snow gum among lichened granite boulders, its smooth streaked bark and twisting limbs under a green crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "A healthy old snow gum among granite boulders near Thredbo, Kosciuszko National Park, sent by a reader: what it looks like and where.",
+  "question_answer": "A reader sent us a many-stemmed snow gum among granite boulders on the slopes near Thredbo, in Kosciuszko National Park, New South Wales.",
+  "question_context": "Thredbo is an alpine village in Kosciuszko National Park, in the Snowy Mountains of New South Wales. A reader sent us this snow gum from the slopes near it, and their note explains why it matters to them: dieback is affecting a very large number of snow gums across the Australian High Country, where drought has weakened the trees and a native beetle is now attacking them, and this was one of the rare healthy ones they came across. Snow gums are the trees of the Australian Alps, the eucalypts that hold the treeline, bent and shaped by snow and wind. This one sprawls among lichen-crusted granite boulders, several trunks twisting out from one base into a tangle of limbs, its smooth bark streaked grey, cream and olive where it sheds in ribbons. Snow gums often regrow from a buried root base after fire, so the stems can be younger than the tree itself. We do not know its age or girth. It is reached on foot in the national park.",
+  "faq": [
+    {
+      "q": "Where is the snow gum near Thredbo?",
+      "a": "On the slopes near Thredbo in Kosciuszko National Park, among big granite boulders. Our pin marks the area."
+    },
+    {
+      "q": "Why are snow gums dying?",
+      "a": "The reader who sent this tree writes that drought has weakened snow gums across the High Country and a native beetle is now attacking them."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes, on foot in Kosciuszko National Park; park entry fees apply to vehicles."
+    }
+  ]
+}

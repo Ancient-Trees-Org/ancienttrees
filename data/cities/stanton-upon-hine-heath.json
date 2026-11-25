@@ -1,0 +1,70 @@
+{
+  "city": "Stanton upon Hine Heath",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Stanton upon Hine Heath is a small village in north Shropshire, among farmland and woods between Shrewsbury and Market Drayton. In a wood near Hazels Road a reader found an oak with a limb that curls out from the trunk and grows back into it, closing a ring of wood, and sent us four photographs of it. Nobody they asked, they write, had seen that on any other tree.",
+  "meta_description": "An oak with a limb that loops back into its own trunk, near Stanton upon Hine Heath in Shropshire, sent by a reader: what it is and where.",
+  "hero_tree_id": "sth_001",
+  "oldest_tree_id": "sth_001",
+  "trees": [
+    {
+      "id": "sth_001",
+      "name": "The Looped Oak of Stanton upon Hine Heath",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Woodland near Hazels Road, Stanton upon Hine Heath, Shropshire",
+        "latitude": 52.8047365874106,
+        "longitude": -2.60816556847927,
+        "neighbourhood": "Stanton upon Hine Heath"
+      },
+      "how_to_recognise": "A woodland oak among birches whose limb curls out from the trunk and grows back into it a little higher, closing a ring of wood you can see the sky through.",
+      "access": "In woodland near Hazels Road; the reader walked to it on a woodland path. We have not confirmed whether the wood is open to everyone; check locally before you go. Our pin marks the area.",
+      "story": "\"This is an oak tree that has a branch entering the tree to form a circle of wood,\" wrote the reader who sent it to us from a wood near Stanton upon Hine Heath in north Shropshire. \"Totally natural but everyone asked has not seen this phenomenon on any other tree. To me it's a very special oak.\"\n\nTheir four photographs show exactly what they mean. Partway up, one of the oak's limbs leaves the trunk, curls out and round, and grows back into the tree a little higher, closing a ring of wood you can see the sky through. Trees do sometimes graft onto themselves where two of their own branches press together and fuse, which foresters call inosculation, but a whole loop like this is rare enough to stop people on the path.\n\nOtherwise it is a woodland oak, moss on its lower trunk, rising among birches and younger trees, its crown holding the last brown leaves in the November pictures. We do not know its age or girth, or which oak it is; tell us here if you do.\n\nOur pin marks the area. Look up as you walk, and the ring finds you.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549",
+        "date": "2026-11-25"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549",
+        "date": "2026-11-25",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting da72a5be-2e9a-402c-a662-4a7aeb496549), their name 'A tree near Overton-on-Dee', species 'None', age 'None', girth None cm, location_kind placed. Photograph viewed: the oak's trunk and limbs in autumn woodland, one limb looping out and growing back into the trunk to close a ring, overcast daylight, colour; three more views show the loop from other sides. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/sth_001-looped-oak-of-stanton-upon-hine-heath.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4384c988562d2ece5e457be4",
+        "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the oak's trunk and limbs in autumn woodland, one limb looping out and growing back into the trunk to close a ring, overcast daylight, colour; three more views show the loop from other sides. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "An oak with a limb that loops back into its own trunk, near Stanton upon Hine Heath in Shropshire, sent by a reader: what it is and where.",
+  "question_answer": "A reader sent us an oak in a wood near Hazels Road, Stanton upon Hine Heath, whose limb loops out and grows back into its own trunk.",
+  "question_context": "A reader sent us this oak from a wood near Hazels Road, by the village of Stanton upon Hine Heath in north Shropshire, and in their note they explained why it stopped them: one of its branches enters the tree again to form a circle of wood, and nobody they asked had seen that on any other tree. Their four photographs show it plainly. Partway up, one limb leaves the trunk, curls out and round, and grows back into the tree a little higher, closing a ring you can see the sky through. Trees sometimes graft onto themselves where two of their own branches press together and fuse, which foresters call inosculation, but a whole loop like this one is rare. Otherwise it is a woodland oak with moss on its lower trunk, among birches and younger trees. We do not know its age, girth or exact species. The reader reached it on a woodland path; we have not confirmed whether the wood is open to everyone, so check locally before you go.",
+  "faq": [
+    {
+      "q": "Where is the looped oak?",
+      "a": "In woodland near Hazels Road, by Stanton upon Hine Heath in north Shropshire. Our pin marks the area."
+    },
+    {
+      "q": "How did the loop form?",
+      "a": "We do not know for certain. Trees sometimes graft onto themselves where two of their own branches press together and fuse, which foresters call inosculation."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "The reader reached it on a woodland path. We have not confirmed whether the wood is open to everyone; check locally before you go."
+    }
+  ]
+}

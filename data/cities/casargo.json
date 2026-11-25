@@ -1,0 +1,72 @@
+{
+  "city": "Casargo",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Casargo is a mountain village at the head of Valsassina, in the Alps above Lake Como in the province of Lecco. On the slope beside the track that climbs towards Chiarino stands a lone beech with a short, enormously wide trunk and half a dozen great limbs, which a reader photographed in September and puts at around 600 years old.",
+  "meta_description": "A huge old beech above Casargo in Valsassina, sent by a reader: where it stands on the track to Chiarino and what we know about it.",
+  "hero_tree_id": "cgo_001",
+  "oldest_tree_id": "cgo_001",
+  "trees": [
+    {
+      "id": "cgo_001",
+      "name": "The Great Beech of Casargo",
+      "species": "European Beech (Fagus sylvatica)",
+      "age_estimate": "about 600 years, by a reader's estimate",
+      "location": {
+        "address": "On the slope beside the track towards Chiarino, above Casargo, Valsassina, Lecco",
+        "latitude": 46.0345211349704,
+        "longitude": 9.44267978669723,
+        "neighbourhood": "Casargo"
+      },
+      "how_to_recognise": "A lone, very broad beech on a steep grassy slope by the track, its short grey trunk crusted with lichen and gripping mossy boulders and an old dry-stone wall, half a dozen great limbs leaning out from it.",
+      "access": "Free. On an open mountain slope beside the track above Casargo, reached on foot. Our pin marks the area.",
+      "story": "High above Casargo, on the track that climbs out of Valsassina towards Chiarino, a single beech stands out from the slope, and a reader who walked up in September sent us three photographs of it.\n\nFrom below it looks like a green cloud resting on the hillside. Close to, it is something else. The trunk is short and enormously wide, grey and crusted with lichen, its base gripping mossy boulders and an old dry-stone wall, and from it half a dozen great limbs rise and lean outward before they vanish into the crown. Mountain beeches were often cut back again and again for firewood and fodder, which can leave a squat old base carrying many stems like this one, though we do not know this tree's own history.\n\nThe reader puts it at around 600 years old and its girth at 930 centimetres. Those are their figures, not a measurement we have seen, and we would love to hear from anyone who has measured it or knows what the village says about it.\n\nOur pin marks the area on the slope. Walk round to the uphill side, where the wall meets the roots.",
+      "age_basis": "source",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "861d7cdb-6e15-4015-8e3c-e2b0607ca814",
+        "date": "2026-11-25"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "861d7cdb-6e15-4015-8e3c-e2b0607ca814",
+        "date": "2026-11-25",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 861d7cdb-6e15-4015-8e3c-e2b0607ca814), their name 'European Beech', species 'European Beech (Fagus sylvatica)', age 'around 600 years', girth 930 cm, location_kind placed. Photograph viewed: the whole beech from below on a steep grassy slope, a broad many-limbed crown under cloud, daylight, colour; a second view shows the huge lichened base among boulders and a dry-stone wall. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cgo_001-great-beech-of-casargo.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_1342bcb505edaa231f7fcdfc",
+        "sighting_id": "861d7cdb-6e15-4015-8e3c-e2b0607ca814",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole beech from below on a steep grassy slope, a broad many-limbed crown under cloud, daylight, colour; a second view shows the huge lichened base among boulders and a dry-stone wall. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 9,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "A huge old beech above Casargo in Valsassina, sent by a reader: where it stands on the track to Chiarino and what we know about it.",
+  "question_answer": "A reader sent us a great beech on the slope above Casargo, beside the track towards Chiarino in Valsassina; they put it at around 600 years old.",
+  "question_context": "A reader who walked up from Casargo, at the head of Valsassina in the province of Lecco, sent us this beech in September. It stands alone on a steep grassy slope beside the track that climbs towards Chiarino, and from below it looks like a green cloud resting on the hillside. Close to, the trunk is short and enormously wide, grey and crusted with lichen, gripping mossy boulders and an old dry-stone wall, and half a dozen great limbs rise and lean out from it into the crown. Mountain beeches were often cut back for firewood and fodder, which can leave a squat base carrying many stems, though we do not know this tree's own history. The reader puts it at around 600 years old and its girth at 930 centimetres. Those are their figures, not a measurement we have seen. The tree is free to visit on foot, and our pin marks the area of the slope rather than the trunk itself.",
+  "faq": [
+    {
+      "q": "Where is the great beech of Casargo?",
+      "a": "On a steep grassy slope beside the track from Casargo towards Chiarino, in Valsassina, Lecco. Our pin marks the area."
+    },
+    {
+      "q": "How old is it?",
+      "a": "A reader puts it at around 600 years. That is their estimate; we have not seen a source for its age."
+    },
+    {
+      "q": "How big is it?",
+      "a": "The reader gives its girth as 930 centimetres. That is their figure, not a measurement we have seen."
+    }
+  ]
+}

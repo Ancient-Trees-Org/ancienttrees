@@ -1,0 +1,71 @@
+{
+  "city": "Cape Neddick",
+  "country": "United States",
+  "state": "Maine",
+  "status": "needs_curation",
+  "intro": "Cape Neddick is a village in the town of York on the southern coast of Maine, known for its lighthouse on the Nubble. Inland, at the edge of the woods beside Cape Neddick Road, a reader found a broad old oak whose twisting limbs spread over the road, and sent us its photograph with three words: very old and very big.",
+  "meta_description": "A broad old oak beside Cape Neddick Road in York, Maine, sent by a reader: what makes it stand out and how to see it.",
+  "hero_tree_id": "cpn_001",
+  "oldest_tree_id": "cpn_001",
+  "trees": [
+    {
+      "id": "cpn_001",
+      "name": "The Roadside Oak of Cape Neddick",
+      "species": "Oak (Quercus sp.)",
+      "location": {
+        "address": "Beside Cape Neddick Road, Cape Neddick, York, Maine",
+        "latitude": 43.1860388402636,
+        "longitude": -70.6082595802852,
+        "neighbourhood": "Cape Neddick"
+      },
+      "how_to_recognise": "At the edge of the woods by the road: a short dark trunk splitting low into several great twisting limbs, a crown far wider than the thin straight trees behind it, a gravel verge at its foot.",
+      "access": "Free. Seen from the roadside verge; watch for traffic. Our pin marks the area.",
+      "story": "\"Very old and very big!\" wrote the reader who sent us this oak from Cape Neddick, on the southern coast of Maine, and the photograph bears out both.\n\nIt stands at the edge of the woods beside Cape Neddick Road, far wider than anything around it. A short, dark trunk splits low down into several great limbs that lean out in every direction, twisting and doubling back as they climb, and the crown they carry spreads over the road on one side and the gravel verge on the other. Behind it the younger trees of the wood stand straight and thin, which makes the old oak look broader still. In the reader's November picture the crown holds a last scatter of brown leaves against a clear blue sky.\n\nOaks usually grow this wide and low only in open ground, so it may once have stood in a field or at a pasture edge before the woods closed in, but we do not know its history. We do not know its species for certain either, or its girth; tell us here if you do.\n\nSee it from the verge, and mind the traffic.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "2cb06822-0a38-4545-8080-3567dc38c04f",
+        "date": "2026-11-25"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "2cb06822-0a38-4545-8080-3567dc38c04f",
+        "date": "2026-11-25",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 2cb06822-0a38-4545-8080-3567dc38c04f), their name 'Oak', species 'Oak', age 'None', girth None cm, location_kind placed. Photograph viewed: the whole broad oak from across a gravel verge, its low limbs spreading over the road, a scatter of brown leaves, clear blue sky, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cpn_001-roadside-oak-of-cape-neddick.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1459,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_3e4b6086edcba616bdf65e60",
+        "sighting_id": "2cb06822-0a38-4545-8080-3567dc38c04f",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole broad oak from across a gravel verge, its low limbs spreading over the road, a scatter of brown leaves, clear blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "A broad old oak beside Cape Neddick Road in York, Maine, sent by a reader: what makes it stand out and how to see it.",
+  "question_answer": "A reader sent us a broad, low-limbed oak at the edge of the woods beside Cape Neddick Road, in York on the southern coast of Maine.",
+  "question_context": "Cape Neddick is a village in the town of York, on the southern coast of Maine. A reader sent us this oak from the edge of the woods beside Cape Neddick Road, with a note that said simply that it was very old and very big. The photograph bears out both. A short, dark trunk splits low down into several great limbs that lean out in every direction, twisting and doubling back as they climb, and the crown spreads over the road on one side and a gravel verge on the other. The younger trees behind it stand straight and thin, which makes it look broader still. Oaks usually take this wide, low shape only in open ground, so it may once have stood in a field or at a pasture edge, but we do not know its history, its exact species or its girth, and we would welcome what a local reader knows. It can be seen from the roadside verge; mind the traffic.",
+  "faq": [
+    {
+      "q": "Where is the roadside oak of Cape Neddick?",
+      "a": "At the edge of the woods beside Cape Neddick Road in York, Maine, by a gravel verge. Our pin marks the area."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "Yes. It can be seen from the roadside verge; watch for traffic on the road."
+    },
+    {
+      "q": "What kind of oak is it?",
+      "a": "We do not know the species for certain. If you do, tell us on the tree's page."
+    }
+  ]
+}
