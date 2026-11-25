@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-25 session: 50 US local papers mailed
+
+- Round 1 (25) went out overnight through Resend; round 2 (25) sent this morning on Hidde's word. 50 US local desks in about 40 places now have the Guardian mail with a tree of their own city. Read the answers in data/mail-yield.json (press) around 12-08.
+- The mail brake ran blind: without `RESEND_READ_KEY` it cannot read bounces or complaints, so it only caps a run at 25. A read-only Resend key in the mail env and the repo secrets would let it stop on bounces.
+
 ## 2026-11-25 session: Suggested people keeps loading as you scroll
 
 - Built on Hidde's yes ("Ja, bouw het"): under the ambassadors and the photographers of your places, Find people goes on with the public profiles who photographed the most trees anywhere, 20 at a time as you scroll, until the last one (297 public photographers today). Web on the next deploy, apps in their next build.
