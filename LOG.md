@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25 night run (second retry): nothing to ship
+
+No claims standing. READY leads (york, guimaraes, leamington-spa) are the ones the earlier write pass already handed back. The rest of the "awaiting a writer" pile is stale or duplicates of live trees (passcheck --pending flags them; several would overwrite live ids). Own research is paused, so no verify pass. Two reader photographs wait for the reader judge (tor_003; 3c544597 is not on disk, so not judged blind). Nothing changed in the product.
+
 ## 2026-11-25 night run (retry, 5 min): nothing to ship
 
 - Claims: none standing. READY leads: 3 (York, Guimarães, Leamington Spa), the same ones the earlier write pass handed back as unpublishable; not redispatched. Own research is paused, so no verify pass. enrich --next, recognise --stuck and reader_words: nothing to do. pagegaps shows only species and park pages, which the strict cut keeps out of Google, so left. health: green except 2 new web error types (maplibre `getExtension is not a function`), orange, not yet 3 pages. Nothing published.
