@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25 night run (third attempt): nothing to ship
+
+No claims standing. Same three READY leads (york, guimaraes, leamington-spa), already handed back by the write pass, so not redispatched. prepare.py's "awaiting a writer" pile is stale files or duplicates of live trees (passcheck --pending). Own research is paused. Reader photo tor_003 is the reader judge's. Nothing changed in the product.
+
 ## 2026-11-25 night run (second retry): nothing to ship
 
 No claims standing. READY leads (york, guimaraes, leamington-spa) are the ones the earlier write pass already handed back. The rest of the "awaiting a writer" pile is stale or duplicates of live trees (passcheck --pending flags them; several would overwrite live ids). Own research is paused, so no verify pass. Two reader photographs wait for the reader judge (tor_003; 3c544597 is not on disk, so not judged blind). Nothing changed in the product.
