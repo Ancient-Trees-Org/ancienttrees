@@ -221,6 +221,36 @@
    "agreed": null
   },
   {
+   "id": "tip:1654",
+   "seen": "2026-11-25",
+   "kind": "a tip without a photograph",
+   "tree": "beech",
+   "city": "Scarborough, UK",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 400,
+   "verdict": "lead",
+   "reason": "Beech in Raincliffe Woods, about 400 cm round by the reader's measure; no spot in a large wood and no source yet, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1655",
+   "seen": "2026-11-25",
+   "kind": "a tip without a photograph",
+   "tree": "chestnut",
+   "city": "Scarborough, UK",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": 420,
+   "verdict": "lead",
+   "reason": "Chestnut in Raincliffe Woods said to be the country's second oldest, about 420 cm round by the reader's measure; no spot and no source found, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",

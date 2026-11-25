@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: two Scarborough tips asked where they stand
+
+- **Nothing went live this run.** A reader sent two trees in Raincliffe Woods near Scarborough as words only, with no photograph: a beech about 400 cm round, and a chestnut about 420 cm round that they say is believed to be the second oldest in the country. Raincliffe Woods is a large wood and neither tip names a spot. A quick search found no register entry or source for either tree, so there is no honest pin yet. Both are now leads in data/leads/scarborough.json. The reader gets the standard "where exactly does it stand?" mail (`hold_reply.py ... no_location`), which goes at the next knock. Verdicts tip:1654 and tip:1655 are `lead`.
+- **Still waiting:** sighting 3c544597 (Amsterdam) is our own account's (`mine`) and its photo is still not on disk, so it was not judged.
+- No open reports, no feedback waiting, no readers' words waiting.
+
 ## 2026-11-25 reader judge: a first photograph for Hajduk's Mulberry in Split
 
 - **Live: split/spl_001, The Hajdukova Murva**, which had no photograph, now has a reader's photo as its lead. It shows the old mulberry in the Stari plac courtyard: one thick leaning trunk in a ring of fallen leaves, the crown turning yellow, and the club terraces behind. Species and setting match. It is filed in November. The pin did not move, because the coordinate the reader's app sent was our own pin, not a GPS fix. The reader was mailed.

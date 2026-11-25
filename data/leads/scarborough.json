@@ -1,0 +1,23 @@
+{
+  "leads": [
+    {
+      "id": "sca_L1",
+      "name": "Raincliffe Woods beech",
+      "species": "Beech (Fagus sp.)",
+      "place": "Raincliffe Woods, Scarborough, North Yorkshire",
+      "found_by_reader": {"tip": "submission 1654"},
+      "reader_girth_cm": 400,
+      "reason": "Reader's tip without a photograph (2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure. Missing: where in the wood it stands (Raincliffe Woods is a large woodland, so no honest pin yet). No register or source found. Reader asked where exactly."
+    },
+    {
+      "id": "sca_L2",
+      "name": "Raincliffe Woods chestnut",
+      "species": "Chestnut (Castanea sp.)",
+      "place": "Raincliffe Woods, Scarborough, North Yorkshire",
+      "found_by_reader": {"tip": "submission 1655"},
+      "reader_girth_cm": 420,
+      "reason": "Reader's tip without a photograph (2026-11-25): believed locally to be the second oldest chestnut in the country, girth about 420 cm by their measure. Missing: where in the wood it stands; no source found for the claim in a quick search. Reader asked where exactly."
+    }
+  ],
+  "blocked": []
+}
