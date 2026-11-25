@@ -53,7 +53,23 @@
         "kind": "reader's hand-placed pin",
         "date": "2026-11-15",
         "note": "Where the reader moved the pin by hand (submission 803); the phone's own position was 664 m away. Approximate."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hum_001-the-giant-tree-45373393.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "45373393-9b42-4b86-904f-cb9fc689d00f",
+          "note": "Photographed by a reader and sent through the app (2026-11-24); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-25"
+        }
+      ]
     },
     {
       "id": "hum_002",
@@ -115,6 +131,20 @@
           "contributor_user_id": "p_492afbdde23d69af867aff0f",
           "sighting_id": "64e94530-a55e-4174-b649-85eda345db92",
           "note": "The same reader's photograph of the park's Tall Tree sign (measured February 1957), looked at 2026-11-15. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-67933e44.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "67933e44-d017-44fd-9497-68b5a39e964f",
+          "note": "Photographed by a reader and sent through the app (2026-11-24); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-25"
         }
       ]
     }
