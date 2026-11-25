@@ -1,3 +1,4 @@
+SENT 2026-11-25 (outreach_send via Resend, batch reply-marianne-android-2026-11-25), on Hidde's "verstuur alle mails hierboven".
 To: Marianne (thread "Re: Help us test the Android app"), German, from the new-app invite of 2026-11-25.
 Her mail, in English: "Hello, thanks for the request. I probably can't really support you, I'm over 70 and not very mobile at the moment. I'll stay on board and am very curious. Best regards, Marianne"
 Middle paragraph is Hidde's own content (2026-11-25): "hopefully they can enjoy the trees of the world from home - if they see any mistakes or things that can be improved please let us know".

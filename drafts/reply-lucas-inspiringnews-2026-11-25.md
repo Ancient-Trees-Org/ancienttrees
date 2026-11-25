@@ -1,3 +1,4 @@
+SENT 2026-11-25 (outreach_send via Resend, batch reply-lucas-inspiringnews-2026-11-25), on Hidde's "verstuur alle mails hierboven".
 To: Lucas Barquero, editor at Inspiring News (Spanish digital paper, positive news), thread "Inspiring News Interview". He wrote first; nothing sent to him before.
 He asks for an interview by Zoom. Time: Hidde, 2026-11-25: "stel hem morgen om 15u voor dan heb ik ze gelijk alletwee gedaan" (Mattia is Thursday 14:00 to 15:00). Spain is CET too, so 15:00 is 15:00 for both.
 Spain on the site: Spain is in the focus countries; GA had Spain 17 on 2026-11-02.

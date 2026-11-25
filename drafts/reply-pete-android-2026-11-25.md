@@ -1,3 +1,4 @@
+HELD 2026-11-25: approved with the others, not sent until his other address is on the Play tester list (the mail says it is added).
 To: Pete (thread "Re: Help us test the Android app"), from the new-app invite of 2026-11-25.
 He asks to send the invite to the other Gmail address his Play account uses (it is in his mail of 2026-11-25 10:09); the link does not accept the address we mailed.
 BEFORE SENDING: add that address to the "Android testers" email list in Play Console (new app app.ancienttrees.map). The draft says it is added.

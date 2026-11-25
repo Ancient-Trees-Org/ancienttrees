@@ -1,3 +1,4 @@
+SENT 2026-11-25 (outreach_send via Resend, batch reply-mattia-ildolomiti-meet-2026-11-25), on Hidde's "verstuur alle mails hierboven".
 To: Mattia Sartori (Il Dolomiti, L'altramontagna), thread "Re: Interview request".
 His last mail: tomorrow 14:00 is great, he sends the invite, is Google Meet okay? The invite came (Thu 26 Nov, 14:00 to 15:00, Google Meet).
 Also: accept the calendar invite in hidde@ancienttrees.app.
