@@ -358,9 +358,9 @@
    "what": "Reader confirmed the campus is reachable from the street; the Shanghai ginkgos went live on that in the previous run (sha_002)."
   },
   "1603": {
-   "date": "2026-11-24",
-   "status": "needs_hidde",
-   "what": "Asks what the ambassador role involves before saying yes, no age known yet; suggested answer in drafts/reply-reader-1603-2026-11-24.md"
+   "date": "2026-11-25",
+   "status": "handled",
+   "what": "Answered on Hidde's line 2026-11-24 (contributor_reply.py); Jakob said yes and is Girona ambassador"
   },
   "1630": {
    "date": "2026-11-24",
