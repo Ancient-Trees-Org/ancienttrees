@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 session: inbox read, Il Dolomiti interview proposed
+
+- Mattia Sartori (Il Dolomiti, L'altramontagna) asked for an interview. Sent on Hidde's "Verstuur" (Resend, in his thread): a video call proposed for Thursday 26 November at 14:00 CET. His answer will land in hidde@ancienttrees.app.
+- Waste Magazine received the article and will publish "as soon as possible"; they asked to be reminded if no link has come in a few days. A session on or after 2026-11-30 checks wastemagazine.es and, if nothing is up, drafts a one-line reminder.
+- No reply needed: Jakob's yes (Girona, handled by the reader judge), Alessandro's emoji, the Spokesman-Review and East Hampton Star auto-replies, a Notifier sales mail in spam, DMARC reports.
+
 ## 2026-11-25 session: a web error that sat orange as two, fixed
 
 - **Fixed**: the card of a tapped pin on a phone-width city map threw "el is null" (Venice, Milan, Pisa, Vancouver; Chrome and Safari) when painting saves closed it again before it was measured. Live with the next deploy.
