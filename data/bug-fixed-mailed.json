@@ -1,0 +1,4 @@
+{
+ "_note": "feedback row -> the bug it reported and the day we told them it is fixed. Ids only. scripts/bug_fixed_mail.py.",
+ "mailed": {}
+}

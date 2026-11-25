@@ -61,6 +61,11 @@ def main():
     ap.add_argument("--test", nargs=2, metavar=("ID", "TEST"))
     ap.add_argument("--fixed", nargs=2, metavar=("ID", "COMMIT"))
     ap.add_argument("--no-test", metavar="WHY")
+    # What now works, in a reader's words, for the "fixed, thanks to you" mail
+    # (scripts/bug_fixed_mail.py, Hidde 2026-11-25). Without it a reader who
+    # reported the bug is not told.
+    ap.add_argument("--reader-line", nargs=2, metavar=("ID", "TEXT"))
+    ap.add_argument("--reader-line-nl", nargs=2, metavar=("ID", "TEXT"))
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--days", type=int, default=30)
     a = ap.parse_args()
@@ -93,12 +98,25 @@ def main():
         if r.get("found_by") in PEOPLE and not r.get("test") and not a.no_test:
             sys.exit("%s was found by a person: name the test that catches it now "
                      "(--test) or say why no machine can (--no-test \"why\")" % r["id"])
+        if r.get("found_by") == "reader" and not r.get("reader_line"):
+            sys.exit("%s was found by a reader, who is told when it is fixed "
+                     "(scripts/bug_fixed_mail.py): first say what now works, in their words: "
+                     "--reader-line %s \"...\" (and --reader-line-nl for a Dutch reader)" % (r["id"], r["id"]))
         if a.no_test:
             r["no_test_reason"] = a.no_test
         r["status"] = "fixed"
         r["fixed_in"] = a.fixed[1]
         save(d)
         print("%s fixed in %s" % (r["id"], a.fixed[1]))
+        return 0
+
+    if a.reader_line or a.reader_line_nl:
+        for arg, key in ((a.reader_line, "reader_line"), (a.reader_line_nl, "reader_line_nl")):
+            if arg:
+                r = row(d, arg[0])
+                r[key] = arg[1].strip().rstrip(".")
+                print("%s %s: %s" % (r["id"], key, r[key]))
+        save(d)
         return 0
 
     if a.report:

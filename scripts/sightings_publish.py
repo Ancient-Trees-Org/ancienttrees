@@ -942,7 +942,9 @@ def mark_status(sighting_id, verdict, really):
         print(f"  {sighting_id}: status not written back ({e.__class__.__name__})")
 
 
-def send_mail(addr, subject, body, really, sighting_id):
+def send_mail(addr, subject, body, really, sighting_id,
+              recent_ok="confirms that the tree or photograph they sent is live",
+              batch="sighting-published"):
     sent_log = load(SENT_PATH, {"sent": []})
     dnc = {a.lower().strip() for a in sent_log.get("do_not_contact", [])}
     if addr.lower() in dnc or any(addr.lower().endswith(d) for d in dnc if d.startswith("@")):
@@ -970,13 +972,13 @@ def send_mail(addr, subject, body, really, sighting_id):
             # 2026-11-14: "een bevestiging van het platform dat het live is
             # zou goed zijn", when the Istanbul reader's welcome mail and the
             # Villa Salina reader's thread would each have held theirs a week).
-            server.send_message(msg, recent_ok="confirms that the tree or photograph they sent is live")
+            server.send_message(msg, recent_ok=recent_ok)
     except Exception as e:
         print(f"  mail to {addr}: transport failed ({e.__class__.__name__})")
         return False
     sent_log.setdefault("sent", []).append({
         "date": datetime.date.today().isoformat(), "to": addr, "outlet": "reader (app)",
-        "subject": subject, "batch": "sighting-published", "sighting_id": sighting_id})
+        "subject": subject, "batch": batch, "sighting_id": sighting_id})
     save(SENT_PATH, sent_log)
     print(f"  SENT {addr}: {subject}")
     return True

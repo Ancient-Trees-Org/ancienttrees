@@ -628,7 +628,9 @@
    "status": "fixed",
    "found_by": "reader",
    "test": "AncientTreesUITests/CountryStaysWalk",
-   "fixed_in": "eef9c2bcb"
+   "fixed_in": "eef9c2bcb",
+   "reader_line": "the country you choose in Edit profile now stays",
+   "reader_line_nl": "het land dat je kiest bij Edit profile blijft nu staan"
   },
   {
    "id": "ESC-2026-11-24-a-tree-sent-from-the-app-with-only-furth",

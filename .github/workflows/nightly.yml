@@ -274,6 +274,9 @@ jobs:
           # their first at once, later ones bundled, at most one mail per 30
           # days. The publish step below only queues them.
           python3 scripts/sightings_publish.py --flush-mail --send
+          # A reader who reported a bug hears once it is fixed where they use
+          # it (Hidde, 2026-11-25): the site live, or the App Store build.
+          python3 scripts/bug_fixed_mail.py --send || true
           # The standard first contact (Hidde, 2026-10-02): a reader whose
           # photograph is live in a place with no ambassador is invited once,
           # from the same address. The badge follows their answer, by hand.
@@ -295,10 +298,10 @@ jobs:
           # APPROVED is set in the script; one mail per person.
           python3 scripts/signin_last_call.py --send || true
           python3 scripts/private_store.py push
-          if ! git diff --quiet data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json; then
+          if ! git diff --quiet data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json data/bug-fixed-mailed.json; then
             git config user.name "claude[bot]"
             git config user.email "41898282+claude[bot]@users.noreply.github.com"
-            git add data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json
+            git add data/ambassadors.json data/tree-approved-mailed.json data/photo-live-mailed.json data/signin-watch.json data/signin-last-call.json data/bug-fixed-mailed.json
             git commit -m "Contributor replies and ambassador invitations sent, log updated"
             git push
           fi
