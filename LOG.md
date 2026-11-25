@@ -240,7 +240,7 @@ No claims standing. READY leads (york, guimaraes, leamington-spa) are the ones t
 ## 2026-11-25 session: the repo moved to the Ancient-Trees-Org organisation
 
 - **Moved**: ancienttrees and ancienttrees-open now live under github.com/Ancient-Trees-Org (Hidde created the org; `scripts/move_to_org.py` rewrote the 7 files). The 25 secrets, Pages (ancienttrees.app, open.ancienttrees.app, both answer 200) and the github-pages environment came along. The Mac's remote points to the org. A deploy (run 45617756403) and a reader-judge run (45617763984) were dispatched on the moved repo as the test.
-- **Still Hidde's**: a new fine-grained token for the Supabase trigger with the org as resource owner (the old one only reaches the personal account's repos; until then the 15-minute poll picks readers up), then paste supabase/reader-judge-trigger.sql again; invite the second person as org Owner. www needs nothing: it still answers 301 to ancienttrees.app after the move. Steps in .github/ORG_MOVE.md.
+- **Still Hidde's**: a new fine-grained token for the Supabase trigger with the org as resource owner (the old one only reaches the personal account's repos; until then the 15-minute poll picks readers up), then paste supabase/reader-judge-trigger.sql again; the second person is invited as org Owner by mail (2026-11-25, accepted not yet seen). www needs nothing: it still answers 301 to ancienttrees.app after the move. Steps in .github/ORG_MOVE.md.
 
 ## 2026-11-24 session: a second owner everywhere; GitHub move to an organisation prepared
 
